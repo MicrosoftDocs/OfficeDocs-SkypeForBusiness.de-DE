@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Zusammenfassung: Überlegungen zur Portverwendung vor der Implementierung von Skype for Business Server.'
-ms.openlocfilehash: 33199855d020af08e306022be47a0a9757125adb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025786"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220385"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Port-und Protokollanforderungen für Server
  
@@ -34,7 +34,7 @@ Dies kann zwar zunächst ein wenig entmutigend erscheinen, die Planung kann jedo
   
 Sie können die Informationen in diesen Tabellen auch in Diagrammform finden, indem Sie das Poster mit den Protokoll Arbeitslasten, das aus den [technischen Diagrammen für Skype for Business Server 2015](../../technical-diagrams.md) Artikel verknüpft ist, überprüfen.
 > [!NOTE]
-> - Wenn Sie Skype for Business Online implementieren (O365), lesen Sie [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybrid Umgebungen müssen auf dieses Thema verweisen und auch die [Hybrid Konnektivität planen](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
+> - Wenn Sie Skype for Business Online implementieren (Microsoft 365 oder Office 365), lesen Sie [Microsoft 365-und Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybrid Umgebungen müssen auf dieses Thema verweisen und auch die [Hybrid Konnektivität planen](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Sie können Hardware-oder Softwarefirewalls haben, wir benötigen keine bestimmten Modelle oder Versionen. Worauf es ankommt, ist, welche Ports in der Whitelist sind, damit die Firewall die Funktion von Skype for Business Server nicht beeinträchtigt.
   
 ## <a name="port-and-protocol-details"></a>Port-und Protokoll Details
@@ -107,13 +107,13 @@ In der folgenden Tabelle sind die Ports aufgeführt, die für jede interne Serve
 |Front-End-Server für beständigen Chat  |Dateiübertragungsdienst für beständigen Chat  |443  |TCP (TLS)  ||
    
 > [!NOTE]
-> Einige Szenarien für die Remoteanrufsteuerung erfordern eine TCP-Verbindung zwischen dem Front-End-Server oder dem Director und der Nebenstellenanlage. Obwohl Skype for Business Server TCP-Port 5060 nicht mehr verwendet, erstellen Sie während der Bereitstellung von Remoteanrufsteuerung eine vertrauenswürdige Serverkonfiguration, die den FQDN des RCC-Leitungs Servers dem TCP-Port zuordnet, den der Front-End-Server oder Director zum Herstellen einer Verbindung mit dem PBX-System. Ausführliche Informationen finden Sie unter dem **CsTrustedApplicationComputer** -Cmdlet in der Dokumentation zur Skype for Business Server-Verwaltungskonsole.
+> Einige Szenarien für die Remoteanrufsteuerung erfordern eine TCP-Verbindung zwischen dem Front-End-Server oder dem Director und der Nebenstellenanlage. Obwohl Skype for Business Server TCP-Port 5060 nicht mehr verwendet, erstellen Sie während der Bereitstellung von Remoteanrufsteuerung eine vertrauenswürdige Serverkonfiguration, die den FQDN des RCC-Leitungs Servers dem TCP-Port zuordnet, den der Front-End-Server oder Director zum Herstellen einer Verbindung mit dem PBX-System verwendet. Ausführliche Informationen finden Sie unter dem **CsTrustedApplicationComputer** -Cmdlet in der Dokumentation zur Skype for Business Server-Verwaltungskonsole.
   
 Für Ihre Pools, in denen nur Hardwarelastenausgleich (nicht DNS-Lastenausgleich) verwendet wird, werden in der folgenden Tabelle die Ports aufgeführt, die zum Öffnen der Hardwarelastenausgleichs-Geräte erforderlich sind.
   
 **Hardware Lastenausgleichs-Ports bei Verwendung von nur Hardwarelastenausgleich**
 
-|Lastenausgleichsmodul|Port|Protokoll|
+|Lastenausgleichssystem|Port|Protokoll|
 |:-----|:-----|:-----|
 |Front-End-Server Lastenausgleich  |5061  |TCP (TLS)  |
 |Front-End-Server Lastenausgleich  |444  |HTTPS  |
@@ -140,7 +140,7 @@ Für die Front-End-Pools und Director-Pools, die den DNS-Lastenausgleich verwend
   
 **Hardware Lastenausgleichs-Ports bei Verwendung des DNS-Lastenausgleichs**
 
-|Lastenausgleichsmodul|Port|Protokoll|
+|Lastenausgleichssystem|Port|Protokoll|
 |:-----|:-----|:-----|
 |Front-End-Server Lastenausgleich  |80  |HTTP  |
 |Front-End-Server Lastenausgleich  |443  |HTTPS  |
@@ -187,7 +187,7 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahm
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |A/V-Edgeserver, intern eingehend  |Any  |A/V-Edgeserver, intern  |UDP und TCP  |Any  |Any  |Nicht authentifizieren  |
 |A/V-Edgeserver, extern eingehend  |Any  |A/V-Edgeserver, extern  |UDP und TCP  |Any  |Any  |Nicht authentifizieren  |
-|A/V-Edgeserver, intern ausgehend  |A/V-Edgeserver, intern  |Any  |UDP &amp; -TCP  |Any  |Any  |Nicht authentifizieren  |
+|A/V-Edgeserver, intern ausgehend  |A/V-Edgeserver, intern  |Any  |UDP- &amp; TCP  |Any  |Any  |Nicht authentifizieren  |
 |A/V-Edgeserver, extern ausgehend  |A/V-Edgeserver, extern  |Any  |UDP und TCP  |Any  |Any  |Nicht authentifizieren  |
 |Vermittlungsserver, eingehend  |Any  |Vermittlungs  <br/> Server (s)  |UDP und TCP  |Any  |Any  |Nicht authentifizieren  |
 |Vermittlungsserver, ausgehend  |Vermittlungs  <br/> Server (s)  |Any  |UDP und TCP  |Any  |Any  |Nicht authentifizieren  |

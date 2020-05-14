@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype Connectivity bezeichnet.'
-ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b0cae57ac357b2b88d74b6326176c7cb7cdaf22e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780064"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219745"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Bereitstellen der Skype-Konnektivität in Skype for Business Server
 
@@ -73,13 +73,13 @@ In der folgenden Tabelle wird die Unterstützung für die Skype-Verzeichnissuche
 > [!NOTE]
 > Wenn in der Warteschlange zu viele ausstehende Anforderungen vorhanden sind, werden von Skype for Business Server eingehende Anforderungen gedrosselt. 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Bereitstellen von Skype-Konnektivität für Skype for Business Online in Office 365
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Bereitstellen von Skype-Konnektivität für Skype for Business Online
 
-Die Skype-Konnektivität ist auch ein Feature von Skype for Business Online, das Teil von Office 365 ist. Sie können das Skype Connectivity-Feature in der Skype for Business Administration Center im Microsoft 365 Admin Center aktivieren.
+Die Skype-Konnektivität ist auch ein Feature von Skype for Business Online, das Teil von Microsoft 365 und Office 365 ist. Sie können das Skype Connectivity-Feature in der Skype for Business Administration Center im Microsoft 365 Admin Center aktivieren.
   
-Für Office 365 mittelständische Unternehmen, Office 365 Enterprise, Office 365 Bildung und Office 365 für Regierungen: Melden Sie sich beim Microsoft 365 Admin Center an, und navigieren Sie zum Skype for Business Verwaltungskonsole. Wechseln Sie zu externe Kommunikation. Klicken Sie unter öffentliche Sofortnachrichten-Dienstanbieter auf aktivieren. Wenn Sie den Zugriff einzelner Benutzer auf Skype-Konnektivität steuern möchten, können Sie dies tun, indem Sie die Einstellungen für die externe Kommunikation einzelner Benutzer bearbeiten.
+Für Microsoft 365 mittelständische Unternehmen, Office 365 Enterprise, Microsoft 365 Education und Office 365 for Government: Melden Sie sich beim Microsoft 365 Admin Center an, und navigieren Sie zum Skype for Business Administration Center. Wechseln Sie zu externe Kommunikation. Klicken Sie unter öffentliche Sofortnachrichten-Dienstanbieter auf aktivieren. Wenn Sie den Zugriff einzelner Benutzer auf Skype-Konnektivität steuern möchten, können Sie dies tun, indem Sie die Einstellungen für die externe Kommunikation einzelner Benutzer bearbeiten.
   
-Für Office 365 Small Business Premium: Melden Sie sich bei Office 365 an, und wechseln \> Sie zu \> Administrator Diensteinstellungen Chat, Besprechungen und Konferenzen. Aktivieren Sie die externe Kommunikation. Der Schalter für externe Kommunikation aktiviert die Skype-Konnektivität und die Kommunikation mit anderen Organisationen, die Skype for Business verwenden.
+Für Office 365 Small Business Premium: Melden Sie sich bei Office 365 an, und wechseln Sie zu Administrator \> Diensteinstellungen \> Chat, Besprechungen und Konferenzen. Aktivieren Sie die externe Kommunikation. Der Schalter für externe Kommunikation aktiviert die Skype-Konnektivität und die Kommunikation mit anderen Organisationen, die Skype for Business verwenden.
   
 Weitere Informationen zur Skype for Business Online Verwaltung finden Sie unter:
   
@@ -114,7 +114,7 @@ Lokale Bereitstellungen sind erforderlich, um einen Verbund-DNS-SRV-Eintrag für
 |sip.contoso.com   ||
 |sipfed.contoso.com   |In jedem Fall muss der exakte FQDN entweder im SN oder im San des externen Zertifikats vorhanden sein, das auf dem Edge-Server installiert ist.   |
 |access.contoso.com   ||
-|**Ungültige FQDNs**|**Grund**|
+|**Ungültige FQDNs**|**Reason**|
 |sip.contoso-edge.com   |Keine Suffix-Übereinstimmung.  |
 |sip.it.contoso.com   |Es wird kein Suffix auf oberster Ebene gefunden.   |
 
@@ -204,7 +204,7 @@ Das Konfigurieren der Skype-Konnektivität kann auch nur mithilfe von PowerShell
     
    - ProxyFqdn: Standort von Skype Federation Edge (Besitzer/verwaltet von Microsoft)
     
-   - IconURL: Symbol, das von &amp; lync Skype for Business-Client verwendet wird, um Skype-Kontakte visuell zu identifizieren
+   - IconURL: Symbol, das von lync Skype for Business-Client verwendet wird &amp; , um Skype-Kontakte visuell zu identifizieren
     
    - NameDecorationRoutingDomain und NameDecorationExcludedDomainList: mit dieser Einstellung können Benutzer die MSAS von Skype-Benutzern eingeben, ohne sich über das "dekorieren" von nicht-Microsoft-Domänen mit "MSN.com" informieren zu müssen. Dadurch entfällt die Eingabe von "User (contoso. com) @MSN. com" für alle Domänen, die sich nicht in der ExcludedDomainList befinden. Der SFB-Client formatiert die MSA automatisch, wenn sich die Domäne nicht in der ausgeschlossenen Liste befindet. Wir haben die am häufigsten verwendeten Microsoft-Kontodomänen zur ausgeschlossenen Liste hinzugefügt.
     
@@ -247,4 +247,3 @@ In der folgenden Tabelle ist der Status der Interoperabilität zwischen der neue
 |Lync Phone Edition  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |
 |Lync Attendant  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |
    
-

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie, wie Sie Ressourcenkonten in Microsoft Teams erstellen, bearbeiten und verwalten können.
-ms.openlocfilehash: a8023ddf27b28fc64cd76b38127f43d4509a702d
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041762"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224268"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -120,7 +120,7 @@ Wenden Sie als nächstes eine Lizenz auf das Ressourcenkonto im Office 365 Admin
 
 ### <a name="edit-resource-account"></a>Ressourcenkonto bearbeiten 
 
-![Symbol der](media/teamscallout2.png) Zahl 2, die auf eine Legende im vorherigen Screenshot verweist Sie können den **Anzeigenamen** des Ressourcenkontos und den **Ressourcen Kontotyp** mithilfe der Option " **Bearbeiten** " bearbeiten. Klicken Sie abschließend auf **Speichern**.
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist ](media/teamscallout2.png) Sie können den **Anzeigenamen** des Ressourcenkontos und den **Ressourcen Kontotyp** mithilfe der Option " **Bearbeiten** " bearbeiten. Klicken Sie abschließend auf **Speichern**.
 
 ![Screenshot der Option „Ressourcenkonto bearbeiten“](media/r-a-edit.png)
 
@@ -128,7 +128,7 @@ Wenden Sie als nächstes eine Lizenz auf das Ressourcenkonto im Office 365 Admin
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Zuweisen oder aufheben der Zuweisung von Telefonnummern und Diensten
 
-![Symbol der Zahl 3, auf eine Beschriftung im vorherigen Screenshot](media/teamscallout3.png) verweisen nachdem Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf zuweisen/Aufheben der **Zuweisung** klicken, um dem Ressourcenkonto eine Dienstnummer zuzuweisen, den Typ der Telefonnummer festzulegen oder das Ressourcenkonto einer bestimmten automatischen Telefonzentrale oder Anrufwarteschlange zuzuweisen, die bereits vorhanden ist. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Sie die Anrufwarteschlange oder die automatische Telefonzentrale, die Sie dem Ressourcenkonto zuordnen, noch nicht erstellt haben, lassen Sie das Feld leer. Sie können das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie abschließend auf **Speichern**.
+![Symbol der Zahl 3, auf eine Beschriftung im vorherigen Screenshot verweisen ](media/teamscallout3.png) nachdem Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf zuweisen/Aufheben der **Zuweisung** klicken, um dem Ressourcenkonto eine Dienstnummer zuzuweisen, den Typ der Telefonnummer festzulegen oder das Ressourcenkonto einer bestimmten automatischen Telefonzentrale oder Anrufwarteschlange zuzuweisen, die bereits vorhanden ist. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Sie die Anrufwarteschlange oder die automatische Telefonzentrale, die Sie dem Ressourcenkonto zuordnen, noch nicht erstellt haben, lassen Sie das Feld leer. Sie können das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie abschließend auf **Speichern**.
 
 Die Optionen für den **Typ "Telefonnummer** " lauten wie folgt:
 
@@ -267,5 +267,7 @@ Bei Implementierungen in Teams oder Skype for Business Online:
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[Neu – CsOnlineApplicationInstanceAssociation](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstanceassociation?view=skype-ps)
 
 [Telefonsystem – virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md)

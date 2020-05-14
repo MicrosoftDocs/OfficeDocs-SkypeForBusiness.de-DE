@@ -18,43 +18,43 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: Damit ein Benutzer das Telefon System in Office 365 (Cloud PBX) verwenden kann, müssen Sie ihn zunächst für Enterprise-VoIP aktivieren und ihm eine Telefonnummer zuweisen. Dies erfolgt mithilfe der lokalen Bereitstellung, während der Benutzer weiterhin in der lokalen Bereitstellung verwaltet wird.
-ms.openlocfilehash: 4409de1965fbcca641dde69d70c734d1bcd3a8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Damit ein Benutzer das Telefon System (Cloud PBX) verwenden kann, müssen Sie ihn zunächst für Enterprise-VoIP aktivieren und ihm eine Telefonnummer zuweisen. Verwenden Sie dazu Ihre lokale Bereitstellung, während der Benutzer noch in der lokalen Bereitstellung verwaltet wird.
+ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802295"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221699"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Aktivieren der Benutzer für Enterprise-VoIP lokal
  
-Damit ein Benutzer das Telefon System in Office 365 (Cloud PBX) verwenden kann, müssen Sie ihn zunächst für Enterprise-VoIP aktivieren und ihm eine Telefonnummer zuweisen. Dies erfolgt mithilfe der lokalen Bereitstellung, während der Benutzer weiterhin in der lokalen Bereitstellung verwaltet wird.
+Damit ein Benutzer das Telefon System (Cloud PBX) verwenden kann, müssen Sie ihn zunächst für Enterprise-VoIP aktivieren und ihm eine Telefonnummer zuweisen. Verwenden Sie dazu Ihre lokale Bereitstellung, während der Benutzer noch in der lokalen Bereitstellung verwaltet wird.
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>So aktivieren Sie einen Benutzer für Enterprise-VoIP lokal und weisen eine Telefonnummer zu
 
-1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Benutzen Sie das Startmenü oder die Verknüpfung auf dem Desktop, um die Systemsteuerung von Skype for Business Server zu öffnen.
+2. Verwenden Sie das Startmenü oder die Verknüpfung auf dem Desktop, um die Skype for Business Server-Systemsteuerung zu öffnen.
     
-    Alternativ können Sie ein Browserfenster öffnen und dort die Admin-URL eingeben, um zur Systemsteuerung von Skype for Business Server zu gelangen.
+    Sie können auch ein Browserfenster öffnen und die Administrator-URL eingeben, um die Skype for Business Server-Systemsteuerung zu öffnen.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
-4. Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, das aktiviert werden soll und klicken Sie dann auf **Suchen**.
+4. Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, das aktiviert werden soll, und klicken Sie dann auf **Suchen**.
     
-5. Klicken Sie in der Tabelle auf das Skype for Business Online-Benutzerkonto, das Sie für Enterprise-VoIP aktivieren möchten.
+5. Klicken Sie in der Tabelle auf das Skype for Business Online Benutzerkonto, das Sie für Enterprise-VoIP aktivieren möchten.
     
 6. Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
     
-7. Klicken Sie unter **Telefonie** auf **Enterprise-VoIP**.
+7. Klicken Sie unter **Telefonie**auf **Enterprise-VoIP**.
     
-8. Klicken Sie auf **Anschluss-URI** und geben Sie eine eindeutige, normalisierte Telefonnummer ein (z. B. Tel:+14255550200). Klicken Sie dann auf **Commit ausführen**.
+8. Klicken Sie auf **Leitungs-URI**, und geben Sie eine eindeutige, normalisierte Telefonnummer ein (beispielsweise Tel: + 14255550200). Klicken Sie dann auf **Commit**.
     
-## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Besondere Überlegungen beim Aktivieren von Benutzern für Enterprise-VoIP lokal
+## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Besondere Überlegungen beim Aktivieren von Benutzern für Enterprise-VoIP vor Ort
 
-In einigen Fällen kann es vorkommen, dass Sie die Vorgehensweise hinsichtlich der Aktivierung von Benutzern für Enterprise-VoIP ändern müssen, damit Benutzer erfolgreich Anrufe tätigen und empfangen können. Wenn Sie über Benutzer in Ihrer Bereitstellung verfügen, die die folgenden Bedingungen erfüllen, führen Sie die Schritte aus, die zum Aktivieren des Benutzers für Enterprise-VoIP enthalten sind.
+In einigen Fällen müssen Sie möglicherweise die Art und Weise ändern, wie Sie Benutzer für Enterprise-VoIP aktivieren, um sicherzustellen, dass Sie Anrufe erfolgreich tätigen und empfangen können. Wenn Sie über Benutzer in Ihrer Bereitstellung verfügen, die die folgenden Bedingungen erfüllen, führen Sie die Schritte aus, die zum Aktivieren des Benutzers für Enterprise-VoIP erforderlich sind.
   
-- Wenn ein Benutzer in Ihrer lokalen Anzeige erstellt und dann mit Skype for Business Online synchronisiert wird, ohne für Skype for Business oder für Enterprise-VoIP aktiviert zu sein und über keinen LineURI-Satz verfügen, führen Sie die folgenden Cmdlets für jeden betroffenen Benutzer aus \< \> , und ersetzen Sie die Werte in durch die tatsächlichen Werte für Ihre Umgebung:
+- Wenn ein Benutzer in Ihrer lokalen AD erstellt und dann mit Skype for Business Online synchronisiert wird, ohne für Skype for Business oder Enterprise-VoIP aktiviert zu sein und kein LineURI festgelegt wurde, führen Sie die folgenden Cmdlets für jeden betroffenen Benutzer aus, und ersetzen Sie die Werte in \< \> durch tatsächliche Werte für Ihre Umgebung:
     
   ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
@@ -64,13 +64,13 @@ In einigen Fällen kann es vorkommen, dass Sie die Vorgehensweise hinsichtlich d
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Wenn ein Benutzer bereits für Skype for Business lokal verfügbar ist, aber nicht für Enterprise-VoIP aktiviert ist oder einen LineURI zugewiesen hat, bevor er in Skype for Business Online verschoben wird, führen Sie für jeden Benutzer das folgende Cmdlet aus:
+- Wenn ein Benutzer bereits für Skype for Business lokal aktiviert ist, jedoch nicht für Enterprise-VoIP aktiviert wurde oder ein LineURI zugewiesen wurde, bevor er in Skype for Business Online verschoben wurde, führen Sie für jeden Benutzer das folgende Cmdlet aus:
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Wenn ein Benutzer bereits in Skype for Business lokal, aber nicht für Enterprise-VoIP aktiviert ist, führen Sie das folgende Cmdlet für jeden betroffenen Benutzer aus, wenn Sie bereits eine LineURI zugewiesen haben:
+- Wenn ein Benutzer bereits in Skype for Business lokal aktiviert, aber für Enterprise-VoIP nicht aktiviert ist, führen Sie das folgende Cmdlet für jeden betroffenen Benutzer aus, wenn bereits ein LineURI zugewiesen ist:
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true

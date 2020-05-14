@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten.
-ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047377"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44226016"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -37,7 +37,7 @@ Hier erfahren Sie, wie Sie Ihre Microsoft 365 oder Office 365 so konfigurieren, 
   
 Das Anruf Qualitäts Dashboard (CQD) bietet Einblicke in die Qualität von anrufen, die mit Microsoft Teams und Skype for Business Online-Diensten getätigt wurden. In diesem Thema werden die Schritte beschrieben, mit denen Sie Daten sammeln können, um Probleme mit der Anrufqualität zu beheben.
 
-Derzeit stehen erweiterte CQD und CQD zur Verfügung. Advanced CQD ist verfügbar unter <span>https://cqd.teams.microsoft.com</span>. Neue URL, aber dieselbe Anmeldung mit Ihren Administratoranmeldeinformationen.
+Derzeit stehen erweiterte CQD und CQD zur Verfügung. Advanced CQD ist verfügbar unter <span>https://cqd.teams.microsoft.com</span> . Neue URL, aber dieselbe Anmeldung mit Ihren Administratoranmeldeinformationen.
 
 ## <a name="assign-roles-for-accessing-cqd"></a>Zuweisen von Rollen für den Zugriff auf CQD
 
@@ -148,9 +148,9 @@ Der URL-Datumsparameter kann nun ein Tages Feld akzeptieren. Rolling-Day-Bericht
 
 |URL| Enddatum des Wälz enden Tagestrends|
 |:---|:---|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/2019-02/</span>   |Aktueller Tag von Feb 2019|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/2019-02-15/</span>|15 Feb 2019|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/00/</span>        |Aktueller Tag|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /2019-02/</span>   |Aktueller Tag von Feb 2019|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /2019-02-15/</span>|15 Feb 2019|
+|<span>https:// <cqdv3> /SPD/#/Dashboard// <reportid> 00/</span>        |Aktueller Tag|
 |||
 
 Standardmäßig wird der aktuelle Tag des Monats als letzter Tag des Rolling Day-Trends verwendet.
@@ -176,12 +176,12 @@ Sie können mehrere Datumsangaben auf der Registerkarte Standort hinzufügen, be
 
 Bevor Sie mit der Verwendung von CQD beginnen können, aktivieren Sie es für Ihr Microsoft 365 oder Office 365 wie folgt:
 
-![Ein Symbol, das das Microsoft Teams-](media/teams-logo-30x30.png) Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol, das das Microsoft Teams-Logo ](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Registrieren Sie sich bei Ihrem Microsoft 365 oder Office 365 mit dem Microsoft Teams-Dienstadministratorkonto, und wählen Sie dann die Kachel **"Administrator** " aus, um das Admin Center zu öffnen.
 2. Wählen Sie im linken Bereich unter **Admin Center**die Option **Microsoft Teams** aus, um das Microsoft Teams Admin Center zu öffnen.
 3. Wählen Sie im Microsoft Teams Admin Center im linken Bereich **Anruf qualitätsdashboard** aus.
-4. Klicken Sie auf der Seite \(,<span>auf<span/>\)der https://CQD.Teams.Microsoft.com geöffnet wird, auf **Anmelden** , und geben Sie Ihr globales Administrator Konto oder Microsoft Teams-Dienstadministratorkonto Informationen ein.
+4. Klicken Sie auf der Seite, auf der \( https://CQD.Teams.Microsoft.com geöffnet wird <span> <span/> \) , auf **Anmelden** , und geben Sie Ihr globales Administrator Konto oder Microsoft Teams-Dienstadministratorkonto Informationen ein.
 
     ![Screenshot: zeigt die Eingabeaufforderung für Anmeldeinformationen an.](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -189,7 +189,7 @@ Nachdem Sie sich angemeldet haben, wird die CQD nach der Aktivierung mit dem sam
 > [!NOTE]
 > Es kann eine oder mehrere Stunden dauern, bis genügend Daten verarbeitet werden, um aussagekräftige Ergebnisse in den Berichten anzuzeigen.
 
-![Symbol des Skype for Business-Logos](media/sfb-logo-30x30.png) **unter Verwendung des Legacy-Portals von Skype for Business**
+![Symbol des Skype for Business-Logos ](media/sfb-logo-30x30.png) **unter Verwendung des Legacy-Portals von Skype for Business**
 
 1. Registrieren Sie sich bei Ihrem Microsoft 365 oder Office 365 mit einem Administratorkonto, und wählen Sie dann die Kachel **Administrator** aus, um das Admin Center zu öffnen.
 2. Wählen Sie im linken Bereich unter **Admin Center**die Option **Microsoft Teams** aus, um das Microsoft Teams Admin Center zu öffnen.
@@ -212,7 +212,7 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 |:--- |:--- |:--- |
 |Anwendungsfreigabemetrik | Nein | Ja |
 |Unterstützung von Kunden-Gebäudeinformationen | Ja | Ja  |
-|Support für Kunden Endpunktinformationen | Nur in <span>CQD.Teams.Microsoft.com<span/> | Nur in <span>CQD.Teams.Microsoft.com<span/> |
+|Support für Kunden Endpunktinformationen | Nur in <span> CQD.Teams.Microsoft.com<span/> | Nur in <span> CQD.Teams.Microsoft.com<span/> |
 |Unterstützung für Drilldown-Analyse   | Nein   | Ja   |
 |Medienzuverlässigkeitsmetriken   | Nein   | Ja   |
 |Sofort einsatzbereite Berichte   | Ja   | Ja   |
@@ -359,7 +359,7 @@ Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Manda
 
    - Bei einer Datendatei muss es sich um eine TSV-Datei (durch tabstoppgetrennte Werte) oder um eine CSV-Datei (durch Kommas getrennte Werte) handeln. Bei einer CSV-Datei müssen alle Felder, die ein Komma enthalten, in Anführungszeichen gesetzt oder das Komma entfernt werden. Wenn Ihr Gebäudename beispielsweise NY, NY lautet, geben Sie "NY, NY" in die CSV-Datei ein.
    - Die Datendatei darf nicht größer als 50 MB sein.
-   - Dateien, die in CQD.Teams.Microsoft.com hochgeladen wurden, verfügen über eine erweiterte Zeilenbeschränkung von 1 Million, um die Abfrageleistung schnell zu halten. Dieser Grenzwert gilt auch für CQD v2 auf CQD<span></span>. lync<span></span>. com.
+   - Dateien, die in CQD.Teams.Microsoft.com hochgeladen wurden, verfügen über eine erweiterte Zeilenbeschränkung von 1 Million, um die Abfrageleistung schnell zu halten. Dieser Grenzwert gilt auch für CQD v2 auf CQD <span></span> . lync <span></span> . com.
    - Bei jeder Datendatei muss jede Spalte in der Datei einem vordefinierten Datentyp entsprechen, der später in diesem Thema besprochen wird.
 3. Geben Sie als nächstes ein **Start Datum** an, und **Geben Sie optional ein Enddatum**an.
 4. Wählen Sie schließlich **Upload** aus, um die Datei auf den CQD-Server hochzuladen.
@@ -432,11 +432,11 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 ## <a name="migrate-reports-from-previous-version-of-cqd"></a>Migrieren von Berichten aus einer früheren Version von CQD
 
-Wenn Sie Berichte oder hochgeladene Mandantendaten (Mapping)-Dateien in CQD fürhttps://cqd.lync.com) Skype for Business erstellt haben (und diese in CQDhttps://cqd.teams.microsoft.com)for Teams migrieren möchten, gehen Sie wie folgt vor:
+Wenn Sie Berichte oder hochgeladene Mandantendaten (Mapping)-Dateien in CQD für Skype for Business erstellt haben ( https://cqd.lync.com) und diese in CQD for Teams migrieren möchten https://cqd.teams.microsoft.com) , gehen Sie wie folgt vor:
 
-1.    Wechseln Sie [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) zu dem Berichtssatz, den Sie exportieren möchten, und navigieren Sie zu diesem. 
+1.    Wechseln [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) Sie zu dem Berichtssatz, den Sie exportieren möchten, und navigieren Sie zu diesem. 
 2.    Zeigen Sie mit der Maus auf den Bericht, und klicken Sie auf "...". Wählen Sie **Berichtstruktur exportieren**aus. Speichern Sie die Exportdatei.
-3.    Wechseln Sie [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) zu dem Speicherort, an dem Sie die Berichte importieren möchten, und navigieren Sie zu ihm.
+3.    Wechseln Sie zu dem Speicherort, an dem [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) Sie die Berichte importieren möchten, und navigieren Sie zu ihm.
 4.    Klicken Sie in den Links auf der linken Seite auf **importieren** , und wählen Sie die exportierte Datei aus. 
 5.    Nachdem die Berichte importiert wurden, wird die folgende Meldung angezeigt: "der berichtsimport war erfolgreich. Der neue Bericht wurde am Ende des Berichtssatzes hinzugefügt. " 
 
@@ -445,7 +445,7 @@ Wenn Sie Berichte oder hochgeladene Mandantendaten (Mapping)-Dateien in CQD für
 
 Wenn Sie feststellen, dass Sie einen bestimmten Bericht erstellen möchten, der sich auf eine Dimension der Daten in einer Weise konzentriert, in der die bereitgestellten detaillierten Berichte dies nicht tun, erstellen Sie einen benutzerdefinierten Bericht.
 
-Klicken Sie in der Pulldown-Liste der oben auf dem Bildschirm angezeigten Berichte auf \(dem Bildschirm\) " **Zusammenfassungsberichte** " auf " **detaillierte Berichte** " und dann auf " **neu** " und dann im Aktionsmenü eines Berichts auf "Bearbeiten", um den Abfrage-Editor anzuzeigen. Jeder Bericht basiert auf einer Abfrage im Cube. Ein Bericht ist die visuelle Darstellung der Daten, die von der jeweiligen Abfrage zurückgegeben werden. Der Abfrage-Editor hilft Ihnen, diese Abfragen und die Anzeigeoptionen des Berichts zu bearbeiten. Wenn Sie den Abfrage-Editor für einen neuen Bericht öffnen, sehen Sie etwas ähnliches wie diesen Screenshot:
+Klicken Sie in der Pulldown-Liste der oben auf dem Bildschirm angezeigten Berichte auf \( dem Bildschirm " **Zusammenfassungsberichte** " auf \) " **detaillierte Berichte** " und dann auf " **neu** " und dann im Aktionsmenü eines Berichts auf "Bearbeiten", um den Abfrage-Editor anzuzeigen. Jeder Bericht basiert auf einer Abfrage im Cube. Ein Bericht ist die visuelle Darstellung der Daten, die von der jeweiligen Abfrage zurückgegeben werden. Der Abfrage-Editor hilft Ihnen, diese Abfragen und die Anzeigeoptionen des Berichts zu bearbeiten. Wenn Sie den Abfrage-Editor für einen neuen Bericht öffnen, sehen Sie etwas ähnliches wie diesen Screenshot:
 
 ![Bearbeiten neuer Berichte](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -489,9 +489,17 @@ Zum Berechnen der Anzahl von aufrufen und der Anzahl der Benutzer zählen wird e
 
 Wenn Daten Unterschiede zwischen CQD v2 und V3 angezeigt werden, stellen Sie sicher, dass der Datenabgleich oder die Validierung auf einer "Äpfel-zu-Apfel"-und einer schmalen Ebene erfolgt, nicht auf einer aggregierten Ebene. Wenn Sie beispielsweise beide Berichte für MSIT ' Building 30 ' WiFi Teams-Desktop Client Daten filtern, sollte der Prozentsatz der schlechten Qualität zwischen V2 und V3 identisch sein.
 
-CQD v2 und CQD V3 haben unterschiedliche Gesamtanzahlen, da in CQD v2 keine neuen Szenarien für CQD V3 vorhanden sind. Es wird davon ausgegangen, dass Zusammenfassungs-oder aggregierte Gesamtzahlen ohne Filter unterschiedlich sind.  
+Die CQDv2-Klassifizierung für CallSetup-Fehler wird inly nur für "Audio"-Modalitäten berücksichtigt, in CQDv3 wird diese Klassifizierung für jede Modalität (Audio, Video und qualifizierte Anwendungsfreigabe) und im jeweiligen Modalitäten Datenstrom dargestellt. 
 
-Wenn das Nutzungsszenario Skype for Business Server 2019-Anrufe umfasst, beinhaltet CQD V3-Daten Skype-bot-Anrufe (automatische Telefonzentrale, CVI, Virtual Desktop Interface), Live-Events und PSTN-Anrufe. CQD v2 verwendet diese Daten nicht. (Für CQD v3 ist Skype for Business Server 2019 mit Cloud Data Connector konfiguriert.)
+Für Teams wendet CQDv2 dasselbe Benutzer Feedback auf alle Modalitäten an CQDv3 wendet die Feedback Basis auf die Modalitäten für Teams an.
+
+CQD V3 enthält 
+1. Skype for Business Server 2019-Anrufe, 
+2. Skype-bot-Anrufe wie: automatische Telefonzentrale, Anrufwarteschlange, Konferenzankündigungsdienst, 
+3. Virtual Desktop-Oberfläche
+4. Konferenz Video-Interop
+3. Live Events Publisher-und Referenten Anrufe und 
+4. PSTN-Anrufe. 
 
 Wenn Sie beispielsweise 200.000-Audiostreams mit 5000-Fehlern in einem CQD v2-Zusammenfassungsbericht sehen, wäre es nicht ungewöhnlich, 300.000 Audiostreams mit 5500-Fehlern zu sehen (der Unterschied kann auf Skype for Business Server 2019-Anrufe, CVI-Anrufe, PSTN-Anrufe usw.) in einem CQD V3-Zusammenfassungsbericht zurückzuführen sein.
 
@@ -500,6 +508,18 @@ Um unerwartete Unterschiede zu unterscheiden, sehen Sie sich mehr als eine Aufsc
 - User Agent Category Pair
 - Erstes Produkt
 - Zweites Produkt
+
+Im folgenden finden Sie ein Beispiel für das Anwenden spezieller Filter zum Vergleichen von CQD v2-und CQD V3-Daten:
+
+1. QoE-Eintrag verfügbar = wahr
+
+2. Add ist Serverpaar Filter mit dem Wert: Client: Client und Client: Server. Die meisten Mandanten ziehen es vor, Server: Serveraufrufe auszuschließen.
+
+3. Fügen Sie einen Filter für die Kategorie des Benutzer-Agents hinzu, und Filtern Sie die automatische Telefonzentrale, die Anrufwarteschlange, den bot, das Raumsystem, den MediationServer, den Konferenzankündigungsdienst, den VDI usw.
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Screenshot der Anwendung bestimmter Filter in CQD v3":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Screenshot der Anwendung bestimmter Filter in CQD v2":::
 
 ### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>Andere erwartete Unterschiede zwischen CQD v2 und CQD v3
 

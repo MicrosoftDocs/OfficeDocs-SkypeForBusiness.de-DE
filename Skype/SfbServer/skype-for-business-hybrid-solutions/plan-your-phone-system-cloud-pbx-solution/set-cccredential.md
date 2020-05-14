@@ -1,5 +1,5 @@
 ---
-title: Gruppe-CcCredential
+title: Set-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: Das Cmdlet Set-CcCredential legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest.
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780674"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221569"
 ---
-# <a name="set-cccredential"></a>Gruppe-CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 Das Cmdlet Set-CcCredential legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest. 
   
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Cmdlet Set-CcCredential legt den Kontonamen und das Kennwort für den mandantenadministrator fest. Für Releases vor 2,0 muss dieser Administrator ein globaler Administrator sein. Cloud Connector verwendet dieses Konto, um Konfigurationsinformationen abzurufen, Konfigurationsparameter festzulegen und den Appliance-Status auf die Konfiguration der Office 365 Organisation zu aktualisieren. Mit Version 2,0 und höher können Sie dieses Cmdlet auch zum Aktualisieren der Kennwörter für die "vmadmin"-und DomainAdmin-Konten verwenden.
+Das Cmdlet Set-CcCredential legt den Kontonamen und das Kennwort für den mandantenadministrator fest. Für Releases vor 2,0 muss dieser Administrator ein globaler Administrator sein. Cloud Connector verwendet dieses Konto, um Konfigurationsinformationen abzurufen, Konfigurationsparameter festzulegen und den Appliance-Status auf die Microsoft 365-oder Office 365-Organisationskonfiguration zu aktualisieren. Mit Version 2,0 und höher können Sie dieses Cmdlet auch zum Aktualisieren der Kennwörter für die "vmadmin"-und DomainAdmin-Konten verwenden.
   
 ## <a name="parameters"></a>Parameter
 <a name="DetailedDescription"> </a>

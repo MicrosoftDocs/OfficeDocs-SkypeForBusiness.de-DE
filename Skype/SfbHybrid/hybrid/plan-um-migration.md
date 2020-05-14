@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: In diesem Thema wird erläutert, was Sie berücksichtigen müssen, wenn Sie Ihre vorhandenen Skype for Business Server oder Exchange Server-Bereitstellungen auf die neueste Version oder auf Skype for Business Online oder Exchange Online migrieren möchten.
-ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265610"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221265"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planen der Migration von Skype for Business Server und Exchange Server
 
@@ -33,7 +33,7 @@ Unified Messaging (um) wurde in Exchange 2019 veraltet. Dies bedeutet, dass Exch
 - Voicemail
 - Automatische Telefonzentrale
 
-Wenn Sie die um-Rolle in Exchange 2013 oder den um-Dienst in Exchange 2016 bereitgestellt haben und ein Upgrade auf Exchange 2019 durchführen möchten, müssen Sie Ihre Voicemail in Office 365 in den Microsoft Cloud Voicemail-Dienst migrieren. Wenn Sie Ihre Voicemail in Cloud Voicemail migrieren möchten, sehen Sie sich die [Exchange 2013/Exchange 2016 und Skype for Business 2015 zu Exchange 2019 und Skype for Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) Abschnitt unten an.
+Wenn Sie die um-Rolle in Exchange 2013 oder den um-Dienst in Exchange 2016 bereitgestellt haben und ein Upgrade auf Exchange 2019 durchführen möchten, müssen Sie Ihre Voicemail mit dem Microsoft Cloud-Voicemaildienst in Microsoft 365 oder Office 365 migrieren. Wenn Sie Ihre Voicemail in Cloud Voicemail migrieren möchten, sehen Sie sich die [Exchange 2013/Exchange 2016 und Skype for Business 2015 zu Exchange 2019 und Skype for Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) Abschnitt unten an.
 > [!IMPORTANT]
 > Wenn Benutzer auf Ihren Exchange 2013-oder Exchange 2016-Servern um-aktivierte Postfächer haben, verschieben Sie Sie nicht vor dem Upgrade Ihrer Skype for Business-Server auf Skype for Business Server 2019 und verschieben Sie die Benutzer zu Exchange 2019, um einen Ausfall von Sprachnachrichten zu vermeiden.
 
@@ -55,13 +55,13 @@ Wir unterstützen die folgenden Szenarien, mit denen Sie Benutzer sowohl zu Exch
 - Exchange 2013/Exchange 2016 und Skype for Business Server 2015 auf Exchange 2019 und Skype for Business Server 2019
 - Skype for Business Server 2015 zu Skype for Business Server 2019 mit Exchange 2013/Exchange 2016
 
-Die folgenden Szenarien erfordern, dass keine Nebenstellenanlage oder SBC-Konfigurationen als Teil Ihrer aktuellen Bereitstellung vorhanden sind und davon ausgehen, dass Sie um auf Ihren lokalen Exchange-Servern konfiguriert haben. Bei jeder dieser Lösungen wird auch davon ausgegangen, dass Sie sich für die Konfiguration einer hybridbereitstellung zwischen Ihren lokalen Skype for Business Servern und Office 365 entschieden haben. Weitere Informationen zu Skype for Business hybridbereitstellungen finden Sie unter [Plan Hybrid Connectivity](plan-hybrid-connectivity.md).
+Die folgenden Szenarien erfordern, dass keine Nebenstellenanlage oder SBC-Konfigurationen als Teil Ihrer aktuellen Bereitstellung vorhanden sind und davon ausgehen, dass Sie um auf Ihren lokalen Exchange-Servern konfiguriert haben. Bei jeder dieser Lösungen wird auch davon ausgegangen, dass Sie sich für die Konfiguration einer hybridbereitstellung zwischen Ihren lokalen Skype for Business Servern und Microsoft 365 oder Office 365 entschieden haben. Weitere Informationen zu Skype for Business hybridbereitstellungen finden Sie unter [Plan Hybrid Connectivity](plan-hybrid-connectivity.md).
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 und Skype for Business 2015 auf Exchange 2019 und Skype for Business 2019
 
 In diesem Szenario möchten Sie die vorhandenen Exchange 2013, Exchange 2016 und Skype for Business 2015 Server zu Exchange 2019 und Skype for Business 2019 migrieren.
 
-Wie weiter oben in diesem Thema erwähnt, enthält Exchange 2019 den um-Dienst nicht mehr. Dies bedeutet, dass Sie für alle Postfächer, die Sie zu Exchange 2019 verschieben möchten, die Cloud-Voicemail verwenden müssen, um die vom um-Dienst bereitgestellte Funktionalität zu ersetzen. Wenn Sie Skype for Business Server 2019 und eine hybridbereitstellung zwischen IT und Office 365 einrichten, ersetzt Cloud Voicemail diese Exchange um Voicemail-Dienste.
+Wie weiter oben in diesem Thema erwähnt, enthält Exchange 2019 den um-Dienst nicht mehr. Dies bedeutet, dass Sie für alle Postfächer, die Sie zu Exchange 2019 verschieben möchten, die Cloud-Voicemail verwenden müssen, um die vom um-Dienst bereitgestellte Funktionalität zu ersetzen. Wenn Sie Skype for Business Server 2019 und eine hybridbereitstellung zwischen diesem und Microsoft 365 oder Office 365 einrichten, ersetzt Cloud Voicemail diese Exchange um Voicemail-Dienste.
 
 Die Reihenfolge, in der Sie Benutzer zu Exchange 2019 und Skype for Business Server 2019 migrieren, ist wichtig, um sicherzustellen, dass die Voicemailfunktionen für alle Benutzer verfügbar bleiben. Bei der Verarbeitung von Voicemail wird auch festgelegt, wo sich die Exchange-und Skype for Business-Postfächer und-Benutzer befinden. Sehen Sie sich die folgende Tabelle an, um herauszufinden, welche Kombinationen von Exchange und Skype for Business Server unterstützt werden und wo Voicemail verarbeitet wird.
 

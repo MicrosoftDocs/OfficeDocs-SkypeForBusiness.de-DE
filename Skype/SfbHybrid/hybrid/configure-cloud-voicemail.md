@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Implementieren von Cloud-basierter Voicemail für Benutzer, die in Skype for Business Server verwaltet werden.
-ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288713"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221459"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Konfigurieren des Cloud Voicemail-Diensts für lokale Benutzer
 
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Organisation** ist die Standarddomäne, die Ihrem Mandanten zugewiesen ist. Sie können diese Informationen abrufen, indem Sie den mandantenadministrator bei Office.com anmelden, auf die Admin Center-App klicken, zu **Setup** auf der linken Seite navigieren und auf **Domänen**klicken. Beispiel: mytenant.onmicrosoft.com.
 
-    Der Name der Organisation ist auch der Standarddomänenname in Office 365.
+    Der Name der Organisation ist auch der Standarddomänenname in Microsoft 365 oder Office 365.
 
 Um sicherzustellen, dass eine Richtlinie für gehostete Voicemail erfolgreich erstellt wurde, führen Sie den folgenden Befehl aus:
 
@@ -100,7 +100,7 @@ Mit dem folgenden Befehl wird beispielsweise einem Benutzer eine nicht global ge
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Aktivieren eines Benutzers für Cloud-Voicemail

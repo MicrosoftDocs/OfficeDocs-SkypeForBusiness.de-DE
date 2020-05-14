@@ -1,5 +1,5 @@
 ---
-title: Planen der medienumgehung in Cloud Connector Edition
+title: Planen der Medienumgehung in der Cloud Connector Edition
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lesen Sie dieses Thema, um die Planungsüberlegungen für die Implementierung der medienumgehung mit Cloud Connector Edition, Version 2,0 und höher, zu überprüfen. Informationen zum Bereitstellen der medienumgehung finden Sie unter Deploy Media Bypass in Cloud Connector Edition.
-ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778781"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220255"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der medienumgehung in Cloud Connector Edition
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der Medienumgehung in der Cloud Connector Edition
  
 Lesen Sie dieses Thema, um die Planungsüberlegungen für die Implementierung der medienumgehung mit Cloud Connector Edition, Version 2,0 und höher, zu überprüfen. Informationen zum Bereitstellen der medienumgehung finden Sie unter [Deploy Media Bypass in Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md).
   
@@ -37,7 +37,7 @@ Die medienumgehung kann die Sprachqualität verbessern, indem die Wartezeit, die
 
 Während die Signalisierung mit oder ohne medienumgehung denselben Pfad hat, unterscheidet sich der Medienfluss. Die folgenden Diagramme zeigen Medien-und Signalisierungs Pfade in Topologien mit und ohne medienumgehung. 
   
-Beispielsweise wird in der folgenden Topologie, in der keine medienumgehung verwendet wird, ein Skype for Business-Client einen PSTN-Anruf an eine externe Rufnummer weitergeleitet, die SIP-Signalisierung geht an Office 365, und Office 365 leitet den Signalisierungs Datenverkehr entsprechend der VoIP-Richtlinie des Endbenutzers weiter. Für Cloud Connector-Benutzer leitet die VoIP-Richtlinie den Signalisierungs Datenverkehr an den Cloud Connector Edgeserver, der den Signalisierungs Datenverkehr dann über den Cloud Connector-Vermittlungsserver an einen PSTN-Sitzungs Grenz Controller (SBC) oder ein Gateway weiterleitet. Medien Flüsse vom Skype for Business-Client zum Cloud Connector Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
+Beispielsweise wird in der folgenden Topologie, in der keine medienumgehung verwendet wird, ein Skype for Business-Client einen PSTN-Anruf an eine externe Rufnummer richtet, die SIP-Signalisierung geht an Microsoft 365 oder Office 365, wodurch der Signalisierungs Datenverkehr entsprechend der VoIP-Richtlinie des Endbenutzers geleitet wird. Für Cloud Connector-Benutzer leitet die VoIP-Richtlinie den Signalisierungs Datenverkehr an den Cloud Connector Edgeserver, der den Signalisierungs Datenverkehr dann über den Cloud Connector-Vermittlungsserver an einen PSTN-Sitzungs Grenz Controller (SBC) oder ein Gateway weiterleitet. Medien Flüsse vom Skype for Business-Client zum Cloud Connector Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
 **Medien-und Signalisierungs Pfade ohne medienumgehung**
 
@@ -59,7 +59,7 @@ Die medienumgehung ist auch hilfreich, wenn Sie Telefondienste für mehrere Stan
 
 ![Beispiel für Cloud Connector-Multisite](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. Der SIP-Datenverkehr fließt vom Benutzer in Zürich zu Office 365.
+1. Der SIP-Datenverkehr fließt vom Benutzer in Zürich zu Microsoft 365 oder Office 365.
     
 2. Der Datenverkehr wird dann zur Cloud Connector-Appliance in Amsterdam weitergeleitet, wie in der Richtlinie für Benutzer VoIP-Routing angegeben.
     

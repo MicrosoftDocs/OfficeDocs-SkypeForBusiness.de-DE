@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anleitungen zum Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen in einem Ressourcen-Benutzer-Gesamtstrukturmodell, um Skype for Business Funktionalität in einem Hybrid Szenario bereitzustellen.
-ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918684"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221479"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Bereitstellen einer Topologie mit Ressourcengesamtstruktur
  
@@ -35,7 +35,7 @@ Die folgenden Abschnitte enthalten Anleitungen zum Konfigurieren einer Umgebung 
 
 Mehrere Benutzergesamtstrukturen werden unterstützt. Denken Sie dabei an Folgendes: 
     
-- Informationen zu unterstützten Versionen von lync Server und Skype for Business Server in einer Hybrid Konfiguration finden Sie unter [Server Versionsanforderungen](plan-hybrid-connectivity.md#server-version-requirements) in [Plan Hybrid Connectivity zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md).
+- Informationen zu unterstützten Versionen von lync Server und Skype for Business Server in einer Hybrid Konfiguration finden Sie unter [Server Versionsanforderungen](plan-hybrid-connectivity.md#server-version-requirements) in [Plan Hybrid Connectivity zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md).
     
 - Exchange Server können in einer oder mehreren Gesamtstrukturen bereitgestellt werden, die möglicherweise die Gesamtstruktur enthalten, die Skype for Business Server enthält. Stellen Sie sicher, dass Sie das neueste kumulative Update angewendet haben.
     
@@ -73,9 +73,9 @@ Synchronisieren Sie die UPNs nicht zwischen den Gesamtstrukturen. Wir haben beim
     
 - Wenn der eindeutige UPN aus jeder Benutzergesamtstruktur mit dem zugeordneten deaktivierten Objekt in der Ressourcengesamtstruktur synchronisiert wurde, tritt bei der AD FS-Authentifizierung ein Fehler auf. Die Übereinstimmungsregel würde den UPN für das Objekt in der Ressourcengesamtstruktur finden, das deaktiviert war und nicht für die Authentifizierung verwendet werden konnte. 
     
-## <a name="create-an-office-365-organization"></a>Erstellen einer Office 365 Organisation
+## <a name="create-a-microsoft-365-or-office-365-organization"></a>Erstellen einer Microsoft 365-oder Office 365-Organisation
 
-Als nächstes müssen Sie eine Office 365 Organisation bereitstellen, die mit Ihrer Bereitstellung verwendet werden soll. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten und Mandanten für die Cloud-Angebote von Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Als nächstes müssen Sie eine Microsoft 365-oder Office 365-Organisation bereitstellen, die mit Ihrer Bereitstellung verwendet werden soll. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten und Mandanten für die Cloud-Angebote von Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Konfigurieren von Active Directory Verbunddiensten
 
@@ -91,9 +91,9 @@ Wenn Sie keinen eindeutigen SIP/SMTP/UPN für Benutzer aus jeder Gesamtstruktur 
     
 Durch das Platzieren einer AD FS-Farm in jeder Benutzergesamtstruktur und der Verwendung eines eindeutigen SIP/SMTP/UPN für jede Gesamtstruktur lösen wir beide Probleme. Nur die Konten in dieser bestimmten Benutzergesamtstruktur werden bei Authentifizierungsversuchen durchsucht und abgeglichen. Dadurch wird ein nahtloser Authentifizierungsprozess gewährleistet. 
   
-Dies ist eine Standardbereitstellung des Windows Server 2012 R2 AD FS und sollte funktionieren, bevor Sie fortfahren. Anweisungen finden Sie unter [Vorgehensweise zum Installieren von AD FS 2012 R2 für Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Dies ist eine Standardbereitstellung des Windows Server 2012 R2 AD FS und sollte funktionieren, bevor Sie fortfahren. Weitere Informationen finden Sie unter [Vorgehensweise zum Installieren von AD FS 2012 R2 für Microsoft 365 oder Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
-Nachdem Sie bereitgestellt wurden, müssen Sie die Forderungs Regel so bearbeiten, dass Sie dem zuvor ausgewählten Quellanker entspricht. Klicken Sie in der AD FS-MMC unter Vertrauensstellungen der vertrauenden Seite mit der rechten Maustaste auf **Microsoft Office 365-Identitäts Plattform**, und klicken Sie dann auf **Anspruchsregeln bearbeiten**. Bearbeiten Sie die erste Regel, und ändern Sie die Objekte in **employeeNumber**. 
+Nachdem Sie bereitgestellt wurden, müssen Sie die Forderungs Regel so bearbeiten, dass Sie dem zuvor ausgewählten Quellanker entspricht. Klicken Sie in der AD FS-MMC unter Vertrauensstellungen der vertrauenden Seite mit der rechten Maustaste auf **Microsoft 365 Identity Platform** oder **Microsoft Office 365 Identity Platform**, und wählen Sie dann **Anspruchsregeln bearbeiten**aus. Bearbeiten Sie die erste Regel, und ändern Sie die Objekte in **employeeNumber**. 
   
 ![Bildschirm mit Bearbeitungsregeln für mehrere Gesamtstrukturen](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -107,9 +107,9 @@ Wenn Sie fertig sind und Aad Connect zusammengeführt wird, sollten Sie, wenn Si
   
 ![Multi-Forest-Metaverse-Objekt Bildschirm](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-Die grün markierten Attribute wurden aus Office 365 zusammengeführt, die gelben stammen aus der Benutzergesamtstruktur und die blau aus der Ressourcengesamtstruktur. 
+Die grün markierten Attribute wurden von Microsoft 365 oder Office 365 zusammengeführt, die gelben stammen aus der Benutzergesamtstruktur und die blau aus der Ressourcengesamtstruktur. 
   
-Dies ist ein Testbenutzer, und Sie können sehen, dass Aad Connect die Attributs und die cloudSourceAnchor von den Objekten User und Resource Forest aus Office 365 identifiziert hat, in unserem Fall 1101, dem zuvor ausgewählten employeeNumber. Es war dann in der Lage, dieses Objekt in das zu verschmelzen, was Sie oben sehen. 
+Dies ist ein Testbenutzer, und Sie können sehen, dass Aad Connect die Attributs und die cloudSourceAnchor von den Objekten User und Resource Forest von Microsoft 365 oder Office 365 identifiziert hat, in unserem Fall 1101, dem zuvor ausgewählten employeeNumber. Es war dann in der Lage, dieses Objekt in das zu verschmelzen, was Sie oben sehen. 
   
 Weitere Informationen finden Sie unter [integrieren Ihrer lokalen Verzeichnisse in Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   

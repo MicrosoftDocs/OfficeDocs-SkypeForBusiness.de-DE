@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157759"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580703"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -31,10 +31,10 @@ Mit zusätzlicher Konfiguration ist die Remoteverwaltung mithilfe von Microsoft 
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Sammeln von Protokollen in Microsoft Teams-Räumen
 <a name="Logs"> </a>
 
-Zum Sammeln von Protokollen müssen Sie das Protokoll Sammlungs Skript aufrufen, das mit der Microsoft Teams rooms-App ausgeliefert wird. Starten Sie im Administratormodus eine erhöhte PowerShell-Eingabeaufforderung, und geben Sie den folgenden Befehl ein:
+Zum Sammeln von Protokollen müssen Sie das Protokoll Sammlungs Skript aufrufen, das mit der Microsoft Teams rooms-App ausgeliefert wird. Starten Sie im Administratormodus eine Eingabeaufforderung mit erhöhten Rechten, und geben Sie den folgenden Befehl ein:
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 Die Protokolle werden in c:\rigel. als ZIP-Datei ausgegeben
@@ -78,7 +78,7 @@ Dieser Abschnitt behandelt die Systemeinstellungen, von denen Microsoft Teams-R�
 |Einstellung|Ermöglicht|
 |:-----|:-----|
 |HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Ermöglicht das Starten von Microsoft Teams-Räumen  <br/> |
-|Power Management-\> auf AC, schalten Sie den Bildschirm nach 10 Minuten aus.  <br/> Power Management-\> auf AC, niemals System in den Standbymodus versetzen  <br/> |Ermöglicht Microsoft Teams-Räumen, die angefügten anzeigen zu deaktivieren und automatisch zu aktivieren  <br/> |
+|Power Management- \> auf AC, schalten Sie den Bildschirm nach 10 Minuten aus.  <br/> Power Management- \> auf AC, niemals System in den Standbymodus versetzen  <br/> |Ermöglicht Microsoft Teams-Räumen, die angefügten anzeigen zu deaktivieren und automatisch zu aktivieren  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
 Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
@@ -113,7 +113,7 @@ So führen Sie einen Verwaltungsvorgang durch:
 2. Öffnen Sie eine reguläre PowerShell-Eingabeaufforderung auf dem PC.
 3. Kopieren Sie den Befehlstext aus der folgenden Tabelle, und fügen Sie ihn an der Eingabeaufforderung ein.
 4. Ersetzen `<Device fqdn>` Sie Felder durch FQDN-Werte, die für Ihre Umgebung geeignet sind.
-5. Ersetzen * \<Sie\> Path* durch den Dateinamen und den lokalen Pfad der Master-SkypeSettings. XML-Konfigurationsdatei (oder des Design Bilds).
+5. Ersetzen Sie * \< path \> * durch den Dateinamen und den lokalen Pfad der Master-SkypeSettings. XML-Konfigurationsdatei (oder des Design Bilds).
     
 So erhalten Sie angefügte Geräte
   
@@ -173,11 +173,11 @@ Wenn Sie Updates manuell verwalten möchten und dem normalen Verfahren für [Mic
 ### <a name="to-update-using-powershell"></a>So aktualisieren Sie die Verwendung von PowerShell
 
 1. Extrahieren Sie das Paket aus der [MSI](https://go.microsoft.com/fwlink/?linkid=851168) -Installationsdatei auf eine Freigabe, auf die das Gerät zugreifen kann.
-2. Führen Sie das folgende Skript aus, das auf die Microsoft Teams \<rooms\> -Geräte ausgerichtet ist, und ändern Sie die Freigabe auf die Gerätefreigabe nach Bedarf:
+2. Führen Sie das folgende Skript aus, das auf die Microsoft Teams rooms-Geräte ausgerichtet ist, und ändern \< Sie die Freigabe \> auf die Gerätefreigabe nach Bedarf:
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>Administratormodus und Geräteverwaltung
 <a name="AdminMode"> </a>

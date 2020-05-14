@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 12cd21d0be899b69abeeb787759fea702a98791c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
+ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769138"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220675"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Warum ist die Nummern Aktivierung gerade ausstehend?
 
-Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn eine Telefonnummer aus irgendeinem Grund nicht aktiviert ist und aufgrund der Adressüberprüfung als **Ausstehend** aufgelistet ist, müssen Sie eine Serviceanfrage erstellen und übermitteln. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
+Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufplänen. Wenn eine Telefonnummer aus irgendeinem Grund nicht aktiviert ist und aufgrund der Adressüberprüfung als **Ausstehend** aufgelistet ist, müssen Sie eine Serviceanfrage erstellen und übermitteln. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
 1. Wählen Sie im Admin Center **Hilfe benötigen**? aus.
@@ -39,12 +39,12 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 3. Wenn die Ergebnisse im Abschnitt **View solutions** (Lösungen anzeigen) für Sie nicht hilfreich sind, wählen Sie eine der folgenden Optionen aus:
     - **Let us call you (Recommended)** (Anruf von uns (empfohlen)): Bestätigen Sie Ihre Kontaktnummer, und klicken Sie dann auf **Call me** (Rückruf). Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es voraussichtlich dauert, bis Sie zurückgerufen werden.
     - **Email us** (E-Mail an uns): Bestätigen Sie Ihre E-Mail-Adresse, und wählen Sie dann **Senden** aus. Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es dauert, bis Sie eine Antwort erhalten.
-
+ 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Erstellen Sie für Organisationen mit mehr als 150 Benutzern eine Serviceanfrage, um eine Notfalladresse zu validieren.
 
-1. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto als Administrator bei Office 365 an.
+1. Registrieren Sie sich als Administrator für Microsoft 365 oder Office 365 mit Ihrem Geschäfts-oder Schulkonto.
     
-2. Klicken Sie im Admin Center im linken Navigationsbereich auf**neue Dienstanfrage** **unterstützen** > .
+2. Klicken Sie im Admin Center im linken Navigationsbereich auf **Support**  >  **neue Dienstanfrage**unterstützen.
     
 3. Klicken Sie unter **Serviceanfragen** auf **Hinzufügen**.
     
@@ -69,7 +69,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
       - Land oder Region
     
      > [!IMPORTANT]
-     > **Geben Sie das Land bzw. die Region ein, in dem bzw. in der wir Anrufpläne in Office 365 anbieten und in dem bzw. in der Sie beim Zuweisen einer Telefonnummer eine Notfalladresse validieren möchten.**
+     > **Geben Sie das Land/die Region an, in dem wir Anrufpläne anbieten, die Sie versuchen, eine Notfalladresse zu überprüfen, wenn Sie eine Telefonnummer zuweisen.**
   
       - Postleitzahl
     

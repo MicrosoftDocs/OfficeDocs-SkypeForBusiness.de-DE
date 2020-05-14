@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: In diesem Artikel wird aufgeführt, welche Online-und lokalen Topologien mit moderner Authentifizierung in Skype for Business unterstützt werden, sowie Sicherheitsfeatures, die für die einzelnen Topologien gelten.
-ms.openlocfilehash: 8c580b5ddbc38073960885375b74c73222ee272d
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443980f6ecf2bdf170974bf0fdc0dd64f3657e67
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898110"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219695"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Skype for Business Topologien, die mit moderner Authentifizierung unterstützt werden
 
@@ -35,7 +35,7 @@ Welche Topologien werden mit MA Skype for Business, Skype for Business Online, E
 
 ### <a name="supported-ma-topologies-in-skype-for-business"></a>Unterstützte MA-Topologien in Skype for Business
 
-Es gibt potenziell zwei Serveranwendungen und zwei Office 365 Arbeitsauslastungen, die mit Skype for Business von Ma verwendeten Topologien in Zusammenhangstehen.
+Es gibt potenziell zwei Serveranwendungen und zwei Microsoft 365-oder Office 365 Arbeitsauslastungen, die mit Skype for Business von Ma verwendeten Topologien in Zusammenhangstehen.
 
 - Lokale Skype for Business Server (Cu 5)
 
@@ -93,7 +93,7 @@ Gemischte Topologien beinhalten Kombinationen von SFB-Hybriden mit geteilter Dom
 |Gemischt 3  <br/> |![Unterstützte MA mit SFB, Exo mit MA on, plus-und SFB vor Ort.](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> Verwaltete Benutzer/Postfächer: Exo + SFB oder intersfb  <br/> |In dieser Topologie sind keine SFB-MA-Funktionen verfügbar.  <br/> |Keine Ma-Funktionen für SFB.  <br/> |
 |Gemischt 4  <br/> |![Unterstützte MA mit SFB, SFBO mit MA on, plus-und SFB.](../../media/8971bfaf-961f-476c-b16e-5418d1fa0a6d.PNG)           <br/> Verwaltete Benutzer/Postfächer: "$ + SFBO" oder "$ + SFB"  <br/> |MA ist für SFBO eingeschaltet, daher ist der autorisierungsserver für Benutzer Azure AD, die in SFBO verwaltet werden. Benutzer von "on-Prem" in SFB und Exo verwenden AD.  <br/> |MFA, CBA, ca/MAM mit InTune nur für Online-Benutzer.\*  <br/> |
 |Gemischt 5  <br/> |![Unterstützte MA in SFB, Exo mit MA und SFBO mit MA sowie mit dem Studien-und SFB vor Ort.](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> Verwaltete Benutzer/Postfächer: Exo + SFBO, Exo + SFB, interSFBO oder intersfb  <br/> |MA ist sowohl in Exo als auch in SFBO, daher ist der autorisierungsserver für Benutzer Azure AD, die in SFBO verwaltet werden; Benutzer von "on-Prem" in "in" und "SFB" verwenden AD.  <br/> |MFA, CBA, ca/MAM mit InTune nur für Online-Benutzer.\*  <br/> |
-|Gemischt 6  <br/> |![In einer gemischten 6-Topologie befindet sich die moderne Authentifizierung an allen vier possibile-Standorten – die ideale Situation im Hinblick auf moderne auth-Typen.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> Verwaltete Benutzer/Postfächer: Exo + SFBO, Exo + SFB, interSFBO oder intersfb  <br/> |MA ist überall, daher ist der autorisierungsserver für alle Benutzer Azure AD. (Online und lokal)  <br/>  Weitere Informationen [https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview) finden Sie unter Bereitstellungsschritte. <br/> |MFA, CBA und ca/MAM (über InTune) für alle Benutzer.  <br/> |
+|Gemischt 6  <br/> |![In einer gemischten 6-Topologie befindet sich die moderne Authentifizierung an allen vier possibile-Standorten – die ideale Situation im Hinblick auf moderne auth-Typen.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> Verwaltete Benutzer/Postfächer: Exo + SFBO, Exo + SFB, interSFBO oder intersfb  <br/> |MA ist überall, daher ist der autorisierungsserver für alle Benutzer Azure AD. (Online und lokal)  <br/>  Weitere Informationen finden Sie unter [https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview) Bereitstellungsschritte. <br/> |MFA, CBA und ca/MAM (über InTune) für alle Benutzer.  <br/> |
 
 \*-MFA umfasst Windows-Desktop, Mac, Ios, Android-Geräte und Windows phones; CBA umfasst Windows-Desktop-, IOS-und Android-Geräte; CA/MAM mit InTune, einschließlich Android-und IOS-Geräten.
 

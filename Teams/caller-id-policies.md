@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie die Rufnummernanzeige Richtlinien in Microsoft Teams verwenden und verwalten, um die Rufnummernanzeige von Teams-Benutzern in Ihrer Organisation zu ändern oder zu blockieren.
-ms.openlocfilehash: ff2f9a02bdf91eb6296dce03e426be673f83495a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824543"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224259"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams
 
@@ -33,27 +33,27 @@ Als Administrator können Sie die Anrufer-ID-Richtlinien in Microsoft Teams verw
 
 Wenn Benutzer beispielsweise einen Anruf führen, können Sie die Rufnummernanzeige ändern, um die Haupttelefonnummer Ihrer Organisation anstelle der Telefonnummern der Benutzer anzuzeigen.
 
-Sie verwalten die Richtlinien für die Rufnummernanzeige, indem Sie im Microsoft Teams Admin Center zu den Richtlinien für die **VoIP** > **-Anruferkennung** wechseln. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen.
+Sie verwalten die Richtlinien für die Rufnummernanzeige, indem Sie **Voice**  >  im Microsoft Teams Admin Center zu den Richtlinien für die VoIP **-Anruferkennung** wechseln. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen.
 
 Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Sofern einem Benutzer eine benutzerdefinierte Richtlinie zugewiesen wurde, gilt diese Richtlinie für den Benutzer. Wurde einem Benutzer keine benutzerdefinierte Richtlinie zugewiesen, gilt für diesen Benutzer die globale Standardrichtlinie.
 
 ## <a name="create-a-custom-caller-id-policy"></a>Erstellen einer benutzerdefinierten Anrufer-ID-Richtlinie
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > **-Richtlinien für Anrufer**.
-2. Klicken Sie auf **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**  >  **-Richtlinien für Anrufer**.
+2. Klicken Sie auf **Hinzufügen**. <br>
 ![Screenshot der Seite "neue Rufnummernanzeige" im Admin Center](media/caller-id-policies-add-policy.png)
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 4. Wählen Sie hier die gewünschten Einstellungen aus:
 
     - **Eingehende Anrufer-ID blockieren**: Aktivieren Sie diese Einstellung, um die Rufnummernanzeige für eingehende Anrufe zu blockieren.
-    - **Benutzer können die Richtlinien für die Rufnummernanzeige außer Kraft setzen**: Aktivieren Sie diese Einstellung, damit Benutzer die Einstellungen in der Richtlinie bezüglich der Anzeige der Rufnummer für Anrufer überschreiben können. Das bedeutet, dass Benutzer auswählen können, ob Sie Ihre Rufnummernanzeige anzeigen möchten.
-    - **Rufnummernanzeige ersetzen**: Legen Sie die Anrufer-ID für die Benutzer angezeigt, indem Sie eine der folgenden Optionen auswählen:
+    - **Überschreiben Sie die Richtlinie für die Rufnummern**Anzeige: Aktivieren Sie diese Einstellung, damit Benutzer die Einstellungen in der Richtlinie bezüglich der Anzeige der Rufnummer für Anrufer überschreiben können. Das bedeutet, dass Benutzer auswählen können, ob Sie Ihre Rufnummernanzeige anzeigen möchten. Weitere Informationen finden Sie unter [Endbenutzer-Steuerung der ausgehenden Rufnummern](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)Anzeige.
+    - **Ersetzen Sie die Rufnummern**Anzeige durch: Legen Sie die Rufnummernanzeige für die Benutzer angezeigt, indem Sie eine der folgenden Optionen auswählen:
 
         - **Nummer des Benutzers**: zeigt die Nummer des Benutzers an. 
         - **Dienstnummer**: Hier können Sie eine Dienst Telefonnummer einrichten, die als Rufnummernanzeige angezeigt werden soll.
         - **Anonym**: zeigt die Rufnummernanzeige als "Anonym" an.
 
-    - **Dienstnummer, die zum Ersetzen der Rufnummernanzeige verwendet**werden soll: Wählen Sie eine Dienstnummer aus, um die Rufnummernanzeige der Benutzer zu ersetzen. Diese Option steht zur Verfügung, wenn Sie unter **Rufnummernanzeige ersetzen**die Option **Dienstnummer** ausgewählt haben.
+    - **Ersetzen Sie die Rufnummernanzeige durch diese Service-Nummer**: Wählen Sie eine Dienstnummer aus, um die Rufnummernanzeige der Nutzer zu ersetzen. Diese Option steht zur Verfügung, wenn Sie im **Feld Rufnummernanzeige ersetzen die Rufnummern** **Anzeige ausgewählt haben** .
 
 5. Klicken Sie auf **Speichern**.
 
@@ -61,7 +61,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
 
 Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstellte, benutzerdefinierte Richtlinie zuweisen. 
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > **-Richtlinien für Anrufer**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**  >  **-Richtlinien für Anrufer**.
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
 3. Ändern Sie die gewünschten Einstellungen, und klicken Sie dann auf **Speichern**.
 
@@ -71,7 +71,7 @@ Um einem oder mehreren Benutzern eine benutzerdefinierte Richtlinie zuzuweisen, 
 
 ### <a name="assign-a-custom-caller-line-id-policy-to-a-user"></a>Zuweisen einer benutzerdefinierten Richtlinie für die Rufnummernanzeige zu einem Benutzer
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
 2. Klicken Sie zunächst auf **Richtlinien** und dann neben **Zugewiesene Richtlinien** auf **Bearbeiten**.
 3. Wählen Sie unter **Anrufer-ID-Richtlinie**die Richtlinie aus, die Sie zuweisen möchten, und wählen Sie dann **Speichern**aus.
 
@@ -81,10 +81,10 @@ Wenn Sie eine benutzerdefinierte Anruf Linien-ID-Richtlinie mehreren Benutzern g
 
 Sie können auch die folgenden Schritte ausführen:
 
-1. Wechseln Sie zu **Microsoft Teams Admin Center** > -**VoIP** > **-Anruf Erkennungsrichtlinien**.
+1. Wechseln Sie zu **Microsoft Teams Admin Center**  >  **Voice**  >  **-VoIP-Anruf Erkennungsrichtlinien**.
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
 3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
 5. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **Speichern**aus.
 
 ### <a name="assign-a-custom-caller-id-policy-to-users-in-a-group"></a>Zuweisen einer benutzerdefinierten Anrufer-ID-Richtlinie zu Benutzern in einer Gruppe

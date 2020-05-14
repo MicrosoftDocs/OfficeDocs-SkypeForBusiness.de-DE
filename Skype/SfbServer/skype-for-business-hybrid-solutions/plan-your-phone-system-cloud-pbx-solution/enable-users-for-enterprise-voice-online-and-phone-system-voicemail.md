@@ -1,5 +1,5 @@
 ---
-title: Aktivieren von Benutzern für Enterprise-VoIP-Online und Telefon System in Office 365 Voicemail
+title: Aktivieren von Benutzern für Enterprise-VoIP-Online-und Telefon System-Voicemail
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,25 +18,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: In diesem Artikel erfahren Sie, wie Sie das Telefon System in Office 365 VoIP-Dienste für Ihre Skype for Business-Benutzer aktivieren.
-ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Erfahren Sie, wie Sie VoIP-Dienste für Telefonsysteme für Ihre Skype for Business-Benutzer aktivieren.
+ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780724"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221105"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP-Online und Telefon System in Office 365 Voicemail
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP-Online-und Telefon System-Voicemail
  
-In diesem Artikel erfahren Sie, wie Sie das Telefon System in Office 365 VoIP-Dienste für Ihre Skype for Business-Benutzer aktivieren.
+Erfahren Sie, wie Sie VoIP-Dienste für Telefonsysteme für Ihre Skype for Business-Benutzer aktivieren.
   
-Der letzte Schritt bei der Bereitstellung von Telefonsystem in Office 365 mit lokaler PSTN-Konnektivität besteht darin, Ihre Benutzer für das Telefonsystem in Office 365 und Voicemail zu aktivieren. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die Enterprise-VoIP für Skype for Business Online noch nicht aktiviert ist.
+Der letzte Schritt bei der Bereitstellung von Telefonsystem mit lokaler PSTN-Konnektivität besteht darin, Ihre Benutzer für Telefonsystem und Voicemail zu aktivieren. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die Enterprise-VoIP für Skype for Business Online noch nicht aktiviert ist.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Aktivieren des Telefonsystems in Office 365 VoIP-Diensten
+## <a name="enable-phone-system-voice-services"></a>VoIP-Dienste für Telefonsysteme aktivieren
 
-Wenn Sie einen Benutzer für das Telefon System in Office 365 Voice und Voicemail aktivieren möchten, müssen Sie einige anfängliche Schritte ausführen, um zu überprüfen, ob der Skype for Business Online-Connector auf Ihren Servern bereitgestellt wurde, und Ihre Benutzer für gehostete Voicemails zu aktivieren.
+Wenn Sie einen Benutzer für Telefon System-VoIP und Voicemail aktivieren möchten, müssen Sie einige anfängliche Schritte ausführen, um zu überprüfen, ob der Skype for Business Online-Connector auf Ihren Servern bereitgestellt wurde, und Ihre Benutzer für gehostete Voicemail zu aktivieren.
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>So aktivieren Sie Ihre Benutzer für das Telefon System in Office 365 Voice und Voicemail
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>So aktivieren Sie Ihre Benutzer für Telefon System Sprache und Voicemail
 
 1. Bevor Sie beginnen, sollten Sie sicherstellen, dass der Skype for Business Online Connector (Windows PowerShell-Modul) auf Ihren Front-End-Servern bereitgestellt wird. Wenn dies nicht der Fall ist, können Sie es aus [dem Download Center](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen. Weitere Informationen zur Verwendung dieses Moduls finden Sie unter [Konfigurieren Ihres Computers für Skype for Business Online Verwaltung](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
     
@@ -78,7 +78,7 @@ Wenn Sie einen Benutzer für das Telefon System in Office 365 Voice und Voicemai
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    Beispiel:
+    Zum Beispiel:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -87,9 +87,9 @@ Wenn Sie einen Benutzer für das Telefon System in Office 365 Voice und Voicemai
     > [!NOTE]
     > Sie können einen Benutzer auch über seine SIP-Adresse, den Benutzerprinzipalnamen (User Principal Name, UPN), den Domänennamen und den Benutzernamen (Domäne \ Benutzername) und den Anzeigenamen in Active Directory ("Bob Kelly") angeben. 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Aktualisieren Sie den Anschluss-URI und die Wähleinstellungen für Benutzer, die für das Telefon System in Office 365 aktiviert sind.
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Aktualisieren der Leitungs-URI und des Wählplans für Benutzer, die für das Telefon System aktiviert sind
 
-In diesem Abschnitt wird beschrieben, wie Sie den Leitungs-URI und die Wähleinstellungen für für Telefonsysteme aktivierte Benutzer in Office 365 aktualisieren. 
+In diesem Abschnitt wird beschrieben, wie Sie den Anschluss-URI und die Wähleinstellungen für für Telefonsysteme aktivierte Benutzer aktualisieren. 
   
 ### <a name="to-update-the-line-uri"></a>So aktualisieren Sie den Anschluss-URI
 
@@ -141,12 +141,12 @@ Sie können benutzerspezifische Wählpläne mit Windows PowerShell und dem Cmdle
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren der VoIP-Routing Richtlinien mithilfe von lokalen Windows PowerShell-Cmdlets
 
-In diesem Abschnitt wird beschrieben, wie Sie die VoIP-Routing Richtlinien für in Office 365 für Telefonsysteme aktivierte Benutzer aktualisieren.
+In diesem Abschnitt wird beschrieben, wie Sie die VoIP-Routing Richtlinien für für Telefonsysteme aktivierte Benutzer aktualisieren.
   
-Telefon System in Office 365 Benutzern muss eine VoIP-Routing Richtlinie zugewiesen sein, damit Anrufe erfolgreich weitergeleitet werden können. Dies unterscheidet sich von lokalen Business Voice-Benutzern, denen eine VoIP-Richtlinie zugewiesen werden muss, damit Anrufe erfolgreich weitergeleitet werden können. Die VoIP-Routing Richtlinie sollte PSTN-Verwendungen enthalten, die autorisierte Anrufe und Routen für das Telefon System in Office 365 Benutzern definieren. Sie können diese PSTN-Verwendungen aus vorhandenen VoIP-Richtlinien in neue VoIP-Routing Richtlinien kopieren. Weitere Informationen finden Sie unter [New-csvoiceroutingpolicy "](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Telefon System Benutzern muss eine VoIP-Routing Richtlinie zugewiesen sein, damit Anrufe erfolgreich weitergeleitet werden können. Dies unterscheidet sich von lokalen Business Voice-Benutzern, denen eine VoIP-Richtlinie zugewiesen werden muss, damit Anrufe erfolgreich weitergeleitet werden können. Die VoIP-Routing Richtlinie sollte PSTN-Verwendungen enthalten, die autorisierte Anrufe und Routen für Telefon System Benutzer definieren. Sie können diese PSTN-Verwendungen aus vorhandenen VoIP-Richtlinien in neue VoIP-Routing Richtlinien kopieren. Weitere Informationen finden Sie unter [New-csvoiceroutingpolicy "](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Alle Telefonsysteme in Office 365 Benutzern wird dieselbe Online Sprachrichtlinie namens BusinessVoice zugewiesen, die die zulässigen Anruffunktionen definiert. lassen Sie beispielsweise gleichzeitigen Ring zu. 
+> Allen Telefon System Benutzern wird dieselbe Online Sprachrichtlinie namens "BusinessVoice" zugewiesen, die die zulässigen Anruffunktionen definiert. lassen Sie beispielsweise gleichzeitigen Ring zu. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine VoIP-Routing Richtlinie pro Benutzer zu
 

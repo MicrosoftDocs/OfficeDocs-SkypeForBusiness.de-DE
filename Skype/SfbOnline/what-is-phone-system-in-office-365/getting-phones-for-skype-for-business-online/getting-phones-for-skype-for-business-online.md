@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, welche Smartphones mit Skype for Business von Polycom, HP und Mitel sowie den erforderlichen Lizenzen funktionieren. '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784762"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220435"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
 Skype for Business Online qualifiziert und unterstützt Festnetztelefone für Benutzer, die lieber auf herkömmliche Weise als über die Skype for Business-App telefonieren möchten. In diesem Thema werden die Telefone und Firmwareversionen behandelt, die für die Verwendung in Skype for Business Online unterstützt werden. Außerdem finden Sie weitere Informationen, die Sie beim Einrichten von Telefonen in Ihrer Organisation unterstützen sollen.
 
 > [!NOTE]
-> Skype for Business wird in Office 365 langsam durch Microsoft Teams als primäre Kommunikationsmethode ersetzt.  Weitere Informationen finden Sie unter [eine neue Vision für intelligente Kommunikation in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
+> Skype for Business wird langsam durch Microsoft Teams als primäre Kommunikationsmethode in Microsoft 365 und Office 365 ersetzt.  Weitere Informationen finden Sie unter [eine neue Vision für intelligente Kommunikation in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
 >
 >Informationen zu den neuesten Updates und den aktuellsten Informationen zu unterstützten Geräten finden Sie auf den [Microsoft Teams-Geräten für intelligente Kommunikation](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Unterstützte Telefone
   
-Microsoft arbeitet in enger Partnerschaft mit Polycom, Yealink und AudioCodes zusammen, um über das Partner IP Phone Program (PIP) für das Telefonsystem in Office 365 und Skype for Business Server eine breite Palette von Geräten zu entwickeln und zu zertifizieren.
+Microsoft arbeitet eng mit Polycom, Yealink und AudioCodes zusammen, um eine Vielzahl von Geräten über das Partner-IP-Telefonprogramm (PIP) für das Telefon System zu entwickeln und zu zertifizieren.
   
 Bei der Bestellung neuer Telefone für Skype for Business ist es wichtig, Telefone mit der *richtigen Produkt-ID*zu kaufen. Durch diese Produkt-IDs ist sichergestellt, dass Sie Telefone erhalten, in denen die qualifizierte Version von Skype for Business Online bereits installiert ist.
   
@@ -64,7 +64,7 @@ Weitere Details zu AudioCodes-Telefonen finden Sie unter [IP-Telefone für Skype
   
 ## <a name="supported-firmware"></a>Unterstützte Firmware
 
-Für unterstützte Telefone ist die folgende Mindestsoftwareversion erforderlich, damit sie mit dem Telefonsystem in Office 365 funktionieren:
+Dies ist die Mindestsoftware-Version, die für unterstützte Telefone für die Arbeit mit dem Telefon System erforderlich ist:
   
 ||||
 |:-----|:-----|:-----|
@@ -123,7 +123,7 @@ Schrittweise Anweisungen finden Sie unter [Bereitstellen von Telefonen für Skyp
 ## <a name="related-topics"></a>Verwandte Themen
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Das Telefonsystem bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

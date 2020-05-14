@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Hier erfahren Sie, wie Sie Benutzer von Skype for Business Online zu lokal migrieren.
-ms.openlocfilehash: 0add74a2480f4caed493e6e448427aa2462db714
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 64a5561fda35669be6ce7718c3ec037dcb8b9264
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779671"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221335"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Migrieren von Benutzern aus der Cloud in eine lokale Umgebung 
 
@@ -49,16 +49,16 @@ Nachdem Sie einen Benutzer aus der Cloud wieder in den lokalen Standort zurückv
 
 ### <a name="move-users-with-move-csuser"></a>Migrieren von Benutzern mit "CsUser"
 
-CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Sie müssen sowohl in der lokalen Umgebung als auch in der Office 365 Organisation über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` Parameter verwenden, um Anmeldeinformationen für ein Office 365 Konto mit der erforderlichen Office 365 Administratorrolle anzugeben.
+CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch in der Cloud-Dienstorganisation (Microsoft 365 oder Office 365) verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den Parameter verwenden, `-Credential` um Anmeldeinformationen für ein Microsoft 365-oder Office 365-Konto mit der erforderlichen Administratorrolle anzugeben.
 
 So stellen Sie einen Benutzer mithilfe von "CsUser" lokal zur Verschiebung ein:
 
 - Geben Sie den zu verschiebenden Benutzer mit dem Parameter Identity an.
 - Geben Sie den-target-Parameter mit dem vollqualifizierten Domänennamen des gewünschten lokalen Pools an, in dem der Benutzer gehostet wird.
-- Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl lokal als auch Office 365 verfügen, verwenden Sie den Parameter-Credential, um ein Konto mit ausreichenden Berechtigungen in Office 365 bereitzustellen.
-- Wenn das Konto mit den Berechtigungen in Office 365 nicht in "on.Microsoft.com" endet, müssen Sie den-HostedMigrationOverrideUrl-Parameter mit dem korrekten Wert wie unter " [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)" beschrieben angeben.
+- Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl im lokalen als auch im clouddienst (Microsoft 365 oder Office 365) verfügen, verwenden Sie den Parameter-Credential, um ein Konto mit ausreichenden Berechtigungen in Microsoft 365 oder Office 365 bereitzustellen.
+- Wenn das Konto mit den Berechtigungen in Microsoft 365 oder Office 365 nicht in "on.Microsoft.com" endet, müssen Sie den-HostedMigrationOverrideUrl-Parameter mit dem korrekten Wert wie unter " [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)" beschrieben angeben.
 
-Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu Skype for Business Server zu migrieren, und es wird davon ausgegangen, dass die Office 365 Credential ein separates Konto ist und als Eingabe für die Get-Credential-Eingabeaufforderung angegeben wird.
+Die folgende Cmdlet-Sequenz kann zum Umstellen eines Benutzers in Skype for Business Server verwendet werden, und es wird davon ausgegangen, dass die Anmeldeinformationen von Microsoft 365 oder Office 365 ein separates Konto sind und als Eingabe für die Eingabeaufforderung Get-Credential angegeben werden.
 
 ```PowerShell
 $cred=Get-Credential
@@ -73,7 +73,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 3. Verwenden Sie " **Suchen** ", um nach den Benutzern zu suchen, die Sie wieder lokal zurücksetzen möchten.
 4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in lokal verlagern**aus.
 5. Wählen Sie im Assistenten den Benutzerpool aus, der als Host für den Benutzer verwendet werden soll, und klicken Sie auf **weiter**.
-6. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Office 365 mit einem Konto an, das in. onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
+6. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Microsoft 365 oder Office 365 mit einem Konto an, das in. onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
 7. Klicken Sie auf **weiter**und dann auf **weiter** , um den Benutzer zu verlagern.
 8. Beachten Sie, dass Statusmeldungen bezüglich Erfolg oder Fehler oben in der Hauptsystem Steuerung-APP, nicht im Assistenten angegeben werden.
 

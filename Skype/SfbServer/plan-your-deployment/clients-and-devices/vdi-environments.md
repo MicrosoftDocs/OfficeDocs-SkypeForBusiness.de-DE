@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: In diesem Thema werden Planungsüberlegungen für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remote Desktop erläutert.
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027996"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219525"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planen von Skype for Business in VDI-Umgebungen
  
@@ -43,7 +43,7 @@ Für die VDI-Plug-in-Komponente, die von Microsoft, Citrix oder VMware angeboten
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX Realtime Optimization Pack
 <a name="Citrix_RT"> </a>
 
-Das Citrix-VDI-Umgebungs-Plugin (ein Feature von XenApp und XenDesktop) ist kompatibel mit lync 2013 und Skype for Business 2015 und 2016 (vollständige Clients, die ein beliebiges Click-to-Run-Installationsprogramm ausführen, oder MSI-Installationsprogramme, die nach dem Januar 2017 auf einem virtuellen Computer installiert sind.) Desktop. Die gesamte Funktion basiert auf dem Microsoft lync VDI-Plug-in, funktioniert jedoch auf einer größeren Vielzahl von Clientbetriebssystemen, einschließlich Windows 10, Macintosh und Linux.
+Das Plug-in für die Citrix-VDI-Umgebung (ein Feature von XenApp und XenDesktop) ist mit lync 2013 und Skype for Business 2015 und 2016 (vollständige Clients, die ein beliebiges Click-to-Run-Installationsprogramm ausführen, oder MSI-Installationsprogramme, die auf einem virtuellen Desktop installiert sind, nach Januar 2017 PU) kompatibel. Die gesamte Funktion basiert auf dem Microsoft lync VDI-Plug-in, funktioniert jedoch auf einer größeren Vielzahl von Clientbetriebssystemen, einschließlich Windows 10, Macintosh und Linux.
   
 Eine vollständige Liste der Features und unterstützten Technologien finden Sie auf der Citrix-Website unter [Delivering Microsoft Skype for Business to XenApp and XenDesktop users](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
@@ -161,10 +161,10 @@ Folgende Features werden nicht unterstützt:
     
 - Angepasste Klingeltöne und Features für die Musik Aufbewahrung.
     
-Das lync VDI-Plug-in wird in einer Office 365 Umgebung nicht unterstützt.
+Das lync VDI-Plug-in wird in Microsoft 365-oder Office 365-Umgebungen nicht unterstützt.
   
 > [!NOTE]
-> Das Citrix Realtime Optimization Pack unterstützt Office 365. Für Citrix-basierte virtuelle Umgebungen lesen Sie Citrix [technische](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Übersichtsdokumentation zur Liste der unterstützten Features und Versionen.
+> Das Citrix Realtime Optimization Pack unterstützt Microsoft 365 und Office 365. Für Citrix-basierte virtuelle Umgebungen lesen Sie Citrix [technische](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Übersichtsdokumentation zur Liste der unterstützten Features und Versionen.
   
 ## <a name="see-also"></a>Siehe auch
 <a name="Citrix_RT"> </a>

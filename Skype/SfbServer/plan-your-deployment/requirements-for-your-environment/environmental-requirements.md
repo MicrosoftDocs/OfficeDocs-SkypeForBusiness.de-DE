@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Vielzahl von Dingen, die Sie vor der Bereitstellung konfigurieren möchten, einschließlich Active Directory, DNS, certs und Filesharings.'
-ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572803"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220875"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Umgebungsanforderungen für Skype for Business Server 2015
  
@@ -38,7 +38,7 @@ Was ist eine Umgebungs Anforderung für Skype for Business Server 2015? Nun, wir
   
 - [Dateifreigabe](environmental-requirements.md#Fileshare)
   
-## <a name="active-directory"></a>Active Directory Domain Services
+## <a name="active-directory"></a>Active Directory
 <a name="AD"> </a>
 
 Während viele Konfigurationsdaten für Server und Dienste im zentralen Verwaltungsspeicher von Skype for Business Server 2015 gespeichert werden, werden einige Dinge noch in Active Directory gespeichert:
@@ -168,11 +168,11 @@ In dieser Topologie gibt es eine oder mehrere Benutzergesamtstrukturen, und Skyp
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Mehrere Gesamtstrukturen in einer Topologie mit Ressourcengesamtstruktur mit Skype for Business Online und Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Zeigt zwei AD-Gesamtstrukturen, eine Benutzergesamtstruktur und eine Ressourcengesamtstruktur. Die beiden Gesamtstrukturen haben eine Vertrauensstellung. Sie werden mit Office 365 mit Azure AD Connect synchronisiert. Alle Benutzer sind für Skype for Business über Office 365 aktiviert.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Zeigt zwei AD-Gesamtstrukturen, eine Benutzergesamtstruktur und eine Ressourcengesamtstruktur. Die beiden Gesamtstrukturen haben eine Vertrauensstellung. Sie werden mit Microsoft 365 oder Office 365 mit Azure AD Connect synchronisiert. Alle Benutzer sind für Skype for Business über Microsoft 365 oder Office 365 aktiviert.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-In diesem Szenario gibt es mehrere Gesamtstrukturen mit einer Topologie mit einer Ressourcengesamtstruktur. Zwischen den Active Directory Gesamtstrukturen besteht eine voll vertrauenswürdige Beziehung. Das Azure Active Directory Connect-Tool wird zum Synchronisieren von Konten zwischen den lokalen Benutzergesamtstrukturen und Office 365 verwendet.
+In diesem Szenario gibt es mehrere Gesamtstrukturen mit einer Topologie mit einer Ressourcengesamtstruktur. Zwischen den Active Directory Gesamtstrukturen besteht eine voll vertrauenswürdige Beziehung. Das Azure Active Directory Connect-Tool wird zum Synchronisieren von Konten zwischen den lokalen Benutzergesamtstrukturen und Microsoft 365 oder Office 365 verwendet.
   
- Die Organisation verfügt außerdem über Office 365 und verwendet [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) , um Ihre lokalen Konten mit Office 365 zu synchronisieren. Benutzer, die für Skype for Business aktiviert sind, werden über Office 365 und Skype for Business Online aktiviert. Skype for Business Server wird nicht lokal bereitgestellt.
+ Die Organisation verfügt außerdem über Microsoft 365 oder Office 365 und verwendet [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) , um Ihre lokalen Konten mit Microsoft 365 oder Office 365 zu synchronisieren. Benutzer, die für Skype for Business aktiviert sind, sind über Microsoft 365 oder Office 365 und Skype for Business Online aktiviert. Skype for Business Server wird nicht lokal bereitgestellt.
   
 Die Authentifizierung mit einmaligem Anmelden wird von einer Active Directory Verbunddienst Farm bereitgestellt, die sich in der Benutzergesamtstruktur befindet.
   
@@ -210,7 +210,7 @@ Und es ist äußerst wichtig, daran zu denken, dass jeder Name im DNS mit dem Co
   
 Dies scheint logisch für alle Computer zu sein, die bereits einer Domäne beigetreten sind, aber wenn Sie über eine Edgeserver verfügen, die nicht mit Ihrer Domäne verbunden ist, kann die Standardeinstellung ein kurzer Name ohne Domänensuffix sein. Stellen Sie sicher, dass dies nicht der Fall ist, weder in DNS noch im Edgeserver oder auf einem Skype for Business Server 2015 Server oder Pool.
   
-Und verwenden Sie definitiv keine Unicode-Zeichen oder Unterstriche. Standard Zeichen (a-z, a-z, 0-9 und Bindestriche) werden von externen DNS-und öffentlichen Zertifizierungsstellen unterstützt (Sie müssen dem SN im Zertifikat FQDNs zuweisen, vergessen Sie nicht), damit Sie sich viel Kummer ersparen, wenn Sie nennen dies im Hinterkopf.
+Und verwenden Sie definitiv keine Unicode-Zeichen oder Unterstriche. Standard Zeichen (a-z, a-z, 0-9 und Bindestriche) werden von externen DNS-und öffentlichen Zertifizierungsstellen unterstützt (Sie müssen dem SN im Zertifikat FQDNs zuweisen, vergessen Sie nicht), damit Sie sich viel Kummer ersparen, wenn Sie dies im Hinterkopf behalten.
   
 Weitere Informationen zu den DNS-Anforderungen für Netzwerke finden Sie im Abschnitt [Networking](../../plan-your-deployment/network-requirements/network-requirements.md) in unserer Planungsdokumentation.
   
@@ -248,7 +248,7 @@ Die Zertifikatplanung ist daher ein muss. Nun sehen wir uns eine Liste mit einig
 - Wenn Sie eine webbasierte Zertifikatanforderung an eine Windows Server 2003-Zertifizierungsstelle senden möchten, muss diese von einem Computer aus gesendet werden, auf dem entweder Windows Server 2003 mit SP2 oder Windows XP ausgeführt wird.
     
 > [!NOTE]
-> Obwohl KB922706 Unterstützung für die Lösung von Problemen bei der Registrierung von webzertifikaten für eine Windows Server 2003-Zertifikatdienste-Webregistrierung bietet, ist es nicht möglich, Windows Server 2008, Windows Vista oder Windows 7 zum Anfordern eines Zertifikats zu verwenden. aus einer Windows Server 2003-Zertifizierungsstelle. 
+> Obwohl KB922706 Unterstützung für die Lösung von Problemen bei der Registrierung von webzertifikaten für eine Windows Server 2003-Zertifikatdienste-Webregistrierung bietet, ist es nicht möglich, Windows Server 2008, Windows Vista oder Windows 7 zum Anfordern eines Zertifikats von einer Windows Server 2003 Zertifizierungsstelle zu verwenden. 
   
 > [!NOTE]
 > Die Verwendung des Signaturalgorithmus RSASSA-PSS wird nicht unterstützt und kann unter anderem zu Fehlern bei Anmelde-und Anruf Weiterleitungs Problemen führen. 
@@ -270,7 +270,7 @@ Außerdem benötigen Sie Zertifikate, wenn Skype for Business Server 2015 mit an
   
 Skype for Business Server 2015 enthält auch Unterstützung für (ohne erforderliche) Zertifikate, die mit der kryptografischen Hashfunktion von SHA-256 signiert wurden. Um den externen Zugriff mithilfe von SHA-256 zu unterstützen, muss das externe Zertifikat von einer öffentlichen Zertifizierungsstelle mit SHA-256 ausgestellt werden.
   
-Um die Dinge unkompliziert zu halten, haben wir die Zertifikatanforderungen für Standard Edition-Server, Front-End-Pools und andere Rollen in den folgenden Tabellen formuliert, wobei die fiktive Contoso.com als Beispiele verwendet wird (Sie verwenden wahrscheinlich etwas Else für Ihre Umgebung). Hierbei handelt es sich um alle standardmäßigen Webserverzertifikate mit privaten Schlüsseln, die nicht exportierbar sind. Einige zusätzliche Dinge, die Sie beachten sollten:
+Um die Dinge unkompliziert zu halten, haben wir die Zertifikatanforderungen für Standard Edition-Server, Front-End-Pools und andere Rollen in den folgenden Tabellen formuliert, wobei die fiktive Contoso.com als Beispiele verwendet wird (Sie verwenden wahrscheinlich etwas anderes für Ihre Umgebung). Hierbei handelt es sich um alle standardmäßigen Webserverzertifikate mit privaten Schlüsseln, die nicht exportierbar sind. Einige zusätzliche Dinge, die Sie beachten sollten:
   
 - Die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) von Servern wird automatisch konfiguriert, wenn Sie den Zertifikat-Assistenten zum Anfordern von Zertifikaten verwenden.
     
@@ -283,24 +283,24 @@ Zertifikate für Standard Edition-Server:
 |**Zertifikat**|**Antragstellername/Allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).  <br/> |SN = SE01. contoso. com; San = SE01. contoso. com  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |Auf Standard Edition-Servern Standard Edition-Server ist der FQDN des Servers identisch mit dem FQDN des Pools.  <br/> Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
-|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner FQDN des Webs (entspricht dem FQDN des Servers)  <br/> UND  <br/> • Einfache URLs erfüllen  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = SE01. contoso. com; San = SE01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = SE01. contoso. com; San = SE01. contoso. com; San =\*. contoso.com  <br/> |Sie können den internen webfqdn im Topologie-Generator nicht außer Kraft setzen.  <br/> Wenn Sie über mehrere einfache URLs verfügen, müssen Sie alle als Sans einschließen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
-|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer FQDN des Webs  <br/> UND  <br/> • Einfache URL für Einwahl  <br/> • Erfüllen einfacher URLs pro SIP-Domäne  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = SE01. contoso. com; San = webcon01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = SE01. contoso. com; San = webcon01. contoso. com; San =\*. contoso.com  <br/> |Wenn Sie über mehrere einfache URLs verfügen, müssen Sie Sie alle als Alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner FQDN des Webs (entspricht dem FQDN des Servers)  <br/> UND  <br/> • Einfache URLs erfüllen  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = SE01. contoso. com; San = SE01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = SE01. contoso. com; San = SE01. contoso. com; San = \* . contoso.com  <br/> |Sie können den internen webfqdn im Topologie-Generator nicht außer Kraft setzen.  <br/> Wenn Sie über mehrere einfache URLs verfügen, müssen Sie alle als Sans einschließen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer FQDN des Webs  <br/> UND  <br/> • Einfache URL für Einwahl  <br/> • Erfüllen einfacher URLs pro SIP-Domäne  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = SE01. contoso. com; San = webcon01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = SE01. contoso. com; San = webcon01. contoso. com; San = \* . contoso.com  <br/> |Wenn Sie über mehrere einfache URLs verfügen, müssen Sie Sie alle als Alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
    
 Zertifikate für Front-End-Server in einer Front-End-Pool:
   
 |**Zertifikat**|**Antragstellername/Allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).  <br/> |SN = EEpool. contoso. com; San = EEpool. contoso. com; San = ee01. contoso. com  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
-|Web, intern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Interner FQDN des Webs (der nicht mit dem FQDN des Servers identisch ist)  <br/> • Server-FQDN  <br/> • FQDN des Skype for Business Pools  <br/> UND  <br/> • Einfache URLs erfüllen  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = ee01. contoso. com; San = ee01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = ee01. contoso. com; San = ee01. contoso. com; San =\*. contoso.com  <br/> |Wenn Sie über mehrere einfache URLs verfügen, müssen Sie Sie alle als Alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
-|Web, extern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Externer FQDN des Webs  <br/> UND  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = ee01. contoso. com; San = webcon01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = ee01. contoso. com; San = webcon01. contoso. com; San =\*. contoso.com  <br/> |Wenn Sie über mehrere einfache URLs verfügen, müssen Sie Sie alle als Alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, intern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Interner FQDN des Webs (der nicht mit dem FQDN des Servers identisch ist)  <br/> • Server-FQDN  <br/> • FQDN des Skype for Business Pools  <br/> UND  <br/> • Einfache URLs erfüllen  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = ee01. contoso. com; San = ee01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = ee01. contoso. com; San = ee01. contoso. com; San = \* . contoso.com  <br/> |Wenn Sie über mehrere einfache URLs verfügen, müssen Sie Sie alle als Alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, extern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Externer FQDN des Webs  <br/> UND  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = ee01. contoso. com; San = webcon01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = ee01. contoso. com; San = webcon01. contoso. com; San = \* . contoso.com  <br/> |Wenn Sie über mehrere einfache URLs verfügen, müssen Sie Sie alle als Alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
    
 Zertifikate für den Director:
   
 |**Zertifikat**|**Antragstellername/Allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
 |Standard  <br/> |Directorpool  <br/> |FQDN des Directors, FQDN des Directorpool.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien strikte DNS-Übereinstimmungen erforderlich sind, benötigen Sie auch Einträge für SIP. sipdomain "(für jede SIP-Domäne, die Sie haben).  <br/> |Pool.contoso.com; San = dir01. contoso. com  <br/> Wenn es sich bei diesem Director-Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |
-|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner FQDN des Webs (entspricht dem FQDN des Servers)  <br/> • Server-FQDN  <br/> • FQDN des Skype for Business Pools  <br/> UND  <br/> • Einfache URLs erfüllen  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = dir01. contoso. com; San = dir01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = dir01. contoso. com; San = dir01. contoso. com San =\*. contoso.com  <br/> |
-|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer FQDN des Webs  <br/> UND  <br/> • Erfüllen einfacher URLs pro SIP-Domäne  <br/> • Einfache URL für Einwahl  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |Der externe Director-webfqdn muss sich von dem Front-End-Pool oder Front-End-Server unterscheiden.  <br/> SN = dir01. contoso. com; San = directorwebcon01. contoso. com San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = dir01. contoso. com; San = directorwebcon01. contoso. com San =\*. contoso.com  <br/> |
+|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner FQDN des Webs (entspricht dem FQDN des Servers)  <br/> • Server-FQDN  <br/> • FQDN des Skype for Business Pools  <br/> UND  <br/> • Einfache URLs erfüllen  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = dir01. contoso. com; San = dir01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = dir01. contoso. com; San = dir01. contoso. com San = \* . contoso.com  <br/> |
+|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer FQDN des Webs  <br/> UND  <br/> • Erfüllen einfacher URLs pro SIP-Domäne  <br/> • Einfache URL für Einwahl  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |Der externe Director-webfqdn muss sich von dem Front-End-Pool oder Front-End-Server unterscheiden.  <br/> SN = dir01. contoso. com; San = directorwebcon01. contoso. com San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = dir01. contoso. com; San = directorwebcon01. contoso. com San = \* . contoso.com  <br/> |
    
 Zertifikate für eigenständige Vermittlungsserver:
   
@@ -312,7 +312,7 @@ Zertifikate für Survivable Branch Appliance:
   
 |**Zertifikat**|**Antragstellername/Allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
-|Standard  <br/> |FQDN der Appliance  <br/> |SIP. \<sipdomain "\> (Sie benötigen nur einen Eintrag pro SIP-Domäne)  <br/> |SN = sba01. contoso. net; San = SIP. contoso. com; San = SIP. fabrikam. com  <br/> |
+|Standard  <br/> |FQDN der Appliance  <br/> |SIP. \< sipdomain " \> (Sie benötigen nur einen Eintrag pro SIP-Domäne)  <br/> |SN = sba01. contoso. net; San = SIP. contoso. com; San = SIP. fabrikam. com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Zertifikate für den Server für beständigen Chat
 
@@ -340,22 +340,22 @@ Wir werden die Einzelheiten in jeder Tabelle unten auflisten.
   
 Nun ist hier eine kleine Vorplanung gut, aber manchmal haben Sie Skype for Business Server 2015 bereitgestellt, ohne dass Sie Mobilität bereitstellen möchten, und das kommt auf die Reihe, wenn Sie bereits über Zertifikate in Ihrer Umgebung verfügen. Die Neuausstellung über eine interne Zertifizierungsstelle ist normalerweise recht einfach, aber mit öffentlichen Zertifikaten einer öffentlichen Zertifizierungsstelle kann dies ein wenig teurer sein.
   
-Wenn Sie sich das ansehen, und wenn Sie viele SIP-Domänen haben (wodurch das Hinzufügen von Sans teurer wäre), können Sie den Reverseproxy so konfigurieren, dass er http für die anfängliche AutoErmittlungsdienst Anforderung verwendet, anstatt HTTPS zu verwenden (Dies ist die Standardeinstellung Konfiguration). Das Thema Planung für Mobilität enthält weitere Informationen dazu.
+Wenn Sie sich das ansehen, und wenn Sie viele SIP-Domänen haben (wodurch das Hinzufügen von Sans teurer wäre), können Sie den Reverseproxy so konfigurieren, dass er http für die anfängliche AutoErmittlungsdienst Anforderung verwendet, anstatt HTTPS zu verwenden (Dies ist die Standardkonfiguration). Das Thema Planung für Mobilität enthält weitere Informationen dazu.
   
 Zertifikatanforderungen für Directorpool und Front-End-Pool:
   
 |**Beschreibung**|**San-Eintrag**|
 |:-----|:-----|
-|URL des internen AutoErmittlungsdiensts  <br/> |San = "lyncdiscoverinternal". \<sipdomain "\>  <br/> |
-|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover. \<sipdomain "\>  <br/> |
+|URL des internen AutoErmittlungsdiensts  <br/> |San = "lyncdiscoverinternal". \< sipdomain "\>  <br/> |
+|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover. \< sipdomain "\>  <br/> |
    
-Alternativ können Sie auch "San\*=" verwenden. \<sipdomain "\>
+Alternativ können Sie auch "San =" verwenden \* . \< sipdomain "\>
   
 Zertifikatanforderungen für Reverse Proxys (öffentliche Zertifizierungsstellen):
   
 |**Beschreibung**|**San-Eintrag**|
 |:-----|:-----|
-|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover. \<sipdomain "\>  <br/> |
+|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover. \< sipdomain "\>  <br/> |
    
 Dieses San muss dem Zertifikat zugewiesen werden, das dem SSL-Listener auf dem Reverseproxy zugewiesen ist.
   

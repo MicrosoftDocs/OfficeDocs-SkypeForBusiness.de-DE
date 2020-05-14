@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Zusammenfassung: Übersicht über die Installationsmethoden von Enterprise-Clients für Skype for Business.'
-ms.openlocfilehash: cdee3db6dc6fcec646ee2e15b6aeebc298d75b67
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8d6e59582c3c420d5752a84f793e6c3025b3c500
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778281"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220645"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Bereitstellen von Clients für Skype for Business Server
  
 **Zusammenfassung:** Übersicht über die Installationsmethoden von Enterprise-Clients für Skype for Business.
   
-Wie Sie Skype for Business für Ihre Benutzer bereitstellen, hängt davon ab, ob Sie Skype for Business im Rahmen eines Office 365 Plans erworben haben oder eine Volumenlizenzversion von Skype for Business erworben haben. 
+Wie Sie Skype for Business für Ihre Benutzer bereitstellen, hängt davon ab, ob Sie Skype for Business als Teil eines Microsoft 365-oder Office 365-Plans erworben haben oder eine Volumenlizenzversion von Skype for Business erworben haben. 
   
-- **Office 365** Wenn Sie über einen Office 365 Plan verfügen, der Skype for Business enthält, wird die verwendete Installationstechnologie als Klick-und-Los bezeichnet. Mit Office 365 können Sie den Benutzern die Installation von Skype for Business über das Microsoft 365 Admin Center ermöglichen. Oder Sie können Skype for Business für Ihre Benutzer bereitstellen, indem Sie die Software in Ihr lokales Netzwerk herunterladen und dann Ihre vorhandenen Softwarebereitstellungstools verwenden, beispielsweise mit dem Microsoft Endpoint Configuration Manager. Installationsinformationen zu Skype for Business, die mit Office 365 geliefert werden, finden Sie unter [deploy the Skype for Business Client in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
+- **Microsoft 365 oder Office 365** Wenn Sie über einen Microsoft 365-oder Office 365-Plan verfügen, der Skype for Business enthält, wird die verwendete Installationstechnologie als Klick-und-Los bezeichnet. Sie können Benutzern das Installieren von Skype for Business aus dem Microsoft 365 Admin Center ermöglichen. Oder Sie können Skype for Business für Ihre Benutzer bereitstellen, indem Sie die Software in Ihr lokales Netzwerk herunterladen und dann Ihre vorhandenen Softwarebereitstellungstools verwenden, beispielsweise mit dem Microsoft Endpoint Configuration Manager. Installationsinformationen zu Skype for Business, die mit Microsoft 365 und Office 365 geliefert werden, finden Sie unter [deploy the Skype for Business Client in Microsoft 365 oder Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
     
 - **Volumen lizenziert** Wenn Sie über eine Volumenlizenzversion des Skype for Business 2015-oder 2016-Clients verfügen, wird die verwendete Installationstechnologie als Windows Installer (MSI) verwendet. Ein Windows Installer-basiertes Installationspaket besteht aus mehreren MSI-Dateien. Ein MSI-Paket mit sprachneutralem Kern wird mit einem oder mehreren sprachenspezifischen Paketen zu einem vollständigen Produkt kombiniert. Setup fügt die einzelnen Pakete zusammen und führt während und nach der Installation von Office auf den Computern der Benutzer Anpassungs- und Wartungsaufgaben aus. Der Skype for Business 2019-Client verwendet Klick-und-Los-Installationsprogramme.
     
@@ -35,7 +35,7 @@ In den Themen in diesem Abschnitt wird beschrieben, wie Sie den Windows Installe
 > Das Skype-Besprechungs-Add-in für Microsoft Office, das die Besprechungsverwaltung über den Outlook-Client für Messaging und Zusammenarbeit unterstützt, wird automatisch mit Skype for Business-Clients installiert. 
   
 > [!NOTE]
-> Mit dem Setupprogramm für Office 365 werden frühere Versionen von lync nicht deinstalliert. Der Skype for Business Client wird nebeneinander mit anderen lync-Clients installiert. 
+> Mit den Setupprogrammen von Microsoft 365 und Office 365 werden frühere Versionen von lync nicht deinstalliert. Der Skype for Business Client wird nebeneinander mit anderen lync-Clients installiert. 
   
 ## <a name="installing-windows-clients"></a>Installieren von Windows-Clients
 
@@ -60,4 +60,4 @@ In den Themen in diesem Abschnitt wird beschrieben, wie Sie den Windows Installe
     
 ## <a name="see-also"></a>Siehe auch
 
-[Bereitstellen des Skype for Business-Clients in Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
+[Bereitstellen des Skype for Business-Clients in Microsoft 365 oder Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)

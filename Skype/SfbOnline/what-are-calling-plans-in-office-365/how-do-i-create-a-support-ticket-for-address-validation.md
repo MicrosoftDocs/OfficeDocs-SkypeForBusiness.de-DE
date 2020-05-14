@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
-description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: dd748a532957790d977b10fc0ec94f7f8af7b910
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
+ms.openlocfilehash: 86b1658624c9514bc030048b04dd9bd93c4a3306
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769318"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220725"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich ein Supportticket für die Adressvalidierung?
 
-Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
+Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
@@ -46,9 +46,9 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Erstellen Sie für Organisationen mit mehr als 150 Benutzern eine Serviceanfrage, um eine Notfalladresse zu validieren.
 
-1. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto als Administrator bei Office 365 an.
+1. Registrieren Sie sich als Administrator für Microsoft 365 oder Office 365 mit Ihrem Geschäfts-oder Schulkonto.
     
-2. Klicken Sie im Admin Center im linken Navigationsbereich auf**neue Dienstanfrage** **unterstützen** > .
+2. Klicken Sie im Admin Center im linken Navigationsbereich auf **Support**  >  **neue Dienstanfrage**unterstützen.
     
 3. Klicken Sie unter **Serviceanfragen** auf **Hinzufügen**.
     
@@ -73,7 +73,7 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
       - Land oder Region
     
      > [!IMPORTANT]
-     > **Geben Sie das Land bzw. die Region ein, in dem bzw. in der wir Anrufpläne in Office 365 anbieten und in dem bzw. in der Sie beim Zuweisen einer Telefonnummer eine Notfalladresse validieren möchten.**
+     > **Geben Sie das Land/die Region an, in dem wir Anrufpläne anbieten, die Sie versuchen, eine Notfalladresse zu überprüfen, wenn Sie eine Telefonnummer zuweisen.**
   
       - Postleitzahl
     

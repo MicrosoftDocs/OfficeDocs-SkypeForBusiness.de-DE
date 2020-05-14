@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten sollten die Supportanforderungen für die APP Skype for Business-Webanwendung und Skype-Besprechungen überprüfen, während Sie Skype for Business Server planen. Dieser Artikel ist nicht für die Benutzer dieser apps vorgesehen.'
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777790"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221045"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungs Clients (app für Webanwendungen und Besprechungen)
  
@@ -33,14 +33,14 @@ Nachdem Sie Skype for Business Server implementiert haben, werden die Benutzer I
 Später können diese Benutzer Besprechungen erstellen und Benutzer von außerhalb der Organisation einladen, und diese Besprechungsteilnehmer verfügen möglicherweise nicht über eine Version des Skype for Business Clients. Wenn diese Benutzer auf die URL für die Besprechungseinladung klicken, wird das Fehlen eines Clients erkannt, und die Einladung ohne Skype for Business-Client wird aufgefordert, einen einfachen, nur für Besprechungen verwendeten Client herunterzuladen und zu installieren, damit Sie an der Besprechung teilnehmen können.
   
 > [!NOTE]
-> Die Skype for Business-Webanwendung und Skype-Besprechungs-APP sind nur verfügbar, wenn Sie sich bei einer Besprechung anmelden, ohne Skype for Business zu haben. Benutzer Hilfe für diese apps finden Sie [https://aka.ms/smahelp](https://aka.ms/smahelp)unter. 
+> Die Skype for Business-Webanwendung und Skype-Besprechungs-APP sind nur verfügbar, wenn Sie sich bei einer Besprechung anmelden, ohne Skype for Business zu haben. Benutzer Hilfe für diese apps finden Sie unter [https://aka.ms/smahelp](https://aka.ms/smahelp) . 
   
 > [!NOTE]
 > Sie können die Skype for Business-Webanwendung oder die Skype-Besprechungs-APP nicht vorab installieren, aber [Smart Phone](https://products.office.com/skype-for-business/download-app?tab=tabs-1) -und [Tablet](https://products.office.com/skype-for-business/download-app?tab=tabs-2) -Benutzer können möglicherweise kostengünstige mobile Clients installieren, die Sie für die Teilnahme an Besprechungen verwenden können.
   
 Standardmäßig wird der Server, der die Besprechung hostet, den Benutzer anweisen, Skype for Business-Webanwendung herunterzuladen und zu installieren, um an der Besprechung teilzunehmen. Die Skype for Business-Webanwendung wird im Front-End-Server gespeichert und an den Besprechungsteilnehmer gesendet. 
   
-Für Skype for Business Server sind die Skype-Besprechungs-app (unter Windows) und Skype for Business für Mac (auf dem Mac) als Ersetzungen für Skype for Business-Webanwendung verfügbar, die mit CU5 beginnt, die Bereitstellung der Ersatz-apps erfordert jedoch die unter [enable Skype Meetings App beschriebene zusätzliche Konfiguration, um Skype for Business-Webanwendung zu ersetzen (optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Wenn die Skype-Besprechungs-APP und die Skype for Business für Mac aktiviert sind, laden Benutzer die neueste Version der Apps aus dem Office 365 Inhalts Zustellungs Netzwerk (CDN) anstatt von Ihrem Skype for Business Server herunter. Für Skype for Business Server 2019 ist die Verwendung der Skype-Besprechungs-APP und Skype for Business für Mac die einzige Option.
+Für Skype for Business Server sind die Skype-Besprechungs-app (unter Windows) und Skype for Business für Mac (auf dem Mac) als Ersetzungen für Skype for Business-Webanwendung verfügbar, die mit CU5 beginnt, die Bereitstellung der Ersatz-apps erfordert jedoch die unter [enable Skype Meetings App beschriebene zusätzliche Konfiguration, um Skype for Business-Webanwendung zu ersetzen (optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Wenn die Skype-Besprechungs-APP und Skype for Business für Mac aktiviert sind, laden Benutzer die neueste Version der Apps aus dem Microsoft 365-oder Office 365 Content Delivery Network (CDN) anstatt aus dem Skype for Business Server herunter. Für Skype for Business Server 2019 ist die Verwendung der Skype-Besprechungs-APP und Skype for Business für Mac die einzige Option.
   
 Die Skype-Besprechungs-App bietet eine vereinfachte Browserumgebung für das herunterladen und Installieren der APP und die Teilnahme an Besprechungen, einschließlich eines einzigen Klick-Joins für Benutzer von Internet Explorer. Die Skype-Besprechungs-App bietet auch viele Verbesserungen gegenüber der Skype for Business-Webanwendung, um Zuverlässigkeit und Besprechungs Erfahrung zu Gewährleistung. 
   
@@ -130,7 +130,7 @@ In dieser Tabelle werden die besprechungsfeatures verglichen, die Benutzern des 
 |Abstimmungen durchführen  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Hochladen von Dateien, die für andere Personen freigegeben werden  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Besprechung oder Konferenz planen  <br/> |Outlook-oder Skype for Business-Webplaner  <br/> |Outlook-oder Skype for Business-Webplaner  <br/> |Skype for Business-Webplaner  <br/> |Skype for Business-Webplaner  <br/> |Skype for Business-Webplaner  <br/> |
-|Q&amp;ein Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Q &amp; ein Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Video für Teilnehmer deaktivieren  <br/> |&#x2714;|||||
 |Besprechungs-Chat deaktivieren  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Benutzergruppe stumm schalten  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema aus, um die Konfiguration einer vorhandenen Skype for Business Cloud Connector Edition 1.4.1 oder höher-Bereitstellung zu ändern.
-ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779381"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220295"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
  
@@ -109,7 +109,7 @@ Wenn sich mehr als eine Appliance am Standort befindet, müssen Sie die folgende
 
 Wenn Sie die Konfiguration für mehrere Websites in einer Bereitstellung ändern möchten, führen Sie die Schritte für einen einzelnen Standort aus, und aktualisieren Sie gleichzeitig einen Standort.
   
-## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Ändern der Konfiguration Ihrer Office 365 Organisation zur Aktivierung automatischer Updates
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>Ändern der Konfiguration Ihrer Microsoft 365-oder Office 365-Organisation, um automatische Updates zu aktivieren
 <a name="BKMK_MultipleSites"> </a>
 
 Zum Aktivieren von automatischen Updates für das Betriebssystem und für automatische Bits-Aktualisierungen müssen Sie das Skype for Business mandantenadministrator Konto für die Online Verwaltung verwenden und die Remote-Mandanten-PowerShell wie folgt verwenden.
@@ -161,9 +161,9 @@ Wenn Sie automatische Updates für das Betriebssystem oder automatische Bits-Upd
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Aktualisieren der dedizierten Administratoranmeldeinformationen für Mandanten
 <a name="BKMK_MultipleSites"> </a>
 
-Administrative Änderungen in der Office 365 Organisation für Cloud Connector werden von einem Konto mit den erforderlichen Berechtigungen vorgenommen. In Cloud Connector-Versionen vor 2,0 ist dieses Konto ein dediziertes globales mandantenadministrator Konto. In Cloud Connector-Versionen 2,0 und höher kann dieses Konto ein Office 365 Konto mit Skype for Business Administrator Rechten sein.
+Administrative Änderungen in der Microsoft 365-oder Office 365-Organisation für Cloud Connector werden von einem Konto mit den erforderlichen Berechtigungen vorgenommen. In Cloud Connector-Versionen vor 2,0 ist dieses Konto ein dediziertes globales mandantenadministrator Konto. In Cloud Connector-Versionen 2,0 und höher kann dieses Konto ein Microsoft 365-oder Office 365 Konto mit Skype for Business Administrator Rechten sein.
   
-Wenn sich die Anmeldeinformationen Ihres Administratorkontos in Office 365 ändern, müssen Sie auch die lokal zwischengespeicherten Anmeldeinformationen in Cloud Connector aktualisieren, indem Sie den folgenden Administrator-PowerShell-Befehl auf jeder von Ihnen bereitgestellten Cloud Connector-Appliance ausführen:
+Wenn sich die Anmeldeinformationen Ihres Administratorkontos in Microsoft 365 oder Office 365 ändern, müssen Sie auch die lokal zwischengespeicherten Anmeldeinformationen in Cloud Connector aktualisieren, indem Sie den folgenden Administrator-PowerShell-Befehl auf jeder von Ihnen bereitgestellten Cloud Connector-Appliance ausführen:
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -175,7 +175,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Dieser Abschnitt gilt für Cloud Connector, Version 2,0 und höher. 
   
-Alle Cloud Connector-Anmeldeinformationen werden in der folgenden Datei gespeichert: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Wenn das Kennwort auf dem Hostserver geändert wird, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
+Alle Cloud Connector-Anmeldeinformationen werden in der folgenden Datei gespeichert: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ". Wenn das Kennwort auf dem Hostserver geändert wird, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
   
 Um die lokal gespeicherten Anmeldeinformationen in der Cloud Connector-Appliance zu aktualisieren, verwenden Sie die Cmdlets [Get-CcCredential](get-cccredential.md) und [Sets-CcCredential](set-cccredential.md) , und führen Sie die folgenden Schritte aus:
   
@@ -191,7 +191,7 @@ Um die lokal gespeicherten Anmeldeinformationen in der Cloud Connector-Appliance
     
 3. Starten Sie den Hostserver neu.
     
-4. Löschen Sie die folgende Datei: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ".
+4. Löschen Sie die folgende Datei: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ".
     
 5. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie dann "Register-ccappliance"-local "aus, um die Kennwörter nach der Beschreibung erneut einzugeben. Stellen Sie sicher, dass Sie das Kennwort eingeben, das Sie zuvor für die Cloud Connector-Bereitstellung eingegeben haben.
     
@@ -215,7 +215,7 @@ Standardmäßig verwenden "vmadmin" und DomainAdmin dasselbe Kennwort wie "ccese
 > [!NOTE]
 > Dieser Abschnitt gilt für Cloud Connector, Version 2.0.1 und höher. 
   
-Der Cloud Connector-Dienst führt den Cloud Connector-Verwaltungsdienst aus. Das "cceservice"-Konto wird während der Cloud Connector Edition-Bereitstellung erstellt und in den folgenden Dateien gespeichert: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml "und"%SystemDrive%\Programdata\Cloudconnector\credentials.. "Cceservice". xml ".
+Der Cloud Connector-Dienst führt den Cloud Connector-Verwaltungsdienst aus. Das "cceservice"-Konto wird während der Cloud Connector Edition-Bereitstellung erstellt und in den folgenden Dateien gespeichert: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml "und"%SystemDrive%\Programdata\Cloudconnector\credentials.. "Cceservice". xml ".
   
 Um sicherzustellen, dass alle Appliances auf die Websiteverzeichnis Freigabe zugreifen können, muss das Kennwort für das "cceservice"-Konto auf allen innerhalb des Standorts bereitgestellten Appliances identisch sein. Denken Sie dabei an Folgendes:
   
@@ -271,18 +271,18 @@ Für jede Appliance, die zum gleichen PSTN-Standort gehört, müssen Sie Folgend
     
     - CcLockFile
     
-    - FQDN\<des externen SIP-Pools Site_ Edge\>
+    - \<FQDN des externen SIP-Pools Site_ Edge\>
     
-    - FQDN\<des externen SIP-Pools Tenant_ Edge\>
+    - \<FQDN des externen SIP-Pools Tenant_ Edge\>
     
-    - FQDN\<des externen SIP-Pools TenantConfigLock_ Edge\>
+    - \<FQDN des externen SIP-Pools TenantConfigLock_ Edge\>
     
 ## <a name="add-a-new-sip-domain"></a>Hinzufügen einer neuen SIP-Domäne
 <a name="BKMK_UpdatePassword"> </a>
 
 Gehen Sie folgendermaßen vor, um der vorhandenen Cloud Connector-Bereitstellung eine neue SIP-Domäne (oder mehrere SIP-Domänen) hinzuzufügen:
   
-1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen haben und die Möglichkeit zum Hinzufügen von DNS-Einträgen haben. Weitere Informationen zum Einrichten Ihrer Domäne in Office 365 finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Microsoft 365 oder Office 365 abgeschlossen haben und die Möglichkeit zum Hinzufügen von DNS-Einträgen haben. Weitere Informationen zum Einrichten Ihrer Domäne in Microsoft 365 oder Office 365 finden Sie unter [Hinzufügen einer Domäne zu Microsoft 365 oder Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Aktualisieren Sie die Cloud Connector-Konfigurationsdatei mit der neuen SIP-Domäne oder den neuen Domänen.
     
@@ -303,7 +303,7 @@ Gehen Sie folgendermaßen vor, um der vorhandenen Cloud Connector-Bereitstellung
 
 Wenn Sie die primäre SIP-Domäne in ihrer Cloud Connector-Bereitstellung ändern müssen, gehen Sie wie folgt vor:
   
-1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen haben und die Möglichkeit zum Hinzufügen von DNS-Einträgen haben. Weitere Informationen zum Einrichten Ihrer Domäne in Office 365 finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Microsoft 365 oder Office 365 abgeschlossen haben und die Möglichkeit zum Hinzufügen von DNS-Einträgen haben. Weitere Informationen zum Einrichten Ihrer Domäne in Microsoft 365 oder Office 365 finden Sie unter [Hinzufügen einer Domäne zu Microsoft 365 oder Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Aktualisieren Sie die Cloud Connector-Konfigurationsdatei mit der neuen SIP-Domäne.
     

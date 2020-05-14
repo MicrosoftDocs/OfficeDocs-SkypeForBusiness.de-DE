@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Configuring Cloud Voicemail.
-ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210631"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221285"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen des Cloud-Voicemail-Diensts für lokale Benutzer
 
@@ -31,7 +31,7 @@ Cloud-Voicemail übernimmt Exchange Unified Messaging (um) bei der Bereitstellun
 
 - Zugriff auf Voicemail im Exchange-Postfach des Benutzers mithilfe der Skype for Business Online-oder Outlook-Clients
 
-- Die Möglichkeit, das Office 365 webbasierte Portal zum Verwalten von Voicemail-Optionen zu verwenden
+- Die Möglichkeit, das Microsoft 365 Admin Center zum Verwalten von Voicemail-Optionen zu verwenden
 
 - Unterstützung für Exchange-Postfächer lokal oder in der Cloud
 
@@ -46,7 +46,7 @@ Bei Cloud Voicemail werden Ihre Verwaltungsaufgaben wesentlich vereinfacht, da:
 - Es ist nicht erforderlich, die Exchange um Rolle zu konfigurieren.
 - Die Setupaufgaben für Cloud-Voicemail sind einfacher.
 - Updates für Voicemailfunktionen werden direkt in der Cloud bereitgestellt, sodass Ihre Benutzer immer Zugriff auf die neuesten Funktionen und Updates mit geringerer Abhängigkeit von kumulativen Updates (CUS) haben.
-- Sie verfügen über dieselben Steuerelemente für lokale und Online-Exchange-Postfächer. Weitere Informationen zu diesen Steuerelementen finden Sie unter [Einrichten von Voicemail für Telefonsysteme](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
+- Sie verfügen über dieselben Steuerelemente für lokale und Online-Exchange-Postfächer. Weitere Informationen zu diesen Steuerelementen finden Sie unter [Einrichten von Voicemail für Telefonsysteme](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d).
 
 Das folgende Diagramm zeigt Cloud-Voicemail in einer hybridbereitstellung:
 
@@ -73,7 +73,7 @@ Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anford
 
 - Hybrid Konnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und Cloud-Voicemail für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass Sie eine hybride Konnektivität zwischen Ihren lokalen und Online-Umgebungen eingerichtet haben. Dies wird manchmal als geteilte Domänenkonfiguration bezeichnet.
 
-   Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md).
+   Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md).
 
 - Lokale Benutzer müssen für Enterprise-VoIP und für gehostete Voicemail in Skype for Business Server aktiviert sein.
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158982"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219835"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -34,11 +34,11 @@ Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffs Rolle](https://doc
 
 Der Vorgang zum Installieren eines benutzerdefinierten Connectors und zum Anpassen der Sicherheit, um die Verwendung des Connectors zu ermöglichen, wird in der [Power BI-Dokumentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)ausführlich beschrieben. Aus Gründen der Einfachheit ist hier eine kurze Erläuterung zu finden:
 
-1.  Überprüfen Sie, ob Ihr Computer bereits über einen * \[Ordner mit Power BI-benutzerdefinierten Dokumenten\]\\für Power BI-Desktops\\*verfügt. Wenn dies nicht der Fall ist, erstellen Sie diesen Ordner. <sup>1</sup>
+1.  Überprüfen Sie, ob Ihr Computer bereits über einen Ordner mit * \[ \] \\ Power BI- \\ benutzerdefinierten Dokumenten für Power BI-Desktops*verfügt   . Wenn dies nicht der Fall ist, erstellen Sie diesen Ordner. <sup>1</sup>
 
-2.  Laden Sie die connectordatei (eine * \*MEZ* -oder * \*PQx* -Datei) herunter, und legen Sie Sie im Verzeichnis *benutzerdefinierte Connectors* ab.
+2.  Laden Sie die connectordatei (eine * \* MEZ* -oder * \* PQx* -Datei) herunter, und legen Sie Sie im Verzeichnis *benutzerdefinierte Connectors* ab.
 
-3.  **Wenn es sich bei der connectordatei um eine * \*MEZ* -Datei handelt,** müssen Sie auch Ihre Sicherheitseinstellungen anpassen, wie in der [benutzerdefinierten Connector-Setup-Dokumentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)beschrieben.
+3.  **Wenn es sich bei der connectordatei um eine * \* MEZ* -Datei handelt,** müssen Sie auch Ihre Sicherheitseinstellungen anpassen, wie in der [benutzerdefinierten Connector-Setup-Dokumentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)beschrieben.
 
 Wenn eine neue Version dieses Power BI Connectors für Microsoft Teams veröffentlicht wird, ersetzen Sie einfach die alte connectordatei im Verzeichnis *benutzerdefinierte* Connectors durch die neue Datei.
 
@@ -150,7 +150,7 @@ Wenn weitere Fehler außerhalb dieses Bereichs auftreten, Benachrichtigen Sie da
 
 ## <a name="footnotes"></a>Fußnoten
 
-**<sup>1</sup>** bestimmte Prozesse und Apps (z. b. OneDrive) können dazu führen, dass der Stammordner Ihres Dokuments geändert wird. Stellen Sie sicher, dass das *Power\\BI-Desktop benutzerdefinierte Connectors* -Verzeichnis innerhalb des aktuellen Ordners für Stammordner Dokumente gespeichert ist.
+**<sup>1</sup>** bestimmte Prozesse und Apps (z. b. OneDrive) können dazu führen, dass der Stammordner Ihres Dokuments geändert wird. Stellen Sie sicher, dass das *Power BI-Desktop \\ benutzerdefinierte Connectors* -Verzeichnis innerhalb des aktuellen Ordners für Stammordner Dokumente gespeichert ist.
 
 **<sup>2</sup>** die Anmeldeinformationen, die Sie für CQD verwenden, müssen *nicht* dieselben Anmeldeinformationen sein, die Sie für die Anmeldung bei der Power BI-Desktop Anwendung verwenden.
 
@@ -160,7 +160,7 @@ Wenn weitere Fehler außerhalb dieses Bereichs auftreten, Benachrichtigen Sie da
 
 Trotz des Beta-Tags ist der Connector für die Anrufqualität für Power BI die Veröffentlichungsversion des Connectors und wurde offiziell vom Power BI-Team signiert, um dies zu widerspiegeln. Das Zertifizierungsverfahren zum Entfernen dieses Beta-Tags ist umfangreich und erfordert eine Verpflichtung des Power BI-Teams, den Connector auch direkt zu unterstützen. Aus Zeitgründen ist das Power BI-Team derzeit nicht in der Lage, diese Unterstützung und umfassendere Zertifizierung bereitzustellen, ist aber weiterhin bereit, die Sicherheit, Authentizität und allgemeine Funktionalität des Microsoft Call Quality Connectors zu bezeugen.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>Warum scheint der Verbinder im Vergleich zu erweiterten CQD im Browser so langsam zu sein? Was kann ich tun, um die Leistung zu verbessern?
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Warum scheint der Verbinder im Vergleich zu erweiterten CQD im Browser so langsam zu sein? Was kann ich tun, um die Leistung zu verbessern?
 
 Die Abfrageleistung für die verschiedenen Vorlagen ist sowohl im Browser als auch im Connector identisch. Der Unterschied besteht in der Anzahl der gleichzeitigen Abfragen, die ausgeführt werden. Da die in-Browser-Version von CQD weniger gut entwickelte und Informationsdichte Visualisierungsoptionen aufwies, waren die meisten unserer Berichte auf das Laden von 2-3-Abfragen auf einmal limitiert. Auf der anderen Seite werden in den Connector-Vorlagen häufig 20 + gleichzeitige Abfragen angezeigt. Wenn Sie Berichte erstellen möchten, die genauso reaktionsfähig sind wie die älteren, die Sie verwendet haben, versuchen Sie, Berichte mit nicht mehr als 2-3-Abfragen pro Registerkarte zu erstellen.
 
@@ -169,6 +169,8 @@ Die Abfrageleistung für die verschiedenen Vorlagen ist sowohl im Browser als au
 Der Grenzwert für die 10.000-Zeile ist tatsächlich auf dem API-Ende angegeben und soll die Leistung erheblich verbessern und das Risiko von Abfrage Ausführungsfehlern verringern, die sich aus unzureichendem Arbeitsspeicher ergeben.
 
 Anstatt zu versuchen, die Anzahl der Ergebniszeilen zu erhöhen, empfiehlt es sich, die Berichte entsprechend den bewährten Methoden des Connectors umzustrukturieren. Die Vorlagen, die wir enthalten, wurden entwickelt, um diese bewährten Methoden zu veranschaulichen. Beginnen Sie, wenn möglich, mit einem Blick auf Ihre KPIs, indem Sie umfassendere, geringere Kardinalitäts Dimensionen verwenden, wie etwa Monat, Jahr, Datum, Region, Land usw. Von dort aus können Sie einen Drilldown in zunehmend höhere Kardinalität-Dimensionen durchführen. Die Berichte Helpdesk und Standort optimiert bieten beide gute Beispiele für diesen Drilldown-Workflow.
+
+
 
 ## <a name="related-topics"></a>Verwandte Themen
 

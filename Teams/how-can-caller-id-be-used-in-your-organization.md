@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefon System Benutzer unter Verwendung einer Richtlinie mit dem Namen CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: af578cf92f6c19e8ac612dfe8301914c9e55833b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836307"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224208"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
@@ -46,7 +46,7 @@ Die Rufnummernanzeige Funktion steht allen Telefon System Benutzern unabhängig 
   
 ## <a name="outbound-caller-id"></a>Ausgehende Anrufer-ID
 
-Für die ausgehende PSTN-Anrufer-ID sind drei Optionen verfügbar:
+Für ausgehende PSTN-Rufnummernanzeige stehen drei Optionen zur Verfügung:
   
 - Die dem Benutzer zugewiesene Telefonnummer, die der Standardwert ist.
     
@@ -62,11 +62,11 @@ Die folgenden Arten von Telefonnummern können Sie jedoch nicht als ausgehende A
     
 Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](/microsoftteams/set-the-caller-id-for-a-user).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Steuerung der ausgehenden Anrufer-ID durch Endbenutzer
+### <a name="end-user-control-of-outbound-caller-id"></a>Endbenutzer Steuerung der ausgehenden Anrufer-ID
 
-The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+Das EnableUserOverride-Attribut ermöglicht es einzelnen oder mehreren Benutzern, Ihre Einstellungen für die Rufnummernanzeige in **Anonymous**zu ändern. Dies gilt nur, wenn eine CallingLineIdentity-Richtlinie mit einem CallingIDSubstitute-Parameter von LineURI oder Substitute konfiguriert ist. Der Standardwert von EnableUserOverride ist false.
   
-Ihre Endbenutzer können Ihre Rufnummernanzeige auf **Anonym** festlegen, indem Sie auf der Registerkarte **Einstellungen** im Skype for Business-Desktop Client die Option **Anrufe an Endbenutzer** auswählen (sofern vom Administrator aktiviert) die Option **meine Telefonnummer und Profilinformationen für alle Anrufe verbergen**auswählen.
+Ihre Endbenutzer können Ihre Anrufer-ID auf **Anonym** festlegen, indem Sie auf der Registerkarte **Einstellungen** im Skype for Business-Desktop Client die Option **Endbenutzer anrufen** (sofern vom Administrator aktiviert) auswählen und dann **meine Telefonnummer und Profilinformationen für alle Anrufe verbergen**auswählen. In Teams können Benutzer in der oberen rechten Ecke zu Ihrem Profilbild wechseln, **Einstellungen**  >  **anrufen**auswählen und dann unter **Rufnummern**Anzeige die Option **meine Telefonnummer und Profilinformationen für alle Anrufe verbergen**auswählen.
   
 ||||
 |:-----|:-----|:-----|

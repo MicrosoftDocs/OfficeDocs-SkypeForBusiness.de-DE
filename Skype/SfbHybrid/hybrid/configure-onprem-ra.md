@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042842"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221135"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
-In Skype for Business Server 2019-Hybrid Implementierungen werden nur Cloud-Dienste verwendet, die vom Telefon System für Unified Messaging bereitgestellt werden und nicht in Exchange Online integriert werden können. In Skype for Business Server 2019 können Sie nun die Cloud-Anrufwarteschlangen und die hier beschriebenen automatischen Telefonzentralen verwenden, [was Sie mit dem Telefon System in Office 365 erhalten](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
+In Skype for Business Server 2019-Hybrid Implementierungen werden nur Cloud-Dienste verwendet, die vom Telefon System für Unified Messaging bereitgestellt werden und nicht in Exchange Online integriert werden können. In Skype for Business Server 2019 können Sie nun die Cloud-Anrufwarteschlangen und die hier beschriebenen automatischen Telefonzentralen verwenden, [was Sie mit dem Telefon System in Microsoft 365 oder Office 365 erhalten](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 Um eine automatische Telefonzentrale oder eine Anrufwarteschlange mit Skype for Business Server 2019 zu verwenden, müssen Sie Ressourcenkonten erstellen, die als Anwendungsendpunkte fungieren und Telefonnummern zugewiesen werden können, und dann mithilfe des Online Teams Admin Center die Anrufwarteschlange oder die automatische Telefonzentrale konfigurieren. Dieses Ressourcenkonto kann online verwaltet werden (Weitere Informationen finden Sie unter [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) zum Erstellen von Online verwalteten Ressourcenkonten) oder lokal wie in diesem Artikel beschrieben. Normalerweise verfügen Sie über mehrere Telefon System-automatische Telefonzentralen oder Anrufwarteschlangen-Knoten, die jeweils einem Ressourcenkonto zugeordnet sind, das Online oder in Skype for Business Server 2019 verwaltet werden kann.
 
@@ -43,7 +43,7 @@ Wenn für die automatische Telefonzentrale oder die Anrufwarteschlange eine Dien
 
 Wenn die automatische Telefonzentrale oder die Anrufwarteschlange unter einer automatischen Telefonzentrale auf oberster Ebene geschachtelt ist, benötigt das zugehörige Ressourcenkonto nur eine Telefonnummer, wenn Sie mehrere Einstiegspunkte in die Struktur von automatischen Telefonzentralen und Anrufwarteschlangen erhalten möchten.
 
-Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online verwaltet werden, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder Office 365 Anrufpläne haben. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses). Um Sie für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online verwaltet werden, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder Microsoft 365 oder Office 365 Anrufpläne haben. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](/MicrosoftTeams/assign-teams-licenses). Um Sie für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Wenn die automatische Telefonzentrale oder die Anrufwarteschlange, die Sie erstellen, geschachtelt ist und keine Telefonnummer benötigt, lautet der Vorgang wie folgt:
 
@@ -58,7 +58,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
 1. Port oder erhalten Sie eine gebührenpflichtige oder gebührenfreie Servicenummer. Die Nummer kann keinem anderen VoIP-Dienst oder Ressourcenkonto zugewiesen werden.
 
-   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie **in Microsoft Teams Admin Center** > **-VoIP** > -**Telefonnummern**angezeigt, und der aufgeführte **Nummerntyp** wird als **Dienst gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst Rufnummern](/MicrosoftTeams/getting-service-phone-numbers) oder wenn Sie eine vorhandene Dienstnummer übertragen möchten, unter [übertragen von Telefonnummern zu Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in **Microsoft Teams Admin Center**  >  **-VoIP**-  >  **Telefonnummern**angezeigt, und der aufgeführte **Nummerntyp** wird als **Dienst gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst Rufnummern](/MicrosoftTeams/getting-service-phone-numbers) oder wenn Sie eine vorhandene Dienstnummer übertragen möchten, unter [übertragen von Telefonnummern zu Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
    Wenn Sie sich außerhalb der USA befinden, können Sie das Microsoft Teams Admin Center nicht zum Abrufen von Dienstnummern verwenden. Wechseln Sie zu [Verwalten von Telefonnummern für Ihre Organisation](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) , anstatt zu sehen, wie es von außerhalb der Vereinigten Staaten zu tun.
 
@@ -76,7 +76,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
     Weitere Informationen zu diesem Befehl finden Sie unter [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-4. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen in Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig `import-module adsync` sind, müssen Sie zum Ausführen des Befehls laden):
+4. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen in Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig sind, müssen Sie `import-module adsync` zum Ausführen des Befehls laden):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -89,7 +89,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
    Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie nun die ﻿kostenlose Telefon System-virtuelle Benutzerlizenz verwenden. Dadurch werden Telefon System Funktionen für Telefonnummern auf Organisationsebene bereitgestellt, und Sie können eine automatische Telefonzentrale und Funktionen für die Anrufwarteschlange erstellen.
 
 
-6. Weisen Sie die Dienstnummer dem Ressourcenkonto zu. Verwenden Sie `Set-CsHybridApplicationEndpoint` den Befehl, um dem Ressourcenkonto eine Telefonnummer zuzuweisen (mit der Option-LineURI).
+6. Weisen Sie die Dienstnummer dem Ressourcenkonto zu. Verwenden Sie den `Set-CsHybridApplicationEndpoint` Befehl, um dem Ressourcenkonto eine Telefonnummer zuzuweisen (mit der Option-LineURI).
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
@@ -135,7 +135,7 @@ Melden Sie sich am Skype for Business Front-End-Server an, und führen Sie die f
 
     Weitere Informationen zu diesem Befehl finden Sie unter [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-2. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen in Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig `import-module adsync` sind, müssen Sie zum Ausführen des Befehls laden):
+2. Optional Sobald Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD zwischen Online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der automatischen Telefonzentrale oder Anrufwarteschlangen in Online Konfiguration fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Connect ausgeführt wird (wenn Sie nicht bereits fertig sind, müssen Sie `import-module adsync` zum Ausführen des Befehls laden):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -209,4 +209,4 @@ Bei der Migration von Exchange um zu Telefon System müssen die Struktur der Anr
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) - \(zum Erstellen von Ressourcenkonten, die Online verwaltet werden\)
+[Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)  -  \( So erstellen Sie online verwaltete Ressourcenkonten\)

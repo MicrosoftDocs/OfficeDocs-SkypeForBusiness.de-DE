@@ -21,30 +21,30 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie eine Konsolidierung für Organisationen mit lokalen Bereitstellungen von Skype for Business (oder lync) erreichen können, die ihre UC-Arbeitsauslastung in Microsoft Teams und/oder Skype for Business Online umsetzen möchten.
-ms.openlocfilehash: 859a6f3809a653334f7ac43b591d9a067833e3d5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d2733ffacf8b56a5cfe4217553f533950eb82e36
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780134"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221489"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Cloudkonsolidierung für Microsoft Teams und Skype for Business
 
-Viele Großunternehmen verfügen über mehr als eine lokale AD-Gesamtstruktur, und in einigen Fällen verfügen Kunden über mehr als eine Bereitstellung von Exchange und/oder Skype for Business Server (oder Lync Server). Darüber hinaus können sich auch Organisationen mit nur einer lokalen Gesamtstruktur bei einer Fusion oder Übernahme in einer ähnlichen Situation befinden. Wenn diese Kunden in die Cloud umziehen, möchten Sie die mehrere Instanzen einer bestimmten lokalen Arbeitsauslastung in der Cloud in einer einzigen Office 365 Organisation konsolidieren. In diesem Artikel wird beschrieben, wie Sie diese Konsolidierung für Organisationen mit mehreren lokalen Bereitstellungen von Skype for Business (oder lync) erreichen, die ihre UC-Arbeitsauslastung in die Microsoft-Cloud umstellen möchten, beispielsweise Microsoft Teams und/oder Skype for Business Online.
+Viele Großunternehmen verfügen über mehr als eine lokale AD-Gesamtstruktur, und in einigen Fällen verfügen Kunden über mehr als eine Bereitstellung von Exchange und/oder Skype for Business Server (oder Lync Server). Darüber hinaus können sich auch Organisationen mit nur einer lokalen Gesamtstruktur bei einer Fusion oder Übernahme in einer ähnlichen Situation befinden. Wenn diese Kunden in die Cloud umziehen, möchten Sie die mehrere Instanzen einer bestimmten lokalen Arbeitsauslastung in der Cloud in einer einzelnen Microsoft 365-oder Office 365-Organisation konsolidieren. In diesem Artikel wird beschrieben, wie Sie diese Konsolidierung für Organisationen mit mehreren lokalen Bereitstellungen von Skype for Business (oder lync) erreichen, die ihre UC-Arbeitsauslastung in die Microsoft-Cloud umstellen möchten, beispielsweise Microsoft Teams und/oder Skype for Business Online.
 
-In der Vergangenheit war es für Kunden in dieser Situation so, dass sie Bereitstellungen zuerst lokal konsolidieren mussten und erst dann einen Umstieg in die Cloud vollziehen konnten. Dies ist zwar weiterhin eine Option, aber in diesem Artikel wird eine Lösung beschrieben, die auf neuen Funktionen basiert, mit denen Organisationen mit mehreren Skype for Business-Bereitstellungen jeweils eine Bereitstellung in eine einzelne Office 365-Organisation migrieren können, ohne eine lokale Konsolidierung durchführen zu müssen. Beachten Sie, dass Skype for Business Online und Microsoft Teams selbst mit dieser neuen Funktionalität nicht mehrere Skype for Business/lync-Gesamtstrukturen im Hybrid Modus mit einer einzelnen Office 365 Organisation unterstützen. 
+In der Vergangenheit war es für Kunden in dieser Situation so, dass sie Bereitstellungen zuerst lokal konsolidieren mussten und erst dann einen Umstieg in die Cloud vollziehen konnten. Dies ist zwar weiterhin eine Option, aber in diesem Artikel wird eine Lösung beschrieben, die auf neuen Funktionen basiert, mit denen Organisationen mit mehreren Skype for Business-Bereitstellungen jeweils eine Bereitstellung in eine einzelne Microsoft 365-oder Office 365-Organisation migrieren können, ohne eine lokale Konsolidierung durchführen zu müssen. Beachten Sie, dass Skype for Business Online und Microsoft Teams selbst mit dieser neuen Funktionalität nicht mehrere Skype for Business/lync-Gesamtstrukturen im Hybrid Modus mit einer einzelnen Microsoft 365-oder Office 365-Organisation unterstützen. 
 
 > [!Important]
 > Bevor Sie dieses Handbuch für die Konfiguration verwenden, sollten Sie die [Einschränkungen](#limitations)überprüfen und verstehen, die sich auf Ihre Organisation auswirken können.
 
 ## <a name="overview-of-cloud-consolidation"></a>Übersicht über die Cloudkonsolidierung
 
-Die Konsolidierung aller Benutzer von lokal in der Cloud in einer einzelnen Office 365 Organisation kann für jede Organisation mit mehreren Skype for Business-Bereitstellungen erreicht werden, vorausgesetzt, die folgenden Hauptanforderungen werden erfüllt:
+Die Konsolidierung aller Benutzer von lokal in der Cloud in einer einzelnen Microsoft 365-oder Office 365-Organisation kann für jede Organisation mit mehreren Skype for Business-Bereitstellungen erreicht werden, vorausgesetzt, die folgenden Hauptanforderungen werden erfüllt:
 
-- Es muss höchstens eine Office 365 Organisation beteiligt sein. Die Konsolidierung in Szenarien mit mehr als einer Office 365 Organisation wird nicht unterstützt.
-- Es darf jeweils nur eine lokale Skype for Business-Gesamtstruktur im Hybridmodus (freigegebener SIP-Adressraum) vorhanden sein. Alle anderen lokalen Skype for Business-Gesamtstrukturen müssen lokal bleiben (und vermutlich miteinander verbunden sein). Beachten Sie, dass diese anderen lokalen Organisationen *can* mit Aad, falls gewünscht, mit [neuen Funktionen synchronisiert werden können, um Online-SIP-Domänen zu deaktivieren](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps) , die ab Dezember 2018 verfügbar sind.
+- Es muss höchstens eine Microsoft 365-oder Office 365-Organisation beteiligt sein. Die Konsolidierung in Szenarien mit mehr als einer Organisation wird nicht unterstützt.
+- Es darf jeweils nur eine lokale Skype for Business-Gesamtstruktur im Hybridmodus (freigegebener SIP-Adressraum) vorhanden sein. Alle anderen lokalen Skype for Business-Gesamtstrukturen müssen lokal bleiben (und vermutlich miteinander verbunden sein). Beachten Sie, dass diese anderen lokalen Organisationen *can* mit Aad, falls gewünscht, mit [neuen Funktionen synchronisiert werden können, um Online-SIP-Domänen zu deaktivieren](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) , die ab Dezember 2018 verfügbar sind.
 
-Kunden mit Bereitstellungen von Skype for Business in mehreren Gesamtstrukturen müssen alle Benutzer einer einzelnen Hybriden Skype for Business Gesamtstruktur einzeln in die Office 365 Organisation mit freigegebener SIP-Adressraum Funktionalität migrieren und anschließend die hybridbereitstellung mit dieser lokalen Bereitstellung deaktivieren, bevor Sie mit der Migration der nächsten lokalen Skype for Business-Bereitstellung fortfahren. Vor der Migration in die Cloud verbleiben lokale Benutzer in einem Verbundstatus mit allen Benutzern, die nicht im lokalen Verzeichnis des gleichen Benutzers dargestellt sind.  
+Kunden mit Bereitstellungen von Skype for Business in mehreren Gesamtstrukturen müssen alle Benutzer einer einzelnen Hybriden Skype for Business Gesamtstruktur einzeln in die Microsoft 365-oder Office 365-Organisation mithilfe des freigegebenen SIP-Adressraum Features migrieren und anschließend die hybridbereitstellung mit dieser lokalen Bereitstellung deaktivieren, bevor Sie mit der Migration der nächsten lokalen Skype for Business-Bereitstellung fortfahren. Vor der Migration in die Cloud verbleiben lokale Benutzer in einem Verbundstatus mit allen Benutzern, die nicht im lokalen Verzeichnis des gleichen Benutzers dargestellt sind.  
 
 ## <a name="canonical-example-of-cloud-consolidation"></a>Kanonisches Beispiel für die Cloud-Konsolidierung
 
@@ -53,35 +53,35 @@ Stellen Sie sich eine Organisation mit zwei getrennten Verbund lokalen Bereitste
 
 |Original Statusdetails |Details zum gewünschten Zustand |
 |---------|---------|
-|<ul><li>2 unabhängige Skype for Business lokale Bereitstellungen in getrennten AD-Gesamtstrukturen<li>Höchstens 1 Gesamtstruktur ist in Hybrid mit Skype for Business Online <li> Organisationen sind miteinander verbunden. <li>Benutzer werden nicht über diese Gesamtstrukturen synchronisiert.<li> Die Organisation hat möglicherweise eine Office 365 Organisation und synchronisiert möglicherweise Ihr Verzeichnis in Azure AD</ul>|<ul> <li>1 Office 365 Organisation<li>Keine weiteren lokalen Bereitstellungen, sodass keine Hybriden verbleiben<li>Alle Benutzer von lokal werden in Skype for Business Online verwaltet und können optional nur Teams-Benutzer sein. <li>Keine lokale Grundfläche von Skype for Business Anywhere <li>Benutzer verfügen weiterhin über eine lokale Authentifizierung</ul> |
+|<ul><li>2 unabhängige Skype for Business lokale Bereitstellungen in getrennten AD-Gesamtstrukturen<li>Höchstens 1 Gesamtstruktur ist in Hybrid mit Skype for Business Online <li> Organisationen sind miteinander verbunden. <li>Benutzer werden nicht über diese Gesamtstrukturen synchronisiert.<li> Die org-Organisation verfügt möglicherweise über eine Microsoft 365-oder Office 365-Organisation und synchronisiert möglicherweise Ihr Verzeichnis in Azure AD</ul>|<ul> <li>1 Microsoft 365 oder Office 365 Organisation<li>Keine weiteren lokalen Bereitstellungen, sodass keine Hybriden verbleiben<li>Alle Benutzer von lokal werden in Skype for Business Online verwaltet und können optional nur Teams-Benutzer sein. <li>Keine lokale Grundfläche von Skype for Business Anywhere <li>Benutzer verfügen weiterhin über eine lokale Authentifizierung</ul> |
 
 ![Konsolidieren von zwei separaten Verbund lokalen Bereitstellungen](../media/cloudconsolidationfig1.png)  
 
 Die grundlegenden Schritte, die vom ursprünglichen Zustand zum gewünschten Endzustand gelangen, sind unten.  Beachten Sie, dass einige Organisationen möglicherweise feststellen, dass Ihr Ausgangspunkt irgendwo in der Mitte dieser Schritte liegt. [Weitere Startpunkte](#other-starting-points)finden Sie weiter unten in diesem Artikel. Schließlich kann in einigen Fällen die Reihenfolge angepasst werden, je nach Bedarf. [Wichtige Einschränkungen und Einschränkungen](#limitations) werden später beschrieben.
 
-1.  Dient zum Abrufen einer Office 365 Organisation, falls noch keine vorhanden ist.
-2.  Stellen Sie sicher, dass alle relevanten SIP-Domänen in beiden lokalen Bereitstellungen Office 365 Domänen überprüft werden.
-3.  Wählen Sie eine Skype for Business Bereitstellung aus, die mit Office 365 Hybrid ist. In diesem Beispiel verwenden wir OriginalCompany. <span>com.
-4.  [Aktivieren Sie Aad Connect für die Gesamtstruktur](configure-azure-ad-connect.md) , die zuerst als Hybrid verwendet<span> wird (OriginalCompany. com). 
+1.  Erhalten Sie eine Microsoft 365-oder Office 365-Organisation, falls noch keine vorhanden ist.
+2.  Stellen Sie sicher, dass alle relevanten SIP-Domänen in beiden lokalen Bereitstellungen überprüfte Microsoft 365-oder Office 365 Domänen sind.
+3.  Wählen Sie eine Skype for Business Bereitstellung aus, die mit Microsoft 365 oder Office 365 Hybrid ist. In diesem Beispiel verwenden wir OriginalCompany. <span> com.
+4.  [Aktivieren Sie Aad Connect für die Gesamtstruktur](configure-azure-ad-connect.md) , die zuerst als Hybrid verwendet wird (OriginalCompany. <span> com). 
 5.  Wenn Sie Microsoft Teams in Ihrer Organisation einführen, legen Sie die Mandantenweite Richtlinie für [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy) auf SfBWithTeamsCollab oder einen der anderen SFB-Modi fest (SfBOnly oder SfBWithTeamsCollabAndMeetings). Dies ist wichtig, um sicherzustellen, dass Anrufe und Chats von Benutzern, die nur zu Microsoft Teams übergehen, an Benutzer weitergeleitet werden, die lokal verbleiben.
-6.  Es wird zu diesem Zeitpunkt empfohlen (aber bis Schritt 11 noch nicht erforderlich), um [Aad Connect für die andere Gesamtstruktur](cloud-consolidation-aad-connect.md) zu aktivieren<span> (AcquiredCompany. com). Unter der Voraussetzung, dass Aad Connect in beiden Gesamtstrukturen aktiviert ist, sieht die org aus wie in **[Abbildung a](#figure-a)**, was ein häufiger Ausgangspunkt für einige Organisationen sein kann. 
-7.  Für alle SIP-Domänen, die von anderen lokalen Bereitstellungen gehostet werden (in diesem Fall AcquiredCompany<span> . com), [Deaktivieren Sie diese SIP-Domänen in Skype for Business Online](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) mithilfe `Disable-CsOnlineSipDomain` von in PowerShell. (Dies ist die neue Funktionalität vom Dezember 2018.)
-8.  [Konfigurieren Sie Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md) für OriginalCompany. <span>com (die einzige Bereitstellung, die Online-SIP-Domänen noch aktiviert hat).
-9.  In der hybridbereitstellung (OriginalCompany.<span> com), beginnen [Sie mit dem Verschieben von Benutzern aus Skype for Business lokal in die Cloud](move-users-between-on-premises-and-cloud.md) (unabhängig davon, ob es sich um Teams handelt oder nicht), sodass das Konto in Skype for Business Online verwaltet wird. Die Organisation sieht nun wie in **[Abbildung B](#figure-b)** aus. Die wichtigsten Änderungen aus Abbildung A sind:
+6.  Es wird zu diesem Zeitpunkt empfohlen (aber bis Schritt 11 noch nicht erforderlich), um [Aad Connect für die andere Gesamtstruktur zu aktivieren](cloud-consolidation-aad-connect.md) (AcquiredCompany. <span> com). Unter der Voraussetzung, dass Aad Connect in beiden Gesamtstrukturen aktiviert ist, sieht die org aus wie in **[Abbildung a](#figure-a)**, was ein häufiger Ausgangspunkt für einige Organisationen sein kann. 
+7.  Für alle SIP-Domänen, die von anderen lokalen Bereitstellungen gehostet werden (in diesem Fall AcquiredCompany. <span> com), [Deaktivieren Sie diese SIP-Domänen in Skype for Business Online](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) mithilfe `Disable-CsOnlineSipDomain` von in PowerShell. (Dies ist die neue Funktionalität vom Dezember 2018.)
+8.  [Konfigurieren Sie Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md) für OriginalCompany. <span> com (die einzige Bereitstellung, die Online-SIP-Domänen noch aktiviert hat).
+9.  In der hybridbereitstellung (OriginalCompany. <span> com), beginnen [Sie mit dem Verschieben von Benutzern aus Skype for Business lokal in die Cloud](move-users-between-on-premises-and-cloud.md) (unabhängig davon, ob es sich um Teams handelt oder nicht), sodass das Konto in Skype for Business Online verwaltet wird. Die Organisation sieht nun wie in **[Abbildung B](#figure-b)** aus. Die wichtigsten Änderungen aus Abbildung A sind:
     - Benutzer aus lokalen Verzeichnissen befinden sich jetzt in Aad.
-    - AcquiredCompany. <span>com ist eine deaktivierte Online-SIP-Domäne.
+    - AcquiredCompany. <span> com ist eine deaktivierte Online-SIP-Domäne.
     - Einige Benutzer wurden online in Skype for Business Online oder Teams verschoben. (Siehe Purple User A.)
-10. Nachdem alle Benutzer in die Cloud verschoben wurden, [Deaktivieren Sie Hybrid mit der Skype for Business lokalen Bereitstellung](cloud-consolidation-disabling-hybrid.md) für OriginalCompany. <span>com aus Office 365:  
-    - Deaktivieren Sie die geteilte Domäne in der Office 365 Organisation.
-    - Deaktivieren Sie die Möglichkeit zur Kommunikation mit Office 365 in OriginalCompany. <span>com lokal.
-    - Aktualisieren von DNS-Einträgen für OriginalCompany. <span>com, um auf Office 365 zu deuten.
-11. Wenn dies noch nicht geschehen ist, [Aktivieren Sie Aad Connect für die nächste Gesamtstruktur](cloud-consolidation-aad-connect.md) , die Hybrid<span> wird (AcquiredCompany. com). Zu diesem Zeitpunkt sieht die Organisation wie **[Abbildung C](#figure-c)** aus. Dies kann ein weiterer häufiger Ausgangspunkt für einige Organisationen sein. 
-12. Aktivieren Sie in PowerShell [die SIP-Domänen für die nächste lokale Bereitstellung](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) , die als Hybrid-AcquiredCompany verwendet wird. <span>com. Dies erfolgt über `Enable-CsOnlineSipDomain`die neue Funktionalität ab Dezember 2018.
-13. Wenn Sie einen geschlossenen Partnerverbund verwenden, müssen Sie alle SIP-Domänen (ausgenommen *. microsoftonline.com) des reinen Online-Mandanten als zugelassene Domänen in **derselben** Office 365 hinzufügen. Beachten Sie, dass es einige Zeit dauern kann, bis die Änderung wirksam wird, und es ist nicht möglich, dies frühzeitig zu tun, daher empfehlen wir, dies rechtzeitig vor dem Wechsel zu Schritt 14 zu tun.
+10. Nachdem alle Benutzer in die Cloud verschoben wurden, [Deaktivieren Sie Hybrid mit der Skype for Business lokalen Bereitstellung](cloud-consolidation-disabling-hybrid.md) für OriginalCompany. <span> com aus Office 365:  
+    - Deaktivieren Sie die geteilte Domäne in der Microsoft 365-oder Office 365-Organisation.
+    - Deaktivieren Sie die Möglichkeit zur Kommunikation mit Microsoft 365 oder Office 365 in OriginalCompany. <span> com lokal.
+    - Aktualisieren von DNS-Einträgen für OriginalCompany. <span> com, um auf Microsoft 365 oder Office 365 zu deuten.
+11. Wenn dies noch nicht geschehen ist, [Aktivieren Sie Aad Connect für die nächste Gesamtstruktur](cloud-consolidation-aad-connect.md) , die Hybrid wird (AcquiredCompany. <span> com). Zu diesem Zeitpunkt sieht die Organisation wie **[Abbildung C](#figure-c)** aus. Dies kann ein weiterer häufiger Ausgangspunkt für einige Organisationen sein. 
+12. Aktivieren Sie in PowerShell [die SIP-Domänen für die nächste lokale Bereitstellung](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain) , die als Hybrid-AcquiredCompany verwendet wird. <span> com. Dies erfolgt über `Enable-CsOnlineSipDomain` die neue Funktionalität ab Dezember 2018.
+13. Wenn Sie einen geschlossenen Partnerverbund verwenden, müssen Sie alle SIP-Domänen (außer \* . microsoftonline.com) des reinen Online-Mandanten als zugelassene Domänen im **gleichen** Microsoft 365 oder Office 365 hinzufügen. Beachten Sie, dass es einige Zeit dauern kann, bis die Änderung wirksam wird, und es ist nicht möglich, dies frühzeitig zu tun, daher empfehlen wir, dies rechtzeitig vor dem Wechsel zu Schritt 14 zu tun.
 14. Aktualisieren Sie die lokale Umgebung, um SIP-Domänen vom Online Mandanten zu akzeptieren, damit diese übereinstimmen.
-    - [Aktualisieren Sie das San in allen Edge-Zertifikaten](cloud-consolidation-edge-certificates.md) auf den gleichen Wert wie zuvor, plus Werte für alle vorhandenen Online-SIP-Domänen (außer *. microsoftonline.com), in diesem Fall SIP. OriginalCompany. <span>com.
-    - Stellen Sie sicher, dass OriginalCompany. <span>com ist eine [zugelassene Domäne](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain) in der lokalen Bereitstellung, AcquiredCompany. Hinzufügen zulässiger Domänen.
-15. [Aktivieren Sie Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md) zwischen lokalen AcquiredCompany. <span>com und die Cloud.
+    - [Aktualisieren Sie das San in allen Edge-Zertifikaten](cloud-consolidation-edge-certificates.md) auf den gleichen Wert wie zuvor, plus Werte für alle vorhandenen Online-SIP-Domänen (außer *. microsoftonline.com), in diesem Fall SIP. OriginalCompany. <span> com.
+    - Stellen Sie sicher, dass OriginalCompany. <span> com ist eine [zugelassene Domäne](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain) in der lokalen Bereitstellung, AcquiredCompany. Hinzufügen zulässiger Domänen.
+15. [Aktivieren Sie Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md) zwischen lokalen AcquiredCompany. <span> com und die Cloud.
 16. [Migrieren Sie nach Bedarf Benutzer von der lokalen zur Cloud](move-users-between-on-premises-and-cloud.md). Sie können Benutzer entweder direkt in den [TeamsOnly](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability) -Modus migrieren, oder Sie können Sie zuerst zu Skype for Business Online migrieren. In diesem Zustand sieht die Organisation wie in **[Abbildung D](#figure-d)** aus.
 17. Nachdem alle Benutzer migriert wurden, [Deaktivieren Sie Hybrid mit der lokalen Umgebung](cloud-consolidation-disabling-hybrid.md) , um *die Organisation als reine Cloud zu gestalten*.
 
@@ -97,31 +97,31 @@ Die folgenden Diagramme zeigen die Konfiguration an verschiedenen wichtigen Punk
 
 ##### <a name="figure-b"></a>Abbildung B:
 
-- AcquiredCompany. <span>com ist eine [Deaktivierte](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) Online-SIP-Domäne. Alle Benutzer sind lokal. Wenn Sie Teams verwenden, haben Sie keinen Verbund oder keine Interoperabilität. In dieser Phase empfiehlt Microsoft die Verwendung von Teams nur für Kanäle.
+- AcquiredCompany. <span> com ist eine [Deaktivierte](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) Online-SIP-Domäne. Alle Benutzer sind lokal. Wenn Sie Teams verwenden, haben Sie keinen Verbund oder keine Interoperabilität. In dieser Phase empfiehlt Microsoft die Verwendung von Teams nur für Kanäle.
 - Skype for Business Hybrid wurde für eine der lokalen Organisationen aktiviert.
 - Einige Benutzer in der Hybrid Organisation wurden in die Cloud verschoben (Benutzer A wird durch violette Schattierung angezeigt). Diese Benutzer können entweder Skype for Business Online Benutzer oder nur Microsoft Teams-Benutzer mit vollständiger Interoperabilität und Verbundunterstützung sein.<br><br>
     ![Abbildung B-Diagramm](../media/cloudconsolidationfigb.png)
 
 ##### <a name="figure-c"></a>Abbildung C:
 
-- Alle Benutzer aus OriginalCompany. <span>com befinden sich jetzt in der Cloud (in Skype for Business Online verwaltet). Es wird empfohlen, dass es sich auch um Teams handelt.
-- Skype for Business Hybrid Konfiguration mit dem OriginalCompany. <span>die com-Bereitstellung wurde deaktiviert. Die lokale Bereitstellung ist nicht mehr vorhanden.
-- Wenn AcquiredCompany. <span>com wurde nicht zuvor mit Aad synchronisiert, um von hier fortfahren zu können, muss jetzt synchronisiert werden. Die Online-SIP-Domäne für die reine lokale Organisation (AcquiredCompany.com) sollte jedoch noch nicht als Hybrid (freigegebener SIP-Adressraum) verwendet werden, und bis die Organisation bereit ist, eine Hybridlösung einzusetzen, sollten die Benutzer in Online Teams mit lokalen Benutzern kommunizieren können.<br><br>
+- Alle Benutzer aus OriginalCompany. <span> com befinden sich jetzt in der Cloud (in Skype for Business Online verwaltet). Es wird empfohlen, dass es sich auch um Teams handelt.
+- Skype for Business Hybrid Konfiguration mit dem OriginalCompany. <span> die com-Bereitstellung wurde deaktiviert. Die lokale Bereitstellung ist nicht mehr vorhanden.
+- Wenn AcquiredCompany. <span> com wurde nicht zuvor mit Aad synchronisiert, um von hier fortfahren zu können, muss jetzt synchronisiert werden. Die Online-SIP-Domäne für die reine lokale Organisation (AcquiredCompany.com) sollte jedoch noch nicht als Hybrid (freigegebener SIP-Adressraum) verwendet werden, und bis die Organisation bereit ist, eine Hybridlösung einzusetzen, sollten die Benutzer in Online Teams mit lokalen Benutzern kommunizieren können.<br><br>
     ![Abbildung C Diagramm](../media/cloudconsolidationfigc.png)
 
 ##### <a name="figure-d"></a>Abbildung D:
 
-- AcquiredCompany. <span>com ist jetzt als Online-SIP-Domäne aktiviert.
-- Lokal wird aktualisiert, um OriginalCompany zu akzeptieren. <span>com. (Sowohl zulässige Domäne als auch Edge-Zertifikate werden aktualisiert).
-- Der freigegebene SIP-Adressraum ist zwischen AcquiredCompany aktiviert. <span>com und Office 365 Organisation.
+- AcquiredCompany. <span> com ist jetzt als Online-SIP-Domäne aktiviert.
+- Lokal wird aktualisiert, um OriginalCompany zu akzeptieren. <span> com. (Sowohl zulässige Domäne als auch Edge-Zertifikate werden aktualisiert).
+- Der freigegebene SIP-Adressraum ist zwischen AcquiredCompany aktiviert. <span> com und Microsoft 365 oder Office 365 Organisation.
 - Einige Benutzer in der Hybrid Organisation wurden möglicherweise in die Cloud verschoben, wie z. b. Benutzer D unten (durch violette Schattierung angegeben).<br><br>
     ![Abbildung D-Diagramm](../media/cloudconsolidationfigd.png)
 
 ## <a name="other-starting-points"></a>Andere Ausgangspunkte
 
-In den Schritten im kanonischen Beispiel wird davon ausgegangen, dass die Organisation mit zwei lokalen Verbund Bereitstellungen ohne Office 365 Anwesenheit beginnt. Einige Organisationen haben jedoch möglicherweise einen vorhandenen Office 365 Footprint, und es kann unterschiedliche Einstiegspunkte in der obigen Sequenz geben. Es gibt vier typische Konfigurationen:
+Bei den Schritten im kanonischen Beispiel wird davon ausgegangen, dass die Organisation mit zwei lokalen Bereitstellungen ohne Microsoft-oder Office 365-Anwesenheit beginnt. Einige Organisationen verfügen jedoch möglicherweise über eine vorhandene Microsoft 365-oder Office 365-Stellfläche, und es kann unterschiedliche Einstiegspunkte in der obigen Sequenz geben. Es gibt vier typische Konfigurationen:
 
-- Mehrere lokale Verbundorganisationen ohne Office 365 Organisation. Beginnen Sie in diesem Fall mit Schritt 1.
+- Mehrere lokale Verbundorganisationen ohne Microsoft 365 oder Office 365 Organisation. Beginnen Sie in diesem Fall mit Schritt 1.
 - Mehrere lokale Verbundorganisationen, die bereits mehrere Skype for Business Gesamtstruktur mit einem einzelnen Azure AD-Mandanten synchronisieren. Eine solche Organisation ähnelt der hypothetischen Organisation in Abbildung A, die die Schritte 1-6 abgeschlossen hat und mit Schritt 7 beginnen sollte.
 - Eine Hybrid Organisation, die mit mindestens einer anderen reinen lokalen Organisation zusammenhängt, von denen keine mit Aad synchronisiert wird. Eine solche Organisation würde der hypothetischen Organisation in **Abbildung E**ähneln, siehe unten.
     - Diese Organisation ähnelt Abbildung B, die die Schritte 1-9 abgeschlossen hat, mit Ausnahme von:
@@ -136,14 +136,14 @@ In den Schritten im kanonischen Beispiel wird davon ausgegangen, dass die Organi
 
 ## <a name="limitations"></a>Einschränkungen
 
-- Es muss höchstens eine Office 365 Organisation beteiligt sein. Die Konsolidierung in Szenarien mit mehr als einer Office 365 Organisation wird nicht unterstützt.
-- Nur eine lokale Skype for Business Gesamtstruktur kann sich im Hybrid Modus (freigegebener SIP-Adressraum) gleichzeitig befinden. Alle anderen lokalen Skype for Business Gesamtstrukturen müssen nur lokal bleiben und miteinander und mit der Office 365 Organisation verbunden sein.
+- Es muss höchstens eine Microsoft 365-oder Office 365-Organisation beteiligt sein. Die Konsolidierung in Szenarien mit mehr als einer Organisation wird nicht unterstützt.
+- Nur eine lokale Skype for Business Gesamtstruktur kann sich im Hybrid Modus (freigegebener SIP-Adressraum) gleichzeitig befinden. Alle anderen lokalen Skype for Business Gesamtstrukturen müssen nur lokal bleiben und miteinander und mit der Microsoft 365-oder Office 365-Organisation verbunden sein.
 - Vor der Migration zur Cloud gibt es für Benutzer in dieser Bereitstellung eine asymmetrische Erfahrung, da nicht alle Benutzer in Online lokal dargestellt werden:
     - Die Erfahrung lässt sich wie folgt zusammenfassen:
         - Jeder Benutzer, der Online verwaltet wird, interagiert mit lokalen Benutzern in der Hybridumgebung, als wäre der Benutzer Hybrid.
         - Lokale Benutzer in der hybridbereitstellung interagieren mit Online Benutzern, die in Ihrem lokalen Verzeichnis dargestellt werden, als wären Sie Hybrid. 
         - Lokale Benutzer in der hybridbereitstellung interagieren mit Online Benutzern, die nicht im lokalen AD als Verbund dargestellt werden.
-    - In **[Abbildung D](#figure-d)** ist der Benutzer E lokal in AcquiredCompany. <span>com.  Benutzer e interagiert mit dem Benutzer D (verwaltet Online) mit der standardmäßigen Hybridumgebung, aber Benutzer e verfügt über eine Verbund Erfahrung mit den Benutzern a, B und C, da Sie nicht im lokalen Verzeichnis dargestellt werden. Die Benutzer A, B und C interagieren jedoch mit dem Benutzer E so, als ob sich der Benutzer in einer hybridbereitstellung befinden würde.
+    - In **[Abbildung D](#figure-d)** ist der Benutzer E lokal in AcquiredCompany. <span> com.  Benutzer e interagiert mit dem Benutzer D (verwaltet Online) mit der standardmäßigen Hybridumgebung, aber Benutzer e verfügt über eine Verbund Erfahrung mit den Benutzern a, B und C, da Sie nicht im lokalen Verzeichnis dargestellt werden. Die Benutzer A, B und C interagieren jedoch mit dem Benutzer E so, als ob sich der Benutzer in einer hybridbereitstellung befinden würde.
     - Auswirkungen der Interaktion als hybrides vs. Federation:
         - Anwesenheitsinformationen werden für Partnerbenutzer nicht automatisch abonniert, es sei denn, der Benutzer ist als Kontakt markiert.
         - Die Anrufweiterleitung kann zwischen Verbunddomänen nicht verwendet werden.

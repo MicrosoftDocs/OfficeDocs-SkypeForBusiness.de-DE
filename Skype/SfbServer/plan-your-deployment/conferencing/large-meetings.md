@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Zusammenfassung: in diesem Thema finden Sie Informationen zu bewährten Methoden für die Implementierung und Verwaltung von großen Besprechungen in Skype for Business Server.'
-ms.openlocfilehash: 18b0f036e49996564aa68735300f4e677ce5b1cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acb0dd1dbd0efe93b985ed2f9e143ef1538ecb86
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780234"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221255"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planen großer Besprechungen in Skype for Business Server
  
@@ -26,10 +26,10 @@ ms.locfileid: "43780234"
 Die Größe der Besprechungen, die Skype for Business Server unterstützenkann, hängt davon ab, ob Konferenzen in einem freigegebenen oder dedizierten Pool gehostet werden: von 250 Teilnehmern in einem gemeinsamen Pool bis zu 1000 Teilnehmern in einem dedizierten Pool. 
   
 > [!NOTE]
-> In diesem Thema werden die bewährten Methoden für umfangreiche Besprechungen behandelt, die von Skype for Business Server unterstützt werden. Wenn Ihre Organisation größere Besprechungsfunktionen erfordert, sollten Sie die Implementierung einer Hybridumgebung in Betracht ziehen, die Skype-Live Konferenz, einen neuen Onlinedienst, der Teil Office 365 ist, nutzt. 
+> In diesem Thema werden die bewährten Methoden für umfangreiche Besprechungen behandelt, die von Skype for Business Server unterstützt werden. Wenn Ihre Organisation größere Besprechungsfunktionen erfordert, sollten Sie die Implementierung einer Hybridumgebung in Betracht ziehen, die Skype-Live Konferenz, einen neuen Onlinedienst, der Teil von Microsoft 365 und Office 365 ist, nutzt. 
 
 > [!NOTE]
-> Skype-Live Konferenz ermöglicht Benutzern das Hosten und übertragen von Besprechungen mit großen Online-Zielgruppen von bis zu 10.000 Teilnehmern. Die Verwendung von Skype-Live Konferenz erfordert, dass Skype for Business Server bereits in einem Hybrid-Setup mit einer Produktions Office 365 Organisation konfiguriert werden. Für alle Benutzer muss ein Online Mandant als Voraussetzung eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die die Vorteile von Skype-Live Konferenz nutzen kann, lesen Sie [Was ist eine Skype-Live Konferenz?](https://go.microsoft.com/fwlink/?LinkId=617071) und [Konfigurieren Sie Ihre lokale Bereitstellung für Skype](../../deploy/configure-skype-meeting-broadcast.md)-Live Konferenz. 
+> Skype-Live Konferenz ermöglicht Benutzern das Hosten und übertragen von Besprechungen mit großen Online-Zielgruppen von bis zu 10.000 Teilnehmern. Die Verwendung von Skype-Live Konferenz erfordert, dass Skype for Business Server bereits in einem Hybrid-Setup mit einer Microsoft 365-Produktions-oder Office 365-Organisation konfiguriert werden. Für alle Benutzer muss ein Online Mandant als Voraussetzung eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die die Vorteile von Skype-Live Konferenz nutzen kann, lesen Sie [Was ist eine Skype-Live Konferenz?](https://go.microsoft.com/fwlink/?LinkId=617071) und [Konfigurieren Sie Ihre lokale Bereitstellung für Skype](../../deploy/configure-skype-meeting-broadcast.md)-Live Konferenz. 
   
 Große Besprechungen weisen normalerweise die folgenden Merkmale auf:
   

@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: HT
+ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905497"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224228"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -40,11 +40,12 @@ Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss 
 - Der Benutzer verfügt über genügend Speicherplatz in Microsoft Stream, um Aufzeichnungen zu speichern
 - Der Benutzer hat die TeamsMeetingPolicy-AllowCloudRecording-Einstellung auf „True“ eingestellt
 - Der Benutzer ist kein anonymer, Gast- oder Verbundbenutzer in der Besprechung
+- Um die Transkription für eine Benutzer Besprechung zu aktivieren, muss die Team-Besprechungsrichtlinie, der Sie zugewiesen sind, muss-AllowTranscription-Einstellung auf true festgelegt sein.
 
-> [!NOTE]
-> Zusätzlich muss, damit die Person, die die Aufzeichnung initiiert, auch die Wahl hat, dass die Aufzeichnung automatisch transkribiert wird, die TeamsMeetingPolicy-AllowTranscription-Einstellung des Benutzers auf „True“ eingestellt sein
+<sup>1</sup> Benutzer muss lizenziert werden, um Besprechungen von/zu Microsoft Stream hoch-oder herunterzuladen, Sie benötigen jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
 
-<sup>1</sup> Der Benutzer muss dazu lizenziert sein, Besprechungen in/aus Microsoft Stream hoch- oder herunterzuladen, benötigt jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
+> [!IMPORTANT] 
+> Benutzer benötigen keine Microsoft Stream-Lizenz, die zugewiesen wird, wenn Sie möchten, dass die Benutzer nur die Aufzeichnungen aufzeichnen und herunterladen können. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern stattdessen in Azure Media Services (AMS) mit einem Grenzwert von 30 Tagen gespeichert werden, bevor Sie gelöscht werden. An diesem Punkt ist es nicht möglich, dass ein Administrator steuern oder verwalten kann, einschließlich der Möglichkeit, ihn zu löschen.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten der Aufzeichnungsfunktion für Teams-Cloudmeetings für Benutzer in Ihrer Organisation
 
@@ -54,7 +55,7 @@ In diesem Abschnitt wird erläutert, wie die Aufzeichnung von Besprechungen in T
 
 Microsoft Stream ist als Teil der berechtigten Microsoft 365- und Office 365-Abonnements oder als eigenständiger Dienst verfügbar.  Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).  Microsoft Stream ist jetzt in Microsoft 365 Business, Microsoft 365 Business Standard und Microsoft 365 Business Basic enthalten.
 
-Hier erfahren Sie, wie Sie [Benutzern in Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie in [diesem Artikel](https://docs.microsoft.com/stream/disable-user-organization)definiert.
+Hier erfahren Sie, wie Sie [Benutzern in Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream nicht für die Benutzer blockiert ist, wie in [Block Sign-ups für Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization)definiert.
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Stellen Sie sicher, dass Benutzer die Berechtigung zum Hochladen von Videos in Microsoft Stream haben
 
@@ -132,7 +133,7 @@ Verwenden Sie das folgende Cmdlet, um den Wert von AllowCloudRecording in der gl
 
 ### <a name="planning-for-storage"></a>Planung der Speicheranforderungen
 
-Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft Stream verfügen.  Lesen [diesen Artikel](https://docs.microsoft.com/stream/license-overview), um mehr über den im Abonnement enthaltenen Basisspeicher und den Erwerb zusätzlichen Speichers zu erfahren.
+Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft Stream verfügen.  Lesen Sie die [Übersicht über die Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview) , um den im Abonnement enthaltenen Basisspeicher zu verstehen und zu erfahren, wie Sie zusätzlichen Speicher erwerben.
 
 ## <a name="manage-meeting-recordings"></a>Verwalten von Besprechungsaufzeichnungen
 
@@ -140,7 +141,6 @@ Die Besprechungsaufzeichnungen gelten als mandanteneigener Inhalt. Wenn der Besi
 
 > [!NOTE]
 > Weitere Informationen zum Verwalten von Aufzeichnungen und des Benutzerzugriffs finden Sie unter [Verwalten von Benutzerdaten in Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) und [Berechtigungen und Datenschutz in Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions).
-
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Compliance und eDiscovery für Besprechungsaufzeichnungen
 

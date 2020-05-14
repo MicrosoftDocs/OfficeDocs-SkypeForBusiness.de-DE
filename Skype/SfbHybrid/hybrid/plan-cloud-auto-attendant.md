@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510804"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221295"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
 
 Die mit Exchange Unified Messaging (Exchange Server 2013 oder Exchange Server 2016) verwendete automatische Telefonzentrale ist in Exchange Server 2019 oder Exchange Online nicht mehr verfügbar. Wenn Ihre Implementierung von Skype for Business Server 2019 in eine dieser Exchange-Versionen integriert ist, müssen Sie die Online-Cloud-VoIP-Funktionen verwenden, die mit dem Telefon System verbunden sind. Informationen zum Verschieben von Exchange um Diensten, die in Exchange Server 2013 und 2016 verwaltet werden, finden Sie unter [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md) in der Cloud.
 
-Dies bedeutet inhärent, dass Sie eine hybride Implementierung von Skype for Business Server 2019 haben, wenn Sie Unified Messaging-Funktionen wie automatische Telefonzentralen verwenden möchten. Weitere Informationen finden Sie unter [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md) .
+Dies bedeutet inhärent, dass Sie eine hybride Implementierung von Skype for Business Server 2019 haben, wenn Sie Unified Messaging-Funktionen wie automatische Telefonzentralen verwenden möchten. Weitere Informationen finden Sie unter [configure Hybrid Connectivity zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md) .
 
 Bei einer automatischen Telefonzentrale handelt es sich um einen clouddienst, der Kundenanrufe akzeptiert und Begrüßungen abgibt, Menü Optionen zur Verfügung stellt und mit Anrufern in Sprache oder der Wähltastatur interagiert, um Ihre Anrufe an das richtige Ziel weiterzuleiten. Jeder automatischen Telefonzentrale wird ein *Ressourcenkonto* (siehe [Configure Resource Accounts](configure-onprem-ra.md)) auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer automatischen Telefonzentrale im Microsoft Teams Admin Center verknüpft wird. Weitere Informationen finden Sie unter [Was sind automatische Cloud-Telefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) weitere Details zu den automatischen Telefonzentralen und den verfügbaren Optionen und Funktionen für automatische Telefonzentralen.
 
@@ -36,7 +36,7 @@ Ein eingehender Anruf bei einer automatischen Cloud-Telefonzentrale kann einen v
 
 1. Via Skype for Business Server 2019
 2. Über einen [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers.md) und [Direktes Routing](/MicrosoftTeams/direct-routing-plan.md)
-3. Über eine Nummer, die Online in Office 365 verwaltet wird.
+3. Über eine Nummer, die Online in Microsoft 365 oder Office 365 verwaltet wird.
 
 Siehe auch:
 
@@ -55,7 +55,7 @@ Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anford
 
 - Hybrid Konnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und die automatische Cloud-Telefonzentrale für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass Sie eine hybride Konnektivität zwischen Ihren lokalen und Online-Umgebungen eingerichtet haben. Dies wird manchmal als geteilte Domänenkonfiguration bezeichnet.
 
-   Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md).
+   Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md).
 
 - Wenn Sie Ihrer automatischen Telefonzentrale eine Telefonnummer zuweisen, benötigen Sie eine [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) -Lizenz.
 - Erstellen Sie für jede automatische Telefonzentrale ein Online- [Ressourcenkonto](/MicrosoftTeams/manage-resource-accounts.md) oder ein lokales [Ressourcenkonto](configure-onprem-ra.md) , und weisen Sie Telefonnummern und Lizenzen zu. 
@@ -114,8 +114,8 @@ Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entsprich
 
 Exchange um: [eingehende Anrufe automatisch beantworten und weiterleiten](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Planen der Hybridkonnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md)
+[Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md)
 
-[Konfigurieren der Hybridverbindung zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md)
+[Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: Anrufe beim Teilnehmerzugriff oder bei der automatischen Telefonzentrale schlagen fehl, wenn der Fehler "schnell beschäftigt" und "500 Server intern" nach dem Verschieben von Kontaktobjekten auf Skype for Business Server 2019 aufgetreten ist.](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

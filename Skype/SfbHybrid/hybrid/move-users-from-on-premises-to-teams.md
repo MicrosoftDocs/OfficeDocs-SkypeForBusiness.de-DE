@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzereinstellungen migrieren und Benutzer in Microsoft Teams verschieben.'
-ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b6925917cff3265280b88979660ad1289a63d12
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779681"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221375"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams
 
@@ -61,17 +61,17 @@ Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 
 
 CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Die folgenden Schritte und die erforderlichen Berechtigungen sind identisch mit dem Verschieben eines Benutzers in Skype for Business Online, es sei denn, Sie müssen auch den MoveToTeams-Switch angeben, und Sie müssen sicherstellen, dass dem Benutzer auch eine Lizenz für Teams erteilt wurde (zusätzlich zu Skype for Business Online).
 
-Sie müssen sowohl in der lokalen Umgebung als auch in der Office 365 Organisation über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` Parameter verwenden, um Anmeldeinformationen für ein Office 365 Konto mit der erforderlichen Office 365 Administratorrolle anzugeben.
+Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch im clouddienst (Microsoft 365 oder Office 365) verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den Parameter verwenden, `-Credential` um Anmeldeinformationen für ein Microsoft 365-oder Office 365-Konto mit der erforderlichen Administratorrolle anzugeben.
 
 So stellen Sie einen Benutzer mithilfe von "CsUser" in den Microsoft Teams-Modus um:
 
-- Geben Sie den Benutzer an, der `Identity` mithilfe des Parameters zu navigieren ist.
-- Geben Sie den-target-Parameter mit dem Wert "sipfed. online. lync" an. <span>com ".
-- Geben Sie `MoveToTeams` den Schalter an.
-- Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl lokal als auch Office 365 verfügen, verwenden `-credential` Sie den-Parameter, um ein Konto mit ausreichenden Berechtigungen in Office 365 bereitzustellen.
-- Wenn das Konto mit den Berechtigungen in Office 365 nicht "onmicrosoft" endet. <span>com "müssen Sie den `-HostedMigrationOverrideUrl` Parameter mit dem korrekten Wert angeben, wie unter" [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)"beschrieben.
+- Geben Sie den Benutzer an, der mithilfe des `Identity` Parameters zu navigieren ist.
+- Geben Sie den-target-Parameter mit dem Wert "sipfed. online. lync" an. <span> com ".
+- Geben Sie den `MoveToTeams` Schalter an.
+- Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl lokal als auch über den clouddienst verfügen (Microsoft 365 oder Office 365), verwenden Sie den- `-credential` Parameter, um ein Konto mit ausreichenden Berechtigungen in Office 365 bereitzustellen.
+- Wenn das Konto mit den Berechtigungen in Microsoft 365 oder Office 365 nicht auf "onmicrosoft" endet. <span> com "müssen Sie den `-HostedMigrationOverrideUrl` Parameter mit dem korrekten Wert angeben, wie unter" [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)"beschrieben.
 
-Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu TeamsOnly zu migrieren, und es wird davon ausgegangen, dass die Office 365 Credential ein separates Konto ist und als Eingabe für die Get-Credential-Eingabeaufforderung angegeben wird.
+Die folgende Cmdlet-Sequenz kann zum Migrieren eines Benutzers zu TeamsOnly verwendet werden, und es wird davon ausgegangen, dass die Anmeldeinformationen von Microsoft 365 oder Office 365 ein separates Konto sind und als Eingabe für die Eingabeaufforderung Get-Credential angegeben werden.
 
   ```powershell
   $cred=Get-Credential
@@ -86,13 +86,13 @@ Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu TeamsOnl
 3. Verwenden Sie **Suchen** , um die Benutzer zu finden, die Sie in Teams verschieben möchten.
 4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in Teams verlagern**aus.
 5. Klicken Sie im Assistenten auf **Weiter**.
-6. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Office 365 mit einem Konto an, das in. onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
+6. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Microsoft 365 oder Office 365 mit einem Konto an, das in. onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
 7. Klicken Sie auf **weiter**und dann auf **weiter** , um den Benutzer zu verlagern.
 8. Beachten Sie, dass Statusmeldungen bezüglich Erfolg oder Fehler oben in der Hauptsystem Steuerung-APP, nicht im Assistenten angegeben werden.
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Benachrichtigen Ihrer Skype for Business lokalen Benutzern über den bevorstehenden Wechsel zu Microsoft Teams
 
-Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 sowie Skype for Business Server 2019 können Sie lokale Skype for Business Benutzer über Ihren bevorstehenden Wechsel zu Microsoft Teams informieren. Wenn Sie diese Benachrichtigungen aktivieren, wird den Benutzern eine Benachrichtigung in Ihrem Skype for Business-Client (Win32, Mac, Internet und Mobile) angezeigt, wie unten dargestellt. Wenn Benutzer auf die Schaltfläche " **Testen** " klicken, wird der Microsoft Teams-Client bei der Installation gestartet. Andernfalls werden die Benutzer in Ihrem Browser zur Webversion von Microsoft Teams navigiert. Wenn Benachrichtigungen aktiviert werden, lädt Win32 Skype for Business Clients den Microsoft Teams-Client automatisch herunter, sodass der Rich-Client verfügbar ist, bevor der Benutzer in den Microsoft Teams-Modus verschoben wird. Sie können dieses Verhalten jedoch auch deaktivieren.  Benachrichtigungen werden mit der lokalen Version von `TeamsUpgradePolicy`konfiguriert, und der unbeaufsichtigte Download für Win32-Clients wird über das lokale `TeamsUpgradeConfiguration` Cmdlet gesteuert.
+Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 sowie Skype for Business Server 2019 können Sie lokale Skype for Business Benutzer über Ihren bevorstehenden Wechsel zu Microsoft Teams informieren. Wenn Sie diese Benachrichtigungen aktivieren, wird den Benutzern eine Benachrichtigung in Ihrem Skype for Business-Client (Win32, Mac, Internet und Mobile) angezeigt, wie unten dargestellt. Wenn Benutzer auf die Schaltfläche " **Testen** " klicken, wird der Microsoft Teams-Client bei der Installation gestartet. Andernfalls werden die Benutzer in Ihrem Browser zur Webversion von Microsoft Teams navigiert. Wenn Benachrichtigungen aktiviert werden, lädt Win32 Skype for Business Clients den Microsoft Teams-Client automatisch herunter, sodass der Rich-Client verfügbar ist, bevor der Benutzer in den Microsoft Teams-Modus verschoben wird. Sie können dieses Verhalten jedoch auch deaktivieren.  Benachrichtigungen werden mit der lokalen Version von konfiguriert `TeamsUpgradePolicy` , und der unbeaufsichtigte Download für Win32-Clients wird über das lokale `TeamsUpgradeConfiguration` Cmdlet gesteuert.
 
 > [!TIP]
 > Einige Server müssen möglicherweise neu gestartet werden, damit diese in Skype for Business 2015 mit ku8 funktionieren.

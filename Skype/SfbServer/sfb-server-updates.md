@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und Verwalten von Updates für Skype for Business Server 2015/2019 und lync 2013 an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
-ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928248"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220545"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server-Updates
 
 Suchen und Verwalten von Updates für [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history), [lync Server 2013](#lync-server-2013-update-history)und [lync Server 2010](#lync-server-2010-update-history) an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
 
-Aktuelle Skype for Business Online-und Office 365 Updates finden Sie in der [Microsoft 365-Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
+Die neuesten Skype for Business Online-und Microsoft 365-Updates finden Sie in der [Microsoft 365-Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Updateverlauf für Skype for Business Server 2019
 
@@ -131,7 +131,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 #### <a name="pre-configured-vhds"></a>Vorkonfigurierte virtuelle Festplatten
 
-Die vollständige Topologie besteht aus 7 virtuellen Computern, mit denen Sie die Microsoft lync 2013, Microsoft Exchange 2013, SharePoint 2013 und UC-Entwickler Platt Form-APIs (einschließlich SDK für Microsoft lync 2013, Exchange Webdienste Managed API 2,0, SDK für Microsoft lync Server 2013 und verwaltete API 4.0 von Microsoft Unified Communications).
+Die vollständige Topologie besteht aus 7 virtuellen Computern, mit denen Sie die Microsoft lync 2013, Microsoft Exchange 2013, SharePoint 2013 und UC-Entwickler Platt Form-APIs (einschließlich SDK für Microsoft lync 2013, Exchange Webdienste Managed API 2,0, SDK für Microsoft lync Server 2013 und verwaltete API 4.0 von Microsoft Unified Communications) vollständig auswerten können.
 
 Paket Name/Link|Veröffentlichungsdatum|
 |:--- |:--- |
@@ -162,7 +162,7 @@ Paket Name/Link|Veröffentlichungsdatum|
 
 Paket Name/Link|Veröffentlichungsdatum|
 |:--- |:--- |
-|[Hilfedatei zu lync Server 2013 Dokumentation](https://www.microsoft.com/download/details.aspx?id=35405)|August 2015 |
+|[Hilfedatei zu lync Server 2013 Dokumentation](https://www.microsoft.com/download/details.aspx?id=35405)|August 2015 |
 
 * * *
 

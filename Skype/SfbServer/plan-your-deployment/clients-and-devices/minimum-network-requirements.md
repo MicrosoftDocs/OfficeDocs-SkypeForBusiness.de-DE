@@ -1,5 +1,5 @@
 ---
-title: Skype Meetings-App minimale Netzwerkanforderungen
+title: Mindestnetzwerkanforderungen für die Skype-Besprechungs-App
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: PhillipGarding
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
-description: 'Zusammenfassung: Informationen für Organisationen, die nicht Office 365 verwenden und auf Besprechungen zugreifen müssen, die von Organisationen gehostet werden, die dies tun.'
-ms.openlocfilehash: 162d05f9786f02258afa080e630c85d4b513db4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Zusammenfassung: Informationen für Organisationen, die nicht Microsoft 365 oder Office 365 verwenden und auf Besprechungen zugreifen müssen, die von Organisationen gehostet werden, die dies tun.'
+ms.openlocfilehash: 656f8fa52f4a1080cca0b8464becf77c8c2a0ef0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033189"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219725"
 ---
-# <a name="skype-meetings-app-minimum-network-requirements"></a>Skype Meetings-App minimale Netzwerkanforderungen
+# <a name="skype-meetings-app-minimum-network-requirements"></a>Mindestnetzwerkanforderungen für die Skype-Besprechungs-App
  
-**Zusammenfassung:**  Informationen für Organisationen, die nicht Office 365 verwenden und auf Besprechungen zugreifen müssen, die von Organisationen gehostet werden, die dies tun. Dieser Artikel ist nicht für die Benutzer dieser apps vorgesehen.
+**Zusammenfassung:**  Informationen für Organisationen, die Microsoft 365 oder Office 365 nicht verwenden und auf Besprechungen zugreifen müssen, die von Organisationen gehostet werden, die dies tun. Dieser Artikel ist nicht für die Benutzer dieser apps vorgesehen.
   
-Um Benutzern die Verwendung der Skype-Besprechungs-App für die Teilnahme an Besprechungen zu ermöglichen, die in Skype for Business online gehostet werden, sollten Netzwerkadministratoren von Organisationen, die nicht Office 365 verwenden, die unten aufgeführten FQDNs, IPS und Ports auf Whitelists oder anderweitig zur Verfügung stellen.
+Um Benutzern die Verwendung der Skype-Besprechungs-App für die Teilnahme an Besprechungen zu ermöglichen, die in Skype for Business online gehostet werden, sollten Netzwerkadministratoren von Organisationen, die Microsoft 365 oder Office 365 nicht verwenden, die unten aufgeführten FQDNs, IPS und Ports auf Whitelists oder anderweitig zur Verfügung stellen.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Anforderungen für die App-Konnektivität für Skype-Besprechungen
 
@@ -37,8 +37,8 @@ Die hier aufgelisteten Informationen sind eine Teilmenge der [Office 365-URLs un
  
 |App |Ziel-FQDNs  |IP-Adressen  |Ports  |
 |---|---------|---------|---------|
-|**Skype-Besprechungs-App** | \*. lync.com <br/>\*. Infra.lync.com<br/>\*. Pipe.Aria.Microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*Broadcast<span></span>. officeapps.Live.com <br/>\*Power<span></span>Point. officeapps.Live.com <br/>\*. Office.Live.com<br/>\*. CDN.Office.net<br/>*. s-Microsoft.com<br/>        |   Diese IP-Adressen werden häufig aktualisiert.  Siehe [Skype for Business IP-Bereiche](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie [Office-IP-Bereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478-3481<br/>
-|**Microsoft Teams**    | \*<span></span>. Microsoft.com <br/>\*<span></span>. Skype.com | Diese IP-Adressen werden häufig aktualisiert.  Siehe [Skype for Business IP-Bereiche](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie [Office-IP-Bereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478-3481
+|**Skype-Besprechungs-App** | \*. lync.com <br/>\*. Infra.lync.com<br/>\*. Pipe.Aria.Microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*Broadcast <span></span> . officeapps.Live.com <br/>\*PowerPoint <span></span> . officeapps.Live.com <br/>\*. Office.Live.com<br/>\*. CDN.Office.net<br/>*. s-Microsoft.com<br/>        |   Diese IP-Adressen werden häufig aktualisiert.  Siehe [Skype for Business IP-Bereiche](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie [Office-IP-Bereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478-3481<br/>
+|**Teams**    | \*<span></span>. Microsoft.com <br/>\*<span></span>. Skype.com | Diese IP-Adressen werden häufig aktualisiert.  Siehe [Skype for Business IP-Bereiche](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) sowie [Office-IP-Bereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478-3481
 
 ## <a name="see-also"></a>Siehe auch
 <a name="BKMK_Conferencing"> </a>

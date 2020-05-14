@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Erfahren Sie mehr über die Bereitstellungeines einzelnen PSTN-Standorts in Cloud Connector Edition.
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779351"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220535"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Bereitstellen eines einzelnen Standorts in Cloud Connector
  
@@ -55,7 +55,7 @@ Sie können einen vorhandenen Cloud Connector-Standort erweitern, um ha zu unter
   
 1. Befolgen Sie die Schritte zum Vorbereiten Ihrer Cloud Connector-Appliance wie unter [prepare your Cloud Connector Appliance](prepare-your-cloud-connector-appliance.md)beschrieben. Beachten Sie, dass einige Schritte nur für die erste Appliance in Ihrer Bereitstellung erforderlich sind. Stellen Sie sicher, dass das Websiteverzeichnis vorhanden und für die ha-Unterstützung ordnungsgemäß konfiguriert ist.
     
-2. Führen Sie das folgende Cmdlet nur auf dem neu hinzugefügten Hostserver aus, um die Topologieinformationen in Ihrer Office 365 Organisationskonfiguration zu aktualisieren. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet jeweils nacheinander auf jedem neu hinzugefügten Hostserver aus:
+2. Führen Sie das folgende Cmdlet nur auf dem neu hinzugefügten Hostserver aus, um die Topologieinformationen in Ihrer Microsoft 365-oder Office 365-Organisationskonfiguration zu aktualisieren. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet jeweils nacheinander auf jedem neu hinzugefügten Hostserver aus:
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Sie können einen vorhandenen Cloud Connector-Standort erweitern, um ha zu unter
 
 Wenn Sie eine Appliance aus einer vorhandenen Website entfernen möchten:
   
-1. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, die Sie aus dem Standort entfernen möchten, um die Topologieinformationen in der Konfiguration der Office 365 Organisation zu aktualisieren.
+1. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, die Sie aus dem Standort entfernen möchten, um die Topologieinformationen in Ihrer Microsoft 365-oder Office 365-Organisationskonfiguration zu aktualisieren.
     
    ```powershell
    Unregister-CcAppliance

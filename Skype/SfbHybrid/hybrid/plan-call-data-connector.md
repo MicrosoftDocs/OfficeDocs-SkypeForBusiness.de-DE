@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung Skype for Business Online Telemetrie-Tools zum Überwachen einer lokalen Implementierung in einem Hybrid Szenario.
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779661"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221315"
 ---
 # <a name="plan-call-data-connector"></a>Planen des Connectors für die Anrufdaten
 
@@ -60,12 +60,12 @@ Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for B
 
 - Aktivieren Sie die Hybrid Konnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und den Anruf Datenkonnektor aktivieren möchten, müssen Sie sicherstellen, dass Sie eine hybride Konnektivität zwischen Ihren lokalen und Online-Umgebungen eingerichtet haben. Dies wird manchmal als geteilte Domänenkonfiguration bezeichnet.
 
-   Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md).
+   Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md).
 
-- Authentifizieren Sie sich bei Ihrer Office 365 Organisation, und stellen Sie sicher, dass die folgenden Rollen aktiviert sind:
+- Authentifizieren Sie sich bei Ihrer Microsoft 365-oder Office 365-Organisation, und stellen Sie sicher, dass die folgenden Rollen aktiviert sind:
 
   - Skype for Business Server Administrator
-  - Globaler Administrator
+  - Microsoft 365 oder Office 365 globaler Administrator
 
 - Wenn Sie dies noch nicht getan haben, aktivieren Sie das Anruf qualitätsdashboard wie unter [aktivieren und Verwenden des Anruf Qualitäts Dashboards für Microsoft Teams und Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard)beschrieben.
 

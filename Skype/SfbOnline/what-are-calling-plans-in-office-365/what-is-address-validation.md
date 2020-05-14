@@ -20,16 +20,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Hier erfahren Sie, was Adressvalidierung ist, warum sie wichtig ist und was sie mit Notfalladressen und -diensten zu tun hat. '
-ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769248"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220695"
 ---
 # <a name="what-is-address-validation"></a>Was ist Adressvalidierung?
 
-Wenn Sie Anrufpläne in Office 365 einrichten, müssen Sie jedem Benutzer eine Telefonnummer und eine Notfalladresse zuweisen.
+Wenn Sie Anrufpläne einrichten, müssen Sie jedem Benutzer eine Telefonnummer und eine Notfalladresse zuweisen.
   
 Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse korrekt ist und außerdem richtig formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, beispielsweise ein falsch eingegebener Name des Orts, weiterhin die Validierung durchlaufen kann. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Notdienstzentrale weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
 

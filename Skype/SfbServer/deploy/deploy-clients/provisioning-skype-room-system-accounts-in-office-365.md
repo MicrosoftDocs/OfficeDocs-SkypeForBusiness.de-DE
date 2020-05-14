@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lesen Sie dieses Thema, um mehr über die Einrichtung von Skype Room System-Konten in Microsoft 365 oder Office 365 zu erfahren.
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779711"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221849"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Einrichten von Skype Room System-Konten in Microsoft 365 und Office 365
  
-Lesen Sie dieses Thema, um mehr über die Einrichtung von Skype Room System-Konten in Office 365 zu erfahren.
+Lesen Sie dieses Thema, um mehr über die Einrichtung von Skype Room System-Konten in Microsoft 365 oder Office 365 zu erfahren.
   
-Im folgenden Abschnitt wird die Kontoverwaltung für Skype Room System für eine Office 365 Organisation behandelt.
+Im folgenden Abschnitt wird die Kontoverwaltung für Skype Room System behandelt.
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Voraussetzungen für Microsoft 365 und Office 365
 
@@ -41,7 +41,7 @@ Ihr Online-Mandant muss die folgenden Anforderungen erfüllen:
     
   - Skype for Business Online Remote-PowerShell-Zugriff
     
-  - Windows Azure Active Directory-Modul für Windows PowerShell für den Zugriff auf Office 365 Verzeichniszugriff
+  - Windows Azure Active Directory-Modul für Windows PowerShell für den Zugriff auf Microsoft 365 oder Office 365 Verzeichniszugriff
     
 Für das Skype Room-Konto ist die folgende Lizenzierung erforderlich:
   
@@ -55,9 +55,9 @@ Für das Skype Room-Konto ist die folgende Lizenzierung erforderlich:
     
 ## <a name="provisioning-overview"></a>Übersicht über die Überstellung
 
-Das folgende Diagramm bietet eine Übersicht über den Ablauf der Bereitstellung von Skype Room System-Konten in Office 365.
+Das folgende Diagramm bietet eine Übersicht über den Fluss der Bereitstellung von Skype Room System-Konten.
   
-![Schritte zur Vorgehensweise für das Skype Room-System für O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Schritte für das Skype Room-System](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identifizieren eines neuen Konferenzraums
 
@@ -93,7 +93,7 @@ Nachdem Sie das Postfach erstellt haben, können Sie das Cmdlet "CalendarProcess
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Zuweisen einer Skype for Business Online Lizenz
 
-Jetzt können Sie eine Skype for Business Online (Plan 2)-oder Skype for Business Online (Plan 3)-Lizenz mithilfe des Office 365-Verwaltungsportals zuweisen, wie unter [zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in [Skype for Business Add-on-Lizenzierung](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)beschrieben. 
+Jetzt können Sie eine Skype for Business Online (Plan 2)-oder Skype for Business Online (Plan 3)-Lizenz mithilfe des Microsoft 365-Verwaltungsportals zuweisen, wie unter [zuweisen oder Entfernen von Lizenzen für Microsoft 365 for Business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in [Skype for Business Add-on-Lizenzierung](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)beschrieben. 
   
 Nachdem Sie eine Lizenz für Skype for Business Online zugewiesen haben, können Sie sich anmelden und überprüfen, ob das Konto mit einem Skype for Business-Client aktiv ist.
   
@@ -126,7 +126,7 @@ Nachdem ein Ressourcen Raum-Postfachkonto erstellt und wie zuvor gezeigt aktivie
 
 ## <a name="password-expiration"></a>Kennwortablauf
 
-In Office 365 ist die standardmäßige Kennwortablaufrichtlinie für alle Ihre Benutzerkonten 90 Tage, es sei denn, Sie konfigurieren eine andere Kennwortablaufrichtlinie. Für Skype Room System-Konten können Sie die Einstellung Kennwort läuft nie ab mit den folgenden Schritten auswählen.
+In Microsoft 365 oder Office 365 ist die standardmäßige Kennwortablaufrichtlinie für alle Ihre Benutzerkonten 90 Tage, es sei denn, Sie konfigurieren eine andere Kennwortablaufrichtlinie. Für Skype Room System-Konten können Sie die Einstellung Kennwort läuft nie ab mit den folgenden Schritten auswählen.
   
 1. Erstellen Sie eine Windows Azure Active Directory-Sitzung mithilfe der Anmeldeinformationen für den globalen mandantenadministrator.
     
