@@ -1,5 +1,5 @@
 ---
-title: Authentifizierungsskript für Skype for Business Server 2019 Control Panel
+title: Skype for Business Server 2019-Authentifizierungsskript für die Systemsteuerung
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Hilfsprogramm-Skript zum Konfigurieren der SFB 2019 Control Panel-Authentifizierung mit Office 365 über das OAuth-Protokoll..
-ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Hilfsprogramm-Skript zum Konfigurieren der SFB 2019-System Steuerungs Authentifizierung mit Microsoft 365 oder Office 365 über OAuth-Protokoll.
+ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887724"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232596"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="ffc5c-103">Authentifizierungsskript für Skype for Business Server 2019 Control Panel</span><span class="sxs-lookup"><span data-stu-id="ffc5c-103">Skype for Business Server 2019 control panel authentication script</span></span>
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="65138-103">Skype for Business Server 2019-Authentifizierungsskript für die Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="65138-103">Skype for Business Server 2019 control panel authentication script</span></span>
 
-<span data-ttu-id="ffc5c-104">Dieses Skript sollte nach der Installation von Skype for Business Server 2019 Kumulatives Update 1 im Rahmen der Einrichtung des neuen Control Panels ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="ffc5c-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="ffc5c-105">Mit diesem Skript wird eine Azure AD-Anwendung auf Azure erstellt.</span><span class="sxs-lookup"><span data-stu-id="ffc5c-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="ffc5c-106">Dies hilft bei der Anmeldung bei Office 365 mithilfe von OAuth im neuen Control Panel.</span><span class="sxs-lookup"><span data-stu-id="ffc5c-106">This will help in signing into Office 365 using OAuth in the new Control Panel.</span></span>
+<span data-ttu-id="65138-104">Dieses Skript sollte nach der Installation von Skype for Business Server 2019 Kumulatives Update 1 als Teil der Einrichtung für die neue Systemsteuerung ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="65138-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="65138-105">Mit diesem Skript wird eine Azure AD Anwendung in Azure erstellt.</span><span class="sxs-lookup"><span data-stu-id="65138-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="65138-106">Dies hilft bei der Anmeldung bei Microsoft 365 oder Office 365 mithilfe von OAuth in der neuen Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="65138-106">This will help in signing into Microsoft 365 or Office 365 using OAuth in the new Control Panel.</span></span>
 
 ```powershell
 <#
  .SYNOPSIS
- Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.
+ Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol.
 
  .DESCRIPTION
  Copyright (c) Microsoft Corporation. All rights reserved.
