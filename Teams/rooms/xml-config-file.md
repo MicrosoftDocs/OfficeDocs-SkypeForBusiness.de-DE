@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Remote Verwaltung der Standardeinstellungen, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich Anwenden eines benutzerdefinierten Designs und Erstellen einer Master Einstellungsdatei
-ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510764"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230503"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -46,6 +46,7 @@ Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
@@ -83,7 +84,7 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 |\<SkypeSettings\> |Container für alle Elemente. ||Erforderlich. |
 | \<AutoScreenShare\>  |Boolescher &#x2777;  |Erste &#x2776;  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
 |\<HideMeetingName\> |Boolescher &#x2777;  |Erste &#x2776;  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet. |
-|\<Benutzerkonto\> |Container |Erste &#x2776;  |Container für Anmeldeinformationen-Parameter. Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel identisch<span></span>, beispielsweise RanierConf @contoso. com. |
+|\<Benutzerkonto\> |Container |Erste &#x2776;  |Container für Anmeldeinformationen-Parameter. Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel identisch, beispielsweise RanierConf <span></span> @contoso. com. |
 |\<SkypeMeetingsEnabled\>  |Boolescher &#x2777;  |Erste &#x2776;  |Diese Option ist standardmäßig aktiviert. |
 |\<SkypeSignInAddress\> |Zeichenfolge &#x2778;  ||Der Anmeldename für das SFB-oder Teams-Geräte Konto der Konsole. |
 |\<ExchangeAddress\> |Zeichenfolge &#x2778;  ||Der Anmeldename für das Exchange-Geräte Konto der Konsole. Wenn der ExchangeAddress ausgelassen wird, wird der SkypeSignInAddress nicht automatisch wieder verwendet. |
@@ -91,9 +92,10 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 |\<Domain User Name\> |Zeichenfolge &#x2778;  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf. |
 |\<Kennwort\> |Zeichenfolge 3  || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.   |
 | \<ConfigureDomain\>  |Zeichenfolge &#x2778;  ||Sie können mehrere durch Kommata getrennte Domänen auflisten. |
-|\<TeamsMeetingsEnabled\> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet \<,\> Wenn\<sowohl\> SkypeMeetingsEnabled als auch TeamsMeetingsEnabled deaktiviert sind, es aber akzeptabel ist, dass beide Einstellungen gleichzeitig aktiviert sind. |
+|\<TeamsMeetingsEnabled\> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet, wenn sowohl SkypeMeetingsEnabled als auch \< \> \< TeamsMeetingsEnabled \> deaktiviert sind, es aber akzeptabel ist, dass beide Einstellungen gleichzeitig aktiviert sind. |
 |\<IsTeamsDefaultClient> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. |
 |\<BluetoothAdvertisementEnabled> |Boolescher &#x2777;  |Erste &#x2776;  |Diese Option ist standardmäßig aktiviert. |
+|\<AutoAcceptProximateMeetingInvitations> |Boolescher &#x2777;  |Erste &#x2776;  |Wenn wahr, werden Näherungs basierte Besprechungen automatisch akzeptiert. Diese ist standardmäßig deaktiviert. |
 |\<DualScreenMode\>  |Boolescher &#x2777;  |Erste &#x2776;  |Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Single-Screen-Modus. |
 | \<DuplicateIngestDefault\> |Boolescher &#x2777;  |Erste &#x2776; |Wenn "true" festgelegt ist, wird der Inhalt auf beiden Bildschirmen im dualen Bildschirm angezeigt, wenn die Besprechung nicht stattfindet. | 
 |\<SendLogs\> |Container |Erste &#x2776;  |  |
@@ -109,7 +111,7 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 | \<Design\>  |Container |Erste &#x2776;  |Eines der Features, die mit einer XML-Datei angewendet werden können, ist ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben. |
 |\<ThemeName\> |Zeichenfolge &#x2778;  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefinierte Designnamen verwenden immer den Namen *Custom*. Die Client-Benutzeroberfläche kann in der Konsole auf den Standardwert oder eine der Voreinstellungen eingestellt werden, doch die Verwendung eines benutzerdefinierten Designs muss von einem Administrator Remote eingerichtet werden. <br/>  Werkseitig eingestellte Designs enthalten:  <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
 |\<CustomThemeImageUrl\> |Zeichenfolge &#x2778;  ||Erforderlich für ein benutzerdefiniertes Design, andernfalls optional. Geben Sie nur den Dateinamen ein.   |Weitere Informationen zum benutzerdefinierten Design Bild finden Sie im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .
-|\<CustomThemeColor\> |Container ||Container für die \<Werte für\>" \<iscomponent" \<,\> "GreenComponent\>" und "BlueComponent". Diese Werte sind für ein benutzerdefiniertes Design erforderlich. |
+|\<CustomThemeColor\> |Container ||Container für die \< Werte für "iscomponent" \> , "GreenComponent" und "BlueComponent" \< \> \< \> . Diese Werte sind für ein benutzerdefiniertes Design erforderlich. |
 |\<Komponente\> |Byte (0-255) ||Stellt die rote Komponente dar. |
 |\<GreenComponent\> |Byte (0-255) ||Stellt die grüne Komponente dar. |
 |\<BlueComponent\> |Byte (0-255) ||Stellt die blaue Komponente dar. | 
@@ -123,7 +125,7 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>Verwalten von Konsoleneinstellungen unter Verwendung einer XML-Konfigurationsdatei
 
-Wenn eine Microsoft Teams rooms-Konsole beim Start eine XML-Datei mit dem Namen "SkypeSettings. `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`XML" gefunden hat, wendet Sie die von der XML-Datei angegebenen Konfigurationseinstellungen an und löscht dann die XML-Datei.
+Wenn eine Microsoft Teams rooms-Konsole beim Start eine XML-Datei mit dem Namen "SkypeSettings. xml" gefunden `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` hat, wendet Sie die von der XML-Datei angegebenen Konfigurationseinstellungen an und löscht dann die XML-Datei.
   
 Je nachdem, wie viele Microsoft Teams rooms-Geräte in Ihrem Unternehmen vorhanden sind und wie Sie diese Konfiguration verwalten, gibt es verschiedene Möglichkeiten, die XML-Konfigurationsdatei zu platzieren. Sobald die Datei  in die Konsole verschoben wurde, starten Sie das Gerät, um die Konfigurationsänderungen zu verarbeiten. Die XML-Datei wird nach erfolgreicher Verarbeitung entfernt. Die für Microsoft Teams Room-Geräte vorgeschlagenen Verwaltungsmethoden werden in folgenden Themen erörtert:
   
@@ -136,7 +138,7 @@ Sie können jede beliebige Methode so lange verwenden, wie Sie Sie verwenden kö
 
 <a name="Themes"> </a>
 
-Die Image-Datei für ein benutzerdefiniertes Design`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` muss im Ordner abgelegt werden. Geben Sie den Dateinamen und die Erweiterung \<in\> die CustomThemeImageUrl-Variable ein.
+Die Image-Datei für ein benutzerdefiniertes Design muss im Ordner abgelegt werden `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Geben Sie den Dateinamen und die Erweiterung in die \< CustomThemeImageUrl- \> Variable ein.
   
 Die Bilddatei sollte genau 3840X1080 Pixel sein und eines der folgenden Dateiformate aufweisen: JPG, JPEG, PNG und BMP. Wenn Ihre Organisation ein benutzerdefiniertes Bild wünscht, kann ein Grafikdesigner die [Photoshop-Vorlage "benutzerdefiniertes Design](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)" verwenden. Sie enthält weitere Informationen darüber, wo sich verschiedene Benutzeroberflächenelemente relativ zum restlichen Design Bild befinden und welche Bereiche auf Konsolen und Displays angezeigt werden.
   
@@ -148,16 +150,16 @@ So suchen Sie den Instanzen Pfad:
 
 1. Wechseln Sie in der Microsoft Teams rooms-Konsole zu Windows-Einstellungen.
 2. Geben Sie das Administratorkennwort ein.
-3. Geben `devmgmt.msc` Sie an der Eingabeaufforderung ein, um den Geräte-Manager aufzurufen.
+3. Geben Sie an der Eingabeaufforderung ein, `devmgmt.msc` um den Geräte-Manager aufzurufen.
 4. Suchen Sie im **Geräte-Manager**den Knoten **Imaging Devices** , und suchen Sie die Inhalts Kamera.
 5. Klicken Sie mit der rechten Maustaste auf die Kamera, und öffnen Sie **Eigenschaften**.
 6. Wählen Sie die Registerkarte **Details** aus, und suchen Sie in der Dropdownliste die Eigenschaft **Geräteinstanzen Pfad** .
-7. Der angezeigte Wert ist der in der XML-Konfigurationsdatei zu definierende Device-Instanzen Pfad. Wenn Sie den Pfad in XML angeben, ersetzen Sie das kaufmännische und `&amp;`-Zeichen (&) durch.
+7. Der angezeigte Wert ist der in der XML-Konfigurationsdatei zu definierende Device-Instanzen Pfad. Wenn Sie den Pfad in XML angeben, ersetzen Sie das kaufmännische und-Zeichen (&) durch `&amp;` .
 
 ## <a name="see-also"></a>Siehe auch
 
 [Inhalts-Kameras](content-camera.md)
 
-[Microsoft Teams Rooms verwalten](rooms-manage.md)
+[Microsoft Teams-Räume verwalten](rooms-manage.md)
 
 [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

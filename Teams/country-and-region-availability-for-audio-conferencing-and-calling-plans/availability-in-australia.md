@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
-ms.openlocfilehash: acbde97d1b0facf077b175650d4748318d53b591
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
+ms.openlocfilehash: 5bfca9b286a264177437ca36569b943f945b6693
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695430"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230643"
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nummer [Bitte kontaktieren Sie uns](mailto:ptnapac@microsoft.com). <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein. [Bitte kontaktieren Sie uns](mailto:ptnapac@microsoft.com). <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -59,14 +59,14 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, siehe [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Siehe [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Siehe [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, siehe [Telstra-Anrufe](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Siehe [Telstra-Anrufe](https://aka.ms/TelstraVoicePlan). <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Siehe [Telstra-Anrufe](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
 > Wenn Sie australische Abonnenten Nummern (von Telstra bereitgestellt) löschen möchten, wenden Sie sich direkt an Telstra.
 > Um Notfall Adressinformationen für australische Teilnehmer Nummern (von Telstra bereitgestellt) zu aktualisieren, wenden Sie sich direkt an Telstra.
-> Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
+> Weitere Informationen finden Sie unter [Telstra-Anrufe](https://aka.ms/TelstraVoicePlan).
 
 ### <a name="if-your-tenant-is-located-outside-australia"></a>Wenn Ihr Mandant außerhalb Australiens liegt
 
@@ -74,11 +74,11 @@ Ab dem 1. September, 2019, wenn sich Ihr Mandant außerhalb Australiens befindet
 
 |||
 |---------|---------|
-|Nord    |Vereinigte Staaten (USA), amerikanische abgelegene Inseln      |
+|Nord- und Südamerika    |Vereinigte Staaten (USA), amerikanische abgelegene Inseln      |
 |APAC     |Bangladesch, Bhutan, Brunei, Kambodscha, Hongkong, Indonesien, Laos, Macao, Malaysia, Malediven, Myanmar, Nepal, Philippinen, Singapur, Sri Lanka, Thailand, Timor-Leste, Vietnam|
-|EMEA    |Åland-Inseln, Andorra, Österreich, Belgien, Bouvet Island, Bulgarien, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Färöer-Inseln, Finnland, Frankreich, Deutschland, Gibraltar, Griechenland, Grönland, Guernsey, Island, Irland, Isle of man, Italien, Jan Mayen, Jersey, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Monaco, Niederlande, Norwegen, Polen, Portugal, Rumänien, San Marino, Slowakei, Slowenien, Spanien, Svalbard, Schweden, Schweiz, Vereinigtes Königreich, Vatikanstadt  |
+|EMEA    |Åland-Inseln, Andorra, Österreich, Belgien, Bouvet Island, Bulgarien, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Färöer-Inseln, Finnland, Frankreich, Deutschland, Gibraltar, Griechenland, Grönland, Guernsey, Ungarn, Island, Irland, Isle of man, Italien, Jan Mayen, Jersey, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Monaco, Niederlande, Norwegen, Polen, Portugal, Rumänien, San Marino, Slowakei, Slowenien, Spanien, Svalbard, Schweden, Schweiz, Vereinigtes Königreich  |
 
-Beachten Sie, dass Telstra-Anrufe für Office 365 als Add-on nur für Benutzer angezeigt werden, die sich in Australien und den oben aufgeführten Ländern und Regionen befinden, nachdem Sie von Telstra bereitgestellt wurden. Für Benutzer in anderen geografischen Regionen fügen Sie weiterhin Microsoft-Anrufpläne oder direktes Routing hinzu, sofern zutreffend. Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
+Beachten Sie, dass Telstra-Anrufe als Add-on nur für Benutzer angezeigt werden, die sich in Australien und den oben aufgeführten Ländern und Regionen befinden, nachdem Sie von Telstra bereitgestellt wurden. Für Benutzer in anderen geografischen Regionen fügen Sie weiterhin Microsoft-Anrufpläne oder direktes Routing hinzu, sofern zutreffend. Weitere Informationen finden Sie unter [Telstra-Anrufe](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

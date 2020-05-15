@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dänemark verfügbar sind.
-ms.openlocfilehash: e3c37c969cfca750637e7ad5aa4539f6ec140083
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dänemark verfügbar sind.
+ms.openlocfilehash: 983e21ca86e135678fca4b293d9e223d73a47589
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695230"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230293"
 ---
 # <a name="availability-in-denmark"></a>Verfügbarkeit in Dänemark
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dänemark verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dänemark verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

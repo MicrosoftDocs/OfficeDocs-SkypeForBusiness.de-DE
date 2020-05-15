@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Spanien verfügbar sind.
-ms.openlocfilehash: 72b21aa8c889eeae289f903300d3123e137941d9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Spanien verfügbar sind.
+ms.openlocfilehash: c05ae855f7c51ab5d4a4618fb5c7934d56d2590f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683548"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230703"
 ---
 # <a name="availability-in-spain"></a>Verfügbarkeit in Spanien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Spanien verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Spanien verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

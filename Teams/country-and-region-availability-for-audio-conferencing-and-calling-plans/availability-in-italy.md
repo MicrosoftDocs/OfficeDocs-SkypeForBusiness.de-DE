@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Italien verfügbar sind.
-ms.openlocfilehash: 982dac5989c66f743df1c0e1dca41e2c34ae4d7e
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Italien verfügbar sind.
+ms.openlocfilehash: b768830a77a14538a33e58a8cfbe9a99bfed52f2
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853290"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44229193"
 ---
 # <a name="availability-in-italy"></a>Verfügbarkeit in Italien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Italien verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Italien verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -61,9 +61,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn keine Anrufpläne für den Kauf verfügbar sind, sollten Sie die [direkte Weiterleitung von Telefonsystemen](../direct-routing-landing-page.md)in Frage stellen. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
+Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

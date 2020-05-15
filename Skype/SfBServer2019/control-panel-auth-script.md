@@ -1,5 +1,5 @@
 ---
-title: Authentifizierungsskript für Skype for Business Server 2019 Control Panel
+title: Skype for Business Server 2019-Authentifizierungsskript für die Systemsteuerung
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Hilfsprogramm-Skript zum Konfigurieren der SFB 2019 Control Panel-Authentifizierung mit Office 365 über das OAuth-Protokoll..
-ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Hilfsprogramm-Skript zum Konfigurieren der SFB 2019-System Steuerungs Authentifizierung mit Microsoft 365 oder Office 365 über OAuth-Protokoll.
+ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887724"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232596"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Authentifizierungsskript für Skype for Business Server 2019 Control Panel
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype for Business Server 2019-Authentifizierungsskript für die Systemsteuerung
 
-Dieses Skript sollte nach der Installation von Skype for Business Server 2019 Kumulatives Update 1 im Rahmen der Einrichtung des neuen Control Panels ausgeführt werden. Mit diesem Skript wird eine Azure AD-Anwendung auf Azure erstellt. Dies hilft bei der Anmeldung bei Office 365 mithilfe von OAuth im neuen Control Panel.
+Dieses Skript sollte nach der Installation von Skype for Business Server 2019 Kumulatives Update 1 als Teil der Einrichtung für die neue Systemsteuerung ausgeführt werden. Mit diesem Skript wird eine Azure AD Anwendung in Azure erstellt. Dies hilft bei der Anmeldung bei Microsoft 365 oder Office 365 mithilfe von OAuth in der neuen Systemsteuerung.
 
 ```powershell
 <#
  .SYNOPSIS
- Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.
+ Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol.
 
  .DESCRIPTION
  Copyright (c) Microsoft Corporation. All rights reserved.

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Irland verfügbar sind.
-ms.openlocfilehash: 461e51f6844e9ac3fbc6deea2da9342b85a6a49c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Irland verfügbar sind.
+ms.openlocfilehash: 58b8f0de840d4d245320ef7596f6966f4347ca8a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683818"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231124"
 ---
 # <a name="availability-in-ireland"></a>Verfügbarkeit in Irland
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Irland verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Irland verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

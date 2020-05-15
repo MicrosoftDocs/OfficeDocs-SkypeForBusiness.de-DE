@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137335"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232586"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
 
@@ -123,7 +123,7 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 |**Deployment**| | | |
 | First Tenant Id  | Zeichenfolge  | Office 365-Mandanten-ID für den ersten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000 -0000-0000 – 000000000000  | <br/>&bull;Die Mandanten-ID für den ersten Endpunkt konnte nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
 | Second Tenant Id  | String  | Office 365-Mandanten-ID für den zweiten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000-0000-0000 – 000000000000  |  <br/>&bull;Die Mandanten-ID für den zweiten Endpunkt konnte nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
-| First Pool  | String  | Zum ersten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** pool1<span></span>. lync<span></span>. com  | <br/>&bull;Gibt an, dass der Endpunkt bei einem Microsoft Teams oder Skype for Business angemeldet wurde. Dieses Feld wird nur für Datenströme aufgefüllt, die lokale Skype for Business Server-Bereitstellungen verwenden. |
+| First Pool  | String  | Zum ersten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** pool1 <span></span> . lync <span></span> . com  | <br/>&bull;Gibt an, dass der Endpunkt bei einem Microsoft Teams oder Skype for Business angemeldet wurde. Dieses Feld wird nur für Datenströme aufgefüllt, die lokale Skype for Business Server-Bereitstellungen verwenden. |
 | Second Pool  | String  | Zum zweiten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** <span>pool1.lync.com</span>   | &bull;Der Skype for Business Online-Pool konnte für den zweiten Endpunkt nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
 | Is Federated  | Boolean  | True, wenn Datenströme zwischen zwei Federated-Mandanten liegen, andernfalls false.   | <br/>&bull;Es konnte nicht ermittelt werden, ob es sich um einen Verbund Datenstrom gehandelt hat. <br/>&bull;Einige Signalisierungsdaten wurden nicht erfasst.   |
 |Region | String   |  Der Bereich, in dem sich die Bereitstellung basierend auf dem Startbereich des Mandanten befand. <br/> **Beispielwert:** Nordamerika | <br/>&bull;Netzwerkdaten nicht gemeldet <br/>&bull;Das Netzwerk befindet sich nicht im Unternehmensnetzwerk <br/>&bull;Für das Netzwerk ist keine Region in Subnet-Mapping-Daten definiert. |
@@ -163,8 +163,8 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | Full Month  | Datum/Uhrzeit  | Ganzer Monat des Endes des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet. <br/> **Beispielwert:** 2017-02-01T00:00:00 | |
 |Startzeitpunkt|String  |Tageszeit, zu der der Anruf gestartet wurde.|&bull;Anrufeinrichtung fehlgeschlagen |
 |**UserAgent** | | |
-| First Domain  | String  | Die Domäne des Benutzers des ersten Endpunkts. Wenn es sich bei dem ersten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Organisators der Besprechung verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein.  <br/> **Beispielwert:** Contoso<span></span>. com | |
-| Second Domain  | String  | Die Domäne des Benutzers des zweiten Endpunkts. Wenn es sich bei dem zweiten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Organisators der Besprechung verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein. <br/> **Beispielwert:** Contoso<span></span>. com  | |
+| First Domain  | String  | Die Domäne des Benutzers des ersten Endpunkts. Wenn es sich bei dem ersten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Organisators der Besprechung verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein.  <br/> **Beispielwert:** Contoso <span></span> . com | |
+| Second Domain  | String  | Die Domäne des Benutzers des zweiten Endpunkts. Wenn es sich bei dem zweiten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Organisators der Besprechung verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein. <br/> **Beispielwert:** Contoso <span></span> . com  | |
 | First User Agent Category  | String  | Kategorie des Benutzer-Agenten für den ersten Endpunkt. <br/> **Beispielwert:** OC | &bull;Ein Benutzer-Agent hat derzeit keine Zuordnung    |
 | Second User Agent Category  | String  | Kategorie des Benutzer-Agenten für den zweiten Endpunkt. <br/> **Beispielwert:** OC | &bull;Ein Benutzer-Agent hat derzeit keine Zuordnung    |
 | First User Agent  | String  | Benutzer-Agent-Zeichenfolge für den ersten Endpunkt. <br/> **Beispielwert:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Kein Benutzer-Agent vom ersten Endpunkt gemeldet   |
@@ -243,8 +243,8 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | Zweiter Wi-Fi-Kanal  | String  | Name des vom zweiten Endpunkt verwendeten WLAN-Kanals. <br/> **Beispielwert:** 10  | <br/>&bull;WLAN wurde nicht verwendet <br/>&bull;Der Kanal wurde nicht gemeldet  |
 | Erster Wi-Fi-Radio-Typ  | Zeichenfolge  | Typ des vom ersten Endpunkt verwendeten WLAN-Radios, HRDSSS entspricht 802.11b.<br/> **Beispielwert:** 802.11 AC  | <br/>&bull;WLAN wurde nicht verwendet <br/>&bull;Der WLAN-Typ wurde nicht gemeldet  |
 | Zweiter Wi-Fi-Radio-Typ  | String  | Typ des vom zweiten Endpunkt verwendeten WLAN-Radios, HRDSSS entspricht 802.11b.<br/> **Beispielwert:** 802.11 AC  | <br/>&bull;WLAN wurde nicht verwendet <br/>&bull;Der WLAN-Typ wurde nicht gemeldet  |
-| First DNS Suffix  | Zeichenfolge  | Das vom ersten Endpunkt angegebene mit dem Netzwerkadapter verbundene DNS-Suffix. Beachten Sie, dass dieser Wert für einen beliebigen Netzwerkadaptertyp angegeben werden kann. **Beispielwert:** Corp<span></span>. contoso<span></span>. com  | <br/>&bull;Dieser Wert wurde vom Endpunkt nicht gemeldet. <br/>  |
-| Second DNS Suffix  | Zeichenfolge  | Das vom zweiten Endpunkt angegebene mit dem Netzwerkadapter verbundene DNS-Suffix. Beachten Sie, dass dieser Wert für einen beliebigen Netzwerkadaptertyp angegeben werden kann.<br/> **Beispielwert:** Corp<span></span>. contoso<span></span>. com   | <br/>&bull;Dieser Wert wurde vom Endpunkt nicht gemeldet.  |
+| First DNS Suffix  | Zeichenfolge  | Das vom ersten Endpunkt angegebene mit dem Netzwerkadapter verbundene DNS-Suffix. Beachten Sie, dass dieser Wert für einen beliebigen Netzwerkadaptertyp angegeben werden kann. **Beispielwert:** Corp <span></span> . contoso <span></span> . com  | <br/>&bull;Dieser Wert wurde vom Endpunkt nicht gemeldet. <br/>  |
+| Second DNS Suffix  | Zeichenfolge  | Das vom zweiten Endpunkt angegebene mit dem Netzwerkadapter verbundene DNS-Suffix. Beachten Sie, dass dieser Wert für einen beliebigen Netzwerkadaptertyp angegeben werden kann.<br/> **Beispielwert:** Corp <span></span> . contoso <span></span> . com   | <br/>&bull;Dieser Wert wurde vom Endpunkt nicht gemeldet.  |
 | Erstes Wi-Fi-Band  | String  | Das verwendete WLAN-Band, wie vom ersten Endpunkt angegeben. <br/> **Beispielwert:** 5,0 GHz  | <br/>&bull;Der Wert wurde nicht vom Endpunkt berechnet. <br/>&bull;Der Wert wurde nicht gemeldet.  |
 | Zweites Wi-Fi-Band  | String  | Das verwendete WLAN-Band, wie vom zweiten Endpunkt angegeben. <br/> **Beispielwert:** 5,0 GHz  | <br/>&bull;Der Wert wurde nicht vom Endpunkt berechnet. <br/>&bull;Der Wert wurde nicht gemeldet.  |
 | Erste Wi-Fi-Signal Stärke  | String  | WLAN-Signalstärke in Prozent [0-100], die vom ersten Endpunkt gemeldet wurde. <br/> **Beispielwert:** 081: [90-100)  | <br/>&bull;Der Wert wurde nicht vom Endpunkt berechnet. <br/>&bull;Der Wert wurde nicht gemeldet.  |
@@ -455,7 +455,7 @@ Boolesche Werte sind immer entweder "wahr" oder "falsch". In einigen Fällen kan
 
 Dimensionen, die als Bereich oder Gruppe von Werten bereitgestellt werden, werden in folgendem Format angezeigt:
 
- _\<Sortierreihenfolge-\> Zeichen\<Folge [unter\> - \<Grenze inklusive Obergrenze Exclusive\>_
+ _\<Sortierreihenfolge-Zeichenfolge \> [ \< Untergrenze inklusive \>  -  \< Obergrenze Exclusive\>_
 
 Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunden an, wobei der Wert als Bereich von Werten erfasst wird.
 
@@ -467,7 +467,7 @@ Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunde
 |066: [3 – 4) |3 Minuten < = Dauer des Datenstroms < 4 Minuten |
 |  | |
 
-Die \<Zeichenfolge für die Sortierreihenfolge> wird verwendet, um die Sortierreihenfolge beim darstellen der Daten zu steuern und für die Filterung verwendet werden kann. Beispielsweise würde ein Filter für Dauer (Minuten) < "065" Datenströme mit einer Dauer von weniger als 2 Minuten anzeigen (das führende "0" wird benötigt, damit der Filter wie erwartet funktioniert).
+Die \< Zeichenfolge für die Sortierreihenfolge> wird verwendet, um die Sortierreihenfolge beim darstellen der Daten zu steuern und für die Filterung verwendet werden kann. Beispielsweise würde ein Filter für Dauer (Minuten) < "065" Datenströme mit einer Dauer von weniger als 2 Minuten anzeigen (das führende "0" wird benötigt, damit der Filter wie erwartet funktioniert).
 
 > [!NOTE]
 > Der aktuelle Wert der Sortierreihenfolge-Zeichenfolge ist unerheblich.
@@ -480,7 +480,7 @@ Zeichenfolgen, die von CQD verwendet werden, werden häufig aus Datendateien abg
 
 Dimensionen, die als Aufzählungspaar bereitgestellt werden, werden in folgendem Format angezeigt:
 
- _\<Enumerationswert von einem Endpunkt:\> \<Enumerationswert des anderen Endpunkts\>_
+ _\<Enumerationswert von einem Endpunkt \> : \< Enumerationswert des anderen Endpunkts\>_
 
 Die Anordnung der Aufzahlungswerte ist konsistent, gibt jedoch nicht die Anordnung des ersten oder zweiten Endpunkts wieder.
 
@@ -499,7 +499,7 @@ In der Tabelle oben werden die möglichen Ursachen für eine leere Dimension auf
 
 ## <a name="measurements"></a>Messungen
 
-Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Tabelle sind die derzeit in CQD verfügbaren Maße aufgeführt, die in der im Abfrage-Editor aufgelisteten Reihenfolge angezeigt werden:
+Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Tabelle sind die derzeit in CQD verfügbaren Maße aufgeführt, die in der im Abfrage-Editor aufgelisteten Reihenfolge angezeigt werden.
 
 |Name der Kennzahl |Einheiten |Beschreibung |
 |:--- |:--- |:--- |
@@ -511,7 +511,7 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |Total Media Succeeded Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, für die der Medienpfad erstellt und normal beendet wurde. |
 |Total Call Setup Succeeded Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, für die der Medienpfad zwischen den Endpunkten am Anfang des Anrufs erstellt werden konnte.|
 |Total Call Setup Failure Percentage |Prozentsatz |Prozentsatz aller Datenströme, für die der Medienpfad zwischen den Endpunkten am Anfang des Anrufs nicht erstellt werden konnte. |
-|Total Call Dropped Failure Percentage |Prozentsatz |Prozentsatz der erfolgreich festgelegten Datenströme, bei denen der Medienpfad nicht normal beendet wurde. | Anzahl der kurzfristigen Anrufe insgesamt
+|Total Call Dropped Failure Percentage |Prozentsatz |Prozentsatz der erfolgreich festgelegten Datenströme, bei denen der Medienpfad nicht normal beendet wurde.| 
 |Total Answer Seizure Ratio |Verhältnis |Verhältnis der Anrufe mit einer Dauer unter 5 Sekunden für die Gesamtzahl der Anrufe. |
 |Total Short Call Percentage |Prozent |Prozentsatz der Gesamtzahl der Anrufe, die weniger als 1 Minute dauern. |
 |Total Media Failure Percentage |Prozent |Prozentsatz aller Datenströme, für die der Medienpfad nicht erstellt oder nicht normal beendet werden konnte. |
@@ -521,8 +521,8 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |Firewall IP Blocked Media Failure Percentage |Prozent |Prozentsatz der Datenströme, die nicht ermittelt werden konnten, weil Netzwerkgeräte den Zugriff auf Skype for Business-Server blockierten. Diese Fehler deuten in der Regel darauf hin, dass ein Proxy, eine Firewall oder ein anderes Netzwerksicherheitsgerät nicht ordnungsgemäß für den Zugriff auf die IP-Adresse und die Ports konfiguriert ist, die von Skype for Business in Office 365 verwendet werden. |
 | Medienfehler aufgrund einer anderen Datenstromanzahl|Anzahl der Datenströme| Die Anzahl der Datenströme, bei denen der Medienpfad zwischen den Endpunkten aufgrund eines unbestimmten/nicht klassifizierten Grunds nicht hergestellt werden konnte.| |
 | Anderer Medienfehler Prozentsatz|Prozent| Der Prozentsatz der Datenströme, bei denen der Medienpfad zwischen den Endpunkten aufgrund eines unbestimmten/nicht klassifizierten Grunds nicht hergestellt werden konnte. ||
-| Gesamtanzahl der verfügbaren CdR-Anrufe|Anzahl der Datenströme|Gesamtzahl der Mediendatenströme mit verfügbaren Informationen zur Zuverlässigkeit/Diagnose.|
-| Gesamtzahl der Anruf Anzahl für Medienfehler|Anzahl der Datenströme|Die Anzahl der Datenströme, bei denen der Medienpfad zwischen den Endpunkten nicht hergestellt werden konnte.|
+| Gesamtanzahl der verfügbaren CdR-Anrufe|Anzahl der Datenströme|Gesamtzahl der Mediendatenströme mit verfügbaren Informationen zur Zuverlässigkeit/Diagnose. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+| Gesamtzahl der Anruf Anzahl für Medienfehler|Anzahl der Datenströme|Die Anzahl der Datenströme, bei denen der Medienpfad zwischen den Endpunkten nicht hergestellt werden konnte. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
 |Audio Stream Count |Anzahl der Datenströme |Anzahl der Audiodatenströme. |
 |Audio Poor Stream Count |Anzahl der Datenströme |Anzahl der Audiostreams, die als "schlecht" klassifiziert wurden, basierend auf den hier aufgelisteten Netzwerk Metriken: [Stream-Klassifizierung im Dashboard für Anrufqualität](stream-classification-in-call-quality-dashboard.md) |
  |Audio Good Stream Count |Anzahl der Datenströme |Anzahl der Audiostreams, die basierend auf den hier aufgelisteten Netzwerk Metriken als "gut" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md) |
@@ -543,11 +543,11 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |Audio Poor Call Stream Count |Anzahl der Datenströme |Die Anzahl der Audiostreams, bei denen mindestens ein Audiostream im Anruf (Anruf-Leg) basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurde: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |Audio Unclassified Call Stream Count |Anzahl der Datenströme |Die Anzahl der Audiostreams, bei denen beide Audiostreams im Anruf (Anruf-Leg) aufgrund fehlender Netzwerk Metriken nicht klassifiziert werden konnten. |
 |Schlechte Lautstärke des Anrufs, Prozentsatz |Prozent |Prozentsatz aller Audiodaten Ströme, bei denen mindestens ein Audiostream im Anruf (Anruf-Leg) basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurde: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
-| Anzahl der Audio-Anrufe | Zahl |Die Anzahl von Anrufen mit Audio.| |
-| Anruf Anzahl für schlechte Audioqualität|Zahl  |Die Anzahl von anrufen, bei denen Audio als "schlecht" klassifiziert wurde.|
-| Gute Audio-Anruf Anzahl |Anzahl der Anrufe|Die Anzahl der Anrufe, bei denen Audio als "gut" klassifiziert ist.|
-| Nicht klassifizierte Anruf Anzahl |Anzahl der Anrufe|Die Anzahl von Anrufen mit Audio, die nicht als "gut" oder "schlecht" klassifiziert werden können.|
-| Audio Poor Call Percentage |Prozentsatz der Anrufe|Prozentsatz der Anrufe, bei denen Audio als "schlecht" klassifiziert wurde.|
+| Anzahl der Audio-Anrufe | Zahl |Die Anzahl von Anrufen mit Audio. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+| Anruf Anzahl für schlechte Audioqualität|Zahl  |Die Anzahl von anrufen, bei denen Audio als "schlecht" klassifiziert wurde. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+| Gute Audio-Anruf Anzahl |Anzahl der Anrufe|Die Anzahl der Anrufe, bei denen Audio als "gut" klassifiziert ist. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten unter Hinweise.|
+| Nicht klassifizierte Anruf Anzahl |Anzahl der Anrufe|Die Anzahl von Anrufen mit Audio, die nicht als "gut" oder "schlecht" klassifiziert werden können. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+| Audio Poor Call Percentage |Prozentsatz der Anrufe|Prozentsatz der Anrufe, bei denen Audio als "schlecht" klassifiziert wurde. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
 |AppSharing Stream Count |Anzahl der Datenströme |Die Anzahl der RDP-basierten Anwendungsfreigabe Datenströme. |
 |Qualifizierte Anwendungsfreigabe aufgrund der SpoiledTilePercentTotal-Anzahl schlecht |Anzahl der Datenströme |Die Anzahl der Anwendungsfreigabe Datenströme, bei denen die Gesamt Metrik des verdorbenen Kachel Prozentsatzes die hier aufgelisteten Schwellenwerte überschreitet: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |AppSharing Poor Due To RelativeOneWayAverage Count |Anzahl der Datenströme |Die Anzahl der Anwendungsfreigabe Datenströme, bei denen die Gesamt Metrik des verdorbenen Kachel Prozentsatzes die hier aufgelisteten Schwellenwerte überschreitet: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
@@ -555,7 +555,7 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |AppSharing Poor Stream Count |Anzahl der Datenströme |Anzahl der Anwendungsfreigabe Datenströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |AppSharing Good Stream Count |Anzahl der Datenströme |Anzahl der Anwendungsfreigabe Datenströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "gut" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |AppSharing Unclassified Stream Count |Anzahl der Datenströme |Die Anzahl der Anwendungsfreigabe Datenströme, die nicht genügend Daten aufweisen, um basierend auf den hier aufgelisteten Netzwerk Metriken als "gut" oder "schlecht" klassifiziert zu werden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
-|AppSharing Poor Percentage |Prozent |Prozentsatz der gesamten Anwendungsfreigabe Datenströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
+|AppSharing Poor Percentage |Prozentsatz |Prozentsatz der gesamten Anwendungsfreigabe Datenströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |Video Stream Count |Anzahl der Datenströme |Anzahl der Videodatenströme. |
 |Video Poor Due To VideoPostFecplr Count |Anzahl der Datenströme |Die Anzahl der Videodatenströme, bei denen der Videobeitrag FEC PLR die hier aufgelisteten Schwellenwerte überschreitet: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |Schlechtes Video aufgrund VideoLocalFrameLossPercentageAvg Anzahl |Anzahl der Datenströme |Die Anzahl der Videodatenströme, bei denen der Prozentsatz des lokalen Video-Frames-Verlusts den hier aufgelisteten Schwellenwert überschreitet: [Datenstrom Klassifizierung im Dashboard für Anrufqualität](stream-classification-in-call-quality-dashboard.md) |
@@ -573,7 +573,7 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |VBSS Poor Stream Count |Anzahl der Datenströme |Anzahl der videobasierten Datenströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |VBSS Good Stream Count |Anzahl der Datenströme |Anzahl der videobasierten Datenströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "gut" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |VBSS Unclassified Stream Count |Anzahl der Datenströme |Anzahl der Datenströme auf videobasierter Bildschirmübertragung, die nicht genügend Daten aufweisen, um basierend auf den hier aufgelisteten Netzwerk Metriken als "gut" oder "schlecht" klassifiziert zu werden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
-|VBSS Poor Percentage |Prozentsatz |Prozentsatz der gesamten videobasierten Freigabedaten Ströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
+|VBSS Poor Percentage |Prozent |Prozentsatz der gesamten videobasierten Freigabedaten Ströme, die basierend auf den hier aufgelisteten Netzwerk Metriken als "schlecht" klassifiziert wurden: [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md). |
 |Avg Call Duration |Sekunden |Durchschnittl. Dauer der Datenströme in Sekunden. |
 |First Feedback Rating Avg |Benutzerbewertung (1-5) |Durchschnittliche Bewertung der Datenströme, die von dem Benutzer angegeben wurden, der den ersten Endpunkt verwendet hat. Anrufe werden von 1 bis 5 bewertet, und die Bewertung wird auf alle Datenströme des Anrufs angewendet. |
 |Second Feedback Rating Avg |Benutzerbewertung (1-5) |Durchschnittliche Bewertung der Datenströme, die von dem Benutzer angegeben wurden, der den zweiten Endpunkt verwendet hat. Anrufe werden von 1 bis 5 bewertet, und die Bewertung wird auf alle Datenströme des Anrufs angewendet. |
@@ -645,7 +645,7 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 | Durchschnittliche relative OneWay-Lücken Dauer|Zahl (Millisekunden)|Durchschnittliche Dauer von Lücken in der relativen unidirektionalen Verzögerung des Peers.| |
 |AVG Audio Post FECPLR |Verhältnis |Der Mittelwert der Paketverlustrate, nachdem FEC für alle Audiostreams und-Codecs für Streams auf aggregierte angewendet wurde. |
 |Avg Video Post FECPLR |Verhältnis |Durchschnitt der Paketverlustrate nach Anwendung von FEC auf alle Videodatenströme und -codecs für Datenströme. |
-|Avg Video Local Frame Loss Percentage |Prozentsatz |Durchschnittlicher Prozentsatz der verlorenen Videoframes, der dem Benutzer für Datenströme angezeigt wird. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames. |
+|Avg Video Local Frame Loss Percentage |Prozent |Durchschnittlicher Prozentsatz der verlorenen Videoframes, der dem Benutzer für Datenströme angezeigt wird. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames. |
  |Durchschnittlicher Frame-Rate des AVG-Video Empfangs |Frames pro Sekunde |Durchschnitt der durchschnittlichen Frames pro Sekunde, die für alle über die Dauer einer Sitzung berechneten Datenströme empfangen wurden. |
  |Avg Video Low Frame Rate Call Percent |Prozentsatz |Prozentsatz im Durchschnitt für den Zeitraum des Anrufs, in dem die Framerate weniger als 7,5 Frames pro Sekunde für Datenströme betragen hat. |
 |Avg Video Packet Loss Rate |Verhältnis |Der Mittelwert des durchschnittlichen Anteils der verlorenen Pakete, wie in [rfc3550 angegeben](https://tools.ietf.org/html/rfc3550)angegeben, berechnet über die Dauer der Sitzung für Streams. |
@@ -662,18 +662,18 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 | Durchschnittliche zweite MIC-glitch-Rate|Anzahl der Störungen|Durchschnittliche zweite MIC-glitch-Rate (Glitches pro 5 Minuten für das Endpunkt Mikrofon) für den Datenstrom. ||
 | Glitch-Rate für AVG First Speaker|Anzahl der Störungen|Durchschnittliche Fehler Rate des ersten Sprechers (Glitches pro 5 Minuten für den Endpunkt Lautsprecher) für den Datenstrom. |
 | Glitch-Rate des zweiten Sprechers von AVG|Anzahl der Störungen|Durchschnittliche Fehler Rate des zweiten Sprechers (Störimpulse pro 5 Minuten für den Endpunkt Lautsprecher) für den Datenstrom. |
-| Anzahl der ersten Benutzer|Zahl | Die Anzahl der eindeutigen oder eindeutigen ersten Endpunktbenutzer.| |
-| Anzahl der zweiten Benutzer|Zahl|Die Anzahl von eindeutigen oder eindeutigen zweiten Endpunktbenutzern.|
+| Anzahl der ersten Benutzer|Zahl | Die Anzahl der eindeutigen oder eindeutigen ersten Endpunktbenutzer. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.| 
+| Anzahl der zweiten Benutzer|Zahl|Die Anzahl von eindeutigen oder eindeutigen zweiten Endpunktbenutzern. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
 | Ereignis Verhältnis von AVG First Device Glitches|Prozent|Durchschnittlicher Bruchteil der Aufrufe, die der erste Endpunkt gefunden hat, Glitches oder Lücken in den wiedergegebenen Medien, die zu schlechter Qualität des gesendeten oder empfangenen Mediums geführt haben.|
 | Durchschnittliches zweites Device Glitches-Ereignis Verhältnis|Prozent|Durchschnittlicher Bruchteil des Anrufs, den der zweite Endpunkt gefunden hat, Glitches oder Lücken in den wiedergegebenen Medien, die zu schlechter Qualität der gesendeten oder empfangenen Medien geführt haben.|
 | Ereignisanzahl für das erste Device-Glitches|Anzahl der Datenströme, bei denen der erste Endpunkt signifikante Fehler oder Lücken in den wiedergegebenen Medien erkannt hat, die zu schlechter Qualität des gesendeten oder empfangenen Mediums geführt haben.||
 | Ereignisanzahl für das zweite Device Glitches|Die Anzahl des Datenstroms, in dem der zweite Endpunkt signifikante Störungen oder Lücken in den wiedergegebenen Medien erkannt hat, die zu schlechter Qualität des gesendeten oder empfangenen Mediums geführt haben.||
-| Anzahl der PSTN-Gesamt Versuche | Anzahl der Anrufe | Gesamtzahl der versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im ausgewählten Zeitraum.|
-|PSTN-Gesamtanzahl der verbundenen Verbindungen | Anzahl der Anrufe | Gesamtzahl der erfolgreich verbundenen Anrufe im ausgewählten Zeitraum.|
-|Anzahl der PSTN-eingehenden Versuche | Anzahl der Anrufe | Gesamtzahl der eingehenden versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im Auswahlzeitraum.|
-|Eingehende PSTN-Verbindung (Anzahl) | Anzahl der Anrufe | Gesamtzahl der eingehenden Anrufe, die im ausgewählten Zeitraum erfolgreich verbunden sind.|
-|Anzahl der PSTN-ausgehenden Versuche | Anzahl der Anrufe | Gesamtzahl der ausgehenden versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im ausgewählten Zeitraum.|
-|Ausgehende PSTN-Verbindung (Anzahl) | Anzahl der Anrufe | Alle ausgehenden, erfolgreich verbundenen Anrufe im ausgewählten Zeitraum.|
+| Anzahl der PSTN-Gesamt Versuche | Anzahl der Anrufe | Gesamtzahl der versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im ausgewählten Zeitraum. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+|PSTN-Gesamtanzahl der verbundenen Verbindungen | Anzahl der Anrufe | Gesamtzahl der erfolgreich verbundenen Anrufe im ausgewählten Zeitraum. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+|Anzahl der PSTN-eingehenden Versuche | Anzahl der Anrufe | Gesamtzahl der eingehenden versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im Auswahlzeitraum. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+|Eingehende PSTN-Verbindung (Anzahl) | Anzahl der Anrufe | Gesamtzahl der eingehenden Anrufe, die im ausgewählten Zeitraum erfolgreich verbunden sind. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+|Anzahl der PSTN-ausgehenden Versuche | Anzahl der Anrufe | Gesamtzahl der ausgehenden versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im ausgewählten Zeitraum. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
+|Ausgehende PSTN-Verbindung (Anzahl) | Anzahl der Anrufe | Alle ausgehenden, erfolgreich verbundenen Anrufe im ausgewählten Zeitraum. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|
 |PSTN-Gesamt Minuten | Minuten | Gesamtzahl der Minuten | Gesamt Minuten Verbrauch im ausgewählten Zeitraum.|
 |PSTN-eingehende Gesamt Minuten | Minuten | Gesamte eingehende Minuten Nutzung im ausgewählten Zeitraum.|
 |PSTN-ausgehende Gesamt Minuten | Minuten | Die gesamte ausgehende Minuten Nutzung im ausgewählten Zeitraum.|
@@ -686,8 +686,13 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |P50-Paketverlust Rate | Prozent | 50% der Anforderungen sollten kleiner als die angegebene Paketverlust Rate sein.|
 |PSTN-ausgehende nach Wahl Verzögerung| Millisekunden | Die Verzögerung, die bei ausgehenden Anrufen auftritt, gemessen ab dem Zeitpunkt, zu dem eine Nummer gewählt wurde, bis der Anrufer oder die angerufene Partei klingelt.|
 |PSTN-eingehende nach Wahl Verzögerung | Millisekunden | Die Zeit oder Verzögerung, die bei eingehenden Anrufen auftritt, gemessen ab dem Zeitpunkt, zu dem eine Nummer gewählt wurde, bis der Anrufer oder angerufene den Anruf hört.|
-|PSTN ner guter Prozentsatz | Prozent | Das ner misst die Fähigkeit eines Netzwerks zur Zustellung von anrufen, indem es die Anzahl der Anrufe im Vergleich zur Anzahl der an einen Empfänger zugestellten Anrufe misst.<br/>NER = (beantwortete Anrufe + Nutzer besetzt + Ring keine Antwort + Terminal Reject Anfälle)/gesamt Versuch Anrufe x 100|
+|PSTN ner guter Prozentsatz | Prozent | Das ner misst die Fähigkeit eines Netzwerks zur Zustellung von anrufen, indem es die Anzahl der Anrufe im Vergleich zur Anzahl der an einen Empfänger zugestellten Anrufe misst.<br/>NER = (beantwortete Anrufe + Benutzer beschäftigt + Ring keine Antwort + Terminal abgewiesene Anfälle)/gesamt Versuch Anrufe x 100. für dieses Measure ist ein Fehler von bis zu 0,2% vorhanden. Weitere Informationen finden Sie unten im Hinweis.|
 ||||
+
+### <a name="notes-on-measurements"></a>Hinweise zu Maßen
+
+#### <a name="accuracy-limitations"></a>Genauigkeitseinschränkungen
+Bestimmte Benutzer-und Anruf Anzahl Messungen basieren auf der Durchführung eines eindeutigen ZÄHLENWENN-Vorgangs für die Datenmenge, um die Anzahl zu berechnen. Der unterschiedliche ZÄHLENWENN-Vorgang ist derzeit mit einem Fehler von bis zu 0,2% verbunden, abhängig von der Anzahl der Zeilen, für die der Vorgang ausgeführt wird. Für die genaueste Lautstärke sollten Sie Datenstromanzahl-Measures verwenden, da diese nicht auf diesen eindeutigen ZÄHLENWENN-Vorgang angewiesen sind. Durch Filtern, um die Datenmenge zu verringern, kann der Fehler reduziert werden, diese Fehlerquelle kann jedoch nicht in unterschiedlichen Anruf-und Nutzerzahlen beseitigt werden. Weitere Informationen zu dieser Einschränkung finden Sie hier [DBANZAHL-Aggregatfunktion](https://docs.microsoft.com/azure/data-explorer/kusto/query/dcount-aggfunction).
 
 ## <a name="filters"></a>Filter
 

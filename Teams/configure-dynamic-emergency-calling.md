@@ -17,18 +17,18 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164554"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232576"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
 Dynamische Notrufe für Microsoft-Anrufpläne und Telefon System Direktes Routing bietet die Möglichkeit, Notrufe zu konfigurieren und zu leiten sowie Sicherheitspersonal entsprechend dem aktuellen Standort des Teams-Clients zu benachrichtigen.  
 
-Basierend auf der Netzwerktopologie, die der mandantenadministrator definiert, bietet der Team-Clientnetzwerk Verbindungsinformationen in einer Anforderung an den Location Information Service (LIS).  Wenn eine Übereinstimmung vorhanden ist, gibt der LIS eine Position an den Client zurück. Diese Standortdaten werden an den Client zurückgesendet.  
+Basierend auf der Netzwerktopologie, die der mandantenadministrator definiert, bietet der Team-Clientnetzwerk Verbindungsinformationen in einer Anforderung an den Location Information Service (LIS). Wenn eine Übereinstimmung vorhanden ist, gibt der LIS eine Position an den Client zurück. Diese Standortdaten werden an den Client zurückgesendet.  
 
 Der Team-Client umfasst Standortdaten im Rahmen eines Notrufs. Diese Daten werden dann vom Notrufdienst Anbieter verwendet, um den entsprechenden öffentlichen Sicherheits Beantwortungs Punkt (PSAP) zu ermitteln und den Anruf an diesen PSAP weiterzuleiten, wodurch der PSAP-Verteiler den Standort des Anrufers abrufen kann.  
 
@@ -57,15 +57,13 @@ Dieser Artikel enthält die folgenden Abschnitte.
 - [Aktivieren von Benutzern und Websites](#enable-users-and-sites)
 - [Testen von Notrufen](#test-emergency-calling)
 
+Die Möglichkeit zur automatischen Weiterleitung an den entsprechenden öffentlichen Sicherheits Beantwortungs Punkt (PSAP) variiert je nach dem Land, in dem der Benutzer des Teams verwendet wird.
 
-Die Möglichkeit zur automatischen Weiterleitung an den entsprechenden öffentlichen Sicherheits Beantwortungs Punkt (PSAP) variiert je nach dem Land, in dem der Benutzer des Teams verwendet wird. 
-
-Weitere Informationen zu Notrufen – einschließlich Informationen zu Notfalladressen und Routing von Notrufen, Informationen zu Ländern und Informationen zu Netzwerkeinstellungen und Netzwerktopologie – finden Sie in den folgenden Themen:
+Weitere Informationen zu Notrufen, einschließlich Informationen zu Notfalladressen und Routing für Notrufe, Informationen zu Ländern sowie Informationen zu Netzwerkeinstellungen und Netzwerktopologie finden Sie unter den folgenden Themen:
 
 - [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Verwalten von Netzwerkeinstellungen für Cloud-Sprachfeatures](cloud-voice-network-settings.md)
 - [Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features](manage-your-network-topology.md)
-
 
 ## <a name="supported-clients"></a>Unterstützte Clients
 
@@ -87,24 +85,24 @@ Azure Maps wird für standortbasierte Dienste verwendet.  Wenn Sie eine Notfalla
 
 - Wenn eine Übereinstimmung gefunden wird, werden die Geo-Codes automatisch berücksichtigt.
 
-- Wenn keine Übereinstimmung gefunden wird, haben Sie die Möglichkeit, eine Notfalladresse manuell zu erstellen. Sie können dazu das Feature "Pin-Ablage" verwenden.   
+- Wenn keine Übereinstimmung gefunden wird, haben Sie die Möglichkeit, eine Notfalladresse manuell zu erstellen. Sie können dazu das Feature "Pin-Ablage" verwenden. 
 
 Wenn ein vorhandener Notfall Standort, der für die Zuweisung zu einem Anruf Plan Benutzer erstellt wurde, für einen dynamischen Standort vorgesehen ist, muss dieselbe Adresse neu erstellt werden, um die Geo-Codes einzubeziehen. Wenn Sie zwischen den beiden Speicherorten unterscheiden möchten, sollten Sie eine andere Beschreibung hinzufügen. Der neue Notfall Standort kann den Benutzern zugewiesen werden, die den alten Standort besitzen. Nach der vollständigen Migration kann der alte Speicherort gelöscht werden.
 
-Weitere Informationen zum Konfigurieren von Notfalladressen finden Sie unter [Hinzufügen eines Notfall Standorts für Ihre Organisation](add-change-remove-emergency-location-organization.md) und [Zuweisen eines Notfall Standorts für den Benutzer](assign-change-emergency-location-user.md).
+Sie können Notfalladressen im Microsoft Teams Admin Center oder mithilfe von PowerShell hinzufügen und zuweisen. Weitere Informationen finden Sie unter [Hinzufügen eines Notfall Standorts für Ihre Organisation](add-change-remove-emergency-location-organization.md) und [Zuweisen eines Notfall Standorts für einen Benutzer](assign-change-emergency-location-user.md).
 
 ## <a name="configure-network-settings"></a>Konfigurieren von Netzwerkeinstellungen
 
 Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu ermitteln und dynamisch Notruf Richtlinien und einen Notfall Standort abzurufen. Sie können die Netzwerkeinstellungen so konfigurieren, wie Ihre Organisation Notrufe tätigen möchte.
 
-Zu den Netzwerkeinstellungen gehören Websites, die eine Sammlung von Subnetzen enthalten – diese werden ausschließlich zur dynamischen Richtlinienzuweisung für Benutzer verwendet.  So kann beispielsweise eine TeamsEmergencyCalling-Richtlinie und eine TeamsEmergencyCallRouting-Richtlinie der "Redmond-Website" zugewiesen werden, damit jeder Benutzer, der von zu Hause oder einem anderen Microsoft-Standort durchwandert, mit Notrufnummern, Routing und Security Desk für Redmond konfiguriert ist.  
+Zu den Netzwerkeinstellungen gehören Websites, die eine Sammlung von Subnetzen enthalten, und diese werden ausschließlich zur dynamischen Richtlinienzuweisung für Benutzer verwendet. So kann beispielsweise eine Notruf Richtlinie und eine Notfall-Anruf Weiterleitungs Richtlinie dem "Redmond-Standort" zugewiesen werden, damit jeder Benutzer, der von zu Hause oder einem anderen Microsoft-Standort wandert, mit Notrufnummern, Routing und Security Desk für Redmond konfiguriert ist.  
 
 >[!Note]
 >Subnets können auch in Lis definiert werden und können einem Notfall Standort zugeordnet werden.  
 
-Beachten Sie die folgenden Definitionen:
+Beachten Sie die folgenden Definitionen. Weitere Informationen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures](cloud-voice-network-settings.md).
 
-- Vertrauenswürdige IP-Adressen enthalten eine Sammlung der externen Internet-IPS des Unternehmensnetzwerks und werden verwendet, um festzustellen, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet. Der Versuch, eine dynamische Richtlinie oder einen Speicherort abzurufen, wird nur ausgeführt, wenn die externe IP-Adresse des Benutzers einer IP-Adresse in der vertrauenswürdigen IP-Adresse entspricht. Eine Übereinstimmung kann entweder für IPv4-oder IPv6-IP-Adressen erfolgen und hängt vom Format des IP-Pakets ab, das an die Netzwerkeinstellungen gesendet wird.  (Wenn eine öffentliche IP-Adresse sowohl IPv4 als auch IPv6 hat, müssen Sie beide als vertrauenswürdige IP-Adressen hinzufügen.)
+- Vertrauenswürdige IP-Adressen enthalten eine Sammlung der Internet externen IP-Adressen des Unternehmensnetzwerks und werden verwendet, um festzustellen, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet. Der Versuch, eine dynamische Richtlinie oder einen Speicherort zu erhalten, wird nur ausgeführt, wenn die externe IP-Adresse des Benutzers mit einer IP-Adresse in der vertrauenswürdigen IP-Adresse übereinstimmt. Eine Übereinstimmung kann entweder für IPv4-oder IPv6-IP-Adressen erfolgen und hängt vom Format des IP-Pakets ab, das an die Netzwerkeinstellungen gesendet wird.  (Wenn eine öffentliche IP-Adresse sowohl IPv4 als auch IPv6 hat, müssen Sie beide als vertrauenswürdige IP-Adressen hinzufügen.)
 
 - Eine Netzwerkregion enthält verschiedene Netzwerkstandorte. 
 
@@ -112,17 +110,17 @@ Beachten Sie die folgenden Definitionen:
 
 - Ein Netzwerk-Subnetz muss einer bestimmten Netzwerk Website zugeordnet sein. Der Standort eines Clients wird basierend auf dem Netzwerk-Subnetz und der zugehörigen Netzwerk Website bestimmt.  
 
-Weitere Informationen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures](cloud-voice-network-settings.md) und [Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures](manage-your-network-topology.md).
+Sie können Netzwerkeinstellungen im Microsoft Teams Admin Center oder mithilfe von PowerShell konfigurieren. Weitere Informationen finden Sie unter [Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures](manage-your-network-topology.md).
 
 Beachten Sie, dass es einige Zeit dauern kann (bis zu ein paar Stunden), bis einige Änderungen an den Netzwerkeinstellungen (wie einer neuen Adresse, einer Netzwerkkennung usw.) durchgestellt werden und für Teams-Clients verfügbar sind.  
 
 **Für Benutzer von Plan anrufen:**
 
-- Wenn die dynamische Konfiguration von Security Desk-Benachrichtigungen erforderlich ist, müssen Sie sowohl vertrauenswürdige IP-Adressen als auch Netzwerk Websites konfigurieren.
+- Wenn die dynamische Konfiguration von Security Desk-Benachrichtigungen erforderlich ist, müssen Sie vertrauenswürdige IP-Adressen und Netzwerk Websites konfigurieren.
 
-- Wenn nur dynamische Speicherorte erforderlich sind, müssen Sie nur vertrauenswürdige IP-Adressen konfigurieren. 
+- Wenn nur dynamische Speicherorte erforderlich sind, müssen Sie nur vertrauenswürdige IP-Adressen konfigurieren.
 
-- Wenn keines von beiden erforderlich ist, ist die Konfiguration von Netzwerkeinstellungen nicht erforderlich. 
+- Wenn keines dieser beiden Anforderungen erforderlich ist, ist die Konfiguration von Netzwerkeinstellungen nicht erforderlich. 
 
 **Für Direct Routing-Benutzer:**
 
@@ -130,45 +128,53 @@ Beachten Sie, dass es einige Zeit dauern kann (bis zu ein paar Stunden), bis ein
 
 - Wenn nur dynamische Speicherorte erforderlich sind, müssen Sie nur vertrauenswürdige IP-Adressen konfigurieren.
 
-- Wenn keines von beiden erforderlich ist, ist die Konfiguration von Netzwerkeinstellungen nicht erforderlich.
+- Wenn keines dieser beiden Anforderungen erforderlich ist, ist die Konfiguration von Netzwerkeinstellungen nicht erforderlich.
 
 
 ## <a name="configure-location-information-service"></a>Konfigurieren des Standort Informationsdiensts
 
-Ein Team-Client ruft Notfalladressen von den Speicherorten ab, die verschiedenen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Drahtloszugriffspunkte (WAPs) werden unterstützt. Wenn mehrere Speicherorte gefunden werden, hat WAP Vorrang vor Subnetz. (Unterstützung für Ethernet-Switch/-Port ist ausstehend.)
+Ein Team-Client ruft Notfalladressen von den Speicherorten ab, die verschiedenen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Drahtloszugriffspunkte (WAPs) werden unterstützt. (Unterstützung für Ethernet-Switch/-Port ist ausstehend.)
 
-Damit ein Client einen Standort erhält, müssen Sie mit den folgenden Cmdlets den standortinformationsdienst (Information Service, LIS) mit Netzwerkkennungen und Notfall Speicherorten füllen:  
+Damit ein Client einen Standort erhält, müssen Sie den LIS mit Netzwerkkennungen (Subnets, WAPs, Switches, Ports) und Notfall Speicherorten füllen. Sie können dies im Microsoft Teams Admin Center oder mithilfe von PowerShell tun.
 
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-- [Abrufen](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Einrichten](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Entfernen](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [Abrufen](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Einrichten](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Entfernen](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
+1. Wechseln Sie in der linken Navigationsleiste zu **Standorte**  >  **Netzwerke & Standorte**.
+2. Klicken Sie auf die Registerkarte, die die Netzwerk-ID darstellt, die Sie hinzufügen möchten. Klicken Sie beispielsweise auf **Subnets**, **Wi-Fi-Zugriffspunkte**, **Switches**oder **Ports**. Klicken Sie dann auf **Hinzufügen**.
+3. Füllen Sie die Felder aus, fügen Sie einen Notfall Standort hinzu, und klicken Sie dann auf über **nehmen**.
+
+### <a name="using-powershell"></a>Verwendung von PowerShell
+
+Verwenden Sie die folgenden Cmdlets, um dem LIS Ports, Switches, Subnetze und WAPs hinzuzufügen.
+
 - [Abrufen](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps), [Einrichten](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps), [Entfernen](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [Abrufen](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Einrichten](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Entfernen](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps
-) -CsOnlineLisWirelessAccessPoint 
+- [Abrufen](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Einrichten](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Entfernen](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [Abrufen](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps), [Einrichten](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps), [Entfernen](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [Abrufen](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps), [Einrichten](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps), [Entfernen](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
-
->[!Important] 
+>[!Important]
 >Wenn Subnetze als Teil von Netzwerk Websites verwendet werden, müssen Sie im standortinformationsdienst neu definiert werden, um dynamische Speicherorte zu rendern.
-
 
 ## <a name="configure-emergency-policies"></a>Konfigurieren von Notfall Richtlinien
 
-Für die Konfiguration von Notrufen verwenden Sie die folgenden Richtlinien:
+Verwenden Sie die folgenden Richtlinien, um Notrufe zu konfigurieren. Sie können diese Richtlinien im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten.
 
-- **TeamsEmergencyCallRoutingPolicy** – gilt nur für die direkte Weiterleitung. Diese Richtlinie konfiguriert die Notfallnummern, die Masken pro Nummer, falls gewünscht, und die PSTN-Route pro Nummer.  Sie können diese Richtlinie Benutzern, Netzwerk Websites oder beiden zuweisen. (Anrufpläne Teams-Clients werden automatisch für Notrufe mit den Notrufnummern aus dem Land aktiviert, die auf dem Standort der Office 365-Nutzung basieren.)  Sie verwalten diese Richtlinie mithilfe der Cmdlets New-, Sets-und Grant-CsTeamsEmergencyCallRouting. 
+- **Routing Richtlinie für Notrufe** – gilt nur für die direkte Weiterleitung. Diese Richtlinie konfiguriert die Notfallnummern, die Masken pro Nummer, falls gewünscht, und die PSTN-Route pro Nummer.  Sie können diese Richtlinie Benutzern, Netzwerk Websites oder beiden zuweisen. (Anrufpläne Teams-Clients werden automatisch für Notrufe mit den Notrufnummern aus dem Land aktiviert, die auf dem Standort der Office 365-Nutzung basieren.)  Weitere Informationen finden Sie unter [Verwalten von Notfall Anruf-Routing Richtlinien für die direkte Weiterleitung](manage-emergency-call-routing-policies.md).
 
-- **TeamsEmergencyCallingPolicy** – gilt für Anrufplan und direktes Routing. Mit dieser Richtlinie wird die Benachrichtigungsfunktionalität des Security Desk konfiguriert, wenn ein Notfall Anruf durchgeführt wird. Sie können die Personen, die benachrichtigt werden sollen, und deren Benachrichtigung einstellen. So können Sie beispielsweise den Security Desk Ihrer Organisation automatisch benachrichtigen und bei Notrufen abhören.  Diese Richtlinie kann entweder Benutzern oder Netzwerk Websites oder beiden zugewiesen werden. Sie verwalten diese Richtlinie mithilfe der Cmdlets New-, Sets-und Grant-CsTeamsEmergencyCallingPolicy. 
-
-Weitere Informationen finden Sie unter [Verwalten von Notruf Richtlinien in Teams](manage-emergency-calling-policies.md) und [Verwalten von Notfall Anrufrouting Richtlinien für die direkte Weiterleitung](manage-emergency-call-routing-policies.md).
-
+- **Notfall Anrufrichtlinie** – gilt für Anrufpläne und direktes Routing. Mit dieser Richtlinie wird die Benachrichtigungsfunktionalität des Security Desk konfiguriert, wenn ein Notfall Anruf durchgeführt wird. Sie können die Personen, die benachrichtigt werden sollen, und deren Benachrichtigung einstellen. So können Sie beispielsweise den Security Desk Ihrer Organisation automatisch benachrichtigen und bei Notrufen abhören.  Diese Richtlinie kann entweder Benutzern oder Netzwerk Websites oder beiden zugewiesen werden. Weitere Informationen finden Sie unter [Verwalten von Notruf Richtlinien in Teams](manage-emergency-calling-policies.md).
 
 ## <a name="enable-users-and-sites"></a>Aktivieren von Benutzern und Websites
 
-Sie können Benutzern und Websites **TeamsEmergencyCalling** -und **TeamsEmergencyCallROuting** -Richtlinien zuweisen.  
+Sie können den Benutzern und Websites Notfall Anruf-Routing Richtlinien und Notruf Richtlinien zuweisen. Beachten Sie, dass die Routing Richtlinien für Notfälle nur für die direkte Weiterleitung gelten. (Obwohl es möglich ist, diese Richtlinie einem Anruf Plan Benutzer zuzuweisen, hat die Richtlinie keine Auswirkung.)
 
-Die TeamsEmergencyCallRouting-Richtlinie gilt nur für die direkte Weiterleitung. (Obwohl es möglich ist, diese Richtlinie einem Anruf Plan Benutzer zuzuweisen, hat die Richtlinie keine Auswirkung.)
+Sie weisen Richtlinien im Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter:
 
-Wenn Sie beispielsweise einen bestimmten Benutzer für die Benachrichtigung über das Security Desk aktivieren möchten, verwenden Sie den folgenden Befehl:
+- [Verwalten von Notfall Anruf Weiterleitungsrichtlinien für die direkte Weiterleitung](manage-emergency-call-routing-policies.md)
+- [Verwalten von Notruf Richtlinien in Teams](manage-emergency-calling-policies.md)
+
+Hier finden Sie einige Beispiele für PowerShell.
+
+Verwenden Sie den folgenden Befehl, um einen bestimmten Benutzer für die Benachrichtigung über das Security Desk zu aktivieren:
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
@@ -193,7 +199,6 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 ```
 
 Wenn Sie einer Netzwerk Website und einem Benutzer eine Notruf Richtlinie zugewiesen haben und sich dieser Benutzer an dieser Netzwerk Website befindet, überschreibt die der Netzwerk Website zugewiesene Richtlinie die Richtlinie, die dem Benutzer zugewiesen ist.
-
 
 ## <a name="test-emergency-calling"></a>Testen von Notrufen
 

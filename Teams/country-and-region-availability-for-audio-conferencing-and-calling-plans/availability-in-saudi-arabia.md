@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Saudi-Arabien verfügbar sind.
-ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Saudi-Arabien verfügbar sind.
+ms.openlocfilehash: 01232ae21c0a5a6a442380ebbfb0c587f1b45093
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047834"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231054"
 ---
 # <a name="availability-in-saudi-arabia"></a>Verfügbarkeit in Saudi-Arabien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Saudi-Arabien verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Saudi-Arabien verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

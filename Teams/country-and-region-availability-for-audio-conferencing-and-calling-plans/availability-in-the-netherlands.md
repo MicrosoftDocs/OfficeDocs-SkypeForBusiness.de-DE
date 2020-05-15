@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die in den Niederlanden verfügbar sind.
-ms.openlocfilehash: 81e2d10bb9f01bbb1d3ac5f9eb0534a785f4cfc6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die in den Niederlanden verfügbar sind.
+ms.openlocfilehash: dc8250fd0f40b91489ccf05ce7dc70d8a57af0d8
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683458"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230663"
 ---
 # <a name="availability-in-the-netherlands"></a>Verfügbarkeit in den Niederlanden
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die in den Niederlanden verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die in den Niederlanden verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

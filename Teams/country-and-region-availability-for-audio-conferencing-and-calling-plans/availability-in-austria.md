@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: In Österreich sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: fdb40fdd853053ef2bf159fb6af8199a669ac7ad
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Österreich verfügbar sind.
+ms.openlocfilehash: e106b55f9b0b4f2f20d6e92329cbb8379e37d024
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853940"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231024"
 ---
 # <a name="availability-in-austria"></a>Verfügbarkeit in Österreich
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-In Österreich sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Österreich verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

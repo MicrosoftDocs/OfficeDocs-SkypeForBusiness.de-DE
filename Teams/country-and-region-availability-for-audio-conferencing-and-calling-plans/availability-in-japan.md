@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams für Japan verfügbar.
-ms.openlocfilehash: 97545051e444dc8fda082b99353238dc8eaed71f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Japan verfügbar sind.
+ms.openlocfilehash: e198f4b13ddbeddcd7a20814812148b9016125af
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683788"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44229227"
 ---
 # <a name="availability-in-japan"></a>Verfügbarkeit in Japan
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype for Business und Microsoft Teams für Japan verfügbar.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Japan verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

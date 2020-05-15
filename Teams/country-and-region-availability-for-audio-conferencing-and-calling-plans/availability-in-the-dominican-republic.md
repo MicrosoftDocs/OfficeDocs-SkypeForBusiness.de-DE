@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Dominikanische Republik verfügbar sind.
-ms.openlocfilehash: 8a74c555bf95bea0729b02319d52fc3329448bcd
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Dominikanische Republik verfügbar sind.
+ms.openlocfilehash: e9fe7aae6454ea7355c3cce80e396d6d11dd900b
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852272"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230553"
 ---
 # <a name="availability-in-the-dominican-republic"></a>Verfügbarkeit in der Dominikanischen Republik
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Dominikanische Republik verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Dominikanische Republik verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -61,9 +61,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn keine Anrufpläne für den Kauf verfügbar sind, sollten Sie die [direkte Weiterleitung von Telefonsystemen](../direct-routing-landing-page.md)in Frage stellen. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
+Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

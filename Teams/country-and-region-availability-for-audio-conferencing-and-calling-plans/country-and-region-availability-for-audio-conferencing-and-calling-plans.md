@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Informieren Sie sich, ob Audiokonferenzen, Telefonsysteme, Anrufpläne, Kommunikationsguthaben und gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141058"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230193"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -178,14 +178,14 @@ Weitere Informationen zu Audiokonferenz finden Sie unter [Allgemeine Fragen zu A
 Audiokonferenz enthält die Funktion „*Rückruf*“, mit der andere Personen an einer Einwahlbesprechung teilnehmen können. Mit der Dropdownliste oben können Sie nach dem Land/der Region suchen und ermitteln, ob diese Funktion verfügbar ist.
 
 > [!CAUTION]
-> Ausgehende Anrufe an gebührenfreie oder freie Telefonnummern sind vielleicht nicht möglich, da einige gebührenfreie Telefonnummern nur innerhalb eines bestimmten Landes/einer bestimmten Region oder eines Gebiets innerhalb des Landes/der Region möglich sind. Wenn Sie z. B. aus den USA eine gebührenfreie Telefonnummer in Brasilien anwählen, wird die Verbindung möglicherweise nicht hergestellt, da der Anruf nicht innerhalb von Brasilien oder aus einer bestimmten Region in Brasilien getätigt wurde. Daher kann die Möglichkeit, ausgehende Anrufe an gebührenfreie Telefonnummern zu tätigen, abhängig von den Einschränkungen einer gewählten gebührenfreien Telefonnummer stark variieren. Leider können wir dieses Verhalten in Office 365 nicht steuern, daher können Sie abhängig von der gewählten gebührenfreien Telefonnummer und den Einschränkungen für diese gebührenfreie Telefonnummer unterschiedliche Erfahrungen machen. 
+> Ausgehende Anrufe an gebührenfreie oder freie Telefonnummern sind vielleicht nicht möglich, da einige gebührenfreie Telefonnummern nur innerhalb eines bestimmten Landes/einer bestimmten Region oder eines Gebiets innerhalb des Landes/der Region möglich sind. Wenn Sie z. B. aus den USA eine gebührenfreie Telefonnummer in Brasilien anwählen, wird die Verbindung möglicherweise nicht hergestellt, da der Anruf nicht innerhalb von Brasilien oder aus einer bestimmten Region in Brasilien getätigt wurde. Daher kann die Möglichkeit, ausgehende Anrufe an gebührenfreie Telefonnummern zu tätigen, abhängig von den Einschränkungen einer gewählten gebührenfreien Telefonnummer stark variieren. Leider können wir dieses Verhalten nicht kontrollieren, und infolgedessen können Ihre Erfahrungen je nach gewählter gebührenfreier Rufnummer und den Einschränkungen der gebührenfreien Nummer variieren. 
   
-Ausgehende Anrufe aus einer Besprechung in ein anderes Land/eine andere Region in der Welt, das bzw. die nicht in der Liste unten aufgeführt ist, ist mithilfe von [Office 365-Guthaben für Kommunikationen](../what-are-communications-credits.md) möglich. Für diese Nutzer müssen Sie [Kommunikationsguthaben für Ihre Organisation einrichten](../set-up-communications-credits-for-your-organization.md).
+Das Auswählen von einer Besprechung in ein anderes Land/eine andere Region in der Welt, die unten nicht aufgeführt ist, steht unter Verwendung von [Kommunikationsguthaben](../what-are-communications-credits.md)zur Verfügung. Für diese Nutzer müssen Sie [Kommunikationsguthaben für Ihre Organisation einrichten](../set-up-communications-credits-for-your-organization.md).
   
 ### <a name="phone-system"></a>Telefonsystem
 Mit Telefonsystem können Sie automatische Telefonzentralen und Anrufwarteschleifen (mit gebührenpflichtigen und gebührenfreien Telefonnummern) zur Beantwortung von eingehenden Anrufen in Ihrer Organisation erstellen. Und wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business nutzen, um grundlegende Aufgaben zur Anrufkontrolle durchzuführen. Beispiele sind das Tätigen und Annehmen von Anrufen, das Weiterleiten von Anrufen und das Stummschalten bzw. Aufheben der Stummschaltung für Anrufe. **Telefonsystem**-Benutzer können auf einen Namen in ihrem Adressbuch klicken, und Skype for Business wird diese Person anrufen. Um Anrufe zu tätigen oder anzunehmen, können **Telefonsystem**-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eins der zahlreichen IP-Telefone nutzen, die mit Skype for Business verwendet werden können.
 
-> Die Verfügbarkeit von gebührenpflichtigen Telefonnummern an einigen dieser Standorte kann je nach Lagerbestand zu einem bestimmten Zeitpunkt variieren. Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenz (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen suchen und anfordern. Diese werden als Dienstnummern bezeichnet. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](/microsoftteams/getting-phone-numbers-for-your-users). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
+> Die Verfügbarkeit von gebührenpflichtigen Telefonnummern an einigen dieser Standorte kann je nach Lagerbestand zu einem bestimmten Zeitpunkt variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenz Brücken), automatische Telefonzentralen und Anrufwarteschlangen zu suchen und zu erwerben. Diese werden als Dienstnummern bezeichnet. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](/microsoftteams/getting-phone-numbers-for-your-users). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Preise für das Telefonsystem](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -204,7 +204,7 @@ Informationen zur Lizenzierung finden Sie auch unter [Lizenzierung des Telefonsy
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
-Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenz (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen suchen und anfordern. Diese werden Servicenummern genannt.
+Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenz Brücken), automatische Telefonzentralen und Anrufwarteschlangen zu suchen und zu erwerben. Diese werden Servicenummern genannt.
   
 Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Gebührenpflichtige Servicenummern für diese Standorte können Sie mithilfe des **Skype for Business Admin Center** anfordern.
   

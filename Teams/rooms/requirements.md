@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Informieren Sie sich über die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen, einschließlich der Auswahl des geeigneten Geräts, von Mikrofonen, Lautsprechern, Kameras und Displays.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 098b5e9fd46c52957eecf288962b3f4e212c5b83
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: fcd7f0929c0c5beeccc1148aad7a54515836ee9f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905397"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230823"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -79,7 +79,7 @@ Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsyst
   |Surface Pro </br>(fünfte Generation) |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
   |Surface Pro 4 |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
 
-- Surface Pro-Geräte erfordern eine der folgenden Docking-Station-Optionen zur Befestigung eines Tabletts am Tisch des Besprechungsraums.
+- Surface pro-Geräte erfordern eine der folgenden Optionen für die Docking-Station:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -92,6 +92,8 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |Peripheriegeräte für Microsoft Teams-Räume|Zertifizierte Firmwareversion | Kamera unterstützt die Verwendung von Inhaltskameras|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Der gedrängte IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
+|[Jabra Panacast Kamera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rallye](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |

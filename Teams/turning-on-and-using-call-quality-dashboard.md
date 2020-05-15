@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten.
-ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44226016"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44243571"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -483,13 +483,13 @@ Erstellen Sie detaillierte Berichte in CQD, und Filtern Sie nach Besprechungs-ID
 Die Telemetrie Ruft das Problem nicht unbedingt auf, aber es kann Ihnen helfen, besser zu verstehen, wo ihre Entscheidungen zu suchen sind. Handelt es sich um Netzwerk-, Geräte-, Treiber-oder Firmware-Updates, Verwendung oder Benutzer?
 
 ### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Warum sehe ich eine Abweichung von 0,2% in den Anruf-und Benutzer Zähl Werten für Measures und wie erhalte ich die meisten exakten Volumes? 
-Zum Berechnen der Anzahl von aufrufen und der Anzahl der Benutzer zählen wird ein unterschiedlicher ZÄHLENWENN-Vorgang für den Anruf oder die Benutzer-IDs in der Datengruppe ausgeführt. Bei umfangreichen Datensätzen gibt es einen Fehler inherient von bis zu 0,2% mit dem eindeutigen ZÄHLENWENN Funktionalität. Für die genaueste Lautstärke sollten Sie sich auf die Datenstromanzahl-Measures verlassen, da Sie nicht auf diesen eindeutigen ZÄHLENWENN-Vorgang angewiesen sind. Das Filtern, um die Datenmenge zu verringern, kann den Fehler reduzieren, elimnate diese Fehlerquelle aber möglicherweise nicht in unterschiedlichen Anruf-und Nutzerzahlen. Beziehen Sie sich auf [Dimensionen und Maße, die im Dashboard für die Anrufqualität zur Verfügung stehen](dimensions-and-measures-available-in-call-quality-dashboard.md) , für die Maßnahmen betroffen sind.
+Zum Berechnen der Anzahl von aufrufen und der Anzahl der Benutzer zählen wird ein unterschiedlicher ZÄHLENWENN-Vorgang für den Anruf oder die Benutzer-IDs in der Datengruppe ausgeführt. Bei umfangreichen Datensätzen liegt ein Fehler von bis zu 0,2% vor, der dem unterschiedlichen ZÄHLENWENN-Vorgang inhärent ist. Für die genaueste Lautstärke sollten Sie sich auf die Datenstromanzahl-Measures verlassen, da Sie nicht auf diesen eindeutigen ZÄHLENWENN-Vorgang angewiesen sind. Durch Filtern, um die Datenmenge zu verringern, kann der Fehler reduziert werden, diese Fehlerquelle kann jedoch nicht in unterschiedlichen Anruf-und Nutzerzahlen beseitigt werden. Beziehen Sie sich auf [Dimensionen und Maße, die im Dashboard für die Anrufqualität zur Verfügung stehen](dimensions-and-measures-available-in-call-quality-dashboard.md) , für die Maßnahmen betroffen sind.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Warum sehen meine CQD v2-Berichtsdaten anders aus als die CQD V3-Berichtsdaten? 
 
 Wenn Daten Unterschiede zwischen CQD v2 und V3 angezeigt werden, stellen Sie sicher, dass der Datenabgleich oder die Validierung auf einer "Äpfel-zu-Apfel"-und einer schmalen Ebene erfolgt, nicht auf einer aggregierten Ebene. Wenn Sie beispielsweise beide Berichte für MSIT ' Building 30 ' WiFi Teams-Desktop Client Daten filtern, sollte der Prozentsatz der schlechten Qualität zwischen V2 und V3 identisch sein.
 
-Die CQDv2-Klassifizierung für CallSetup-Fehler wird inly nur für "Audio"-Modalitäten berücksichtigt, in CQDv3 wird diese Klassifizierung für jede Modalität (Audio, Video und qualifizierte Anwendungsfreigabe) und im jeweiligen Modalitäten Datenstrom dargestellt. 
+Die CQDv2-Klassifizierung für CallSetup-Fehler wird nur für "Audio"-Modalitäten berücksichtigt, in CQDv3 diese Klassifizierung für jede Modalität (Audio, Video und qualifizierte Anwendungsfreigabe) erfolgt und im jeweiligen Modalitäten Datenstrom dargestellt wird. 
 
 Für Teams wendet CQDv2 dasselbe Benutzer Feedback auf alle Modalitäten an CQDv3 wendet die Feedback Basis auf die Modalitäten für Teams an.
 

@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Informieren Sie sich über Notrufe, einschließlich Informationen zu Notfalladressen, Routing von Notrufen und dynamischen Notrufen.
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141028"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232546"
 ---
 # <a name="manage-emergency-calling"></a>Verwalten von Notrufen
 
@@ -90,7 +90,7 @@ Wenn der Standort mit der Telefonnummer verbunden sein muss, hängt von dem Land
 
 Dynamische Notrufe für Microsoft-Anrufpläne bieten die Möglichkeit, Notrufe auf der Grundlage des aktuellen Standorts des Teams-Clients zu konfigurieren und zu leiten. Die Möglichkeit zur automatischen Weiterleitung an den entsprechenden öffentlichen Sicherheits-Anrufbeantworter (PSAP) oder zur Benachrichtigung über das Personal von Sicherheitsmitarbeitern variiert je nach dem Land, in dem der Benutzer des Teams verwendet wird.  
 
-Derzeit können nur Benutzer des Anruf Plans in den Vereinigten Staaten dynamische Speicherorte für das Routing von Notrufen wie folgt nutzen:
+Für Benutzer des Anruf Plans wird der dynamische Standort für das Routing von Notrufen nur in den Vereinigten Staaten wie folgt unterstützt. (Informationen zu dynamischen Notrufen und direktem Routing finden Sie unter [Überlegungen für die direkte Weiterleitung](#considerations-for-direct-routing).
 
 - Wenn ein Team-Client für einen USA-Anrufplan-Benutzer dynamisch eine Notfalladresse in den Vereinigten Staaten erwirbt, wird diese Adresse für das Notfall Routing anstelle der registrierten Adresse verwendet, und der Anruf wird automatisch an den PSAP im Servier Bereich der Adresse weitergeleitet.
 

@@ -18,33 +18,42 @@ f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie den Ort für einen Notfall Standort für Benutzer in Ihrer Organisation zuweisen oder ändern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8689c6a578beac3a93fa8ef9214d6c33cd2d071a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d5b13cf5d4b4a0cf22077318e3c2c2196840f66e
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904847"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232466"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Orts eines Notfall Standorts für einen Benutzer
 
 Jede aktive Telefonnummer muss über einen zugehörigen Notfall Standort verfügen, wenn Sie die Telefonnummer einem Benutzer zuweisen. (Sie ordnen die Adresse zu, wenn Sie in Office 365 eine Telefonnummer erhalten oder wenn Sie eine Telefonnummer übertragen.) Wenn Sie die Nummer mit einem Notfall Standort verknüpfen, können Sie auch einen Ort hinzufügen, um eine genauere Position innerhalb eines physikalischen Standorts bereitzustellen. Bei einem Ort kann es sich um den Boden, den Gebäudetrakt oder die Office-Nummer handeln, in der sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Orten für einen bestimmten Notfall Standort haben, und Sie können den Ort ändern, wenn der Benutzer zu einer anderen Niederlassung oder einem anderen Gebäude wechselt. Wenn der Benutzer beispielsweise von Floor 34 auf Floor 35 umzieht.
   
-Informationen dazu, wie Sie Anrufpläne in Office 365 erhalten und wie viel Sie Kosten, finden Sie unter [Lizenzierung von Teams-Add-ons](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Informationen dazu, wie Sie Anrufpläne erhalten und wie viel Sie Kosten, finden Sie unter [Lizenzierung von Teams-Add-ons](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Orts eines Notfall Standorts für einen Benutzer
+Sie können den Ort für einen Notfall Standort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **VoIP** > **-Rufnummern.**
+## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
+
+1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **VoIP**-Rufnummern  >  **Phone numbers**.
+
 2. Wählen Sie auf der Seite **Telefonnummern** eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.
+
 3. Führen Sie im **Bearbeitungs** Bereich unter **Notfall Speicherort**eine der folgenden Aktionen aus:
 
-- Wenn Sie einen Ort zuweisen möchten, suchen Sie nach dem Ort oder Ort, und wählen Sie dann die Stelle in den Suchergebnissen aus.
-- Wenn Sie die Position ändern möchten, die dem Benutzer bereits zugewiesen ist, klicken Sie auf **X** , um die vorhandene Position zu entfernen, suchen Sie nach dem Ort, den Sie zuweisen möchten, und wählen Sie ihn aus.
+    - Wenn Sie einen Ort zuweisen möchten, suchen Sie nach dem Ort oder Ort, und wählen Sie dann die Stelle in den Suchergebnissen aus.
+
+    - Wenn Sie die Position ändern möchten, die dem Benutzer bereits zugewiesen ist, klicken Sie auf **X** , um die vorhandene Position zu entfernen, suchen Sie nach dem Ort, den Sie zuweisen möchten, und wählen Sie ihn aus.
 
 4. Klicken Sie auf **Speichern**.
+
+## <a name="using-powershell"></a>Verwendung von PowerShell
+
+Weitere Informationen finden Sie unter [Satz-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Was sind Notfallstandorte, Orte und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
 - [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
 - [Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer](assign-change-emergency-location-user.md)

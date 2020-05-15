@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Zusammenfassung: in diesem Artikel erfahren Sie, wie konzeptionelle, logische und physische Entwürfe zum Konfigurieren von Skype for Business Server 2019-Features,-Servern und-Topologien entwickelt werden.'
-ms.openlocfilehash: 2948010c99019cbb3329c6770d56ff93fb6b86d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4c7b969c41761441889c5d0963b1a3c6b6b644f7
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129468"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232366"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planen der Skype for Business Server 2019-Bereitstellung
  
@@ -62,4 +62,4 @@ Die folgenden Ressourcen zur Planung von Skype for Business Server werden von an
 |:--- |:--- |:--- |
 |![Symbol für DMC](../media/paragraph_writing.png)| [Skype for Business Server für IT-Experten](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Besuchen Sie docs.Microsoft.com und Ressourcencenter, um auf Videos, Community-Websites, Dokumentationen, Downloads und vieles mehr zuzugreifen.    |
 |![Symbol für Entwickler Inhalte](../media/developer.png)|[Skype-Entwicklerplattform](https://go.microsoft.com/fwlink/?LinkId=619775)   | Hier finden Sie Entwicklerressourcen für Skype for Business Server, einschließlich Codebeispielen, Schulungen und SDKs.    |
-|![Symbol für Nachrichten, Blogs usw.](../media/blog_site.png) | <UL><LI>[Change Management und Adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Office 365 Community: Technischer Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype Team Blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Halten Sie sich mit Neuigkeiten aus den Teams auf dem neuesten Stand, die Skype for Business Server erstellen und dokumentieren.    |
+|![Symbol für Nachrichten, Blogs usw.](../media/blog_site.png) | <UL><LI>[Change Management und Adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 Technical Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype Team Blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Halten Sie sich mit Neuigkeiten aus den Teams auf dem neuesten Stand, die Skype for Business Server erstellen und dokumentieren.    |

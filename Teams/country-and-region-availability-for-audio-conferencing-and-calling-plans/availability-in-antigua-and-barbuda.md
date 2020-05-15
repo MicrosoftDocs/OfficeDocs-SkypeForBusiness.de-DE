@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Antigua und Barbuda verfügbar sind.
-ms.openlocfilehash: 2764e0252c0c62e9fd78470121c507f04e8c7585
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Antigua und Barbuda verfügbar sind.
+ms.openlocfilehash: ac99aa5acb0c3372a59b500ce604d851df811c92
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853920"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230483"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Verfügbarkeit in Antigua und Barbuda
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Antigua und Barbuda verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Antigua und Barbuda verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -60,9 +60,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn keine Anrufpläne für den Kauf verfügbar sind, sollten Sie die [direkte Weiterleitung von Telefonsystemen](../direct-routing-landing-page.md)in Frage stellen. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
+Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Nummern für Dienstleistungen

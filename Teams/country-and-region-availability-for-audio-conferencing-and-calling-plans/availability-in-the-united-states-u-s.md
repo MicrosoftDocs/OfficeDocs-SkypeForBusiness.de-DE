@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
-ms.openlocfilehash: 859f517bf37b47bfaee5676ff4e7045bf61a9c87
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
+ms.openlocfilehash: 1a33ad9909b7caa76acb2b4e042b24aa98cc86f1
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694480"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230333"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind. Weitere Informationen finden Sie unter [erwerben eines Anruf Plans](../calling-plans-for-office-365.md) .
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
