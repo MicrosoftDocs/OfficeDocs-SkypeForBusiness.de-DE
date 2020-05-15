@@ -18,12 +18,12 @@ description: In diesem Artikel erfahren Sie mehr über die Faktoren, die Sie ber
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042852"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224238"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -35,14 +35,16 @@ Jeder kann an einem Liveereignis ohne Lizenz teilnehmen. Lesen Sie [Schnellstart
 
 Die folgenden Voraussetzungen müssen erfüllt sein, damit ein Benutzer ein Teams-Liveereignis planen kann.
 
-Folgende Lizenzen müssen zugewiesen werden:  
+Folgende Lizenzen müssen für die Erstellung oder Vorführung eines Microsoft Teams-Liveereignisses zugewiesen werden:  
 
-- Eine Lizenz für Office 365 Enterprise E1, E3 oder E5 oder eine Lizenz für Office 365 A3 oder A5
-- Eine Lizenz für Microsoft Teams
-- Eine Lizenz für Microsoft Stream
+- Eine Microsoft- oder Office 365 Enterprise E1-, E3- oder E5-Lizenz oder eine Office 365 Education A3 oder A5-Lizenz.
+- Eine Microsoft Teams-Lizenz. - ist in den oben aufgeführten Lizenzen enthalten. 
+- Eine Lizenz für Microsoft Stream ist dann erforderlich, wenn Sie die Inhalte für eine externe App oder ein Gerät freigeben möchten. Informationen hierzu finden Sie unter [Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview). 
 
-> [!IMPORTANT]
-> Der Benutzer, der ein Liveereignis erstellt und plant, muss über ein Exchange Online-Postfach verfügen.
+  Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert wären, sondern in Azure Media Services (AMS), wo sie nach 30 Tagen gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
+
+> [!NOTE]
+> Zurzeit gibt es keine Microsoft 365 Small Business-Pläne, die zum Erstellen und Abhalten von Microsoft Teams-Liveereignissen verwendet werden können.
 
 Es ist wichtig zu wissen, dass eine Office 365-Lizenz erforderlich ist, um an einem Liveereignis als authentifizierter Benutzer teilzunehmen, aber diese Anforderung hängt von der verwendeten Produktionsmethode ab:
 
@@ -81,6 +83,14 @@ Der Benutzer muss Folgendes besitzen:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams-Liveereignisse und Skype Meeting Broadcast
 
 Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunktionen und Features bei Liveereignissen und Skype Meeting Broadcast.
+
+> [!IMPORTANT]
+> **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
+> 
+> Damit Kunden den sich schnell ändernden Kommunikationsbedürfnissen gerecht werden können, wird das Limit für Microsoft 365 Live-Ereignisse vorübergehend bis zum 1. Juli 2020 für Live-Ereignisse in Teams erhöht. Die nachstehenden Erhöhungen werden Ende April 2020 bereitgestellt:
+> - Teilnehmerlimit: Ereignisse können bis zu 20 000 Teilnehmer unterstützen
+> - Gleichzeitige Ereignisse: 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
+> - Ereignisdauer: die Ereignisdauer wurde auf 16 Stunden pro Sendung erhöht
 
 |**Funktion**   |**Skype Meeting Broadcast** |**In Teams produzierte Ereignisse** |**In einer externen App oder auf einem externen Gerät produzierte Ereignisse** |
 |---------|---------|---------|---------|
@@ -123,17 +133,29 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 
 **In diesen regionalen Rechenzentren verfügbar**
 
-- Nord- und Südamerika
+- Nordamerika
+- Mittelamerika
+- Südamerika
 - Asiatisch-pazifischer Raum
 - Europa/Afrika
 
-**Datenspeicherort für diese Länder**
-
+**Datenspeicherort für diese Länder/Regionen (unterstützt)**
 - Australien
 - Kanada
 - Indien
 - Japan
 - Vereinigtes Königreich
+
+**Diese Länder/Regionen und Clouds werden nicht unterstützt**
+- Deutschland
+- Frankreich
+- Norwegen
+- Südafrika
+- Südkorea
+- Schweiz
+- VAE
+- Government Community Cloud (GCC)-H
+- DOD
 
 **Ausschlüsse und Überlegungen**.
 
