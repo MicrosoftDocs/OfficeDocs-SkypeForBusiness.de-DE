@@ -21,12 +21,12 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327997"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256450"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
@@ -47,13 +47,15 @@ Diese Einstellung ist standardmäßig deaktiviert.
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode ist eine blockbasierte Codierungs Plattform, die Computer Science für alle Schüler in den Alltag bringt. 
+Microsoft MakeCode ist eine blockbasierte Codierungs Plattform, die die Computerwissenschaften für alle Kursteilnehmer zum Leben erweckt. 
 
-Hierbei handelt es sich um ein Produkt oder eine Dienstleistung eines Drittanbieters, das seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
+MakeCode ist ein Microsoft-Produkt, das den Microsoft- [Nutzungsbedingungen](https://go.microsoft.com/fwlink/?LinkID=206977) und den [Datenschutz](https://go.microsoft.com/fwlink/?LinkId=521839) Richtlinien unterliegt.
 
-Diese Einstellung ist standardmäßig deaktiviert.
+Diese Einstellung ist standardmäßig deaktiviert. Navigieren Sie zum Aktivieren von MakeCode-Aufgaben in Teams im **Team Admin Center**zum Abschnitt **Aufgaben** , und aktivieren Sie die Option MakeCode-Umschaltfläche **auf ein**. Klicken Sie auf **Speichern** und bis zu 24 Stunden, damit diese Einstellungen wirksam werden.
 
-[Weitere Informationen zu MakeCode](https://www.microsoft.com/makecode)
+Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [Video Demonstration](https://makecode.com/blog/teams/teams-assignments).
+
+[Weitere Informationen zu MakeCode](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin

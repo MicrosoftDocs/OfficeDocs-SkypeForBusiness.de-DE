@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139209"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256500"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -46,7 +46,7 @@ Sie können Richtlinien wie folgt implementieren, die sich auf die Besprechungs 
 Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) erstellt. Allen Benutzern in Ihrer Organisation wird standardmäßig die globale Besprechungsrichtlinie zugewiesen. Sie können entweder Änderungen daran vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und Ihnen Benutzer zuweisen. Benutzer erhalten die globale Richtlinie, es sei denn, Sie erstellen eine benutzerdefinierte Richtlinie und weisen diese zu. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer verfügbar sind, und Sie dann einem oder mehreren Benutzern zuweisen, auf die die Einstellungen angewendet werden.
 
 > [!NOTE]
-> Die Schaltfläche "Besprechungsdetails" steht zur Verfügung, wenn ein Benutzer die Audiokonferenz-Lizenzen aktiviert hat oder wenn der Benutzer eine Audiokonferenz zugelassen hat, wenn dies nicht der Fall ist, sind die Besprechungsdetails nicht verfügbar.
+> Die Schaltfläche "Besprechungsdetails" steht zur Verfügung, wenn ein Benutzer die Audiokonferenz-Lizenzen aktiviert hat oder wenn der Benutzer eine Audiokonferenz zugelassen hat, wenn dies nicht der Fall ist, werden die Besprechungsdetails nicht zur Verfügung stehen.
 
 ## <a name="change-or-create-a-meeting-policy"></a>Ändern oder Erstellen einer Besprechungsrichtlinie
 
@@ -78,7 +78,7 @@ Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweis
 
 Sie können auch die folgenden Schritte ausführen:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu**Besprechungsrichtlinien**für **Besprechungen** > .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungsrichtlinien**für Besprechungen.
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
 3. Wählen Sie **Benutzer verwalten** aus.
 4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
@@ -327,7 +327,7 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, 
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Zulassen, dass anonyme Personen eine Besprechung starten
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob anonyme Personen, einschließlich B2B-und Verbundbenutzern, an der Besprechung des Benutzers teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. 
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob anonyme Personen, einschließlich B2B-und Verbundbenutzern, an der Besprechung des Benutzers teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert lautet "False".
 
 ![Screenshot mit einer Nachricht an einen wartenden Benutzer](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellu
 |---------|---------|
 |**Jeder**   |Alle Besprechungsteilnehmer werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten. Dazu gehören authentifizierte Benutzer, Verbundbenutzer, Gäste, anonyme Benutzer und Personen, die sich per Telefon einwählen.       |
 |**Jeder in Ihrer Organisation und in Verbundorganisationen**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und die Benutzer aus Föderations Organisationen, nehmen direkt an der Besprechung Teil, ohne in der Lobby zu warten.  Anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby.   |
-|**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt Teil, ohne in der Lobby zu warten.  Föderationsbenutzer, anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby.           |
+|**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt Teil, ohne in der Lobby zu warten.  Föderationsbenutzer, anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby. Dies ist die Standardeinstellung.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Zulassen, dass Einwahlbenutzer die Lobby umgehen können
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ".
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ". Der Standardwert lautet "False".
 
 Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
 
@@ -402,6 +402,16 @@ Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellu
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>Besprechungsrichtlinien Einstellungen – Bericht zur Besprechungs Anwesenheit
+
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung wird gesteuert, ob Besprechungsorganisatoren den [Besprechungsanwesenheitsbericht](teams-analytics-and-reports/meeting-attendance-report.md)herunterladen können.
+
+Derzeit können Sie PowerShell nur zum Konfigurieren dieser Richtlinieneinstellung verwenden. Sie können eine vorhandene Team-Besprechungsrichtlinie mithilfe des Cmdlets " [festlegen-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) " bearbeiten. Sie können auch eine neue Team-Besprechungsrichtlinie erstellen, indem Sie das Cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) verwenden und es Benutzern zuweisen.
+
+Um einen Besprechungsorganisator zum Herunterladen des Besprechungs Anwesenheitsberichts zu aktivieren, legen Sie den **AllowEngagementReport** -Parameter auf **Enabled (aktiviert**). Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt.
+
+Um zu verhindern, dass ein Besprechungsorganisator den Bericht herunterlädt, setzen Sie den Parameter auf **disabled**. Diese Einstellung ist standardmäßig deaktiviert, und die Option zum Herunterladen des Berichts steht nicht zur Verfügung.
+
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Nachrichtenrichtlinien in Teams](messaging-policies-in-teams.md)
+- [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)

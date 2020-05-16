@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997186"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256480"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -57,17 +57,21 @@ Keine
 
 ### <a name="considerations"></a>Überlegungen
 
-Eine APP muss offen legen, welche Daten Sie verwendet und wofür die Daten in den Nutzungsbedingungen und den Datenschutzrichtlinien Links verwendet werden.</td>
+- Eine APP muss offen legen, welche Daten Sie verwendet und wofür die Daten in den Nutzungsbedingungen und den Datenschutzrichtlinien Links verwendet werden.
+
+- Die [ressourcenspezifische Zustimmung](resource-specific-consent.md) bietet eine Reihe von Berechtigungen, die apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Genehmigungsberechtigungen finden Sie unter [Diagramm Berechtigungsreferenz](https://docs.microsoft.com/graph/permissions-reference).
+
+- Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Genehmigungsberechtigungen. Nachdem eine APP installiert wurde, kann die APP Graph-Berechtigungen über eine Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes zur Zustimmung zu Azure AD-Anwendungen](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). Sie können API-Berechtigungen und-Zustimmung im Azure-Portal konfigurieren. Weitere Informationen finden Sie unter [Azure Active Directory-Zustimmungs Framework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
 
 ## <a name="bots-and-messaging-extensions"></a>Bots und Messaging-Erweiterungen
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
-- RECEIVE_MESSAGE, REPLYTO_MESSAGE: Der Bot kann Nachrichten von Benutzern empfangen und auf diese antworten.<sup>1</sup>
+- RECEIVE_MESSAGE, REPLYTO_MESSAGE. Der Bot kann Nachrichten von Benutzern empfangen und darauf antworten. <sup>1</sup>
 
-- POST_MESSAGE_USER: Nachdem ein Nutzer eine Nachricht an einen bot gesendet hat, kann der bot dem Nutzer direkte Nachrichten (auch als *proaktive Nachrichten* bezeichnet) senden.
+- POST_MESSAGE_USER. Nachdem ein Nutzer eine Nachricht an einen bot gesendet hat, kann der bot dem Nutzer direkte Nachrichten (auch als *proaktive Nachrichten* bezeichnet) senden.
 
-- GET_CHANNEL_LIST: Bots, die zu Teams hinzugefügt wurden, können eine Liste der Namen und IDs der Kanäle in einem Team abrufen.
+- GET_CHANNEL_LIST. Bots, die zu Teams hinzugefügt wurden, können eine Liste mit Namen und IDs der Kanäle in einem Team erhalten.
 
 ### <a name="optional-permissions"></a>Optionale Berechtigungen
 
@@ -95,13 +99,13 @@ Eine APP muss offen legen, welche Daten Sie verwendet und wofür die Daten in de
 
 - Es ist theoretisch möglich, dass bot-Nachrichten Links zu Phishing-oder Malware-Websites enthalten, aber Bots können vom Benutzer, dem mandantenadministrator oder Global von Microsoft blockiert werden.
 
-- Ein Bot kann sehr einfache Identitätsinformationen für die Teammitglieder, denen die app hinzugefügt wurde, oder für einzelne Benutzer in persönlichen oder Gruppen-Chats abrufen (und möglicherweise speichern). Wenn Sie weitere Informationen zu diesen Benutzern erhalten möchten, muss der bot die Anmeldung bei Azure Active Directory (Azure AD) anfordern.
+- Ein Bot kann sehr einfache Identitätsinformationen für die Teammitglieder, denen die app hinzugefügt wurde, oder für einzelne Benutzer in persönlichen oder Gruppen-Chats abrufen (und möglicherweise speichern). Um weitere Informationen zu diesen Benutzern zu erhalten, muss der bot die Anmeldung bei Azure Active Directory (Azure AD) anfordern.
 
 - Bots können die Liste der Kanäle in einem Team abrufen (und möglicherweise speichern). Diese Daten verlassen das Unternehmensnetzwerk.
 
 - Wenn eine Datei an einen bot gesendet wird, verlässt die Datei das Unternehmensnetzwerk. Für das Senden und empfangen von Dateien ist die Benutzergenehmigung für jede Datei erforderlich. 
 
-- Standardmäßig sind Bots nicht in der Lage, im Namen des Benutzers zu agieren, aber Bots können Nutzer bitten, sich anzumelden. Sobald sich der Benutzer anmeldet, verfügt der bot über ein Zugriffstoken, mit dem er zusätzliche Aufgaben ausführen kann. Genau das, was diese zusätzlichen Dinge sind, hängt vom bot ab und von der Stelle, an der sich der Benutzer anmeldet: https://apps.dev.microsoft.com/ ein Bot ist eine Azure AD-App, die bei registriert ist und über einen eigenen Satz von Berechtigungen verfügen kann.
+- Standardmäßig sind Bots nicht in der Lage, im Namen des Benutzers zu agieren, aber Bots können Nutzer bitten, sich anzumelden. Sobald sich der Benutzer anmeldet, verfügt der bot über ein Zugriffstoken, mit dem er zusätzliche Aufgaben ausführen kann. Genau das, was diese zusätzlichen Dinge sind, hängt vom bot ab und von der Stelle, an der sich der Benutzer anmeldet: ein Bot ist eine Azure AD-App, die bei registriert ist https://apps.dev.microsoft.com/ und über einen eigenen Satz von Berechtigungen verfügen kann.
 
 - Bots werden benachrichtigt, wenn Benutzer zu einem Team hinzugefügt oder daraus gelöscht werden.
 

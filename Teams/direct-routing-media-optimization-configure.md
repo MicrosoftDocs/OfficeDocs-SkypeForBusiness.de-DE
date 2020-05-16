@@ -16,12 +16,12 @@ f1.keywords:
 description: Konfigurieren der lokalen Medienoptimierung für das direkte Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: c3da3cf243b24d0f614c05e9d09eb68796a68545
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047854"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256490"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Konfigurieren der lokalen Medienoptimierung für das direkte Routing
 
@@ -52,7 +52,7 @@ Wenn Sie den Benutzer und die SBC-Websites konfigurieren möchten, müssen Sie F
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>Konfigurieren von SBC (s) für die lokale Medienoptimierung gemäß der SBC-Herstellerspezifikation
 
-In diesem Artikel wird die Konfiguration für Microsoft-Komponenten beschrieben. Informationen zur SBC-Konfiguration finden Sie in Ihrem SBC-Anbieterdokumentation.
+In diesem Artikel wird die Konfiguration für Microsoft-Komponenten beschrieben. Informationen zur SBC-Konfiguration finden Sie in der Dokumentation Ihres SBC-Herstellers.
 
 Die lokale Medienoptimierung wird von den folgenden SBC-Anbietern unterstützt:
 
@@ -228,7 +228,7 @@ Die folgende Tabelle zeigt die Konfiguration und Aktion des Endbenutzers:
 
 | Physischer Standort des Benutzers| Der Benutzer macht oder empfängt einen Anruf an/von der Nummer | Telefonnummer des Benutzers  | Online-VoIP-Routing Richtlinie | Für SBC konfigurierter Modus |
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | + 84 4 3926 3000 | + 84 4 5555 5555   | Priorität 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br> Priorität 2:. *-proxysbc.contoso.com   | VNsbc.contoso.com – immer umgehen <br> proxysbc.contoso.com – immer umgehen
+| Vietnam | + 84 4 3926 3000 | + 84 4 5555 5555   | Priorität 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> Priorität 2:. *-proxysbc.contoso.com   | VNsbc.contoso.com – immer umgehen <br> proxysbc.contoso.com – immer umgehen
 
 
 Das folgende Diagramm zeigt die SIP-Leiter für einen ausgehenden Anruf mit Always Bypass-Modus und den Benutzer am gleichen Speicherort wie der SBC.
@@ -239,7 +239,7 @@ Die folgende Tabelle zeigt die X-MS-Kopfzeilen, die durch Direct Routing gesende
 
 | Parameter | Erklärung |
 |:------------|:-------|
-| Einladen + 8443926300@VNsbc.contoso.com | Der Zielname des SBC, wie er in der Online-VoIP-Routing Richtlinie definiert ist, wird im Anforderungs-URI gesendet | 
+| Einladen + 8443926300@VNsbc.contoso.com | Der Ziel-FQDN des SBC, wie er in der Online-VoIP-Routing Richtlinie definiert ist, wird im Anforderungs-URI gesendet | 
 | X-MS-UserLocation: intern | Das Feld hat angegeben, dass sich der Benutzer im Unternehmensnetzwerk befindet |
 | X-MS-MediaPath: VNsbc.contoso.com |   Gibt an, welche SBC der Client zum Ziel-SBC durchlaufen muss. In diesem Fall, da wir immer Bypass haben und der Client intern ist, wird der Zielname als einziger Name im Header gesendet. | 
 |X-MS-UserSite: Vietnam |   Das Feld, das auf der Website angegeben ist, in der sich der Benutzer befindet. |
@@ -277,7 +277,7 @@ Die folgende Tabelle zeigt die X-MS-Header, die vom Direct Routing-Dienst gesend
 
 | Parameter |   Erklärung |
 |:------------|:-------|
-|Einladen + 8443926300@VNsbc.contoso.com | Der Zielname des SBC, wie er in der Online-VoIP-Routing Richtlinie definiert ist, wird im Anforderungs-URI gesendet.|
+|Einladen + 8443926300@VNsbc.contoso.com | Der Ziel-FQDN des SBC, wie er in der Online-VoIP-Routing Richtlinie definiert ist, wird im Anforderungs-URI gesendet.|
 | X-MS-UserLocation: Extern | Das Feld hat angegeben, dass der Benutzer sich außerhalb des Unternehmensnetzwerks befindet. |
 | X-MS-MediaPath: proxysbc.contoso.com, VNsbc.contoso.com    | Gibt an, welche SBC der Client zum Ziel-SBC durchlaufen muss. In diesem Fall, da wir immer Bypass haben und der Client extern ist. |
 
@@ -309,7 +309,7 @@ Die folgende Tabelle zeigt die Konfiguration und Aktion des Endbenutzers:
 
 | Physischer Standort des Benutzers |  Der Benutzer macht oder empfängt einen Anruf an/von der Nummer |  Telefonnummer des Benutzers | Online-VoIP-Routing Richtlinie |   Für SBC konfigurierter Modus |
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | + 84 4 3926 3000 |  + 84 4 5555 5555 | Priorität 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br> Priorität 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – immer umgehen |
+| Vietnam | + 84 4 3926 3000 |  + 84 4 5555 5555 | Priorität 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> Priorität 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – immer umgehen |
 
 #### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Ausgehende Anrufe und der Benutzer befindet sich am gleichen Speicherort wie der SBC mit nur für lokale Benutzer
 

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902350"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256390"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Verwenden von Aktivitätsberichten für Microsoft Teams 
 ========================================
@@ -32,7 +32,7 @@ Sie können Aktivitätsberichte im Microsoft 365 Admin Center verwenden, um zu s
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>Anzeigen der Teams-Berichte im Dashboard "Berichte"
 
-1. Wählen Sie im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home)die Option **Berichte** > -**Nutzung**aus.
+1. Wählen Sie im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home)die Option **Berichte**-  >  **Nutzung**aus.
  
 2. Wählen Sie auf der Seite **Verwendung** den **Eintrag Bericht auswählen**aus, und wählen Sie dann unter **Microsoft Teams** in der Liste der Berichte den Bericht aus, den Sie anzeigen möchten.
 
@@ -101,7 +101,7 @@ Auf die Aktivitätsberichte kann von Benutzern zugegriffen werden, denen Sie zug
 
 ### <a name="reports-reader-role"></a>Rolle des Berichts Lesers
 
-Sie können die Rolle " *berichtsleser* " den nicht-IT-Mitarbeitern zuweisen, auf die Sie Zugriff auf diese Berichte haben möchten. Durch Zuweisen dieser Rolle zu Schulungsleitern oder Unternehmens Beteiligten können Sie sicherstellen, dass Sie Zugriff auf die Einsichten haben, die hilfreich sind, um die Einführung von Teams zu steuern und zu überwachen.
+Sie können die Rolle " *berichtsleser* " den nicht-IT-Mitarbeitern zuweisen, auf die Sie Zugriff auf diese Berichte haben möchten. Durch Zuweisen dieser Rolle zu Schulungsleitern oder Unternehmens Beteiligten können Sie sicherstellen, dass Sie Zugriff auf die Einsichten haben, die hilfreich sind, um die Einführung von Teams zu steuern und zu überwachen. Informationen zum Zuweisen von Rollen finden Sie unter [Zuweisen von Administrator-und Administratorrollen zu Benutzern mit Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="other-information-on-the-reports-dashboard"></a>Weitere Informationen im Dashboard "Berichte"
 
