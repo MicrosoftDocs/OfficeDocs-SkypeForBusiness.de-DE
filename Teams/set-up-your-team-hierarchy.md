@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159002"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278168"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Zielgruppen Adressierungs Hierarchie
 
@@ -57,7 +57,7 @@ Die CSV-Datei muss die folgenden drei Spalten in der folgenden Reihenfolge entha
 ----------------|----------|---------------|
 | TargetName    | Ja      | Dies ist der Name des Knotens. Der Name kann bis zu 100 Zeichen lang sein und nur die Zeichen a-z, a-z und 0-9 enthalten. Knotennamen müssen eindeutig sein. |
 | ParentName    | Ja       | Dies ist der Name des übergeordneten Knotens. Der hier angegebene Wert muss dem Wert im Feld TargetName des übergeordneten Knotens genau entsprechen. Wenn Sie mehr als einen übergeordneten Knoten hinzufügen möchten, trennen Sie die einzelnen übergeordneten Knotennamen durch ein Semikolon (;). Sie können bis zu 25 übergeordnete Knoten hinzufügen, und jeder übergeordnete Knotenname kann bis zu 2500 Zeichen lang sein. Ein Knoten kann nur dann über mehrere übergeordnete Knoten verfügen, wenn die übergeordneten Knoten Stammknoten sind.   <br><br>**Wichtig** Achten Sie darauf, keine Schleife zu erstellen, bei der ein übergeordnetes übergeordnetes Element in der Hierarchie auf einen untergeordneten Knoten in der Hierarchie verweist. Dies wird nicht unterstützt. |
-| Team-Nr        | Ja, wenn das Team Aufgaben veröffentlicht oder Aufgaben von einem übergeordneten Knoten empfängt       | Diese enthält die ID des Teams, mit dem ein Knoten verknüpft werden soll. Ein Knoten muss mit einem Team verknüpft sein, wenn er sich unten in der Hierarchie befindet, wenn Sie möchten, dass die Benutzer von diesem Knoten aus veröffentlichen können, oder wenn Sie möchten, dass die Benutzer Berichte für diesen Knoten und seine Nachfolger anzeigen können. Wenn Ihr Vorgesetzter für die West Region Office beispielsweise die Berichterstellung zum Abschluss der Aufgabe für die Knoten anzeigen möchte, die zu dieser Region gehören.<br><br>Wenn Sie einen Knoten nur zum Gruppieren anderer Knoten in der Hierarchie hinzufügen möchten, müssen Sie diesen Knoten nicht mit einem Team verknüpfen und können dieses Feld leer lassen. Sie können jeden Knoten mit nur einem Team verknüpfen.<br>Führen Sie den folgenden PowerShell-Befehl aus, um die ID eines Teams abzurufen, mit dem Sie einen Knoten `Get-Team | Export-Csv TeamList.csv`verknüpfen möchten: Damit werden die Teams in Ihrer Organisation aufgelistet und der Name und die ID für die einzelnen Teams eingeschlossen. Suchen Sie den Namen des Teams, mit dem Sie eine Verknüpfung herstellen möchten, und kopieren Sie dann die ID in dieses Feld.|
+| Team-Nr        | Ja, wenn das Team Aufgaben veröffentlicht oder Aufgaben von einem übergeordneten Knoten empfängt       | Diese enthält die ID des Teams, mit dem ein Knoten verknüpft werden soll. Ein Knoten muss mit einem Team verknüpft sein, wenn er sich unten in der Hierarchie befindet, wenn Sie möchten, dass die Benutzer von diesem Knoten aus veröffentlichen können, oder wenn Sie möchten, dass die Benutzer Berichte für diesen Knoten und seine Nachfolger anzeigen können. Wenn Ihr Vorgesetzter für die West Region Office beispielsweise die Berichterstellung zum Abschluss der Aufgabe für die Knoten anzeigen möchte, die zu dieser Region gehören.<br><br>Wenn Sie einen Knoten nur zum Gruppieren anderer Knoten in der Hierarchie hinzufügen möchten, müssen Sie diesen Knoten nicht mit einem Team verknüpfen und können dieses Feld leer lassen. Sie können jeden Knoten mit nur einem Team verknüpfen.<br>Führen Sie den folgenden PowerShell-Befehl aus, um die ID eines Teams abzurufen, mit dem Sie einen Knoten verknüpfen `Get-Team | Export-Csv TeamList.csv` möchten: Damit werden die Teams in Ihrer Organisation aufgelistet und der Name und die ID für die einzelnen Teams eingeschlossen. Suchen Sie den Namen des Teams, mit dem Sie eine Verknüpfung herstellen möchten, und kopieren Sie dann die ID in dieses Feld.|
 
 ### <a name="add-attribute-columns"></a>Hinzufügen von Attributspalten
 
@@ -90,11 +90,11 @@ Wenn Sie eine Bucket-Spalte hinzufügen, beachten Sie Folgendes:
 
 Nachfolgend finden Sie ein Beispiel für eine CSV-Schemadatei, die zur Unterstützung der Hierarchie in der obigen Abbildung erstellt wird. Dieses Schema enthält Folgendes:
 
-- Drei erforderliche Spalten mit `TargetName`dem `ParentName`Namen "und"`TeamID`
-- Drei Attributspalten mit `Store layout`dem `Departments:Clothing`Namen "und"`Departments:Foods`
-- Drei Bucket-Spalten `Fresh Foods`mit `Frozen Foods`dem Namen "und"`Womenswear`
+- Drei erforderliche Spalten mit dem Namen " `TargetName` `ParentName` und"`TeamId`
+- Drei Attributspalten mit dem Namen " `Store layout` `Departments:Clothing` und"`Departments:Foods`
+- Drei Bucket-Spalten mit dem Namen " `Fresh Foods` `Frozen Foods` und"`Womenswear`
 
-Das `Store layout` Attribut enthält Werte, die `Compact`" `Standard`und `Large`" enthalten. Die `Departments` Attributspalten können auf den Wert `0` (null) oder `1`gesetzt werden. Das `Store` Layout und `Departments` die Attribute werden in der obigen Abbildung nicht angezeigt. Sie werden hier hinzugefügt, um zu zeigen, wie Attribute zu Knoten Einträgen hinzugefügt werden können. Das gleiche gilt für die drei Bucket-Spalten.
+Das `Store layout` Attribut enthält Werte, die "und" enthalten `Compact` `Standard` `Large` . Die `Departments` Attributspalten können auf den Wert `0` (null) oder gesetzt werden `1` . Das `Store` Layout und die `Departments` Attribute werden in der obigen Abbildung nicht angezeigt. Sie werden hier hinzugefügt, um zu zeigen, wie Attribute zu Knoten Einträgen hinzugefügt werden können. Das gleiche gilt für die drei Bucket-Spalten.
 
 
 | TargetName             | ParentName                      | Team-Nr                       | Store-Layout|Abteilungen: Kleidung|Abteilungen: Lebensmittel|#Fresh Foods|#Frozen Foods|#Womenswear|

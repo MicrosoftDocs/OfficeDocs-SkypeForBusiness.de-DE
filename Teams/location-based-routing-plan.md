@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836545"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280274"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -133,7 +133,7 @@ Für die Anrufübertragung muss der initiierende Benutzer den Anruf annehmen, w�
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Benutzer für standortbasiertes Routing nicht aktiviert
 
-Ein Benutzer, der für standortbasiertes Routing nicht aktiviert ist, kann PSTN-Anrufe an andere Benutzer übertragen oder weiterleiten, die nicht für standortbasiertes Routing aktiviert sind. Der Benutzer ist in der Regel nicht berechtigt, einen PSTN-Anruf an einen Benutzer zu übertragen oder weiterzuleiten, der für standortbasiertes Routing aktiviert ist, da standortbasierte Routing aktivierte Benutzer in der Regel nur an standortbasierten routingfähigen Gateways für PSTN zugelassen sind. Anrufe. Die Ausnahme ist, wenn ein standortbasierter Routing Benutzer zu einer Website wechselt, die für standortbasiertes Routing nicht aktiviert ist. In diesem Szenario ist der übertragene Anruf zulässig.  
+Ein Benutzer, der für standortbasiertes Routing nicht aktiviert ist, kann PSTN-Anrufe an andere Benutzer übertragen oder weiterleiten, die nicht für standortbasiertes Routing aktiviert sind. Der Benutzer ist in der Regel nicht berechtigt, einen PSTN-Anruf an einen Benutzer zu übertragen oder weiterzuleiten, der für standortbasiertes Routing aktiviert ist, da standortbasierte Routing aktivierte Benutzer in der Regel nur an standortbasierten routingfähigen Gateways für PSTN-Anrufe teilnehmen dürfen. Die Ausnahme ist, wenn ein standortbasierter Routing Benutzer zu einer Website wechselt, die für standortbasiertes Routing nicht aktiviert ist. In diesem Szenario ist der übertragene Anruf zulässig.  
 
 Ein Benutzer, der für standortbasiertes Routing nicht aktiviert ist, kann auch nur einen PSTN-Anruf von einem anderen Benutzer empfangen, der für standortbasiertes Routing nicht aktiviert ist. 
 
@@ -249,6 +249,10 @@ Standortbasiertes Routing gilt nicht für die folgenden Arten von Interaktionen.
 ### <a name="location-based-routing-for-conferencing"></a>Orts basiertes Routing für Konferenzen
 
 Ein standortbasierter Routing aktivierter Benutzer für einen PSTN-Anruf ist nicht berechtigt, eine Konferenz mit einem anderen Benutzer oder einer anderen PSTN-Nummer zu starten. Das Herstellen einer Verbindung mit automatischen Telefonzentralen oder Anrufwarteschlangen ist zulässig. Wenn der Benutzer eine Konferenz Lizenz hat, muss der Benutzer eine Konferenz mit den entsprechenden Benutzern starten und das PSTN über die Konferenzbrücke anrufen, um einen Konferenzanruf zu starten.  
+
+### <a name="media-bypass-requirement-for-location-based-routing"></a>Medien Umgehungs Anforderung für standortbasiertes Routing
+
+Wenn Sie ein standortbasiertes Routing in Indien bereitstellen, müssen Sie auch die medienumgehung konfigurieren. Weitere Informationen finden Sie unter [Planen der medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

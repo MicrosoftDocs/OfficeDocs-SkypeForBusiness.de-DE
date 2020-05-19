@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie mehr über verschiedene Kombinationen der Benutzererstellung und welche Kombinationen unterstützt oder nicht unterstützt werden.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779994"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280254"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -65,7 +65,7 @@ Eine Skype for Business-Hybridumgebung mit PSTN-Konnektivität bietet Flexibilit
 |**Nicht unterstützte Kombinationen**    | |         |         |      |
 |Azure AD| Lokal/Online | Skype for Business/Microsoft Teams|Enterprise-VoIP/Hybrid-VoIP-Konnektivität/Direktes Routing  |Nein, das Benutzerobjekt muss zuerst in der lokalen Anzeige erstellt werden. |
 |Lokale Anzeige  |Lokal| Microsoft Teams| Enterprise-VoIP/Hybrid-VoIP-Konnektivität/Direktes Routing   |Nein, Microsoft Teams-Client wird für lokale Skype for Business nicht unterstützt |     
-|Lokale Anzeige  |Online |Skype for Business  | Direktes Routing  |Nein, das direkte Routing wird mit dem Skype for Business-Client nicht unterstützt, und der Benutzer muss für Enterprise-VoIP in Skype for Business zuerst aktiviert sein.  |
+|Lokale Anzeige  |Online |Skype for Business  | Direktes Routing  |Nein, das direkte Routing wird mit dem Skype for Business-Client nicht unterstützt.  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Unterstützende Anweisung für die Hybridumgebung mit PSTN

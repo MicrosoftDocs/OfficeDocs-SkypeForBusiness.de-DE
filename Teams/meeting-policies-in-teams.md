@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256500"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278198"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -401,6 +401,23 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während ein
 Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob der Besprechungs Chat in der Besprechung des Benutzers zulässig ist.
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>Einstellungen für Besprechungsrichtlinien – Designated Role Mode für Referenten
+
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung können Sie den Standardwert der " **Wer kann präsentieren?** " in den **Besprechungsoptionen** des Teams-Clients ändern. Diese Richtlinieneinstellung wirkt sich auf alle Besprechungen aus, einschließlich Besprechungen jetzt abhalten.
+
+**Wer kann präsentieren?** mit dieser Einstellung können Besprechungsorganisatoren auswählen, wer in einer Besprechung Referenten sein kann. Weitere Informationen finden Sie unter [Ändern der Teilnehmereinstellungen für eine Teambesprechung](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) und [Rollen in einer Teambesprechung](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+Derzeit können Sie PowerShell nur zum Konfigurieren dieser Richtlinieneinstellung verwenden. Sie können eine vorhandene Team-Besprechungsrichtlinie mithilfe des Cmdlets " [festlegen-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) " bearbeiten. Sie können auch eine neue Team-Besprechungsrichtlinie erstellen, indem Sie das Cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) verwenden und es Benutzern zuweisen.
+
+Legen Sie den **DesignatedPresenterRoleMode** -Parameter auf eine der folgenden Optionen fest, um den Standardwert für " **Wer kann präsentieren?** " anzugeben:
+
+- **EveryoneUserOverride**: alle Besprechungsteilnehmer können Referenten sein. Dies ist der Standardwert. Dieser Parameter entspricht der Einstellung **jeder** in Teams.
+- **EveryoneInCompanyUserOverride**: authentifizierte Benutzer in der Organisation, einschließlich Gastbenutzer, können Referenten sein. Dieser Parameter entspricht den Einstellungen für **Personen in meiner Organisation** in Teams.
+- **EveryoneInSameAndFederatedCompanyUserOverride**: authentifizierte Benutzer in der Organisation, einschließlich Gastbenutzer und Benutzer aus Föderations Organisationen, können Referenten sein. Dieser Parameter entspricht den Einstellungen für **Personen in meiner Organisation und vertrauenswürdige Organisationen** in Teams.
+- **OrganizerOnlyUserOverride**: nur der Besprechungsorganisator kann ein Referent sein, und alle Besprechungsteilnehmer sind als Teilnehmer gekennzeichnet. Dieser Parameter entspricht der Einstellung **nur ich** in Teams.
+
+Beachten Sie, dass nach dem Festlegen des Standardwerts die Besprechungsorganisatoren diese Einstellung in Teams weiterhin ändern können, und wählen Sie aus, wer in den von Ihnen geplanten Besprechungen anwesend sein kann.
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>Besprechungsrichtlinien Einstellungen – Bericht zur Besprechungs Anwesenheit
 
