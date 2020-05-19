@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Cloud-VoIP-Funktion, und verstehen Sie die erforderlichen Bereitstellungsentscheidungen, denen Sie gegenüberstehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905907"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281670"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
@@ -151,7 +151,7 @@ Sie können automatische Telefonzentralenverwenden, um ein Menüsystem für Ihre
 
 Weitere Informationen zu unterstützten Geräten finden Sie unter den folgenden Themen:
 
-- [Verwalten Ihrer Geräte in Microsoft Teams](device-management.md)
+- [Verwalten Ihrer Geräte in Microsoft Teams](devices/device-management.md)
 - [IP-Telefone](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB-Audio- und -Videogeräte](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Intelligente Kommunikation für Geräte](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
