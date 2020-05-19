@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd125c0d168a27f3d769ec7bef60b0cdc6f21488
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 448534a9cab210be71f36ac034207d35e2b9f5f7
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097014"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281700"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Verfügbarkeit nach Land und Region für Business Voice
 
@@ -50,78 +50,80 @@ Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enth
 
 
 | Land oder Region    | Business Voice<br> mit Anrufplan | Business Voice<br> ohne Anrufplan<br>(Direktes Routing) | Assistent für erste Schritte |
-|----------------------|--------------------------------------|-----------------------------------------|------------------------|
-| Kanada               | X                                    |                                         | X                      |
-| Vereinigtes Königreich       | X                                    |                                         | X                      |
-| Vereinigte Staaten        | X                                    |                                         | X                      |
-| Argentinien            |                                      | X                                       |                        |
-| Österreich              |                                      | X                                       |                        |
-| Belgien              |                                      | X                                       |                        |
-| Bosnien und Herzegowina |                                      | X                                       |                        |
-| Brasilien               |                                      | X                                       |                        |
-| Bulgarien             |                                      | X                                       |                        |
-| Chile                |                                      | X                                       |                        |
-| Kolumbien             |                                      | X                                       |                        |
-| Costa Rica           |                                      | X                                       |                        |
-| Kroatien              |                                      | X                                       |                        |
-| Zypern               |                                      | X                                       |                        |
-| Tschechische Republik       |                                      | X                                       |                        |
-| Dänemark              |                                      | X                                       |                        |
-| Dominikanische Republik   |                                      | X                                       |                        |
-| Ecuador              |                                      | X                                       |                        |
-| Ägypten                |                                      | X                                       |                        |
-| Estland              |                                      | X                                       |                        |
-| Finnland              |                                      | X                                       |                        |
-| Frankreich               |                                      | X                                       |                        |
-| Deutschland              |                                      | X                                       |                        |
-| Griechenland               |                                      | X                                       |                        |
-| Hongkong (SAR)        |                                      | X                                       |                        |
-| Ungarn              |                                      | X                                       |                        |
-| Indonesien            |                                      | X                                       |                        |
-| Irland              |                                      | X                                       |                        |
-| Israel               |                                      | X                                       |                        |
-| Italien                |                                      | X                                       |                        |
-| Japan                |                                      | X<sup>1</sup>                           |                        |
-| Jordanien               |                                      | X                                       |                        |
-| Kenia                |                                      | X                                       |                        |
-| Lettland               |                                      | X                                       |                        |
-| Litauen            |                                      | X                                       |                        |
-| Luxemburg           |                                      | X                                       |                        |
-| Malaysia             |                                      | X                                       |                        |
-| Malta                |                                      | X                                       |                        |
-| Mexiko               |                                      | X                                       |                        |
-| Monaco               |                                      | X                                       |                        |
-| Niederlande          |                                      | X                                       |                        |
-| Neuseeland          |                                      | X                                       |                        |
-| Norwegen               |                                      | X                                       |                        |
-| Panama               |                                      | X                                       |                        |
-| Paraguay             |                                      | X                                       |                        |
-| Peru                 |                                      | X                                       |                        |
-| Philippinen          |                                      | X                                       |                        |
-| Polen               |                                      | X                                       |                        |
-| Portugal             |                                      | X                                       |                        |
-| Puerto Rico          |                                      | X                                       |                        |
-| Katar                |                                      | X                                       |                        |
-| Rumänien              |                                      | X                                       |                        |
-| Russland               |                                      | X                                       |                        |
-| Serbien               |                                      | X                                       |                        |
-| Singapur            |                                      | X                                       |                        |
-| Slowakei             |                                      | X                                       |                        |
-| Slowenien             |                                      | X                                       |                        |
-| Südafrika         |                                      | X                                       |                        |
-| Südkorea          |                                      | X                                       |                        |
-| Spanien                |                                      | X                                       |                        |
-| Sri Lanka            |                                      | X                                       |                        |
-| Schweden               |                                      | X                                       |                        |
-| Schweiz          |                                      | X                                       |                        |
-| Taiwan               |                                      | X                                       |                        |
-| Thailand             |                                      | X                                       |                        |
-| Trinidad und Tobago  |                                      | X                                       |                        |
-| Türkei               |                                      | X                                       |                        |
-| Ukraine              |                                      | X                                       |                        |
-| Vereinigte Arabische Emirate |                                      | X                                       |                        |
-| Uruguay              |                                      | X                                       |                        |
-| Venezuela            |                                      | X                                       |                        |
-| Vietnam              |                                      | X                                       |                        |
+|----------------------|--------------------------------------|-------------------------------------------------------------|------------------------|
+| Kanada               | X                                    | X<sup>1</sup>                                               | X                      |
+| Vereinigtes Königreich       | X                                    | X<sup>1</sup>                                               | X                      |
+| Vereinigte Staaten        | X                                    | X<sup>1</sup>                                               | X                      |
+| Argentinien            |                                      | X                                                           |                        |
+| Österreich              |                                      | X                                                           |                        |
+| Belgien              |                                      | X                                                           |                        |
+| Bosnien und Herzegowina |                                      | X                                                           |                        |
+| Brasilien               |                                      | X                                                           |                        |
+| Bulgarien             |                                      | X                                                           |                        |
+| Chile                |                                      | X                                                           |                        |
+| Kolumbien             |                                      | X                                                           |                        |
+| Costa Rica           |                                      | X                                                           |                        |
+| Kroatien              |                                      | X                                                           |                        |
+| Zypern               |                                      | X                                                           |                        |
+| Tschechische Republik       |                                      | X                                                           |                        |
+| Dänemark              |                                      | X                                                           |                        |
+| Dominikanische Republik   |                                      | X                                                           |                        |
+| Ecuador              |                                      | X                                                           |                        |
+| Ägypten                |                                      | X                                                           |                        |
+| Estland              |                                      | X                                                           |                        |
+| Finnland              |                                      | X                                                           |                        |
+| Frankreich               |                                      | X                                                           |                        |
+| Deutschland              |                                      | X                                                           |                        |
+| Griechenland               |                                      | X                                                           |                        |
+| Hongkong (SAR)        |                                      | X                                                           |                        |
+| Ungarn              |                                      | X                                                           |                        |
+| Indonesien            |                                      | X                                                           |                        |
+| Irland              |                                      | X                                                           |                        |
+| Israel               |                                      | X                                                           |                        |
+| Italien                |                                      | X                                                           |                        |
+| Japan                |                                      | X<sup>2</sup>                                               |                        |
+| Jordanien               |                                      | X                                                           |                        |
+| Kenia                |                                      | X                                                           |                        |
+| Lettland               |                                      | X                                                           |                        |
+| Litauen            |                                      | X                                                           |                        |
+| Luxemburg           |                                      | X                                                           |                        |
+| Malaysia             |                                      | X                                                           |                        |
+| Malta                |                                      | X                                                           |                        |
+| Mexiko               |                                      | X                                                           |                        |
+| Monaco               |                                      | X                                                           |                        |
+| Niederlande          |                                      | X                                                           |                        |
+| Neuseeland          |                                      | X                                                           |                        |
+| Norwegen               |                                      | X                                                           |                        |
+| Panama               |                                      | X                                                           |                        |
+| Paraguay             |                                      | X                                                           |                        |
+| Peru                 |                                      | X                                                           |                        |
+| Philippinen          |                                      | X                                                           |                        |
+| Polen               |                                      | X                                                           |                        |
+| Portugal             |                                      | X                                                           |                        |
+| Puerto Rico          |                                      | X                                                           |                        |
+| Katar                |                                      | X                                                           |                        |
+| Rumänien              |                                      | X                                                           |                        |
+| Russland               |                                      | X                                                           |                        |
+| Serbien               |                                      | X                                                           |                        |
+| Singapur            |                                      | X                                                           |                        |
+| Slowakei             |                                      | X                                                           |                        |
+| Slowenien             |                                      | X                                                           |                        |
+| Südafrika         |                                      | X                                                           |                        |
+| Südkorea          |                                      | X                                                           |                        |
+| Spanien                |                                      | X                                                           |                        |
+| Sri Lanka            |                                      | X                                                           |                        |
+| Schweden               |                                      | X                                                           |                        |
+| Schweiz          |                                      | X                                                           |                        |
+| Taiwan               |                                      | X                                                           |                        |
+| Thailand             |                                      | X                                                           |                        |
+| Trinidad und Tobago  |                                      | X                                                           |                        |
+| Türkei               |                                      | X                                                           |                        |
+| Ukraine              |                                      | X                                                           |                        |
+| Vereinigte Arabische Emirate |                                      | X                                                           |                        |
+| Uruguay              |                                      | X                                                           |                        |
+| Venezuela            |                                      | X                                                           |                        |
+| Vietnam              |                                      | X                                                           |                        |
 
-<sup>1</sup> Business Voice beinhaltet Lizenzen für Telefonsystem- und Audiokonferenzen. Auch wenn Sie über uns keinen Anrufplan erhalten können, können Sie sich an <Softbank> wenden, um Ihre Lizenzen zu erwerben und Ihre Telefonnummern zu erhalten.
+<sup>1</sup> Sofern Sie keine speziellen Anforderungen haben, die Sie daran hindern, Ihre Telefonnummern auf Microsoft 365 zu übertragen (portieren), empfehlen wir Ihnen, Business Voice mit Anrufplan zu wählen. Business Voice ohne Anrufplan setzt die Verwendung von [direktem Routing für Telefonsysteme](../direct-routing-landing-page.md) voraus. Für direktes Routing gibt es viele Voraussetzungen, die möglicherweise die Komplexität Ihrer Bereitstellung erhöhen und die Zusammenarbeit mit einem Microsoft-Partner oder -Berater erfordern.
+
+<sup>2</sup> Business Voice beinhaltet Lizenzen für Telefonsystem- und Audiokonferenzen. Auch wenn Sie über uns keinen Anrufplan erhalten können, können Sie sich an <Softbank> wenden, um Ihre Lizenzen zu erwerben und Ihre Telefonnummern zu erhalten.

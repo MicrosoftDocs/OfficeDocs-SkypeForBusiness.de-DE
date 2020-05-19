@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: 7aab40ce5cd3e82d884faffea29c0a1f47be6d26
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139228"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278188"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
 
@@ -269,8 +269,14 @@ Diese Einstellungen ermöglichen Lehrkräften die Steuerung des Zugangs zu ihren
 - **Anonymen Personen das Starten einer Besprechung gestatten**: **Aus**
 - **Personen automatisch zulassen**:**Jeder in Ihrer Organisation**
 - **Einwählbenutzern das Umgehen des Wartebereichs gestatten**: **Aus**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### <a name="message-policies"></a>Nachrichtenrichtlinien
+<sup>1</sup> Diese Einstellung befindet sich nicht im Microsoft Teams-Admin Center, daher müssen Sie PowerShell verwenden, um den **DesignatedPresenterRoleMode**-Parameter mit dem Cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) oder [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) festzulegen. Damit wird der Standardwert für die Einstellung **Wer darf präsentieren?** unter **Besprechungsoptionen** in Teams auf **Nur ich** gesetzt. Bei dieser Einstellung kann nur der Besprechungsorganisator präsentieren und alle anderen Besprechungsteilnehmer werden lediglich als Teilnehmer angegeben. Weitere Informationen hierzu finden Sie unter [Einstellungen für die Besprechungsrichtlinien – der Rollenmodus des festgelegten Referenten](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode).
+
+> [!NOTE]
+> Für Mitarbeiter, die keine Pädagogen sind, können Sie den Parameter auf **EveryoneUserOverride** (das der Einstellung **Jeder** in Teams entspricht) oder **EveryoneInCompanyUserOverride** (das der Einstellung **Personen in meinem Unternehmen** in Teams entspricht) festlegen.
+
+### <a name="messaging-policies"></a>Messaging-Richtlinien
 
 Wenn Sie **Besitzer können gesendete Nachrichten löschen** auf **An** festlegen, können Lehrkräfte Chatsitzungen überwachen und unangemessene Nachrichten in Kanal-Besprechungen löschen.
 
