@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042212"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321614"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -32,7 +32,7 @@ Mit dem Microsoft Teams-Besprechungs-Add-Ins können Benutzer eine Teambesprechu
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Microsoft Teams-Besprechungs-Add-In in Outlook für Windows
 
-Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2010, Office 2013 oder Office 2016 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
+Das Team Besprechungs-Add-in wird automatisch für Benutzer installiert, die Microsoft Teams und entweder Office 2013, Office 2016 oder Office 2019 auf Ihrem Windows-PC installiert haben. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
 
 ![Screenshot des Microsoft Teams-Add-Ins auf dem Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ Die Schaltfläche „Teams-Besprechung“ wird in den neuesten Builds der Outloo
 Die Besprechungskoordinaten (der Link zum Beitreten zur Teams-Besprechung und Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf **Senden** geklickt hat.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Microsoft Teams-Besprechungs-Add-In und Uhrzeit finden für Outlook
-Uhrzeit finden ist ein Add-In für Outlook, das Benutzern dabei hilft, sich hinsichtlich des Besprechungszeitpunkts in Unternehmen zu einigen. Sobald die Besprechungsteilnehmer ihren bevorzugten Zeitpunkt angegeben haben, sendet Uhrzeit finden die Besprechungseinladung im Namen des Benutzers. Wenn die Option **Onlinebesprechung** in Uhrzeit finden ausgewählt ist, plant Uhrzeit finden eine Skype for Business- oder eine Microsoft Teams-Besprechung. (Die von Uhrzeit finden verwendete Option hängt von dem standardmäßigen Onlinebesprechungskanal ab, der von Ihrer Organisation festgelegt wurde.)
+Find Time ist ein Add-in für Outlook, das Benutzern hilft, sich über eine Besprechungszeit in Unternehmen zu einigen. Sobald die Besprechungsteilnehmer ihren bevorzugten Zeitpunkt angegeben haben, sendet Uhrzeit finden die Besprechungseinladung im Namen des Benutzers. Wenn die Option **Onlinebesprechung** in Uhrzeit finden ausgewählt ist, plant Uhrzeit finden eine Skype for Business- oder eine Microsoft Teams-Besprechung. (Die von Uhrzeit finden verwendete Option hängt von dem standardmäßigen Onlinebesprechungskanal ab, der von Ihrer Organisation festgelegt wurde.)
 
 > [!NOTE]  
 > Wenn Sie eine Skype for Business-Einstellung in Ihrem [Uhrzeit finden-Dashboard](https://findtime.microsoft.com/UserDashboard) gespeichert haben, wird diese anstelle von Microsoft Teams von Uhrzeit finden verwendet. Wenn Sie Microsoft Teams verwenden möchten, löschen Sie die Skype for Business-Einstellung in Ihrem Dashboard.
 
-Weitere Informationen finden Sie unter [Planen von Besprechungen mit Uhrzeit finden](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
+Weitere Informationen finden Sie unter [Planen von Besprechungen mit Suchzeiten](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 
@@ -128,7 +128,8 @@ Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren kö
 - Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Teams verfügt, die das Planen von Besprechungen in Teams ermöglicht. Weitere Informationen finden Sie unter [Upgrade von Skype for Business in Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Überprüfen Sie, ob der Benutzer über eine Team-Besprechungsrichtlinie verfügt, die das Outlook-Add-in zulässt. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Stellen Sie sicher, dass der Benutzer den Desktop Client von Teams installiert hat. Das Besprechungs-Add-in wird nicht installiert, wenn nur der Team-WebClient verwendet wird.
-- Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32. exe" verfügt.  Weitere Informationen zur Überprüfunghttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- Stellen Sie sicher, dass der Benutzer Outlook 2013 oder höher installiert hat.
+- Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32. exe" verfügt.
 - Stellen Sie sicher, dass alle verfügbaren Updates für Outlook-Desktop Client angewendet wurden.
 - Führen Sie die folgenden Schritte aus:
   - Starten Sie den Teams-Desktopclient neu.

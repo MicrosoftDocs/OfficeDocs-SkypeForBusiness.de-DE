@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Lebenszyklus privater Kanäle in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997246"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321699"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus privater Kanäle in Microsoft Teams
 
 Hier finden Sie die Anleitungen, die Sie zum Verwalten des Lebenszyklus [privater Kanäle](private-channels.md) in Ihrer Organisation benötigen.
 
 > [!IMPORTANT]
-> Wenn Sie die PowerShell-Schritte in diesem Artikel zum Verwalten privater Kanäle verwenden, müssen Sie die neueste Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog installieren und verwenden. Eine schrittweise Anleitung hierzu finden Sie unter [Installieren des neuesten Teams PowerShell-Moduls aus dem PowerShell-Test Katalog](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls (derzeit [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) unterstützt keine Verwaltung privater Kanäle.
+> Wenn Sie die PowerShell-Schritte in diesem Artikel zum Verwalten privater Kanäle verwenden, müssen Sie die neueste Vorabversion des Teams PowerShell-Moduls aus dem [PowerShell-Test Katalog](https://www.poshtestgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren der Vorabversion des Teams PowerShell-Moduls](install-prerelease-teams-powershell-module.md). Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls unterstützt nicht das Verwalten privater Kanäle.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Festlegen, ob Teammitglieder private Kanäle erstellen können
 
@@ -102,7 +102,7 @@ Als Administrator können Sie PowerShell-oder Graph-APIs-Befehle verwenden, um d
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
 1. Installieren Sie die [SharePoint Online-Verwaltungsshell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) , und stellen Sie eine Verbindung mit Ihrem Administratorkonto her.
-2. Führen Sie die folgenden Schritte &lt;aus&gt; , wobei group_id die Gruppen-ID des Teams ist. (Sie können die Gruppen-ID einfach im Link zum Team finden.)
+2. Führen Sie die folgenden Schritte &lt; aus, wobei group_id &gt; die Gruppen-ID des Teams ist. (Sie können die Gruppen-ID einfach im Link zum Team finden.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -146,7 +146,7 @@ Sie können diese Befehle über den [Diagramm-Explorer](https://developer.micros
     }
     ```
 
-2. Führen Sie für jeden privaten Kanal, für den Sie die SharePoint-URL abrufen möchten, die &lt;folgende&gt; Anforderung aus, wobei channel_id die Kanal-ID ist.
+2. Führen Sie für jeden privaten Kanal, für den Sie die SharePoint-URL abrufen möchten, die folgende Anforderung aus, wobei &lt; channel_id &gt; die Kanal-ID ist.
 
     **Anforderung**
 
@@ -184,7 +184,7 @@ Als Administrator können Sie PowerShell-oder Graph-APIs-Befehle verwenden, um d
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-1. Führen Sie die folgenden Schritte &lt;aus&gt; , wobei group_id die Gruppen-ID des &lt;Teams&gt; und channel_name der Kanal Name ist.
+1. Führen Sie die folgenden Schritte &lt; aus, wobei group_id &gt; die Gruppen-ID des Teams und &lt; channel_name &gt; der Kanal Name ist.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
@@ -200,7 +200,7 @@ Als Administrator können Sie PowerShell-oder Graph-APIs-Befehle verwenden, um d
 
 Sie können diese Befehle über den [Diagramm-Explorer](https://developer.microsoft.com/graph/graph-explorer)testen.
 
-1. Verwenden Sie Folgendes, wobei &lt;group_id&gt; die Gruppen-ID des Teams und &lt;channel_id&gt; die Kanal-ID ist.
+1. Verwenden Sie Folgendes, wobei &lt; group_id &gt; die Gruppen-ID des Teams und &lt; channel_id &gt; die Kanal-ID ist.
 
     **Anforderung**
 
@@ -236,7 +236,7 @@ Sie können diese Befehle über den [Diagramm-Explorer](https://developer.micros
           ]
     }
     ```    
-2.     Führen Sie die folgenden Schritte aus, um das Mitglied für einen &lt;Besitzer&gt;zu &lt;bewerben&gt;, wobei &lt;group_id&gt; , channel_id und ID vom vorherigen Anruf zurückgegeben werden. Beachten Sie &lt;,&gt; dass &lt;die&gt; vom vorherigen Anruf zurückgegebene ID und UserID nicht identisch sind und nicht austauschbar sind. Stellen Sie sicher, &lt;dass&gt;Sie ID verwenden.
+2. Führen Sie die folgenden Schritte aus, um das Mitglied für einen Besitzer zu bewerben, wobei &lt; group_id &gt; , &lt; channel_id &gt; und &lt; ID &gt; vom vorherigen Anruf zurückgegeben werden. Beachten Sie, dass die &lt; &gt; &lt; &gt; vom vorherigen Anruf zurückgegebene ID und UserID nicht identisch sind und nicht austauschbar sind. Stellen Sie sicher, dass Sie &lt; ID verwenden &gt; .
 
     **Anforderung**
 
@@ -265,60 +265,6 @@ Sie können diese Befehle über den [Diagramm-Explorer](https://developer.micros
       "userId": "userId-value",
       "email": "email-value"
      }
-    ```
-
-## <a name="teams-powershell-module"></a>Teams PowerShell-Modul
-
-### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Installieren des neuesten Teams PowerShell-Moduls aus dem PowerShell-Test Katalog
-
-Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls (derzeit [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) unterstützt keine Verwaltung privater Kanäle. Führen Sie die folgenden Schritte aus, um die neueste Version des Teams PowerShell-Moduls mit privater Kanal Unterstützung (derzeit 1.0.21) aus dem PowerShell-Test Katalog zu installieren.
-
-> [!NOTE]
-> Installieren Sie das Teams PowerShell-Modul nicht aus dem PowerShell-Test Katalog parallel mit einer Version des Moduls aus dem öffentlichen PowerShell-Katalog. Führen Sie die folgenden Schritte aus, um das Team-PowerShell-Modul zunächst aus dem öffentlichen PowerShell-Katalog zu deinstallieren und dann die neueste Version des Moduls aus dem PowerShell-Test Katalog zu installieren.
-
-1. Schließen Sie alle vorhandenen PowerShell-Sitzungen.
-2. Starten Sie eine neue Instanz des Windows PowerShell-Moduls.
-3. Führen Sie die folgenden Schritte aus, um das PowerShell-Modul von Teams aus dem öffentlichen PowerShell-Katalog zu deinstallieren:
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. Schließen Sie alle vorhandenen PowerShell-Sitzungen.
-5. Starten Sie das Windows PowerShell-Modul erneut, und führen Sie dann die folgenden Schritte aus, um den PowerShell-Test Katalog als vertrauenswürdige Quelle zu registrieren:
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. Führen Sie die folgenden Schritte aus, um das neueste Teams PowerShell-Modul aus dem PowerShell-Test Katalog zu installieren:
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die neueste Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog erfolgreich installiert wurde:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>Aktualisieren auf die neueste Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog
-
-Wenn Sie das Teams PowerShell-Modul bereits aus dem PowerShell-Test Katalog installiert haben, führen Sie die folgenden Schritte aus, um auf die neueste Version zu aktualisieren.
-
-1. Schließen Sie alle vorhandenen PowerShell-Sitzungen.
-2. Starten Sie eine neue Instanz des Windows PowerShell-Moduls.
-3. Führen Sie die folgenden Schritte aus, um die aktuell installierte Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog zu aktualisieren:
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die neueste Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog erfolgreich installiert wurde:
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
     ```
 
 ## <a name="related-topics"></a>Verwandte Themen

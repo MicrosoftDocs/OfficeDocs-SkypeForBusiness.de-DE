@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten, um die Konsistenz beim Verwalten von Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und zu gewährleisten.
-ms.openlocfilehash: 742269fd85cb912e52d727a03a6123acd0b87a72
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: 6927e2efae60370c0622f38570fc961794734f35
+ms.sourcegitcommit: e0ed3b6478918c4737648e6c27eb01de0b622b0e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44281499"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322274"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
@@ -101,6 +101,15 @@ Im folgenden finden Sie die Schritte zum Anzeigen, zuweisen und Anpassen von Ric
 2. Klicken Sie auf **Benutzer verwalten**.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Zuweisen eines Richtlinienpakets zu einem umfangreichen Satz (Batch) von Benutzern
+
+Verwenden Sie die Batch Richtlinien-Paket Zuweisung, um einem Richtlinienpaket große Gruppen von Benutzern gleichzeitig zuzuweisen. Sie verwenden das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) , um einen Benutzer Batch und das Richtlinienpaket, das Sie zuweisen möchten, zu übermitteln. Die Aufgaben werden als Hintergrundvorgang verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
+
+Ein Batch kann bis zu 20.000-Benutzer enthalten. Sie können Benutzer anhand ihrer Objekt-ID, Ihres UPN, ihrer SIP-Adresse oder Ihrer e-Mail-Adresse angeben. Weitere Informationen finden Sie unter [Zuweisen eines Richtlinienpakets zu einem Batch von Benutzern](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+
+> [!IMPORTANT]
+> Wir empfehlen derzeit, Richtlinien in Batches von 5.000-Benutzern gleichzeitig zuzuweisen. In Zeiten höherer Nachfrage können Verzögerungen bei der Verarbeitung auftreten. Um die Auswirkungen dieser erhöhten Verarbeitungszeiten zu minimieren, empfehlen wir, kleinere Batchgrößen von bis zu 5.000-Benutzern zu übermitteln und jeden Batch erst nach Abschluss des vorherigen zu übermitteln. Das Übermitteln von Batches außerhalb ihrer regulären Geschäftszeiten kann ebenfalls hilfreich sein.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Anpassen von Richtlinien in einem Richtlinienpaket
 
