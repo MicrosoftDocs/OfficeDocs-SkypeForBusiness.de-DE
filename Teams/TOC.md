@@ -64,8 +64,8 @@
 ### [Verwalten Ihrer benutzerdefinierten Apps](manage-your-custom-apps.md)
 ### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md)
 ### [Verwalten der Aufgaben-App für Ihre Organisation](manage-tasks-app.md)
+### [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Kommunikation mit externen Benutzern
@@ -129,6 +129,7 @@
 ## [Schnellstart: Besprechungen und Live-Ereignisse](quick-start-meetings-live-events.md)
 ## [Planen der Bereitstellung](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
+## [Funktionen für Referenten und Teilnehmer in Microsoft Teams-Besprechungen](roles-in-meetings.md)
 ## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)
 ## [Verwalten von Besprechungseinstellungen](meeting-settings-in-teams.md)
 ## [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -137,6 +138,7 @@
 ## [Teams-Besprechungen in nicht unterstützten Browsern](unsupported-browsers.md)
 ## [Konfigurieren der Desktopfreigabe in Teams](configure-desktop-sharing.md)
 ## [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md)
+## [Contact Center-Integrationen](teams-contact-center.md)
 ## [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
 ## [Einrichten der Funktion „Rückruf“ für Ihre Benutzer](set-up-the-call-me-feature-for-your-users.md)
 ## [Abrufen eines Anwesenheitsberichts zu einer Besprechung](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -213,6 +215,7 @@
 ## Liveereignisse
 ### [Was sind Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md)
 ### [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md)
+### [Funktionen für Referenten und Teilnehmer in Live-Events](roles-in-live-events.md)
 ### [Einrichten von Teams-Liveereignissen](teams-live-events/set-up-for-teams-live-events.md)
 ### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Konfigurieren der Teams-Einstellungen für Liveereignisse](teams-live-events/configure-teams-live-events.md)
@@ -670,6 +673,7 @@
 ## Compliance
 ### [Informationsbarrieren](information-barriers-in-teams.md)
 ### [Aufbewahrungsrichtlinien](retention-policies.md)
+### [Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](teams-recording-policy.md)
 ### [Verhinderung von Datenverlust](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [Durchführen einer eDiscovery-Untersuchung von Inhalt](ediscovery-investigation.md)
@@ -776,6 +780,7 @@
 ## Teams PowerShell
 ### [Übersicht](teams-powershell-overview.md)
 ### [Cmdlet-Referenz für Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Installieren der Vorabversion des Teams-PowerShell-Moduls](install-prerelease-teams-powershell-module.md)
 
 ## [Entwicklerdokumentation für Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Hilfe in Teams abrufen](get-help-in-microsoft-teams.md)
