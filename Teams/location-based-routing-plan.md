@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280274"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326642"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -252,7 +252,7 @@ Ein standortbasierter Routing aktivierter Benutzer für einen PSTN-Anruf ist nic
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Medien Umgehungs Anforderung für standortbasiertes Routing
 
-Wenn Sie ein standortbasiertes Routing in Indien bereitstellen, müssen Sie auch die medienumgehung konfigurieren. Weitere Informationen finden Sie unter [Planen der medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md).
+Wenn Sie ein standortbasiertes Routing in Indien bereitstellen, müssen Sie auch die medienumgehung konfigurieren. Weitere Informationen finden Sie unter [Planen der medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md) und [lokaler Medienoptimierung für das direkte Routing](direct-routing-media-optimization.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

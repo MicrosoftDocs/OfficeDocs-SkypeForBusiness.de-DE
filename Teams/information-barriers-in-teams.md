@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904977"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326742"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -64,7 +64,7 @@ Der Evaluierungs Dienst für Informations Barriere-Richtlinien bestimmt, ob eine
 Richtlinien für Informationsbarrieren werden im Microsoft 365 Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Bevor Sie Richtlinien einrichten oder definieren, **müssen Sie die Bereichs Verzeichnissuche in Microsoft Teams aktivieren**. Warten Sie mindestens 24 Stunden nach der Aktivierung der Bereichs Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. [Informieren Sie sich über die Voraussetzungen für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
+> Bevor Sie Richtlinien einrichten oder definieren, **müssen Sie die Bereichs Verzeichnissuche in Microsoft Teams aktivieren**. Warten Sie mindestens ein paar Stunden nach der Aktivierung der Bereichs Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. [Informieren Sie sich über die Voraussetzungen für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Administratorrolle für Informationsbarrieren
 

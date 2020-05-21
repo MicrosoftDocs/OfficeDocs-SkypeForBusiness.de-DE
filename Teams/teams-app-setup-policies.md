@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064480"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326772"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -58,7 +58,7 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten, um die gew�
 
 Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinierte Richtlinie zu erstellen.
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den**Setup Richtlinien**für **Teams-apps** > .
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
 2. Klicken Sie auf **Hinzufügen**.
     ![Screenshot mit der Seite "Richtlinien zum Hinzufügen von Apps"](media/app-setup-policies-add.png)
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
@@ -86,7 +86,7 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinier
 
 Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, einschließlich der Global (org-Wide Standard)-Richtlinie und der von Ihnen erstellten benutzerdefinierten Richtlinien.
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den**Setup Richtlinien**für **Teams-apps** > .
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
 3. Nehmen Sie hier die gewünschten Änderungen vor.
 4. Klicken Sie auf **Speichern**.
@@ -105,7 +105,7 @@ Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweis
 
 Sie können auch die folgenden Schritte ausführen:
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den**Setup Richtlinien**für **Teams-apps** > .
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
 3. Wählen Sie **Benutzer verwalten** aus.
 4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
@@ -161,7 +161,7 @@ Die Anzahl der angehefteten apps, die Sie einer Richtlinie hinzufügen können, 
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Wie lange dauert es, bis Richtlinienänderungen wirksam werden?
 
-Nachdem Sie die globale Standardrichtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden.
+Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden.
 
 ### <a name="user-experience"></a>Benutzererfahrung
 

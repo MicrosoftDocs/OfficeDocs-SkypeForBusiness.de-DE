@@ -17,18 +17,18 @@ description: Hier erfahren Sie, wie Sie Ihre ersten Teams und Kanäle erstellen,
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777840"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326452"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Sie müssen ggf. bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden. 
+> Möglicherweise müssen Sie einige Stunden warten, bis Ihre Änderungen wirksam werden. 
 
 **Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
 
@@ -38,7 +38,7 @@ Nachdem Gastzugriff aktiviert ist, können Sie die Einstellungen für Gäste mit
     
 IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten und Berichte über Gastbenutzeraktivität abrufen. Diese Steuerelemente stehen im Team Admin Center zur Verfügung. Der Inhalt und die Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance-und Überwachungs Schutz wie die restlichen Office 365.
 
-Team Besitzer können neue Gäste einladen und ihren Teams im Team Admin Center vorhandene Verzeichnis Gastbenutzer hinzufügen. Identifizieren Sie Gastbenutzer auf der Seite **Teams** > **Manage Teams** , und legen Sie die Kanal bezogenen Funktionen für Gäste auf der Seite **organisationsweite Einstellungen** > **Gastzugriff** fest. Zu den Einstellungen gehören das Erstellen, aktualisieren und Löschen von Kanälen, wie in der folgenden Abbildung gezeigt.
+Team Besitzer können neue Gäste einladen und ihren Teams im Team Admin Center vorhandene Verzeichnis Gastbenutzer hinzufügen. Identifizieren Sie Gastbenutzer auf der Seite **Teams**  >  **Manage Teams** , und legen Sie die Kanal bezogenen Funktionen für Gäste auf der Seite **organisationsweite Einstellungen**  >  **Gastzugriff** fest. Zu den Einstellungen gehören das Erstellen, aktualisieren und Löschen von Kanälen, wie in der folgenden Abbildung gezeigt.
 
 ![Einstellungen von Gastberechtigungen in Teams](media/manage-guest-access-image1.png)
   
@@ -64,7 +64,7 @@ Zugriffsüberprüfungen sind mit der Premium P2-Edition von Azure AD (in Microso
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>Verzögerungszeit für die Einstellungen des Gastzugriffs
 
-Für die Einstellungen für den Gastzugriff in Azure Active Directory dauert es 2-24 Stunden, bis die Änderungen in Ihrem Microsoft 365 oder Office 365 wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder das gastfeature nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind. Hilfe zu Problemen beim Einrichten des Gastzugriffs finden Sie unter [Problembehandlung beim Gastzugriff in Teams](troubleshoot-guest-access.md).
+Für die Einstellungen für den Gastzugriff in Azure Active Directory dauert es einige Stunden, bis die Änderungen in Microsoft 365 oder Office 365 wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder das gastfeature nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind. Hilfe zu Problemen beim Einrichten des Gastzugriffs finden Sie unter [Problembehandlung beim Gastzugriff in Teams](troubleshoot-guest-access.md).
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Partnerverbund) und Gastzugriff im Vergleich

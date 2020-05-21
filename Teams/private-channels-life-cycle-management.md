@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Lebenszyklus privater Kanäle in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321699"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326692"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus privater Kanäle in Microsoft Teams
 
@@ -180,7 +180,11 @@ Sie können diese Befehle über den [Diagramm-Explorer](https://developer.micros
 
 Möglicherweise möchten Sie die Besitzer und Mitglieder eines privaten Kanals auflisten, um zu entscheiden, ob Sie bestimmte Mitglieder des privaten Kanals zu einem Besitzer heraufstufen müssen. Dies kann geschehen, wenn Sie Besitzer von privaten Kanälen sind, die die Organisation verlassen haben und der private Kanal Administratorhilfe benötigt, um den Besitz des Kanals zu beanspruchen.
 
-Als Administrator können Sie PowerShell-oder Graph-APIs-Befehle verwenden, um diese URLs abzufragen.
+Als Administrator können Sie die Microsoft Teams Admin Center-, PowerShell-oder Graph-API verwenden, um diese Aktionen auszuführen.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
+
+Informationen zum Verwalten von Teammitgliedern mithilfe des Microsoft Teams admin Centers finden Sie unter [Verwalten von Teams im Microsoft Teams Admin Center](manage-teams-in-modern-portal.md).
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 

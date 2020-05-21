@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341769"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326592"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Verwenden der Verzeichnissuche in Microsoft Teams
 
@@ -51,7 +51,7 @@ Informationen zum Verwenden von adressbuchrichtlinien finden Sie [unter Richtlin
 
 1. Verwenden Sie Richtlinien für Informationsbarrieren, um Ihre Organisation in virtuellen Untergruppen zu konfigurieren. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
 
-2. Wählen Sie im Microsoft Teams Admin Center die Option **organisationsweite Einstellungen** > **Teams Einstellungen**aus.
+2. Wählen Sie im Microsoft Teams Admin Center die Option **organisationsweite Einstellungen**  >  **Teams Einstellungen**aus.
 
 3. Aktivieren Sie unter **Suchen**neben **Bereichs Verzeichnissuche in Teams, die eine Exchange-adressbuchrichtlinie (ABP) verwenden**, **die Umschaltfläche**.
 
@@ -59,4 +59,4 @@ Informationen zum Verwenden von adressbuchrichtlinien finden Sie [unter Richtlin
 
 
 > [!IMPORTANT]
-> Diese Änderung kann bis zu 24 Stunden dauern, bis Sie repliziert wurde.
+> Diese Änderung kann einige Stunden dauern, bis Sie repliziert wurde.

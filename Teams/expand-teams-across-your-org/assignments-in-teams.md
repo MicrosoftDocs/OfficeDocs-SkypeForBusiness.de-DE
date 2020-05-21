@@ -21,12 +21,12 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256450"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326762"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
@@ -51,7 +51,7 @@ Microsoft MakeCode ist eine blockbasierte Codierungs Plattform, die die Computer
 
 MakeCode ist ein Microsoft-Produkt, das den Microsoft- [Nutzungsbedingungen](https://go.microsoft.com/fwlink/?LinkID=206977) und den [Datenschutz](https://go.microsoft.com/fwlink/?LinkId=521839) Richtlinien unterliegt.
 
-Diese Einstellung ist standardmäßig deaktiviert. Navigieren Sie zum Aktivieren von MakeCode-Aufgaben in Teams im **Team Admin Center**zum Abschnitt **Aufgaben** , und aktivieren Sie die Option MakeCode-Umschaltfläche **auf ein**. Klicken Sie auf **Speichern** und bis zu 24 Stunden, damit diese Einstellungen wirksam werden.
+Diese Einstellung ist standardmäßig deaktiviert. Navigieren Sie zum Aktivieren von MakeCode-Aufgaben in Teams im **Team Admin Center**zum Abschnitt **Aufgaben** , und aktivieren Sie die Option MakeCode-Umschaltfläche **auf ein**. Klicken Sie auf **Speichern** , und warten Sie einige Stunden, bis diese Einstellungen wirksam werden.
 
 Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [Video Demonstration](https://makecode.com/blog/teams/teams-assignments).
 
@@ -60,7 +60,7 @@ Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [V
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-Turnitin ist ein Plagiat-Erkennungsdienst. Hierbei handelt es sich um ein Produkt oder eine Dienstleistung eines Drittanbieters, das seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
+Turnitin ist ein Plagiat-Erkennungsdienst. Hierbei handelt es sich um ein Produkt oder einen Dienst eines Drittanbieters, der seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
 
 Diese Einstellung ist standardmäßig deaktiviert.
 
@@ -82,6 +82,6 @@ Wählen Sie **Integrationen** aus dem Seitenmenü und dann **Integration hinzuf�
 Nachdem Sie den Anweisungen folgen, wird Ihnen der TurnitinApiKey mitgeteilt. Kopieren Sie den API-Schlüssel, und fügen Sie ihn in das Microsoft Teams Admin Center ein.  Dies ist das einzige Mal, dass Sie den Schlüssel anzeigen können.
 ![Screenshot mit dem Kopieren des API-Schlüssels](./educationImages/Assignments_mopo_turnitin3.png)
 
-Wenn Sie im Admin Center für diese Einstellung auf die Schaltfläche " **Speichern** " klicken, dürfen diese Einstellungen bis zu 24 Stunden in Kraft treten.
+Wenn Sie im Admin Center für diese Einstellung auf die Schaltfläche " **Speichern** " klicken, können Sie diese Einstellungen einige Stunden in Kraft setzen.
 
 Sind Sie bereit, die Turnitin-Integration in Teams zu verwenden? Registrieren Sie sich für das [Early Access-Programm](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

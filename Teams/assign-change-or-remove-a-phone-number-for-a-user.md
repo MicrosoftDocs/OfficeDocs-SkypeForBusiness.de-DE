@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine geschäftliche Telefonnummer für Ihre Teams-Benutzer zuweisen, ändern oder entfernen, sodass externe Unternehmen und Kunden Sie anrufen können.
-ms.openlocfilehash: 0be2d66d1a073a031b8112cf4aa8438cfc68b150
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006031"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326802"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -44,21 +44,21 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
  
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
     
-1. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
+1. Klicken Sie in der linken Navigationsleiste auf **VoIP**-Rufnummern  >  **Phone numbers**.
 2. Wählen Sie auf der Seite **Telefonnummern** eine nicht zugewiesene Nummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.  
 3. Suchen Sie im **Bearbeitungs** Bereich unter **zugewiesen an**nach dem Benutzer nach Anzeigename oder Benutzername, und klicken Sie dann auf **zuweisen**.
 4. Wenn Sie den zugehörigen Notfall Standort zuweisen oder ändern möchten, suchen Sie unter **Notfall Standort**nach dem Speicherort, und wählen Sie ihn aus.
 5. Je nachdem, ob Sie dem Benutzer eine e-Mail mit den Informationen zur Telefonnummer senden möchten, deaktivieren oder aktivieren Sie **e-Mail-Nutzer mit Telefonnummerninformationen**. Standardmäßig ist dies aktiviert. 
 6. Klicken Sie auf **Speichern**.
     > [!NOTE]
-    > Aufgrund der Wartezeit zwischen Office 365 und Teams kann es bis zu 24 Stunden dauern, bis die Benutzer aktiviert werden. Wenn die Telefonnummer nach 24 Stunden nicht richtig zugewiesen wurde, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Wir helfen Ihnen gerne weiter!
+    > Aufgrund der Wartezeit zwischen Office 365 und Teams kann es möglicherweise einige Stunden dauern, bis die Benutzer aktiviert werden. Wenn die Telefonnummer nach ein paar Stunden nicht richtig zugewiesen wurde, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Wir helfen Ihnen gerne weiter!
   
 ## <a name="change-a-phone-number-for-a-user"></a>Ändern einer Telefonnummer für einen Benutzer
  
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
     
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen Sie den gewünschten Benutzer und doppelklicken Sie darauf, klicken Sie auf **Konto**, und notieren Sie sich dann unter **Allgemeine Informationen**die Telefonnummer, die dem Benutzer zugewiesen ist.
-2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
+2. Klicken Sie in der linken Navigationsleiste auf **VoIP**-Rufnummern  >  **Phone numbers**.
 3. Wählen Sie auf der Seite **Telefonnummern** die Nummer aus, die Sie in Schritt 1 angegeben haben, und klicken Sie dann auf **Bearbeiten**.  
 4. Klicken Sie im **Bearbeitungs** Bereich unter **zugewiesen an**auf das **X** , um den Benutzer zu entfernen.
 5. Klicken Sie auf **Speichern**.
@@ -72,7 +72,7 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen Sie den gewünschten Benutzer und doppelklicken Sie darauf, klicken Sie auf **Konto**, und notieren Sie sich dann unter **Allgemeine Informationen**die Telefonnummer, die dem Benutzer zugewiesen ist.
-2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
+2. Klicken Sie in der linken Navigationsleiste auf **VoIP**-Rufnummern  >  **Phone numbers**.
 3. Wählen Sie auf der Seite **Telefonnummern** die Nummer aus, die Sie in Schritt 2 angegeben haben, und klicken Sie dann auf **Bearbeiten**.  
 4. Klicken Sie im **Bearbeitungs** Bereich unter **zugewiesen an**auf das **X** , um den Benutzer zu entfernen.
 5. Klicken Sie auf **Speichern**.

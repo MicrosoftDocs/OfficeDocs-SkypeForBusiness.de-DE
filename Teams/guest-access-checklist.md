@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902580"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326602"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Checkliste für den Microsoft Teams-Gastzugriff
 =========================================
@@ -39,7 +39,7 @@ Schauen Sie sich dieses kurze Video an (5:31 Minuten), um zu sehen, wie Sie in M
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Schritt 1: Aktivieren des Gastzugriffs in Teams auf Organisationsebene
 
-Um den Gastzugriff zu aktivieren, navigieren Sie zum **Microsoft Teams Admin Center**. 
+Wenn Sie den Gastzugriff aktivieren möchten, wechseln Sie zum Admin Center unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
 
 1. Wählen Sie im Teams Admin Center **Organisationsweite Einstellungen** > **Gastzugriff**.
 2. Legen Sie **Gastzugriff in Microsoft Teams ermöglichen** auf **An** fest.
@@ -78,7 +78,7 @@ Hierbei handelt es sich um die Azure AD-Einstellungen, die den Gastzugriff in Te
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Schritt 3: Konfigurieren von Microsoft 365-Gruppen
 
-1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Einstellungen, klicken**Sie auf **Dienste**, und wählen Sie dann **Microsoft 365-Gruppen**aus.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Einstellungen**  >  **Einstellungen**, klicken Sie auf **Dienste**, und wählen Sie dann **Microsoft 365-Gruppen**aus.
 
      ![Screenshot der Microsoft 365-Gruppeneinstellungen](media/guest-access-checklist-services-settings.png)
 2. Stellen Sie sicher, dass das Kontrollkästchen **Gruppenmitglieder von außerhalb Ihrer Organisation dürfen auf Gruppeninhalte zugreifen** aktiviert ist. Wenn diese Einstellung nicht aktiviert ist, können Gäste nicht auf Gruppeninhalte zugreifen.

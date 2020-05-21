@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780624"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326792"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Ihrer Microsoft StaffHub-Teams in die Schichten in Microsoft Teams
 
@@ -91,7 +91,7 @@ Wenn diese Voraussetzungen nicht erfüllt werden, schlägt die Verschiebungsanfo
 
 Jeder Benutzer muss über eine aktive Microsoft 365-oder Office 365-Lizenz für [einen berechtigten Plan](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) verfügen und muss eine Teams-Lizenz zugewiesen werden. Wenn Sie Benutzern eine Teams-Lizenz zuweisen, erhalten Sie Zugriff auf Teams.
 
-Sie verwalten die Lizenzen für Teams im Microsoft 365 Admin Center. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](../../user-access.md).
+Sie verwalten die Lizenzen für Teams im Microsoft 365 Admin Center. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](../../user-access.md).
 
 > [!NOTE]
 > Wenn Ihre Organisation Skype for Business verwendet und Sie nicht bereit sind, alle Ihre Benutzer in Teams zu verschieben, können Sie Teams für Ihre Mitarbeiter in der First-work-Abteilung aktivieren, die dann Teams neben Skype for Business ausführen können. In diesem Koexistenzmodus, dem sogenannten " *Inseln*", fungiert jede Client-App als separate Lösung. Weitere Informationen finden Sie Untergrund [Legendes zu Teams und zur Koexistenz und Interoperabilität von Skype for Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
@@ -156,7 +156,7 @@ Führen Sie einen der folgenden Schritte aus:
 
 Teams umfasst eine integrierte Richtlinie für die FirstlineWorker-APP, die Sie zum Anpassen von Teams verwenden können, um die apps hervorzuheben, die für die ersten Mitarbeiter in Ihrer Organisation am wichtigsten sind. Wenn Sie diese Richtlinie Benutzern zuweisen, werden die apps in der Richtlinie in Teams an die APP-Leiste angeheftet, damit Sie schnell und einfach darauf zugreifen können. Andere apps, die zu Teams hinzugefügt wurden, finden Sie in der APP-Leiste, indem Sie auf **... Weitere apps** in den Teams-Desktop-und Webclients und durch wischen im mobilen Team-Client. Standardmäßig umfasst die FirstlineWorker-App-Setup Richtlinie die Aktivitäten, Schichten, Chats und Anruf-apps.
 
-Eine schrittweise Anleitung zum Zuweisen der FirstlineWorker-App-Setup Richtlinie für Benutzer finden Sie unter [Verwenden der FirstlineWorker-App-Setup Richtlinie zum Anheften von Schichten an Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Nachdem Sie eine Richtlinie zugewiesen haben, kann es bis zu 24 Stunden dauern, bis Sie wirksam werden.
+Eine schrittweise Anleitung zum Zuweisen der FirstlineWorker-App-Setup Richtlinie für Benutzer finden Sie unter [Verwenden der FirstlineWorker-App-Setup Richtlinie zum Anheften von Schichten an Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Nachdem Sie eine Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis Sie wirksam wird.
 
 Wir empfehlen, diesen Schritt mindestens eine Woche abzuschließen, bevor Sie Ihre StaffHub-Teams und-Benutzer in Teams verschieben. Wenn Benutzer in Teams angemeldet sind, vergewissern Sie sich, dass Sie die Schicht-App anzeigen und darauf zugreifen können.
 
@@ -300,7 +300,7 @@ Führen Sie die folgenden Schritte aus, um eine Liste aller StaffHub-Team-IDs in
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-Wählen Sie in den Ergebnissen, `Get-StaffHubteamsForTenant` die von dem zuvor ausgeführten Cmdlet zurückgegeben wurden, die Team-IDs aus, die Sie verschieben möchten, und fügen Sie Sie dann einer CSV-Datei (Comma-Separated Values, CSV) hinzu.
+Wählen Sie in den Ergebnissen, die von dem `Get-StaffHubteamsForTenant` zuvor ausgeführten Cmdlet zurückgegeben wurden, die Team-IDs aus, die Sie verschieben möchten, und fügen Sie Sie dann einer CSV-Datei (Comma-Separated Values, CSV) hinzu.
 
 Im folgenden finden Sie ein Beispiel dafür, wie die CSV-Datei formatiert werden soll.
 
