@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann eine Liste der bekannten Probleme in Microsoft Teams-Räumen kennenlernen, einschließlich Update, Benutzeroberfläche, Hardware sowie Einschränkungen und erwarteten Verhaltensweisen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905417"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338225"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
@@ -33,6 +33,8 @@ Dieser Artikel führt die bekannten Probleme für Microsoft Teams Rooms nach Fun
 |  ---        |      ---             |   ---            | --- |
 |  App nicht mehr aktuell         |    Die Microsoft Teams Rooms-Konsole zeigt einen Fehler des Typs „Systemkonfiguration abgelaufen“ an.                |   [Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms](recovery-tool.md)             |  Keine |
 |  Gerät auf nicht unterstützte Version von Windows 10 aktualisiert   |    Das Windows 10-Gerät wurde von Version 1803 auf Version 1809 aktualisiert, was nicht unterstützt wird. Die unterstützte Version ist 1903. |   Dies kann geschehen, wenn die Einstellung ["Gruppenrichtlinie" oder "MDM-Einstellung für DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) ", mit der Sie die Funktionsupdates für eine bestimmte Anzahl von Tagen verzögern können, auf den Höchstwert von 365 Tage festgelegt ist. <br><br> Windows 10, Version 1809, wird in Microsoft Teams-Räumen nicht unterstützt, während Version 1903 unterstützt wird. Ab dem 27. März 2020 ist Version 1809 jedoch mehr als 365 Tage alt. Wenn diese Einstellung nicht geändert wird, versucht Windows, Version 1809 zu installieren, was zu Problemen mit Microsoft Teams-Räumen führen kann.<br><br>Um dieses Problem zu vermeiden, **Entfernen Sie** alle Gruppenrichtlinien-oder MDM-Einstellungen, um Aktualisierungen zu verzögern. Dadurch kann Windows auf die neueste, unterstützte Betriebssystemversion aktualisieren. <br><br>**Wichtig** Die Gruppenrichtlinien-oder MDM-Einstellung muss **entfernt** (Links nicht konfiguriert) und **nicht auf 0 festgelegt**werden. Wenn die Richtlinie auf "0" gesetzt ist, übernimmt Windows die neueste verfügbare Version, die möglicherweise nicht unterstützt wird. |  Keine |
+| Anwendung wird nicht gestartet |  Nach dem Update auf die Anwendungsversion 4.4.41.0 bootet das System auf den schwarzen Bildschirm, wo es möglicherweise hängen bleibt, oder wechseln Sie nach einigen Minuten zum Anmeldebildschirm. | Befolgen Sie die Schritte in [Microsoft Teams rooms-Anwendung startet nicht nach dem Update auf Version 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) , um dieses Problem zu beheben.  | Keine |
+
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Benutzeroberfläche 
@@ -66,8 +68,6 @@ Verwenden Sie immer eine verkabelte 1-Gbit/s-Netzwerkverbindung, um sicherzustel
 ***
 
 Wenn Ihr Microsoft Teams rooms-Gerät die Vertrauensstellung für die Domäne verliert, können Sie sich nicht mehr bei dem Gerät authentifizieren und Einstellungen öffnen. Wenn Sie beispielsweise die Microsoft Teams-Räume aus der Domäne entfernen, nachdem Sie der Domäne beigetreten sind, geht die Vertrauensstellung verloren. Die Lösung ist, sich mit dem lokalen Administratorkonto anzumelden. 
-***
-Die 64-Bit-Version von Windows 10 Enterprise Anniversary Edition (Englisch, Version 1607) wird seit der Microsoft Teams Rooms-Version 3.0.12.0 nicht mehr unterstützt. 
 ***
 Microsoft Teams Rooms ist eine Multi-Window-Anwendung und erfordert ein Front-Room-Display, das mit dem HDMI-Anschluss des Geräts verbunden werden muss, damit die APP ordnungsgemäß funktioniert. Stellen Sie sicher, dass Sie entweder ein HDMI-Display angeschlossen haben oder einen Dummy-HDMI-Stecker verwenden, wenn Sie testen und noch kein Display gekauft haben.
 ***

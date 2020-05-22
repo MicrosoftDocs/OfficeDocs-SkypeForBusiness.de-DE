@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die medienumgehung mit dem direkt Routing von Telefonsystemen planen, mit dem Sie den Pfad des Medien Verkehrs verkürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918694"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338245"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -140,7 +140,9 @@ In Medienpfad für Sprachanwendungen | Immer | Nie |
 Can do Transcodierung (B2BUA)\* | Ja | Nein, nur Audio zwischen Endpunkten weiterleiten | 
 Anzahl der Instanzen weltweit und Standort | 8 gesamt: 2 in den USA Ost und West; 2 in Amsterdam und Dublin; 2 in Hongkong und Singapur; 2 in Japan  | Mehrere
 
-Der IP-Bereich ist 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254). 
+Die IP-Bereiche sind:
+- 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254)
+- 52.120.0.0/14 (IP-Adressen von 52.120.0.1 zu 52.123.255.254)
 
 \*Erläuterung der Transcodierung: 
 
