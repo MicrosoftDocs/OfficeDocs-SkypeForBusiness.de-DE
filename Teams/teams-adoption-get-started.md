@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 47b391fa734b06ba9ffbab9cea3d049322bfc034
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041872"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350119"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Erste Schritte beim Einführen von Microsoft Teams
 
@@ -40,9 +40,9 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 - Sie haben die Desktop-und mobilen Anwendungen heruntergeladen. 
 
-## <a name="office-365-adoption-framework"></a>Office 365-Adoptions Framework
+## <a name="adoption-framework"></a>Adoptions Framework
 
-Office 365 verfügt über ein Adoptions Framework, das auf die wichtigsten Arbeitslasten im Dienst angewendet wird. Dieses Framework behebt die wichtigsten Schritte, die von einer Organisation zur Unterstützung von Cloud-Diensten durchgeführt werden sollten. Weitere Informationen zum allgemeinen Adoptions Framework finden Sie unter [Dokumentation und Ressourcen zu Microsoft Enterprise](https://aka.ms/O365AdoptionHub). 
+Microsoft 365 und Office 365 verfügen über ein Adoptions Framework, das auf die wichtigsten Arbeitslasten im Dienst angewendet wird. Dieses Framework behebt die wichtigsten Schritte, die von einer Organisation zur Unterstützung von Cloud-Diensten durchgeführt werden sollten. Weitere Informationen zum allgemeinen Adoptions Framework finden Sie unter [Dokumentation und Ressourcen zu Microsoft Enterprise](https://aka.ms/O365AdoptionHub). 
 
 In diesem Einführungsplan für Teams haben wir die Schritte in Phasen organisiert und eine bestimmte Anleitung für Teams bereitgestellt, wie in den [Einführungsphasen](#adoption-phases)beschrieben.
 
@@ -54,9 +54,9 @@ Jedes Adoptions Projekt variiert in Größe und Komplexität auf der Grundlage i
 
 - **Experimentieren** – in dieser Phase des kontrollierten Wachstums bringen Sie Ihre internen Champions und Early Adopters an Bord. Sie werden sich mit ihren Geschäftsbenutzern unterhalten, um Szenarien zu finden, die unmittelbar von den Funktionen für Zusammenarbeit und Kommunikation profitieren, die von Teams bereitgestellt werden. Sie sammeln Feedback, das Ihre umfassende Adoptions Phase informiert, und Sie treffen Service Entscheidungen über Governance und Lifecycle Management, die eine erfolgreiche Bereitstellung gewährleisten.
 
-- **Skalieren** – Dies ist die umfangreiche Bereitstellungsphase, in der Sie die Teamfunktionen für alle Ihre Mitarbeiter aktivieren können. In dieser Phase bestimmt die Größe Ihrer Organisation, ob es sich um ein "Go-Big"-Projekt handelt, mit dem Teams für alle Mitarbeiter gleichzeitig aktiviert werden, oder wenn Sie sich an diese nach Region, Unternehmenseinheit oder einer anderen Methode zur Segmentierung ihrer Mitarbeitergruppe wenden werden. In dieser Phase wechseln Sie zu einem kontinuierlichen Übermittlungs Modell. Mitarbeiter, Führungskräfte und Unternehmenseinheiten möchten Ihre Verwendung von Teams erweitern, und Sie benötigen Schulungen und ihr Engagement, um zu verstehen, wie Teams und andere Features von Office 365 optimal genutzt werden können.   
+- **Skalieren** – Dies ist die umfangreiche Bereitstellungsphase, in der Sie die Teamfunktionen für alle Ihre Mitarbeiter aktivieren können. In dieser Phase bestimmt die Größe Ihrer Organisation, ob es sich um ein "Go-Big"-Projekt handelt, mit dem Teams für alle Mitarbeiter gleichzeitig aktiviert werden, oder wenn Sie sich an diese nach Region, Unternehmenseinheit oder einer anderen Methode zur Segmentierung ihrer Mitarbeitergruppe wenden werden. In dieser Phase wechseln Sie zu einem kontinuierlichen Übermittlungs Modell. Mitarbeiter, Führungskräfte und Unternehmenseinheiten möchten Ihre Verwendung von Teams erweitern, und Sie benötigen Schulungen und ihr Engagement, um zu verstehen, wie Teams und andere Features von Microsoft 365 oder Office 365 optimal genutzt werden können.
 
 Jede dieser Adoptions Phasen hängt von ihrer technischen und ökologischen Bereitschaft für Teams ab. Fangen wir an!
 
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt darstellt weiter: [Microsoft Teams Adoption Phase 1: Start](teams-adoption-phase1.md)|
+![Ein Symbol, das den nächsten Schritt darstellt ](media/teams-adoption-next-icon.png) Weiter: [Microsoft Teams Adoption Phase 1: Start](teams-adoption-phase1.md)|

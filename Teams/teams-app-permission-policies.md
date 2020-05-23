@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749812"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350109"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 
@@ -51,7 +51,7 @@ Angenommen, Sie möchten alle Drittanbieter-apps blockieren und bestimmte apps v
 
 Wenn Sie die apps steuern möchten, die für unterschiedliche Benutzergruppen in Ihrer Organisation verfügbar sind, erstellen Sie eine oder mehrere benutzerdefinierte App-Berechtigungsrichtlinien, und weisen Sie diese zu. Sie können separate benutzerdefinierte Richtlinien erstellen und zuweisen, je nachdem, ob apps von Microsoft, Drittanbietern oder Ihrer Organisation veröffentlicht werden. Es ist wichtig zu wissen, dass Sie, nachdem Sie eine benutzerdefinierte Richtlinie erstellt haben, Sie nicht ändern können, wenn apps von Drittanbietern in den organisationsweiten App-Einstellungen deaktiviert sind.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps** > -**Berechtigungsrichtlinien**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps**-  >  **Berechtigungsrichtlinien**.
 2. Klicken Sie auf **Hinzufügen**.
     ![Screenshot der neuen App-Berechtigungsrichtlinie](media/app-permission-policies-new-policy.png)
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
@@ -75,26 +75,32 @@ Wenn Sie die apps steuern möchten, die für unterschiedliche Benutzergruppen in
 
 Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, einschließlich der globalen Richtlinie und der von Ihnen erstellten benutzerdefinierten Richtlinien.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps** > -**Berechtigungsrichtlinien**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps**-  >  **Berechtigungsrichtlinien**.
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
 3. Nehmen Sie hier die gewünschten Änderungen vor. Sie können Einstellungen basierend auf dem App Publisher verwalten und apps basierend auf der Einstellung Zulassen/Blockieren hinzufügen und entfernen.
 4. Klicken Sie auf **Speichern**.
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>Zuweisen einer benutzerdefinierten App-Berechtigungsrichtlinie für Benutzer
 
-Mit dem Microsoft Teams Admin Center können Sie einem oder mehreren Benutzern oder dem Skype for Business PowerShell-Modul eine benutzerdefinierte Richtlinie zuweisen, um Gruppen von Benutzern eine benutzerdefinierte Richtlinie zuzuweisen, beispielsweise alle Benutzer in einer Sicherheitsgruppe oder Verteilergruppe.
+Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinierte Richtlinie einem oder mehreren Benutzern oder dem Skype for Business PowerShell-Modul zuzuweisen, um Benutzern in einer Gruppe eine benutzerdefinierte Richtlinie zuzuweisen, beispielsweise alle Benutzer in einer Sicherheitsgruppe oder Verteilergruppe.
 
-### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>Zuweisen einer benutzerdefinierten App-Berechtigungsrichtlinie zu einem Benutzer
+### <a name="assign-a-custom-app-permission-policy-to-users"></a>Zuweisen einer benutzerdefinierten App-Berechtigungsrichtlinie für Benutzer
+
+So weisen Sie einem Benutzer eine Richtlinie zu:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Wählen Sie unter **App-Berechtigungsrichtlinie**die APP-Berechtigungsrichtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
 
-Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweisen können, finden Sie unter [Batchbearbeitung von Nutzereinstellungen eines Teams](edit-user-settings-in-bulk.md).
+So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu:
+
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, suchen Sie nach den Benutzern, oder Filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Wenn Sie alle Benutzer auswählen möchten, klicken Sie oben in der Tabelle auf das &#x2713; (Häkchen).
+3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf über **nehmen**.  
 
 Sie können auch die folgenden Schritte ausführen:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps** > -**Berechtigungsrichtlinien**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps**-  >  **Berechtigungsrichtlinien**.
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
 3. Wählen Sie **Nutzer verwalten** aus.
 4. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
@@ -133,16 +139,16 @@ In gcc sind alle apps von Drittanbietern standardmäßig blockiert. Darüber hin
 
 Gehen Sie wie folgt vor, um eine Drittanbieter-App für einen Benutzer oder eine Gruppe von Benutzern in Ihrer Organisation zu aktivieren:
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps** > **Verwalten von apps**, und bestätigen Sie dann in der Liste der apps, dass die Drittanbieter-APP, die Sie für eine Gruppe von Benutzern zulassen möchten, auf der Organisationsebene auf **blockiert** festgesetzt ist.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**  >  **Verwalten von apps**, und bestätigen Sie dann in der Liste der apps, dass die Drittanbieter-APP, die Sie für eine Gruppe von Benutzern zulassen möchten, auf der Organisationsebene auf **blockiert** festgesetzt ist.
 
-2. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps** > -**Berechtigungsrichtlinien**, und bearbeiten Sie dann die globale Richtlinie, um die Drittanbieter-APP zu blockieren. Gehen Sie dazu so vor:
+2. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps**-  >  **Berechtigungsrichtlinien**, und bearbeiten Sie dann die globale Richtlinie, um die Drittanbieter-APP zu blockieren. Gehen Sie dazu so vor:
     1. Klicken Sie auf der Seite App-Berechtigungsrichtlinien auf **Global (org-Wide Standard)**, und klicken Sie dann auf **Bearbeiten**.
     2. Wählen Sie unter **apps von Drittanbietern**die Option **bestimmte apps blockieren und alle anderen zulassen**, die APP hinzufügen aus, und klicken Sie dann auf **Speichern**.
 
     > [!NOTE]
     > Es ist wichtig, dies zu tun, bevor Sie mit dem nächsten Schritt fortfahren, um die APP auf Organisationsebene zu ermöglichen. Dies liegt daran, dass alle Benutzer, für die die globale Richtlinie gilt, wenn die APP des Drittanbieters nicht in der globalen App-Berechtigungsrichtlinie blockiert ist, auf die Drittanbieter-App zugreifen können, wenn Sie Sie auf der Organisationsebene zulassen.
 
-3. Zulassen der Drittanbieter-App auf Organisationsebene Gehen Sie dazu in der linken Navigationsleiste zu **Teams apps** > **Verwalten von apps**. Klicken Sie in der Liste der apps links neben dem APP-Namen, um die APP auszuwählen, und wählen Sie dann **zulassen**aus.
+3. Zulassen der Drittanbieter-App auf Organisationsebene Gehen Sie dazu in der linken Navigationsleiste zu **Teams apps**  >  **Verwalten von apps**. Klicken Sie in der Liste der apps links neben dem APP-Namen, um die APP auszuwählen, und wählen Sie dann **zulassen**aus.
 4. [Erstellen Sie eine benutzerdefinierte App-Berechtigungsrichtlinie](#create-a-custom-app-permission-policy) , um die APP zuzulassen, und weisen Sie dann die [Richtlinie](#assign-a-custom-app-permission-policy-to-users) den gewünschten Benutzern zu.
 
 ## <a name="faq"></a>Häufig gestellte Fragen
@@ -191,3 +197,4 @@ Für App-Berechtigungsrichtlinien, die bestimmten Benutzern zugewiesen wurden, w
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
+- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)

@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140696"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349769"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 
-Stellen Sie sicher, dass Sie von Ihrem Dienst und ihren Mitarbeitern Signale zurück erhalten, indem Sie unsere bewährten Methoden für die Berichterstellung durch Benutzer Feedback und Dienststatus befolgen.  In einigen Fällen benötigen Sie möglicherweise Office 365-Administratorrechte für den Zugriff auf bestimmte Dienst Nutzungs-und Integritätsberichte. Wenn Sie nicht der Office 365-Administrator für Ihre Organisation sind, können Sie mit dieser Person die Rolle "berichtsleser" im Microsoft 365 Admin Center erhalten, um auf einige dieser Daten zuzugreifen. 
+Stellen Sie sicher, dass Sie von Ihrem Dienst und ihren Mitarbeitern Signale zurück erhalten, indem Sie unsere bewährten Methoden für die Berichterstellung durch Benutzer Feedback und Dienststatus befolgen.  In einigen Fällen benötigen Sie möglicherweise Administratorrechte für den Zugriff auf bestimmte Dienst Nutzungs-und Integritätsberichte. Wenn Sie nicht der Microsoft 365-oder Office 365-Administrator für Ihre Organisation sind, können Sie mit dieser Person die Rolle "berichtsleser" im Microsoft 365 Admin Center erhalten, um auf einige dieser Daten zuzugreifen.
 
 ## <a name="incorporating-feedback"></a>Einbinden von Feedback 
 
@@ -56,8 +56,8 @@ Bewährte Methode: wenden Sie sich an ihre Champions-Community, um über neue In
 
 Es gibt drei Arten von Berichten, die Sie überprüfen sollten, während Sie Microsoft Teams bereitstellen und übernehmen:
 
-- [Dienststatus](https://status.office365.com/) – sowohl von Office 365 als auch von ihrer internen IT-Supportabteilung.
-- [Dienstaktivität](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – aus Office 365 können Sie [Berichte zu Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)anzeigen. Sie können auch Informationen aus anderen Systemen in Ihrer Organisation verwenden.
+- [Dienststatus](https://status.office365.com/) – sowohl von Microsoft 365 oder Office 365 als auch von ihrer internen IT-Supportabteilung.
+- [Dienstaktivität](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – von Microsoft 365 oder Office 365 aus können Sie [Berichte zu Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)anzeigen. Sie können auch Informationen aus anderen Systemen in Ihrer Organisation verwenden.
 - Service-Zufriedenheit – zusammengestellt aus internen Community-Foren und Umfragen zu bestimmten Erfahrungen
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt darstellt: [Sensibilisierung und Implementierung von Schulungen](teams-adoption-drive-awareness.md)
+![Ein Symbol, das den nächsten Schritt darstellt ](media/teams-adoption-next-icon.png) : [Sensibilisierung und Implementierung von Schulungen](teams-adoption-drive-awareness.md)

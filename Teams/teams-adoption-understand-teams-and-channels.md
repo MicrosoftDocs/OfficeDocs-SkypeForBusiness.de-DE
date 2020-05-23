@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904937"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350299"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
 Die Konzepte von Teams und Kanälen sind grundlegend für eine gesunde, produktive Implementierung von Microsoft Teams. 
 
-- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. 
+- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert.
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in dem die eigentliche Arbeit abgeschlossen ist. 
 
@@ -61,4 +61,4 @@ In einem Organisationsteam (das auf der linken Seite angezeigt wird) werden wich
   
 Sie werden in [Phase 2](teams-adoption-phase2-experiment.md) ihrer Implementierung mehr an der Struktur Ihrer Teams arbeiten.
 
-![Ein Symbol, das den nächsten Schritt](media/teams-adoption-next-icon.png) als nächstes zeigt: [Erstellen Ihrer ersten Teams](teams-adoption-your-first-teams.md)
+![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) als nächstes zeigt: [Erstellen Ihrer ersten Teams](teams-adoption-your-first-teams.md)

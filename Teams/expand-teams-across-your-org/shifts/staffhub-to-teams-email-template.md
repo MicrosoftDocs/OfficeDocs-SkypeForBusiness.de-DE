@@ -17,17 +17,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1baea026c70d3132e1753e334341b89e261a1493
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 38316b5526e3dbf702e2c6217d996062d405f789
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825773"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349579"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>StaffHub zu Teams Beispiel-e-Mail für Benutzer
 
 > [!IMPORTANT]
-> 2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird am 31. Dezember 2019 nicht mehr für alle Benutzer funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> Gültig 30. Juni 2020, Microsoft StaffHub wird eingestellt. Einige StaffHub-Funktionen werden in Microsoft Teams integriert. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wird am 30. Juni 2020 nicht mehr für alle Benutzer funktionieren. Jedem Benutzer, der StaffHub zu öffnen versucht, wird eine Meldung angezeigt, die ihn zum Microsoft Teams-Download leitet. Weitere Informationen finden Sie unter [Microsoft StaffHub wird eingestellt](microsoft-staffhub-to-be-retired.md). 
 
 Um sicherzustellen, dass Ihr Wechsel von StaffHub zu Teams erfolgreich war, haben wir eine e-Mail-Vorlage erstellt, die Sie verwenden können, um die Änderung Benutzern in Ihrer Organisation zu vermitteln. Verwenden Sie dies als Teil ihrer Onboarding-Strategie, damit Ihre Benutzerinformationen zu Schichten und dem Übergang zu Teams erhalten und die Einführung in Ihrer Organisation vorangetrieben werden können.
 
@@ -37,23 +37,23 @@ Um sicherzustellen, dass Ihr Wechsel von StaffHub zu Teams erfolgreich war, habe
 **Betreff**: Verschieben in Schichten in Microsoft Teams<br>
 **An**: StaffHub Team Manager und Teams
 ***
-In den nächsten Wochen sehen Sie die neue Funktionalität, die von &lt;Contoso IT&gt;bereit steht. Diese neue Funktion ermöglicht es Ihnen, Microsoft Teams zu verwenden, um zu chatten, zusammenzuarbeiten und ihre Schichtpläne anzuzeigen.
+In den nächsten Wochen sehen Sie die neue Funktionalität, die von &lt; contoso IT bereit steht &gt; . Diese neue Funktion ermöglicht es Ihnen, Microsoft Teams zu verwenden, um zu chatten, zusammenzuarbeiten und ihre Schichtpläne anzuzeigen.
 
 Mit der App "Schichten" in Teams wird StaffHub als Planungs Verwaltungstool ersetzt, und der Zugriff auf StaffHub steht nun nicht mehr zur Verfügung. Die Schicht-App-Erfahrung in Teams sollte ihrer derzeitigen planungserfahrung in StaffHub sehr ähnlich sein und einen reibungslosen Übergang aufweisen.
 
 Wir hoffen, dass diese Tools in Teams Ihnen den Arbeitsalltag erleichtern und es Ihnen ermöglichen, mühelos mit Ihrem Team und der restlichen Organisation in Verbindung zu bleiben.
 
-**Nächste Schritte**
+## <a name="next-steps"></a>Nächste Schritte
 
-Sie müssen jetzt keine weiteren Schritte Unternehmen. Die IT-Abteilung verschiebt alle Ihre Planungsdaten von StaffHub in die Schichten-app in Teams, und Sie &lt;beginnen&gt;am Datum mit der Verwendung von Teams anstelle von StaffHub, um auf Ihre Schichtpläne zuzugreifen.  
+Sie müssen jetzt keine weiteren Schritte Unternehmen. Die IT-Abteilung verschiebt alle Ihre Planungsdaten von StaffHub in die Schichten-app in Teams, und &lt; &gt; Sie beginnen am Datum mit der Verwendung von Teams anstelle von StaffHub, um auf Ihre Schichtpläne zuzugreifen.  
 
-Suchen Sie nach weiteren e-Mails von &lt;Contoso IT&gt; , die Ihnen mitteilen, wann Sie diese Funktion zusätzlich zu den Anleitungen zum Verwalten Ihrer Schichten und zur Zusammenarbeit in Teams nutzen können.  
+Suchen Sie nach weiteren e-Mails von &lt; contoso IT &gt; , die Ihnen mitteilen, wann Sie diese Funktion zusätzlich zu den Anleitungen zum Verwalten Ihrer Schichten und zur Zusammenarbeit in Teams nutzen können.  
 
 Wir danken Ihnen für Ihre Geduld.<br>
 Danke<br>
 &lt;Contoso IT&gt;
 
-Wenn Sie Soforthilfe benötigen, wenden Sie sich &lt;an die Contoso&gt;IT &lt;-e-Mail&gt;, die Contoso-IT-Supportnummer.
+Wenn Sie Soforthilfe benötigen, wenden Sie sich an die &lt; contoso IT-e-Mail &gt; , die Contoso-IT- &lt; Supportnummer &gt; .
 <br>
 
 ***

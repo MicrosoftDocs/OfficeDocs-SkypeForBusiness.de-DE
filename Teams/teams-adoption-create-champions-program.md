@@ -21,12 +21,12 @@ f1.keywords:
 description: Hier erfahren Sie, wie Sie ein Team von Champions trainieren, um die Einführung von Teams zu fördern, indem Sie in Ihrer Organisation Sensibilisierung, Akzeptanz und Bildung fördern.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904757"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350259"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Erstellen Ihres Champions-Programms für Microsoft Teams
 
@@ -45,7 +45,7 @@ Champions sollten:
 
 Verwenden Sie unser [Champions-Programmhandbuch](https://go.microsoft.com/fwlink/?linkid=854665) , um dieses Programm in Ihrer Organisation zu erstellen. Unsere bewährten Methoden für diese Community sind:
 
-- Treten Sie dem Office 365 Champions-Programm bei: Stellen Sie sicher, dass die Anführer des Champion-Programms (und möglicherweise alle Unternehmens Champions) Mitglieder des [Microsoft Office 365 Champion](https://aka.ms/O365Champions)-Programms sind. Dieser ﻿kostenlose monatliche Community-Anruf bietet wertvolle Informationen, wie Sie Ihr eigenes Programm ausführen und das meiste aus Teams und anderen Office 365-Diensten erzielen können. Programm Materialien können in Ihrem eigenen internen Programm wieder verwendet werden.
+- Treten Sie dem Microsoft 365-oder Microsoft Office 365 [Champions-Programm](https://aka.ms/O365Champions)bei. Stellen Sie sicher, dass mindestens die Leiter des Champion-Programms (und möglicherweise alle Unternehmens Champions) Mitglieder des Programms sind. Dieser ﻿kostenlose monatliche Community-Anruf bietet wertvolle Informationen für das Ausführen Ihres eigenen Programms und die Nutzung von Teams und anderen Microsoft 365-oder Office 365-Diensten. Programm Materialien können in Ihrem eigenen internen Programm wieder verwendet werden.
 
 - Verwenden Sie das Teamarbeits-Champion-Team: ihre Champions sollten das Team, das Sie eingerichtet haben, für die gesamte Programm Kommunikation, das Feedback und die Ressourcensuche verwenden.  Auf diese Weise werden Sie mit dem Produkt und seinen Vorteilen zunehmend vertraut.
 
@@ -60,5 +60,5 @@ Verwenden Sie unser [Champions-Programmhandbuch](https://go.microsoft.com/fwlink
 
 - Trainieren Sie Champions frühzeitig und häufig: Ihr Programm Kick-off und monatliche Besprechungen können verwendet werden, um Fähigkeiten in ihrer Champion-Community aufzubauen. Nutzen Sie diese Möglichkeiten, um Sie an Bord zu bringen, ihre anfängliche Schulung durchzuführen, Sie zu ermutigen, an unseren Kursen teilzunehmen, und sicherzustellen, dass Sie bereit sind, Ihre Mitarbeiter zu unterstützen, während Sie in der Experimentierphase voranschreiten.  
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: durch [führen des Schnellstarts von Governance](teams-adoption-governance-quick-start.md)
+![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) als nächstes darstellt: durch [führen des Schnellstarts von Governance](teams-adoption-governance-quick-start.md)
 

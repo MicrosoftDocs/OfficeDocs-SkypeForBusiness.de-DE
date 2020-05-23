@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326792"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350309"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Ihrer Microsoft StaffHub-Teams in die Schichten in Microsoft Teams
 
 > [!IMPORTANT]
-> Am 31. Dezember 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wird am 31. Dezember 2019 für alle Benutzer eingestellt. Jedem Benutzer, der StaffHub zu öffnen versucht, wird eine Meldung angezeigt, die ihn zum Microsoft Teams-Download leitet. Weitere Informationen finden Sie unter [Microsoft StaffHub wird eingestellt](microsoft-staffhub-to-be-retired.md).
+> Gültig 30. Juni 2020, Microsoft StaffHub wird eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wird am 30. Juni 2020 nicht mehr für alle Benutzer funktionieren. Jedem Benutzer, der StaffHub zu öffnen versucht, wird eine Meldung angezeigt, die ihn zum Microsoft Teams-Download leitet. Weitere Informationen finden Sie unter [Microsoft StaffHub wird eingestellt](microsoft-staffhub-to-be-retired.md).
 
 Die Schicht-app in Teams bietet einen einfachen Ansatz für die Verwaltung von Zeitplänen und den konstanten Fluss von Schicht-Swaps und-Abbrüchen, die täglich auftreten. Team Mitglieder können auf Ihre Plan-und Schicht Informationen direkt in der APP und auf Ihren Geräten zugreifen, um Ihre Einstellungen festzulegen, ihre Zeitpläne zu verwalten und die Freizeit zu beantragen.
 
@@ -50,13 +50,13 @@ Sie müssen ein globaler Administrator sein, um die in diesem Artikel beschriebe
 
 ### <a name="when-to-move-to-teams"></a>Zeitpunkt für den Wechsel zu Teams
 
-StaffHub wird im Dezember 31, 2019, eingestellt. Wir empfehlen Ihnen, die Verwendung von Teams noch heute zu verwenden und zu beginnen, die Teams und Benutzer Ihrer Organisation aus StaffHub zu wechseln. Da die Zeitplanverwaltung das am häufigsten verwendete Feature in StaffHub ist, empfehlen wir, dass Sie die app "Schichten" in Teams verwenden, die sich weiter bewegen.
+30. Juni 2020, StaffHub wird eingestellt. Wir empfehlen Ihnen, die Verwendung von Teams noch heute zu verwenden und zu beginnen, die Teams und Benutzer Ihrer Organisation aus StaffHub zu wechseln. Da die Zeitplanverwaltung das am häufigsten verwendete Feature in StaffHub ist, empfehlen wir, dass Sie die app "Schichten" in Teams verwenden, die sich weiter bewegen.
 
 ### <a name="what-is-moved-to-teams"></a>Was wird in Teams verschoben?
 
 Wenn Sie ein StaffHub-Team verschieben, werden Teammitgliedschaft, Benutzer Details, Team Zeitpläne und Chatdaten in Teams verschoben. Dateien werden nicht verschoben, wenn Sie ein StaffHub-Team verschieben. Wenn ein StaffHub-Team Dateien enthält, die Sie auch in Teams verschieben möchten, verschieben Sie die Dateien in einem separaten Schritt.
 
-Jedes StaffHub-Team benötigt eine entsprechende Office 365-Gruppe. Wenn ein StaffHub-Team einer Office 365-Gruppe zugeordnet ist, bleibt die Datenschutzeinstellung der Gruppe erhalten, wenn Sie das Team verschieben. Wenn einem StaffHub-Team keine Office 365-Gruppe zugeordnet ist, wird automatisch eine Gruppe mit privater Privatsphäre-Einstellung erstellt, um den Übergang zu unterstützen.  Angesichts der Unterschiede bei der Team-und Gruppenbenennung zwischen Teams und StaffHub wird möglicherweise in Teams ein anderer Teamname angezeigt. 
+Jedes StaffHub-Team benötigt eine entsprechende Microsoft 365-oder Office 365-Gruppe. Wenn ein StaffHub-Team einer Microsoft 365-Gruppe zugeordnet ist, bleibt die Datenschutzeinstellung der Gruppe erhalten, wenn Sie das Team verschieben. Wenn einem StaffHub-Team keine Microsoft 365-Gruppe zugeordnet ist, wird automatisch eine Gruppe mit privater Privatsphäre-Einstellung erstellt, um den Übergang zu unterstützen.  Angesichts der Unterschiede bei der Team-und Gruppenbenennung zwischen Teams und StaffHub wird möglicherweise in Teams ein anderer Teamname angezeigt. 
 
 Wenn Sie Teams von StaffHub in Teams umstellen, haben die Benutzer keinen Zugriff mehr auf ihre Zeitpläne in StaffHub und werden an Schichten in Teams umgeleitet. Wir empfehlen, dass Sie diese Änderung in Ihrer Organisation übermitteln, um Unterbrechungen zu minimieren und Benutzer zu ermutigen, Teams zu übernehmen und zu erkunden. Wenn Sie über Azure AD Premium verfügen, können Sie [einen Bericht ausführen](run-report-to-show-staffhub-usage.md) , um eine Liste der StaffHub-Benutzer in Ihrer Organisation abzurufen, die über diese Änderung Bescheid wissen müssen.  
 
@@ -364,7 +364,7 @@ Dies kann auftreten, wenn die Gruppe, die dem StaffHub-Team zugeordnet ist, kein
 
 **Wenn Sie versuchen, Dateien von StaffHub in Teams zu verschieben, erhalten Sie die Fehlermeldung "Berechtigung verweigert".**
 
-Dies kann auftreten, wenn Sie versuchen, Dateien in einer privaten Office 365-Gruppe zu verschieben, in der Sie nicht Mitglied sind. Wenn dies der Fall ist, verwenden Sie das [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) -Cmdlet, um sich selbst dem StaffHub-Team hinzuzufügen, und verschieben Sie dann die Dateien. Nachdem Sie die Dateien verschoben haben, verwenden Sie das Cmdlet [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) , um sich selbst aus dem Team zu entfernen. 
+Dies kann auftreten, wenn Sie versuchen, Dateien in einer privaten Microsoft 365-Gruppe zu verschieben, von der Sie nicht Mitglied sind. Wenn dies der Fall ist, verwenden Sie das [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) -Cmdlet, um sich selbst dem StaffHub-Team hinzuzufügen, und verschieben Sie dann die Dateien. Nachdem Sie die Dateien verschoben haben, verwenden Sie das Cmdlet [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) , um sich selbst aus dem Team zu entfernen. 
 
 **Wenn Sie versuchen, Dateien aus StaffHub in Teams zu verschieben, erhalten Sie eine Fehlermeldung, die besagt, dass der Ordner "Allgemein" nicht vorhanden ist.**
 

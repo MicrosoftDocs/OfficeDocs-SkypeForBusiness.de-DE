@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904350"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350129"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
-Sensibilisierung und Schulung sind das Marketing-und Kommunikationssegment ihrer allgemeinen Adoptions Strategie. Dadurch wird sichergestellt, dass Ihre Mitarbeiter über die neuen Funktionen von Microsoft Teams und die zugrunde liegenden Office 365-Dienste und-apps informiert sind.
+Sensibilisierung und Schulung sind das Marketing-und Kommunikationssegment ihrer allgemeinen Adoptions Strategie. Dadurch wird sichergestellt, dass Ihre Mitarbeiter über die neuen Funktionen von Microsoft Teams und die zugrunde liegenden Microsoft 365-oder Office 365-Dienste und-apps informiert sind.
    
 Sowohl für Ihre anfänglichen Piloten als auch für ihre eventuelle unternehmensweite Einführung sollte Ihre interne Kommunikation eine Priorität sein. Sie sollten Folgendes umfassen:
 
@@ -49,13 +49,13 @@ Wenn Ihr Unternehmen über ein zentrales Intranet-Portal für Neuigkeiten, Infor
 
 ## <a name="implement-end-user-training"></a>Implementieren von Endbenutzerschulungen
 
-Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer bereitzustellen, während Personen mit Microsoft Teams und anderen Office 365-Diensten beginnen. Besuchen Sie unsere Ressourcen Seiten, um weitere Informationen zu erhalten:
+Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer bereitzustellen, während Personen mit der Verwendung von Microsoft Teams und anderen Microsoft 365-oder Office 365-Diensten beginnen. Besuchen Sie unsere Ressourcen Seiten, um weitere Informationen zu erhalten:
 
 - [Schulung von Kursleitern für Benutzerschulungen für Teams](instructor-led-training-teams-landing-page.md)
 - [Administrator Schulungen für Teams](itadmin-readiness.md)
 - [Online-Videoschulung für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Kaffee in der Cloud Online-Schulung für Champions & IT-Experten](https://aka.ms/CoffeeintheCloud) 
-- [Tag im Leben Office 365-Schulung – Spickzettel](https://aka.ms/O365AdoptionTools)
+- [Tag im Leben Microsoft 365 und Office 365-Schulungs-Spickzettel](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Messen und Teilen des Erfolgs
 
@@ -71,4 +71,4 @@ Teilen Sie die Einblicke, die Sie von Ihren Feedback Kanälen erhalten, mit dem 
 
 [Weitere Informationen zu den Microsoft Teams-Nutzungsberichten finden Sie im Microsoft 365 Admin Center.](teams-activity-reports.md)
 
-![Ein Symbol, das die nächsten Schritte](media/teams-adoption-next-icon.png) zeigt: [Planen von Dienst Integritätsprüfungen](teams-adoption-schedule-service-health-reviews.md)
+![Ein Symbol, das die nächsten Schritte zeigt ](media/teams-adoption-next-icon.png) : [Planen von Dienst Integritätsprüfungen](teams-adoption-schedule-service-health-reviews.md)

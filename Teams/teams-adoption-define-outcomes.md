@@ -21,12 +21,12 @@ f1.keywords:
 description: Erfahren Sie, wie Sie die Ergebnisse und den Erfolg ihrer umfassenden Aktivierung von Teams ermitteln können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5a51caae2e8d8e9005aad3d8e669eead3b7a0765
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140798"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350139"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
@@ -79,13 +79,13 @@ Teams ist eine transformative Technologie, und abhängig von der Größe Ihrer O
 | Teams zuerst | Team-Core | Teams gehen groß | Skype nebeneinander | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Führen der Cloud-Bereitstellung mit Teams | Lead Zusammenarbeitsszenario-Aktivierung mit Teams | Alle Mitarbeiter in Teams und organisationsweiten Teams | Aktivieren von Teams und Skype for Business | Migrieren von Benutzern von Skype for Business zu Teams |
-| -Anwendbar auf neue oder niedrige Nutzung von Office 365-Kunden <br/>-Führen mit Teams in kundenspezifischem Szenario <br/>– Integrierte Benutzeroberfläche und beschleunigte Wertschöpfung für Office 365 <br/>-Durchführen einer Zusammenarbeit zur Vermeidung der seriellen Implementierung | -Aktivieren von Teams zusammen mit OneDrive und SharePoint Online <br/>-Erstellen eines Unternehmensintranets zum Freigeben von Nachrichten Ressourcen und Videos mit Microsoft Stream<br/>**Besser zusammen**: <br/>Teams<br/>SharePoint<br/>Jammern<br/>Planner<br/>PowerApps |-Für Kunden mit weniger als 5000 Plätzen (aktuelle Beschränkung)<br/>– Aktivieren der organisationsübergreifenden Zusammenarbeit mit einem Team für alle<br/>-Automatisieren allgemeiner Aufgaben (Urlaubsanfragen, Mitarbeiterbefragungen, Executive-Engagement) |-Einsatz von Teams-Core-Taktiken zur Beschleunigung der Zusammenarbeit<br/>– Hervorheben von Szenarien für Besprechungen auf der Grundlage der erforderlichen Größe und Funktionsgruppe</br>-Nutzung von Skype for Business für Anrufe in Unternehmen, Interoperabilität und Hybrid Szenarien<br/>– Verwenden der öffentlichen Roadmap für die Planung von Funktionen |-Planen des Umzugs in Teams von Skype for Business durch Erstellen einer Service Strategy-Roadmap für den Kunden<br/>-An Funktionsfreigabe Zeitplan anfügen<br/>-Empfehlen Sie, dass Sie den Übergang von Seite zu Seite und Teams Core erleichtern
+| -Anwendbar auf neue oder niedrige Nutzung von Microsoft 365-oder Office 365-Kunden <br/>-Führen mit Teams in kundenspezifischem Szenario <br/>– Integrierte Benutzeroberfläche und schnellere Wertschöpfung für Microsoft 365 oder Office 365 <br/>-Durchführen einer Zusammenarbeit zur Vermeidung der seriellen Implementierung | -Aktivieren von Teams zusammen mit OneDrive und SharePoint Online <br/>-Erstellen eines Unternehmensintranets zum Freigeben von Nachrichten Ressourcen und Videos mit Microsoft Stream<br/>**Besser zusammen**: <br/>Teams<br/>SharePoint<br/>Jammern<br/>Planner<br/>PowerApps |-Für Kunden mit weniger als 5000 Plätzen (aktuelle Beschränkung)<br/>– Aktivieren der organisationsübergreifenden Zusammenarbeit mit einem Team für alle<br/>-Automatisieren allgemeiner Aufgaben (Urlaubsanfragen, Mitarbeiterbefragungen, Executive-Engagement) |-Einsatz von Teams-Core-Taktiken zur Beschleunigung der Zusammenarbeit<br/>– Hervorheben von Szenarien für Besprechungen auf der Grundlage der erforderlichen Größe und Funktionsgruppe</br>-Nutzung von Skype for Business für Anrufe in Unternehmen, Interoperabilität und Hybrid Szenarien<br/>– Verwenden der öffentlichen Roadmap für die Planung von Funktionen |-Planen des Umzugs in Teams von Skype for Business durch Erstellen einer Service Strategy-Roadmap für den Kunden<br/>-An Funktionsfreigabe Zeitplan anfügen<br/>-Empfehlen Sie, dass Sie den Übergang von Seite zu Seite und Teams Core erleichtern
 
 Die folgenden Empfehlungen gelten für die meisten Kundenorganisationen. Es gibt jedoch Ausnahmen. Wenn Sie Anleitungen für ein Szenario erhalten möchten, das hier nicht behandelt wird, stellen Sie Ihre Fragen in unserer Driving Adoption-Community, oder wenden Sie sich an das schnell Team oder das Microsoft-Partnernetzwerk.
 
 - **Wählen Sie Teams First oder Teams Core aus**: die meisten Organisationen verfügen über eine vorhandene Investition in die Microsoft-Technologie. Möglicherweise können Sie mehrere Arbeitslasten gleichzeitig aktivieren, wie etwa Exchange Online, OneDrive for Business oder SharePoint. In diesen Fällen ist das Auswählen von Teams First oder Teams Core eine kluge Wahl. Damit können Ihre Benutzer sich an die erweiterte Zusammenarbeit in Teams gewöhnen. Ihr Projektteam für Zusammenarbeit kann dann planen, zusätzliche Funktionen bereitzustellen und die erforderlichen Schulungen und Unterstützung für den erfolgreichen Abschluss bereitzustellen. 
 
-- **Wählen Sie Teams Go Big**: in neuen Office 365-Kundenorganisationen ist es oft am besten, einen Teams Go Big-Ansatz zu nutzen, um die Ermüdungs Änderungen zu minimieren, die durch das mehrfache Erlernen neuer Technologien verursacht werden. Sie werden den größten Vorteil erzielen, indem Sie Teams für zentrale Zusammenarbeit und Besprechungen, SharePoint, OneDrive, Planner und andere Arbeitsauslastungen aktivieren und ihren Mitarbeitern ermöglichen, diese im Kontext Ihrer Team Bereitstellung zu erfahren. 
+- **Wählen Sie Teams Go Big**: in neuen Microsoft 365-oder Office 365-Kundenorganisationen ist es oft am besten, einen Teams go-großen Ansatz zu nutzen, um die Ermüdung zu minimieren, die durch das mehrfache Erlernen neuer Technologien verursacht wird. Sie werden den größten Vorteil erzielen, indem Sie Teams für zentrale Zusammenarbeit und Besprechungen, SharePoint, OneDrive, Planner und andere Arbeitsauslastungen aktivieren und ihren Mitarbeitern ermöglichen, diese im Kontext Ihrer Team Bereitstellung zu erfahren. 
 
     Teams Go Big ist auch die bevorzugte Enablement-Strategie für Organisationen unter 1.000-Mitarbeitern, die ihre Mitarbeiterkommunikation und-Engagement vereinfachen möchten. Die Verwendung des organisationsweiten Teams kann Personen zusammenbringen, um allgemeine Aufgaben und Initiativen auf jedem Gerät zu überprüfen. 
 
@@ -137,7 +137,7 @@ Beispiele für bewährte Methoden für die Bereitstellung und Verwaltung auf Tea
 
 Ein wesentlicher Bestandteil des Vorantreibens der digitalen Transformation und Nutzung in Microsoft Teams ist die Zusammenarbeit mit ihren Geschäftseinheiten, um zu verstehen, welche Anforderungen, Chancen und Schwierigkeiten Sie haben. Während Sie der traditionellen it-to-Business-Konversation ähnlich sind, sollten Sie sich auf das konzentrieren, was erforderlich ist. Hören Sie, bevor Sie zu technischen Anforderungen wechseln. In vielen Fällen erfüllen die Features in Microsoft Teams die Anforderungen Ihrer Organisation.   
 
-Bewährte Methode: bevor Sie eine benutzerdefinierte Lösung entwickeln, sollten Sie sicherstellen, dass Ihre Organisation die Out-of-the-Box-Funktionen von Office 365 vollständig verwendet. Die Entwicklung von benutzerdefinierten Lösungen hat immer langfristige Kosten für Ihre IT-und Supportabteilungen.
+Bewährte Methode: bevor Sie eine benutzerdefinierte Lösung entwickeln, sollten Sie sicherstellen, dass Ihre Organisation die Out-of-the-Box-Funktionen von Microsoft 365 oder Office 365 vollständig verwendet. Die Entwicklung von benutzerdefinierten Lösungen hat immer langfristige Kosten für Ihre IT-und Supportabteilungen.
  
 Führen Sie die folgenden Schritte aus, um Ihre Arbeit mit Geschäftseinheiten zu optimieren.  Erkennen Sie, dass dieser Prozess in sehr großen, multinationalen Unternehmen lange nach der ersten großen Bereitstellung von Microsoft Teams fortgesetzt werden kann:
 
@@ -147,4 +147,4 @@ Führen Sie die folgenden Schritte aus, um Ihre Arbeit mit Geschäftseinheiten z
 4. Erfassen von Feedback und entwickeln von Champions mit Geschäfts Einheits Wissen zur Unterstützung des Übergangs
 5. Richten Sie monatliche Prüfpunkte ein, um den Fortschritt zu besprechen und den Rückstand weiterer Projekte zu priorisieren.
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Optimieren von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)
+![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) als nächstes darstellt: [Optimieren von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)

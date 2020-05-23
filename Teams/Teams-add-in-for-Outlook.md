@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321614"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349609"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -44,7 +44,7 @@ Das Team Besprechungs-Add-in wird automatisch für Benutzer installiert, die Mic
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Teams Meeting-Add-In in Outlook für Mac
 
-Die Schaltfläche „Teams Meeting“ in Outlook für Mac wird im Menüband von Outlook für Mac angezeigt, wenn Outlook im Produktions-Build 16.24.414.0 und höher ausgeführt und als Office 365-Kundenabonnement aktiviert wird.
+Die Schaltfläche "Teams-Besprechung" in Outlook für Mac wird im Menüband von Outlook für Mac angezeigt, wenn Outlook den Produktions-Build 16.24.414.0 und höher ausführt und mit einem Microsoft 365-oder Office 365-Clientabonnement aktiviert ist.
 
 Die Besprechungskoordinaten (der Link zum Beitreten zu einer Teams-Besprechung und die Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf **Senden** geklickt hat.  
 

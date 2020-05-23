@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Patienten-App für Teams-Administratoren
-ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780404"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350179"
 ---
 # <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die Patienten-App
 
@@ -28,7 +28,7 @@ Ein Überwachungsprotokoll für die APP-Aktivität der Patienten ermöglicht es 
 
 ## <a name="meet-hipaa-requirements"></a>Erfüllen der HIPAA-Anforderungen
 
-Gemäß den HIPAA-Richtlinien müssen Gesundheitsdienstleister Aufzeichnungen über den gesamten Zugriff auf Phi behalten, damit die Änderungen überprüft werden können. Microsoft setzt sich für seine Unternehmenskunden ein, die Microsoft Teams verwenden, und um Ihnen zu helfen, die HIPAA-Anforderungen und-Steuerelemente zu erfüllen. Der Zugriff auf Phi über die Patienten-APP wird vollständig nachverfolgt, und Protokolle werden im M365 Security and Compliance Center zur Verfügung gestellt, wie im Artikel [Audit Log Search Funktionalität](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) beschrieben.
+Gemäß den HIPAA-Richtlinien müssen Gesundheitsdienstleister Aufzeichnungen über den gesamten Zugriff auf Phi behalten, damit die Änderungen überprüft werden können. Microsoft setzt sich für seine Unternehmenskunden ein, die Microsoft Teams verwenden, und um Ihnen zu helfen, die HIPAA-Anforderungen und-Steuerelemente zu erfüllen. Der Zugriff auf Phi über die Patienten-APP wird vollständig nachverfolgt, und Protokolle werden im Microsoft 365 Compliance Center zur Verfügung gestellt, wie im Artikel [Audit Log Search Funktionalität](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) beschrieben.
 
 > [!IMPORTANT]
 > Die Belastung durch den Schutz der Privatsphäre des Patienten wird dem Leistungserbringer gesetzlich auferlegt. Das Gesetz berechtigt die Patienten zum Datenschutz und setzt voraus, dass ein IT-Administrator oder HIPAA-Controller einfach feststellen kann, welche Krankenpfleger, Kliniker oder Sozialarbeiter auf Patientendatensätze zugegriffen oder diese geändert haben. Eines der häufigsten Beispiele einer Phi-Zugriffsverletzung ist der Zugriff auf VIP-Patienten. Die Überwachungsprotokoll Funktion ist erforderlich, um Untersuchungen zu einer Phi-Zugriffsverletzung durchzuführen und die HIPAA-Anforderungen zu erfüllen.
@@ -41,7 +41,7 @@ Eine Überwachung ist von mehreren vorherigen Konfigurationen abhängig:
 
 1. Der Administrator müsste mit seinem FHIR-Dienstanbieter zusammenarbeiten, um EMR in einem von der Patienten-App verwendeten Format zu verwenden. Weitere Informationen finden Sie unter [integrieren elektronischer Gesundheitsdatensätze in Microsoft Teams](patients-app.md).
 2. Ein Administrator des Gesundheits Anbieters müsste die Patienten-App im Team Admin Center aktivieren. Weitere Informationen finden Sie unter [Verwalten von App-Setup Richtlinien in Microsoft Teams und in](../../teams-app-setup-policies.md) verwandten Artikeln.
-3. Der Administrator muss Aktivitäts Überwachungen in Office 365 aktivieren, und zwar auf die gleiche Weise, wie Sie jede Aktivitätsprotokoll Überwachung in Office 365 aktivieren, wie in beschrieben, [bevor Sie beginnen](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) , und [Aktivieren oder deaktivieren Sie die Überwachungsprotokoll Suche](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Wenn die Überwachungsprotokollierung bereits aktiviert ist, wird für die Patienten-App nichts besonderes benötigt. Jedes Mal, wenn ein medizinischer Anbieter die app in einem Team installiert und ausführt, zeichnen die Überwachungsprotokolle ihre Phi-Aktivität auf.
+3. Der Administrator muss Aktivitäts Überwachungen aktivieren, wie dies bei der Überwachung von Aktivitätsprotokollen möglich ist, wie in beschrieben, [bevor Sie beginnen](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) , und aktivieren [oder Deaktivieren der Überwachungsprotokoll Suche](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Wenn die Überwachungsprotokollierung bereits aktiviert ist, wird für die Patienten-App nichts besonderes benötigt. Jedes Mal, wenn ein medizinischer Anbieter die app in einem Team installiert und ausführt, zeichnen die Überwachungsprotokolle ihre Phi-Aktivität auf.
 4. Der Administrator müsste dann die Verfügbarkeit der Patienten-App ankündigen, und die Mitarbeiter des Gesundheitswesens müssten mit der Generierung von Aktivitäten beginnen, die in einer Überwachung enthalten sein sollen.
 
 <!-- add link out to client doc when available -->

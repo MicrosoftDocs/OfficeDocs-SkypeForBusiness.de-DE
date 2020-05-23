@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905667"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349709"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams-Einführungsphase 1 – Start
 
@@ -67,10 +67,10 @@ In den meisten Fällen sollte dieses anfängliche Team eine kleine Gruppe gleich
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
-Die [Microsoft Technical Community](https://aka.ms/TechCommunity) bietet Peer-provided-Einblicke in Akzeptanz und technische Probleme für viele Office 365-Produkte. Wir empfehlen, dass Sie sich an den folgenden Communities beteiligen:
+Die [Microsoft Technical Community](https://aka.ms/TechCommunity) bietet Peer-provided-Einblicke in Adoptions-und technische Probleme für viele Microsoft 365-und Office 365-Produkte. Wir empfehlen, dass Sie sich an den folgenden Communities beteiligen:
 
 - [Technische Community für Microsoft Teams](https://aka.ms/TeamsCommunity) – erhalten Sie Produkt Fragen beantwortet, lernen Sie von anderen Teams-Kunden, und folgen Sie unserem Blog, um über neue Features und Anwendungsfälle für Teams auf dem Laufenden zu bleiben. 
-- [Office 365 Champions-Programm](https://aka.ms/O365Champions) und die Driving Adoption-Community – erfahren Sie von ihren Kollegen, wie Sie die Einführung von Office 365-Arbeitsauslastungen wie Teams, SharePoint, jammern und anderen Produkten optimal steuern können. Offen für IT-Experten, Geschäftsbenutzer, den "zufälligen" Entwickler und alle, die sich für die Einführung von Cloud-Diensten interessieren.  
+- [Champions-Programm](https://aka.ms/O365Champions) und die Driving-Adoptions-Community – erfahren Sie von ihren Kollegen, wie Sie die Einführung von Microsoft 365-oder Office 365-Arbeitsauslastungen wie Teams, SharePoint, jammern und anderen Produkten optimal steuern können. Offen für IT-Experten, Geschäftsbenutzer, den "zufälligen" Entwickler und alle, die sich für die Einführung von Cloud-Diensten interessieren.  
 
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [verstehen von Teams und Kanälen](teams-adoption-understand-teams-and-channels.md)
+![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) als nächstes darstellt: [verstehen von Teams und Kanälen](teams-adoption-understand-teams-and-channels.md)

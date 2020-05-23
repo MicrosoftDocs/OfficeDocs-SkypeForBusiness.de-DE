@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie die Einführung von Teams durch die Verwaltung Ihrer Office 365-Bereitstellung in Teams steuern können, einschließlich des anheftens von Schlüsselressourcen als Registerkarten in den entsprechenden Kanälen.
+description: Erfahren Sie, wie Sie die Einführung von Teams durch die Verwaltung Ihrer Microsoft 365-oder Office 365-Bereitstellung in Teams steuern können, einschließlich des anheftens von Schlüsselressourcen als Registerkarten in den entsprechenden Kanälen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b1a22c76cd2a9ef9ca5d4be667cbfebe8a19b62
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 59b42c0f464c377b1a4e320fc01e6466fde99f3b
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904927"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350219"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
-Die beste Methode, um die Einführung von Teams zu steuern, besteht in der Verwendung des Produkts. Wir empfehlen, dass Sie Ihre Office 365-Bereitstellung mit Teams verwalten. Sie sollten auch eine Community von Mitarbeitern erstellen, die sich auf Teamarbeit und Produktivität konzentrieren. (Diese anfänglichen Teams können sich im Laufe der Zeit ändern.) Einige vorgeschlagene Teams sind:
+Die beste Methode, um die Einführung von Teams zu steuern, besteht in der Verwendung des Produkts. Wir empfehlen, dass Sie Ihre Microsoft 365-oder Office 365-Bereitstellung mit Teams verwalten. Sie sollten auch eine Community von Mitarbeitern erstellen, die sich auf Teamarbeit und Produktivität konzentrieren. (Diese anfänglichen Teams können sich im Laufe der Zeit ändern.) Einige vorgeschlagene Teams sind:
 
 | Teamname | Vorgeschlagene Kanalnamen |
 | --------- | ---------------------- |
@@ -38,7 +38,7 @@ Die beste Methode, um die Einführung von Teams zu steuern, besteht in der Verwe
 | Microsoft Teams-Implementierung | Allgemein <br/> Sensibilisierung und Akzeptanz <br/> Geschäftliches Engagement <br/> Early Adopter-Programm <br/> Feedback und Einblicke <br/> Sicherheit und Compliance <br/> Strategie und Planung <br/> Dienststatus und-Vorfälle <br/> Schulungen <br/> Watercooler-Chat |
 | Teamwork-Champions | Allgemein <br/> Bewährte Methoden, Schulung und Anleitungen <br/> Champion-Ecke <br/> Feedback und Support <br/> Programm Leads <br/> Social Hub |
 
-In Microsoft Teams können Sie mit dem [Reiter Katalog](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) auf alle Office 365-und Drittanbieter-apps zugreifen, die vom Administrator aktiviert wurden. Um den größten Nutzen aus Ihrem Produkt zu erzielen, empfehlen wir, die wichtigsten Ressourcen als Registerkarten in den jeweiligen Kanälen zu fixieren. Sehen Sie sich das Beispiel unten an.
+In Microsoft Teams erhalten Sie im [Registerkarten Katalog](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) Zugriff auf alle Microsoft 365-oder Office 365-und Drittanbieter-apps, die vom Administrator aktiviert wurden. Um den größten Nutzen aus Ihrem Produkt zu erzielen, empfehlen wir, die wichtigsten Ressourcen als Registerkarten in den jeweiligen Kanälen zu fixieren. Sehen Sie sich das Beispiel unten an.
 
 ![Screenshot mit Standard-und benutzerdefinierten Registerkarten](media/teams-adoption-tab-example.png)
 
@@ -51,7 +51,7 @@ In ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen
 | Sensibilisierung und Akzeptanz | [Hub für die Einführung von Teams](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
 | Geschäftliches Engagement | Wiki – Engagement-Leitfaden<br/>Formular – Anfrage für Teams-Beratung<br/>Liste – Engagement-Anforderungen |
 |Frühe Anwender | Angeheftete Feedback-Community <br/> OneNote für häufig gestellte Fragen und häufige Designs |
-| Feedback und Berichterstellung | Angehefteter Office 365-Nutzungsbericht (nur für Office 365-Administratoren) |
+| Feedback und Berichterstellung | Angehefteter Microsoft 365-oder Office 365-Nutzungsbericht (nur für Microsoft 365-oder Office 365-Administratoren) |
 | Sicherheit und Compliance | Microsoft Trust-Portal <br/> [Sicherheits-und Compliance-Dokumentation](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Strategie und Planung | Zusammenarbeit North Star PowerPoint <br/> Dienst Adoptions Projekt Plan |
 | Schulungen | Benutzerdefiniertes Learning-Schulungsportal <br/> [Teams Online-Schulung](https://aka.ms/TeamsTraining) |
@@ -66,4 +66,4 @@ In ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen
 
 Wenn Sie mit der Verwendung von Teams beginnen, ist es wichtig, dass Sie und das restliche Projektteam die Verwendung von teamchats, Kanälen und Ressourcen zum Ausführen Ihres Projekts verpflichten. Ihre eigene Nutzung von Teams ist für die Qualität Ihres Adoptions Projekts von entscheidender Bedeutung. Wir empfehlen, dass Sie die Fragmentierung Ihres Projekts widersetzen, indem Sie weiterhin Unterhaltungen mit dem zentralen Projektteam in e-Mail führen. Wenn Sie zu Teams wechseln, werden Sie das Verhalten modellieren, das Ihre Mitarbeiter letztendlich annehmen sollen. Legen Sie den Ton an, gehen Sie zuerst und beginnen Sie, Ihre Projektinformationen an einem zentralen Ort zu haben!  
 
-![Ein Symbol, das den nächsten Schritt](media/teams-adoption-next-icon.png) darstellt: [wie bereit ist Ihre Organisation für Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Ein Symbol, das den nächsten Schritt darstellt ](media/teams-adoption-next-icon.png) : [wie bereit ist Ihre Organisation für Microsoft Teams?](teams-adoption-assess-readiness.md)

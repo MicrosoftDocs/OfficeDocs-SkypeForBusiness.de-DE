@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904320"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350249"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Schnellstart von Governance für Microsoft Teams
 
@@ -64,10 +64,10 @@ Die Besprechungs Erfahrung von Teams ist von hoher Qualität, unterstützt Video
 
 ### <a name="decision-6--data-security"></a>Entscheidung 6: Datensicherheit
 
-In Vorbereitung für Ihre umfassende Bereitstellung können Sie Sicherheits Beschriftungen verwenden, um die Typen von Teams in Ihrer Umgebung zu klassifizieren. Für dieses Experiment empfehlen wir, dass Sie auf [Plan for Governance in Teams](plan-teams-governance.md) verweisen und sicherstellen, dass eine grundlegende Aufbewahrungsrichtlinie für Teams-Daten in Microsoft 365 oder Office 365 festgesetzt wurde. Möglicherweise müssen Sie diese Arbeit mit Ihrem technischen Team koordinieren, da Office 365-Administratorrechte erforderlich sind, um diese Arbeit abzuschließen.
+In Vorbereitung für Ihre umfassende Bereitstellung können Sie Sicherheits Beschriftungen verwenden, um die Typen von Teams in Ihrer Umgebung zu klassifizieren. Für dieses Experiment empfehlen wir, dass Sie auf [Plan for Governance in Teams](plan-teams-governance.md) verweisen und sicherstellen, dass eine grundlegende Aufbewahrungsrichtlinie für Teams-Daten in Microsoft 365 oder Office 365 festgesetzt wurde. Möglicherweise müssen Sie diese Arbeit mit Ihrem technischen Team koordinieren, da Microsoft 365 oder Office 365-Administratorrechte erforderlich sind, um diese Arbeit abzuschließen.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Entscheidung 7: Dauer des Experiments
 
 Eine erfolgreiche Teams-Implementierung wird in einem gesunden Tempo durchgeführt, um entsprechende Dynamik, Fokus und Lernerfolge zu gewährleisten. Wir empfehlen, dass diese Phase Ihres Projekts 60 Tage dauern wird, um sicherzustellen, dass Ihre Early-Anwender genügend Geschäftszyklen durchführen. Wenn Sie das Experimentieren für zu lange Zeit verlängern, erhöht sich das Risiko eines fehlgeschlagenen Änderungs Programms. Diese Zeit ist jedoch für jede Organisation unterschiedlich.  
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Definieren von Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)
+![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) als nächstes darstellt: [Definieren von Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)

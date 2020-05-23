@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904767"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350269"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 
@@ -64,7 +64,7 @@ Frühe Anwender geben bestimmte Merkmale frei, unabhängig von der Größe oder 
 - Bereit, ihre Beobachtungen und Erfahrungen mit der Gruppe zu teilen
 - Sind Risiko Bestatter; Das heißt, dass Sie bereit sind, etwas zu versuchen, um zu sehen, ob es funktioniert
 
-Verwenden Sie ein einfaches Formular in Office 365, um es diesen Personen zu ermöglichen, sich für Ihr Early Adopter-Programm für Teams zu entscheiden. Je nach Größe und Komplexität Ihrer Organisation können Sie einige oder alle dieser Personen für Ihre Experimentierphase aktivieren. In diesem Programm stimmen Sie zu, aktiv an ihrer Experimentierphase teilzunehmen und dem Projektteam regelmäßig Feedback zu geben. Vermeiden Sie Personen, die einfach nur neue Technologien testen möchten. Lassen Sie Sie wissen, dass Sie mit diesem aktiven Feedback dazu beitragen, das Ergebnis Ihres Projekts zu vermitteln. Sie werden diese Liste der Personen in [Phase 2-Experiment](teams-adoption-phase2-experiment.md)verwenden.
+Verwenden Sie ein einfaches Formular in Microsoft 365 oder Office 365, um es diesen Personen zu ermöglichen, sich für Ihr Early Adopter-Programm für Teams zu entscheiden. Je nach Größe und Komplexität Ihrer Organisation können Sie einige oder alle dieser Personen für Ihre Experimentierphase aktivieren. In diesem Programm stimmen Sie zu, aktiv an ihrer Experimentierphase teilzunehmen und dem Projektteam regelmäßig Feedback zu geben. Vermeiden Sie Personen, die einfach nur neue Technologien testen möchten. Lassen Sie Sie wissen, dass Sie mit diesem aktiven Feedback dazu beitragen, das Ergebnis Ihres Projekts zu vermitteln. Sie werden diese Liste der Personen in [Phase 2-Experiment](teams-adoption-phase2-experiment.md)verwenden.
 
 Unser Early Adopter-Programmleitfaden ist eine hilfreiche Ressource, um dieses Programm in Ihrer Umgebung zu starten.  
  
@@ -104,4 +104,4 @@ Kombinieren Sie diese Daten mit den Stakeholder-Profilen und Mitarbeitern, die s
 
 Sie können interne Champions verwenden, um das Problem mit unterschiedlichen Änderungstypen zu beheben. Hier ist Feedback der Schlüssel zum Erfolg: ermutigen Sie die Teilnehmer, Ihre Herausforderungen und Bedürfnisse zu teilen. Nehmen Sie Unterbrechungen und Abweichungen an, indem Sie diesen Personen oder Gruppen während des Experimentierens einen Sitzplatz am Tisch geben. Diese bewährte Methode ebnet den Weg für eine reibungslosere, umfassende Bereitstellung Ihrer Verbesserungen bei der Zusammenarbeit.  
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt darstellt weiter: [Microsoft Teams Adoption Phase 2: Experiment](teams-adoption-phase2-experiment.md) 
+![Ein Symbol, das den nächsten Schritt darstellt ](media/teams-adoption-next-icon.png) Weiter: [Microsoft Teams Adoption Phase 2: Experiment](teams-adoption-phase2-experiment.md) 

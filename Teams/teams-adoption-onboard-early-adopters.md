@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140742"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350239"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um diese frühen Anwender zu veranlassen
 
 ## <a name="gather-feedback"></a>Sammeln von Feedback
 
-Verwenden Sie die Komponenten von Office 365, um Feedback zu Ihrem Projekt zu sammeln.
+Verwenden Sie die Komponenten von Microsoft 365 oder Office 365, um Feedback für Ihr Projekt zu sammeln.
   
 ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits über eine Investition in ein Jammer Netzwerk verfügt, können Sie Sie als Feedback Forum für Ihr Early Adopter-Programm verwenden. Wenn dies nicht der Fall ist und Ihr Early Adopter-Programm weniger als 5000 Mitglieder hat, erstellen Sie ein Team in Teams, um Feedback zu sammeln und Schulungen bereitzustellen.
   
@@ -49,4 +49,4 @@ Verwenden Sie die Komponenten von Office 365, um Feedback zu Ihrem Projekt zu sa
 > Einige Organisationen kombinieren die Kanäle für Early Adopter-Feedback in das Team Team-Champions-Programm. Dies ist ein guter Ansatz, da viele frühe Anwender in Zukunft zu Champions werden können, und es wird eine stärkere Community aufbauen. 
 
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Onboard-Support](teams-adoption-onboard-support.md).
+![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) als nächstes darstellt: [Onboard-Support](teams-adoption-onboard-support.md).
