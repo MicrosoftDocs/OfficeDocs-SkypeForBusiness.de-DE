@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Verwenden Sie eine vorhandene SharePoint Online-Website oder -Seite und erstellen Sie eine eigenständige statische Registerkarte, die als Intranet-Portal für Ihre Organisation verwendet werden kann.
 localization_priority: Priority
-ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207074"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326582"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Erstellen einer Intranet-Portal-App für Teams von einer SharePoint Online-Website oder -Seite aus
 
@@ -41,7 +41,7 @@ Bevor Sie beginnen:
 
 2. Sie müssen die Unterdomäne Ihres Mandanten kennen, die im Platzhalter **{{subdomain}}** verwendet wird.
 
-3. In diesem Artikel wird der Platzhalter **{{siteUrl}}** für die *URL* der ausgewählten Website oder Seite verwendet.
+3. In diesem Artikel wird **{{siteUrl}}** als Platzhalter für die *URL* der ausgewählten Website oder Seite verwendet.
     - Beispiel-*URLs*:   https://contoso.sharepoint.com/teams/Contoso   *oder* https://contoso.sharepoint.com/sites/Contoso
 4. Außerdem wird **{{sitePath}}** dazu verwendet, den *Pfad* der URL (beispielsweise: /teams/contoso) zu kennzeichnen.
     - *Beispielpfade*:   /teams/Contoso   *oder* /sites/Contoso
@@ -96,7 +96,7 @@ Beginnen Sie mit den folgenden Schritten:
 
 Um die neue Registerkarte im Team-Desktop anzuzeigen, navigieren Sie auf der linken Seite der App-Leiste zu den Auslassungszeichen (**...**). Suchen Sie Ihre neue App, laden Sie sie herunter und testen Sie Ihre eigenständige Anwendung in Teams.
 
-Wenn Sie die neue App im linken Menü an einer höheren Position verfügbar machen möchten, müssen Sie dafür eine App-Richtlinieneinstellung verwenden. Diese Einstellung finden Sie im Abschnitt Team Administrator > App-Richtlinie > Hinzufügen einer angehefteten Anwendung. Wenn Sie einem Benutzer die Richtlinie zum Test zuweisen, wird die Änderung 24 Stunden später angezeigt. In diesem Sinne sollten Sie frühzeitig entscheiden, wo die App angezeigt werden soll, um Verzögerungen zu vermeiden.
+Wenn Sie die neue App im linken Menü an einer höheren Position verfügbar machen möchten, müssen Sie dafür eine App-Richtlinieneinstellung verwenden. Diese Einstellung finden Sie im Abschnitt Team Administrator > App-Richtlinie > Hinzufügen einer angehefteten Anwendung. Wenn Sie einem Benutzer die Richtlinie zum Test zuweisen, wird die Änderung wenige Stunden später angezeigt. In diesem Sinne sollten Sie frühzeitig entscheiden, wo die App angezeigt werden soll, um Verzögerungen zu vermeiden.
 
 Wenn Sie die neue App auf einem mobilen Gerät anzeigen und testen möchten, öffnen Sie die App-Schublade, indem Sie auf das Chevron (**^**) oberhalb der Registerkartenleiste am unteren Rand des Bildschirms tippen. Suchen Sie Ihre App, und navigieren Sie auf Ihrem mobilen Gerät zu ihr.
 

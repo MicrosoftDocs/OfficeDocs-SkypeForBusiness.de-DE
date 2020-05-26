@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten, um die Konsistenz beim Verwalten von Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und zu gewährleisten.
-ms.openlocfilehash: 6927e2efae60370c0622f38570fc961794734f35
-ms.sourcegitcommit: e0ed3b6478918c4737648e6c27eb01de0b622b0e
+ms.openlocfilehash: d9ad5c2308ead1fe5761755270f81f058bf0fa3c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322274"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44353022"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
@@ -47,8 +47,8 @@ Teams umfasst derzeit die folgenden Richtlinien Pakete.
 |Education (Primary School Student)   |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für primäre Kursteilnehmer gelten.|
 |Bildung (Secondary School Student)    |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für sekundäre Kursteilnehmer gelten.         |
 |Bildung (Lehrer)    |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Lehrer gelten.      |
-|Education (Primary School Teacher using Remote Learning) (Preview)   |Erstellt eine Reihe von Richtlinien, die für primäre Lehrer gelten, um die Sicherheit von Schülern und die Zusammenarbeit beim Remote-lernen zu maximieren.      |
-|Education (Primary School Student using Remote Learning) (Preview)    |Erstellt einen Satz von Richtlinien, die für primäre Kursteilnehmer gelten, um die Sicherheit von Schülern und die Zusammenarbeit bei der Verwendung von Remote Learning zu maximieren      |
+|Bildung (Grundschullehrer mit Remote-lernen)    |Erstellt eine Reihe von Richtlinien, die für primäre Lehrer gelten, um die Sicherheit von Schülern und die Zusammenarbeit beim Remote-lernen zu maximieren.      |
+|Education (Primary School Student using Remote Learning)    |Erstellt einen Satz von Richtlinien, die für primäre Kursteilnehmer gelten, um die Sicherheit von Schülern und die Zusammenarbeit bei der Verwendung von Remote Learning zu maximieren      |
 |Klinischer Mitarbeiter im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die klinischen Mitarbeitern wie registrierten Krankenschwestern, Krankenschwestern, Ärzten und Sozialarbeitern vollen Zugriff auf Chats, Anrufe, Schicht Verwaltung und Besprechungen ermöglichen. |
 |Healthcare Information Worker  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die Information Worker wie IT-Personal, Informatik Personal, Finanz Personal und Compliance Officer, vollständigen Zugriff auf Chats, Anrufe und Besprechungen bereitstellen.|
 |Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patienten Räume in Ihrer Gesundheitsorganisation gelten.|

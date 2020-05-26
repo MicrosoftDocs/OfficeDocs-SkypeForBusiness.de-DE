@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
+ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278188"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330570"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
 
@@ -130,6 +130,8 @@ Microsoft Teams umfasst derzeit die folgenden Richtlinienpakete:
 |**Education_PrimaryStudent**| Schüler im Grundschulalter  | Jüngere Schüler im Grundschulalter innerhalb Ihrer Institution benötigen möglicherweise mehr Beschränkungen innerhalb von Microsoft Teams. Verwenden Sie diesen Richtliniensatz und diese Richtlinieneinstellungen, um Funktionen wie die Erstellung und Verwaltung von Besprechungen, die Chatverwaltung und private Anrufe einzuschränken. |
 |**Education_SecondaryStudent**| Schüler in der Altersgruppe weiterführender Schulen | Schüler in der Altersgruppe weiterführender Schulen innerhalb Ihrer Institution benötigen möglicherweise mehr Beschränkungen innerhalb von Microsoft Teams. Verwenden Sie diesen Richtliniensatz und diese Richtlinieneinstellungen, um Funktionen wie die Erstellung und Verwaltung von Besprechungen, die Chatverwaltung und private Anrufe einzuschränken. |
 |**Education_HigherEducationStudent**| Hochschul-Studenten | Hochschul-Studenten innerhalb Ihrer Intuition benötigen möglicherweise weniger Einschränkungen als jüngere Schüler, aber einige Begrenzungen könnten dennoch angeraten sein. Sie können diesen Richtliniensatz und diese Richtlinieneinstellungen verwenden, um den Zugriff auf Chats, Anrufe und Besprechungen innerhalb Ihrer Organisation zu gewähren, aber einschränken, wie Ihre Schüler Microsoft Teams mit externen Teilnehmern verwenden. |
+|**Education_PrimaryTeacher_RemoteLearning**| Lehrkräfte und Mitarbeiter | Erstellt eine Reihe von Richtlinien, um die Sicherheit und Zusammenarbeit der Lehrkräfte beim Lernen per Fernzugriff zu maximieren. |
+|**Education_PrimaryStudent_RemoteLearning**| Schüler im Grundschulalter| Erstellt eine Reihe von Richtlinien, um die Sicherheit und Zusammenarbeit der Schüler beim Lernen per Fernzugriff zu maximieren.
 |||
 
 :::image type="content" source="media/edu-policy-packages-list.png" alt-text="Seite „Richtlinienpakete“ mit einer Liste von Richtlinienpaketen zur Auswahl.":::
