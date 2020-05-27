@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349559"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374313"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -70,17 +70,17 @@ Weisen Sie dann die Richtlinie den Nutzern zu.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Nutzern eine Besprechungsrichtlinie zuweisen
 
-So weisen Sie einem Benutzer eine Besprechungsrichtlinie zu:
+So weisen Sie einem Benutzer eine Besprechungsrichtlinie zu
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Wählen Sie unter **Besprechungsrichtlinie** die Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf **Übernehmen**.
 
-So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu:
+So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, suchen Sie nach den Benutzern, oder Filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
-2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Wenn Sie alle Benutzer auswählen möchten, klicken Sie oben in der Tabelle auf das &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf über **nehmen**.  
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
+3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.  
 
 Sie können auch die folgenden Schritte ausführen:
 
@@ -333,60 +333,32 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, 
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Zulassen, dass anonyme Personen eine Besprechung starten
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob anonyme Personen, einschließlich B2B-und Verbundbenutzern, an der Besprechung des Benutzers teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert lautet "False".
+Hierbei handelt es sich um eine Richtlinie pro Organisator, die das Einwählen in Konferenz Besprechungen in Besprechungs Gruppen ermöglicht. Mit dieser Einstellung wird gesteuert, ob Einwahlbenutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert ist "falsch", was bedeutet, dass die Benutzer in der Lobby warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung Beitritt. 
 
-![Screenshot mit einer Nachricht an einen wartenden Benutzer](media/meeting-policies-anonymous-user-lobby.png)
+**Hinweis** Wenn "falsch" und ein Einwahlbenutzer der Besprechung zuerst Beitritt und in der Lobby gespeichert wird, muss ein Organisationsbenutzer an der Besprechung mit einem Team-Clientteil nehmen, um den Benutzer aus dem Lobbby zu akzeptieren. Es gibt keine Lobby-Steuerelemente, die für gewählte Benutzer verfügbar sind. 
 
-Hier sehen Sie das Join-Verhalten anonymer Personen, wenn authentifizierte Benutzer in der Besprechung anwesend sind.
-
-|Zulassen, dass anonyme Personen eine Besprechung starten  |Automatisches zulassen von Personen |Join-Verhalten anonymer Personen |
-|---------|---------|---------|
-|Wahr    | Jeder      | Direkt teilnehmen         |
-|   | Jeder in Ihrer Organisation       | In der Lobby warten        |
-|   | Jeder in Ihrer Organisation und in Verbundorganisationen       | In der Lobby warten         |
-|Falsch    | Jeder        | Direkt teilnehmen        |
-|   | Jeder in Ihrer Organisation     | In der Lobby warten        |
-|   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
-
-Hier sehen Sie das Join-Verhalten anonymer Personen, wenn keine authentifizierten Benutzer in der Besprechung anwesend sind.
-
-|Zulassen, dass anonyme Personen eine Besprechung starten |Automatisches zulassen von Personen  |Join-Verhalten anonymer Personen |
-|---------|---------|---------|
-|Wahr    | Jeder      | Direkt teilnehmen         |
-|   | Jeder in Ihrer Organisation       | In der Lobby warten        |
-|   | Jeder in Ihrer Organisation und in Verbundorganisationen       | In der Lobby warten         |
-|Falsch    | Jeder        | Warten Sie in der Lobby. Benutzer werden automatisch zugelassen, wenn der erste authentifizierte Benutzer der Besprechung Beitritt.        |
-|   | Jeder in Ihrer Organisation     |In der Lobby warten         |
-|   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
 
 ### <a name="automatically-admit-people"></a>Automatisches zulassen von Personen
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden.
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden. Diese Einstellung gilt nicht für die Einwahl in Benutzer. 
 
 ![Screenshot einer Besprechung mit einem Benutzer in der Lobby](media/meeting-policies-lobby.png)
 
  Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern.
+ 
+ **Hinweis** In den Besprechungsoptionen lautet die Einstellung beschriftet "Wer kann die Lobby umgehen?"
   
 |Einstellungswert  |Join-Verhalten |
 |---------|---------|
-|**Jeder**   |Alle Besprechungsteilnehmer werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten. Dazu gehören authentifizierte Benutzer, Verbundbenutzer, Gäste, anonyme Benutzer und Personen, die sich per Telefon einwählen.       |
-|**Jeder in Ihrer Organisation und in Verbundorganisationen**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und die Benutzer aus Föderations Organisationen, nehmen direkt an der Besprechung Teil, ohne in der Lobby zu warten.  Anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby.   |
-|**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt Teil, ohne in der Lobby zu warten.  Föderationsbenutzer, anonyme Benutzer und Benutzer, die sich per Telefon einwählen, warten in der Lobby. Dies ist die Standardeinstellung.           |
+|**Jeder**   |Alle Besprechungsteilnehmer werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten. Dazu gehören authentifizierte Benutzer, externe Benutzer von vertrauenswürdigen Organisationen (Federated), Gäste und anonyme Benutzer.     |
+|**Jeder in Ihrer Organisation und in Verbundorganisationen**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und die Benutzer aus vertrauenswürdigen Organisationen, werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten.  Anonyme Benutzer warten in der Lobby.   |
+|**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt Teil, ohne in der Lobby zu warten.  Benutzer von vertrauenswürdigen Organisationen und anonymen Benutzern warten in der Lobby. Dies ist die Standardeinstellung.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Zulassen, dass Einwahlbenutzer die Lobby umgehen können
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ". Der Standardwert lautet "False".
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ". Der Standardwert lautet "False". Wenn der Wert falsch ist, werden die Einwahlbenutzer in der Wartebereich warten, bis ein Organisationsbenutzer die Besprechung mit einem Team-Client verknüpft und diese zulässt. Ist der Wert "wahr", wird "Einwählen in Benutzer" automatisch an der Besprechung teilnehmen, wenn ein Organisationsbenutzer der Besprechung Beitritt. 
 
-Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
-
-|Zulassen, dass Einwahlbenutzer die Lobby umgehen können  |Automatisches zulassen von Personen  |Join-Verhalten von Personen, die sich einwählen |
-|---------|---------|---------|
-|Wahr    | Jeder      | Direkt teilnehmen         |
-|   | Jeder in Ihrer Organisation       | Direkt teilnehmen        |
-|   | Jeder in Ihrer Organisation und in Verbundorganisationen       | Direkt teilnehmen         |
-|Falsch    | Jeder        | Direkt teilnehmen        |
-|   | Jeder in Ihrer Organisation     |In der Lobby warten         |
-|   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
+**Hinweis** Wenn ein Dial-in-Benutzer einer Besprechung Beitritt, bevor ein Organisationsbenutzer der Besprechung Beitritt, wird er in der Lobby gespeichert, bis ein Organisationsbenutzer mit einem Team-Client an der Besprechung teilnimmt und diesen zugibt. 
 
 
 ### <a name="enable-live-captions"></a>Aktivieren von Live Beschriftungen

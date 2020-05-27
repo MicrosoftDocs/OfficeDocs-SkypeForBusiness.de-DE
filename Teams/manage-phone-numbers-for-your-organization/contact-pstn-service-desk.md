@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern erhalten oder Nummern für Ihre Organisation portieren (übertragen), müssen Sie möglicherweise Hilfe und Support beim PSTN-Service Desk erhalten.
-ms.openlocfilehash: f9dd45f70a0e233f22fbbe607731d65146c705f7
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006011"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374273"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN-Service Desk-Kontakt
 
@@ -38,6 +38,7 @@ Das PSTN-Service Desk-Team verfügt derzeit über drei e-Mail-Adressen für die 
 |:-----:|:------:|
 | [**In den Vereinigten Staaten oder Kanada**senden Sie uns eine e-Mail an PTN@Microsoft.com](mailto:ptn@microsoft.com)| [**Belgien, Frankreich, Deutschland, Großbritannien, Irland, Niederlande, Spanien, Schweden, Schweiz**, senden Sie uns eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com)|
 |[**Außerhalb der USA oder Kanadas**senden Sie uns eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com)| [**Übrige Welt**, senden Sie uns eine e-Mail an gcstnmsd@Microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Aufgrund einer hohen Spitzenzahl bei eingehenden Anforderungen wird das **Nordamerika-Portierungs Team** zurückgemeldet. Wir arbeiten daran, diesen Rückstand auf eine FIFO-Basis (First in, First Out) zu löschen, und infolgedessen **verzögert sich die Antwort auf neue Anforderungen.**|
 
 Wenn Sie Unterstützung bei **der Übertragung/Portierung ihrer vorhandenen Telefonnummern an Microsoft Teams**benötigen, geben Sie bitte so viele Details wie möglich an:
   - Ihre [Organisations-ID (Mandanten-ID) oder derzeit aktive Microsoft-Domänen](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).

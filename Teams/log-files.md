@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833375"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374203"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -88,9 +88,9 @@ Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe 
 
 |Client |Speicherort |
 |---------|---------|
-|Windows     |%APPDATA%\Microsoft\Teams\media-Stack\\*. Blog         |
-|            |%APPDATA%\Microsoft\Teams\skylib\\*. Blog
-|            |%APPDATA%\Microsoft\Teams\media-Stack\\*. ETL         |
+|Windows     |%APPDATA%\Microsoft\Teams\media-Stack \\ *. Blog         |
+|            |%APPDATA%\Microsoft\Teams\skylib \\ *. Blog
+|            |%APPDATA%\Microsoft\Teams\media-Stack \\ *. ETL         |
 |Mac OSX     |~/Library/Application-Unterstützung/Microsoft/Teams/Media-Stack/*. Blog         |
 |            |~/Library/Application-Unterstützung/Microsoft/Teams/skylib/*. Blog         |
 
@@ -103,7 +103,7 @@ Desktopprotokolle, auch bekannt unter Bootstrapper-Protokolle, enthalten Protoko
 
 Windows:
 
-1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol im** Infobereich Ihrer Anwendung, und wählen Sie **Protokolle abrufen** aus.
+1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol in** der Taskleiste, und wählen Sie **Protokolle abrufen** aus.
 
 Mac OSX:
 

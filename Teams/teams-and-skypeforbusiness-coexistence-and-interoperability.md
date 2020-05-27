@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140676"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374303"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 
@@ -82,6 +82,8 @@ Dieser Modus kann vor dem Starten einer verwalteten Bereitstellung von Teams ver
 Ein **nur Teams** -Benutzer (auch als " *aktualisierter* Benutzer" bezeichnet) hat Zugriff auf alle Funktionen in Microsoft Teams. Sie können den Skype for Business-Client beibehalten, um an Besprechungen in Skype for Business teilzunehmen, die von nicht aktualisierten Benutzern oder externen Personen organisiert wurden. Ein aktualisierter Benutzer kann weiterhin mit anderen Benutzern in der Organisation kommunizieren, die weiterhin Skype for Business verwenden, indem die Interoperabilitätsfunktionen zwischen Teams und Skype for Business verwendet werden (sofern sich diese Skype for Business-Benutzer nicht im Modus " **Inseln** " befinden). Ein aktualisierter Benutzer kann jedoch keinen Skype for Business-Chat,-Anruf oder eine Besprechung initiieren.
 
 Sobald Ihre Organisation für einige oder alle Benutzer bereit ist, Teams als einziges Kommunikations-und Zusammenarbeits Tool zu verwenden, können Sie diese Benutzer in den Modus **nur für Teams** aktualisieren. Wenn Sie den Modus " **Inseln** " aktualisieren, empfehlen wir, dass Sie die Einführung von Teams in Ihrer Organisation zunächst übersättigen, bevor Sie mit dem Upgrade beginnen. Dies vermeidet fehlerhafte Kommunikationsszenarien, da der **Inseln** -Modus keine Interoperabilität bietet.
+
+Im Modus " **nur für Teams** " ist "Teams" die Standard-App für das SIP/Tel-Protokoll. Das bedeutet, dass die Links in der Visitenkarte eines Benutzers in Outlook für Anrufe oder Chats von Teams verarbeitet werden.
 
 Weitere Überlegungen zum Wechseln in den Modus **nur für Teams** finden Sie unter [Überlegungen zum nur für Teams](teams-only-mode-considerations.md).
 
@@ -204,7 +206,7 @@ Bei der Annahme werden Sie in die Teams-Besprechung gesetzt; Sie müssen die Fre
  
 In der Zwischenzeit erhält der Skype for Business-Nutzer eine eingehende Chat-Nachricht mit dem Link zur Besprechung und wird zum teilnehmen geführt.
 
-Diese Eskalation zu einer Teams-Besprechung steht sowohl für Mandantenübergreifende Interop-als auch für Mandantenübergreifende Anrufe und Chats zur Verfügung. Sie ist standardmäßig aktiviert, und es gibt keine Einstellung, die der Administrator bereitstellen muss. Sie ist jedoch für den Benutzer deaktiviert, wenn sich der Administrator in ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` auf ``$false``festgelegt hat.
+Diese Eskalation zu einer Teams-Besprechung steht sowohl für Mandantenübergreifende Interop-als auch für Mandantenübergreifende Anrufe und Chats zur Verfügung. Sie ist standardmäßig aktiviert, und es gibt keine Einstellung, die der Administrator bereitstellen muss. Sie ist jedoch für den Benutzer deaktiviert, wenn sich der Administrator in auf festgelegt hat ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` ``$false`` .
 
 Nachdem Sie diesen Artikel überprüft haben, lesen Sie [Wählen Sie Ihre Upgrade-Reise](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migrations-und Interoperabilitäts Anleitung](https://aka.ms/SkypeToTeams-Interop), [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md)und [Festlegen ihrer Koexistenz-und Upgradeeinstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) für Implementierungsdetails.
 
