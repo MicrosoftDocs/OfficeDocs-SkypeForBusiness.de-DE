@@ -1,6 +1,6 @@
 ---
 title: Hardwareanforderungen für Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224118"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385986"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -86,6 +86,7 @@ Sie können Teams auf diesen mobilen Plattformen verwenden:
 - iOS: kompatibel mit iPhone, iPad und iPod Touch.
 
   Der Support ist auf die beiden neuesten Hauptversionen von iOS beschränkt. Wenn eine neue Hauptversion von iOS veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
+  Der optionale Blur-Effekt " **mein Hintergrund** Video" für IOS erfordert ein Betriebssystem von IOS 12 oder höher und ist mit den folgenden Geräten kompatibel: iPhone 7 oder höher, iPad 2018 (sechste Generation) oder höher und iPod Touch 2019 (7. Generation).
 
 Für eine optimale Benutzererfahrung verwenden Sie die jeweils neueste Version von iOS und Android.
 
