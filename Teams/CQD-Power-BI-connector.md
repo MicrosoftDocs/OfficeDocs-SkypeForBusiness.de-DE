@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219835"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410470"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -160,9 +160,9 @@ Wenn weitere Fehler außerhalb dieses Bereichs auftreten, Benachrichtigen Sie da
 
 Trotz des Beta-Tags ist der Connector für die Anrufqualität für Power BI die Veröffentlichungsversion des Connectors und wurde offiziell vom Power BI-Team signiert, um dies zu widerspiegeln. Das Zertifizierungsverfahren zum Entfernen dieses Beta-Tags ist umfangreich und erfordert eine Verpflichtung des Power BI-Teams, den Connector auch direkt zu unterstützen. Aus Zeitgründen ist das Power BI-Team derzeit nicht in der Lage, diese Unterstützung und umfassendere Zertifizierung bereitzustellen, ist aber weiterhin bereit, die Sicherheit, Authentizität und allgemeine Funktionalität des Microsoft Call Quality Connectors zu bezeugen.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Warum scheint der Verbinder im Vergleich zu erweiterten CQD im Browser so langsam zu sein? Was kann ich tun, um die Leistung zu verbessern?
+### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Warum scheint der Verbinder im Vergleich zu erweiterten CQD im Browser langsamer zu sein? Was kann ich tun, um die Leistung zu verbessern?
 
-Die Abfrageleistung für die verschiedenen Vorlagen ist sowohl im Browser als auch im Connector identisch. Der Unterschied besteht in der Anzahl der gleichzeitigen Abfragen, die ausgeführt werden. Da die in-Browser-Version von CQD weniger gut entwickelte und Informationsdichte Visualisierungsoptionen aufwies, waren die meisten unserer Berichte auf das Laden von 2-3-Abfragen auf einmal limitiert. Auf der anderen Seite werden in den Connector-Vorlagen häufig 20 + gleichzeitige Abfragen angezeigt. Wenn Sie Berichte erstellen möchten, die genauso reaktionsfähig sind wie die älteren, die Sie verwendet haben, versuchen Sie, Berichte mit nicht mehr als 2-3-Abfragen pro Registerkarte zu erstellen.
+Die Abfrageleistung für die verschiedenen Vorlagen ist sowohl im Browser als auch im Connector identisch.  Wie bei jeder anderen Standalone-app fügt Power BI auch die Authentifizierungs-und Renderingzeiten für unsere Leistung ein. Darüber hinaus besteht der Unterschied darin, wie viele gleichzeitige Abfragen ausgeführt werden. Da die in-Browser-Version von CQD weniger gut entwickelte und Informationsdichte Visualisierungsoptionen aufwies, waren die meisten unserer Berichte auf das Laden von 2-3-Abfragen auf einmal limitiert. Auf der anderen Seite werden in den Connector-Vorlagen häufig 20 + gleichzeitige Abfragen angezeigt. Wenn Sie Berichte erstellen möchten, die genauso reaktionsfähig sind wie die älteren, die Sie verwendet haben, versuchen Sie, Berichte mit nicht mehr als 2-3-Abfragen pro Registerkarte zu erstellen.
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Ich finde, dass ich beim Ausführen von Abfragen regelmäßig in die 10.000-Zeilenbeschränkung verfüge. Wie erhalte ich den Connector, um mehr als 10.000 Zeilen zurückzugeben?
 

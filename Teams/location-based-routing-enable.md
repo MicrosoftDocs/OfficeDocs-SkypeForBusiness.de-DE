@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158992"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412642"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Aktivieren des standortbasierten Routings für direktes Routing
 
@@ -36,7 +36,7 @@ In diesem Artikel wird beschrieben, wie standortbasiertes Routing für das direk
 - Benutzer
 - Netzwerk Websites
 - Gateway-Konfigurationen
-- Anruf Richtlinien
+- Anrufpläne
 
 Sie können das [Microsoft Team Admin Center](#using-the-microsoft-teams-admin-center) oder [PowerShel](#using-powershell)l verwenden, um standortbasiertes Routing zu aktivieren.
 
@@ -54,7 +54,7 @@ Weitere Informationen zum Erstellen von VoIP-Routing Richtlinien und zum Zuweise
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Aktivieren des standortbasierten Routings für Netzwerk Websites
 
-Aktivieren Sie standortbasiertes Routing für Ihre Websites, die Routing Einschränkungen erzwingen müssen. Wechseln Sie dazu in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** > **Netzwerktopologie**, wählen Sie eine Netzwerk Website aus, klicken Sie auf **Bearbeiten**, und aktivieren Sie dann **standortbasiertes Routing**.  
+Aktivieren Sie standortbasiertes Routing für Ihre Websites, die Routing Einschränkungen erzwingen müssen. Wechseln Sie dazu in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**  >  **Netzwerktopologie**, wählen Sie eine Netzwerk Website aus, klicken Sie auf **Bearbeiten**, und aktivieren Sie dann **standortbasiertes Routing**.  
 
 Weitere Informationen finden Sie unter [Verwalten der Netzwerktopologie](manage-your-network-topology.md).
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Verwalten der Netzwerktopologie](manage-
 
 Aktivieren Sie das standortbasierte Routing für Gateways, die Anrufe an PSTN-Gateways weiterleiten, die Anrufe an das PSTN weiterleiten, und ordnen Sie die Netzwerk Website zu, auf der sich das Gateway befindet. 
 
-1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > **Direct Routing**, und klicken Sie dann auf die Registerkarte **SBCS** .
+1. Wechseln Sie in der linken Navigationsleiste zu **VoIP**  >  **Direct Routing**, und klicken Sie dann auf die Registerkarte **SBCS** .
 2. Wählen Sie den SBC aus, und klicken Sie dann auf **Bearbeiten**. 
 3. Aktivieren Sie unter **standortbasiertes Routing und Medienoptimierung**die **Option standortbasiertes Routing aktivieren**.
 4. Geben Sie die Gateway-Standort-ID an, und legen Sie dann den Bypass-Modus fest.
@@ -176,17 +176,6 @@ Weitere Informationen finden Sie unter [Aufrufen von Richtlinien in Teams](teams
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    Endpunkte, die mit Systemen verbunden sind, die keine Anrufe an das PSTN (beispielsweise eine Telefonanlage) weiterleiten, weisen ähnliche Einschränkungen wie Endpunkte von Team Benutzern auf, die für standortbasiertes Routing aktiviert sind. Dies bedeutet, dass diese Benutzer unabhängig vom Standort des Benutzers Anrufe an und von Teams-Benutzern tätigen und empfangen können. Sie können auch Anrufe von und zu anderen Systemen tätigen und empfangen, die keine Anrufe an das PSTN-Netzwerk weiterleiten (beispielsweise einen Endpunkt, der mit einer anderen Telefonanlage verbunden ist), und zwar unabhängig von der Netzwerk Website, der das System zugeordnet ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anruf Übertragungen und Anrufweiterleitung, die PSTN-Endpunkte einbeziehen, unterliegen standortbasierten Routing-Erzwingungen. Bei diesen anrufen müssen nur PSTN-Gateways verwendet werden, die für solche Systeme als lokal definiert sind. 
-
-    Die folgende Tabelle zeigt die Gateway-Konfiguration von vier Gateways auf zwei verschiedenen Netzwerkstandorten: zwei mit PSTN-Gateways verbunden und zwei mit PBX-Systemen verbunden. 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway: Gateway 1 del-GW    |    Wahr     |   Website 1 (Delhi)      |
-    |PstnGateway: Gateway 2 Hyd-GW     |   Wahr      |      Website 2 (Hyderabad)   |
-    |PstnGateway: Gateway 3 del-PBX    |    Falsch     |     Website 1 (Delhi)    |
-    |PstnGateway: Gateway 4 Hyd-PBX    |    Falsch     |    Website 2 (Hyderabad)     |
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>Aktivieren des standortbasierten Routings für Anruf Richtlinien
 

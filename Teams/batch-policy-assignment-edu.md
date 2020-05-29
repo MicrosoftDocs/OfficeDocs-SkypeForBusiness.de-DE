@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe der Batch Richtlinienzuweisung Richtlinien für große Gruppen von Benutzern in Ihrer Bildungseinrichtung in loser Schüttung für Remote Schulen (teleschool, Tele Schule) zuweisen.
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033359"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410440"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Zuweisen von Richtlinien zu umfangreichen Benutzergruppen in ihrer Schule
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>Zuweisen einer Richtlinie in Massen
 
-Nun weisen wir Benutzern die entsprechenden Richtlinien in loser Schüttung zu. Die maximale Anzahl von Benutzern, für die Sie Richtlinien zuweisen oder aktualisieren können, ist 20.000. Wenn Sie beispielsweise über mehr als 20.000 Mitarbeiter und Pädagogen verfügen, müssen Sie mehrere Batches übermitteln.
+Nun weisen wir Benutzern die entsprechenden Richtlinien in loser Schüttung zu. Die maximale Anzahl von Benutzern, für die Sie Richtlinien zuweisen oder aktualisieren können, ist 5.000. Wenn Sie beispielsweise über mehr als 5.000 Mitarbeiter und Pädagogen verfügen, müssen Sie mehrere Batches übermitteln.
 
-> [!IMPORTANT]
-> Wir empfehlen derzeit, Richtlinien in Batches von 5.000-Benutzern gleichzeitig zuzuweisen. In Zeiten höherer Nachfrage können Verzögerungen bei der Verarbeitung auftreten. Um die Auswirkungen dieser erhöhten Verarbeitungszeiten zu minimieren, empfehlen wir, kleinere Batchgrößen von bis zu 5.000-Benutzern zu übermitteln und jeden Batch erst nach Abschluss des vorherigen zu übermitteln. Das Übermitteln von Batches außerhalb ihrer regulären Geschäftszeiten kann ebenfalls hilfreich sein.
 
 Führen Sie die folgenden Schritte aus, um Ihren Mitarbeitern und Pädagogen die Besprechungsrichtlinie mit dem Namen EducatorMeetingPolicy zuzuweisen.
 
@@ -120,7 +118,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> Wenn Sie einen anderen Richtlinientyp in Massen zuweisen möchten, wie TeamsMessagingPolicy, müssen Sie zu ```PolicyType``` der Richtlinie, die Sie zuweisen, ```PolicyName``` und dem Richtliniennamen wechseln.
+> Wenn Sie einen anderen Richtlinientyp in Massen zuweisen möchten, wie TeamsMessagingPolicy, müssen Sie ```PolicyType``` zu der Richtlinie, die Sie zuweisen, und ```PolicyName``` dem Richtliniennamen wechseln.
 
 ## <a name="get-the-status-of-a-bulk-assignment"></a>Abrufen des Status einer Massen Zuordnung
 
@@ -130,13 +128,13 @@ Jede Massenaufgabe gibt eine Vorgangs-ID zurück, die Sie verwenden können, um 
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-Führen Sie die folgenden Schritte aus, um den Zuordnungsstatus jedes Benutzers im Batchvorgang anzuzeigen. Details zu den einzelnen Benutzern sind in ```UserState``` der Eigenschaft zu finden.
+Führen Sie die folgenden Schritte aus, um den Zuordnungsstatus jedes Benutzers im Batchvorgang anzuzeigen. Details zu den einzelnen Benutzern sind in der Eigenschaft zu finden ```UserState``` .
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>Zuweisen einer Richtlinie in loser Schüttung, wenn mehr als 20.000-Benutzer vorhanden sind
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>Zuweisen einer Richtlinie in loser Schüttung, wenn mehr als 5.000-Benutzer vorhanden sind
 
 Führen Sie zunächst die folgenden Schritte aus, um zu sehen, wie viele Mitarbeiter und Pädagogen Sie haben:
 
@@ -144,13 +142,13 @@ Führen Sie zunächst die folgenden Schritte aus, um zu sehen, wie viele Mitarbe
 $faculty.count
 ```
 
-Anstatt die vollständige Liste der Benutzer-IDs bereitzustellen, führen Sie die folgenden Schritte aus, um die erste 20.000 und dann die nächste 20.000 usw. anzugeben.
+Anstatt die vollständige Liste der Benutzer-IDs bereitzustellen, führen Sie die folgenden Schritte aus, um die erste 5.000 und dann die nächste 5.000 usw. anzugeben.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-Sie können den Bereich der Benutzer-IDs ändern, bis Sie die vollständige Liste der Benutzer erreichen. Geben Sie beispielsweise ```$faculty[0..19999``` für den ersten Batch ein, ```$faculty[20000..39999``` verwenden Sie für den zweiten Batch ```$faculty[40000..59999``` , geben Sie für den dritten Batch ein, und so weiter.
+Sie können den Bereich der Benutzer-IDs ändern, bis Sie die vollständige Liste der Benutzer erreichen. Geben Sie beispielsweise ```$faculty[0..4999``` für den ersten Batch ein, verwenden Sie ```$faculty[5000..9999``` für den zweiten Batch, geben Sie ```$faculty[10000..14999``` für den dritten Batch ein, und so weiter.
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>Abrufen der Richtlinien, die einem Benutzer zugewiesen sind
 

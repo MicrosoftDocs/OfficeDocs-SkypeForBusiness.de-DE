@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel finden Sie Informationen zum Bereitstellen von Zusammenarbeits leisten für Microsoft Teams.
-ms.openlocfilehash: 4593d6b42e61efbd7d57f27fd0a10ed8f97b82f5
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268055"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410450"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Bereitstellen von Zusammenarbeits leisten für Microsoft Teams
 
@@ -62,7 +62,7 @@ Bevor Sie Ihre Zusammenarbeits leisten bereitstellen, müssen Sie entscheiden, o
 
 Wenn Sie sich entscheiden, ein Microsoft 365-Ressourcenkonto einzurichten, müssen Sie eine Lizenz für den Besprechungsraum erwerben. Die Lizenz für den Besprechungsraum umfasst ein Ressourcenpostfach, das es Personen in Ihrer Organisation ermöglicht, den Besprechungsraum über Outlook oder Teams zu buchen. Die Lizenz ermöglicht auch die Video-und Audiokonferenzen sowie die Bildschirmübertragung zwischen Besprechungsteilnehmern.
 
-Wenn Sie eine externe Telefonnummer empfangen oder anrufen müssen, benötigen Sie außerdem ein Microsoft 365-Telefon System oder eine Microsoft 365 Business Voice-Lizenz.
+Wenn Sie Anrufe an oder von einer externen Telefonnummer empfangen oder tätigen müssen, benötigen Sie möglicherweise einen Anrufplan oder eine Microsoft 365 Business Voice [-Add-on-Lizenz](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business). Wenn Sie in Ihrer Organisation ein direktes Routing aktiviert haben, benötigen Sie nur die SKU des Besprechungsraums.
 
 Wenn Sie ein Ressourcenkonto erstellen, können Sie auswählen, ob das Konto Besprechungsanfragen automatisch annehmen oder ablehnen, wiederkehrende Besprechungen zulassen, angeben, wie weit im Voraus Personen die Ressource buchen können usw.
 
@@ -87,7 +87,7 @@ Die Planung für Konfiguration und Bereitstellung umfasst die folgenden Hauptber
 
 ### <a name="account-provisioning"></a>Kontobereitstellung
 
-Wenn Sie beabsichtigen, Microsoft 365-Ressourcenkonten zu verwenden, um Benutzern das Buchen von Zusammenarbeits leisten zu ermöglichen, folgen Sie den Anweisungen unter [Erstellen eines Ressourcenkontos mithilfe des Microsoft 365 admin Centers](resource-account-ui.md) , um ein Microsoft 365-Ressourcenkonto für jede gewünschte Zusammenarbeits Leiste zu erstellen. Hier müssen Sie auch eine Besprechungsraum-Lizenz zum Ressourcenkonto hinzufügen und, wenn Sie Anrufe an oder von externen Telefonnummern tätigen oder empfangen möchten, eine Telefonanlage oder eine Business-VoIP-Lizenz.
+Wenn Sie beabsichtigen, Microsoft 365-Ressourcenkonten zu verwenden, um Benutzern das Buchen von Zusammenarbeits leisten zu ermöglichen, folgen Sie den Anweisungen unter [Erstellen eines Ressourcenkontos mithilfe des Microsoft 365 admin Centers](resource-account-ui.md) , um ein Microsoft 365-Ressourcenkonto für jede gewünschte Zusammenarbeits Leiste zu erstellen. In diesem Fall müssen Sie dem Ressourcenkonto auch eine Besprechungsraum Lizenz hinzufügen und, wenn Sie Anrufe an oder von externen Telefonnummern tätigen oder empfangen möchten, einen Anrufplan oder eine Business-VoIP-Lizenz, wenn Ihre Organisation kein direktes Routing verwendet.
 
 Wenn Sie den einzelnen Benutzern für Ihre private Nutzung Kollaborations Balken zuweisen möchten, müssen Sie keine weiteren Konten einrichten. Benutzer können sich mit ihren privaten Konten bei den Zusammenarbeits leisten anmelden.
 
