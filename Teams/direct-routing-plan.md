@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
+ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349599"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "44428952"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -234,7 +234,7 @@ Der FQDN-SIP.pstnhub.DoD.Teams.Microsoft.US wird in eine der folgenden IP-Adress
 - 52.127.64.33
 - 52.127.68.34
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP.pstnhub.DoD.Teams.Microsoft.US in alle diese IP-Adressen aufgelöst. 
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 gcc-höchst Umgebung
 
@@ -247,7 +247,7 @@ Der FQDN-SIP.pstnhub.gov.Teams.Microsoft.US wird in eine der folgenden IP-Adress
 - 52.127.88.59
 - 52.127.92.64
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP.pstnhub.gov.Teams.Microsoft.US in alle diese IP-Adressen aufgelöst. 
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.
 
 ## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Anschlüsse
 

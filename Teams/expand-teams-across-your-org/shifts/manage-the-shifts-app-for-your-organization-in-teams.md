@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349659"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416885"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -73,11 +73,27 @@ Wenn Sie die FirstlineWorker-Richtlinie anzeigen möchten, wechseln Sie im linke
 
 ![Screenshot der FirstlineWorker-App-Setup-Richtlinie](../../media/firstline-worker-app-setup-policy.png "Screenshot der FirstlineWorker-App-Setup-Richtlinie im Microsoft Teams Admin Center")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Einzelnen Benutzern die FirstlineWorker-Richtlinie zuweisen
+#### <a name="assign-the-firstlineworker-policy-to-users"></a>Zuweisen der FirstlineWorker-Richtlinie zu Benutzern
 
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Benutzer**, und klicken Sie dann den gewünschten Benutzer an.
-2. Wählen Sie neben **Zugewiesene Richtlinien****Bearbeiten** aus.
-3. Wählen Sie unter **Teams-App-Setup-Richtlinie****FirstlineWorker** und dann **Speichern** aus.
+So weisen Sie die FirstlineWorker-App-Setup Richtlinie einem Benutzer zu:
+
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+3. Wählen Sie unter **App-Setup Richtlinie**die Option **FirstlineWorker**aus, und klicken Sie dann auf über **nehmen**.
+
+So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
+
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
+3. Klicken Sie auf **Einstellungen bearbeiten**, wählen Sie unter **App-Setup Richtlinie**die Option **FirstlineWorker**aus, und klicken Sie dann auf über **nehmen**.  
+
+Sie können auch die folgenden Schritte ausführen:
+
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
+2. Wählen Sie die FirstlineWorker-Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
+3. Wählen Sie **Benutzer verwalten** aus.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
+5. Nachdem Sie das Hinzufügen von Benutzern abgeschlossen haben, wählen Sie über **nehmen**aus.
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Die FirstlineWorker App-Setup-Richtlinie Mitgliedern einer Gruppe zuweisen
 
@@ -102,5 +118,15 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 Je nach Anzahl der Mitglieder einer Gruppe kann das Ausführen dieses Befehls mehrere Minuten dauern.
 
+## <a name="search-the-audit-log-for-shifts-events"></a>Durchsuchen des Überwachungsprotokolls nach Schichten Ereignissen
+
+**(in der Vorschau)**
+
+Sie können das Überwachungsprotokoll durchsuchen, um schichtaktivitäten in Ihrer Organisation anzuzeigen.  Weitere Informationen zum Durchsuchen des Überwachungsprotokolls und zum Anzeigen einer Liste der [schichtaktivitäten](../../audit-log-events.md#shifts-in-teams-activities) , die im Überwachungsprotokoll protokolliert werden, finden Sie unter [Durchsuchen des Überwachungsprotokolls nach Ereignissen in Teams](../../audit-log-events.md).
+
+Bevor Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst die Überwachung im [Security & Compliance Center](https://protection.office.com)aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Überwachungsprotokoll Suche](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Beachten Sie, dass Überwachungsdaten nur ab dem Zeitpunkt verfügbar sind, an dem Sie die Überwachung aktiviert haben.
+
 ## <a name="related-topics"></a>Verwandte Themen
+
 - [Hilfe zur Schichten-App für Mitarbeiter in Service und Produktion](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](../../assign-policies.md)

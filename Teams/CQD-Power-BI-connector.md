@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410470"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416865"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -163,6 +163,10 @@ Trotz des Beta-Tags ist der Connector für die Anrufqualität für Power BI die 
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Warum scheint der Verbinder im Vergleich zu erweiterten CQD im Browser langsamer zu sein? Was kann ich tun, um die Leistung zu verbessern?
 
 Die Abfrageleistung für die verschiedenen Vorlagen ist sowohl im Browser als auch im Connector identisch.  Wie bei jeder anderen Standalone-app fügt Power BI auch die Authentifizierungs-und Renderingzeiten für unsere Leistung ein. Darüber hinaus besteht der Unterschied darin, wie viele gleichzeitige Abfragen ausgeführt werden. Da die in-Browser-Version von CQD weniger gut entwickelte und Informationsdichte Visualisierungsoptionen aufwies, waren die meisten unserer Berichte auf das Laden von 2-3-Abfragen auf einmal limitiert. Auf der anderen Seite werden in den Connector-Vorlagen häufig 20 + gleichzeitige Abfragen angezeigt. Wenn Sie Berichte erstellen möchten, die genauso reaktionsfähig sind wie die älteren, die Sie verwendet haben, versuchen Sie, Berichte mit nicht mehr als 2-3-Abfragen pro Registerkarte zu erstellen.
+
+Weitere Informationen finden Sie in den folgenden Artikeln: 
+- [Optimierungs Handbuch für Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [DirectQuery-modellanleitung](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Ich finde, dass ich beim Ausführen von Abfragen regelmäßig in die 10.000-Zeilenbeschränkung verfüge. Wie erhalte ich den Connector, um mehr als 10.000 Zeilen zurückzugeben?
 

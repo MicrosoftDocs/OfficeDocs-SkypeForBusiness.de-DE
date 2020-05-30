@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902270"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416745"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Teams aus.
 
@@ -104,7 +104,7 @@ In der folgenden Tabelle sind die Teams im Modus "Inseln" und im TeamsOnly-Modus
 | Eingehende Chats und eingegangene Anrufe in:|  Teams oder Skype for Business | Teams |
 | Empfangene PSTN-Anrufe: | Skype for Business <br>(Die Verwendung der PSTN-Funktionalität in Teams wird im Modus "Inseln" nicht unterstützt.)     | Teams |   
  |Anwesenheit    | Die Anwesenheit in Skype for Business und Teams ist unabhängig. Benutzer können je nach verwendetem Client unterschiedliche Zustände für denselben Inseln-Benutzer sehen. | Der Anwesenheitsstatus basiert ausschließlich auf der Aktivität des Benutzers in Teams. Alle anderen Benutzer, unabhängig davon, welchen Client Sie verwenden, sehen diesen Anwesenheitsstatus. | 
- | Besprechungsplanung    | Benutzer können Besprechungen entweder in Teams oder in Skype for Business planen. Beide Add-Ins werden in Outlook angezeigt.    |     Benutzer planen nur Besprechungen in Teams. In Outlook steht nur das Team-Add-in zur Verfügung. | 
+ | Besprechungsplanung    | Benutzer können Besprechungen entweder in Teams oder in Skype for Business planen. Standardmäßig werden beide Add-Ins in Outlook angezeigt. Sie können eine Team-Besprechungsrichtlinie festlegen, um zu steuern, ob Benutzer nur das Add-in "Teams-Besprechung" oder sowohl die Teambesprechung als auch die Add-Ins für Skype for Business-Besprechungen verwenden können (in**Kürze**verfügbar). Weitere Informationen finden Sie unter [Einrichten des Besprechungs Anbieters für Benutzer im Modus "Inseln"](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Benutzer planen nur Besprechungen in Teams. In Outlook steht nur das Team-Add-in zur Verfügung. | 
 
 In der folgenden Tabelle werden die vor-und Nachteile der Verwendung der überlappenden Funktionen-Methode zum Migrieren Ihrer Organisation zu Teams zusammengefasst.
 

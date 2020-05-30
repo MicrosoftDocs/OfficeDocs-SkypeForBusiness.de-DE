@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374313"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416875"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -335,7 +335,7 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, 
 
 Hierbei handelt es sich um eine Richtlinie pro Organisator, die das Einwählen in Konferenz Besprechungen in Besprechungs Gruppen ermöglicht. Mit dieser Einstellung wird gesteuert, ob Einwahlbenutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert ist "falsch", was bedeutet, dass die Benutzer in der Lobby warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung Beitritt. 
 
-**Hinweis** Wenn "falsch" und ein Einwahlbenutzer der Besprechung zuerst Beitritt und in der Lobby gespeichert wird, muss ein Organisationsbenutzer an der Besprechung mit einem Team-Clientteil nehmen, um den Benutzer aus dem Lobbby zu akzeptieren. Es gibt keine Lobby-Steuerelemente, die für gewählte Benutzer verfügbar sind. 
+**Hinweis** Ist "falsch", und ein Einwahlbenutzer nimmt zuerst an der Besprechung Teil und wird in der Lobby gespeichert, und ein Organisationsbenutzer muss an der Besprechung mit einem Team-Clientteil nehmen, um den Benutzer aus der Lobby zu akzeptieren. Es gibt keine Lobby-Steuerelemente, die für gewählte Benutzer verfügbar sind. 
 
 
 ### <a name="automatically-admit-people"></a>Automatisches zulassen von Personen
@@ -346,7 +346,7 @@ Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellu
 
  Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern.
  
- **Hinweis** In den Besprechungsoptionen lautet die Einstellung beschriftet "Wer kann die Lobby umgehen?"
+ **Hinweis** In den Besprechungsoptionen ist die Einstellung mit "Wer kann die Lobby umgehen" gekennzeichnet
   
 |Einstellungswert  |Join-Verhalten |
 |---------|---------|
@@ -406,6 +406,23 @@ Derzeit können Sie PowerShell nur zum Konfigurieren dieser Richtlinieneinstellu
 Um einen Besprechungsorganisator zum Herunterladen des Besprechungs Anwesenheitsberichts zu aktivieren, legen Sie den **AllowEngagementReport** -Parameter auf **Enabled (aktiviert**). Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt.
 
 Um zu verhindern, dass ein Besprechungsorganisator den Bericht herunterlädt, setzen Sie den Parameter auf **disabled**. Diese Einstellung ist standardmäßig deaktiviert, und die Option zum Herunterladen des Berichts steht nicht zur Verfügung.
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Besprechungsrichtlinien Einstellungen – Besprechungs Anbieter für Inseln-Modus
+
+**(in Kürze verfügbar)**
+
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung wird gesteuert, welches Outlook-Besprechungs-Add-in für Benutzer verwendet wird *, die sich im Inseln-Modus befinden*. Sie können angeben, ob Benutzer das Team Besprechungs-Add-in oder sowohl die Teambesprechung als auch die Skype for Business-Besprechungs-Add-Ins verwenden können, um Besprechungen in Outlook zu planen.
+
+Sie können diese Richtlinie nur auf Benutzer anwenden, die sich im Modus "Inseln" befinden, und den **AllowOutlookAddIn** -Parameter in den Team-Besprechungsrichtlinien auf " **true** " festlegen.
+
+Derzeit können Sie nur PowerShell verwenden, um diese Richtlinie einzurichten. Sie können eine vorhandene Team-Besprechungsrichtlinie mithilfe des Cmdlets " [festlegen-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) " bearbeiten. Sie können auch eine neue Team-Besprechungsrichtlinie erstellen, indem Sie das Cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) verwenden und es Benutzern zuweisen.
+
+Um anzugeben, welches Besprechungs-Add-in für Benutzer verfügbar sein soll, legen Sie den **PreferredMeetingProviderForIslandsMode** -Parameter wie folgt fest:
+
+- Setzen Sie den Parameter auf **TeamsAndSfB** , um das Add-in Teams-Besprechung und das Skype for Business-Add-in in Outlook zu aktivieren. Dies ist der Standardwert.
+- Setzen Sie den Parameter auf **TeamsOnly** , um nur das Teambesprechung-Add-in in Outlook zu aktivieren. Mit dieser Richtlinieneinstellung wird sichergestellt, dass alle zukünftigen Besprechungen über einen Link "Teams-Besprechungsteilnahme" verfügen. Es werden keine vorhandenen Skype for Business-Besprechungs Verknüpfungs Verknüpfungen zu Teams migriert. Diese Richtlinieneinstellung hat keinen Einfluss auf Anwesenheit, Chat, PSTN-Anrufe oder andere Funktionen in Skype for Business, was bedeutet, dass Benutzer Skype for Business weiterhin für diese Funktionen verwenden.
+
+  Wenn Sie den Parameter auf **TeamsOnly**und dann zurück zu **TeamsAndSfB**wechseln, sind beide Besprechungs-Add-Ins aktiviert. Beachten Sie jedoch, dass vorhandene Team-Besprechungs-Join-Links nicht zu Skype for Business migriert werden. Nur Skype for Business-Besprechungen, die nach der Änderung geplant sind, haben einen Link zu Skype for Business-Besprechungen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

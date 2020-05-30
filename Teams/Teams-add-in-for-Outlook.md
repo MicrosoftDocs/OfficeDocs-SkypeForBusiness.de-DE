@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349609"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416725"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -37,6 +37,7 @@ Das Team Besprechungs-Add-in wird automatisch für Benutzer installiert, die Mic
 ![Screenshot des Microsoft Teams-Add-Ins auf dem Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Es gibt **keine direkte URL** , die mit dem Add-in "Teams" verknüpft ist.
 > - Es gibt weitere Überlegungen, ob Ihre Organisation beide Teams und Skype for Business ausführt. Unter bestimmten Umständen steht das Team-Add-in in Outlook nicht zur Verfügung. Weitere Informationen finden Sie unter [Upgrade von Skype for Business in Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 > - Benutzerberechtigungen zum Ausführen der Datei „Regsvr32.exe“ sind eine Mindestanforderung, damit das Add-In für „Teams Meeting“ auf dem Computer installiert wird.
 > - Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
@@ -65,6 +66,7 @@ Die Schaltfläche „Teams-Besprechung“ wird in den neuesten Builds der Outloo
 Die Besprechungskoordinaten (der Link zum Beitreten zur Teams-Besprechung und Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf **Senden** geklickt hat.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Microsoft Teams-Besprechungs-Add-In und Uhrzeit finden für Outlook
+
 Find Time ist ein Add-in für Outlook, das Benutzern hilft, sich über eine Besprechungszeit in Unternehmen zu einigen. Sobald die Besprechungsteilnehmer ihren bevorzugten Zeitpunkt angegeben haben, sendet Uhrzeit finden die Besprechungseinladung im Namen des Benutzers. Wenn die Option **Onlinebesprechung** in Uhrzeit finden ausgewählt ist, plant Uhrzeit finden eine Skype for Business- oder eine Microsoft Teams-Besprechung. (Die von Uhrzeit finden verwendete Option hängt von dem standardmäßigen Onlinebesprechungskanal ab, der von Ihrer Organisation festgelegt wurde.)
 
 > [!NOTE]  
@@ -96,15 +98,25 @@ Der Microsoft Teams-Client ermittelt, ob die Benutzer die 32-Bit- oder 64-Bit-Ve
 
 Kunden können [von Skype for Business auf Microsoft Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) umsteigen. Mandantenadministratoren können den Teams-Modus „Koexistenz“ verwenden, um diesen Umstieg für ihre Benutzer zu definieren. Mandantenadministratoren haben die Möglichkeit, die Nutzung von Teams zusammen mit Skype for Business (Inselmodus) zu ermöglichen. 
 
-Wenn Benutzer im Inselmodus eine Besprechung in Outlook planen, erwarten sie in der Regel, dass sie auswählen können, ob Sie eine Skype for Business- oder eine Microsoft Teams-Besprechung planen. In Outlook im Web, Outlook für Windows und Outlook für Mac werden Benutzern sowohl Skype for Business- als auch Microsoft Teams-Add-Ins angezeigt, wenn sie den Inselmodus verwenden. Aufgrund bestimmter Einschränkungen in der ersten Version kann Outlook Mobile nur das Erstellen von Besprechungen in Skype for Business **oder** Microsoft Teams unterstützen. Details finden Sie in der folgenden Tabelle.
+Wenn Benutzer im Inselmodus eine Besprechung in Outlook planen, erwarten sie in der Regel, dass sie auswählen können, ob Sie eine Skype for Business- oder eine Microsoft Teams-Besprechung planen. In Outlook im Web, Outlook Windows und Outlook Mac sehen Benutzer standardmäßig sowohl Skype for Business-als auch Teams-Add-Ins, wenn Sie sich im Modus "Inseln" befinden. Sie können eine Gruppen-Besprechungsrichtlinien Einstellung konfigurieren, um zu steuern, ob Benutzer im Modus "Inseln" nur das Add-in "Teams-Besprechung" oder sowohl die Teambesprechung als auch die Add-Ins für Skype for Business-Besprechungen verwenden können.
+
+Aufgrund bestimmter Einschränkungen in der ersten Version kann Outlook Mobile nur das Erstellen von Besprechungen in Skype for Business **oder** Microsoft Teams unterstützen. Details finden Sie in der folgenden Tabelle.
 
 | Koexistenzmodus im Microsoft Teams Admin Center | Standardmäßiger Besprechungsanbieter in Outlook Mobile |
 | --------------------------------------|---------------------------------------------|
 | Inselmodus | Skype for Business |
 | Nur Skype for Business | Skype for Business |
 | Skype for Business mit Zusammenarbeit in Microsoft Teams | Skype for Business |
-| Skype for Business mit Zusammenarbeit und Besprechungen in Microsoft Teams | Teams |
+| Skype for Business mit Zusammenarbeit und Besprechungen in Microsoft Teams | Microsoft Teams |
 | Nur Microsoft Teams | Microsoft Teams |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Festlegen, ob Benutzer im Inseln-Modus nur das Team Besprechungs-Add-in oder sowohl die Teambesprechung als auch die Skype for Business-Besprechungs-Add-Ins verwenden können
+
+**(in Kürze verfügbar)**
+
+Als Administrator können Sie eine Team-Besprechungsrichtlinien Einstellung konfigurieren, um zu steuern, welches Outlook-Besprechungs-Add-in für Benutzer verwendet wird *, die sich im Inseln-Modus befinden*. Sie können angeben, ob Benutzer das Team Besprechungs-Add-in oder sowohl die Teambesprechung als auch die Skype for Business-Besprechungs-Add-Ins verwenden können, um Besprechungen in Outlook zu planen.
+
+Sie können diese Richtlinie nur auf Benutzer anwenden, die sich im Modus "Inseln" befinden, und den **AllowOutlookAddIn** -Parameter in den Team-Besprechungsrichtlinien auf " **true** " festlegen. Eine schrittweise Anleitung zum Festlegen dieser Richtlinie finden Sie unter [Festlegen des Besprechungs Anbieters für Benutzer im Modus "Inseln"](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Andere Überlegungen
 

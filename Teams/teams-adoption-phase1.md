@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie mehr über die Aktivitäten in der Startphase der Microsoft Teams-Einführung.
+description: In diesem Artikel erfahren Sie mehr über die Aktivitäten in der Startphase der Microsoft Teams-Einführung. Grundlegendes zu den bewährten Methoden für das Microsoft Teams-Setup und die Team Planung
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 2c9f8e7ca96ea239caa05452ce821e4c66319091
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349709"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416855"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams-Einführungsphase 1 – Start
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88eda5d9acaeb876008b3eb35d38b348830cce48
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958410"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416735"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 
@@ -34,7 +34,7 @@ Das Überwachungsprotokoll kann Ihnen bei der Untersuchung bestimmter Aktivität
 - Hinzufügen von Kanälen
 - Ändern von Einstellungen
 
-Eine vollständige Liste der geprüften Teams-Aktivitäten finden Sie unter [Teams-Aktivitäten](#teams-activities).
+Eine vollständige Liste der zu überwachenden Teams-Aktivitäten finden Sie unter [Team](#teams-activities) Aktivitäten und [Schichten in den Teamaktivitäten (in der Vorschau)](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Überwachungsereignisse von privaten Kanälen werden auch so protokolliert, wie Sie für Teams und Standardkanäle gelten.
@@ -59,7 +59,7 @@ Die Zeitdauer, in der ein Überwachungsdatensatz aufbewahrt und im Überwachungs
 
 ## <a name="tips-for-searching-the-audit-log"></a>Tipps zum Durchsuchen des Überwachungsprotokolls
 
-Hier finden Sie Tipps zum Suchen nach [Teams-Aktivitäten](#teams-activities) im Überwachungsprotokoll.
+Hier finden Sie Tipps zum Suchen nach Teams-Aktivitäten im Überwachungsprotokoll.
 
 ![Screenshot der Such Seite des Überwachungsprotokolls](media/audit-log-search-page.png)
 
@@ -67,7 +67,7 @@ Hier finden Sie Tipps zum Suchen nach [Teams-Aktivitäten](#teams-activities) im
     ![Screenshot der Überwachungsprotokoll Suche](media/audit-log-search.png)
 - Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie **Ergebnisse für alle Aktivitäten anzeigen** in der Liste **Aktivitäten** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, suchen Sie nach allen Aktivitäten, und Filtern Sie die Ergebnisse, indem Sie den Namen des Vorgangs in das Feld in der Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
 - Wenn Sie die aktuellen Suchkriterien löschen möchten, klicken Sie auf **Löschen**. Der Datumsbereich kehrt auf den Standardwert der letzten sieben Tage zurück. Sie können auch auf **Alle löschen klicken, um die Ergebnisse für alle Aktivitäten anzuzeigen** , um alle ausgewählten Aktivitäten abzubrechen.
-- Wenn 5.000-Ergebnisse gefunden werden, können Sie wahrscheinlich davon ausgehen, dass mehr als 5.000-Ereignisse vorhanden sind, die die Suchkriterien erfüllt haben. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzugeben, oder Sie können alle Suchergebnisse exportieren, indem Sie **Ergebnisse** > exportieren,**alle Ergebnisse herunterladen**auswählen.
+- Wenn 5.000-Ergebnisse gefunden werden, können Sie wahrscheinlich davon ausgehen, dass mehr als 5.000-Ereignisse vorhanden sind, die die Suchkriterien erfüllt haben. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzugeben, oder Sie können alle Suchergebnisse exportieren, indem Sie **Ergebnisse exportieren**,  >  **alle Ergebnisse herunterladen**auswählen.
 
 Schauen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Audioprotokoll-Suche an. Treten Sie Ansuman Acharya, einem Programmmanager für Teams, bei, da er veranschaulicht, wie eine Überwachungsprotokoll Suche nach Teams durchführen kann.
 
@@ -142,6 +142,41 @@ Im folgenden finden Sie eine Liste aller Ereignisse, die für Benutzer-und Admin
 |Connector aktualisiert    |ConnectorUpdated         |Ein Benutzer hat einen Verbinder in einem Kanal geändert.         |
 |Registerkarte "aktualisiert"   |TabUpdated         |Ein Benutzer hat eine Registerkarte in einem Kanal geändert.         |
 |Benutzer, der bei Teams angemeldet ist     |TeamsSessionStarted         |Ein Benutzer meldet sich bei einem Microsoft Teams-Client an. Dieses Ereignis erfasst keine Token-Aktualisierungsaktivitäten.         |
+
+## <a name="shifts-in-teams-activities"></a>Schichten in den Teamaktivitäten
+
+**(in der Vorschau)**
+
+Wenn Ihre Organisation die app "Schichten" in Teams verwendet, können Sie das Überwachungsprotokoll nach Aktivitäten durchsuchen, die sich auf die Schicht-App beziehen. Im folgenden finden Sie eine Liste aller Ereignisse, die für schichtaktivitäten in Teams im Microsoft 365-Überwachungsprotokoll protokolliert werden.
+
+|Anzeigename  |Vorgang  |Beschreibung  |
+|---------|---------|---------|
+|Gruppe ' Terminplanung hinzugefügt '      |SchedulingGroupAdded          |Ein Benutzer fügt dem Terminplan erfolgreich eine neue Planungsgruppe hinzu.          |
+|Gruppe ' bearbeitete Planung '     |SchedulingGroupEdited         |Ein Benutzer bearbeitet eine Planungsgruppe erfolgreich.          |
+|Gruppe "gelöschte Planung"         |SchedulingGroupDeleted              |Ein Benutzer löscht eine Planungsgruppe erfolgreich aus dem Terminplan.|
+|Schicht hinzugefügt      |ShiftAdded          |Ein Benutzer fügt erfolgreich eine Schicht hinzu.           |
+|Bearbeitete Schicht       |ShiftEdited       |Ein Benutzer bearbeitet eine Schicht erfolgreich.        |
+|Gelöschte Schicht          |ShiftDeleted          | Ein Benutzer löscht eine Schicht erfolgreich.               |
+|Hinzugefügte Arbeitszeit      |TimeOffAdded          |Ein Benutzer fügt dem Terminplan erfolgreich Zeit aus.          |
+|Bearbeitete arbeitsfreie Zeit         |TimeOffEdited           |Ein Benutzer bearbeitet die freie Zeit erfolgreich.          |
+|Gelöschte Zeit aus     |TimeOffDeleted              |Ein Benutzer löscht die Arbeitszeit erfolgreich.           |
+|Geöffnete Schicht hinzugefügt     |OpenShiftAdded          |Ein Benutzer fügt erfolgreich eine offene Schicht zu einer Planungsgruppe hinzu.          |
+|Geöffnete Umschalttaste bearbeitet    |OpenShiftEdited          |Ein Benutzer bearbeitet eine geöffnete Schicht in einer Planungsgruppe erfolgreich.          |
+|Geöffnete UMSCHALTTASTE gelöscht      |OpenShiftDeleted          |Ein Benutzer löscht eine geöffnete Schicht aus einer Planungsgruppe erfolgreich.         |
+|Freigegebener Zeitplan     |ScheduleShared                  |Ein Benutzer hat erfolgreich einen Team Zeitplan für einen Datumsbereich freigegeben.          |
+|Uhr mit Zeitstempel         |ClockedIn          |Ein Benutzer hat mit der Uhrzeit Uhr erfolgreich Uhren.          |
+|Getaktet mit Zeitstempel      |ClockedOut          |Ein Benutzer hat mit der Zeitschaltuhr erfolgreich ausgetaktt.          |
+|Unterbrechungs Beginn mit Zeitstempel      |BreakStarted          |Ein Benutzer startet während einer aktiven Zeit Takt Sitzung erfolgreich eine Unterbrechung.          |
+|Pause mit Zeitstempel beendet    |BreakEnded          |Ein Benutzer beendet während einer aktiven Zeit Takt Sitzung erfolgreich eine Unterbrechung.          |
+|Zeitstempel Eintrag hinzugefügt     |TimeClockEntryAdded          |Ein Benutzer fügt erfolgreich einen neuen manuellen Zeitstempel Eintrag auf der Arbeitszeittabelle hinzu.          |
+|Zeit Takt Eintrag bearbeitet     | TimeClockEntryEdited             |Ein Benutzer bearbeitet erfolgreich eine Zeit Takt Eingabe auf dem Arbeitszeittabellen.          |
+|Uhrzeit Eintrag für gelöschte Zeit    |TimeClockEntryDeleted              |Ein Benutzer löscht einen Uhrzeit Eintrag erfolgreich auf der Arbeitszeittabelle.          |
+|Schicht Anforderung hinzugefügt         |RequestAdded              |Ein Benutzer hat eine Schicht Anforderung hinzugefügt.          |
+|Reaktion auf Schicht Anforderung     |RequestRespondedTo                  |Ein Benutzer hat auf eine Schicht Anforderung geantwortet.          |
+|Abgebrochene Schicht Anforderung         |RequestCanceled               |Ein Benutzer hat eine Schicht Anforderung abgebrochen.          |
+|Einstellung ' Zeitplan geändert '      |ScheduleSettingChanged          |Ein Benutzer ändert eine Einstellung in den Schichten Einstellungen.         |
+|Integration von Arbeitskräften hinzugefügt      |WorkforceIntegrationAdded                  | Die Schicht-APP ist in ein Drittanbietersystem integriert.         |
+|Off-Shift-Nachricht angenommen         |OffShiftDialogAccepted          |Ein Benutzer bestätigt die Off-Shift-Nachricht für den Zugriff auf Teams nach Schicht Stunden.           |
 
 ## <a name="office-365-management-activity-api"></a>Office 365-Verwaltungs Aktivitäts-API
 

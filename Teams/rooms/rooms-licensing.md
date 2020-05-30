@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Informieren Sie sich über die verfügbaren Lizenzen für verschiedene Arten von Anruf-und besprechungsfeatures in Microsoft Teams-Räumen.
-ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064490"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416845"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
@@ -67,7 +67,7 @@ In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams-R
 |An einer geplanten Besprechung teilnehmen  | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  |
 |Initiieren einer Ad-hoc-Besprechung | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Initiieren einer Ad-hoc-Besprechung und Abwählen von einer Besprechung zu Telefonnummern |  SKU des Besprechungsraums |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Geben Sie dem Raum eine Telefonnummer, und tätigen oder empfangen Sie Anrufe aus dem Chatroom oder nehmen Sie mit einer Telefonnummer an einer Audiokonferenz Teil  | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Geben Sie dem Raum eine Telefonnummer, und tätigen oder empfangen Sie Anrufe aus dem Chatroom oder nehmen Sie mit einer Telefonnummer an einer Audiokonferenz Teil  | Mit Direct Routing: Besprechungsraum-SKU<br/>Ohne direktes Routing: Plan für Inlands-oder Auslandsgespräche<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Verwalten Ihres Raum Geräts mit Microsoft InTune |SKU des Besprechungsraums  |Microsoft InTune-Abonnement mit [lokalem MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
