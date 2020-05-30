@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898130"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412622"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden
 
@@ -37,6 +37,8 @@ Es ist empfehlenswert, diesen Artikel zu lesen, bevor Sie den Assistenten starte
 
 > [!IMPORTANT]
 > Microsoft Teams und Business Voice funktionieren nur, wenn sich die Postfächer Ihrer Benutzer in Microsoft 365 befinden.  Postfächer, die sich auf einem lokalen Exchange-Server befinden, werden nicht unterstützt.
+>
+> Der Assistent für erste Schritte unterstützt keine Hybridbereitstellungen für Skype for Business. Wenn Sie über eine Hybridbereitstellung für Skype for Business verfügen und Business Voice einrichten möchten, lesen Sie [Einrichten des Telefonsystems in Ihrer Organisation](../setting-up-your-phone-system.md).
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
