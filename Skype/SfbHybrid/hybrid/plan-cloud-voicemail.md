@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Configuring Cloud Voicemail.
-ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221285"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472254"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen des Cloud-Voicemail-Diensts für lokale Benutzer
 
@@ -79,7 +79,7 @@ Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anford
 
 - Eine externe Exchange-Webdienste-URL und AutoErmittlung muss eingerichtet sein, oder einige Cloud Voicemail-Funktionen sind limitiert.
 
-- Wenn Sie nur über eine lokale Bereitstellung verfügen&#x2014;das heißt, dass nur Exchange-und Skype for Business lokale Server&#x2014;aber Cloud-Voicemail nutzen möchten, benötigen Sie eine Telefon System Lizenz.
+- Wenn Sie über einen lokalen Exchange-Server verfügen, richten Sie die Cloud-Voicemail mithilfe der Schritte unter [Einrichten von Cloud-Voicemail für Exchange Server-Postfachbenutzer](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)ein.
 
 ## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 

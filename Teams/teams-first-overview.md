@@ -15,12 +15,12 @@ description: Verwenden Sie diese Anleitung, um Microsoft Teams als erste Office 
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041712"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472346"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams zuerst Ausrollen
 
@@ -142,9 +142,7 @@ Weitere Informationen finden Sie hier: <a href="https://docs.microsoft.com/micro
 <li><p>eDiscovery und rechtliche Aufbewahrung für Compliance bei Kanal Nachrichten werden unterstützt</p></li>
 <li><p>Datenverlust-Präventions Richtlinien (DLP) sind verfügbar</p></li>
 </ul>
-<p>Vollständige Funktionsgruppe, die in Exchange Online zur Verfügung steht, unterstützt Exchange lokal die meisten dieser Features, finden Sie unter</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Interaktion von Exchange und Teams</a></p>
-<p>vollständige Liste</p></td>
+<p>Vollständige Funktionsgruppe in Exchange Online, Exchange lokal unterstützt die meisten dieser Features finden Sie unter <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">so interagieren Exchange und Teams</a> für die vollständige Liste.</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Weitere Informationen finden Sie hier: <a href="https://docs.microsoft.com/micro
     [Beziehen von Clients für Teams](get-clients.md)
 
 5.   Fahren Sie Ihr Adoptionsprogramm  
-    [Einführen von Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [Einführen von Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Prüfliste für den Schnellstart der Microsoft Teams-Einführung](teams-adoption-quick-start-checklist.md)
 
 6.  Planen des Verschiebens anderer Arbeitslasten in Office 365

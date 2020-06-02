@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
-ms.translationtype: HT
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898170"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489137"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -38,8 +38,11 @@ Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beit
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
-2. Aktivieren Sie unter **Teilnehmer** die Option **Anonyme Benutzer können an einer Besprechung teilnehmen**.
+1. Wechseln Sie zum Admin Center unter <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> .
+
+2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
+
+3. Aktivieren Sie unter **Teilnehmer** die Option **Anonyme Benutzer können an einer Besprechung teilnehmen**.
 
     ![Screenshot der Teilnehmereinstellungen für Besprechungen im Admin Center](media/meeting-settings-participants.png "Screenshot der Teilnehmereinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
@@ -62,8 +65,9 @@ Sie können Teams-Besprechungseinladungen an die Bedürfnisse Ihrer Organisation
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
-2. Gehen Sie unter **E-Mail-Einladung** wie folgt vor:
+1. Wechseln Sie zum <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin Center</a>.
+2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
+3. Gehen Sie unter **E-Mail-Einladung** wie folgt vor:
 
     ![Screenshot der Einstellungen für die Besprechungseinladung, die Sie anpassen können](media/meeting-settings-invitation.png "Screenshot der Einstellungen für die Besprechungseinladung, die Sie für Teams-Besprechungen anpassen können")
 
@@ -71,9 +75,9 @@ Sie können Teams-Besprechungseinladungen an die Bedürfnisse Ihrer Organisation
     - **URL für rechtliche Hinweise** Wenn Ihre Organisation über eine Website mit rechtlichen Hinweisen verfügt, zu der Personen bei rechtliche Bedenken navigieren sollen, geben Sie die URL hier ein.
     - **Hilfe-URL** Wenn Ihre Organisation über eine Supportwebsite verfügt, zu der Personen bei Problemen navigieren sollen, geben Sie die URL hier ein.
     - **Fußzeile** Geben Sie Text ein, der als Fußzeile angezeigt werden soll.
-3. Klicken Sie auf **Vorschau für Einladung**, um eine Vorschau Ihrer Besprechungseinladung anzuzeigen.
-4. Klicken Sie abschließend auf **Speichern**.
-5. Warten Sie eine Stunde, bis die Änderungen weitergegeben wurden. Planen Sie dann eine Teams-Besprechung, um zu sehen, wie die Besprechungseinladung aussieht.  
+4. Klicken Sie auf **Vorschau für Einladung**, um eine Vorschau Ihrer Besprechungseinladung anzuzeigen.
+5. Klicken Sie abschließend auf **Speichern**.
+6. Warten Sie eine Stunde, bis die Änderungen weitergegeben wurden. Planen Sie dann eine Teams-Besprechung, um zu sehen, wie die Besprechungseinladung aussieht.  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Festlegen, wie der Echtzeit-Mediendatenverkehr für Teams-Besprechungen gehandhabt werden soll
 
@@ -85,9 +89,9 @@ Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzw
 > Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Microsoft Teams-Dienst ändern, müssen Sie außerdem [übereinstimmende Einstellungen auf alle Benutzergeräte anwenden](QoS-in-Teams-clients.md) und auf alle internen Netzwerkgeräte, um die Änderungen an QoS in Teams vollständig zu implementieren.
 
  ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
-
-1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
-2. Gehen Sie unter **Netzwerk** wie folgt vor:
+1. Wechseln Sie zum <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin Center</a>.
+2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
+3. Gehen Sie unter **Netzwerk** wie folgt vor:
 
     ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center](media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 

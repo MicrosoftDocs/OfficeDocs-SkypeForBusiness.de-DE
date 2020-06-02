@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416875"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489147"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -423,6 +423,24 @@ Um anzugeben, welches Besprechungs-Add-in für Benutzer verfügbar sein soll, le
 - Setzen Sie den Parameter auf **TeamsOnly** , um nur das Teambesprechung-Add-in in Outlook zu aktivieren. Mit dieser Richtlinieneinstellung wird sichergestellt, dass alle zukünftigen Besprechungen über einen Link "Teams-Besprechungsteilnahme" verfügen. Es werden keine vorhandenen Skype for Business-Besprechungs Verknüpfungs Verknüpfungen zu Teams migriert. Diese Richtlinieneinstellung hat keinen Einfluss auf Anwesenheit, Chat, PSTN-Anrufe oder andere Funktionen in Skype for Business, was bedeutet, dass Benutzer Skype for Business weiterhin für diese Funktionen verwenden.
 
   Wenn Sie den Parameter auf **TeamsOnly**und dann zurück zu **TeamsAndSfB**wechseln, sind beide Besprechungs-Add-Ins aktiviert. Beachten Sie jedoch, dass vorhandene Team-Besprechungs-Join-Links nicht zu Skype for Business migriert werden. Nur Skype for Business-Besprechungen, die nach der Änderung geplant sind, haben einen Link zu Skype for Business-Besprechungen.
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>Einstellungen für Besprechungsrichtlinien – Video Filtermodus
+
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung steuert, ob Benutzer ihren Video Hintergrund in einer Besprechung anpassen können.
+
+Derzeit können Sie nur PowerShell verwenden, um diese Richtlinie einzurichten. Sie können eine vorhandene Team-Besprechungsrichtlinie mithilfe des Cmdlets " [festlegen-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) " bearbeiten. Oder erstellen Sie eine neue Team-Besprechungsrichtlinie mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) , und weisen Sie die Richtlinie Benutzern zu.
+
+Wenn Sie angeben möchten, ob Benutzer ihren Video Hintergrund in einer Besprechung anpassen können, legen Sie den **VideoFiltersMode** -Parameter wie folgt fest:
+
+|Festlegen des Werts in PowerShell |Verhalten  |
+|---------|---------|
+|**Nofilters**     |Der Benutzer kann seinen Video Hintergrund nicht anpassen.|
+|**BlurOnly**     |Der Benutzer hat die Möglichkeit, seinen Video Hintergrund zu verwischen. |
+|**BlurandDefaultBackgrounds**     |Der Benutzer hat die Möglichkeit, seinen Video Hintergrund zu verwischen oder aus einer Reihe von Bildern auszuwählen, die als Hintergrund verwendet werden sollen. |
+|**Allfilters**     |Verwenden Sie die Option zum verwischen des Videohintergrunds, zum auswählen aus einer Reihe von Bildern oder zum Hochladen benutzerdefinierter Bilder, die als Hintergrund verwendet werden sollen. |
+
+> [!NOTE]
+> Bilder, die von Benutzern hochgeladen wurden, werden nicht von Teams angezeigt. Wenn Sie die Einstellung **allfilters** verwenden, sollten Sie über interne Organisationsrichtlinien verfügen, um zu verhindern, dass Benutzer anstößige oder unangemessene Bilder hochladen, oder Bilder, die Ihre Organisation nicht für die Verwendung für Teams-Besprechungs Hintergründe verwendet.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
