@@ -1,7 +1,7 @@
 Teams unterstützt die folgenden Internetbrowser, wobei die Ausnahmen betreffend Anrufe und Konferenzen angeführt sind. Diese Tabelle gilt für Betriebssysteme, die auf einem Desktopcomputer ausgeführt werden. 
 
 
-|Browser  |Anrufe – Audio, Video und Freigabe  |Konferenzen – Audio, Video und Freigabe<sup>1</sup> <sup>2</sup>  |
+|Browser  |Anrufe – Audio, Video und Freigabe  |Konferenzen – Audio, Video und Freigabe<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
 |Internet Explorer 11     |Nicht unterstützt         |Konferenzen werden nur unterstützt, wenn die Konferenz PSTN-Koordinaten beinhaltet. Wenn Sie an einer Besprechung auf IE11 ohne PSTN-Koordinaten teilnehmen möchten, müssen alle teilnehmenden Benutzer den Teams-Desktop-Client herunterladen.<br><br>Video: Nicht unterstützt<br><br>Freigabe: Ausschließlich Freigabe von eingehenden Anrufen (keine ausgehenden)     |
 |Microsoft Edge, RS2 oder höher     |Vollständige Unterstützung ‒ mit Ausnahme von ausgehenden Anrufen, die nicht unterstützt werden.         |Vollständige Unterstützung ‒ mit Ausnahme von ausgehenden Anrufen, die nicht unterstützt werden.         |
@@ -13,6 +13,8 @@ Teams unterstützt die folgenden Internetbrowser, wobei die Ausnahmen betreffend
 <sup>1</sup> Um die Steuerung über die freigegebenen Inhalte während der Freigabe zu übergeben und zu übernehmen, müssen beide Parteien den Teams-Desktopclient verwenden. Die Steuerung wird nicht unterstützt, wenn eine der beiden Parteien Teams in einem Browser ausführt. Dies ist auf eine technische Einschränkung zurückzuführen, die wir planen zu beheben. Weitere Informationen finden Sie unter [Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert](../meeting-policies-in-teams.md#allow-a-participant-to-give-or-request-control).
 
 <sup>2</sup> "Hintergrundgeräusche ausblenden" ist nicht verfügbar, wenn Sie Teams in einem Browser ausführen. Dieses Feature ist nur im Desktopclient von Teams verfügbar.
+
+<sup>3</sup> Teams-Besprechungen in Browsern sind auf einen einzigen eingehenden Videofeed des aktiven Sprechers beschränkt.
 
 > [!NOTE]
 > Solange das Betriebssystem den unterstützten Browser ausführen kann, wird Teams auf Desktopcomputern unterstützt. So kann zum Beispiel Firefox unter Linux für Teams verwendet werden.

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c40e9f89d56329dc8f4f450b72a76c031315b9a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041752"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489127"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 =======================================================
@@ -79,7 +79,7 @@ Administratoren können die Option zur Ausführung der explorativen Microsoft Te
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Verhindern, dass Benutzer Test-Apps und -dienste installieren
 
-Sie können die Möglichkeit des Benutzers deaktivieren, Test-Apps und -Dienste zu installieren, wodurch Sie Benutzer daran hindern, die explorative Microsoft Teams-Umgebung auszuführen.
+Sie können die Möglichkeit des Benutzers deaktivieren, Test-Apps und -Dienste zu installieren, wodurch Sie Benutzer daran hindern, die explorative Microsoft Teams-Umgebung auszuführen. Sie benötigen Administratorberechtigungen. Weitere Informationen zu Administratorrollen finden Sie unter [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](teams-exploratory.md).
 
 1. Navigieren Sie im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home) zu **Einstellungen** > **Einstellungen**, wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
 
@@ -94,11 +94,11 @@ Sie können die Möglichkeit des Benutzers deaktivieren, Test-Apps und -Dienste 
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Verwalten der Verfügbarkeit für einen Benutzer mit einer Lizenz, die Microsoft Teams umfasst
 
-Ein Benutzer, dem eine Lizenz zugewiesen wurde, die Microsoft Teams bereits umfasst, ist nicht berechtigt, die explorative Microsoft Teams-Umgebung in Anspruch zu nehmen. Wenn der Microsoft Teams-Serviceplan aktiviert ist, kann sich der Benutzer anmelden und Microsoft Teams verwenden. Wenn der Dienstplan deaktiviert ist, kann sich der Benutzer nicht anmelden, und die explorative Microsoft Teams-Umgebung ist nicht verfügbar.
+Ein Benutzer, dem eine Lizenz zugewiesen wurde, die Microsoft Teams bereits umfasst, ist nicht berechtigt, die explorative Microsoft Teams-Umgebung in Anspruch zu nehmen. Wenn der Microsoft Teams-Serviceplan aktiviert ist, kann sich der Benutzer anmelden und Microsoft Teams verwenden. Wenn der Dienstplan deaktiviert ist, kann sich der Benutzer nicht anmelden, und die explorative Microsoft Teams-Umgebung ist nicht verfügbar. Sie benötigen Administratorberechtigungen. 
 
 So deaktivieren Sie den Zugriff auf Teams:
 
-1. Wählen Sie im Microsoft 365 Admin Center, **Benutzer** > **Aktive Benutzer** aus.
+1. Wählen Sie im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home) **Benutzer** > **Aktive Benutzer** aus.
 
 2. Aktivieren Sie das Kontrollkästchen neben dem Namen des Benutzers.
 
@@ -110,7 +110,7 @@ So deaktivieren Sie den Zugriff auf Teams:
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Verwalten der Verfügbarkeit von Microsoft Teams für Benutzer, die bereits die explorative Microsoft Teams-Umgebung verwenden
 
-Wenn ein Benutzer die explorative Microsoft Teams-Umgebung ausführt, können Sie diese deaktivieren, indem Sie die Lizenz oder den Dienstplan entfernen.
+Wenn ein Benutzer die explorative Microsoft Teams-Umgebung ausführt, können Sie diese deaktivieren, indem Sie die Lizenz oder den Dienstplan entfernen. Sie benötigen Administratorberechtigungen. 
 
 So deaktivieren Sie die Lizenz für die explorative Microsoft Teams-Umgebung:
 
@@ -131,7 +131,7 @@ Sie können Benutzer mit einer explorativen Microsoft Teams-Lizenz genauso verwa
 
 ### <a name="upgrade-users-from-the-teams-exploratory-license"></a>Upgraden von Benutzern mit der explorativen Microsoft Teams-Lizenz
 
-Um Benutzer mit der explorative Microsoft Teams-Lizenz zu upgraden, gehen Sie wie folgt vor:
+Um Benutzer mit der explorative Microsoft Teams-Lizenz zu upgraden (Sie benötigen Administratorberechtigungen), gehen Sie wie folgt vor:
 
 1. Kaufen Sie ein Abonnement, das Microsoft Teams enthält.
 
@@ -161,3 +161,10 @@ Die Microsoft Teams Exploratory-Umgebung wird ohne zusätzliche Kosten bis zum n
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>Was geschieht, wenn ein Endbenutzer kurz vor dem Fälligkeits- oder Verlängerungsdatum mit der Nutzung der Microsoft Teams Exploratory-Umgebung beginnt?
 
 Microsoft Teams Exploratory-Lizenzen, die innerhalb von 90 Tagen nach dem **Fälligkeitstag** oder der **Verlängerung des Vertrags** begonnen wurden, sind bis zum anschließenden Fälligkeitstag oder Verlängerungszyklus nicht verpflichtet, zu einer kostenpflichtigen Lizenz zu wechseln. 
+
+### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>Was ist zu tun, wenn mein Vertrag keinen Fälligkeits- oder jährliches Verlängerungsdatum aufweist (z. B. Monatsverträge)?
+
+Bei Verträgen ohne Fälligkeits- oder jährliches Verlängerungsdatum wird das Folgejahr, nachdem der erste Endbenutzer die Microsoft Teams Exploratory-Lizenz aktiviert hat, als Fälligkeits- oder Verlängerungsdatum behandelt. Benutzer mit der Microsoft Teams Exploratory-Lizenz müssen bis zu diesem Datum jedes Jahr gemäß den oben genannten Richtlinien in eine kostenpflichtige Lizenz umgewandelt werden.
+
+Wenn der erste Endbenutzer Microsoft Teams Exploratory zum Beispiel am 19. Juni 2020 aktiviert, müssen er und alle anderen berechtigten Benutzer im Kundenmandanten bis zum 19. Juni 2021 auf eine kostenpflichtige Lizenz mit Teams umsteigen. 
+
