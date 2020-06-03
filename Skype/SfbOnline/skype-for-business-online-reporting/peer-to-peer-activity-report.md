@@ -22,16 +22,16 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Erhalten Sie einen Skype for Business-Peer-to-Peer-Aktivitätsbericht, und erfahren Sie, wie Sie ihn für Ihre Anforderungen interpretieren und anpassen können. '
-ms.openlocfilehash: 53d36b29961991a6d87ccd8b3ccfb94335693ac8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3708bff31f0034347c23d67d58cf4be7cb3bc956
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769338"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205056"
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht „Peer-zu-Peer-Aktivitäten“
 
-Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business Peer-to-Peer-Aktivität** verwenden, um zu sehen, wie viel Ihre Benutzer Chat, Audio, Video, Anwendungsfreigabe und übertragen von Dateien nutzen. 
+Das Dashboard " **Berichte** " zeigt die Vorgangsübersicht über die Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business Peer-to-Peer-Aktivität** verwenden, um zu sehen, wie viel Ihre Benutzer Chat, Audio, Video, Anwendungsfreigabe und übertragen von Dateien nutzen. 
 
 Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)an.
   
@@ -42,9 +42,9 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>So rufen Sie den Bericht „Skype for Business - Peer-zu-Peer-Aktivitäten" ab
 
-1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
+1. Wechseln Sie zum Admin Center > **Berichte**  >  **Verwendung**.
     
-2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business** > **-Peer-to-Peer-Aktivität** in der **Liste Bericht auswählen** Links aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann auf **Skype for Business-Peer-to-Peer-Aktivität** in der **Skype for** Business-Aktivitätsliste.
+2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business**  >  **-Peer-to-Peer-Aktivität** in der **Liste Bericht auswählen** Links aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann auf **Skype for Business-Peer-to-Peer-Aktivität** in der **Skype for** Business-Aktivitätsliste.
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpretieren des Berichts „Skype for Business - Peer-zu Peer-Aktivitäten"
 

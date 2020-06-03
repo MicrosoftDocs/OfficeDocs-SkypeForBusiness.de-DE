@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825133"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512812"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren des Erfolgsplans
 
@@ -93,9 +93,9 @@ Der folgende Code ist ein Beispiel für einen Quartals Ausführungsplan für die
 | USA: New York                             | 2000                | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
 | Irland: Dublin                          | 300                 | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
 | Österreich: Wien                          | 500                 | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
-| Italien: Mailand                             | 200                 | Ja                | n/v                             | Q2 CY2018          |
+| Italien: Mailand                             | 200                 | Ja                | Nicht zutreffend                             | Q2 CY2018          |
 | Südamerika: Brasilien                    | 1500                | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
-| Indien: Delhi                             | 7000                | Ja                | n/v                             | Q3 CY2018          |
+| Indien: Delhi                             | 7000                | Ja                | Nicht zutreffend                             | Q3 CY2018          |
 
 
 <table>
@@ -108,7 +108,7 @@ Der folgende Code ist ein Beispiel für einen Quartals Ausführungsplan für die
 
 ## <a name="communications-and-governance-plan"></a>Kommunikations-und Steuerungsplan
 
-Wenn Sie die Projekt Beteiligten mit dem Fortschritt der Bereitstellung auf dem neuesten Stand halten möchten, müssen Sie einen Plan für die Art und Weise der Kommunikation zwischen den Mitgliedern des Kernteams des Projektteams und den Stakeholdern einrichten, um Themen im Zusammenhang mit dem Projektstatus zu diskutieren, Schlüssel Meilensteine, Blocker und verschiedene Überprüfungen des Projekts gegen festgelegte KSIs, operationelle Metriken und strategische Ziele.
+Um die Projekt Beteiligten mit dem Fortschritt der Bereitstellung auf dem neuesten Stand zu halten, müssen Sie einen Plan für die Art und Weise einrichten, wie die Kommunikation zwischen den Mitgliedern des Hauptprojekts des Projektteams und den Beteiligten erfolgen soll, um über die Aspekte des Projektstatus, wichtige Meilensteine, Blocker und verschiedene Überprüfungen des Projekts mit den festgelegten KSIs, operativen Metriken und strategischen
 
 Im folgenden finden Sie ein Beispiel für einen Kommunikations-und Steuerungsplan, den Sie in Ihrem Cloud Voice-Implementierungsprojekt nutzen können.
 
@@ -173,7 +173,7 @@ Nachdem Sie die Eignungsbeurteilung für die Annahme durchgeführt haben, muss d
 
 Ermitteln Sie Ressourcen zur Unterstützung von Adoptions Aktivitäten wie Flyern, Willkommens-e-Mails und Schulungsmaterial sowie alle Anpassungen, die Sie benötigen, um die Anforderungen Ihrer Organisation zu erfüllen.
 
-Laden Sie Vorlagen für Adoptions Aktivitäten aus dem [Microsoft Teams-kundenerfolgs-Kit](https://www.microsoft.com/download/details.aspx?id=54244)herunter.
+Laden Sie Vorlagen für Adoptions Aktivitäten aus dem [Microsoft Teams-kundenerfolgs-Kit](https://aka.ms/TeamsCustomerSuccess)herunter.
 
 ### <a name="operational-plan"></a>Aufgabenplan
 

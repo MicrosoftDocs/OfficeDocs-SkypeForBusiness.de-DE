@@ -17,10 +17,10 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 'Das Vermittlungsserver wird standardmäßig mit dem Front-End-Server zusammengefasst. Das Vermittlungsserver kann auch aus Leistungsgründen in einem eigenständigen Pool bereitgestellt werden, oder wenn Sie das SIP-Trunking bereitstellen, wird der eigenständige Pool in diesem Fall dringend empfohlen. Das nebeneinander in Skype for Business Server funktioniert genauso wie in lync Server 2013. Weitere Informationen finden Sie in den folgenden Themen:'
 ms.openlocfilehash: 944b1778e02b297af61544ae500f347b61afefc3
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "42034035"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Vermittlungs Zusammenstellung (Planungs Tool)

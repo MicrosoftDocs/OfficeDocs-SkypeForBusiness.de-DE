@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Verwenden Sie diese Anleitung, um mehr über die Voraussetzungen und die Umgebungs Abhängigkeiten für die Bereitstellung von Teams in Ihrer Organisation zu erfahren.
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f340146225d7e386233e727bb8c5d181db7f15fb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d9a5cd56e367b9255bd4c41b556583dcc921416a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776720"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523198"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Voraussetzungen und Umgebungs Abhängigkeiten für Teams
 

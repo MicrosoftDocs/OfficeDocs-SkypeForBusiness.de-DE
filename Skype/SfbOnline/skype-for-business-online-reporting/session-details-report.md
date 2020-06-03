@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: Das neue Dashboard für Microsoft 365-Berichte zeigt die Vorgangsübersicht über die Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Das Dashboard "Berichte" zeigt die Vorgangsübersicht über die Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776280"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205506"
 ---
 # <a name="session-details-report"></a>Bericht „Sitzungsdetails“
 
-Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business-Sitzungsdetails** verwenden, um Details zu den Anruf Erfahrungen einzelner Nutzer anzuzeigen.
+Das Dashboard " **Berichte** " zeigt die Vorgangsübersicht über die Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business-Sitzungsdetails** verwenden, um Details zu den Anruf Erfahrungen einzelner Nutzer anzuzeigen.
   
 Weitere verfügbare Berichte finden Sie unter [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
   
@@ -46,7 +46,7 @@ Dieser Bericht sowie die anderen Skype for Business-Berichte geben Ihnen detaill
 3. Klicken Sie in der Liste unter **Bericht auswählen**auf **Skype for Business-Sitzungsdetails**.
     
     > [!TIP]
-    > Wenn dieser Bericht nicht aufgeführt ist, wechseln Sie zu den**Berichten** > zur **Skype for Business Admin Center** > -**Sitzungsdetails**. 
+    > Wenn dieser Bericht nicht aufgeführt ist, wechseln Sie zu den Berichten zur **Skype for Business Admin Center**-  >  **Reports**  >  **Sitzungsdetails**. 
   
     > [!IMPORTANT]
     > Je nach dem von Ihnen verwendeten Microsoft 365-oder Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die hier angezeigt werden. 

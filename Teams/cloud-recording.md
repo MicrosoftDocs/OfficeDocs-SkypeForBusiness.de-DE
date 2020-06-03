@@ -16,18 +16,21 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: eb2a9a3cf2e349ab74fc9059408a7be2c41c8408
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224228"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523338"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
 In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeichnen, um Aktivitäten der Audio-, Video- und Bildschirmfreigabe festzuhalten. Es gibt auch eine Option für die automatische Transkription von Aufzeichnungen, sodass Benutzer Besprechungsaufzeichnungen mit Untertiteln wiedergeben und nach wichtigen Diskussionsbeiträgen in der Transkription suchen können. Die Aufzeichnung erfolgt in der Cloud und wird im [Microsoft Stream](https://docs.microsoft.com/stream/) gespeichert, sodass Benutzer sie sicher in ihrer Organisation freigeben können.
 
 Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://aka.ms/recordmeeting)
+
+> [!NOTE]
+> Informationen zum Verwenden von Rollen in Teams-Besprechungen und zum Ändern der Rollen von Benutzern finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Voraussetzungen für die Aufzeichnung von Teams-Cloudbesprechungen.
 
@@ -45,7 +48,7 @@ Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss 
 <sup>1</sup> Benutzer muss lizenziert werden, um Besprechungen von/zu Microsoft Stream hoch-oder herunterzuladen, Sie benötigen jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
 
 > [!IMPORTANT] 
-> Benutzer benötigen keine Microsoft Stream-Lizenz, die zugewiesen wird, wenn Sie möchten, dass die Benutzer nur die Aufzeichnungen aufzeichnen und herunterladen können. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern stattdessen in Azure Media Services (AMS) mit einem Grenzwert von 30 Tagen gespeichert werden, bevor Sie gelöscht werden. An diesem Punkt ist es nicht möglich, dass ein Administrator steuern oder verwalten kann, einschließlich der Möglichkeit, ihn zu löschen.
+> Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern stattdessen in Azure Media Services (AMS) mit einem Grenzwert von 30 Tagen gespeichert werden, bevor Sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten der Aufzeichnungsfunktion für Teams-Cloudmeetings für Benutzer in Ihrer Organisation
 
@@ -74,6 +77,9 @@ Aktivieren bzw. deaktivieren Sie im Microsoft Teams Admin Center die Einstellung
 Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowCloudRecording“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 Beachten Sie, dass sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung über die Berechtigung zum Aufzeichnen der Besprechung verfügen müssen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowCloudRecording standardmäßig deaktiviert ist.
+
+> [!NOTE]
+> Weitere Informationen zum Verwenden von Teamrollen zum Konfigurieren der Personen, die über die Berechtigung zum Aufzeichnen einer Besprechung verfügen, finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 Wenn ein Benutzer auf die globale Richtlinie zurückgesetzt werden soll, verwenden Sie das folgende Cmdlet, um eine bestimmte Richtlinienzuweisung für einen Benutzer zu entfernen:
 

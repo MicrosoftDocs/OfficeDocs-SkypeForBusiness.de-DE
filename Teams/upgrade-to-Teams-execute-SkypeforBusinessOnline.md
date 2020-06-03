@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Erfahren Sie, wie Sie Ihr Unternehmen von einem Skype for Business Online-deployement auf Microsoft Teams aktualisieren.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37deecdbff083718dcb5b8a16e77ac8da4b998ff
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905357"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523168"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Upgrade von Skype for Business Online auf Microsoft Teams
 
@@ -58,7 +58,7 @@ Führen Sie die folgenden Schritte aus, um alle Benutzer gleichzeitig auf Teams 
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>Schritt 1: Benachrichtigen der Benutzer über die Änderung (optional)
 
-1. Wählen Sie im Microsoft Teams Admin Center die Option **organisationsweite Einstellungen** > **Teams Upgrade**aus.
+1. Wählen Sie im Microsoft Teams Admin Center die Option **organisationsweite Einstellungen**  >  **Teams Upgrade**aus.
 2. Ändern Sie unter **Koexistenzmodus**die Option **Skype for Business-Benutzer benachrichtigen, dass ein Upgrade auf Teams verfügbar ist** **, auf ein.**
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Schritt 2: Festlegen des Koexistenzmodus auf "TeamsOnly" für die Organisation

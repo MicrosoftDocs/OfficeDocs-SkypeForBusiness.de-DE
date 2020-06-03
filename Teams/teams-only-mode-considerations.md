@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Administratoren können erfahren, wie Sie das Upgrade auf den Microsoft Teams Only-Modus im Microsoft Teams Admin Center vorbereiten.
 localization_priority: Normal
 search.appverid: MET150
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45a21a1aae9facd10dafe675d10955b3fa90c62
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903060"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522498"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 

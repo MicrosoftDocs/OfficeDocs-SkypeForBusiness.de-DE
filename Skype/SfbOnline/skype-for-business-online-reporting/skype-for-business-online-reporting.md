@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'In diesem Referenzhandbuch erfahren Sie mehr über die Skype for Business Online-Berichterstellung und welche Informationen verfügbar sind. '
-ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90326597b6df3a96e7624852d849a64e3eec348f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705950"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205486"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online-Berichterstellung
 
@@ -33,15 +33,15 @@ Als Administrator für Ihre Organisation wäre es praktisch, eine vollständige 
 Wenn Sie auf die Skype for Business Online-Berichte zugreifen möchten, melden Sie sich mit Ihrem Benutzerkonto und Kennwort beim Microsoft 365 Admin Center an. Dem für die Anmeldung verwendeten Konto muss entweder die globale Administratorrolle zugewiesen sein, oder Sie müssen die Rolle des Dienstadministrators für Skype for Business delegieren, um die Berichte anzuzeigen.
   
 > [!NOTE]
-> Zum Überprüfen von Berechtigungen im Admin Center #a0 **Benutzer** > **aktive Benutzer**. Klicken Sie auf den Anzeigenamen des Benutzers und dann auf **Bearbeiten** , und klicken Sie auf der Seite Kontoeigenschaften auf **Rollen** .
+> Zum Überprüfen von Berechtigungen im Admin Center > **Benutzer**  >  **aktive Benutzer**. Klicken Sie auf den Anzeigenamen des Benutzers und dann auf **Bearbeiten** , und klicken Sie auf der Seite Kontoeigenschaften auf **Rollen** .
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online-Berichterstellungsreferenz
 
-In den Admin Centern von Office 365 und Skype for Business können Sie unterschiedliche Arten von Berichten verwenden, einschließlich derjenigen für Skype for Business Online.
+In den Admin Centern können Sie verschiedene Arten von Berichten verwenden, einschließlich der Berichte für Skype for Business Online.
   
  **So zeigen Sie die Berichte an**
   
-1. Wechseln Sie zum Admin Center oder zu den **Skype for Business Admin Center** > -**Berichten**.
+1. Wechseln Sie zum Admin Center oder zu den **Skype for Business Admin Center**  >  -**Berichten**.
     
 2. Klicken Sie im Fenster „Dashboards" auf das Widget „Berichte", oder wählen Sie den gewünschten Bericht aus der Liste aus.
     

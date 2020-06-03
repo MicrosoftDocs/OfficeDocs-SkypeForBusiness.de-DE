@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Bereich Ihres Upgrade-Projekts, indem Sie Ihre Vision und ihre Ziele verfeinern, um sicherzustellen, dass alle Projekt beteiligten ausgerichtet sind und auf die gleichen Endergebnisse hinarbeiten.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9592d20f95b32bab45f2f1d5cf3aa0431a838b9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: da75154f78739ab1a1044b101235ccc678ca1eed
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904480"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522538"
 ---
 # <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 

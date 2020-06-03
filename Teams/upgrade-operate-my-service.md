@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Aufgaben und Aktivitäten, die für das Service Management von Teams erforderlich sind, einschließlich Überwachung des Dienststatus und bewerten und sicherstellen der Netzwerkqualität und-Nutzung
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997286"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523318"
 ---
 # <a name="operate-your-service"></a>Betreiben des Diensts
 
@@ -166,7 +166,7 @@ Sie können den Dienststatus und bevorstehende Änderungen überwachen, indem Si
 
 Microsoft Teams ist ein Cloud-basierter Dienst. Damit ist es möglich, neue Features und Funktionen in rasantem Tempo bereitzustellen. Die Bereitstellung kontinuierlicher Innovationen bietet Organisationen einen offensichtlichen Vorteil, doch müssen diese Änderungen in Ihrer Organisation angemessen verwaltet werden, um Benutzer Resistenzen oder Eskalationen an Helpdesks zu vermeiden.
 
-Updates für Teams werden automatisch für Ihre Benutzer bereit gesetzt. Ihre Benutzer verfügen immer über die neuesten Clients und Features, die im Team-Service zur Verfügung stehen. Es ist nicht möglich, den Rollout von Teams-Updates für Ihre Benutzer zu verwalten, daher ist es wichtig, Änderungen durch effektive Kommunikations-, Schulungs-und Adoptionsprogramme zu verwalten. Wenn Ihre Benutzer über die Änderung Bescheid wissen, sich über die Vorteile gebildeten und befugt sind, die neuen&mdash;Funktionen zu nutzen, können Sie sich schneller anpassen und die Änderung begrüßen.
+Updates für Teams werden automatisch für Ihre Benutzer bereit gesetzt. Ihre Benutzer verfügen immer über die neuesten Clients und Features, die im Team-Service zur Verfügung stehen. Es ist nicht möglich, den Rollout von Teams-Updates für Ihre Benutzer zu verwalten, daher ist es wichtig, Änderungen durch effektive Kommunikations-, Schulungs-und Adoptionsprogramme zu verwalten. Wenn Ihre Benutzer über die Änderung Bescheid wissen, sich über die Vorteile gebildeten und befugt sind, die neuen Funktionen zu nutzen, &mdash; können Sie sich schneller anpassen und die Änderung begrüßen.
 
 ### <a name="monitoring-for-change"></a>Überwachen auf Änderung
 

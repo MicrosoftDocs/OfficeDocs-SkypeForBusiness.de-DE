@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Leitfaden zum Starten eines Microsoft Teams-Pilotprojekts zur Untersuchung aller Teams, die Ihre Organisation anbieten können, während Sie Skype for Business weiterhin verwenden
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706455"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522688"
 ---
 # <a name="conduct-a-user-pilot"></a>Durchführen eines Benutzerpilotprojekts
 
@@ -38,13 +38,13 @@ Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgr
 - [Ihre Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 
-Durch die Bereitstellungneuer Technologien kann Ihre Organisation geschäftlichen Nutzen wie Kosteneinsparungen, Sicherheitskonformität, Mitarbeiterzufriedenheit und operative Effizienz verwirklichen, kann sich aber auch auf die Produktivität und die organisatorische Infrastruktur Ihrer Benutzer auswirken ( Ihrem Netzwerk). Bevor Sie neue Technologien in Ihrer Organisation aktivieren, führen Sie einen formellen Benutzer Pilot aus. Genau wie Sie einen kleinen Fleck Farbe auf eine Wand malen würden, bevor Sie den ganzen Raum malen, würden Sie einen breiten Rollout auf einem kleineren Maßstab testen, indem Sie ein Pilotprojekt durchführen, um die technische und Benutzer Bereitschaft zu überprüfen, Probleme zu erkennen und zu verringern und um sicherzustellen, dass eine erfolgreiche organisationsweite Implementierung.
+Durch die Bereitstellungneuer Technologien kann Ihre Organisation geschäftlichen Nutzen wie Kosteneinsparungen, Sicherheitskonformität, Mitarbeiterzufriedenheit und operative Effizienz verwirklichen, kann sich aber auch auf die Produktivität und die organisatorische Infrastruktur Ihrer Benutzer (Ihr Netzwerk) auswirken. Bevor Sie neue Technologien in Ihrer Organisation aktivieren, führen Sie einen formellen Benutzer Pilot aus. Genau wie Sie einen kleinen Fleck Farbe auf eine Wand malen würden, bevor Sie den ganzen Raum malen, würden Sie einen breiten Rollout auf einem kleineren Maßstab testen, indem Sie ein Pilotprojekt durchführen, um die technische und Benutzer Bereitschaft zu überprüfen, Probleme zu erkennen und zu vermeiden und eine erfolgreiche Organisation-weite Implementierung zu gewährleisten.
 
 Um die realistischsten Ergebnisse zu erzielen, sollte der Pilot die tatsächlichen Benutzer einbeziehen, deren Kommunikation und Zusammenarbeit nachahmen und sowohl die technischen als auch die Benutzererfahrung überprüfen. Unabhängig davon, ob Ihre Organisation Skype for Business und Teams nebeneinander ausführt, ein Upgrade auf Teams in der Zukunft durchführen oder neue Funktionen wie ein Anruf oder eine Konferenz bereitstellen, kann ein Pilotprojekt den richtigen Weg für Ihre Organisation ermitteln. Manchmal als Phase 1 eines Rollouts betrachtet, nutzt der ideale Pilot die bereits begonnene Vorbereitung und implementiert ihren definierten Plan mit einer Zielgruppe von Benutzern.
 
 | | |
 |---|---|
-| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Wie werden Sie ein Pilotprojekt verwenden, um die Projekt Richtung zu unterrichten?</li></ul> |
+| ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Wie werden Sie ein Pilotprojekt verwenden, um die Projekt Richtung zu unterrichten?</li></ul> |
 | ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Führen Sie die folgenden Anleitungen aus, um Ihr formales Pilotprojekt zu entwerfen und auszuführen.</li></ul>|
 
 > [!Tip]
@@ -78,14 +78,14 @@ Für den Erfolg Ihres Pilotprojekts ist es entscheidend, dass Sie Pilot Teilnehm
 
 ## <a name="5-conduct-your-pilot"></a>5. durchführen Ihres Pilotprojekts
 
-Nachdem Sie die gesamte Logistik eingerichtet haben, können Sie jetzt mit Ihrem Pilotprojekt beginnen. Die Durchführung Ihres Pilotprojekts umfasst die Kommunikation mit ihren Benutzern, das Überwachen Ihres Netzwerks und die Nutzung, um sicherzustellen, dass Ihre Netzwerkleistung und die Anrufqualität weiterhin fehlerfrei sind, Feedback von Teilnehmern sammelt und Helpdesk-Tickets für Fragen im Zusammenhang mit Teams.
+Nachdem Sie die gesamte Logistik eingerichtet haben, können Sie jetzt mit Ihrem Pilotprojekt beginnen. Die Durchführung Ihres Pilotprojekts umfasst die Kommunikation mit ihren Benutzern, die Überwachung Ihres Netzwerks und die Nutzung, um sicherzustellen, dass die Netzwerkleistung und die Anrufqualität weiterhin fehlerfrei sind, dass Sie Feedback von Teilnehmern sammeln und Helpdesk-Tickets für Fragen im Zusammenhang mit Teams überprüfen
 
 ### <a name="tips-for-pilot-success"></a>Tipps für den Erfolg von Pilotprojekten
 
 Die folgenden Tipps können Ihnen helfen, den Erfolg Ihres Pilotprojekts zu gewährleisten:
 
 - Bevor Sie mit dem Pilotprojekt beginnen, vergewissern Sie sich, dass alle Pilot Teilnehmer für den entsprechenden [Koexistenzmodus] aktiviert sind.
-- (https://aka.ms/SkypeToTeams-SetCoexistence) Sie möchten überprüfen.
+- ( https://aka.ms/SkypeToTeams-SetCoexistence) Sie möchten überprüfen.
 - Wöchentlich, während des gesamten Pilotprojekts, treffen Sie sich mit Ihren Projekt Beteiligten, um Benutzer Feedback, Nutzungsdaten, Netzwerkdaten und Helpdesk-Tickets zu überprüfen, um sicherzustellen, dass ihr Pilotprojekt reibungslos läuft. Nehmen Sie die gewünschten Anpassungen vor.
 
 ### <a name="suggested-timeline"></a>Vorgeschlagene Zeitachse

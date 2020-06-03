@@ -1,7 +1,7 @@
 ---
 title: Erstellen einer Anrufwarteschlange
-ms.author: crowe
-author: CarolynRowe
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht bereitstellen, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: 8d7001d3e4052eddcfce1d3dfa3da845bce3af66
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 9c2593f657ae66a1dcde825ac7a783df10cd96d8
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047372"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523788"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -64,11 +64,11 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
 - Für eine Anrufwarteschlange ist ein zugeordnetes Ressourcenkonto erforderlich. Details zu Ressourcenkonten finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
 - Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die ﻿kostenlose [virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md)für das Telefon System verwenden. Telefon System ermöglicht Telefonnummern auf Organisationsebene zur Verwendung mit kostengünstigen automatischen Telefonzentralen und Anrufwarteschlangen-Diensten.
 
-> [!NOTE]
-> Direct Routing-Dienstnummern für Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
+  > [!NOTE]
+  > Direct Routing-Dienstnummern für Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
 
-> [!NOTE]
-> Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online sind, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder über Office 365-Anrufpläne verfügen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Wenn Sie sie für Enterprise-VoIP aktivieren möchten, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+  > [!NOTE]
+  > Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online sind, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder über Office 365-Anrufpläne verfügen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Wenn Sie sie für Enterprise-VoIP aktivieren möchten, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Weitere Informationen zu Office 365-Anrufplänen finden Sie unter [Telefon System-und Anrufpläne](calling-plan-landing-page.md) sowie [Anrufpläne für Office 365](calling-plans-for-office-365.md).
 
@@ -80,25 +80,15 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
 - Die folgenden Clients werden für Anruf-Agents unterstützt, die einer Cloud-Anrufwarteschlange zugeordnet sind:
 
   - Skype for Business-Desktop Client 2016 (32-Bit-und 64-Bit-Versionen)
-
   - Lync-Desktop Client 2013 (32-Bit-und 64-Bit-Versionen)
-
   - Alle IP-Telefonmodelle, die für Microsoft Teams unterstützt werden. Weitere Informationen finden Sie unter [Kauf von Telefonen für Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-
   - Mac Skype for Business-Client (Version 16.8.196 und höher)
-
   - Android Skype for Business-Client (Version 6.16.0.9 und höher)
-
   - iPhone Skype for Business-Client (Version 6.16.0 und höher)
-
   - Mac Skype for Business-Client (Version 6.16.0 und höher)
-
   - Microsoft Teams Windows-Client (32-Bit-und 64-Bit-Versionen)
-
   - Microsoft Teams Mac-Client
-
   - Microsoft Teams-iPhone-App
-
   - Microsoft Teams Android-App
 
     > [!NOTE]
@@ -106,7 +96,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>Schritt 2: Abrufen oder übertragen von gebührenpflichtigen oder gebührenfreien Telefonnummern für Dienstleistungen
 
-Bevor Sie Ihre Anrufwarteschlangen erstellen und einrichten können, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder übertragen. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Diensttelefonnummern](getting-service-phone-numbers.md) oder, wenn Sie eine vorhandene Dienstnummer übertragen möchten, unter [Übertragen von Telefonnummern zu Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > -**sprach** > **Telefonnummern**angezeigt. Gebührenfreie Nummern werden mit einem **Nummerntyp** für **Dienstleistungen (gebührenfrei**) aufgeführt.
+Bevor Sie Ihre Anrufwarteschlangen erstellen und einrichten können, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder übertragen. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Diensttelefonnummern](getting-service-phone-numbers.md) oder, wenn Sie eine vorhandene Dienstnummer übertragen möchten, unter [Übertragen von Telefonnummern zu Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center**-  >  **sprach**  >  **Telefonnummern**angezeigt. Gebührenfreie Nummern werden mit einem **Nummerntyp** für **Dienstleistungen (gebührenfrei**) aufgeführt.
 
 > [!NOTE]
 > Wenn Sie sich außerhalb der Vereinigten Staaten befinden, können Sie das Microsoft Teams Admin Center nicht verwenden, um Dienstnummern zu erhalten. Wechseln Sie zu [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , anstatt zu erfahren, wie Sie von außerhalb der Vereinigten Staaten aus Vorgehen.
@@ -122,7 +112,7 @@ Wenn Sie mehrere automatische Telefonzentralen einrichten, weisen Sie normalerwe
 
 ### <a name="use-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams admin Centers
 
-Klicken Sie im **Microsoft Teams Admin Center**auf**Warteschlangen**für **sprach** > Anrufe und dann auf **+ Neu hinzufügen**:
+Klicken Sie im **Microsoft Teams Admin Center** **Voice**  >  auf**Warteschlangen**für Sprachanrufe und dann auf **+ Neu hinzufügen**:
 
 ### <a name="set-the-display-name-and-resource-account"></a>Einrichten des Anzeige namens und des Ressourcenkontos
 
@@ -130,15 +120,15 @@ Klicken Sie im **Microsoft Teams Admin Center**auf**Warteschlangen**für **sprac
 
 * * *
 
-![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout1.png)
--**Namen** geben Sie einen beschreibenden Anzeigenamen für die Anrufwarteschlange ein. Dieser Name ist erforderlich und kann bis zu 64 Zeichen enthalten, einschließlich Leerzeichen.
+![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot- ](media/teamscallout1.png)
+ **Namen** geben Sie einen beschreibenden Anzeigenamen für die Anrufwarteschlange ein. Dieser Name ist erforderlich und kann bis zu 64 Zeichen enthalten, einschließlich Leerzeichen.
 
  Dieser Name wird in der Benachrichtigung für den eingehenden Anruf angezeigt.
 
 * * *
 
-![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout2.png)
-**Hinzufügen von Konten** wählen Sie ein Ressourcenkonto aus. Alle Anrufwarteschlangen sind für ein Ressourcenkonto erforderlich. Für Ressourcenkonten ist keine Dienst gebührenpflichtige oder gebührenfreie Telefonnummer erforderlich.
+![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot ](media/teamscallout2.png)
+ **Hinzufügen von Konten** wählen Sie ein Ressourcenkonto aus. Alle Anrufwarteschlangen sind für ein Ressourcenkonto erforderlich. Für Ressourcenkonten ist keine Dienst gebührenpflichtige oder gebührenfreie Telefonnummer erforderlich.
 
 Wenn keine Liste aufgeführt ist, rufen Sie Dienstnummern ab, und weisen Sie Sie einem Ressourcenkonto zu, bevor Sie die Anrufwarteschlange erstellen, wie zuvor beschrieben. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Telefonnummern für Dienstleistungen](getting-service-phone-numbers.md). Einzelheiten zum Zuweisen einer Telefonnummer finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
 
@@ -151,13 +141,13 @@ Wenn keine Liste aufgeführt ist, rufen Sie Dienstnummern ab, und weisen Sie Sie
 
 * * *
 
-![Symbol der Zahl 1, verweist auf eine Legende im](media/teamscallout1.png)
-**vorherigen Screenshot,** in der die optionale Ansage für Personen, die die Anruf Warteschlangennummer anrufen, abgespielt wird.
+![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot, in ](media/teamscallout1.png)
+ **Greeting** der die optionale Ansage für Personen, die die Anruf Warteschlangennummer anrufen, abgespielt wird.
 
 Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
-![Symbol der Zahl 2, verweist auf eine Legende in der vorherigen Screenshot](media/teamscallout2.png)
--**Musik** in der Warteschleife können Sie die standardmäßige Musik in der Warteschlange verwenden. Sie können auch eine Audiodatei in WAV-, MP3-oder WMA-Formaten hochladen, um Sie als benutzerdefinierte Musik in Wartestellung zu verwenden.
+![Symbol der Zahl 2, verweist auf eine Legende in der vorherigen Screenshot-Musik in der Warteschleife ](media/teamscallout2.png)
+ **Music on hold** können Sie die standardmäßige Musik in der Warteschlange verwenden. Sie können auch eine Audiodatei in WAV-, MP3-oder WMA-Formaten hochladen, um Sie als benutzerdefinierte Musik in Wartestellung zu verwenden.
 
 * * *
 
@@ -165,8 +155,8 @@ Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
 ![Screenshot der Optionen für die Anrufannahme](media/teams-cq-call-answering-options.png)
 
-![Symbol der Zahl 1, verweist auf eine Legende in den vorherigen Screenshot](media/teamscallout1.png)
--**Anruf-Agents und-Gruppen** , um einzelne Agents direkt hinzuzufügen, ohne Sie zu einer Gruppe hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**. Legen Sie einzelne Agents in der Reihenfolge ab, in der Sie den Anruf empfangen sollen. Sie können bis zu 20 einzelne Agents hinzufügen (um mehr als 20 hinzuzufügen, um Sie in einer Gruppe zu speichern).
+![Symbol der Zahl 1, verweist auf eine Legende in den vorherigen Screenshot- ](media/teamscallout1.png)
+ **Anruf-Agents und-Gruppen** , um einzelne Agents direkt hinzuzufügen, ohne Sie zu einer Gruppe hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**. Legen Sie einzelne Agents in der Reihenfolge ab, in der Sie den Anruf empfangen sollen. Sie können bis zu 20 einzelne Agents hinzufügen (um mehr als 20 hinzuzufügen, um Sie in einer Gruppe zu speichern).
 
 Anrufe werden zuerst an einzelne Agents und dann an die Agents in Gruppen weitergeleitet. 
 
@@ -185,21 +175,42 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
   > [!NOTE]
   > Dies gilt auch, wenn Sie Anrufe an Personen in Ihrer Organisation umleiten möchten, die Online sind. Diese Personen müssen über eine **Telefon System** Lizenz und Enterprise-VoIP verfügen *oder* über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen für Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Zuweisen von Microsoft Teams-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)oder [der richtige Anrufplan für Sie?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
- Um einen Agenten für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   Um einen Agenten für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Benutzer mit einer **Telefon System** Lizenz oder einem Anrufplan, die einer Office 365-Gruppe hinzugefügt werden eine e-Mail-aktivierte Verteilerliste oder eine Sicherheitsgruppe. Wenn Sie einen Agenten in einer Verteilerliste oder einer Sicherheitsgruppe als Anruf Warteschlangen-Agent hinzufügen, kann es bis zu drei Stunden dauern, bis der erste Anruf eintrifft. Eine neu erstellte Verteilerliste oder Sicherheitsgruppe kann bis zu 48 Stunden dauern, bis Sie für die Verwendung mit Anrufwarteschlangen verfügbar ist. Neu erstellte Microsoft 365-Gruppen sind fast sofort verfügbar.
 
 - Wenn Ihre Agents die Microsoft Teams-App für Anruf Warteschlangen Anrufe verwenden, müssen Sie sich im TeamsOnly-Modus befinden.
 
-![Symbol der Zahl 2, verweist auf eine Legende in der vorherigen Screenshot](media/teamscallout2.png)
+![Symbol der Zahl 2, bezieht sich auf eine Beschriftung im vorherigen Screenshot ](media/teamscallout2.png)
+ **Konferenz** Modus der Konferenzmodus reduziert deutlich, wie lange es dauert, bis ein Anrufer mit einem Agenten verbunden ist, nachdem der Agent den Anruf angenommen hat. Wenn Sie über mehr als eine Anrufwarteschlange verfügen, können Sie den Konferenzmodus für einige oder alle Anrufwarteschlangen aktivieren. Das Aktivieren oder Deaktivieren des Konferenzmodus in einer Anrufwarteschlange wirkt sich nicht auf andere Anrufwarteschlangen aus.
+
+Der Konferenzmodus ist standardmäßig deaktiviert, kann aber jederzeit aktiviert werden, wenn die folgenden Voraussetzungen erfüllt sind:
+
+- Agents, die der Anrufwarteschlange hinzugefügt wurden, müssen einen der folgenden Clients verwenden:
+  - Die neueste Version des Microsoft Teams-Desktop Clients, der Android-App oder der IOS-App
+  - Microsoft Teams Phone Version 1449/1.0.94.2020051601 oder höher
+- Die Konten von Agenten Teams müssen auf "nur für Teams" eingestellt sein.
+
+> [!IMPORTANT]
+> Wenn die oben aufgeführten Agenten Anforderungen nicht erfüllt sind und der Konferenzmodus in einer Anrufwarteschlange aktiviert ist, werden Agents, die die Anforderungen nicht erfüllen, nicht in die Anruf Weiterleitungsliste aufgenommen. Agenten, die nicht in der Anruf Weiterleitungsliste sind, erhalten keine Anrufe. Wenn Sie über Agents verfügen, die die oben genannten Agenten Anforderungen nicht erfüllen, aktivieren Sie den Konferenzmodus nicht in der Anrufwarteschlange.
+
+Nachdem der Konferenzmodus in einer Anrufwarteschlange aktiviert wurde, profitieren Anrufe von der kürzeren Verbindungszeit, wenn Sie über eine der folgenden Methoden empfangen werden:
+
+- VoIP-Anrufe von einem anderen Microsoft Teams-Desktop Client
+- PSTN-Anrufe des Anruf Plans
+- Direkte Weiterleitung von PSTN-anrufen
+
+Die meisten Anrufe werden über eine der oben aufgeführten Methoden empfangen. Wenn ein Anruf über eine andere Methode (beispielsweise einen VoIP-Anruf von einem Skype for Business-Client) empfangen wird, wird der Anruf weiterhin zur Anrufwarteschlange hinzugefügt, aber er profitiert nicht von der kürzeren Verbindungszeit.
+
+![Symbol der Zahl 3, verweist auf eine Legende in der vorherigen Screenshot ](media/teamscallout3.png)
  **-Routing Methode** Sie können entweder **Attendant**, **Serial**oder **Round Robin** als Verteilungsmethode auswählen. Standardmäßig sind für alle neuen und vorhandenen Anrufwarteschlangen das Attendant-Routing ausgewählt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 
 - Das **Attendant-Routing** bewirkt, dass der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig klingelt. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 - **Serielles Routing** eingehende Anrufe Klingeln alle Anruf-Agents eins nach dem anderen vom Anfang der Anruf Agentenliste. Agents können nicht in der Liste der Anruf-Agents bestellt werden. Wenn ein Agent einen Anruf abschließt oder nicht annimmt, klingelt der Anruf beim nächsten Agenten und versucht alle Agenten, bis er abgeholt wird oder ein Timeout annimmt.
 - **Round Robin** balanciert das Routing von eingehenden Anrufen aus, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält. Dies kann in einer eingehenden Vertriebsumgebung wünschenswert sein, um die Chancengleichheit zwischen allen Anruf Agenten zu gewährleisten.
 
-![Symbol der Zahl 3, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout3.png)
-**Anwesenheits** basiertes Routing-Anwesenheits basiertes Routing verwendet den Verfügbarkeitsstatus von Anruf-Agents, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar**ändert.
+![Symbol der Zahl 4, verweist auf eine Legende im vorherigen Screenshot ](media/teamscallout4.png)
+ **Anwesenheits** basiertes Routing-Anwesenheits basiertes Routing verwendet den Verfügbarkeitsstatus von Anruf-Agents, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar**ändert.
 
 Sie können das anwesenheitsbasierte Anrufrouting mit einer der Routingmethoden aktivieren.
 
@@ -214,8 +225,8 @@ Wenn sich ein Agent für das Abrufen von Anrufen entscheidet, wird er nicht in d
 
 * * *
 
-![Symbol der Zahl 1, bezieht sich auf eine Legende im vorherigen](media/teamscallout1.png)
-Screenshot-**Agent kann das Abrufen von Anrufen ablehnen** Sie können festlegen, dass Anruf Warteschlangen-Agents das ablehnen von Anrufen aus einer bestimmten Warteschlange zulassen, indem Sie diese Option aktivieren.
+![Symbol der Zahl 1, bezieht sich auf eine Legende im vorherigen Screenshot ](media/teamscallout1.png)
+ -**Agent kann das Abrufen von Anrufen ablehnen** Sie können festlegen, dass Anruf Warteschlangen-Agents das ablehnen von Anrufen aus einer bestimmten Warteschlange zulassen, indem Sie diese Option aktivieren.
 
 Wenn Sie diese Option aktivieren, können alle Agents in dieser Warteschlange die Anrufe von dieser Anrufwarteschlange nach befolgen starten oder beenden. Sie können das die Möglichkeit, sich von Anrufen abzumelden, durch Deaktivieren des Kontrollkästchens jederzeit sperren, wodurch Telefonisten automatisch wieder für diese Anrufwarteschleife angemeldet werden (die Standardeinstellung für alle Telefonisten).
 
@@ -226,12 +237,12 @@ Um auf die Option "ablehnen" zuzugreifen, können Agents:
  3. Klicken Sie auf der Seite Benutzereinstellungen auf **Anrufwarteschlangen**, und deaktivieren Sie dann die Kontrollkästchen, um Warteschlangen abzulehnen.
 
     > [!NOTE]
-    > Agents, die apps oder Endpunkte außer Skype for Business Desktop verwenden, können auf die Option "ablehnen" im [https://aka.ms/cqsettings](https://aka.ms/cqsettings)Portal "Benutzereinstellungen" zugreifen.
+    > Agents, die apps oder Endpunkte außer Skype for Business Desktop verwenden, können auf die Option "ablehnen" im Portal "Benutzereinstellungen" zugreifen [https://aka.ms/cqsettings](https://aka.ms/cqsettings) .
     >
     > Wenn sich die Agents in Microsoft Teams-Desktop Clients befinden, können Sie diese mithilfe der Anrufeinstellungen ablehnen. 
 
-![Symbol der Zahl 2, bezieht sich auf einen Callout in der](media/teamscallout2.png)
-**Benachrichtigungseinstellung** vorheriger Screenshot-Agent
+![Symbol der Zahl 2, bezieht sich auf einen Callout in der ](media/teamscallout2.png)
+ **Benachrichtigungseinstellung** vorheriger Screenshot-Agent
 
 Damit wird festgelegt, wie lange ein Agent über einen Anruf benachrichtigt wird, bevor die seriellen oder Round Robin-Routingmethoden zum nächsten Agenten wechseln.
 
@@ -245,13 +256,13 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 
 * * *
 
-![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout1.png)
-**Maximale Anrufe in der Warteschlange** verwenden Sie diese Einstellung, um die maximale Anzahl von Anrufen festzulegen, die gleichzeitig in der Warteschlange warten können. Der Standardwert ist 50, aber er kann zwischen 0 und 200 liegen. Wenn dieser Grenzwert erreicht ist, wird der Anruf so gehandhabt, wie Sie den Wert für die **Maximale Anzahl von Anrufen** festgelegt haben.
+![Symbol der Zahl 1, verweist auf eine Legende im vorherigen Screenshot ](media/teamscallout1.png)
+ **Maximale Anrufe in der Warteschlange** verwenden Sie diese Einstellung, um die maximale Anzahl von Anrufen festzulegen, die gleichzeitig in der Warteschlange warten können. Der Standardwert ist 50, aber er kann zwischen 0 und 200 liegen. Wenn dieser Grenzwert erreicht ist, wird der Anruf so gehandhabt, wie Sie den Wert für die **Maximale Anzahl von Anrufen** festgelegt haben.
 
 * * *
 
-![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout2.png)
-,**Wenn die maximale Anzahl von Anrufen erreicht wird** , wenn die Anrufwarteschlange die maximale Größe erreicht (mit der Einstellung Maximale Anzahl von **anrufen in der Warteschlange** festlegen), können Sie auswählen, was mit neuen eingehenden Anrufen geschieht.
+![Symbol der Zahl 2, verweist auf eine Legende im vorherigen Screenshot, ](media/teamscallout2.png)
+ **Wenn die maximale Anzahl von Anrufen erreicht wird** , wenn die Anrufwarteschlange die maximale Größe erreicht (mit der Einstellung Maximale Anzahl von **anrufen in der Warteschlange** festlegen), können Sie auswählen, was mit neuen eingehenden Anrufen geschieht.
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Umleitung zu** Wenn Sie diese Option auswählen, wählen Sie eine der folgenden Optionen aus:
@@ -264,13 +275,13 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 
 * * *
 
-![Symbol der Zahl 3, bezieht sich auf eine Legende im vorherigen](media/teamscallout3.png)
-Screenshot-**Timeout: maximale Wartezeit** Sie können auch entscheiden, wie viel Zeit ein Anruf in der Warteschlange halten kann, bevor er ein Zeitlimit überschritten hat, und muss umgeleitet oder getrennt werden. Die Stelle, an der Sie umgeleitet wird, basiert auf der Festlegung des Timeouts für **einen Anruf** . Sie können eine Dauer von 0 bis 45 Minuten festlegen.
+![Symbol der Zahl 3, bezieht sich auf eine Legende im vorherigen Screenshot- ](media/teamscallout3.png)
+ **Timeout: maximale Wartezeit** Sie können auch entscheiden, wie viel Zeit ein Anruf in der Warteschlange halten kann, bevor er ein Zeitlimit überschritten hat, und muss umgeleitet oder getrennt werden. Die Stelle, an der Sie umgeleitet wird, basiert auf der Festlegung des Timeouts für **einen Anruf** . Sie können eine Dauer von 0 bis 45 Minuten festlegen.
 
 Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werden. Dadurch können Sie den Anruffluss mit feinerer Granularität bearbeiten. So können Sie beispielsweise festlegen, dass alle Anrufe, die von einem Agenten nicht innerhalb von 30 Sekunden beantwortet werden, zu einer automatischen Telefonzentrale für Verzeichnis suchen wechseln.
 
-![Symbol der Zahl 4, bezieht sich auf eine Legende im vorherigen](media/teamscallout4.png)
-Screenshot, wenn der Anruf**ausfällt** , wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit dem Anruf geschieht:
+![Symbol der Zahl 4, bezieht sich auf eine Legende im vorherigen Screenshot, wenn der Anruf ](media/teamscallout4.png)
+ **ausfällt** , wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit dem Anruf geschieht:
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Diesen Anruf umleiten an** Wenn Sie diese Option auswählen, haben Sie folgende Möglichkeiten:

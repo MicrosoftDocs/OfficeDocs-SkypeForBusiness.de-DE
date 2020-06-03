@@ -18,10 +18,10 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "43904917"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams – Gerätenutzungsbericht
@@ -30,7 +30,7 @@ Der Bericht "Teams-Gerätenutzung" im Microsoft Teams Admin Center bietet Inform
 
 ## <a name="view-the-device-usage-report"></a>Anzeigen des Berichts zur Gerätenutzung
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Gerätenutzung**aus.
+1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte**  >  **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Gerätenutzung**aus.
 2. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
     ![Screenshot des Teams-Geräte Nutzungsberichts im Team Admin Center mit Beschriftungen](../media/teams-reports-device-usage-with-callouts.png "Screenshot des Teams-Geräte Nutzungsberichts im Team Admin Center mit Beschriftungen")

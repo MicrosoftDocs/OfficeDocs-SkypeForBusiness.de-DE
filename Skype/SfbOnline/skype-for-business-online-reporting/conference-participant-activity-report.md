@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: 'Hier erfahren Sie, wie Sie den Skype for Business-Konferenzteilnehmer-Aktivitätsbericht erhalten und wie Sie ihn interpretieren und anpassen. '
-ms.openlocfilehash: 86bbc6532b556ee683184f5940117a71387d8c42
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 1fe925708356d31a50d6f5a6f2dcc5a3b89a6805
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769368"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205476"
 ---
 # <a name="conference-participant-activity-report"></a>Bericht „Konferenzteilnehmer-Aktivität“
 
-Als Office 365-Administrator zeigt das Dashboard für neue **Berichte** Ihnen Daten zur Verwendung der Office 365-Produkte in Ihrer Organisation an. Sie können den Bericht **Skype for Business-Konferenzteilnehmer Aktivitäten** verwenden, um zu sehen, wie viele Chats, Audio/Video, Anwendungsfreigabe, Web-und Einwahlkonferenzen an Benutzern in Ihrer Organisation teilnehmen.
+Das Dashboard " **Berichte** " zeigt Ihnen Daten zur Verwendung der Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Sie können den Bericht **Skype for Business-Konferenzteilnehmer Aktivitäten** verwenden, um zu sehen, wie viele Chats, Audio/Video, Anwendungsfreigabe, Web-und Einwahlkonferenzen an Benutzern in Ihrer Organisation teilnehmen.
 
 Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) an, um weitere Informationen zu erhalten.
   
@@ -40,9 +40,9 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten de
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>So erhalten Sie den Bericht „Skype for Business: Konferenzteilnehmer"
 
-1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
+1. Wechseln Sie zum Admin Center > **Berichte**  >  **Verwendung**.
     
-2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business** > -**Konferenzteilnehmer Aktivitäten** in der **Liste Bericht auswählen** Links aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzteilnehmer Aktivitäten** .
+2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business**-  >  **Konferenzteilnehmer Aktivitäten** in der **Liste Bericht auswählen** Links aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzteilnehmer Aktivitäten** .
     
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Interpretieren des Skype for Business - Konferenzteilnehmer-Aktivitätsberichts

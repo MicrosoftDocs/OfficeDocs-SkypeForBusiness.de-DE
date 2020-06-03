@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Cloud Voicemail für Ihre Benutzer einrichten. '
-ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349719"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523118"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
@@ -35,7 +35,7 @@ Dieser Artikel richtet sich an den [Office 365-Administrator](https://support.of
 > [!NOTE]
 > Cloud Voicemail unterstützt das Hinterlegen von Voicemail-Nachrichten nur in einem Exchange-Postfach und unterstützt keine e-Mail-Systeme von Drittanbietern. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>Cloud-only-Umgebungen: Einrichten von Cloud-Voicemail für Cloud-Psystem-Benutzer
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>Cloud-only-Umgebungen: Einrichten von Cloud Voicemail für Telefon System Benutzer
 
 Bei Skype for Business Online-und Anruf Plan Benutzern wird Cloud Voicemail automatisch für Benutzer eingerichtet und bereitgestellt, nachdem Sie Ihnen eine **Telefon System** Lizenz und eine Telefonnummer zugewiesen haben.
   
@@ -74,6 +74,26 @@ Die folgenden Informationen finden Sie unter Konfigurieren von Cloud-Voicemail f
 
 > [!NOTE]
 > Wenn eine Stellvertretung einen Anruf im Namen eines delegierenden beantwortet, sind Benachrichtigungen in Cloud Voicemail nicht verfügbar. Benutzer können Benachrichtigungen für verpasste Anrufe erhalten.
+
+## <a name="enabling-protected-voicemail-in-your-organization"></a>Aktivieren von geschützter Voicemail in Ihrer Organisation
+
+Wenn jemand eine Sprachnachricht für einen Benutzer in Ihrer Organisation verlässt, wird die Sprachnachricht als Anlage für e-Mail-Nachrichten an das Postfach des Benutzers übermittelt. Wenn Sie Nachrichtenfluss Regeln verwenden, um die Nachrichtenverschlüsselung anzuwenden, können Sie verhindern, dass diese Voicemail-Nachrichten an andere Empfänger weitergeleitet werden. Wenn Sie Geschützte Voicemail aktivieren, können Benutzer geschützte Voicemail-Nachrichten abhören, indem Sie in Ihr Voicemail-Postfach anrufen oder die Nachricht in Outlook, Outlook im Web oder in Outlook für Android oder IOS öffnen. Geschützte Voicemail-Nachrichten können in Skype for Business nicht geöffnet werden.
+
+Weitere Informationen zur Nachrichtenverschlüsselung finden Sie unter [e-Mail-Verschlüsselung](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
+
+Gehen Sie wie folgt vor, um geschützte Voicemail einzurichten:
+
+1. Wechseln Sie zu und registrieren Sie sich mit https://admin.microsoft.com einem Konto mit globalen Administratorberechtigungen.
+2. Wählen Sie **Alle anzeigen** aus, und wechseln Sie dann zu **Admin Center**  >  **Exchange**.
+3. Wählen Sie im Exchange Admin Center die Option **Nachrichtenfluss**  >  **Regeln**aus.
+4. Wählen Sie **+** **Hinzufügen**aus, und wählen Sie dann **Office 365-Nachrichtenverschlüsselung und-Rechte Schutz auf Nachrichten anwenden**aus.
+5. Geben Sie einen Namen für die neue Nachrichtenfluss Regel ein, und wählen Sie dann unter **diese Regel anwenden, wenn**die **Nachrichteneigenschaften**  >  **den Nachrichtentyp**  >  **Voicemail**enthalten aus. Wählen Sie **OK**aus.
+6. Wählen Sie unter **Folgendes ausführen die**Option **Office 365-Nachrichtenverschlüsselung und-Rechte Schutz auf die Nachricht anwenden** aus, und wählen Sie dann **auswählen**aus. Wählen Sie unter **RMS-Vorlage**die Option **nicht weiterleiten**aus. Klicken Sie auf **OK** und dann auf **Speichern**.
+    > [!NOTE]
+    > Wenn die Liste der **RMS-Vorlagen** leer ist, müssen Sie die Office 365-Nachrichtenverschlüsselung einrichten. Weitere Informationen zum Einrichten von Office 365-Nachrichtenverschlüsselung finden Sie in den folgenden Artikeln:
+    > - [Einrichten neuer Office 365-Nachrichten Verschlüsselungsfunktionen](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Konfigurieren und Verwalten von Vorlagen für Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [Option "nicht weiterleiten" für e-Mails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Einrichten von Voicemailrichtlinien in Ihrer Organisation
 

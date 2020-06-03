@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Details zu den Koexistenz-Optionen von Skype for Business und Microsoft Teams und zur Interoperabilität zwischen Skype for Business und Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: bcc9aa13f80a090d65bd51c00b797c2a2ad63c61
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374303"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523328"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 

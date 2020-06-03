@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Hier erfahren Sie, wie Sie die Skype for Business-Aktivitätsberichte abrufen, was Sie enthält und wie Sie die Daten interpretieren. '
-ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f50b8c03304a308594fd7bd920ee92e8d38a1f43
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769418"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205556"
 ---
 # <a name="activity-report"></a>Bericht „Aktivität“
 
-Das Dashboard für Office 365- **Berichte** zeigt die Vorgangsübersicht über die Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mit dem Bericht **Skype for Business-Aktivität** feststellen, in welchem Umfang Ihre Benutzer Peer-zu-Peer verwenden sowie Konferenzsitzungen organisieren und daran teilnehmen. 
+Das Dashboard " **Berichte** " zeigt die Vorgangsübersicht über die Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mit dem Bericht **Skype for Business-Aktivität** feststellen, in welchem Umfang Ihre Benutzer Peer-zu-Peer verwenden sowie Konferenzsitzungen organisieren und daran teilnehmen. 
 
 Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) an, um weitere Informationen zu erhalten.
   
@@ -40,9 +40,9 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>So rufen Sie den Bericht „Skype for Business-Aktivität" ab
 
-1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
+1. Wechseln Sie zum Admin Center > **Berichte**  >  **Verwendung**.
     
-2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business** > -**Aktivität** in der **Liste Bericht auswählen** auf der linken Seite aus, oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget.
+2. Wählen Sie auf der Seite **Nutzung** die Option **Skype for Business**-  >  **Aktivität** in der **Liste Bericht auswählen** auf der linken Seite aus, oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget.
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpretieren des Berichts „Skype for Business-Aktivitäten"
@@ -85,7 +85,7 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 * **Peer-zu-Peer** zeigt die Gesamtzahl der Peer-zu-Peer-Konferenzsitzungen an, die der Benutzer verwendet hat.
 * **Organisierte Konferenzen** zeigt die Gesamtzahl der von diesem Benutzer organisierten Konferenzen an.
 * **An Konferenzen teilgenommen** zeigt die Gesamtzahl der Konferenzen an, an denen dieser Benutzer teilgenommen hat.
-* **Zugewiesenes Produkt** bezeichnet die Office 365-Produkte, die diesem Benutzer zugewiesen sind.<br/>
+* **Produkt zugewiesen** sind die Microsoft 365-oder Office 365-Produkte, die diesem Benutzer zugewiesen sind.<br/>
 
 Wenn die Richtlinien Ihrer Organisation das Anzeigen von Berichten verhindern, die personenbezogene Benutzerinformationen enthalten, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt " **Benutzer Details ausblenden" im** Abschnitt "Berichte" in den [Aktivitätsberichten im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

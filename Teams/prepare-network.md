@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945589"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523300"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -106,7 +106,10 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 <td>Stellen Sie sicher, dass auf allen Computern, auf denen der Team Client ausgeführt wird, externe DNS-Abfragen aufgelöst werden können, um die von Office 365 bereitgestellten Dienste zu ermitteln, und dass ihre Firewalls keinen Zugriff verhindern. Informationen zum Konfigurieren von Firewall-Ports finden Sie unter <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365-URLs und IP-Bereiche</a>.</td>
 </tr>
 <tr class="odd">
-<td>Überprüfen (NAT) Poolgröße</td>
+<td>Verwalten der Dauerhaftigkeit von Sitzungen</td>
+<td>Stellen Sie sicher, dass Ihre Firewall die zugeordneten NAT-Adressen (Network Address Translation) oder Ports für UDP nicht ändert.</td>
+</tr><tr class="odd">
+<td>Überprüfen der Größe des NAT-Pools</td>
 <td>Überprüfen Sie die für die Benutzerkonnektivität erforderliche NAT-Poolgröße (Network Address Translation). Wenn mehrere Benutzer und Geräte über die <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Netzwerkadressübersetzung (NAT) oder die Port Address Translation (Pat)</a>auf Office 365 zugreifen, müssen Sie sicherstellen, dass die hinter jeder öffentlich routingfähigen IP-Adresse verborgenen Geräte die unterstützte Nummer nicht überschreiten. Stellen Sie sicher, dass den NAT-Pools adäquate öffentliche IP-Adressen zugewiesen sind, um die Port Erschöpfung zu verhindern. Die Port Erschöpfung trägt dazu bei, dass interne Benutzer und Geräte nicht mit dem Office 365-Dienst verbunden werden können.</td>
 </tr>
 <tr class="even">

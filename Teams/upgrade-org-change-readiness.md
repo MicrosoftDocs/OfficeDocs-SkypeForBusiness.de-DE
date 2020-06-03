@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Hier erfahren Sie, wie Sie die Bereitschaft Ihrer Organisation zur erfolgreichen Umstellung auf die Microsoft Teams-Umgebung beurteilen können.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 39690deaf7561aedf6192217c66e67c3cd6c5e99
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904440"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523128"
 ---
 # <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
 

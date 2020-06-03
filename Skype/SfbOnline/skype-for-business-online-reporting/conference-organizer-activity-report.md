@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Erfahren Sie, wie Sie den Bericht "Skype for Business-Konferenz organisierter Aktivitäten" erhalten und wie Sie ihn interpretieren und anpassen können. '
-ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3d00b86e5e080e16f199a6f9e2fd24de2d607d23
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769388"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204836"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
-Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business Conference Organizer** verwenden, um zu sehen, wie viel Ihre Benutzer Konferenzen organisieren, die Chats, Audio/Video, Anwendungsfreigabe, Web, Einwahl/out-3rd Party und Einwahl/Ausgang (Microsoft) verwenden. 
+Das Dashboard " **Berichte** " zeigt die Vorgangsübersicht über die Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business Conference Organizer** verwenden, um zu sehen, wie viel Ihre Benutzer Konferenzen organisieren, die Chats, Audio/Video, Anwendungsfreigabe, Web, Einwahl/out-3rd Party und Einwahl/Ausgang (Microsoft) verwenden. 
 
 Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) an, um weitere Informationen zu erhalten.
   
@@ -40,9 +40,9 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>So erhalten Sie den Bericht "Skype for Business-Konferenzorganisator"
 
-1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
+1. Wechseln Sie zum Admin Center > **Berichte**  >  **Verwendung**.
     
-2. Wählen Sie auf der Seite " **Nutzung** " in der **Liste "Bericht auswählen** " auf der linken Seite die Aktivität **Skype for Business** >-**Konferenzorganisator** aus. Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzorganisator-Aktivität** .
+2. Wählen Sie auf der Seite " **Nutzung** " in der Liste "Bericht auswählen" auf der linken Seite die Aktivität **Skype for Business**-  > **Konferenzorganisator** aus. **Select a report list** Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf **Skype for Business-Konferenzorganisator-Aktivität** .
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpretieren des Berichts "Skype for Business-Konferenzorganisator"
 

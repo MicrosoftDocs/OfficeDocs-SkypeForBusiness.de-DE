@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: a6a41915188b033a953373e44b9ac7993d3e9586
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 35f66c853eb26cdd946ab08ae8ea63bdce2ca63d
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010558"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205350"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online-Administrator
 
@@ -193,7 +193,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                 <div class="card">
                     <div class="cardText">
                         <h3>Audiokonferenzen</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Audiokonferenzen in Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Verwalten der Audiokonferenzeinstellungen für meine Organisation</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Allgemeine Fragen zu Audiokonferenzen</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Vergleich zwischen Audiokonferenzanbietern</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Anzeigen, ob Audiokonferenz in Ihrem Land/Ihrer Region verfügbar ist</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Audiokonferenz</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Verwalten der Audiokonferenzeinstellungen für meine Organisation</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Allgemeine Fragen zu Audiokonferenzen</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Vergleich zwischen Audiokonferenzanbietern</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Anzeigen, ob Audiokonferenz in Ihrem Land/Ihrer Region verfügbar ist</a></p>
                     </div>
                 </div>
             </div>
@@ -229,7 +229,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                 <div class="card">
                     <div class="cardText">
                         <h3>Anrufpläne</h3>
-                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Was sind Anrufpläne in Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Einrichten von Anrufplänen</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Anzeigen, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Was sind Anrufpläne?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Einrichten von Anrufplänen</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Anzeigen, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind</a></p>
                     </div>
                 </div>
             </div>
@@ -241,7 +241,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                 <div class="card">
                     <div class="cardText">
                         <h3>Telefonsystem</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist das Telefonsystem in Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist das Telefon System?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Hier&#39;ist, was Sie mit dem Telefon System erhalten</a></p>
                </div>
                 </div>
             </div>
