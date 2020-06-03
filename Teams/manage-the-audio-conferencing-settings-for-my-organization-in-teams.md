@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Hier finden Sie Informationen zu den Schritten, mit denen Sie in Microsoft Teams einem Benutzer eine Lizenz für Dial-in-Konferenzen und eine Konferenzkennung zuweisen, sowie zu vielen anderen Einstellungen für Dial-in-Konferenzen. '
-ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042482"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539452"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Verwalten der Audiokonferenz-Einstellungen für Ihre Organisation in Microsoft Teams.
 
@@ -45,7 +45,7 @@ Möglicherweise ist es einfacher für Sie, alle Audiokonferenzeinstellungen für
   
 1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Microsoft 365 an.
     
-2. Navigieren Sie in der linken Navigationsleiste des **Microsoft 365 Admin Center**zu **Users** > den**aktiven**Benutzern des Benutzers, und wählen Sie dann den Benutzer oder die Benutzer aus der Liste der verfügbaren Benutzer aus.
+2. Navigieren Sie in der linken Navigationsleiste des **Microsoft 365 Admin Center**zu **den**  >  **aktiven**Benutzern des Benutzers, und wählen Sie dann den Benutzer oder die Benutzer aus der Liste der verfügbaren Benutzer aus.
     
     > [!NOTE]
     > Wenn Sie Lizenzen für bis zu 20 Benutzer gleichzeitig zuweisen, können Sie eine der Optionen in der Dropdownliste **Ansicht auswählen** auswählen oder eine eigene Ansicht erstellen. Klicken Sie dann auf **Bearbeiten** und zweimal auf **Weiter**, wählen Sie die Lizenz aus, und klicken Sie auf **Submit** (Übermitteln).  
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
   
 ## <a name="reset-the-meeting-conference-id"></a>Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-![Ein Symbol, das das Team](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol, das das Team-Logo ](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
@@ -146,6 +146,9 @@ Weitere Informationen finden Sie unter [Einrichten der Telefonnummern, die in Ei
 
     Wenn Sie **Namen oder Telefonnummern**wählen, können Sie auch festlegen, dass **Anrufer bitten, Ihren Namen aufzuzeichnen, bevor Sie an der Besprechung teilnehmen**. 
 
+    > [!NOTE]
+    > Standardmäßig können externe Teilnehmer die Telefonnummern von Einwahl Teilnehmern nicht sehen. Wenn Sie den Datenschutz dieser Telefonnummern beibehalten möchten, wählen Sie **Töne** für die **Eingabe/Exit-Ansage** aus (Dies verhindert, dass die Nummern von Teams ausgelesen werden).
+
 5. Klicken Sie auf **Speichern**.
 
     
@@ -155,32 +158,32 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-set
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Klicken Sie oben auf der Seite **Konferenz Brücken** auf **Brücken Einstellungen**. 
+2. Klicken Sie oben auf der Seite **Conference Bridges** (Konferenzbrücken) auf **Bridge Settings** (Brückeneinstellungen). 
 
-3. Geben Sie im Bereich **Brücken Einstellungen** in der Liste **PIN-Länge** die gewünschte Anzahl der Ziffern für die PIN ein, und klicken Sie auf **Speichern**.
+3. Geben Sie auf der Seite **Bridge settings** (Brückeneinstellungen) in der Liste **PIN-Länge** die gewünschte Anzahl der Ziffern für die PIN ein, und klicken Sie dann auf **Speichern**.
 
-    Die PIN muss aus 4 bis 12 Ziffern bestehen. Der Standardwert beträgt 5.
+    Die PIN muss aus vier bis zwölf Ziffern bestehen. Standardmäßig werden fünf Ziffern verwendet.
 
     
 Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Aktivieren oder Deaktivieren des Sendens von E-Mails an Audiobenutzer**
+ **Aktivieren oder Deaktivieren der an Audiobenutzer gesendeten E-Mails**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Klicken Sie oben auf der Seite **Konferenz Brücken** auf **Brücken Einstellungen**. 
+2. Klicken Sie oben auf der Seite **Conference Bridges** (Konferenzbrücken) auf **Bridge Settings** (Brückeneinstellungen). 
 
-3. Aktivieren oder deaktivieren Sie im Bereich **Bridge Settings** **automatisch e-Mails an Benutzer senden, wenn sich Ihre audiokonferenzeinstellungen ändern**.
+3. Aktivieren oder deaktivieren Sie im Bereich **Bridge settings** (Brückeneinstellungen) die Option **Automatically send emails to users if their audio conferencing settings change** (Bei einer Änderung der Audiokonferenzeinstellungen automatisch E-Mails an Benutzer senden).
 
 4. Klicken Sie auf **Speichern**. 
  
-    Sie können auch eine e-Mail mit den audiokonferenzeinstellungen an den Benutzer senden, indem Sie zu den Audiokonferenz Eigenschaften des Benutzers wechseln und auf **Konferenz Informationen per e-Mail senden**klicken.
+    Sie können dem Benutzer auch eine E-Mail mit den Audiokonferenzeinstellungen senden. Navigieren Sie dazu zu den Audiokonferenzeigenschaften des Benutzers, und klicken Sie auf **Send conference info in email** (Konferenzinformationen per E-Mail senden).
     
     Damit wird eine E-Mail gesendet, die nur die Konferenz-ID und die Konferenztelefonnummer enthält, nicht aber die PIN.
 
-Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Siehe [Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Anzeigen und Festlegen der primären (Standard-) und sekundären (Alternativen) Sprachen auf einer Audiokonferenz-Brücke
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Anzeigen und Festlegen der primären Sprache (Standardsprache) und der sekundären Sprachen (alternativen Sprachen) für eine Audiokonferenzbrücke
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 

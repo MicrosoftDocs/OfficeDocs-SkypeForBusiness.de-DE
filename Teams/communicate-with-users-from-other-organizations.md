@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie mit Benutzern aus anderen Organisationen in M
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785928"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539442"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams
 ======================================================
@@ -73,7 +73,7 @@ Wenn Sie bereit sind, den Gastzugriff in Ihrer Organisation zu aktivieren, start
 | Ein einzelner Benutzer kann blockiert werden | Nein | Ja |
 | @Mentions werden unterstützt | Ja<sup>4</sup> | Ja |
 | Private Anrufe führen | Ja | Ja |
-| Telefonnummer für Teilnehmer von Einwahlbesprechungen anzeigen | Nein | Ja |
+| Telefonnummer für Teilnehmer von Einwahlbesprechungen anzeigen | Nein<sup>5</sup> | Ja |
 | IP-Video zulassen | Ja | Ja |
 | Bildschirmübertragungsmodus | Ja<sup>4</sup> | Ja |
 | Sofortbesprechungen zulassen | Nein | Ja |
@@ -88,6 +88,8 @@ Wenn Sie bereit sind, den Gastzugriff in Ihrer Organisation zu aktivieren, start
 <sup>2</sup> Nur per E-Mail- oder SIP-Adresse (Session Initiation Protocol).<br>
 <sup>3</sup> Externer Chat (Verbundchat) nur 1:1.<br>
 <sup>4</sup> Unterstützt für 1:1-Chat nur für Teams zu Teams Benutzer aus zwei verschiedenen Organisation. 
+<sup>5</sup> Standardmäßig können externe Teilnehmer die Telefonnummern der eingewählten Teilnehmer nicht sehen. Wenn Sie den Datenschutz dieser Telefonnummern sicherstellen möchten, wählen Sie **Töne** für **Typ der Ankündigung für Zu- und Abgänge** aus. Dies verhindert, dass die Nummern von Teams ausgelesen werden können. Wenn Sie externe Telefonfestnetznummern nicht für externe Benutzer offen legen möchten, wählen Sie beim Einschalten von **Ankündigungen für Zu- oder Abgänge** die Option **Töne** als Ankündigungstyp aus. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+
 
 ## <a name="related-topics"></a>Verwandte Themen
 

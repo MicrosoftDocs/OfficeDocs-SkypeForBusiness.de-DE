@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137115"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539642"
 ---
 <a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 ============================
@@ -38,9 +38,9 @@ Die von Ihnen bereitgestellten Berichts Beschriftungen und Speicherorte sind ein
 
 **So bearbeiten Sie die Tabelle von Subnetzen und Speicherorten**
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Speicherorte** > , an denen**Etiketten gemeldet**werden.
+1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Speicherorte**, an denen  >  **Etiketten gemeldet**werden.
 2. Klicken Sie auf **Daten von Speicherorten ersetzen**.
-3. Klicken Sie im Bereich **Standortdaten ersetzen** auf **Datei auswählen**, und navigieren Sie dann zu der bearbeiteten CSV-oder TSV-Datei, und laden Sie Sie hoch.
+3. Klicken Sie im Bereich **Datenspeicherorte ersetzen** auf **Datei auswählen**, und navigieren Sie dann zu der bearbeiteten CSV-oder TSV-Datei, und laden Sie Sie hoch.
 4. Klicken Sie auf **hochladen**.
 
 Sie können [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)eine Beispielvorlage herunterladen.

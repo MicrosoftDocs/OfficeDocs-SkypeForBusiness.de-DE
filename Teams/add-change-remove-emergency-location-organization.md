@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Hier erfahren Sie, wie Sie im Microsoft Teams Admin Center einen Notfall Standort für Ihre Organisation hinzufügen, ändern oder entfernen. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72730a326c6239b195d77f8a7bdde1b376da646f
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232486"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539462"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
@@ -40,13 +40,13 @@ Sie können Notfall Speicherorte für Ihre Organisation im Microsoft Teams Admin
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Locations**  >  **Notfalladressen**für Standorte.
-2. Klicken Sie auf **Ort hinzufügen**.
+2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie einen Namen und eine Beschreibung für den Ort ein.
 4. Wählen Sie das Land oder die Region aus, und geben Sie dann die Adresse ein.
 
    > [!NOTE]
    > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu verstehen, dass zum erfolgreichen Aktivieren einer Telefonnummer in Office 365 die Adresse, die in dem Notfall Standort eingerichtet ist, der zum Abrufen der Nummer verwendet wird, mit der Ortsvorwahl der Telefonnummer übereinstimmen muss.
-5. Wenn die Adresse nicht gefunden wird und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie das **Adressformular manuell bearbeiten, wenn die ausgewählte Adresse nicht gefunden werden kann**.
+5. Wenn die Adresse nicht gefunden wird und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie **die Option Adresse manuell bearbeiten**.
 6. Klicken Sie auf **Speichern**.
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell

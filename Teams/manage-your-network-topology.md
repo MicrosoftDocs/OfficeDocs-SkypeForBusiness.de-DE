@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams konfigurieren.
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888704"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539625"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams
 
@@ -39,12 +39,12 @@ Sie definieren netzwerkregionen, Netzwerk Websites und Subnetze auf der Register
 
 #### <a name="add-and-configure-a-network-site"></a>Hinzufügen und Konfigurieren einer Netzwerk Website
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** > -**Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
-2. Klicken Sie auf **neu**, und geben Sie dann einen Namen und eine Beschreibung für die Website ein.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
+2. Klicken Sie auf **Hinzufügen**, und geben Sie dann einen Namen und eine Beschreibung für die Website ein.
 
     ![Screenshot der Seite "Netzwerk Website hinzufügen"](media/manage-network-topology-add-site.png)
 
-3. Wenn Sie die Website einem Netzwerkbereich zuordnen möchten, klicken Sie auf **netzwerkregion verknüpfen**, wählen Sie einen vorhandenen Bereich aus, oder klicken Sie auf **Hinzufügen** , um einen Bereich hinzuzufügen, und klicken Sie dann auf **Verknüpfen**.  
+3. Wenn Sie die Website einem Netzwerkbereich zuordnen möchten, klicken Sie auf **Netzwerkbereich hinzufügen**, wählen Sie einen vorhandenen Bereich aus, oder klicken Sie auf **hinzu** fügen, um einen Bereich hinzuzufügen, und klicken Sie dann auf **Verknüpfen**.  
 4. Um standortbasiertes Routing für die Website zu aktivieren, aktivieren Sie **standortbasiertes Routing**.
 5. Führen Sie eine oder beide der folgenden Aktionen aus, um der Website Notfalldienst Richtlinien zuzuweisen:
 
@@ -56,7 +56,7 @@ Sie definieren netzwerkregionen, Netzwerk Websites und Subnetze auf der Register
 
 #### <a name="modify-a-network-site"></a>Ändern einer Netzwerk Website
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** > -**Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
 2. Wählen Sie die Website aus, indem Sie links neben dem Websitenamen klicken, und klicken Sie dann auf **Bearbeiten**.
 3. Nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **speichern.**
 
@@ -66,7 +66,7 @@ Sie verwalten externe vertrauenswürdige IP-Adressen auf der Registerkarte **Ver
 
 #### <a name="add-a-trusted-ip-address"></a>Hinzufügen einer vertrauenswürdigen IP-Adresse
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** > -**Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
 2. Klicken Sie auf **Neu**.
 3. Geben Sie im Bereich **Vertrauenswürdige IP-Adresse hinzufügen** die IP-Version, die IP-Adresse, den Netzwerkbereich und eine Beschreibung ein, und klicken Sie dann auf über **nehmen**.
 
@@ -74,17 +74,17 @@ Sie verwalten externe vertrauenswürdige IP-Adressen auf der Registerkarte **Ver
 
 #### <a name="edit-a-trusted-ip-address"></a>Bearbeiten einer vertrauenswürdigen IP-Adresse
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** > -**Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
 2. Wählen Sie die IP-Adresse aus, indem Sie links davon klicken, und klicken Sie dann auf **Bearbeiten**.
 3. Nehmen Sie im Bereich **Vertrauenswürdige IP-Adresse bearbeiten** die gewünschten Änderungen vor, und klicken Sie dann auf über **nehmen**.
 
 ## <a name="configure-network-settings-using-powershell"></a>Konfigurieren von Netzwerkeinstellungen mithilfe von PowerShell
 
-Zum Ausführen der Schritte in diesem Abschnitt benötigen Sie einige Vertrautheit mit PowerShell-Cmdlets. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell](teams-powershell-overview.md).
+Zum Ausführen der Schritte in diesem Abschnitt benötigen Sie einige Vertrautheit mit PowerShell-Cmdlets. Weitere Informationen finden Sie unter [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md).
 
 ### <a name="define-network-regions"></a>Definieren von netzwerkregionen
 
- Verwenden Sie das Cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) , um netzwerkregionen zu definieren. Beachten Sie, dass der Parameter "Regions-ID" ein logischer Name ist, der die Geographie des Bereichs darstellt &lt;und keine&gt; Abhängigkeiten oder Einschränkungen aufweist, und der CentralSite-Parameter der Website-ID optional ist.
+ Verwenden Sie das Cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) , um netzwerkregionen zu definieren. Beachten Sie, dass der Parameter "Regions-ID" ein logischer Name ist, der die Geographie des Bereichs darstellt und keine Abhängigkeiten oder Einschränkungen aufweist, und der CentralSite- &lt; Parameter der Website-ID &gt; optional ist.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  

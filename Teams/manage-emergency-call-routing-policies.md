@@ -17,16 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie in Microsoft Teams Notruf-Routing Richtlinien verwenden und verwalten, um Notrufnummern einzurichten und festzulegen, wie Notrufe weitergeleitet werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf47bc27ddc72d6f767815b5323b69f6e5fd00ca
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: b573543483d41219d2795043f47042789bc855ba
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350209"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539522"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Verwalten von Notfall Anruf-Routing Richtlinien in Microsoft Teams
 
-Wenn Sie in Ihrer Organisation ein direktes Routing für Telefonsysteme bereitgestellt haben, können Sie in Microsoft Teams Notfall-Anruf Weiterleitungsrichtlinien verwenden, um Notrufnummern einzurichten und festzulegen, wie Notrufe weitergeleitet werden. Eine Notruf Routing-Richtlinie legt fest, ob erweiterte Notfalldienste für Benutzer aktiviert sind, denen die Richtlinie zugewiesen ist, die Nummern, mit denen Notrufdienste aufgerufen werden (beispielsweise 911 in den USA) und wie Anrufe an Notfalldienste weitergeleitet werden.
+Wenn Sie in Ihrer Organisation ein [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md) bereitgestellt haben, können Sie in Microsoft Teams Notfall-Anruf Weiterleitungsrichtlinien verwenden, um Notrufnummern einzurichten und festzulegen, wie Notrufe weitergeleitet werden. Eine Notruf Routing-Richtlinie legt fest, ob erweiterte Notfalldienste für Benutzer aktiviert sind, denen die Richtlinie zugewiesen ist, die Nummern, mit denen Notrufdienste aufgerufen werden (beispielsweise 911 in den USA) und wie Anrufe an Notfalldienste weitergeleitet werden.
 
 Sie verwalten Notruf Routing Richtlinien, indem Sie **Voice**  >  im Microsoft Teams Admin Center oder mithilfe von Windows PowerShell zu VoIP-**Notfall Richtlinien** wechseln. Die Richtlinien können Benutzern und [Netzwerk Websites](cloud-voice-network-settings.md)zugewiesen werden.
 
@@ -41,13 +41,13 @@ Wenn Sie einer Netzwerk Website und einem Benutzer eine Notfall Anruf-Routing Ri
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Notfall Richtlinien**, und klicken Sie dann auf die Registerkarte **Anruf Weiterleitungsrichtlinien** .
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
-4. Aktivieren Sie erweiterte **Notfalldienste,** um erweiterte Notfalldienste zu aktivieren. Wenn erweiterte Notfalldienste aktiviert sind, ruft Teams Richtlinien-und Standortinformationen vom Dienst ab und enthält diese Informationen im Rahmen des Notrufs.
-5. Definieren Sie eine der weiteren Notrufnummern. Gehen Sie dazu unter **Notrufnummern**wie folgt vor:
+4. Aktivieren Sie **dynamische**Notrufe, um dynamische Notrufe zu ermöglichen. Wenn dynamische Notrufe aktiviert sind, ruft Teams Richtlinien-und Standortinformationen vom Dienst ab und enthält diese Informationen im Rahmen des Notrufs.
+5. Definieren Sie eine oder mehrere Notfallnummern. Klicken Sie dazu unter **Notrufnummern**auf **Hinzufügen**, und gehen Sie dann folgendermaßen vor:
     1. **Notfall Wahl Zeichenfolge**: Geben Sie die Notrufnummer ein. Diese Wählzeichenfolge zeigt an, dass ein Anruf ein Notruf ist.
         > [!NOTE]
         > Für das direkte Routing wechseln wir von Teams-Clients, die Notrufe mit einem "+" vor der Notruf Zeichenfolge senden. Bis zum Abschluss des Übergangs sollte das VoIP-Routenmuster einer Notruf Zeichenfolge entsprechen, um sicherzustellen, dass Zeichenfolgen mit einem vorangehenden "+", wie 911 und + 911, übereinstimmen. Beispiel: ^ \\ +? 911 oder. *.
     2. **Notfall-Wähl Maske**: Sie können für jede Notrufnummer NULL oder mehr Notrufnummern angeben. Eine Wähl Maske ist die Nummer, die Sie in den Wert der Notruf-Wählzeichenfolge übersetzen möchten. Auf diese Weise können alternative Notrufnummern gewählt werden, und der Anruf kann auch Notfalldienste erreichen. <br>Beispielsweise fügen Sie 112 als Notruf Maske hinzu, bei der es sich um die Notrufnummer für die meisten Europa und 911 als Notruf Zeichenfolge handelt. Ein Team Nutzer aus Europa, der gerade besucht, weiß möglicherweise nicht, dass 911 die Notrufnummer in den Vereinigten Staaten ist, und wenn Sie 112 wählen, wird der Anruf an 911 durchgeführt. Wenn Sie mehrere Wähl Masken definieren möchten, trennen Sie die einzelnen Werte durch ein Semikolon. Beispiel: 112; 212.
-    3. **PSTN-Verwendung**: Wählen Sie die Verwendung des öffentlichen Switched Telephone Network (PSTN) aus. Die PSTN-Nutzung wird verwendet, um zu ermitteln, welche Route zur Weiterleitung von Notrufen von Benutzern verwendet wird, die zur Verwendung autorisiert sind. Die Route, die mit dieser Verwendung verknüpft ist, sollte auf einen SIP-Stammverweisen, der für Notrufe vorgesehen ist, oder für ein Notfall Standort-Identifikationsnummer (Elin)-Gateway, das Notrufe an den nächstgelegenen öffentlichen Sicherheits-Anrufbeantworter (PSAP) weiterleitet.
+    3. **PSTN-Verwendungsdaten Satz**: Wählen Sie den Eintrag für die öffentliche Telefonnetz Nutzung (PSTN) aus. Der PSTN-Nutzungsdaten Satz wird verwendet, um zu ermitteln, welche Route zur Weiterleitung von Notrufen von Benutzern verwendet wird, die zur Verwendung autorisiert sind. Die Route, die mit dieser Verwendung verknüpft ist, sollte auf einen SIP-Stamm (Session Initiation Protocol) verweisen, der für Notrufe vorgesehen ist, oder für ein Notfall-Standort-ID (Elin)-Gateway, das Notrufe an den nächstgelegenen öffentlichen Sicherheits Beantwortungs Punkt (PSAP) weiterleitet.
 
     > [!NOTE]
     > Wählzeichenfolgen und Wähl Masken müssen innerhalb einer Richtlinie eindeutig sein. Das bedeutet, dass Sie für eine Richtlinie mehrere Notfallnummern definieren können, und Sie können mehrere Wähl Masken für eine Wählzeichenfolge festlegen, aber jede Wählzeichenfolge und Wähl Maske darf nur einmal verwendet werden.
@@ -82,11 +82,11 @@ So weisen Sie einem Benutzer eine Richtlinie zu:
 2. Klicken Sie zunächst auf **Richtlinien** und dann neben **Zugewiesene Richtlinien** auf **Bearbeiten**.
 3. Wählen Sie unter **Notruf Weiterleitungs Richtlinie**die Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf **Speichern**.
 
-So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu:
+So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, suchen Sie nach den Benutzern, oder Filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
-2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Wenn Sie alle Benutzer auswählen möchten, klicken Sie oben in der Tabelle auf das &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf über **nehmen**.  
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
+3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.  
 
 Sie können auch die folgenden Schritte ausführen:
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie einen Notfall Standort für Benutzer in Ihrer Organisation zuweisen oder ändern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 096e2dead1ede4f9769dafd85dfac23d6c44f399
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232476"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539502"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
 
@@ -37,7 +37,7 @@ Sie können einen Notfall Standort für einen Benutzer im Microsoft Teams Admin 
 
 1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **VoIP**-Rufnummern  >  **Phone numbers**.
 
-2. Wählen Sie auf der Seite **Telefonnummern** eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.
+2. Klicken Sie auf der Seite **Telefonnummern** auf die Registerkarte **Zahlen** , wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.
 
 3. Führen Sie im **Bearbeitungs** Bereich unter **Notfall Speicherort**eine der folgenden Aktionen aus:
 
@@ -45,7 +45,9 @@ Sie können einen Notfall Standort für einen Benutzer im Microsoft Teams Admin 
 
    - Wenn Sie den Notfall Standort ändern möchten, der dem Benutzer bereits zugewiesen ist, klicken Sie auf **X** , um den vorhandenen Speicherort zu entfernen, und suchen Sie dann nach dem Speicherort, den Sie zuweisen möchten, und wählen Sie ihn aus.
 
-4. Klicken Sie auf **Speichern**.
+4. Je nachdem, ob Sie dem Benutzer eine e-Mail mit den Informationen zur Telefonnummer senden möchten, deaktivieren oder aktivieren Sie **e-Mail-Nutzer mit Telefonnummerninformationen**. Standardmäßig ist dies aktiviert.
+
+5. Klicken Sie auf **Anwenden**.
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
 
