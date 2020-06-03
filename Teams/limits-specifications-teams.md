@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85879d55ad50a6c68bbe59d9c1fb51663988c661
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489057"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512822"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -64,7 +64,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 |Feature  | Obergrenze  |
 |---------|---------|
-|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 100    |
+|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250<br><br>**Hinweis:** Für Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 100. Wir werden diesen Artikel aktualisieren, sobald die Cloud-Grenze der Behörden von 100 auf 250 erhöht wird.    |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Anzahl der Dateianlagen <sup>2</sup>  |10     |
 |Größe des Chats | Ca. 28 KB pro Beitrag<sup>3</sup> |

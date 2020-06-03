@@ -1,6 +1,6 @@
 ---
 title: Workshops zur Planung des Upgrades auf Microsoft Teams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Diese kursleitergeführten Workshops helfen Ihnen bei der Planung Ihres Upgrades aus Skype for Business auf Microsoft Teams.
 layout: HubPage
 ms.topic: hub-page
@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6007bb8171073149d34ec56645711781b50f3285
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f5e62c70e586ed020f7245baaff30781ccf0cf06
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905167"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523348"
 ---
 <div id="main" class="v2">
     <div class="container">
