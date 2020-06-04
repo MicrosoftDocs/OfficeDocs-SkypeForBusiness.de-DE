@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Häufig gestellte Fragen zur Upgrade-Strategie beim Wechseln von Skype for Business zu Microsoft Teams
 localization_priority: Priority
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902950"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522668"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
@@ -118,7 +118,9 @@ Nein, Sie sollten die Benutzer in den Modus **Nur Teams** wechseln, um das Upgra
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>An wen kann ich mich wenden, wenn ich Fragen zum Upgradeprozess habe?
 
-Wenn Sie Fragen im Zusammenhang mit Ihrem Upgrade haben, wenden Sie sich an Ihre aktuellen Ansprechpartner. Dies kann das Ihnen zugewiesene Microsoft-Kontoteam, ein Microsoft-Partner oder [FastTrack](https://www.microsoft.com/fasttrack) sein. Alternativ können Sie im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/) ein Hilfeticket erstellen.
+Wenn Sie Fragen im Zusammenhang mit Ihrem Upgrade haben, wenden Sie sich an Ihre aktuellen Ansprechpartner. Dies kann das Ihnen zugewiesene Microsoft-Kontoteam, ein Microsoft-Partner oder [FastTrack](https://www.microsoft.com/fasttrack) sein. Alternativ können Sie im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/) ein Hilfeticket erstellen, indem Sie auf die Schaltfläche **Benötigen Sie Hilfe?** drücken.
+
+![Screenshot einer „Benötigen Sie Hilfe?“ Schaltfläche in Teams](media/helpDesk.png "Screenshot der „Benötigen Sie Hilfe?“-Schaltfläche im Microsoft Teams Admin Center in Teams")     
 
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>Muss ich alle Benutzer in meinem Mandanten gleichzeitig aktualisieren, oder kann ich ausgewählte Benutzer einzeln aktualisieren?
 
