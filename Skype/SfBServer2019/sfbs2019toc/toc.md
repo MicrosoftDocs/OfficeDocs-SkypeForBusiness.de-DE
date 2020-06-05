@@ -1,8 +1,9 @@
 # [Skype for Business Server 2019](../skype-for-business-server-2019.md)
 
 ## [Neuigkeiten](../whats-new.md)
-## [Was ist veraltet](../deprecated.md)
-## [Microsoft-Telefonielösungen](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
+## [Was wird nicht mehr unterstützt](../deprecated.md)
+## [Anleitung zur Virtualisierung](../virtualization-guidance.md)
+## [Telefonielösungen von Microsoft](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Skype for Business – Downloads und Updates](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Clientupdates](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
