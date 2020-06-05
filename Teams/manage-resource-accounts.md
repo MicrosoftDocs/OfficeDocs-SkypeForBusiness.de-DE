@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie, wie Sie Ressourcenkonten in Microsoft Teams erstellen, bearbeiten und verwalten können.
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512899"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565902"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -52,7 +52,7 @@ Wenn Ihre Organisation bereits mindestens eine Telefonsystemlizenz verwendet, k�
 
 <!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
-Wenn die automatische Telefonzentrale oder Anrufwarteschleife unter einer automatischen Telefonzentrale der obersten Ebene geschachtelt ist, benötigt das zugeordnete Ressourcenkonto nur eine Telefonnummer, wenn Sie mehrere Einstiegspunkte in die Struktur von automatischen Telefonzentralen und Anrufwarteschleifen benötigen.
+Wenn die automatische Telefonzentrale oder die Anrufwarteschlange unter einer automatischen Telefonzentrale der obersten Ebene geschachtelt ist, benötigt das zugeordnete Ressourcenkonto nur eine Telefonnummer, wenn Sie mehrere Einstiegspunkte in die Struktur von automatischen Telefonzentralen und Anrufwarteschlangen einbeziehen möchten.
 
 Um Anrufe an Personen in Ihrer Organisation umzuleiten, die online sind, müssen diese über eine **Telefonsystemlizenz** verfügen und für Enterprise-VoIP aktiviert sein oder über einen Office 365-Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Wenn Sie sie für Enterprise-VoIP aktivieren möchten, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise den folgenden Befehl aus: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -98,9 +98,11 @@ Wenn Sie beim Erstellen einer automatischen Telefonzentrale ein Ressourcenkonto 
 Eine geschachtelte automatische Telefonzentrale oder Anrufwarteschleife erfordert ein Ressourcenkonto, aber in vielen Fällen benötigt das entsprechende Ressourcenkonto keine Telefonnummer und die erforderliche Lizenzierung, um eine Telefonnummer zu unterstützen. Wenn Sie ein Ressourcenkonto erstellen, für das keine Rufnummer erforderlich ist, müssen Sie die folgenden Aufgaben in der folgenden Reihenfolge ausführen:
 
 1. Erstellen Sie ein neues Ressourcenkonto. Informationen finden Sie unter [Erstellen eines Ressourcenkontos in Microsoft Teams Admin Center](#create-a-resource-account-in-the-microsoft-teams-admin-center) oder [Erstellen eines Ressourcenkontos in PowerShell](#create-a-resource-account-in-powershell).
+
 2. Richten Sie eines der Folgenden ein:
    - [Automatische Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md)
    - [Cloud-Anrufwarteschleife](create-a-phone-system-call-queue.md)
+   
 3. Weisen Sie das Ressourcenkonto der Anrufwarteschleife oder der automatischen Telefonzentrale zu. Informationen finden Sie unter [Zuweisen oder aufheben der Zuweisung von Telefonnummern und Diensten](#assignunassign-phone-numbers-and-services).
 
 
@@ -115,16 +117,6 @@ Nachdem Sie eine Telefon System Lizenz gekauft haben, wechseln Sie in der linken
 Klicken Sie auf **Hinzufügen**, um ein neues Ressourcenkonto zu erstellen. Füllen Sie im Bereich **Ressourcenkonto hinzufügen** den **Anzeige Namen**, den **Benutzernamen** aus (der Domänenname sollte automatisch aufgefüllt werden), und geben Sie den **Ressourcen Kontotyp** für das Ressourcenkonto ein. Der Typ des Ressourcenkontos kann eine **automatische Telefonzentrale** oder eine **Anrufwarteschlange**sein, abhängig von der APP, die Sie dem Ressourcenkonto zuordnen möchten. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 ![Screenshot der Optionen für „Neues Ressourcenkonto“](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-Wenn Sie ein Ressourcenkonto erstellen, ist die Anmeldung für das Konto gesperrt. Am oberen Rand des Bereichs wird ein Banner angezeigt, das besagt, dass das Ressourcenkonto nicht geladen werden kann. Sie müssen die Blockierung der Anmeldung für das Ressourcenkonto im Microsoft 365 Admin Center freigeben, damit sich das Ressourcenkonto anmelden kann. Wechseln Sie dazu im Microsoft 365 Admin Center zu **Benutzer**, suchen Sie nach, und wählen Sie dann das Ressourcenkonto aus. Klicken Sie oben im Bereich unter dem Anzeigenamen auf **diesen Benutzer freigeben?**, deaktivieren Sie das Kontrollkästchen **diesen Benutzer von der Anmeldung blockieren** , und klicken Sie dann auf **Änderungen speichern**.
-
-![Screenshot der Option "diesen Benutzer freigeben"](media/res-acct-unblock.png)
-
-Wenn Sie dies tun, wird unter dem Anzeigenamen "Anmelden erlaubt" angezeigt. 
-
-![Screenshot der Meldung "Anmeldung erlaubt"](media/res-acct-sign-in-allowed.png)
 
 Wenden Sie als nächstes eine Lizenz auf das Ressourcenkonto im Microsoft 365 Admin Center an, wie unter [Zuweisen von Lizenzen zu Benutzern](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)beschrieben.
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-Wenn die Telefonnummer, die dem Ressourcenkonto im Admin Center des Teams zugeordnet ist, nicht angezeigt wird und Sie die Nummer dort nicht zuweisen können, überprüfen Sie Folgendes:
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>Im Microsoft Teams Admin Center wird die Telefonnummer, die dem Ressourcenkonto zugewiesen ist, nicht angezeigt.
+
+Wenn die Telefonnummer, die dem Ressourcenkonto im Microsoft Teams Admin Center zugewiesen ist, nicht angezeigt wird und Sie die Nummer nicht von dort aus zuweisen können, überprüfen Sie Folgendes:
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > Aktualisieren Sie nach dem Ausführen des cmldet die Website des Teams Admin Centers. Sie sollten dann in der Lage sein, die Nummer ordnungsgemäß zuzuweisen.
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>Sie erhalten ein "Wir können dieses Ressourcenkonto nicht für Dienste verwenden". Fehlermeldung
+
+<a name="blocksignin"> </a>
+
+Wenn Sie versuchen, ein Ressourcenkonto zu verwenden, erhalten Sie die folgende Fehlermeldung:
+
+"Dieses Ressourcenkonto kann nicht für Dienste verwendet werden. Das Ressourcenkonto muss deaktiviert und für die Anmeldung gesperrt sein. Sie müssen die Anmeldung für dieses Ressourcenkonto auf der Seite "Benutzer" im Microsoft 365 Admin Center blockieren. "
+
+Wenn Sie ein Ressourcenkonto erstellen, ist es standardmäßig deaktiviert, und die Anmeldung ist für das Konto gesperrt. Diese Einstellungen sollten nicht geändert werden. Um diese Fehlermeldung zu beheben, blockieren Sie das Ressourcenkonto, bevor Sie sich anmelden. Gehen Sie dazu so vor:
+
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Benutzer**, suchen Sie nach, und wählen Sie dann das Ressourcenkonto aus.
+2. Klicken Sie oben im Bereich unter dem Anzeigenamen auf **diesen Benutzer blockieren?**, aktivieren Sie das Kontrollkästchen **diesen Benutzer von der Anmeldung blockieren** , und wählen Sie dann **Änderungen speichern**aus.
+
+   ![Screenshot der Option "diesen Nutzer blockieren"](media/res-acct-block.png)
+
+    Anschließend wird unter dem Anzeigenamen "Anmelden blockiert" angezeigt.
+
+      ![Screenshot der Meldung "Anmeldung blockiert"](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>Verwandte Informationen
 
