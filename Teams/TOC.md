@@ -215,7 +215,6 @@
 ## Liveereignisse
 ### [Was sind Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md)
 ### [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md)
-### [Funktionen für Referenten und Teilnehmer in Live-Events](roles-in-live-events.md)
 ### [Einrichten von Teams-Liveereignissen](teams-live-events/set-up-for-teams-live-events.md)
 ### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Konfigurieren der Teams-Einstellungen für Liveereignisse](teams-live-events/configure-teams-live-events.md)

@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie mit Benutzern aus anderen Organisationen in M
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539442"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562040"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams
 ======================================================
@@ -89,7 +89,6 @@ Wenn Sie bereit sind, den Gastzugriff in Ihrer Organisation zu aktivieren, start
 <sup>3</sup> Externer Chat (Verbundchat) nur 1:1.<br>
 <sup>4</sup> Unterstützt für 1:1-Chat nur für Teams zu Teams Benutzer aus zwei verschiedenen Organisation. 
 <sup>5</sup> Standardmäßig können externe Teilnehmer die Telefonnummern der eingewählten Teilnehmer nicht sehen. Wenn Sie den Datenschutz dieser Telefonnummern sicherstellen möchten, wählen Sie **Töne** für **Typ der Ankündigung für Zu- und Abgänge** aus. Dies verhindert, dass die Nummern von Teams ausgelesen werden können. Wenn Sie externe Telefonfestnetznummern nicht für externe Benutzer offen legen möchten, wählen Sie beim Einschalten von **Ankündigungen für Zu- oder Abgänge** die Option **Töne** als Ankündigungstyp aus. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 
