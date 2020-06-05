@@ -17,12 +17,12 @@ description: Erfahren Sie mehr über die Funktionen für Referenten und Teilnehm
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6341e688973dc50c070b9a0c01dfa57d03514119
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 7714442be770420797df1c51a532f769eb0350a4
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321724"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565858"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-live-event"></a>Funktionen für Referenten und Teilnehmer in Teams-Live-Ereignissen
 ======================================================
@@ -36,7 +36,6 @@ Nachfolgend die verfügbaren Besprechungsfeatures:
 - Whiteboard
 - Aufzeichnung läuft
 - Dateien
-- Besprechungen planen (nur für Besprechungen)
 
 In diesem Artikel werden die Funktionen für Teilnehmer beschrieben und erläutert, auf welche Live-Ereignis-Features sie Zugriff haben.
 
@@ -45,7 +44,7 @@ In diesem Artikel werden die Funktionen für Teilnehmer beschrieben und erläute
 Referenten und Organisatoren umfassen:
 
 - Referenten aus meiner Organisation
-- Referenten aus anderen Organisationen (Einschränkungen für Live-Ereignisse). Diese beinhalten anonyme und externe Teilnehmer. Referenten werden vom Organisator bestimmt und brauchen eine persönliche Einladung von diesem.
+- Referenten aus anderen Organisationen. Referenten werden vom Organisator bestimmt und brauchen eine persönliche Einladung von diesem.
 
 Referenten und Organisatoren haben Zugriff auf alle Features in einem Live-Ereignis.
 
@@ -65,7 +64,7 @@ Ein mandanteninterner Teilnehmer gehört zur Organisation und verfügt über Anm
 | Live-Ereignis |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**       | Vor der Besprechung | Während der Besprechung | Nach der Besprechung |
-| Chat | Ja | Ja | Ja |
+| Chat | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend |
 | Besprechungsnotizen | Ja | Ja |Ja |
 | Whiteboard | Ja | Ja |Ja |
 | Aufzeichnung läuft | Nicht zutreffend |Ja | Ja |
@@ -80,7 +79,7 @@ Ein Gastteilnehmer ist jemand aus einer anderen Organisation, der basierend auf 
 | Live-Ereignis  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Vor der Besprechung | Während der Besprechung | Nach der Besprechung |
-| Chat | Ja | Ja | Ja |
+| Chat | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend |
 | Besprechungsnotizen | Ja | Ja | Ja |
 | Whiteboard | Nein | Nein | Nein |
 | Aufzeichnung läuft | Nicht zutreffend | Nein | Nein |
@@ -95,7 +94,7 @@ Bei einem externen Teilnehmer handelt es sich um eine Person, die Microsoft Team
 | Live-Ereignis |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Feature**         | Vor der Besprechung | Während der Besprechung | Nach der Besprechung |
-| Chat | Nein| Ja | Ja |
+| Chat | Nicht zutreffend| Nicht zutreffend | Nicht zutreffend |
 | Besprechungsnotizen | Nein | Nein | Nein |
 | Whiteboard | Nein| Nein | Nein |
 | Aufzeichnung läuft | Nicht zutreffend | Nein | Nein |
@@ -109,9 +108,9 @@ Ein anonymer Teilnehmer ist wie ein externer Benutzer, seine Identität wird jed
 | Live-Ereignis|  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Vor der Besprechung | Während der Besprechung | Nach der Besprechung |
-| Chat | Nein | Ja | Nein |
+| Chat | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend |
 | Besprechungsnotizen | Nicht zutreffend | Nein | Nicht zutreffend |
-| Whiteboard | Nicht zutreffend | Nein | Nicht zutreffend |
+| Whiteboard | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend |
 | Aufzeichnung läuft | Nicht zutreffend | Nein | Nicht zutreffend |
 | Dateien | Nicht zutreffend | Nein | Nicht zutreffend |
 |||||||
@@ -122,3 +121,5 @@ Ein anonymer Teilnehmer ist wie ein externer Benutzer, seine Identität wird jed
 [Sicherheit und Microsoft Teams](teams-security-guide.md)
 
 [Gastzugriff in Teams](guest-access.md)
+
+[Planen von Liveereignissen in Teams](teams-live-events/plan-for-teams-live-events.md)

@@ -18,16 +18,19 @@ f1.keywords:
 description: Verwenden Sie diese Ressourcen zur Unterstützung von Microsoft Teams in Ihrer Organisation, unabhängig davon, ob Sie der Teams-Administrator oder der Support-Techniker des Helpdesks sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d4daacda88078a731e1db2126c814e862aefa3
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349569"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44561980"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>Unterstützung von Microsoft Teams in Ihrer Organisation
 
-Wenn Sie nach bekannten Problemen von Teams suchen, sind Sie hier genau richtig. Verwenden Sie die Ressourcen in diesem Artikel, um Teams in Ihrer Organisation zu unterstützen. 
+> [!NOTE]
+> Dieser Artikel ersetzt den Artikel "Bekannte Probleme bei Teams". 
+
+Verwenden Sie die Ressourcen in diesem Artikel, um Teams in Ihrer Organisation zu unterstützen. 
 
 Beginnen Sie mit der Durchsicht der Liste der am [häufigsten auftretenden Probleme und Lösungen](#common-issues-and-resolutions) weiter unten in diesem Artikel.
 
