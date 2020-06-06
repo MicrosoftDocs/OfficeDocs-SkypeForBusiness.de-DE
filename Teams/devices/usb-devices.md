@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407407"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591295"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -76,59 +76,62 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 
 *Tabelle aktualisiert May 2020*
 
-| Hersteller    | Modell                   | Qualifizierten  | Certified-Programm                                  |
-|:----------------|:------------------------|:-----------|:---------------------------------------------------|
-|Jabra             |Speak 750 Freisprecheinrichtung mit Jabra Link 370 USB-Dongle|5/21/2020 | Certified für Microsoft Teams  | 
-|Epos              | Sennheiser ADAPT 660-Headset |5/15/2020 |Certified für Microsoft Teams  | 
-|Epos              | Sennheiser ADAPT 560-Headset|5/15/2020 |Certified für Microsoft Teams  | 
-|Epos              | Sennheiser ADAPT 460T-Headset |5/15/2020 |Certified für Microsoft Teams  | 
-|Epos              | Sennheiser ADAPT 360-Headset| 5/15/2020 |Certified für Microsoft Teams  | 
-|Yealink           |UH36-Headset | 5/13/2020 |Certified für Microsoft Teams  | 
-| Poly            | Savi 8210 Office        | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Savi 8210 UC            | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Savi 8220 Office        | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Savi 8220 UC            | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Savi 8240 Office        | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Savi 8240 UC            | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Blackwire 5210-Headset  | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Blackwire 5220-Headset  | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Blackwire 7225-Headset  | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Voyager Focus UC        | 4/20/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Yealink         | CP700                   | 4/13/2020  | Certified für Microsoft Teams                      |
-| Jabra           | Evolve2 65-Headset      | 4/13/2020  | Certified für Microsoft Teams                      |
-| Epos/Sennheiser | Auswirkung SC 30            | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Auswirkung SC 45            | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Auswirkung SC 60            | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 75 ms         | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 75 ms Eul     | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 230 USB MS II | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 260 USB MS II | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 630 USB MS    | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 635 USB       | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 660 USB MS    | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 660 ANC USB   | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Epos/Sennheiser | Impact SC 665 USB       | 4/9/2020   | Skype for Business mit Upgrade auf Microsoft Teams |
-| Logitech        | Zone Wireless           | 4/8/2020   | Certified für Microsoft Teams                      |
-| Poly            | Voyager 8200-Headset    | 3/26/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Logitech        | Zone verkabelt              | 3/26/2020  | Certified für Microsoft Teams                      |
-| Jabra           | Evolve2 40-Headset      | 3/26/2020  | Certified für Microsoft Teams                      |
-| Poly            | Voyager 6200-Headset    | 3/23/2020  | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Voyager 4245 Office     | 3/23/2020  | Certified für Microsoft Teams                      |
-| Poly            | Blackwire 8225-Headset  | 3/23/2020  | Certified für Microsoft Teams                      |
-| Poly            | Calisto 5300-M          | 03/05/2020 | Certified für Microsoft Teams                      |
-| Poly            | Voyager 4210 Office     | 03/05/2020 | Certified für Microsoft Teams                      |
-| Poly            | Voyager 4210 UC         | 03/05/2020 | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Voyager 4220 Office     | 03/05/2020 | Certified für Microsoft Teams                      |
-| Poly            | Voyager 4220 UC         | 03/05/2020 | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Voyager 5200 Office     | 03/05/2020 | Certified für Microsoft Teams                      |
-| Poly            | Voyager 5200 UC         | 03/05/2020 | Skype for Business mit Upgrade auf Microsoft Teams |
-| Poly            | Blackwire 3310-M        | 03/05/2020 | Certified für Microsoft Teams                      |
-| Poly            | Blackwire 3315-M        | 03/03/2020 | Certified für Microsoft Teams                      |
-| Poly            | Blackwire 3320-M        | 03/05/2020 | Certified für Microsoft Teams                      |
-| Poly            | Blackwire 3325-M        | 03/05/2020 | Certified für Microsoft Teams                      |
-| Poly            | Calisto 3200-M          | 01/27/2020 | Certified für Microsoft Teams                      |
-| Crestron        | CCS-UCA-MIC             | 12/18/2019 | Certified für Microsoft Teams                      |
-| Heiser      | SP 30T                  | 12/05/2019 | Certified für Microsoft Teams                      |
-| Polycom         | Elara                   | 11/06/2019 | Certified für Microsoft Teams                      |
-| Polycom         | Studio-Soundleiste         | 10/18/2019 | Certified für Microsoft Teams                      |
-| Yealink         | UVC30                   | 10/18/2019 | Certified für Microsoft Teams                      |
+| Hersteller        | Modell                                                     | Qualifizierten      | Certified-Programm                                      |
+|:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+| Epos                | Sennheiser ADAPT 660-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
+| Epos                | Sennheiser ADAPT 560-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
+| Epos                | Sennheiser ADAPT 460T-Headset                             | 5/15/2020      | Certified für Microsoft Teams                          |
+| Epos                | Sennheiser ADAPT 360-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
+| Yealink             | UH36-Headset                                              | 5/13/2020      | Certified für Microsoft Teams                          |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Blackwire 5210-Headset                                    | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Blackwire 5220-Headset                                    | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Blackwire 7225-Headset                                    | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Voyager Focus UC                                          | 4/20/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Yealink             | CP700                                                     | 4/13/2020      | Certified für Microsoft Teams                          |
+| Jabra               | Evolve2 65-Headset                                        | 4/13/2020      | Certified für Microsoft Teams                          |
+| Epos/Sennheiser     | Auswirkung SC 30                                              | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Auswirkung SC 45                                              | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Auswirkung SC 60                                              | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 75 ms                                           | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 75 ms Eul                                       | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 230 USB MS II                                   | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 260 USB MS II                                   | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 630 USB MS                                      | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 635 USB                                         | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 660 USB MS                                      | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 660 ANC USB                                     | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Epos/Sennheiser     | Impact SC 665 USB                                         | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Logitech            | Zone Wireless                                             | 4/8/2020       | Certified für Microsoft Teams                          |
+| Poly                | Voyager 8200-Headset                                      | 3/26/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Logitech            | Zone verkabelt                                                | 3/26/2020      | Certified für Microsoft Teams                          |
+| Jabra               | Evolve2 40-Headset                                        | 3/26/2020      | Certified für Microsoft Teams                          |
+| Poly                | Voyager 6200-Headset                                      | 3/23/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Voyager 4245 Office                                       | 3/23/2020      | Certified für Microsoft Teams                          |
+| Poly                | Blackwire 8225-Headset                                    | 3/23/2020      | Certified für Microsoft Teams                          |
+| Poly                | Calisto 5300-M                                            | 03/05/2020     | Certified für Microsoft Teams                          |
+| Poly                | Voyager 4210 Office                                       | 03/05/2020     | Certified für Microsoft Teams                          |
+| Poly                | Voyager 4210 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Voyager 4220 Office                                       | 03/05/2020     | Certified für Microsoft Teams                          |
+| Poly                | Voyager 4220 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Voyager 5200 Office                                       | 03/05/2020     | Certified für Microsoft Teams                          |
+| Poly                | Voyager 5200 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
+| Poly                | Blackwire 3310-M                                          | 03/05/2020     | Certified für Microsoft Teams                          |
+| Poly                | Blackwire 3315-M                                          | 03/03/2020     | Certified für Microsoft Teams                          |
+| Poly                | Blackwire 3320-M                                          | 03/05/2020     | Certified für Microsoft Teams                          |
+| Poly                | Blackwire 3325-M                                          | 03/05/2020     | Certified für Microsoft Teams                          |
+| Poly                | Calisto 3200-M                                            | 01/27/2020     | Certified für Microsoft Teams                          |
+| Crestron            | CCS-UCA-MIC                                               | 12/18/2019     | Certified für Microsoft Teams                          |
+| Heiser          | SP 30T                                                    | 12/05/2019     | Certified für Microsoft Teams                          |
+| Polycom             | Elara                                                     | 11/06/2019     | Certified für Microsoft Teams                          |
+| Polycom             | Studio-Soundleiste                                           | 10/18/2019     | Certified für Microsoft Teams                          |
+| Yealink             | UVC30                                                     | 10/18/2019     | Certified für Microsoft Teams                          |
+| Jabra               | PanaCast                                                  | 08/14/2019     | Certified für Microsoft                                |
+

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416725"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583438"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -111,8 +111,6 @@ Aufgrund bestimmter Einschränkungen in der ersten Version kann Outlook Mobile n
 | Nur Microsoft Teams | Microsoft Teams |
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Festlegen, ob Benutzer im Inseln-Modus nur das Team Besprechungs-Add-in oder sowohl die Teambesprechung als auch die Skype for Business-Besprechungs-Add-Ins verwenden können
-
-**(in Kürze verfügbar)**
 
 Als Administrator können Sie eine Team-Besprechungsrichtlinien Einstellung konfigurieren, um zu steuern, welches Outlook-Besprechungs-Add-in für Benutzer verwendet wird *, die sich im Inseln-Modus befinden*. Sie können angeben, ob Benutzer das Team Besprechungs-Add-in oder sowohl die Teambesprechung als auch die Skype for Business-Besprechungs-Add-Ins verwenden können, um Besprechungen in Outlook zu planen.
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 548b1f9adbd964737c664baab108201412b6e90f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522778"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583448"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Teams aus.
 
@@ -55,7 +55,7 @@ In diesem Artikel werden die verschiedenen Modi erläutert, mit denen Sie verwal
 
 Wenn Sie Ihre Organisation formell für Ihre Reise in Teams vorbereiten möchten, müssen Sie mit der Planung für die Upgrade-Szenarien beginnen, die es Ihrem Unternehmen ermöglichen, Teams als ihre einzige Lösung für Kommunikation und Zusammenarbeit umfassend zu integrieren.
 
-Um ihre Entscheidungsfindung zu erleichtern, sollten Sie sich mit den verschiedenen Modi, Konzepten und Terminologie vertraut machen, die für das Upgrade von Skype for Business auf Teams relevant sind. Weitere Informationen finden Sie unter [Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](https://aka.ms/SkypeToTeams-Coexist) .
+Um ihre Entscheidungsfindung zu erleichtern, sollten Sie sich mit den verschiedenen Modi, Konzepten und Terminologie vertraut machen, die für das Upgrade von Skype for Business auf Teams relevant sind. Weitere Informationen finden Sie unter [Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](https://aka.ms/SkypeToTeams-Coexist).
 
 Ein Benutzer, der in Teams migriert wurde, verwendet keinen Skype for Business-Client mehr, es sei denn, Sie nehmen an einer in Skype for Business gehosteten Besprechung Teil. Alle eingehenden Chats und Anrufe landen im Team-Client des Benutzers, unabhängig davon, ob der Absender Teams oder Skype for Business verwendet. Alle neuen Besprechungen, die vom aktualisierten Benutzer organisiert werden, werden als Teams-Besprechungen geplant. Wenn der Benutzer versucht, den Skype for Business-Client zu verwenden, wird das Initiieren von Chats und anrufen blockiert<sup>1</sup>. Allerdings kann der Benutzer den Skype for Business-Client weiterhin verwenden, um an Besprechungen teilzunehmen, zu denen er eingeladen wurde.
 
@@ -64,9 +64,10 @@ Administratoren verwalten Ihren Übergang zu Teams mithilfe des Konzepts des [Mo
 Es gibt zwei Methoden zum Migrieren einer vorhandenen Organisation mit Skype for Business (ob online oder lokal) in Teams:
 
 - Über **Lapp Ende Capabilities-Methode** (im Modus "Inseln"): Benutzer in einer vorhandenen Skype for Business-Organisation werden in Teams eingeführt, damit Sie in einer Übergangsphase beide Clients nebeneinander verwenden können. In diesem Zeitraum stehen Ihnen die meisten--aber nicht alle--Funktionen von Teams zur Verfügung. Der Modus für diese Konfiguration wird als "Inseln" bezeichnet, und dies ist der Standardmodus für jede vorhandene Organisation mit Skype for Business. Sobald die Organisation fertig ist, verschiebt der Administrator die Benutzer in den TeamsOnly-Modus.
+
 - **Wählen Sie** die Funktion Funktionen (mit einem oder mehreren Skype for Business-Modi): der Administrator verwaltet den Übergang (von Skype for Business zu Teams) von Chat-, Anruf-und Besprechungs Planungsfunktionen für Benutzer in Ihrer Organisation. Jede dieser Funktionen steht entweder in Skype for Business oder in Teams zur Verfügung, aber nicht in beiden. Administratoren verwenden TeamsUpgradePolicy, um zu steuern, wann diese Funktionalität für Ihre Benutzer in Teams verschoben werden soll. Benutzer, die noch nicht im TeamsOnly-Modus sind, verwenden weiterhin Skype for Business für Chats und Anrufe, und die beiden Benutzergruppen können über die Interop-Funktionalität kommunizieren. Administratoren verwalten den Übergang, indem Sie schrittweise mehr Benutzer in den TeamsOnly-Modus migrieren.
 
-<sup>1</sup> Ältere Skype for Business-Clients, die vor 2017 ausgeliefert wurden, Ehren TeamsUpgradePolicy nicht. Stellen Sie sicher, dass Sie den neuesten Skype for Business-Client verwenden, der in Ihrem Office-Kanal verfügbar ist.
+<sup>1</sup> ältere Skype for Business-Clients, die vor 2017 ausgeliefert wurden, Ehren TeamsUpgradePolicy nicht. Stellen Sie sicher, dass Sie den neuesten Skype for Business-Client verwenden, der in Ihrem Office-Kanal verfügbar ist.
 
 Nachfolgend sind die wichtigsten Faktoren aufgeführt, die Ihnen bei der Entscheidung über den geeigneten Pfad für Ihre Organisation helfen. 
 
@@ -77,7 +78,9 @@ Mit der überlappenden Funktionen-Methode können Benutzer sowohl Teams als auch
 Bei Verwendung der überlappenden Funktionen-Methode bleibt der Kommunikationsverkehr für Skype for Business und Teams getrennt (auch für denselben Benutzer), und die beiden unterschiedlichen Clients kommunizieren nie miteinander (für Benutzer innerhalb der gleichen Organisation). Die Benutzererfahrung basiert auf der Konfiguration des Empfängers. Nehmen Sie beispielsweise an, dass der Empfänger Benutzer A Diese Aktualisierungsmethode verwendet:
 
 - Die Kommunikation, die über den Skype for Business-Client eines anderen Benutzers initiiert wird, landet immer im Skype for Business-Client von User A.
+
 - Die von einem *Benutzer in der gleichen Organisation* initiierte Kommunikation vom Team-Client wird immer im Team-Client von User a landen.
+
 - Die von einem Team-Client initiierte Kommunikation von einem *Benutzer in einer externen Organisation* landet immer im Skype for Business-Client von Benutzer a.
 
 Wenn Sie Ihren Benutzern eine Office 365-Lizenz zugewiesen haben, ist dies die standardmäßige Upgrade-Erfahrung für Ihre Organisation. Wenn Sie eine Office 365-Lizenz zuweisen, werden standardmäßig beide Teams und Skype for Business Online-Lizenzen zugewiesen. <sup>2</sup>
@@ -89,6 +92,7 @@ Wenn beispielsweise ein Empfänger für inselnmodus bei Skype for Business angem
 Die Anwesenheitsfunktion funktioniert auch unabhängig von Teams und Skype for Business mithilfe dieser Upgrade-Methode. Dies bedeutet, dass andere Benutzer möglicherweise unterschiedliche Anwesenheitsstatus für Benutzer A sehen, je nachdem, welchen Client Sie verwenden. Weitere Informationen finden Sie unter [Anwesenheits](upgrade-to-Teams-on-prem-overview.md#presence)Informationen.
 
 - Andere Benutzer sehen bei der Verwendung von Teams die Anwesenheitsinformationen auf der Grundlage der Aktivitäten von Benutzer A in Teams.
+
 - Andere Benutzer können bei Verwendung von Skype for Business die Anwesenheitsinformationen auf der Grundlage der Aktivitäten von Benutzer A in Skype for Business sehen.
 
 Wenn Sie bereit sind, Benutzer auf den TeamsOnly-Modus zu aktualisieren, können Sie Benutzer einzeln aktualisieren oder den gesamten Mandanten mithilfe der Mandanten weiten Richtlinie<sup>3</sup>aktualisieren. Sobald ein Benutzer auf den TeamsOnly-Modus aktualisiert wurde, erhalten alle eingehenden Chats und Anrufe in Teams.
@@ -104,7 +108,7 @@ In der folgenden Tabelle sind die Teams im Modus "Inseln" und im TeamsOnly-Modus
 | Eingehende Chats und eingegangene Anrufe in:|  Teams oder Skype for Business | Teams |
 | Empfangene PSTN-Anrufe: | Skype for Business <br>(Die Verwendung der PSTN-Funktionalität in Teams wird im Modus "Inseln" nicht unterstützt.)     | Teams |   
  |Anwesenheit    | Die Anwesenheit in Skype for Business und Teams ist unabhängig. Benutzer können je nach verwendetem Client unterschiedliche Zustände für denselben Inseln-Benutzer sehen. | Der Anwesenheitsstatus basiert ausschließlich auf der Aktivität des Benutzers in Teams. Alle anderen Benutzer, unabhängig davon, welchen Client Sie verwenden, sehen diesen Anwesenheitsstatus. | 
- | Besprechungsplanung    | Benutzer können Besprechungen entweder in Teams oder in Skype for Business planen. Standardmäßig werden beide Add-Ins in Outlook angezeigt. Sie können eine Team-Besprechungsrichtlinie festlegen, um zu steuern, ob Benutzer nur das Add-in "Teams-Besprechung" oder sowohl die Teambesprechung als auch die Add-Ins für Skype for Business-Besprechungen verwenden können (in**Kürze**verfügbar). Weitere Informationen finden Sie unter [Einrichten des Besprechungs Anbieters für Benutzer im Modus "Inseln"](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Benutzer planen nur Besprechungen in Teams. In Outlook steht nur das Team-Add-in zur Verfügung. | 
+ | Besprechungsplanung    | Benutzer können Besprechungen entweder in Teams oder in Skype for Business planen. Standardmäßig werden beide Add-Ins in Outlook angezeigt. Sie können eine Team-Besprechungsrichtlinie festlegen, um zu steuern, ob Benutzer nur das Add-in "Teams-Besprechung" oder sowohl die Teambesprechung als auch die Add-Ins für Skype for Business-Besprechungen verwenden können. Weitere Informationen finden Sie unter [Einrichten des Besprechungs Anbieters für Benutzer im Modus "Inseln"](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Benutzer planen nur Besprechungen in Teams. In Outlook steht nur das Team-Add-in zur Verfügung. | 
 
 In der folgenden Tabelle werden die vor-und Nachteile der Verwendung der überlappenden Funktionen-Methode zum Migrieren Ihrer Organisation zu Teams zusammengefasst.
 
@@ -117,14 +121,16 @@ In der folgenden Tabelle werden die vor-und Nachteile der Verwendung der überla
 
 <sup>2</sup> Dies gilt auch, wenn der Benutzer lokal in Skype for Business Server verwaltet wird. Unabhängig davon, ob der Benutzer lokal oder Online ist, lassen Sie die Skype for Business Online-Lizenz aktiviert, da Sie zurzeit für die vollständige Team Funktionalität benötigt wird.
 
-<sup>3</sup> Beachten Sie, dass die Migration von Skype for Business-Besprechungen in Teams-Besprechungen nur dann ausgelöst wird, wenn Sie TeamsUpgradePolicy auf einzelne Benutzer anwenden, nicht auf Mandantenbasis. Details finden Sie unter [Besprechungs Migration](upgrade-to-Teams-on-prem-overview.md#meeting-migration) .
+<sup>3</sup> beachten Sie, dass die Migration von Skype for Business-Besprechungen in Teams-Besprechungen nur ausgelöst wird, wenn Sie TeamsUpgradePolicy auf einzelne Benutzer anwenden, nicht auf Mandantenbasis. Details finden Sie unter [Besprechungs Migration](upgrade-to-Teams-on-prem-overview.md#meeting-migration) .
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>SELECT Capabilities-Methode (mit Skype for Business-Modi)
 
 Einige Organisationen ziehen es vor, Ihren Endbenutzern eine vorhersagbarere Erfahrung zu bieten, wenn Ihre Organisation von Skype for Business zu Teams wechselt. In diesem Modell verwenden IT-Administratoren einen der Skype for Business-Modi in TeamsUpgradePolicy, um explizit festzulegen, welche Funktionen vor der Migration in den TeamsOnly-Modus in Skype for Business verbleiben. Da Sie bereit sind, ausgewählte Funktionen in den TeamsOnly-Modus zu verschieben, aktualisiert der Administrator den Modus für diese Benutzer auf TeamsOnly. Während dieses Übergangs:
 
 - Administratoren haben die Möglichkeit, bestimmte Teamfunktionen für Benutzer zu aktivieren, während Sie Chat-und Anruffunktionen in Skype for Business beibehalten, bevor Benutzer zu TeamsOnly-Erfahrung wechseln. Die Verwaltung kann Teamzusammenarbeitsfunktionen oder Teams-Besprechungen sowie Zusammenarbeitsfunktionen aktivieren.
+
 - Benutzer, die noch über Skype for Business verfügen, erhalten alle eingehenden Chats und Anrufe in Ihrem Skype for Business-Client, unabhängig davon, ob die Kommunikation von den Teams des anderen Benutzers oder dem Skype for Business-Client stammt. Darüber hinaus sind für diese Skype for Business-Benutzer die Funktionen für Anrufe und Chats im Teams-Client deaktiviert, um die Verwirrung des Endbenutzers zu verhindern und die ordnungsgemäße Weiterleitung und Anwesenheit zu gewährleisten.
+
 - Benutzer im TeamsOnly-Modus empfangen alle eingehenden Chats und Anrufe in Ihrem Teams-Client, und die Anwesenheitsinformationen werden von Teams bereitgestellt, unabhängig davon, woher die Kommunikation stammt: Teams, Skype for Business oder jede Art von Federated-Nutzer.
 
 Im Gegensatz zur überlappenden Capabilities-Methode können Benutzer, die Skype for Business verwenden, mit den Benutzern in TeamsOnly kommunizieren. Die Kommunikation zwischen einem Skype for Business-Benutzer und einem Microsoft Teams-Benutzer wird als " [Interoperabilität](upgrade-to-Teams-on-prem-overview.md#interoperability) " oder "Interop" bezeichnet. Interoperabilitäts Kommunikation ist 1:1 für Chats und Anrufe zwischen einem Benutzer in Skype for Business und einem anderen Benutzer in Microsoft Teams möglich. Darüber hinaus können eingeladene Benutzer immer an einer Skype for Business-oder Teams-Besprechung teilnehmen, doch müssen Sie einen Client verwenden, der dem Typ der Besprechung entspricht. Weitere Informationen finden Sie unter [Besprechungen](upgrade-to-Teams-on-prem-overview.md#meetings).
@@ -140,7 +146,7 @@ Wenn sich der Modus von "Inseln" auf "SfbWithTeamsCollab" ändert, sieht ein Ben
 > [!NOTE]
 > Wenn der Benutzer eine Änderung von den Inseln zu einem der Skype for Business-Modi durchführt, muss der Team-Client eines anderen Benutzers, der mit dem Benutzer a kommuniziert, wissen, dass der Modus von Benutzer a geändert wurde, damit er die Kommunikation an den entsprechenden Client für Benutzer a weiterleiten kann. Für Benutzer, die bereits systemeigene Teams-zu-Teams-Chats mit Benutzer A eingerichtet haben, kann es Zeit dauern, bis sich die Teams-Clients dieser anderen Benutzer über den Modus "ändern" von den Inseln zu einem beliebigen Skype for Business-Modus bewusst sind. Wenn Administratoren bereit sind, können Sie die Chat-, Anruf-und Besprechungsplanung für einen bestimmten Benutzer in Teams auf einmal verschieben, indem Sie den Modus des Benutzers auf TeamsOnly aktualisieren.
 
-Alternativ kann der Administrator zunächst nur die Besprechungsplanung in Teams verschieben, während er Chat-und Anruffunktionen in Skype for Business über den SfBWithTeamsCollabAndMeetings-Modus verlässt. In diesem Modus können Organisationen zu Teams für Besprechungen wechseln – wenn Benutzer noch nicht bereit sind, in den TeamsOnly-Modus zu wechseln (beispielsweise sind Sie noch nicht bereit, vorhandene PSTN-Funktionen zu migrieren). Dieses Übergangsszenario wird zuerst als " [Besprechungen](meetings-first.md)" bezeichnet.
+Alternativ kann der Administrator zunächst nur die Besprechungsplanung in Teams verschieben, während er Chat-und Anruffunktionen in Skype for Business über den SfBWithTeamsCollabAndMeetings-Modus verlässt. In diesem Modus können Organisationen zu Teams für Besprechungen wechseln, wenn Benutzer noch nicht bereit sind, in den TeamsOnly-Modus zu wechseln (beispielsweise sind Sie noch nicht bereit, vorhandene PSTN-Funktionen zu migrieren). Dieses Übergangsszenario wird zuerst als " [Besprechungen](meetings-first.md)" bezeichnet.
 
 
 |Teams-Erfahrung  |Im SfBWithTeamsCollab-Modus |Im SfBWithTeamsCollabAndMeetings-Modus |Im TeamsOnly-Modus  |

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: a7e8cf5e6ed4329a617a7922d4c4380fb5593b7c
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350109"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583522"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 
@@ -52,10 +52,10 @@ Angenommen, Sie möchten alle Drittanbieter-apps blockieren und bestimmte apps v
 Wenn Sie die apps steuern möchten, die für unterschiedliche Benutzergruppen in Ihrer Organisation verfügbar sind, erstellen Sie eine oder mehrere benutzerdefinierte App-Berechtigungsrichtlinien, und weisen Sie diese zu. Sie können separate benutzerdefinierte Richtlinien erstellen und zuweisen, je nachdem, ob apps von Microsoft, Drittanbietern oder Ihrer Organisation veröffentlicht werden. Es ist wichtig zu wissen, dass Sie, nachdem Sie eine benutzerdefinierte Richtlinie erstellt haben, Sie nicht ändern können, wenn apps von Drittanbietern in den organisationsweiten App-Einstellungen deaktiviert sind.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps**-  >  **Berechtigungsrichtlinien**.
-2. Klicken Sie auf **Hinzufügen**.
+2. Klicken Sie auf **Hinzufügen**. <br>
     ![Screenshot der neuen App-Berechtigungsrichtlinie](media/app-permission-policies-new-policy.png)
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
-4. Wählen Sie unter **Microsoft-apps**, **Drittanbieter-apps**und **Mandanten-apps**eine der folgenden Optionen aus:
+4. Wählen Sie unter **Microsoft-apps**, **Drittanbieter-apps**und **benutzerdefinierte apps**eine der folgenden Optionen aus:
 
     - **Alle apps zulassen**
     - **Zulassen bestimmter apps und Blockieren aller anderen Personen**
@@ -65,10 +65,10 @@ Wenn Sie die apps steuern möchten, die für unterschiedliche Benutzergruppen in
 5. Wenn Sie **bestimmte apps zulassen und andere blockieren**ausgewählt haben, fügen Sie die apps hinzu, die Sie zulassen möchten:
 
     1. Wählen Sie **apps zulassen**aus.
-    1. Suchen Sie nach den apps, die Sie zulassen möchten, und klicken Sie dann auf **Hinzufügen**. Die Suchergebnisse werden nach dem App-Publisher (**Microsoft-apps**, **Drittanbieter-apps**oder **Mandanten-apps**) gefiltert.
-    1. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **zulassen**.
+    1. Suchen Sie nach den apps, die Sie zulassen möchten, und klicken Sie dann auf **Hinzufügen**. Die Suchergebnisse werden nach dem App-Publisher (**Microsoft-apps**, **Drittanbieter-apps**oder **benutzerdefinierte apps**) gefiltert.
+    1. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **zulassen**. 
 
-6. Wenn Sie **bestimmte apps blockieren und alle anderen Personen zulassen**ausgewählt haben, suchen Sie nach den apps, die Sie blockieren möchten, und fügen Sie Sie hinzu.
+6. Wenn Sie **bestimmte apps blockieren und alle anderen Personen zulassen**ausgewählt haben, suchen Sie nach den apps, die Sie blockieren möchten, und fügen Sie Sie hinzu, und klicken Sie dann auf **blockieren**.
 7. Klicken Sie auf **Speichern**.
 
 ## <a name="edit-an-app-permission-policy"></a>Bearbeiten einer APP-Berechtigungsrichtlinie
@@ -92,11 +92,11 @@ So weisen Sie einem Benutzer eine Richtlinie zu:
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Wählen Sie unter **App-Berechtigungsrichtlinie**die APP-Berechtigungsrichtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
 
-So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu:
+So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, suchen Sie nach den Benutzern, oder Filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
-2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Wenn Sie alle Benutzer auswählen möchten, klicken Sie oben in der Tabelle auf das &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf über **nehmen**.  
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
+3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.  
 
 Sie können auch die folgenden Schritte ausführen:
 
