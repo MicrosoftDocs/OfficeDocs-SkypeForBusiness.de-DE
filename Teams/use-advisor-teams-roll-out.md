@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (öffentliche Vorschau) als Hilfe bei der Planung und Durchführung Ihrer Bereitstellung von Microsoft Teams.
-ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139198"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637174"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -78,7 +78,7 @@ Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. We
 Jeder Plan umfasst eine Mandantenbereitschaftsbewertung, mit der Sie Mängel in Ihrer Umgebung erkennen und beheben können, bevor Sie Teams bereitstellen. Die Bewertungen umfassen Voraussetzungen und bewährte Methoden. Bei jedem Bewertungstest wird ein grünes Häkchen oder ein orangefarbenes Warndreieck angezeigt. 
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Ein grünes Häkchen bedeutet, dass der Mandant den spezifischen Test bestanden hat. 
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Ein orangefarbenes Warndreieck bedeutet, dass Sie nachforschen müssen, ob eine Maßnahme erforderlich ist (so empfiehlt sich beispielsweise eine Ablaufrichtlinie für Office 365-Gruppen, ist aber nicht erforderlich).
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Ein orangefarbenes Warndreieck bedeutet, dass Sie nachforschen müssen, ob eine Maßnahme erforderlich ist (so empfiehlt sich beispielsweise eine Ablaufrichtlinie für Microsoft 365-Gruppen, ist aber nicht erforderlich).
 
 > [!IMPORTANT]
 > Sobald ein Benutzer mit einer administrativen Rolle Advisor für Teams gestartet hat, werden alle Bewertungen im Hintergrund ausgeführt. Wenn Sie etwas aktualisieren oder korrigieren, kann es bis zu 24 Stunden dauern, bis es in ihren Bewertungen berücksichtigt wird. Dieser Zustand ist temporär – sobald Advisor für Teams den Status der öffentlichen Vorschau verlassen hat und allgemein verfügbar ist, werden die Bewertungen nahezu in Echtzeit aktualisiert.
@@ -102,8 +102,8 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Konfigurierte Benennungsrichtlinien für Office 365-Gruppen     |Ob Benennungsstandards für Microsoft 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie von Microsoft 365-Gruppen ermöglicht Ihrer Organisation die Anwendung einer konsistenten Benennungsstrategie auf von Benutzern erstellte Teams und gilt auch für andere Gruppenarbeitslasten (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über den Microsoft Graph ab, um die Existenz von Benennungsrichtlinien zu prüfen, die für Microsoft 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Konfigurierte Ablaufrichtlinien für Office 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Microsoft 365-Gruppen definiert wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Konfigurierte Benennungsrichtlinien für Microsoft 365-Gruppen     |Ob Benennungsstandards für Microsoft 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie von Microsoft 365-Gruppen ermöglicht Ihrer Organisation die Anwendung einer konsistenten Benennungsstrategie auf von Benutzern erstellte Teams und gilt auch für andere Gruppenarbeitslasten (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über den Microsoft Graph ab, um die Existenz von Benennungsrichtlinien zu prüfen, die für Microsoft 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Microsoft 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Konfigurierte Ablaufrichtlinien für Microsoft 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Microsoft 365-Gruppen definiert wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Microsoft 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Bewertungen für Besprechungen und Konferenzen
 

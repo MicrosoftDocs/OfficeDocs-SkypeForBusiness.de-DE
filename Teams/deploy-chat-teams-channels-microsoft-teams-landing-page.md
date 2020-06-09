@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041842"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637894"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -160,7 +160,7 @@ Teams wird als Teil vieler Office 365-Lizenzen angeboten. Weitere Informationen 
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilität von Exchange und SharePoint 
 
-Um den vollen Funktionsumfang von Teams zu nutzen, sollten alle Benutzer für Exchange Online, SharePoint Online und das Erstellen einer Office 365-Gruppe aktiviert sein. Die folgenden Artikel geben allgemeine Informationen zu Exchange-Postfächern wieder, die in verschiedenen Umgebungen gehostet sind, über die Interaktion von Exchange und Teams und ähnliche Überlegungen für SharePoint und OneDrive for Business. 
+Um den vollen Funktionsumfang von Teams zu nutzen, sollten alle Benutzer für Exchange Online, SharePoint Online und das Erstellen einer Microsoft 365-Gruppe aktiviert sein. Die folgenden Artikel geben allgemeine Informationen zu Exchange-Postfächern wieder, die in verschiedenen Umgebungen gehostet sind, über die Interaktion von Exchange und Teams und ähnliche Überlegungen für SharePoint und OneDrive for Business. 
 
 |Frage|Aktion |
 |------------|-------|

@@ -18,22 +18,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: bc5cc912a90320b7d7221fcd99df702020c69eaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042802"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638354"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
 > [!IMPORTANT]
-> Wenn Sie Microsoft Teams als Reaktion auf einen erhöhten Bedarf zur Unterstützung von **Remotearbeiten** schnell bereitstellen, verwenden Sie diesen Leitfaden für erste Schritte, um Teams in ihrer gesamten Organisation bereitzustellen. Dieser Leitfaden gilt auch dann, wenn Teams die erste Office 365-Arbeitsauslastung sind.
+> Wenn Sie Microsoft Teams als Reaktion auf einen erhöhten Bedarf zur Unterstützung von **Remotearbeiten** schnell bereitstellen, verwenden Sie diesen Leitfaden für erste Schritte, um Teams in ihrer gesamten Organisation bereitzustellen. Dieser Leitfaden gilt auch dann, wenn Teams die erste Microsoft 365- oder Office 365-Arbeitsauslastung sind.
 
 Um schnell in Microsoft Teams einzusteigen, empfehlen wir Ihnen, zwei oder drei Teams und Kanäle für eine ausgewählte Gruppe aufgeschlossener Benutzer zu erstellen. Indem Sie Teams zunächst nur im kleinen Maßstab bereitstellen, lernen Sie Teams in der Praxis kennen und erhalten wertvolle Einsichten in das Bereitstellen von Teams für Ihre gesamte Organisation. Wenn Sie in einem kleinen Unternehmen arbeiten, benötigen Sie nicht mehr als diesen Schnellstartleitfaden, um Teams in Ihrer gesamten Organisation bereitzustellen.
 
 
-Mithilfe von Teams können Sie schnell ein Team mit Personen innerhalb und außerhalb Ihrer Organisation zusammenstellen, mit anderen chatten, um schnelle und inklusive Unterhaltungen zu fördern, Dokumente auf sichere Weise teilen und gemeinsam verfassen sowie Projekte durcharbeiten. Passen Sie Teams an, indem Sie Zugriff auf gemeinsame Notizen, Webseiten und Apps mit einem Fingertipp hinzufügen. Verwenden Sie Besprechungen und Anrufe, um in Echtzeit zusammenzuarbeiten, unabhängig vom Aufenthaltsort der Benutzer. Teams erleichtert Ihren Zugang zu Office 365-Diensten und Apps von Drittanbietern und wird zum neuen Gravitationszentrum für Ihre Anforderungen an Zusammenarbeit und Kommunikation. Ermutigen Sie Ihre Early Adopter, die Desktop- und die mobile Anwendung zu installieren, damit sie die beste Erfahrung und Sie das genaueste Feedback erhalten.
+Mithilfe von Teams können Sie schnell ein Team mit Personen innerhalb und außerhalb Ihrer Organisation zusammenstellen, mit anderen chatten, um schnelle und inklusive Unterhaltungen zu fördern, Dokumente auf sichere Weise teilen und gemeinsam verfassen sowie Projekte durcharbeiten. Passen Sie Teams an, indem Sie Zugriff auf gemeinsame Notizen, Webseiten und Apps mit einem Fingertipp hinzufügen. Verwenden Sie Besprechungen und Anrufe, um in Echtzeit zusammenzuarbeiten, unabhängig vom Aufenthaltsort der Benutzer. Teams erleichtert Ihren Zugang zu Microsoft 365- oder Office 365-Diensten und Apps von Drittanbietern und wird zum neuen Gravitationszentrum für Ihre Anforderungen an Zusammenarbeit und Kommunikation. Ermutigen Sie Ihre Early Adopter, die Desktop- und die mobile Anwendung zu installieren, damit sie die beste Erfahrung und Sie das genaueste Feedback erhalten.
 
 ![Screenshot der Benutzeroberfläche des Desktops und des mobilen Clients](media/get-started-microsoft-teams.png "Screenshot der Benutzeroberfläche des Teams-Desktopclients und des mobilen Clients" ) 
 
@@ -50,10 +50,10 @@ Wenn Sie ein kleines Unternehmen sind oder wenn **Sie Teams schnell bereitstelle
 
 ## <a name="before-you-get-started"></a>Bevor Sie beginnen
 
-Wenn Sie sich auf Ihre Bereitstellung vom Teams vorbereiten möchten, müssen Sie die folgenden Schritte ausführen, egal, ob Teams Ihre erste Arbeitsauslastung ("Teams zuerst") oder die nächste Arbeitsauslastung in einer vorhandenen Office 365-Bereitstellung ist:
+Wenn Sie sich auf Ihre Bereitstellung vom Teams vorbereiten möchten, müssen Sie die folgenden Schritte ausführen, egal, ob Teams Ihre erste Arbeitsauslastung ("Teams zuerst") oder die nächste Arbeitsauslastung in einer vorhandenen Microsoft 365- oder Office 365-Bereitstellung ist:
 
 - [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
-    - Dies umfasst das Konfigurieren Ihrer Office 365-Domäne, SharePoint Online, Exchange Online und OneDrive for Business.
+    - Dies umfasst das Konfigurieren Ihrer Microsoft 365- oder Office 365-Domäne, SharePoint Online, Exchange Online und OneDrive for Business.
 
 - Holen Sie Teams-Lizenzen für alle Benutzer. Schauen Sie sich [Teams-Pläne](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) und [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) an.
 
@@ -65,7 +65,7 @@ Wenn Sie sich auf Ihre Bereitstellung vom Teams vorbereiten möchten, müssen Si
    - [Planen der Hybridkonnektivität zwischen Skype for Business Server und Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-   > Wenn Ihre Organisation einen lokalen Skype for Business-Server (oder Lync-Server) ausführt, müssen Sie [Azure AD Connect konfigurieren](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect), um Ihr lokales Verzeichnis mit Office 365 zu synchronisieren. 
+   > Wenn Ihre Organisation einen lokalen Skype for Business-Server (oder Lync-Server) ausführt, müssen Sie [Azure AD Connect konfigurieren](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect), um Ihr lokales Verzeichnis mit Microsoft 365 oder Office 365 zu synchronisieren. 
 
 
 ## <a name="next-steps"></a>Nächste Schritte

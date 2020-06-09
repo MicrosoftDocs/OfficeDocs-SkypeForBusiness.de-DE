@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 928f761626f51c2c717e046ad2f3aac49161b4cd
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778441"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638374"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen von Nutzung und Feedback in Microsoft Teams
 Es ist wichtig zu wissen, wie Benutzer Microsoft Teams verwenden und welche Erfahrungen sie dabei machen. Mithilfe von Nutzungsberichten können Sie Nutzungsmuster besser verstehen. In Kombination mit Feedback von Benutzern gelangen Sie so zu Einsichten, die Sie Ihrer weiteren Bereitstellung zugrunde legen und zur Priorisierung von Schulungs- und Kommunikationsinitiativen verwenden können.
@@ -38,7 +38,7 @@ Erfahren Sie hier, wie Sie an Berichte zur Überprüfung der Nutzung von Microso
 
 Teams-Berichte im Microsoft Teams Admin Center geben Ihnen Einblick in die Verwendung von Microsoft Teams in Ihrer Organisation. Nutzen Sie die Berichte, um einen Einblick in die Verwendung von Microsoft Teams, die Benutzeraktivitäten und die Gerätenutzung innerhalb Ihrer Organisation zu erhalten. 
 
-Um diese Berichte anzuzeigen, müssen Sie ein globaler Administrator in Office 365, ein Teams-Dienstadministrator oder ein Skype for Business-Administrator sein. Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analytics & reports** (Analysen und Berichte) und dann unter **Report** (Bericht) den Bericht aus, den Sie ausführen möchten.
+Um diese Berichte anzuzeigen, müssen Sie ein globaler Administrator in Microsoft 365 oder Office 365, ein Teams-Dienstadministrator oder ein Skype for Business-Administrator sein. Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analysen und Berichte** und dann unter **Bericht** den Bericht aus, den Sie ausführen möchten.
 
 - **Teams usage report** (Teams-Nutzungsbericht): Dieser Bericht gibt Ihnen eine Übersicht zu den Nutzungsaktivitäten in Teams, einschließlich der Gesamtzahl der aktiven Benutzer und Kanäle und der Anzahl der aktiven Benutzer und Kanäle, Gäste und Nachrichten in den einzelnen Teams. 
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Verwenden von Aktivitätsberichten für 
 
 ### <a name="microsoft-365-usage-analytics"></a>Analysen zur Anwendung von Microsoft 365
 
-Sie können die Analysen zur Anwendung von Microsoft 365 in Power BI verwenden, um Nutzungsdaten für Teams und andere Office 365-Produkte und -Dienste anzuzeigen und zu analysieren. Die Analysen zur Anwendung von Microsoft 365 stellen ein Inhaltspaket dar, das ein vorkonfiguriertes Dashboard und eine Reihe vordefinierter Berichte enthält. Jeder Bericht gibt Ihnen spezifische Nutzungsdaten und Einblicke an die Hand. Um eine Verbindung mit dem Inhaltspaket herzustellen, benötigen Sie Power BI und müssen ein globaler Administrator in Office 365 oder ein Benutzer mit Leseberechtigung für Berichte sein. Wenn Sie noch nicht über Power BI verfügen, [registrieren Sie sich für den kostenlosen Power BI-Dienst](https://powerbi.microsoft.com). 
+Sie können die Analysen zur Anwendung von Microsoft 365 in Power BI verwenden, um Nutzungsdaten für Teams und andere Microsoft 365- oder Office 365-Produkte und -Dienste anzuzeigen und zu analysieren. Die Analysen zur Anwendung von Microsoft 365 stellen ein Inhaltspaket dar, das ein vorkonfiguriertes Dashboard und eine Reihe vordefinierter Berichte enthält. Jeder Bericht gibt Ihnen spezifische Nutzungsdaten und Einblicke an die Hand. Um eine Verbindung mit dem Inhaltspaket herzustellen, benötigen Sie Power BI und müssen ein globaler Administrator in Microsoft 365, Office 365 oder ein Benutzer mit Leseberechtigung für Berichte sein. Wenn Sie noch nicht über Power BI verfügen, [registrieren Sie sich für den kostenlosen Power BI-Dienst](https://powerbi.microsoft.com). 
 
 Weitere Informationen finden Sie unter [Analysen zur Anwendung von Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
 

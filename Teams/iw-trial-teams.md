@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042792"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638774"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -55,7 +55,7 @@ Die Testversion gewährt ein 1-Jahres-Testabonnement für Ihre gesamte Organisat
 
 Benutzern muss (im Microsoft 365 Admin Center) die Möglichkeit bereitgestellt werden, sich für Apps und Testversionen zu registrieren. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [Verwalten der Testversion](#manage-the-trial). 
 
-Benutzer, die keine Office 365-Lizenz besitzen, können das Angebot für einen Test der kommerziellen Cloud von Microsoft Teams in Anspruch nehmen. Wenn ein Benutzer beispielsweise über Microsoft 365 Apps for Business verfügt (was Teams nicht einschließt), ist er zu der Testversion berechtigt.
+Benutzer, die keine Microsoft 365-- oder Office 365-Lizenz besitzen, können das Angebot für einen Test der kommerziellen Cloud von Microsoft Teams in Anspruch nehmen. Wenn ein Benutzer beispielsweise über Microsoft 365 Apps for Business verfügt (was Teams nicht einschließt), ist er zu der Testversion berechtigt.
 
 ## <a name="who-is-not-eligible"></a>Wer ist nicht berechtigt?
 
@@ -148,6 +148,6 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](http
 
 Ab dem 22. April 2019 können Benutzer damit beginnen, die neueste Microsoft Teams Commercial Cloud-Testlizenz anzufordern. Wenn Sie mit Benutzern in Ihrer Organisation von der Legacy-Testlizenz auf die neueste Testversion umsteigen möchten, müssen Sie zuerst die alte Microsoft Teams-Testlizenz für jeden Benutzer entfernen. Nach dem Entfernen der Legacy-Lizenz kann jeder betroffene Benutzer die aktualisierte Microsoft Teams Commercial Cloud-Testlizenz anfordern.
 
-- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
+- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Microsoft 365 oder Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
 
-- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Entfernen von Lizenzen von Benutzern in Office 365 Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Entfernen von Lizenzen von Benutzern](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).

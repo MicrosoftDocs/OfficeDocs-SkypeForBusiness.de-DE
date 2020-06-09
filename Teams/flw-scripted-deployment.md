@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227559"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638384"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -315,7 +315,7 @@ Um diese Benutzer effektiver verwalten zu können, müssen Sie je eine Sicherhei
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>Benutzern Lizenzen über eine gruppenbasierte Lizenzierung zuweisen
 
-Kostenpflichtige Microsoft Cloud-Dienste wie Office 365, Enterprise Mobility + Security, Dynamics 365 und andere ähnliche Produkte benötigen Lizenzen. Diese Lizenzen werden jedem Benutzer zugewiesen, der Zugriff auf diese Dienste benötigt. Zum Verwalten von Lizenzen verwenden Administratoren eines der Verwaltungsportale (Office oder Azure) sowie PowerShell-Cmdlets. Azure Active Directory (Azure AD) ist die zugrunde liegende Infrastruktur, die die Identitätsverwaltung für alle Microsoft Cloud-Dienste unterstützt. Azure AD speichert Informationen zum Lizenzzuordnungsstatus für Benutzer.
+Kostenpflichtige Microsoft Cloud-Dienste wie Microsoft 365, Office 365, Enterprise Mobility + Security, Dynamics 365 und andere ähnliche Produkte benötigen Lizenzen. Diese Lizenzen werden jedem Benutzer zugewiesen, der Zugriff auf diese Dienste benötigt. Zum Verwalten von Lizenzen verwenden Administratoren eines der Verwaltungsportale (Office oder Azure) sowie PowerShell-Cmdlets. Azure Active Directory (Azure AD) ist die zugrunde liegende Infrastruktur, die die Identitätsverwaltung für alle Microsoft Cloud-Dienste unterstützt. Azure AD speichert Informationen zum Lizenzzuordnungsstatus für Benutzer.
 
 Um die Lizenzierung in großem Maßstab zu ermöglichen, umfasst Azure AD jetzt die Option der gruppenbasierten Lizenzierung, und aus diesem Grund haben wir die Sicherheitsgruppen weiter oben in diesem Artikel erstellt. Sie können einer Gruppe eine oder mehrere Produktlizenzen zuweisen. Azure AD stellt sicher, dass die Lizenzen allen Mitgliedern der Gruppe zugewiesen werden. Allen neuen Mitgliedern, die der Gruppe beitreten, werden die entsprechenden Lizenzen zugewiesen. Die Lizenzen für Mitgliedern, die die Gruppe verlassen, werden wieder entfernt. Dank dieser Lizenzierungsverwaltung ist es nicht mehr erforderlich, die Lizenzverwaltung über PowerShell so zu automatisieren, dass Änderungen in der Organisations-und Abteilungsstruktur auf Benutzerbasis berücksichtigt werden.
 

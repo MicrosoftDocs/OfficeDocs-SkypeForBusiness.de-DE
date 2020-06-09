@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Umfassender Leitfaden für das Migrieren von Slack auf Microsoft Teams.
-ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506876"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638644"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrieren von Slack auf Microsoft Teams
 
@@ -79,12 +79,12 @@ Für das Exportieren von Direktnachrichten können Sie im Slack App Store Tools,
 
 Apps in Slack sind wie Apps in Teams. Sobald Sie eine Liste von Apps und deren Konfigurationen im Arbeitsbereich haben, können Sie im Team App Store nachsehen, ob sie für Teams* verfügbar sind. 
 
-Besuchen Sie <your Slack workspace>.slack.com/apps/manage, um eine Liste der Apps und benutzerdefinierten Integrationen zu erhalten. Diese Seite zeigt Ihnen auch die Anzahl der Konfigurationen, in denen jede App verwendet wird. Benutzerdefinierte Integrationen unterscheiden sich in ihrer „Migrationsfähigkeit“. Wenn es sich um einen Webhook handelt, können Sie ihn normalerweise an einen Office 365-Connector senden, um den Workflow in Teams zu überführen. Bewerten Sie Bots und andere Apps von Fall zu Fall, um sie in Teams zu verschieben.
+Besuchen Sie <your Slack workspace>.slack.com/apps/manage, um eine Liste der Apps und benutzerdefinierten Integrationen zu erhalten. Diese Seite zeigt Ihnen auch die Anzahl der Konfigurationen, in denen jede App verwendet wird. Benutzerdefinierte Integrationen unterscheiden sich in ihrer „Migrationsfähigkeit“. Wenn es sich um einen Webhook handelt, können Sie ihn normalerweise an einen Microsoft 365- oder Office 365-Connector senden, um den Workflow in Teams zu überführen. Bewerten Sie Bots und andere Apps von Fall zu Fall, um sie in Teams zu verschieben.
 
 \* Wenn Ihr Administrator die Nutzung von Apps eingeschränkt hat, werden Sie möglicherweise nicht die vollständige Liste der verfügbaren Apps sehen.
 
 ### <a name="users"></a>Benutzer
-Die Identitätsschemas, die Sie in Slack verwendet haben, werden möglicherweise nicht direkt zu Office 365 zugeordnet. So können beispielsweise die E-Mail-Adressen Ihrer Slack-Benutzer nicht zu den Arbeits- oder Schulkonten von Office 365 zugeordnet werden. Sie sollten eine Benutzer-ID-Zuordnung erstellen, bevor Sie mit der Planung des Rollouts Ihres Teams beginnen.
+Die Identitätsschemas, die Sie in Slack verwendet haben, werden möglicherweise nicht direkt zu Microsoft 365 oder Office 365 zugeordnet. So können beispielsweise die E-Mail-Adressen Ihrer Slack-Benutzer nicht zu den Geschäfts-, Schul oder Unikonten von Microsoft 365 oder Office 365 zugeordnet werden. Sie sollten eine Benutzer-ID-Zuordnung erstellen, bevor Sie mit der Planung des Rollouts Ihres Teams beginnen.
 
 Wenn Sie einen kostenpflichtigen Slack-Serviceplan haben, besuchen Sie *<your Slack workspace>.slack.com/admin/stats#members*, um Mitgliederdaten wie E-Mail-Adresse und Kontotyp für jeden Benutzer (z. B. Einzel- oder Mehrkanalgast) zu erhalten.
 
@@ -335,7 +335,7 @@ Um herauszufinden, welche Apps zu Teams hinzugefügt werden sollen, ist es wicht
 
 In vielen Fällen empfangen Apps in erster Linie ereignisgesteuerte Daten von einem externen Dienst (z. B. Überwachungssystem) und schieben eine Nachricht in den Slack. Sie können das gleiche Ergebnis erzielen, indem Sie einen Microsoft 365-Connector verwenden, der Nachrichten basierend auf Ereignissen in Teams verschieben kann.
 
-Nachfolgend finden Sie Beispiele für Slack-Lösungen, bei denen in Teams ein Office 365-Connector zur Integration verwendet wurde.
+Nachfolgend finden Sie Beispiele für Slack-Lösungen, bei denen in Teams ein Microsoft 365-Connector zur Integration verwendet wurde.
 - Ansible
   - Benachrichtigungen können über [Ansible-Webhook](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook) an Teams gesendet werden
 - New Relic
