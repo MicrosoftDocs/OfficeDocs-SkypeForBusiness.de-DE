@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Ein Office 365-Administrator kann die Einstellungen für die Audiokonferenz von Teams bearbeiten, einschließlich Anbieter, Standardgebühren pflichtige oder gebührenfreie Nummer, Konferenz-ID oder PIN für einen Benutzer.
-ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Ein Microsoft 365-oder Office 365-Administrator kann die Einstellungen für die Audiokonferenz von Teams bearbeiten, einschließlich Anbieter, Standardgebühren pflichtige oder gebührenfreie Nummer, Konferenz-ID oder PIN für einen Benutzer.
+ms.openlocfilehash: 33d241e9758bab2b52e342cab2ec157dafb73275
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137145"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638474"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Verwalten der Audiokonferenzeinstellungen für einen Benutzer in Microsoft Teams
 
-Sie können als ein Office 365-Administrator die Audiokonferenzeinstellungen – wie z.B. der Anbieter, gebührenpflichtige oder gebührenfreie Telefonnummer als Standard, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie die Einstellungen für Ihre Organisation bearbeiten möchten, lesen Sie [Verwalten der Einstellungen für die Audiokonferenz für Ihre Organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+Als Microsoft 365-oder Office 365-Administrator können Sie die audiokonferenzeinstellungen wie den Anbieter, die standardmäßige gebührenpflichtige oder gebührenfreie Nummer, Konferenz-ID oder PIN für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie die Einstellungen für Ihre Organisation bearbeiten möchten, lesen Sie [Verwalten der Einstellungen für die Audiokonferenz für Ihre Organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Symbol, das das Microsoft Teams-Logo zeigt](media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 

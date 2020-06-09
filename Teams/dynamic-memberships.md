@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Erfahren Sie, wie Microsoft Teams mithilfe der dynamischen Mitgliedschaft Teams unterstützt, die mit Office 365-Gruppen verknüpft sind.
+description: Erfahren Sie, wie Microsoft Teams mithilfe der dynamischen Mitgliedschaft Teams unterstützt, die Microsoft 365-Gruppen zugeordnet sind.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905797"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638404"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über dynamische Mitgliedschaft für Teams
 
@@ -35,7 +35,7 @@ Mit der dynamischen Mitgliedschaft können Sie Teams für bestimmte Kohorten von
 
 Mithilfe dieser Funktion werden die Mitglieder eines bestimmten Teams automatisch basierend auf einem bestimmten Satz von Kriterien aktualisiert, anstatt die Mitgliedschaft manuell zu verwalten. Hierfür sind Azure AD Premium P1-Lizenzen erforderlich, und die Teammitgliedschaft kann [von einem mandantenadministrator](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) für die Azure AD-Eigenschaften jedes Benutzers zugewiesen werden, vorausgesetzt, Sie verfügen über einen Mandanten und ein Administratorkonto.
 
-Microsoft Teams kann zwischen ein paar Minuten und bis zu zwei Stunden dauern, um dynamische Mitgliedschaftsänderungen wiederzugeben, sobald Sie in der Office 365-Gruppe für ein Team wirksam werden.
+Microsoft Teams kann zwischen ein paar Minuten und bis zu zwei Stunden dauern, um dynamische Mitgliedschaftsänderungen wiederzugeben, sobald Sie in der Microsoft 365-Gruppe für ein Team wirksam werden.
 
 > [!NOTE]
 > - Regeln können definieren, wer ein Teammitglied ist, aber nicht, wer ein Teambesitzer ist.
@@ -44,7 +44,7 @@ Microsoft Teams kann zwischen ein paar Minuten und bis zu zwei Stunden dauern, u
 > -    Mitglieder können Teams nicht von dynamischen Gruppen zurücklassen.
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Erstellen und Verwalten einer Office 365-Gruppe mit dynamischer Mitgliedschaft
+## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Erstellen und Verwalten einer Microsoft 365-Gruppe mit dynamischer Mitgliedschaft
 Wenn Sie als mandantenadministrator angemeldet sind, folgen Sie den Anweisungen unter [Erstellen einer dynamischen Gruppe und Überprüfen des Status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Beziehen Sie sich bei Bedarf auf [Dynamische Mitgliedschaftsregeln für Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Erstellen eines neuen Teams mit Ihrer Office 365-Gruppe

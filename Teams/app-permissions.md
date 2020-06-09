@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256480"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611014"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -140,7 +140,7 @@ Keine (derzeit)
 
 - Das Risikoprofil einer Registerkarte ist nahezu identisch mit der Website, die auf einer Browserregister Karte ausgeführt wird. 
 
-- Eine Registerkarte ruft auch den Kontext ab, in dem Sie ausgeführt wird, darunter den Anmeldenamen und den UPN des aktuellen Benutzers, die Azure AD-Objekt-ID für den aktuellen Benutzer, die ID der Office 365-Gruppe, in der Sie sich befindet (sofern es sich um ein Team handelt), die Mandanten-ID und das aktuelle Gebietsschema des Benutzers. Damit diese IDs jedoch den Informationen eines Benutzers zugeordnet werden können, muss sich der Benutzer bei Azure AD anmelden.
+- Eine Registerkarte ruft auch den Kontext ab, in dem Sie ausgeführt wird, darunter den Anmeldenamen und den UPN des aktuellen Benutzers, die Azure AD-Objekt-ID für den aktuellen Benutzer, die ID der Microsoft 365-Gruppe, in der Sie sich befindet (sofern es sich um ein Team handelt), die Mandanten-ID und das aktuelle Gebietsschema des Benutzers. Damit diese IDs jedoch den Informationen eines Benutzers zugeordnet werden können, muss sich der Benutzer bei Azure AD anmelden.
 
 ## <a name="connectors"></a>Connectors
 

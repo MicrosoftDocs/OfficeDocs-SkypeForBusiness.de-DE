@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Suchen der Sprache für Einwahlkonferenzen für die einzelnen Länder oder Regionen und die zugewiesene Kultur-ID (en-US, da-DK, de-de usw.)
-ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2718db11c905678a49650ad41f851e8f6e4e393c
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826223"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610294"
 ---
 # <a name="audio-conferencing-supported-languages"></a>In Audiokonferenzen unterstützte Sprachen
 
-Beim Einrichten und Konfigurieren von Audiokonferenzen in Office 365 können Sie die primären und sekundären (bis zu 4) Sprachen auswählen, die verwendet werden, wenn sich Anrufer in eine Skype for Business-oder Microsoft Teams-Besprechung einwählen. Nachfolgend finden Sie eine Liste der unterstützten Sprachen für Audiokonferenzen: 
+Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 einrichten und konfigurieren, können Sie die primären und sekundären (bis zu 4) Sprachen auswählen, die verwendet werden, wenn sich Anrufer in eine Skype for Business-oder Microsoft Teams-Besprechung einwählen. Nachfolgend finden Sie eine Liste der unterstützten Sprachen für Audiokonferenzen: 
   
 > [!IMPORTANT]
 > Primäre und sekundäre Sprachen können nur für dedizierte Audiokonferenz-Telefonnummern geändert werden. 
@@ -93,11 +93,11 @@ Wenn Sie nach bestimmten Ländern oder Regionen suchen, die über Telefonnummern
 
 - Um Zeit zu sparen oder diese zu automatisieren, können Sie die Cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) oder [CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) verwenden.
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe einer zentralen Verwaltungsstelle verwalten, die Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Änderungen an den Einstellungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
@@ -112,6 +112,6 @@ Wenn Sie nach bestimmten Ländern oder Regionen suchen, die über Telefonnummern
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

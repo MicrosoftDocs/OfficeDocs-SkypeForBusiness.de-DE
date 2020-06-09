@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen
+title: Hinzufügen und Verwalten von Guthaben für Kommunikationen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Hier erfahren Sie, wie Sie für Skype for Business-Dienste für Kommunikations Kredite (PSTN-Verbrauch) Zahlen und Pläne sehen, wie Sie Ihre Nutzer mit einem kontinuierlichen Zugriff auf das Telefonsystem schützen können. '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827213"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610279"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen
+# <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen und Verwalten von Guthaben für Kommunikationen
 
-Kommunikationsguthaben sind eine bequeme Möglichkeit, für Telefon System-und Anrufpläne in Office 365 zu zahlen. Kommunikationsguthaben sorgt dafür, dass Sie und Ihre Benutzer nie gefangen werden, ohne dass Sie Folgendes tun können:
+Kommunikationsguthaben sind eine bequeme Möglichkeit, für Telefon System-und Anrufpläne in Microsoft 365 oder Office 365 zu zahlen. Kommunikationsguthaben sorgt dafür, dass Sie und Ihre Benutzer nie gefangen werden, ohne dass Sie Folgendes tun können:
   
 - Sie können sich über gebührenfreie Einwahlnummern in Audiokonferenz-Besprechungen einwählen.
     
@@ -76,7 +76,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefon System Pläne](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Sie können Informationen auch anzeigen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs** > **Abonnements** > Abonnements**Hinzufügen**wechseln.
+Sie können Informationen auch anzeigen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs**  >  **Abonnements**Abonnements  >  **Hinzufügen**wechseln.
   
 Eine Tabelle mit den Lizenzen, die für die einzelnen Features benötigt werden, finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -84,9 +84,9 @@ Eine Tabelle mit den Lizenzen, die für die einzelnen Features benötigt werden,
 
 - [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Einrichten von Cloudvoicemail – Admin-Hilfe](set-up-phone-system-voicemail.md)
+- [Einrichten von Cloud-Voicemail – Administratorhilfe](set-up-phone-system-voicemail.md)
     
-- [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufpläne für Office 365](calling-plans-for-office-365.md)
+- [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufplänen für Microsoft 365 oder Office 365](calling-plans-for-office-365.md)
         
  
  

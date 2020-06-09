@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Mit der Anruf Freigabe und der Gruppenanruf-Pickup können Benutzer eingehende Anrufe an Kollegen weiterleiten, damit Anrufe aufgenommen werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 0e21f8ec8b9d913568b87a41b70261ac917260e2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042952"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638854"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -47,7 +47,7 @@ Für Benutzer muss Enterprise-VoIP aktiviert sein, um die Anruf Freigabe und die
 
 ## <a name="configure-group-call-pickup"></a>Konfigurieren der Gruppenanruf Abholung
 
-Um die Gruppenanruf Abholung einzurichten, konfiguriert ein Benutzer zuerst eine anrufgruppe (Dies ist nicht dasselbe wie eine Sicherheitsgruppe oder eine Office 365-Gruppe) und fügt dann die Benutzer hinzu, für die Sie Ihre Anrufe freigeben möchten. Dann wählen Sie eine gleichzeitige Klingel-oder Anruf Weiterleitungseinstellung. Weitere Informationen und schrittweise Anleitungen finden Sie unter [Anrufweiterleitung und gleichzeitiges anrufen in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Um die Gruppenanruf Abholung einzurichten, konfiguriert ein Benutzer zuerst eine anrufgruppe (Dies ist nicht dasselbe wie eine Sicherheitsgruppe oder eine Microsoft 365-Gruppe) und fügt dann die Benutzer hinzu, für die Sie Ihre Anrufe freigeben möchten. Dann wählen Sie eine gleichzeitige Klingel-oder Anruf Weiterleitungseinstellung. Weitere Informationen und schrittweise Anleitungen finden Sie unter [Anrufweiterleitung und gleichzeitiges anrufen in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 Anrufgruppen Erstellung und Benachrichtigungseinstellungen sind benutzergesteuerte Funktionen. Administratoren müssen diese Features nicht für Ihre Benutzer konfigurieren. Anrufgruppen können nicht aus Sicherheitsgruppen oder Microsoft 365-Gruppen erstellt werden. Sie müssen in Teams erstellt werden.
 

@@ -17,79 +17,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a091c3b3c93f6b3769c538b74c17b4235a09a5
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 5ba2118defb86ac6b957ac181c9a02afc5eed82f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079398"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610278"
 ---
 # <a name="shifts-for-teams"></a>Schichten für Teams
 
 Teams bietet First-work-Mitarbeitern in Ihrer Organisation die Tools, die Sie benötigen, um effizient zu kommunizieren und zusammenzuarbeiten und Ihre beste Arbeit zu leisten. Hier finden Sie die Administrator Anleitungen, die Sie zum Einrichten und Verwalten von Schichten, dem Tool zur Zeitplanverwaltung, in Teams benötigen.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Wechseln von StaffHub zu Schichten in Teams
-
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Informationen zu StaffHub Pensionierung und dem Übergang zu Schichten in Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Planen des Verschiebens Ihrer StaffHub-Teams in Shifts in Microsoft Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Verschieben Ihrer StaffHub-Teams in die Schichten in Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-
-</ul>
-
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Einrichten und Verwalten von Schichten für Ihre Organisation
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -120,6 +61,68 @@ Teams bietet First-work-Mitarbeitern in Ihrer Organisation die Tools, die Sie be
                     </div>
                     <div class="cardText">
                         <h3>Hilfe zur Schichten-App für Mitarbeiter in Service und Produktion</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+### <a name="shifts-extensions"></a>Verschiebt Erweiterungen
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Schicht Diagramm-APIs</h3>
+                        <p>Mit Schicht Diagramm-APIs können Sie schichtdaten mit externen Workforce-Management-Systemen integrieren, die Ihnen die Flexibilität bieten, benutzerdefinierte Schicht Erfahrungen im Back-End zu erstellen, während Sie den Benutzern eine umfassende Front-End-Oberfläche in Microsoft Teams bieten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Workforce-Management-Integrationen</h3>
+                        <p>Wenn Sie Personalmanagementsysteme von Drittanbietern wie Kronos und JDA verwenden, können Sie für die Planung, den Zeitaufwand und die Anwesenheitsanzeige direkt in Schichten mit Schicht Diagramm-APIs und SDK mit Open-Source-Integrationen integriert werden.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Schichten + Power Automation</h3>
+                        <p>Mit Schichten + Power Automation können Sie Informationen aus Schichten erstellen und benutzerdefinierte Workflows mit anderen apps erstellen und Vorgänge im Maßstab durchführen. Automatisieren Sie wichtige Prozesse mit wenig bis gar keinem Code. Die Trigger und Vorlagen unterstützen eine Vielzahl von Szenarien wie das Aktivieren von automatischen Genehmigungen für Schicht Anforderungen, wenn die Genehmigung eines Managers nicht erforderlich ist.</p>
                     </div>
                 </div>
             </div>

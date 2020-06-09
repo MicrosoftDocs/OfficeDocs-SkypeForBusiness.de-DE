@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Verwenden Sie Onboarding-Checklisten, um Office 365 für Teams vorzubereiten und die Kernfunktionen von Teams, Netzwerke und Cloud-VoIP-Workloads zu konfigurieren.
+description: Verwenden Sie Onboarding-Checklisten, um Microsoft 365 oder Office 365 für Teams vorzubereiten und die Kernfunktionen von Teams, Netzwerke und Cloud-VoIP-Workloads zu konfigurieren.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137995"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610067"
 ---
 # <a name="prepare-my-service"></a>Vorbereiten des Diensts
 
@@ -34,7 +34,7 @@ Dieser Artikel enthält eine Übersicht über die Anforderungen für das Vorbere
 
 Die folgenden Checklisten führen Sie durch die Schritte zum Implementieren von Audiokonferenzen, Telefonsystemen mit Anrufplänen ("Anrufpläne") und von Telefonsystem-direkt Routing ("Direct Routing") in Microsoft Teams.
 
-*  [Vorbereiten von Office 365 für Teams](onboarding-checklist-enable-office-365.md)
+*  [Vorbereiten von Microsoft 365 oder Office 365 für Teams](onboarding-checklist-enable-office-365.md)
 
 *  [Konfigurieren der Kernfunktionen von Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

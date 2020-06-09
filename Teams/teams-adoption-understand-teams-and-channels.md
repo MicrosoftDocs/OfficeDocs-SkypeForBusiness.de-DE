@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 736ed72a4f4aacd41ed2db746976a9ff848aa74e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350299"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638544"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
 Die Konzepte von Teams und Kanälen sind grundlegend für eine gesunde, produktive Implementierung von Microsoft Teams. 
 
-- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert.
+- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Microsoft 365-Gruppen und Änderungen an Microsoft 365-Gruppenmitgliedschaften, die mit dem Team synchronisiert werden.
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in dem die eigentliche Arbeit abgeschlossen ist. 
 

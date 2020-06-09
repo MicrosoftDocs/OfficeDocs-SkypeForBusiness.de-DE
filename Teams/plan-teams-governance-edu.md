@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 631d41d15eb727a9b9919e56720238189159f669
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780214"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638915"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren
 
@@ -35,7 +35,7 @@ Sie können die Benennungsrichtlinie für Microsoft 365-Gruppen verwenden, um un
 
 -   **Präfix-Suffix-Benennungsrichtlinie** Sie können Präfixe oder Suffixe verwenden, um die Benennungskonvention von Teams (Gruppen) zu definieren, beispielsweise **GRP_US_My Group_Engineering**. Bei den Präfixen und Suffixen kann es sich um feste Zeichenfolgen oder Benutzerattribute (wie **[Department]**) handeln, die dem Namen auf der Grundlage des Benutzers hinzugefügt werden, der das Team erstellt.
 -   **Benutzerdefinierte blockierte Wörter** Sie können eine Reihe von Wörtern hochladen, die für Benutzer in einer bestimmten Organisation in den Namen der von Ihnen erstellten Teams gesperrt sind. So können Sie beispielsweise verhindern, dass die Begriffe **CEO**, **Payroll**und **HR** in Teamnamen für Gruppen verwendet werden, auf die Sie nicht zutreffen.
--   **Klassifizierung** Sie können Klassifizierungen erstellen, die die Benutzer in Ihrer Organisation festlegen können, wenn Sie eine Office 365-Gruppe erstellen. 
+-   **Klassifizierung** Sie können Klassifizierungen erstellen, die die Benutzer in Ihrer Organisation festlegen können, wenn Sie eine Microsoft 365-Gruppe erstellen. 
 
 > [!IMPORTANT]
 > Bei Verwendung der Microsoft 365 Groups-Benennungsrichtlinie sind Azure Active Directory Premium P1-Lizenzen oder Azure AD Basic edu-Lizenzen für jeden eindeutigen Benutzer erforderlich, der Mitglied einer oder mehrerer Microsoft 365-Gruppen ist.
@@ -66,14 +66,14 @@ Zu Beginn jedes Semesters oder Quartals benötigen Sie eine Reihe neuer Teams. E
 -   Sie können die Microsoft Graph-API (derzeit in Beta) verwenden, um Teams zu erstellen, zu konfigurieren, zu klonen und zu archivieren. Weitere Informationen finden Sie unter [Verwenden der Microsoft Graph-API für die Zusammenarbeit mit Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) .
 
 > [!TIP]
-> School Data Sync erstellt eine Office 365-Gruppe für jede synchronisierte Klasse und [ermöglicht eine versteckte Gruppenmitgliedschaft](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) , sodass nur Lehrer und Schüler innerhalb der Klasse die Mitglieder dieser Klasse sehen können. Wenn Sie zum Erstellen von Klassen Gruppen einen anderen Prozess verwenden, verwenden Sie den HiddenGroupMembershipEnabled-Parameter des Cmdlets New-Unifiedgroup, um dieselben Datenschutzanforderungen zu erfüllen.
+> School Data Sync erstellt eine Microsoft 365-Gruppe für jede synchronisierte Klasse und [ermöglicht eine versteckte Gruppenmitgliedschaft](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) , sodass nur Lehrer und Schüler innerhalb der Klasse die Mitglieder dieser Klasse sehen können. Wenn Sie zum Erstellen von Klassen Gruppen einen anderen Prozess verwenden, verwenden Sie den HiddenGroupMembershipEnabled-Parameter des Cmdlets New-Unifiedgroup, um dieselben Datenschutzanforderungen zu erfüllen.
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Wie behandele ich Teams, wenn das Semester oder das Quartal endet?
 
 Wir empfehlen, dass Sie sich zunächst überlegen, wie Sie mit den Team Daten umgehen möchten, wenn das Schuljahr oder-Quartal abgelaufen ist: ob Sie es löschen oder für Schüler verfügbar halten möchten, auch wenn Sie den Kurs abgeschlossen haben. Sie sollten den Schulkalender berücksichtigen, damit die von Ihnen gesetzten Richtlinien nicht mit Feiertagen in Konflikt stehen. Sie können die folgenden Tools verwenden, um Ihre Strategie zu implementieren:
 
 -   **Aufbewahrungsrichtlinie:** Verwenden Sie diese Funktion, um alle Daten zu löschen, die älter als ein von Ihnen festgelegtes Alter sind, um sicherzustellen, dass alte Daten aus Chats (für alle oder einige Benutzer) und Kanäle entfernt werden. Sie können auch Teams so konfigurieren, dass Inhalte aufbewahrt werden, damit Sie nicht gelöscht werden können. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien für Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
--   **Ablaufrichtlinien:** Konfigurieren Sie Teams so, dass Sie nach einer bestimmten Anzahl von Tagen ablaufen. Dreißig Tage vor Ablauf werden alle Besitzer eines Teams benachrichtigt, dass Ihr Team erneuert werden muss, andernfalls wird es gelöscht (obwohl ein Administrator gelöschte Teams für weitere 30 Tage wiederherstellen kann). Diese Einstellung ist sehr hilfreich, wenn Sie sicherstellen möchten, dass ungenutzte Teams nicht verwendet werden. Weitere Informationen finden Sie unter [Office 365-Gruppen Ablaufrichtlinien](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+-   **Ablaufrichtlinien:** Konfigurieren Sie Teams so, dass Sie nach einer bestimmten Anzahl von Tagen ablaufen. Dreißig Tage vor Ablauf werden alle Besitzer eines Teams benachrichtigt, dass Ihr Team erneuert werden muss, andernfalls wird es gelöscht (obwohl ein Administrator gelöschte Teams für weitere 30 Tage wiederherstellen kann). Diese Einstellung ist sehr hilfreich, wenn Sie sicherstellen möchten, dass ungenutzte Teams nicht verwendet werden. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Microsoft 365-Gruppen](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
 -   **Archiv Team:** Mit dieser Einstellung werden die Teams in den schreibgeschützten Modus versetzt. Sie können weiterhin durchsucht und durchsucht werden, aber niemand kann neue Beiträge hinzufügen. [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) beschreibt, wie Teambesitzer ein Team archivieren können. Teambesitzer können auch die [Graph-API (Beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) zum Archivieren oder Wiederherstellen eines Teams verwenden.
  

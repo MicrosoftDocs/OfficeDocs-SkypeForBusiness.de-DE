@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62686c87d653532f7f64b797fbe301a1cf0d2610
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350309"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638394"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Ihrer Microsoft StaffHub-Teams in die Schichten in Microsoft Teams
 
@@ -56,7 +56,7 @@ Sie müssen ein globaler Administrator sein, um die in diesem Artikel beschriebe
 
 Wenn Sie ein StaffHub-Team verschieben, werden Teammitgliedschaft, Benutzer Details, Team Zeitpläne und Chatdaten in Teams verschoben. Dateien werden nicht verschoben, wenn Sie ein StaffHub-Team verschieben. Wenn ein StaffHub-Team Dateien enthält, die Sie auch in Teams verschieben möchten, verschieben Sie die Dateien in einem separaten Schritt.
 
-Jedes StaffHub-Team benötigt eine entsprechende Microsoft 365-oder Office 365-Gruppe. Wenn ein StaffHub-Team einer Microsoft 365-Gruppe zugeordnet ist, bleibt die Datenschutzeinstellung der Gruppe erhalten, wenn Sie das Team verschieben. Wenn einem StaffHub-Team keine Microsoft 365-Gruppe zugeordnet ist, wird automatisch eine Gruppe mit privater Privatsphäre-Einstellung erstellt, um den Übergang zu unterstützen.  Angesichts der Unterschiede bei der Team-und Gruppenbenennung zwischen Teams und StaffHub wird möglicherweise in Teams ein anderer Teamname angezeigt. 
+Jedes StaffHub-Team benötigt eine entsprechende Microsoft 365-oder Microsoft 365-Gruppe. Wenn ein StaffHub-Team einer Microsoft 365-Gruppe zugeordnet ist, bleibt die Datenschutzeinstellung der Gruppe erhalten, wenn Sie das Team verschieben. Wenn einem StaffHub-Team keine Microsoft 365-Gruppe zugeordnet ist, wird automatisch eine Gruppe mit privater Privatsphäre-Einstellung erstellt, um den Übergang zu unterstützen.  Angesichts der Unterschiede bei der Team-und Gruppenbenennung zwischen Teams und StaffHub wird möglicherweise in Teams ein anderer Teamname angezeigt. 
 
 Wenn Sie Teams von StaffHub in Teams umstellen, haben die Benutzer keinen Zugriff mehr auf ihre Zeitpläne in StaffHub und werden an Schichten in Teams umgeleitet. Wir empfehlen, dass Sie diese Änderung in Ihrer Organisation übermitteln, um Unterbrechungen zu minimieren und Benutzer zu ermutigen, Teams zu übernehmen und zu erkunden. Wenn Sie über Azure AD Premium verfügen, können Sie [einen Bericht ausführen](run-report-to-show-staffhub-usage.md) , um eine Liste der StaffHub-Benutzer in Ihrer Organisation abzurufen, die über diese Änderung Bescheid wissen müssen.  
 

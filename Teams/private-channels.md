@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
-ms.translationtype: HT
+ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265630"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637934"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -68,10 +68,12 @@ Wenn ein privater Kanal erstellt wird, ist er mit dem übergeordneten Team verbu
 
 ### <a name="who-can-create-private-channels"></a>Wer kann private Kanäle erstellen?
 
-Standardmäßig kann jeder Teambesitzer oder jedes Teammitglied einen privaten Kanal erstellen. Gäste können keinen privaten Kanal erstellen. Die Möglichkeit zum Erstellen von privaten Kanälen kann auf Teamebene und auf Organisationsebene verwaltet werden:
+Standardmäßig kann jeder Teambesitzer oder jedes Teammitglied einen privaten Kanal erstellen. Gäste können keinen privaten Kanal erstellen. Die Möglichkeit zum Erstellen privater Kanäle kann auf Teamebene und auf Organisationsebene verwaltet werden.
 
-- Teambesitzer können auf der Registerkarte **Einstellungen** für ein Team die Möglichkeit, private Kanäle zu erstellen, für Mitglieder deaktivieren oder aktivieren.
-- Als Administrator können Sie [Richtlinien](teams-policies.md) verwenden, um zu steuern, welche Benutzer in Ihrer Organisation private Kanäle erstellen dürfen.
+> 1. Wechseln Sie zum Admin Center unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+
+> 2. Verwenden Sie [Richtlinien](teams-policies.md) , um zu steuern, welche Benutzer in Ihrer Organisation private Kanäle erstellen dürfen.
+    Nachdem Sie die Richtlinien eingerichtet haben, können Teambesitzer die Möglichkeit für Mitglieder, private Kanäle auf der Registerkarte **Einstellungen** für ein Team zu erstellen, deaktivieren oder aktivieren.
 
 Die Person, die einen privaten Kanal erstellt, ist der Besitzer des privaten Kanals, und nur der Besitzer des privaten Kanals kann Personen direkt zum Kanal hinzufügen oder daraus entfernen. Der Besitzer eines privaten Kanals kann ein beliebiges Teammitglied zu diesem privaten Kanal hinzufügen, einschließlich Gäste. Mitglieder eines privaten Kanals verfügen über einen sicheren Bereich für Unterhaltungen, und wenn neue Mitglieder hinzugefügt werden, können diese alle Unterhaltungen (auch alte Unterhaltungen) in diesem privaten Kanal sehen.
 
@@ -83,7 +85,7 @@ Verlässt ein Teammitglied ein Team, oder wird es daraus entfernt, wird dieser B
 
 Der Besitzer eines privaten Kanals kann nicht über den Teams-Client entfernt werden, wenn er der letzte Besitzer eines oder mehrerer privater Kanäle ist.
 
-Wenn ein Besitzer eines privaten Kanals Ihre Organisation verlässt oder aus der Office 365-Gruppe entfernt wird, die dem Team zugeordnet ist, wird ein Mitglied des privaten Kanals automatisch zum Besitzer des privaten Kanals heraufgestuft.
+Wenn ein privater Kanalbesitzer Ihre Organisation verlässt oder wenn er aus der Microsoft 365-Gruppe entfernt wird, die dem Team zugeordnet ist, wird ein Mitglied des privaten Kanals automatisch als privater Kanalbesitzer heraufgestuft.
 
 ### <a name="what-can-team-owners-and-team-members-see-in-a-private-channel"></a>Was können Teambesitzer und Teammitglieder in einem privaten Kanal sehen?
 
@@ -105,13 +107,13 @@ In der folgenden Tabelle wird beschrieben, welche Aktionen Besitzer, Mitglieder 
 
 |Aktion  |Teambesitzer|Teammitglied|Teamgast|Besitzer eines privaten Kanals|Mitglied eines privaten Kanals|Gast eines privaten Kanals|
 |---------|---------|---------|---------|---------|---------|---------|
-|Erstellen eines privaten Kanals|Ja<sup>1</sup>|Ja<sup>1,2</sup>|Nein|–|N/V|Nicht zutreffend|
+|Erstellen eines privaten Kanals|Ja<sup>1</sup>|Ja<sup>1,2</sup>|Nein|–|N/V|N/V|
 |Löschen eines privaten Kanals|Ja|Nein|Nein|Ja|Nein|Nein|
-|Verlassen eines privaten Kanals|Nicht zutreffend|N/V|Nicht zutreffend|Ja<sup>3</sup>|Ja|Ja|
-|Bearbeiten eines privaten Kanals|Nein|–|Nicht zutreffend|Ja|Nein|Nein|
+|Verlassen eines privaten Kanals|N/V|N/V|N/V|Ja<sup>3</sup>|Ja |Ja|
+|Bearbeiten eines privaten Kanals|Nein|–|N/V|Ja|Nein|Nein|
 |Gelöschte private Kanäle wiederherstellen|Ja|Nein|Nein|Ja|Nein|Nein|
-|Mitglieder hinzufügen|Nein|–|Nicht zutreffend|Ja|Nein|Nein|
-|Bearbeiten von Einstellungen|Nein|–|Nicht zutreffend|Ja|Nein|Nein|
+|Mitglieder hinzufügen|Nein|–|N/V|Ja|Nein|Nein|
+|Bearbeiten von Einstellungen|Nein|–|N/V|Ja|Nein|Nein|
 |Verwalten von Registerkarten und Apps|Nein|–|Nicht zutreffend|Ja<sup>4</sup>|Ja<sup>5</sup>|Nein|
 
 <sup>1</sup> Vorausgesetzt, dass die von Ihnen als Administrator konfigurierte Richtlinie dem Benutzer gestattet, private Kanäle zu erstellen.<br>

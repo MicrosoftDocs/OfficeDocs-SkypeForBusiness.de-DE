@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefon System Benutzer unter Verwendung einer Richtlinie mit dem Namen CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224208"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638895"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
@@ -50,7 +50,7 @@ Für ausgehende PSTN-Rufnummernanzeige stehen drei Optionen zur Verfügung:
   
 - Die dem Benutzer zugewiesene Telefonnummer, die der Standardwert ist.
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- Eine Telefonnummer, die als *Service* *-und gebührenfreie* Nummer in der Telefonnummern Inventur Ihres Anruf Plans eingestuft wird. Sie wird normalerweise einer organisatorischen automatischen Telefonzentrale oder einer Anrufwarteschlange zugewiesen.
     
 - Auf „Anonym" festgelegt
     

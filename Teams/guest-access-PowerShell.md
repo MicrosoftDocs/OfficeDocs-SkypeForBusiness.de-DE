@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie mithilfe von PowerShell den Gastzugriff auf a
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902590"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637304"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team
 ================================================
@@ -33,7 +33,7 @@ Neben der Verwendung des Microsoft 365 admin Centers und des Azure Active Direct
 
 - Zulassen, dass Gäste allen Teams und Microsoft 365-Gruppen hinzugefügt werden
 
-- Zulassen oder Blockieren von Gastbenutzern für ein bestimmtes Team oder eine bestimmte Office 365-Gruppe
+- Zulassen oder Blockieren von Gastbenutzern aus einem bestimmten Team oder einer Microsoft 365-Gruppe
 
 Ausführliche Informationen finden Sie unter "Verwenden von PowerShell zum Steuern des Gastzugriffs" in [Verwalten des Gastzugriffs in Microsoft 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).
 

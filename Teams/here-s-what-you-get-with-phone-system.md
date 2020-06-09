@@ -1,5 +1,5 @@
 ---
-title: Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
+title: Das Telefonsystem bietet Ihnen Folgendes
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich über die Features, die Verfügbarkeit und die Vorgehensweise zum Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288703"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638344"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
+# <a name="heres-what-you-get-with-phone-system"></a>Das Telefonsystem bietet Ihnen Folgendes
 
-In diesem Artikel werden die Telefon System Funktionen in Office 365 beschrieben. Weitere Informationen zur Verwendung des Telefonsystems als Ersatz für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung mit dem öffentlichen Telefonnetz (PSTN) finden Sie unter [Was ist Telefonsystem in Office 365](what-is-phone-system-in-office-365.md).
+In diesem Artikel werden die Funktionen des Telefonsystems beschrieben. Weitere Informationen zur Verwendung des Telefonsystems als Ersatz für Private Branch Exchange (PBX) und Optionen für die Verbindung mit dem öffentlichen Telefonnetz (PSTN) finden Sie unter [Was ist Telefonsystem](what-is-phone-system-in-office-365.md).
 
 Clients stehen für PC, Mac und Handy zur Verfügung und bieten Funktionen auf Geräten von Tablets und Mobiltelefonen bis hin zu PCs und Desktop-IP-Telefonen. Weitere Informationen finden Sie unter [Abrufen von Clients für Microsoft Teams](get-clients.md).
 
   
-## <a name="phone-system-in-office-365-features"></a>Telefon System in Office 365-Features
+## <a name="phone-system-features"></a>Telefon System Funktionen
 
 Das Telefon System bietet die folgenden Funktionen. Sofern nicht anders angegeben, stehen Features sowohl in Teams als auch in Skype for Business Online zur Verfügung.
   
 |||
 |:-----|:-----|
-|**Telefon System in Office 365-Feature** <br/> |**Beschreibung** <br/> |
+|**Telefon System Feature** <br/> |**Beschreibung** <br/> |
 |[Automatische Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md) <br/> |Mit dieser Option können Sie ein Menü System erstellen, das es externen und internen Anrufern ermöglicht, Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu suchen und dort zu platzieren oder zu übertragen.  <br/> |
 |[Cloud-Anrufwarteschlangen](create-a-phone-system-call-queue.md) <br/> |Mit dieser Option können Sie konfigurieren, wie Anrufwarteschlangen für Ihre Organisation verwaltet werden: Sie können beispielsweise Begrüßungen und Musik in Wartestellung einrichten, nach dem nächsten verfügbaren Anruf Agenten suchen, um den Anruf zu behandeln, und so weiter.  <br/> |
 |Wartemusik | Gibt die vom Dienst definierte Standardmusik wieder, wenn ein externer Anruf über das öffentlich geschaltete Telefonnetz (PSTN) in Wartestellung gesetzt wird. Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. Dieses Feature ist vom Administrator konfigurierbar, aber [derzeit nur über PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Bei der Beratenden Übertragung eines PSTN-Anrufs wird "Musik speichern" ebenfalls nicht unterstützt.|
@@ -82,14 +82,14 @@ Die folgenden Funktionen stehen in den Clouds für gcc-höchst-und DoD-Wolken no
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Was ist das Telefon System in Office 365?](what-is-phone-system-in-office-365.md)
+- [Was ist das Telefonsystem?](what-is-phone-system-in-office-365.md)
 - [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md)
 - [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
 - [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
 - [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
-- [Überwachen und Verwalten des Lebenszyklus](monitor-call-quality-qos.md)
+- [Überwachen und Verwalten der Anrufqualität](monitor-call-quality-qos.md)
 - [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Preise für Telefonsystem](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Preise für das Telefonsystem](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams für virtualisierte Desktop Infrastruktur mit anrufen und Besprechungen](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine geschäftliche Telefonnummer für Ihre Teams-Benutzer zuweisen, ändern oder entfernen, sodass externe Unternehmen und Kunden Sie anrufen können.
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326802"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609960"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -51,7 +51,8 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
 5. Je nachdem, ob Sie dem Benutzer eine e-Mail mit den Informationen zur Telefonnummer senden möchten, deaktivieren oder aktivieren Sie **e-Mail-Nutzer mit Telefonnummerninformationen**. Standardmäßig ist dies aktiviert. 
 6. Klicken Sie auf **Speichern**.
     > [!NOTE]
-    > Aufgrund der Wartezeit zwischen Office 365 und Teams kann es möglicherweise einige Stunden dauern, bis die Benutzer aktiviert werden. Wenn die Telefonnummer nach ein paar Stunden nicht richtig zugewiesen wurde, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Wir helfen Ihnen gerne weiter!
+    > Aufgrund der Wartezeit zwischen Microsoft 365 oder Office 365 und Teams kann es bis zu 24 Stunden dauern, bis die Benutzer aktiviert werden. Wenn die Telefonnummer nach 24 Stunden nicht richtig zugewiesen wurde, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Wir helfen Ihnen gerne weiter!
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>Ändern einer Telefonnummer für einen Benutzer
  

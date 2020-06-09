@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140294"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637944"
 ---
 # <a name="meetings-first"></a>Besprechungen zuerst
 
@@ -78,9 +78,9 @@ Eine [Skype for Business-Hybrid Topologie](https://docs.microsoft.com/skypeforbu
 
 Besprechungen werden zunächst mit einer beliebigen Version des Skype for Business-Servers unterstützt (und bekanntermaßen mit dem nicht mehr unterstützten lync-Server zusammenarbeiten). Es wird mit jedem unterstützten Skype for Business-Client unterstützt, doch für eine bessere Zusammenarbeit ist ein neuer Client erforderlich.
 
-Sobald diese Anforderungen erfüllt sind (und nicht vor), können die Benutzer [für Office 365 und Teams lizenziert](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)werden.
+Sobald diese Anforderungen erfüllt sind (und nicht vor), können die Benutzer [für Microsoft 365 oder Office 365 und Teams lizenziert](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)werden.
 
-Für die ersten Erfahrungen mit den besten Besprechungen sollten Benutzer für [Exchange Online](exchange-teams-interact.md), [SharePoint Online und OneDrive for Business](sharepoint-onedrive-interact.md)sowie für die Erstellung von Office 365-Gruppen aktiviert sein. Besprechungen werden zunächst für Benutzer unterstützt, deren Postfach sich lokal in Exchange befindet oder für die keine SharePoint Online-oder OneDrive for Business-oder Office 365-Gruppenerstellung vorhanden ist. Ihre Erfahrung wird jedoch nicht so vollständig sein. Insbesondere für Organisationen, die Exchange Server lokal verwenden, gibt es möglicherweise (abhängig von der Version von Exchange Server) einige Einschränkungen beim Erstellen und Anzeigen von Besprechungen vom Team-Client sowie hinsichtlich der Compliance-Funktionen.
+Für die ersten Erfahrungen mit den besten Besprechungen sollten Benutzer für [Exchange Online](exchange-teams-interact.md), [SharePoint Online und OneDrive for Business](sharepoint-onedrive-interact.md)sowie für die Erstellung von Microsoft 365-Gruppen aktiviert sein. Besprechungen werden zunächst für Benutzer unterstützt, deren Postfach sich lokal in Exchange befindet oder für die keine SharePoint Online-oder OneDrive for Business-oder Microsoft 365-Gruppenerstellung vorhanden ist. Ihre Erfahrung wird jedoch nicht so vollständig sein. Insbesondere für Organisationen, die Exchange Server lokal verwenden, gibt es möglicherweise (abhängig von der Version von Exchange Server) einige Einschränkungen beim Erstellen und Anzeigen von Besprechungen vom Team-Client sowie hinsichtlich der Compliance-Funktionen.
 
 Benutzer müssen mindestens [für Teams lizenziert](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)sein. Darüber hinaus können Sie bei Bedarf für [Audiokonferenzen](set-up-audio-conferencing-in-teams.md)lizenziert werden.
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
-ms.translationtype: HT
+ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574022"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637504"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -56,7 +56,7 @@ Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Metho
 
 Wenn Microsoft Teams für Ihre gesamte Organisation aktiviert ist, können festgelegte Teambesitzer alle Mitarbeiter, mit denen sie zusammenarbeiten, einladen, ihrem Team beizutreten. Teambesitzer können in Microsoft Teams ganz leicht Personen aus der Organisation anhand ihres Namens hinzufügen. Je nach den Einstellungen Ihrer Organisation können auch Gäste, die zwar Teammitglieder sind, aber nicht der Organisation angehören, zu Ihren Teams hinzugefügt werden. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md). 
 
-Darüber hinaus können Teambesitzer ein Team auf der Grundlage einer vorhandenen Office 365-Gruppe erstellen. Alle an der Gruppe vorgenommenen Änderungen werden automatisch mit Microsoft Teams synchronisiert. Durch die Erstellung eines Teams auf der Grundlage einer vorhandenen Office 365-Gruppe wird nicht nur das Einladen und Verwalten von Mitgliedern vereinfacht, sondern die Gruppendateien in Microsoft Teams werden ebenfalls synchronisiert.
+Teambesitzer können auch ein Team erstellen, das auf einer vorhandenen Microsoft 365-Gruppe basiert. Alle an der Gruppe vorgenommenen Änderungen werden automatisch mit Microsoft Teams synchronisiert. Das Erstellen eines Teams auf der Grundlage einer vorhandenen Microsoft 365-Gruppe vereinfacht nicht nur das einladen und Verwalten von Mitgliedern, sondern auch das Synchronisieren von Gruppendateien in Microsoft Teams.
 
 **Teamrollen**
 
@@ -77,7 +77,7 @@ Nehmen Sie sich drei Minuten Zeit, um sich dieses Handbuch für Teambesitzer anz
 
 Wenn Sie in Office 365 als Administrator für Microsoft Teams festgelegt sind, haben Sie im Microsoft Teams Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 
-Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Office 365-Gruppe können ihre Berechtigungen mit Microsoft Teams-Funktionen erweitern.
+Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Microsoft 365-Gruppe können Ihre Berechtigungen auch mit den Funktionen von Teams erweitern.
 
 Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
 

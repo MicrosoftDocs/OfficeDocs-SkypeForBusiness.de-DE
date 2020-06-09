@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9ffc71de13948be077c14699e98fca726bced3eb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904997"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638494"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 ==========================================
@@ -33,7 +33,7 @@ ms.locfileid: "43904997"
 
 Dieser Artikel enthält eine Übersicht über die Verwaltungstools für Teams im Microsoft Teams Admin Center.
 
-Als Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisieren, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, oder Wartungsaktionen ausführen, z. b. Teams, die keinen Besitzer haben, einen zuweisen. Sie können die in Ihrer Organisation bestehenden Teams sowohl über das PowerShell-Modul von Microsoft Teams als auch über das Microsoft Teams Admin Center verwalten. Um die vollständigen Verwaltungsfunktionen, die diese beiden Toolsets bieten, nutzen zu können, sollten Sie sicherstellen, dass Sie eine der folgenden Rollen besitzen:
+Als Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisieren, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, oder Wartungsaktionen ausführen, z. b. Teams, die keinen Besitzer haben, einen zuweisen. Sie können die in Ihrer Organisation bestehenden Teams sowohl über das PowerShell-Modul von Microsoft Teams als auch über das Microsoft Teams Admin Center verwalten. Sie können auf das Admin Center unter zugreifen <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . Um die vollständigen Verwaltungsfunktionen, die diese beiden Toolsets bieten, nutzen zu können, sollten Sie sicherstellen, dass Sie eine der folgenden Rollen besitzen:
 
 - Globaler Administrator
 - Teams-Dienstadministrator
@@ -44,7 +44,7 @@ Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwende
 
 ## <a name="teams-overview-grid"></a>Teams-Übersichtraster
 
-Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams**. (Wählen Sie im Admin Center **Teams** > **Teams verwalten** aus.) Jedes Team wird von einer Office 365-Gruppe unterstützt. Dieser Knoten bietet eine Übersicht über Gruppen, die in Ihrer Organisation für Microsoft Teams aktiviert wurden.
+Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams**. (Wählen Sie im Admin Center **Teams**  >  aus. **Verwalten von Teams**.) Jedes Team wird von einer Microsoft 365-Gruppe unterstützt, und dieser Knoten bietet eine Ansicht von Gruppen, die in Ihrer Organisation in Microsoft Teams aktiviert wurden.
 
 ![Screenshot des Rasters ' Teams-Übersicht '](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -55,11 +55,11 @@ Das Raster zeigt die folgenden Eigenschaften an:
 - **Teammitglieder**: die Anzahl aller Benutzer, einschließlich Besitzern, Gästen und Mitgliedern Ihres Mandanten.
 - **Besitzer**: die Anzahl der Besitzer dieses Teams.
 - **Gäste**: die Anzahl von Azure Active Directory B2B-Gastbenutzern, die Mitglieder dieses Teams sind.
-- **Datenschutz**: der Visibility/AccessType der zugrundeliegenden Office 365-Gruppe.
+- **Datenschutz** – die Sichtbarkeit/der Zugriff auf die Microsoft 365-Sicherungsgruppe.
 - **Status**: der archivierte oder aktive Status dieses Teams. Weitere Informationen zum Archivieren von Teams finden Sie unter [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
-- **Beschreibung**: die Beschreibung der zugrundeliegenden Office 365-Gruppe.
-- **Klassifizierung**: die Klassifizierung (sofern in Ihrer Organisation verwendet), die der zugrundeliegenden Office 365-Gruppe zugewiesen ist. Erfahren Sie mehr über Klassifizierungen unter [Erstellen von Klassifizierungen für Office-Gruppen in Ihrer Organisation](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
-- **GroupId**: die eindeutige GroupId der zugrundeliegenden Office 365-Gruppe.
+- **Beschreibung** – die Beschreibung der Microsoft 365-Sicherungsgruppe.
+- **Klassifizierung** : die Klassifizierung (in Ihrer Organisation verwendet), die der Microsoft 365-Sicherungsgruppe zugewiesen ist. Erfahren Sie mehr über Klassifizierungen unter [Erstellen von Klassifizierungen für Office-Gruppen in Ihrer Organisation](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Gruppen** -Nr – die eindeutige Gruppen-Nr der Microsoft 365-Sicherungsgruppe.
 
 > [!NOTE]
 > Wenn nicht alle diese Eigenschaften im Raster angezeigt werden, klicken Sie auf das Symbol **Spalten bearbeiten**. Im Bereich **Spalten bearbeiten ** können Sie die Umschaltflächen zum Aktivieren oder Deaktivieren von Spalten im Raster verwenden. Klicken Sie nach Abschluss des Vorgangs auf **Anwenden**.
@@ -78,7 +78,7 @@ Sie können ein Team archivieren. Durch die Archivierung wird das Team in Micros
 
 ### <a name="delete"></a>Löschen
 
-Beim Löschen eines Teams handelt es sich um ein vorläufiges Löschen des Teams und der entsprechenden Office 365-Gruppe. Zum Wiederherstellen eines versehentlich gelöschten Teams folgen Sie den Anweisungen unter [Wiederherstellen einer gelöschten Office 365-Gruppe](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+Das Löschen eines Teams ist ein Soft-Delete des Teams und der entsprechenden Microsoft 365-Gruppe. Wenn Sie ein versehentlich gelöschtes Team wiederherstellen möchten, folgen Sie den Anweisungen unter [Wiederherstellen einer gelöschten Gruppe](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="search"></a>Suche
 
@@ -86,7 +86,7 @@ Die Suche unterstützt derzeit die Zeichenfolge „beginnt mit“ und durchsucht
 
 ## <a name="team-profile"></a>Teamprofil
 
-Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigieren, indem Sie auf den Teamnamen klicken. Auf der Seite "Teamprofil" werden die Mitglieder, Besitzer und Gäste angezeigt, die zum Team gehören (und die Gruppe "Backing Office 365") sowie die Kanäle und Einstellungen des Teams. Auf der Teamprofilseite können Sie folgende Aktionen ausführen:
+Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigieren, indem Sie auf den Teamnamen klicken. Auf der Seite "Teamprofil" werden die Mitglieder, Besitzer und Gäste angezeigt, die zum Team gehören (und dessen untergeordnete Microsoft 365-Gruppe) sowie die Kanäle und Einstellungen des Teams. Auf der Teamprofilseite können Sie folgende Aktionen ausführen:
 
 - Hinzufügen oder Entfernen von Mitgliedern und Besitzern.
 - Hinzufügen oder Entfernen von Kanälen. (beachten Sie, dass Sie den Kanal „Allgemein“ nicht entfernen können.)
@@ -103,7 +103,7 @@ Auf der Profilseite des Teams können Sie die folgenden Elemente eines Teams än
 - **Teamname**
 - **Beschreibung**
 - **Datenschutz**: Legen Sie fest, ob das Team öffentlich oder privat sein soll.
-- **Klassifizierung**: Dies wird durch Ihre Office 365-Gruppenklassifizierungen gesichert. Wählen Sie zwischen **Vertraulich**, **Streng vertraulich** oder **Allgemein**.
+- **Klassifizierung** – Dies wird durch Ihre Microsoft 365-Gruppen Klassifizierungen gesichert. Wählen Sie zwischen **Vertraulich**, **Streng vertraulich** oder **Allgemein**.
 - **Unterhaltungseinstellungen**: Hier legen Sie fest, ob Mitglieder gesendete Nachrichten bearbeiten und löschen können.
 - **Kanaleinstellungen**: Hier legen Sie fest, ob Mitglieder neue Kanäle erstellen und bestehende bearbeiten können. Außerdem, ob sie Registerkarten, Connectors und Apps hinzufügen, bearbeiten und entfernen können.
 

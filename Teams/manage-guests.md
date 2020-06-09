@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie Ihre ersten Teams und Kanäle erstellen,
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 4751f274e4bc7a874c1469041787d7d145c11bb8
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326452"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637664"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
@@ -30,19 +30,19 @@ ms.locfileid: "44326452"
 > [!IMPORTANT]
 > Möglicherweise müssen Sie einige Stunden warten, bis Ihre Änderungen wirksam werden. 
 
-**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
+**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic und Office 365 Education-Abonnements enthalten ist. Es ist keine zusätzliche Microsoft 365-oder Office 365-Lizenz erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
 
 Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Details zum Aktivieren des Gastzugriffs finden Sie unter Aktivieren oder Deaktivieren des Gast [Zugriffs auf Teams](set-up-guests.md)oder verwenden der Checkliste für den [Gastzugriff](guest-access-checklist.md) , um Sie durch das Setup zu führen.
 
 Nachdem Gastzugriff aktiviert ist, können Sie die Einstellungen für Gäste mithilfe der Steuerelemente konfigurieren, die unter [Verwalten von Teams-Einstellungen für Ihre Organisation](enable-features-office-365.md) und [Verwalten von Teams während des Übergangs zum neuen Microsoft Teams Admin Center](manage-teams-skypeforbusiness-admin-center.md)beschrieben sind.     
     
-IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten und Berichte über Gastbenutzeraktivität abrufen. Diese Steuerelemente stehen im Team Admin Center zur Verfügung. Der Inhalt und die Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance-und Überwachungs Schutz wie die restlichen Office 365.
+IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten und Berichte über Gastbenutzeraktivität abrufen. Diese Steuerelemente stehen im Team Admin Center zur Verfügung. Der Inhalt und die Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance-und Überwachungs Schutz wie der restliche Microsoft 365 oder Office 365.
 
 Team Besitzer können neue Gäste einladen und ihren Teams im Team Admin Center vorhandene Verzeichnis Gastbenutzer hinzufügen. Identifizieren Sie Gastbenutzer auf der Seite **Teams**  >  **Manage Teams** , und legen Sie die Kanal bezogenen Funktionen für Gäste auf der Seite **organisationsweite Einstellungen**  >  **Gastzugriff** fest. Zu den Einstellungen gehören das Erstellen, aktualisieren und Löschen von Kanälen, wie in der folgenden Abbildung gezeigt.
 
 ![Einstellungen von Gastberechtigungen in Teams](media/manage-guest-access-image1.png)
   
-Sie können das Azure Active Directory-Portal zum Verwalten von Gästen und deren Zugriff auf Office 365- und Teams-Ressourcen verwenden. Die Teams-Einstellung für Gastzugriff nutzt die Azure AD-B2B-Funktionen (Business-to-Business) zur Zusammenarbeit als zugrunde liegende Infrastruktur zum Speichern der Informationen über Sicherheitsprinzipien, wie zum Beispiel Einstellungen für Identitätseigenschaften, Mitgliedschaften und für die mehrstufige Authentifizierung. Weitere Informationen zu Azure AD B2B finden Sie unter [Was ist die Azure AD B2B-Zusammenarbeit?](https://go.microsoft.com/fwlink/p/?linkid=853011) und [Häufig gestellte Fragen zur Azure Active Directory B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853020).
+Sie können das Azure Active Directory (Azure AD)-Portal verwenden, um Gäste und deren Zugriff auf Microsoft 365-oder Office 365-und Teamressourcen zu verwalten. Die Teams-Einstellung für Gastzugriff nutzt die Azure AD-B2B-Funktionen (Business-to-Business) zur Zusammenarbeit als zugrunde liegende Infrastruktur zum Speichern der Informationen über Sicherheitsprinzipien, wie zum Beispiel Einstellungen für Identitätseigenschaften, Mitgliedschaften und für die mehrstufige Authentifizierung. Weitere Informationen zu Azure AD B2B finden Sie unter [Was ist die Azure AD B2B-Zusammenarbeit?](https://go.microsoft.com/fwlink/p/?linkid=853011) und [Häufig gestellte Fragen zur Azure Active Directory B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853020).
 
 > [!NOTE]
 > Microsoft Teams berücksichtigt immer externe Azure AD-Einstellungen, um das Hinzufügen von Gästen zum Mandanten zuzulassen bzw. zu verhindern. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).

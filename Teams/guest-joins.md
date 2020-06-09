@@ -18,12 +18,12 @@ description: Informieren Sie sich über die erforderlichen Schritte zum Hinzufü
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902550"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637224"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
@@ -35,11 +35,11 @@ Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den De
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>So wird ein Gast Mitglied eines Teams
 
-1. Ein Teambesitzer oder ein Office 365-Administrator [fügt einen Gast zu einem Team hinzu](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-1. Der Office 365-Administrator oder der Teambesitzer kann die Berechtigungen eines Gasts nach Bedarf ändern. So können sie beispielsweise einem Gast das Hinzufügen oder löschen von Kanälen erlauben oder den Zugriff auf Dateien deaktivieren.
+1. Ein Teambesitzer oder ein Microsoft 365-oder Office 365-Administrator [Fügt einen Gast zu einem Team hinzu](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+1. Der Microsoft 365-oder Office 365-Administrator oder der Teambesitzer verwaltet die Funktionen eines Gasts nach Bedarf: so können Sie beispielsweise einem Gast das Hinzufügen oder Löschen von Kanälen oder das Deaktivieren des Zugriffs auf Dateien ermöglichen.
 1. Der Gast empfängt eine Willkommens-E-Mail vom Teambesitzer mit Informationen über das Team und darüber, was ihn als Mitglied nun erwartet. 
 1. Der Gast akzeptiert die Einladung.
-  Gastbenutzer, die über eine E-Mail-Adresse verfügen, die zu einem Azure Active Directory- oder Office 365-Arbeits- oder Schulkonto gehört, können die Einladung direkt akzeptieren. 
+  Gastbenutzer mit einer e-Mail-Adresse, die zu einem Azure Active Directory-, Microsoft 365-oder Office 365-Firmen-oder Schulkonto gehört, können die Einladung direkt annehmen. 
   Wenn der Gast noch kein Microsoft-Konto hat, das seiner e-Mail-Adresse zugeordnet ist, wird er zum Erstellen eines kostenlosen Kontos weitergeleitet. 
 1. Nach dem Akzeptieren der Einladung kann der Gast [an Teams und Kanälen teilnehmen](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), Kanalnachrichten empfangen und darauf reagieren, [auf Dateien in Kanälen zugreifen](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), an Besprechungen und Chats teilnehmen, an Dokumenten zusammenarbeiten und mehr. 
 

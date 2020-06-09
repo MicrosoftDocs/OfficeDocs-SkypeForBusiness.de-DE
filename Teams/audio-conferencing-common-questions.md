@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im folgenden finden Sie einige der wichtigsten Fragen, die wir von unseren Kunden erhalten, die Audio-Conferencing verwenden möchten.
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236845"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611034"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
@@ -35,7 +35,7 @@ Im folgenden finden Sie einige der wichtigsten Fragen, die wir von unseren Kunde
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>Was sind die Vorteile von Audiokonferenzen?
 
-Das Einwählen in Besprechungen ist sehr hilfreich, wenn beispielsweise Personen unterwegs sind, und Sie können mit der Skype for Business-oder Microsoft Teams-App auf ihren Laptops oder mobilen Geräten nicht an einer Besprechung teilnehmen. Es gibt aber auch andere Szenarien, in denen die Verwendung eines Telefons zur Teilnahme an einer Skype for Business-oder Microsoft Teams-Besprechung eine bessere Option als die Verwendung einer APP auf einem Computer sein kann:
+Das Einwählen in Besprechungen ist sehr hilfreich, wenn beispielsweise Personen unterwegs sind, und Sie können mit der Skype for Business-oder Microsoft Teams-App auf ihren Laptops oder mobilen Geräten nicht an einer Besprechung teilnehmen. Aber es gibt noch weitere Szenarios, bei denen die Nutzung eines Telefons für die Teilnahme an einer Skype for Business- oder an einer Microsoft Teams-Besprechung die bessere Wahl sein kann, als die Nutzung einer App auf einem Computer:
   
 - Die Internetverbindung ist begrenzt.
     
@@ -45,9 +45,9 @@ Das Einwählen in Besprechungen ist sehr hilfreich, wenn beispielsweise Personen
     
 - Die Anrufqualität ist besser, wenn Sie sich einwählen.
     
-- Nutzer können mit Bluetooth-Geräten „freihändig" an einer Besprechung teilnehmen.
+- Man kann mithilfe von Bluetooth-Geräten "freihändig" an einer Besprechung teilnehmen.
     
-- Die Leute finden es einfacher und bequemer für Ihre Situation.
+- Benutzer finden es einfacher und praktischer in ihrer jeweiligen Situation.
     
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Wer kann an einer Audiokonferenz-Besprechung teilnehmen? Und wen kann ich hören?
 
@@ -65,7 +65,7 @@ Wenn Sie die Lizenzen für Audiokonferenzen erwerben, gibt es lokale Einwahlnumm
   
 Lokale Einwahlnummern und in einigen Fällen auch internationale Einwahlnummern aus dem Land, in dem sich Ihre Organisation befindet, werden in die Besprechungseinladung aufgenommen. Wenn ein Besprechungsteilnehmer eine andere Nummer verwendet, die in der Einladung enthalten ist, handelt es sich um eine freigegebene Telefonnummer.
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Wie viele internationale Einwahlnummern unterstützt Audiokonferenzen in Office 365?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Wie viele internationale Einwahlnummern unterstützt Audio-Conferencing in Microsoft 365 oder Office 365?
 
 Eine aktuelle Liste der Länder/Regionen finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) oder [Telefonnummern für Audiokonferenzen in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
@@ -155,5 +155,5 @@ Das Planen einer Besprechung, die von allen Teilnehmern mit einem Telefon zur Ei
   
 [Telefonnummern für Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Telefonnummern für Audiokonferenzen in Skype für Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Telefonnummern für Audiokonferenzen in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

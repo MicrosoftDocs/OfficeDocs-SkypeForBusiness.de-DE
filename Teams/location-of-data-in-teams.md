@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe94c04fcc4d93f636544d54930cf83855deec2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 92516a73843b16212a13b4533da7db6fd1075532
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904817"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638754"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
 
-Daten in Teams befinden sich in der geografischen Region, die Ihrer Office 365-Organisation zugeordnet ist. Derzeit unterstützt Microsoft Teams Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein), die Regionen Vereinigten Arabische Emirate, Großbritannien, Amerika, APAC und EMEA. 
+Daten in Teams befinden sich in der geografischen Region, die Ihrer Microsoft 365-oder Office 365-Organisation zugeordnet ist. Derzeit unterstützt Microsoft Teams Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein), die Regionen Vereinigten Arabische Emirate, Großbritannien, Amerika, APAC und EMEA. 
 
 > [!IMPORTANT]
 > Teams bietet derzeit Daten in Australien, Kanada, Frankreich, Deutschland, Indien, Japan, den Vereinigten Arabischen Emiraten, Großbritannien, Südkorea, Südafrika und der Schweiz (einschließlich Liechtenstein) für neue Mandanten an.
@@ -56,7 +56,7 @@ Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deu
 
 #### <a name="chat-channel-messages-team-structure"></a>Chat, Kanal Nachrichten, Teamstruktur
 
-Jedes Team in Microsoft Teams wird von einer Office 365-Gruppe und Ihrer SharePoint-Website und dem Exchange-Postfach unter sichert. Private Chats (einschließlich Gruppen-Chats), Nachrichten, die als Teil einer Unterhaltung in einem Kanal gesendet wurden, und die Struktur von Teams und Kanälen werden in einem in Azure ausgeführten Chatdienst gespeichert. Die Daten werden auch in einem ausgeblendeten Ordner in den Benutzer-und Gruppen Postfächern gespeichert, um Informationsschutz Features zu ermöglichen.
+Jedes Team in Teams wird durch eine Microsoft 365-Gruppe und die zugehörige SharePoint-Website und das Exchange-Postfach gesichert. Private Chats (einschließlich Gruppen-Chats), Nachrichten, die als Teil einer Unterhaltung in einem Kanal gesendet wurden, und die Struktur von Teams und Kanälen werden in einem in Azure ausgeführten Chatdienst gespeichert. Die Daten werden auch in einem ausgeblendeten Ordner in den Benutzer-und Gruppen Postfächern gespeichert, um Informationsschutz Features zu ermöglichen.
 
 #### <a name="voicemail-and-contacts"></a>Voicemail und Kontakte
 

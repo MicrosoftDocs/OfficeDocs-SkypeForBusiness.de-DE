@@ -11,23 +11,23 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über das Ablaufdatum und die Erneuerung von Teams und wie Sie die Microsoft 365-oder Office 365-Gruppen Ablaufrichtlinie verwenden, um nicht verwendete Teams in Microsoft Teams automatisch zu bereinigen.
+description: Erfahren Sie mehr über das Ablaufdatum und die Erneuerung von Teams und wie Sie die Microsoft 365-oder Microsoft 365-Gruppen Ablaufrichtlinie verwenden, um nicht verwendete Teams in Microsoft Teams automatisch zu bereinigen.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed1e91ae51bf3f2868e9e2f5f1de1532954d552e
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 34984c545e3e6593c9d5168a81d3465ce391dab2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350279"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638554"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Ablauf und Erneuerung von Teams in Microsoft Teams
 
 Organisationen mit einer hohen Anzahl von Teams verfügen häufig über Teams, die nie tatsächlich verwendet werden. Dies kann aus verschiedenen Gründen geschehen, darunter Produkt Experimente, kurzfristige Teamzusammenarbeit oder Teambesitzer, die das Unternehmen verlassen. Im Laufe der Zeit können sich solche Teams akkumulieren und eine Belastung für Mandanten Ressourcen verursachen.  
 
-Wenn Sie die Anzahl der nicht verwendeten Teams als Administrator einschränken möchten, können Sie die [Microsoft 365-oder Office 365-Gruppen Ablaufrichtlinie](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) verwenden, um nicht verwendete Teams automatisch zu bereinigen. Da Teams von Gruppen gesichert werden, gelten Gruppen Ablaufrichtlinien automatisch auch für Teams.
+Wenn Sie die Anzahl der nicht verwendeten Teams als Administrator einschränken möchten, können Sie die [Microsoft 365-oder Microsoft 365-Gruppen Ablaufrichtlinie](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) verwenden, um nicht verwendete Teams automatisch zu bereinigen. Da Teams von Gruppen gesichert werden, gelten Gruppen Ablaufrichtlinien automatisch auch für Teams.
 
 Wenn Sie eine Ablaufrichtlinie auf ein Team anwenden, erhält ein Teambesitzer eine Benachrichtigung für die Team Erneuerung 30 Tage, 15 Tage und einen Tag vor dem Ablaufdatum des Teams. Wenn der Teambesitzer die Benachrichtigung erhält, kann er in den Team Einstellungen auf **jetzt verlängern** klicken, um das Team zu erneuern.
 

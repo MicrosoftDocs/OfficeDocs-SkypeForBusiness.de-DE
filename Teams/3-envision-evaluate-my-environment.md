@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137985"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610057"
 ---
 # <a name="evaluate-my-environment"></a>Bewerten der Umgebung
 
@@ -66,8 +66,8 @@ Die Bereitstellung stellt eine neue Technologie für die Benutzer zur Verfügung
 Verwenden Sie die folgenden Überlegungen, um die Bereitschaft Ihrer Organisation zur Behandlung der Benutzer Änderungsverwaltung zu bewerten.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie bereits erfolgreich mit der Einführung von Software oder Diensten durch den Nutzer zu tun?</li><li>Können Sie die Nutzungs Akzeptanz nachvollziehen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer anfänglichen&mdash;und&mdash;laufenden Adoptions Kampagne (Sensibilisierung, Schulung und Support)?</li><li>Verfügen Sie über ein dediziertes Benutzer Adoptions-/Change Management-Team, oder können Sie in diese Ressourcen investieren, um geschäftliche Ergebnisse zu gewährleisten?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Wenn Sie alle &quot;oben&quot; genannten mit "Ja" beantwortet haben, identifizieren Sie die richtigen Stakeholder für das Change Management von Benutzern, und beginnen Sie mit der Planung der Benutzer Bereitschaft.</li><li>Wenn Sie " &quot;Nein&quot; " zu einigen oder allen oben genannten Fragen beantwortet haben, ziehen Sie es in Frage, externe Ressourcen zu verwenden, um die Aktivitäten zur Änderungsverwaltung und zur Adoptions bezogenen Aktivität für Ihre Organisation zu unterstützen.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie bereits erfolgreich mit der Einführung von Software oder Diensten durch den Nutzer zu tun?</li><li>Können Sie die Nutzungs Akzeptanz nachvollziehen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer anfänglichen &mdash; und laufenden &mdash; Adoptions Kampagne (Sensibilisierung, Schulung und Support)?</li><li>Verfügen Sie über ein dediziertes Benutzer Adoptions-/Change Management-Team, oder können Sie in diese Ressourcen investieren, um geschäftliche Ergebnisse zu gewährleisten?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Wenn Sie &quot; &quot; alle oben genannten mit "Ja" beantwortet haben, identifizieren Sie die richtigen Stakeholder für das Change Management von Benutzern, und beginnen Sie mit der Planung der Benutzer Bereitschaft.</li><li>Wenn Sie &quot; "Nein &quot; " zu einigen oder allen oben genannten Fragen beantwortet haben, ziehen Sie es in Frage, externe Ressourcen zu verwenden, um die Aktivitäten zur Änderungsverwaltung und zur Adoptions bezogenen Aktivität für Ihre Organisation zu unterstützen.</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ Durch Optimieren des Netzwerkpfads zum globalen Microsoft-Netzwerk wird die Leis
 VPNs leisten vielen Organisationen wertvolle Dienste. Leider sind Sie in der Regel nicht für die Unterstützung von Echt Zeit Medien konzipiert oder konfiguriert. Manche VPNs unterstützen möglicherweise UDP nicht. VPNs führen auch eine zusätzliche Verschlüsselungsschicht über den bereits verschlüsselten Mediendatenverkehr ein. Zudem leidet möglicherweise aufgrund des Hairpinnings des Datenverkehrs durch ein VPN-Gerät die Effizienz der Konnektivität mit dem Microsoft Teams-Dienst.
 Darüber hinaus werden Sie nicht unbedingt aus einer Kapazitäts Perspektive entwickelt, um die erwarteten Lasten zu berücksichtigen, die von Teams benötigt werden.
 
-Es wird empfohlen, für Teams-Datenverkehr einen alternativen Pfad bereitzustellen, der das VPN umgeht. Dies wird allgemein als *VPN mit geteiltem Tunnel* bezeichnet. Split-Tunneling bedeutet, dass der Datenverkehr für Office 365 das VPN nicht durchlaufen wird, sondern direkt zu Office 365 geht. Diese Änderung hat eine positive Auswirkung auf die Qualität, bietet aber auch den sekundären Vorteil, dass die Auslastung von den VPN-Geräten und dem Netzwerk der Organisation verringert wird.
+Es wird empfohlen, für Teams-Datenverkehr einen alternativen Pfad bereitzustellen, der das VPN umgeht. Dies wird allgemein als *VPN mit geteiltem Tunnel* bezeichnet. Durch Split-Tunneling wird der Datenverkehr für Microsoft 365 oder Office 365 nicht durchlaufen, sondern direkt zu Microsoft 365 oder Office 365. Diese Änderung hat eine positive Auswirkung auf die Qualität, bietet aber auch den sekundären Vorteil, dass die Auslastung von den VPN-Geräten und dem Netzwerk der Organisation verringert wird.
 
 Wenn Sie einen geteilten Tunnel implementieren möchten, erkundigen Sie sich bei Ihrem VPN-Anbieter nach den Konfigurationsdetails.
 
@@ -153,10 +153,10 @@ Auch Plug-Ins und Connectors stellen Verbindungen über diese TCP-Ports her. Die
 
 Das Öffnen dieser Ports ist für eine zuverlässige Microsoft Teams-Bereitstellung zwingend notwendig. Das Blockieren dieser Ports wird nicht unterstützt und hat Auswirkungen auf die Medienqualität.
 
-Wenn es in Ihrer Organisation erforderlich ist, die genauen IP-Adressbereiche und Domänen anzugeben, für die diese Ports geöffnet werden sollen, können Sie die Ziel-IP-Bereiche und Zieldomänen für die Ports einschränken. Eine Liste der konkreten Ports, Protokolle und IP-Bereiche finden Sie unter [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
+Wenn es in Ihrer Organisation erforderlich ist, die genauen IP-Adressbereiche und Domänen anzugeben, für die diese Ports geöffnet werden sollen, können Sie die Ziel-IP-Bereiche und Zieldomänen für die Ports einschränken. Eine Liste der genauen Ports, Protokolle und IP-Bereiche finden Sie unter [Microsoft 365-oder Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 Wenn Sie die Ziel-IP-Adressbereiche und Zieldomänen einschränken möchten, müssen Sie die Liste der Ports und Bereiche unbedingt stets auf dem aktuellen Stand halten, da sich diese Angaben ändern können. Sie können [diesen RSS-Feed](https://go.microsoft.com/fwlink/p/?linkid=236301) abonnieren, um sich über Änderungen auf dem Laufenden zu halten. Darüber hinaus empfiehlt es sich, zu testen, ob alle Ports geöffnet werden, indem Sie das [Skype for Business-Netzwerk Bewertungs Tool](https://www.microsoft.com/download/details.aspx?id=53885) regelmäßig ausführen. Weitere Informationen zu den Funktionen dieses Tools finden Sie im nächsten Abschnitt.
 
-Falls ein Proxyserver bereitgestellt wird, empfehlen wir, den Proxyserver für alle Microsoft Teams-Dienste zu umgehen. Obwohl die Verwendung eines Proxys möglicherweise funktioniert, ist es sehr wahrscheinlich, dass die Qualität reduziert wird, da Medien gezwungen sind, TCP anstelle von UDP zu verwenden. Weitere Informationen zu Proxyservern und Umgehungen finden Sie unter [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+Falls ein Proxyserver bereitgestellt wird, empfehlen wir, den Proxyserver für alle Microsoft Teams-Dienste zu umgehen. Obwohl die Verwendung eines Proxys möglicherweise funktioniert, ist es sehr wahrscheinlich, dass die Qualität reduziert wird, da Medien gezwungen sind, TCP anstelle von UDP zu verwenden. Weitere Informationen zu Proxyservern und zur Umgehung finden Sie unter [Microsoft 365-oder Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
 
@@ -166,11 +166,11 @@ Nachdem Sie Ihre Planung und Netzwerk Vorbereitung abgeschlossen haben, einschli
 
 Sie können das [Skype for Business-Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885) herunterladen, um zu testen, ob Ihr Netzwerk für Microsoft Teams bereit ist. Das Tool bietet zwei Funktionen: Es kann zum einen testen, ob die richtigen Ports geöffnet sind, und zum anderen, ob Netzwerkbeeinträchtigungen vorliegen.
 
-Nachdem Sie das Tool heruntergeladen und installiert haben, können Sie es in C\\: Programm\\Dateien Microsoft Skype for Business-Netzwerk Bewertungstool finden. Dieses Verzeichnis enthält außerdem ein detailliertes Handbuch zur Verwendung des Tools („Usage.docx“).
+Nachdem Sie das Tool heruntergeladen und installiert haben, können Sie es in C: \\ Programmdateien \\ Microsoft Skype for Business-Netzwerk Bewertungstool finden. Dieses Verzeichnis enthält außerdem ein detailliertes Handbuch zur Verwendung des Tools („Usage.docx“).
 
 ### <a name="test-for-opened-ports"></a>Testen auf geöffnete Ports
 
-Öffnen Sie ein Eingabeaufforderungsfenster, und navigieren Sie zum Verzeichnis des Netzwerk Bewertungstools, indem Sie **CD C:\\Programmdateien\\Microsoft Skype for Business-Netzwerk Bewertungstool**eingeben. Starten Sie an der Eingabeaufforderung den Test auf geöffnete Ports, indem Sie **networkassessmenttool.exe /connectivitycheck** eingeben.
+Öffnen Sie ein Eingabeaufforderungsfenster, und navigieren Sie zum Verzeichnis des Netzwerk Bewertungstools, indem Sie **CD C: \\ Programmdateien \\ Microsoft Skype for Business-Netzwerk Bewertungstool**eingeben. Starten Sie an der Eingabeaufforderung den Test auf geöffnete Ports, indem Sie **networkassessmenttool.exe /connectivitycheck** eingeben.
 
 Nach dem Ausführen der Überprüfungen zeigt das Tool entweder die Meldung "Überprüfungen erfolgreich abgeschlossen" an oder meldet die blockierten Ports.
 Außerdem wird die Datei „Connectivity_results.txt“ generiert. Diese enthält die Ausgabe des Tools und wird im Verzeichnis „%userprofile%\\appdata\\local\\microsoft skype for business network assessment tool\\“ gespeichert.
@@ -206,7 +206,7 @@ Beachten Sie, dass beide Segmente die Anforderungen für eine Bereitstellung von
 
 Wenn aus den Ergebnissen der Bandbreitenplanung, der Porttests oder anderer Tests im Hinblick auf die Netzwerkanforderungen hervorgeht, dass das aktuelle Netzwerk vor der Bereitstellung von Microsoft Teams verbessert werden muss, haben Sie verschiedene Möglichkeiten:
 
--   Bei unzureichender Bandbreite sollten Sie die Verbindungen aktualisieren, damit der Datenverkehr zu Office 365 ungehindert fließen kann.
+-   Für unzureichende Bandbreite sollten Sie Verbindungen aktualisieren, damit der Datenverkehr zu Microsoft 365 oder Office 365 ungehindert fließen kann.
 
 -   Bei blockierten Ports sollten Sie Firewallregeln ändern und die Ports dann erneut testen.
 

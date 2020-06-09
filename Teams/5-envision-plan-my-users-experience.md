@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad827244baaacde8ee5c7166590c81347c8eea5b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021596"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610020"
 ---
 # <a name="plan-my-users-experience"></a>Planen der Benutzererfahrung
 
@@ -58,7 +58,7 @@ Informationen zu den Softwareanforderungen für Teams-Clients auf jeder Plattfor
 ## <a name="endpoint-firewalls"></a>Endpunktfirewalls
 
 Clientseitige Firewalls können erhebliche Auswirkungen auf die Benutzerfreundlichkeit haben.
-Clientseitige Firewalls können nicht nur verhindern, dass ein Anruf aufgebaut wird, sondern sich auch auf die Anrufqualität auswirken. Konfigurieren Sie die entsprechenden Ausschlüsse in der Clientfirewall anhand der Informationen unter [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips). Ihr Drittanbieter sollte über konkrete Anleitungen zum Erstellen der Ausschlüsse verfügen.
+Clientseitige Firewalls können nicht nur verhindern, dass ein Anruf aufgebaut wird, sondern sich auch auf die Anrufqualität auswirken. Konfigurieren Sie die geeigneten Ausnahmen für die Client Firewall basierend auf den Informationen in [Microsoft 365-oder Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips). Ihr Drittanbieter sollte über konkrete Anleitungen zum Erstellen der Ausschlüsse verfügen.
 
 >[!NOTE]
 > Microsoft Teams aktualisiert automatisch die Windows-Firewall mit einer entsprechenden Firewallkonfiguration.

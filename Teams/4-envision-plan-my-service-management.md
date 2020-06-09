@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: a74d07cc40adf8010c2d987e05669264f8cc1367
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862715"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610030"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -31,14 +31,14 @@ In diesem Artikel erhalten Sie eine Übersicht über die Anforderungen, die bei 
 
 ## <a name="service-management-for-teams"></a>Dienstverwaltung für Microsoft Teams
 
-Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Teams-Dienst umfasst Microsoft Office 365 und die lokal bereitgestellten Infrastrukturkomponenten (zum Beispiel das Netzwerk).
+Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Dienst "Teams" umfasst Microsoft 365 oder Office 365 und die Infrastrukturkomponenten, die lokal bereitgestellt werden (beispielsweise Netzwerke).
 
 Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Vermutlich haben Sie bereits Prozesse und Tasks implementiert, die mit vorhandenen Diensten verknüpft sind. Wahrscheinlich können Sie auf Vorhandenem aufbauen, wenn Sie jetzt die Dienstverwaltung für die zukünftige Unterstützung von Microsoft Teams planen.
 
-Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Einige Komponenten der Dienstverwaltung (die Infrastrukturkomponenten, aus denen der Office 365-Dienst selbst besteht) fallen unter die Zuständigkeit von Microsoft, während der Kunde seinen Benutzern gegenüber für die Verwaltung der verschiedenen Aspekte von Microsoft Teams, dem Netzwerk und den bereitgestellten Endpunkten verantwortlich ist.
+Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Einige Komponenten der Dienstverwaltung – die Infrastrukturkomponenten, die der Microsoft 365-oder Office 365-Dienst selbst umfasst – sind für Microsoft verantwortlich, während der Kunde seinen Benutzern zur Verwaltung der verschiedenen Aspekte von Teams, dem Netzwerk und den von Ihnen bereitgestellten Endpunkten zur Verfügung steht.
 Eine umfassende Erläuterung der Zuständigkeit des Kunden für die Verwaltung des Microsoft Teams-Diensts im Hinblick auf die für die Benutzerfreundlichkeit maßgeblichen wichtigen Komponenten finden Sie unter [Planen der Dienstverwaltung und -qualität](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
-![Diagramm der drei Komponenten der Qualität](media/plan-my-service-management-image1.png "Diagramm der drei Komponenten von Quality – Office 365-Dienst,-Netzwerk und-Endpunkte – und wie sich das Service Management auf alle drei überlappt.")
+![Diagramm der drei Komponenten der Qualität](media/plan-my-service-management-image1.png "Diagramm der drei Qualitätskomponenten – Microsoft 365 oder Office 365-Dienst,-Netzwerk und-Endpunkte – und wie die Dienstverwaltung alle drei überlappt.")
 
 <!--ENDOFSECTION-->
 

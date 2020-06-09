@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb06a50d8a61d78abd84d8bf4f54295ece6d68ab
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 82b1397e597ae6dea218a8f3c27f50d26a60d05f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997126"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610077"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -33,11 +33,11 @@ In diesem Artikel finden Sie eine Übersicht über die Anforderungen für den er
 
 Im Betriebshandbuch erhalten Sie einen Überblick über alle Aufgaben und Aktivitäten, die im Rahmen der Dienstverwaltungsfunktion für Microsoft Teams erforderlich sind.
 
-Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Teams-Dienst umfasst Microsoft Office 365 und die lokal bereitgestellten Infrastrukturkomponenten (zum Beispiel das Netzwerk).
+Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Dienst "Teams" umfasst Microsoft 365 oder Office 365 und die Infrastrukturkomponenten, die lokal bereitgestellt werden (beispielsweise Netzwerke).
 
 Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Möglicherweise haben Sie bereits Prozesse und Aufgaben implementiert, die vorhandenen Diensten zugeordnet sind. Allerdings können Sie Ihre derzeitigen Prozesse wahrscheinlich erweitern, wenn Sie planen, dass das Service-Management heute Teams in Zukunft unterstützt.
 
-Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der End-to-End-Verwaltung von Teams beteiligt sind. Wie bereits erwähnt, sind einige Komponenten des Dienst Managements – die Infrastruktur, die der Office 365-Dienst selbst umfasst – die Verantwortung von Microsoft, während Sie als Kunde für Ihre Benutzer verantwortlich sind, um die verschiedenen Aspekte von Teams, dem Netzwerk und den von Ihnen bereitgestellten Endpunkten zu verwalten.
+Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der End-to-End-Verwaltung von Teams beteiligt sind. Wie bereits erwähnt, sind einige Komponenten der Dienstverwaltung – die Infrastruktur, die der Microsoft 365-oder Office 365-Dienst selbst umfasst – für Microsoft verantwortlich, während Sie als Kunde für Ihre Benutzer verantwortlich sind, um die verschiedenen Aspekte von Teams, dem Netzwerk und den von Ihnen bereitgestellten Endpunkten zu verwalten.
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
@@ -70,7 +70,7 @@ Nachdem eine Vereinbarung abgeschlossen ist, sollten die entsprechenden Teams be
 
 ### <a name="teams-service-dependencies"></a>Teams-Dienstabhängigkeiten
 
-Microsoft Teams vereint Technologien in Office 365, um einen Hub für Teamarbeit bereitzustellen. Beispiele sind:
+Microsoft Teams vereint Technologien in Microsoft 365 oder Office 365, um einen Hub für Teamarbeit bereitzustellen. Beispiele sind:
 
 -   Azure Active Directory (Azure AD) bietet Authentifizierungs-und Autorisierungsdienste für Teams.
 
@@ -104,7 +104,7 @@ Die folgenden Abschnitte geben einen Überblick über die Aktivitäten, die für
 
 ## <a name="monitor-service-health"></a>Überwachen des Dienststatus
 
-Es ist wichtig, dass Sie den allgemeinen Status des Microsoft Teams-Diensts verstehen, damit Sie andere Personen in Ihrer Organisation proaktiv über alle Ereignisse informieren können, die sich auf den Dienst auswirken. Wie weiter oben beschrieben, sind Teams von anderen Office 365-Diensten wie Azure Active Directory, Exchange Online, SharePoint Online und OneDrive for Business abhängig. Aus diesem Grund ist es genauso wichtig, dass Sie die Integrität der abhängigen Dienste überwachen.
+Es ist wichtig, dass Sie den allgemeinen Status des Microsoft Teams-Diensts verstehen, damit Sie andere Personen in Ihrer Organisation proaktiv über alle Ereignisse informieren können, die sich auf den Dienst auswirken. Wie zuvor beschrieben, sind Teams von anderen Microsoft 365-oder Office 365-Diensten wie Azure Active Directory, Exchange Online, SharePoint Online und OneDrive for Business abhängig. Aus diesem Grund ist es genauso wichtig, dass Sie die Integrität der abhängigen Dienste überwachen.
 
 Nehmen Sie diese Aktivität in den Vorfall Verwaltungsprozess auf, um die Benutzer, den Helpdesk und ihre Betriebsteams proaktiv zu informieren, um sich auf die Behandlung von Benutzer Eskalationen vorzubereiten.
 
@@ -113,9 +113,9 @@ In den folgenden Abschnitten werden die Tools beschrieben, die Sie nutzen könne
 | Überwachungs Tool                       | Vorteile                                            | Verwendungszweck                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Microsoft 365 Admin Center                     | Verfügbar auf jedem Gerät mit einem unterstützten Browser. | Verwenden Sie diese, wenn Sie keine Echtzeitbenachrichtigungen benötigen.                                          |
-| Office 365-Administrator-App                  | Bietet Push-Benachrichtigungen für Ihr mobiles Gerät.  | Verwenden Sie diese Funktion, wenn Sie über Service-Vorfälle benachrichtigt werden möchten, während Sie unterwegs sind.                  |
+| Microsoft 365-oder Office 365-Administrator-App                  | Bietet Push-Benachrichtigungen für Ihr mobiles Gerät.  | Verwenden Sie diese Funktion, wenn Sie über Service-Vorfälle benachrichtigt werden möchten, während Sie unterwegs sind.                  |
 | Microsoft System Center               | Integration in Microsoft System Center.           | Verwenden Sie diese Funktion, wenn Sie erweiterte Überwachungsfunktionen und Benachrichtigungsunterstützung benötigen.                       |
-| Office 365 Service Communications-API | Programmgesteuerten Zugriff auf Office 365-Dienststatus.   | Verwenden Sie diese Option, wenn Sie die Integration mit einem Überwachungstool eines Drittanbieters benötigen oder eine eigene Lösung erstellen möchten. |
+| Microsoft 365 oder Office 365 Service Communications-API | Programmgesteuerten Zugriff auf Microsoft 365 oder Office 365-Dienststatus.   | Verwenden Sie diese Option, wenn Sie die Integration mit einem Überwachungstool eines Drittanbieters benötigen oder eine eigene Lösung erstellen möchten. |
 
 > [!NOTE]
 > Nur Personen, denen die Rolle **globaler Administrator** oder **Dienstadministrator** zugewiesen ist, können den Dienststatus anzeigen.
@@ -126,7 +126,7 @@ Das [Microsoft 365 Admin Center](https://portal.office.com/) bietet ein [Diensts
 
 ### <a name="monitoring-with-the-mobile-app"></a>Überwachen mit der mobilen App
 
-Die Office 365-Administrator-APP ist auf Apple IOS, Android und Windows (PC und Mobile) erhältlich. Die APP bietet Dienstadministratoren Informationen zu Dienststatus und bevorstehenden Änderungen. Die App unterstützt Push-Benachrichtigungen, mit denen Sie fast unmittelbar nach der Veröffentlichung einer Empfehlung benachrichtigt werden können. Auf diese Weise können Sie den Status, die Integrität und alle bevorstehenden Änderungen des Diensts auf dem neuesten Stand halten. Die Benachrichtigungsunterstützung macht es zum empfohlenen Überwachungstool für Administratoren. Weitere Informationen finden Sie unter:
+Die Microsoft 365-oder Office 365-Administrator-App steht unter Apple IOS, Android und Windows zur Verfügung (PC und Mobile). Die APP bietet Dienstadministratoren Informationen zu Dienststatus und bevorstehenden Änderungen. Die App unterstützt Push-Benachrichtigungen, mit denen Sie fast unmittelbar nach der Veröffentlichung einer Empfehlung benachrichtigt werden können. Auf diese Weise können Sie den Status, die Integrität und alle bevorstehenden Änderungen des Diensts auf dem neuesten Stand halten. Die Benachrichtigungsunterstützung macht es zum empfohlenen Überwachungstool für Administratoren. Weitere Informationen finden Sie unter:
 
 [Office 365 admin Mobile-App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
@@ -164,7 +164,7 @@ Sie können den Dienststatus und bevorstehende Änderungen überwachen, indem Si
 
 Microsoft Teams ist ein Cloud-basierter Dienst. Damit ist es möglich, neue Features und Funktionen in rasantem Tempo bereitzustellen. Die Bereitstellung kontinuierlicher Innovationen bietet Organisationen einen offensichtlichen Vorteil, doch müssen diese Änderungen in Ihrer Organisation angemessen verwaltet werden, um Benutzer Resistenzen oder Eskalationen an Helpdesks zu vermeiden.
 
-Updates für Teams werden automatisch für Ihre Benutzer bereit gesetzt. Ihre Benutzer verfügen immer über die neuesten Clients und Features, die im Team-Service zur Verfügung stehen. Es ist nicht möglich, den Rollout von Teams-Updates für Ihre Benutzer zu verwalten, daher ist es wichtig, Änderungen durch effektive Kommunikations-, Schulungs-und Adoptionsprogramme zu verwalten. Wenn Ihre Benutzer über die Änderung Bescheid wissen, sich über die Vorteile gebildeten und befugt sind, die neuen&mdash;Funktionen zu nutzen, können Sie sich schneller anpassen und die Änderung begrüßen.
+Updates für Teams werden automatisch für Ihre Benutzer bereit gesetzt. Ihre Benutzer verfügen immer über die neuesten Clients und Features, die im Team-Service zur Verfügung stehen. Es ist nicht möglich, den Rollout von Teams-Updates für Ihre Benutzer zu verwalten, daher ist es wichtig, Änderungen durch effektive Kommunikations-, Schulungs-und Adoptionsprogramme zu verwalten. Wenn Ihre Benutzer über die Änderung Bescheid wissen, sich über die Vorteile gebildeten und befugt sind, die neuen Funktionen zu nutzen, &mdash; können Sie sich schneller anpassen und die Änderung begrüßen.
 
 ### <a name="monitoring-for-change"></a>Überwachen auf Änderung
 

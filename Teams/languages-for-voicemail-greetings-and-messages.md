@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Informieren Sie sich, welche Sprachen Sie in Skype for Business für die standardmäßigen Systemnachrichten und Voicemail-Grußformeln festlegen können.
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904520"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638764"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
 
@@ -80,7 +80,7 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Das bekommen Sie mit Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
+[Das Telefonsystem bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
   
   
  

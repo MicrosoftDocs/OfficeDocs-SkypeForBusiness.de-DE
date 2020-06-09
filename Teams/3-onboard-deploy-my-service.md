@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862815"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610047"
 ---
 # <a name="deploy-my-service"></a>Bereitstellen des Diensts
 
@@ -33,7 +33,7 @@ Dieser Artikel enthält eine Übersicht über die Anforderungen für die ordnung
 
 Verwenden Sie dieses Textbuch, um Ihre Organisation beim erfolgreichen planen und Durchführen des Rollouts der Microsoft Teams-Sprachfeatures für eine Website-für-Standort-Basis zu unterstützen.
 
-Dieses Textbuch umfasst alle erforderlichen Aktivitäten, Empfohlene Zeitpläne und Links zu den entsprechenden Anleitungen für die einzelnen Aktivitäten und behandelt die End-to-End-Anleitung, um eine erfolgreiche Bereitstellung von Teams für eine bestimmte Website zu gewährleisten, wobei der Schwerpunkt auf Faktoren liegt, die wichtig sind. für den Benutzer.
+Dieses Textbuch umfasst alle erforderlichen Aktivitäten, Empfohlene Zeitpläne und Links zu den entsprechenden Anleitungen für die einzelnen Aktivitäten und behandelt die End-to-End-Anleitung, um eine erfolgreiche Bereitstellung von Teams für eine bestimmte Website zu gewährleisten, wobei der Schwerpunkt auf Faktoren liegt, die für den Benutzer wichtig sind.
 
 Durch Abschluss der Aktivitäten in diesem Textbuch kann Ihre Organisation:
 
@@ -44,7 +44,7 @@ Durch Abschluss der Aktivitäten in diesem Textbuch kann Ihre Organisation:
 -   Verringern Sie den Supportbedarf, und erhöhen Sie die Benutzerzufriedenheit.
 
 > [!NOTE]
-> In diesem Artikel und dem dazugehörigen Textbuch sollen nicht alle technischen Konfigurationsschritte beschrieben werden, die für die Dienstaktivierung oder die Bereitstellung von Wählton für eine bestimmte Website erforderlich sind. Stattdessen konzentrieren Sie sich auf die Aktivitäten und Aufgaben, die für Onboard-Benutzer empfohlen werden, und Sie können die Arbeitsauslastung von Teams über einen schnellen und reibungslosen Übergang mit hoher Akzeptanzrate unter minimieren, während die Supportanforderungen minimiert werden. Technische Anleitungen zur optimalen Konfiguration Ihrer Umgebung für Teams-VoIP finden Sie in den Checklisten für das Konfigurieren von [Teams-sprach Auslastungen](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Konfigurieren des direkten Routings in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Team-Kernfunktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [Netzwerk für Teams](prepare-network.md)und [Aktivieren von Office 365](onboarding-checklist-enable-office-365.md).
+> In diesem Artikel und dem dazugehörigen Textbuch sollen nicht alle technischen Konfigurationsschritte beschrieben werden, die für die Dienstaktivierung oder die Bereitstellung von Wählton für eine bestimmte Website erforderlich sind. Stattdessen konzentrieren Sie sich auf die Aktivitäten und Aufgaben, die für Onboard-Benutzer empfohlen werden, und Sie können die Arbeitsauslastung von Teams über einen schnellen und reibungslosen Übergang mit hoher Akzeptanzrate unter minimieren, während die Supportanforderungen minimiert werden. Technische Anleitungen zur optimalen Konfiguration Ihrer Umgebung für Teams-VoIP finden Sie in den Checklisten für das Konfigurieren von [Teams-sprach Auslastungen](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Konfigurieren des direkten Routings in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Team-Kernfunktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [Netzwerk für Teams](prepare-network.md)und [Aktivieren von Microsoft 365 oder Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -90,9 +90,9 @@ Unabhängig von der Größe und Komplexität des Standorts erfordert das Aktivie
 
 5. Überprüfen Sie die einzelnen Aktivitäten, führen Sie die erforderlichen Aktionen aus, und aktualisieren Sie den Status, während Sie die Zeitachse durchlaufen. Der Status wird grafisch dargestellt, wie nachstehend beschrieben:
   
-   - ![Abbildung eines grünen Häkchens](media/deploy-my-service-image3.png) "Ja" oder " **nicht zutreffend" (grün):** die Aktivität wurde abgeschlossen, oder Sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
-   - ![Abbildung eines gelben Ausrufezeichens](media/deploy-my-service-image4.png) <strong>die Aktivität ist noch nicht abgeschlossen (gelb):</strong> die Aktivität wurde noch nicht abgeschlossen und muss in Ihrem Terminplan auf "Ja" oder "Nein" aktualisiert werden.</li>
-   - ![Abbildung eines roten X, das Nein](media/deploy-my-service-image5.png) <strong>Nein (rot) angibt:</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in der Projektstatusbesprechung durchgeführt werden.</li></ul>
+   - ![Abbildung eines grünen Häkchens " ](media/deploy-my-service-image3.png) **Ja" oder "nicht zutreffend" (grün):** die Aktivität wurde abgeschlossen, oder Sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
+   - ![Abbildung eines gelben Ausrufezeichens ](media/deploy-my-service-image4.png) <strong>die Aktivität ist noch nicht abgeschlossen (gelb):</strong> die Aktivität wurde noch nicht abgeschlossen und muss in Ihrem Terminplan auf "Ja" oder "Nein" aktualisiert werden.</li>
+   - ![Abbildung eines roten X, das Nein ](media/deploy-my-service-image5.png) <strong>Nein (rot) angibt:</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in der Projektstatusbesprechung durchgeführt werden.</li></ul>
 
 6. Der Status wird in jedem Abschnitt zusammengerollt, und die Abschnittsüberschrift wird mit einer dieser Statusindikatoren formatiert. Der **wöchentliche Status** wird ebenfalls automatisch aktualisiert.
 

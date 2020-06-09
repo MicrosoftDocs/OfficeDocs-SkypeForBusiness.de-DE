@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140054"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638614"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementieren von QoS und Überwachen der Anrufqualität in Microsoft Teams
 
@@ -38,7 +38,7 @@ Im Idealfall würden Sie QoS in Ihrem internen Netzwerk beim Einrichten von Team
 
 Das Dashboard für die [**anrufanalyse und die Anrufqualität**](difference-between-call-analytics-and-call-quality-dashboard.md) wird verwendet, um im laufenden Betrieb auftretende Probleme zu finden und zu beheben.  
 
-In der **anrufanalyse** werden detaillierte Informationen zu den Geräten, Netzwerken und Verbindungen zu ***bestimmten anrufen und Besprechungen*** für jeden Benutzer in einem Microsoft Teams-oder Skype for Business-Konto angezeigt. Wenn Sie ein Office 365-Administrator sind, können Sie die anrufanalyse verwenden, um die Anrufqualität und Verbindungsprobleme in einem bestimmten Anruf zu beheben. Dies kann Ihnen helfen, Probleme zu erkennen und zu beheben.
+In der **anrufanalyse** werden detaillierte Informationen zu den Geräten, Netzwerken und Verbindungen zu ***bestimmten anrufen und Besprechungen*** für jeden Benutzer in einem Microsoft Teams-oder Skype for Business-Konto angezeigt. Wenn Sie ein Microsoft 365-oder Office 365-Administrator sind, können Sie die anrufanalyse verwenden, um die Anrufqualität und Verbindungsprobleme in einem bestimmten Anruf zu beheben. Dies kann Ihnen helfen, Probleme zu erkennen und zu beheben.
 
 Das Dashboard für die **Anrufqualität (CQD)** soll Administratoren und Netzwerk Ingenieuren helfen, Ihr ***Netzwerk***zu optimieren, nicht zu analysieren und einen einzelnen Anruf zu beheben. CQD verschiebt den Fokus von bestimmten Benutzern, um aggregierte Informationen für eine gesamte Organisation zu sehen. Dies kann Ihnen auch helfen, Probleme zu erkennen und zu beheben.
 

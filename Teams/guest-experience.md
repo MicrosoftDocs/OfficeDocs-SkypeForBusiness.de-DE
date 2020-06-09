@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902600"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637274"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -57,7 +57,7 @@ In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die j
 |Erstellen von Besprechungen oder Zugreifen auf Zeitpläne  <br/> |&#x2713;||
 |Zugreifen auf OneDrive for Business-Speicher  <br/> |&#x2713;||
 |Erstellen von mandantenweiten Richtlinien und solchen für den Gastzugriff in Teams/Kanälen  <br/> |&#x2713;||
-|Einladen eines Benutzers außerhalb der Domäne der Office 365-Organisation <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |&#x2713;||
+|Einladen eines Benutzers außerhalb der Domäne der Microsoft 365-oder Office 365-Organisation <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |&#x2713;||
 |Erstellen eines Teams  <br/> |&#x2713;||
 |Ein öffentliches Team suchen und daran teilnehmen  <br/> |&#x2713;||
 |Einsicht nehmen in das Organigramm  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 <sup>1</sup> Dieses Feature wird in Kürze verfügbar sein.
 
 > [!NOTE]
-> Office 365-Administratoren steuern die für Gäste verfügbaren Features. 
+> Microsoft 365 und Office 365-Administratoren steuern die Features, die den Gästen zur Verfügung stehen. 
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
