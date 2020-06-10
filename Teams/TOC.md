@@ -41,6 +41,7 @@
 ## [Vertraulichkeitsbezeichnungen für Teams](sensitivity-labels.md)
 ## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
 ## [Einrichten von Kanalmoderation in Teams](manage-channel-moderation-in-teams.md)
+## [Teams und Outlook-E-Mail-Integration](teams-outlook-email-integration.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Anwesenheit in Microsoft Teams](presence-admins.md)
 ## [Verwalten von Tags in Teams](manage-tags.md)
