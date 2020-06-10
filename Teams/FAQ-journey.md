@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: f61da62118229cfa16db7a476c96e9d0bdf4a65a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522668"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637044"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "44522668"
 
 ### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>Warum wird Skype for Business Online durch Microsoft Teams ersetzt?
 
-Microsoft Teams erweitert die Funktionen von Skype for Business Online, indem es Dateien, Chats und Apps in einer integrierten App zusammenführt und Funktionen bereitstellt, die Organisationen eine schnellere Entwicklung und eine effizientere Zusammenarbeit ermöglichen. Aufgrund der reichhaltig ausgestatteten Benutzeroberfläche von Teams ersetzt es Skype for Business als zentralen Kommunikationsclient für Office 365.
+Microsoft Teams erweitert die Funktionen von Skype for Business Online, indem es Dateien, Chats und Apps in einer integrierten App zusammenführt und Funktionen bereitstellt, die Organisationen eine schnellere Entwicklung und eine effizientere Zusammenarbeit ermöglichen. Aufgrund der reichhaltig ausgestatteten Benutzeroberfläche von Teams ersetzt es Skype for Business als zentralen Kommunikationsclient für Microsoft 365 und Office 365.
 
 ### <a name="when-is-the-retirement-of-skype-for-business-online"></a>Wann wird Skype for Business Online eingestellt?
 
@@ -66,7 +66,7 @@ Seit dem 1. September 2019 werden neue alle Office 365-Kunden in Microsoft Team
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>Was empfehlen Sie Kunden, die zurzeit die Bereitstellung von Skype for Business in Office 365 durchführen (oder planen)?
 
-Kunden, die derzeit Skype for Business Online bereitstellen, können dies weiterhin tun. Wir empfehlen allen neuen Office 365-Kunden, Microsoft Teams unabhängig von oder parallel zu Skype for Business zu verwenden sowie den Pfad (nur Koexistenz oder nur Microsoft Teams) und die zeitliche Planung entsprechend ihren geschäftlichen Anforderungen festzulegen. Unabhängig von ihrer Nutzungsdauer von Skype for Business Online müssen Kunden vor der Einstellung von Skype for Business Online auf Microsoft Teams umsteigen.
+Kunden, die derzeit Skype for Business Online bereitstellen, können dies weiterhin tun. Wir empfehlen allen neuen Microsoft 365- und Office 365-Kunden, Microsoft Teams unabhängig von oder parallel zu Skype for Business zu verwenden sowie den Pfad (nur Koexistenz oder nur Microsoft Teams) und die zeitliche Planung entsprechend ihren geschäftlichen Anforderungen festzulegen. Unabhängig von ihrer Nutzungsdauer von Skype for Business Online müssen Kunden vor der Einstellung von Skype for Business Online auf Microsoft Teams umsteigen.
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Welche Unterstützung bieten Sie Kunden, die zu Teams wechseln möchten, insbesondere den Kunden, die sehr viel in Skype for Business Online investiert haben?
 
@@ -74,7 +74,7 @@ Wir empfehlen allen Skype for Business-Kunden, mit der Bereitstellung von Micros
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>Was bedeutet das aus der Perspektive der Lizenzierung? Wie wird die Nutzung der Dienste für intelligente Kommunikation in Microsoft Teams abgerechnet?
 
-Microsoft Teams ist in Office 365-Suites verfügbar. Funktionen, bei denen es sich heute in Skype for Business Online um Premium-Arbeitsauslastungen handelt, gelten auch in Teams als Premium-Arbeitsauslastungen. Vorhandene Lizenzen werden nach Microsoft Teams übertragen. Wenn ein Kunde beispielsweise die eigenständige Audiokonferenzfunktion oder Audiokonferenzen als Bestandteil von E5 mit Skype for Business gekauft hat, sind Audiokonferenzen in ihrer heute verfügbaren Form auch in Microsoft Teams aktiviert.
+Microsoft Teams ist in Microsoft 365- und Office 365-Suites verfügbar. Funktionen, bei denen es sich heute in Skype for Business Online um Premium-Arbeitsauslastungen handelt, gelten auch in Teams als Premium-Arbeitsauslastungen. Vorhandene Lizenzen werden nach Microsoft Teams übertragen. Wenn ein Kunde beispielsweise die eigenständige Audiokonferenzfunktion oder Audiokonferenzen als Bestandteil von E5 mit Skype for Business gekauft hat, sind Audiokonferenzen in ihrer heute verfügbaren Form auch in Microsoft Teams aktiviert.
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Plant Microsoft geplante Upgrades?
 
@@ -172,7 +172,7 @@ Ja, Microsoft Teams steht für die US Government Cloud Community (GCC) zur Verf�
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Was ist der Plan für Onlinesprachfunktionen von Microsoft?
 
-Das Herzstück unserer Sprachlösung ist das heute zur Verfügung stehende Telefonsystem. Kunden können darüber hinaus einen Microsoft-Anrufplan hinzufügen, der vollständige Anrufunterstützung, einschließlich Rufnummernerwerb und -zuordnung direkt in Office 365, bietet. Kunden, die ihre Telekommunikations/Telefonanschlüsse beibehalten möchten, können das direkte Routing verwenden, das als Bestandteil des Telefonsystems bereitgestellt wird. Sie können beide Lösungen kombinieren und an die Anforderungen Ihrer Organisation bezüglich einer umfassenden Sprachlösung anpassen.
+Das Herzstück unserer Sprachlösung ist das heute zur Verfügung stehende Telefonsystem. Kunden können darüber hinaus einen Microsoft-Anrufplan hinzufügen, der vollständige Anrufunterstützung, einschließlich Rufnummernerwerb und -zuordnung direkt in Microsoft 365 oder Office 365, bietet. Kunden, die ihre Telekommunikations/Telefonanschlüsse beibehalten möchten, können das direkte Routing verwenden, das als Bestandteil des Telefonsystems bereitgestellt wird. Sie können beide Lösungen kombinieren und an die Anforderungen Ihrer Organisation bezüglich einer umfassenden Sprachlösung anpassen.
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>Welchen Rat geben Sie Kunden, die das Telefonsystem (Cloud-PBX) bereits in Skype for Business Online bereitgestellt haben?
 
@@ -190,7 +190,7 @@ An der Verfügbarkeit von Audiokonferenzen ergeben sich keine Änderungen aufgru
 
 ### <a name="are-third-party-audio-conferencing-providers-acp-supported-in-teams"></a>Werden Drittanbieter für Audiokonferenzen in Microsoft Teams unterstützt?
 
-Zurzeit ist nicht geplant, Drittanbieter für Audiokonferenzen in Microsoft Teams zu unterstützen. Wir glauben, dass Kunden Audiokonferenzen in Microsoft Teams und Skype for Business am besten über unsere Audiokonferenzdienste in Office 365 nutzen können. Kunden, die Unterstützung für Audiokonferenzanbieter in Skype for Business-Besprechungen nutzen möchten, können weiterhin ihren Skype for Business-Client verwenden, um an Skype for Business-Besprechungen teilzunehmen. Besprechungen, die in Microsoft Teams geplant werden, müssen die Audiokonferenzdienste von Office 365 nutzen.
+Zurzeit ist nicht geplant, Drittanbieter für Audiokonferenzen in Microsoft Teams zu unterstützen. Wir glauben, dass Kunden Audiokonferenzen in Microsoft Teams und Skype for Business am besten über unsere Audiokonferenzdienste nutzen können. Kunden, die Unterstützung für Audiokonferenzanbieter in Skype for Business-Besprechungen nutzen möchten, können weiterhin ihren Skype for Business-Client verwenden, um an Skype for Business-Besprechungen teilzunehmen. Besprechungen, die in Microsoft Teams geplant werden, müssen die Audiokonferenzdienste von Microsoft 365 oder Office 365 nutzen.
 
 Die Unterstützung für die Integration von externen Audiokonferenzanbietern (ACP) in Skype for Business Online wurde bis zum 31. Juli 2021 verlängert, um zusätzliche Zeit für die Umstellung zu geben, allerdings mit eingeschränkter Unterstützung die verbleibenden aktiven Mandanten.  Dies ist ein Update der im April 2018 angekündigten AKP-Zeitachse.
 

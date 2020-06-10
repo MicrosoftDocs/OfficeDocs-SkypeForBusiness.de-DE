@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951270"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638844"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -41,7 +41,7 @@ Alle folgenden Konzepte und Definitionen beeinflussen die Entscheidungen, die Si
 
 **Microsoft Teams**
 
-Ein _Team_ ist eine Sammlung von Personen, Inhalten und Tools, die die Zusammenarbeit unterstützen. Ein Team definiert, wer seine Mitglieder sind und welche Berechtigungen und Richtlinien für diese Mitglieder gelten. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. Ebenso wie andere Microsoft 365-Gruppen verfügen Teams automatisch über ein Exchange-Postfach, eine SharePoint-Website, ein OneNote-Notizbuch und andere Office 365-Ressourcen. [Weitere Informationen zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Ein _Team_ ist eine Sammlung von Personen, Inhalten und Tools, die die Zusammenarbeit unterstützen. Ein Team definiert, wer seine Mitglieder sind und welche Berechtigungen und Richtlinien für diese Mitglieder gelten. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Microsoft 365-Gruppen werden mit dem Team synchronisiert. Ebenso wie andere Microsoft 365-Gruppen verfügen Teams automatisch über ein Exchange-Postfach, eine SharePoint-Website, ein OneNote-Notizbuch und andere Office 365-Ressourcen. [Weitere Informationen zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Kanäle**
 
@@ -141,7 +141,7 @@ Teams können durch verschiedene Methoden entstehen. Beispiele:
 
 -   Erstellen Sie das Team von Grund auf. Fügen Sie Mitglieder hinzu, indem Sie einzelne E-Mail-Aliase oder Benutzernamen verwenden oder eine Verteilerliste erweitern.
 -   Erstellen Sie das Team aus einem vorhandenen Team, dessen Kanalkonfiguration und App-Konfigurationen Sie als Vorlage verwenden. Optional können Sie auch die Mitgliederliste dieses Teams verwenden.
--   Fügen Sie ein Team zu einer vorhandenen Office 365-Gruppe hinzu. Damit erhält das Team auch Zugriff auf das zugehörige Postfach und die entsprechende SharePoint-Website.
+-   Fügen Sie ein Team zu einer vorhandenen Microsoft 365-Gruppe hinzu. Damit erhält das Team auch Zugriff auf das zugehörige Postfach und die entsprechende SharePoint-Website.
 -   Verwenden Sie zum Erstellen von Teams die Teams-APIs für Microsoft Graph oder PowerShell-Cmdlets. Die APIs können programmgesteuert Teams auf der Grundlage von Attributen des globalen Adressbuchs (wie zum Beispiel Region oder Abteilung) oder von Geschäftsprozessen (z. B. Kundenverpflichtungen oder Kurslisten) erstellen.
 
 Unter den folgenden Links finden Sie weitere Informationen zum Organisieren Ihrer Teams:

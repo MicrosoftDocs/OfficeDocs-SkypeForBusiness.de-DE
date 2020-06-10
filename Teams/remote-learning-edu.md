@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139238"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638524"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -69,9 +69,9 @@ Sie müssen die folgenden beiden Schritte ausführen, um Teams einzurichten und 
 
 ### <a name="1-allow-users-to-create-teams"></a>1. Benutzern das Erstellen von Teams erlauben
 
-Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer die Teams-Umgebung anpassen können, besteht in der Erstellung von an die jeweiligen Anforderungen maßgeschneiderten Teams. **Standardmäßig kann jeder Microsoft 365-Gruppen und -Teams erstellen**. Es kann vorkommen, dass diese Funktion nicht angemessen ist. So möchten einige Kunden beispielsweise die Erstellung von Teams durch Schüler in Grundschulen und weiterführenden Schulen einschränken. Bei Bedarf kann die Erstellung von Office 365-Gruppen und -Teams [auf bestimmte Sicherheitsgruppen innerhalb Ihrer Umgebung beschränkt werden](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer die Teams-Umgebung anpassen können, besteht in der Erstellung von an die jeweiligen Anforderungen maßgeschneiderten Teams. **Standardmäßig kann jeder Microsoft 365-Gruppen und -Teams erstellen**. Es kann vorkommen, dass diese Funktion nicht angemessen ist. So möchten einige Kunden beispielsweise die Erstellung von Teams durch Schüler in Grundschulen und weiterführenden Schulen einschränken. Bei Bedarf kann die Erstellung von Microsoft 365-Gruppen und -Teams [auf bestimmte Sicherheitsgruppen innerhalb Ihrer Umgebung beschränkt werden](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
-Einrichtungen aus dem Hochschulbereich profitieren besonders, wenn sie allen Benutzern, einschließlich Schülern/Studenten, das Erstellen von Teams für Kurse, Recherchen, Gruppenprojekte und Lerngruppen ermöglichen. Grundschulen und weiterführende Schulen möchten das Erstellen von Teams durch Schüler möglicherweise einschränken, um sicherzustellen, dass die gesamte Schülerkommunikationen in einem Forum stattfinden, an dem mindestens ein Erwachsener teilnimmt. In diesem Fall kann die Erstellung von Office 365-Gruppen und -Teams auf alle Lehrkräfte und Mitarbeiter beschränkt werden.
+Einrichtungen aus dem Hochschulbereich profitieren besonders, wenn sie allen Benutzern, einschließlich Schülern/Studenten, das Erstellen von Teams für Kurse, Recherchen, Gruppenprojekte und Lerngruppen ermöglichen. Grundschulen und weiterführende Schulen möchten das Erstellen von Teams durch Schüler möglicherweise einschränken, um sicherzustellen, dass die gesamte Schülerkommunikationen in einem Forum stattfinden, an dem mindestens ein Erwachsener teilnimmt. In diesem Fall kann die Erstellung von Microsoft 365-Gruppen und -Teams auf alle Lehrkräfte und Mitarbeiter beschränkt werden.
 
 Eine exemplarische Vorgehensweise zum Erstellen von Teams finden Sie hier: [Erstellen eines Kursteams in Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
 
