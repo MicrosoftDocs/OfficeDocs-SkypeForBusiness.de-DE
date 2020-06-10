@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591295"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666107"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -78,6 +78,7 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 
 | Hersteller        | Modell                                                     | Qualifizierten      | Certified-Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra              | Speak 750 Freisprecheinrichtung mit Jabra Link 370 USB-Dongle       | 5/21/2020 | Certified für Microsoft Teams|
 | Epos                | Sennheiser ADAPT 660-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
 | Epos                | Sennheiser ADAPT 560-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
 | Epos                | Sennheiser ADAPT 460T-Headset                             | 5/15/2020      | Certified für Microsoft Teams                          |

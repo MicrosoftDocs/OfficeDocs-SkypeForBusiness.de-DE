@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e1577000dfe1adcdbc7c1bb0c03ce6c90aa3b29f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349769"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666287"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 
@@ -56,7 +56,7 @@ Bewährte Methode: wenden Sie sich an ihre Champions-Community, um über neue In
 
 Es gibt drei Arten von Berichten, die Sie überprüfen sollten, während Sie Microsoft Teams bereitstellen und übernehmen:
 
-- [Dienststatus](https://status.office365.com/) – sowohl von Microsoft 365 oder Office 365 als auch von ihrer internen IT-Supportabteilung.
+- [Dienststatus](https://status.office365.com/) – von Microsoft 365, Office 365 und ihrer internen IT-Supportabteilung.
 - [Dienstaktivität](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – von Microsoft 365 oder Office 365 aus können Sie [Berichte zu Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)anzeigen. Sie können auch Informationen aus anderen Systemen in Ihrer Organisation verwenden.
 - Service-Zufriedenheit – zusammengestellt aus internen Community-Foren und Umfragen zu bestimmten Erfahrungen
 

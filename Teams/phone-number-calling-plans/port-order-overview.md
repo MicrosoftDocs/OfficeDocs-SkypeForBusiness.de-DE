@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Verschaffen Sie sich einen Überblick darüber, was Port Bestellungen sind und wie Sie Telefonnummern von Ihrem Dienstanbieter in Teams übertragen können.
-ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227539"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665897"
 ---
 # <a name="whats-a-port-order"></a>Was ist ein Portierungsauftrag?
 
@@ -65,7 +65,7 @@ Im Allgemeinen können Sie eine beliebige Telefonnummer von einem unterstützten
 
 - VoIP-Telefonnummern von einem Telefonanbieter wie Vonage oder RingCentral.
 
-- Skype for Business-Hybrid-Telefonnummern. Wenn Sie diese Nummern übertragen möchten, senden Sie uns <ptn@microsoft.com>eine e-Mail an.
+- Skype for Business-Hybrid-Telefonnummern. Wenn Sie diese Nummern übertragen möchten, senden Sie uns eine e-Mail an <ptn@microsoft.com> .
 
   **Sie können nicht übertragen:**
   
@@ -112,7 +112,7 @@ Sie müssen beispielsweise eine eindeutige Nummer-Portierungs Anfrage für jeden
 
 - Handynummern
 
-- Dienstnummern, die für Audiokonferenzen in Office 365 verwendet werden können.
+- Dienstnummern, die für Audiokonferenzen in Microsoft 365 oder Office 365 verwendet werden können.
 
 Hier finden Sie weitere Informationen zum Übermitteln von Nummern Portierungs Anfragen für jeden dieser Arten von Nummern:
   
@@ -131,7 +131,7 @@ Hier finden Sie weitere Informationen zum Übermitteln von Nummern Portierungs A
 
 Nachdem Sie die Portierungs Auftragsanforderung abgeschlossen haben, dauert es zwischen 7-14 Tage, verarbeitet zu werden. Je nach Dienstanbieter kann es jedoch bis zu 30 Tage dauern. Nachdem die Telefonnummern übertragen wurden, erhalten Sie eine e-Mail von uns, damit Sie es sich gut gehen lassen können.
   
-Wenn Sie den Status Ihrer Portierungs Reihenfolge überprüfen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > -**Telefonnummern**, und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet.
+Wenn Sie den Status Ihrer Portierungs Reihenfolge überprüfen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Telefonnummern**, und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet.
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Können Benutzer (Teilnehmer-) Telefonnummern in Service-Nummern umgewandelt werden?
 <a name="bkmk_type_1"> </a>

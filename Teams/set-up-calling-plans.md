@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren ansichtspläne, kaufen & Lizenzen zuweisen, Telefonnummern erhalten und Notfalladressen & Speicherorten hinzufügen.
-ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042402"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666237"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
@@ -57,7 +57,7 @@ Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal können Sie (je nach Land/Region) Ihre neuen Telefonnummern nicht über das Skype for Business Admin Center beziehen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahlen. Wenn dies der Fall ist, müssen Sie ein Formular herunterladen und an uns zurücksenden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Schritt 4: Notfalladressen und -standorte für Ihr Unternehmen hinzufügen
-<a name="bkmk_add_addresses"> </a> Eine Notrufadresse muss einer Telefonnummer zugeordnet sein. Wann diese Zuordnung geschieht, ist für die einzelnen Länder und Regionen unterschiedlich. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen. 
+<a name="bkmk_add_addresses"> </a> Eine Notrufadresse muss einer Telefonnummer zugeordnet sein. Wann diese Zuordnung geschieht, ist für die einzelnen Länder und Regionen unterschiedlich. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuweisen, wenn Sie die Telefonnummern von Microsoft 365 oder Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen. 
 
 Informationen zum Notruf und zur Verwaltung von Notrufen finden Sie unter [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md) und [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md).
     

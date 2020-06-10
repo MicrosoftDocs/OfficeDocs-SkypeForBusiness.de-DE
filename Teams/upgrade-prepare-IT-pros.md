@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d4170d949daa9c53cb8035ab0a3249e4127ca3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523048"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666217"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Vorbereiten der IT-Mitarbeiter für Microsoft Teams
 
@@ -37,7 +37,7 @@ Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upg
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Ihre Office 365-Organisationsadministratoren, technischen Leads und der Support Desk sind für eine qualitativ hochwertige Benutzererfahrung verantwortlich. Dies umfasst die Gewährleistung, dass Ihr Netzwerk bereit ist, Teams zu unterstützen, Teams für Ihre Benutzer zu konfigurieren und Probleme, die möglicherweise auftreten können, effektiv zu beheben und zu beheben.
+Ihre Microsoft 365-oder Office 365-Organisationsadministratoren, technischen Leads und der Support-Desk sind für eine qualitativ hochwertige Benutzererfahrung verantwortlich. Dies umfasst die Gewährleistung, dass Ihr Netzwerk bereit ist, Teams zu unterstützen, Teams für Ihre Benutzer zu konfigurieren und Probleme, die möglicherweise auftreten können, effektiv zu beheben und zu beheben.
 
 Geben Sie die folgenden Ressourcen für Ihre IT-Mitarbeiter frei, und bestätigen Sie, dass Sie bereit sind, Benutzer zu unterstützen, bevor Sie mit dem Upgrade auf Teams beginnen:
 

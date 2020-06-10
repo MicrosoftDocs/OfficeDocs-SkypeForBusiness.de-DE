@@ -1,5 +1,5 @@
 ---
-title: Was ist das Telefonsystem in Office 365?
+title: Was ist das Telefon System?
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: In diesem Artikel erfahren Sie mehr über die Telefon System Technologie in Microsoft Office 365.
-ms.openlocfilehash: e3db8806733cff76ba69c19338c9d562bdbe6e83
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: In diesem Artikel erfahren Sie mehr über die Telefon System Technologie in Microsoft 365 und Office 365.
+ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951220"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666127"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
+# <a name="what-is-phone-system"></a>Was ist das Telefon System?
 
-Eine Private Branch Exchange (PBX) ist eine Telefonanlage innerhalb eines Unternehmens. Telefon System in Office 365 bietet Ihnen PBX-Funktionen, aber ohne komplizierte und kostspielige Geräte. 
+Eine Private Branch Exchange (PBX) ist eine Telefonanlage innerhalb eines Unternehmens. Telefon System bietet Ihnen PBX-Funktionen, aber ohne komplizierte und kostspielige Geräte. 
 
-Mit dem Telefon System können Sie Ihr vorhandenes lokales PBX-System durch eine Reihe von Features ersetzen, die von Office 365 bereitgestellt werden, das eng in Ihre Cloud-Umgebung integriert ist. Weitere Informationen zu den Features finden Sie unter [was Sie mit dem Telefon System in Office 365 erhalten](here-s-what-you-get-with-phone-system.md).
+Mit dem Telefon System können Sie Ihr vorhandenes lokales PBX-System durch eine Reihe von Features ersetzen, die von Microsoft 365 oder Office 365 bereitgestellt werden und eng in Ihre Cloud-Umgebung integriert sind. Weitere Informationen zu den Features finden Sie unter [was Sie mit dem Telefon System erhalten](here-s-what-you-get-with-phone-system.md).
 
 ## <a name="phone-system-technology"></a>Telefon System Technologie
 
-Telefon System ermöglicht Anrufsteuerung und Telefonanlagenfunktionen in der Office 365-Cloud mit Microsoft Teams und Skype for Business Online. 
+Telefon System ermöglicht Anrufsteuerung und PBX-Funktionen in der Cloud mit Microsoft Teams und Skype for Business Online. 
   
 Mit dem Telefon System können Benutzer Teams oder Skype for Business Online verwenden, um Anrufe zu tätigen und zu empfangen, Anrufe zu übertragen sowie Anrufe stummzuschalten oder stummzuschalten. Telefon System Benutzer können in Ihrem Adressbuch auf einen Namen klicken und Teams oder Skype for Business Online-Anrufe an diese Person tätigen. Um Anrufe zu tätigen und zu empfangen, können Telefon System Nutzer Ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen nutzen, die mit Teams und Skype for Business Online funktionieren. Telefon System Administratoren können Anrufoptionen und-Einstellungen über die gleiche Konsole verwalten, die für Messaging, Zusammenarbeit usw. verwendet wird.
   
@@ -48,7 +48,7 @@ Für Anrufe außerhalb Ihrer Organisation bietet Microsoft mehrere Optionen zum 
   
 Das Telefon System kann auf eine von zwei Arten mit dem PSTN verbunden werden:
   
-- Erwerben Sie einen Microsoft-Anrufplan (im in-und Ausland) für Office 365. Microsoft Calling Plan ist eine vollständige Cloud-Lösung mit Microsoft als PSTN-Netzbetreiber. Weitere Informationen finden Sie unter [Telefon System und Anrufpläne](calling-plan-landing-page.md).
+- Erwerben Sie einen Microsoft-Anrufplan (im in-und Ausland). Microsoft Calling Plan ist eine vollständige Cloud-Lösung mit Microsoft als PSTN-Netzbetreiber. Weitere Informationen finden Sie unter [Telefon System und Anrufpläne](calling-plan-landing-page.md).
 
 - Verwenden Sie Ihre vorhandene Telefonie-Infrastruktur für lokale PSTN-Konnektivität.
 
@@ -67,7 +67,7 @@ Das Telefon System kann auf eine von zwei Arten mit dem PSTN verbunden werden:
 
 - **Voicemail** – Wenn Sie eine Telefon System-Lizenz für einen Benutzer erhalten, kann dieser Nutzer Voicemail erhalten, die von Anrufern hinterlassen wurde. Cloud Voicemail für Telefonsysteme wird automatisch eingerichtet und für die Benutzer bereitgestellt, nachdem Sie den Benutzern eine Telefonsystemlizenz und eine Telefonnummer zugewiesen haben. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-Weitere Informationen zu Features finden Sie unter [was Sie mit dem Telefon System in Office 365 erhalten](here-s-what-you-get-with-phone-system.md). Wenn Sie bereit für die ersten Schritte sind, lesen Sie [Einrichten des Telefonsystems in Ihrer Organisation](setting-up-your-phone-system.md).
+Weitere Informationen zu Funktionen finden Sie unter [was Sie mit dem Telefon System erhalten](here-s-what-you-get-with-phone-system.md). Wenn Sie bereit für die ersten Schritte sind, lesen Sie [Einrichten des Telefonsystems in Ihrer Organisation](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Befolgen Sie diesen beschleunigten zehnstufigen Aktionsplan, um von einer grundlegenden Einrichtung von Skype for Business zur Einrichtung von Microsoft Teams zu wechseln.
 localization_priority: Normal
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904470"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666227"
 ---
 # <a name="upgrade-basic"></a>Upgrade Basic
 
@@ -50,7 +50,7 @@ Was geschieht mit Skype for Business nach dem Upgrade? Nach dem Upgrade der Benu
 
 Lesen Sie die diesbezüglichen [häufig gestellten Fragen (FAQ)](https://aka.ms/SkypeToTeams-FAQ), wenn Sie weitere Fragen zu Ihrem Upgrade haben.
 
-Sie sind mit Teams noch nicht vertraut? [Hier erfahren Sie, wie Teams](https://products.office.com/microsoft-teams/group-chat-software) Unterhaltungen, Besprechungen, Dateien, Office-Anwendungen und Integrationen von Drittanbietern zusammenführt und dadurch einen zentralen Hub für die Teamarbeit in Office 365 bietet.
+Sie sind mit Teams noch nicht vertraut? [Informieren Sie sich darüber, wie Teams](https://products.office.com/microsoft-teams/group-chat-software) Unterhaltungen, Besprechungen, Dateien, Office-Apps und Integrationen von Drittanbietern zusammenbringen – ein einziger Hub für Teamarbeit in Microsoft 365 und Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -100,7 +100,7 @@ Benutzer, die Skype for Business intensiv verwendet haben, benötigen möglicher
 
 **Ressourcen:**
 
-- [Siehe Nutzungsdaten in Aktivitätsberichten in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Microsoft 365-Berichte im Admin Center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [Nach oben](#about-upgrade-basic)
 
@@ -164,7 +164,7 @@ Die Benutzer sind von ihren täglichen Aufgaben in Anspruch genommen. Durch eine
 
 *(Upgradetag)*
 
-Heute führt Ihr Unternehmen offiziell das Upgrade auf Teams als Lösung für Kommunikation und Zusammenarbeit durch. Aktivieren Sie im Microsoft Teams Admin Center den Upgrade-Schalter, indem Sie als Koexistenzmodus **Teams only (Nur Microsoft Teams)** festlegen. (Wechseln Sie im Admin Center zu **organisationsweiten Einstellungen** > **Teams Upgrade**.) Die Benutzer erhalten eine Benachrichtigung in Ihrem Skype for Business-Client, dass Sie auf Teams aktualisiert wurden.
+Heute führt Ihr Unternehmen offiziell das Upgrade auf Teams als Lösung für Kommunikation und Zusammenarbeit durch. Aktivieren Sie im Microsoft Teams Admin Center den Upgrade-Schalter, indem Sie als Koexistenzmodus **Teams only (Nur Microsoft Teams)** festlegen. (Wechseln Sie im Admin Center zu den **organisationsweiten Einstellungen**  >  . **Teams-Upgrade**.) Die Benutzer erhalten eine Benachrichtigung in Ihrem Skype for Business-Client, dass Sie auf Teams aktualisiert wurden.
 
 Wir empfehlen, allen Benutzern nach deren Upgrade eine E-Mail zu senden, in der Sie sie in Teams willkommen heißen.
 

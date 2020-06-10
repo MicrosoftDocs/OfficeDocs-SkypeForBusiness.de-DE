@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten, um die Konsistenz beim Verwalten von Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und zu gewährleisten.
-ms.openlocfilehash: 62151d9356e414f0f527e597492be685c0067fd0
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 0fc612f4f04e0a57176ac985b40de029d42c5e9e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44412535"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669408"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
@@ -53,10 +53,8 @@ Teams umfasst derzeit die folgenden Richtlinien Pakete.
 |Healthcare Information Worker  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die Information Worker wie IT-Personal, Informatik Personal, Finanz Personal und Compliance Officer, vollständigen Zugriff auf Chats, Anrufe und Besprechungen bereitstellen.|
 |Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patienten Räume in Ihrer Gesundheitsorganisation gelten.|
 |Benutzer für kleine und mittelständische Unternehmen (Business-VoIP) |Erstellt eine APP-Setup-Richtlinie, die die apps für ein Business-VoIP-Erlebnis umfasst.|
-|Benutzer für kleine und mittelständische Unternehmen (ohne Business-VoIP) |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für kleine und mittelständische Unternehmen ohne Business-VoIP-Features gelten.|
+|Benutzer für kleine und mittelständische Unternehmen (ohne Business-VoIP) |Erstellt eine Richtlinie für die APP-Einrichtung, die für Benutzer von kleinen und mittleren Unternehmen relevant ist (Non-Business-VoIP-Erfahrung).
 |Beauftragter für öffentliche Sicherheit   |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten.|
-
-
 
 > [!NOTE]
 > Es werden weitere Richtlinien Pakete in zukünftigen Versionen von Teams hinzugefügt, daher sollten Sie sich über die neuesten Informationen informieren.  

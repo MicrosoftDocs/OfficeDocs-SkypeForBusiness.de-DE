@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht bereitstellen, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: 9c2593f657ae66a1dcde825ac7a783df10cd96d8
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523788"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669398"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -48,6 +48,7 @@ Alle Anrufe in der Warteschlange werden mithilfe einer der folgenden Methoden an
 
 - Beim Attendant-Routing klingelt der erste Anruf in der Warteschlange alle Agents gleichzeitig.
 - Beim seriellen Routing klingelt der erste Anruf in der Warteschlange alle Anruf-Agents einzeln.
+- Beim längsten Leerlauf-Routing erhält der Anruf-Agent, dessen Leerlauf die längste Zeit war, den nächsten verfügbaren Anruf. Bei der Leerlaufzeit handelt es sich um die Zeitdauer, die der Anwesenheitsstatus eines Anruf-Agents zum Zeitpunkt des Anrufs auf " **verfügbar** " oder " **Abwesend** " (wenn weniger als 10 Minuten) festgelegt ist. Wenn die Anwesenheit eines Anruf Agenten für mehr als 10 Minuten **Abwesend** ist, wird der Leerlaufzeitgeber zurückgesetzt.
 - Bei Round Robin wird das Routing von eingehenden Anrufen ausgeglichen, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält.
 
 Mit einer der oben genannten Methoden können Sie Optionen für die Anrufbehandlung festlegen, wie beispielsweise die Option zum Deaktivieren des Agents, Anwesenheits basiertes Routing, Wartezeiten für Anrufe und Anruf Timeouts.
@@ -166,7 +167,7 @@ Sie können bis zu 200-Anruf-Agents auswählen, die zu einer der folgenden Maili
 - Sicherheitsgruppe
 - Verteilerliste
 
-Ausgewählte Anruf-Agents müssen eine der folgenden sein:
+Ausgewählte Anruf-Agents müssen eine der folgenden sein: 
 
 - Online-Benutzer mit einer Telefon System Lizenz und Enterprise-VoIP aktiviert
 - Online Benutzer mit einem Anrufplan
@@ -203,18 +204,24 @@ Nachdem der Konferenzmodus in einer Anrufwarteschlange aktiviert wurde, profitie
 Die meisten Anrufe werden über eine der oben aufgeführten Methoden empfangen. Wenn ein Anruf über eine andere Methode (beispielsweise einen VoIP-Anruf von einem Skype for Business-Client) empfangen wird, wird der Anruf weiterhin zur Anrufwarteschlange hinzugefügt, aber er profitiert nicht von der kürzeren Verbindungszeit.
 
 ![Symbol der Zahl 3, verweist auf eine Legende in der vorherigen Screenshot ](media/teamscallout3.png)
- **-Routing Methode** Sie können entweder **Attendant**, **Serial**oder **Round Robin** als Verteilungsmethode auswählen. Standardmäßig sind für alle neuen und vorhandenen Anrufwarteschlangen das Attendant-Routing ausgewählt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
+ **-Routing Methode** Sie können entweder **Attendant**, **seriell**, am **längsten Leerlauf**oder **Round Robin** als Verteilungsmethode auswählen. Standardmäßig sind für alle neuen und vorhandenen Anrufwarteschlangen das Attendant-Routing ausgewählt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 
 - Das **Attendant-Routing** bewirkt, dass der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig klingelt. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 - **Serielles Routing** eingehende Anrufe Klingeln alle Anruf-Agents eins nach dem anderen vom Anfang der Anruf Agentenliste. Agents können nicht in der Liste der Anruf-Agents bestellt werden. Wenn ein Agent einen Anruf abschließt oder nicht annimmt, klingelt der Anruf beim nächsten Agenten und versucht alle Agenten, bis er abgeholt wird oder ein Timeout annimmt.
+- **Längste Leerlauf** -Routen der nächste verfügbare Anruf an den Anruf-Agenten, dessen Leerlauf die längste Zeit war. Bei der Leerlaufzeit handelt es sich um die Zeitdauer, die der Anwesenheitsstatus eines Anruf-Agents zum Zeitpunkt des Anrufs auf " **verfügbar** " oder " **Abwesend** " (wenn weniger als 10 Minuten) festgelegt ist. Wenn die Anwesenheit eines Anruf Agenten für mehr als 10 Minuten auf **Abwesend** festgelegt ist, wird der Leerlaufzeitgeber zurückgesetzt. Anwesenheitsstatus von Benutzern werden jede Minute abgefragt.
+
+    Es ist wichtig zu wissen, dass durch Aktivieren dieser Einstellung das **anwesenheitsbasierte Routing** ebenfalls aktiviert ist.
+
+    > [!IMPORTANT]
+    > Agenten, die den Skype for Business-Client verwenden, erhalten keine Anrufe, wenn die längste Leerlauf-Einstellung aktiviert ist. Wenn Sie Agenten haben, die Skype oder Business nutzen, aktivieren Sie diese Einstellung nicht.
 - **Round Robin** balanciert das Routing von eingehenden Anrufen aus, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält. Dies kann in einer eingehenden Vertriebsumgebung wünschenswert sein, um die Chancengleichheit zwischen allen Anruf Agenten zu gewährleisten.
 
 ![Symbol der Zahl 4, verweist auf eine Legende im vorherigen Screenshot ](media/teamscallout4.png)
- **Anwesenheits** basiertes Routing-Anwesenheits basiertes Routing verwendet den Verfügbarkeitsstatus von Anruf-Agents, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar**ändert.
+ **Anwesenheits** basiertes Routing-Anwesenheits basiertes Routing verwendet den Verfügbarkeitsstatus von Anruf-Agents, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar**ändert.  
 
 Sie können das anwesenheitsbasierte Anrufrouting mit einer der Routingmethoden aktivieren.
 
-Wenn sich ein Agent für das Abrufen von Anrufen entscheidet, wird er nicht in die Anruf Weiterleitungsliste aufgenommen, unabhängig davon, auf welchen Verfügbarkeitsstatus er festgesetzt ist.
+Wenn sich ein Agent für das Abrufen von Anrufen entscheidet, wird er nicht in die Anruf Weiterleitungsliste aufgenommen, unabhängig davon, auf welchen Verfügbarkeitsstatus er festgesetzt ist. 
 
 > [!IMPORTANT]
 > Agents, die den Skype for Business-Client verwenden, sind nicht in der Anruf Weiterleitungsliste enthalten, wenn das anwesenheitsbasierte Routing unabhängig von deren Verfügbarkeitsstatus aktiviert ist. Agenten, die nicht in der Anruf Weiterleitungsliste sind, erhalten keine Anrufe. Wenn Sie über Agenten verfügen, die Skype for Business verwenden, aktivieren Sie das anwesenheitsbasierte Anrufrouting nicht.
@@ -267,11 +274,11 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Umleitung zu** Wenn Sie diese Option auswählen, wählen Sie eine der folgenden Optionen aus:
 
-  - **Person in Ihrem Unternehmen** Einen Online Benutzer mit einer **Telefon System** Lizenz, der für Enterprise-VoIP aktiviert ist oder einen Anrufplan hat. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann. Wählen Sie dazu eine **Person in Ihrem Unternehmen** aus, und legen Sie fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
+  - **Person in der Organisation** Einen Online Benutzer mit einer **Telefon System** Lizenz, der für Enterprise-VoIP aktiviert ist oder einen Anrufplan hat. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann. Wählen Sie dazu eine Person in Ihrer Organisation aus, und legen Sie fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
 
   Informationen zu den für Voicemail erforderlichen Lizenzen finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
 
-  - **Sprachanwendung** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
+  - **Sprach-App** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
 
 * * *
 
@@ -285,7 +292,7 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Diesen Anruf umleiten an** Wenn Sie diese Option auswählen, haben Sie folgende Möglichkeiten:
-  - **Person in Ihrem Unternehmen** Einen Online Benutzer mit einer **Telefon System** Lizenz, der für Enterprise-VoIP aktiviert ist oder Anrufpläne hat. Wenn Sie die Person so einrichten möchten, dass Sie an Voicemail gesendet werden kann, wählen Sie eine **Person in Ihrem Unternehmen** aus, und legen Sie diese Person so fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
+  - **Person in der Organisation** Einen Online Benutzer mit einer **Telefon System** Lizenz, der für Enterprise-VoIP aktiviert ist oder Anrufpläne hat. Wenn Sie die Person so einrichten möchten, dass Sie an Voicemail gesendet werden kann, wählen Sie eine Person in Ihrer Organisation aus, und legen Sie diese Person so fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
 
   Informationen zu den für Voicemail erforderlichen Lizenzen finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
 

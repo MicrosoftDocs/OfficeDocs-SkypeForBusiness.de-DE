@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa61c739910e00a277f6c3f201222ac5eb782da
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523018"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666047"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Vorbereiten der Umgebung für ein Upgrade auf Teams
 
@@ -43,7 +43,7 @@ Zur erfolgreichen Durchführung eines Teams-Upgrades in Ihrer Organisation müss
 Führen Sie diese Aktivitäten parallel zur Vorbereitung der Benutzervorbereitung durch:
 
 - [Bereiten Sie Ihre IT-Mitarbeiter](upgrade-prepare-IT-pros.md) vor, um sicherzustellen, dass sie alles haben, was sie für eine erfolgreiche Upgrade-Strategie benötigen.
-- Stellen Sie sicher, dass Ihre Umgebung alle [Voraussetzungen erfüllt](upgrade-plan-journey-prerequisites.md) und über die Abhängigkeiten zwischen Office 365-Diensten und-Teams Bescheid weiß.
+- Überprüfen Sie, ob Ihre Umgebung alle [Voraussetzungen](upgrade-plan-journey-prerequisites.md)erfüllt, und verstehen Sie Abhängigkeiten zwischen Microsoft 365-oder Office 365-Diensten und-Teams.
 - [Auswerten Ihrer Umgebung](upgrade-plan-journey-evaluate-environment.md), indem Umweltentdeckungen anhand eines Stichproben Fragebogens durchgeführt werden, um zu bestätigen, dass Ihre Organisation bereit ist, eine erfolgreiche Upgrade-Strategie auf Teams durchzuführen.
 - [Vorbereiten ihres Netzwerks](prepare-network.md) durch Planung, Vorbereitung und Durchführung aller notwendigen Gegenmaßnahmen, damit Ihr Netzwerk die Arbeitsauslastung des Teams unterstützen kann.
 - [Vorbereitung Ihres Dienstes](upgrade-prepare-environment-prepare-service.md) für die Einführung mithilfe von Onboarding-Checklisten, um sicherzustellen, dass Ihre Teams-Konfiguration bereit ist, die Migration Ihrer Benutzer von Skype for Business zu Teams zu unterstützen.

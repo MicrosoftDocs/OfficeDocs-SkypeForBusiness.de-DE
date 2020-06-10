@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6a864828ce925ea289f27de1b3340a50770b4e88
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779802"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665267"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Upgrade von Skype for Business auf Teams &mdash; für IT-Administratoren
 
@@ -54,7 +54,7 @@ Mit der überlappenden Funktionen-Methode können Benutzer sowohl Teams als auch
 - Die Kommunikation, die vom Team-Client eines anderen Benutzers initiiert wird, landet immer im Team-Client von User A, *Wenn sich der andere Benutzer in derselben Organisation befindet*. 
 - Die Kommunikation, die vom Team-Client eines anderen Benutzers initiiert wird, landet immer im Skype for Business-Client von Benutzer A, *Wenn sich der andere Benutzer in einer Verbundorganisation befindet*.
 
-Der Modus "Inseln" ist der Standardmodus von TeamsUpgradePolicy für jede vorhandene Organisation, die noch nicht TeamsOnly ist. Wenn Sie eine Office 365-Lizenz zuweisen, werden standardmäßig beide Teams und Skype for Business Online-Lizenzen zugewiesen. (Dies gilt auch, wenn der Benutzer lokal in Skype for Business Server verwaltet wird. Unabhängig davon, ob der Benutzer lokal oder Online ist, lassen Sie die Skype for Business Online-Lizenz aktiviert, da Sie zurzeit für die vollständige Team Funktionalität erforderlich ist.) Wenn Sie zum Ändern der Standardkonfiguration noch keine Schritte unternommen haben, verfügen Sie möglicherweise bereits über eine beträchtliche Nutzung der Teams in Ihrer Organisation.  Dies ist einer der Vorteile des überlappenden Funktionen-Ansatzes. Es ermöglicht eine schnelle, Endnutzer gesteuerte Einführung innerhalb einer Organisation.
+Der Modus "Inseln" ist der Standardmodus von TeamsUpgradePolicy für jede vorhandene Organisation, die noch nicht TeamsOnly ist. Wenn Sie eine Microsoft 365-oder Office 365-Lizenz zuweisen, werden standardmäßig beide Teams und Skype for Business Online-Lizenzen zugewiesen. (Dies gilt auch, wenn der Benutzer lokal in Skype for Business Server verwaltet wird. Unabhängig davon, ob der Benutzer lokal oder Online ist, lassen Sie die Skype for Business Online-Lizenz aktiviert, da Sie zurzeit für die vollständige Team Funktionalität erforderlich ist.) Wenn Sie zum Ändern der Standardkonfiguration noch keine Schritte unternommen haben, verfügen Sie möglicherweise bereits über eine beträchtliche Nutzung der Teams in Ihrer Organisation.  Dies ist einer der Vorteile des überlappenden Funktionen-Ansatzes. Es ermöglicht eine schnelle, Endnutzer gesteuerte Einführung innerhalb einer Organisation.
 
 Damit diese Methode effektiv funktioniert, müssen alle Benutzer beide Clients gleichzeitig ausführen. Eingehende Chats und Anrufe innerhalb des Unternehmens an einen Benutzer im Inseln-Modus können entweder in den Skype for Business-oder Microsoft Teams-Client landen – und dies steht nicht unter der Kontrolle des Empfängers. Dies hängt davon ab, welchen Client der Absender zum Initiieren der Kommunikation verwendet. Wenn sich der Absender und der Empfänger in verschiedenen Organisationen befinden, sind eingehende Anrufe und Chats an einen Benutzer im Inseln-Modus immer im Skype for Business-Client zu Lande.  
 
@@ -148,7 +148,7 @@ Benutzer mit Skype for Business-Konten, die sich lokal [benetzen, müssen](https
 
 -   2 Schritte: Nachdem Sie Move-CsUser ausgeführt haben, gewähren Sie dem Benutzer den TeamsOnly-Modus mithilfe von TeamsUpgradePolicy.
 
-Im Gegensatz zu anderen Richtlinien ist es nicht möglich, neue Instanzen von TeamsUpgradePolicy in Office 365 zu erstellen. Alle vorhandenen Instanzen sind in den Dienst integriert.  (Beachten Sie, dass Mode eine Eigenschaft in TeamsUpgradePolicy und nicht der Name einer Richtlinieninstanz ist.) In einigen-aber nicht in allen Fällen ist der Name der Richtlinieninstanz derselbe wie der Modus. Um einem Benutzer den TeamsOnly-Modus zuzuweisen, erteilen Sie diesem Benutzer die Instanz "UpgradeToTeams" von TeamsUpgradePolicy. Um eine Liste aller Instanzen anzuzeigen, können Sie den folgenden Befehl ausführen:
+Im Gegensatz zu anderen Richtlinien ist es nicht möglich, neue Instanzen von TeamsUpgradePolicy in Microsoft 365 oder Office 365 zu erstellen. Alle vorhandenen Instanzen sind in den Dienst integriert.  (Beachten Sie, dass Mode eine Eigenschaft in TeamsUpgradePolicy und nicht der Name einer Richtlinieninstanz ist.) In einigen-aber nicht in allen Fällen ist der Name der Richtlinieninstanz derselbe wie der Modus. Um einem Benutzer den TeamsOnly-Modus zuzuweisen, erteilen Sie diesem Benutzer die Instanz "UpgradeToTeams" von TeamsUpgradePolicy. Um eine Liste aller Instanzen anzuzeigen, können Sie den folgenden Befehl ausführen:
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -238,7 +238,7 @@ Für die Option zum überlappenden Funktions Upgrade:
 
 - Bedenken Sie diese Option, wenn Sie ein schnelles Upgrade für Ihre gesamte Organisation durchführen können.  Da bei der Ausführung beider Clients potenzielle Verwirrung besteht, ist es am besten, wenn Sie diesen Zeitraum minimieren können. Sie sollten sicherstellen, dass Ihre Benutzer wissen, dass beide Clients ausgeführt werden.
 
-- Bei dieser Option handelt es sich um das Out-of-the-Box-Modell, das keine Administratoraktion erfordert, um mit Teams zu beginnen, es sei denn, Sie weisen die Office 365-Lizenz zu. Wenn Ihre Benutzer bereits über Skype for Business Online verfügen, sind Sie möglicherweise bereits in diesem Modell.
+- Bei dieser Option handelt es sich um das Out-of-the-Box-Modell, das keine Administratoraktion erfordert, um mit Teams zu beginnen, es sei denn, Sie weisen die Microsoft 365-oder Office 365-Lizenz zu. Wenn Ihre Benutzer bereits über Skype for Business Online verfügen, sind Sie möglicherweise bereits in diesem Modell.
 
 - Es kann schwierig sein, den überlappenden Funktionsmodus zu verlassen und zu TeamsOnly zu wechseln. Da aktualisierte Benutzer nur über Teams kommunizieren, müssen alle anderen Benutzer in der Organisation, die mit diesem Benutzer kommunizieren, Teams verwenden.  Wenn Sie über Benutzer verfügen, die nicht mit der Verwendung von Teams begonnen haben, werden Sie fehlenden Nachrichten ausgesetzt. Darüber hinaus werden die TeamsOnly-Benutzer in Skype for Business nicht online angezeigt. Einige Unternehmen entscheiden sich für ein mandantenweites Upgrade mithilfe der globalen Mandanten Richtlinie, um dies zu vermeiden, allerdings erfordert das warten, bis alle Benutzer zum Upgrade bereit sind.
 
@@ -343,7 +343,7 @@ Dieser Artikel enthält nur eine allgemeine Übersicht. Weitere Informationen fi
 
 Hierbei handelt es sich um das einfachste Upgrade-Szenario mit Sprachausgabe. 
 
-1. Stellen Sie sicher, dass Benutzern eine Teams-Lizenz zugewiesen wurde. Wenn Sie eine Office 365-Lizenz zuweisen, werden die Teams standardmäßig aktiviert, es sei denn, Sie haben zuvor die Teams-Lizenz deaktiviert, sollte keine Aktion erforderlich sein.
+1. Stellen Sie sicher, dass Benutzern eine Teams-Lizenz zugewiesen wurde. Wenn Sie eine Microsoft 365-oder Office 365-Lizenz zuweisen, werden die Teams standardmäßig aktiviert, es sei denn, Sie haben zuvor die Teams-Lizenz deaktiviert, sollte keine Aktion erforderlich sein.
 
 2.  Wenn Benutzer bereits über einen Microsoft-Anrufplan mit einer Telefonnummer verfügen, besteht die einzige erforderliche Änderung darin, den Benutzer TeamsOnly-Modus in TeamsUpgradePolicy zuzuweisen.  Vor dem Zuweisen des TeamsOnly-Modus werden eingehende PSTN-Anrufe im Skype for Business-Client des Benutzers landen. Nach dem Upgrade auf den TeamsOnly-Modus werden eingehende PSTN-Anrufe im Team-Client des Benutzers landen.  
 
@@ -365,7 +365,7 @@ Die grundlegenden Schritte sind im folgenden aufgeführt.  Die Schritte 1-4 sind
 
 5. Aktualisieren des Benutzers: diese Schritte sollten koordiniert werden. 
 
-   - Aktualisieren Sie in Office 365 den Benutzer in den TeamsOnly-Modus (Grant-CsTeamsUpgradePolicy).
+   - Aktualisieren Sie in Microsoft 365 oder Office 365 den Benutzer in den TeamsOnly-Modus (Grant-CsTeamsUpgradePolicy).
    - Konfigurieren Sie auf dem SBC das VoIP-Routing, um eingehende Anrufe zu aktivieren, indem Sie Anrufe an das direkte Routing statt an den lokalen Vermittlungs Server senden.
 
 
@@ -383,7 +383,7 @@ Die grundlegenden Schritte sind im folgenden aufgeführt.  Die Schritte 1-5 sind
 
 4. Konfigurieren Sie bei Bedarf verschiedene Teamrichtlinien für diese Benutzer (z. b. TeamsMessagingPolicy, TeamsMeetingPolicy usw.). Dies kann jederzeit erfolgen, doch wenn Sie sicherstellen möchten, dass Benutzer beim Upgrade die richtige Konfiguration haben, empfiehlt es sich, dies zu tun, bevor der Benutzer auf TeamsOnly aktualisiert wird.
 
-5. Weisen Sie bei Bedarf die Office 365-Lizenzen zu.  Der Benutzer sollte sowohl über Teams als auch über Skype for Business Online Plan 2 sowie über das Telefon System verfügen. Wenn Skype for Business Online Plan 2 deaktiviert ist, aktivieren Sie es erneut.  
+5. Weisen Sie bei Bedarf die Microsoft 365-oder Office 365-Lizenzen zu.  Der Benutzer sollte sowohl über Teams als auch über Skype for Business Online Plan 2 sowie über das Telefon System verfügen. Wenn Skype for Business Online Plan 2 deaktiviert ist, aktivieren Sie es erneut.  
 
 6. Aktualisieren des Benutzers: diese Schritte sollten koordiniert werden. 
 
@@ -391,7 +391,7 @@ Die grundlegenden Schritte sind im folgenden aufgeführt.  Die Schritte 1-5 sind
 
    - Konfigurieren Sie auf dem SBC das VoIP-Routing, um eingehende Anrufe zu aktivieren, indem Sie Anrufe an das direkte Routing statt an den lokalen Vermittlungs Server senden. 
 
-   - In Office 365: weisen Sie die relevanten OnlineVoiceRoutingPolicy zu, um ausgehende Anrufe zu ermöglichen. 
+   - In Microsoft 365 oder Office 365: weisen Sie die relevanten OnlineVoiceRoutingPolicy zu, um ausgehende Anrufe zu ermöglichen. 
 
 
 ### <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>Von Skype for Business Server lokal mit Enterprise-VoIP zu Microsoft-Anrufplan
@@ -406,7 +406,7 @@ Die grundlegenden Schritte sind im folgenden aufgeführt.Die Schritte 1-5 sind i
 
 3. Konfigurieren Sie bei Bedarf verschiedene Teamrichtlinien für diese Benutzer (beispielsweise TeamsMessagingPolicy, TeamsMeetingPolicy usw.). Dies kann jederzeit erfolgen, doch wenn Sie sicherstellen möchten, dass Benutzer beim Upgrade die richtige Konfiguration haben, empfiehlt es sich, dies zu tun, bevor der Benutzer auf TeamsOnly aktualisiert wird. 
 
-4. Weisen Sie bei Bedarf die Office 365-Lizenzen zu.Der Benutzer sollte sowohl über Teams als auch über Skype for Business Online Plan 2 sowie über das Telefon System verfügen. Wenn Skype for Business Online Plan 2 deaktiviert ist, aktivieren Sie es erneut.  
+4. Weisen Sie bei Bedarf die Microsoft 365-oder Office 365-Lizenzen zu.Der Benutzer sollte sowohl über Teams als auch über Skype for Business Online Plan 2 sowie über das Telefon System verfügen. Wenn Skype for Business Online Plan 2 deaktiviert ist, aktivieren Sie es erneut.  
 
 5. Holen Sie sich Telefonnummern für Ihre Benutzer. (Einzelheiten finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).)
 
@@ -556,7 +556,7 @@ In beiden Fällen ist die Übertragung von Kontakten von Skype for Business in T
 
 [Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

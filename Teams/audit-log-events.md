@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416735"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665637"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 
@@ -93,7 +93,7 @@ Hier können Sie die Übereinstimmungen mit der von Ihnen eingerichteten Richtli
 
 ### <a name="mass-delete-scenario"></a>Massen Lösch Szenario
 
-Wie bereits erwähnt, können Sie Lösch Szenarien überwachen. Es ist möglich, eine Richtlinie zu erstellen, die das Massenlöschen von Teams-Websites überwacht. In diesem Beispiel wird eine Warnungs basierte Richtlinie eingerichtet, um das Massenlöschen von Teams in einer Spanne von 30 Minuten zu erkennen. 
+Wie bereits erwähnt, können Sie Lösch Szenarien überwachen. Es ist möglich, eine Richtlinie zu erstellen, die das Massenlöschen von Teams-Websites überwacht. In diesem Beispiel wird eine Warnungs basierte Richtlinie eingerichtet, um das Massenlöschen von Teams in einer Spanne von 30 Minuten zu erkennen.
 
 ![Screenshot der Seite "Richtlinie erstellen" mit der Einrichtung einer Richtlinie für die Löschung von Massen Teams](media/TeamsMassDeletePolicy.png)
 
@@ -115,7 +115,7 @@ Sie können Benachrichtigungen festlegen und e-Mails an Administratoren und ande
 
 [Anomalie-Erkennungsrichtlinien](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in der Cloud-App-Sicherheit bieten integrierte Benutzer-und Entitäts Verhaltensanalysen (UEBA) und Maschinelles Lernen (ml), damit Sie eine erweiterte Bedrohungserkennung über Ihre Cloud-Umgebung sofort ausführen können. Da Sie automatisch aktiviert werden, bieten die neuen Erkennungsrichtlinien für Anomalien unmittelbare Ergebnisse, indem Sie sofortige Erkennungen bereitstellen, die auf zahlreiche Verhaltensanomalien für Ihre Benutzer und die mit Ihrem Netzwerk verbundenen Computer und Geräte abzielen. Darüber hinaus machen die neuen Richtlinien mehr Daten aus dem Sicherheits Erkennungsmodul für die Cloud-app verfügbar, damit Sie den Ermittlungsprozess beschleunigen und permanente Bedrohungen enthalten können.
 
-Wir arbeiten daran, Teams-Ereignisse in Anomalie-Erkennungsrichtlinien zu integrieren. Im Moment können Sie Anomalie-Erkennungsrichtlinien für andere Office-Produkte einrichten und Aktionen für Benutzer ergreifen, die diesen Richtlinien entsprechen. 
+Wir arbeiten daran, Teams-Ereignisse in Anomalie-Erkennungsrichtlinien zu integrieren. Im Moment können Sie Anomalie-Erkennungsrichtlinien für andere Office-Produkte einrichten und Aktionen für Benutzer ergreifen, die diesen Richtlinien entsprechen.
 
 ## <a name="teams-activities"></a>Teams-Aktivitäten
 
@@ -133,14 +133,21 @@ Im folgenden finden Sie eine Liste aller Ereignisse, die für Benutzer-und Admin
 |Rolle von Mitgliedern im Team geändert    |MemberRoleChanged         |Ein Teambesitzer ändert die Rolle von Mitgliedern in einem Team. Die folgenden Werte geben den dem Benutzer zugewiesenen Rollentyp an. <br><br>**1** – gibt die Rolle des Besitzers an.<br>**2** – gibt die Mitglieder Rolle an.<br>**3** – gibt die Gastrolle an.<br><br>Die Members-Eigenschaft enthält auch den Namen Ihrer Organisation und die e-Mail-Adresse des Mitglieds.        |
 |Einstellung des Teams geändert    |TeamSettingChanged        |Der TeamSettingChanged-Vorgang wird protokolliert, wenn die folgenden Aktivitäten von einem Teambesitzer ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen des Überwachungsprotokolls in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern angezeigt) angezeigt.<ul><li>Ändert den Zugriffstyp für ein Team. Teams können als "Privat" oder "öffentlich" (**Team Zugriffstyp**) eingerichtet werden. Wenn ein Team privat ist (die Standardeinstellung), können Benutzer nur durch Einladung auf das Team zugreifen. Wenn ein Team öffentlich ist, kann es von jedem erkannt werden.</li><li>Ändert die Informationsklassifizierung eines Teams (**Team Klassifizierung**). Beispielsweise können Team Daten als Auswirkungen auf den Geschäftserfolg, mittelständische Unternehmen oder geringe geschäftliche Auswirkungen klassifiziert werden.</li><li>Ändert den Namen eines Teams (**Teamname**).</li><li>Ändert die Team Beschreibung (**Team Beschreibung**).</li><li>Änderungen, die an den Team Einstellungen vorgenommen wurden. Um auf diese Einstellungen zuzugreifen, kann ein Teambesitzer mit der rechten Maustaste auf ein Team klicken, **Team verwalten**auswählen und dann auf die Registerkarte **Einstellungen** klicken. Bei diesen Aktivitäten wird der Name der geänderten Einstellung in der Spalte **Element** in den Suchergebnissen des Überwachungsprotokolls angezeigt.</li></ul>         |
 |Team erstellt    |TeamCreated         |Ein Benutzer erstellt ein Team.         |
+|Alle Organisations-apps gelöscht|DeletedAllOrganizationApps           |Alle Organisations-Apps aus dem Katalog gelöscht.     |
+|Gelöschte App |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
 |Gelöschter Kanal     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
+|Installierte App |AppInstalled         |Eine App wurde installiert.   |
+|Veröffentlichte App |AppPublishedToCatalog           |Dem Katalog wurde eine app hinzugefügt.     |
 |Bot aus dem Team entfernt   |BotRemovedFromTeam         |Ein Benutzer entfernt einen bot aus einem Team.       |
 |Connector entfernt     |ConnectorRemoved         |Ein Benutzer entfernt einen Connector aus einem Kanal.         |
 |Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal-oder Gruppen-Chat.         |
 |Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
+|Deinstallierte App |AppUninstalled           |Eine App wurde deinstalliert.     |
+|Aktualisierte APP |AppUpdatedInCatalog           |Eine App wurde im Katalog aktualisiert.     |
 |Connector aktualisiert    |ConnectorUpdated         |Ein Benutzer hat einen Verbinder in einem Kanal geändert.         |
 |Registerkarte "aktualisiert"   |TabUpdated         |Ein Benutzer hat eine Registerkarte in einem Kanal geändert.         |
+|Aktualisierte APP |AppUpgraded           |Eine App wurde im Katalog auf die neueste Version aktualisiert.     |
 |Benutzer, der bei Teams angemeldet ist     |TeamsSessionStarted         |Ein Benutzer meldet sich bei einem Microsoft Teams-Client an. Dieses Ereignis erfasst keine Token-Aktualisierungsaktivitäten.         |
 
 ## <a name="shifts-in-teams-activities"></a>Schichten in den Teamaktivitäten
@@ -184,4 +191,4 @@ Sie können die Office 365-Verwaltungs Aktivitäts-API verwenden, um Information
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 

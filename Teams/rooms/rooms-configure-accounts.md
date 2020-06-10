@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: In diesem Thema finden Sie Informationen zum Konfigurieren von Konten für Microsoft Teams Rooms in Exchange und Skype for Business.
-ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 97367427aa2629fab3e40bae064c02f521ff710d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825943"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666247"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Konfigurieren von Konten für Microsoft Teams-Chatrooms
  
@@ -28,11 +28,11 @@ In diesem Thema finden Sie Informationen zu den Microsoft Teams-Räumen und dere
   
 In diesem Thema wird erläutert, wie Sie Konten erstellen, die von Microsoft Teams Rooms in Microsoft Exchange und Skype for Business verwendet werden. Bereitstellungsanweisungen für Microsoft Teams rooms-Geräte finden Sie unter [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md). Ihre Infrastruktur weist wahrscheinlich eine der folgenden Konfigurationen auf:
   
-- Online Bereitstellung: die Umgebung Ihres Unternehmens ist vollständig auf Office 365 bereitgestellt. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen mit Office 365](with-office-365.md).
+- Online Bereitstellung: die Umgebung Ihres Unternehmens ist vollständig auf Microsoft 365 oder Office 365 bereitgestellt. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen mit Microsoft 365 oder Office 365](with-office-365.md).
     
 - Lokale Bereitstellung: Ihre Organisation verfügt über Server, die Sie steuert, wobei Active Directory, Exchange und Skype for Business Server gehostet werden. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Chatrooms mit Skype for Business Server](with-skype-for-business-server-2015.md) .
     
-- Hybrid Bereitstellungen: Ihre Organisation verfügt über eine Kombination von Diensten, wobei einige lokal gehostet werden und einige Online über Office 365 gehostet werden. Bei Microsoft Teams-Räumen werden die folgenden Hybrid Szenarien unterstützt: 
+- Hybrid Bereitstellungen: Ihre Organisation verfügt über eine Kombination von Diensten, wobei einige lokal gehostet werden und einige Online über Microsoft 365 oder Office 365 gehostet werden. Bei Microsoft Teams-Räumen werden die folgenden Hybrid Szenarien unterstützt:
     
   - Exchange Online mit Skype for Business Server lokal. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen mit Exchange Online (Hybrid)](with-exchange-online.md).
     
@@ -52,7 +52,7 @@ Jedes Geräte Konto ist für ein einzelnes Microsoft Teams rooms-Gerät eindeuti
 - Ihre Infrastruktur muss so konfiguriert sein, dass Microsoft Teams-Chatrooms das Geräte Konto überprüfen und die entsprechenden Microsoft-Dienste erreichen können.
     
 > [!IMPORTANT]
-> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. In Hybrid Umgebungen muss für das für Microsoft Teams verwendete Konto die Kennwortsynchronisierung in Aad-Synchronisierung aktiviert sein, da für die Authentifizierung in Microsoft Teams rooms die Office 365-Authentifizierung erforderlich ist.
+> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. In Hybrid Umgebungen muss für das für Microsoft Teams verwendete Konto die Kennwortsynchronisierung in Aad-Synchronisierung aktiviert sein, da für die Microsoft Teams rooms-Authentifizierung Microsoft 365 oder Office 365-Authentifizierung erforderlich ist.
   
 Sie können sich ein Geräte Konto als das Ressourcenkonto vorstellen, das Personen als Besprechungsraum-oder Besprechungsraum Konto erkennen. Wenn Sie eine Besprechung in diesem Konferenzraum planen möchten, laden Sie das Konto zu dieser Besprechung ein. Damit Sie die Microsoft Teams-Räume am effektivsten nutzen können, gehen Sie mit dem Geräte Konto um, das jedem zugewiesen ist.
   
@@ -72,7 +72,7 @@ Diese Eigenschaften stellen die Mindestkonfiguration für ein Geräte Konto für
    
 ## <a name="advanced-configuration"></a>Erweiterte Konfiguration
 
-Während die Eigenschaften für die grundlegende Konfiguration zulassen, dass das Geräte Konto in einer einfachen Umgebung eingerichtet wird, ist es möglich, dass Ihre Umgebung andere Einschränkungen für Verzeichnis Konten aufweist, die erfüllt sein müssen, damit Microsoft Teams rooms die erfolgreiche Verwendung der Geräte Konto.
+Während die Eigenschaften für die grundlegende Konfiguration zulassen, dass das Geräte Konto in einer einfachen Umgebung eingerichtet wird, ist es möglich, dass Ihre Umgebung andere Einschränkungen für Verzeichnis Konten aufweist, die erfüllt sein müssen, damit Microsoft Teams-Räume das Geräte Konto erfolgreich verwenden können.
   
 |**Eigenschaft**|**Zweck**|
 |:-----|:-----|
@@ -80,13 +80,13 @@ Während die Eigenschaften für die grundlegende Konfiguration zulassen, dass da
    
 Die einfachste Möglichkeit, Geräte Konten einzurichten, besteht darin, Sie mithilfe der Remote-Windows PowerShell zu konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), ein Skript, mit dem Sie neue Geräte Konten erstellen oder vorhandene Ressourcenkonten überprüfen können, damit Sie Sie zu kompatiblen Microsoft Teams rooms-Geräte Konten machen können.
   
-Wenn Sie die Office 365-Benutzeroberfläche über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Weitere Informationen finden Sie unter [Erstellen eines Geräte Kontos mit Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+Wenn Sie die Microsoft 365-oder Office 365-Benutzeroberfläche über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Informationen finden Sie unter [Erstellen eines Geräte Kontos mit Microsoft 365 oder Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Siehe auch
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)
   
-[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
+[Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
   
-[Microsoft Teams Rooms verwalten](rooms-manage.md)
+[Microsoft Teams-Räume verwalten](rooms-manage.md)
 

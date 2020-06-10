@@ -21,14 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610244"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665927"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
+
+> [!NOTE]
+> Eine Übersicht über den Übergang zu Remote Learning und Ressourcen, um Ihnen den Einstieg zu erleichtern, finden Sie auf unserer [**Remote Learning-Startseite**](https://www.microsoft.com/education/remote-learning).
 
 Wenn Sie ein kleines Unternehmen sind oder wenn Sie Microsoft Teams mit Chat, Teams & Kanälen und Besprechungen einführen möchten, verwenden Sie unsere ausführliche Anleitung [Erste Schritte](get-started-with-teams-quick-start.md), die darauf ausgelegt ist, Ihnen einen schnellen Einstieg zu ermöglichen. Wenn Sie eine große Organisation mit einer Hybrid-oder lokalen Skype for Business-Konfiguration sind, oder wenn Sie Sprachfeatures (wie Microsoft 365 oder Office 365-Anrufpläne oder das Telefonsystem) bereitstellen möchten, können Sie mit unseren Anleitungen für die ersten Schritte beginnen, doch Sie benötigen die folgenden zusätzlichen Anleitungen, um unter **umfassendere Einführungs Anleitungen**zu suchen.
 

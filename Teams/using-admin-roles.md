@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: Erfahren Sie, wie Sie die Administratorrollen zum Festlegen von Administratoren verwenden, die unterschiedliche Zugriffsebenen zum Verwalten von Teams benötigen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951070"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665207"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams
 
@@ -36,6 +36,8 @@ Mithilfe von Azure Active Directory (Azure AD) können Sie Administratoren festl
 ## <a name="teams-roles-and-capabilities"></a>Rollen und Funktionen in Teams
 
 Vier Teams-Administratorrollen sind verfügbar: Teams-Dienstadministrator, Teams-Kommunikationsadministrator, Supportfachmann für die Teams-Kommunikation und Supporttechniker für die Teams-Kommunikation. Sehen Sie sich die folgende Tabelle an, um zu verstehen, was jede Rolle ausführen kann und welche Tools der Administrator im Microsoft Teams Admin Center und in PowerShell verwenden kann.
+
+Wenn Sie folgen möchten, wechseln Sie zum Admin Center unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 
 
@@ -51,8 +53,8 @@ Vier Teams-Administratorrollen sind verfügbar: Teams-Dienstadministrator, Teams
 <sup>1</sup> [PowerShell – Modul für Skype for Business](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell – Modul für Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3</sup> [Microsoft Teams Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 Weitere Informationen zu den Verwaltungstools, die zum Verwalten von Microsoft Teams verfügbar sind, erhalten Sie unter [Verwalten von Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 

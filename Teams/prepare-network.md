@@ -18,20 +18,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44523300"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669407"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
 ## <a name="network-requirements"></a>Netzwerkanforderungen
 
-Wenn Sie [Ihr Netzwerk für Office 365 bereits optimiert](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)haben, sind Sie wahrscheinlich bereit für Microsoft Teams. In jedem Fall-und besonders, wenn Sie Teams schnell als erste Office 365-Arbeitsauslastung zur Unterstützung von **Remotemitarbeitern** bereitstellen – überprüfen Sie die folgenden Punkte, bevor Sie mit dem Rollout von Teams beginnen:
+Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)haben, sind Sie wahrscheinlich bereit für Microsoft Teams. In jedem Fall-und besonders, wenn Sie Teams schnell als erste Microsoft 365-oder Office 365-Arbeitsauslastung zur Unterstützung von **Remotemitarbeitern** bereitstellen – überprüfen Sie die folgenden Punkte, bevor Sie mit dem Rollout von Teams beginnen:
 
-1.  Verfügen alle Ihre Standorte über Internetzugriff (damit Sie eine Verbindung mit Office 365 herstellen können)? Stellen Sie mindestens zusätzlich zum normalen Webverkehr sicher, dass Sie die folgenden für alle Speicherorte für Medien in Microsoft Teams geöffnet haben:
+1.  Verfügen alle Ihre Standorte über Internetzugriff (damit Sie eine Verbindung mit Microsoft 365 oder Office 365 herstellen können)? Stellen Sie mindestens zusätzlich zum normalen Webverkehr sicher, dass Sie die folgenden für alle Speicherorte für Medien in Microsoft Teams geöffnet haben:
 
     |  |  |
     |---------|---------|
@@ -49,10 +49,10 @@ Wenn Sie [Ihr Netzwerk für Office 365 bereits optimiert](https://docs.microsoft
 
 
     
-2.  Verfügen Sie über eine verifizierte Domäne für Office 365 (beispielsweise contoso.com)?
+2.  Verfügen Sie über eine verifizierte Domäne für Microsoft 365 oder Office 365 (beispielsweise contoso.com)?
     
-      - Wenn Ihre Organisation Office 365 noch nicht ausgefüllt hat, lesen Sie [Erste Schritte mit Office 365 for Business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-      - Wenn Ihre Organisation keine überprüfte Domäne für Office 365 hinzugefügt oder konfiguriert hat, lesen Sie [Überprüfen Ihrer Office 365-Domäne](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+      - Wenn Ihre Organisation Microsoft 365 oder Office 365 nicht bereitstellen kann, lesen Sie [Erste Schritte mit Microsoft 365 oder Office 365 for Business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
+      - Wenn Ihre Organisation keine verifizierte Domäne für Microsoft 365 oder Office 365 hinzugefügt oder konfiguriert hat, lesen Sie [Überprüfen Ihrer Microsoft 365-oder Office 365-Domäne](https://docs.microsoft.com/office365/admin/setup/domains-faq).
 
 3.  Hat Ihre Organisation Exchange Online und SharePoint Online bereitgestellt?
     
@@ -64,7 +64,7 @@ Nachdem Sie überprüft haben, dass Sie diese Netzwerkanforderungen erfüllen, s
 > [!IMPORTANT]
 > **Für Bildungseinrichtungen**: Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Student Information System (SIS) verwenden, [Stellen Sie School Data Sync bereit](https://docs.microsoft.com/schooldatasync/) , bevor Sie Teams Ausrollen.
 >  
-> **Lokale Skype for Business-Server**: Wenn in Ihrer Organisation lokales Skype for Business Server (oder lync Server) ausgeführt wird, müssen Sie [Azure AD Connect so konfigurieren](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) , dass Ihr lokales Verzeichnis mit Office 365 synchronisiert wird.
+> **Lokale Skype for Business-Server**: Wenn in Ihrer Organisation lokales Skype for Business Server (oder lync Server) ausgeführt wird, müssen Sie [Azure AD Connect so konfigurieren](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) , dass Ihr lokales Verzeichnis mit Microsoft 365 oder Office 365 synchronisiert wird.
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Bewährte Methode: Überwachen Ihres Netzwerks mithilfe von CQD und anrufanalyse 
 
@@ -74,7 +74,7 @@ Sie verwenden [anrufanalyse](set-up-call-analytics.md) , um Anruf-und Besprechun
 
 ## <a name="network-optimization"></a>Netzwerkoptimierung
 
-Die folgenden Aufgaben sind optional und werden für das Rollout von Teams nicht benötigt, besonders, wenn Sie ein kleines Unternehmen sind und Office 365 bereits bereitgestellt haben. Verwenden Sie diese Anleitung, um Ihre Netzwerk-und Teamleistung zu optimieren, oder wenn Sie wissen, dass Sie einige Netzwerkeinschränkungen haben.
+Die folgenden Aufgaben sind optional und werden für das Rollout von Teams nicht benötigt, besonders, wenn Sie ein kleines Unternehmen sind und bereits Microsoft 365 oder Office 365 eingeführt haben. Verwenden Sie diese Anleitung, um Ihre Netzwerk-und Teamleistung zu optimieren, oder wenn Sie wissen, dass Sie einige Netzwerkeinschränkungen haben.
 
 Möglicherweise möchten Sie zusätzliche Netzwerkoptimierung durchführen, wenn:
 
@@ -82,7 +82,7 @@ Möglicherweise möchten Sie zusätzliche Netzwerkoptimierung durchführen, wenn
   - Anrufe fallen weiter (möglicherweise aufgrund von Firewall-oder Proxy-Blockern)
   - Anrufe sind statisch und ausgeschnitten, oder Stimmen klingen wie Roboter (könnten Jitter oder Paketverlust sein)
 
-Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitungen zum Identifizieren und Beheben von Netzwerkbeeinträchtigungen, finden Sie unter [Office 365-Netzwerk Verbindungs Prinzipien](https://aka.ms/pnc).
+Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitungen zum Identifizieren und Beheben von Netzwerkbeeinträchtigungen, finden Sie unter [Grundlagen der Netzwerkkonnektivität von Microsoft 365 und Office 365](https://aka.ms/pnc).
 
 <table>
 <thead>
@@ -99,18 +99,18 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="even">
 <td>Berater für Teams</td>
-<td>Der <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Berater für Teams</a> ist Teil des <a href="https://admin.teams.microsoft.com">Teams admin Centers</a>. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.</td>
+<td>Der <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Berater für Teams</a> ist Teil des <a href="https://admin.teams.microsoft.com">Teams admin Centers</a>. Sie bewertet Ihre Microsoft 365-oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie Teams erfolgreich rollouten können.</td>
 </tr>
 <tr class="odd">
 <td>Auflösung externer Namen</td>
-<td>Stellen Sie sicher, dass auf allen Computern, auf denen der Team Client ausgeführt wird, externe DNS-Abfragen aufgelöst werden können, um die von Office 365 bereitgestellten Dienste zu ermitteln, und dass ihre Firewalls keinen Zugriff verhindern. Informationen zum Konfigurieren von Firewall-Ports finden Sie unter <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365-URLs und IP-Bereiche</a>.</td>
+<td>Stellen Sie sicher, dass auf allen Computern, auf denen der Client für Teams ausgeführt wird, externe DNS-Abfragen aufgelöst werden können, um die von Microsoft 365 oder Office 365 bereitgestellten Dienste zu ermitteln, und dass ihre Firewalls keinen Zugriff verhindern. Informationen zum Konfigurieren von Firewall-Ports finden Sie unter <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365 und Office 365-URLs und IP-Bereiche</a>.</td>
 </tr>
 <tr class="odd">
 <td>Verwalten der Dauerhaftigkeit von Sitzungen</td>
 <td>Stellen Sie sicher, dass Ihre Firewall die zugeordneten NAT-Adressen (Network Address Translation) oder Ports für UDP nicht ändert.</td>
 </tr><tr class="odd">
 <td>Überprüfen der Größe des NAT-Pools</td>
-<td>Überprüfen Sie die für die Benutzerkonnektivität erforderliche NAT-Poolgröße (Network Address Translation). Wenn mehrere Benutzer und Geräte über die <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Netzwerkadressübersetzung (NAT) oder die Port Address Translation (Pat)</a>auf Office 365 zugreifen, müssen Sie sicherstellen, dass die hinter jeder öffentlich routingfähigen IP-Adresse verborgenen Geräte die unterstützte Nummer nicht überschreiten. Stellen Sie sicher, dass den NAT-Pools adäquate öffentliche IP-Adressen zugewiesen sind, um die Port Erschöpfung zu verhindern. Die Port Erschöpfung trägt dazu bei, dass interne Benutzer und Geräte nicht mit dem Office 365-Dienst verbunden werden können.</td>
+<td>Überprüfen Sie die für die Benutzerkonnektivität erforderliche NAT-Poolgröße (Network Address Translation). Wenn mehrere Benutzer und Geräte mit der <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Netzwerkadressübersetzung (NAT) oder der Port Address Translation (Pat)</a>auf Microsoft 365 oder Office 365 zugreifen, müssen Sie sicherstellen, dass die hinter jeder öffentlich routingfähigen IP-Adresse verborgenen Geräte die unterstützte Nummer nicht überschreiten. Stellen Sie sicher, dass den NAT-Pools adäquate öffentliche IP-Adressen zugewiesen sind, um die Port Erschöpfung zu verhindern. Die Port Erschöpfung trägt dazu bei, dass interne Benutzer und Geräte nicht mit dem Microsoft 365-oder Office 365-Dienst verbunden werden können.</td>
 </tr>
 <tr class="even">
 <td>Weiterleiten an Microsoft-Rechenzentren</td>
@@ -118,11 +118,11 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="odd">
 <td>Leitfaden zur Intrusionserkennung und-Prävention</td>
-<td>Wenn in Ihrer Umgebung ein <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> -oder Prevention-System (IDS/IPS) für eine zusätzliche Sicherheitsstufe für ausgehende Verbindungen bereitgestellt wird, achten Sie darauf, alle Office 365-URLs zu Whitelisten.</td>
+<td>Wenn in Ihrer Umgebung ein <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> -oder Prevention-System (IDS/IPS) für eine zusätzliche Sicherheitsstufe für ausgehende Verbindungen bereitgestellt wird, achten Sie darauf, alle Microsoft 365-oder Office 365-URLs zu Whitelisten.</td>
 </tr>
 <tr class="even">
 <td>Konfigurieren des Split-Tunnel-VPN</td>
-<td><p>Wir empfehlen, dass Sie einen alternativen Pfad für Teams-Datenverkehr bereitstellen, der das VPN (virtuelles privates Netzwerk) umgeht, das gemeinhin als [Split-Tunnel-VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)bezeichnet wird. Split-Tunneling bedeutet, dass der Datenverkehr für Office 365 nicht über das VPN geht, sondern direkt zu Office 365 geht. Das umgehen Ihres VPNs hat eine positive Auswirkung auf die Qualität von Teams und verringert die Auslastung von VPN-Geräten und dem Netzwerk der Organisation. Wenn Sie ein VPN mit geteilten Tunneln implementieren möchten, arbeiten Sie mit Ihrem VPN-Anbieter zusammen.</p>
+<td><p>Wir empfehlen, dass Sie einen alternativen Pfad für Teams-Datenverkehr bereitstellen, der das VPN (virtuelles privates Netzwerk) umgeht, das gemeinhin als [Split-Tunnel-VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)bezeichnet wird. Split-Tunneling bedeutet, dass der Datenverkehr für Microsoft 365 oder Office 365 nicht über das VPN geht, sondern direkt zu Microsoft 365 oder Office 365 führt. Das umgehen Ihres VPNs hat eine positive Auswirkung auf die Qualität von Teams und verringert die Auslastung von VPN-Geräten und dem Netzwerk der Organisation. Wenn Sie ein VPN mit geteilten Tunneln implementieren möchten, arbeiten Sie mit Ihrem VPN-Anbieter zusammen.</p>
 <p>Weitere Gründe, warum wir empfehlen, das VPN zu umgehen:
 <ul>
 <li><p>VPNs sind in der Regel nicht für die Unterstützung von Echt Zeit Medien konzipiert oder konfiguriert.</p></li> 
@@ -159,7 +159,7 @@ Wenn die Bandbreite *nicht* begrenzt ist, optimiert Teams die Medienqualität, e
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Prinzipien von Office 365-Netzwerkverbindungen](https://aka.ms/pnc)
+[Grundlagen von Microsoft 365 und Office 365-Netzwerkkonnektivität](https://aka.ms/pnc)
 
 [Weltweite Endpunkte: Skype for Business Online und Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 

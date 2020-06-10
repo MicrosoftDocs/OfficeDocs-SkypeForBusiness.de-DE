@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räumen vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905347"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666167"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -55,7 +55,7 @@ Um ordnungsgemäß zu funktionieren, muss das Microsoft Teams rooms-Gerät Zugri
 - Zugriff auf Ihre Active Directory- oder Azure Active Directory-Instanz (Azure AD) sowie auf Ihre Server mit Microsoft Exchange und Skype for Business Server
 - Zugriff auf einen Server, der über DHCP eine IP-Adresse bereitstellen kann. Microsoft Teams-Chatrooms können nicht mit einer statischen IP-Adresse konfiguriert werden.
 - Zugriff auf die HTTP-Ports 80 und 443
-- TCP-und UDP-Ports, wie unter [Port-und Protokollanforderungen für Server](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) für lokale Skype for Business Server-Implementierungen oder [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) für Microsoft Teams oder Skype for Business Online-Implementierungen beschrieben.
+- TCP-und UDP-Ports, wie unter [Port-und Protokollanforderungen für Server](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) für lokale Skype for Business Server-Implementierungen oder [Microsoft 365-und Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) für Microsoft Teams oder Skype for Business Online-Implementierungen beschrieben.
 
 > [!IMPORTANT]
 > Verwenden Sie unbedingt eine 1-GBit/s-Kabelnetzwerkverbindung, um sicherzustellen, dass die benötigte Bandbreite verfügbar ist.
@@ -110,7 +110,7 @@ Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten besch
 
 |Verwendungszweck|Quelle oder Anmeldeinformationen|Quellport|Ziel|CDN|ExpressRoute für Office 365|Ziel-IP|Zielport|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Authentifizierung und Identität  <br/> |Siehe [Office 365-Authentifizierung und-Identität](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Authentifizierung und Identität  <br/> |Informationen zu [Microsoft 365 und Office 365-Authentifizierung und-Identität](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portal und gemeinsame Dienste  <br/> |Siehe [Microsoft 365 Admin Center und freigegeben](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP-Signalisierung  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Webkonferenzen über PSOM-Verbindungen (Persistent Shared Object Model)  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,11 +123,11 @@ Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten besch
 |Skype-Client-Hinweise  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |quicktips.skypeforbusiness.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> Der Platzhalter für contoso.com und broadcast.skype.com steht für eine lange Liste von Knoten, die ausschließlich für Office 365 verwendet werden. 
+> Der Platzhalter für contoso.com und Broadcast.Skype.com stellt eine lange Liste von Knoten dar, die ausschließlich für Microsoft 365 oder Office 365 verwendet werden. 
   
 ### <a name="create-provisioning-packages"></a>Erstellen von Bereitstellungspaketen
 
-Sie werden Bereitstellungspakete verwenden, um sich bei Exchange Server oder Office 365 zu authentifizieren.
+Sie verwenden Bereitstellungspakete zur Authentifizierung bei Exchange Server, Microsoft 365 oder Office 365.
   
 ### <a name="admin-group-management"></a>Verwaltung von Administratoren Gruppen
 
@@ -144,7 +144,7 @@ Das Geräte Konto verwendet in der Regel kein Kennwort. Es ist möglich, ihm ein
   
 ### <a name="admin---local-administrator-account"></a>"Administrator" – Lokales Administrator Konto
 
-Microsoft Teams rooms Standardkennwort ist auf "SFB" eingestellt. Das Kennwort kann lokal geändert werden, indem Sie zu Windows \> -Einstellungen wechseln Sie zu Windows oder in der Datei "Autounattend. xml" (verwenden Sie den Windows System Image Manager von ADK, um die Änderung an der XML-Datei vorzunehmen).
+Microsoft Teams rooms Standardkennwort ist auf "SFB" eingestellt. Das Kennwort kann lokal geändert werden, indem Sie zu Windows-Einstellungen \> wechseln Sie zu Windows oder in der Datei "Autounattend. xml" (verwenden Sie den Windows System Image Manager von ADK, um die Änderung an der XML-Datei vorzunehmen).
   
 > [!CAUTION]
 > Achten Sie darauf, das Microsoft Teams rooms-Kennwort so bald wie möglich zu ändern. 
@@ -155,7 +155,7 @@ Das Kennwort des lokalen Administrators wird während des Setups nicht als Auswa
   
 ### <a name="machine-account"></a>Computerkonto
 
-Ähnlich wie bei einem beliebigen Windows-Gerät kann der Computer Name durch Klicken mit der rechten \> Maustaste \> in Einstellungen zum Umbenennen von PC umbenannt werden.
+Ähnlich wie bei einem beliebigen Windows-Gerät kann der Computer Name durch Klicken mit der rechten Maustaste in Einstellungen \> zum Umbenennen von PC umbenannt werden \> .
   
  Wenn Sie den Computer umbenennen möchten, nachdem Sie ihn einer Domäne hinzugefügt haben, verwenden Sie den Befehl Rename-Computer PowerShell gefolgt vom neuen Namen des Computers.
   

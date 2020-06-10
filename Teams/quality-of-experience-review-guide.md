@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 755be709a6d1aa0093478c0e614346fe319b0bde
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918724"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666207"
 ---
 # <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität 
 
@@ -198,7 +198,7 @@ Der Erfolg von der Operationalisierung eine qualitativ hochwertige und zuverläs
 
     -   Zunächst ist Microsoft dafür verantwortlich, die Teams und Skype for Business Online-Dienste zu verwalten und zu verwalten.
 
-    -   An zweiter Stelle kommen die Aufgaben, die Ihre Organisation verwalten muss, um einen zuverlässigen Zugriff auf den Dienst zu gewährleisten, z. B. die Aktualisierung von Gebäudeinformationen und die Verwaltung von Firewalls für neue Office 365-IP-Adressen, wenn dem Dienst Infrastruktur hinzugefügt wird.
+    -   Zweitens sind Aufgaben, die Ihre Organisation verwalten muss, um einen zuverlässigen Zugriff auf den Dienst zu gewährleisten, beispielsweise das Aktualisieren von Gebäudeinformationen und das Verwalten von Firewalls für neue Microsoft 365-oder Office 365-IP-Adressen, wenn dem Dienstinfrastruktur hinzugefügt wird.
 
 ![Diagramm der Qualitätskategorien in einer Organisation](media/qerguide-image-categories.png "Die Qualitätskategorien in einer Organisation: Dienstverwaltung, Endpunkte und das Netzwerk.")
 
@@ -213,7 +213,7 @@ Wenn Sie diese Aufgaben zum ersten Mal ausführen, müssen Sie mehr Aufwand als 
 
 #### <a name="service-management-tasks"></a>Dienstverwaltungsaufgaben
 
-In einer von der Cloud abhängigen Umgebung müssen Sie bestimmte Dienstverwaltungsaufgaben ausführen, um eine qualitativ hochwertige Benutzererfahrung zu sichern. Diese Aufgaben reichen von der Sicherstellung einer ausreichenden Bandbreite, um den Dienst ohne Sättigung der Internetverbindungen zu erreichen, über die Validierung der Dienstqualität (QoS) in allen verwalteten Netzwerkbereichen bis hin zu den [IP-Bereichen von Office 365 auf Firewalls](https://aka.ms/o365ips).
+In einer von der Cloud abhängigen Umgebung müssen Sie bestimmte Dienstverwaltungsaufgaben ausführen, um eine qualitativ hochwertige Benutzererfahrung zu sichern. Diese Aufgaben reichen davon ab, sicherzustellen, dass genügend Bandbreite vorhanden ist, um den Dienst zu erreichen, ohne Internet-Links zu sättigen, zu überprüfen, ob QoS (Quality of Service) in allen verwalteten Netzwerkbereichen vorhanden ist, und – zuletzt – über die [IP-Bereiche von Microsoft 365 und Office 365 auf Firewalls](https://aka.ms/o365ips)zu bleiben.
 
 #### <a name="network-tasks"></a>Netzwerkaufgaben
 
@@ -307,7 +307,7 @@ Einige CQD-Berichte erfordern einen Filter für Ihre Mandanten-ID. Aufgrund der 
 
 1. [Installieren Sie das Microsoft Azure PowerShell Service Management-Modul](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2. Öffnen Sie ein Azure PowerShell-Befehlsfenster, führen Sie das folgende Skript aus, und geben Sie dabei Ihre Office 365-Anmeldeinformationen ein, wenn Sie dazu aufgefordert werden: 
+2. Öffnen Sie ein Azure PowerShell-Befehlsfenster, und führen Sie das folgende Skript aus, und geben Sie bei der entsprechenden Aufforderung Ihre Microsoft 365-oder Office 365-Anmeldeinformationen ein:
 
    ```PowerShell
    Login-AzureRmAccount
@@ -548,7 +548,7 @@ _Tabelle 3 – Abfragefilter_
 
 | Filter         | Beschreibung          | Beispiel für CQD-Abfragefilter      |
 |----------------|----------------------|-------------------------------|
-| Keine leeren Werte   | Einige Filter verfügen nicht über die Option, nach leeren Werten zu filtern. Wenn Sie leere Werte manuell filtern möchten, verwenden Sie den leeren Ausdruck, und legen Sie den Filter abhängig von Ihren Anforderungen auf "Equals" oder "Not Equals" fest.      | Zweiter Gebäudename \<\> \^\\s\*\$                       |
+| Keine leeren Werte   | Einige Filter verfügen nicht über die Option, nach leeren Werten zu filtern. Wenn Sie leere Werte manuell filtern möchten, verwenden Sie den leeren Ausdruck, und legen Sie den Filter abhängig von Ihren Anforderungen auf "Equals" oder "Not Equals" fest.      | Zweiter Gebäude Name \<\> \^ \\ s\*\$                       |
 | Häufig verwendete Subnetze ausschließen | Ohne eine gültige Gebäudedatei, um verwaltete von nicht verwalteten Netzwerken zu trennen, werden Heimnetzwerke in die Berichte aufgenommen. Diese Home-Subnetze liegen außerhalb des Kontrollbereichs und können schnell von einem Bericht ausgeschlossen werden. Häufig verwendete Subnetze laut der Definition in diesem Leitfaden sind 10.0.0.0, 192.168.1.0 und 192.168.0.0. | Zweites Subnetz \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
 | Nur innere anzeigen  | Wird verwendet, um einen Bericht für verwaltete (interne) oder nicht verwaltete (externe) zu filtern. Die Vorlage für verwaltete CQD ist bereits mit diesen Filtern vorkonfiguriert.       | Zweiter innerhalb des Unternehmens = Intern        |
 
@@ -573,7 +573,7 @@ Dieser Leitfaden enthält [zwei zusammengestellte CQD-Vorlagen](https://aka.ms/q
 
 1. Wechseln Sie zu <https://cqd.teams.microsoft.com>.
 
-2. Authentifizieren Sie sich mit Ihren Admin-Anmeldeinformationen für Office 365.
+2. Authentifizieren Sie sich mithilfe ihrer administrativen Anmeldeinformationen für Microsoft 365 oder Office 365.
 
    > [!NOTE]
    > Sie müssen über die Rolle globaler Administrator, Skype for Business-Administrator oder berichtsleser verfügen, um auf CQD zugreifen zu können. 
@@ -667,7 +667,7 @@ Hier einige Punkte, die Sie berücksichtigen sollten, bevor Sie Supernetting imp
 
 #### <a name="vpn"></a>VPN
 
-Die QoE-Daten (Erlebnisqualität), die von Clients an Office 365 gesendet werden, d. h., aus dem CQD-Daten stammen, umfassen eine VPN-Kennzeichnung. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Flag basiert jedoch auf der Berichterstellung des VPN-Anbieters an Windows, dass der registrierte VPN-Netzwerkadapter ein RAS-Adapter ist. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Es gibt zwei Vorgehensweisen für die Aufnahme von VPN-Subnetzen in die Gebäudeinformationsdatei:
+Die QoE-Daten (Quality of Experience), die Clients an Microsoft 365 oder Office 365 senden, an denen CQD-Daten bezogen werden, enthalten ein VPN-Flag. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Flag basiert jedoch auf der Berichterstellung des VPN-Anbieters an Windows, dass der registrierte VPN-Netzwerkadapter ein RAS-Adapter ist. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Es gibt zwei Vorgehensweisen für die Aufnahme von VPN-Subnetzen in die Gebäudeinformationsdatei:
 
 - Definieren Sie einen **Netzwerknamen** , indem Sie in diesem Feld den Text "VPN" für VPN-Subnetze verwenden.
 
@@ -847,7 +847,7 @@ _Tabelle 7 – Gründe für Anrufaufbaufehler_
 | Gründe für Anrufaufbaufehler       | Typische Ursache                    |
 |----------------------------------|----------------------------------|
 | Fehlende Ausnahmeregel für FW-DPI (Deep Packet Inspection) | Deutet darauf hin, dass die Netzwerkausrüstung entlang des Pfads verhindert hat, dass der Medienpfad aufgrund von DPI-Regeln nicht erstellt wurde. Dies ist möglicherweise auf nicht ordnungsgemäß konfigurierte Firewallregeln zurückzuführen. In diesem Szenario war der TCP-Handshake erfolgreich, doch der SSL-Handshake war nicht erfolgreich.      |
-| Fehlende Ausnahmeregel für FW-IP-Block      | Deutet darauf hin, dass die Netzwerkausstattung entlang des Pfads verhindert hat, dass der Medienpfad zum Office 365-Netzwerk erstellt wurde. Dies könnte darauf zurückzuführen sein, dass Proxy- oder Firewallregeln nicht ordnungsgemäß konfiguriert wurden, um den Zugriff auf die für Teams- und Skype for Business-Datenverkehr verwendeten IP-Adressen und Ports nicht ordnungsgemäß konfiguriert wurden. |
+| Fehlende Ausnahmeregel für FW-IP-Block      | Gibt an, dass Netzwerkgeräte entlang des Pfads verhindert haben, dass der Medienpfad zum Microsoft 365-oder Office 365-Netzwerk hergestellt wird. Dies könnte darauf zurückzuführen sein, dass Proxy- oder Firewallregeln nicht ordnungsgemäß konfiguriert wurden, um den Zugriff auf die für Teams- und Skype for Business-Datenverkehr verwendeten IP-Adressen und Ports nicht ordnungsgemäß konfiguriert wurden. |
 
 Wenn Sie mit der Behebung beginnen, können Sie Ihre Bemühungen nun auf ein bestimmtes Gebäude oder Subnetz konzentrieren. Wie in der vorstehenden Tabelle zu sehen ist, sind diese Probleme auf Firewall- oder Proxy-Konfigurationen zurückzuführen. Überprüfen Sie die in der folgenden Tabelle aufgeführten Optionen für Wartungsaktionen.
 
@@ -856,7 +856,7 @@ _Tabelle 8 – Nächste Schritte für die Behebung von Anrufaufbaufehlern_
 
 |      Fehlerbehebung      |                                                                                                                                                                                                                                                                                                                                                                   Anleitung                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Konfigurieren von Firewall(s) | Arbeiten Sie mit Ihrem Netzwerkteam zusammen und überprüfen Sie die Konfiguration Ihrer Firewall(s) für [die Office 365-IP-Adressliste](https://aka.ms/o365ips).<br><br>Vergewissern Sie sich, dass die [Medien-Subnetze](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) und -Ports in den Firewallregeln enthalten sind. <br><br>Überprüfen Sie, ob die erforderlichen Ports (siehe unten) in der Firewall geöffnet sind. UDP sollte vorrangig sein, da TCP als Rückfallprotokoll für Audio-, Video- und videobasierte Bildschirmfreigaben betrachtet wird und deren Verwendung sich auf die Qualität des Anrufs auswirkt. Die alte RDP-Anwendungsfreigabe verwendet nur TCP.<br><ul><li>**TCP:** Port 443</li><li>**UDP:** Ports 3478–3481</li><ul> |
+| Konfigurieren von Firewall(s) | Arbeiten Sie mit Ihrem Netzwerkteam zusammen, und überprüfen Sie die Konfiguration Ihrer Firewall (s) für [die IP-Adressliste Microsoft 365 und Office 365](https://aka.ms/o365ips).<br><br>Vergewissern Sie sich, dass die [Medien-Subnetze](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) und -Ports in den Firewallregeln enthalten sind. <br><br>Überprüfen Sie, ob die erforderlichen Ports (siehe unten) in der Firewall geöffnet sind. UDP sollte vorrangig sein, da TCP als Rückfallprotokoll für Audio-, Video- und videobasierte Bildschirmfreigaben betrachtet wird und deren Verwendung sich auf die Qualität des Anrufs auswirkt. Die alte RDP-Anwendungsfreigabe verwendet nur TCP.<br><ul><li>**TCP:** Port 443</li><li>**UDP:** Ports 3478–3481</li><ul> |
 |        Überprüfen         |                                                                                                                                                                                                                                                                 Verwenden Sie das [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885), um die Konnektivität aus dem betroffenen Gebäude oder Subnetz über die Funktion "Konnektivität prüfen" zu überprüfen.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Abbruchfehler
@@ -1006,7 +1006,7 @@ _Tabelle 10 –Häufige Ursachen einer hohen PSR_
 
 TCP wird als Failback-Transport und nicht als primärer Transport für Echtzeitmedien betrachtet. Der Grund dafür ist ein Failback-Transport, der auf die Stateful-Art von TCP zurückzuführen ist. Wenn beispielsweise ein Anruf in einem latenten Netzwerk getätigt wird und Medienpakete verzögert werden, dann konkurrieren Pakete von vor einigen Sekunden, die nicht mehr nützlich sind, um Bandbreite, um zum Empfänger zu gelangen, was eine schlechte Situation verschärft. Dies führt dazu, dass die Audioqualitätsbehebung den Ton zusammenfügt und streckt, was zu hörbaren Artefakten führt, oft in Form von Jitter.
 
-In den Berichten in diesem Abschnitt wird nicht zwischen guten und schlechten Datenströmen unterschieden. Da UDP bevorzugt wird, suchen die Berichte nach der Verwendung von TCP für Audio, Video und videobasierte Bildschirmfreigabe (VBSS). Es werden schlechte Datenstromraten zur Ansicht bereitgestellt, um die UDP-Qualität im Vergleich zur TCP-Qualität zu vergleichen, damit Sie sich auf die größten Auswirkungen konzentrieren können. Die TCP-Nutzung wird in erster Linie durch unvollständige Firewallregeln verursacht. Weitere Informationen zu Firewallregeln für Teams und Skype for Business Online finden Sie unter [Office 365-URLs und -IP-Adressbereiche](https://aka.ms/o365ips).
+In den Berichten in diesem Abschnitt wird nicht zwischen guten und schlechten Datenströmen unterschieden. Da UDP bevorzugt wird, suchen die Berichte nach der Verwendung von TCP für Audio, Video und videobasierte Bildschirmfreigabe (VBSS). Es werden schlechte Datenstromraten zur Ansicht bereitgestellt, um die UDP-Qualität im Vergleich zur TCP-Qualität zu vergleichen, damit Sie sich auf die größten Auswirkungen konzentrieren können. Die TCP-Nutzung wird in erster Linie durch unvollständige Firewallregeln verursacht. Weitere Informationen zu Firewallregeln für Teams und Skype for Business Online finden Sie unter [Microsoft 365 und Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips).
 
 > [!Important]
 > Es wird dringend empfohlen, eine [gültige Gebäudedatei](#building-mapping) hochgeladen zu haben, damit Sie beim Betrachten der TCP-Nutzung schnell zwischen internen und externen Datenströmen unterscheiden können.
@@ -1070,8 +1070,8 @@ _Tabelle 11 – Leitfaden zur Fehlerbehebung von TCP-Datenströmen nach Gebäude
 
 | Fehlerbehebung        | Anleitung     |
 |--------------------|--------------------------------------|
-| Konfigurieren der Firewall | Stellen Sie sicher, dass die [Office 365-IP-Ports und -Adressen](https://aka.ms/o365ips) aus Ihrer Firewall ausgeschlossen sind. Konzentrieren Sie sich bei medienbezogenen TCP-Problemen zunächst auf Folgendes:<ul><li>Vergewissern Sie sich, dass die Medien-Subnetze 13.107.64.0/18 und 52.112.0.0/14 des Clients in ihren Firewallregeln enthalten sind.</li><li>UDP-Ports 3478–3481 sind die erforderlichen Media-Ports und müssen geöffnet werden, andernfalls kehrt der Client zurück zu TCP-Port 443.</li></ul> |
-| Überprüfen             | Verwenden Sie das [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885), um nach Problemen mit der Verbindung zu bestimmten Office 365-IP-Adressen und Ports aus dem betroffenen Gebäude oder Subnetz zu suchen.    |
+| Konfigurieren der Firewall | Überprüfen Sie, ob die [Microsoft 365-oder Office 365-IP-Ports und-Adressen](https://aka.ms/o365ips) von Ihrer Firewall ausgeschlossen sind. Konzentrieren Sie sich bei medienbezogenen TCP-Problemen zunächst auf Folgendes:<ul><li>Vergewissern Sie sich, dass die Medien-Subnetze 13.107.64.0/18 und 52.112.0.0/14 des Clients in ihren Firewallregeln enthalten sind.</li><li>UDP-Ports 3478–3481 sind die erforderlichen Media-Ports und müssen geöffnet werden, andernfalls kehrt der Client zurück zu TCP-Port 443.</li></ul> |
+| Überprüfen             | Verwenden Sie das [Tool Microsoft-Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) , um Probleme mit der Konnektivität zu bestimmten Microsoft 365-oder Office 365-IP-Adressen und-Ports aus dem betroffenen Gebäude oder Subnetz zu überprüfen.    |
 
 ### <a name="http-proxy"></a>HTTP-Proxy
 
@@ -1096,7 +1096,7 @@ _Abbildung 28 – Audiodatenströme mit HTTP-Proxy-Nutzung_
 
 Sie möchten möglichst wenig HTTP-Medienströme sehen. Wenn Sie Datenströme über Ihren Proxy laufen sehen, wenden Sie sich an Ihr Netzwerkteam, um sicherzustellen, dass die richtigen Ausschlüsse vorhanden sind, damit die Kunden direkt an die Teams oder die Mediensubnetze von Skype for Business Online weitergeleitet werden.
 
-Wenn in Ihrer Organisation nur ein Internet-Proxy vorhanden ist, vergewissern Sie sich, dass die [Ausschlüsse für Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) korrekt sind. Wenn in Ihrer Organisation mehrere Internet-Proxys konfiguriert sind, können Sie mit dem HTTP-Unterbericht isolieren, welches Gebäude oder Subnetz betroffen ist.
+Wenn in Ihrer Organisation nur ein Internet Proxy vorhanden ist, überprüfen Sie die korrekten [Microsoft 365-oder Office 365-URLs und die Ausschlussmöglichkeiten für den IP-Adressbereich](https://aka.ms/o365ips). Wenn in Ihrer Organisation mehrere Internet-Proxys konfiguriert sind, können Sie mit dem HTTP-Unterbericht isolieren, welches Gebäude oder Subnetz betroffen ist.
 
 Für Organisationen, die den Proxy nicht umgehen können, stellen Sie sicher, dass der Skype for Business-Client so konfiguriert ist, dass er sich ordnungsgemäß anmeldet, wenn er sich hinter einem Proxy befindet, wie in dem Artikel beschrieben, den [Skype for Business Proxy Server für die Anmeldung verwenden soll, anstatt eine direkte Verbindung zu versuchen](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
@@ -1121,7 +1121,7 @@ Wir [empfehlen](proxy-servers-for-skype-for-business-online.md), dass Sie die Pr
 
 Die häufigste Ursache für die HTTP-Nutzung sind fehlende Ausnahmeregeln in Proxys. Wenn Sie das bereitgestellte Gebäude oder Subnetz verwenden, können Sie schnell ermitteln, welcher Proxy für die Medienumgehung konfiguriert werden muss.
 
-Überprüfen Sie, ob die erforderlichen [Office 365 FQDNs](https://aka.ms/o365ips) in Ihrem Proxy in der Genehmigungsliste enthalten sind.
+Überprüfen Sie, ob die erforderlichen [Microsoft 365-oder Office 365-FQDNs](https://aka.ms/o365ips) in Ihrem Proxy whitelisted sind.
 
 ## <a name="endpoint-investigations"></a>Endpunktuntersuchungen
 
@@ -1166,7 +1166,7 @@ Darüber hinaus ist es wichtig, zu prüfen und sicherzustellen, dass die Netzwer
 
 Die Versionsnummern für Skype for Business finden Sie über die folgenden Links:
 
--   [Versionsinformationen zu Updates für Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
+-   [Freigeben von Informationen für Updates für Microsoft 365-apps](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Update Verlauf für Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business – Downloads und Updates](/SkypeForBusiness/software-updates)
 
@@ -1221,11 +1221,11 @@ Außerdem müssen die WLAN-Treiber in regelmäßigen Abständen gepatcht werden 
 
 ## <a name="appendix"></a>Anhang 
 
-### <a name="office-365-network-connectivity-principles"></a>Prinzipien von Office 365-Netzwerkverbindungen
+### <a name="network-connectivity-principles"></a>Grundlagen der Netzwerkkonnektivität
 
-Bevor Sie mit der Planung Ihres Netzwerks für die Office 365-Netzwerkkonnektivität beginnen, ist es wichtig, die Verbindungs Prinzipien für sicheres Verwalten von Office 365-Datenverkehr zu verstehen und die bestmögliche Leistung zu erzielen. Der folgende Artikel hilft Ihnen, die neuesten Hinweise für die sichere Optimierung der Office 365-Netzwerkkonnektivität zu verstehen:
+Bevor Sie mit der Planung Ihres Netzwerks für Microsoft 365-oder Office 365-Netzwerkkonnektivität beginnen, ist es wichtig, die Verbindungs Prinzipien für sicheres Verwalten von Microsoft 365-oder Office 365-Datenverkehr zu verstehen und die bestmögliche Leistung zu erzielen. Der folgende Artikel hilft Ihnen, die neuesten Anleitungen für die sichere Optimierung der Netzwerkkonnektivität zu verstehen:
 
-[Prinzipien von Office 365-Netzwerkverbindungen](https://aka.ms/pnc)
+[Grundlagen von Microsoft 365 und Office 365-Netzwerkkonnektivität](https://aka.ms/pnc)
 
 ### <a name="planning-for-wi-fi"></a>Planen für WLAN
 

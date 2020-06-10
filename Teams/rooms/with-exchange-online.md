@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online und Skype for Business Server lokal.
-ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905287"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666147"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -86,7 +86,7 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 4. Klicken Sie auf **Fertig stellen**, um das Konto zu erstellen.
 5. Nachdem Sie das Konto erstellt haben, führen Sie eine Verzeichnissynchronisierung aus. Dies kann mithilfe von " [MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) " in PowerShell erfolgen. Wenn dies abgeschlossen ist, wechseln Sie zur Seite "Benutzer", und vergewissern Sie sich, dass die beiden in den vorherigen Schritten erstellten Konten zusammengeführt wurden.
 
-### <a name="assign-an-office-365-license"></a>Zuweisen einer Office 365-Lizenz
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Zuweisen einer Microsoft 365-oder Office 365-Lizenz
 
 1. Stellen Sie zunächst eine Verbindung mit Azure AD her, um einige Kontoeinstellungen anzuwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
@@ -100,8 +100,8 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. Das Benutzerkonto muss über eine gültige Office 365-Lizenz verfügen, um sicherzustellen, dass Exchange und Skype for Business Server funktionieren. Wenn Sie über die Lizenz verfügen, müssen Sie Ihrem Benutzerkonto einen Verwendungsstandort zuweisen, um festzustellen, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie führen die Aufgabe in einem der folgenden Schritte aus.
-3. Verwenden Sie als nächstes`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> , um eine Liste der verfügbaren SKUs für Ihre Office 365-Organisation abzurufen.
+2. Das Benutzerkonto muss über eine gültige Microsoft 365-oder Office 365-Lizenz verfügen, um sicherzustellen, dass Exchange und Skype for Business Server funktionieren. Wenn Sie über die Lizenz verfügen, müssen Sie Ihrem Benutzerkonto einen Verwendungsstandort zuweisen, um festzustellen, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie führen die Aufgabe in einem der folgenden Schritte aus.
+3. Verwenden Sie als nächstes`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> So rufen Sie eine Liste der verfügbaren SKUs für Ihre Microsoft 365-oder Office 365-Organisation ab
 4. Nachdem Sie die SKUs aufgelistet haben, können Sie eine Lizenz mit dem`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“). 
 
     ```PowerShell
@@ -140,7 +140,7 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Zuweisen einer Skype for Business Server-Lizenz zum Microsoft Teams rooms-Konto
 
-1. Melden Sie sich als mandantenadministrator an, öffnen Sie das Office 365-Verwaltungs Portal, und klicken Sie auf die Administrator-app.
+1. Melden Sie sich als mandantenadministrator an, öffnen Sie das Microsoft 365 Admin Center, und klicken Sie auf die Administrator-app.
 2. Klicken Sie auf **Benutzer und Gruppen** und dann auf **Benutzer hinzufügen, Kennwörter zurücksetzen und mehr**.
 3. Klicken Sie auf das Microsoft Teams rooms-Konto, und klicken Sie dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
 4. Klicken Sie auf **Lizenzen**.
@@ -150,7 +150,7 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 Zur Überprüfung sollten Sie in der Lage sein, sich mit einem Skype for Business-Client bei diesem Konto anzumelden.
 
 > [!NOTE]
-> Wenn Sie derzeit E1-, E3-, E4-oder E5-SKUs mit Skype for Business Plan 2 mit Audiokonferenzen oder mit dem Office 365-Telefon System und einem Anrufplan verwenden, werden diese weiterhin funktionieren. Sie sollten jedoch in der Lage sein, ein einfacheres Lizenzierungsmodell zu verwenden, wie es in Teams für die [Lizenzierung von Besprechungsräumen](rooms-licensing.md)beschrieben wird, nachdem aktuelle Lizenzen abgelaufen sind.
+> Wenn Sie derzeit E1-, E3-, E4-oder E5-SKUs mit Skype for Business Plan 2 mit Audiokonferenz oder mit Telefon System und einem Anrufplan verwenden, werden diese weiterhin funktionieren. Sie sollten jedoch in der Lage sein, ein einfacheres Lizenzierungsmodell zu verwenden, wie es in Teams für die [Lizenzierung von Besprechungsräumen](rooms-licensing.md)beschrieben wird, nachdem aktuelle Lizenzen abgelaufen sind.
 
 > [!IMPORTANT]
 > Wenn Sie Skype for Business Plan 2 verwenden, können Sie die Microsoft Teams-Räume nur im Skype for Business-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business-Besprechungen sind. Um Ihren Besprechungsraum für Microsoft Teams-Besprechungen zu aktivieren, empfehlen wir, die Lizenz für den Besprechungsraum zu erwerben.

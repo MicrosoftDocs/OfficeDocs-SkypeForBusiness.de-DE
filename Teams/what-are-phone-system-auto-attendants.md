@@ -24,20 +24,20 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Cloud-Telefonzentralen und deren Verwendung, um Anrufern das Navigieren in einem Menü System zu ermöglichen, um Anrufe an Benutzer oder Abteilungen zu suchen und dort zu platzieren oder zu übertragen.
-ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042602"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665187"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloud-Telefonzentralen?
 
-Das Telefon System in Office 365 stellt automatische Telefonzentralen bereit, mit deren Hilfe externe und interne Anrufer über ein Menü System navigieren können, um Anrufe an Benutzer oder Abteilungen in Ihrer Organisation zu suchen und dort zu platzieren oder zu übertragen.
+Das Telefon System bietet automatische Telefonzentralen, mit deren Hilfe externe und interne Anrufer über ein Menü System navigieren können, um Anrufe an Benutzer oder Abteilungen in Ihrer Organisation zu suchen und zu platzieren oder zu übertragen.
   
 Eine automatische Telefonzentrale ist in der Regel ein Knoten in einem System und gibt dem Anrufer eine Reihe von Sprachansagen oder Audiodateien, die Sie hören, anstatt eines menschlichen Netzbetreibers. Wenn Personen eine Nummer anrufen, die einer automatischen Telefonzentrale zugeordnet ist, können Ihre Entscheidungen den Anruf an einen Benutzer umleiten oder jemanden in Ihrer Organisation suchen und dann eine Verbindung mit diesem Benutzer herstellen. Sie können Ihre Auswahl äußern und mit dem Menü System interagieren, indem Sie eine Telefontastatur (DTMF) oder Spracherkennung verwenden. Die von Ihnen vorgenommenen Optionen können auch den Anruf an eine andere automatische Telefonzentrale oder an eine Anrufwarteschlange umleiten.
   
-Zum Einrichten einer automatischen Telefonzentrale für das Telefon System in Office 365 wechseln Sie zu [Einrichten einer automatischen Cloud](create-a-phone-system-auto-attendant.md)-Telefonzentrale.
+Zum Einrichten einer automatischen Telefonzentrale für Telefonsysteme wechseln Sie zu [Einrichten einer automatischen Cloud](create-a-phone-system-auto-attendant.md)-Telefonzentrale.
   
 Eine automatische Cloud-Telefonzentrale verfügt über die folgenden Features:
   
@@ -234,14 +234,14 @@ Wenn Sie eine automatische Telefonzentrale und die Menü Optionen einrichten mö
 
 Sie können dem verknüpften Ressourcenkonto der automatischen Telefonzentrale eine Microsoft-Dienstnummer, eine direkte Routingnummer oder eine Hybrid Nummer zuweisen (oder mehrere Ressourcenkonten, wenn mehr als eine Telefonnummer erwünscht ist). Weitere Informationen finden Sie unter [Planen des direkten Routings](direct-routing-plan.md) .
 
-Wenn Sie eine Dienstnummer zuweisen möchten, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Sobald Sie die gebührenpflichtigen oder gebührenfreien Telefonnummern für Dienstleistungen erhalten haben, werden Sie in **Skype for Business Admin Center** > -**sprach** > **Telefonnummern**angezeigt. Der **Nummerntyp** ist als **Service-gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers) oder, wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Wenn Sie eine Dienstnummer zuweisen möchten, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Sobald Sie die gebührenpflichtigen oder gebührenfreien Telefonnummern für Dienstleistungen erhalten haben, werden Sie in **Skype for Business Admin Center**-  >  **sprach**  >  **Telefonnummern**angezeigt. Der **Nummerntyp** ist als **Service-gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers) oder, wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
 > [!NOTE]
 > Wenn Sie sich außerhalb der Vereinigten Staaten befinden, können Sie das Microsoft Teams Admin Center nicht verwenden, um Dienstnummern zu erhalten. Wechseln Sie stattdessen zu [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um zu erfahren, wie das geht.
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
+[Das Telefonsystem bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 

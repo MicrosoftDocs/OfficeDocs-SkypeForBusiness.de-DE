@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a196dfee988a41a5d8145d9b6256d1df6e714133
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905827"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665277"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -58,7 +58,7 @@ Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemen
 > [Weitere Informationen zum Festlegen dieser Richtlinien und zu den erforderlichen Lizenzen finden](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)Sie unter Unterstützung bei der Planung.
 > 
 > [!NOTE]
-> Das Einschränken der Gruppen-und TEAMERSTELLUNG kann die Produktivität Ihrer Benutzer verlangsamen, da für viele Office 365-Dienste die Erstellung von Gruppen erforderlich ist, damit der Dienst funktioniert. Weitere Informationen finden Sie unter [Warum steuern, wer Microsoft 365-Gruppen erstellt](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Das Einschränken der Gruppen-und TEAMERSTELLUNG kann die Produktivität Ihrer Benutzer verlangsamen, da für viele Microsoft 365-und Office 365-Dienste Gruppen erstellt werden müssen, damit der Dienst funktioniert. Weitere Informationen finden Sie unter [Warum steuern, wer Microsoft 365-Gruppen erstellt](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Weitere Informationen
@@ -87,7 +87,7 @@ In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das F
 |Funktion |Details |Azure AD Premium-Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
 |Ablaufrichtlinie |Verwalten des Lebenszyklus von Microsoft 365-Gruppen durch Festlegen einer Ablaufrichtlinie |P1 |TBD|
-|Aufbewahrungsrichtlinie |Speichern oder löschen Sie Daten für einen bestimmten Zeitraum, indem Sie Aufbewahrungsrichtlinien für Teams im Security & Compliance Center festlegen. **Hinweis**: die Verwendung dieses Features erfordert Lizenzierung von Office 365 Enterprise E3 oder höher. |Nein |TBD |
+|Aufbewahrungsrichtlinie |Speichern oder löschen Sie Daten für einen bestimmten Zeitraum, indem Sie Aufbewahrungsrichtlinien für Teams im Security & Compliance Center festlegen. **Hinweis**: die Verwendung dieses Features erfordert Lizenzierung von Microsoft 365 oder Office 365 Enterprise E3 oder höher. |Nein |TBD |
 |Archivieren und Wiederherstellen |Archivieren Sie ein Team, wenn es nicht mehr aktiv ist, möchten Sie es aber zu Referenzzwecken behalten oder in Zukunft wieder aktivieren. |Nein |TBD |
 
 > [!Note]
@@ -106,7 +106,7 @@ Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter
 
 ## <a name="teams-feature-management"></a>Team-Funktionsverwaltung
 
-Ein weiterer wichtiger Aspekt von Governance und Lifecycle Management für Teams ist die Möglichkeit, zu steuern, auf welche Funktionen Ihre Benutzer zugreifen können. Sie können Messaging-, Besprechungs-und Anruffeatures verwalten, entweder auf der Office 365-Organisationsebene oder pro Benutzer. 
+Ein weiterer wichtiger Aspekt von Governance und Lifecycle Management für Teams ist die Möglichkeit, zu steuern, auf welche Funktionen Ihre Benutzer zugreifen können. Sie können Messaging-, Besprechungs-und Anruffeatures sowohl auf der Microsoft 365-oder Office 365-Organisationsebene als auch pro Benutzer verwalten.
 
 
 |         |         |
@@ -129,7 +129,7 @@ Darüber hinaus können Sie die Moderation für einen Kanal einrichten und besti
 
 ## <a name="security-and-compliance"></a>Sicherheit und Compliance
 
-Teams basiert auf den erweiterten Sicherheits-und Compliance-Funktionen von Office 365 und unterstützt die Überwachung und Berichterstellung, die Compliance-Inhaltssuche, e-Discovery, rechtliche Aufbewahrungs-und Aufbewahrungsrichtlinien. 
+Teams basiert auf den erweiterten Sicherheits-und Compliance-Funktionen von Microsoft 365 und Office 365 und unterstützt die Überwachung und Berichterstellung, die Compliance-Inhaltssuche, e-Discovery, rechtliche Aufbewahrungs-und Aufbewahrungsrichtlinien.
 
 > [!Important]
 > Wenn Ihre Organisation über Konformitäts-und Sicherheitsanforderungen verfügt, lesen Sie den ausführlichen Inhalt zu diesem Thema im Artikel [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md).

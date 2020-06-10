@@ -18,12 +18,12 @@ description: Hier erhalten Sie Informationen zu den verschiedenen Identitätsmod
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ccddd3bacdd495fb6febb11871d6d501f0a666b
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637204"
+ms.locfileid: "44665677"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Identitätsmodelle und Authentifizierung in Microsoft Teams
 ==========================================
@@ -51,6 +51,7 @@ Je nach den Entscheidungen ihrer Organisation, welches Identitätsmodell impleme
 
 Weitere Informationen finden Sie unter [Auswählen eines Anmelde Modells](https://go.microsoft.com/fwlink/?linkid=854626) und [Grundlegendes zu Identitäts Modellen und Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) -Führungslinien.
 
+
 <a name="multi-factor-authentication"></a>Mehrstufige Authentifizierung
 ----------------------------
 
@@ -63,5 +64,5 @@ Nachdem die Benutzer für MFA registriert sind, wird beim nächsten Anmelden ein
 
 |Mandantentyp  |Verfügbare Optionen für den zweiten MFA-Faktor  |Notizen  |
 |---------|---------|---------|
-|**Nur Cloud**     |MFA für Microsoft 365 und Office 365 <ul><li>Telefonanruf</li><li>SMS</li><li>Benachrichtigung in einer mobilen App</li><li>Prüfcode in einer mobilen App</li></ul>        |[Planen der mehrstufigen Authentifizierung für Microsoft 365-Bereitstellungen](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Hybridsetup (Modell für synchronisierte Identität oder Partneridentität)**     |<ul><li>MFA für Microsoft 365 und Office 365</li><li>Azure MFA-Modul (in AD FS integriert)</li><li>Physische oder virtuelle Smartcard (in AD FS integriert)</li></ul>         |Hinweis: zusätzliche MFA-Lösungen sind mit [Azure AD Identity Provider Compatibility docs](https://www.microsoft.com/download/details.aspx?id=56843) verfügbar         |
+|**Nur Cloud**     |MFA für Microsoft 365 oder Office 365 <ul><li>Telefonanruf</li><li>SMS</li><li>Benachrichtigung in einer mobilen App</li><li>Prüfcode in einer mobilen App</li></ul>        | |
+|**Hybridsetup (Modell für synchronisierte Identität oder Partneridentität)**     |<ul><li>MFA für Microsoft 365 oder Office 365</li><li>Azure MFA-Modul (in AD FS integriert)</li><li>Physische oder virtuelle Smartcard (in AD FS integriert)</li></ul>         |Hinweis: zusätzliche MFA-Lösungen sind mit [Azure AD Identity Provider Compatibility docs](https://www.microsoft.com/download/details.aspx?id=56843) verfügbar         |

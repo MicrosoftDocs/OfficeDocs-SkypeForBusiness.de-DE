@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Informieren Sie sich über Notrufe, einschließlich Informationen zu Notfalladressen, Routing von Notrufen und dynamischen Notrufen.
-ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539492"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665157"
 ---
 # <a name="manage-emergency-calling"></a>Verwalten von Notrufen
 
@@ -84,7 +84,7 @@ Wenn der Standort mit der Telefonnummer verbunden sein muss, hängt von dem Land
 
 - In den USA und Kanada ist beispielsweise ein Notfall Standort erforderlich, wenn einem Benutzer eine Nummer zugewiesen wird.
 
-- Für andere Länder &mdash; wie in Europa, dem Nahen Osten und Afrika (EMEA) &mdash; ist ein Notfall Standort erforderlich, wenn Sie die Telefonnummer von Office 365 erhalten oder wenn Sie von einem anderen Dienstanbieter oder Netzbetreiber übertragen wird.
+- Für andere Länder wie in Europa, dem Nahen Osten und Afrika (EMEA) ist ein Notfall Standort erforderlich, wenn Sie die Telefonnummer von Microsoft 365 oder Office 365 erhalten oder wenn Sie von einem anderen Dienstanbieter oder Netzbetreiber übertragen wird.
 
 ### <a name="dynamic-emergency-calling"></a>Dynamische Notrufe
 

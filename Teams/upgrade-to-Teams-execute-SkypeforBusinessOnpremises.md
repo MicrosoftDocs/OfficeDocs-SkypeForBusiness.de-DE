@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea614da76bd61cf7c29b0e8f150f1aac85223a7
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523158"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666017"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Upgrade von einer lokalen Bereitstellung von Skype for Business in Teams
 
@@ -54,7 +54,7 @@ Weitere Informationen finden Sie unter [Bereitstellen von Hybrid Konnektivität 
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Schritt 2: Implementieren der ausgewählten Upgrade-Reise für Ihre Organisation
 
-Nachdem Sie Ihre Hybrid Einrichtung abgeschlossen haben, können Sie planen, Ihre Benutzer nach Office 365 zu verschieben.
+Nachdem Sie Ihre Hybrid Einrichtung abgeschlossen haben, können Sie planen, Ihre Benutzer zu Microsoft 365 oder Office 365 zu verschieben.
 
 Weitere Informationen finden Sie unter:
 
@@ -64,8 +64,8 @@ Weitere Informationen finden Sie unter:
 
 ## <a name="phone-system-and-teams-upgrade"></a>Upgrade für Telefonsysteme und Teams
 
-Wenn Sie von lokalen Telefonsystemen zu Teams wechseln, können Sie die Vorteile des direkten Routings für das Telefon System ("Direktes Routing") oder der von Microsoft bereitgestellten Anrufpläne für Office 365 nutzen.
+Wenn Sie von lokalen Telefonsystemen zu Teams wechseln, können Sie die Vorteile des direkten Routings für das Telefon System ("Direktes Routing") oder der von Microsoft bereitgestellten Anrufpläne für Microsoft 365 oder Office 365 nutzen.
 
-Wenn Sie in Office 365 keine Anrufpläne verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung als Teil des Upgrades für Teams in das Telefon System Direct Routing umstellen.
+Wenn Sie keine Anrufpläne verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung im Rahmen Ihres Upgrades auf Teams in das Telefon System Direct Routing umstellen.
 
-Weitere Informationen finden Sie unter [Weitere Überlegungen zum direkten Routing von Telefonsystemen](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Wenn Sie beabsichtigen, Anrufpläne in Office 365 zu verwenden, beziehen Sie sich bitte auf unsere Anleitungen für die über [Tragung ihrer Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Weitere Informationen finden Sie unter [Weitere Überlegungen zum direkten Routing von Telefonsystemen](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Wenn Sie beabsichtigen, Anrufpläne zu verwenden, beziehen Sie sich bitte auf unsere Anleitungen für die über [Tragung ihrer Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

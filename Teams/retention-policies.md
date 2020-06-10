@@ -17,25 +17,25 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042442"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666177"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
 Die Aufbewahrungsrichtlinien helfen Ihnen, die Informationen in Ihrer Organisation effizienter zu verwalten. Verwenden Sie Aufbewahrungsrichtlinien, um die Daten zu speichern, die für die Einhaltung der internen Richtlinien Ihrer Organisation, der Branchenvorschriften oder der gesetzlichen Anforderungen erforderlich sind, und um die Daten zu löschen, die als eine Belastung eingestuft wurden, die Sie nicht mehr benötigen oder die keinen rechtlichen oder geschäftlichen Wert besitzen.
 
-Standardmäßig werden die Daten für Teams-Chat,-Kanal und-Dateien für immer aufbewahrt, es sei denn, es wird versucht, die Inhalte über Aufbewahrungsrichtlinien, Benutzer Löschungen, Administrator Löschungen usw. zu löschen. Als Administrator können Sie die Aufbewahrungsrichtlinien für Teams für Chats und Kanal Nachrichten einrichten und proaktiv entscheiden, ob Sie die Daten beibehalten, löschen oder für einen bestimmten Zeitraum beibehalten und dann löschen möchten.
+Standardmäßig werden die Daten für Teams-Chat,-Kanal und-Dateien auf unbestimmte Zeit aufbewahrt, es sei denn, es wird versucht, die Inhalte über Aufbewahrungsrichtlinien, Benutzer Löschungen, Administrator Löschungen usw. zu löschen. Als Administrator können Sie die Aufbewahrungsrichtlinien für Teams für Chats und Kanal Nachrichten einrichten und proaktiv entscheiden, ob Sie die Daten beibehalten, löschen oder für einen bestimmten Zeitraum beibehalten und dann löschen möchten.
 
 Sie erstellen und verwalten Aufbewahrungsrichtlinien für Teams und andere Arbeitslasten im [Microsoft 365 Compliance Center](https://protection.office.com/) oder mithilfe der PowerShell-Cmdlets für Security & Compliance Center. Sie können eine Aufbewahrungsrichtlinie für Teams auf Ihre gesamte Organisation oder bestimmte Benutzer und Teams anwenden.
 
 > [!NOTE]
 > Wir unterstützen noch keine Konfiguration für die Aufbewahrung privater Kanal Nachrichten. Die Aufbewahrung von Dateien, die in privaten Kanälen freigegeben sind, wird unterstützt.
 
-Weitere Informationen zu den Aufbewahrungsrichtlinien für Office 365 finden Sie unter [Übersicht über Aufbewahrungsrichtlinien](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
+Weitere Informationen zu Aufbewahrungsrichtlinien für Microsoft 365 oder Office 365 finden Sie unter [Übersicht über Aufbewahrungsrichtlinien](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
 
 ## <a name="what-are-retention-policies-for-teams"></a>Was sind Aufbewahrungsrichtlinien für Teams?
 
@@ -148,7 +148,7 @@ Wenn Sie eine Aufbewahrungsrichtlinie für Teams löschen möchten, gehen Sie fo
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Verwenden Sie die folgenden Cmdlets, um die Aufbewahrungsrichtlinien für Teams mithilfe von [Office 365 Security & Compliance PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)zu erstellen und zu verwalten:
+Verwenden Sie die folgenden Cmdlets, um die Aufbewahrungsrichtlinien für Teams mithilfe von [Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)zu erstellen und zu verwalten:
 
 |Richtlinie|Regel|
 |---|---|

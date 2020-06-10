@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aba20df95071abe3308c9646d04b3a2d898d4ad
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 49f69d679f22def35bd31efaef8b3046ddf9fdd0
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523288"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666077"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Auswerten Ihrer Umgebung vor dem Upgrade auf Teams
 
@@ -44,7 +44,7 @@ Um Ihre objektiven Hauptergebnisse (OKRs) zu erreichen, haben Sie zuvor wichtige
 
 Sie erkennen technische Risiken als Teil einer Evaluierung der Umweltverträglichkeitsprüfung und Akzeptanz Bereitschaft an und entwickeln einen Minderungsplan für jedes erkannte Risiko. Sie sollten diese Informationen in das risikoregister aufnehmen.
 
-Alle Fragen im Zusammenhang mit Ihrer vorhandenen Infrastruktur für die Zusammenarbeit und der Office 365-Organisation,-Netzwerke,-Endpunkte,-Vorgänge sowie-Einführung und-Bereitschaft sind Teil des Fragebogens zur Umwelt Ermittlung. Der Fragebogen ist in mehrere Abschnitte unterteilt, um die Bereitstellung Ihrer Organisation für Ihre Teams in mehreren wichtigen Bereichen zu bestätigen. Arbeiten Sie mit Ihrem Projektteam zusammen, um die gewünschten Informationen so detailliert wie möglich zur Verfügung zu stellen, um Ihre Planungsaktivitäten zu vereinfachen.
+Alle Fragen im Zusammenhang mit Ihrer vorhandenen Infrastruktur für die Zusammenarbeit und der Microsoft 365-oder Office 365-Organisation,-Netzwerke,-Endpunkte,-Vorgänge sowie-Einführung und-Bereitschaft sind Teil des Fragebogens zur Umwelt Ermittlung. Der Fragebogen ist in mehrere Abschnitte unterteilt, um die Bereitstellung Ihrer Organisation für Ihre Teams in mehreren wichtigen Bereichen zu bestätigen. Arbeiten Sie mit Ihrem Projektteam zusammen, um die gewünschten Informationen so detailliert wie möglich zur Verfügung zu stellen, um Ihre Planungsaktivitäten zu vereinfachen.
 
 > [!TIP]
 > Sie können zunächst den Fragebogen in ein Microsoft Word-Dokument kopieren. Versuchen Sie, alle Fragen zu beantworten und alle Details während des Navigierens zu erfassen.
@@ -53,24 +53,24 @@ Alle Fragen im Zusammenhang mit Ihrer vorhandenen Infrastruktur für die Zusamme
 
 Stellen Sie sicher, dass Sie die richtigen Personen für Ihr Projektteam aktiviert haben. Überprüfen Sie die Schritte, die Sie unter eintragen [ihrer Projekt beteiligten](upgrade-enlist-stakeholders.md)ausgeführt haben.
 
-## <a name="office-365-organization-details"></a>Office 365-Organisationsdetails
+## <a name="microsoft-365-or-office-365-organization-details"></a>Informationen zu Microsoft 365 oder Office 365-Organisation
 
-Wir empfehlen dringend, dass Sie über eine Active Office 365-Organisation verfügen, während Sie mit diesem Fragebogen arbeiten. Wenn Sie noch keine Office 365-Organisation aktiviert oder konfiguriert haben, lesen Sie [Planen des Setups von Office 365 for Business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+Wir empfehlen dringend, dass Sie über eine aktive Microsoft 365-oder Office 365-Organisation verfügen, während Sie mit diesem Fragebogen arbeiten. Wenn Sie noch keine Microsoft 365-oder Office 365-Organisation aktiviert oder konfiguriert haben, lesen Sie [Planen des Setups von Microsoft 365 for Business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Verwenden Sie die folgende Tabelle, um Informationen zur Office 365-Organisation aufzuzeichnen.
+Verwenden Sie die folgende Tabelle, um Informationen zur Microsoft 365-oder Office 365-Organisation aufzuzeichnen.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
-> | Beachten Sie die Office 365-Produktionsorganisation <br>Name und ID in der Spalte "Antwort" <br/>Wenn Sie mehr als einen Mandanten haben <br>mit Ihrer Organisation verknüpft ist, <br>Beachten Sie alle IDs. | Mandanten Name: <br/>Mandanten-ID:| |
+> | Beachten Sie die Microsoft 365-oder Office 365-Produktionsorganisation <br>Name und ID in der Spalte "Antwort" <br/>Wenn Sie mehr als einen Mandanten haben <br>mit Ihrer Organisation verknüpft ist, <br>Beachten Sie alle IDs. | Mandanten Name: <br/>Mandanten-ID:| |
 > | In welchen Regionen werden die Mandanten bereitgestellt?| | |
-> | Sind diese Mandanten Office 365 Multitenant oder <br>Dedizierte? | <input type="checkbox">Multitenant<br/> <input type="checkbox">Dedizierte | |
+> | Sind diese Mandanten Microsoft 365 oder Office 365 Multitenant oder <br>Dedizierte? | <input type="checkbox">Multitenant<br/> <input type="checkbox">Dedizierte | |
 > | Welche Microsoft Online-Produkte werden zurzeit verwendet? <br/>Notieren Sie sich die Anzahl der Benutzer, die für jeden aktiviert sind <br>Dienst in der Spalte "Kommentare". | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Jammern <br/> <input type="checkbox">Anderen| |
 > | Welche Lizenzstufe ist für Skype aktiviert <br>Business Online-Benutzer? | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 E5 <br/> <input type="checkbox">Standalone | Die Anzahl der Benutzer <br>für jede SKU: |
 > | Was ist die aktuelle Active Directory-Gesamtstruktur? <br>Funktionsebene in der Umgebung? <br/>Wenn es mehr als eine Gesamtstruktur gibt, notieren Sie sich die Details. <br>in der Spalte Kommentare. | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
 > | Was verwenden Sie für das Verzeichnis? <br>Synchronisierung heute? |<input type="checkbox">Keine Synchronisierung (nur Cloud) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp; Verbinden <br/> <input type="checkbox">Sonstiges (geben Sie im <br>&nbsp;&nbsp; &nbsp; Spalte "Kommentare".)| |
 > | Ist zurzeit eine Partneridentität bereitgestellt? <br/>(Active Directory-Verbunddienste oder <br>Drittanbieter) | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Wenn Sie die Verbundidentität verwenden, was ist die <br>Verbundinfrastruktur? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Drittanbieter-Föderation <br>&nbsp;&nbsp; &nbsp; Gateway <br>&nbsp;&nbsp; &nbsp; (Beachten Sie die Details im <br>&nbsp;&nbsp; &nbsp; Spalte "Kommentare".) | |
-> | Wenn Sie derzeit ein Active Office 365 verwalten <br>Mandant ist die SMTP/SIP-Domäne Ihres <br>mit dem Mandanten verknüpfte, gezielte Benutzer? | <input type="checkbox">N/A – kein Office 365 <br>&nbsp;&nbsp; &nbsp; Mandant an Ort und Stelle <br/> <input type="checkbox">Nein, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne ist nicht zugeordnet <br>&nbsp;&nbsp; &nbsp; mit beliebigen Mandanten in <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Ja, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne ist zugeordnet <br>&nbsp;&nbsp; &nbsp; mit einem vorhandenen Mandanten <br>&nbsp;&nbsp; &nbsp; in Office 365 | |
+> | Wenn Sie derzeit eine aktive Microsoft 365 oder Office 365 verwalten <br>Mandant ist die SMTP/SIP-Domäne Ihres <br>mit dem Mandanten verknüpfte, gezielte Benutzer? | <input type="checkbox">N/A – kein Microsoft 365 oder Office 365 <br>&nbsp;&nbsp; &nbsp; Mandant an Ort und Stelle <br/> <input type="checkbox">Nein, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne ist nicht zugeordnet <br>&nbsp;&nbsp; &nbsp; mit beliebigen Mandanten in <br>&nbsp;&nbsp; &nbsp; Microsoft 365 oder Office 365 <br/> <input type="checkbox">Ja, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne ist zugeordnet <br>&nbsp;&nbsp; &nbsp; mit einem vorhandenen Mandanten <br>&nbsp;&nbsp; &nbsp; in Microsoft 365 oder Office 365 | |
 > | Entsprechen Benutzer-UPNs ihrer primären SMTP-Adresse? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein <br/> <input type="checkbox">Uneinheitlich | |
 
 ## <a name="existing-collaboration-platform-summary"></a>Zusammenfassung der vorhandenen Zusammenarbeitsplattform
@@ -80,10 +80,10 @@ Verwenden Sie die folgende Tabelle, um Informationen zu Ihrer vorhandenen Bereit
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
 > | Ist Microsoft Teams bereitgestellt? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
-> | Ist Skype for Business bereitgestellt? <br/>Stellen Sie bei lokalen und hybridbereitstellungen sicher, dass <br>Notieren Sie sich die Version und das kumulative Update (Cu). <br>Details in der Spalte "Kommentare". | <input type="checkbox">Ja, Office 365 <br/> <input type="checkbox">Ja, Hybrid (mit Office 365) <br/> <input type="checkbox">Ja, lokal <br/> <input type="checkbox">Ja, Online, dediziert <br>&nbsp;&nbsp; &nbsp; (Microsoft) <br/> <input type="checkbox">Ja, gehostet, dediziert <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Ja, gehostet, freigegeben (Drittanbieter) <br/> <input type="checkbox">Nein, andere | |
-> | Ist Exchange bereitgestellt? <br/>Stellen Sie bei lokalen und hybridbereitstellungen sicher, dass <br>Notieren Sie sich die Versions-und Cu-Details in den Kommentaren. <br>Spalte. | <input type="checkbox">Ja, Office 365 <br/> <input type="checkbox">Ja, Hybrid (mit Office 365) <br/> <input type="checkbox">Ja, lokal <br/> <input type="checkbox">Ja, Online, dediziert <br>&nbsp;&nbsp; &nbsp; (Microsoft) <br/> <input type="checkbox">Ja, gehostet, dediziert <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Ja, gehostet, freigegeben <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Nein, andere | |
-> | Ist SharePoint bereitgestellt? <br/>Stellen Sie bei lokalen und hybridbereitstellungen sicher, dass <br>Notieren Sie sich die Versions-und Cu-Details in den Kommentaren. <br>Spalte. | <input type="checkbox">Ja, Office 365 <br/> <input type="checkbox">Ja, Hybrid (mit Office 365) <br/> <input type="checkbox">Ja, lokal <br/> <input type="checkbox">Ja, Online, dediziert <br>&nbsp;&nbsp; &nbsp; (Microsoft) <br/> <input type="checkbox">Ja, gehostet, dediziert <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Ja, gehostet, freigegeben <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Nein, andere | |
-> | Ist Office 365 OneDrive for Business bereitgestellt? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
+> | Ist Skype for Business bereitgestellt? <br/>Stellen Sie bei lokalen und hybridbereitstellungen sicher, dass <br>Notieren Sie sich die Version und das kumulative Update (Cu). <br>Details in der Spalte "Kommentare". | <input type="checkbox">Ja, Microsoft 365 oder Office 365 <br/> <input type="checkbox">Ja, Hybrid (mit Microsoft 365 oder Office 365) <br/> <input type="checkbox">Ja, lokal <br/> <input type="checkbox">Ja, Online, dediziert <br>&nbsp;&nbsp; &nbsp; (Microsoft) <br/> <input type="checkbox">Ja, gehostet, dediziert <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Ja, gehostet, freigegeben (Drittanbieter) <br/> <input type="checkbox">Nein, andere | |
+> | Ist Exchange bereitgestellt? <br/>Stellen Sie bei lokalen und hybridbereitstellungen sicher, dass <br>Notieren Sie sich die Versions-und Cu-Details in den Kommentaren. <br>Spalte. | <input type="checkbox">Ja, Microsoft 365 oder Office 365 <br/> <input type="checkbox">Ja, Hybrid (mit Microsoft 365 oder Office 365) <br/> <input type="checkbox">Ja, lokal <br/> <input type="checkbox">Ja, Online, dediziert <br>&nbsp;&nbsp; &nbsp; (Microsoft) <br/> <input type="checkbox">Ja, gehostet, dediziert <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Ja, gehostet, freigegeben <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Nein, andere | |
+> | Ist SharePoint bereitgestellt? <br/>Stellen Sie bei lokalen und hybridbereitstellungen sicher, dass <br>Notieren Sie sich die Versions-und Cu-Details in den Kommentaren. <br>Spalte. | <input type="checkbox">Ja, Microsoft 365 oder Office 365 <br/> <input type="checkbox">Ja, Hybrid (mit Microsoft 365 oder Office 365) <br/> <input type="checkbox">Ja, lokal <br/> <input type="checkbox">Ja, Online, dediziert <br>&nbsp;&nbsp; &nbsp; (Microsoft) <br/> <input type="checkbox">Ja, gehostet, dediziert <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Ja, gehostet, freigegeben <br>&nbsp;&nbsp; &nbsp; (Drittpartei) <br/> <input type="checkbox">Nein, andere | |
+> | Ist Microsoft 365 oder Office 365 OneDrive for Business bereitgestellt? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Sind andere Plattformen von Drittanbietern bereitgestellt? <br>und wird heute verwendet? Wenn ja, notieren Sie sich die Anzahl der Benutzer von <br>Diese Plattformen und die Nutzungsdetails in den Kommentaren <br>Spalte. | <input type="checkbox">Cisco WebEx <br/> <input type="checkbox">Pufferzeit <br/> <input type="checkbox">Sonstiges (in den Kommentaren angeben <br>&nbsp;&nbsp; &nbsp; Column.) | Anzahl der Benutzer: <br/>Details|
 > | Planen Sie das Verschieben von Benutzern von diesen Drittanbietern <br>Plattformen für Teams? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Was ist die aktuelle Lösung für Telefonie und Konferenzen? <br>der Benutzer, die im Bereich dieser Initiative arbeiten? | | |
@@ -132,18 +132,18 @@ Erfassen Sie die Details Ihrer Skype for Business-Bereitstellung, falls zutreffe
 > | Wählen Sie Dienste aus, die von ihrer Edge-Rolle heute bereitgestellt werden. | <input type="checkbox">Zugriff auf externe Benutzer (Unternehmensbenutzer) <br/> <input type="checkbox">Zugriff durch Remote Benutzer (anonym extern <br>&nbsp;&nbsp; &nbsp; Besprechungsteilnehmer) <br/> <input type="checkbox">Verbund <br/> <input type="checkbox">Medien Relay | |
 > | Welche der folgenden Sprachanruf Funktionen haben Sie <br>sind zurzeit Abhängigkeiten vorhanden? <br/>Beachten Sie alle weiteren Abhängigkeiten in den Kommentaren. <br>Spalte. | <input type="checkbox">Optionen für "beschäftigt" <br/> <input type="checkbox">Park anrufen <br/> <input type="checkbox">Anruf Abholung oder Gruppenanruf Abholung <br/> <input type="checkbox">Telefone im öffentlichen Bereich oder "Hot Desking" <br/> <input type="checkbox">Reaktionsgruppen oder Sammelanschlüsse <br/> <input type="checkbox">Darstellung der freigegebenen Zeile <br/> <input type="checkbox">Privatleitung <br/> <input type="checkbox">Voicemail <br/> <input type="checkbox">Anruf über die Arbeit <br/> <input type="checkbox">Notfall-oder Informations Nummern <br>&nbsp;&nbsp; &nbsp; (911, 811, 411) <br/> <input type="checkbox">Durchwahl Wahl <br/> <input type="checkbox">Automatische Telefonzentrale <br/> <input type="checkbox">Teilnehmerzugriff <br/> <input type="checkbox">Analoge Geräte <br/> <input type="checkbox">Fax <br/> <input type="checkbox">Anrufer-ID-Maskierung oder-Änderung <br/> <input type="checkbox">Standortbasiertes Routing <br/> <input type="checkbox">Kostengünstigstes Routing <br/> <input type="checkbox">Aufzugs Telefone | |
 
-## <a name="networking-and-access-to-office-365-services"></a>Netzwerk und Zugriff auf Office 365-Dienste
+## <a name="networking-and-access-to-microsoft-365-or-office-365-services"></a>Netzwerk und Zugriff auf Microsoft 365-oder Office 365-Dienste
 
-Verwenden Sie die folgende Tabelle, um die Netzwerkdetails Ihrer Organisation zu erfassen und zu erfahren, wie Ihre Benutzer mit Office 365-Diensten verbunden sind (oder werden).
+Verwenden Sie die folgende Tabelle, um die Netzwerkdetails Ihrer Organisation aufzuzeichnen und zu erfahren, wie Ihre Benutzer mit Microsoft 365 oder Office 365-Diensten verbunden sind.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
 > | Wie (oder wie werden) die Benutzer im Bereich für die Migration <br>Access Teams, wenn Sie im Büro sind? <br/>Wählen Sie alle zutreffenden aus. | <input type="checkbox">Weitergeleitete NAT-Verbindung <br/> <input type="checkbox">Proxy Server <br/> <input type="checkbox">Öffentliches Wi-Fi <br/> <input type="checkbox">Verwaltetes (nicht öffentliches) Wi-Fi <br/> <input type="checkbox">Express Route (Microsoft Peering) ||
-> | Wenn der Zugriff auf Office 365 über einen Proxy Server erfolgt, gibt es <br>gibt es eine Möglichkeit, den Proxy zu umgehen? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
+> | Wenn der Zugriff auf Microsoft 365 oder Office 365 über einen Proxy Server erfolgt, gibt es <br>gibt es eine Möglichkeit, den Proxy zu umgehen? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Wird ExpressRoute zurzeit genutzt? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein <br/> <input type="checkbox">Nein, aber es ist geplant. | |
 > | Haben Sie eine Netzwerk Bereitschafts Beurteilung durchgeführt? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Sind Benutzer für die Verwendung eines VPNs beim Herstellen einer Verbindung erforderlich <br>Unternehmensressourcen Remote? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
-> | Wenn ein VPN verwendet wird, kann der Datenverkehr von Teams ausgeschlossen werden. <br>das VPN für den direkten Zugriff auf Office 365-Dienste? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
+> | Wenn ein VPN verwendet wird, kann der Datenverkehr von Teams ausgeschlossen werden. <br>das VPN für den direkten Zugriff auf Microsoft 365-oder Office 365-Dienste? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Unterstützt Ihr Netzwerk QoS? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Können Sie den Team-Audio-und Videoverkehr priorisieren <br>um eine hohe Qualität zu erzielen? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Verfügen alle Standorte innerhalb einer Region über einen Internet Ausstieg, <br>oder ist der Internet Ausstieg für die gesamte Region zentralisiert? | <input type="checkbox">Regionaler Zugriff auf das Internet <br/> <input type="checkbox">Zentralisierter Zugriff auf das Internet | |
@@ -167,12 +167,12 @@ Verwenden Sie die folgende Tabelle, um die Details der betrieblichen Aspekte Ihr
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
-> | Was ist Ihr Betriebsmodell für Ihren lync-Server? <br>Skype for Business Server-oder Office 365-Bereitstellung <br>heute? | | |
-> | Können Sie die aktuelle Support-Vereinbarung für <br>Lync Server, Skype for Business Server oder Office 365? | | |
+> | Was ist Ihr Betriebsmodell für Ihren lync-Server? <br>Skype for Business Server-, Microsoft 365-oder Office 365-Bereitstellung <br>heute? | | |
+> | Können Sie die aktuelle Support-Vereinbarung für <br>Lync Server, Skype for Business Server, Microsoft 365 oder Office 365? | | |
 > | Wenn Sie in mehreren Ländern oder Regionen bereitstellen, <br>hat jedes Land/jede Region seine eigene IT/Telefonie <br>Mitarbeiter, mit denen Sie arbeiten können, oder wird diese zentral verwaltet? | <input type="checkbox">Regionaler Betrieb und Support <br/> <input type="checkbox">Zentralisierte Vorgänge und Support | |
 > | Verfolgen Sie die [Methode zur Anrufqualität](quality-of-experience-review-guide.md)? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein | |
 > | Haben Sie eine Person oder ein Team dem <br>Quality Champion-Rolle für die Plattform für die Zusammenarbeit <br>in Verwendung? | <input type="checkbox">Ja <br/> <input type="checkbox">Nein ||
-> | Wie können Sie Ihren lync-Server überwachen, Skype für <br>Business Server oder Office 365-Bereitstellung? | | |
+> | Wie können Sie Ihren lync-Server überwachen, Skype für <br>Business Server, Microsoft 365 oder Office 365-Bereitstellung? | | |
 > | Treten Probleme mit der Anrufqualität auf? | <input type="checkbox">Ja<br/> <input type="checkbox">Nein | |
 > | Wie und wann stellen Sie Schulungen für Ihre <br>Helpdesk zu neuen Diensten und Funktionen? | | |
 

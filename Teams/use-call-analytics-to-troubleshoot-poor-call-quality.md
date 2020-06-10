@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Details zur anrufanalyse zu Geräten, Netzwerken und Verbindungen zur Behandlung von Benutzerproblemen mit Microsoft Teams und Skype for Business-anrufen und-Besprechungen.
-ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749562"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665247"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 
-Anrufanalyse unterstützt Sie bei der Behandlung von Anruf-oder Verbindungsproblemen mit Microsoft Teams und Skype for Business. In der anrufanalyse werden detaillierte Informationen zu den Geräten, Netzwerken und Verbindungen für die Anrufe und Besprechungen der einzelnen Benutzer in Ihrem Office 365-Konto angezeigt. Wenn Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzugefügt wurden, werden auch diese für jeden Anruf und jede Sitzung angezeigt. Anhand der über die Anrufanalyse verfügbaren Informationen können Sie herausfinden, warum bestimmte Benutzer eine schlechte Anruf- oder Besprechungsqualität wahrnehmen. 
+Anrufanalyse unterstützt Sie bei der Behandlung von Anruf-oder Verbindungsproblemen mit Microsoft Teams und Skype for Business. In der anrufanalyse werden detaillierte Informationen zu den Geräten, Netzwerken und Verbindungen für die Anrufe und Besprechungen der einzelnen Benutzer in Ihrem Microsoft 365-oder Office 365-Konto angezeigt. Wenn Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzugefügt wurden, werden auch diese für jeden Anruf und jede Sitzung angezeigt. Anhand der über die Anrufanalyse verfügbaren Informationen können Sie herausfinden, warum bestimmte Benutzer eine schlechte Anruf- oder Besprechungsqualität wahrnehmen. 
   
 ## <a name="call-analytics-permissions"></a>Anrufanalyse Berechtigungen
 
@@ -60,7 +60,7 @@ Wenn Sie Hilfe zu Berechtigungen benötigen, sehen Sie sich Ihre Teams und den S
 
 1. Melden Sie sich mit Ihrem Team Communications-Support oder den Team-Administratoranmeldeinformationen an.
 
-2. Wechseln Sie in Ihrem Webbrowser zu *https://admin.teams.microsoft.com*.
+2. Wechseln Sie in Ihrem Webbrowser zu *https://admin.teams.microsoft.com* .
     
 3. Beginnen Sie im **Dashboard**in der **Benutzersuche**mit der Eingabe des Namens oder der SIP-Adresse des Benutzers, dessen Anrufe Sie behandeln möchten, oder wählen Sie **Benutzer anzeigen** aus, um eine Liste der Benutzer anzuzeigen.
     

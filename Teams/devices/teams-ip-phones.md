@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Informieren Sie sich, welche Schreibtisch-und Konferenztelefone für Microsoft Teams zertifiziert sind, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412632"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666117"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -67,7 +67,10 @@ Die folgenden Zusammenarbeits Balken sind für Microsoft Teams zertifiziert:
 
 |Modell der Zusammenarbeits Leiste|Firmware-Version|Veröffentlichungsdatum |Raumgröße (bis zu)|
 |:---|:---|:---|:---|
+|Poly Studio X30 | 3.1.1.216109| Juni 2020|Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m)|
+|Poly Studio X50 | 3.1.1.216109| Juni 2020|Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m)|
 |Yealink VC210| 118.15.0.14|2020. Februar|Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m)|
+
 
 Informationen zu den von diesen Geräten unterstützten Features finden Sie unter [Microsoft Teams Phones-Funktionssatz](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) .
 

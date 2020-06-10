@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583448"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665417"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Teams aus.
 
@@ -83,7 +83,7 @@ Bei Verwendung der überlappenden Funktionen-Methode bleibt der Kommunikationsve
 
 - Die von einem Team-Client initiierte Kommunikation von einem *Benutzer in einer externen Organisation* landet immer im Skype for Business-Client von Benutzer a.
 
-Wenn Sie Ihren Benutzern eine Office 365-Lizenz zugewiesen haben, ist dies die standardmäßige Upgrade-Erfahrung für Ihre Organisation. Wenn Sie eine Office 365-Lizenz zuweisen, werden standardmäßig beide Teams und Skype for Business Online-Lizenzen zugewiesen. <sup>2</sup>
+Wenn Sie Ihren Benutzern eine Microsoft 365-oder Office 365-Lizenz zugewiesen haben, handelt es sich um die standardmäßige Upgrade-Erfahrung für Ihre Organisation. Wenn Sie eine Microsoft 365-oder Office 365-Lizenz zuweisen, werden standardmäßig beide Teams und Skype for Business Online-Lizenzen zugewiesen. <sup>2</sup>
 
 Damit diese Methode effektiv funktioniert, müssen alle Benutzer beide Clients gleichzeitig ausführen. Eingehende Chats und Anrufe innerhalb des Unternehmens an einen Benutzer im Inseln-Modus können entweder in den Skype for Business-oder Microsoft Teams-Client landen – und dies steht nicht unter der Kontrolle des Empfängers. Dies hängt davon ab, welchen Client der Absender zum Initiieren der Kommunikation verwendet. Wenn sich der Absender und der Empfänger in verschiedenen Organisationen befinden, sind eingehende Anrufe und Chats an einen Benutzer im Inseln-Modus immer im Skype for Business-Client zu Lande.
 
@@ -178,7 +178,7 @@ In der folgenden Tabelle sind die Upgrade-Methoden zusammengefasst:
 |Interoperabilität zwischen Skype for Business und Teams ist nicht vorhanden, während sich beide Benutzer im Inseln-Modus befinden.      |Für die Kommunikation zwischen Skype for Business-und Microsoft Teams-Benutzern ist Interoperabilität erforderlich.         |
 
 > [!NOTE]
-> Wenn Sie nicht in der Lage sind, die unterstützten Methoden für die Migration Ihrer Skype for Business Server-Benutzer in Teams zu befolgen, können Sie Ihre Benutzer in Teams übertragen, indem Sie Skype for Business Server und alle zugehörigen Benutzerattribute in Active Directory entfernen. Nachdem die Active Directory-Attribute der Benutzer Azure für die Skype for Business Server-Attribute gelöscht wurden und die DNS-Einträge auf Office 365 neu festgesetzt wurden, wäre es dann möglich, die Benutzer in Office 365 zu lizenzieren und auf Teams zu aktualisieren. 
+> Wenn Sie nicht in der Lage sind, die unterstützten Methoden für die Migration Ihrer Skype for Business Server-Benutzer in Teams zu befolgen, können Sie Ihre Benutzer in Teams übertragen, indem Sie Skype for Business Server und alle zugehörigen Benutzerattribute in Active Directory entfernen. Nachdem die Active Directory-Attribute des Benutzers Azure für die Skype for Business Server-Attribute gelöscht wurden und die DNS-Einträge auf Microsoft 365 oder Office 365 zurückgesetzt wurden, wäre es dann möglich, die Benutzer in Microsoft 365 oder Office 365 zu lizenzieren und auf Teams zu aktualisieren. 
 
 > [!IMPORTANT]
 > Mit der Übernahme-Migration werden Kontaktdaten und Besprechungsdaten nicht von der lokalen Umgebung zu Microsoft Teams migriert.

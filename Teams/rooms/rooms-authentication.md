@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Informationen zum Konfigurieren der modernen Authentifizierung für Microsoft Teams-Chatrooms
-ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505612"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666257"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räumen
 
 Die Kontoverwaltung für Microsoft Teams rooms-Geräte wird auf Anwendungsebene verarbeitet. Die Anwendung stellt eine Verbindung mit Microsoft Teams, Skype for Business und Exchange her, um Ressourcen für das Raumkonto abzurufen, um Anrufe und Besprechungs Erlebnisse zu ermöglichen. Auf dem Gerät werden die Konto Unabhängigkeit beibehalten, damit stets aktivierte Funktionen, Anrufszenarien (für Geräte, die mit einem Anrufplan konfiguriert sind) sowie benutzerdefinierte Lockdown-Mechanismen auf diesen Geräten implementiert werden. Dies bedeutet, dass die Authentifizierung für diese Geräte auf eine andere Weise als für endbenutzergeräte erfolgt.  
 
-Die moderne Authentifizierung wird für alle Kunden empfohlen, die Microsoft Teams rooms-Geräte mit Office 365 verwenden. Wenn Sie über eine lokale Bereitstellung von Exchange Server oder Skype for Business Server verfügen, konfigurieren Sie die [moderne Hybrid Authentifizierung](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) mit Azure Active Directory (Azure AD), um die Verwendung der modernen Authentifizierung zu ermöglichen.
+Die moderne Authentifizierung wird für alle Kunden empfohlen, die Microsoft Teams rooms-Geräte mit Microsoft 365 oder Office 365 verwenden. Wenn Sie über eine lokale Bereitstellung von Exchange Server oder Skype for Business Server verfügen, konfigurieren Sie die [moderne Hybrid Authentifizierung](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) mit Azure Active Directory (Azure AD), um die Verwendung der modernen Authentifizierung zu ermöglichen.
 
 Die moderne Authentifizierung wird in Microsoft Teams rooms Version 4.4.25.0 und höher unterstützt.
 
@@ -61,9 +61,9 @@ Informationen zum Anwenden der Einstellung finden Sie unter [Verwalten von Micro
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>Vorbereiten Ihrer Umgebung für eine moderne Authentifizierung
 
-Bevor Sie beginnen, sollten Sie sich mit den Identitäts Modellen vertraut machen, die mit Office 365 und Azure AD zu verwenden sind. Weitere Informationen finden Sie unter [Office 365-Identitäts Modellen und Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) sowie bei [Hybrid Identität und Verzeichnissynchronisierung für Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
+Bevor Sie beginnen, sollten Sie sich mit den Identitäts Modellen vertraut machen, die mit Office 365 und Azure AD zu verwenden sind. Weitere Informationen finden Sie unter [Office 365-Identitäts Modellen und Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) sowie bei [Hybrid Identität und Verzeichnissynchronisierung für Microsoft 365 oder Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
 
-### <a name="enable-modern-authentication-in-office-365"></a>Aktivieren der modernen Authentifizierung in Office 365
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Aktivieren der modernen Authentifizierung in Microsoft 365 oder Office 365
 
 Informationen zum Aktivieren der modernen Authentifizierung für Exchange Online finden Sie unter [Aktivieren der modernen Authentifizierung in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). Wenn Sie Skype for Business Online verwenden, sollten Sie auch sicherstellen, dass die moderne Authentifizierung für Skype for Business Online aktiviert ist. Weitere Informationen finden Sie unter [Skype for Business Online: Aktivieren Ihres Mandanten für moderne Authentifizierung](https://aka.ms/SkypeModernAuth).
 
