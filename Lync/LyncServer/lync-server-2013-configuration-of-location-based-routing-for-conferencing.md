@@ -12,12 +12,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc901b9ef1b4b358771427f44d220631e4a40ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f982f6e484412234c75eadaea925b65ee11bcbb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199018"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,21 +53,27 @@ Weitere Informationen zum Bereitstellen und konfigurieren lync Server 2013 stand
 
 Die standortbasierte Routing Konferenz Anwendung ist standardmäßig deaktiviert. Vor dem Aktivieren dieser Anwendung müssen Sie die richtige Priorität bestimmen, die für die Anwendung zugewiesen werden soll. Um diese Priorität zu ermitteln, führen Sie das folgende Cmdlet in lync Server-Verwaltungsshell aus:
 
-Get-CsServerApplication-Identity Service: Registrierungsstelle\<: Pool-FQDN\>
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
 
-In diesem Cmdlet ist \<Pool FQDN\> der Pool, in dem die standortbasierte Routing Konferenz Anwendung aktiviert werden soll.
+In diesem Cmdlet \<Pool FQDN\> ist der Pool, in dem die standortbasierte Routing Konferenz Anwendung aktiviert werden soll.
 
 Dieses Cmdlet gibt die Liste der von lync Server gehosteten Anwendungen und den Prioritätswert für jeden von Ihnen zurück. Die standortbasierte Routing Konferenz Anwendung muss einen Prioritätswert größer als die "UdcAgent"-Anwendung und kleiner als die Anwendungen "DefaultRouting", "ExumRouting" und "OutboundRouting" zugewiesen werden. Es wird empfohlen, der standortbasierten Routing Konferenz Anwendung einen Prioritätswert zuzuweisen, der einen Punkt höher ist als der Prioritätswert der Anwendung "UdcAgent".
 
-Wenn die "UdcAgent"-Anwendung beispielsweise den Prioritätswert "2" hat, hat die "DefaultRouting"-Anwendung den Prioritätswert "8", die "ExumRouting"-Anwendung hat den Prioritätswert "9" und die "OutboundRouting"-Anwendung hat den Prioritätswert "10", dann Sie sollten der standortbasierten Routing Konferenz Anwendung einen Prioritätswert von "3" zuweisen. Dadurch wird die Priorität der Anwendungen in der folgenden Reihenfolge platziert: andere Anwendungen (Prioritäten: 0 bis 1), "UdcAgent" (Priorität: 2), standortbasierte Routing Konferenz Anwendung (Priorität: 3), andere Anwendungen (Prioritäten: 4 bis 8), " DefaultRouting "(Priorität: 9)," ExumRouting "(Priorität: 10) und" OutboundRouting "(Priorität: 11).
+Wenn die "UdcAgent"-Anwendung beispielsweise einen Prioritätswert von "2" hat, hat die "DefaultRouting"-Anwendung den Prioritätswert "8", die "ExumRouting"-Anwendung einen Prioritätswert von "9" und die "OutboundRouting"-Anwendung den Prioritätswert "10", dann sollten Sie die standortbasierte Routing Konferenz Anwendung mit dem Prioritätswert "3" zuweisen. Dadurch wird die Priorität der Anwendungen in der folgenden Reihenfolge platziert: andere Anwendungen (Prioritäten: 0 bis 1), "UdcAgent" (Priorität: 2), standortbasierte Routing Konferenz Anwendung (Priorität: 3), andere Anwendungen (Prioritäten: 4 bis 8), "DefaultRouting" (Priorität: 9), "ExumRouting" (Priorität: 10) und "OutboundRouting" (Priorität: 11).
 
 Nachdem Sie den richtigen Prioritätswert für die standortbasierte Routing Konferenz Anwendung gefunden haben, geben Sie das folgende Cmdlet für jeden Front-End-Pool oder Standard Edition-Server ein, für den Benutzer für standortbasiertes Routing aktiviert sind:
 
-New-CsServerApplication-Identity Service: Registrar:\<Pool FQDN\>/LBRouting-Priority \<\> -Enabled $true-Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Zum Beispiel:
 
-New-CsServerApplication-Identity Service:Registrar:ls2013cu2lbrpool. contoso. com/LBRouting-Priority 3-Enabled $true-Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Nachdem Sie dieses Cmdlet verwendet haben, starten Sie alle Front-End-Server im Pool oder die Standard Edition-Server neu, auf denen die standortbasierte Routing Konferenz Anwendung aktiviert wurde.
 
