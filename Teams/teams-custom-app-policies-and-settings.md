@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
+ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326782"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44698275"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
@@ -123,10 +123,10 @@ Angenommen, Sie möchten nur Teambesitzern gestatten, benutzerdefinierte apps in
 
 |Organisationsweite benutzerdefinierte app-Einstellung |Einstellung für benutzerdefinierte Team-App |Benutzerdefinierte App-Richtlinie |Effekt  |
 |---------|---------|---------|---------|
-| Aus    | Aus    | Aus     |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte APP zu entfernen.   |
-| Aus     | Aus     | Ein        |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte APP zu entfernen.         |
-| Aus    | Ein        | Aus        |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem hochgeladen werden. Sie können Windows PowerShell verwenden, um benutzerdefinierte apps zu löschen.         |
-| Aus    | Ein      | Ein       |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte APP zu entfernen.         |
+| Aus    | Aus    | Aus     |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Teams-Dienstadministrators oder eines globalen Administrators hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte APP zu entfernen.   |
+| Aus     | Aus     | Ein        |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Teams-Dienstadministrators oder eines globalen Administrators hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte APP zu entfernen.         |
+| Aus    | Ein        | Aus        |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Teams-Dienstadministrators oder eines globalen Administrators hochgeladen werden. Sie können Windows PowerShell verwenden, um benutzerdefinierte apps zu löschen.         |
+| Aus    | Ein      | Ein       |Die Interaktion mit allen benutzerdefinierten Apps ist für Ihre Organisation gesperrt. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Teams-Dienstadministrators oder eines globalen Administrators hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte APP zu entfernen.         |
 | Ein    | Aus       | Aus         |  Benutzer können keine benutzerdefinierten apps hochladen.      |
 | Ein     | Aus       | Ein         | Wenn der Benutzer ein Teambesitzer ist, kann er benutzerdefinierte apps in das Team hochladen. Wenn der Benutzer kein Teambesitzer ist, können Sie keine benutzerdefinierten apps in das Team hochladen. Der Benutzer kann benutzerdefinierte apps im persönlichen Kontext hochladen.     |
 | Ein     | Ein     | Aus         | Benutzer können keine benutzerdefinierten apps hochladen.       |
