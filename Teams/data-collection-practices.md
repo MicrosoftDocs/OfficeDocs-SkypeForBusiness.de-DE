@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Erfahren Sie, wie Microsoft Census-, Nutzungs-und Fehlerdaten sammelt, um Teams und Skype for Business-Nutzung und-Probleme zu verstehen, um Produktverbesserungen zu planen.
-ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137355"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691531"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -104,7 +104,7 @@ Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
 
 - Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung ist auf dem Server oder im Mandanten-Admin Center auf "false" festgelegt (Dies ist der Standardzustand). Weitere Informationen finden Sie unter [Konfigurieren von clientbootstrapping-Richtlinien](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
-- Endbenutzer können sich auf der Registerkarte "Allgemein" einzeln einwählen ![(Klicken Sie auf das Zahnrad ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) Symbol ein Symbol, das ein Zahnrad darstellt, und dann wird das Dialogfeld " **Optionen** " mit der Registerkarte " **Allgemein** " angezeigt) im Skype for Business-Client.
+- Endbenutzer können sich auf der Registerkarte "Allgemein" einzeln einwählen (Klicken Sie auf das Zahnradsymbol ![ ein Symbol, das ein Zahnrad darstellt, ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) und dann wird das Dialogfeld " **Optionen** " mit der Registerkarte " **Allgemein** " angezeigt) im Skype for Business-Client.
     
  
 ![Screenshot des Kontrollkästchens ' Datensammlung ' im Dialogfeld ' Optionen '](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
@@ -115,7 +115,7 @@ Weitere Informationen finden Sie unter [Festlegen von allgemeinen Optionen in Sk
 
 Informationen zur Einrichtung Ihres Netzwerks finden Sie unter [Einrichten Ihres Netzwerks für Skype for Business Online](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66).
 
-Wenn Sie Office 365 über 21Vianet in China nutzen, finden Sie weiterführende Informationen unter [Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
+Wenn Sie Microsoft 365 oder Office 365 verwenden, das von 21Vianet in China betrieben wird, lesen Sie [Einrichten Ihres Netzwerks für Skype for Business Online, betrieben von 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

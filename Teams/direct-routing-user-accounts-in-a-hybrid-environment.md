@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie mehr über verschiedene Kombinationen der Benutzererstellung und welche Kombinationen unterstützt oder nicht unterstützt werden.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: a7b41eb474d7574aa23b5fa195219794ed715424
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280254"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690871"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -31,7 +31,7 @@ ms.locfileid: "44280254"
 Dieser Artikel bezieht sich auf Umgebungen, in denen Sie über alle folgenden Themen verfügen: 
  
 - Skype for Business Server oder lync Server 2013 
-- Eine Office 365-Organisation 
+- Eine Microsoft 365-oder Office 365-Organisation 
 - Zwischen dem Skype for Business Server und dem Skype for Business Online-oder Microsoft Teams-Mandanten konfigurierte Hybrid Konnektivität 
 - Benutzer, die für das tätigen und empfangen von PSTN-anrufen (Public Switched Telephone Network) in den und aus dem Client aktiviert sind
 
@@ -46,7 +46,7 @@ Eine Skype for Business-Hybridumgebung mit PSTN-Konnektivität bietet Flexibilit
 **Definitionen**   
 - **Enterprise-VoIP:** Option für den Zugriff auf das PSTN für Benutzer mit lokalem Skype for Business-Benutzerkonto. Der lokale Skype for Business-Vermittlungsserver bietet eine Verbindung zu PSTN.  
 - **Hybride sprach Konnektivität:** Option für den Zugriff auf das PSTN für Benutzer mit Skype for Business Online-Konto. Der lokale Skype for Business-Vermittlungsserver bietet eine Verbindung zu PSTN. 
-- **Direktes Routing:** Option zum Bereitstellen von Zugriff auf PSTN für Benutzer mit Online-Skype for Business-Konto, Microsoft Teams-Lizenz, mithilfe des Microsoft Teams-Clients. Der SBC ist mit dem SIP-Proxy in Office 365 verbunden, ohne dass eine lokale Software von Microsoft benötigt wird.
+- **Direktes Routing:** Option zum Bereitstellen von Zugriff auf PSTN für Benutzer mit Online-Skype for Business-Konto, Microsoft Teams-Lizenz, mithilfe des Microsoft Teams-Clients. Der SBC ist mit dem SIP-Proxy in Microsoft 365 oder Office 365 verbunden, ohne dass eine lokale Software von Microsoft benötigt wird.
 
   
 **Die Umgebung unterstützt die folgenden Kombinationen:**
@@ -70,4 +70,4 @@ Eine Skype for Business-Hybridumgebung mit PSTN-Konnektivität bietet Flexibilit
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Unterstützende Anweisung für die Hybridumgebung mit PSTN
 
-Für alle Benutzer **muss** das Benutzerobjekt in der lokalen Anzeige erstellt und mithilfe des Azure AD Connect-Tools mit Azure AD synchronisiert werden. Das Aktivieren von Benutzern für Teams/Skype for Business **wird nicht unterstützt** , wenn das Benutzerobjekt direkt in der Azure AD in einer Hybrid Konfiguration erstellt wird. Für neue Benutzer, beispielsweise für neue Mitarbeiter, die direkt für Teams aktiviert werden, muss der Benutzer für Skype for Business mit den lokalen Skype for Business-Verwaltungstools aktiviert sein. Das Erstellen von Benutzern in Online-Skype for Business oder Teams, ohne diese zuvor im lokalen Pool mit Enterprise-VoIP zu aktivieren, **wird nicht unterstützt**. Weitere Informationen hierzu finden Sie unter Planen des [Telefonsystems in Office 365 mit lokalem PSTN-Konnektivität in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+Für alle Benutzer **muss** das Benutzerobjekt in der lokalen Anzeige erstellt und mithilfe des Azure AD Connect-Tools mit Azure AD synchronisiert werden. Das Aktivieren von Benutzern für Teams/Skype for Business **wird nicht unterstützt** , wenn das Benutzerobjekt direkt in der Azure AD in einer Hybrid Konfiguration erstellt wird. Für neue Benutzer, beispielsweise für neue Mitarbeiter, die direkt für Teams aktiviert werden, muss der Benutzer für Skype for Business mit den lokalen Skype for Business-Verwaltungstools aktiviert sein. Das Erstellen von Benutzern in Online-Skype for Business oder Teams, ohne diese zuvor im lokalen Pool mit Enterprise-VoIP zu aktivieren, **wird nicht unterstützt**. Weitere Informationen hierzu finden Sie unter Planen des [Telefonsystems mit lokalen PSTN-Konnektivität in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).

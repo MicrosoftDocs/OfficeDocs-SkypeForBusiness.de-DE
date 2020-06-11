@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
-ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140868"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691071"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
@@ -40,11 +40,11 @@ Zunächst müssen Sie eine Lizenz für das Common Area Phone (GAP) erwerben und 
 
 ## <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 
-1. Wechseln Sie im Microsoft 365 Admin Center zu **Abrechnungs** > **Kauf Dienste** , und erweitern Sie dann **andere Pläne**.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Abrechnungs**  >  **Kauf Dienste** , und erweitern Sie dann **andere Pläne**.
 
     ![Screenshot der Telefon Kachel für den öffentlichen Bereich](media/set-up-common-area-phone-image1.png)
 
-2. Wählen Sie den **Bereich Telefon** > **Jetzt kaufen**.
+2. Wählen Sie den **Bereich Telefon**  >  **Jetzt kaufen**.
 
 3. Klicken Sie auf der Seite Checkout auf **Jetzt kaufen**.
 
@@ -80,7 +80,7 @@ Die Telefon Lizenz für den öffentlichen Bereich unterstützt:
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 
-1. Wechseln Sie im Microsoft 365 Admin Center zu **Benutzer** > , denen**aktive** > Benutzer**einen Benutzer hinzufügen**.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Benutzer**, denen  >  **aktive**Benutzer  >  **einen Benutzer hinzufügen**.
 
 2. Geben Sie einen Benutzernamen wie "Main" für den Vornamen und "Empfang" für den zweiten Namen ein.
 
@@ -103,7 +103,7 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers](https://doc
 
 Verwenden Sie das Team Admin Center, um dem Benutzer eine Nummer zuzuweisen.
 
-1. Wählen Sie im Team Admin Center die Option **Voicemail** > -**Nummern**aus.
+1. Wählen Sie im Team Admin Center die Option **Voicemail**-  >  **Nummern**aus.
 
 3.    Wählen Sie eine Nummer aus der Liste der Telefonnummern aus und klicken Sie auf **Zuweisen**.
 
@@ -120,6 +120,4 @@ Verwenden Sie das Team Admin Center, um dem Benutzer eine Nummer zuzuweisen.
 
 Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md).
 
-Sie können auch Ihre Telefonnummer, die Sie mit einem anderen Netzbetreiber haben, übernehmen und "portieren" oder auf Office 365 übertragen. Weitere Informationen finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
-
-
+Sie können auch Ihre Telefonnummer, die Sie mit einem anderen Netzbetreiber haben, übernehmen und "portieren" oder auf Microsoft 365 oder Office 365 übertragen. Weitere Informationen finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

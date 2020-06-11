@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951250"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690951"
 ---
 # <a name="teams-powershell-overview"></a>Übersicht über Teams PowerShell
 
@@ -44,9 +44,9 @@ Lesen [verwenden Sie Microsoft Teams-Administratorrollen zum Verwalten von Teams
 
 Die Cmdlets zum Erstellen und Verwalten von Teams befinden sich im [PowerShell-Modul von Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Teams werden von Office 365-Gruppen gesichert, sodass Sie beim Erstellen eines Teams eine Gruppe erstellen. Es gibt eine Reihe von Cmdlets, die für das Funktionieren des Kernteams und dessen``new-team``Einstellungen ``get-team``( ``set-team``,,), Verwalten von``add-teamuser``Team ``remove-teamuser``Benutzern (,) sowie Cmdlets für die Verwaltung der Kanäle des Teams (``new-teamchannel``, ``remove-teamchannel``) bereitgestellt werden. Alle diese Cmdlets können als Endbenutzer ausgeführt werden, funktionieren aber nur in den Teams, denen Sie angehören oder deren Mitglied Sie sind. Wenn Sie ein globaler Administrator oder Team Dienst Administrator sind, können Sie auf alle Teams in Ihrer Organisation zugreifen.
+Teams werden von Microsoft 365-Gruppen gesichert, sodass Sie beim Erstellen eines Teams eine Gruppe erstellen. Es gibt eine Reihe von Cmdlets, die für das Funktionieren des Kernteams und dessen Einstellungen (, ``new-team`` ``get-team`` , ``set-team`` ), Verwalten von Team Benutzern ( ``add-teamuser`` , ``remove-teamuser`` ) sowie Cmdlets für die Verwaltung der Kanäle des Teams ( ``new-teamchannel`` , ``remove-teamchannel`` ) bereitgestellt werden. Alle diese Cmdlets können als Endbenutzer ausgeführt werden, funktionieren aber nur in den Teams, denen Sie angehören oder deren Mitglied Sie sind. Wenn Sie ein globaler Administrator oder Team Dienst Administrator sind, können Sie auf alle Teams in Ihrer Organisation zugreifen.
 
-> Die in den Microsoft Teams PowerShell-Modul-Cmdlets verwendete **Gruppen** -ID ist mit der im Exchange PowerShell ``Get-UnifiedGroup`` -Modul zurückgegebenen **Identity** -Eigenschaft identisch.
+> Die in den Microsoft Teams PowerShell-Modul-Cmdlets verwendete **Gruppen** -ID ist mit der im Exchange PowerShell-Modul zurückgegebenen **Identity** -Eigenschaft identisch ``Get-UnifiedGroup`` .
 
 ### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Unterschiede zwischen Preview und im allgemeinen verfügbaren Microsoft Teams PowerShell-Modul
 
@@ -84,30 +84,30 @@ Als wir unsere allgemein verfügbare Version unseres PowerShell-Moduls veröffen
 Verwenden Sie die Cmdlets im [Skype for Business-Cmdlet-Modul](https://www.microsoft.com/download/details.aspx?id=39366) , um Richtlinien für einzelne Benutzer zu verwalten.
 
 > [!NOTE]
-> Die Cmdlets sind in ihrer PowerShell-Sitzung verfügbar, nachdem Sie eine Verbindung mit Skype for Business Online hergestellt haben. Weitere Informationen finden Sie unter [Verwalten von Skype for Business Online mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+> Die Cmdlets sind in ihrer PowerShell-Sitzung verfügbar, nachdem Sie eine Verbindung mit Skype for Business Online hergestellt haben. Weitere Informationen finden Sie unter [Verwalten von Skype for Business Online mit Microsoft 365 oder Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
 
 Bei einer Richtlinie handelt es sich um eine Gruppe von Einstellungen, die auf einzelne Benutzer Granular angewendet werden können. Jeder Richtlinientyp verfügt über einen eigenen Satz von Cmdlets zum Erstellen, anzeigen, löschen und Aktualisieren der Richtlinien selbst und zum Zuweisen dieser Richtlinien zu Benutzern. Die allgemeine Struktur lautet:
 
-- Abrufen von Befehlen (beispielsweise ``Get-CsTeamsMeetingPolicy``): Geben Sie die Richtliniendokumente zurück, die für Sie in Ihrer Organisation zur Verfügung stehen, sowohl die von Microsoft für Sie erstellten Richtlinien als auch die von Ihnen erstellten benutzerdefinierten Richtlinien.
-   > Wenn Sie nur die benutzerdefinierten Richtlinien finden möchten, die Sie in Ihrer Organisation erstellt haben, ``-Filter "tag:*"``können Sie Sie verwenden.
+- Abrufen von Befehlen (beispielsweise ``Get-CsTeamsMeetingPolicy`` ): Geben Sie die Richtliniendokumente zurück, die für Sie in Ihrer Organisation zur Verfügung stehen, sowohl die von Microsoft für Sie erstellten Richtlinien als auch die von Ihnen erstellten benutzerdefinierten Richtlinien.
+   > Wenn Sie nur die benutzerdefinierten Richtlinien finden möchten, die Sie in Ihrer Organisation erstellt haben, können Sie Sie verwenden ``-Filter "tag:*"`` .
 
-- Neue Befehle (beispielsweise ``New-CsTeamsMeetingPolicy``): Sie können neue Richtlinien für Ihre Organisation erstellen, die dann Benutzern in Ihrer Organisation zugewiesen werden können. Nicht alle Richtlinien unterstützen das Erstellen benutzerdefinierter Richtlinien. Häufig wird dadurch sichergestellt, dass die in Ihrer Organisation verwendeten Richtlinien eine unterstützte Kombination von Einstellungen aufweisen.
+- Neue Befehle (beispielsweise ``New-CsTeamsMeetingPolicy`` ): Sie können neue Richtlinien für Ihre Organisation erstellen, die dann Benutzern in Ihrer Organisation zugewiesen werden können. Nicht alle Richtlinien unterstützen das Erstellen benutzerdefinierter Richtlinien. Häufig wird dadurch sichergestellt, dass die in Ihrer Organisation verwendeten Richtlinien eine unterstützte Kombination von Einstellungen aufweisen.
 
-- Festlegen von Befehlen (beispielsweise ``Set-CsTeamsMeetingPolicy``): Hiermit können Sie bestimmte Werte für eine bestimmte Richtlinie festlegen. Für einige Richtlinien sind keine festgelegten Befehle verfügbar, oder es sind keine Parameter enthalten, die in der Richtlinie nicht angepasst werden können. Jede PowerShell-Beschreibung gibt an, welche Parameter nicht angepasst werden können. 
-   > Wenn Sie die Richtlinie bearbeiten möchten, die standardmäßig Benutzern in Ihrer Organisation zugewiesen wird, denen keine benutzerdefinierte Richtlinie zugewiesen ``Set-Cs<PolicyName> -Identity Global``ist, führen Sie Sie aus.
+- Festlegen von Befehlen (beispielsweise ``Set-CsTeamsMeetingPolicy`` ): Hiermit können Sie bestimmte Werte für eine bestimmte Richtlinie festlegen. Für einige Richtlinien sind keine festgelegten Befehle verfügbar, oder es sind keine Parameter enthalten, die in der Richtlinie nicht angepasst werden können. Jede PowerShell-Beschreibung gibt an, welche Parameter nicht angepasst werden können. 
+   > Wenn Sie die Richtlinie bearbeiten möchten, die standardmäßig Benutzern in Ihrer Organisation zugewiesen wird, denen keine benutzerdefinierte Richtlinie zugewiesen ist, führen Sie Sie aus ``Set-Cs<PolicyName> -Identity Global`` .
 
-- Entfernen von Befehlen (beispielsweise ``Remove-CsTeamsMeetingPolicy``): Sie können dieses Cmdlet verwenden, um eine benutzerdefinierte Richtlinie zu löschen, die in Ihrem Mandanten erstellt wurde. Wenn Sie eine benutzerdefinierte Richtlinie löschen, die mindestens einem Benutzer in Ihrer Organisation zugewiesen wurde, wird dieser Benutzer auf die globale Richtlinie zurückgreifen.
-   > Sie können die globale Richtlinie in Ihrer Organisation nicht wirklich entfernen, aber wenn Sie die globale Richtlinie in Ihrer Organisation auf die von Microsoft bereitgestellten Standardeinstellungen zurück ``Remove-Cs<PolicyName> -Identity Global``setzen möchten, können Sie ausführen.
+- Entfernen von Befehlen (beispielsweise ``Remove-CsTeamsMeetingPolicy`` ): Sie können dieses Cmdlet verwenden, um eine benutzerdefinierte Richtlinie zu löschen, die in Ihrem Mandanten erstellt wurde. Wenn Sie eine benutzerdefinierte Richtlinie löschen, die mindestens einem Benutzer in Ihrer Organisation zugewiesen wurde, wird dieser Benutzer auf die globale Richtlinie zurückgreifen.
+   > Sie können die globale Richtlinie in Ihrer Organisation nicht wirklich entfernen, aber wenn Sie die globale Richtlinie in Ihrer Organisation auf die von Microsoft bereitgestellten Standardeinstellungen zurücksetzen möchten, können Sie Ausführen ``Remove-Cs<PolicyName> -Identity Global`` .
 
-- Grant-Befehl (beispielsweise ``Grant-CsTeamsMeetingPolicy``): Hiermit können Sie einem bestimmten Benutzer eine Richtlinie zuweisen.
-   > Um eine benutzerdefinierte Richtlinienzuweisung zu entfernen und den Benutzer auf die Standardrichtlinie in Ihrer Organisation zurückgreifen zu ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``lassen, führen Sie.
+- Grant-Befehl (beispielsweise ``Grant-CsTeamsMeetingPolicy`` ): Hiermit können Sie einem bestimmten Benutzer eine Richtlinie zuweisen.
+   > Um eine benutzerdefinierte Richtlinienzuweisung zu entfernen und den Benutzer auf die Standardrichtlinie in Ihrer Organisation zurückgreifen zu lassen, führen Sie ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` .
 
 > [!TIP]
-> Nicht alle Richtlinien ermöglichen das Erstellen benutzerdefinierter Richtlinien, und einige Richtlinien verfügen über Einstellungen, die Sie nicht anpassen können (sodass Sie die Einstellung anzeigen, ``set-`` aber ``new-``keinen benutzerdefinierten Wert während und festlegen können). Die Dokumentation des jeweiligen Cmdlets Ruft ab, wenn Parameter nicht für die Verwendung durch Kunden verfügbar sind.
+> Nicht alle Richtlinien ermöglichen das Erstellen benutzerdefinierter Richtlinien, und einige Richtlinien verfügen über Einstellungen, die Sie nicht anpassen können (sodass Sie die Einstellung anzeigen, aber keinen benutzerdefinierten Wert während und festlegen können ``set-`` ``new-`` ). Die Dokumentation des jeweiligen Cmdlets Ruft ab, wenn Parameter nicht für die Verwendung durch Kunden verfügbar sind.
 
 Allgemeine Parameter:
 
-- **Identity**: für ``Get-``, ``Set-``, ``New-``, und ``Remove-``der Parameter **Identity** bezieht sich immer auf eine bestimmte Richtlinieninstanz. ``Grant``Der Parameter **Identity** bezieht sich auf ein bestimmtes Benutzerobjekt, auf das die Richtlinie angewendet wird.
+- **Identity**: für ``Get-`` , ``Set-`` ,, ``New-`` und ``Remove-`` der Parameter **Identity** bezieht sich immer auf eine bestimmte Richtlinieninstanz. ``Grant``Der Parameter **Identity** bezieht sich auf ein bestimmtes Benutzerobjekt, auf das die Richtlinie angewendet wird.
 
 <!--more info here?-->
 
@@ -117,10 +117,10 @@ Die Cmdlets für die Verwaltung Ihrer Konfiguration sind im [Skype for Business-
 
 Konfigurationen sind Buckets von Einstellungen, die im Dienst verwaltet werden und nicht auf Benutzerebene angegeben werden können. Einstellungen gelten immer für die gesamte Organisation. Ihre globale Konfiguration ist die einzige effektive Konfiguration in Ihrer Organisation. Jeder Konfigurationstyp enthält zwei primäre Cmdlets:
 
-- ``Get-Cs<ConfigurationName>``(Beispiel: ``Get-CsTeamsClientConfiguration``): 
+- ``Get-Cs<ConfigurationName>``(Beispiel ``Get-CsTeamsClientConfiguration`` :): 
 
-- Befehlssatz (beispielsweise ``Set-CsTeamsClientConfiguration``): legt Eigenschaften in der Konfiguration dieses Typs fest. Geben Sie die Parameter an, die Sie ändern möchten.
-   > Sie können auf die zu ändernde Konfiguration auf eine von zwei Arten verweisen: durch Angeben von-**Identity Global**oder durch Ausführen ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.
+- Befehlssatz (beispielsweise ``Set-CsTeamsClientConfiguration`` ): legt Eigenschaften in der Konfiguration dieses Typs fest. Geben Sie die Parameter an, die Sie ändern möchten.
+   > Sie können auf die zu ändernde Konfiguration auf eine von zwei Arten verweisen: durch Angeben von-**Identity Global**oder durch Ausführen ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="other-powershell-tools"></a>Andere PowerShell-Tools
 

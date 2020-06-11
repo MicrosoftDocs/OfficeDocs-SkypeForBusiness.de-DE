@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638404"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691591"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über dynamische Mitgliedschaft für Teams
 
@@ -43,13 +43,13 @@ Microsoft Teams kann zwischen ein paar Minuten und bis zu zwei Stunden dauern, u
 > - Besitzer können Benutzer nicht als Mitglieder des Teams hinzufügen oder entfernen, da Mitglieder durch dynamische Gruppenregeln definiert werden.
 > -    Mitglieder können Teams nicht von dynamischen Gruppen zurücklassen.
 
-
 ## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Erstellen und Verwalten einer Microsoft 365-Gruppe mit dynamischer Mitgliedschaft
+
 Wenn Sie als mandantenadministrator angemeldet sind, folgen Sie den Anweisungen unter [Erstellen einer dynamischen Gruppe und Überprüfen des Status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Beziehen Sie sich bei Bedarf auf [Dynamische Mitgliedschaftsregeln für Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
-## <a name="create-a-new-team-with-your-o365-group"></a>Erstellen eines neuen Teams mit Ihrer Office 365-Gruppe
+## <a name="create-a-new-team-with-your-microsoft-365-group"></a>Erstellen eines neuen Teams mit Ihrer Microsoft 365-Gruppe
 
-Lassen Sie jetzt Zeit, bis die Mitgliedschaftsänderungen wirksam werden, und erstellen Sie ein neues Team, wie unter [Erweitern vorhandener Microsoft 365-Gruppen mit Microsoft Teams](enhance-office-365-groups.md)beschrieben.
+Lassen Sie jetzt Zeit, bis die Mitgliedschaftsänderungen wirksam werden, und erstellen Sie ein neues Team, wie unter [Erstellen eines Teams aus einer vorhandenen Gruppe](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865)beschrieben.
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Anwenden einer dynamischen Mitgliedschaft auf ein vorhandenes Team
 

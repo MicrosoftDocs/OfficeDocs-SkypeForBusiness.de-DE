@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Informieren Sie sich über die Schritte, die erforderlich sind, um ihrer Konferenzbrücke eine neue Dienst Telefonnummer zuzuweisen, um die Abdeckung für Ihre Benutzer zu erweitern.
-ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: e0786ad2c35ebe7d9663a71b594f7f5facd73b08
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898150"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691381"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -37,15 +37,15 @@ Wenn Sie **Audiokonferenz-** Lizenzen kaufen, hostet Microsoft Ihre Audiokonfere
 Zusätzlich zu den Telefonnummern, die ihrer Konferenzbrücke bereits zugewiesen sind, können Sie [zusätzliche Servicenummern](/microsoftteams/getting-service-phone-numbers) (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten abrufen und dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
   
 > [!NOTE]
-> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer*sein. Sie können den Typ der Zahl sehen, indem Sie im Legacy- **Portal zu** > **Telefonnummern** navigieren und in der Spalte " **Zahlentyp** " suchen. Office 365 Communications haben muss zuerst eingerichtet werden, damit Benutzer in eine gebührenfreie Telefonnummer-Brücke einwählen können.
+> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer*sein. Sie können den Typ der Zahl **sehen, indem**Sie im  >  Legacy-Portal zu**Telefonnummern** navigieren und in der Spalte " **Zahlentyp** " suchen. Microsoft 365 oder Office 365 Communications-Guthaben müssen zuerst eingerichtet werden, damit die Benutzer eine gebührenfreie Nummer in die Brücke einwählen können.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Schritt 1 - Zuweisen der neuen Telefonnummer zu Ihrer Audiokonferenzbrücke
 
-1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
+1. Anmelden bei Microsoft 365 oder Office 365 mit Ihrem Geschäftskonto.
 
-2. Wechseln Sie zu **Microsoft 365 Admin Center** > -Teams für**Admin** > **& Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
+2. Wechseln Sie zu **Microsoft 365 Admin Center**  >  -Teams für**Admin**Center  >  **& Skype**  >  **Legacy Portal**  >  -**VoIP**  >  -**Telefonnummern**.
 
 3. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich auf **Zuweisen**.
 
@@ -57,9 +57,9 @@ Die Standardtelefonnummer ihrer Konferenzbrücke definiert die Rufnummernanzeige
 
 Nur eine Dienst gebührenpflichtige Nummer kann als Standardnummer für Ihre Konferenzbrücke eingestellt werden. **Dienst gebührenfreie Nummern können nicht als Standardnummer ihrer Konferenzbrücke eingestellt werden**. Führen Sie die folgenden Schritte aus, wenn Sie eine Dienst gebührenpflichtige Nummer zuweisen und diese als neue Standardnummer für Ihre Audiokonferenz-Brücke festlegen möchten:
 
-1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
+1. Anmelden bei Microsoft 365 oder Office 365 mit Ihrem Geschäftskonto.
 
-2. Wechseln Sie **zu Microsoft 365 Admin Center** > -Teams für**Admin** > **Center & Skype** > -**Konferenz Brücken**für**Besprechungen** > .
+2. Wechseln Sie zu **Microsoft 365 Admin Center**  >  -Teams für**Admin**Center  >  **& Skype**  >  -Konferenz Brücken für**Besprechungen**  >  **Conference Bridges**.
 
 3. Heben Sie die Dienst Gebühren Nummer auf, die Sie als Standard festlegen möchten.
 
@@ -71,7 +71,7 @@ Die standardmäßigen Telefonnummern eines Benutzers sind diejenigen, die in den
   
 1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
-2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams & Skype** > **Legacy Portal** > **-Audiokonferenz** > -**Benutzer**, und wählen Sie die Benutzer in der Liste aus.
+2. Wechseln Sie zu den **Microsoft 365 Admin Center**  >  **Admin Center**  >  **Teams & Skype**  >  **Legacy Portal**  >  **-Audiokonferenz**-  >  **Benutzer**, und wählen Sie die Benutzer in der Liste aus.
 
 3. Klicken Sie im Aktionsbereich auf **Bearbeiten**.
 
@@ -135,7 +135,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
-2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams & Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
+2. Wechseln Sie zu den **Microsoft 365 Admin Center**  >  **Admin Center**  >  **Teams & Skype**  >  **Legacy Portal**  >  -**VoIP**  >  -**Telefonnummern**.
 
 3. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Bereich "Aktion" auf **Zuweisung**aufheben. Wenn es sich bei der Telefonnummer um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den [Microsoft-Support](https://go.microsoft.com/fwlink/?linkid=2091806) , damit die Telefonnummer nicht zugewiesen ist.
 
@@ -161,7 +161,7 @@ Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
 4. Außerdem müssen Sie das Windows PowerShell-Modul für Skype for Business Online installieren, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Dieses Modul wird nur auf 64-Bit-Computern unterstützt und kann aus dem Microsoft Download Center unter [Windows PowerShell Module für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)heruntergeladen werden.
 Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
 
-Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx).
+Wenn Sie weitere Informationen benötigen, lesen Sie [Herstellen einer Verbindung mit allen Microsoft 365-oder Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx).
 
 ### <a name="to-start-windows-powershell"></a>So starten Sie Windows PowerShell
 
@@ -169,7 +169,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 
 1. Vom **Start Menu** > **Windows PowerShell**.
 
-2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
+2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
 
 >
   ```PowerShell
@@ -181,7 +181,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 
 > [!NOTE]
 > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
-Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype for Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Herstellen einer Verbindung mit allen Microsoft 365-oder Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype for Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
 
 ### <a name="save-time-and-automate"></a>Zeitersparnis und Automatisierung
 
@@ -241,7 +241,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell
 
-Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell kann Ihnen bei der Verwaltung von Office 365 und Skype for Business Online helfen, indem Sie eine zentrale Verwaltungsstelle verwenden, die Ihre tägliche Arbeit vereinfacht, insbesondere dann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell kann Ihnen bei der Verwaltung von Microsoft 365 oder Office 365 und Skype for Business Online helfen, indem Sie eine zentrale Verwaltungsstelle verwenden, die Ihre tägliche Arbeit vereinfacht, insbesondere dann, wenn Sie mehrere Aufgaben erledigen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -249,7 +249,7 @@ Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. 
 
 Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 

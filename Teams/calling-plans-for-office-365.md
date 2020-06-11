@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Informationen zum Anrufplan (PSTN-Anrufplan) für Skype for Business-Optionen und zum Abrufen von Lizenzen für Ihre Organisation. '
-ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041732"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691401"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -39,28 +39,28 @@ Anrufe an andere Skype for Business-und Microsoft Teams-Nutzer sind kostenlos, a
   
 Hier sind die Optionen für Anrufpläne:
   
-- **Plan für Inlandsanrufe**: lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem Sie in Office 365 zugewiesen sind.
+- **Plan für Inlandsanrufe**: lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem Sie in Microsoft 365 oder Office 365 zugewiesen sind.
     
-- **Plan für Inlands-und Auslandsanrufe**: lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem Ihre Office 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)zugewiesen ist.
+- **Plan für Inlands-und Auslandsanrufe**: lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem die Microsoft 365-oder Office 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)zugewiesen ist.
     
 Besuchen Sie die [Verfügbarkeit von Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) , um zu erfahren, welche monatlichen Minuten für jede Organisation in jedem Land/jeder Region zur Verfügung stehen.
   
 > [!IMPORTANT]
-> Das Land/die Region basiert auf dem Standort der Benutzerlizenz in den**aktiven Benutzern** des **Microsoft 365 admin Centers** > und **nicht** auf der Rechnungsadresse, die unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**aufgeführt ist.   
+> Das Land/die Region basiert auf dem Standort der Benutzerlizenz in den aktiven Benutzern **des Microsoft 365 admin Centers**  >  **Active users** und **nicht** auf der Rechnungsadresse, die unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**aufgeführt ist.   
 ![Screenshot des Lizenz Standorts des Benutzers](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Detaillierte Informationen zu den Nutzungsbeschränkungen und Nutzungsbestimmungen finden Sie unter [﻿Kostenlose Dial-Out-Zeiten für Audiokonferenzen](complimentary-dial-out-period.md).
   
 ## <a name="how-to-buy-a-calling-plan"></a>So erwerben Sie einen Anrufplan
 
-1. <strong>Sie müssen zunächst eine * * Phone System</strong> -Add-on-Lizenz kaufen<strong>. Registrieren Sie sich dazu [beim Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) , und wählen Sie * * Billing</strong> > **Purchase Services** > **Add-on-Abonnements** > **Jetzt kaufen**aus.
+1. <strong>Sie müssen zunächst eine * * Phone System</strong> -Add-on-Lizenz kaufen<strong>. Wenn Sie dies tun möchten, [müssen Sie sich beim Microsoft 365 Admin Center anmelden und die](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) Option * * Abrechnungs</strong>  >  **Kauf Services**  >  **-Add-on-Abonnements**  >  **Jetzt kaufen**auswählen.
     
     ![Screenshot mit Option zum Kauf eines Sprachanruf Plans](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Je nach Plan müssen Sie möglicherweise weitere Add-ons kaufen, bevor Sie Telefon System Lizenzen kaufen können. Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Nachdem Sie die Telefon System Lizenzen gekauft haben, können Sie den Anrufplan kaufen, indem Sie sich beim **Microsoft 365 Admin Center**anmelden, Abonnements für das **Abrechnungs** > **Kauf Services** > **-Add-on**auswählen und dann auf **Jetzt kaufen**klicken. Dort sehen Sie die Anrufpläne.
+2. Nachdem Sie die Telefon System Lizenzen gekauft haben, können Sie den Anrufplan kaufen, indem Sie sich beim **Microsoft 365 Admin Center**anmelden, Abonnements für das **Abrechnungs**  >  **Kauf Services**  >  **-Add-on**auswählen und dann auf **Jetzt kaufen**klicken. Dort sehen Sie die Anrufpläne.
     
     ![Screenshot mit Optionen für Sprachanruf Pläne](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -88,7 +88,7 @@ Hier sind weitere Artikel, die erläutern, wie Sie Ihre Anrufpläne einrichten:
     
 - [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Das Telefonsystem in Office 365 bietet Ihnen Folgendes](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [So erhalten Sie das Telefon System in Microsoft 365 oder Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
 ## <a name="related-topics"></a>Verwandte Themen

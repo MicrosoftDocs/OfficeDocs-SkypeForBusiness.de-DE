@@ -16,12 +16,12 @@ description: In diesem Artikel erhalten Sie Informationen zu den Teams-berichten
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904280"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690971"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -29,7 +29,7 @@ Eine neue Analyse-und Berichterstellungsumgebung für Microsoft Teams steht im M
 
 ## <a name="how-to-access-the-reports"></a>So greifen Sie auf die Berichte zu
 
-Wenn Sie auf die Berichte zugreifen möchten, müssen Sie ein globaler Administrator in Office 365, Team Dienstadministrator, Teams Communications Admin oder Skype for Business-Administrator sein. Weitere Informationen zu den Rollen des Team Administrators sowie zu den Berichten, auf die jede Administratorrolle zugreifen kann, finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md).
+Damit Sie auf die Berichte zugreifen können, müssen Sie ein globaler Administrator in Microsoft 365 oder Office 365, Team Dienstadministrator, Teams Communications Admin oder Skype for Business-Administrator sein. Weitere Informationen zu den Rollen des Team Administrators sowie zu den Berichten, auf die jede Administratorrolle zugreifen kann, finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md).
 
 Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analyse & Berichte**aus, und wählen Sie dann unter **Bericht**den Bericht aus, den Sie ausführen möchten.
 

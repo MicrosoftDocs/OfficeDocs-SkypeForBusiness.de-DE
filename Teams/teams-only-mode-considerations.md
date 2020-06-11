@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522498"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690921"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
-Wenn Sie ein Administrator in Ihrer Office 365-Organisation sind, sehen Sie jetzt die Option zum Upgraden auf den Modus nur für Teams im Microsoft Teams Admin Center. Mit dieser Funktion können Sie entweder einzelne Benutzer oder auch den gesamten Mandanten aktualisieren.  
+Wenn Sie ein Administrator in Ihrer Microsoft 365-oder Office 365-Organisation sind, sehen Sie jetzt die Option zum Upgraden auf den Modus nur für Teams im Microsoft Teams Admin Center. Mit dieser Funktion können Sie entweder einzelne Benutzer oder auch den gesamten Mandanten aktualisieren.  
 
-Das Upgrade auf den nur für Teams bestimmten Modus bietet Benutzern die vollständigen Vorteile von Microsoft Teams, dem Hub für Teamarbeit in Office 365, über eine einzige Clientumgebung. Darüber hinaus erhalten Benutzer im Modus "nur für Teams" alle Anrufe und Chats in Teams, unabhängig davon, ob der Absender Skype for Business oder Teams verwendet, und profitieren von Interop-und Federation-Unterstützung.
+Das Upgrade auf den nur für Teams bestimmten Modus bietet Benutzern die vollständigen Vorteile von Microsoft Teams, dem Hub für Teamarbeit in Microsoft 365 oder Office 365, über eine einzige Clientumgebung. Darüber hinaus erhalten Benutzer im Modus "nur für Teams" alle Anrufe und Chats in Teams, unabhängig davon, ob der Absender Skype for Business oder Teams verwendet, und profitieren von Interop-und Federation-Unterstützung.
 
 Während Tausende von Kunden erfolgreich auf Microsoft Teams aktualisiert haben, gibt es Überlegungen, die die Upgrade-Zeitachse Ihrer Organisation und die Benutzererfahrung auf dem Weg beeinflussen können. Insbesondere bedeutet die Möglichkeit, ein Upgrade durchzuführen, nicht unbedingt, dass Ihre Organisation für diese Änderung bereit ist. Um ein optimales Benutzererlebnis zu erhalten, bestätigen Sie bitte, dass Teams Ihre Anforderungen für die Zusammenarbeit und Kommunikation erfüllt. Stellen Sie bitte weiterhin sicher, dass Ihr Netzwerk für die Unterstützung von Teams bereit ist, und setzen Sie vor dem Upgrade der Benutzer auf Teams Ihren Plan für die Benutzerbereitschaft um. 
 
@@ -54,7 +54,7 @@ Während Tausende von Kunden erfolgreich auf Microsoft Teams aktualisiert haben,
  - Office 365 Deutschland
  - Skype for Business-Mandant wird in Südkorea gehostet **, und** die Organisation setzt voraus, dass die Teams-Daten in Südkorea gespeichert werden. Derzeit werden Organisationen mit Skype for Business-Daten, die in Südkorea gespeichert sind und für die ein Upgrade auf Teams durchgeführt wird, ihre Teams-Daten in der Region Asia Datacenter, nicht in der Region Süd-Korea, speichern.
 
-**Benutzerspezifische Überlegungen**: einige Benutzerszenarien werden weiterhin entwickelt, und Administratoren können beschließen, das Upgrade bestimmter Benutzer vorübergehend zu verschieben, während Sie andere Benutzer in der Organisation aktualisieren. Insbesondere arbeiten wir weiterhin an Szenarien für Benutzer, deren primäres Gerät VDI-basiert ist. Überwachen Sie die [Office 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap) -Website für Ankündigungen.
+**Benutzerspezifische Überlegungen**: einige Benutzerszenarien werden weiterhin entwickelt, und Administratoren können beschließen, das Upgrade bestimmter Benutzer vorübergehend zu verschieben, während Sie andere Benutzer in der Organisation aktualisieren. Insbesondere arbeiten wir weiterhin an Szenarien für Benutzer, deren primäres Gerät VDI-basiert ist. Überwachen Sie die [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap) -Website für Ankündigungen.
 
 > [!NOTE]
 > Bevor Sie in den Modus nur für Teams wechseln, müssen Sie Geräte ersetzen oder aktualisieren, die keine Teams unterstützen. 

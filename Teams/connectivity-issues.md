@@ -17,17 +17,17 @@ description: Behandeln Sie Konnektivitätsprobleme mit dem Microsoft Teams-Clien
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ee6cb916388dbfc0109185a0280da052980f8ccd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: cef20522784ba2d63d1461104a51f3148f48cf53
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137755"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689641"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Behandeln von Verbindungsproblemen mit dem Microsoft Teams-Client
 ==============================================================
 
-Die meisten erkannten Probleme mit dem Microsoft Teams-Client sind auf die Firewall- oder Proxykonnektivität zurückzuführen. Wenn Sie sich vergewissern, dass die notwendigen URLs, IP-Adressen und Ports in der Firewall oder im Proxy geöffnet sind, können Sie unnötige Problembehandlungsmaßnahmen auf ein Minimum reduzieren. Konkrete Informationen zu den für Microsoft Teams erforderlichen URLs und IPs finden Sie im Supportartikel [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Für die folgenden Szenarien müssen bestimmte URLs und Ports in der Firewall geöffnet sein.
+Die meisten Probleme, die mit dem Microsoft Teams-Client gefunden wurden, können auf Firewall-oder Proxy Konnektivität zurückverfolgt werden. Überprüfen, ob die erforderlichen URLs, IP-Adressen und Ports in Ihrer Firewall oder Ihrem Proxy geöffnet werden, minimiert unnötige Fehlerbehebung. Spezifische Informationen zu URLs und IPS, die für Microsoft Teams erforderlich sind, finden Sie im Artikel [Microsoft 365 und Office 365 URLs und Support für IP-Adressen](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) . In den folgenden Szenarien müssen bestimmte URLs und Ports in der Firewall geöffnet werden.
 
 -   Authentifizierung
 

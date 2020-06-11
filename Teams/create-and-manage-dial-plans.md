@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (PSTN-Wählpläne) verwenden.
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902020"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691341"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -36,7 +36,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
 ### <a name="create-a-dial-plan"></a>Erstellen eines Wählplans
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **sprach** > **Wähl**Einstellungen.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **sprach**  >  **Wähl**Einstellungen.
 2. Klicken Sie auf **Hinzufügen**, und geben Sie dann einen Namen und eine Beschreibung für den Wählplan ein.
     ![Screenshot der Seite "hinzufügen" zum Erstellen eines Wählplans](media/create-dial-plan.png)
 3. Geben Sie unter **Wähl Plan Details**eine externe Wähl Vorwahl an, wenn Benutzer eine oder mehrere zusätzliche führende stellen (beispielsweise 9) wählen müssen, um eine externe Leitung zu erhalten. Gehen Sie dazu so vor:
@@ -56,7 +56,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
 ### <a name="edit-a-dial-plan"></a>Bearbeiten von Wählplänen
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **sprach** > **Wähl**Einstellungen.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **sprach**  >  **Wähl**Einstellungen.
 2. Wählen Sie den Wählplan aus, indem Sie links neben dem Namen des Wählplans klicken, und klicken Sie dann auf **Bearbeiten**.
 3. Nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Speichern**.
 
@@ -74,7 +74,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
  **Überprüfen Sie, ob Sie Windows PowerShell, Version 3,0 oder höher, ausführen.**
   
-1. So überprüfen Sie, ob Sie Version 3,0 oder höher ausführen: **Startmenü** > von**Windows PowerShell**.
+1. So überprüfen Sie, ob Sie Version 3,0 oder höher ausführen: **Startmenü**von  >  **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -82,13 +82,13 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
     
 4. Außerdem müssen Sie das Windows PowerShell-Modul für Skype for Business Online installieren, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Sie können dieses Modul, das nur auf 64-Bit-Computern unterstützt wird, im [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)herunterladen. Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
     
-Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit allen Microsoft 365-oder Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
   
  **Starten einer Windows PowerShell-Sitzung**
   
-1. Klicken Sie auf**Windows PowerShell** **starten** > .
+1. Klicken **Start**Sie auf  >  **Windows PowerShell**starten.
     
-2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
+2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
     
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.

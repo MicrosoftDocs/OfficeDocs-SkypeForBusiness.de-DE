@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637714"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689811"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -139,7 +139,7 @@ Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren kö
 - Überprüfen Sie, ob der Benutzer über eine Team-Besprechungsrichtlinie verfügt, die das Outlook-Add-in zulässt. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Stellen Sie sicher, dass der Benutzer den Desktop Client von Teams installiert hat. Das Besprechungs-Add-in wird nicht installiert, wenn nur der Team-WebClient verwendet wird.
 - Stellen Sie sicher, dass der Benutzer Outlook 2013 oder höher installiert hat.
-- Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32. exe" verfügt.
+- Stellen Sie sicher, dass der Benutzer die Berechtigung zum Ausführen regsvr32.exe hat.
 - Stellen Sie sicher, dass alle verfügbaren Updates für Outlook-Desktop Client angewendet wurden.
 - Führen Sie die folgenden Schritte aus:
   - Starten Sie den Teams-Desktopclient neu.
@@ -161,7 +161,7 @@ Wenn das Add-in immer noch nicht angezeigt wird, führen Sie die folgenden Schri
 
 > [!NOTE]
 > Durch unsachgemäßes Bearbeiten der Registrierung kann Ihr System schwer beschädigt werden. Bevor Sie Änderungen an der Registrierung vornehmen, sollten Sie alle wichtigen Daten auf dem Computer sichern.
-- Starten Sie regedit. exe
+- Starten RegEdit.exe
 - Navigieren Sie zu HKEY_CURRENT_USER \software\microsoft\office\outlook\addins
 - Überprüfen Sie, ob TeamsAddin. FastConnect vorhanden ist.
 - Überprüfen Sie in TeamsAddin. FastConnect, ob LoadBehavior vorhanden ist, und ist auf 3 festzulegen.
@@ -169,4 +169,6 @@ Wenn das Add-in immer noch nicht angezeigt wird, führen Sie die folgenden Schri
 
 ### <a name="delegate-scheduling-does-not-work"></a>Das Delegieren der Terminplanung funktioniert nicht
 
-Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. 
+Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. Um dieses Problem zu umgehen, kann Ihr Administrator die folgende Zeichenfolge zur Zulassungsliste für EWS hinzufügen: "*SchedulingService*". 
+
+

@@ -23,20 +23,20 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie das Microsoft Teams Admin Center verwenden, um eine Liste aller Telefonnummern in Ihrer Organisation sowie alle Nummern anzuzeigen, die Benutzern zugewiesen oder nicht zugewiesen wurden.
-ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140958"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691171"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
-Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Diensten (Service-Nummern) zuweisen können, beispielsweise für Audiokonferenzen in Office 365.
+Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Diensten (Service-Nummern) zuweisen können, beispielsweise für Audiokonferenzen in Microsoft 365 oder Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>So zeigen Sie eine Liste aller Telefonnummern für Ihre Organisation an
 
-![Ein Symbol, das das Team](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol, das das Team-Logo ](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
@@ -63,7 +63,7 @@ Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Di
 
 Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonnummern sehen, die bereits Benutzern zugewiesen sind, und welche Telefonnummern Ihnen zugewiesen werden können.
   
-![Ein Symbol, das das Team](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol, das das Team-Logo ](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
@@ -84,7 +84,7 @@ Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonn
 
 Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie zuerst die Telefonnummern abrufen und diese dann den Benutzern zuweisen. Nachdem Sie Ihre Telefonnummern erhalten haben, möchten Sie vielleicht nur den Aktivierungsstatus der Nummern Zuweisungen sehen.
 
-![Ein Symbol, das das Team](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt!
+![Ein Symbol, das das Team-Logo ](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center** zeigt!
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 

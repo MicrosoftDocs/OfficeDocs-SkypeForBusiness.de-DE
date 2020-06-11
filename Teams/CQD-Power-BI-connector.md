@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416865"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690931"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -121,6 +121,8 @@ Trotz der Nutzung von Power BI wird nicht alle Power BI-Funktionen vom CQD-Conne
 4.  **Verweisen auf zwischengespeicherte Daten –** Power BI unterstützt derzeit keine Verweise auf zwischengespeicherte Daten von einem DirectQuery-Connector in irgendeiner Weise. Jeder Versuch, auf die Ergebnisse einer Abfrage zu verweisen, führt zu einer neuen Abfrage. 
 
 5.  **Relative Datenfilterung –** Wird im CQD-Connector unterstützt, jedoch nur mit den Dimensionen *Startzeit* und *Endzeit* . Obwohl die *Date* -Dimension möglicherweise die offensichtliche Wahl für die relative Datumsfilterung ist, wird *Datum* nicht als Datum-Uhrzeit-Objekt gespeichert und unterstützt daher keine relative Datumsfilterung in Power BI.
+
+6. **Support für Government Community Cloud (gcc) –** Für Kunden in der gcc-Umgebung funktioniert der CQD Power BI-Connector bei Verwendung von Power BI Desktop. Der CQD Power BI Connector ist derzeit nicht mit dem Power BI-Dienst für gcc-Kunden kompatibel.
 
 Beachten Sie, dass sich diese Einschränkungen mit der endgültigen Version des Connectors wahrscheinlich nicht ändern, obwohl sich der Connector in der Vorschau befindet. Bei den meisten dieser Probleme handelt es sich entweder um Einschränkungen des DirectQuery-Connector-Designs in Power BI oder um ein grundlegendes Design des CQD-Datenmodells.
 

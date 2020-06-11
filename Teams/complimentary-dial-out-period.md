@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: Informieren Sie sich über den kostenlosen Wähl Zeitraum für Office 365-Anrufplan und Office 365-Audiokonferenzen in Microsoft Teams.
-ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Informieren Sie sich über den kostenlosen Wähl Zeitraum für Microsoft 365 oder Office 365-Anrufplan und Office 365-Audiokonferenzen in Microsoft Teams.
+ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779792"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690891"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
 ## <a name="skype-for-business-pstn-services"></a>Festnetzdienste für Skype for Business
 
-Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+Kunden können Microsoft 365 oder Office 365-Anrufplan und Office 365-Audiokonferenzen wie in den Skype for Business Online-PSTN-Diensten Nutzungsbedingungen und dem Volumenlizenz Vertrag des Kunden verwenden. Die Nutzungsbestimmungen für PSTN-Dienste finden Sie unter [Lizenzbestimmungen und-Dokumentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
 ### <a name="end-of-complimentary-dial-out-period"></a>Ende des kostenlosen Wähl Zeitraums
 
@@ -44,7 +44,7 @@ Diese Änderung findet nicht für Länder statt, in denen das Audiokonferenz-Abo
 
 ### <a name="complimentary-dial-out-period-details"></a>Details zu den kostenlosen Wählzeiten
 
-Für Kunden, die unseren Office 365-Audiokonferenzdienst einrichten, bietet Microsoft einen zusätzlichen kostenlosen Vorteil im Zusammenhang mit der Auswahl von Besprechungen, die von Benutzern mit einer Office 365-Abonnementlizenz für Audio-Conferencing bis November 2019 organisiert sind. In diesem kostenlosen Zeitraum ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern, wie in den Einstellungen für Besprechungsrichtlinien definiert, das Einwählen von Anrufen aus der Besprechung zu nicht-Premium-Telefonnummern in den unten aufgeführten Ländern und Regionen von 44 "Zone A". Dieser Vorteil ist auf die monatlichen Abonnementlizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen.
+Für Kunden, die unseren Microsoft 365-oder Office 365-Audiokonferenzdienst verwenden, bietet Microsoft einen zusätzlichen kostenlosen Vorteil im Zusammenhang mit der Auswahl von Besprechungen, die von Benutzern organisiert werden, denen eine Microsoft 365-oder Office 365-Abonnementlizenz für Audio-Konferenzen bis November 2019 zugewiesen ist. In diesem kostenlosen Zeitraum ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern, wie in den Einstellungen für Besprechungsrichtlinien definiert, das Einwählen von Anrufen aus der Besprechung zu nicht-Premium-Telefonnummern in den unten aufgeführten Ländern und Regionen von 44 "Zone A". Dieser Vorteil ist auf die monatlichen Abonnementlizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen.
 
 Darüber hinaus gibt es während des kostenlosen Wähl Zeitraums eine Grenze von 900 Minuten als solche:
 
@@ -58,7 +58,7 @@ Benutzer mit einem Speicherort für die Lizenznutzung (Dies ist der Standort des
 - Alle ausgehenden Anrufe an Zielorte, die nicht in der Zone liegen, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen zu diesem Ziel abgerechnet (vorausgesetzt, der Mandant hat Kommunikationsguthaben eingerichtet und dem Organisator der Besprechung die Lizenz für Kommunikations Kredite zugewiesen).
 
 > [!NOTE]
-> Im Skype for Business Admin Center können Sie die Nutzung für den Dial-Out-Minuten Pool überwachen. Wechseln Sie im Microsoft Teams & Skype Admin Center zu **Legacy-Portal** > **Berichte** > **PSTN-Minuten Pools**. Dieser ﻿kostenlose Minuten Pool wird im Bericht als "ausgehende Anrufe in Zone A Länder und Regionen" bezeichnet.
+> Im Skype for Business Admin Center können Sie die Nutzung für den Dial-Out-Minuten Pool überwachen. Wechseln Sie im Microsoft Teams & Skype Admin Center zu **Legacy-Portal**  >  **Berichte**  >  **PSTN-Minuten Pools**. Dieser ﻿kostenlose Minuten Pool wird im Bericht als "ausgehende Anrufe in Zone A Länder und Regionen" bezeichnet.
 
 E-Mail-Benachrichtigungen werden an alle mandantenadministratoren eines bestimmten Kunden gesendet, wenn die Nutzung des Auswähl-Minuten Pools des Mandanten 80% und 100% erreicht hat.
 

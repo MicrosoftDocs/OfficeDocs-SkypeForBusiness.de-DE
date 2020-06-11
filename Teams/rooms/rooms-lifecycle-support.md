@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 description: Erfahren Sie mehr über die Lebenszyklus Unterstützung für Microsoft Teams-Räume, einschließlich der dynamischen Supportstruktur und ihrer Phasen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905377"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691191"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams rooms-App-Versionsunterstützung
  
 Die Microsoft Teams rooms-APP erhält Updates ein paar Mal pro Jahr. Jedes Update wird zwölf (12) Monate nach dem Veröffentlichungsdatum der allgemeinen Verfügbarkeit (GA) unterstützt. Der technische Support wird für die gesamten zwölf (12) Monate bereitgestellt. Die Supportstruktur ist jedoch dynamisch, wobei zwei unterschiedliche Phasen von der Verfügbarkeit der neuesten Version abhängig sind:
 
-- \- **Phase "Wartung und kritische Updates** " Wenn Sie die neueste Version der Microsoft Teams rooms-app ausführen, erhalten Sie regelmäßige Updates, die *Sicherheits-und Wartungs* Updates enthalten.
+- Phase "Wartung **und kritische Updates** \- " Wenn Sie die neueste Version der Microsoft Teams rooms-app ausführen, erhalten Sie regelmäßige Updates mit *Sicherheits-und Wartungs* Updates.
 
-- **Nur Sicherheitsupdates Phase** \- wenn eine neue Version der Microsoft Teams rooms-App veröffentlicht wird, verfügen ältere Versionen der APP über eine reduzierte Supportebene mit *Sicherheitsupdates nur* für den restlichen zwölf (12) Monate-Lebenszyklus.
+- **Nur Sicherheits Updates Phase** \- Wenn eine neue Version der Microsoft Teams rooms-App veröffentlicht wird, verfügen ältere Versionen der APP über eine reduzierte Supportebene mit *Sicherheitsupdates nur* für den restlichen zwölf (12) Monate-Lebenszyklus.
 
 > [!NOTE]
 > Die aktuelle Version befindet sich immer in der Phase Wartung und kritische Updates. Wenn Sie auf einen Codefehler stoßen, der ein wichtiges Update gewährleistet, müssen Sie auch die neueste Version installiert haben, um eine Lösung zu erhalten. Alle anderen unterstützten Versionen sind nur berechtigt, Sicherheitsupdates zu erhalten.
@@ -53,7 +53,8 @@ In der folgenden Tabelle sind die empfohlenen und unterstützten Versionen von W
 
 |Version  |Verfügbarkeitsdatum   |Support Status für Microsoft Teams rooms   |Microsoft Teams-Chatrooms, minimale Anwendungsversion | Empfohlener Betriebssystem-Build  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 1909 |2019-11-12 |Zurzeit überprüft, <br/>Nicht empfohlen|&#x2014; |&#x2014; |
+| 2004 |2020-05-27 |Unter Überprüfung <br/>Nicht empfohlen|&#x2014; |19041,264 |
+| 1909 |2019-11-12 |Validierung abgeschlossen, <br/>Keine bekannten Probleme.|In Kürze verfügbar |18363,418  |
 | 1903 |2019-05-21 |Stützt <br/>Empfohlen  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Übersprungen <br/>Nicht empfehlenswert &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Unterstützt                             |4.1.22.0 |17134,191|
@@ -61,6 +62,8 @@ In der folgenden Tabelle sind die empfohlenen und unterstützten Versionen von W
 | 1703 |2017-07-11 |Nicht unterstützt                         |&#x2014; |&#x2014; |
 
 &#x2780; Windows 10, Version 1809, wird aufgrund von Kompatibilitätsproblemen, die bei der Microsoft Teams rooms-Anwendung gefunden wurden, nicht empfohlen. Dieses spezielle Problem führt dazu, dass die Microsoft Teams rooms-Anwendung nach dem nächtlichen Neustart nicht mehr gestartet wird. Dieses Problem wurde in Windows 10, Version 1903, behoben.  
+
+&#x2781; Windows 10, Version 2004, wird aufgrund von Kompatibilitätsproblemen, die bei der Microsoft Teams rooms-Anwendung gefunden wurden, nicht empfohlen. Dieses spezielle Problem führt dazu, dass die Microsoft Teams rooms-Anwendung nach dem nächtlichen Neustart nicht mehr gestartet wird. 
 
 Wenn Sie eine unterstützte Version von Windows 10 verwenden, erhalten Sie immer die neuesten Anwendungsupdates für die Microsoft Teams rooms-app.  
 

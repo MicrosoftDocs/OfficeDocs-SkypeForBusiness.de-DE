@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten.
-ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243571"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697418"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -347,7 +347,7 @@ Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Manda
 - Eine Karte des Endpunkt-zu-Endpunkt-Marke/-Modells/-Typs usw.
   
 > [!NOTE]
-> Berichts Etiketten, die Sie auf CQD hochladen, werden unter ihrer Vereinbarung für Office 365 als *Support Daten* behandelt, einschließlich aller Informationen, die andernfalls als *Kundendaten* oder *persönliche Daten*gelten. Bitte geben Sie keine Daten an, die Sie Microsoft nicht als Support- *Daten*zur Verfügung stellen möchten, diese Informationen sind für Microsoft-Ingenieure zu Supportzwecken sichtbar.
+> Berichts Etiketten, die Sie auf CQD hochladen, werden unter ihrer Vereinbarung für Microsoft 365 oder Office 365 als *Support Daten* behandelt, einschließlich aller Informationen, die andernfalls als *Kundendaten* oder *persönliche Daten*gelten. Bitte geben Sie keine Daten an, die Sie Microsoft nicht als Support- *Daten*zur Verfügung stellen möchten, diese Informationen sind für Microsoft-Ingenieure zu Supportzwecken sichtbar.
 
 ![Screenshot: zeigt die Mandantendaten des Anruf Qualitäts Dashboards](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   

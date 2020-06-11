@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die medienumgehung mit dem direkt Routing von Telefonsystemen planen, mit dem Sie den Pfad des Medien Verkehrs verkürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338245"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691251"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -79,13 +79,12 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert is
 
 Im folgenden wird der Anruffluss beschrieben, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat. 
 
-Angenommen, der Benutzer ist extern, und der mandantenadministrator hat entschieden, die öffentliche IP-Adresse des SBC nicht für jeden im Internet, sondern nur für die Microsoft-Cloud zu öffnen. Die internen Komponenten des Datenverkehrs können über die Teams-Transport-Relays fließen. Dies ist die empfohlene Konfiguration für Benutzer außerhalb des Unternehmensnetzwerks. Berücksichtigen Sie dabei Folgendes:
+Angenommen, der Benutzer ist extern, und der mandantenadministrator hat entschieden, die öffentliche IP-Adresse des SBC nicht für jeden im Internet, sondern nur für die Microsoft-Cloud zu öffnen. Die internen Komponenten des Datenverkehrs können über die Teams-Transport-Relays fließen. Berücksichtigen Sie dabei Folgendes:
 
 - Es werden Transport-Relays für Teams verwendet.
 
 - Bei der medienumgehung verwendet Microsoft eine Version von Transport-Relays, die das Öffnen von Ports 50 000 bis 59 999 zwischen den Teams-Transport-Relays und dem SBC erfordert (in Zukunft planen wir, zu der Version zu wechseln, die nur 3478-und 3479-Ports erfordert).
 
-- Zu Zwecken der Medienoptimierung empfiehlt Microsoft, die öffentliche IP-Adresse des SBC nur für Teams-Transport-Relays zu öffnen. Für Clients außerhalb des Unternehmensnetzwerks empfiehlt Microsoft die Verwendung von Transport-Relays, anstatt die öffentliche IP-Adresse des SBC direkt zu erreichen.
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert ist, der Client ist extern, und der Client kann die öffentliche IP-Adresse des Session Border Controllers nicht erreichen (Medien werden von Teams Transport Relay weitergeleitet).
 
@@ -138,7 +137,7 @@ Im Medienpfad für nicht Umgehungs Anrufe für Endbenutzer | Immer | Nie |
 Im Medienpfad für umgehende Anrufe für Endbenutzer | Nie | Wenn der Client den SBC für die öffentliche IP-Adresse nicht erreichen kann | 
 In Medienpfad für Sprachanwendungen | Immer | Nie | 
 Can do Transcodierung (B2BUA)\* | Ja | Nein, nur Audio zwischen Endpunkten weiterleiten | 
-Anzahl der Instanzen weltweit und Standort | 8 gesamt: 2 in den USA Ost und West; 2 in Amsterdam und Dublin; 2 in Hongkong und Singapur; 2 in Japan  | Mehrere
+Anzahl der Instanzen weltweit und Standort | 10 Total: 2 in den USA Ost und West; 2 in Amsterdam und Dublin; 2 in Hongkong und Singapur; 2 in Japan; 2 in Australien Ost und Südost | Mehrere
 
 Die IP-Bereiche sind:
 - 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254)
@@ -165,13 +164,13 @@ Stellen Sie sicher, dass Ihr SBC Zugriff auf die Medien Prozessoren und Transpor
 
 Für SIP-Signalisierungen sind die Anforderungen für FQDN und Firewall dieselben wie für nicht Umgehungs Fälle. 
 
-Das direkte Routing wird in den folgenden Office 365-Umgebungen angeboten:
-- Office 365
+Das direkte Routing wird in den folgenden Microsoft 365-oder Office 365-Umgebungen angeboten:
+- Microsoft 365 oder Office 365
 - Office 365 gcc
 - Office 365 gcc-höchst
 - Office 365 DoD Weitere Informationen zu [Office 365-und US Government-Umgebungen](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) wie gcc, gcc-groß und DoD.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 und Office 365 gcc-Umgebungen
 
 Die Verbindungspunkte für die direkte Weiterleitung sind die folgenden drei FQDNs:
 
@@ -227,7 +226,7 @@ Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eing
 ## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Anschlüsse
 
 Die Port Anforderungen sind für alle Office 365-Umgebungen identisch, in denen Direktes Routing angeboten wird:
-- Office 365
+- Microsoft 365 oder Office 365
 - Office 365 gcc
 - Office 365 gcc-höchst
 - Office 365 DoD
@@ -263,7 +262,7 @@ UDP/SRTP | Client | Sbchttps | 50 000 – 50 019  | Im SBC definiert |
 
 Transport-Relays befinden sich im gleichen Bereich wie Medien Prozessoren (für nicht-Bypass-Fälle): 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 und Office 365 gcc-Umgebungen
 
 - 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254)
 
@@ -366,6 +365,5 @@ Für alle anderen Endpunkte, die keine medienumgehung unterstützen, wird der An
 ## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren der Medienumgehung mit direktem Routing](direct-routing-configure-media-bypass.md)
-
 
 

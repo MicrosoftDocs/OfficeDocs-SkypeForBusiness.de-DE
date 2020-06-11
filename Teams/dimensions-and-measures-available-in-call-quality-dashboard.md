@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 2dfef2dbe1bb94574911ab94d8da0cff50410592
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232586"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691281"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
 
@@ -121,8 +121,8 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | First Inside Corp  | Enumeration <br/>**Mögliche Werte:** <br/> Drinnen, draußen  | Gibt an, ob sich der erste Endpunkt in einem Subnetz innerhalb des Unternehmensnetzwerks befand, basierend auf der Zuordnung von Subnetz-zu-Mandanten-Gebäudedaten. Standardmäßig gilt der Endpunkt als „Außen". <br/> **Beispielwert:** In | |
 | Second Inside Corp  | Enumeration <br/> **Mögliche Werte:** <br/> Drinnen, draußen | Gibt an, ob sich der zweite Endpunkt in einem Subnetz innerhalb des Unternehmensnetzwerks befand, basierend auf der Zuordnung von Subnetz-zu-Mandanten-Gebäudedaten. Standardmäßig gilt der Endpunkt als „Außen". <br/>**Beispielwert:** In  |  |
 |**Deployment**| | | |
-| First Tenant Id  | Zeichenfolge  | Office 365-Mandanten-ID für den ersten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000 -0000-0000 – 000000000000  | <br/>&bull;Die Mandanten-ID für den ersten Endpunkt konnte nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
-| Second Tenant Id  | String  | Office 365-Mandanten-ID für den zweiten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000-0000-0000 – 000000000000  |  <br/>&bull;Die Mandanten-ID für den zweiten Endpunkt konnte nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
+| First Tenant Id  | Zeichenfolge  | Mandanten-ID für den ersten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000 -0000-0000 – 000000000000  | <br/>&bull;Die Mandanten-ID für den ersten Endpunkt konnte nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
+| Second Tenant Id  | String  | Mandanten-ID für den zweiten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000-0000-0000 – 000000000000  |  <br/>&bull;Die Mandanten-ID für den zweiten Endpunkt konnte nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
 | First Pool  | String  | Zum ersten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** pool1 <span></span> . lync <span></span> . com  | <br/>&bull;Gibt an, dass der Endpunkt bei einem Microsoft Teams oder Skype for Business angemeldet wurde. Dieses Feld wird nur für Datenströme aufgefüllt, die lokale Skype for Business Server-Bereitstellungen verwenden. |
 | Second Pool  | String  | Zum zweiten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** <span>pool1.lync.com</span>   | &bull;Der Skype for Business Online-Pool konnte für den zweiten Endpunkt nicht ermittelt werden. Dies kann darauf hindeuten, dass der Endpunkt bei einer lokalen Skype for Business Server-Bereitstellung angemeldet wurde.  |
 | Is Federated  | Boolean  | True, wenn Datenströme zwischen zwei Federated-Mandanten liegen, andernfalls false.   | <br/>&bull;Es konnte nicht ermittelt werden, ob es sich um einen Verbund Datenstrom gehandelt hat. <br/>&bull;Einige Signalisierungsdaten wurden nicht erfasst.   |
@@ -455,7 +455,7 @@ Boolesche Werte sind immer entweder "wahr" oder "falsch". In einigen Fällen kan
 
 Dimensionen, die als Bereich oder Gruppe von Werten bereitgestellt werden, werden in folgendem Format angezeigt:
 
- _\<Sortierreihenfolge-Zeichenfolge \> [ \< Untergrenze inklusive \>  -  \< Obergrenze Exclusive\>_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
 
 Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunden an, wobei der Wert als Bereich von Werten erfasst wird.
 
@@ -467,7 +467,7 @@ Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunde
 |066: [3 – 4) |3 Minuten < = Dauer des Datenstroms < 4 Minuten |
 |  | |
 
-Die \< Zeichenfolge für die Sortierreihenfolge> wird verwendet, um die Sortierreihenfolge beim darstellen der Daten zu steuern und für die Filterung verwendet werden kann. Beispielsweise würde ein Filter für Dauer (Minuten) < "065" Datenströme mit einer Dauer von weniger als 2 Minuten anzeigen (das führende "0" wird benötigt, damit der Filter wie erwartet funktioniert).
+Das \<sort order string> wird verwendet, um die Sortierreihenfolge beim darstellen der Daten zu steuern, und kann zum Filtern verwendet werden. Beispielsweise würde ein Filter für Dauer (Minuten) < "065" Datenströme mit einer Dauer von weniger als 2 Minuten anzeigen (das führende "0" wird benötigt, damit der Filter wie erwartet funktioniert).
 
 > [!NOTE]
 > Der aktuelle Wert der Sortierreihenfolge-Zeichenfolge ist unerheblich.
@@ -480,7 +480,7 @@ Zeichenfolgen, die von CQD verwendet werden, werden häufig aus Datendateien abg
 
 Dimensionen, die als Aufzählungspaar bereitgestellt werden, werden in folgendem Format angezeigt:
 
- _\<Enumerationswert von einem Endpunkt \> : \< Enumerationswert des anderen Endpunkts\>_
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
 
 Die Anordnung der Aufzahlungswerte ist konsistent, gibt jedoch nicht die Anordnung des ersten oder zweiten Endpunkts wieder.
 
@@ -511,14 +511,14 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |Total Media Succeeded Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, für die der Medienpfad erstellt und normal beendet wurde. |
 |Total Call Setup Succeeded Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, für die der Medienpfad zwischen den Endpunkten am Anfang des Anrufs erstellt werden konnte.|
 |Total Call Setup Failure Percentage |Prozentsatz |Prozentsatz aller Datenströme, für die der Medienpfad zwischen den Endpunkten am Anfang des Anrufs nicht erstellt werden konnte. |
-|Total Call Dropped Failure Percentage |Prozentsatz |Prozentsatz der erfolgreich festgelegten Datenströme, bei denen der Medienpfad nicht normal beendet wurde.| 
+|Total Call Dropped Failure Percentage |Prozent |Prozentsatz der erfolgreich festgelegten Datenströme, bei denen der Medienpfad nicht normal beendet wurde.| 
 |Total Answer Seizure Ratio |Verhältnis |Verhältnis der Anrufe mit einer Dauer unter 5 Sekunden für die Gesamtzahl der Anrufe. |
-|Total Short Call Percentage |Prozent |Prozentsatz der Gesamtzahl der Anrufe, die weniger als 1 Minute dauern. |
+|Total Short Call Percentage |Prozentsatz |Prozentsatz der Gesamtzahl der Anrufe, die weniger als 1 Minute dauern. |
 |Total Media Failure Percentage |Prozent |Prozentsatz aller Datenströme, für die der Medienpfad nicht erstellt oder nicht normal beendet werden konnte. |
-|Media Failed Due To Firewall DPI Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert war. |
-|Firewall DPI Media Failure Percentage |Prozentsatz |Prozentsatz der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert war. |
-|Medienfehler aufgrund von Firewall-IP-blockierter Datenstromanzahl |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf Skype for Business-Server durch Netzwerkgeräte nicht erstellt werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert war. |
-|Firewall IP Blocked Media Failure Percentage |Prozent |Prozentsatz der Datenströme, die nicht ermittelt werden konnten, weil Netzwerkgeräte den Zugriff auf Skype for Business-Server blockierten. Diese Fehler deuten in der Regel darauf hin, dass ein Proxy, eine Firewall oder ein anderes Netzwerksicherheitsgerät nicht ordnungsgemäß für den Zugriff auf die IP-Adresse und die Ports konfiguriert ist, die von Skype for Business in Office 365 verwendet werden. |
+|Media Failed Due To Firewall DPI Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten in der Regel darauf hin, dass ein Proxy, eine Firewall oder ein anderes Netzwerksicherheitsgerät für den Zugriff auf die IP-Adresse und die Ports, die von Skype for Business in Microsoft 365 oder Office 365 verwendet werden, nicht korrekt konfiguriert ist. |
+|Firewall DPI Media Failure Percentage |Prozentsatz |Prozentsatz der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten in der Regel darauf hin, dass ein Proxy, eine Firewall oder ein anderes Netzwerksicherheitsgerät für den Zugriff auf die IP-Adresse und die Ports, die von Skype for Business in Microsoft 365 oder Office 365 verwendet werden, nicht korrekt konfiguriert ist. |
+|Medienfehler aufgrund von Firewall-IP-blockierter Datenstromanzahl |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf Skype for Business-Server durch Netzwerkgeräte nicht erstellt werden konnten. Diese Fehler deuten in der Regel darauf hin, dass ein Proxy, eine Firewall oder ein anderes Netzwerksicherheitsgerät für den Zugriff auf die IP-Adresse und die Ports, die von Skype for Business in Microsoft 365 oder Office 365 verwendet werden, nicht korrekt konfiguriert ist. |
+|Firewall IP Blocked Media Failure Percentage |Prozent |Prozentsatz der Datenströme, die nicht ermittelt werden konnten, weil Netzwerkgeräte den Zugriff auf Skype for Business-Server blockierten. Diese Fehler deuten in der Regel darauf hin, dass ein Proxy, eine Firewall oder ein anderes Netzwerksicherheitsgerät für den Zugriff auf die IP-Adresse und die Ports, die von Skype for Business in Microsoft 365 oder Office 365 verwendet werden, nicht ordnungsgemäß konfiguriert ist. |
 | Medienfehler aufgrund einer anderen Datenstromanzahl|Anzahl der Datenströme| Die Anzahl der Datenströme, bei denen der Medienpfad zwischen den Endpunkten aufgrund eines unbestimmten/nicht klassifizierten Grunds nicht hergestellt werden konnte.| |
 | Anderer Medienfehler Prozentsatz|Prozent| Der Prozentsatz der Datenströme, bei denen der Medienpfad zwischen den Endpunkten aufgrund eines unbestimmten/nicht klassifizierten Grunds nicht hergestellt werden konnte. ||
 | Gesamtanzahl der verfügbaren CdR-Anrufe|Anzahl der Datenströme|Gesamtzahl der Mediendatenströme mit verfügbaren Informationen zur Zuverlässigkeit/Diagnose. Für dieses Measure liegt ein Fehler von bis zu 0,2% vor. Weitere Informationen finden Sie unten im Hinweis.|

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523799"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697428"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -83,7 +83,7 @@ Wenn Sie einen Operator festzulegen, informieren Sie Personen, die über die Opt
 Sie haben mehrere Möglichkeiten, den Operator einzurichten:
 
 - **Kein Operator** deaktiviert die Optionen "Operator" und "0 drücken". Dies ist die aktuelle Standardeinstellung.
-- Die **Person in der Organisation** weist einer Person eine Telefon System Lizenz zu, die für Enterprise-VoIP oder zugewiesene Anrufpläne in Office 365 aktiviert ist. Sie können es auch so einrichten, dass der Anrufer an die Voicemail weitergeleitet wird. Wenn Sie einen Anrufer an Voicemail senden möchten, wählen Sie **Person in der Organisation** aus, und legen Sie die Einstellungen dieses Kontos fest, um Anrufe direkt an Voicemail zu senden.
+- Die **Person in der Organisation** weist einer Person eine Telefon System Lizenz zu, die für Enterprise-VoIP oder zugewiesene Anrufpläne in Microsoft 365 oder Office 365 aktiviert ist. Sie können es auch so einrichten, dass der Anrufer an die Voicemail weitergeleitet wird. Wenn Sie einen Anrufer an Voicemail senden möchten, wählen Sie **Person in der Organisation** aus, und legen Sie die Einstellungen dieses Kontos fest, um Anrufe direkt an Voicemail zu senden.
 
      > [!Note]
      > Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Wenn Sie eine **Person in der Organisation** auswählen, können Sie ein Konto mit einem freigegebenen Postfach oder einem Benutzerpostfach auswählen.
@@ -157,13 +157,13 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 
 ![Symbol der Zahl 4: eine Beschriftung im vorherigen Screenshot- ](media/teamscallout4.png) **Umleitungs Anruf** sendet den Anrufer an das gewählte Ziel, ohne eine der Optionen zu wählen. Die möglichen Einstellungen lauten wie folgt:
 
-  - **Person in der Organisation** Für das von Ihnen ausgewählte Konto muss eine Telefon System Lizenz für Enterprise-VoIP aktiviert sein, oder Sie verfügen über einen zugewiesenen Anrufplan in Office 365. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann: Wählen Sie **Person in der Organisation** aus, und legen Sie fest, dass Anrufe direkt an Voicemail weitergeleitet werden.
+  - **Person in der Organisation** Für das von Ihnen ausgewählte Konto muss eine Telefon System Lizenz für Enterprise-VoIP aktiviert sein, oder Sie verfügen über einen zugewiesenen Anrufplan in Microsoft 365 oder Office 365. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann: Wählen Sie **Person in der Organisation** aus, und legen Sie fest, dass Anrufe direkt an Voicemail weitergeleitet werden.
 
     > [!Note]
     > Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Wenn Sie eine **Person in der Organisation** auswählen, können Sie ein Konto mit einem freigegebenen Postfach oder einem Benutzerpostfach auswählen.
 
   - **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das dem Dienst zugeordnet ist.
-  - **Voicemail** Wählen Sie die Office 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf Voicemail zugreifen müssen, die von dieser automatischen Telefonzentrale empfangen wurde. Voicemail-Nachrichten werden an die von Ihnen angegebene Office 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
+  - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser automatischen Telefonzentrale empfangene Voicemail zugreifen müssen. Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
 
       Schalten Sie die **Transkription** auf **ein** , um die sprach-zu-Text-Transkription von Voicemail-Nachrichten zu aktivieren.
 
@@ -198,11 +198,11 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **Operator** Wenn ein Operator bereits eingerichtet ist, wird die Option automatisch der Taste 0 zugeordnet, kann aber auch gelöscht oder einem anderen Schlüssel zugewiesen werden. Der Anrufer, der diese Option auswählt, wird an den festgelegten Operator gesendet. Wenn der Operator nicht auf eine beliebige Taste eingestellt ist, ist der Sprachbefehl "Operator" ebenfalls deaktiviert. 
-- Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Der Benutzer muss über eine Telefon System Lizenz verfügen, die für Enterprise-VoIP oder zugewiesene Anrufpläne in Office 365 aktiviert ist. Suchen Sie im Feld nach **Name suchen** nach der betreffenden Person.
+- Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Der Benutzer muss über eine Telefon System Lizenz verfügen, die für Enterprise-VoIP oder zugewiesene Anrufpläne in Microsoft 365 oder Office 365 aktiviert ist. Suchen Sie im Feld nach **Name suchen** nach der betreffenden Person.
 
 - **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das der Anwendung zugeordnet ist.
 
-- **Voicemail** Wählen Sie die Office 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf Voicemail zugreifen müssen, die von dieser automatischen Telefonzentrale empfangen wurde. Voicemail-Nachrichten werden an die von Ihnen angegebene Office 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
+- **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser automatischen Telefonzentrale empfangene Voicemail zugreifen müssen. Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
 
     Schalten Sie die **Transkription** auf **ein** , um die sprach-zu-Text-Transkription von Voicemail-Nachrichten zu aktivieren.
 
@@ -333,7 +333,7 @@ Auf dieser Seite können Sie festlegen, wer in Ihrem Verzeichnis aufgeführt und
 
 Wenn Sie **alle Online Benutzer**auswählen, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
 
-**Benutzerdefinierte Benutzergruppen** Mit dieser Option können Sie eine in Ihrer Organisation bereits erstellte Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen und auswählen. Benutzer werden dem Verzeichnis hinzugefügt, wenn Sie sich in der ausgewählten Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe befinden, und Sie sind **Online Benutzer mit einer Telefon System Lizenz** oder lokal mit Skype for Business Server gehostet. Sie können dem Verzeichnis mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
+**Benutzerdefinierte Benutzergruppen** Mit dieser Option können Sie eine Microsoft 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen und auswählen, die bereits in Ihrer Organisation erstellt wurde. Benutzer werden dem Verzeichnis hinzugefügt, wenn Sie sich in der ausgewählten Microsoft 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe befinden und **Online-Benutzer mit einer Telefon System Lizenz** sind oder lokal mit Skype for Business Server gehostet werden. Sie können dem Verzeichnis mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
 
 <a name="dialscope"> </a>
 
@@ -343,8 +343,7 @@ Auf dieser Seite können Sie festlegen, welche Benutzer in Ihrer Organisation in
 
 Wenn Sie **keine**auswählen, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
 
-**Benutzerdefinierte Benutzergruppe** Sie können nach einer Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde. Benutzer in dieser Gruppe sind von der Verzeichnissuche ausgeschlossen. Sie können mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
-
+**Benutzerdefinierte Benutzergruppe** Sie können nach einer Microsoft 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde. Benutzer in dieser Gruppe sind von der Verzeichnissuche ausgeschlossen. Sie können mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
 
 Wenn Sie die Einstellungen bei aktivierter Wahl nach Namen standardmäßig beibehalten, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
 
@@ -411,7 +410,7 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 
 ### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Microsoft Teams von einem zentralen Punkt aus verwalten, der Ihre tägliche Arbeit vereinfachen kann. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Microsoft Teams von einem zentralen Punkt aus verwalten, der Ihre tägliche Arbeit vereinfachen kann. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
   - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -419,13 +418,13 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 
 - Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn nur das Microsoft 365 Admin Center verwendet wird, beispielsweise das vornehmen von Einstellungsänderungen für viele Benutzer gleichzeitig. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
-  - [Verwalten von Office 365 mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Verwalten von Microsoft 365 oder Office 365 mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Das Telefonsystem bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Abrufen von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers)
 

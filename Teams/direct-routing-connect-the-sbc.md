@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Ihr SBC-zu-Telefon System-direkt Routing konfigurieren und verbinden.
-ms.openlocfilehash: fbcc1d79a4875ba835fc77ea24f6356ded3da894
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159036"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691261"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Verbinden des Session Border Controllers (SBC) mit Direct Routing
 
@@ -38,9 +38,9 @@ Sie können das [Microsoft Teams Admin Center](#using-the-microsoft-teams-admin-
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > **Direct Routing**, und klicken Sie dann auf die Registerkarte **SBCS** .
+1. Wechseln Sie in der linken Navigationsleiste zu **VoIP**  >  **Direct Routing**, und klicken Sie dann auf die Registerkarte **SBCS** .
 2. Klicken Sie auf **Hinzufügen**.
-3. Geben Sie einen FQDN für den SBC ein. <br><br>Stellen Sie sicher, dass der Domänenname-Teil des FQDN einer Domäne entspricht, die in Ihrem Mandanten registriert ist, `*.onmicrosoft.com` und beachten Sie, dass der Domänenname für den Domänennamen des SBC-FQDN nicht unterstützt wird. Wenn Sie beispielsweise über zwei Domänennamen verfügen `contoso.com` und `contoso.on.microsoft.com`als SBC- `sbc.contoso.com` Namen verwenden.
+3. Geben Sie einen FQDN für den SBC ein. <br><br>Stellen Sie sicher, dass der Domänenname-Teil des FQDN einer Domäne entspricht, die in Ihrem Mandanten registriert ist, und beachten Sie, dass der Domänenname `*.onmicrosoft.com` für den Domänennamen des SBC-FQDN nicht unterstützt wird. Wenn Sie beispielsweise über zwei Domänennamen verfügen `contoso.com` und `contoso.on.microsoft.com` `sbc.contoso.com` als SBC-Namen verwenden.
 4. Konfigurieren Sie die folgenden Einstellungen für den SBC basierend auf den Anforderungen Ihrer Organisation. Details zu den einzelnen Einstellungen finden Sie unter [SBC-Einstellungen](#sbc-settings).
 
     ![Screenshot der Seite "SBC hinzufügen" im Microsoft Teams Admin Center](media/direct-routing-add-sbc.png)
@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. Wir empfehlen, dass Sie im SBC eine maximale Anrufbeschränkung mithilfe der Informationen angeben, die in der SBC-Dokumentation zu finden sind. Der Grenzwert löst eine Benachrichtigung aus, wenn sich der SBC auf der Kapazitäts Ebene befindet.
-  > 2. Sie können den SBC nur verbinden, wenn der Domänenteil des FQDN mit einer der in Ihrem Mandanten registrierten Domänen übereinstimmt \*, mit Ausnahme von onmicrosoft.com. Die \*Verwendung von onmicrosoft.com-Domänennamen wird für den Namen des SBC-FQDN nicht unterstützt. Wenn Sie beispielsweise über zwei Domänennamen, " **contoso**. com" und " **contoso**. onmicrosoft.com" verfügen, können Sie SBC. contoso. con für den SBC-Namen verwenden. Wenn Sie versuchen, den SBC mit einem Namen wie SBC. contoso. ABC zu verbinden, lässt das System Sie nicht zu, da die Domäne nicht im Besitz dieses Mandanten ist.<br/>
+  > 2. Sie können den SBC nur verbinden, wenn der Domänenteil des FQDN mit einer der in Ihrem Mandanten registrierten Domänen übereinstimmt, mit Ausnahme von \* onmicrosoft.com. \*Die Verwendung von onmicrosoft.com-Domänennamen wird für den Namen des SBC-FQDN nicht unterstützt. Wenn Sie beispielsweise über zwei Domänennamen, " **contoso**. com" und " **contoso**. onmicrosoft.com" verfügen, können Sie SBC. contoso. con für den SBC-Namen verwenden. Wenn Sie versuchen, den SBC mit einem Namen wie SBC. contoso. ABC zu verbinden, lässt das System Sie nicht zu, da die Domäne nicht im Besitz dieses Mandanten ist.<br/>
   > Neben der in Ihrem Mandanten registrierten Domäne ist es wichtig, dass ein Benutzer mit dieser Domäne und eine zugewiesene E3-oder E5-Lizenz vorhanden ist. Wenn dies nicht der Fall ist, wird die folgende Fehlermeldung angezeigt:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -164,7 +164,7 @@ In dieser Tabelle sind die Optionen aufgeführt, die Sie für den SBC im Microso
 |Nein|**Aktiviert**|Aktiviert|Verwenden Sie diese Option, um den SBC für ausgehende Anrufe einzuschalten. Sie können diese Option verwenden, um den SBC vorübergehend aus dem Dienst zu entfernen, während er aktualisiert wird oder während der Wartung. |Falsch|Wahr<br/>Falsch|Boolean|
 |Ja|**SIP-Signalisierungs-Port**|SipSignalingPort |Hierbei handelt es sich um den Abhör Port, der für die Kommunikation mit Direct Routing mithilfe des TLS-Protokolls (Transport Layer) verwendet wird.|Keine|Beliebiger Port|0 bis 65535 |
 |Nein|**SIP-Optionen senden**|SendSIPOptions |Definiert, ob der SBC SIP-Options Nachrichten senden soll. Wir empfehlen Ihnen dringend, diese Einstellung zu aktivieren. Wenn diese Einstellung deaktiviert ist, wird der SBC vom Überwachungs-und Warnungssystem ausgeschlossen.|Wahr|Wahr<br/>Falsch|Boolean|
-|Nein|**Anrufverlauf weiterleiten**|ForwardCallHistory |Gibt an, ob die Anrufverlaufs Informationen durch den trunk weitergeleitet werden. Wenn Sie diese Option aktivieren, sendet der Office 365-Proxy eine Verlaufsinformationen-und eine Verweis Kopfzeile. |Falsch|Wahr<br/>Falsch|Boolean|
+|Nein|**Anrufverlauf weiterleiten**|ForwardCallHistory |Gibt an, ob die Anrufverlaufs Informationen durch den trunk weitergeleitet werden. Wenn Sie diese Option aktivieren, sendet der Microsoft 365-oder Office 365-Proxy eine Verlaufsinformationen-und eine Verweis Kopfzeile. |Falsch|Wahr<br/>Falsch|Boolean|
 |Nein|**Forward P-Asserted-Identity (Pai)-Kopfzeile**|ForwardPAI|Gibt an, ob der Pai-Header zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen. Wenn diese Einstellung aktiviert ist, wird auch der Datenschutz: ID-Header gesendet.|Falsch|Wahr<br/>Falsch|Boolean|
 |Nein|**Gleichzeitige Anrufkapazität**|MaxConcurrentSessions |Wenn Sie einen Wert setzen, benachrichtigt Sie das Benachrichtigungssystem, wenn die Anzahl der gleichzeitigen Sitzungen 90 Prozent oder höher als dieser Wert ist. Wenn Sie keinen Wert festlegen, werden keine Benachrichtigungen generiert. Das Überwachungssystem meldet jedoch die Anzahl der gleichzeitigen Sitzungen alle 24 Stunden. |NULL|NULL<br/>1 bis 100.000 ||
 |Nein|**Failover-Antwortcodes**|FailoverResponseCodes<br>|Wenn das direkte Routing einen 4xx-oder 6xx-SIP-Fehlercode als Antwort auf eine ausgehende Einladung erhält, gilt der Anruf standardmäßig als abgeschlossen. Ausgehend bedeutet, dass ein Anruf von einem Team-Client an das PSTN mit Traffic Flow: Teams Client-> Direct Routing-> SBC->-Telefonie-Netzwerk). Wenn Sie einen Failover-Antwortcode angeben, erzwingt dies das direkte Routing, um einen anderen SBC zu testen (wenn ein anderer SBC in der VoIP-Routing Richtlinie des Benutzers vorhanden ist), wenn er die angegebenen Codes erhält, wenn der SBC aufgrund von Netzwerk-oder anderen Problemen keinen Anruf führen kann. Weitere Informationen finden Sie unter [Failover spezieller SIP-Codes, die vom Session Border Controller (SBC) empfangen](direct-routing-trunk-failover-on-outbound-call.md)werden.|408, 503, 504||Int|

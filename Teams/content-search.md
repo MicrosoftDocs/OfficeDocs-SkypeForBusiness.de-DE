@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Informieren Sie sich über die Verwendung der Inhaltssuche in Microsoft Teams, um Microsoft Teams-Informationen aus Exchange, SharePoint Online, OneDrive for Business und OneNote abzufragen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776450"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690441"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776450"
 
 Die Inhaltssuche bietet eine Möglichkeit zum Abfragen von Microsoft Teams-Informationen, die Exchange, SharePoint Online und OneDrive for Business umfassen.
 
-Weitere Informationen finden Sie unter [Inhaltssuche in Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+Weitere Informationen finden Sie unter [Inhaltssuche in Microsoft 365 oder Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
 So können Sie beispielsweise mithilfe der **Inhaltssuche** auf der SharePoint-Website für die Produktionsspezifikationen für das Postfach und die Fertigungsspezifikationen nach Teams Standardkanal Unterhaltungen von Exchange, Dateiuploads und Änderungen aus SharePoint Online und OneNote-Änderungen suchen.
 

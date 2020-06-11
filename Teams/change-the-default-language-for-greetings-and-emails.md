@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Skype für Unternehmen einrichten, um eine andere Sprache für die standardmäßige Voicemail-Ansage Ihrer Organisation zu verwenden.
-ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904330"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691391"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
@@ -38,7 +38,7 @@ Wenn Sie ein [globaler Administrator](https://support.office.com/article/da585ee
   
 - **Die Ihnen zur Verfügung stehenden Sprachen hängen vom Standort Ihrer Organisation ab**. Wenn sich Ihre Organisation beispielsweise in den USA befindet, können Sie die Standardsprache auf Englisch oder Spanisch festlegen. Wenn sich Ihre Organisation in Kanada befindet, können Sie zwischen Englisch und Französisch wählen. Eine Liste der unterstützten Sprachen finden Sie unter [Sprachen für Voicemail-Ansagen und -nachrichten von Skype for Business](languages-for-voicemail-greetings-and-messages.md).
     
-- **Ändern von Sprachen für Voicemail-Gruß-und Voicemail-Nachrichten einzelner Benutzer.** Sie können die bevorzugte lanaguage für Benutzer ändern, wodurch die Sprache der Voicemail-und Voicemail-Nachrichten, die an Ihr Outlook-Postfach gesendet werden, geändert wird. Anleitungen finden Sie unter [so wird es gemacht: Festlegen von Sprach-und Regionshttps://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)Einstellungen für Office 365] (. 
+- **Ändern von Sprachen für Voicemail-Gruß-und Voicemail-Nachrichten einzelner Benutzer.** Sie können die bevorzugte lanaguage für Benutzer ändern, wodurch die Sprache der Voicemail-und Voicemail-Nachrichten, die an Ihr Outlook-Postfach gesendet werden, geändert wird. Anleitungen finden Sie unter [so wird es gemacht: Festlegen von Sprach-und Regionseinstellungen für Microsoft 365 oder Office 365] ( https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) . 
     
     > [!NOTE]
     > Benutzer können Ihre eigene Ansage Sprache durch Ihre Einstellungen ändern, nachdem Sie sich mit den Anweisungen unter [Ändern ihrer Anzeigesprache und Zeitzone in Microsoft 365 for Business](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US) angemeldet haben.
@@ -49,9 +49,9 @@ Wenn Sie ein [globaler Administrator](https://support.office.com/article/da585ee
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Ändern der Systemsprache für alle Benutzer in der Organisation
 
-1. Registrieren Sie sich [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)bei Ihrem [globalen Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Konto. 
+1. Registrieren Sie sich bei Ihrem [globalen Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Konto [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) . 
     
-2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen** > **Settings** > Einstellungen**Organisationsprofil**aus. 
+2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen**  >  **Einstellungen**  >  **Organisationsprofil**aus. 
     
      ![Screenshot mit Auswahl von Einstellungen und dann Organisationsprofil](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -69,11 +69,11 @@ Wenn Sie ein [globaler Administrator](https://support.office.com/article/da585ee
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     
-- [Planen des Telefonsystems in Office 365 mit lokalem PSTN-Konnektivität in Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Planen des Telefonsystems in Microsoft 365 oder Office 365 mit lokalem PSTN-Konnektivität in Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Ändern der Anzeigesprache und Zeitzone in Office 365 Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Ändern ihrer Anzeigesprache und Zeitzone in Microsoft 365 oder Office 365 for Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [Hinzufügen einer Sprache oder Festlegen von Spracheinstellungen in Office 2010 und höher](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     

@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232576"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690881"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -159,7 +159,7 @@ Verwenden Sie die folgenden Cmdlets, um dem LIS Ports, Switches, Subnetze und WA
 
 Verwenden Sie die folgenden Richtlinien, um Notrufe zu konfigurieren. Sie können diese Richtlinien im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten.
 
-- **Routing Richtlinie für Notrufe** – gilt nur für die direkte Weiterleitung. Diese Richtlinie konfiguriert die Notfallnummern, die Masken pro Nummer, falls gewünscht, und die PSTN-Route pro Nummer.  Sie können diese Richtlinie Benutzern, Netzwerk Websites oder beiden zuweisen. (Anrufpläne Teams-Clients werden automatisch für Notrufe mit den Notrufnummern aus dem Land aktiviert, die auf dem Standort der Office 365-Nutzung basieren.)  Weitere Informationen finden Sie unter [Verwalten von Notfall Anruf-Routing Richtlinien für die direkte Weiterleitung](manage-emergency-call-routing-policies.md).
+- **Routing Richtlinie für Notrufe** – gilt nur für die direkte Weiterleitung. Diese Richtlinie konfiguriert die Notfallnummern, die Masken pro Nummer, falls gewünscht, und die PSTN-Route pro Nummer.  Sie können diese Richtlinie Benutzern, Netzwerk Websites oder beiden zuweisen. (Anrufpläne Teams-Clients werden automatisch für Notrufe mit den Notrufnummern aus dem Land aktiviert, die auf Ihrem Microsoft 365-oder Office 365-Verwendungsstandort basieren.)  Weitere Informationen finden Sie unter [Verwalten von Notfall Anruf-Routing Richtlinien für die direkte Weiterleitung](manage-emergency-call-routing-policies.md).
 
 - **Notfall Anrufrichtlinie** – gilt für Anrufpläne und direktes Routing. Mit dieser Richtlinie wird die Benachrichtigungsfunktionalität des Security Desk konfiguriert, wenn ein Notfall Anruf durchgeführt wird. Sie können die Personen, die benachrichtigt werden sollen, und deren Benachrichtigung einstellen. So können Sie beispielsweise den Security Desk Ihrer Organisation automatisch benachrichtigen und bei Notrufen abhören.  Diese Richtlinie kann entweder Benutzern oder Netzwerk Websites oder beiden zugewiesen werden. Weitere Informationen finden Sie unter [Verwalten von Notruf Richtlinien in Teams](manage-emergency-calling-policies.md).
 

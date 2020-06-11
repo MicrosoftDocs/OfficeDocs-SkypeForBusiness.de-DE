@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905537"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691521"
 ---
 # <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
@@ -31,7 +31,7 @@ Skype for Business Online wird am 31. Juli 2021 eingestellt. In diesem Artikel f
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>Was ist der Skype for Business-ruhestandsplan?
 
-Skype for Business Online wird am 31. Juli 2021 eingestellt, und nach diesem Datum kann der Dienst nicht mehr zugänglich sein. Zwischen ab und zu werden die aktuellen Skype for Business Online-Kunden keine Änderungen an den Diensten erfahren, und Sie können weitere Benutzer nach Bedarf hinzufügen. Ab dem 1. September 2019 werden wir allerdings alle neuen Office 365-Kunden direkt an Teams für Chats, Besprechungen und Anrufe weiterleiten. Bitte beachten Sie, dass der Skype-Kundendienst und der Skype for Business-Server von dieser Ankündigung nicht betroffen sind.  
+Skype for Business Online wird am 31. Juli 2021 eingestellt, und nach diesem Datum kann der Dienst nicht mehr zugänglich sein. Zwischen ab und zu werden die aktuellen Skype for Business Online-Kunden keine Änderungen an den Diensten erfahren, und Sie können weitere Benutzer nach Bedarf hinzufügen. Ab dem 1. September 2019 werden wir allerdings alle neuen Microsoft 365-oder Office 365-Kunden direkt an Teams für Chats, Besprechungen und Anrufe weiterleiten. Bitte beachten Sie, dass der Skype-Kundendienst und der Skype for Business-Server von dieser Ankündigung nicht betroffen sind.  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>Warum machen wir diese Ankündigung jetzt?
 

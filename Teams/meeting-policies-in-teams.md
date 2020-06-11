@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665137"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690941"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -436,8 +436,8 @@ Wenn Sie angeben möchten, ob Benutzer ihren Video Hintergrund in einer Besprech
 |---------|---------|
 |**Nofilters**     |Der Benutzer kann seinen Video Hintergrund nicht anpassen.|
 |**BlurOnly**     |Der Benutzer hat die Möglichkeit, seinen Video Hintergrund zu verwischen. |
-|**BlurandDefaultBackgrounds**     |Der Benutzer hat die Möglichkeit, seinen Video Hintergrund zu verwischen oder aus einer Reihe von Bildern auszuwählen, die als Hintergrund verwendet werden sollen. |
-|**Allfilters**     |Verwenden Sie die Option zum verwischen des Videohintergrunds, zum auswählen aus einer Reihe von Bildern oder zum Hochladen benutzerdefinierter Bilder, die als Hintergrund verwendet werden sollen. |
+|**BlurandDefaultBackgrounds**     |Der Benutzer hat die Möglichkeit, seinen Video Hintergrund zu verwischen oder aus dem Standardsatz von Bildern auszuwählen, der als Hintergrund verwendet werden soll. |
+|**Allfilters**     |Verwenden Sie die Option zum verwischen des Videohintergrunds, zum auswählen aus dem Standardsatz von Bildern oder zum Hochladen benutzerdefinierter Bilder, die als Hintergrund verwendet werden sollen. |
 
 > [!NOTE]
 > Bilder, die von Benutzern hochgeladen wurden, werden nicht von Teams angezeigt. Wenn Sie die Einstellung **allfilters** verwenden, sollten Sie über interne Organisationsrichtlinien verfügen, um zu verhindern, dass Benutzer anstößige oder unangemessene Bilder hochladen, oder Bilder, die Ihre Organisation nicht für die Verwendung für Teams-Besprechungs Hintergründe verwendet.

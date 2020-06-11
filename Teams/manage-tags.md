@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209487"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690855"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
@@ -79,6 +79,8 @@ Wenn Sie die Einstellung **Teambesitzer kann überschreiben, wer Tags anwenden k
 
 ## <a name="add-tags-in-teams"></a>Hinzufügen von Tags in Teams
 
-In Teams enthält die Registerkarte **Mitglieder** der Seite "Team verwalten" für ein Team eine Spalte **Tags**. Teambesitzer und -mitglieder können auf **Tags verwalten** neben einem Mitglied klicken, um die Liste der vorgeschlagenen Tags für dieses Mitglied anzuzeigen und der Liste Tags hinzuzufügen (wenn das Feature für sie aktiviert ist).
+Zum Verwalten von Tags Wählen Sie auf der linken Seite der APP **Teams verwalten** aus, und suchen Sie Ihr Team in der Liste. Wählen Sie **Weitere Optionen**aus, und wählen Sie dann **Kategorien verwalten**aus.
 
-![Screenshot zum Anwenden von Tags im Teams-Client  ](media/manage-tags-teams.png) 
+Hier können Sie Kategorien erstellen und Sie Personen in Ihrem Team zuweisen.
+
+![Screenshot zum Anwenden von Tags im Teams-Client  ](media/manage-tags-teams.png)

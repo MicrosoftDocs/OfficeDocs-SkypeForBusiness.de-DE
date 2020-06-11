@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ea5bce539ff178130910297a47add38464e4d4
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558525"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689721"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -79,7 +79,7 @@ Das Ziel des eCDN ist, die Videoinhalte aus dem Internet zu übernehmen und sie 
 - [Ramp](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Teilnehmerumgebung 
-Die Erfahrung der Teilnehmer ist der wichtigste Aspekt von Liveereignissen, und es ist entscheidend, dass die Teilnehmer ohne Probleme daran teilnehmen können. Die Teilnehmerumgebung nutzt den Stream Player (für Ereignisse, die in Teams produziert werden) und den Azure Media Player (für Ereignisse, die in einer externen Anwendung oder einem externen Gerät produziert werden) und funktioniert auf dem Desktop, im Browser und auf mobilen Geräten (iOS, Android). Office 365 bietet Yammer und Teams als zwei Zentren der Zusammenarbeit, und die Liveumgebung der Teilnehmer ist in diese Tools integriert. 
+Die Erfahrung der Teilnehmer ist der wichtigste Aspekt von Liveereignissen, und es ist entscheidend, dass die Teilnehmer ohne Probleme daran teilnehmen können. Die Teilnehmerumgebung nutzt den Stream Player (für Ereignisse, die in Teams produziert werden) und den Azure Media Player (für Ereignisse, die in einer externen Anwendung oder einem externen Gerät produziert werden) und funktioniert auf dem Desktop, im Browser und auf mobilen Geräten (iOS, Android). Microsoft 365 und Office 365 bieten jammern und Teams zwei Zusammenarbeit-Hubs, und die Live-Teilnehmer-Erfahrung ist in diese Tools für die Zusammenarbeit integriert. 
 
 ![Screenshot, der die Teilnehmerumgebung von Liveereignissen zeigt](../media/teams-live-events-attendee.png "Screenshot, der die Teilnehmerumgebung eines Liveereignisses zeigt")
 

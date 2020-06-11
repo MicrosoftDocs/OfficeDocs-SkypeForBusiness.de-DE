@@ -17,12 +17,12 @@ description: Ermitteln Sie, welcher Microsoft Phone System-Anrufplan Ihrer Organ
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905027"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691411"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Welcher Anrufplan ist für Sie am besten geeignet? 
 
@@ -35,8 +35,8 @@ In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Anru
 
 In den folgenden Artikeln finden Sie weitere Informationen zur Bereitstellung und Verwendung von Microsoft-Anrufplänen:
 
-- [Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
-- [Anrufpläne für Office 365](calling-plans-for-office-365.md)
+- [Telefon System in Microsoft 365 oder Office 365](what-is-phone-system-in-office-365.md)
+- [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md)
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
 
 
@@ -52,19 +52,19 @@ Es stehen zwei Arten von Anrufplänen zur Verfügung:
 |Frage|Aktion |
 |------------|-------|
 |Sind Anrufpläne in meinem Gebiet verfügbar? An welchen Speicherorten des Benutzers wird ein Anruf Plan Dienst durchgestellt? | Weitere Informationen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
-Benötigen meine Nutzer Auslandsanrufe? | Weitere Informationen finden Sie unter [Aufrufen von Plänen für Office 365](calling-plans-for-office-365.md). |
+Benötigen meine Nutzer Auslandsanrufe? | Weitere Informationen finden Sie unter [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md). |
 Verfügen meine Benutzer über Anruf Plan Lizenzen? | Informationen zum kaufen und Zuweisen von Lizenzen finden Sie unter [Schritt 2: erwerben und Zuweisen von Lizenzen](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
 Haben meine Benutzer jeweils eine direkte Durchwahl (DID)? | Informationen zum Abrufen von Telefonnummern finden Sie unter [Schritt 3: Abrufen von Telefonnummern](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>Übertragen von Telefonnummern zu Office 365
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Übertragen von Telefonnummern an Microsoft 365 oder Office 365
 
 Es ist einfach, ihre Telefonnummern von Ihrem aktuellen Dienstanbieter in Teams zu übertragen. Nachdem Sie Ihre Telefonnummern in Teams portiert haben, wird Microsoft Ihr Dienstanbieter und berechnet Ihnen diese Telefonnummern. Weitere Informationen finden Sie unter [übertragen von Telefonnummern in Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Telefonnummern und Notfallstandorte
 
-Bei Anrufplänen in Office 365 muss jeder Benutzer in Ihrer Organisation über eine eindeutige direkte Durchwahl (DID)-Telefonnummer und eine entsprechende validierte Notfalladresse verfügen. Sie können auch einen Notfall Standort innerhalb der Notfalladresse angeben (beispielsweise eine Büro-oder Boden Nummer). 
+Bei Anrufplänen in Microsoft 365 oder Office 365 muss jeder Benutzer in Ihrer Organisation über eine eindeutige direkte Durchwahl (DID)-Telefonnummer und eine entsprechende validierte Notfalladresse verfügen. Sie können auch einen Notfall Standort innerhalb der Notfalladresse angeben (beispielsweise eine Büro-oder Boden Nummer). 
 
 |Frage|Aktion |
 |:------------|:-------|

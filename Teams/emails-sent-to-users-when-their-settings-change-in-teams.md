@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Hier erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich ihre Dial-in-Konferenzeinstellungen in Microsoft Teams ändern. '
-ms.openlocfilehash: 4c4668e671b65a7927434a5ad7c9028d673d47b3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 15c35570d509ae69a41e4c6d9522a5a62d32dd59
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042862"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691481"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Microsoft Teams ändern
 
 E-Mails werden automatisch an Benutzer gesendet, die [für Audiokonferenzen aktiviert](set-up-audio-conferencing-in-teams.md) sind und Microsoft als Audiokonferenzanbieter verwenden.
 
-Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen aktivierten Benutzer gesendet werden. Wenn Sie die Anzahl der an die Benutzer gesendeten E-Mails begrenzen möchten, können Sie die E-Mails deaktivieren. Audiokonferenzen in Office 365 sendet in den folgenden Fällen E-Mails an Benutzer:
+Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen aktivierten Benutzer gesendet werden. Wenn Sie die Anzahl der an die Benutzer gesendeten E-Mails begrenzen möchten, können Sie die E-Mails deaktivieren. Audiokonferenzen in Microsoft 365 oder Office 365 senden e-Mail-Nachrichten an die e-Mail-Adresse Ihrer Benutzer:
 
 - **Den Benutzern wird eine Lizenz für Audiokonferenzen zugewiesen, oder Sie ändern den Audiokonferenzanbieter in Microsoft.**
 
@@ -67,7 +67,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
     Dies geschieht, wenn die **Audiokonferenz-** Lizenz von einem Benutzer entfernt wird oder wenn der Audiokonferenz-Anbieter auf **None**festgelegt wird.
 
-    Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Weitere Informationen finden Sie unter [zuweisen oder Entfernen von Lizenzen für Microsoft 365 for Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
     So kann diese E-Mail aussehen:
 
@@ -78,7 +78,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Änderungen an den E-Mail-Nachrichten, die ihnen geschickt werden
 
-Sie können Änderungen an der e-Mail vornehmen, die automatisch an Benutzer gesendet wird. Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können den Anzeigenamen mithilfe von Windows PowerShell ändern. Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
+Sie können Änderungen an der e-Mail vornehmen, die automatisch an Benutzer gesendet wird. Standardmäßig wird der Absender der e-Mails von Microsoft 365 oder Office 365, aber Sie können den Anzeigenamen mithilfe von Windows PowerShell ändern. Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn Sie Benutzern keine E-Mails senden möchten?
 
@@ -106,9 +106,9 @@ Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](ht
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können die e-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell ändern. 
+Standardmäßig wird der Absender der e-Mails von Microsoft 365 oder Office 365, aber Sie können die e-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell ändern. 
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
 
   - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
 

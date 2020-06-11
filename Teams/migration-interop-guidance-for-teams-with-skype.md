@@ -20,19 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 77cee207d885299e6f8a1a90f889c9f661c7383e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638624"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691441"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden
 
 > [!Tip] 
-> Sehen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop) zu erfahren.
+> Schauen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)zu erfahren.
 
 Da eine Organisation mit Skype for Business beginnt, Teams zu übernehmen, können Administratoren die Benutzererfahrung in Ihrer Organisation mithilfe des Konzepts der Koexistenz "Modus" verwalten, bei dem es sich um eine Eigenschaft von TeamsUpgradePolicy handelt. Mithilfe des Modus verwalten Administratoren Interop und Migration, während Sie den Übergang von Skype for Business zu Teams verwalten.  Der Modus eines Benutzers bestimmt, in welchem Client eingehende Chats und Anrufe landen sowie in welchem Dienst (Teams oder Skype for Business) neue Besprechungen geplant sind. Darüber hinaus wird geregelt, welche Funktionen im Team-Client verfügbar sind. 
+
+> [!IMPORTANT]
+> Es kann bis zu 24 Stunden dauern, bis eine Änderung von TeamsUpgradePolicy wirksam wird. Zuvor ist der Anwesenheitsstatus des Benutzers möglicherweise nicht korrekt (kann als **unbekannt**angezeigt werden).
 
 
 ## <a name="fundamental-concepts"></a>Grundlegende Konzepte
@@ -50,7 +53,7 @@ Da eine Organisation mit Skype for Business beginnt, Teams zu übernehmen, könn
 
 5.  Interop zwischen Teams und Skype for Business-Benutzern ist nur möglich, *Wenn der Benutzer von Teams in Skype for Business Online ist*. Der Empfänger Skype for Business-Benutzer kann entweder lokal verwaltet werden (und erfordert die Konfiguration von Skype for Business-Hybrid) oder online. Benutzer, die in Skype for Business lokal gehostet werden, können Teams im Modus "Inseln" (später in diesem Dokument definiert) verwenden, aber Sie können keine Teams für Interop oder Föderation mit anderen Benutzern verwenden, die Skype for Business verwenden.  
 
-6.    Das Upgrade-und Interop-Verhalten wird basierend auf dem Koexistenzmodus eines Benutzers bestimmt, der später weiter unten beschrieben wird. Der Modus wird von TeamsUpgradePolicy verwaltet. 
+6.    Das Upgrade-und Interop-Verhalten wird basierend auf dem Koexistenzmodus eines Benutzers bestimmt, der nachfolgend beschrieben wird. Der Modus wird von TeamsUpgradePolicy verwaltet. 
 
 7.  Durch das Upgrade eines Benutzers auf den TeamsOnly-Modus wird sichergestellt, dass alle eingehenden Chats und Anrufe immer im Team-Client des Benutzers landen, unabhängig davon, von welchem Client er stammt. Diese Benutzer planen auch alle neuen Besprechungen in Teams. Um im TeamsOnly-Modus zu sein, muss ein Benutzer in Skype for Business online sein. Dies ist erforderlich, damit Interop, Federation und die vollständige Verwaltung des Teams-Benutzers sichergestellt sind. So aktualisieren Sie einen Benutzer auf TeamsOnly:
     - Wenn sich der Benutzer in Skype for Business Online befindet (oder nie über ein Skype-Konto verfügt), gewähren Sie ihm TeamsUpgradePolicy mit Mode = TeamsOnly mit der "UpgradeToTeams"-Instanz mithilfe von PowerShell, oder verwenden Sie das Team Admin Center, um den TeamsOnly-Modus auszuwählen.
@@ -107,6 +110,9 @@ Die Modi sind im folgenden aufgeführt.
 
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy: Verwalten von Migration und Koexistenz
+
+> [!IMPORTANT]
+> Es kann bis zu 24 Stunden dauern, bis eine Änderung von TeamsUpgradePolicy wirksam wird. Zuvor ist der Anwesenheitsstatus des Benutzers möglicherweise nicht korrekt (kann als **unbekannt**angezeigt werden).
 
 TeamsUpgradePolicy macht zwei wichtige Eigenschaften verfügbar: Mode und NotifySfbUsers. 
 </br>

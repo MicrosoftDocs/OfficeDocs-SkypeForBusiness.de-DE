@@ -17,12 +17,12 @@ f1.keywords:
 description: Direkte Routing Protokolle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780684"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691221"
 ---
 # <a name="direct-routing---sip-protocol"></a>Direct Routing – SIP-Protokoll
 
@@ -30,7 +30,7 @@ In diesem Artikel wird beschrieben, wie das direkte Routing das Session Initiati
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>Verarbeiten der eingehenden Anforderung: Suchen des Mandanten und des Benutzers
 
-Bei einem eingehenden Anruf muss der SIP-Proxy den Mandanten finden, zu dem der Anruf bestimmt ist, und den jeweiligen Nutzer innerhalb dieses Mandanten finden. Der mandantenadministrator kann nicht-DID-Nummern konfigurieren, beispielsweise + 1001, in mehreren Mandanten. Daher ist es wichtig, den jeweiligen Mandanten zu finden, für den die Nummernsuche durchgeführt werden soll, da die nicht-DID-Nummern in mehreren Office 365-Organisationen identisch sein können.  
+Bei einem eingehenden Anruf muss der SIP-Proxy den Mandanten finden, zu dem der Anruf bestimmt ist, und den jeweiligen Nutzer innerhalb dieses Mandanten finden. Der mandantenadministrator kann nicht-DID-Nummern konfigurieren, beispielsweise + 1001, in mehreren Mandanten. Daher ist es wichtig, den jeweiligen Mandanten zu finden, für den die Nummernsuche durchgeführt werden soll, da die nicht-DID-Nummern in mehreren Microsoft 365-oder Office 365-Organisationen identisch sein können.  
 
 In diesem Abschnitt wird beschrieben, wie der SIP-Proxy den Mandanten und den Benutzer findet und die Authentifizierung des SBC für die eingehende Verbindung ausführt.
 
@@ -56,11 +56,11 @@ Beim Empfang der Einladung führt der SIP-Proxy die folgenden Schritte aus:
 
 2. Versuchen Sie, einen Mandanten mit dem vollständigen FQDN-Namen zu finden, der in der Kontakt Kopfzeile dargestellt wird.  
 
-   Überprüfen Sie, ob der FQDN-Name aus der Kontakt Kopfzeile (sbc1.adatum.biz) in einer beliebigen Office 365-Organisation als DNS-Name registriert ist. Wenn Sie gefunden wird, wird die Suche des Benutzers im Mandanten durchgeführt, auf dem der SBC-FQDN als Domänenname registriert ist. Wenn Sie nicht gefunden wird, gilt Schritt 3.   
+   Überprüfen Sie, ob der FQDN-Name aus der Kontakt Kopfzeile (sbc1.adatum.biz) in einer Microsoft 365-oder Office 365-Organisation als DNS-Name registriert ist. Wenn Sie gefunden wird, wird die Suche des Benutzers im Mandanten durchgeführt, auf dem der SBC-FQDN als Domänenname registriert ist. Wenn Sie nicht gefunden wird, gilt Schritt 3.   
 
 3. Schritt 3 gilt nur, wenn Schritt 2 fehlgeschlagen ist. 
 
-   Entfernen Sie den Host Anteil aus dem FQDN, der in der Kontakt Kopfzeile (FQDN: sbc12.adatum.biz nach dem Entfernen des Host Abschnitts: adatum.biz) angezeigt wird, und überprüfen Sie, ob dieser Name in einer beliebigen Office 365-Organisation als DNS-Name registriert ist. Wenn Sie gefunden wird, wird die Benutzersuche in diesem Mandanten ausgeführt. Wenn nicht gefunden, schlägt der Anruf fehl.
+   Entfernen Sie den Host Anteil aus dem FQDN, der in der Kontakt Kopfzeile (FQDN: sbc12.adatum.biz nach dem Entfernen des Host Abschnitts: adatum.biz) angezeigt wird, und überprüfen Sie, ob dieser Name in einer beliebigen Microsoft 365-oder Office 365-Organisation als DNS-Name registriert ist. Wenn Sie gefunden wird, wird die Benutzersuche in diesem Mandanten ausgeführt. Wenn nicht gefunden, schlägt der Anruf fehl.
 
 4. Führen Sie mit der im Anforderungs-URI vorgestellten Telefonnummer die umgekehrte Nummernsuche innerhalb des Mandanten durch, der in Schritt 2 oder 3 gefunden wurde. Vergleichen Sie die vorgestellten Telefonnummern mit einem SIP-URI des Benutzers innerhalb des Mandanten, der im vorherigen Schritt gefunden wurde.
 
@@ -82,7 +82,7 @@ Dieser Name muss sich auch im Feld "allgemeiner Name" oder "alternativer Antrags
 
 Die Unterstützung für Platzhalter wird in [RFC 2818, Abschnitt 3,1,](https://tools.ietf.org/html/rfc2818#section-3.1)beschrieben. Speziell
 
-*"Namen können das Platzhalterzeichen \* enthalten, das als Übereinstimmung mit einer einzelnen domänennamenkomponente oder einem Komponenten Fragment angesehen wird. A.com entspricht Beispiels \*Weise foo.a.com, aber nicht Bar.foo.a.com. f\*. com entspricht foo.com, aber nicht Bar.com. "*
+*"Namen können das Platzhalterzeichen enthalten, \* das als Übereinstimmung mit einer einzelnen domänennamenkomponente oder einem Komponenten Fragment angesehen wird. \*A.com entspricht beispielsweise foo.a.com, aber nicht Bar.foo.a.com. f \* . com, entspricht foo.com, aber nicht Bar.com. "*
 
 Wenn mehr als ein Wert in der in einer SIP-Nachricht vorgestellten Kontakt Kopfzeile vom SBC gesendet wird, wird nur der FQDN-Teil des ersten Werts des Contact-Headers verwendet.
 

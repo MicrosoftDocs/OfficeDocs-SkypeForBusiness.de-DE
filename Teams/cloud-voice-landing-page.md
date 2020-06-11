@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Cloud-VoIP-Funktion, und verstehen Sie die erforderlichen Bereitstellungsentscheidungen, denen Sie gegenüberstehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281670"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690791"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
@@ -43,7 +43,7 @@ Wir empfehlen, dass alle Organisationen die grundlegenden Entscheidungen treffen
 
 In den folgenden Artikeln finden Sie weitere Informationen zur Bereitstellung und Verwendung von Cloud-Sprachfeatures in Teams:
 
-- [Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
+- [Telefon System in Microsoft 365 oder Office 365](what-is-phone-system-in-office-365.md)
 - [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)
 - [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 - [Cloud Voice-Bereitstellung](cloud-voice-deployment.md)
@@ -57,12 +57,12 @@ Dies sind die Einstellungen, deren Änderung in den meisten Organisationen sinnv
 
 ## <a name="phone-system-office-365"></a>Telefon System (Office 365)
 
-Telefon System ist die Microsoft-Technologie für die Aktivierung der Anrufsteuerung und der Funktionen für Private Branch Exchange (PBX) in der Office 365-Cloud. Mit dem Telefonsystem können Sie Ihr vorhandenes Private Branch Exchange (PBX)-System durch eine Reihe von Features ersetzen, die direkt von Office 365 bereitgestellt werden und eng in die Cloud-Produktivitäts Erfahrung des Unternehmens integriert sind.
+Telefon System ist die Microsoft-Technologie für die Aktivierung der Anrufsteuerung und der Funktionen für Private Branch Exchange (PBX) in der Microsoft 365-oder Office 365-Cloud. Mit dem Telefonsystem können Sie Ihr vorhandenes Private Branch Exchange (PBX)-System durch eine Reihe von Features ersetzen, die direkt von Microsoft 365 oder Office 365 bereitgestellt und eng in die Cloud-Produktivitäts Erfahrung des Unternehmens integriert sind.
 
 
 |Frage|Aktion |
 |:------------|:-------|
-|An welchen Speicherorten oder Büros wird das Telefon System implementiert? |Weitere Informationen zum Telefonsystem finden Sie unter [Was ist Telefonsystem in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|An welchen Speicherorten oder Büros wird das Telefon System implementiert? |Weitere Informationen zum Telefonsystem finden Sie unter [Was ist Telefonsystem in Microsoft 365 oder Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Verbindung mit dem öffentlich geschalteten Telefonnetz (PSTN)
@@ -120,7 +120,7 @@ Wie kann ich vorhandene Telefonnummern an Teams portieren?|Weitere Informationen
 
 ### <a name="dial-plans"></a>Wählpläne
 
-Ein Wählplan in der Telefon System Funktion von Office 365 ist eine Reihe von Normalisierungsregeln, die gewählte Telefonnummern in ein alternatives Format (normalerweise E. 164-Format) für die Anruf Autorisierung und das Anrufrouting übersetzen.
+Ein Wählplan in der Telefon System Funktion von Microsoft 365 oder Office 365 ist eine Reihe von Normalisierungsregeln, die gewählte Telefonnummern in ein alternatives Format (normalerweise E. 164-Format) für die Anruf Autorisierung und das Anrufrouting übersetzen.
 
 Weitere Informationen zu Wählplänen finden Sie unter [Was sind Wählpläne?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans).
 

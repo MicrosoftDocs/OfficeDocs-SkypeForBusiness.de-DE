@@ -13,22 +13,22 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Sie sollten überprüfen, ob der Teams-Dienst und andere Office 365-Komponenten wie Exchange, SharePoint und OneDrive for Business fehlerfrei sind.
+description: Es empfiehlt sich, zu überprüfen, ob der Team Dienstfehler frei ist, sowie andere Microsoft 365-oder Office 365-Komponenten wie Exchange, SharePoint und OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 219c484b4bf8eff35d78966820a3002e55aecbb7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706575"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690171"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Überprüfen der Dienstintegrität für Microsoft Teams
 ===========================================
 
-Der Dienststatus für Microsoft Teams wird im Microsoft 365 Admin Center angezeigt. Bevor Sie Probleme beheben können, sollten Sie sicherstellen, dass der Team Dienstfehler frei ist.
+Der Dienststatus für Microsoft Teams wird im Microsoft 365 Admin Center angezeigt. Bevor Sie Probleme beheben können, sollten Sie sicherstellen, dass der Team Dienstfehler frei ist. Wechseln Sie zur <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Team Dienst-Integritäts</a> Konsole, um den Dienststatus zu überprüfen.
 
-Bedenken Sie auch, dass Microsoft Teams auf zusätzlichen Office 365-Diensten aufbaut. Denken Sie also bei der Überprüfung der Dienstintegrität daran, auch den Status von Exchange, SharePoint und OneDrive for Business zu überprüfen. Dienstintegritätsprobleme bei diesen anderen Diensten wirken sich nicht zwangsläufig auf Teams aus (zum Beispiel, wenn Adressbuchdownloads in Exchange nicht verfügbar sind). Dennoch sollten Sie die Empfehlungen für diese betroffenen Dienste lesen, um zu ermitteln, ob sich Auswirkungen auf Microsoft Teams ergeben.
+Beachten Sie außerdem, dass Microsoft Teams auf zusätzlichen Microsoft 365-oder Office 365-Diensten basiert, damit Sie bei der Suche nach Dienststatus auch den Status von Exchange, SharePoint und OneDrive for Business überprüfen können. Dienst Integritätsprobleme für diese anderen Dienste bedeuten nicht automatisch, dass Teams betroffen sind (beispielsweise sind Adressbuch Downloads in Exchange nicht verfügbar), aber Sie sollten die Hinweise für diese betroffenen Dienste überprüfen, um festzustellen, ob es Auswirkungen auf Microsoft Teams gibt.
 
 ![Screenshot der Seite „Dienststatus“](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 

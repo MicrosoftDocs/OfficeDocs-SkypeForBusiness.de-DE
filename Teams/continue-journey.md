@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522808"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689461"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Effektives Verwenden von Microsoft Teams
 
@@ -48,7 +48,7 @@ Der Status Ihres Netzwerks hat Auswirkungen auf die Benutzeroberfläche. Wenn ei
 Um maximale Vorteile und geschäftliche Ergebnisse mit Teams zu erzielen, müssen die Benutzer Sie tatsächlich verwenden. Die anfängliche Erregung neigt jedoch dazu, zu schwinden, und die Benutzer können problemlos auf alte Arbeitsweisen zurückgreifen. Ermutigen Sie die Benutzerakzeptanz und sorgen Sie für Teams mit einem andauernden Adoptions Plan, der Folgendes umfassen kann:
 
 - Eintragen von Peer-Champions, um andere Nutzer zu evangelisieren und zu ermutigen.
-- Lesen Sie den [Leitfaden zur Einführung von Office 365](https://go.microsoft.com/fwlink/?linkid=859045) , um Tipps zur Steigerung des Engagements und zur Einführung des Verhaltens zu haben.
+- Überprüfen des [Microsoft 365-Einführungsleitfadens](https://go.microsoft.com/fwlink/?linkid=859045) für Tipps zur Steigerung des Engagements und zur Einführung in die Einführung.
 - Nutzung des [Teams-kundenerfolgs Kits](https://aka.ms/TeamsCustomerSuccess) zur Verbesserung des Bekanntheitsgrads und zum Austausch bewährter Methoden.
 - Implementierung einer formellen [Adoptions-und Change-Management-Strategie](http://www.successwithteams.com/) zur Unterstützung des Akzeptanz Wachstums.
 

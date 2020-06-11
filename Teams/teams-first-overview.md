@@ -11,33 +11,33 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: Verwenden Sie diese Anleitung, um Microsoft Teams als erste Office 365-Arbeitsauslastung zu verwenden.
+description: Verwenden Sie diese Anleitung, um Microsoft Teams als erste Microsoft 365-oder Office 365-Arbeitsauslastung zu verwenden.
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472346"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691001"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams zuerst Ausrollen
 
-Microsoft Teams können Ihren Mitarbeitern helfen, in Verbindung zu bleiben und miteinander zusammenzuarbeiten, insbesondere in der aktuellen, noch nie dagewesenen Zeit, in der Remote-Arbeit eine Realität von Mitarbeitern in aller Welt ist. Die Möglichkeit zum chatten, für Videobesprechungen und für die Zusammenarbeit an Office-Dokumenten innerhalb von Teams kann Unternehmen dabei helfen, produktiv zu bleiben. Unabhängig davon, ob Sie ein kleines Unternehmen, eine gemeinnützige Organisation oder eine große Organisation sind, können Sie die ersten Schritte mit Microsoft Teams als erste Arbeitsauslastung in Office 365 Suite ausführen, bevor Sie eine andere Office-App oder einen anderen Dienst bereitstellen.
+Microsoft Teams können Ihren Mitarbeitern helfen, in Verbindung zu bleiben und miteinander zusammenzuarbeiten, insbesondere in der aktuellen, noch nie dagewesenen Zeit, in der Remote-Arbeit eine Realität von Mitarbeitern in aller Welt ist. Die Möglichkeit zum chatten, für Videobesprechungen und für die Zusammenarbeit an Office-Dokumenten innerhalb von Teams kann Unternehmen dabei helfen, produktiv zu bleiben. Unabhängig davon, ob Sie ein kleines Unternehmen, eine gemeinnützige Organisation oder eine große Organisation sind, können Sie die ersten Schritte mit Teams als erste Arbeitsauslastung in Microsoft 365 oder Office 365 Suite ausführen, bevor Sie eine andere Office-App oder einen anderen Dienst bereitstellen.
 
 In diesem Artikel werden die Überlegungen erläutert, die Sie mit dem Ansatz "Teams First" vornehmen müssen.
 
 > [!IMPORTANT]
 > Während Teams die erste in der Cloud bereitgestellte Arbeitsauslastung in Ihrer Organisation sein können, sollten die Bereitstellung von Teams Teil ihrer allgemeinen Cloud-Bereitstellungsstrategie sein.
 
-Wenn Sie bereits andere Office 365-Dienste und-Teams für die nächste Arbeitsauslastung bereitstellen (statt der ersten), beginnen Sie mit dem [Rollout von Teams](How-to-roll-out-teams.md).
+Wenn Sie bereits andere Microsoft 365-oder Office 365-Dienste bereitstellen und Teams die nächste Arbeitsauslastung für das Rollout (statt des ersten) haben, beginnen Sie mit dem [Rollout von Teams](How-to-roll-out-teams.md).
 
 ## <a name="start-here"></a>Hier geht’s los
 
 Für den Einstieg in die erste Bereitstellung Ihrer Teams müssen Sie mindestens einige Voraussetzungen erfüllen. In der folgenden Liste wird gezeigt, was für Ihre Organisation vorhanden sein muss, bevor Teams aktiviert werden können:
 
-1.  Eine Office 365-Organisation, die mit Ihrem Domänennamen konfiguriert ist
+1.  Eine Microsoft 365-oder Office 365-Organisation, die mit Ihrem Domänennamen konfiguriert ist
 
 2.  Azure Active Directory Connectivity (AAD Connect) oder ähnliche Cloud Identity Sync-Lösung – mit allen erforderlichen Attributen, die mit Ihrem Mandanten synchronisiert sind  
     Informationen zu den mit der Aad-Synchronisierung synchronisierten Attributen finden Sie unter [Azure AD Connect-Synchronisierung: Attribute, die mit Azure Active Directory synchronisiert](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized) werden.
@@ -48,7 +48,7 @@ Für den Einstieg in die erste Bereitstellung Ihrer Teams müssen Sie mindestens
 4.  Netzwerk der Organisation für Teams vorbereitet  
     Wenn Sie die Netzwerk Vorbereitung verstehen möchten, lesen Sie [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md).
 
-5.  Erlauben Sie den Netzwerkzugriff auf Exchange, SharePoint und OneDrive for Business in Office 365: [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+5.  Erlauben Sie den Netzwerkzugriff auf Exchange, SharePoint und OneDrive for Business in Microsoft 365 oder Office 365: [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > Mandanten, die nach dem 1. September 2019 erstellt wurden, werden im Modus "nur für Teams" bereitgestellt.
@@ -58,7 +58,7 @@ Für den Einstieg in die erste Bereitstellung Ihrer Teams müssen Sie mindestens
 
 ## <a name="migration-starting-points"></a>Migrations Ausgangspunkte
 
-Ihre Reise zu Office 365 und Features, die in Teams je nach Ausgangspunkt und vorhanden sein von Skype for Business-oder lync Server-Räumlichkeiten verfügbar sind. In den folgenden Abschnitten werden die grundlegenden Funktionen und Konfigurationsoptionen zusätzlich zu den oben genannten Voraussetzungen ausführlich erläutert. Wir haben die Ausgangs Szenarien für die folgenden Themen aufgeschlüsselt:
+Ihre Reise zu Microsoft 365 oder Office 365 und Funktionen, die in Teams je nach Ausgangspunkt und vorhanden sein von lokalen Skype for Business-oder lync-Servern verfügbar sind. In den folgenden Abschnitten werden die grundlegenden Funktionen und Konfigurationsoptionen zusätzlich zu den oben genannten Voraussetzungen ausführlich erläutert. Wir haben die Ausgangs Szenarien für die folgenden Themen aufgeschlüsselt:
 
 **Mandanten Teams-Konfiguration**: Mandanten-und Benutzermodi werden verwendet, um das Verhalten des Empfängers zu steuern. Diese Einstellungen können auf der Mandantenebene oder auf der Benutzerebene einer Organisation zugewiesen werden. Weitere Informationen finden Sie unter [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md).
 
@@ -88,7 +88,7 @@ Lesen Sie, [wie Exchange und Microsoft Teams interagieren](exchange-teams-intera
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>Organisationen **<span class="underline">ohne</span>** Skype for Business oder lync Server
 
-Bei diesem Ausgangspunkt wird davon ausgegangen, dass Ihre Organisation Skype for Business oder lync Server zurzeit nicht verwendet und Teams ihre erste Anwendung in Office 365 sein werden. In der folgenden Tabelle sind die Funktionen für Konfiguration und Endbenutzer auf hoher Ebene für Teams für Core Services detailliert beschrieben.
+Bei diesem Ausgangspunkt wird davon ausgegangen, dass Ihre Organisation Skype for Business oder lync Server zurzeit nicht verwendet und Teams ihre erste Anwendung in Microsoft 365 oder Office 365 sind. In der folgenden Tabelle sind die Funktionen für Konfiguration und Endbenutzer auf hoher Ebene für Teams für Core Services detailliert beschrieben.
 
 <table>
 <thead>
@@ -104,9 +104,9 @@ Bei diesem Ausgangspunkt wird davon ausgegangen, dass Ihre Organisation Skype fo
 </tr>
 <tr class="even">
 <td>Chat/externe Kommunikation in Teams</td>
-<td><p>Interne (Intra Office 365 Organization) und externe Chat Kommunikation von Teams aus möglich</p>
-<p><em>Hinweis: DNS-Einträge müssen für den externen Zugriff konfiguriert sein. Skype for Business-DNS-Einträge werden benötigt, auch wenn Sie nicht über Skype for Business lokal oder in Office 365 verfügen, um eine Föderation mit lync-und Skype for Business-Umgebungen zu ermöglichen.<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Externe Domänennamen-System Einträge für Office 365</a></em></p></td>
+<td><p>Interne (Intra Microsoft 365-oder Office 365-Organisation) und Kommunikation über externe Chats von Teams aus möglich</p>
+<p><em>Hinweis: DNS-Einträge müssen für den externen Zugriff konfiguriert sein. Skype for Business-DNS-Einträge werden benötigt, auch wenn Sie nicht über Skype for Business lokal oder in Microsoft 365 oder Office 365 verfügen, um eine Föderation mit lync-und Skype for Business-Umgebungen zu ermöglichen.<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">System Einträge für externe Domänennamen</a></em></p></td>
 </tr>
 <tr class="odd">
 <td><em>Erstellen und Anzeigen von Besprechungen in Teams</em></td>
@@ -162,11 +162,11 @@ Weitere Informationen finden Sie hier: <a href="https://docs.microsoft.com/micro
     
     [Prüfliste für den Schnellstart der Microsoft Teams-Einführung](teams-adoption-quick-start-checklist.md)
 
-6.  Planen des Verschiebens anderer Arbeitslasten in Office 365
+6.  Planen des Verschiebens anderer Arbeitslasten nach Microsoft 365 oder Office 365
 
 ## <a name="organizations-span-classunderlinewithspan-skype-for-business-or-lync-server"></a>Organisationen **<span class="underline">mit</span>** Skype for Business oder lync Server
 
-Dieser Ausgangspunkt setzt voraus, dass Ihre Organisation Skype for Business 2019 oder 2015 + oder lync 2013 + Server lokal verwendet. Wir verfügen bereits über umfassende Anleitungen für Organisationen, die von lokalen Servern zu Teams migrieren, und es sollte für diese Szenarien befolgt werden. Diese Anleitung beruht auf dem Szenario, in dem Teams die erste Anwendung sind, die Sie in Office 365 verwenden. In der folgenden Tabelle sind die Funktionen für Konfiguration und Endbenutzer auf hoher Ebene für Teams für Core Services detailliert beschrieben.
+Dieser Ausgangspunkt setzt voraus, dass Ihre Organisation Skype for Business 2019 oder 2015 + oder lync 2013 + Server lokal verwendet. Wir verfügen bereits über umfassende Anleitungen für Organisationen, die von lokalen Servern zu Teams migrieren, und es sollte für diese Szenarien befolgt werden. Diese Anleitung beruht auf dem Szenario, in dem Teams die erste Anwendung sind, die Sie in Microsoft 365 oder Office 365 verwenden. In der folgenden Tabelle sind die Funktionen für Konfiguration und Endbenutzer auf hoher Ebene für Teams für Core Services detailliert beschrieben.
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Weitere Informationen finden Sie hier: <a href="https://docs.microsoft.com/micro
     [Einführen von Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Prüfliste für den Schnellstart der Microsoft Teams-Einführung](teams-adoption-quick-start-checklist.md)
 
-6.  Planen des Verschiebens anderer Arbeitslasten in Office 365
+6.  Planen des Verschiebens anderer Arbeitslasten nach Microsoft 365 oder Office 365
 
 7.  Einrichten von Skype for Business-Hybriden und befolgen der empfohlenen Upgrade-Pfade für Skype for Business-und lync-Server  
     [Upgrade von Skype for Business lokal in Teams](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
@@ -275,7 +275,7 @@ Darüber hinaus haben wir als Unternehmen in der ganzen Welt die aktuelle COVID-
 
 ## <a name="support-services-reference"></a>Referenz zu Support Diensten
 
-Teams sind auf Exchange Online, SharePoint Online, OneDrive for Business und Microsoft 365-Gruppen angewiesen, um Ihren Benutzern eine vollständig integrierte Office 365-Benutzeroberfläche bereitzustellen. Wie bereits erwähnt, funktionieren Teams ohne vollständige bereitstellungdieser Dienste – mit eingeschränkten Funktionen. Weitere Informationen zu Teams und seinen Voraussetzungen finden Sie hier: [Willkommen bei Teams](teams-overview.md).
+Teams sind auf Exchange Online, SharePoint Online, OneDrive for Business und Microsoft 365-Gruppen angewiesen, um Ihren Benutzern eine vollständig integrierte Microsoft 365-oder Office 365-Benutzeroberfläche bereitzustellen. Wie bereits erwähnt, funktionieren Teams ohne vollständige bereitstellungdieser Dienste – mit eingeschränkten Funktionen. Weitere Informationen zu Teams und seinen Voraussetzungen finden Sie hier: [Willkommen bei Teams](teams-overview.md).
 
 Einzelheiten zu den oben aufgeführten Diensten finden Sie unter den folgenden Links:
 
@@ -297,4 +297,4 @@ Einzelheiten zu den oben aufgeführten Diensten finden Sie unter den folgenden L
 
 [Unterstützen von Remotemitarbeitern mithilfe von Teams](support-remote-work-with-teams.md)
 
-[Remotearbeit mit Office 365](https://aka.ms/remote-work)
+[Remote arbeiten mit Microsoft 365](https://aka.ms/remote-work)

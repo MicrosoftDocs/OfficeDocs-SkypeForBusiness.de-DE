@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902880"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689651"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================
@@ -36,7 +36,7 @@ Lesen Sie die Ankündigung vom 12. Dezember 2017 zu Anrufplänen in Microsoft 
 > [!NOTE]
 > Wir empfehlen, dass Sie parallel zu diesem Schnellstarthandbuch das [Telefon System mit Anrufplänen](calling-plan-landing-page.md) und Kurzübersicht lesen [, um einen](https://aka.ms/cloudvoice) erfolgreichen Rollout zu planen und voranzutreiben.
 
-Durch Hinzufügen von Anrufplänen – einer Office 365-Funktion, die von Skype for Business unterstützt wird – können Sie jetzt mit Microsoft Teams Festnetz- und Mobiltelefone über das Telefonfestnetz (Public Switched Telephone Network, PSTN) anrufen oder von diesen angerufen werden.
+Durch das Hinzufügen von Anrufplänen – einem Microsoft 365-und Office 365-Feature, das von Skype for Business unterstützt wird – können Sie über das öffentlich geschaltete Telefonnetz (PSTN) jetzt mit Teams Telefonanrufe an Festnetz-und Mobilfunkanschlüsse tätigen und empfangen.
 
 ![Screenshot mit der Seite "Kontakte" in Microsoft Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Voraussetzungen für das Aktivieren der Registerkarte **Anrufe** in Microsoft Teams

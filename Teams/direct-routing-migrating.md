@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Informationen dazu, wie Sie aus der Ansicht einer Skype for Business Online- und Teams-Konfiguration zu Direct Routing migrieren können.
-ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888584"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691361"
 ---
 # <a name="migrate-to-direct-routing"></a>Migration zu Direct Routing
 
 In diesem Artikel wird beschrieben, wie Sie aus der Ansicht einer Skype for Business Online- und einer Microsoft Teams-Konfiguration zu Direct Routing migrieren können. Dieser Artikel behandelt die Migration zu Direct Routing ausgehend von den folgenden Konfigurationen: 
  
-- Office 365-Telefonsystem mit Anrufplänen (für Teams und Skype for Business Online) 
-- Office 365 Telefonsystem mit lokaler Festnetzanbindung (PSTN) über den Skype for Business-Server (für Skype for Business Online)  
-- Office 365 Telefonsystem mit lokaler Festnetzanbindung (PSTN) mittels der Cloud Connector Edition (für Skype for Business Online)
+- Telefon System mit Anrufplänen (für Teams und Skype for Business Online) 
+- Telefon System mit lokales PSTN-Konnektivität in Skype for Business Server (für Skype for Business Online)  
+- Telefon System mit lokalem PSTN-Konnektivität mithilfe der Cloud Connector Edition (für Skype for Business Online)
 
 
 Zusätzlich zu diesen Konfigurationsschritten ist auch die Konfiguration im Session Border Controller (SBC) erforderlich, um Anrufe auf die neue Verbindung umzuleiten. Dies ist nicht Inhalt dieses Dokuments. Weitere Informationen hierzu finden Sie in der Dokumentation Ihres SBC-Herstellers.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Endstatus der Benutzer-Bereitstellung für verschiedene Optionen von Festnetzanbindungen (PSTN-Konnektivität) 
 
-Die folgende Tabelle zeigt den Endstatus der für einen Benutzer bereitgestellten Informationen für die jeweils ausgewählte Festnetzanbindung (PSTN-Konnektivitätsoption) mit Office 365 Telefonsystem. Es werden ausschließlich die für die Sprachausgabe relevanten Attribute angezeigt.
+Die folgende Tabelle zeigt den Endstatus für einen Benutzer, der für die ausgewählten PSTN-Verbindungsoptionen mit dem Telefon System bereitgestellt wurde. Es werden ausschließlich die für die Sprachausgabe relevanten Attribute angezeigt.
 
 |Benutzerspezifische Objektattribute |Telefonsystem mit Anrufplänen|Telefonsystem mit lokaler Festnetzanbindung über den Skype for Business Server|Telefonsystem mit lokaler Festnetzanbindung über den Cloud Connector|Telefonsystem mit lokaler Festnetzanbindung über Direct Routing|
 |---|---|---|---|---|
