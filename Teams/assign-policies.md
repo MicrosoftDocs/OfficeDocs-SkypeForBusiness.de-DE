@@ -18,12 +18,12 @@ description: Informieren Sie sich über die verschiedenen Möglichkeiten, wie Si
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 1c8c6700ced98cad815c0e30a3afe3e40ae85b33
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698285"
+ms.locfileid: "44702730"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams
 
@@ -34,7 +34,7 @@ Als Administrator verwenden Sie Richtlinien, um die Teamfunktionen zu steuern, d
 
 Organisationen verfügen über unterschiedliche Arten von Benutzern mit eindeutigen Anforderungen und benutzerdefinierten Richtlinien, die Sie erstellen und zuweisen, damit Sie die Richtlinieneinstellungen basierend auf den Anforderungen an unterschiedliche Benutzergruppen anpassen können.
 
-Um das Verwalten von Richtlinien in Ihrer Organisation zu vereinfachen, bietet Teams verschiedene Möglichkeiten, Richtlinien für Benutzer zuzuweisen. Sie können Benutzern eine Richtlinie entweder einzeln oder im Maßstab über eine Batch Zuordnung oder einer Gruppe, der der Benutzer angehört, direkt zuweisen. Sie können auch Richtlinien Pakete verwenden, um Benutzern in Ihrer Organisation, die über ähnliche Rollen verfügen, eine vordefinierte Sammlung von Richtlinien zuzuweisen. Die von Ihnen ausgewählte Option richtet sich nach der Anzahl der Richtlinien, die Sie verwalten, und der Anzahl der Benutzer, denen Sie zuweisen.
+Um das Verwalten von Richtlinien in Ihrer Organisation zu vereinfachen, bietet Teams verschiedene Möglichkeiten, Richtlinien für Benutzer zuzuweisen. Sie können Benutzern eine Richtlinie entweder einzeln oder im Maßstab über eine Batch Zuordnung oder einer Gruppe, der die Benutzer angehören, direkt zuweisen. Sie können auch Richtlinien Pakete verwenden, um Benutzern in Ihrer Organisation, die über ähnliche Rollen verfügen, eine vordefinierte Sammlung von Richtlinien zuzuweisen. Die von Ihnen ausgewählte Option richtet sich nach der Anzahl der Richtlinien, die Sie verwalten, und der Anzahl der Benutzer, denen Sie zuweisen. Wenn Sie die globalen Standardrichtlinien (org-Wide) so festlegen, dass Sie auf die größte Anzahl von Benutzern in Ihrer Organisation angewendet werden, müssen Sie nur solchen Benutzern Richtlinien zuweisen, für die spezielle Richtlinien erforderlich sind.
 
 In diesem Artikel werden die verschiedenen Möglichkeiten beschrieben, wie Sie Benutzern Richtlinien zuweisen können, sowie die empfohlenen Szenarien für die Verwendung von was.
 
@@ -62,6 +62,8 @@ Weitere Informationen finden Sie unter [Prioritätsregeln](#precedence-rules).
 
 Im folgenden finden Sie eine Übersicht über die Methoden zum Zuweisen von Richtlinien zu Benutzern sowie zu den empfohlenen Szenarien für die einzelnen Benutzer. Klicken Sie auf die Links, um weitere Informationen zu erhalten.
 
+Bevor Sie einzelnen Benutzern oder Gruppen Richtlinien zuweisen, müssen Sie zunächst [die globalen (organisationsweiten Standard-) Richtlinien festlegen](#set-the-global-policies) , damit Sie auf die größte Anzahl von Benutzern in Ihrer Organisation angewendet werden.  Nachdem die globalen Richtlinien festgesetzt sind, müssen Sie nur solchen Benutzern Richtlinien zuweisen, für die spezielle Richtlinien erforderlich sind.
+
 |Vorgehensweise  |Wenn...  | Verwenden von...
 |---------|---------|----|
 |[Zuweisen einer Richtlinie für einzelne Benutzer](#assign-a-policy-to-individual-users)    | Sie sind neu bei Microsoft Teams und haben gerade erst begonnen, oder Sie müssen nur einer kleinen Anzahl von Benutzern eine oder mehrere Richtlinien zuweisen. |Das Microsoft Teams Admin Center oder PowerShell-Cmdlets im Skype for Business Online PowerShell-Modul
@@ -70,6 +72,50 @@ Im folgenden finden Sie eine Übersicht über die Methoden zum Zuweisen von Rich
 |[Zuweisen einer Richtlinie zu einer Gruppe](#assign-a-policy-to-a-group) (in der Vorschau)   |Sie müssen Richtlinien basierend auf der Gruppenmitgliedschaft eines Benutzers zuweisen. So möchten Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Organisationseinheit eine Richtlinie zuweisen.| PowerShell-Cmdlets im PowerShell-Modul von Teams|
 | [Zuweisen eines Richtlinienpakets zu einem Benutzer Batch](#assign-a-policy-package-to-a-batch-of-users)|Sie müssen einem Batch von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zuweisen. Weisen Sie beispielsweise das Richtlinienpaket Education (Teacher) allen Lehrern in ihrer Schule mithilfe der Batch Zuweisung zu, damit Sie Vollzugriff auf Chats, Anrufe und Besprechungen erhalten und das Richtlinienpaket Education (Secondary School Student) einem Batch von sekundären Kursteilnehmern zuweisen können, um bestimmte Funktionen wie private Anrufe zu begrenzen.|PowerShell-Cmdlets im PowerShell-Modul von Teams|
 | Zuweisen eines Richtlinienpakets zu einer Gruppe (in Kürze verfügbar)   | ||
+
+## <a name="set-the-global-policies"></a>Globale Richtlinien einrichten
+
+Führen Sie die folgenden Schritte aus, um die globalen (org-weiten Standardrichtlinien) für die einzelnen Richtlinientypen zu definieren.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
+
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zur Seite Richtlinie für den Richtlinientyp, den Sie aktualisieren möchten. Beispielsweise *Teams > Teams-Richtlinien* oder *Besprechungen > Besprechungsrichtlinien* oder *Messaging Richtlinien* oder *VoIP->-Anruf Richtlinien*.
+2. Wählen Sie die **globale (org-Wide Standard)-** Richtlinie aus, um die aktuellen Einstellungen anzuzeigen.
+3. Aktualisieren Sie die Richtlinie nach Bedarf, und wählen Sie dann **Speichern**aus.
+
+### <a name="using-powershell"></a>Verwendung von PowerShell
+
+Verwenden Sie den globalen Bezeichner, um die globalen Richtlinien mithilfe von PowerShell einzurichten.  Überprüfen Sie zunächst die aktuelle globale Richtlinie, um festzustellen, welche Einstellung Sie ändern möchten.
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+Aktualisieren Sie als nächstes die globale Richtlinie nach Bedarf.  Sie müssen nur Werte für die Einstellungen angeben, die Sie ändern möchten. 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## <a name="assign-a-policy-to-individual-users"></a>Zuweisen einer Richtlinie für einzelne Benutzer
 

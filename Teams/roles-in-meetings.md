@@ -17,12 +17,12 @@ description: Erfahren Sie mehr über die Funktionen für Referenten und Teilnehm
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 11c5858532ade4fd4ed00f7c8f6d1d0c94baeb2d
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321734"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702690"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Funktionen für Referenten und Teilnehmer in Microsoft Teams-Besprechungen
 ======================================================
@@ -34,7 +34,7 @@ Nachfolgend die verfügbaren Besprechungsfeatures:
 - Chat (umfasst Fotos und Aufkleber)
 - Besprechungsnotizen
 - Whiteboard
-- Aufzeichnen
+- Aufzeichnung läuft
 - Dateien
 - Besprechungen planen (nur für Besprechungen)
 
@@ -68,7 +68,7 @@ Ein mandanteninterner Teilnehmer gehört zur Organisation und verfügt über Anm
 | Chat | Ja | Ja | Ja |
 | Besprechungsnotizen | Ja | Ja |Ja |
 | Whiteboard | Ja | Ja |Ja |
-| Aufzeichnen | Nicht zutreffend |Ja | Ja |
+| Aufzeichnung läuft | Nicht zutreffend |Ja | Ja |
 | Dateien | Ja | Ja | Ja |
 | Besprechungen planen | Ja | Nicht zutreffend | Nicht zutreffend |
 |||||||
@@ -83,7 +83,7 @@ Ein Gastteilnehmer ist jemand aus einer anderen Organisation, der basierend auf 
 | Chat | Ja | Ja | Ja |
 | Besprechungsnotizen | Ja | Ja | Ja |
 | Whiteboard | Nein | Nein |Nein |
-| Aufzeichnen | Nicht zutreffend |Nein | Nein |
+| Aufzeichnung läuft | Nicht zutreffend |Nein | Nein |
 | Dateien | Ja | Ja | Ja |
 | Besprechungen planen | Nein | – | Nicht zutreffend |
 |||||||
@@ -92,13 +92,13 @@ Ein Gastteilnehmer ist jemand aus einer anderen Organisation, der basierend auf 
 
 Bei einem externen Teilnehmer handelt es sich um eine Person, die Microsoft Teams in einer anderen Organisation verwendet und zur Teilnahme an einer Besprechung eingeladen wurde, jedoch keinen Zugriff auf andere freigegebene Ressourcen Ihrer Organisation hat. Externe Teilnehmer werden in der Besprechungsliste mit dem gleichen Identitätsnamen wie in ihrer eigenen Organisation angezeigt. Weitere Informationen zu externen Teilnehmern erhalten Sie unter [Kommunikation mit Benutzern aus anderen Organisationen](communicate-with-users-from-other-organizations.md#external-access).
 
-| Besprechung (kann einem Team nur als Gast hinzugefügt werden) ||
+| Besprechung ||
 |-|-|-|
 | **Feature** |||
-| Chat | Nicht zutreffend |
+| Chat | Ja |
 | Besprechungsnotizen | Nicht zutreffend |  
 | Whiteboard | Nicht zutreffend |
-| Aufzeichnen | Nicht zutreffend |  
+| Aufzeichnung läuft | Nicht zutreffend |  
 | Dateien | Nicht zutreffend |
 | Besprechungen planen | Nicht zutreffend |
 |||
@@ -110,12 +110,12 @@ Ein anonymer Teilnehmer ist wie ein externer Benutzer, seine Identität wird jed
 | Besprechung  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Feature**        | Vor der Besprechung | Während der Besprechung | Nach der Besprechung |
-| Chat | Nicht zutreffend | Nein | Nicht zutreffend |
+| Chat | Nicht zutreffend | Ja | Nicht zutreffend |
 | Besprechungsnotizen | Nicht zutreffend | Nein | Nicht zutreffend |
 | Whiteboard | Nicht zutreffend | Nein | Nicht zutreffend |
-| Aufzeichnen | Nicht zutreffend | Nein | Nicht zutreffend |
+| Aufzeichnung läuft | Nicht zutreffend | Nein | Nicht zutreffend |
 | Dateien | Nicht zutreffend | Nein | Nicht zutreffend |
-| Besprechungen planen | Nicht zutreffend | N/V | Nicht zutreffend |
+| Besprechungen planen | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend |
 |||||||
 
 ## <a name="related-topics"></a>Verwandte Themen

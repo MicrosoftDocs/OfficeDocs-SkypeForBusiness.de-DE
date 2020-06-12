@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665937"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691301"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -63,11 +63,9 @@ Zum Skalieren von Besprechungen in Ihrer Organisation sollten Sie sicherstellen,
 - TCP-Ports 80 und 443 für ausgehende Verbindungen von Clients, die Teams verwenden sollen
 - UDP-Ports 3478 bis 3481 für ausgehende Verbindungen von Clients, die Teams verwenden sollen
 
-Sie können den [Netzwerktest](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) verwenden, um zu bestätigen, dass Ihre Netzwerkstandorte für den Sprach- und Video-Datenverkehr Ihrer Besprechungserfahrung bereit sind.
-
 | Frage | Aktion |
 |--------------|--------|
-|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs und IP-Adressbereiche](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung

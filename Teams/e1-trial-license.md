@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 7b8cd74a8ac6c06a1bc51368009051dbacaca962
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042392"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691351"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Verwalten der Office 365 E1-Testversion
 ==============================
@@ -85,7 +85,7 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](http
 
 - Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
 
-- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Entfernen von Lizenzen von Benutzern in Office 365 Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
+- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Entfernen von Lizenzen von Benutzern in Microsoft 365 for Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide).
 
 
 ## <a name="related-topics"></a>Verwandte Themen
@@ -94,8 +94,8 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](http
 
 [Verwalten von Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 
-[Verwalten der Teams Exploratory-Erfahrung](teams-exploratory.md)
+[Verwalten der Teams Exploratory-Umgebung](teams-exploratory.md)
 
-[Office 365 Non-Profit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Microsoft 365 oder Office 365 Non-Profit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
 
 [Unterstützung bei der Bereitstellung von Teams](https://go.microsoft.com/fwlink/?linkid=780698)

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0d142be3a8d5f245cda857601995653d6ca6d240
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638844"
+ms.locfileid: "44665287"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -41,7 +41,7 @@ Alle folgenden Konzepte und Definitionen beeinflussen die Entscheidungen, die Si
 
 **Microsoft Teams**
 
-Ein _Team_ ist eine Sammlung von Personen, Inhalten und Tools, die die Zusammenarbeit unterstützen. Ein Team definiert, wer seine Mitglieder sind und welche Berechtigungen und Richtlinien für diese Mitglieder gelten. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Microsoft 365-Gruppen werden mit dem Team synchronisiert. Ebenso wie andere Microsoft 365-Gruppen verfügen Teams automatisch über ein Exchange-Postfach, eine SharePoint-Website, ein OneNote-Notizbuch und andere Office 365-Ressourcen. [Weitere Informationen zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Ein _Team_ ist eine Sammlung von Personen, Inhalten und Tools, die die Zusammenarbeit unterstützen. Ein Team definiert, wer seine Mitglieder sind und welche Berechtigungen und Richtlinien für diese Mitglieder gelten. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Microsoft 365-Gruppen werden mit dem Team synchronisiert. Ebenso wie andere Microsoft 365-Gruppen verfügen Teams automatisch über ein Exchange-Postfach, eine SharePoint-Website, ein OneNote-Notizbuch und andere Microsoft 365- oder Office 365-Ressourcen. [Weitere Informationen zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Kanäle**
 

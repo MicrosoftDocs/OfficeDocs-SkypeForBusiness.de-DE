@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f097563ae71c6d7f59f0469da98cfbf59f2ec82
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3096673df464b02ae828423c5aebf8690a7ab853
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690561"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702620"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -43,8 +43,8 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    | 
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden. </li><li>Für die optionalen **Hintergrund Videoeffekte** ist ein Prozessor mit Advanced Vector Extensions 2 (AVX2)-Unterstützung oder Windows 10 erforderlich. </li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe von Proximity Detection in einem Microsoft Teams-Raum ist Bluetooth LE erforderlich, wodurch Bluetooth auf dem Clientgerät aktiviert und für Windows-Clients der 64-Bit-Team-Client erforderlich ist. Es ist auf 32-Bit-Teams-Clients nicht verfügbar.</li></ul> |
-|Teams-Liveereignisse | Wenn Sie eine Live-Veranstaltung von Teams durchführen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware Encoder. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md). |
+|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden. </li><li>Die optionalen **Hintergrund-Videoeffekte** werden auf Prozessoren nicht unterstützt, ohne dass ein AVX2-Befehlssatz auf Windows 8,1 oder niedriger ausgeführt wird.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe von Proximity Detection in einem Microsoft Teams-Raum ist Bluetooth LE erforderlich, wodurch Bluetooth auf dem Clientgerät aktiviert und für Windows-Clients der 64-Bit-Team-Client erforderlich ist. Es ist auf 32-Bit-Teams-Clients nicht verfügbar.</li></ul> |
+|Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md). |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Hardwareanforderungen für Teams auf einem Mac
 
@@ -57,7 +57,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Betriebssystem  |    Mac OS X 10,11 El Capitan oder höher     |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden. </li><li>Die optionalen **Hintergrund Videoeffekte** erfordern einen Prozessor mit erweiterter Vector Extensions 2 (AVX2)-Unterstützung, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. </li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Mac OS nicht verfügbar.</li></ul> |
+|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Mac OS nicht verfügbar.</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Hardwareanforderungen für Teams unter Linux
 
@@ -72,7 +72,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    | 
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden.  </li><li>Der optionale Videoeffekt **Blur My background** setzt einen Prozessor mit erweiterter 2(AVX2)-Unterstützung für Vektorerweiterungen voraus, der auf den meisten späten 2013 Mac-Geräten unterstützt wird. </li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
 |Unterstützte Linux-Verteilungen | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Hardwareanforderungen für Teams auf mobilen Geräten
