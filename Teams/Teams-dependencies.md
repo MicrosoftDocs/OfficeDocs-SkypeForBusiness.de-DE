@@ -18,17 +18,17 @@ f1.keywords:
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778481"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689801"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
 
-Um die Anforderungen Ihrer Organisation zu erfüllen, können Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen verwalten. Für Ihre Office 365-Organisation gelten alle Berechtigungsstufen. Die einzelnen Autorisierungsebenen steuern den Gastzugriff wie unten beschrieben:
+Um die Anforderungen Ihrer Organisation zu erfüllen, können Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen verwalten. Für Ihre Microsoft 365- oder Office 365-Organisation gelten alle Berechtigungsstufen. Die einzelnen Autorisierungsebenen steuern den Gastzugriff wie unten beschrieben:
 
 - **Azure Active Directory**: Für den Gastzugriff in Microsoft Teams wird die Azure AD B2B-Plattform (Business-to-Business) genutzt. Diese Autorisierungsebene steuert den Gastzugriff auf Verzeichnis-, Mandanten- und Anwendungsebene.
 - **Microsoft Teams**: Steuert die Gastumgebung nur in Microsoft Teams.
@@ -38,9 +38,9 @@ Um die Anforderungen Ihrer Organisation zu erfüllen, können Sie die Features u
 Diese verschiedenen Autorisierungsebenen bieten Ihnen Flexibilität beim Einrichten des Gastzugriffs für Ihre Organisation. Wenn Sie zum Beispiel in Ihrer Microsoft Teams-Organisation keine Gastbenutzer zulassen möchten (aber generell in Ihrer Organisation), deaktivieren Sie einfach den Gastzugriff in Microsoft Teams. Ein weiteres Beispiel: Sie können den Gastzugriff auf Azure AD-, Microsoft Teams- und Gruppenebene aktivieren, aber dann das Hinzufügen von Gastbenutzern zu ausgewählten Teams deaktivieren, die einem oder mehreren Kriterien (z. B. der Datenklassifizierung „Vertraulich“) entsprechen. SharePoint Online und OneDrive for Business haben ihre eigenen Gastzugriffseinstellungen, die nicht auf Microsoft 365-Gruppen beruhen.
 
 > [!NOTE]
-> Gäste unterliegen den [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347)- und [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019)-Dienstbeschränkungen. 
+> Gäste unterliegen den unter [Microsoft 365- und Office 365-Dienstbeschreibungen](https://go.microsoft.com/fwlink/p/?linkid=282347) und [Einschränkungen der Azure AD B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853019) beschriebenen Diensteinschränkungen. 
 
-Das folgende Diagramm zeigt, wie die Abhängigkeit der Gastzugriffsautorisierung zwischen Azure Active Directory, Microsoft Teams und Office 365 gewährt und integriert wird.
+Das folgende Diagramm zeigt, wie die Abhängigkeit der Gastzugriffsautorisierung zwischen Azure Active Directory, Microsoft Teams und Microsoft 365 oder Office 365 gewährt und integriert wird.
 
 ![Diagramm der Autorisierungsabhängigkeiten für den Gastzugriff](media/teams_dependencies_image1.png)
 
@@ -110,7 +110,7 @@ Unter [Gastzugriff in Microsoft 365-Gruppen](https://support.office.com/article/
 
 Teams nutzt SharePoint Online und OneDrive for Business zum Speichern von Dateien und Dokumenten für Kanäle und Chatunterhaltungen.  
 
-Um alle Gastzugriffsfunktionen in Teams zu aktivieren, müssen Office 365-Administratoren die folgenden Einstellungen konfigurieren:
+Um alle Gastzugriffsfunktionen in Teams zu aktivieren, müssen Microsoft 365- und Office 365-Administratoren die folgenden Einstellungen konfigurieren:
 
 - In SharePoint Online: Wählen Sie **Vorhandene Gäste**, **Neue und vorhandene Gäste** oder **Jeder** aus.
 

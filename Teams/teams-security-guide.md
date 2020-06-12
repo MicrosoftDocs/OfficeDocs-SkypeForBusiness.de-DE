@@ -19,19 +19,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6571da01408893423ae6672dccd80ba65a55cbaf
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158972"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689661"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
 > [!IMPORTANT]
 > Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
 
-Microsoft Teams, als Teil des Microsoft 365 (M365)-Dienstes, befolgt alle bewährte Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Leistungsebene durch umfassende Abwehrmaßnahmen, Kundenkontrolle innerhalb des Dienstes, Sicherheitshärtung und betriebliche Best Practices. Weitere Informationen finden Sie im [Microsoft Trust Center](https://microsoft.com/trustcenter).
+Microsoft Teams, als Teil der Microsoft 365- und Office 365-Dienste, befolgt alle bewährte Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Leistungsebene durch umfassende Abwehrmaßnahmen, Kundenkontrolle innerhalb des Dienstes, Sicherheitshärtung und betriebliche Best Practices. Weitere Informationen finden Sie im [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
 ## <a name="trustworthy-by-design"></a>Vertrauenswürdiges Design
 
@@ -63,7 +63,7 @@ Teams mildert diese Angriffe, indem es den Azure DDOS-Netzwerkschutz ausführt u
 
 Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird.
 
-Teams verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb von O365 und TLS von den Clients zum Dienst, wodurch dieser Angriff innerhalb der Zeitspanne, in der eine bestimmte Konversation angegriffen werden könnte, sehr schwierig bis unmöglich wird. Mit TLS werden alle Parteien authentifiziert und der gesamte Datenverkehr wird verschlüsselt. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
+Teams verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb von Microsoft 365 und Office 365, und verwendet zudem TLS von den Clients zum Dienst, wodurch dieser Angriff innerhalb der Zeitspanne, in der eine bestimmte Konversation angegriffen werden könnte, sehr schwierig bis unmöglich wird. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
 
 Das TURN-Protokoll wird für Echtzeit-Medienzwecke verwendet. Das TURN-Protokoll schreibt keine Verschlüsselung des Datenverkehrs vor, und die von ihm gesendeten Informationen sind durch die Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der Teams-Service stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenntegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen wenigen Elementen einschließlich eines TURN-Kennworts abgeleitet wurde, das niemals im Klartext gesendet wird. SRTP wird für den Medienverkehr verwendet und ist ebenfalls verschlüsselt.
 
@@ -106,11 +106,11 @@ In den nächsten Abschnitten werden einige dieser Kerntechnologien erläutert.
 
 ### <a name="azure-active-directory"></a>Azure Active Directory
 
-Azure Active Directory fungiert als Verzeichnisdienst für Office 365 (O365). Es speichert alle Nutzerverzeichnisinformationen und Richtlinienzuweisungen.
+Azure Active Directory fungiert als Verzeichnisdienst für Microsoft 365 und Office 365. Es speichert alle Nutzerverzeichnisinformationen und Richtlinienzuweisungen.
 
 #### <a name="crl-distribution-points"></a>CRL-Verteilungspunkte
 
-O365-Verkehr findet über TLS/HTTPS-verschlüsselte Kanäle statt, was bedeutet, dass Zertifikate zur Verschlüsselung des gesamten Verkehrs verwendet werden. In Teams müssen alle Serverzertifikate einen oder mehrere CRL(Certificate Revocation List)-Verteilungspunkte enthalten. Sperrlisten-Verteilungspunkte sind Standorte, von denen Zertifikatsperrlisten heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit dem Zeitpunkt, an dem es ausgestellt wurde, gesperrt wurde und es sich noch im Gültigkeitszeitraum befindet. Ein CRL-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL angegeben und ist sicheres HTTP. Der Teams-Service überprüft die CRL bei jeder Zertifikatauthentifizierung.
+Microsoft 365- und Office 365-Verkehr findet über TLS/HTTPS-verschlüsselte Kanäle statt, was bedeutet, dass Zertifikate zur Verschlüsselung des gesamten Verkehrs verwendet werden. In Teams müssen alle Serverzertifikate einen oder mehrere CRL(Certificate Revocation List)-Verteilungspunkte enthalten. Sperrlisten-Verteilungspunkte sind Standorte, von denen Zertifikatsperrlisten heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit dem Zeitpunkt, an dem es ausgestellt wurde, gesperrt wurde und es sich noch im Gültigkeitszeitraum befindet. Ein CRL-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL angegeben und ist sicheres HTTP. Der Teams-Service überprüft die CRL bei jeder Zertifikatauthentifizierung.
 
 #### <a name="enhanced-key-usage"></a>Erweiterte Schlüsselverwendung
 
@@ -159,11 +159,11 @@ Teams verwendet FIPS (Federal Information Processing Standard) konforme Algorith
 
 ### <a name="user-and-client-authentication"></a>Nutzer- und Clientauthentifizierung
 
-Bei einem vertrauenswürdigen Benutzer handelt es sich um eine Person, deren Anmeldeinformationen in Office 365/Microsoft 365 von Azure AD authentifiziert wurden.
+Bei einem vertrauenswürdigen Benutzer handelt es sich um eine Person, deren Anmeldeinformationen in Microsoft 365 oder Office 365 von Azure AD authentifiziert wurden.
 
 Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen für einen vertrauenswürdigen Server oder Dienst. Teams verwendet abhängig vom Status und Standort des Benutzers die folgenden Authentifizierungsprotokolle.
 
-- **Moderne Authentifizierung (MA)** ist die Microsoft-Implementierung von OAUTH 2.0 für die Client-Server-Kommunikation. Sie ermöglicht Sicherheitsfunktionen wie O365 MFA (Mehrstufige Authentifizierung) und O365 CA (Bedingter Zugriff). Für die Nutzung von MA müssen sowohl der Onlinemandant als auch die Clients für MA aktiviert sein. Die Teams-Clients über PC und Mobilgerät hinweg sowie der Webclient [unterstützen alle mehrstufige Authentifizierung](https://docs.microsoft.com/microsoftteams/sign-in-teams).
+- **Moderne Authentifizierung (MA)** ist die Microsoft-Implementierung von OAUTH 2.0 für die Client-Server-Kommunikation. Sie ermöglicht Sicherheitsfunktionen wie MFA (Mehrstufige Authentifizierung) und CA (Bedingter Zugriff). Für die Nutzung von MA müssen sowohl der Onlinemandant als auch die Clients für MA aktiviert sein. Die Teams-Clients über PC und Mobilgerät hinweg sowie der Webclient [unterstützen alle mehrstufige Authentifizierung](https://docs.microsoft.com/microsoftteams/sign-in-teams).
 
 > [!NOTE]
 > Wenn Sie die Azure AD-Authentifizierungs- und Autorisierungsmethoden auffrischen müssen, helfen die Abschnitte Einführung und "Authentifizierungsgrundlagen in Azure AD" in diesem Artikel.
@@ -178,7 +178,7 @@ Für die Medienauthentifizierung verwenden die ICE- und TURN-Protokolle auch die
 
 ### <a name="windows-powershell-and-team-management-tools"></a>Windows PowerShell- und Team-Verwaltungstools
 
-In Teams können IT-Administratoren ihren Service über das O365-Verwaltungsportal oder mithilfe von Tenant Remote PowerShell (TRPS) verwalten. Mandantenadministratoren verwenden die moderne Authentifizierung, um sich bei TRPS zu authentifizieren.
+In Teams können IT-Administratoren ihren Service über das Microsoft 365 Admin Center oder mithilfe von Tenant Remote PowerShell (TRPS) verwalten. Mandantenadministratoren verwenden die moderne Authentifizierung, um sich bei TRPS zu authentifizieren.
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>Konfigurieren des Zugriffs auf Teams an Ihrer Internetgrenze
 
@@ -188,13 +188,9 @@ Damit Teams ordnungsgemäß funktioniert (damit Nutzer an Besprechungen teilnehm
 
 Die Ports UDP 3478-3481 und TCP 443 werden von Clients verwendet, um einen Dienst für audiovisuelle Medien anzufordern. Ein Client verwendet diese beiden Ports, um UDP- bzw. TCP-Ports zuzuweisen und diese Medienflüsse zu aktivieren. Die Medienflüsse an diesen Ports sind mit einem Schlüssel geschützt, der über einen TLS-geschützten Signalisierungskanal ausgetauscht wird.
 
-### <a name="udptcp-5000059999-optional"></a>UDP/TCP 50,000–59,999 (Optional)
-
-Ports im hohen Bereich verwenden kein Transport-Relay. Da es sich um optionale Ports handelt, werden sie nicht in Office 365-URLs und IP-Adressbereichen aufgeführt. Dies bedeutet auch, dass Teams funktioniert, wenn diese Ports aufgrund des Datenverkehrs über die Portbereiche 3478-3481 (Transport Relay) blockiert sind. Sie werden für den Medientransit verwendet, aber selbst wenn diese Bereiche nicht blockiert sind, ist die Verringerung der Verzögerung minimal (einige Millisekunden). Probleme mit der Medienqualität werden größtenteils nicht durch das Entsperren und Verwenden dieser Ports beeinträchtigt. Jede Untersuchung dieser Probleme müsste sich auf andere Bereiche konzentrieren.
-
 ### <a name="federation-safeguards-for-teams"></a>Verbundsschutz für Teams
 
-Verbund bietet Ihrer Organisation die Möglichkeit, mit anderen Organisationen zu kommunizieren, um einen Chat und Präsenz zu teilen. In Teams ist der Verband standardmäßig aktiviert. Mandantenadministratoren können dies jedoch über das O365-Administratorportal steuern.
+Verbund bietet Ihrer Organisation die Möglichkeit, mit anderen Organisationen zu kommunizieren, um einen Chat und Präsenz zu teilen. In Teams ist der Verband standardmäßig aktiviert. Mandantenadministratoren können dies jedoch über das Microsoft 365 Admin Center steuern.
 
 ## <a name="addressing-threats-to-teams-meetings"></a>Bewältigung von Bedrohungen für Teams-Besprechungen
 
@@ -223,7 +219,7 @@ Es gibt zwei Möglichkeiten zu steuern, wer an Teams-Besprechungen teilnimmt und
     |Aufnahme starten oder stoppen     |     J    |    N     |
     |Übernehmen Sie die Kontrolle, wenn ein anderer Teilnehmer ein PowerPoint teilt     |  J         | N        |
 
-Teams bietet Unternehmensbenutzern die Möglichkeit, Besprechungen in Echtzeit zu erstellen und daran teilzunehmen. Unternehmensbenutzer können auch externe Nutzer, die kein Azure AD/Office 365-Konto haben, zur Teilnahme an diesen Besprechungen einladen. Nutzer, die bei externen Partnern mit einer sicheren und authentifizierten Identität beschäftigt sind, können ebenfalls an Besprechungen teilnehmen und, wenn sie dazu gemacht werden, als Moderatorenn fungieren. Anonyme Nutzer können keine Besprechungen als Moderator erstellen oder daran teilnehmen. Sie können jedoch nach ihrer Teilnahme zum Moderator gemacht werden.
+Teams bietet Unternehmensbenutzern die Möglichkeit, Besprechungen in Echtzeit zu erstellen und daran teilzunehmen. Unternehmensbenutzer können auch externe Nutzer, die kein Azure AD-, Microsoft 365- oder Office 365-Konto haben, zur Teilnahme an diesen Besprechungen einladen. Nutzer, die bei externen Partnern mit einer sicheren und authentifizierten Identität beschäftigt sind, können ebenfalls an Besprechungen teilnehmen und, wenn sie dazu gemacht werden, als Moderatorenn fungieren. Anonyme Nutzer können keine Besprechungen als Moderator erstellen oder daran teilnehmen. Sie können jedoch nach ihrer Teilnahme zum Moderator gemacht werden.
 
 Damit anonyme Nutzer an Teambesprechungen teilnehmen können, muss die Einstellung für Teilnehmerbesprechungen im Teams Admin Center aktiviert sein.
 
@@ -306,6 +302,6 @@ Es ist möglich, die Besprechungsoptionen zu ändern, während eine Besprechung 
 
 [Verwalten von Besprechungseinstellungen in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Optimieren der Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Optimieren der Microsoft 365- oder Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementieren des geteilten VPN-Tunnels für Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementierung: Geteilter VPN Tunnel](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)

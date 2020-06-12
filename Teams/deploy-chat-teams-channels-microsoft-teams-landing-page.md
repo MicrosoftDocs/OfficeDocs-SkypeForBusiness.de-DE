@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637894"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691311"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -35,7 +35,7 @@ Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *Neu im November 2019*
- - Sie können [den Ratgeber für Teams (Vorschau) jetzt als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Ratgeber für Teams (Vorschau) führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
+ - Sie können [den Ratgeber für Teams (Vorschau) jetzt als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Ratgeber für Teams (Vorschau) führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Microsoft 365- oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
  - [YouTube-Kanal "Microsoft Teams Essentials for IT"](https://aka.ms/MicrosoftTeamsforIT), einschließlich kurzer Videos (8-10 Minuten), die Ihnen zeigen, wie Sie das Rollout von Teams durchführen sowie Teams konfigurieren und verwalten.
 
 > [!TIP]
@@ -47,7 +47,7 @@ Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu
 
 |Frage|Aktion |
 |------------|-------|
-|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Microsoft 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
+|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Microsoft 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
@@ -131,7 +131,7 @@ Teams unterstützt eine Reihe von Clients, von Web- über Desktop- bis zu mobile
 
 ### <a name="teams-usage-reporting"></a>Microsoft Teams-Nutzungsbericht
 
-Benutzer mit den Rollen globaler Administrator in Office 365, Teams-Dienstadministrator und Leseberechtigung für Berichte können Teams-Nutzungsberichte lesen. Weitere Informationen finden Sie in den [Analyseartikeln zur Anwendung von Microsoft 365](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide).
+Benutzer mit den Rollen globaler Administrator, Teams-Dienstadministrator und Leseberechtigung für Berichte können Teams-Nutzungsberichte lesen. Weitere Informationen finden Sie in den [Analyseartikeln zur Anwendung von Microsoft 365](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide).
 
 |Frage|Aktion |
 |------------|-------|
@@ -151,16 +151,16 @@ Je nach den Bedürfnissen und der Konfiguration Ihrer Organisation kann es sinnv
 
 ### <a name="teams-licensing"></a>Teams-Lizenzierung
 
-Teams wird als Teil vieler Office 365-Lizenzen angeboten. Weitere Informationen zur Lizenzierung von Teams finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Teams wird als Teil vieler Microsoft 365- oder Office 365-Lizenzen angeboten. Weitere Informationen zur Lizenzierung von Teams finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 |Frage|Aktion |
 |------------|-------|
 |Verfügen meine Benutzer über die erforderlichen Lizenzen, um alle Funktionen von Teams zu verwenden, die ich bereitstellen möchte? | Informationen zu den Lizenzierungsanforderungen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
 |||
 
-### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilität von Exchange und SharePoint 
+### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilität von Exchange und SharePoint
 
-Um den vollen Funktionsumfang von Teams zu nutzen, sollten alle Benutzer für Exchange Online, SharePoint Online und das Erstellen einer Microsoft 365-Gruppe aktiviert sein. Die folgenden Artikel geben allgemeine Informationen zu Exchange-Postfächern wieder, die in verschiedenen Umgebungen gehostet sind, über die Interaktion von Exchange und Teams und ähnliche Überlegungen für SharePoint und OneDrive for Business. 
+Um den vollen Funktionsumfang von Teams zu nutzen, sollten alle Benutzer für Exchange Online, SharePoint Online und das Erstellen einer Microsoft 365-Gruppe aktiviert sein. Die folgenden Artikel geben allgemeine Informationen zu Exchange-Postfächern wieder, die in verschiedenen Umgebungen gehostet sind, über die Interaktion von Exchange und Teams und ähnliche Überlegungen für SharePoint und OneDrive for Business.
 
 |Frage|Aktion |
 |------------|-------|
@@ -176,13 +176,13 @@ Bei der Planung einer Enterprise-Bereitstellung von Teams sollten Sie alle relev
 | Welche Grenzwerte werde ich mit meiner Teams-Bereitstellung mit Wahrscheinlichkeit erreichen? | Weitere Informationen finden Sie unter [Limits and specifications for Teams](limits-specifications-teams.md) (Grenzwerte und Daten für Teams). |
 |||
 
-### <a name="office-365-urls-and-ports"></a>Office 365-URLs und Ports
+### <a name="urls-and-ports"></a>URLs und Ports
 
-Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert den Office 365-Dienst ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie als Minimalkonfiguration sicher, dass Sie die oben unter [Chat-Bereitstellungsanforderungen](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
+Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert die Microsoft 365- und Office 365-Dienste ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie als Minimalkonfiguration sicher, dass Sie die oben unter [Chat-Bereitstellungsanforderungen](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
 
 |Frage|Aktion |
 |------------|-------|
-| Benötige ich Internetzugriffsregeln, um Benutzern die Verwendung von Teams zu ermöglichen, oder ist das Öffnen der mindestens erforderlichen Ports ausreichend? | Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md).|
+| Benötige ich Internetzugriffsregeln, um Benutzern die Verwendung von Teams zu ermöglichen, oder ist das Öffnen der mindestens erforderlichen Ports ausreichend? | Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md).|
 |||
 
 
@@ -241,11 +241,11 @@ IT-Experten, die in Bildungseinrichtungen arbeiten, können Teams for Education 
 
 ### <a name="government---gcc-considerations"></a>Behörden – GCC-Überlegungen
 
-Die Nutzung von Microsoft 365 for Government – GCC (Government Community Cloud) ist angemessen, um den Anforderungen von IT-Experten zu genügen, die Bereitstellungen von Office 365 in Bundes-, Landes-, Kommunal- oder Territorialbehörden der USA oder in anderen Entitäten betreuen, in denen Daten verarbeitet werden, die gesetzlichen Bestimmungen und Anforderungen unterliegen.
+Die Nutzung von Office 365 for Government – GCC (Government Community Cloud) ist angemessen, um den Anforderungen von IT-Experten zu genügen, die Bereitstellungen von Office 365 in Bundes-, Landes-, Kommunal- oder Territorialbehörden der USA oder in anderen Entitäten betreuen, in denen Daten verarbeitet werden, die gesetzlichen Bestimmungen und Anforderungen unterliegen.
 
 | Frage | Aktion |
 |--------------|--------|
-| Muss ich Teams in einer Microsoft 365 Government – GCC-Umgebung bereitstellen? | Überlegungen zur Bereitstellung finden Sie unter [Planen der Bereitstellung von Microsoft 365 Government – GCC](plan-for-government-gcc.md).|
+| Muss ich Teams in einer Office 365 for Government – GCC-Umgebung bereitstellen? | Überlegungen zur Bereitstellung finden Sie unter [Planen der Bereitstellung von Office 365 Government – GCC](plan-for-government-gcc.md).|
 |||
 
 ## <a name="next-steps"></a>Nächste Schritte

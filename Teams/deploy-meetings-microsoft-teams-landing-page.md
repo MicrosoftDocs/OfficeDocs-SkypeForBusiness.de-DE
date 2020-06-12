@@ -19,14 +19,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281680"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665937"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
+
+> [!NOTE]
+> - Eine Übersicht über den Umstieg auf Remote Learning und Ressourcen für das Fernstudium, die Ihnen bei den ersten Schritten helfen, finden Sie auf der [**Startseite für Remote Learning und Fernunterricht**](https://www.microsoft.com/education/remote-learning).
+> - Ressourcen zur Unterstützung von Lehrkräften und Schülern/Studenten beim Remote Learning finden Sie unter [**Fernstudium (Lehren und Lernen) in Office 365 Education**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
 
 Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Jetzt können Sie die Besprechungsarbeitslast hinzufügen, einschließlich [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md), Video und Freigabe. In diesem Artikel werden Sie durch die Einführung von Besprechungen und Audiokonferenzen geführt. Schauen Sie sich als erstes unser Video zu Teams-Besprechungen, -Konferenzen und -Geräten an (3:28 Minuten):
 

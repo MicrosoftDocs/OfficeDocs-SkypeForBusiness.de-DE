@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638524"
+ms.locfileid: "44666277"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
+Eine Übersicht über den Umstieg auf Remote Learning und Ressourcen für das Fernstudium, die Ihnen bei den ersten Schritten helfen, finden Sie auf der [Startseite für Remote Learning und Fernunterricht](https://www.microsoft.com/education/remote-learning).
+
+Ressourcen zur Unterstützung von Lehrkräften und Schülern/Studenten beim Remote Learning finden Sie unter [Fernstudium (Lehren und Lernen) in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+Dieser Artikel befasst sich mit den eigentlichen Schritten, die Sie ausführen müssen, um Ihre Bildungseinrichtung für Remote Learning einzurichten.
+
 > [!NOTE]
-> Dieser Artikel ist eine großartige Ressource, um Ihre Bildungseinrichtung für den Fernunterricht einzurichten. Für Pädagogen, Einrichtungsleiter oder IT-Experten können diese Ressourcen hilfreich sein:
+> Für Pädagogen, Einrichtungsleiter oder IT-Experten können diese Ressourcen hilfreich sein:
 >
 > - Stellen Sie Ihre gesamte Bildungseinrichtung schnell auf Microsoft Teams um mithilfe dieser [**einseitigen Anleitung für die ersten Schritte**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Laden Sie [**Erste Schritte mit Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) herunter: Ein Leitfaden für IT-Experten mit hilfreichen Verfahren für Sicherheit und Änderungsmanagement.
