@@ -905,3 +905,5 @@
 ### [Anrufpläne in Microsoft 365 – Verhaltenskodex für das Vereinigte Königreich](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Anrufpläne in Microsoft 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+
+## [Versionshinweise für Teams-Administratorfunktionen](release-notes/release-notes.md)
