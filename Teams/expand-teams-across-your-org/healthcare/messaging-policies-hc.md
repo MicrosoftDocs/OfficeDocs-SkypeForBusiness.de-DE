@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Hier erfahren Sie, wie Sie eine Richtlinie für sichere Nachrichten anpassen, die Lesebestätigungen und Prioritäts Benachrichtigungen enthalten kann.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905527"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724889"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 
@@ -52,8 +52,6 @@ Wählen Sie für Anwendungen im Gesundheitswesen entweder **Benutzer gesteuert**
 *Verwendungsbeispiel mit Lesebestätigungen:* Jakob Roth, ein Patient mit einem Höchstrisiko, wird zum Krankenhaus zugelassen.Sofia Krause ist eine Krankenschwester, die als Teil des interdisziplinären Teams (IDT) von medizinischen Arbeitern, darunter verschiedene Spezialisten, als primärer Betreuer für diesen Patienten verantwortlich ist.  Sofia startet einen Gruppen-Chat mit einer Reihe von Ärzten und anderen Krankenschwestern, die mit dem Patienten zusammenarbeiten werden, um die Behandlung zu koordinieren und eine Notfall-Triage zu starten.Die Krankenschwestern und Ärzte kommunizieren und Arbeiten über den Pflegeplan des Patienten während des Pflege Koordinationsprozesses zusammen.  Wichtige und dringende Nachrichten werden über 1:1 und Gruppen-Chat-Unterhaltungen gesendet. Sofia verwendet die Lese Bestätigungsfunktion, um festzustellen, ob Nachrichten, die Support anfordern, von den Ziel Ärzten oder Krankenschwestern zugestellt und gelesen werden. Jakobs Patientenergebnisse sind nahezu optimal und er geht früher nach Hause, weil sein Betreuerteam reibungslos kommuniziert.
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Senden dringender Nachrichten mithilfe von Prioritäts Benachrichtigungen
-
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 Ein Benutzer kann eine Nachricht beim Senden von Chatnachrichten an andere Benutzer als *dringend* kennzeichnen. Dieses Feature hilft Krankenhausmitarbeitern, sich gegenseitig zu benachrichtigen, wenn ein kritischer Vorfall Ihre Aufmerksamkeit erfordert. Im Gegensatz zu normalen *wichtigen* Nachrichten werden Benutzer mit [Prioritäts Benachrichtigungen](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) alle zwei Minuten für bis zu 20 Minuten benachrichtigt, oder bis die Nachricht vom Empfänger abgeholt und gelesen wird, wobei die Wahrscheinlichkeit maximiert wird, dass die Nachricht rechtzeitig verarbeitet wird.
 

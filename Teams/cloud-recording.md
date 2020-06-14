@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690901"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710809"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -113,7 +113,9 @@ Weitere Informationen dazu, wo Daten in Microsoft 365 oder Office 365 in verschi
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Aufzeichnungstranskription ein- oder ausschalten
 
-Wenn Benutzer ihre Teams-Besprechungen aufzeichnen, können sie bestätigen, dass nach der Aufzeichnung der Besprechung automatisch eine Niederschrift generiert wird. Wenn Sie die Transkriptionsfunktion für den Besprechungsorganisator und den Initiator der Aufzeichnung deaktiviert haben, wird der Initiator der Aufzeichnung nicht die Wahl haben, die Besprechungsaufzeichnung zu transkribieren.
+Mit dieser Einstellung wird gesteuert, ob Beschriftungen und Transkriptions Features bei der Wiedergabe von Besprechungsaufzeichnungen zur Verfügung stehen. Wenn Sie diese Option deaktivieren, stehen die Optionen " **Suchen** " und " **CC** " während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit die Aufzeichnung auch Transkription umfasst.
+
+Beachten Sie, dass die Transkription für aufgezeichnete Besprechungen derzeit nur für Benutzer unterstützt wird, für die die Sprache in Teams auf Englisch festgesetzt ist und wenn Englisch in der Besprechung gesprochen wird.
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 

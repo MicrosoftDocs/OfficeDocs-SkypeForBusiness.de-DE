@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern erhalten oder Nummern für Ihre Organisation portieren (übertragen), müssen Sie möglicherweise Hilfe und Support beim PSTN-Service Desk erhalten.
-ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374273"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710829"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN-Service Desk-Kontakt
 
@@ -42,12 +42,12 @@ Das PSTN-Service Desk-Team verfügt derzeit über drei e-Mail-Adressen für die 
 
 Wenn Sie Unterstützung bei **der Übertragung/Portierung ihrer vorhandenen Telefonnummern an Microsoft Teams**benötigen, geben Sie bitte so viele Details wie möglich an:
   - Ihre [Organisations-ID (Mandanten-ID) oder derzeit aktive Microsoft-Domänen](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
-  - Welche Arten von Telefonnummern benötigen Sie Hilfe? (**Nutzer/Abonnent** oder **Service/gebührenpflichtig/gebührenfrei**).
+  - Welche Arten von Telefonnummern benötigen Sie Unterstützung **(Nutzer, Servicegebühren oder Dienst gebührenfrei)**.
   - Weitere wichtige Informationen auf der Grundlage Ihrer Anfrage.
   
 Wenn Sie Hilfe beim **Erwerb neuer Telefonnummern für Microsoft Teams**benötigen, geben Sie bitte so viele Details wie möglich an:
   - Ihre [Organisations-ID (Mandanten-ID) oder derzeit aktive Microsoft-Domänen.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - Welche Arten von Telefonnummern Sie erwerben möchten (**Nutzer/Abonnent** oder **Service/gebührenpflichtig/gebührenfrei**).
+  - Welche Arten von Telefonnummern benötigen Sie Unterstützung **(Nutzer, Servicegebühren oder Dienst gebührenfrei)**.
   - Wie viele Sie benötigen und die Ortsvorwahl (n)/Country/Region, von der Sie neue Telefonnummern wünschen.
 
 Wenn Sie Hilfe **bei der Einrichtung, Konfiguration, Lizenzierung/Gebühren/Abrechnung**benötigen, wenden Sie sich bitte an den [Support-Kontakt für Business-Produkte – Hilfeseite für Administratoren](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) und unser technisches Team steht Ihnen gerne zur Verfügung.

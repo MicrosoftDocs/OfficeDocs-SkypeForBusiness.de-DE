@@ -1,9 +1,9 @@
 ---
-title: 'Prioritäts Benachrichtigungen in Teams-Messaging '
-ms.author: tonysmit
-author: tonysmit
+title: Prioritäts Benachrichtigungen in Teams-Messaging
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: salu
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -19,27 +19,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: In diesem Artikel erhalten Sie Informationen zu Prioritäts Benachrichtigungen in Microsoft Teams-Messaging.
-ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: Informieren Sie sich über Prioritäts Benachrichtigungen in Microsoft Teams-Messaging.
+ms.openlocfilehash: d0323ead1a3bcf3f9b3dd4418428b033fe742db9
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904687"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724907"
 ---
 # <a name="messaging-policies-licensing"></a>Lizenzierung von Nachrichtenrichtlinien
 
-Wir hören von Kunden rund um den Globus, wie die COVID-19 (Coronavirus)-Pandemie neue Herausforderungen geschaffen hat, da Sie für die Bewältigung drastischer Veränderungen in ihren täglichen Geschäftsabläufen arbeiten.
+Wir hören von Kunden rund um den Globus, wie die COVID-19 (Coronavirus)-Pandemie neue Herausforderungen geschaffen hat, da Sie für die Bewältigung drastischer Veränderungen in ihren täglichen Geschäftsabläufen arbeiten. Die direkte und schnelle Verbindung zu Teamkollegen während sich schnell wandelnder Bedingungen ist für die Aufrechterhaltung der Kontinuität des Unternehmens während der Krisenreaktion unerlässlich, und viele von uns kehren zum Arbeitsplatz zurück. Priority-Benachrichtigungen sind in der Premium Messaging-Add-on-SKU heute nur für kommerzielle Kunden verfügbar.
 
-Die direkte und schnelle Verbindung zu Teamkollegen während sich schnell wandelnder Bedingungen ist für die Aufrechterhaltung der Geschäftskontinuität unerlässlich, und als solche erweitern wir den Werbe Zugriff auf wichtige Messaging Features in Microsoft Teams.
+Ursprünglich im Juni 2019 angekündigt, gewähren [Prioritäts Benachrichtigungen](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) für Microsoft Teams Benutzern die Möglichkeit, kontinuierlich Benachrichtigungen zu senden, die alle zwei Minuten für bis zu 20 Minuten für alle Nachrichten, die als dringend markiert sind, zu wiederholen. Prioritäts Benachrichtigungen wurden allen Teams-Kunden<sup>1</sup> bis zur zweiten Hälfte von 2020 als Werbeaktion zur Verfügung gestellt.
 
-Ursprünglich im Juni 2019 angekündigt, gewährt [Priority-Benachrichtigungen](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) für Teams Benutzern die Möglichkeit, kontinuierlich Benachrichtigungen zu senden, die alle zwei Minuten für bis zu 20 Minuten für alle Nachrichten, die als *dringend*markiert sind, zu wiederholen. Bei der Veröffentlichung hatten wir Prioritäts Benachrichtigungen für alle Teams-Benutzer bis zum 1. April 2020 zur Verfügung gestellt. 
+Mit sofortiger Wirkung haben wir diese Werbeaktion beendet und für alle Teams-Kunden<sup>1</sup> als grundlegende Funktionen Prioritäts Benachrichtigungen zur Verfügung gestellt. Die Benutzer können nun unbegrenzt dringende Nachrichten mit Prioritäts Benachrichtigung senden und empfangen. [Weitere Informationen zum Verwalten von Prioritäts Benachrichtigungen](../messaging-policies-in-teams.md).
 
-**Zur Unterstützung unserer Kunden und der Community bei ihren Krisen Reaktions Bemühungen erweitern wir die Heraufstufung von Prioritäts Benachrichtigungen bis zur zweiten Hälfte von 2020.** Fortlaufender Zugriff auf Prioritäts Benachrichtigungen steht zur Verfügung, um in Krisen Reaktions-und Wiederherstellungs Bemühungen zu helfen. Nach Ablauf des Aktionszeitraums können lizenzierte Benutzer Prioritäts Benachrichtigungen gemäß den Vertragsbestimmungen senden.
-
-Administratoren erhalten Berichte über die Verwendung von Prioritäts Benachrichtigungen, um eine entsprechende Benutzer Lizenzierung zu unterstützen. Die Benutzer können ungeachtet der Lizenz unbegrenzt dringende Nachrichten mit Prioritäts Benachrichtigungen erhalten. [Weitere Informationen zu Prioritäts Benachrichtigungen](../messaging-policies-in-teams.md).
-
-<!-- |Government| | |
-||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
-||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
-||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->
+<sup>1</sup> Prioritäts Benachrichtigungen sind derzeit nicht für gcc-, gcc-oder DoD-Kunden verfügbar.

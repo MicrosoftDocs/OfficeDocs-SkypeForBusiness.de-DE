@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702720"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710819"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
 Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrator Features für Microsoft Teams.
+
+## <a name="june-11-2020"></a>11. Juni 2020
+
+### <a name="call-queues---presence-based-routing"></a>Anrufwarteschlangen – Anwesenheits basiertes Routing
+
+Wenn diese Option deaktiviert ist, werden Anrufe an Agenten weitergeleitet, die unabhängig von Ihrem Anwesenheitsstatus für den Empfang von Anrufen entschieden haben. Wenn diese Option aktiviert ist, werden Anrufe nur dann empfangen, wenn Ihr Anwesenheitsstatus verfügbar ist. [Weitere Informationen](../create-a-phone-system-call-queue.md).
+
+
+## <a name="june-10-2020"></a>10. Juni 2020
+
+### <a name="call-queues---longest-idle-routing"></a>Anrufwarteschlangen – Routing mit dem längsten Leerlauf
+Wenn Sie diese Option auswählen, werden eingehende Anrufe an Anruf-Agents weitergeleitet, die einen eingehenden Anruf für den längsten Zeitraum nicht beantwortet haben. [Weitere Informationen](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>1. Juni 2020
 
@@ -90,12 +102,6 @@ Erstellen Sie Kategorien, und weisen Sie Ihnen Personen zu, damit Sie eine Grupp
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>Richtlinienbasierte Aufzeichnung für Anrufe und Besprechungen in Teams
 
 Dieses Feature ermöglicht automatische richtlinienbasierte Aufzeichnungen von Teams-anrufen und-Besprechungen über von Microsoft zertifizierte Softwareanbieter.
-
-## <a name="march-29-2020"></a>29. März 2020
-
-### <a name="call-queues---presence-based-routing"></a>Anrufwarteschlangen – Anwesenheits basiertes Routing
-
-Wenn diese Option deaktiviert ist, werden Anrufe an Agenten weitergeleitet, die unabhängig von Ihrem Anwesenheitsstatus für den Empfang von Anrufen entschieden haben. Wenn diese Option aktiviert ist, werden Anrufe nur dann empfangen, wenn Ihr Anwesenheitsstatus verfügbar ist. [Weitere Informationen](../create-a-phone-system-call-queue.md).
 
 ## <a name="march-25-2020"></a>25. März 2020
 
