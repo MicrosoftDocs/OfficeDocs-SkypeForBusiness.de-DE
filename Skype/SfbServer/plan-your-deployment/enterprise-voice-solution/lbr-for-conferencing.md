@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planung des standortbasierten Routings für Konferenzen in Skype for Business Server Enterprise-VoIP, einschließlich beratender Anruf Übertragungen.
-ms.openlocfilehash: f2a44c1f3275dd0cc9e1205d60ba26e01429ea51
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: cec7eb1f853752997ca3dcfbe8546b86227fde9b
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690581"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710739"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Standortbasiertes Routing für Konferenzen in Skype for Business Server
 
 Planung des standortbasierten Routings für Konferenzen in Skype for Business Server Enterprise-VoIP, einschließlich beratender Anruf Übertragungen.
 
-Das standortbasierte Routing ermöglicht das Einschränken des Routings von anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Parteien im Anruf. Mit dem standortbasierten Routing für Konferenzen können Sie Standortbasierte Routingregeln für Besprechungen (also Konferenzen) erzwingen, um eine PSTN-Maut Umgehung zu verhindern. Die Anwendung überwacht eine aktive Konferenz und erzwingt standortbasierte Routing Einschränkungen basierend auf dem Speicherort der teilnehmenden Benutzer. Das standortbasierte Routing für die Konferenz Anwendung ermöglicht darüber hinaus die Durchsetzung von standortbasierten Routing Einschränkungen auf beratende Übertragungen mit PSTN-Endpunkten.
+Das standortbasierte Routing ermöglicht das Einschränken des Routings von anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Parteien im Anruf. Mit dem standortbasierten Routing für Konferenzen können Sie Standortbasierte Routingregeln für Besprechungen (Konferenzen) erzwingen, um eine PSTN-Maut Umgehung zu verhindern. Die Anwendung überwacht eine aktive Konferenz und erzwingt standortbasierte Routing Einschränkungen basierend auf dem Speicherort der teilnehmenden Benutzer. Das standortbasierte Routing für die Konferenz Anwendung ermöglicht darüber hinaus die Durchsetzung von standortbasierten Routing Einschränkungen auf beratende Übertragungen mit PSTN-Endpunkten.
 
 Die standortbasierte Routing Konferenz Anwendung bietet Skype for Business Konferenzen einen Mechanismus zur Verhinderung der PSTN-Maut Umgehung. Die Anwendung überwacht aktive Konferenzen und erzwingt standortbasierte Routing Einschränkungen basierend auf dem Speicherort der Skype for Business teilnehmenden Benutzer.
 
@@ -49,9 +49,7 @@ Das standortbasierte Routing für die Konferenz Anwendung verhindert die Teilnah
 
 In der folgenden Tabelle sind die standortbasierten Routing Einschränkungen für Konferenzen zusammengefasst.
 
-| |
-
-|**Benutzer in einer Konferenz zu einem bestimmten Zeitpunkt**|**Benutzer dürfen an der Konferenz teilnehmen**|**Benutzer dürfen nicht an der Konferenz teilnehmen**|
+|Benutzer in einer Konferenz zu einem bestimmten Zeitpunkt|Benutzer dürfen an der Konferenz teilnehmen|Benutzer dürfen nicht an der Konferenz teilnehmen|
 |:-----|:-----|:-----|
 |Skype for Business VoIP-Clientbenutzer (n) von einem einzelnen Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer am gleichen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem anderen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> Verbund Skype for Business VoIP-Clientbenutzer  <br/> Benutzer Beitritt von einem PSTN-Endpunkt  <br/> |Keine  <br/> |
 |Skype for Business VoIP-Clientbenutzer (n) von einem unbekannten Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer von einem beliebigen Standort aus  <br/> Skype for Business VoIP-Clientbenutzer von einer unbekannten Website  <br/> Verbund Skype for Business VoIP-Clientbenutzer  <br/> |Benutzer Beitritt über einen PSTN-Endpunkt  <br/> |
@@ -69,7 +67,7 @@ Im folgenden sind zusätzliche Merkmale des standortbasierten Routing für die K
 > [!NOTE]
 > Bei Skype for Business kumulativen Update 4 sollte das Verhalten in der folgenden Tabelle beachtet werden:
 
-|**Benutzer**|**Andere Partei**|**Action**|**Ergebnis**|
+|User|Andere Partei|Aktion|Ergebnis|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobil  <br/> |PSTN  <br/> |Skype for Business Mobile befindet sich in einem PSTN-Anruf. Skype for Business Mobile eskaliert dann den Anruf an eine automatische Telefonzentrale (CAA).  <br/> |Der Anruf wird mit einer entsprechenden Fehlermeldung blockiert.  <br/> |
 |Skype for Business Mobil  <br/> |Skype for Business Client oder Verbundbenutzer  <br/> |Der Client-oder Verbundbenutzer befindet sich in einem VoIP-Anruf bei einem Skype for Business mobilen standortbasierten Routing Benutzer, und beide Parteien eskalieren an einen CAA.  <br/> |Der Eskalations Anruf wird mit einer entsprechenden Fehlermeldung blockiert.  <br/> |
@@ -84,14 +82,14 @@ Zusätzlich zum Erzwingen eines standortbasierten Routings für Skype for Busine
 
 Wenn ein Benutzer, der für standortbasiertes Routing aktiviert ist, eine beratende Anrufweiterleitung eines PSTN-Endpunkts initiiert (wie in der obigen Abbildung dargestellt), werden zwei aktive Anrufe, ein Aufruf zwischen dem PSTN-Benutzer und Skype for Business Benutzer a und der andere zwischen Skype for Business Benutzer a und Skype for Business Benutzer B erstellt. das folgende Verhalten wird durch das standortbasierte Routing für die Konferenz Anwendung erzwungen. :
 
-- Wenn das SIP-Trunk Routing der PSTN-Anruf autorisiert ist, den PSTN-Anruf an den Netzwerkstandort weiterzuleiten, auf dem sich Skype for Business Benutzer B (dh Übertragungsziel) befindet, wird die Anrufweiterleitung zugelassen. Andernfalls wird die beratende Anrufweiterleitung blockiert. Diese Autorisierung wird basierend auf dem Standort des übertragenen Teilnehmers am gleichen Netzwerkstandort wie der SIP-Trunk ausgeführt, der den aktiven Anruf an den PSTN-Endpunkt weiterleitet.
+- Wenn das SIP-Trunk Routing der PSTN-Anruf autorisiert ist, den PSTN-Anruf an den Netzwerkstandort weiterzuleiten, auf dem sich Skype for Business Benutzer B (d. h., Übertragungsziel) befindet, wird die Anrufweiterleitung zugelassen. Andernfalls wird die beratende Anrufweiterleitung blockiert. Diese Autorisierung wird basierend auf dem Standort des übertragenen Teilnehmers am gleichen Netzwerkstandort wie der SIP-Trunk ausgeführt, der den aktiven Anruf an den PSTN-Endpunkt weiterleitet.
 
 - Wenn das SIP-Trunk Routing des eingehenden PSTN-Anrufs nicht zum Weiterleiten von Anrufen an den Netzwerkstandort autorisiert ist, auf dem sich der übermittelte Teilnehmer (Skype for Business Benutzer B) befindet oder sich der übertragene Teilnehmer an einem unbekannten Netzwerkstandort befindet, wird die beratende Anrufweiterleitung an den PSTN-Endpunkt (d. h. das Anruf Übertragungsziel) blockiert.
 
 In der folgenden Tabelle wird beschrieben, wie standortbasierte Routing Einschränkungen von der standortbasierten Weiterleitung für die Konferenz Anwendung für beratende Anruf Übertragungen angewendet werden. Obwohl PBX-Endpunkte keinem Netzwerkstandort direkt zugeordnet sind, kann dem SIP-Trunk, mit dem die Nebenstellenanlage verbunden ist, ein Netzwerkstandort zugewiesen werden. Daher kann der PBX-Endpunkt indirekt einem Netzwerkstandort zugeordnet werden.
 
 
-|**Netzwerkstandort der Anruf übertragenden Partei**|**Netzwerkstandort des Anruf Übertragungs Ziels**|**Verhalten**|
+|Netzwerkstandort der Anruf übertragenden Partei|Netzwerkstandort des Anruf Übertragungs Ziels|Verhalten|
 |:-----|:-----|:-----|
 |PSTN-Endpunkt  <br/> |Skype for Business Benutzer am selben Netzwerkstandort (also Standort 1)  <br/> |Beratende Übertragung wird zugelassen  <br/> |
 |PSTN-Endpunkt  <br/> |Skype for Business Benutzer an unterschiedlichen Netzwerkstandorten (also Standort 2)  <br/> |Die beratende Übertragung wird nicht zugelassen.  <br/> |
@@ -113,7 +111,7 @@ Für das standortbasierte Routing für die Konferenz Anwendung ist es erforderli
 In der folgenden Tabelle ist die Kombination von Serverrollen und Versionen aufgeführt, die standortbasiertes Routing unterstützen.
 
 
-|**Version des Front-End-Pools**|**Vermittlungsserver Version**|**Unterstützt**|
+|Version des Front-End-Pools|Vermittlungsserver Version|Unterstützt|
 |:-----|:-----|:-----|
 |Skype for Business Server oder lync Server 2013 Kumulatives Update 2  <br/> |Skype for Business Server oder lync Server 2013 Kumulatives Update 2  <br/> |Ja  <br/> |
 |Lync Server 2013 Kumulatives Update 2  <br/> |Lync Server 2013 Kumulatives Update 1  <br/> |Nein  <br/> |
@@ -137,7 +135,11 @@ Das standortbasierte Routing für die Konferenz Anwendung beruht auf der Konfigu
 
 Die standortbasierte Weiterleitung für die Konferenz Anwendung ist standardmäßig deaktiviert. Vor dem Aktivieren dieser Anwendung müssen Sie die richtige Priorität bestimmen, die für die Anwendung zugewiesen werden soll. Um diese Priorität zu ermitteln, führen Sie das folgende Cmdlet in Skype for Business Server Management Shell aus:
 
-Get-CsServerApplication-Identity Service: Registrar: <Pool FQDN> in diesem Cmdlet \<Pool FQDN\> ist der Pool, in dem die standortbasierte Weiterleitung für die Konferenz Anwendung aktiviert werden soll.
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
+
+In diesem Cmdlet \<Pool FQDN\> ist der Pool, in dem die standortbasierte Weiterleitung für die Konferenz Anwendung aktiviert werden soll.
 
 Dieses Cmdlet gibt die Liste der von Skype for Business Server gehosteten Anwendungen und den Prioritätswert für jeden von Ihnen zurück. Dem standortbasierten Routing für die Konferenz Anwendung muss ein Prioritätswert zugewiesen werden, der größer als die Anwendung "UdcAgent" und kleiner als die Anwendungen "DefaultRouting", "ExumRouting" und "OutboundRouting" ist. Es wird empfohlen, dem standortbasierten Routing für die Konferenz Anwendung einen Prioritätswert zuzuweisen, der einen Punkt höher ist als der Prioritätswert der Anwendung "UdcAgent".
 
@@ -145,11 +147,15 @@ Beispiel: Wenn die "UdcAgent"-Anwendung einen Prioritätswert von "2" hat, hat d
 
 Nachdem Sie den richtigen Prioritätswert für die Anwendung standortbasiertes Routing für Konferenzen gefunden haben, geben Sie das folgende Cmdlet für jeden Front-End-Pool oder Standard Edition-Server ein, für den Benutzer für standortbasiertes Routing aktiviert sind:
 
-New-CsServerApplication-Identity Service: Registrar: `<Pool FQDN`>/lbrouting-Priority \<Application Priority\> -Enabled $true-Critical $true-URI<http://www.microsoft.com/LCS/LBRouting>
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
+```
 
 Zum Beispiel:
 
-New-CsServerApplication-Identity Service:Registrar:ls2013cu2lbrpool. contoso. com/LBRouting-Priority 3-Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Nachdem Sie dieses Cmdlet verwendet haben, starten Sie alle Front-End-Server im Pool oder die Standard Edition-Server neu, auf denen die standortbasierte Weiterleitung für die Konferenz Anwendung aktiviert wurde.
 
