@@ -1,8 +1,8 @@
 ---
-title: 'Phase 6: Umsteigen von der Pilotbereitstellung in die Produktion'
+title: 'Phase 6: Migration von der Pilotbereitstellung zur Produktionsbereitstellung'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af65324bc20d47bf12804c045a3c1beb62134fd5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e51e252fe670b85a2aeb3e827b37465be00ac68e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189648"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189648"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6: Umsteigen von der Pilotbereitstellung in die Produktion
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6: Migration von der Pilotbereitstellung zur Produktionsbereitstellung
 
 </div>
 
@@ -43,7 +43,7 @@ In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem V
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren von Verbund Routen und Mediendatenverkehr](configure-federation-routes-and-media-traffic.md)
+  - [Konfigurieren von Partnerverbundrouten und Mediendatenverkehr](configure-federation-routes-and-media-traffic.md)
 
   - [Überprüfen des Partnerverbunds und des Remotezugriffs für externe Benutzer](verify-federation-and-remote-access-for-external-users.md)
 

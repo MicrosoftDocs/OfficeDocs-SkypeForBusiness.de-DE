@@ -1,8 +1,8 @@
 ---
 title: Verlagern eines einzelnen Benutzers in den Pilot Pool
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move a single user to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20f4e85c2f34a2e4319b14f310d2a9360cb274d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189891"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189891"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Sie können einen Benutzer aus dem Office Communications Server 2007 R2 Pool mithilfe lync Server 2013 Systemsteuerung oder lync Server 2013 Verwaltungsshell in den lync Server 2013 Pilot Pool migrieren. Im Beispiel unten in der Spalte registrierungsstellenpool ist ** \<Office Communications Server\> ** der Office Communications Server 2007 R2-Pool, und alle sechs dieser Benutzer sind mit diesem Pool verbunden. Verwenden Sie die folgenden Verfahren, um einen Benutzer mithilfe lync Server 2013 Systemsteuerung und lync Server-Verwaltungsshell in ihren lync Server 2013 Pool zu versetzen.
+Sie können einen Benutzer aus dem Office Communications Server 2007 R2 Pool mithilfe lync Server 2013 Systemsteuerung oder lync Server 2013 Verwaltungsshell in den lync Server 2013 Pilot Pool migrieren. Im Beispiel unten in der Spalte registrierungsstellenpool befindet sich **\<Office Communications Server\>** der Office Communications Server 2007 R2 Pool, und alle sechs dieser Benutzer sind mit diesem Pool verbunden. Verwenden Sie die folgenden Verfahren, um einen Benutzer mithilfe lync Server 2013 Systemsteuerung und lync Server-Verwaltungsshell in ihren lync Server 2013 Pool zu versetzen.
 
 ![Suchen nach OCS-Benutzern in lync Server-Systemsteuerung](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Suchen nach OCS-Benutzern in lync Server-Systemsteuerung")
 

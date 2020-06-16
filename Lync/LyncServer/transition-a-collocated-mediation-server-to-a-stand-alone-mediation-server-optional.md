@@ -1,8 +1,8 @@
 ---
 title: Übergang einer verbundenen Vermittlungsserver zu einem eigenständigen Vermittlungsserver (optional)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4140732fd5d091f3ed03e2dadd2f827a24531e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189158"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,13 +49,13 @@ Führen Sie das folgende Verfahren aus, um einen Vermittlungsserver, der mit ein
 
 3.  Klicken Sie mit der rechten Maustaste auf **Vermittungspools**, und klicken Sie dann auf **Neuer Vermittlungsserver**.
 
-4.  Geben Sie auf der Seite **Neuen Vermittlungspool definieren** den vollqualifizierten Domänennamen (FQDN) des neuen Vermittlungsserverpools ein. Geben Sie außerdem an, ob dieser Pool einen einzelnen oder mehrere Server enthalten soll, und klicken Sie dann auf **Weiter**.
+4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
 
 5.  Wählen Sie den nächsten Front-End-Server-Hoppool aus, an den der neue Vermittlungsserver eingehende Anrufe weiterleiten soll, und klicken Sie auf **Weiter**.
 
 6.  Wählen Sie den Edgepool aus, der von dem neuen Vermittlungsserver verwendet werden soll, und klicken Sie auf **Weiter**.
 
-7.  Ordnen Sie auf der Seite **PSTN-Gateways angeben** das vorherige PSTN-Gateway dem Vermittlungsserver zu. Wählen Sie das Gateway aus, und klicken Sie dann auf **Hinzufügen**.
+7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
 
 8.  Klicken Sie auf **Fertig stellen**, um den Assistenten zum Definieren eines neuen Vermittlungspools **** zu schließen.
 

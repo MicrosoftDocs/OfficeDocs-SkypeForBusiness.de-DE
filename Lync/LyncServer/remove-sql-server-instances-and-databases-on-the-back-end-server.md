@@ -1,8 +1,8 @@
 ---
-title: Entfernen SQL Server Instanzen und Datenbanken auf dem Back-End-Server
+title: Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove SQL Server instances and databases on the Back End Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd97f461486a873bcfade12fe7359c43ba5680c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dbd5a681be1395038116be32b3267be07213af1b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189478"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189478"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Entfernen SQL Server Instanzen und Datenbanken auf dem Back-End-Server
+# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server
 
 </div>
 
@@ -45,11 +45,11 @@ Um die Datenbanken oder Instanzen für die Archivierungsserver oder Monitoring S
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Entfernen der SQL Server Datenbank für eine Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md)
+  - [Entfernen der SQL Server-Datenbank für einen Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md)
 
-  - [Entfernen der SQL Server Datenbank für einen Monitoring Server](remove-the-sql-server-database-for-a-monitoring-server.md)
+  - [Entfernen der SQL Server-Datenbank für einen Monitoring Server](remove-the-sql-server-database-for-a-monitoring-server.md)
 
-  - [Entfernen der SQL Server Datenbank für einen Archivierungs Server](remove-the-sql-server-database-for-an-archiving-server.md)
+  - [Entfernen der SQL Server-Datenbank für einen Archivierungsserver](remove-the-sql-server-database-for-an-archiving-server.md)
 
 </div>
 

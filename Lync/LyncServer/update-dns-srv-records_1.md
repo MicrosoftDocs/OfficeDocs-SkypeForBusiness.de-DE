@@ -1,8 +1,8 @@
 ---
-title: Aktualisieren von DNS-SRV-Einträgen
+title: Aktualisieren von DNS SRV-Einträgen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Update DNS SRV records
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9df74033156e03cf7047b4d4bfbb2dbc83595b9b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9bb3c5a3f74d3a85fbc5742514a92015df08d5c9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189088"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755659"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189088"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a>Aktualisieren von DNS-SRV-Einträgen
+# <a name="update-dns-srv-records"></a>Aktualisieren von DNS SRV-Einträgen
 
 </div>
 
@@ -45,9 +45,9 @@ In diesem Thema wird beschrieben, wie Sie die Domain Name System (DNS) Datensät
 
 1.  Klicken Sie auf dem DNS-Server auf **Start**, klicken Sie auf **Verwaltung** und anschließend auf **DNS**.
 
-2.  Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne den Knoten **Forward-Lookupzonen**, erweitern Sie die SIP-Domäne, in der lync Server 2013 installiert ist, und navigieren Sie zur ** \_TCP** -Einstellung.
+2.  Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne den Knoten **Forward-Lookupzonen**, erweitern Sie die SIP-Domäne, in der lync Server 2013 installiert ist, und navigieren Sie zur ** \_ TCP** -Einstellung.
 
-3.  Klicken Sie im rechten Bereich mit der rechten Maustaste auf ** \_sipinternaltls** , und wählen Sie **Eigenschaften**aus.
+3.  Klicken Sie im rechten Bereich mit der rechten Maustaste auf ** \_ sipinternaltls** , und wählen Sie **Eigenschaften**aus.
 
 4.  Aktualisieren Sie unter Host, der **diesen Dienst anbietet**den Host-FQDN so, dass er auf den lync Server 2013 Pool zeigt.
 
@@ -61,7 +61,7 @@ In diesem Thema wird beschrieben, wie Sie die Domain Name System (DNS) Datensät
 
 3.  Geben Sie im Feld **Öffnen** die Zeichenfolge **cmd** ein, und klicken Sie dann auf **OK**.
 
-4.  Geben Sie an der Eingabeaufforderung **nslookup** \<-FQDN des Front-End-Pool\> oder \<FQDN des Standard Edition-Server\>ein, und drücken Sie dann die EINGABETASTE.
+4.  Geben Sie an der Eingabeaufforderung **nslookup** \<FQDN of the Front End pool\> oder \<FQDN of the Standard Edition server\> ein, und drücken Sie dann die EINGABETASTE.
 
 5.  Stellen Sie sicher, dass eine Antwort zurückgegeben wird, in welcher der FQDN in die zugehörige IP-Adresse aufgelöst wurde.
 

@@ -1,8 +1,8 @@
 ---
 title: Migrieren von Exchange Unified Messaging-Kontaktobjekten
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c9a16251ca49d4d5179ed3ad72e4d0307beb4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189894"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,9 +75,9 @@ Zum Migrieren von Kontaktobjekten der automatischen Telefonzentrale (AA) und des
 
 2.  Navigieren Sie zum Skript Skript "ExchUCUtil Windows PowerShell.
     
-    In Exchange 2007 befindet sich Skript "exchucutil. ps1 unter: **% Program Files%\\Microsoft\\Exchange Server\\Scripts\\Skript" exchucutil. ps1**
+    In Exchange 2007 befindet sich ExchUCUtil.ps1 unter: **% Program Files% \\ Microsoft \\ Exchange Server \\ Scripts \\ExchUCUtil.ps1**
     
-    In Exchange 2010 befindet sich Skript "exchucutil. ps1 unter: **% Program Files%\\Microsoft\\Exchange Server\\V14\\Scripts\\Skript" exchucutil. ps1**
+    In Exchange 2010 befindet sich ExchUCUtil.ps1 unter: **% Program Files% \\ Microsoft \\ Exchange Server V14- \\ \\ Skripts \\ExchUCUtil.ps1**
 
 3.  Wenn Exchange in einer einzigen Gesamtstruktur bereitgestellt wird, geben Sie Folgendes ein:
     

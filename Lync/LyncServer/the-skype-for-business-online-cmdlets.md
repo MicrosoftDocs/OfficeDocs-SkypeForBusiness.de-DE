@@ -1,8 +1,8 @@
 ---
 title: Die Skype for Business Online-Cmdlets
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189188"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189188"
 
 _**Letztes Änderungsstand des Themas:** 2013-07-05_
 
-Wenn Sie mithilfe von Windows PowerShell eine Verbindung mit Skype for Business Online herstellen, wird eine Sammlung von Skype for Business Online-Cmdlets im Arbeitsspeicher auf Ihren Computer kopiert. Diese Cmdlets, zusätzlich zu anderen Cmdlets, die Sie bereits auf Ihrem lokalen Computer haben (einschließlich der Kern-Cmdlets, die bei der Installation von Windows PowerShell installiert werden), stehen dann für die Verwaltung Ihrer Skype for Business Online-Bereitstellung und Ihres Skype for zur Verfügung. Business Online-Benutzerkonten. Die Skype for Business Online-Cmdlets werden in den folgenden Themen vorgestellt:
+Wenn Sie mithilfe von Windows PowerShell eine Verbindung mit Skype for Business Online herstellen, wird eine Sammlung von Skype for Business Online-Cmdlets im Arbeitsspeicher auf Ihren Computer kopiert. Diese Cmdlets, zusätzlich zu anderen Cmdlets, die Sie bereits auf Ihrem lokalen Computer haben (einschließlich der Kern-Cmdlets, die bei der Installation von Windows PowerShell installiert werden), stehen dann für die Verwaltung Ihrer Skype for Business Online-Bereitstellung und ihrer Skype for Business Online Benutzerkonten zur Verfügung. Die Skype for Business Online-Cmdlets werden in den folgenden Themen vorgestellt:
 
   - [Verwalten von Skype for Business Online Mandanten](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 

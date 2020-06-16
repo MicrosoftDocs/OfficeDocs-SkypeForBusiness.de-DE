@@ -1,8 +1,8 @@
 ---
-title: Entfernen von Archivierungs-und Monitoring Servern der Vorversion
+title: Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove legacy Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83e0decfbf79aa4be81c47fd66014b10ccbcba22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b4f149db04be75cec961478f4382b3e7a333e0a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189528"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757096"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189528"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungs-und Monitoring Servern der Vorversion
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "42189528"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-26_
 
-Wenn Ihre Office Communications Server 2007 R2-Bereitstellung eine Archivierungsserver oder einen Monitoring Server enthielt, können diese Server nach der Migration zu lync Server 2013 aus der vorversions Umgebung entfernt werden, vorausgesetzt, alle Benutzer wurden aus den verbleibenden Office Communications Server 2007 R2 Pools. Die Archivierungsserver oder Monitoring Server können in beliebiger Reihenfolge entfernt werden. Die Hauptanforderung besteht darin, dass alle Benutzer aus den verbleibenden Office Communications Server 2007 R2 Pools entfernt wurden.
+Wenn die Office Communications Server 2007 R2-Bereitstellung einen Archivierungsserver oder einen Monitoring Server enthielt, können diese Server nach der Migration zu lync Server 2013 aus der vorversions Umgebung entfernt werden, vorausgesetzt, alle Benutzer wurden aus den verbleibenden Office Communications Server 2007 R2 Pools entfernt. Die Archivierungsserver oder Monitoring Server können in beliebiger Reihenfolge entfernt werden. Die Hauptanforderung besteht darin, dass alle Benutzer aus den verbleibenden Office Communications Server 2007 R2 Pools entfernt wurden.
 
 Sie können Benutzer aus Office Communications Server 2007 R2 in lync Server 2013 umsetzen, indem Sie die Schritte unter [Phase 6: Benutzer in den Pilot Pool migrieren](phase-6-move-users-to-the-pilot-pool.md).
 
-Nachdem Sie bestätigt haben, dass alle Benutzer aus den verbleibenden Pools entfernt wurden, führen Sie das Verfahren unter "Entfernen von Servern und [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)Serverrollen" unter aus.
+Nachdem Sie bestätigt haben, dass alle Benutzer aus den verbleibenden Pools entfernt wurden, führen Sie das Verfahren unter "Entfernen von Servern und Serverrollen" unter aus [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887) .
 
 </div>
 

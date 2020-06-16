@@ -1,8 +1,8 @@
 ---
 title: Überprüfen der Konfigurationseinstellungen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7655547ff4f3e528b3948a537bbd5e85f351ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188978"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +95,7 @@ Nachdem Sie die Topologie zusammengeführt und das **Import-CsLegacyConfiguratio
 
 ## <a name="to-verify-policies-and-settings"></a>So überprüfen Sie Richtlinien und Einstellungen
 
-1.  Notieren Sie sich in Ihrer Office Communications Server 2007 R2 Umgebung die Namen von Wähleinstellungen (früher als Standortprofile bezeichnet), Einwahlnummern (Zugriffs Telefonnummern und Regionen für die Konferenzzentrale), VoIP-Routen und die Richtlinien in der Liste obige Tabelle zusätzlich zu den für Communicator-Webzugriff verwendeten URLs.
+1.  Notieren Sie sich in Ihrer Office Communications Server 2007 R2 Umgebung die Namen von Wähleinstellungen (früher als Standortprofile bezeichnet), Einwahlnummern (Zugriffs Telefonnummern und Regionen für die Konferenzzentrale), VoIP-Routen und die in der obigen Tabelle aufgeführten Richtlinien zusätzlich zu den für Communicator-Webzugriff verwendeten URLs.
 
 2.  Öffnen Sie auf dem lync Server 2013-Front-End-Server lync Server-Systemsteuerung.
 

@@ -1,8 +1,8 @@
 ---
-title: Entfernen von Archivierungs-und Monitoring Servern der Vorversion
+title: Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove legacy Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23209752263222be3521c6ddb9f9e03bd86d0808
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d77292fe478fa95deec50df84a78907af4290e3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209421"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209421"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungs-und Monitoring Servern der Vorversion
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 
 </div>
 
@@ -41,7 +41,7 @@ Wenn die Legacy Bereitstellung eine Archivierungsserver oder ein Monitoring Serv
 
 Sie können Benutzer von lync Server 2010 in lync Server 2013 umsetzen, indem Sie die Schritte unter [Phase 4: verlagern von Testbenutzern in den Pilot Pool](phase-4-move-test-users-to-the-pilot-pool.md)beschrieben.
 
-Nachdem Sie bestätigt haben, dass alle Benutzer aus den verbleibenden Pools entfernt wurden, führen Sie das Verfahren unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Server Rollen" aus, das [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)unter heruntergeladen werden kann.
+Nachdem Sie bestätigt haben, dass alle Benutzer aus den verbleibenden Pools entfernt wurden, führen Sie das Verfahren unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Server Rollen" aus, das unter heruntergeladen werden kann [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: Setup
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Setup
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3aa6ee2de6ae44875c526e8f07425f2cc8a8bc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e6975c37b201edf25bbe470de9bd00abdececcb
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196058"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756856"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Befolgen Sie diese Anweisungen, um die im Rahmen von lync Server 2013 Stress and
 
 ## <a name="installing-the-stress-and-performance-tool"></a>Installieren des Belastungs-und Leistungstools
 
-Führen Sie die Windows Installer-Datei **CapacityPlanningTool. msi**auf jedem Clientcomputer aus, den Sie verwenden werden, um den Benutzerdatenverkehr zu simulieren. Auf diesen Clientcomputern dürfen keine lync Server Komponenten durchführen.
+Führen Sie die Windows Installer-Datei **CapacityPlanningTool.msi**auf jedem Clientcomputer aus, den Sie verwenden werden, um den Benutzerdatenverkehr zu simulieren. Auf diesen Clientcomputern dürfen keine lync Server Komponenten durchführen.
 
 </div>
 

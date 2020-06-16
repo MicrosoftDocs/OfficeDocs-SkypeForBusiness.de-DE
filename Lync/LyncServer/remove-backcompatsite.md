@@ -1,8 +1,8 @@
 ---
 title: Entfernen von "BackCompatSite"
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove BackCompatSite
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d41d333e834dba34da2a1a04854571d721e94e38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 792fcf29033a7495a7da340decb561e25084612d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209448"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

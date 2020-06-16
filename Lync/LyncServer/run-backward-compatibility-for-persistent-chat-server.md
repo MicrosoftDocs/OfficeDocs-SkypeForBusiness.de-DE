@@ -1,8 +1,8 @@
 ---
 title: Ausführen der Abwärtskompatibilität für den Server für beständigen Chat
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d107c13d281001196dcad17604d0bfbbb9e522
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189338"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755769"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42189338"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Der Serverendpunkt für beständigen Chat mit lync Server 2013 bietet eine Möglichkeit zum Erstellen einer einfachen URL, die auf einen Serverpool für beständigen Chat zeigt. Dies ist nützlich für ältere Clients (Microsoft Office Communications Server 2007 R2 Gruppenchat Server oder lync Server 2010 Gruppenchat), da Benutzer eine einfache URL in die manuelle Konfiguration eingeben können, wenn Sie versuchen, den Legacyclient auf einen Computer mit lync 2013 zu deuten, Beständiger Chat. Dieser Endpunkt wird nicht vom beständigen Chat verwendet und ist nur für ältere Clients erforderlich. Dies ist für die Zwischenzeit nützlich, in der Räume möglicherweise migriert werden, aber die lync 2013 Clients nicht in der gesamten Organisation bereitgestellt wurden. Benutzer, die lync 2010 Gruppen Chat (Client) durchführen, können dann weiterhin eine Verbindung mit dem Back-End-Server des Servers für beständigen Chat herstellen.
+Der Serverendpunkt für beständigen Chat mit lync Server 2013 bietet eine Möglichkeit zum Erstellen einer einfachen URL, die auf einen Serverpool für beständigen Chat zeigt. Dies ist nützlich für Legacy-Clients (Microsoft Office Communications Server 2007 R2 Gruppenchat Server oder lync Server 2010 Gruppenchat), da Benutzer eine einfache URL in die manuelle Konfiguration eingeben können, wenn Sie versuchen, den Legacy-Client auf einen Computer mit lync 2013, beständigen Chat, zu deuten. Dieser Endpunkt wird nicht vom beständigen Chat verwendet und ist nur für ältere Clients erforderlich. Dies ist für die Zwischenzeit nützlich, in der Räume möglicherweise migriert werden, aber die lync 2013 Clients nicht in der gesamten Organisation bereitgestellt wurden. Benutzer, die lync 2010 Gruppen Chat (Client) durchführen, können dann weiterhin eine Verbindung mit dem Back-End-Server des Servers für beständigen Chat herstellen.
 
 Sie müssen nicht mehrere persistent Chat-Server Endpunkte erstellen; Sie benötigen nur einen für jeden Server Pool für beständigen Chat. Administratoren können mehrere Endpunkte (eine pro Pool) erstellen, ältere Clients können jedoch so konfiguriert werden, dass jeweils nur eine Verbindung mit einem Pool hergestellt wird. Im üblichen oder Mainstream-Szenario ist die Legacy-Bereitstellung nur ein Pool. Eine neue Bereitstellung migriert diesen Pool im Allgemeinen zu einem neuen lync Server 2013 und fügt möglicherweise einige neue Server Pools für beständigen Chat hinzu.
 
 Übliche Szenarien weisen i. d. R. folgendes Muster auf:
 
-  - Sie verwalten Benutzer mit einem lync Server 2010, einem Gruppenchat Pool und ihren lync 2010 Gruppenchatclients, die eine Verbindung mit diesem Pool herstellen, indem Sie einen bekannten Benutzer verwenden (entweder\<Standard SIP\>: OCSChat@ Domänenname. com oder eine ähnliche). Die Benutzer sind SIP-fähige Active Directory-Domänendienste, und der Nachschlage Dienst registriert sich mit diesen, um eingehende Anforderungen zu empfangen.
+  - Sie verwalten Benutzer mit einem lync Server 2010, einem Gruppenchat Pool und ihren lync 2010 Gruppenchatclients, die eine Verbindung mit diesem Pool herstellen, indem Sie einen bekannten Benutzer verwenden (entweder standardmäßig SIP: OCSChat@ \<domainName\> . com oder ein ähnliches). Die Benutzer sind SIP-fähige Active Directory-Domänendienste, und der Nachschlage Dienst registriert sich mit diesen, um eingehende Anforderungen zu empfangen.
 
   - Anschließend installieren Sie einen Serverpool für beständiger Chat von lync Server 2013 Server und einen beständigen Chat.
 

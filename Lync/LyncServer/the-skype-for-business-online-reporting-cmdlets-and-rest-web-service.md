@@ -1,8 +1,8 @@
 ---
 title: Die Cmdlets für die Skype for Business Online Berichterstellung und Rest-Webdienst
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
@@ -12,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189178"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ Die für Administratoren verfügbaren Berichts-Cmdlets umfassen Folgendes:
 
   - Get-CsP2PSessionReport, das Informationen über die Anzahl und den Typ von Peer-zu-Peer-Sitzungen bereitstellt, an denen Benutzer teilgenommen haben.
 
-Die meisten Administratoren verwenden die Berichte, die im Microsoft 365 Admin Center zur Verfügung stehen: Diese Berichte werden nicht nur automatisch generiert, sondern bieten auch eine grafische Darstellung der Daten, die häufig einfacher zu interpretieren sind als die unformatierten Zahlenwerte, die von der Cmdlets für die Berichterstellung. Administratoren, die mit Windows PowerShell vertraut sind, können jedoch mithilfe der Cmdlets für die Berichterstellung Daten zurückgeben, die in den lync Online Berichten nicht leicht verfügbar sind. Beispielsweise werden mit den Cmdlets für die Berichterstellung Informationen zur Sitzungsdauer zurückgegeben (der Zeitraum in Minuten, in dem jede Sitzung dauerte). Einzelne Sitzungsdauer sind nicht verfügbar, wenn Sie die lync Online Berichte verwenden. Dementsprechend werden in den lync Online Berichten in der täglichen Ansicht nur Informationen für die vorhergehenden 14 Tage angezeigt. Wenn Sie die Tagessummen für einen anderen Tag (beispielsweise ein Datum aus vier Monaten) überprüfen möchten, können Sie dies mithilfe der Cmdlets für die Berichterstellung tun.
+Die meisten Administratoren verwenden die Berichte, die im Microsoft 365 Admin Center zur Verfügung stehen: Diese Berichte werden nicht nur automatisch generiert, sondern bieten auch eine grafische Darstellung der Daten, die häufig einfacher zu interpretieren sind als die von den Berichts-Cmdlets zurückgegebenen unformatierten Zahlenwerte. Administratoren, die mit Windows PowerShell vertraut sind, können jedoch mithilfe der Cmdlets für die Berichterstellung Daten zurückgeben, die in den lync Online Berichten nicht leicht verfügbar sind. Beispielsweise werden mit den Cmdlets für die Berichterstellung Informationen zur Sitzungsdauer zurückgegeben (der Zeitraum in Minuten, in dem jede Sitzung dauerte). Einzelne Sitzungsdauer sind nicht verfügbar, wenn Sie die lync Online Berichte verwenden. Dementsprechend werden in den lync Online Berichten in der täglichen Ansicht nur Informationen für die vorhergehenden 14 Tage angezeigt. Wenn Sie die Tagessummen für einen anderen Tag (beispielsweise ein Datum aus vier Monaten) überprüfen möchten, können Sie dies mithilfe der Cmdlets für die Berichterstellung tun.
 
 Administratoren sind möglicherweise auch an dem Artikel interessiert, der [Excel zum Abrufen von Office 365 Berichtsdaten](https://msdn.microsoft.com/library/dn781442.aspx)verwendet, in dem die Verwendung der OData-Datenabfrage Funktion in Microsoft Excel zum Erstellen eines benutzerdefinierten Office 365-Berichts erläutert wird. Benutzerdefinierte Berichte bieten Ihnen die Möglichkeit zu diktieren, welche Daten (und wie viele Daten) vom Office 365 Berichtsdienst zurückgegeben werden. Mit benutzerdefinierten Berichten können Sie auch solche Dinge tun, die angeben, wie die Daten sortiert und gruppiert werden sollen, und den Zugriff auf Informationen ermöglichen, die nicht im Admin Center angezeigt werden.
 

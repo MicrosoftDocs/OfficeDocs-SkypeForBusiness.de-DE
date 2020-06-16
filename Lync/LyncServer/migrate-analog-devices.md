@@ -1,8 +1,8 @@
 ---
-title: Migrieren von analogen Geräten
+title: Migrieren analoger Geräte
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate analog devices
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bc1c3420c22f4cc58bd0e617fd9ba98e16102c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 70e756fdaa49fc4c825a2c8548eb2c7f2e4acab2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210013"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757016"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42210013"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-analog-devices"></a>Migrieren von analogen Geräten
+# <a name="migrate-analog-devices"></a>Migrieren analoger Geräte
 
 </div>
 

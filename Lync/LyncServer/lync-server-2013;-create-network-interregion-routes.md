@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013; Erstellen von Netzwerk interregions Routen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,12 +13,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72917dc3ef179e0c27de6d47e599746a97e0540e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210241"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42210241"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Eine *regionenübergreifende Netzwerkroute* definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine regionenübergreifende Netzwerkroute erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen.
+A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
 
 Während die Regionenverbindungen Bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen, bestimmt eine regionenübergreifende Route, welchen Verknüpfungspfad die Verbindung von einer Region zur anderen nimmt.
 
@@ -99,9 +99,9 @@ In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenüber
 
 5.  Klicken Sie auf der Seite **Neue Regionenroute** auf **Name**, und geben Sie einen Namen für die regionenübergreifende Netzwerkroute ein.
 
-6.  Klicken Sie auf **netzwerkregion \#1**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie zu \#netzwerkregion 2 weiterleiten möchten.
+6.  Klicken Sie auf **netzwerkregion \# 1**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie zu netzwerkregion 2 weiterleiten möchten \# .
 
-7.  Klicken Sie auf **netzwerkregion \#2**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie zu \#netzwerkregion 1 weiterleiten möchten.
+7.  Klicken Sie auf **netzwerkregion \# 2**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie zu netzwerkregion 1 weiterleiten möchten \# .
 
 8.  Klicken Sie neben dem Feld **Netzwerkregionenverbindungen** auf **Hinzufügen**, und fügen Sie eine Netzwerkregionenverbindung hinzu, die in der regionenübergreifenden Netzwerkroute verwendet werden soll.
     
@@ -109,7 +109,7 @@ In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenüber
     
 
     > [!NOTE]  
-    > Wenn Sie eine Route für zwei Netzwerkregionen erstellen, die nicht über eine direkte Netzwerkregionenverbindung verbunden sind, müssen alle erforderlichen Verbindungen zum Vervollständigen der Route hinzugefügt werden. Für die regionenübergreifende Netzwerkroute "North America/APAC" werden beispielsweise zwei Netzwerkregionenverbindungen benötigt, da zwischen diesen beiden Regionen keine direkte Netzwerkregionenverbindung vorhanden ist.
+    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
     </div>

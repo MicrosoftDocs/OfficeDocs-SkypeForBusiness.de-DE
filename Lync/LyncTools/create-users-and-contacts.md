@@ -1,8 +1,8 @@
 ---
 title: Erstellen von Benutzern und Kontakten
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Create Users and Contacts
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76b8016079cd130a814da410df5e5a5b151d8702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188688"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42188688"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-22_
 
-Sie müssen das lync Server 2013-Benutzer Bereitstellungs Tool (UserProvisioningTool. exe) verwenden, um Benutzer und Kontakte in Vorbereitung auf Stress-und Leistungs Auslastungstests zu erstellen.
+Sie müssen das lync Server 2013-Benutzer Bereitstellungs Tool (UserProvisioningTool.exe) verwenden, um Benutzer und Kontakte in Vorbereitung auf Stress-und Leistungs Auslastungstests zu erstellen.
 
 Im folgenden finden Sie eine Liste von Begriffen und Definitionen, die Sie beim Durchlesen dieses Themas hilfreich finden.
 
   - Organisationseinheit – die Active Directory-Domänendienste Organisationseinheit (Organizational Unit, OU).
 
-  - Verbund/Cross-Pool – Benutzer, die für die Kommunikation mit Benutzern von anderen Chat Diensten (Instant Messaging) wie MSN-Netzwerk mit Internet Diensten, AOL® und Yahoo\!-® aktiviert werden.
+  - Verbund/Cross-Pool – Benutzer, die für die Kommunikation mit Benutzern von anderen Chat Diensten (Instant Messaging) wie MSN-Netzwerk mit Internet Diensten, AOL® und Yahoo-® aktiviert werden \! .
 
   - Verteilerlisten – die Objekte in Active Directory-Domänendienste, die eine Liste der Active Directory-Domänendienste-Benutzer enthalten, die zum Starten der Kommunikation mit Personengruppen verwendet werden.
 
@@ -53,15 +53,15 @@ Im folgenden finden Sie eine Liste von Begriffen und Definitionen, die Sie beim 
 
 <div>
 
-## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Erstellen von Benutzern und Kontakten mithilfe von UserProvisioningTool. exe
+## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Erstellen von Benutzern und Kontakten mithilfe von UserProvisioningTool.exe
 
-Zum Erstellen von Benutzern und Kontakten für die Auslastungssimulation müssen Sie das lync Server Benutzer prodienste-Tool verwenden. Das lync Server-Benutzer Prothesen-Tool wird mit dem lync Server Stress and Performance Tool Package installiert. Stellen Sie sicher, dass das Paketinstallationsprogramm (CapacityPlanningTool. msi) auf dem Front-End-Server oder dem Standard Edition-Server ausgeführt wurde. Starten Sie das lync Server Benutzer bereitstellen-Tool, indem Sie die Datei UserProvisioningTool. exe (befindet sich unter%\\InstalledDirectory% LyncStressAndPerfTool LyncStress) auf der Front-End-Server oder auf der Standard Edition-Server.
+Zum Erstellen von Benutzern und Kontakten für die Auslastungssimulation müssen Sie das lync Server Benutzer prodienste-Tool verwenden. Das lync Server-Benutzer Prothesen-Tool wird mit dem lync Server Stress and Performance Tool Package installiert. Stellen Sie sicher, dass das Paketinstallationsprogramm (CapacityPlanningTool.msi) auf dem Front-End-Server oder dem Standard Edition-Server ausgeführt wurde. Starten Sie das lync Server Benutzer Bereitstellung-Tool, indem Sie die Datei UserProvisioningTool.exe (befindet sich unter% InstalledDirectory% LyncStressAndPerfTool \\ LyncStress) auf der Front-End-Server oder auf dem Standard Edition-Server.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Sie müssen als Mitglied der Sicherheitsgruppe "Domänen-Admins" angemeldet sein, um UserProvisioningTool. exe ausführen zu können. Sie müssen in diesem Kontext ausgeführt werden, da UserProvisioningTool. exe neue Active Directory-Domänendienste Benutzer erstellt und konfiguriert.
+> Sie müssen als Mitglied der Sicherheitsgruppe "Domänen-Admins" angemeldet sein, um UserProvisioningTool.exe ausführen zu können. Sie müssen in diesem Kontext ausgeführt werden, da UserProvisioningTool.exe neue Active Directory-Domänendienste Benutzer erstellen und konfigurieren.
 
 
 
@@ -71,13 +71,13 @@ Zum Erstellen von Benutzern und Kontakten für die Auslastungssimulation müssen
 
 
 > [!NOTE]  
-> Wenn Sie eine große Anzahl von Benutzern (10.000 oder mehr) erstellen, führen Sie UserProvisioningTool. exe auf einem High-End-Computer aus. Beachten Sie, dass der Domänencontroller auch bei der Erstellung der Benutzer eine hohe Auslastung erfahren wird.
+> Wenn Sie eine große Anzahl von Benutzern (10.000 oder mehr) erstellen, führen Sie UserProvisioningTool.exe von einem High-End-Computer aus. Beachten Sie, dass der Domänencontroller auch bei der Erstellung der Benutzer eine hohe Auslastung erfahren wird.
 
 
 
 </div>
 
-Wenn das lync Server Benutzer ProTools geöffnet wird, klicken Sie auf **Konfiguration** und dann auf Konfiguration **Laden**. Laden Sie die Standarddatei, die im Paket enthalten ist, SampleData. XML, um mit der Konfiguration von Benutzern und Kontakten zu beginnen. Dadurch werden die Felder mit Beispieldaten vorab gefüllt, die Sie für Ihr System überarbeiten müssen. Wenn Sie über eine vorkonfigurierte XML-Datei verfügen, die bereits angepasste Einstellungen enthält, laden Sie diese Datei stattdessen. Füllen Sie die Felder im lync Server Benutzer protoolieren aus, wie in den folgenden Abschnitten beschrieben.
+Wenn das lync Server Benutzer ProTools geöffnet wird, klicken Sie auf **Konfiguration** und dann auf Konfiguration **Laden**. Laden Sie die Standarddatei, die im Paket enthalten ist, SampleData.xml, um mit der Konfiguration von Benutzern und Kontakten zu beginnen. Dadurch werden die Felder mit Beispieldaten vorab gefüllt, die Sie für Ihr System überarbeiten müssen. Wenn Sie über eine vorkonfigurierte XML-Datei verfügen, die bereits angepasste Einstellungen enthält, laden Sie diese Datei stattdessen. Füllen Sie die Felder im lync Server Benutzer protoolieren aus, wie in den folgenden Abschnitten beschrieben.
 
 ![Registerkarte "Benutzererstellung".](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Registerkarte "Benutzererstellung".")
 
@@ -133,7 +133,7 @@ Wenn Sie auf die Schaltfläche Benutzer löschen klicken, werden alle Eingabepar
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>Nur US-formatierte Telefonnummern werden unterstützt. Telefonnummern werden immer Benutzern zugewiesen, und alle von UserProvisioningTool. exe erstellten Benutzer sind für Enterprise-VoIP aktiviert. Alle Szenarien, die die Telefonnummer wie automatische Telefonzentrale für Konferenzen oder UC-PSTN-Anrufe verwenden, verwenden diese Telefonnummer, um Anrufe ordnungsgemäß weiterzuleiten. Aus diesem Grund muss jeder Benutzer eine eindeutige Telefonnummer haben. Wenn Sie Benutzer zweimal erstellen müssen, tritt beim Ausführen des Befehls ein Fehler auf, es sei denn, Sie verwenden eine andere Vorwahl oder wenn die vorherigen Benutzer mithilfe des Cmdlets <STRONG>Disable-CsUser</STRONG> deaktiviert wurden.</P>
+> <P>Nur US-formatierte Telefonnummern werden unterstützt. Telefonnummern werden immer Benutzern zugewiesen, und alle von UserProvisioningTool.exe erstellten Benutzer sind für Enterprise-VoIP aktiviert. Alle Szenarien, die die Telefonnummer wie automatische Telefonzentrale für Konferenzen oder UC-PSTN-Anrufe verwenden, verwenden diese Telefonnummer, um Anrufe ordnungsgemäß weiterzuleiten. Aus diesem Grund muss jeder Benutzer eine eindeutige Telefonnummer haben. Wenn Sie Benutzer zweimal erstellen müssen, tritt beim Ausführen des Befehls ein Fehler auf, es sei denn, Sie verwenden eine andere Vorwahl oder wenn die vorherigen Benutzer mithilfe des Cmdlets <STRONG>Disable-CsUser</STRONG> deaktiviert wurden.</P>
 > <LI>
 > <P>Bevor Sie Kontakte erstellen, müssen Sie zuerst die Benutzerreplikation ausführen, die auf der Registerkarte Benutzer ausgeführt wird. Wenn Sie Ihre Benutzer soeben erstellt haben, müssen Sie warten, bis lync Server Replikation abgeschlossen ist und die Benutzerkonten in der Datenbank auffüllen. Wenn die Replikation der Benutzer noch nicht abgeschlossen ist, wird ein Fehler angezeigt. Sie wissen, wann Benutzer die Replikation abgeschlossen haben, wenn lync Server 2013 Front-End-Dienst gestartet wurde, oder indem Sie das Cmdlet <STRONG>Get-CsUser</STRONG> für den letzten Benutzer erfolgreich ausführen.</P></LI></OL>
 
@@ -229,7 +229,7 @@ Eines der Features des Tools lync Server 2013 Stress und Leistung ist das Generi
 
 ![Registerkarte "Location Info Service config".](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Registerkarte "Location Info Service config".")
 
-Wenn Sie dieses Feature testen möchten, können Sie die im Formular genannten Werte eingeben und dann auf die Schaltfläche "LIS-Konfigurationsdateien generieren" klicken. Es generiert CSV-Dateien namens "\_LIS Subnet. csv"\_, "LIS Switches\_. csv", "LIS\_Ports. csv" und "LIS WAP. csv". Anschließend können Sie diese CSV-Dateien mithilfe des Cmdlets " **CsLisSubnet** ", des Cmdlets " **setCsLisSwitch** ", des Cmdlets " **setCsLisPort** " und des Cmdlets "Sets- **CsWirelessAccessPoint** " in die LIS-Datenbank importieren.
+Wenn Sie dieses Feature testen möchten, können Sie die im Formular genannten Werte eingeben und dann auf die Schaltfläche "LIS-Konfigurationsdateien generieren" klicken. Es generiert CSV-Dateien, die als LIS \_ -Subnet.csv, LIS- \_Switches.csv, LIS- \_Ports.csv und Lis-WAP.csv bezeichnet werden \_ . Anschließend können Sie diese CSV-Dateien mithilfe des Cmdlets " **CsLisSubnet** ", des Cmdlets " **setCsLisSwitch** ", des Cmdlets " **setCsLisPort** " und des Cmdlets "Sets- **CsWirelessAccessPoint** " in die LIS-Datenbank importieren.
 
 </div>
 

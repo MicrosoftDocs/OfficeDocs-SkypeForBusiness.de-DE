@@ -1,8 +1,8 @@
 ---
 title: Migrieren des Adressbuchs
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42d28161eab03d494dd5ebb3771c0879dd3dbb99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210124"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ Im Allgemeinen wird das lync Server 2010 Adressbuch zusammen mit der restlichen 
 
 **Gruppierte Adressbucheinträge**
 
-Wenn Sie die WMI-Eigenschaft **PartitionbyOU** auf "True" festgelegt haben, sodass für jede Organisationseinheit Adressbücher erstellt werden, müssen Sie das Active Directory-Attribut **msRTCSIP-GroupingId** für Benutzer und Kontakte festlegen, wenn Adressbucheinträge weiterhin gruppiert werden sollen. Das Gruppieren von Adressbucheinträgen ist vorteilhaft, um den Umfang von Adressbuchsuchen einzugrenzen. Zur Verwendung des **msRTCSIP-GroupingId**-Attributs schreiben Sie ein Skript zum Auffüllen des Attributs, wobei Sie allen Benutzern, die in einer Gruppe zusammengefasst werden sollen, den gleichen Wert zuweisen. Beispiel: Weisen Sie allen Benutzern in einer Organisationseinheit einen einzigen Wert zu.
+If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
 
 **Adressbuch-Normalisierungsregeln**
 
@@ -57,7 +57,7 @@ Wenn Sie die Regeln für die Adressbuch Normalisierung in ihrer lync Server 2010
 
 
 > [!NOTE]  
-> Wenn in Ihrer Organisation Remoteanrufsteuerung verwendet wird und Sie Normalisierungsregeln für Adressbücher angepasst haben, müssen Sie das Verfahren in diesem Thema ausführen, bevor Sie die Remoteanrufsteuerung nutzen können. Dazu müssen Sie Mitglied der Gruppe "RTCUniversalServerAdmins" sein oder gleichwertige Rechte innehaben.
+> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
 
 
 
@@ -71,22 +71,22 @@ Wenn Sie den Wert für **UseNormalizationRules** auf false festlegen, damit Benu
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>So migrieren Sie angepasste Normalisierungsregeln für Adressbücher
 
-1.  Suchen Sie die\_\_Datei "\_Normalisierung\_Rules. txt" im Stammverzeichnis des freigegebenen Adressbuch Ordners, und kopieren Sie Sie in den Stamm des freigegebenen Adressbuch Ordners in Ihrem lync Server 2013 Pilot-Pool.
+1.  Suchen Sie die \_ Normalisierung der Firmentelefonnummer \_ \_ \_Rules.txt Datei im Stammverzeichnis des freigegebenen Adressbuch Ordners, und kopieren Sie Sie in den Stamm des freigegebenen Adressbuch Ordners in Ihrem lync Server 2013-Pilot Pool.
     
     <div>
     
 
     > [!NOTE]  
-    > Die Beispiele für die Normalisierungsregeln für Adressbücher wurden in Ihrem ABS Web-Komponentendateiverzeichnis installiert. Der Pfad lautet <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Diese Datei kann in das Stammverzeichnis des &nbsp;freigegebenen Adressbuch Ordners kopiert und in <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;umbenannt werden. Beispielsweise ist das in <STRONG>$serverX</STRONG>freigegebene&nbsp;Adressbuch der Pfad ähnlich wie: <STRONG> \\$serverX \LyncFileShare\2-Webservices-1\ABFiles</STRONG>.
+    > Die Beispiele für die Normalisierungsregeln für Adressbücher wurden in Ihrem ABS Web-Komponentendateiverzeichnis installiert. Der Pfad lautet <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Diese Datei kann kopiert und als &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; in das Stammverzeichnis des freigegebenen Adressbuch Ordners umbenannt werden. Beispielsweise ist das in <STRONG>$serverX</STRONG>freigegebene Adressbuch &nbsp; der Pfad ähnlich wie: <STRONG> \\ $serverX \LyncFileShare\2-Webservices-1\ABFiles</STRONG>.
 
     
     </div>
 
-2.  Verwenden Sie einen Text-Editor wie Editor, um die Datei "\_Normalisierung\_\_\_Rules. txt" für Firmen Telefonnummern zu öffnen.
+2.  Verwenden Sie einen Text-Editor wie Editor, um die \_ \_ \_ Normalisierung \_Rules.txt Datei für Firmennummern zu öffnen.
 
 3.  Bestimmte Typen von Einträgen funktionieren in lync Server 2013 nicht ordnungsgemäß. Durchsuchen Sie die Datei nach den hier beschriebenen Typen von Einträgen, bearbeiten Sie die Einträge entsprechend, und speichern Sie die Änderungen im freigegebenen Adressbuchordner im Pilotpool.
     
-    Zeichenfolgen, die erforderliche Leerzeichen oder Satzzeichen enthalten, können Fehler bei der Ausführung der Normalisierungsregeln verursachen, weil diese Zeichen aus den Zeichenfolgen, die in die Normalisierungsregeln eingelesen werden, entfernt werden. Wenn Sie Zeichenfolgen mit erforderlichen Leerzeichen oder Satzzeichen haben, müssen Sie diese Zeichenfolgen bearbeiten. Beispielsweise würde die folgende Zeichenfolge einen Fehler bei der Normalisierungsregel verursachen:
+    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
@@ -114,7 +114,7 @@ Wenn Sie den Wert für **UseNormalizationRules** auf false festlegen, damit Benu
 
 3.  Warten Sie, bis die Replikation des zentralen Verwaltungsspeichers in allen Pools ausgeführt wird.
 
-4.  Ändern Sie die Regeldatei für die Normalisierung der Telefon\_\_Nummer\_, "Normalisierung\_Rules. txt" für Ihre Bereitstellung, um den Inhalt zu löschen. Die Datei befindet sich in der Dateifreigabe der einzelnen lync Server 2013 Pools. Wenn die Datei nicht vorhanden ist, erstellen Sie eine leere Datei mit dem Namen\_"\_Company\_Phone Number\_normalize Rules. txt".
+4.  Ändern Sie die Regeldatei für die Telefon Normalisierung, "NormalisierungRules.txt für Unternehmens- \_ Telefon \_ Nummern \_ \_ ", damit Ihre Bereitstellung den Inhalt löscht. Die Datei befindet sich in der Dateifreigabe der einzelnen lync Server 2013 Pools. Wenn die Datei nicht vorhanden ist, erstellen Sie eine leere Datei mit dem Namen "Unternehmens- \_ Telefon \_ Nummer \_ Normalisierung \_Rules.txt".
 
 5.  Warten Sie einige Minuten, bis alle Front-End-Pools die neuen Dateien gelesen haben.
 

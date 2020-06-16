@@ -1,8 +1,8 @@
 ---
 title: Zusammenführen mithilfe des Zusammenführungs-Assistenten für Topologie-Generator
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Merge using Topology Builder Merge wizard
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc25e73e2eb62e8d1b43fee4ce4350d8ae05b354
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4760dcd8810d12b112c3bb042e0f28a039683a08
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210171"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757046"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,13 +47,13 @@ _**Letztes Änderungsstand des Themas:** 2012-10-02_
     
     ![Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"")  
 
-5.  Geben Sie in **Edgesetup angeben** den Typ der Edgeserverkonfiguration ein, und klicken Sie auf **Weiter**. In diesem Beispiel wird die Option **Einzelner Edgeserver** verwendet.
+5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Erweiterte Edgebereitstellung</STRONG> ist keine unterstützte Konfiguration. Ein <STRONG>Erweiterter Edgeserver</STRONG> muss zuerst in einen <STRONG>Einzelnen Edgeserver</STRONG> oder ein <STRONG>Konsolidiertes Edge mit Lastenausgleich</STRONG> umgewandelt werden.
+    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
 
     
     </div>
@@ -68,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Führen Sie den nächsten Schritt dieses Verfahrens aus, bevor Sie auf <STRONG>Weiter</STRONG> klicken. Dieser Schritt darf auf keinen Fall ausgelassen werden.
+    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
 
     
     </div>

@@ -1,8 +1,8 @@
 ---
-title: 'Phase 8: Außerbetriebnahme von Legacy Pools'
+title: 'Phase 8: Außerbetriebsetzen der Legacypools'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 474cc5ee3f508ed5a9069f3e8625bcc6ee451153
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209491"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209491"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>Phase 8: Außerbetriebnahme von Legacy Pools
+# <a name="phase-8-decommission-legacy-pools"></a>Phase 8: Außerbetriebsetzen der Legacypools
 
 </div>
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2016-12-08_
 
 Das folgende Thema bietet Anleitungen zum Aktualisieren von DNS-Einträgen, zum Verschieben des Inhalts Verwaltungsservers, zur Außerbetriebnahme von Pools und zum Deaktivieren und Entfernen von Servern und Pools aus einer Legacy Bereitstellung von lync Server 2010. Es sind nicht alle der in diesem Abschnitt aufgeführten Verfahren notwendig. Lesen Sie die Dokumentation, um das Verfahren zu ermitteln, das Sie für die Außerbetriebsetzung ausführen möchten.
 
-Ausführliche Informationen zum Entfernen lync Server 2010 Server und Serverrollen sowie eine schrittweise Anleitung zur Außerbetriebnahme einer lync Server 2010-Bereitstellung finden Sie unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Serverrollen", die unter [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)heruntergeladen werden können.
+Ausführliche Informationen zum Entfernen lync Server 2010 Server und Serverrollen sowie eine schrittweise Anleitung zur Außerbetriebnahme einer lync Server 2010-Bereitstellung finden Sie unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Serverrollen", die unter heruntergeladen werden können [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 <div>
 
@@ -56,7 +56,7 @@ Ausführliche Informationen zum Entfernen lync Server 2010 Server und Serverroll
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
   - <span></span>  
-    [Aktualisieren von DNS-SRV-Einträgen](update-dns-srv-records.md)
+    [Aktualisieren von DNS SRV-Einträgen](update-dns-srv-records.md)
 
   - <span></span>  
     [Legen Sie den lync Server 2010 zentralen Verwaltungs Server auf lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
@@ -68,13 +68,13 @@ Ausführliche Informationen zum Entfernen lync Server 2010 Server und Serverroll
     [Entfernen der Zuordnung des Archivierungsservers](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [Entfernen der Monitoring Server-Zuordnung](remove-the-monitoring-server-association.md)
+    [Entfernen der Zuordnung der Monitoring Server](remove-the-monitoring-server-association.md)
 
   - <span></span>  
     [Entfernen der Enterprise Edition-Front-End-Server oder Standard Edition Front-End-Server](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [Entfernen SQL Server Instanzen und Datenbanken auf dem Back-End-Server](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

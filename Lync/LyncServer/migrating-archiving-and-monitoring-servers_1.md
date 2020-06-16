@@ -1,8 +1,8 @@
 ---
-title: Migrieren von Archivierungs-und Monitoring Servern
+title: Migrieren von Archivierungsservern und Monitoring Servern
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67896576fce21eea630533a5826bbcbc53392fa0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43b7c7509dcf678967db651900c67cdfb3d26685
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209851"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209851"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungs-und Monitoring Servern
+# <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungsservern und Monitoring Servern
 
 </div>
 
@@ -51,7 +51,7 @@ Wenn Sie während der Phase der Migration und Koexistenz Archivierungs- und Übe
     
 
     > [!NOTE]  
-    > Während der Migrationsphase, in der Sie weiterhin den Legacy-Edgeserver mit dem neuen lync Server 2013-Pilot Pool verwenden, sammelt die Office Communications Server 2007 R2-Version von Archivierungsserver weiterhin Daten für Benutzer, die in Office Communications Server 2007 verwaltet werden. R2-Pools und die lync Server 2013 Version von Archivierungsserver sammelt Daten für Benutzer, die in lync Server 2013 Pools verwaltet werden.
+    > Während der Migrationsphase, in der Sie weiterhin den Legacy-Edgeserver mit dem neuen lync Server 2013-Pilot Pool verwenden, sammelt die Office Communications Server 2007 R2 Version von Archivierungsserver weiterhin Daten für Benutzer, die in Office Communications Server 2007 R2 Pools verwaltet werden, und die lync Server 2013 Version von Archivierungsserver sammelt Daten für Benutzer, die in lync Server 2013 Pools verwaltet werden.
 
     
     </div>

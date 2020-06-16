@@ -1,8 +1,8 @@
 ---
 title: Migrationsprozess – Details
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6df1eb2e0f69f79bd299f2da4f6f12aaba1bb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189948"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,7 +66,7 @@ Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben, bevor
 
 Führen Sie die folgenden Schritte aus, um die Quelldaten für die Migration ordnungsgemäß vorzubereiten.
 
-1.  Sichern Sie die Quelldatenbanken entweder für lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat. Ausführliche Informationen zum Sichern von SQL Server finden Sie unter "Übersicht über Sicherungen (SQL Server)" <https://go.microsoft.com/fwlink/p/?linkid=254851>unter.
+1.  Sichern Sie die Quelldatenbanken entweder für lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat. Ausführliche Informationen zum Sichern von SQL Server finden Sie unter "Übersicht über Sicherungen (SQL Server)" unter <https://go.microsoft.com/fwlink/p/?linkid=254851> .
     
     <div>
     
@@ -141,7 +141,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Legacy-Gruppen Chat Server zu m
 
 8.  Portieren Sie den lync Server 2010-, Gruppenchat-oder Office Communications Server 2007 R2 Gruppenchat-Suchserver-URI in das Kontaktobjekt für den lync Server 2013 persistent Chat Server. Die folgenden Schritte sind erforderlich, wenn Ihre lync 2010 Gruppenchats oder Office Communicator 2007 R2 Gruppenchatclients nach der Migration ohne clientseitige Konfigurationsänderungen eine Verbindung mit dem neuesten lync 2013, beständigen Chat (Client) herstellen müssen:
     
-      - Löschen Sie das\<Benutzerkonto\>OCSChat@ Domain Name. com Lookup Server. Dies wurde verwendet, um auf den Suchdienst in lync Server 2010, Gruppen Chat, zu deuten. Sie können den Pool deinstallieren und später vertrauenswürdige Einträge entfernen.
+      - Löschen Sie das \<domainName\> Benutzerkonto OCSChat@. com Lookup Server. Dies wurde verwendet, um auf den Suchdienst in lync Server 2010, Gruppen Chat, zu deuten. Sie können den Pool deinstallieren und später vertrauenswürdige Einträge entfernen.
     
       - Erstellen Sie einen Legacy Endpunkt (Kontaktobjekt für beständigen Chat Server), indem Sie das Windows PowerShell **-Cmdlet New-cspersistentchatendpoint "** mit dem identischen SIP-URI ausführen, sodass der Legacyclient beim Neustart des Diensts effektiv funktioniert.
     
@@ -163,7 +163,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Legacy-Gruppen Chat Server zu m
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013 unterstützt mehrere Server Pools für beständigen Chat. Wir unterstützen jedoch die Migration eines lync 2010 Gruppenchats&nbsp;oder Office Communications Server 2007 R2 Gruppen-Chat Pools in einen einzelnen lync Server 2013 Server Pool für beständigen Chat. Sie können zusätzliche neue Server Pools für beständigen Chat in Ihrer Bereitstellung hinzufügen, um die regulatorischen Anforderungen zu erfüllen (beispielsweise das Beibehalten von Daten in einer bestimmten Geografie).
+    > Lync Server 2013 unterstützt mehrere Server Pools für beständigen Chat. Wir unterstützen jedoch die Migration eines lync 2010 Gruppenchats oder Office Communications Server 2007 R2 &nbsp; Gruppen-Chat Pools in einen einzelnen lync Server 2013 Server Pool für beständigen Chat. Sie können zusätzliche neue Server Pools für beständigen Chat in Ihrer Bereitstellung hinzufügen, um die regulatorischen Anforderungen zu erfüllen (beispielsweise das Beibehalten von Daten in einer bestimmten Geografie).
 
     
     </div>

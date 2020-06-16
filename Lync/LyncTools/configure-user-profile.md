@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren des Benutzerprofils
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure User Profile
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c53f156aee56aa1986302bf2ff2514aef78af592
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6615e283e0e426e738cd3cdaf714dd90f57b393e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188758"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Mit den im lync Server 2013 Stress and Performance Tool-Paket enthaltenen Tools 
 
 ## <a name="running-the-lync-server-2013-load-configuration-tool"></a>Ausführung des lync Server 2013 Lade Konfigurationstools
 
-Zum Konfigurieren von Benutzerprofilen führen Sie das lync Server 2013 laden-Konfigurations Tool (UserProfileGenerator. exe) aus, und füllen Sie die einzelnen Registerkarten aus. UserProfileGenerator. exe generiert ein Verzeichnis für jeden Clientcomputer, den Sie zum Ausführen der Simulation benötigen. Jedes Clientverzeichnis enthält auch ein Skript zum Starten aller Instanzen des lync Server 2013 Stress and Performance Tool (LyncPerfTool. exe).
+Zum Konfigurieren von Benutzerprofilen führen Sie das lync Server 2013 Konfigurations Tool für die Auslastung (UserProfileGenerator.exe) aus, und füllen Sie die einzelnen Registerkarten aus. UserProfileGenerator.exe generiert ein Verzeichnis für jeden Clientcomputer, den Sie zum Ausführen der Simulation benötigen. Jedes Clientverzeichnis enthält auch ein Skript zum Starten aller Instanzen des lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
 
 <div>
 
@@ -65,13 +65,13 @@ Die folgende Abbildung zeigt die Registerkarte " **Allgemeine Konfiguration** " 
 
 ![Allgemeine Konfigurationsregisterkarte.](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Allgemeine Konfigurationsregisterkarte.")
 
-1.  Geben Sie unter **Anzahl der verfügbaren**Computer die Anzahl von Computern ein, die Sie zum Ausführen von LyncPerfTool. exe verwenden möchten, oder klicken Sie darauf. Es wird empfohlen, dass Sie einen Computer für jeden 4.500-Benutzer haben, den Sie simulieren werden. Diese Nummer kann variieren, wenn Sie die Auslastungsstufe verringern oder wenn Sie nur eine Teilmenge der verfügbaren Features verwenden. (Auf der Registerkarte **Allgemeine Szenarien** werden Ladestufen festgelegt.)
+1.  Geben Sie unter **Anzahl der verfügbaren**Computer die Anzahl von Computern ein, die Sie zum Ausführen LyncPerfTool.exe verwenden möchten, oder klicken Sie auf. Es wird empfohlen, dass Sie einen Computer für jeden 4.500-Benutzer haben, den Sie simulieren werden. Diese Nummer kann variieren, wenn Sie die Auslastungsstufe verringern oder wenn Sie nur eine Teilmenge der verfügbaren Features verwenden. (Auf der Registerkarte **Allgemeine Szenarien** werden Ladestufen festgelegt.)
 
-2.  Geben Sie unter **Präfix für Benutzernamen**das Präfix für den Benutzernamen der Benutzer ein. Um sich anzumelden, wird der URI (Uniform Resource Identifier): UserPrefix\[User Start Index... (Anzahl der Benutzer-1) \]@User Domäne.
+2.  Geben Sie unter **Präfix für Benutzernamen**das Präfix für den Benutzernamen der Benutzer ein. Um sich anzumelden, wird der URI (Uniform Resource Identifier): UserPrefix \[ User Start Index... (Anzahl der Benutzer-1) \] @User Domäne.
 
 3.  Geben Sie unter **Kennwort für alle Benutzer**das Kennwort ein, das zum Erstellen der Benutzer verwendet wurde. Wenn Sie dieses Feld leer lassen, wird der Benutzername als Kennwort verwendet.
 
-4.  Klicken Sie im **Start Index des Benutzers**auf oder geben Sie den Index des ersten Benutzers ein, der konfiguriert werden soll. Sie können verschiedene Bereiche für verschiedene Typen oder Last Ebenen konfigurieren, aber Sie müssen UserProfileGenerator. exe einmal pro Bereich ausführen, den Sie konfigurieren möchten.
+4.  Klicken Sie im **Start Index des Benutzers**auf oder geben Sie den Index des ersten Benutzers ein, der konfiguriert werden soll. Sie können verschiedene Bereiche für verschiedene Typen oder Last Ebenen konfigurieren, aber Sie müssen UserProfileGenerator.exe einmal pro Bereich ausführen, den Sie konfigurieren möchten.
 
 5.  Klicken Sie unter **Anzahl der Benutzer**auf oder geben Sie die Gesamtzahl der Benutzer ein, die Sie konfigurieren möchten.
 
@@ -79,7 +79,7 @@ Die folgende Abbildung zeigt die Registerkarte " **Allgemeine Konfiguration** " 
 
 7.  Geben Sie unter **Kontodomäne**die Active Directory-Domänendienste Domänenanmeldung ein.
 
-8.  Geben Sie die maximale Anzahl gleichzeitiger Endpunkte in der **Anmeldung pro Sekunde (pro Instanz)** ein, für die das Tool sich in allen Endpunkten/Benutzern anmelden soll. Die empfohlene Rate beträgt \<= 2 pro Sekunde/Standard-SKU Fe.
+8.  Geben Sie die maximale Anzahl gleichzeitiger Endpunkte in der **Anmeldung pro Sekunde (pro Instanz)** ein, für die das Tool sich in allen Endpunkten/Benutzern anmelden soll. Die empfohlene Rate beträgt \< = 2 pro Sekunde/Standard-SKU Fe.
 
 9.  Geben Sie in **Zugriffs Proxy oder Pool-FQDN**den vollqualifizierten Domänennamen (FQDN) des Servers ein, mit dem die Clients eine Verbindung herstellen möchten. Wenn sich die Benutzer extern anmelden, geben Sie den Zugriffsproxy an. Wenn die Benutzer intern sind, geben Sie den FQDN des Pools oder Standard Edition-Server an.
 
@@ -116,7 +116,7 @@ Konfigurieren Sie die Ladestufen und Parameter für jedes der allgemeinen Szenar
 
 4.  Geben Sie in **Datenzusammenarbeit**, einschließlich Datenkonferenzen, den entsprechenden Wert für die Auslastungsstufe an.
 
-5.  Geben Sie in **Verteilerlistenerweiterung**den entsprechenden Wert für die Auslastungsstufe an. Sie müssen auch auf die Schaltfläche **erweitert** klicken und dann die Felder mit den gleichen Werten ausfüllen, die Sie auf der Registerkarte **Verteilerliste** des lync Server Benutzer Erstellungstools (UserProvisioningTool. exe) konfiguriert haben. Ausführliche Informationen zu diesen Feldern finden Sie unter [Create users and Contacts](create-users-and-contacts.md) .
+5.  Geben Sie in **Verteilerlistenerweiterung**den entsprechenden Wert für die Auslastungsstufe an. Sie müssen auch auf die Schaltfläche **erweitert** klicken und dann die Felder mit den gleichen Werten ausfüllen, die Sie auf der Registerkarte **Verteilerliste** des lync Server Benutzer Erstellungstools (UserProvisioningTool.exe) konfiguriert haben. Ausführliche Informationen zu diesen Feldern finden Sie unter [Create users and Contacts](create-users-and-contacts.md) .
 
 6.  Geben Sie in der **Adressbuch-Webabfrage**, bei der es sich um den Adressbuch Suchdienst (nicht den Adressbuchdatei Download) handelt, den entsprechenden Wert für die Auslastungsstufe an. Klicken Sie zum Aktivieren der Adressbuch Downloads auf die entsprechende Schaltfläche **erweitert** , und legen Sie **EnableABSDownload** auf true fest.
 
@@ -207,7 +207,7 @@ Verwenden Sie die Registerkarte **Mobilität** , um alle mobilitätsbezogenen Sz
 
 1.  Klicken Sie auf die Schaltfläche **erweitert** neben **Mobility (UCWA)**. Legen Sie das Feld **UcwaTargetServerUrl** auf die Directorpool virtuelle IP (VIP) oder die Front-End-Pool VIP fest.
 
-2.  Wählen Sie in **Anwesenheits-\\und P2P-Chat-Audio**den entsprechenden Wert für die **Auslastungsstufe** aus, um die Mobilitäts Szenario-Simulation zu aktivieren.
+2.  Wählen Sie in **Anwesenheits-und P2P \\ -Chat-Audio**den entsprechenden Wert für die **Auslastungsstufe** aus, um die Mobilitäts Szenario-Simulation zu aktivieren.
 
 <div>
 
@@ -229,7 +229,7 @@ Die Registerkarte " **Zusammenfassung** " des lync Server 2013 Tools zum Laden d
 
 ![Registerkarte Zusammenfassung.](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Registerkarte Zusammenfassung.")
 
-Auf der Registerkarte **Zusammenfassung** wird angegeben, welche Benutzer für welche Szenarien verwendet werden sollen. Benutzernummern Bereiche können manuell konfiguriert werden, indem das Kontrollkästchen Benutzer **definierte Benutzerbereichs Generierung aktivieren aktiviert** ist, und dann doppelklicken Sie auf das Szenario in der Tabelle mit dem **Benutzerbereich** , den Sie anpassen möchten. Überprüfen Sie (RunClient. bat) beim Starten eine Anmelde Verzögerung hinzufügen, um Verzögerungen in den generierten Batchdateien einzuschließen, die dem Anmelderate entsprechen. Dies ist hilfreich, um eine Serverüberlastung zu verhindern, wenn eine große Anzahl von Benutzern signiert wird. Klicken Sie auf **Dateien generieren**, und wählen Sie den Ordner aus, in dem die Konfiguration generiert werden soll. Ein Dialogfeld wie die folgende Abbildung wird angezeigt, wenn Ihre Dateien erfolgreich erstellt wurden.
+Auf der Registerkarte **Zusammenfassung** wird angegeben, welche Benutzer für welche Szenarien verwendet werden sollen. Benutzernummern Bereiche können manuell konfiguriert werden, indem das Kontrollkästchen Benutzer **definierte Benutzerbereichs Generierung aktivieren aktiviert** ist, und dann doppelklicken Sie auf das Szenario in der Tabelle mit dem **Benutzerbereich** , den Sie anpassen möchten. Überprüfen Sie (RunClient.bat) beim Start eine Anmelde Verzögerung hinzufügen, um Verzögerungen in den generierten Batchdateien einzuschließen, die dem Anmelderate entsprechen. Dies ist hilfreich, um eine Serverüberlastung zu verhindern, wenn eine große Anzahl von Benutzern signiert wird. Klicken Sie auf **Dateien generieren**, und wählen Sie den Ordner aus, in dem die Konfiguration generiert werden soll. Ein Dialogfeld wie die folgende Abbildung wird angezeigt, wenn Ihre Dateien erfolgreich erstellt wurden.
 
 ![Bestätigung, dass Dateien erstellt wurden.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Bestätigung, dass Dateien erstellt wurden.")
 

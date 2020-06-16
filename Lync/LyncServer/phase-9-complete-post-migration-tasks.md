@@ -1,8 +1,8 @@
 ---
 title: 'Phase 9: Ausführen von Aufgaben nach der Migration'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d1ef8c74a0ac14fd99cabb676a63ca176697fc9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209481"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,13 +53,13 @@ In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie ausführe
 
   - [Aktivieren der Remoteanrufsteuerung](enable-remote-call-control.md)
 
-  - [Entfernen von Archivierungs-und Monitoring Servern der Vorversion](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Entfernen von Archivierungsservern und Monitoring Servern der Vorversion](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [Migrieren des Vermittlungsservers](migrate-mediation-server.md)
 
   - [Konfigurieren von vertrauenswürdigen Anwendungsservern](configure-trusted-application-servers_1.md)
 
-  - [Konfigurieren der Seite für den besprechungsbeitritt](configure-the-meeting-join-page_1.md)
+  - [Konfigurieren der Seite für den Besprechungsbeitritt](configure-the-meeting-join-page_1.md)
 
   - [Bereitstellen von lync Server 2013 Clients](deploy-lync-server-2013-clients_1.md)
 

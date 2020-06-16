@@ -1,8 +1,8 @@
 ---
 title: Migrieren von Reaktionsgruppen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190148"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +73,7 @@ Um Reaktionsgruppen aus einem Legacy Pool in die lync Server 2013 zu migrieren, 
 
 </div>
 
-Nachdem Sie die Reaktionsgruppen migriert haben, müssen Sie die URL aktualisieren, mit der formelle Agents sich bei ihren Reaktionsgruppen an-und abmelden, und lync Server-Systemsteuerung-oder lync Server-Verwaltungsshell-Cmdlets verwenden, um zu überprüfen, ob alle Agentgruppen, Warteschlangen und Workflows verschoben wurden. erfolgreich.
+Nachdem Sie die Reaktionsgruppen migriert haben, müssen Sie die URL aktualisieren, mit der formelle Agents sich bei ihren Reaktionsgruppen an-und abmelden, und mithilfe von lync Server-Systemsteuerung-oder lync Server-Verwaltungsshell-Cmdlets sicherstellen, dass alle Agentgruppen, Warteschlangen und Workflows erfolgreich verschoben wurden.
 
 <div>
 
@@ -127,13 +127,13 @@ Bei dem Verfahren, das für die Migration von Reaktionsgruppen Konfigurationen b
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Wenn Sie die Registerkarte Reaktionsgruppe für Microsoft Office Communicator 2007 R2 in Ihrer Office Communications Server 2007 R2 Umgebung bereitgestellt haben, entfernen Sie die Registerkarte aus der Datei Office Communicator 2007 R2 Tabs. Xml.
+5.  Wenn Sie die Registerkarte Reaktionsgruppe für Microsoft Office Communicator 2007 R2 in Ihrer Office Communications Server 2007 R2 Umgebung bereitgestellt haben, entfernen Sie die Registerkarte aus der Office Communicator 2007 R2 tabs.xml Datei.
     
     <div>
     
 
     > [!NOTE]  
-    > Formelle Agents verwendeten die Reaktionsgruppen-Registerkarte zur Anmeldung an die entsprechenden Reaktionsgruppen, bevor sie Anrufe empfangen konnten. Wenn Sie die Registerkarte Reaktionsgruppe bereitgestellt haben, haben Sie den Speicherort für die Datei Office Communicator 2007 R2 Tabs. XML ausgewählt, als Sie sie bereitgestellt haben.
+    > Formelle Agents verwendeten die Reaktionsgruppen-Registerkarte zur Anmeldung an die entsprechenden Reaktionsgruppen, bevor sie Anrufe empfangen konnten. Wenn Sie die Registerkarte Reaktionsgruppe bereitgestellt haben, haben Sie den Speicherort für die Office Communicator 2007 R2 tabs.xml Datei ausgewählt, als Sie sie bereitgestellt haben.
 
     
     </div>
@@ -144,7 +144,7 @@ Bei dem Verfahren, das für die Migration von Reaktionsgruppen Konfigurationen b
     
 
     > [!NOTE]  
-    > Die URL ist in https://webpoolFQDN/RgsClients/Tab.aspxder Regel, wobei webpoolFQDN der vollqualifizierte Domänenname (FQDN) des webpools ist, der dem Pool zugeordnet ist, den Sie soeben zu lync Server 2013 migriert haben.
+    > Die URL ist in der Regel https://webpoolFQDN/RgsClients/Tab.aspx , wobei webpoolFQDN der vollqualifizierte Domänenname (FQDN) des webpools ist, der dem Pool zugeordnet ist, den Sie soeben zu lync Server 2013 migriert haben.
 
     
     </div>
