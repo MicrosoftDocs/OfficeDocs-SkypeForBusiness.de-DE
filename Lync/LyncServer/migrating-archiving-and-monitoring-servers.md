@@ -1,8 +1,8 @@
 ---
-title: Migrieren von Archivierungs-und Monitoring Servern
+title: Migrieren von Archivierungsservern und Monitoring Servern
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ba86de15ea86844b677db1abb0f47f7e1995c7e8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190098"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42190098"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungs-und Monitoring Servern
+# <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungsservern und Monitoring Servern
 
 </div>
 
@@ -51,7 +51,7 @@ Wenn Sie während des Migrationsvorgangs Archivierungs- und Überwachungsfunktio
     
 
     > [!NOTE]  
-    > Während der Migrationsphase, in der Sie weiterhin den Legacy-Edgeserver mit dem neuen lync Server 2013-Pilot Pool verwenden, sammelt die lync Server 2010 Version von Archivierungsserver weiterhin Daten für Benutzer, die in lync Server 2010 Pools verwaltet werden und in lync Server 2013 archiviert werden. sammelt Daten für Benutzer, die in lync Server 2013 Pools verwaltet werden.
+    > Während der Migrationsphase, in der Sie weiterhin den Legacy-Edgeserver mit dem neuen lync Server 2013-Pilot Pool verwenden, sammelt die lync Server 2010-Version von Archivierungsserver weiterhin Daten für Benutzer, die in lync Server 2010 Pools verwaltet werden, und archiviert in lync Server 2013 sammelt Daten für Benutzer, die in lync Server 2013 Pools verwaltet werden.
 
     
     </div>

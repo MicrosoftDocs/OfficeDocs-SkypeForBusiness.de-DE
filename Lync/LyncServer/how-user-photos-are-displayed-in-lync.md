@@ -1,8 +1,8 @@
 ---
 title: Anzeigen von Benutzer Fotos in lync
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: How user photos are displayed in Lync
@@ -12,12 +12,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b2c64d0a147457eb50a778d7909b3ccfbf8fecc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 88d6f6f6f5578994831fd15329988d963a295832
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180358"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,13 +93,13 @@ Wenn Sie die Standardoption " **Unternehmensbild** " auswählen, erhält lync da
 
 Der Benutzer kann das im Active Directory-Domänendienste Profil verwendete Bild nicht direkt über lync 2010-Client ändern. Sie können eine der folgenden Optionen verwenden, falls verfügbar:
 
-  - **SharePoint Server**   Benutzer können ein Foto auf einem SharePoint Server in "Meine Website" hochladen und dann die [Profilsynchronisierung in SharePoint konfigurieren](https://go.microsoft.com/fwlink/p/?linkid=507466) , um das Foto mit dem **thumbnailPhoto** -Attribut in Active Directory-Domänendienste zu synchronisieren.
+  - **SharePoint Server**     Benutzer können ein Foto auf einem SharePoint Server in "Meine Website" hochladen und dann die [Profilsynchronisierung in SharePoint konfigurieren](https://go.microsoft.com/fwlink/p/?linkid=507466) , um das Foto mit dem **thumbnailPhoto** -Attribut in Active Directory-Domänendienste zu synchronisieren.
 
-  - **Auf öffentlich zugänglichen URLs**   gespeicherte Fotos können Benutzer Fotos konfigurieren, die eine öffentlich zugängliche URL für das Bild angeben, das Sie verwenden möchten. Das Bild muss ohne Kennwort öffentlich zugänglich sein. Das Bild, das in der angegebenen Webadresse gespeichert ist, wird über die Visitenkarten Kategorie in den Anwesenheitsinformationen an andere Benutzer übertragen. Wenn der lync-Client ein Benutzer Foto anzeigen muss, ruft es das Bild aus der angegebenen Webadresse ab.
+  - **Auf öffentlich zugänglicher URL**     gespeichertes Foto Benutzer können Ihr Benutzer Foto so konfigurieren, dass eine öffentlich zugängliche URL für das Bild angegeben wird, das Sie verwenden möchten. Das Bild muss ohne Kennwort öffentlich zugänglich sein. Das Bild, das in der angegebenen Webadresse gespeichert ist, wird über die Visitenkarten Kategorie in den Anwesenheitsinformationen an andere Benutzer übertragen. Wenn der lync-Client ein Benutzer Foto anzeigen muss, ruft es das Bild aus der angegebenen Webadresse ab.
 
-  - **Exchange 2010-Cmdlets für Windows PowerShell**   Administratoren können das Cmdlet [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) in der Exchange 2010 Verwaltungsshell in ausführen, um das **thumbnailPhoto** -Attribut zu verwalten. Wenn Bilder mit Exchange 2010-Cmdlets importiert werden, ist die Dateigröße auf 10 KB limitiert.
+  - **Exchange 2010-Cmdlets für Windows PowerShell**     Administratoren können das Cmdlet [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) in der Exchange 2010 Management Shell in ausführen, um das **thumbnailPhoto** -Attribut zu verwalten. Wenn Bilder mit Exchange 2010-Cmdlets importiert werden, ist die Dateigröße auf 10 KB limitiert.
 
-  - **Drittanbietertools**   Benutzer können nur Ihr eigenes Foto für das **thumbnailPhoto** -Attribut hochladen.
+  - Tools von Dritt **Anbietern**     Benutzer können nur Ihr eigenes Foto für das **thumbnailPhoto** -Attribut hochladen.
 
 </div>
 
@@ -144,12 +144,12 @@ Der Wert des **DisplayPhoto** -Parameters bestimmt die Quelle des Foto Bilds des
 <tbody>
 <tr class="odd">
 <td><p>NoPhoto</p></td>
-<td><p>none</p></td>
+<td><p>keine</p></td>
 <td><p><strong>Mein Bild nicht anzeigen</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>PhotoFromADOnly</p></td>
-<td><p>Active Directory Domain Services</p></td>
+<td><p>Active Directory</p></td>
 <td><p><strong>Standardbild für Unternehmen</strong></p></td>
 </tr>
 <tr class="odd">
@@ -183,13 +183,13 @@ Im Anwesenheitsstatus enthaltene Benutzer Fotos weisen ebenfalls einen Hashwert 
 
 Die Abfrage an den ABWQ-Dienst umfasst die folgenden Attribute:
 
-  - **Photo Hash**   der Hashwert der binären Fotodaten und wird verwendet, um zu bestimmen, ob das aktuelle Foto geändert wurde.
+  - **Fotohash**     Der Hashwert der binären Foto Daten und wird verwendet, um zu bestimmen, ob das aktuelle Foto geändert wurde.
 
-  - **PhotoRelPath**   der relative Pfad zu der auf dem Server gespeicherten Abbilddatei.
+  - **PhotoRelPath**     Der relative Pfad zu der auf dem Server gespeicherten Abbilddatei.
 
-  - **Die Größe der**Bilddatei wird in Bytes abbildet.   
+  - **Photos**     Die Größe der Bilddatei in Byte.
 
-  - **Timestamp**   das Datum und die Uhrzeit, zu der die Bilddatei zuletzt vom Server heruntergeladen und in den Clientcache kopiert wurde.
+  - **Zeitstempel**     Das Datum und die Uhrzeit, zu der die Abbilddatei zuletzt vom Server heruntergeladen und in den Clientcache kopiert wurde.
 
 Als nächstes vergleicht lync 2010-Client die von der Abfrage zurückgegebenen Attributwerte mit den vom Client von der in-Band-Bereitstellung empfangenen Attributwerten, um zu sehen, ob Sie unterschiedlich sind, nachdem die Abbilddatei abgerufen wurde. Wenn die Werte unterschiedlich sind, ruft der Client die Bilddatei des angemeldeten Benutzers mit einer HTTP GET-Anforderung ab.
 
@@ -320,13 +320,13 @@ In lync 2013 werden drei Bildauflösungen für Benutzer Fotos unterstützt, wie 
 
 Jeder Benutzer mit einem in Exchange 2013 aktivierten Postfach kann ein anderes Bild, einschließlich hochauflösender Fotos, über Outlook Web Access oder lync 2013 Clientoptionen hochladen. Die empfohlenen Einstellungen für verwendete Bilder umfassen Folgendes:
 
-  - **Bildauflösung**   648 von 648 Pixel
+  - **Bildauflösung**     648 von 648 Pixel
 
-  - **Farbtiefe**   24-Bit
+  - **Farbtiefe**     24-Bit-Version
 
-  - **Bilddateigröße**   bis zu 20 MB
+  - **Bilddateigröße**     bis zu 20 MB
 
-  - **Dateiformat**   JPEG
+  - **Dateiformat**     JPEG
 
 Ein typisches 24-Bit-JPEG-Bild mit 648 Pixeln von 648 Pixel weist eine Dateigröße von etwa 240 KB auf, daher sind 1 MB Speicherplatz für alle 4 Benutzer Fotos erforderlich.
 

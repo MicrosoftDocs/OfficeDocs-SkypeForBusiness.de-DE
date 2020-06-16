@@ -1,8 +1,8 @@
 ---
-title: Bereitstellen von Pilot Edgeserver
+title: Bereitstellen eines Pilot-Edgeservers
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Deploy pilot Edge Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4d8fbf34e618c5bf41d3b005c70897c5dddb69
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ba616f6a5ce86e0f94c3b52afd60aaba34b7635
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180388"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180388"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a>Bereitstellen von Pilot Edgeserver
+# <a name="deploy-pilot-edge-server"></a>Bereitstellen eines Pilot-Edgeservers
 
 </div>
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2012-10-19_
 
 In diesem Thema werden Konfigurationseinstellungen hervorgehoben, die Sie vor der Bereitstellung Ihrer lync Server 2013 Edgeserver beachten sollten. Die Bereitstellungs-und Konfigurationsprozesse für lync Server 2013 ähneln lync Server 2010. In diesem Abschnitt sind nur die wichtigsten zu beachtenden Punkte für die Bereitstellung Ihres Pilotpools hervorgehoben. Ausführliche Anweisungen finden Sie unter [Deploying External User Access in lync Server 2013](lync-server-2013-deploying-external-user-access.md) in der Bereitstellungsdokumentation, in der der Bereitstellungsprozess beschrieben wird und der auch Konfigurationsinformationen für den Zugriff durch externe Benutzer enthält.
 
-Überprüfen Sie beim Navigieren durch den Assistenten zum **Definieren eines neuen Edgepools** die in den folgenden Schritten dargestellten wichtigen Konfigurationseinstellungen. Beachten Sie, dass nur einige der Seiten des Assistenten zum **Definieren eines neuen Edgepools** abgebildet sind.
+As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
 
 **Definieren eines Edgepools**
 

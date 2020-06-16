@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren von vertrauenswürdigen Anwendungsservern
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180748"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42180748"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-04_
 
-Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, nachdem Sie die Legacy Office Communications Server-Topologie mit lync Server 2013 zusammengeführt haben und einen neuen vertrauenswürdigen Anwendungsserver mithilfe des Topologie-Generators definiert haben, müssen Sie den Pool für den nächsten Hop so festlegen, dass er ein Lync Server 2013 Pool. In einer zusammengeführten Umgebung werden sowohl der Legacy Office Communications Server Pool als auch der lync Server 2013-Pool in der Dropdownliste angezeigt. Die Auswahl des Pools der Vorversion wird *nicht* unterstützt.
+Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, nachdem Sie die Legacy Office Communications Server-Topologie mit lync Server 2013 zusammengeführt haben und einen neuen vertrauenswürdigen Anwendungsserver mithilfe des Topologie-Generators definiert haben, müssen Sie den Pool für den nächsten Hop als lync Server 2013 Pool festlegen. In einer zusammengeführten Umgebung werden sowohl der Legacy Office Communications Server Pool als auch der lync Server 2013-Pool in der Dropdownliste angezeigt. Die Auswahl des Pools der Vorversion wird *nicht* unterstützt.
 
 <div>
 

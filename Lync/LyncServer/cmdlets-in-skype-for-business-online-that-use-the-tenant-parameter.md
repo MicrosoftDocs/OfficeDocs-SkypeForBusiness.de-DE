@@ -1,8 +1,8 @@
 ---
 title: Cmdlets in Skype for Business Online, die den Parameter "Mandant" verwenden
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 121133ce163b73bd0ddf49faa1db03ae352056d3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42000930"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755041"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets in Skype for Business Online, die den Parameter "Mandant" verwenden
 
@@ -29,7 +29,7 @@ Wenn Sie Ihre Einstellungen für öffentliche Anbieter ändern, müssen Sie imme
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Glücklicherweise müssen Sie nicht jedes Mal, wenn Sie eines dieser Cmdlets ausführen, die Mandanten-ID eingeben (beispielsweise bf19b7db-6960-41e5-A139-2aa373474354). Stattdessen können Sie die Mandanten-ID abrufen, indem Sie das Cmdlet [Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) ausführen, die Mandanten-ID in einer Variablen speichern und diese Variable dann verwenden, wenn Sie eines der anderen Cmdlets aufrufen. Beispiel:
+Glücklicherweise müssen Sie nicht jedes Mal, wenn Sie eines dieser Cmdlets ausführen, die Mandanten-ID eingeben (beispielsweise bf19b7db-6960-41e5-A139-2aa373474354). Stattdessen können Sie die Mandanten-ID abrufen, indem Sie das Cmdlet [Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) ausführen, die Mandanten-ID in einer Variablen speichern und diese Variable dann verwenden, wenn Sie eines der anderen Cmdlets aufrufen. Zum Beispiel:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"

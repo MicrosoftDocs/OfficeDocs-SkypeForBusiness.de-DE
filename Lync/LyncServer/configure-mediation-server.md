@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren von Vermittlungsserver
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure Mediation Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0705d51d321aba21a8bad7ba0e26351bf26bc5f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82da1720cab2e6895c53565da17c9411faabdfbd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180868"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,13 +39,13 @@ _**Letztes Änderungsstand des Themas:** 2012-09-28_
 
 In diesem Verfahren werden die Schritte zum Konfigurieren des lync Server 2013 Pools für die Verwendung der lync Server 2013 Vermittlungsserver anstelle des Legacy-Office Communications Server 2007 R2 Vermittlungsservers erläutert.
 
-Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen "RTCUniversalServerAdmins" und "Domänen-Admins" angemeldet sein. Es ist auch möglich, die geeigneten Administratorrechte und -berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von Setupberechtigungen in der Bereitstellungsdokumentation für Standard Edition-Server oder Enterprise Edition-Server. Für andere Konfigurationsänderungen müssen Sie lediglich Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
+To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
 
 <div>
 
 
 > [!NOTE]  
-> Aktuelle Informationen zur Suche nach qualifizierten PSTN-Gateways, IP-Nebenstellenanlagen und SIP-Trunking-Diensten, die mit lync Server 2013 zusammenarbeiten, finden Sie unter " <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A>Microsoft Unified Communications Open Interoperability Program" unter.
+> Aktuelle Informationen zur Suche nach qualifizierten PSTN-Gateways, IP-Nebenstellenanlagen und SIP-Trunking-Diensten, die mit lync Server 2013 zusammenarbeiten, finden Sie unter "Microsoft Unified Communications Open Interoperability Program" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A> .
 
 
 
@@ -63,7 +63,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
 
 4.  Geben Sie auf der Seite **Neues IP/PSTN-Gateway definieren** die folgenden Informationen ein:
     
-      - Geben Sie einen vollqualifizierten Domänennamen oder eine IP-Adresse für das Gateway ein. Der FQDN des Gateways ist notwendig, wenn das Gateway das TLS-Protokoll verwendet.
+      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
     
       - Übernehmen Sie den Standardwert von **Überwachungsport für das IP/PSTN-Gateway**, oder geben Sie den neuen Überwachungsport ein, falls er geändert wurde.
     

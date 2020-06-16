@@ -1,8 +1,8 @@
 ---
-title: Verbinden eines Survivable Branch Appliance
+title: Verbinden einer Survivable Branch Appliance
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Connect a Survivable Branch Appliance
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b65eed74396eb7c373230358f29366f7d6d18e5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0fcba962129353ddeb5e5f4c77520cf6d127733
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180588"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180588"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>Verbinden eines Survivable Branch Appliance
+# <a name="connect-a-survivable-branch-appliance"></a>Verbinden einer Survivable Branch Appliance
 
 </div>
 

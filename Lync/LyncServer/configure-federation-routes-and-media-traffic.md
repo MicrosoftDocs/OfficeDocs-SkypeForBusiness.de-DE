@@ -1,8 +1,8 @@
 ---
-title: Konfigurieren von Verbund Routen und Mediendatenverkehr
+title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f5b3e0a775af649b7210dd75dcf90d012f2e421
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180918"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180918"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Verbund Routen und Mediendatenverkehr
+# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
 </div>
 
@@ -65,7 +65,7 @@ Führen Sie die folgenden Verfahren aus, um die partnerverbundroute und die Medi
 
 
 > [!IMPORTANT]  
-> Wenn Ihr XMPP-Verbund über eine lync Server 2013 Edgeserver weitergeleitet wird, können Legacy lync Server 2010-Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer zu lync Server 2013 verschoben wurden, die XMPP-Richtlinien und-Zertifikate wurden konfiguriert ist, wurde der XMPP-Verbundpartner für lync Server 2013 konfiguriert, und schließlich wurden die DNS-Einträge aktualisiert.
+> Wenn Ihr XMPP-Verbund über eine lync Server 2013 Edgeserver weitergeleitet wird, können Legacy lync Server 2010 Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer in lync Server 2013 verschoben wurden, XMPP-Richtlinien und Zertifikate konfiguriert wurden, der XMPP-Verbundpartner für lync Server 2013 konfiguriert wurde und schließlich die DNS-Einträge aktualisiert wurden.
 
 
 
@@ -269,7 +269,7 @@ Führen Sie die folgenden Verfahren aus, um die partnerverbundroute und die Medi
     
 
     > [!NOTE]  
-    > Wenn Sie kein Hardwaregerät zum Lastenausgleich zur Verfügung haben, müssen Sie den DNS-A-Eintrag für den Partnerverbund aktualisieren, um das Problem für den neuen Lync Server-Zugriffs-Edgeserver zu lösen. Damit es mit geringstmöglicher Störung abgeschlossen werden kann, sollte Sie den TLL-Wert für den externen FQDN des Lync Server-Zugriffsedge reduzieren, sodass der Partnerverbund und der Remotezugriff schnell aktualisiert werden können, wenn die DNS aktualisiert wird, damit auf den neuen Lync Server-Zugriffsedge verwiesen werden kann.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
 
     
     </div>

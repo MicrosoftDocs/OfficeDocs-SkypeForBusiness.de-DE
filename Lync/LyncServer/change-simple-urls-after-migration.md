@@ -1,8 +1,8 @@
 ---
 title: Ändern einfacher URLs nach der Migration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: def26afe2bae21a7a3b6d0ffae4b358c76296e6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181028"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -40,9 +40,9 @@ _**Letztes Änderungsstand des Themas:** 2012-09-22_
 
 Lync Server unterstützt drei einfache URLs:
 
-  - **Meet**: Dient als Basis-URL für alle Konferenzen, die am Standort oder in der Organisation abgehalten werden. Mit der einfachen Meet-URL sind Links für den Besprechungsbeitritt einfach zu verstehen, leicht zu kommunizieren und zu verteilen.
+  - **Meet** is used as the base URL for all conferences in the site or organization. With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.
 
-  - **Dial-in**: Ermöglicht den Zugriff auf die Webseite mit den Einstellungen für eine Einwahlkonferenz. Die einfache Dial-in-URL ist in allen Besprechungseinladungen enthalten, sodass Benutzer, die sich in die Besprechung einwählen möchten, Zugriff auf die erforderlichen Informationen zu Telefonnummer und PIN haben.
+  - **Dial-in** enables access to the Dial-in Conferencing Settings webpage. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.
 
   - Der **Administrator** ermöglicht den schnellen Zugriff auf die lync Server-Systemsteuerung. Die einfache Admin-URL wird innerhalb Ihrer Organisation verwendet.
 
@@ -70,7 +70,7 @@ Nach der Migration zu lync Server 2013 müssen Sie wissen, wie sich die Änderun
     
 
     > [!TIP]  
-    > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Option ist <STRONG> https://admin.</STRONG> &lt;Domäne&gt;.
+    > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Option ist <STRONG> https://admin .</STRONG> &lt; Domäne &gt; .
 
     
     </div>

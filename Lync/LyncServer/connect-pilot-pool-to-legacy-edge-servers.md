@@ -1,8 +1,8 @@
 ---
-title: Verbinden des pilotpools mit Legacy-Edge-Servern
+title: Verbinden des Pilotpools mit Edgeservern der Vorversion
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02ceb7ecc6a80daf767ed6f675bdd4a92dcae9db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 313d2201be5f5919aeec37087a02bf7f400d7ceb
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180568"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180568"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Verbinden des pilotpools mit Legacy-Edge-Servern
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Verbinden des Pilotpools mit Edgeservern der Vorversion
 
 </div>
 

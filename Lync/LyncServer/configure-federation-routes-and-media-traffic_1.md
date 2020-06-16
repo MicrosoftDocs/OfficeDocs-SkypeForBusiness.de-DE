@@ -1,8 +1,8 @@
 ---
-title: Konfigurieren von Verbund Routen und Mediendatenverkehr
+title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,14 +12,14 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0d6af77188809b092050629c1b74cdab8b20a2cc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136092"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754961"
 ---
-# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Verbund Routen und Mediendatenverkehr
+# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
  
 
@@ -36,7 +36,7 @@ Führen Sie die folgenden Verfahren aus, um die partnerverbundroute und die Medi
 
 
 > [!IMPORTANT]  
-> Wenn Ihr Legacy Office Communications Server 2007 R2 Edgeserver für die Verwendung desselben FQDN für die Zugriffs-Edgedienst, Webkonferenz-Edgedienst und den A/V-Edgedienst konfiguriert ist, werden die Verfahren in diesem Abschnitt zum Übergang der Verbund Einstellung zu einem lync Server 2013 Edgeserver nicht unterstützt. Wenn die Legacy-Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von Office Communications Server 2007 R2 zu lync Server 2013 migrieren und dann die Office Communications Server 2007 R2 Edgeserver vor dem Aktivieren der Partnerverbund Funktion außer Betrieb nehmen. die lync Server 2013 Edgeserver. Weitere Informationen finden Sie in den folgenden Themen: 
+> Wenn Ihr Legacy Office Communications Server 2007 R2 Edgeserver für die Verwendung desselben FQDN für die Zugriffs-Edgedienst, Webkonferenz-Edgedienst und den A/V-Edgedienst konfiguriert ist, werden die Verfahren in diesem Abschnitt zum Übergang der Verbund Einstellung zu einem lync Server 2013 Edgeserver nicht unterstützt. Wenn die Legacy-Edge-Dienste für die Verwendung desselben FQDN konfiguriert sind, müssen Sie zunächst alle Ihre Benutzer von Office Communications Server 2007 R2 zu lync Server 2013 migrieren und dann die Office Communications Server 2007 R2 Edgeserver vor dem Aktivieren des partnerverbunds auf dem lync Server 2013 Edgeserver außer Betrieb nehmen. Weitere Informationen finden Sie in den folgenden Themen: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Verbleibenden Benutzer in lync Server 2013 verlagern</A></P>
@@ -47,7 +47,7 @@ Führen Sie die folgenden Verfahren aus, um die partnerverbundroute und die Medi
 
 
 > [!IMPORTANT]  
-> Wenn Ihr XMPP-Verbund über eine lync Server 2013 Edgeserver weitergeleitet wird, können Legacy Office Communications Server 2007 R2-Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer zu lync Server 2013, XMPP-Richtlinien verschoben wurden und Zertifikate wurden konfiguriert, der XMPP-Verbundpartner wurde für lync Server 2013 konfiguriert, und schließlich wurden die DNS-Einträge aktualisiert.
+> Wenn Ihr XMPP-Verbund über eine lync Server 2013 Edgeserver weitergeleitet wird, können Legacy Office Communications Server 2007 R2 Benutzer nicht mit dem XMPP-Verbundpartner kommunizieren, bis alle Benutzer in lync Server 2013 verschoben wurden, XMPP-Richtlinien und Zertifikate konfiguriert wurden, der XMPP-Verbundpartner für lync Server 2013 konfiguriert wurde und schließlich die DNS-Einträge aktualisiert wurden.
 
 
 
@@ -91,7 +91,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
     
 
     > [!IMPORTANT]  
-    > Dieser Schritt ist wichtig. Sie müssen dieses Kontrollkästchen deaktivieren, um die Partnerverbundzuordnung der Vorversion zu entfernen.
+    > This step is important. You must clear this option to remove the legacy federation association.
 
 
 
@@ -123,7 +123,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
 
 1.  Öffnen Sie im Office Communications Server 2007 R2 Standard Edition-Server oder Front-End-Server das Office Communications Server 2007 R2 Verwaltungstool.
 
-2.  Erweitern Sie im linken Bereich den obersten Knoten, und klicken Sie dann mit der rechten Maustaste auf den Knoten **Gesamtstruktur**. Wählen Sie **Eigenschaften** aus, und klicken Sie auf **Globale Eigenschaften**.
+2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
 
 3.  Klicken Sie auf die Registerkarte **Partnerverbund**.
 
@@ -217,7 +217,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
     
 
     > [!NOTE]  
-    > Wenn Sie kein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie den DNS-A-Eintrag für den Partnerverbund aktualisieren, sodass der neue Lync Server-Zugriffs-Edgeserver aufgelöst wird. Um dies mit minimaler Betriebsunterbrechung zu bewerkstelligen, reduzieren Sie den TTL-Wert für den externen vollqualifizierten Domänennamen (FQDN) des Lync Server-Zugriffs-Edgeservers. Dadurch werden, wenn das DNS aktualisiert wird, sodass es auf den neuen Lync Server-Zugriffs-Edgeserver zeigt, auch der Partnerverbund und der Remotezugriff rasch aktualisiert.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
 
 
 

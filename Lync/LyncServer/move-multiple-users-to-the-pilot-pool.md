@@ -1,8 +1,8 @@
 ---
 title: Mehrere Benutzer in den Pilot Pool migrieren
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move multiple users to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81b5ad16b36063c217d90c4c8f1e8a2e7fa3c0ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a5a92b0438e72be0ecb5acaa1b8e1886768ad59
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189848"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ Sie können mehrere Benutzer aus dem lync Server 2010 Pool mithilfe lync Server 
 
 1.  Öffnen Sie die lync Server 2013 Management-Shell.
 
-2.  Geben Sie an der Befehlszeile Folgendes ein, und ersetzen Sie **User1** und **Benutzer2** durch bestimmte Benutzernamen, die Sie migrieren möchten, und ersetzen Sie den **Pool\_-FQDN** durch den Namen des Ziel Pools. In diesem Beispiel verschieben wir die Benutzer Hao Chen und Katie Jordan.
+2.  Geben Sie an der Befehlszeile Folgendes ein, und ersetzen Sie **User1** und **Benutzer2** durch bestimmte Benutzernamen, die Sie migrieren möchten, und ersetzen Sie den **Pool- \_ FQDN** durch den Namen des Ziel Pools. In diesem Beispiel verschieben wir die Benutzer Hao Chen und Katie Jordan.
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
@@ -79,7 +79,7 @@ Sie können mehrere Benutzer aus dem lync Server 2010 Pool mithilfe lync Server 
     
         Get-CsUser -Identity "User1"
 
-4.  Die Identität des **Registrierungsstellen Pools** sollte nun auf den Pool verweist, den Sie im vorherigen Schritt als **Pool\_-FQDN** angegeben haben. Das Vorhandensein dieser Identität bestätigt, dass die Benutzer erfolgreich verschoben wurden. Wiederholen Sie den Schritt, um zu prüfen, ob **User2** verschoben wurde.
+4.  Die Identität des **Registrierungsstellen Pools** sollte nun auf den Pool verweist, den Sie im vorherigen Schritt als **Pool- \_ FQDN** angegeben haben. Das Vorhandensein dieser Identität bestätigt, dass die Benutzer erfolgreich verschoben wurden. Wiederholen Sie den Schritt, um zu prüfen, ob **User2** verschoben wurde.
     
     ![Ausgabe des PowerShell Get-UsUser-Identity-Cmdlets](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Ausgabe des PowerShell Get-UsUser-Identity-Cmdlets")  
 
@@ -103,7 +103,7 @@ In diesem Beispiel wurden alle Benutzer an den lync Server 2010 Pool (pool01.con
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  Die Identität des **Registrierungsstellen Pools** für jeden Benutzer verweist nun auf den Pool, den Sie\_im vorherigen Schritt als Pool-FQDN angegeben haben. Das Vorhandensein dieser Identität zeigt, dass der Benutzer erfolgreich verschoben wurde.
+4.  Die Identität des **Registrierungsstellen Pools** für jeden Benutzer verweist nun auf den Pool, den Sie \_ im vorherigen Schritt als Pool-FQDN angegeben haben. Das Vorhandensein dieser Identität zeigt, dass der Benutzer erfolgreich verschoben wurde.
 
 5.  Darüber hinaus können wir die Liste der Benutzer in der lync Server 2013-Systemsteuerung anzeigen und überprüfen, ob der Wert des Registrierungsstellen Pools nun auf den lync Server 2013-Pool zeigt.
     

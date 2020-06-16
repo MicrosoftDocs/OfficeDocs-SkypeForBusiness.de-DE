@@ -1,8 +1,8 @@
 ---
 title: Kombinieren von Skype for Business Online-Cmdlets mit anderen Windows PowerShell-Cmdlets in
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95d242ec5a1f24f403e59b49e305d9e0a6c84b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180988"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +46,7 @@ Obwohl ein vollständiger Kurs in Windows PowerShell 3,0 über den Rahmen dieses
 
 Da keine zusätzlichen Parameter enthalten sind, werden alle vom **Out-Printer-** Cmdlet zurückgegebenen Informationen auf den Standarddrucker gedruckt.
 
-Ebenso enthält keines der Skype for Business Online-Cmdlets einen Parameter, mit dem Sie Daten in einer Datei speichern können. Aber das ist in Ordnung: Dieser Befehl verwendet das **Out-File-** Cmdlet, um die zurückgegebenen Informationen in der Textdatei C:\\Logs\\Mandanten. txt zu speichern:
+Ebenso enthält keines der Skype for Business Online-Cmdlets einen Parameter, mit dem Sie Daten in einer Datei speichern können. Aber das ist in Ordnung: Dieser Befehl verwendet das **Out-File-** Cmdlet, um die zurückgegebenen Informationen in der Textdatei C: \\ LogsTenants.txt zu speichern \\ :
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 

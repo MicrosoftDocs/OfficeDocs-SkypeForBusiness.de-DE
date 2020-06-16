@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren der Clients für die Migration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b63ad4dfd4b69966a6d206ab19330d7088aff434
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a8f8cfcab36c1bfa47eb8ee4a24ebe683398707
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180978"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,7 +54,7 @@ Dieses Thema enthält die empfohlenen Schritte zur Clientbereitstellung, die Sie
 
 2.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, damit nur Office Communications Server 2007 R2 Clients mit den neuesten installierten Updates angemeldet werden können.
 
-3.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden. Führen Sie die unter **Konfigurieren der Client Versions Filterung** unter [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) beschriebenen Schritte aus, um die in der folgenden Tabelle aufgeführten Versionsfilter hinzuzufügen. Weisen Sie für jeden Versionsfilter die Aktion **Blockieren** zu.
+3.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden. Führen Sie die unter **Konfigurieren der Client Versions Filterung** unter beschriebenen Schritte aus [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) , um die in der folgenden Tabelle aufgeführten Versionsfilter hinzuzufügen. Weisen Sie für jeden Versionsfilter die Aktion **Blockieren** zu.
     
     
     <table>
