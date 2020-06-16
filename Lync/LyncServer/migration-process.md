@@ -1,8 +1,8 @@
 ---
-title: Migrationsvorgang
+title: Migrationsprozess
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d941b97080bf4ffd0efc87549c5a4fb80c1275c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a31a127ef3a37ed366117247dd68c192d19e691
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209811"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209811"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-process"></a><span data-ttu-id="05799-102">Migrationsvorgang</span><span class="sxs-lookup"><span data-stu-id="05799-102">Migration process</span></span>
+# <a name="migration-process"></a><span data-ttu-id="7fbca-102">Migrationsprozess</span><span class="sxs-lookup"><span data-stu-id="7fbca-102">Migration process</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42209811"
 
 <span> </span>
 
-<span data-ttu-id="05799-103">_**Letztes Änderungsstand des Themas:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="05799-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="7fbca-103">_**Letztes Änderungsstand des Themas:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="7fbca-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="05799-104">Das empfohlene und unterstützte Migrationsverfahren für lync Server 2013 ist die parallele Migration.</span><span class="sxs-lookup"><span data-stu-id="05799-104">The recommended and supported migration procedure for Lync Server 2013 is side-by-side migration.</span></span> <span data-ttu-id="05799-105">In diesem Thema wird beschrieben, warum Sie die parallele Migration verwenden sollten und auch Informationen zum Testen der Koexistenz enthält.</span><span class="sxs-lookup"><span data-stu-id="05799-105">This topic describes why you should use side-by-side migration and also includes information about coexistence testing.</span></span>
+<span data-ttu-id="7fbca-104">Das empfohlene und unterstützte Migrationsverfahren für lync Server 2013 ist die parallele Migration.</span><span class="sxs-lookup"><span data-stu-id="7fbca-104">The recommended and supported migration procedure for Lync Server 2013 is side-by-side migration.</span></span> <span data-ttu-id="7fbca-105">In diesem Thema wird beschrieben, warum Sie die parallele Migration verwenden sollten und auch Informationen zum Testen der Koexistenz enthält.</span><span class="sxs-lookup"><span data-stu-id="7fbca-105">This topic describes why you should use side-by-side migration and also includes information about coexistence testing.</span></span>
 
 <div>
 
-## <a name="side-by-side-migration"></a><span data-ttu-id="05799-106">Parallele Migration</span><span class="sxs-lookup"><span data-stu-id="05799-106">Side-By-Side Migration</span></span>
+## <a name="side-by-side-migration"></a><span data-ttu-id="7fbca-106">Parallele Migration</span><span class="sxs-lookup"><span data-stu-id="7fbca-106">Side-By-Side Migration</span></span>
 
-<span data-ttu-id="05799-107">Am besten wenden Sie für jede Migration das Verfahren der parallelen Migration an.</span><span class="sxs-lookup"><span data-stu-id="05799-107">In nearly every migration, you should use the side-by-side migration path.</span></span> <span data-ttu-id="05799-108">Bei einer parallelen Migration stellen Sie einen neuen Server mit lync Server 2013 neben einem entsprechenden Server bereit, auf dem lync Server 2010 ausgeführt wird, und übertragen anschließend Vorgänge auf den neuen Server.</span><span class="sxs-lookup"><span data-stu-id="05799-108">In a side-by-side migration, you deploy a new server with Lync Server 2013 alongside a corresponding server that is running Lync Server 2010, and then transfer operations to the new server.</span></span> <span data-ttu-id="05799-109">Wenn ein Rollback auf lync Server 2010 erforderlich ist, müssen Sie nur die Vorgänge zurück auf die ursprünglichen Server verschieben.</span><span class="sxs-lookup"><span data-stu-id="05799-109">If it becomes necessary to roll back to Lync Server 2010, you have only to shift operations back to the original servers.</span></span> <span data-ttu-id="05799-110">Bedenken Sie, dass in diesem Fall neue Besprechungen, die mit aktualisierten Clients geplant wurden, nicht funktionieren und dass auch für die Clients ein Downgrade erforderlich wäre.</span><span class="sxs-lookup"><span data-stu-id="05799-110">Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.</span></span>
+<span data-ttu-id="7fbca-107">Am besten wenden Sie für jede Migration das Verfahren der parallelen Migration an.</span><span class="sxs-lookup"><span data-stu-id="7fbca-107">In nearly every migration, you should use the side-by-side migration path.</span></span> <span data-ttu-id="7fbca-108">Bei einer parallelen Migration stellen Sie einen neuen Server mit lync Server 2013 neben einem entsprechenden Server bereit, auf dem lync Server 2010 ausgeführt wird, und übertragen anschließend Vorgänge auf den neuen Server.</span><span class="sxs-lookup"><span data-stu-id="7fbca-108">In a side-by-side migration, you deploy a new server with Lync Server 2013 alongside a corresponding server that is running Lync Server 2010, and then transfer operations to the new server.</span></span> <span data-ttu-id="7fbca-109">Wenn ein Rollback auf lync Server 2010 erforderlich ist, müssen Sie nur die Vorgänge zurück auf die ursprünglichen Server verschieben.</span><span class="sxs-lookup"><span data-stu-id="7fbca-109">If it becomes necessary to roll back to Lync Server 2010, you have only to shift operations back to the original servers.</span></span> <span data-ttu-id="7fbca-110">Bedenken Sie, dass in diesem Fall neue Besprechungen, die mit aktualisierten Clients geplant wurden, nicht funktionieren und dass auch für die Clients ein Downgrade erforderlich wäre.</span><span class="sxs-lookup"><span data-stu-id="7fbca-110">Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.</span></span>
 
 </div>
 
 <div>
 
-## <a name="coexistence-testing"></a><span data-ttu-id="05799-111">Koexistenztest</span><span class="sxs-lookup"><span data-stu-id="05799-111">Coexistence Testing</span></span>
+## <a name="coexistence-testing"></a><span data-ttu-id="7fbca-111">Koexistenztest</span><span class="sxs-lookup"><span data-stu-id="7fbca-111">Coexistence Testing</span></span>
 
-<span data-ttu-id="05799-112">Nachdem Sie lync Server 2013 parallel mit lync Server 2010 bereitgestellt haben, stellt die Bereitstellung einen Testzustand der Koexistenz von lync Server 2013 und lync Server 2010 dar.</span><span class="sxs-lookup"><span data-stu-id="05799-112">After you have deployed Lync Server 2013 in parallel with Lync Server 2010, the deployment represents a coexistence testing state of Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="05799-113">In diesem Status ist es wichtig, zu testen und sicherzustellen, dass Dienste gestartet werden können, jeder Standort verwalten werden kann und die Clients mit Benutzern der aktuellen und der Vorgängerversion kommunizieren können.</span><span class="sxs-lookup"><span data-stu-id="05799-113">While in this state, it is important to test and ensure that services are started, each site can be administered, and clients can communicate with current and legacy users.</span></span> <span data-ttu-id="05799-114">Vor dem Migrieren aller Benutzer sollten Sie unbedingt den Status jeder Bereitstellung festgestellt und sich vergewissert haben, dass jede Bereitstellung ordnungsgemäß funktioniert.</span><span class="sxs-lookup"><span data-stu-id="05799-114">Prior to the migration of all users, it is very important that you understand the state of each deployment and ensure that each deployment is functional and working properly.</span></span> <span data-ttu-id="05799-115">In der Regel besteht die Testphase der Koexistenz während der Pilottests von lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="05799-115">Typically, the coexistence testing phase exists throughout the pilot testing of Lync Server 2013.</span></span> <span data-ttu-id="05799-116">Ältere Benutzer werden für einen bestimmten Zeitraum in lync Server 2013 verschoben, um sicherzustellen, dass Anwendungskompatibilität und Features und Funktionen ordnungsgemäß funktionieren.</span><span class="sxs-lookup"><span data-stu-id="05799-116">Legacy users are moved to Lync Server 2013 for a period of time to ensure that application compatibility and features and functions are working properly.</span></span> <span data-ttu-id="05799-117">Nach Pilottests werden Benutzer und Anwendungen in die Produktionsversion von lync Server 2013 verschoben, und die Legacy Pools und-Anwendungen von lync Server 2010 werden zurückgezogen.</span><span class="sxs-lookup"><span data-stu-id="05799-117">After pilot testing, users and applications are moved to the production version of Lync Server 2013, and the legacy pools and applications of Lync Server 2010 are retired.</span></span>
+<span data-ttu-id="7fbca-112">Nachdem Sie lync Server 2013 parallel mit lync Server 2010 bereitgestellt haben, stellt die Bereitstellung einen Testzustand der Koexistenz von lync Server 2013 und lync Server 2010 dar.</span><span class="sxs-lookup"><span data-stu-id="7fbca-112">After you have deployed Lync Server 2013 in parallel with Lync Server 2010, the deployment represents a coexistence testing state of Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="7fbca-113">In diesem Status ist es wichtig, zu testen und sicherzustellen, dass Dienste gestartet werden können, jeder Standort verwalten werden kann und die Clients mit Benutzern der aktuellen und der Vorgängerversion kommunizieren können.</span><span class="sxs-lookup"><span data-stu-id="7fbca-113">While in this state, it is important to test and ensure that services are started, each site can be administered, and clients can communicate with current and legacy users.</span></span> <span data-ttu-id="7fbca-114">Vor dem Migrieren aller Benutzer sollten Sie unbedingt den Status jeder Bereitstellung festgestellt und sich vergewissert haben, dass jede Bereitstellung ordnungsgemäß funktioniert.</span><span class="sxs-lookup"><span data-stu-id="7fbca-114">Prior to the migration of all users, it is very important that you understand the state of each deployment and ensure that each deployment is functional and working properly.</span></span> <span data-ttu-id="7fbca-115">In der Regel besteht die Testphase der Koexistenz während der Pilottests von lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7fbca-115">Typically, the coexistence testing phase exists throughout the pilot testing of Lync Server 2013.</span></span> <span data-ttu-id="7fbca-116">Ältere Benutzer werden für einen bestimmten Zeitraum in lync Server 2013 verschoben, um sicherzustellen, dass Anwendungskompatibilität und Features und Funktionen ordnungsgemäß funktionieren.</span><span class="sxs-lookup"><span data-stu-id="7fbca-116">Legacy users are moved to Lync Server 2013 for a period of time to ensure that application compatibility and features and functions are working properly.</span></span> <span data-ttu-id="7fbca-117">Nach Pilottests werden Benutzer und Anwendungen in die Produktionsversion von lync Server 2013 verschoben, und die Legacy Pools und-Anwendungen von lync Server 2010 werden zurückgezogen.</span><span class="sxs-lookup"><span data-stu-id="7fbca-117">After pilot testing, users and applications are moved to the production version of Lync Server 2013, and the legacy pools and applications of Lync Server 2010 are retired.</span></span>
 
 </div>
 

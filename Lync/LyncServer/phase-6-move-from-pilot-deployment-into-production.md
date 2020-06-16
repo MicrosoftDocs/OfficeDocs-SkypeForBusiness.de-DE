@@ -1,8 +1,8 @@
 ---
-title: 'Phase 6: Umsteigen von der Pilotbereitstellung in die Produktion'
+title: 'Phase 6: Migration von der Pilotbereitstellung zur Produktionsbereitstellung'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af65324bc20d47bf12804c045a3c1beb62134fd5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e51e252fe670b85a2aeb3e827b37465be00ac68e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189648"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189648"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="4cca1-102">Phase 6: Umsteigen von der Pilotbereitstellung in die Produktion</span><span class="sxs-lookup"><span data-stu-id="4cca1-102">Phase 6: Move from pilot deployment into production</span></span>
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="ae160-102">Phase 6: Migration von der Pilotbereitstellung zur Produktionsbereitstellung</span><span class="sxs-lookup"><span data-stu-id="ae160-102">Phase 6: Move from pilot deployment into production</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42189648"
 
 <span> </span>
 
-<span data-ttu-id="4cca1-103">_**Letztes Änderungsstand des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="4cca1-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="ae160-103">_**Letztes Änderungsstand des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="ae160-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="4cca1-104">In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem Verschieben der Bereitstellung von lync Server 2013 von einer Pilotbereitstellung zu einer Bereitstellung auf Produktionsebene durchführen müssen.</span><span class="sxs-lookup"><span data-stu-id="4cca1-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="ae160-104">In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem Verschieben der Bereitstellung von lync Server 2013 von einer Pilotbereitstellung zu einer Bereitstellung auf Produktionsebene durchführen müssen.</span><span class="sxs-lookup"><span data-stu-id="ae160-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4cca1-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="4cca1-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ae160-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="ae160-105">In This Section</span></span>
 
-  - [<span data-ttu-id="4cca1-106">Konfigurieren von Verbund Routen und Mediendatenverkehr</span><span class="sxs-lookup"><span data-stu-id="4cca1-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
+  - [<span data-ttu-id="ae160-106">Konfigurieren von Partnerverbundrouten und Mediendatenverkehr</span><span class="sxs-lookup"><span data-stu-id="ae160-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
 
-  - [<span data-ttu-id="4cca1-107">Überprüfen des Partnerverbunds und des Remotezugriffs für externe Benutzer</span><span class="sxs-lookup"><span data-stu-id="4cca1-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
+  - [<span data-ttu-id="ae160-107">Überprüfen des Partnerverbunds und des Remotezugriffs für externe Benutzer</span><span class="sxs-lookup"><span data-stu-id="ae160-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
 
-  - [<span data-ttu-id="4cca1-108">Ändern einfacher URLs nach der Migration</span><span class="sxs-lookup"><span data-stu-id="4cca1-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
+  - [<span data-ttu-id="ae160-108">Ändern einfacher URLs nach der Migration</span><span class="sxs-lookup"><span data-stu-id="ae160-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
 
-  - [<span data-ttu-id="4cca1-109">Verbleibenden Benutzer in lync Server 2013 verlagern</span><span class="sxs-lookup"><span data-stu-id="4cca1-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
+  - [<span data-ttu-id="ae160-109">Verbleibenden Benutzer in lync Server 2013 verlagern</span><span class="sxs-lookup"><span data-stu-id="ae160-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="4cca1-110">Konfigurieren des XMPP-Gateways auf lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4cca1-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
+  - [<span data-ttu-id="ae160-110">Konfigurieren des XMPP-Gateways auf lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ae160-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 
