@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Der Administrator kann erfahren, welche Session Border Controllers (SBCS) für die direkte Weiterleitung zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710799"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735435"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -72,7 +72,7 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Bandbreiten-dynamisches Standort Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado-Notfall-Routing Dienst (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Unterstützte 3,20 (empfohlen 4,0)        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |  
-|                     [Cisco](http://www.cisco.com/go/cube)                               |     Cisco Unified Border-Element (Cube) für integrierte Services-Router der 1000-Serie        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |   |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border-Element (Cube) für integrierte Services-Router der 1000-Serie        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |   |  
 |                                   |     Cisco Unified Border-Element (Cube) für integrierte Services-Router der 4000-Serie        |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |    |  
 |                                   |     Cisco Unified Border-Element (Cube) für den Cloud Services-Router der 1000V-Serie       |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |    |  
 |                                 |     Cisco Unified Border-Element (Cube) für Aggregations Dienste-Router der 1000-Serie      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |     |    |  
@@ -91,6 +91,7 @@ In der folgenden Tabelle sind Geräte aufgeführt, die für die Interoperabilit�
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300-Software Version 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350-Software Version 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME-Software Version 8.3.0.1.2 |     &#10004;     |
+  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode mit Grandstream GXW42xx (v 1.0.7.10) |     &#10004;     |
 
 Wenn Sie uns Produktfeedback zu Teams geben möchten, beispielsweise Ideen für neue Features, lesen Sie [UserVoice](https://microsoftteams.uservoice.com).
 Beachten Sie die Zertifizierung, die einer Hauptversion gewährt wurde. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.

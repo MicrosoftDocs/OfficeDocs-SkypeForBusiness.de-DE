@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räumen vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666167"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735425"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -53,7 +53,7 @@ Bei einem *Geräte Konto* handelt es sich um ein Konto, das der Microsoft Teams 
 Um ordnungsgemäß zu funktionieren, muss das Microsoft Teams rooms-Gerät Zugriff auf ein kabelgebundenes Netzwerk haben, das diese Anforderungen erfüllt:
   
 - Zugriff auf Ihre Active Directory- oder Azure Active Directory-Instanz (Azure AD) sowie auf Ihre Server mit Microsoft Exchange und Skype for Business Server
-- Zugriff auf einen Server, der über DHCP eine IP-Adresse bereitstellen kann. Microsoft Teams-Chatrooms können nicht mit einer statischen IP-Adresse konfiguriert werden.
+- Zugriff auf einen Server, der über DHCP eine IP-Adresse bereitstellen kann. Microsoft Teams-Räume können beim ersten Start der Einheit nicht mit einer statischen IP-Adresse konfiguriert werden.
 - Zugriff auf die HTTP-Ports 80 und 443
 - TCP-und UDP-Ports, wie unter [Port-und Protokollanforderungen für Server](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) für lokale Skype for Business Server-Implementierungen oder [Microsoft 365-und Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) für Microsoft Teams oder Skype for Business Online-Implementierungen beschrieben.
 
@@ -104,7 +104,7 @@ Microsoft Teams rooms wurde entwickelt, um Proxy Einstellungen vom Windows-Betri
     
 11. Wählen Sie auf der Anmeldeseite den Benutzer **Skype** aus. Wenn alle vorherigen Schritte erfolgreich waren, meldet sich das Microsoft Teams rooms-Gerät erfolgreich an.
     
-Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten beschriebenen Endpunkten herstellen können. Die IP-Adressen können Sie anzeigen, indem Sie den Abschnitt mit den IP-Adressen unter der Tabelle erweitern, in der der Datenverkehrsfluss beschrieben wird.
+To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **Name des Firewall-Proxyhosts/Portbeispiele**
 
@@ -118,9 +118,9 @@ Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten besch
 |Audio  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |TCP/UDP 50000-50019  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
 |Video  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |TCP/UDP 50.020-50039  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
 |Desktopfreigabe  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |TCP/UDP 50.040-50059  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50000-59999  <br/> |
-|Lync Mobile-Pushbenachrichtigungen für Lync Mobile 2010 auf iOS-Geräten. Für Android-, Nokia Symbian- oder Windows Phone-Mobilgeräte benötigen Sie dies nicht.  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype-Telemetrie  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
-|Skype-Client-Hinweise  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |quicktips.skypeforbusiness.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
+|Skype-Client – schnelle Tipps  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |quicktips.skypeforbusiness.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Der Platzhalter für contoso.com und Broadcast.Skype.com stellt eine lange Liste von Knoten dar, die ausschließlich für Microsoft 365 oder Office 365 verwendet werden. 
@@ -144,7 +144,7 @@ Das Geräte Konto verwendet in der Regel kein Kennwort. Es ist möglich, ihm ein
   
 ### <a name="admin---local-administrator-account"></a>"Administrator" – Lokales Administrator Konto
 
-Microsoft Teams rooms Standardkennwort ist auf "SFB" eingestellt. Das Kennwort kann lokal geändert werden, indem Sie zu Windows-Einstellungen \> wechseln Sie zu Windows oder in der Datei "Autounattend. xml" (verwenden Sie den Windows System Image Manager von ADK, um die Änderung an der XML-Datei vorzunehmen).
+Microsoft Teams rooms Standardkennwort ist auf "SFB" eingestellt. Das Kennwort kann lokal geändert werden, indem Sie zu Windows-Einstellungen \> wechseln Sie zu Windows oder in der AutoUnattend.xml Datei (verwenden Sie den Windows System Image Manager von ADK, um die Änderung an der XML-Datei vorzunehmen).
   
 > [!CAUTION]
 > Achten Sie darauf, das Microsoft Teams rooms-Kennwort so bald wie möglich zu ändern. 
