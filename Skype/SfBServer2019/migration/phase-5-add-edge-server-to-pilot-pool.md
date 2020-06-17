@@ -1,8 +1,8 @@
 ---
-title: Phase 5 – Hinzufügen von Skype for Business Server 2019 Edge-Server zu Pilot Pool
+title: Phase 5 Skype for Business Server 2019 Edgeserver zu Pilot Pool hinzufügen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Die Themen in diesem Abschnitt erläutern, wie Sie einen Skype for Business Server 2019-Edgeserver zur Bereitstellung des pilotpools hinzufügen. Die Themen enthalten Konfigurations-und Verifizierungs Anleitungen beim Ausführen des Assistenten zum Bereitstellen eines neuen Edge-Pools.
-ms.openlocfilehash: 30619001ea46dbe4eaf9d649f49cd2d20706375d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: In den Themen in diesem Abschnitt wird erläutert, wie der Bereitstellungeines pilotpools ein Skype for Business Server 2019 Edgeserver hinzugefügt wird. Die Themen enthalten Hinweise zur Konfiguration und Überprüfung beim Ausführen der Assistenten zum Bereitstellen eines neuen Edgepools.
+ms.openlocfilehash: adcbe7ef5c999328879d395f0e5439fa952cfda0
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813143"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752307"
 ---
-# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Phase 5: Hinzufügen von Skype for Business Server 2019 Edge Server zum Pilot Pool
+# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Phase 5: Hinzufügen von Skype for Business Server 2019 Edgeserver zu einem Pilot Pool
 
-Die Themen in diesem Abschnitt erläutern, wie Sie einen Skype for Business Server 2019-Edgeserver zur Bereitstellung des pilotpools hinzufügen. Die Themen enthalten Konfigurations-und Verifizierungs Anleitungen beim Ausführen des Assistenten zum Bereitstellen eines neuen Edge-Pools. 
+In den Themen in diesem Abschnitt wird erläutert, wie der Bereitstellungeines pilotpools ein Skype for Business Server 2019 Edgeserver hinzugefügt wird. Die Themen enthalten Hinweise zur Konfiguration und Überprüfung beim Ausführen der Assistenten zum Bereitstellen eines neuen Edgepools. 
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

@@ -1,8 +1,8 @@
 ---
 title: Vorbereiten der Migration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Bevor Sie beginnen, empfehlen wir Ihnen, dieses Dokument und die folgenden Leitfäden zu lesen, um sich mit der Bereitstellung der entsprechenden Rollen vertraut zu machen:'
-ms.openlocfilehash: 3c001c8eb4e088df19918a8eaa4fa0e3df4b6928
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Bevor Sie beginnen, sollten Sie dieses Dokument und die folgenden Anleitungen lesen, um sich mit der Bereitstellung der entsprechenden Rollen vertraut zu machen:'
+ms.openlocfilehash: 89249622af6285943de40eed643e2ca7bbed392d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813913"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753067"
 ---
 # <a name="before-you-begin-the-migration"></a>Vorbereiten der Migration
 

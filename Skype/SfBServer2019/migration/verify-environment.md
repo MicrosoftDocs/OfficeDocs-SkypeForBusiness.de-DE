@@ -1,8 +1,8 @@
 ---
 title: Überprüfen der Legacyumgebung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Vor der Bereitstellung von Skype for Business Server 2019 in einem Koexistenzmodus müssen Sie überprüfen, ob Legacy Dienste konfiguriert und gestartet wurden. Vor der Bereitstellungeines Skype for Business Server 2019-pilotpools ist es wichtig, die wichtigsten Dienste und Features zu identifizieren, die in ihrer Legacyumgebung vorhanden sind. Bevor Sie Microsoft Skype for Business Server 2019 xmpp in einem koexistenzstatus mit einer Legacy-XMPP-Bereitstellung bereitstellen, müssen Sie überprüfen, ob die Legacy-XMPP-Dienste konfiguriert und gestartet wurden, und ermitteln, welchen Verbundpartner die Legacy-XMPP-Konfiguration ist stützen.
-ms.openlocfilehash: 34c9ecbc4fe9863c09b2648145ff46c1628ef655
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bevor Sie Skype for Business Server 2019 in einem koexistenzstatus bereitstellen, müssen Sie sicherstellen, dass ältere Dienste konfiguriert und gestartet wurden. Es ist wichtig, wichtige Dienste und Features, die in ihrer Vorgänger Umgebung vorhanden sind, vor der Bereitstellungeines Skype for Business Server 2019-pilotpools zu identifizieren. Bevor Sie Microsoft Skype for Business Server 2019 XMPP im koexistenzstatus mit einer älteren XMPP-Bereitstellung bereitstellen, müssen Sie überprüfen, ob die vorhandenen XMPP-Dienste konfiguriert und gestartet wurden, und ermitteln, welcher Verbundpartner von der älteren XMPP-Konfiguration unterstützt wird.
+ms.openlocfilehash: 2600cc2e6f4fac258431bcf505af10d1f8c212fe
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812693"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751677"
 ---
-# <a name="verify-the-legacy-environment"></a>Überprüfen der Legacyumgebung
+# <a name="verify-the-legacy-environment"></a>Überprüfen der Vorgänger Umgebung
 
-Vor der Bereitstellung von Skype for Business Server 2019 in einem Koexistenzmodus müssen Sie überprüfen, ob Legacy Dienste konfiguriert und gestartet wurden. Es ist wichtig, wichtige Dienste und Features zu identifizieren, die in ihrer Legacyumgebung vorhanden sind, bevor Sie einen Skype for Business Server 2019-Pilot Pool bereitstellen. Bevor Sie Microsoft Skype for Business Server 2019 xmpp in einem koexistenzstatus mit einer Legacy-XMPP-Bereitstellung bereitstellen, müssen Sie sicherstellen, dass die Legacy-XMPP-Dienste konfiguriert und gestartet wurden, und ermitteln, welchen Partner das Legacy-XMPP die Konfiguration unterstützt. Die Überprüfung Ihrer Legacy Bereitstellung umfasst Folgendes:
+Bevor Sie Skype for Business Server 2019 in einem koexistenzstatus bereitstellen, müssen Sie sicherstellen, dass ältere Dienste konfiguriert und gestartet wurden. Es ist wichtig, wichtige Dienste und Features in ihrer Legacyumgebung vor der Bereitstellungeines Skype for Business Server 2019-pilotpools zu identifizieren. Bevor Sie Microsoft Skype for Business Server 2019 XMPP im koexistenzstatus mit einer älteren XMPP-Bereitstellung bereitstellen, müssen Sie sicherstellen, dass die vorhandenen XMPP-Dienste konfiguriert und gestartet wurden, und ermitteln, welcher Verbundpartner von der älteren XMPP-Konfiguration unterstützt wird. Die Überprüfung Ihrer Legacy-Bereitstellung umfasst Folgendes:
   
 - Überprüfen, ob die Legacy Dienste gestartet wurden
     
@@ -28,64 +28,64 @@ Vor der Bereitstellung von Skype for Business Server 2019 in einem Koexistenzmod
     
 - Überprüfen der Einstellungen für den Verbund und den Edgeserver
     
-- Überprüfen von XMPP-Diensten und Verbundpartnern
+- Überprüfen der XMPP-Dienste und Verbundpartner
     
-## <a name="verify-that-legacy-services-are-started"></a>Überprüfen, ob Legacy Dienste gestartet wurden
+## <a name="verify-that-legacy-services-are-started"></a>Überprüfen, ob ältere Dienste gestartet wurden
 
-1. Navigieren Sie vom Legacy-Front-End-Server zum Applet administrative Tools\Services.
+1. Navigieren Sie in der Legacy Front-End-Server zum Applet für administrative verwaltungstools\dienste..
     
 2. Überprüfen Sie, ob die folgenden Dienste auf dem Front-End-Server ausgeführt werden:
     
-     ![Liste der Dienste, die auf dem Front-End-Server ausgeführt werden](../media/migration_lyncserver_config_w14_services.jpg)
+     ![Liste der auf Front-End-Server ausgeführten Dienste](../media/migration_lyncserver_config_w14_services.jpg)
   
-## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Überprüfen der Legacy Topologie in der Skype for Business Server-Systemsteuerung
+## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Überprüfen der Legacy Topologie in Skype for Business Server Systemsteuerung
 
-1. Melden Sie sich über ein Konto, das Mitglied der Gruppe „RTCUniversalServerAdmins“ oder der Administratorrolle „CsAdministrator“ oder „CsUserAdministrator“ ist, am Front-End-Server an.
+1. Melden Sie sich über ein Konto, das Mitglied der Gruppe "RTCUniversalServerAdmins" oder der Administratorrolle "CsAdministrator" oder "CsUserAdministrator" ist, am Front-End-Server an.
     
 2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
-3. Wählen Sie **Topologie**aus. Überprüfen Sie, ob die verschiedenen Server in Ihrer Legacy Bereitstellung aufgelistet sind.
+3. Wählen Sie **Topologie** aus. Stellen Sie sicher, dass die verschiedenen Server in Ihrer Legacy Bereitstellung aufgelistet sind.
     
-     ![Seite "System Steuerungs Topologie"](../media/migration_lyncserver_2010_topology.JPG)
+     ![System Steuerungs Topologie (Seite)](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Überprüfen von Legacy Benutzern in der Skype for Business Server-Systemsteuerung
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Überprüfen von älteren Benutzern in Skype for Business Server Systemsteuerung
 
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 2. Wählen Sie **Benutzer**aus, und klicken Sie dann auf **Suchen**.
     
-3. Überprüfen Sie, ob die Spalte des **registrierungspools** auf den Legacy Pool für jeden aufgelisteten Benutzer verweist. 
+3. Stellen Sie sicher, dass die Spalte **Registrierungspool** für jeden aufgelisteten Benutzer auf den Legacy Pool verweist. 
     
-     ![Control Panel-Auflistung der Benutzer](../media/migration_lyncserver_2010_allusers.JPG)
+     ![Systemsteuerung, die Benutzer auflistet](../media/migration_lyncserver_2010_allusers.JPG)
   
-## <a name="verify-legacy-edge-and-federation-settings"></a>Überprüfen von Legacy Edge-und Federation-Einstellungen
+## <a name="verify-legacy-edge-and-federation-settings"></a>Überprüfen der Legacy-Edge-und Verbund Einstellungen
 
 1. Starten Sie den Topologie-Generator.
     
-2. Wählen Sie **Topologie aus vorhandener Bereitstellung herunterladen aus**.
+2. Wählen Sie **Topologie aus vorhandener Bereitstellung herunterladen** aus.
     
-3. Wählen Sie einen Dateinamen aus, und speichern Sie die Topologie mit dem standardmäßigen tbxml-Dateityp.
+3. Wählen Sie einen Dateinamen aus, und speichern Sie die Topologie mit dem Dateityp default. tbxml.
     
-4. Erweitern Sie den Knoten Legacy Installationen, um die verschiedenen Serverrollen in der Bereitstellung anzuzeigen.
+4. Erweitern Sie den Knoten Legacy installs, um die verschiedenen Serverrollen in der Bereitstellung anzuzeigen.
     
-5. Wählen Sie den Websiteknoten aus, und überprüfen Sie, ob ein **Standort Verbund-Routen Zuordnungs** Wert festgesetzt ist. 
+5. Wählen Sie den Knoten Website aus, und stellen Sie sicher, dass ein **Standort Verbund-Routen Zuordnungs** Wert festgelegt ist. 
     
-     ![Topologie-Generator, Website Verbund Route](../media/migration_lyncserver_w14_federation.jpg)
+     ![Topologie-Generator, Standort Verbund Route](../media/migration_lyncserver_w14_federation.jpg)
   
-6. Wählen Sie den Standard Edition-Server oder Enterprise Edition-Front-End-Pool aus. Ermitteln Sie, ob ein Edge-Pool für Medien unter **Zuordnungen**konfiguriert wurde. 
+6. Wählen Sie den Front-End-Pool Standard Edition-Server oder Enterprise Edition aus. Bestimmen Sie, ob ein Edgepool für Medien unterhalb von **Zuordnungen**konfiguriert wurde. 
     
      ![Topologie-Generator mit Servern und Pools](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
-7. Wählen Sie den Edge-Pool aus, und ermitteln Sie, ob unterhalb des nächsten Hop- **Auswahlbereichs**ein nächster Hop-Pool konfiguriert ist.
+7. Wählen Sie die Edgepool aus, und bestimmen Sie, ob ein nächster Hop-Pool unterhalb der **nächsten Hop-Auswahl**konfiguriert ist.
     
      ![Topologie-Generator, Auswahl des nächsten Hops](../media/migration_lyncserver_w14_nexthop.jpg)
   
-## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Überprüfen der Konfiguration von Legacy-XMPP-Verbundpartnern
+## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Überprüfen der Vorgänger Konfiguration für XMPP-Verbundpartner
 
-1. Navigieren Sie vom Legacy-XMPP-Server zum Administrator Tools\Services-Applet.
+1. Navigieren Sie auf dem XMPP-Vorversionsserver zum Applet Verwaltungstools\Dienste.
     
-2. Überprüfen Sie, ob der Office Communications Server-XMPP-Gatewayserver gestartet wurde. 
+2. Überprüfen Sie, ob der Office Communications Server-XMPP-Gatewaydienst gestartet ist. 
     
-     ![Office Communications Server-XMPP-Gatewaydienst](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office Communications Server XMPP-Gatewaydienst](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

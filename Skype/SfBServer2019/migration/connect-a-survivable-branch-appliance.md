@@ -1,8 +1,8 @@
 ---
-title: Verbinden eines Survivable Branch Appliance
+title: Verbinden einer Survivable Branch Appliance
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Jede Survivable Branch Appliance (SBA) ist einer Front-End-Pool zugeordnet, die als Sicherungs Registrierungsstelle für die SBVg dient. Wenn die Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss die SBVg von der Front-End-Pool entfernt werden, während der Pool aktualisiert wird, nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann die SBVg erneut mit der aktualisierten Front E verbunden werden. ND-Pool. Dies umfasst das Löschen des SBA aus der Legacy Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die in der Legacy-SBA verwaltet werden, müssen zuerst in eine andere Front-End-Pool verschoben werden, bevor Sie die SBA aus der Topologie entfernen. Sobald die SBVg der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer wieder in die SBVg verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:'
-ms.openlocfilehash: 7f51b9c29d6008ea3606184eb22741a489d056df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Jede Survivable Branch Appliance (SBA) ist einer Front-End-Pool zugeordnet, die als Sicherungs Registrierungsstelle für die SBVg dient. Wenn die Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss die SBVg von der Front-End-Pool entfernt werden, während der Pool aktualisiert wird, nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann die SBVg erneut mit der aktualisierten Front-End-Pool verbunden werden. Dies umfasst das Löschen des SBA aus der Legacy Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die in der Legacy-SBA verwaltet werden, müssen zuerst in eine andere Front-End-Pool verschoben werden, bevor Sie die SBA aus der Topologie entfernen. Sobald die SBVg der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer wieder in die SBVg verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:'
+ms.openlocfilehash: 23fea7694a754b82ecad684d2ea02b603a6c7299
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027786"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751547"
 ---
-# <a name="connect-a-survivable-branch-appliance"></a>Verbinden eines Survivable Branch Appliance
+# <a name="connect-a-survivable-branch-appliance"></a>Verbinden einer Survivable Branch Appliance
 
 Jede Survivable Branch Appliance (SBA) ist einer Front-End-Pool zugeordnet, die als Sicherungs Registrierungsstelle für die SBVg dient. Wenn die Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss die SBVg von der Front-End-Pool entfernt werden, während der Pool aktualisiert wird. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann die SBVg erneut mit der aktualisierten Front-End-Pool verknüpft werden. Dies umfasst das Löschen des SBA aus der Legacy Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die in der Legacy-SBA verwaltet werden, müssen zuerst in eine andere Front-End-Pool verschoben werden, bevor Sie die SBA aus der Topologie entfernen. Nachdem die SBVg der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer wieder in die SBVg verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:
   

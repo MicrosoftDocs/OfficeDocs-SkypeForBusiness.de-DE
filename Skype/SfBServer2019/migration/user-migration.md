@@ -1,8 +1,8 @@
 ---
 title: Benutzermigration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Eine allgemein anerkannte bewährte Methode für Migrationen besteht darin, mehrere Testbenutzer zu erstellen und diese zum Durchführen von Systemtests zu verwenden. Nachdem Sie diese Konten erfolgreich verschoben und getestet haben, sollten Sie eine Gruppe von Pilotproduktionsbenutzern identifizieren und deren Konten verschieben und Validierungstests durchführen. Wenn Sie zufrieden stellende Ergebnisse erzielen, können Sie die restlichen Benutzer auf die neue Bereitstellung verschieben.
-ms.openlocfilehash: ec149decccf2008a6bba2dcf7544b5a4919bec37
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
+ms.openlocfilehash: 98b9395da8341dab99b48d4f97da7332b8ed8102
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812763"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753277"
 ---
 # <a name="user-migration"></a>Benutzermigration
 
-Eine allgemein anerkannte bewährte Methode für Migrationen besteht darin, mehrere Testbenutzer zu erstellen und diese zum Durchführen von Systemtests zu verwenden. Nachdem Sie diese Konten erfolgreich verschoben und getestet haben, sollten Sie eine Gruppe von Pilotproduktionsbenutzern identifizieren und deren Konten verschieben und Validierungstests durchführen. Wenn Sie zufrieden stellende Ergebnisse erzielen, können Sie die restlichen Benutzer auf die neue Bereitstellung verschieben.
+A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
   
-Weitere Informationen zum Aktivieren von Benutzern für Skype for Business Server 2019 finden Sie in der Dokumentation zur Bereitstellung von Skype for Business Server 2019. 
+Weitere Informationen zum Aktivieren von Benutzern für Skype for Business Server 2019 finden Sie unter Deploying Skype for Business Server 2019 Documentation. 
   
   <!-- the topic [Disable or re-enable user account for Skype for Business Server 2019](../../operations/managing-users-in-lync-server-2013/disable-or-re-enable-user-account-for-lync-server.md) in  -->
 

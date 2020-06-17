@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren der SCOM-Überwachung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Nach der Migration zu Microsoft Skype for Business Server 2019 müssen Sie einige Aufgaben ausführen, um Skype for Business Server 2019 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.
-ms.openlocfilehash: 79398336bf372fd2ca779d2ec2ff58dc5219da61
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ef40890cb3ac01d8223c4b9a9cd0c4712e544376
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813803"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754045"
 ---
 # <a name="configure-scom-monitoring"></a>Konfigurieren der SCOM-Überwachung
 
-Nachdem Sie zu Skype for Business Server 2019 migriert haben, müssen Sie einige Aufgaben ausführen, um Skype for Business Server 2019 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.
+Nach der Migration zu Skype for Business Server 2019 müssen Sie einige Aufgaben ausführen, um Skype for Business Server 2019 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.
   
-- Wenden Sie Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.
+- Wenden Sie Updates auf einen Server an, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde.
     
-- Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.
+- Aktualisieren Sie den Serverregistrierungsschlüssel des Kandidaten für die zentrale Erkennung.
     
-- Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für die zentrale Ermittlung außer Kraft setzt.
+- Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass der Knoten Kandidaten-zentral Suche außer Kraft gesetzt wird.
     
-Nachfolgend finden Sie Anweisungen zur Durchführung der einzelnen Aufgaben.
+Anweisungen für diese Aufgaben finden Sie unten.
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Wenden Sie Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Wenden Sie Updates auf einen Server an, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde.
 
-1. Wählen Sie einen Server aus, auf dem die System Center Operations Manager-Agentdateien installiert sind und als Knoten für die Kandidaten Ermittlung konfiguriert sind. 
+1. Wählen Sie einen Server aus, auf dem die System Center Operations Manager-Agentdateien installiert sind und der als Kandidatenermittlungsknoten konfiguriert ist. 
     
-2. Wenden Sie Updates auf diesen Server an. Lesen Sie das Thema [Anwenden von Updates](apply-updates.md).
+2. Wenden Sie Updates auf diesen Server an. Siehe das Thema [Apply Updates](apply-updates.md).
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Aktualisieren Sie den Serverregistrierungsschlüssel des Kandidaten für die zentrale Erkennung.
 
-1. Öffnen Sie auf dem Server, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde, ein Windows PowerShell-Befehlsfenster. 
+1. Öffnen Sie auf dem Server, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde, ein Windows PowerShell Befehlsfenster. 
     
 2. Geben Sie an der Befehlszeile Folgendes ein:
     
@@ -51,18 +51,18 @@ Nachfolgend finden Sie Anweisungen zur Durchführung der einzelnen Aufgaben.
    ```
 
     > [!NOTE]
-    > Wenn Sie die Registrierung bearbeiten, tritt möglicherweise ein Fehler auf, dass der Befehl fehlgeschlagen ist, wenn der Registrierungsschlüssel bereits vorhanden ist. Wenn Sie dies erleben, können Sie den Fehler bedenkenlos ignorieren. 
+    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error. 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für den Central Discovery Watcher-Knoten außer Kraft setzt.
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass der Knoten Candidate Central Discovery Watcher außer Kraft gesetzt wird.
 
-1. Erweitern Sie auf einem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, **Management Pack-Objekte** , und wählen Sie dann **Objektermittlungen**aus.
+1. Erweitern Sie auf einem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, **Management Pack-Objekte**, und wählen Sie **Objektermittlungen** aus.
     
 2. Klicken Sie auf **Bereich ändern** .
     
-3. Wählen Sie auf der Seite **Objekte des Bereichs Management Packs** die Option **ls Discovery Candidate**aus.
+3. Wählen Sie auf der Seite **Management Pack-Objekte in Bereiche einteilen** den Eintrag **LS-Ermittlungskandidat** aus.
     
-4. Überschreiben Sie den Wert für den **effektiven ls-Ermittlungs Kandidaten** auf den Namen des Kandidaten Servers, der im vorherigen Verfahren gewählt wurde. 
+4. Überschreiben Sie den **Effektivwert für den LS-Ermittlungskandidaten** mit dem Namen des zuvor ausgewählten Kandidatenservers. 
     
-Um Ihre Änderungen abzuschließen, starten Sie den Integritätsdienst auf dem System Center Operations Manager-Stamm Verwaltungs Server neu.
+Starten Sie den Integritätsdienst auf dem System Center Operations Manager-Stamm Verwaltungs Server neu, um die Änderungen abzuschließen.
   
 

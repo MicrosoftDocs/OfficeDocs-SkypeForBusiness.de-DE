@@ -1,8 +1,8 @@
 ---
 title: Migrieren von Reaktionsgruppen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Nachdem Ihre Benutzer in Skype for Business Server 2019-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Die Migration von Reaktionsgruppen umfasst das Kopieren von Agentgruppen, Warteschlangen, Workflows, Audiodateien und Kontaktobjekten der beweglichen Reaktionsgruppe aus der Legacy Bereitstellung in den Skype for Business Server 2019-Pool. Nachdem Sie Ihre Legacy-Reaktionsgruppen migriert haben, werden Anrufe an die Reaktionsgruppen von der Reaktionsgruppenanwendung im Pool Skype for Business Server 2019 verarbeitet. Anrufe für Reaktionsgruppen werden nicht mehr vom Vorversionspool verarbeitet.
-ms.openlocfilehash: 2d439462fa103cc16fd7ae70b79364be7d79803a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03b0ffd900b5d7c23dd6ff680d56c0c4db53d8dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016106"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752677"
 ---
 # <a name="migrate-response-groups"></a>Migrieren von Reaktionsgruppen
 
@@ -40,7 +40,7 @@ Nachdem Sie die Reaktionsgruppen migriert haben, müssen Sie Skype for Business 
 Wenn Sie Reaktionsgruppen migrieren, werden die Legacy-Reaktionsgruppen nicht entfernt. Wenn Sie Reaktionsgruppen nach der Migration mithilfe von Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell verwalten, können Sie sowohl die Legacy-Reaktionsgruppen als auch die Skype for Business Server 2019-Reaktionsgruppen anzeigen. Sie sollten Updates nur auf die Skype for Business Server 2019-Reaktionsgruppen anwenden. Die Legacy-Reaktionsgruppen werden nur für Rollback-Zwecke beibehalten. 
   
 > [!CAUTION]
-> Nachdem die Migration abgeschlossen ist und die neuen Reaktionsgruppen erstellt wurden, werden in der Skype for Business Server-Systemsteuerung und in der Skype for Business Server-Verwaltungsshell die Versionen Legacy und Skype for Business Server 2019 der einzelnen Antworten angezeigt. Gruppe. Verwenden Sie nicht Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell, um die Vorgänger Reaktionsgruppen zu entfernen. Wenn Sie eine entfernen, wird die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, nicht mehr funktionieren. Die Legacy-Reaktionsgruppen werden entfernt, wenn Sie den Legacy Pool außer Betrieb nehmen. 
+> Nachdem die Migration abgeschlossen wurde und die neuen Reaktionsgruppen erstellt wurden, werden in der Skype for Business Server-Systemsteuerung und in der Skype for Business Server-Verwaltungsshell die Versionen Legacy und Skype for Business Server 2019 der einzelnen Reaktionsgruppen angezeigt. Verwenden Sie nicht Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell, um die Vorgänger Reaktionsgruppen zu entfernen. Wenn Sie eine entfernen, wird die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, nicht mehr funktionieren. Die Legacy-Reaktionsgruppen werden entfernt, wenn Sie den Legacy Pool außer Betrieb nehmen. 
   
 > [!IMPORTANT]
 > Warten Sie mit dem Entfernen von Daten aus früheren Bereitstellungen, bis Sie den Pool außer Betrieb nehmen. Darüber hinaus wird dringend empfohlen, die Reaktionsgruppen unmittelbar nach der Migration zu exportieren. Wenn eine ältere Reaktionsgruppe entfernt werden soll, können Sie Ihre Reaktionsgruppen aus der Sicherung wiederherstellen, um wieder Skype for Business Server 2019-Reaktionsgruppen zu erhalten. 
