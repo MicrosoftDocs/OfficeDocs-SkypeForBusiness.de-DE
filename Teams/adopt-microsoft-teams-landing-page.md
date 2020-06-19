@@ -3,8 +3,8 @@ title: Einführen von Microsoft Teams
 ms.reviewer: karuanag
 description: Informieren Sie sich über die verfügbaren Adoptions Ressourcen, die Ihnen beim Planen und Bereitstellen von Microsoft Teams in Ihrer Organisation helfen.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -21,17 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665927"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756514"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
 > [!NOTE]
-> Eine Übersicht über den Übergang zu Remote Learning und Ressourcen, um Ihnen den Einstieg zu erleichtern, finden Sie auf unserer [**Remote Learning-Startseite**](https://www.microsoft.com/education/remote-learning).
+> Eine Übersicht über den Umstieg auf Remote Learning und Ressourcen für das Fernstudium, die Ihnen bei den ersten Schritten helfen, finden Sie auf der [**Startseite für Remote Learning und Fernunterricht**](https://www.microsoft.com/education/remote-learning).
 
 Wenn Sie ein kleines Unternehmen sind oder wenn Sie Microsoft Teams mit Chat, Teams & Kanälen und Besprechungen einführen möchten, verwenden Sie unsere ausführliche Anleitung [Erste Schritte](get-started-with-teams-quick-start.md), die darauf ausgelegt ist, Ihnen einen schnellen Einstieg zu ermöglichen. Wenn Sie eine große Organisation mit einer Hybrid-oder lokalen Skype for Business-Konfiguration sind, oder wenn Sie Sprachfeatures (wie Microsoft 365 oder Office 365-Anrufpläne oder das Telefonsystem) bereitstellen möchten, können Sie mit unseren Anleitungen für die ersten Schritte beginnen, doch Sie benötigen die folgenden zusätzlichen Anleitungen, um unter **umfassendere Einführungs Anleitungen**zu suchen.
 

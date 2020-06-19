@@ -1,10 +1,10 @@
 ---
 title: Tools und Downloads für die Einführung
 ms.reviewer: karuanag
-description: Verwenden Sie diese Adoptions Ressourcen, um Sie bei der Einführung von Microsoft Teams und anderen Office 365-Diensten zu unterstützen.
+description: Verwenden Sie diese Adoptions Ressourcen, um die Einführung von Microsoft Teams und anderen Microsoft 365-oder Office 365-Diensten zu fördern.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551003"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756504"
 ---
 # <a name="tools-for-driving-adoption"></a>Tools für das Steuern der Einführung 
 
@@ -148,8 +148,8 @@ Verwenden Sie die nachstehenden Tools, um die einzelnen Phasen Ihres Service Ado
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Office 365 Champions-Programm
-Das Office 365 Champions-Programm ist ein kostenloses Programm, das Personen hilft, die mehr von Microsoft Teams und anderen Office 365-Diensten erhalten möchten. Wir kombinieren unsere Online-Community in der [technischen Microsoft-Community](https://aka.ms/DriveAdoption) mit monatlichen Community-anrufen, die alle Komponenten der Einführung von Governance auf bewährte Methoden für neue Funktionen unterstreichen. Nehmen Sie an https://aka.ms/O365Champions unserer Community Teil und erhalten Sie Zugriff auf Vorzeitige Freigabe, hören Sie von anderen Kunden und lernen Sie von Microsoft-Experten.  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 oder Office 365 Champions-Programm
+Das Champions-Programm ist ein kostenloses Programm, das Personen hilft, die mehr von Microsoft Teams und anderen Microsoft 365-oder Office 365-Diensten erhalten möchten. Wir kombinieren unsere Online-Community in der [technischen Microsoft-Community](https://aka.ms/DriveAdoption) mit monatlichen Community-anrufen, die alle Komponenten der Einführung von Governance auf bewährte Methoden für neue Funktionen unterstreichen. Nehmen Sie an unserer Community Teil https://aka.ms/O365Champions und erhalten Sie Zugriff auf Vorzeitige Freigabe, hören Sie von anderen Kunden und lernen Sie von Microsoft-Experten.  
 
 ### <a name="teams-adoption-guide"></a>Leitfaden zur Einführung von Teams
 Schauen Sie sich das [Daumenkino für Teams](https://aka.ms/teamstoolkit)an, einen Online-Leitfaden, der Ihnen bei der Einführung von Teams in Ihrem Unternehmen helfen wird. Es enthält viele herunterladbare Tools, Vorlagen und andere Ressourcen, die Ihnen bei der Einführung ihrer Teams helfen.
