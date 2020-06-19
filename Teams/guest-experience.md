@@ -18,23 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637274"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799796"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
 
 Wenn ein Gast zu einem Team eingeladen wird, erhält er eine Willkommens-E-Mail-Nachricht. Diese Nachricht enthält einige Informationen zum Team und was ihn jetzt als Mitglied erwartet. Der Gast muss die Einladung in der E-Mail-Nachricht durch das Klicken auf **Microsoft Teams öffnen** annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
     
-![Screenshot mit einem Beispiel einer Willkommens-E-Mail](media/guest-experience-image1.png)
+![Screenshot mit einem Beispiel einer Willkommens-e-Mail-Nachricht](media/guest-experience-image1.png)
     
-Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Kennzeichnung **(Gast)** eingeblendet.
-    
-![Screenshot mit Banner-Benachrichtigung zu Gastbenutzern](media/guest-experience-image2.png "Screenshot, der einen Teil des Marketingkanals für Northwind Traders abbildet, auf dem Folgendes zu sehen ist: der Hinweis im oberen Banner, dass dieses Team Gäste hat, und das Wort „GAST“ neben dem Namen von Benutzern, die Gäste des Teams sind.")
+Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Ein Tag in der oberen rechten Ecke des Kanal Fadens zeigt die Anzahl der Gäste im Team an, und neben dem Namen jedes Gasts wird eine **(Gast-)** Beschriftung angezeigt.
+
+![Screenshot mit einer Kategorie, die die Anzahl der Gäste im Team angibt](media/guest-experience-image2.png)
 
 Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
 - [Teilnehmen an einem Team als Gast](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

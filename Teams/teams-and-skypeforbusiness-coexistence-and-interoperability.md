@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691041"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756846"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 
@@ -76,7 +76,7 @@ Dieser Modus kann vor dem Starten einer verwalteten Bereitstellung von Teams ver
 
 
 > [!IMPORTANT]
-> Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den **TeamsOnly**-Modus verschoben haben, funktionieren die Anwesenheitsinformationen in Outlook und anderen Office-Apps nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Problemumgehung: Wenn Sie die Anwesenheitsinformationen in Outlook (und anderen Office-Apps) anzeigen möchten, muss Skype for Business installiert sein, auch wenn Sie Microsoft Teams im **Nur-Teams**-Modus ausführen. Das Problem ist Microsoft bekannt, und es wird gerade an einer Lösung gearbeitet.
+> Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den Modus **nur für Teams** verschoben haben, müssen Sie möglicherweise Outlook und Teams neu starten, wenn die Anwesenheit nicht mehr funktioniert. 
 
 
 Ein **nur Teams** -Benutzer (auch als " *aktualisierter* Benutzer" bezeichnet) hat Zugriff auf alle Funktionen in Microsoft Teams. Sie können den Skype for Business-Client beibehalten, um an Besprechungen in Skype for Business teilzunehmen, die von nicht aktualisierten Benutzern oder externen Personen organisiert wurden. Ein aktualisierter Benutzer kann weiterhin mit anderen Benutzern in der Organisation kommunizieren, die weiterhin Skype for Business verwenden, indem die Interoperabilitätsfunktionen zwischen Teams und Skype for Business verwendet werden (sofern sich diese Skype for Business-Benutzer nicht im Modus " **Inseln** " befinden). Ein aktualisierter Benutzer kann jedoch keinen Skype for Business-Chat,-Anruf oder eine Besprechung initiieren.

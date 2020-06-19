@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690011"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753437"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -34,7 +34,7 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 - **Teams** sind Sammlungen von Personen, Inhalten und Tools für unterschiedliche Projekte und Ergebnisse innerhalb einer Organisation.
 
     - Teams können so aufgesetzt werden, dass nur eingeladene Benutzer Zugriff erhalten.
-    - Teams können auch als öffentliche und offene Teams erstellt werden, an denen alle in der Organisation teilnehmen können (maximal 5000 Mitglieder).
+    - Teams können auch so erstellt werden, dass Sie öffentlich und offen sind und jeder innerhalb der Organisation teilnehmen kann (bis zu 10.000-Mitglieder).
     
     Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
 

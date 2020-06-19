@@ -1,7 +1,7 @@
 ---
 title: Sicherheitshandbuch für Microsoft Teams
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: tracyp
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689661"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761443"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -61,7 +61,7 @@ Teams mildert diese Angriffe, indem es den Azure DDOS-Netzwerkschutz ausführt u
 
 ### <a name="eavesdropping"></a>Abhörschutz
 
-Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird.
+Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
 Teams verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb von Microsoft 365 und Office 365, und verwendet zudem TLS von den Clients zum Dienst, wodurch dieser Angriff innerhalb der Zeitspanne, in der eine bestimmte Konversation angegriffen werden könnte, sehr schwierig bis unmöglich wird. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
 

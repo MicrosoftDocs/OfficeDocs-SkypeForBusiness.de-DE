@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 54fd36bd78f1d9ea263fe3e79a3d12a08741c389
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637934"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804689"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -44,7 +44,10 @@ Ein Schloss-Symbol zeigt einen privaten Kanal an. Nur Mitglieder privater Kanäl
 
 Derzeit unterstützen private Kanäle Connectors und Registerkarten (außer Stream, Planner und Forms). Wir arbeiten an der vollständigen Unterstützung von Apps für private Kanäle, einschließlich Messagingerweiterungen und Bots.
 
-Jedes Team kann maximal 30 private Kanäle nutzen, und jeder private Kanal kann maximal 250 Mitglieder haben. Der Grenzwert der 30 private Kanälen gilt zusätzlich zu den 200 Standardkanälen pro Team.
+Jedes Team kann maximal 30 private Kanäle nutzen, und jeder private Kanal kann maximal 250 Mitglieder haben. Der Grenzwert der 30 private Kanälen gilt zusätzlich zu den 200 Standardkanälen pro Team. 
+
+Wenn Sie ein Team aus einem vorhandenen Team erstellen, werden keine privaten Kanäle im vorhandenen Team kopiert.
+
 
 > [!NOTE]
 > Wir fügen den privaten Kanälen ständig neue Funktionen hinzu, also schauen Sie bald wieder vorbei, um die neuesten Informationen über Apps, Kanalbesprechungen und die Skalierung privater Kanäle für große Teams zu erhalten.
@@ -55,7 +58,7 @@ Um zu bestimmen, ob ein privater Kanal geeignet ist, sollten Sie sich die folgen
 
 |Gibt es bereits ein Team, in dem diese Personen Teammitglieder sind?  |Muss diese Arbeit vor anderen vertraulich gehalten werden?  |Gibt es viele unterschiedliche Themen zu diskutieren?  |Empfehlung  |
 |---------|---------|---------|---------|
-|Ja      |Ja         |Ja         |Erstellen Sie einen privaten Kanal im bestehenden Team, oder erwägen Sie die Erstellung dedizierter privater Kanäle für jedes Thema.         |
+|Ja      |Ja         |Ja          |Erstellen Sie einen privaten Kanal im bestehenden Team, oder erwägen Sie die Erstellung dedizierter privater Kanäle für jedes Thema.         |
 |Ja     |Ja         |Nein         |Erstellen Sie einen privaten Kanal im bestehenden Team.         |
 |Ja     |Nein         |Nein         |Erstellen Sie einen Kanal im bestehenden Team.         |
 |Nein     |Nein         |Nein         |Ziehen Sie die Erstellung eines neuen Teams in Betracht.         |
@@ -70,9 +73,9 @@ Wenn ein privater Kanal erstellt wird, ist er mit dem übergeordneten Team verbu
 
 Standardmäßig kann jeder Teambesitzer oder jedes Teammitglied einen privaten Kanal erstellen. Gäste können keinen privaten Kanal erstellen. Die Möglichkeit zum Erstellen privater Kanäle kann auf Teamebene und auf Organisationsebene verwaltet werden.
 
-> 1. Wechseln Sie zum Admin Center unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+ 1. Wechseln Sie zum Admin Center unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-> 2. Verwenden Sie [Richtlinien](teams-policies.md) , um zu steuern, welche Benutzer in Ihrer Organisation private Kanäle erstellen dürfen.
+ 2. Verwenden Sie [Richtlinien](teams-policies.md) , um zu steuern, welche Benutzer in Ihrer Organisation private Kanäle erstellen dürfen.
     Nachdem Sie die Richtlinien eingerichtet haben, können Teambesitzer die Möglichkeit für Mitglieder, private Kanäle auf der Registerkarte **Einstellungen** für ein Team zu erstellen, deaktivieren oder aktivieren.
 
 Die Person, die einen privaten Kanal erstellt, ist der Besitzer des privaten Kanals, und nur der Besitzer des privaten Kanals kann Personen direkt zum Kanal hinzufügen oder daraus entfernen. Der Besitzer eines privaten Kanals kann ein beliebiges Teammitglied zu diesem privaten Kanal hinzufügen, einschließlich Gäste. Mitglieder eines privaten Kanals verfügen über einen sicheren Bereich für Unterhaltungen, und wenn neue Mitglieder hinzugefügt werden, können diese alle Unterhaltungen (auch alte Unterhaltungen) in diesem privaten Kanal sehen.
@@ -109,7 +112,7 @@ In der folgenden Tabelle wird beschrieben, welche Aktionen Besitzer, Mitglieder 
 |---------|---------|---------|---------|---------|---------|---------|
 |Erstellen eines privaten Kanals|Ja<sup>1</sup>|Ja<sup>1,2</sup>|Nein|–|N/V|N/V|
 |Löschen eines privaten Kanals|Ja|Nein|Nein|Ja|Nein|Nein|
-|Verlassen eines privaten Kanals|N/V|N/V|N/V|Ja<sup>3</sup>|Ja |Ja|
+|Verlassen eines privaten Kanals|–|N/V|Nicht zutreffend|Ja<sup>3</sup>|Ja|Ja|
 |Bearbeiten eines privaten Kanals|Nein|–|N/V|Ja|Nein|Nein|
 |Gelöschte private Kanäle wiederherstellen|Ja|Nein|Nein|Ja|Nein|Nein|
 |Mitglieder hinzufügen|Nein|–|N/V|Ja|Nein|Nein|
@@ -136,7 +139,7 @@ Eine Anleitung zum Verwalten des Lebenszyklus von privaten Kanälen in Ihrer Org
 
 ## <a name="private-channel-sharepoint-sites"></a>SharePoint-Websites im privaten Kanal
 
-Jeder private Kanal verfügt über eine eigene SharePoint-Websitesammlung, die für die Dateifreigabe und die schnelle Bereitstellung optimiert wurde. Die separate Websitesammlung dient dazu, sicherzustellen, dass der Zugriff auf Dateien in privaten Kanälen auf Mitglieder des privaten Kanals beschränkt ist, im Gegensatz zur Teamwebsite, auf der Teambesitzer auf alle Objekte in der Websitesammlung zugreifen können. Diese Websitesammlungen werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Websitesammlung mit vollem Funktionsumfang erweitert werden. Jede Websitesammlung wird in derselben geografischen Region wie die Websitesammlung des übergeordneten Teams erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Graph-API zu vereinfachen.  Sie werden standardmäßig im SharePoint Admin Center nicht angezeigt.
+Jeder private Kanal verfügt über eine eigene SharePoint-Websitesammlung. Die separate Websitesammlung dient dazu, sicherzustellen, dass der Zugriff auf Dateien in privaten Kanälen auf Mitglieder des privaten Kanals beschränkt ist, im Gegensatz zur Teamwebsite, auf der Teambesitzer auf alle Objekte in der Websitesammlung zugreifen können. Diese Websitesammlungen werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Websitesammlung mit vollem Funktionsumfang erweitert werden. Jede Websitesammlung wird in derselben geografischen Region wie die Websitesammlung des übergeordneten Teams erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Graph-API zu vereinfachen.  Sie werden standardmäßig im SharePoint Admin Center nicht angezeigt.
 
 Um einer größeren Anzahl von Websitesammlungen pro Mandant unterzubringen, wurde der Grenzwert von 500.000 auf 2 Millionen erhöht. Eine Websitesammlung eines privaten Kanals synchronisiert die Datenklassifizierung und erbt Gastzugriffsberechtigungen von der Websitesammlung des übergeordneten Teams.  Die Mitgliedschaft bei den Gruppen "Besitzer" oder "Mitglied" der Websitesammlung wird mit der Mitgliedschaft des privaten Kanals innerhalb von Teams synchronisiert. Alle Änderungen an der Mitgliedschaft in den Gruppen "Besitzer" oder "Mitglied" in SharePoint Online werden innerhalb von vier Stunden automatisch auf die Mitgliedschaft im privaten Kanal zurückgesetzt. In Szenarien, in denen bestimmte Benutzer auf Dokumente aber nicht auf private Kanalnachrichten zugreifen müssen, fügen Sie die Benutzer zur Gruppe "Besucher" der Website oder einer neuen Gruppe hinzu, die von Besitzern und Mitgliedern getrennt ist.
 

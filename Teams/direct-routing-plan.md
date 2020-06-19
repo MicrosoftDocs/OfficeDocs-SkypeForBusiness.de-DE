@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691231"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799826"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -49,7 +49,7 @@ Microsoft bietet auch Sprachlösungen für alle in der Cloud, wie Anrufplan. Ein
 
 Das direkte Routing unterstützt auch Benutzer, die über die zusätzliche Lizenz für den Microsoft-Anrufplan verfügen. Weitere Informationen finden Sie unter [Telefon System und Anrufpläne](calling-plan-landing-page.md). 
 
-Bei der direkten Weiterleitung, wenn Benutzer an einer geplanten Konferenz teilnehmen, wird die Einwahlnummer vom Microsoft-Audiokonferenzdienst bereitgestellt, für den eine ordnungsgemäße Lizenzierung erforderlich ist.  Wenn Sie sich auswählen, platziert der Microsoft-Audiokonferenzdienst den Anruf über Online-Anruffunktionen, was eine ordnungsgemäße Lizenzierung erfordert. (Beachten Sie, dass das auswählen nicht durch direkte Weiterleitung weitergeleitet wird.) Weitere Informationen finden Sie unter [Online Besprechungen mit Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
+Bei der direkten Weiterleitung, wenn Benutzer an einer geplanten Konferenz teilnehmen, wird die Einwahlnummer vom Microsoft-Audiokonferenzdienst bereitgestellt, für den eine ordnungsgemäße Lizenzierung erforderlich ist.  Wenn Sie sich auswählen, platziert der Microsoft-Audiokonferenzdienst den Anruf über Online-Anruffunktionen, was eine ordnungsgemäße Lizenzierung erfordert. (Hinweis: Wenn ein Benutzer nicht über eine Microsoft Audio Conferencing-Lizenz verfügt, wird der Anruf durch direkte Weiterleitung weitergeleitet.) Weitere Informationen finden Sie unter [Online Besprechungen mit Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Die Planung der Bereitstellung des direkten Routings ist der Schlüssel zu einer erfolgreichen Implementierung. In diesem Artikel werden Infrastruktur-und Lizenzierungsanforderungen beschrieben und Informationen zur SBC-Konnektivität bereitgestellt: 
 
@@ -67,7 +67,7 @@ Detaillierte Informationen zum Konfigurieren des direkten Routings finden Sie un
 ## <a name="infrastructure-requirements"></a>Infrastrukturanforderungen
 In der folgenden Tabelle sind die Infrastrukturanforderungen für die unterstützten SBCS, Domänen und anderen Netzwerkverbindungsanforderungen zum Bereitstellen des direkten Routings aufgeführt:  
 
-|**Infrastruktur Anforderung**|**Sie benötigen Folgendes**|
+|Infrastruktur Anforderung|Sie benötigen Folgendes|
 |:--- |:--- |
 |Session Border Controller (SBC)|Ein unterstützter SBC. Weitere Informationen finden Sie unter [unterstützte SBCS](#supported-session-border-controllers-sbcs).|
 |Telefonie-Trunks, die mit dem SBC verbunden sind|Eine oder mehrere Telefon Stämme, die mit dem SBC verbunden sind. An einem Ende stellt der SBC eine Verbindung mit dem Microsoft Phone-System über direkte Weiterleitung her. Der SBC kann auch eine Verbindung mit externen Telefonie-Entitäten wie PBX-Anlagen, analogen Telefon Adaptern usw. herstellen. Alle mit dem SBC verbundenen Optionen für PSTN-Konnektivität funktionieren. (Für die Konfiguration der PSTN-Stämme zum SBC wenden Sie sich bitte an die SBC-Anbieter oder trunk-Anbieter.)|
@@ -136,7 +136,7 @@ Der SBC-Domänenname muss aus einem der Namen stammen, die in Domänen des Manda
 
 Die folgende Tabelle enthält Beispiele für DNS-Namen, die für den Mandanten registriert sind, ob der Name als FQDN für den SBC verwendet werden kann, und Beispiele für gültige FQDN-Namen:
 
-|**DNS-Name**|**Kann für SBC-FQDN verwendet werden**|**Beispiele für FQDN-Namen**|
+|DNS-Name|Kann für SBC-FQDN verwendet werden|Beispiele für FQDN-Namen|
 |:--- |:--- |:--- |
 contoso.com|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|Nein|Die Verwendung von *. onmicrosoft.com-Domänen wird für SBC-Namen nicht unterstützt.
@@ -257,7 +257,7 @@ Sie müssen die folgenden Ports für Microsoft 365-oder Office 365-Umgebungen ve
 - Office 365 gcc-höchst
 - Office 365 DoD
 
-|**Datenverkehr**|**Von**|**Bis**|**Quell-Port**|**Ziel-Port**|
+|Datenverkehr|Von|Bis|Quellport|Zielport|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP-Proxy|Sbchttps|1024 – 65535|Definiert auf dem SBC (für Office 365 gcc-höchst/DoD-Port 5061 muss verwendet werden)|
 SIP/TLS|Sbchttps|SIP-Proxy|Im SBC definiert|5061|
@@ -269,7 +269,7 @@ Der SBC führt eine DNS-Abfrage aus, um SIP.pstnhub.Microsoft.com zu lösen. Bas
 
 In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären und tertiären Rechenzentren zusammengefasst:
 
-|**Wenn das primäre Rechenzentrum**|**EMEA**|**Noam**|**Asien**|
+|Wenn das primäre Rechenzentrum|EMEA|Noam|Asien|
 |:--- |:--- |:--- |:--- |
 |Das sekundäre Rechenzentrum (sip2.pstnhub.Microsoft.com)|US|EU|US|
 |Das tertiäre Rechenzentrum (sip3.pstnhub.Microsoft.com)|Asien|Asien|EU|
@@ -298,7 +298,7 @@ Der Mediendatenverkehr fließt in die und aus einem separaten Dienst in der Micr
 ### <a name="port-range-applicable-to-all-environments"></a>Port Bereich (gilt für alle Umgebungen)
 Der Portbereich der Medien Prozessoren ist in der folgenden Tabelle dargestellt: 
 
-|**Datenverkehr**|**Von**|**Bis**|**Quell-Port**|**Ziel-Port**|
+|Datenverkehr|Von|Bis|Quellport|Zielport|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|Medienprozessor|Sbchttps|3478-3481 und 49152 – 53247|Im SBC definiert|
 |UDP/SRTP|Sbchttps|Medienprozessor|Im SBC definiert|3478-3481 und 49152 – 53247|

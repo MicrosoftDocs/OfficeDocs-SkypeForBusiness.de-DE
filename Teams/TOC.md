@@ -136,6 +136,7 @@
 ## [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Ermöglichen, dass Benutzer ihren Namen aufzeichnen, wenn sie an einer Besprechung teilnehmen](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Option zum Aufheben der Hand in Teams-Besprechungen](raise-hand-meetings.md)
 ## [Teams-Besprechungen in nicht unterstützten Browsern](unsupported-browsers.md)
 ## [Konfigurieren der Desktopfreigabe in Teams](configure-desktop-sharing.md)
 ## [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md)

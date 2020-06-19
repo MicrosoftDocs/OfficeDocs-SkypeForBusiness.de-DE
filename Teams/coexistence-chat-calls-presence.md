@@ -1,7 +1,7 @@
 ---
 title: Koexistenz mit Skype for Business
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Koexistenz-Verhalten zwischen Teams & Skype for Business, einschließlich Routing Parametern, Chat & Anrufweiterleitung, Chats & von bereits vorhandenen Threads, & Anwesenheit.
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137305"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757236"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -65,12 +65,12 @@ Die Parameter, die die Thread Routingmethode bestimmen, sind:
 
 Die folgenden Tabellen erfassen das Routing von in-Tenant-Chats und-anrufen und gelten für neue Anrufe oder Chats, die nicht aus einem bereits vorhandenen Thread gestartet werden. Es wird beschrieben, welcher Client einen neuen Anruf oder Chat erhält, wenn er von einem Benutzer auf der linken Seite zu einem in-Tenant-Empfänger auf der rechten Seite stammt.
 
-Nachrichten, die an TeamsOnly-Benutzer gesendet werden, werden immer an Teams weitergeleitet. Nachrichten, die\* an SFB-Nutzer gesendet werden, werden immer an Skype for Business weitergeleitet, wenn die Unterhaltung wie oben beschrieben möglich ist. Nachrichten, die an Inseln-Benutzer gesendet werden, werden immer an denselben Client weitergeleitet, von dem Sie gesendet wurden.
+Nachrichten, die an TeamsOnly-Benutzer gesendet werden, werden immer an Teams weitergeleitet. Nachrichten, die an SFB \* -Nutzer gesendet werden, werden immer an Skype for Business weitergeleitet, wenn die Unterhaltung wie oben beschrieben möglich ist. Nachrichten, die an Inseln-Benutzer gesendet werden, werden immer an denselben Client weitergeleitet, von dem Sie gesendet wurden.
 
 In den folgenden Tabellen wird angezeigt, welcher Client in einem bestimmten Modus einen Anruf vom Absender (drei ganz links) erhält, je nach dem Modus des Erstellers, dem ausgewählten Client und dem Aufenthaltsort des Skype for Business-Clients (auf-Prem oder Online).
 
 In den folgenden Tabellen: 
-- **SFB\* ** stellt einen der folgenden Modi dar: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **SFB \* ** stellt einen der folgenden Modi dar: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
 - *Kursiver Text* hebt eine Interop-Unterhaltung hervor.
 
@@ -78,16 +78,16 @@ In den folgenden Tabellen:
 
 **Tabelle 1a: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im Modus "Inseln"**
 
-| <br/><br/> Modus | Urheber <br/><br/> Client | <br/><br/> SFB&nbsp;Homed | | Empfänger <br/><br/> Inselmodus  |
+| <br/><br/> Modus | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed | | Empfänger <br/><br/> Inselmodus  |
 |--- |--- |--- |--- |--- |
 | Inselmodus | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Auf-Prem<br/>Auf-Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
 |SFB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**Tabelle 1B: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im SFB\* -Modus**
+**Tabelle 1B: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im SFB- \* Modus**
 
-| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB&nbsp;Homed | |   Empfänger <br/><br/> SFB\*   |
+| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed | |   Empfänger <br/><br/> SFB\*   |
 |--- |--- |--- |---   |--- |
 | Inselmodus |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Nicht möglich** <br/>Skype for Business<br/> |
 |SFB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
@@ -96,7 +96,7 @@ In den folgenden Tabellen:
 
 **Tabelle 1C: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im TeamsOnly-Modus**
 
-| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB&nbsp;Homed | |   Empfänger <br/><br/> TeamsOnly  |
+| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed | |   Empfänger <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | Inselmodus   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
 |SFB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
@@ -107,7 +107,7 @@ In den folgenden Tabellen:
   
 In den folgenden Tabellen wird das Routing von verbundenen anrufen und Chats erfasst und für neue Anrufe oder Chats gültig. Sie beschreiben, welcher Client einen neuen Anruf oder Chat erhält, wenn er von einem Benutzer auf der linken Seite zu einem verbundenen Zielbenutzer auf der rechten Seite stammt.
 
-Zusammengefasst: Wenn die Unterhaltung wie oben beschrieben möglich ist, werden Nachrichten, die an TeamsOnly-Benutzer gesendet werden, immer in Teams landen; Nachrichten, die\* an SFB-Nutzer gesendet werden, werden immer in Skype for Business landen; Nachrichten, die an Inseln-Benutzer gesendet werden, werden immer in Skype for Business landen, unabhängig vom Kunden, von dem Sie gesendet wurden. Das Routing für verbundene Chats und Anrufe unterscheidet sich vom in-Tenant-Routing, in dem die Benutzer immer eine Föderations Kommunikation in Skype for Business erhalten.
+Zusammengefasst: Wenn die Unterhaltung wie oben beschrieben möglich ist, werden Nachrichten, die an TeamsOnly-Benutzer gesendet werden, immer in Teams landen; Nachrichten, die an SFB- \* Nutzer gesendet werden, werden immer in Skype for Business landen; Nachrichten, die an Inseln-Benutzer gesendet werden, werden immer in Skype for Business landen, unabhängig vom Kunden, von dem Sie gesendet wurden. Das Routing für verbundene Chats und Anrufe unterscheidet sich vom in-Tenant-Routing, in dem die Benutzer immer eine Föderations Kommunikation in Skype for Business erhalten.
 
 Dies liegt daran, dass wir nicht davon ausgehen können, dass ein Partner von Skype for Business bereits Teams verwendet, wenn Sie sich im Modus "Inseln" befinden. Inseln ist der Standardmodus, aber wir können nicht davon ausgehen, dass alle Inseln-Benutzer Teams ausführen. Durch Routing zu Skype for Business stellen wir sicher, dass keine Kommunikation mit einem Insel Nutzer fehlschlägt. Wenn wir an Teams weitergeleitet werden, könnte diese Kommunikation übersehen werden, wenn das Ziel keine Teams verwendet hat. Durch das Routing zu Skype for Business wird sichergestellt, dass die Nachricht immer empfangen wird.  
 
@@ -125,7 +125,7 @@ In den folgenden Tabellen wird beschrieben, welcher Client einen Anruf vom Absen
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**Tabelle 2B: Föderation des neuen Chats oder Anrufweiterleitung an einen Empfänger im\* SFB-Modus**
+**Tabelle 2B: Föderation des neuen Chats oder Anrufweiterleitung an einen Empfänger im SFB- \* Modus**
 
 | <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed| |  Empfänger<br/><br/> SFB\* |  
 |--- |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ Wenn beispielsweise der Chat oder Anruf eines Absenders auf dem Skype for Busine
 Um zu erfahren, welches Verhalten zu erwarten ist, müssen Sie wissen, dass die Anwesenheitsfunktion basierend auf dem Koexistenzmodus eines Benutzers freigegeben wird:
 
 * Wenn sich ein Benutzer im TeamsOnly-Modus befindet, wird jeder andere Benutzer (ob in Teams oder Skype for Business) sehen, dass der TeamsOnly-Benutzer die Team Anwesenheit erhält.
-* Wenn sich ein Nutzer in einem der SFB\* -Modi befindet (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), wird jeder andere Nutzer (in Teams oder Skype for Business) sehen, dass der\* SFB-Nutzer Skype for Business-Anwesenheitsinformationen hat.
+* Wenn sich ein Nutzer in einem der SFB- \* Modi befindet (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), wird jeder andere Nutzer (in Teams oder Skype for Business) sehen, dass der SFB \* -Nutzer Skype for Business-Anwesenheitsinformationen hat.
 * Wenn sich ein Benutzer im Modus "Inseln" (oder "Legacy") befindet, ist die Anwesenheit in Teams und die Anwesenheit in Skype for Business unabhängig (die Werte müssen nicht übereinstimmen), und andere Benutzer sehen je nachdem, ob Sie sich im gleichen Mandanten oder in einem Verbund Mandanten befinden und welchen Client Sie verwenden
     * In Teams sehen alle anderen Benutzer innerhalb desselben Mandanten die Anwesenheitsinformationen des Teams für die Inseln des Benutzers. Diese wird mit der in-Tenant-Routingtabelle oben ausgerichtet.
     * In Teams sehen alle anderen Benutzer in einem Verbund Mandanten die Skype for Business-Anwesenheit der Inseln-Benutzer. Diese wird an der oben aufgeführten Federated-Routingtabelle ausgerichtet.
@@ -183,7 +183,7 @@ Um zu erfahren, welches Verhalten zu erwarten ist, müssen Sie wissen, dass die 
 
 ### <a name="in-tenant-presence"></a>Anwesenheit in einem Mandanten
 
-Nachrichten, die an TeamsOnly-Benutzer gesendet werden, landen immer in Teams. Nachrichten, die\* an SFB-Nutzer gesendet werden, werden immer in Skype for Business landen, wenn die Unterhaltung wie oben beschrieben möglich ist. Nachrichten, die an Inseln-Benutzer gesendet werden, landen immer in dem Client, aus dem Sie stammen.
+Nachrichten, die an TeamsOnly-Benutzer gesendet werden, landen immer in Teams. Nachrichten, die an SFB \* -Nutzer gesendet werden, werden immer in Skype for Business landen, wenn die Unterhaltung wie oben beschrieben möglich ist. Nachrichten, die an Inseln-Benutzer gesendet werden, landen immer in dem Client, aus dem Sie stammen.
 
 In der Tabelle wird die Anwesenheit des Herausgebers beschrieben, die von einem Watcher abhängig vom Modus des Herausgebers und dem Client des Watcher (für einen neuen Thread) angezeigt wird.
 

@@ -1,7 +1,7 @@
 ---
 title: Vorlagen für Organisationen im Gesundheitswesen
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams-Vorlagen, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: db6475c3d7c4be6242c1befb988b240b9efcab42
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7f5fbeb967b72a25e4df5dee6f0597c3140d85b6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904727"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756604"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 

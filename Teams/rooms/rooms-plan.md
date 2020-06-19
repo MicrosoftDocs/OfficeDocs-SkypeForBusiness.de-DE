@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, erläutert.
-ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997306"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761463"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen von Microsoft Teams-Räumen
 
@@ -102,8 +102,8 @@ _Beispiel für Besprechung/Konferenzraum Inventar_
 
 | Standort  | Name des Raums | Zimmerkategorie | Anzahl der Personen  | Im Bereich? | Aktuelle Raumfunktionen       | Zukünftige Raumfunktionen     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| Londoner HQ | Curie         | Mittel        | 6&ndash;12                  | Ja          | Freisprechtelefon                        | 1 Bildschirm, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
-| Sydney HQ | Hill          | Groß         | 12&ndash;16                 | Ja          | Legacy-AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
+| Londoner HQ | Curie         | Mittel        | 6 &ndash; 12                  | Ja          | Freisprechtelefon                        | 1 Bildschirm, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
+| Sydney HQ | Hill          | Groß         | 12 &ndash; 16                 | Ja          | Legacy-AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
 
 ## <a name="device-selection"></a>Geräteauswahl 
 
@@ -124,10 +124,10 @@ _Beispiel für Microsoft Teams rooms-Bereitstellungsvorlage für Ihre Organisati
 
 | **Raumtyps/-Größe** | **Anzahl der Personen**  | **Microsoft Teams rooms-System** | **Peripheriegeräte**  | **Anzeige (n)** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| Fokus 10 ' um 9 '      | 2&ndash;4                   |                                  |                         |                 |
-| Klein 16 ' von 16 '     | 4&ndash;6                   |                                  |                         |                 |
-| Mittel 18 ' von 20 '    | 6&ndash;12                  |                                  |                         |                 |
-| Groß 15 ' von 32 '     | 12&ndash;16                 |                                  |                         |                 |
+| Fokus 10 ' um 9 '      | 2 &ndash; 4                   |                                  |                         |                 |
+| Klein 16 ' von 16 '     | 4 &ndash; 6                   |                                  |                         |                 |
+| Mittel 18 ' von 20 '    | 6 &ndash; 12                  |                                  |                         |                 |
+| Groß 15 ' von 32 '     | 12 &ndash; 16                 |                                  |                         |                 |
 
 **Pro-Tipp –** Jetzt ist es eine tolle Zeit, Informationen über die von Ihnen ausgewählte Microsoft Teams rooms-Lösung zu sammeln.
 
@@ -150,7 +150,7 @@ Ihre Organisation muss Überwachungs-, Verwaltungs-und Verwaltungsaufgaben konti
 
 Viele Organisationen verfügen über ein AV-Team oder einen Partner, der Ihre Konferenzräume und-Geräte verwaltet. Dieses Team sollte an einer Vereinbarung teilnehmen, wer die Microsoft Teams rooms-Geräte verwalten wird, die die Leistung überwachen und Softwareupdates und-Hotfixes bereitstellen. 
 
-Berücksichtigen Sie, welche Helpdesk-Warteschlange Sie Microsoft Teams rooms֪ – Verwandte Anrufe weiterleiten, und stellen Sie dem Helpdesk-Team eine FAQ zur Verfügung, damit Sie besser verstehen können, wie Sie Microsoft Teams-Räume verwenden und welche wichtigen Schritte zur Problembehandlung durchgeführt werden können. Ein guter Ausgangspunkt für diese FAQ sind die [Benutzer Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) -und [Support Teams in Ihrer Organisation](known-issues.md).
+Berücksichtigen Sie, welche Helpdesk-Warteschlange Sie Microsoft Teams rooms֪ – Verwandte Anrufe weiterleiten, und stellen Sie dem Helpdesk-Team eine FAQ zur Verfügung, damit Sie besser verstehen können, wie Sie Microsoft Teams-Räume verwenden und welche wichtigen Schritte zur Problembehandlung durchgeführt werden können. Ein guter Ausgangspunkt für diese FAQ ist die [Benutzer Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) und [bekannte Probleme](known-issues.md).
 
 |    |     |
 |-----------|------------|

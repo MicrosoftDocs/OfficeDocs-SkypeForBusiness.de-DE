@@ -1,7 +1,7 @@
 ---
 title: Vorlagen für Teams für kleine und mittelständische Unternehmen
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Verwenden Sie vordefinierte Vorlagen von Microsoft Teams, um schnell und einfach Teams für kleine und mittelständische Unternehmen zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 89555c13504b621b5cb9c43ae9edb33c9f2bbe54
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904887"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757056"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Erste Schritte mit Microsoft Teams-Vorlagen für kleine und mittelständische Unternehmen
 

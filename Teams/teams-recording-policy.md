@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bb6f5a682b816e04e03694788fbdcf48ad897b5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690991"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804679"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in die richtlinienbasierte Aufzeichnung von Teams für Anrufe & Besprechungen
 
@@ -133,7 +133,7 @@ Die Azure-und Windows-VM-Anforderungen gelten nur für die Teams-bot-Komponente,
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Richtlinienzuweisung und Bereitstellung von Compliance-Aufzeichnungen
 
-IT-Administratoren können ermitteln, welche Benutzer aufgezeichnet werden und welche Aufzeichnung für jeden Benutzer verwendet werden soll, indem Sie Richtlinien für die Konformitäts Aufzeichnung erstellen und zuweisen. Datenschreiber werden automatisch zur Teilnahme an Unterhaltungen eingeladen, die auf der Konfiguration dieser Richtlinien basieren, wenn eine Kommunikations Interaktion stattfindet. Richtlinien für die Richtlinien Konformitäts Aufzeichnung werden mit [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) verwaltet und können für jede Organisation auf Mandanten-und Benutzerebene angewendet werden. Weitere Informationen zu Microsoft docs für [<span class="underline">Besprechungsrichtlinien</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams) und [<span class="underline">Anruf Richtlinien</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy)finden Sie hier.
+IT-Administratoren können ermitteln, welche Benutzer aufgezeichnet werden und welche Aufzeichnung für jeden Benutzer verwendet werden soll, indem Sie Richtlinien für die Konformitäts Aufzeichnung erstellen und zuweisen. Datenschreiber werden automatisch zur Teilnahme an Unterhaltungen eingeladen, die auf der Konfiguration dieser Richtlinien basieren, wenn eine Kommunikations Interaktion stattfindet. Richtlinien für die Richtlinien Konformitäts Aufzeichnung werden mithilfe von [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) verwaltet und können für jede Organisation auf Mandanten-, pro-Benutzer-und Sicherheitsgruppen Ebene angewendet werden. Weitere Informationen zu Microsoft docs für [<span class="underline">Besprechungsrichtlinien</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), [<span class="underline">Anruf Richtlinien</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) und [<span class="underline">Gruppenrichtlinien</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)finden Sie hier.
 
 1. Erstellen Sie eine Anwendungsinstanz in Ihrem Mandanten.
 

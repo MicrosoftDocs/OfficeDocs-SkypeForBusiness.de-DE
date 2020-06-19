@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie mehr über Messagingrichtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: a1d47efe49781f8c7f62cdb87eaab977fa4304e2
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 9e382f5dd23220cc1a97f2549430a75a79e47eb7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724900"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756906"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -93,7 +93,7 @@ Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie 
 - **URL-Vorschau zulassen**: Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten zu aktivieren bzw. zu deaktivieren.
 - **Zulassen, dass Benutzer Nachrichten übersetzen** Aktivieren Sie diese Einstellung, damit Benutzer Teams-Nachrichten automatisch in die Sprache übersetzen können, die in Ihren persönlichen Spracheinstellungen für Microsoft 365 oder Office 365 angegeben ist.
 - **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.
-- **Senden dringender Nachrichten mithilfe von Prioritäts Benachrichtigungen** Wenn Sie diese Option aktivieren, können Benutzer Nachrichten mithilfe von [Prioritäts Benachrichtigungen](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)senden. Prioritäts Benachrichtigungen benachrichtigen Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten, oder bis Nachrichten, die als *dringend* markiert sind, vom Empfänger abgeholt und gelesen werden, sodass die Wahrscheinlichkeit, dass die Nachricht rechtzeitig bearbeitet wird, maximiert wird.
+- **Senden dringender Nachrichten mithilfe von Prioritäts Benachrichtigungen** Wenn Sie diese Option aktivieren, können Benutzer Nachrichten mithilfe von [Prioritäts Benachrichtigungen](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)senden. Prioritäts Benachrichtigungen benachrichtigen Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten, oder bis Nachrichten, die als *dringend* markiert sind, vom Empfänger abgeholt und gelesen werden, sodass die Wahrscheinlichkeit, dass die Nachricht rechtzeitig bearbeitet wird, maximiert wird.
 - **Erstellen von Audio-Nachrichten** 
   > [!Important]
   > Audionachrichten werden in eDiscovery-Berichten nicht erfasst.

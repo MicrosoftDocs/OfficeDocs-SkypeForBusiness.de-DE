@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d14c32357101ef2fe002394046f707445b7c10a6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690941"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756916"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -420,9 +420,9 @@ Derzeit können Sie nur PowerShell verwenden, um diese Richtlinie einzurichten. 
 Um anzugeben, welches Besprechungs-Add-in für Benutzer verfügbar sein soll, legen Sie den **PreferredMeetingProviderForIslandsMode** -Parameter wie folgt fest:
 
 - Setzen Sie den Parameter auf **TeamsAndSfB** , um das Add-in Teams-Besprechung und das Skype for Business-Add-in in Outlook zu aktivieren. Dies ist der Standardwert.
-- Setzen Sie den Parameter auf **TeamsOnly** , um nur das Teambesprechung-Add-in in Outlook zu aktivieren. Mit dieser Richtlinieneinstellung wird sichergestellt, dass alle zukünftigen Besprechungen über einen Link "Teams-Besprechungsteilnahme" verfügen. Es werden keine vorhandenen Skype for Business-Besprechungs Verknüpfungs Verknüpfungen zu Teams migriert. Diese Richtlinieneinstellung hat keinen Einfluss auf Anwesenheit, Chat, PSTN-Anrufe oder andere Funktionen in Skype for Business, was bedeutet, dass Benutzer Skype for Business weiterhin für diese Funktionen verwenden.
+- Setzen Sie den Parameter auf **Teams** , um nur das Team Besprechungs-Add-in in Outlook zu aktivieren. Mit dieser Richtlinieneinstellung wird sichergestellt, dass alle zukünftigen Besprechungen über einen Link "Teams-Besprechungsteilnahme" verfügen. Es werden keine vorhandenen Skype for Business-Besprechungs Verknüpfungs Verknüpfungen zu Teams migriert. Diese Richtlinieneinstellung hat keinen Einfluss auf Anwesenheit, Chat, PSTN-Anrufe oder andere Funktionen in Skype for Business, was bedeutet, dass Benutzer Skype for Business weiterhin für diese Funktionen verwenden.
 
-  Wenn Sie den Parameter auf **TeamsOnly**und dann zurück zu **TeamsAndSfB**wechseln, sind beide Besprechungs-Add-Ins aktiviert. Beachten Sie jedoch, dass vorhandene Team-Besprechungs-Join-Links nicht zu Skype for Business migriert werden. Nur Skype for Business-Besprechungen, die nach der Änderung geplant sind, haben einen Link zu Skype for Business-Besprechungen.
+  Wenn Sie den Parameter auf **Teams**setzen und dann zurück zu **TeamsAndSfB**wechseln, sind beide Besprechungs-Add-Ins aktiviert. Beachten Sie jedoch, dass vorhandene Team-Besprechungs-Join-Links nicht zu Skype for Business migriert werden. Nur Skype for Business-Besprechungen, die nach der Änderung geplant sind, haben einen Link zu Skype for Business-Besprechungen.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Einstellungen für Besprechungsrichtlinien – Video Filtermodus
 

@@ -1,7 +1,7 @@
 ---
 title: Informationen zum Einrichten von Inhalts Kameras – Microsoft Teams
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Verwenden Sie eine Inhalts Kamera in einem Microsoft Teams-Chatroom, die mit der Bildverarbeitungssoftware interagiert, damit Referenten auf einem analogen Whiteboard zeichnen können.
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157808"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756896"
 ---
 # <a name="content-cameras"></a>Inhalts-Kameras
 
@@ -87,7 +87,7 @@ Oder lesen Sie den Microsoft Teams-Gerätemarkt für unterstützte Content Camer
 
 Nachdem Sie die Kamera im Chatroom installiert haben, richten Sie Sie in der Microsoft Teams rooms-Konsole des Chatrooms ein:
 
-1. Wählen **Settings** ![Sie das Symbol](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)Einstellungen Einstellungen aus, melden Sie sich als Administrator an, und wählen Sie **Geräteeinstellungen**aus.
+1. Wählen Sie das Symbol **Einstellungen** Einstellungen aus ![ , melden Sie sich ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) als Administrator an, und wählen Sie **Geräteeinstellungen**aus.
 2. Wählen Sie im Abschnitt **Camera defaults** die Inhalts Kamera aus, und stellen Sie sicher, dass die Option **Inhalts Erweiterungen** ausgewählt ist.
 3. Optional Wenn die Kamera auf den Kopf gestellt wurde, weil die Kamera von der Decke montiert wurde, aktivieren Sie die Option " **Inhalts Kamera 180 ° drehen** ".
 4. Wählen Sie **Speichern und beenden**aus.
@@ -100,6 +100,6 @@ Sie können diese Einstellungen auch Remote mithilfe einer [XML-Konfigurationsda
 
 [Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei](xml-config-file.md)
 
-[Anforderungen für Microsoft Teams-Räume](requirements.md)
+[Voraussetzungen für Microsoft Teams-Räume](requirements.md)
 
 
