@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689711"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785301"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 =======================================================
@@ -147,6 +147,8 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](http
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>Was geschieht mit den Legacylizenzen für den Test der kommerziellen Cloud von Microsoft Teams?
 
 Ab Februar 2020 können berechtigte Benutzer mit der Nutzung der neuesten Microsoft Teams Exploratory-Umgebung beginnen. Alle Legacylizenzen für den Test der kommerziellen Cloud von Microsoft Teams werden automatisch in das neue Angebot konvertiert, bevor die Testversion abläuft.
+
+Wenn sich ein Benutzer zum ersten Mal bei seiner abgelaufenen Testversion von Microsoft Teams in der kommerziellen Cloud anmeldet, weisen wir dem Benutzer automatisch eine Teams Exploratory Experience-Lizenz zu. Benutzer werden erst konvertiert, wenn sie sich anmelden.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Entfernen einer explorativen Microsoft Teams-Lizenz
 
