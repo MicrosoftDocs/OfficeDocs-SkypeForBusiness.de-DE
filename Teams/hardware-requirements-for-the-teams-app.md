@@ -1,6 +1,6 @@
 ---
 title: Hardwareanforderungen für Microsoft Teams
-ms.reviewer: microthk, sthurlow
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,20 +11,19 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie mehr über die Hardwareanforderungen, die zum Installieren und Ausführen von Microsoft Teams erforderlich sind.
+description: Erfahren Sie mehr über die Hardwareanforderungen, die zum Installieren und Ausführen von Microsoft Teams erforderlich sind.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3096673df464b02ae828423c5aebf8690a7ab853
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 65de6266af5d7b17234cd3b77d867176338d35fa
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702620"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327857"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -43,8 +42,8 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    | 
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden. </li><li>Die optionalen **Hintergrund-Videoeffekte** werden auf Prozessoren nicht unterstützt, ohne dass ein AVX2-Befehlssatz auf Windows 8,1 oder niedriger ausgeführt wird.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe von Proximity Detection in einem Microsoft Teams-Raum ist Bluetooth LE erforderlich, wodurch Bluetooth auf dem Clientgerät aktiviert und für Windows-Clients der 64-Bit-Team-Client erforderlich ist. Es ist auf 32-Bit-Teams-Clients nicht verfügbar.</li></ul> |
-|Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md). |
+|Videoanrufe und Besprechungen | <ul><li>Für ein besseres Nutzungserlebnis bei Videoanrufen und Onlinebesprechungen empfehlen wir die Verwendung eines Computers mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher). </li><li>Der optionale Videoeffekt **Meinen Hintergrund weichzeichnen** setzt einen Prozessor mit erweiterter 2(AVX2)-Unterstützung für Vektorerweiterungen voraus. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe von Proximity Detection in einem Microsoft Teams-Raum ist Bluetooth LE erforderlich, wodurch Bluetooth auf dem Clientgerät aktiviert und für Windows-Clients der 64-Bit-Team-Client erforderlich ist. Dies ist auf 32-Bit-Teams-Clients nicht verfügbar.</li></ul> |
+|Teams-Liveereignisse | Wenn Sie ein Liveereignis mit Teams durchführen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md). |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Hardwareanforderungen für Teams auf einem Mac
 
@@ -57,7 +56,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Betriebssystem  |    Mac OS X 10,11 El Capitan oder höher     |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Mac OS nicht verfügbar.</li></ul> |
+|Videoanrufe und Besprechungen | Für ein besseres Nutzungserlebnis bei Videoanrufen und Onlinebesprechungen empfehlen wir die Verwendung eines Computers mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher).  <ul><li>Der optionale Videoeffekt **Meinen Hintergrund weichzeichnen** setzt einen Prozessor mit erweiterter 2(AVX2)-Unterstützung für Vektorerweiterungen voraus, der auf den meisten späten 2013 Mac-Geräten unterstützt wird. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Mac OS nicht verfügbar.</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Hardwareanforderungen für Teams unter Linux
 
@@ -72,7 +71,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    | 
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Single-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Für ein besseres Nutzungserlebnis bei Videoanrufen und Onlinebesprechungen empfehlen wir die Verwendung eines Computers mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher). </li><li>Der optionale Videoeffekt Blur My background setzt einen Prozessor mit erweiterter 2 (AVX2)-Unterstützung für Vektorerweiterungen voraus, der auf den meisten späten 2013 Mac-Geräten unterstützt wird. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
 |Unterstützte Linux-Verteilungen | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Hardwareanforderungen für Teams auf mobilen Geräten
@@ -85,8 +84,7 @@ Sie können Teams auf diesen mobilen Plattformen verwenden:
 
 - iOS: kompatibel mit iPhone, iPad und iPod Touch.
 
-  Der Support ist auf die beiden neuesten Hauptversionen von iOS beschränkt. Wenn eine neue Hauptversion von iOS veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
-  Der optionale Blur-Effekt " **mein Hintergrund** Video" für IOS erfordert ein Betriebssystem von IOS 12 oder höher und ist mit den folgenden Geräten kompatibel: iPhone 7 oder höher, iPad 2018 (sechste Generation) oder höher und iPod Touch 2019 (7. Generation).
+  Der Support ist auf die beiden neuesten Hauptversionen von iOS beschränkt. Wenn eine neue Hauptversion von iOS veröffentlicht wird, werden die neue und die vorherige Version offiziell unterstützt.
 
 Für eine optimale Benutzererfahrung verwenden Sie die jeweils neueste Version von iOS und Android.
 
