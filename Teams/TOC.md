@@ -354,6 +354,16 @@
 ### [Verwalten von Notruf-Richtlinien](manage-emergency-calling-policies.md)
 ### [Verwalten von Notfall-Anrufweiterleitungsrichtlinien](manage-emergency-call-routing-policies.md)
 
+## Fallstudie zu "Contoso Voice Migration"
+### [Übersicht](voice-case-study-overview.md)
+### [Teams-Upgradeplan](voice-case-study-migration-plan.md)
+### [Telefonsystem](voice-case-study-phone-system.md)
+### [Location-Based-Routing](voice-case-study-location-based-routing.md)
+### [Notrufe](voice-case-study-emergency-calling.md)
+### [Audiokonferenz](voice-case-study-audio-conferencing.md)
+### [Automatische Telefonzentralen und Anrufwarteschleifen](voice-case-study-call-queues.md)
+
+
 
 
 ## Referenz
@@ -687,7 +697,6 @@
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
-## [Unterstützen von Teams in Ihrer Organisation](Known-issues.md)
 ## [Überwachen und Verwalten des Lebenszyklus](monitor-call-quality-qos.md)
 ### [Handbuch für die Überprüfung der QoE (Quality of Experience)](quality-of-experience-review-guide.md)
 ### [Einrichten von QoS in Teams](QoS-in-Teams.md)
@@ -703,7 +712,8 @@
 #### [Verwendung des CQD-PSTN Direct Routing-Berichts](CQD-PSTN-report.md)
 ### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Datenstromklassifizierung im Dashboard für Anrufqualität](stream-classification-in-call-quality-dashboard.md)
-## [Behandeln von Installations- und Updateproblemen](troubleshoot-installation.md)
+## [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+## [Problembehandlung bei Problemen mit Installation und Update](troubleshoot-installation.md)
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ## [Probleme beim Empfangen von Nachrichten und Anrufen auf älteren Systemen](legacy-login-issues.md)
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
