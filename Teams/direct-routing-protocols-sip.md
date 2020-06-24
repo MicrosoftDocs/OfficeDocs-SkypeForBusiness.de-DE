@@ -17,12 +17,12 @@ f1.keywords:
 description: Direkte Routing Protokolle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691221"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859650"
 ---
 # <a name="direct-routing---sip-protocol"></a>Direct Routing – SIP-Protokoll
 
@@ -44,7 +44,7 @@ Der folgende Code ist ein Beispiel für die SIP-Einladungsnachricht bei einem ei
 | From-Kopfzeile | From Header from: <SIP: 7168712781@sbc1. adatum. biz; Transport = UDP; Tag = 1c747237679 |
 | Kopfzeile | An: SIP:+183338006777@sbc1.adatum.biz | 
 | CSeq-Kopfzeile | CSeq: 1 Einladung | 
-| Kontakt Kopfzeile | Kontakt: <SIP: 68712781@sbc1. adatum. biz; Transport = TLS> | 
+| Kontakt Kopfzeile | Kontakt: <SIP: 68712781@sbc1. adatum. biz: 5058; Transport = TLS> | 
 
 Beim Empfang der Einladung führt der SIP-Proxy die folgenden Schritte aus:
 
@@ -100,13 +100,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 Der SIP-Proxy muss den FQDN des nächsten Hop für neue in-Dialog-Clienttransaktionen berechnen (beispielsweise bye oder Re-invite) und bei der Beantwortung von SIP-Optionen. Es werden entweder Kontakt-oder Daten Satz Routen verwendet. 
 
-Gemäß RFC 3261 ist in jeder Anforderung, die zu einem neuen Dialog führen kann, eine Kontakt Kopfzeile erforderlich. Die Daten Satz Route ist nur erforderlich, wenn ein Proxy den Pfad zukünftiger Anforderungen in einem Dialogfeld beibehalten möchte. 
+Gemäß RFC 3261 ist in jeder Anforderung, die zu einem neuen Dialog führen kann, eine Kontakt Kopfzeile erforderlich. Die Daten Satz Route ist nur erforderlich, wenn ein Proxy den Pfad zukünftiger Anforderungen in einem Dialogfeld beibehalten möchte. Wenn ein Proxy-SBC mit [lokaler Medienoptimierung für das direkte Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)verwendet wird, muss eine Daten Satz Route so konfiguriert werden, dass der Proxy-SBC in der Route bleiben muss. 
 
-Microsoft empfiehlt die Verwendung von "nur Kontakt Kopfzeile" aus den folgenden Gründen:
+Microsoft empfiehlt, nur die Kontakt Kopfzeile zu verwenden, wenn kein Proxy-SBC verwendet wird:
 
-- Pro RFC 3261 wird Record-Route verwendet, wenn ein Proxy den Pfad zukünftiger Anforderungen in einem Dialogfeld beibehalten möchte, was nicht unbedingt erforderlich ist, da der gesamte Datenverkehr zwischen dem Microsoft SIP-Proxy und dem gekoppelten SBC abläuft. Zwischen dem SBC und dem Microsoft SIP-Proxy ist kein zwischen Proxy Server erforderlich.
+- Pro RFC 3261 wird Record-Route verwendet, wenn ein Proxy den Pfad zukünftiger Anforderungen in einem Dialogfeld beibehalten möchte, was nicht unbedingt erforderlich ist, wenn kein Proxy-SBC konfiguriert ist, da der gesamte Datenverkehr zwischen dem Microsoft SIP-Proxy und dem gekoppelten SBC verläuft. 
 
-- Der Microsoft SIP-Proxy verwendet nur Kontakt Kopfzeile (keine Daten Satz Route), um den nächsten Hop beim Senden von ausgehenden Ping-Optionen zu ermitteln. Wenn Sie nur einen Parameter (Kontakt) anstelle von zwei (Kontakt-und Daten Satz-Route) konfigurieren, wird die Verwaltung vereinfacht.
+- Der Microsoft SIP-Proxy verwendet nur Kontakt Kopfzeile (keine Daten Satz Route), um den nächsten Hop beim Senden von ausgehenden Ping-Optionen zu ermitteln. Wenn ein Proxy-SBC nicht verwendet wird, wird die Verwaltung vereinfacht, wenn nur ein Parameter (Kontakt) statt zwei (Kontakt-und Daten Satz-Route) konfiguriert wird. 
 
 Zur Berechnung des nächsten Hop verwendet der SIP-Proxy Folgendes:
 
