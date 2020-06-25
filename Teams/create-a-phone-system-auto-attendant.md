@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697428"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874256"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -220,7 +220,7 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 
 > [!IMPORTANT]
 > Beachten Sie bitte Folgendes:
->- Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen über eine Erweiterung verfügen, die als Teil eines der folgenden Telefon Attribute angegeben ist, die in Active Directory oder Azure Active Directory [Microsoft 365 Admin Center](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)definiert sind.
+>- Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen über eine Erweiterung verfügen, die als Teil eines der folgenden in Active Directory oder Azure Active Directory definierten Telefon Attribute angegeben ist (siehe [Benutzer einzeln oder in Massen hinzufügen], um weitere Informationen zu erhalten ( https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
 >    - HomePhone
 >    - Mobil-Handy
 >    - TelephoneNumber/Telefonnummer

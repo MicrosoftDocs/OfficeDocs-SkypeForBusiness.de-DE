@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761473"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868502"
 ---
 # <a name="operate-your-service"></a>Betreiben des Diensts
 
@@ -437,7 +437,7 @@ Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in 
 
 4. **Besuchen Sie die Microsoft Teams-Community:** Die [Microsoft Teams-Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) bietet dedizierte Räume für Teams. Die Teams-Community bietet eine Diskussionsliste, Blogbeiträge und Ankündigungen, die sich auf Teams konzentrieren. Sie können eine Frage Posten oder frühere Diskussionen nach Lösungen für Ihr Problem durchsuchen.
 
-5. **Wenden Sie sich an den Microsoft-Support:** Sie können sich an den Microsoft-Support wenden, um Probleme mit Teams Online oder telefonisch zu beheben. Informationen finden Sie unter [kontaktieren des Supports für Business-Produkte](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Für Premier-Kunden können Supportanfragen initiiert werden, indem Sie die Anleitungen unter [Kontakt Support für Microsoft Teams (Premier-Kunden)](https://support.microsoft.com/premier/contacts)befolgen.
+5. **Wenden Sie sich an den Microsoft-Support:** Sie können sich an den Microsoft-Support wenden, um Probleme mit Teams Online oder telefonisch zu beheben. Informationen hierzu finden Sie unter [kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Für Premier-Kunden können Supportanfragen initiiert werden, indem Sie die Anleitungen unter [Kontakt Support für Microsoft Teams (Premier-Kunden)](https://support.microsoft.com/premier/contacts)befolgen.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 

@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten.
-ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8f1bd778cfa24551d90b0186e606235193a47b0d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697418"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874246"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -41,7 +41,7 @@ Derzeit stehen erweiterte CQD und CQD zur Verfügung. Advanced CQD ist verfügba
 
 ## <a name="assign-roles-for-accessing-cqd"></a>Zuweisen von Rollen für den Zugriff auf CQD
 
-Zuweisen von [Rollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) für den Zugriff auf CQD für Personen, die Sie verwenden müssen. 
+Zuweisen von [Rollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) für den Zugriff auf CQD für Personen, die Sie verwenden müssen.
 
 In dieser Tabelle wird dargestellt, was jede einzelne Rollen in CQD tun darf:
 

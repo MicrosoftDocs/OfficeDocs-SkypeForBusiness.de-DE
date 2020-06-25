@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Teams-apps von der Entwicklung zur Bereitstellung bringen.
-ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 705f5ecf5628dd981a4deb3ded847b3da8e9ea08
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064530"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868512"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Verwalten Ihrer benutzerdefinierten apps in Microsoft Teams
 
@@ -41,7 +41,7 @@ Zum Erstellen und Verwalten benutzerdefinierter apps in Teams benötigen Sie zwe
 
 ### <a name="create-test-users"></a>Erstellen von Testbenutzern
 
-Stellen Sie sicher, dass Ihre Entwickler, ob intern oder extern, über Konten in Ihrem Testmandanten verfügen. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">Weitere Informationen zum Hinzufügen von Benutzern</a>.
+Stellen Sie sicher, dass Ihre Entwickler, ob intern oder extern, über Konten in Ihrem Testmandanten verfügen. <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users" target="_blank">Weitere Informationen zum Hinzufügen von Benutzern</a>.
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>Zulassen von benutzerdefinierten apps im Testmandanten
 
@@ -50,13 +50,13 @@ Damit Entwickler den Zugriff haben, den Sie für Tests benötigen, können Sie a
 Führen Sie die folgenden Schritte aus, um Benutzern das Hochladen benutzerdefinierter apps zu ermöglichen:
 
 1. Aktivieren Sie die Einstellung **Interaktion mit benutzerdefinierten apps in** der organisationsweiten App zulassen. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu **Teams apps** > **Verwalten von apps**, und klicken Sie dann auf **organisationsweite App-Einstellungen**.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu **Teams apps**  >  **Verwalten von apps**, und klicken Sie dann auf **organisationsweite App-Einstellungen**.
     2. Aktivieren Sie unter **benutzerdefinierte apps**die Option **Interaktion mit benutzerdefinierten apps zulassen**, und klicken Sie dann auf **Speichern**.
 
     ![Screenshot der organisationsweiten app-Einstellung "Interaktion mit benutzerdefinierten apps zulassen"](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Aktivieren Sie die Einstellung **benutzerdefinierte apps hochladen** in der globalen App-Setup Richtlinie. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den **Teams apps**  >  **Setup Richtlinien**für Teams-apps, und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
     2. Aktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
 
     ![Screenshot der Richtlinieneinstellung "benutzerdefinierte apps hochladen" für die APP](media/manage-your-lob-apps-app-setup-custom-apps.png)
@@ -86,13 +86,13 @@ Um zu überprüfen, ob die app in Ihrem Produktions Mandanten ordnungsgemäß fu
 Führen Sie die folgenden Schritte aus, um vertrauenswürdigen Benutzern das Hochladen benutzerdefinierter apps zu ermöglichen:
 
 1. Aktivieren Sie die Einstellung **Interaktion mit benutzerdefinierten apps in** der organisationsweiten App zulassen. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu **Teams apps** > **Verwalten von apps**, und klicken Sie dann auf **organisationsweite App-Einstellungen**.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu **Teams apps**  >  **Verwalten von apps**, und klicken Sie dann auf **organisationsweite App-Einstellungen**.
     2. Aktivieren Sie unter **benutzerdefinierte apps**die Option **Interaktion mit benutzerdefinierten apps zulassen**, und klicken Sie dann auf **Speichern**.
 2. Deaktivieren Sie die Einstellung **benutzerdefinierte apps hochladen** in der globalen App-Setup Richtlinie. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den **Teams apps**  >  **Setup Richtlinien**für Teams-apps, und klicken Sie dann auf die **globale (org-Wide Standard)-** Richtlinie.
     2. Deaktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
 3. Erstellen Sie eine neue Richtlinie für die APP-Einrichtung, die das Hochladen benutzerdefinierter apps und die Zuweisung an Ihre vertrauenswürdigen Benutzer ermöglicht. Gehen Sie dazu so vor:
-    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den**Setup Richtlinien**für **Teams-apps** > , und klicken Sie dann auf **Hinzufügen**. Geben Sie der neuen Richtlinie einen Namen und eine Beschreibung, aktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
+    1. Navigieren Sie in der linken Navigationsleiste des <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams Admin Center</a>zu den Setup Richtlinien für **Teams-apps**  >  **Setup policies**, und klicken Sie dann auf **Hinzufügen**. Geben Sie der neuen Richtlinie einen Namen und eine Beschreibung, aktivieren Sie **benutzerdefinierte apps hochladen**, und klicken Sie dann auf **Speichern**.
     2. Wählen Sie die neu erstellte Richtlinie aus, und klicken Sie dann auf **Benutzer verwalten**. Suchen Sie nach einem Benutzer, klicken Sie auf **Hinzufügen**, und klicken Sie dann auf über **nehmen**. Wiederholen Sie diesen Schritt, um die Richtlinie allen vertrauenswürdigen Benutzern zuzuweisen.
 
         ![Screenshot der Seite "App-Setup Richtlinie hinzufügen"](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -125,7 +125,7 @@ Standardmäßig müssten die Benutzer diese APP finden, wenn Sie zu den Apps fü
 
 Um eine APP zu aktualisieren, sollten Entwickler weiterhin [Schritt 1](#step-1-develop-and-test) und [Schritt 2](#step-2-validate-in-production)folgen.
 
-Sie können die APP über den Mandanten-App-Katalog aktualisieren. Gehen Sie dazu im Microsoft Teams Admin Center zu **Teams apps** > **Verwalten von apps**. Klicken Sie in der Liste der apps auf den Namen der APP, und klicken Sie dann auf **Aktualisieren**. Dadurch wird die vorhandene App im Mandanten-App-Katalog ersetzt, und alle App-Berechtigungsrichtlinien und Richtlinien für die APP-Einrichtung bleiben für die aktualisierte APP erzwungen.
+Sie können die APP über den Mandanten-App-Katalog aktualisieren. Gehen Sie dazu im Microsoft Teams Admin Center zu **Teams apps**  >  **Verwalten von apps**. Klicken Sie in der Liste der apps auf den Namen der APP, und klicken Sie dann auf **Aktualisieren**. Dadurch wird die vorhandene App im Mandanten-App-Katalog ersetzt, und alle App-Berechtigungsrichtlinien und Richtlinien für die APP-Einrichtung bleiben für die aktualisierte APP erzwungen.
 
 ### <a name="end-user-update-experience"></a>Benutzer-Update-Benutzeroberfläche
 

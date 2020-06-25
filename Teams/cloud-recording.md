@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710809"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874412"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -76,7 +76,7 @@ Aktivieren bzw. deaktivieren Sie im Microsoft Teams Admin Center die Einstellung
 
 Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowCloudRecording“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Beachten Sie, dass sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung über die Berechtigung zum Aufzeichnen der Besprechung verfügen müssen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowCloudRecording standardmäßig deaktiviert ist.
+Beachten Sie, dass sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung über die Berechtigung zum Aufzeichnen der Besprechung verfügen müssen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, für die standardmäßig AllowCloudRecording aktiviert ist.
 
 > [!NOTE]
 > Weitere Informationen zum Verwenden von Teamrollen zum Konfigurieren der Personen, die über die Berechtigung zum Aufzeichnen einer Besprechung verfügen, finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).

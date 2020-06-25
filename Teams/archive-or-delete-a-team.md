@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611004"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868702"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================
@@ -72,7 +72,7 @@ Wenn das Team in Zukunft nicht mehr benötigt wird, dann können Sie es löschen
 
 Führen Sie die folgenden Schritte aus, um ein gelöschtes Team wiederherzustellen, indem Sie die Microsoft 365-Gruppe wiederherstellen, die dem Team zugeordnet ist. Beim Wiederherstellen der Microsoft 365-Gruppe für ein Team werden Team Inhalte, einschließlich Tabstopps, Standardkanälen und privaten Kanälen sowie deren zugehörigen Websitesammlungen, wiederhergestellt.
 
-Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, weil Sie die Gruppe wiederherstellen können. Weitere Informationen finden Sie unter [Wiederherstellen einer gelöschten Microsoft 365-Gruppe](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, weil Sie die Gruppe wiederherstellen können. Weitere Informationen finden Sie unter [Wiederherstellen einer gelöschten Gruppe](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Installieren des AzureADPreview-Moduls
 

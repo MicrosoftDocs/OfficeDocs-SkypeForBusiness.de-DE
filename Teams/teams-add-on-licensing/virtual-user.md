@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie einem kostenlosen Telefonsystem – einer virtuellen Benutzerlizenz oder einer gebührenpflichtigen Telefonsystem-Benutzerlizenz Ressourcenkonten in Ihrer Organisation zuweisen.
-ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042412"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868652"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Phone System – virtuelle Benutzerlizenz
 
@@ -47,25 +47,25 @@ Wenn Ihre Organisation das verfügbare ﻿kostenlose Microsoft 365-Telefonsystem
 
 ### <a name="license-allocation-example"></a>Beispiel für die Lizenzzuteilung
 
-Contoso, Inc. hat 600-Lizenzen erworben, die das Telefon System enthielten (eines für jeden Mitarbeiter). Contoso wird ein anfängliches 25 plus 60 Microsoft 365-Telefon System zugeteilt – virtuelle Benutzerlizenzen, insgesamt 85. Ihre Organisation verfügt über 90-Anrufwarteschlangen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle Microsoft 365-Telefonsystem-Lizenzen für virtuelle Benutzer zuweisen und fünf reguläre Telefonsystem Lizenzen erwerben. 
+Contoso, Inc. hat 600-Lizenzen erworben, die das Telefon System enthielten (eines für jeden Mitarbeiter). Contoso wird ein anfängliches 25 plus 60 Microsoft 365-Telefon System zugeteilt – virtuelle Benutzerlizenzen, insgesamt 85. Ihre Organisation verfügt über 90-Anrufwarteschlangen und automatische Telefonzentralen mit Telefonnummern. Sie müssen alle Microsoft 365-Telefonsystem-Lizenzen für virtuelle Benutzer zuweisen und fünf reguläre Telefonsystem Lizenzen erwerben.
 
-Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anruf Warteschlangensystems in Frage stellen. Wenn Sie weniger Telefonnummern und verschachtelte Knoten verwenden, die keine Telefonnummern benötigen, vereinfachen Sie die Implementierung und senken die Kosten. 
+Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anruf Warteschlangensystems in Frage stellen. Wenn Sie weniger Telefonnummern und verschachtelte Knoten verwenden, die keine Telefonnummern benötigen, vereinfachen Sie die Implementierung und senken die Kosten.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>So kaufen Sie das Telefon System von Microsoft 365 – virtuelle Benutzerlizenzen 
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>So kaufen Sie das Telefon System von Microsoft 365 – virtuelle Benutzerlizenzen
 
 1. Melden Sie sich beim Microsoft 365 Admin Center an.
-2. Wechseln Sie zu " **Billing** > **Purchase Services** > "**-Add-ons** .
+2. Wechseln Sie zu " **Billing**  >  **Purchase Services**"  >  **-Add-ons** .
 3. Scrollen Sie bis zum Ende, um die Lizenz für **Virtual User für Microsoft 365 Phone System** zu finden. Wählen Sie **Jetzt kaufen** aus.
 
 > [!NOTE]
-> Beachten Sie, dass Sie die Lizenz weiterhin **kaufen** müssen, auch wenn Sie Kosten von NULL hat. 
+> Beachten Sie, dass Sie die Lizenz weiterhin **kaufen** müssen, auch wenn Sie Kosten von NULL hat.
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Ändern eines vorhandenen Ressourcenkontos zur Verwendung eines Microsoft 365-Telefonsystems – Virtual User License
 
-Wenn Sie sich entschließen, die Lizenz für Ihr Ressourcenkonto von einer Telefonsystem Lizenz auf ein Microsoft 365-Telefonsystem umzustellen – virtuelle Benutzerlizenz: 
+Wenn Sie sich entschließen, die Lizenz für Ihr Ressourcenkonto von einer Telefonsystem Lizenz auf ein Microsoft 365-Telefonsystem umzustellen – virtuelle Benutzerlizenz:
 
-1. Besorgen Sie sich das neue Microsoft 365 Phone System – Virtual User License. 
-2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, um [Benutzer in ein anderes Abonnement zu verschieben](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+1. Besorgen Sie sich das neue Microsoft 365 Phone System – Virtual User License.
+2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, um [Benutzer in ein anderes Abonnement zu verschieben](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
 > Entfernen Sie immer eine vollständige Telefonsystem Lizenz, und weisen Sie die Lizenz für den Microsoft 365 Phone System – Virtual User in derselben Lizenz Aktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. In diesem Fall empfehlen wir, ein neues Ressourcenkonto für die Microsoft 365 Phone System – Virtual User License zu erstellen und das fehlerhafte Ressourcenkonto zu entfernen. 

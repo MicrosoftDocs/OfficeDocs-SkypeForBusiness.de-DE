@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: erfahren Sie, wie Sie mithilfe von PowerShell SEFAUtil-Funktionen in Skype for Business Server 2019 nach der Installation von kumulativem Update 1 erhalten.'
-ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232566"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868552"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Verwenden der SEFAUtil-Funktionalität über PowerShell in Skype for Business Server 2019
 
@@ -103,7 +103,7 @@ Für lokale Bereitstellungen können die in diesem Feature eingeführten Cmdlets
 - "Cshelpdesk"-Get für alle Cmdlets
 
 Weitere Informationen zu diesen Administratorrollen finden Sie unter [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). Der Administrator kann auf diese Cmdlets zugreifen, indem er sich direkt oder Remote an einem Server Computer anmeldet.
-Für eine hybridbereitstellung sollten Skype for Business Administratoren in der Lage sein, Get und für alle Cmdlets festzulegen aufzurufen. Weitere Informationen zur vollständigen Liste der Rollen finden Sie unter [Informationen zu Administratorrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
+Für eine hybridbereitstellung sollten Skype for Business Administratoren in der Lage sein, Get und für alle Cmdlets festzulegen aufzurufen. Weitere Informationen zur vollständigen Liste der Rollen finden Sie unter [Informationen zu Administratorrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
 > Die automatische Server Ermittlung muss aktiviert sein. Für die Verwendung der Cmdlets werden keine zusätzlichen Lizenzierungsanforderungen eingeführt.

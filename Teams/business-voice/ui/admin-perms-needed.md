@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 7ec22f179ce56c25955db824a0358a5550cdcfbb
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: b1f031a538872aac7bf0891c6dc56886f7eae048
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610954"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868442"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Für den Kauf von Microsoft 365 Business Voice erforderliche Administratorberechtigungen
 
@@ -45,4 +45,4 @@ Wenn Sie nicht auf das Microsoft 365 Admin Center zugreifen können, wenn keine 
 
 ## <a name="what-if-im-still-having-trouble"></a>Was passiert, wenn ich immer noch Probleme habe?
 
-Wenn Sie alle oben genannten Gründe überprüft haben und dennoch keine Business-VoIP-Lizenz kaufen können, [wenden Sie sich](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) an den Support, um Hilfe zu erhalten.
+Wenn Sie alle oben genannten Gründe überprüft haben und dennoch keine Business-Stimme kaufen können, lesen Sie [kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).

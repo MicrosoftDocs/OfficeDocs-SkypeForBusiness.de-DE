@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350159"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868662"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub soll eingestellt werden
 
@@ -133,7 +133,7 @@ Ja, jeder Manager und jedes Teammitglied, das Teams und Schichten innerhalb von 
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>In StaffHub kann ich allen Microsoft 365-Gruppen, die von StaffHub Teams erstellt wurden, ein spezielles Präfix hinzufügen. Kann ich dasselbe in Teams tun?
 
-Sie haben nicht die gleiche Funktion, wenn Sie von StaffHub zu Teams wechseln. Wenn Sie eine namens Konsistenz auf alle Microsoft 365-Gruppen anwenden müssen, können Sie die [Namensgebungsrichtlinie für Microsoft 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)verwenden.
+Sie haben nicht die gleiche Funktion, wenn Sie von StaffHub zu Teams wechseln. Wenn Sie eine namens Konsistenz auf alle Microsoft 365-Gruppen anwenden müssen, können Sie die [gruppenbenennungsrichtlinie](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)verwenden.
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Werden Teamnamen in Teams identisch sein?
 

@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221135"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868432"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
@@ -84,7 +84,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
     Weitere Informationen zu diesem Befehl finden Sie unter [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
 
-5. Weisen Sie dem Ressourcenkonto die Lizenz für das Telefonsystem-Virtual User oder Phone System zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) und [Zuweisen von Lizenzen zu einem Benutzer](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Weisen Sie dem Ressourcenkonto die Lizenz für das Telefonsystem-Virtual User oder Phone System zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) und [Zuweisen von Lizenzen zu Benutzern](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
    Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie nun die ﻿kostenlose Telefon System-virtuelle Benutzerlizenz verwenden. Dadurch werden Telefon System Funktionen für Telefonnummern auf Organisationsebene bereitgestellt, und Sie können eine automatische Telefonzentrale und Funktionen für die Anrufwarteschlange erstellen.
 
@@ -199,7 +199,7 @@ Bei der Migration von Exchange um zu Telefon System müssen die Struktur der Anr
 
 [Einrichten einer automatischen Cloudtelefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
-[Planen automatischer Cloud-Telefonzentralen](plan-cloud-auto-attendant.md)
+[Planen automatischer Cloudtelefonzentralen](plan-cloud-auto-attendant.md)
 
 [Planen von Cloud-Anrufwarteschlangen](plan-call-queue.md)
 

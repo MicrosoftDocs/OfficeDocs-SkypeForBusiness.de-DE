@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Sie Benutzern für Features wie Audiokonferenz, Telefon System und Anrufpläne Teams Add-on-Lizenzen zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c7c455628f7595e1517fbd0cef8d2edc454ffbb
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042775"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868582"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen von Teams-Add-on-Lizenzen zu Benutzern
 
@@ -48,7 +48,7 @@ Bevor Sie beginnen, sehen Sie sich Folgendes an:
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Verwenden des Microsoft 365 admin Centers
 
-Verwenden Sie das Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuweisen. Sie können Lizenzen auf der Seite " **Lizenzen** " (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite " **aktive Benutzer** " zuweisen. Die Methode, die Sie auswählen, hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer verwalten oder Benutzerlizenzen für bestimmte Produkte verwalten möchten. 
+Verwenden Sie das Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuweisen. Sie können Lizenzen auf der Seite " **Lizenzen** " (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite " **aktive Benutzer** " zuweisen. Die Methode, die Sie auswählen, hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer verwalten oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
 
 Eine Schritt-für-Schritt-Anleitung finden Sie unter [Zuweisen von Lizenzen zu Benutzern](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -71,7 +71,7 @@ Im folgenden finden Sie ein Beispiel für die Verwendung eines Skripts zum Zuwei
         ```
     3. Wenn Sie aufgefordert werden, den NuGet-Anbieter zu installieren, geben Sie **Y**ein, und drücken Sie dann die EINGABETASTE.
     4. Wenn Sie aufgefordert werden, das Modul von PSGallery zu installieren, geben Sie **Y**ein, und drücken Sie dann die EINGABETASTE.
-3. Führen Sie an der Windows PowerShell-Eingabeaufforderung das folgende Skript aus, um Ihren Benutzern Lizenzen zuzuweisen, wobei \<CompanyName: License> der Name Ihrer Organisation und der Bezeichner für die Lizenz ist, die Sie zuweisen möchten. Beispiel: "litwareinc: MCOMEETADV.
+3. Führen Sie an der Windows PowerShell-Eingabeaufforderung das folgende Skript aus, um Ihren Benutzern Lizenzen zuzuweisen, wobei \<CompanyName:License> es sich um den Namen Ihrer Organisation und den Bezeichner für die Lizenz handelt, die Sie zuweisen möchten. Beispiel: "litwareinc: MCOMEETADV.
 
     Der Bezeichner unterscheidet sich von dem Anzeigenamen der Lizenz. Der Bezeichner für Audiokonferenzen lautet beispielsweise MCOMEETADV. Weitere Informationen finden Sie unter [Produktnamen und SKU-IDs für die Lizenzierung](#product-names-and-sku-identifiers-for-licensing).
 

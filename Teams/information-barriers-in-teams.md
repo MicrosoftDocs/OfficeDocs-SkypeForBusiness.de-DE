@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326742"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868692"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -94,7 +94,7 @@ Richtlinien für Informationsbarrieren werden aktiviert, wenn die folgenden Team
 
 - **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig.
 - **Ein Benutzer platziert einen Telefonanruf (VoIP) in Teams** – wenn ein Sprachanruf von einem Benutzer an einen anderen Benutzer oder eine Gruppe von Benutzern initiiert wird, wird der Anruf ausgewertet, um sicherzustellen, dass er die Richtlinien anderer Teammitglieder gegen die Informations Barriere nicht verletzt. Bei Verstößen ist der Sprachanruf blockiert.
-- **Gastbenutzer in Teams** – Richtlinien für Informationsbarrieren gelten auch für Gastbenutzer in Teams. Wenn Gastbenutzer in der globalen Adressliste Ihrer Organisation auffindbar sein müssen, lesen Sie Verwalten des [Gastzugriffs in Microsoft 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Sobald Gastbenutzer auffindbar sind, können Sie [Richtlinien für Informationsbarrieren definieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- **Gastbenutzer in Teams** – Richtlinien für Informationsbarrieren gelten auch für Gastbenutzer in Teams. Wenn Gastbenutzer in der globalen Adressliste Ihrer Organisation auffindbar sein müssen, lesen Sie Verwalten des [Gastzugriffs in Microsoft 365-Gruppen](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Sobald Gastbenutzer auffindbar sind, können Sie [Richtlinien für Informationsbarrieren definieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Auswirkungen von Richtlinienänderungen auf vorhandene Chats
 

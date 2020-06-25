@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa4e89753848ece4b4737f7679333f8c01366a7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665987"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868522"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Ablauf und Erneuerung von Teams in Microsoft Teams
 
 Organisationen mit einer hohen Anzahl von Teams verfügen häufig über Teams, die nie tatsächlich verwendet werden. Dies kann aus verschiedenen Gründen geschehen, darunter Produkt Experimente, kurzfristige Teamzusammenarbeit oder Teambesitzer, die das Unternehmen verlassen. Im Laufe der Zeit können sich solche Teams akkumulieren und eine Belastung für Mandanten Ressourcen verursachen.  
 
-Wenn Sie die Anzahl der nicht verwendeten Teams als Administrator einschränken möchten, können Sie die [Microsoft 365-Gruppen Ablaufrichtlinie](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) verwenden, um nicht verwendete Teams automatisch zu bereinigen. Da Teams von Gruppen gesichert werden, gelten Gruppen Ablaufrichtlinien automatisch auch für Teams.
+Wenn Sie die Anzahl der nicht verwendeten Teams als Administrator einschränken möchten, können Sie die [Microsoft 365-Gruppen Ablaufrichtlinie](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) verwenden, um nicht verwendete Teams automatisch zu bereinigen. Da Teams von Gruppen gesichert werden, gelten Gruppen Ablaufrichtlinien automatisch auch für Teams.
 
 Wenn Sie eine Ablaufrichtlinie auf ein Team anwenden, erhält ein Teambesitzer eine Benachrichtigung für die Team Erneuerung 30 Tage, 15 Tage und einen Tag vor dem Ablaufdatum des Teams. Wenn der Teambesitzer die Benachrichtigung erhält, kann er in den Team Einstellungen auf **jetzt verlängern** klicken, um das Team zu erneuern.
 

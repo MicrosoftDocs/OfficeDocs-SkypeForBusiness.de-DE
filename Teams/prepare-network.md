@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669407"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874242"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -51,8 +51,8 @@ Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert](htt
     
 2.  Verfügen Sie über eine verifizierte Domäne für Microsoft 365 oder Office 365 (beispielsweise contoso.com)?
     
-      - Wenn Ihre Organisation Microsoft 365 oder Office 365 nicht bereitstellen kann, lesen Sie [Erste Schritte mit Microsoft 365 oder Office 365 for Business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-      - Wenn Ihre Organisation keine verifizierte Domäne für Microsoft 365 oder Office 365 hinzugefügt oder konfiguriert hat, lesen Sie [Überprüfen Ihrer Microsoft 365-oder Office 365-Domäne](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+      - Wenn Ihre Organisation Microsoft 365 oder Office 365 noch nicht ausgeführt hat, lesen Sie [Erste Schritte](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+      - Wenn Ihre Organisation keine verifizierte Domäne für Microsoft 365 oder Office 365 hinzugefügt oder konfiguriert hat, lesen Sie die [FAQ zu Domains](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Hat Ihre Organisation Exchange Online und SharePoint Online bereitgestellt?
     
@@ -99,7 +99,7 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="even">
 <td>Berater für Teams</td>
-<td>Der <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Berater für Teams</a> ist Teil des <a href="https://admin.teams.microsoft.com">Teams admin Centers</a>. Sie bewertet Ihre Microsoft 365-oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie Teams erfolgreich rollouten können.</td>
+<td>Der <a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Berater für Teams</a> ist Teil des <a href="https://admin.teams.microsoft.com">Teams admin Centers</a>. Er analysiert Ihre Microsoft 365- oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.</td>
 </tr>
 <tr class="odd">
 <td>Auflösung externer Namen</td>

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1577000dfe1adcdbc7c1bb0c03ce6c90aa3b29f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666287"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868642"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 
@@ -57,7 +57,7 @@ Bewährte Methode: wenden Sie sich an ihre Champions-Community, um über neue In
 Es gibt drei Arten von Berichten, die Sie überprüfen sollten, während Sie Microsoft Teams bereitstellen und übernehmen:
 
 - [Dienststatus](https://status.office365.com/) – von Microsoft 365, Office 365 und ihrer internen IT-Supportabteilung.
-- [Dienstaktivität](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – von Microsoft 365 oder Office 365 aus können Sie [Berichte zu Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)anzeigen. Sie können auch Informationen aus anderen Systemen in Ihrer Organisation verwenden.
+- [Microsoft 365-Berichte im Admin Center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) – von Microsoft 365 oder Office 365 Anzeigen von [Microsoft 365-Berichten im Admin Center – Microsoft Teams-Benutzeraktivität](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). Sie können auch Informationen aus anderen Systemen in Ihrer Organisation verwenden.
 - Service-Zufriedenheit – zusammengestellt aus internen Community-Foren und Umfragen zu bestimmten Erfahrungen
 
 ![Ein Symbol, das den nächsten Schritt darstellt ](media/teams-adoption-next-icon.png) : [Sensibilisierung und Implementierung von Schulungen](teams-adoption-drive-awareness.md)

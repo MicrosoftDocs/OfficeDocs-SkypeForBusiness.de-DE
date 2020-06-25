@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666217"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868142"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Vorbereiten der IT-Mitarbeiter für Microsoft Teams
 
@@ -42,7 +42,7 @@ Ihre Microsoft 365-oder Office 365-Organisationsadministratoren, technischen Lea
 Geben Sie die folgenden Ressourcen für Ihre IT-Mitarbeiter frei, und bestätigen Sie, dass Sie bereit sind, Benutzer zu unterstützen, bevor Sie mit dem Upgrade auf Teams beginnen:
 
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
-- [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client](connectivity-issues.md)
 - [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 

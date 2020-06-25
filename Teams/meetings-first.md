@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637944"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868472"
 ---
 # <a name="meetings-first"></a>Besprechungen zuerst
 
@@ -82,7 +82,7 @@ Sobald diese Anforderungen erfüllt sind (und nicht vor), können die Benutzer [
 
 Für die ersten Erfahrungen mit den besten Besprechungen sollten Benutzer für [Exchange Online](exchange-teams-interact.md), [SharePoint Online und OneDrive for Business](sharepoint-onedrive-interact.md)sowie für die Erstellung von Microsoft 365-Gruppen aktiviert sein. Besprechungen werden zunächst für Benutzer unterstützt, deren Postfach sich lokal in Exchange befindet oder für die keine SharePoint Online-oder OneDrive for Business-oder Microsoft 365-Gruppenerstellung vorhanden ist. Ihre Erfahrung wird jedoch nicht so vollständig sein. Insbesondere für Organisationen, die Exchange Server lokal verwenden, gibt es möglicherweise (abhängig von der Version von Exchange Server) einige Einschränkungen beim Erstellen und Anzeigen von Besprechungen vom Team-Client sowie hinsichtlich der Compliance-Funktionen.
 
-Benutzer müssen mindestens [für Teams lizenziert](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)sein. Darüber hinaus können Sie bei Bedarf für [Audiokonferenzen](set-up-audio-conferencing-in-teams.md)lizenziert werden.
+Benutzer müssen mindestens [für Teams lizenziert](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)sein. Darüber hinaus können Sie bei Bedarf für [Audiokonferenzen](set-up-audio-conferencing-in-teams.md)lizenziert werden.
 
 Wir empfehlen, [den **SfBOnly** -oder **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) -Modus als Mandanten Standard zu dem Zeitpunkt zu gewähren, zu dem Sie die Benutzer lizenzieren. Auf diese Weise wird sichergestellt, dass Benutzer keine eigenen Teams im Standardmodus für **Inseln** verwenden, bevor Sie mit der ersten Besprechung beginnen.
 
