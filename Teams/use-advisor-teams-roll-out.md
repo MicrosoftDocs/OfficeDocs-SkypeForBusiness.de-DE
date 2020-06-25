@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (öffentliche Vorschau) als Hilfe bei der Planung und Durchführung Ihrer Bereitstellung von Microsoft Teams.
-ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665257"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868152"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -89,7 +89,7 @@ In den nachstehenden Abschnitten werden die einzelnen Bewertungen beschrieben, u
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Benutzerdefinierte Domäne konfiguriert     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist (z. B. @contoso.onmicrosoft.com). Sie können natürlich die "@onmicrosoft.com"-Domäne verwenden oder eine benutzerdefinierte Domäne konfigurieren. Es ist Ihre Entscheidung. Weitere Informationen finden Sie unter [Hinzufügen einer Domäne](https://docs.microsoft.com/office365/admin/setup/add-domain). |
+|Benutzerdefinierte Domäne konfiguriert     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist (z. B. @contoso.onmicrosoft.com). Sie können natürlich die "@onmicrosoft.com"-Domäne verwenden oder eine benutzerdefinierte Domäne konfigurieren. Es ist Ihre Entscheidung. Weitere Informationen finden Sie unter [Hinzufügen einer Domäne zu Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
 |Teams-Lizenzen     |Dies ist eine Voraussetzung – Sie **müssen ** Teams-Lizenzen besitzen, um Teams bereitzustellen. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Teams-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Exchange Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Exchange Online-Lizenzen verfügen. Exchange ist zwar nicht für die grundlegenden Funktionen von Teams erforderlich, doch die Integration mit Exchange bietet eine optimale Teams-Erfahrung. Fragt Microsoft Graph ab, um die mit Ihrem Mandanten verbundenen Abonnements zu analysieren und zu überprüfen, ob Sie über Abonnements mit einer berechtigten Exchange Online-Lizenz verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von Exchange und Teams](exchange-teams-interact.md).    |
 |SharePoint Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren SharePoint Online-Lizenzen verfügen. Wir empfehlen SharePoint Online-Lizenzen auf Benutzerbasis zur Bereitstellung von OneDrive for Business für die Dateispeicherung in Chats. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über SharePoint Online-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
@@ -102,8 +102,8 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Konfigurierte Benennungsrichtlinien für Microsoft 365-Gruppen     |Ob Benennungsstandards für Microsoft 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie von Microsoft 365-Gruppen ermöglicht Ihrer Organisation die Anwendung einer konsistenten Benennungsstrategie auf von Benutzern erstellte Teams und gilt auch für andere Gruppenarbeitslasten (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über den Microsoft Graph ab, um die Existenz von Benennungsrichtlinien zu prüfen, die für Microsoft 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Konfigurierte Ablaufrichtlinien für Microsoft 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Microsoft 365-Gruppen definiert wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Gruppen](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Konfigurierte Benennungsrichtlinien für Microsoft 365-Gruppen     |Ob Benennungsstandards für Microsoft 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie von Microsoft 365-Gruppen ermöglicht Ihrer Organisation die Anwendung einer konsistenten Benennungsstrategie auf von Benutzern erstellte Teams und gilt auch für andere Gruppenarbeitslasten (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über den Microsoft Graph ab, um die Existenz von Benennungsrichtlinien zu prüfen, die für Microsoft 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Gruppen](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Konfigurierte Ablaufrichtlinien für Microsoft 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Microsoft 365-Gruppen definiert wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Microsoft 365-Gruppen](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Bewertungen für Besprechungen und Konferenzen
 
