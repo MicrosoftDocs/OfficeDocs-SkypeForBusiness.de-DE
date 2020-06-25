@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Benutzern, Hinzufügen von Microsoft 365 Business Voice-Lizenzen und Zuweisen von Telefonnummern
+title: Erstellen von Microsoft 365-Benutzern, Hinzufügen von Business Voice-Lizenzen und Zuweisen von Telefonnummern
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,20 +17,20 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a17077864850ffe06bbb293848868e9147f9f8
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 16827d1b90ea07fcd84be286e03f3d3b22a55bd1
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611024"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868632"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Erstellen und lizenzieren Sie Business Voice-Benutzer, und weisen Sie ihnen Telefonnummern zu
 
-Um :::no-loc text="Microsoft 365 Business Voice"::: zu verwenden, benötigen Sie ein :::no-loc text="Microsoft 365":::-Konto mit einer :::no-loc text="Microsoft 365 Business Voice"::: Lizenz. Wenn Sie über ein Konto mit einer Lizenz verfügen, können Sie ihm eine Telefonnummer zuweisen.
+Um :::no-loc text="Microsoft 365 Business Voice"::: zu verwenden, benötigen Sie ein :::no-loc text="Microsoft 365":::-Konto mit einer :::no-loc text="Microsoft 365 Business Voice":::-Lizenz. Wenn Sie über ein Konto mit einer Lizenz verfügen, können Sie ihm eine Telefonnummer zuweisen.
 
 ## <a name="create-and-license-users"></a>Erstellen und Lizenzieren von Benutzern
 
-Führen Sie die Schritte in [Hinzufügen von Benutzern einzeln oder in großen Mengen](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) aus.
+Befolgen Sie die Schritte in [Benutzer einzeln oder in Massen hinzufügen](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) und [Zuweisen von Lizenzen an Benutzer](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
 > Wählen Sie im Bereich **Produktlizenzen zuweisen** die Option **:::no-loc text="Microsoft 365 Business Voice":::** aus.
