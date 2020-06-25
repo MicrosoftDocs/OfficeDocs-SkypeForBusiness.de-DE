@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32e231fbcef2991e13ec5b496e6ed61eb677ee20
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665757"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868302"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
@@ -59,6 +59,44 @@ Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Teams m
 
 Unter MacOS werden Teams Benutzer auffordern, ihren Benutzernamen und ihre Anmeldeinformationen einzugeben, und je nach den Einstellungen Ihres Unternehmens werden Sie möglicherweise zur Multifaktor-Authentifizierung aufgefordert. Sobald die Benutzer ihre Anmeldeinformationen eingegeben haben, werden sie nicht mehr aufgefordert, sie erneut anzugeben. Von diesem Zeitpunkt an startet Teams automatisch, wenn sie am gleichen Computer arbeiten.
 
+## <a name="teams-for-ios-and-android-users"></a>Microsoft Teams für iOS- und Android-Benutzer
+
+Bei der Anmeldung sehen Benutzer von Mobilgeräten eine Liste aller Microsoft 365-Konten, bei denen sie entweder aktuell angemeldet sind oder zuvor auf Ihrem Gerät angemeldet waren. Die Benutzer können auf eines der Konten tippen, um sich anzumelden. Es gibt zwei Szenarien für die Anmeldung auf Mobilgeräten:
+    
+1. Wenn der Benutzer aktuell über das ausgewählte Konto bei anderen Office 365- oder Microsoft 365-Apps angemeldet ist, wird er direkt zu Microsoft Teams geleitet. In diesem Fall muss er seine Anmeldeinformationen nicht eingeben.
+    
+2. Wenn der Benutzer nirgendwo sonst bei seinem Microsoft 365-Konto angemeldet ist, wird er, abhängig von den Vorgaben der Anmelderichtlinien seiner Organisation, aufgefordert, sich über eine einstufige bzw. mehrstufige Authentifizierung (SFA oder MFA) zu identifizieren.
+
+### <a name="adding-multiple-accounts-to-teams"></a>Hinzufügen mehrerer Konten zu Microsoft Teams
+
+Microsoft Teams für iOS und Android unterstützt das Hinzufügen von mehreren Konten über ein einziges Gerät. Die folgenden Bilder zeigen, wie Benutzer in Microsoft Teams mehrere Konten hinzufügen können.
+    
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Hinzufügen mehrerer Konten in Microsoft Teams":::
+
+### <a name="use-enterprise-mobility-management-to-control-which-accounts-can-sign-in-to-teams"></a>Verwenden von Enterprise Mobility Management, um zu steuern, welche Konten sich bei Microsoft Teams anmelden können
+
+Microsoft Teams für iOS und Android bietet IT-Administratoren die Möglichkeit, Kontokonfigurationen auf Microsoft 365-Konten zu übertragen. Diese Funktion funktioniert mit jedem MDM-Anbieter (Mobile Device Management, Mobile Geräteverwaltung), der den Kanal  [Konfiguration verwalteter Apps](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html)  (iOS) oder den Kanal  [Android Enterprise](https://developer.android.com/work/managed-configurations)  (Android) verwendet.
+
+Für Benutzer, die in Microsoft Intune registriert sind, können Sie die Kontokonfigurationseinstellungen mithilfe von Intune im Azure-Portal bereitstellen.
+
+Nachdem die Konto-Setup-Konfiguration im MDM-Anbieter eingerichtet wurde und der Benutzer das Gerät registriert hat, werden auf der Anmeldeseite in Microsoft Teams für iOS und Android nur die zulässigen Konten angezeigt. Der Benutzer kann auf jedes der zulässigen Konten auf dieser Seite tippen, um sich anzumelden.
+
+Legen Sie die folgenden Konfigurationsparameter im Azure Intune-Portal für verwaltete Geräte fest.
+
+
+|Plattform |Key  |Wert  |
+|---------|---------|---------|
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Enabled**: Das einzige zulässige Konto ist das über den IntuneMAMUPN-Schlüssel definierte verwaltete Benutzerkonto.<br> **Disabled** (oder ein Wert, bei dem es sich nicht um eine groß-/ kleinschreibungsunabhängige Übereinstimmung mit **Enabled** handelt): Jedes Konto ist zulässig.        |
+|iOS     |   **IntuneMAMUPN**      |   Der UPN des Kontos, das für die Anmeldung bei Microsoft Teams zulässig ist.<br> Bei in Intune registrierten Geräten kann das {{userprincipalname}}-Token zur Darstellung des registrierten Benutzerkontos verwendet werden.       |
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Die einzigen zulässigen Konten sind die durch diesen Schlüssel definierten verwalteten Benutzerkonten.<br> Ein oder mehrere durch Semikolons [;] getrennte UPNs.<br> Bei in Intune registrierten Geräten kann das {{userprincipalname}}-Token zur Darstellung des registrierten Benutzerkontos verwendet werden.
+
+Sobald die Konto Setup-Konfiguration festgelegt wurde, schränkt Microsoft Teams die Möglichkeit zur Anmeldung ein, sodass nur zulässigen Konten auf registrierten Geräten der Zugriff gewährt wird.
+
+Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete iOS-/iPad-Geräte erstellen möchten, lesen Sie  [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete iOS-/iPad-Geräte](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios).
+
+Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete Android-Geräte erstellen möchten, lesen Sie  [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete Android-Geräte](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android).
+
+
 ## <a name="switching-accounts-after-completing-modern-authentication"></a>Kontowechsel nach Abschluss der modernen Authentifizierung
 
 Wenn Benutzer an einem domänengebundenen Computer arbeiten (z.B. wenn ihr Mandant Kerberos aktiviert hat), können sie nach Abschluss der modernen Authentifizierung nicht mehr zwischen Benutzerkonten wechseln. Wenn Benutzer nicht an einem domänengebundenen Computer arbeiten, können sie zwischen Konten wechseln.
@@ -67,9 +105,16 @@ Wenn Benutzer an einem domänengebundenen Computer arbeiten (z.B. wenn ihr Manda
 
 Um sich von Teams abzumelden, können Benutzer auf ihr Profilbild oben in der App klicken und dann **Abmelden** wählen. Sie können auch mit der rechten Maustaste auf das App-Symbol in der Taskleiste klicken und dann **Abmelden** wählen. Sobald sie sich von Teams abgemeldet haben, müssen sie ihre Anmeldeinformationen erneut eingeben, um die App zu starten.
 
+### <a name="signing-out-of-teams-for-ios-and-android"></a>Abmelden von Microsoft Teams für iOS und Android
+
+Benutzer von Mobilgeräten können sich von Micrsoft Teams abmelden, indem sie zum Menü wechseln, das Menü **Mehr** und dann **Abmelden**auswählen. Nach der Anmeldung müssen die Benutzer ihre Anmeldeinformationen beim nächsten Starten der App erneut eingeben.
+
+> [!NOTE]
+> Microsoft Teams für Android verwendet die einmalige Anmeldung (SSO, Single Sign-On), um die Anmeldung zu vereinfachen. Die Benutzer sollten sicherstellen, dass Sie sich neben Microsoft Teams von **allen** Microsoft-Apps abmelden, um sich vollständig von der Android-Plattform abmelden zu können.
+
 ## <a name="urls-and-ip-address-ranges"></a>URLs und IP-Adressbereiche
 
-Microsoft Teams setzt eine Internetverbindung voraus. Informationen zu Endpunkten, die für Kunden mit Microsoft Teams in Microsoft 365- oder Office 365-Plänen sowie für Behörden und andere Clouds erreichbar sein sollten, finden Sie unter [URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Microsoft Teams setzt eine Internetverbindung voraus. Informationen zu Endpunkten, die für Kunden mit Microsoft Teams in Office 365-Plänen, Behörden und andere Clouds erreichbar sein sollten, finden Sie unter [URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > Microsoft Teams benötigt derzeit Zugriff (TCP-Port 443) auf den Google ssl.gstatic.com-Dienst (<https://ssl.gstatic.com)> für alle Benutzer. Dies gilt selbst dann, wenn Sie Gstatic nicht verwenden. Diese Anforderung wird demnächst (erste Hälfte 2020) aus Microsoft Teams entfernt. Dieser Artikel wird dann entsprechend aktualisiert.
