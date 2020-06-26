@@ -1,9 +1,9 @@
 ---
-title: Verfügbarkeit in Algerien
-author: LanaChin
-ms.author: v-lanac
+title: Verfügbarkeit in Uganda
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Algerien verfügbar sind.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Uganda verfügbar sind.
+ms.openlocfilehash: 1ffab17c3330ff19c24c27f2e840f5ad1856a456
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877896"
+ms.locfileid: "44878039"
 ---
-# <a name="availability-in-algeria"></a>Verfügbarkeit in Algerien
+# <a name="availability-in-uganda"></a>Verfügbarkeit in Uganda
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Algerien verfügbar sind.
+Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Uganda verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

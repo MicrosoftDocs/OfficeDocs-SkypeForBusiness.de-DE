@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Hier erfahren Sie, was Sie bei der Planung des Anruf Qualitäts Dashboards berücksichtigen sollten.'
-ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: 407366fc98dc423db59ed9bf98cfe58463b708fc
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339440"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877946"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen des Anruf Qualitäts Dashboards für Skype for Business Server 
  
@@ -144,7 +144,7 @@ In einer MultiServer-Konfiguration können sich das QoE-Archiv, der Cube und das
     
 - Hosten eines "Entwicklungs Portals", das vom Portal "Produktion" getrennt ist. 
     
-  **Hosten des CQD-Webportals und CQD-Cubes auf unterschiedlichen Computern.** Organisationen, die möglicherweise Anforderungen zum Trennen des CQD-Portals von der SQL Server-Installation haben oder die SQL Server Editionen für die SQL Server Instanz und SQL Server Analysis Services-Instanz kombinieren und abgleichen möchten, können das CQD-Portal installieren und CQD-Cube auf unterschiedlichen Computern. Die QoE-Archiv Komponente kann auch die einzige CQD-Komponente sein, die installiert wird, wenn die Organisation einfach eine nachhaltige Methode zum Archivieren der QoE-Daten haben möchte, ohne Leistungsgrenzwerte für die Monitoring Server zu erreichen.
+  **Hosten des CQD-Webportals und CQD-Cubes auf unterschiedlichen Computern.** Organisationen, die möglicherweise Anforderungen zum Trennen des CQD-Portals von der SQL Server-Installation haben oder die SQL Server-Editionen für die SQL Server Instanz und SQL Server Analysis Services-Instanz kombinieren und abgleichen möchten, können das CQD-Portal und den CQD-Cube auf unterschiedlichen Computern installieren. Die QoE-Archiv Komponente kann auch die einzige CQD-Komponente sein, die installiert wird, wenn die Organisation einfach eine nachhaltige Methode zum Archivieren der QoE-Daten haben möchte, ohne Leistungsgrenzwerte für die Monitoring Server zu erreichen.
   
 ![CQD mit einem einzelnen Server](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -195,24 +195,24 @@ In diesem Abschnitt wird davon ausgegangen, dass in der Umgebung eine einzelne Q
 
 |**Maschine**|**CPU-Kerne**|**Arbeitsspeicher**|**QoE-Archiv und Cube auf demselben Datenträger**|**QoE-Archiv und SQL-Temp-DB auf demselben Datenträger**|
 |:-----|:-----|:-----|:-----|:-----|
-|Virtueller Computer  <br/> |4  <br/> |7 GB  <br/> |Ja  <br/> |Ja  <br/> |
-|4 Kern  <br/> |4  <br/> |20 GB  <br/> |Ja  <br/> |Nein  <br/> |
-|8 Kern  <br/> |8  <br/> |32 GB   <br/> |Ja  <br/> |Nein  <br/> |
+|Virtueller Computer  <br/> |4   <br/> |7 GB  <br/> |Ja  <br/> |Ja  <br/> |
+|4 Kern  <br/> |4   <br/> |20 GB  <br/> |Ja  <br/> |Nein  <br/> |
+|8 Kern  <br/> |8   <br/> |32 GB   <br/> |Ja  <br/> |Nein  <br/> |
 |16 Kern  <br/> |16   <br/> |128 GB  <br/> |Nein  <br/> |Nein  <br/> |
    
 **Leistungsergebnisse**
 
 |**Maschine**|**Datenbankgröße für QoE-Metriken**|**SQL-Partitionen**|**Datenträgertyp**|**Anzahl der Datenströme**|**Anfänglicher Archiv Prozess**|**Initial Cube-Prozess**|**Anschließender Archivierungsprozess**|**Nachfolgende Cube-Prozess**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Virtueller Computer  <br/> |900 MB  <br/> |Single  <br/> |VHD (Variable Größe)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Virtueller Computer  <br/> |9 GB  <br/> |Single  <br/> |VHD (Variable Größe)  <br/> |5 M  <br/> |4 Std.  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Virtueller Computer  <br/> |9 GB  <br/> |Single  <br/> |VHD (feste Größe)  <br/> |5 M  <br/> |2 Std.  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Virtueller Computer  <br/> |30 + GB  <br/> |Single  <br/> |VHD (feste Größe)  <br/> |10 M  <br/> |15 Std.  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 Kern  <br/> |9 GB  <br/> |Single  <br/> |Mehrere Datenträger  <br/> |5 M  <br/> |2 Std.  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
+|Virtueller Computer  <br/> |900 MB  <br/> |Einzelne  <br/> |VHD (Variable Größe)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
+|Virtueller Computer  <br/> |9 GB  <br/> |Einzelne  <br/> |VHD (Variable Größe)  <br/> |5 M  <br/> |4 Std.  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Virtueller Computer  <br/> |9 GB  <br/> |Einzelne  <br/> |VHD (feste Größe)  <br/> |5 M  <br/> |2 Std.  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Virtueller Computer  <br/> |30 + GB  <br/> |Einzelne  <br/> |VHD (feste Größe)  <br/> |10 M  <br/> |15 Std.  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
+|8 Kern  <br/> |9 GB  <br/> |Einzelne  <br/> |Mehrere Datenträger  <br/> |5 M  <br/> |2 Std.  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
 |8 Kern  <br/> |9 GB  <br/> |Mehrere  <br/> |Mehrere Datenträger  <br/> |5 M  <br/> |2 Std.  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 Kern  <br/> |30 + GB  <br/> |Single  <br/> |Mehrere Datenträger  <br/> |20 M  <br/> |9 Std.  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
+|8 Kern  <br/> |30 + GB  <br/> |Einzelne  <br/> |Mehrere Datenträger  <br/> |20 M  <br/> |9 Std.  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
 |8 Kern  <br/> |30 + GB  <br/> |Mehrere  <br/> |Mehrere Datenträger  <br/> |20 M  <br/> |9 Std.  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 Kern  <br/> |200 GB  <br/> |Single  <br/> |Mehrere Datenträger  <br/> |125 M  <br/> |6 + Tage  <br/> |7 h  <br/> |2 m  <br/> |6 Std.  <br/> |
+|4 Kern  <br/> |200 GB  <br/> |Einzelne  <br/> |Mehrere Datenträger  <br/> |125 M  <br/> |6 + Tage  <br/> |7 h  <br/> |2 m  <br/> |6 Std.  <br/> |
 |16 Kern  <br/> |500 GB  <br/> |Mehrere  <br/> |Mehrere Spindeln  <br/> |250 M  <br/> |8 Tage  <br/> |2 Std.  <br/> |2 m  <br/> |10 m  <br/> |
    
 \*Diese werden in realen Bereitstellungen nicht erwartet, da die QoE-metrikdatenbank jeweils 9 und 18 Monate Daten haben muss, aber Sie werden hier auf Vollständigkeit festgelegt.
@@ -282,7 +282,7 @@ Im folgenden sind die erforderlichen IIS-Rollendienste (in hierarchischer Reihen
   - IIS-Verwaltungskonsole
     
 > [!NOTE]
->  Beachten Sie Folgendes für die oben genannten Anforderungen: > 3,5-und 4,5-Versionen von .NET Framework stehen zur Verfügung. Beide sind erforderlich (genauer gesagt ist 3,5 SP1 erforderlich). > in einigen Systemen, wenn ASP.net vor dem Installieren von IIS eingerichtet wurde, ist ASP.net möglicherweise nicht in IIS registriert. Das Problem manifestiert sich dadurch, dass keine Anwendungspools für die entsprechende .NET-Version vorhanden sind und auch die .NET CLR-Version in der APP-Poolkonfiguration fehlt. Um ein solches Problem bei Windows Server 2008 R2 zu beheben `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`, führen Sie aus. Auf Windows Server 2012 und Windows Server 2012 R2 wird Execute `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` gefolgt von dem Entfernen des ServiceModel-Moduls von der Standardwebsite in IIS-Manager ausgeführt. >-Verwaltungstools sind optional, werden jedoch empfohlen.
+>  Beachten Sie Folgendes für die oben genannten Anforderungen: > 3,5-und 4,5-Versionen von .NET Framework stehen zur Verfügung. Beide sind erforderlich (genauer gesagt ist 3,5 SP1 erforderlich). > in einigen Systemen, wenn ASP.net vor dem Installieren von IIS eingerichtet wurde, ist ASP.net möglicherweise nicht in IIS registriert. Das Problem manifestiert sich dadurch, dass keine Anwendungspools für die entsprechende .NET-Version vorhanden sind und auch die .NET CLR-Version in der APP-Poolkonfiguration fehlt. Um ein solches Problem bei Windows Server 2008 R2 zu beheben, führen Sie aus `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . Auf Windows Server 2012 und Windows Server 2012 R2 wird Execute `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` gefolgt von dem Entfernen des ServiceModel-Moduls von der Standardwebsite in IIS-Manager ausgeführt. >-Verwaltungstools sind optional, werden jedoch empfohlen.
   
 Führen Sie die folgenden Schritte aus, um diese Anforderungen mithilfe von PowerShell zu installieren:
   
@@ -318,6 +318,9 @@ Weitere Informationen zum Installieren und Konfigurieren von SQL Server Business
 Drei Domänendienstkonten werden nach dem Prinzip der geringsten Rechte empfohlen: 
   
 - Eine, die bereits über einen Anmelde Sicherheitsprinzipal für QoE-metrikdatenbank (mit db_datareader Berechtigung) und einen Anmelde Sicherheitsprinzipal im QoE-Archiv SQL Server Instanz (erforderlich zum Erstellen eines verknüpften Server Objekts während des Setups) verfügt. Dieses Konto wird verwendet, um den Schritt "QoE-Archivdaten" des SQL Server-Agent-Auftrags auszuführen.
+    
+    > [!NOTE]
+    > Wenn Sie in einer stark gesperrten Umgebung arbeiten, müssen Sie überprüfen, ob dieses Dienstkonto tatsächlich "Anmeldung als Stapelverarbeitungsauftrag" und "Lokal anmelden zulassen" Benutzerrechte für die QoE-Metriken Überwachungsdatenbank SQL Server und das QoE-Archiv SQL Server.
     
 - Eine, die zum Ausführen des Schritts "Prozess Cube" des SQL Server-Agent-Auftrags verwendet wird. Setup erstellt einen Anmelde Sicherheitsprinzipal für die QoE-Archivdatenbank (mit Lese-und Schreibrechten) und erstellt außerdem ein Mitglied in der QoE-Rolle (mit Vollzugriff-Berechtigung) für den Cube.
     

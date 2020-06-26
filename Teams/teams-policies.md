@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690961"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889974"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
@@ -48,7 +48,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
     ![Screenshot der Richtlinieneinstellungen für Teams](media/teams-policies.png)
 4. Wählen Sie die gewünschten Einstellungen aus:
 
-- **Entdecken Sie private Teams**:<a name="discoverteams"> </a> aktivieren Sie diese Einstellung, damit Benutzer private Teams in Suchergebnissen und im Team Katalog entdecken können.
+- **Entdecken privater Teams** (in der privaten Vorschau)<a name="discoverteams"> </a> : Aktivieren Sie diese Einstellung, damit Benutzer private Teams in Suchergebnissen und im Team Katalog entdecken können.
 - **Private Kanäle erstellen**: <a name="createchannels"> </a>aktivieren Sie diese Einstellung, damit Benutzer private Kanäle erstellen können.
 
 5. Klicken Sie auf **Speichern**.
