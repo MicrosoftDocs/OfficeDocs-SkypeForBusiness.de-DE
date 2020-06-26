@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330570"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874426"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
 
@@ -158,9 +158,20 @@ Wenn Sie sicherstellen möchten, dass Schüler keine Besprechung planen können,
 
 ![Schüler in Remote-Learning-Umgebung, der Abschnitt „Allgemeines“ wird angezeigt, hier sind alle Optionen ausgeschaltet.](media/edu-policy-list-a.png)
 
-- Und auf der gleichen Seite im Abschnitt Teilnehmer und Gäste in Besprechung: **Sofortbesprechungen in privaten Besprechungen zulassen**: Aus
+- Und auf der gleichen Seite im Abschnitt "Teilnehmer und Gäste" in der Besprechung:
+  - **Sofortbesprechungen in privaten Besprechungen zulassen**: Aus
+  - **Chat in Besprechungen zulassen**: Deaktiviert
 
-![Abschnitt „Teilnehmer und Gäste“ mit der Option „Sofortbesprechung in privaten Besprechungen zulassen“ auf „Aus“.](media/edu-participants-and-guests.png)
+![Abschnitt "Teilnehmer und Gäste" mit der Option "Sofortbesprechung in privaten Besprechungen zulassen" auf "Aus".](media/edu-participants-and-guests.png)
+
+Wenn Sie **Sofortbesprechungen in Kanälen zulassen**, **Planung von Kanalbesprechungen zulassen**, **Planung privater Besprechungen zulassen** und **Sofortbesprechungen in privaten Besprechungen** für Schüler/Studenten deaktivieren, werden diese an der Planung einer Besprechung als Organisatoren gehindert. Darüber hinaus ergeben sich dadurch auch die folgenden Sicherheitsmaßnahmen für Bildungseinrichtungen:
+
+- Wenn Schüler/Studenten versuchen, der Besprechung vor der Lehrkraft beizutreten, ist es ihnen nicht möglich, der Besprechung über die neueste Version der Microsoft Teams-App beizutreten.
+- Obwohl die Besprechungserstellung für alle Benutzer und Lizenzen gilt, gelten die vorstehenden Sicherheitsmaßnahmen zur Hinderung an der Besprechungsteilnahme nur für Education-Kunden in Microsoft Teams basierend auf dem Lizenztyp der Benutzer.
+
+Wenn die Richtlinie **Chat in Besprechungen zulassen** deaktiviert wird und die Schüler/Studenten daran gehindert werden, Besprechungen zu planen, während diese Richtlinie für Lehrkräfte aktiviert bleibt (für Besprechungen, die nicht in einem Kanal geplant sind oder Sofortbesprechungen in einem Kanal), sind die Schüler/Studenten nicht in der Lage, zu chatten, bevor die Lehrkraft der Besprechung beitritt, und auch nicht nach der Besprechung. Sie können den Chatverlauf weiterhin vor, während und nach der Besprechung anzeigen. Sie können z. B. Nachrichten des Kursleiters sehen oder den Link zur Besprechungsaufzeichnung, sofern die Besprechung aufgezeichnet wurde.
+
+Wenn die Richtlinie **Chat in Besprechungen zulassen** sowohl für Kursteilnehmer als auch für Kursleiter deaktiviert ist, kann niemand im Besprechungs-Chatfenster chatten. Die oben beschriebene Sicherheitsmaßnahme zur Einschränkung des Besprechungschats gilt nur für Education-Kunden in Microsoft Teams basierend auf dem Lizenztyp der Benutzer.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Steuern Sie, ob Kursteilnehmer ihre Videos während Anrufen und Besprechungen freigeben können
 
