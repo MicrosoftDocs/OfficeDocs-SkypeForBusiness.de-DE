@@ -1,5 +1,5 @@
 ---
-title: Meinen Anruf in Skype for Business Server abstimmen
+title: Meinen Anruf in Skype for Business Server bewerten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,70 +11,70 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Zusammenfassung: erfahren Sie mehr über das Feature "meine Anruf Rate" in Skype for Business Server.'
-ms.openlocfilehash: ca33e327b7416f18943a425df4ecb0d78d4047c6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: erfahren Sie mehr über die Funktion "meine Anrufe bewerten" in Skype for Business Server.'
+ms.openlocfilehash: 15f2bcbcf75690baaa350541f5f1da134fb32025
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817734"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902219"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a>Meinen Anruf in Skype for Business Server abstimmen
+# <a name="rate-my-call-in-skype-for-business-server"></a>Meinen Anruf in Skype for Business Server bewerten
 
-**Zusammenfassung:** Informieren Sie sich über das Feature "meine Anruf Rate" in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über die Funktion "meinen Anruf bewerten" in Skype for Business Server.
 
-Bewerte mein Anruf war eine neue Funktion in Skype for Business 2015-und 2016-Clients unter Windows, die Unternehmen eine Möglichkeit bietet, Feedback von Ihren Endbenutzern zu erhalten.
+"Mein Anruf bewerten" war ein neues Feature in Skype for Business 2015-und 2016-Clients unter Windows, das Unternehmen eine Möglichkeit bietet, Feedback von Ihren Endbenutzern zu erhalten.
 
-Das Fenster "mein Anruf bewerten" bietet ein "Star"-Bewertungssystem und vordefinierte Token für Audio-und Videoanrufe. Darüber hinaus können Administratoren ein benutzerdefiniertes Feld aktivieren, um Feedback bereitzustellen.
+Das Fenster "mein Anruf bewerten" bietet ein Bewertungssystem für "Sterne" und vordefinierte Token für Audio-und Videoanrufe. Darüber hinaus können Administratoren ein benutzerdefiniertes Feld zur Bereitstellung von Feedback aktivieren.
 
-Erfasste Daten aus „Meinen Anruf bewerten“ sind derzeit nicht in einem vorhandenen Überwachungsbericht enthalten, es gibt jedoch einen separaten Überwachungsbericht. Daten werden in SQL-Tabellen gesammelt, auf die durch Ausführen von SQL-Abfragen zugegriffen werden kann.
+Gesammelte Rate meine Anrufdaten sind derzeit nicht in einem vorhandenen Überwachungsbericht enthalten, es gibt jedoch einen separaten Überwachungsbericht. Daten werden in SQL-Tabellen erfasst, auf die durch die Ausführung von SQL-Abfragen zugegriffen werden kann.
 
-## <a name="rate-my-call-prerequisites"></a>Voraussetzungen für „Meinen Anruf bewerten“
+## <a name="rate-my-call-prerequisites"></a>Meine Voraussetzungen für Anrufe bewerten
 
-Bevor die Benutzer in Ihrer Skype for Business Server-Bereitstellung auf meine Anruffunktion abstimmen können, muss die folgende Gruppe von Komponenten bereitgestellt und konfiguriert werden:
+Bevor die Benutzer in Ihrer Skype for Business Server-Bereitstellung auf die Funktion "meine Anrufe bewerten" zugreifen können, müssen die folgenden Komponenten bereitgestellt und konfiguriert werden:
 
 -  Sie müssen Skype for Business Server installiert haben (Version 9160 oder höher).
 
-- Lassen Sie Ihre Benutzer die neueste Version von Skype for Business installieren und aktualisieren, und bitten Sie Sie auch, die Skype for Business-Benutzeroberfläche zu verwenden.
+- Lassen Sie die Benutzer die neueste Version von Skype for Business installieren und aktualisieren, und fordern Sie Sie außerdem auf, die Skype for Business Benutzeroberfläche zu verwenden.
 
-- Benutzer müssen im Front-End-Pool von Skype for Business Server beheimatet sein.
+- Benutzer müssen im Skype for Business Server Front-End-Pool verwaltet werden.
 
-- Sie müssen über eine Skype for Business Server-Überwachungsdatenbank verfügen, die Ihren Skype for Business Server-Pools zugeordnet ist.
+- Sie müssen über eine Skype for Business Server Überwachungsdatenbank verfügen, die Ihren Skype for Business Server-Pools bereitgestellt und zugeordnet ist.
 
-- Die Bereitstellung des Anrufqualitäts-Dashboards (CQD) wird empfohlen.
+- Es wird empfohlen, das Anruf Qualitäts Dashboard (CQD) bereitzustellen.
 
-## <a name="configure-rate-my-call"></a>„Meinen Anruf bewerten“ konfigurieren
+## <a name="configure-rate-my-call"></a>Konfigurieren von "mein Anruf bewerten"
 
-Das Feature "mein Anruf abstimmen" ist standardmäßig in der Client Richtlinie mit den folgenden Einstellungen aktiviert:
+Das Feature Meine Anruf Rate bewerten ist in der Client Richtlinie standardmäßig mit den folgenden Einstellungen aktiviert:
 
-- Meinen Anruf abstimmen Prozentsatz-10%
+- Mein Anruf anzeigen: Prozentsatz-10%
 
-- Meinen Anruf abstimmen Benutzer Feedback zulassen – deaktiviert
+- Bewerten von "meine Anrufe erlauben"-Benutzer Feedback – deaktiviert
 
-Es ist keine Aktion erforderlich, um das Basis Feature zu aktivieren, doch wenn Sie benutzerdefiniertes Feedback wünschen, müssen Sie es separat aktivieren. Das folgende Windows PowerShell-Cmdlet ist ein Beispiel für die Aktivierung benutzerdefinierter Endbenutzer Feedbacks und das Ändern des Intervalls von 10% auf 80%.
+Es ist keine Aktion erforderlich, um das Basis Feature zu aktivieren, aber wenn Sie ein benutzerdefiniertes Feedback wünschen, müssen Sie es separat aktivieren. Das folgende Windows PowerShell-Cmdlets ist ein Beispiel für die Aktivierung benutzerdefinierter Endbenutzer Feedbacks und das Ändern des Intervalls von 10% auf 80%.
 
 ```PowerShell
-Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
+Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Zugriff auf die Daten von „Meinen Anruf bewerten“
+## <a name="accessing-rate-my-call-data"></a>Zugreifen auf meine Anrufdaten bewerten
 
-Daten von Benutzern werden in zwei Tabellen in der Überwachungsdatenbank erfasst.
+Daten von Benutzern werden in zwei Tabellen in der Überwachungsdatenbank gesammelt.
 
- **[Datenbank QoEMetrics werden]. [dbo]. [CallQualityFeedbackToken]** – Diese Tabelle enthält die Ergebnisse des Token-Abrufs durch Endbenutzer.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** – Diese Tabelle enthält Ergebnisse von Token Polling durch Endbenutzer.
 
- **[Datenbank QoEMetrics werden]. [dbo]. [CallQualityFeedbackTokenDef]** – Diese Tabelle enthält Token-Definitionen.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** – Diese Tabelle enthält Token-Definitionen.
 
-Token-Definitionen sind folgendermaßen codiert:
+Token-Definitionen werden wie folgt codiert:
 
 |||
 |:-----|:-----|
-|1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
-|3  <br/> | BackgroundNoise <br/> |
-|4  <br/> |MuffledSpeech  <br/> |
-|5  <br/> |Echo  <br/> |
-|21  <br/> | FrozenVideo <br/> |
+|1   <br/> |DistortedSpeech  <br/> |
+|2   <br/> | ElectronicFeedback <br/> |
+|3   <br/> | BackgroundNoise <br/> |
+|4   <br/> |MuffledSpeech  <br/> |
+|5   <br/> |Echo  <br/> |
+| 21  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
 |23  <br/> | BlurryImage <br/> |
 |24  <br/> | PoorColor <br/> |
@@ -108,7 +108,7 @@ Token-Definitionen sind folgendermaßen codiert:
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[Datenbank QoEMetrics werden]. [dbo]. [CallQualityFeedback]** Diese Tabelle enthält Polling-Ergebnisse von "Star"-Abstimmungen und Kundenfeedback, falls aktiviert.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Diese Tabelle enthält Polling-Ergebnisse aus "Sterne"-Abstimmungen und Kundenfeedback, falls aktiviert.
 
 Daten aus Tabellen können mithilfe einer **Select \* from [Table.Name]** -Abfrage oder mithilfe von Microsoft SQL Server Management Studio aufgerufen werden.
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Aktualisieren von Token-Definitionen
 
-Die neuesten Skype for Business-Clients melden neue Problemtoken-\> IDs (100), die möglicherweise nicht in Ihrem [Datenbank QoEMetrics werden] vorhanden sind. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Token-Definitionen zu aktualisieren, kann der unter SQL-Befehl mit Microsoft SQL Server Management Studio in der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge im [Datenbank QoEMetrics werden] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
+Die neuesten Skype for Business Clients melden neue Problemtoken-IDs ( \> 100), die möglicherweise nicht in Ihrem [QoeMetrics] vorhanden sind. [ dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Token-Definitionen zu aktualisieren, kann der folgende SQL-Befehl in der Überwachungsdatenbank mit Microsoft SQL Server Management Studio ausgeführt werden. Mit diesem Befehl werden alle Einträge im [QoeMetrics] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

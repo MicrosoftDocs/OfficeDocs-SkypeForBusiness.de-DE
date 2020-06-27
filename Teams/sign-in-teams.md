@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868302"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877816"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
@@ -66,6 +66,10 @@ Bei der Anmeldung sehen Benutzer von Mobilgeräten eine Liste aller Microsoft 36
 1. Wenn der Benutzer aktuell über das ausgewählte Konto bei anderen Office 365- oder Microsoft 365-Apps angemeldet ist, wird er direkt zu Microsoft Teams geleitet. In diesem Fall muss er seine Anmeldeinformationen nicht eingeben.
     
 2. Wenn der Benutzer nirgendwo sonst bei seinem Microsoft 365-Konto angemeldet ist, wird er, abhängig von den Vorgaben der Anmelderichtlinien seiner Organisation, aufgefordert, sich über eine einstufige bzw. mehrstufige Authentifizierung (SFA oder MFA) zu identifizieren.
+
+> [!NOTE]
+> Damit die Anmeldeerfahrung für Benutzer der Beschreibung in diesem Abschnitt entspricht, muss auf ihren Geräten Teams für iOS, Version 2.0.13 (Build 2020061704) oder höher, bzw. Teams für Android, Version 1416/1.0.0.2020061702 oder höher, ausgeführt werden.
+
 
 ### <a name="adding-multiple-accounts-to-teams"></a>Hinzufügen mehrerer Konten zu Microsoft Teams
 

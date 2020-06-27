@@ -1,0 +1,71 @@
+### YamlMime:Hub
+title: Microsoft Teams Chalk Talks
+summary: Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
+brand: teams
+metadata:
+  title: Microsoft Teams Chalk Talks
+  description: Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Diese interaktiven Online-Workshops werden von Fachleuten unterstützt, die Ihnen helfen, Ihre Team Implementierung zu verbessern und zusätzliche Vorteile für Endbenutzer bereitzustellen. Klicken Sie unten auf einen Workshop-Titel, um verfügbare Daten und Uhrzeiten anzuzeigen, und melden Sie sich noch heute an! Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 06/17/2020
+  ms.reviewer: nsuter
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Normal
+  ROBOTS: NOINDEX, NOFOLLOW
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902347"
+productDirectory:
+  items:
+  - title: Abrufen von Teams – NULL zur Produktion
+    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+    summary: Demnächst! Starten Sie Ihre Teams-Implementierung für Zusammenarbeit, Chat und Besprechungen. Wir geben wichtige Konfigurationen, Überlegungen, bewährte Methoden und Ressourcen frei, damit Ihre Benutzer schnell in Betrieb gehen können.
+    url: http://aka.ms/ChalkTalkGTT
+  - title: Also... Sie möchten mit Teams Anrufe tätigen?
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: Sehen Sie sich an, wie Sie Ihrer Teams-Bereitstellung PSTN-Anruffunktionen hinzufügen können. Gemeinsam werden wir die Terminologie für Anrufe, Schlüsselkonzepte und Konfigurationen durchgehen.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
+  - title: Übernehmen der Audio-und Videoqualität in Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: Möchten Sie sicherstellen, dass die Benutzer optimale Erfahrungen mit Besprechungen und Sprachfunktionen haben? Wir besprechen Tools, Berichte und bewährte Methoden, die Ihnen bei der Verwaltung der Dienstqualität helfen – vom Einrichten einer proaktiven Strategie zur Lösung häufig auftretender Probleme.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+  - title: Mehr Möglichkeiten mit apps in Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
+    summary: Diese grundlegende Sitzung umfasst grundlegende Funktionen wie App-Verwaltung und-Sicherheit. Erfahren Sie, wie Sie Ihre Workflows, Produktivitäts-apps und die Dienste, die Sie tagtäglich nutzen, in einer einheitlichen, einheitlichen Umgebung integrieren.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
+  - title: Automatisieren von IT-Workflows mit Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
+    summary: Demnächst! Automatisieren Sie Ihre IT-Prozesse mithilfe von in Teams verfügbaren apps. Wir behandeln häufige Szenarien wie Helpdesk und Wissensaustausch, damit Ihr Team Zeit spart und sich auf das Wesentliche konzentrieren kann.
+    url: https://aka.ms/ChalkTalkAutoIT
+  - title: Aktivieren von Teams für das Engagement von Mitarbeitern in erster Arbeit
+    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
+    summary: Sind Sie bereit, digitale Arbeitsbereiche für Ihre First-Workforce-Mitarbeiter zu aktivieren? Gemeinsam diskutieren wir bewährte Methoden für das Starten eines Pilotprojekts zur Verbesserung der Kommunikation, des Mitarbeiterengagements und der betrieblichen Produktivität.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+additionalContent:
+  sections:
+  - items:
+    - title: Verwenden Sie noch Skype for Business?
+      summary: Schauen Sie sich unsere Upgrade-Workshop-Serie an.
+      url: upgrade-workshops-landing-page.yml
+    - title: Vorbereiten der Benutzer
+      summary: Sorgen Sie dafür, dass Ihre Benutzer mit Teams Live-Schulungen in Betrieb sind.
+      url: https://aka.ms/TeamsLiveTraining
+    - title: Neu bei Microsoft Teams?
+      summary: Weitere Informationen zu den ersten Schritten mit Microsoft Teams.
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
