@@ -217,6 +217,7 @@
 ## Liveereignisse
 ### [Was sind Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md)
 ### [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md)
+### [Funktionen für Referenten, Produzenten und Teilnehmer in einem Liveereignis](roles-in-live-events.md)
 ### [Einrichten von Teams-Liveereignissen](teams-live-events/set-up-for-teams-live-events.md)
 ### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Konfigurieren der Teams-Einstellungen für Liveereignisse](teams-live-events/configure-teams-live-events.md)
@@ -508,31 +509,31 @@
 
 ## Planen der Upgrade-Strategie
 
-### [Übersicht über die Upgrade-Planung](upgrade-plan-journey.md)
-### [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
-### [Definieren des Projektumfangs](upgrade-define-project-scope.md)
-### [Grundlegendes zu Koexistenz und Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Besprechungen zuerst](meetings-first.md)
+### Planen des Projekts und der Anforderungen 
+#### [Übersicht](upgrade-plan-journey.md)
+#### [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
+#### [Definieren des Projektumfangs](upgrade-define-project-scope.md)
+#### [Grundlegendes zu Koexistenz und Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [Planen eines Benutzerpilotprojekts](pilot-essentials.md)
 
-## Vorbereiten der Umgebung für Teams
-### [Übersicht über die technische Bereitschaft](upgrade-prepare-environment.md)
-### [Vorbereiten der IT-Mitarbeiter auf Teams](upgrade-prepare-IT-pros.md)
-### [Voraussetzungen](upgrade-plan-journey-prerequisites.md)
-### [Bewerten der Umgebung](upgrade-plan-journey-evaluate-environment.md)
-### [Vorbereiten des Diensts](upgrade-prepare-environment-prepare-service.md)
 
-## Vorbereiten Ihrer Organisation auf Teams
-### [Übersicht über die organisatorische Bereitschaft](upgrade-prepare-organization.md)
-### [Bewerten der Bereitschaft zu organisationsweiten Änderungen](upgrade-org-change-readiness.md)
-### [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md)
+### Vorbereiten der Umgebung für Teams
+#### [Übersicht über die technische Bereitschaft](upgrade-prepare-environment.md)
+#### [Vorbereiten der IT-Mitarbeiter auf Teams](upgrade-prepare-IT-pros.md)
+#### [Voraussetzungen](upgrade-plan-journey-prerequisites.md)
+#### [Bewerten der Umgebung](upgrade-plan-journey-evaluate-environment.md)
+#### [Vorbereiten des Diensts](upgrade-prepare-environment-prepare-service.md)
+
+### Vorbereiten Ihrer Organisation auf Teams
+#### [Übersicht über die organisatorische Bereitschaft](upgrade-prepare-organization.md)
+#### [Bewerten der Bereitschaft zu organisationsweiten Änderungen](upgrade-org-change-readiness.md)
+#### [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md)
 
 
 ## Implementieren des Upgrades
 ### [Übersicht](upgrade-to-Teams.md)
-### [Durchführen eines Benutzerpilotprojekts](pilot-essentials.md)
 ### [Upgrade von Skype for Business Online auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [Upgrade von Skype for Business (lokal) auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +552,9 @@
 ### [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md)
 ### [Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [Besprechungen zuerst](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,7 +723,7 @@
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 ## [Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter](FAQ-support-remote-workforce.md)
 ## [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
-## [Supportressourcen für Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
@@ -738,7 +742,6 @@
 ### [Planen von Microsoft 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
 ### [Planen der Lebenszyklusverwaltung in Microsoft Teams](plan-teams-lifecycle.md)
 ### [Planen der Governance in Teams](plan-teams-governance.md).
-### [Verwenden des Netzwerktest-Begleiters](use-network-testing-companion.md)
 
 ## Installieren von Teams
 ### [Beziehen von Clients für Teams](get-clients.md)
@@ -803,6 +806,7 @@
 
 ## Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 ### [Übersicht](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [Albanien](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md)
 ### [Algerien](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
 ### [Antigua und Barbuda](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md)
 ### [Argentinien](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
@@ -810,6 +814,7 @@
 ### [Österreich](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
 ### [Bahamas](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md)
 ### [Bahrain](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
+### [Bangladesch](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md)
 ### [Barbados](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md)
 ### [Belarus (Weißrussland)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 ### [Belgien](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
@@ -821,6 +826,7 @@
 ### [Brunei](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 ### [Bulgarien](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
 ### [Kambodscha](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
+### [Kamerun](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md)
 ### [Kanada](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
 ### [Kaimaninseln](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md)
 ### [Chile](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
@@ -846,6 +852,7 @@
 ### [Griechenland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [Grenada](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [Guam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
+### [Guatemala](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md)
 ### [Honduras](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
 ### [Hongkong (SAR)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
 ### [Ungarn](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
@@ -872,6 +879,7 @@
 ### [Niederlande](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [Neuseeland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
 ### [Nigeria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
+### [Nördliche Marianen](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md)
 ### [Norwegen](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
 ### [Pakistan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
 ### [Panama](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
@@ -902,6 +910,8 @@
 ### [Trinidad und Tobago](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
 ### [Tunesien](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
 ### [Türkei](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
+### [Turks- und Caicosinseln](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md)
+### [Uganda](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md)
 ### [Ukraine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 ### [Vereinigte Arabische Emirate (VAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
 ### [Vereinigtes Königreich](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
