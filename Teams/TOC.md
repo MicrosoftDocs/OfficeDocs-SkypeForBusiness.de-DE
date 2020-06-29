@@ -117,6 +117,7 @@
 #### [Übersicht](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams-Nutzungsbericht](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams-Benutzeraktivitätsbericht](teams-analytics-and-reports/user-activity-report.md)
+#### [Teams-App-Nutzungsbericht](teams-analytics-and-reports/app-usage-report.md)
 #### [Teams-Gerätenutzungsbericht](teams-analytics-and-reports/device-usage-report.md)
 #### [Bericht "PSTN-blockierte Benutzer"](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [Bericht „PSTN-Minutenpools“](teams-analytics-and-reports/pstn-minute-pools-report.md)
