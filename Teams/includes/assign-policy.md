@@ -1,0 +1,3 @@
+Sie können Benutzern eine Richtlinie entweder einzeln oder im Maßstab über eine Batch Zuordnung (sofern für den Richtlinientyp unterstützt) oder einer Gruppe, der die Benutzer angehören (sofern für den Richtlinientyp unterstützt), direkt zuweisen. 
+
+Informationen zu den verschiedenen Methoden, wie Sie Benutzern Richtlinien zuweisen können, finden Sie unter [Zuweisen von Richtlinien zu Benutzern in Teams](../assign-policies.md).

@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie den Bericht zur APP-Nutzung von Teams im
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902330"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938204"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams-App-Verwendungsbericht
 
@@ -30,7 +30,7 @@ Der Bericht "Teams-App-Nutzung" im Microsoft Teams Admin Center bietet Informati
 
 ## <a name="view-the-app-usage-report"></a>Anzeigen des Berichts zur APP-Nutzung
 
-1.  Klicken Sie in der linken Navigationsleiste des Admin Centers auf <https://teams.admin.microsoft.com> **Analytics & Berichte** \> **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **apps-Verwendung**aus.
+1.  Klicken Sie in der linken Navigationsleiste des Admin Centers auf <https://admin.teams.microsoft.com> **Analytics & Berichte** \> **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **apps-Verwendung**aus.
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="Screenshot des Menüelements "Verwendungsberichte"":::
 

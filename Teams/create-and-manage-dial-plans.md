@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (PSTN-Wählpläne) verwenden.
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691341"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938234"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -60,13 +60,9 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 2. Wählen Sie den Wählplan aus, indem Sie links neben dem Namen des Wählplans klicken, und klicken Sie dann auf **Bearbeiten**.
 3. Nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Speichern**.
 
-### <a name="add-users-to-a-dial-plan"></a>Hinzufügen von Benutzern zu einem Wählplan
+### <a name="assign-a-dial-plan-to-users"></a>Zuweisen von Wähleinstellungen zu Benutzern
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
-2. Wählen Sie den Benutzer aus, indem Sie auf den Anzeige Namen klicken.
-3. Wählen Sie die Registerkarte **Richtlinien** aus.
-4. Klicken Sie rechts neben zugewiesene Richtlinien auf **Bearbeiten** .
-5. Wählen Sie im Dropdownmenü **Wählplan** den Wählplan aus, den Sie dem Benutzer zuweisen möchten, und klicken Sie dann auf über **nehmen**.
+Sie weisen einen Wählplan auf die gleiche Weise zu, wie Sie Richtlinien zuweisen. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
   

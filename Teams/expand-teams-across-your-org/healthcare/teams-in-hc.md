@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, Telehealth, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905737"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938364"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -109,10 +109,4 @@ Im Zusammenhang mit Secure Messaging können auch andere Mandanten von Organisat
 
 ## <a name="firstline-worker-integration"></a>Integration von First-Worker-Arbeitskräften
 
-Microsoft Teams ist in die First-Worker-Anwendung integriert, mit der Sie die Funktionen von Shift-Mitarbeitern koordinieren können, und vieles mehr.
-
- Lesen Sie die folgenden Artikel:
-
-- [Verschieben Ihrer Microsoft StaffHub-Teams in die Schichten in Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft Teams ist in die First-Worker-Anwendung integriert, mit der Sie die Funktionen von Shift-Mitarbeitern koordinieren können, und vieles mehr. Weitere Informationen finden Sie unter [Verwalten der Schicht-App für Ihre Organisation in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).

@@ -20,49 +20,51 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie mehr über Messagingrichtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: 9e382f5dd23220cc1a97f2549430a75a79e47eb7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: b010f26beeab29b1f7362d3ebee57f092d8a28ec
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756906"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938564"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
 <!--- Add zone marker here--->
 
-Nachrichtenrichtlinien werden genutzt, um zu steuern, welche Chat- und Messagingfunktionen den Benutzern in Microsoft Teams zur Verfügung stehen. Sie können die Standardrichtlinie verwenden, die automatisch erstellt wird, oder eine oder mehrere benutzerdefinierte Nachrichtenrichtlinien für die Benutzer in Ihrer Organisation erstellen. Nachdem Sie eine Richtlinie erstellt haben, können Sie sie einem Benutzer oder einer Benutzergruppe in Ihrer Organisation zuweisen.
+Nachrichtenrichtlinien werden genutzt, um zu steuern, welche Chat- und Messagingfunktionen den Benutzern in Microsoft Teams zur Verfügung stehen. Sie können die Global (org-Wide Standard)-Richtlinie verwenden, die automatisch erstellt wird, oder benutzerdefinierte Messagingrichtlinien erstellen und zuweisen.
 
-Standardmäßig wird eine Richtlinie namens „Global“ (organisationsweiter Standard) erstellt. Allen Benutzern in Ihrer Organisation wird diese Messagingrichtlinie standardmäßig zugewiesen. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und sie den Benutzern zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für Ihre Benutzer zur Verfügung stehen. Sie können sie dann einem oder mehreren Benutzern zuweisen, die diese Einstellungen benötigen.
+Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und zuweisen, um die gewünschten Features zu aktivieren oder zu deaktivieren.
 
-## <a name="change-or-create-a-messaging-policy"></a>Ändern oder Erstellen einer Nachrichtenrichtlinie
+## <a name="create-a-custom-messaging-policy"></a>Erstellen einer benutzerdefinierten Messagingrichtlinie
 
-Sie können die Nachrichtenrichtlinien im Microsoft Teams Admin Center ganz einfach verwalten, https://admin.teams.microsoft.com)indem Sie sich mit Administratoranmeldeinformationen anmelden und im linken Navigationsbereich **Nachrichtenrichtlinien** auswählen. Um die vorhandene Standard-Nachrichtenrichtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweiter Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** aus, geben Sie der neuen Richtlinie einen Namen und wählen Sie dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, wählen Sie **Speichern** aus.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Messaging Richtlinien**.
+2. Klicken Sie auf **Hinzufügen**.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
+4. Wählen Sie die gewünschten Einstellungen aus.
+5. Klicken Sie auf **Speichern**.
 
-Angenommen, Sie möchten sicherstellen, dass gesendete Nachrichten nicht gelöscht oder geändert werden können. Sie erstellen dann eine neue benutzerdefinierte Richtlinie namens „Gesendete Nachrichten aufbewahren“ und deaktivieren die folgenden Einstellungen:
+Angenommen, Sie möchten sicherstellen, dass gesendete Nachrichten nicht gelöscht oder geändert werden können. Erstellen Sie eine neue benutzerdefinierte Richtlinie mit dem Namen "gesendete Nachrichten beibehalten", und deaktivieren Sie die folgenden Einstellungen:
 
 - Besitzer können gesendete Nachrichten löschen
 - Benutzer können gesendete Nachrichten löschen
 - Benutzer können gesendete Nachrichten bearbeiten
 
-Weisen Sie dann die Richtlinie den Benutzern zu.
+Weisen Sie die Richtlinie dann Benutzern zu.
 
-> [!NOTE]
-> Einem Benutzer kann jeweils nur eine Nachrichtenrichtlinie zugewiesen werden.
+## <a name="edit-a-messaging-policy"></a>Bearbeiten einer Messagingrichtlinie
 
-## <a name="assign-a-messaging-policy-to-a-user"></a>Einem Benutzer eine Nachrichtenrichtlinie zuweisen
+Sie können die globale Richtlinie und alle von Ihnen erstellten benutzerdefinierten Richtlinien bearbeiten. 
 
-Wenn Sie eine benutzerdefinierte Nachrichtenrichtlinie erstellen, ist Sie nur für einen Benutzer aktiv, wenn sie ihm zugewiesen wurde. Wenn Sie einem Benutzer eine benutzerdefinierte Richtlinie zuweisen möchten, wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Benutzer** aus, und wählen Sie den Benutzer, dem Sie die Richtlinie zuweisen möchten. Wählen Sie auf der Seite des Benutzers neben **Zugewiesene Richtlinien** auf **Bearbeiten**. Wählen Sie nun im Bereich **Benutzerrichtlinien bearbeiten** unter **Nachrichtenrichtlinie** die Nachrichtenrichtlinie aus der Dropdownliste aus und klicken Sie dann auf **Speichern**. Sie können die Einstellungen auch in der Benutzerliste bearbeiten. Wählen Sie dazu den Benutzer aus, indem Sie links neben dem Anzeigenamen des Benutzers klicken. Wählen Sie **Einstellungen bearbeiten**. Wählen Sie nun im Bereich **Einstellungen bearbeiten** unter **Nachrichtenrichtlinie** die Nachrichtenrichtlinie aus der Dropdownliste aus und klicken Sie dann auf **Speichern**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Messaging Richtlinien**.
+2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
+3. Nehmen Sie hier die gewünschten Änderungen vor.
+4. Klicken Sie auf **Speichern**.
 
-Wenn Sie eine Richtlinie auf mehrere Benutzer anwenden möchten, wählen die einzelnen Benutzer aus, indem Sie links neben dem Benutzernamen klicken und dann **Einstellungen bearbeiten** wählen. Wählen Sie nun im Bereich **Einstellungen bearbeiten** unter **Nachrichtenrichtlinie** die Nachrichtenrichtlinie aus der Dropdownliste aus und klicken Sie dann auf **Speichern**.
+## <a name="assign-a-custom-messaging-policy-to-users"></a>Zuweisen einer benutzerdefinierten Messagingrichtlinie zu Benutzern
 
-Sie können einem oder mehreren Benutzern eine Nachrichtenrichtlinie auch folgendermaßen zuweisen:
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-1. Wechseln Sie zu **Microsoft Teams Admin Center** > **Nachrichtenrichtlinien**.
-2. Wählen Sie die Richtlinie aus, indem Sie links neben ihren Namen klicken.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder Benutzernamens nach dem Benutzer, wählen Sie den Namen aus und klicken Sie auf **Hinzufügen**.  Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
-5. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+Einem Benutzer kann jeweils nur eine Nachrichtenrichtlinie zugewiesen werden.
 
 > [!NOTE]
 > Sie können eine Richtlinie nicht löschen, solange Sie Benutzern zugewiesen ist. Sie müssen allen betroffenen Benutzern erst eine andere Richtlinie zuweisen, bevor Sie die ursprüngliche Richtlinie löschen können.
@@ -71,7 +73,7 @@ Sie können einem oder mehreren Benutzern eine Nachrichtenrichtlinie auch folgen
 
 ## <a name="messaging-policy-settings"></a>Nachrichtenrichtlinie – Einstellungen
 
-Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie zu ändern oder eine neue benutzerdefinierte Richtlinie zu erstellen:
+Nachfolgend sind die Messagingrichtlinien Einstellungen aufgeführt, die Sie konfigurieren können.
 
 - **Besitzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Besitzer Nachrichten löschen können, die von Benutzern im Chat gesendet wurden.
 - **Benutzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten löschen können, die sie im Chat gesendet haben.
@@ -109,4 +111,4 @@ Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie 
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-- [Besprechungsrichtlinien in Microsoft Teams](meeting-policies-in-teams.md)
+- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)

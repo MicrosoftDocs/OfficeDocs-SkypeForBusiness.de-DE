@@ -1,14 +1,14 @@
 ---
-title: Microsoft StaffHub soll eingestellt werden
+title: Microsoft StaffHub wurde eingestellt
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Hier finden Sie Antworten auf häufig gestellte Fragen zum Ruhestand von Microsoft StaffHub und zum Wechseln zur Schicht-app in Microsoft Teams.
+description: Hier finden Sie Antworten auf häufig gestellte Fragen zum Ruhestand von Microsoft StaffHub und zum Umstieg auf die Schicht-app in Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868662"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938314"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub soll eingestellt werden
+# <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub wurde eingestellt
 
-Gültig 30. Juni 2020, Microsoft StaffHub wird eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen.
+Gültig 30. Juni 2020, Microsoft StaffHub wurde eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen.
 
 Diese Änderungen sind Teil unserer kontinuierlichen Bemühungen, jeden Mitarbeiter mit Microsoft 365 zu befähigen. Mit den Funktionen für First-work-Mitarbeiter in Teams können alle Mitarbeiter in Ihrer Organisation mithilfe von Teams ihre Arbeitstage straffen, mit Kollegen zusammenarbeiten und auf Informationen und Fachkenntnisse zugreifen, um Ihnen zu helfen, optimale Arbeit zu leisten.
 
@@ -37,27 +37,27 @@ Diese Änderungen sind Teil unserer kontinuierlichen Bemühungen, jeden Mitarbei
 
 #### <a name="when-will-staffhub-be-retired"></a>Wann wird StaffHub eingestellt?
 
-Ab Mitte April 2019 steht Microsoft StaffHub für neue Mandanten nicht mehr zur Verfügung, und Sie können nicht mehr über das Microsoft 365-oder Office 365-App-Startfeld in vorhandenen Mandanten auf die App zugreifen. Aktuelle Nutzer können den Service weiterhin bis zum 31. Dezember 2019, jedoch werden keine weiteren Funktionen zur Verfügung gestellt.
+Microsoft StaffHub wurde eingestellt, effektiv 30. Juni 2020.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>Was passiert, wenn StaffHub eingestellt wird?
 
-Microsoft StaffHub wird am 30. Juni 2020 nicht mehr für alle Benutzer funktionieren. Jeder, der versucht, die APP zu öffnen, wird eine Meldung angezeigt, in der Sie an die Download Teams weitergeleitet werden. Wenn der Benutzer über eine aktive Lizenz verfügt, die Teams enthält, und die Organisation die erforderlichen Schritte zum Aktivieren von Teams durchgeführt hat, stehen Ihnen Ihre Daten und Kernfunktionen von StaffHub nach dem Wechsel zu Teams zur Verfügung.
-
-Zwischen April 2019 und Juni 2020 erhalten StaffHub-Benutzer in-App-Benachrichtigungen, die Sie ermutigen, Teams zu verwenden.
+StaffHub funktionierte am 30. Juni 2020 nicht mehr für alle Benutzer. Jede Person, die versucht, die APP zu öffnen, wird eine Meldung angezeigt, in der Sie zum Herunterladen von Teams weitergeleitet werden.
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Bietet Teams alle Funktionen, die derzeit in StaffHub angeboten werden?
 
 Im Januar 2019 begannen Teams, Schichten anzubieten, die zuvor in Microsoft StaffHub zur Verfügung standen. Dieses Feature ermöglicht es Managern, Schichtpläne zu planen und zu verteilen, und Teammitglieder haben die Möglichkeit, Ihren Terminplan zu überprüfen und Änderungsanforderungen auf Ihren mobilen Geräten zu ändern. Weitere Informationen finden Sie unter [Verwalten der Schichten-App für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
-Wir sind bemüht, eine hervorragende Benutzererfahrung bereitzustellen und die einzigartigen Funktionen von StaffHub für Teams zu nutzen. Weitere Informationen darüber, welche Features in Teams zur Verfügung gestellt werden, finden Sie unter [First-Worker-Features](firstline-worker-features-coming-to-teams.md), die in Kürze in Teams verfügbar sind.
-
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>Was muss ich tun, um mich auf diese Änderung vorzubereiten?
-
-Wenn Sie wissen möchten, wie Sie den Übergang von StaffHub zu Schichten in Teams vorbereiten können, gehen Sie zu vorbereiten, um [Ihre StaffHub-Teams in Schichten zu verschieben](move-staffhub-teams-to-shifts-in-teams.md#prepare).
+Wir sind bemüht, eine hervorragende Benutzererfahrung bereitzustellen und die einzigartigen Funktionen von StaffHub für Teams zu nutzen.
 
 #### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>Warum können Benutzer in meiner Organisation nicht von Schichten in Teams auf Ihr StaffHub-Team zugreifen?
 
-Teams, die mit StaffHub erstellt wurden, können nur in StaffHub angezeigt und verwaltet werden. Nachdem ein StaffHub-Team in Teams verschoben wurde, können die Benutzer ihre Zeitpläne in Schichten anzeigen. Wir empfehlen Ihnen, diese Änderung frühzeitig zu kommunizieren und vorhandene Benutzer mit Teams vertraut zu machen.
+Um von Schichten in Teams aus auf ein StaffHub-Team zuzugreifen, mussten Sie das StaffHub-Team vor dem 30. Juni 2020, dem Zeitpunkt, zu dem StaffHub im Ruhestand war, in Teams verschieben.
+
+#### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>Was passiert, wenn ich ein StaffHub-Team nicht in Teams verschoben habe?
+
+Teams, die mit StaffHub erstellt wurden und nicht in Teams verschoben wurden, können nicht mehr angezeigt oder verschoben werden, wenn StaffHub im Ruhestand war, 30. Juni 2020. Sie können jedoch jederzeit mit der Verwendung von Teams beginnen und einen Schicht Zeitplan in der APP Schichten erstellen.
+
+Wenn Sie ein StaffHub-Team mit einer Office 365-Gruppe verbunden haben, die Sie nicht in Teams verschoben haben, und Sie nun einen Zeitplan für Teams-Schichten erstellen möchten, der dieser Office 365-Gruppe zugeordnet ist, wenden Sie sich an den Support.
 
 ### <a name="about-shifts"></a>Informationen zu Schichten
 
@@ -109,15 +109,9 @@ Informationen zur Administratoranleitung finden Sie unter [Verwalten der Schicht
 
 Hilfe für Endbenutzer finden Sie unter [Hilfe zu Schichten für First-work-Mitarbeiter](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
-### <a name="switch-from-staffhub-to-shifts-in-teams"></a>Wechseln von StaffHub zu Schichten in Teams
-
 #### <a name="what-licenses-do-i-need-for-teams"></a>Welche Lizenzen benötige ich für Teams?
 
-Jeder Benutzer muss über eine aktive Microsoft 365-oder Office 365-Lizenz für einen [berechtigten Plan](#which-plans-is-shifts-available-in) verfügen und muss eine Teams-Lizenz zugewiesen werden. Weitere Informationen finden Sie unter [Verschieben von StaffHub-Teams auf Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
-
-#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>Wie verschiebe ich die StaffHub-Teams meiner Organisation in Teams?
-
-Detaillierte Anleitungen zum Umstieg von StaffHub in Teams finden Sie unter [Verschieben der Microsoft StaffHub-Teams in die Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+Jeder Benutzer muss über eine aktive Microsoft 365-oder Office 365-Lizenz für einen berechtigten Plan verfügen und muss eine Teams-Lizenz zugewiesen werden. 
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>Wie aktiviere ich Teams in meiner Organisation?
 
@@ -130,40 +124,6 @@ Teams unterstützt die Koexistenz mit Skype for Business. Weitere Informationen 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>Benötigt jeder Benutzer ein Microsoft 365-oder Office 365-Konto oder ein Azure Active Directory-Konto (Azure AD)?
 
 Ja, jeder Manager und jedes Teammitglied, das Teams und Schichten innerhalb von Teams verwendet, muss über ein Microsoft 365-oder Office 365-Konto (Azure AD) verfügen, dem eine gültige Lizenz zugewiesen werden muss.
- 
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>In StaffHub kann ich allen Microsoft 365-Gruppen, die von StaffHub Teams erstellt wurden, ein spezielles Präfix hinzufügen. Kann ich dasselbe in Teams tun?
-
-Sie haben nicht die gleiche Funktion, wenn Sie von StaffHub zu Teams wechseln. Wenn Sie eine namens Konsistenz auf alle Microsoft 365-Gruppen anwenden müssen, können Sie die [gruppenbenennungsrichtlinie](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)verwenden.
-
-#### <a name="will-team-names-be-the-same-in-teams"></a>Werden Teamnamen in Teams identisch sein?
-
-Es ist möglich, dass der Name eines Teams anders ist. Team Namen in Teams verwenden den Microsoft 365-Gruppennamen. Wenn sich der Name des StaffHub-Teams vom Namen der entsprechenden Microsoft 365-Gruppe unterscheidet, wird beim Umstieg auf Teams ein anderer Name angezeigt.
-
-#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>Was passiert mit der Teammitgliedschaft, wenn ein StaffHub-Team in Teams verschoben wird?
-
-Die Teammitgliedschaft wird beibehalten, wenn ein StaffHub-Team in Teams verschoben wird. Telefonnummern von Teammitgliedern werden nicht in Schichten angezeigt. Wenn die StaffHub-Telefonnummer mit der Telefonnummer in Azure AD übereinstimmt, wird Sie in Azure AD für dieses Benutzerkonto gespeichert. 
-
-Wir empfehlen Ihnen, Ihre vorhandenen Team Arbeitspläne auf StaffHub zu überprüfen und die Telefonnummern nach Möglichkeit an relevante Azure AD-Identitäten auszurichten.
- 
-#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>Was geschieht mit StaffHub-Teammitgliedern, die nicht bereitgestellt werden oder deren Status inaktiv ist?
-
-Der Zeitplan des Benutzers wird in Schichten verschoben, aber der Benutzer ist nicht Mitglied des Teams oder einer Microsoft 365-Gruppe.
-
-Bei inaktiven Konten, die nicht mit einem Azure AD-Benutzerkonto verknüpft sind, kann ein Manager sicherstellen, dass der Benutzer als Mitglied des Teams hinzugefügt wird, indem eine gültige Microsoft 365-oder Office 365-e-Mail-Adresse auf der StaffHub-Teammitglieder Seite hinzugefügt wird, damit der Benutzer mit dem korrekten Azure AD-Konto in seiner Organisation verknüpft ist
-
-Eine weitere Möglichkeit besteht darin, dass Administratoren die Cmdlets **Add-StaffHubMember** und **Remove-StaffHubUser** ausführen, um ein nicht bereitgestelltes Konto aus einem StaffHub-Team zu entfernen und den Benutzer mit dem UPN wieder dem Team hinzuzufügen.
-
-Wir empfehlen, dass Sie sicherstellen, dass alle Benutzer in Ihrer Organisation mit einer geeigneten Lizenz abgedeckt sind, um Unterbrechungen und den Zugriff auf Dienste zu minimieren.
- 
-#### <a name="what-happens-to-chats-in-staffhub"></a>Was passiert mit Chats in StaffHub?
-
-Um Transition-Benutzer zu unterstützen, planen wir das Migrieren des Daten-Chat-Verlaufs in StaffHub in Teams. Die Anzahl der Chat-Protokolle, die in Teams verfügbar sein werden, hängt davon ab, wie schnell Sie Ihre Organisation für den Übergang konfigurieren. Wir empfehlen, die Aktion spätestens am 30. Juni 2019 zu ergreifen, um genügend Zeit für den Übergang von 90 Daten Tagen bis zum 30. Juni 2020 zu bieten.
-
-Stellen Sie sicher, dass die Microsoft 365-Gruppenerstellung im Microsoft 365 Admin Center aktiviert ist, bevor der Übergang beginnt, da dies für uns wichtig ist, ihre StaffHub-Chat-Daten in Teams zu verschieben. Wenn Sie diesen Dienst nicht bis zum 30. Juni 2019 aktivieren, werden spätere Migrationsdaten oder geringere Chatdaten kopiert.
-
-#### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>Was geschieht mit Dateien, die in StaffHub hochgeladen wurden?
-
-Sie können die Dateien, die ihre Teams benötigen, aus StaffHub in Teams verschieben. Die Dateien, die Sie verschieben, werden im Ordner "Allgemein" der Teamwebsite in SharePoint Online gespeichert. In Teams können Benutzer auf die Dateien über die Registerkarte " **Dateien** " im allgemeinen Kanal des Teams zugreifen. Weitere Informationen finden Sie unter [Verschieben Ihrer Microsoft StaffHub-Teams auf Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>Kann ich Schichtpläne aus Schichten exportieren?
   
@@ -182,10 +142,6 @@ Weitere Informationen finden Sie unter [Interaktion zwischen SharePoint Online u
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Gibt es eine Integration zwischen Schichten und dem Outlook-Kalender? Kann ich einen Terminplan in einen Kalender exportieren?
  
 First-work-Mitarbeiter können Ihren gesamten Arbeitsplan auf einen Blick in Schichten sehen. Wir unterstützen die systemeigene Integration in Outlook-Kalender als Teil unserer Roadmap. In der Zwischenzeit können Sie Microsoft Flow verwenden, um die Integration in die Schichten von Teams und Outlook sowie in Google Calendars einzurichten.
-
-#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>Muss ich Benutzer für die Verwendung von Schichten Schulen, wenn Sie bereits mit StaffHub vertraut sind?
-
-Es ist keine zusätzliche Schulung erforderlich. Sie können Schichten auf ähnliche Weise verwenden, wie Sie StaffHub verwendet haben. 
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Welche Administrator Steuerelemente stehen zur Verfügung, um zu verwalten, ob Benutzer in meiner Organisation Schichten verwenden können?  
   
@@ -198,10 +154,6 @@ Weitere Informationen finden Sie unter [Verwalten der Schichten-App für Ihre Or
 Sie können Teams über das PowerShell-Modul von Microsoft Teams und das Skype for Business PowerShell-Modul verwalten. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell](../../teams-powershell-overview.md). Derzeit gibt es keine bestimmten PowerShell-Cmdlets, die zum Verwalten von Schichten zur Verfügung stehen.  
 
 Wenn Sie daran interessiert sind, senden Sie uns eine Anfrage über das Feedback- [Portal für Teams auf UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
-
-#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>Was geschieht mit der StaffHub-API, die sich derzeit in der privaten Vorschau befindet?
-
-Wenn Sie Integrationen mit den StaffHub-APIs erstellt haben, werden diese APIs als veraltet markiert. Wir haben Microsoft Graph-APIs veröffentlicht, um Integrationen in Ihre Personal-, Gehalts-und Personalmanagementlösungen zu unterstützen. Weitere Informationen finden Sie unter [Verwenden der Microsoft Graph-API zum Arbeiten mit Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Ist die Berichterstellung verfügbar, um die Verwendung von Schichten in meiner Organisation anzuzeigen?
 

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Der Administrator kann erfahren, wie Sie in einer Microsoft Teams-Besprechung ein-und Ausstiegs Ankündigungen aktivieren oder deaktivieren.
-ms.openlocfilehash: 824949ea1c212f514830dfad3926444944ac099c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ae2e8936b3fe0dbac0ba0d6ad7bfad3ab2e322ef
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690981"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938554"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams
 
@@ -43,7 +43,7 @@ Die Konferenzbrücke nimmt einen Anruf eines Benutzers an, der sich über ein Te
 
 Sie müssen ein Administrator sein, um diese Änderungen vornehmen zu können.
 
-1. Melden Sie sich beim Admin Center an  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Melden Sie sich beim Admin Center an  <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a> .
 
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
@@ -54,7 +54,7 @@ Sie müssen ein Administrator sein, um diese Änderungen vornehmen zu können.
 5. Unter **Einstieg/Ausstieg-Ansagetyp** wählen Sie **Namen oder Telefonnummern** oder **Töne**.
 
    > [!NOTE]
-   > Standardmäßig können externe Teilnehmer die Telefonnummern von Einwahl Teilnehmern nicht sehen. Wenn Sie den Datenschutz dieser Telefonnummern beibehalten möchten, wählen Sie **Töne** für die **Eingabe/Exit-Ansage** aus (Dies verhindert, dass die Nummern von Teams ausgelesen werden).
+   > Standardmäßig können externe Teilnehmer die Telefonnummern von Einwahl Teilnehmern nicht sehen. Wenn Sie die Vertraulichkeit dieser Telefonnummern wahren wollen, wählen Sie **Töne** für **Typ der Ankündigungen von Ein-/Ausgängen** aus (dies verhindert, dass die Nummern von Teams ausgelesen werden).
     
 6. Wenn Sie **Namen oder Telefonnummern** ausgewählt haben, aktivieren oder deaktivieren Sie **Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen**.
     

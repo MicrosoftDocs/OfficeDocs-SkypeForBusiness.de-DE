@@ -19,17 +19,19 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a67952854f608512e88786c2b49d1e2ad8dfcf9
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 030be626574e7acd3aa2116595acaba757eaa5af
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44592952"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44942026"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Anrufrichtlinien in Microsoft Teams
 ===================================
 
-In Microsoft Teams Steuern Anruf Richtlinien, welche Anruf-und Anrufweiterleitungsfunktionen Benutzern zur Verfügung stehen. Anruf Richtlinien legen fest, ob ein Benutzer private Anrufe tätigen, Anrufweiterleitung oder gleichzeitiges Klingeln an andere Benutzer oder externe Telefonnummern durchführen, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, die Delegation für ein-und ausgehende Anrufe verwenden usw. Eine globale Standardrichtlinie wird automatisch erstellt, aber Administratoren können auch benutzerdefinierte Anruf Richtlinien erstellen und zuweisen.
+In Microsoft Teams Steuern Anruf Richtlinien, welche Anruf-und Anrufweiterleitungsfunktionen Benutzern zur Verfügung stehen. Anruf Richtlinien legen fest, ob ein Benutzer private Anrufe tätigen, Anrufweiterleitung oder gleichzeitiges Klingeln an andere Benutzer oder externe Telefonnummern durchführen, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, die Delegation für ein-und ausgehende Anrufe verwenden usw.
+
+Sie können die Global (org-Wide Standard)-Richtlinie verwenden, die automatisch erstellt wird, oder benutzerdefinierte Richtlinien erstellen und zuweisen.
 
 ## <a name="create-a-custom-calling-policy"></a>Erstellen einer benutzerdefinierten Anrufrichtlinie
 
@@ -41,9 +43,9 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Anrufrichtlin
 4. Wenn Sie steuern möchten, ob Benutzer eingehende Anrufe an Voicemail weiterleiten können, wählen Sie **aktiviert** oder **Benutzer gesteuert**aus. Wenn Sie die Weiterleitung an Voicemail verhindern möchten, wählen Sie **deaktiviert**aus.
 5. Wählen Sie **Speichern**aus.
 
-## <a name="modify-an-existing-calling-policy"></a>Ändern einer vorhandenen Anrufrichtlinie
+## <a name="edit-a-calling-policy"></a>Bearbeiten einer Anrufrichtlinie
 
-Führen Sie die folgenden Schritte aus, um eine vorhandene Anrufrichtlinie zu ändern.
+Führen Sie die folgenden Schritte aus, um eine vorhandene Anrufrichtlinie zu bearbeiten.
 
 1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams admin Centers die Option **VoIP**-  >  **Anruf Richtlinien**aus.
 2. Klicken Sie neben der Richtlinie, die Sie ändern möchten, auf, und wählen Sie dann **Bearbeiten**aus.
@@ -51,25 +53,7 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Anrufrichtlinie zu ä
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>Zuweisen einer benutzerdefinierten Anrufrichtlinie zu Benutzern
 
-So weisen Sie einem Benutzer eine Richtlinie zu:
-
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
-2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
-3. Wählen Sie unter **Anrufrichtlinie**die Anrufrichtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
-
-So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
-
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
-2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.  
-
-Sie können auch die folgenden Schritte ausführen:
-
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Anruf Richtlinien**.
-2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
-5. Nachdem Sie das Hinzufügen von Benutzern abgeschlossen haben, wählen Sie **Speichern**aus.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="calling-policy-settings"></a>Einstellungen für Anruf Richtlinien
 
@@ -91,8 +75,8 @@ Diese Einstellung steuert, ob eingehende Anrufe an eine externe Rufnummer weiter
 
 Mit dieser Einstellung können eingehende Anrufe an Voicemail gesendet werden. Gültige Optionen sind:
 
-- **Aktiviert** Voicemail steht für eingehende Anrufe immer zur Verfügung. 
-- **Deaktiviert**  Voicemail steht für eingehende Anrufe nicht zur Verfügung. 
+- **Aktiviert** Voicemail steht für eingehende Anrufe immer zur Verfügung.
+- **Deaktiviert**  Voicemail steht für eingehende Anrufe nicht zur Verfügung.
 - **Benutzer gesteuert** Benutzer können feststellen, ob Voicemail verfügbar sein soll.
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Eingehende Anrufe können an Anrufgruppen weitergeleitet werden 
@@ -123,6 +107,8 @@ Mit dieser Einstellung können Benutzer PSTN-Nummern über den Microsoft Teams-W
 
 Mit dieser Einstellung können Sie die Musik im Wartebereich aktivieren oder deaktivieren, wenn ein PSTN-Anrufer in Wartestellung gesetzt wird. Sie ist standardmäßig aktiviert. Diese Einstellung gilt nicht für die Features von Park-und Boss-Stellvertretungen und steht derzeit nur über PowerShell zur Verfügung.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
 [Satz-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+
+[Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)

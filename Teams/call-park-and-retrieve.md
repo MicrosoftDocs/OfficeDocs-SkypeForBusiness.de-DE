@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie den Anruf Park verwenden und abrufen, um einen Anruf im Teams-Dienst in der Cloud zu halten.
-ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042962"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938534"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -52,11 +52,11 @@ Anruf parken und Abrufen wird derzeit von den folgenden Clients und Geräten unt
 
 | Funktion | Teams-Desktop | Mac-app für Teams | Teams Web App (Edge) |Teams Mobile IOS/Android-App | IP-Telefon für Teams | Skype for Business-IP-Telefon |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Parken eines Anrufs | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
-| Abrufen eines geparkten Anrufs | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
-| Nicht abgerufener Anruf Ring zurück | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
+| Parken eines Anrufs | Ja  | Ja  | Ja  | Ja  | Ja | Nein |
+| Abrufen eines geparkten Anrufs | Ja  | Ja  | Ja  | Ja  | Ja | Nein |
+| Nicht abgerufener Anruf Ring zurück | Ja  | Ja  | Ja  | Ja  | Ja | Nein |
 
-## <a name="configuring-call-park-and-retrieve"></a>Konfigurieren des Anruf Parks und Abrufen
+## <a name="configure-call-park-and-retrieve"></a>Konfigurieren des Anruf Parks und Abrufen
 
 Sie müssen ein Administrator sein, um den Anruf Park zu konfigurieren und abzurufen, und das Feature ist standardmäßig deaktiviert. Sie können es für Benutzer aktivieren und Benutzergruppen mithilfe der Anruf Park Richtlinie erstellen. Wenn Sie die gleiche Richtlinie auf eine Reihe von Benutzern anwenden, können Sie Anrufe unter sich selbst Parken und abrufen. Zum Konfigurieren des Anruf Parks für Benutzer und zum Erstellen von Benutzergruppen für den Anruf Park befolgen Sie die nachstehenden Schritte zum [Zuweisen einer Anruf Park Richtlinie](#assign-a-call-park-policy) .
 
@@ -64,33 +64,35 @@ Informationen zum Verwenden der Funktion "Parken und abrufen" finden Sie unter [
 
 ### <a name="enable-a-call-park-policy"></a>Aktivieren einer Anruf Park Richtlinie
 
-Führen Sie die folgenden Schritte aus, um eine Anruf Park Richtlinie zu aktivieren:
-
-1. Wechseln Sie zu den Richtlinien für**VoIP** > -**Anruf Park des** **Microsoft Teams Admin Center** > .
-2. Wählen Sie **neue Richtlinie**aus.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den Richtlinien für den **VoIP**-  >  **Anruf Park**.
+2. Wählen Sie **Hinzufügen**aus.
 3. Geben Sie der Richtlinie einen Namen, und wählen Sie dann "Parken **von** **anrufen zulassen** " auf ein.
 4. Wählen Sie **Speichern**aus.
 
+#### <a name="using-powershell"></a>Verwendung von PowerShell
+
+Weitere Informationen finden Sie unter [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps).
+
+### <a name="edit-a-call-park-policy"></a>Bearbeiten einer Anruf Park Richtlinie
+
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den Richtlinien für den **VoIP**-  >  **Anruf Park**.
+2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
+3. Schalten Sie den **Anruf Park** auf **aus** oder **ein**.
+4. Klicken Sie auf **Speichern**.
+
+#### <a name="using-powershell"></a>Verwendung von PowerShell
+
+Weitere Informationen finden Sie unter [Satz-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps). Wenn Sie beispielsweise die Standardeinstellung ändern möchten, führen Sie die folgenden Aktionen aus:
+
+  ```PowerShell
+  Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
+  ```
+
 ### <a name="assign-a-call-park-policy"></a>Zuweisen einer Anruf Park Richtlinie
 
-Führen Sie die folgenden Schritte aus, um einem oder mehreren Benutzern eine Anruf Park Richtlinie zuzuweisen:
-
-1. Wechseln Sie zu den Richtlinien für**VoIP** > -**Anruf Park des** **Microsoft Teams Admin Center** > .
-2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
-5. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>Konfigurieren des Anruf Parks und Abrufen mit PowerShell
-
-Verwenden Sie das PowerShell [-Cmdlet New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) , um eine Anruf Park Richtlinie zu erstellen.
-
-Verwenden Sie das PowerShell [-Cmdlet Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) , um eine Anruf Park Richtlinie zu erteilen.
-
-Sie können die Standardeinstellung mithilfe von [CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) wie folgt ändern:
-
-`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
-
+Siehe auch [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps).
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
@@ -105,6 +107,8 @@ Wenn ein Benutzer versucht, einen Anruf abzurufen und nicht erfolgreich ist, üb
 - Island-Modus – Parken und Abrufen von anrufen ist im Modus "Teams Island" nicht verfügbar.
 - Der Anruf wurde bereits abgerufen oder beendet.
 
-## <a name="more-information"></a>Weitere Informationen
+## <a name="related-topics"></a>Verwandte Themen
 
-[Parken eines Anrufs in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+[Parken eines Anrufs in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+
+[Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)

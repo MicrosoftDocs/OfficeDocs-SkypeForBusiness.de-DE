@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Informieren Sie sich über das Wählen von gebührenfreien Nummern in Ägypten, einschließlich Verfügbarkeit, Verfügbarkeit von drahtgebundenen/fest Netzanschlüssen und Mobilfunknetz sowie Einschränkungen.
-ms.openlocfilehash: d7302220500a766fb00a6a13ffa0d96b0bbcf184
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140434"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938424"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Einschränkungen für gebührenfreie Telefonnummern in Ägypten
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140434"
 
 |**Details**|**Beschreibung**|
 |:-----|:-----|
-|Sind gebührenfreie Anrufe verfügbar?  <br/> |Ja  <br/> |
+|Sind gebührenfreie Anrufe verfügbar?  <br/> |Nein  <br/> |
 |Wählformate  <br/> |0800-XXX-XXXX  <br/> |
 |ISO-Code des Lands/der Region  <br/> |EG  <br/> |
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |

@@ -2,7 +2,7 @@
 title: Verwalten der Schicht-App für Ihre Organisation
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416885"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938354"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
 > [!IMPORTANT]
-> Gültig 30. Juni 2020, Microsoft StaffHub wird eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wird am 30. Juni 2020 nicht mehr für alle Benutzer funktionieren. Jedem Benutzer, der StaffHub zu öffnen versucht, wird eine Meldung angezeigt, die ihn zum Microsoft Teams-Download leitet. Weitere Informationen finden Sie unter [Microsoft StaffHub wird eingestellt](microsoft-staffhub-to-be-retired.md).  
+> Gültig 30. Juni 2020, Microsoft StaffHub wurde eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub funktionierte am 30. Juni 2020 nicht mehr für alle Benutzer. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, in der Sie zum Herunterladen von Teams geleitet werden. Weitere Informationen finden Sie unter [Microsoft StaffHub wurde eingestellt](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Übersicht über "Schichten"
 
@@ -65,7 +65,7 @@ Wenn Sie die Nutzung von "Schichten" für bestimmte Benutzer in Ihrer Organisati
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden der FirstlineWorker App-Setup-Richtlinie, um "Schichten" in Microsoft Teams anzuheften
 
-Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die in einer Richtlinie festgelegten Apps werden an die App-Leiste geheftet &mdash;das ist die seitliche Leiste bei Microsoft Teams-Desktop-Clients und am unteren Rand bei Microsoft Teams Mobile-Clients&mdash;, von wo die Benutzer schnell und einfach darauf zugreifen können. 
+Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die in einer Richtlinie festgelegten Apps werden an die App-Leiste geheftet &mdash;das ist die seitliche Leiste bei Microsoft Teams-Desktop-Clients und am unteren Rand bei Microsoft Teams Mobile-Clients&mdash;, von wo die Benutzer schnell und einfach darauf zugreifen können.
  
 Microsoft Teams umfasst eine integrierte FirstlineWorker-App-Setup-Richtlinie, die Sie Mitarbeitern in Service und Produktion in Ihrem Unternehmen zuweisen können. Standardmäßig beinhaltet diese Richtlinie die Apps für Aktivität, Schichten, Chat und Anrufe. 
 
@@ -73,50 +73,9 @@ Wenn Sie die FirstlineWorker-Richtlinie anzeigen möchten, wechseln Sie im linke
 
 ![Screenshot der FirstlineWorker-App-Setup-Richtlinie](../../media/firstline-worker-app-setup-policy.png "Screenshot der FirstlineWorker-App-Setup-Richtlinie im Microsoft Teams Admin Center")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>Zuweisen der FirstlineWorker-Richtlinie zu Benutzern
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Zuweisen der FirstlineWorker-App-Setup Richtlinie zu Benutzern
 
-So weisen Sie die FirstlineWorker-App-Setup Richtlinie einem Benutzer zu:
-
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
-2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
-3. Wählen Sie unter **App-Setup Richtlinie**die Option **FirstlineWorker**aus, und klicken Sie dann auf über **nehmen**.
-
-So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
-
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
-2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten**, wählen Sie unter **App-Setup Richtlinie**die Option **FirstlineWorker**aus, und klicken Sie dann auf über **nehmen**.  
-
-Sie können auch die folgenden Schritte ausführen:
-
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
-2. Wählen Sie die FirstlineWorker-Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
-5. Nachdem Sie das Hinzufügen von Benutzern abgeschlossen haben, wählen Sie über **nehmen**aus.
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Die FirstlineWorker App-Setup-Richtlinie Mitgliedern einer Gruppe zuweisen
-
-Sie können die FirstlineWorker-App-Setup-Richtlinie Mitgliedern einer Gruppe wie z. B. einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zur Verwendung von PowerShell zum Verwalten von Teams finden Sie unter [Überblick über PowerShell für Microsoft Teams](../../teams-powershell-overview.md).
-
-In diesem Beispiel wird die FirstlineWorker-App-Setup-Richtlinie allen Mitgliedern der Gruppe "Contoso Firstline-Team" zugewiesen.
-
-> [!NOTE]
-> Stellen Sie sicher, dass Sie zuerst eine Verbindung mit dem Azure Active Directory PowerShell for Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.
-
-Abrufen der GroupObject-ID der jeweiligen Gruppe.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-Abrufen der Mitglieder der gewählten Gruppe.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Die FirstlineWorker App-Setup-Richtlinie allen Mitgliedern der Gruppe zuweisen.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-Je nach Anzahl der Mitglieder einer Gruppe kann das Ausführen dieses Befehls mehrere Minuten dauern.
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Durchsuchen des Überwachungsprotokolls nach Schichten Ereignissen
 

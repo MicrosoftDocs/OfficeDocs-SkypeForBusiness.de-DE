@@ -3,7 +3,6 @@ title: Einrichtung für Liveereignisse in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,12 +17,12 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902280"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938504"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -42,20 +41,18 @@ Stellen Sie sicher, dass Sie die korrekten Lizenzzuweisungen für [ haben, die L
 Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Organisation Liveereignisse abhalten kann und welche Funktionen in den von ihnen erstellten Ereignissen verfügbar sind. Sie können die Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Richtlinien für Liveereignisse erstellen. Nachdem Sie eine benutzerdefinierte Richtlinie erstellt haben, weisen Sie sie einem Benutzer oder Benutzergruppen in Ihrer Organisation zu.
 
 > [!NOTE]
-> Benutzer in Ihrer Organisation erhalten die globale Richtlinie, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Standardmäßig ist in der globalen Richtlinie die Planung von Liveereignissen für Teams-Benutzer aktiviert, Live-Untertitel und Untertitel (Transkription) sind deaktiviert, jeder in der Organisation kann an Liveereignissen teilnehmen, und die Aufzeichnungseinstellung ist so eingestellt, dass immer aufgezeichnet wird.
+> Benutzer in Ihrer Organisation erhalten die globale (org-Wide Standard)-Richtlinie, sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen. Standardmäßig ist in der globalen Richtlinie die Planung von Liveereignissen für Teams-Benutzer aktiviert, Live-Untertitel und Untertitel (Transkription) sind deaktiviert, jeder in der Organisation kann an Liveereignissen teilnehmen, und die Aufzeichnungseinstellung ist so eingestellt, dass immer aufgezeichnet wird.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Erstellen oder Bearbeiten einer Richtlinie für Liveereignisse
 
 <a name="bkcreatepolicy"> </a>
 
-**![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Unter Verwendung des Microsoft Teams Admin Centers**
-
-1. Gehen Sie in der linken Navigation auf **Besprechungen** > **Richtlinien für Liveereignisse**.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den Richtlinien für **Besprechungen**mit  >  **Live Ereignissen**.
 2. Führen Sie einen der folgenden Schritte aus:
 
-- Wenn Sie die vorhandene Standardrichtlinie bearbeiten möchten, wählen Sie **Global (organisationsweiter Standard)** aus.
-- Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **Neue Richtlinie**aus.
-- Wenn Sie eine benutzerdefinierte Richtlinie bearbeiten möchten, markieren Sie die Richtlinie, und wählen Sie dann **Bearbeiten** aus.
+    - Wenn Sie die vorhandene Standardrichtlinie bearbeiten möchten, wählen Sie **Global (organisationsweiter Standard)** aus.
+    - Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **Hinzufügen**aus.
+    - Wenn Sie eine benutzerdefinierte Richtlinie bearbeiten möchten, markieren Sie die Richtlinie, und wählen Sie dann **Bearbeiten** aus.
 
     Hier sind die Einstellungen, die Sie ändern können, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
 
@@ -72,26 +69,9 @@ Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Or
 
 Sie können dies auch mithilfe von Windows PowerShell tun. Weitere Informationen erhalten Sie unter [Verwenden von PowerShell zum Festlegen von Richtlinien für Liveereignisse in Microsoft Teams](set-teams-live-events-policies-using-powershell.md). 
 
-### <a name="assign-a-live-events-policy-to-users"></a>Zuweisen einer Richtlinie für Liveereignisse zu Benutzern 
+### <a name="assign-a-live-events-policy-to-users"></a>Zuweisen einer Richtlinie für Liveereignisse zu Benutzern
 
-Wenn Sie eine benutzerdefinierte Richtlinie für Livereignisse erstellt haben, weisen Sie sie Benutzern zu, damit die Richtlinie aktiv wird. 
-
-![Symbol, das das Microsoft Teams-Logo zeigt](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
-
-1. Gehen Sie im linken Navigationsbereich zu **Benutzer**, und markieren Sie dann den Benutzer.
-2. Wählen Sie neben **Zugewiesene Richtlinien** **Bearbeiten** aus. 
-3. Markieren Sie die Richtlinie für Liveereignisse, die Sie zuweisen möchten, und wählen Sie dann **Speichern** aus. 
-
-Sie können einem oder mehreren Benutzern eine Richtlinie für Liveereignisse auch folgendermaßen zuweisen:
-
-![Symbol, das das Microsoft Teams-Logo zeigt](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
-
-1. Gehen Sie zu **Besprechungen** > **Richtlinien für Liveereignisse**.
-2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
-5. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
- 
+Wenn Sie eine benutzerdefinierte Richtlinie für Livereignisse erstellt haben, weisen Sie sie Benutzern zu, damit die Richtlinie aktiv wird. <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Benutzern die Planung von Ereignissen ermöglichen, die mit einer externen App oder einem externen Gerät erstellt werden
 
@@ -106,6 +86,7 @@ Damit Benutzer Ereignisse planen können, die mit einer externen Anwendung oder 
 3. Vergewissern Sie sich, dass Organisatoren von Liveereignissen der Unternehmensrichtlinie, die vom Stream-Administrator festgelegt wurde, zugestimmt haben. Wenn ein Stream-Administrator [eine Richtlinie für Unternehmensrichtlinien eingerichtet hat](https://docs.microsoft.com/stream/company-policy-and-consent) und die Mitarbeiter diese Richtlinie vor dem Speichern von Inhalten akzeptieren müssen, müssen Benutzer dies tun, bevor Sie in Teams ein Liveereignis (mit einer externen App oder einem externen Gerät) erstellen. Bevor Sie das Liveereignisfeature in der Organisation bereitstellen, stellen Sie sicher, dass Benutzer, die diese Liveereignisse erstellen, der Richtlinie zugestimmt haben. 
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Schritt 4: Einrichten einer Videoverteilungslösung für Liveereignisse in Teams
+
 Bei der Wiedergabe von Liveereignisvideos wird Adaptive Bitrate Streaming (ABR) verwendet, aber es ist ein Unicast-Stream, was bedeutet, dass jeder Zuschauer einen eigenen Videostream aus dem Internet erhält. Bei Liveereignissen oder Videos, die an große Teile Ihrer Organisation gesendet werden, kann von den Zuschauern ein beträchtlicher Anteil der Internetbandbreite verbraucht werden. Bei Organisationen, die diesen Internetdatenverkehr für Liveereignisse reduzieren möchten, werden Lösungen für Liveereignisse mit den vertrauenswürdigen Videobereitstellungspartnern von Microsoft integriert, die softwaredefinierte Netzwerke (SDNs) oder Enterprise Content Delivery Networks (eCDNs) anbieten. Diese SDN-/eCDN-Plattformen ermöglichen Organisationen, die Netzwerkbandbreite zu optimieren, ohne das Videoerlebnis der Endbenutzer zu schmälern. Unsere Partner ermöglichen eine skalierbarere und effizientere Videoverteilung in Ihrem Unternehmensnetzwerk.
 
 **Erwerben und Einrichten Ihrer Lösung außerhalb von Teams** Lassen Sie sich beim Skalieren von Videobereitstellungen durch die vertrauenswürdigen Videobereitstellungspartner von Microsoft helfen. Bevor Sie die Verwendung eines Videobereitstellungsanbieters für Teams aktivieren können, müssen Sie die SDN-/eCDN-Lösung außerhalb und von Teams getrennt erwerben und einrichten.
@@ -124,9 +105,11 @@ Die folgenden SDN-/eCDN-Lösungen sind vorintegriert und können für die Verwen
 Nachdem Sie die SDN- oder eCDN-Lösung eingerichtet haben, können Sie den Anbieter für Liveereignisse in Teams konfigurieren. 
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 Gehen Sie zu [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
+
 - [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
 - [Planen von Teams-Liveereignissen](plan-for-teams-live-events.md)
 - [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)
