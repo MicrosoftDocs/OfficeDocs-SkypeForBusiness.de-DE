@@ -12,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6a10e2fb6d8e17352eb8a96be57b24e706fc5d5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134391"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943928"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Zuweisen einer VoIP-Richtlinie pro Benutzer in lync Server 2013
 
@@ -40,29 +40,29 @@ VoIP-Richtlinien auf globaler und auf Standortebene werden automatisch allen lyn
     
 
     > [!NOTE]  
-    > Durch <STRONG> &lt;die&gt; automatischen</STRONG> Einstellungen werden die Standardeinstellungen für Server oder globale Richtlinien übernommen.
+    > Durch die <STRONG> &lt; automatischen &gt; </STRONG> Einstellungen werden die Standardeinstellungen für Server oder globale Richtlinien übernommen.
 
 
 
-## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer benutzerbasierten VoIP-Richtlinie mithilfe von Windows PowerShell-Cmdlets
+## <a name="assign-per-user-voice-policies"></a>Zuweisen von VoIP-Richtlinien pro Benutzer
 
-Sie können benutzerspezifische VoIP-Richtlinien mithilfe von Windows PowerShell und dem Cmdlet **Grant-CsVoicePolicy** zuweisen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können benutzerspezifische VoIP-Richtlinien mithilfe von Windows PowerShell und dem Cmdlet **Grant-CsVoicePolicy** zuweisen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Informationen zum Verwenden von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie in diesem lync Server Windows PowerShell Blogbeitrag: [schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876).
 
-## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine benutzerspezifische VoIP-Richtlinie zu
+### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>Zuweisen einer benutzerbasierten VoIP-Richtlinie zu einem einzelnen Benutzer
 
   - Der folgende Befehl weist die benutzerbasierte VoIP-Richtlinie "RedmondVoicePolicy" dem Benutzer "Ken Myer" zu.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine benutzerspezifische VoIP-Richtlinie zu
+## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>Zuweisen einer VoIP-Richtlinie für einzelne Benutzer zu mehreren Benutzern
 
   - Der folgende Befehl weist die benutzerbasierte VoIP-Richtlinie "FinanceVoicePolicy" allen Benutzern zu, die Konten in der OU "Finance" in Active Directory haben. Weitere Informationen zu dem in diesem Befehl verwendeten ou-Parameter finden Sie in der Dokumentation zum Cmdlet [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## <a name="to-unassign-a-per-user-voice-policy"></a>So heben Sie die Zuweisung einer VoIP-Richtlinie auf Benutzerbasis auf
+## <a name="unassign-a-per-user-voice-policy"></a>Aufheben der Zuweisung einer VoIP-Richtlinie pro Benutzer
 
-  - Der folgende Befehl hebt die Zuweisung der dem Benutzer "Ken Myer" zuvor zugewiesenen VoIP-Richtlinie auf. Nachdem die Zuweisung der benutzerbasierten Richtlinie aufgehoben ist, wird Ken Myer automatisch über die globale Richtlinie oder, sofern vorhanden, seine lokale Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
+  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

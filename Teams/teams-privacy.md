@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579571"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938494"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Datenschutz und Microsoft Teams
 
@@ -58,7 +58,7 @@ Microsoft gibt keine persönlichen Daten weiter, mit folgenden Ausnahmen:
 1. wie in den Nutzungsbedingungen für Onlinedienste (z.B. bei der Verwendung von autorisierten Subunternehmern zur Bereitstellung bestimmter Bestandteile von Diensten) beschrieben;
 1. wie gesetzlich vorgeschrieben.
 
-Falls Strafverfolgungsbehörden Microsoft mit einer Anforderung kontaktieren, versucht Microsoft, die Strafverfolgungsbehörden so umzuleiten, dass diese die persönlichen Daten direkt beim Kunden anfordern. Falls Microsoft dazu verpflichtet ist, persönliche Daten an Strafverfolgungsbehörden auszuhändigen, wird Microsoft den Kunden unverzüglich darüber informieren und eine Kopie der Forderung aushändigen, es sei denn, dies ist gesetzlich untersagt. Weitere Informationen zu den Daten, die wir als Antwort auf Anfragen von Strafverfolgungsbehörden und anderen Regierungsbehörden offenlegen, finden Sie in unserem Bericht [Law Enforcement Requests Report im Detail](https://www.microsoft.com/about/corporate-responsibility/lerr/).
+Falls Strafverfolgungsbehörden Microsoft mit einer Anforderung kontaktieren, versucht Microsoft, die Strafverfolgungsbehörden so umzuleiten, dass diese die persönlichen Daten direkt beim Kunden anfordern. Falls Microsoft dazu verpflichtet ist, persönliche Daten an Strafverfolgungsbehörden auszuhändigen, wird Microsoft den Kunden unverzüglich darüber informieren und eine Kopie der Forderung aushändigen, es sei denn, dies ist gesetzlich untersagt. Weitere Informationen zu den Daten, die wir als Antwort auf Anfragen von Strafverfolgungsbehörden und anderen Regierungsbehörden offenlegen, finden Sie in unserem Bericht [Law Enforcement Requests Report im Detail](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
 Der [Sicherheitsleitfaden für Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) enthält weitere Informationen zu unseren Compliance-Standards.
 
