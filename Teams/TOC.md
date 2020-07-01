@@ -131,7 +131,6 @@
 ## [Schnellstart: Besprechungen und Live-Ereignisse](quick-start-meetings-live-events.md)
 ## [Planen der Bereitstellung](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
-## [Funktionen für Referenten und Teilnehmer in Microsoft Teams-Besprechungen](roles-in-meetings.md)
 ## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)
 ## [Verwalten von Besprechungseinstellungen](meeting-settings-in-teams.md)
 ## [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
 ## [Buchungen-App und virtuelle Besuche](bookings-app-admin.md)
 ## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub soll eingestellt werden](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Installieren des Microsoft StaffHub PowerShell-Moduls](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Ausführen eines Berichts zum Anzeigen der aktiven StaffHub-Nutzung](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Planen des Verschiebens Ihrer StaffHub-Teams in Shifts in Microsoft Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Verschieben Ihrer Microsoft StaffHub-Teams in Schichten in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Beispiel für die E-Mail-Kommunikation mit Benutzern](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Microsoft StaffHub wurde eingestellt](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Verwalten der Schichten-App für Ihre Organisation in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams für das Gesundheitswesen
