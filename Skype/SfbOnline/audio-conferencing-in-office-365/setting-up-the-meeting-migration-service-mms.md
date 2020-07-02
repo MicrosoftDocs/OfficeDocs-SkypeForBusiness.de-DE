@@ -21,13 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Der Meeting Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt wird und automatisch Skype for Business-und Microsoft Teams-Besprechungen für Benutzer aktualisiert. MMS wurde entwickelt, um zu verhindern, dass Benutzer das Besprechungs Migrations Tool ausführen können, um Ihre Skype for Business-und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 81bd5f1e9304ff3ff6eedb901a50632aa6edd73a
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: Meeting Migration Service (MMS) is a service that runs in the background and automatically updates Skype for Business and Microsoft Teams meetings for users. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: da04e98269f20eca327b30c2bd40f3e5181523d0
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163954"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012181"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden des Besprechungs Migrations Diensts (MMS)
 
@@ -64,7 +64,7 @@ Ab dem Zeitpunkt, zu dem MMS ausgelöst wird, dauert es in der Regel ca. 2 Stund
 
 **Hinweise**:
 
-- MMS ersetzt alles im Informationsblock für die Onlinebesprechung, wenn eine Besprechung migriert wird. Wenn daher ein Benutzer diesen Block bearbeitet hat, werden seine Änderungen überschrieben. Alle Inhalte, die sich in den Besprechungsdetails außerhalb des Informationsblocks der Onlinebesprechung befinden, sind nicht betroffen.
+- MMS ersetzt alles im Informationsblock für die Onlinebesprechung, wenn eine Besprechung migriert wird. Wenn daher ein Benutzer diesen Block bearbeitet hat, werden seine Änderungen überschrieben. Alle Inhalte, die sich in den Besprechungsdetails außerhalb des Informationsblocks der Onlinebesprechung befinden, sind nicht betroffen. Das bedeutet, dass alle Dateien, die an die Besprechungseinladung angefügt sind, weiterhin enthalten sind. 
 - Es werden nur die Skype for Business- oder Microsoft Teams-Besprechungen migriert, die durch Klicken auf die Schaltfläche **Skype-Besprechung hinzufügen** in Outlook im Web oder über das Skype-Besprechungs-Add-In für Outlook geplant wurden. Wenn ein Benutzer die Skype Online-Besprechungsinformationen aus einer Besprechung in eine neue Besprechung kopiert und darin eingefügt hat, wird diese neue Besprechung nicht aktualisiert, da im ursprünglichen Dienst keine Besprechung stattfindet.
 - Besprechungsinhalte, die erstellt oder an die Besprechung angefügt wurden (Whiteboards, Umfragen usw.) werden nach der Ausführung von MMS nicht beibehalten. Wenn Ihre Besprechungsorganisatoren im Voraus Inhalte an Besprechungen angehängt haben, müssen diese Inhalte nach der Ausführung von MMS erneut erstellt werden.
 - Der Link zu freigegebenen Besprechungsnotizen im Kalenderelement und von innerhalb der Skype-Besprechung wird ebenfalls überschrieben. Beachten Sie, dass die tatsächlichen Besprechungsnotizen, die in OneNote gespeichert sind, weiterhin vorhanden sind. nur der Link zu den freigegebenen Notizen wird überschrieben.
@@ -101,7 +101,7 @@ In den folgenden Fällen aktualisiert MMS vorhandene Skype for Business-und Micr
 - Wenn Sie den Benutzer zu einer neuen Audiokonferenzbrücke verschieben
 - Wenn eine Telefonnummer von einer Audiokonferenz-Brücke nicht zugewiesen ist. Hierbei handelt es sich um ein komplexes Szenario, das zusätzliche Schritte erfordert. Weitere Informationen finden Sie unter [Ändern der Telefonnummern auf der Audiokonferenz-Brücke](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
-Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen MMS aus. Insbesondere die folgenden beiden Änderungen führen nicht dazu, dass MMS Besprechungen aktualisiert:
+Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:
 
 - Ändern der SIP-Adresse für den Besprechungsorganisator (entweder des SIP-Benutzernamens oder der SIP-Domäne)
 - Wenn Sie die Besprechungs-URL Ihrer Organisation mithilfe des `Update-CsTenantMeetingUrl` Befehls ändern.
@@ -109,17 +109,17 @@ Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Aktualisieren von Besprechungen beim Zuweisen von TeamsUpgradePolicy
 
-Standardmäßig wird die Besprechungs Migration automatisch ausgelöst, wenn einem Benutzer eine Instanz von `TeamsUpgradePolicy` mit `mode=TeamsOnly` oder `mode= SfBWithTeamsCollabAndMeetings`zugewiesen wird. Wenn Sie keine Besprechungen migrieren möchten, wenn Sie einen dieser Modi gewähren, geben `MigrateMeetingsToTeams $false` Sie in `Grant-CsTeamsUpgradePolicy` (bei Verwendung von PowerShell) an, oder deaktivieren Sie das Kontrollkästchen zum Migrieren von Besprechungen, wenn Sie den Koexistenzmodus eines Benutzers festlegen (wenn Sie das Team-Administratorportal verwenden).
+Standardmäßig wird die Besprechungs Migration automatisch ausgelöst, wenn einem Benutzer eine Instanz von `TeamsUpgradePolicy` mit oder zugewiesen wird `mode=TeamsOnly` `mode= SfBWithTeamsCollabAndMeetings` . Wenn Sie keine Besprechungen migrieren möchten, wenn Sie einen dieser Modi gewähren, geben Sie `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy` (bei Verwendung von PowerShell) an, oder deaktivieren Sie das Kontrollkästchen zum Migrieren von Besprechungen, wenn Sie den Koexistenzmodus eines Benutzers festlegen (wenn Sie das Team-Administratorportal verwenden).
 
 Beachten Sie außerdem Folgendes:
 
-- Die Besprechungs Migration wird nur aufgerufen, wenn `TeamsUpgradePolicy` Sie für einen bestimmten Benutzer erteilen. Wenn Sie mit `TeamsUpgradePolicy` `mode=TeamsOnly` oder `mode=SfBWithTeamsCollabAndMeetings` auf *Mandanten* Ebene gewähren, wird keine Besprechungs Migration aufgerufen.
+- Die Besprechungs Migration wird nur aufgerufen, wenn Sie `TeamsUpgradePolicy` für einen bestimmten Benutzer erteilen. Wenn Sie `TeamsUpgradePolicy` mit `mode=TeamsOnly` oder `mode=SfBWithTeamsCollabAndMeetings` auf *Mandanten* Ebene gewähren, wird keine Besprechungs Migration aufgerufen.
 - Einem Benutzer kann nur der TeamsOnly-Modus gewährt werden, wenn der Benutzer online ist. Benutzer, die lokal gehostet werden, müssen `Move-CsUser` wie zuvor beschrieben verschoben werden.
 - Wenn Sie einen anderen Modus als TeamsOnly oder SfBWithTeamsCollabAndMeetings gewähren, werden vorhandene Teams-Besprechungen nicht in Skype for Business-Besprechungen konvertiert.
 
 ### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>Manuelles Auslösen der Besprechungs Migration über das PowerShell-Cmdlet
 
-Neben automatischen Besprechungs Migrationen können Administratoren die Besprechungs Migration für einen Benutzer manuell auslösen, indem Sie das Cmdlet `Start-CsExMeetingMigration`ausführen. Mit diesem Cmdlet wird eine Migrationsanforderung für den angegebenen Benutzer in die Warteschlange eingereiht.  Neben dem erforderlichen `Identity` Parameter werden zwei optionale Parameter verwendet, `SourceMeetingType` und `TargetMeetingType`Sie können angeben, wie Besprechungen migriert werden sollen:
+Neben automatischen Besprechungs Migrationen können Administratoren die Besprechungs Migration für einen Benutzer manuell auslösen, indem Sie das Cmdlet ausführen `Start-CsExMeetingMigration` . Mit diesem Cmdlet wird eine Migrationsanforderung für den angegebenen Benutzer in die Warteschlange eingereiht.  Neben dem erforderlichen Parameter werden `Identity` zwei optionale Parameter verwendet, `SourceMeetingType` und `TargetMeetingType` Sie können angeben, wie Besprechungen migriert werden sollen:
 
 **TargetMeetingType:**
 
@@ -127,9 +127,9 @@ Neben automatischen Besprechungs Migrationen können Administratoren die Besprec
 - Mit `TargetMeetingType Teams` gibt an, dass eine vorhandene Besprechung in Teams migriert werden muss, unabhängig davon, ob die Besprechung in Skype for Business Online oder lokal gehostet wird, und zwar unabhängig davon, ob Audiokonferenz-Updates erforderlich sind. 
 
 **SourceMeetingType:**
-- Die `SourceMeetingType SfB` Verwendung zeigt an, dass nur Skype for Business-Besprechungen (ob lokal oder Online) aktualisiert werden sollen.
+- `SourceMeetingType SfB`Die Verwendung zeigt an, dass nur Skype for Business-Besprechungen (ob lokal oder Online) aktualisiert werden sollen.
 - Verwenden `SourceMeetingType Teams` gibt an, dass nur Teams-Besprechungen aktualisiert werden sollen.
-- Die `SourceMeetingType All` Verwendung zeigt an, dass sowohl Skype for Business-Besprechungen als auch Teams-Besprechungen aktualisiert werden sollten. Dies ist der Standardwert für SourceMeetingType.
+- `SourceMeetingType All`Die Verwendung zeigt an, dass sowohl Skype for Business-Besprechungen als auch Teams-Besprechungen aktualisiert werden sollten. Dies ist der Standardwert für SourceMeetingType.
     
 
 Im folgenden Beispiel wird gezeigt, wie Sie die Besprechungs Migration für Benutzer ashaw@contoso.com initiieren, damit alle Besprechungen in Teams migriert werden:
@@ -160,17 +160,17 @@ Sie verwenden das `Get-CsMeetingMigrationStatus` Cmdlet, um den Status von Bespr
     Failed            2 
     Succeeded   131
     ```
-- Verwenden Sie die `StartTime` Parameter und `EndTime` , um alle Informationen zu allen Migrationen innerhalb eines bestimmten Zeitraums abzurufen. Mit dem folgenden Befehl werden beispielsweise alle Informationen zu allen Migrationen zurückgegeben, die vom 1. Oktober 2018 bis zum 8. Oktober 2018 aufgetreten sind.
+- Verwenden Sie die Parameter und, um alle Informationen zu allen Migrationen innerhalb eines bestimmten Zeitraums abzurufen `StartTime` `EndTime` . Mit dem folgenden Befehl werden beispielsweise alle Informationen zu allen Migrationen zurückgegeben, die vom 1. Oktober 2018 bis zum 8. Oktober 2018 aufgetreten sind.
 
     ```PowerShell
     Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
     ```
-- Verwenden Sie den `Identity` Parameter, um den Migrationsstatus für einen bestimmten Benutzer zu überprüfen. Beispielsweise gibt der folgende Befehl den Status des Benutzers ashaw@contoso.com zurück:
+- Verwenden Sie den Parameter, um den Migrationsstatus für einen bestimmten Benutzer zu überprüfen `Identity` . Beispielsweise gibt der folgende Befehl den Status des Benutzers ashaw@contoso.com zurück:
 
     ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
-Wenn Migrationsfehler angezeigt werden, müssen Sie diese Probleme so schnell wie möglich beheben, da sich die Benutzer erst dann in die von diesen Benutzern organisierten Besprechungen einwählen können, wenn Sie diese beheben. Führen `Get-CsMeetingMigrationStatus` Sie die folgenden Schritte aus, wenn alle Migrationen in einem fehlerhaften Zustand angezeigt werden:
+Wenn Migrationsfehler angezeigt werden, müssen Sie diese Probleme so schnell wie möglich beheben, da sich die Benutzer erst dann in die von diesen Benutzern organisierten Besprechungen einwählen können, wenn Sie diese beheben. `Get-CsMeetingMigrationStatus`Führen Sie die folgenden Schritte aus, wenn alle Migrationen in einem fehlerhaften Zustand angezeigt werden:
  
 1. Stellen Sie fest, welche Benutzer betroffen sind. Führen Sie den folgenden Befehl aus, um die Liste der betroffenen Benutzer und den spezifischen gemeldeten Fehler zu erhalten:
 
@@ -190,20 +190,20 @@ Wenn Migrationsfehler angezeigt werden, müssen Sie diese Probleme so schnell wi
 MMS ist standardmäßig für alle Organisationen aktiviert, kann aber wie folgt deaktiviert werden:
 
 - Vollständiges Deaktivieren für den Mandanten. 
-- Nur für Änderungen deaktivieren, die sich auf Audiokonferenzen beziehen. In diesem Fall wird MMS weiterhin ausgeführt, wenn ein Benutzer von lokal in die Cloud migriert wird oder wenn Sie den TeamsOnly-Modus oder den SfBWithTeamsCollabAndMeetings-Modus `TeamsUpgradePolicy`in gewähren.
+- Nur für Änderungen deaktivieren, die sich auf Audiokonferenzen beziehen. In diesem Fall wird MMS weiterhin ausgeführt, wenn ein Benutzer von lokal in die Cloud migriert wird oder wenn Sie den TeamsOnly-Modus oder den SfBWithTeamsCollabAndMeetings-Modus in gewähren `TeamsUpgradePolicy` .
 
 So können Sie beispielsweise alle Besprechungen manuell migrieren oder MMS vorübergehend deaktivieren, während Sie wesentliche Änderungen an den Einstellungen für die Audiokonferenz für Ihre Organisation vornehmen.
 
-Führen Sie den folgenden Befehl aus, um festzustellen, ob MMS für Ihre Organisation aktiviert ist. MMS ist aktiviert, wenn `MeetingMigrationEnabled` es sich `$true`um den Parameter handelt.
+Führen Sie den folgenden Befehl aus, um festzustellen, ob MMS für Ihre Organisation aktiviert ist. MMS ist aktiviert, wenn `MeetingMigrationEnabled` es sich um den Parameter handelt `$true` .
 ```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
-Verwenden Sie den `Set-CsTenantMigrationConfiguration` Befehl, um MMS vollständig zu aktivieren oder zu deaktivieren. Wenn Sie beispielsweise MMS deaktivieren möchten, führen Sie den folgenden Befehl aus:
+Verwenden Sie den Befehl, um MMS vollständig zu aktivieren oder zu deaktivieren `Set-CsTenantMigrationConfiguration` . Wenn Sie beispielsweise MMS deaktivieren möchten, führen Sie den folgenden Befehl aus:
 
 ```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
-Wenn MMS in der Organisation aktiviert ist und Sie überprüfen möchten, ob Sie für Audio-Konferenz Updates aktiviert ist, überprüfen Sie `AutomaticallyMigrateUserMeetings` den Wert des Parameters in der Ausgabe von `Get-CsOnlineDialInConferencingTenantSettings`. Verwenden Sie `Set-CsOnlineDialInConferencingTenantSettings`zum Aktivieren oder Deaktivieren von MMS für Audiokonferenzen. Führen Sie beispielsweise den folgenden Befehl aus, um MMS für Audiokonferenzen zu deaktivieren:
+Wenn MMS in der Organisation aktiviert ist und Sie überprüfen möchten, ob Sie für Audio-Konferenz Updates aktiviert ist, überprüfen Sie den Wert des `AutomaticallyMigrateUserMeetings` Parameters in der Ausgabe von `Get-CsOnlineDialInConferencingTenantSettings` . Verwenden Sie zum Aktivieren oder Deaktivieren von MMS für Audiokonferenzen `Set-CsOnlineDialInConferencingTenantSettings` . Führen Sie beispielsweise den folgenden Befehl aus, um MMS für Audiokonferenzen zu deaktivieren:
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false

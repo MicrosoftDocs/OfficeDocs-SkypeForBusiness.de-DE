@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374203"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012191"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -34,9 +34,9 @@ Es gibt drei Typen von automatisch vom Client erstellten Protokolldateien, die z
 
 -   Desktopprotokolle
 
-Beim Erstellen einer Supportanfrage beim Microsoft-Support fordert Sie der Supportmitarbeiter zur Einreichung von Debugprotokollen auf. Wenn Sie diese Protokolle vor dem Erstellen der Supportanfrage zur Hand haben, kann das Problem von Microsoft schneller behoben werden. Medien- oder Desktopprotokolle werden nur auf Anforderung von Microsoft benötigt.
+When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
 
-In der folgenden Tabelle werden verschiedene Clients und die jeweils zugehörigen Protokolle aufgeführt. Protokolldateien sind in den für den Client und das Betriebssystem spezifischen Verzeichnissen gespeichert.
+The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
 
 
 |Client |Debug|Desktop|Medien|
@@ -44,6 +44,7 @@ In der folgenden Tabelle werden verschiedene Clients und die jeweils zugehörige
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,18 +73,24 @@ Die Debugprotokolle werden unter Verwendung der folgenden für das jeweilige Bet
 
       Tastenkombination: WAHLTASTE+BEFEHLSTASTE+UMSCHALT+1
 
+-   Linux
+
+      Tastenkombination: STRG+ALT+UMSCHALT+1
+
 Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
 
 -   Windows: %userprofile%\\Downloads
 
 -   Mac OSX: Downloads
 
+-   Linux: ~/Downloads
+
 -   Browser: Sie werden zum Speichern des Debugprotokolls in das Standardverzeichnis aufgefordert
 
 <a name="media-logs"></a>Medienprotokolle
 ---------------------------
 
-Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe Sie sind für Supportfälle nur nach Aufforderung erforderlich und können nur von Microsoft geprüft werden. In der folgenden Tabelle wird der Protokollspeicherort aufgeführt.
+Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
 
 
 |Client |Speicherort |
@@ -93,23 +100,30 @@ Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe 
 |            |%APPDATA%\Microsoft\Teams\media-Stack \\ *. ETL         |
 |Mac OSX     |~/Library/Application-Unterstützung/Microsoft/Teams/Media-Stack/*. Blog         |
 |            |~/Library/Application-Unterstützung/Microsoft/Teams/skylib/*. Blog         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/Media-Stack/*. Blog         |
+|            |~/.config/Microsoft/Microsoft Teams/skylib/*. Blog         |
 
 
 
 <a name="desktop-logs"></a>Desktopprotokolle
 ---------------------
 
-Desktopprotokolle, auch bekannt unter Bootstrapper-Protokolle, enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser erstellt werden. Wie Medienprotokolle werden diese Protokolle nur auf Anforderung von Microsoft benötigt. Die Protokolle sind textbasiert und können mit jedem Texteditor von oben nach unten gelesen werden.
+Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
 
 Windows:
 
-1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol in** der Taskleiste, und wählen Sie **Protokolle abrufen** aus.
+1.  Klicken Sie mit der rechten Maustaste auf das **Microsoft Teams** -Symbol in der Taskleiste, und wählen Sie **Protokolle abrufen** aus.
 
 Mac OSX:
 
 1.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
 
+Linux
+
+1.  Klicken Sie auf das **Microsoft Teams** -Symbol in der Taskleiste, und wählen Sie **Protokolle abrufen** aus.
+
 |Client |Speicherort |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
-|Mac OSX     |~/Library/Application-Unterstützung/Microsoft/Teams/Logs. txt         |
+|Windows     |% APPDATA% \Microsoft\Teams\logs.txt         |
+|Mac OSX     |~/Library/Application-Unterstützung/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e7a9af9c8e3fa2374234efbb752682d58d1602
-ms.sourcegitcommit: dad97d53f63e5164095b6d6de2d1b0445e2c10db
+ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "44820846"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944008"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -144,8 +144,8 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
 1. Laden Sie das MSI-Paket für Teams, das Ihrem VDI-VM-Betriebssystem entspricht, mit einem der folgenden Links herunter:
 
 
-    - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.3.00.12058/Teams_windows.msi)
-    - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.12058/Teams_windows_x64.msi)
+    - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
+    - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
 
 
     Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.3.00.4461. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt.)

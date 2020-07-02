@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874412"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012281"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -43,7 +43,7 @@ Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss 
 - Der Benutzer verfügt über genügend Speicherplatz in Microsoft Stream, um Aufzeichnungen zu speichern
 - Der Benutzer hat die TeamsMeetingPolicy-AllowCloudRecording-Einstellung auf „True“ eingestellt
 - Der Benutzer ist kein anonymer, Gast- oder Verbundbenutzer in der Besprechung
-- Um die Transkription für eine Benutzer Besprechung zu aktivieren, muss die Team-Besprechungsrichtlinie, der Sie zugewiesen sind, muss-AllowTranscription-Einstellung auf true festgelegt sein.
+- Um die Transkription für eine Benutzer Besprechung zu aktivieren, muss die für die Team-Besprechungsrichtlinie, der Sie zugewiesen ist, die-AllowTranscription-Einstellung auf true festgelegt sein.
 
 <sup>1</sup> Benutzer muss lizenziert werden, um Besprechungen von/zu Microsoft Stream hoch-oder herunterzuladen, Sie benötigen jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
 
@@ -115,7 +115,7 @@ Weitere Informationen dazu, wo Daten in Microsoft 365 oder Office 365 in verschi
 
 Mit dieser Einstellung wird gesteuert, ob Beschriftungen und Transkriptions Features bei der Wiedergabe von Besprechungsaufzeichnungen zur Verfügung stehen. Wenn Sie diese Option deaktivieren, stehen die Optionen " **Suchen** " und " **CC** " während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit die Aufzeichnung auch Transkription umfasst.
 
-Beachten Sie, dass die Transkription für aufgezeichnete Besprechungen derzeit nur für Benutzer unterstützt wird, für die die Sprache in Teams auf Englisch festgesetzt ist und wenn Englisch in der Besprechung gesprochen wird.
+**Beachten Sie** , dass die Transkription für aufgezeichnete Besprechungen derzeit nur für Benutzer unterstützt wird, für die die Sprache in Teams auf Englisch festgesetzt ist und wenn Englisch in der Besprechung gesprochen wird.
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 

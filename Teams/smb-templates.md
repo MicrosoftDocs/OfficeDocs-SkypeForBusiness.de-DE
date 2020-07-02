@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Verwenden Sie vordefinierte Vorlagen von Microsoft Teams, um schnell und einfach Teams für kleine und mittelständische Unternehmen zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757056"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944028"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Erste Schritte mit Microsoft Teams-Vorlagen für kleine und mittelständische Unternehmen
 
@@ -30,7 +30,7 @@ Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, in
 
 Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsstark sein, da Sie Administratoren dabei helfen, Teams in ihrer gesamten Organisation schnell bereitzustellen. Mithilfe von Vorlagen können Sie Benutzer auch orientieren und mit der effektiven Verwendung von Teams beginnen. Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation verantwortlich sind.
 
-Wir bieten derzeit drei SMB-Vorlagen von First Party an, die Sie für unterschiedliche Situationen nutzen können. Alle Vorlagen werden *private* Teams erstellen. Nachdem Sie die Teams erstellt haben und bereit für das Rollout in Ihre Organisation sind, können Sie den Datenschutz je nach Bedarf auf *org-Wide* oder *Public*festlegen. Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md).
+Wir bieten derzeit drei Erstanbieter-SMB-Vorlagen an, die Sie für unterschiedliche Situationen nutzen können. Alle Vorlagen werden *private* Teams erstellen. Nachdem Sie die Teams erstellt haben und bereit für das Rollout in Ihre Organisation sind, können Sie den Datenschutz je nach Bedarf auf *org-Wide* oder *Public*festlegen. Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md).
 
 ## <a name="company-wide-template"></a>Unternehmensweite Vorlage
 Die unternehmensweite Vorlage ist für Kommunikation und Zusammenarbeit vorgesehen, die für das gesamte Unternehmen relevant sind. Sie können den allgemeinen Kanal für unternehmensweite Ankündigungen, Branchen-News oder Executive-Beiträge verwenden. Der Personal Kanal ist ein großartiger Ort, um alle HR-bezogenen Aktivitäten wie Stellenangebote, neue Mitarbeiter Onboarding, Schulung und Entwicklung zu konsolidieren. Der Fun-Stuff-Kanal bietet eine soziale Plattform für alle zufällige und lustige Beiträge.

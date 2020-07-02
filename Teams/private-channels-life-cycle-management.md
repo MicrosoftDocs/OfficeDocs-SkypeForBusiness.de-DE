@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Lebenszyklus privater Kanäle in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326692"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012291"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus privater Kanäle in Microsoft Teams
 
 Hier finden Sie die Anleitungen, die Sie zum Verwalten des Lebenszyklus [privater Kanäle](private-channels.md) in Ihrer Organisation benötigen.
 
 > [!IMPORTANT]
-> Wenn Sie die PowerShell-Schritte in diesem Artikel zum Verwalten privater Kanäle verwenden, müssen Sie die neueste Vorabversion des Teams PowerShell-Moduls aus dem [PowerShell-Test Katalog](https://www.poshtestgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren der Vorabversion des Teams PowerShell-Moduls](install-prerelease-teams-powershell-module.md). Die neueste öffentlich verfügbare Version des Teams PowerShell-Moduls unterstützt nicht das Verwalten privater Kanäle.
+> Wenn Sie die PowerShell-Schritte in diesem Artikel zum Verwalten privater Kanäle verwenden, müssen Sie das Public Preview-Modul für Teams PowerShell im PowerShell- [Katalog](https://www.powershellgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren von Microsoft Teams PowerShell](teams-powershell-install.md). Das neueste PowerShell-Modul der allgemeinen Verfügbarkeit Teams unterstützt keine Verwaltung privater Kanäle.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Festlegen, ob Teammitglieder private Kanäle erstellen können
 

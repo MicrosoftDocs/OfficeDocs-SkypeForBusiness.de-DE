@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321744"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944018"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Zielgruppen Adressierungs Hierarchie
 
@@ -116,7 +116,7 @@ Das `Store layout` Attribut enthält Werte, die "und" enthalten `Compact` `Stand
 ## <a name="apply-your-hierarchy"></a>Anwenden Ihrer Hierarchie
 
 > [!IMPORTANT]
-> Um diesen Schritt ausführen zu können, müssen Sie die neueste Version des Teams PowerShell-Moduls aus dem [PowerShell-Test Katalog](https://www.poshtestgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren der Vorabversion des Teams PowerShell-Moduls](install-prerelease-teams-powershell-module.md).
+> Um diesen Schritt ausführen zu können, müssen Sie das Public Preview-Modul von Teams PowerShell im [PowerShell-Katalog](https://www.powershellgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren von Teams PowerShell](teams-powershell-install.md).
 
 Nachdem Sie Ihre Hierarchie in der CSV-Schemadatei definiert haben, können Sie Sie in Teams hochladen. Führen Sie dazu den folgenden Befehl aus. Sie müssen ein globaler Administrator oder Team Dienstadministrator sein, um diesen Schritt ausführen zu können.
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>Entfernen Ihrer Hierarchie
 
 > [!IMPORTANT]
-> Um diesen Schritt ausführen zu können, müssen Sie die neueste Version des Teams PowerShell-Moduls aus dem [PowerShell-Test Katalog](https://www.poshtestgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren der Vorabversion des Teams PowerShell-Moduls](install-prerelease-teams-powershell-module.md).
+> Um diesen Schritt ausführen zu können, müssen Sie das Public Preview-Modul von Teams PowerShell im [PowerShell-Katalog](https://www.powershellgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren von Teams PowerShell](teams-powershell-install.md).
 
 Wenn Sie die Registerkarte " **veröffentlichte Listen** " für alle Benutzer in Ihrer Organisation sofort deaktivieren möchten, können Sie Ihre Hierarchie entfernen. Benutzer haben keinen Zugriff auf die Registerkarte **veröffentlichte Listen** oder auf eine der Funktionen auf der Registerkarte.  Dies umfasst die Möglichkeit zum Erstellen neuer Aufgabenlisten zum Veröffentlichen, zugreifen auf Entwurfs Listen, veröffentlichen, Aufheben der Veröffentlichung und Duplizieren von Listen sowie zum Anzeigen der Berichterstellung. Beim Entfernen der Hierarchie werden Aufgaben, die zuvor veröffentlicht wurden, nicht unveröffentlicht. Diese Aufgaben stehen weiterhin für Empfänger Teams zur Verfügung. 
 
