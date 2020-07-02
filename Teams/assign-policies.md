@@ -18,19 +18,19 @@ description: Informieren Sie sich über die verschiedenen Möglichkeiten, wie Si
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938544"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021753"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams
 
 > [!NOTE]
 > **Beachten Sie die folgenden Informationen zu einem der in diesem Artikel beschriebenen Features: Richtlinienzuweisung zu Gruppen**: 
 > - [Die Richtlinienzuweisung zu Gruppen, die das Microsoft Teams Admin Center verwenden](#using-the-microsoft-teams-admin-center-3), wurde noch nicht veröffentlicht. Es wurde angekündigt, und es wird bald kommen. 
-> - [Die Richtlinienzuweisung zu Gruppen mit PowerShell](#using-powershell-3)steht derzeit nur in der privaten Vorschau zur Verfügung. Die PowerShell-Cmdlets für dieses Feature befinden sich im PowerShell-Modul für Teams vor der Freigabe.
+> - [Die Richtlinienzuweisung zu Gruppen mit PowerShell](#using-powershell-3)steht derzeit nur in der privaten Vorschau zur Verfügung. Die Cmdlets für dieses Feature befinden sich im Public Preview-Modul von Teams PowerShell.
 >
 > Wenn Sie den Veröffentlichungsstatus dieser Funktion auf dem neuesten Stand halten möchten, lesen Sie die [Roadmap für Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
@@ -160,7 +160,7 @@ In diesem Beispiel weisen wir eine Teams-Besprechungsrichtlinie mit dem Namen "S
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-Weitere Informationen finden Sie unter [Verwalten von Richtlinien über PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+Weitere Informationen finden Sie unter [Verwalten von Richtlinien über PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## <a name="assign-a-policy-package"></a>Zuweisen eines Richtlinienpakets
 
@@ -315,40 +315,14 @@ Wenn Sie die Rangfolge einer Gruppenaufgabe ändern möchten, müssen Sie zuerst
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-**Dieses Feature steht derzeit nur in der privaten Vorschau zur Verfügung. Die Cmdlets für dieses Feature befinden sich im PowerShell-Modul für Teams vor der Freigabe.**
+**Dieses Feature steht derzeit nur in der privaten Vorschau zur Verfügung. Die Cmdlets für dieses Feature befinden sich im Public Preview-Modul von Teams PowerShell.**
 
 > [!NOTE]
 > Derzeit steht die Richtlinienzuweisung zu Gruppen mit PowerShell nicht für alle Teamrichtlinien Typen zur Verfügung. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) .
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
-Die Cmdlets befinden sich in der Pre-Release-Version des Teams PowerShell-Moduls. Führen Sie die folgenden Schritte aus, um zunächst die allgemein verfügbare Version des Teams PowerShell-Moduls (sofern installiert) zu deinstallieren, und installieren Sie dann die neueste Vorabversion des Moduls aus dem PowerShell-Test Katalog.
-
-Wenn Sie dies noch nicht getan haben, führen Sie die folgenden Schritte aus, um den PowerShell-Test Katalog als vertrauenswürdige Quelle zu registrieren.
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-Wenn Sie die allgemein verfügbare Version des Teams PowerShell-Moduls installiert haben, führen Sie die folgenden Schritte aus, um Sie zu deinstallieren.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-Führen Sie die folgenden Schritte aus, um das aktuelle Microsoft Teams PowerShell-Modul aus dem PowerShell-Test Katalog zu installieren.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-Führen Sie die folgenden Schritte aus, um eine Verbindung mit Teams herzustellen und eine Sitzung zu starten.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
+Diese Cmdlets sind Teil des Public Preview-Moduls von Teams PowerShell. Schritt-für-Schritt-Anleitungen finden Sie unter [Installieren von Teams PowerShell](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-to-a-group"></a>Zuweisen einer Richtlinie zu einer Gruppe
 

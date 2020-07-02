@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877916"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021873"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -71,6 +71,8 @@ In diesem Update eingeführt:
 - Fehlerbehebungen für Qualität und Zuverlässigkeit
 - Fehlerbehebung für "Anwendung wird nach dem Update auf 4.4.41.0 nicht gestartet"
 
+> [!NOTE]
+> Wenn Ihr Gerät nicht automatisch auf Version 4.4.63.0 aktualisiert wird, führen Sie die Schritte in der [Microsoft Teams rooms-Anwendung nach der Aktualisierung auf Version 4.4.41.0 nicht](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) aus, um das Problem zu beheben.
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 

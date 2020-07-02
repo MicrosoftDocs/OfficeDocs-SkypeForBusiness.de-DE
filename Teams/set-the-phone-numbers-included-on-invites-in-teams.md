@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Führen Sie die folgenden Schritte aus, um eine Standardtelefonnummer für Anrufer zu erstellen und an einer Microsoft Teams-Besprechung teilzunehmen.
-ms.openlocfilehash: 81624090b1e82bf695f8e558cd55324a45d927e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691111"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021763"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
 Audiokonferenzen in Microsoft 365 und Office 365 ermöglichen es Benutzern in Ihrer Organisation, Microsoft Teams-Besprechungen zu erstellen und Benutzern dann das Einwählen in diese Besprechungen mithilfe eines Telefons zu ermöglichen.
   
-Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
+A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer has created, but you can select which ones will be included on their meeting invites.
   
 > [!NOTE]
 > Für einen Besprechungsorganisator kann maximal eine gebührenpflichtige und eine gebührenfreie Telefonnummer in der Besprechungseinladung angegeben werden. Im unteren Bereich jeder Besprechungseinladung befindet sich jedoch auch ein Link, über den eine vollständige Liste aller Einwahlnummern aufgerufen werden kann, über die Benutzer an einer Besprechung teilnehmen können. 
@@ -55,7 +55,7 @@ Sobald der Benutzer für den Audiokonferenzdienst aktiviert ist, können die sta
 
 Sie müssen ein Administrator sein, um diese Änderungen vornehmen zu können.
 
-1. Melden Sie sich beim Admin Center an <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
 2. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 

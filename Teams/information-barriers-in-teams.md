@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868692"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021830"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -92,7 +92,16 @@ Richtlinien für Informationsbarrieren werden aktiviert, wenn die folgenden Team
 
     ![Screenshot des Benutzers, der von einer Besprechung blockiert wurde](media/information-barriers-meeting.png)
 
-- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig.
+- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig. 
+ 
+    Hier ist ein Beispiel für die Bildschirmfreigabe, bevor die Richtlinie angewendet wird. 
+
+    ![Screenshot mit einem Benutzer-Chat](media/ib-before-screen-share-policy.png)
+
+    Nachfolgend finden Sie ein Beispiel für die Bildschirmfreigabe, nachdem die Richtlinie angewendet wurde. Bildschirmfreigabe-und Anruf Symbole werden nicht angezeigt.
+
+    ![Screenshot mit Benutzer-char mit blockierten Einstellungen](media/ib-after-screen-share-policy.png)
+
 - **Ein Benutzer platziert einen Telefonanruf (VoIP) in Teams** – wenn ein Sprachanruf von einem Benutzer an einen anderen Benutzer oder eine Gruppe von Benutzern initiiert wird, wird der Anruf ausgewertet, um sicherzustellen, dass er die Richtlinien anderer Teammitglieder gegen die Informations Barriere nicht verletzt. Bei Verstößen ist der Sprachanruf blockiert.
 - **Gastbenutzer in Teams** – Richtlinien für Informationsbarrieren gelten auch für Gastbenutzer in Teams. Wenn Gastbenutzer in der globalen Adressliste Ihrer Organisation auffindbar sein müssen, lesen Sie Verwalten des [Gastzugriffs in Microsoft 365-Gruppen](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Sobald Gastbenutzer auffindbar sind, können Sie [Richtlinien für Informationsbarrieren definieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
@@ -100,9 +109,17 @@ Richtlinien für Informationsbarrieren werden aktiviert, wenn die folgenden Team
 
 Wenn der Administrator der Informations Barriere-Richtlinie Änderungen an einer Richtlinie vornimmt oder eine Richtlinienänderung aufgrund einer Änderung des Profils eines Benutzers (beispielsweise bei einer Auftragsänderung oder einem ähnlichen Grund) in Kraft tritt, durchsucht der Evaluierungs Dienst der Informations Barriere-Richtlinie automatisch die Mitglieder, um sicherzustellen, dass die Mitglieder des Teams keine Richtlinien verletzen.
 
-Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, eine neue Richtlinie festgesetzt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikation aus, um sicherzustellen, dass die Kommunikation weiterhin zulässig ist.
+Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, eine neue Richtlinie festgesetzt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikation aus, um sicherzustellen, dass die Kommunikation weiterhin zulässig ist. 
 
-- **1:1-Chat** – wenn die Kommunikation zwischen den beiden Benutzern nicht mehr zulässig ist (wenn eine Richtlinie, die die Kommunikation blockiert, auf einen oder beide Benutzer angewendet wird), wird die weitere Kommunikation blockiert, und die Chat Unterhaltung wird schreibgeschützt.
+- **1:1-Chat** – wenn die Kommunikation zwischen den beiden Benutzern nicht mehr zulässig ist (wenn eine Richtlinie, die die Kommunikation blockiert, auf einen oder beide Benutzer angewendet wird), wird die weitere Kommunikation blockiert, und die Chat Unterhaltung wird schreibgeschützt. 
+
+    Hier ist ein Beispiel, das zeigt, dass der Chat sichtbar ist.
+
+    ![Screenshot mit Benutzer-Chat verfügbar](media/ib-before-1-1chat-policy.png)
+
+    Hier ist ein Beispiel, das zeigt, dass der Chat deaktiviert ist.
+
+    ![Screenshot, der zeigt, dass der Benutzer Chat deaktiviert ist](media/ib-after-1-1chat-policy.png)
 
 - **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer die Arbeit wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe ist nicht zulässig. Der Benutzer kann weiterhin alte Konversationen sehen (die schreibgeschützt sind), aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen.
 
@@ -126,11 +143,30 @@ Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarri
     ![Screenshot mit Gruppen-Chat](media/information-barriers-people-picker.png)
     
 - **Registerkarte "Aktivität"** – wenn ein Benutzer die Registerkarte " **Aktivität** " eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf der Registerkarte **Aktivität** werden nur Kanal Beiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
+
+    Hier sehen Sie ein Beispiel für die Registerkarte "Aktivität".
+
+    ![Screenshot mit der Registerkarte "Aktivität"](media/ib-before-activity-tab-policy.png)
+
+    Hier sehen Sie ein Beispiel für die blockierte Aktivitäts Registerkartenansicht.
+
+    ![Screenshot der blockierten Aktivitäten-Registerkarte](media/ib-after-activity-tab-policy.png)
+
+
 - **Organigramme** : Wenn ein Benutzer auf ein Organigramm zugreift, auf dem ein blockierter Benutzer angezeigt wird, wird der blockierte Benutzer im Organigramm nicht angezeigt, und stattdessen wird eine Fehlermeldung angezeigt.
 - **Personen Karte** : Wenn ein Benutzer an einer Unterhaltung teilnimmt und der Benutzer anschließend blockiert wird, werden anderen Benutzern anstelle der Personen Karte eine Fehlermeldung angezeigt, wenn Sie den Mauszeiger über den Namen des blockierten Benutzers bewegen. Auf der Karte aufgelistete Aktionen (wie Anrufe und Chats) sind nicht verfügbar.
 - **Vorgeschlagene Kontakte** – blockierte Benutzer werden nicht in der Liste der vorgeschlagenen Kontakte angezeigt (die erste Kontaktliste, die für neue Benutzer angezeigt wird).
 - **Chat-Kontakte** : ein Benutzer kann blockierte Benutzer in der Chat-Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen. Der Benutzer kann auch darauf klicken, um seine frühere Konversation anzuzeigen.
 - **Anrufe an Kontakte** : ein Benutzer kann blockierte Benutzer in der Anruf Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen.
+
+    Hier ist ein Beispiel für einen blockierten Benutzer in der Kontaktliste "Anrufe".
+
+    ![Screenshot mit Benutzer-Chat](media/ib-before-chat-contacts-policy.png)
+
+    Im folgenden finden Sie ein Beispiel für die Deaktivierung des Chats für einen Benutzer in der Liste der Anruf Inhalte.
+
+    ![Screenshot des Benutzers, der im Chat blockiert ist](media/ib-after-chat-contacts-policy.png)
+
 - **Migration von Skype zu Teams** – während einer Migration von Skype for Business zu Teams werden alle Benutzer, auch solche, die durch Richtlinien für Informationsbarrieren blockiert sind, in Teams migriert und dann wie oben beschrieben gehandhabt.
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teamrichtlinien und SharePoint-Websites

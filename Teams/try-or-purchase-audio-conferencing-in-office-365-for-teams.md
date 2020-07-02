@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Hier erfahren Sie, wie Sie die Lizenzen für Audiokonferenzen (PSTN-Konferenzen) für Microsoft 365 oder Office 365 testen oder kaufen, um Konferenzgespräche einzurichten, in die sich Personen einwählen können. '
-ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868533"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021863"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Testen oder kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams
 
@@ -72,7 +72,7 @@ Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Li
 4. Weisen Sie den Benutzern in Ihrer Organisation [Lizenzen zu](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) , die Besprechungen planen oder leiten.
 
     > [!NOTE]
-    > Wenn Sie Lizenzen für Audiokonferenz mit Minutenabrechnung haben, müssen Sie nicht jedem Benutzer für die Nutzung der Audiokonferenz separate Lizenzen für Guthaben für Kommunikationen zuweisen (Sie müssen diese möglicherweise noch für andere Dienste zuweisen).
+    > Wenn Sie über Audiokonferenz-Pay-per-Minute-Lizenzen verfügen, müssen Sie auch jedem Benutzer eine Lizenz für Kommunikationsguthaben separat zuweisen.
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Providers von Audiokonferenz für Personen, die Meetings führen oder planen
 

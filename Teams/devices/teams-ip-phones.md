@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Informieren Sie sich, welche Schreibtisch-und Konferenztelefone für Microsoft Teams zertifiziert sind, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877906"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021733"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -44,67 +44,77 @@ Zusätzlich zu den Kunden, die eine Reihe von Skype for Business-zertifizierten 
 
 Die folgenden Telefone sind für Microsoft Teams zertifiziert:
 
-|Telefonmodell|Firmware-Version|Veröffentlichungsdatum |
-|:---|:---|:---|
-|AudioCodes C450HD | C450HD_TEAMS_0.225 | März 2019|
-|AudioCodes C448HD (nur Cap-Modus) | C450HD_TEAMS_0.225 | März 2019|
-|Crestron M100| Dieses Produkt wurde eingestellt. Weitere Informationen finden Sie unter [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) auf der Crestron-Website. | Eingestellt ab 5/11/2020|
-|Crestron Flex UC-P100-t & UC-P110-t  | Dieses Produkt wurde eingestellt. Weitere Informationen finden Sie unter [UC Phone]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) auf der Crestron-Website. |Eingestellt ab 5/11/2020|
-|Lenovo ThinkSmart-Ansicht|CD-18781Y. 200410.067|April 2020|
-|Poly Trio C60|5.9.3.6155|April 2020|
-|Poly-CCX400 | 1.0.0.0200 | Januar 2020|
-|Poly-CCX600 | 5.9.12.1111| Januar 2020|
-|Poly-CCX500 | 5.9.12.1111| Dezember 2019|
-|Poly Trio 8500/8800 (nur Shared-Modus)| 5.9.0.10869|Juni 2019|
-|Yealink MP56| 122.15.0.6| März 2020|
-|Yealink VP59 | 91.15.0.16 |Juni 2019|
-|Yealink T55 | 58.15.0.36 |Mai 2019|
-|Yealink CP 960 |73.15.0.20|Dezember 2018|
-|Yealink T58 & T56-Serie |58.15.0.20|Dezember 2018|
+| Telefonmodell                            | Firmware-Version                                                                                                                                                                                                                           | Veröffentlichungsdatum                 |
+|:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
+| AudioCodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | März 2019                   |
+| AudioCodes C448HD (nur Cap-Modus)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | März 2019                   |
+| Crestron M100                          | Dieses Produkt wurde eingestellt. Weitere Informationen finden Sie unter [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) auf der Crestron-Website. | Eingestellt ab 5/11/2020 |
+| Crestron Flex UC-P100-t & UC-P110-t    | Dieses Produkt wurde eingestellt. Weitere Informationen finden Sie unter [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) auf der Crestron-Website.                  | Eingestellt ab 5/11/2020 |
+| Lenovo ThinkSmart-Ansicht                 | CD-18781Y. 200410.067                                                                                                                                                                                                                       | April 2020                   |
+| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
+| Poly-CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | Januar 2020                 |
+| Poly-CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | Januar 2020                 |
+| Poly-CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | Dezember 2019                |
+| Poly Trio 8500/8800 (nur Shared-Modus) | 5.9.0.10869                                                                                                                                                                                                                                | Juni 2019                    |
+| Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | März 2020                   |
+| Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | Juni 2019                    |
+| Yealink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | Mai 2019                     |
+| Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | Dezember 2018                |
+| Yealink T58 & T56-Serie               | 58.15.0.20                                                                                                                                                                                                                                 | Dezember 2018                |
 
 ## <a name="certified-collaboration-bars"></a>Zertifizierte Kollaborations leisten
 
 Die folgenden Zusammenarbeits Balken sind für Microsoft Teams zertifiziert:
 
-|Modell der Zusammenarbeits Leiste|Firmware-Version|Veröffentlichungsdatum |Raumgröße (bis zu)|
-|:---|:---|:---|:---|
-|Poly Studio X30 | 3.1.1.216109| Juni 2020|Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m)|
-|Poly Studio X50 | 3.1.1.216109| Juni 2020|Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m)|
-|Yealink VC210| 118.15.0.14|2020. Februar|Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m)|
+| Modell der Zusammenarbeits Leiste | Firmware-Version | Veröffentlichungsdatum  | Raumgröße (bis zu)                                         |
+|:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Poly Studio X30         | 3.1.1.216109     | Juni 2020     | Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
+| Poly Studio X50         | 3.1.1.216109     | Juni 2020     | Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
+| Yealink VC210           | 118.15.0.14      | 2020. Februar | Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
 
-### <a name="product-release-information-teams-phones"></a>Informationen zur Produktfreigabe – Teams-Telefone
-Im folgenden sind die neuesten Versionen der IP Phone-App für Teams und die Firmwareversion veröffentlicht.
-#### <a name="release-date-may-132020"></a>Veröffentlichungsdatum: 13. Mai 2020
+### <a name="product-release-information-for-teams-phones"></a>Informationen zur Produktfreigabe für Teams-Telefone
+
+Im folgenden finden Sie die neuesten IP Phone-APP-und Firmware-Versionen von Teams.
+
+#### <a name="release-date-june-262020"></a>Veröffentlichungsdatum: 26. Juni 2020
+
 #### <a name="app-versions"></a>App-Versionen
-|App| Version|
-|:---|:---|
-|Teams | .040801|
-|Administrator-Agent|.210|
-|Unternehmens Portal| .4715|
+
+| Produktversion | Veröffentlichungsdatum  | Microsoft Teams-App-Version | Version des Unternehmensportals | Version des Administrator-Agents |
+|:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Aktualisieren #4       | 30. Juni 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| Aktualisieren #3       | 13. Mai 2020  | .040801                     | .4715                  | 1,210               |
 
 #### <a name="firmware-versions"></a>Firmware-Versionen
-|Aktualisieren #3| Für Prod freigegebene Firmware|
-|:---|:---|
-|AudioCodes C450HD|C450HD_TEAMS_1.3.47|
-|Poly-CCX400|1.0.1.0054|
-|Poly CCX500/CCX600|5.9.13.0306|
-|Yealink T55/T56/T58|58.15.0.104|
-|Yealink VP59|91.15.0.40|
-|Yealink CP960|73.15.0.100|
 
-### <a name="product-release-information-collaboration-bar"></a>Informationen zur Produktfreigabe – Zusammenarbeits Leiste
-Im folgenden finden Sie die neuesten Versionen der Teams-Kollaborations-APP und die Firmware-Version veröffentlicht.
+Wenn Sie eine neue Firmware-Version auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-APP, das Unternehmens Portal und den Administrator-Agent, Versionen, die installiert werden, ermitteln, indem Sie die Produktversion in der Spalte " **enthaltene Produktversion** " finden. Schauen Sie sich dann die Produktversion in der obigen Tabelle **App-Versionen** an.
+
+| Gerätemodell        | Firmware-Version     | Enthaltene Produktversion |
+|:--------------------|:---------------------|:-------------------------|
+| AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Aktualisieren #4                |
+| Poly-CCX400         | 1.0.1.0054           | Aktualisieren #3                |
+| Poly CCX500/CCX600  | 5.9.13.0306          | Aktualisieren #3                |
+| Yealink T55/T56/T58 | 58.15.0.107          | Aktualisieren #4                |
+| Yealink VP59        | 91.15.0.42           | Aktualisieren #4                |
+| Yealink CP960       | 73.15.0.103          | Aktualisieren #4                |
+
+### <a name="product-release-information-for-collaboration-bars"></a>Informationen zur Produktversion für Collaboration-leisten
+
+Im folgenden finden Sie die neuesten Apps für die Teamarbeits Leiste und die Firmware-Versionen.
+
 #### <a name="app-versions"></a>App-Versionen
-|App| Version|
-|:---|:---|
-|Teams | .040901|
-|Administrator-Agent|.210|
-|Unternehmens Portal| .4715|
+
+| Produktversion | Veröffentlichungsdatum | Microsoft Teams-App-Version | Version des Unternehmensportals | Version des Administrator-Agents |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Aktualisieren #3       | 13. Mai 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Firmware-Versionen
-|Aktualisieren #3| Für Prod freigegebene Firmware|
-|:---|:---|
-|Yealink VC210|118.15.0.19|
+
+Wenn Sie eine neue Firmware-Version auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-APP, das Unternehmens Portal und den Administrator-Agent, Versionen, die installiert werden, ermitteln, indem Sie die Produktversion in der Spalte " **enthaltene Produktversion** " finden. Schauen Sie sich dann die Produktversion in der obigen Tabelle **App-Versionen** an.
+
+| Gerätemodell  | Firmware-Version | Enthaltene Produktversion |
+|:--------------|:-----------------|:-------------------------|
+| Yealink VC210 | 118.15.0.19      | Aktualisieren #3                |
 
 Informationen zu den von diesen Geräten unterstützten Features finden Sie unter [Microsoft Teams Phones-Funktionssatz](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) .
 
