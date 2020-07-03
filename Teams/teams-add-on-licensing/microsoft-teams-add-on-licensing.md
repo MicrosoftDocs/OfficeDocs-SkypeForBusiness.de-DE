@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-on-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170686"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028181"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams-Add-on-Lizenzen
 
@@ -164,9 +164,9 @@ Weitere Informationen finden Sie unter [gemeinnützige Angebote für Microsoft 3
 
 Als Antwort auf einen erhöhten Bedarf an Personen, die Remote arbeiten (oder von zu Hause aus arbeiten), hat Microsoft mehrere ﻿kostenlose Testversionen von Teams für Behörden, Bildungseinrichtungen und gemeinnützige Organisationen. Für diese Pläne stehen Testversionen zur Verfügung:
 
-- Office 365 Enterprise [E1](../e1-trial-license.md)-Testversion, E3-Testversion und E5-Testversion
+- Office 365 Enterprise [E1-Testversion](../e1-trial-license.md) (eingestellt ab Juli 1, 2020), E3-Testversion und E5-Testversion
 - Office 365 Education [a1-Testversion](../teams-edu-licensing.md)
-- Office 365 Government [G1-Testversion](../g1-trial-license.md)
+- Office 365 Government [G1 Trial](../g1-trial-license.md) (eingestellt ab Juli 1, 2020)
 
 Wenn Sie sich für ein Testangebot registrieren möchten, lesen Sie [registrieren für ein Testangebot](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
@@ -176,7 +176,7 @@ Hier finden Sie eine Zusammenfassung der Testangebote für Sprachfeatures.
 
   ![Testbasierte Optionen](../media/licensing-trial-offers.png)
 
- Ihr Basisplan muss kein Testangebot sein, um diese Testversionen für Sprachfeatures verwenden zu können. Sie können einen Microsoft 365 Business-Plan oder einen Enterprise-, Government-, Education-oder Non-Profit-Plan mit einem der Testangebote für Sprachfunktionen verwenden. Wenn Sie die verfügbaren Testangebote und Add-ons anzeigen möchten, wechseln Sie im Microsoft 365 Admin Center zu **Abrechnungs** > **Kauf Dienste**, wählen Sie **Andere Kategorien aus, die Sie interessieren könnten**, und wählen Sie dann **Add-ons**aus.
+ Ihr Basisplan muss kein Testangebot sein, um diese Testversionen für Sprachfeatures verwenden zu können. Sie können einen Microsoft 365 Business-Plan oder einen Enterprise-, Government-, Education-oder Non-Profit-Plan mit einem der Testangebote für Sprachfunktionen verwenden. Wenn Sie die verfügbaren Testangebote und Add-ons anzeigen möchten, wechseln Sie im Microsoft 365 Admin Center zu **Abrechnungs**  >  **Kauf Dienste**, wählen Sie **Andere Kategorien aus, die Sie interessieren könnten**, und wählen Sie dann **Add-ons**aus.
 
   Für jede dieser sprach-und Konferenzoptionen sind [Kommunikationsguthaben](../set-up-communications-credits-for-your-organization.md) erforderlich, wenn Sie über gebührenfreie Nummern verfügen oder wenn Sie zusätzliche Minuten für Benutzer hinzufügen müssen, um aus Besprechungen zu wählen oder um in-und ausländische Festnetz-Anrufe zu tätigen.
 

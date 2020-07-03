@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944008"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028161"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -30,12 +30,12 @@ In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwend
 ## <a name="what-is-vdi"></a>Was ist VDI?
 
 Virtual Desktop Infrastructure (VDI) ist eine Virtualisierungstechnologie, die ein Desktop Betriebssystem und Anwendungen auf einem zentralen Server in einem Rechenzentrum hostet. Dies ermöglicht Benutzern mit einer vollständig gesicherten und kompatiblen zentralisierten Quelle eine vollständig personalisierte Desktopoberfläche.
- 
+
 Microsoft Teams in einer virtualisierten Umgebung unterstützen Chats und Zusammenarbeit. Und mit der Citrix-Plattform werden auch Anruf-und Besprechungsfunktionen unterstützt.
 
 Teams in einer virtualisierten Umgebung unterstützen mehrere Konfigurationen. Dazu gehören VDI-, dedizierte, freigegebene, persistente und nicht persistente Modi. Die Features werden kontinuierlich weiterentwickelt und regelmäßig hinzugefügt, und die Funktionalität wird in den nächsten Monaten und Jahren erweitert.
- 
-Die Verwendung von Teams in einer virtualisierten Umgebung unterscheidet sich möglicherweise von der Verwendung von Teams in einer nicht virtualisierten Umgebung. Einige erweiterte Funktionen sind in einer virtualisierten Umgebung möglicherweise nicht verfügbar, und die Videoauflösung kann sich unterscheiden. 
+
+Die Verwendung von Teams in einer virtualisierten Umgebung unterscheidet sich möglicherweise von der Verwendung von Teams in einer nicht virtualisierten Umgebung. Einige erweiterte Funktionen sind in einer virtualisierten Umgebung möglicherweise nicht verfügbar, und die Videoauflösung kann sich unterscheiden.
 
 Befolgen Sie die Anleitungen in diesem Artikel, um eine optimale Benutzererfahrung zu gewährleisten.
 
@@ -100,12 +100,12 @@ Es folgt die empfohlene minimale VM-Konfiguration.
 
 Bei einem nicht persistenten Setup werden die Änderungen des lokalen Betriebssystems des Benutzers nicht beibehalten, nachdem sich die Benutzer abgemeldet haben. Bei solchen Setups handelt es sich um häufig freigegebene mehr Benutzersitzungen. Die VM-Konfiguration variiert je nach der Anzahl der Benutzer und den verfügbaren physikalischen Feld Ressourcen.
 
-Bei einem nicht persistenten Setup muss die Team-Desktop-App pro Computer auf das goldene Bild installiert werden. (Weitere Informationen finden Sie unter [installieren oder Aktualisieren der Desktop-App "Teams" im](#install-or-update-the-teams-desktop-app-on-vdi) Abschnitt "VDI".) Dadurch wird sichergestellt, dass die Teams-APP während einer Benutzersitzung effizient gestartet wird. 
+Bei einem nicht persistenten Setup muss die Team-Desktop-App pro Computer auf das goldene Bild installiert werden. (Weitere Informationen finden Sie unter [installieren oder Aktualisieren der Desktop-App "Teams" im](#install-or-update-the-teams-desktop-app-on-vdi) Abschnitt "VDI".) Dadurch wird sichergestellt, dass die Teams-APP während einer Benutzersitzung effizient gestartet wird.
 
 Für die Verwendung von Teams mit einem nicht beständigen Setup ist auch ein Profilcache-Manager für eine effiziente Team Laufzeit-Datensynchronisierung erforderlich. Dadurch wird sichergestellt, dass die entsprechenden benutzerspezifischen Informationen (beispielsweise Benutzerdaten, Profil und Einstellungen) während der Benutzersitzung zwischengespeichert werden. Stellen Sie sicher, dass die Daten in diesen beiden Ordnern synchronisiert sind.  
 
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
-- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 Es stehen verschiedene Caching Manager-Lösungen zur Verfügung. Beispiel: [FSLogix](https://docs.microsoft.com/fslogix/overview). Wenden Sie sich an Ihren Caching Manager-Anbieter, um bestimmte Konfigurationsanweisungen anzuzeigen.
 
@@ -143,10 +143,8 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
 
 1. Laden Sie das MSI-Paket für Teams, das Ihrem VDI-VM-Betriebssystem entspricht, mit einem der folgenden Links herunter:
 
-
     - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
     - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
-
 
     Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.3.00.4461. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt.)
 
@@ -179,6 +177,7 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
       Dieser Prozess deinstalliert Teams aus dem Ordner "Programmdateien (x86)" oder "Programmdateien", je nach Betriebssystemumgebung.
 
 ## <a name="teams-on-vdi-performance-considerations"></a>Teams zu VDI-Leistungsüberlegungen
@@ -271,9 +270,9 @@ Sie können auch die folgenden Schritte ausführen:
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
     - Wechseln Sie zu **VoIP**-  >  **Anruf Richtlinien**, und klicken Sie dann auf **DisallowCalling**.
     - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies**, und klicken Sie dann auf **AllOff**.
-3. Wählen Sie **Nutzer verwalten** aus.
-4. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
-5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
+2. Wählen Sie **Nutzer verwalten** aus.
+3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
+4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell
 
@@ -327,9 +326,9 @@ Sie können auch die folgenden Schritte ausführen:
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
     - Wechseln Sie zu **VoIP**-  >  **Anruf Richtlinien**, und klicken Sie dann auf **AllowCalling**.
     - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies**, und klicken Sie dann auf **Allon**.
-3. Wählen Sie **Nutzer verwalten** aus.
-4. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
-5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
+2. Wählen Sie **Nutzer verwalten** aus.
+3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
+4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell
 
