@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638384"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028171"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -50,7 +50,7 @@ Laden Sie die Objekte von [hier](https://aka.ms/flwteamsscale) herunter.
 
 ## <a name="technical-requirements"></a>Technische Anforderungen
 
-- Ihr Mandant muss über die entsprechende Anzahl von Lizenzen verfügen, die Microsoft Teams umfassen. Sollten Sie noch nicht über diese Lizenzen verfügen, folgen Sie den Anweisungen, um die [kostenlose Testversion von Office 365 E1](e1-trial-license.md) zu aktivieren.
+- Ihr Mandant muss über die entsprechende Anzahl von Lizenzen verfügen, die Microsoft Teams umfassen. Falls Sie diese Lizenzen noch nicht besitzen, können Sie unter [Teams Exploratory](teams-exploratory.md) ein kostenloses Probeabonnement erwerben.
 - Benutzern, die diese Schritte durchführen, müssen in Azure AD die folgenden Rollen zugewiesen sein: Globaler Administrator, Benutzer-Administrator und Teams-Dienst-Administrator.
 - Der Benutzer muss über die Berechtigung zum Installieren und Konfigurieren von Software auf dem lokalen Computer verfügen.
 
