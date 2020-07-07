@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689811"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049412"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -133,6 +132,10 @@ Führen Sie die folgenden Schritte aus, um Probleme mit dem Add-in "Teams-Bespre
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Teambesprechung-Add-in in Outlook für Windows wird nicht angezeigt
 
 Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren können, versuchen Sie diese Schritte zur Problembehandlung.
+
+[Laden](https://aka.ms/SaRA-TeamsAddInScenario) Sie den [Microsoft Support Recovery Assistant](https://aka.ms/SaRA_Home) herunter, und führen Sie ihn aus, um automatisierte Schritte zur Problembehandlung und Korrekturen auszuführen.
+
+Alternativ können Sie die folgenden Schritte manuell ausführen:
 
 - Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für die Teams-Besprechung funktioniert.
 - Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Teams verfügt, die das Planen von Besprechungen in Teams ermöglicht. Weitere Informationen finden Sie unter [Upgrade von Skype for Business in Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .

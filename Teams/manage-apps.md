@@ -17,12 +17,11 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
-ms.translationtype: MT
+ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028091"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042927"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
@@ -77,6 +76,9 @@ Wenn Sie eine APP auf der Seite " **apps verwalten** " blockieren oder zulassen,
 
 Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer apps von Drittanbietern installieren können und ob Benutzer benutzerdefinierte apps in Ihrer Organisation hochladen oder mit ihnen interagieren können. Organisationsweite App-Einstellungen Regeln das Verhalten für alle Benutzer und überschreiben alle anderen APP-Berechtigungsrichtlinien, die Benutzern zugewiesen sind. Sie können Sie verwenden, um schädliche oder problematische apps zu steuern.
 
+> [!NOTE]
+> Die Seite " **apps verwalten** " steht in den Microsoft 365-Bereitstellungen von Teams für den Government-gcc noch nicht zur Verfügung.  Informationen zum Verwenden von organisationsweiten App-Einstellungen zum Aktivieren oder Deaktivieren von Drittanbieter-apps finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).
+
 1. Wählen Sie auf der Seite **apps verwalten** die Option **organisationsweite App-Einstellungen**aus. Anschließend können Sie die gewünschten Einstellungen im Panel konfigurieren.
 
     ![Screenshot der organisationsweiten App-Einstellungen](media/manage-apps-org-wide-app-settings.png)
@@ -84,9 +86,6 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer a
 2. Deaktivieren oder aktivieren Sie unter **apps von Drittanbietern**diese Einstellungen, um den Zugriff auf Drittanbieter-apps zu steuern:
 
     - **Drittanbieter-apps zulassen**: Hiermit wird gesteuert, ob Benutzer apps von Drittanbietern verwenden können. Wenn Sie diese Einstellung deaktivieren, sind Ihre Benutzer nicht in der Lage, Apps von Drittanbietern zu installieren oder zu verwenden, und der APP-Status dieser Apps wird in der Tabelle als **blockiert org-weit** angezeigt.
-
-        > [!NOTE]
-        > In einer Microsoft 365 Government-gcc-Bereitstellung von Teams ist die Einstellung **Drittanbieter-apps zulassen** standardmäßig deaktiviert.
 
         Wenn **Drittanbieter-apps zulassen** deaktiviert ist, werden [ausgehende webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) deaktiviert, was bedeutet, dass Benutzer Sie nicht erstellen können. Wenn diese Einstellung aktiviert ist, werden ausgehende webhooks für alle Benutzer aktiviert, unabhängig davon, ob die Einstellung in der APP-Berechtigungsrichtlinie für Benutzer aktiviert oder deaktiviert ist.
     - **Alle neuen Drittanbieter-apps zulassen, die standardmäßig im Store veröffentlicht**werden: Hiermit wird gesteuert, ob neue Drittanbieter-apps, die im App Store für Teams veröffentlicht werden, automatisch in Teams verfügbar sind. Diese Option kann nur festgesetzt werden, wenn Sie Drittanbieter-apps zulassen.

@@ -16,12 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: MT
+ms.openlocfilehash: a7e4e24b871ab537e336ddbd2b25c0d44408c299
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136785"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042787"
 ---
 # <a name="steering-committee"></a>Lenkungsausschuss
 
@@ -88,7 +87,7 @@ Berücksichtigen Sie beim Planen einer Ausschuss Besprechung die Projekt-und Org
 
 ### <a name="prepare-for-the-meeting"></a>Vorbereiten für die Besprechung
 
-Sie müssen sich auf die Besprechung vorbereiten, damit Sie die Zeit der anderen optimal nutzen können. Das Core-Team kann mit der Vorbereitung des Materials für die Sitzung des Lenkungsausschusses beginnen. Die Vorlage für das Lenkungskomitee kann als Ausgangspunkt für die Vorbereitung verwendet werden (Vorlage für das Lenkungsgremium – Vorlage für den Link zur PPT-Beispielvorlage).
+Sie müssen sich auf die Besprechung vorbereiten, damit Sie die Zeit der anderen optimal nutzen können. Das Core-Team kann mit der Vorbereitung des Materials für die Sitzung des Lenkungsausschusses beginnen. Sie können eine PowerPoint-Präsentation erstellen, um die Vorbereitung auf die Besprechung zu unterstützen.
 
 Die folgenden Ressourcen sollten ausgefüllt und im Präsentations Stapel für die Besprechung enthalten sein:
 

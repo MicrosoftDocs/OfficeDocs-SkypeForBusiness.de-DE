@@ -15,12 +15,11 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816626"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042877"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 
@@ -97,13 +96,13 @@ Wie bereits erwähnt, können Sie Lösch Szenarien überwachen. Es ist möglich,
 
 ![Screenshot der Seite "Richtlinie erstellen" mit der Einrichtung einer Richtlinie für die Löschung von Massen Teams](media/TeamsMassDeletePolicy.png)
 
-Wie der Screenshot zeigt, können Sie für diese Richtlinie viele verschiedene Parameter festlegen, um die Löschungen von Teams zu überwachen, einschließlich Schweregrad, einzelne oder wiederholte Aktionen und Parameter, die dies auf Teams und das Löschen von Websites einschränken. Dies kann unabhängig von einer Vorlage erfolgen, oder es kann eine Vorlage erstellt werden, um diese Richtlinie abhängig von Ihren organisatorischen Anforderungen zu deaktivieren.
+Wie der Screenshot zeigt, können Sie für diese Richtlinie viele verschiedene Parameter festlegen, um die Löschungen von Teams zu überwachen, einschließlich Schweregrad, einzelne oder wiederholte Aktionen und Parameter, die dies auf Teams und das Löschen von Websites einschränken. Dies kann unabhängig von einer Vorlage erfolgen, oder es ist möglich, dass Sie je nach Ihren organisatorischen Anforderungen eine Vorlage erstellen, auf der diese Richtlinie basiert.
 
 Nachdem Sie eine Richtlinie eingerichtet haben, die für Ihr Unternehmen funktionieren wird, können Sie die Ergebnisse im Aktivitätsprotokoll überprüfen, wenn Ereignisse ausgelöst werden:
 
 ![Screenshot einer Liste von Ereignissen, die durch Massenlöschungen ausgelöst werden](media/TeamsMassDeleteList.png)
 
-Sie können nach unten auf die Richtlinie filtern, die Sie festgelegt haben, um die Ergebnisse dieser Richtlinie anzuzeigen. Wenn die Ergebnisse, die Sie im Aktivitätsprotokoll erhalten, nicht zufrieden stellend sind (möglicherweise sehen Sie vielleicht viele Ergebnisse oder gar nichts), kann dies Ihnen helfen, die Abfrage zu optimieren, damit Sie für das, was Sie benötigen, relevanter ist.
+Sie können nach unten auf die Richtlinie filtern, die Sie festgelegt haben, um die Ergebnisse dieser Richtlinie anzuzeigen. Wenn die Ergebnisse, die Sie im Aktivitätsprotokoll erhalten, nicht zufrieden stellend sind (vielleicht sehen Sie viele Ergebnisse oder gar nichts), kann dies Ihnen helfen, die Abfrage zu optimieren, damit Sie relevanter für das ist, was Sie benötigen.
 
 ### <a name="alert-and-governance-scenario"></a>Benachrichtigungs-und Governance-Szenario
 
@@ -138,6 +137,7 @@ Im folgenden finden Sie eine Liste aller Ereignisse, die für Benutzer-und Admin
 |Gelöschter Kanal     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
 |Installierte App |AppInstalled         |Eine App wurde installiert.   |
+|Aktion auf Karte durchgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat auf einer adaptiven Karte gehandelt. Adaptive Karten werden in der Regel von Bots verwendet, um die reichhaltige Anzeige von Informationen und Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Im Überwachungsprotokoll stehen nur Inline Eingabeaktionen auf einer adaptiven Karte in einem Chat zur Verfügung. Wenn ein Benutzer beispielsweise eine Umfrageantwort in einer Kanal Unterhaltung über eine Adaptive Karte sendet, die von einem Umfrage-bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", mit denen ein Dialogfeld geöffnet wird, oder Benutzeraktionen innerhalb von Dialogfeldern stehen im Überwachungsprotokoll nicht zur Verfügung.|
 |Veröffentlichte App |AppPublishedToCatalog           |Dem Katalog wurde eine app hinzugefügt.     |
 |Bot aus dem Team entfernt   |BotRemovedFromTeam         |Ein Benutzer entfernt einen bot aus einem Team.       |
 |Connector entfernt     |ConnectorRemoved         |Ein Benutzer entfernt einen Connector aus einem Kanal.         |
