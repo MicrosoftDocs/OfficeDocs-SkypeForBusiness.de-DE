@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie das direkte Routing des Microsoft Phone-Systems konfigurieren.
-ms.openlocfilehash: 2b675948153589c73fa545a95ac785b716b55265
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 545d6a77fd9b3ee0462437b5b710d1d4eb782138
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157972"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077650"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Übersetzen von Telefonnummern in ein anderes Format
 
@@ -45,7 +45,10 @@ Die Richtlinie wird auf der SBC-Ebene angewendet. Sie können einem SBC mehrere 
 
 Zum Erstellen, ändern, anzeigen und Löschen von Regeln für die Nummern Manipulation verwenden Sie die Cmdlets [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Sets-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)und [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) .
 
-Verwenden Sie die Cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) und [setCSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) zusammen mit den Cmdlets InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRulesList, InboundPSTNNumberTranslationRulesList, OutboundTeamsNumberTranslationRulesList und OutboundPSTNNumberTranslationRulesList, um Regeln für die Nummern Manipulation in SBCS zuzuweisen, zu konfigurieren und zu Listen. Parameter.
+Verwenden Sie die Cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) und [setCSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) zusammen mit den Parametern InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRulesList, InboundPSTNNumberTranslationRulesList, OutboundTeamsNumberTranslationRulesList und OutboundPSTNNumberTranslationRulesList, um Nummern Manipulations Regeln für SBCS zuzuweisen, zu konfigurieren und zu Listen.
+
+>[!NOTE]
+> Die maximale Gesamtzahl der Übersetzungsregeln lautet 400, die maximale Länge des Übersetzungs Parameters ist 100-Symbole, die maximale Länge des Translation-Parameter-Musters ist 1024-Symbole, und die maximale Übersetzungsparameter-Übersetzungs Länge beträgt 256-Symbole.
 
 
 ## <a name="example-sbc-configuration"></a>Beispiel-SBC-Konfiguration
@@ -60,10 +63,10 @@ Die dem SBC zugewiesenen Übersetzungsregeln sind in der folgenden Tabelle zusam
 
 |Name  |Muster |Übersetzung  |
 |---------|---------|---------|
-|AddPlus1     |^ (\d{10}) $          |+1$1          |
-|AddE164SeattleAreaCode      |^ (\d{4}) $          | + 1206555 $1         |
-|AddSeattleAreaCode    |^ (\d{4}) $          | 425555 $1         |
-|StripPlus1    |^ + 1 (\d{10}) $          | $1         |
+|AddPlus1     |^ (\d {10} ) $          |+1$1          |
+|AddE164SeattleAreaCode      |^ (\d {4} ) $          | + 1206555 $1         |
+|AddSeattleAreaCode    |^ (\d {4} ) $          | 425555 $1         |
+|StripPlus1    |^ + 1 (\d {10} ) $          | $1         |
 
 In den folgenden Beispielen gibt es zwei Benutzer: Alice und Bob. Alice ist ein Team Benutzer, dessen Nummer + 1 206 555 0100 ist. Bob ist ein PSTN-Benutzer, dessen Nummer + 1 425 555 0100 ist.
 
@@ -76,8 +79,8 @@ SBC verwendet 2065550100 in den RequestURI und den Headern und 4255550100 im fro
 |Header  |Original |Übersetzte Kopfzeile |Parameter und Regel angewendet  |
 |---------|---------|---------|---------|
 |RequestURI  |Einladen von SIP:2065550100@SBC.contoso.com|Einladen von SIP:+12065550100@SBC.contoso.com|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
-|An    |An: \<SIP:2065550100@SBC.contoso.com>|An: \<SIP:+12065550100@SBC.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
-|Von   |Von: \<SIP:4255550100@SBC.contoso.com>|Von: \<SIP:+14255550100@SBC.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+|An    |An:\<sip:2065550100@sbc.contoso.com>|An:\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
+|Von   |Von:\<sip:4255550100@sbc.contoso.com>|Von:\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Beispiel 2: eingehende Anrufe an eine vierstellige Zahl
 
@@ -88,8 +91,8 @@ SBC verwendet 0100 in den RequestURI und den Headern und 4255550100 im from-Head
 |Header  |Original |Übersetzte Kopfzeile |Parameter und Regel angewendet  |
 |---------|---------|---------|---------|
 |RequestURI  |Einladen von SIP:0100@SBC.contoso.com          |Einladen von SIP:+12065550100@SBC.contoso.com           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
-|An    |An: \<SIP:0100@SBC.contoso.com>|An: \<SIP:+12065550100@SBC.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
-|Von   |Von: \<SIP:4255550100@SBC.contoso.com>|Von: \<SIP:+14255550100@SBC.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+|An    |An:\<sip:0100@sbc.contoso.com>|An:\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
+|Von   |Von:\<sip:4255550100@sbc.contoso.com>|Von:\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Beispiel 3: ausgehender Anruf mit einer zehnstelligen nicht-E. 164-Nummer
 
@@ -102,8 +105,8 @@ In diesem Szenario übersetzt ein Wählplan die Nummer vor dem Senden an die dir
 |Header  |Original |Übersetzte Kopfzeile |Parameter und Regel angewendet  |
 |---------|---------|---------|---------|
 |RequestURI  |Einladen von SIP:+14255550100@SBC.contoso.com          |Einladen von SIP:4255550100@SBC.contoso.com       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
-|An    |An: \<SIP:+14255550100@SBC.contoso.com>|An: \<SIP:4255555555@SBC.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
-|Von   |Von: \<SIP:+12065550100@SBC.contoso.com>|Von: \<SIP:2065550100@SBC.contoso.com>|OutboundTeamsNumberTranlationRulesList 'StripPlus1'         |
+|An    |An:\<sip:+14255550100@sbc.contoso.com>|An:\<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
+|Von   |Von:\<sip:+12065550100@sbc.contoso.com>|Von:\<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRulesList 'StripPlus1'         |
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Beispiel 4: Outbound-Anruf mit einer vierstelligen nicht-E. 164-Nummer
 
@@ -114,8 +117,8 @@ SBC ist für die Verwendung von nicht-E. 164-vierstelligen Zahlen für Teams-Ben
 |Header  |Original |Übersetzte Kopfzeile |Parameter und Regel angewendet  |
 |---------|---------|---------|---------|
 |RequestURI  |Einladen von SIP:0100@SBC.contoso.com           |Einladen von SIP:4255550100@SBC.contoso.com       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
-|An    |An: \<SIP:0100@SBC.contoso.com>|An: \<SIP:4255555555@SBC.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
-|Von   |Von: \<SIP:+12065550100@SBC.contoso.com>|Von: \<SIP:2065550100@SBC.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
+|An    |An:\<sip:0100@sbc.contoso.com>|An:\<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|Von   |Von:\<sip:+12065550100@sbc.contoso.com>|Von:\<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
 
 ## <a name="see-also"></a>Siehe auch
 

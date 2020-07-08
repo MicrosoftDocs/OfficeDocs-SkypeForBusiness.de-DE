@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Cloud-Telefonzentralen und deren Verwendung, um Anrufern das Navigieren in einem Menü System zu ermöglichen, um Anrufe an Benutzer oder Abteilungen zu suchen und dort zu platzieren oder zu übertragen.
-ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665187"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077640"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloud-Telefonzentralen?
 
@@ -42,7 +42,7 @@ Zum Einrichten einer automatischen Telefonzentrale für Telefonsysteme wechseln 
 Eine automatische Cloud-Telefonzentrale verfügt über die folgenden Features:
   
 - Sie kann Unternehmensbegrüßungen oder informative Begrüßungen bereitstellen.
-- Sie kann benutzerdefinierte Unternehmensmenüs bereitstellen. Diese Menüs können Sie so anpassen, dass sie aus mehreren Ebenen bestehen.
+- It can provide custom corporate menus. You can customize these menus to have more than one level.
 - Sie bietet eine Verzeichnissuche, mit der Personen, die in das Verzeichnis der Organisation anrufen, nach einem Namen suchen können.
 - Damit können Personen, die in Ihrer Organisation anrufen, eine Nachricht erreichen oder eine Nachricht hinterlassen.
 - Sie unterstützt mehrere Sprachen für Eingabeaufforderungen, Text-zu-Sprache und Spracherkennung.
@@ -71,8 +71,9 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen
     > [!IMPORTANT]
     > Telefonnummern von Benutzern (Abonnenten) können automatischen Telefonzentralen nicht zugewiesen werden - es können nur gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
 
-- Ein vollständiges System der automatischen Telefonzentrale umfasst in der Regel mehrere automatische Telefonzentralen und erfordert möglicherweise nur eine einzelne zugewiesene Telefonnummer für die automatische Telefonzentrale der obersten Ebene oder des Eintrags. Bei anderen automatischen Telefonzentralen oder Anrufwarteschlangen im gesamten System wird nur eine Telefonnummer benötigt, wenn Sie mehrere Einstiegspunkte in das System eingeben möchten.
-- Es ist möglich, einer automatischen Telefonzentrale mehr als eine Telefonnummer zuzuweisen, indem Sie einer automatischen Telefonzentrale mehr als ein Ressourcenkonto zuordnen.
+- Ein vollständiges System für die automatische Telefonzentrale umfasst in der Regel mehrere automatische Telefonzentralen.
+- Es ist möglich, mehr als eine Telefonnummer für automatische Telefonzentralen auf der Einstiegsebene zu verwenden.
+- Für automatische Telefonzentralen oder Anrufwarteschlangen im gesamten System wird nur eine Telefonnummer benötigt, wenn Sie ausgehende PSTN-Anrufe tätigen.
   
 ## <a name="feature-overview"></a>Funktionsübersicht
 

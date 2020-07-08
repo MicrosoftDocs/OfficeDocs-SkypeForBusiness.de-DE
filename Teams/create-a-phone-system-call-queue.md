@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht bereitstellen, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697422"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077714"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -69,7 +69,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
   > Direct Routing-Dienstnummern für Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
 
 > [!NOTE]
-> Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online sind, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder über Microsoft 365 oder Office 365-Anrufpläne verfügen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Wenn Sie sie für Enterprise-VoIP aktivieren möchten, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online sind, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder über Microsoft 365 oder Office 365-Anrufpläne verfügen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Wenn Sie sie für Enterprise-VoIP aktivieren möchten, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise: "CsUser-Identity" Amos Marble "-EnterpriseVoiceEnabled $true aus.
 
 - Weitere Informationen zu Anrufplänen finden Sie unter [Telefon System-und Anruf](calling-plan-landing-page.md) Pläne sowie [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md).
 
@@ -174,11 +174,11 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
 - Lokale Skype for Business Server-Benutzer
 
   > [!NOTE]
-  > Dies gilt auch, wenn Sie Anrufe an Personen in Ihrer Organisation umleiten möchten, die Online sind. Diese Personen müssen über eine **Telefon System** Lizenz und Enterprise-VoIP verfügen *oder* über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen für Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Zuweisen von Microsoft Teams-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)oder [der richtige Anrufplan für Sie?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > Dies gilt auch, wenn Sie Anrufe an Personen in Ihrer Organisation umleiten möchten, die Online sind. Diese Personen müssen über eine Telefon System Lizenz und Enterprise-VoIP verfügen *oder* über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen für Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Zuweisen von Microsoft Teams-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)oder [der richtige Anrufplan für Sie?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
    Um einen Agenten für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Benutzer mit einer **Telefon System** Lizenz oder einem Anrufplan, die einer Microsoft 365-Gruppe, einer e-Mail-aktivierten Verteilerliste oder einer Sicherheitsgruppe hinzugefügt werden. Wenn Sie einen Agenten in einer Verteilerliste oder einer Sicherheitsgruppe als Anruf Warteschlangen-Agent hinzufügen, kann es bis zu drei Stunden dauern, bis der erste Anruf eintrifft. Eine neu erstellte Verteilerliste oder Sicherheitsgruppe kann bis zu 48 Stunden dauern, bis Sie für die Verwendung mit Anrufwarteschlangen verfügbar ist. Neu erstellte Microsoft 365-Gruppen sind fast sofort verfügbar.
+- Benutzer mit einer Telefon System Lizenz oder einem Anrufplan, die einer Microsoft 365-Gruppe, einer e-Mail-aktivierten Verteilerliste oder einer Sicherheitsgruppe hinzugefügt werden. Wenn Sie einen Agenten in einer Verteilerliste oder einer Sicherheitsgruppe als Anruf Warteschlangen-Agent hinzufügen, kann es bis zu drei Stunden dauern, bis der erste Anruf eintrifft. Eine neu erstellte Verteilerliste oder Sicherheitsgruppe kann bis zu 48 Stunden dauern, bis Sie für die Verwendung mit Anrufwarteschlangen verfügbar ist. Neu erstellte Microsoft 365-Gruppen sind fast sofort verfügbar.
 
 - Wenn Ihre Agents die Microsoft Teams-App für Anruf Warteschlangen Anrufe verwenden, müssen Sie sich im TeamsOnly-Modus befinden.
 
@@ -274,11 +274,23 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Umleitung zu** Wenn Sie diese Option auswählen, wählen Sie eine der folgenden Optionen aus:
 
-  - **Person in der Organisation** Einen Online Benutzer mit einer **Telefon System** Lizenz, der für Enterprise-VoIP aktiviert ist oder einen Anrufplan hat. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann. Wählen Sie dazu eine Person in Ihrer Organisation aus, und legen Sie fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
+  - **Person in der Organisation** Einen Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder einen Anrufplan hat. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann. Wählen Sie dazu eine Person in Ihrer Organisation aus, und legen Sie fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
 
   Informationen zu den für Voicemail erforderlichen Lizenzen finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
 
   - **Sprach-App** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
+
+  - **Externe Telefonnummer** Wählen Sie diese Option aus, um den Anrufer an eine von Ihnen angegebene externe Telefonnummer zu übertragen. Beachten Sie Folgendes:
+
+    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
+        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
+    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
+        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
+            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
+            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
+    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
 
 * * *
 
@@ -292,11 +304,23 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Diesen Anruf umleiten an** Wenn Sie diese Option auswählen, haben Sie folgende Möglichkeiten:
-  - **Person in der Organisation** Einen Online Benutzer mit einer **Telefon System** Lizenz, der für Enterprise-VoIP aktiviert ist oder Anrufpläne hat. Wenn Sie die Person so einrichten möchten, dass Sie an Voicemail gesendet werden kann, wählen Sie eine Person in Ihrer Organisation aus, und legen Sie diese Person so fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
+  - **Person in der Organisation** Einen Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder Anrufpläne hat. Wenn Sie die Person so einrichten möchten, dass Sie an Voicemail gesendet werden kann, wählen Sie eine Person in Ihrer Organisation aus, und legen Sie diese Person so fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
 
   Informationen zu den für Voicemail erforderlichen Lizenzen finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
 
   - **Sprach-App** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die Sie bereits erstellt haben.
+
+  - **Externe Telefonnummer** Wählen Sie diese Option aus, um den Anrufer an eine von Ihnen angegebene externe Telefonnummer zu übertragen. Beachten Sie Folgendes:
+
+    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
+        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
+    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
+        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
+            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
+            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
+    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Ändern der Rufnummernanzeige für ausgehende Anrufe
 

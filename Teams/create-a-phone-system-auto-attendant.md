@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 247cb553c2fb3c4dafd1a36b826fc13f2f21b0ce
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44874256"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077715"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -88,7 +88,19 @@ Sie haben mehrere Möglichkeiten, den Operator einzurichten:
      > [!Note]
      > Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Wenn Sie eine **Person in der Organisation** auswählen, können Sie ein Konto mit einem freigegebenen Postfach oder einem Benutzerpostfach auswählen.
 
-- **Sprach-App**  Wählen Sie den Namen des Ressourcenkontos aus, das mit einer automatischen Telefonzentrale oder einer Anrufwarteschlange verknüpft ist, die bereits erstellt wurde. Anrufer, die einen Operator anfordern, werden dorthin umgeleitet.  
+- **Sprach-App**  Wählen Sie den Namen des Ressourcenkontos aus, das mit einer automatischen Telefonzentrale oder einer Anrufwarteschlange verknüpft ist, die bereits erstellt wurde. Anrufer, die einen Operator anfordern, werden dorthin umgeleitet.
+- **Externe** Rufnummer übergibt den Anrufer an eine von Ihnen angegebene externe Telefonnummer. Beachten Sie Folgendes:
+
+    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
+        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
+    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
+        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
+            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
+            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
+    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
+
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -157,15 +169,27 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 
 ![Symbol der Zahl 4: eine Beschriftung im vorherigen Screenshot- ](media/teamscallout4.png) **Umleitungs Anruf** sendet den Anrufer an das gewählte Ziel, ohne eine der Optionen zu wählen. Die möglichen Einstellungen lauten wie folgt:
 
-  - **Person in der Organisation** Für das von Ihnen ausgewählte Konto muss eine Telefon System Lizenz für Enterprise-VoIP aktiviert sein, oder Sie verfügen über einen zugewiesenen Anrufplan in Microsoft 365 oder Office 365. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann: Wählen Sie **Person in der Organisation** aus, und legen Sie fest, dass Anrufe direkt an Voicemail weitergeleitet werden.
+  - **Person in der Organisation** Für das von Ihnen ausgewählte Konto muss eine Telefon System Lizenz für Enterprise-VoIP aktiviert sein, oder Sie verfügen über einen zugewiesenen Anrufplan in Microsoft 365 oder Office 365. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann. Wählen Sie die **Person in der Organisation** aus, und legen Sie fest, dass Anrufe direkt an Voicemail weitergeleitet werden sollen.
 
     > [!Note]
     > Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Wenn Sie eine **Person in der Organisation** auswählen, können Sie ein Konto mit einem freigegebenen Postfach oder einem Benutzerpostfach auswählen.
 
   - **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das dem Dienst zugeordnet ist.
+  - **Externe** Rufnummer übergibt den Anrufer an eine von Ihnen angegebene externe Telefonnummer. Beachten Sie Folgendes:
+
+    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
+        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
+    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
+        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
+            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
+            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
+    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
   - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser automatischen Telefonzentrale empfangene Voicemail zugreifen müssen. Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
 
       Schalten Sie die **Transkription** auf **ein** , um die sprach-zu-Text-Transkription von Voicemail-Nachrichten zu aktivieren.
+
 
  * * *
 
@@ -201,6 +225,18 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 - Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Der Benutzer muss über eine Telefon System Lizenz verfügen, die für Enterprise-VoIP oder zugewiesene Anrufpläne in Microsoft 365 oder Office 365 aktiviert ist. Suchen Sie im Feld nach **Name suchen** nach der betreffenden Person.
 
 - **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das der Anwendung zugeordnet ist.
+
+- **Externe** Rufnummer übergibt den Anrufer an eine von Ihnen angegebene externe Telefonnummer. Beachten Sie Folgendes:
+
+    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
+        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
+    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
+        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
+            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
+            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
+    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
 
 - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser automatischen Telefonzentrale empfangene Voicemail zugreifen müssen. Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
 

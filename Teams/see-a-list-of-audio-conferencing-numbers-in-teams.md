@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie die Nummern für Einwahlkonferenzen in Microsoft Teams nachschlagen können, die für Audiokonferenzen verfügbar sind.
-ms.openlocfilehash: d7eb7f1e1679e49f6a6e1b09009a6772cf1bc47f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c2d8850ddda3581932565e8d1dc2357c261e4e15
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691181"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077660"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 
@@ -38,9 +38,6 @@ Bein Einrichten von Audiokonferenzen für Microsoft Teams-Benutzer können Sie d
 Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardnummer wird in den Einladungen für Microsoft Teams-Besprechungen angegeben.
   
 Weitere Informationen zum Ändern der Dial-in-Telefonnummer für einen einzelnen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
-  
-> [!NOTE]
-> Inländische Einwahlnummern sind Ihrer Organisation zugeordnet. Nur solche Nummern können als Standardtelefonnummer eingestellt werden. Internationale Einwahlnummern können von mehreren Organisationen gemeinsam verwendet werden. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
