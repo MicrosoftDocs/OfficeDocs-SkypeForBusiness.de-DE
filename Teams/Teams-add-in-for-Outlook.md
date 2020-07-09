@@ -18,11 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049412"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085241"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -175,3 +176,6 @@ Wenn das Add-in immer noch nicht angezeigt wird, führen Sie die folgenden Schri
 Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. Um dieses Problem zu umgehen, kann Ihr Administrator die folgende Zeichenfolge zur Zulassungsliste für EWS hinzufügen: "*SchedulingService*". 
 
 
+## <a name="related-topics"></a>Verwandte Themen
+
+[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

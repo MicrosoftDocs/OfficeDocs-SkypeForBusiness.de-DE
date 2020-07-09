@@ -1,14 +1,13 @@
 ---
-title: Implementieren von Quality of Service in Teams-Clients
+title: Implementieren von Quality of Service (QoS) in Microsoft Teams-Clients
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
-description: Hier erfahren Sie, wie Sie das Netzwerk für Ihre Organisation für Quality of Service (QoS) in Microsoft Teams vorbereiten.
+description: Erfahren Sie, wie QoS (Quality of Service) zur Optimierung des Netzwerkverkehrs für den Microsoft Teams-Desktop Client verwendet wird.
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -18,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904560"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085531"
 ---
-# <a name="set-qos-on-windows-clients"></a>Festlegen von QoS auf Windows-Clients
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams-Clients
 
-Sie können richtlinienbasierte QoS in Gruppenrichtlinien verwenden, um den Quellportbereich für den vordefinierten DSCP-Wert im Teams-Client festzulegen. Die in der folgenden Tabelle angegebenen Portbereiche stellen einen Ausgangspunkt zum Erstellen einer Richtlinie für jede Arbeitsauslastung dar.
+Sie können die richtlinienbasierte QoS (Quality of Service) in Gruppenrichtlinien verwenden, um den Quellportbereich für den vordefinierten DSCP-Wert im Teams-Client festzulegen. Die in der folgenden Tabelle angegebenen Portbereiche stellen einen Ausgangspunkt zum Erstellen einer Richtlinie für jede Arbeitsauslastung dar.
 
 *Tabelle 1 Empfohlene anfängliche Portbereiche*
 
@@ -54,7 +53,7 @@ Wenn Sie eine QoS-audiorichtlinie für mit der Domäne verbundene Windows 10-Com
 
 1. Geben Sie im Dialogfeld **richtlinienbasierte QoS** auf der Seite öffnen im Feld **Name** einen Namen für die neue Richtlinie ein. Wählen Sie **DSCP-Wert angeben** aus, und legen Sie den Wert auf **46**fest. Geben Sie die **ausgehende Drosselungs Rate** nicht ausgewählt ein, und klicken Sie dann auf **weiter**.
 
-1. Wählen Sie auf der nächsten Seite **nur Anwendungen mit diesem ausführbaren Namen** aus, geben Sie den Namen **Teams. exe**ein, und klicken Sie dann auf **weiter**. Mit dieser Einstellung wird die Richtlinie angewiesen, nur den übereinstimmenden Datenverkehr vom Team-Client zu priorisieren.
+1. Wählen Sie auf der nächsten Seite **nur Anwendungen mit diesem ausführbaren Namen** aus, geben Sie den Namen **Teams.exe**ein, und klicken Sie dann auf **weiter**. Mit dieser Einstellung wird die Richtlinie angewiesen, nur den übereinstimmenden Datenverkehr vom Team-Client zu priorisieren.
 
 1. Stellen Sie auf der dritten Seite sicher, dass sowohl **eine Quell-** als auch **eine beliebige Ziel-IP-Adresse** ausgewählt ist, und klicken Sie dann auf **weiter**. Durch diese beiden Einstellungen wird sichergestellt, dass Pakete unabhängig davon verwaltet werden, auf welchem Computer (IP-Adresse) die Pakete gesendet werden und auf welchem Computer (IP-Adresse) die Pakete empfangen werden.
 
@@ -86,9 +85,9 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Werte aus dem
    gpresult /R > gp.txt
    ```
 
-   Dadurch wird ein Bericht über angewendete GPOs generiert und an eine Textdatei mit dem Namen " *GP. txt*" gesendet.
+   Dadurch wird ein Bericht über angewendete GPOs generiert und an eine Textdatei mit dem Namen *gp.txt*gesendet.
 
-   Geben Sie den folgenden Befehl ein, um einen besser lesbaren HTML-Bericht mit dem Namen " *GP. html*" zu finden:
+   Geben Sie den folgenden Befehl ein, um einen besser lesbaren HTML-Bericht mit dem Namen *gp.html*zu finden:
 
    ```console
    gpresult /H gp.html
@@ -98,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Werte aus dem
 
 1. Öffnen Sie den Registrierungs-Editor, und wechseln Sie zu
 
-   HKEY\_-\_Software\\\\Richtlinien\\für lokale\\Computer\\Microsoft Windows-QoS
+   HKEY \_ - \_ Software Richtlinien für lokale Computer \\ \\ \\ Microsoft \\ Windows- \\ QoS
 
    Überprüfen Sie die Werte für die Registrierungseinträge, die in Tabelle 2 aufgeführt sind.
 
@@ -119,3 +118,8 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Werte aus dem
    | | | |
 
 1. Überprüfen Sie, ob der Wert für den Anwendungsnamen Eintrag für den verwendeten Client richtig ist, und überprüfen Sie, ob der DSCP-Wert und die lokalen Port Einträge die Einstellungen im Gruppenrichtlinienobjekt widerspiegeln.
+
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Implementieren von Quality of Service (QoS) in Teams](QoS-in-Teams.md)

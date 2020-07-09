@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c90f5e62dbc3cc4944031eeaa9a19a6fc35bb47f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691321"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085811"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Erfahren Sie, wie Sie Audiokonferenzen in Microsoft Teams bereitstellen
 
@@ -148,7 +148,7 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was sind Wählpläne?](w
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>Behandeln von Problemen mit der Besprechungs- und Anrufqualität 
 
-Sie haben in Teams zwei Möglichkeiten, Probleme mit der Anrufqualität zu überwachen und zu behandeln: [Anrufanalyse und das Anrufqualitätsdashboard](difference-between-call-analytics-and-call-quality-dashboard.md). Die Anrufanalyse zeigt detaillierte Informationen zu den Geräten und Netzwerken sowie zur Konnektivität im Zusammenhang mit bestimmten Anrufen und Besprechungen für die einzelnen Benutzer. Die Anrufanalyse ist dazu gedacht, Administratoren und Helpdesk-Agents bei der Behandlung von Problemen mit der Anrufqualität bei bestimmten Anrufen zu unterstützen, während das Anrufqualitätsdashboard Administratoren und Netzwerktechnikern beim Optimieren von Netzwerken hilft. Das Anrufqualitätsdashboard stellt nicht bestimmte Benutzer, sondern aggregierte Informationen für die gesamte Teams-Organisation in den Mittelpunkt. 
+Sie haben in Teams zwei Möglichkeiten, Probleme mit der Anrufqualität zu überwachen und zu behandeln: [Anrufanalyse und das Anrufqualitätsdashboard](monitor-call-quality-qos.md). Die Anrufanalyse zeigt detaillierte Informationen zu den Geräten und Netzwerken sowie zur Konnektivität im Zusammenhang mit bestimmten Anrufen und Besprechungen für die einzelnen Benutzer. Die Anrufanalyse ist dazu gedacht, Administratoren und Helpdesk-Agents bei der Behandlung von Problemen mit der Anrufqualität bei bestimmten Anrufen zu unterstützen, während das Anrufqualitätsdashboard Administratoren und Netzwerktechnikern beim Optimieren von Netzwerken hilft. Das Anrufqualitätsdashboard stellt nicht bestimmte Benutzer, sondern aggregierte Informationen für die gesamte Teams-Organisation in den Mittelpunkt. 
 
 |Frage|Aktion |
 |------------|-------|

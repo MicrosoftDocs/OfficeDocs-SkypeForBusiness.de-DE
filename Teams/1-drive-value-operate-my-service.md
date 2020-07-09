@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe1d8828ea875d987ecef0057891e9de7c816e96
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1762c3462f4758766f3b6996539b5c83342eedd6
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868392"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085111"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -46,7 +46,7 @@ Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien untert
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Vorgänge für Teams implementiert werden.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie den Betriebsleitfaden vollständig.</li><li>Implementieren Sie eine Betriebsstrategie, die mit den Zielen Ihrer Organisation übereinstimmt, um die Qualität und Zuverlässigkeit von Cloud-sprach Auslastungen zu gewährleisten.</li><li>Lesen Sie den Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit.</li><li> Implementieren Sie eine Betriebsstrategie, um regelmäßig Bewertungen der Qualität von Erfahrungen durchzuführen, um sicherzustellen, dass Ihre Cloud-VoIP-Bereitstellung mit ihren Spitzenfunktionen funktioniert.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie den Betriebsleitfaden vollständig.</li><li>Implementieren Sie eine Betriebsstrategie, die mit den Zielen Ihrer Organisation übereinstimmt, um die Qualität und Zuverlässigkeit von Cloud-sprach Auslastungen zu gewährleisten.</li><li>Überprüfen Sie die [Anrufqualität](monitor-call-quality-qos.md).</li><li> Implementieren Sie eine Betriebsstrategie, um regelmäßig Bewertungen der Qualität von Erfahrungen durchzuführen, um sicherzustellen, dass Ihre Cloud-VoIP-Bereitstellung mit ihren Spitzenfunktionen funktioniert.</li></ul></td></tr>
 </table>
 
 
@@ -265,7 +265,7 @@ Es ist wichtig, etwaige Abweichungen zwischen der tatsächlichen und der geplant
 
 Ermitteln Sie zunächst, ob es sich um ein Adoptions-oder technisches Problem handelt. Untersuchen Sie zunächst die folgenden Elemente, um festzustellen, wo das Problem liegt.
 
-1.  Überprüfen Sie die Qualität, indem Sie eine [Bewertung der Qualität der Erfahrung](#quality-of-experience-review-guide)durchführen.
+1.  Überprüfen Sie die Qualität, indem Sie eine Bewertung der Qualität der Erfahrung durchführen (Weitere Informationen finden Sie unter [verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md) ).
 
 2.  Arbeiten Sie mit dem Helpdesk-Team zusammen, um zu überprüfen, ob es keine Trend technischen Probleme gibt, die verhindern, dass Benutzer auf den Dienst zugreifen oder ihn verwenden. Wenn Problem Trends vorhanden sind, verwenden Sie den Abschnitt [Endpunkt Problembehandlung](#endpoint-troubleshooting) weiter unten in diesem Artikel, um das Problem zu beheben, bevor Sie den Support ansprechen.
 
@@ -276,8 +276,7 @@ Ermitteln Sie zunächst, ob es sich um ein Adoptions-oder technisches Problem ha
 | Aktivität                         | Beschreibung                                                                                                                      | Häufigkeit   | Team zugewiesen |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Messen der Verwendung (Aktivierungsphase) | Messen und bewerten Sie die Verwendung von Teams, während die Websites während der Aktivierungsphase weiterhin an Bord sind. Behebung von Nutzungsproblemen nach Bedarf. | Wöchentlich    |               |
-| Messen der Verwendung                    | Messen und bewerten Sie die Verwendung von Teams in der Antriebs Wert Phase (nach Abschluss der Bereitstellung). Behebung von Nutzungsproblemen nach Bedarf. | Biweekly  |               |
-| (Antriebs Wert Phase)              |                                                                                                                                  |           |               |
+| Messen der Verwendung (Laufwerks Wert Phase)                           | Messen und bewerten Sie die Verwendung von Teams in der Antriebs Wert Phase (nach Abschluss der Bereitstellung). Behebung von Nutzungsproblemen nach Bedarf. | Biweekly  |               |
 | Update Annahme Plan             | Aktualisieren Sie Ihren Adoptions Plan basierend darauf, wie die gemessene Nutzung mit ihren Planungszielen verglichen wird.                                         | Nach Bedarf |               |
 
 ### <a name="references"></a>Referenzen 
@@ -376,12 +375,12 @@ Um die Integrität Ihres Netzwerks zu gewährleisten, müssen in regelmäßigen 
 Alle Organisationen benötigen eine Gruppe oder eine Person, um für Qualität verantwortlich zu sein. Dies ist die wichtigste Rolle bei der Dienstverwaltung. Die Rolle "Qualitäts Champion" wird einer Person oder Gruppe zugewiesen, die leidenschaftlich über die Benutzererfahrung verfügt.
 Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann. Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts. Je nach Größe und Komplexität des Unternehmens kann es sich um eine Person oder Gruppe mit einer Leidenschaft für die Gewährleistung einer qualitativ hochwertigen Benutzererfahrung handeln.
 
-Der Quality Champion nutzt die vorhandenen Tools und dokumentierten Prozesse, wie beispielsweise das Anruf Qualitäts-Dashboard (CQD) und den Leitfaden zur Überprüfung der Qualität von Erfahrungen, um die Benutzererfahrung zu überwachen, qualitätstrends zu erkennen und bei Bedarf eine Problembehebung durchführen zu können.
+Der Quality Champion nutzt die vorhandenen Tools und dokumentierten Prozesse, wie beispielsweise das Anruf Qualitäts-Dashboard (CQD), um die Benutzererfahrung zu überwachen, qualitätstrends zu erkennen und bei Bedarf eine Problembehebung durchführen zu können.
 Der Quality Champion sollte mit den jeweiligen Teams zusammenarbeiten, um die Behebungsaktionen voranzutreiben, und einem Lenkungsausschuss über den Fortschritt und alle offenen Probleme Bericht erstatten.
 
-Der [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) der Benutzerfreundlichkeit umfasst Aktivitäten, die in wichtigen Bereichen, die die Verbesserungen der Benutzeroberfläche am stärksten beeinflussen, die Behebungs Anleitung bewerten und bereitstellen. Die im Leitfaden zur Überprüfung der Qualität der Überprüfung bereitgestellten Anleitungen konzentrieren sich auf die Verwendung von CQD Online als primäres Tool für die Berichterstellung und Untersuchung der einzelnen Bereiche, wobei der Schwerpunkt auf Audio liegt, um die Akzeptanz und Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
+Lesen Sie [verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md), in dem die Aktivitäten beschrieben sind, mit denen Behebungs Anleitungen in wichtigen Bereichen bewertet und bereitgestellt werden, die den größten Einfluss auf die Verbesserung der Benutzerfreundlichkeit haben. Die in diesem Artikel bereitgestellten Anleitungen konzentrieren sich auf die Verwendung von CQD als primäres Tool für die Berichterstellung und Untersuchung der einzelnen Bereiche, wobei der Fokus auf Audio liegt, um Akzeptanz und Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
-Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Nachdem Sie nominiert wurden, sollten Sie sich mit dem Inhalt des Überprüfungs Leitfadens für die Qualität der Erfahrung und zugehörigen Schulungsmaterialien vertraut machen.
+Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Nachdem Sie nominiert wurden, sollten Sie sich mit dem Inhalt der [Monitor-Anrufqualität](monitor-call-quality-qos.md) und den dazugehörigen Schulungsmaterialien vertraut machen.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
@@ -397,9 +396,10 @@ Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Na
 
 ### <a name="references"></a>Referenzen 
 
-[Hochladen von Mandantendaten Informationen](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 
-[Handbuch für die Überprüfung der QoE (Quality of Experience)](https://aka.ms/qerguide)
+[Hochladen von Mandanten und Erstellen von Daten in CQD](CQD-upload-tenant-building-data.md)
+
+[Verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -420,7 +420,7 @@ Client seitige Firewalls können die Anrufqualität beeinträchtigen und sogar v
 
 ### <a name="wi-fi-drivers"></a>WLAN-Treiber
 
-WLAN-Treiber sind möglicherweise problematisch. Ein Beispiel: ein Treiber kann sehr aggressive Roaming-Verhaltensweisen zwischen Zugriffspunkten aufweisen, die unnötige Zugriffspunktwechsel auslösen können, was zu schlechter Anrufqualität führt. Ein schlechter leistungsfähiger WLAN-Treiber wird möglicherweise durch eine Überprüfung der Qualität der Erfahrung ermittelt (Weitere Einzelheiten finden Sie im [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) ). Es ist wichtig, einen qualitätsorientierten Prozess zu implementieren, der neue Wi-Fi-Treiber überwacht und sicherstellt, dass Sie getestet werden, bevor Sie für die allgemeine Benutzer Bevölkerung bereitgestellt werden.
+WLAN-Treiber sind möglicherweise problematisch. Ein Beispiel: ein Treiber kann sehr aggressive Roaming-Verhaltensweisen zwischen Zugriffspunkten aufweisen, die unnötige Zugriffspunktwechsel auslösen können, was zu schlechter Anrufqualität führt. Ein schlechter leistungsfähiger WLAN-Treiber wird möglicherweise durch eine Überprüfung der Qualität der Erfahrung ermittelt (Weitere Einzelheiten finden Sie unter [verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md) ). Es ist wichtig, einen qualitätsorientierten Prozess zu implementieren, der neue Wi-Fi-Treiber überwacht und sicherstellt, dass Sie getestet werden, bevor Sie für die allgemeine Benutzer Bevölkerung bereitgestellt werden.
 
 ### <a name="endpoint-management"></a>Endpunkt Verwaltung
 
@@ -448,7 +448,7 @@ Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in 
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Endpunkt Anforderungen    | Stellen Sie sicher, dass der Endpunkt des Teams weiterhin alle Softwareanforderungen für Teams erfüllt, die unter [Abrufen von Clients für Microsoft Teams](get-clients.md)aufgeführt sind.                                                                                                                                                                                       | Monatlich   |               |
 | Endpunktfirewalls       | Verwalten Sie die entsprechenden Ausnahmen für die Endpunkt Firewall basierend auf den Informationen in [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips). Ihr Drittanbieter erhält spezifische Anleitungen für die Beibehaltung der Ausschlüsse. Abonnieren Sie den [RSS-Feed](https://support.office.com/o365ip/rss) , um automatisch über Änderungen benachrichtigt zu werden. | Nach Bedarf |               |
-| WLAN-Treiber            | Testen und aktualisieren Sie die WLAN-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Nach Bedarf |               |
+| WLAN-Treiber            | Testen und aktualisieren Sie die WLAN-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)).                                                                                                                                                                                                                                                                   | Nach Bedarf |               |
 | Endpunkt Verwaltung      | Verwalten Sie den Katalog unterstützter Endpunkte und Schnittstellengeräte (wie Headsets). Verwalten von Lieferantenverträgen, Gewährleistungs-, Verteilungs-, Ersatz-und Reparatur Richtlinien.                                                                                                                                                                                                        | Monatlich   |               |
 | Problembehandlung für Endpunkt | Die Problembehandlung kann die Überprüfung der Konnektivität, das Konsultieren der Liste der bekannten Probleme, die Erfassung von Protokollen, die Analyse und die Eskalation des Microsoft-Supports oder von Drittanbietern umfassen.                                                                                                                                                                                               | Nach Bedarf |               |
 
@@ -546,9 +546,9 @@ Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online ü
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität
+## <a name="improve-and-monitor-call-quality"></a>Verbessern und Überwachen der Anrufqualität
 
-Der [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) der Benutzerfreundlichkeit umfasst eine Reihe von Aktivitäten, die in wichtigen Bereichen, die am stärksten zur Verbesserung der Benutzerfreundlichkeit führen, die Behebungs Anleitung bewerten und bereitstellen, wie unten dargestellt.
+[Verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md) umfasst eine Reihe von Aktivitäten, die in wichtigen Bereichen, in denen die Benutzererfahrung am größten ist, wie im folgenden dargestellt, die Richtlinien zur Behebung bewerten und bereitstellen.
 
 ![Diagramm der zu untersuchenden Bereiche während einer Überprüfung der Qualität der Erfahrung](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
 
@@ -566,8 +566,8 @@ Indem Sie die im Leitfaden beschriebenen Bereiche kontinuierlich bewerten und ko
 
 -   Problematische Subnetze oder Netzwerkgeräte
 
-Die Anleitungen im Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit konzentrieren sich auf die Verwendung von Call Quality Dashboard (CQD) online als primäres Tool zur Berichterstellung und Untersuchung jedes beschriebenen Bereichs, wobei der Schwerpunkt auf Audio liegt, um Akzeptanz und Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
+Die Anleitungen in [verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md) konzentrieren sich auf die Verwendung von Call Quality Dashboard (CQD) online als primäres Tool zur Berichterstellung und Untersuchung jedes beschriebenen Bereichs, wobei der Schwerpunkt auf Audio liegt, um Akzeptanz und Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
-Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Nachdem Sie nominiert wurden, sollten Sie sich mit den Inhalten im [Leitfaden zur Überprüfung der Qualität von Erfahrungen](https://aka.ms/qerguide)vertraut machen.
+Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Nachdem Sie nominiert wurden, sollten Sie sich mit den Inhalten vertraut machen, um die [Anrufqualität für Teams zu verbessern und zu überwachen](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

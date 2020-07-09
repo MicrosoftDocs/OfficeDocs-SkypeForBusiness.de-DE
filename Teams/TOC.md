@@ -259,6 +259,7 @@
 ### [Freigeben von Anrufen und Gruppenanrufannahme](call-sharing-and-group-call-pickup.md)
 ### [Anrufrichtlinie](teams-calling-policy.md)
 ### [Funktion "Gemeinsame Leitungen"](shared-line-appearance.md)
+### [Wähltastatur-Konfiguration](dial-pad-configuration.md)
 
 
 ## Anrufpläne
@@ -380,7 +381,6 @@
 #### [Telefonnummernverwaltung für die Niederlande](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Telefonnummernverwaltung für das Vereinigte Königreich](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Telefonnummernverwaltung für die USA](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 #### [Übersicht](toll-free-dialing-limitations-and-restrictions.md)
@@ -517,7 +517,6 @@
 #### [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Planen eines Benutzerpilotprojekts](pilot-essentials.md)
 
-
 ### Vorbereiten der Umgebung für Teams
 #### [Übersicht über die technische Bereitschaft](upgrade-prepare-environment.md)
 #### [Vorbereiten der IT-Mitarbeiter auf Teams](upgrade-prepare-IT-pros.md)
@@ -530,12 +529,10 @@
 #### [Bewerten der Bereitschaft zu organisationsweiten Änderungen](upgrade-org-change-readiness.md)
 #### [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md)
 
-
 ## Implementieren des Upgrades
 ### [Übersicht](upgrade-to-Teams.md)
 ### [Upgrade von Skype for Business Online auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade von Skype for Business (lokal) auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## Bedienen, Einführen und Optimieren
 ### [Übersicht über den Aufgabenplan](continue-journey.md)
@@ -552,7 +549,6 @@
 ### [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md)
 ### [Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [Besprechungen zuerst](meetings-first.md)
 
@@ -657,6 +653,7 @@
 ### [Schnellstart für Mitarbeiter "an vorderster Front"](firstline-workers-quickstart.yml)
 ### [Skriptgestützte Bereitstellung für Mitarbeiter "an vorderster Front"](flw-scripted-deployment.md)
 ### [RealWear für Microsoft Teams](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [Erstellen einer Intranet-Portal-App für Teams von einer SPO-Website oder -Seite aus](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams für den Einzelhandel](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -684,6 +681,7 @@
 ## Compliance
 ### [Informationsbarrieren](information-barriers-in-teams.md)
 ### [Aufbewahrungsrichtlinien](retention-policies.md)
+### [Kommunikationscompliance](communication-compliance.md)
 ### [Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](teams-recording-policy.md)
 ### [Verhinderung von Datenverlust](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
@@ -765,7 +763,6 @@
 ### [Lizenzierung von Nachrichtenrichtlinien](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365-Telefonsystem – virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md)
 
-
 ## Interoperabilität mit Microsoft 365 und Office 365
 
 ### [Microsoft 365-Gruppen und Teams](office-365-groups.md)
@@ -777,9 +774,9 @@
 ### [Interaktion von SharePoint Online und OneDrive for Business mit Teams](sharepoint-onedrive-interact.md)
 ### [Teams-Erfahrung in einer Microsoft 365- oder Office 365-Mandantenumgebung mit Multi-Geo-Unterstützung](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Unterstützte Geräte
 ### [Verwalten Ihrer Geräte in Teams](devices/device-management.md).
+### [Remoteaktualisierung Ihrer Geräte](devices/remote-update.md)
 ### [Telefone für Teams](devices/phones-for-teams.md)
 ### [USB-Audio- und -Videogeräte](devices/usb-devices.md)
 ### [Bereitstellen von Zusammenarbeitsleisten für Microsoft Teams](devices/collab-bar-deploy.md)
@@ -787,11 +784,12 @@
 ### [Für Microsoft Teams zertifizierte IP-Telefone](devices/teams-ip-phones.md)
 ### [Telefone für Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
 ## Teams PowerShell
 ### [Übersicht](teams-powershell-overview.md)
+### [Teams PowerShell installieren](teams-powershell-install.md)
+### [Teams mit Teams PowerShell verwalten](teams-powershell-managing-teams.md)
+### [Team PowerShell – Anmerkungen zu dieser Version](teams-powershell-release-notes.md)
 ### [Cmdlet-Referenz für Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Installieren der Vorabversion des Teams-PowerShell-Moduls](install-prerelease-teams-powershell-module.md)
 
 ## [Entwicklerdokumentation für Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Hilfe in Teams abrufen](get-help-in-microsoft-teams.md)

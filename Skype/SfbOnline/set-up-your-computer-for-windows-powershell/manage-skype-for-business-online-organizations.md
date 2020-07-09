@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Verwenden Sie Windows PowerShell und die Cmdlets Get-CsTenant und Get-CsTenantLicensingConfiguration, um Informationen zu Ihrem Skype for Business Online-Mandanten zu erhalten.
-ms.openlocfilehash: e4765fbbe8c705300bb93c09651034e080a8132e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010618"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085691"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Verwalten von Skype for Business Online-Organisationen
+> [!NOTE]
+> Die neueste [Version von Teams PowerShell Public Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und bietet ein einzelnes Modul für die PowerShell-Verwaltung von Teams.
 
 Sie können Informationen zu Ihrem Skype for Business Online-Mandanten mithilfe der Cmdlets **Get-CsTenant** und **Get-CsTenantLicensingConfiguration** finden.
   

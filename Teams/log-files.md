@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 2303082c4f1c16a28a9116047d904a5d491a535a
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012191"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085751"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -127,3 +127,9 @@ Linux
 |Windows     |% APPDATA% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application-Unterstützung/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
+
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+

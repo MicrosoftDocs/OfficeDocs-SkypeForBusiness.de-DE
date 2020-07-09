@@ -16,12 +16,12 @@ f1.keywords:
 description: Es empfiehlt sich, zu überprüfen, ob der Team Dienstfehler frei ist, sowie andere Microsoft 365-oder Office 365-Komponenten wie Exchange, SharePoint und OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690171"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085521"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Überprüfen der Dienstintegrität für Microsoft Teams
 ===========================================
@@ -33,3 +33,8 @@ Beachten Sie außerdem, dass Microsoft Teams auf zusätzlichen Microsoft 365-ode
 ![Screenshot der Seite „Dienststatus“](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Screenshot, aus dem hervorgeht, dass der Microsoft Teams-Dienst fehlerfrei ist](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

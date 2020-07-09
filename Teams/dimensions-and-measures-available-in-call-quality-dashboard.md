@@ -1,10 +1,10 @@
 ---
-title: Abmessungen und Maße – Dashboard "Anrufqualität"
+title: Abmessungen und Maße – Dashboard für die Anrufqualität (CQD)
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Anruf Qualitäts Dashboard (CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
+ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938514"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085781"
 ---
-# <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
+# <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anruf Qualitäts Dashboard verfügbare Abmessungen und Maße (CQD)
 
-Mit dem Anruf Qualitäts Dashboard (CQD) für Microsoft Teams und Skype for Business Online können Sie die Anrufqualität für Anrufe, die mit diesen Diensten getätigt wurden, besser verstehen. Dieses Thema enthält detaillierte Informationen zu den Dimensionen und Maßen, die über CQD sichtbar sind. Weitere Informationen zu CQD finden Sie unter [aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online](turning-on-and-using-call-quality-dashboard.md).
+Mit dem Anruf Qualitäts Dashboard (CQD) für Microsoft Teams und Skype for Business Online können Sie die Anrufqualität für Anrufe, die mit diesen Diensten getätigt wurden, besser verstehen. Dieses Thema enthält detaillierte Informationen zu den Dimensionen und Maßen, die über CQD sichtbar sind. Weitere Informationen zu CQD finden Sie unter [Verwenden von CQD zum Verwalten von Anruf-und Besprechungs Qualität in Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## <a name="first-and-second-endpoint-classification"></a>Klassifizierung des ersten und zweiten Endpunkts
 
@@ -170,7 +170,7 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | First User Agent  | String  | Benutzer-Agent-Zeichenfolge für den ersten Endpunkt. <br/> **Beispielwert:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Kein Benutzer-Agent vom ersten Endpunkt gemeldet   |
 | Second User Agent  | String  | Benutzer-Agent-Zeichenfolge für den zweiten Endpunkt. <br/> **Beispielwert:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Kein Benutzer-Agent wurde vom zweiten Endpunkt gemeldet   |
 | Conference Type  | Enumeration <br/>**Mögliche Werte:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: Audio-Video <br/>&bull;conf: Fokus | Typ des Konferenz-URI.  <br/> **Beispielwert:** conf: Audio-Video | &bull;Szenario ohne Konferenz   |
-| Konferenz-ID  | String | Konferenz-ID (oder Anruf-ID), die den Streams zugeordnet ist. In CQD.Teams.Microsoft.com haben alle Anrufe eine Anruf-ID, unabhängig davon, ob es sich um einen P2P-Anruf oder einen Konferenzanruf handelt. In CQD.lync.com ist dieser Wert nur avialble für Skype for Business-Konferenzgespräche.  Diese Dimension kann zu viele Zeilen enthalten, die als Dimension in einem Bericht verwendet werden. Stattdessen kann sie als Filter eingesetzt werden.  <br/> **Beispielwert (CQD.lync.com):** 0001P6GK <br/> **Beispielwert (CQD.Teams.Microsoft.com):** 5a962ccf-b9cb-436a-A433-f28bf5404ad8  | |
+| Konferenz-ID  | String | Konferenz-ID (oder Anruf-ID), die den Streams zugeordnet ist. In CQD.Teams.Microsoft.com haben alle Anrufe eine Anruf-ID, unabhängig davon, ob es sich um einen P2P-Anruf oder einen Konferenzanruf handelt. In CQD.lync.com steht dieser Wert nur für Skype for Business-Konferenzanrufe zur Verfügung.  Diese Dimension kann zu viele Zeilen enthalten, die als Dimension in einem Bericht verwendet werden. Stattdessen kann sie als Filter eingesetzt werden.  <br/> **Beispielwert (CQD.lync.com):** 0001P6GK <br/> **Beispielwert (CQD.Teams.Microsoft.com):** 5a962ccf-b9cb-436a-A433-f28bf5404ad8  | |
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **Beispielwert:** 16.0.7766.2047 | &bull;Die Versionszeichenfolge konnte nicht analysiert werden. <br/>&bull;Der Wert wurde nicht gemeldet.   |
 | Second Client App Version  | Zeichenfolge  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **Beispielwert:** 16.0.7766.2047 | &bull;Die Versionszeichenfolge konnte nicht analysiert werden. <br/>&bull;Der Wert wurde nicht gemeldet. |
 |Besprechungs-ID (in CQD.Teams.Microsoft.com) <br/> Konferenz-ID (in CQD.lync.com) |String |Der Bezeichner für die Besprechung, der beim Erstellen der Besprechung generiert wurde. <br/> **Beispielwert (Skype for Business):** 0001P6GK  <br/> **Beispielwert (Teams):** 19: meeting_MzB... zIw@Thread. v2| |
@@ -701,9 +701,18 @@ Viele Bemaßungs-und Mess Werte können auch als Filter verwendet werden. Sie k�
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
+[Verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)
 
-[Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Was ist CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[Einrichten des Dashboards für die Anrufqualität (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
+[Hochladen von Mandanten-und Gebäudedaten](CQD-upload-tenant-building-data.md)
+
+[CQD-Daten und-Berichte](CQD-data-and-reports.md)
+
+[Verwenden von CQD zum Verwalten von Anruf-und Besprechungs Qualität](quality-of-experience-review-guide.md)
+
+[Datenstrom Klassifizierung in CQD](stream-classification-in-call-quality-dashboard.md)
+
+[Verwenden von Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md)

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868122"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086222"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -32,7 +32,7 @@ Mit organisationsweiten Teams können globale Administratoren ganz einfach ein �
 
 ![Screenshot der Option „Organisationsweit", um ein organisationsweites Team zu erstellen](media/create-org-wide-team.png "Screenshot der Option „Organisationsweit" zum Erstellen eines organisationsweites Teams")
 
-Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer und alle aktiven Benutzer als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn ein nicht lizenzierter Benutzer sich zum ersten Mal bei Teams anmeldet, wird dem Benutzer eine Testlizenz für die kommerzielle Cloud von Microsoft Teams zugewiesen. Weiter Informationen über die Testlizenz finden Sie unter [Verwalten der professionellen Cloud-Testangebots von Teams ](iw-trial-teams.md). 
+Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer und alle aktiven Benutzer als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn sich ein nicht lizenzierter Benutzer zum ersten Mal bei Teams anmeldet, wird dem Benutzer eine Microsoft Teams-explorative Lizenz zugewiesen. Weitere Informationen zur explorativen Lizenz finden Sie unter [Verwalten der explorativen Lizenz für Microsoft Teams](teams-exploratory.md). 
 
 Diese Arten von Konten werden Ihrem organisationsweiten Team nicht hinzugefügt:
 

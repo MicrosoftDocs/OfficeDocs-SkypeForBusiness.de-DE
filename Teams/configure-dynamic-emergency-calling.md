@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690881"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083155"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -74,6 +74,7 @@ Die folgenden Clients werden zurzeit unterstützt.  Schauen Sie sich häufig an,
 - Teams Mobile Client für Apple IOS Client Version 1.0.92.2019121004 und App Store Version 1.0.92 und höher
 - Teams Mobile Client für Android-Client und Google Play Store, Version 1416/1.0.0.2019121201 und höher
 - Teams Phone Version 1449/1.0.94.2019110802 und höher
+- Teams rooms Version 4.4.25.0 und höher
 
 ## <a name="assign-emergency-addresses"></a>Notfalladressen zuweisen
 

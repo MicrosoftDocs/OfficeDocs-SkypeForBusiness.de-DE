@@ -1,9 +1,9 @@
 ---
-title: Einrichten von Anrufanalyse
+title: Einrichten von Anruf Analysen für Microsoft Teams
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, vkorlep
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
@@ -13,88 +13,54 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
-description: Sie können Anruf Analysen einrichten und verwenden, um Probleme mit der Anrufqualität von Skype for Business und Microsoft Teams zu identifizieren und zu beheben.
-ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Richten Sie eine pro-Benutzer-anrufanalyse ein, um Probleme mit der Anrufqualität von Microsoft Teams zu identifizieren und zu beheben.
+ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029406"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085311"
 ---
-# <a name="set-up-call-analytics"></a>Einrichten von Anrufanalyse
+# <a name="set-up-call-analytics-for-microsoft-teams"></a>Einrichten von Anruf Analysen für Microsoft Teams
 
-Als Teams oder Skype for Business Online-Administrator können Sie die anrufanalyse verwenden, um die Anrufqualität von Skype for Business und Microsoft Teams und Verbindungsprobleme zu beheben. Dabei kann es hilfreich sein, die folgenden Funktionen in der Anrufanalyse einzurichten:
+Als Microsoft Teams-Administrator können Sie benutzerspezifische Anruf Analysen verwenden, um die Anrufqualität von Teams und Verbindungsprobleme für **einzelne Benutzer**zu beheben. Um die Vorteile der anrufanalyse optimal zu nutzen, müssen Sie Folgendes einrichten:
   
-- Legen Sie Berechtigungen fest, die anderen Mitarbeitern wie Helpdesk-Agents die Verwendung von anrufanalyse ermöglichen, aber verhindern, dass Sie auf das restliche Microsoft Teams Admin Center zugreifen. 
+- Weisen Sie Personen wie Helpdesk-Agents spezielle Support Rollen zu, damit Sie die anrufanalyse für Benutzer anzeigen können. Diese Support Rollen können nicht auf das restliche Team Admin Center zugreifen. 
     
-- Fügen Sie Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzu, indem Sie eine TSV- oder CSV-Datendatei hochladen.
+- Fügen Sie Informationen zu Gebäude-, Website-und Mandanteninformationen für die benutzerspezifische anrufanalyse hinzu, indem Sie eine TSV-oder CSV-Datendatei hochladen.
     
-**Die anrufanalyse steht jetzt im Microsoft Teams Admin Center zur Verfügung**. Verwenden Sie die Registerkarte **Anrufverlauf** , um alle Anrufinformationen und Daten für einen Benutzer anzuzeigen. Sie können dies tun, indem Sie auf der Profilseite des Benutzers eine der folgenden Aktionen ausführen:
-
-- Suchen Sie im Dashboard nach dem Benutzer.
+Wenn Sie bereit sind, die benutzerspezifische anrufanalyse zu verwenden, lesen Sie [Verwenden von benutzerspezifischer anrufanalyse, um eine schlechte Anrufqualität zu beheben](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
-   ![Screenshot der Benutzersuche auf dem Dashboard](media/set-up-call-analytics-image-1.png)
+## <a name="give-permission-to-support-and-helpdesk-staff"></a>Erteilen der Berechtigung für Support-und Helpdesk-Mitarbeiter
 
--  Wählen Sie im linken Navigationsbereich die Option **Benutzer** aus.
+Als Team-Administrator haben Sie vollständigen Zugriff auf die anrufanalyse Informationen für alle Benutzer. Wir haben einige spezielle Azure Active Directory-Rollen erstellt, die Sie den Supportmitarbeitern und Helpdesk-Agents zuweisen können, damit Sie auch auf die benutzerspezifische anrufanalyse zugreifen können (ohne Zugriff auf das restliche Team Admin Center). Weisen Sie die Rolle des **Teams Communications Support Specialist** für Benutzer zu, die eine begrenzte Ansicht der pro-Benutzer-anrufanalyse (Stufe 1-Unterstützung) haben sollten. Weisen Sie die Rolle **Teams Communications Support Engineer** Benutzern zu, die vollständigen Zugriff auf die pro-Benutzer-anrufanalyse benötigen (Support für Stufe 2). Keine der Rollen hat Zugriff auf das restliche Team Admin Center.
 
-   ![Screenshot der linken Navigationsleiste](media/set-up-call-analytics-image-2.png)
-  
-## <a name="set-call-analytics-permissions"></a>Festlegen von Berechtigungen für die Anrufanalyse
-<a name="BKMK_SetCAPerms"></a>
+Wenn Sie wissen möchten, was jede dieser Rollen tut, lesen Sie [Was ist die Rolle jedes Teams unterstützen](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
 
-Als Administrator haben Sie vollständigen Zugriff auf alle Funktionen der anrufanalyse. Darüber hinaus können Sie Azure Active Directory-Rollen zuweisen, um Mitarbeiter zu unterstützen. Weisen Sie die Rolle des Teams Communications Support Specialist für Benutzer zu, die eine begrenzte Ansicht der anrufanalyse haben sollten. Weisen Sie Benutzern, die Zugriff auf die vollständige Funktionalität der anrufanalyse benötigen, die Rolle Teams Communications Support Engineer zu. Beide Berechtigungsstufen verhindern den Zugriff auf das restliche Microsoft Teams Admin Center.
-
-> [!NOTE]
-> Die Rolle "Kommunikations Support Spezialist" entspricht der Unterstützung der Stufe 1 und die Rolle des Kommunikations Support Ingenieurs entspricht der Unterstützung der Stufe 2.
-
-Weitere Informationen zu Teams-Administratorrollen finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md). 
-  
-Kommunikations Supportspezialisten behandeln grundlegende Probleme mit der Anrufqualität. Sie untersuchen keine Probleme mit Besprechungen. Stattdessen werden verwandte Informationen gesammelt und dann an einen Kommunikations Supporttechniker weitergeleitet. Kommunikations Support-Ingenieure sehen Informationen in detaillierten Anrufprotokollen, die von Experten für Kommunikationsunterstützung verborgen sind. In der folgenden Tabelle finden Sie eine Übersicht über die Informationen, die für Kommunikations Supportspezialisten und Kommunikations Support Ingenieure zur Verfügung stehen, wenn Sie die anrufanalyse verwenden.
-
-|**Aktivität**|**Informationen in der Anrufanalyse**|**Was der Communications-Support Spezialist sieht**|**Was der Communications-Supporttechniker sieht**|
-|:-----|:-----|:-----|:-----|
-|**Anrufe** <br/> |Name des Anrufers  <br/> |Nur der Name des Benutzers, nach dem der Agent gesucht hat.  <br/> |Benutzername  <br/> |
-||Name des Angerufenen  <br/> |Wird als „Interner Benutzer" oder „Externer Benutzer" angezeigt.  <br/> |Name des Angerufenen  <br/> |
-||Telefonnummer des Anrufers  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |
-||Telefonnummer des Angerufenen  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |
-||**Call Details** > **Advanced** tab <br/> |Es werden keine Informationen angezeigt.  <br/> |Es werden alle Details angezeigt, beispielsweise Gerätenamen, IP-Adresse, Subnetzzuordnung und mehr.  <br/> |
-||**Call Details** > **Advanced** > **Debug** tab <br/> |Es werden keine Informationen angezeigt.  <br/> |Es werden alle Details angezeigt, beispielsweise DNS-Suffix und SSID.  <br/> |
-|**Besprechungen** <br/> |Namen der Teilnehmer  <br/> |Nur der Name des Benutzers, nach dem der Agent gesucht hat. Andere Teilnehmer werden als „Interner Benutzer" oder „Externer Benutzer" identifiziert.  <br/> |Es werden alle Namen angezeigt.  <br/> |
-||Anzahl der Teilnehmer  <br/> |Anzahl der Teilnehmer  <br/> |Anzahl der Teilnehmer  <br/> |
-||Sitzungsdetails  <br/> |Die Sitzungsdetails werden mit Ausnahmen angezeigt. Angezeigt wird nur der Name des Benutzers, nach dem der Agent gesucht hat. Andere Teilnehmer werden als „Interner Benutzer" oder „Externer Benutzer" identifiziert. Die letzten drei Ziffern der Telefonnummer werden durch Sternchen verschleiert.  <br/> |Die Sitzungsdetails werden angezeigt. Benutzernamen und Sitzungsdetails werden angezeigt. Die letzten drei Ziffern der Telefonnummer werden durch Sternchen verschleiert.  <br/> |
-||||
-   
- ### <a name="set-up-permissions-by-assigning-admin-roles"></a>Einrichten von Berechtigungen durch Zuweisen von Administratorrollen
-<a name="BKMK_SetUpTier"> </a>
+Weitere Informationen zu Teams-Administratorrollen finden Sie unter Verwenden von Teams- [Administratorrollen zum Verwalten von Teams](using-admin-roles.md). Informationen zum Zuweisen von Administratorrollen in Azure Active Directory finden Sie unter [anzeigen und Zuweisen von Rollen in Azure Active Directory](https://docs.microsoft.com/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 Informationen zum Zuweisen von Administratorrollen in Azure Active Directory finden Sie unter [anzeigen und Zuweisen von Rollen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Hochladen einer TSV- oder CSV-'Datei, um Informationen zu Gebäuden, Standorten und Mandanten hinzuzufügen
-<a name="BKMK_UploadFiles"> </a>
 
-Sie können Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzufügen, indem Sie eine CSV- oder TSV-Datei hochladen. Anhand aller dieser Informationen kann die Anrufanalyse IP-Adressen zu physischen Standorten zuordnen. Sie oder die Helpdesk-Agents können diese Informationen nutzen, um Trends bei Anrufproblemen zu erkennen. Beispiel: Warum haben zahlreiche Benutzer im gleichen Gebäude ähnliche Probleme mit der Anrufqualität? 
+Sie können der pro-Benutzer-anrufanalyse Gebäude-, Website-und Mandanteninformationen hinzufügen, indem Sie eine CSV-oder TSV-Datei hochladen. Mit all diesen Informationen können Anruf Analysen IP-Adressen physikalischen Speicherorten zuordnen. Administratoren und Helpdesk-Agents können diese Informationen dazu verwenden, Trends bei Anruf Problemen zu erkennen. Warum haben Benutzer im gleichen Gebäude beispielsweise ähnliche Probleme mit der Anrufqualität? 
 
-Wenn Sie ein Team und ein Skype for Business-Administrator sind, können Sie eine vorhandene Datendatei aus dem Dashboard Teams & Skype for Business-Anrufqualität verwenden. Zuerst laden Sie die Datei aus dem Anrufqualitätsdashboard herunter, und dann laden Sie sie in die Anrufanalyse hoch. 
+Wenn Sie ein Team oder ein Skype for Business-Administrator sind, können Sie eine vorhandene Mandanten-und Gebäude Datendatei aus dem Dashboard Teams oder Skype for Business-Anrufqualität (CQD) verwenden. Zuerst laden Sie die Datei von CQD herunter, und laden Sie Sie dann in die anrufanalyse hoch. 
 
-- Wenn Sie eine vorhandene Datendatei herunterladen möchten, wechseln Sie jetzt zum **Microsoft Teams Admin Center** > -**Anruf Quality-Dashboard** > **hochladen**. Klicken Sie in der Liste **Meine Uploads** neben der gewünschten Datei auf **Herunterladen**.
+- Wenn Sie eine vorhandene Datendatei herunterladen möchten, wechseln Sie jetzt zum **Microsoft Teams Admin Center**-  >  **Anruf Quality-Dashboard**  >  **hochladen**. Klicken Sie in der Liste **Meine Uploads** neben der gewünschten Datei auf **Herunterladen**. 
 
-- Wenn Sie die neue Datei hochladen möchten, wechseln Sie zu den **Microsoft Teams Admin Center** > -**Speicherorten**, und wählen Sie dann **Standortdaten hochladen** oder **Standortdaten ersetzen**aus.
+- Wenn Sie die neue Datei hochladen möchten, wechseln Sie zu den **Microsoft Teams Admin Center**-  >  **Speicherorten**, und wählen Sie dann **Standortdaten hochladen** oder **Standortdaten ersetzen**aus.
   
-Wenn Sie eine TSV- oder CSV-Datei von Grund auf neu erstellen, lesen Sie [Dateiformat der Mandantendaten und Dateistruktur der Gebäudedaten](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
+Wenn Sie die TSV-oder CSV-Datei von Grund auf neu erstellen, lesen Sie [Hochladen von Mandanten-und Gebäudedaten](CQD-upload-tenant-building-data.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
-<a name="BKMK_UploadFiles"> </a>
 
-[Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden von pro-Benutzer-Anruf Analysen zur Behandlung schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-
-  
- 
+[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

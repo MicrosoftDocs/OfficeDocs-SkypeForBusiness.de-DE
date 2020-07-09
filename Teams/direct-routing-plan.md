@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799826"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083175"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -219,6 +219,8 @@ Die FQDNs – SIP.pstnhub.Microsoft.com, sip2.pstnhub.Microsoft.com und sip3.pst
 - 52.114.76.76 
 - 52.114.7.24 
 - 52.114.14.70
+- 52.114.16.74
+- 52.114.20.29
 
 Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP-all.pstnhub.Microsoft.com in alle diese IP-Adressen aufgelöst. 
 

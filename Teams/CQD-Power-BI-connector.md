@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen (Call Quality Dashboard)
+ms.openlocfilehash: d474ad6e3f10b0aefaafcd06bb17a5959b65846d
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690931"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085571"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
-Bevor Sie die Power BI-Abfragevorlagen für CQD (PBIX-Dateien) verwenden können, müssen Sie den Power BI-Connector für Microsoft CQD mit der im [Download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)enthaltenen Datei *MicrosoftCallQuality. PQx* installieren. 
+Bevor Sie die Power BI-Abfragevorlagen (PBIX-Dateien) für das Microsoft Teams Call Quality-Dashboard (CQD) verwenden können, müssen Sie den Power BI-Connector für Microsoft CQD mit der im [Download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)enthaltenen Datei *MicrosoftCallQuality. PQx* installieren. 
 
 Lesen [verwenden Sie Power BI zum Analysieren von CQD-Daten für Teams](CQD-Power-BI-query-templates.md) , um mehr über diese Vorlagen zu erfahren.
 

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Probleme mit Installation und Update der Teams-Desktopclient-App unter Windows beheben.
-ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
-ms.translationtype: HT
+ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888844"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086141"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
 
@@ -154,3 +154,4 @@ In einigen Fällen ändert Verschlüsselungssoftware Dateien im Ordner "%LocalAp
 
 - [Beziehen von Clients für Teams](get-clients.md)
 - [Teams-Clientupdates](teams-client-update.md)
+- [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

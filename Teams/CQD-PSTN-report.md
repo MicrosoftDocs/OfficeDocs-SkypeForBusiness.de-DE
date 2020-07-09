@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Verwenden Sie den CQD PSTN Direct-Routing Bericht, um PSTN-Anrufe in Microsoft Teams zu überwachen und zu beheben.
-ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Verwenden Sie den Microsoft Teams Call Quality Dashboard (CQD)) PSTN Direct Routing-Bericht, um PSTN-Anrufe in Microsoft Teams zu überwachen und zu beheben.
+ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221749"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085341"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Verwenden des CQD PSTN Direct Routing-Berichts
 
-Neu im März 2020 haben wir unseren herunterladbaren [Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)einen CQD PSTN Direct-Routing Bericht hinzugefügt. 
+Neu im März 2020 haben wir einen Microsoft Teams Call Quality Dashboard (CQD) PSTN Direct Routing-Bericht zu unseren herunterladbaren [Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)hinzugefügt. 
 
 
 Der CQD PSTN Direct Routing-Bericht (CQD PSTN Direct Routing Report. PBit) hilft Ihnen, die Verwendungsmuster und die Qualität ihrer PSTN-Dienste zu verstehen. Verwenden Sie diesen Bericht, um die Dienstnutzung zu überwachen, Informationen zu Ihrem Session Border Controller (SBC), zum Telefoniedienst, zu den Netzwerkparametern und zu den Details des Netzwerk Effektivitäts Verhältnisses. Diese Informationen können Ihnen helfen, Probleme zu erkennen, einschließlich des Grunds für gelöschte Anrufe. So können Sie beispielsweise feststellen, ob die Lautstärke sinkt oder wie viele Anrufe betroffen sind und aus welchem Grund.
@@ -146,3 +146,5 @@ Wenn Sie eine Spitze in einem der vier Diagramme (Latenz, Jitter, Paketverlust R
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams](CQD-PSTN-report.md)
+
+[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

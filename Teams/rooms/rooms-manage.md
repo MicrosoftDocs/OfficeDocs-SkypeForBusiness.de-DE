@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie laufende Wartungen und Vorgänge entwickeln und ausführen, um sicherzustellen, dass Ihre Microsoft Teams rooms-Systeme für Ihre Benutzer verfügbar sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905367"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085951"
 ---
 # <a name="management-overview"></a>Verwaltung (Übersicht)
 
@@ -42,7 +42,7 @@ Informationen zum Status der Microsoft Teams rooms-Anwendung und verbundenen Per
 |**Einstellung**|**Ermöglicht**|
 |:-----|:-----|
 |HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Ermöglicht das Starten von Microsoft Teams-Räumen  <br/> |
-|Power Management-\> auf AC, schalten Sie den Bildschirm nach 10 Minuten aus.  <br/> Power Management-\> auf AC, niemals System in den Standbymodus versetzen  <br/> |Ermöglicht Microsoft Teams-Räumen, die angefügten anzeigen zu deaktivieren und automatisch zu aktivieren  <br/> |
+|Power Management- \> auf AC, schalten Sie den Bildschirm nach 10 Minuten aus.  <br/> Power Management- \> auf AC, niemals System in den Standbymodus versetzen  <br/> |Ermöglicht Microsoft Teams-Räumen, die angefügten anzeigen zu deaktivieren und automatisch zu aktivieren  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
 
 Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
@@ -65,7 +65,7 @@ Wir empfehlen, dass Sie die laufenden Überwachungsverfahren zur betrieblichen Q
 
 Wenn Sie Ihre Gebäudeinformationen auf CQD hochladen, können Sie die Trends für die Anrufqualität und-Zuverlässigkeit auf pro-Gebäude-Ebene untersuchen, wodurch es einfacher ist, Gebäude zu vergleichen und ihre Aufmerksamkeit auf bestimmte Probleme zu konzentrieren.
 
-Wir empfehlen, dass Sie das [Review-Handbuch für die Qualität der Benutzerfreundlichkeit](https://aka.ms/qerguide) überprüfen und befolgen, um Qualitäts-und Zuverlässigkeits Trends zu identifizieren und einen Aktionsplan zum Beheben dieser Informationen zu erstellen. 
+Wir empfehlen Ihnen, die [Anrufqualität für Teams](../monitor-call-quality-qos.md) zu überprüfen und zu verfolgen, um Qualitäts-und Zuverlässigkeits Trends zu erkennen und einen Aktionsplan zur Lösung dieser Probleme zu erstellen. 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Aktualisieren der Office-Anwendung Microsoft Teams Rooms und Microsoft Teams rooms
 

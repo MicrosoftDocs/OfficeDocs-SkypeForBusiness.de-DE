@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Verwenden Sie die Power BI-Berichte der Teams-Auslastung, um die Verwendung von Microsoft Teams in Ihrer Organisation zu überwachen.
-ms.openlocfilehash: efca39a89eecdf9d603a81a07d8529147f87698a
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+description: Verwenden Sie die Power BI-Berichte der Teams-Auslastung für den Zugriff auf Microsoft Teams Call Quality Dashboard-Daten (CQD), um die Verwendung von Microsoft Teams in Ihrer Organisation zu überwachen.
+ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978554"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085581"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Anzeigen der Microsoft Teams-Auslastung in Power BI mithilfe von CQD-Daten
 
 Neu im März 2020 haben wir unseren herunterladbaren [Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)einen Bericht zur Nutzung von Teams hinzugefügt. 
 
-In diesem Bericht zur neuen Teams-Auslastung können Sie sehen, wie (und wie viel) Ihre Benutzer Microsoft Teams verwenden. Bei diesen Berichten handelt es sich um einen zentralen Standort, an dem sowohl Administratoren als auch Unternehmensleiter schnell zu diesen Daten wechseln können.
+In diesen Berichten zur neuen Teams-Auslastung können Sie sehen, wie (und wie viel) Ihre Benutzer Microsoft Teams verwenden, indem Sie auf die CQD-Daten (Teams Call Quality Dashboard) zugreifen. Bei diesen Berichten handelt es sich um einen zentralen Standort, an dem sowohl Administratoren als auch Unternehmensleiter schnell zu diesen Daten wechseln können.
 
 Der Power BI-Bericht "Teams-Auslastung" besteht aus zwei Hauptberichten: Zusammenfassung der **[Anruf Anzahl](#call-count-summary-report)** und **[Zusammenfassung der audiominuten](#audio-minutes-summary-report)**. Die [tägliche Nutzung](#daily-usage), [regionale Audiodetails](#regional-audio-details), [Konferenzdetails](#conference-details) und [Benutzerlisten](#user-list) Berichte kommen in den Spielzustand, wenn ein Benutzer die Drilldown-Berichte nutzt, die in den folgenden Beschreibungen aufgeführt sind.
 
@@ -51,7 +51,7 @@ Auf der Hauptseite (Zusammenfassung der Anruf Anzahl) werden die Anzahl der Audi
   ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report4.png)
 
 In der unteren linken Ecke der Seite befindet sich eine Tabelle, in der die Gesamtwerte für die einzelnen Medientypen im letzten Jahr bereitgestellt werden. 
-    ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report5.png) ![– Screenshot: Berichte zur Auslastung von Teams](media/CQD-teams-utilization-report6.png)   
+    ![Screenshot: Teams-Auslastungsberichte ](media/CQD-teams-utilization-report5.png) ![ – Screenshot: Berichte zur Auslastung von Teams](media/CQD-teams-utilization-report6.png)   
 
 Rechts neben der Tabelle werden in einem Balkendiagramm die Clients angezeigt, die in den letzten 30 Tagen die meisten Verwendungszwecke (Anrufe/Streams) verwendet haben.
    ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report7.png)
@@ -167,4 +167,6 @@ Die untere Tabelle enthält detaillierte Informationen zu den Sitzungen, an dene
 [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868702"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086191"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================
@@ -48,7 +48,7 @@ Gehen folgendermaßen Sie vor, um ein Team zu archivieren.
 
     ![Screenshot der Teams-Archivierungsmeldung](media/teams-archive-message.png)
 
-4. Wenn die SharePoint-Website für das Team schreibgeschützt sein soll, aktivieren Sie das Kontrollkästchen.
+4. Wenn Sie verhindern möchten, dass Benutzer den Inhalt auf der SharePoint-Website und der wiki-Registerkarte Bearbeiten, die dem Team zugeordnet ist, wählen Sie **die SharePoint-Website für Teammitglieder schreibgeschützt machen**aus. (Die Besitzer von Teams können diesen Inhalt weiterhin bearbeiten.)
 5. Wählen Sie **Archivieren** aus, um das Team zu archivieren. Der Status des Teams wird in **Archiviert** geändert.
 
 ## <a name="make-an-archived-team-active"></a>Aktivieren eines archivierten Teams

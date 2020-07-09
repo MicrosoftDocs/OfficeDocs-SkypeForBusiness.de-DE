@@ -22,17 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539642"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085291"
 ---
 <a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 ============================
 
-Bericht Erstellungs Beschriftungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder organisatorischen Websites anzugeben. Auf der Seite "Bericht Erstellungs Etiketten" im Microsoft Teams Admin Center können Sie eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste von physikalischen Speicherorten und zugehörigen Netzwerk-Subnetzen enthält. Diese Datei wird von der anrufanalyse und dem Anruf Qualitäts Dashboard zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnet-Zuordnung hochladen, enthalten die Berichte, die von diesen Diensten bereitgestellt werden, auch die Standortnamen, wodurch die Berichte verständlicher werden und zur Verdeutlichung potenzieller Probleme verwendet werden können.
+Bericht Erstellungs Beschriftungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder organisatorischen Websites anzugeben. Auf der Seite "Bericht Erstellungs Etiketten" im Microsoft Teams Admin Center können Sie eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste von physikalischen Speicherorten und zugehörigen Netzwerk-Subnetzen enthält. Diese Datei wird von der anrufanalyse zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnet-Zuordnung hochladen, enthalten die Berichte, die von diesen Diensten bereitgestellt werden, auch die Standortnamen, wodurch die Berichte verständlicher werden und zur Verdeutlichung potenzieller Probleme verwendet werden können.
+
+> [!IMPORTANT]
+> Von Ihnen hochgeladene Bericht Erstellungs Etiketten werden unter ihrer Vereinbarung für Office 365 als *Support Daten* behandelt, einschließlich aller Informationen, die andernfalls als *Kundendaten* oder *persönliche Daten*gelten. Bitte fügen Sie keine Daten ein, die Sie Microsoft nicht als *Support Daten*zur Verfügung stellen möchten, da diese Informationen von Microsoft-Ingenieuren zu Supportzwecken angezeigt werden.
 
 Die von Ihnen bereitgestellten Berichts Beschriftungen und Speicherorte sind eine einzige Datenstruktur – derzeit ist keine Schnittstelle verfügbar, um einzelne Änderungen an den Daten vorzunehmen.
 
@@ -57,7 +60,7 @@ Verwenden Sie das folgende Beispiel, um Ihre Datendatei zu erstellen.
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|US|CA|US|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|US|CA|US|1|1|
 
-Weitere Informationen zum Formatieren Ihrer Datendatei finden Sie unter [Mandantendaten Dateiformat und Erstellen von Datendatei Strukturen](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
+Weitere Informationen zum Formatieren Ihrer Datendatei finden Sie unter [Mandantendaten Dateiformat und Erstellen von Datendatei Strukturen](CQD-upload-tenant-building-data.md#upload-building-data-file).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

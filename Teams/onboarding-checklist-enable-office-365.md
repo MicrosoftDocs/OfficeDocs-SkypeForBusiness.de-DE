@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665167"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085171"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Aktivieren von Microsoft 365 oder Office 365
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665167"
 | BEISPIEL 7  | Bestätigen der Mandantenadministratoren | Arbeiten Sie mit ihren Sicherheitsteams zusammen, um ein Microsoft 365-oder Office 365-Verwaltungsmodell zu entwickeln. <br/><br/>Identifizieren und dokumentieren Sie unbedingt alle Mandanten- und Dienstadministratoren. | | [Informationen zu Microsoft 365-oder Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8 MB  | Implementieren von Administratorrollen für Ihren Mandanten | Überprüfen Sie, ob Ihr Verwaltungsmodell den Anforderungen Ihrer Organisation entspricht, und weisen Sie Ihren Administratoren Microsoft 365-oder Office 365-Administratorrollen zu. | | [Zuweisen von Administratorrollen in Microsoft 365 oder Office 365 for Business](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | Schritt 9  | Anmelden beim Anrufqualitäts-Dashboard (AQD) und Hochladen der Gebäudeinformationen | Das AQD sollte in jeder Microsoft Teams-Bereitstellung genutzt werden, um Einblicke in die Qualität und Zuverlässigkeit aller über Microsoft Teams getätigten Anrufe zu gewinnen. <br><br>Verwenden Sie die AQD-Anleitungen in der Spalte **Weitere Informationen**, um dieses Tool optimal zu nutzen. | | [Planen der Dienstverwaltung und -qualität](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[Handbuch für die Überprüfung der Erlebnisqualität](https://aka.ms/qerguide) <br/><br/>[Vorlagen für die Überprüfung der Erlebnisqualität](https://aka.ms/qertemplates) <br/><br/>[Aktivieren und Verwenden des Anrufqualitäts-Dashboards für Microsoft Teams und Skype for Business Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Hochladen von Gebäudeinformationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 10%  | Vergewissern Sie sich, dass die Gebäudeinformationen verarbeitet werden und das Anrufqualitäts-Dashboard (AQD) für Ihren Mandanten ausgeführt werden kann. | | | [Anrufqualitäts-Dashboard](https://cqd.lync.com) |
+| 10%  | Vergewissern Sie sich, dass die Gebäudeinformationen verarbeitet werden und das Anrufqualitäts-Dashboard (AQD) für Ihren Mandanten ausgeführt werden kann. | | | [Anrufqualitäts-Dashboard](https://cqd.teams.microsoft.com) |

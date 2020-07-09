@@ -17,12 +17,12 @@ description: Behandeln von Problemen im Zusammenhang mit dem empfangen von Nachr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489160"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085151"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Probleme beim Empfangen von Nachrichten und Anrufen auf Legacysystemen
 ==============================================================
@@ -45,3 +45,8 @@ Weitere Informationen finden Sie unter [Anmelden bei Microsoft Teams mithilfe de
 ## <a name="skype-token-revocation"></a>Skype-Token-Sperrung
 
 Wenn ein Kennwort geändert/zurückgesetzt wird, erhalten ältere Clients keine Nachrichten und Anrufe bis zu einer Stunde. Um dieses Problem zu beheben, starten Sie die APP entweder neu, oder wechseln Sie zu neueren Clients.
+
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

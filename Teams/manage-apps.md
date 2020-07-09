@@ -17,11 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042927"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086212"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
@@ -31,6 +32,9 @@ Als Administrator können Sie auf der Seite " **apps verwalten** " im Microsoft 
 Auf der Seite " **apps verwalten** " erhalten Sie einen Überblick über alle verfügbaren apps in Ihrem Mandanten Katalog, in dem Sie die Informationen finden, die Sie benötigen, um zu entscheiden, welche apps in Ihrer Organisation zugelassen oder blockiert werden sollen. Sie können dann [App-Berechtigungsrichtlinien](teams-app-permission-policies.md), [App-Setup Richtlinien](teams-app-setup-policies.md)und [benutzerdefinierte App-Richtlinien und-Einstellungen](teams-custom-app-policies-and-settings.md) verwenden, um die APP-Umgebung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren.
 
 Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**  >  **Verwalten von apps**. Sie müssen ein globaler Administrator oder Team Dienstadministrator sein, um auf die Seite zugreifen zu können.
+
+> [!NOTE]
+> Die Seite " **apps verwalten** " steht in den Microsoft 365-Bereitstellungen von Teams für die Government Community Cloud (gcc) noch nicht zur Verfügung.
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>Anzeigen von apps in Ihrem Mandanten-App-Katalog
 
@@ -77,7 +81,7 @@ Wenn Sie eine APP auf der Seite " **apps verwalten** " blockieren oder zulassen,
 Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer apps von Drittanbietern installieren können und ob Benutzer benutzerdefinierte apps in Ihrer Organisation hochladen oder mit ihnen interagieren können. Organisationsweite App-Einstellungen Regeln das Verhalten für alle Benutzer und überschreiben alle anderen APP-Berechtigungsrichtlinien, die Benutzern zugewiesen sind. Sie können Sie verwenden, um schädliche oder problematische apps zu steuern.
 
 > [!NOTE]
-> Die Seite " **apps verwalten** " steht in den Microsoft 365-Bereitstellungen von Teams für den Government-gcc noch nicht zur Verfügung.  Informationen zum Verwenden von organisationsweiten App-Einstellungen zum Aktivieren oder Deaktivieren von Drittanbieter-apps finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).
+> Informationen zum Verwenden von organisationsweiten App-Einstellungen in Microsoft 365-Bereitstellungen von Teams in der Regierung von gcc finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).
 
 1. Wählen Sie auf der Seite **apps verwalten** die Option **organisationsweite App-Einstellungen**aus. Anschließend können Sie die gewünschten Einstellungen im Panel konfigurieren.
 

@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b8c6a59216d1ac04c0e079015aa9de13f8cecb37
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904797"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088233"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden von Network Planner für Microsoft Teams
 
-Network Planner ist ein neues Tool, das im Team Admin Center zur Verfügung steht. Sie finden ihn unter **Planner** > **Network Planner**. Mit nur wenigen Schritten kann der Netzwerk Planner Ihnen dabei helfen, die Netzwerkanforderungen für die Verbindung von Microsoft Teams-Benutzern in Ihrer Organisation zu ermitteln und zu organisieren. Wenn Sie Ihre Netzwerkdetails und die Verwendung von Teams angeben, berechnet der Netzwerk Planner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud-VoIP über die physischen Standorte Ihrer Organisation hinweg.
+Network Planner ist ein neues Tool, das im Team Admin Center zur Verfügung steht. Sie finden ihn unter **Planner**  >  **Network Planner**. Mit nur wenigen Schritten kann der Netzwerk Planner Ihnen dabei helfen, die Netzwerkanforderungen für die Verbindung von Microsoft Teams-Benutzern in Ihrer Organisation zu ermitteln und zu organisieren. Wenn Sie Ihre Netzwerkdetails und die Verwendung von Teams angeben, berechnet der Netzwerk Planner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud-VoIP über die physischen Standorte Ihrer Organisation hinweg.
 
 ![Screenshot von Network Planner](media/network-planner.png)
 

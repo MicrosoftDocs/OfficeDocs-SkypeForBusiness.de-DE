@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30cbb5a29f88494c24474624a79ffa4ea8004025
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160362"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085681"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "42160362"
 
 Apps bieten integrierte Tools für Ihre Organisation, um mehr von Teams zu erhalten. Diese apps kombinieren die Funktionalität von Registerkarten, Messaging Erweiterungen, Connectors und Bots, die von Microsoft bereitgestellt werden, die von einem Drittanbieter oder von Entwicklern in Ihrer Organisation erstellt wurden.
 
-Sie verwalten Apps für Ihre Organisation in den **Teams-apps** im Microsoft Teams Admin Center. So können Sie beispielsweise apps auf Organisationsebene zulassen oder blockieren, Richtlinien festlegen, um zu steuern, welche apps für die Benutzer von Teams verfügbar sind, und Teams anpassen, indem Sie die für Ihre Benutzer wichtigsten apps anheften.
+Sie verwalten Apps für Ihre Organisation in den **Teams-apps** im [Admin Center](https://admin.teams.microsoft.com/). So können Sie beispielsweise apps auf Organisationsebene zulassen oder blockieren, Richtlinien festlegen, um zu steuern, welche apps für die Benutzer von Teams verfügbar sind, und Teams anpassen, indem Sie die für Ihre Benutzer wichtigsten apps anheften.
 
 Wir verbessern ständig die APP-Umgebung in Teams und fügen Features und Funktionen hinzu. Im Laufe der Zeit werden wir zusätzliche Funktionen für die APP-Verwaltung erstellen, daher sollten Sie sich über die neuesten Informationen zu app-Richtlinien informieren.
 

@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021830"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083185"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -143,10 +143,6 @@ Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarri
     ![Screenshot mit Gruppen-Chat](media/information-barriers-people-picker.png)
     
 - **Registerkarte "Aktivität"** – wenn ein Benutzer die Registerkarte " **Aktivität** " eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf der Registerkarte **Aktivität** werden nur Kanal Beiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
-
-    Hier sehen Sie ein Beispiel für die Registerkarte "Aktivität".
-
-    ![Screenshot mit der Registerkarte "Aktivität"](media/ib-before-activity-tab-policy.png)
 
     Hier sehen Sie ein Beispiel für die blockierte Aktivitäts Registerkartenansicht.
 

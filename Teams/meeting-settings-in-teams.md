@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 1d7aed894724a09f1b3cc352ef3e280cf3ead310
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489137"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086161"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -83,10 +83,10 @@ Sie können Teams-Besprechungseinladungen an die Bedürfnisse Ihrer Organisation
 
 <a name="bknetwork"> </a>
 
-Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzwerkverkehrs verwenden, können Sie QoS-Markierungen aktivieren und Portbereiche für jede Art von Mediendatenverkehr festlegen. Das Festlegen von Portbereichen für verschiedene Datenverkehrstypen ist nur ein Schritt bei der Handhabung von Echtzeitmedien. Weitere Details finden Sie unter [Quality of Service (QoS) in Teams](qos-in-teams.md).
+Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwenden, können Sie QoS-Marker aktivieren und Portbereiche für jeden Mediendaten Verkehr festlegen. Das Festlegen von Portbereichen für verschiedene Datenverkehrstypen ist nur ein Schritt bei der Handhabung von Echtzeitmedien. Weitere Details finden Sie unter [Quality of Service (QoS) in Teams](qos-in-teams.md).
 
 > [!IMPORTANT]
-> Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Microsoft Teams-Dienst ändern, müssen Sie außerdem [übereinstimmende Einstellungen auf alle Benutzergeräte anwenden](QoS-in-Teams-clients.md) und auf alle internen Netzwerkgeräte, um die Änderungen an QoS in Teams vollständig zu implementieren.
+> Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Teams-Dienst ändern, müssen Sie auch [übereinstimmende Einstellungen auf alle Benutzer Geräte](QoS-in-Teams-clients.md) und alle internen Netzwerkgeräte anwenden, um die Änderungen an QoS in Teams vollständig zu implementieren.
 
  ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 1. Wechseln Sie zum <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin Center</a>.

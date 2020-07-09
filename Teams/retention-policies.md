@@ -2,11 +2,11 @@
 title: Aufbewahrungsrichtlinien in Microsoft Teams
 author: LanaChin
 ms.author: anwara
+ms.reviewer: prvijay
 manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: prvijay
 description: In diesem Artikel erfahren Sie mehr über Aufbewahrungsrichtlinien und Informationen dazu, wie Sie in Microsoft Teams erstellt und verwaltet werden.
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 5800e75e253ad5669b833a3302a04bbe2ac39763
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902270"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086151"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -59,15 +59,24 @@ Die Mindestanforderungen für die Lizenzierung für Aufbewahrungsrichtlinien sin
 
 ## <a name="how-teams-retention-policies-work"></a>Funktionsweise der Aufbewahrungsrichtlinien von Teams
 
-Teams-Chats werden in einem versteckten Ordner gespeichert-Teamschat-im Postfach eines jeden Benutzers im Chat und Teams-Kanal Nachrichten werden in einem versteckten Ordner gespeichert-Teamschat-im Gruppenpostfach für ein Team. Teams verwendet einen Azure-Chatdienst, der diese Daten ebenfalls speichert, und die Daten von diesem Dienst werden standardmäßig unbefristet gespeichert. Bei einer Aufbewahrungsrichtlinie für Teams werden die Daten beim Löschen von Daten dauerhaft aus den Exchange-Postfächern und dem zugrunde liegenden Chatdienst gelöscht.
+Teams-Chats werden in einem versteckten Ordner (Teamschat) im Postfach jedes Benutzers im Chat gespeichert, und Teams-Kanal Nachrichten werden in einem ausgeblendeten Ordner (Teamschat) im Gruppenpostfach für ein Team gespeichert. Teams verwendet einen Azure-Chatdienst, der diese Daten ebenfalls speichert, und die Daten von diesem Dienst werden standardmäßig unbefristet gespeichert. Bei einer Aufbewahrungsrichtlinie für Teams werden die Daten beim Löschen von Daten dauerhaft aus den Exchange-Postfächern und dem zugrunde liegenden Chatdienst gelöscht.
 
-Wenn Sie eine Aufbewahrungsrichtlinie auf Teams Chats- und Kanalnachrichten anwenden, passiert Folgendes:
+Wenn Sie eine **Aufbewahrungs** Richtlinie auf Teams-Chats oder Kanal Nachrichten anwenden, gehen Sie folgendermaßen vor:
 
-- Wenn eine Chat- oder Kanalnachricht während des Aufbewahrungszeitraums von einem Benutzer bearbeitet oder gelöscht wird, wird die Nachricht kopiert (sofern sie bearbeitet wurde) oder (wenn sie gelöscht wurde) in den Ordner "SubstrateHolds" verschoben und dort gespeichert, bis der Aufbewahrungszeitraum abgelaufen ist. Wenn die Richtlinie für das Löschen von Daten nach Ablauf des Aufbewahrungszeitraums konfiguriert ist, werden die Nachrichten am Tag des Ablaufs des Aufbewahrungszeitraums dauerhaft gelöscht.
-- Wenn eine Chat- oder Kanalnachricht während des Aufbewahrungszeitraums nicht von einem Benutzer gelöscht wird, wird die Nachricht innerhalb eines Tages nach Ablauf des Aufbewahrungszeitraums in den Ordner "SubstrateHolds" verschoben. Wenn die Richtlinie für das Löschen von Daten nach Ablauf des Aufbewahrungszeitraums konfiguriert ist, wird die Nachricht einen Tag nachdem Sie in den Ordner verschoben wurde dauerhaft gelöscht.
+- Wenn eine Chat-oder Kanal Nachricht während des Aufbewahrungszeitraums von einem Benutzer bearbeitet oder gelöscht wird, wird die Nachricht (sofern Sie bearbeitet wurde) kopiert oder verschoben (falls Sie gelöscht wurde) in den SubstrateHolds-Ordner und dort gespeichert, bis der Aufbewahrungszeitraum abläuft. Wenn die Richtlinie für das Löschen von Daten nach Ablauf des Aufbewahrungszeitraums konfiguriert ist, werden die Nachrichten am Tag des Ablaufs des Aufbewahrungszeitraums dauerhaft gelöscht.
+- Wenn eine Chat-oder Kanal Nachricht während des **Aufbewahrungs** Zeitraums nicht von einem Benutzer gelöscht wird, wird die Nachricht innerhalb eines Tages nach Ablauf des Aufbewahrungszeitraums in den SubstrateHolds-Ordner verschoben. Wenn die Richtlinie für das Löschen von Daten nach Ablauf des Aufbewahrungszeitraums konfiguriert ist, wird die Nachricht einen Tag nachdem Sie in den Ordner verschoben wurde dauerhaft gelöscht.
+
+Wenn Sie eine **Aufbewahrungs Lösch** Richtlinie auf teamchats und Kanal Nachrichten anwenden, gehen Sie wie folgt vor:
+
+- Wenn eine Chat-oder Kanal Nachricht abläuft, d. h., das Alter der Nachricht ist mehr als von der **Aufbewahrungs Lösch** Richtlinie zugelassen, gibt ein Back-End-Dienst abgelaufene Nachrichten an und beginnt, Sie im Back-End-Speicher (Benutzer-oder Gruppenpostfach) zu löschen. 
+- Nachdem eine Nachricht im Back-End-Speicher gelöscht wurde, wird ein Prozess ausgelöst, um dieselbe Nachricht im Azure-powered-Chatdienst und in der Team-App des Benutzers zu löschen. Damit die Nachrichten in der Teams-App gelöscht werden können, muss die APP mit dem Internet verbunden sein und sich im Leerlauf befinden (keine Benutzeraktivität), damit der Löschvorgang die Benutzeroberfläche nicht beeinträchtigt. Da ein Benutzer möglicherweise über mehrere Geräte verfügt, die sich möglicherweise in verschiedenen Zuständen befinden, werden Aufbewahrungs Löschungen nicht gleichzeitig mit diesen Geräten synchronisiert.
+- Nachdem das Löschen von Nachrichten im Back-End-Speicher abgeschlossen ist, werden diese Nachrichten in Kompatibilitäts Suchberichten wie eDiscovery nicht mehr angezeigt.
 
 > [!NOTE]
 > Der gleiche Ablauf gilt für Interop-Chats zwischen Skype for Business Online und Teams. Wenn ein Skype for Business Online-Chat in Teams eintrifft, wird er in einem Chatthread von Teams zu einer Nachricht und wird in das entsprechende Postfach aufgenommen. Die Aufbewahrungsrichtlinien für Teams löschen diese Nachrichten aus dem Teams-Thread. Wenn aber der Unterhaltungsverlauf für Skype for Business Online und für die Skype for Business Online-Clientseite aktiviert ist, die in einem Postfach gespeichert sind, werden diese Chatdaten nicht von einer Aufbewahrungsrichtlinie für Teams verarbeitet.
+
+> [!NOTE]
+> Das Löschen von Nachrichten ist dauerhaft und unumkehrbar.
 
 Aufbewahrungsrichtlinien in Teams basieren auf dem Datum, an dem die Chat- oder Kanalnachrichten erstellt wurden, und sie sind rückwirkend. Wenn Sie also eine Aufbewahrungsrichtlinie erstellen, um Daten zu löschen, die älter als 90 Tage sind, werden die Teams-Daten, die vor mehr als 90 Tagen erstellt wurden, gelöscht.
 
@@ -83,7 +92,7 @@ Hier einige Überlegungen und Einschränkungen, die beim Arbeiten mit den Aufbew
 
 - Teams unterstützt keine erweiterten Aufbewahrungseinstellungen, z. B. die Möglichkeit, eine Richtlinie auf Inhalte anzuwenden, die bestimmte Stichwörter oder vertrauliche Informationen enthalten. Aktuell gelten Aufbewahrungsrichtlinien in Teams für alle Inhalte in Chat- und/oder Kanalnachrichten.
 
-- Eine Aufbewahrungsrichtlinie für Teams löst einen Prozess innerhalb eines Tages aus, um Chat-und Kanal Nachrichten zu löschen, wenn der Aufbewahrungszeitraum abläuft. Allerdings kann es bis zu drei bis sieben Tage dauern, diese Nachrichten zu bereinigen und endgültig zu löschen. Außerdem können Chat- und Kanalnachrichten mit eDiscovery-Tools zwischen dem Ablauf des Aufbewahrungszeitraums und dem Zeitraum nach deren dauerhafter Löschung durchsucht werden.
+- Eine Aufbewahrungsrichtlinie für Teams löst einen Prozess zum Löschen von Chat-und Kanal Nachrichten aus, wenn diese Nachrichten ablaufen (basierend auf dem Erstellungsdatum der Nachricht). Je nach Dienstauslastung kann es jedoch bis zu sieben Tage dauern, diese Nachrichten aus dem Back-End-Speicher und der Teams-App endgültig zu löschen. Darüber hinaus können diese Nachrichten mit Compliance-Tools (eDiscovery, Endbenutzersuche) durchsucht werden, bis Sie endgültig aus dem Back-End-Speicher gelöscht werden.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>Mehrere Aufbewahrungsrichtlinien und die Grundsätze der Aufbewahrung
 

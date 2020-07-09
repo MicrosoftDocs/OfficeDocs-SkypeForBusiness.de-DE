@@ -1,10 +1,10 @@
 ---
-title: Datenstromklassifizierung im Anrufqualitäts-Dashboard
-ms.author: tonysmit
-author: tonysmit
+title: Stream-Klassifizierung im Dashboard für die Anrufqualität (CQD)
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitäts-Dashboard für Microsoft-Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+description: Erfahren Sie, wie die Datenstromqualität in das Anruf Qualitäts Dashboard (CQD) für Microsoft Teams und Skype for Business Online eingestuft wird.
+ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160739"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085891"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>Datenstromklassifizierung im Anrufqualitäts-Dashboard
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Stream-Klassifizierung im Dashboard für die Anrufqualität (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Klassifizierungsdefinitionen
 
-Streams in CQD werden basierend auf den Werten der verfügbaren Schlüssel Qualitäts Metriken als " _gut_", " _schlecht_" oder "nicht _klassifiziert_ " klassifiziert. Die Metriken und Bedingungen, die für die Klassifizierung von Datenstrom verwendet werden, werden in den folgenden Tabellen angezeigt. Die "CQD"-Dimensionen können verwendet werden, um zu verstehen, welche Metrik für eine _unzureichende_ Klassifizierung verantwortlich ist. Weitere Informationen zu diesen Dimensionen finden Sie unter [Dimensionen und Measures, die im Dashboard für die Anrufqualität verfügbar sind](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Audio-Klassifizierung
 
@@ -41,11 +41,11 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audiost
 
 |Metrik|Bedingung|Erklärung|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Durchschnittlicher Netzwerk-Mittelwert der Meinungs Bewertung für Datenstrom. Wie viel Netzwerk Verlust und Jitter die Qualität der empfangenen Audiodaten beeinträchtigt haben.|
+|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
 |Round Trip|> 500|Durchschnittliche Roundtrip-Netzwerk Laufzeit, berechnet in Millisekunden. Einzelheiten sind in [rfc3550 angegeben](https://tools.ietf.org/html/rfc3550)verfügbar.|
 |Packet Loss Rate|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|
-|Ratio Concealed Samples Avg|> 0,07|Durchschnittliches Verhältnis der Anzahl von Audioframes mit verborgenen Samples, die durch Paketverlust-Heilung an die Gesamtzahl der Audioframes generiert wurden.|
+|Ratio Concealed Samples Avg|> 0,07|Durchschnittliches Verhältnis der Anzahl der Audioframes mit verdeckten Beispielen, die durch die Paketverlustreparatur generiert wurden, zur Gesamtzahl der Audioframes.|
 ||||
 
 ### <a name="video-classifier-due-to-freeze"></a>Video Klassifizierung durch Einfrieren
@@ -115,10 +115,18 @@ Wenn die Ice-Konnektivität für einen nicht _klassifizierten_ Datenstrom erfolg
 > Mit der Dimension "Paketauslastung" und der Messung "Durchschnittliche Paketauslastung" kann die Paketaktivität eines Datenstroms bestimmt werden.
 
 ## <a name="related-topics"></a>Verwandte Themen
+[Verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)
 
-[Aktivieren und Verwenden des Dashboards für die Anrufqualität (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[Was ist CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Einrichten des Dashboards für die Anrufqualität (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[Hochladen von Mandanten-und Gebäudedaten](CQD-upload-tenant-building-data.md)
+
+[CQD-Daten und-Berichte](CQD-data-and-reports.md)
+
+[Verwenden von CQD zum Verwalten von Anruf-und Besprechungs Qualität](quality-of-experience-review-guide.md)
+
+[In CQD verfügbare Dimensionen und Measures](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Verwenden von Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md)

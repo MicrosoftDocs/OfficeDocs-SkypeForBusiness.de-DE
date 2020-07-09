@@ -13,12 +13,12 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849b22d09c79e97c5eaaeab4dee96b1d432970cb
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944112"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085881"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installieren von Microsoft Teams PowerShell
 
@@ -26,7 +26,7 @@ In diesem Artikel wird erläutert, wie Sie das Microsoft Teams PowerShell-Modul 
 
 ## <a name="requirements"></a>Voraussetzungen
 
-Teams PowerShell kann mit PowerShell-6.2.4 und später auf allen Plattformen verwendet werden. Sie wird auch mit PowerShell 5,1 unter Windows unterstützt. Installieren Sie die [neueste PowerShell-Version](/powershell/scripting/install/installing-powershell) , die für Ihr Betriebssystem verfügbar ist. Teams PowerShell hat keine zusätzlichen Anforderungen, wenn Sie auf PowerShell-6.2.4 und höher ausgeführt werden.
+Für Teams PowerShell ist PowerShell 5,1 oder höher auf allen Plattformen erforderlich. Installieren Sie die [neueste PowerShell-Version](/powershell/scripting/install/installing-powershell) , die für Ihr Betriebssystem verfügbar ist.
 
 > [!WARNING]
 > Es gibt bekannte Probleme mit PowerShell 7 und PowerShell von Teams. Für eine optimale Benutzerfreundlichkeit empfehlen wir, PowerShell 5,1 zu verwenden.
@@ -45,7 +45,7 @@ Install-Module MicrosoftTeams
 
 Standardmäßig ist der PowerShell-Katalog (PSGallery) nicht als vertrauenswürdiges Repository für **PowerShellGet**konfiguriert. Wenn Sie das PSGallery zum ersten Mal verwenden, wird die folgende Meldung angezeigt:
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Beantworten `Yes` oder `Yes to All` Fortsetzen der Installation
+Beantworten Sie " **Ja** " oder " **Ja",** um mit der Installation fortzufahren.
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Installieren von Teams PowerShell Public Preview

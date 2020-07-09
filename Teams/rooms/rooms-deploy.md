@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Microsoft Teams-Räume, einschließlich der Bereitstellungsphasen, bereitstellen.
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905407"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085961"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -119,7 +119,7 @@ Die Planung für Konfiguration und Bereitstellung umfasst die folgenden Hauptber
 
 Für jedes Microsoft Teams rooms-Gerät ist ein dediziertes und eindeutiges Ressourcenkonto erforderlich, das für Microsoft Teams oder Skype for Business und Exchange aktiviert sein muss. Dieses Konto muss über ein Chatroom-Postfach verfügen, das in Exchange gehostet wird, und als Besprechungsraum in der Microsoft Teams-oder Skype for Business-Bereitstellung aktiviert sein. Auf der Exchange-Seite muss die Kalenderverarbeitung so konfiguriert werden, dass das Gerät eingehende Besprechungsanfragen automatisch annehmen kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams-Chatrooms](rooms-configure-accounts.md). 
 
-**Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den*Namen*der Konventions *Website*-(*Max. Raumkapazität*)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs. 
+**Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den Namen der Konventions *Website* - *Room Name*(*Max. Raumkapazität*)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs. 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Wenn Sie die Bereitstellung von Microsoft Teams-Räumen planen, haben Sie eine R
 | Bereitstellen von mehr als 50 Microsoft Teams rooms-Geräten, Bereitstellen von Geräten von mehr als einem Anbieter oder Anfordern von organisationsspezifischen Agents als Teil der Bereitstellung. | Verwenden Sie eine auf Aufgaben Sequenzer basierende Software-und Verteilungsplattform, wie etwa den [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Pro-Tipp** – jeder Microsoft Teams-Chatroom muss über einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk verfügen. Viele Überwachungs-und Warnungssysteme zeigen den Computernamen als Schlüsselbezeichner an, daher ist es wichtig, eine Benennungskonvention für Microsoft Teams rooms-Bereitstellungen zu entwickeln, mit deren Hilfe das Supportpersonal problemlos nach den Microsoft Teams-Räumen suchen kann, die als erforderlich gekennzeichnet sind. Ein Beispiel ist möglicherweise die Verwendung eines Musters des MTR-*Site*-*Room Name* (MTR-Lon-Curie). 
+**Pro-Tipp** – jeder Microsoft Teams-Chatroom muss über einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk verfügen. Viele Überwachungs-und Warnungssysteme zeigen den Computernamen als Schlüsselbezeichner an, daher ist es wichtig, eine Benennungskonvention für Microsoft Teams rooms-Bereitstellungen zu entwickeln, mit deren Hilfe das Supportpersonal problemlos nach den Microsoft Teams-Räumen suchen kann, die als erforderlich gekennzeichnet sind. Ein Beispiel ist möglicherweise die Verwendung eines Musters des MTR-*Site* - *Room Name* (MTR-Lon-Curie). 
 
 Als Teil der Bereitstellung müssen Sie auch Ihre Strategie für die Verwaltung und Konfiguration der [lokalen Konten](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) in Frage stellen, die vom Installationsprogramm für Microsoft Teams rooms erstellt werden.
 
@@ -188,7 +188,7 @@ Sie können [Remote-PowerShell](rooms-operations.md#remote-management-using-powe
 
 Nachdem das Microsoft Teams rooms-System bereitgestellt wurde, sollten Sie es testen. Überprüfen Sie, ob die in [Microsoft Teams-Chatrooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) aufgeführten Funktionen auf dem bereitgestellten Gerät funktionieren. Wir empfehlen dringend, dass das Bereitstellungsteam überprüft, ob die Microsoft Teams-Räume in Microsoft Operations Management Suite (falls verwendet) angemeldet sind. Es ist auch wichtig, dass Sie eine Reihe von Testanrufen und Besprechungen vornehmen, um die Qualität zu überprüfen. Weitere Informationen finden Sie in dieser [hilfreichen Bereitstellungscheckliste](console.md#microsoft-teams-rooms-deployment-checklist).
 
-Wir empfehlen, dass Sie im Rahmen der allgemeinen Teams oder des Skype for Business-Rollouts Bausteine für das Anruf Qualitäts Dashboard (CQD) konfigurieren, qualitätstrends überwachen und sich an der Prüfung der Qualität der Erfahrung beteiligen. Weitere Informationen finden Sie im [Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit](https://aka.ms/qerguide). 
+Wir empfehlen, dass Sie im Rahmen der allgemeinen Teams oder des Skype for Business-Rollouts Bausteine für das Anruf Qualitäts Dashboard (CQD) konfigurieren, qualitätstrends überwachen und sich an der Prüfung der Qualität der Erfahrung beteiligen. Weitere Informationen finden Sie unter [verbessern und Überwachen der Anrufqualität für Teams](../monitor-call-quality-qos.md). 
 
 ### <a name="asset-management"></a>Ressourcenverwaltung
 

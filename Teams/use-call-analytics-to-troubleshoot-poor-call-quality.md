@@ -1,10 +1,9 @@
 ---
-title: Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
+title: Verwenden von Anruf Analysen zur Fehlerbehebung bei schlechter Anrufqualität
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
-ms.date: 03/08/2019
+ms.reviewer: mikedav, vkorlep
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -14,7 +13,6 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
@@ -23,75 +21,93 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: Verwenden Sie Details zur anrufanalyse zu Geräten, Netzwerken und Verbindungen zur Behandlung von Benutzerproblemen mit Microsoft Teams und Skype for Business-anrufen und-Besprechungen.
-ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+description: Verwenden Sie benutzerspezifische anrufanalyse Details zu Geräten, Netzwerken und Verbindungen zur Behandlung von Benutzerproblemen mit Microsoft Teams-anrufen und-Besprechungen.
+ms.openlocfilehash: fa923a133ac6a56edcbc6f6445d2859692adf351
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665247"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085321"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anruf Analysen zur Fehlerbehebung bei schlechter Anrufqualität
 
-Anrufanalyse unterstützt Sie bei der Behandlung von Anruf-oder Verbindungsproblemen mit Microsoft Teams und Skype for Business. In der anrufanalyse werden detaillierte Informationen zu den Geräten, Netzwerken und Verbindungen für die Anrufe und Besprechungen der einzelnen Benutzer in Ihrem Microsoft 365-oder Office 365-Konto angezeigt. Wenn Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzugefügt wurden, werden auch diese für jeden Anruf und jede Sitzung angezeigt. Anhand der über die Anrufanalyse verfügbaren Informationen können Sie herausfinden, warum bestimmte Benutzer eine schlechte Anruf- oder Besprechungsqualität wahrnehmen. 
+In diesem Artikel wird erläutert, wie Sie mithilfe der anrufanalyse schlechte Microsoft Teams-Anruf-oder Besprechungs Qualität für einzelne Benutzer beheben können, wenn Sie ein Teamadministrator oder ein Team-Support Spezialist oder-Ingenieur sind.
+
+
   
 ## <a name="call-analytics-permissions"></a>Anrufanalyse Berechtigungen
 
-Als Administrator verfügen Sie über Vollzugriff auf alle Funktionen der Anrufanalyse. Darüber hinaus können Sie Azure Active Directory-Rollen zuweisen, um Mitarbeiter zu unterstützen. Weisen Sie die Rolle des Teams Communications Support Specialist für Benutzer zu, die eine begrenzte Ansicht der anrufanalyse haben sollten. Weisen Sie Benutzern, die Zugriff auf die vollständige Funktionalität der anrufanalyse benötigen, die Rolle Teams Communications Support Engineer zu. Beide Berechtigungsstufen verhindern den Zugriff auf das restliche Microsoft Teams Admin Center.
+In diesem Artikel wird davon ausgegangen, dass Sie die anrufanalyse bereits eingerichtet haben. Wenn dies nicht der Fall ist, lesen Sie [Einrichten der anrufanalyse für Teams](set-up-call-analytics.md).
 
-Kommunikations Supportspezialisten behandeln grundlegende Probleme mit der Anrufqualität. Sie untersuchen keine Probleme mit Besprechungen. Stattdessen werden verwandte Informationen gesammelt und dann an einen Kommunikations Supporttechniker weitergeleitet. Kommunikations Support-Ingenieure sehen Informationen in detaillierten Anrufprotokollen, die von Experten für Kommunikationsunterstützung verborgen sind. In der folgenden Tabelle finden Sie eine Übersicht über die Informationen, die für Kommunikations Supportspezialisten und Kommunikations Support Ingenieure zur Verfügung stehen, wenn Sie die anrufanalyse verwenden.
+## <a name="introduction-to-call-analytics"></a>Einführung in die anrufanalyse
 
-Die Ihnen zugewiesene Berechtigungsstufe entscheidet, auf welche Informationen Sie in der Anrufanalyse zugreifen können:
-  
-- **Teams-Dienstadministrator oder Teams Communications Administrator**: Sie haben Zugriff auf alle Informationen in der anrufanalyse und im Microsoft Teams Admin Center.
-    
-- **Teams Communications Support-Spezialist**: in der anrufanalyse wird eine begrenzte Anzahl von Daten angezeigt. Sie können die Behandlung von Anrufen beheben, aber Sie werden Probleme mit Besprechungen an einen Team-Supporttechniker weitergeben. Sie haben keinen Zugriff auf das restliche Microsoft Teams Admin Center.
-    
-- **Teams Communications Support Engineer**: Sie sehen alle verfügbaren Daten in der anrufanalyse und können bei der Behebung von Problemen mit beiden anrufen und Besprechungen behilflich sein. Sie haben keinen Zugriff auf das restliche Microsoft Teams Admin Center.
-    
-> [!NOTE]
-> Die Rolle "Kommunikations Support Spezialist" entspricht der Unterstützung der Stufe 1 und die Rolle des Kommunikations Support Ingenieurs entspricht der Unterstützung der Stufe 2.
+In der anrufanalyse werden detaillierte Informationen zu Team anrufen und Besprechungen für jeden Benutzer in Ihrem Office 365-Konto angezeigt. Sie enthält Informationen zu Geräten, Netzwerken, Konnektivität und Anrufqualität (jeder dieser Elemente kann einen Faktor bei schlechter Anruf-oder Besprechungs Qualität darstellen). Wenn Sie Gebäude-, Website-und Mandanteninformationen hochladen, werden diese Informationen auch für jeden Anruf und jede Besprechung angezeigt. Verwenden Sie die anrufanalyse, um herauszufinden, warum ein Benutzer eine schlechte Anruf-oder Besprechungs Erfahrung hatte.
 
-Weitere Informationen zu Teams-Administratorrollen finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md). Einen detaillierten Vergleich der Rollen des Teams Communications Support Specialist und Teams Communications Support Engineer finden Sie unter [Einrichten der anrufanalyse](set-up-call-analytics.md#set-call-analytics-permissions) . 
-  
-Wenn Sie Hilfe zu Berechtigungen benötigen, sehen Sie sich Ihre Teams und den Skype for Business-Administrator an.
-  
-## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Behandeln von Problemen mit der Anrufqualität mithilfe der Anrufanalyse
+Die anrufanalyse zeigt Ihnen jede Etappe eines Anrufs oder einer Besprechung an – beispielsweise von einem Teilnehmer zu einem zweiten Teilnehmer. Durch Analyse dieser Details kann ein Teamadministrator Problembereiche isolieren und die Ursache für schlechte Qualität ermitteln.
+   
+Als Team-Administrator erhalten Sie vollständigen Zugriff auf alle anrufanalyse Daten für jeden Benutzer. Darüber hinaus können Sie Azure Active Directory-Rollen zuweisen, um Mitarbeiter zu unterstützen. Wenn Sie mehr über diese Rollen erfahren möchten, lesen Sie [erteilen der Berechtigung für Support-und Helpdesk-Mitarbeiter](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Verpassen Sie nicht, [was die Rolle jedes Teams unterstützt?](#what-does-each-teams-support-role-do) weiter unten.
 
-1. Melden Sie sich mit Ihrem Team Communications-Support oder den Team-Administratoranmeldeinformationen an.
+## <a name="where-to-find-per-user-call-analytics"></a>Wo finden Sie die pro-Benutzer-anrufanalyse
 
-2. Wechseln Sie in Ihrem Webbrowser zu *https://admin.teams.microsoft.com* .
-    
-3. Beginnen Sie im **Dashboard**in der **Benutzersuche**mit der Eingabe des Namens oder der SIP-Adresse des Benutzers, dessen Anrufe Sie behandeln möchten, oder wählen Sie **Benutzer anzeigen** aus, um eine Liste der Benutzer anzuzeigen.
-    
-    ![Screenshot des Felds "Benutzersuche" in der anrufanalyse](media/use-call-analytics-to-troubleshoot-image-1.png)
-  
-4. Wählen Sie den Benutzer in der Liste aus.
+Wenn Sie alle Anrufinformationen und Daten für einen Benutzer anzeigen möchten, wechseln Sie zum [Team Admin Center](https://admin.teams.microsoft.com). Wählen Sie unter **Benutzer**einen Benutzer aus, und öffnen Sie dann die Registerkarte **Anrufverlauf** auf der Profilseite des Benutzers. Hier finden Sie alle Anrufe und Besprechungen für diesen Benutzer für die letzten 30 Tage.
 
-5. Wählen Sie **Anrufprotokoll**aus, und wählen Sie dann den Anruf oder die Besprechung aus, für den Sie eine Problembehandlung durchführen möchten.  Es werden maximal 500 Datensätze zurückgegeben.
-    
-    ![Screenshot der Seite "Anrufverlauf" für einen Benutzer](media/use-call-analytics-to-troubleshoot-image-2.png)
+![Screenshot aller Analytics-Benutzerdaten](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+
+Wenn Sie weitere Informationen zu einer bestimmten Sitzung, einschließlich detaillierter Medien-und Netzwerkstatistiken, erhalten möchten, klicken Sie auf eine Sitzung, um die Details anzuzeigen.
+
+![Screenshot der Benutzersitzungsdaten der anrufanalyse](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
   
-6. Wählen Sie die Registerkarte **Erweitert** aus, und suchen Sie dann nach gelben und roten Elementen, die auf eine schlechte Anrufqualität oder auf Verbindungsprobleme hinweisen.
-    
-    In den Sitzungsdetails für die einzelnen Anrufe oder Besprechungen werden geringfügige Probleme gelb dargestellt. (Im folgenden Screenshot zum Beispiel werden die Werte für „Durchschnittlicher Jitter", „Max. Jitter" und „Durchschnittliche Paketverlustrate" in Gelb angezeigt.) Gelbe Elemente befinden sich außerhalb des normalen Bereichs und können zum Problem beitragen. Sie sind aber wahrscheinlich nicht die Hauptursache des Problems. Rote Elemente weisen auf ein wichtiges Problem hin und stellen wahrscheinlich die Hauptursache für die schlechte Anrufqualität in dieser Sitzung dar. 
-    
-    ![Screenshot der Registerkarte "Erweitert" im Anrufverlauf eines Benutzers ](media/use-call-analytics-to-troubleshoot-image-3.png)
+## <a name="what-does-each-teams-support-role-do"></a>Was unterstützt die Rolle jedes Teams?
+
+Der Support **Spezialist für Teams Communications** (Stufe 1) behandelt grundlegende Probleme mit der Anrufqualität. Sie untersuchen keine Probleme mit Besprechungen. Stattdessen werden verwandte Informationen gesammelt und dann an einen Kommunikations Supporttechniker weitergeleitet. 
+
+Der Support- **Techniker für Teams Communications** (Stufe 2) sieht Informationen in detaillierten Anrufprotokollen, die dem Supportspezialisten für Team Kommunikation verborgen sind. In der folgenden Tabelle sind die Informationen aufgeführt, die für die einzelnen Teams zur Unterstützung der Rolle verfügbar sind.
+
+In der folgenden Tabelle wird erläutert, welche Informationen pro Benutzer für die einzelnen Kommunikations Unterstützungsfunktionen zur Verfügung stehen.
+
+|**Aktivität**|**Informationen**|Was der Communications-Support **Spezialist** sieht|Was der Communications-Support **Techniker** sieht|
+|:-----|:-----|:-----|:-----|
+|**Anrufe** <br/> |Name des Anrufers  <br/> |Nur der Name des Benutzers, nach dem der Agent gesucht hat.  <br/> |Benutzername  <br/> |
+||Name des Angerufenen  <br/> |Wird als „Interner Benutzer" oder „Externer Benutzer" angezeigt.  <br/> |Name des Angerufenen  <br/> |
+||Telefonnummer des Anrufers  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |Entire phone number except last three digits are obfuscated with asterisk symbols. For example, 15552823***.  <br/> |
+||Telefonnummer des Angerufenen  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |Entire phone number except last three digits are obfuscated with asterisk symbols. For example, 15552823***.  <br/> |
+||**Call Details** > **Advanced** tab <br/> |Es werden keine Informationen angezeigt.  <br/> |Es werden alle Details angezeigt, beispielsweise Gerätenamen, IP-Adresse, Subnetzzuordnung und mehr.  <br/> |
+||**Call Details** > **Advanced** > **Debug** tab <br/> |Es werden keine Informationen angezeigt.  <br/> |Es werden alle Details angezeigt, beispielsweise DNS-Suffix und SSID.  <br/> |
+|**Besprechungen** <br/> |Namen der Teilnehmer  <br/> |Only the name of the user for whom the agent searched. Other participants identified as Internal User or External User.  <br/> |Es werden alle Namen angezeigt.  <br/> |
+||Anzahl der Teilnehmer  <br/> |Anzahl der Teilnehmer  <br/> |Anzahl der Teilnehmer  <br/> |
+||Sitzungsdetails  <br/> |Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last three digits of telephone number obfuscated with asterisk symbols.  <br/> |Session details shown. User names and session details shown. Last three digits of telephone number obfuscated with asterisk symbols.  <br/> |
+||||
   
-In seltenen Fällen werden die Daten für die Qualität der Erfahrung nicht für audiositzungen empfangen. Dies wird häufig dadurch verursacht, dass der Anruf abfällt und die Verbindung mit dem Client beendet wird. In diesem Fall ist die Sitzungs Bewertung **nicht verfügbar**.
+## <a name="troubleshoot-user-call-quality-problems"></a>Behandeln von Problemen mit der Benutzer Anrufqualität 
+
+1. Öffnen Sie das Team Admin Center ( https://admin.teams.microsoft.com) und melden Sie sich mit Ihrem Team Communications Support oder den Administratoranmeldeinformationen für Teams an.
+
+2. Beginnen Sie im **Dashboard**in der **Benutzersuche**mit der Eingabe des Namens oder der SIP-Adresse des Benutzers, dessen Anrufe Sie beheben möchten, oder wählen Sie **Benutzer anzeigen** aus, um eine Liste der Benutzer anzuzeigen.
+
+3. Wählen Sie den Benutzer in der Liste aus.
+
+4. Wählen Sie **Anrufprotokoll**aus, und wählen Sie dann den Anruf oder die Besprechung aus, für den Sie eine Problembehandlung durchführen möchten.
+    
+5. Wählen Sie die Registerkarte **Erweitert** aus, und suchen Sie dann nach gelben und roten Elementen, die auf eine schlechte Anrufqualität oder auf Verbindungsprobleme hinweisen.
+    
+    In den Sitzungsdetails für jeden Anruf oder jede Besprechung werden kleinere Probleme in gelb angezeigt. Wenn etwas gelb ist, liegt es außerhalb des normalen Bereichs, und es kann zu dem Problem beitragen, doch es ist unwahrscheinlich, dass es die Hauptursache des Problems ist. Wenn etwas rot ist, ist es ein erhebliches Problem, und es ist wahrscheinlich die Hauptursache für die schlechte Anrufqualität für diese Sitzung. 
+      
+In seltenen Fällen werden die Daten für die Qualität der Erfahrung nicht für audiositzungen empfangen. Häufig wird dies durch einen unterbrochenen Anruf verursacht, oder wenn die Verbindung mit dem Client beendet wird. In diesem Fall ist die Sitzungs Bewertung **nicht verfügbar**.
   
 Bei audiositzungen, die QoE-Daten (Quality of Experience) aufweisen, werden in der folgenden Tabelle wichtige Probleme beschrieben, die eine Sitzung als **schlecht**qualifizieren.
   
 |**Problem**|**Bereich**|**Beschreibung**|
 |:-----|:-----|:-----|
 |Anrufeinrichtung  <br/> |Session  <br/> |Der Fehlercode MS-Diag 20-29 gibt an, dass die Anrufeinrichtung fehlgeschlagen ist. Der Benutzer konnte nicht an dem Anruf oder der Besprechung teilnehmen.  <br/> |
-|Audionetz klassifizierter schlechter Anruf  <br/> |Session  <br/> |Probleme mit der Netzwerkqualität (wie Paketverlust, Jitter, NMOS-Verschlechterung, RTT oder verdecktes Verhältnis) waren aufgetreten. Weitere Informationen zu den Bedingungen, die für die Klassifizierung schlechter Anrufe verwendet werden, finden Sie in diesem [Microsoft-Blogbeitrag](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|Audionetz klassifizierter schlechter Anruf  <br/> |Session  <br/> |Probleme mit der Netzwerkqualität (wie Paketverlust, Jitter, NMOS-Verschlechterung, RTT oder verdecktes Verhältnis) waren aufgetreten.  <br/> |
 |Gerät funktioniert nicht  <br/> |Gerät  <br/> | Ein Gerät funktioniert nicht ordnungsgemäß. Das Funktions Verhältnis des Geräts funktioniert nicht: <br/>  DeviceRenderNotFunctioningEventRatio >= 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0,005 <br/> |
    
-## <a name="related-topics"></a>Verwandte Themen
-[Einrichten von Anrufanalyse](set-up-call-analytics.md)
 
-[Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+## <a name="related-topics"></a>Verwandte Themen
+
+[Einrichten der pro-Benutzer-anrufanalyse](set-up-call-analytics.md)
+
+
 
   
  
