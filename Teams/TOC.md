@@ -694,21 +694,29 @@
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
-## [Überwachen und Verwalten des Lebenszyklus](monitor-call-quality-qos.md)
-### [Handbuch für die Überprüfung der QoE (Quality of Experience)](quality-of-experience-review-guide.md)
-### [Einrichten von QoS in Teams](QoS-in-Teams.md)
+## Überwachen und Verwalten der Anrufqualität
+### [Überwachen und Verbessern der Anrufqualität](monitor-call-quality-qos.md)
+### Anrufqualitäts-Dashboard (CQD)
+#### [Was ist CQD?](CQD-what-is-call-quality-dashboard.md)
+#### [Einrichten von CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [Hochladen von Mandanten- und Gebäudedaten](CQD-upload-tenant-building-data.md)
+#### [CQD-Daten und -Berichte](CQD-data-and-reports.md)
+#### [Verwenden von CQD zum Verwalten von Anruf- und Besprechungsqualität](quality-of-experience-review-guide.md)
+#### [Häufig gestellte Fragen](CQD-frequently-asked-questions.md)
+#### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Stream-Klassifizierung in CQD](stream-classification-in-call-quality-dashboard.md)
+#### [Erstellen eines Gebäudeplans](CQD-building-mapping.md)
+#### Verwenden von Power BI zum Analysieren von CQD-Daten
+##### [Verwenden von Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md)
+##### [Installieren von Power BI-Connector für die Verwendung von CQD-Abfragevorlagen](CQD-Power-BI-connector.md)
+##### [Abrufen von CQD-Daten zur Verwendung in Teams](CQD-teams-utilization-report.md)
+##### [Verwendung des CQD-PSTN Direct Routing-Berichts](CQD-PSTN-report.md)
+### Anrufanalyse
+#### [Einrichten der Anrufanalyse](set-up-call-analytics.md)
+#### [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Dienstqualität (QoS)
+#### [Einrichten von QoS in Teams](QoS-in-Teams.md)
 #### [Festlegen von QoS auf Windows-Clients](QoS-in-Teams-clients.md)
-### [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Einrichten von Anrufanalyse](set-up-call-analytics.md)
-### [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Aktivieren und Verwenden des Dashboards für Anrufqualität](turning-on-and-using-call-quality-dashboard.md)
-### Verwenden von Power BI zum Analysieren von CQD-Daten
-#### [Verwenden von Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md)
-#### [Installieren von Power BI-Connector für die Verwendung von CQD-Abfragevorlagen](CQD-Power-BI-connector.md)
-#### [Abrufen von CQD-Daten zur Verwendung in Teams](CQD-teams-utilization-report.md)
-#### [Verwendung des CQD-PSTN Direct Routing-Berichts](CQD-PSTN-report.md)
-### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Datenstromklassifizierung im Dashboard für Anrufqualität](stream-classification-in-call-quality-dashboard.md)
 ## [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Problembehandlung bei Problemen mit Installation und Update](troubleshoot-installation.md)
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
@@ -717,6 +725,7 @@
 ## [Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter](FAQ-support-remote-workforce.md)
 ## [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 ## [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
