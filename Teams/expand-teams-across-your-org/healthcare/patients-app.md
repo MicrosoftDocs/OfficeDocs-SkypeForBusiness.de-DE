@@ -18,18 +18,16 @@ appliesto:
 ms.reviewer: anach
 description: Informieren Sie sich über die Integration elektronischer Gesundheitsdatensätze in die Microsoft Teams-Patienten-App mithilfe von FHIR-APIs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905517"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098423"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-Informationen zum teilnehmen an der privaten Vorschau finden Sie unter [registrieren in der privaten](#enroll-in-the-private-preview)Vorschau.
 
 Dieser Artikel ist für einen allgemeinen IT-Entwickler im Gesundheitswesen vorgesehen, der die Verwendung von FHIR-APIs auf einem medizinischen Informationssystem zum Herstellen einer Verbindung mit Microsoft Teams interessiert. Auf diese Weise können Pflege Koordinations Szenarien, die den Anforderungen einer Gesundheitsorganisation entsprechen, aktiviert werden.
 
@@ -53,7 +51,6 @@ In den folgenden Abschnitten werden die Anforderungen der FHIR-Datenzugriffsschi
 - Erwartungen bezüglich Leistung und Zuverlässigkeit
 - Erwartungen rund um FHIR-Ressourcen, die für die Patienten-App unterstützt werden
 - Integrationsprozess und das erwartete Projektmodell
-- So melden Sie sich selbst und ihren Kunden in der privaten Vorschau der Patienten-APP an
 - Erste Schritte mit FHIR und einigen häufigen Herausforderungen, die mit der App "Patienten" konfrontiert sind
 - Zukünftige Anforderungen für die nächste Iteration der Patienten-App
 
@@ -80,7 +77,7 @@ Die Dienst-zu-Service-Authentifizierung sollte über den OAuth 2,0- [Client Anme
     {"CapabilityStatement": ".
         .
         .
-        "Ruhezustand": [{"Modus": "Server"; "Sicherheit": {"Extension": [{"Extension": [{"URL": "Token", "valueUri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token""}, {"URL": "autorisieren"; "valueUri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize: ""}], "URL"http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris: ""}], "Service": [{"Coding": [{"System"https://hl7.org/fhir/ValueSet/restful-security-service: ""; "Code": "OAuth"}]}]},.
+        "Ruhezustand": [{"Modus": "Server"; "Sicherheit": {"Extension": [{"Extension": [{"URL": "Token", "valueUri": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}, {"URL": "autorisieren"; "valueUri": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize "}], "URL": " http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris "}], "Service": [{"Coding": [{"System": " https://hl7.org/fhir/ValueSet/restful-security-service "; "Code": "OAuth"}]}]},.
                 .
                 .
             } ] }
@@ -145,26 +142,4 @@ Während sich die Patienten-app in der privaten Vorschau befindet, gibt es keine
 
 Wenn Sie neu bei FHIR sind und einfachen Zugriff auf einen FHIR-Server benötigen, den Sie für die Microsoft Teams EPA-integrationsschnittstelle verfügbar machen können, verfügt Microsoft über einen Open-Source-FHIR-Server, der für alle Entwickler zur Verfügung steht. Lesen Sie den Artikel [Was ist FHIR Server für Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) , um mehr über den von Microsoft verfügbaren Open-Source-FHIR-Server zu erfahren und ihn für ihre Organisationen bereitzustellen.
 
-Sie können auch die HSPC Open Sandbox EPA-Umgebung verwenden, um eine EHR zu erstellen, die auch einen geöffneten FHIR-Server unterstützt und diese Funktion zur Wiedergabe mit der Patienten-App verwendet. Wir empfehlen, dass Sie die [HSPC-Sandbox-Dokumentation](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)durchlesen. Die Sandbox bietet nicht nur eine einfache, UI-orientierte und benutzerfreundliche Methode zum Erstellen, hinzufügen und Bearbeiten von Patienten, sondern bietet Ihnen auch einige Beispiele für die ersten Schritte.  
-
-## <a name="enroll-in-the-private-preview"></a>Registrieren in der privaten Vorschau
-
-Nachdem Sie den Open-Source-FHIR-Server erstellt haben, ist es wirklich einfach, mit der Patienten-APP innerhalb Ihres Mandanten zu verbinden, indem Sie die folgenden Schritte ausführen:
-
-1. [Wenden Sie sich](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) mit den folgenden Anfangsinformationen an uns:  
-    - Ihr Name
-    - Ihre Position
-    - Das Unternehmen oder die Organisation, die Sie vertreten
-    - Warum Sie sich für die Patienten-App für die EPA-Integration interessieren
-
-    Wir werden uns so schnell wie möglich mit weiteren Fragen an Sie wenden und Sie durch einen Prozess führen, der für die private Vorschau eingerichtet werden soll.
-
-2. Stellen Sie sicher, dass Sideloading benutzerdefinierter apps in dem Mandanten aktiviert ist, in dem Sie die Patienten-App ausprobieren möchten. Informationen dazu, wie Sie diese Option aus dem Team Admin Center für den Mandanten Ihres oder Ihres Kunden aktivieren können, finden Sie unter [App-Berechtigungsrichtlinien](../../admin-settings.md) .
-
-3. Querladen Sie das Patienten-App-Manifest, das Sie von Microsoft erhalten (nachdem wir Ihre e-Mail an uns verarbeitet haben), in ein Team im Mandanten, das für die Behandlung von Betreuungs-und Patienten runden verwendet wird. Detaillierte Anweisungen zum Seiten Laden einer App finden [Sie unter Hochladen eines App-Pakets in Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-upload) .
-
-4. Navigieren Sie zum Kanal "Allgemein" als Team Besitzer, und klicken Sie dann auf die Registerkarte "Patienten". Es sollte eine Erfahrung mit dem ersten Durchlauf angezeigt werden, die zwei Optionen wie den EPA-Modus und den manuellen Modus darstellt. Wählen Sie den **EPA-Modus** aus, und kopieren Sie den FHIR-Server Endpunkt (den Sie zuvor gerade eingerichtet haben, mit allen erforderlichen Daten und Ressourcen gemäß den oben angegebenen Spezifikationen) in das Linkfeld, und geben Sie der Verbindung einen Namen, der den FHIR-Server gut repräsentiert. Klicken Sie auf verbinden, und alles sollte bereit sein.
-
-    ![Screenshot der Einstellungen des Patienten-App-Servers](../../media/patients-server.png)
-
-5. Beginnen Sie mit der Verwendung der APP, um nach Patienten vom FHIR-Server/EPA zu suchen und Sie zu einer Liste hinzuzufügen, und [Geben Sie uns Feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) , wenn etwas nicht funktioniert. Um eine vollständig authentifizierte Version der Patienten-app-> FHIR-Server Fluss einzurichten, müssen Sie sich über die zuvor erwähnte e-Mail-Anforderung an den Offline Dialog mit Microsoft Teams für Healthcare Product Engineering beteiligen, und wir werden Ihnen helfen, dies für Sie gemäß den oben beschriebenen Authentifizierungsanforderungen im FHIR-Schnittstellen Dokument zu aktivieren.  
+Sie können auch die HSPC Open Sandbox EPA-Umgebung verwenden, um eine EHR zu erstellen, die auch einen geöffneten FHIR-Server unterstützt und diese Funktion zur Wiedergabe mit der Patienten-App verwendet. Wir empfehlen, dass Sie die [HSPC-Sandbox-Dokumentation](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)durchlesen. Die Sandbox bietet nicht nur eine einfache, UI-orientierte und benutzerfreundliche Methode zum Erstellen, hinzufügen und Bearbeiten von Patienten, sondern bietet Ihnen auch einige Beispiele für die ersten Schritte. 
