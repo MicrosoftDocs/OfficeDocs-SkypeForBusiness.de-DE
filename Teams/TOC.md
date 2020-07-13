@@ -255,6 +255,7 @@
 #### [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
 #### [Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Eingehende Anrufe blockieren](block-inbound-calls.md)
 ### [Parken von Anrufen und Holen](call-park-and-retrieve.md)
 ### [Freigeben von Anrufen und Gruppenanrufannahme](call-sharing-and-group-call-pickup.md)
 ### [Anrufrichtlinie](teams-calling-policy.md)
