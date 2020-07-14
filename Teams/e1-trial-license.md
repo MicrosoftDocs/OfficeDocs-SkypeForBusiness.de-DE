@@ -15,47 +15,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03544095e5189af2f80714151f31648f79e65c8d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ea7c72e78fe14894678f963f8b876a608f6d6222
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868672"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028151"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Verwalten der Office 365 E1-Testversion
 ==============================
 
-Neu im März 2020: Eine kostenlose 6-monatige Office 365 E1-Testversion, die Microsoft Teams enthält, ist jetzt erhältlich. Microsoft stellt diese spezielle E1-Testlizenz als Reaktion auf den erhöhten Bedarf für Mitarbeiter bereit, die aufgrund des COVID-19-Ausbruchs (Coronavirus) von zu Hause aus (WFH) arbeiten. 
+Ab dem 1. Juli 2020 steht die Office 365 E1-Testversion nicht länger zur Verfügung. Wenn Sie Benutzer für Microsoft Teams lizenzieren müssen, lesen Sie die [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description), um eine Liste der kostenpflichtigen Abonnements mit Teams zu finden. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** Experience aktivieren.
 
-Informationen zum Inhalt einer E1-Lizenz finden Sie unter [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
+
+Falls es sich bei Ihnen um einen Kunde von Teams for Education handelt, sehen Sie sich die [Office 365 A1-Lizenz](teams-edu-licensing.md) an.
+
+Verwenden Sie die Anleitung in diesem Artikel, um Ihre bestehenden Office 365 E1-Testversionen zu verwalten, einschließlich der [Aktualisierung auf ein kostenpflichtiges Abonnement](#upgrade-users-from-the-office-365-e1-trial-license).
 
 Versäumen Sie nicht die Vielzahl unserer Anleitungen für die [Unterstützung von Remotemitarbeitern mit Teams](support-remote-work-with-teams.md). 
-
-## <a name="how-to-get-an-e1-trial-license"></a>So erhalten Sie eine E1-Testlizenz
-
-Wenden Sie sich an Ihren Microsoft-Kundenbetreuer. Sie erhalten einen Promotionscode, mit dem Sie sich für die E1-Testversion registrieren können. 
-
-Als Organisation, die von einem Microsoft-Partner betreut werden, können Sie mit Ihrem Partner zusammenarbeiten, um eine kostenlose 6-monatige Teams-Testversion zu erhalten. Wenn Sie noch keinen Microsoft-Partner haben und mit einem zusammenarbeiten möchten, gehen Sie zu [Microsoft-Lösungsanbieter](https://www.microsoft.com/solution-providers/home) und suchen Sie nach kompetenten Partnern für Teams.
-
-
-## <a name="how-to-sign-up-for-e1"></a>Registrieren für E1
-
-Klicken Sie auf den Promotionscode in der E-Mail, den Sie von Ihrem Kundenbetreuer erhalten. 
-
-
-## <a name="whos-eligible"></a>Wer ist berechtigt?
-
-Dieses Angebot richtet sich an alle Kunden, die von einem Microsoft-Kundenbetreuer verwaltet werden. Es richtet sich an Organisationen (auch gemeinnützige Organisationen), die in der Vergangenheit noch keine anderen Office 365 E1-Testversionen aktiviert haben. 
-
-Nachdem Sie Ihren Promotionscode für die E1-Testversion verwendet haben, können Sie ihn nicht erneut verwenden und auch keinen weiteren Code für die E1-Testversion aktivieren. In diesen Fällen können Ihre Mitarbeiter eine [Teams Exploratory-Lizenz](teams-exploratory.md) aktivieren.
-
-## <a name="who-isnt-eligible"></a>Wer ist nicht berechtigt?
-
-- Dieses Angebot gilt nicht für GCC-, GCC High-, DoD- oder EDU-Kunden. 
-
-- Für GCC: Schauen Sie sich die [Office 365 G1-Testversion](g1-trial-license.md) an. 
-
-- EDU-Kunden sollten die kostenlose Office 365 A1-Lizenz verwenden.
 
 ## <a name="manage-the-e1-trial"></a>Verwalten der E1-Testversion
 

@@ -15,43 +15,21 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 38ffb22e1f1321f7aebffa2ae22bb154bef48ca5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868541"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028101"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Verwalten der Office 365 G1-Testversion für US-Regierungsbehörden 
 ==============================
 
-Neu im März 2020: Eine kostenlose 6-monatige Office 365 G1-Testversion, die Microsoft Teams enthält, ist jetzt erhältlich. Microsoft stellt diese spezielle G1-Testlizenz für US-Regierungsbehörden als Reaktion auf den erhöhten Bedarf für Mitarbeiter bereit, die aufgrund des COVID-19-Ausbruchs (Coronavirus) von zu Hause aus (WFH) arbeiten.
+Ab dem 1. Juli 2020 steht die Office 365 E1-Testversion nicht länger zur Verfügung. Wenn Sie Benutzer für Microsoft Teams lizenzieren müssen, lesen Sie die [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description), um eine Liste der kostenpflichtigen Abonnements mit Teams zu finden. 
 
-Um zu erfahren, welche Komponenten die G1-Lizenz umfasst, lesen Sie [Microsoft 365 Government-Pläne](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) und die [Microsoft Teams-Funktionen, die in der GCC-Cloud verfügbar sind](plan-for-government-gcc.md).
+Verwenden Sie die Anleitung in diesem Artikel, um Ihre bestehenden Office 365 G1-Testversionen zu verwalten, einschließlich der [Aktualisierung auf ein kostenpflichtiges Abonnement](#upgrade-users-from-the-office-365-g1-trial-license). Um mehr zu erfahren, lesen Sie [Microsoft 365 Government-Pläne](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans) und [in der gcc-Cloud verfügbare Microsoft Teams-Funktionen](plan-for-government-gcc.md).
 
 Versäumen Sie nicht die Vielzahl unserer Anleitungen für die  [Unterstützung von Remotemitarbeitern mit Teams](support-remote-work-with-teams.md). 
-
-## <a name="how-to-get-an-g1-trial-license"></a>So erhalten Sie eine G1-Testlizenz
-
-Wenden Sie sich an Ihren Microsoft-Kundenbetreuer. Sie erhalten einen Promotionscode, mit dem Sie sich für die G1-Testversion registrieren können.
-
-## <a name="how-to-sign-up-for-the-g1-trial"></a>Registrieren für die G1-Testversion
-
-Folgen Sie den Anweisungen in der E-Mail, den Sie von Ihrem Kundenbetreuer erhalten.
-
-## <a name="whos-eligible"></a>Wer ist berechtigt?
-
-Dieses Angebot richtet sich an Kunden in US-Regierungsbehörden, die die GCC-Cloud verwenden und von einem Microsoft-Kundenbetreuer verwaltet werden. Es richtet sich an Organisationen, die in der Vergangenheit noch keine anderen Office 365 G1-Testversionen aktiviert haben.
-
-Nachdem Sie Ihren Promotionscode für die G1-Testversion verwendet haben, können Sie ihn nicht erneut verwenden und auch keinen weiteren Code für die G1-Testversion aktivieren.
-
-## <a name="who-isnt-eligible"></a>Wer ist nicht berechtigt?
-
-  - Dieses Angebot gilt nicht für kommerzielle, GCC High-, DoD- oder EDU-Kunden.
-
-  - Kommerzielle Kunden sollten die Office 365 E1-Testversion verwenden.
-
-  - EDU-Kunden sollten die kostenlose Office 365 A1-Lizenz verwenden.
 
 ## <a name="manage-the-g1-trial"></a>Verwalten der G1-Testversion
 
