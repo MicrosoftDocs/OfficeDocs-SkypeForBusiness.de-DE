@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um die Remote-Mitarbeitern in Ihrer behördlichen Organisation dabei zu unterstützen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (Work from home – WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042382"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028141"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Unterstützung von Remote-Mitarbeitern von Behörden in Microsoft Teams
 
@@ -31,7 +31,7 @@ Wenn Sie Microsoft Teams als Bestandteil von Office 365 für Behörden ausführe
 
 Erfahren Sie, wie Sie Teams in Ihrer Organisation bereitstellen können:
 
-  - Stellen Sie sicher, dass jeder Zugriff auf Teams hat, und verwenden Sie dazu das ﻿kostenlose 6-monatige **[Office 365 G1-Angebot](../g1-trial-license.md)**. Wenden Sie sich an Ihr Microsoft-Konto-Team oder Ihren Microsoft-Partner, wenn Sie Hilfe benötigen.
+  - Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) hat. 
 
   - Wenn Sie bereits über ein Abonnement verfügen, stellen Sie sicher, dass für jeden **[Teams aktiviert](../user-access.md)** ist.
 

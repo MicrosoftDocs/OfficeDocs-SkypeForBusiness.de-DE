@@ -1,15 +1,15 @@
 ---
 title: Durchführen einer eDiscovery-Untersuchung von Inhalten
-author: LolaJacobsen
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie vorgehen müssen, wenn Sie eDiscovery ausfüh
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950890"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121395"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -56,7 +56,7 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 
 - Microsoft Teams-Daten werden als Chatnachrichten oder Unterhaltungen in der Excel-eDiscovery-Exportausgabe angezeigt. Sie können die `.pst` Datei in Outlook öffnen, um diese Nachrichten nach dem Export anzuzeigen.
 
-    Beachten Sie beim `.pst` Anzeigen der Datei für das Team, dass alle Unterhaltungen im Ordner "Teamchat" unter "Konversationsprotokoll" aufbewahrt werden. Der Titel der Nachricht enthält den Namen des Teams und den Kanalnamen. Die folgende Abbildung zeigt beispielsweise eine Nachricht von Bob, die dem Project 7-Standardkanal des Teams "Manufacturing Specs" eine Nachricht gesendet hat.
+    Beachten Sie beim Anzeigen der `.pst` Datei für das Team, dass alle Unterhaltungen im Ordner "Teamchat" unter "Konversationsprotokoll" aufbewahrt werden. Der Titel der Nachricht enthält den Namen des Teams und den Kanalnamen. Die folgende Abbildung zeigt beispielsweise eine Nachricht von Bob, die dem Project 7-Standardkanal des Teams "Manufacturing Specs" eine Nachricht gesendet hat.
 
     ![Screenshot eines Team-Chat-Ordners im Postfach eines Benutzers in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -180,11 +180,11 @@ Zusätzlich zu Dokumenten können Sie Ihrem Überprüfungs Satz e-Mails, Team Na
 
 Die Schaltfläche " **Überprüfungs Sätze verwalten** " bietet zusätzliche Optionen wie Analyse, Zusammenfassungsberichte, wie viele Auslastungs Sätze hinzugefügt wurden usw.
 
-Wenn Sie auf Visualisierungen und Diagramme Ihrer Daten zugreifen möchten, klicken Sie oben rechts auf **Suchprofil Ansicht** für **einzelne Ergebnisse** \> . Sie können auf Keile in diesen Diagrammen klicken, um interaktiv den Inhaltstyp auszuwählen, den Sie Abfragen möchten. So können Sie beispielsweise auswählen, dass nur Team Inhalte abgefragt werden sollen. Sie können diese Abfragen auch so speichern, wie Sie Abfragen speichern, die Sie manuell schreiben.
+Wenn Sie auf Visualisierungen und Diagramme Ihrer Daten zugreifen möchten **Individual results** , klicken Sie \> oben rechts auf **Suchprofil Ansicht** für einzelne Ergebnisse. Sie können auf Keile in diesen Diagrammen klicken, um interaktiv den Inhaltstyp auszuwählen, den Sie Abfragen möchten. So können Sie beispielsweise auswählen, dass nur Team Inhalte abgefragt werden sollen. Sie können diese Abfragen auch so speichern, wie Sie Abfragen speichern, die Sie manuell schreiben.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Zusammenfassungsansicht, Textansicht und Beschriftungsansicht
 
-Wenn Sie im Überprüfungs Satz auf eine Teams-Unterhaltung klicken, wird die **Zusammenfassungsansicht**angezeigt, in der eine ganze Teams-Konversation als Liste von Nachrichten angezeigt wird, mit denen Sie einzeln interagieren können. Klicken Sie auf den Abwärtspfeil rechts neben einer Nachricht, um ein Kontextmenü anzuzeigen, das es Ihnen ermöglicht, Nachrichtendetails anzuzeigen oder `.msg` die einzelne Datei herunterzuladen. Wenn Sie auf Nachrichtendetails klicken, wird eine Zusammenfassung der Metadaten oder der vollständigen Metadaten der Nachricht angezeigt.
+Wenn Sie im Überprüfungs Satz auf eine Teams-Unterhaltung klicken, wird die **Zusammenfassungsansicht**angezeigt, in der eine ganze Teams-Konversation als Liste von Nachrichten angezeigt wird, mit denen Sie einzeln interagieren können. Klicken Sie auf den Abwärtspfeil rechts neben einer Nachricht, um ein Kontextmenü anzuzeigen, das es Ihnen ermöglicht, Nachrichtendetails anzuzeigen oder die einzelne Datei herunterzuladen `.msg` . Wenn Sie auf Nachrichtendetails klicken, wird eine Zusammenfassung der Metadaten oder der vollständigen Metadaten der Nachricht angezeigt.
 
 Wenn Sie eine PDF-Datei herunterladen möchten, klicken Sie oben rechts in der Zusammenfassungsansicht auf die Schaltfläche herunterladen.
 
