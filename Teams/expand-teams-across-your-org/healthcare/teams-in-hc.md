@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, Telehealth, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938364"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138105"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -89,9 +89,25 @@ Die app "Patienten" basiert auf der Erweiterungs Plattform für Teams und nutzt 
 
 Einzelheiten zur Implementierung finden Sie unter [integrieren elektronischer Gesundheitsdatensätze in Microsoft Teams](patients-app.md) .
 
-## <a name="templates"></a>Vorlagen
+## <a name="teams-templates"></a>Teams-Vorlagen
 
 Neue Vorlagen für die Erstellung von Teams wurden entwickelt, um auf eine Krankenhauseinstellung anzuwenden, und weitere werden in Kürze erwartet. Auf diese Weise ist es einfacher, Teams zu erstellen, die von Mitarbeitern des Gesundheitswesens zur Koordinierung der Versorgung von Patienten in verschiedenen Abteilungen oder Stationen eingesetzt werden. Weitere Informationen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen für Organisationen im Gesundheitswesen](healthcare-templates.md). Teams können für interne Abteilungen wie Kardiologie oder für Pflegestationen gestartet werden, und weitere Vorlagen befinden sich in der Entwicklung.
+
+## <a name="lists-app"></a>Listen-App
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+Mithilfe der Listen-app in Teams können Teams Informationen nachvollziehen und die Arbeit organisieren. Die APP ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung. Listen können von Grund auf neu erstellt werden, aus vordefinierten Vorlagen oder durch Importieren von Daten nach Excel.
+
+Betreuerteams können die Vorlage "Patienten" verwenden, um loszulegen. Sie können Listen erstellen, um die Bedürfnisse und den Status von Patienten nachvollziehen zu können. Vorhandene Patientendaten in Excel-Tabellen können zum Erstellen einer Liste in Teams herangezogen werden. Diese Listen können für Szenarien wie Runden und Patientenüberwachung verwendet werden, um die Behandlung zu koordinieren.
+
+Beispielsweise erstellt eine Kosten Krankenschwester eine Patientenliste in einem Team, das alle Betreuerteam Mitglieder umfasst. Während der Runden wird das Betreuerteam auf seinen mobilen Geräten auf Teams zugreifen und die Patienteninformationen in der Liste aktualisieren, die jeder im Team sehen kann, um synchron zu bleiben. Bei runden Sitzungen, in denen sich das Betreuerteam sammelt, um wichtige Integritäts Leistungsmetriken zu besprechen und zu bewerten, um sicherzustellen, dass ein Patient auf dem richtigen Gleitweg zur Entladung ist, kann er diese Informationen mithilfe von Teams auf einem größeren Bildschirm freigeben. Betreuerteam Mitglieder, die nicht auf der Website sind, können Remoteteil nehmen.
+
+Nachfolgend finden Sie eine Beispielliste, die für die Patienten Rundung eingerichtet wurde.
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Screenshot einer Beispielliste für die Patienten Rundung":::
+
+Weitere Informationen finden Sie unter [Verwalten der Listen-App für Ihre Organisation in Teams](../../manage-lists-app.md).
 
 ## <a name="secure-messaging"></a>Sicheres Messaging
 
@@ -105,7 +121,7 @@ Zusammen ermöglichen diese Features eine schnellere Berücksichtung dringender 
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Richtlinien für sichere Nachrichten für Organisationen im Gesundheitswesen](messaging-policies-hc.md) .
 
-Im Zusammenhang mit Secure Messaging können auch andere Mandanten von Organisationen des Gesundheitswesens verbunden werden, was eine umfassendere Kommunikation zwischen Mandanten ermöglicht. (siehe [Verwalten des externen Zugriffs (Föderation) in Microsoft Teams](../../manage-external-access.md)).
+Im Zusammenhang mit Secure Messaging können auch andere Mandanten von Organisationen des Gesundheitswesens verbunden werden, was eine umfassendere Kommunikation zwischen Mandanten ermöglicht. (Siehe [Verwalten des externen Zugriffs (Föderation) in Microsoft Teams](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Integration von First-Worker-Arbeitskräften
 

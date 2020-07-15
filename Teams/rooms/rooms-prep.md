@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räumen vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735425"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125958"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -36,8 +36,8 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte, die erforderlich s
    - HTTP: 80
    - Wenn Sie in Ihrem Netzwerk einen Proxy verwenden, benötigen Sie außerdem die Proxyadresse oder Skriptinformationen.
     
-     > [!NOTE]
-     > Microsoft Teams Rooms unterstützt keine HDCP-Eingabe. Von dieser ist bekannt, dass sie Probleme mit der HDMI-Erfassungsfunktion (Video, Audio) verursacht. Stellen Sie sicher, dass die HDCP-Optionen der mit Microsoft Teams Rooms verbundenen Switches deaktiviert sind.
+     > [!IMPORTANT]
+     > Microsoft Teams rooms unterstützt keine Proxyauthentifizierung, da dies den normalen Betrieb des Raums stören kann. Stellen Sie sicher, dass Microsoft Teams-Chatrooms von der Proxyauthentifizierung ausgenommen wurden, bevor Sie die Produktion durchlaufen.
   
 3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Um Microsoft das Sammeln von Daten zu gestatten, Whitelist diese Websites:
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Aktualisieren von Microsoft Teams-Smartphones und-Zusammenarbeits leisten über das Team Admin Center
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944105"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125948"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Remote-Update von Microsoft Teams-Geräten
 
@@ -32,7 +32,7 @@ Mit dem Microsoft Teams Admin Center können Sie Ihre Teams-Geräte wie Telefone
 Geräte-Firmware-Updates können entweder automatisch oder für ein zukünftiges Datum und eine Uhrzeit geplant werden. Andere verfügbare Geräte Updates werden nicht automatisch angewendet, können aber manuell angewendet oder für ein zukünftiges Datum und eine Uhrzeit geplant werden.
 
 > [!NOTE]
-> Wenn die Gerätefirmware-Updates geplant werden können, wenn das geplante Datum und die Uhrzeit nach der konfigurierten maximalen Verzögerung von 30 oder 90 Tage fallen, wird die Firmware-Aktualisierung angewendet, wenn die maximale Verzögerung erreicht ist. Geplantes Datum und Uhrzeit werden ignoriert.
+> Wenn die Gerätefirmware-Updates geplant werden können, wenn das geplante Datum und die Uhrzeit nach der konfigurierten maximalen Verzögerung von 30 oder 90 Tage fallen, wird die Firmware-Aktualisierung angewendet, wenn die maximale Verzögerung erreicht ist. Geplantes Datum und Uhrzeit werden ignoriert. Darüber hinaus ist die Aktualisierung von Microsoft Teams-Geräten in der Ferne ein Feature, das noch nicht für Cloud-Mandanten der US-Regierung (gcc-groß) verfügbar ist.
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Auswählen des automatischen Gerätefirmware-Update Verhaltens
 

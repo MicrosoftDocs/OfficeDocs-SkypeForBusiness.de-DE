@@ -17,19 +17,23 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140858"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138015"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Einrichten der Funktion „Rückruf“ für Ihre Benutzer
 
-In Microsoft Teams bietet die Funktion " **anrufen** " Benutzern eine Möglichkeit, den Audioteil einer Besprechung per Telefon anzunehmen. Dies ist praktisch in Szenarien, in denen die Verwendung eines Computers für Audio möglicherweise nicht möglich ist. Benutzer erhalten den Audioteil der Besprechung über Ihr Mobiltelefon oder Ihre Festnetz-und den Inhaltsbereich der Besprechung&mdash;, beispielsweise, wenn ein anderer Besprechungsteilnehmer seinen Bildschirm freigibt&mdash;oder ein Video über seinen Computer abspielt.
+In Microsoft Teams bietet die Funktion " **anrufen** " Benutzern eine Möglichkeit, den Audioteil einer Besprechung per Telefon anzunehmen. Dies ist praktisch in Szenarien, in denen die Verwendung eines Computers für Audio möglicherweise nicht möglich ist. Benutzer erhalten den Audioteil der Besprechung über Ihr Mobiltelefon oder Ihre Festnetz-und den Inhaltsteil der Besprechung, &mdash; beispielsweise wenn ein anderer Besprechungsteilnehmer seinen Bildschirm freigibt oder ein Video &mdash; über seinen Computer abspielt.
 
 > [!IMPORTANT]
-> Während der Dauer des COVID-19-Ausbruchs empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche an **Teams-Besprechung teilnehmen** klicken, anstatt sich über die PSTN-Konferenznummern oder mithilfe von " **anrufen unter**</strong>" anzuwählen. Dies ist in erster Linie auf die Überlastung der Telefonie-Infrastrukturen von Ländern zurückzuführen, die von COVID-19 betroffen sind. Durch die Vermeidung von PSTN-anrufen werden Sie wahrscheinlich eine bessere Audioqualität erleben. 
+> 
+> In Zeiten hoher Besprechungs Volumina (die wir in Verbindung mit dem COVID-19-Ausbruch erlebt haben) empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche " <strong>an Teams teilnehmen</strong> " klicken, anstatt sich über die PSTN-Konferenznummern oder mithilfe von " <strong>anrufen unter" zu</strong>wählen. Auf diese Weise wird die Audioqualität in Zeiten gewährleistet, in denen das PSTN-Netzwerk mit einem hohen Besprechungs Volumen Überlastung verursacht. 
+
+> [!IMPORTANT]
+> Während der Dauer des COVID-19-Ausbruchs empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche **An Teams-Besprechung teilnehmen** klicken, anstatt sich über die Rufnummern der PSTN-Konferenz einzuwählen oder **Rückruf unter**</strong> zu verwenden. Grund hierfür ist in erster Linie die Überlastung der Telefonie-Infrastrukturen in den von COVID-19 betroffenen Ländern. Wenn Sie Anrufe über das Telefonfestnetz vermeiden, werden Sie wahrscheinlich eine bessere Tonqualität feststellen. 
 
 ## <a name="the-user-experience"></a>Die Benutzeroberfläche
 

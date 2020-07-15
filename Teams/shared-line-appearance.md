@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Microsoft Teams senden.
-ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042582"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125978"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
@@ -59,10 +59,10 @@ Die Darstellung der freigegebenen Zeile wird derzeit von den folgenden apps und 
 
 | Funktion | Teams-Desktop | Mac-app für Teams | Teams Web App (Edge) |Teams Mobile IOS/Android-App | IP-Telefon für Teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Einrichten der Delegierung | Ja  | Ja  | Ja | Nein | Nein |
-| Empfangen von Anrufen im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja |
-| Anrufen einer Telefonnummer im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja |
-| Anrufen eines Teams-Benutzers im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja |
+| Einrichten der Delegierung | Ja  | Ja  | Ja | Nein | Ja |
+| Empfangen von Anrufen im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja  |
+| Anrufen einer Telefonnummer im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja  |
+| Anrufen eines Teams-Benutzers im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja  |
 | Anzeigen der Administrator Ansicht für freigegebene Zeilen | Ja  | Ja  | Ja | Nein | Nein |
 | Anzeigen der Administrator Ansicht der Anrufaktivitäten des Managers | Ja  | Ja  | Ja | Nein | Nein |
 | Anzeigen der Manageransicht von Stellvertretungen | Ja  | Ja  | Ja | Nein | Nein |
