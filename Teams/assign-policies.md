@@ -18,11 +18,12 @@ description: Informieren Sie sich über die verschiedenen Möglichkeiten, wie Si
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049442"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143846"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams
 
@@ -295,7 +296,7 @@ Wenn Sie kein Ranking angeben, erhält die Richtlinienzuweisung die niedrigste R
 **Dieses Feature wurde noch nicht veröffentlicht. Es wurde angekündigt, und es wird bald kommen.**
 
 > [!NOTE]
-> Derzeit steht die Richtlinienzuweisung für Gruppen, die das Microsoft Teams Admin Center verwenden, nur für die Anrufrichtlinie für Teams, die Besprechungsrichtlinie für Teams und die Messagingrichtlinie für Teams zur Verfügung. Verwenden Sie für andere Richtlinientypen PowerShell.
+> Derzeit steht die Richtlinienzuweisung für Gruppen, die das Microsoft Teams Admin Center verwenden, nur für Teams-Anruf Richtlinien, Teams-Anruf Park Richtlinien, Teams-Richtlinien, Teams-Live-Ereignisrichtlinien, Teams-Besprechungsrichtlinien und Teams-Messagingrichtlinien zur Verfügung. Verwenden Sie für andere Richtlinientypen PowerShell.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zur Seite "Richtlinientyp". Wechseln Sie beispielsweise zu **Meetings**den  >  **Besprechungsrichtlinien**für Besprechungen.
 2. Wählen Sie die Registerkarte **Gruppenrichtlinien Zuweisung** aus.

@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 3a99577b51f08d9ae0e0d4aef73297fade1b1176
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086212"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146121"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
@@ -42,15 +42,24 @@ Sie können jede app in Ihrem Mandanten-App-Katalog anzeigen, einschließlich de
 
 ![Screenshot der Seite "verwaltete Apps"](media/manage-apps.png)
 
-- **Name**: der Name der app. Klicken Sie auf den Namen der APP, um weitere Informationen zur APP anzuzeigen. Dies umfasst eine Beschreibung der APP, ob Sie zulässig oder gesperrt ist, Version, Kategorien, die für die APP gelten, den Zertifizierungsstatus, die unterstützten Funktionen und die APP-ID. Nachfolgend ein Beispiel:<br> 
-![Screenshot der Seite "Apps-Details" für eine APP](media/manage-apps-app-details.png)
+- **Name**: der Name der app. Klicken Sie auf den Namen der APP, um weitere Informationen zur APP anzuzeigen. Dies umfasst eine Beschreibung der APP, ob Sie zulässig oder gesperrt ist, Version, Kategorien, die für die APP gelten, den Zertifizierungsstatus, die unterstützten Funktionen und die APP-ID. Nachfolgend ein Beispiel:
+
+  ![Screenshot der Seite "Apps-Details" für eine APP](media/manage-apps-app-details.png)
+  
 - **Zertifizierung**: Wenn die APP die Zertifizierung durchlaufen hat, wird entweder **Microsoft 365 Certified** oder **Publisher-Bestätigung**angezeigt. Klicken Sie auf den Link, um die Zertifizierungsdetails für die APP anzuzeigen. Wenn "" angezeigt **--** wird, verfügen wir nicht über Zertifizierungsinformationen für die app. Wenn Sie mehr über zertifizierte apps in Microsoft Teams erfahren möchten, lesen Sie [Microsoft 365-App-Zertifizierungsprogramm](https://docs.microsoft.com/teams-app-certification/all-apps).  
+
 - **Kategorien**: Kategorien, die für die APP gelten.
+
 - **App-Status**: Status der APP auf org-Ebene, die eine der folgenden Optionen sein kann:
+
     - **Zulässig**: die APP steht allen Benutzern in Ihrer Organisation zur Verfügung.
+    
     - **Blockiert**: die APP ist blockiert und steht nicht für Benutzer in Ihrer Organisation zur Verfügung.
-    - **Organisationsweit blockiert**: die APP wird in den organisationsweiten App-Einstellungen blockiert. <br>
-Es ist wichtig zu wissen, dass diese Spalte den zulässigen und blockierten Status von apps darstellt, die sich zuvor im Bereich " **organisationsweite Einstellungen** " befanden. Sie können jetzt apps auf der Seite " **apps verwalten** " auf der Organisationsebene anzeigen, blockieren und zulassen. 
+    
+    - **Organisationsweit blockiert**: die APP wird in den organisationsweiten App-Einstellungen blockiert.
+    
+      Es ist wichtig zu wissen, dass diese Spalte den zulässigen und blockierten Status von apps darstellt, die sich zuvor im Bereich " **organisationsweite Einstellungen** " befanden. Sie können jetzt apps auf der Seite " **apps verwalten** " auf der Organisationsebene anzeigen, blockieren und zulassen. 
+
 - **Version**: App-Version.
 
 Wenn Sie die gewünschten Informationen in der Tabelle anzeigen möchten, klicken Sie in der oberen rechten Ecke auf **Spalte bearbeiten** , um der Tabelle Spalten hinzuzufügen oder daraus zu entfernen.
@@ -91,7 +100,8 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer a
 
     - **Drittanbieter-apps zulassen**: Hiermit wird gesteuert, ob Benutzer apps von Drittanbietern verwenden können. Wenn Sie diese Einstellung deaktivieren, sind Ihre Benutzer nicht in der Lage, Apps von Drittanbietern zu installieren oder zu verwenden, und der APP-Status dieser Apps wird in der Tabelle als **blockiert org-weit** angezeigt.
 
-        Wenn **Drittanbieter-apps zulassen** deaktiviert ist, werden [ausgehende webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) deaktiviert, was bedeutet, dass Benutzer Sie nicht erstellen können. Wenn diese Einstellung aktiviert ist, werden ausgehende webhooks für alle Benutzer aktiviert, unabhängig davon, ob die Einstellung in der APP-Berechtigungsrichtlinie für Benutzer aktiviert oder deaktiviert ist.
+        > [!NOTE]
+        > Wenn **Drittanbieter-apps zulassen** deaktiviert ist, werden [ausgehende webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) deaktiviert, was bedeutet, dass Benutzer Sie nicht erstellen können. Wenn diese Einstellung aktiviert ist, werden ausgehende webhooks für alle Benutzer aktiviert, und Sie können Sie auf Benutzerebene steuern, indem Sie die ausgehende webhook-App über [App-Berechtigungsrichtlinien](teams-app-permission-policies.md)zulassen oder blockieren. <br><br>Beachten Sie Folgendes: Wenn Sie über vorhandene [App-Berechtigungsrichtlinien](teams-app-permission-policies.md) für **Microsoft-apps** verfügen, die die Einstellung **bestimmte apps zulassen und alle anderen blockieren** verwenden, und Sie ausgehende webhooks für Benutzer aktivieren möchten, fügen Sie die ausgehende webhook-App zur Liste hinzu.
     - **Alle neuen Drittanbieter-apps zulassen, die standardmäßig im Store veröffentlicht**werden: Hiermit wird gesteuert, ob neue Drittanbieter-apps, die im App Store für Teams veröffentlicht werden, automatisch in Teams verfügbar sind. Diese Option kann nur festgesetzt werden, wenn Sie Drittanbieter-apps zulassen.
 
 3. Deaktivieren oder aktivieren Sie unter **benutzerdefinierte apps**die Option **Interaktion mit benutzerdefinierten apps zulassen**. Mit dieser Einstellung wird gesteuert, ob Benutzer mit benutzerdefinierten apps interagieren können. Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und-Einstellungen in Teams](teams-custom-app-policies-and-settings.md).
