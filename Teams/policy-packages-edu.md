@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021883"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874426"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
 
@@ -148,9 +148,6 @@ Jeder einzelnen Richtlinie wird der Name des Richtlinienpakets zugewiesen, damit
 ### <a name="meeting-policies"></a>Besprechungsrichtlinien
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Deaktivieren der Möglichkeit zum Erstellen und Starten von Besprechungen
-
-> [!NOTE]
-> Möglicherweise können Sie diese Funktion bei Ihrem Mandanten jetzt nicht bemerken. Der Grund dafür ist, dass dieses Feature zurzeit bereitgestellt wird und für alle Benutzer zur Verfügung steht, sobald es für alle Mandanten bereitgestellt worden ist. Weitere Informationen finden Sie in der [Roadmap für Teams](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355).
 
 Wenn Sie sicherstellen möchten, dass Schüler keine Besprechung planen können, um unbeaufsichtigt zu kommunizieren, stellen Sie die Funktion zur Erstellung einer Besprechung in den Besprechungsrichtlinien **Aus**:
 
