@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie mit Benutzern aus anderen Organisationen in M
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785277"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125968"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams
 ======================================================
@@ -47,7 +47,7 @@ Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren
 Verwenden Sie den **Gastzugriff**, um einen einzelnen Benutzer (unabhängig von der Domäne) zu einem Team hinzuzufügen, wo er chatten, anrufen, sich mit anderen treffen und an Unternehmensdateien (gespeichert in SharePoint oder OneDrive for Business) mit Microsoft 365- oder Office 365-Anwendungen wie Word, Excel oder PowerPoint zusammenarbeiten kann. Einem Gastbenutzer können fast alle Funktionen des Teams wie einem nativen Teammitglied zur Verfügung gestellt werden. Weitere Informationen finden Sie unter [Gastzugriff in Teams](guest-access.md).
 
 - Gäste werden der Active Directory Ihrer Organisation hinzugefügt.
-- Um mit einem Gast zu kommunizieren, muss der Gast mit seinem Gastkonto bei Teams angemeldet sein. Das bedeutet, dass sich ein Gast möglicherweise von seinem eigenen Team-Konto abmelden muss, um sich bei Ihrem Team-Konto anzumelden.
+- Um mit einem Gast zu kommunizieren, muss der Gast mit seinem Gastkonto bei Teams angemeldet sein. Das bedeutet, dass sich ein Gast möglicherweise von seinem eigenen Team-Konto abmelden muss, um sich bei Ihrem Team-Konto anzumelden, oder zu einer anderen Organisation wechseln muss, wenn es sich um dasselbe Konto handelt.
 - Gastbenutzer haben Zugriff auf mehr Ressourcen in Teams, wie Dateien, Teams und Kanäle, als Benutzer mit externem Zugriff (Partnerverbund).
 - Der Team-Administrator steuert alles, was ein Gast im Team-Admin Center tun kann (oder nicht kann). Weitere Informationen hierzu finden Sie unter [Verwalten des Gastzugriffs](manage-guests.md).
 
