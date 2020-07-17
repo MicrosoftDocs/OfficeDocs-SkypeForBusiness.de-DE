@@ -25,7 +25,7 @@ ms.locfileid: "44757186"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoredusersitelink-table"></a><span data-ttu-id="843f0-102">MonitoredUserSiteLink-Tabelle</span><span class="sxs-lookup"><span data-stu-id="843f0-102">MonitoredUserSiteLink table</span></span>
+# <a name="monitoredusersitelink-table"></a><span data-ttu-id="27ab1-102">MonitoredUserSiteLink-Tabelle</span><span class="sxs-lookup"><span data-stu-id="27ab1-102">MonitoredUserSiteLink table</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44757186"
 
 <span> </span>
 
-<span data-ttu-id="843f0-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="843f0-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="27ab1-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="27ab1-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="843f0-104">The MonitoredUserSiteLink table is a supporting table.</span><span class="sxs-lookup"><span data-stu-id="843f0-104">The MonitoredUserSiteLink table is a supporting table.</span></span> <span data-ttu-id="843f0-105">Each record represents one link between two user sites.</span><span class="sxs-lookup"><span data-stu-id="843f0-105">Each record represents one link between two user sites.</span></span>
+<span data-ttu-id="27ab1-p101">Bei der MonitoredUserSiteLink-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Verknüpfung zwischen zwei Benutzerstandorten.</span><span class="sxs-lookup"><span data-stu-id="27ab1-p101">The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "44757186"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="843f0-106"><strong>Spalte</strong></span><span class="sxs-lookup"><span data-stu-id="843f0-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="843f0-107"><strong>Datentyp</strong></span><span class="sxs-lookup"><span data-stu-id="843f0-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="843f0-108"><strong>Schlüssel/Index</strong></span><span class="sxs-lookup"><span data-stu-id="843f0-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="843f0-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="843f0-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="27ab1-106"><strong>Spalte</strong></span><span class="sxs-lookup"><span data-stu-id="27ab1-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="27ab1-107"><strong>Datentyp</strong></span><span class="sxs-lookup"><span data-stu-id="27ab1-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="27ab1-108"><strong>Schlüssel/Index</strong></span><span class="sxs-lookup"><span data-stu-id="27ab1-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="27ab1-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="27ab1-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="843f0-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="843f0-110"><strong>UserSite1Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="843f0-111">int</span><span class="sxs-lookup"><span data-stu-id="843f0-111">int</span></span></p></td>
-<td><p><span data-ttu-id="843f0-112">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="843f0-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="843f0-113">Referenziert aus der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="843f0-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="27ab1-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="27ab1-110"><strong>UserSite1Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="27ab1-111">int</span><span class="sxs-lookup"><span data-stu-id="27ab1-111">int</span></span></p></td>
+<td><p><span data-ttu-id="27ab1-112">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="27ab1-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="27ab1-113">Referenziert aus der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="27ab1-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="843f0-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="843f0-114"><strong>UserSite2Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="843f0-115">int</span><span class="sxs-lookup"><span data-stu-id="843f0-115">int</span></span></p></td>
-<td><p><span data-ttu-id="843f0-116">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="843f0-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="843f0-117">Verweis aus der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="843f0-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="27ab1-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="27ab1-114"><strong>UserSite2Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="27ab1-115">int</span><span class="sxs-lookup"><span data-stu-id="27ab1-115">int</span></span></p></td>
+<td><p><span data-ttu-id="27ab1-116">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="27ab1-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="27ab1-117">Verweis aus der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="27ab1-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -25,7 +25,7 @@ ms.locfileid: "44756624"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a><span data-ttu-id="13a1f-102">Migrieren von Konferenz Verzeichnissen</span><span class="sxs-lookup"><span data-stu-id="13a1f-102">Move conference directories</span></span>
+# <a name="move-conference-directories"></a><span data-ttu-id="9fc75-102">Migrieren von Konferenz Verzeichnissen</span><span class="sxs-lookup"><span data-stu-id="9fc75-102">Move conference directories</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "44756624"
 
 <span> </span>
 
-<span data-ttu-id="13a1f-103">_**Letztes Änderungsstand des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="13a1f-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="9fc75-103">_**Letztes Änderungsstand des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="9fc75-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="13a1f-104">Vor dem Außerbetriebnahme eines Pools müssen Sie das folgende Verfahren für jedes Konferenzverzeichnis in Ihrem Office Communications Server 2007 R2 Pool ausführen.</span><span class="sxs-lookup"><span data-stu-id="13a1f-104">Before decommissioning a pool, you need to perform the following procedure for each conference directory in your Office Communications Server 2007 R2 pool.</span></span>
+<span data-ttu-id="9fc75-104">Vor dem Außerbetriebnahme eines Pools müssen Sie das folgende Verfahren für jedes Konferenzverzeichnis in Ihrem Office Communications Server 2007 R2 Pool ausführen.</span><span class="sxs-lookup"><span data-stu-id="9fc75-104">Before decommissioning a pool, you need to perform the following procedure for each conference directory in your Office Communications Server 2007 R2 pool.</span></span>
 
 <div>
 
-## <a name="to-move-a-conference-directory-to-lync-server-2013"></a><span data-ttu-id="13a1f-105">So migrieren Sie ein Konferenzverzeichnis in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="13a1f-105">To move a conference directory to Lync Server 2013</span></span>
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a><span data-ttu-id="9fc75-105">So migrieren Sie ein Konferenzverzeichnis in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9fc75-105">To move a conference directory to Lync Server 2013</span></span>
 
-1.  <span data-ttu-id="13a1f-106">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="13a1f-106">Open the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="9fc75-106">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="9fc75-106">Open the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="13a1f-107">Führen Sie die folgenden Befehle aus, um die Identität der Konferenzverzeichnisse in Ihrer Organisation zu beziehen:</span><span class="sxs-lookup"><span data-stu-id="13a1f-107">To obtain the identity of the conference directories in your organization, run the following commands:</span></span>
+2.  <span data-ttu-id="9fc75-107">Führen Sie die folgenden Befehle aus, um die Identität der Konferenzverzeichnisse in Ihrer Organisation zu beziehen:</span><span class="sxs-lookup"><span data-stu-id="9fc75-107">To obtain the identity of the conference directories in your organization, run the following commands:</span></span>
     
         Get-CsConferenceDirectory
     
-    <span data-ttu-id="13a1f-108">Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission.</span><span class="sxs-lookup"><span data-stu-id="13a1f-108">Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission.</span></span> <span data-ttu-id="13a1f-109">For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:</span><span class="sxs-lookup"><span data-stu-id="13a1f-109">For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:</span></span>
+    <span data-ttu-id="9fc75-p101">Dieses Cmdlet gibt alle Konferenzverzeichnisse in der Organisation zurück. Deshalb empfiehlt es sich u. U., die Ergebnisse auf den Pool zu beschränken, den Sie außer Betrieb nehmen möchten. Beispiel: Sie möchten einen Pool mit dem vollqualifizierten Domänennamen (FQDN) pool01.contoso.net außer Betrieb nehmen:</span><span class="sxs-lookup"><span data-stu-id="9fc75-p101">Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:</span></span>
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    <span data-ttu-id="13a1f-110">Dieses Cmdlet gibt alle Konferenzverzeichnisse zurück, deren Dienst-ID den FQDN pool01.contoso.net enthält.</span><span class="sxs-lookup"><span data-stu-id="13a1f-110">This cmdlet returns all the conference directories where service ID contains the FQDN pool01.contoso.net.</span></span>
+    <span data-ttu-id="9fc75-110">Dieses Cmdlet gibt alle Konferenzverzeichnisse zurück, deren Dienst-ID den FQDN pool01.contoso.net enthält.</span><span class="sxs-lookup"><span data-stu-id="9fc75-110">This cmdlet returns all the conference directories where service ID contains the FQDN pool01.contoso.net.</span></span>
 
-3.  <span data-ttu-id="13a1f-111">Führen Sie zum Verschieben von Konferenzverzeichnissen folgenden Befehl für jedes Konferenzverzeichnis in dem Pool aus:</span><span class="sxs-lookup"><span data-stu-id="13a1f-111">To move conference directories, run the following for each conference directory in the pool:</span></span>
+3.  <span data-ttu-id="9fc75-111">Führen Sie zum Verschieben von Konferenzverzeichnissen folgenden Befehl für jedes Konferenzverzeichnis in dem Pool aus:</span><span class="sxs-lookup"><span data-stu-id="9fc75-111">To move conference directories, run the following for each conference directory in the pool:</span></span>
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
-    <span data-ttu-id="13a1f-112">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="13a1f-112">For example:</span></span>
+    <span data-ttu-id="9fc75-112">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="9fc75-112">For example:</span></span>
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
@@ -67,13 +67,13 @@ ms.locfileid: "44756624"
 
 
 > [!NOTE]  
-> <span data-ttu-id="13a1f-113">Möglicherweise tritt ein unten dargestellter Fehler auf, der durch die lync Server-Verwaltungsshell, die eine aktualisierte Gruppe von Berechtigungen aus Active Directory erfordern, verursacht wird.</span><span class="sxs-lookup"><span data-stu-id="13a1f-113">You may experience an error, shown below, that is caused by the Lync Server Management Shell requiring an updated set of permissions from Active Directory.</span></span> <span data-ttu-id="13a1f-114">Schließen Sie zum Beheben des Fehlers das aktuelle Fenster, und öffnen Sie ein neues lync Server-Verwaltungsshell, und führen Sie den Befehl erneut aus.</span><span class="sxs-lookup"><span data-stu-id="13a1f-114">To resolve the error, closed the current window and open a new Lync Server Management Shell and run the command again.</span></span>
+> <span data-ttu-id="9fc75-113">Möglicherweise tritt ein unten dargestellter Fehler auf, der durch die lync Server-Verwaltungsshell, die eine aktualisierte Gruppe von Berechtigungen aus Active Directory erfordern, verursacht wird.</span><span class="sxs-lookup"><span data-stu-id="9fc75-113">You may experience an error, shown below, that is caused by the Lync Server Management Shell requiring an updated set of permissions from Active Directory.</span></span> <span data-ttu-id="9fc75-114">Schließen Sie zum Beheben des Fehlers das aktuelle Fenster, und öffnen Sie ein neues lync Server-Verwaltungsshell, und führen Sie den Befehl erneut aus.</span><span class="sxs-lookup"><span data-stu-id="9fc75-114">To resolve the error, closed the current window and open a new Lync Server Management Shell and run the command again.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="13a1f-115">![CsConferenceDirectory-Fehlerausgabe](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "CsConferenceDirectory-Fehlerausgabe")</span><span class="sxs-lookup"><span data-stu-id="13a1f-115">![Move-CsConferenceDirectory error output](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory error output")</span></span>
+<span data-ttu-id="9fc75-115">![CsConferenceDirectory-Fehlerausgabe](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "CsConferenceDirectory-Fehlerausgabe")</span><span class="sxs-lookup"><span data-stu-id="9fc75-115">![Move-CsConferenceDirectory error output](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory error output")</span></span>
 
 </div>
 

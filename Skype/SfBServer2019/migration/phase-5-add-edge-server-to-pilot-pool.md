@@ -18,14 +18,14 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752307"
 ---
-# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a><span data-ttu-id="f9879-104">Phase 5: Hinzufügen von Skype for Business Server 2019 Edgeserver zu einem Pilot Pool</span><span class="sxs-lookup"><span data-stu-id="f9879-104">Phase 5: Add Skype for Business Server 2019 Edge Server to pilot pool</span></span>
+# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a><span data-ttu-id="798b0-104">Phase 5: Hinzufügen von Skype for Business Server 2019 Edgeserver zu einem Pilot Pool</span><span class="sxs-lookup"><span data-stu-id="798b0-104">Phase 5: Add Skype for Business Server 2019 Edge Server to pilot pool</span></span>
 
-<span data-ttu-id="f9879-105">In den Themen in diesem Abschnitt wird erläutert, wie der Bereitstellungeines pilotpools ein Skype for Business Server 2019 Edgeserver hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="f9879-105">The topics in this section explain how to add a Skype for Business Server 2019 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="f9879-106">Die Themen enthalten Hinweise zur Konfiguration und Überprüfung beim Ausführen der Assistenten zum Bereitstellen eines neuen Edgepools.</span><span class="sxs-lookup"><span data-stu-id="f9879-106">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span> 
+<span data-ttu-id="798b0-105">In den Themen in diesem Abschnitt wird erläutert, wie der Bereitstellungeines pilotpools ein Skype for Business Server 2019 Edgeserver hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="798b0-105">The topics in this section explain how to add a Skype for Business Server 2019 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="798b0-106">Die Themen enthalten Hinweise zur Konfiguration und Überprüfung beim Ausführen der Assistenten zum Bereitstellen eines neuen Edgepools.</span><span class="sxs-lookup"><span data-stu-id="798b0-106">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="f9879-107">Inhalt dieses Abschnitts</span><span class="sxs-lookup"><span data-stu-id="f9879-107">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="798b0-107">Inhalt dieses Abschnitts</span><span class="sxs-lookup"><span data-stu-id="798b0-107">In this section</span></span>
 
-- [<span data-ttu-id="f9879-108">Bereitstellen eines Pilot-Edgeservers</span><span class="sxs-lookup"><span data-stu-id="f9879-108">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
+- [<span data-ttu-id="798b0-108">Bereitstellen eines Pilot-Edgeservers</span><span class="sxs-lookup"><span data-stu-id="798b0-108">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
     
-- [<span data-ttu-id="f9879-109">Überprüfen der Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="f9879-109">Verify configuration settings</span></span>](verify-configuration-settings.md)
+- [<span data-ttu-id="798b0-109">Überprüfen der Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="798b0-109">Verify configuration settings</span></span>](verify-configuration-settings.md)
     
 

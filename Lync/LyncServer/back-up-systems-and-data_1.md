@@ -26,7 +26,7 @@ ms.locfileid: "44755345"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="f6ac7-102">Sichern von Systemen und Daten</span><span class="sxs-lookup"><span data-stu-id="f6ac7-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="83f80-102">Sichern von Systemen und Daten</span><span class="sxs-lookup"><span data-stu-id="83f80-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,9 +36,9 @@ ms.locfileid: "44755345"
 
 <span> </span>
 
-<span data-ttu-id="f6ac7-103">_**Letztes Änderungsstand des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="f6ac7-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="83f80-103">_**Letztes Änderungsstand des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="83f80-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="f6ac7-104">Bevor Sie mit der Migration zu lync Server 2013 beginnen, wird dringend empfohlen, dass Sie eine vollständige Systemsicherung durchführen und Ihr vorhandenes System dokumentieren, einschließlich eines Inventars von Benutzerkonten, die in jedem Pool verwaltet werden, sodass Sie ein Rollback auf Office Communications Server 2007 R2 ausführen können, falls dies erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="f6ac7-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="f6ac7-105">Mehrere Tools und Programme stehen für die Sicherung und Wiederherstellung von Daten, Einstellungen und Systemen zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="f6ac7-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="f6ac7-106">Ausführliche Informationen und Vorgehensweisen finden Sie unter "Office Communications Server 2007 R2 Sicherungs-und Wiederherstellungs Handbuch" unter <https://go.microsoft.com/fwlink/p/?linkid=168162> .</span><span class="sxs-lookup"><span data-stu-id="f6ac7-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <https://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
+<span data-ttu-id="83f80-104">Bevor Sie mit der Migration zu lync Server 2013 beginnen, wird dringend empfohlen, dass Sie eine vollständige Systemsicherung durchführen und Ihr vorhandenes System dokumentieren, einschließlich eines Inventars von Benutzerkonten, die in jedem Pool verwaltet werden, sodass Sie ein Rollback auf Office Communications Server 2007 R2 ausführen können, falls dies erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="83f80-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="83f80-105">Mehrere Tools und Programme stehen für die Sicherung und Wiederherstellung von Daten, Einstellungen und Systemen zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="83f80-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="83f80-106">Ausführliche Informationen und Vorgehensweisen finden Sie unter "Office Communications Server 2007 R2 Sicherungs-und Wiederherstellungs Handbuch" unter <https://go.microsoft.com/fwlink/p/?linkid=168162> .</span><span class="sxs-lookup"><span data-stu-id="83f80-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <https://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
 
 </div>
 

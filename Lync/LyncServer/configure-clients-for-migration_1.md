@@ -26,7 +26,7 @@ ms.locfileid: "44755001"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a><span data-ttu-id="a8194-102">Konfigurieren der Clients für die Migration</span><span class="sxs-lookup"><span data-stu-id="a8194-102">Configure clients for migration</span></span>
+# <a name="configure-clients-for-migration"></a><span data-ttu-id="0ebb0-102">Konfigurieren der Clients für die Migration</span><span class="sxs-lookup"><span data-stu-id="0ebb0-102">Configure clients for migration</span></span>
 
 </div>
 
@@ -36,25 +36,25 @@ ms.locfileid: "44755001"
 
 <span> </span>
 
-<span data-ttu-id="a8194-103">_**Letztes Änderungsstand des Themas:** 2013-11-21_</span><span class="sxs-lookup"><span data-stu-id="a8194-103">_**Topic Last Modified:** 2013-11-21_</span></span>
+<span data-ttu-id="0ebb0-103">_**Letztes Änderungsstand des Themas:** 2013-11-21_</span><span class="sxs-lookup"><span data-stu-id="0ebb0-103">_**Topic Last Modified:** 2013-11-21_</span></span>
 
-<span data-ttu-id="a8194-104">Dieses Thema enthält die empfohlenen Schritte zur Clientbereitstellung, die Sie vor der Migration zu lync Server 2013 durchführen sollten.</span><span class="sxs-lookup"><span data-stu-id="a8194-104">This topic contains the recommended client deployment steps you should take prior to migrating to Lync Server 2013.</span></span> <span data-ttu-id="a8194-105">Diese Konfigurationsänderungen sollten in Office Communications Server 2007 R2 vorgenommen werden.</span><span class="sxs-lookup"><span data-stu-id="a8194-105">These configuration changes should be made on Office Communications Server 2007 R2.</span></span> <span data-ttu-id="a8194-106">Es ist sehr wichtig, dass diese Schritte vor der Migration durchgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="a8194-106">It is very important that you perform these steps prior to migrating.</span></span> <span data-ttu-id="a8194-107">Ausführliche Informationen finden Sie unter [Planning for Clients and Devices in lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).</span><span class="sxs-lookup"><span data-stu-id="a8194-107">For details, see [Planning for clients and devices in Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).</span></span>
+<span data-ttu-id="0ebb0-104">Dieses Thema enthält die empfohlenen Schritte zur Clientbereitstellung, die Sie vor der Migration zu lync Server 2013 durchführen sollten.</span><span class="sxs-lookup"><span data-stu-id="0ebb0-104">This topic contains the recommended client deployment steps you should take prior to migrating to Lync Server 2013.</span></span> <span data-ttu-id="0ebb0-105">Diese Konfigurationsänderungen sollten in Office Communications Server 2007 R2 vorgenommen werden.</span><span class="sxs-lookup"><span data-stu-id="0ebb0-105">These configuration changes should be made on Office Communications Server 2007 R2.</span></span> <span data-ttu-id="0ebb0-106">Es ist sehr wichtig, dass diese Schritte vor der Migration durchgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="0ebb0-106">It is very important that you perform these steps prior to migrating.</span></span> <span data-ttu-id="0ebb0-107">Ausführliche Informationen finden Sie unter [Planning for Clients and Devices in lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).</span><span class="sxs-lookup"><span data-stu-id="0ebb0-107">For details, see [Planning for clients and devices in Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).</span></span>
 
 <div>
 
-## <a name="to-configure-clients-prior-to-migration"></a><span data-ttu-id="a8194-108">So konfigurieren Sie Clients vor der Migration</span><span class="sxs-lookup"><span data-stu-id="a8194-108">To configure clients prior to migration</span></span>
+## <a name="to-configure-clients-prior-to-migration"></a><span data-ttu-id="0ebb0-108">So konfigurieren Sie Clients vor der Migration</span><span class="sxs-lookup"><span data-stu-id="0ebb0-108">To configure clients prior to migration</span></span>
 
-1.  <span data-ttu-id="a8194-109">Bereitstellen der neuesten Office Communications Server 2007 R2 Server-, Client-und Geräte Updates (Hotfixes):</span><span class="sxs-lookup"><span data-stu-id="a8194-109">Deploy the most recent Office Communications Server 2007 R2 server, client, and device updates (hotfixes):</span></span>
+1.  <span data-ttu-id="0ebb0-109">Bereitstellen der neuesten Office Communications Server 2007 R2 Server-, Client-und Geräte Updates (Hotfixes):</span><span class="sxs-lookup"><span data-stu-id="0ebb0-109">Deploy the most recent Office Communications Server 2007 R2 server, client, and device updates (hotfixes):</span></span>
     
-      - [<span data-ttu-id="a8194-110">Anwenden von Office Communications Server 2007 R2 Updates</span><span class="sxs-lookup"><span data-stu-id="a8194-110">Apply Office Communications Server 2007 R2 updates</span></span>](apply-office-communications-server-2007-r2-updates.md)
+      - [<span data-ttu-id="0ebb0-110">Anwenden von Office Communications Server 2007 R2 Updates</span><span class="sxs-lookup"><span data-stu-id="0ebb0-110">Apply Office Communications Server 2007 R2 updates</span></span>](apply-office-communications-server-2007-r2-updates.md)
     
-      - [<span data-ttu-id="a8194-111">Beschreibung des kumulativen Updatepakets für Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="a8194-111">Description of the cumulative update package for Communicator 2007 R2</span></span>](https://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [<span data-ttu-id="0ebb0-111">Beschreibung des kumulativen Updatepakets für Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="0ebb0-111">Description of the cumulative update package for Communicator 2007 R2</span></span>](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [<span data-ttu-id="a8194-112">Abrufen von Softwareupdates für Geräte</span><span class="sxs-lookup"><span data-stu-id="a8194-112">Obtaining Software Updates for Devices</span></span>](https://go.microsoft.com/fwlink/?linkid=335809)
+      - [<span data-ttu-id="0ebb0-112">Abrufen von Softwareupdates für Geräte</span><span class="sxs-lookup"><span data-stu-id="0ebb0-112">Obtaining Software Updates for Devices</span></span>](https://go.microsoft.com/fwlink/?linkid=335809)
 
-2.  <span data-ttu-id="a8194-113">Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, damit nur Office Communications Server 2007 R2 Clients mit den neuesten installierten Updates angemeldet werden können.</span><span class="sxs-lookup"><span data-stu-id="a8194-113">On Office Communications Server 2007 R2, use Client Version Filtering to allow only Office Communications Server 2007 R2 clients with the most current updates installed to sign in.</span></span>
+2.  <span data-ttu-id="0ebb0-113">Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, damit nur Office Communications Server 2007 R2 Clients mit den neuesten installierten Updates angemeldet werden können.</span><span class="sxs-lookup"><span data-stu-id="0ebb0-113">On Office Communications Server 2007 R2, use Client Version Filtering to allow only Office Communications Server 2007 R2 clients with the most current updates installed to sign in.</span></span>
 
-3.  <span data-ttu-id="a8194-114">Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden.</span><span class="sxs-lookup"><span data-stu-id="a8194-114">On Office Communications Server 2007 R2, use Client Version Filtering to block Lync Server 2013 clients from signing in.</span></span> <span data-ttu-id="a8194-115">Führen Sie die unter **Konfigurieren der Client Versions Filterung** unter beschriebenen Schritte aus [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) , um die in der folgenden Tabelle aufgeführten Versionsfilter hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="a8194-115">Follow the steps described in **Configuring Client Version Filtering** at [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) to add the version filters listed in the following table.</span></span> <span data-ttu-id="a8194-116">Weisen Sie für jeden Versionsfilter die Aktion **Blockieren** zu.</span><span class="sxs-lookup"><span data-stu-id="a8194-116">For each version filter, assign the action **Block**.</span></span>
+3.  <span data-ttu-id="0ebb0-114">Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden.</span><span class="sxs-lookup"><span data-stu-id="0ebb0-114">On Office Communications Server 2007 R2, use Client Version Filtering to block Lync Server 2013 clients from signing in.</span></span> <span data-ttu-id="0ebb0-115">Führen Sie die unter **Konfigurieren der Client Versions Filterung** unter beschriebenen Schritte aus [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) , um die in der folgenden Tabelle aufgeführten Versionsfilter hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="0ebb0-115">Follow the steps described in **Configuring Client Version Filtering** at [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) to add the version filters listed in the following table.</span></span> <span data-ttu-id="0ebb0-116">Weisen Sie für jeden Versionsfilter die Aktion **Blockieren** zu.</span><span class="sxs-lookup"><span data-stu-id="0ebb0-116">For each version filter, assign the action **Block**.</span></span>
     
     
     <table>
@@ -65,26 +65,26 @@ ms.locfileid: "44755001"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="a8194-117">Client</span><span class="sxs-lookup"><span data-stu-id="a8194-117">Client</span></span></th>
-    <th><span data-ttu-id="a8194-118">Benutzer-Agent-Header</span><span class="sxs-lookup"><span data-stu-id="a8194-118">User agent header</span></span></th>
-    <th><span data-ttu-id="a8194-119">Version</span><span class="sxs-lookup"><span data-stu-id="a8194-119">Version</span></span></th>
+    <th><span data-ttu-id="0ebb0-117">Client</span><span class="sxs-lookup"><span data-stu-id="0ebb0-117">Client</span></span></th>
+    <th><span data-ttu-id="0ebb0-118">Benutzer-Agent-Header</span><span class="sxs-lookup"><span data-stu-id="0ebb0-118">User agent header</span></span></th>
+    <th><span data-ttu-id="0ebb0-119">Version</span><span class="sxs-lookup"><span data-stu-id="0ebb0-119">Version</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="a8194-120">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="a8194-120">Lync 2013</span></span></p></td>
-    <td><p><span data-ttu-id="a8194-121">OC</span><span class="sxs-lookup"><span data-stu-id="a8194-121">OC</span></span></p></td>
-    <td><p><span data-ttu-id="a8194-122">15.*..* \*</span><span class="sxs-lookup"><span data-stu-id="a8194-122">15.*.*.\*</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-120">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="0ebb0-120">Lync 2013</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-121">OC</span><span class="sxs-lookup"><span data-stu-id="0ebb0-121">OC</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-122">15.*..* \*</span><span class="sxs-lookup"><span data-stu-id="0ebb0-122">15.*.*.\*</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="a8194-123">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="a8194-123">Lync Web App</span></span></p></td>
-    <td><p><span data-ttu-id="a8194-124">CWA</span><span class="sxs-lookup"><span data-stu-id="a8194-124">CWA</span></span></p></td>
-    <td><p><span data-ttu-id="a8194-125">5.*..* \*</span><span class="sxs-lookup"><span data-stu-id="a8194-125">5.*.*.\*</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-123">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="0ebb0-123">Lync Web App</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-124">CWA</span><span class="sxs-lookup"><span data-stu-id="0ebb0-124">CWA</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-125">5.*..* \*</span><span class="sxs-lookup"><span data-stu-id="0ebb0-125">5.*.*.\*</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="a8194-126">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="a8194-126">Lync Phone Edition</span></span></p></td>
-    <td><p><span data-ttu-id="a8194-127">OCPhone</span><span class="sxs-lookup"><span data-stu-id="a8194-127">OCPhone</span></span></p></td>
-    <td><p><span data-ttu-id="a8194-128">4.*..* \*</span><span class="sxs-lookup"><span data-stu-id="a8194-128">4.*.*.\*</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-126">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="0ebb0-126">Lync Phone Edition</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-127">OCPhone</span><span class="sxs-lookup"><span data-stu-id="0ebb0-127">OCPhone</span></span></p></td>
+    <td><p><span data-ttu-id="0ebb0-128">4.*..* \*</span><span class="sxs-lookup"><span data-stu-id="0ebb0-128">4.*.*.\*</span></span></p></td>
     </tr>
     </tbody>
     </table>

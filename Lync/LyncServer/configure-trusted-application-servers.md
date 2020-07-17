@@ -26,7 +26,7 @@ ms.locfileid: "44754493"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-trusted-application-servers"></a><span data-ttu-id="662f0-102">Konfigurieren von vertrauenswürdigen Anwendungsservern</span><span class="sxs-lookup"><span data-stu-id="662f0-102">Configure trusted application servers</span></span>
+# <a name="configure-trusted-application-servers"></a><span data-ttu-id="7c7b0-102">Konfigurieren von vertrauenswürdigen Anwendungsservern</span><span class="sxs-lookup"><span data-stu-id="7c7b0-102">Configure trusted application servers</span></span>
 
 </div>
 
@@ -36,27 +36,27 @@ ms.locfileid: "44754493"
 
 <span> </span>
 
-<span data-ttu-id="662f0-103">_**Letztes Änderungsstand des Themas:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="662f0-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="7c7b0-103">_**Letztes Änderungsstand des Themas:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="7c7b0-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="662f0-104">Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie den Pool für den nächsten Hop als lync Server 2013 Pool festlegen.</span><span class="sxs-lookup"><span data-stu-id="662f0-104">In a mixed environment, if you create a new trusted application server, you must set the next hop pool to be a Lync Server 2013 pool.</span></span> <span data-ttu-id="662f0-105">In einer gemischten Umgebung werden sowohl der Legacy lync Server 2010 Pool als auch der lync Server 2013-Pool in der Dropdownliste angezeigt.</span><span class="sxs-lookup"><span data-stu-id="662f0-105">In a mixed environment, both the legacy Lync Server 2010 pool and the Lync Server 2013 pool appear in the drop down list.</span></span> <span data-ttu-id="662f0-106">Die Auswahl des Pools der Vorversion wird nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="662f0-106">Selecting the legacy pool is not supported.</span></span>
+<span data-ttu-id="7c7b0-104">Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie den Pool für den nächsten Hop als lync Server 2013 Pool festlegen.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-104">In a mixed environment, if you create a new trusted application server, you must set the next hop pool to be a Lync Server 2013 pool.</span></span> <span data-ttu-id="7c7b0-105">In einer gemischten Umgebung werden sowohl der Legacy lync Server 2010 Pool als auch der lync Server 2013-Pool in der Dropdownliste angezeigt.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-105">In a mixed environment, both the legacy Lync Server 2010 pool and the Lync Server 2013 pool appear in the drop down list.</span></span> <span data-ttu-id="7c7b0-106">Die Auswahl des Pools der Vorversion wird nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-106">Selecting the legacy pool is not supported.</span></span>
 
-<span data-ttu-id="662f0-107">**Auswählen lync Server 2013 als nächster Hop beim Erstellen eines vertrauenswürdigen Anwendungsservers**</span><span class="sxs-lookup"><span data-stu-id="662f0-107">**Select Lync Server 2013 as next hop when creating a Trusted application server**</span></span>
+<span data-ttu-id="7c7b0-107">**Auswählen lync Server 2013 als nächster Hop beim Erstellen eines vertrauenswürdigen Anwendungsservers**</span><span class="sxs-lookup"><span data-stu-id="7c7b0-107">**Select Lync Server 2013 as next hop when creating a Trusted application server**</span></span>
 
-1.  <span data-ttu-id="662f0-108">Öffnen Sie den Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="662f0-108">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="7c7b0-108">Öffnen Sie den Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-108">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="662f0-109">Klicken Sie im linken Bereich mit der rechten Maustaste auf **Vertrauenswürdige Anwendungsserver**, und klicken Sie auf **Neuer Pool für vertrauenswürdige Anwendungen**.</span><span class="sxs-lookup"><span data-stu-id="662f0-109">In the left pane, right click **Trusted application servers** and click **New Trusted Application Pool**.</span></span>
+2.  <span data-ttu-id="7c7b0-109">Klicken Sie im linken Bereich mit der rechten Maustaste auf **Vertrauenswürdige Anwendungsserver**, und klicken Sie auf **Neuer Pool für vertrauenswürdige Anwendungen**.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-109">In the left pane, right click **Trusted application servers** and click **New Trusted Application Pool**.</span></span>
 
-3.  <span data-ttu-id="662f0-110">Geben Sie den **Pool-FQDN** des Pools vertrauenswürdiger Anwendungen ein. Geben Sie an, ob der Pool einen einzelnen oder mehrere Server enthalten soll.</span><span class="sxs-lookup"><span data-stu-id="662f0-110">Enter the **Pool FQDN** of the trusted application pool and select whether it will be a single-server or multiple-server.</span></span>
+3.  <span data-ttu-id="7c7b0-110">Geben Sie den **Pool-FQDN** des Pools vertrauenswürdiger Anwendungen ein. Geben Sie an, ob der Pool einen einzelnen oder mehrere Server enthalten soll.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-110">Enter the **Pool FQDN** of the trusted application pool and select whether it will be a single-server or multiple-server.</span></span>
 
-4.  <span data-ttu-id="662f0-111">Klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="662f0-111">Click **Next**.</span></span>
+4.  <span data-ttu-id="7c7b0-111">Klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-111">Click **Next**.</span></span>
 
-5.  <span data-ttu-id="662f0-112">Wählen Sie auf der Seite **nächsten Hop auswählen** in der Liste die lync Server 2013 Front-End-Pool aus.</span><span class="sxs-lookup"><span data-stu-id="662f0-112">On the **Select the next hop** page, from the list, select the Lync Server 2013 Front End pool.</span></span>
+5.  <span data-ttu-id="7c7b0-112">Wählen Sie auf der Seite **nächsten Hop auswählen** in der Liste die lync Server 2013 Front-End-Pool aus.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-112">On the **Select the next hop** page, from the list, select the Lync Server 2013 Front End pool.</span></span>
 
-6.  <span data-ttu-id="662f0-113">Klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="662f0-113">Click **Finish**.</span></span>
+6.  <span data-ttu-id="7c7b0-113">Klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-113">Click **Finish**.</span></span>
 
-7.  <span data-ttu-id="662f0-114">Wählen Sie den obersten Knoten **Lync Server** aus, und wählen Sie dann im Menü **Aktionen** die Option **Veröffentlichen** aus.</span><span class="sxs-lookup"><span data-stu-id="662f0-114">Select the top node **Lync Server** and from the **Action** menu, select **Publish**.</span></span>
+7.  <span data-ttu-id="7c7b0-114">Wählen Sie den obersten Knoten **Lync Server** aus, und wählen Sie dann im Menü **Aktionen** die Option **Veröffentlichen** aus.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-114">Select the top node **Lync Server** and from the **Action** menu, select **Publish**.</span></span>
     
-    <span data-ttu-id="662f0-115">Überprüfen Sie, dass der **vertrauenswürdige Anwendungspool** erfolgreich erstellt und dem richtigen Front-End-Pool zugeordnet worden ist.</span><span class="sxs-lookup"><span data-stu-id="662f0-115">Verify the **Trusted Application Pool** has been created successfully and is associated with the correct Front End pool.</span></span>
+    <span data-ttu-id="7c7b0-115">Überprüfen Sie, dass der **vertrauenswürdige Anwendungspool** erfolgreich erstellt und dem richtigen Front-End-Pool zugeordnet worden ist.</span><span class="sxs-lookup"><span data-stu-id="7c7b0-115">Verify the **Trusted Application Pool** has been created successfully and is associated with the correct Front End pool.</span></span>
 
 </div>
 

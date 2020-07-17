@@ -25,7 +25,7 @@ ms.locfileid: "44757256"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-archiving-server-association"></a><span data-ttu-id="7e99e-102">Entfernen der Zuordnung des Archivierungsservers</span><span class="sxs-lookup"><span data-stu-id="7e99e-102">Remove the Archiving server association</span></span>
+# <a name="remove-the-archiving-server-association"></a><span data-ttu-id="1607a-102">Entfernen der Zuordnung des Archivierungsservers</span><span class="sxs-lookup"><span data-stu-id="1607a-102">Remove the Archiving server association</span></span>
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "44757256"
 
 <span> </span>
 
-<span data-ttu-id="7e99e-103">_**Letztes Änderungsstand des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="7e99e-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="1607a-103">_**Letztes Änderungsstand des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="1607a-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="7e99e-104">Zum Entfernen eines Archivierungsserver müssen Sie die Abhängigkeit von der zugeordneten Front-End-Pool, Front-End-Server, Survivable Branch Appliance und Survivable Branch Server ändern oder deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="7e99e-104">To remove an Archiving Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="7e99e-105">Sie bearbeiten die Eigenschaften des Front-End-Pool, Front-End-Server, Survivable Branch Appliance und Survivable Branch Server, um die Abhängigkeit zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="7e99e-105">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="7e99e-106">Nachdem Sie die Abhängigkeit gelöscht und den Server im Topologie-Generator gelöscht haben, werden Sie benachrichtigt, dass das zugeordnete Datenbankspeicher Objekt im Topologie-Generator ebenfalls gelöscht wird.</span><span class="sxs-lookup"><span data-stu-id="7e99e-106">After you clear the dependency and you delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
+<span data-ttu-id="1607a-104">Zum Entfernen eines Archivierungsserver müssen Sie die Abhängigkeit von der zugeordneten Front-End-Pool, Front-End-Server, Survivable Branch Appliance und Survivable Branch Server ändern oder deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="1607a-104">To remove an Archiving Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="1607a-105">Sie bearbeiten die Eigenschaften des Front-End-Pool, Front-End-Server, Survivable Branch Appliance und Survivable Branch Server, um die Abhängigkeit zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="1607a-105">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="1607a-106">Nachdem Sie die Abhängigkeit gelöscht und den Server im Topologie-Generator gelöscht haben, werden Sie benachrichtigt, dass das zugeordnete Datenbankspeicher Objekt im Topologie-Generator ebenfalls gelöscht wird.</span><span class="sxs-lookup"><span data-stu-id="1607a-106">After you clear the dependency and you delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
 
 <div>
 
-## <a name="to-remove-the-archiving-server-association"></a><span data-ttu-id="7e99e-107">So entfernen Sie die Zuordnung des Archivierungsservers</span><span class="sxs-lookup"><span data-stu-id="7e99e-107">To remove the Archiving Server association</span></span>
+## <a name="to-remove-the-archiving-server-association"></a><span data-ttu-id="1607a-107">So entfernen Sie die Zuordnung des Archivierungsservers</span><span class="sxs-lookup"><span data-stu-id="1607a-107">To remove the Archiving Server association</span></span>
 
-1.  <span data-ttu-id="7e99e-108">Öffnen Sie die lync Server 2013 Front-End-Server, öffnen Sie den Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="7e99e-108">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+1.  <span data-ttu-id="1607a-108">Öffnen Sie die lync Server 2013 Front-End-Server, öffnen Sie den Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="1607a-108">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="7e99e-109">Navigieren Sie zum Knoten lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="7e99e-109">Navigate to the Lync Server 2010 node.</span></span>
+2.  <span data-ttu-id="1607a-109">Navigieren Sie zum Knoten lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="1607a-109">Navigate to the Lync Server 2010 node.</span></span>
 
-3.  <span data-ttu-id="7e99e-110">Erweitern Sie im Topologie-Generator die **Enterprise Edition-Front-End-Pools**, **Standard Edition-Front-End-Server**oder **Zweigstellenstandorte**basierend auf der Definition des Archivierungsserver.</span><span class="sxs-lookup"><span data-stu-id="7e99e-110">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Archiving Server is defined.</span></span>
+3.  <span data-ttu-id="1607a-110">Erweitern Sie im Topologie-Generator die **Enterprise Edition-Front-End-Pools**, **Standard Edition-Front-End-Server**oder **Zweigstellenstandorte**basierend auf der Definition des Archivierungsserver.</span><span class="sxs-lookup"><span data-stu-id="1607a-110">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Archiving Server is defined.</span></span>
 
-4.  <span data-ttu-id="7e99e-111">Wenn Sie Survivable Branch Server zugeordnet haben, erweitern Sie **Zweigstellenstandorte**, erweitern Sie den Namen der Zweigstelle, und erweitern Sie dann **Survivable Branch Appliances**.</span><span class="sxs-lookup"><span data-stu-id="7e99e-111">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
+4.  <span data-ttu-id="1607a-111">Wenn Sie Survivable Branch Server zugeordnet haben, erweitern Sie **Zweigstellenstandorte**, erweitern Sie den Namen der Zweigstelle, und erweitern Sie dann **Survivable Branch Appliances**.</span><span class="sxs-lookup"><span data-stu-id="1607a-111">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7e99e-112"><STRONG>Survivable Branch Appliances</STRONG> in der Benutzeroberfläche gelten sowohl für Survivable Branch Server als auch für Survivable Branch Appliance.</span><span class="sxs-lookup"><span data-stu-id="7e99e-112"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
+    > <span data-ttu-id="1607a-112"><STRONG>Survivable Branch Appliances</STRONG> in der Benutzeroberfläche gelten sowohl für Survivable Branch Server als auch für Survivable Branch Appliance.</span><span class="sxs-lookup"><span data-stu-id="1607a-112"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="7e99e-113">Klicken Sie mit der rechten Maustaste auf den Pool, den Server oder das Gerät, das dem Archivierungsserver zugeordnet ist, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="7e99e-113">Right-click the pool, server, or device that is associated with the Archiving Server, and then click **Edit Properties**.</span></span>
+5.  <span data-ttu-id="1607a-113">Klicken Sie mit der rechten Maustaste auf den Pool, den Server oder das Gerät, das dem Archivierungsserver zugeordnet ist, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="1607a-113">Right-click the pool, server, or device that is associated with the Archiving Server, and then click **Edit Properties**.</span></span>
 
-6.  <span data-ttu-id="7e99e-114">Deaktivieren Sie in **Eigenschaften bearbeiten**, unter **Allgemein**, unter **Zuordnungen** das Kontrollkästchen **Archivierungsserver zuordnen**, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="7e99e-114">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Archiving Server** check box, and then click **OK**.</span></span>
+6.  <span data-ttu-id="1607a-114">Deaktivieren Sie in **Eigenschaften bearbeiten**, unter **Allgemein**, unter **Zuordnungen** das Kontrollkästchen **Archivierungsserver zuordnen**, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="1607a-114">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Archiving Server** check box, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="7e99e-115">Wiederholen Sie den vorherigen Schritt für alle anderen Pools, Server oder Geräte, die dem zu entfernenden Archivierungsserver zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="7e99e-115">Repeat the previous step for any other pool, server or device associated with the Archiving Server that you want to remove.</span></span>
+7.  <span data-ttu-id="1607a-115">Wiederholen Sie den vorherigen Schritt für alle anderen Pools, Server oder Geräte, die dem zu entfernenden Archivierungsserver zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="1607a-115">Repeat the previous step for any other pool, server or device associated with the Archiving Server that you want to remove.</span></span>
 
-8.  <span data-ttu-id="7e99e-116">Klicken Sie mit der rechten Maustaste auf den Archivierungsserver, und klicken Sie dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="7e99e-116">Right-click the Archiving Server, and then click **Delete**.</span></span>
+8.  <span data-ttu-id="1607a-116">Klicken Sie mit der rechten Maustaste auf den Archivierungsserver, und klicken Sie dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="1607a-116">Right-click the Archiving Server, and then click **Delete**.</span></span>
 
-9.  <span data-ttu-id="7e99e-117">Klicken Sie unter **Abhängige Speicher löschen** auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="7e99e-117">On **Delete Dependent Stores**, click **OK**.</span></span>
+9.  <span data-ttu-id="1607a-117">Klicken Sie unter **Abhängige Speicher löschen** auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="1607a-117">On **Delete Dependent Stores**, click **OK**.</span></span>
 
-10. <span data-ttu-id="7e99e-118">Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den Assistenten für die lync Server-Bereitstellung bei Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="7e99e-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
+10. <span data-ttu-id="1607a-118">Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den Assistenten für die lync Server-Bereitstellung bei Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="1607a-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
 
 </div>
 

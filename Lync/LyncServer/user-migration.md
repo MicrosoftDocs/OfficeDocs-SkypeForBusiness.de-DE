@@ -25,7 +25,7 @@ ms.locfileid: "44755649"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="9c9a5-102">Benutzermigration</span><span class="sxs-lookup"><span data-stu-id="9c9a5-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="19f48-102">Benutzermigration</span><span class="sxs-lookup"><span data-stu-id="19f48-102">User migration</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "44755649"
 
 <span> </span>
 
-<span data-ttu-id="9c9a5-103">_**Letztes Änderungsstand des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="9c9a5-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="19f48-103">_**Letztes Änderungsstand des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="19f48-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="9c9a5-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span><span class="sxs-lookup"><span data-stu-id="9c9a5-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span></span> <span data-ttu-id="9c9a5-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span><span class="sxs-lookup"><span data-stu-id="9c9a5-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span></span> <span data-ttu-id="9c9a5-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span><span class="sxs-lookup"><span data-stu-id="9c9a5-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="19f48-p101">Eine allgemein akzeptierte bewährte Methode für Migrationen besteht darin, mehrere Testbenutzer zu erstellen und sie zur Durchführung von Systemtests zu verwenden. Nach einer erfolgreichen Verschiebung und Prüfung der Konten der Benutzer sollten Sie eine Gruppe von Pilotproduktionsbenutzern bestimmen und die dazugehörigen Konten verschieben und Validierungstests an diesen Konten durchführen. Wenn Sie zufriedenstellende Ergebnisse  erhalten, können Sie die restlichen Benutzer in die neue Bereitstellung verschieben.</span><span class="sxs-lookup"><span data-stu-id="19f48-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
-<span data-ttu-id="9c9a5-107">Weitere Informationen zum Aktivieren von Benutzern für lync Server 2013 finden Sie im Thema [deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in der Bereitstellung lync Server 2013 Dokumentation.</span><span class="sxs-lookup"><span data-stu-id="9c9a5-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
+<span data-ttu-id="19f48-107">Weitere Informationen zum Aktivieren von Benutzern für lync Server 2013 finden Sie im Thema [deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in der Bereitstellung lync Server 2013 Dokumentation.</span><span class="sxs-lookup"><span data-stu-id="19f48-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
 
 </div>
 
