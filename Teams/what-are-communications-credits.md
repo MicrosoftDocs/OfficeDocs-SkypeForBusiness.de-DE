@@ -30,9 +30,9 @@ ms.locfileid: "44841986"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
-Communications Credits are a convenient way to pay for Audio Conferencing and Calling Plan minutes. It helps ensure you and your users are never caught without being able to:
+Guthaben für Kommunikationen ist eine praktische Möglichkeit, die Minuten in Audiokonferenzen und Anrufplänen zu bezahlen. Dadurch wird sichergestellt, dass Sie und Ihre Benutzer immer Zugriff auf folgende Optionen haben:
   
-- Add toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues. Toll-free calls are billed per minute and require a positive Communications Credits balance.
+- Gebührenfreie Telefonnummern hinzufügen, die für Audiokonferenzbesprechungen, automatische Telefonzentralen oder Anrufwarteschleifen verwendet werden können. Gebührenfreie Anrufe werden nach Minuten abgerechnet und erfordern einen positiven Guthabensaldo für Kommunikationen.
     
 - Ausgehende Anrufe aus Audiokonferenzbesprechungen tätigen, um Personen aus der ganzen Welt hinzuzufügen
     
@@ -45,10 +45,10 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
 - Wählen Sie aus und Zahlen Sie pro Minute, nachdem Sie Ihre monatliche Minuten Zuteilung aufgebraucht haben.
     
 > [!NOTE]
-> Outbound calls to some destinations may be included in your Audio Conferencing subscription. Please check your subscription information for details. 
+> Ausgehende Anrufe an bestimmte Ziele sind möglicherweise in Ihrem Abonnement für Audiokonferenzen enthalten. Die Details hierzu finden Sie in Ihren Abonnementinformationen. 
   
 > [!NOTE]
-> If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits. If you are unable to acquire Communications Credits, open a support incident from the portal and we will work with you to mitigate this issue until a permanent solution is in place. 
+> Wenn sich Ihre Organisation in einer anderen Region befindet als die Abrechnungsadresse Ihres Enterprise Agreements (EA), können Sie möglicherweise kein Guthaben für Kommunikationen kaufen. Wenn Sie kein Guthaben für Kommunikationen erwerben können, erstellen Sie im Portal eine Supportanfrage. Wir arbeiten dann gemeinsam mit Ihnen an einer vorübergehenden Lösung des Problems, bis eine endgültige Lösung vorliegt. 
   
 ## <a name="what-are-the-communications-credits-rates"></a>Welche Tarife gelten für Guthaben für Kommunikationen?
 
@@ -56,14 +56,14 @@ Wenn Sie sich Fragen, wie sich die Kosten für die Anrufe auf die Anrufpläne au
   
 ## <a name="what-is-it"></a>Was ist das?
 
-To use toll-free numbers in Skype for Business, Communications Credits are required as these calls are billed per minute. Also, we recommend that you set up Communications Credits for your Calling Plan and Audio Conferencing users who need the ability to dial out to **any PSTN destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits or assign a license to your users and you run out minutes for your organization (depending on your Calling Plan, Audio Conferencing plan, or your country/region), those users won't be able to make calls or dial out from Online Audio Conferencing meetings.
+Für die Verwendung von gebührenfreien Telefonnummern in Skype for Business ist Guthaben für Kommunikationen erforderlich, da diese Anrufe nach Minuten abgerechnet werden. Außerdem empfehlen wir, Guthaben für Kommunikationen für Benutzer von Anrufplänen und Audiokonferenzen einzurichten, die in der Lage sein sollen, **beliebige PSTN-Ziele** anzurufen. Viele Länder und Regionen sind enthalten, aber einige Ziele sind möglicherweise in Ihren Abonnements für Anrufpläne oder Audiokonferenzen nicht enthalten. Wenn Sie nicht Guthaben für Kommunikationen einrichten oder Ihren Benutzern eine Lizenz zuweisen und dann alle Minuten für Ihre Organisation aufgebraucht sind (abhängig von Ihrem Anrufplan, Ihrem Audiokonferenzplan oder von dem Land bzw. der Region), können diese Benutzer keine allgemeinen Anrufe tätigen und nicht aus Online-Audiokonferenzbesprechungen anrufen.
   
 > [!NOTE]
 > Sie müssen Kommunikationsguthaben einrichten und dann für jeden Benutzer in den **Microsoft 365 Admin Center**-  >  **Benutzern**  >  **aktive**Benutzer eine Lizenz für Kommunikations Kredite zuweisen. 
   
 Es wird empfohlen, die Verwendung des PSTN-Diensts in Ihrer Organisation sorgfältig zu bewerten, um die beste Einrichtung für Kommunikationsguthaben zu verstehen. Weitere Informationen zu PSTN-Diensten finden Sie unter Lesen von [Telefon System-und Anrufplänen](calling-plan-landing-page.md) sowie [häufig gestellte Fragen zu Audiokonferenzen](Audio-Conferencing-common-questions.md).
   
-You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
+Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung** des vorausbezahlten Saldos **ODER** mit einem Betrag für **automatisches Aufladen** ( **empfohlen** ) und einem Mindestsaldo einrichten, der einen Kauf für diesen Aufladungsbetrag auslöst. Anfänglich sollten Sie Beträge für das automatische Aufladen einrichten, mit denen Sie die tatsächliche Nutzung überwachen können und die richtigen Grenzwerte für das automatische Aufladen finden, die Ihren Anforderungen und Ihrem Nutzungsverhalten entsprechen. Überwachen Sie das Guthaben für Kommunikationen im Lauf der Zeit, und passen Sie dann den Mindestsaldo und die Aufladungsbeträge nach Bedarf an die Anforderungen Ihrer Organisation an.
   
 > [!NOTE]
 > Sie können sich die Pläne und Preise ansehen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs**  >  **Abonnements**Abonnements  >  **Hinzufügen**wechseln. 
@@ -74,7 +74,7 @@ Im **Microsoft 365 Admin Center**  >  **Billing**  >  **Purchase Services**-  > 
 
 In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Für Organisationen, die Skype for Business bereits als Ihren Dienstanbieter verwenden, können Sie Nutzungsdaten abrufen, indem Sie es in den **Microsoft 365 Admin Center**-  >  **Berichten** oder im **Skype for Business Admin Center**  >  **Berichte**  >  **über die PSTN-Nutzungsdetails über**prüfen.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel and create custom reports.
+Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation prüfen, um die Beträge zu bestimmen, die Sie aufladen müssen. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. Sie können die Anrufdatensätze aus diesem Bericht nach Excel exportieren und benutzerdefinierte Berichte erstellen.
 
 > [!NOTE]
 > Kommunikationsguthaben werden auch für Sonderrufnummern verwendet. Der Anrufer zahlt die Gebühren.

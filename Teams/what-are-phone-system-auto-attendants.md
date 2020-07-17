@@ -42,7 +42,7 @@ Zum Einrichten einer automatischen Telefonzentrale für Telefonsysteme wechseln 
 Eine automatische Cloud-Telefonzentrale verfügt über die folgenden Features:
   
 - Sie kann Unternehmensbegrüßungen oder informative Begrüßungen bereitstellen.
-- It can provide custom corporate menus. You can customize these menus to have more than one level.
+- Sie kann benutzerdefinierte Unternehmensmenüs bereitstellen. Diese Menüs können Sie so anpassen, dass sie aus mehreren Ebenen bestehen.
 - Sie bietet eine Verzeichnissuche, mit der Personen, die in das Verzeichnis der Organisation anrufen, nach einem Namen suchen können.
 - Damit können Personen, die in Ihrer Organisation anrufen, eine Nachricht erreichen oder eine Nachricht hinterlassen.
 - Sie unterstützt mehrere Sprachen für Eingabeaufforderungen, Text-zu-Sprache und Spracherkennung.

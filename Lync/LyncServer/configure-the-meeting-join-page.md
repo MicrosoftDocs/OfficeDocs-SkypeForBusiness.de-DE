@@ -62,7 +62,7 @@ Sie können das Verhalten der Seite für den besprechungsbeitritt ändern, wenn 
 </tr>
 <tr class="even">
 <td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
+<td><p>Bei Festlegung auf "True" werden automatisch alternative Optionen für die Teilnahme an einer Onlinekonferenz (z. B. Office Communicator 2007 R2) erweitert und für Benutzer angezeigt. Bei Festlegung auf "False" (Standardwert) sind diese Optionen verfügbar, aber der Benutzer muss die Liste der Optionen selbst anzeigen.</p></td>
 </tr>
 </tbody>
 </table>

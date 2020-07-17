@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 935be9902accbd575c9795a667943a6810aec6e3
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: a864e810df8cdd69a9c8a2e9bb29524147a3b865
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841906"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45137905"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -69,7 +69,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 |Anzahl der Dateianlagen <sup>2</sup>  |10     |
 |Größe des Chats | Ca. 28 KB pro Beitrag<sup>3</sup> |
 
-<sup>1</sup> Wenn mehr als 20 Personen an einem Chat teilnehmen, werden die folgenden Chat-Funktionen deaktiviert: automatische Outlook-Antworten und Teams-Statusmeldungen; Eingabeindikator; Video- und Telefonanrufe; Freigabe; Lesebestätigungen.
+<sup>1</sup> Wenn mehr als 20 Personen an einem Chat teilnehmen, werden die folgenden Chat-Funktionen deaktiviert: automatische Outlook-Antworten und Teams-Statusmeldungen; Eingabeindikator; Video- und Telefonanrufe; Freigabe; Lesebestätigungen. Die Schaltfläche „Übermittlungsoptionen festlegen“ (!) wird ebenfalls entfernt, wenn private Gruppenchats mehr als 20 Mitglieder umfassen.
 
 <sup>2</sup> Falls die Anzahl der Anlagen dieses Limit überschreitet, wird eine Fehlermeldung angezeigt.
 
@@ -111,7 +111,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300 <br><br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird.   |
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300 |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
@@ -141,7 +141,7 @@ Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Li
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
 > 
-> Damit Kunden den sich schnell ändernden Kommunikationsbedürfnissen gerecht werden können, wird das Limit für Microsoft 365 Live-Ereignisse vorübergehend bis zum 1. Juli 2020 für Live-Ereignisse in Teams erhöht. Die nachstehenden Erhöhungen werden Ende April 2020 bereitgestellt:
+> Damit Kunden den sich schnell ändernden Kommunikationsbedürfnissen gerecht werden können, wird das Limit für Microsoft 365 Live-Ereignisse vorübergehend bis zum 1. Oktober 2020 für Live-Ereignisse in Teams erhöht. Die nachstehenden Erhöhungen werden bereitgestellt:
 > - Teilnehmerlimit: Ereignisse können bis zu 20 000 Teilnehmer unterstützen
 > - Gleichzeitige Ereignisse: 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
 > - Ereignisdauer: die Ereignisdauer wurde auf 16 Stunden pro Sendung erhöht

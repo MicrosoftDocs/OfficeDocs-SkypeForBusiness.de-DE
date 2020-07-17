@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2012-09-28_
 
 In diesem Verfahren werden die Schritte zum Konfigurieren des lync Server 2013 Pools für die Verwendung der lync Server 2013 Vermittlungsserver anstelle des Legacy-Office Communications Server 2007 R2 Vermittlungsservers erläutert.
 
-To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
+Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen "RTCUniversalServerAdmins" und "Domänen-Admins" angemeldet sein. Es ist auch möglich, die geeigneten Administratorrechte und -berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von Setupberechtigungen in der Bereitstellungsdokumentation für Standard Edition-Server oder Enterprise Edition-Server. Für andere Konfigurationsänderungen müssen Sie lediglich Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
 <div>
 
@@ -63,7 +63,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 4.  Geben Sie auf der Seite **Neues IP/PSTN-Gateway definieren** die folgenden Informationen ein:
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - Geben Sie einen vollqualifizierten Domänennamen oder eine IP-Adresse für das Gateway ein. Der FQDN des Gateways ist notwendig, wenn das Gateway das TLS-Protokoll verwendet.
     
       - Übernehmen Sie den Standardwert von **Überwachungsport für das IP/PSTN-Gateway**, oder geben Sie den neuen Überwachungsport ein, falls er geändert wurde.
     

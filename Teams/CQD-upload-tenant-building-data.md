@@ -53,10 +53,10 @@ Wählen Sie im Dashboard für CQD-Zusammenfassungsberichte die Option **Mandante
 
    ![Beispiel für ein Dialogfeld mit einem Fehler beim Hochladen der Gebäudedaten](media/qerguide-image-buildingdatauploaderror.png)
  
-6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
+6. Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
 
 > [!NOTE]
-> It can take up to four hours to finish processing the building file. <br><br> Wenn Sie bereits eine Gebäude Datei hochgeladen haben und Subnetze hinzufügen müssen, die möglicherweise verpasst oder ausgeschlossen wurden, ändern Sie die ursprüngliche Datei, indem Sie die neuen Subnetze hinzufügen, die aktuelle Datei entfernen und die neu bearbeitete Datei erneut hochladen. In CQD kann nur eine einzige aktive Gebäudedatendatei vorhanden sein. 
+> Es kann bis zu vier Stunden dauern, bis die Bearbeitung der Datei abgeschlossen ist.<br><br> Wenn Sie bereits eine Gebäude Datei hochgeladen haben und Subnetze hinzufügen müssen, die möglicherweise verpasst oder ausgeschlossen wurden, ändern Sie die ursprüngliche Datei, indem Sie die neuen Subnetze hinzufügen, die aktuelle Datei entfernen und die neu bearbeitete Datei erneut hochladen. In CQD kann nur eine einzige aktive Gebäudedatendatei vorhanden sein. 
 
 
 ## <a name="upload-building-data-file"></a>Hochladen einer Gebäude Datendatei

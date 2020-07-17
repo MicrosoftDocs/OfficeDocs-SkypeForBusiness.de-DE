@@ -104,7 +104,7 @@ Microsoft Teams rooms wurde entwickelt, um Proxy Einstellungen vom Windows-Betri
     
 11. Wählen Sie auf der Anmeldeseite den Benutzer **Skype** aus. Wenn alle vorherigen Schritte erfolgreich waren, meldet sich das Microsoft Teams rooms-Gerät erfolgreich an.
     
-To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
+Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten beschriebenen Endpunkten herstellen können. Die IP-Adressen können Sie anzeigen, indem Sie den Abschnitt mit den IP-Adressen unter der Tabelle erweitern, in der der Datenverkehrsfluss beschrieben wird.
   
 **Name des Firewall-Proxyhosts/Portbeispiele**
 
@@ -118,7 +118,7 @@ To use this application, you must be able to connect to the endpoints described 
 |Audio  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |TCP/UDP 50000-50019  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
 |Video  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |TCP/UDP 50.020-50039  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50000-59999  <br/> |
 |Desktopfreigabe  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |TCP/UDP 50.040-50059  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50000-59999  <br/> |
-|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Lync Mobile-Pushbenachrichtigungen für Lync Mobile 2010 auf iOS-Geräten. Für Android-, Nokia Symbian- oder Windows Phone-Mobilgeräte benötigen Sie dies nicht.  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype-Telemetrie  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
 |Skype-Client – schnelle Tipps  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |quicktips.skypeforbusiness.com  <br/> |Nein  <br/> |Nein  <br/> |n/v  <br/> |TCP 443  <br/> |
 

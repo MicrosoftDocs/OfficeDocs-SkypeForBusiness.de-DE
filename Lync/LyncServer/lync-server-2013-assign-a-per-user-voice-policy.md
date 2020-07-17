@@ -62,7 +62,7 @@ Sie können benutzerspezifische VoIP-Richtlinien mithilfe von Windows PowerShell
 
 ## <a name="unassign-a-per-user-voice-policy"></a>Aufheben der Zuweisung einer VoIP-Richtlinie pro Benutzer
 
-  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+  - Der folgende Befehl hebt die Zuweisung der dem Benutzer "Ken Myer" zuvor zugewiesenen VoIP-Richtlinie auf. Nachdem die Zuweisung der benutzerbasierten Richtlinie aufgehoben ist, wird Ken Myer automatisch über die globale Richtlinie oder, sofern vorhanden, seine lokale Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

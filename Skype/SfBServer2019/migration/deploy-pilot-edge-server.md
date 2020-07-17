@@ -23,7 +23,7 @@ ms.locfileid: "44752867"
 In diesem Thema werden die Konfigurationseinstellungen hervorgehoben, die Sie vor der Bereitstellung Ihrer Skype for Business Server 2019 Edgeserver beachten sollten. Die Bereitstellungs-und Konfigurationsprozesse für Skype for Business Server 2019 ähneln Skype for Business Server 2015. In diesem Abschnitt sind nur die wichtigsten zu beachtenden Punkte für die Bereitstellung Ihres Pilotpools hervorgehoben. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+Überprüfen Sie beim Navigieren durch den Assistenten zum **Definieren eines neuen Edgepools** die in den folgenden Schritten dargestellten wichtigen Konfigurationseinstellungen. Beachten Sie, dass nur einige der Seiten des Assistenten zum **Definieren eines neuen Edgepools** abgebildet sind. 
   
 ### <a name="to-define-an-edge-pool"></a>So definieren Sie einen Edge-Pool
 

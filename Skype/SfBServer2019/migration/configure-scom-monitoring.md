@@ -51,7 +51,7 @@ Anweisungen für diese Aufgaben finden Sie unten.
    ```
 
     > [!NOTE]
-    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error. 
+    > Bei jeder Bearbeitung der Registrierung kann eine Fehlermeldung angezeigt werden, dass der Befehl nicht ausgeführt wurde, wenn der Registrierungsschlüssel bereits vorhanden ist. Falls dies der Fall ist, können Sie die Fehlermeldung getrost ignorieren. 
   
 ### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass der Knoten Candidate Central Discovery Watcher außer Kraft gesetzt wird.
 

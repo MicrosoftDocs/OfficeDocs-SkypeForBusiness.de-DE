@@ -91,7 +91,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
     
 
     > [!IMPORTANT]  
-    > This step is important. You must clear this option to remove the legacy federation association.
+    > Dieser Schritt ist wichtig. Sie müssen dieses Kontrollkästchen deaktivieren, um die Partnerverbundzuordnung der Vorversion zu entfernen.
 
 
 
@@ -123,7 +123,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
 
 1.  Öffnen Sie im Office Communications Server 2007 R2 Standard Edition-Server oder Front-End-Server das Office Communications Server 2007 R2 Verwaltungstool.
 
-2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
+2.  Erweitern Sie im linken Bereich den obersten Knoten, und klicken Sie dann mit der rechten Maustaste auf den Knoten **Gesamtstruktur**. Wählen Sie **Eigenschaften** aus, und klicken Sie auf **Globale Eigenschaften**.
 
 3.  Klicken Sie auf die Registerkarte **Partnerverbund**.
 
@@ -217,7 +217,7 @@ Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer T
     
 
     > [!NOTE]  
-    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
+    > Wenn Sie kein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie den DNS-A-Eintrag für den Partnerverbund aktualisieren, sodass der neue Lync Server-Zugriffs-Edgeserver aufgelöst wird. Um dies mit minimaler Betriebsunterbrechung zu bewerkstelligen, reduzieren Sie den TTL-Wert für den externen vollqualifizierten Domänennamen (FQDN) des Lync Server-Zugriffs-Edgeservers. Dadurch werden, wenn das DNS aktualisiert wird, sodass es auf den neuen Lync Server-Zugriffs-Edgeserver zeigt, auch der Partnerverbund und der Remotezugriff rasch aktualisiert.
 
 
 

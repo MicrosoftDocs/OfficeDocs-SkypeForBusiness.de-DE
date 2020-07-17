@@ -49,13 +49,13 @@ Führen Sie das folgende Verfahren aus, um einen Vermittlungsserver, der mit ein
 
 3.  Klicken Sie mit der rechten Maustaste auf **Vermittungspools**, und klicken Sie dann auf **Neuer Vermittlungsserver**.
 
-4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
+4.  Geben Sie auf der Seite **Neuen Vermittlungspool definieren** den vollqualifizierten Domänennamen (FQDN) des neuen Vermittlungsserverpools ein. Geben Sie außerdem an, ob dieser Pool einen einzelnen oder mehrere Server enthalten soll, und klicken Sie dann auf **Weiter**.
 
 5.  Wählen Sie den nächsten Front-End-Server-Hoppool aus, an den der neue Vermittlungsserver eingehende Anrufe weiterleiten soll, und klicken Sie auf **Weiter**.
 
 6.  Wählen Sie den Edgepool aus, der von dem neuen Vermittlungsserver verwendet werden soll, und klicken Sie auf **Weiter**.
 
-7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
+7.  Ordnen Sie auf der Seite **PSTN-Gateways angeben** das vorherige PSTN-Gateway dem Vermittlungsserver zu. Wählen Sie das Gateway aus, und klicken Sie dann auf **Hinzufügen**.
 
 8.  Klicken Sie auf **Fertig stellen**, um den Assistenten zum Definieren eines neuen Vermittlungspools **** zu schließen.
 

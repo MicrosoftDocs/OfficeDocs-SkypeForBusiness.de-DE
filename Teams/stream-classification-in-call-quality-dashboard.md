@@ -29,11 +29,11 @@ ms.locfileid: "45085891"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Stream-Klassifizierung im Dashboard für die Anrufqualität (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+Das Anruf Qualitäts Dashboard (CQD) für Microsoft Teams und Skype for Business Online ermöglicht Ihnen, Einblicke in die Qualität von Anrufen zu gewinnen, die mit Microsoft Teams und Skype for Business-Diensten getätigt wurden. Dieses Thema enthält detaillierte Informationen zur Qualitäts Klassifizierung von Medienströmen. Weitere Informationen zu CQD und zur Einrichtung finden Sie unter [Einrichten der Anruf Qualitätssteuerung](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Klassifizierungsdefinitionen
 
-Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Streams in CQD werden basierend auf den Werten der verfügbaren Schlüssel Qualitäts Metriken als " _gut_", " _schlecht_" oder "nicht _klassifiziert_ " klassifiziert. Die Metriken und Bedingungen, die für die Klassifizierung von Datenstrom verwendet werden, werden in den folgenden Tabellen angezeigt. Die "CQD"-Dimensionen können verwendet werden, um zu verstehen, welche Metrik für eine _unzureichende_ Klassifizierung verantwortlich ist. Weitere Informationen zu diesen Dimensionen finden Sie unter [Dimensionen und Measures, die im Dashboard für die Anrufqualität verfügbar sind](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Audio-Klassifizierung
 
@@ -41,7 +41,7 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audiost
 
 |Metrik|Bedingung|Erklärung|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
+|Audio Degradation Avg|> 1,0|Durchschnittlicher Netzwerk-Mittelwert der Meinungs Bewertung für Datenstrom. Wie viel Netzwerk Verlust und Jitter die Qualität der empfangenen Audiodaten beeinträchtigt haben.|
 |Round Trip|> 500|Durchschnittliche Roundtrip-Netzwerk Laufzeit, berechnet in Millisekunden. Einzelheiten sind in [rfc3550 angegeben](https://tools.ietf.org/html/rfc3550)verfügbar.|
 |Packet Loss Rate|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|

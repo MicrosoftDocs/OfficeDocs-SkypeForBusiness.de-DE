@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2012-10-19_
 
 In diesem Thema werden Konfigurationseinstellungen hervorgehoben, die Sie vor der Bereitstellung Ihrer lync Server 2013 Edgeserver beachten sollten. Die Bereitstellungs-und Konfigurationsprozesse für lync Server 2013 ähneln lync Server 2010. In diesem Abschnitt sind nur die wichtigsten zu beachtenden Punkte für die Bereitstellung Ihres Pilotpools hervorgehoben. Ausführliche Anweisungen finden Sie unter [Deploying External User Access in lync Server 2013](lync-server-2013-deploying-external-user-access.md) in der Bereitstellungsdokumentation, in der der Bereitstellungsprozess beschrieben wird und der auch Konfigurationsinformationen für den Zugriff durch externe Benutzer enthält.
 
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
+Überprüfen Sie beim Navigieren durch den Assistenten zum **Definieren eines neuen Edgepools** die in den folgenden Schritten dargestellten wichtigen Konfigurationseinstellungen. Beachten Sie, dass nur einige der Seiten des Assistenten zum **Definieren eines neuen Edgepools** abgebildet sind.
 
 **Definieren eines Edgepools**
 

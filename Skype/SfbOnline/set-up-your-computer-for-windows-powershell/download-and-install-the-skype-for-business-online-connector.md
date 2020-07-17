@@ -35,17 +35,17 @@ Das Skype for Business Online-Connectormodul umfasst das **New-CsOnlineSession**
   
 1. Doppelklicken Sie auf die Datei **SkypeOnlinePowershell.exe**.
     
-2. In the Skype for Business Online, Windows PowerShell setup wizard, on the **Microsoft Software License Terms** page, select **I accept the terms in the License Agreement**, and then click **Install**. If the **User Account Control** dialog box appears, click **Yes** to continue the installation.
+2. Wählen Sie im Windows PowerShell-Setup-Assistenten für Skype for Business Online auf der Seite **Microsoft-Software-Lizenzbedingungen** die Option **Ich stimme den Lizenzbedingungen zu** aus, und klicken Sie dann auf **Installieren**. Wenn das Dialogfeld **Benutzerkontensteuerung** angezeigt wird, klicken Sie auf **Ja**, um die Installation fortzusetzen.
     
 3. Klicken Sie auf der Seite **Completed the Skype for Business Online, Windows PowerShell Module** (Windows PowerShell-Modul für Skype for Business Online abgeschlossen) auf **Fertig stellen**.
     
-The setup program copies the Skype for Business Online Connector module (and the **New-CsOnlineSession** cmdlet) to your computer. To access the module, start a Windows PowerShell session under administrator credentials, and then run the following command:
+Das Setupprogramm kopiert das Skype for Business Online-Connectormodul (und das **New-CsOnlineSession** -Cmdlet) auf den Computer. Um auf das Modul zuzugreifen, starten Sie eine Windows PowerShell-Sitzung mit Administratoranmeldeinformationen, und führen Sie dann den folgenden Befehl aus:
   
 ```PowerShell
 Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
 ```
 
-If you don't want to type this command every time you start Windows PowerShell, you can add the command to your Windows PowerShell profile. To do that, type the following command at the Windows PowerShell prompt and then press ENTER:
+Wenn Sie diesen Befehl nicht bei jedem Start von Windows PowerShell eingeben möchten, können Sie ihn zu Ihrem Windows PowerShell-Profil hinzufügen. Geben Sie dazu den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, und drücken Sie dann die EINGABETASTE:
   
 ```PowerShell
 notepad.exe $profile
@@ -57,9 +57,9 @@ notepad.exe $profile
 Import-Module SkypeOnlineConnector
 ```
 
-Save the file. The next time you start Windows PowerShell, the Skype for Business Online Connector module will automatically be imported. Be aware that you will get an error message, and the module will not be loaded, if you are not running Windows PowerShell under administrator credentials.
+Speichern Sie die Datei. Wenn Sie Windows PowerShell das nächste Mal starten, wird das Skype for Business Online-Connectormodul automatisch importiert. Beachten Sie: Wenn Sie Windows PowerShell nicht mit Administratoranmeldeinformationen ausführen, wird eine Fehlermeldung angezeigt, und das Modul wird nicht geladen.
   
-In addition to installing the Skype for Business Online Connector module, SkypeOnlinePowershell.exe also installs three additional components: 1) the Identity Service Client Runtime Library (IDCRL), used to handle client authentication to Skype for Business Online; 2) .NET Framework 4.5; and, 3) the Microsoft Visual C++ 2012 Redistributable (x64) package (version 11.0.50727). .NET Framework 4.5 provides the infrastructure used for building and running .NET applications, including Windows PowerShell. The Visual C++ Redistributable package installs Visual C++ runtime components for computers that do not have Microsoft Visual Studio 2012 installed.
+Neben dem Skype for Business Online-Connectormodul installiert „SkypeOnlinePowershell.exe" drei weitere Komponenten: 1) Identity Service Client Runtime Library (IDCRL) zum Verarbeiten der Clientauthentifizierung gegenüber Skype for Business Online, 2) .NET Framework 4.5 und 3) das Microsoft Visual C++ 2012 Redistributable (x64)-Paket (Version 11.0.50727). .NET Framework 4.5 stellt die Infrastruktur zum Erstellen und Ausführen von .NET-Anwendungen bereit, einschließlich Windows PowerShell. Das Visual C++ Redistributable-Paket installiert Visual C++-Laufzeitkomponenten für Computer, auf denen Microsoft Visual Studio 2012 nicht installiert ist.
   
 Um die Versionsnummer des zurzeit auf dem Computer installierten Connectormoduls zu überprüfen, öffnen Sie die Systemsteuerung, öffnen Sie **Programme und Features**, und überprüfen Sie dann die Versionsnummer von **Skype for Business Online, Windows PowerShell Module** (Windows PowerShell-Modul für Skype for Business Online).
   

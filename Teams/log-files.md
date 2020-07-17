@@ -34,9 +34,9 @@ Es gibt drei Typen von automatisch vom Client erstellten Protokolldateien, die z
 
 -   Desktopprotokolle
 
-When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
+Beim Erstellen einer Supportanfrage beim Microsoft-Support fordert Sie der Supportmitarbeiter zur Einreichung von Debugprotokollen auf. Wenn Sie diese Protokolle vor dem Erstellen der Supportanfrage zur Hand haben, kann das Problem von Microsoft schneller behoben werden. Medien- oder Desktopprotokolle werden nur auf Anforderung von Microsoft benötigt.
 
-The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
+In der folgenden Tabelle werden verschiedene Clients und die jeweils zugehörigen Protokolle aufgeführt. Protokolldateien sind in den für den Client und das Betriebssystem spezifischen Verzeichnissen gespeichert.
 
 
 |Client |Debug|Desktop|Medien|
@@ -90,7 +90,7 @@ Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
 <a name="media-logs"></a>Medienprotokolle
 ---------------------------
 
-Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
+Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe Sie sind für Supportfälle nur nach Aufforderung erforderlich und können nur von Microsoft geprüft werden. In der folgenden Tabelle wird der Protokollspeicherort aufgeführt.
 
 
 |Client |Speicherort |
@@ -108,7 +108,7 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 <a name="desktop-logs"></a>Desktopprotokolle
 ---------------------
 
-Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
+Desktopprotokolle, auch bekannt unter Bootstrapper-Protokolle, enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser erstellt werden. Wie Medienprotokolle werden diese Protokolle nur auf Anforderung von Microsoft benötigt. Die Protokolle sind textbasiert und können mit jedem Texteditor von oben nach unten gelesen werden.
 
 Windows:
 

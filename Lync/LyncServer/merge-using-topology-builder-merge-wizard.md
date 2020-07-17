@@ -47,13 +47,13 @@ _**Letztes Änderungsstand des Themas:** 2012-10-02_
     
     ![Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"")  
 
-5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
+5.  Geben Sie in **Edgesetup angeben** den Typ der Edgeserverkonfiguration ein, und klicken Sie auf **Weiter**. In diesem Beispiel wird die Option **Einzelner Edgeserver** verwendet.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
+    > <STRONG>Erweiterte Edgebereitstellung</STRONG> ist keine unterstützte Konfiguration. Ein <STRONG>Erweiterter Edgeserver</STRONG> muss zuerst in einen <STRONG>Einzelnen Edgeserver</STRONG> oder ein <STRONG>Konsolidiertes Edge mit Lastenausgleich</STRONG> umgewandelt werden.
 
     
     </div>
@@ -68,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
+    > Führen Sie den nächsten Schritt dieses Verfahrens aus, bevor Sie auf <STRONG>Weiter</STRONG> klicken. Dieser Schritt darf auf keinen Fall ausgelassen werden.
 
     
     </div>

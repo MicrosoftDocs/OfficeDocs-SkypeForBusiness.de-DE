@@ -39,15 +39,15 @@ _**Letztes Änderungsstand des Themas:** 2012-10-06_
 
 Wenn Sie Ihre Kategorien und beständige Chatrooms erstellen und Ihr Bereichs-und Mitgliedschafts Design entwerfen, können Ihnen die folgenden Tipps bei der Planung helfen:
 
-  - If your company does not require an ethical wall, do not narrow the scope in your category tree. Put all your users in the scope of one category, and create all chat rooms in that category. Subsequently, use only membership lists to grant or restrict access to each chat room.
+  - Wenn in Ihrem Unternehmen keine "Chinesische Mauer" notwendig ist, schränken Sie den Bereich in der Kategoriestruktur nicht ein. Nehmen Sie alle Benutzer in den Bereich einer Kategorie auf, und erstellen Sie alle Chatrooms in dieser Kategorie. Verwenden Sie dann nur Mitgliederlisten, um den Zugriff auf die einzelnen Chatrooms zu erteilen oder zu beschränken.
 
-  - In most cases, you should enable users to create new chat rooms so that discussions about new topics can be started any time. Do this by making the **Creators** list the same as the **AllowedMembers** list. However, if you want to allow only a central support team or designated users to create rooms, then make the **Creators** list as the appropriate subset.
+  - In den meisten Fällen sollten Sie zulassen, dass die Benutzer neue Chatrooms erstellen können. Dann können jederzeit Diskussionen über neue Themen aufgenommen werden. Dazu müssen die Listen **Creators** und **AllowedMembers** identisch sein. Wenn Sie jedoch nur einem zentralen Supportteam oder bestimmten Benutzern das Erstellen von Chatrooms erlauben möchten, sollte die Liste **Creators** die entsprechenden Benutzer enthalten.
 
-  - Give each chat room a complete name and description summary that describes where it fits in with your organization. Because users cannot see the category name when they use the chat room, you cannot rely on the category name to help users determine the intended discussion forum for the chat room.
+  - Geben Sie für jeden Chatroom einen vollständigen Namen und eine zusammenfassende Beschreibung ein, damit die Benutzer den Chatroom innerhalb Ihrer Organisation richtig zuordnen können. Da die Benutzer den Kategorienamen nicht sehen können, wenn sie den Chatroom verwenden, hilft der Kategoriename den Benutzern nicht unbedingt, das vorgesehene Diskussionsforum für den Chatroom zu erkennen.
 
   - Sie können einen benutzerdefinierten Workflow zum Erstellen von Chatrooms verwenden, falls bestimmte Benennungskonventionen oder sonstige Zugriffssteuerungen oder Überprüfungen implementiert werden müssen. Mit der Konfiguration für beständigen Chat können Sie die **RoomManagementUrl** auf etwas anpassen, das Sie hosten. Wenn Benutzer beispielsweise auf **einen Chatroom** in Ihrem lync-Client erstellen klicken, können Sie zu Ihrer benutzerdefinierten Lösung umgeleitet werden.
 
-  - Create a variety of add-ins that help to enhance the experience of chat rooms by bringing in other business data into chat rooms. Administrators must register the add-ins that they want to allow in the system. Chat room managers and creators can choose from the list of allowed add-ins for the ones most relevant to their respective rooms.
+  - Sie können eine Vielzahl von Add-Ins erstellen, mit der Sie die Verwendung von Chatrooms optimieren können, indem andere Geschäftsdaten in Chatrooms eingebracht werden. Administratoren müssen die Add-Ins registrieren, die im System zulässig sein sollen. Chatroommanager und -ersteller können in der Liste der zulässigen Add-Ins die für ihre Chatrooms relevantesten Add-Ins auswählen.
 
 <div>
 

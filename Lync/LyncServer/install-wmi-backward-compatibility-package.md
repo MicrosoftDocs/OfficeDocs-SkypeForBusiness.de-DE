@@ -55,7 +55,7 @@ So installieren Sie das WMI-Abwärtskompatibilitätspaket
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
+    > OCSWMIBC.msi muss auf dem Computer installiert werden, auf dem der Zusammenführungs-Assistent des Topologie-Generators ausgeführt wird. Es wird jedoch empfohlen, OCSWMIBC.msi auf allen Front-End-Servern in der Topologie auszuführen.
 
     
     </div>

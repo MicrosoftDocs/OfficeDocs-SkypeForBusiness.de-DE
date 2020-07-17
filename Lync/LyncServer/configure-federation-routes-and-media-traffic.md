@@ -269,7 +269,7 @@ Führen Sie die folgenden Verfahren aus, um die partnerverbundroute und die Medi
     
 
     > [!NOTE]  
-    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
+    > Wenn Sie kein Hardwaregerät zum Lastenausgleich zur Verfügung haben, müssen Sie den DNS-A-Eintrag für den Partnerverbund aktualisieren, um das Problem für den neuen Lync Server-Zugriffs-Edgeserver zu lösen. Damit es mit geringstmöglicher Störung abgeschlossen werden kann, sollte Sie den TLL-Wert für den externen FQDN des Lync Server-Zugriffsedge reduzieren, sodass der Partnerverbund und der Remotezugriff schnell aktualisiert werden können, wenn die DNS aktualisiert wird, damit auf den neuen Lync Server-Zugriffsedge verwiesen werden kann.
 
     
     </div>

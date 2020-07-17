@@ -55,7 +55,7 @@ Einwahlnummern, die Sie in lync Server 2010 erstellt, aber in lync Server 2013 v
 
   - Sie können innerhalb des Bereichs durch Verwendung des Set-CsDialinConferencingAccessNumber-Cmdlets mit dem Priority-Parameter neu sequenziert werden.
 
-You must finish migrating dial-in access numbers that point to a Lync Server 2010 pool before you decommission the Lync Server 2010 pool. If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.
+Sie müssen die Migration von Einwahlnummern abschließen, die auf einen Lync Server 2010-Pool verweisen, bevor Sie den Lync Server 2010-Pool außer Betrieb nehmen. Wenn Sie die Migration von Einwahlnummern nicht wie im folgenden Verfahren beschrieben abschließen, schlagen eingehende Anrufe an die Einwahlnummern fehl.
 
 <div>
 

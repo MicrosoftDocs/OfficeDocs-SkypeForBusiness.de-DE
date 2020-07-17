@@ -47,7 +47,7 @@ Im Allgemeinen wird das lync Server 2010 Adressbuch zusammen mit der restlichen 
 
 **Gruppierte Adressbucheinträge**
 
-If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
+Wenn Sie die WMI-Eigenschaft **PartitionbyOU** auf "True" festgelegt haben, sodass für jede Organisationseinheit Adressbücher erstellt werden, müssen Sie das Active Directory-Attribut **msRTCSIP-GroupingId** für Benutzer und Kontakte festlegen, wenn Adressbucheinträge weiterhin gruppiert werden sollen. Das Gruppieren von Adressbucheinträgen ist vorteilhaft, um den Umfang von Adressbuchsuchen einzugrenzen. Zur Verwendung des **msRTCSIP-GroupingId**-Attributs schreiben Sie ein Skript zum Auffüllen des Attributs, wobei Sie allen Benutzern, die in einer Gruppe zusammengefasst werden sollen, den gleichen Wert zuweisen. Beispiel: Weisen Sie allen Benutzern in einer Organisationseinheit einen einzigen Wert zu.
 
 **Adressbuch-Normalisierungsregeln**
 
@@ -57,7 +57,7 @@ Wenn Sie die Regeln für die Adressbuch Normalisierung in ihrer lync Server 2010
 
 
 > [!NOTE]  
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
+> Wenn in Ihrer Organisation Remoteanrufsteuerung verwendet wird und Sie Normalisierungsregeln für Adressbücher angepasst haben, müssen Sie das Verfahren in diesem Thema ausführen, bevor Sie die Remoteanrufsteuerung nutzen können. Dazu müssen Sie Mitglied der Gruppe "RTCUniversalServerAdmins" sein oder gleichwertige Rechte innehaben.
 
 
 
@@ -86,7 +86,7 @@ Wenn Sie den Wert für **UseNormalizationRules** auf false festlegen, damit Benu
 
 3.  Bestimmte Typen von Einträgen funktionieren in lync Server 2013 nicht ordnungsgemäß. Durchsuchen Sie die Datei nach den hier beschriebenen Typen von Einträgen, bearbeiten Sie die Einträge entsprechend, und speichern Sie die Änderungen im freigegebenen Adressbuchordner im Pilotpool.
     
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    Zeichenfolgen, die erforderliche Leerzeichen oder Satzzeichen enthalten, können Fehler bei der Ausführung der Normalisierungsregeln verursachen, weil diese Zeichen aus den Zeichenfolgen, die in die Normalisierungsregeln eingelesen werden, entfernt werden. Wenn Sie Zeichenfolgen mit erforderlichen Leerzeichen oder Satzzeichen haben, müssen Sie diese Zeichenfolgen bearbeiten. Beispielsweise würde die folgende Zeichenfolge einen Fehler bei der Normalisierungsregel verursachen:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     

@@ -63,7 +63,7 @@ Manager für beständigen Chatrooms, die die Möglichkeit haben, einen oder mehr
 
 </div>
 
-Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
+Chatroommanager können Änderungen an allen Chatroomeigenschaften vornehmen. Die Kategorie des Chatrooms können Sie jedoch nicht ändern. Sie können nicht am Ausführen der folgenden Aktionen gehindert werden:
 
   - Deaktivieren eines Chatrooms
 

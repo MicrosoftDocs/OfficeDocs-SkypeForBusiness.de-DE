@@ -61,7 +61,7 @@ Teams mildert diese Angriffe, indem es den Azure DDOS-Netzwerkschutz ausführt u
 
 ### <a name="eavesdropping"></a>Abhörschutz
 
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
+Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird.
 
 Teams verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb von Microsoft 365 und Office 365, und verwendet zudem TLS von den Clients zum Dienst, wodurch dieser Angriff innerhalb der Zeitspanne, in der eine bestimmte Konversation angegriffen werden könnte, sehr schwierig bis unmöglich wird. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
 

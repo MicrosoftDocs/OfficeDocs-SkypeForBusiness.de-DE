@@ -37,7 +37,7 @@ Wählen Sie die richtige System- und Audio-Video-Peripheriegeräte von einem uns
 <br>
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.  <br><br>Ältere Plattformen wie Lync Server 2013 funktionieren vermutlich nicht mehr mit Microsoft Teams-Räume.
+> Microsoft Teams-Räume ist für die Verwendung mit Microsoft Teams, Skype for Business Online, Skype for Business Server 2019 oder Skype for Business Server 2015 vorgesehen.<br><br>Ältere Plattformen wie Lync Server 2013 funktionieren vermutlich nicht mehr mit Microsoft Teams-Räume.
 
 Diese Artikel richten sich an Personen, die mit der Planung, Bereitstellung und Verwaltung dieser Geräte betraut sind, und nicht an die Benutzer des Systems. Die Benutzer werden mehr Interesse an der [Online-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) zu Microsoft Teams-Räume haben.
 

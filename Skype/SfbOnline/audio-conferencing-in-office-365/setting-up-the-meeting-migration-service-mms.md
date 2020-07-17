@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Meeting Migration Service (MMS) is a service that runs in the background and automatically updates Skype for Business and Microsoft Teams meetings for users. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+description: Der Meeting Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt wird und automatisch Skype for Business-und Microsoft Teams-Besprechungen für Benutzer aktualisiert. MMS wurde entwickelt, um zu verhindern, dass Benutzer das Besprechungs Migrations Tool ausführen können, um Ihre Skype for Business-und Microsoft Teams-Besprechungen zu aktualisieren.
 ms.openlocfilehash: da04e98269f20eca327b30c2bd40f3e5181523d0
 ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
@@ -101,7 +101,7 @@ In den folgenden Fällen aktualisiert MMS vorhandene Skype for Business-und Micr
 - Wenn Sie den Benutzer zu einer neuen Audiokonferenzbrücke verschieben
 - Wenn eine Telefonnummer von einer Audiokonferenz-Brücke nicht zugewiesen ist. Hierbei handelt es sich um ein komplexes Szenario, das zusätzliche Schritte erfordert. Weitere Informationen finden Sie unter [Ändern der Telefonnummern auf der Audiokonferenz-Brücke](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
-Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:
+Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen MMS aus. Insbesondere die folgenden beiden Änderungen führen nicht dazu, dass MMS Besprechungen aktualisiert:
 
 - Ändern der SIP-Adresse für den Besprechungsorganisator (entweder des SIP-Benutzernamens oder der SIP-Domäne)
 - Wenn Sie die Besprechungs-URL Ihrer Organisation mithilfe des `Update-CsTenantMeetingUrl` Befehls ändern.

@@ -33,7 +33,7 @@ ms.locfileid: "44943848"
 > [!Note]
 > Wenn Sie Benutzereinstellungen in Microsoft Teams verwalten möchten, lesen Sie [Verwalten der audiokonferenzeinstellungen für einen Benutzer in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+Als Microsoft 365-oder Office 365-Administrator können Sie die audiokonferenzeinstellungen wie den Anbieter, die standardmäßige gebührenpflichtige oder gebührenfreie Nummer, Konferenz-ID oder PIN für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie die Einstellungen für Ihre Organisation bearbeiten möchten, lesen Sie [Verwalten der Einstellungen für die Audiokonferenz für meine Organisation](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Mit Ihrem Firmen-oder Schulkonto anmelden

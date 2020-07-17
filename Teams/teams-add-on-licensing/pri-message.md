@@ -22,6 +22,7 @@ ms.custom:
 description: Informieren Sie sich über Prioritäts Benachrichtigungen in Microsoft Teams-Messaging.
 ms.openlocfilehash: 0456d93cefbe293e883c23edffe237f11f653fe7
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042907"
