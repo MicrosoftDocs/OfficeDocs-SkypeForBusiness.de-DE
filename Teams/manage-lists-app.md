@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138368"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158693"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -46,7 +46,7 @@ Vorlagen in Listen sind auf häufige Informations Überwachungsszenarien für Be
 
 - Verfolgen Sie Probleme, und bringen Sie Sie mithilfe der Issue Tracker-Vorlage zum Abschluss.
 - Organisieren Sie alle Ihre Veranstaltungsdetails mit der Vorlage für das Event-Reiseplan.
-- Verwenden Sie die Vorlage "Patienten", um die Anforderungen und den Status von Patienten festzuhalten, damit Betreuerteams in Ihrer Gesundheitsorganisation die Pflege überwachen und koordinieren können.
+- Verwenden Sie die Vorlage "Patienten", um die Anforderungen und den Status von Patienten für Betreuerteams in Ihrer Gesundheitsorganisation aufzuzeichnen, um die Betreuung zu überwachen und zu koordinieren.
 - Nachvollziehen des Status von Darlehensanträgen mit der Vorlage "Kredite"
 
 ## <a name="example-scenario"></a>Beispielszenario

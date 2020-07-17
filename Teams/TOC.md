@@ -672,13 +672,13 @@
 
 # Sicherheit, Datenschutz und Compliance
 ## [Übersicht](security-compliance-overview.md)
-## Sicherheit und Datenschutz
+## Sicherheit
 ### [Sicherheitshandbuch](teams-security-guide.md)
+### [Azure Sentinel und Teams](teams-sentinel-guide.md)
 ### [Identitätsmodelle und Authentifizierung](identify-models-authentication.md)
 ### [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md)
 ### [Sichere Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Datenschutz und Microsoft Teams](teams-privacy.md)
-### [Speicherorte von Daten in Teams](location-of-data-in-teams.md)
+### [AppLocker-Anwendungssteuerungsrichtlinien](applocker-in-teams.md)
 ## Compliance
 ### [Informationsbarrieren](information-barriers-in-teams.md)
 ### [Aufbewahrungsrichtlinien](retention-policies.md)
@@ -691,7 +691,9 @@
 ### Inhaltssuche
 #### [Verwenden der Inhaltssuche](content-search.md)
 #### [Suchen nach Überwachungsprotokoll für Ereignisse](audit-log-events.md)
-### [AppLocker-Anwendungssteuerungsrichtlinien](applocker-in-teams.md)
+## Datenschutz
+### [Datenschutz und Microsoft Teams](teams-privacy.md)
+### [Speicherort von Daten in Teams](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung

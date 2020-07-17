@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522998"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158633"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Erste Schritte mit dem Upgrade von Microsoft Teams
 
@@ -52,6 +52,14 @@ Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Können wir Skype for Business Online weiterhin verwenden, während wir uns auf das Upgrade auf Microsoft Teams vorbereiten und es durchführen?
 
 Ja, Microsoft bietet mehrere Optionen für die gleichzeitige Verwendung von Skype for Business Online und Microsoft Teams. Mit diesen Koexistenzmodi sind Ihre Benutzer in der Lage, sich mit Microsoft Teams vertraut zu machen und gleichzeitig das Upgrade auf die ausschließliche Verwendung von Microsoft Teams zu beschleunigen. Weitere Informationen finden Sie unter [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
+
+## <a name="is-phone-system-available-for-teams-users"></a>Steht das Telefon System für die Benutzer von Teams zur Verfügung?
+
+Ja. Das Telefon System steht allen Teams-Benutzern zur Verfügung, nachdem Sie in den TeamsOnly-Modus versetzt wurden.  Darüber hinaus stellt Microsoft Optionen für die Verbindung mit dem öffentlichen Telefonnetz (PSTN) bereit, damit Benutzer überall in der Welt Telefonanrufe tätigen können. Weitere Informationen finden Sie unter [VoIP-Telefon System und PSTN-Konnektivität](cloud-voice-landing-page.md).
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>Können wir unsere lokale Telefonie-Infrastruktur weiterhin nutzen?
+
+Ja. Mit dem Telefonsystem Direct Routing können Sie das Telefonsystem mit praktisch jedem Telefonnetzbetreiber verwenden. Mit Direct Routing können Sie Ihren eigenen Session Border Controller (SBC) direkt mit dem Telefon System verbinden. Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Wie hilft Microsoft seinen Kunden beim Upgrade auf Microsoft Teams? 
 

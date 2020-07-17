@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) für Teams verfügbar sind und wie Sie eine für Ihre Organisation auswählen können.  '
-ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
+ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836685"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153577"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -57,6 +57,9 @@ Mögliche gültige Wählpläne:
  **Mandanten Benutzer – Dienst Land** Wenn ein Mandanten-Wählplan definiert und einem Benutzer zugewiesen wird, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus dem zusammengeführten Mandanten Benutzer-Wählplan und dem für den Verwendungsstandort zugeordneten Service Country-Wählplan besteht.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen Ihrer Mandanten Wählpläne.
+
+> [!NOTE]
+> In dem Szenario, in dem keine Wähl Plan Normalisierungsregeln für eine gewählte Nummer gelten, wird die gewählte Zeichenfolge nach wie vor als "+ CC" vorangestellt, wobei cc die Landesvorwahl des Verwendungsorts des Wähl Benutzers ist. Dies gilt für Anrufpläne, direkte Routing-und PSTN-Konferenzszenarien.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planen von Mandantenwählplänen
 
@@ -105,7 +108,7 @@ Dem Wählplan müssen mindestens eine Normalisierungsregel zugewiesen sein. Norm
 Da jeder Mandanten-Wählplan effektiv mit einem bestimmten Benutzer-Wählplan zusammengeführt wird, müssen die Normalisierungsregeln für den Dienstleistungs Land-Wählplan wahrscheinlich ausgewertet werden, um festzustellen, welche Normalisierungsregeln für den Mandanten Wählplan benötigt werden. Zu diesem Zweck kann das **Get-CsEffectiveTenantDialPlan** -Cmdlet verwendet werden. Das Cmdlet verwendet eine Benutzeridentität als Eingabeparameter und gibt alle auf den Benutzer anwendbaren Normalisierungsregeln zurück.
 
 ### <a name="creating-normalization-rules"></a>Erstellen von Normalisierungsregeln
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um numerische Übereinstimmungsmuster anzugeben, die vom Server zum Übersetzen von Wählzeichenfolgen in das E. 164-Format verwendet werden. Sie können Normalisierungsregeln erstellen, indem Sie den regulären Ausdruck für den Abgleich angeben sowie die Übersetzung, die für gefundene Übereinstimmungen durchgeführt werden soll. Abschließend können Sie eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
 
@@ -117,11 +120,11 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen
 
 Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als reguläre Ausdrücke von .NET Framework formuliert sind. Diese Regeln sind nur Beispiele und stellen keine verbindliche Referenz für die Erstellung Ihrer eigenen Normalisierungsregeln dar.
 
- **Normalisierungsregeln mit regulären Ausdrücken in .NET Framework**<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a> 
+ **Normalisierungsregeln mit regulären Ausdrücken in .NET Framework**
 
-||||||
+| Regelname<br/> | Beschreibung<br/> | Nummernmuster<br/> | Übersetzung<br/> | Beispiel<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Regelname** <br/> |**Beschreibung** <br/> |**Nummernmuster** <br/> |**Übersetzung** <br/> |**Beispiel** <br/> |
 |4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
 |5digitExtension  <br/> |Übersetzt fünfstellige Durchwahlnummern.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
 |7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt.  <br/>|
@@ -135,13 +138,12 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 
  Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert.
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Wählplan für Redmond** <br/>                                                                                                                              |
-| 5digitExtension <br/>                                                                                                                                    |
-| 7digitcallingRedmond <br/>                                                                                                                               |
-| RedmondSitePrefix <br/>                                                                                                                                  |
-| RedmondOperator <br/>                                                                                                                                    |
+| Wählplan für Redmond<br/> |
+|:-----------------------|                                                                                                                      
+| 5digitExtension <br/> |                                                                                                                                    
+| 7digitcallingRedmond <br/> |
+| RedmondSitePrefix <br/> |
+| RedmondOperator <br/> |
 
 > [!NOTE]
 > Die Namen der Normalisierungsregeln, die in der obigen Tabelle angezeigt werden, enthalten keine Leerzeichen, doch dies ist eine Frage der Wahl. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er „5 digit extension" oder „5-digit Extension" lautet.

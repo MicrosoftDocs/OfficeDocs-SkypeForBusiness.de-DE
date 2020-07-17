@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666057"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158683"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Vorbereiten Ihres Diensts für das Upgrade auf Teams
 
@@ -40,9 +40,9 @@ Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upg
 
 Dieser Artikel enthält eine Übersicht über die Anforderungen für die Vorbereitung Ihrer Organisation auf die Zusammenarbeit und die Cloud-VoIP-Dienste mit Teams. Wenn Sie ordnungsgemäß vorbereitet sind, können Sie sicherstellen, dass Sie bereit sind, diese Funktionen für Ihre Organisation bereitzustellen.
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Onboarding-Checklisten für Microsoft Teams Rollout
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Onboarding-Checklisten und Zielseiten für Microsoft Teams Rollout
 
-Die folgenden Checklisten führen Sie durch die Schritte zum Bereitstellen von Microsoft Teams in Ihrer Organisation:
+Die folgenden Checklisten und Zielseiten führen Sie schrittweise durch die Schritte zum Bereitstellen von Microsoft Teams in Ihrer Organisation:
 
 - [Vorbereiten von Microsoft 365 oder Office 365 für Teams](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ Die folgenden Checklisten führen Sie durch die Schritte zum Bereitstellen von M
 
 - [Vorbereiten des Netzwerks Ihrer Organisation](prepare-network.md)
 
-- [Konfigurieren von Cloud-sprach Auslastungen in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [Konfigurieren des direkten Routings in Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Besprechungen und Audiokonferenzen](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [Optionen für Telefon System und PSTN-Konnektivität](cloud-voice-landing-page.md)
+
 
 Die Aufgaben und Aktivitäten in diesen Prüflisten sind die Kernaufgaben, die für jede Bereitstellung von Kollaborations-und Sprachfunktionen in Teams gelten. Sie können die Checklisten anpassen, um die Aktivitäten und Aufgaben einzubeziehen, die für Ihre eigene Teams-Reise spezifisch sind.
 

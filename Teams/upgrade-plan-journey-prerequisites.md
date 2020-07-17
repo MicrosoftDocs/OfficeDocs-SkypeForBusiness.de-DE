@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666067"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158733"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Voraussetzungen und Umgebungs Abhängigkeiten für Teams
 
@@ -48,12 +48,16 @@ In den folgenden Artikeln finden Sie Informationen zu den Voraussetzungen und da
 
 - Wenn Ihre Organisation keine Identitäten mit Azure Active Directory synchronisiert hat, lesen Sie [Identitäts Modelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md).
 
-- Wenn Ihre Organisation nicht<sup>1</sup>über Exchange Online verfügt, lesen Sie [verstehen, wie Exchange und Microsoft Teams interagieren](Exchange-Teams-interact.md).
+- Wenn Ihre Organisation nicht über Exchange Online verfügt, lesen Sie [verstehen, wie Exchange und Microsoft Teams interagieren](Exchange-Teams-interact.md).
 
 - Wenn Ihre Organisation nicht über SharePoint Online verfügt, lesen Sie Grund [Legendes zur Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Hier erfahren Sie [, wie Microsoft 365-Gruppen und Microsoft Teams interagieren](Office-365-groups.md).
+- So erfahren Sie, wie [Microsoft 365-Gruppen und Microsoft Teams interagieren](Office-365-groups.md).
 
-- Wenn es sich bei Ihrer Organisation um eine Bildungseinrichtung handelt und Sie ein Kursteilnehmer-Informations System verwenden, [Stellen Sie School Data Sync bereit](https://docs.microsoft.com/schooldatasync) , bevor Sie Microsoft Teams bereitstellen.
+- Wenn es sich bei Ihrer Organisation um eine Bildungseinrichtung handelt und Sie ein Kursteilnehmer-Informations System verwenden, lesen Sie [Willkommen bei Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) , bevor Sie Microsoft Teams bereitstellen.
+
+- Wenn Ihre Organisation über PSTN-Anrufoptionen (Public Switched Telephone Network) nachdenkt, lesen Sie [sprach-und PSTN-Konnektivität](cloud-voice-landing-page.md), [welcher Anrufplan für Sie die richtige ist](calling-plan-landing-page.md), und [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md).
+
+- Wenn Sie sicherstellen möchten, dass alle Netzwerkanforderungen erfüllt sind, bevor Sie Teams bereitstellen, lesen Sie [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md).
 
 Nachdem Sie überprüft haben, dass Ihre Umgebung alle anwendbaren Voraussetzungen erfüllt, [evaluieren Sie Ihre aktuelle Umgebung für Teams](upgrade-plan-journey-evaluate-environment.md).

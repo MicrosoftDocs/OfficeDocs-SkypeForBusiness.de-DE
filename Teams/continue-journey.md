@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751537"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158503"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Effektives Verwenden von Microsoft Teams
 
@@ -37,10 +37,10 @@ Technologie ist innovativ in einem beispiellosen Tempo. Es ist ein Standard, wie
 
 ## <a name="monitor-for-network-health-and-quality"></a>Überwachen von Netzwerkstatus und-Qualität
 
-Der Status Ihres Netzwerks hat Auswirkungen auf die Benutzeroberfläche. Wenn ein Benutzer eine schlechte Erfahrung hat (beispielsweise Anrufausfälle oder Zeitverzögerung beim teilnehmen an Besprechungen), Korrelieren Sie dies mit der Technologie selbst, sodass Sie den Eindruck haben, dass die Technologie nicht funktioniert und die Tür für nicht unterstützte apps geöffnet wird. Durch die Implementierung eines Plans zum Überwachen und verringern des Netzwerkzustands können Sie eine positive Benutzererfahrung sowie eine Verringerung der Anrufe an Ihren Support-Desk sicherstellen. Weitere Informationen finden Sie in den folgenden Artikeln:
+Der Status Ihres Netzwerks hat Auswirkungen auf die Benutzeroberfläche. Wenn ein Benutzer eine schlechte Erfahrung hat (beispielsweise Anrufausfälle oder Zeitverzögerung beim teilnehmen an Besprechungen), Korrelieren Sie dies mit der Technologie selbst, sodass Sie den Eindruck haben, dass die Technologie nicht funktioniert und die Tür für nicht unterstützte apps geöffnet wird. Durch die Implementierung eines Plans zum Überwachen und verringern des Netzwerkzustands können Sie eine positive Benutzererfahrung sowie eine Verringerung der Anrufe an Ihren Support-Desk sicherstellen. Weitere Informationen finden Sie unter:
 
 - [Betreiben des Diensts](upgrade-operate-my-service.md)
-- [Überwachen der Qualität](upgrade-monitor-quality.md)
+- [Überwachen und verbessern der Anrufqualität](monitor-call-quality-qos.md)
 - [Verbessern Ihres Diensts](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Antrieb und Akzeptanz für Benutzer

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7e9a1d50469490e3e68163cf7b51a0fc6cac9af7
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756846"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158753"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 
@@ -66,18 +66,7 @@ Um eine verwirrende oder rückläufige Skype for Business-Erfahrung zu vermeiden
 > [!Tip]
 > Der empfohlene Pfad für Skype for Business Online-Kunden ist es, mit dem standardmäßigen **Inseln** -Modus zu beginnen, die Sättigung der Teams in der Organisation zu steuern und dann schnell in den Modus " **nur Teams** " zu wechseln. Lokale und hybride Kunden, besonders komplexe, können davon profitieren, wenn Sie den **Skype for Business-Modus für Teams Zusammenarbeit** als Ausgangspunkt und nicht als **Inseln** -Modus bereitstellen und von dort aus zu **Skype for Business mit Teamarbeits-und Besprechungs** Modus (also Besprechungen zuerst), falls erforderlich, und dem Modus " **nur Teams** " wechseln, wenn die Organisation bereit ist, Teams zu
 
-### <a name="skype-for-business-only"></a>Nur Skype for Business
-
-In diesem Koexistenzmodus verbleiben die Benutzer in Skype for Business – nicht in Teams – für Chat-, Besprechungs-und Anruffunktionen, und Sie verwenden keine Teams für Teams und Kanäle. Dieser Modus steht heute zur Verfügung. in der aktuellen Implementierung werden jedoch Teams und Kanäle nicht automatisch für den Benutzer deaktiviert. Dies kann durch Verwenden der APP-Berechtigungsrichtlinie zum Ausblenden von Teams und Kanälen erreicht werden.
-
-Dieser Modus kann vor dem Starten einer verwalteten Bereitstellung von Teams verwendet werden, um zu verhindern, dass Benutzer Teams vor dem Aufbau der Bereitschaft verwenden, oder als Möglichkeit, die authentifizierte Teilnahme an Teams-Besprechungen für Skype for Business-Benutzer zu aktivieren, vorausgesetzt, die Benutzer sind für Teams lizenziert.
-
 ### <a name="teams-only"></a>Nur für Teams
-
-
-> [!IMPORTANT]
-> Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den Modus **nur für Teams** verschoben haben, müssen Sie möglicherweise Outlook und Teams neu starten, wenn die Anwesenheit nicht mehr funktioniert. 
-
 
 Ein **nur Teams** -Benutzer (auch als " *aktualisierter* Benutzer" bezeichnet) hat Zugriff auf alle Funktionen in Microsoft Teams. Sie können den Skype for Business-Client beibehalten, um an Besprechungen in Skype for Business teilzunehmen, die von nicht aktualisierten Benutzern oder externen Personen organisiert wurden. Ein aktualisierter Benutzer kann weiterhin mit anderen Benutzern in der Organisation kommunizieren, die weiterhin Skype for Business verwenden, indem die Interoperabilitätsfunktionen zwischen Teams und Skype for Business verwendet werden (sofern sich diese Skype for Business-Benutzer nicht im Modus " **Inseln** " befinden). Ein aktualisierter Benutzer kann jedoch keinen Skype for Business-Chat,-Anruf oder eine Besprechung initiieren.
 
@@ -88,6 +77,12 @@ Im Modus " **nur für Teams** " ist "Teams" die Standard-App für das SIP/Tel-Pr
 Weitere Überlegungen zum Wechseln in den Modus **nur für Teams** finden Sie unter [Überlegungen zum nur für Teams](teams-only-mode-considerations.md).
 
 ![Screenshot der Bestätigungsmeldung für Teams](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business-Client, der in einem speziellen Modus ausgeführt wird, nachdem der Benutzer als nur-Team-Benutzer aktualisiert wurde")
+
+### <a name="skype-for-business-only"></a>Nur Skype for Business
+
+In diesem Koexistenzmodus verbleiben die Benutzer in Skype for Business – nicht in Teams – für Chat-, Besprechungs-und Anruffunktionen, und Sie verwenden keine Teams für Teams und Kanäle. Dieser Modus steht heute zur Verfügung. in der aktuellen Implementierung werden jedoch Teams und Kanäle nicht automatisch für den Benutzer deaktiviert. Dies kann durch Verwenden der APP-Berechtigungsrichtlinie zum Ausblenden von Teams und Kanälen erreicht werden.
+
+Dieser Modus kann vor dem Starten einer verwalteten Bereitstellung von Teams verwendet werden, um zu verhindern, dass Benutzer Teams vor dem Aufbau der Bereitschaft verwenden, oder als Möglichkeit, die authentifizierte Teilnahme an Teams-Besprechungen für Skype for Business-Benutzer zu aktivieren, vorausgesetzt, die Benutzer sind für Teams lizenziert.
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Skype for Business mit Zusammenarbeit in Teams
 
@@ -102,9 +97,6 @@ Verwenden Sie diesen Koexistenzmodus, um die Verfügbarkeit von Teams-Besprechun
 Zusammen mit der Verwendung von Teams für Teams und auf Kanälen basierende Konversationen in diesem Modus verwenden die Benutzer Teams, um Ihre Besprechungen zu planen und durchzuführen. Privater Chat und Anrufe verbleiben in Skype for Business. Teams und Skype for Business profitieren von einer Reihe von "besser kombinierten" Funktionen wie Anwesenheits Abstimmung, automatisches halten/aufhalten und Unterstützung von HID-Geräten in beiden Anwendungen. Beachten Sie, dass es möglich ist, Teams und Kanäle bei Bedarf mithilfe der APP-Berechtigungsrichtlinie zu verbergen.
 
 Dieser Koexistenzmodus eignet sich besonders für Organisationen, die lokale Skype for Business-Bereitstellungen mit Enterprise-VoIP nutzen, die sich wahrscheinlich etwas Zeit für ein Upgrade auf Teams nehmen und so schnell wie möglich von den überlegenen Teams-Besprechungen profitieren möchten.
-
-> [!Note]
-> Wenn Sie in einem Koexistenzmodus mit Ausnahme von **Inseln**bereitgestellt werden, können Teams und Skype for Business zusammen [arbeiten](#interoperability-of-teams-and-skype-for-business), sodass die Benutzer mit anderen Personen chatten und sich gegenseitig anrufen können, und sicherstellen, dass die Kommunikation während der Upgrade-Reise zu Teams in ihrer gesamten Organisation flüssig bleibt. Koexistenzmodus steuert die Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob die Interoperabilität verfügbar ist. Wenn sich der Empfänger beispielsweise in einem Modus befindet, in dem Chat nur in einem Client verfügbar ist (sagen wir, Teams), ist Chat-Interoperabilität in der Regel verfügbar, falls der Initiator den anderen Client (in diesem Fall Skype for Business) verwendet, um den Chat zu starten. Wenn sich der Receiver hingegen in dem Modus befindet, in dem Chat in beiden Clients verfügbar ist (Inseln-Modus), steht die Interoperabilität für den Chat nicht zur Verfügung. Die Nachricht wird vom Empfänger in dem gleichen Client empfangen, in dem der Initiator den Chat gestartet hat. Daher erfordert die ordnungsgemäße Kommunikation im Modus " **Inseln** " eine Sättigung der Teams. Das bedeutet, dass alle Benutzer beide Clients aktiv verwenden und überwachen.
 
 > [!TIP]
 > Wenn Sie den empfohlenen Aktualisierungsmodus basierend auf den Funktionen ermitteln möchten, die Sie in Microsoft Teams aktivieren möchten, während Skype for Business noch verwendet wird, nutzen Sie den [Upgrade-Assistenten von Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
@@ -121,6 +113,12 @@ Weitere Informationen zu den Modi für Koexistenz, Voraussetzungen und Verwaltun
 Interoperabilität ist die Möglichkeit für Teams und Skype for Business-Benutzer in derselben Organisation, über Teams und Skype for Business hinweg zu kommunizieren.
 
 Die Interoperabilität unterliegt dem Koexistenzmodus (auch bekannt als Aktualisierungsmodus) des Empfängers. Es gibt keine Interoperabilität, wenn sich der Receiver im **Inseln** -Modus befindet.
+
+> [!Note]
+> Wenn Sie in einem Koexistenzmodus mit Ausnahme von **Inseln**bereitgestellt werden, können Teams und Skype for Business zusammen [arbeiten](#interoperability-of-teams-and-skype-for-business), sodass die Benutzer mit anderen Personen chatten und sich gegenseitig anrufen können, und sicherstellen, dass die Kommunikation während der Upgrade-Reise zu Teams in ihrer gesamten Organisation flüssig bleibt. Koexistenzmodus steuert die Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob die Interoperabilität verfügbar ist. Wenn sich der Empfänger beispielsweise in einem Modus befindet, in dem Chat nur in einem Client verfügbar ist (sagen wir, Teams), ist Chat-Interoperabilität in der Regel verfügbar, falls der Initiator den anderen Client (in diesem Fall Skype for Business) verwendet, um den Chat zu starten. Wenn sich der Receiver hingegen in dem Modus befindet, in dem Chat in beiden Clients verfügbar ist (Inseln-Modus), steht die Interoperabilität für den Chat nicht zur Verfügung. Die Nachricht wird vom Empfänger in dem gleichen Client empfangen, in dem der Initiator den Chat gestartet hat. Daher erfordert die ordnungsgemäße Kommunikation im Modus " **Inseln** " eine Sättigung der Teams. Das bedeutet, dass alle Benutzer beide Clients aktiv verwenden und überwachen.
+
+> [!Note]
+> **Damit die neueste Koexistenz-Funktionalität zur Verfügung steht, muss die Client Version der neueste verfügbare Client im Office-Bereitstellungs Kanal des Benutzers sein.**
 
 ### <a name="native-interop-and-interop-escalation"></a>Systemeigene Interop-und Interop-Eskalation
 

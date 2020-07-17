@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665417"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158603"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Teams aus.
 
@@ -56,6 +56,9 @@ In diesem Artikel werden die verschiedenen Modi erläutert, mit denen Sie verwal
 Wenn Sie Ihre Organisation formell für Ihre Reise in Teams vorbereiten möchten, müssen Sie mit der Planung für die Upgrade-Szenarien beginnen, die es Ihrem Unternehmen ermöglichen, Teams als ihre einzige Lösung für Kommunikation und Zusammenarbeit umfassend zu integrieren.
 
 Um ihre Entscheidungsfindung zu erleichtern, sollten Sie sich mit den verschiedenen Modi, Konzepten und Terminologie vertraut machen, die für das Upgrade von Skype for Business auf Teams relevant sind. Weitere Informationen finden Sie unter [Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](https://aka.ms/SkypeToTeams-Coexist).
+
+> [!NOTE]
+> Darüber hinaus müssen Sie die Szenarien für die Sprach Migration in Frage stellen. Telefon System ist die Microsoft-Technologie für die Aktivierung der Anrufsteuerung und der Funktionen für Private Branch Exchange (PBX) in der Microsoft 365-oder Office 365-Cloud. Wenn Sie das Telefon System mit dem öffentlichen Telefonnetz (PSTN) verbinden möchten, damit Benutzer überall in der Welt Telefonanrufe tätigen können, haben Sie Optionen, die auf Ihren geschäftlichen Anforderungen basieren. Weitere Informationen zu den Optionen für das Telefonsystem und die PSTN-Konnektivität finden Sie unter [VoIP-Telefonsystem und PSTN-Konnektivität](cloud-voice-landing-page.md).
 
 Ein Benutzer, der in Teams migriert wurde, verwendet keinen Skype for Business-Client mehr, es sei denn, Sie nehmen an einer in Skype for Business gehosteten Besprechung Teil. Alle eingehenden Chats und Anrufe landen im Team-Client des Benutzers, unabhängig davon, ob der Absender Teams oder Skype for Business verwendet. Alle neuen Besprechungen, die vom aktualisierten Benutzer organisiert werden, werden als Teams-Besprechungen geplant. Wenn der Benutzer versucht, den Skype for Business-Client zu verwenden, wird das Initiieren von Chats und anrufen blockiert<sup>1</sup>. Allerdings kann der Benutzer den Skype for Business-Client weiterhin verwenden, um an Besprechungen teilzunehmen, zu denen er eingeladen wurde.
 
