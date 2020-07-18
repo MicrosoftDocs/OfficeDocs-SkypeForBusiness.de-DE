@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666107"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166743"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -74,10 +74,11 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 
 ## <a name="certified-devices"></a>Zertifizierte Geräte
 
-*Tabelle aktualisiert May 2020*
+*Tabelle aktualisiert am 2020*
 
 | Hersteller        | Modell                                                     | Qualifizierten      | Certified-Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Bose                 |NC 700-Headset                                             |6/8/2020        |Certified für Microsoft Teams|
 |Jabra              | Speak 750 Freisprecheinrichtung mit Jabra Link 370 USB-Dongle       | 5/21/2020 | Certified für Microsoft Teams|
 | Epos                | Sennheiser ADAPT 660-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
 | Epos                | Sennheiser ADAPT 560-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
@@ -134,5 +135,5 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 | Polycom             | Elara                                                     | 11/06/2019     | Certified für Microsoft Teams                          |
 | Polycom             | Studio-Soundleiste                                           | 10/18/2019     | Certified für Microsoft Teams                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Certified für Microsoft Teams                          |
-| Jabra               | PanaCast                                                  | 08/14/2019     | Certified für Microsoft                                |
+| Jabra               | PanaCast                                                  | 08/14/2019     | Certified für Microsoft Teams                          |
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Informieren Sie sich, welche Schreibtisch-und Konferenztelefone für Microsoft Teams zertifiziert sind, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021733"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166753"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -53,8 +53,8 @@ Die folgenden Telefone sind für Microsoft Teams zertifiziert:
 | Lenovo ThinkSmart-Ansicht                 | CD-18781Y. 200410.067                                                                                                                                                                                                                       | April 2020                   |
 | Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
 | Poly-CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | Januar 2020                 |
-| Poly-CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | Januar 2020                 |
-| Poly-CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | Dezember 2019                |
+| Poly-CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | Januar 2020                 |
+| Poly-CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Dezember 2019                |
 | Poly Trio 8500/8800 (nur Shared-Modus) | 5.9.0.10869                                                                                                                                                                                                                                | Juni 2019                    |
 | Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | März 2020                   |
 | Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | Juni 2019                    |
@@ -91,6 +91,7 @@ Wenn Sie eine neue Firmware-Version auf Ihrem Gerät installieren, können Sie d
 
 | Gerätemodell        | Firmware-Version     | Enthaltene Produktversion |
 |:--------------------|:---------------------|:-------------------------|
+| AudioCodes C448HD   | C450HD_TEAMS_1.4.208 | Aktualisieren #4                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Aktualisieren #4                |
 | Poly-CCX400         | 1.0.1.0054           | Aktualisieren #3                |
 | Poly CCX500/CCX600  | 5.9.13.0306          | Aktualisieren #3                |
