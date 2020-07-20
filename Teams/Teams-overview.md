@@ -32,7 +32,7 @@ ms.locfileid: "44773310"
 
 <span data-ttu-id="939eb-108">Verpassen Sie nicht unser Video „Willkommen bei Teams für Teams-Admins“ (etwas länger als 3 Minuten):</span><span class="sxs-lookup"><span data-stu-id="939eb-108">Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkIO]
 
 <span data-ttu-id="939eb-109">Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken Seite der App auf **Hilfe** oder wechseln Sie zum [Microsoft Teams-Hilfecenter](https://support.office.com/teams).</span><span class="sxs-lookup"><span data-stu-id="939eb-109">If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).</span></span> <span data-ttu-id="939eb-110">Schulungen finden Sie unter [Microsoft Teams-Schulung](training-microsoft-teams-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="939eb-110">For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).</span></span> 
 
