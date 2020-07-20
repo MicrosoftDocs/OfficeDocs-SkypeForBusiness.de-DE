@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a864e810df8cdd69a9c8a2e9bb29524147a3b865
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45137905"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146071"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -125,6 +125,9 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Regulär mit Endzeitpunkt     |Endzeitpunkt + 60 Tage         |60 Tage         |
 |Wiederkehrend ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         |60 Tage         |
 |Wiederkehrend mit Endzeitpunkt     |Endzeitpunkt des letzten Vorkommens + 60 Tage         |60 Tage         |
+
+> [!NOTE]
+> Microsoft Teams-Besprechungen haben ein Zeitlimit von 24 Stunden. 
 
 ## <a name="teams-live-events"></a>Teams-Liveereignisse
 
