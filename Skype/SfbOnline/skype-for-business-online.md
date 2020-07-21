@@ -15,14 +15,16 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 758b371594f6bf42c8600028f7801627ca7d0999
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: db4b7e5469608724bb9d147d212a08e6b31957a0
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943938"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185790"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online-Administrator
+
+Skype for Business Online wird am 31. Juli 2021, in dem der Zugriff auf den Dienst beendet wird. Wir ermutigen Kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Hub für Teamarbeit in Microsoft 365. <a href=https://aka.ms/sfboannounce>Weitere Informationen</a>. 
 
 Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisation.
 
