@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff2652a326e537f200c47495496dd81ea9fd4b
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 01a4b593366018fa1eb153d96e1b42508d541f60
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854097"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185820"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
@@ -43,7 +43,7 @@ Während Tausende von Kunden erfolgreich auf Microsoft Teams aktualisiert haben,
 **Überlegungen zur Koexistenz**: Organisationen, die bereits Skype for Business Online und/oder Skype for Business Server verwenden, können Teams in Ihrer Umgebung mit einer Geschwindigkeit einführen, die Ihren Anforderungen entspricht. Organisationen können die Teams nach Bedarf inkrementell auf eine gewünschte Gruppe von Benutzern ausrollen, und Benutzer, die Teams verwenden, können mit Benutzern kommunizieren, die Skype for Business verwenden, und umgekehrt. Um diese Erfahrung zu verwalten, verwenden Administratoren Koexistenzmodus, die die Benutzeroberfläche des Endbenutzers, das Routingverhalten von eingehenden Chats und anrufen definieren, sowie ob neue Besprechungen in Teams oder Skype for Business geplant sind. Benutzer können mit Benutzern in anderen Organisationen eine Föderation durchführen, wenn der Benutzer **nur auf Teams**aktualisiert wird. die beste Vorgehensweise wird jedoch bereitgestellt, wenn beide Benutzer Teams verwenden. Benutzer, die nur auf Teams aktualisiert werden, können weiterhin an Skype for Business-Besprechungen teilnehmen. 
 
 > [!IMPORTANT]
-> Ausführlichere Informationen zur Koexistenz finden Sie Untergrund [Legendes zu Microsoft Teams und zur Koexistenz und Interoperabilität von Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
+> Ausführlichere Informationen zur Koexistenz finden Sie Untergrund [Legendes zu Microsoft Teams und zur Koexistenz und Interoperabilität von Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). Weitere Informationen zu Teams und Skype (Consumer) finden Sie unter [Teams und Skype-Interoperabilität](teams-skype-interop.md).
 
 **Mandantenweite Überlegungen**: Wir arbeiten daran, Teams in den folgenden Umgebungen zu aktivieren: im Moment sollten Administratoren jedoch keine Benutzer in Ihrer Organisation aktualisieren, wenn Ihr Skype for Business-Mandant in einer der folgenden Umgebungen gehostet wird:
 
