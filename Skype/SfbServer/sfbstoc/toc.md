@@ -1,7 +1,7 @@
 
   
 
-# [Skype for Business Server 2015](../skype-for-business-server-2015.md)
+# [Skype for Business Server 2015](../skype-for-business-server-2015.yml)
 ## [Technische Diagramme](../technical-diagrams.md)
 ## [Neuigkeiten in Skype for Business Server](../what-s-new-in-skype-for-business-server.md)
 
