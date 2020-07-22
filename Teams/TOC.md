@@ -41,6 +41,7 @@
 ## [Vertraulichkeitsbezeichnungen für Teams](sensitivity-labels.md)
 ## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
 ## [Einrichten von Kanalmoderation in Teams](manage-channel-moderation-in-teams.md)
+## [Freigeben von Dateien in Teams](sharing-files-in-teams.md)
 ## [Teams und Outlook-E-Mail-Integration](teams-outlook-email-integration.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Anwesenheit in Microsoft Teams](presence-admins.md)
@@ -65,6 +66,7 @@
 ### [Verwalten Ihrer benutzerdefinierten Apps](manage-your-custom-apps.md)
 ### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Verwalten der Listen-App für Ihre Organisation in Teams](manage-lists-app.md)
 ### [Verwalten der Aufgaben-App für Ihre Organisation](manage-tasks-app.md)
 ### [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -217,7 +219,6 @@
 ## Liveereignisse
 ### [Was sind Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md)
 ### [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md)
-### [Funktionen für Referenten, Produzenten und Teilnehmer in einem Liveereignis](roles-in-live-events.md)
 ### [Einrichten von Teams-Liveereignissen](teams-live-events/set-up-for-teams-live-events.md)
 ### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Konfigurieren der Teams-Einstellungen für Liveereignisse](teams-live-events/configure-teams-live-events.md)
@@ -225,7 +226,7 @@
 <!-- ============================================================ -->
 
 
-# Cloud Voice 
+# VoIP – Telefonsystem und PSTN-Konnektivität 
 
 ## [Planen der Bereitstellung](cloud-voice-landing-page.md)
 
@@ -515,6 +516,7 @@
 #### [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 #### [Definieren des Projektumfangs](upgrade-define-project-scope.md)
 #### [Grundlegendes zu Koexistenz und Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Grundlegendes zu Optionen für Telefomsystem und PSTN-Konnektivität](cloud-voice-landing-page.md)
 #### [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Planen eines Benutzerpilotprojekts](pilot-essentials.md)
 
@@ -535,11 +537,7 @@
 ### [Upgrade von Skype for Business Online auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade von Skype for Business (lokal) auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## Bedienen, Einführen und Optimieren
-### [Übersicht über den Aufgabenplan](continue-journey.md)
-### [Betreiben des Diensts](upgrade-operate-my-service.md)
-### [Überwachen der Qualität](upgrade-monitor-quality.md)
-### [Verbessern Ihres Diensts](upgrade-enhance-my-service.md)
+## [Bedienen, Einführen und Optimieren](continue-journey.md)
 
 ## [Einstellung von Skype for Business Online](skype-for-business-online-retirement.md)
 ## [Häufig gestellte Fragen](FAQ-journey.md)
@@ -643,6 +641,7 @@
 ### [Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen](policy-packages-edu.md)
 ### [Zuweisen von Richtlinien zu großen Benutzergruppen](batch-policy-assignment-edu.md)
 ### [Anleitungen zu geringer Bandbreite für Administratoren in Bildungseinrichtungen](edu-remote-low-bandwidth.md)
+### [Class Insights](class-insights.md)
 ### [Aufgaben in Teams für Bildungseinrichtungen](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
 ### [Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren](plan-teams-governance-edu.md)
@@ -697,6 +696,8 @@
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
+## [Betreiben des Diensts](upgrade-operate-my-service.md)
+## [Verbessern Ihres Diensts](upgrade-enhance-my-service.md)
 ## Überwachen und Verwalten der Anrufqualität
 ### [Überwachen und Verbessern der Anrufqualität](monitor-call-quality-qos.md)
 ### Anrufqualitäts-Dashboard (CQD)
@@ -720,6 +721,9 @@
 ### Dienstqualität (QoS)
 #### [Einrichten von QoS in Teams](QoS-in-Teams.md)
 #### [Festlegen von QoS auf Windows-Clients](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Problembehandlung bei Problemen mit Installation und Update](troubleshoot-installation.md)
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
@@ -931,5 +935,7 @@
 ### [Anrufpläne in Microsoft 365 – Verhaltenskodex für das Vereinigte Königreich](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Anrufpläne in Microsoft 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+
+## [Fragebogen für die Upgradeermittlung](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Versionshinweise für Teams-Administratorfunktionen](release-notes/release-notes.md)
