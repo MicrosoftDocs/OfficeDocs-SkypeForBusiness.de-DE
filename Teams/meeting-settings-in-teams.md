@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 1d7aed894724a09f1b3cc352ef3e280cf3ead310
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 6a30843070adc8da14343ad2dc94730a750e1f31
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086161"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201219"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -97,7 +97,7 @@ Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwend
 
     - Um die Verwendung von DSCP-Markierungen für QoS zu ermöglichen, aktivieren Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen**. Sie haben nur die Möglichkeit, Markierungen zu verwenden oder nicht; Sie können nicht für jeden Datenverkehrstyp eigene Markierungen festlegen. Weitere Informationen zu DSCP-Markierungen finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method).
         > [!NOTE]
-        > Indem Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen** aktivieren, wird auch die Kommunikation mit dem Transportrelay mit den UDP-Ports 3479 (Audio), 3480 (Video) und 3481 (Freigabe) ermöglicht.
+        > DSCP-Tagging erfolgt in der Regel über Quell-Ports, und UDP-Datenverkehr wird standardmäßig an das Transfport-Relay mit dem Ziel-Port von 3478 weitergeleitet.  Wenn Ihr Unternehmen Tagging für Zielports benötigt, wenden Sie sich bitte an den Support, um die Kommunikation mit dem Transport-Relay mit UDP-Ports 3479 (Audio), 3480 (Video) und 3481 (Freigabe) zu ermöglichen.
     - Um Portbereiche festzulegen, wählen Sie neben **Portbereich für jeden Typ von Mediendatenverkehr in Echtzeit auswählen** die Option **Portbereiche festlegen** aus, und geben Sie dann die Start- und Endports für Audio, Video und Bildschirmfreigabe ein. Die Auswahl dieser Option ist erforderlich, um QoS zu implementieren.
         > [!IMPORTANT]
         > Wenn Sie **Automatisch beliebige verfügbare Ports verwenden** auswählen, werden verfügbare Ports zwischen 1024 und 65535 verwendet. Verwenden Sie diese Option nur, wenn Sie QoS nicht implementieren.

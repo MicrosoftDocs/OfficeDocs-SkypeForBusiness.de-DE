@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Erfahren Sie mehr über die Lebenszyklus Unterstützung für Microsoft Teams-Räume, einschließlich der dynamischen Supportstruktur und ihrer Phasen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691191"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201189"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams rooms-App-Versionsunterstützung
  
@@ -54,8 +54,8 @@ In der folgenden Tabelle sind die empfohlenen und unterstützten Versionen von W
 |Version  |Verfügbarkeitsdatum   |Support Status für Microsoft Teams rooms   |Microsoft Teams-Chatrooms, minimale Anwendungsversion | Empfohlener Betriebssystem-Build  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 2004 |2020-05-27 |Unter Überprüfung <br/>Nicht empfohlen|&#x2014; |19041,264 |
-| 1909 |2019-11-12 |Validierung abgeschlossen, <br/>Keine bekannten Probleme.|In Kürze verfügbar |18363,418  |
-| 1903 |2019-05-21 |Stützt <br/>Empfohlen  |4.2.4.0 |18362,356 |
+| 1909 |2019-11-12 |Stützt <br/>Empfohlen |4.5.33.0 |18363,418  |
+| 1903 |2019-05-21 |Unterstützt  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Übersprungen <br/>Nicht empfehlenswert &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Unterstützt                             |4.1.22.0 |17134,191|
 | 1709 |2018-01-18 |Nicht unterstützt                         |&#x2014; |&#x2014; |

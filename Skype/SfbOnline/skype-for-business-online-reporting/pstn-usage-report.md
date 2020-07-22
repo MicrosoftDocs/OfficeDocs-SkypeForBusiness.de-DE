@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 09d372f6526d14a65e878271a1b277fc19d7d3e4
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918513"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201169"
 ---
 # <a name="pstn-usage-report"></a>Bericht "PSTN-Verbrauch"
 
@@ -41,7 +41,7 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-- Wechseln Sie zum Admin Center > **Admin** > Centers im**Skype for Business Admin Center** > werden die**PSTN-Nutzungsdetails****gemeldet** > .
+- Wechseln Sie zum Admin Center > **Admin**Centers im  >  **Skype for Business Admin Center**werden die  >  **Reports**  >  **PSTN-Nutzungsdetails**gemeldet.
     
     > [!NOTE]
     > Je nach dem von Ihnen verwendeten Microsoft 365-oder Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die hier angezeigt werden.
@@ -52,7 +52,7 @@ Sie können die Skype for Business PSTN-Verwendung des Benutzers anzeigen, indem
   
 Der Bericht sieht wie folgt aus:
   
-![Bericht zum PSTN-Verbrauch in Skype for Business](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
+[![Skype for Business-PSTN-Nutzungsbericht ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt die gesamte PSTN-Verwendung pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie ihre PSTN-Verwendung. Sie können Spalten zur Tabelle hinzufügen bzw. daraus entfernen.
@@ -103,7 +103,7 @@ Der Bericht sieht wie folgt aus:
 > Möglicherweise werden in einigen Feldern auch "keine Daten" angezeigt. "Keine Daten" bedeutet, dass das Feld nicht auf die Art oder Funktion des Anrufs anwendbar ist. 
 
 > [!NOTE]
-> Wenn Sie über einen Telstra-Anrufplan verfügen, werden in dem Bericht zur PSTN-Nutzung keine Anruf Detaildatensätze angezeigt. Bitte wenden Sie sich an Telstra für Ihre Berichterstattung. 
+> Wenn Sie über einen Telstra-oder Softbank-Anrufplan verfügen, werden im Bericht über die PSTN-Nutzung keine Anruf Detaildatensätze angezeigt. Bitte wenden Sie sich für Ihre Berichterstattung an Telstra oder Softbank. 
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie hier, um eine Spalte zu ziehen, um nach **einer bestimmten Spalte zu gruppieren, ziehen Sie die Spaltenüberschrift, und legen** Sie Sie hier ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten gruppiert werden.
  ***
@@ -114,9 +114,9 @@ Durch Klicken oder tippen auf die Schaltfläche " **in Excel exportieren** " kö
 
 Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen.
 
-Der Export Vorgang kann abhängig von der Datenmenge zwischen wenigen Sekunden und einigen Minuten dauern. Wenn der Server den Export abgeschlossen hat, erhalten Sie eine ZIP-Datei mit dem Namen "**Calls. Export. [ ] `identifier`. zip**", wobei der Bezeichner eine eindeutige ID für den Export ist, die für die Problembehandlung verwendet werden kann.
+Der Export Vorgang kann abhängig von der Datenmenge zwischen wenigen Sekunden und einigen Minuten dauern. Wenn der Server den Export abgeschlossen hat, wird eine ZIP-Datei mit dem Namen "**Calls. Export. [ `identifier` ] angezeigt. ZIP**", wobei der Bezeichner eine eindeutige ID für den Export ist, die für die Problembehandlung verwendet werden kann.
 
-Wenn Sie sowohl über Anrufpläne als auch über direktes Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PSTN-Nutzungsberichts Datei hat den Dateinamen "**PSTN. Calls. [ ] `UTC date`. CSV**". Neben PSTN-und Direct-Routing Dateien enthält das Archiv die Datei "**Parameters. JSON**" mit dem ausgewählten Export Zeitbereich und den ausgewählten Funktionen (sofern vorhanden).
+Wenn Sie sowohl über Anrufpläne als auch über direktes Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PSTN-Nutzungsberichts Datei hat den Dateinamen "**PSTN. Calls. [ `UTC date` ]. CSV**". Neben PSTN-und Direct-Routing Dateien enthält das Archiv die Datei "**parameters.jsein**" mit dem ausgewählten Export Zeitraum und den ausgewählten Funktionen (sofern vorhanden).
 
 Die exportierte Datei ist eine CSV-Datei (Comma Separated Values), die mit [RFC 4180](https://tools.ietf.org/html/rfc4180) Standard kompatibel ist. Die Datei kann in Excel oder einem anderen standardkompatiblen Editor geöffnet werden, ohne dass Transformationen erforderlich sind.
 

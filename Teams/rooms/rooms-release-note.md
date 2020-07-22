@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021873"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201179"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -29,6 +29,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.5.33.0 |07/20/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -64,6 +65,17 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
+
+### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+In diesem Update eingeführt:
+- Teilnahme an Cisco WebEx-Besprechungen aus Teams-Räumen mit direkter Gast Teilnahme
+- Team-Admin Center-Aktivierung und automatische Registrierung
+- Windows 10 1909-Release-Unterstützung
+- Wechseln zum Layout des Video Katalogs, auch wenn Inhalte vorhanden sind
+- Virtual Raise Hands-Unterstützung für Teilnehmer und Steuerelemente für Referenten
+- Einstellbare Standard-Lautstärkeeinstellung für Konferenzen und Standardlautsprecher
+- Suchen und Anrufen von Federated-Benutzern (Mandanten) aus dem TeamRoom
+    
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 

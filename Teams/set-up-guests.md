@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 297a101389de2e1609697ffa2c30a2a8b7a84080
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 8124a2acddc9488d22c4579412f665d8cc090553
+ms.sourcegitcommit: 712c1ac5dd8c4b2faacad80aca9cbb1e4ccfb985
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042777"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204350"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 ===================================================
@@ -70,15 +70,7 @@ Nachdem Sie den Gastzugriff aktiviert haben, kann es einige Stunden dauern, bis 
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Verwenden Sie PowerShell zum Aktivieren oder Deaktivieren von Gastzugriff.
 
-Lesen [Verwenden von PowerShell zum Aktivieren oder Deaktivieren des Gastzugriffs](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
-
-
-## <a name="video-adding-guests-in-teams"></a>Video: Hinzufügen von Gästen in Teams
-
-|  |  |
-|---------|---------|
-| Hinzufügen von Gästen in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
-
+Lesen [verwenden Sie PowerShell, um den Gastzugriff zu aktivieren oder zu deaktivieren](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off).
 
 ## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Partnerverbund) und Gastzugriff im Vergleich
 

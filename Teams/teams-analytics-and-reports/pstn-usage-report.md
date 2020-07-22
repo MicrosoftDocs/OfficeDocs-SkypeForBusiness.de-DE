@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie den Bericht "PSTN-Nutzung von Teams" im 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918573"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201199"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -30,16 +30,19 @@ Der Bericht über die PSTN-Nutzung von Teams im Microsoft Teams Admin Center bie
 
 Auf der Registerkarte " **Anrufpläne** " werden Informationen einschließlich der Anzahl der Minuten angezeigt, die die Benutzer für ein-und ausgehende PSTN-Anrufe und die Kosten für diese Anrufe verwendet haben. Auf der Registerkarte **Direktes Routing** werden Informationen einschließlich der SIP-Adresse und der Anfangs-und Endzeiten des Anrufs angezeigt. Verwenden Sie die Informationen in diesem Bericht, um Einblicke in die PSTN-Nutzung in Ihrer Organisation zu gewinnen und Ihnen zu helfen, Entscheidungen zu untersuchen, zu planen und zu treffen.
 
+> [!NOTE]
+> Wenn Sie über einen Telstra-oder Softbank-Anrufplan verfügen, werden im Bericht über die PSTN-Nutzung keine Anruf Detaildatensätze angezeigt. Bitte wenden Sie sich für Ihre Berichterstattung an Telstra oder Softbank. 
+
 ## <a name="view-the-pstn-usage-report"></a>Anzeigen des Berichts zur PSTN-Nutzung
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**den Eintrag **PSTN-Verwendungsbericht**aus.
+1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte**  >  **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**den Eintrag **PSTN-Verwendungsbericht**aus.
 2. Wählen Sie unter **Datumsbereich**einen vordefinierten Bereich von 7 oder 28 Tage aus, oder legen Sie einen benutzerdefinierten Bereich fest, und wählen Sie dann **Bericht ausführen**aus.
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
 ### <a name="calling-plans"></a>Anrufpläne
 
-![Screenshot des Berichts "Anrufpläne PSTN-Nutzungsbericht" im Admin Center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot des Berichts zur PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
+[![Screenshot des Berichts "Anrufpläne PSTN-Nutzungsbericht" im Admin Center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot des Berichts zur PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Beschriftung |Beschreibung  |
 |--------|-------------|
@@ -54,7 +57,7 @@ Auf der Registerkarte " **Anrufpläne** " werden Informationen einschließlich d
 
 ### <a name="direct-routing"></a>Direktes Routing
 
-![Screenshot des Berichts zur direkten Weiterleitung des PSTN-Nutzungsberichts im Admin Center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot des Berichts zur direkten Weiterleitung der PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
+[![Screenshot des Berichts zur direkten Weiterleitung des PSTN-Nutzungsberichts im Admin Center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot des Berichts zur direkten Weiterleitung der PSTN-Nutzung im Microsoft Teams Admin Center mit nummerierten Beschriftungen")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Beschriftung |Beschreibung  |
 |--------|-------------|
@@ -90,11 +93,11 @@ Klicken Sie auf **nach Excel exportieren**, und klicken Sie dann auf der Registe
 
 Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Exportierte Dateien enthalten zusätzliche Felder, die im Online Bericht nicht zur Verfügung stehen. Diese können für die Problembehandlung und automatisierte Workflows verwendet werden.
 
- Sie erhalten dann eine ZIP-Datei mit dem Namen "**Calls. Export`[identifier]`.. ZIP**", wobei der Bezeichner eine eindeutige ID für den Export darstellt, die für die Problembehandlung verwendet werden kann.
+ Sie erhalten dann eine ZIP-Datei mit dem Namen "**Calls. Export. `[identifier]` . ZIP**", wobei der Bezeichner eine eindeutige ID für den Export darstellt, die für die Problembehandlung verwendet werden kann.
 
-Wenn Sie sowohl über Anrufpläne als auch über direktes Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PSTN-Nutzungsberichts Datei hat den Dateinamen "**PSTN`[UTC date]`. Calls.. CSV**"und direktes Routing"**DirectRouting. Calls.`[UTC date]`. CSV**".
+Wenn Sie sowohl über Anrufpläne als auch über direktes Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PSTN-Nutzungsberichts Datei hat den Dateinamen "**PSTN. Calls. `[UTC date]` . CSV**"und direktes Routing"**DirectRouting. Calls. `[UTC date]` . CSV**".
 
- Neben PSTN-und Direct-Routing Dateien enthält das Archiv die Datei "**Parameters. JSON**" mit dem ausgewählten Export Zeitbereich und den ausgewählten Funktionen.
+ Zusätzlich zu den PSTN-und Direct-Routing Dateien enthält das Archiv die Datei "**parameters.jsein**" mit dem ausgewählten Export Zeitbereich und den ausgewählten Funktionen.
 
 Exportierte Dateien sind im CSV-Format (Comma Separated Values), das mit [RFC 4180](https://tools.ietf.org/html/rfc4180) Standard kompatibel ist. Die Dateien können in Excel oder einem anderen standardkompatiblen Editor geöffnet werden, ohne dass Transformationen erforderlich sind.
 

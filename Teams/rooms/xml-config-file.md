@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Remote Verwaltung der Standardeinstellungen, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich Anwenden eines benutzerdefinierten Designs und Erstellen einer Master Einstellungsdatei
-ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842016"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201249"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -49,6 +49,10 @@ Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu
     <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+    <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
+    <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -94,6 +98,10 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 | \<ConfigureDomain\>  |Zeichenfolge &#x2778;  ||Sie können mehrere durch Kommata getrennte Domänen auflisten. |
 |\<TeamsMeetingsEnabled\> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet \<SkypeMeetingsEnabled\> , wenn beide \<TeamsMeetingsEnabled\> deaktiviert sind, aber es ist akzeptabel, dass beide Einstellungen gleichzeitig aktiviert sind. |
 |\<IsTeamsDefaultClient> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. |
+|\<WebExMeetingsEnabled\> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Ist "true", ermöglicht die direkte Gast Teilnahme bei Cisco WebEx-Besprechungen.|
+|\<UseCustomInfoForThirdPartyMeetings\> |Boolescher &#x2777;  |Erste &#x2776;  |Standardmäßig deaktiviert und verwendet Konferenzraum-Kontoinformationen, um an Besprechungen von Drittanbietern teilzunehmen. <br/> <br/> Wenn dieser Wert auf "true" festgelegt ist, müssen Sie beide angeben \<CustomDisplayNameForThirdPartyMeetings\> \<CustomDisplayEmailForThirdPartyMeetings\> .|
+|\<CustomDisplayNameForThirdPartyMeetings\> |Zeichenfolge &#x2778;  |Erste &#x2776;  |Geben Sie den Namen der Person an, die für die Teilnahme an Besprechungen verwendet wird. Der Dienst von Drittanbietern zeigt diese Daten in ihrer Erfahrung an und kann in Ihrem Dienst gespeichert werden.|
+|\<CustomDisplayEmailForThirdPartyMeetings\> |Zeichenfolge &#x2778;  |Erste &#x2776;  |Angeben von Gast-e-Mails, die für die Teilnahme an Besprechungen verwendet werden Der Dienst von Drittanbietern zeigt diese Daten in ihrer Erfahrung an und kann in Ihrem Dienst gespeichert werden.|
 |\<BluetoothAdvertisementEnabled> |Boolescher &#x2777;  |Erste &#x2776;  |Diese Option ist standardmäßig aktiviert. |
 |\<AutoAcceptProximateMeetingInvitations> |Boolescher &#x2777;  |Erste &#x2776;  |Wenn wahr, werden Näherungs basierte Besprechungen automatisch akzeptiert. Diese ist standardmäßig deaktiviert. |
 |\<DualScreenMode\>  |Boolescher &#x2777;  |Erste &#x2776;  |Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Single-Screen-Modus. |
