@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie mithilfe des Integritäts Dashboards die Verbindung zwischen dem Sitzungs Grenz Controller und dem direkten Routing überwachen.
-ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: a75510340815489921a5dd67a204b6914a9539d4
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940742"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229111"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Status-Dashboard für direktes Routing
 
-Mit dem Integritäts-Dashboard für das direkte Routing können Sie die Verbindung zwischen dem SBC (Session Border Controller) und der direkten Routingschnittstelle überwachen.  Mit dem Status-Dashboard können Sie Informationen zu Ihrem SBC, dem Telefoniedienst und den Netzwerkparametern zwischen Ihrem SBC und der direkten Routing Schnittstelle überwachen. Diese Informationen können Ihnen helfen, Probleme zu erkennen, einschließlich des Grunds für gelöschte Anrufe. Beispielsweise kann der SBC das Senden von Anrufen beenden, wenn ein Zertifikat auf dem SBC abgelaufen ist oder wenn es Netzwerkprobleme gibt.  
+Mit dem Integritäts-Dashboard für das direkte Routing können Sie die Verbindung zwischen dem SBC (Session Border Controller) und der direkten Routingschnittstelle überwachen.  Mit dem Status-Dashboard können Sie Informationen zu Ihrem SBC, dem Telefoniedienst und den Netzwerkparametern zwischen Ihrem SBC und der direkten Routing Schnittstelle überwachen. Diese Informationen können Ihnen helfen, Probleme zu erkennen, einschließlich des Grunds für gelöschte Anrufe. Beispielsweise kann der SBC das Senden von Anrufen beenden, wenn ein Zertifikat auf dem SBC abgelaufen ist oder wenn es Netzwerkprobleme gibt. Sehen Sie sich die [Administratorrollen](using-admin-roles.md) an, um zu erfahren, wer auf das Integritäts Dashboard zugreifen kann.
 
 Das Status-Dashboard überwacht zwei Informationsebenen:
 
@@ -33,7 +33,6 @@ Das Status-Dashboard überwacht zwei Informationsebenen:
 - Detaillierte Informationen zu den verbundenen SBCS
 
 Sie können das Status-Dashboard in Microsoft Teams und Skype for Business Admin Center anzeigen.
-
 
 ## <a name="overall-health"></a>Allgemeiner Status
 
@@ -47,18 +46,17 @@ Das Integritäts Dashboard bietet die folgenden Informationen im Zusammenhang mi
 
 - **Netzwerk-Effektivitäts-Verhältnis (ner)** – das ner misst die Fähigkeit eines Netzwerks, Anrufe zu übermitteln, indem es die Anzahl der Anrufe im Vergleich zur Anzahl der an einen Empfänger zugestellten Anrufe misst.  
 
-   Das ner misst die Möglichkeit von Netzwerken, Anrufe an das Ferne Endgerät zu übertragen – ausgenommen Benutzeraktionen, die zu Anruf Ablehnungen führen.  Wenn der Empfänger einen Anruf abgelehnt oder den Anruf an die Voicemail gesendet hat, wird der Anruf als erfolgreiche Zustellung gezählt. Das bedeutet, dass eine Antwortnachricht, ein Besetztzeichen oder ein Ring ohne Antwort alle als erfolgreiche Anrufe angesehen werden. 
+   Das ner misst die Möglichkeit von Netzwerken, Anrufe an das Ferne Endgerät zu übertragen – ausgenommen Benutzeraktionen, die zu Anruf Ablehnungen führen.  Wenn der Empfänger einen Anruf abgelehnt oder den Anruf an die Voicemail gesendet hat, wird der Anruf als erfolgreiche Zustellung gezählt. Das bedeutet, dass eine Antwortnachricht, ein Besetztzeichen oder ein Ring ohne Antwort alle als erfolgreiche Anrufe angesehen werden.
   
-   Angenommen, das direkte Routing hat einen Anruf an den SBC gesendet, und der SBC gibt den SIP-Code "504-Servertimeout zurück – der Server hat versucht, auf einen anderen Server zuzugreifen, um die Anforderung zu verarbeiten, und hat keine Antwort auf eine Aufforderung erhalten". Diese Antwort zeigt an, dass ein Problem auf der SBC-Seite vorliegt, und dadurch wird die ner auf dem Integritäts Dashboard für diesen SBC verringert. 
+   Angenommen, das direkte Routing hat einen Anruf an den SBC gesendet, und der SBC gibt den SIP-Code "504-Servertimeout zurück – der Server hat versucht, auf einen anderen Server zuzugreifen, um die Anforderung zu verarbeiten, und hat keine Antwort auf eine Aufforderung erhalten". Diese Antwort zeigt an, dass ein Problem auf der SBC-Seite vorliegt, und dadurch wird die ner auf dem Integritäts Dashboard für diesen SBC verringert.
   
-   Da die von Ihnen getroffene Aktion möglicherweise von der Anzahl der betroffenen Anrufe abhängt, zeigt Health Dashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen. Wenn die Anzahl der Anrufe kleiner als 100 ist, ist die ner möglicherweise relativ gering, aber dennoch normal. 
+   Da die von Ihnen getroffene Aktion möglicherweise von der Anzahl der betroffenen Anrufe abhängt, zeigt Health Dashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen. Wenn die Anzahl der Anrufe kleiner als 100 ist, ist die ner möglicherweise relativ gering, aber dennoch normal.
 
    Die Formel zur Berechnung von ner ist:
 
    NER = 100 x (beantwortete Anrufe + Benutzer beschäftigt + Ring keine Antwort + Terminal Reject Anfälle)/Gesamtkapital-Anrufe
 
- 
-- **Durchschnittliche Anrufdauer** – Informationen zur durchschnittlichen Anrufdauer können Ihnen dabei helfen, die Qualität von Anrufen zu überwachen. Die durchschnittliche Dauer eines 1:1-PSTN-Anrufs beträgt vier bis fünf Minuten.  Für jedes Unternehmen kann dieser Mittelwert jedoch unterschiedlich sein.  Microsoft empfiehlt die Einrichtung eines Basisplans für die durchschnittliche Anrufdauer für Ihr Unternehmen. Wenn dieser Parameter deutlich unter dem Basisplan liegt, kann dies darauf hindeuten, dass Ihre Benutzer Probleme mit der Anrufqualität oder Zuverlässigkeit haben und früher als üblich auflegen. Wenn Sie eine extrem niedrige Durchschnittliche Anrufdauer sehen, beispielsweise 15 Sekunden, hängen Anrufer möglicherweise auf, weil Ihr Dienst nicht zuverlässig abläuft. 
+- **Durchschnittliche Anrufdauer** – Informationen zur durchschnittlichen Anrufdauer können Ihnen dabei helfen, die Qualität von Anrufen zu überwachen. Die durchschnittliche Dauer eines 1:1-PSTN-Anrufs beträgt vier bis fünf Minuten.  Für jedes Unternehmen kann dieser Mittelwert jedoch unterschiedlich sein.  Microsoft empfiehlt die Einrichtung eines Basisplans für die durchschnittliche Anrufdauer für Ihr Unternehmen. Wenn dieser Parameter deutlich unter dem Basisplan liegt, kann dies darauf hindeuten, dass Ihre Benutzer Probleme mit der Anrufqualität oder Zuverlässigkeit haben und früher als üblich auflegen. Wenn Sie eine extrem niedrige Durchschnittliche Anrufdauer sehen, beispielsweise 15 Sekunden, hängen Anrufer möglicherweise auf, weil Ihr Dienst nicht zuverlässig abläuft.
 
    Da die von Ihnen getroffene Aktion möglicherweise von der Anzahl der betroffenen Anrufe abhängt, zeigt Health Dashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen.
 
@@ -76,17 +74,15 @@ Das Integritäts Dashboard bietet die folgenden Informationen im Zusammenhang mi
 
     - Warnung, keine SIP-Optionen – der Session Border Controller ist in der Datenbank vorhanden (Ihr Administrator hat ihn mit dem Befehl New-CsOnlinePSTNGateway erstellt). Sie ist so konfiguriert, dass SIP-Optionen gesendet werden, aber der Direct Routing-Dienst hat nie die SIP-Optionen gesehen, die von diesem SBC zurückkommen.
 
-    - Warnung: SIP-Nachrichten werden nicht konfiguriert – trunk-Überwachung über SIP-Optionen ist nicht aktiviert. Das Microsoft-Anruf System verwendet SIP-Optionen und TLS-Handshake-Überwachung (Transport Layer Security), um die Integrität der verbundenen Session Border Controller (SBCS) auf Anwendungsebene zu erkennen. Sie haben Probleme, wenn dieser trunk auf Netzwerkebene (per Ping) erreicht werden kann, das Zertifikat aber abgelaufen ist oder der SIP-Stack nicht funktioniert. Um solche Probleme frühzeitig zu erkennen, empfiehlt Microsoft die Aktivierung des Sendens von SIP-Optionen. Überprüfen Sie Ihre SBC-Herstellerdokumentation, um das Senden von SIP-Optionen zu konfigurieren. 
+    - Warnung: SIP-Nachrichten werden nicht konfiguriert – trunk-Überwachung über SIP-Optionen ist nicht aktiviert. Das Microsoft-Anruf System verwendet SIP-Optionen und TLS-Handshake-Überwachung (Transport Layer Security), um die Integrität der verbundenen Session Border Controller (SBCS) auf Anwendungsebene zu erkennen. Sie haben Probleme, wenn dieser trunk auf Netzwerkebene (per Ping) erreicht werden kann, das Zertifikat aber abgelaufen ist oder der SIP-Stack nicht funktioniert. Um solche Probleme frühzeitig zu erkennen, empfiehlt Microsoft die Aktivierung des Sendens von SIP-Optionen. Überprüfen Sie Ihre SBC-Herstellerdokumentation, um das Senden von SIP-Optionen zu konfigurieren.
 
 - **Kapazität für gleichzeitige Anrufe** -Sie können die Grenze für gleichzeitige Anrufe angeben, die ein SBC behandeln kann, indem Sie den Befehl New-oder CsOnlinePSTNGateway mit dem-MaxConcurrentSessions-Parameter verwenden. Dieser Parameter berechnet, wie viele Anrufe durch direkte Weiterleitung mit einem bestimmten SBC gesendet oder empfangen wurden, und vergleicht diese mit dem festgelegten Grenzwert. Hinweis: Wenn der SBC auch Anrufe an verschiedene PBX-Anlagen abwickelt, werden bei dieser Nummer nicht die tatsächlichen gleichzeitigen Anrufe angezeigt.
-
 
 ## <a name="detailed-information-for-each-sbc"></a>Detaillierte Informationen zu jedem SBC
 
 Sie können auch die detaillierten Informationen zu einem bestimmten SBC anzeigen, wie im folgenden Screenshot dargestellt:
 
 ![Informationen zum Status-Dashboard SBC](media/direct-routing-dashboard-SBC-detail1.png)
-
 
 In der Detailansicht werden die folgenden zusätzlichen Parameter angezeigt:
 
@@ -113,7 +109,3 @@ In der Detailansicht werden die folgenden zusätzlichen Parameter angezeigt:
    Sie können die Daten nach Anzahl der Tage und in der Anrufrichtung (eingehend/ausgehend/alle Streams) verschieben.
 
 **Netzwerk-Effektivitäts Verhältnis** – Dies ist derselbe Parameter, der im allgemeinen Status-Dashboard angezeigt wird, jedoch mit der Option, Daten nach Zeitreihen oder in der Anrufrichtung zu segmentieren.
-
-
-
-

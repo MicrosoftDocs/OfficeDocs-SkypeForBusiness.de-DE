@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637424"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228891"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -36,7 +36,7 @@ ms.locfileid: "44637424"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Was ist das neue Microsoft Teams Admin Center?  
 
-Die neue Admin Center-Oberfläche bietet Ihnen eine einheitliche Oberfläche für die Verwaltung von Microsoft Teams und Skype for Business. Wir bieten zusätzliche Funktionen, End-to-End-Einblicke und die Möglichkeit, Team Einstellungen auf Benutzerebene zu verwalten. Sie können auf das Admin Center unter zugreifen <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+Die neue Admin Center-Oberfläche bietet Ihnen eine einheitliche Oberfläche für die Verwaltung von Microsoft Teams und Skype for Business. Wir bieten zusätzliche Funktionen, End-to-End-Einblicke und die Möglichkeit, Team Einstellungen auf Benutzerebene zu verwalten.
 
 ![Screenshot des Microsoft Teams Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -84,15 +84,15 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 
 - Zulassen, dass ein Benutzer Apps querlädt, die auf Benutzerebene in [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps) verwaltet werden können.
 - Zulassen, dass Benutzer in einem Mandanten mit benutzerdefinierten Apps interagieren, die auf Mandantenebene in organisationsweiten App-Einstellungen verwaltet werden können.
- 
-<sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden. 
+
+<sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden.
 
 > [!NOTE]
-> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration in Bezug auf Teams und Kanäle. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert. 
+> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration in Bezug auf Teams und Kanäle. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert.
 
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen während der Migration
 
-Sie können die Einstellungen weiterhin im Microsoft 365 Admin Center und im Skype for Business Admin Center ändern, bis die Migration für einen Abschnitt für Ihren Mandanten abgeschlossen ist. 
+Sie können die Einstellungen weiterhin im Microsoft 365 Admin Center und im Skype for Business Admin Center ändern, bis die Migration für einen Abschnitt für Ihren Mandanten abgeschlossen ist.
 
 Die folgende Tabelle zeigt, wo Sie die Features während der Migration verwalten können.
 
@@ -104,7 +104,7 @@ Die folgende Tabelle zeigt, wo Sie die Features während der Migration verwalten
 |Teams-Lebenszyklusverwaltung   |    X    |      |       |
 |Teams-Einstellungen   |    X    |      |       |
 |Einstellungen für externen Zugriff     |    X    |      |       |
-|Benutzerverwaltung    |         |         |    X     |    
+|Benutzerverwaltung    |         |         |    X     |
 |Audiokonferenz     |    X     |    X     |         |
 |Anrufpläne     |    X    |    X     |         |
 |Telefonsystem    |    X    |     X    |         |

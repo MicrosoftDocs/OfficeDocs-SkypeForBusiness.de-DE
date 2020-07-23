@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie im Microsoft Teams Admin Center den Bericht "
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903870"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372154"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams – Benutzeraktivitätsbericht
 
@@ -30,7 +30,9 @@ Der Bericht "Teams-Benutzeraktivität" gibt Ihnen einen Einblick in die Arten vo
 
 ## <a name="view-the-user-activity-report"></a>Anzeigen des Benutzer Aktivitätsberichts
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Benutzeraktivität**aus.
+Sie müssen ein Team Dienstadministrator sein, um diese Änderungen vornehmen zu können. Informationen zum Abrufen von Administratorrollen und-Berechtigungen finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
+
+1. Klicken Sie in der linken Navigationsleiste des Admin Centers auf **Analytics & Berichte**  >  **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams-Benutzeraktivität**aus.
 2. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
     ![Screenshot des Teams-Benutzer Aktivitätsberichts im Team Admin Center mit Beschriftungen](../media/teams-reports-user-activity-with-callouts.png "Screenshot des Teams-Benutzer Aktivitätsberichts im Team Admin Center mit Beschriftungen")

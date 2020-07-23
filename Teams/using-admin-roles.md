@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: Erfahren Sie, wie Sie die Administratorrollen zum Festlegen von Administratoren verwenden, die unterschiedliche Zugriffsebenen zum Verwalten von Teams benötigen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665207"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229041"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams
 
-Mithilfe von Azure Active Directory (Azure AD) können Sie Administratoren festlegen, die unterschiedliche Zugriffsebenen für die Verwaltung von Microsoft Teams benötigen. Administratoren können den gesamten Workload von Teams verwalten oder delegierte Berechtigungen zur Behandlung von Problemen mit der Anrufqualität oder zum Verwalten der Telefoniebedürfnisse Ihrer Organisation besitzen. 
+Mithilfe von Azure Active Directory (Azure AD) können Sie Administratoren festlegen, die unterschiedliche Zugriffsebenen für die Verwaltung von Microsoft Teams benötigen. Administratoren können den gesamten Workload von Teams verwalten oder delegierte Berechtigungen zur Behandlung von Problemen mit der Anrufqualität oder zum Verwalten der Telefoniebedürfnisse Ihrer Organisation besitzen.
 
 ## <a name="teams-roles-and-capabilities"></a>Rollen und Funktionen in Teams
 
 Vier Teams-Administratorrollen sind verfügbar: Teams-Dienstadministrator, Teams-Kommunikationsadministrator, Supportfachmann für die Teams-Kommunikation und Supporttechniker für die Teams-Kommunikation. Sehen Sie sich die folgende Tabelle an, um zu verstehen, was jede Rolle ausführen kann und welche Tools der Administrator im Microsoft Teams Admin Center und in PowerShell verwenden kann.
 
-Wenn Sie folgen möchten, wechseln Sie zum Admin Center unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
-
-
+Sie müssen ein Administrator sein, um Ihnen folgen zu können. Die Anweisungen zum Abrufen der Berechtigungen finden Sie in diesem Artikel.
 
 <!-- add Global admin role? -->
 

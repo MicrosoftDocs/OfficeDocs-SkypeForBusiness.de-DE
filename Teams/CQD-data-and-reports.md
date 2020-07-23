@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Informieren Sie sich über die Daten und Berichte, die im Microsoft Call Quality-Dashboard (CQD) zur Verfügung stehen.
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086018"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372164"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Daten und Berichte im Dashboard für die Anrufqualität (CQD)
 
 Das Microsoft Call Quality-Dashboard (CQD) verwendet einen fast-Echtzeit-Daten Feed (NRT). Anrufdatensätze stehen innerhalb von 30 Minuten nach dem Ende eines Anrufs in CQD zur Verfügung. Anrufdatensätze aus der NRT-Pipeline stehen nur einige Monate zur Verfügung, bevor Sie aus dem Datensatz entfernt werden. 
 
-
-> [!NOTE]
-> Advanced CQD (neu im November 2019) führt Daten aus der älteren CQD-Pipeline zusammen, die anrufdatensätze in etwa 24 Stunden zur Verfügung stellt, mit NRT-Daten aus der erweiterten CQD-Pipeline. Abfragen in den älteren und erweiterten Portalen für die Daten aus dem Archivierungszeitraum liefern dieselben Ergebnisse. Abfragen auf einem Portal für die NRT-Daten und NRT-Daten + EUII-Perioden sind unterschiedlich.
 
 ## <a name="many-ways-to-access-cqd-data"></a>Viele Möglichkeiten für den Zugriff auf CQD-Daten
 

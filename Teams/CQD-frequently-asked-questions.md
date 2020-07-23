@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten zum Microsoft Teams Call Quality Dashboard (CQD).
-ms.openlocfilehash: f33d66d9c8abb465c6680bacbbd2ff200cf930c6
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086171"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372124"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Anruf Qualitäts-Dashboard (CQD) – häufig gestellte Fragen (FAQ)
 
@@ -35,8 +35,6 @@ ms.locfileid: "45086171"
 [Warum markiert CQD einen Anruf als "gut", wenn ein oder mehrere Besprechungsteilnehmer schlechte Erfahrungen gemacht haben?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
 [Warum sehe ich Unterschiede bei der Anruf-und Benutzeranzahl von bis zu 0,2% für Measures und wie erhalte ich die meisten exakten Volumes?](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
-
-[Warum sehen meine CQD v2-Berichtsdaten anders aus als die CQD V3-Berichtsdaten?](#why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data)
 
 [Warum unterscheiden sich CQD-Daten von Skype for Business von CQD-Daten aus Teams?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
@@ -73,66 +71,17 @@ Die Telemetrie Ruft das Problem nicht unbedingt auf, aber es kann Ihnen helfen, 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Warum sehe ich Unterschiede bei der Anruf-und Benutzeranzahl von bis zu 0,2% für Measures und wie erhalte ich die meisten exakten Volumes? 
 Zum Berechnen der Anzahl von aufrufen und der Anzahl der Benutzer zählen wird ein unterschiedlicher ZÄHLENWENN-Vorgang für den Anruf oder die Benutzer-IDs in der Datengruppe ausgeführt. Bei umfangreichen Datensätzen liegt ein Fehler von bis zu 0,2% vor, der dem unterschiedlichen ZÄHLENWENN-Vorgang inhärent ist. Für die genaueste Lautstärke sollten Sie sich auf die Datenstromanzahl-Measures verlassen, da Sie nicht auf diesen eindeutigen ZÄHLENWENN-Vorgang angewiesen sind. Durch Filtern, um die Datenmenge zu verringern, kann der Fehler reduziert werden, diese Fehlerquelle kann jedoch nicht in unterschiedlichen Anruf-und Nutzerzahlen beseitigt werden. Beziehen Sie sich auf [Dimensionen und Maße, die im Dashboard für die Anrufqualität zur Verfügung stehen](dimensions-and-measures-available-in-call-quality-dashboard.md) , für die Maßnahmen betroffen sind.
 
-### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Warum sehen meine CQD v2-Berichtsdaten anders aus als die CQD V3-Berichtsdaten? 
-
-Wenn Daten Unterschiede zwischen CQD v2 und V3 angezeigt werden, stellen Sie sicher, dass der Datenabgleich oder die Validierung auf einer "Äpfel-zu-Apfel"-und einer schmalen Ebene erfolgt, nicht auf einer aggregierten Ebene. Wenn Sie beispielsweise beide Berichte für MSIT ' Building 30 ' WiFi Teams-Desktop Client Daten filtern, sollte der Prozentsatz der schlechten Qualität zwischen V2 und V3 identisch sein.
-
-Die CQDv2-Klassifizierung für CallSetup-Fehler wird nur für "Audio"-Modalitäten berücksichtigt, in CQDv3 diese Klassifizierung für jede Modalität (Audio, Video und qualifizierte Anwendungsfreigabe) erfolgt und im jeweiligen Modalitäten Datenstrom dargestellt wird. 
-
-Für Teams wendet CQDv2 dasselbe Benutzer Feedback auf alle Modalitäten an CQDv3 wendet die Feedback Basis auf die Modalitäten für Teams an.
-
-CQD V3 enthält 
-1. Skype for Business Server 2019-Anrufe, 
-2. Skype-bot-Anrufe wie: automatische Telefonzentrale, Anrufwarteschlange, Konferenzankündigungsdienst, 
-3. Virtual Desktop-Oberfläche
-4. Konferenz Video-Interop
-3. Live Events Publisher-und Referenten Anrufe und 
-4. PSTN-Anrufe. 
-
-Wenn Sie wissen möchten, wie Sie diese Power BI-Vorlagen verwenden können, um Ihre CQD-Daten zu analysieren und zu melden, lesen Sie [Verwenden von Power BI für CQD-Berichte](cqd-power-bi-query-templates.md).
-
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>Warum unterscheiden sich CQD-Daten von Skype for Business von CQD-Daten aus Teams? 
 
 
 > [!IMPORTANT]
-> Ab dem 1. Juli 2020 der ältere CQD auf Daten aus dem neuesten CQD. Die älteren CQD-Daten stehen nicht mehr zur Verfügung, und Sie können ihre Gebäude-oder Berichtsdaten nicht exportieren.
+> Ab dem 1. Juli 2020 verwendet der ältere CQD (CQD.lync.com) Daten aus dem neuesten CQD (CQD. Teams.Microsoft.com). Die älteren CQD-Daten stehen nicht mehr zur Verfügung, und Sie können ihre Gebäude-oder Berichtsdaten nicht exportieren. Sie können weiterhin CQD.lync.com verwenden (im Skype for Business Admin Center verfügbar), aber wir werden den Zugriff auf CQD.lync.com bald deaktivieren, sodass Sie zu CQD wechseln sollten. Teams.Microsoft.com, wenn dies noch nicht geschehen ist.
 
 
 Wenn Sie versuchen, Daten zwischen den älteren CQD aus dem Skype for Business Legacy-Portal (CQD.lync.com) und dem neuesten CQD aus dem Team Admin Center (CQD.Teams.Microsoft.com) zu vergleichen, werden Sie schnell feststellen, dass die Daten nicht übereinstimmen. Das liegt daran, dass die neuesten CQD-Berichte über viele zusätzliche Anrufszenarien erstellt werden. Wenn Sie weiterhin Berichte aus dem älteren CQD verwenden, verwenden Sie diesen Artikel, um Sie bei der Interpretation dieser Berichte zu unterstützen: [Anruf Qualitäts Dashboard für Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
 
-
-Im folgenden finden Sie ein Beispiel für das Anwenden spezieller Filter zum Vergleichen von CQD v2-und CQD V3-Daten:
-
-1. QoE-Eintrag verfügbar = wahr
-
-2. Add ist Serverpaar Filter mit dem Wert: Client: Client und Client: Server. Die meisten Mandanten ziehen es vor, Server: Serveraufrufe auszuschließen.
-
-3. Fügen Sie einen Filter für die Kategorie des Benutzer-Agents hinzu, und Filtern Sie die automatische Telefonzentrale, die Anrufwarteschlange, den bot, das Raumsystem, den MediationServer, den Konferenzankündigungsdienst, den VDI usw.
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Screenshot der Anwendung bestimmter Filter in CQD v3":::
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Screenshot der Anwendung bestimmter Filter in CQD v2":::
-
-#### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>Andere erwartete Unterschiede zwischen CQD v2 und CQD v3
-
-Wenn Sie mehr über die Unterschiede zwischen dem älteren und dem neuesten CQD erfahren möchten, lesen Sie den Artikel zur [Einführung des erweiterten Anruf Qualitäts Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) -Blogs vom 5. November 2019.
-
-
-> [!IMPORTANT]
-> Ab dem 1. Juli 2020 der ältere CQD auf Daten aus dem neuesten CQD. Die älteren CQD-Daten stehen nicht mehr zur Verfügung, und Sie können ihre Gebäude-oder Berichtsdaten nicht exportieren.
-
-Es werden wahrscheinlich weitere Daten Unterschiede zwischen ihren älteren und neueren CQD-Berichten auf aggregierter oder Zusammenfassungsebene angezeigt. Wenn Sie Daten auf einer granulareren Ebene vergleichen, erhalten Sie einen Vergleich zwischen "Äpfel und Äpfel". Wenn Sie beispielsweise Daten für ein einzelnes Gebäude betrachten, sollte der Prozentsatz der schlechten Qualität zwischen den älteren und den neuen CQD-Berichten identisch sein.
-
-- Entscheiden Sie sich für ein Szenario mit engem Fokus, beispielsweise für Unternehmens-Wired-Verbindungen, Windows-Desktops oder eine einzelne Region oder ein einzelnes Gebäude.
-- Überprüfen Sie die IP-Bereiche von Teams Mr, TR oder MP. Die Teams-Bereiche sind neuer als Skype for Business Online, was zu Verbindungsproblemen mit Firewalls führen kann.
-- Vergleichen Sie keine Zusammenfassungs-oder Spitzen Zahlen. Diese Vergleiche führen dazu, dass Sie einen umfangreichen Anruf Umfang von Skype for Business Online-anrufen auf einer drahtgebundenen Unternehmensverbindung mit einer kleinen Anzahl von Teams-anrufen in einem LTE-oder privaten Netzwerk vergleichen.
-- Achten Sie auf Standort Verzerrungen und Bevölkerungs Unterschiede: Es gibt viele Vergleiche, die zu unähnlich sind, um nützlich zu sein:
-  - Noam: APAC
-  - NY: Goa
-  - Verkabelt:WiFi
-  - Unternehmensnetzwerk: Heimnetzwerk
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>Warum kann ich EUII in CQD nicht sehen?
 

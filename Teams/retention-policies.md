@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202954"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247384"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -154,6 +154,24 @@ Wenn Sie eine Aufbewahrungsrichtlinie für Teams löschen möchten, gehen Sie fo
 1. Klicken Sie im Security & Compliance Center im linken Navigationsbereich auf **Informationsgovernance** > **Aufbewahrung**.
 2. Aktivieren Sie in der Liste der Aufbewahrungsrichtlinien das Kontrollkästchen neben der Aufbewahrungsrichtlinie, die Sie löschen möchten.
 3. Wählen Sie **Richtlinie löschen** aus.
+
+### <a name="end-user-experience"></a>Endbenutzererfahrung
+
+Für private Chats (1:1-Chats) oder Gruppen-Chats wird den Endbenutzern angezeigt, dass Chats, die älter als die Aufbewahrungsrichtlinien Konfiguration sind, gelöscht werden, und eine Kontrollmeldung, die besagt, dass "wir ältere Nachrichten aufgrund der Aufbewahrungsrichtlinie Ihrer Organisation gelöscht haben", wird oben auf noch nicht gelöschten Nachrichten angezeigt.
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Screenshot der Chat-Aufbewahrung":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Screenshot der Beibehaltung des Gruppen-Chats":::
+
+Bei Kanal Nachrichten sehen die Endbenutzer (Kanalmitglieder), dass gelöschte Nachrichten nach Ablauf der Nachrichten nicht mehr angezeigt werden. Wenn es sich bei der gelöschten Nachricht um eine übergeordnete Nachricht einer Thread Unterhaltung handelt, wird anstelle der übergeordneten Nachricht eine Meldung angezeigt, die besagt, dass diese Nachricht aufgrund einer Aufbewahrungsrichtlinie gelöscht wurde.
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot des Kanals vor der Aufbewahrung":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot des Kanals nach der Aufbewahrung":::
+
+> [!NOTE]
+> Endbenutzer-Messaging ist zurzeit nicht Benutzer oder Administrator änderbar.
+
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 

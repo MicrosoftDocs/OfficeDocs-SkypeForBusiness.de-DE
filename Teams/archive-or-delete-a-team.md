@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086191"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372194"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================
@@ -40,9 +40,9 @@ Wenn Sie ein Team löschen, werden auch Teamaktivitäten in standardmäßigen un
 
 ## <a name="archive-a-team"></a>Archivieren eines Teams
 
-Gehen folgendermaßen Sie vor, um ein Team zu archivieren.
+Gehen folgendermaßen Sie vor, um ein Team zu archivieren. Sie müssen ein Team Dienstadministrator sein, um diese Änderungen vornehmen zu können. Informationen zum Abrufen von Administratorrollen und-Berechtigungen finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
 
-1. Wählen Sie im Admin Center von die <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> Option **Teams**aus.
+1. Wählen Sie im Admin Center **Teams**aus.
 2. Wählen Sie ein Team aus, indem Sie auf den Teamnamen klicken.
 3. Wählen Sie **Archivieren** aus. Die folgende Warnmeldung wird angezeigt.
 
@@ -55,7 +55,7 @@ Gehen folgendermaßen Sie vor, um ein Team zu archivieren.
 
 Führen Sie die folgenden Schritte aus, um ein archiviertes Team wieder zu aktivieren.
 
-1. Wählen Sie im <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin Center</a> **Teams**aus.
+1. Wählen Sie im Admin Center **Teams**aus.
 2. Wählen Sie ein Team aus, indem Sie auf den Teamnamen klicken.
 3. Wählen Sie **Archivierung aufheben** aus. Der Status des Teams wird in **Aktiv** geändert.
 
@@ -63,7 +63,7 @@ Führen Sie die folgenden Schritte aus, um ein archiviertes Team wieder zu aktiv
 
 Wenn das Team in Zukunft nicht mehr benötigt wird, dann können Sie es löschen, anstatt es zu archivieren. Führen Sie folgende Schritte aus, um ein Team zu löschen.
 
-1.  Wählen Sie im <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin Center</a> **Teams**aus.
+1.  Wählen Sie im Admin Center **Teams**aus.
 2.  Wählen Sie ein Team aus, indem Sie auf den Teamnamen klicken.
 3.  Wählen Sie **Löschen** aus. Eine Bestätigungsmeldung wird angezeigt.
 4.  Wählen Sie **Löschen** aus, um das Team endgültig zu löschen.
@@ -79,7 +79,7 @@ Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahr
 1. Öffnen Sie Windows PowerShell als Administrator.
 2. Wenn Sie eine frühere Version des AzureADPreview-Moduls oder des AzureAD-Moduls installiert haben, deinstallieren Sie diese, indem Sie eine der folgenden Aktionen ausführen:
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -90,7 +90,7 @@ Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahr
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
 ### <a name="restore-the-deleted-microsoft-365-group"></a>Wiederherstellen der gelöschten Microsoft 365-Gruppe
 
@@ -102,7 +102,7 @@ Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahr
 2. Führen Sie die folgenden Schritte aus, um eine Liste aller Soft-Deleted Microsoft 365-Gruppen anzuzeigen, die sich noch im 30-tägigen Aufbewahrungszeitraum befinden. Verwenden Sie den Parameter **-All $True**, wenn Sie über viele Gruppen verfügen.
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. Suchen Sie die Gruppe, die Sie wiederherstellen möchten, und notieren Sie sich die ID.
 4. Führen Sie die folgenden Schritte aus, um die Gruppe wiederherzustellen, wobei [Id] die Gruppen-ID ist.
     ```PowerShell

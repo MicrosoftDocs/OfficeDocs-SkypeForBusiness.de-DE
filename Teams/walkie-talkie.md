@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043010"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229051"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-app in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Die Walkie-Talkie-app in Microsoft Teams bietet eine direkte Push-to-Talk (PTT)-Kommunikation für Ihr Team und wird in Kürze in der öffentlichen Vorschau auf Android zur Verfügung stehen. Walkie Talkie ermöglicht Benutzern die Verbindung mit Ihrem Team unter Verwendung der gleichen zugrunde liegenden Kanäle, in denen Sie Mitglied sind. Nur Benutzer, die eine Verbindung mit Walkie Talkie in einem Kanal herstellen, werden Teilnehmer und können jeweils einzeln über Push-to-Talk miteinander kommunizieren.
+Die Walkie Talkie-app in Microsoft Teams bietet eine direkte Push-to-Talk (PTT)-Kommunikation für Ihr Team und steht in Public Preview auf Android zur Verfügung. Walkie Talkie ermöglicht Benutzern die Verbindung mit Ihrem Team unter Verwendung der gleichen zugrunde liegenden Kanäle, in denen Sie Mitglied sind. Nur Benutzer, die eine Verbindung mit Walkie Talkie in einem Kanal herstellen, werden Teilnehmer und können jeweils einzeln über Push-to-Talk miteinander kommunizieren.
 
 Mit Walkie Talkie in Teams können First-Workers nun sicher mit einer vertrauten PTT-Erfahrung kommunizieren, ohne sperrige Radios tragen zu müssen, und Walkie Talkie funktioniert überall mit WiFi-oder Mobilfunk-Internetverbindung.
 
@@ -73,9 +73,9 @@ Die erwartete Datennutzung von Walkie Talkie beläuft sich auf 20KB/s beim Sende
 
 Mitarbeiter von First-work müssen oft Walkie-Talkie-Anrufe sprechen und empfangen, auch wenn Ihre Telefone gesperrt sind. Diese Erfahrung ist durch spezielle Geräte mit einer speziellen PTT-Taste möglich.
 
-- Vorhandene Telefone
-  - Kabelgebundene Headsets ([klein Elektronik](https://www.kleinelectronics.com/))
-  - Drahtlose Headsets ([Jabra BlueParrott](https://www.blueparrott.com/))
+- Headsets
+  - Kabelgebundene Headsets ([klein Elektronik](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - Drahtlose Headsets ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Robuste Telefone
   - Samsung Galaxy XCover pro
     - [Weitere Informationen](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).

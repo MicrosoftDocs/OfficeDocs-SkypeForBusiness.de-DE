@@ -16,16 +16,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: c47ca6105b1d497bbba391856bfc190ea88fb47f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326642"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372034"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 ## <a name="overview-of-location-based-routing"></a>Übersicht über standortbasiertes Routing
 

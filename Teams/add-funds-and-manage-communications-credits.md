@@ -29,27 +29,27 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Hier erfahren Sie, wie Sie für Skype for Business-Dienste für Kommunikations Kredite (PSTN-Verbrauch) Zahlen und Pläne sehen, wie Sie Ihre Nutzer mit einem kontinuierlichen Zugriff auf das Telefonsystem schützen können. '
-ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610279"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229101"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen und Verwalten von Guthaben für Kommunikationen
 
 Kommunikationsguthaben sind eine bequeme Möglichkeit, für Telefon System-und Anrufpläne in Microsoft 365 oder Office 365 zu zahlen. Kommunikationsguthaben sorgt dafür, dass Sie und Ihre Benutzer nie gefangen werden, ohne dass Sie Folgendes tun können:
   
 - Sie können sich über gebührenfreie Einwahlnummern in Audiokonferenz-Besprechungen einwählen.
-    
+
 - Wählen Sie aus einer Audiokonferenz-Besprechung aus, um eine andere Person von überall auf der Welt hinzuzufügen.
-    
+
 - Wählen Sie aus einer Audiokonferenz-Besprechung auf Ihrem Mobiltelefon aus, auf dem die Skype for Business-oder Microsoft Teams-App installiert ist.
-    
+
 - Wählen Sie eine beliebige internationale Telefonnummer, wenn Sie einen **Tarif für Inlandsanrufe**haben.
-    
+
 - Wählen Sie aus und Zahlen Sie pro Minute, nachdem Sie Ihre monatliche Minuten Zuteilung aufgebraucht haben.
-    
+
 > [!NOTE]
 > Wenn Sie sich Fragen, wie viel es ist und welche Gebühren Sie haben, lesen Sie die Tabelle Gebühren auf der Seite [Anrufpläne](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
   
@@ -62,31 +62,29 @@ Sie können Ihre Zahlungsoptionen jederzeit aktualisieren. Wählen Sie auf der S
 Guthaben wird nur für Kommunikations Kredite zu den veröffentlichten Gebühren von Microsoft angewendet, wenn die Dienste verwendet werden. Guthaben, das nicht innerhalb von zwölf (12) Monaten nach dem Kaufdatum verwendet wird, läuft ab und verfällt.
   
 > [!TIP]
-> Wir senden Ihnen e-Mail-Benachrichtigungen, wenn Guthaben über das automatische aufladen hinzugefügt wird, wenn das automatische aufladen fehlschlägt (beispielsweise wenn eine Kreditkarte abläuft) und wenn Ihr Guthaben unter Null fällt. 
+> Wir senden Ihnen e-Mail-Benachrichtigungen, wenn Guthaben über das automatische aufladen hinzugefügt wird, wenn das automatische aufladen fehlschlägt (beispielsweise wenn eine Kreditkarte abläuft) und wenn Ihr Guthaben unter Null fällt.
   
 Weitere Informationen finden Sie unter [Was sind Kommunikationsguthaben?](what-are-communications-credits.md)
   
-## <a name="want-to-know-about-plans-and-pricing"></a>Sie suchen Informationen zu Plänen und Preisen?
+## <a name="want-to-know-about-plans-and-pricing"></a>Möchten Sie über Pläne und Preise Bescheid wissen?
 
 Die Pläne und Preise finden Sie unter den folgenden Links:
   
 - [Anrufpläne](https://go.microsoft.com/fwlink/?LinkId=799761 )
-    
+
 - [Audio-Konferenz Pläne](https://go.microsoft.com/fwlink/?LinkId=799762 )
-    
+
 - [Telefon System Pläne](https://go.microsoft.com/fwlink/?LinkId=799763)
-    
-Sie können Informationen auch anzeigen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs**  >  **Abonnements**Abonnements  >  **Hinzufügen**wechseln.
+
+Sie können Informationen auch anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu **Abrechnungs**  >  **Abonnements**Abonnements  >  **Hinzufügen**wechseln.
   
 Eine Tabelle mit den Lizenzen, die für die einzelnen Features benötigt werden, finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
-    
+
 - [Einrichten von Cloud-Voicemail – Administratorhilfe](set-up-phone-system-voicemail.md)
-    
+
 - [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufplänen für Microsoft 365 oder Office 365](calling-plans-for-office-365.md)
-        
- 
- 
+
