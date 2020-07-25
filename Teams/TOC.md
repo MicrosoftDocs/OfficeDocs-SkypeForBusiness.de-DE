@@ -152,6 +152,7 @@
 #### [Mit lokaler Exchange-Bereitstellung (hybrid)](rooms/with-exchange-on-premises.md)
 #### [Konfigurieren einer Konsole](rooms/console.md)
 #### [Konfigurieren einer Authentifizierung](rooms/rooms-authentication.md)
+#### [Teilnehmen an Besprechungen von Drittanbietern](rooms/third-party-join.md)
 #### [Mithilfe des Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
 #### [Verwaltung mit Azure Monitor](rooms/azure-monitor-deploy.md)
 #### [Migrieren von SRS v1 oder LRS](rooms/lrs-migration.md)
