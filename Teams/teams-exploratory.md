@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99017e63ae784c7c4271454829198c7c06ecfe8e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868462"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229141"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 =======================================================
@@ -79,9 +79,9 @@ Administratoren können die Option zur Ausführung der explorativen Microsoft Te
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Verhindern, dass Benutzer Test-Apps und -dienste installieren
 
-Sie können die Möglichkeit des Benutzers deaktivieren, Test-Apps und -Dienste zu installieren, wodurch Sie Benutzer daran hindern, die explorative Microsoft Teams-Umgebung auszuführen. Sie benötigen Administratorberechtigungen. Weitere Informationen zu Administratorrollen finden Sie unter [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](teams-exploratory.md).
+Sie können die Möglichkeit des Benutzers deaktivieren, Test-Apps und -Dienste zu installieren, wodurch Sie Benutzer daran hindern, die explorative Microsoft Teams-Umgebung auszuführen. 
 
-1. Navigieren Sie im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home) zu **Einstellungen** > **Einstellungen**, wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
+1. Navigieren Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Einstellungen**, wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
 
     ![Screenshot der Seite "Dienste" im Admin Center](media/iw-trial-services.png)
 
@@ -98,7 +98,7 @@ Ein Benutzer, dem eine Lizenz zugewiesen wurde, die Microsoft Teams bereits umfa
 
 So deaktivieren Sie den Zugriff auf Teams:
 
-1. Wählen Sie im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home) **Benutzer** > **Aktive Benutzer** aus.
+1. Wählen Sie im Microsoft 365 Admin Center, **Benutzer** > **Aktive Benutzer** aus.
 
 2. Aktivieren Sie das Kontrollkästchen neben dem Namen des Benutzers.
 
