@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e8b8e8605b5e4f916389109cb611996aa90a895
-ms.sourcegitcommit: 34a30c2c9a8e32bfcb382c3e6e7237f277ec361d
+ms.openlocfilehash: e85ef79247bdf35c3c116504af23728a0d268ca5
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45206765"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429327"
 ---
 # <a name="recommended-methods-and-best-practices-for-creating-class-teams"></a>Empfohlene Methoden und Best Practices zum Erstellen von Kursteams
 
@@ -60,17 +60,17 @@ Die Automatisierung der Teamerstellung spart den IT-Administratoren und Lehrkrä
 
 ### <a name="considerations"></a>Erwägungen
 
-SDS erstellt Teams in zwei Schritten. Im ersten Schritt wird eine Microsoft 365-Gruppe in Azure Active Directory (Azure AD) erstellt, und im zweiten Schritt wird diese Gruppe automatisch in ein Team umgewandelt. Der zweite Schritt beim Erstellen von Teams ist in SDS optional. Ein Administrator möchte möglicherweise, je nach Bereitstellungszeit und der Anzahl nicht verwendeter Teams, die daraus resultieren können, Teams nicht automatisch erstellen. Wir empfehlen Institutionen mit 500.000 Teams oder mehr, die automatische Teamerstellung in SDS zu deaktivieren und die [Lehrer-geleitete Teamerstellungsmethode](#teacher-led-team-creation-from-office-365-class-groups)zu verwenden.  
+SDS erstellt Teams in zwei Schritten. Im ersten Schritt wird eine Microsoft 365-Gruppe in Azure Active Directory (Azure AD) erstellt, und im zweiten Schritt wird diese Gruppe automatisch in ein Team umgewandelt. Der zweite Schritt beim Erstellen von Teams ist in SDS optional. Ein Administrator möchte möglicherweise, je nach Bereitstellungszeit und der Anzahl nicht verwendeter Teams, die daraus resultieren können, Teams nicht automatisch erstellen. Wir empfehlen Institutionen mit 500.000 Teams oder mehr, die automatische Teamerstellung in SDS zu deaktivieren und die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups) zu verwenden.  
 
 ### <a name="get-started"></a>Erste Schritte
 
 Um zu beginnen, wechseln Sie zu [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) und kontaktieren Sie die [https://aka.ms/sdssupport](https://aka.ms/sdssupport) Bereitstellungshilfe.  
 
-## <a name="teacher-led-team-creation-from-office-365-class-groups"></a>Von Lehrern geleitete Teamerstellung aus Office 365-Kursgruppen
+## <a name="educator-led-team-creation-from-office-365-class-groups"></a>Von Dozenten geleitete Teamerstellung aus Office 365-Kursgruppen
 
 **Diese Feature wird bald verfügbar sein, spätestens Mitte August 2020.**
 
-Die von Lehrern geleitete Teamerstellung ist eine großartige Bereitstellungsoption, wenn Sie den Lehrkräften die schnelle Erstellung der benötigten Kurse erleichtern möchten. Außerdem empfehlen wir Einrichtungen mit mehr als 500.000 Teams diese Methode verwenden, um die Anzahl der von außen kreierten Teams zu minimieren.  
+Die von Dozenten geleitete Teamerstellung ist eine großartige Bereitstellungsoption, wenn Sie den Lehrkräften die schnelle Erstellung der benötigten Kurse erleichtern möchten. Außerdem empfehlen wir Einrichtungen mit mehr als 500.000 Teams diese Methode verwenden, um die Anzahl der von außen kreierten Teams zu minimieren.  
 
 Bei diesem hybriden Ansatz können Sie entweder SDS zum Erstellen von Gruppen für jeden Kurs (empfohlen) verwenden oder [Graph-API](https://docs.microsoft.com/graph/api/educationroot-post-classes) verwenden, um sie selbst zu erstellen. Nach der Vorbereitung von Kursgruppen können Lehrkräfte deren Gruppen in Teams konvertieren, indem Sie das Symbol **Vorgeschlagene Kurse** verwenden.
 
@@ -108,7 +108,7 @@ Wenn Sie mit der SDS-Methode beginnen möchten, wechseln Sie zu [School Data Syn
 Wenn Sie die Graph-API-Methode verwenden möchten, lesen Sie [Graph-API](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) und [Erstellen eines Klassenteams](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http).  
 
 > [!NOTE]
-> Um diese Methode mit SDS verwenden zu können, müssen Sie die Option zur automatischen Teamerstellung in Ihrem SDS-Profil deaktivieren. Sie können auch eine Kombination aus automatischer und von Lehrern geleiteter Teamerstellung für erforderliche und optionale Kursteams verwenden, mithilfe von zwei SDS-Profilen.
+> Um diese Methode mit SDS verwenden zu können, müssen Sie die Option zur automatischen Teamerstellung in Ihrem SDS-Profil deaktivieren. Sie können auch eine Kombination aus automatischer und von Dozenten geleiteter Teamerstellung für erforderliche und optionale Kursteams verwenden, mithilfe von zwei SDS-Profilen.
 
 ## <a name="powershell-script-using-graph-apis"></a>PowerShell-Skript mit Graph-APIs
 
@@ -147,6 +147,6 @@ Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hinderniss
 ## <a name="recommended-best-practices"></a>Empfohlene bewährte Methoden
 
 - Frühzeitiges bereitstellen! Stellen Sie frühzeitig bereit, um sicherzustellen, dass alles zuverlässig funktioniert und für den ersten Schultag bereit ist. Wenn Sie SDS verwenden, benötigen Sie keine volle Studenten-Mitgliedschaft, um die SDS-Bereitstellung starten zu können. Die Kursteilnehmer werden synchronisiert, wenn diese Informationen in Ihrem SIS verfügbar sind.
-- Wenn Sie über mehr als 500.000 Teams verfügen, empfehlen wir die [Lehrer-geleitete Teamerstellungsmethode](#teacher-led-team-creation-from-office-365-class-groups). Es reduziert nicht verwendete Teams und Unübersichtlichkeit, da nur Kursteams erstellt werden, die relevant und erforderlich sind.  
-- Wenn bei der automatischen SDS-Teamerstellung Probleme auftreten (z. B. fehlende Klassen) und die Lehrer diese sofort benötigen, können Sie die [Lehrer-geleitete Teamerstellungsmethode](#teacher-led-team-creation-from-office-365-class-groups) verwenden, um den Vorgang wiederholen. Die [Manuelle Teamerstellung](#manual-team-creation) ist eine weitere Lösung, die jedoch Ihre Teammitgliedschaft nicht auf dem neuesten Stand hält.  
+- Wenn Sie über mehr als 500.000 Teams verfügen, empfehlen wir die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups). Es reduziert nicht verwendete Teams und Unübersichtlichkeit, da nur Kursteams erstellt werden, die relevant und erforderlich sind.  
+- Wenn bei der automatischen SDS-Teamerstellung Probleme auftreten (z. B. fehlende Klassen) und die Lehrer diese sofort benötigen, können Sie die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups) verwenden, um den Vorgang wiederholen. Die [Manuelle Teamerstellung](#manual-team-creation) ist eine weitere Lösung, die jedoch Ihre Teammitgliedschaft nicht auf dem neuesten Stand hält.  
 - Das Mandanten-Team-Limit ist 500.000 Teams. Daher sollten Administratoren proaktiv versuchen, die Anzahl nicht verwendeter Teams zu reduzieren, um zu vermeiden, dass diese Grenzwerte überschritten und die Einrichtungszeit verlängert wird. Weitere Informationen zu den Grenzwerten finden Sie unter [Limits und Spezifikationen für Microsoft Teams](limits-specifications-teams.md).  
