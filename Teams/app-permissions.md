@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611014"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429367"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -55,11 +55,11 @@ Keine
 
 Keine
 
-### <a name="considerations"></a>Überlegungen
+### <a name="considerations"></a>Erwägungen
 
 - Eine APP muss offen legen, welche Daten Sie verwendet und wofür die Daten in den Nutzungsbedingungen und den Datenschutzrichtlinien Links verwendet werden.
 
-- Die [ressourcenspezifische Zustimmung](resource-specific-consent.md) bietet eine Reihe von Berechtigungen, die apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Genehmigungsberechtigungen finden Sie unter [Diagramm Berechtigungsreferenz](https://docs.microsoft.com/graph/permissions-reference).
+- Die [ressourcenspezifische Zustimmung](resource-specific-consent.md) bietet eine Reihe von Berechtigungen, die apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Genehmigungsberechtigungen finden Sie unter [Diagramm Berechtigungsreferenz](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
 - Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Genehmigungsberechtigungen. Nachdem eine APP installiert wurde, kann die APP Graph-Berechtigungen über eine Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes zur Zustimmung zu Azure AD-Anwendungen](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). Sie können API-Berechtigungen und-Zustimmung im Azure-Portal konfigurieren. Weitere Informationen finden Sie unter [Azure Active Directory-Zustimmungs Framework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
 
@@ -87,7 +87,7 @@ Keine
 
 - SEND_FILES, RECEIVE_FILES. <sup>2</sup> steuert, ob ein bot Dateien im persönlichen Chat senden und empfangen kann (noch nicht für Gruppen-Chats oder Kanäle unterstützt).
 
-### <a name="considerations"></a>Überlegungen
+### <a name="considerations"></a>Erwägungen
 
 - Bots haben nur Zugriff auf Teams, denen Sie hinzugefügt wurden, oder auf Benutzer, die Sie installiert haben.
 
@@ -117,7 +117,7 @@ Keine
 
 <sup>1</sup> einige Bots senden nur Nachrichten (POST_MESSAGE_USER). Sie werden als "Benachrichtigungs-only"-Bots bezeichnet, aber der Ausdruck bezieht sich nicht auf das, was ein bot erlaubt oder nicht erlaubt, was bedeutet, dass der bot keine Konversations Erfahrung machen möchte. Teams verwendet dieses Feld, um Funktionen in der UI zu deaktivieren, die normalerweise aktiviert werden. der Bot ist nicht eingeschränkt in dem, was er zu tun hat, im Vergleich zu Bots, die eine Konversations Erfahrung machen.
 
-<sup>2</sup> unterliegt der supportsFiles-booleschen Eigenschaft für das bot-Objekt in der Manifest. JSON-Datei für die app.
+<sup>2</sup> unterliegt der supportsFiles-booleschen Eigenschaft für das bot-Objekt in der Datei manifest.jsfür die app.
 
 > [!NOTE]
 > Wenn ein bot eine eigene Anmeldung hat, gibt es eine zweite – anders – Zustimmungs Erfahrung, wenn sich der Benutzer zum ersten Mal anmeldet.
@@ -136,7 +136,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 Keine (derzeit)
 
-### <a name="considerations"></a>Überlegungen
+### <a name="considerations"></a>Erwägungen
 
 - Das Risikoprofil einer Registerkarte ist nahezu identisch mit der Website, die auf einer Browserregister Karte ausgeführt wird. 
 
@@ -154,7 +154,7 @@ POST_MESSAGE_CHANNEL
 
 REPLYTO_CONNECTOR_MESSAGE. Bestimmte Connectors unterstützen umsetzbare Nachrichten, mit denen Benutzer gezielte Antworten auf die Connector-Nachricht senden können, beispielsweisedurch Hinzufügen einer Antwort auf ein GitHub-Problem oder durch Hinzufügen eines Datums zu einer Trello-Karte.
 
-### <a name="considerations"></a>Überlegungen
+### <a name="considerations"></a>Erwägungen
 
 - Das System, in dem Connector-Nachrichten gepostet werden, weiß nicht, wer die Nachricht sendet oder wer die Nachrichten empfängt: Es werden keine Informationen über den Empfänger veröffentlicht. (Microsoft ist der tatsächliche Empfänger, nicht der Mandant; Microsoft führt den eigentlichen Beitrag für den Kanal aus.)
 
@@ -185,7 +185,7 @@ RECEIVE_MESSAGE, REPLYTO_MESSAGE. Kann Nachrichten von Benutzern empfangen und d
 
 Keine
 
-### <a name="considerations"></a>Überlegungen
+### <a name="considerations"></a>Erwägungen
 
 - Ausgehende webhooks ähneln Bots, haben aber weniger Privilegien. Sie müssen ausdrücklich erwähnt werden, genau wie Bots.
 
