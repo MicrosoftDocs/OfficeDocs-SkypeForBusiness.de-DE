@@ -1,0 +1,124 @@
+### YamlMime:Landing
+title: Skype for Business Online-Administrator
+summary: Skype for Business Online wird am 31. Juli 2021, in dem der Zugriff auf den Dienst beendet wird. Wir ermutigen Kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Hub für Teamarbeit in Microsoft 365.
+metadata:
+  title: Skype for Business Online-Administrator
+  description: Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisation.
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin
+  ms.topic: landing-page
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit
+  ms.author: tonysmit
+  f1.keywords:
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020
+  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
+  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "46522963"
+landingContent:
+- title: Informationen zu Skype for Business Online
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Skype for Business Online wird in 2021 eingestellt
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+  - linkListType: get-started
+    links:
+    - text: Erste Schritte
+      url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+  - linkListType: overview
+    links:
+    - text: Wir helfen Ihnen gerne weiter
+      url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+    - text: Benötigen Sie Hilfe bei der Anmeldung bei Skype for Business?
+      url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+    - text: Behandeln von Problemen mit Skype for Business Online
+      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+    - text: Von Skype for Business zu Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+- title: Neuigkeiten
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Einrichten des Telefonsystems in Ihrer Organisation
+      url: /microsoftteams/setting-up-your-phone-system
+    - text: Integration von Drittanbietern mit Audiokonferenz
+      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: Einrichten von Audiokonferenzen
+      url: /microsoftteams/audio-conferencing-in-office-365
+  - linkListType: overview
+    links:
+    - text: Anrufpläne in Kanada (Allgemeine Verfügbarkeit)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+    - text: Anrufpläne in Australien (nur Vorschauversion)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+- title: Audiokonferenzen
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Allgemeine Fragen zu Audiokonferenzen
+      url: /MicrosoftTeams/audio-conferencing-common-questions
+    - text: Anzeigen, ob Audiokonferenz in Ihrem Land/Ihrer Region verfügbar ist
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: Verwalten der Audiokonferenzeinstellungen für meine Organisation
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+    - text: Vergleich zwischen Audiokonferenzanbietern
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+- title: Einrichten
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Einrichten von Skype for Business Online.
+      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren
+      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
+      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+- title: Add-On-Lizenzierung
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Add-On-Lizenzierung für Skype for Business und Microsoft Teams
+      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: Was ist Guthaben für Kommunikationen?
+      url: /MicrosoftTeams/what-are-communications-credits
+- title: Anrufpläne
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Was sind Anrufpläne?
+      url: /MicrosoftTeams/calling-plan-landing-page
+    - text: Anzeigen, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: Einrichten von Anrufplänen
+      url: /MicrosoftTeams/set-up-calling-plans
+- title: Telefonsystem
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Was ist das Telefon System?
+      url: /MicrosoftTeams/what-is-phone-system-in-office-365
+    - text: Das Telefonsystem bietet Ihnen Folgendes
+      url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+- title: Verbessern der Anruf- und Videoqualität
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Beheben von Verbindungsproblemen in Skype for Business
+      url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+    - text: Einrichten von Audio und Video in Skype for Business
+      url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+    - text: Optimieren der Leistung von Skype for Business Online
+      url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802
