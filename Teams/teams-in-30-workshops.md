@@ -3,8 +3,6 @@ title: Teams in 30
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: HubPage
-ms.topic: hub-page
 ms.date: 7/1/19
 ms.service: msteams
 audience: admin
@@ -21,25 +19,19 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b82830041736751685807e2cda652fc4ab8525d
-ms.sourcegitcommit: b257e11ba5506b5a105b438dcade4f12805d9595
+ms.openlocfilehash: b6d721da9e2b5a722675c5026301435c65eac5a8
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44908998"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522493"
 ---
+# <a name="teams-in-30"></a>Teams in 30
 <div id="main" class="v2">
     <div class="container">
-        <h1>Teams in 30</h1>
-           <p>Microsoft freut sich, Sie zu <strong>Teams in 30</strong>, einer Reihe von interaktiven interaktiven Workshops einzuladen, die dazu beitragen, mittelständische Organisationen (500-5000-Mitarbeiter) in weniger als 30 Tagen mit Microsoft Teams in Betrieb zu nehmen. Besuchen Sie uns, um bewährte Anleitungen und bewährte Methoden zu erfahren und Ihre Team-Fragen beantwortet zu bekommen. Workshop-Teilnehmer erhalten auch eine exklusive Einladung zu Open-Mic-Sprechstunden mit einem Team Experten.
+        <p>Microsoft freut sich, Sie zu <strong>Teams in 30</strong>, einer Reihe von interaktiven interaktiven Workshops einzuladen, die dazu beitragen, mittelständische Organisationen (500-5000-Mitarbeiter) in weniger als 30 Tagen mit Microsoft Teams in Betrieb zu nehmen. Besuchen Sie uns, um bewährte Anleitungen und bewährte Methoden zu erfahren und Ihre Team-Fragen beantwortet zu bekommen. Workshop-Teilnehmer erhalten auch eine exklusive Einladung zu Open-Mic-Sprechstunden mit einem Team Experten.
            <p><font color="#6264A7">Sind Sie bereit, zu springen?</font> Wir empfehlen allen Mitgliedern des Projektteams, mit den ersten <i>Schritten mit Teams in 30</i> Sitzungen zu beginnen. Klicken Sie unten auf einen Sitzungstitel, um sich anzumelden.
-        <ul class="pivots">
-            <li>
-                <a href="#home" data-linktype="self-bookmark"></a>
-                <ul id="home">
-                    <li>
-                        <a href="#home-all" data-linktype="self-bookmark"></a>
-                        <ul id="home-all" class="panelContent cardsF cols cols2">        
+ <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
         <div class="cardSize">
@@ -47,7 +39,7 @@ ms.locfileid: "44908998"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Grid of three shapes representing a process" />
+                            <img src="./media/process-flow-teams.svg"  alt="Grid of three shapes representing a process" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +59,7 @@ ms.locfileid: "44908998"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                            <img src="./media/users-people.svg"  alt="Two person icons with representing users" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +78,7 @@ ms.locfileid: "44908998"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud image and carpenter's square, representing cloud architecture" />
+                            <img src="./media/cloud-architecture2.svg"  alt="Cloud image and carpenter's square, representing cloud architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +96,7 @@ ms.locfileid: "44908998"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Grid of four blocks representing architecture" />
+                            <img src="./media/blocks-teams.svg"  alt="Grid of four blocks representing architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -123,7 +115,7 @@ ms.locfileid: "44908998"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg" alt="Image of a graph, representing a report" />
+                            <img src="./media/trend-graph-teams.svg"  alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -143,7 +135,7 @@ ms.locfileid: "44908998"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                            <img src="./media/sign-up-teams.svg"  alt="Sign up symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -156,9 +148,5 @@ ms.locfileid: "44908998"
             </div>
         </div>
         </a>
-    </li>
-
-</ul>
-
-    
+    </li>    
 </ul>

@@ -13,26 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams-Räume und die Bereitstellung und Verwaltung des Systems.
-ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
-ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
+ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773380"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521990"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
-Verwandeln Sie Besprechungsräume, die von kleinen drängenden Bereichen bis zu großen Konferenzräumen reichen, mit einer reichhaltigen, kollaborativen Teams-Erfahrung, die einfach zu verwenden, bereitzustellen und zu managen ist.
-
-Starten Sie Besprechungen pünktlich mit einem Klick, projizieren Sie sie dann sofort auf das Display im Raum und teilen Sie es mit Remote-Teilnehmer.
-
-Wählen Sie die richtige System- und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
-
-:::image type="content" source="../media/srs-room.jpg" alt-text="Konferenz Tabelle mit Microsoft Teams rooms Equipment":::
+:::row:::
+    :::column span="2":::
+       Verwandeln Sie Besprechungsräume, die von kleinen drängenden Bereichen bis zu großen Konferenzräumen reichen, mit einer reichhaltigen, kollaborativen Teams-Erfahrung, die einfach zu verwenden, bereitzustellen und zu managen ist. <br> 
+       Starten Sie Besprechungen pünktlich mit einem Klick, projizieren Sie sie dann sofort auf das Display im Raum und teilen Sie es mit Remote-Teilnehmer.<br> 
+       Wählen Sie die richtige System- und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
+    :::column-end:::
+    :::column:::
+       ![Konferenz Tabelle mit Microsoft Teams rooms Equipment](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Listen Symbol](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Symbol bereitstellen](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[Bereitstellen](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Tools/Schraubenschlüssel](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[Verwalten](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| ![Listen Symbol](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Symbol bereitstellen](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[Bereitstellen](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Tools/Schraubenschlüssel](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[Verwalten](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

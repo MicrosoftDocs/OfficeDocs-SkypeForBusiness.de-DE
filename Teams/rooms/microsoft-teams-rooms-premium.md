@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Weitere Informationen zu Microsoft Teams rooms Premium.
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201279"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521980"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Microsoft Teams rooms Premium
 
-Microsoft Teams rooms Premium ist ein Cloud-basierter IT-Verwaltungs-und Überwachungsdienst, mit dem Microsoft Teams rooms-Geräte und Ihre Peripheriegeräte auf dem neuesten Stand gehalten und proaktiv überwacht werden, wodurch eine für eine hervorragende Benutzererfahrung optimierte Umgebung unterstützt wird.
+Microsoft Teams rooms Premium umfasst einen Cloud-basierten IT-Verwaltungs-und Überwachungsdienst, mit dem Microsoft Teams rooms-Geräte und Ihre Peripheriegeräte auf dem neuesten Stand gehalten und proaktiv überwacht werden, wodurch eine für eine hervorragende Benutzererfahrung optimierte Umgebung unterstützt wird.
 
 Microsoft Teams rooms Premium richtet sich an Organisationen, die ihre Besprechungsraum-Erfahrung verbessern und Ihren Fußabdruck schnell skalieren möchten, indem Sie proaktives Management für Microsoft Teams rooms-Geräte anbieten. Mit dem Dienst können Organisationen Zeit, Geld und Fachwissen sparen, die ansonsten für die Verwaltung von "Do it yourself" aufgewendet werden.  
 
@@ -62,8 +62,6 @@ Im folgenden finden Sie eine Zusammenfassung der wichtigen Funktionen, die der M
 |**Einblicke und Empfehlungen**   |Verwendung, Vorfälle, Integrität und Gesamt Berichterstattung (Verlaufs Ansichten)         |
 
 ## <a name="service-prerequisites"></a>Dienst Voraussetzungen
-
-Der Microsoft Teams rooms Premium-Service ist eine Lizenz für das Add-on pro Raum. Für Microsoft Teams-Räume ist eine separate Benutzer-oder Microsoft Teams-Raum Lizenz erforderlich.
 
 Für Microsoft Teams rooms Premium um die Servicequalität zu gewährleisten, müssen eingeschriebene Chatrooms von [Microsoft Teams rooms unterstützte Geräte](requirements.md#hardware-requirements)sein, und Sie müssen Ihre Umgebung auf alle [erforderlichen Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) vorbereiten, die von Besprechungsraum Geräten vollständig zugelassen und erreichbar sind. Weitere Informationen finden Sie unter [Vorbereiten Ihrer Umgebung](rooms-prep.md) in der Microsoft Teams rooms-Dokumentation.
 

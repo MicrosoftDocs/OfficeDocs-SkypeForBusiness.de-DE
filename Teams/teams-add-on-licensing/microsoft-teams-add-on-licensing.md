@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-on-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028181"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522462"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams-Add-on-Lizenzen
 
@@ -41,7 +41,7 @@ Im folgenden finden Sie eine Liste der Features, die Sie mit den Add-on-Lizenzen
 |:-----|:-----|:-----|:-----|
 |**Feature** <br/> |**Beschreibung** <br/> |**Kleine Unternehmen (<300-Benutzer)**|**Großunternehmen (>300-Benutzer)**|
 **Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) ist eine Telefonie-Lösung für kleine und mittelständische Unternehmen mit bis zu 300-Benutzern, die Telefonsysteme, audiokonferenzs, einen Plan für Inlandsanrufe und vieles mehr bündelt. Zu den Telefon System Funktionen, die Sie erhalten, gehören Voicemail, Rufnummernanzeige, Parken von anrufen, Anrufweiterleitung, automatische Telefonzentralen und Anrufwarteschlangen. <br> Informationen dazu, ob Business Voice in Ihrem Land oder Ihrer Region zur Verfügung steht, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Business Voice](../business-voice/country-region-availability.md). Informationen zu Preisinformationen finden Sie unter [Preise für Business-VoIP](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
-|**Audiokonferenz** <br/> |Manchmal müssen Personen in Ihrer Organisation ein Telefon verwenden, um sich stattdessen in eine Teams-Besprechung einzuwählen. Einrichten von [Audiokonferenzen](../audio-conferencing-in-office-365.md) für Benutzer, die Besprechungen planen oder führen. <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Audiokonferenz** <br/> |Manchmal müssen Personen in Ihrer Organisation ein Telefon verwenden, um sich stattdessen in eine Teams-Besprechung einzuwählen. Einrichten von [Audiokonferenzen](../audio-conferencing-in-office-365.md) für Benutzer, die Besprechungen planen oder führen. <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;|&#x2713;|
 |**Gebührenfreie Nummern** |Wenn Sie gebührenfreie Nummern für Audiokonferenzen, automatische Telefonzentralen oder Anrufwarteschlangen benötigen, müssen Sie [Kommunikationsguthaben einrichten](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Telefonsystem** <br/> |Das [Telefon System](../what-is-phone-system-in-office-365.md) ist ein gehosteter Telefondienst, der Ihnen Anrufsteuerung und Funktionen für die Private Branch Exchange (PBX) bietet, mit Optionen für den Anschluss an das öffentlich geschaltete Telefonnetz (PSTN). Zu den Telefon System Funktionen gehören Cloud-Voicemail, Rufnummernanzeige, Anruf parken, Anrufweiterleitung, automatische Telefonzentralen, Anrufwarteschlangen, Anrufweiterleitung, Rufnummernanzeige und vieles mehr. <br>Weitere Informationen finden [Sie hier: was Sie über das Telefon System erhalten](../here-s-what-you-get-with-phone-system.md). Informationen zur Preisgestaltung finden Sie unter [Preise für Telefonsysteme](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Anrufpläne** <br/> |Wenn Sie möchten, dass Benutzer Telefonnummern außerhalb Ihrer Organisation anrufen können, besorgen Sie [sich einen](../calling-plans-for-office-365.md)Anrufplan. Es gibt Tarife für Inlandsanrufe sowie Pläne für Inlands-und Auslandsgespräche. Informationen zu Preisinformationen finden Sie unter [Preise für Anrufpläne](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
