@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Teams-Vorlagen
+title: Erste Schritte mit Teams-Vorlagen mit Microsoft Graph
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Zusammenarbeits Räume mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um Inhalte und Dienste bereitzustellen.
+description: Hier erfahren Sie, wie Sie mithilfe von Teamvorlagen in Microsoft Graph Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um Inhalte und Dienste bereitzustellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,22 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904620"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506187"
 ---
-# <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams-Vorlagen
+# <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Erste Schritte mit Teams-Vorlagen mit Microsoft Graph
 
 > [!NOTE]
-> In den Teams-Vorlagen wird derzeit keine private Kanalerstellung unterstützt. Die Erstellung privater Kanäle ist in den Vorlagendefinitionen nicht enthalten. 
+> In den Teams-Vorlagen wird derzeit keine private Kanalerstellung unterstützt. Die Erstellung privater Kanäle ist in den Vorlagendefinitionen nicht enthalten.
 
-In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Mithilfe von Teams-Vorlagen können Sie schnell umfangreiche Räume für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. 
+In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Sie können keine eigene Vorlage erstellen. Stattdessen verwenden Sie die vordefinierten Vorlagen mit Microsoft Graph. Mithilfe von Teams-Vorlagen können Sie schnell umfangreiche Räume für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann.
 
 In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie ein Team anhand einer Vorlage mit einigen Beispiel Anforderungen erstellen können.
- 
+
 Dieser Artikel ist für Sie da:
 
 - Verantwortlich für das Planen, bereitstellen und Verwalten mehrerer Teams in Ihrer Organisation<br>
@@ -60,7 +60,7 @@ Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werde
 
 ## <a name="what-are-base-template-types"></a>Was sind Basisvorlagen Typen?
 
-Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die in den Store-und teameigenschaften nicht verfügbar sind, die in den Teams-Vorlagen noch nicht einzeln unterstützt werden.
+Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die in den Store-und teameigenschaften nicht verfügbar sind, die in den Teams-Vorlagen noch nicht einzeln unterstützt werden. Hier erfahren Sie, wie Sie die [Teamvorlagen in der Administratorkonsole](get-started-with-teams-templates.md)verwenden.
 
 Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten jedoch Eigenschaften, die nicht überschrieben werden können.
 

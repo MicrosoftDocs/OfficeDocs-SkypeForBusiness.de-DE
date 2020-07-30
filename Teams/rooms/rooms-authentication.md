@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Informationen zum Konfigurieren der modernen Authentifizierung für Microsoft Teams-Chatrooms
-ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666257"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506179"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räumen
 
@@ -31,9 +31,9 @@ Die moderne Authentifizierung wird in Microsoft Teams rooms Version 4.4.25.0 und
 
 ## <a name="modern-authentication"></a>Moderne Authentifizierung
 
-Wenn Sie die moderne Authentifizierung in der Microsoft Teams rooms-Anwendung verwenden, wird die Active Directory Authentication Library (Adal) verwendet, um eine Verbindung mit Microsoft Teams, Exchange und Skype for Business herzustellen. Ein Microsoft Teams rooms-Gerät ist ein freigegebenes Gerät und führt einen nächtlichen Neustart durch, um einen reibungslosen Betrieb zu gewährleisten und kritische Betriebssystem-, Treiber-, Firmware-oder Anwendungsupdates zu erhalten. Der moderne Authentifizierungsmechanismus verwendet den Berechtigungs Zuteilungs " [Ressourcenbesitzer Kennwort](https://tools.ietf.org/html/rfc6749#section-1.3.3) " in OAuth 2,0, der keine Benutzerintervention erfordert. Dies ist einer der wichtigsten Unterschiede zwischen der Funktionsweise der modernen Authentifizierung für Benutzerkonten und Ressourcenkonten, die von der Microsoft Teams rooms-Anwendung verwendet werden. Aus diesem Grund sollten Microsoft Teams rooms-Ressourcenkonten nicht so konfiguriert werden, dass Sie mehrstufige Authentifizierung (MFA), Smartcard-Authentifizierung oder Clientzertifikat basierte Authentifizierung verwenden (die alle für Endbenutzer verfügbar sind).
+Wenn Sie die moderne Authentifizierung in der Microsoft Teams rooms-Anwendung verwenden, wird die Active Directory Authentication Library (Adal) verwendet, um eine Verbindung mit Microsoft Teams, Exchange und Skype for Business herzustellen. Ein Microsoft Teams rooms-Gerät ist ein freigegebenes Gerät und führt einen nächtlichen Neustart durch, um einen reibungslosen Betrieb zu gewährleisten und kritische Betriebssystem-, Treiber-, Firmware-oder Anwendungsupdates zu erhalten. Der moderne Authentifizierungsmechanismus verwendet den Berechtigungs Zuteilungs " [Ressourcenbesitzer Kennwort](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) " in OAuth 2,0, der keine Benutzerintervention erfordert. Dies ist einer der wichtigsten Unterschiede zwischen der Funktionsweise der modernen Authentifizierung für Benutzerkonten und Ressourcenkonten, die von der Microsoft Teams rooms-Anwendung verwendet werden. Aus diesem Grund sollten Microsoft Teams rooms-Ressourcenkonten nicht so konfiguriert werden, dass Sie mehrstufige Authentifizierung (MFA), Smartcard-Authentifizierung oder Clientzertifikat basierte Authentifizierung verwenden (die alle für Endbenutzer verfügbar sind).
 
-Der andere wichtige Unterschied zwischen der Funktionsweise der modernen Authentifizierung in Microsoft Teams rooms-Geräten und Endbenutzergeräten besteht darin, dass Sie kein Ressourcenkonto verwenden können, um bedingte Zugriffsrichtlinien auf Geräteebene anzuwenden, beispielsweise "Gerät als kompatibel kennzeichnen" oder "Hybrid-Azure-AD-Join-Gerät erforderlich" usw. Dies liegt daran, dass Konzepte auf Geräteebene bei Verwendung auf Anwendungsebene nicht für die moderne Authentifizierung gelten. Stattdessen können Sie ein Gerät in Microsoft InTune registrieren und Konformitätsrichtlinien anwenden, indem Sie die Anleitungen unter [Verwalten von Teams-Besprechungsräumen mit InTune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)verwenden.
+Der andere wichtige Unterschied zwischen der Funktionsweise der modernen Authentifizierung in Microsoft Teams rooms-Geräten und Endbenutzergeräten besteht darin, dass Sie kein Ressourcenkonto verwenden können, um bedingte Zugriffsrichtlinien auf Geräteebene in Azure Active Directory und Endpoint Manager anzuwenden, da Geräteinformationen bei Verwendung dieses Grant-Typs nicht übergeben werden. Stattdessen können Sie ein Gerät in Microsoft Endpoint Manager registrieren und Konformitätsrichtlinien anwenden, indem Sie die Anleitungen unter [Verwalten von Teams-Besprechungsräumen mit InTune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)verwenden.
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Aktivieren der modernen Authentifizierung auf einem Microsoft Teams rooms-Gerät
 
@@ -51,7 +51,7 @@ Damit Microsoft Teams rooms die moderne Authentifizierung mit Skype for Business
 
 ### <a name="using-the-xml-config-file"></a>Verwenden der XML-Konfigurationsdatei
 
-Legen Sie in der Datei "SkypeSettings. xml" das moderne Authentifizierungs-XML-Element wie folgt auf " **true**" fest.
+Legen Sie in ihrer SkypeSettings.xml-Datei das moderne Authentifizierungs-XML-Element wie folgt auf **true**fest.
 
 ```
 <ModernAuthEnabled>True</ModernAuthEnabled>
@@ -67,17 +67,19 @@ Bevor Sie beginnen, sollten Sie sich mit den Identitäts Modellen vertraut mache
 
 Informationen zum Aktivieren der modernen Authentifizierung für Exchange Online finden Sie unter [Aktivieren der modernen Authentifizierung in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). Wenn Sie Skype for Business Online verwenden, sollten Sie auch sicherstellen, dass die moderne Authentifizierung für Skype for Business Online aktiviert ist. Weitere Informationen finden Sie unter [Skype for Business Online: Aktivieren Ihres Mandanten für moderne Authentifizierung](https://aka.ms/SkypeModernAuth).
 
-Wir empfehlen, dass Sie keine Standard Authentifizierungsrichtlinien für Exchange Online entfernen oder die Standardauthentifizierung für Ihren Mandanten deaktivieren, bevor Sie überprüft haben, dass sich die Geräte von Microsoft Teams rooms bei Exchange Online und Teams oder Skype for Business Online anmelden können, wenn die moderne Authentifizierungseinstellung aktiviert ist und keine Geräte vorhanden sind, die weiterhin für die Verwendung der Standardauthentifizierung konfiguriert sind.
+Wir empfehlen, dass Sie die grundlegenden Authentifizierungsrichtlinien für Exchange Online nicht entfernen oder die Standardauthentifizierung für Ihren Mandanten deaktivieren, bis Sie überprüft haben, dass sich Microsoft Teams rooms-Geräte erfolgreich mit Exchange Online, Teams und Skype for Business Online anmelden können.
 
 Weitere Informationen zum Deaktivieren der Standardauthentifizierung in Exchange Online finden Sie unter [Deaktivieren der Standardauthentifizierung in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online).
 
 ## <a name="hybrid-modern-authentication"></a>Moderne Hybrid Authentifizierung
 
-Um eine erfolgreiche Authentifizierung für Ihren lokalen Exchange-Server und/oder Skype for Business Server sicherzustellen, müssen Sie sicherstellen, dass das Ressourcenkonto, das mit Microsoft Teams-Räumen verwendet wird, so konfiguriert ist, dass es die Autorisierung von Azure AD erhält. Weitere Informationen zu Hybrid Identitäten und-Methoden, die für Ihre Organisation funktionieren, finden Sie unter den folgenden Themen: 
+Um eine erfolgreiche Authentifizierung für Ihren lokalen Exchange-Server und/oder Skype for Business Server sicherzustellen, müssen Sie sicherstellen, dass das Ressourcenkonto, das mit Microsoft Teams-Räumen verwendet wird, so konfiguriert ist, dass es die Autorisierung von Azure AD erhält. 
 
-- [Was ist die Kennworthash Synchronisierung?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
-- [Was ist Passthrough-Authentifizierung?](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
-- [Was ist Federation?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed)
+Teams rooms die Authentifizierungs Flüsse variieren je nach Authentifizierungskonfiguration. Für Kunden, die eine verwaltete Domäne verwenden, verwendet Teams rooms die [Anmeldeinformationen des OAuth 2,0-Ressourcen Besitzers](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc) mit Azure Active Directory. Für Kunden, die eine Federated-Domäne verwenden, wird jedoch [OAuth 2,0 SAML Bearer-Assertions Fluss](https://docs.microsoft.com/azure/active-directory/develop/v2-saml-bearer-assertion) verwendet.
+
+> [!NOTE]
+> Ihr Identitätsanbieter benötigt möglicherweise bestimmte Konfigurationen oder Einstellungen für die Integration in Azure Active Directory oder Office 365. Wenden Sie sich an Ihren Identitätsanbieter, wenn Sie Hilfe beim Konfigurieren der Authentifizierung mit Teams-Chatrooms benötigen.
+
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Für Microsoft Teams-Räume spezifische Voraussetzungen
 
@@ -88,7 +90,7 @@ Da die Microsoft Teams-Räume jedoch die Autorisierung für das [Kennwort des Re
 - Sie müssen über Exchange Server 2016 CU8 oder höher oder Exchange Server 2019 CU1 oder höher verfügen.
 - Sie müssen über Skype for Business Server 2015 CU5 oder höher oder Skype for Business Server 2019 oder höher verfügen.
 - MFA wird unabhängig von der verwendeten Topologie nicht unterstützt.
-- Wenn Sie einen von Azure AD unterstützten Drittanbieter-Authentifizierungsanbieter verwenden, muss er OAuth unterstützen und die Autorisierung des Kennworts für den Ressourcenbesitzer verwenden.
+- Wenn Sie einen von Azure AD unterstützten Drittanbieter-Authentifizierungsanbieter verwenden, muss er einen aktiven Authentifizierungs Fluss über WS-Trust unterstützen.
 - Verwenden Sie keine Richtlinien für den bedingten Zugriff auf Geräteebene für ein mit der Anwendung konfiguriertes Ressourcenkonto. Dies führt zu Anmeldefehlern. Registrieren Sie stattdessen ein Gerät in Microsoft InTune, und wenden Sie Konformitätsrichtlinien mithilfe der in [Verwalten von Teams-Besprechungsräumen mit InTune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)veröffentlichten Anleitungen an.
 
 ### <a name="configure-exchange-server"></a>Konfigurieren von Exchange Server

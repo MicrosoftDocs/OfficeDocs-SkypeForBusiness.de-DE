@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen (Call Quality Dashboard)
-ms.openlocfilehash: 1647497cf2551a125e28d5a3920625bee15eca9f
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138043"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506168"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -124,7 +124,7 @@ Trotz der Nutzung von Power BI wird nicht alle Power BI-Funktionen vom CQD-Conne
 
 6. **Support für Government Community Cloud (gcc) –** Für Kunden in der gcc-Umgebung funktioniert der CQD Power BI-Connector bei Verwendung von Power BI Desktop. Der CQD Power BI Connector ist derzeit nicht mit dem Power BI-Dienst für gcc-Kunden kompatibel.
 
-Beachten Sie, dass sich diese Einschränkungen mit der endgültigen Version des Connectors wahrscheinlich nicht ändern, obwohl sich der Connector in der Vorschau befindet. Bei den meisten dieser Probleme handelt es sich entweder um Einschränkungen des DirectQuery-Connector-Designs in Power BI oder um ein grundlegendes Design des CQD-Datenmodells.
+Bei den meisten dieser Probleme handelt es sich entweder um Einschränkungen des DirectQuery-Connector-Designs in Power BI oder um ein grundlegendes Design des CQD-Datenmodells.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
