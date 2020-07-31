@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: c31a368c33c1e88cb97a67fb7fd2001e0168bf73
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146071"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506128"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -108,6 +108,9 @@ Kanalnamen dürfen keine der folgenden Zeichen oder Worte enthalten.
 Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen oder mit einem Punkt (.) enden.
 
 ## <a name="meetings-and-calls"></a>Besprechungen und Anrufe
+
+> [!IMPORTANT]
+> Im April [kündigten wir an](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929), dass bis zum 1. Juli vorübergehende Erhöhungen der Limits für Microsoft 365-Liveereignisse ermöglicht werden, um Kunden besser unterstützen zu können. Um den Bedürfnissen der Kunden weiterhin gerecht zu werden, werden wir die befristeten Limits bis zum 1. Oktober 2020 verlängern. Liveereignisse in Teams, Stream und Yammer werden weiterhin vorübergehend Ereignisse für bis zu 20.000 Teilnehmer, 16 Stunden Dauer und 50 gleichzeitig stattfindende Ereignisse unterstützen. Darüber hinaus können Kunden ein Liveereignis in Stream für bis zu 100.000 Teilnehmer veranstalten, wenn dies über das [Microsoft Hilfsprogramm für Liveereignisse](https://resources.techcommunity.microsoft.com/live-events/assistance/) geplant ist.
 
 |Feature     | Obergrenze |
 |------------|---------------|
