@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Kursleitergeführte Schulung für Microsoft Teams
+summary: Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Sie wissen nicht, wo Sie anfangen sollen? Nutzen Sie unseren Teams-Wissenscheck. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Um sich unsere Schulungskurse selbstständig anzusehen, besuchen Sie unsere On-Demand-Schulung für Endbenutzer. Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.
+metadata:
+  title: Kursleitergeführte Schulung für Microsoft Teams
+  description: Hier erfahren Sie, wie Sie sich für ﻿kostenlose, kursleitergeführte Liveschulungen anmelden, um alles über Microsoft Teams zu erfahren.
+  ms.topic: hub-page
+  author: lolajacobsen
+  ms.author: lolaj
+  ms.date: 06/16/2020
+  ms.openlocfilehash: 11b6a79428b957680c5a931f062e44f605a6d54c
+  ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 07/31/2020
+  ms.locfileid: "46534113"
+highlightedContent:
+  items:
+  - title: Wissensüberprüfung für Teams
+    itemType: learn
+    url: https://aka.ms/TeamsKnowledgeCheck
+  - title: On-Demand-Schulung für Endbenutzer
+    itemType: video
+    url: https://aka.ms/TeamsOnDemand
+productDirectory:
+  items:
+  - title: Willkommen bei Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
+    summary: 'Was ist Microsoft Teams? Nehmen Sie an dieser 30-minütigen Orientierungssitzung teil, um mehr über Teams zu erfahren und es in Aktion zu sehen. (Zielgruppe: alle)'
+    url: https://aka.ms/SayhelloTeams
+  - title: Erste Schritte mit Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: 'Von Chat und Besprechungen bis hin zur Verwendung von Teams und Kanälen – Benutzer kennen nach dieser Sitzung die Grundlagen, um Teams zu verwenden. (Zielgruppe: Endbenutzer)'
+    url: https://aka.ms/GetstartedwithMSTeams
+  - title: Mit Teams effektive Besprechungen durchführen
+    imageSrc: https://docs.microsoft.com/office/media/icons/tasks-teams.svg
+    summary: 'Erfahren Sie, wie Sie Teams wirksam vor, während und nach Besprechungen nutzen können. (Zielgruppe: Endbenutzer)'
+    url: https://aka.ms/RunmeetingsTeams
+  - title: Erkunden von Teams und Kanälen in Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    summary: 'Erfahren Sie, wie Sie Ihre Zusammenarbeit im Rahmen von Projekten und Arbeitsgruppen optimieren können. (Zielgruppe: Endbenutzer)'
+    url: https://aka.ms/TeamsandchannelsinTeams
+  - title: Erlernen der Verwendung von Apps in Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: " Erfahren Sie, wie Sie Teamwork mit Apps verbessern. (Zielgruppe: Endbenutzer)"
+    url: https://aka.ms/IntegrateappsinTeams
+  - title: Erfahren Sie, wie Sie Teams professionell nutzen können
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+    summary: 'Lernen Sie kreative Möglichkeiten kennen, um Ihre tägliche Arbeit mit Teams zu optimieren und zu organisieren. (Zielgruppe: Endbenutzer)'
+    url: https://aka.ms/GodeeperwithTeams
+  - title: Microsoft Teams Education – Webinare
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: 'Erfahren Sie, wie Sie Teams in Hochschulen verwenden. (Zielgruppe: Mitarbeiter, Studenten, Akademiker, Forschungsmitarbeiter, IT-Experten)'
+    url: https://aka.ms/TeamsEduWebinars
+  - title: Von zuhause arbeitender Meister mit Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: " NEU! Lernen Sie bewährte Methoden kennen, wie Sie mit Ihrem Team in Verbindung bleiben und die Produktivität aufrechterhalten. (Zielgruppe: Endbenutzer, Team-und Abteilungsleiter)"
+    url: https://aka.ms/WorkathomewithTeams
+  - title: Workshops zur Upgrade-Planung
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+    summary: 'Planen und Implementieren eines erfolgreichen Upgrades für Teams (Zielgruppe: IT-Experten, Adoptions Änderungsmanager)'
+    url: /MicrosoftTeams/upgrade-workshops-landing-page
