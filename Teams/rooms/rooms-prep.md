@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räumen vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526701"
+ms.locfileid: "46529178"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -39,7 +39,7 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte, die erforderlich s
      > [!IMPORTANT]
      > Microsoft Teams rooms unterstützt keine Proxyauthentifizierung, da dies den normalen Betrieb des Raums stören kann. Stellen Sie sicher, dass Microsoft Teams-Chatrooms von der Proxyauthentifizierung ausgenommen wurden, bevor Sie die Produktion durchlaufen.
   
-3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Damit Microsoft Daten sammeln kann, können Sie diese Websites auflisten:
+3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Damit Microsoft Daten sammeln kann, können Sie diese Websites zulassen:
 
    - Telemetrie-Clientendpunkt:https://vortex.data.microsoft.com/
    - Endpunkt der Telemetrie-Einstellungen:https://settings.data.microsoft.com/

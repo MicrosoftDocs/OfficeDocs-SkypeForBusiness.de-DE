@@ -53,7 +53,6 @@
 ## [Teams-Vorlagen integrieren Graph für kleine und mittlere Unternehmen](smb-templates.md)
 
 
-
 ## Apps, Bots und Connectors
 
 ### [Übersicht](deploy-apps-microsoft-teams-landing-page.md)

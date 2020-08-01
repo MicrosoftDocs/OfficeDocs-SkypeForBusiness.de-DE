@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091e63b47dd33e848be9fc77f6f630174564c95
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665967"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533852"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
@@ -51,7 +51,7 @@ Wenn Ihr Unternehmen über ein zentrales Intranet-Portal für Neuigkeiten, Infor
 
 Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer bereitzustellen, während Personen mit der Verwendung von Microsoft Teams und anderen Microsoft 365-oder Office 365-Diensten beginnen. Besuchen Sie unsere Ressourcen Seiten, um weitere Informationen zu erhalten:
 
-- [Schulung von Kursleitern für Benutzerschulungen für Teams](instructor-led-training-teams-landing-page.md)
+- [Schulung von Kursleitern für Benutzerschulungen für Teams](instructor-led-training-teams-landing-page.yml)
 - [Administrator Schulungen für Teams](itadmin-readiness.md)
 - [Online-Videoschulung für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Kaffee in der Cloud Online-Schulung für Champions & IT-Experten](https://aka.ms/CoffeeintheCloud) 

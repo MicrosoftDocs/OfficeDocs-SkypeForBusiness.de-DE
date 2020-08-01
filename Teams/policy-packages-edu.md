@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021883"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533902"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
 
@@ -100,7 +100,7 @@ Nachdem Sie die Richtliniendefinition erstellt oder aktualisiert haben, können 
 Sie können einem Benutzer auch eine Richtlinie zuweisen, indem Sie zu „Benutzer“ navigieren, den Benutzer auswählen, für den Sie die Richtlinien aktualisieren möchten, dann „Richtlinien“ und schließlich „Bearbeiten“ auswählen. Dort können Sie die Richtliniendefinition auswählen, die Sie dem Benutzer für jeden Fähigkeitenbereich zuweisen möchten.
 
 > [!IMPORTANT]
-> Wenn Sie Teil einer großen Bildungseinrichtung sind, ist es möglicherweise schwierig, die Richtlinien für jeden einzelnen Benutzer im Microsoft Teams Admin Portal festzulegen. Es empfiehlt sich dann, Richtlinien per Massenzuweisung in PowerShell zu verarbeiten. Wir haben einige, für Bildungseinrichtungen spezifische, Informationen dazu, wie Sie [einer großen Gruppe von Benutzern in Ihrer Bildungseinrichtung Richtlinien zuweisen](batch-policy-assignment-edu.md), falls Sie diese benötigen, und Sie können auch den nachstehenden Abschnitt zu Richtlinienpaketen lesen, die eine weitere großartige Möglichkeit zum Verwalten von Richtlinien und Einstellungen für große Benutzergruppen sind.
+> Wenn Sie Teil einer großen Bildungseinrichtung sind, ist es möglicherweise schwierig, die Richtlinien für jeden einzelnen Benutzer im Microsoft Teams Admin Portal festzulegen. Es empfiehlt sich dann, Richtlinien per Massenzuweisung in PowerShell zu verarbeiten. Wir haben einige, für Bildungseinrichtungen spezifische, Informationen dazu, wie Sie [einer großen Gruppe von Benutzern in Ihrer Bildungseinrichtung Richtlinien zuweisen](batch-group-policy-assignment-edu.md), falls Sie diese benötigen, und Sie können auch den nachstehenden Abschnitt zu Richtlinienpaketen lesen, die eine weitere großartige Möglichkeit zum Verwalten von Richtlinien und Einstellungen für große Benutzergruppen sind.
 
 ![Bereich „Benutzerrichtlinien bearbeiten“ rechts auf der Seite „zugewiesene Richtlinien“.](media/edu-edit-user-policies-pane.png)
 
