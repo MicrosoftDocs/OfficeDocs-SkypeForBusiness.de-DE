@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: c207834a2975afcb5aa6e9576c56d2129ff248ff
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522342"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533532"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -114,7 +114,6 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  |300. <br><br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) liegt die Beschränkung immer noch bei 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird und Besprechungs-Überlauf unterstützt.   |
 |Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300 |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
