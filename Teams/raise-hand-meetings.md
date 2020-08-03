@@ -1,5 +1,5 @@
 ---
-title: Erhöhen der Hand in Teams-Besprechungen
+title: In Teams Besprechungen die Hand heben
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,42 +17,42 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Informieren Sie sich über das Feature "Hand heben" in Microsoft Teams-Besprechungen.
+description: Erfahren Sie mehr über das Feature „Hand heben“ in Microsoft Teams-Besprechungen.
 ms.openlocfilehash: 9f431354b412cd51afb662a86246f9f23662a676
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44755419"
 ---
-# <a name="raise-your-hand-option-in-teams-meetings"></a>Erhöhen der Hand Option in Teams-Besprechungen
+# <a name="raise-your-hand-option-in-teams-meetings"></a>Option „Hand heben“ in Teams-Besprechungen
 
-Während einer Microsoft Teams-Besprechung kann ein Teilnehmer die Option " **Ihre Hand erhöhen** " verwenden, um die Behebung des Sprechers und des Moderators zu erhalten.
+Während einer Microsoft Teams-Besprechung kann ein Teilnehmer die Option **Hand heben** verwenden, um die Aufmerksamkeit des Sprechers und des Moderators zu erhalten.
 
 Dieses Feature ist aus folgenden Gründen wichtig:
 
-- Teilnehmer können signalisieren, dass Sie sich unterhalten möchten, ohne die Besprechung zu unterbrechen.
+- Die Teilnehmer können signalisieren, dass Sie sprechen möchten, ohne die Besprechung zu unterbrechen.
 
-- Der Moderator oder Sprecher kann sehen, ob jemand in der Besprechung sprechen möchte.  
+- Der Moderator oder Sprecher kann sehen, ob jemand in der Besprechung reden möchte.  
 
-- **Erhöhen Sie Ihre Hand** , um Ihre Besprechungen umfassender zu machen, indem Sie die Teilnahme der Teilnehmer ermutigen.
+- Das Feature **Hand heben** macht Besprechungen inklusiver, indem sie die Teilnahme fördert.
 
-- **Raise Your Hand** bietet eine einfache und schnelle Möglichkeit, um eine Umfrage von Besprechungsteilnehmern zu führen.
+- **Hand heben** bietet eine einfache und schnelle Möglichkeit, eine Umfrage unter den Sitzungsteilnehmern durchzuführen.
 
-Ein Teamadministrator muss keine Richtlinie erstellen, damit das Feature in einer Besprechung angezeigt wird.
+Ein Teams-Administrator muss keine Richtlinie erstellen, damit das Feature in einer Besprechung angezeigt wird.
 
-## <a name="raise-your-hand-display"></a>Heben der Hand Anzeige
+## <a name="raise-your-hand-display"></a>Die Anzeige „Hand heben“
 
-**Ihre Hand zu erhöhen** steht in jeder Besprechung, der Sie beitreten, immer zur Verfügung und wird auf allen Clients mit Ausnahme von Besprechungsraum Geräten (derzeit) unterstützt.
+**Hand heben** ist in jeder Besprechung, an der Sie teilnehmen, verfügbar und wird auf allen Clients unterstützt, mit Ausnahme der Geräte im Besprechungsraum (im Moment).
 
-- Eine erhöhte Hand ist für alle Besprechungsteilnehmer sichtbar und durch ein Handsymbol gekennzeichnet.
+- Eine erhobene Hand ist für alle Besprechungsteilnehmer sichtbar und wird durch ein Handsymbol angezeigt.
 
-- Erhöhte Hände werden in der Besprechungs Phase, in der Liste (nach Dauer sortiert) und beim Freigeben von Inhalten angezeigt.
+- Die erhobenen Hände werden in der Besprechungsphase, im Dienstplan (sortiert nach Dauer) und beim Teilen von Inhalten gezeigt.
 
-- Die erhöhte Hand wird als gelb neben dem Namen eines Teilnehmers angezeigt.
+- Die erhobene Hand wird gelb neben dem Namen eines Teilnehmers angezeigt.
 
-Sobald die Teilnehmer bestätigt wurden, können Sie die Option " **Ihre Hand senken** " verwenden. Besprechungsreferenten können auch die Hand eines Teilnehmers senken.
+Sobald die Teilnehmer bestätigt wurden, können sie die Option **Hand senken** verwenden. Moderatoren können die Hand eines Teilnehmers ebenfalls senken.
 
 ## <a name="related-article"></a>Verwandter Artikel
 
-[Heben der Hand in einer Teambesprechung](https://support.office.com/article/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372?ui=en-US&rs=en-US&ad=US)
+[Hand in einer Teambesprechung heben](https://support.office.com/article/raise-your-hand-in-a-teams-meeting-bb2dd8e1-e6bd-43a6-85cf-30822667b372?ui=en-US&rs=en-US&ad=US)

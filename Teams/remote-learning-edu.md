@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085971"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533760"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -98,7 +98,7 @@ Für **Schüler an Grundschulen und weiterführende Schulen ** sind möglicherwe
 > [!IMPORTANT]
 > Bei Besprechungsrichtlinien, die Benutzern zugewiesen werden, empfiehlt es sich, die Einstellung „Personen automatisch zulassen“ auf „Jede/r in Ihrer Organisation“ festzulegen. Mit dieser Einstellung wird sichergestellt, dass nicht-authentifizierte Benutzer aus dem Wartebereich zugelassen werden müssen, bevor sie an Teams-Besprechungen teilnehmen können. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
-**Mitarbeitern und Lehrkräften an Grundschulen** sollten Richtlinien zugewiesen werden, die ihnen die Kernfunktionen erlauben, die für Schüler möglicherweise eingeschränkt sind. Erstellen Sie neue Richtlinien, die private Chats und die Besprechungsplanung zulassen (Standardeinstellungen für eine neue Richtlinie). [Weisen Sie diese Richtlinien Ihren Mitarbeitern und Lehrkräften per Batch-Richtlinienzuweisung in größeren Mengen zu](batch-policy-assignment-edu.md).
+**Mitarbeitern und Lehrkräften an Grundschulen** sollten Richtlinien zugewiesen werden, die ihnen die Kernfunktionen erlauben, die für Schüler möglicherweise eingeschränkt sind. Erstellen Sie neue Richtlinien, die private Chats und die Besprechungsplanung zulassen (Standardeinstellungen für eine neue Richtlinie). [Weisen Sie Mitarbeitern und Pädagogen diese Richtlinien in großen Mengen zu](batch-group-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Einstieg in die Verwendung von Teams
 

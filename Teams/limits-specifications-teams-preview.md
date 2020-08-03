@@ -18,12 +18,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 7138495b3f210a7c10b61b7bb8dc1287afefb71c
 ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522342"
+ms.locfileid: "46522925"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -109,16 +110,20 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 ## <a name="meetings-and-calls"></a>Besprechungen und Anrufe
 
-> [!IMPORTANT]
-> Im April [kündigten wir an](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929), dass bis zum 1. Juli vorübergehende Erhöhungen der Limits für Microsoft 365-Liveereignisse ermöglicht werden, um Kunden besser unterstützen zu können. Um den Bedürfnissen der Kunden weiterhin gerecht zu werden, werden wir die befristeten Limits bis zum 1. Oktober 2020 verlängern. Liveereignisse in Teams, Stream und Yammer werden weiterhin vorübergehend Ereignisse für bis zu 20.000 Teilnehmer, 16 Stunden Dauer und 50 gleichzeitig stattfindende Ereignisse unterstützen. Darüber hinaus können Kunden ein Liveereignis in Stream für bis zu 100.000 Teilnehmer veranstalten, wenn dies über das [Microsoft Hilfsprogramm für Liveereignisse](https://resources.techcommunity.microsoft.com/live-events/assistance/) geplant ist.
-
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  |300. <br><br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) liegt die Beschränkung immer noch bei 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird und Besprechungs-Überlauf unterstützt.   |
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  |300. Bei **„Nur anzeigen“** können bis zu 20.000 Teilnehmer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für die Advanced Communications-Add-on-SKU verfügt.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird und Besprechungs-Überlauf unterstützt.   |
 |Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300 |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
+
+<sup>1</sup> „Nur anzeigen“ ist standardmäßig aktiviert. Sie können mithilfe von PowerShell den Besprechungs-Überlauf deaktivieren. 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
+```
+„Nur-anzeigen“-Teilnehmer können nicht an einer Besprechung teilnehmen, wenn es in der Besprechung keine mehr Anzeigekapazität gibt oder wenn der Teilnehmer keine Berechtigung zum Umgehen der Lobby hat, basierend auf den Richtlinien oder Optionen für die Lobby. „Nur anzeigen“-Teilnehmer können keine nativen PPT-Freigabe Dateien sehen.
 
 ### <a name="meeting-expiration"></a>Ablauf der Besprechung
 

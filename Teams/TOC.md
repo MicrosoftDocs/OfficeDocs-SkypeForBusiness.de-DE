@@ -8,7 +8,7 @@
 
 # Schulungen
 ## [Übersicht](training-microsoft-teams-landing-page.md)
-## [Kursleitergeführte Schulung für Teams](instructor-led-training-teams-landing-page.md)
+## [Kursleitergeführte Schulung für Teams](instructor-led-training-teams-landing-page.yml)
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
 ## [Microsoft Teams-Schulungen für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -670,7 +670,8 @@
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
 ### [Erste Schritte mit Remote-Schulungen](remote-learning-edu.md)
 ### [Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen](policy-packages-edu.md)
-### [Zuweisen von Richtlinien zu großen Benutzergruppen](batch-policy-assignment-edu.md)
+### [Zuweisen von Richtlinien zu großen Benutzergruppen](batch-group-policy-assignment-edu.md)
+### [PowerShell-Skript zum Erstellen von Sicherheitsgruppen für Lehrkräfte und Kursteilnehmer](scripts/powershell-script-security-groups-edu.md)
 ### [Anleitungen zu geringer Bandbreite für Administratoren in Bildungseinrichtungen](edu-remote-low-bandwidth.md)
 ### [Class Insights](class-insights.md)
 ### [Aufgaben in Teams für Bildungseinrichtungen](expand-teams-across-your-org/assignments-in-teams.md)
