@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-on-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 05df369636687d84235dffbfe5ba494213e5374f
+ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522462"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "46542856"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams-Add-on-Lizenzen
 
@@ -46,6 +46,7 @@ Im folgenden finden Sie eine Liste der Features, die Sie mit den Add-on-Lizenzen
 |**Telefonsystem** <br/> |Das [Telefon System](../what-is-phone-system-in-office-365.md) ist ein gehosteter Telefondienst, der Ihnen Anrufsteuerung und Funktionen für die Private Branch Exchange (PBX) bietet, mit Optionen für den Anschluss an das öffentlich geschaltete Telefonnetz (PSTN). Zu den Telefon System Funktionen gehören Cloud-Voicemail, Rufnummernanzeige, Anruf parken, Anrufweiterleitung, automatische Telefonzentralen, Anrufwarteschlangen, Anrufweiterleitung, Rufnummernanzeige und vieles mehr. <br>Weitere Informationen finden [Sie hier: was Sie über das Telefon System erhalten](../here-s-what-you-get-with-phone-system.md). Informationen zur Preisgestaltung finden Sie unter [Preise für Telefonsysteme](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Anrufpläne** <br/> |Wenn Sie möchten, dass Benutzer Telefonnummern außerhalb Ihrer Organisation anrufen können, besorgen Sie [sich einen](../calling-plans-for-office-365.md)Anrufplan. Es gibt Tarife für Inlandsanrufe sowie Pläne für Inlands-und Auslandsgespräche. Informationen zu Preisinformationen finden Sie unter [Preise für Anrufpläne](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams-Räume** <br/> |[Microsoft Teams rooms](../rooms/index.md) ist kein Add-on, sondern ein Feature, das Video-, Audio-und Inhalts Freigaben für Konferenzräume bietet. Weitere Informationen finden Sie unter [Lizenzierung von Teams-Besprechungsräumen](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
+|**Erweiterte Kommunikation** <br/> |[Erweiterte Kommunikation](advanced-communications.md) umfasst erweiterte Anruf-und Besprechungsfunktionen, wie große Besprechungen, Anpassungen an Besprechungen, Kommunikations Integrationen und erweiterte Tools für die Kommunikationsverwaltung. Erreichen Sie größere Zielgruppen mit Live-Events für bis zu 20.000 Teilnehmer und interaktive Besprechungen für 1.000 Teilnehmer. Zu den zusätzlichen Features gehören die benutzerdefinierte Besprechungslobby, um Ihre Besprechungen anzupassen, die Möglichkeit, Besprechungen und Anrufe in Workflows zu integrieren, sowie Tools zum überwachen, nachverfolgen und Analysieren von Daten auf Benutzern und Geräten.   |&#x2713;|&#x2713;|
 
 <sup>1</sup> Wenn Sie ein kleines oder mittelständisches Unternehmen sind, das über einen Microsoft 365 Enterprise-Plan verfügt, können Sie dennoch Add-on-Lizenzen für diese Sprachfeatures erwerben, doch empfehlen wir, einen [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) -Plan und eine [Business-VoIP](https://www.microsoft.com/microsoft-365/business/business-voice)zu verwenden.
 
