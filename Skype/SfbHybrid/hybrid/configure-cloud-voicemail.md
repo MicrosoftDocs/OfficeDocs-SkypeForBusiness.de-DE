@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Implementieren von Cloud-basierter Voicemail für Benutzer, die in Skype for Business Server verwaltet werden.
-ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 29faba6bf092647f0c55899f013c6b4bf146304f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221459"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552581"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Konfigurieren des Cloud Voicemail-Diensts für lokale Benutzer
 
@@ -38,7 +38,7 @@ Das Konfigurieren der Cloud-Voicemail umfasst die folgenden Aufgaben:
 
 2.  Stellen Sie sicher, dass Sie die Hybrid Konnektivität wie unter [Plan Hybrid](plan-hybrid-connectivity.md) Connectivity und [configure Hybrid Connectivity](configure-hybrid-connectivity.md)beschrieben eingerichtet haben. 
 
-3.  [Konfigurieren Sie die Cloud-Voicemail als Hostanbieter auf dem Edgeserver](#configure-cloud-voicemail-as-the-hosting-provider) , wie in diesem Artikel beschrieben.
+3.  [Konfigurieren Sie die Cloud-Voicemail als Hostanbieter auf dem Front-End-Server](#configure-cloud-voicemail-as-the-hosting-provider) , wie in diesem Artikel beschrieben.
 
 4.  [Konfigurieren Sie eine Richtlinie für gehostete Voicemail](#configure-a-hosted-voicemail-policy) wie in diesem Artikel beschrieben.
 
