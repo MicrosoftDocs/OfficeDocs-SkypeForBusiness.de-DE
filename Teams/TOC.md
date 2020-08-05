@@ -68,7 +68,6 @@
 ### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Verwalten der Listen-App für Ihre Organisation in Teams](manage-lists-app.md)
 ### [Verwalten der Aufgaben-App für Ihre Organisation](manage-tasks-app.md)
-### [Praise-App verwalten](manage-praise-app.md)
 ### [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
