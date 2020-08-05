@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Cloud-Telefonzentralen und deren Verwendung, um Anrufern das Navigieren in einem Menü System zu ermöglichen, um Anrufe an Benutzer oder Abteilungen zu suchen und dort zu platzieren oder zu übertragen.
-ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077640"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552571"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloud-Telefonzentralen?
 
@@ -109,7 +109,7 @@ Anrufer können bei der Suche nach Namen in Ihrer Organisation über die Wählta
 |Vorname  |Vollständig   |Amos#   |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus. |
 |LastName |Vollständig |Marble#  |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Mary Marble. |
 |Vorname oder Nachname |Teilweise |Mar# |Drücken Sie „1" für Mary Marble.  <br/> Drücken Sie „2" für Mary Jones.  <br/> Drücken Sie „3" für Amos Marcus. |
-|Vorname + Nachname |Teilweise |Mar0Amos# |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus. |
+|Vorname + Nachname |Teilweise |Amos0Mar # |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus. |
 |Nachname + Vorname |Teilweise |Mar0Am# |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus. |
 
 Bei der Suche nach Personen über die Wähltastatur eines Telefons können verschiedene Sonderzeichen verwendet werden. Die Person wird beispielsweise aufgefordert, die Pound-Taste (#) zu verwenden, während die NULL-Taste (0) für ein Leerzeichen zwischen den Namen verwendet wird. Wenn die Anrufer die Sterntaste (*) drücken, wird die Liste der übereinstimmenden Namen wiederholt.

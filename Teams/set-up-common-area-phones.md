@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125988"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552303"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
 > Telefone im öffentlichen Bereich unterstützen keine Voicemail.
 
-Ein Telefon im öffentlichen Bereich befindet sich normalerweise in einem Bereich wie einer Lobby oder einem anderen Bereich, der für viele Personen zur Verfügung steht, um einen Anruf zu tätigen. beispielsweise einen Empfangsbereich, eine Lobby oder ein Konferenztelefon. Telefone im öffentlichen Bereich sind als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.
+Ein Telefon im öffentlichen Bereich befindet sich normalerweise in einem Bereich wie einer Lobby oder einem anderen Bereich, der für viele Personen zur Verfügung steht, um einen Anruf zu tätigen. beispielsweise einen Empfangsbereich, eine Lobby oder ein Konferenztelefon. Telefone im öffentlichen Bereich sind mit Konten verbunden, die mit einer Telefon Lizenz für den öffentlichen Bereich verknüpft sind. Die TeamsIPPhone-Richtlinie muss auch entsprechend festgesetzt werden, damit das Telefon über eine Benutzeroberfläche mit gemeinsamem Bereich verfügt.
 
 In den nachstehenden Schritten unterstützen wir Sie beim Einrichten eines Kontos für das Telefon System für die Bereitstellung von Telefonen im allgemeinen Bereich für Ihre Organisation. Für eine vollständige Besprechungsraum-Erfahrung, einschließlich Audiokonferenzen, sollten Sie erwägen, die dedizierte Besprechungsraum-Lizenz mit einem Besprechungsraum Gerät zu erwerben. 
 

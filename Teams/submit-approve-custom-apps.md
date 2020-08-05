@@ -17,22 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie benutzerdefinierte apps genehmigen, die mit der APP-Übermittlungs-API von Teams in Microsoft Teams gesendet werden.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4c3563dc028c8566d29906e4e42a2002a197e71d
-ms.sourcegitcommit: 8812db47b45d171d47e71f87e84ab1828590392d
+ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46523695"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552601"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten APP, die über die APP-Übermittlungs-API der Teams gesendet wird
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>Übersicht
 
 > [!NOTE]
-> Wenn Sie eine benutzerdefinierte Teams-App veröffentlichen, steht Sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten, eine benutzerdefinierte APP zu veröffentlichen, und die Art und Weise, wie Sie Sie verwenden, hängt davon ab, wie Sie die App abrufen. In **diesem Artikel wird erläutert, wie Sie eine benutzerdefinierte App genehmigen und veröffentlichen, die von einem Entwickler über die APP-Übermittlungs-API der Teams gesendet wird**. Die andere Methode, mit der eine benutzerdefinierte App hochgeladen wird, wird verwendet, wenn ein Entwickler Ihnen ein App-Paket im ZIP-Format sendet. Weitere Informationen zu dieser Methode finden Sie unter [Veröffentlichen einer benutzerdefinierten app durch Hochladen eines App-Pakets](manage-your-custom-apps.md).
+> Wenn Sie eine benutzerdefinierte Teams-App veröffentlichen, steht Sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten, eine benutzerdefinierte APP zu veröffentlichen, und die Art und Weise, wie Sie Sie verwenden, hängt davon ab, wie Sie die App abrufen. In **diesem Artikel wird erläutert, wie Sie eine benutzerdefinierte App genehmigen und veröffentlichen, die von einem Entwickler über die APP-Übermittlungs-API der Teams gesendet wird**. Die andere Methode, mit der eine benutzerdefinierte App hochgeladen wird, wird verwendet, wenn ein Entwickler Ihnen ein App-Paket im ZIP-Format sendet. Weitere Informationen zu dieser Methode finden Sie unter <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">Veröffentlichen einer benutzerdefinierten app durch Hochladen eines App-Pakets</a>.
  
 Dieser Artikel enthält End-to-End-Anleitungen, wie Sie Ihre Teams-APP von der Entwicklung zur Bereitstellung in die Erkennung bringen. Sie erhalten einen Überblick über die verbundenen Erfahrungen, die von Teams im App-Lebenszyklus bereitgestellt werden, um zu rationalisieren, wie benutzerdefinierte apps im App Store Ihrer Organisation entwickelt, bereitgestellt und verwaltet werden.
 
@@ -142,6 +139,7 @@ In den meisten Fällen wird die neue Version nach dem Veröffentlichen eines APP
 
 ## <a name="related-topics"></a>Verwandte Themen
 
+- [Veröffentlichen einer benutzerdefinierten app durch Hochladen eines App-Pakets](upload-custom-apps.md)
 - [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md)
 - [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 - [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)

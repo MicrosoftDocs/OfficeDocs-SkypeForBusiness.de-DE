@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 1b7c94cd8dc0f46b72cea21ae46d98ed9a974fc5
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938304"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552611"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -268,7 +268,7 @@ Verwenden Sie das AllowParticipantGiveRequestControl-Cmdlet, um mithilfe von Pow
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert
 
-Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung steuert, ob externe Teilnehmer an einer Besprechung anderen Teilnehmern an der Besprechung die Steuerung Ihres freigegebenen Desktops oder Fensters gewähren können. Externe Teilnehmer an Teams-Besprechungen können wie folgt kategorisiert werden:  
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Ob diese Gruppe für einen Benutzer von einer Organisation eingerichtet wurde, steuert nicht, was externe Teilnehmer tun können, unabhängig davon, was der Besprechungsorganisator festgestellt hat. Dieser Parameter steuert, ob externen Teilnehmern die Kontrolle über den Bildschirm des Mitarbeiters gewährt werden kann, je nachdem, was der freigaber innerhalb der Besprechungsrichtlinien Ihrer Organisation festgesetzt hat. Externe Teilnehmer an Teams-Besprechungen können wie folgt kategorisiert werden:  
 
 - Anonymer Benutzer
 - Gastbenutzer  

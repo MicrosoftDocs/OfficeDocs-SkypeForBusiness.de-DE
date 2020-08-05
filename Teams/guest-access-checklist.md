@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 4305f8f03f806be1a453e037620c6e16e71ac4dc
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372004"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552263"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Checkliste für den Microsoft Teams-Gastzugriff
 =========================================
@@ -123,6 +123,16 @@ Konfigurieren Sie in der Teams-Anwendung auf Ebene der einzelnen Teams Gastberec
 ![Screenshot zeigt ein Beispiel für einen Umschalter von Team-/Kanaleinstellungen.](media/guest-access-checklist-TeamsSettings2.png)
 
 Weitere Informationen zum Gastzugriff finden Sie unter [Gastzugriff in Teams](guest-access.md) und [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md).
+
+## <a name="step-7-turn-on-anonymous-users-can-join-a-meeting-if-you-want-guests-to-join-meetings"></a>Schritt 7: Aktivieren von "anonyme Benutzer können an einer Besprechung teilnehmen", wenn Sie möchten, dass Gäste an Besprechungen teilnehmen
+
+Wenn Sie möchten, dass Gäste an Besprechungen teilnehmen können, aktivieren Sie im Microsoft Teams Admin Center die Option **anonyme Benutzer können an einer Besprechung teilnehmen** . 
+
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungseinstellungen**für Besprechungen.
+
+2. Aktivieren Sie unter **Teilnehmer** die Option **Anonyme Benutzer können an einer Besprechung teilnehmen**.
+
+Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](meeting-settings-in-teams.md). 
 
 ## <a name="troubleshooting"></a>Problembehandlung
 

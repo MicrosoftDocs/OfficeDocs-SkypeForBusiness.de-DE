@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht bereitstellen, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077714"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46556635"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -203,6 +203,10 @@ Nachdem der Konferenzmodus in einer Anrufwarteschlange aktiviert wurde, profitie
 
 Die meisten Anrufe werden über eine der oben aufgeführten Methoden empfangen. Wenn ein Anruf über eine andere Methode (beispielsweise einen VoIP-Anruf von einem Skype for Business-Client) empfangen wird, wird der Anruf weiterhin zur Anrufwarteschlange hinzugefügt, aber er profitiert nicht von der kürzeren Verbindungszeit.
 
+> [!NOTE]
+> Busy on Busy wird vom Konferenzmodus nicht unterstützt. Agents in Warteschlangen anrufen, die keine Anrufwarteschlange sind, werden möglicherweise weiterhin mit einem Anruf Warteschlangen Anruf angezeigt, wenn Anwesenheits basiertes Routing nicht aktiviert ist.
+
+
 ![Symbol der Zahl 3, verweist auf eine Legende in der vorherigen Screenshot ](media/teamscallout3.png)
  **-Routing Methode** Sie können entweder **Attendant**, **seriell**, am **längsten Leerlauf**oder **Round Robin** als Verteilungsmethode auswählen. Standardmäßig sind für alle neuen und vorhandenen Anrufwarteschlangen das Attendant-Routing ausgewählt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 
@@ -274,9 +278,7 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Umleitung zu** Wenn Sie diese Option auswählen, wählen Sie eine der folgenden Optionen aus:
 
-  - **Person in der Organisation** Einen Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder einen Anrufplan hat. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann. Wählen Sie dazu eine Person in Ihrer Organisation aus, und legen Sie fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
-
-  Informationen zu den für Voicemail erforderlichen Lizenzen finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in der Organisation** Ein Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder einen Anrufplan hat.
 
   - **Sprach-App** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die bereits erstellt wurde.
 
@@ -291,6 +293,13 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
             - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
             - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
     - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
+  - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser Anrufwarteschlange empfangene Voicemail zugreifen müssen, und wählen Sie dann eine der folgenden Optionen aus:
+      - **Wiedergeben einer Audiodatei** Wenn Sie diese Option auswählen, wählen Sie **Datei hochladen** aus, um eine aufgezeichnete Grußnachricht hochzuladen. Die Aufzeichnung darf nicht größer als 5 MB sein. 
+      - **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). So können Sie beispielsweise "Sorry, dass wir Ihren Anruf zurzeit nicht annehmen können" eingeben. Bitte hinterlassen Sie nach dem Piepton ihren Namen, Ihre Telefonnummer und den Grund für Ihren Anruf. "
+
+      Aktivieren Sie die Transkription, wenn Sie die sprach-zu-Text-Transkription von Voicemail-Nachrichten aktivieren möchten.
+
+      Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
 
 * * *
 
@@ -304,9 +313,7 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
 
 - **Verbindung trennen** Der Anruf wird getrennt.
 - **Diesen Anruf umleiten an** Wenn Sie diese Option auswählen, haben Sie folgende Möglichkeiten:
-  - **Person in der Organisation** Einen Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder Anrufpläne hat. Wenn Sie die Person so einrichten möchten, dass Sie an Voicemail gesendet werden kann, wählen Sie eine Person in Ihrer Organisation aus, und legen Sie diese Person so fest, dass Ihre Anrufe direkt an Voicemail weitergeleitet werden.
-
-  Informationen zu den für Voicemail erforderlichen Lizenzen finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
+  - **Person in der Organisation** Einen Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder Anrufpläne hat.
 
   - **Sprach-App** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die Sie bereits erstellt haben.
 
@@ -321,6 +328,13 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
             - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
             - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
     - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
+    - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser Anrufwarteschlange empfangene Voicemail zugreifen müssen, und wählen Sie dann eine der folgenden Optionen aus:
+      - **Wiedergeben einer Audiodatei** Wenn Sie diese Option auswählen, wählen Sie **Datei hochladen** aus, um eine aufgezeichnete Grußnachricht hochzuladen. Die Aufzeichnung darf nicht größer als 5 MB sein.
+      - **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). So können Sie beispielsweise "Sorry, dass wir Ihren Anruf zurzeit nicht annehmen können" eingeben. Bitte hinterlassen Sie nach dem Piepton ihren Namen, Ihre Telefonnummer und den Grund für Ihren Anruf. "
+
+      Aktivieren Sie die Transkription, wenn Sie die sprach-zu-Text-Transkription von Voicemail-Nachrichten aktivieren möchten.
+
+      Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Ändern der Rufnummernanzeige für ausgehende Anrufe
 

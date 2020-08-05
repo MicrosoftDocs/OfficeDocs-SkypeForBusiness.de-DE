@@ -17,28 +17,28 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3a99577b51f08d9ae0e0d4aef73297fade1b1176
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: ecc03ff6a6baf1333028b949b590f3018d66e393
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146121"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552317"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
 
-Als Administrator können Sie auf der Seite " **apps verwalten** " im Microsoft Teams Admin Center alle Teams-apps im App-Katalog Ihrer Organisation anzeigen und verwalten. Hier können Sie den Status und die Eigenschaften von apps auf Organisationsebene anzeigen, neue benutzerdefinierte apps in ihren Mandanten-App-Katalog hochladen, Apps auf org-Ebene blockieren oder zulassen sowie organisationsweite App-Einstellungen verwalten.
+Als Administrator können Sie auf der Seite "Apps verwalten" im Microsoft Teams Admin Center alle Teams-Apps für Ihre Organisation anzeigen und verwalten. Hier können Sie den Status und die Eigenschaften von apps auf Organisationsebene anzeigen, neue benutzerdefinierte apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf org-Ebene blockieren oder zulassen sowie organisationsweite App-Einstellungen verwalten.
 
-Auf der Seite " **apps verwalten** " erhalten Sie einen Überblick über alle verfügbaren apps in Ihrem Mandanten Katalog, in dem Sie die Informationen finden, die Sie benötigen, um zu entscheiden, welche apps in Ihrer Organisation zugelassen oder blockiert werden sollen. Sie können dann [App-Berechtigungsrichtlinien](teams-app-permission-policies.md), [App-Setup Richtlinien](teams-app-setup-policies.md)und [benutzerdefinierte App-Richtlinien und-Einstellungen](teams-custom-app-policies-and-settings.md) verwenden, um die APP-Umgebung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren.
+Auf der Seite "Apps verwalten" erhalten Sie einen Überblick über alle verfügbaren apps, sodass Sie über die erforderlichen Informationen verfügen, um zu entscheiden, welche apps in Ihrer Organisation zugelassen oder blockiert werden sollen. Sie können dann [App-Berechtigungsrichtlinien](teams-app-permission-policies.md), [App-Setup Richtlinien](teams-app-setup-policies.md)und [benutzerdefinierte App-Richtlinien und-Einstellungen](teams-custom-app-policies-and-settings.md) verwenden, um die APP-Umgebung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren.
 
 Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**  >  **Verwalten von apps**. Sie müssen ein globaler Administrator oder Team Dienstadministrator sein, um auf die Seite zugreifen zu können.
 
 > [!NOTE]
-> Die Seite " **apps verwalten** " steht in den Microsoft 365-Bereitstellungen von Teams für die Government Community Cloud (gcc) noch nicht zur Verfügung.
+> Die Seite "Apps verwalten" steht in den Microsoft 365-Bereitstellungen von Teams für die Government Community Cloud (gcc) noch nicht zur Verfügung.
 
-## <a name="view-apps-in-your-tenant-app-catalog"></a>Anzeigen von apps in Ihrem Mandanten-App-Katalog
+## <a name="view-apps"></a>Anzeigen von apps
 
-Sie können jede app in Ihrem Mandanten-App-Katalog anzeigen, einschließlich der folgenden Informationen zu den einzelnen apps.
+Sie können jede APP mit den folgenden Informationen zu jeder App anzeigen.
 
 ![Screenshot der Seite "verwaltete Apps"](media/manage-apps.png)
 
@@ -48,9 +48,9 @@ Sie können jede app in Ihrem Mandanten-App-Katalog anzeigen, einschließlich de
   
 - **Zertifizierung**: Wenn die APP die Zertifizierung durchlaufen hat, wird entweder **Microsoft 365 Certified** oder **Publisher-Bestätigung**angezeigt. Klicken Sie auf den Link, um die Zertifizierungsdetails für die APP anzuzeigen. Wenn "" angezeigt **--** wird, verfügen wir nicht über Zertifizierungsinformationen für die app. Wenn Sie mehr über zertifizierte apps in Microsoft Teams erfahren möchten, lesen Sie [Microsoft 365-App-Zertifizierungsprogramm](https://docs.microsoft.com/teams-app-certification/all-apps).  
 
-- **Kategorien**: Kategorien, die für die APP gelten.
-
-- **App-Status**: Status der APP auf org-Ebene, die eine der folgenden Optionen sein kann:
+- **Publisher**: Name des Herausgebers.
+- **Veröffentlichungsstatus**: Veröffentlichungsstatus für benutzerdefinierte apps.
+- **Status**: Status der APP auf der Organisationsebene, wobei es sich um eine der folgenden Optionen handeln kann:
 
     - **Zulässig**: die APP steht allen Benutzern in Ihrer Organisation zur Verfügung.
     
@@ -58,29 +58,48 @@ Sie können jede app in Ihrem Mandanten-App-Katalog anzeigen, einschließlich de
     
     - **Organisationsweit blockiert**: die APP wird in den organisationsweiten App-Einstellungen blockiert.
     
-      Es ist wichtig zu wissen, dass diese Spalte den zulässigen und blockierten Status von apps darstellt, die sich zuvor im Bereich " **organisationsweite Einstellungen** " befanden. Sie können jetzt apps auf der Seite " **apps verwalten** " auf der Organisationsebene anzeigen, blockieren und zulassen. 
+      Es ist wichtig zu wissen, dass diese Spalte den zulässigen und blockierten Status von apps darstellt, die sich zuvor im Bereich " **organisationsweite Einstellungen** " befanden. Sie können jetzt apps auf der Seite "Apps verwalten" auf der Organisationsebene anzeigen, blockieren und zulassen.
+
+- **Benutzerdefinierte App**: gibt an, ob es sich um eine benutzerdefinierte App handelt.
+
+- **Kategorien**: Kategorien, die für die APP gelten.
 
 - **Version**: App-Version.
 
 Wenn Sie die gewünschten Informationen in der Tabelle anzeigen möchten, klicken Sie in der oberen rechten Ecke auf **Spalte bearbeiten** , um der Tabelle Spalten hinzuzufügen oder daraus zu entfernen.
 
-## <a name="upload-a-new-app"></a>Hochladen einer neuen App
+## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>Veröffentlichen einer benutzerdefinierten App im App Store Ihrer Organisation
 
-Sie können Ihren app-Katalog verwenden, um benutzerdefinierte Anwendungen zu testen und zu verteilen, die speziell für Ihre Organisation entwickelt wurden. Ein Team-App-Paket wird mithilfe von [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)erstellt. Wenn Sie über das App-Paket verfügen, können Sie es dem App-Katalog hinzufügen. Während alle Benutzer in Ihrer Organisation den App-Katalog anzeigen können, können Sie nur von globalen Administratoren und Teams-Dienstadministratoren veröffentlicht und verwaltet werden.
+Verwenden Sie die Seite "Apps verwalten", um apps zu veröffentlichen, die speziell für Ihre Organisation entwickelt wurden. Nachdem Sie eine benutzerdefinierte App veröffentlicht haben, steht Sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten, eine benutzerdefinierte App im App Store Ihrer Organisation zu veröffentlichen. Die Art der Verwendung hängt davon ab, wie Sie die App abrufen.
 
-Wenn Sie eine neue benutzerdefinierte app in ihren Mandanten-App-Katalog hochladen möchten, klicken Sie auf **neue APP hochladen** , um das App-Paket im ZIP-Format hochzuladen. Nachdem die APP hochgeladen wurde, wird Sie nicht hervorgehoben, sodass Sie Ihren app-Katalog durchsuchen müssen, um ihn zu finden.
+- [Genehmigen einer benutzerdefinierten App](#approve-a-custom-app): Verwenden Sie diese Methode, wenn der Entwickler die App mithilfe der APP-Übermittlungs-API für Teams direkt an die Seite "Apps verwalten" sendet. Sie können die APP dann direkt über die Seite mit den App-Details überprüfen und veröffentlichen (oder ablehnen).
+- [Hochladen eines App-Pakets](#upload-an-app-package): Verwenden Sie diese Methode, wenn der Entwickler Ihnen das App-Paket im ZIP-Format sendet. Sie veröffentlichen die APP, indem Sie das App-Paket hochladen.
 
-Wenn Sie eine APP nach dem Hochladen aktualisieren möchten, klicken Sie in der Liste der apps auf der Seite **apps verwalten** auf den Namen der APP, und klicken Sie dann auf **Aktualisieren**. Dadurch wird die vorhandene App im App-Katalog ersetzt, und alle App-Berechtigungsrichtlinien und App-Setup Richtlinien bleiben für die aktualisierte APP erzwungen.
+###  <a name="approve-a-custom-app"></a>Genehmigen einer benutzerdefinierten App
 
-Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten apps in Teams](manage-your-custom-apps.md).
+Das Widget **ausstehende Genehmigungen** auf der Seite "Apps verwalten" benachrichtigt Sie, wenn ein Entwickler eine App mithilfe der APP-Übermittlungs-API für Teams übermittelt. Eine neu übermittelte APP wird mit einem **Veröffentlichungsstatus** von " **gesendet** " und dem **Status** " **blockiert**" aufgelistet. Wechseln Sie zur Seite App-Details, um weitere Informationen zur APP anzuzeigen, und legen Sie dann **Veröffentlichungsstatus** auf **veröffentlichen**fest.
+
+Sie werden auch benachrichtigt, wenn ein Entwickler ein Update an eine benutzerdefinierte App sendet. Sie können das Update dann auf der Seite App-Details überprüfen und veröffentlichen (oder ablehnen). Alle Richtlinien für App-Berechtigungen und Richtlinien für die APP-Einrichtung bleiben für die aktualisierte APP erzwungen.
+
+Weitere Informationen finden Sie unter [Veröffentlichen einer benutzerdefinierten APP, die über die Team-App-Übermittlungs-API übermittelt](submit-approve-custom-apps.md)wurde.
+
+### <a name="upload-an-app-package"></a>Hochladen eines App-Pakets
+
+Der Entwickler erstellt ein Teams-App-Paket mithilfe von [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)und sendet es Ihnen dann im ZIP-Format. Wenn Sie über das App-Paket verfügen, können Sie es in den App Store Ihrer Organisation hochladen.
+
+Wenn Sie eine neue benutzerdefinierte App hochladen möchten, wählen Sie **hochladen** aus, um das App-Paket hochzuladen. Nachdem die APP hochgeladen wurde, wird Sie nicht hervorgehoben, sodass Sie die Liste der apps auf der Seite "Apps verwalten" durchsuchen müssen, um Sie zu finden.
+
+Wenn Sie eine APP nach dem Hochladen aktualisieren möchten, klicken Sie in der Liste der apps auf der Seite apps verwalten auf den Namen der APP, und klicken Sie dann auf **Aktualisieren**. Dadurch werden die vorhandene APP und alle App-Berechtigungsrichtlinien ersetzt, und die Richtlinien für die APP-Einrichtung bleiben für die aktualisierte APP erzwungen.
+
+Weitere Informationen finden Sie unter [Veröffentlichen einer benutzerdefinierten app durch Hochladen eines App-Pakets](upload-custom-apps.md).
 
 ## <a name="allow-and-block-apps"></a>Zulassen und Blockieren von apps
 
-Auf der Seite " **apps verwalten** " können Sie einzelne apps auf Organisationsebene zulassen oder blockieren. Sie zeigt alle verfügbaren apps und den aktuellen App-Status auf Organisationsebene an. (Das Blockieren und zulassen von apps auf der Organisationsebene wurde vom Bereich " **organisationsweite App-Einstellungen** " hierhin verschoben.)
+Auf der Seite "Apps verwalten" können Sie einzelne apps auf Organisationsebene zulassen oder blockieren. Sie zeigt alle verfügbaren apps und den aktuellen App-Status auf Organisationsebene an. (Das Blockieren und zulassen von apps auf der Organisationsebene wurde vom Bereich " **organisationsweite App-Einstellungen** " hierhin verschoben.)
 
 Wenn Sie eine App zulassen oder blockieren möchten, wählen Sie Sie aus, und klicken Sie dann auf **zulassen** oder **blockieren**. Wenn Sie eine APP blockieren, werden alle Interaktionen mit dieser APP deaktiviert, und die APP wird nicht in Teams für alle Benutzer in Ihrer Organisation angezeigt.
 
-Wenn Sie eine APP auf der Seite " **apps verwalten** " blockieren oder zulassen, wird diese APP für alle Benutzer in Ihrer Organisation blockiert oder zugelassen.  Wenn Sie eine app in einer Berechtigungsrichtlinie für Teams-App blockieren oder zulassen, ist Sie für Benutzer, denen diese Richtlinie zugewiesen ist, blockiert oder zulässig. Damit ein Benutzer eine App installieren und mit ihnen interagieren kann, müssen Sie die APP auf der Organisationsebene auf der Seite " **apps verwalten** " und in der APP-Berechtigungsrichtlinie zulassen, die dem Benutzer zugewiesen ist.
+Wenn Sie eine APP auf der Seite "Apps verwalten" blockieren oder zulassen, wird diese APP für alle Benutzer in Ihrer Organisation blockiert oder zugelassen.  Wenn Sie eine app in einer Berechtigungsrichtlinie für Teams-App blockieren oder zulassen, ist Sie für Benutzer, denen diese Richtlinie zugewiesen ist, blockiert oder zulässig. Damit ein Benutzer eine App installieren und mit ihnen interagieren kann, müssen Sie die APP auf der Organisationsebene auf der Seite "Apps verwalten" und in der APP-Berechtigungsrichtlinie zulassen, die dem Benutzer zugewiesen ist.
 
  > [!NOTE]
  > Wenn Sie eine APP deinstallieren möchten, klicken Sie mit der rechten Maustaste auf die APP, und klicken Sie dann auf **deinstallieren** oder verwenden Sie das Menü **Weitere apps** auf der linken Seite. 
@@ -92,7 +111,7 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer a
 > [!NOTE]
 > Informationen zum Verwenden von organisationsweiten App-Einstellungen in Microsoft 365-Bereitstellungen von Teams in der Regierung von gcc finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).
 
-1. Wählen Sie auf der Seite **apps verwalten** die Option **organisationsweite App-Einstellungen**aus. Anschließend können Sie die gewünschten Einstellungen im Panel konfigurieren.
+1. Wählen Sie auf der Seite apps verwalten die Option **organisationsweite App-Einstellungen**aus. Anschließend können Sie die gewünschten Einstellungen im Panel konfigurieren.
 
     ![Screenshot der organisationsweiten App-Einstellungen](media/manage-apps-org-wide-app-settings.png)
     

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "43580703"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552293"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -105,7 +105,8 @@ Sie können Remote-PowerShell beispielsweise wie folgt aktivieren:
   
 1. Anmelden als Administrator auf einem Microsoft Teams rooms-Gerät.
 2. Öffnen Sie eine erweiterte PowerShell-Eingabeaufforderung.
-3. Geben Sie den folgenden Befehl ein: Enable-PSRemoting -force
+3. Geben Sie den folgenden Befehl ein:`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. Öffnen Sie die lokale Sicherheitsrichtlinie, und fügen Sie die Sicherheitsgruppe *Administratoren* zu **Sicherheitseinstellungen**hinzu  >  .**lokale Richtlinien**  >  **Benutzerrechte zuweisen**  >  **Zugriff auf diesen Computer über das Netzwerk**.
 
 So führen Sie einen Verwaltungsvorgang durch:
   
@@ -113,7 +114,7 @@ So führen Sie einen Verwaltungsvorgang durch:
 2. Öffnen Sie eine reguläre PowerShell-Eingabeaufforderung auf dem PC.
 3. Kopieren Sie den Befehlstext aus der folgenden Tabelle, und fügen Sie ihn an der Eingabeaufforderung ein.
 4. Ersetzen `<Device fqdn>` Sie Felder durch FQDN-Werte, die für Ihre Umgebung geeignet sind.
-5. Ersetzen Sie * \< path \> * durch den Dateinamen und den lokalen Pfad der Master-SkypeSettings. XML-Konfigurationsdatei (oder des Design Bilds).
+5. Ersetzen Sie dies *\<path\>* durch den Dateinamen und den lokalen Pfad der Master SkypeSettings.xml-Konfigurationsdatei (oder des Design Bilds).
     
 So erhalten Sie angefügte Geräte
   
@@ -173,7 +174,7 @@ Wenn Sie Updates manuell verwalten möchten und dem normalen Verfahren für [Mic
 ### <a name="to-update-using-powershell"></a>So aktualisieren Sie die Verwendung von PowerShell
 
 1. Extrahieren Sie das Paket aus der [MSI](https://go.microsoft.com/fwlink/?linkid=851168) -Installationsdatei auf eine Freigabe, auf die das Gerät zugreifen kann.
-2. Führen Sie das folgende Skript aus, das auf die Microsoft Teams rooms-Geräte ausgerichtet ist, und ändern \< Sie die Freigabe \> auf die Gerätefreigabe nach Bedarf:
+2. Führen Sie das folgende Skript aus, das auf die Microsoft Teams rooms-Geräte ausgerichtet ist, und ändern \<share\> Sie die Gerätefreigabe nach Bedarf:
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})

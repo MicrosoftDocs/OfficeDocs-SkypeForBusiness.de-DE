@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen Session Border Controller (SBC) für die Bereitstellung mehrerer Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber konfigurieren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689741"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552621"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -104,7 +104,7 @@ Die folgende Tabelle zeigt ein Beispiel für eine Konfiguration.
 Führen Sie die nachstehenden Schritte aus, um die Basis-und Subdomänen zu konfigurieren. Im Beispiel konfigurieren wir einen Basisdomänen Namen (Customers.adatum.biz) und eine Unterdomäne für einen Kunden (sbc1.Customers.adatum.biz in Woodgrove Bank-Mandanten).
 
 > [!NOTE]
-> Verwenden Sie sbcX.Customers.adatum.biz, um die Sprachausgabe im Mandanten Mandanten zu aktivieren.
+> Verwenden Sie sbcX.Customers.adatum.biz, um die Sprachausgabe im Mandanten Mandanten zu aktivieren. sbcX kann ein beliebiger eindeutiger und gültiger alphanumerischer hostname sein.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Registrieren eines Basisdomänen namens im Carrier-Mandanten
 

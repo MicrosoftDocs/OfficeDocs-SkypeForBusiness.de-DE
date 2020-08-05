@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752977"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552011"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -45,28 +45,26 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 **Unterstützte Aktionen:**
 
-| Benutzerpostfach ist gehostet in: | eDiscovery| Rechtliche &nbsp; Aufbewahrung | Aufbewahrungs| Team-und Kanal-Mgmt |Erstellen und Anzeigen von Besprechungen in Teams| Benutzerprofilbild bearbeiten | Anrufprotokoll | Verwalten von Kontakten | Zugreifen auf Outlook-Kontakte | Voicemail |Connectors hinzufügen und konfigurieren|Registerkarten hinzufügen und konfigurieren|Bots hinzufügen und konfigurieren|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Ja <sup>2</sup>|Ja <sup>2</sup>|Ja |Ja |Ja |Ja<sup>8</sup>|Ja |Ja |Ja <sup>7</sup>|Ja |Ja |Ja |Ja |
-|**Exchange Online Dedicated vNext**|Ja <sup>2</sup>|Ja <sup>2</sup>|Ja |Ja |Ja |Ja<sup>8</sup>|Ja |Ja |Ja <sup>7</sup>|Ja |Ja |Ja |Ja|
-|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja <sup>2</sup>|Ja <sup>2, 3</sup>|Ja <sup> 4|Ja|Nein|Nein|Ja|Ja|Nein|Ja <sup> 5|Ja <sup> 6|Ja |Ja |
-|**Lokales Exchange lokal** (Synchronisierung mit Azure AD & OAuth-Konfiguration erforderlich)|Ja <sup>2</sup>| Ja <sup>2</sup> |Ja <sup> 4|Ja|Ja (Exchange 2016 CU3 +)|Nein|Ja|Ja|Nein|Ja <sup> 5|Ja <sup> 6|Ja |Ja |
+| Benutzerpostfach ist gehostet in:                                        | eDiscovery       | Rechtliche &nbsp; Aufbewahrung    | Aufbewahrungs  | Team-und Kanal-Mgmt | Erstellen und Anzeigen von Besprechungen in Teams | Benutzerprofilbild bearbeiten | Anrufprotokoll | Verwalten von Kontakten | Zugreifen auf Outlook-Kontakte | Voicemail  | Connectors hinzufügen und konfigurieren | Registerkarten hinzufügen und konfigurieren | Bots hinzufügen und konfigurieren |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja         | Ja                    | Ja                                | Ja<sup>7</sup>             | Ja           | Ja              | Ja <sup>6</sup>        | Ja         | Ja                           | Ja                     | Ja                     |
+| **Exchange Online Dedicated vNext**                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja         | Ja                    | Ja                                | Ja<sup>7</sup>             | Ja           | Ja              | Ja <sup>6</sup>        | Ja         | Ja                           | Ja                     | Ja                    |
+| **Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)  | Ja <sup>1</sup> | Ja <sup>1, 2</sup> | Ja <sup> 3 | Ja                   | Nein                                | Nein                          | Ja          | Ja             | Nein                      | Ja <sup> 4 | Ja <sup> 5                   | Ja                     | Ja                     |
+| **Lokales Exchange lokal** (Synchronisierung mit Azure AD & OAuth-Konfiguration erforderlich) | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja <sup> 3 | Ja                   | Ja (Exchange 2016 CU3 +)          | Nein                          | Ja          | Ja             | Nein                      | Ja <sup> 4 | Ja <sup> 5                   | Ja                     | Ja                     |
 
-<sup>1</sup> Exchange 2016 CU3 und höher wird unterstützt.  
+<sup>1</sup> eDiscovery und rechtliche Aufbewahrungsmöglichkeiten für Compliance auf Kanal Nachrichten werden für alle Hosting-Optionen unterstützt.
 
-<sup>2</sup> eDiscovery und rechtliche Aufbewahrungsmöglichkeiten für Compliance auf Kanal Nachrichten werden für alle Hosting-Optionen unterstützt.
+<sup>2</sup> Teams private Chat-Nachrichten werden für diese Hosting-Option noch nicht unterstützt.
 
-<sup>3</sup> Teams private Chat-Nachrichten werden für diese Hosting-Option noch nicht unterstützt.
+<sup>3</sup> bei der Aufbewahrung wird ein Shadow-Postfach für den Online Benutzer zum Speichern von Nachrichten verwendet.
 
-<sup>4</sup> die Aufbewahrung verwendet ein Schatten Postfach für den Online Benutzer zum Speichern von Nachrichten. [Microsoft Teams unterstützt eDiscovery für Teams-Benutzer in einer Exchange-Hybrid Umgebung](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> Teams-Benutzer mit lokalem Exchange-Postfach können Voicemail in Microsoft Teams verwenden und Voicemail-Nachrichten in Outlook empfangen, aber Voicemail-Nachrichten stehen nicht zum Anzeigen oder wiedergeben innerhalb des Teams-Clients zur Verfügung.
 
-<sup>5</sup> Teams Benutzer mit lokalem Exchange-Postfach können Voicemail in Microsoft Teams verwenden und Voicemail-Nachrichten in Outlook empfangen, aber Voicemail-Nachrichten stehen nicht zum Anzeigen oder wiedergeben innerhalb des Teams-Clients zur Verfügung.
+<sup>5</sup> wenn einer der Besitzer eines Teams Connectors hinzufügen kann, können alle anderen Personen in diesem Team dies auch dann tun, wenn die Postfächer lokal gehostet werden.
 
-<sup>6</sup> wenn einer der Besitzer eines Teams Connectors hinzufügen kann, können alle anderen Personen in diesem Team dies auch dann tun, wenn die Postfächer lokal gehostet werden.
+<sup>6</sup> nur Kontakte im Standardordner "Kontakte". Der Zugriff auf andere Kontakteordner oder Unterordner wird nicht unterstützt.
 
-<sup>7</sup> nur Kontakte im Standardordner "Kontakte". Der Zugriff auf andere Kontakteordner oder Unterordner wird nicht unterstützt.
-
-<sup>8</sup> Teams honoriert die [Outlook-Einstellung für die Web-Postfachrichtlinie](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) , die von mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **-SetPhotoEnabled** in der Richtlinie deaktiviert ist, können Benutzer Ihr Profilbild nicht hinzufügen, ändern oder entfernen. Wenn ein Benutzer beispielsweise ein Profilbild hochlädt, das von der IT-oder Personalabteilung Ihrer Organisation genehmigt wurde, ist keine Aktion erforderlich. Wenn ein Benutzer jedoch ein unangemessenes Bild hochlädt, ändern Sie das Bild entsprechend den internen Richtlinien Ihrer Organisation.
+<sup>7</sup> Teams honoriert die [Outlook-Einstellung für die Web-Postfachrichtlinie](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) , die von mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **-SetPhotoEnabled** in der Richtlinie deaktiviert ist, können Benutzer Ihr Profilbild nicht hinzufügen, ändern oder entfernen. Wenn ein Benutzer beispielsweise ein Profilbild hochlädt, das von der IT-oder Personalabteilung Ihrer Organisation genehmigt wurde, ist keine Aktion erforderlich. Wenn ein Benutzer jedoch ein unangemessenes Bild hochlädt, ändern Sie das Bild entsprechend den internen Richtlinien Ihrer Organisation.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen, um Microsoft Teams optimal nutzen zu können
 

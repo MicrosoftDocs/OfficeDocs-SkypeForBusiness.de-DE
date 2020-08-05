@@ -17,14 +17,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie steuern können, ob private Teams von Microsoft Teams-Benutzern mithilfe von Vorschlägen im Team Katalog und in den Suchergebnissen ermittelt werden können.
-ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e06a9511d8198a069c3dccfdbbbacf3d3f1b2c42
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836515"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554695"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Verwalten der Erkennung privater Teams in Microsoft Teams
+
+> [!IMPORTANT]
+> Basierend auf Kundenfeedback deaktivieren wir diese Funktion, effektiv 31. August 2020. Das bedeutet, dass Sie nach dem 31. August 2020 nicht mehr in der Lage sein werden, private Teams als auffindbar festzulegen, und alle vorhandenen und neuen privaten Teams werden nicht mehr auffindbar sein. Weitere Informationen finden Sie in der [Roadmap für Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370).
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -60,11 +63,11 @@ Teambesitzer können die Ermittlungs Einstellung für ein vorhandenes privates T
 
 ### <a name="in-team-settings"></a>In Team Einstellungen
 
-Wechseln Sie in Microsoft Teams zum privaten Team, und klicken Sie auf **Weitere Optionen** > **Team verwalten**. Erweitern Sie auf der Registerkarte **Einstellungen** die Option **Team Ermittlung**, und deaktivieren oder aktivieren Sie das Kontrollkästchen Verfüg **barkeit aktivieren** .
+Wechseln Sie in Microsoft Teams zum privaten Team, und klicken Sie auf **Weitere Optionen**  >  **Team verwalten**. Erweitern Sie auf der Registerkarte **Einstellungen** die Option **Team Ermittlung**, und deaktivieren oder aktivieren Sie das Kontrollkästchen Verfüg **barkeit aktivieren** .
 
 ![Screenshot der Ermittlungs Einstellung für vorhandene private Teams](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>Verwenden von PowerShell
+### <a name="using-powershell"></a>Verwendung von PowerShell
 
 Verwenden Sie das Cmdlet " **[Satz-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** ", um die Ermittlungs Einstellung für ein vorhandenes privates Team zu deaktivieren oder zu aktivieren. Im folgenden finden Sie ein Beispiel dafür, wie Sie ein Team auffindbar machen können:
 ```PowerShell

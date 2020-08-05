@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47ca6105b1d497bbba391856bfc190ea88fb47f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372034"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552273"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -30,12 +30,17 @@ ms.locfileid: "45372034"
 In einigen Ländern und Regionen ist es illegal, den PSTN-Anbieter (Public Switched Telephone Network) zu umgehen, um die Kosten für Ferngespräche zu verringern. In diesem Artikel wird beschrieben, wie Sie mithilfe von Standort basiertem Routing die Gebühren Umgehung für Microsoft Teams-Benutzer auf der Grundlage ihres geografischen Standorts einschränken. Dieser Artikel bezieht sich nur auf das direkte Routing von Telefonsystemen.
 
 Hier erhalten Sie einen Überblick über standortbasiertes Routing und Anleitungen, die Ihnen bei der Planung helfen. Wenn Sie bereit sind, standortbasiertes Routing zu übernehmen und zu aktivieren, lesen Sie:
+
 - [Bereitstellen von Netzwerkeinstellungen für standortbasiertes Routing](location-based-routing-configure-network-settings.md)
 - [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
 
-Standortbasiertes Routing ist eine Funktion, mit der Sie die Gebühren Umgehung auf der Grundlage der Richtlinie und des geografischen Standorts des Benutzers zum Zeitpunkt eines eingehenden oder ausgehenden PSTN-Anrufs einschränken können. 
+> [!NOTE]
+> Standortbasiertes Routing steht in den Microsoft 365 Government Community Cloud (gcc)-höchst Bereitstellungen nicht zur Verfügung.
+
+Standortbasiertes Routing ist eine Funktion, mit der Sie die Gebühren Umgehung auf der Grundlage der Richtlinie und des geografischen Standorts des Benutzers zum Zeitpunkt eines eingehenden oder ausgehenden PSTN-Anrufs einschränken können. Standortbasiertes Routing soll einen Mechanismus zur Vermeidung von Maut Umgehung bereitstellen. Es sollte nicht als Mechanismus zur dynamischen Weiterleitung von PSTN-anrufen basierend auf dem Standort des Benutzers oder unbeabsichtigten Folgen verwendet werden.
 
 Wenn ein Team Benutzer für standortbasiertes Routing aktiviert ist, gilt Folgendes:
+
 - Um einen ausgehenden PSTN-Anruf zu führen, muss eine der folgenden Bedingungen erfüllt sein:
     - Der Endpunkt des Benutzers befindet sich in einer Netzwerk Website, die für standortbasiertes Routing aktiviert ist, und ruft den Ausgang über das entsprechende Gateway auf, das für standortbasiertes Routing aktiviert ist. 
     - Der Endpunkt des Benutzers befindet sich an einer Netzwerk Website, die für standortbasiertes Routing nicht aktiviert ist, und ruft den Ausstieg über ein Gateway auf, das für standortbasiertes Routing nicht aktiviert ist.
