@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166743"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572260"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -78,8 +78,15 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 
 | Hersteller        | Modell                                                     | Qualifizierten      | Certified-Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Bose                 |NC 700-Headset                                             |6/8/2020        |Certified für Microsoft Teams|
-|Jabra              | Speak 750 Freisprecheinrichtung mit Jabra Link 370 USB-Dongle       | 5/21/2020 | Certified für Microsoft Teams|
+|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Zertifiziert für Skype for Business                        |
+|ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Zertifiziert für Skype for Business                        |
+|Jabra                |Engage 75-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Engage 65-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Engage 50-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Avocor               |WCD-AvW-6555                                              |7/30/2020       |Certified für Microsoft Teams                           |
+|Jabra                |Evolve2 85-Headset                                         |7/17/2020       |Certified für Microsoft Teams                           |
+|Bose                 |NC 700-Headset                                             |6/8/2020        |Certified für Microsoft Teams                           |
+|Jabra                | Speak 750 Freisprecheinrichtung mit Jabra Link 370 USB-Dongle     | 5/21/2020       | Certified für Microsoft Teams                         |
 | Epos                | Sennheiser ADAPT 660-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
 | Epos                | Sennheiser ADAPT 560-Headset                              | 5/15/2020      | Certified für Microsoft Teams                          |
 | Epos                | Sennheiser ADAPT 460T-Headset                             | 5/15/2020      | Certified für Microsoft Teams                          |

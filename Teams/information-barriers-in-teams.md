@@ -1,7 +1,7 @@
 ---
 title: Informationsbarrieren in Microsoft Teams
 author: chrfox
-ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202911"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572380"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -177,6 +177,9 @@ Klicken Sie [hier](https://docs.microsoft.com/sharepoint/information-barriers#se
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
 Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Lizenzierungs Leit Faden](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+
+## <a name="known-issues"></a>Bekannte Probleme
+- **Benutzer können nicht an Besprechungen teilnehmen**: Wenn IB-Richtlinien aktiviert sind, können Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Besprechungsliste mehr als 250 Benutzer ist. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Wenn Sie an einer Besprechung teilnehmen, wird dieser Benutzer dem Dienstplan hinzugefügt, sodass der Dienstplan für wiederkehrende Besprechungen schnell aufgefüllt wird. Sobald Sie eine Anzahl von 250-Benutzern erreicht haben, dürfen keine weiteren Benutzer zur Besprechungsliste hinzugefügt werden. Wenn IB aktiviert ist, können Benutzer nicht an der Besprechung teilnehmen, aber wenn IB nicht aktiviert ist, können Benutzer an der Besprechung teilnehmen, obwohl Sie nicht in die Liste der Besprechungs Chats aufgenommen werden. Eine kurzfristige Lösung besteht darin, inaktive Mitglieder aus der Liste der Besprechungs Chats zu entfernen, um Platz für neue Benutzer zu schaffen. Wir werden jedoch zu einem späteren Zeitpunkt die Größe von Besprechungs-Chat-Dienstplänen erhöhen.
 
 ## <a name="more-information"></a>Weitere Informationen
 

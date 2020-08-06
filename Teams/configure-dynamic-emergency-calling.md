@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083155"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576927"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -75,6 +75,9 @@ Die folgenden Clients werden zurzeit unterstützt.  Schauen Sie sich häufig an,
 - Teams Mobile Client für Android-Client und Google Play Store, Version 1416/1.0.0.2019121201 und höher
 - Teams Phone Version 1449/1.0.94.2019110802 und höher
 - Teams rooms Version 4.4.25.0 und höher
+
+> [!NOTE]
+> Dynamische Notrufe, einschließlich Benachrichtigungen über den Security Desk, werden im Team-WebClient nicht unterstützt. Um zu verhindern, dass Benutzer den Microsoft Teams-WebClient zum Anrufen von PSTN-Nummern verwenden, können Sie eine Anrufrichtlinie für Teams festlegen und die Einstellung **webpstn-Anruf zulassen** deaktivieren. Weitere Informationen finden Sie unter [Aufrufen von Richtlinien in Teams](teams-calling-policy.md) und [CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 ## <a name="assign-emergency-addresses"></a>Notfalladressen zuweisen
 

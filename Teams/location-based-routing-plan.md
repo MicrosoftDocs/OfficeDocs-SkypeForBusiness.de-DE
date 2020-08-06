@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552273"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572240"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -35,7 +35,7 @@ Hier erhalten Sie einen Überblick über standortbasiertes Routing und Anleitung
 - [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
 
 > [!NOTE]
-> Standortbasiertes Routing steht in den Microsoft 365 Government Community Cloud (gcc)-höchst Bereitstellungen nicht zur Verfügung.
+> Standortbasiertes Routing steht in den Microsoft 365 Government Community Cloud (gcc)-oder DoD-Bereitstellungen nicht zur Verfügung.
 
 Standortbasiertes Routing ist eine Funktion, mit der Sie die Gebühren Umgehung auf der Grundlage der Richtlinie und des geografischen Standorts des Benutzers zum Zeitpunkt eines eingehenden oder ausgehenden PSTN-Anrufs einschränken können. Standortbasiertes Routing soll einen Mechanismus zur Vermeidung von Maut Umgehung bereitstellen. Es sollte nicht als Mechanismus zur dynamischen Weiterleitung von PSTN-anrufen basierend auf dem Standort des Benutzers oder unbeabsichtigten Folgen verwendet werden.
 
