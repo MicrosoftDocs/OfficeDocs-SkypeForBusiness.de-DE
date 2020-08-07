@@ -660,6 +660,7 @@
 ### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Teams Policy-Pakete für das Gesundheitswesen](policy-packages-healthcare.md)
 ### [Übersicht der Patienten-App](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [Benutzeroberflächenspezifikation DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
