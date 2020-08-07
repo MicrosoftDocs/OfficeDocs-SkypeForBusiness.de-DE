@@ -2,10 +2,9 @@
 title: Microsoft Teams-Administratorschulung
 ms.reviewer: ''
 description: Verwenden Sie diese kursleitergeführten Schulungsressourcen für Endbenutzer und Administratoren, um Microsoft Teams in Ihrer Organisation optimal zu nutzen.
-layout: LandingPage
-ms.topic: landing-page
-author: LolaJacobsen
-ms.author: lolaj
+ms.topic: overview
+author: SerdarSoysal
+ms.author: serdars
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,151 +18,65 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24abb87a7cf6b4c8ceb3f98f1ff35bdda1445e6e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8358aaf175536ea567c6972d878466bdb004b660
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691561"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588269"
 ---
 # <a name="microsoft-teams-admin-training"></a>Microsoft Teams-Administratorschulung
 
+|               |               |
+| ------------- | ------------- |
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[Schulung für Administratoren](/microsoftteams/itadmin-readiness)** </br> Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um mehr über Teams zu erfahren und dessen Verwendung in Ihrer Organisation voranzutreiben. 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Kursleitergeführte Schulung](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Von Microsoft gehostete, kostenlose Live-Onlineschulungskurse, die Sie auf Teams vorbereiten. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Schulungen für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Verwenden Sie diesen Schulungsressourcen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen. |
 
+## <a name="dont-miss-this-key-training"></a>Lassen Sie sich diese wichtige Schulung nicht entgehen
 
-<ul class="panelContent cardsF">
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/itadmin-readiness">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Schulung für Administratoren</h3>
-                        <p>Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um mehr über Teams zu erfahren und dessen Verwendung in Ihrer Organisation voranzutreiben.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Kursleitergeführte Schulung</h3>
-                        <p>Von Microsoft gehostete, kostenlose Live-Onlineschulungskurse, die Sie auf Teams vorbereiten. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/user.svg" alt="A person icon representing a user" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Benutzerschulung</h3>
-                        <p>Verwenden Sie diesen Schulungsressourcen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin, damit Sie immer über die neuesten, coolsten und wichtigsten Teams-Schulungen Bescheid wissen.
+
+:::row:::
+   :::column:::
+   **[Support für Remotemitarbeiter](https://aka.ms/TeamsForRemoteWork)** </br>
+   Hier erhalten Sie die benötigten Anleitungen (einschließlich Links zu Schulungen), um Ihre Benutzer, die von zu Hause aus arbeiten, zu unterstützen.
+
+   :::column-end:::
+
+   :::column:::
+   **[Teams-Grundlagen für IT](https://aka.ms/MicrosoftTeamsforIT)** </br>
+   Die Microsoft Mechanics-Videoreihe "Teams für IT" veranschaulicht Administratoren das Rollout sowie die Konfiguration und Verwaltung von Microsoft Teams.
+
+   :::column-end:::
+
+   :::column:::
+   **[Teamarbeit](https://aka.ms/edx-cld267x-about)** </br>
+   Kurs: Die Zusammenarbeit in Teams
+
+   :::column-end:::
+
+:::row-end:::
+
+:::row:::
+   :::column:::
+   **[Einführung der Specialist-Zertifizierung](https://aka.ms/AdoptionCert)** </br>
+   Der Kurs "Microsoft Service Adoption Specialist-Zertifizierung" behandelt Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.
+
+   :::column-end:::
+
+   :::column:::
+   **[Einführung in die Zusammenarbeit in Microsoft 365](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   Informationen zu den Microsoft 365-Werkzeugen, die die Teamarbeit für alle Mitarbeiter erleichtern, ganz gleich, wo diese sich befinden oder wie sie sich mit Ihrer Organisation verbinden.
+
+   :::column-end:::
+
+   :::column:::
+   **[Microsoft 365-zertifiziert: Teamwork-Administrator Associate](https://www.microsoft.com/learning/m365-teamwork-administrator.aspx)** </br>
+   Microsoft 365 Teamwork-Administratoren konfigurieren und verwalten Microsoft 365- oder Office 365-Workloads und stellen diese bereit, z. B. SharePoint (online, lokal und hybrid), OneDrive und Teams. 
+
+   :::column-end:::
+
+:::row-end:::
 
 ---
-
-<h2>Lassen Sie sich diese wichtige Schulung nicht entgehen</h2>
-Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin, damit Sie immer über die neuesten, coolsten und wichtigsten Teams-Schulungen Bescheid wissen.
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Remotemitarbeiter unterstützen</h3>
-                         <p><a href="https://aka.ms/TeamsForRemoteWork">Hier erhalten Sie die benötigten Anleitungen (einschließlich Links zu Schulungen), um Ihre Benutzer, die von zu Hause aus arbeiten, zu unterstützen.</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-        <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams-Grundlagen für IT</h3>
-                         <p><a href="https://aka.ms/MicrosoftTeamsforIT">Die Microsoft Mechanics-Videoreihe "Teams für IT" veranschaulicht Administratoren das Rollout sowie die Konfiguration und Verwaltung von Microsoft Teams.</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teamarbeit</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Kurs: Die Zusammenarbeit in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Einführung der Specialist-Zertifizierung</h3>
-                        <p><a href="https://aka.ms/AdoptionCert">Im Kurs „Microsoft Service Adoption Specialist Certification“ geht es um Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation vorantreiben können.</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-      </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Einführung in die Zusammenarbeit in Microsoft 365</h3>
-                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Informationen zu den Microsoft 365-Werkzeugen, die die Teamarbeit für alle Mitarbeiter erleichtern, ganz gleich, wo diese sich befinden oder wie sie sich mit Ihrer Organisation verbinden.</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    </li>
-      </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Microsoft 365-zertifiziert: Teamwork-Administrator Associate</h3>
-                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 Teamwork-Administratoren konfigurieren und verwalten Microsoft 365- oder Office 365-Workloads und stellen diese bereit, z. B. SharePoint (online, lokal und hybrid), OneDrive und Teams. </a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>

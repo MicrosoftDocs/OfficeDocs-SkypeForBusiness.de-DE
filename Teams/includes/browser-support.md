@@ -4,7 +4,7 @@ Teams unterstützt die folgenden Internetbrowser, wobei die Ausnahmen betreffend
 |Browser  |Anrufe – Audio, Video und Freigabe  |Konferenzen – Audio, Video und Freigabe<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
 |Internet Explorer 11     |Nicht unterstützt         |Konferenzen werden nur unterstützt, wenn die Konferenz PSTN-Koordinaten beinhaltet. Wenn Sie an einer Besprechung auf IE11 ohne PSTN-Koordinaten teilnehmen möchten, müssen alle teilnehmenden Benutzer den Teams-Desktop-Client herunterladen.<br><br>Video: Nicht unterstützt<br><br>Freigabe: Ausschließlich Freigabe von eingehenden Anrufen (keine ausgehenden)     |
-|Microsoft Edge, RS2 oder höher     |Vollständige Unterstützung ‒ mit Ausnahme von ausgehenden Anrufen, die nicht unterstützt werden.         |Vollständige Unterstützung ‒ mit Ausnahme von ausgehenden Anrufen, die nicht unterstützt werden.         |
+|Microsoft Edge, RS2 oder höher     |Vollständige Unterstützung ‒ mit Ausnahme von ausgehenden Anrufen, die nicht unterstützt werden<sup>4</sup>         |Vollständige Unterstützung ‒ mit Ausnahme von ausgehenden Anrufen, die nicht unterstützt werden.         |
 |Microsoft Edge (basierend auf Chrome), neueste Version sowie die zwei vorhergehenden Versionen     | Vollständig unterstützt    |Vollständig unterstützt         |
 |Google Chrome, neueste Version sowie die zwei vorhergehenden Versionen       |Vollständig unterstützt |Vollständig unterstützt <br> <br>Freigabe wird ohne Plug-Ins oder Erweiterungen auf Chrome, Version 72 oder höher, unterstützt.       |
 |Safari 13+     |1:1-Anrufe werden nicht unterstützt. Gruppenanrufe mit vollständiger Audiounterstützung möglich.<br><br>Video: Nicht unterstützt<br><br>Freigabe: Ausschließlich Freigabe von eingehenden Anrufen (keine ausgehenden)         |Besprechungen mit vollständiger Audiounterstützung möglich.<br><br>Video: Nicht unterstützt<br><br>Freigabe: Ausschließlich Freigabe von eingehenden Anrufen (keine ausgehenden)     |
@@ -16,6 +16,8 @@ Teams unterstützt die folgenden Internetbrowser, wobei die Ausnahmen betreffend
 <sup>2</sup> "Hintergrundgeräusche ausblenden" ist nicht verfügbar, wenn Sie Teams in einem Browser ausführen. Dieses Feature ist nur im Desktopclient von Teams verfügbar.
 
 <sup>3</sup> Teams-Besprechungen in Browsern sind auf einen einzigen eingehenden Videofeed des aktiven Sprechers beschränkt.
+
+<sup>4</sup> Edge RS2 oder höher unterstützt nicht das Senden von Audio- und Videodatenverkehr in Echtzeit über HTTP-Proxys.
 
 > [!NOTE]
 > Solange das Betriebssystem den unterstützten Browser ausführen kann, wird Teams auf Desktopcomputern unterstützt. So kann zum Beispiel Firefox unter Linux für Teams verwendet werden.

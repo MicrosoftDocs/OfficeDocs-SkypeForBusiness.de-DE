@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Class Insights für IT-Administratoren
+title: Insights für Microsoft Teams for Education für IT-Administratoren
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
-description: Ein Leitfaden für IT-Administratoren zu Class Insights für Microsoft Teams.
+description: Ein Leitfaden für IT-Administratoren zu Insights für Microsoft Teams for Education.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -16,46 +16,48 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbf535c73bd1b23b22f368707bcbabe44c0cdf2d
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: 75d9396bf5f537f965493bb0db317a1286b2f950
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126191"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572370"
 ---
-# <a name="class-insights-for-it-admins"></a>Class Insights für IT-Administratoren
+# <a name="insights-in-teams-for-education-for-it-admins"></a>Einblicke in Teams for Education für IT-Administratoren
 
-Mit Class Insights in Microsoft Teams können Lehrkräfte auf Analysedaten zu Engagement und Leistung der Schüler zugreifen. Class Insights sammelt die Schüleraktivitäten in Teams, wie z. B. Noten, Aufgabenabgabe, Kommunikationsaktivität und Zusammenarbeit in einer Datei, und erstellt ein Analyse-Dashboard mit visuellen Daten.
+Mit Insights in Microsoft Teams for Education können Pädagogen und Führungskräfte auf Analysedaten zu digitalem Einsatz, Aufgabenworkload, Noten, Kommunikation und mehr zugreifen.
 
-Class Insights ist in den Office 365 Education-SKUs A1, A3 und A5 aktiv.
+Insights ist in den Office 365 Education-SKUs A1, A3 und A5 aktiv.
 
 > [!NOTE]
-> Lehrkräfte, Informationen zur Verwendung von Class Insights [hier](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc).
+> Lehrkräfte finden [hier](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc) Informationen zur Verwendung von Insights.
 
 ## <a name="permissions"></a>Berechtigungen
 
-Lehrkräfte können Class Insights zu einem öffentlichen Kanal innerhalb eines Klassenteams hinzufügen, indem sie in der App-Leiste "Teams" zu "Apps" navigieren und nach "Insights" suchen.
-
-- Lehrkräfte werden durch Lehrpersonal-Lizenzen definiert. Lehrkräfte müssen über eine Lehrpersonal-Lizenz verfügen und Besitzer eines Klassenteams sein, um die Registerkarte "Insights" hinzufügen und anzeigen zu können.
 - Die Schüler werden durch ihre Lizenz identifiziert und **haben keinen Zugriff auf die Registerkarte "Insights"** (auch wenn sie Besitzer des Teams sind).
-- Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Lehrkräfte, die nicht Besitzer des Teams sind).
+- Lehrkräfte werden durch Lehrpersonal-Lizenzen definiert. Lehrkräfte müssen über eine Lehrpersonal-Lizenz verfügen und Besitzer eines Klassenteams sein, um die Registerkarte "Insights" hinzufügen und anzeigen zu können. Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Lehrkräfte, die nicht Besitzer des Teams sind).
+- Die Basisdefinition für Führungskräfte erfolgt nach Lehrpersonal-Lizenz. Ein globaler IT-Administrator wird durch seine Rolle definiert. Führungskräfte müssen über eine Lehrpersonal-Lizenz verfügen und vom globalen IT-Administrator die ausdrückliche Berechtigung erhalten, die Berichte in der Insights-App anzuzeigen.
+
+Wir bieten Insights in zwei Formen an:
+- Registerkarten: Lehrkräfte können Insights zu einem öffentlichen Kanal innerhalb eines Klassenteams hinzufügen, indem sie in der App-Leiste "Teams" zu "Apps" navigieren und nach "Insights" suchen.
+- Persönliche App: Führungskräfte können die Insights-App als persönliche App hinzufügen (wird im linken Teams-Menü angezeigt), indem sie in der Teams-App-Leiste zu "Apps" navigieren und nach "Insights" suchen.
 
 ## <a name="compliance"></a>Compliance
 
-Class Insights hat branchenführende Compliance-Verpflichtungen und ist als Tier-C-Dienst innerhalb des Office 365 Compliance-Frameworks klassifiziert.
+Insights hat branchenführende Compliance-Verpflichtungen und ist als Tier-C-Dienst innerhalb des Office 365 Compliance-Frameworks klassifiziert.
 
 > [!NOTE]
 > Besuchen Sie das [Microsoft Trust Center](https://www.microsoft.com/trust-center), um mehr darüber zu erfahren, wie Microsoft Ihre Daten schützt.
 
 ## <a name="privacy"></a>Datenschutz
 
-Die im Rahmen von Class Insights gesammelten und gezeigten Informationen erfüllen mehr als 90 behördliche und Branchenstandards, einschließlich der DSGVO und dem FERPA (Family Education Rights and Privacy Act) für die Sicherheit von Schülern und Kindern und anderer, ähnlicher, privatwirtschaftlich orientierter Vorschriften. Für IT-Administratoren ist es wichtig zu wissen, dass die pro Schüler gesammelten Informationen nur im Klassenkontext verwendet werden sollen, damit Lehrkräfte das Klassenverhalten bestimmen können. Die Informationen werden für sinnvolle Lernaktivitäten gesammelt, wie z. B. die Teilnahme an Klassentreffen, das Veröffentlichen von Nachrichten, das Antworten auf Beiträge von Klassenkameraden, die Arbeit an Aufgaben, das Bearbeiten von Dateien und vieles mehr. Wir zeigen zum Beispiel keine Informationen über einen privaten Chat oder einer Anmeldung in Teams.
+Die im Rahmen von Insights gesammelten und gezeigten Informationen erfüllen mehr als 90 behördliche und Branchenstandards, einschließlich der DSGVO und dem FERPA (Family Education Rights and Privacy Act) für die Sicherheit von Schülern und Kindern und anderer, ähnlicher, privatwirtschaftlich orientierter Vorschriften. Für IT-Administratoren ist es wichtig zu wissen, dass die pro Schüler gesammelten Informationen nur im Klassenkontext verwendet werden sollen, damit Lehrkräfte und Führungskräfte das Klassenverhalten bestimmen können. Die Informationen werden für sinnvolle Lernaktivitäten gesammelt, wie z. B. die Teilnahme an Klassentreffen, das Veröffentlichen von Nachrichten, das Antworten auf Beiträge von Klassenkameraden, die Arbeit an Aufgaben, das Bearbeiten von Dateien und vieles mehr. Wir zeigen zum Beispiel keine Informationen über einen privaten Chat oder einer Anmeldung in Teams.
 
-Unser Ziel ist es, Lehrkräften dabei zu helfen, Engagement zu verstehen und das Lernen der Schüler ins Rampenlicht zu rücken. Während diese Klassenaktivitäten auf Aktionen auf Schülerebene konzentriert werden können, wird diesen Aktionen von Microsoft Teams kein positiver oder negativer Wert zugewiesen, und es gibt keine wertende Identifizierung einzelner Schüler anhand von Kriterien. Die Informationen in Class Insights informieren Lehrkräfte darüber, dass z. B. ein Schüler während einer bestimmten Zeitspanne nicht aktiv an dem Tool teilgenommen hat oder in der vergangenen Woche alle seine Aufgaben pünktlich erledigt hat. Es liegt weiterhin in der Verantwortung der Lehrkraft, mit dem Schüler und seiner Familie oder seinem Vormund zu interagieren, um den eigentlichen Grund für jede festgestellte Aktivität oder Inaktivität zu ermitteln.
+Unser Ziel ist es, Lehrkräften dabei zu helfen, Engagement zu verstehen und das Lernen der Schüler ins Rampenlicht zu rücken. Während diese Klassenaktivitäten auf Aktionen auf Schülerebene konzentriert werden können, wird diesen Aktionen von Microsoft Teams kein positiver oder negativer Wert zugewiesen, und es gibt keine wertende Identifizierung einzelner Schüler anhand von Kriterien. Die Informationen in Insights informieren Lehrkräfte darüber, dass z. B. ein Schüler während einer bestimmten Zeitspanne nicht aktiv an dem Tool teilgenommen hat oder in der vergangenen Woche alle seine Aufgaben pünktlich erledigt hat. Es liegt weiterhin in der Verantwortung der Lehrkraft, mit dem Schüler und seiner Familie oder seinem Vormund zu interagieren, um den eigentlichen Grund für jede festgestellte Aktivität oder Inaktivität zu ermitteln.
 
 ## <a name="data-collection"></a>Datenerfassung
 
-Wir erfassen Daten für Class Insights, wenn Education Analytics für den Mandanten aktiviert ist. Die Daten werden aus der Aktivität in Teams erfasst, um verwertbare Einblicke für das Lehren und Lernen zu gewinnen.
+Wir erfassen Daten für Insights, wenn Education Analytics für den Mandanten aktiviert ist. Die Daten werden aus der Aktivität in Teams erfasst, um verwertbare Einblicke für das Lehren und Lernen zu gewinnen.
 
 Standardmäßig ist Education Analytics **Aktiviert**.
 
@@ -70,13 +72,13 @@ Derzeit werden diese Daten aus den folgenden Aktivitätsbereichen von Schülern 
 
 ## <a name="data-location"></a>Datenspeicherort
 
-Class Insights-Daten für in Europa ansässige Mandanten werden auf Servern in Europa gespeichert. Daten für in den USA ansässige Mandanten werden auf Servern in den Vereinigten Staaten gespeichert. Wenn Sie Class Insights verwenden und sich Ihr Office 365-Mandant in einer Region außerhalb Europas oder der Vereinigten Staaten befindet, werden Ihre Daten in der entsprechenden geografischen Region gespeichert.
+Insights-Daten für in Europa ansässige Mandanten werden auf Servern in Europa gespeichert. Daten für in den USA ansässige Mandanten werden auf Servern in den Vereinigten Staaten gespeichert. Wenn Sie Insights verwenden und sich Ihr Office 365-Mandant in einer Region außerhalb Europas oder der Vereinigten Staaten befindet, werden Ihre Daten in der entsprechenden geografischen Region gespeichert.
 
 ## <a name="performance-and-reliability"></a>Leistung und Zuverlässigkeit
 
-Class Insights wurde entwickelt, um eine große Menge an Daten, die bei der Aktivität in Teams erfasst wurden, mit optimaler Leistung und Zuverlässigkeit zu verarbeiten.
+Insights wurde entwickelt, um eine große Menge an Daten, die bei der Aktivität in Teams erfasst wurden, mit optimaler Leistung und Zuverlässigkeit zu verarbeiten.
 
-Der Prozess der Datenerfassung findet unabhängig von der Installation der Registerkarte "Insights" in Teams auf separaten Servern statt. Die Registerkarte "Class Insights" hat keinen Einfluss auf die Anwendungsleistung oder die Netzwerkbandbreite für Lehrkräfte und Schüler, die die restliche Funktionalität von Teams nutzen.
+Der Prozess der Datenerfassung findet unabhängig von der Installation der Registerkarte "Insights" in Teams auf separaten Servern statt. Die Registerkarte "Insights" oder die persönliche App hat keinen Einfluss auf die Anwendungsleistung oder die Netzwerkbandbreite für Lehrkräfte und Schüler, die die restlichen Teams-Funktionen nutzen.
 
 > [!TIP]
 > Lesen Sie [hier](edu-remote-low-bandwidth.md) über die Nutzung von Teams for Education, wenn die Bandbreite gering ist.
@@ -96,10 +98,10 @@ Der Education-Dienst speichert die Aktionen von Schülern und Lehrkräften, die 
 
 School Data Sync (SDS) unterstützt bei der Automatisierung des Imports und der Synchronisierung von Student Information System(SIS)-Daten mit Office 365.
 
-Die Verwendung von Class Insights erfordert nicht die Verwendung von SDS. Sie können sich jedoch jederzeit von Education Analytics abmelden, indem Sie die Umschaltfläche im SDS Admin Center unter **Einstellungen** > **Education Analytics verwalten** deaktivieren.
+Die Verwendung von Insights erfordert nicht die Verwendung von SDS. Sie können sich jedoch jederzeit von Education Analytics abmelden, indem Sie die Umschaltfläche im SDS Admin Center unter **Einstellungen** > **Education Analytics verwalten** deaktivieren.
 
-:::image type="content" source="media/class-insights-on-off.png" alt-text="Die Umschaltfläche zum Aktivieren oder Deaktivieren von Class Insights.":::
+:::image type="content" source="media/class-insights-on-off.png" alt-text="Die Umschaltfläche zum Aktivieren oder Deaktivieren von Insights.":::
 
-Standardmäßig ist Education Analytics und damit Class Insights aktiviert. Wenn Sie sich von Analytics abmelden, löschen wir alle für die Registerkarte "Class Insights" erfassten Daten. Schalten Sie Analytics wieder ein, und wir beginnen mit der Datenerfassung ab dem Zeitpunkt, an dem sie wieder aktiviert wird.
+Standardmäßig ist Education Analytics und damit Insights aktiviert. Wenn Sie sich von Analytics abmelden, löschen wir alle für die Registerkarte "Insights" erfassten Daten. Schalten Sie Analytics wieder ein, und wir beginnen mit der Datenerfassung ab dem Zeitpunkt, an dem sie wieder aktiviert wird.
 
-Weitere Informationen: [Class Insights für Lehrkräfte](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)
+Weitere Informationen: [Insights für Lehrkräfte](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)
