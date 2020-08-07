@@ -7,8 +7,8 @@ metadata:
   description: Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
@@ -24,12 +24,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902350"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583282"
 productDirectory:
   items:
   - title: Planen des Upgrades (hier starten)

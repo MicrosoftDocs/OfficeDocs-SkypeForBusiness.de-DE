@@ -1,7 +1,7 @@
 ---
 title: PowerShell-Skriptbeispiel – Export Manager und ihre directs
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc5e5f435ccb096b3cd552fc8e2e87204a4abc
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951080"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583122"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="c7058-103">PowerShell-Skriptbeispiel – Export Manager und ihre directs</span><span class="sxs-lookup"><span data-stu-id="c7058-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="0ebc2-103">PowerShell-Skriptbeispiel – Export Manager und ihre directs</span><span class="sxs-lookup"><span data-stu-id="0ebc2-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="c7058-104">Verwenden Sie dieses PowerShell-Skript, um eine Liste der Manager und deren directs für Ihre Organisation zu exportieren, und zwar in Vorbereitung auf die Erstellung eines People Manager-Teams für jeden Manager, dessen directs als Teammitglieder verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="c7058-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="0ebc2-104">Verwenden Sie dieses PowerShell-Skript, um eine Liste der Manager und deren directs für Ihre Organisation zu exportieren, und zwar in Vorbereitung auf die Erstellung eines People Manager-Teams für jeden Manager, dessen directs als Teammitglieder verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="0ebc2-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="c7058-105">Wenn Sie mehr über dieses PowerShell-Skript erfahren möchten, lesen Sie [Erstellen von Personen-Manager-Teams](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="c7058-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="0ebc2-105">Wenn Sie mehr über dieses PowerShell-Skript erfahren möchten, lesen Sie [Erstellen von Personen-Manager-Teams](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="0ebc2-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="c7058-106">Wenn PowerShell für Sie neu ist und Sie bei den ersten Schritten Hilfe benötigen, lesen Sie [Übersicht über Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="c7058-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="0ebc2-106">Wenn PowerShell für Sie neu ist und Sie bei den ersten Schritten Hilfe benötigen, lesen Sie [Übersicht über Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="0ebc2-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="c7058-107">Export-Manager-Skript</span><span class="sxs-lookup"><span data-stu-id="c7058-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="0ebc2-107">Export-Manager-Skript</span><span class="sxs-lookup"><span data-stu-id="0ebc2-107">Export-Managers script</span></span>
 
 ```powershell
 <# 
