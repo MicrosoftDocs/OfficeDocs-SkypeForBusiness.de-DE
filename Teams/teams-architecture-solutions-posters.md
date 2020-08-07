@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams IT-Architektur- und Telefonielösungen Poster
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Zusammenfassung: Erfahren Sie mehr über die logische Architektur von Produktivitätsdiensten in Microsoft 365, beginnend mit Microsoft Teams. Erfahren Sie auch mehr über Telefonie-Lösungen für Teams. '
-ms.openlocfilehash: 6518762250e2cd6fadc2bc2b6eb284a4af31edc4
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: dbf9d5eaff538786125b6414b209692ddf36472f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064500"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583494"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT-Architektur- und Telefonielösungen Poster
 
