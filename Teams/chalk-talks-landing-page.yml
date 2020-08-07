@@ -7,8 +7,8 @@ metadata:
   description: Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Diese interaktiven Online-Workshops werden von Fachleuten unterstützt, die Ihnen helfen, Ihre Team Implementierung zu verbessern und zusätzliche Vorteile für Endbenutzer bereitzustellen. Klicken Sie unten auf einen Workshop-Titel, um verfügbare Daten und Uhrzeiten anzuzeigen, und melden Sie sich noch heute an! Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 06/17/2020
   ms.reviewer: nsuter
@@ -25,12 +25,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902347"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583464"
 productDirectory:
   items:
   - title: Abrufen von Teams – NULL zur Produktion

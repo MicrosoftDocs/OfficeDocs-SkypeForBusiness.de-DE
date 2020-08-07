@@ -1,7 +1,7 @@
 ---
 title: Teams in einer Microsoft 365-oder Office 365 OneDrive-und SharePoint Online-Umgebung mit mehreren geografischen Funktionen
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de73dc3edff66bfe8b427e570bfc661e1dec46b4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1fdfd99494b8f65c448a2b1183a183b8cf7477af
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689681"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583242"
 ---
 <a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Teams in einer Microsoft 365-oder Office 365 OneDrive-und SharePoint Online-Umgebung mit mehreren geografischen Funktionen
 ===========================================

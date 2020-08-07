@@ -1,7 +1,7 @@
 ---
 title: Hochladen von Mandanten und Erstellen von Daten im Dashboard für die Anrufqualität (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Mandanten und Gebäudedaten im Dashboard für die Anrufqualität (CQD) hochladen.
-ms.openlocfilehash: d8a27ab45a01d1b0eccc28716bee9fa838fb8de5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086084"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584064"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Hochladen von Mandanten und Erstellen von Daten im Dashboard für die Anrufqualität (CQD)
 
@@ -73,16 +73,16 @@ Der erste Typ der Mandanten Datendatei in CQD ist die **Gebäude** Datendatei. D
 
 | Spaltenname        | Datentyp | Beispiel                   | Anleitung              |
 |--------------------|-----------|---------------------------|-----------------------|
-| NetworkIP          | String    | 192.168.1.0               | Erforderlich              |
-| NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Erforderlich<sup>1</sup>  |
+| NetworkIP          | Zeichenfolge    | 192.168.1.0               | Erforderlich              |
+| NetworkName        | Zeichenfolge    | USA/Seattle/SEATTLE-SEA-1 | Erforderlich<sup>1</sup>  |
 | NetworkRange       | Zahl    | 26                        | Erforderlich              |
-| BuildingName       | String    | SEATTLE-SEA-1             | Erforderlich<sup>1</sup>  |
+| BuildingName       | Zeichenfolge    | SEATTLE-SEA-1             | Erforderlich<sup>1</sup>  |
 | OwnershipType      | String    | Contoso                   | Optional              |
-| BuildingType       | String    | IT Termination            | Optional              |
-| BuildingOfficeType | String    | Engineering (Technik)               | Optional              |
-| Stadt/Ort               | String    | Seattle                   | Empfohlen           |
-| ZipCode            | String    | 98001                     | Empfohlen           |
-| Land            | String    | US                        | Empfohlen           |
+| BuildingType       | Zeichenfolge    | IT Termination            | Optional              |
+| BuildingOfficeType | Zeichenfolge    | Engineering (Technik)               | Optional              |
+| Stadt/Ort               | Zeichenfolge    | Seattle                   | Empfohlen           |
+| ZipCode            | Zeichenfolge    | 98001                     | Empfohlen           |
+| Land            | Zeichenfolge    | US                        | Empfohlen           |
 | Status              | Zeichenfolge    | WA                        | Empfohlen           |
 | Region             | String    | MSUS                      | Empfohlen           |
 | InsideCorp<sup>2</sup>         | Boolescher Wert      | 1             | Erforderlich              |

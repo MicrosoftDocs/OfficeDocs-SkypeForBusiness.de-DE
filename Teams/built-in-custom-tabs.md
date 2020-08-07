@@ -1,7 +1,7 @@
 ---
 title: Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824693"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581356"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 ==================================================
@@ -41,7 +41,7 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
     ![Screenshot der Registerkarten in einem Chat](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Besitzer und Teammitglieder können einem Kanal oder Chat weitere Registerkarten hinzufügen, indem Sie auf ![ **den Screenshot der Registerkarte hinzu** fügen klicken, um ein +-Zeichen anzuzeigen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) am oberen Rand des Kanals oder Chats.
+- Besitzer und Teammitglieder können einem Kanal oder Chat weitere Registerkarten hinzufügen, indem Sie auf den Screenshot der **Registerkarte hinzufügen klicken** , um ein ![ +-Zeichen anzuzeigen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) am oberen Rand des Kanals oder Chats.
 
 - Excel-, PowerPoint-, Word-und PDF-Dateien müssen auf die Registerkarte " **Dateien** " hochgeladen werden, bevor Sie in Tabstopps konvertiert werden können. Jede vorhandene geuploadete Datei kann mit nur einem Mausklick in eine Registerkarte konvertiert werden, wie unten dargestellt.
 

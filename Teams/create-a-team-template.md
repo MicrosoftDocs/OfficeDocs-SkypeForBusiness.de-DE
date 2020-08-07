@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Teamvorlage in Microsoft Teams
+title: Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie eine Teamvorlage in Microsoft Teams erstellen.
+description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in Microsoft Teams erstellen.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,16 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 28f85158662c1c9da2cd6411bc5c1f79523a4693
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506427"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583694"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
 
 Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit einer Reihe von Kanälen, Registerkarten und apps, die Sie entwickeln können, damit Sie den richtigen Platz für die Zusammenarbeit schnell erstellen können. Ihre benutzerdefinierte Teamvorlage verwendet Ihre bevorzugten Einstellungen.  
 
@@ -66,6 +68,6 @@ Ihre neue Vorlage wird in der Liste der **Team Vorlagen** angezeigt. Die Vorlage
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Erste Schritte mit Microsoft Teams-Vorlagen im Admin Center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Erstellen eines Teams aus einem vorhandenen Team](create-team-from-existing-team.md)
-- [Erstellen eines Teams aus einer vorhandenen Teamvorlage](modify-existing-team-template.md)
+- [Erste Schritte mit Teamvorlagen im Admin Center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Erstellen einer Vorlage aus einem vorhandenen Team](create-template-from-existing-team.md)
+- [Erstellen einer Teamvorlage aus einer vorhandenen Teamvorlage](create-template-from-existing-template.md)

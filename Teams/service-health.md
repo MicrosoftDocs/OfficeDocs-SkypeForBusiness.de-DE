@@ -1,8 +1,8 @@
 ---
 title: Überprüfen der Dienstintegrität für Microsoft Teams
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 description: Es empfiehlt sich, zu überprüfen, ob der Team Dienstfehler frei ist, sowie andere Microsoft 365-oder Office 365-Komponenten wie Exchange, SharePoint und OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 600bf8802dfb76dc1e96534be0ee303354267661
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085521"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581836"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Überprüfen der Dienstintegrität für Microsoft Teams
 ===========================================

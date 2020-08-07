@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d971a7c9e44e2fbf7c3d2500f237e3755c5f89d0
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522902"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588289"
 ---
 # <a name="use-ndi-in-microsoft-teams"></a>Verwenden von ndi in Microsoft Teams
 
@@ -40,7 +40,7 @@ NDI ist auf ein lokales Netzwerk limitiert und sollte nur als Teil des Produktio
 
 NDI erfordert zwei Schritte, die für einen Benutzer aktiviert werden müssen.
 
-1. Der mandantenadministrator muss das Feature-Flag enableStreamingCallsOverNdi aktivieren.
+1. Der mandantenadministrator muss die Eigenschaft "AllowNDIStreaming" in CsTeamsMeetingPolicy aktivieren.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -54,13 +54,13 @@ Die folgende Abbildung zeigt die Banner Nachricht, die ein Benutzer in einer Tea
 
 ![Abbildung des ndi-Banners, das in einer Teams-Besprechung angezeigt wird.](media/NDI-disclosure.png)
 
-Das Banner enthält einen Link zu den [Microsoft-Datenschutzrichtlinien](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi).
+Das Banner enthält einen Link zu den [Microsoft-Datenschutzrichtlinien](https://aka.ms/teamsprivacy).
 
 ## <a name="supported-locales-and-user-types"></a>Unterstützte Gebietsschemas und Benutzertypen
 
 NDI wird in allen Gebietsschemas unterstützt. Die folgenden Benutzer werden in einer ndi-Besprechung unterstützt:
 
-- In-Tenant – vollständige Unterstützung, bereitgestellt basierend auf Ring/Mandanten-ID/UserID (gesteuert durch Besprechungsrichtlinien + Feature-Flag)
+- In-Tenant – vollständige Unterstützung, bereitgestellt basierend auf Ring/Mandanten-ID/UserID (gesteuert durch die Richtlinien für Besprechungen)
 - Federated – Nein (auch wenn ndi aktiviert ist)<sup>1</sup>
 - Freemium-Nein (Standardwert)
 - Anonym – Nein (Standardwert)

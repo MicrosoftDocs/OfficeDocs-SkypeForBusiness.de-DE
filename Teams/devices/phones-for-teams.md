@@ -17,134 +17,68 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden.
-ms.openlocfilehash: e34734d88caa011185e56c5540d0fe6cee62dfe0
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281762"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583954"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
-Microsoft Teams unterstützt ein Portfolio von Tischtelefonen für Benutzer, die ein herkömmliches Telefon Erlebnis benötigen. Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden. Wenn Sie die neuesten und aktuellen Informationen zu Teams Certified Devices erhalten möchten, wechseln Sie zu [Teams Marketplace](https://office.com/teamsdevices).
+Microsoft Teams unterstützt ein Portfolio von Tischtelefonen für Benutzer, die ein herkömmliches Telefon Erlebnis benötigen. In diesem Artikel finden Sie eine vollständige Übersicht über Teams-Telefone und können bei der Planung, Bereitstellung und Verwaltung von Microsoft Teams-Telefonen als Teil Ihrer Microsoft Phone-System Lösung helfen. 
 
-## <a name="teams-certified-ip-phones"></a>Zertifizierte IP-Telefone für Teams
+Um eine hochwertige und zuverlässige Microsoft Teams-Erfahrung auf Smartphones zu bieten, arbeiten wir mit Yealink, Crestron, Lenovo, Polycom und AudioCodes zusammen, um ein breites Portfolio an Tischtelefonen und Konferenzraum-Audiogeräten zu entwickeln und zu zertifizieren. Informationen zu den neuesten und aktuellen Informationen zu Teams-Geräten finden Sie unter [Teams Marketplace](https://office.com/teamsdevices).
 
-Um eine hochwertige und zuverlässige Microsoft Teams-Erfahrung auf Smartphones zu bieten, arbeiten wir mit Yealink, Crestron, Polycom und AudioCodes zusammen, um ein breites Portfolio an Tischtelefonen und Konferenzraum-Audiogeräten zu entwickeln und zu zertifizieren. Aktuelle unterstützte Geräte finden Sie unter [derzeit zertifizierte IP-Telefone](teams-ip-phones.md#currently-certified-ip-phones) .
+## <a name="features-supported-by-teams-phones"></a>Von Teams-Smartphones unterstützte Funktionen
+Von Teams zertifizierte Telefone verfügen über eine breite Palette von Funktionen, die Ihren Benutzern helfen, ihre Aufgaben zu erledigen, und Sie bei der Verwaltung Ihrer Nutzung unterstützen. Nachfolgend finden Sie eine Zusammenfassung der Features, die in von Teams zertifizierten Telefonen zur Verfügung stehen:
 
-## <a name="microsoft-teams-phones-feature-set"></a>Microsoft Teams Phones-Funktionssatz
+- **Authentifizierung** Telefone verwenden moderne Authentifizierung, um die Anmeldung zu vereinfachen und die Sicherheit zu verbessern. Benutzer können sich anmelden, indem Sie Ihren Benutzernamen und Ihr Kennwort auf dem Telefon eingeben oder sich von einem anderen Gerät wie PC/Smartphone anmelden.
+- Kurzwahl **und Anrufprotokoll** Benutzer haben schnellen Zugriff auf Ihre Kontakte, Ihr Anrufprotokoll und ihre Voicemail. Sie können Ihre Kontakte und Kurzwahleinträge einfach direkt von Ihrem Telefon aus verwalten.
+- **Besprechungen und Anrufe** Benutzer können ihre Zeitpläne anzeigen und einfach an Besprechungen teilnehmen, indem Sie die One-Touch-Mitgliedschaft von Teams verwenden.
+- **Anrufgruppen** Telefon-Agents, die an Anrufgruppen teilnehmen, können Ihre Verfügbarkeit auf einfache Weise verwalten und eingehende Anrufe aus der Anrufwarteschlange annehmen oder ablehnen.
+- **Benutzer Delegierung** Leitende Mitarbeiter und Administratoren können die Telefone ihrer Führungskräfte verwalten – eingehende Anrufe abfangen; tätigen von Anrufen im Namen des Exekutiven; übernehmen von anrufen, die der Geschäftsführer in Wartestellung gesetzt hat; und überwachen Sie, ob sich die Führungskraft in einem Anruf befindet, in Wartestellung usw.
+- **Hot-Desking** Benutzer können Ihre Kontakte, Besprechungen und andere Einstellungen abrufen, indem Sie sich einfach bei einem Telefon anmelden. Wenn Sie fertig sind, können Sie sich abmelden und das Telefon für den nächsten Nutzer bereit lassen.
+- **Video** Telefone mit Videounterstützung ermöglichen es Benutzern, an anrufen und Videokonferenzen teilzunehmen, genau wie auf Ihrem Computer. Benutzer können Ihre Privatsphäre über den Kamera Auslöser und den Mikrofon Stummschalter des Telefons aufbewahren, wenn diese verfügbar sind.
+- **Besser zusammen** Telefone können auf integrierte Weise sperren und entsperren, wenn Sie mit Ihrem Windows-PC mit einem 64-Bit-Desktop Client verbunden sind.
+- **Barrierefreiheit** Telefone verfügen über verschiedene Barrierefreiheitsfeatures, wie beispielsweise Text mit hohem Kontrast, damit jeder Benutzer ihn leichter verwenden kann.
+- **Dynamische und erweiterte E911-Unterstützung** Bei angemeldeten Benutzern, die 911 anrufen, wird der Standort auf dem Smartphone angezeigt. 
+    > [!IMPORTANT]
+    > Wenn ein Telefon nicht angemeldet ist oder keine Internet Verbindung besteht, können keine 911-Anrufe getätigt werden. In diesem Fall wird eine Benachrichtigung auf dem Telefon angezeigt.
 
-In der folgenden Tabelle finden Sie eine Reihe von Funktionen, die in Teams Certified IP Phones unterstützt werden.
-
-|Features |Tischtelefon (persönlicher Modus) |Konferenzraum Telefon (Shared-Modus)|
-|---------|---------|---------|
-|**Authentifizierung** | |  |
-|Anmelden mit Benutzeranmeldeinformationen |  Ja  | Ja|
-|Anmelden mit PC/Smartphone  | Ja  |Ja|
-|Moderne Authentifizierung | Ja  |Ja |
-|Telefonsperre/-Sperrung | Ja |Nein |
-|**Anrufe** |  |  |
-|Eingehende/ausgehende P2P-Anrufe | Ja   |Ja |
-|In-Call-Steuerungen über UI (Stummschaltung, halten/fortsetzen, übertragen, Anruf beenden)| Ja   |Ja |
-|PSTN-Anrufe| Ja   |Ja |
-|Visuelle Mailbox | Ja | Nein |
-|911-Unterstützung  | Ja   |Ja |
-|**Kalender und Anwesenheitsinformationen**|   | |
-|Kalender Zugriff und Besprechungs Details|Ja  |Ja|
-|Integration von Anwesenheitsfunktionen |Ja|Ja|
-|Exchange-Kalender Integration |Ja |Ja|
-|Integration von Kontaktbildern  |Ja |Ja|
-|Zugriff auf das Unternehmensverzeichnis | Ja |Ja|
-|**Besprechungen**|   ||
-|Teilnehmen an Besprechungen mit einem Mausklick  | Ja   |Ja |
-|Teilnehmen an Skype for Business-Besprechungen | Ja   | Ja|
-|Anrufsteuerungen für Besprechungen (stumm schalten/Aufheben der Stummschaltung, halten/fortsetzen, auflegen, Teilnehmer hinzufügen/entfernen)|Ja |Ja|
-|Besprechungs Details|Ja|Nein|
-
-Wir arbeiten daran, kontinuierlich Funktionen hinzuzufügen, die unseren Nutzern helfen, ihre Teams auf Smartphones zu verbessern. Die folgenden Screenshots illustrieren einige der Erfahrungen, die wir heute unterstützen.
-
-## <a name="sign-in-experience"></a>Anmelde Erfahrung
-
-Wenn ein Benutzer auf die Anmeldeschaltfläche in Teams klickt, wird die Anmeldung über das Unternehmens Portal gestartet. Der Benutzer hat die Möglichkeit, sich anzumelden, indem er die Benutzeranmeldeinformationen auf dem Smartphone eingibt oder sich von einem anderen Gerät aus anmeldet. Wenn der Benutzer sich von einem anderen Gerät aus anmeldet, kann der Benutzer die Authentifizierung über seinen PC oder Smartphone abschließen.
-
-**Benutzeranmeldung mit Anmeldeinformationen**
-
-![Screenshot der Anmeldung mit Anmeldeinformationen](../media/sign-in-with-credentials.png)
-
-**Benutzeranmeldung über PC/Smartphone**
-
-![Screenshot der Anmeldung mit einem anderen Gerät](../media/sign-in-with-device.jpg)
-
-## <a name="personalshared-mode"></a>Persönlicher/freigegebener Modus
-
-Nach erfolgreicher Anmeldung kann der Benutzer auswählen, ob das Gerät für den privaten Gebrauch oder in einem gemeinsamen Konferenzraum genutzt wird.
-
-![Screenshot der Option "persönliches Konto" oder "freigegebenes Konto"](../media/personal-vs-shared-mode.jpg)
-
-Das Telefon Erlebnis für Teams wird basierend auf der Auswahl des Benutzers optimiert.
-
-**Persönlicher Modus**
-
-![Screenshot eines Kontos im persönlichen Modus](../media/personal-mode.png)
-
-**Shared-Modus**
-
-![Screenshot eines Kontos im freigegebenen Modus](../media/shared-mode.png)
-
-## <a name="calling-experience"></a>Anruferlebnis
-
-Der Microsoft Teams-Benutzer kann den Hörer anheben oder die Lautsprecher-Taste drücken, um die Wähltastatur auf dem Anruf Bildschirm zu starten. Alternativ kann der Benutzer die Hardware Schaltflächen (sofern verfügbar) verwenden, um eine Nummer zu wählen.
-
-**Wähltastatur auf dem Bildschirm**
-
-![Screenshot der Wähltastatur auf dem Bildschirm](../media/on-screen-dial-pad.png)
-
-**Bildschirm "anrufen"**
-
-![Screenshot des Anruf Bildschirms](../media/calling-screen.png)
-
-## <a name="meeting-experience"></a>Besprechungs Erfahrung
-
-Der Microsoft Teams-Benutzer kann zum Reiter "Besprechungen" navigieren, um seine Besprechungen anzuzeigen und die Schaltfläche " **teilnehmen** " zu verwenden, um an den Besprechungen teilzunehmen.
-
-**Kalenderansicht**
-
-![Screenshot von Besprechungen in der Kalenderansicht](../media/calendar-view.png)
-
-**Besprechungs Verknüpfungsansicht**
-
-![Screenshot einer Besprechung in der Verknüpfungsansicht](../media/meeting-join-view.png)
-
-
-## <a name="voicemail"></a>Voicemail
-
-Die Microsoft Teams-Benutzer können auf Ihre Voicemail zugreifen, wenn Sie zur Registerkarte **Voicemail** navigieren.
-
-![Screenshot der Registerkarte "Voicemail"](../media/voicemail-tab.png)
-
-## <a name="user-sign-out"></a>Benutzerabmeldung
-
-Der Benutzer des Teams kann sich abmelden wählen, indem er im Menü oben links die Option **Abmelden** auswählt.
-
-![Screenshot zum Abmelden von Teams](../media/teams-sign-out.png)
-
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Suchen der Firmwareversion auf einem mobilen Gerät
-
-Die Mindestversion der Firmware kann auf der Anmeldeseite für Teams überprüft werden, indem Sie in der oberen rechten Ecke das Symbol " **Einstellungen** " auswählen und dann auf " **Info**" klicken.
-
-**Anmeldeseite für Teams**
-
-![Screenshot der Anmeldeseite für Teams](../media/teams-sign-in-page.jpg)
-
-**Seite "Einstellungen"**
-
-![Screenshot der Seite "Teams-Einstellungen"](../media/teams-settings-page.jpg)
+Zusätzlich zu den oben genannten Features können Sie steuern, welche Funktionen verfügbar sind, abhängig vom Typ der Lizenz und der Telefon Richtlinie, die dem Benutzer zugewiesen sind, der sich beim Telefon anmeldet. Benutzer, die sich mit ihren privaten Konten bei einem Telefon anmelden, können beispielsweise auf die gesamte Palette der Funktionen zugreifen – Anrufe, Besprechungen, Voicemail usw. Konten, denen eine Telefon Lizenz für einen öffentlichen Bereich zugewiesen ist, die sich bei einem Telefon anmelden, können jedoch nur Zugriff auf eine begrenzte Anzahl von Funktionen erhalten. Anrufverlauf und Besprechungs Pläne werden möglicherweise nicht beibehalten, beispielsweise zum Schutz der Privatsphäre der Benutzer.
 
 ## <a name="required-licenses"></a>Erforderliche Lizenzen
 
 Microsoft Teams-Lizenzen können im Rahmen ihrer [Microsoft 365-und Office 365-Abonnements](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
 
 Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
+## <a name="deploy-your-phones-via-intune"></a>Bereitstellen Ihrer Telefone über InTune
+
+### <a name="conditional-access"></a>Bedingter Zugriff
+
+Bedingter Zugriff ist ein Azure Active Directory-Feature, mit dem Sie sicherstellen können, dass Geräte, die auf Ihre Office 365-Ressourcen zugreifen, ordnungsgemäß verwaltet und sicher sind.  Wenn Sie Richtlinien für den bedingten Zugriff auf den Teams-Dienst anwenden, müssen Android-Geräte (einschließlich eines Teams-Telefons), für die Access-Teams angemeldet sind, in InTune registriert werden, und Ihre Einstellungen müssen ihren Richtlinien entsprechen.  Wenn das Gerät nicht für InTune registriert ist, oder wenn es registriert ist, seine Einstellungen aber nicht Ihren Richtlinien entsprechen, verhindert der bedingte Zugriff, dass ein Benutzer sich bei oder mit der Teams-App auf dem Gerät anmeldet oder verwendet.
+
+In der Regel werden Konformitätsrichtlinien, die in InTune definiert sind, Gruppen von Benutzern zugewiesen.  Das bedeutet: Wenn Sie user@contoso.com eine Android-Konformitätsrichtlinie zuweisen, gilt diese Richtlinie gleichermaßen für Ihr Android-Smartphone sowie für alle Android-basierten Teams, die sich in user@contoso.com anmelden.
+
+Wenn Sie den bedingten Zugriff verwenden, für den die Intune-Registrierung erzwungen werden muss, müssen Sie in Ihrer Organisation ein paar Dinge einrichten, um eine erfolgreiche InTune-Registrierung zu ermöglichen:
+
+- **InTune-Lizenz** Der Benutzer, der sich beim Microsoft Teams-Telefon anmeldet, muss für InTune lizenziert sein.  Solange die Microsoft Teams-Telefone bei einem Benutzerkonto angemeldet sind, das über eine gültige InTune-Lizenz verfügt, wird das Telefon als Teil des Anmeldeprozesses automatisch in Microsoft InTune registriert.
+- **Konfigurieren von InTune** Für die Registrierung des Android-Geräte Administrators muss ein ordnungsgemäß konfigurierter InTune-Mandant eingerichtet sein.
+
+### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Konfigurieren von InTune zum Registrieren von Android-basierten Geräten für Teams
+
+Auf Android-Geräten basierende Teams werden über die Verwaltung von Android Device Administrator (da) in InTune verwaltet. Bevor Sie Geräte für InTune registrieren können, müssen Sie einige grundlegende Schritte ausführen.  Wenn Sie bereits heute Geräte mit InTune verwalten, haben Sie wahrscheinlich bereits alle diese Vorgänge ausgeführt.  Wenn dies nicht der Fall ist, gehen Sie wie folgt vor:
+
+1. Stellen Sie die Intune-MDM-Autorität (Mobile Device Management) ein.  Wenn Sie InTune noch nie zuvor verwendet haben, müssen Sie die MDM-Autorität einrichten, bevor Sie Geräte registrieren können. Weitere Informationen finden Sie unter [Einrichten der Verwaltung mobiler Geräte](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set).  Hierbei handelt es sich um einen einmaligen Schritt, der beim Erstellen eines neuen InTune-Mandanten durchgeführt werden muss.
+2. Aktivieren Sie die Registrierung des Android-Geräte Administrators. Android-basierte Teams-Geräte werden als Geräteadministrator Geräte mit InTune verwaltet.  Die Registrierung für den Geräteadministrator ist standardmäßig für neu erstellte Mandanten deaktiviert.  Weitere Informationen finden Sie unter [Administrator Registrierung für Android-Geräte](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator).
+3. Zuweisen von Lizenzen zu Benutzern Benutzern von Teams-Geräten, die sich für InTune registrieren, muss eine gültige InTune-Lizenz zugewiesen werden. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen zu Benutzern, damit diese Geräte in InTune registrieren können](https://docs.microsoft.com/intune/fundamentals/licenses-assign).
+4. Zuweisen von Konformitätsrichtlinien für geräteadministratoren  Erstellen Sie eine Konformitätsrichtlinie für Android-geräteadministratoren, und weisen Sie Sie der Azure Active Directory-Gruppe zu, die die Benutzer enthält, die sich bei den Teams-Geräten anmelden werden. Weitere Informationen finden Sie unter [Verwenden von Konformitätsrichtlinien zum Einrichten von Regeln für Geräte, die Sie mit InTune verwalten](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started).
+
+## <a name="manage-your-phones"></a>Verwalten Ihrer Telefone
+
+Ein mandantenadministrator kann alle Ihre Teams-Geräte über das Team Admin Center auf dem neuesten Stand halten und verwalten. Weitere Informationen finden Sie unter [Verwalten von Geräten in Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/device-management). 
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie benutzerdefinierte apps genehmigen, die mit der APP-Übermittlungs-API von Teams in Microsoft Teams gesendet werden.
-ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 7168a6cf531890a8e942153cc4d214085d6bc63f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552601"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583504"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten APP, die über die APP-Übermittlungs-API der Teams gesendet wird
 
@@ -87,6 +87,12 @@ Standardmäßig können alle Benutzer in Ihrer Organisation auf die APP im App S
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Anheften und Installieren der APP für Benutzer
 
 Standardmäßig müssen Benutzer die APP im App Store Ihrer Organisation finden, um Sie zu finden und zu durchsuchen. Um Benutzern das Abrufen der APP zu erleichtern, können Sie die app in Teams an die APP-Leiste anheften. Erstellen Sie dazu eine APP-Setup Richtlinie, und weisen Sie Sie Benutzern zu. Weitere Informationen finden Sie unter <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Verwalten von App-Setup Richtlinien in Teams</a>.
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>Durchsuchen des Überwachungsprotokolls für Teams-App-Ereignisse
+
+Sie können das Überwachungsprotokoll durchsuchen, um die Aktivitäten von Teams-apps in Ihrer Organisation anzuzeigen. Weitere Informationen zum Durchsuchen des Überwachungsprotokolls und zum Anzeigen einer Liste der Teamaktivitäten, die im Überwachungsprotokoll protokolliert werden, finden Sie unter <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">Durchsuchen des Überwachungsprotokolls nach Ereignissen in Teams</a>.
+
+Bevor Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst die Überwachung im <a href="https://protection.office.com" target="_blank">Security & Compliance Center</a>aktivieren. Weitere Informationen finden Sie unter <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">Aktivieren oder Deaktivieren der Überwachungsprotokoll Suche</a>. Beachten Sie, dass Überwachungsdaten nur ab dem Zeitpunkt verfügbar sind, an dem Sie die Überwachung aktiviert haben.
 
 ## <a name="discover-and-adopt"></a>Entdecken und übernehmen
 

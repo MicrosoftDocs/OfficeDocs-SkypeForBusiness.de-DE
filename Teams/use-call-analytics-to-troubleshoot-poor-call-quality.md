@@ -1,7 +1,7 @@
 ---
 title: Verwenden von Anruf Analysen zur Fehlerbehebung bei schlechter Anrufqualität
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie benutzerspezifische anrufanalyse Details zu Geräten, Netzwerken und Verbindungen zur Behandlung von Benutzerproblemen mit Microsoft Teams-anrufen und-Besprechungen.
-ms.openlocfilehash: fa923a133ac6a56edcbc6f6445d2859692adf351
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 8bee41e79f2610adcb9a1fed3f895c728526f5ea
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085321"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583624"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anruf Analysen zur Fehlerbehebung bei schlechter Anrufqualität
 

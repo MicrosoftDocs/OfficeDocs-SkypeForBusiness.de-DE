@@ -13,16 +13,19 @@ f1.keywords:
 description: Eine Übersicht über die integrierte Contact Center as a Service (CCaaS)-Lösung für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: 3f553c29d2a18816053c28c57a6f0f78b818825a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143836"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583252"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
 Die Integration von beliebten Contact Center-Lösungen in Microsoft Teams ist ein häufiges Bedürfnis für Kunden, die die Funktionen von Teams anrufen.  Dieser Artikel bietet eine Übersicht darüber, wie Contact Center-Lösungen in Microsoft Teams integriert werden können, sowie weitere Informationen zu den Partnerlösungen, die am Zertifizierungsprogramm Microsoft Teams Connected Contact Center teilnehmen.
+
+> [!NOTE]
+> Für Contact Center-Integrationsfunktionen ist Advanced Communications License erforderlich. 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Was ist eine Contact Center-Integration für Microsoft Teams?
 
@@ -38,7 +41,7 @@ Für andere Personen, die integrierte Lösungen mit Geschäftstools und Workflow
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm
 
-Neben der Veröffentlichung öffentlich verfügbarer APIs, die Partnern die Entwicklung und Integration von CCaaS-Lösungen für Teams ermöglichen, haben wir das Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm entwickelt, um Kunden die Gewissheit zu bieten, dass die Lösung jedes teilnehmenden Partners getestet und überprüft wurde, um die Qualität, Kompatibilität und Zuverlässigkeit zu gewährleisten, die Sie von Microsoft-Lösungen erwarten.
+Die APIs, die es Partnern ermöglichen, CCaaS-Lösungen für Teams zu entwickeln und zu integrieren, stehen mit Advanced Communications-Lizenz zur Verfügung. Darüber hinaus haben wir das Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm entwickelt, um Kunden die Gewissheit zu bieten, dass die Lösung jedes teilnehmenden Partners getestet und überprüft wurde, um die Qualität, Kompatibilität und Zuverlässigkeit zu gewährleisten, die Sie von Microsoft-Lösungen erwarten.
 
 Die folgenden Partner sind dabei, Ihre Lösung für Microsoft Teams zu zertifizieren und sind bereit, Kunden zu engagieren:
 

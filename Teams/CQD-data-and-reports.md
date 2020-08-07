@@ -1,7 +1,7 @@
 ---
 title: Daten und Berichte im Dashboard für die Anrufqualität (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Informieren Sie sich über die Daten und Berichte, die im Microsoft Call Quality-Dashboard (CQD) zur Verfügung stehen.
-ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372164"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583092"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Daten und Berichte im Dashboard für die Anrufqualität (CQD)
 
@@ -43,7 +43,7 @@ Sie können auf CQD-Daten über verschiedene Alleen zugreifen. Entscheiden Sie s
 |Teams Admin Center [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD-Daten sind im Team Admin Center auf der Seite " **Benutzer** " enthalten, wobei die am häufigsten benötigten Daten in einem einfach zu lesenden Format angezeigt werden. Sie können CQD-Daten, die Sie unter " **Benutzer**" finden, nicht anpassen.  |
 |CQD- [Portal https://cqd.teams.microsoft.com) (](https://cqd.teams.microsoft.com)     | Robuste Zusammenfassungs-und Detailberichte, die die meisten Anforderungen erfüllen, mit Drillthrough-Filterung. Sie können Berichte auch im CQD-Portal anpassen. <br><br>Besorgen Sie sich zwei [CQD-Berichtsvorlagen](#import-the-cqd-report-templates) , die Ihnen bei der Analyse von Daten im CQD-Portal helfen.       |
 |Power BI     | Verwenden Sie direkte Abfragen, um Ihre CQD-Daten in Power BI mithilfe von [anpassbaren Power BI-Vorlagen](CQD-Power-BI-query-templates.md)anzuzeigen. [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Sie können auch [die restliche API verwenden, um über Power BI auf CQD-Daten zuzugreifen](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/data-api) . Verwenden Sie diese Methode, wenn Sie Ihre CQD-Daten herunterladen möchten, damit Sie offline daran arbeiten können. Der Vorteil der Verwendung dieser Methode ist eine bessere Leistung, insbesondere bei umfangreichen Datensätzen, die sich in Power BI versumpfen, wenn Sie online sind.       |
-|Diagramm-API     | Verwenden Sie die [Diagramm-API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta), um selbst auf die Daten der Anrufqualität zuzugreifen. Hierbei handelt es sich um die komplexeste Methode, die Ihnen jedoch die meiste Kontrolle und Flexibilität bei der Analyse Ihrer Anruf Qualitätsdaten bietet. Wenn Sie beispielsweise mit anderen Daten für Ihre Organisation teilnehmen müssen, können Sie die Diagramm-API verwenden, um ein Datenmodell zu erstellen und die Daten zur Anrufqualität zu integrieren.        |
+|Graph-API     | Verwenden Sie die [Diagramm-API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta), um selbst auf die Daten der Anrufqualität zuzugreifen. Hierbei handelt es sich um die komplexeste Methode, die Ihnen jedoch die meiste Kontrolle und Flexibilität bei der Analyse Ihrer Anruf Qualitätsdaten bietet. Wenn Sie beispielsweise mit anderen Daten für Ihre Organisation teilnehmen müssen, können Sie die Diagramm-API verwenden, um ein Datenmodell zu erstellen und die Daten zur Anrufqualität zu integrieren.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importieren der CQD-Berichtsvorlagen
 
@@ -123,18 +123,18 @@ Wenn Sie Power BI zum Analysieren ihrer CQD-Daten verwenden möchten, lesen Sie 
 |Feature|Zusammenfassungsberichte|Detaillierte Berichte|
 |:--- |:--- |:--- |
 |Anwendungsfreigabemetrik | Nein | Ja |
-|Unterstützung von Kunden-Gebäudeinformationen | Ja | Ja  |
+|Unterstützung von Kunden-Gebäudeinformationen | Ja | Ja |
 |Support für Kunden Endpunktinformationen | Nur in <span> CQD.Teams.Microsoft.com<span/> | Nur in <span> CQD.Teams.Microsoft.com<span/> |
 |Unterstützung für Drilldown-Analyse   | Nein   | Ja   |
 |Medienzuverlässigkeitsmetriken   | Nein   | Ja   |
-|Sofort einsatzbereite Berichte   | Ja   | Ja    |
-|Übersichtsberichte   | Ja   | Ja    |
+|Sofort einsatzbereite Berichte   | Ja   | Ja   |
+|Übersichtsberichte   | Ja   | Ja   |
 |Berichtssatz pro Nutzer   | Nein   | Ja   |
 |Anpassung des Berichtssatzes (Hinzufügen, Löschen, Ändern von Berichten)   | Nein   | Ja   |
 |Videobasierte Bildschirmfreigabe-Metriken   | Nein   | Ja   |
 |Videometriken   | Nein   | Ja   |
 |Verfügbare Datenmenge   | Letzte 12 Monate   | Letzte 12 Monate   |
-|Microsoft Teams-Daten   | Ja   | Ja    |
+|Microsoft Teams-Daten   | Ja   | Ja   |
 | | | |
 
 

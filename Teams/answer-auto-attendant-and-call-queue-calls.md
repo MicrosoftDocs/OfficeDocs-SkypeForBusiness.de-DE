@@ -1,8 +1,8 @@
 ---
 title: Annehmen einer automatischen Telefonzentrale und Anruf Warteschlangen Anrufe
 ms.reviewer: waseemh
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190867"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582822"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 ===========================================================
@@ -65,7 +65,7 @@ Wenn Sie die automatische Telefonzentrale und die Anruf Warteschlangen Anrufe in
 
 ## <a name="related-topics"></a>Verwandte Themen
 
--    [Was ist das Telefon System in Office 365?](what-is-phone-system-in-office-365.md)
+-    [Was ist das Telefon System in Microsoft 365 oder Office 365](what-is-phone-system-in-office-365.md)
 -    [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
 -    [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 -    [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)

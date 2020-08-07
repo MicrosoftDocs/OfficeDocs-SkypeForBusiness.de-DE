@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121645"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584084"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in die richtlinienbasierte Aufzeichnung von Teams für Anrufe & Besprechungen
 
@@ -40,7 +40,7 @@ Teams wurden verbessert, um die Integration von Drittanbieter-Aufzeichnungslösu
 
 - Neue administrative Richtlinien für die Konformitäts Aufzeichnung, einschließlich der Integration in vorhandene Teams administrative Anruf-und Besprechungstools und-Richtlinien
 
-- Für Benutzer von Teams mit einer separaten Lizenz aktiviert
+- Erfordert eine [Erweiterte Kommunikations Lizenz](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 Die Integrationsfunktionen der Kompatibilitäts Aufzeichnung wurden auch bei Ignite 2019 in der [<span class="underline">Sitzung Compliance Recording und Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)überprüft.
 
@@ -57,9 +57,9 @@ Jede der Kategorien umfasst unterschiedliche Anforderungen für die Art und Weis
 | Initiator              | Benutzer               | App/Lösung       | Administrator (System)     | Administrator (System)  | Lea                |
 |  Target                 | Pro Anruf/Besprechung | Pro Anruf/Besprechung | Pro Anruf/Besprechung | Pro Benutzer        | Pro Endpunkt/did |
 | Speicher Besitzer          | Benutzer               | App                | Admin              | Compliance      | Lea                |
-| Benachrichtigung erforderlich? | Ja                 | Ja                 | Ja                 | Ja             | Nein                 |
+| Benachrichtigung erforderlich? | Ja                | Ja                | Ja                | Ja             | Nein                 |
 | Zugriffs Besitzer           | Benutzer               | App                | Admin              | Compliance      | Lea                |
-| Aufbewahrungsrichtlinie?      | Optional           | Ja                 | Ja                 | Ja              | Ja                |
+| Aufbewahrungsrichtlinie?      | Optional           | Ja                | Ja                | Ja             | Ja                |
 
 Teams bietet verschiedene Funktionen für die [<span class="underline">bequeme</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) und funktionelle Aufzeichnung für Besprechungen und Live-Events. Die organisatorische Aufzeichnung bedeutet, dass Organisationen, die Teams für Anrufe und Besprechungen einführen, in einer administrativen Richtlinie festlegen können, ob Anrufe und Onlinebesprechungen automatisch aufgezeichnet und für die spätere Verarbeitung und Aufbewahrung nach Maßgabe der einschlägigen Unternehmens-oder Aufsichtsrichtlinien festgelegt werden sollen. Benutzern, die dieser Richtlinie unterliegen, ist bewusst, dass Ihre digitalen Interaktionen mit Teams aufgezeichnet werden, Sie aber nicht in der Lage sind, die Aufzeichnung zu deaktivieren, und nach Abschluss der Interaktion keinen Zugriff auf die Aufzeichnung hat. Die Aufzeichnung wird Teil des Organisations Archivs, das Compliance-und juristischen Personen für eDiscovery, rechtliche Aufbewahrung und andere Unternehmens Aufbewahrungszwecke zur Verfügung steht.
 

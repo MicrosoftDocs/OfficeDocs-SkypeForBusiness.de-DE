@@ -1,7 +1,7 @@
 ---
 title: Parken und Fortsetzen von Anrufen in Microsoft Teams
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie den Anruf Park verwenden und abrufen, um einen Anruf im Teams-Dienst in der Cloud zu halten.
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938534"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582652"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -52,9 +52,9 @@ Anruf parken und Abrufen wird derzeit von den folgenden Clients und Geräten unt
 
 | Funktion | Teams-Desktop | Mac-app für Teams | Teams Web App (Edge) |Teams Mobile IOS/Android-App | IP-Telefon für Teams | Skype for Business-IP-Telefon |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Parken eines Anrufs | Ja  | Ja  | Ja  | Ja  | Ja | Nein |
-| Abrufen eines geparkten Anrufs | Ja  | Ja  | Ja  | Ja  | Ja | Nein |
-| Nicht abgerufener Anruf Ring zurück | Ja  | Ja  | Ja  | Ja  | Ja | Nein |
+| Parken eines Anrufs | Ja | Ja | Ja | Ja | Ja | Nein |
+| Abrufen eines geparkten Anrufs | Ja | Ja | Ja | Ja | Ja | Nein |
+| Nicht abgerufener Anruf Ring zurück | Ja | Ja | Ja | Ja | Ja | Nein |
 
 ## <a name="configure-call-park-and-retrieve"></a>Konfigurieren des Anruf Parks und Abrufen
 

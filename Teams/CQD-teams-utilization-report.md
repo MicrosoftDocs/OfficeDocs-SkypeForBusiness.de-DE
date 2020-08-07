@@ -1,7 +1,7 @@
 ---
 title: Anzeigen der Microsoft Teams-Auslastung in Power BI mithilfe von CQD-Daten
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Sie die Power BI-Berichte der Teams-Auslastung für den Zugriff auf Microsoft Teams Call Quality Dashboard-Daten (CQD), um die Verwendung von Microsoft Teams in Ihrer Organisation zu überwachen.
-ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085581"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581546"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Anzeigen der Microsoft Teams-Auslastung in Power BI mithilfe von CQD-Daten
 

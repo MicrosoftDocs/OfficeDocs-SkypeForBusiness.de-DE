@@ -1,7 +1,7 @@
 ---
 title: Was ist das Anruf Qualitäts Dashboard (CQD)?
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über das Anruf Qualitäts Dashboard (CQD) und wie Sie es verwenden können, um Berichte über die Qualität von Besprechungen und anrufen in Microsoft Teams anzuzeigen.
-ms.openlocfilehash: b7830d60139991b7ccc18679af798c74430e8ed1
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 9ba1956533887314a9ffa7ad994cbb4c81ffe103
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088243"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583484"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>Was ist das Anruf Qualitäts Dashboard (CQD)?
 

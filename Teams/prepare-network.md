@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten des Netzwerks Ihrer Organisation für Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e2346c8bae770671150edc19416676f38bc1d126
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: d0ce589ef972639928e4c8696f3ed23146126086
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202939"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583889"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -118,7 +118,7 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="odd">
 <td>Leitfaden zur Intrusionserkennung und-Prävention</td>
-<td>Wenn in Ihrer Umgebung ein <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> -oder Prevention-System (IDS/IPS) für eine zusätzliche Sicherheitsstufe für ausgehende Verbindungen bereitgestellt wird, achten Sie darauf, alle Microsoft 365-oder Office 365-URLs zu Whitelisten.</td>
+<td>Wenn in Ihrer Umgebung ein <a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">Intrusion Detection</a> -oder Prevention-System (IDS/IPS) für eine zusätzliche Sicherheitsstufe für ausgehende Verbindungen bereitgestellt wird, stellen Sie sicher, dass alle Microsoft 365-oder Office 365-URLs zugelassen sind.</td>
 </tr>
 <tr class="even">
 <td>Konfigurieren des Split-Tunnel-VPN</td>

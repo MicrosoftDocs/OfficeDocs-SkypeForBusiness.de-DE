@@ -3,8 +3,8 @@ title: Apps, Bots und Connectors in Microsoft Teams
 ms.reviewer: ''
 description: Erfahren Sie mehr über Apps, Bots und Connectors und darüber, wie Sie entscheiden können, welche dieser Komponenten basierend auf den Profil- und Geschäftsanforderungen Ihrer Organisation in Microsoft Teams bereitgestellt werden.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf2e7304fc452478da57bad003fffc5193353c8b
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: d377b18080d9208529b9c6196cd3879bd03a011f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085821"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584004"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Apps, Bots und Connectors in Microsoft Teams
 

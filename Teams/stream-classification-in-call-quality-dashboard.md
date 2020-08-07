@@ -1,6 +1,6 @@
 ---
 title: Stream-Klassifizierung im Dashboard für die Anrufqualität (CQD)
-ms.author: lolajacobsen
+ms.author: serdarsacobsen
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität in das Anruf Qualitäts Dashboard (CQD) für Microsoft Teams und Skype for Business Online eingestuft wird.
-ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085891"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583824"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Stream-Klassifizierung im Dashboard für die Anrufqualität (CQD)
 

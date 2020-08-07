@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie den Bericht zur Live-Ereignis Verwendung
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f9b25fa7c476c9dd3fe347af26fc13742b41d009
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904290"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583764"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams Live-Ereignis Verwendungsbericht
 
@@ -30,7 +30,7 @@ Der Bericht "Live-Ereignis Verwendung" von Teams im Microsoft Teams Admin Center
 
 ## <a name="view-the-live-event-usage-report"></a>Anzeigen des Berichts zur Live-Ereignis Nutzung
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams Live-Ereignis Nutzung**aus.
+1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte**  >  **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **Teams Live-Ereignis Nutzung**aus.
 2. Wählen Sie unter **Datumsbereich**einen vordefinierten Bereich aus, oder legen Sie einen benutzerdefinierten Bereich fest. Sie können einen Bereich so einstellen, dass Daten bis zu einem Jahr, sechs Monate vor und nach dem aktuellen Datum, angezeigt werden.
 3. Optional Unter **Organizer**können Sie auswählen, dass nur Live-Ereignisse angezeigt werden, die von einem bestimmten Benutzer organisiert werden.
 4. Klicken Sie auf **Bericht ausführen**.  
@@ -46,6 +46,9 @@ Der Bericht "Live-Ereignis Verwendung" von Teams im Microsoft Teams Admin Center
 |**3**   |<ul><li>Die X-Achse im Diagramm stellt den ausgewählten Datumsbereich für den Bericht dar.</li> <li> Die Y-Achse entspricht der Gesamtanzahl der Ansichten.</li> </ul>Zeigen Sie mit der Maus auf den Punkt an einem bestimmten Datum, um die Anzahl der Ansichten für alle Live Ereignisse an diesem Datum anzuzeigen.|
 |**4**   |Die Tabelle enthält eine Zusammenfassung der einzelnen Live Ereignisse. <ul><li>**Event** ist der Anzeigename des Live-Ereignisses. Klicken Sie auf den Ereignisnamen, um [Weitere Details](#view-event-details) zum Ereignis abzurufen. </li> <li>Die **Startzeit** bezieht sich auf das Anfangsdatum und die Startzeit des Ereignisses.</li> <li>Der **Ereignis Status** zeigt an, ob das Ereignis stattgefunden hat.  </li><li>**Organizer** ist der Name des Ereignis Organisators.</li> <li>**Referenten** sind die Namen der Veranstaltungs Referenten.</li><li>**Hersteller** sind die Namen der Veranstaltungs Hersteller.</li><li>**Ansichten** ist die Anzahl der eindeutigen Ansichten.</li><li>**Aufzeichnung** zeigt an, ob die Aufzeichnungseinstellung aktiviert oder deaktiviert ist.</li><li>**Produktionstyp** zeigt an, ob das Ereignis in Teams oder von einer externen Anwendung oder einem Gerät erzeugt wird.</li></li> </ul>Beachten Sie, dass der Benutzername in der Tabelle als "--" angezeigt wird, wenn ein Benutzerkonto in Azure AD nicht mehr vorhanden ist. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**5**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
+
+## <a name="notes"></a>Hinweise
+Es werden bis zu 100-Live Ereignisse angezeigt, die den aktuellen Berichtkriterien entsprechen. Wenn Sie weitere Live Ereignisse anzeigen möchten, wenden Sie Datumsfilter an, um die Listengröße zu verringern.
 
 ## <a name="view-event-details"></a>Anzeigen von Ereignisdetails
 
