@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572380"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592909"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -167,12 +167,12 @@ Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarri
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teamrichtlinien und SharePoint-Websites
 
-Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und dem Team für die Datei Oberfläche zugeordnet. Der Zugriff auf diese SharePoint-Website und Dateien honoriert die IB der Organisation, das heißt, nur die Benutzer, deren IB-Segment Übereinstimmungen pro IB-Richtlinie haben, können den Zugriff gewähren. Auch zum Zeitpunkt der Dateifreigabe wird die IB-Richtlinie berücksichtigt.
+Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und Microsoft Teams für die Datei Oberfläche zugeordnet. Richtlinien für Informationsbarrieren werden auf dieser SharePoint-Website und den Dateien standardmäßig nicht berücksichtigt. Um Richtlinien für Informationsbarrieren zu aktivieren, hat der Administrator bereits ein Formular ausgefüllt, in dem Sie aufgefordert werden, die IB-Richtlinien auf SharePoint und OneDrive zu aktivieren (siehe *Voraussetzungen* für [Informationsbarrieren](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Wenn die Richtlinie für Informationsbarrieren in SharePoint und OneDrive aktiviert ist, funktionieren die IB-Richtlinien auf SharePoint-Websites, die bereitgestellt werden, wenn ein Team mit Microsoft Teams erstellt wird.
 
-Beispiel: in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
+**Beispiel für IB-Richtlinien auf der SharePoint-Website eines Teams**: in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
 Wenn der Benutzer Sesha ein Team für das Segment Investment Banking erstellt, sind das Team und die SharePoint-Website, die es zurückgibt, nur für Benutzer des Segments Investment Banking zugänglich. Benutzer Nikita kann nicht auf diese Website zugreifen, selbst wenn Sie über die Website Verknüpfung verfügt.
 
-Klicken Sie [hier](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) , um weitere Informationen zu erhalten.
+Weitere Informationen finden Sie im Artikel [Informationen zu Barrieren](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 

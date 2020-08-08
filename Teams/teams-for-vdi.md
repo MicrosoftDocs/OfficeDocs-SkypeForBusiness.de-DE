@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028161"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597115"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -31,7 +31,7 @@ In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwend
 
 Virtual Desktop Infrastructure (VDI) ist eine Virtualisierungstechnologie, die ein Desktop Betriebssystem und Anwendungen auf einem zentralen Server in einem Rechenzentrum hostet. Dies ermöglicht Benutzern mit einer vollständig gesicherten und kompatiblen zentralisierten Quelle eine vollständig personalisierte Desktopoberfläche.
 
-Microsoft Teams in einer virtualisierten Umgebung unterstützen Chats und Zusammenarbeit. Und mit der Citrix-Plattform werden auch Anruf-und Besprechungsfunktionen unterstützt.
+Microsoft Teams in einer virtualisierten Umgebung unterstützen Chats und Zusammenarbeit. Mit den virtuellen Windows-Desktop-oder Citrix-Plattformen werden auch Anruf-und Besprechungsfunktionen unterstützt.
 
 Teams in einer virtualisierten Umgebung unterstützen mehrere Konfigurationen. Dazu gehören VDI-, dedizierte, freigegebene, persistente und nicht persistente Modi. Die Features werden kontinuierlich weiterentwickelt und regelmäßig hinzugefügt, und die Funktionalität wird in den nächsten Monaten und Jahren erweitert.
 
@@ -54,15 +54,20 @@ Für die Verwendung von Teams in einer virtualisierten Umgebung sind die folgend
 
 Die Desktop-App für Teams wurde mit führenden Anbietern von Virtualisierungslösungen validiert. Bei mehreren Marktanbietern empfehlen wir, dass Sie sich an Ihren Anbieter von Virtualisierungslösungen wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit sind Teams auf VDI mit Audio/Video (AV)-Optimierung mit Citrix zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie die Anforderungen von Citrix und Teams für die ordnungsgemäße Funktionalität erfüllen.
+Derzeit sind Teams auf VDI mit Audio/Video (AV)-Optimierung mit Windows Virtual Desktop und Citrix zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen für die ordnungsgemäße Funktionalität erfüllen.
 
-### <a name="partners-certified-for-teams"></a>Partner, die für Teams zertifiziert sind
+### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
-Die folgenden Partner verfügen über virtuelle Desktopinfrastruktur Lösungen für Teams.
+Die folgenden Plattformen verfügen über virtuelle Desktopinfrastruktur Lösungen für Teams.
 
-|Partner|Partner Lösung|
+|Plattform|Lösung|
 |----|---|
-|![Das Logo, das Citrix darstellt](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-apps und-Desktops</a> |
+|![Das Logo, das Microsoft darstellt](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Virtueller Windows-Desktop</a> |
+|![Das Logo, das Citrix darstellt](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-apps und-Desktops</a> |
+
+### <a name="windows-virtual-desktop"></a>Virtueller Windows-Desktop
+
+Der virtuelle Windows-Desktop bietet AV-Optimierung für Teams auf VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter [Verwenden von Teams auf dem virtuellen Windows-Desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Voraussetzungen für virtuelle Citrix-apps und-Desktops
 
@@ -360,19 +365,19 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechung
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
 - Die Interoperabilität mit Skype for Business ist auf Audio-Anrufe limitiert; Es gibt keine Video Modalitäten.
-- Die DTMF-Interaktion (Dual Tone Multi Frequency) mit Telefoniesysteme wird derzeit nicht unterstützt.
 - Die Teilnahme an Teams-Besprechungen als anonymer Benutzer ist nicht AV-optimiert. Der Benutzer kann an der Besprechung teilnehmen und hat eine nicht optimierte Benutzeroberfläche.
 - Nur ein einzelner eingehender Videostream wird in Besprechungen oder Gruppen anrufen unterstützt. Wenn mehrere Personen Video senden, wird nur das Video des dominanten Sprechers zu einem bestimmten Zeitpunkt angezeigt.
 - Die Auflösung des eingehenden und ausgehenden Videostroms ist auf 720p-Auflösung limitiert. Hierbei handelt es sich um eine WebRTC-Einschränkung.
 - Es wird nur ein Videostream von einer eingehenden Kamera oder einem Bildschirmfreigabe Datenstrom unterstützt. Wenn eine eingehende Bildschirmfreigabe vorhanden ist, wird diese Bildschirmfreigabe anstelle des Videos des dominanten Sprechers angezeigt.
 - Ausgehende Bildschirmübertragung:
-    - Bildschirm Übertragungen aus Chats werden nicht unterstützt.
     - Die Anwendungsfreigabe wird nicht unterstützt.
 - Kontrolle und Kontrolle übernehmen:
     - Wird während einer Bildschirmfreigabe-oder Anwendungsfreigabesitzung nicht unterstützt.
     - Wird während einer PowerPoint-Freigabesitzung unterstützt.
-- Wenn die Bildschirmübertragung in einer Multi-Monitor-Einrichtung erfolgt, wird nur der Hauptmonitor freigegeben.
-- Eine große DPI-Skalierung auf "GAV" wird nicht unterstützt.
+- Nur Citrix-Einschränkungen
+    - Die DTMF-Interaktion (Dual Tone Multi Frequency) mit Telefoniesysteme wird derzeit nicht unterstützt.
+    - Wenn die Bildschirmübertragung in einer Multi-Monitor-Einrichtung erfolgt, wird nur der Hauptmonitor freigegeben.
+    - Eine große DPI-Skalierung auf "GAV" wird nicht unterstützt.
 
 Informationen zu bekannten Problemen, die nicht mit VDI in Verbindung stehen, finden Sie unter [Support Teams in Ihrer Organisation](Known-issues.md).
 

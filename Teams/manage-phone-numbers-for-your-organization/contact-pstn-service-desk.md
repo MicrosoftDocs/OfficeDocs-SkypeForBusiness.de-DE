@@ -22,41 +22,44 @@ ms.custom:
 - ms.teamsadmincenter.voice.contactPSTNsupport
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
-description: Wenn Sie Telefonnummern erhalten oder Nummern für Ihre Organisation portieren (übertragen), müssen Sie möglicherweise Hilfe und Support beim PSTN-Service Desk erhalten.
-ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+description: Wenn Sie Telefonnummern oder Portnummern für Ihre Organisation erhalten, müssen Sie möglicherweise Hilfe und Support am PSTN-Service-Desk erhalten.
+ms.openlocfilehash: 7e259010772dd655f748f30e3de291a4a43c5cef
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710829"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597060"
 ---
-# <a name="pstn-service-desk-contact"></a>PSTN-Service Desk-Kontakt
+# <a name="pstn-service-desk-contact-information"></a>Kontaktinformationen für PSTN-Service Desk
 
-Das PSTN-Service Desk-Team verfügt derzeit über drei e-Mail-Adressen für die Unterstützung, die in der folgenden Tabelle aufgeführt sind:
+Wenn Sie sich an das PSTN Service Desk-Team wenden möchten, senden Sie eine e-Mail an den entsprechenden Alias, der in der folgenden Tabelle aufgeführt ist.
 
-| **Ich möchte vorhandene Nummern übertragen/portieren.**  | **Ich möchte neue Nummern bestellen für..** |
+| **Ich möchte vorhandene Nummern übertragen/portieren**  | **Ich möchte neue Nummern bestellen für** |
 |:-----:|:------:|
-| [**In den Vereinigten Staaten oder Kanada**senden Sie uns eine e-Mail an PTN@Microsoft.com](mailto:ptn@microsoft.com)| [**Belgien, Frankreich, Deutschland, Großbritannien, Irland, Niederlande, Spanien, Schweden, Schweiz**, senden Sie uns eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com)|
-|[**Außerhalb der USA oder Kanadas**senden Sie uns eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com)| [**Übrige Welt**, senden Sie uns eine e-Mail an gcstnmsd@Microsoft.com](mailto:gcstnmsd@microsoft.com)|
-|Aufgrund einer hohen Spitzenzahl bei eingehenden Anforderungen wird das **Nordamerika-Portierungs Team** zurückgemeldet. Wir arbeiten daran, diesen Rückstand auf eine FIFO-Basis (First in, First Out) zu löschen, und infolgedessen **verzögert sich die Antwort auf neue Anforderungen.**|
+| **In** den **USA** oder **Kanada**senden Sie eine e-Mail an [PTN@Microsoft.com](mailto:ptn@microsoft.com).| **Belgien, Frankreich, Deutschland, Großbritannien, Irland, Niederlande, Spanien, Schweden, Schweiz**, senden Sie eine e-Mail an [ptneu@Microsoft.com](mailto:ptneu@microsoft.com).|
+|**Außerhalb** der **USA** oder **Kanadas**senden Sie eine e-Mail an [ptneu@Microsoft.com](mailto:ptneu@microsoft.com).| In **der restlichen Welt**senden Sie eine e-Mail an [gcstnmsd@Microsoft.com](mailto:gcstnmsd@microsoft.com).|
 
-Wenn Sie Unterstützung bei **der Übertragung/Portierung ihrer vorhandenen Telefonnummern an Microsoft Teams**benötigen, geben Sie bitte so viele Details wie möglich an:
+> [!NOTE]
+> Die Antworten in Nordamerika können aufgrund einer starken Zunahme der eingehenden Anforderungen verzögert werden. Der Rückstand wird auf einer FIFO-Basis (First in, First Out) bereinigt.
+
+## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>Übertragen oder portieren Ihrer vorhandenen Telefonnummern an Microsoft Teams
+Senden Sie eine e-Mail an den entsprechenden e-Mail-Alias aus der obigen Tabelle. Fügen Sie so viele Details wie möglich hinzu, beispielsweise:
   - Ihre [Organisations-ID (Mandanten-ID) oder derzeit aktive Microsoft-Domänen](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
-  - Welche Arten von Telefonnummern benötigen Sie Unterstützung **(Nutzer, Servicegebühren oder Dienst gebührenfrei)**.
+  - Die Typen von Telefonnummern, mit denen Sie Unterstützung benötigen; wie Nutzer, Servicegebühren oder Dienst gebührenfrei.
   - Weitere wichtige Informationen auf der Grundlage Ihrer Anfrage.
-  
-Wenn Sie Hilfe beim **Erwerb neuer Telefonnummern für Microsoft Teams**benötigen, geben Sie bitte so viele Details wie möglich an:
-  - Ihre [Organisations-ID (Mandanten-ID) oder derzeit aktive Microsoft-Domänen.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - Welche Arten von Telefonnummern benötigen Sie Unterstützung **(Nutzer, Servicegebühren oder Dienst gebührenfrei)**.
-  - Wie viele Sie benötigen und die Ortsvorwahl (n)/Country/Region, von der Sie neue Telefonnummern wünschen.
 
-Wenn Sie Hilfe **bei der Einrichtung, Konfiguration, Lizenzierung/Gebühren/Abrechnung**benötigen, wenden Sie sich bitte an den [Support-Kontakt für Business-Produkte – Hilfeseite für Administratoren](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online) und unser technisches Team steht Ihnen gerne zur Verfügung.
+## <a name="get-new-phone-numbers-for-microsoft-teams"></a>Abrufen neuer Telefonnummern für Microsoft Teams
+Senden Sie eine e-Mail an den entsprechenden e-Mail-Alias aus der obigen Tabelle. Fügen Sie so viele Details wie möglich hinzu, beispielsweise:
+  - Ihre [Organisations-ID (Mandanten-ID) oder derzeit aktive Microsoft-Domänen.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
+  - Die Typen von Telefonnummern, mit denen Sie Unterstützung benötigen; wie Nutzer, Servicegebühren oder Dienst gebührenfrei.
+  - Die Anzahl der benötigten Telefonnummern und die Ortsvorwahl (n) oder das Land oder die Region, aus der die neuen Telefonnummern stammen sollen.
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
-- Wenn Sie feststellen möchten, _ob_ und welche **Anrufpläne** in Ihrem Land oder Ihrer Region zur Verfügung stehen, lesen Sie: [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Wenn Sie bei der Auswahl der richtigen Telefonnummern behilflich sein möchten, lesen Sie: [unterschiedliche Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, lesen Sie: [Support-Kontakt für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+- Wenn Sie Hilfe bei der Einrichtung/Konfiguration von Nummern, Lizenzen, Gebühren oder Abrechnung benötigen, lesen Sie [Support-Kontakt für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+- Informationen zu den Anrufplänen, die in Ihrem Land oder Ihrer Region zur Verfügung stehen, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- Informationen, die Ihnen bei der Auswahl der geeigneten Art (en) von Telefonnummern für Ihre Organisation helfen können, finden Sie unter [verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Informationen dazu, wie Sie Telefonnummern für Ihre Organisation einrichten, finden Sie [unter Support-Kontakt für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

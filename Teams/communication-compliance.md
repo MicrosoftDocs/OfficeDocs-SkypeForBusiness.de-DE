@@ -1,5 +1,5 @@
 ---
-title: Kommunikations Kompatibilität für Microsoft Teams
+title: Kommunikations Kompatibilität mit Microsoft Teams
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121695"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597136"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a>Kommunikations Kompatibilität für Microsoft Teams
+# <a name="communication-compliance-with-microsoft-teams"></a>Kommunikations Kompatibilität mit Microsoft Teams
 
-Die Compliance für die Kommunikation ist Teil der neuen Insider Risiko Lösung von Microsoft 365, die Ihnen hilft, Kommunikationsrisiken zu minimieren, indem Sie Ihnen dabei hilft, in Ihrer Organisation unangemessene Nachrichten zu erkennen, zu erfassen und zu Behebungen. Es hilft bei der Ermittlung anstößiger Sprache und Anti-Mobbing in Team Kanälen oder 1:1 und Gruppen-Chats. Sie können auch Richtlinien einrichten, um festzustellen, ob vertrauliche Informationen als Teil von Team Kanälen oder 1:1-und Gruppen-Chats freigegeben werden. Weitere Informationen zu verschiedenen Richtlinientypen und zur Einrichtung finden Sie im [Artikel M365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
+Communication Compliance ist eine Insider Risiko Lösung in Microsoft 365, die Ihnen hilft, Kommunikationsrisiken zu minimieren, indem Sie Ihnen hilft, ungeeignete Nachrichten in Ihrer Organisation zu erkennen, zu erfassen und zu bearbeiten.
 
-## <a name="how-to-use-communication-compliance-in-teams"></a>Verwenden der Kommunikations Konformität in Teams
+Für Microsoft Teams hilft die Compliance bei der Kommunikation bei der Identifizierung der [folgenden Arten](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) unangemessener Inhalte in Teams-Kanälen oder in 1:1 und Gruppen-Chats:
 
-### <a name="identify-inappropriate-messages"></a>Identifizieren unangemessener Nachrichten
+- Beleidigende, profane und belästigende Sprache
+- Erwachsene, rassige und blutige Bilder
+- Freigeben vertraulicher Informationen
 
-Wenn Sie alle Nachrichten identifizieren möchten, die in Microsoft Teams (1:1, Gruppen-Chats oder Kanal Unterhaltungen) gesendet werden, anstößige Sprache oder Schikanen enthalten, können Sie Richtlinien aktivieren, um dies zu erkennen, und der Bearbeiter kann die Nachrichten prüfen und die erforderlichen Schritte wie das Senden von Schulungsmaterial oder die Eskalation an die richtigen Behörden durchführen.
+>[!IMPORTANT]
+>Private Microsoft Teams-Kanäle werden von der Kommunikations Kompatibilität nicht unterstützt. Chat Nachrichten, die von Gastbenutzern an Teams gesendet werden, werden nicht auf ungeeignete Inhalte überwacht.
 
-### <a name="identify-sensitive-or-regulatory-information"></a>Identifizieren vertraulicher oder behördlicher Informationen
+Weitere Informationen zur Kommunikations Kompatibilität und zum Konfigurieren von Richtlinien für Ihre Organisation finden Sie unter [Kommunikations Kompatibilität in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
-Wenn Sie Nachrichten überprüfen möchten, die in Microsoft Teams (1:1, Gruppen-Chats oder Kanal Unterhaltungen) für vertrauliche Informationen oder behördliche Typen gesendet wurden, können Sie Richtlinien auswählen, die vordefinierte sensible oder regulatorische Typen unterstützen.
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Verwenden der Kommunikations Kompatibilität in Microsoft Teams
 
-> [!NOTE]
-> Private Kanäle werden von der Kommunikations Konformität nicht unterstützt.
+Kommunikations Compliance und Microsoft Teams sind eng integriert und können dazu beitragen, Kommunikationsrisiken in Ihrer Organisation zu minimieren. Nachdem Sie Ihre ersten Kommunikations Konformitätsrichtlinien konfiguriert haben, können Sie unangemessene Microsoft Teams-Nachrichten und Inhalte, die automatisch in Benachrichtigungen gekennzeichnet sind, aktiv verwalten.
 
-### <a name="custom-policy"></a>Benutzerdefinierte Richtlinie
+### <a name="getting-started"></a>Erste Schritte
 
-Verwenden Sie diese Vorlage, um bestimmte Kommunikationskanäle, individuelle Erkennungs Bedingungen und die Anzahl der zu überwachenden und zu überprüfenden Inhalte in Ihrer Organisation zu konfigurieren.
+Erste Schritte mit der Kompatibilität der Kommunikation in Microsoft Teams beginnen mit dem [Planen](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) und erstellen vordefinierter oder benutzerdefinierter Richtlinien, um ungeeignete Benutzeraktivitäten in Teams-Kanälen oder in 1:1 und Gruppen zu identifizieren. Beachten Sie, dass Sie einige Berechtigungen und grundlegende Voraussetzungen im Rahmen des Konfigurationsprozesses [Konfigurieren](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) müssen.
 
-### <a name="custom-trainable-classifier"></a>Benutzerdefinierte Klassifizierung
+Teams-Administratoren können Kommunikations Konformitätsrichtlinien auf den folgenden Ebenen konfigurieren:
 
-Verwenden Sie Lernbare Klassifizierungen, wenn eine der Out-of-the-Box-Klassifizierungen Ihre Anforderungen nicht erfüllt. Eine Microsoft 365-Klassifizierung ist ein Tool, das Sie trainieren können, um verschiedene Arten von Inhalten zu erkennen, indem Sie Ihnen Beispiele für deren Betrachtung geben. Schulung die Klassifizierung beinhaltet zunächst, dass Sie Beispiele für Personen enthält, die von Menschen ausgewählt werden und der Kategorie positiv entsprechen. Nachdem Sie diese Beispiele verarbeitet haben, testen Sie die Vorhersagen, indem Sie Ihr eine Mischung aus positiven und negativen Samples geben. Weitere Informationen zu diesem Thema finden Sie im [Artikel M365](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier) .
+- **Benutzerebene**: Richtlinien auf dieser Ebene gelten für einen einzelnen Teams-Benutzer oder können auf alle Teams-Benutzer in Ihrer Organisation angewendet werden. Diese Richtlinien beziehen sich auf Nachrichten, die diese Benutzer in 1:1-oder Gruppen-Chats senden dürfen. Die Chat Kommunikation der Benutzer wird automatisch in allen Microsoft Teams überwacht, in denen die Benutzer Mitglied sind.
+- **Team Ebene**: Richtlinien auf dieser Ebene gelten für einen Microsoft-Teamkanal. Diese Richtlinien beziehen sich auf Nachrichten, die nur im Kanal "Teams" gesendet werden.
 
-> [!NOTE]
-> Die Kommunikations Kompatibilität unterstützt jetzt Exchange-hybridbereitstellungen.
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Reagieren auf ungeeignete Nachrichten in Microsoft Teams
 
-Communication Compliance unterstützt den Konversations Verlauf für alle Nachrichten, die den Richtlinien entsprechen. Dies bietet Kontext für den untersuchenden Administrator.
+Nachdem Sie Ihre Richtlinien konfiguriert und Kommunikations Konformitäts Benachrichtigungen für Microsoft Teams-Nachrichten erhalten haben, ist es an der Zeit, dass Konformitäts Prüfer in Ihrer Organisation Maßnahmen für diese Nachrichten ergreifen. Überprüfer können Ihre Organisation schützen, indem Sie Kommunikations Konformitäts Benachrichtigungen überprüfen und gekennzeichnete Nachrichten aus der Ansicht in Microsoft Teams entfernen.
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="Ein Bildschirm für die Kommunikations Kompatibilität in Microsoft Teams.":::
+![Entfernen einer Nachricht in Microsoft Teams](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a>Wo Kommunikationsrichtlinien in Teams angewendet werden können
+Entfernte Nachrichten und Inhalte werden durch Benachrichtigungen für Betrachter ersetzt, die erklären, dass die Nachricht oder der Inhalt entfernt wurde und welche Richtlinie für die Entfernung gelten soll. Der Absender der entfernten Nachricht oder des Inhalts wird auch über den Entfernungsstatus benachrichtigt und mit dem ursprünglichen Nachrichteninhalt für den Kontext zur Entfernung bereitgestellt. Der Absender kann auch die spezifische Richtlinienbedingung anzeigen, die für das Entfernen von Nachrichten gilt.
 
-Kommunikations Konformitätsrichtlinien können für Nachrichten eingerichtet werden, die in Teams auf den folgenden Ebenen gesendet werden:
+Beispiel für einen richtlinientipp, der vom Absender angezeigt wird:
 
-- Benutzerebene: ein Administrator kann Richtlinien auf einer einzelnen Benutzerebene einrichten oder auf alle Benutzer im Mandanten anwenden. Dies gilt nur für Nachrichten, die ein Benutzer in 1:1 oder Gruppen-Chats gesendet hat.
-- Team Ebene: ein Administrator kann auch Richtlinien für ein Team einrichten. Dies umfasst alle Nachrichten, die in dem Kanal in diesem Team gesendet werden (private Kanal Nachrichten werden nicht unterstützt).
+![Richtlinientipp für Absender](./media/communication-compliance-warning-1.png)
+
+Beispiel für eine vom Absender gesehene Benachrichtigung über eine Richtlinienbedingung:
+
+![Informationen zur Richtlinienbedingung für Absender](./media/communication-compliance-warning-2.png)
+
+Beispiel für einen richtlinientipp, der vom Empfänger angezeigt wird:
+
+![Richtlinientipp für Empfänger](./media/communication-compliance-warning-3.png)
