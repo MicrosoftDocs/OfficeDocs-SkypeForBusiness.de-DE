@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d9396bf5f537f965493bb0db317a1286b2f950
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: e122071a9a4173250a78468126ed576d1e560607
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572370"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581496"
 ---
-# <a name="insights-in-teams-for-education-for-it-admins"></a>Einblicke in Teams for Education für IT-Administratoren
+# <a name="insights-in-teams-for-education-for-it-admins"></a>Insights in Teams for Education für IT-Administratoren
 
-Mit Insights in Microsoft Teams for Education können Pädagogen und Führungskräfte auf Analysedaten zu digitalem Einsatz, Aufgabenworkload, Noten, Kommunikation und mehr zugreifen.
+Mit Insights in Microsoft Teams for Education können Lehrkräfte auf Analysen zum digitalen Engagement, Arbeitsauslastung, Noten, Kommunikation und mehr zugreifen.
 
 Insights ist in den Office 365 Education-SKUs A1, A3 und A5 aktiv.
 
@@ -34,13 +34,11 @@ Insights ist in den Office 365 Education-SKUs A1, A3 und A5 aktiv.
 
 ## <a name="permissions"></a>Berechtigungen
 
-- Die Schüler werden durch ihre Lizenz identifiziert und **haben keinen Zugriff auf die Registerkarte "Insights"** (auch wenn sie Besitzer des Teams sind).
-- Lehrkräfte werden durch Lehrpersonal-Lizenzen definiert. Lehrkräfte müssen über eine Lehrpersonal-Lizenz verfügen und Besitzer eines Klassenteams sein, um die Registerkarte "Insights" hinzufügen und anzeigen zu können. Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Lehrkräfte, die nicht Besitzer des Teams sind).
-- Die Basisdefinition für Führungskräfte erfolgt nach Lehrpersonal-Lizenz. Ein globaler IT-Administrator wird durch seine Rolle definiert. Führungskräfte müssen über eine Lehrpersonal-Lizenz verfügen und vom globalen IT-Administrator die ausdrückliche Berechtigung erhalten, die Berichte in der Insights-App anzuzeigen.
+Lehrkräfte können Insights zu einem öffentlichen Kanal innerhalb eines Klassenteams hinzufügen, indem sie in der App-Leiste "Teams" zu "Apps" navigieren und nach "Insights" suchen.
 
-Wir bieten Insights in zwei Formen an:
-- Registerkarten: Lehrkräfte können Insights zu einem öffentlichen Kanal innerhalb eines Klassenteams hinzufügen, indem sie in der App-Leiste "Teams" zu "Apps" navigieren und nach "Insights" suchen.
-- Persönliche App: Führungskräfte können die Insights-App als persönliche App hinzufügen (wird im linken Teams-Menü angezeigt), indem sie in der Teams-App-Leiste zu "Apps" navigieren und nach "Insights" suchen.
+- Die Schüler werden durch ihre Lizenz identifiziert und **haben keinen Zugriff auf die Registerkarte "Insights"** (auch wenn sie Besitzer des Teams sind).
+- Lehrkräfte werden durch Lehrpersonal-Lizenzen definiert.
+- Lehrkräfte müssen über eine Lehrpersonal-Lizenz verfügen und Besitzer eines Klassenteams sein, um die Registerkarte "Insights" hinzufügen und anzeigen zu können. Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Lehrkräfte, die nicht Besitzer des Teams sind).
 
 ## <a name="compliance"></a>Compliance
 
@@ -51,7 +49,7 @@ Insights hat branchenführende Compliance-Verpflichtungen und ist als Tier-C-Die
 
 ## <a name="privacy"></a>Datenschutz
 
-Die im Rahmen von Insights gesammelten und gezeigten Informationen erfüllen mehr als 90 behördliche und Branchenstandards, einschließlich der DSGVO und dem FERPA (Family Education Rights and Privacy Act) für die Sicherheit von Schülern und Kindern und anderer, ähnlicher, privatwirtschaftlich orientierter Vorschriften. Für IT-Administratoren ist es wichtig zu wissen, dass die pro Schüler gesammelten Informationen nur im Klassenkontext verwendet werden sollen, damit Lehrkräfte und Führungskräfte das Klassenverhalten bestimmen können. Die Informationen werden für sinnvolle Lernaktivitäten gesammelt, wie z. B. die Teilnahme an Klassentreffen, das Veröffentlichen von Nachrichten, das Antworten auf Beiträge von Klassenkameraden, die Arbeit an Aufgaben, das Bearbeiten von Dateien und vieles mehr. Wir zeigen zum Beispiel keine Informationen über einen privaten Chat oder einer Anmeldung in Teams.
+Die im Rahmen von Insights gesammelten und gezeigten Informationen erfüllen mehr als 90 behördliche und Branchenstandards, einschließlich der DSGVO und dem FERPA (Family Education Rights and Privacy Act) für die Sicherheit von Schülern und Kindern und anderer, ähnlicher, privatwirtschaftlich orientierter Vorschriften. Für IT-Administratoren ist es wichtig zu wissen, dass die pro Schüler gesammelten Informationen nur im Klassenkontext verwendet werden sollen, um Lehrkräften die Bestimmung des Klassenverhaltens zu ermöglichen. Die Informationen werden für sinnvolle Lernaktivitäten gesammelt, wie z. B. die Teilnahme an Klassentreffen, das Veröffentlichen von Nachrichten, das Antworten auf Beiträge von Klassenkameraden, die Arbeit an Aufgaben, das Bearbeiten von Dateien und vieles mehr. Wir zeigen zum Beispiel keine Informationen über einen privaten Chat oder einer Anmeldung in Teams.
 
 Unser Ziel ist es, Lehrkräften dabei zu helfen, Engagement zu verstehen und das Lernen der Schüler ins Rampenlicht zu rücken. Während diese Klassenaktivitäten auf Aktionen auf Schülerebene konzentriert werden können, wird diesen Aktionen von Microsoft Teams kein positiver oder negativer Wert zugewiesen, und es gibt keine wertende Identifizierung einzelner Schüler anhand von Kriterien. Die Informationen in Insights informieren Lehrkräfte darüber, dass z. B. ein Schüler während einer bestimmten Zeitspanne nicht aktiv an dem Tool teilgenommen hat oder in der vergangenen Woche alle seine Aufgaben pünktlich erledigt hat. Es liegt weiterhin in der Verantwortung der Lehrkraft, mit dem Schüler und seiner Familie oder seinem Vormund zu interagieren, um den eigentlichen Grund für jede festgestellte Aktivität oder Inaktivität zu ermitteln.
 
