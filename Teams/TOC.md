@@ -675,7 +675,7 @@
 ### [Zuweisen von Richtlinien zu großen Benutzergruppen](batch-group-policy-assignment-edu.md)
 ### [PowerShell-Skript zum Erstellen von Sicherheitsgruppen für Lehrkräfte und Kursteilnehmer](scripts/powershell-script-security-groups-edu.md)
 ### [Anleitungen zu geringer Bandbreite für Administratoren in Bildungseinrichtungen](edu-remote-low-bandwidth.md)
-### [Class Insights](class-insights.md)
+### [Erste Schritte mit Insights](class-insights.md)
 ### [Aufgaben in Teams für Bildungseinrichtungen](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
 ### [Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren](plan-teams-governance-edu.md)
