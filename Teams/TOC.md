@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# Chat, Teams, Kanäle und Apps
+# Chat, Teams und Kanäle
 ## [Planen der Bereitstellung](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Verwenden des Ratgebers für Teams zum Bereitstellen von Teams](use-advisor-teams-roll-out.md)
 ## [Übersicht über Teams und Kanäle](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
 ## [Migrieren von Slack auf Teams](migrate-slack-to-teams.md)
 ## [Teams-Vorlagen integrieren Graph für kleine und mittlere Unternehmen](smb-templates.md)
-
-
-## Apps, Bots und Connectors
-
-### [Übersicht](deploy-apps-microsoft-teams-landing-page.md)
-### [Berechtigungen für Apps und Überlegungen dazu](app-permissions.md).
-### [Verwalten von Apps für Teams](manage-apps.md)
-### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
-### [Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors](Office-365-custom-connectors.md)
-### [Ressourcenspezifische Zustimmung](resource-specific-consent.md)
-### [Eine benutzerdefinierte App veröffentlichen, die über die Teams App Submission API eingereicht wurde](submit-approve-custom-apps.md)
-### [Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen](upload-custom-apps.md)
-### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Verwalten der Listen-App für Ihre Organisation in Teams](manage-lists-app.md)
-### [Verwalten der Aufgaben-App für Ihre Organisation](manage-tasks-app.md)
-### [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md)
-### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Kommunikation mit externen Benutzern
 ### [Kommunizieren mit Benutzern aus anderen Organisationen](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,26 @@
 
 <!-- ============================================================ -->
 
+# Apps, Bots und Connectors
+
+## [Übersicht](deploy-apps-microsoft-teams-landing-page.md)
+## [Berechtigungen für Apps und Überlegungen dazu](app-permissions.md).
+## [Verwalten von Apps für Teams](manage-apps.md)
+## [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
+## [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
+## [Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors](Office-365-custom-connectors.md)
+## [Ressourcenspezifische Zustimmung](resource-specific-consent.md)
+## [Eine benutzerdefinierte App veröffentlichen, die über die Teams App Submission API eingereicht wurde](submit-approve-custom-apps.md)
+## [Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen](upload-custom-apps.md)
+## [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Verwalten der Listen-App für Ihre Organisation in Teams](manage-lists-app.md)
+## [Verwalten der Aufgaben-App für Ihre Organisation](manage-tasks-app.md)
+## [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md)
+## [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # Besprechungen und Konferenzen
 ## [Schnellstart: Besprechungen und Live-Ereignisse](quick-start-meetings-live-events.md)
 ## [Planen der Bereitstellung](deploy-meetings-microsoft-teams-landing-page.md)
