@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088193"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46606921"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -33,7 +33,6 @@ Wenn Sie für die allgemeine Bereitstellung Microsoft Endpoint Configuration Man
 
 Hier sind die Links zu den MSI-Dateien:
 
-
 |Entität  |32-Bit      |64-Bit      |
 |---------|---------|---------|
 |Commercial     | [32-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
@@ -41,13 +40,15 @@ Hier sind die Links zu den MSI-Dateien:
 |Bundesbehörden – GCC High    | [32-Bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-Bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |Bundesbehörden – DoD     | [32-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
-> [!NOTE]
-> Installieren Sie die 64-Bit-Version von Teams auf 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, schlägt die Installation fehl, aber Sie erhalten zurzeit keine Fehlermeldung.
+**Wenn Sie eine erfolgreiche Bereitstellung sicherstellen möchten, beachten Sie Folgendes:**
 
-Teams können auch in einer Bereitstellung von Microsoft 365-Apps für Unternehmen enthalten sein. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/deployoffice/teams-install).
+- Installieren Sie die 64-Bit-Version von Teams auf 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, ist die Installation nicht erfolgreich, und es wird derzeit keine Fehlermeldung angezeigt.
 
-> [!Note]
-> Weitere Informationen zu Microsoft Endpoint Configuration Manager lesen Sie unter [Was ist Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
+- Wenn sich der Kunde Mandant auf der GCCH-oder DoD-Cloud befindet, sollte der Kunde den anfänglichen Endpunkt in der Registrierung durch Hinzufügen des **cloudtype** -Werts zum **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** -Schlüssel in der Registrierung festzulegen. Der Typ für **cloudtype** ist **DWORD** , und die Werte sind (0 = unset, 1 = kommerziell, 2 = gcc, * = GCCH; 4 = DoD). Durch das Festlegen des Endpunkts mit dem Registrierungsschlüssel wird für Teams die Verbindung zum richtigen Cloud-Endpunkt für die Voranmeldungs Konnektivität mit Teams eingeschränkt.
+
+- Teams können auch in einer Bereitstellung von Microsoft 365-Apps für Unternehmen enthalten sein. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/deployoffice/teams-install).
+
+- Weitere Informationen zu Microsoft Endpoint Configuration Manager lesen Sie unter [Was ist Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Bereitstellungsverfahren (empfohlen)
 

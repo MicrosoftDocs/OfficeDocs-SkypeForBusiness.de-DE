@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597115"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46607095"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -31,7 +31,7 @@ In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwend
 
 Virtual Desktop Infrastructure (VDI) ist eine Virtualisierungstechnologie, die ein Desktop Betriebssystem und Anwendungen auf einem zentralen Server in einem Rechenzentrum hostet. Dies ermöglicht Benutzern mit einer vollständig gesicherten und kompatiblen zentralisierten Quelle eine vollständig personalisierte Desktopoberfläche.
 
-Microsoft Teams in einer virtualisierten Umgebung unterstützen Chats und Zusammenarbeit. Mit den virtuellen Windows-Desktop-oder Citrix-Plattformen werden auch Anruf-und Besprechungsfunktionen unterstützt.
+Microsoft Teams in einer virtualisierten Umgebung unterstützen Chats und Zusammenarbeit. Und mit den Windows Virtual Desktop-, Citrix-und VMware-Plattformen werden auch Anruf-und Besprechungsfunktionen unterstützt.
 
 Teams in einer virtualisierten Umgebung unterstützen mehrere Konfigurationen. Dazu gehören VDI-, dedizierte, freigegebene, persistente und nicht persistente Modi. Die Features werden kontinuierlich weiterentwickelt und regelmäßig hinzugefügt, und die Funktionalität wird in den nächsten Monaten und Jahren erweitert.
 
@@ -54,7 +54,7 @@ Für die Verwendung von Teams in einer virtualisierten Umgebung sind die folgend
 
 Die Desktop-App für Teams wurde mit führenden Anbietern von Virtualisierungslösungen validiert. Bei mehreren Marktanbietern empfehlen wir, dass Sie sich an Ihren Anbieter von Virtualisierungslösungen wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit sind Teams auf VDI mit Audio/Video (AV)-Optimierung mit Windows Virtual Desktop und Citrix zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen für die ordnungsgemäße Funktionalität erfüllen.
+Derzeit sind Teams auf VDI mit Audio/Video (AV)-Optimierung mit Windows Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen für die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -64,6 +64,7 @@ Die folgenden Plattformen verfügen über virtuelle Desktopinfrastruktur Lösung
 |----|---|
 |![Das Logo, das Microsoft darstellt](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Virtueller Windows-Desktop</a> |
 |![Das Logo, das Citrix darstellt](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-apps und-Desktops</a> |
+|![Das Logo, das VMware darstellt](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="windows-virtual-desktop"></a>Virtueller Windows-Desktop
 
@@ -76,6 +77,10 @@ Citrix-Virtual-apps und-Desktops (ehemals XenApp und XenDesktop) bieten AV-Optim
 Sie können die aktuelle Version der virtuellen Citrix-apps und-Desktops auf [der Citrix](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)-Download Website herunterladen. (Sie müssen sich zuerst anmelden.) Die erforderlichen Komponenten werden standardmäßig in die [Citrix Workspace-app (GAV)](https://www.citrix.com/downloads/workspace-app/) und den Virtual Delivery Agent (VDA) gebündelt. Sie müssen keine weiteren Komponenten oder Plugins auf der Gewerkschafts-oder VDA-Karte installieren.
 
 Die neuesten Server-und Clientanforderungen finden Sie auf [dieser Citrix-Website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+
+### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware Horizon-Arbeitsbereichs-und Desktop Anforderungen
+
+VMware Horizon bietet optimierte AV-Unterstützung für Teams auf VDI, um die Produktivität auf virtuellen Desktops zu verbessern. Sie können die aktuelle Version von VMware Horizon über die Seite [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) herunterladen.
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installieren oder Aktualisieren der Desktop-App "Teams" auf VDI
 
@@ -197,24 +202,12 @@ Es gibt eine Reihe von virtualisierten Setup Konfigurationen, die jeweils einen 
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>Teams auf VDI mit anrufen und Besprechungen
 
-Neben Chat und Zusammenarbeit sind auch Teams auf VDI mit Anruf-und Besprechungs Unterstützung mit Citrix basierten Plattformen verfügbar. Unterstützte Features basieren auf dem WebRTC-Medien Stapel und der Citrix spezifischen Implementierung. Das folgende Diagramm bietet eine Übersicht über die Architektur.
+Neben Chat und Zusammenarbeit sind auch Teams auf VDI mit anrufen und Besprechungen mit unterstützten ANBIETERPLATTFORMEN für Virtualisierung verfügbar. Unterstützte Features basieren auf der Implementierung des WebRTC-Medien Stapels und des Virtualisierungs-Anbieters. Das folgende Diagramm bietet eine Übersicht über die Architektur.
 
 ![Diagramm mit Teams zur VDI-Architektur](media/teams-on-vdi-architecture.png)
 
-Diese Anruf-und besprechungsfeatures werden nicht unterstützt:
-
-- Erweiterte Notfalldienste
-- HID-Schaltflächen und LED-Steuerungen zwischen der Teams-APP und Geräten
-- Hintergrund Unschärfe und Effekte
-- Broadcast/Live-Ereignisse
-- Orts basiertes Routing (LBR)
-- Anruf parken
-- Anrufwarteschlange
-
 > [!IMPORTANT]
-> Wenn Sie derzeit Teams ohne AV-Optimierung in VDI ausführen und Features verwenden, die noch nicht für die Optimierung unterstützt werden (wie die Steuerung von übernehmen bei der APP-Freigabe), müssen Sie Citrix-Richtlinien festlegen, um die Umleitung von Teams zu deaktivieren. Das bedeutet, dass die Media-Sitzungen von Teams nicht optimiert werden. Eine schrittweise Anleitung zum Einrichten von Richtlinien zum Deaktivieren der Team Umleitung finden Sie auf dieser [Citrix-Website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
-
-Wir arbeiten daran, Anruf-und Besprechungsfunktionen hinzuzufügen, die derzeit nur in nicht-VDI-Umgebungen verfügbar sind. Dazu gehören möglicherweise mehr Administrator Kontrolle über die Qualität, zusätzliche Szenarien für die Bildschirmfreigabe und erweiterte Features, die kürzlich zu Teams hinzugefügt wurden. Wenden Sie sich an Ihren Teams-Mitarbeiter, um mehr über bevorstehende Funktionen zu erfahren.
+> Wenn Sie derzeit Teams ohne AV-Optimierung in VDI ausführen und Features verwenden, die noch nicht für die Optimierung unterstützt werden (wie die Steuerung von übernehmen bei der APP-Freigabe), müssen Sie die Virtualisierungs-Anbieterrichtlinien so festlegen, dass die Umleitung von Teams deaktiviert wird. Das bedeutet, dass die Media-Sitzungen von Teams nicht optimiert werden. Eine schrittweise Anleitung zum Einrichten von Richtlinien zum Deaktivieren der Team Umleitung erhalten Sie von Ihrem Virtualisierungs-Anbieter.
 
 ### <a name="network-requirements"></a>Netzwerkanforderungen
 
@@ -243,7 +236,7 @@ Teams im Chrome-Browser bieten keinen Ersatz für die Desktop-App "Teams" für V
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams auf VDI mit Chat und Zusammenarbeit
 
-Wenn Ihre Organisation nur Chat-und Zusammenarbeitsfeatures in Teams verwenden möchte, können Sie Richtlinien auf Benutzerebene festlegen, um Anruf-und Besprechungsfunktionen in Teams zu deaktivieren. Für diese Funktionsebene sind keine virtuellen Citrix-apps und-Desktops erforderlich.
+Wenn Ihre Organisation nur Chat-und Zusammenarbeitsfeatures in Teams verwenden möchte, können Sie Richtlinien auf Benutzerebene festlegen, um Anruf-und Besprechungsfunktionen in Teams zu deaktivieren. 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Einrichten von Richtlinien zum Deaktivieren von Anruf-und Besprechungsfunktionen
 
@@ -297,9 +290,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Satz-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migrieren von Teams auf VDI mit Chat und Zusammenarbeit zu Citrix mit anrufen und Besprechungen
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>Migrieren von Teams auf VDI durch Chat und Zusammenarbeit zur Optimierung von Teams mit anrufen und Besprechungen
 
-Wenn Sie über eine vorhandene Implementierung von Teams auf VDI mit Chat und Zusammenarbeit verfügen, bei denen Sie Richtlinien auf Benutzerebene zum Deaktivieren von Anruf-und Besprechungsfunktionen eingerichtet haben und Sie mit der AV-Optimierung zu Citrix migrieren, müssen Sie Richtlinien für die Aktivierung von Anruf-und Besprechungsfunktionen für diese Teams für VDI-Benutzer einrichten.
+Wenn Sie über eine vorhandene Implementierung von Teams auf VDI mit Chat und Zusammenarbeit verfügen, bei denen Sie Richtlinien auf Benutzerebene zum Deaktivieren von Anruf-und Besprechungsfunktionen eingerichtet haben und Sie zu Teams mit AV-Optimierung migrieren, müssen Sie Richtlinien für die Aktivierung von Anruf-und Besprechungsfunktionen für diese Teams für VDI-Benutzer einrichten.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Einrichten von Richtlinien zum Aktivieren von Anruf-und Besprechungsfunktionen
 
@@ -359,13 +352,28 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechung
 
 - Bei der Installation pro Computer werden die Teams für VDI nicht automatisch so aktualisiert, wie es Clients außerhalb der VDI-Teams sind. Sie müssen das VM-Abbild aktualisieren, indem Sie eine neue MSI-Datei installieren, wie im Abschnitt [installieren oder Aktualisieren der Desktop-App "Teams" im VDI](#install-or-update-the-teams-desktop-app-on-vdi) -Abschnitt beschrieben. Sie müssen die aktuelle Version deinstallieren, um Sie auf eine neuere Version zu aktualisieren.
 - Teams sollten entweder pro Benutzer oder pro Computer bereitgestellt werden. Die Bereitstellung von Teams für Concurrent pro Benutzer und pro Computer wird nicht unterstützt. Wenn Sie von einem einzelnen Computer oder pro Benutzer zu einem dieser Modi migrieren möchten, folgen Sie dem Deinstallationsverfahren, und stellen Sie den jeweiligen Modus erneut bereit.
-- Citrix unterstützt zurzeit keine MacOS-und Linux-basierten Clients.
+- Windows Virtual Desktop und VMware unterstützen zurzeit keine MacOS-und Linux-basierten Clients.
+- Citrix unterstützt derzeit keine MacOS-Clients.
 - Citrix unterstützt nicht die Verwendung von expliziten HTTP-Proxys, die für einen Endpunkt definiert sind.
 
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
+Die folgenden Anruf-und besprechungsfeatures werden nicht unterstützt:
+
+- Erweiterte Notfalldienste
+- HID-Schaltflächen und LED-Steuerungen zwischen der Teams-APP und Geräten
+- Hintergrund Unschärfe und Effekte
+- Broadcast/Live-Ereignisse
+- Orts basiertes Routing (LBR)
+- Anruf parken
+- Anrufwarteschlange
+
+> [!NOTE]
+> Wir arbeiten daran, Anruf-und Besprechungsfunktionen hinzuzufügen, die derzeit nur in nicht-VDI-Umgebungen verfügbar sind. Dazu gehören möglicherweise mehr Administrator Kontrolle über die Qualität, zusätzliche Szenarien für die Bildschirmfreigabe und erweiterte Features, die kürzlich zu Teams hinzugefügt wurden. Wenden Sie sich an Ihren Teams-Mitarbeiter, um mehr über bevorstehende Funktionen zu erfahren.
+
+Im folgenden sind bekannte Probleme und Einschränkungen für Anrufe und Besprechungen zu finden:
+
 - Die Interoperabilität mit Skype for Business ist auf Audio-Anrufe limitiert; Es gibt keine Video Modalitäten.
-- Die Teilnahme an Teams-Besprechungen als anonymer Benutzer ist nicht AV-optimiert. Der Benutzer kann an der Besprechung teilnehmen und hat eine nicht optimierte Benutzeroberfläche.
 - Nur ein einzelner eingehender Videostream wird in Besprechungen oder Gruppen anrufen unterstützt. Wenn mehrere Personen Video senden, wird nur das Video des dominanten Sprechers zu einem bestimmten Zeitpunkt angezeigt.
 - Die Auflösung des eingehenden und ausgehenden Videostroms ist auf 720p-Auflösung limitiert. Hierbei handelt es sich um eine WebRTC-Einschränkung.
 - Es wird nur ein Videostream von einer eingehenden Kamera oder einem Bildschirmfreigabe Datenstrom unterstützt. Wenn eine eingehende Bildschirmfreigabe vorhanden ist, wird diese Bildschirmfreigabe anstelle des Videos des dominanten Sprechers angezeigt.
