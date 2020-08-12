@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606921"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640830"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -44,7 +44,7 @@ Hier sind die Links zu den MSI-Dateien:
 
 - Installieren Sie die 64-Bit-Version von Teams auf 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, ist die Installation nicht erfolgreich, und es wird derzeit keine Fehlermeldung angezeigt.
 
-- Wenn sich der Kunde Mandant auf der GCCH-oder DoD-Cloud befindet, sollte der Kunde den anfänglichen Endpunkt in der Registrierung durch Hinzufügen des **cloudtype** -Werts zum **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** -Schlüssel in der Registrierung festzulegen. Der Typ für **cloudtype** ist **DWORD** , und die Werte sind (0 = unset, 1 = kommerziell, 2 = gcc, * = GCCH; 4 = DoD). Durch das Festlegen des Endpunkts mit dem Registrierungsschlüssel wird für Teams die Verbindung zum richtigen Cloud-Endpunkt für die Voranmeldungs Konnektivität mit Teams eingeschränkt.
+- Wenn sich der Kunde Mandant auf der GCCH-oder DoD-Cloud befindet, sollte der Kunde den anfänglichen Endpunkt in der Registrierung durch Hinzufügen des **cloudtype** -Werts zum **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** -Schlüssel in der Registrierung festzulegen. Der Typ für **cloudtype** ist **DWORD** , und die Werte sind (0 = unset, 1 = kommerziell, 2 = gcc, 3 = GCCH; 4 = DoD). Durch das Festlegen des Endpunkts mit dem Registrierungsschlüssel wird für Teams die Verbindung zum richtigen Cloud-Endpunkt für die Voranmeldungs Konnektivität mit Teams eingeschränkt.
 
 - Teams können auch in einer Bereitstellung von Microsoft 365-Apps für Unternehmen enthalten sein. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/deployoffice/teams-install).
 

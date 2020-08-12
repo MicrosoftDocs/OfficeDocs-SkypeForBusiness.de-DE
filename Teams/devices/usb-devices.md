@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572260"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640910"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -80,8 +80,8 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Zertifiziert für Skype for Business                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Zertifiziert für Skype for Business                        |
-|Jabra                |Engage 75-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
-|Jabra                |Engage 65-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 75-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 65-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Engage 50-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Avocor               |WCD-AvW-6555                                              |7/30/2020       |Certified für Microsoft Teams                           |
 |Jabra                |Evolve2 85-Headset                                         |7/17/2020       |Certified für Microsoft Teams                           |

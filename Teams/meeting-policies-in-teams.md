@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552611"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640960"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -443,3 +443,4 @@ Wenn Sie angeben möchten, ob Benutzer ihren Video Hintergrund in einer Besprech
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 - [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)
+- [Entfernen der RestrictedAnonymousAccess Teams-Besprechungsrichtlinie für Benutzer](meeting-policies-restricted-anonymous-access.md)

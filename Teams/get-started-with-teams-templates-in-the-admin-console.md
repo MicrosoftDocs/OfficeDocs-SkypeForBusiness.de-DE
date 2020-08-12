@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Microsoft Teams-Vorlagen in der Administratorkonsole
+title: Verwenden von Teamvorlagen zum Erstellen eines neuen Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583172"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634731"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Erste Schritte mit Microsoft Teams-Vorlagen in der Team-Verwaltungskonsole
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583172"
 > [!NOTE]
 > In den Teams-Vorlagen wird derzeit keine private Kanalerstellung unterstützt. Die Erstellung privater Kanäle ist in den Vorlagendefinitionen nicht enthalten.
 
-In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Mithilfe von "Teams-Vorlagen" können Sie schnell umfangreiche Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. Derzeit können Sie eine Vorlage in der Admin-Konsole oder mit [Microsoft Graph](get-started-with-teams-templates.md)verwenden.
+In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Mithilfe von "Teams-Vorlagen" können Sie schnell umfangreiche Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. Derzeit können Sie ein Team aus einer Vorlage in Teams oder mit [Microsoft Graph](get-started-with-teams-templates.md)erstellen.
 
 In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie ein Team anhand einer Vorlage mit einigen Beispiel Anforderungen erstellen können.
 

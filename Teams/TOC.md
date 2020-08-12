@@ -168,6 +168,7 @@
 
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)
+## [Entfernen der Besprechungsrichtlinie „RestrictedAnonymousAccess“ aus den Benutzern](meeting-policies-restricted-anonymous-access.md)
 ## [Verwalten von Besprechungseinstellungen](meeting-settings-in-teams.md)
 ## [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Ermöglichen, dass Benutzer ihren Namen aufzeichnen, wenn sie an einer Besprechung teilnehmen](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121375"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634611"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 
@@ -189,6 +189,11 @@ Wenn Ihre Organisation die app "Schichten" in Teams verwendet, können Sie das �
 ## <a name="office-365-management-activity-api"></a>Office 365-Verwaltungs Aktivitäts-API
 
 Sie können die Office 365-Verwaltungs Aktivitäts-API verwenden, um Informationen zu Teams-Ereignissen abzurufen. Weitere Informationen zum API-Schema für Verwaltungsaktivitäten für Teams finden Sie unter [Teams-Schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
+
+
+## <a name="attribution-in-teams-audit-logs"></a>Zuordnung in Teams-Überwachungsprotokollen
+
+Zurzeit gibt es ein bekanntes Problem mit der Zuordnung von Überwachungsprotokollen und Kontroll Meldungen in Teams: ein Besitzer kann fälschlicherweise mit dem Entfernen oder Hinzufügen von Benutzern attributiert sein. Dies geschieht, wenn die Änderung außerhalb von Teams stattfindet. In diesen Fällen empfiehlt es sich, die [Office 365-Überwachungsprotokolle](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)zu verwenden.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
