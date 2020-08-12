@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online eine Konferenz-ID zuweisen und was die Konferenz-IDs-Parameter sein sollten. '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163914"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643605"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen wurde
 
@@ -82,7 +82,7 @@ Sie können eine Konferenz-ID für einen Benutzer zurücksetzen, wenn er diese b
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
-3. Klicken Sie **im Skype for Business Admin Center**> **-Audiokonferenz** > -**Benutzer**im Bereich "Aktion" unter **Konferenz-ID**auf **Zurücksetzen**.
+3. Klicken Sie im **Skype for Business Admin Center** >  **-Audiokonferenz-**  >  **Benutzer**im Bereich "Aktion" unter **Konferenz-ID**auf **Zurücksetzen**.
 
 4. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Ja**. Eine Konferenz-ID wird automatisch erstellt und eine e-Mail mit der neuen Konferenz-ID an den Benutzer gesendet.
 
@@ -103,7 +103,7 @@ Sie können die Konferenz-ID für einen Benutzer mithilfe der Windows PowerShell
 
 - Die Konferenz-ID muss die für die Audiokonferenz-Brücke eingestellte Länge in Ziffern erfüllen. In Konferenz-IDs können keine alphabetischen oder Sonderzeichen verwendet werden. Es können nur Zahlen verwendet werden.
 
-- Die Konferenz-ID für alle Audiokonferenz-Benutzer ist standardmäßig 7 Ziffern, und die Anzahl der Ziffern kann nicht geändert werden.
+- Die Konferenz-ID für alle Audiokonferenz-Benutzer ist standardmäßig 9 Ziffern, und die Anzahl der Ziffern kann nicht geändert werden.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
