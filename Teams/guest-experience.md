@@ -1,7 +1,7 @@
 ---
 title: Gastfunktionalität
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799796"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655946"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -75,13 +75,13 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 | Durchstellungsziel | Ja | Ja | Ja |
 | Können Anruf weiterleiten | Ja | Ja | Ja |
 | Zu Gesprächsübergabe mit Ankündigung ermächtigt | Ja | Ja | Ja |
-| Können weitere Benutzer zu einem Anruf über VoIP hinzufügen | Ja | Ja  | Ja  |
+| Können weitere Benutzer zu einem Anruf über VoIP hinzufügen | Ja | Ja | Ja |
 | Können Benutzer per Telefonnummer zu einem Anruf hinzufügen | Nein | Nein | Ja |
 | Weiterleitungsziel | Nein | Ja | Ja |
 | Anrufgruppenziel | Nein | Ja | Ja |
 | Ziel für nicht beantwortet | Nein | Ja | Ja |
 | Können Ziel für einen Verbundanruf sein | Nein | Ja | Ja |
-| Können einen Verbundanruf tätigen | Nein | Ja | Ja  |
+| Können einen Verbundanruf tätigen | Nein | Ja | Ja |
 | Können ihre Anrufe sofort weiterleiten | Nein | Nein | Ja |
 | Können gleichzeitig Anrufe tätigen | Nein | Nein | Ja |
 | Können ihre unbeantworteten Anrufe weiterleiten | Nein | Nein | Ja |

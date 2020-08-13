@@ -1,7 +1,7 @@
 ---
 title: Verwalten des Gastzugriffs in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie Ihre ersten Teams und Kanäle erstellen,
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4751f274e4bc7a874c1469041787d7d145c11bb8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fa45c5c307e33188548353a9a4d36086d804b278
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637664"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655936"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "44637664"
 > [!IMPORTANT]
 > Möglicherweise müssen Sie einige Stunden warten, bis Ihre Änderungen wirksam werden. 
 
-**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic und Office 365 Education-Abonnements enthalten ist. Es ist keine zusätzliche Microsoft 365-oder Office 365-Lizenz erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
+**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Microsoft 365- oder Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
 
 Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Details zum Aktivieren des Gastzugriffs finden Sie unter Aktivieren oder Deaktivieren des Gast [Zugriffs auf Teams](set-up-guests.md)oder verwenden der Checkliste für den [Gastzugriff](guest-access-checklist.md) , um Sie durch das Setup zu führen.
 

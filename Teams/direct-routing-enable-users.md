@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie Benutzern das direkte Routing von Microsoft Phone-Systemen ermöglichen.
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691371"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656146"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -53,9 +53,9 @@ Wenn Ihre Skype for Business Online-Bereitstellung mit Skype for Business 2015 o
 
 Informationen zu den Lizenzanforderungen finden Sie unter [Lizenzierung und andere Anforderungen](direct-routing-plan.md#licensing-and-other-requirements) in [Planen des direkten Routings](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Sicherstellen, dass der Benutzer in Skype for Business Online verwaltet wird 
+## <a name="ensure-that-the-user-is-homed-online"></a>Sicherstellen, dass der Benutzer online ist 
 
-Für die direkte Weiterleitung muss der Benutzer in Skype for Business Online verwaltet werden. Sie können überprüfen, indem Sie den RegistrarPool-Parameter sehen, der einen Wert in der Infra.lync.com-Domäne aufweisen muss.
+Für die direkte Weiterleitung muss der Benutzer online verwaltet werden. Sie können überprüfen, indem Sie den RegistrarPool-Parameter sehen, der einen Wert in der Infra.lync.com-Domäne aufweisen muss.
 
 1. Herstellen einer Verbindung mit der Remote-PowerShell
 2. Geben Sie den folgenden Befehl ein: 

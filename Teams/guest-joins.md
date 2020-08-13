@@ -1,7 +1,7 @@
 ---
 title: Beitritt eines Gasts zu einem Team
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
@@ -18,12 +18,12 @@ description: Informieren Sie sich über die erforderlichen Schritte zum Hinzufü
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 476640953c0b3773fde44727dede6b95e6bf676d
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637224"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655916"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================

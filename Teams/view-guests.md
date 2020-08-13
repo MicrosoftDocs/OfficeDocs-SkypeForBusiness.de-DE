@@ -1,8 +1,8 @@
 ---
 title: Anzeigen von Gastbenutzern in einem Team
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 description: In diesem Artikel erfahren Sie, wie ein Administrator Informationen zu Gastbenutzern in Microsoft Teams anzeigen kann.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0b3d4023db3831fe4835fb2d85be53778a363bc
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a831768f738befdab5ec9f846dc9ca41661e5a2e
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903340"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656166"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================
@@ -34,7 +34,7 @@ Jeder in einem Team kann alle Mitglieder eines Teams, einschließlich Gäste, ü
 So identifizieren Sie Gastbenutzer:
 
 1.  Melden Sie sich beim Microsoft 365 Admin Center an.
-2.  Wählen Sie **Admin Center** > **Teams**aus.
+2.  Wählen Sie **Admin Center**  >  **Teams**aus.
 3.  Wählen Sie im Microsoft Teams Admin Center die Option **Benutzer**aus. **Guest** wird an den Anzeigenamen von Gastbenutzern angefügt.
   
 Sie können Gastbenutzer auch innerhalb eines Teams identifizieren, das Sie besitzen.  

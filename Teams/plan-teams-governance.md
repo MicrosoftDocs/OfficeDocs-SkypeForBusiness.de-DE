@@ -1,7 +1,7 @@
 ---
 title: Planen der Governance in Microsoft Teams – Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665277"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656356"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -103,6 +103,34 @@ Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter
 
 - [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
+## <a name="group-and-team-membership-management"></a>Verwaltung von Gruppen-und Teammitgliedern
+
+Die konsistente Verwaltung von Mitgliedern von projektbasierten oder eingeschränkten Gruppen ist für Teams notwendig, die schnelle Onboarding-und offboarding oder Benutzer und Gäste benötigen. Ihre Organisation muss möglicherweise auch sicherstellen, dass alle aktuellen Mitglieder die geschäftliche Berechtigung haben, in einem Team zu sein. Das Verwalten von Mitgliedern kann schwierig sein, da Teambesitzer die Aufgabe übernehmen können und Benutzergruppen in der Regel nicht aus eigenem Antrieb belassen, wenn ein Projekt endet oder wenn Sie die Rollen ändern. Die beste Methode zum Verwalten von Gruppenmitgliedschaften, die es Benutzern ermöglichen, bei Bedarf Zugriff zu erhalten, aber sicherzustellen, dass die Gruppe keine unangemessenen Zugriffs Risiken hat, besteht in zwei Distrikt Prozessen: Berechtigungsverwaltung und Zugriffsprüfungen.
+
+Mit der [Berechtigungsverwaltung](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) können Sie an eine andere Person, beispielsweise einen Projektmanager, delegieren, um alle erforderlichen Ressourcen in einem einzigen Paket zu sammeln, einschließlich der Mitgliedschaft in Teams. Darüber hinaus können Sie festlegen, wer Anforderungen stellen kann: entweder Benutzer in Ihrem Mandanten oder von anderen verbundenen Organisationen. Der Projektmanager erhält Zugriffsanforderungen in seinen e-Mail-Nachfragen sowie Genehmigungs-oder Ablehnungs Anforderungen im myaccess-Portal. Administratoren können die Bedingungen für Access so konfigurieren, dass Sie ein Ablaufdatum oder einen Zeitraum angeben, bis zu dem der Benutzer oder Gast aus dem Team entfernt wird, es sei denn, der Zugriff wird erneuert. Administratoren können auch die Gruppen einrichten, die Teams zugeordnet sind, um an Access-Bewertungen teilzunehmen. Für [Zugriffs](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)Überprüfungen erhalten die Gruppenbesitzer regelmäßige Mahnungen, um die Mitglieder eines Teams zu überprüfen. Die Zugriffsüberprüfungen beinhalten Empfehlungen, die es für Gruppenbesitzer einfacher machen, ihren regelmäßigen Bestätigungsprozess durchlaufen.
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | Entscheidungspunkte | Erfordert Ihre Organisation einen konsistenten Prozess zum Verwalten der Mitgliedschaft in einem oder mehreren Teams? <br> Erfordert Ihre Organisation Besitzer oder die Mitglieder selbst, Ihre fortgesetzte Mitgliedschaft in einem oder mehreren Teams regelmäßig zu rechtfertigen? <br> Erfordert Ihre Organisation eine Genehmigung für Benutzer und Gäste, um Zugriff auf Ressourcen wie Teams, Gruppen, SharePoint-Websites und apps zu anfordern? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| Die nächsten Schritte? | Dokumentieren Sie die Anforderungen Ihrer Organisation für jedes Team oder bestimmte Teams für das Ablaufdatum der Mitgliedschaft.<br>Planen Sie, wie Ihre Organisation Teams, Gruppen, SharePoint-Websites und-apps in Access-Paketen bündeln kann.<br>Planen Sie, welche Personen wie der Vorgesetzte des anfragenden, ein Projektmanager, ein Sponsor für eine verbundene Organisation oder ein Sicherheitsbeauftragter in Ihrer Organisation Zugriffsanforderungen genehmigen oder verweigern müssen. |
+
+> [!TIP]
+> Verwenden Sie die folgende Tabelle, um die Anforderungen Ihrer Organisation zu erfassen.
+
+| Funktion | Details | Azure AD Premium-Lizenz erforderlich | Entscheidung |
+|:-|:-|:-|:-|
+| Access-Rezensionen | Einrichten von Zugriffsüberprüfungen, um die Mitgliedschaft bestimmter Teams in regelmäßigen Abständen erneut zu zertifizieren | P2 | TBD |
+| Berechtigungsverwaltung | Einrichten des Zugriffs Pakets, damit Benutzer und Gästezugriff auf Teams anfordern können | P2 | TBD |
+
+> [!NOTE]
+> Weitere Informationen zu den [erforderlichen Lizenzen finden](https://azure.microsoft.com/pricing/details/active-directory/)Sie unter Unterstützung bei der Planung.
+
+### <a name="additional-information"></a>Weitere Informationen
+
+Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter:
+
+- [Berechtigungsverwaltung](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Access-Rezensionen](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Team-Funktionsverwaltung
 

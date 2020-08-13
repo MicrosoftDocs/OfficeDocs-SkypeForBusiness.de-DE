@@ -1,20 +1,19 @@
 ---
 title: Verwalten der Lob-App im Team Admin Center
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Informationen zu den Administratoreinstellungen in der Lob-App im Microsoft Teams Admin Center
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564076"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656306"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
@@ -46,7 +45,7 @@ Pädagogen können einzelne Schüler für soziale und emotionale Lernziele (SEL)
 
 ## <a name="create-your-own-badges"></a>Erstellen eigener Badges
 
-Wechseln Sie zum Schalter **benutzerdefinierte Badges** zu ein, und wählen Sie **benutzerdefiniertes Badge erstellen**aus. Von dort aus können Sie ein benutzerdefiniertes Badge im Seitenbereich entwerfen.
+Wechseln Sie zum Schalter **benutzerdefinierte Badges** zu ein, und wählen Sie **benutzerdefiniertes Badge erstellen**aus. Von dort aus können Sie ein benutzerdefiniertes Badge im Seitenbereich entwerfen. Sie können bis zu 25 benutzerdefinierte Badges erstellen. 
 
 1. Geben Sie einen Badge-Namen ein. Dies ist der Name, der auf dem Badge angezeigt wird, wenn Nutzer Lob senden.
 
@@ -55,7 +54,7 @@ Wechseln Sie zum Schalter **benutzerdefinierte Badges** zu ein, und wählen Sie 
    > [!TIP]
    > Wenn Sie mit Hex-Werten noch nicht vertraut sind, finden Sie in diesem Artikel eine [kurze Einführung](#hex-colors-intro) , die Ihnen zeigt, wie Sie Sie verwenden.
 
-3. Hochladen eines Badge-Bilds Der akzeptierte Dateityp ist. PNG. Die Datei muss kleiner als 25kb sein.
+3. Hochladen eines Badge-Bilds Der akzeptierte Dateityp ist. PNG. Die Bilddatei muss kleiner als 40 KB mit Maximalabmessungen von 216 X 216 Pixeln sein.
 ![Abzeichen mit beschrifteten Feldern für Hintergrund, Text und Bild](media/praise-app-badge-fields.png)
 
 4. Lokalisieren Sie Ihren Badge-Namen: Wählen Sie unter **lokalisierte Signalnamen**die Option **Hinzufügen**aus. Wählen Sie in der Dropdownliste das gewünschte Gebietsschema aus. Geben Sie dann den Namen des Signals in der angegebenen Sprache ein.
@@ -98,7 +97,7 @@ Nachfolgend finden Sie eine Liste mit Beispielfarben, die Ihnen den Einstieg ver
 
 **Bei der Auswahl von Farben sollten Sie die Barrierefreiheit berücksichtigen.** Einige Farben gehen besser zusammen als andere.  Erstellen Sie einen Kontrast zwischen Ihren Text-und Hintergrundfarben, damit der Badge-Name einfach lesbar ist. Wenn Sie beispielsweise eine dunkle Hintergrundfarbe ausgewählt haben, wählen Sie eine hell Text Farbe aus.
 
-**Beachten Sie bei der Auswahl eines Bilds die Abzeichen-Bemaßungen.** Für eine optimale Qualität empfehlen wir das Hochladen einer Bilddatei mit 216x216 Pixeln. Vermeiden Sie es, das Bild zu dehnen oder zu verzerren, damit es in diese Maße passt.
+**Beachten Sie bei der Auswahl eines Bilds die Abzeichen-Bemaßungen.** Für eine optimale Qualität empfehlen wir, eine Bilddatei hochzuladen, bei der es sich um 216 x 216 Pixel (maximale Abmessungen) handelt. Vermeiden Sie es, das Bild zu dehnen oder zu verzerren, damit es in diese Maße passt.
 
 **Wenn Ihr Badge-Bild nicht rechteckig ist, machen Sie das Bild transparent.** Sie müssen dies tun, bevor Sie die Bilddatei zum Lob hochladen.
 

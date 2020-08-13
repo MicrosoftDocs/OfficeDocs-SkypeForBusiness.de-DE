@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868522"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648586"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Ablauf und Erneuerung von Teams in Microsoft Teams
 
@@ -33,7 +33,7 @@ Wenn Sie eine Ablaufrichtlinie auf ein Team anwenden, erhält ein Teambesitzer e
 
 ![Screenshot der Schaltfläche "jetzt verlängern" zum Verlängern eines Teams in den Team Einstellungen](media/team-expiration.png "Screenshot der Schaltfläche "jetzt verlängern" zum Verlängern eines Teams in den Team Einstellungen")
 
-Wenn der Teambesitzer das Team nicht erneuert, wird das Team in einen "Soft-Deleted"-Zustand versetzt, was bedeutet, dass es in den nächsten 30 Tagen wiederhergestellt werden kann.
+Wenn der Teambesitzer das Team nicht erneuert und es bis zum Ende der Ablaufrichtlinie keine weiteren Aktivitäten im Team gibt, wird das Team in einen "Soft-Deleted"-Zustand versetzt, was bedeutet, dass es in den nächsten 30 Tagen wiederhergestellt werden kann.
 
 ## <a name="team-auto-renewal"></a>Automatische Verlängerung des Teams
 
