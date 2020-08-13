@@ -1,7 +1,7 @@
 ---
-title: Verwenden des Ratgebers für Teams (Advisor für Teams, öffentliche Vorschau) als Hilfe beim Rollout von Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+title: Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -18,42 +18,40 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Verwenden Sie den Ratgeber für Teams (öffentliche Vorschau) als Hilfe bei der Planung und Durchführung Ihrer Bereitstellung von Microsoft Teams.
-ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+description: Verwenden Sie den Ratgeber für Teams, um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
+ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201209"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648596"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+Der Ratgeber für Teams führt Sie durch Ihren Rollout von Microsoft Teams. Er bewertet Ihre Microsoft 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt der Ratgeber für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams-Dienstadministratoren und Office 365-Administratoren, Supportmitarbeitern und Ihrem Umstiegs- und Benutzerbereitschafts-Team. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
 
-Der Ratgeber für Teams (Advisor für Teams, öffentliche Vorschau) führt Sie durch Ihren Rollout von Microsoft Teams. Er bewertet Ihre Microsoft 365- oder Office 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie Teams erfolgreich einführen können. Anschließend erstellt der Ratgeber für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams und Microsoft 365- oder Office 365-Administratoren, Supportmitarbeitern und ihrer Umstiegs- und Benutzerbereitschafts-Teams. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
-
-Der Ratgeber für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Microsoft 365 Business Basic-Lizenz, damit Sie die Vorteile der Integration von Advisor for Teams mit Forms und Planner nutzen können. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
+Der Ratgeber für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Microsoft 365 Business Basic-Lizenz, damit Sie die Vorteile der Integration des Ratgebers für Teams mit Forms und Planner nutzen können. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
 
 > [!IMPORTANT]
 > Der Ratgeber für Teams ist für Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
 
 Einen geführten Überblick über die Advisor für Teams-Oberfläche erhalten Sie im Microsoft Mechanics-Video [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) (Bereitstellen und Konfigurieren von Microsoft Teams).
 
-## <a name="using-advisor-for-teams-public-preview"></a>Verwenden des Ratgebers für Teams (Advisor für Teams, öffentliche Vorschau)
+## <a name="using-advisor-for-teams"></a>Den Ratgeber für Teams verwenden
 
-**Für die Nutzung von Advisor für Teams sind Teams-, Forms- und Planner-Lizenzen erforderlich.** Sie müssen jedoch kein Teams-Administrator sein, um den Ratgeber für Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf den Ratgeber für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
+**Für die Nutzung von Advisor für Teams sind Teams-, Forms- und Planner-Lizenzen erforderlich.** Sie müssen jedoch kein Teams-Administrator sein, um den Ratgeber für Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf den Ratgeber für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.) Sie müssen jedoch kein Teams-Administrator sein, um den Ratgeber für Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf den Ratgeber für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
 
 > [!IMPORTANT]
-> Wenn **Advisor für Teams** unter **Planung** im Team Admin Center nicht angezeigt wird, bedeutet dies, dass der Benutzer nicht für Teams lizenziert ist. Dieses Verhalten wird künftig geändert.
+> Wenn **Advisor für Teams** unter **Planung** im Team Admin Center nicht angezeigt wird, bedeutet dies, dass der Benutzer nicht für Teams lizenziert ist.
 
 Wenn Sie Advisor für Teams zum ersten Mal verwenden, wird ein Bereitstellungsteam für Sie in Teams erstellt. Für jede ausgewählte Workload wird ein Kanal hinzugefügt.
 
 > [!IMPORTANT]
-> Wenn bereits ein Bereitstellungsteam erstellt wurde und ein anderer Benutzer versucht, es zu erstellen, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, sich an das Supportteam zu wenden. Auf diese Weise wird verhindert, dass Teams versehentlich Informationen zu den vorhandenen Teams und deren Mitgliedern offenlegt. Bitten Sie den Besitzer des Bereitstellungsteams, Sie hinzuzufügen, oder wenden Sie sich an einen Supportmitarbeiter, um Hilfe zu erhalten.
+> Wenn ein Bereitstellungsteam erstellt wurde und ein anderer Benutzer versucht, es zu erstellen, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, sich an das Supportteam zu wenden. Auf diese Weise wird verhindert, dass Teams versehentlich Informationen zu den vorhandenen Teams und deren Mitgliedern offenlegt. Bitten Sie den Besitzer des Bereitstellungsteams, Sie hinzuzufügen, oder wenden Sie sich an einen Supportmitarbeiter, um Hilfe zu erhalten.
 
 ## <a name="available-advisor-for-teams-plans"></a>Verfügbare Pläne für Advisor für Teams
 
-Während Advisor für Teams als öffentliche Vorschauversion zur Verfügung steht, bieten wir folgende Pläne an:
+Der Ratgeber für Teams bietet zurzeit die folgenden Pläne:
 
 1. Chat, Teams, Kanäle und Apps
     - Mandantenbewertung
@@ -81,7 +79,7 @@ Jeder Plan umfasst eine Mandantenbereitschaftsbewertung, mit der Sie Mängel in 
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Ein orangefarbenes Warndreieck bedeutet, dass Sie nachforschen müssen, ob eine Maßnahme erforderlich ist (so empfiehlt sich beispielsweise eine Ablaufrichtlinie für Microsoft 365-Gruppen, ist aber nicht erforderlich).
 
 > [!IMPORTANT]
-> Sobald ein Benutzer mit einer administrativen Rolle Advisor für Teams gestartet hat, werden alle Bewertungen im Hintergrund ausgeführt. Wenn Sie etwas aktualisieren oder korrigieren, kann es bis zu 24 Stunden dauern, bis es in ihren Bewertungen berücksichtigt wird. Dieser Zustand ist temporär – sobald Advisor für Teams den Status der öffentlichen Vorschau verlassen hat und allgemein verfügbar ist, werden die Bewertungen nahezu in Echtzeit aktualisiert.
+> Sobald ein Benutzer mit einer administrativen Rolle Advisor für Teams gestartet hat, werden alle Bewertungen im Hintergrund ausgeführt. Wenn Sie etwas aktualisieren oder korrigieren, kann es bis zu 24 Stunden dauern, bis es in ihren Bewertungen berücksichtigt wird.
 
 In den nachstehenden Abschnitten werden die einzelnen Bewertungen beschrieben, und es wird erläutert, ob es sich bei den einzelnen Angaben um Voraussetzungen oder bewährte Methoden handelt, was bei den einzelnen Bewertungen überprüft wird und warum die Überprüfung erfolgt. Zudem erhalten Sie bei Bedarf Anleitungen zur Problembehebung.
 
@@ -143,7 +141,7 @@ Sobald Advisor für Teams Ihr Bereitstellungsteam erstellt hat, schickt der Advi
 Sie benötigen mindestens Microsoft 365 Business Basic, damit Sie die Vorteile der Integration von Advisor for Teams mit Forms und Planner nutzen können.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Kann ich das Bereitstellungsteam löschen?
-Nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie das Team wie jedes andere Team verwalten – einschließlich der Möglichkeit es zu löschen. Achten Sie darauf, dass das Team im Microsoft Teams Admin Center weiterhin angezeigt wird, wenn es nicht unter Verwendung des Microsoft Teams Admin Center gelöscht wurde. Dieser Zustand ist temporär – sobald Advisor für Teams den Zeitraum der öffentlichen Vorschau verlassen hat und allgemein verfügbar ist, wird dies korrigiert.
+Nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie das Team wie jedes andere Team verwalten – einschließlich der Möglichkeit es zu löschen. Achten Sie darauf, dass das Team im Microsoft Teams Admin Center weiterhin angezeigt wird, wenn es nicht unter Verwendung des Microsoft Teams Admin Center gelöscht wurde.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>Kann ich im Bereitstellungsteam Kanäle hinzufügen oder entfernen?
 Ja, nachdem das Bereitstellungsteam erstellt wurde, können Sie die Kanäle auf die gleiche Weise wie bei jedem anderen Team verwalten.
@@ -181,5 +179,4 @@ Wechseln Sie zum [Formulare-Hilfecenter](https://support.office.com/forms).
 
 [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 
-[Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-)
+[Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
