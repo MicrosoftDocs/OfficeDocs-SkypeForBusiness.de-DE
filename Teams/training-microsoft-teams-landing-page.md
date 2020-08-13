@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8358aaf175536ea567c6972d878466bdb004b660
-ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
+ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588269"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656336"
 ---
-# <a name="microsoft-teams-admin-training"></a>Microsoft Teams-Administratorschulung
+# <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
 |               |               |
 | ------------- | ------------- |
 | <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[Schulung für Administratoren](/microsoftteams/itadmin-readiness)** </br> Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um mehr über Teams zu erfahren und dessen Verwendung in Ihrer Organisation voranzutreiben. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Kursleitergeführte Schulung](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Von Microsoft gehostete, kostenlose Live-Onlineschulungskurse, die Sie auf Teams vorbereiten. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Schulungen für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Verwenden Sie diesen Schulungsressourcen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen. |
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams-Liveschulung](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Von Microsoft gehostete, kostenlose Live-Onlineschulungskurse, die Sie auf Teams vorbereiten. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams-Online-Schulung](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Verwenden Sie diese Schulungsressourcen zum selbstbestimmten Lernen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen. |
 
 ## <a name="dont-miss-this-key-training"></a>Lassen Sie sich diese wichtige Schulung nicht entgehen
 
@@ -78,5 +78,4 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
    :::column-end:::
 
 :::row-end:::
-
 ---
