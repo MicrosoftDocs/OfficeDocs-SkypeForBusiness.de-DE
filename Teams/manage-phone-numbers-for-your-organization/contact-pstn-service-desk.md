@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern für Ihre Organisation erhalten, müssen Sie möglicherweise Hilfe und Support am PSTN-Service-Desk erhalten.
-ms.openlocfilehash: 7e259010772dd655f748f30e3de291a4a43c5cef
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: b0ba69aae5c25db788279ec4e28ad306514b1974
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597060"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662095"
 ---
 # <a name="pstn-service-desk-contact-information"></a>Kontaktinformationen für PSTN-Service Desk
 
@@ -36,8 +36,9 @@ Wenn Sie sich an das PSTN Service Desk-Team wenden möchten, senden Sie eine e-M
 
 | **Ich möchte vorhandene Nummern übertragen/portieren**  | **Ich möchte neue Nummern bestellen für** |
 |:-----:|:------:|
-| **In** den **USA** oder **Kanada**senden Sie eine e-Mail an [PTN@Microsoft.com](mailto:ptn@microsoft.com).| **Belgien, Frankreich, Deutschland, Großbritannien, Irland, Niederlande, Spanien, Schweden, Schweiz**, senden Sie eine e-Mail an [ptneu@Microsoft.com](mailto:ptneu@microsoft.com).|
-|**Außerhalb** der **USA** oder **Kanadas**senden Sie eine e-Mail an [ptneu@Microsoft.com](mailto:ptneu@microsoft.com).| In **der restlichen Welt**senden Sie eine e-Mail an [gcstnmsd@Microsoft.com](mailto:gcstnmsd@microsoft.com).|
+| [**In den Vereinigten Staaten oder Kanada**senden Sie uns eine e-Mail an PTN@Microsoft.com](mailto:ptn@microsoft.com)| [**Belgien, Frankreich, Deutschland, Großbritannien, Irland, Niederlande, Spanien, Schweden, Schweiz**, senden Sie uns eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com)|
+|[**Außerhalb der USA oder Kanadas**senden Sie uns eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com)| [**Übrige Welt**, senden Sie uns eine e-Mail an gcstnmsd@Microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Aufgrund einer hohen Spitzenzahl bei eingehenden Anforderungen wird das **Nordamerika-Portierungs Team** zurückgemeldet. Wir arbeiten daran, diesen Rückstand auf eine FIFO-Basis (First in, First Out) zu löschen, und infolgedessen **verzögert sich die Antwort auf neue Anforderungen.**|Aufgrund einer hohen Zahl an eingehenden Anfragen wird das **EU-Portierungs Team** zurückgemeldet. Wir arbeiten daran, diesen Rückstand auf eine FIFO-Basis (First in, First Out) zu löschen, und infolgedessen **verzögert sich die Antwort auf neue Anforderungen.**|
 
 > [!NOTE]
 > Die Antworten in Nordamerika können aufgrund einer starken Zunahme der eingehenden Anforderungen verzögert werden. Der Rückstand wird auf einer FIFO-Basis (First in, First Out) bereinigt.

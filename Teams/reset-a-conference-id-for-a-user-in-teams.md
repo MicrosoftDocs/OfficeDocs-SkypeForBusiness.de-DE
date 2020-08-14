@@ -21,45 +21,44 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Hier finden Sie die Schritte zum Zurücksetzen der Konferenzkennung eines Benutzers in Microsoft Teams sowie Links zu Tools, mit denen Sie Besprechungen aktualisieren und migrieren können.
-ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666197"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662125"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Zurücksetzen einer Konferenzkennung für einen Benutzer in Microsoft Teams
 
 Eine dynamische Konferenzkennung befindet sich unten in Besprechungseinladungen zusammen mit den Dial-in-Telefonnummern, über die sich Anrufer in die Besprechung einwählen können. Wenn Benutzer diese Telefonnummer wählen, werden sie von der automatischen Telefonzentrale aufgefordert, diese Konferenzkennung einzugeben, damit sie an der Besprechung teilnehmen können.
   
 > [!NOTE]
-> Wenn Microsoft Ihr Konferenzanbieter ist, sind die Konferenzkennungen der Benutzer standardmäßig auf „Dynamic Only“ (Nur dynamisch) festgelegt. Leider gibt es keine Möglichkeit, die Konferenzkennung in eine statische Kennung zu ändern, da dies zurzeit nicht unterstützt wird. Konferenzkennungen werden nur für Microsoft Teams-Benutzer, die für Audiokonferenzen aktiviert sind, automatisch festgelegt. 
+> Konferenz-IDs werden automatisch generiert, liegen zwischen 7-9-Ziffern und werden beim Aktivieren von Audiokonferenzen für einen Benutzer eingestellt. **Statische Konferenz-IDs werden nicht unterstützt.** 
 
-
-## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenzkennung für einen Benutzer
+## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie auf **Bearbeiten**.
 
 3. Klicken Sie unter **Audiokonferenz** auf **Konferenz-ID zurücksetzen**.
 
-2. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Zurücksetzen**. Eine Konferenz-ID wird automatisch erstellt und eine e-Mail mit der neuen Konferenz-ID an den Benutzer gesendet. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.   
+2. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Zurücksetzen**. Daraufhin wird automatisch eine neue Konferenzkennung erstellt und per E-Mail an den Benutzer gesendet. E-Mails werden standardmäßig an Benutzer gesendet. Dies kann jedoch deaktiviert werden.   
 
     
 > [!NOTE]
-> Nachdem Sie die Konferenz-ID zurückgesetzt haben, wird eine e-Mail mit der neuen Konferenz-ID an den Benutzer gesendet. Diese e-Mail wird in vielen Fällen an die primäre e-Mail-Adresse gesendet, deren Microsoft 365-oder Office 365-Postfach. Die e-Mail enthält die neue Konferenz-ID, die Standard-Einwahl Telefonnummer (n) und Anweisungen zum Aktualisieren vorhandener Besprechungen. 
+> Wenn Sie die Konferenzkennung zurückgesetzt haben, wird eine E-Mail mit der neuen Konferenzkennung an den Benutzer gesendet. Diese e-Mail wird in vielen Fällen an die primäre e-Mail-Adresse gesendet, deren Microsoft 365-oder Office 365-Postfach. Die E-Mail enthält die neue Konferenzkennung, die standardmäßigen Dial-in-Telefonnummern und Anweisungen zum Aktualisieren vorhandener Besprechungen. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
-- Sie können alle Konferenz Informationen an den Benutzer in einer e-Mail-Nachricht senden, die die Konferenz-ID und Einwahlnummern enthält, indem Sie im Abschnitt **Audiokonferenzen** in e-Mail für den Benutzer auf **Konferenz Informationen senden** klicken. Die PIN wird nicht gesendet.
+- Sie können dem Benutzer eine E-Mail mit sämtlichen Konferenzinformationen senden, unter anderem mit der Konferenzkennung und den Dial-in-Telefonnummern. Klicken Sie dazu im Abschnitt **Audiokonferenz** für den Benutzer auf **Send conference info in email** (Konferenzinformationen per E-Mail senden). Die PIN wird nicht gesendet.
     
-- Eine Konferenz-ID enthält 8 Ziffern, und Sie können deren Länge nicht ändern.
+- Eine 7-9-stellige Konferenz-ID wird vom Teams-Dienst erstellt. Sie können deren Länge nicht ändern.
     
 - Nach dem Zurücksetzen wird die neue Konferenz-ID unter **Konferenz-ID** aufgeführt.
     

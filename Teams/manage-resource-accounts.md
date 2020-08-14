@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Ressourcenkonten in Teams
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie, wie Sie Ressourcenkonten in Microsoft Teams erstellen, bearbeiten und verwalten können.
-ms.openlocfilehash: b47e00323129211f657ec1dafc4e62a7cd6e4321
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 90e8ab26782424c6cc341936f185a253c6d1fbe6
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868612"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672856"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -160,9 +160,9 @@ Wenn Sie sich entscheiden, die Lizenzen für Ihr vorhandenes Ressourcenkonto von
 
 ## <a name="create-a-resource-account-in-powershell"></a>Erstellen eines Ressourcenkontos in PowerShell
 
-Je nachdem, ob Ihr Ressourcenkonto online oder in Skype for Business 2019 vorliegt, müssen Sie eine Verbindung mit der entsprechenden PowerShell-Eingabeaufforderung mit Administratorrechten herstellen.
+Je nachdem, ob Ihr Ressourcenkonto Online oder über Skype for Business Server 2019 befindet, müssen Sie mit der entsprechenden PowerShell-Aufforderung mit Administratorrechten eine Verbindung herstellen.
 
-- In den folgenden Beispielen für PowerShell-Cmdlets wird gezeigt, wie Sie mit [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) ein online verwaltetes Ressourcenkonto erstellen. 
+- Die folgenden PowerShell-Cmdlet-Beispiele zeigen, wie Sie ein Ressourcenkonto erstellen, das Online mithilfe von [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps)verwaltet wird. 
 
 - Informationen zu Ressourcenkonten in Skype for Business Server 2019, die mit Cloud-Anrufwarteschlangen und automatischen Cloud-Telefonzentralen verwendet werden können, finden Sie unter [Planen von Cloud-Anrufwarteschlangen](/SkypeforBusiness/hybrid/plan-call-queue) oder [Planen automatischer Cloud-Telefonzentralen](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Hybrid Implementierungen (Zahlen, die im direkten Routing verwaltet werden) werden mithilfe des Cmdlets [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) auf einem lokalen Skype for Business Server 2019-Server konfiguriert.
 
@@ -178,7 +178,7 @@ Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen benötigen, s
 
 1. Verwenden Sie den folgenden Befehl, um ein Ressourcenkonto für die Verwendung mit einer automatischen Telefonzentrale online zu erstellen:
 
-    ``` Powershell
+    ```powershell
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
@@ -186,7 +186,7 @@ Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen benötigen, s
 
 3. Optional Nachdem die richtige Lizenz auf das Ressourcenkonto angewendet wurde, können Sie dem Ressourcenkonto eine Telefonnummer zuweisen, wie unten dargestellt. Nicht alle Ressourcenkonten benötigen eine Telefonnummer. Wenn Sie keine Lizenz auf das Ressourcenkonto angewendet haben, schlägt die Zuweisung der Telefonnummer fehl.
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
    Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
    ```
@@ -196,9 +196,9 @@ Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen benötigen, s
    > [!NOTE]
    > Die Online-Telefonnummer lässt sich am einfachsten mithilfe des Microsoft Teams Admin Centers festlegen, wie zuvor beschrieben.
 
-   Wenn Sie einem (in Microsoft Teams oder Skype for Business Server 2019 verwalteten) Ressourcenkonto eine direkte Routingtelefonnummer zuweisen möchten, verwenden Sie das folgende Cmdlet für Skype for Business Online PowerShell:
+   Wenn Sie einem Ressourcenkonto (in Microsoft Teams oder Skype for Business Server 2019) eine direkte Routing Telefonnummer zuweisen möchten, verwenden Sie das folgende Cmdlet für Skype for Business Online PowerShell:
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
@@ -216,7 +216,7 @@ Klicken Sie abschließend auf **Speichern**.
 
 Stellen Sie sicher, dass Sie die Telefonnummer vom Ressourcenkonto trennen, bevor Sie sie löschen, um zu verhindern, dass Ihre Dienstnummer im Modus „Ausstehend“ verbleibt. Dazu können Sie das folgende Cmdlet verwenden:
 
-``` Powershell
+```powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
@@ -224,7 +224,7 @@ Anschließend können Sie das Ressourcenkonto im Microsoft 365 Admin Center auf 
 
 Verwenden Sie den folgenden Cmdlet, um eine direkte Routing-Telefonnummer vom Ressourcenkonto zu trennen:
 
-``` Powershell
+```powershell
 Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
 ```
 
@@ -234,13 +234,13 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 Wenn die Telefonnummer, die dem Ressourcenkonto im Microsoft Teams Admin Center zugewiesen ist, nicht angezeigt wird und Sie die Nummer nicht von dort aus zuweisen können, überprüfen Sie Folgendes:
 
-``` Powershell
+```powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 ```
 
 Wenn das Department-Attribut den Skype for Business-Anwendungsendpunkt anzeigt, führen Sie das folgende Cmdlet aus:
 
-``` Powershell
+```powershell
 Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
 ```
 

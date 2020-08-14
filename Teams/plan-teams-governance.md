@@ -3,7 +3,6 @@ title: Planen der Governance in Microsoft Teams – Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656356"
+ms.locfileid: "46662115"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 

@@ -1,6 +1,6 @@
 ---
 title: Administrator Schulungsressourcen – Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: jhwang
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,20 +19,20 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 588142484cbed850f042a1f0b04b862416327eab
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46554615"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672746"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Erste Schritte mit Administratorschulungen für Microsoft Teams
 
 Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren, andere zu unterrichten oder Workshops zu veranstalten. Hier finden Sie häufig neue Inhalte. 
 
-|               |               |               |
-| ------------- | ------------- | ------------- |
-| ![Ein Symbol, das eine Hand und einen Aufwärtspfeil darstellt](media/get-started-blue-small.svg)  | [Schneller Einstieg mit einigen Teams und Kanälen](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Ein Symbol mit einem Häkchen](media/success-small.svg)  | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Ein Symbol, das zwei Benutzer darstellt](media/users-people-small.svg)  | [Schulung für Ihre Benutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+|               |               |               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![Ein Symbol, das eine Hand und einen Aufwärtspfeil darstellt](media/get-started-blue-small.svg)  | [Schneller Einstieg mit einigen Teams und Kanälen](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Ein Symbol mit einem Häkchen](media/success-small.svg)  | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Ein Symbol, das zwei Benutzer darstellt](media/users-people-small.svg)  | [Schulung für Ihre Benutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![Symbol "Aufgaben Zwischenablage"](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams in 30: eine Schulungsreihe für IT-Administratoren und Change Management-Leiter zur Implementierung von Teams in 30 Tagen](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>Technische Schulung</h2>
 
@@ -50,7 +50,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Dynamische Notrufe | [Video](https://aka.ms/teams-dec) |  [Foliensatz](https://aka.ms/teams-dec-deck) |
 | Liveereignisse | [Video](https://aka.ms/teams-live-events-session) | [Foliensatz](https://aka.ms/teams-live-events-deck) |
 | Telefonsystem-Einführung | [Video](https://aka.ms/teams-phone-system) | [Foliensatz](https://aka.ms/teams-phone-system-deck) |
-| Direktes Routing | [Video 1: Planen der direkten Weiterleitung in Teams](https://aka.ms/teams-dr-plan)<br>[Video 2: Konfigurieren und Verwalten des direkten Routings in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrieren zu direktem Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Foliensatz](https://aka.ms/teams-direct-routing-deck) |
+| Direktes Routing | [Video 1: Planen der direkten Weiterleitung in Teams ](https://aka.ms/teams-dr-plan)<br>[Video 2: Konfigurieren und Verwalten des direkten Routings in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrieren zu direktem Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Foliensatz](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade von Skype for Business auf Microsoft Teams | [Video 1: Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Planen des Upgrades](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Das Upgrade aus Sicht des Administrators](https://aka.ms/teams-upgrade-admin) | [Foliensatz](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Schnellstarthandbücher</h2>

@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012281"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662085"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -36,7 +36,7 @@ Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://ak
 
 Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss Microsoft Stream für den Mandanten aktiviert sein. Darüber hinaus gelten die folgenden Voraussetzungen, die sowohl für den Organisator der Besprechung als auch für die Person, welche die Aufzeichnung initiiert, erforderlich sind:
 
-- Der Benutzer verfügt über Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium oder Business Essentials.
+- Der Benutzer verfügt über Office 365 E1, E3, E5, a1, a3, A5, M365 Business Premium, M365 Business Standard oder M365 Business Basic.
 - Der Benutzer muss für Microsoft Stream lizenziert sein. <sup>1</sup> 
 - Der Benutzer hat die Berechtigung zum Hochladen von Videos in Microsoft Stream
 - Der Benutzer hat den Unternehmensrichtlinien zugestimmt, falls diese vom Administrator erstellt wurden

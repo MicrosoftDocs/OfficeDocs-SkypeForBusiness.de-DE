@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Besprechungsorganisatoren können lernen, wie Sie mithilfe der Teams-App wählen, um andere Personen mit ihren Telefonen an derselben Besprechung teilzunehmen.
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691291"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662105"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 
@@ -38,7 +38,8 @@ Wenn Sie eine Person anrufen, empfehlen wir, dass Sie Ihre vollständigen Telefo
   Bitte beachten Sie Folgendes:
 
 - Sie können sich nur dann anrufen, wenn Sie mit Teams an einer Besprechung teilnehmen.
-- Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
+- Der Organisator der Besprechung wurde für Audiokonferenzen aktiviert, oder falls keine Audiokonferenz-Lizenz zugewiesen ist, ist es möglich, Anrufe an das öffentlich geschaltete Telefonnetz über Online-Anrufpläne oder direktes Routing zu tätigen.
+- Der Besprechungsorganisator erhält [eine Online-Wähl Richtlinie, die das Auswählen von Konferenzen aktiviert](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps) .
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
