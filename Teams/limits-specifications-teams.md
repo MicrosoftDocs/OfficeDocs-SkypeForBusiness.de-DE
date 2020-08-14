@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 794089ed86b51ba15df2bd72a63a4dbe4f892f13
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656066"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672756"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -44,7 +44,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup3;         |
 |Anzahl der privaten Kanäle pro Team    |30|
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
-|Maximale Anzahl von Mitgliedern in einer Gruppe, die in ein Team umgewandelt werden können    |10.000|
+|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10.000|
 |Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>4</sup> |
 
 <sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgeschlossen.
