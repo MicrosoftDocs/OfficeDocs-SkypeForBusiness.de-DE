@@ -18,12 +18,12 @@ description: Informieren Sie sich über die erforderlichen Schritte zum Hinzufü
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 476640953c0b3773fde44727dede6b95e6bf676d
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 985374db5ff44d19efb26571dc7e9a0e78241002
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655916"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761231"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
@@ -31,7 +31,7 @@ ms.locfileid: "46655916"
 Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams. Nur Personen außerhalb Ihrer Organisation, z. B. Partner oder Berater, können als Gäste hinzugefügt werden. Personen innerhalb Ihrer Organisation können als reguläre Teammitglieder beitreten.
   
 > [!NOTE]
-> Der Gastzugriff ist standardmäßig deaktiviert. Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Teams aktivieren. Verwenden Sie dazu die [Checkliste für den Gastzugriff](guest-access-checklist.md). 
+> Der Gastzugriff ist standardmäßig deaktiviert. Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Teams aktivieren. Informationen hierzu finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>So wird ein Gast Mitglied eines Teams
 

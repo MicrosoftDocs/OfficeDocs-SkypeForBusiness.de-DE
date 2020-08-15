@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Remote Verwaltung der Standardeinstellungen, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich Anwenden eines benutzerdefinierten Designs und Erstellen einer Master Einstellungsdatei
-ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: abf6d93dea4f856f372305fd30b474f72ce47989
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201249"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761331"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -76,6 +76,13 @@ Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu
             <BlueComponent>100</BlueComponent>
         </CustomThemeColor>
     </Theming>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SkypeSettings>
 ```
 
@@ -123,8 +130,12 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 |\<CustomThemeColor\> |Container ||Container für die \<RedComponent\> \<GreenComponent\> Werte, und \<BlueComponent\> . Diese Werte sind für ein benutzerdefiniertes Design erforderlich. |
 |\<RedComponent\> |Byte (0-255) ||Stellt die rote Komponente dar. |
 |\<GreenComponent\> |Byte (0-255) ||Stellt die grüne Komponente dar. |
-|\<BlueComponent\> |Byte (0-255) ||Stellt die blaue Komponente dar. | 
-| | | |
+|\<BlueComponent\> |Byte (0-255) ||Stellt die blaue Komponente dar. |
+|\<CoordinatedMeetings\>|Boolescher &#x2777;|Erste &#x2776; |Container für die Konfigurationselemente für koordinierte Besprechungen Dieses Element hat ein Attribut:<ul><li><b>aktiviert</b> Bestimmt, ob Teams für die Teilnahme an koordinierten Besprechungen mit anderen Geräten konfiguriert ist.</li></ul>|
+|\<TrustedAccounts\>| String | |Hierbei handelt es sich um eine durch trennzeichengetrennte Liste von UPNs für jedes TeamRoom-Gerät oder einen Surface-Hub, von dem das Gerät Besprechungsteilnahme Anforderungen annehmen soll oder an die Besprechungsteilnahme Anforderungen gesendet werden sollen.|
+|\<Settings\>|Container | |Container für die Konfigurationselemente für Audio-und Videokonfiguration für koordinierte Besprechungen|
+|\<Audio\>| Boolescher &#x2777;| |Steuert die Audiokonfiguration für Teams auf einem Surface-Hub. Dieses Element hat zwei Attribute:<br><ul><li><b>Standardwert</b> Bestimmt, auf welchem Gerät das Mikrofon aktiv sein soll, wenn eine Besprechung gestartet wird. Dieses Feld kann nur auf einem Gerät (in der Regel in einem Team Room-Gerät) eingestellt werden, `true` während auf den restlichen Geräten dieses Feld auf " `false` Audio-Echo und-Feedback verhindern" gesetzt sein muss.</li><li><b>aktiviert</b> Bestimmt, ob Teilnehmer an einer Besprechung das Mikrofon ein-oder ausschalten können. Bei Geräten, auf denen die Standardeinstellung für **Audio** festgelegt ist, `false` sollte diese Einstellung so festgelegt sein `false` , dass die Teilnehmer nicht versehentlich ein Mikrofon einschalten und audioechos oder Feedback verursachen können.<p>Wenn **Audiostandard** auf festgelegt ist `true` , wird die Einstellung **audioaktiviert** ignoriert, und die Teilnehmer können das Mikrofon stumm schalten oder die Stummschaltung aufheben.</li></ul>|
+|\<Video\>| Boolescher &#x2777;| |Steuert die Videokonfiguration für Teams auf einem Surface Hub. Dieses Element hat zwei Attribute:<br><ul><li><b>Standardwert</b> Bestimmt, auf welchem Gerät die Kamera aktiv ist, wenn eine Besprechung gestartet wird. Für eine optimale Benutzerfreundlichkeit empfehlen wir, dass nur das Gerät "Teams Rooms" auf eingestellt ist, `true` während alle anderen Geräte auf fest eingestellt sind `false` .</li><li><b>aktiviert</b> Bestimmt, ob Teilnehmer an einer Besprechung die Kamera ein-oder ausschalten können. Sie können diese Einstellung `true` auf allen anderen Geräten in dem Ereignis festzulegen, in dem die Teilnehmer verschiedene Video Perspektiven freigeben möchten (beispielsweise, wenn ein Teilnehmer das Surface-Hub-Whiteboard verwendet). Wenn Sie nicht möchten, dass Teilnehmer eine Kamera auf einem Gerät ein-oder ausschalten, wählen Sie diese Option aus `false` .<p> Wenn **Videostandard** auf festgelegt ist `true` , wird die Einstellung **Video aktiviert** ignoriert, und die Teilnehmer können die Kamera ein-oder ausschalten.</li></ul>|
 
 &#x2776; alle Elemente der ersten Ebene sind optional. Wenn ein Element der ersten Ebene ausgelassen wird, bleiben alle diesem Element untergeordneten Parameter auf dem Gerät unverändert.
   
