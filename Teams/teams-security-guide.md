@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121635"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761291"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -127,7 +127,7 @@ Server-zu-Server-Verbindungen basieren auf gegenseitigem TLS (MTLS) zur gegensei
 TLS und MTLS tragen dazu bei, Abhörvorgänge und Man-in-Middle-Angriffe zu vermeiden. Ein Man-in-the-Middle-Angriff leitet die Kommunikation zwischen zwei Netzwerkeinheiten ohne Wissen einer der beiden Parteien über den Computer des Angreifers um. Die TLS- und Teams-Spezifikation vertrauenswürdiger Server entschärft das Risiko eines Man-in-the-Middle-Angriffs auf Anwendungsebene teilweise durch die Verwendung von Verschlüsselung, die mit der Kryptografie mit öffentlichem Schlüssel zwischen den beiden Endpunkten koordiniert wird. Ein Angreifer müsste über ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel verfügen, das auf den Namen des Dienstes ausgestellt ist, mit dem der Client kommuniziert, um die Kommunikation zu entschlüsseln.
 
 > [!NOTE]
-> Die Teams-Daten werden bei der Übertragung und im Ruhezustand verschlüsselt. Microsoft verwendet Standardtechnologien wie TLS und SRTP, um alle Daten während der Übertragung zwischen den Geräten der Benutzer und den Microsoft-Rechenzentren sowie zwischen Microsoft-Rechenzentren zu verschlüsseln. Dies umfasst Nachrichten, Dateien, Besprechungen und andere Inhalte. Ruhende Unternehmensdaten in Microsoft-Rechenzentren werden zudem auf eine Weise verschlüsselt, die es Organisationen ermöglicht, Inhalte bei Bedarf zu entschlüsseln, um ihre Sicherheits- und Complianceanforderungen zu erfüllen, z. B. mit eDiscovery.
+> Die Teams-Daten werden bei der Übertragung und im Ruhezustand in Microsoft-Rechenzentren verschlüsselt. Microsoft verwendet Standardtechnologien wie TLS und SRTP, um alle Daten während der Übertragung zwischen den Geräten der Benutzer und den Microsoft-Rechenzentren sowie zwischen Microsoft-Rechenzentren zu verschlüsseln. Dies umfasst Nachrichten, Dateien, Besprechungen und andere Inhalte. Ruhende Unternehmensdaten in Microsoft-Rechenzentren werden zudem auf eine Weise verschlüsselt, die es Organisationen ermöglicht, Inhalte bei Bedarf zu entschlüsseln, um ihre Sicherheits- und Complianceanforderungen zu erfüllen, z. B. mit eDiscovery.
 
 ### <a name="encryption-for-teams"></a>Verwenden von Datenverschlüsselung
 
