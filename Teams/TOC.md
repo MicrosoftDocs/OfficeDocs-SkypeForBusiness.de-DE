@@ -63,7 +63,6 @@
 
 ### Gastzugriff
 #### [Informationen zum Gastzugriff](guest-access.md)
-#### [Checkliste für den Gastzugriff](guest-access-checklist.md)
 #### [Beitritt eines Gasts zu einem Team](guest-joins.md)
 #### [Gastfunktionalität](guest-experience.md)
 #### [Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md)
@@ -148,6 +147,9 @@
 ### Bereitstellen
 #### [Übersicht zur Bereitstellung](rooms/rooms-deploy.md)
 #### [Konfigurieren von Konten](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [Koordinierte Besprechungen einrichten](rooms/coordinated-meetings.md)
+##### [Microsoft Teams-Einstellungen verwalten](rooms/surface-hub-manage-config.md)
 #### [Mit Office 365](rooms/with-office-365.md)
 #### [Mit Skype for Business Server](rooms/with-skype-for-business-server-2015.md)
 #### [Mit Exchange Online (hybrid)](rooms/with-exchange-online.md)
