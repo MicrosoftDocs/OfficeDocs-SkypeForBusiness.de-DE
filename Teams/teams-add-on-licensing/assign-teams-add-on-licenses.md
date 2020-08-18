@@ -16,19 +16,19 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Sie Benutzern für Features wie Audiokonferenz, Telefon System und Anrufpläne Teams Add-on-Lizenzen zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 5dd09ae11104aa0297a12417d4c267edfc17cf3f
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868582"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788739"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen von Teams-Add-on-Lizenzen zu Benutzern
 
 Add-on-Lizenzen sind Lizenzen für bestimmte Teams-Features wie Audiokonferenzen, Telefonsysteme und Anrufpläne. In diesem Artikel wird beschrieben, wie Sie einzelnen Benutzern Add-on-Lizenzen und große Gruppen von Benutzern massenweise zuweisen können.
 
 > [!NOTE]
-> Weitere Informationen finden Sie unter [Teams-Add-on-Lizenzierung](microsoft-teams-add-on-licensing.md) für Teamfunktionen, die mit Add-on-Lizenzen verfügbar sind. Darüber hinaus finden Sie Informationen darüber, welche Lizenzen Sie kaufen müssen und wie Sie Sie erwerben (je nach Plan), sodass Benutzer Features wie Audiokonferenzen, gebührenfreie Nummern und die Möglichkeit zum Anrufen von Telefonnummern außerhalb Ihres Unternehmens erhalten können. Nachdem Sie sich entschieden haben, welche Features für Ihre Benutzer zur Verfügung stehen, weisen Sie Ihnen die Lizenzen zu.
+> Weitere Informationen finden Sie unter [Teams-Add-on-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) für Teamfunktionen, die mit Add-on-Lizenzen verfügbar sind. Darüber hinaus finden Sie Informationen darüber, welche Lizenzen Sie kaufen müssen und wie Sie Sie erwerben (je nach Plan), sodass Benutzer Features wie Audiokonferenzen, gebührenfreie Nummern und die Möglichkeit zum Anrufen von Telefonnummern außerhalb Ihres Unternehmens erhalten können. Nachdem Sie sich entschieden haben, welche Features für Ihre Benutzer zur Verfügung stehen, weisen Sie Ihnen die Lizenzen zu.
 
 Sie können das Microsoft 365 Admin Center oder PowerShell verwenden, um Benutzern in Ihrer Organisation Lizenzen zuzuweisen. Sie müssen ein globaler Administrator oder Benutzer Verwaltungs Administrator sein, um Lizenzen verwalten zu können.
 
@@ -155,7 +155,7 @@ Weitere Informationen finden Sie unter [Anzeigen von Lizenzen und Diensten mit P
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Lizenzierung für Teams-Add-On](microsoft-teams-add-on-licensing.md)
+- [Lizenzierung für Teams-Add-On](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Verwalten des Benutzerzugriffs auf Teams](../user-access.md)
 - [Anzeigen von Lizenzen und Diensten mit PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

@@ -16,16 +16,125 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710819"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788469"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
 Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrator Features für Microsoft Teams.
+
+## <a name="august-17-2020"></a>17. August 2020
+
+### <a name="manage-the-praise-app"></a>Verwalten der Lob-App
+
+Die Lob-app in Microsoft Teams hilft Benutzern, die Mitglieder Ihrer Organisation oder Ihres Klassenzimmers zu schätzen. Mit einer Auswahl von Signal Sätzen, die Sie auswählen können, und der Möglichkeit, ihre eigenen Badges zu erstellen, soll das Lob dazu beitragen, die Anstrengung zu erkennen, die in die breite Palette der Arbeit eingeht, die die Benutzer von Teams machen, von Pädagogen bis zu Mitarbeitern erster Linie. [Weitere Informationen](../manage-praise-app.md).
+
+### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Einrichten von koordinierten Besprechungen mit Microsoft Teams-Räumen und Surface Hub
+
+Wenn Sie über ein oder mehrere Microsoft Teams rooms-Geräte oder Surface Hubs in einem Besprechungsraum verfügen, können Sie koordinierte Besprechungen einrichten. Durch koordinierte Besprechungen können Sie Ihre Teams rooms-Geräte und Surface-Hubs so einrichten, dass, wenn Sie an einer Besprechung auf einem Gerät teilnehmen, die anderen Geräte im Chatroom ebenfalls der gleichen Besprechung beigetreten sind. [Weitere Informationen](../rooms/coordinated-meetings.md).
+
+### <a name="tagging-by-shift"></a>Tagging nach Schicht
+
+Mit diesem Feature werden Personen automatisch Kategorien zugewiesen, die Ihren Terminplan-und Schicht Gruppennamen in der App "Schichten" in Teams erfüllen. [Weitere Informationen](../manage-tags.md).
+
+## <a name="august-14-2020"></a>14. August 2020
+
+### <a name="cortana-voice-skills-in-teams"></a>Cortana-Sprachkenntnisse in Teams
+
+Cortana-Sprachkenntnisse in Teams Mobile-App unterstützen Benutzer bei der Durchführung von Besprechungs-, Kommunikations-und Zusammenarbeitsaufgaben einfach mit gesprochener natürlicher Sprache. Benutzer können mit Cortana sprechen, indem Sie in der Team-App auf die Schaltfläche "Mikrofon" klicken und Anfragen wie "Megan anrufen" oder "eine Nachricht an meine nächste Besprechung senden" durchführen, wenn Sie eine Verbindung mit einer anderen Person herstellen müssen, während Sie die Hausarbeit jonglieren oder den Hund oder in der Regel unterwegs sind. Benutzer können an Besprechungen teilnehmen, indem Sie einfach "an meiner nächsten Besprechung teilnehmen" sagen oder Ihren Kalender überprüfen, indem Sie "Was habe ich heute Morgen" zu Fragen. Sobald Sie sich in einer Besprechung oder einem Anruf befinden, können Sie Cortana aus dem Überlaufmenü in der Besprechungs Phase aufrufen und typische Besprechungs Aufgaben ausführen, wie das Hinzufügen von Personen nach Name oder Nummer ("Megan zum Anruf hinzufügen"), Deck Präsentation ("präsentieren des Quartals Überprüfungs Decks") oder Navigieren in Folien ("zur Anhang-Folie wechseln"). Andere Dinge, die das Feature unterstützt, sind das Suchen und Freigeben von Dateien, das Suchen und die allgemeine Navigation innerhalb der Teams-app ("meinen Chat mit John öffnen, zu meiner ungelesenen Aktivität wechseln, zu meinen Erwähnungen wechseln usw.).
+
+Cortana in Microsoft Teams erfüllt die gleichen Datenschutz-, Sicherheits-und Compliance-Zusagen auf Unternehmensebene für Cortana Enterprise Services, wie Sie in den [Online Services-Bedingungen (Ost)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)widergespiegelt werden.
+
+### <a name="teams-devices-administrator"></a>Teams-Geräte Administrator
+
+Benutzer mit dieser Rolle können Teams Certified Devices im Team Admin Center verwalten. Sie können die Details jedes Geräts, einschließlich des Kontos, das angemeldet ist, sowie die Marke und das Modell des Geräts überprüfen. Sie können die Einstellungen auf dem Gerät ändern, die Software aktualisieren und Geräte Remote erneut starten. [Weitere Informationen](../using-admin-roles.md).
+
+## <a name="august-12-2020"></a>12. August 2020
+
+### <a name="lists-app-in-teams"></a>Listet die app in Microsoft Teams auf
+
+Benutzer von Teams können Ihre Listen jetzt direkt mithilfe der Registerkarte "App-Listen" verwalten, erstellen und verwalten. Die Listen-APP funktioniert auf allen Teams-Clients und ermöglicht die Zusammenarbeit und Kommunikation um Listenelemente.
+
+## <a name="august-3-2020"></a>3. August 2020
+
+### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Dienste für Teams von Drittanbieter-apps im Microsoft Teams Admin Center erwerben
+
+Teams-Apps können kostenlos installiert werden, und für einige ist es möglich, dass Sie Service Abonnements benötigen, um die vollständige Funktionalität und den Umfang der APP zu erfahren. Diese Dienstabonnements werden als SaaS-Angebote (Software as a Service) bezeichnet, die für den Kauf über AppSource und jetzt über das Microsoft Teams Admin Center zur Verfügung stehen. [Weitere Informationen](../purchase-third-party-apps.md).
+
+## <a name="july-31-2020"></a>31. Juli 2020
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Administratoren können den Schicht basierten Anwesenheitsstatus (bei Schicht-, aus-Schicht) für Ihre Mitarbeiter in der ersten Arbeitsgruppe konfigurieren.
+
+Administratoren können Ihre First-work-Mitarbeiter so konfigurieren, dass Sie auf Schicht basierten Anwesenheitsstatus festgelegte Status: bei UMSCHALT, beschäftigt (kann bei gedrückter Umschalttaste umgeschaltet werden) und aus UMSCHALT.
+[Weitere Informationen](../firstline-workers-quickstart.yml).
+
+## <a name="july-29-2020"></a>29. Juli 2020
+
+### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Verbesserte Verwaltbarkeit mithilfe von Geräte Kennzeichnungsfunktionen
+
+Im Rahmen der verbesserten Verwaltbarkeit veröffentlichen wir die Funktionen zur Gerätekennzeichnung. Damit können IT-Administratoren bestimmte Gerätegruppen mit vom benutzergenerierten Tags gruppieren und Aktionen auf demselben Gerät ausführen. [Weitere Informationen](/../../manage-device-tags.md).
+
+## <a name="july-20-2020"></a>20. Juli 2020
+
+### <a name="admins-can-control-outgoing-webhooks-at-the-user-level"></a>Administratoren können ausgehende webhooks auf Benutzerebene Steuern
+
+Administratoren können ausgehende webhooks auf Benutzerebene steuern, indem Sie die ausgehende webhooks-app in App-Berechtigungsrichtlinien zulassen oder blockieren. [Weitere Informationen](../manage-apps.md).
+
+## <a name="july-17-2020"></a>17. Juli 2020
+
+### <a name="ndi-out-for-teams-meetings"></a>NDI für Teams-Besprechungen
+
+Wir haben die Möglichkeit hinzugefügt, ndi zu einer Teams-Besprechung zu aktivieren. Mit ndi können Sie die Audio-und Videoübertragung einer Besprechung mithilfe von Video Produktionstools verwenden. [Weitere Informationen](../use-ndi-in-meetings.md).
+
+## <a name="july-9-2020"></a>9. Juli 2020
+
+### <a name="voicemail-support-in-call-queues"></a>Voicemail-Unterstützung in Anrufwarteschlangen
+
+Wir haben die Unterstützung für Anrufwarteschlangen zur Verwendung eines freigegebenen Voicemail-Felds hinzugefügt. [Weitere Informationen](../create-a-phone-system-call-queue.md).
+
+## <a name="july-7-2020"></a>7. Juli 2020
+
+### <a name="sensitivity-labels-for-teams"></a>Vertraulichkeitsbezeichnungen für Teams
+
+Mit Vertraulichkeits Beschriftungen können Teams-Administratoren den Zugriff auf vertrauliche organisatorische Inhalte regulieren, die während der Zusammenarbeit in Teams erstellt wurden. [Weitere Informationen](../sensitivity-labels.md).
+
+## <a name="july-2-2020"></a>2. Juli 2020
+
+### <a name="suggested-replies"></a>Vorgeschlagene Antworten
+
+Wir haben die Möglichkeit für Teams-Benutzer hinzugefügt, eine Antwort auf Ihre Unterhaltungen zu erhalten. Diese Vorschläge werden am Ende einer Chatnachricht angezeigt, wenn Sie aktiviert sind. Sie können schnell und einfach auf Nachrichten Antworten! [Weitere Informationen](../messaging-policies-in-teams.md#messaging-policy-settings).
+
+### <a name="transferring-incoming-calls"></a>Übertragen von eingehenden Anrufen
+
+Wir haben die Möglichkeit für automatische Telefonzentralen und eingehende Anrufe in der Anrufwarteschlange hinzugefügt, die an eine externe PSTN-Telefonnummer übertragen werden.  [Weitere Informationen](../business-voice/set-up-auto-attendants.md).
+
+## <a name="june-30-2020"></a>30. Juni 2020
+
+### <a name="install-apps-on-behalf-of-others"></a>Installieren von apps im Auftrag anderer Personen
+
+Sie wählen die Apps aus, die standardmäßig für Benutzer installiert werden, wenn Sie Teams starten. [Weitere Informationen](../teams-app-setup-policies.md)
+
+## <a name="june-29-2020"></a>29. Juni 2020
+
+### <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-app in Microsoft Teams
+
+Sofortige Sprachkommunikation über Push-to-Talk.
+
+## <a name="july-15-2020"></a>15. Juli 2020
+
+### <a name="enable-suggested-replies"></a>Aktivieren von Vorschlägen für Antworten
+
+Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren. [Weitere Informationen](../messaging-policies-in-teams.md)
+
+## <a name="june-21-2020"></a>21. Juni 2020
+
+### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Anmeldeeinschränkungen für Android-und IOS-Benutzer
+
+Wenn der Benutzer nirgendwo sonst bei seinem Microsoft 365-Konto angemeldet ist, wird er, abhängig von den Vorgaben der Anmelderichtlinien seiner Organisation, aufgefordert, sich über eine einstufige bzw. mehrstufige Authentifizierung (SFA oder MFA) zu identifizieren. [Weitere Informationen](../sign-in-teams.md).
 
 ## <a name="june-11-2020"></a>11. Juni 2020
 
@@ -33,17 +142,17 @@ Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrat
 
 Wenn diese Option deaktiviert ist, werden Anrufe an Agenten weitergeleitet, die unabhängig von Ihrem Anwesenheitsstatus für den Empfang von Anrufen entschieden haben. Wenn diese Option aktiviert ist, werden Anrufe nur dann empfangen, wenn Ihr Anwesenheitsstatus verfügbar ist. [Weitere Informationen](../create-a-phone-system-call-queue.md).
 
-
 ## <a name="june-10-2020"></a>10. Juni 2020
 
 ### <a name="call-queues---longest-idle-routing"></a>Anrufwarteschlangen – Routing mit dem längsten Leerlauf
+
 Wenn Sie diese Option auswählen, werden eingehende Anrufe an Anruf-Agents weitergeleitet, die einen eingehenden Anruf für den längsten Zeitraum nicht beantwortet haben. [Weitere Informationen](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>1. Juni 2020
 
 ### <a name="raise-hand-in-meetings"></a>Erhöhen der Hand in Besprechungen
 
-Benutzer können jetzt in einer Besprechung eine virtuelle Hand auslösen! Andere Teilnehmer sehen ihre erhöhte Hand neben Ihrem Namen in der Besprechungs Phase und neben Ihrem Namen in der Liste.
+Benutzer können jetzt in einer Besprechung eine virtuelle Hand auslösen! Andere Teilnehmer sehen ihre erhöhte Hand neben Ihrem Namen in der Besprechungs Phase und neben Ihrem Namen in der Liste. [Weitere Informationen](../raise-hand-meetings.md).
 
 ## <a name="may-15-2020"></a>15. Mai 2020
 
@@ -93,7 +202,7 @@ Der Microsoft Teams-Client für RealWear ermöglicht es Mitarbeitern von RealWea
 
 ## <a name="march-31-2020"></a>31. März 2020
 
-### <a name="tag-youre-it"></a>Tag, Sie sind es!
+### <a name="tag-youre-it"></a>Tag, Sie sind es
 
 Erstellen Sie Kategorien, und weisen Sie Ihnen Personen zu, damit Sie eine Gruppe, Rolle, Abteilung usw. @mention können. Team Besitzer, probieren Sie es selbst aus. Wechseln Sie zu einem Team, und wählen Sie **Weitere Optionen**zum  >  **Verwalten von Tags**aus. [Weitere Informationen](../manage-tags.md).
 

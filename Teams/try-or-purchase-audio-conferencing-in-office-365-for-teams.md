@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Hier erfahren Sie, wie Sie die Lizenzen für Audiokonferenzen (PSTN-Konferenzen) für Microsoft 365 oder Office 365 testen oder kaufen, um Konferenzgespräche einzurichten, in die sich Personen einwählen können. '
-ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021863"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788439"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Testen oder kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams
 
@@ -42,30 +42,30 @@ Infos über die Preisgestaltung finden Sie unter [Preise für Audiokonferenz](ht
 
 Sie müssen ein [globaler Administrator oder rechnungsadministrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) sein, um diese Schritte ausführen zu können.
 
-### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Erwerben und Zuweisen von Benutzerlizenzen für Audiokonferenz:
+### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Kaufen und Zuweisen von Lizenzen für Benutzer-Audiokonferenzen
 
-1. Finden Sie heraus, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
-    
+1. Finden Sie heraus, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Wenn Sie:
 
    - **Probieren Sie es** aus, bevor Sie es kaufen: Sie können sich für ein kostenloses Office 365 Enterprise E5-Testabonnement anmelden, das Audiokonferenzen umfasst. Siehe [Testversion von Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Kaufen**: Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+   - **Kaufen**: Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
 
 3. Weisen Sie den Benutzern in Ihrer Organisation [Lizenzen zu](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) , die Besprechungen planen oder leiten.
 
-4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen hierzu finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen hierzu finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
-### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Pay-per-Minute Lizenzen für Audiokonferenz kaufen und zuweisen:
+### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>So können Sie Pay-per-Minute-Lizenzen für Audiokonferenzen kaufen und zuweisen
 
-Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Lizenzen für Audiokonferenz erhalten. Weitere Informationen zu Pay-per Minute Lizenzen für Audio Conferencing finden Sie unter [Pay-per-Minute Audio Conferencing](audio-conferencing-pay-per-minute.md). 
+Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Lizenzen für Audiokonferenz erhalten. Weitere Informationen zu Pay-per Minute Lizenzen für Audio Conferencing finden Sie unter [Pay-per-Minute Audio Conferencing](audio-conferencing-pay-per-minute.md).
   
-1. Finden Sie heraus, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
-    
+1. Finden Sie heraus, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar sind. [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Um Pay-per-Minute Lizenzen zu erwerben, wenden Sie sich bitte an Ihren Kundenbetreuer.
-    
+
 3. [Einrichten von Kommunikationsguthaben für Ihre Organisation](set-up-communications-credits-for-your-organization.md) für Ihre Organisation. Das Einrichten von Communication Credits, finden Sie unter [Was sind Communication Credits?](what-are-communications-credits.md)
-    
+
     > [!IMPORTANT]
     > Wenn Guthaben für Kommunikationen noch nicht eingerichtet wurden, wird die Audiokonferenz für Benutzer mit Lizenzen mit Minutenabrechnung nicht funktionieren.
 
@@ -91,7 +91,6 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 3. [Festlegen der automatischen Sprache der Telefonzentrale für Audiokonferenz](set-auto-attendant-languages-for-audio-conferencing-in-teams.md), die von der automatischen Telefonzentrale von Audiokonferenz verwendet wird, um einen Anrufer zu begrüßen, wenn er sich mit einer Telefonnummer für die Audiokonferenz einwählt. Dieser Schritt gilt nur, wenn Sie Microsoft als Ihren Provider von Audio Conferencing verwenden.
 
 4. [Die Länge der PIN für Audiokonferenz-Besprechungen festzulegen](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
-
 
 > [!NOTE]
 > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).

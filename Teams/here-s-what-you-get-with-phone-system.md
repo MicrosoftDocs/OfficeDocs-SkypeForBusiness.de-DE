@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich über die Features, die Verfügbarkeit und die Vorgehensweise zum Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638344"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788429"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Das Telefonsystem bietet Ihnen Folgendes
 
@@ -88,7 +88,7 @@ Die folgenden Funktionen stehen in den Clouds für gcc-höchst-und DoD-Wolken no
 - [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
 - [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 - [Überwachen und Verwalten der Anrufqualität](monitor-call-quality-qos.md)
-- [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Lizenzierung für Microsoft Teams-Add-On](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Preise für das Telefonsystem](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams für virtualisierte Desktop Infrastruktur mit anrufen und Besprechungen](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938314"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778057"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub wurde eingestellt
 
@@ -90,6 +90,9 @@ Kernfunktionen sind die gleichen zwischen den Schichten IOS-und Android-Apps. Es
 #### <a name="what-browsers-does-shifts-work-on"></a>An welchen Browsern funktioniert die Schichtung?
 
 Schichten funktionieren in allen Browsern, die von Teams unterstützt werden und die die neuesten Versionen von Microsoft Edge, Internet Explorer, Google Chrome und Mozilla Firefox beinhalten. Weitere Informationen finden Sie unter [Abrufen von Clients für Teams](../../get-clients.md).
+
+> [!Note]
+> Microsoft 365-apps und-Dienste unterstützen Internet Explorer 11 ab August 17, 2021 (Microsoft Teams unterstützen Internet Explorer 11 zuvor nicht, beginnend mit dem 30. November, 2020). [Weitere Informationen](https://aka.ms/AA97tsw). Bitte beachten Sie, dass Internet Explorer 11 ein unterstützter Browser bleibt. Internet Explorer 11 ist eine Komponente des Windows-Betriebssystems und [folgt der Lebenszyklusrichtlinie](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) für das Produkt, auf dem Sie installiert ist. 
 
 #### <a name="what-languages-does-shifts-support"></a>Welche Sprachen werden von Schichten unterstützt?
 

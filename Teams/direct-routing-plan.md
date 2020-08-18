@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083175"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788709"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -78,7 +78,7 @@ In der folgenden Tabelle sind die Infrastrukturanforderungen für die unterstüt
 |Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den SBC|Ein FQDN für den SBC, wobei der Domänenanteil des FQDN eine der registrierten Domänen in Ihrer Microsoft 365-oder Office 365-Organisation ist. Weitere Informationen finden Sie unter [SBC-Domänennamen](#sbc-domain-names).|
 |Öffentlicher DNS-Eintrag für den SBC |Ein öffentlicher DNS-Eintrag, der den SBC-FQDN an die öffentliche IP-Adresse anordnet. |
 |Öffentliches vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für den SBC, der für die gesamte Kommunikation mit direktem Routing verwendet werden soll. Weitere Informationen finden Sie unter [öffentliches vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc).|
-|Verbindungspunkte für die direkte Weiterleitung |Die Verbindungspunkte für die direkte Weiterleitung sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globaler FQDN, muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundärer FQDN, der geografisch dem zweiten Prioritätsbereich zugeordnet ist.<br/>`sip3.pstnhub.microsoft.com`– Tertiärer FQDN, der geografisch dem dritten Prioritätsbereich zugeordnet ist.<br/><br/>Informationen zu den Konfigurationsanforderungen finden Sie unter [SIP-Signalisierungen: FQDNs](#sip-signaling-fqdns).|
+|Verbindungspunkte für die direkte Weiterleitung |Die Verbindungspunkte für die direkte Weiterleitung sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Globaler FQDN, muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com` – Sekundärer FQDN, der geografisch dem zweiten Prioritätsbereich zugeordnet ist.<br/>`sip3.pstnhub.microsoft.com` – Tertiärer FQDN, der geografisch dem dritten Prioritätsbereich zugeordnet ist.<br/><br/>Informationen zu den Konfigurationsanforderungen finden Sie unter [SIP-Signalisierungen: FQDNs](#sip-signaling-fqdns).|
 |Firewall-IP-Adressen und Ports für Direct-Routing Medien |Der SBC kommuniziert mit den folgenden Diensten in der Cloud:<br/><br/>SIP-Proxy, der die Signalübertragung übernimmt<br/>Medienprozessor, der Medien verarbeitet, es sei denn, die medienumgehung ist aktiviert.<br/><br/>Diese beiden Dienste verfügen über separate IP-Adressen in der Microsoft-Cloud, die weiter unten in diesem Dokument beschrieben werden.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) unter [URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Medien Transport Profil|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Firewall-IP-Adressen und Ports für Microsoft Teams-Medien |Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -119,7 +119,7 @@ Das Mischen des Anruf Plans und der direkten Routing Konnektivität für denselb
 
 Weitere Informationen zur Lizenzierung von Telefonsystemen finden Sie unter [Nutzen von Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) und [Planen von Optionen](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Weitere Informationen zur Lizenzierung von Telefonsystemen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+Weitere Informationen zur Lizenzierung von Telefonsystemen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). 
 
 ## <a name="supported-end-points"></a>Unterstützte Endpunkte 
 

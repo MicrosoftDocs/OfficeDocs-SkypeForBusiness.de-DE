@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842026"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778037"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -100,7 +100,7 @@ Wenn Sie sich für eine geplante Migration entscheiden möchten, senden Sie eine
 
 - Bevorzugtes Datum (dienstags): die Migrationswellen werden jeden Dienstag ausgeführt. Wählen Sie ein Datum an einem Dienstag aus, der nicht über 12/3/2019 liegt.
  
-- Mandanten-ID: 32 characters number in diesem Format 0046728c-688a-4472-a38f-098fec60ac6x. Sie finden Ihre Mandanten-ID im Microsoft 365-Verwaltungsportal unter Azure AD oder mithilfe des folgenden PowerShell-Cmdlets:`Get-CsTenant | Select ObjectId`
+- Mandanten-ID: 32 characters number in diesem Format 0046728c-688a-4472-a38f-098fec60ac6x. Sie finden Ihre Mandanten-ID im Microsoft 365-Verwaltungsportal unter Azure AD oder mithilfe des folgenden PowerShell-Cmdlets: `Get-CsTenant | Select ObjectId`
 
 Wenn Ihr Mandant erfolgreich migriert wird, erhalten Sie eine Bestätigung per e-Mail.
 
@@ -155,7 +155,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | VM | Benutzerfunktionen | Weiterleiten einer Voicemail  | Weiterleiten einer empfangenen Voicemail an andere Benutzer | v | v    |
 | VM | Benutzerfunktionen | Senden einer Sprachnachricht an eine Gruppe von Benutzern  |Voicemail-Übertragung   | N | v   |
 | VM | Benutzerfunktionen | Voicemail-Benachrichtigung mit SMS    | Benutzer können eine SMS empfangen, wenn Sie über eine neue Voicemail verfügen    | N | v    |
-| VM | Benutzerfunktionen | Unterstützte Gruß Sprachen | Details finden Sie hier:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| VM | Benutzerfunktionen | Unterstützte Gruß Sprachen | Details finden Sie hier: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | VM | Benutzerfunktionen | Mailboxansageregeln |  | v | v    |
 | VM | Benutzerfunktionen | Wiedergabe über Telefon (PSTN) – zur Wiedergabe von Nachrichten | Rufen Sie mich in meiner Zelle an, um die Sprachnachricht zu hören  | N | v    |
 | VM | Benutzerfunktionen | Wiedergabe über Telefon (Authentifizierung) – zur Wiedergabe von Nachrichten | Auf meinem authentifizierten Gerät anrufen  | v | v    |
@@ -165,13 +165,13 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | VM | Anrufer-Features  | Silence-Erkennung   |  | N | v    |
 | VM | Mandantenadministrator Features | Geschützte Voicemail auf Server Ebene    | Mandantenadministrator kann eine Regel auf Dienstebene konfigurieren, um eingehende Voicemail als geschützt zu kennzeichnen. | v | v    |
 | VM | Mandantenadministrator Features | Zeitbegrenzung für die Protokollierungs Dauer ändern  |     | v | v    |
-| VM | Mandantenadministrator Features | Timeout für Silence-Erkennung ändern    |  | –    | v    |
+| VM | Mandantenadministrator Features | Timeout für Silence-Erkennung ändern    |  | Nicht zutreffend    | v    |
 | VM | Mandantenadministrator Features | Ändern der Anzahl von Eingabefehlern | Kooperations Code: hart codiert bis 3 | N | v    |
 | VM | Mandantenadministrator Features | Ändern der Standardsprache |  | v | v    |
 | VM | Mandantenadministrator Features | Transkription deaktivieren/aktivieren |  | v | v    |
 | VM | Mandantenadministrator Features | Benachrichtigung über verpasste Anrufe deaktivieren/aktivieren |  | N | v    |
 | VM | Mandantenadministrator Features | Hilfe zur Verbesserung der Voicemailvorschau für Microsoft-Sprachnachrichten    |  | v | v    |
-| VM | Mandantenadministrator Features | Anpassen der Textnachricht für aktivierte Benutzer|  | –    | v    |
+| VM | Mandantenadministrator Features | Anpassen der Textnachricht für aktivierte Benutzer|  | Nicht zutreffend    | v    |
 | VM | Mandantenadministrator Features | Maskierung von Transkriptions Obszönitäten|  | v | N    |
 | VM | Mandantenadministrator Features | Voicemail-Richtlinie    |   | v | v    |
 | VM | Mandantenadministrator Features | Webportal Verwaltung   |  | CY19   | v    |
@@ -181,7 +181,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | AA | Dienstfunktionen | Unterstützung von Microsoft Teams|  | v | N    |
 | AA | Dienstfunktionen | Wählen nach Name, DTMF-Eingabe    |  | v | v    |
 | AA | Dienstfunktionen | Wahl nach Name, Spracheingabe  |  | v | v    |
-| AA | Dienstfunktionen | Mehrsprachige Unterstützung | Sprach Details finden Sie hier:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| AA | Dienstfunktionen | Mehrsprachige Unterstützung | Sprach Details finden Sie hier: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | AA | Dienstfunktionen | Transfer an Operator, CQ oder einen Benutzer |  | v | v    |
 | AA | Dienstfunktionen | Interne Übertragung an die PSTN-Nummer (did können)  |  | v | v    |
 | AA | Dienstfunktionen | Externe Übermittlung an PSTN-Nummer  |  | Siehe Abschnitt bekannte Probleme unten | v    |
@@ -197,7 +197,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | AA | Dienstfunktionen | Mehrere PSTN-Nummern Zuweisungen an AA|  | v | v    |
 | AA | Mandantenadministrator Features | Webportal Verwaltung   |  | v | N    |
 | AA | Mandantenadministrator Features | PowerShell-Cmdlets  |  | v | v    |
-| Fax-| Dienstfunktionen | Fax-Integration|  | N | v    |
+| Fax| Dienstfunktionen | Fax-Integration|  | N | v    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Empfohlener Testplan und Überprüfung nach der Migration für Administratoren
 
@@ -245,13 +245,7 @@ Der Teilnehmerzugriff funktioniert möglicherweise weiterhin für den Mandanten,
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>Anrufweiterleitung für automatische Telefonzentrale an PSTN
 
-Kunden sollten eine provisorische Problemumgehung konfigurieren, um die Anforderungen für die Übertragung eines automatischen Telefonzentralen Anrufs an eine externe PSTN-Nummer oder eine RGS-Instanz zu erfüllen.
-
-Ein Problem wurde während der Qualitätssicherung mit dem Feature "Weiterleitung an PSTN-Nummer" festgestellt, das nicht rechtzeitig behoben wird, damit Kunden vor dem geplanten Ruhestands Datum vom 28. Februar 2020 den Exchange-UMO-Dienst migrieren. Als Problemumgehung können Administratoren Anrufer für die automatische Telefonzentrale an einen lokalen virtuellen Benutzer mit einer aktiven Einstellung für die Anrufweiterleitung an die gewünschte PSTN-Telefonnummer oder die RGS-Telefonnummer übertragen. Die erwartete Erfahrung ist:
-
-- Administratoren müssen den virtuellen Benutzer nicht lizenzieren, da dies eine Problem Umgehungslösung ist.
-- Administratoren können die Anrufer-ID ändern, die dem PSTN-Empfänger angezeigt wird, indem Sie dem virtuellen Benutzer die gewünschte Nummer zuweisen oder die SBC-Ziffer Manipulations Funktionen verwenden.
-- Bei PSTN-Anrufern werden während der Anrufweiterleitung keine Verzögerungen auftreten, und die Anrufer-ID der automatischen Telefonzentrale wird nach erfolgreicher Übertragung weiterhin angezeigt.
+Um einen Anruf einer automatischen Telefonzentrale über Skype for Business Server oder einen Reaktionsgruppendienst (RGS) auf Skype for Business Server an eine externe PSTN-Telefonnummer zu übertragen, erstellen Sie einen neuen lokalen Benutzer mit der Anrufweiterleitung, der auf die PSTN-Telefonnummer oder die RGS-Telefonnummer festgelegt ist. Der Benutzer muss für Enterprise-VoIP aktiviert und ordnungsgemäß konfiguriert sein und eine VoIP-Richtlinie zugewiesen haben.
 
 #### <a name="shared-mailbox-is-still-accessible"></a>Freigegebenes Postfach ist weiterhin verfügbar
 

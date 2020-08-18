@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine Portierungs Auftragsanforderung manuell übermitteln.
-ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: a6eda920def415e61278dc4b3ac20d2f58edbb69
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224218"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788579"
 ---
 # <a name="manually-submit-a-port-order"></a>Manuelles Übermitteln eines Portierungsauftrags
 
@@ -52,11 +52,11 @@ Laden Sie die [Loa](../manage-phone-numbers-for-your-organization/manage-phone-n
     1. Geben Sie einen Titel (beispielsweise eine Portierungs Auftragsanforderung) und eine Beschreibung für Ihre Anfrage ein, bestätigen Sie Ihre Telefonnummer und e-Mail-Adresse, und wählen Sie Ihre bevorzugte Kontaktmethode aus.
     2. Klicken Sie unter **Anlagen**auf **Datei hinzufügen**, und laden Sie dann den abgeschlossenen [Loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)hoch.
     3. Klicken Sie auf **Kontakt**.
-    
+
 ## <a name="what-else-should-you-know-about-number-porting"></a>Was sollten Sie sonst noch über die Nummernportierung wissen?
 
-- Wenn Sie Anrufpläne verwenden möchten, müssen Sie Ihren Benutzern Lizenzen kaufen und zuweisen. Siehe [Teams-Add-on-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
+- Wenn Sie Anrufpläne verwenden möchten, müssen Sie Ihren Benutzern Lizenzen kaufen und zuweisen. Siehe [Teams-Add-on-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+
 - Sie müssen den einzelnen Benutzern die neuen Telefonnummern zuweisen, die Sie besitzen. Weitere Informationen hierzu finden Sie unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## <a name="related-topics"></a>Verwandte Themen

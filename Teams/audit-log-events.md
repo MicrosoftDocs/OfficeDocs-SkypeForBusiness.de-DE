@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll abrufen.
+description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648536"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778007"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 
@@ -65,8 +65,11 @@ Hier finden Sie Tipps zum Suchen nach Teams-Aktivitäten im Überwachungsprotoko
 
 - Sie können bestimmte Aktivitäten auswählen, nach denen Sie suchen möchten, indem Sie auf den Aktivitätsnamen klicken. Sie können aber auch nach allen Aktivitäten in einer Gruppe (beispielsweise **Datei-und Ordner Aktivitäten**) suchen, indem Sie auf den Gruppennamen klicken. Wenn eine Aktivität ausgewählt ist, können Sie darauf klicken, um die Auswahl abzubrechen. Sie können auch das Suchfeld verwenden, um die Aktivitäten anzuzeigen, die das eingegebene Schlüsselwort enthalten.<br>
     ![Screenshot der Überwachungsprotokoll Suche](media/audit-log-search.png)
+
 - Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie **Ergebnisse für alle Aktivitäten anzeigen** in der Liste **Aktivitäten** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, suchen Sie nach allen Aktivitäten, und Filtern Sie die Ergebnisse, indem Sie den Namen des Vorgangs in das Feld in der Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+
 - Wenn Sie die aktuellen Suchkriterien löschen möchten, klicken Sie auf **Löschen**. Der Datumsbereich kehrt auf den Standardwert der letzten sieben Tage zurück. Sie können auch auf **Alle löschen klicken, um die Ergebnisse für alle Aktivitäten anzuzeigen** , um alle ausgewählten Aktivitäten abzubrechen.
+
 - Wenn 5.000-Ergebnisse gefunden werden, können Sie wahrscheinlich davon ausgehen, dass mehr als 5.000-Ereignisse vorhanden sind, die die Suchkriterien erfüllt haben. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzugeben, oder Sie können alle Suchergebnisse exportieren, indem Sie **Ergebnisse exportieren**,  >  **alle Ergebnisse herunterladen**auswählen.
 
 Schauen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Audioprotokoll-Suche an. Treten Sie Ansuman Acharya, einem Programmmanager für Teams, bei, da er veranschaulicht, wie eine Überwachungsprotokoll Suche nach Teams durchführen kann.
@@ -99,7 +102,7 @@ Wie bereits erwähnt, können Sie Lösch Szenarien überwachen. Es ist möglich,
 
 Wie der Screenshot zeigt, können Sie für diese Richtlinie viele verschiedene Parameter festlegen, um die Löschungen von Teams zu überwachen, einschließlich Schweregrad, einzelne oder wiederholte Aktionen und Parameter, die dies auf Teams und das Löschen von Websites einschränken. Dies kann unabhängig von einer Vorlage erfolgen, oder es ist möglich, dass Sie je nach Ihren organisatorischen Anforderungen eine Vorlage erstellen, auf der diese Richtlinie basiert.
 
-Nachdem Sie eine Richtlinie eingerichtet haben, die für Ihr Unternehmen funktionieren wird, können Sie die Ergebnisse im Aktivitätsprotokoll überprüfen, wenn Ereignisse ausgelöst werden:
+Nachdem Sie eine Richtlinie erstellt haben, die für Ihr Unternehmen funktioniert, können Sie die Ergebnisse im Aktivitätsprotokoll überprüfen, wenn Ereignisse ausgelöst werden:
 
 ![Screenshot einer Liste von Ereignissen, die durch Massenlöschungen ausgelöst werden](media/TeamsMassDeleteList.png)
 
@@ -181,7 +184,7 @@ Wenn Ihre Organisation die app "Schichten" in Teams verwendet, können Sie das �
 |Uhrzeit Eintrag für gelöschte Zeit    |TimeClockEntryDeleted              |Ein Benutzer löscht einen Uhrzeit Eintrag erfolgreich auf der Arbeitszeittabelle.          |
 |Schicht Anforderung hinzugefügt         |RequestAdded              |Ein Benutzer hat eine Schicht Anforderung hinzugefügt.          |
 |Reaktion auf Schicht Anforderung     |RequestRespondedTo                  |Ein Benutzer hat auf eine Schicht Anforderung geantwortet.          |
-|Abgebrochene Schicht Anforderung         |RequestCanceled               |Ein Benutzer hat eine Schicht Anforderung abgebrochen.          |
+|Abgebrochene Schicht Anforderung         |RequestCancelled               |Ein Benutzer hat eine Schicht Anforderung abgebrochen.          |
 |Einstellung ' Zeitplan geändert '      |ScheduleSettingChanged          |Ein Benutzer ändert eine Einstellung in den Schichten Einstellungen.         |
 |Integration von Arbeitskräften hinzugefügt      |WorkforceIntegrationAdded                  | Die Schicht-APP ist in ein Drittanbietersystem integriert.         |
 |Off-Shift-Nachricht angenommen         |OffShiftDialogAccepted          |Ein Benutzer bestätigt die Off-Shift-Nachricht für den Zugriff auf Teams nach Schicht Stunden.           |
@@ -190,11 +193,10 @@ Wenn Ihre Organisation die app "Schichten" in Teams verwendet, können Sie das �
 
 Sie können die Office 365-Verwaltungs Aktivitäts-API verwenden, um Informationen zu Teams-Ereignissen abzurufen. Weitere Informationen zum API-Schema für Verwaltungsaktivitäten für Teams finden Sie unter [Teams-Schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
-
 ## <a name="attribution-in-teams-audit-logs"></a>Zuordnung in Teams-Überwachungsprotokollen
 
 Mitgliedschaftsänderungen an Teams (wie Benutzer, die hinzugefügt oder gelöscht wurden), die über Azure Active Directory (Azure AD), Microsoft 365 Admin Portal oder Microsoft 365 Groups Graph API durchgeführt werden, werden in Teams Überwachungs Nachrichten und im allgemeinen Kanal mit einer Zuordnung zu einem vorhandenen Besitzer des Teams und nicht dem eigentlichen Initiator der Aktion angezeigt. Konsultieren Sie in diesen Szenarien Azure AD-oder [Microsoft 365-Gruppen Überwachungsprotokolle](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) , um die relevanten Informationen anzuzeigen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
+- [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

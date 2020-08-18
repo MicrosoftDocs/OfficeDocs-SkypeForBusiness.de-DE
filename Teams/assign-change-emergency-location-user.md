@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie einen Notfall Standort für Benutzer in Ihrer Organisation zuweisen oder ändern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 450fe848052af1e331964da3d7b695daf0f1567a
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0f2e927e90a7ac6b79d6eb63c807e063ca7d78c7
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610994"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788659"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
 
 Wenn Sie Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder einem Nutzer einen Notfall Standort zuweisen. In europäischen Ländern ist der Notfall Standort mit der Telefonnummer verbunden, wenn Sie ihn von Microsoft 365 oder Office 365 erhalten oder wenn Sie eine Telefonnummer an Microsoft 365 oder Office 365 übertragen. In den Vereinigten Staaten ist der Notfall Standort mit der Telefonnummer verbunden, wenn Sie dem Benutzer zugewiesen ist. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem Sie zugewiesen wurde, an einen neuen Speicherort wechselt. Weitere Informationen zu Notfalladressen und-Standorten finden Sie unter [Was sind Notfall Standorte, Orte und Anrufweiterleitung?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
   
-Informationen dazu, wie Sie einen Anrufplan erhalten und wie viel er kostet, finden Sie unter [Lizenzierung von Teams-Add-ons](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Informationen dazu, wie Sie einen Anrufplan erhalten und wie viel er kostet, finden Sie unter [Lizenzierung von Teams-Add-ons](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 Sie können einen Notfall Standort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
 

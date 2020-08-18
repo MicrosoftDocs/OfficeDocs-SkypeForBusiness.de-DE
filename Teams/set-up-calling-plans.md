@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren ansichtspläne, kaufen & Lizenzen zuweisen, Telefonnummern erhalten und Notfalladressen & Speicherorten hinzufügen.
-ms.openlocfilehash: 97d0a29068acbb645018d7a3b76867e93d9804cd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691081"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788449"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
@@ -40,12 +40,12 @@ Gehen Sie auf [Verfügbarkeit nach Land und Region für Audiokonferenz und Anruf
 Wenn für Ihr Land oder Ihre Region keine Anrufpläne zur Verfügung stehen, erwägen Sie die Verwendung der direkten Weiterleitung, um die lokale Telefonie-Infrastruktur mit dem Telefon System zu verbinden.  Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Schritt 2: Lizenzen kaufen und zuweisen
-1. Wenn das Telefonsystem Feature nicht in Ihrem Microsoft 365-oder Office 365-Plan enthalten ist, müssen Sie möglicherweise **Telefonsystem** -Add-on-Lizenzen erwerben. Nachdem Sie über **Telefon System** Lizenzen verfügen, kaufen Sie [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md). Näheres hierzu erfahren Sie unter [Lizenzierung für Microsoft Teams-Add-Ons](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Erwerben Sie schließlich die Lizenzen und den Plan. 
+1. Wenn das Telefonsystem Feature nicht in Ihrem Microsoft 365-oder Office 365-Plan enthalten ist, müssen Sie möglicherweise **Telefonsystem** -Add-on-Lizenzen erwerben. Nachdem Sie über **Telefon System** Lizenzen verfügen, kaufen Sie [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md). Näheres hierzu erfahren Sie unter [Lizenzierung für Microsoft Teams-Add-Ons](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). Erwerben Sie schließlich die Lizenzen und den Plan. 
     
     > [!TIP]
     > **Telefonsystem** Lizenzen und Anrufpläne in Microsoft 365 oder Office 365 gehen zusammen, um die Option zum Kauf von Anrufplänen zu sehen, müssen Sie zuerst über die **Telefonsystem** Lizenzen verfügen.
   
-2. Weisen Sie zuerst die Lizenzen zu, und weisen Sie dann den Personen in Ihrer Organisation einen Anrufplan zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+2. Weisen Sie zuerst die Lizenzen zu, und weisen Sie dann den Personen in Ihrer Organisation einen Anrufplan zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
 ## <a name="step-3-get-phone-numbers"></a>Schritt 3: Erhalten von Telefonnummern
 Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:

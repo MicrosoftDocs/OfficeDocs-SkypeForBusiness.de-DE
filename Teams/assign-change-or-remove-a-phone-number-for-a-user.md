@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine geschäftliche Telefonnummer für Ihre Teams-Benutzer zuweisen, ändern oder entfernen, sodass externe Unternehmen und Kunden Sie anrufen können.
-ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18c2cd710459e84f8dc7c0e09ed0fe6f8142bf2c
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44609960"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788669"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -35,7 +35,7 @@ Wenn Sie Anrufpläne einrichten, weisen Sie Ihren Benutzern Telefonnummern zu. I
 
 Wenn Sie Benutzer so einrichten, dass Sie Telefonanrufe tätigen und empfangen können, müssen Sie zuerst das Microsoft Teams Admin Center verwenden und eine Telefonnummer zuweisen. Sie können die Telefonnummer bei Bedarf ändern oder entfernen.
   
-Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Kosten, finden Sie unter [Lizenzierung von Teams-Add-ons](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Kosten, finden Sie unter [Lizenzierung von Teams-Add-ons](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 > [!NOTE]
 > Eine Möglichkeit, um festzustellen, ob einem Benutzer eine Lizenz zugewiesen wurde, besteht darin, > **Benutzer**zum Microsoft Teams Admin Center zu wechseln. Wenn eine Lizenz zugewiesen wurde, wird Sie auf der Seite angezeigt.  Sie können auch das Microsoft 365 Admin Center verwenden.
