@@ -18,12 +18,12 @@ description: In diesem Artikel erfahren Sie mehr über die Faktoren, die Sie ber
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: df05da7313394bdc0856002014df8e8e18385774
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854107"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788339"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -54,7 +54,7 @@ Es ist wichtig zu wissen, dass eine Microsoft 365- oder Office 365-Lizenz erford
 > [!NOTE]
 > Für US Government Cloud Community (GCC)-Organisationen sind jetzt Teams-Liveereignisse verfügbar.
 
-Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-On-Lizensierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-On-Lizensierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 Der Benutzer muss Folgendes besitzen:
 

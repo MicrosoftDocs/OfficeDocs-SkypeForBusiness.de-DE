@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams, um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761351"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788399"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -109,7 +109,7 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Audiokonferenz-Lizenzen    |Ob Sie über ein aktives Abonnement mit verfügbaren Audiokonferenz-Lizenzen verfügen. Dies ist eine Voraussetzung für den Einsatz von Audiokonferenzbrücken. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Audiokonferenzlizenzen verfügen (mit mindestens einer verfügbaren Lizenz). Weitere Informationen finden Sie unter [Teams Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Audiokonferenz-Lizenzen    |Ob Sie über ein aktives Abonnement mit verfügbaren Audiokonferenz-Lizenzen verfügen. Dies ist eine Voraussetzung für den Einsatz von Audiokonferenzbrücken. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Audiokonferenzlizenzen verfügen (mit mindestens einer verfügbaren Lizenz). Weitere Informationen finden Sie unter [Teams Add-On-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
 |Stream-Lizenzen     |Ob Sie über ein aktives Abonnement mit Microsoft Stream-Lizenzen verfügen. Dies ist eine Voraussetzung, wenn Sie die Besprechungsaufzeichnung aktivieren möchten. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Microsoft Stream-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen zu Stream und dessen Aktivierung finden Sie unter [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md).
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Bewertungen für das Skype for Business-Upgrade
