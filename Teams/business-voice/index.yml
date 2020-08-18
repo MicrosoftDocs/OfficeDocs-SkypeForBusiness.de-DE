@@ -1,0 +1,87 @@
+### YamlMime:Hub
+title: Microsoft 365 Business Voice-Dokumentation
+summary: Erfahren Sie, wie Sie Microsoft 365 Business Voice in Ihrer Organisation planen, einrichten und verwenden. Business Voice macht es kleinen und mittleren Organisationen leicht, ein leistungsfähiges und flexibles ohne die Kosten und Komplexität von firmenintern Telefonsystem aufzubauen.
+metadata:
+  title: Microsoft 365 Business Voice-Dokumentation
+  description: Erfahren Sie, wie Sie Microsoft 365 Business Voice planen, bereitstellen und verwenden.
+  ms.topic: hub-page
+  author: dstrome
+  ms.author: dstrome
+  ms.date: 06/17/2020
+  ms.openlocfilehash: f810d9249b979b7059811d54161d8d65641f14e3
+  ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 08/17/2020
+  ms.locfileid: "46778111"
+productDirectory:
+  items:
+  - title: Durchsuchen
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    links:
+    - url: whats-business-voice.md
+      text: Was ist Business Voice?
+    - url: https://www.microsoft.com/microsoft-365/business-voice
+      text: Microsoft 365 Business Voice
+    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+      text: Dienstbeschreibung
+  - title: Einrichten
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+      text: So erhalten Sie Business Voice
+    - url: get-ready-internet.md
+      text: Überprüfen Ihrer Internetverbindung
+    - url: prepare-users.md
+      text: Vorbereiten der Benutzer
+    - url: use-getting-started-wizard.md
+      text: Ausführen des Assistenten für erste Schritte.
+  - title: Anpassen des Setups
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    links:
+    - url: port-phone-numbers.md
+      text: Portieren vorhandener Telefonnummern
+    - url: set-up-auto-attendants.md
+      text: Einrichten automatischer Telefonzentralen
+    - url: set-up-policies.md
+      text: Einrichten von Richtlinien
+    - url: set-up-call-queues.md
+      text: Einrichten von Warteschlangen.
+  - title: Verwendung
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    links:
+    - url: create-users.md
+      text: Erstellen weiterer Benutzer
+    - url: manage-devices.md
+      text: Verwalten Ihrer Geräte
+    - url: monitor-quality.md
+      text: Überwachen der Anrufqualität
+    - url: analytics-dashboard.md
+      text: Anrufanalyse-Dashboard
+  - title: Ressourcen für Partner
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+    links:
+    - url: https://docs.microsoft.com/partner-center/
+      text: Abrufen von Microsoft 365 Business aus dem Partner Center
+    - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
+      text: Microsoft 365 Business Voice für Partner
+    - url: partner-resources.md
+      text: Microsoft 365 Business Voice-Supportressourcen für Partner
+  - title: Benötigen Sie Hilfe?
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    links:
+    - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+      text: Kontaktieren des Supports für Microsoft 365 oder Office 365
+    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
+      text: Tech Community für kleine und mittelständige Unternehmen
+  - title: Hilfedokumentation
+    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+    links:
+    - url: /microsoftteams/cloud-voice-landing-page
+      text: Microsoft Teams-Dokumente für Administratoren
+    - url: https://microsoftteams.uservoice.com/
+      text: Microsoft Teams UserVoice-Feedback
+    - url: https://support.office.com/teams
+      text: Microsoft Teams-Dokumente für Clients
+    - url: https://docs.microsoft.com/office365/admin/
+      text: Microsoft 365- und Office 365-Administratordokumente
