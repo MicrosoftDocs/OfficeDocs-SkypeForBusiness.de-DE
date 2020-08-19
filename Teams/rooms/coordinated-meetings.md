@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Konfigurieren von Teams Room-Geräten und Surface Hub für die Teilnahme an Besprechungen, wenn ein Gerät oder der andere Teilnehmer an einer Besprechung teilnimmt.
-ms.openlocfilehash: c1200b4e949cb866440907f8577f61f4528630e2
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: cfd8bd423d8f7765a973d55e42d64773a06bba32
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761439"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803937"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Einrichten von koordinierten Besprechungen mit Microsoft Teams-Räumen und Surface Hub
 
@@ -52,10 +52,10 @@ Sie müssen einer Administratorrolle zugewiesen sein, um auf das Microsoft 365 A
 
 Gehen Sie wie folgt vor, um die UPNs ihrer Teams rooms-Geräte und Surface-Hubs zu erhalten:
 
-1. Wenn Sie sich beim Microsoft 365 Admin Center anmelden, besuchen Sie https://admin.microsoft.com
-2. Zu aktiven **Benutzern wechseln**  >  **Active users**
+1. Wenn Sie sich beim Microsoft 365 Admin Center anmelden, besuchen Sie https://admin.microsoft.com .
+2. Wechseln Sie zu **Benutzer**  >  **aktive Benutzer**.
 3. Suchen Sie in der Spalte **Anzeigename** den Namen Ihres Teams rooms Device oder Surface Hub (Sie können das **Suchfeld** verwenden, wenn viele Benutzer vorhanden sind).
-4. Suchen Sie den UPN in der Spalte **username** (er sieht wie Alias@contoso.com oder Alias@contoso.onmicrosoft.com aus)
+4. Suchen Sie den UPN in der Spalte **username** (er sieht so etwas wie Alias@contoso.com oder Alias@contoso.onmicrosoft.com) aus.
 5. Wiederholen Sie diesen Vorgang für jedes Gerät, das an koordinierten Besprechungen teilnehmen soll.
 
 ## <a name="step-3-create-a-deployment-worksheet"></a>Schritt 3: Erstellen eines Bereitstellungs Arbeitsblatts
@@ -71,6 +71,7 @@ Fügen Sie in einer Tabellen Kalkulations-App Zeilen für Folgendes in der erste
 | **Video Standard**      | Bestimmt, auf welchem Gerät die Kamera aktiv ist, wenn eine Besprechung gestartet wird. Für eine optimale Benutzerfreundlichkeit empfehlen wir, dass nur das Gerät "Teams Rooms" auf eingestellt ist, `true` während alle anderen Geräte auf fest eingestellt sind `false` .          |
 | **Video aktiviert**      | Bestimmt, ob Teilnehmer an einer Besprechung die Kamera ein-oder ausschalten können. Sie können diese Einstellung `true` auf allen anderen Geräten in dem Ereignis festzulegen, in dem die Teilnehmer verschiedene Video Perspektiven freigeben möchten (beispielsweise, wenn ein Teilnehmer das Surface-Hub-Whiteboard verwendet). Wenn Sie nicht möchten, dass Teilnehmer eine Kamera auf einem Gerät ein-oder ausschalten, wählen Sie diese Option aus `false` .<p> Wenn **Video Standard** auf festgelegt ist `true` , wird diese Einstellung ignoriert, und die Teilnehmer können die Kamera ein-oder ausschalten.         |
 | **Whiteboard-Standard** | Bestimmt, ob auf dem Gerät "Teams Rooms" ein Whiteboard angezeigt wird, das von einem der Besprechungsteilnehmer freigegeben wurde. Wir empfehlen, dass Sie diese Einstellung auf, `false` Wenn Sie über einen Surface-Hub verfügen und `true` Wenn Sie nicht über eine verfügen. Diese Einstellung hat keine Auswirkungen auf Surface Hubs. Surface Hubs zeigt immer ein Whiteboard an, das von Besprechungsteilnehmern freigegeben wird.         |
+| **Whiteboard aktiviert** | Bestimmt, ob Teilnehmer an einer Besprechung das Whiteboard aktivieren oder deaktivieren können. Wenn Sie nicht möchten, dass Teilnehmer das Whiteboard auf einem Gerät ein-oder ausschalten, setzen Sie diese Einstellung auf `false` . <p>Wenn **Whiteboard Standard** auf festgelegt ist `true` , wird diese Einstellung ignoriert, und die Teilnehmer können das Whiteboard aktivieren oder deaktivieren.
 | **Vertrauenswürdige Konten**   | Hierbei handelt es sich um eine durch trennzeichengetrennte Liste von UPNs für jedes TeamRoom-Gerät oder einen Surface-Hub, von dem das Gerät Besprechungsteilnahme Anforderungen annehmen soll oder an die Besprechungsteilnahme Anforderungen gesendet werden sollen. |
 
 Fügen Sie in den nachfolgenden Spalten jedes Ihrer Teams rooms-Geräte und Surface-Hubs hinzu. Füllen Sie in jeder Spalte die Werte aus, die der für den Besprechungsraum gewünschten Erfahrung entsprechen. Im folgenden finden Sie ein Beispiel für ein Gerät mit einem Teams und einen Surface-Hub:
@@ -88,7 +89,7 @@ Fügen Sie in den nachfolgenden Spalten jedes Ihrer Teams rooms-Geräte und Surf
 | **Audio aktiviert**      | `true`          | `false`          |
 | **Video Standard**      | `true`          | `false`          |
 | **Video aktiviert**      | `true`          | `true`           |
-| **Whiteboard-Standard** | `false`         | Nicht zutreffend   |
+| **Whiteboard-Standard** | `false`         | `false`          |
 | **Vertrauenswürdige Konten**   | hub@contoso.com | room@contoso.com |
 
 ## <a name="step-4-configure-teams-rooms-device"></a>Schritt 4: Konfigurieren des Geräts "Teams Rooms"
@@ -101,17 +102,17 @@ Verwenden Sie das Arbeitsblatt, das Sie im vorherigen Schritt erstellt haben, um
 
 Gehen Sie wie folgt vor, um koordinierte Besprechungen auf einem Gerät einzurichten:
 
-1. Wählen Sie **... Weitere**  >  **Einstellungen**
-2. Geben Sie das Administrator Kennwort ein, und wählen Sie **Ja** aus.
-3. Auswählen **koordinierter Besprechungen**
-4. Wählen Sie unter **Optionen die Option** **koordinierte Besprechung** auf ein aus.
-5. Wenn **Audiostandard** in Ihrem Arbeitsblatt ist `true` , setzen Sie **das Mikrofon des Geräts** auf ein, andernfalls lassen Sie es aus.
+1. Wählen Sie **... Weitere**  >  **Einstellungen**.
+2. Geben Sie das Administrator Kennwort ein, und wählen Sie **Ja**aus.
+3. Wählen Sie **koordinierte Besprechungen**aus.
+4. Wählen Sie unter **Optionen die Option** **koordinierte Besprechung** auf _ein aus_.
+5. Wenn **Audiostandard** in Ihrem Arbeitsblatt ist `true` , setzen Sie **das Mikrofon des Geräts** auf ein, andernfalls lassen Sie es _aus_.
 6. Wenn **Audio** in Ihrem Arbeitsblatt aktiviert ist `true` , aktivieren Sie unter Aktivieren **des Mikrofons dieses Geräts die**Option **Personen ermöglichen, wenn Sie an einer Besprechung teilnehmen** . Diese Option kann nicht deaktiviert werden, wenn **das Mikrofon des Geräts** aktiviert ist.
-7. Wenn Video in Ihrem Arbeitsblatt **standardmäßig** aktiviert ist `true` , setzen Sie **die Kamera dieses Geräts** auf ein, andernfalls lassen Sie es aus.
-8. Wenn **Video** in Ihrem Arbeitsblatt aktiviert ist `true` , aktivieren Sie unter Aktivieren der **Kamera dieses Geräts die**Option **Personen aktivieren, wenn Sie an einer Besprechung teilnehmen** . Diese Option kann nicht deaktiviert werden, wenn die **Kamera dieses Geräts** aktiviert ist.
-9. Wenn das Whiteboard in Ihrem Arbeitsblatt **standardmäßig** aktiviert ist `true` , **Aktivieren Sie Whiteboarding auf diesem Gerät** auf ein, andernfalls lassen Sie es aus.
+7. Wenn Video in Ihrem Arbeitsblatt **standardmäßig** aktiviert ist `true` , aktivieren Sie die **Kamera dieses Geräts** auf ein, andernfalls lassen Sie es _aus_.
+8. Wenn **Video** in Ihrem Arbeitsblatt aktiviert ist `true` , aktivieren Sie unter Aktivieren der **Kamera dieses Geräts die**Option **Personen aktivieren, wenn Sie an einer Besprechung teilnehmen** . Diese Option kann nicht deaktiviert _werden, wenn die_ **Kamera dieses Geräts** aktiviert ist.
+9. Wenn das Whiteboard in Ihrem Arbeitsblatt **standardmäßig** aktiviert ist `true` , setzen Sie das **Whiteboarding auf diesem Gerät** auf _ein_, andernfalls lassen Sie es _aus_.
 10. Geben Sie unter **Konten für vertrauenswürdige Geräte**jeden UPN ein, der in **vertrauenswürdigen Konten** auf dem Arbeitsblatt aufgeführt ist. Trennen Sie mehrere UPNs durch Kommas.
-11. Wählen Sie **Speichern und beenden** aus.
+11. Wählen Sie **Speichern und beenden**aus.
 
 Nachdem Sie **Speichern und beenden**ausgewählt haben, wird das Gerät neu gestartet und kann an koordinierten Besprechungen teilnehmen.
 
@@ -126,7 +127,7 @@ Die folgende Syntax enthält die Einstellungen für koordinierte Besprechungen i
     <Settings>
         <Audio default="true" enabled="true"/>
         <Video default="true" enabled="true"/>
-        <Whiteboard default="false"/>
+        <Whiteboard default="false" enabled="false"/>
     </Settings>
     <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
@@ -135,14 +136,21 @@ Die folgende Syntax enthält die Einstellungen für koordinierte Besprechungen i
 Gehen Sie wie folgt vor, um koordinierte Besprechungen auf einem Gerät einzurichten:
 
 1. Fügen Sie in einem Text Datei-Editor wie Visual Studio-Code oder Notepad das obige XML in eine neue Datei ein.
+
 2. Setzen Sie die einzelnen XML-Elemente auf den `true` entsprechenden `false` Wert in Ihrer Kalkulationstabelle. Wenn beispielsweise " **Audio Standard** " lautet, ist " `true` festlegen" `<Audio default="true">` .
-3. Stellen Sie sicher, dass Sie `TrustedAccounts` zu ihrer UPNs-Liste wechseln
-4. Speichern Sie die Datei unter dem Namen. `SkypeSettings.xml`
+
+3. Stellen Sie sicher, dass Sie `TrustedAccounts` zu ihrer UPNs-Liste wechseln.
+
+4. Speichern Sie die Datei unter dem Namen `SkypeSettings.xml` .
+
 5. Speichern Sie die Datei im Ordner "Teams rooms Device `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` ". Sie können dies auf verschiedene Weise tun:
+
     - **Kopieren der Datei auf das Gerät Ihres Teams rooms** Sie müssen die Dateifreigabe aktivieren und eine Netzwerkfreigabe erstellen, bevor Sie Dateien auf Ihr Gerät kopieren können. Anschließend können Sie eine Verbindung mit der Netzwerkfreigabe herstellen und die Datei auf das Gerät kopieren. Weitere Informationen finden Sie unter [Wartung und Vorgänge in Microsoft Teams-Räumen](../rooms/rooms-operations.md).
     - **Verwenden einer Gruppenrichtlinie** Erstellen Sie eine Gruppenrichtlinie, um die Datei auf das Gerät zu kopieren. Weitere Informationen finden Sie unter [Übersicht über Gruppenrichtlinien](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)).
     - **Herunterladen der Datei auf dem Gerät "Teams rooms** " Sie können sich mit dem Administratormodus beim Gerät anmelden und die Datei dann von einer Netzwerkfreigabe oder einem USB-Laufwerk auf das Gerät kopieren. Weitere Informationen finden Sie unter [Wechseln zum Administratormodus](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
+    
 6. Starten Sie das Gerät neu. Sie haben mehrere Möglichkeiten:
+
     - **Remote-PowerShell** Sie können den Befehl shutdown auf dem Gerät mithilfe der Remote-PowerShell ausführen. Weitere Informationen finden Sie unter [Remote Verwaltung mithilfe von PowerShell](../rooms/rooms-operations.md).
     - **Neustart starten – Computer** Sie können das `Restart-Computer` Cmdlet auf dem lokalen Computer ausführen und den Computernamen des Geräts angeben, das Sie neu starten möchten. Weitere Informationen finden Sie unter [Restart-Computer](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
 
@@ -173,8 +181,11 @@ Im folgenden wird die Syntax der XML-Konfigurationsdatei für koordinierte Bespr
 Gehen Sie wie folgt vor, um den XML für Windows-Konfigurations-Designer oder Microsoft InTune vorzubereiten:
 
 1. Fügen Sie in einem Text Datei-Editor wie Visual Studio-Code oder Notepad das obige XML in eine neue Datei ein.
+
 2. Setzen Sie die einzelnen XML-Elemente auf den `true` entsprechenden `false` Wert in Ihrer Kalkulationstabelle. Wenn beispielsweise " **Audio Standard** " lautet, ist " `true` festlegen" `<Audio default="true">` .
-3. Stellen Sie sicher, dass Sie `TrustedAccounts` zu ihrer UPNs-Liste wechseln
+
+3. Stellen Sie sicher, dass Sie `TrustedAccounts` zu ihrer UPNs-Liste wechseln.
+
 4. Der Windows-Konfigurations-Designer setzt voraus, dass sich die XML-Datei in einer einzigen Zeile befindet. Entfernen Sie alle Zeilenumbrüche zwischen den Zeilen, damit der XML-Code wie folgt aussieht:
 
     ```xml

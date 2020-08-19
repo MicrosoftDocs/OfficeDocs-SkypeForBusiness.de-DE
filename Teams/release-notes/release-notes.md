@@ -16,18 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788469"
+ms.locfileid: "46797443"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
 Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrator Features für Microsoft Teams.
 
 ## <a name="august-17-2020"></a>17. August 2020
+
+### <a name="group-chat-size-increase"></a>Gruppen-Chat-Vergrößerung
+
+Wir haben die Möglichkeit, jetzt 250-Teilnehmer in einem Gruppen-Chat zu haben, hinzugefügt.
 
 ### <a name="manage-the-praise-app"></a>Verwalten der Lob-App
 
@@ -59,24 +63,29 @@ Benutzer mit dieser Rolle können Teams Certified Devices im Team Admin Center v
 
 Benutzer von Teams können Ihre Listen jetzt direkt mithilfe der Registerkarte "App-Listen" verwalten, erstellen und verwalten. Die Listen-APP funktioniert auf allen Teams-Clients und ermöglicht die Zusammenarbeit und Kommunikation um Listenelemente.
 
+## <a name="august-6-2020"></a>6. August 2020
+
+### <a name="approve-custom-apps"></a>Genehmigen von benutzerdefinierten apps
+
+Genehmigen von benutzerdefinierten apps, die über die APP-Übermittlungs-API von Teams gesendet [Weitere Informationen](../submit-approve-custom-apps.md).
+
 ## <a name="august-3-2020"></a>3. August 2020
 
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Dienste für Teams von Drittanbieter-apps im Microsoft Teams Admin Center erwerben
 
 Teams-Apps können kostenlos installiert werden, und für einige ist es möglich, dass Sie Service Abonnements benötigen, um die vollständige Funktionalität und den Umfang der APP zu erfahren. Diese Dienstabonnements werden als SaaS-Angebote (Software as a Service) bezeichnet, die für den Kauf über AppSource und jetzt über das Microsoft Teams Admin Center zur Verfügung stehen. [Weitere Informationen](../purchase-third-party-apps.md).
 
-## <a name="july-31-2020"></a>31. Juli 2020
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Administratoren können den Schicht basierten Anwesenheitsstatus (bei Schicht-, aus-Schicht) für Ihre Mitarbeiter in der ersten Arbeitsgruppe konfigurieren.
-
-Administratoren können Ihre First-work-Mitarbeiter so konfigurieren, dass Sie auf Schicht basierten Anwesenheitsstatus festgelegte Status: bei UMSCHALT, beschäftigt (kann bei gedrückter Umschalttaste umgeschaltet werden) und aus UMSCHALT.
-[Weitere Informationen](../firstline-workers-quickstart.yml).
-
 ## <a name="july-29-2020"></a>29. Juli 2020
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Verbesserte Verwaltbarkeit mithilfe von Geräte Kennzeichnungsfunktionen
 
 Im Rahmen der verbesserten Verwaltbarkeit veröffentlichen wir die Funktionen zur Gerätekennzeichnung. Damit können IT-Administratoren bestimmte Gerätegruppen mit vom benutzergenerierten Tags gruppieren und Aktionen auf demselben Gerät ausführen. [Weitere Informationen](/../../manage-device-tags.md).
+
+## <a name="july-28-2020"></a>28. Juli 2020
+
+### <a name="create-your-own-teams-template"></a>Erstellen Ihrer eigenen Teams-Vorlage
+
+Sie können jetzt Vorlagen aus der Admin-Konsole verwenden, um eine eigene Teams-Vorlage zu erstellen oder eine Teams-Vorlage aus vorhandenen Vorlagen zu erstellen. [Weitere Informationen](../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="july-20-2020"></a>20. Juli 2020
 
@@ -90,11 +99,23 @@ Administratoren können ausgehende webhooks auf Benutzerebene steuern, indem Sie
 
 Wir haben die Möglichkeit hinzugefügt, ndi zu einer Teams-Besprechung zu aktivieren. Mit ndi können Sie die Audio-und Videoübertragung einer Besprechung mithilfe von Video Produktionstools verwenden. [Weitere Informationen](../use-ndi-in-meetings.md).
 
+## <a name="july-15-2020"></a>15. Juli 2020
+
+### <a name="enable-suggested-replies"></a>Aktivieren von Vorschlägen für Antworten
+
+Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren. [Weitere Informationen](../messaging-policies-in-teams.md)
+
 ## <a name="july-9-2020"></a>9. Juli 2020
 
 ### <a name="voicemail-support-in-call-queues"></a>Voicemail-Unterstützung in Anrufwarteschlangen
 
 Wir haben die Unterstützung für Anrufwarteschlangen zur Verwendung eines freigegebenen Voicemail-Felds hinzugefügt. [Weitere Informationen](../create-a-phone-system-call-queue.md).
+
+## <a name="july-8-2020"></a>8. Juli 2020
+
+### <a name="policy-packaging-batch-assignment"></a>Batch Zuordnung für Richtlinien Pakete
+
+Wir haben die Verwendung von PowerShell zum Stapeln der Zuweisung eines Richtlinienpakets für Benutzer und Gruppen ermöglicht.
 
 ## <a name="july-7-2020"></a>7. Juli 2020
 
@@ -116,7 +137,7 @@ Wir haben die Möglichkeit für automatische Telefonzentralen und eingehende Anr
 
 ### <a name="install-apps-on-behalf-of-others"></a>Installieren von apps im Auftrag anderer Personen
 
-Sie wählen die Apps aus, die standardmäßig für Benutzer installiert werden, wenn Sie Teams starten. [Weitere Informationen](../teams-app-setup-policies.md)
+Sie wählen die Apps aus, die standardmäßig für Benutzer installiert werden, wenn Sie Teams starten. [Weitere Informationen](../teams-app-setup-policies.md).
 
 ## <a name="june-29-2020"></a>29. Juni 2020
 
@@ -124,11 +145,15 @@ Sie wählen die Apps aus, die standardmäßig für Benutzer installiert werden, 
 
 Sofortige Sprachkommunikation über Push-to-Talk.
 
-## <a name="july-15-2020"></a>15. Juli 2020
+## <a name="june-25-2020"></a>25. Juni 2020
 
-### <a name="enable-suggested-replies"></a>Aktivieren von Vorschlägen für Antworten
+### <a name="teams-filter-option"></a>Option "Teams-Filter"
 
-Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren. [Weitere Informationen](../messaging-policies-in-teams.md)
+Wir haben in der Befehlsleiste eine neue Filteroption hinzugefügt, damit Sie bei der Suche nach bestimmten Teams bestimmte Parameter definieren können.
+
+### <a name="users-widgets"></a>Benutzer-Widgets
+
+Wir haben ein neues Widget für Benutzer Zusammenfassung hinzugefügt, das beim Hinzufügen von Teams und Kanälen zur Verfügung steht.
 
 ## <a name="june-21-2020"></a>21. Juni 2020
 

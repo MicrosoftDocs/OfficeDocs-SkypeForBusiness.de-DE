@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel werden Cmdlets erläutert, die Administratoren mehr Kontrolle über die innerhalb und außerhalb eines Unternehmens verwendeten Authentifizierungsmethoden bieten. Administratoren können Authentifizierungsmethoden intern oder extern für Ihr Netzwerk aktivieren oder deaktivieren.
-ms.openlocfilehash: a3f26e0bb29a58b53547083a4410da849c054b03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f9a8c9c8576c07de3158fb2446cb3cb89bac72
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043717"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797453"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planen, die vorversions Authentifizierungsmethoden intern und extern für Ihr Netzwerk zu deaktivieren.
 
@@ -97,6 +97,8 @@ Es kann ratsam sein, eine Get-for diese Werte zu tun, und Screenshot oder Aufzei
 > 
 > Wenn Sie den BlockWindowsAuthExternally-Parameter verwenden, um NTLM extern zu blockieren, beachten Sie, dass dies auch intern NTLM für den SIP-Kanal blockiert. Skype for Business-und lync-Clients, die neuer als 2010 sind, können sich jedoch weiterhin anmelden, da Sie NTLM über HTTP für SignIn verwenden und sich dann ein Zertifikat für die Anmeldung über SIP holen. Clients, die älter als 2010 sind, können sich in diesem Fall jedoch nicht intern anmelden, und Sie sollten diese Anwendungen möglicherweise aktualisieren, damit Ihre Benutzer die sichere Funktionalität wieder aufnehmen können.
 
+> [!IMPORTANT] 
+> Einige der Skype for Business-Webanwendungen unterstützen MA nicht. Wenn Sie also das BlockWindowsAuthExternallyAndInternally-Szenario verwenden, können Sie nicht auf diese Anwendungen zugreifen. Anwendungen ohne MA-Unterstützung sind der Webplaner, die Einwahlseite, Skype for Business Systemsteuerung (CSCP) und die Seite Einstellungen für Reaktionsgruppen. 
 
 ## <a name="links"></a>Links 
 - Weitere PowerShell-Informationen:

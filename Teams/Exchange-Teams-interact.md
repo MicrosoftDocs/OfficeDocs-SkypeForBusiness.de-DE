@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 52f40e9eacc75c15720d5d908709c5840d9474b3
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552011"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803787"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -30,27 +30,24 @@ ms.locfileid: "46552011"
 
 Für die vollständige Team Erfahrung sollte jeder Benutzer für die Erstellung von Exchange Online, SharePoint Online und Microsoft 365-Gruppen aktiviert sein.
 
-Exchange-Postfächer der Benutzer können online oder lokal gehostet werden. Für die Integration in lokalen Exchange ist eine Exchange-hybridbereitstellung erforderlich. Weitere Informationen zum Einrichten einer hybridbereitstellung finden Sie unter [Exchange Server-hybridbereitstellungen](https://docs.microsoft.com/exchange/exchange-hybrid).
+Exchange-Postfächer der Benutzer können online oder lokal gehostet werden. Für die Integration in lokale Umgebungen wird empfohlen, dass Sie über eine vollständige klassische Hybrid Bereitstellung von Exchange verfügen. Weitere Informationen zum Einrichten einer hybridbereitstellung finden Sie unter [Exchange Server-hybridbereitstellungen](https://docs.microsoft.com/exchange/exchange-hybrid).
 
-Benutzer, die auf Exchange Online oder dedizierten Exchange-vNext erhielten gehostet werden, können alle Features von Teams verwenden. Sie können Teams und Kanäle erstellen und daran teilnehmen, Besprechungen erstellen und anzeigen, Anrufe tätigen und chatten, Benutzerprofil Bilder ändern (sofern dies von der Postfachrichtlinie für Outlook in der WebPost Fach Richtlinie gestattet wird) und Connectors, Registerkarten und Bots hinzufügen und konfigurieren.
+Benutzer, die auf Exchange Online oder dedizierten Exchange-vNext erhielten gehostet werden, können alle Features von Teams verwenden. Sie können Teams und Kanäle erstellen und daran teilnehmen, Besprechungen erstellen und anzeigen, Anrufe tätigen und chatten, Benutzerprofil Bilder ändern (sofern dies von der Postfachrichtlinie für Outlook in der WebPost Fach Richtlinie gestattet wird) und Connectors, Registerkarten und Bots hinzufügen und konfigurieren. Eine umfassendere Liste der verfügbaren Features finden Sie in der nachstehenden Tabelle.
 
 Benutzer, die auf Exchange Online Dedicated (Legacy) gehostet werden, müssen mit Azure Active Directory auf Microsoft 365 oder Office 365 synchronisiert werden. Sie können Teams und Kanäle erstellen und daran teilnehmen, Registerkarten und Bots hinzufügen und konfigurieren sowie die Chat-und Anruffunktionen nutzen. Sie können jedoch keine Profil Bilder ändern, Besprechungen verwalten, auf Outlook-Kontakte zugreifen oder Connectors verwalten.
 
-Benutzer mit lokal gehosteten Postfächern müssen mit Azure Active Directory synchronisiert werden. Sie können alle Funktionen des obigen Szenarios nutzen, darüber hinaus können Sie auch das Bild des Benutzerprofils ändern (sofern dies von der Outlook-Postfachrichtlinie ermöglicht wird), und Besprechungen verwalten, wobei Exchange Server 2016 (Kumulatives Update 3) oder höher ausgeführt wird, lokal mit OAuth konfiguriert ist (vorzugsweise über den Exchange-Hybrid Konfigurationsassistenten), wie unter Konfigurieren der [OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)beschrieben. Wenn Sie die Kalender Delegierung für diese Benutzer aktivieren möchten, müssen Sie auch die Schritte 2-3 ausführen, wie unter [Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)beschrieben ist. mit den folgenden Schritten wird der Team Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stell Vertretungs Berechtigungen bereitgestellt.
+Benutzer mit lokal gehosteten Postfächern müssen mit Azure Active Directory synchronisiert werden. Sie können alle Features des obigen Szenarios verwenden, aber darüber hinaus können Sie Besprechungen verwalten, wobei Exchange Server 2016 (Kumulatives Update 3) oder höher ausgeführt wird, lokal mit konfigurierten OAuth (vorzugsweise über den Exchange-Assistenten für die Hybrid Konfiguration), wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)beschrieben wird. Wenn Sie die Kalender Delegierung für diese Benutzer aktivieren möchten, müssen Sie auch die Schritte 2-3 ausführen, wie unter [Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)beschrieben ist. mit den folgenden Schritten wird der Team Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stell Vertretungs Berechtigungen bereitgestellt.
 
 Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügbarkeit von Features, die auf der Exchange-Umgebung basiert.
-
-> [!NOTE]
-> Die Funktionsintegration zwischen lokalen Exchange und Teams erfordert eine Exchange-hybridbereitstellung. Diese Anforderung gilt zusätzlich zu den versionsspezifischen Anforderungen, die in einigen Features in der folgenden Tabelle genannt werden.
 
 **Unterstützte Aktionen:**
 
 | Benutzerpostfach ist gehostet in:                                        | eDiscovery       | Rechtliche &nbsp; Aufbewahrung    | Aufbewahrungs  | Team-und Kanal-Mgmt | Erstellen und Anzeigen von Besprechungen in Teams | Benutzerprofilbild bearbeiten | Anrufprotokoll | Verwalten von Kontakten | Zugreifen auf Outlook-Kontakte | Voicemail  | Connectors hinzufügen und konfigurieren | Registerkarten hinzufügen und konfigurieren | Bots hinzufügen und konfigurieren |
 |---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja         | Ja                    | Ja                                | Ja<sup>7</sup>             | Ja           | Ja              | Ja <sup>6</sup>        | Ja         | Ja                           | Ja                     | Ja                     |
-| **Exchange Online Dedicated vNext**                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja         | Ja                    | Ja                                | Ja<sup>7</sup>             | Ja           | Ja              | Ja <sup>6</sup>        | Ja         | Ja                           | Ja                     | Ja                    |
-| **Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)  | Ja <sup>1</sup> | Ja <sup>1, 2</sup> | Ja <sup> 3 | Ja                   | Nein                                | Nein                          | Ja          | Ja             | Nein                      | Ja <sup> 4 | Ja <sup> 5                   | Ja                     | Ja                     |
-| **Lokales Exchange lokal** (Synchronisierung mit Azure AD & OAuth-Konfiguration erforderlich) | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja <sup> 3 | Ja                   | Ja (Exchange 2016 CU3 +)          | Nein                          | Ja          | Ja             | Nein                      | Ja <sup> 4 | Ja <sup> 5                   | Ja                     | Ja                     |
+| **Exchange Online**                                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja        | Ja                   | Ja                               | Ja<sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja        | Ja                          | Ja                    | Ja                    |
+| **Exchange Online Dedicated vNext**                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja        | Ja                   | Ja                               | Ja<sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja        | Ja                          | Ja                    | Ja                    |
+| **Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)  | Ja <sup>1</sup> | Ja <sup>1, 2</sup> | Ja <sup> 3 | Ja                   | Nein                                | Nein                          | Ja          | Ja             | Nein                      | Ja <sup> 4 | Ja <sup> 5                   | Ja                    | Ja                    |
+| **Lokales Exchange lokal** (Synchronisierung mit Azure AD & OAuth-Konfiguration erforderlich) | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja <sup> 3 | Ja                   | Ja (Exchange 2016 CU3 +)          | Nein                          | Ja          | Ja             | Nein                      | Ja <sup> 4 | Ja <sup> 5                   | Ja                    | Ja                    |
 
 <sup>1</sup> eDiscovery und rechtliche Aufbewahrungsmöglichkeiten für Compliance auf Kanal Nachrichten werden für alle Hosting-Optionen unterstützt.
 
@@ -76,10 +73,10 @@ Microsoft Teams arbeitet mit verschiedenen Microsoft 365-und Office 365-Diensten
 
 - Benutzer müssen für die Erstellung von Microsoft 365-Gruppen aktiviert sein, damit Sie Teams in Microsoft Teams erstellen können.
 
-- Damit Microsoft Teams mit Exchange lokal arbeiten können, müssen Sie das neue Exchange OAuth-Authentifizierungsprotokoll konfigurieren, vorzugsweise durch Ausführen des Exchange-Hybrid-Assistenten, wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)beschrieben. Damit Benutzer mit Exchange lokales Postfach Teams-Besprechungen im Auftrag eines anderen Benutzers planen können, müssen Sie auch die Schritte 2-3 ausführen, wie unter [Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)beschrieben ist.
+- Damit Microsoft Teams mit Exchange lokal arbeiten können, müssen Sie das neue Exchange OAuth-Authentifizierungsprotokoll konfigurieren, vorzugsweise durch Ausführen des Exchange-Hybrid-Assistenten, wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)beschrieben. Damit der Kalender Zugriff für Ihre lokalen Postfächer funktioniert, benötigt Teams Zugriff auf Ihre lokale Exchange-Organisation für AutoErmittlung und EWS, und Postfächer sollten sich auf Exchange 2016 CU3 oder höher befinden. Damit Benutzer mit lokalen Exchange-Postfächern Teams-Besprechungen im Auftrag eines anderen Benutzers planen können, müssen Sie auch die Schritte 2 und 3 ausführen, wie unter [Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)beschrieben.
 
 > [!NOTE]
-> Das Outlook Teams-Add-in kann zum Planen einer Teambesprechung für Postfächer verwendet werden, die in Exchange lokal gehostet werden. Das Planen einer Teambesprechung im Auftrag eines anderen Benutzers mit lokalem Exchange-Standort erfordert jedoch Exchange 2013 CU9 und höher und das neue Exchange OAuth-Authentifizierungsprotokoll. Sowohl Stellvertretung als auch delegator müssen ein Postfach in Exchange lokal aufweisen.
+> Das Outlook Teams-Add-in kann zum Planen einer Teambesprechung für Postfächer verwendet werden, die in Exchange lokal gehostet werden. Das Planen einer Teambesprechung im Auftrag eines anderen Benutzers mit lokalem Exchange-Standort erfordert jedoch Exchange 2016 CU3 und höher und das neue Exchange OAuth-Authentifizierungsprotokoll. Sowohl Stellvertretung als auch delegator müssen ein Postfach in Exchange lokal aufweisen.
 
 > [!NOTE]
 > Für die Integration von Exchange lokal und Teams muss die erforderliche Lizenz für den Aad-synchronisierten Benutzer zugewiesen werden.
@@ -108,7 +105,7 @@ Wenn Benutzer die Möglichkeit haben möchten, eine Teambesprechung mithilfe von
 
 - Sowohl Stellvertretung als auch delegator müssen über ein Postfach auf dem Exchange-Server verfügen.
 
-- Automatisch entdecken (automatisch) v2 ist erforderlich, damit der Team Dienst eine nicht authentifizierte Ermittlung des Postfachs des Benutzers durchführen kann. Autod v2 wird in Exchange 2013 CU19 + unterstützt.
+- Automatisch entdecken (automatisch) v2 ist erforderlich, damit der Team Dienst eine nicht authentifizierte Ermittlung des Postfachs des Benutzers durchführen kann. Autod v2 wird in Exchange 2016 CU3 + unterstützt.
 
 - Der Exchange-Server muss mit dem Auth-Server für EVOSTS konfiguriert sein. Diese wird automatisch als Teil des Hybrid-Assistenten für Exchange (HWA) konfiguriert.
 
@@ -121,3 +118,8 @@ Wenn Benutzer die Möglichkeit haben möchten, eine Teambesprechung mithilfe von
   - Zuordnung der Exchange-Verwaltungsrolle von **UserApplication**
 
 Um die Integration abzuschließen, führen Sie die Schritte 1-3 in [wie konfigurieren Sie die OAuth-Authentifizierung zwischen Ihren lokalen Exchange-und Exchange Online-Organisationen?](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) Beachten Sie, dass Schritt 2 eine Rollenzuweisung für ArchiveApplication enthält, die für die Delegierung nicht erforderlich ist, aber zum Archivieren des SFB-Online Chats in einem Exchange-Postfach dient.
+
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+Eine vollständige Anleitung zur Problembehandlung für das Thema finden Sie unter [Problembehandlung von Microsoft Teams und Exchange Server-Interaktions Problemen](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).

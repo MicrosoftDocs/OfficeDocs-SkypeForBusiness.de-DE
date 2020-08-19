@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie den Bericht zur Live-Ereignis Verwendung
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9b25fa7c476c9dd3fe347af26fc13742b41d009
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c093464c67fed18a5c5528929f006b7931fd1d9b
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583764"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803957"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams Live-Ereignis Verwendungsbericht
 
@@ -44,7 +44,7 @@ Der Bericht "Live-Ereignis Verwendung" von Teams im Microsoft Teams Admin Center
 |**1**   |Der Live-Ereignisbericht "Teams" kann für Trends in den letzten 7 Tagen, 28 Tagen oder einem von Ihnen festgelegten benutzerdefinierten Datumsbereich angezeigt werden. |
 |**2**   |Jeder Bericht hat ein Datum, zu dem er generiert wurde. Der Bericht reflektiert nahezu Echtzeitaktivitäten, wenn die Seite aktualisiert wird. |
 |**3**   |<ul><li>Die X-Achse im Diagramm stellt den ausgewählten Datumsbereich für den Bericht dar.</li> <li> Die Y-Achse entspricht der Gesamtanzahl der Ansichten.</li> </ul>Zeigen Sie mit der Maus auf den Punkt an einem bestimmten Datum, um die Anzahl der Ansichten für alle Live Ereignisse an diesem Datum anzuzeigen.|
-|**4**   |Die Tabelle enthält eine Zusammenfassung der einzelnen Live Ereignisse. <ul><li>**Event** ist der Anzeigename des Live-Ereignisses. Klicken Sie auf den Ereignisnamen, um [Weitere Details](#view-event-details) zum Ereignis abzurufen. </li> <li>Die **Startzeit** bezieht sich auf das Anfangsdatum und die Startzeit des Ereignisses.</li> <li>Der **Ereignis Status** zeigt an, ob das Ereignis stattgefunden hat.  </li><li>**Organizer** ist der Name des Ereignis Organisators.</li> <li>**Referenten** sind die Namen der Veranstaltungs Referenten.</li><li>**Hersteller** sind die Namen der Veranstaltungs Hersteller.</li><li>**Ansichten** ist die Anzahl der eindeutigen Ansichten.</li><li>**Aufzeichnung** zeigt an, ob die Aufzeichnungseinstellung aktiviert oder deaktiviert ist.</li><li>**Produktionstyp** zeigt an, ob das Ereignis in Teams oder von einer externen Anwendung oder einem Gerät erzeugt wird.</li></li> </ul>Beachten Sie, dass der Benutzername in der Tabelle als "--" angezeigt wird, wenn ein Benutzerkonto in Azure AD nicht mehr vorhanden ist. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
+|**4**   |Die Tabelle enthält eine Zusammenfassung der einzelnen Live Ereignisse. <ul><li>**Event** ist der Anzeigename des Live-Ereignisses. Klicken Sie auf den Ereignisnamen, um [Weitere Details](#view-event-details) zum Ereignis abzurufen. </li> <li>Die **Startzeit** bezieht sich auf das Anfangsdatum und die Startzeit des Ereignisses.</li> <li>Der **Ereignis Status** zeigt an, ob das Ereignis stattgefunden hat.  </li><li>**Organizer** ist der Name des Ereignis Organisators.</li> <li>**Referenten** sind die Namen der Veranstaltungs Referenten.</li><li>**Hersteller** sind die Namen der Veranstaltungs Hersteller.</li><li>**Ansichten** ist die Anzahl der eindeutigen Ansichten nach Abschluss des Ereignisses.</li><li>**Aufzeichnung** zeigt an, ob die Aufzeichnungseinstellung aktiviert oder deaktiviert ist.</li><li>**Produktionstyp** zeigt an, ob das Ereignis in Teams oder von einer externen Anwendung oder einem Gerät erzeugt wird.</li></li> </ul>Beachten Sie, dass der Benutzername in der Tabelle als "--" angezeigt wird, wenn ein Benutzerkonto in Azure AD nicht mehr vorhanden ist. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**5**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 
 ## <a name="notes"></a>Hinweise

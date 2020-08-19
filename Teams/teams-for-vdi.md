@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778067"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803992"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -178,9 +178,9 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
 
         Bei der nächsten interaktiven Anmeldesitzung startet Teams und fordert Anmeldeinformationen an.
 
-    > [!NOTE]
-    > In diesen Beispielen wird auch der **ALLUSERS = 1** -Parameter verwendet. Wenn Sie diesen Parameter festlegen, wird das Installationsprogramm für die computerweite Installation von Teams unter "Programme und Features" in der Systemsteuerung sowie unter "Apps und Features" in den Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen verfügen.
-    Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1**zu verstehen. Der **ALLUSERS = 1** -Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, während der **alluser = 1** -Parameter nur in VDI-Umgebungen verwendet wird, um eine pro-Computer-Installation festzulegen.
+        > [!NOTE]
+        > In diesen Beispielen wird auch der **ALLUSERS = 1** -Parameter verwendet. Wenn Sie diesen Parameter festlegen, wird das Installationsprogramm für die computerweite Installation von Teams unter "Programme und Features" in der Systemsteuerung sowie unter "Apps und Features" in den Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen verfügen.
+        Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1**zu verstehen. Der **ALLUSERS = 1** -Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, während der **alluser = 1** -Parameter nur in VDI-Umgebungen verwendet wird, um eine pro-Computer-Installation festzulegen.
 
 3. Deinstallieren Sie die MSI-Karte aus der VDI-VM.
   
@@ -346,6 +346,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Satz-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
+## <a name="control-fallback-mode-in-teams"></a>Steuern des Fall Back Modus in Teams
+
+Wenn Benutzer eine Verbindung mit einem nicht unterstützten Endpunkt herstellen, befinden sich die Benutzer im Fallbackmodus, in dem AV nicht optimiert ist. Sie können den Fall Back Modus deaktivieren oder aktivieren, indem Sie einen der folgenden DWORD-Registrierungswerte festlegen:
+
+- HKEY_LOCAL_MACHINE \software\microsoft\teams\disablefallback
+- HKEY_CURRENT_USER \software\microsoft\office\teams\disablefallback
+
+Um den Fall Back Modus zu deaktivieren, setzen Sie den Wert auf **1**. Wenn Sie nur Audio aktivieren möchten, setzen Sie den Wert auf **2**. Wenn der Wert nicht vorhanden ist oder auf **0** (null) eingestellt ist, ist der Fall Back Modus aktiviert.
+
+Dieses Feature ist in den Teams Version 1.3.00.13565 und höher verfügbar.
+
 ## <a name="known-issues-and-limitations"></a>Bekannte Probleme und Einschränkungen
 
 ### <a name="client-deployment-installation-and-setup"></a>Client Bereitstellung,-Installation und-Setup
@@ -391,7 +402,7 @@ Informationen zu bekannten Problemen, die nicht mit VDI in Verbindung stehen, fi
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-#### <a name="troubleshoot-citrix-components"></a>Problembehandlung bei Citrix-Komponenten
+### <a name="troubleshoot-citrix-components"></a>Problembehandlung bei Citrix-Komponenten
 
 Informationen zur Behebung von Problemen mit VDA und der Problembehandlung finden Sie auf [dieser Citrix-Website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 

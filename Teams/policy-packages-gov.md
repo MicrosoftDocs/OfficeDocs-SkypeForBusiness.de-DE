@@ -1,5 +1,5 @@
 ---
-title: Teams-Richtlinien Pakete für Healthcare
+title: Teams-Richtlinien Pakete für Behörden
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Teams-Richtlinien Pakete für Ihre Gesundheitsorganisation verwenden und verwalten.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: Hier erfahren Sie, wie Sie Teamrichtlinien Pakete für Ihre Regierungsorganisation verwenden und verwalten.
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803971"
+ms.locfileid: "46804023"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>Teams-Richtlinien Pakete für Healthcare
+# <a name="teams-policy-packages-for-government"></a>Teams-Richtlinien Pakete für Behörden
+
+> [!NOTE]
+> Richtlinien Pakete sind derzeit in den Microsoft 365 Government gcc-oder DoD-Bereitstellungen nicht verfügbar.
 
 ## <a name="overview"></a>Übersicht
 
@@ -38,19 +41,19 @@ Richtlinien Pakete definieren für die folgenden Richtlinien je nach Paket:
 - App-Setup
 - Liveereignisse
 
-Teams umfasst derzeit die folgenden Gesundheitsrichtlinien Pakete.
+Teams umfasst derzeit die folgenden Richtlinien Pakete für Behörden.
 
 |Paket Name im Microsoft Teams Admin Center|Am besten geeignet für|Beschreibung |
 |---------|---------|---------|
-|Klinischer Mitarbeiter im Gesundheitswesen  |Klinische Mitarbeiter in Ihrer Gesundheitsorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die klinischen Mitarbeitern wie registrierten Krankenschwestern, Krankenschwestern, Ärzten und Sozialarbeitern vollen Zugriff auf Chats, Anrufe, Schicht Verwaltung und Besprechungen ermöglichen. |
-|Healthcare Information Worker  |Information Worker in Ihrer Gesundheitsorganisation |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die Information Worker wie IT-Personal, Informatik Personal, Finanz Personal und Compliance Officer, vollständigen Zugriff auf Chats, Anrufe und Besprechungen bereitstellen.|
-|Patientenzimmer im Gesundheitswesen  |Patientenraum Geräte|Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patienten Räume in Ihrer Gesundheitsorganisation gelten.|
+|Beauftragter für öffentliche Sicherheit  |Beauftragte für öffentliche Sicherheit in ihrer Regierungsorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten. |
+|First-Manager  |First-Manager in ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf First-Manager in Ihrer Organisation an.|
+|First-Worker  |Erste Arbeitskräfte in ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Mitarbeiter in Ihrer Organisation in erster Linie an.|
 
-![Screenshot der Gesundheitsrichtlinien Pakete](media/policy-packages-healthcare.png)
+![Screenshot der Gesundheitsrichtlinien Pakete](media/policy-packages-gov.png)
 
-Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, einfach identifizieren können. Wenn Sie beispielsweise dem Klinikpersonal in Ihrer Organisation das Clinical Worker-Richtlinienpaket für medizinische Versorgung zuweisen, wird eine Richtlinie mit dem Namen Healthcare_ClinicalWorker für jede Richtlinie im Paket erstellt.
+Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, einfach identifizieren können. Wenn Sie beispielsweise Benutzern in Ihrer Organisation das Richtlinienpaket für das öffentliche Sicherheitsbeauftragte zuweisen, wird eine Richtlinie mit dem Namen PublicSafety_Officer für jede Richtlinie im Paket erstellt.
 
-![Screenshot der Richtlinien im Healthcare Clinical Worker-Paket](media/policy-packages-healthcare-clinical-worker.png)
+![Screenshot der Richtlinien im Healthcare Clinical Worker-Paket](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Verwalten von Richtlinienpaketen
 
@@ -72,7 +75,7 @@ Weisen Sie das Richtlinienpaket Benutzern zu. Wenn Sie einem oder mehreren Benut
 
 Eine schrittweise Anleitung zum Zuweisen eines Richtlinienpakets mit dem Microsoft Teams Admin Center oder PowerShell finden Sie unter [Zuweisen eines Richtlinienpakets](manage-policy-packages.md#assign-a-policy-package).
 
-![Screenshot: Zuweisen eines Richtlinienpakets im Admin Center](media/policy-packages-healthcare-assign.png)
+![Screenshot: Zuweisen eines Richtlinienpakets im Admin Center](media/policy-packages-gov-assign.png)
 
 Wenn einem Benutzer eine Richtlinie zugewiesen ist und Sie später eine andere Richtlinie zuweisen, hat die letzte Aufgabe Vorrang.
 
@@ -80,4 +83,4 @@ Wenn einem Benutzer eine Richtlinie zugewiesen ist und Sie später eine andere R
 
 [Verwalten von Richtlinienpaketen in Teams](manage-policy-packages.md)
 
-[Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)
+[Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md) 
