@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen Session Border Controller (SBC) für die Bereitstellung mehrerer Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber konfigurieren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572360"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814241"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -81,7 +81,7 @@ Unterdomänen **müssen** mit dem FQDN-Namen des Trunks übereinstimmen, der fü
 
 Wenn ein Anruf an der Microsoft 365-oder Office 365-direkt Routing Schnittstelle eingeht, verwendet die Schnittstelle die Kontakt Kopfzeile, um den Mandanten zu finden, in dem der Benutzer nachgeschlagen werden sollte. Bei der direkten Weiterleitung wird keine telefonnummernsuche auf der Einladung verwendet, da einige Kunden möglicherweise nicht-DID-Nummern haben, die sich in mehreren Mandanten überlappen können. Daher ist der FQDN-Name in der Kopfzeile des Kontakts erforderlich, um den genauen Mandanten zu identifizieren, um den Benutzer anhand der Telefonnummer nachschlagen zu können.
 
-*Weitere Informationen zum Erstellen von Domänennamen in Microsoft 365 oder Office 365-Organisationen finden Sie [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Weitere Informationen zum Erstellen von Domänennamen in Microsoft 365 oder Office 365-Organisationen finden Sie  [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Das folgende Diagramm fasst die Anforderungen für Basisdomänen, Unterdomänen und Kontakt Kopfzeilen zusammen.
 
@@ -137,7 +137,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
 ### <a name="activate-the-domain-name"></a>Aktivieren des Domänennamens
 
-Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen von E1, E3 oder E5 lizenzierten Benutzer hinzufügen und dem FQDN-Teil der SIP-Adresse, die der erstellten Basisdomäne entspricht, eine SIP-Adresse zuweisen. 
+Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen von E1, E3 oder E5 lizenzierten Benutzer hinzufügen und dem FQDN-Teil der SIP-Adresse, die der erstellten Basisdomäne entspricht, eine SIP-Adresse zuweisen. Die Lizenz kann nach der Domänen Aktivierung widerrufen werden (es kann bis zu 24 Stunden dauern).
 
 *Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365-oder Office 365-Organisationen finden Sie [unter Hilfe zu Microsoft 365-oder Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
@@ -199,7 +199,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
 ### <a name="activate-the-subdomain-name"></a>Aktivieren des Unterdomänen namens
 
-Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, die der erstellten Unterdomäne im Kundenmandanten entspricht.
+Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, die der erstellten Unterdomäne im Kundenmandanten entspricht. Die Lizenz kann nach der Aktivierung der Unterdomäne vom Benutzer widerrufen werden (es kann bis zu 24 Stunden dauern).
 
 *Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365-oder Office 365-Organisationen finden Sie [unter Hilfe zu Microsoft 365-oder Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085241"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814101"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -120,6 +120,7 @@ Sie können diese Richtlinie nur auf Benutzer anwenden, die sich im Modus "Insel
 
 Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwickelt. Beachten Sie daher Folgendes:
 
+- Das Add-in "Teams-Besprechung" erfordert ein Exchange-Postfach für den primären Benutzer, der die Besprechung plant. Stellen Sie sicher, dass in Ihrem Outlook-Profil mindestens ein Exchange-Postfach konfiguriert ist, und verwenden Sie es, um Teams-Besprechungen mit dem Add-in zu planen. Informationen zu Exchange-Anforderungen finden Sie unter [Interaktion zwischen Exchange und Teams](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
 - Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden.
 - Das Add-in funktioniert nicht, wenn sich ein Authentifizierungs Proxy im Netzwerkpfad der PC-und Team Dienste des Benutzers befindet.
 - Benutzer können keine Liveereignisse von Outlook aus planen. Wechseln Sie zu Microsoft Teams, um Liveereignisse zu planen. Weitere Informationen finden Sie unter [Was sind Microsoft Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md).

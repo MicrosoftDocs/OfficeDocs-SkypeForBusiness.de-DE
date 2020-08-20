@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie mehr über Messagingrichtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0a548eee32fc196157b6a363dd0427b187e52112
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583292"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814181"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
 <!--- Add zone marker here--->
 
-Nachrichtenrichtlinien werden genutzt, um zu steuern, welche Chat- und Messagingfunktionen den Benutzern in Microsoft Teams zur Verfügung stehen. Sie können die Global (org-Wide Standard)-Richtlinie verwenden, die automatisch erstellt wird, oder benutzerdefinierte Messagingrichtlinien erstellen und zuweisen.
+Mithilfe von Nachrichtenrichtlinien wird gesteuert, welche Chat-und Kanal-Messaging Features [Benutzern (Besitzern und Mitgliedern)](assign-roles-permissions.md) in Microsoft Teams zur Verfügung stehen. Sie können die Global (org-Wide Standard)-Richtlinie verwenden, die automatisch erstellt wird, oder benutzerdefinierte Messagingrichtlinien erstellen und zuweisen.
 
 Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und zuweisen, um die gewünschten Features zu aktivieren oder zu deaktivieren.
 
@@ -112,3 +112,4 @@ Nachfolgend sind die Messagingrichtlinien Einstellungen aufgeführt, die Sie kon
 ### <a name="related-topics"></a>Verwandte Themen
 
 - [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)
+- [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](assign-roles-permissions.md)

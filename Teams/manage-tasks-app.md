@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 48465336e0c3657b8bfd1d3adb1eb69c239ecdb6
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042492"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814231"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Aufgaben-app für Ihre Organisation in Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "44042492"
 
 ## <a name="overview-of-tasks"></a>Übersicht über Aufgaben
 
-Die Aufgaben-app bietet Microsoft Teams eine zusammenhängende Aufgabenverwaltung, die die von [Microsoft](https://todo.microsoft.com/tasks/) bereitgestellten persönlichen Aufgaben und Team Aufgaben integriert, die von Planner an einem zentralen Ort unterstützt werden. Benutzer können auf Aufgaben als APP auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. Mit den **persönlichen Listen** und **Team Listen** in Aufgaben können Benutzer alle Ihre persönlichen und Team Aufgaben anzeigen und verwalten sowie deren Arbeit priorisieren. Aufgaben steht in den Desktop-, Web-und mobilen Clients von Teams zur Verfügung. 
+Die Aufgaben-app bietet Microsoft Teams eine zusammenhängende Aufgabenverwaltung, in der einzelne von [Microsoft](https://todo.microsoft.com/tasks/) bereitgestellten Aufgaben und Team Aufgaben integriert werden, die von Planner an einem zentralen Ort unterstützt werden. Benutzer können auf Aufgaben als APP auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. **Meine Aufgaben** und **freigegebene Pläne** in Aufgaben ermöglichen es Benutzern, alle Ihre individuellen und Team Aufgaben anzuzeigen und zu verwalten und deren Arbeit zu priorisieren. Aufgaben steht in den Desktop-, Web-und mobilen Clients von Teams zur Verfügung. 
 
 > [!NOTE]
 > Wenn wir die Aufgaben in den Microsoft Teams-Desktop Clients ausführen, wird der App-Name zunächst als **Planner** für die Benutzer angezeigt. Der Name wechselt dann temporär in **Aufgaben nach Planner und zu erledigen**, und später wird er in **Aufgaben**umbenannt. Auf mobilen Teams werden die Benutzer immer den Namen der App als **Aufgaben**sehen. Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzeroberfläche geben, nachdem die Desktopumgebung verfügbar ist.
@@ -39,13 +39,13 @@ Für Unternehmen, die die Aufgabenverwaltung für First-work-worker rationalisie
 
 ## <a name="what-you-need-to-know-about-tasks"></a>Was Sie über Aufgaben wissen müssen
 
-Aufgaben steht als APP und als Registerkarte in einem Kanal zur Verfügung. Beachten Sie, dass die APP sowohl persönliche Aufgaben von Aufgaben als auch Team Aufgaben aus Planner umfasst, während auf der Registerkarte nur Team Aufgaben angezeigt werden.
+Aufgaben steht als APP und als Registerkarte in einem Kanal zur Verfügung. Beachten Sie, dass die APP sowohl einzelne Aufgaben von Aufgaben als auch Team Aufgaben aus Planner umfasst, während auf der Registerkarte nur Team Aufgaben angezeigt werden.
 
 Mit Aufgaben erhalten Benutzer eine Desktop-, Web-und mobil Funkfunktionalität. Wenn Aufgaben auf dem Desktop Client von Teams installiert sind, werden Sie auch von den Benutzern in ihren Teams für Web-und Mobile Clients angezeigt. Die Ausnahme sind Gastbenutzer. Es ist wichtig zu wissen, dass Gäste über den mobilen Team-Client nur auf Aufgaben als App zugreifen können. Den Gästen werden die Registerkarten Aufgaben auf den Desktop-und Webclients von Teams angezeigt.
 
-Persönliche Listen zeigen die einzelnen Aufgaben eines Benutzers an. Team Listen zeigen Aufgaben an, an denen das gesamte Team arbeitet, und umfasst alle Aufgabenlisten, die einem Kanal als Registerkarte Aufgaben hinzugefügt wurden. Beachten Sie Folgendes:
+**Meine Aufgaben** zeigt die einzelnen Aufgaben eines Benutzers an. **Freigegebene Pläne** zeigen Aufgaben an, an denen das gesamte Team arbeitet, und umfasst alle Aufgabenlisten, die einem Kanal als Registerkarte Aufgaben hinzugefügt werden. Beachten Sie Folgendes:
 
-- Persönliche Listen, die ein Benutzer in der Aufgaben-App erstellt, werden auch angezeigt, um Clients für diesen Benutzer zu erledigen. In ähnlicher Weise werden die Aufgabenlisten, die ein Benutzer erstellt, in den Aufgaben für diesen Benutzer in den persönlichen Listen angezeigt. Das gleiche gilt für einzelne Aufgaben.
+- Aufgabenlisten, die ein Benutzer in der Aufgaben-App erstellt, werden auch angezeigt, um Clients für diesen Benutzer zu erledigen. In ähnlicher Weise werden Aufgabenlisten, die ein Benutzer erstellt, in Aufgaben für diesen Benutzer in **meinen Aufgaben** angezeigt. Das gleiche gilt für einzelne Aufgaben.
 
 - Die Registerkarte Aufgaben, die einem Kanal hinzugefügt wird, wird auch in Planner-Clients angezeigt. Wenn ein Benutzer einen Plan in Planner erstellt, wird er in der App "Aufgaben" oder "Planner" nicht angezeigt, es sei denn, er wird einem Kanal als Registerkarte hinzugefügt. Wenn ein Benutzer eine neue Registerkarte "Aufgaben" hinzufügt, kann er eine neue Liste oder einen neuen Plan erstellen oder eine vorhandene auswählen.
 
@@ -70,13 +70,15 @@ Wenn Sie bestimmte Benutzer in Ihrer Organisation für die Verwendung von Aufgab
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Verwenden einer APP-Setup Richtlinie zum Anheften von Aufgaben an Teams
 
-Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die apps, die Sie in einer Richtlinie festlegen, werden an&mdash;die APP-Leiste angeheftet, die sich auf der Seite des Teams-Desktop Clients und am unteren&mdash;Rand der mobilen Teams-Clients befindet, auf denen Benutzer schnell und einfach darauf zugreifen können.
+Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die apps, die Sie in einer Richtlinie festlegen, werden an die APP-Leiste angeheftet, &mdash; die sich auf der Seite des Teams-Desktop Clients und am unteren Rand der mobilen Teams-Clients befindet, auf &mdash; denen Benutzer schnell und einfach darauf zugreifen können.
 
 Wenn Sie die Aufgaben-app für Ihre Benutzer anheften möchten, können Sie die globale (org-Wide Standard)-Richtlinie bearbeiten oder eine benutzerdefinierte App-Setup Richtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Setup Richtlinien in Teams](teams-app-setup-policies.md).
 
-### <a name="hide-users-personal-lists-if-you-dont-want-users-to-see-them"></a>Persönliche Listen der Benutzer ausblenden, wenn Sie nicht möchten, dass Benutzer Sie sehen 
+### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Die Aufgaben eines Benutzers sind sichtbar, wenn der Benutzer für Exchange Online lizenziert ist
 
-Wenn Sie nicht möchten, dass Benutzer persönliche Listen sehen, können Sie Sie ausblenden. Entfernen Sie dazu [die Exchange Online-Lizenz des Benutzers](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Beachten Sie, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz nicht mehr auf sein Postfach zugreifen kann. Postfachdaten werden 30 Tage lang aufbewahrt, nach denen die Daten entfernt werden und nicht wiederhergestellt werden können, es sei denn, das Postfach wird [in einem in-situ-Speicher oder in einem Streit](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)beizulegenden Haltebereich platziert.
+Wenn Sie nicht möchten, dass ein Benutzer **Meine Aufgaben**sehen kann, können Sie ihn ausblenden. Entfernen Sie dazu [die Exchange Online-Lizenz des Benutzers](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz nicht mehr auf sein Postfach zugreifen kann.  Postfachdaten werden 30 Tage lang aufbewahrt, nach denen die Daten entfernt werden und nicht wiederhergestellt werden können, es sei denn, das Postfach wird [in einem in-situ-Speicher oder in einem Streit](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)beizulegenden Haltebereich platziert.
+
+Wir empfehlen dies nicht für Information Worker, aber es gibt möglicherweise einige Szenarien, in denen dies zutreffen könnte, beispielsweise für Mitarbeiter von First-work, die nicht von e-Mails abhängig sind.
 
 ## <a name="task-publishing"></a>Aufgaben Veröffentlichung
 

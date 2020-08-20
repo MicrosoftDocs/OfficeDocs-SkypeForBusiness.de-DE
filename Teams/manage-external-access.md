@@ -20,12 +20,12 @@ description: Ihr Teams- oder IT-Administrator kann den externen Zugriff für and
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0aa8cd2ac27bac7bf5159512801670270791f903
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e845012b35bddc32c357d416d8fbb2cbe160d84a
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583864"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814191"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 ======================================================
@@ -43,7 +43,7 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 - Sie möchten, dass alle anderen Microsoft Teams-Benutzer aus aller Welt Sie anhand Ihrer E-Mail-Adresse finden und Kontakt zu Ihnen aufnehmen können. 
 
 > [!IMPORTANT]
-> Um innerhalb der Microsoft Teams-App einen Verbund mit einem externen Benutzer außerhalb Ihrer Organisation zu erstellen, der derzeit kein Gastbenutzer in Azure Active Directory (Azure AD) oder Mandant ist, müssen Sie ordnungsgemäß für Hybridumgebungen konfiguriert und bereits auf Skype for Business Online umgestiegen sein. Seit dem 25. Februar 2019 unterstützt Microsoft Teams keinen nativen Verbund, ohne dass der Benutzer des SIP-Profils in Skype for Business Online verwaltet wird. Weitere Informationen dazu, wie Sie Ihr Konto für die Hybridumgebung einrichten und dann zu Teams wechseln, finden Sie unter [Upgrade von einer Skype for Business-Hybridbereitstellung zu Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+> Um innerhalb der Microsoft Teams-App einen Verbund mit einem externen Benutzer außerhalb Ihrer Organisation zu erstellen, der derzeit kein Gastbenutzer in Azure Active Directory (Azure AD) oder Mandant ist, müssen Sie ordnungsgemäß für Hybridumgebungen konfiguriert und bereits auf Skype for Business Online umgestiegen sein. Ab dem 25. Februar 2019 unterstützt Teams keine **nativen** Föderationen, ohne dass der Nutzer des SIP-Profils in Skype for Business Online verwaltet wird. Weitere Informationen dazu, wie Sie Ihr Konto für die Hybridumgebung einrichten und dann zu Teams wechseln, finden Sie unter [Upgrade von einer Skype for Business-Hybridbereitstellung zu Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
 ## <a name="plan-for-external-access"></a>Plan für externen Zugriff
 
@@ -59,7 +59,7 @@ Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass I
 
 ## <a name="allow-or-block-domains"></a>Zulassen oder Blockieren von Domänen
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>Schritt 1: Aktivieren Ihrer Organisation für die Kommunikation mit einer anderen Microsoft Teams-Organisation
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Schritt 1 – Aktivieren Ihrer Organisation für die Kommunikation mit anderen Teams oder Skype for Business-Organisationen
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
@@ -95,25 +95,6 @@ Um Ihr Setup zu testen, benötigen Sie einen Microsoft Teams-Benutzer, der sich 
 > [!NOTE]
 > Wenn Sie und ein anderer Benutzer sowohl den externen Zugriff aktivieren als auch die Domänen des anderen zulassen, funktioniert das. Wenn es nicht funktioniert, sollte der andere Benutzer sich vergewissern, dass seine Konfiguration Ihre Domäne nicht blockiert.
 
-## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Kommunizieren mit Benutzern in einer Skype for Business Online-Organisation
-
-Wenn Sie den externen Zugriff so einrichten, dass Ihre Microsoft Teams-Benutzer in einer Skype for Business-Organisation mit eingeschränktem Zugriff finden und kontaktieren können, führen Sie die Schritte zum Einrichten des externen Zugriffs von Ihrer Domäne auf die Domäne der anderen Organisation aus. Bitten Sie den Administrator des anderen Unternehmens anschließend, die nachstehenden Schritte auszuführen, um den externen Zugriff für Skype for Business Online zu konfigurieren.
-
-Spezielle Anweisungen zu allgemeinen Skype for Business Online-Szenarien finden Sie unter [Häufige Szenarien für den externen Zugriff](#common-external-access-scenarios) weiter unten.
-
-![Ein Symbol mit dem Skype for Business-Logo](media/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
-
-Lassen Sie die folgenden Schritte vom Administrator in dieser Organisation durchführen:
-
-1. Wechseln Sie im Microsoft 365 Admin Center zu **Admin Center** > **Teams & Skype** > **Altes Portal**.
-  
-2. Wählen Sie unter **Skype for Business Admin Center** die Option **Organisation** > **Externe Kommunikation** aus.
-
-3. Um die Kommunikation mit einem bestimmten Unternehmen oder mit Benutzern in einer anderen Domäne einzurichten, wählen Sie im Dropdownfeld **Nur für zulässige Domänen aktivieren**.
-
-    ODER wählen Sie, wenn die Kommunikation mit allen anderen Unternehmen aktivieren werden soll, die über offene Skype for Business-Richtlinien verfügen, die Option **Aktivieren mit Ausnahme der blockierten Domänen** aus. Dies ist die Standardeinstellung.
-
-4. Wählen Sie unter **Blockierte oder zulässige Domänen** die Option **+** aus, und fügen Sie den Namen der Domäne hinzu, die Sie zulassen möchten.
 
 ## <a name="communicate-with-skype-users-in-preview"></a>Kommunizieren mit Skype-Benutzern (in der Vorschau)
 
@@ -136,10 +117,11 @@ Weitere Informationen über die Möglichkeiten der Kommunikation zwischen Teams-
 |Sie möchten **Microsoft Teams-Benutzern** in Ihrer Organisation die Kommunikation mit **Microsoft Teams-Benutzern** in einer anderen (externen) Organisation ermöglichen.|Fügen Sie unter "Externer Zugriff" die externe Domäne zur Zulassungsliste hinzu, oder verwenden Sie "Öffentlicher Verbund". Lassen Sie dann den Administrator in der anderen Microsoft Teams-Organisation dieselben Schritte ausführen.      |
 |Sie möchten **Microsoft Teams-Benutzern** in Ihrer Organisation die Kommunikation mit **Skype for Business Online-Benutzern** in derselben Organisation ermöglichen.  |Aktivieren Sie den Koexistenzmodus, oder wählen Sie den Upgrademodus "Inseln" aus, um die Skype for Business-Benutzer in Ihrer Organisation zu unterstützen.   |
 |Sie möchten **Microsoft Teams-Benutzern** in Ihrer Organisation die Kommunikation mit **Skype for Business Online-Benutzern** in einer anderen (externen) Organisation ermöglichen.      |Fügen Sie unter "Externer Zugriff" die externe Domäne zur Zulassungsliste hinzu, oder verwenden Sie "Öffentlicher Verbund". <br><br>Aktivieren Sie die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter "Externer Zugriff". Lassen Sie dann den Administrator in der anderen Microsoft Teams-Organisation dieselben Schritte ausführen. <br><br>**HINWEIS**: In der externen Domäne mit Skype for Business-Benutzern muss der Koexistenzmodus aktiviert oder der Upgrademodus "Inseln" ausgewählt werden, um die Skype for Business-Benutzer in dieser Organisation zu unterstützen.|
+|Lassen Sie **Teams-Benutzer** in Ihrer Organisation mit **Skype for Business lokale Benutzer** in einer anderen (externen) Organisation kommunizieren.      |Fügen Sie unter "Externer Zugriff" die externe Domäne zur Zulassungsliste hinzu, oder verwenden Sie "Öffentlicher Verbund". <br><br>Aktivieren Sie die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter "Externer Zugriff". Lassen Sie den Administrator in der anderen Organisation den lokalen Skype for Business-Server so konfigurieren, dass der Verbund mit Ihrer Domäne zugelassen wird.|
 |Ermöglichen Sie **Teams-Benutzern** in Ihrer Organisation die Kommunikation mit **Skype**-Benutzern.<br> (in der Vorschau)  |Aktivieren Sie die Einstellung **Benutzer können mit Skype-Benutzern kommunizieren** unter "Externer Zugriff". |
 |Lassen Sie Ihre **Skype for Business Online-Benutzer** mit **Teams-Benutzern** in einem anderen Microsoft 365 oder Office 365 kommunizieren.| Ihre Skype for Business Online-Benutzer können mit Teams-Benutzern in einer anderen Organisation kommunizieren, wenn sich Ihre Benutzer im Upgrademodus "Islands", "SfBOnly", "SfBWIthTeamsCollab" oder "SfBWithTeamsCollabAndMeetings" und die Teams-Benutzer der anderen Organisation im "TeamsOnly"-Modus befinden. <br><br>Aktivieren Sie die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter "Externer Zugriff". Lassen Sie dann den Administrator in der anderen Microsoft Teams-Organisation dieselben Schritte ausführen.|
 |Lassen Sie Ihre **Skype for Business Online-Benutzer** mit **Skype for Business Online-Benutzern** von einem anderen Microsoft 365 oder Office 365 kommunizieren.    | Ihre Skype for Business Online-Benutzer können mit Skype for Business Online-Benutzern in einer anderen Organisation kommunizieren, wenn sich Ihre Benutzer im Upgrademodus "Islands", "SfBOnly", "SfBWIthTeamsCollab" oder "SfBWithTeamsCollabAndMeetings" und die Skype for Business Online-Benutzer der anderen Organisation im Upgrademodus "Islands", "SfBOnly", "SfBWIthTeamsCollab" oder "SfBWithTeamsCollabAndMeetings" befinden.<br><br>Aktivieren Sie die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter "Externer Zugriff". Lassen Sie dann den Administrator in der anderen Microsoft Teams-Organisation dieselben Schritte ausführen.|
-|Sie möchten Ihren **Skype for Business Online-Benutzern** die Kommunikation mit **Skype for Business-Benutzern** aus einer lokalen Organisation ermöglichen.     |Ihre Skype for Business Online-Benutzer können mit Skype for Business Benutzern in einer lokalen Organisation kommunizieren, wenn sich Ihre Benutzer im Upgrademodus "Islands", "SfBOnly", "SfBWIthTeamsCollab" oder "SfBWithTeamsCollabAndMeetings" und die Skype for Business Online-Benutzer der anderen Organisation im Upgrademodus "Islands", "SfBOnly", "SfBWIthTeamsCollab" oder "SfBWithTeamsCollabAndMeetings" befinden.<br><br>Aktivieren Sie die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter "Externer Zugriff". Lassen Sie dann den Administrator in der anderen Microsoft Teams-Organisation dieselben Schritte ausführen.|
+|Sie möchten Ihren **Skype for Business Online-Benutzern** die Kommunikation mit **Skype for Business-Benutzern** aus einer lokalen Organisation ermöglichen.     |Ihre Skype for Business Online-Benutzer können mit Skype for Business-Benutzern von einer lokalen Organisation aus kommunizieren, wenn sich die Benutzer in einem der folgenden Aktualisierungsmodi befinden: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings. <br><br> Aktivieren Sie die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter "Externer Zugriff". Lassen Sie den Administrator in der anderen Organisation den lokalen Skype for Business-Server so konfigurieren, dass der Verbund mit Ihrer Domäne zugelassen wird.|
 |Sie möchten Ihren **Skype for Business Online-Benutzern** die Kommunikation mit **Skype-Benutzern** (innerhalb oder außerhalb Ihrer Organisation) ermöglichen.   |Aktivieren Sie die Einstellung **Benutzer können mit Skype-Benutzern kommunizieren** unter "Externer Zugriff".|
 
 > [!IMPORTANT]

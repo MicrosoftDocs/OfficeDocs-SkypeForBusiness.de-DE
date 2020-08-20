@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie vorgehen müssen, wenn Sie eDiscovery ausfüh
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121395"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814111"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -30,7 +30,7 @@ Große Unternehmen sind häufig hohen strafrechtlichen Verfahren ausgesetzt, die
 
 ## <a name="overview"></a>Übersicht
 
-Alle Teams 1:1-oder Gruppen-Chats werden in den Postfächern der jeweiligen Benutzer erfasst. Alle Standardkanal Nachrichten werden in das Gruppenpostfach, das das Team darstellt, in Journalen erfasst. Dateien, die in Standardkanälen hochgeladen werden, werden von der eDiscovery-Funktion für SharePoint Online und OneDrive for Business abgedeckt.
+Alle Microsoft Teams 1:1-oder Gruppen-Chats werden in den Postfächern der jeweiligen Benutzer erfasst. Alle Standardkanal Nachrichten werden in das Gruppenpostfach, das das Team darstellt, in Journalen erfasst. Dateien, die in Standardkanälen hochgeladen werden, werden von der eDiscovery-Funktion für SharePoint Online und OneDrive for Business abgedeckt.
 
 eDiscovery von Nachrichten und Dateien in [privaten Kanälen](private-channels.md) funktioniert anders als in Standardkanälen. Weitere Informationen finden Sie unter [eDiscovery privater Kanäle](#ediscovery-of-private-channels).
 
@@ -39,28 +39,49 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 | Inhaltstyp | eDiscoverable | Hinweise |
 |:--- | --- |:--- |
 | Teams-Chatnachrichten | Ja |  |
-| Audioaufzeichnungen | Nein | |
 | Private Kanal Nachrichten | Ja | |
+| Name des Kanals | Nein | |
+| Chat Unterhaltungen von Besprechungen | Ja | |
+| Besprechungs Metadaten<sup>1</sup> | Ja |  |
+| Bearbeitete Nachrichten | Ja | Wenn der Benutzer in Wartestellung ist, bleiben frühere Versionen bearbeiteter Nachrichten erhalten. |
 | Emojis, GIFs, Aufkleber | Ja | |
 | Code Ausschnitte | Nein | |
 | Chat-Links | Ja | |
 | Reaktionen (likes, Hearts usw.) | Nein | |
-| Bearbeitete Nachrichten | Ja | Wenn der Benutzer in Wartestellung ist, bleiben frühere Versionen bearbeiteter Nachrichten erhalten. |
 | Inline Bilder | Ja | |
 | Tabellen | Ja | |
 | Betreff | Ja | |
 | Anführungszeichen | Ja | Zitierte Inhalte sind durchsuchbar. Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde. |
-| Name des Kanals | Nein | |
+| Audioaufzeichnungen | Nein | |
 
-- Wenn Sie eine eDiscovery-Untersuchung mit Microsoft Teams-Inhalten durchführen möchten, lesen Sie Schritt 1 unter [Verwalten von eDiscovery-Fällen im Security & Compliance Center](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) -Link.
+<sup>1</sup> zu den Besprechungs Metadaten gehören die folgenden:
 
-- Microsoft Teams-Daten werden als Chatnachrichten oder Unterhaltungen in der Excel-eDiscovery-Exportausgabe angezeigt. Sie können die `.pst` Datei in Outlook öffnen, um diese Nachrichten nach dem Export anzuzeigen.
+- Start-und Endzeit der Besprechung oder des Anrufs und Dauer
+- Anruf-/Besprechungsteilnahme und Abwesenheits Ereignisse für jeden Teilnehmer
+- VoIP-Join/-Anrufe
+- Anonyme Verknüpfung
+- Föderationsbenutzer-Join
+- Gastbenutzer Beitritt
 
-    Beachten Sie beim Anzeigen der `.pst` Datei für das Team, dass alle Unterhaltungen im Ordner "Teamchat" unter "Konversationsprotokoll" aufbewahrt werden. Der Titel der Nachricht enthält den Namen des Teams und den Kanalnamen. Die folgende Abbildung zeigt beispielsweise eine Nachricht von Bob, die dem Project 7-Standardkanal des Teams "Manufacturing Specs" eine Nachricht gesendet hat.
+Das Bild zeigt ein Beispiel für die Metadaten.
 
-    ![Screenshot eines Team-Chat-Ordners im Postfach eines Benutzers in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Das Bild ist der CVR Records-Besprechungs Metadaten.](media/conversationOption3.png)
 
-- Private Chats im Postfach eines Benutzers werden im Ordner "Team-Chat" unter "Konversationsprotokoll" gespeichert.
+Im folgenden finden Sie ein Beispiel für Chat Unterhaltungen zwischen Teilnehmern während der Besprechung.
+
+![Das Bild ist eine Konversation zwischen Teilnehmern.](media/MeetingIMConversations.png)
+
+![Das Bild ist eine Konversation zwischen Teilnehmern.](media/MeetingImConversation2.png)
+
+Wenn Sie eine eDiscovery-Untersuchung mit Microsoft Teams-Inhalten durchführen möchten, lesen Sie Schritt 1 unter [Erste Schritte mit der zentralen eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+
+Microsoft Teams-Daten werden als Chatnachrichten oder Unterhaltungen in der Excel-eDiscovery-Exportausgabe angezeigt. Sie können die `.pst` Datei in Outlook öffnen, um diese Nachrichten nach dem Export anzuzeigen.
+
+Wenn Sie die PST-Datei für das Team anzeigen, werden alle Unterhaltungen im Teamchat-Ordner unter Konversationsprotokoll gespeichert. Der Titel der Nachricht enthält den Namen des Teams und den Kanalnamen. Die folgende Abbildung zeigt beispielsweise eine Nachricht von Bob, die dem Project 7-Standardkanal des Teams "Manufacturing Specs" eine Nachricht gesendet hat.
+
+![Screenshot eines Team-Chat-Ordners im Postfach eines Benutzers in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+
+Private Chats im Postfach eines Benutzers werden im Ordner "Team-Chat" unter "Konversationsprotokoll" gespeichert.
 
 ## <a name="ediscovery-of-private-channels"></a>eDiscovery privater Kanäle
 
@@ -86,7 +107,7 @@ Bevor Sie diese Schritte ausführen, installieren Sie die [SharePoint Online-Ver
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
+    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
 3. Führen Sie für jede Team-oder Gruppen-ID das folgende PowerShell-Skript aus, um alle relevanten privaten Kanal Websites zu identifizieren, wobei $GroupID die Gruppen-ID des Teams ist.
@@ -146,7 +167,7 @@ Teams-Inhalte können auch durchsucht werden. Weitere Informationen zu Suchvorg�
 
 Wenn Sie eine Suchabfrage erstellen, können Sie depotbanks auswählen, damit alle Quellen, die Sie bereits ausgewählt haben, durchsucht werden. Sie können auch nicht-Freiheitsentzug-Quellen wie eine Teamwebsite durchsuchen, die keinem Benutzer zugeordnet ist. Optional sind auch Abfragen verfügbar, mit denen Sie die Suche innerhalb des Teams-Inhalts einschränken können.
 
-Nachdem Sie eine Suche erstellt und markiert haben, wird ein Fenster mit zusätzlichen Details und Aktionen angezeigt, die Sie für die ausgewählte Suche übernehmen können. Wenn Sie auf die Schaltfläche **Statistik** klicken, können Sie Statistiken zu Ihrer Suche anzeigen, einschließlich der Untergliederungen entsprechend den Standorttypen, der ursprünglichen Quelle für den Inhalt und der Frage, ob sich der Inhalt in einem Gruppenpostfach, dem einzelnen Benutzerpostfach oder einer SharePoint-Website befindet. Auf diese Weise können Sie eine Aufschlüsselung der Quellen anzeigen, die zu Ihren Suchergebnissen beitragen. Es steht auch eine Ansicht **Abfragen** zur Verfügung, damit Sie sehen können, welche einzelnen Stichwörter zu ihren Ergebnissen beitragen.
+Nachdem Sie eine Suche erstellt und markiert haben, wird ein Fenster mit zusätzlichen Details und Aktionen angezeigt, die Sie für die ausgewählte Suche übernehmen können. Wenn Sie auf die Schaltfläche **Statistik** klicken, können Sie Statistiken zu Ihrer Suche anzeigen, einschließlich der Untergliederungen entsprechend den Standorttypen, der ursprünglichen Quelle für den Inhalt und der Frage, ob sich der Inhalt in einem Gruppenpostfach, dem einzelnen Benutzerpostfach oder einer SharePoint-Website befindet. So können Sie eine Aufschlüsselung der Quellen sehen, die zu Ihren Suchergebnissen beitragen. Es steht auch eine Ansicht **Abfragen** zur Verfügung, damit Sie sehen können, welche einzelnen Stichwörter zu ihren Ergebnissen beitragen.
 
 Nachdem Sie die Suche abgeschlossen haben, können Sie auf die Schaltfläche **zu überprüfende Ergebnisse hinzufügen** klicken und Sie einem Überprüfungs Satz hinzufügen. Weitere Informationen zu Überprüfungs Sätzen finden Sie weiter unten in diesem Artikel unter Verwalten von Überprüfungs [Sätzen in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) -und [Review Sets-Workflow](#review-sets-workflow) .
 
@@ -158,9 +179,9 @@ Ein normaler Überprüfungs Satz ähnelt einem Export; Sie stellt die einzelnen 
 
 Eine Konversations Überprüfungsgruppe bietet eine intuitivere Threadansicht der Unterhaltungen. Verwandte Nachrichten werden in der richtigen Reihenfolge zusammen angezeigt.
 
-Funktionen wie "Bearbeiten" stehen in beiden Arten von Überprüfungs Sätzen zur Verfügung.
+![Screenshot der Konversations Überprüfungsgruppe](media/conversationOptions2.png)
 
-Weitere Informationen zu Überprüfungs Sätzen finden Sie unter [Überprüfen von Unterhaltungen in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
+Funktionen wie "Bearbeiten" stehen in beiden Arten von Überprüfungs Sätzen zur Verfügung. Weitere Informationen zu Überprüfungs Sätzen finden Sie unter [Überprüfen von Unterhaltungen in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Sammlungsoptionen
 
@@ -188,9 +209,13 @@ Wenn Sie im Überprüfungs Satz auf eine Teams-Unterhaltung klicken, wird die **
 
 Wenn Sie eine PDF-Datei herunterladen möchten, klicken Sie oben rechts in der Zusammenfassungsansicht auf die Schaltfläche herunterladen.
 
-Klicken Sie auf die Registerkarte **Text Ansicht** , um eine nur-Text-Ansicht des extrahierten Texts der Teams-Unterhaltung anzuzeigen. Dies ist für den Export geeignet und Sie können mit diesem extrahierten Text problemlos mit anderen Software Tools arbeiten.
+Klicken Sie auf die Registerkarte **Text Ansicht** , um eine nur-Text-Ansicht des extrahierten Texts der Teams-Unterhaltung anzuzeigen. Dieser nur-Text-Inhalt ist für den Export geeignet und Sie können mit anderen Software Tools problemlos damit arbeiten.
 
 Klicken Sie auf die Registerkarte **Ansicht kommentieren** , um auf die Anmerkungs Features zuzugreifen. Auf dieser Registerkarte wird der Inhalt in einem Format angezeigt, das einer Team Unterhaltung ähnelt, es gibt aber auch zusätzliche Optionen für die Bearbeitung. Es gibt ein Bleistifttool, das Sie verwenden können, um Notizen zu machen, auf die Nachricht zu zeichnen oder feinkörniges kratzen zu tun. Es gibt auch ein **Bereich** -Tool, mit dem Sie ein Rechteck zeichnen können, das den Bereich schwärzt und als "redigiert" markiert.
+
+Im folgenden finden Sie ein Beispiel für eine Datei, die für eine Multithread-Konversation zwischen Benutzern fungiert.
+
+![Screenshot von "redigierte Datei"](media/RedactedFileExample.png)
 
 Am unteren Rand der Registerkarte " **Ansicht kommentieren** " befindet sich die Schaltfläche " **Dokumente markieren** ", auf der der Bereich "Tagging" angezeigt wird. In diesem Bereich können Sie eine Kategorie auf alle Nachrichten innerhalb der Teams-Unterhaltung anwenden. Sie können eine Unterhaltung als "reaktionsfähig" oder "nicht reagierend", "privilegiert" oder "nicht privilegiert" kennzeichnen, unabhängig davon, ob Sie "interessante Elemente" enthält, ob Sie im Export enthalten sein sollte und ob Sie weitere Überprüfung benötigen. Sie können auch andere anpassbare Tags verwalten und anwenden.
 
@@ -202,13 +227,13 @@ Wenn Sie eine Datei exportieren möchten, die alle Metadaten für alle Teams-Nac
 
 Verwenden Sie die Option **systemeigene Dateien** , um Dateien in ihrem systemeigenen Format zu exportieren. Sie können eine Unterhaltung als eine Datei oder alle einzelnen Chatnachrichten in eigenen separaten Dateien exportieren.
 
-Mit der Option " **Textdateien** " können Sie nur-Text-Versionen von Inhalten speichern. Weitere Informationen dazu, wie Sie eine nur-Text-Ansicht von Teams-Unterhaltungen in der Überprüfungsgruppe erhalten, finden Sie unter [Zusammenfassungsansicht, Textansicht und Anmerkungen zur Ansicht](#summary-view-text-view-and-annotate-view) oben.
+Mit der Option " **Textdateien** " können Sie nur-Text-Versionen von Inhalten speichern. Weitere Informationen dazu, wie Sie eine nur-Text-Ansicht von Teams-Unterhaltungen im Überprüfungs Satz erhalten, finden Sie unter [Zusammenfassungsansicht, Textansicht und Ansicht](#summary-view-text-view-and-annotate-view) oben mit Anmerkungen.
 
 Wenn Sie den Inhalt, wie in der Ansicht " [Zusammenfassung", "Textansicht" und "kommentieren](#summary-view-text-view-and-annotate-view) " oben beschrieben, auf den Inhalt angewendet haben, können Sie die Option " **mit konvertierten PDF** -Dateien ersetzen" die nativen Dateien durch konvertierte Kopien in PDF ersetzen auswählen.
 
 Sie können auswählen, ob Sie in einen von Microsoft bereitgestellten Azure BLOB-Speichercontainer exportieren möchten, oder Sie können einen eigenen Azure BLOB-Speichercontainer bereitstellen.
 
-Wenn Sie den Exportvorgang beginnen möchten, klicken Sie auf die Schaltfläche **exportieren** . Nachdem der Export abgeschlossen ist, lesen Sie [Herunterladen von Exportaufträgen](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) Weitere Informationen dazu, wie Sie auf den Azure BLOB-Speichercontainer zugreifen und die exportierten Inhalte herunterladen können.
+Wenn Sie den Exportvorgang beginnen möchten, klicken Sie auf die Schaltfläche **exportieren** . Weitere Informationen dazu, wie Sie auf den Azure BLOB-Speichercontainer zugreifen und die exportierten Inhalte herunterladen können, nachdem der Export abgeschlossen ist, finden Sie unter [Herunterladen von Exportaufträgen](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) .
 
 > [!NOTE]
 > Der Export kann eine längere Zeit dauern. Wenn Sie den Status des Exportvorgangs nachvollziehen möchten, beenden Sie die Registerkarte **Überprüfungs Sätze** , und klicken Sie auf die Registerkarte **Export** .

@@ -16,13 +16,12 @@ description: Erfahren Sie, wie Sie Dienste für Teams von Drittanbietern auf der
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ab917c57578a854ef5bf6c591229ac35a7e98fe9
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: aeff6f363c1ae594a4a122055204d98b43d246e8
+ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146111"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818154"
 ---
 <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Dienste für Teams von Drittanbieter-apps im Microsoft Teams Admin Center erwerben
 ======================================================
@@ -35,6 +34,8 @@ Teams-Apps können kostenlos installiert werden, und für einige ist es möglich
 Auf der Seite " [apps verwalten](manage-apps.md) " im Microsoft Teams Admin Center können Sie alle Teams-Apps für Ihre Organisation anzeigen und verwalten. So können Sie beispielsweise den Status und die Eigenschaften von apps auf Organisationsebene anzeigen, neue benutzerdefinierte apps in den App Store Ihrer Organisation hochladen, Apps auf Organisationsebene blockieren oder zulassen sowie organisationsweite App-Einstellungen verwalten.
 
 Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps für Benutzer in Ihrer Organisation angeboten werden. Die Spalte " **Lizenzen** " in der Tabelle gibt an, ob eine APP ein SaaS-Abonnement für den Kauf bietet.
+
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot der Drittanbieter-apps mit SaaS-Abonnements":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Suchen nach und erwerben von Diensten für eine Drittanbieter-App
 
@@ -51,10 +52,12 @@ Hier können Sie auch Lizenzen für Dienste erwerben, die von Drittanbieter-Apps
 8. Wenn Sie fertig sind, wählen Sie **Bestellung aufgeben**aus.
 9. Klicken Sie auf **jetzt konfigurieren** , um Ihr Abonnement auf der Website des Herausgebers zu aktivieren.
 
-Nachdem Sie das SaaS-Angebot für die Teams-App erworben haben, können Sie auf der Seite **apps verwalten** die folgenden Bestelldetails anzeigen.
+Nachdem Sie das SaaS-Angebot für die Teams-App erworben haben, können Sie auf der Registerkarte **Pläne und Preise** auf der Seite App-Details die folgenden Kaufdetails anzeigen.
 
 - **Datum der Lizenzaktivierung**: Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird die **Aktivierung des Abonnements ausstehend**angezeigt.
 - **Lizenzen**: Anzahl der Lizenzen, die Sie erworben haben.
+
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte "Pläne und Preise" auf der Seite "App-Details"":::
 
 Wählen Sie **Lizenzen verwalten** aus, um zum Microsoft 365 Admin Center zu wechseln, um die Lizenzen anzuzeigen und zu verwalten, die Sie erworben haben, und um Lizenzzuweisungen für Benutzer zu verwalten.
 
@@ -64,8 +67,9 @@ Globale Administratoren können die Käufe anzeigen, die von anderen Personen in
 
 Entwickler können SaaS-Angebote erstellen, die mit ihren Teams-apps verknüpft sind. Diese Angebote werden im [Partner Center](https://partner.microsoft.com) veröffentlicht und stehen für Organisationen zum Kauf über [AppSource](https://appsource.microsoft.com/) und das Microsoft Teams Admin Center zur Verfügung.
  
-App-Entwickler von Drittanbietern können [ein neues SaaS-Angebot auf dem kommerziellen Marktplatz erstellen](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) , um weitere Informationen zu erhalten.
+Drittanbieter-App-Entwickler können [ein SaaS-Angebot erstellen](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) , um weitere Informationen zu erhalten.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-
+- [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md)
+- [Erstellen eines SaaS-Angebots](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
