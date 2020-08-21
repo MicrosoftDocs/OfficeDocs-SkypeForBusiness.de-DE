@@ -13,12 +13,12 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085881"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824936"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installieren von Microsoft Teams PowerShell
 
@@ -73,8 +73,11 @@ Install-Module PowerShellGet -Force -AllowClobber
 
 Führen Sie den folgenden PowerShell-Befehl aus, um Teams PowerShell Public Preview zu installieren.
 
+> [!NOTE]
+> Sie können die aktuelle Preview-Version im [PowerShell-Katalog](https://www.powershellgallery.com/packages/MicrosoftTeams) oder in PowerShell finden, indem Sie "suchen-Modul Microsoft Teams-AllowPrerelease" ausführen.
+
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 ```
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Installieren des Skype for Business Online-Connectors
@@ -99,13 +102,13 @@ Um mit der Arbeit mit Teams PowerShell zu beginnen, melden Sie sich mit ihren Az
 > Wenn Sie die neueste Version von [Teams PowerShell Public Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online-Connector nicht installieren.
 
 ```powershell
-$credential = Get-Credentials
+$credential = Get-Credential
 
 #Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credentials $credential
+Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credentials $credential
+$session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 

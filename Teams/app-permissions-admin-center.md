@@ -14,12 +14,12 @@ ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 737052ba5794b221caa08fa8ccfabec0d597c3ad
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 6aafd5cbdd1ae44844f69b78234f10a54abe7b85
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814611"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824906"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Anzeigen von App-Berechtigungen und erteilen der Zustimmung des Administrators im Microsoft Teams Admin Center
 
@@ -31,11 +31,11 @@ Hier können Sie auch apps, die Berechtigungen für den Zugriff auf Daten anford
 
 ## <a name="grant-org-wide-admin-consent-to-an-app"></a>Erteilen einer organisationsweiten Administrator Zustimmung zu einer APP
 
-Als Administrator können Sie apps, die Berechtigungen für alle Benutzer in Ihrer Organisation anfordern, überprüfen und deren Zustimmung erteilen. Sie tun dies, damit Benutzer die von der APP angeforderten Berechtigungen nicht überprüfen und akzeptieren müssen, wenn Sie die app starten. Je nach den [Zustimmungs Einstellungen](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent) des Benutzers in Azure Active Directory (Azure AD) ist es einigen Benutzern möglicherweise nicht gestattet, apps zu genehmigen, die auf Unternehmensdaten zugreifen.
+Wenn Sie ein globaler Administrator sind, können Sie apps, die Berechtigungen für alle Benutzer in Ihrer Organisation anfordern, überprüfen und deren Zustimmung erteilen. Sie tun dies, damit Benutzer die von der APP angeforderten Berechtigungen nicht überprüfen und akzeptieren müssen, wenn Sie die app starten. Je nach den [Zustimmungs Einstellungen](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent) des Benutzers in Azure Active Directory (Azure AD) ist es einigen Benutzern möglicherweise nicht gestattet, apps zu genehmigen, die auf Unternehmensdaten zugreifen.
 
 Beispiele für von apps angeforderte Berechtigungen sind die Möglichkeit, in einem Team gespeicherte Informationen zu lesen, das Profil eines Benutzers zu lesen und eine e-Mail im Auftrag der Benutzer zu senden. Weitere Informationen finden Sie unter [Berechtigungen und Zustimmung im Microsoft Identity Platform-Endpunkt](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-Sie müssen ein globaler Administrator sein, um einer App eine organisationsweite Zustimmung zu erteilen. Die Spalte " **Berechtigungen** " gibt an, ob eine APP Berechtigungen hat, für die eine Genehmigung erforderlich ist. Für jede APP, die in Azure AD registriert ist, wird ein Link " **Details anzeigen** " angezeigt, der Berechtigungen enthält, für die eine Genehmigung erforderlich ist. Beachten Sie, dass dies nur für benutzerdefinierte apps und apps von Drittanbietern gilt. Dieser Link wird nicht angezeigt, oder Sie müssen die Zustimmung des Administrators für von Microsoft veröffentlichte apps erteilen.
+Die Spalte " **Berechtigungen** " gibt an, ob eine APP Berechtigungen hat, für die eine Genehmigung erforderlich ist. Für jede APP, die in Azure AD registriert ist, wird ein Link " **Details anzeigen** " angezeigt, der Berechtigungen enthält, für die eine Genehmigung erforderlich ist. Beachten Sie, dass dies nur für benutzerdefinierte apps und apps von Drittanbietern gilt. Dieser Link wird nicht angezeigt, oder Sie müssen die Zustimmung des Administrators für von Microsoft veröffentlichte apps erteilen.
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot der Spalte "Berechtigungen" auf der Seite "Apps verwalten"":::
 
@@ -46,9 +46,11 @@ Führen Sie die folgenden Schritte aus, um einer App eine organisationsweite Zus
     - Suchen Sie nach der gewünschten APP, klicken Sie auf den Namen der APP, um zur Seite App-Details zu wechseln, und wählen Sie dann die Registerkarte **Berechtigungen** aus.
     - Sortieren Sie die Spalte **Berechtigungen** in absteigender Reihenfolge, um die APP zu finden, und wählen Sie dann **Details anzeigen**aus. Dadurch gelangen Sie auf die Registerkarte **Berechtigungen** auf der Seite App-Details.
 
-3. Wählen Sie unter **organisationsweite Berechtigungen**die Option **Berechtigungen und Zustimmung überprüfen**aus. Sie müssen ein globaler Administrator sein, um dies zu tun. Diese Option steht für Teams-Dienstadministratoren nicht zur Verfügung.
+3. Wählen Sie unter **organisationsweite Berechtigungen**die Option **Berechtigungen und Zustimmung überprüfen**aus.
 
     :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot der organisationsweiten Berechtigungen auf der Registerkarte "Berechtigungen" für eine APP":::
+
+    Sie müssen ein globaler Administrator sein, um dies zu tun. Diese Option steht für Teams-Dienstadministratoren nicht zur Verfügung.
 
 4. Überprüfen Sie auf der Registerkarte **Berechtigungen** die von der APP angeforderten Berechtigungen.
 
@@ -62,21 +64,32 @@ Nachdem Sie die Berechtigungen akzeptiert haben, wird auf der Seite APP **-Detai
 
 :::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="Screenshot der Nachricht, die angezeigt wird, wenn die Genehmigung erteilt wurde":::
 
-Wenn Benutzern in Ihrer Organisation die Genehmigung erteilt werden kann und wenn ein oder mehrere Benutzer der Zustimmung zu einer bestimmten app zugestimmt haben, wird nur die Meldung angezeigt, in der Sie wissen, dass die Genehmigung erteilt wurde, und der Azure Active Directory-Link. 
+Wenn Benutzern in Ihrer Organisation die Genehmigung erteilt werden kann und wenn ein oder mehrere Benutzer der Zustimmung zu einer bestimmten app zugestimmt haben, wird auch die gleiche Meldung angezeigt, in der Sie darüber informiert werden, dass die Genehmigung erteilt wurde, und die Azure Active Directory-Verknüpfung zur Seite der APP im Azure AD-Portal.
+
+> [!NOTE]
+> Obwohl die Option **Berechtigungen und Zustimmung überprüfen** für Teams-Dienstadministratoren nicht zur Verfügung steht und Sie keine organisationsweite Administrator Zustimmung zu apps erteilen können, können die Team Dienstadministratoren den Inhalt auf der Registerkarte **Berechtigungen** für eine App anzeigen. Beispielsweise kann ein Team Dienstadministrator auf die **Azure Active Directory** -Verknüpfung klicken, um die Details der APP-Berechtigungen im Azure AD-Portal anzuzeigen. 
 
 ## <a name="view-resource-specific-consent-permissions-of-an-app"></a>Anzeigen der ressourcenspezifischen Genehmigungsberechtigungen einer APP
 
-Mit RSC-Berechtigungen können Teambesitzer die Zustimmung einer APP für den Zugriff auf die Daten eines Teams erteilen und diese ändern. RSC-Berechtigungen sind granulare, Teams-spezifische Berechtigungen, die definieren, was eine app in einem bestimmten Team tun kann. Beispiele für RSC-Berechtigungen sind die Möglichkeit, Kanäle zu erstellen und zu löschen, die Einstellungen für ein Team abzurufen und Kanal Registerkarten zu erstellen und zu entfernen. RSC-Berechtigungen werden im App-Manifest und nicht in Azure AD definiert.
+Mit RSC-Berechtigungen können Teambesitzer die Zustimmung einer APP für den Zugriff auf die Daten eines Teams erteilen und diese ändern. RSC-Berechtigungen sind granulare, Teams-spezifische Berechtigungen, die definieren, was eine app in einem bestimmten Team tun kann. Beispiele für RSC-Berechtigungen sind die Möglichkeit, Kanäle zu erstellen und zu löschen, die Einstellungen für ein Team abzurufen und Kanal Registerkarten zu erstellen und zu entfernen. 
 
-Sie erteilen die Zustimmung zu RSC-Berechtigungen, wenn Sie die APP einem Team hinzufügen. Weitere Informationen finden Sie unter [ressourcenspezifische Zustimmung (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent) und [ressourcenspezifische Zustimmung in Teams](resource-specific-consent.md).
+RSC-Berechtigungen werden im App-Manifest und nicht in Azure AD definiert. Sie erteilen die Zustimmung zu RSC-Berechtigungen, wenn Sie die APP einem Team hinzufügen. Weitere Informationen finden Sie unter [ressourcenspezifische Zustimmung (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
-Globale Administratoren und Teams können vom Dienstadministrator die RSC-Berechtigungen anzeigen. Führen Sie die folgenden Schritte aus, um die RSC-Berechtigungen für eine APP anzuzeigen:
+Globale Administratoren und Teams der Dienstadministrator kann die RSC-Berechtigungen für eine APP auf der Registerkarte " **Berechtigungen** " auf der Seite "App-Details" anzeigen. 
+
+Führen Sie die folgenden Schritte aus, um die RSC-Berechtigungen für eine APP anzuzeigen:
 
 1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**  >  **Verwalten von apps**.
 2. Suchen Sie nach der gewünschten APP, klicken Sie auf den Namen der APP, um zur Seite App-Details zu wechseln, und wählen Sie dann die Registerkarte **Berechtigungen** aus.
 3. Überprüfen Sie unter **Microsoft Graph-Berechtigungen für ressourcenspezifische Zustimmung (RSC)** die von der APP angeforderten RSC-Berechtigungen.
 
     :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Screenshot der RSC-Berechtigungen für eine APP":::
+
+## <a name="known-issues"></a>Bekannte Probleme
+
+### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>Der Link "Details anzeigen" wird in der Spalte "Berechtigungen" für einige Drittanbieter-apps, die Berechtigungen anfordern, nicht angezeigt.
+
+Derzeit steht die Möglichkeit zum Überprüfen von Berechtigungen und Genehmigungen für alle in Azure AD registrierten Drittanbieter-apps, die Berechtigungen anfordern, nicht zur Verfügung. Anstelle des Links **Details anzeigen** sehen Sie **--** in der Spalte **Berechtigungen** . Wir arbeiten mit ISVs zusammen, um diese Funktion für Ihre apps zu aktivieren.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

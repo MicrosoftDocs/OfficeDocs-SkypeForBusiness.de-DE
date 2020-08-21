@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 591cd6447f9430905fce1e84f22708d19adf70c5
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655946"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845577"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -40,6 +40,8 @@ Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
 - [Teilnehmen an einem Team als Gast](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Teilnehmen an einer Teambesprechung mit Gästen](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
+> [!NOTE]
+> Microsoft 365 und Office 365-Administratoren steuern die Features, die den Gästen zur Verfügung stehen.
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich der Funktionen für Team-Mitglieder und -Gäste
 
@@ -64,7 +66,6 @@ In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die j
 |Verwenden der Inline-Übersetzung  <br/> |&#x2713;||
 |Teambesitzer werden  <br/> |&#x2713;||
 
-   
 In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprechungsfeatures mit jenen für andere Benutzertypen verglichen.
 
 | Anruffunktion | Gast | E1- und E3-Benutzer | E5- und Enterprise-VoIP-Benutzer |
@@ -95,34 +96,46 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 | Können Stellvertretungen haben | Nein | Nein | Ja |
 |  Können als Stellvertretung fungieren | Nein | Nein | Ja |
 
-
 <sup>1</sup> Dieses Feature wird in Kürze verfügbar sein.
 
 > [!NOTE]
-> Microsoft 365 und Office 365-Administratoren steuern die Features, die den Gästen zur Verfügung stehen. 
+> Die Richtlinie für **Gastbenutzer Zugriffseinschränkungen** in Azure Active Directory (Azure AD) bestimmt die Berechtigungen für Gäste in Ihrem Verzeichnis. Es gibt drei Richtlinienoptionen.
+>  - Die **Gastbenutzer haben die gleiche Zugriffsberechtigung wie die Einstellung "Mitglieder" (die meisten inklusive)** bedeutet, dass Gäste den gleichen Zugriff auf Verzeichnisdaten haben wie reguläre Benutzer in Ihrem Verzeichnis.
+>  - Die **Gastbenutzer haben nur geringen Zugriff auf Eigenschaften, und die Mitgliedschaft in** den Einstellungen für Verzeichnisobjekte bedeutet, dass Gäste keine Berechtigungen für bestimmte Verzeichnisaufgaben haben, beispielsweise das Aufzählen von Benutzern, Gruppen oder anderen Verzeichnis Ressourcen mit Microsoft Graph.
+>  - Der **Gastbenutzer Zugriff ist auf Eigenschaften und Mitgliedschaften für eigene Verzeichnisobjekte (die restriktivste Einstellung) beschränkt,** damit die Gäste nur auf eigene Verzeichnisobjekte zugreifen können.
+>
+>Weitere Informationen finden Sie unter [Was sind die Standardbenutzerberechtigungen in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 ### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>Wie verlasse ich eine Organisation, zu der ich eingeladen wurde?
+
 Wenn Sie zu einer Organisation eingeladen wurden, deren Gast Sie nicht sein möchten, können Sie diese verlassen. Weitere Informationen hierzu finden Sie unter [Verlassen einer Organisation als Gastbenutzer](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Alternativ können Sie den Administrator der Organisation bitten, Sie von seinem Mandanten zu entfernen. Beachten Sie, dass Sie in jedem Fall erneut zum Mandanten eingeladen werden müssen, wenn Sie zukünftig auf die Organisation zugreifen möchten.
 
 ### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>Können Gäste auf die gleichen Funktionen wie Teammitglieder zugreifen?
+
 Nein. Weitere Informationen dazu, was ein Gast tun kann und was nicht, finden Sie unter [Vergleich der Funktionen für Team-Mitglieder und -Gäste](#comparison-of-team-member-and-guest-capabilities) in diesem Artikel.
 
 ### <a name="do-guests-have-access-to-onedrive-for-business"></a>Haben Gäste Zugriff auf OneDrive for Business?
+
 Nein.
 
 ### <a name="do-guests-have-access-to-sharepoint-files"></a>Haben Gäste Zugriff auf SharePoint-Dateien?
+
 Ja.
 
 ### <a name="can-guests-search-within-files"></a>Können Gäste Suchen innerhalb von Dateien durchführen?
+
 Nein.
 
 ### <a name="can-guests-attach-files"></a>Können Gäste Dateien anfügen?
+
 Ja, ein Gast kann Dateien auf diese zwei Arten anfügen:
 
-   - Indem er im linken Bereich **Dateien** auswählt und dann zum Dateispeicherort navigiert.
-   - Indem er Dateien von seinem Computer hochlädt.
+  - Indem er im linken Bereich **Dateien** auswählt und dann zum Dateispeicherort navigiert.
+  - Indem er Dateien von seinem Computer hochlädt.
 
 ### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>Kann ein Gast eine Datei in einen privaten Chat herunterladen?
+
 Ja, ein Gast kann eine Datei von einem Mitglied in einem privaten Chat empfangen und dann auf seinen Desktop herunterladen.
+

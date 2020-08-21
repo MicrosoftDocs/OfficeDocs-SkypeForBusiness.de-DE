@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778037"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824896"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -129,7 +129,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrix für die Feature-und Azure-Cloud-basierte Dienste
 
-| Dienst | Funktionsebene | Feature | Anmerkungen  | Cloud VM/AA  | ExUMO |
+| Dienst | Funktionsebene | Feature | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Dienstfunktionen| Unterstützung für Drittanbieter-PBX    | Einschließlich aller Funktionen, die an Drittanbieter-Nebenstellenanlagen wie MWI (Message Waiting Indicator) mit SIP NOTIFY-Nachrichten von Exchange um Online bereitgestellt werden | N   | v    |
 | VM | Dienstfunktionen  | Support Skype for Business Server   |  | v | v    |
@@ -176,6 +176,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | VM | Mandantenadministrator Features | Voicemail-Richtlinie    |   | v | v    |
 | VM | Mandantenadministrator Features | Webportal Verwaltung   |  | CY19   | v    |
 | VM | Mandantenadministrator Features | PowerShell   |  | v | v    |
+| UM | Benutzerfunktionen | Message Waiting Indicator (MWI) auf Skype for Business zertifizierten Telefonen   |Kann vom telefonpartner bereitgestellt werden  | Nein | Ja    |
 | AA | Dienstfunktionen | AA-Support-Drittanbieter-Nebenstellenanlage    |  | N | v    |
 | AA | Dienstfunktionen | Support Skype for Business Server   |  | v | v    |
 | AA | Dienstfunktionen | Unterstützung von Microsoft Teams|  | v | N    |

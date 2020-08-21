@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie benutzerdefinierte apps genehmigen, die mit der APP-Übermittlungs-API von Teams in Microsoft Teams gesendet werden.
-ms.openlocfilehash: 7168a6cf531890a8e942153cc4d214085d6bc63f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: bdd13dbe4db46110250ea380eebd0ea1d011a322
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583504"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824916"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten APP, die über die APP-Übermittlungs-API der Teams gesendet wird
 
@@ -47,15 +47,17 @@ Die Microsoft Teams-Entwicklerplattform macht es Entwicklern einfach, ihre eigen
 
 ### <a name="submit-the-app"></a>Übermitteln der APP
 
-Wenn die APP für die Verwendung in der Produktion bereit ist, kann der Entwickler die App mithilfe der APP-Übermittlungs-API für Teams einreichen, die von der Diagramm-API, einer integrierten Entwicklungsumgebung (IDE) wie Visual Studio-Code oder einer Plattform wie Power apps und Power Virtual-Agents aufgerufen werden kann. Dadurch wird die APP auf der Seite " <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">apps verwalten</a> " im Microsoft Teams Admin Center zur Verfügung gestellt, wo Sie, der Administrator, Sie überprüfen und genehmigen kann. 
+Wenn die APP für die Verwendung in der Produktion bereit ist, kann der Entwickler die App mithilfe der APP-Übermittlungs-API für Teams einreichen, die von der <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Diagramm-API</a>, einer integrierten Entwicklungsumgebung (IDE) wie Visual Studio-Code oder einer Plattform wie Power apps und Power Virtual-Agents aufgerufen werden kann. Dadurch wird die APP auf der Seite " <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">apps verwalten</a> " im Microsoft Teams Admin Center zur Verfügung gestellt, wo Sie, der Administrator, Sie überprüfen und genehmigen kann. 
 
-Die auf Microsoft Graph integrierte API für die APP-Übermittlung von Teams ermöglicht es Ihrer Organisation, sich auf der Plattform Ihrer Wahl zu entwickeln und den Prozess der Übermittlung von Genehmigungen für benutzerdefinierte apps in Teams zu automatisieren.
+Die <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">auf Microsoft Graph integrierte</a>API für die APP-Übermittlung von Teams ermöglicht es Ihrer Organisation, sich auf der Plattform Ihrer Wahl zu entwickeln und den Prozess der Übermittlung von Genehmigungen für benutzerdefinierte apps in Teams zu automatisieren.
 
 Im folgenden sehen Sie ein Beispiel dafür, wie dieser APP-Übermittlungs Schritt in Visual Studio-Code aussieht:
 
 ![Screenshot des Übermittelns einer APP in Visual Studio-Code](media/custom-app-lifecycle-submit-app.png)
 
 Beachten Sie, dass dies die APP im App Store Ihrer Organisation noch nicht veröffentlicht. In diesem Schritt wird die APP an das Microsoft Teams Admin Center übermittelt, in dem Sie Sie für die Veröffentlichung im App Store Ihrer Organisation genehmigen können.
+
+Weitere Informationen zum Verwenden der Graph-API zum Übermitteln von apps finden Sie <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">hier</a>.
 
 ## <a name="validate"></a>Überprüfen
 
@@ -68,6 +70,8 @@ In der Tabelle zeigt eine neu übermittelte App automatisch einen **Veröffentli
 Klicken Sie auf den Namen der APP, um zur Seite App-Details zu wechseln. Auf der Registerkarte **Info** können Sie Details zur App anzeigen, einschließlich Beschreibung, Status, Absender und APP-ID.
 
 ![Screenshot der APP-Detailseite für eine übermittelte App](media/custom-app-lifecycle-app-details.png)
+
+Weitere Informationen zur Verwendung der Graph-API zur Überprüfung des **Veröffentlichungsstatus**finden Sie <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">hier</a>.
 
 ## <a name="publish"></a>Veröffentlichen
 
@@ -125,6 +129,8 @@ Beachten Sie Folgendes:
 - Wenn eine APP genehmigt wird, kann jede Person eine Aktualisierung an die APP übermitteln. Dies bedeutet, dass andere Entwickler, einschließlich des Entwicklers, der die APP ursprünglich übermittelt hat, ein Update an die APP übermitteln können.
 - Wenn ein Entwickler eine APP absendet und die Anforderung aussteht, kann nur derselbe Entwickler ein Update an die APP übermitteln. Andere Entwickler können ein Update erst senden, nachdem die APP genehmigt wurde.
 
+Weitere Informationen zum Verwenden der Graph-API zum Aktualisieren von apps finden Sie <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">hier</a>.
+
 ### <a name="update-experience-for-users"></a>Update-Benutzeroberfläche
 
 In den meisten Fällen wird die neue Version nach dem Veröffentlichen eines APP-Updates automatisch für die Benutzer angezeigt. Es gibt jedoch einige Updates für das <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams-Manifest</a> , für die eine Benutzerakzeptanz erforderlich ist:
@@ -150,3 +156,4 @@ In den meisten Fällen wird die neue Version nach dem Veröffentlichen eines APP
 - [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 - [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
 - [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
+- <a href="https://docs.microsoft.com/graph/api/resources/teamsapp?view=graph-rest-1.0" target="_blank">Microsoft Graph-API für Teams-apps</a>

@@ -19,17 +19,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Japan für Microsoft Teams zu finden.
-ms.openlocfilehash: c76a43b3a4fd6e65a977ea5b68b595891c40aadc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ad21620896800411f72a699d19cf9704485d0207
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638784"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824926"
 ---
 # <a name="phone-number-management-for-japan"></a>Verwaltung von Telefonnummern für Japan
-
-> [!IMPORTANT]
-> Die Verwendung von Softbank für Anrufe in Japan steht derzeit nur für Early Adopters (EA) zur Verfügung.
 
 In Japan haben wir Partnerschaft mit SoftBank für den Kauf und die Bereitstellung von Anrufplänen für Kunden mit einer Rechnungsadresse in Japan. Softbank wird Ihre Anrufpläne verkaufen, Nutzer Nummern für Japan bereitstellen und die Unterstützung für die Verwaltung von Telefonnummern bieten. Dienstnummern und Lizenzen für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen werden jedoch weiterhin von Microsoft 365 und Office 365 verkauft und verwaltet.
 
@@ -37,7 +34,7 @@ Weitere Informationen zu den [Softbank-anrufen](https://aka.ms/SoftBankVoicePlan
 
 Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Japan für Microsoft Teams zu finden.
 
-Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
+Weitere Informationen finden Sie unter  [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
