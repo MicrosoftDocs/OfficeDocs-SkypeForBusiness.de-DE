@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788709"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860806"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -163,7 +163,7 @@ Das Zertifikat muss von einer der folgenden Stammzertifizierungsstellen generier
 
 - AffirmTrust
 - Externes Zertifizierungsstellen-Stammverzeichnis
-- Baltimore CyberTrust Root
+- Baltimore-Cybertrust-Stamm *
 - Buypass
 - Cybertrust
 - Öffentliche primäre Zertifizierungsstelle der Klasse 3
@@ -185,6 +185,11 @@ Das Zertifikat muss von einer der folgenden Stammzertifizierungsstellen generier
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
+
+
+
+> [!NOTE]
+> * Wenn Mutual TLS (MTLS)-Unterstützung für die Teams-Verbindung auf dem SBC aktiviert ist, müssen Sie das Baltimore-Cybertrust-Stammzertifikat im SBC Trusted Root Store des Teams TLS-Kontexts installieren. (Dies liegt daran, dass die Microsoft-Dienstzertifikate das Baltimore-Stammzertifikat verwenden.) Informationen zum Herunterladen des Baltimore-Stammzertifikats finden Sie unter [Office 365-Verschlüsselungs Ketten](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).
 
 Microsoft arbeitet daran, zusätzliche Zertifizierungsstellen basierend auf Kundenanforderungen hinzuzufügen. 
 

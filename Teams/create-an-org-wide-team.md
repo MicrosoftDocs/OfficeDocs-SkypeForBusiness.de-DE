@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086222"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860816"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -86,6 +86,10 @@ Ist dies nicht möglich ist, können Sie mithilfe von PowerShell ein öffentlich
 
 Globale Administratoren können ein vorhandenes Team in ein organisationsweites Team konvertieren, indem Sie es im Teams-Client bearbeiten. Wechseln Sie zum Teamnamen und klicken Sie dann auf **Weitere Optionen**  >  **Team bearbeiten**.
 
+### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>Kann ich ein organisationsweites Team mithilfe einer Teamvorlage erstellen?
+
+Teamvorlagen können nicht zum Erstellen eines organisationsweiten Teams verwendet werden. Die Arbeit für dieses Feature wird zurzeit ausgeführt. 
+
 ## <a name="see-also"></a>Siehe auch
 
-Sehen Sie sich ein Video zum Thema [Erstellen eines unternehmensweiten Teams in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3) an.
+Schauen Sie sich ein Video zum [Erstellen eines unternehmensweiten Teams in Microsoft Teams an](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

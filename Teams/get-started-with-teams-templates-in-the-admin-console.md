@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634731"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860796"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Erste Schritte mit Microsoft Teams-Vorlagen in der Team-Verwaltungskonsole
 
@@ -71,7 +71,6 @@ Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorl
 > [!NOTE]
 > Vordefinierte Basisvorlagen, die in Microsoft Teams bereitgestellt werden, können dupliziert, aber nicht bearbeitet werden.
 
-
 | Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |----------------------------------------------------- |
 | Übernehmen von Office 365 |  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
@@ -88,6 +87,22 @@ Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorl
 |Qualität und Sicherheit |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li></ul>|
 |Zusammenarbeit im Einzelhandel – Manager |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
 |||
+
+## <a name="template-size-limits"></a>Größenbeschränkungen für Vorlagen
+
+Vorlagen sind auf eine bestimmte Anzahl von Kanälen, Registerkarten und apps limitiert.
+
+ > [!Note]
+ > Sie können dem Team weitere Kanäle, Registerkarten und apps hinzufügen, nachdem es aus einer Vorlage erstellt wurde.
+
+|Feature | Limit|
+|-|-|
+|Kanäle pro Vorlage | 15 |
+|Tabstopps pro Kanal in einer Vorlage | 20 |
+|Apps pro Vorlage | 50|
+|||
+
+Weitere Informationen finden Sie unter [Grenzwerte und Spezifikationen von Teams](limits-specifications-teams.md) .
 
 ## <a name="related-topics"></a>Verwandte Themen
 
