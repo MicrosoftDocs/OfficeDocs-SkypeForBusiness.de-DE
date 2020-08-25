@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572240"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864579"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
@@ -256,6 +256,10 @@ Ein standortbasierter Routing aktivierter Benutzer für einen PSTN-Anruf ist nic
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Medien Umgehungs Anforderung für standortbasiertes Routing
 
 Wenn Sie ein standortbasiertes Routing in Indien bereitstellen, müssen Sie auch die medienumgehung konfigurieren. Weitere Informationen finden Sie unter [Planen der medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md) und [lokaler Medienoptimierung für das direkte Routing](direct-routing-media-optimization.md).
+
+### <a name="direct-voice-over-ip-voip"></a>Direct Voice over IP (VoIP)
+
+Direct Voice over IP (VoIP) darf nicht mit beliebigen Telefongeräten in Indien bereitgestellt werden.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

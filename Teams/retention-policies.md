@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45247384"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864569"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -192,7 +192,7 @@ Im Folgenden werden bekannte Probleme bei Aufbewahrungsrichtlinien in Teams darg
 
 - Unter **Benutzer**in der Speicherortzeile für **Teams-Chats** werden möglicherweise Gäste und Nicht-Postfachbenutzer angezeigt. Aufbewahrungsrichtlinien sollten nicht für Gäste eingerichtet werden, und wir arbeiten daran, diese aus der Liste zu entfernen.
 
-- Der Exchange Life Cycle-Assistent (ELC) wird täglich ausgeführt, hat aber eine SLA von 7 Tagen. Daher ist es möglich, dass, wenn Sie eine Richtlinie zur Aufbewahrung von Elementen, die älter als 60 Tage sind, haben, diese Elemente bis zu 67 Tage bestehen bleiben können. Dies ist keine neue Situation – sie folgt dem Exchange-Modell. Natürlich gibt es in den meisten Fällen keine Verzögerung.
+- Exchange-Lebenszyklus-Assistent (ELC) wird täglich ausgeführt, die Wartezeit ist jedoch bekanntermaßen bis zu 7 Tage in einigen Fällen abgelaufen. Daher ist es möglich, dass, wenn Sie eine Richtlinie zur Aufbewahrung von Elementen, die älter als 60 Tage sind, haben, diese Elemente bis zu 67 Tage bestehen bleiben können. Dies ist keine neue Situation – sie folgt dem Exchange-Modell. Natürlich gibt es in den meisten Fällen keine Verzögerung.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
