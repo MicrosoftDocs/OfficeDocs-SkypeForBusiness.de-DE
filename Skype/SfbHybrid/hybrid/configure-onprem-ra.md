@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868432"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868684"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
@@ -43,7 +43,7 @@ Wenn für die automatische Telefonzentrale oder die Anrufwarteschlange eine Dien
 
 Wenn die automatische Telefonzentrale oder die Anrufwarteschlange unter einer automatischen Telefonzentrale auf oberster Ebene geschachtelt ist, benötigt das zugehörige Ressourcenkonto nur eine Telefonnummer, wenn Sie mehrere Einstiegspunkte in die Struktur von automatischen Telefonzentralen und Anrufwarteschlangen erhalten möchten.
 
-Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online verwaltet werden, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder Microsoft 365 oder Office 365 Anrufpläne haben. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](/MicrosoftTeams/assign-teams-licenses). Um Sie für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online verwaltet werden, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder Microsoft 365 oder Office 365 Anrufpläne haben. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](/MicrosoftTeams/assign-teams-licenses). Um Sie für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Wenn die automatische Telefonzentrale oder die Anrufwarteschlange, die Sie erstellen, geschachtelt ist und keine Telefonnummer benötigt, lautet der Vorgang wie folgt:
 
@@ -83,6 +83,8 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
     ```
 
     Weitere Informationen zu diesem Befehl finden Sie unter [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
+    
+    Hinweis: zu diesem Zeitpunkt ist das Konto möglicherweise synchronisiert, aber die Einrichtung ist möglicherweise nicht abgeschlossen.  Überprüfen Sie die Ausgabe von [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Wenn der synchronisierte Endpunkt noch nicht abgeschlossen wurde, wird er hier nicht angezeigt.  Sie können den Status der Anforderungs Anforderungen im M365-Portal unter [Teams-Setup Status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)überprüfen.  Diese Vorbereitungsphase kann bis zu 24 Stunden dauern.
 
 5. Weisen Sie dem Ressourcenkonto die Lizenz für das Telefonsystem-Virtual User oder Phone System zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) und [Zuweisen von Lizenzen zu Benutzern](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -117,7 +119,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
 8. Ordnen Sie das Ressourcenkonto der automatischen Telefonzentrale oder der Anrufwarteschlange zu, die Sie zuvor ausgewählt haben.
 
-Ein Beispiel für eine Small Business-Implementierung ist im [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Ein Beispiel für eine Small Business-Implementierung ist im  [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Erstellen eines Ressourcenkontos ohne Telefonnummer
 
@@ -148,7 +150,7 @@ Melden Sie sich am Skype for Business Front-End-Server an, und führen Sie die f
    - [Erstellen einer Cloudanrufwarteschleife](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Ordnen Sie das Ressourcenkonto und die automatische Telefonzentrale oder Anrufwarteschlange, die Sie zuvor ausgewählt haben, zu.
 
-Ein Beispiel für eine Small Business-Implementierung ist im [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Ein Beispiel für eine Small Business-Implementierung ist im  [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Testen der Implementierung
 
