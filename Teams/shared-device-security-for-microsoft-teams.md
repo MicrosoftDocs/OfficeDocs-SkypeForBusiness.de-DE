@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a723a7300febde4eaa5045b9b1318a3e0cafe779
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860830"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868694"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Sicheres Verwenden von Microsoft Teams auf gemeinsam genutzten Computern
 
@@ -46,7 +46,7 @@ Es sollten Pläne entwickelt werden, die den Richtlinien möglichst genau entspr
 
 1. Nutzen Sie die Sicherheitsfunktionen der Betriebssystemplattform.
     1. Stellen Sie sicher, dass das Betriebssystem so konfiguriert ist, dass Updates vom Betriebssystemanbieter automatisch installiert werden (für Microsoft-Systeme wird dies über [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq) erreicht). 
-    2. Stellen Sie sicher, dass alle Geräteverschlüsselungsfunktionen wie z. B. [**bitlocker**](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) aktiviert sind und der für den Zugriff auf das Gerät verwendete Schlüssel gesichert ist.
+    2. Stellen Sie sicher, dass alle Geräteverschlüsselungsfunktionen wie z. B. [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) aktiviert sind und der für den Zugriff auf das Gerät verwendete Schlüssel gesichert ist.  Beachten Sie, dass die meisten modernen [**Windows 10-Geräte Bitlocker unterstützen**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10). 
     1. Verwenden Sie Antivirusfunktionen wie diejenigen, die von [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) auf Ihren Geräten bereitgestellt werden.
     1. Die Verwendung von [getrennten Benutzerkonten](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account) für jeden Benutzer des Systems wird dringend empfohlen.
     1. Vergeben oder verwenden Sie *keine* Administratorrechte für nicht administrative Funktionen (wie z. B. das Surfen im Web, das Ausführen von Teams usw.).
@@ -76,6 +76,6 @@ Die oben aufgeführten Punkte sind keine umfassende Liste der bewährten Methode
 
 [Artikel zum Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Teams-Webclient/Teams-Web-App](../get-clients.md#web-client)
+[Teams-Webclient/Teams-Web-App](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [Sicherheit und Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)

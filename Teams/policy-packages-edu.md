@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533902"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868704"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
 
@@ -74,7 +74,9 @@ Bevor Sie Ihren Benutzern Richtlinien zuweisen, müssen Sie zuerst Ihre Richtlin
 Standardmäßig wird jedem neuen Benutzer (Kursteilnehmer oder Lehrkraft) die globale Richtlinie (standardmäßig) für jeden Fähigkeitenbereich zugewiesen. Es wird empfohlen, diese Schritte auszuführen:
 
 1. Erstellen Sie für jeden Teams-Fähigkeitenbereich eine benutzerdefinierte Richtliniendefinition, die dann Ihren Lehrkräften zugewiesen werden kann (ohne dies werden alle Änderungen, die Sie an der globalen Richtlinie vornehmen, die Lehrkräfte so lange einschränken, bis sie über eine eigene Richtlinie verfügen).
+
 1. Weisen Sie Ihre Lehrkräfte dieser neuen Richtliniendefinition zu.
+
 1. Aktualisieren Sie die globale (d.h. organisationsweite Standard-)Richtliniendefinition und weisen Sie diese dann Ihren Schülern zu.
 
 Um Richtliniendefinitionen zu erstellen oder zu bearbeiten, wechseln Sie zum Richtlinien-Fähigkeitsbereich, in dem Sie arbeiten möchten (z. B. Messagingrichtlinien). Wählen Sie **Hinzufügen** aus, wenn Sie eine neue benutzerdefinierte Richtliniendefinition erstellen möchten (was Sie für die benutzerdefinierte Richtliniendefinition für Ihre Lehrkräfte tun werden). Andernfalls wählen Sie zum Ändern einer vorhandenen Richtliniendefinition **Bearbeiten** aus (dies ist die richtige Vorgehensweise, wenn Sie die globale Richtlinie für Schüler/Studenten aktualisieren).
@@ -155,26 +157,52 @@ Jeder einzelnen Richtlinie wird der Name des Richtlinienpakets zugewiesen, damit
 Wenn Sie sicherstellen möchten, dass Schüler keine Besprechung planen können, um unbeaufsichtigt zu kommunizieren, stellen Sie die Funktion zur Erstellung einer Besprechung in den Besprechungsrichtlinien **Aus**:
 
 - **Sofortbesprechungen in Kanälen zulassen**: Aus
+
 - **Outlook-Add-In zulassen**: Aus
+
 - **Planung von Kanalbesprechungen zulassen**: Aus
+
 - **Planung privater Besprechungen zulassen**: Aus
 
-![Schüler in Remote-Learning-Umgebung, der Abschnitt „Allgemeines“ wird angezeigt, hier sind alle Optionen ausgeschaltet.](media/edu-policy-list-a.png)
+  ![Schüler in Remote-Learning-Umgebung, der Abschnitt „Allgemeines“ wird angezeigt, hier sind alle Optionen ausgeschaltet.](media/edu-policy-list-a.png)
 
 - Und auf der gleichen Seite im Abschnitt "Teilnehmer und Gäste" in der Besprechung:
+
   - **Sofortbesprechungen in privaten Besprechungen zulassen**: Aus
   - **Chat in Besprechungen zulassen**: Deaktiviert
 
-![Abschnitt "Teilnehmer und Gäste" mit der Option "Sofortbesprechung in privaten Besprechungen zulassen" auf "Aus".](media/edu-participants-and-guests.png)
+  ![Abschnitt "Teilnehmer und Gäste" mit der Option "Sofortbesprechung in privaten Besprechungen zulassen" auf "Aus".](media/edu-participants-and-guests.png)
 
 Wenn Sie **Sofortbesprechungen in Kanälen zulassen**, **Planung von Kanalbesprechungen zulassen**, **Planung privater Besprechungen zulassen** und **Sofortbesprechungen in privaten Besprechungen** für Schüler/Studenten deaktivieren, werden diese an der Planung einer Besprechung als Organisatoren gehindert. Darüber hinaus ergeben sich dadurch auch die folgenden Sicherheitsmaßnahmen für Bildungseinrichtungen:
 
 - Wenn Schüler/Studenten versuchen, der Besprechung vor der Lehrkraft beizutreten, ist es ihnen nicht möglich, der Besprechung über die neueste Version der Microsoft Teams-App beizutreten.
+
 - Obwohl die Besprechungserstellung für alle Benutzer und Lizenzen gilt, gelten die vorstehenden Sicherheitsmaßnahmen zur Hinderung an der Besprechungsteilnahme nur für Education-Kunden in Microsoft Teams basierend auf dem Lizenztyp der Benutzer.
+
+Hier ist eine Tabelle, in der die Logik für jede Richtlinie zur Besprechungserstellung beschrieben wird:
+
+| Richtlinie zur Besprechungserstellung | Erstellen einer Besprechung | Unbeaufsichtigtes Starten einer Besprechung | Umgehen des Wartebereichs beim Beitritt | Beenden der Besprechung |
+| --- | --- | --- | --- | --- |
+| **„Aktiviert“ (z. B. Lehrkraft)** | Ja | Ja | Bestimmt durch [Besprechungsoptionen](https://go.microsoft.com/fwlink/?linkid=2093366) | Ja, als Organisator
+| **„Deaktiviert“ (z. B. Kursteilnehmer)** | Nein | Nein\*\* | Bestimmt durch [Besprechungsoptionen](https://go.microsoft.com/fwlink/?linkid=2093366) | Nein
+
+> [!NOTE]
+> \*\* Dies gilt nur für EDU-lizenzierte Benutzer sowie für Besprechungen, Kanalbesprechungen, Sofortbesprechungen und Sofortbesprechungen in einem Kanal.
 
 Wenn die Richtlinie **Chat in Besprechungen zulassen** deaktiviert wird und die Schüler/Studenten daran gehindert werden, Besprechungen zu planen, während diese Richtlinie für Lehrkräfte aktiviert bleibt (für Besprechungen, die nicht in einem Kanal geplant sind oder Sofortbesprechungen in einem Kanal), sind die Schüler/Studenten nicht in der Lage, zu chatten, bevor die Lehrkraft der Besprechung beitritt, und auch nicht nach der Besprechung. Sie können den Chatverlauf weiterhin vor, während und nach der Besprechung anzeigen. Sie können z. B. Nachrichten des Kursleiters sehen oder den Link zur Besprechungsaufzeichnung, sofern die Besprechung aufgezeichnet wurde.
 
 Wenn die Richtlinie **Chat in Besprechungen zulassen** sowohl für Kursteilnehmer als auch für Kursleiter deaktiviert ist, kann niemand im Besprechungs-Chatfenster chatten. Die oben beschriebene Sicherheitsmaßnahme zur Einschränkung des Besprechungschats gilt nur für Education-Kunden in Microsoft Teams basierend auf dem Lizenztyp der Benutzer.
+
+Hier ist eine Tabelle mit einer Beschreibung der Logik zum Zulassen von Chats in Besprechungen:
+
+| Richtlinie „Chat in Besprechungen zulassen“ | Jederzeit Chatverlauf anzeigen | Posten von Nachrichten während der Besprechung | Posten von Nachrichten vor oder nach der Besprechung |
+| --- | --- | --- | --- | 
+| **„Aktiviert“ für alle** | Ja | Ja | Ja |
+| **„Deaktiviert“ für alle** | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend |
+| **„Aktiviert“ für Lehrkräfte und „Deaktiviert“ für Kursteilnehmer** | Lehrkraft: Ja<br>Kursteilnehmer: Ja | Lehrkraft: Ja<br>Kursteilnehmer: Ja | Lehrkraft: Ja<br>Kursteilnehmer: Nein\*\* | 
+
+> [!NOTE]
+> \*\* Dies gilt nur für EDU-lizenzierte Benutzer sowie für Besprechungen und Sofortbesprechungen. Es gilt nicht für Kanalbesprechungen oder Sofortbesprechungen im Kanal.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Steuern Sie, ob Kursteilnehmer ihre Videos während Anrufen und Besprechungen freigeben können
 
@@ -209,17 +237,20 @@ Um sicherzustellen, dass Schüler keine privaten Gespräche mit anderen Schüler
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Deaktivieren der Möglichkeit zum Löschen oder Bearbeiten von gesendeten Nachrichten
 
 - Für Schüler/Studenten: um sicherzustellen, dass die von Schülern gesendeten Nachrichten nicht gelöscht oder geändert werden, sollte diese Einstellung für Schüler **deaktiviert** werden:
+
   - **Gesendete Nachrichten löschen**
   - **Gesendete Nachrichten bearbeiten**
+  
 - Für Lehrkräfte: um sicherzustellen, dass Lehrkräfte unangemessene Nachrichten, die von Schülern gesendet werden, moderieren oder löschen können, sollte diese Einstellung für Lehrkräfte **aktiviert** werden:
+
   - **Besitzer können gesendete Nachrichten löschen** (diese Einstellung ermöglicht es Lehrkräften, unangemessene Schülernachrichten zu löschen)
   - **Gesendete Nachrichten löschen**
   - **Gesendete Nachrichten bearbeiten**
 
-![Schüler einer Bildungseinrichtung in Remote-Learning-Umgebung, die Seite mit Einstellungen für gesendete Nachrichten für Schüler und Lehrkräfte wird angezeigt.](media/edu-delete-edit-sent.png)
+  ![Schüler einer Bildungseinrichtung in Remote-Learning-Umgebung, die Seite mit Einstellungen für gesendete Nachrichten für Schüler und Lehrkräfte wird angezeigt.](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
-> Weitere Informationen zu diesem Thema finden Sie unter [Stummschalten von Schülerkommentaren in einem Klassenteam](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
+> Weitere Informationen zu diesem Thema finden Sie unter [Stummschalten der Kommentare von Kursteilnehmern in einem Kursteam](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
 
 #### <a name="control-whether-students-can-chat-privately"></a>Steuern, ob Kursteilnehmer privat chatten können
 
@@ -254,7 +285,7 @@ Wenn Sie sicherstellen möchten, dass die Kursteilnehmer keinen privaten Kanal a
 ![Die Richtlinienseite in Teams mit dem Bereich „Neue Teams-Richtlinie“, welche die rechte Seite der Website überlagert. Das Erstellen von privaten Kanälen ist auf diesem Bereich auf „Aus“ festgelegt.](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> Wahrscheinlich möchten Sie auch sicherstellen, dass die Kursteilnehmer nicht in der Lage sind, neue Teams in Microsoft Teams zu erstellen. Hierbei handelt es sich eigentlich um eine M365-Gruppeneinstellung, weitere Informationen dazu finden Sie [hier](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+> Wahrscheinlich möchten Sie auch sicherstellen, dass die Kursteilnehmer nicht in der Lage sind, neue Teams in Microsoft Teams zu erstellen. Dies ist tatsächlich eine Einstellung für M365-Gruppen, und Sie können mehr dazu in [Verwalten von Personen, die Microsoft 365-Gruppen erstellen können](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) lesen.
 
 ### <a name="app-permission-policies"></a>App-Berechtigungsrichtlinien
 
@@ -312,7 +343,9 @@ Während das Festlegen von Richtlinien eine hervorragende Möglichkeit für Admi
 ![Einladung „Microsoft Teams-Besprechung beitreten“, die Besprechungsoptionen sind ganz rechts unter dem Einladungslink zu sehen.](media/edu-join-meeting-options.png)
 
 - Mit der Auswahl **Wer kann die Lobby umgehen** können Sie steuern, wer der Besprechung direkt beitreten können soll. Legen Sie dies auf **Personen in meiner Organisation** fest, um externen Benutzern keine Möglichkeit zu bieten, direkt beizutreten und legen Sie **Anrufer immer die Lobby umgehen lassen** auf **Aus** fest, damit Teilnehmer zur Besprechung zugelassen werden müssen, anstatt direkt beizutreten. Sie haben auch die Möglichkeit **den Beitritt oder das Verlassen von Anrufern ankündigen zu lassen** und diese Option sollte auf **An** festgelegt werden, damit Sie immer wissen, wer sich in der Besprechung befindet.
+
 - Steuern, wer der Besprechung als Referent oder Teilnehmer beitritt. Sie können **Nur ich** auswählen, um alle anderen Teilnehmer als bloße Teilnehmer festzulegen. Dies ist die sicherste Einrichtung für Besprechungen in der Form einer Klassenzimmer-Situation.
+
   - Wenn Sie davon ausgehen, dass in Ihrer Besprechung mehrere Referenten anwesend sein werden, wählen Sie **bestimmte Personen** aus und wählen Sie die anderen Teilnehmer aus, die als Referenten beitreten sollen. Wählen Sie **Jeder** aus, wenn alle Teilnehmer als Referenten an der Besprechung teilnehmen sollen.
 
 :::image type="content" source="media/edu-meeting-options.png" alt-text="Dropdownfeld „Wer kann die Lobby umgehen“, „Personen in meiner Organisation“ ist ausgewählt und Dropdownfeld „Wer kann präsentieren“ mit „Nur ich“ ausgewählt.":::
@@ -339,11 +372,11 @@ Jedem Teilnehmer an einer Besprechung wird eine Rolle als Referent oder Teilnehm
 
 - Wenn Sie die Rolle eines Teilnehmers ändern möchten, klicken oder tippen Sie auf **Teilnehmer anzeigen** in Ihren Anrufsteuerelementen. Klicken Sie mit der rechten Maustaste auf den Teilnehmer, dessen Rolle geändert werden muss, und wählen Sie dann **Status zu „Teilnehmer“ ändern** oder **Status zu „Referent“ ändern** aus.
 
-![Personenleiste mit einer Menüoption, die zeigt, dass „Status zu „Teilnehmer“ ändern“ die vierte Option im Menü ist.](media/edu-make-attendee-menu.png)
+  ![Personenleiste mit einer Menüoption, die zeigt, dass „Status zu „Teilnehmer“ ändern“ die vierte Option im Menü ist.](media/edu-make-attendee-menu.png)
 
 - Wenn Sie schnell auf Ihre Besprechungsoptionen zugreifen und die Einstellungen für die Besprechungsrolle sowohl für aktuelle Teilnehmer als auch für jeden, der zukünftig an Ihrer Besprechung teilnimmt, ändern möchten, klicken oder tippen Sie auf **weitere Aktionen** in Ihren Anrufsteuerelementen, und dann auf **Besprechungsdetails anzeigen**. Den Link zu Ihren **Besprechungsoptionen ** finden Sie neben dem Link der Besprechung.
 
-:::image type="content" source="media/edu-meeting-details.png" alt-text="Besprechungsfenster mit dem Bereich „Besprechungsdetails“ auf der rechten Seite.":::
+  :::image type="content" source="media/edu-meeting-details.png" alt-text="Besprechungsfenster mit dem Bereich „Besprechungsdetails“ auf der rechten Seite.":::
 
 ### <a name="mute-student-comments"></a>Stummschalten der Kommentare von Kursteilnehmern
 
@@ -365,6 +398,6 @@ Sie können steuern, wann Schüler im Klassenteam und in Besprechungschats poste
 
 ![Liste der Besprechungsteilnehmer, welche die Option zum Stummschalten einzelner oder aller Kursteilnehmer am Anfang der Liste anzeigt.](media/edu-student-mute.png)
 
-## <a name="further-reading"></a>Weitere Informationen
+## <a name="further-reading"></a>Weitere Lektüre
 
-Informieren Sie sich unter [Schutz von Schülern bei der Verwendung von Teams für den Fernunterricht](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8), um weitere Informationen zum Schutz Ihrer Schüler zu erhalten.
+Weitere Informationen zum Schutz von Kursteilnehmern finden Sie unter [Schutz von Kursteilnehmern bei Besprechungen in Teams für den Fernunterricht](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672756"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864509"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -180,6 +180,26 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 Kanäle werden durch Ordner innerhalb der SharePoint Online-Websitesammlung, die für das Team erstellt wurde, gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
 
 Weitere Informationen finden Sie unter [SharePoint Online-Beschränkungen](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="class-teams"></a>Kursteams
+
+Microsoft Teams für Bildungseinrichtungen stellt Vorlagen bereit, die für einmalige Schulungsszenarien konzipiert wurden, z. B. Unterricht im Kursraum. Weitere Informationen zu Teamtypen, einschließlich Kursteams, finden Sie in [Auswählen eines Teamtyps für die Zusammenarbeit in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+
+Ein Kursteam ist ein Vorlagentyp mit zusätzlichen Apps, dessen Grenzwerte unabhängig von der Anzahl der Teammitglieder sind.
+
+> [!NOTE]
+> Für die Verwendung von Kursteams ist eine [Office 365 Education-Lizenz](https://www.microsoft.com/education/products/office) erforderlich.
+
+In der nachstehenden Tabelle sind die Grenzwerte für Kursteams aufgelistet:
+
+|Feature  |Obergrenze  |
+|---------|---------|
+|Anzahl von Mitgliedern in einem Team    | Lesen Sie in diesem Artikel den Abschnitt [Teams und Kanäle](#teams-and-channels).        |
+|Anzahl von Mitgliedern, die Aufgaben in einem Kursteam verwenden sollen    | 200        |
+|Anzahl von Mitgliedern, die ein OneNote-Kursnotizbuch in einem Kursteam verwenden sollen     |200         |
+
+Ein Kursteam kann mehr als 200 Mitglieder unterstützen. Wenn Sie aber vorhaben, innerhalb Ihres Teams die App „Aufgaben“ oder die App „Kursnotizbuch“ zu verwenden, muss die Anzahl von Mitgliedern unter der vorstehenden Obergrenze bleiben.
+
 
 ## <a name="tags"></a>Tags
 
