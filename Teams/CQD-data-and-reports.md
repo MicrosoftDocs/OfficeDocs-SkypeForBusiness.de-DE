@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Informieren Sie sich über die Daten und Berichte, die im Microsoft Call Quality-Dashboard (CQD) zur Verfügung stehen.
-ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4b96f64f7f182c0d4c95796358b20b38d8c726b4
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583092"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897845"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Daten und Berichte im Dashboard für die Anrufqualität (CQD)
 
@@ -59,14 +59,14 @@ Sie können [zwei kuratierte CQD-Berichtsvorlagen](https://aka.ms/qertemplates) 
 
 4. Wiederholen Sie die Schritte 2 und 3 für die zweite CQD-Vorlage.
 
-> [!NOTE]
-> Jeder Benutzer muss die CQD-Vorlagen in die CQD-Instanz importieren. 
+   > [!NOTE]
+   > Jeder Benutzer muss die CQD-Vorlagen in die CQD-Instanz importieren. 
 
 
 
 ## <a name="euii-data"></a>EUII-Daten
 
-Aus Kompatibilitätsgründen werden Endbenutzer-identifizierbare Daten (EUII) (auch bekannt als personenbezogene Informationen oder PII) nur 30 Tage lang aufbewahrt. Wenn NRT-Daten die 30-Tage-Marke überschreiten, werden Felder, die EUII enthalten, gelöscht, was zu EUII-freien NRT-Daten führt. Felder, die EUII-Daten enthalten, sind:
+Aus Kompatibilitätsgründen werden Endbenutzer-identifizierbare Daten (EUII) (auch bekannt als personenbezogene Informationen oder PII) nur 28 Tage lang aufbewahrt. Wenn NRT-Daten die 28-Tage-Marke überschreiten, werden Felder, die EUII enthalten, gelöscht, was zu EUII-freien NRT-Daten führt. Felder, die EUII-Daten enthalten, sind:
 
 - Vollständige IP-Adresse
 - Mac-Adresse (Media Access Control)
@@ -151,12 +151,12 @@ In detaillierten Berichten können Sie die **is Teams** -Dimension verwenden, um
 
 Dies sind die Berichte, die Sie auf dem CQD-Dashboard sehen, wenn Sie sich zum ersten Mal bei CQD anmelden. Sie geben Ihnen einen Überblick über die qualitätstrends mit täglichen, monatlichen und Tabellen Berichten, die Ihnen bei der Ermittlung von Subnetzen helfen, die schlechte Qualität aufweisen. 
 
-|Registerkarte  |  |
+| Registerkarte | Beschreibung |
 |---------|---------|
-|Allgemeine Anrufqualität     | Aggregat der anderen drei Registerkarten        |
-|Server – Client     |Details zu den Datenströmen zwischen Server-und Clientendpunkten         |
-|Client – Client     |Details zu den Streams zwischen zwei Clientendpunkten         |
-|SLA zur Sprachqualität     |Informationen zu anrufen, die in der Skype for Business-sprach Quality- [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252) enthalten sind         |
+|Allgemeine Anrufqualität     | Aggregat der anderen drei Registerkarten.       |
+|Server – Client     |Details zu den Datenströmen zwischen Server-und Clientendpunkten.        |
+|Client – Client     |Details zu den Streams zwischen zwei Clientendpunkten.        |
+|SLA zur Sprachqualität     |Informationen zu anrufen, die in der Skype for Business-Sprachqualität [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)enthalten sind.        |
 
 ### <a name="overall-call-quality-tab"></a>Registerkarte „Gesamtanrufqualität"
 
@@ -164,7 +164,7 @@ Verwenden Sie die Daten auf dieser Registerkarte, um den Status und die Trends f
   
 ![Screenshot: Anzeigen der Registerkarte "Anrufqualität"](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Streams werden in drei Gruppen klassifiziert: gut, schlecht und nicht klassifiziert. Es gibt auch berechnete *schlechte%* -Werte, die Ihnen das Verhältnis der als *schlecht* klassifizierten Streams zur Gesamtanzahl der klassifizierten Datenströme geben. Da *schlechte% = schlechte Streams/(schlechte Streams + gute Streams) * 100*, ist der *schlechte%* durch das vorhanden sein mehrerer nicht *klassifizierter* Streams nicht betroffen. Wenn Sie sehen möchten, was einen Datenstrom als "schlecht" oder "gut" klassifiziert, lesen Sie die [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md).
+Streams werden in drei Gruppen klassifiziert: gut, schlecht und nicht klassifiziert. Es gibt auch berechnete  *schlechte%*  -Werte, die Ihnen das Verhältnis der als *schlecht*  klassifizierten Streams zur Gesamtanzahl der klassifizierten Datenströme geben. Da *schlechte% = schlechte Streams/(schlechte Streams + gute Streams) * 100*, ist der *schlechte%*  durch das vorhanden sein mehrerer nicht *klassifizierter*  Streams nicht betroffen. Wenn Sie sehen möchten, was einen Datenstrom als "schlecht" oder "gut" klassifiziert, lesen Sie die [Datenstrom Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md).
   
 Verwenden Sie die Skalierung auf der linken Seite, um die Werte für die Datenstromanzahl zu messen.
   
@@ -202,13 +202,14 @@ Auf ähnliche Weise verfügt die Registerkarte Client-Client über fünf reduzie
 
 #### <a name="inside-versus-outside"></a>Drinnen versus außerhalb
 
-CQD stuft einen Datenstrom *in* oder *außerhalb* mithilfe von Gebäudeinformationen ein, sofern vorhanden. Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Wenn sich das Subnetz in der Liste der Subnetze befindet, die in den hochgeladenen Gebäudeinformationen als InsideCorp markiert sind, wird es im *Innern*berücksichtigt. Wenn noch keine Gebäudeinformationen hochgeladen wurden, werden die Datenströme von Inside Test immer als *außerhalb*klassifiziert. 
+CQD stuft einen Datenstrom  *in*  oder *außerhalb*  mithilfe von Gebäudeinformationen ein, sofern vorhanden. Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Wenn sich das Subnetz in der Liste der Subnetze befindet, die in den hochgeladenen Gebäudeinformationen als InsideCorp markiert sind, wird es im *Innern*berücksichtigt. Wenn noch keine Gebäudeinformationen hochgeladen wurden, werden die Datenströme von Inside Test immer als *außerhalb*klassifiziert. 
 
 Der interne Test für ein Server-Client-Szenario berücksichtigt nur den Client Endpunkt. Da sich Server aus der Perspektive des Benutzers stets außerhalb befinden, werden sie beim Test nicht berücksichtigt.
   
 #### <a name="wired-versus-wifi"></a>Wired versus WiFi
 
 Wie die Namen angeben, basieren die Klassifizierungskriterien auf dem Typ der Clientverbindungen. Der Server ist immer verkabelt und nicht in der Berechnung enthalten. Wenn einer der beiden Endpunkte in einem bestimmten Datenstrom mit einem WLAN-Netzwerk verbunden ist, wird er von CQD als WLAN klassifiziert.
+
 > [!NOTE]
 > Wenn einer der beiden Endpunkte in einem Stream mit einem WLAN-Netzwerk verbunden ist, wird er in CQD als WLAN klassifiziert.
   
@@ -217,8 +218,8 @@ Wie die Namen angeben, basieren die Klassifizierungskriterien auf dem Typ der Cl
 
 Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Mandantendaten Upload** , auf die durch Auswählen von **Mandantendaten Upload** im Menü Einstellungen in der oberen rechten Ecke zugegriffen wird. Diese Seite wird für Administratoren verwendet, um Ihre eigenen Informationen hochzuladen, beispielsweise:
 
-- Eine Karte mit IP-Adressen und geografischen Informationen
-- Eine Karte der einzelnen WLAN-AP und deren Mac-Adresse
+- Eine Karte mit IP-Adressen und geografischen Informationen.
+- Eine Karte mit jedem Drahtloszugriffspunkt und seiner Mac-Adresse.
 - Eine Karte des Endpunkt-zu-Endpunkt-Marke/-Modells/-Typs usw.
   
 Wir empfehlen, dass Sie Ihre Mandanten-, Gebäude-und Standortdaten hochladen, damit CQD diese Informationen in Ihre Berichte aufnehmen kann. Wenn Sie diese Daten noch nicht hochgeladen haben, lesen Sie [Hochladen von Mandanten und Erstellen von Daten](CQD-upload-tenant-building-data.md). 
@@ -226,13 +227,13 @@ Wir empfehlen, dass Sie Ihre Mandanten-, Gebäude-und Standortdaten hochladen, d
 
 ## <a name="detailed-reports"></a>Detaillierte Berichte
 
-|Name  |  |
+| Name | Beschreibung |
 |---------|---------|
 |Standort optimierte Berichte     |Zeigt qualitätstrends auf der Grundlage von Standortinformationen. Dieser Bericht wird nur angezeigt, wenn Sie [Ihre Mandantendaten hochgeladen](CQD-upload-tenant-building-data.md)haben.        |
-|Zuverlässigkeitsberichte     |Umfasst Audio, Video, videobasierte Bildschirmfreigabe (schlechte VBSS) und App-Freigabe Berichte         |
+|Zuverlässigkeitsberichte     |Umfasst Audio, Video, videobasierte Bildschirmfreigabe (schlechte VBSS) und App-Freigabe Berichte.        |
 |Berichte über die Qualität von Erfahrungen     |Audioqualität und-Zuverlässigkeit für alle Clients und Geräte, einschließlich Besprechungsräumen. Bei diesen Berichten handelt es sich um eine abgespeckte Version der herunterladbaren [CQD-Vorlagen](https://aka.ms/QERtemplates), die sich auf wichtige Bereiche für die Analyse von Audioqualität und-Zuverlässigkeit konzentriert.         |
-|Qualitäts Drilldown-Berichte     | Drilldowns: Datum nach Region, Orten, Subnetzen, Stunden und Benutzern         |
-|Fehler Drilldown-Berichte     | Drilldowns: Datum nach Region, Orten, Subnetzen, Stunden und Benutzern        |
+|Qualitäts Drilldown-Berichte     | Drilldowns: Datum nach Region, Orten, Subnetzen, Stunden und Benutzern.        |
+|Fehler Drilldown-Berichte     | Drilldowns: Datum nach Region, Orten, Subnetzen, Stunden und Benutzern.        |
 |Meine Anrufberichte abstimmen     |Analysieren der Nutzer Anruf Bewertungen nach Region, Standort oder nach Benutzer. Enthält Verbatim-Feedback.         |
 |Helpdesk-Berichte     |In den Helpdesk-Berichten werden Anruf-und Besprechungsdaten für einzelne Benutzer, Gruppen von Benutzern oder alle Personen betrachtet. Mithilfe dieser Berichte können Sie Gebäude-und EUII-Daten integrieren, um mögliche System Probleme zu erkennen, die auf Netzwerkstandort, Konferenzdetails, Geräten oder Firmware basieren.         |
 |Client Versions Berichte     |Client-Versions Zusammenfassung: Anzeigen der Sitzungen und Benutzeranzahl für jede Client-App-Version<br><br>Client Version nach Benutzer: Anzeigen von Benutzernamen für jede Client-App-Version <br><br>Vordefinierte Filter für Produkt-und Client Typen helfen bei der Fokussierung der Versionen auf bestimmte Clients.         |
@@ -243,7 +244,8 @@ Wir empfehlen, dass Sie Ihre Mandanten-, Gebäude-und Standortdaten hochladen, d
 
 Wenn die standardmäßigen CQD-Berichte Ihren Anforderungen nicht entsprechen, verwenden Sie diese Anweisungen, um einen benutzerdefinierten Bericht zu erstellen. Oder (ab Januar 2020) [verwenden Sie stattdessen Power BI für CQD-Berichte ](cqd-power-bi-query-templates.md).
 
-Wählen Sie in der Pulldown-Liste der oben auf dem Bildschirm angezeigten Berichte auf \( dem Bildschirm " **Zusammenfassungsberichte** " \) **detaillierte Berichte** und dann **neu**aus. Klicken Sie in einem Bericht auf **Bearbeiten** , um den Abfrage-Editor anzuzeigen. Jeder Bericht basiert auf einer Abfrage im Cube. Ein Bericht ist die visuelle Darstellung der Daten, die von der jeweiligen Abfrage zurückgegeben werden. Der Abfrage-Editor hilft Ihnen, diese Abfragen und die Anzeigeoptionen des Berichts zu bearbeiten.
+Wählen Sie in der Pulldown-Liste der oben auf dem Bildschirm angezeigten Berichte auf \( dem Bildschirm " **Zusammenfassungsberichte** " \) **detaillierte Berichte**  und dann **neu**aus. Klicken Sie in einem Bericht auf **Bearbeiten** , um den Abfrage-Editor anzuzeigen. Jeder Bericht basiert auf einer Abfrage im Cube. Ein Bericht ist die visuelle Darstellung der Daten, die von der jeweiligen Abfrage zurückgegeben werden. Der Abfrage-Editor hilft Ihnen, diese Abfragen und die Anzeigeoptionen des Berichts zu bearbeiten.
+
 > [!IMPORTANT]
 > Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bei bestimmten VPN-Implementierungen werden die Subnetinformationen nicht genau gemeldet. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich).
 >
@@ -306,7 +308,7 @@ Um mehrere Filterwerte auszuwählen, fügen Sie zunächst einen neuen Filter zum
 
 Klicken Sie dann auf **Suchen** (ein Vergrößerungsglassymbol neben dem neuen Filter). Sie sehen ein Textfeld und eine Reihe von Optionen, einschließlich **"Alles auswählen"** und " **umkehren**". Geben Sie einen Wert ein, und klicken Sie neben dem zu durchsuchenden Feld auf **Suchen** . Alternativ können Sie das Textfeld leer lassen und auf **Suchen** klicken, um die ersten 100-Optionen anzuzeigen.
 
-```PowerShell
+```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -318,7 +320,7 @@ Beispiel:
 Bestimmten CQD-Berichten sind Filter auf dashboardebene hinzugefügt, sodass Sie nach allgemeinen Parametern einfach gefiltert werden können. Diese Filter werden außerhalb der regulären Bericht Registerkarten und direkt unterhalb des Produkt Filters angezeigt, und Sie gelten für alle Filter im Dashboard.
 
 ![Screenshot eines Dashboard-Filters](media/qerguide-image-dashboardfilters.png)
-```PowerShell
+```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -329,29 +331,29 @@ Das Ausschließen von Verbund Daten aus CQD-Berichten ist hilfreich, wenn Sie ve
 
 Um einen Filter hinzuzufügen, fügen Sie am Ende der URL Folgendes an:
 
-```
+```console
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
 Beispiel:  
 
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+`https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]`
 
 Um einen Filter auf dashboardebene zu einer URL hinzuzufügen, muss dieser Filter in CQD entweder als Produkt-oder dashboardebene-Filter vorhanden sein. Fügen Sie diese Filter der URL nach dem Trend Monat und vor den URL-Parametern hinzu:
 
-```filter/DATA_MODEL_NAME|VALUE```
+`filter/DATA_MODEL_NAME|VALUE`
 
 Wenn Sie beispielsweise einen Produktfilter Wert von Microsoft Teams anwenden möchten, fügen Sie Folgendes hinzu:
 
-```filter/[AllStreams].[Is%20Teams]|[True]```
+`filter/[AllStreams].[Is%20Teams]|[True]`
 
 Die gesamte URL sieht ungefähr wie folgt aus:
 
-```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+`https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
 Wenn Sie URL-Filter mit Mehrfachauswahl Werten anwenden möchten, trennen Sie die einzelnen Werte durch ein Pipe-Zeichen (|). Beispiel:
 
-```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+`filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
 Wenn Sie einen ungültigen Namen oder einen ungültigen Wert angeben, wird der URL-Filter nicht angewendet.
 
@@ -376,16 +378,15 @@ Die Mandanten-ID in CQD entspricht der Verzeichnis-ID in Azure. Wenn Sie Ihre Ve
 3.  Wählen Sie unter **Verwalten** **Eigenschaften** aus. Ihre Mandanten-ID befindet sich im Feld **Verzeichnis-ID** .
 
 Sie können Ihre Mandanten-ID auch mithilfe von PowerShell ermitteln: 
-  ```
-  Login-AzureRmAccount
-  ```
 
-
+```powershell
+Login-AzureRmAccount
+```
 
 ## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Vergleich von Teams und Skype for Business-CQD-Daten
 
 Selbst innerhalb des aktuellen CQD (CQD.Teams.Microsoft.com) werden Unterschiede zwischen den Daten zwischen Teams und Skype for Business angezeigt. Einige Gründe:
-- Unterschiede bei den Mechanismen zur Sicherstellung der Leistung und Zuverlässigkeit
+- Unterschiede in den Mechanismen zur Sicherstellung der Leistung und Zuverlässigkeit:
   - Teams hat eine automatische Wiederherstellung und ein schnelles Roaming. Skype for Business nicht.
   - Teams verfügt über dynamische Bandbreitenverwaltung. Skype for Business nicht.
 - Unterschiede bei [IP-Adressbereichen](Office-365-URLs-IP-address-ranges.md) zwischen Teams und Skype for Business. Die IP-Bereiche von Teams sind neuer, was zu Verbindungsproblemen bei der Firewall führen kann.
@@ -395,10 +396,12 @@ Selbst innerhalb des aktuellen CQD (CQD.Teams.Microsoft.com) werden Unterschiede
 ![Symbol des Skype for Business-Logos ](media/sfb-logo-30x30.png) **unter Verwendung des Legacy-Portals von Skype for Business**
 
 1. Melden Sie sich mit einem Administratorkonto bei Ihrer Office 365-Organisation an, und wählen Sie dann die Kachel **Admin** aus, um das Admin Center zu öffnen.
+
 2. Wählen Sie im linken Bereich unter **Admin Center**die Option **Microsoft Teams** aus, um das Team Admin Center zu öffnen.
+
 3. Wählen Sie im Team Admin Center im linken Bereich **Legacy Portal** aus, wählen Sie **Tools**aus, und wählen Sie dann **Skype for Business Online-Anruf Qualitäts Dashboard**aus.
 
-     ![Screenshot: Auswählen des Dashboards für die Anrufqualität](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+   ![Screenshot: Auswählen des Dashboards für die Anrufqualität](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 
 4. Melden Sie sich auf der daraufhin geöffneten Seite mit ihrem globalen Administrator Konto an, und geben Sie die Anmeldeinformationen für das Konto ein, wenn Sie dazu aufgefordert werden.
 

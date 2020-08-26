@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662085"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897804"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -105,7 +105,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Wo Ihre Besprechungsaufzeichnungen gespeichert werden
 
-Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert. Sobald Sie eine Besprechung aufgezeichnet haben, bleibt sie in Microsoft Stream für immer erhalten (oder bis der Eigentümer der Aufzeichnung sie löscht). Wenn die Aufzeichnung nicht in Stream hochgeladen wird, wird sie im Cloud-Speicher von Teams gespeichert, wo sie 20 Tage lang zum Herunterladen verfügbar ist. Derzeit ist das Feature für die Besprechungsaufzeichnung von Teams für Kunden ausgeschaltet, deren Teams-Daten inländisch gespeichert werden, falls Microsoft Stream im inländischen Datenbereich, in dem die Daten gespeichert werden, nicht verfügbar ist.
+Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert. Aufzeichnungen werden aufbewahrt und können 21 Tage lang angezeigt und heruntergeladen werden. Derzeit ist das Feature für die Besprechungsaufzeichnung von Teams für Kunden ausgeschaltet, deren Teams-Daten inländisch gespeichert werden, falls Microsoft Stream im inländischen Datenbereich, in dem die Daten gespeichert werden, nicht verfügbar ist. In Zukunft wird das Feature für die Besprechungsaufzeichnung von Teams für Kunden eingeschaltet, deren Daten inländisch gespeichert werden, auch wenn Microsoft Stream im inländischen Datenbereich nicht verfügbar ist.
+
+Wenn diese Änderung wirksam wird, werden Besprechungsaufzeichnungen standardmäßig in der nächstgelegenen geografischen Region für Microsoft Stream gespeichert. Wenn Ihre Teams-Daten inländisch gespeichert werden und Sie Besprechungsaufzeichnungen lieber im Inland speichern möchten, empfehlen wir, dass Sie dieses Feature deaktivieren und es erst dann wieder aktivieren, nachdem Microsoft Stream für Ihren Datenaufbewahrungsbereich in Ihrem Land bereitgestellt wurde. Wenn Sie das Feature für alle Benutzer in Ihrer Organisation deaktivieren möchten, deaktivieren Sie in der globalen Teams-Besprechungsrichtlinie, die sich im Microsoft Teams Admin Center befindet, die Einstellung " **Cloud-Aufzeichnung zulassen** ".
+
+Nachfolgend finden Sie eine Zusammenfassung dessen, was passiert, wenn Sie die Besprechungsaufzeichnung aktivieren, wenn diese Änderung wirksam wird:
+
+|Wenn Sie Besprechungsaufzeichnungen aktivieren|Besprechungsaufzeichnungen werden gespeichert... |
+|---|---|
+|Bevor Microsoft Stream in Ihrer Region für den nationalen Daten Wohnsitz verfügbar ist |Im nächsten Microsoft-Datenstrom Bereich|
+|Nach der Verfügbarkeit von Microsoft Stream in Ihrer Region für den nationalen Daten Wohnsitz |In der Region für den nationalen Daten Wohnsitz|
+
+Bei neuen und vorhandenen Mandanten, die die Besprechungsaufzeichnung noch nicht aktiviert haben, werden neue Aufzeichnungen lokal gespeichert, nachdem Microsoft Stream im lokalen Datenaufbewahrungsbereich zur Verfügung steht. Allerdings wird jeder Mandant, der die Aufzeichnung von Besprechungen ermöglicht, bevor Microsoft Stream in der Region "in-Country-Daten" zur Verfügung steht, weiterhin den Microsoft-Datenstrom Speicher für vorhandene und neue Aufzeichnungen verwenden, auch wenn Microsoft Stream in der Region für den nationalen Daten Wohnsitz verfügbar ist.
 
 Um herauszufinden, in welcher Region Ihre Microsoft Stream-Daten gespeichert werden, klicken Sie in Microsoft Stream auf **?** Klicken Sie in der oberen, rechten Ecke auf **Über Microsoft Stream** und dann auf **Ihre Daten werden gespeichert in**.  Um mehr über die Regionen zu erfahren, in denen Microsoft Stream Daten speichert, lesen Sie [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 

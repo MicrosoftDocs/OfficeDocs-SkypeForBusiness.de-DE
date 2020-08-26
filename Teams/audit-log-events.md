@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778007"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897705"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 
@@ -162,9 +162,9 @@ Wenn Ihre Organisation die app "Schichten" in Teams verwendet, können Sie das �
 
 |Anzeigename  |Vorgang  |Beschreibung  |
 |---------|---------|---------|
-|Gruppe ' Terminplanung hinzugefügt '      |SchedulingGroupAdded          |Ein Benutzer fügt dem Terminplan erfolgreich eine neue Planungsgruppe hinzu.          |
-|Gruppe ' bearbeitete Planung '     |SchedulingGroupEdited         |Ein Benutzer bearbeitet eine Planungsgruppe erfolgreich.          |
-|Gruppe "gelöschte Planung"         |SchedulingGroupDeleted              |Ein Benutzer löscht eine Planungsgruppe erfolgreich aus dem Terminplan.|
+|Gruppe ' Terminplanung hinzugefügt ' |ScheduleGroupAdded          |Ein Benutzer fügt dem Terminplan erfolgreich eine neue Planungsgruppe hinzu.|
+|Gruppe ' bearbeitete Planung '     |ScheduleGroupEdited         |Ein Benutzer bearbeitet eine Planungsgruppe erfolgreich.          |
+|Gruppe "gelöschte Planung"         |ScheduleGroupDeleted              |Ein Benutzer löscht eine Planungsgruppe erfolgreich aus dem Terminplan.|
 |Schicht hinzugefügt      |ShiftAdded          |Ein Benutzer fügt erfolgreich eine Schicht hinzu.           |
 |Bearbeitete Schicht       |ShiftEdited       |Ein Benutzer bearbeitet eine Schicht erfolgreich.        |
 |Gelöschte Schicht          |ShiftDeleted          | Ein Benutzer löscht eine Schicht erfolgreich.               |

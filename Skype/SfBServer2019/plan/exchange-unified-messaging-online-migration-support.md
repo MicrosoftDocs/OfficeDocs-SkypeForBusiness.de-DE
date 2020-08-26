@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824896"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897815"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -149,7 +149,8 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | VM | Benutzerfunktionen | Aufzeichnen persönlicher Begrüßungen (PSTN) – Wiedergabe über Telefon |  | N | v    |
 | VM | Benutzerfunktionen | Benutzereinstellung zum Deaktivieren der Transkription |  | N | v    |
 | VM | Benutzerfunktionen | Transkription  |  | v | v    |
-| VM | Benutzerfunktionen | Visuelle Voicemail auf allen Endpunkten   | Mit Benutzersteuerelement zum wiedergeben, löschen, Nachrichten wartende Anzeige und Status umschalten auf allen unterstützten Endpunkten  | v | v    |
+| VM | Benutzerfunktionen | MWI (Message Waiting Indicator) mit SIP NOTIFY-Nachrichten |  | N | v    |
+| VM | Benutzerfunktionen | Visuelle Voicemail auf allen Endpunkten   | Mit Benutzersteuerelement zum wiedergeben, löschen, Nachrichten warte Benachrichtigung und Status umschalten auf allen unterstützten Endpunkten  | v | v    |
 | VM | Benutzerfunktionen | MP3-Audiodatei Format in Outlook    |  | v | v    |
 | VM | Benutzerfunktionen | Wiedergabesteuerung mit variabler Geschwindigkeit |  | v | v    |
 | VM | Benutzerfunktionen | Weiterleiten einer Voicemail  | Weiterleiten einer empfangenen Voicemail an andere Benutzer | v | v    |

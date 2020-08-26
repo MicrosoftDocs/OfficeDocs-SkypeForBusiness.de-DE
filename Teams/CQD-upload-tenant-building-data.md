@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Mandanten und Gebäudedaten im Dashboard für die Anrufqualität (CQD) hochladen.
-ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584064"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897835"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Hochladen von Mandanten und Erstellen von Daten im Dashboard für die Anrufqualität (CQD)
 
@@ -64,43 +64,47 @@ Wählen Sie im Dashboard für CQD-Zusammenfassungsberichte die Option **Mandante
 Der erste Typ der Mandanten Datendatei in CQD ist die **Gebäude** Datendatei. Die Spalte Subnet wird durch Erweitern der Spalte Netzwerk + NetworkRange abgeleitet, und anschließend wird die Spalte Subnetz mit der Spalte erstes Subnetz oder Zweites Subnetz des Anrufdaten Satzes verknüpft, um die Informationen für Gebäude, Stadt, Land oder Region anzuzeigen. Das Format der Datendatei, die Sie hochladen, muss die folgenden Kriterien erfüllen, um die Gültigkeitsprüfung vor dem Upload durchführen zu können:
   
 - Bei der Datei muss es sich um eine TSV-Datei (Spalten werden durch eine Registerkarte getrennt) oder um eine CSV-Datei (Spalten werden durch ein Komma getrennt) handeln.
+
 - Die Datendatei enthält keine Tabellenkopfzeile. Die erste Zeile der Datendatei wird als reelle Daten erwartet, nicht für Kopfzeilen Beschriftungen wie "Netzwerk".
+
 - Datentypen in der Datei können nur String, Integer oder Boolean sein. Für den Datentyp "Integer" muss der Wert ein numerischer Wert sein. Boolesche Werte müssen entweder 0 oder 1 sein.
+
 - Wenn in einer Spalte der Datentyp "Zeichenfolge" verwendet wird, kann ein Datenfeld leer sein, muss aber durch Tabstopps oder Komma getrennt werden. Ein leeres Datenfeld weist nur einen leeren Zeichenfolgenwert zu.
+
 - Es müssen 14 Spalten für jede Zeile vorhanden sein, jede Spalte muss den entsprechenden Datentyp aufweisen, und die Spalten müssen in der in der folgenden Tabelle aufgelisteten Reihenfolge liegen (Komma oder Tabstopp getrennt):
 
-**Erstellen eines Datendateiformats**
+  **Erstellen eines Datendateiformats**
+  
+  | Spaltenname        | Datentyp | Beispiel                   | Anleitung              |
+  |--------------------|-----------|---------------------------|-----------------------|
+  | NetworkIP          | Zeichenfolge    | 192.168.1.0               | Erforderlich              |
+  | NetworkName        | Zeichenfolge    | USA/Seattle/SEATTLE-SEA-1 | Erforderlich<sup>1</sup>  |
+  | NetworkRange       | Zahl    | 26                        | Erforderlich              |
+  | BuildingName       | Zeichenfolge    | SEATTLE-SEA-1             | Erforderlich<sup>1</sup>  |
+  | OwnershipType      | String    | Contoso                   | Optional              |
+  | BuildingType       | Zeichenfolge    | IT Termination            | Optional              |
+  | BuildingOfficeType | Zeichenfolge    | Engineering (Technik)               | Optional              |
+  | Stadt/Ort               | Zeichenfolge    | Seattle                   | Empfohlen           |
+  | ZipCode            | Zeichenfolge    | 98001                     | Empfohlen           |
+  | Land            | Zeichenfolge    | US                        | Empfohlen           |
+  | Status              | Zeichenfolge    | WA                        | Empfohlen           |
+  | Region             | String    | MSUS                      | Empfohlen           |
+  | InsideCorp<sup>2</sup>         | Boolescher Wert      | 1             | Erforderlich              |
+  | Express Route<sup>3</sup>       | Boolescher Wert      | 0             | Erforderlich              |
+  | VPN                | Boolescher Wert      | 0                         | Optional              |
 
-| Spaltenname        | Datentyp | Beispiel                   | Anleitung              |
-|--------------------|-----------|---------------------------|-----------------------|
-| NetworkIP          | Zeichenfolge    | 192.168.1.0               | Erforderlich              |
-| NetworkName        | Zeichenfolge    | USA/Seattle/SEATTLE-SEA-1 | Erforderlich<sup>1</sup>  |
-| NetworkRange       | Zahl    | 26                        | Erforderlich              |
-| BuildingName       | Zeichenfolge    | SEATTLE-SEA-1             | Erforderlich<sup>1</sup>  |
-| OwnershipType      | String    | Contoso                   | Optional              |
-| BuildingType       | Zeichenfolge    | IT Termination            | Optional              |
-| BuildingOfficeType | Zeichenfolge    | Engineering (Technik)               | Optional              |
-| Stadt/Ort               | Zeichenfolge    | Seattle                   | Empfohlen           |
-| ZipCode            | Zeichenfolge    | 98001                     | Empfohlen           |
-| Land            | Zeichenfolge    | US                        | Empfohlen           |
-| Status              | Zeichenfolge    | WA                        | Empfohlen           |
-| Region             | String    | MSUS                      | Empfohlen           |
-| InsideCorp<sup>2</sup>         | Boolescher Wert      | 1             | Erforderlich              |
-| Express Route<sup>3</sup>       | Boolescher Wert      | 0             | Erforderlich              |
-| VPN                | Boolescher Wert      | 0                         | Optional              |
+  <sup>1</sup> obwohl die Vorlagen für CQD nicht erforderlich sind, sind Sie für die Anzeige des Gebäude-und Netzwerk namens konfiguriert.
 
-<sup>1</sup> Obwohl es für CQD nicht erforderlich ist, sind die Vorlagen für die Anzeige von Gebäude-und Netzwerknamen konfiguriert.
+  <sup>2</sup> diese Einstellung kann verwendet werden, um zu reflektieren, ob sich das Subnetz innerhalb des Unternehmensnetzwerks befindet. Sie können die Verwendung für andere Zwecke anpassen.
 
-<sup>2</sup> Diese Einstellung kann verwendet werden, um zu reflektieren, ob sich das Subnetz innerhalb des Unternehmensnetzwerks befindet. Sie können die Verwendung für andere Zwecke anpassen.
+  <sup>3</sup> diese Einstellung kann verwendet werden, um zu reflektieren, ob das Netzwerk Azure Express Route verwendet. Sie können die Verwendung für andere Zwecke anpassen.  
 
-<sup>3</sup> Diese Einstellung kann verwendet werden, um anzugeben, ob das Netzwerk Azure Express Route verwendet. Sie können die Verwendung für andere Zwecke anpassen.  
+  **Beispiel Zeile:**
 
-**Beispiel Zeile:**
-
-`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
+  `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bei bestimmten VPN-Implementierungen werden die Subnetinformationen nicht genau gemeldet. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich).
+> Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bei bestimmten VPN-Implementierungen werden die Subnetinformationen nicht genau gemeldet. 
 >
 > Die VPN-Spalte ist optional und wird standardmäßig auf 0 gesetzt. Wenn der Wert der VPN-Spalte auf 1 festgesetzt ist, wird das durch diese Zeile dargestellte Subnetz vollständig erweitert, damit es allen IP-Adressen im Subnetz entspricht.  Verwenden Sie diese sparsam und nur für VPN-Subnetze, da sich diese Subnetze durch eine vollständige Erweiterung negativ auf die Abfragezeiten für Abfragen mit Gebäudedaten auswirken.
 
@@ -136,7 +140,7 @@ Hier einige Punkte, die Sie berücksichtigen sollten, bevor Sie Supernetting imp
 
 ### <a name="vpn"></a>VPN
 
-Die QoE-Daten (Quality of Experience), die Clients an Microsoft 365 oder Office 365 senden, an denen CQD-Daten bezogen werden, enthalten ein VPN-Flag. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Flag basiert jedoch auf der Berichterstellung des VPN-Anbieters an Windows, dass der registrierte VPN-Netzwerkadapter ein RAS-Adapter ist. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Es gibt zwei Vorgehensweisen für die Aufnahme von VPN-Subnetzen in die Gebäudeinformationsdatei:
+Die QoE-Daten (Quality of Experience), die Clients an Microsoft 365 oder Office 365 senden, an denen CQD-Daten bezogen werden, enthalten ein VPN-Flag. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Flag basiert jedoch auf der Berichterstellung des VPN-Anbieters an Windows, dass der registrierte VPN-Netzwerkadapter ein RAS-Adapter ist. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Verwenden Sie die oben beschriebene VPN-Spalte, um VPN-Subnetze genau zu kennzeichnen und zu identifizieren. Darüber hinaus empfiehlt es sich, Ihre VPN-Netzwerke zur einfachen Identifizierung in ihren Berichten zu kennzeichnen. Im folgenden finden Sie zwei Beispiele für das Beschriften Ihrer VPN-Subnetze:
 
 - Definieren Sie einen **Netzwerknamen** , indem Sie in dieses Feld für VPN-Subnetze "VPN" eingeben.
 
@@ -146,34 +150,34 @@ Die QoE-Daten (Quality of Experience), die Clients an Microsoft 365 oder Office 
 
   ![Screenshot des QCD-Berichts mit VPN-Gebäudenamen](media/qerguide-image-vpnbuildingname.png)
 
-> [!IMPORTANT]
-> Bei bestimmten VPN-Implementierungen werden die Subnetinformationen nicht genau gemeldet. Falls dies bei Ihrer Berichtserstattung auftritt, empfehlen wir, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten aufweisen. So haben Sie beispielsweise anstelle einer Zeile für 172.16.18.0/24 253 Zeilen und eine Zeile für jede Adresse aus 172.16.18.1/32 bis 172.16.18.254/32 einschließlich.
-
-
 > [!NOTE]
-> Bei VPN-Verbindungen ist bekannt, dass die Netzwerkverbindung als verdrahtet gekennzeichnet ist, wenn die zugrundeliegende Internetverbindung drahtlos ist. Wenn Sie die Qualität über VPN-Verbindungen betrachten, können Sie nicht davon ausgehen, dass der Verbindungstyp genau identifiziert wurde.
-
+> Bei VPN-Verbindungen ist bekannt, dass der Netzwerkverbindungstyp als "verkabelt" erkannt wird, wenn die zugrunde liegende Verbindung drahtlos ist. Wenn Sie die Qualität über VPN-Verbindungen betrachten, können Sie nicht davon ausgehen, dass der Verbindungstyp genau identifiziert wurde.
 
 ## <a name="endpoint-data-file"></a>Endpunkt Datendatei
 
 Der andere Typ der CQD-Mandantendaten Datei ist die **Endpunkt** Datendatei. Die Spaltenwerte werden in der ersten Clientendpunkt Name des Anrufdaten Satzes oder in der Spalte des zweiten Clientendpunkts verwendet, um die Informationen für die Endpunkt Marke, das Modell oder den Typ anzuzeigen. Das Format der Datendatei, die Sie hochladen, muss die folgenden Kriterien erfüllen, um die Gültigkeitsprüfung vor dem Upload durchführen zu können:
 
 - Bei der Datei muss es sich um eine TSV-Datei (Spalten werden durch eine Registerkarte getrennt) oder um eine CSV-Datei (Spalten werden durch ein Komma getrennt) handeln.
+
 - Der Inhalt der Datendatei umfasst keine Tabellenüberschriften. In der ersten Zeile der Datendatei wird erwartet, dass es sich um reelle Daten handelt, nicht um eine Headerbezeichnung wie "Endpunktname".
+
 - Alle sechs Spalten verwenden nur den Datentyp "Zeichenfolge". Die maximal zulässige Länge beträgt 64 Zeichen.
+
 - Ein Datenfeld kann leer sein, muss aber durch Tabstopps oder Kommas getrennt werden. Ein leeres Datenfeld weist nur einen leeren Zeichenfolgenwert zu.
+
 - Endpunktname muss eindeutig sein, da andernfalls der Upload fehlschlägt. Wenn eine Zeile oder zwei Zeilen vorhanden sind, die denselben Endpunktname verwenden, führt der Konflikt zu einer fehlerhaften Verknüpfung.
+
 - EndpointLabel1, EndpointLabel2 und EndpointLabel3 sind anpassbare Beschriftungen. Sie können leere Zeichenfolgen oder Werte sein, beispielsweise "IT-Abteilung, die als 2018-Laptop bezeichnet wird" oder "Asset Tag 5678".
+
 - Es müssen sechs Spalten für jede Zeile vorhanden sein, und die Spalten müssen in der folgenden Reihenfolge vorliegen:
 
   **Feld Reihenfolge:**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Beispiel Zeile:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
-
+  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 
 ## <a name="update-a-building-file"></a>Aktualisieren einer Gebäude Datei
@@ -187,10 +191,14 @@ Beim Sammeln von Gebäude- und Subnetzinformationen laden Administratoren die Ge
 
 Es gibt Situationen, in denen Sie neue net-Subnetze zu CQD hinzufügen müssen, die ursprünglich nicht Bestandteil Ihrer Netzwerktopologie waren. Gehen Sie zum Hinzufügen von Netto neuen Subnetzen auf der Seite **Mandantendaten Upload** in CQD wie folgt vor:
 
-2.  Laden Sie die ursprüngliche Datei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
+1.  Laden Sie die ursprüngliche Datei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
+
 1.  Entfernen Sie die aktuelle Datei in CQD.
+
 1.  Bearbeiten Sie die ursprüngliche Erstellungsdatei, und geben Sie ein Enddatum ein, das mindestens einen Tag vor dem Erwerb der neuen Nettosubnetze stattfindet.
+
 1.  Fügen Sie die neuen Nettosubnetze der ursprünglichen Gebäudedatei hinzu.
+
 1.  Laden Sie die neu geänderte Gebäude Datei hoch, und legen Sie den Anfangstermin für einen Tag nach dem Ende der vorherigen Gebäude Datei ein.
 
 ## <a name="add-missing-subnets"></a>Hinzufügen fehlender Subnetze
@@ -198,9 +206,13 @@ Es gibt Situationen, in denen Sie neue net-Subnetze zu CQD hinzufügen müssen, 
 Nachdem Sie die Gebäudeinformationen für verwaltete Netzwerke hochgeladen haben, sollte jedes verwaltete Netzwerk über eine Gebäudezuordnung verfügen. Dies ist allerdings nicht immer der Fall; in der Regel werden einige Subnetze übersehen. Wenn Sie nach diesen fehlenden Netzwerken suchen möchten, lesen Sie den **Bericht fehlendes Subnetz** auf der Seite **Quality of Experience Reports** in CQD. Dadurch werden alle Subnetze mit 10 oder mehr Audiostreams dargestellt, die nicht in der Gebäudedaten Datei definiert sind und als "extern" gekennzeichnet sind. Stellen Sie sicher, dass in dieser Liste keine verwalteten Netzwerke vorhanden sind. Wenn Subnetze fehlen, führen Sie die folgenden Schritte aus, um die ursprüngliche Gebäude Datendatei zu aktualisieren und Sie erneut in CQD hochzuladen.
 
 1. Wechseln Sie in CQD zur Seite **Mandantendaten Upload** .
+
 1. Laden Sie die ursprüngliche Datei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
+
 1. Entfernen Sie die aktuelle Datei in CQD.
+
 1. Fügen Sie die neuen Subnetze der ursprünglichen Datei hinzu.
+
 1. Laden Sie die Gebäudedatei hoch. Stellen Sie sicher, dass das Startdatum mindestens acht Monate zurückliegt, damit das CQD historische Daten verarbeiten kann.
 
 
