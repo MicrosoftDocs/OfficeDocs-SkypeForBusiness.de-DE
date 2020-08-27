@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 0db8b037bdf67f920e1089ae8f67f477e85e3e06
+ms.sourcegitcommit: 39fa1aee7a5e067097b126aa619be5aa099888ff
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864569"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903804"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -146,6 +146,14 @@ Wenn Sie eine Aufbewahrungsrichtlinie für Teams bearbeiten möchten, gehen Sie 
 3. Wählen Sie **Bearbeiten**neben dem Element aus, das Sie bearbeiten möchten, nehmen Sie Ihre Änderungen vor, klicken Sie auf **Speichern** und klicken Sie dann auf **Schließen**.
 
     ![Screenshot der „Teams-Kanalnachrichten“- und „Teams-Chats“-Optionen auf der Seite "Speicherorte auswählen"](media/retention-policies-edit.png)
+
+> [!WARNING]
+> Wenn Sie bestimmte Teams oder bestimmte Benutzer so konfiguriert haben, dass Sie für Teams Kanal Nachrichten oder Teams-Chats gehören, und diese bearbeiten, um die letzte für den Speicherort zu entfernen, wird die Konfiguration für diesen Standort auf **alle**zurückgesetzt. Stellen Sie sicher, dass dies die von Ihnen beabsichtigte Konfiguration ist, bevor Sie die Richtlinie speichern.
+> 
+> Wenn Sie beispielsweise einen Team-Chat-Benutzer angegeben haben, der in Ihre Aufbewahrungsrichtlinie aufgenommen werden soll, die zum Löschen von Daten konfiguriert ist, und dann die Richtlinie bearbeiten, um diesen Benutzer zu entfernen, unterliegen standardmäßig alle Benutzer der Aufbewahrungsrichtlinie, die ihre Teams-Chatnachrichten endgültig löscht. Das gleiche gilt für includes für Channel-Nachrichten in Teams.
+> 
+> Schalten Sie in diesem Szenario die Position aus, wenn Sie nicht möchten, dass die Einstellung " **alle** " für Teams-Kanal Nachrichten oder Teams-Chatnachrichten der Aufbewahrungsrichtlinie unterliegt. Sie können auch ausschließen angeben, um von der Richtlinie ausgenommen zu werden.
+
 
 #### <a name="delete-a-retention-policy"></a>Löschen einer Aufbewahrungsrichtlinie
 

@@ -1,7 +1,7 @@
 ---
 title: Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefon System Benutzer unter Verwendung einer Richtlinie mit dem Namen CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: 5c20f439d156997c89ca54c2a3bf39e9c3a42ae4
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506198"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255448"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
@@ -60,7 +60,7 @@ Für ausgehende PSTN-Rufnummernanzeige stehen drei Optionen zur Verfügung:
     
 Die folgenden Arten von Telefonnummern können Sie jedoch nicht als ausgehende Anrufer-ID nicht zuweisen:
   
-- Alle Telefonnummern, die in ihren Anrufplänen als *Benutzer* klassifiziert sind Telefonnummern Inventar
+- Alle Telefonnummern, die in ihren Anrufplänen als  *Benutzer*  klassifiziert sind Telefonnummern Inventar
     
 - Lokale Skype for Business Server-Telefonnummern
     

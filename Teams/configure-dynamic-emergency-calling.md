@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576927"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255378"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -81,7 +81,7 @@ Die folgenden Clients werden zurzeit unterstützt.  Schauen Sie sich häufig an,
 
 ## <a name="assign-emergency-addresses"></a>Notfalladressen zuweisen
 
-Sie können Notfalladressen sowohl für Benutzer des Anruf Plans als auch für die Netzwerkkennungen zuweisen, die für die dynamische Beschaffung eines Standorts erforderlich sind. (Subnetz und WLAN-AP werden unterstützt; die Unterstützung für Ethernet-Switch/-Port steht noch aus).
+Sie können Notfalladressen sowohl für Benutzer des Anruf Plans als auch für die Netzwerkkennungen zuweisen, die für die dynamische Beschaffung eines Standorts erforderlich sind. (Subnetz und WLAN-AP werden unterstützt. Ethernet-Switch/-Port wird in Windows 8,1 und höher zurzeit unterstützt).
 
 Zur Unterstützung der automatisierten Weiterleitung von Notrufen in den USA müssen Sie sicherstellen, dass die den Netzwerk Bezeichnern zugewiesenen Notfall Speicherorte die zugehörigen Geo-Codes enthalten. (Notfalladressen ohne Geo-Codes können nicht den Netzwerk Bezeichnern zugewiesen werden, die für dynamische Speicherorte erforderlich sind.)
 
@@ -216,7 +216,7 @@ Einige Notverwaltungsdienste (Emergency Routing Service Providers, ERSPs) in den
 
 - [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Verwalten von Notruf-Richtlinien](manage-emergency-calling-policies.md)
-- [Verwalten von Notfall Anrufrouting Richtlinien](manage-emergency-call-routing-policies.md)
+- [Verwalten von Notfall Anrufrouting Richtlinien ](manage-emergency-call-routing-policies.md)
 - [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
 - [Zuweisen oder Ändern eines Notfall Standorts für Ihren Benutzer](assign-change-emergency-location-user.md)
 - [Netzwerkeinstellungen für Cloud Voice-Features](cloud-voice-network-settings.md)

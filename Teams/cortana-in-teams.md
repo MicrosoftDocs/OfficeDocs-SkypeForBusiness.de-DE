@@ -20,22 +20,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2db1b5cfbc3a50013872b540521f05a5339dd979
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: f820bf6c44eae2cfbdb13a683d017be2f93d6756
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522316"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255549"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana-Sprachunterstützung in Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 > [!Note]
 > Cortana-VoIP-Unterstützung wird nur für Benutzer in den USA in den mobilen Microsoft Teams IOS-und Android-Apps unterstützt. Sie ist derzeit nicht für gcc-, gcc-höchst-, DoD-, edu-Mandanten verfügbar. Die Erweiterung auf weitere Sprachen und Regionen erfolgt in zukünftigen Versionen.
 
-Cortana-VoIP-Unterstützung in der mobilen Teams-App ermöglicht es Microsoft 365 Enterprise-Benutzern, Kommunikations-, Zusammenarbeits-und Besprechungs bezogene Aufgaben mithilfe der gesprochenen natürlichen Sprache zu rationalisieren. Benutzer können mit Cortana sprechen, indem Sie auf die Schaltfläche Mikrofon klicken, die sich in der oberen rechten Ecke der Mobile-App für Teams befindet. Um schnell eine Verbindung mit Ihrem Team herzustellen, während Sie unterwegs sind, können Benutzer Abfragen wie "Megan anrufen" oder "eine Nachricht an meine nächste Besprechung senden" sagen. Benutzer können auch an Besprechungen teilnehmen, indem Sie "an meiner nächsten Besprechung teilnehmen" und die Sprachunterstützung verwenden, um Dateien freizugeben, Ihren Kalender zu überprüfen und vieles mehr. Diese sprach Unterstützungsfunktionen werden mithilfe von [Cortana Enterprise-Services](https://docs.microsoft.com/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) bereitgestellt, die vollständig den Datenschutz-, Sicherheits-und Compliance-Zusagen von Office 365 entsprechen, wie Sie in den [Online Services-Bedingungen (Ost)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)widergespiegelt werden.
+Cortana-VoIP-Unterstützung in der mobilen Teams-App ermöglicht es Microsoft 365 Enterprise-Benutzern, Kommunikations-, Zusammenarbeits-und Besprechungs bezogene Aufgaben mithilfe der gesprochenen natürlichen Sprache zu rationalisieren. Benutzer können mit Cortana sprechen, indem Sie auf die Schaltfläche Mikrofon klicken, die sich in der oberen rechten Ecke der Mobile-App für Teams befindet. Wenn Sie unterwegs schnell eine Verbindung mit Ihrem Team herstellen möchten, können Benutzer Abfragen wie &#8220;Megan&#8221; anrufen oder &#8220;eine Nachricht an meine nächste Besprechungs&#8221; senden. Benutzer können auch an Besprechungen teilnehmen, indem Sie &#8220;teilnehmen an meiner nächsten Besprechung&#8221; und die Sprachunterstützung verwenden, um Dateien freizugeben, Ihren Kalender zu überprüfen und vieles mehr. Diese sprach Unterstützungsfunktionen werden mithilfe von [Cortana Enterprise-Services](https://docs.microsoft.com/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) bereitgestellt, die vollständig den Datenschutz-, Sicherheits-und Compliance-Zusagen von Office 365 entsprechen, wie Sie in den [Online Services-Bedingungen (Ost)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)widergespiegelt werden.
 
 Das Bild zeigt das Senden eines Chats in Cortana auf einem mobilen Gerät.
 
@@ -59,13 +56,13 @@ Administratoren können die folgenden PowerShell-Cmdlets zum Verwalten dieser Ri
 
 - [Remove-CsTeamsCortanaPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-Mit dem folgenden Befehl wird beispielsweise eine neue Richtlinie mit dem Namen "EmployeeCortanaPolicy" erstellt, in der der Cortana-Sprachassistent in Microsoft Teams deaktiviert ist.  
+Mit dem folgenden Befehl wird beispielsweise eine neue Richtlinie mit dem Namen &#8220;EmployeeCortanaPolicy&#8221;, in der Cortana-Sprachassistent in Microsoft Teams deaktiviert ist.  
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-In diesem Beispiel wird gezeigt, wie Sie eine vorhandene Richtlinie mit dem Namen "EmployeeCortanaPolicy" aktualisieren und den Cortana-Sprachassistenten in Microsoft Teams mit nur Tasten Aufruf aktivieren. Benutzer können Cortana aufrufen, indem Sie in Teams auf die Cortana MIC-Schaltfläche tippen. Wake Word ("Hey Cortana") Aufruf wird deaktiviert.  
+In diesem Beispiel wird das Aktualisieren einer vorhandenen Richtlinie mit dem Namen &#8220;EmployeeCortanaPolicy&#8221; und das Aktivieren des Cortana-Sprachassistenten in Microsoft Teams mit nur einem Tasten Aufruf veranschaulicht. Benutzer können Cortana aufrufen, indem Sie in Teams auf die Cortana MIC-Schaltfläche tippen. Wake Word (&#8220;Hey Cortana&#8221;) Aufruf wird deaktiviert.  
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride

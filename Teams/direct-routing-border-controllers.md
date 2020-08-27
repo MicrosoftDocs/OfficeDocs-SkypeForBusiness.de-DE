@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Der Administrator kann erfahren, welche Session Border Controllers (SBCS) für die direkte Weiterleitung zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aa35fe23796f3ee248e2797aba86c9982aa8364
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: cf37165459d1d9f492b74cf9f0000eec45c632f2
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788719"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255368"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -78,6 +78,7 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                   |     Cisco Unified Border-Element (Cube) für den Cloud Services-Router der 1000V-Serie       |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Bandbreiten-dynamisches Standort Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado-Notfall-Routing Dienst (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Cisco Unified Border-Element (Cube) für Aggregations Dienste-Router der 1000-Serie      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Bandbreiten-dynamisches Standort Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado-Notfall-Routing Dienst (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller für Enterprise (ASBCE)    |     &#10004;     |           |       Release 8.1.1       |     |    | 
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19,5 (1908)       |     |    | 
 
 <br/>
 <br/>

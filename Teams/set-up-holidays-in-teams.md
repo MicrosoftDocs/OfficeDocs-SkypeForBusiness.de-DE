@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Feiertagen in Microsoft Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Feiertage in Microsoft Teams einrichten und mit der automatischen Telefonzentrale mithilfe der Funktion "Feiertage" verbinden.
-ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905577"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255408"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
@@ -39,7 +39,7 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was si
 
 ## <a name="create-a-holiday"></a>Erstellen eines Feiertags
 
-1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen** > **Feiertage**.
+1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen**  >  **Feiertage**.
 
 2. Wählen Sie **neue Feiertage**aus.
 
@@ -59,7 +59,7 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was si
 
 ## <a name="change-a-holiday"></a>Ändern eines Feiertags
 
-1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen** > **Feiertage**.
+1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen**  >  **Feiertage**.
 
 2. Wählen Sie den Feiertag in der Liste aus.
 
@@ -75,7 +75,7 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was si
 
 ## <a name="connect-a-holiday-to-an-auto-attendant"></a>Verbinden eines Feiertags mit einer automatischen Telefonzentrale
 
-1. Wechseln Sie im Microsoft Teams Admin Center zu **VoIP** > -**Telefonzentralen**.
+1. Wechseln Sie im Microsoft Teams Admin Center zu **VoIP**-  >  **Telefonzentralen**.
 2. Wählen Sie ein Ressourcenkonto in der Liste aus.
 3. Wählen Sie im linken Bereich **Feiertags Anrufeinstellungen**aus.
 4. Wählen Sie **neue Feiertage**aus.

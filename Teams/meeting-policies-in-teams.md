@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640960"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255493"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "46640960"
 Besprechungsrichtlinien werden verwendet, um die Features zu steuern, die Besprechungsteilnehmern für Besprechungen, die von Benutzern in Ihrer Organisation geplant werden, zur Verfügung stehen. Sie können die Global (org-Wide Standard)-Richtlinie verwenden, die automatisch erstellt wird, oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sie können Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [PowerShell](teams-powershell-overview.md)verwalten.
 
 > [!NOTE]
-> Informationen zum Verwenden von Rollen zum Verwalten der Berechtigungen von besprechungsreferenten und Teilnehmern finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Informationen zum Verwenden von Rollen zum Verwalten der Berechtigungen von besprechungsreferenten und Teilnehmern finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 Sie können Richtlinien wie folgt implementieren, die sich auf die Besprechungs Erfahrung für Benutzer auswirken, bevor eine Besprechung beginnt, während einer Besprechung oder nach einer Besprechung.
 
@@ -76,7 +76,7 @@ Weisen Sie dann die Richtlinie den Nutzern zu.
 
 ## <a name="edit-a-meeting-policy"></a>Bearbeiten einer Besprechungsrichtlinie
 
-Sie können die globale Richtlinie und alle von Ihnen erstellten benutzerdefinierten Richtlinien bearbeiten. 
+Sie können die globale Richtlinie und alle von Ihnen erstellten benutzerdefinierten Richtlinien bearbeiten.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungsrichtlinien**für Besprechungen.
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
@@ -102,7 +102,7 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie au
 - [Inhaltsfreigabe](#meeting-policy-settings---content-sharing)
 - [Teilnehmer & Gäste](#meeting-policy-settings---participants--guests)
 
-::: zone-end 
+::: zone-end
 
 <a name="bkgeneral"> </a>
 
@@ -130,11 +130,37 @@ Wenn Sie diese Option deaktivieren, können die Benutzer keine Teams-Besprechung
 
 ### <a name="allow-channel-meeting-scheduling"></a>Planen der Kanal Besprechung zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer eine Besprechung in einem Teams-Kanal planen können.  Wenn Sie **diese Option deaktivieren, steht der Benutzer** beim Starten einer Besprechung in einem Teams-Kanal und der Option **Kanal hinzufügen** für Benutzer in Teams deaktiviert zur Verfügung. Der Standardwert lautet „True“.
+Verwenden Sie die vorhandene AllowChannelMeetingScheduling-Richtlinie, um die Typen von Ereignissen zu steuern, die in den Team Kanal Kalendern erstellt werden können. Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer eine Besprechung in einem Teams-Kanal planen können. Der Standardwert lautet „True“.
 
-![Screenshot der Option "Besprechung planen" in Teams](media/meeting-policies-schedule-a-meeting.png)
+Wenn diese Richtlinie deaktiviert ist, können die Benutzer keine neuen Kanal Besprechungen erstellen. Vorhandene Kanal Besprechungen können jedoch vom Organisator des Ereignisses bearbeitet werden.
 
-![Screenshot mit der Option "Kanal zur Besprechung auswählen"](media/meeting-policies-select-a-channel-to-meet-in.png)
+Planen einer Besprechung wird deaktiviert.
+
+![Screenshot der Option "Besprechung planen" in Teams](media/schedule-meeting-option.png)
+
+Kanalauswahl ist deaktiviert.
+
+![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/meeting-policies-select-a-channel-to-meet-in.png)
+
+Auf der Seite Kanal Beiträge wird Folgendes deaktiviert:
+
+- Schaltfläche ' **Besprechung planen** ' im Feld ' Antwort verfassen '
+![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-meeting-disabled-in-chat2.png)
+- Schaltfläche " **Besprechung planen** " im Kanal Kopf
+![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-now-in-header.png)
+
+Im Kanal Kalender:
+
+- Schaltfläche " **Neues Ereignis hinzufügen** " im Kanal Kalender-Header wird deaktiviert.
+![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/add-new-event-disabled.png)
+- Benutzer können keinen Zeit Block im Kanal Kalender ziehen und auswählen, um eine Kanal Besprechung zu erstellen.
+- Benutzer können keine Tastenkombinationen zum Erstellen einer Besprechung im Kanal Kalender verwenden.
+
+Im Admin Center:
+
+Die Kanal Kalender-APP wird im Abschnitt " **Microsoft-apps** " im Administratorbereich für Berechtigungsrichtlinien angezeigt.
+
+![Screenshot der Microsoft-apps-Richtlinie in der Team-Verwaltungskonsole](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Planen privater Besprechungen zulassen
 
@@ -157,7 +183,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Begi
 
 ### <a name="allow-transcription"></a>Transkription zulassen
 
-Hierbei handelt es sich um eine Kombination aus einer pro-Organizer-und pro-User-Richtlinie. Mit dieser Einstellung wird gesteuert, ob Beschriftungen und Transkriptions Features bei der Wiedergabe von Besprechungsaufzeichnungen zur Verfügung stehen. Wenn Sie diese Option deaktivieren, stehen die Optionen " **Suchen** " und " **CC** " während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit die Aufzeichnung auch Transkription umfasst. 
+Hierbei handelt es sich um eine Kombination aus einer pro-Organizer-und pro-User-Richtlinie. Mit dieser Einstellung wird gesteuert, ob Beschriftungen und Transkriptions Features bei der Wiedergabe von Besprechungsaufzeichnungen zur Verfügung stehen. Wenn Sie diese Option deaktivieren, stehen die Optionen " **Suchen** " und " **CC** " während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit die Aufzeichnung auch Transkription umfasst.
 
 Beachten Sie, dass die Transkription für aufgezeichnete Besprechungen derzeit nur für Benutzer unterstützt wird, für die die Sprache in Teams auf Englisch festgesetzt ist und wenn Englisch in der Besprechung gesprochen wird.
 
@@ -167,7 +193,7 @@ Beachten Sie, dass die Transkription für aufgezeichnete Besprechungen derzeit n
 
 Hierbei handelt es sich um eine Kombination aus einer pro-Organizer-und pro-User-Richtlinie. Diese Einstellung steuert, ob die Besprechungen dieses Benutzers aufgezeichnet werden können. Die Aufzeichnung kann vom Besprechungsorganisator oder von einem anderen Besprechungsteilnehmer gestartet werden, wenn die Richtlinieneinstellung für den Teilnehmer aktiviert ist und es sich um einen authentifizierten Benutzer aus derselben Organisation handelt.
 
-Personen außerhalb Ihrer Organisation, wie etwa Föderations-und anonyme Benutzer, können die Aufzeichnung nicht starten. Gastbenutzer können die Aufzeichnung nicht starten oder beenden. 
+Personen außerhalb Ihrer Organisation, wie etwa Föderations-und anonyme Benutzer, können die Aufzeichnung nicht starten. Gastbenutzer können die Aufzeichnung nicht starten oder beenden.
 
 ![Screenshot mit den Aufzeichnungsoptionen](media/meeting-policies-recording.png)
 
@@ -208,7 +234,7 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung besti
 
 Wenn für eine Besprechung nicht genügend Bandbreite zur Verfügung steht, sehen die Teilnehmer eine Meldung, die auf schlechte Netzwerkqualität hinweist.
 
-Für Besprechungen, die die höchste Videoqualität benötigen, wie CEO-Board-Meetings und Teams-Live-Events, empfehlen wir, die Bandbreite auf 10 Mbit/s festzulegen. Auch wenn die maximale Benutzererfahrung festgelegt ist, passt sich der Medien Stapel von Teams an niedrige Bandbreitenbedingungen an, wenn bestimmte Netzwerkbedingungen je nach Szenario erkannt werden. 
+Für Besprechungen, die die höchste Videoqualität benötigen, wie CEO-Board-Meetings und Teams-Live-Events, empfehlen wir, die Bandbreite auf 10 Mbit/s festzulegen. Auch wenn die maximale Benutzererfahrung festgelegt ist, passt sich der Medien Stapel von Teams an niedrige Bandbreitenbedingungen an, wenn bestimmte Netzwerkbedingungen je nach Szenario erkannt werden.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinien Einstellungen – Inhaltsfreigabe
 
@@ -242,9 +268,9 @@ Zurzeit können Benutzer keine Videos abspielen oder Ihren Bildschirm in einer T
 
 ### <a name="allow-a-participant-to-give-or-request-control"></a>Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert
 
-Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung steuert, ob der Benutzer die Steuerung des freigegebenen Desktops oder Fensters an andere Besprechungsteilnehmer weitergeben kann. Um die Steuerung zu übernehmen, zeigen Sie auf den oberen Rand des Bildschirms. 
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung steuert, ob der Benutzer die Steuerung des freigegebenen Desktops oder Fensters an andere Besprechungsteilnehmer weitergeben kann. Um die Steuerung zu übernehmen, zeigen Sie auf den oberen Rand des Bildschirms.
 
-Wenn diese Einstellung für den Benutzer aktiviert ist, wird die Option **Steuerung übergeben** in der oberen Leiste einer Freigabesitzung angezeigt. 
+Wenn diese Einstellung für den Benutzer aktiviert ist, wird die Option **Steuerung übergeben** in der oberen Leiste einer Freigabesitzung angezeigt.
 
 ![Screenshot mit der Option "Steuerung übergeben"](media/meeting-policies-give-control.png)
 
@@ -264,7 +290,7 @@ Daniela kann die Steuerung des freigegebenen Desktops oder Fensters an andere Te
 Verwenden Sie das AllowParticipantGiveRequestControl-Cmdlet, um mithilfe von PowerShell Steuern zu können, wer Steuerelemente steuern oder akzeptieren kann.
 
 > [!NOTE]
-> Um freigegebene Inhalte während der Freigabe zu übernehmen und zu steuern, müssen beide Parteien den Desktop Client von Teams verwenden. Die Steuerung wird nicht unterstützt, wenn eine der beiden Parteien Teams in einem Browser ausführt. Dies ist auf eine technische Einschränkung zurückzuführen, die wir planen zu beheben. 
+> Um freigegebene Inhalte während der Freigabe zu übernehmen und zu steuern, müssen beide Parteien den Desktop Client von Teams verwenden. Die Steuerung wird nicht unterstützt, wenn eine der beiden Parteien Teams in einem Browser ausführt. Dies ist auf eine technische Einschränkung zurückzuführen, die wir planen zu beheben.
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert
 
@@ -294,7 +320,7 @@ Amanda kann PowerPoint-Folienstapel in Besprechungen auch dann nicht freigeben, 
 
 ### <a name="allow-whiteboard"></a>Whiteboard zulassen
 
-Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung wird gesteuert, ob ein Benutzer das Whiteboard in einer Besprechung freigeben kann. Externe Benutzer, einschließlich anonymen, B2B-und Verbundbenutzern, erben die Richtlinie des Besprechungsorganisators. 
+Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung wird gesteuert, ob ein Benutzer das Whiteboard in einer Besprechung freigeben kann. Externe Benutzer, einschließlich anonymen, B2B-und Verbundbenutzern, erben die Richtlinie des Besprechungsorganisators.
 
 Sehen wir uns das folgende Beispiel an:
 
@@ -333,19 +359,18 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, 
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Zulassen, dass anonyme Personen eine Besprechung starten
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator, die das Einwählen in Konferenz Besprechungen in Besprechungs Gruppen ermöglicht. Mit dieser Einstellung wird gesteuert, ob Einwahlbenutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert ist "falsch", was bedeutet, dass die Benutzer in der Lobby warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung Beitritt. 
+Hierbei handelt es sich um eine Richtlinie pro Organisator, die das Einwählen in Konferenz Besprechungen in Besprechungs Gruppen ermöglicht. Mit dieser Einstellung wird gesteuert, ob Einwahlbenutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert ist "falsch", was bedeutet, dass die Benutzer in der Lobby warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung Beitritt.
 
-**Hinweis** Ist "falsch", und ein Einwahlbenutzer nimmt zuerst an der Besprechung Teil und wird in der Lobby gespeichert, und ein Organisationsbenutzer muss an der Besprechung mit einem Team-Clientteil nehmen, um den Benutzer aus der Lobby zu akzeptieren. Es gibt keine Lobby-Steuerelemente, die für gewählte Benutzer verfügbar sind. 
-
+**Hinweis** Ist "falsch", und ein Einwahlbenutzer nimmt zuerst an der Besprechung Teil und wird in der Lobby gespeichert, und ein Organisationsbenutzer muss an der Besprechung mit einem Team-Clientteil nehmen, um den Benutzer aus der Lobby zu akzeptieren. Es gibt keine Lobby-Steuerelemente, die für gewählte Benutzer verfügbar sind.
 
 ### <a name="automatically-admit-people"></a>Automatisches zulassen von Personen
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden. Diese Einstellung gilt nicht für die Einwahl in Benutzer. 
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden. Diese Einstellung gilt nicht für die Einwahl in Benutzer.
 
 ![Screenshot einer Besprechung mit einem Benutzer in der Lobby](media/meeting-policies-lobby.png)
 
  Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern.
- 
+
  **Hinweis** In den Besprechungsoptionen ist die Einstellung mit "Wer kann die Lobby umgehen" gekennzeichnet
   
 |Einstellungswert  |Join-Verhalten |
@@ -356,10 +381,9 @@ Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellu
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Zulassen, dass Einwahlbenutzer die Lobby umgehen können
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ". Der Standardwert lautet "False". Wenn der Wert falsch ist, werden die Einwahlbenutzer in der Wartebereich warten, bis ein Organisationsbenutzer die Besprechung mit einem Team-Client verknüpft und diese zulässt. Ist der Wert "wahr", wird "Einwählen in Benutzer" automatisch an der Besprechung teilnehmen, wenn ein Organisationsbenutzer der Besprechung Beitritt. 
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ". Der Standardwert lautet "False". Wenn der Wert falsch ist, werden die Einwahlbenutzer in der Wartebereich warten, bis ein Organisationsbenutzer die Besprechung mit einem Team-Client verknüpft und diese zulässt. Ist der Wert "wahr", wird "Einwählen in Benutzer" automatisch an der Besprechung teilnehmen, wenn ein Organisationsbenutzer der Besprechung Beitritt.
 
-**Hinweis** Wenn ein Dial-in-Benutzer einer Besprechung Beitritt, bevor ein Organisationsbenutzer der Besprechung Beitritt, wird er in der Lobby gespeichert, bis ein Organisationsbenutzer mit einem Team-Client an der Besprechung teilnimmt und diesen zugibt. 
-
+**Hinweis** Wenn ein Dial-in-Benutzer einer Besprechung Beitritt, bevor ein Organisationsbenutzer der Besprechung Beitritt, wird er in der Lobby gespeichert, bis ein Organisationsbenutzer mit einem Team-Client an der Besprechung teilnimmt und diesen zugibt.
 
 ### <a name="enable-live-captions"></a>Aktivieren von Live Beschriftungen
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897815"
+ms.locfileid: "47255438"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -129,7 +129,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrix für die Feature-und Azure-Cloud-basierte Dienste
 
-| Dienst | Funktionsebene | Feature | Notes  | Cloud VM/AA  | ExUMO |
+| Dienst | Funktionsebene | Feature | Anmerkungen  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Dienstfunktionen| Unterstützung für Drittanbieter-PBX    | Einschließlich aller Funktionen, die an Drittanbieter-Nebenstellenanlagen wie MWI (Message Waiting Indicator) mit SIP NOTIFY-Nachrichten von Exchange um Online bereitgestellt werden | N   | v    |
 | VM | Dienstfunktionen  | Support Skype for Business Server   |  | v | v    |
@@ -150,7 +150,6 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | VM | Benutzerfunktionen | Benutzereinstellung zum Deaktivieren der Transkription |  | N | v    |
 | VM | Benutzerfunktionen | Transkription  |  | v | v    |
 | VM | Benutzerfunktionen | MWI (Message Waiting Indicator) mit SIP NOTIFY-Nachrichten |  | N | v    |
-| VM | Benutzerfunktionen | Visuelle Voicemail auf allen Endpunkten   | Mit Benutzersteuerelement zum wiedergeben, löschen, Nachrichten warte Benachrichtigung und Status umschalten auf allen unterstützten Endpunkten  | v | v    |
 | VM | Benutzerfunktionen | MP3-Audiodatei Format in Outlook    |  | v | v    |
 | VM | Benutzerfunktionen | Wiedergabesteuerung mit variabler Geschwindigkeit |  | v | v    |
 | VM | Benutzerfunktionen | Weiterleiten einer Voicemail  | Weiterleiten einer empfangenen Voicemail an andere Benutzer | v | v    |

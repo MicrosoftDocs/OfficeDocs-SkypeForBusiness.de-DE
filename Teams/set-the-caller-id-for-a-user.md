@@ -1,7 +1,7 @@
 ---
 title: Festlegen der Anrufer-ID für einen Benutzer
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Informieren Sie sich über die standardmäßige Rufnummernanzeige von Microsoft 365 und Office 365 (die zugewiesene Telefonnummer eines Benutzers), die auch als Anruf Leitungs-ID bezeichnet wird. Sie können die Rufnummernanzeige eines Benutzers ändern oder blockieren.
-ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691121"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255428"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 Das Telefon System in Microsoft 365 und Office 365 stellt eine Standard-Rufnummernanzeige für die zugewiesene Telefonnummer des Benutzers bereit. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Weitere Informationen zur Verwendung der Rufnummernanzeige in Ihrer Organisation finden Sie unter [wie kann die Rufnummernanzeige in Ihrer Organisation verwendet werden](how-can-caller-id-be-used-in-your-organization.md).
