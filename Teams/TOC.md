@@ -73,7 +73,7 @@
 #### [Bearbeiten von Gastbenutzerinformationen](edit-guests-information.md)
 #### [Verwenden von PowerShell zum Steuern des Gastzugriffs](guest-access-PowerShell.md)
 #### [Problembehandlung beim Gastzugriff](troubleshoot-guest-access.md)
-
+## [Cortana in Teams](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [Beispiel für Kleinunternehmen – Einrichten einer Anrufwarteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md)
 #### [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
+#### [Feiertage festlegen](set-up-holidays-in-teams.md)
 #### [Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [Eingehende Anrufe blockieren](block-inbound-calls.md)
