@@ -1,7 +1,7 @@
 ---
 title: Erstellen einer Anrufwarteschlange
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -23,21 +23,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht bereitstellen, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: be43c2dc378b985b63c47b9322b336eeadfeecb6
+ms.sourcegitcommit: 515f6cf7c16c0ab6ea7acbbd59084ac89b57dfb8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46556635"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47295295"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
 Cloud-Anrufwarteschlangen können Folgendes bereitstellen:
 
 - Eine Grußnachricht.
+
 - Musik, während die wartenden Anrufer gehalten werden
+
 - Umleitung von Anrufen an Telefonisten in die von E-Mail-aktivierten Verteilerlisten und Sicherheitsgruppen
+
 - Festlegen unterschiedlicher Parameter wie maximale Größe der Warteschlange, Timeout und Anruf Behandlungsoptionen.
+
 - Voicemail für Anrufer freigegeben, um eine Nachricht für eine Organisation zu hinterlassen.
 
 Eine Telefonnummer wird nicht direkt einer Anrufwarteschlange zugeordnet, sondern die Telefonnummer ist mit einem [Ressourcenkonto](manage-resource-accounts.md)verknüpft. Eine Anrufwarteschlange kann direkt gewählt oder über eine Auswahl in einer automatischen Telefonzentrale aufgerufen werden.
@@ -47,8 +51,11 @@ Der Anrufer hört Musik, während Sie in Wartestellung sind, und der Anruf stell
 Alle Anrufe in der Warteschlange werden mithilfe einer der folgenden Methoden an Agents gesendet:
 
 - Beim Attendant-Routing klingelt der erste Anruf in der Warteschlange alle Agents gleichzeitig.
+
 - Beim seriellen Routing klingelt der erste Anruf in der Warteschlange alle Anruf-Agents einzeln.
+
 - Beim längsten Leerlauf-Routing erhält der Anruf-Agent, dessen Leerlauf die längste Zeit war, den nächsten verfügbaren Anruf. Bei der Leerlaufzeit handelt es sich um die Zeitdauer, die der Anwesenheitsstatus eines Anruf-Agents zum Zeitpunkt des Anrufs auf " **verfügbar** " oder " **Abwesend** " (wenn weniger als 10 Minuten) festgelegt ist. Wenn die Anwesenheit eines Anruf Agenten für mehr als 10 Minuten **Abwesend** ist, wird der Leerlaufzeitgeber zurückgesetzt.
+
 - Bei Round Robin wird das Routing von eingehenden Anrufen ausgeglichen, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält.
 
 Mit einer der oben genannten Methoden können Sie Optionen für die Anrufbehandlung festlegen, wie beispielsweise die Option zum Deaktivieren des Agents, Anwesenheits basiertes Routing, Wartezeiten für Anrufe und Anruf Timeouts.
@@ -63,13 +70,14 @@ Nur eine Benachrichtigung über eingehende Anrufe (für den Anruf am Kopf der Wa
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwarteschleifen wichtig:
 
 - Für eine Anrufwarteschlange ist ein zugeordnetes Ressourcenkonto erforderlich. Details zu Ressourcenkonten finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) .
+
 - Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die ﻿kostenlose [virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md)für das Telefon System verwenden. Telefon System ermöglicht Telefonnummern auf Organisationsebene zur Verwendung mit kostengünstigen automatischen Telefonzentralen und Anrufwarteschlangen-Diensten.
 
   > [!NOTE]
   > Direct Routing-Dienstnummern für Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
 
-> [!NOTE]
-> Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online sind, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder über Microsoft 365 oder Office 365-Anrufpläne verfügen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Wenn Sie sie für Enterprise-VoIP aktivieren möchten, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise: "CsUser-Identity" Amos Marble "-EnterpriseVoiceEnabled $true aus.
+  > [!NOTE]
+  > Um Anrufe an Personen in Ihrer Organisation umzuleiten, die Online sind, müssen Sie über eine **Telefon System** Lizenz verfügen und für Enterprise-VoIP aktiviert sein oder über Microsoft 365 oder Office 365-Anrufpläne verfügen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Wenn Sie sie für Enterprise-VoIP aktivieren möchten, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise: "CsUser-Identity" Amos Marble "-EnterpriseVoiceEnabled $true aus.
 
 - Weitere Informationen zu Anrufplänen finden Sie unter [Telefon System-und Anruf](calling-plan-landing-page.md) Pläne sowie [Anrufpläne für Microsoft 365 oder Office 365](calling-plans-for-office-365.md).
 
@@ -176,7 +184,7 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
   > [!NOTE]
   > Dies gilt auch, wenn Sie Anrufe an Personen in Ihrer Organisation umleiten möchten, die Online sind. Diese Personen müssen über eine Telefon System Lizenz und Enterprise-VoIP verfügen *oder* über einen Anrufplan verfügen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen für Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Zuweisen von Microsoft Teams-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)oder [der richtige Anrufplan für Sie?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
-   Um einen Agenten für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   Um einen Agenten für Enterprise-VoIP zu aktivieren, können Sie Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Benutzer mit einer Telefon System Lizenz oder einem Anrufplan, die einer Microsoft 365-Gruppe, einer e-Mail-aktivierten Verteilerliste oder einer Sicherheitsgruppe hinzugefügt werden. Wenn Sie einen Agenten in einer Verteilerliste oder einer Sicherheitsgruppe als Anruf Warteschlangen-Agent hinzufügen, kann es bis zu drei Stunden dauern, bis der erste Anruf eintrifft. Eine neu erstellte Verteilerliste oder Sicherheitsgruppe kann bis zu 48 Stunden dauern, bis Sie für die Verwendung mit Anrufwarteschlangen verfügbar ist. Neu erstellte Microsoft 365-Gruppen sind fast sofort verfügbar.
 
@@ -188,8 +196,10 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
 Der Konferenzmodus ist standardmäßig deaktiviert, kann aber jederzeit aktiviert werden, wenn die folgenden Voraussetzungen erfüllt sind:
 
 - Agents, die der Anrufwarteschlange hinzugefügt wurden, müssen einen der folgenden Clients verwenden:
+
   - Die neueste Version des Microsoft Teams-Desktop Clients, der Android-App oder der IOS-App
   - Microsoft Teams Phone Version 1449/1.0.94.2020051601 oder höher
+  
 - Die Konten von Agenten Teams müssen auf "nur für Teams" eingestellt sein.
 
 > [!IMPORTANT]
@@ -229,6 +239,15 @@ Wenn sich ein Agent für das Abrufen von Anrufen entscheidet, wird er nicht in d
 
 > [!IMPORTANT]
 > Agents, die den Skype for Business-Client verwenden, sind nicht in der Anruf Weiterleitungsliste enthalten, wenn das anwesenheitsbasierte Routing unabhängig von deren Verfügbarkeitsstatus aktiviert ist. Agenten, die nicht in der Anruf Weiterleitungsliste sind, erhalten keine Anrufe. Wenn Sie über Agenten verfügen, die Skype for Business verwenden, aktivieren Sie das anwesenheitsbasierte Anrufrouting nicht.
+
+> [!IMPORTANT]
+> Für Anrufe in Warteschlangen mit großer Lautstärke werden die folgenden Einstellungen empfohlen:
+>
+> Konferenzmodus: automatisch<br>
+> Routingmethode: Attendant-Routing<br>
+> Anwesenheits basiertes Routing: ein<br>
+> Agent-Warnungszeit: 20 Sekunden
+
 
 ### <a name="select-an-agent-opt-out-option"></a>Auswählen einer Option für den Agenten Ausstieg
 
@@ -276,6 +295,7 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
  **Wenn die maximale Anzahl von Anrufen erreicht wird** , wenn die Anrufwarteschlange die maximale Größe erreicht (mit der Einstellung Maximale Anzahl von **anrufen in der Warteschlange** festlegen), können Sie auswählen, was mit neuen eingehenden Anrufen geschieht.
 
 - **Verbindung trennen** Der Anruf wird getrennt.
+
 - **Umleitung zu** Wenn Sie diese Option auswählen, wählen Sie eine der folgenden Optionen aus:
 
   - **Person in der Organisation** Ein Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder einen Anrufplan hat.
@@ -293,6 +313,7 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
             - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
             - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
     - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
+    
   - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser Anrufwarteschlange empfangene Voicemail zugreifen müssen, und wählen Sie dann eine der folgenden Optionen aus:
       - **Wiedergeben einer Audiodatei** Wenn Sie diese Option auswählen, wählen Sie **Datei hochladen** aus, um eine aufgezeichnete Grußnachricht hochzuladen. Die Aufzeichnung darf nicht größer als 5 MB sein. 
       - **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). So können Sie beispielsweise "Sorry, dass wir Ihren Anruf zurzeit nicht annehmen können" eingeben. Bitte hinterlassen Sie nach dem Piepton ihren Namen, Ihre Telefonnummer und den Grund für Ihren Anruf. "
@@ -312,7 +333,9 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
  **ausfällt** , wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit dem Anruf geschieht:
 
 - **Verbindung trennen** Der Anruf wird getrennt.
+
 - **Diesen Anruf umleiten an** Wenn Sie diese Option auswählen, haben Sie folgende Möglichkeiten:
+
   - **Person in der Organisation** Einen Online Benutzer mit einer Telefon System Lizenz, der für Enterprise-VoIP aktiviert ist oder Anrufpläne hat.
 
   - **Sprach-App** Wählen Sie den Namen eines Ressourcenkontos aus, das entweder einer Anrufwarteschlange oder einer automatischen Telefonzentrale zugeordnet ist, die Sie bereits erstellt haben.
@@ -330,6 +353,7 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
     - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
     - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser Anrufwarteschlange empfangene Voicemail zugreifen müssen, und wählen Sie dann eine der folgenden Optionen aus:
       - **Wiedergeben einer Audiodatei** Wenn Sie diese Option auswählen, wählen Sie **Datei hochladen** aus, um eine aufgezeichnete Grußnachricht hochzuladen. Die Aufzeichnung darf nicht größer als 5 MB sein.
+      
       - **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). So können Sie beispielsweise "Sorry, dass wir Ihren Anruf zurzeit nicht annehmen können" eingeben. Bitte hinterlassen Sie nach dem Piepton ihren Namen, Ihre Telefonnummer und den Grund für Ihren Anruf. "
 
       Aktivieren Sie die Transkription, wenn Sie die sprach-zu-Text-Transkription von Voicemail-Nachrichten aktivieren möchten.
@@ -340,13 +364,13 @@ Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werde
 
 Um die Identität eines Anruf Agenten zu schützen, ändern Sie die Rufnummernanzeige für ausgehende Anrufe an eine Anrufwarteschlange, eine automatische Telefonzentrale oder eine beliebige Dienstnummer mit dem Cmdlet **New-CsCallingLineIdentity** wie im folgenden Beispiel:
 
-``` Powershell
+```powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
 Wenden Sie dann die Richtlinie für den Benutzer mit dem **Grant-CallingLineIdentity-** Cmdlet wie im folgenden Beispiel an: 
 
-``` Powershell
+```powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
