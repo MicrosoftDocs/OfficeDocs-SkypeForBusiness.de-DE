@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Informieren Sie sich über die rollenbasierte Zugriffssteuerung mit dem verwalteten Microsoft Teams rooms-Dienst.
 f1keywords: ''
-ms.openlocfilehash: ec8bb770f1dd843c569a98dd909c87ef3ca14dd0
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788783"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300289"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Rollenbasierte Zugriffssteuerung mit dem Microsoft Teams rooms Managed Service
 
@@ -59,12 +59,12 @@ In der folgenden Tabelle wird zusammengefasst, was jede Rolle tun kann.
 |    |Reset-Taste         |&#10004;           |         ||
 |    |Download-Taste         |&#10004;           |&#10004;          |&#10004; |
 |    |Registrierung         |&#10004;           |&#10004;           |&#10004; |
-|Gruppenverwaltung   |Erstellen         |&#10004;           |&#10004;           ||
+|Gruppenverwaltung   |Erstellen         |&#10004;           |           ||
 |    |Ansicht       |&#10004;          |&#10004;           ||
-|    |Ändern         |&#10004;           |&#10004;           ||
-|Aktualisieren der Ring Verwaltung    |Erstellen         |&#10004;           |&#10004;           ||
-|    |Ansicht         |&#10004;           |&#10004;           ||
-|    |Ändern         |&#10004;           |&#10004;           ||
+|    |Ändern         |&#10004;           |           ||
+|Aktualisieren der Ring Verwaltung    |Erstellen         |&#10004;           |           ||
+|    |Ansicht         |&#10004;           |           ||
+|    |Ändern         |&#10004;           |           ||
 |Berichte   |Ansicht        |&#10004;           |&#10004;           ||
 |Ticket Verwaltung   |Kunden Vorfall erstellen         |&#10004;           |&#10004;           |&#10004;  |
 |    |Ansicht         |&#10004;           |&#10004;           |&#10004;  |
@@ -78,7 +78,7 @@ In der folgenden Tabelle wird zusammengefasst, was jede Rolle tun kann.
 
 Wenn Sie Rollen zuweisen möchten, müssen Sie ein globaler Administrator oder ein verwalteter Dienstadministrator sein.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams rooms Managed Service Portals zu **Rollen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams rooms Managed Service Portals zu **Einstellungen**  >  **Rollen**.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot der Seite "Zugriffssteuerung" mit Rollen":::
 

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Probleme mit Installation und Update der Teams-Desktopclient-App unter Windows beheben.
-ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086141"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300279"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
 
@@ -49,7 +49,7 @@ Wenn die Ursache nicht in "SquirrelSetup.log " aufgeführt ist, oder wenn Sie we
 
 ### <a name="troubleshoot-update-issues"></a>Behandeln von Problemen beim Update
 
-Wenn Teams erfolgreich installiert wurde, wechselt der Protokollspeicherort von "%LocalAppData%\SquirrelTemp" zu "%AppData%\Microsoft\Teams". An diesem Speicherort befinden sich zwei interessante Protokolldateien: "SquirrelSetup.log" und "logs.txt".
+Wenn Teams erfolgreich installiert wurden, wechselt der Protokollspeicherort von%LocalAppData%\SquirrelTemp zu%LocalAppData%\Microsoft\Teams.. An diesem Speicherort befinden sich zwei interessante Protokolldateien: "SquirrelSetup.log" und "logs.txt".
 
 - Die Datei "SquirrelSetup.log" an diesem Speicherort wurde von "Update.exe" geschrieben, einer ausführbaren Datei, die die Teams-App wartet.
 - Die Datei "Logs.txt" wird von der Teams-App (speziell "Teams.exe") verwendet, um wichtige Anwendungsereignisse aufzuzeichnen. Sie enthält wahrscheinlich Fehlerinformationen.
