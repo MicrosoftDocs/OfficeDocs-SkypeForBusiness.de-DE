@@ -816,7 +816,6 @@
 ### [Zuweisen von Teams-Add-On-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Verwalten des Office 365 E1-Testangebots](e1-trial-license.md)
 ### [Verwalten des Office 365 G1-Testangebots](g1-trial-license.md)
-### [Verwalten des kommerziellen Teams-Testangebots](iw-trial-teams.md)
 ### [Verwalten der Teams Exploratory-Erfahrung](teams-exploratory.md)
 ### [Verwalten der kostenlosen Version von Teams](manage-freemium.md)
 ### [Aktualisieren der kostenlosen Version von Teams auf die Abonnementversion](upgrade-freemium.md)
