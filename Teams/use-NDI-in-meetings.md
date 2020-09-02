@@ -17,28 +17,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
-ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
+ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588289"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47323989"
 ---
-# <a name="use-ndi-in-microsoft-teams"></a>Verwenden von ndi in Microsoft Teams
+# <a name="use-ndi-technology-in-microsoft-teams"></a>Verwenden von ndi®-Technologie in Microsoft Teams
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
-Die Netzwerkgeräte Schnittstelle (NDI) ist eine moderne Lösung zum Verbinden von Mediengeräten (wie einer Studio Kamera und einem Mixer). Anstatt physische Verbindungen zu verwenden, ermöglicht ndi die Konnektivität über ein lokales Intranet, einschließlich auf einem lokalen Computer.
+ NDI® (Network Device Interface)-Technologie ist eine moderne Lösung für den Anschluss von Mediengeräten (wie Studio Kamera und Mixer). Anstatt physische Verbindungen zu verwenden, ermöglicht die ndi-® Technologie die Konnektivität über ein lokales Intranet, auch auf einem lokalen Computer.
 
-NewTek ndi® hat sich zu einer standardmäßigen Branchenlösung für die Erstellung von Live-Inhalten für Streams und hat in der professionellen Broadcast-Welt ein erhebliches Bewusstsein und Akzeptanz erlangt.
+NewTek ndi® Technology ist zu einer standardmäßigen Branchenlösung geworden, um Live-Inhalte für Streams zu produzieren, und hat in der professionellen Broadcast-Welt erhebliches Bewusstsein und Akzeptanz erlangt.
 
-Skype hat zuvor ndi-Funktionalität für Skype in späten 2018 hinzugefügt. Microsoft Teams nutzt diese Funktion, um die Besprechungs Erfahrung zu verbessern.
+Skype hat zuvor ndi-® Funktionen zu Skype in späten 2018 hinzugefügt. Microsoft Teams nutzt diese Funktion, um die Besprechungs Erfahrung zu verbessern.
 
-NDI ist auf ein lokales Netzwerk limitiert und sollte nur als Teil des Produktionsworkflows, keine Broadcast-Lösung, betrachtet werden.
+NDI®-Technologie ist auf ein lokales Netzwerk limitiert und sollte nur als Teil des Produktionsworkflows, keine Broadcast-Lösung, betrachtet werden.
 
-## <a name="turn-on-ndi"></a>Aktivieren von ndi
+## <a name="turn-on-ndi-technology"></a>Aktivieren der ndi®-Technologie
 
-NDI erfordert zwei Schritte, die für einen Benutzer aktiviert werden müssen.
+NDI®-Technologie erfordert zwei Schritte, die für einen Benutzer aktiviert werden müssen.
 
 1. Der mandantenadministrator muss die Eigenschaft "AllowNDIStreaming" in CsTeamsMeetingPolicy aktivieren.
 
@@ -46,24 +46,24 @@ NDI erfordert zwei Schritte, die für einen Benutzer aktiviert werden müssen.
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. Nachdem diese Änderung aufgefüllt wurde, muss der Endbenutzer ndi für seinen jeweiligen Client über **Einstellungs**  >  **Berechtigungen**aktivieren.
+2. Nachdem diese Änderung aufgefüllt wurde, muss der Endbenutzer die ndi-® Technologie für seinen jeweiligen Client über **Einstellungs**  >  **Berechtigungen**aktivieren.
 
 Wenn ein Benutzer einer Besprechung Beitritt, wird eine Meldung angezeigt, die Sie darüber informiert, dass die Besprechung übertragen wird. Wenn Benutzer nicht in die Übertragung einbezogen werden möchten, müssen Sie von der Besprechung abfallen.
 
 Die folgende Abbildung zeigt die Banner Nachricht, die ein Benutzer in einer Teams-Besprechung sieht.
 
-![Abbildung des ndi-Banners, das in einer Teams-Besprechung angezeigt wird.](media/NDI-disclosure.png)
+![Ein Bild des ndi® Technology-Banners, das in einer Teams-Besprechung angezeigt wird.](media/NDI-disclosure.png)
 
 Das Banner enthält einen Link zu den [Microsoft-Datenschutzrichtlinien](https://aka.ms/teamsprivacy).
 
 ## <a name="supported-locales-and-user-types"></a>Unterstützte Gebietsschemas und Benutzertypen
 
-NDI wird in allen Gebietsschemas unterstützt. Die folgenden Benutzer werden in einer ndi-Besprechung unterstützt:
+NDI®-Technologie wird in allen Gebietsschemas unterstützt. Die folgenden Benutzer sind in einem ndi-®-Technologiedaten Strom enthalten, aber nicht alle Benutzer können auf den ndi-®-Technologiedaten Strom zugreifen:
 
 - In-Tenant – vollständige Unterstützung, bereitgestellt basierend auf Ring/Mandanten-ID/UserID (gesteuert durch die Richtlinien für Besprechungen)
-- Federated – Nein (auch wenn ndi aktiviert ist)<sup>1</sup>
-- Freemium-Nein (Standardwert)
-- Anonym – Nein (Standardwert)
-- Gast – Nein (Standardwert)
+- Federated – kein Datenstrom Zugriff (auch wenn Sie über ndi® Technologie verfügen)<sup>1</sup>
+- Freemium-kein Datenstrom Zugriff
+- Anonym – kein Datenstrom Zugriff
+- Gast – kein Datenstrom Zugriff  
 
-<sup>1</sup> Geräte verfügen über eine ndi-Einstellung, die standardmäßig aktiviert ist. Wenn ein Besprechungsteilnehmer ein Gerät mit ndi off verwendet, müssen Sie ndi aktivieren.
+<sup>1</sup> Geräte verfügen über eine ndi-® Technologie Einstellung, die standardmäßig aktiviert ist. Wenn ein Besprechungsteilnehmer ein Gerät mit ndi®-Technologie verwendet, müssen Sie die ndi-® Technologie aktivieren.

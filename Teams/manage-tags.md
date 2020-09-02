@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: b285cd4348894007d1e487a0788f82c9c8821d43
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778077"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324014"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
@@ -62,13 +62,13 @@ Ein Team kann bis zu 100-Tags haben, bis zu 100 Teammitglieder können einem Tag
 
 ### <a name="set-who-can-add-custom-tags"></a>Bestimmen, wer benutzerdefinierte Kategorien hinzufügen kann
 
-Standardmäßig können Teambesitzer benutzerdefinierte Kategorien hinzufügen. Sie können diese Einstellung ändern, damit Teambesitzer und Teammitglieder Tags hinzufügen können, oder Sie können Tags für Ihre Organisation deaktivieren.
+Standardmäßig können Teambesitzer benutzerdefinierte Kategorien hinzufügen. Sie können diese Einstellung ändern, um Teambesitzern und Teammitgliedern das Erstellen, bearbeiten, löschen und Verwalten von Tags zu ermöglichen, oder Sie können Kategorien für Ihre Organisation deaktivieren.
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Organisationsweite Einstellungen** > **Teams-Einstellungen**.
-2. Wählen Sie unter **Tagging** neben **Tagging aktivieren für** eine der folgenden Optionen aus:
+2. Wählen Sie unter **Tagging**neben **Kategorien werden verwaltet von**eine der folgenden Optionen aus:
 
-    - **Teambesitzer und -mitglieder**: Zulassen, dass Teambesitzer und -mitglieder Tags hinzufügen.
-    - **Teambesitzer**: Zulassen, dass Teambesitzer Tags hinzufügen.
+    - **Teambesitzer und Mitglieder**: zulassen, dass Teambesitzer und Mitgliederkategorien verwalten können.
+    - **Teambesitzer**: zulassen, dass Teambesitzer Kategorien verwalten können.
     - **Deaktiviert**: Deaktivieren von Tags.
 
 ### <a name="configure-custom-tags-settings"></a>Konfigurieren von benutzerdefinierten Tags-Einstellungen
@@ -78,13 +78,13 @@ Sie können die folgenden Tags-Einstellungen konfigurieren, um zu steuern, wie b
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Organisationsweite Einstellungen** > **Teams-Einstellungen**.
 2. Legen Sie unter **Tagging** je nach den Anforderungen Ihrer Organisation Folgendes fest.
 
-    - **Teambesitzer kann überschreiben, wer Tags anwenden kann**: Wenn diese Option aktiviert ist, können Teambesitzer zulassen oder verhindern, dass Mitglieder Tags in Teameinstellungen hinzufügen.
-    - **Mitglieder können zusätzliche Tags hinzufügen**: Wenn Sie Teammitgliedern erlauben, Tags hinzuzufügen, aktivieren Sie diese Option, damit Teammitglieder andere Tags als die von Ihnen festgelegten empfohlenen Standardtags hinzufügen können. Ist diese Option deaktiviert, können Teammitglieder nur die Standardtags verwenden.
+    - **Zulassen, dass Teambesitzer überschreiben, wer Tags verwalten kann**: Wenn Sie diese Einstellung aktivieren, können Teambesitzer festlegen, ob Teammitglieder Tags innerhalb eines Teams erstellen und verwalten können, und der Wert der **Tags wird verwaltet, indem** die Einstellung der Standardwert für die einzelnen Teams ist. Wenn Sie diese Einstellung deaktivieren, werden die **Tags verwaltet, indem** die Einstellung nicht pro Team geändert werden kann.
     - **Vorgeschlagene Standardtags**: Hiermit können Sie eine Reihe von Standardtags hinzufügen. Sie können bis zu 25 Tags hinzufügen, und jedes Tag kann maximal 25 Zeichen enthalten. Teambesitzer und -mitglieder können diese Vorschläge verwenden, weitere hinzufügen oder einen neuen Satz von Tags erstellen (wenn das Feature für sie aktiviert ist).
+    - **Erstellen benutzerdefinierter Tags**: Aktivieren Sie diese Einstellung, damit Personen andere Tags als die von Ihnen festgelegten vorgeschlagenen Standardkategorien hinzufügen können. Wenn diese Option deaktiviert ist, können die Benutzer nur die vorgeschlagenen Standardkategorien verwenden. Wenn Sie diese Option deaktivieren, stellen Sie sicher, dass Sie eine oder mehrere Standardkategorien hinzufügen.
 
 ## <a name="manage-custom-tags-settings-for-a-team"></a>Verwalten von benutzerdefinierten Kategorien Einstellungen für ein Team
 
-Wenn Sie die Einstellung **Teambesitzer kann überschreiben, wer Tags anwenden kann** im Microsoft Teams Admin Center aktiviert haben, können Teambesitzer festlegen, ob Mitglieder auf Teamebene Tags hinzufügen können. Wechseln Sie dazu auf der Registerkarte **Einstellungen** für ein Team zu **Tags**, und wählen Sie dann aus, wer Tags hinzufügen kann.
+Wenn Sie die Einstellung zulassen, dass **Teambesitzer überschreiben können, wer Tags** im Microsoft Teams Admin Center verwalten kann, können Teambesitzer festlegen, ob Mitgliederkategorien auf Team Ebene hinzufügen können. Wechseln Sie dazu auf der Registerkarte **Einstellungen** für ein Team zu **Tags**, und wählen Sie dann aus, wer Tags hinzufügen kann.
 
 ![Screenshot der Tag-Einstellung auf Teamebene](media/manage-tags-team-settings.png)
 

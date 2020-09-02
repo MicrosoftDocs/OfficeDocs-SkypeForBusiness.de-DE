@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255378"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321738"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -42,7 +42,11 @@ Für dynamische Notrufe müssen folgende Schritte ausgeführt werden:
 
    - Wenn es eine Website Übereinstimmung mit Netzwerkeinstellungen gibt, werden die Richtlinien für Notrufe von dieser Website an den Team-Client zurückgegeben. (Weitere Informationen zu Richtlinien finden Sie unter [Konfigurieren von Notfall Richtlinien](#configure-emergency-policies)).
 
-   - Wenn es eine LIS-Übereinstimmung gibt – ein Notfall Standort aus dem Netzwerkelement, mit dem der Team-Client verbunden ist, wird an den Team-Client zurückgegeben.
+   - Wenn es eine LIS-Übereinstimmung gibt – ein Notfall Standort aus dem Netzwerkelement, mit dem der Team-Client verbunden ist, wird an den Team-Client zurückgegeben. Die Übereinstimmung wird in der folgenden Reihenfolge durchgeführt, wobei das erste übereinstimmende Ergebnis zurückgegeben wird:
+       - WAP
+       - Ethernet-Switch/-Port
+       - Ethernet-Switch
+       - Subnetz
 
 3. Wenn der Teams-Client einen Notruf tätigt, wird der Notfall Standort an das PSTN-Netzwerk weitergeleitet.
 
