@@ -26,7 +26,7 @@ ms.locfileid: "45121685"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
 
-Daten in Teams befinden sich in der geografischen Region, die Ihrer Microsoft 365- oder Office 365-Organisation zugeordnet ist. Gegenwärtig unterstützt Teams die Regionen Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, die Schweiz (zu der Liechtenstein gehört), die Vereinigten Arabischen Emirate, Großbritannien, Nord- und Südamerika, APAC und EMEA. 
+Daten in Teams befinden sich in der geografischen Region, die Ihrer Microsoft 365- oder Office 365-Organisation zugeordnet ist. Gegenwärtig unterstützt Teams die Regionen Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein), die Vereinigten Arabischen Emirate, Großbritannien, Nord- und Südamerika, APAC und EMEA. 
 
 > [!IMPORTANT]
 > Teams bietet derzeit Data Residency in Australien, Kanada, Frankreich, Deutschland, Indien, Japan, den Vereinigten Arabischen Emiraten, Großbritannien, Südkorea, Südafrika und der Schweiz (einschließlich Liechtenstein) nur für neue Mandanten an.
@@ -42,11 +42,11 @@ Wenn Sie wissen möchten, in welcher Region sich die Daten für Ihren Mandanten 
 
 Ihre Teams-Daten werden je nach Inhaltstyp anders gespeichert. 
 
-![Diagramm, das die Teams-Inhaltstypen und deren Speicherort in Ruhe zeigt](media/location-of-data-storage-at-rest.png)
+![Diagramm, das die Teams-Inhaltstypen und deren Speicherort (im Ruhezustand) zeigt](media/location-of-data-storage-at-rest.png)
 
-Sehen Sie sich die [Ignite-Breakout-Sitzung im Microsoft Teams Architecture](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071) an, um eine ausführlichere Diskussion zu führen.
+Sehen Sie sich die [Ignite-Breakout-Sitzung zur Microsoft Teams-Architektur](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071) an, um ausführliche Informationen zu erhalten.
 
-### <a name="core-teams-customer-data"></a>Core Teams Kundendaten
+### <a name="core-teams-customer-data"></a>Zentrale Teams-Kundendaten
 
 Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, der Schweiz (einschließlich Liechtenstein), den Vereinigten Arabischen Emiraten, dem Vereinigten Königreich oder den Vereinigten Staaten bereitgestellt wird, speichert Microsoft die folgenden ruhenden Kundendaten nur innerhalb dieses Standorts:
 
@@ -54,21 +54,21 @@ Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deu
 - Microsoft Office SharePoint Online-Websiteinhalte und die auf der Website gespeicherten Dateien
 - Auf Microsoft OneDrive for Business hochgeladene Dateien
 
-#### <a name="chat-channel-messages-team-structure"></a>Chat, Kanalmeldungen, Teamstruktur
+#### <a name="chat-channel-messages-team-structure"></a>Chats, Kanalmeldungen, Teamstruktur
 
-Jedes Team in Teams wird von einer Microsoft 365-Gruppe und Ihrer Microsoft Office SharePoint Online-Website und dem Exchange-Postfach unterstützt. Private Chats (einschließlich Gruppenchats), Nachrichten, die als Teil einer Unterhaltung in einem Kanal gesendet wurden, und die Struktur von Teams und Kanälen werden in einem Chatdienst gespeichert, der in Azure ausgeführt wird. Die Daten werden außerdem in einem verborgenen Ordner der Benutzer- und Gruppen-Postfächer gespeichert, um die Azure Information Protection zu aktivieren.
+Jedes Team in Teams verfügt über eine Microsoft 365-Gruppe und die zugehörige SharePoint-Website sowie einem Exchange-Postfach. Private Chats (einschließlich Gruppenchats), Nachrichten, die als Teil einer Unterhaltung in einem Kanal gesendet wurden, und die Struktur von Teams und Kanälen werden in einem Chatdienst gespeichert, der in Azure ausgeführt wird. Die Daten werden außerdem in einem verborgenen Ordner der Benutzer- und Gruppen-postfächer gespeichert, um die Azure Information Protection-Features zu aktivieren.
 
 #### <a name="voicemail-and-contacts"></a>Voicemail und Kontakte
 
-Voicemails werden in Exchange gespeichert. Kontakte werden in einem Exchange-basierten Cloud-Datenspeicher gespeichert. Exchange und der Exchange-basierte Cloud-Speicher bieten bereits Data Residency in jedem der weltweiten Rechenzentrumsgeos. Für ganz Teams werden Voicemail und Kontakte im Land gespeichert für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein) und die Vereinigten Staaten. Für alle anderen Länder werden Dateien gespeichert in den USA, Europa oder Asien-Pazifik, je nach Mandanten-Affinität.
+Voicemails werden in Exchange gespeichert. Kontakte werden in einem Exchange-basierten Clouddatenspeicher gespeichert. Exchange und der Exchange-basierte Cloudspeicher bieten bereits Data Residency in allen weltweiten Rechenzentrumsgeos. Für alle Teams werden für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein) und die Vereinigten Staaten Voicemail und Kontakte innerhalb des Landes gespeichert. Für alle anderen Länder werden Dateien je nach Mandantenaffinität n den USA, in Europa oder Asien-Pazifik gespeichert.
 
 #### <a name="images-and-media"></a>Bilder und Medien
 
-In Chats verwendete Medien (außer Giphy GIFs, die nicht gespeichert werden, sondern auf die ursprüngliche URL des Giphy-Dienstes verweisen; Giphy ist ein Nicht-Microsoft-Dienst), werden in einem Azure-basierten Mediendienst gespeichert, der an denselben Orten wie der Chat-Dienst bereitgestellt wird.
+In Chats verwendete Medien (außer Giphy-GIFs, die nicht gespeichert werden, sondern auf die ursprüngliche URL des Giphy-Dienstes verweisen, da Giphy ein Nicht-Microsoft-Dienst ist), werden in einem Azure-basierten Mediendienst gespeichert, der an denselben Orten wie der Chatdienst bereitgestellt wird.
 
 #### <a name="files"></a>Dateien
 
-Dateien (einschließlich OneNote und Wiki), die jemand in einem Kanal teilt, werden auf der Microsoft Office SharePoint Online-Website des Teams gespeichert. In einem privaten Chat oder in einem Chat während einer Besprechung oder eines Anrufs geteilte Daten werden in das Microsoft OneDrive for Business-Benutzerkonto hochgeladen und gespeichert. Exchange, Microsoft Office SharePoint Online und Microsoft OneDrive bieten bereits Data Residency in jedem der weltweiten Rechenzentrumsgeos. Bei bestehenden Kunden sind also bereits alle Dateien, OneNote-Notebooks, Teams Wiki-Inhalte, Postfächer der Teams-Umgebung, am Standort gespeichert, je nach Mandantenaffinität. Dateien werden im Land gespeichert für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Vereinigte Arabische Emirate, Großbritannien, Südafrika, Südkorea und die Schweiz (einschließlich Liechtenstein). Für alle anderen Länder werden Dateien je nach Mandantenaffinität in den USA, Europa oder Asien-Pazifik gespeichert.
+Dateien (einschließlich OneNote und Wiki), die jemand in einem Kanal teilt, werden auf der Microsoft Office SharePoint Online-Website des Teams gespeichert. In einem privaten Chat oder in einem Chat während einer Besprechung oder eines Anrufs geteilte Daten werden in das Microsoft OneDrive for Business-Benutzerkonto hochgeladen und gespeichert. Exchange, Microsoft Office SharePoint Online und Microsoft OneDrive bieten bereits Data Residency in allen weltweiten Rechenzentrumsgeos. Bei bestehenden Kunden sind also bereits alle Dateien, OneNote-Notebooks, Teams Wiki-Inhalte, Postfächer der Teams-Umgebung, am Standort gespeichert, je nach Mandantenaffinität. Dateien werden für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Vereinigte Arabische Emirate, Großbritannien, Südafrika, Südkorea und die Schweiz (einschließlich Liechtenstein) innerhalb des Landes gespeichert. Für alle anderen Länder werden Dateien je nach Mandantenaffinität in den USA, Europa oder Asien-Pazifik gespeichert.
 
 ### <a name="datacenter-locations"></a>Standorte der Rechenzentren
 
@@ -99,14 +99,14 @@ Die in diesem Abschnitt beschriebenen Teams-Dienste legen die ruhenden Daten an 
 
 Organisationen, die Benutzern das Speichern von Dateien mit einem Drittanbieter gestatten, sind vom Speicherort dieser Dienste abhängig und sollten deshalb den Speicherort der ruhenden Daten für diese Dienste separat überprüfen.
 
-- **Registerkarten**: Mit Hilfe von Tabs können Benutzer Informationen aus Apps und Diensten an einen Kanal anheften. Der Datenspeicherort variiert je nach Art der Registerkarte. Auf der Registerkarte selbst werden keine Daten abgelegt. Beispielsweise werden auf einer Microsoft Office SharePoint Online-Registerkarte Daten gespeichert, je nachdem, wo die Microsoft Office SharePoint Online-Websitesammlung bereitgestellt wurde. Eine Registerkarte, die Informationen von einem Partner enthält, speichert die Daten direkt in dem vom Partner verwendeten System und zeigt nur eine Ansicht der Daten an.
+- **Registerkarten**: Mithilfe von Registerkarten können Benutzer Informationen aus Apps und Diensten an einen Kanal anheften. Der Datenspeicherort variiert je nach Art der Registerkarte. Auf der Registerkarte selbst werden keine Daten abgelegt. Beispielsweise werden auf einer Microsoft Office SharePoint Online-Registerkarte Daten gespeichert, je nachdem, wo die Microsoft Office SharePoint Online-Websitesammlung bereitgestellt wurde. Eine Registerkarte, die Informationen von einem Partner enthält, speichert die Daten direkt in dem vom Partner verwendeten System und zeigt nur eine Ansicht der Daten an.
 - **Weitere Partner-Apps**: Microsoft bietet keinen Data Residency-Support für Apps und Dienste von Partnern, die Sie möglicherweise im Rahmen der Teams-Umgebung nutzen. Prüfen Sie Informationen aus diesen Lösungen direkt, um zu erfahren, wo ihre Daten gespeichert werden.
 
 ## <a name="see-also"></a>Weitere Informationen
 
 - [Microsoft Teams startet Data Residency in den Vereinigten Arabischen Emiraten](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-United-Arab-Emirates-Data-Residency/ba-p/980330)
 
-- [Microsoft Teams startet Data Residency in Süd-Korea](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171)
+- [Microsoft Teams startet Data Residency in Südkorea](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171)
 
 - [Microsoft Teams startet Data Residency in Südafrika](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611)
 
@@ -116,4 +116,4 @@ Organisationen, die Benutzern das Speichern von Dateien mit einem Drittanbieter 
 
 - [Microsoft Teams startet Data Residency in Australien und Japan](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)
 
-- [Microsoft Teams startet Data Residency in Kanada, Australien und Japan in Kürze verfügbar](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)
+- [Microsoft Teams startet Data Residency in Kanada, Australien und Japan (in Kürze verfügbar)](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178)
