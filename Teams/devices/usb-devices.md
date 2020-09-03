@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640910"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331630"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -78,6 +78,13 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 
 | Hersteller        | Modell                                                     | Qualifizierten      | Certified-Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 80-Headset                                          |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 40-Headset                                          |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve 30 II-Headset                                       |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Evolv 20-Headset                                          |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Epos/Sennheiser      |Impact SC 660 mit USB-Ed CC 01 MS connecto                |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Epos/Sennheiser      |Impact SC 630 mit USB-Ed CC 01 MS connecto                |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Epos/Sennheiser      |Impact SC 260 mit USB-Ed CC 01 MS connecto                |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Zertifiziert für Skype for Business                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Zertifiziert für Skype for Business                        |
 |Jabra                |Evolve 75-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
