@@ -195,11 +195,13 @@
 ### [Ihre Bereitstellung planen](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Audiokonferenzen in Microsoft 365](audio-conferencing-in-office-365.md)
+### [Offene Vorschau: Netzwerkkonferenzen für Audiokonferenzen](audio-conferencing-on-network.md)
 ### [Allgemeine Fragen zu Audiokonferenzen](audio-conferencing-common-questions.md)
 ### [Tutorial: Audiokonferenzen in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Audiokonferenz-Add-Ons in Microsoft 365 testen und kaufen](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Zeitraum für kostenlose ausgehende Anrufe für Audiokonferenzen](complimentary-dial-out-period.md)
 ### [Vorteil "Ausgehende Anrufe"/"Rückruf unter" von Audiokonferenzen-Abonnement](audio-conferencing-subscription-dial-out.md)
+
 
 ### [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
