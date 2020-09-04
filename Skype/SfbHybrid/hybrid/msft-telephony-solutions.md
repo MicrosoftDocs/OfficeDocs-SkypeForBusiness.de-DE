@@ -1,5 +1,5 @@
 ---
-title: Microsoft-Telefonie-Lösungen
+title: Microsoft-Telefonielösungen
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,14 +18,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Beschreibt Microsoft-Telefonie-Lösungen.
-ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221325"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359101"
 ---
-# <a name="microsoft-telephony-solutions"></a>Microsoft-Telefonie-Lösungen
+# <a name="microsoft-telephony-solutions"></a>Microsoft-Telefonielösungen
 
 Microsoft unterstützt mehrere Optionen, wenn Sie Ihre Reise zu Microsoft Teams in der Microsoft-Cloud beginnen. In diesem Artikel können Sie entscheiden, welche Microsoft-Telefonielösung (Telefon System in der Cloud oder Enterprise-VoIP lokal) für Benutzer in Ihrer Organisation geeignet ist und wie Ihre Organisation eine Verbindung mit dem Telefon Festnetz (Public Switched Telephone Network, PSTN) herstellen kann. 
 
@@ -126,7 +126,7 @@ Telefon System mit Anrufplan ist eine All-in-the-Cloud-Option für Teams oder Sk
 | Erfordert Vertrag mit Drittanbieter-Carrier      | Nein   |
 | Erfordert die Bereitstellung und Verwaltung von Skype for Business Server oder Cloud Connector Edition | Nein |
 
-\*Weitere Informationen über die Länder, in denen der Anrufplan verfügbar ist, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+\* Weitere Informationen über die Länder, in denen der Anrufplan verfügbar ist, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
 Wenn Sie die folgenden Fragen mit "Ja" beantworten, ist dies die richtige Lösung für Sie:
@@ -158,7 +158,7 @@ Mit dieser Option wird Microsoft Phone System in der Cloud mit nahezu jedem Tele
 | Erfordert Vertrag mit Drittanbieter-Carrier *      | Ja   |
 | Erfordert die Bereitstellung und Verwaltung von Skype for Business Server oder Cloud Connector Edition | Nein |
 
-\*Sofern nicht als Option bereitgestellt, um eine Verbindung mit einer Drittanbieter-Nebenstellenanlage, analogen Geräten oder anderen Telefonieanlagen für Benutzer bereitzustellen, die sich im Telefon System mit Anrufplänen befinden.
+\* Sofern nicht als Option bereitgestellt, um eine Verbindung mit einer Drittanbieter-Nebenstellenanlage, analogen Geräten oder anderen Telefonieanlagen für Benutzer bereitzustellen, die sich im Telefon System mit Anrufplänen befinden.
 
 Wenn Sie die folgenden Fragen mit "Ja" beantworten, ist dies die richtige Lösung für Sie:
 
@@ -172,6 +172,9 @@ Weitere Informationen finden Sie unter [Was ist Telefon System in Microsoft 365 
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Telefon System mit eigenem Carrier über Skype for Business Server oder Cloud Connector Edition
+
+> [!Important]
+> Skype for Business Online werden am 31. Juli 2021 zurückgezogen, nach dem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Hier erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
 
 Mit dieser Option wird Microsoft Phone System in der Cloud mit einer Verbindung zu einem lokalen Telefonie-Netzwerk für Skype for Business Online Benutzer bereitgestellt.
 

@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f6a1b8959bb5411909f8627c5d02a6cdc1935b20
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221295"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359081"
 ---
-# <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
+# <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloudtelefonzentralen
 
 Die mit Exchange Unified Messaging (Exchange Server 2013 oder Exchange Server 2016) verwendete automatische Telefonzentrale ist in Exchange Server 2019 oder Exchange Online nicht mehr verfügbar. Wenn Ihre Implementierung von Skype for Business Server 2019 in eine dieser Exchange-Versionen integriert ist, müssen Sie die Online-Cloud-VoIP-Funktionen verwenden, die mit dem Telefon System verbunden sind. Informationen zum Verschieben von Exchange um Diensten, die in Exchange Server 2013 und 2016 verwaltet werden, finden Sie unter [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md) in der Cloud.
 
@@ -49,7 +49,7 @@ Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for B
 
 - Wenn Sie bereits Exchange um Online oder lokal verwenden und ein Upgrade auf Skype for Business 2019 durchführen, müssen Sie die Struktur ihrer automatischen Telefonzentralen erfassen und in der Cloud mithilfe von automatischen Cloud-Telefonzentralen neu erstellen. Weitere Informationen finden Sie unter [Verschieben einer Exchange um automatischen Telefonzentrale oder Anrufwarteschlange in das Telefon System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
-- Für eine neue Konfiguration von automatischen Cloud-Telefonzentralen führen Sie die unter [Configure Resource Accounts](configure-onprem-ra.md)beschriebenen Schritte aus.
+- Für eine neue Konfiguration von automatischen Cloud-Telefonzentralen führen Sie die unter  [Configure Resource Accounts](configure-onprem-ra.md)beschriebenen Schritte aus.
 
 Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anforderungen so konfiguriert werden, dass eine Verbindung mit dem automatischen Microsoft Cloud-Telefonzentralen Dienst hergestellt wird:
 
@@ -85,7 +85,7 @@ Derzeit unterstützen wir keine automatisierte Migration in die Cloud eines in E
 1. Verwenden Sie die Exchange-Verwaltungs-PowerShell-Befehle, um die Struktur des alten automatischen Telefonzentralen Systems zu überprüfen, einschließlich aller geschachtelten automatischen Telefonzentralen und Anrufwarteschlangen.  
 2. Erstellen von Kopien von Text-zu-Sprache-Skripts oder aufgezeichneten Nachrichten, die den einzelnen um-Telefonzentralen-Knoten zugeordnet sind.
 3. Erstellen Sie vor Ort-Endpunkte für jeden Knoten der automatischen Telefonzentrale, einschließlich Zuweisen eines Testtelefon Nummern und Lizenzen zu den Objekten. Beachten Sie, dass Sie jetzt die Möglichkeit haben, von Onlinediensten wie dem Telefon System verwendete Lizenzen für lokale Telefonnummern zuzuweisen.
-4. Implementieren Sie einen neuen automatischen Cloud-Telefonzentralen Dienst mit Skype for Business Online und Telefon System. Informationen zur Implementierung finden Sie unter [Configure Resource Accounts](configure-onprem-ra.md) . Laden Sie dabei die Text-zu-Sprache-Skripts oder aufgezeichneten Nachrichten, die den einzelnen um-Telefonzentralen-Knoten zugeordnet sind, hoch.
+4. Implementieren Sie einen neuen automatischen Cloud-Telefonzentralen-Dienst mit Microsoft Teams und Telefon System. Informationen zur Implementierung finden Sie unter [Configure Resource Accounts](configure-onprem-ra.md) . Laden Sie dabei die Text-zu-Sprache-Skripts oder aufgezeichneten Nachrichten, die den einzelnen um-Telefonzentralen-Knoten zugeordnet sind, hoch.
 5. Testen Sie die Funktionalität der automatischen Cloud-Telefonzentrale.
 6. Weisen Sie der neu erstellten automatischen primären Cloud-Telefonzentrale erneut die Telefonnummer zu, die der alten Exchange um automatischen Telefonzentrale zugewiesen wurde.
 

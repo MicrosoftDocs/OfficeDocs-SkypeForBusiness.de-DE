@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Planungsüberlegungen für die Implementierung einer hybriden Konnektivität zwischen Skype for Business Server und Skype for Business Online oder Teams.
-ms.openlocfilehash: 3a7df5ef36a7d0e6bf58c1784edb0bbe0baa9409
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221275"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359061"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365
 
@@ -37,6 +37,9 @@ Außerdem müssen Sie die Hybridkonnektivität einrichten und alle Benutzer in d
 In diesem Thema werden die Infrastruktur-und Systemanforderungen beschrieben, die Sie zum Konfigurieren der Hybrid Konnektivität zwischen Ihrer vorhandenen lokalen Skype for Business Server-Bereitstellung und Microsoft Teams oder Skype for Business Online benötigen.
 
 Nachdem Sie dieses Thema gelesen und die Hybrid Konnektivität konfiguriert haben, finden Sie weitere Informationen unter [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md). Die Konfigurationsthemen bieten eine Schritt-für-Schritt-Anleitung zum Einrichten einer hybriden Konnektivität zwischen Ihrer lokalen Bereitstellung und Teams oder Skype for Business Online.
+
+> [!Important]
+> Skype for Business Online werden am 31. Juli 2021 zurückgezogen, nach dem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Hier erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Informationen zu freigegebenen SIP-Adressraum Funktionen
 
@@ -84,8 +87,8 @@ Nachdem Sie die Hybrid Konnektivität konfiguriert haben, können Sie Benutzer i
 
 Wenn Sie Ihre Bereitstellung für eine hybridbereitstellung mit **Teams oder Skype for Business Online**konfigurieren möchten, müssen Sie über eine der folgenden unterstützten Topologien verfügen:
 
-- Eine Skype for Business Server 2019-Bereitstellung mit allen Servern, auf denen Skype for Business Server 2019 läuft.
-- Eine Skype for Business Server 2015 Bereitstellung mit allen Servern, auf denen Skype for Business Server 2015 läuft.
+- Eine Skype for Business Server 2019-Bereitstellung mit allen Servern, auf denen Skype for Business Server 2019 ausgeführt wird.
+- Eine Skype for Business Server 2015-Bereitstellung mit allen Servern, auf denen Skype for Business Server 2015 ausgeführt wird.
 - Eine lync Server 2013 Bereitstellung mit allen Servern, auf denen lync Server 2013 läuft.  Wenn jedoch eine hybride VoIP-Konnektivität erforderlich ist, müssen Sie eine Topologie mit gemischten Versionen wie unten beschrieben verwenden.
 - Eine Bereitstellung mit maximal 2 verschiedenen Server Versionen, wie unten aufgeführt:
   - Skype for Business Server 2015 und Skype for Business Server 2019
@@ -149,7 +152,7 @@ Darüber hinaus müssen Sie sicherstellen, dass die in der folgenden Tabelle bes
 
 |DNS-Eintrag  <br/> |Auflösbar durch  <br/> |DNS-Anforderung  <br/> |
 |:-----|:-----|:-----|
-|DNS-SRV-Eintrag für _sipfederationtls. _tcp. \< sipdomain.com \> für alle unterstützten SIP-Domänen, die auf Edge-externe IP (s) zugreifen  <br/> |Edgeserver (s)  <br/> |Aktivieren Sie die Verbundkommunikation in einer Hybrid Konfiguration. Die Edgeserver müssen wissen, wo der Verbunddatenverkehr für die SIP-Domäne, die zwischen lokal und Online aufgeteilt ist, weitergeleitet werden soll.  <br/> Es muss strikte DNS-Namensübereinstimmung zwischen der Domäne im Benutzernamen und dem SRV-Eintrag verwendet werden.  <br/> |
+|DNS-SRV-Eintrag für _sipfederationtls. _tcp.\<sipdomain.com\> für alle unterstützten SIP-Domänen, die auf Edge-externe IP (s) zugreifen  <br/> |Edgeserver (s)  <br/> |Aktivieren Sie die Verbundkommunikation in einer Hybrid Konfiguration. Die Edgeserver müssen wissen, wo der Verbunddatenverkehr für die SIP-Domäne, die zwischen lokal und Online aufgeteilt ist, weitergeleitet werden soll.  <br/> Es muss strikte DNS-Namensübereinstimmung zwischen der Domäne im Benutzernamen und dem SRV-Eintrag verwendet werden.  <br/> |
 |DNS-A-Einträge für den FQDN des Edge-Webkonferenz Diensts, beispielsweise webcon.contoso.com auflösen in Webkonferenz-Edge-externe IP (s)  <br/> |Interne Unternehmensnetzwerk verbundene Benutzer Computer  <br/> |Ermöglichen Sie Online-Benutzern das präsentieren oder Anzeigen von Inhalten in lokalen gehosteten Besprechungen. Der Inhalt enthält PowerPoint-Dateien, Whiteboards, Umfragen und freigegebene Notizen.  <br/> |
 
 Je nachdem, wie DNS in Ihrer Organisation konfiguriert ist, müssen Sie diese Einträge möglicherweise der internen gehosteten DNS-Zone für die entsprechenden SIP-Domänen hinzufügen, um die interne DNS-Auflösung für diese Einträge bereitzustellen.
