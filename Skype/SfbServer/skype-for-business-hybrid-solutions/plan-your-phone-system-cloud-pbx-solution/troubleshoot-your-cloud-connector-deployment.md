@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Problembehandlung bei der Cloud Connector Edition-Bereitstellung.
-ms.openlocfilehash: 97ece0ee1bcc11c22fd55709d025169ed95b16ff
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a1caea67c5b5899c2dc0909ef771a57c7c50389
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220225"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359331"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Problembehandlung bei Ihrer Cloud Connector-Bereitstellung
+
+> [!Important]
+> Die Cloud Connector-Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online zurückgezogen. Nachdem Ihre Organisation ein Upgrade auf Microsoft Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
  
 Problembehandlung bei der Cloud Connector Edition-Bereitstellung.
   
@@ -151,7 +154,7 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
   Get-CsHybridPSTNSite
   ```
 
-    Wenn _EnableAutoUpdate_ auf **true**festgelegt ist, können Sie diese Warnmeldung gefahrlos ignorieren, da der CCEManagement-Dienst das herunterladen und Installieren von Windows-Updates für virtuelle Computer und den Hostserver übernimmt. Wenn _EnableAutoUpdate_ auf **false**festgelegt ist, führen Sie das folgende Cmdlet aus, um es auf **true**festzulegen.
+    Wenn  _EnableAutoUpdate_ auf **true**festgelegt ist, können Sie diese Warnmeldung gefahrlos ignorieren, da der CCEManagement-Dienst das herunterladen und Installieren von Windows-Updates für virtuelle Computer und den Hostserver übernimmt. Wenn  _EnableAutoUpdate_ auf **false**festgelegt ist, führen Sie das folgende Cmdlet aus, um es auf **true**festzulegen.
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -159,13 +162,13 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
 
     Alternativ können Sie auch manuell nach Updates suchen und diese installieren. Informationen dazu finden Sie im nächsten Abschnitt.
     
-- **Problem: Sie erhalten eine Fehlermeldung: die Appliance kann nicht registriert werden, da Ihre aktuelle Eingabe/Konfiguration \< Sitename \> oder \< Appliancename \> oder \< Vermittlungsserver FQDN \> oder \< Vermittlungsserver IP-Adresse \> mit vorhandenen Appliances in Konflikt steht. Entfernen Sie die Konflikt-Appliance oder aktualisieren Sie Ihre Eingabe/Konfigurationsinformationen, und registrieren Sie sich dann erneut. ' beim Ausführen von Register-ccappliance ", um die aktuelle Appliance online zu registrieren.**
+- **Problem: Sie erhalten eine Fehlermeldung: die Appliance kann nicht registriert werden, da Ihre aktuelle Eingabe/Konfiguration oder oder oder \<SiteName\> \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> Konflikte mit vorhandenen Appliances (s) auftreten. Entfernen Sie die Konflikt-Appliance oder aktualisieren Sie Ihre Eingabe/Konfigurationsinformationen, und registrieren Sie sich dann erneut. ' beim Ausführen von Register-ccappliance ", um die aktuelle Appliance online zu registrieren.**
     
-    **Lösung:** Werte für den \< Appliancename \> , \< Vermittlungsserver FQDN \> und \< Vermittlungsserver IP-Adresse \> müssen eindeutig sein und nur für eine Appliance-Registrierung verwendet werden. Standardmäßig \< kommt Appliancename \> aus dem Hostnamen. \<Vermittlungsserver FQDN \> und \< Vermittlungsserver IP-Adresse, die \> in der Konfigurations-ini-Datei definiert ist.
+    **Lösung:** Werte für das \<ApplianceName\> \<Mediation Server FQDN\> und \<Mediation Server IP Address\> müssen eindeutig sein und nur für eine Appliance-Registrierung verwendet werden. Standardmäßig \<ApplianceName\> stammt aus dem Hostnamen. \<Mediation Server FQDN\> und \<Mediation Server IP Address\> in der Konfigurations-ini-Datei definiert.
     
     Verwenden Sie beispielsweise (Appliancename = MyserverNew, Vermittlungsserver FQDN = ms. contoso. com, Vermittlungsserver IP Address = 10.10.10.10), um sich auf Sitename = mysite zu registrieren, aber wenn es eine registrierte Appliance gibt (Appliancename = MyServer, Vermittlungsserver FQDN = ms. contoso. com, Vermittlungsserver IP Address = 10.10.10.10), haben Sie den Konflikt.
     
-    Überprüfen Sie zuerst die Datei "cloudconnector. ini im Abschnitt ApplianceRoot Directory. Sie erhalten \< Sitename \> , \< Vermittlungsserver FQDN \> und \< Vermittlungsserver IP-Adress \> Werte in der Datei. \<Appliancename \> ist der Name des Hostservers.
+    Überprüfen Sie zuerst die CloudConnector.ini Datei im Abschnitt ApplianceRoot Directory. Sie erhalten \<SiteName\> , \<Mediation Server FQDN\> und \<Mediation Server IP Address\> Werte in der Datei. \<ApplianceName\> ist der Name des Hostservers.
     
     Starten Sie als zweites die mandantenfähige Remote-PowerShell mit Ihren Skype for Business Mandanten-Administratoranmeldeinformationen, und führen Sie dann das folgende Cmdlet aus, um die registrierten Appliances zu überprüfen.
     
@@ -173,7 +176,7 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
   Get-CsHybridPSTNAppliance
   ```
 
-    Nachdem Sie Konflikte identifiziert haben, können Sie entweder Ihre "cloudconnector. ini-Datei mit Informationen aktualisieren, die mit der registrierten Appliance übereinstimmen, oder die Registrierung der vorhandenen Appliance aufheben, um die Konflikte zu lösen.
+    Nachdem Sie Konflikte identifiziert haben, können Sie entweder die CloudConnector.ini Datei mit Informationen aktualisieren, die mit der registrierten Appliance übereinstimmen, oder die Registrierung der vorhandenen Appliance aufheben, um die Konflikte zu lösen.
     
   ```powershell
   Unregister-CsHybridPSTNAppliance -Force
@@ -182,13 +185,13 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
     
 - **Problem: das Get-CcRunningVersion-Cmdlet gibt einen leeren Wert zurück, wenn auf dem Host eine bereitgestellte Appliance installiert ist.**
     
-  **Lösung:** Dies kann passieren, wenn Sie ein Upgrade von 1.3.4 oder 1.3.8 auf 1.4.1 durchführen. Nachdem Sie die Version 1.4.1 mit der MSI-Installation installiert haben, müssen Sie ausgeführt werden, `Register-CcAppliance` bevor Sie ein anderes Cmdlet ausführen. `Register-CcAppliance`die Datei "Module. ini" wird von%USERPROFILE%\CloudConnector zu%ProgramData%\CloudConnector. migriert. Wenn Sie es verpasst haben, wird im Ordner%ProgramData%\CloudConnector eine neue Modul. ini erstellt, und die Informationen zur laufenden/Sicherungsversion für 1.3.4 oder 1.3.8 werden ersetzt.
+  **Lösung:** Dies kann passieren, wenn Sie ein Upgrade von 1.3.4 oder 1.3.8 auf 1.4.1 durchführen. Nachdem Sie die Version 1.4.1 mit der MSI-Installation installiert haben, müssen Sie ausgeführt werden, `Register-CcAppliance` bevor Sie ein anderes Cmdlet ausführen. `Register-CcAppliance` die module.ini Datei wird von%USERPROFILE%\CloudConnector zu%ProgramData%\CloudConnector. migriert. Wenn Sie ihn verpasst haben, wird ein neuer module.ini im Ordner%ProgramData%\CloudConnector erstellt, und die Informationen zur ausgeführten/Sicherungsversion für 1.3.4 oder 1.3.8 werden ersetzt.
     
-  Vergleichen Sie die Modul. ini-Dateien im Ordner%UserProfile%\CloudConnector und%ProgramData%\CloudConnector. Wenn es Unterschiede gibt, löschen Sie die Datei Module. ini in%ProgramData%\CloudConnector, und führen Sie eine erneute Ausführung aus `Register-CcAppliance` . Sie können die Datei auch manuell in die richtige Ausführungs-und Sicherungsversion ändern.
+  Vergleichen Sie module.ini Dateien im Ordner%UserProfile%\CloudConnector und%ProgramData%\CloudConnector. Wenn es Unterschiede gibt, löschen Sie die module.ini Datei in%ProgramData%\CloudConnector, und führen Sie eine erneute Ausführung aus  `Register-CcAppliance` . Sie können die Datei auch manuell in die richtige Ausführungs-und Sicherungsversion ändern.
     
 - **Problem: Nachdem Sie das Switch-CcVersion-Cmdlet ausgeführt haben, um zu einer älteren Version zu wechseln, die sich von der aktuellen Skriptversion unterscheidet, gibt es keine Unterstützung für hohe Verfügbarkeit für diese alte Version.**
     
-    **Lösung:** Sie haben beispielsweise ein Upgrade von 1.4.1 auf 1.4.2 durchgeführt. Ihre aktuelle Skriptversion, die durch Ausführen bestimmt werden kann `Get-CcVersion` , und die laufende Version, die durch Ausführen bestimmt werden kann, `Get-CcRunningVersion` sind beide 1.4.2. Wenn Sie zu diesem Zeitpunkt ausführen, `Switch-CcVersion` um die ausgeführte Version wieder auf 1.4.1 umzuschalten, wird keine Unterstützung für hohe Verfügbarkeit für diese alte Version verfügbar sein.
+    **Lösung:** Sie haben beispielsweise ein Upgrade von 1.4.1 auf 1.4.2 durchgeführt. Ihre aktuelle Skriptversion, die durch Ausführen bestimmt werden kann `Get-CcVersion` , und die laufende Version, die durch Ausführen bestimmt werden kann,  `Get-CcRunningVersion` sind beide 1.4.2. Wenn Sie zu diesem Zeitpunkt ausführen, `Switch-CcVersion` um die ausgeführte Version wieder auf 1.4.1 umzuschalten, wird keine Unterstützung für hohe Verfügbarkeit für diese alte Version verfügbar sein.
     
     Um eine vollständige Unterstützung für hohe Verfügbarkeit zu erhalten, wechseln Sie zurück zu 1.4.2, sodass die laufende Version und die Skriptversion identisch sind. Wenn Probleme mit ihrer 1.4.2-Bereitstellung auftreten, deinstallieren Sie Sie, und installieren Sie Sie so bald wie möglich neu.
     
@@ -246,7 +249,7 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
     
     Microsoft empfiehlt, dass Sie diese Schritte während nicht-Spitzennutzungszeiten durchführen.
     
-1. Führen Sie auf der ersten Appliance das Cmdlet Remove-CcCertificationAuthorityFile aus, um die Sicherungsdateien der Zertifizierungsstelle im SiteRoot-Verzeichnis zu bereinigen \< \> .
+1. Führen Sie auf der ersten Appliance das Cmdlet Remove-CcCertificationAuthorityFile aus, um die Sicherungsdateien der Zertifizierungsstelle im Verzeichnis zu bereinigen \<SiteRoot\> .
 
      ```powershell
      Remove-CcCertificationAuthorityFile
@@ -276,7 +279,7 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
      Remove-CcLegacyServerCertificate 
      ```
 
-4. Führen Sie auf der ersten Appliance das folgende Cmdlet aus, um die Zertifizierungsstellen Dateien im \< Ordner SiteRoot zu sichern \> .
+4. Führen Sie auf der ersten Appliance das folgende Cmdlet aus, um die Zertifizierungsstellen Dateien in den Ordner zu sichern \<SiteRoot\> .
     
      ```powershell
      Backup-CcCertificationAuthority
@@ -303,7 +306,7 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
      ```
     
     
-- **Problem: Sie erhalten die folgende Fehlermeldung im Cloud Connector-Verwaltungsdienst Protokoll "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": "cceservice"-Fehler: 0: unerwartete Ausnahme beim Melden von Status an Online: System. Management. Automation. CmdletInvocationException: Anmeldung für den Benutzer \< "globaler mandantenadministrator" fehlgeschlagen \> . Erstellen Sie ein neues Credential-Objekt, um sicherzustellen, dass Sie den richtigen Benutzernamen und das richtige Kennwort verwendet haben. ---\>**
+- **Problem: Sie erhalten die folgende Fehlermeldung im Cloud Connector-Verwaltungsdienst Protokoll "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": "cceservice"-Fehler: 0: unerwartete Ausnahme beim Melden von Status an Online: System. Management. Automation. CmdletInvocationException: Anmeldung für den Benutzer ist fehlgeschlagen \<Global Tenant Admin\> . Erstellen Sie ein neues Credential-Objekt, um sicherzustellen, dass Sie den richtigen Benutzernamen und das richtige Kennwort verwendet haben. ---\>**
     
     **Lösung:** Die Anmeldeinformationen des globalen Mandanten Administrators von Microsoft 365 oder Office 365 wurden seit der Registrierung der Cloud Connector-Appliance geändert. Um die lokal gespeicherten Anmeldeinformationen in der Cloud Connector-Appliance zu aktualisieren, führen Sie die folgenden von Administrator-PowerShell auf der Host-Appliance aus:
     
@@ -313,13 +316,13 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
 
 - **Problem: nach dem Ändern des Kennworts für das Hostserver Konto, das Sie für die Bereitstellung verwendet haben, wird die folgende Fehlermeldung angezeigt: "ConvertTo-SecureString: Key ungültig für die Verwendung in angegebenem Zustand." in%ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log oder beim Ausführen des Cmdlets Get-CcCredential.**
     
-    **Lösung:** Alle Cloud Connector-Anmeldeinformationen werden in der folgenden Datei gespeichert: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ". Wenn das Kennwort auf dem Hostserver geändert wird, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
+    **Lösung:** Alle Cloud Connector-Anmeldeinformationen werden in der folgenden Datei gespeichert: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ". Wenn das Kennwort auf dem Hostserver geändert wird, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
     
     **Wenn Sie Cloud Connector, Version 1.4.2, ausführen, generieren Sie** alle Cloud Connector-Kennwörter mit den folgenden Schritten neu:
     
   1. Starten Sie den Hostserver neu.
     
-  2. Löschen Sie die folgende Datei: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ".
+  2. Löschen Sie die folgende Datei: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ".
     
   3. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie dann "Register-ccappliance"-local "aus, um die Kennwörter nach der Beschreibung erneut einzugeben. Geben Sie dieselben Kennwörter ein, die Sie zuvor für die Cloud Connector-Bereitstellung eingegeben haben.
     
@@ -327,7 +330,7 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
     
   4. Starten Sie den Hostserver neu.
     
-  5. Löschen Sie die folgende Datei: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ".
+  5. Löschen Sie die folgende Datei: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ".
     
   6. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie dann "Register-ccappliance"-local "aus, um die Kennwörter nach der Beschreibung erneut einzugeben. 
     
@@ -361,9 +364,9 @@ Im folgenden finden Sie Lösungen zu häufig auftretenden Problemen:
 
 - **Problem: bei der Cloud Connector Edition 2,1 wird bei der Ausführung von install-ccappliance "eine Fehlermeldung wie die folgende angezeigt:" Fehler beim Installieren der neuen Instanz mit Fehler: "State kann nicht festgelegt werden", da nur Zeichenfolgen als Werte zum Festlegen von XmlNode-Eigenschaften verwendet werden können "**
 
-   **Lösung:** Fügen Sie in "cloudconnector. ini im Abschnitt [common] die Konfigurationsdatei" State "wie unten hinzu: CountryCode = US State = WA City = Redmond
+   **Lösung:** Fügen Sie in Cloudconnector.ini im Abschnitt [common] die Konfigurationsdatei "State" wie unten hinzu: CountryCode = US State = WA City = Redmond
 
-   Es ist nicht erforderlich, dass die "State"-Reihe einen Wert aufweist, die "State"-Reihe kann jedoch nicht aus der Datei "" cloudconnector. ini "entfernt werden.
+   Es ist nicht erforderlich, dass die "State"-Reihe einen Wert aufweist, die "State"-Reihe kann jedoch nicht aus der Cloudconnector.ini Datei entfernt werden.
 
 - **Problem: Sie erhalten die folgende Fehlermeldung "Dismount-WindowsImage: Dismount-WindowsImage failed. Fehlercode = 0xc1550115 "beim Installieren oder Aktualisieren von Cloud Connector Edition.**
     
@@ -466,4 +469,4 @@ Wenn Sie Antivirensoftware auf dem Cloud Connector-Hostcomputer installieren mü
     
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
-- Der Prozess Microsoft. RTC. CCE. anwendungsverwaltungdienstanwendungendienstanwendungen. exe.
+- Der Prozess Microsoft.Rtc.CCE.ManagementService.exe.

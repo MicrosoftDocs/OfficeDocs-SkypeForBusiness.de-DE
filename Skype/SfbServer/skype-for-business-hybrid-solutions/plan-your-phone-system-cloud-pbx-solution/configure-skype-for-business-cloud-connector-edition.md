@@ -20,15 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Hier erfahren Sie, wie Sie Skype for Business Cloud Connector Edition, eine minimale lokale Topologie, konfigurieren, um die Integration Ihrer lokalen VoIP-Infrastruktur mit Telefon System-VoIP-Diensten (Cloud PBX) in Skype for Business Online zu ermöglichen.
-ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219515"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358791"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Konfigurieren und Verwalten von Skype for Business Cloud Connector Edition
  
+> [!Important]
+> Die Cloud Connector-Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online zurückgezogen. Nachdem Ihre Organisation ein Upgrade auf Microsoft Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
+
 Hier erfahren Sie, wie Sie Skype for Business Cloud Connector Edition, eine minimale lokale Topologie, konfigurieren, um die Integration Ihrer lokalen VoIP-Infrastruktur mit Telefon System-VoIP-Diensten (Cloud PBX) in Skype for Business Online zu ermöglichen. 
   
 Bevor Sie beginnen, sollten Sie die Voraussetzungen in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)überprüfen.

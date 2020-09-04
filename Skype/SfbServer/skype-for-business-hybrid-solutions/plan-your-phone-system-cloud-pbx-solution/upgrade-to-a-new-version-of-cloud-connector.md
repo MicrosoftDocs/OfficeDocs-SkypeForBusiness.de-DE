@@ -1,5 +1,5 @@
 ---
-title: Aktualisieren auf eine neue Version von Cloud Connector
+title: Upgrade auf eine neue Version von Cloud Connector
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,67 +15,70 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
-description: Hier erfahren Sie, wie Sie Ihre Cloud Connector Edition-Bereitstellung aktualisieren.
-ms.openlocfilehash: d2f9d2a2720f67a2110ba97b7d100e5673a0015c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Erfahren Sie mehr über das Upgrade Ihrer Cloud Connector Edition-Bereitstellung.
+ms.openlocfilehash: dc9473dbf605f00df76daa1a88a29c7d5ed65fd8
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814143"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359291"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade auf eine neue Version von Cloud Connector
+
+> [!Important]
+> Die Cloud Connector-Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online zurückgezogen. Nachdem Ihre Organisation ein Upgrade auf Microsoft Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
  
-Hier erfahren Sie, wie Sie Ihre Cloud Connector Edition-Bereitstellung aktualisieren.
+Erfahren Sie mehr über das Upgrade Ihrer Cloud Connector Edition-Bereitstellung.
   
-Wenn Sie ein Mandantenkonto für die Onlineverwaltung eingerichtet und automatische Aktualisierungen aktiviert haben, wird Ihre vorhandene Bereitstellung von Skype for Business Cloud Connector Edition entsprechend Ihrer Zeitfensterkonfiguration für automatische Updates automatisch auf die neuere Version aktualisiert. Sie können auch manuelle Upgrades ausführen.  
+Wenn Sie ein Online Verwaltungs Mandantenkonto eingerichtet und automatische Updates aktiviert haben, wird Ihre vorhandene Bereitstellung von Skype for Business Cloud Connector Edition automatisch auf die neuere Version aktualisiert – entsprechend der Konfiguration für das Zeitfenster für die automatische Aktualisierung. Sie können auch ein Manuelles Upgrade durchführen. 
   
-Cloud Connector Edition-Versionen 1.4.1 und höher führen standardmäßig automatische Updates aus. Wenn Sie manuell auf die neueste Version (2,1) aktualisieren möchten, lesen Sie [Aktualisieren einer einzelnen Website auf eine neue Version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) weiter unten in diesem Thema.
+Cloud Connector Edition-Versionen 1.4.1 und höher führen standardmäßig automatische Updates aus. Wenn Sie manuell auf die neueste Version (2,1) aktualisieren möchten, finden Sie weitere Informationen unter [Upgrade an Single Site to a New Version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) weiter unten in diesem Thema.
   
-Für die automatische Aktualisierung muss der Cloud Connector-Dienst ausgeführt werden. In den folgenden Schritten wird der Prozess für automatische Updates beschrieben:
+Für die automatische Aktualisierung muss der Cloud Connector-Dienst aktiv sein. In den folgenden Schritten wird der Prozess für automatische Updates beschrieben:
   
-- Der Prozess für automatische Updates wird gemäß dem Zeitplan ausgeführt, den Sie für automatische Updates konfiguriert haben.
+- Der automatische Updateprozess wird entsprechend dem Zeitplan ausgeführt, den Sie für automatische Updates konfiguriert haben.
     
-- Tasks für Betriebssystemupdates
+- Betriebssystem-Updateaufgaben
     
-  - Überprüfen und Herunterladen von Betriebssystemupdates auf alle Cloud Connector-VMS 
+  - Überprüfen und Herunterladen von Betriebssystemupdates auf alle Cloud Connector-VMS. 
     
-  - Installieren und aktualisieren Sie alle VMs des Cloud Connectors nacheinander, und starten Sie den Computer neu.
+  - Installieren und aktualisieren Sie alle Cloud Connector-VMS nacheinander, und starten Sie neu.
     
-  - Überprüfen Sie nach dem Neustart des Cloud Connector VMS, ob ein weiterer Neustart erforderlich ist.
+  - Überprüfen Sie nach dem Neustart des Cloud Connector-VMS, ob ein anderer Neustart erforderlich ist.
     
-  - Nachdem der Cloud Connector VMS erfolgreich gepatcht wurde, wiederholen Sie den Vorgang für den Cloud Connector-Hostcomputer.
+  - Nachdem die Cloud Connector-VMS erfolgreich gepatcht wurden, wiederholen Sie den Vorgang für den Cloud Connector-Hostcomputer.
     
-  - Nachdem der Cloud Connector-Hostcomputer erfolgreich gestartet wurde, sind alle ausstehenden Betriebssystem Aktualisierungsaufgaben abgeschlossen.
+  - Nachdem der Cloud Connector-Hostcomputer erfolgreich gestartet wurde, sind alle ausstehenden Betriebssystem-Updateaufgaben abgeschlossen.
     
-- Aktualisierungsaufgaben für Cloud Connectors
+- Cloud Connector-Aktualisierungsaufgaben
     
-  - Die Versionsdatei wird von der Downloadwebsite heruntergeladen und überprüft.
+  - Laden Sie die Versionsdatei von der Download Website herunter, und überprüfen Sie Sie.
     
-  - Die neue Version der MSI-Datei wird heruntergeladen.  
+  - Laden Sie die neue Version der MSI-Datei herunter. 
     
-  - Deinstallieren Sie die alte MSI-Datei. Installieren Sie die neue MSI-Datei.
+  - Deinstallieren Sie die alte MSI-Datei; Installieren Sie die neue MSI-Datei.
     
-  - Laden Sie die neue Version von Skype for Business-Bits herunter.
+  - Laden Sie die neue Version von Skype for Business Bits herunter.
     
-  - Die Appliance wird durch Aufrufen von „Register-CcAppliance“ registriert.
+  - Registrieren Sie die Appliance durch Aufrufen von Register-ccappliance ".
     
   - Installieren Sie die neue Cloud Connector-Version.
     
-  - Die alte Appliance wird ausgeglichen, und die Netzwerkverbindung wird auf die neue Appliance umgeschaltet.
+  - Entleeren Sie die alte Appliance, und wechseln Sie die Netzwerkverbindung zur neuen Appliance.
     
 > [!NOTE]
->  Wenn der Cloud Connector in einem neuen Build aktualisiert wird, werden die Cmdlets für Cloud Connector möglicherweise nicht aktualisiert. Dies kann beispielsweise vorkommen, wenn ein PowerShell-Fenster geöffnet bleibt, während die automatische Aktualisierung erfolgt. Um die aktualisierten Cmdlets zu laden, führen Sie einen der folgenden Schritte aus: #a0 schließen Sie PowerShell auf der Cloud Connector-Appliance, und öffnen Sie dann PowerShell. #a1, oder führen Sie Import-Module CloudConnector-Force aus.
+>  Wenn Cloud Connector für einen neuen Build aktualisiert wird, werden die Cloud Connector-Cmdlets möglicherweise nicht aktualisiert. Dies kann beispielsweise der Fall sein, wenn ein PowerShell-Fenster geöffnet bleibt, während die automatische Aktualisierung erfolgt. Führen Sie einen der folgenden Schritte aus, um die aktualisierten Cmdlets zu laden: > close PowerShell in der Cloud Connector-Appliance, und öffnen Sie dann PowerShell. > oder können Sie Import-Module "cloudconnector-Force ausführen.
   
-## <a name="upgrade-a-single-site-to-a-new-version"></a>Aktualisieren eines einzelnen Standorts auf eine neue Version
+## <a name="upgrade-a-single-site-to-a-new-version"></a>Aktualisieren einer einzelnen Website auf eine neue Version
 <a name="BKMK_Upgrade"> </a>
 
-Wenn der zu aktualisierende Standort nur eine Appliance umfasst, gehen Sie wie folgt vor:
+Wenn es nur eine Appliance am Standort gibt, die Sie aktualisieren möchten, gehen Sie wie folgt vor:
   
-1. Deinstallieren Sie die vorhandene Cloud Connector-Version unter Programme **und Funktionen der System \> \> **Steuerung.
+1. Deinstallieren Sie die vorhandene Cloud Connector-Version in den Programmen ** \> \> und Funktionen der System**Steuerung.
     
-2. Installieren Sie die neue Version von CloudConnector. msi [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)aus.
+2. Installieren Sie die neue Version von CloudConnector.msi von [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) .
     
-3. Vergewissern Sie sich, dass Sie über die Datei „CloudConnector.ini“ für die zu installierende Version verfügen und dass Sie alle erforderlichen Werte für Ihre Umgebung aktualisiert haben. Die INI-Datei einer früheren Version kann nicht verwendet werden. Wenn Sie Cloud Connector aktualisieren, lesen Sie das Thema Vorbereiten der [Cloud Connector-Appliance](prepare-your-cloud-connector-appliance.md) , und stellen Sie sicher, dass Sitename und EnableReferSupport auf den richtigen Wert in der Datei CloudConnector. ini eingestellt sind.
+3. Vergewissern Sie sich, dass Sie über die CloudConnector.ini Datei für die Version verfügen, die Sie installieren, und dass Sie alle erforderlichen Werte für Ihre Umgebung aktualisiert haben. Sie können die INI-Datei nicht aus einer früheren Version verwenden. Wenn Sie Cloud Connector aktualisieren, lesen Sie das Thema [prepare your Cloud Connector Appliance](prepare-your-cloud-connector-appliance.md) , und stellen Sie sicher, dass Sitename und "enablerefersupport" auf den korrekten Wert in der Datei CloudConnector.ini festgelegt sind.
     
 4. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus, um die aktuelle Appliance zu registrieren:
     
@@ -89,7 +92,7 @@ Wenn der zu aktualisierende Standort nur eine Appliance umfasst, gehen Sie wie f
    Start-CcDownload
    ```
 
-6. Führen Sie das folgende Cmdlet aus, um die Installation zu starten:  
+6. Führen Sie das folgende Cmdlet aus, um die Installation zu starten: 
     
    ```powershell
    Install-CcAppliance -Upgrade
@@ -101,25 +104,25 @@ Wenn der zu aktualisierende Standort nur eine Appliance umfasst, gehen Sie wie f
    Switch-CcVersion
    ```
 
-Wenn sich mehr als eine Appliance am Standort befindet, führen Sie die obigen Schritte aus, um die einzelnen Appliances nacheinander zu aktualisieren.
+Wenn sich mehr als eine Appliance am Standort befindet, führen Sie die oben beschriebenen Schritte aus, um die einzelnen Appliances nacheinander zu aktualisieren.
   
-Wenn Sie den Domänenadministrator, den Administrator für virtuelle Computer, den Administrator für den abgesicherten Modus und die Administratoranmeldeinformationen für Mandanten aktualisieren möchten, können Sie das Cmdlet mit dem _UpdateAllCredentials_ -Parameter ausführen, um alle Anmeldeinformationen zurückzusetzen:
+Wenn Sie die Anmeldeinformationen des Domänenadministrators, des Administrators virtueller Computer, des Administrators und des Mandanten für den sicheren Modus aktualisieren möchten, können Sie das Cmdlet mit dem Parameter  _UpdateAllCredentials_ ausführen, um alle Anmeldeinformationen zurückzusetzen:
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
-Wenn Sie dann mit dem Upgrade auf eine neue Version beginnen, werden Sie aufgefordert, die neuen Anmeldeinformationen einzugeben.  
+Wenn Sie dann mit dem Upgrade auf eine neue Version beginnen, werden Sie zur Eingabe der neuen Anmeldeinformationen heraufgestuft. 
   
-Wenn Sie nur die Anmeldeinformationen des Mandantenadministrators zurücksetzen möchten, führen Sie das folgende Cmdlet aus:
+Wenn Sie nur Ihre mandantenadministrator-Anmeldeinformationen zurücksetzen möchten, führen Sie das folgende Cmdlet aus:
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
-## <a name="upgrade-multiple-sites-to-a-new-version"></a>Upgrade von mehreren Standorten auf eine neue Version
+## <a name="upgrade-multiple-sites-to-a-new-version"></a>Aktualisieren mehrerer Websites auf eine neue Version
 <a name="BKMK_Upgrade"> </a>
 
-Führen Sie die Schritte für das Upgrade eines einzelnen Standorts nacheinander für jeden Standort in Ihrer Bereitstellung aus. Führen Sie nach dem Upgrade jedes Standorts unbedingt den Schritt [Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md) aus.
+Befolgen Sie die Schritte für das Upgrade eines einzelnen Standorts, und aktualisieren Sie jeweils einen Standort für jeden Standort in Ihrer Bereitstellung. Stellen Sie sicher, dass [Ihre Cloud Connector-Bereitstellung](validate-your-cloud-connector-deployment.md) nach dem Upgrade jeder Website überprüft wird.
   
 

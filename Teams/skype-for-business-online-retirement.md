@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10fa7e13289a4696dd723b2b6634dc7147321342
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597090"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359391"
 ---
 # <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
@@ -100,6 +100,9 @@ Um kleinere Kunden zu unterstützen, die möglicherweise nicht über dedizierte 
 
 **Wie wirkt sich die Ankündigung der Einstellung von Skype for Business Online auf Organisationen mit Hybridkonfigurationen (Skype for Business Online und Skype for Business Server) aus?**<br>
 Kunden mit Online- und lokalen Hybridkonfigurationen müssen ihre Benutzer vor dem Ausmusterungsdatum am 31. Juli 2021 von Skype for Business Online zu Microsoft Teams überführen. Aktualisierungspfade für Hybridkonfigurationen, die auf Grundsätzen der Koexistenz und der Interoperabilität basieren, bleiben nach dem Ausmustern von Skype for Business Online erhalten. Weitere Informationen finden Sie unter [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md) und [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+
+**Wie wirkt sich der Ruhestand von Skype for Business Online auf Organisationen mit Hybriden Skype for Business-Konfigurationen für lokale Public Switched Telephone Network (PSTN)-Konnektivität und Online-Telefon System Funktionen aus?**<br>
+In einigen Organisationen wurden Benutzer zwischen Home-premises für PSTN-Konnektivität und Online für Telefon System Funktionen aufgeteilt. Sobald der Zugriff auf Skype for Business Online endet, müssen Organisationen Online-Benutzer zu Microsoft Teams umstellen und Ihr lokales Telefonie-Netzwerk über [direkte Weiterleitung](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
 
 Kunden mit berechtigten Abonnements werden ermuntert, die [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) for Teams-Onboardingunterstützung in Anspruch zu nehmen.
 

@@ -1,5 +1,5 @@
 ---
-title: Planen des Telefonsystems mit lokaler PSTN-Konnektivität in Skype for Business Server
+title: Plan eines Telefonsystems mit lokaler Festnetzanbindung in Skype for Business Server
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Erfahren Sie mehr über die Planungsüberlegungen für das Telefon System (Cloud PBX) mit lokaler PSTN-Konnektivität.
-ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220236"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358811"
 ---
-# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen des Telefonsystems mit lokaler PSTN-Konnektivität in Skype for Business Server
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Plan eines Telefonsystems mit lokaler Festnetzanbindung in Skype for Business Server
+
+> [!Important]
+> Skype for Business Online werden am 31. Juli 2021 zurückgezogen, nach dem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Hier erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
 
 Erfahren Sie mehr über die Planungsüberlegungen für das Telefon System (Cloud PBX) mit lokaler PSTN-Konnektivität.
 
@@ -59,7 +62,7 @@ Durch die Bereitstellungeines Telefonsystems mit lokaler PSTN-Konnektivität kö
 
 Möglicherweise verfügen Sie über ein benutzerdefiniertes Feature oder ein Haupt-Add-on für Ihre Legacy-Nebenstellenanlage, beispielsweise ein Callcenter. Wenn das benutzerdefinierte Feature derzeit nicht im Telefonsystem verfügbar ist, sollten Sie die Benutzer, die diese benutzerdefinierte Funktion lokal mit der Legacy-PBX-Anlage benötigen, übertragen und die Benutzer, die nicht auf das benutzerdefinierte Feature zugreifen müssen, mit lokaler PSTN-Konnektivität direkt an das Telefonsystem anportieren.
 
-Eine Liste der Legacy-PBX-Anlagen, die direkt mit Skype for Business Server 2015 zusammenarbeiten, finden Sie unter [für Microsoft lync qualifizierte Infrastruktur](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Wenn sich Ihre Nebenstellenanlage nicht in dieser Liste befindet, können Sie einen Session Border Controller verwenden, um Ihre Nebenstellenanlage mit dem Telefon System in Skype for Business Online zu verbinden.
+Eine Liste der Legacy-PBX-Anlagen, die direkt mit Skype for Business Server 2015 zusammenarbeiten, finden Sie unter  [für Microsoft lync qualifizierte Infrastruktur](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Wenn sich Ihre Nebenstellenanlage nicht in dieser Liste befindet, können Sie einen Session Border Controller verwenden, um Ihre Nebenstellenanlage mit dem Telefon System in Skype for Business Online zu verbinden.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Überlegungen zu Netzwerkqualität und Leistung
 

@@ -1,5 +1,5 @@
 ---
-title: Aktivieren von Benutzern für Enterprise-VoIP-Online-und Telefon System-Voicemail
+title: Aktivieren von Benutzern für Enterprise-VoIP online und für Telefonsystem-Voicemail
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Erfahren Sie, wie Sie VoIP-Dienste für Telefonsysteme für Ihre Skype for Business-Benutzer aktivieren.
-ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221105"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359181"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP-Online-und Telefon System-Voicemail
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP online und für Telefonsystem-Voicemail
  
+> [!Important]
+> Skype for Business Online werden am 31. Juli 2021 zurückgezogen, nach dem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Hier erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
+
 Erfahren Sie, wie Sie VoIP-Dienste für Telefonsysteme für Ihre Skype for Business-Benutzer aktivieren.
   
 Der letzte Schritt bei der Bereitstellung von Telefonsystem mit lokaler PSTN-Konnektivität besteht darin, Ihre Benutzer für Telefonsystem und Voicemail zu aktivieren. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die Enterprise-VoIP für Skype for Business Online noch nicht aktiviert ist.

@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Erfahren Sie mehr über die Bereitstellungeines einzelnen PSTN-Standorts in Cloud Connector Edition.
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220535"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358931"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Bereitstellen eines einzelnen Standorts in Cloud Connector
  
+> [!Important]
+> Die Cloud Connector-Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online zurückgezogen. Nachdem Ihre Organisation ein Upgrade auf Microsoft Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
+
 Erfahren Sie mehr über die Bereitstellungeines einzelnen PSTN-Standorts in Cloud Connector Edition.
   
 Sie können Skype for Business Cloud Connector Edition mit oder ohne Unterstützung für hohe Verfügbarkeit (ha) bereitstellen. Wenn Sie ha aktivieren möchten, müssen Sie zwei oder mehr Appliances innerhalb eines Standorts bereitstellen. Sie können eine vorhandene Appliance auch konvertieren, um ha zu unterstützen, nachdem Sie bereitgestellt wurde.

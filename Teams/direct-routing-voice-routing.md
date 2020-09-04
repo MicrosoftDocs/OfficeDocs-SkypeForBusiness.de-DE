@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie das VoIP-Routing mit Microsoft Phone System Direct Routing konfigurieren.
-ms.openlocfilehash: 0611684c79d92572ade41f2545096fe1d9bb4dd2
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159012"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359411"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Konfigurieren des VoIP-Routings für das direkte Routing
 
@@ -53,6 +53,13 @@ Das VoIP-Routing besteht aus den folgenden Elementen:
 
 - **Online-PSTN-Gateway** – ein Zeiger auf einen SBC, der auch die Konfiguration speichert, die angewendet wird, wenn ein Anruf über den SBC durchgeführt wird, wie z. b. Weiterleiten von P-Asserted-Identity (Pai) oder bevorzugten Codecs; kann zu VoIP-Routen hinzugefügt werden.
 
+## <a name="voice-routing-policy-considerations"></a>Überlegungen zu VoIP-Routing Richtlinien
+
+Wenn ein Benutzer über eine Anruf Plan Lizenz verfügt, werden die ausgehenden Anrufe des Benutzers automatisch über die PSTN-Infrastruktur des Microsoft-Anruf Plans weitergeleitet. Wenn Sie einem Anruf Plan Benutzer eine Online-VoIP-Routing Richtlinie konfigurieren und zuweisen, werden die ausgehenden Anrufe des Benutzers überprüft, um zu ermitteln, ob die gewählte Nummer mit einem Zahlenmuster übereinstimmt, das in der Online-VoIP-Routing Richtlinie definiert ist. Wenn eine Übereinstimmung vorliegt, wird der Anruf über den direkten Routing trunk weitergeleitet. Wenn keine Übereinstimmung vorhanden ist, wird der Anruf über die PSTN-Infrastruktur des Anruf Plans weitergeleitet.
+
+> [!CAUTION]
+> Wenn Sie die Global (org-Wide Standard) Online-VoIP-Routing Richtlinie konfigurieren und anwenden, erben alle sprachaktivierten Benutzer in Ihrer Organisation diese Richtlinie, was dazu führen kann, dass PSTN-Anrufe von Anruf Plan Benutzern versehentlich an einen direkten Routing trunk weitergeleitet werden. Wenn Sie nicht möchten, dass alle Benutzer die Richtlinie für das globale Online-VoIP-Routing verwenden, konfigurieren Sie eine benutzerdefinierte Online-VoIP-Routing Richtlinie, und weisen Sie Sie einzelnen sprachaktivierten Benutzern zu.
+
 ## <a name="example-1-voice-routing-with-one-pstn-usage"></a>Beispiel 1: VoIP-Routing mit einer PSTN-Nutzung
 
 Das folgende Diagramm zeigt zwei Beispiele für VoIP-Routing Richtlinien in einem Anruffluss.
@@ -72,11 +79,7 @@ In dem Beispiel, das in der folgenden Abbildung gezeigt wird, wird eine VoIP-Rou
 
 ![Zeigt die VoIP-Routing Richtlinie mit einer dritten Route an](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-Bei allen anderen anrufen:
-
-- Wenn ein Benutzer über beide Lizenzen verfügt (Microsoft Phone System und Microsoft Calling Plan), wird die automatische Route verwendet. 
-- Wenn nichts den Zahlen Mustern in den vom Administrator erstellten Online-VoIP-Routen entspricht, wird der Anruf über den Microsoft-Anrufplan weitergeleitet.
-- Wenn der Benutzer nur über ein Microsoft Phone-System verfügt, wird der Anruf verworfen, weil keine übereinstimmenden Regeln verfügbar sind.
+Bei allen anderen anrufen wird die automatische Route verwendet, wenn ein Benutzer über beide Lizenzen verfügt (Microsoft Phone System und Microsoft Calling Plan). Wenn nichts den Zahlen Mustern in den vom Administrator erstellten Online-VoIP-Routen entspricht, wird der Anruf über den Microsoft-Anrufplan weitergeleitet. Wenn der Benutzer nur über ein Microsoft Phone-System verfügt, wird der Anruf verworfen, weil keine übereinstimmenden Regeln verfügbar sind.
 
   > [!NOTE]
   > Der Prioritätswert für Route "Other + 1" ist in diesem Fall nicht wichtig, da nur eine Route vorhanden ist, die dem Muster + 1 XXX XXX XX XX entspricht. Wenn ein Benutzer einen Anruf an + 1 324 567 89 89 tätigt und sowohl sbc5.contoso.biz als auch sbc6.contoso.biz nicht zur Verfügung stehen, wird der Anruf abgebrochen.
@@ -85,9 +88,9 @@ In der folgenden Tabelle wird die Konfiguration mit drei VoIP-Routen zusammengef
 
 |**PSTN-Verwendung**|**VoIP-Route**|**Nummernmuster**|**Priorität**|**Sbchttps**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|USA und Kanada|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Aktive Route für angerufene Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
-|USA und Kanada|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Sicherungs Route für genannte Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
-|USA und Kanada|"Andere + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route für angerufene Nummern + 1 XXX XXX XX XX (außer + 1 425 XXX XX XX oder + 1 206 XXX XX XX)|
+|USA und Kanada|"Redmond 1"|^\\+ 1 (425 \| 206) (\d {7} ) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Aktive Route für angerufene Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
+|USA und Kanada|"Redmond 2"|^\\+ 1 (425 \| 206) (\d {7} ) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Sicherungs Route für genannte Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
+|USA und Kanada|"Andere + 1"|^\\+ 1 (\d {10} ) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route für angerufene Nummern + 1 XXX XXX XX XX (außer + 1 425 XXX XX XX oder + 1 206 XXX XX XX)|
 |||||||
 
 ## <a name="example-1-configuration-steps"></a>Beispiel 1: Konfigurationsschritte
@@ -106,14 +109,14 @@ Sie können das [Microsoft Teams Admin Center](#admincenterexample1) oder [Power
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung in den USA und Kanada
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice** > **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten**aus.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten**aus.
 2. Klicken Sie auf **Hinzufügen**, geben Sie **USA und Kanada**ein, und klicken Sie dann auf über **nehmen**.
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Schritt 2: Erstellen von drei VoIP-Routen (Redmond 1, Redmond 2 und andere + 1)
 
 In den folgenden Schritten wird beschrieben, wie Sie eine VoIP-Route erstellen. Führen Sie die folgenden Schritte aus, um die drei VoIP-Routen mit dem Namen Redmond 1, Redmond 2 und other + 1 für dieses Beispiel zu erstellen, indem Sie die Einstellungen verwenden, die in der vorherigen Tabelle beschrieben sind.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice** > **Direct Routing**, und wählen Sie dann die Registerkarte **VoIP-Routen** aus.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann die Registerkarte **VoIP-Routen** aus.
 2. Klicken Sie auf **Hinzufügen**, und geben Sie dann einen Namen und eine Beschreibung für die VoIP-Route ein.
 3. Legen Sie die Priorität fest, und geben Sie das Muster für die gewählte Nummer an.
 4. Wenn Sie einen SBC mit der VoIP-Route registrieren möchten, klicken Sie unter **SBCS registriert (optional)** auf **Add SBCS**, wählen Sie die SBCS aus, die Sie registrieren möchten, und klicken Sie dann auf über **nehmen**.
@@ -122,7 +125,7 @@ In den folgenden Schritten wird beschrieben, wie Sie eine VoIP-Route erstellen. 
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Schritt 3: Erstellen einer VoIP-Routing Richtlinie mit dem Namen "nur US" und Hinzufügen der PSTN-Nutzung "USA und Kanada" zur Richtlinie
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > -**Routing Richtlinien**, und klicken Sie dann auf **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Routing Richtlinien**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie **uns nur** als Namen ein, und fügen Sie eine Beschreibung hinzu.
 3. Klicken Sie unter **PSTN-Verwendungsdaten Sätze**auf **PSTN-Verwendung hinzufügen**, wählen Sie den PSTN-Verwendungs Eintrag "USA und Kanada" aus, und klicken Sie dann auf über **nehmen**.
 4. Klicken Sie auf **Speichern**.
@@ -211,7 +214,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 ```
 
   > [!CAUTION]
-  > Stellen Sie sicher, dass Ihr regulärer Ausdruck im NumberPattern-Attribut ein gültiger Ausdruck ist. Sie können es über diese Website testen:[https://www.regexpal.com](https://www.regexpal.com)
+  > Stellen Sie sicher, dass Ihr regulärer Ausdruck im NumberPattern-Attribut ein gültiger Ausdruck ist. Sie können es über diese Website testen: [https://www.regexpal.com](https://www.regexpal.com)
 
 In einigen Fällen müssen alle Anrufe an denselben SBC weitergeleitet werden. use-NumberPattern ". *"
 
@@ -221,7 +224,7 @@ Alle Anrufe an denselben SBC weiterleiten.
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
 ```
 
-Überprüfen Sie, ob Sie die Route ordnungsgemäß `Get-CSOnlineVoiceRoute` konfiguriert haben, indem Sie den PowerShell-Befehl unter Verwendung der Optionen wie folgt ausführen:
+Überprüfen Sie, ob Sie die Route ordnungsgemäß konfiguriert haben, indem Sie den `Get-CSOnlineVoiceRoute` PowerShell-Befehl unter Verwendung der Optionen wie folgt ausführen:
 
 ```PowerShell
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -314,13 +317,13 @@ Die folgende Tabelle enthält eine Zusammenfassung der Routing Richtlinie "keine
 
 |**PSTN-Verwendung**|**VoIP-Route**|**Nummernmuster**|**Priorität**|**Sbchttps**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|USA und Kanada|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Aktive Route für die angerufenen Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
-|USA und Kanada|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Sicherungs Route für die angerufenen Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
-|USA und Kanada|"Andere + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route für die angerufenen Nummern + 1 XXX XXX XX XX (außer + 1 425 XXX XX XX oder + 1 206 XXX XX XX)|
+|USA und Kanada|"Redmond 1"|^\\+ 1 (425 \| 206) (\d {7} ) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Aktive Route für die angerufenen Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
+|USA und Kanada|"Redmond 2"|^\\+ 1 (425 \| 206) (\d {7} ) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Sicherungs Route für die angerufenen Nummern + 1 425 XXX XX XX oder + 1 206 XXX XX XX|
+|USA und Kanada|"Andere + 1"|^\\+ 1 (\d {10} ) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route für die angerufenen Nummern + 1 XXX XXX XX XX (außer + 1 425 XXX XX XX oder + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Route für beliebige Zahlenmuster |
 
   > [!NOTE]
-  > - Die Reihenfolge der PSTN-Nutzungen in VoIP-Routing Richtlinien ist kritisch. Die Verwendungen werden in der angegebenen Reihenfolge angewendet, und wenn bei der ersten Verwendung eine Übereinstimmung gefunden wird, werden andere Verwendungen nie ausgewertet. Die PSTN-Nutzung "International" muss nach der PSTN-Nutzung in den USA und Kanada erfolgen. Führen Sie den `Set-CSOnlineVoiceRoutingPolicy` Befehl aus, um die Reihenfolge der PSTN-Verwendungen zu ändern. <br/>Um beispielsweise die Reihenfolge von "USA und Kanada" zuerst und "International" an zweiter Stelle in umgekehrter Reihenfolge zu ändern, führen Sie Folgendes aus:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - Die Reihenfolge der PSTN-Nutzungen in VoIP-Routing Richtlinien ist kritisch. Die Verwendungen werden in der angegebenen Reihenfolge angewendet, und wenn bei der ersten Verwendung eine Übereinstimmung gefunden wird, werden andere Verwendungen nie ausgewertet. Die PSTN-Nutzung "International" muss nach der PSTN-Nutzung in den USA und Kanada erfolgen. Führen Sie den Befehl aus, um die Reihenfolge der PSTN-Verwendungen zu ändern `Set-CSOnlineVoiceRoutingPolicy` . <br/>Um beispielsweise die Reihenfolge von "USA und Kanada" zuerst und "International" an zweiter Stelle in umgekehrter Reihenfolge zu ändern, führen Sie Folgendes aus:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - Die Priorität für VoIP-Routen "Other + 1" und "International" wird automatisch zugewiesen. Sie haben keine Bedeutung, solange Sie niedrigere Prioritäten als "Redmond 1" und "Redmond 2" haben.
 
 ## <a name="example-2-configuration-steps"></a>Beispiel 2: Konfigurationsschritte
@@ -339,12 +342,12 @@ Sie können das [Microsoft Teams Admin Center](#admincenterexample2) oder [Power
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung "International"
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice** > **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten**aus.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten**aus.
 2. Klicken Sie auf **Hinzufügen**, geben Sie **International**ein, und klicken Sie dann auf über **nehmen**.
 
 #### <a name="step-2-create-the-international-voice-route"></a>Schritt 2: Erstellen der VoIP-Route "International"
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice** > **Direct Routing**, und wählen Sie dann die Registerkarte **VoIP-Routen** aus.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann die Registerkarte **VoIP-Routen** aus.
 2. Klicken Sie auf **Hinzufügen**, geben Sie "International" als Namen ein, und fügen Sie dann die Beschreibung hinzu.
 3. Setzen Sie die Priorität auf 4, und setzen Sie dann das Muster für die gewählte Nummer auf \d +.
 4. Klicken Sie unter **SBCS registriert (optional)** auf **Add SBCS**, wählen Sie sbc2.contoso.biz und sbc5.contoso.biz aus, und klicken Sie dann auf über **nehmen**.
@@ -355,7 +358,7 @@ Sie können das [Microsoft Teams Admin Center](#admincenterexample2) oder [Power
 
 Die PSTN-Nutzung "USA und Kanada" wird in dieser VoIP-Routing Richtlinie wieder verwendet, um eine besondere Behandlung für Anrufe an die Nummer "+ 1 425 XXX XX XX" und "+ 1 206 XXX XX XX" als Orts-oder Lokalgespräche zu erhalten.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > -**Routing Richtlinien**, und klicken Sie dann auf **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Routing Richtlinien**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie **keine Einschränkungen** als Namen ein, und fügen Sie eine Beschreibung hinzu.
 3. Klicken Sie unter **PSTN-Verwendungsdaten Sätze**auf **PSTN-Verwendung hinzufügen**, wählen Sie den PSTN-Verwendungs Eintrag "USA und Kanada" aus, und wählen Sie dann den PSTN-Verwendungs Eintrag "International" aus. Klicken Sie auf **Anwenden**.
 
@@ -454,7 +457,7 @@ No Restrictions
 
 Das Ergebnis ist, dass die VoIP-Richtlinie, die auf die Anrufe von John Woods angewendet wurde, nicht eingeschränkt ist und der Logik des Anruf Routings für USA, Kanada und Auslandsgespräche folgen wird.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Planen von direktem Routing](direct-routing-plan.md)
 

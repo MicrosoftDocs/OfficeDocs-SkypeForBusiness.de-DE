@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860806"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359401"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -34,7 +34,10 @@ Mit dem direkt Routing von Microsoft Phone System können Sie einen unterstützt
 ![Diagramm mit Konfiguration der lokalen PSTN-Konnektivität](media/PlanDirectRouting1-PSTNwithTeams.png "Konfiguration der lokalen PSTN-Konnektivität mit Microsoft Teams-Client")
 
   > [!NOTE]
-  > Mit Skype for Business Online können Sie auch einen vom Kunden bereitgestellten SBC koppeln, dies erfordert aber eine lokale Skype for Business Server-Bereitstellung oder eine spezielle Edition von Skype for Business, genannt Cloud Connector, zwischen dem SBC und der Microsoft-Cloud. Dieses Szenario wird als Hybridsprache bezeichnet. Im Gegensatz dazu ermöglicht die direkte Weiterleitung eine direkte Verbindung zwischen dem unterstützten SBC und der Microsoft-Cloud. 
+  > Mit Skype for Business Online können Sie auch einen vom Kunden bereitgestellten SBC koppeln, dies erfordert aber eine lokale Skype for Business Server-Bereitstellung oder eine spezielle Edition von Skype for Business, genannt Cloud Connector, zwischen dem SBC und der Microsoft-Cloud. Dieses Szenario wird als Hybridsprache bezeichnet. Im Gegensatz dazu ermöglicht die direkte Weiterleitung eine direkte Verbindung zwischen dem unterstützten SBC und der Microsoft-Cloud.
+
+> [!Important]
+> Die Cloud Connector-Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online zurückgezogen. Nachdem Ihre Organisation auf Teams aktualisiert wurde, erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](direct-routing-landing-page.md)an Teams anschließen. 
 
 Mit der direkten Weiterleitung können Sie Ihren SBC mit fast jedem Telefon Stamm oder mit einem PSTN-Gerät von Drittanbietern verbinden. Direktes Routing ermöglicht Ihnen Folgendes: 
 
@@ -359,6 +362,6 @@ Geräte, die überprüft wurden, werden als Certified für Teams Direct Routing 
 Weitere Informationen zu unterstützten SBCS finden Sie unter [Liste der für die direkte Weiterleitung zertifizierten Session Border Controller](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Konfigurieren von direktem Routing](direct-routing-configure.md)

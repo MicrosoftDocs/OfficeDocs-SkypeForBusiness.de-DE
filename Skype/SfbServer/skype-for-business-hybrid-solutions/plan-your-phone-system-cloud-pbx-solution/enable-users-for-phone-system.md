@@ -19,15 +19,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: In diesem Thema wird beschrieben, wie Sie Benutzer für das Telefon System mit lokaler PSTN-Konnektivität aktivieren. Bevor Sie die Schritte in diesem Thema durchführen, sollten Sie folgendes lesen:.
-ms.openlocfilehash: 9cd5fe66b6092b0ac21af4c425f662d18d96ab49
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7fb1ae9ee013dafbf0de91611bacb68f685daac8
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221095"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359141"
 ---
 # <a name="enable-users-for-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Ermöglichen, dass Benutzer des Telefonsystems eine lokale Festnetzanbindung in Skype for Business Server herstellen
- 
+
 In diesem Thema wird beschrieben, wie Sie Benutzer für das Telefon System mit lokaler PSTN-Konnektivität aktivieren. Bevor Sie die Schritte in diesem Thema durchführen, sollten Sie folgendes lesen:.
   
 - Informationen zum Einrichten von Hybrid Konnektivität finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) und [Bereitstellen von Hybrid Konnektivität zwischen Skype for Business Server und Skype for Business Online](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
@@ -36,6 +36,9 @@ In diesem Thema wird beschrieben, wie Sie Benutzer für das Telefon System mit l
     
 - Weitere Informationen zum Telefon System einschließlich Lizenzierung und Plänen finden Sie unter [PSTN-Anrufpläne für Skype for Business](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
     
+> [!Important]
+> Skype for Business Online werden am 31. Juli 2021 zurückgezogen, nach dem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Hier erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
+
 ## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>Verschieben von Benutzern in ein Telefon System mit lokaler PSTN-Konnektivität
 
 Bevor Sie Ihre Benutzer in Skype for Business Online verschieben, wird empfohlen, dass Sie Ihre Benutzer lokal in Skype for Business Server oder lync Server 2013 aktivieren und dann Online verschieben. Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) und im Abschnitt "spezielle Überlegungen" unter [Aktivieren der Benutzer für Enterprise-VoIP lokal](enable-the-users-for-enterprise-voice-on-premises.md) (durchgeführt, während die Benutzer lokal verwaltet werden). 

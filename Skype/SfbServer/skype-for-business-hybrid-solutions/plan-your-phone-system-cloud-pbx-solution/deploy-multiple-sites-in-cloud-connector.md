@@ -15,23 +15,26 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
-description: Informationen zum Bereitstellen mehrerer PSTN-Websites in Cloud Connector Edition.
-ms.openlocfilehash: 1276d436a05e5151bdc90c19bbf41b8e90d913bf
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Erfahren Sie mehr über die Bereitstellung mehrerer PSTN-Standorte in Cloud Connector Edition.
+ms.openlocfilehash: 3c777c54690b1eb31671f71cff915f1bb4854a0d
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887634"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358921"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
- 
-Informationen zum Bereitstellen mehrerer PSTN-Websites in Cloud Connector Edition.
-  
-In diesem Abschnitt wird die Bereitstellung mehrerer PSTN-Standorte (Public Switched Telephone Network, Telefonfestnetz) erläutert. Standorte werden jeweils nacheinander wie bei der Bereitstellung eines einzelnen Standorts bereitgestellt. In diesem Thema werden Überlegungen zu Standorten und Unterschiede zwischen Standorten in einer Bereitstellung mit mehreren Standorten beschrieben.  
-  
-## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Mehrere PSTN-Standorte
 
-Die folgende Abbildung zeigt eine Beispielkonfiguration für die Bereitstellung von Skype for Business Cloud Connector Edition für verschiedene PSTN-Websites. Stellen Sie vor dem Starten der Bereitstellung sicher, dass Ihre Konfigurationseinstellungen richtig sind.
+> [!Important] 
+> Die Cloud Connector-Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online zurückgezogen. Nachdem Ihre Organisation ein Upgrade auf Microsoft Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
+
+Erfahren Sie mehr über die Bereitstellung mehrerer PSTN-Standorte in Cloud Connector Edition.
+  
+In diesem Abschnitt wird beschrieben, wie mehrere PSTN-Standorte (Public Switched Telephone Network) bereitgestellt werden. Websites werden jeweils einzeln bereitgestellt, wobei dieselben Schritte wie bei der Bereitstellungeines einzelnen Standorts ausgeführt werden. In diesem Thema werden die Überlegungen und Unterschiede zwischen Websites in einer Bereitstellung mit mehreren Websites beschrieben. 
+  
+## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Mehrere PSTN-Standorte (Public Switched Telephone Network)
+
+Im folgenden finden Sie eine Beispielkonfiguration für die Bereitstellung Skype for Business Cloud Connector Edition für verschiedene PSTN-Standorte. Stellen Sie sicher, dass Ihre Konfigurationseinstellungen korrekt sind, bevor Sie eine Bereitstellung starten.
   
 PSTN-Standort 1
   
@@ -69,32 +72,32 @@ ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
 ```
 
-Führen Sie für jede PSTN-Website, die Sie hinzufügen möchten, die Schritte unter [Bereitstelleneiner einzelnen Website in Cloud Connector](deploy-a-single-site-in-cloud-connector.md)aus.
+Führen Sie für jeden hinzuzufügenden PSTN-Standort die Schritte unter [Deploy an Single Site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md)aus.
   
 > [!IMPORTANT]
-> Der freigegebene Ordner für die Vorbereitung hoher Verfügbarkeit wird pro PSTN-Standort erstellt. Der freigegebene Ordner **muss** sich zwischen den PSTN-Standorten unterscheiden. Verwenden Sie nicht denselben freigegebenen Ordner für mehrere Websites. > 
+> Der freigegebene Ordner zur Vorbereitung der Hochverfügbarkeit (ha) ist pro PSTN-Standort. Der freigegebene Ordner **muss** zwischen PSTN-Standorten unterschiedlich sein. Verwenden Sie nicht denselben freigegebenen Ordner für mehrere Websites. > 
   
-## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Bereitstellung eines einzelnen Standorts mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte
+## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Einzelner Standort mit hoher Verfügbarkeit (ha) im Vergleich zu Bereitstellungen mit mehreren Standorten
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>
 
-In der folgenden Tabelle sind die Unterschiede zwischen der Bereitstellung an einem einzelnen Standort mit hoher Verfügbarkeit und der Bereitstellung an mehreren Standorten aufgelistet.
+In der folgenden Tabelle sind die Unterschiede zwischen einem einzelnen Standort mit ha-Unterstützung und einer Bereitstellung mit mehreren Standorten aufgeführt.
   
-|**Kategorie**|**Element**|**Einzelner Standort mit hoher Verfügbarkeit**|**Mehrere Standorte**|
+|**Kategorie**|**Element**|**Single-Site mit ha**|**Multi-Site**|
 |:-----|:-----|:-----|:-----|
-|Konfigurieren  <br/> |Appliance-Hostname <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
-|Installationsanforderungen  <br/> |Freigegebener Ordner  <br/> |Erfordert **denselben** freigegebenen Ordner für Appliances <br/> |Benötigt für jede Appliance einen **unterschiedlichen** freigegebenen Ordner. <br/> |
-|Konfigurieren  <br/> |VirtualMachineDomain  <br/> |Benötigt für alle Appliances **dieselbe** Domäne. <br/> |Benötigt **dieselbe** Domäne für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |SIP-Domänen  <br/> |Domänennamen und Reihenfolge sollten für Appliances **identisch** sein. <br/> |Domänennamen und Reihenfolge sollten für PSTN-Websites **identisch** sein. <br/> |
-|Konfigurieren  <br/> |Standortname  <br/> |**Identischer** Standortname für alle Appliances <br/> |**Unterschiedlicher** Standortname für jeden einzelnen PSTN-Standort <br/> |
-|Konfigurieren  <br/> |Servernamen  <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |FQDNs interner Pools  <br/> |**Identisch** für alle Appliances <br/> |**Identisch** für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |Interne IP-Adressen  <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |Externer FQDN  <br/> |**Identisch** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |Externe IP-Adressen  <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |Einstellungen für PSTN-Gateway  <br/> |**Identisch** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |DNS-Eintrag  <br/> |Hinzufügen von Datensätzen mit **denselben** FQDNs für externen Zugriff und **unterschiedlichen** IP-Adressen <br/> |Datensätze mit **unterschiedlichen** FQDNs für externen Zugriff und **unterschiedlichen** IP-Adressen hinzufügen <br/> |
-|Installationsanforderungen  <br/> |Hybrid Mandant  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |
-|Installationsanforderungen  <br/> |Gateway  <br/> |Vermittlungsserver-Gateway **M:N**-Zuordnung an diesem Standort <br/> |PSTN-Gateways an den einzelnen PSTN-Standorten sollten nur Verbindungen mit Vermittlungsservern am gleichen Standort herstellen.  <br/> |
-|Installationsanforderungen  <br/> |Benutzer  <br/> |„UserPSTNSettings“ festlegen  <br/> |„UserPSTNSettings“ festlegen  <br/> |
+|Konfigurieren  <br/> |Name der Appliance-Host <br/> |**Unterschiedliche** Across Appliances <br/> |**Unterschiedliches** für PSTN-Standorte <br/> |
+|Setup  <br/> |Freigegebener Ordner  <br/> |Erfordert **denselben** freigegebenen Ordner für alle Appliances <br/> |Für Appliances ist ein **anderer** freigegebener Ordner erforderlich <br/> |
+|Konfigurieren  <br/> |VirtualMachineDomain  <br/> |Erfordert die **gleiche** Domäne für alle Appliances <br/> |Erfordert die **gleiche** Domäne für alle PSTN-Standorte <br/> |
+|Konfigurieren  <br/> |SIPDomains  <br/> |Domänennamen und Reihenfolge sollten in allen Appliances **gleich** sein. <br/> |Domänennamen und Reihenfolge sollten für alle PSTN-Standorte **gleich** sein. <br/> |
+|Konfigurieren  <br/> |Websitename  <br/> |**Gleiche** Website Name für Appliances <br/> |**Unterschiedliche** Website Name über PSTN-Standorte hinweg <br/> |
+|Konfigurieren  <br/> |Server Namen  <br/> |**Unterschiedliche** Across Appliances <br/> |**Unterschiedliches** für PSTN-Standorte <br/> |
+|Konfigurieren  <br/> |FQDNs interner Pools  <br/> |**Gleich** in allen Appliances <br/> |**Gleich** auf allen PSTN-Standorten <br/> |
+|Konfigurieren  <br/> |Interne IPS  <br/> |**Unterschiedliche** Across Appliances <br/> |**Unterschiedliches** für PSTN-Standorte <br/> |
+|Konfigurieren  <br/> |Externer FQDN  <br/> |**Gleich** in allen Appliances <br/> |**Unterschiedliches** für PSTN-Standorte <br/> |
+|Konfigurieren  <br/> |Externe IPS  <br/> |**Unterschiedliche** Across Appliances <br/> |**Unterschiedliches** für PSTN-Standorte <br/> |
+|Konfigurieren  <br/> |PSTN-GW-Einstellungen  <br/> |**Gleich** in allen Appliances <br/> |**Unterschiedliches** für PSTN-Standorte <br/> |
+|Konfigurieren  <br/> |DNS-Eintrag  <br/> |Hinzufügen von Datensätzen mit **denselben** FQDNs für externen Zugriff und **unterschiedlichen** IP-Adressen <br/> |Hinzufügen von Datensätzen mit **verschiedenen** FQDNs für externen Zugriff und **unterschiedlichen** IP-Adressen <br/> |
+|Setup  <br/> |Hybrid Mandant  <br/> |HybridPSTNSite festlegen  <br/> Festlegen von Peer Destination für Fallback  <br/> |HybridPSTNSite festlegen  <br/> Festlegen von Peer Destination für Fallback  <br/> |
+|Setup  <br/> |Gateway  <br/> |MS GW **m:n-trunk** -Zuordnung auf dieser Website <br/> |PSTN-Gateways an jedem PSTN-Standort sollten nur eine Verbindung mit dem Vermittlungsserver am gleichen Standort herstellen.  <br/> |
+|Setup  <br/> |Benutzer  <br/> |UserPSTNSettings festlegen  <br/> |UserPSTNSettings festlegen  <br/> |
    
 

@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Zusammenfassung: in diesem Thema erfahren Sie, wie Sie eine VoIP-Richtlinie für Benutzer mit Telefon System mit lokaler PSTN-Konnektivität zuweisen.'
-ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221859"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359321"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Zuweisen einer VoIP-Routing Richtlinie
  
+> [!Important]
+> Skype for Business Online werden am 31. Juli 2021 zurückgezogen, nach dem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Hier erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
+
 **Zusammenfassung:** Lesen Sie dieses Thema, um zu erfahren, wie Sie eine VoIP-Richtlinie für Benutzer mit Telefon System mit lokaler PSTN-Konnektivität zuweisen. 
   
 Sobald ein Benutzer Skype for Business Online und Telefon System mit lokaler PSTN-Konnektivität verwendet, gelten zwei VoIP-Richtlinien für diese. Eine ist eine lokale VoIP-Routing Richtlinie, die Sie lokal zuweisen werden. Diese Richtlinie kann global oder benutzerspezifisch sein und definiert, welche PSTN-Verwendungsdaten Sätze dem Benutzer zugeordnet sind. In diesem Thema wird erläutert, wie diese Richtlinie zugewiesen wird.

@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Erfahren Sie, wie Sie die Cloud Connector-Integration in Ihre Microsoft 365-oder Office 365-Organisation konfigurieren.
-ms.openlocfilehash: 2c65551ce75efce61f82d47ac2b9c16db555ab42
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bf5d8c4fb9684a205670701428fa8db30835a871
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221245"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359071"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Konfigurieren der Cloud Connector-Integration in Ihre Microsoft 365-oder Office 365-Organisation
- 
+
+> [!Important] 
+> Die Cloud Connector-Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online zurückgezogen. Nachdem Ihre Organisation ein Upgrade auf Microsoft Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonie-Netzwerk mithilfe des [direkten Routings](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)mit Microsoft Teams verbinden.
+
 Erfahren Sie, wie Sie die Cloud Connector-Integration in Ihre Microsoft 365-oder Office 365-Organisation konfigurieren.
   
 Nachdem die Skype for Business Cloud Connector Edition-Installation abgeschlossen ist, führen Sie die Schritte in diesem Abschnitt aus, um Ihre Bereitstellung zu konfigurieren und Sie mit Ihrer Microsoft 365-oder Office 365-Organisation zu verbinden.
@@ -69,7 +72,7 @@ Fügen Sie die folgenden DNS-Einträge zu Ihrer Microsoft 365-oder Office 365-Or
 
 Um die hybride Konnektivität zwischen Ihrer Skype for Business Cloud Connector Edition-Bereitstellung und Ihrer Microsoft 365-oder Office 365-Organisation zu konfigurieren, führen Sie das folgende Cmdlet in einer Remote-PowerShell-Sitzung aus. Informationen zum Einrichten einer Remote-PowerShell-Sitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
   
-Das Cmdlet legt den externen FQDN des Access-Edges fest. Im ersten der Befehle \< sollte der externe Zugriffs-Edge-FQDN \> für die SIP-Zugriffs-Edge-Rolle angegeben werden. Standardmäßig sollte dies AP lauten. \< Domänen Name \> .
+Das Cmdlet legt den externen FQDN des Access-Edges fest. Im ersten der Befehle \<External Access Edge FQDN\> sollte der für die SIP-Zugriffs-Edge-Rolle gelten. Standardmäßig sollte dies \<Domain Name\> AP. sein.
   
 ```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -140,7 +143,7 @@ Um internationale Anrufe pro Benutzer zu deaktivieren, führen Sie das folgende 
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
-Um internationale Anrufe pro Benutzer nach der Deaktivierung erneut zu aktivieren, führen Sie das gleiche Cmdlet aus, ändern Sie jedoch den Wert für **PolicyName** in *InternationalCallsAllowed* .
+Um internationale Anrufe pro Benutzer nach der Deaktivierung erneut zu aktivieren, führen Sie das gleiche Cmdlet aus, ändern Sie jedoch den Wert für **PolicyName** in *InternationalCallsAllowed*  .
   
 ## <a name="assign-users-to-pstn-sites"></a>Zuweisen von Benutzern zu PSTN-Standorten
 
@@ -180,7 +183,7 @@ Wenn ein P2P-Anruf an eine PSTN-Konferenz weitergeleitet wird, sendet der Skype 
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Starten Sie einen Mandanten Skype for Business Remote-PowerShell-Sitzung mit Ihren Skype for Business Mandanten-Administratoranmeldeinformationen, und führen Sie dann das folgende Cmdlet aus, um den Vermittlungsserver und den Edgeserver-FQDN für dieses Benutzerkonto festzulegen und \< Display \> Name durch den Anzeigenamen des Benutzers für das in Schritt 1 erstellte Konto zu ersetzen:
+3. Starten Sie einen Mandanten Skype for Business Remote-PowerShell-Sitzung mit Ihren Skype for Business Mandanten-Administratoranmeldeinformationen, und führen Sie dann das folgende Cmdlet aus, um den Vermittlungsserver und den Edgeserver-FQDN auf dieses Benutzerkonto festzulegen und \<DisplayName\> durch den Anzeigenamen des Benutzers für das in Schritt 1 erstellte Konto zu ersetzen:
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
@@ -188,9 +191,9 @@ Wenn ein P2P-Anruf an eine PSTN-Konferenz weitergeleitet wird, sendet der Skype 
 
     Verwenden Sie für Identity den Anzeigenamen des Benutzerkontos, das Sie für diese Vermittlungsserver erstellt haben.
     
-    Verwenden Sie für *MediationServerFQDN* den für Ihre Vermittlungsserver definierten internen FQDN.
+    Verwenden Sie für  *MediationServerFQDN*  den für Ihre Vermittlungsserver definierten internen FQDN.
     
-    Verwenden Sie für *EdgeServerExternalFQDN* den externen FQDN, der für Edgeserver Zugriffs Proxy definiert ist. Wenn mehrere Cloud Connector-PSTN-Standorte vorhanden sind, wählen Sie den FQDN des Edgeserver Zugriffsproxys, der dem Standort zugewiesen ist, auf dem sich der Vermittlungsserver befindet.
+    Verwenden Sie für  *EdgeServerExternalFQDN*  den externen FQDN, der für Edgeserver Zugriffs Proxy definiert ist. Wenn mehrere Cloud Connector-PSTN-Standorte vorhanden sind, wählen Sie den FQDN des Edgeserver Zugriffsproxys, der dem Standort zugewiesen ist, auf dem sich der Vermittlungsserver befindet.
     
 4. Wenn mehrere Cloud Connector-Vermittlungsserver vorhanden sind (mehrere Standorte, ha), wiederholen Sie die vorherigen Schritte für jeden dieser Server.
     

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255438"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359301"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -77,7 +77,7 @@ Microsoft stellt weiterhin zusätzliche Funktionen für die automatische Telefon
 Die Voicemail-Migration wird von Microsoft gesteuert. Administratoren müssen nichts Unternehmen, da die Voraussetzung für eine Hybrid Topologie eingerichtet wurde. Microsoft führt die erforderliche Überprüfung und Tests durch, um sicherzustellen, dass die Voicemail-Migration der Benutzer nicht unterbrochen wird. Administratoren werden ermutigt, Tests und Validierungen auf Ihrer Seite durchzuführen. Weitere Informationen finden Sie unter [vorgeschlagener Testplan und Überprüfung nach der Migration für Administratoren](#suggested-test-plan-and-post-migration-validation-for-admins) für einen empfohlenen Testplan.
 
 > [!Note]
-> Lync Server 2010 wird nicht unterstützt. Wenn Sie sich in einer 2010-Server Bereitstellung befinden, sollten Sie ein Server Upgrade planen oder die Migration Ihrer Benutzer zu Microsoft Teams oder Skype for Business Online in Betracht gezogen.  
+> Lync Server 2010 wird nicht unterstützt. Wenn Sie sich in einer 2010-Server Bereitstellung befinden, sollten Sie ein Server Upgrade planen oder die Migration Ihrer Benutzer zu Microsoft Teams in Betracht gezogen.  
 
 ### <a name="monitor-the-admin-notification-center"></a>Überwachen des Administrator-Benachrichtigungs Centers
 
