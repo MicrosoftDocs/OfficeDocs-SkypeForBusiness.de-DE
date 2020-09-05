@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797443"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399510"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
 Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrator Features für Microsoft Teams.
+
+## <a name="september-3-2020"></a>3. September 2020
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Benutzerdefinierter Apps-Store in Microsoft Teams
+
+Jetzt können Sie den App Store für Teams mit Ihrem Branding für Ihre Organisation anpassen, indem Sie Ihr Logo, benutzerdefinierte Hintergründe und benutzerdefinierte Textfarben hinzufügen, damit Sie für Endbenutzer einladender werden. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>1. September 2020
+
+### <a name="on-demand-translation-in-android"></a>On-Demand-Übersetzung in Android
+
+Inline-Nachrichtenübersetzung ist eine Microsoft Teams-Funktion, mit der Benutzer Teams-Nachrichten in die Sprache übersetzen können, die in Ihren persönlichen Spracheinstellungen angegeben ist. Die Einstellung für die Übersetzung ist standardmäßig **aktiviert** . [Weitere Informationen](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
 
 ## <a name="august-17-2020"></a>17. August 2020
 
@@ -74,6 +86,16 @@ Genehmigen von benutzerdefinierten apps, die über die APP-Übermittlungs-API vo
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Dienste für Teams von Drittanbieter-apps im Microsoft Teams Admin Center erwerben
 
 Teams-Apps können kostenlos installiert werden, und für einige ist es möglich, dass Sie Service Abonnements benötigen, um die vollständige Funktionalität und den Umfang der APP zu erfahren. Diese Dienstabonnements werden als SaaS-Angebote (Software as a Service) bezeichnet, die für den Kauf über AppSource und jetzt über das Microsoft Teams Admin Center zur Verfügung stehen. [Weitere Informationen](../purchase-third-party-apps.md).
+
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten APP, die über die APP-Übermittlungs-API der Teams gesendet wird
+
+Entwickler können mithilfe der APP-Übermittlungs-API von Teams benutzerdefinierte apps direkt an das Microsoft Teams Admin Center für Administratoren senden, um Sie zu überprüfen und zu genehmigen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
+
+## <a name="july-31-2020"></a>31. Juli 2020
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Administratoren können den Schicht basierten Anwesenheitsstatus (bei Schicht-, aus-Schicht) für Ihre Mitarbeiter in der ersten Arbeitsgruppe konfigurieren.
+
+Administratoren können Ihre First-work-Mitarbeiter so konfigurieren, dass Sie auf Schicht basierten Anwesenheitsstatus festgelegte Status: bei UMSCHALT, beschäftigt (kann bei gedrückter Umschalttaste umgeschaltet werden) und aus UMSCHALT.
 
 ## <a name="july-29-2020"></a>29. Juli 2020
 
@@ -139,6 +161,10 @@ Wir haben die Möglichkeit für automatische Telefonzentralen und eingehende Anr
 
 Sie wählen die Apps aus, die standardmäßig für Benutzer installiert werden, wenn Sie Teams starten. [Weitere Informationen](../teams-app-setup-policies.md).
 
+### <a name="screen-sharing-on-behalf-of-others"></a>Bildschirmübertragung im Auftrag anderer Personen
+
+Viele IT-Administratoren haben sich beklagt, dass Ihre Mitarbeiter im Chat keine Bildschirmfreigabe haben können, wenn Sie die AllowPrivateCalling-Richtlinie deaktivieren. Diese Funktion hat die Möglichkeit, eine Screenshare aus der AllowPrivateCalling-Richtlinie aus dem Chat zu starten, aber blockiert weiterhin die Benutzer daran, der Screenshare-Sitzung Audio/Video hinzuzufügen, wenn deren AllowPrivateCalling-Richtlinie deaktiviert ist.
+
 ## <a name="june-29-2020"></a>29. Juni 2020
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-app in Microsoft Teams
@@ -160,6 +186,12 @@ Wir haben ein neues Widget für Benutzer Zusammenfassung hinzugefügt, das beim 
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Anmeldeeinschränkungen für Android-und IOS-Benutzer
 
 Wenn der Benutzer nirgendwo sonst bei seinem Microsoft 365-Konto angemeldet ist, wird er, abhängig von den Vorgaben der Anmelderichtlinien seiner Organisation, aufgefordert, sich über eine einstufige bzw. mehrstufige Authentifizierung (SFA oder MFA) zu identifizieren. [Weitere Informationen](../sign-in-teams.md).
+
+## <a name="june-15-2020"></a>15. Juni 2020
+
+### <a name="monitor-shifts-with-audit-logs"></a>Überwachen von Schichten mit Überwachungsprotokollen
+
+Sie können das Überwachungsprotokoll durchsuchen, um schichtaktivitäten in Ihrer Organisation anzuzeigen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11. Juni 2020
 

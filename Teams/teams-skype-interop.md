@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Informieren Sie sich über die Interoperabilitätsfunktionen zwischen Teams-Benutzern in Ihrer Organisation und Skype (Consumer)-Benutzern.
 localization_priority: Normal
-ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
-ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
+ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44859640"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395364"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams und Skype-Interoperabilität
 
@@ -63,6 +63,10 @@ Blockierte Skype-Nutzer, zusammen mit anderen Personen und PSTN-Telefonnummern, 
 - Konversationen sind nur eins-zu-eins. Gruppen-Chats werden nicht unterstützt.
 - Teams-Nutzer und Skype-Nutzer können die Anwesenheit Ihres Gesprächspartners nicht sehen.
 - Die Suche nach Skype-Nutzern über Ihre Skype-ID oder Telefonnummer wird nicht unterstützt.
+- Skype-Nutzer können keine Teams anrufen, die die Anrufweiterleitung an die Nummer eines anderen Benutzers, die Nummer einer Stellvertretung oder eine PSTN-Nummer (Public Switched Telephone Network) eingerichtet haben.  Nur Voicemail wird unterstützt.
+- Interop-Eskalation, Gruppenanrufe und Besprechungen werden nicht unterstützt.
+- Die Möglichkeit für eine Stellvertretung, einen Skype-Nutzer im Auftrag eines Teams-Benutzers anzurufen, wird nicht unterstützt.
+- Bildschirmübertragung mit Chat wird nicht unterstützt.
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Festlegen, ob Benutzer von Teams mit Skype-Nutzern kommunizieren können
 
