@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860816"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405792"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -56,7 +56,7 @@ Wenn Teambesitzer Ihr organisationsweites Team optimal nutzen möchten, sollten 
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Gestatten Sie nur Teambesitzern das Versenden von Beiträgen im Kanal „Allgemein“.
 
-Reduzieren Sie die Anzahl der Beiträge, indem Sie nur Teambesitzern gestatten, im Kanal „Allgemein“ Beiträge zu versenden. Wechseln Sie zum Team, und klicken Sie auf**˙˙˙ Weitere Optionen**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitgliedsberechtigungen**. Wählen Sie nun **Nur Besitzer können Nachrichten senden**.
+Reduzieren Sie die Anzahl der Beiträge, indem Sie nur Teambesitzern gestatten, im Kanal „Allgemein“ Beiträge zu versenden. Wechseln Sie zum Team, suchen Sie den Kanal allgemein, und wählen Sie **̇ ̇ ̇ Weitere Optionen**  >  **Kanal verwalten**aus. Klicken Sie auf der Registerkarte **Kanaleinstellungen** auf **Berechtigungen**, und wählen Sie dann **nur Besitzer können Nachrichten senden**aus.
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren der @Team und @ [Teamname]-Erwähnungen
 
@@ -90,6 +90,6 @@ Globale Administratoren können ein vorhandenes Team in ein organisationsweites 
 
 Teamvorlagen können nicht zum Erstellen eines organisationsweiten Teams verwendet werden. Die Arbeit für dieses Feature wird zurzeit ausgeführt. 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 Schauen Sie sich ein Video zum [Erstellen eines unternehmensweiten Teams in Microsoft Teams an](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
