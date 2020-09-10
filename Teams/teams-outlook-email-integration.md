@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 474da725ad88221d131959078a733ed1724ae1be
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
+ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611166"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47420609"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams und Outlook-e-Mail-Integration
 
@@ -35,7 +35,7 @@ Damit Sie dieses Feature verwenden können, muss Outlook im Web für den Benutze
 
 ## <a name="actionable-activity-emails"></a>Transaktionale Aktivitäts-e-Mails
 
-Benutzer erhalten automatisch umsetzbare verpasste Aktivitäts-e-Mails, die Ihnen helfen, sich über verpasste Unterhaltungen in Teams zu informieren. Die e-Mail-Benachrichtigungen über verpasste Aktivitäten zeigen die neuesten Antworten einer Unterhaltung an, einschließlich Nachrichten, die nach der verpassten Nachricht gesendet wurden, und Benutzer können auf **Antworten** klicken, um direkt in Outlook zu antworten. Weitere Informationen finden Sie unter [Antworten auf verpasste Aktivitäts-e-Mails aus Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).
+Benutzer erhalten automatisch umsetzbare verpasste Aktivitäts-e-Mails, die Ihnen helfen, sich über verpasste Unterhaltungen in Teams zu informieren. Die e-Mail-Benachrichtigungen über verpasste Aktivitäten zeigen die neuesten Antworten einer Unterhaltung an, einschließlich Nachrichten, die nach der verpassten Nachricht gesendet wurden, und Benutzer können auf **Antworten** klicken, um direkt in Outlook zu antworten. Weitere Informationen finden Sie unter [Antworten auf verpasste Aktivitäts-e-Mails aus Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) und Umsetz fähigen [Nachrichten in Outlook-und Office 365-Gruppen](https://docs.microsoft.com/outlook/actionable-messages/).
 
 ![Screenshot mit einer verpassten Aktivitäts-e-Mail](media/missed-activity-email.png)
 
