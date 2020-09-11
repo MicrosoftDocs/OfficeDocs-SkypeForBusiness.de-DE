@@ -305,7 +305,7 @@
 ### [Zeitraum für kostenlose ausgehende Anrufe](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Verfahrensregel für das Vereinigte Königreich (UK)](/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Beanstandungshandling-Code für das Vereinigte Königreich (UK)](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Datensammlungsverfahren](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Datensammlungsverfahren](/microsoftteams/teams-privacy?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Notrufaufkleber](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Ende-der-Lebensdauer-Programm zur Integration von Skype für Unternehmen mit Audiokonferenzen von Drittanbietern](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
