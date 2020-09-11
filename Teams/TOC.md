@@ -773,7 +773,6 @@
 
 ## [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
 ## [Speicherort von Daten in Teams](location-of-data-in-teams.md)
-## [Datensammlungsverfahren](data-collection-practices.md)
 
 ## Vorbereiten der Bereitstellung von Teams
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
