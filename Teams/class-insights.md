@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
+ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778097"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47408231"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Leitfaden für IT-Administratoren zu Insights in Microsoft Teams for Education
 
@@ -34,14 +34,16 @@ Insights ist in den Office 365 Education-SKUs A1, A3 und A5 aktiv.
 
 ## <a name="permissions"></a>Berechtigungen
 
-Benutzertypen: 
-- Die Schüler werden durch ihre Lizenz identifiziert und haben keinen Zugriff auf die Registerkarte "Insights" (auch wenn sie Besitzer des Teams sind). 
-- Lehrkräfte werden durch Lehrpersonal-Lizenzen identifiziert. Lehrkräfte müssen über eine Lehrpersonal-Lizenz verfügen und Besitzer eines Klassenteams sein, um die Daten auf der Registerkarte "Insights" hinzufügen und anzeigen zu können. 
-- Führungskräfte werden ebenfalls über eine Lehrpersonal-Lizenz identifiziert, benötigen jedoch zusätzlich die ausdrückliche Berechtigung vom globalen IT-Administrator, die Berichte in der Insights-App anzuzeigen.
+### <a name="user-types"></a>Benutzertypen
+- **Die Schüler** werden anhand Ihrer Lizenz identifiziert, und _verfügen nicht über_ Zugriff auf die Registerkarte Insights (auch wenn Sie Besitzer des Teams sind). 
+- **Die Lehrkräfte** sind durch Fakultätslizenzen gekennzeichnet. Lehrkräfte müssen über eine Lehrpersonal-Lizenz verfügen und Besitzer eines Klassenteams sein, um die Daten auf der Registerkarte "Insights" hinzufügen und anzeigen zu können. 
+- **Die Führungskräfte** werden auch anhand der Fakultätslizenz identifiziert, benötigen aber zusätzlich explizite Berechtigungen des globalen IT-Administrators, um die Berichte in der Insights-App anzuzeigen.
+- Gastkonten _haben keinen_ Zugriff auf Insights.
 
-Für Lehrkräfte und Führungskräfte gelten unterschiedliche Berechtigungsstufen und unterschiedliche Logik:
-- Lehrkräfte können die Insights-App zu einem öffentlichen Kanal innerhalb eines Klassenteams hinzufügen, indem sie in der App-Leiste "Teams" zu "Apps" navigieren und nach "Insights" suchen. Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Lehrkräfte, die nicht Besitzer des Teams sind). 
-- Führungskräfte können die Insights-App als persönliche App hinzufügen (wird im linken Teams-Menü angezeigt), indem sie in der Teams-App-Leiste zu "Apps" navigieren und nach "Insights" suchen. 
+### <a name="permission-levels"></a>Berechtigungsstufen
+Lehrkräfte und Führungskräfte haben unterschiedliche Berechtigungsstufen und Logik:
+- **Die Lehrkräfte** können die Insights-App einem öffentlichen Kanal innerhalb eines Klassenteams hinzufügen, indem sie in der Teams-App-Leiste zu Apps navigieren und nach Insights suchen. Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Lehrkräfte, die nicht Besitzer des Teams sind). 
+- **Führungskräfte** können die Insights-App als persönliche App hinzufügen (wird im linken Menü von Teams angezeigt), indem sie in der Teams-App-Leiste zu Apps navigieren und nach Insights suchen. 
 
 ## <a name="compliance"></a>Compliance
 
@@ -58,9 +60,9 @@ Unser Ziel ist es, Lehrkräften dabei zu helfen, Engagement zu verstehen und das
 
 ## <a name="data-collection"></a>Datenerfassung
 
-Wir erfassen Daten für Insights, wenn Education Analytics für den Mandanten aktiviert ist. Die Daten werden aus der Aktivität in Teams erfasst, um verwertbare Einblicke für das Lehren und Lernen zu gewinnen.
-
-Standardmäßig ist Education Analytics **Aktiviert**.
+- Wir erfassen Daten für Insights, wenn Education Analytics für den Mandanten aktiviert ist. Die Daten werden aus der Aktivität in Teams erfasst, um verwertbare Einblicke für das Lehren und Lernen zu gewinnen.
+- Gästedaten _werden nicht_ für Insights gesammelt.
+- Standardmäßig ist Education Analytics **Aktiviert**.
 
 Derzeit werden diese Daten aus den folgenden Aktivitätsbereichen von Schülern und Lehrkräften in Klassenteams abgerufen:
 
