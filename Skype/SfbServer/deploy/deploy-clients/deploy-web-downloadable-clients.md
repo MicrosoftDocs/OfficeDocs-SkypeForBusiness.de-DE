@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Zusammenfassung: Bereitstellen der mit Skype for Business verwendeten Skype for Business-Webanwendung und der Skype-Besprechungs-app.'
-ms.openlocfilehash: 7f6bebbc9950a7eb5da202c3b818b1288c811f17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a2a28bf634524d6f61ba579652a6dddfd06de3
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029046"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429421"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen von Webdownload-Clients in Skype for Business Server
 
@@ -33,7 +33,7 @@ Für die sprach-, Video-und Freigabefunktionen in Skype for Business-Webanwendun
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Aktivieren der mehrstufigen Authentifizierung für Skype for Business-Webanwendung
 <a name="MFA"> </a>
 
-Skype for Business-Webanwendung, Skype-Besprechungs-APP und Skype for Business für Mac unterstützen die mehrstufige Authentifizierung. Neben Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins zur Authentifizierung von Benutzern benötigen, die von externen Netzwerken beitreten, wenn Sie sich bei Skype for Business Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Verbundserver Active Directory Verbunddienst (AD FS) bereitstellen und die passive Authentifizierung in Skype for Business Server aktivieren. Nachdem AD FS konfiguriert wurde, werden externe Benutzer, die versuchen, an Skype for Business Besprechungen teilzunehmen, mit einer AD FS-mehrstufigen Authentifizierungs Webseite angezeigt, die die Benutzernamen-und Kenn Wort Herausforderung sowie alle weiteren Authentifizierungsmethoden enthält, die Sie konfiguriert haben.
+Skype for Business-Webanwendung, Skype-Besprechungs-APP und Skype for Business für Mac unterstützen die mehrstufige Authentifizierung. Neben Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins zur Authentifizierung von Benutzern benötigen, die von externen Netzwerken beitreten, wenn Sie sich bei Skype for Business Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Verbundserver Active Directory Verbunddienst (AD FS) bereitstellen und die passive Authentifizierung in Skype for Business Server aktivieren. Nachdem AD FS konfiguriert wurde, werden externe Benutzer, die versuchen, an Skype for Business Besprechungen teilzunehmen, mit einer AD FS-mehrstufigen Authentifizierungs Webseite angezeigt, die die Benutzernamen-und Kenn Wort Herausforderung sowie alle weiteren von Ihnen konfigurierten Authentifizierungsmethoden enthält.
 
 > [!IMPORTANT]
 > Im Folgenden finden Sie wichtige Erwägungen, wenn Sie planen, Active Directory-Verbunddienste für die mehrstufige Authentifizierung zu konfigurieren
@@ -135,7 +135,7 @@ Dieses Verfahren ist optional und gilt für Skype for Business Server 2015 CU5 u
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Informationen, die an Microsoft gesendet werden, unterliegen strenger Einhaltung [Skype for Business Datensammlungsverfahren](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Informationen, die an Microsoft gesendet werden, unterliegen der strikten Einhaltung von [Datenschutzbestimmungen und Microsoft Teams](../../../../Teams/teams-privacy.md).
 
 3. Legen Sie das Timeout fest, bevor Sie auf das Lokal gehostete Skype for Business-Webanwendungs Erlebnis zurückgreifen, wenn CDN nicht verfügbar ist. Der Standardwert ist 6 Sekunden. Wenn dieser Wert auf 0 festgelegt ist, wird kein Timeout verwendet.
 

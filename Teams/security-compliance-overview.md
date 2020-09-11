@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4c19de7fdc8bfc4ed0608841613514d09fae27
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121385"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429351"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -183,7 +183,7 @@ Informationen zum Ermitteln des Lizenzierungs Bedarfs zur Implementierung von Fe
 
 ## <a name="location-of-data-in-teams"></a>Speicherort von Daten in Microsoft Teams
 
-Daten in Teams befinden sich in der geografischen Region, die Ihrer Microsoft 365-oder Office 365-Organisation zugeordnet ist. Wenn Sie sehen möchten, welche Regionen zurzeit unterstützt werden, überprüfen Sie den [Speicherort der Daten in Microsoft Teams](location-of-data-in-teams.md).
+Daten in Teams befinden sich in der geografischen Region, die Ihrer Microsoft 365- oder Office 365-Organisation zugeordnet ist. Wenn Sie sehen möchten, welche Regionen zurzeit unterstützt werden, überprüfen Sie den [Speicherort der Daten in Microsoft Teams](location-of-data-in-teams.md).
 
 Wenn Sie sehen möchten, in welcher Region die Daten für Ihren Mandanten angezeigt werden, wechseln Sie zum [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home)  >  **Settings**  >  **Organization Profile**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort).
 
@@ -191,7 +191,7 @@ Wenn Sie sehen möchten, in welcher Region die Daten für Ihren Mandanten angeze
 
 ## <a name="compliance-standards"></a>Compliance-Standards
 
-Teams verwendet die folgenden Standards: [ISO 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1-und SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)-, [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)-und [EU-Modellklauseln (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). Innerhalb des Microsoft Compliance-Rahmens stuft Microsoft Microsoft 365-und Office 365-Anwendungen und-Dienste in vier Kategorien ein. Jede Kategorie wird durch spezifische Compliance-Zusagen definiert, die für einen Microsoft 365-oder Office 365-Dienst oder einen zugehörigen Microsoft-Dienst erfüllt sein müssen, um in dieser Kategorie aufgeführt zu werden.
+Teams verwendet die folgenden Standards: [ISO 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE18 SOC 1-und SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)-, [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)-und [EU-Modellklauseln (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). Innerhalb des Microsoft Compliance-Rahmens stuft Microsoft Microsoft 365-und Office 365-Anwendungen und-Dienste in vier Kategorien ein. Jede Kategorie wird durch spezifische Compliance-Zusagen definiert, die für einen Microsoft 365-oder Office 365-Dienst oder einen zugehörigen Microsoft-Dienst erfüllt sein müssen, um in dieser Kategorie aufgeführt zu werden.
 
 Details finden Sie in den [datenschutzressourcen](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams unterstützt auch die Cloud Security Alliance-Compliance.
 
