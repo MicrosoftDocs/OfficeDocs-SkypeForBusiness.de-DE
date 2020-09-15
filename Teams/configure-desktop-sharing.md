@@ -17,17 +17,22 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
+ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581746"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47652472"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Konfigurieren der Desktopfreigabe in Microsoft Teams
 ============================================
 
-Die Desktopfreigabe ermöglicht es Benutzern, während einer Besprechung oder eines Chats einen Bildschirm oder eine App anzuzeigen. Administratoren können die Bildschirmfreigabe in Microsoft Teams so konfigurieren, dass Benutzer einen gesamten Bildschirm, eine App oder eine Datei freigeben können. Sie können zulassen, dass Benutzer die Steuerung ermöglichen oder anfordern können, die PowerPoint-Freigabe zulassen, ein Whiteboard hinzufügen und das Freigebe zulassen. Sie können auch festlegen, ob anonyme oder externe Benutzer die Steuerung des freigegebenen Bildschirms anfordern können.
+Die Desktopfreigabe ermöglicht es Benutzern, während einer Besprechung oder eines Chats einen Bildschirm oder eine App anzuzeigen. Administratoren können die Bildschirmfreigabe in Microsoft Teams so konfigurieren, dass Benutzer einen gesamten Bildschirm, eine App oder eine Datei freigeben können. Sie können zulassen, dass Benutzer die Steuerung ermöglichen oder anfordern können, die PowerPoint-Freigabe zulassen, ein Whiteboard hinzufügen und das Freigebe zulassen. Sie können auch festlegen, ob anonyme oder externe Benutzer die Steuerung des freigegebenen Bildschirms anfordern können. Externe Teilnehmer an Teams-Besprechungen können wie folgt kategorisiert werden:
+
+- Anonymer Benutzer
+- Gastbenutzer
+- B2B-Nutzer
+- Federated-Benutzer
 
 Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungsrichtlinie und weisen Sie diese dann den Benutzern zu, die Sie verwalten möchten.
 
@@ -35,11 +40,11 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
 
 1. Wählen Sie **Besprechungen** > **Besprechungsrichtlinien**.
 
-    ![Screenshot mit Besprechungsrichtlinien ausgewählt](media/configure-desktop-sharing-image1.png)
+    ![Ausgewählte Besprechungsrichtlinien](media/configure-desktop-sharing-image1.png)
 
-2. Wählen Sie auf der Seite **Besprechungsrichtlinien** die Option **Neue Richtlinie** aus.
+2. Wählen Sie auf der Seite **Besprechungsrichtlinien** die Option **Hinzufügen**aus.
 
-    ![Screenshot mit der Nachricht „Besprechungsrichtlinien“](media/configure-desktop-sharing-image2.png)
+    ![Nachricht "Besprechungsrichtlinien"](media/addMeeting.png)
 
 3. Weisen Sie Ihrer Richtlinie einen eindeutigen Titel zu und geben Sie eine kurze Beschreibung ein.
 
@@ -49,7 +54,10 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
    - **Einzelne Anwendung**: Ermöglicht Benutzern die Beschränkung der Bildschirmfreigabe auf eine einzelne aktive Anwendung.
    - **Deaktiviert** – Deaktiviert die Bildschirmfreigabe.
 
-    ![Screenshot mit Optionen für den Freigabemodus](media/configure-desktop-sharing-image3.png)
+    ![Optionen für den Freigabemodus](media/configure-desktop-sharing-image3.png)
+
+  > [!Note]
+  > Sie müssen die Anrufrichtlinie nicht aktivieren, damit Benutzer die Bildschirmfreigabe aus dem Chat verwenden können. Die Audiowiedergabe wird jedoch deaktiviert, bis Sie die Stummschaltung aufheben. Darüber hinaus kann der Benutzer, der den Bildschirm freigibt, auf **Audio hinzufügen** klicken, um die Audiowiedergabe zu aktivieren. Wenn die Anrufrichtlinie deaktiviert ist, können Benutzer der Bildschirmfreigabe in einer Chatsitzung keine Audiofunktionen hinzufügen.
 
 5. Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
 
@@ -67,6 +75,7 @@ Sie können auch das Cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.co
 
 - Description
 - ScreenSharingMode
+- AllowPrivateCalling
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
 - AllowPowerPointSharing
@@ -74,4 +83,3 @@ Sie können auch das Cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.co
 - AllowSharedNotes
 
 [Erfahren Sie mehr über das csTeamsMeetingPolicy-Cmdlet ](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
-
