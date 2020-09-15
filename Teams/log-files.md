@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582108"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766759"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -81,7 +81,7 @@ Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
 
 -   Windows: %userprofile%\\Downloads
 
--   Mac OSX: Downloads
+-   Mac OSX: ~/Downloads
 
 -   Linux: ~/Downloads
 
@@ -90,8 +90,11 @@ Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
 <a name="media-logs"></a>Medienprotokolle
 ---------------------------
 
-Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe Sie sind für Supportfälle nur nach Aufforderung erforderlich und können nur von Microsoft geprüft werden. In der folgenden Tabelle wird der Protokollspeicherort aufgeführt.
+Medienprotokolle enthalten diagnostische Daten zur Audio-, Video-und Bildschirmfreigabe in Teams-Besprechungen. Sie werden für Supportfälle nur auf Anfrage benötigt und können nur von Microsoft überprüft werden. 
 
+Die Medien Protokollierung ist standardmäßig deaktiviert. Zum Protokollieren von Diagnosedaten für Teams-Besprechungen müssen die Benutzer die Option im Teams-Client aktivieren. Wechseln Sie zu **Einstellungen**  >  **Allgemein**, aktivieren Sie das Kontrollkästchen **Protokollierung für die Besprechungs Diagnose aktivieren (erfordert einen Neustart von Teams**), und starten Sie dann Teams neu.
+
+In der folgenden Tabelle werden die Protokollspeicherorte erläutert.
 
 |Client |Speicherort |
 |---------|---------|
@@ -103,7 +106,15 @@ Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe 
 |Linux       |~/.config/Microsoft/Microsoft Teams/Media-Stack/*. Blog         |
 |            |~/.config/Microsoft/Microsoft Teams/skylib/*. Blog         |
 
+Nachfolgend finden Sie eine Liste der generierten Protokolldateien und der darin enthaltenen Informationen.
 
+|Name der Protokolldatei  |Beschreibung  |
+|---------|---------|
+|Teams. msrtc-0-s1039525249. Blog     | Enthält Informationen im Zusammenhang mit dem Medien Stapel. Dazu gehören Kanalstatus wie Auflösung, verwendete Decoder und Encoder sowie die Anzahl der gesendeten und empfangenen Frames sowie der Kamera-und videobasierte schlechte VBSS-Sitzungsstatus (Screen Sharing).         |
+|rtmcontrol. msrtc-0-2415069487. Blog      |Zeichnet Informationen zu Remote Steuerungsaktionen auf, beispielsweise den Zeitstempel, wenn das Steuerelement angegeben wird, und Mauszeiger Informationen.          |
+|Teams_MediaStackETW -2-u-XR-u. ETL      |Zeichnet Medien Stapel-Ablaufverfolgungsereignisse auf.         |
+|Debug-0-s2790420889. Blog    | Enthält Informationen zum Medien Agenten, einschließlich der Rendering-Qualität.          |
+|tscalling-0-2061129496. Blog   |Zeichnet Ereignisse in der TS-Aufruf-API auf.       |
 
 <a name="desktop-logs"></a>Desktopprotokolle
 ---------------------

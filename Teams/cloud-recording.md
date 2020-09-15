@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897804"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766909"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -36,8 +36,8 @@ Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://ak
 
 Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss Microsoft Stream für den Mandanten aktiviert sein. Darüber hinaus gelten die folgenden Voraussetzungen, die sowohl für den Organisator der Besprechung als auch für die Person, welche die Aufzeichnung initiiert, erforderlich sind:
 
-- Der Benutzer verfügt über Office 365 E1, E3, E5, a1, a3, A5, M365 Business Premium, M365 Business Standard oder M365 Business Basic.
-- Der Benutzer muss für Microsoft Stream lizenziert sein. <sup>1</sup> 
+- Benutzer hat Office 365 E1, E3, E5, a1, a3, A5, Microsoft 365 Business Premium, Business Standard oder Business Basic<sup>1</sup>
+- Der Benutzer muss für Microsoft Stream<sup>2</sup> lizenziert sein 
 - Der Benutzer hat die Berechtigung zum Hochladen von Videos in Microsoft Stream
 - Der Benutzer hat den Unternehmensrichtlinien zugestimmt, falls diese vom Administrator erstellt wurden
 - Der Benutzer verfügt über genügend Speicherplatz in Microsoft Stream, um Aufzeichnungen zu speichern
@@ -45,7 +45,9 @@ Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss 
 - Der Benutzer ist kein anonymer, Gast- oder Verbundbenutzer in der Besprechung
 - Um die Transkription für eine Benutzer Besprechung zu aktivieren, muss die für die Team-Besprechungsrichtlinie, der Sie zugewiesen ist, die-AllowTranscription-Einstellung auf true festgelegt sein.
 
-<sup>1</sup> Benutzer muss lizenziert werden, um Besprechungen von/zu Microsoft Stream hoch-oder herunterzuladen, Sie benötigen jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
+<sup>1</sup> ab August 20, 2020, wird der Zugriff auf die Besprechungs Aufnahmedatei nach 21 Tagen für Benutzer mit a1 ablaufen. Weitere Informationen finden Sie unter [Hochladen einer Microsoft Teams-Besprechungsaufzeichnung in den Datenstrom](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+
+<sup>2</sup> Benutzer müssen lizenziert werden, um Besprechungen von/zu Microsoft Stream hoch-oder herunterzuladen, Sie benötigen jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
 
 > [!IMPORTANT] 
 > Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern stattdessen in Azure Media Services (AMS) mit einer Höchstgrenze von 21 Tagen gespeichert werden, bevor Sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
@@ -126,7 +128,8 @@ Weitere Informationen dazu, wo Daten in Microsoft 365 oder Office 365 in verschi
 
 Mit dieser Einstellung wird gesteuert, ob Beschriftungen und Transkriptions Features bei der Wiedergabe von Besprechungsaufzeichnungen zur Verfügung stehen. Wenn Sie diese Option deaktivieren, stehen die Optionen " **Suchen** " und " **CC** " während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit die Aufzeichnung auch Transkription umfasst.
 
-**Beachten Sie** , dass die Transkription für aufgezeichnete Besprechungen derzeit nur für Benutzer unterstützt wird, für die die Sprache in Teams auf Englisch festgesetzt ist und wenn Englisch in der Besprechung gesprochen wird.
+> [!NOTE]
+> Diese Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, bei denen die Sprache in Teams auf Englisch festgesetzt ist und wenn Englisch in der Besprechung gesprochen wird. Sie werden zusammen mit den Besprechungsaufzeichnungen im Microsoft Stream-cloudspeicher gespeichert.
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 

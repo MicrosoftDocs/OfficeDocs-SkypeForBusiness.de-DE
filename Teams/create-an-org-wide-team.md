@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405792"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766869"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -32,7 +32,7 @@ Mit organisationsweiten Teams können globale Administratoren ganz einfach ein �
 
 ![Screenshot der Option „Organisationsweit", um ein organisationsweites Team zu erstellen](media/create-org-wide-team.png "Screenshot der Option „Organisationsweit" zum Erstellen eines organisationsweites Teams")
 
-Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer und alle aktiven Benutzer als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn sich ein nicht lizenzierter Benutzer zum ersten Mal bei Teams anmeldet, wird dem Benutzer eine Microsoft Teams-explorative Lizenz zugewiesen. Weitere Informationen zur explorativen Lizenz finden Sie unter [Verwalten der explorativen Lizenz für Microsoft Teams](teams-exploratory.md). 
+Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren und Teams Dienstadministratoren als Teambesitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn sich ein nicht lizenzierter Benutzer zum ersten Mal bei Teams anmeldet, wird dem Benutzer eine Microsoft Teams-explorative Lizenz zugewiesen. Weitere Informationen zur explorativen Lizenz finden Sie unter [Verwalten der explorativen Lizenz für Microsoft Teams](teams-exploratory.md). 
 
 Diese Arten von Konten werden Ihrem organisationsweiten Team nicht hinzugefügt:
 

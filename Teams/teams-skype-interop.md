@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Informieren Sie sich über die Interoperabilitätsfunktionen zwischen Teams-Benutzern in Ihrer Organisation und Skype (Consumer)-Benutzern.
 localization_priority: Normal
-ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
-ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
+ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651204"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766899"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams und Skype-Interoperabilität
 
@@ -45,7 +45,7 @@ Ein Skype-Nutzer kann wählen, nicht in den Suchergebnissen angezeigt zu werden.
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype-Nutzer startet einen Chat oder einen Anruf mit einem Teams-Nutzer
 
-Skype-Nutzer können mithilfe Ihrer e-Mail-Adresse nach einem Team-Nutzer suchen und einen Chat beginnen. Der Nutzer der Teams wird benachrichtigt, dass er eine neue Nachricht von einem Skype-Nutzer erhält. Der Benutzer von Teams muss zuerst die Nachricht annehmen, bevor er darauf antworten kann.
+Skype-Nutzer können mithilfe Ihrer e-Mail-Adresse nach einem Team-Nutzer suchen und einen Chat beginnen. Der Nutzer der Teams wird benachrichtigt, dass er eine neue Nachricht von einem Skype-Nutzer hat, und muss zuerst die Nachricht annehmen, bevor er darauf antworten kann.
 
 - Wenn der Benutzer von Teams **akzeptieren**auswählt, wird die Unterhaltung akzeptiert, und beide Benutzer können chatten und sich gegenseitig anrufen.
 - Wenn der Benutzer von Teams den **Block**auswählt, wird die Unterhaltung blockiert, und nachfolgende Nachrichten und Anrufe von diesem Skype-Nutzer werden blockiert.
