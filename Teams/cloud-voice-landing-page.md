@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Cloud-VoIP-Funktion, und verstehen Sie die erforderlichen Bereitstellungsentscheidungen, denen Sie gegenüberstehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8106e5ef30b71ec82e9b1ae42f785b7a73b170a5
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158643"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814875"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>VoIP-Telefon System-und PSTN-Verbindungsoptionen
 
@@ -37,7 +37,8 @@ Dieser Artikel hilft Ihnen bei der Entscheidung, ob Sie die standardmäßigen Sp
 
 Wir empfehlen, dass alle Organisationen die grundlegenden Entscheidungen treffen, und wenn Ihre Organisation zusätzliche Anforderungen hat, überprüfen Sie das folgende Material.
 
-
+ > [!Note]
+ > Weitere Informationen finden Sie unter [Team Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
 
 ## <a name="learn-more-about-voice"></a>Weitere Informationen zu Voice
 

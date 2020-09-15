@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich über die Features, die Verfügbarkeit und die Vorgehensweise zum Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788429"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814885"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Das Telefonsystem bietet Ihnen Folgendes
 
@@ -35,6 +35,8 @@ In diesem Artikel werden die Funktionen des Telefonsystems beschrieben. Weitere 
 
 Clients stehen für PC, Mac und Handy zur Verfügung und bieten Funktionen auf Geräten von Tablets und Mobiltelefonen bis hin zu PCs und Desktop-IP-Telefonen. Weitere Informationen finden Sie unter [Abrufen von Clients für Microsoft Teams](get-clients.md).
 
+ > [!Note]
+ > Weitere Informationen finden Sie unter [Team Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
   
 ## <a name="phone-system-features"></a>Telefon System Funktionen
 

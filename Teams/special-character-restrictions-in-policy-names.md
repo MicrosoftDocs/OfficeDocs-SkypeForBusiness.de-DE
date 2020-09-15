@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Sehen Sie sich die Probleme mit Sonderzeichen in den Namen der Richtlinien an, und was Sie tun können, um Sie zu beheben.
-ms.openlocfilehash: 7358bd989b793e988f0a3dacdded275b5232c8cc
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 899cffa45bc5ec7a36339e89e3cb97e35e6e4507
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691511"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814714"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?
 
@@ -41,10 +41,14 @@ Wenn Sie über eine Richtlinie mit Sonderzeichen verfügen, müssen Sie entweder
 
 ## <a name="to-remove-special-characters"></a>So entfernen Sie Sonderzeichen
 
-**Schritt 1: Erstellen einer Remoteverbindung mit PowerShell** 
- [Richten Sie Ihren Computer für Windows PowerShell ein](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , wenn Sie dies noch nicht getan haben.
+**Schritt 1: Erstellen einer Remoteverbindung mit PowerShell**
+> [!NOTE]
+> Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
+>
+> Wenn Sie die neueste Version von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online-Connector nicht installieren.
+
 ```PowerShell
- Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ Import-Module -Name MicrosoftTeams
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
  Import-PSSession $session

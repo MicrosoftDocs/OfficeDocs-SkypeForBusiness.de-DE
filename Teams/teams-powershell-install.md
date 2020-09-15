@@ -13,12 +13,12 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: f008d154099c57376fca914d576d7c9df4487780
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824936"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814464"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installieren von Microsoft Teams PowerShell
 
@@ -82,13 +82,13 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Installieren des Skype for Business Online-Connectors
 
-> [!WARNING]
-> Skype for Business Online Connector ist derzeit Teil von Teams PowerShell Public Preview. Nachdem wir dieses Feature in der GA-Version von Teams PowerShell bereitgestellt haben, steht Skype for Business Online Connector nicht mehr zur Verfügung.
-
-Laden Sie das [Skype for Business PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366)herunter, und installieren Sie es, und führen Sie dann die folgenden Schritte in PowerShell aus.
+> [!NOTE]
+>
+> Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
+> Wenn Sie die neueste Version von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online-Connector nicht installieren.
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
 Import-PSSession $sfbSession

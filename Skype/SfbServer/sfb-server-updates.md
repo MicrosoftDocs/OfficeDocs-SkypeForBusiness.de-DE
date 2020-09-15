@@ -13,16 +13,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und Verwalten von Updates für Skype for Business Server 2015/2019 und lync 2013 an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
-ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326572"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814314"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server-Updates
 
-Suchen und Verwalten von Updates für [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history), [lync Server 2013](#lync-server-2013-update-history)und [lync Server 2010](#lync-server-2010-update-history) an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
+Suchen und Verwalten von Updates für [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history),  [lync Server 2013](#lync-server-2013-update-history)und [lync Server 2010](#lync-server-2010-update-history) an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
 
 Die neuesten Skype for Business Online-und Microsoft 365-Updates finden Sie in der [Microsoft 365-Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
@@ -32,6 +32,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 Kumulatives Update 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juli 2020 |
 |Skype for Business Server 2019 Kumulatives Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| März 2020 |
 |Skype for Business Server 2019 Kumulatives Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Dezember 2019 |
 |Skype for Business Server 2019 Kumulatives Update 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
@@ -42,7 +43,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 |Paket Name/Link|Veröffentlichungsdatum|
 |:--- |:--- |
-|[UCMA 6,0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Juni 2019       |
+|[UCMA 6,0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Juni 2019       |
 |[Unified Communications Managed API 5.0 Laufzeit](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Juni 2018        |
 |[Skype for Business Server 2019, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Juni 2018        |
 |||
@@ -54,6 +55,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 Kumulatives Update 11 Hotfix 1 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 14. Juli 2020 |
 |Skype for Business Server 2015 Kumulatives Update 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13. Mai 2020 |
 |Skype for Business Server 2015 Kumulatives Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| August 2019 |
 |Kumuliertes Update für Skype for Business Server 2015 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Juli 2019 |
@@ -77,7 +79,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 |Paket Name/Link|Veröffentlichungsdatum|
 |:--- |:--- |
-|[SDK für UCMA 5.0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mai 2015       |
+|[SDK für UCMA 5.0 ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mai 2015       |
 |[Unified Communications Managed API 5.0 Laufzeit](https://www.microsoft.com/download/details.aspx?id=47344)     |   Mai 2015      |
 |[Skype for Business Server 2015, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Juni 2019       |
 |||
@@ -88,6 +90,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
+|Hotfix 4 für lync Server 2013 Kumulatives Update 10 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Juni 2020|
 |Lync Server 2013 Kumulatives Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
 |Lync Server 2013 Kumulatives Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Juni 2019|
 |Lync Server 2013 Kumulatives Update 10 Hotfix 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Januar 2019|
