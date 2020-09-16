@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581146"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814395"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
@@ -44,6 +44,8 @@ Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten,
 >
 > <sup>2</sup> Für ausgehende Anrufe aus Konferenzen an eine [**Rückruf unter**-Nummer](set-up-the-call-me-feature-for-your-users.md) müssen Organisatoren über eine E5- oder [Audiokonferenz-Add-In-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) verfügen. Es kann auch ein [Wählplan](what-are-dial-plans.md) erforderlich sein. 
 
+ > [!Note]
+ > Weitere Informationen finden Sie unter [Teamfeatures nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 

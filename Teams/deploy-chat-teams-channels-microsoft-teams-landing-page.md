@@ -19,18 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 31207fe6720b62653076958ab1005df25579880d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583984"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814865"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
-Teams bietet ohne weitere Konfiguration eine hervorragende Zusammenarbeitserfahrung, und die meisten Organisationen stellen fest, dass die Standardeinstellungen für sie sinnvoll sind. Dieser Artikel hilft Ihnen bei der Entscheidung, ob einige der Standardeinstellungen geändert werden sollen, berücksichtigt dazu das Profil und die geschäftlichen Anforderungen Ihrer Organisation und führt Sie dann schrittweise durch die einzelnen Änderungen. Wir haben die Einstellungen in zwei Gruppen aufgeteilt und beginnen mit der Kernmenge der [Änderungen, die Sie mit größerer Wahrscheinlichkeit vornehmen](#core-deployment-decisions) werden. Die zweite Gruppe umfasst die [zusätzlichen Einstellungen](#additional-deployment-decisions), deren Konfiguration, abhängig von den Bedürfnissen Ihrer Organisation, sinnvoll sein kann. 
+Teams bietet ohne weitere Konfiguration eine hervorragende Zusammenarbeitserfahrung, und die meisten Organisationen stellen fest, dass die Standardeinstellungen für sie sinnvoll sind. Dieser Artikel hilft Ihnen bei der Entscheidung, ob einige der Standardeinstellungen geändert werden sollen, berücksichtigt dazu das Profil und die geschäftlichen Anforderungen Ihrer Organisation und führt Sie dann schrittweise durch die einzelnen Änderungen. Wir haben die Einstellungen in zwei Gruppen aufgeteilt und beginnen mit der Kernmenge der [Änderungen, die Sie mit größerer Wahrscheinlichkeit vornehmen](#core-deployment-decisions) werden. Die zweite Gruppe umfasst die [zusätzlichen Einstellungen](#additional-deployment-decisions), deren Konfiguration, abhängig von den Bedürfnissen Ihrer Organisation, sinnvoll sein kann.
 
-Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams (4:30 Minuten) an, um die ersten Schritte zu machen: 
+Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams (4:30 Minuten) an, um die ersten Schritte zu machen:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
@@ -40,6 +40,9 @@ Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams 
 
 > [!TIP]
 > Es ist empfehlenswert, die von uns vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie mit fortschreitender Aneignung von Teams weitere [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu.
+
+ > [!Note]
+ > Weitere Informationen finden Sie unter [Teamfeatures nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="chat-deployment-prerequisites"></a>Voraussetzungen für die Bereitstellung von Chat
 
@@ -143,7 +146,6 @@ Teams bietet eine Reihe von vom Originalhersteller (von Microsoft bereitgestellt
 
 Weitere Informationen zum Bereitstellen und Verwalten von Apps in Teams finden Sie in unserem ausführlichen Leitfaden [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md).
 
-
 ## <a name="additional-deployment-decisions"></a>Zusätzliche Bereitstellungsentscheidungen
 
 Je nach den Bedürfnissen und der Konfiguration Ihrer Organisation kann es sinnvoll sein, diese Einstellungen zu ändern.
@@ -183,7 +185,6 @@ Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs b
 |------------|-------|
 | Benötige ich Internetzugriffsregeln, um Benutzern die Verwendung von Teams zu ermöglichen, oder ist das Öffnen der mindestens erforderlichen Ports ausreichend? | Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md).|
 |||
-
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>Governance (Benennungskonventionen, wer darf Teams erstellen)
 
@@ -252,4 +253,3 @@ Die Nutzung von Office 365 for Government – GCC (Government Community Cloud) i
 - Nehmen Sie die vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung auf. Fügen Sie mit fortschreitender Aneignung von Teams weitere [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu.
 - [Bereitstellung von Besprechungen und Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
 - [Bereitstellen von Cloud Voice](cloud-voice-landing-page.md)
-
