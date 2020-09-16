@@ -17,12 +17,12 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938504"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820529"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -98,6 +98,8 @@ Die folgenden SDN-/eCDN-Lösungen sind vorintegriert und können für die Verwen
 - **Kollective** ist eine cloudbasierte, intelligente Plattform für Peeringverteilung, die Ihre vorhandene Netzwerkinfrastruktur nutzt, um Inhalte in vielen Formen (Livestreaming-Video, On-Demand-Video, Softwareupdates, Sicherheitspatches usw.) schneller, zuverlässiger und mit weniger Bandbreite bereitzustellen. Unsere sichere Plattform wird von den weltweit größten Finanzinstituten als vertrauenswürdig eingestuft, und da keine zusätzliche Hardware nötig ist, sind das Setup und die Wartung einfach. [Weitere Informationen](https://kollective.com/microsoft-pilot/).
  
 - **Ramp OmniCache** bietet Netzwerkverteilung der nächsten Generation und sorgt für eine reibungslose Bereitstellung von Videoinhalten über globale WANs hinweg. Dies hilft Produzenten von Ereignissen bei der Optimierung der Netzwerkbandbreite und Unterstützung von erfolgreichen Liveereignis-Übertragungen und On-Demand-Streaming. Die Unterstützung für Ramp OmniCache für in Teams produzierte Liveereignisse ist in Kürze verfügbar. [Weitere Informationen](https://rampecdn.com). 
+
+- **Riverbed**, der Branchenstandard bei der Netzwerkoptimierung, erweitert seine Acceleration-Lösungen auf Microsoft Teams und Stream.  Microsoft 365-Kunden können nun 365-Datenverkehr, einschließlich Teams und Streams, mit einer Vielzahl anderer führender Unternehmens-SaaS-Services beschleunigen, um die Produktivität von überall aus zu steigern. Teams und Stream-Beschleunigungen können durch eine mühelose Einrichtung ermöglicht werden, die von der Weltklasse-Unterstützung von Riverbed und der laufenden Investition sichergestellt wird.
  
 > [!NOTE] 
 > Die von Ihnen ausgewählte SDN- oder eCDN-Lösung unterliegt den **Vertragsbedingungen und Datenschutzrichtlinien des gewählten Drittanbieters**, die die Nutzung der Lösung des Anbieters regeln. Ihre Nutzung der Anbieterlösung unterliegt nicht den Microsoft-Volumenlizenzierungsbedingungen oder den Nutzungsbedingungen für Online Services. Wenn Sie den **Vertragsbedingungen des Drittanbieters** nicht zustimmen, aktivieren Sie die Lösung nicht in Teams. 

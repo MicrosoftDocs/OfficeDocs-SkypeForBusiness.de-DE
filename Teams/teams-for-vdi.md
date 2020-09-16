@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc59616cb882897447dac35f33cf197e6e8fe143
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814374"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820609"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -40,7 +40,7 @@ Die Verwendung von Teams in einer virtualisierten Umgebung unterscheidet sich m�
 Befolgen Sie die Anleitungen in diesem Artikel, um eine optimale Benutzererfahrung zu gewährleisten.
 
  > [!Note]
- > Weitere Informationen finden Sie unter [Team Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+> Details zu den VDI-Teams auf unterschiedlichen Plattformen finden Sie unter [Teams-Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="teams-on-vdi-components"></a>Teams für VDI-Komponenten
 

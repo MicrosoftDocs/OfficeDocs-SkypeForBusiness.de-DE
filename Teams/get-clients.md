@@ -18,17 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1db2aa6eae0dadbd2043198a167daa5cc6fe098
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581676"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820329"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 
+Microsoft Teams-Clients sind für Desktop (Windows, Mac und Linux), Web und mobile Betriebssysteme (Android und iOS) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung und unterstützen den Offlinemodus nicht. 
 
-Microsoft Teams-Clients sind für Desktop (Windows, Mac und Linux), Web und mobile Betriebssysteme (Android und iOS) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung und unterstützen den Offlinemodus nicht.
+> [!Note]
+> Details zu den Funktionen der einzelnen Clients auf verschiedenen Plattformen finden Sie unter [Teams-Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie nun den Teams-Desktopclient auf Geräte herunterladen und installieren, die mit Windows 10 S-Modus betrieben werden. Den Desktopclient zum Herunterladen finden Sie unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). MSI-Builds des Teams-Desktopclients stehen für Geräte, die mit Windows 10 S-Modus betrieben werden, derzeit noch nicht zur Verfügung.

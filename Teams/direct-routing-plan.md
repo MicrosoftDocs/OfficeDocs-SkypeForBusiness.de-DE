@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359401"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820639"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -230,7 +230,7 @@ Die FQDNs – SIP.pstnhub.Microsoft.com, sip2.pstnhub.Microsoft.com und sip3.pst
 - 52.114.16.74
 - 52.114.20.29
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN-SIP-all.pstnhub.Microsoft.com in alle diese IP-Adressen aufgelöst. 
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN- **SIP-all.pstnhub.Microsoft.com** in alle diese IP-Adressen aufgelöst. 
 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
@@ -257,7 +257,7 @@ Der FQDN-SIP.pstnhub.gov.Teams.Microsoft.US wird in eine der folgenden IP-Adress
 - 52.127.88.59
 - 52.127.92.64
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.
+Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen. Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN- **SIP-all.pstnhub.gov.Teams.Microsoft.US** in alle diese IP-Adressen aufgelöst. Dieser FQDN kann auch als Federated-FQDN für eingehende Anruf Klassifikationen verwendet werden.
 
 ## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Anschlüsse
 

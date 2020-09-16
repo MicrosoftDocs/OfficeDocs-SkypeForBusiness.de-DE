@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222e7e51fcf87e0e76c3ab18f33357f7489a1ce1
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 1f118585b28edaea63b3416aa4671337ee436345
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558595"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820589"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 
 Verwenden Sie die Einstellungen für Live Ereignisse von Teams, um Einstellungen für Live Ereignisse zu konfigurieren, die in Ihrer Organisation stattfinden. Sie können eine Support-URL einrichten und einen Drittanbieter für Videoverteilung konfigurieren. Diese Einstellungen gelten für alle Live Ereignisse, die in Ihrer Organisation erstellt wurden. 
 
-Sie können diese Einstellungen im Microsoft Teams Admin Center ganz einfach verwalten. Wechseln Sie in der linken Navigationsleiste zu **Besprechungen** > **Live Events-Einstellungen**. 
+Sie können diese Einstellungen im Microsoft Teams Admin Center ganz einfach verwalten. Wechseln Sie in der linken Navigationsleiste zu **Besprechungen**  >  **Live Events-Einstellungen**. 
 
 ![Screenshot der Einstellungen für Live-Events in Teams](../media/teams-live-events-settings.png "Screenshot der Einstellungen für Teams-Live Ereignisse, die Sie im Microsoft Teams Admin Center konfigurieren können") 
 
@@ -38,9 +38,9 @@ Sie können diese Einstellungen im Microsoft Teams Admin Center ganz einfach ver
 
 Diese URL wird für Live-Event-Teilnehmer angezeigt. Fügen Sie die Support-URL für Ihre Organisation hinzu, um Teilnehmern eine Möglichkeit zu geben, den Support während eines Liveereignisses zu kontaktieren.
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Symbol, das das Microsoft Teams-Logo zeigt](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
 
-1. Wechseln Sie in der linken Navigationsleiste zu**Live-Ereigniseinstellungen**für **Besprechungen** > .
+1. Wechseln Sie in der linken Navigationsleiste **Meetings**zu  >  **Live-Ereigniseinstellungen**für Besprechungen.
 2. Geben Sie unter **Support-URL**die Support-URL Ihrer Organisation ein. 
 
     ![Support-URL-Einstellung für Live-Ereignisse im Admin Center](../media/teams-live-events-settings-supporturl.png "Screenshot der Support-URL-Einstellung für Live-Events in Teams")
@@ -55,9 +55,9 @@ Weitere Informationen finden Sie unter [Satz-CsTeamsMeetingBroadcastConfiguratio
 
 Wenn Sie eine Lösung für Software Defined Network (SDN) oder Enterprise Content Delivery Network (ECDN) über einen Microsoft Video Delivery-Partner erworben und eingerichtet haben, konfigurieren Sie den Anbieter für Live Ereignisse in Teams. 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Symbol, das das Microsoft Teams-Logo zeigt](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
 
-1. Wechseln Sie in der linken Navigationsleiste zu**Live-Ereigniseinstellungen**für **Besprechungen** > .
+1. Wechseln Sie in der linken Navigationsleiste **Meetings**zu  >  **Live-Ereigniseinstellungen**für Besprechungen.
 2. Führen Sie unter **Anbieter von Video Verteilern von Drittanbietern**die folgenden Schritte aus: 
 
     ![Einstellungen für Video Verteilungs Anbieter von Drittanbietern im Admin Center](../media/teams-live-events-settings-distribution-provider.png "Screenshot der Einstellungen des Drittanbieters für Videoverteiler für Live Ereignisse")
@@ -70,7 +70,7 @@ Wenn Sie eine Lösung für Software Defined Network (SDN) oder Enterprise Conten
 ### <a name="using-windows-powershell"></a>Verwenden von Windows PowerShell
 Rufen Sie die Lizenz-ID oder das API-Token und die API-Vorlage von Ihrem Anbieter Kontakt ab, und führen Sie je nach verwendetem Anbieter eine der folgenden Aktionen aus:
 
-**Struktur** 
+**Hive** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
@@ -78,6 +78,11 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
+**Riverbed** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
+```
+
 Weitere Informationen finden Sie unter [Satz-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]

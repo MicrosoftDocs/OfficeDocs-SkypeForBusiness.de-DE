@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a944616fef0c3fd9821486a41025adf5f0fdbcc
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814574"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820519"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -31,7 +31,7 @@ Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und in Micr
 Die Anwesenheit in Teams wird in Outlook ab der Outlook 2013-Desktop-App und höher unterstützt.
 
  > [!Note]
- > Weitere Informationen finden Sie unter [Team Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+ > Ausführliche Informationen zu Teams-Benutzerprofilen auf unterschiedlichen Plattformen finden Sie unter [Teams-Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
