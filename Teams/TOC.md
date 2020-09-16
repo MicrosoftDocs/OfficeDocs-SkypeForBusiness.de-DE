@@ -63,6 +63,7 @@
 
 ### Gastzugriff
 #### [Informationen zum Gastzugriff](guest-access.md)
+#### [Checkliste für den Gastzugriff](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [Beitritt eines Gasts zu einem Team](guest-joins.md)
 #### [Gastfunktionalität](guest-experience.md)
 #### [Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md)
@@ -773,6 +774,7 @@
 
 ## [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
 ## [Speicherort von Daten in Teams](location-of-data-in-teams.md)
+## [Datensammlungsverfahren](data-collection-practices.md)
 
 ## Vorbereiten der Bereitstellung von Teams
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
