@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158663"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940505"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Upgrade von Skype for Business Online auf Microsoft Teams
 
@@ -50,7 +50,7 @@ Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business Onli
 
 Sie können Ihre Benutzer auf den TeamsOnly-Modus aktualisieren, indem Sie die UpgradeToTeams-Instanz von TeamsUpgradePolicy zuweisen, die mithilfe des Microsoft Teams admin Centers oder einer Skype for Business-Remote-Windows PowerShell-Sitzung ausgeführt werden kann. Sie können dies entweder auf Benutzerbasis oder auf Mandantenebene tun, wenn Sie den gesamten Mandanten in einem Schritt aktualisieren möchten. 
 
-Weitere Informationen finden Sie unter [Festlegen von Koexistenz-und Upgradeeinstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) und [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Weitere Informationen finden Sie unter [Festlegen von Koexistenz-und Upgradeeinstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) und [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz](upgrade-to-teams-on-prem-tools.md).
 
 ## <a name="upgrade-all-users-to-teams-at-one-time"></a>Gleichzeitiges Aktualisieren aller Benutzer auf Teams
 
@@ -107,8 +107,8 @@ Das Telefon System mit Teams wird unterstützt, nachdem sich der Benutzer im Tea
 
 Wenn Sie die Verbindungsoptionen für PSTN (Public Switched Telephone Network) in Betracht ziehen, gibt es zwei mögliche Szenarien beim Umstieg von Skype for Business Online auf den TeamsOnly-Modus:
 
-- Ein Benutzer in Skype for Business Online mit einem Microsoft-Anrufplan. Nach dem Upgrade wird dieser Benutzer weiterhin über einen Microsoft-Anrufplan verfügen. Dies ist das einfachste Szenario, in dem nur ein paar Schritte erforderlich sind. Weitere Informationen finden Sie unter [Skype for Business Online mit Microsoft-Anrufplänen](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+- Ein Benutzer in Skype for Business Online mit einem Microsoft-Anrufplan. Nach dem Upgrade wird dieser Benutzer weiterhin über einen Microsoft-Anrufplan verfügen. Dies ist das einfachste Szenario, in dem nur ein paar Schritte erforderlich sind. Weitere Informationen finden Sie unter [Skype for Business Online mit Microsoft-Anrufplänen](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
 
-- Ein Benutzer in Skype for Business Online mit lokalen Sprachfunktionen über Skype for Business lokal oder Cloud Connector Edition. Das Upgrade des Benutzers auf Teams muss mit der Migration des Benutzers an Direct Routing koordiniert werden, um sicherzustellen, dass der TeamsOnly-Benutzer über PSTN-Funktionalität verfügt.  Weitere Informationen finden Sie unter [Skype for Business Online mit Lokalsprache](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).
+- Ein Benutzer in Skype for Business Online mit lokalen Sprachfunktionen über Skype for Business lokal oder Cloud Connector Edition. Das Upgrade des Benutzers auf Teams muss mit der Migration des Benutzers an Direct Routing koordiniert werden, um sicherzustellen, dass der TeamsOnly-Benutzer über PSTN-Funktionalität verfügt.  Weitere Informationen finden Sie unter [Skype for Business Online mit Lokalsprache](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice).
 
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158603"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940415"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Teams aus.
 
@@ -62,7 +62,7 @@ Um ihre Entscheidungsfindung zu erleichtern, sollten Sie sich mit den verschiede
 
 Ein Benutzer, der in Teams migriert wurde, verwendet keinen Skype for Business-Client mehr, es sei denn, Sie nehmen an einer in Skype for Business gehosteten Besprechung Teil. Alle eingehenden Chats und Anrufe landen im Team-Client des Benutzers, unabhängig davon, ob der Absender Teams oder Skype for Business verwendet. Alle neuen Besprechungen, die vom aktualisierten Benutzer organisiert werden, werden als Teams-Besprechungen geplant. Wenn der Benutzer versucht, den Skype for Business-Client zu verwenden, wird das Initiieren von Chats und anrufen blockiert<sup>1</sup>. Allerdings kann der Benutzer den Skype for Business-Client weiterhin verwenden, um an Besprechungen teilzunehmen, zu denen er eingeladen wurde.
 
-Administratoren verwalten Ihren Übergang zu Teams mithilfe des Konzepts des [Modus](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), bei dem es sich um eine Eigenschaft von [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)handelt. Ein Benutzer, der wie oben beschrieben zu Teams migriert wurde, befindet sich im Modus "TeamsOnly". Für eine Organisation, die zu Teams migriert, besteht das ultimative Ziel darin, alle Benutzer in den TeamsOnly-Modus zu verschieben.
+Administratoren verwalten Ihren Übergang zu Teams mithilfe des Konzepts des [Modus](migration-interop-guidance-for-teams-with-skype.md), bei dem es sich um eine Eigenschaft von [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)handelt. Ein Benutzer, der wie oben beschrieben zu Teams migriert wurde, befindet sich im Modus "TeamsOnly". Für eine Organisation, die zu Teams migriert, besteht das ultimative Ziel darin, alle Benutzer in den TeamsOnly-Modus zu verschieben.
 
 Es gibt zwei Methoden zum Migrieren einer vorhandenen Organisation mit Skype for Business (ob online oder lokal) in Teams:
 
@@ -92,7 +92,7 @@ Damit diese Methode effektiv funktioniert, müssen alle Benutzer beide Clients g
 
 Wenn beispielsweise ein Empfänger für inselnmodus bei Skype for Business angemeldet ist, aber nicht in Teams, und jemand Sie aus Teams Nachrichten kann, wird die Nachricht vom Empfänger für inselnmodus nicht angezeigt (aber Sie erhalten schließlich eine e-Mail, die besagt, dass Sie eine Nachricht in Teams verpasst haben). Wenn ein Benutzer Teams ausführt, aber nicht Skype for Business, und jemand diesen Nutzer von Skype for Business Nachrichten kann, wird dieser Chat dem Nutzer nicht angezeigt. Das Verhalten in jedem dieser Fälle ist für den Aufruf ähnlich. Wenn Benutzer nicht beide Clients ausführen, kann dies problemlos zu Frustration führen.
 
-Die Anwesenheitsfunktion funktioniert auch unabhängig von Teams und Skype for Business mithilfe dieser Upgrade-Methode. Dies bedeutet, dass andere Benutzer möglicherweise unterschiedliche Anwesenheitsstatus für Benutzer A sehen, je nachdem, welchen Client Sie verwenden. Weitere Informationen finden Sie unter [Anwesenheits](upgrade-to-Teams-on-prem-overview.md#presence)Informationen.
+Die Anwesenheitsfunktion funktioniert auch unabhängig von Teams und Skype for Business mithilfe dieser Upgrade-Methode. Dies bedeutet, dass andere Benutzer möglicherweise unterschiedliche Anwesenheitsstatus für Benutzer A sehen, je nachdem, welchen Client Sie verwenden. Weitere Informationen finden Sie unter [Anwesenheits](upgrade-to-Teams-on-prem-coexistence.md#presence)Informationen.
 
 - Andere Benutzer sehen bei der Verwendung von Teams die Anwesenheitsinformationen auf der Grundlage der Aktivitäten von Benutzer A in Teams.
 
@@ -102,7 +102,7 @@ Wenn Sie bereit sind, Benutzer auf den TeamsOnly-Modus zu aktualisieren, können
 
 Nicht aktualisierte Empfänger im Inseln-Modus können jedoch weiterhin Chats und Anrufe von einem TeamsOnly-Benutzer in Ihren Skype for Business-oder Microsoft Teams-Clients empfangen. Bei vorhandenen Unterhaltungen antwortet der TeamsOnly-Benutzer an den Client, von dem der Absender den Chat initiiert hat. 
 
-Für neue Konversationen aus der Sicht des TeamsOnly-Benutzers wechselt der Chat oder Anruf immer zum Client Teams-Client für Inseln-Modus. Der Grund dafür ist, dass der Team-Client getrennte Konversations Threads für Teams-zu-Teams und Teams-zu-Skype for Business-Kommunikation verwaltet, selbst für denselben Benutzer. Weitere Informationen finden Sie unter [Konversationen in Teams – Interop versus native Threads](upgrade-to-Teams-on-prem-overview.md#teams-conversations---interop-versus-native-threads).
+Für neue Konversationen aus der Sicht des TeamsOnly-Benutzers wechselt der Chat oder Anruf immer zum Client Teams-Client für Inseln-Modus. Der Grund dafür ist, dass der Team-Client getrennte Konversations Threads für Teams-zu-Teams und Teams-zu-Skype for Business-Kommunikation verwaltet, selbst für denselben Benutzer. Weitere Informationen finden Sie unter [Konversationen in Teams – Interop versus native Threads](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).
 
 In der folgenden Tabelle sind die Teams im Modus "Inseln" und im TeamsOnly-Modus zusammengefasst:
 
@@ -124,7 +124,7 @@ In der folgenden Tabelle werden die vor-und Nachteile der Verwendung der überla
 
 <sup>2</sup> Dies gilt auch, wenn der Benutzer lokal in Skype for Business Server verwaltet wird. Unabhängig davon, ob der Benutzer lokal oder Online ist, lassen Sie die Skype for Business Online-Lizenz aktiviert, da Sie zurzeit für die vollständige Team Funktionalität benötigt wird.
 
-<sup>3</sup> beachten Sie, dass die Migration von Skype for Business-Besprechungen in Teams-Besprechungen nur ausgelöst wird, wenn Sie TeamsUpgradePolicy auf einzelne Benutzer anwenden, nicht auf Mandantenbasis. Details finden Sie unter [Besprechungs Migration](upgrade-to-Teams-on-prem-overview.md#meeting-migration) .
+<sup>3</sup> beachten Sie, dass die Migration von Skype for Business-Besprechungen in Teams-Besprechungen nur ausgelöst wird, wenn Sie TeamsUpgradePolicy auf einzelne Benutzer anwenden, nicht auf Mandantenbasis. Details finden Sie unter [Besprechungs Migration](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) .
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>SELECT Capabilities-Methode (mit Skype for Business-Modi)
 
@@ -136,9 +136,9 @@ Einige Organisationen ziehen es vor, Ihren Endbenutzern eine vorhersagbarere Erf
 
 - Benutzer im TeamsOnly-Modus empfangen alle eingehenden Chats und Anrufe in Ihrem Teams-Client, und die Anwesenheitsinformationen werden von Teams bereitgestellt, unabhängig davon, woher die Kommunikation stammt: Teams, Skype for Business oder jede Art von Federated-Nutzer.
 
-Im Gegensatz zur überlappenden Capabilities-Methode können Benutzer, die Skype for Business verwenden, mit den Benutzern in TeamsOnly kommunizieren. Die Kommunikation zwischen einem Skype for Business-Benutzer und einem Microsoft Teams-Benutzer wird als " [Interoperabilität](upgrade-to-Teams-on-prem-overview.md#interoperability) " oder "Interop" bezeichnet. Interoperabilitäts Kommunikation ist 1:1 für Chats und Anrufe zwischen einem Benutzer in Skype for Business und einem anderen Benutzer in Microsoft Teams möglich. Darüber hinaus können eingeladene Benutzer immer an einer Skype for Business-oder Teams-Besprechung teilnehmen, doch müssen Sie einen Client verwenden, der dem Typ der Besprechung entspricht. Weitere Informationen finden Sie unter [Besprechungen](upgrade-to-Teams-on-prem-overview.md#meetings).
+Im Gegensatz zur überlappenden Capabilities-Methode können Benutzer, die Skype for Business verwenden, mit den Benutzern in TeamsOnly kommunizieren. Die Kommunikation zwischen einem Skype for Business-Benutzer und einem Microsoft Teams-Benutzer wird als " [Interoperabilität](upgrade-to-Teams-on-prem-coexistence.md#interoperability) " oder "Interop" bezeichnet. Interoperabilitäts Kommunikation ist 1:1 für Chats und Anrufe zwischen einem Benutzer in Skype for Business und einem anderen Benutzer in Microsoft Teams möglich. Darüber hinaus können eingeladene Benutzer immer an einer Skype for Business-oder Teams-Besprechung teilnehmen, doch müssen Sie einen Client verwenden, der dem Typ der Besprechung entspricht. Weitere Informationen finden Sie unter [Besprechungen](upgrade-to-Teams-on-prem-coexistence.md#meetings).
 
-Für Benutzer in einer SELECT-Capabilities-Methode ist die Anwesenheit für einen Benutzer konsistent, unabhängig davon, welcher Client vom anderen Benutzer verwendet wird. Wenn sich der Benutzer in einem der Skype for Business-Modi befindet, sehen alle anderen Benutzer die Anwesenheitsinformationen auf der Grundlage der Aktivitäten dieses Benutzers in Skype for Business. Auch wenn sich ein Benutzer im TeamsOnly-Modus befindet, sehen alle anderen Benutzer die Anwesenheitsinformationen auf der Grundlage der Aktivitäten dieses Benutzers in Teams. Einzelheiten hierzu finden Sie unter [Anwesenheits](upgrade-to-Teams-on-prem-overview.md#presence)Informationen.
+Für Benutzer in einer SELECT-Capabilities-Methode ist die Anwesenheit für einen Benutzer konsistent, unabhängig davon, welcher Client vom anderen Benutzer verwendet wird. Wenn sich der Benutzer in einem der Skype for Business-Modi befindet, sehen alle anderen Benutzer die Anwesenheitsinformationen auf der Grundlage der Aktivitäten dieses Benutzers in Skype for Business. Auch wenn sich ein Benutzer im TeamsOnly-Modus befindet, sehen alle anderen Benutzer die Anwesenheitsinformationen auf der Grundlage der Aktivitäten dieses Benutzers in Teams. Einzelheiten hierzu finden Sie unter [Anwesenheits](upgrade-to-Teams-on-prem-coexistence.md#presence)Informationen.
 
 Bei einer Organisation, die sich für die Auswahl der Methoden zur Auswahl von Funktionen entschieden hat, sollte der Administrator den Mandanten weiten Modus von Inseln in den entsprechenden Skype for Business-Koexistenzmodus (SfbWithTeamsCollab oder SfBWithTeamsCollabAndMeetings) ändern.  
 
@@ -157,7 +157,7 @@ Alternativ kann der Administrator zunächst nur die Besprechungsplanung in Teams
 |Eingehende Chats und VoIP-Anrufe von Benutzern in Ihrer Organisation erhalten in:     | Skype for Business        | Skype for Business       | Teams        |
 |Empfangene PSTN-Anrufe:     | Skype for Business        |Skype for Business         | Teams        |
 |Anwesenheit     | Skype for Business        |Skype for Business         | Teams        |
-|Besprechungsplanung     | Skype for Business         | Teams        | Microsoft Teams        |
+|Besprechungsplanung     | Skype for Business         | Microsoft Teams        | Microsoft Teams        |
 
 
 In der folgenden Tabelle sind die vor-und Nachteile der Verwendung von Skype for Business-Modi als Übergangsschritt in Richtung TeamsOnly-Modus zusammengefasst.

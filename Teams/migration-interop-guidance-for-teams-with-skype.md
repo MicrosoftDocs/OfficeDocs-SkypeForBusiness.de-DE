@@ -20,54 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77cee207d885299e6f8a1a90f889c9f661c7383e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c30877a9563a5f97cbe2b4a7d5b8b136d5ec9ebd
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691441"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940555"
 ---
-# <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden
+# <a name="coexistence-modes---reference"></a>Koexistenzmodus – Referenz
 
-> [!Tip] 
-> Schauen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)zu erfahren.
-
-Da eine Organisation mit Skype for Business beginnt, Teams zu übernehmen, können Administratoren die Benutzererfahrung in Ihrer Organisation mithilfe des Konzepts der Koexistenz "Modus" verwalten, bei dem es sich um eine Eigenschaft von TeamsUpgradePolicy handelt. Mithilfe des Modus verwalten Administratoren Interop und Migration, während Sie den Übergang von Skype for Business zu Teams verwalten.  Der Modus eines Benutzers bestimmt, in welchem Client eingehende Chats und Anrufe landen sowie in welchem Dienst (Teams oder Skype for Business) neue Besprechungen geplant sind. Darüber hinaus wird geregelt, welche Funktionen im Team-Client verfügbar sind. 
-
-> [!IMPORTANT]
-> Es kann bis zu 24 Stunden dauern, bis eine Änderung von TeamsUpgradePolicy wirksam wird. Zuvor ist der Anwesenheitsstatus des Benutzers möglicherweise nicht korrekt (kann als **unbekannt**angezeigt werden).
-
-
-## <a name="fundamental-concepts"></a>Grundlegende Konzepte
-
-1.  *Interop* : 1 bis 1 Kommunikation zwischen einem lync/Skype for Business-Benutzer und einem Teams-Benutzer.
-
-2.  *Föderation* : Kommunikation zwischen Benutzern aus verschiedenen Mandanten.
-
-3.  Alle Teams-Benutzer verfügen über ein zugrunde liegendes Skype for Business-Konto, das entweder online oder lokal "verwaltet" ist:
-    - Nutzer, die Skype for Business Online bereits nutzen, verwenden Ihr vorhandenes Online-Konto.
-    - Benutzer, die Skype for Business/lync bereits lokal verwenden, verwenden Ihr vorhandenes lokales Konto.
-    - Für Benutzer, für die ein vorhandenes Skype for Business-Konto nicht erkannt werden kann, wird beim Erstellen des Teams-Benutzers automatisch ein Skype for Business Online-Konto bereitgestellt.
-
-4.  Wenn Sie über eine lokale Bereitstellung von Skype for Business oder lync verfügen und diese Benutzer Team Benutzer sein sollen, müssen Sie mindestens sicherstellen, dass Azure AD Connect das Attribut msRTCSIP-DeploymentLocator-Attribut in Aad synchronisiert, damit Teams/Skype for Business Online Ihre lokale Umgebung ordnungsgemäß erkennt. Darüber hinaus *müssen Sie zuerst den Skype for Business-Hybrid Modus konfigurieren*, um alle Benutzer in den Modus "nur für Teams" zu verschieben (also einen Benutzer zu aktualisieren). Weitere Informationen finden Sie unter [Konfigurieren von Azure AD Connect für Skype for Business und Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
-
-5.  Interop zwischen Teams und Skype for Business-Benutzern ist nur möglich, *Wenn der Benutzer von Teams in Skype for Business Online ist*. Der Empfänger Skype for Business-Benutzer kann entweder lokal verwaltet werden (und erfordert die Konfiguration von Skype for Business-Hybrid) oder online. Benutzer, die in Skype for Business lokal gehostet werden, können Teams im Modus "Inseln" (später in diesem Dokument definiert) verwenden, aber Sie können keine Teams für Interop oder Föderation mit anderen Benutzern verwenden, die Skype for Business verwenden.  
-
-6.    Das Upgrade-und Interop-Verhalten wird basierend auf dem Koexistenzmodus eines Benutzers bestimmt, der nachfolgend beschrieben wird. Der Modus wird von TeamsUpgradePolicy verwaltet. 
-
-7.  Durch das Upgrade eines Benutzers auf den TeamsOnly-Modus wird sichergestellt, dass alle eingehenden Chats und Anrufe immer im Team-Client des Benutzers landen, unabhängig davon, von welchem Client er stammt. Diese Benutzer planen auch alle neuen Besprechungen in Teams. Um im TeamsOnly-Modus zu sein, muss ein Benutzer in Skype for Business online sein. Dies ist erforderlich, damit Interop, Federation und die vollständige Verwaltung des Teams-Benutzers sichergestellt sind. So aktualisieren Sie einen Benutzer auf TeamsOnly:
-    - Wenn sich der Benutzer in Skype for Business Online befindet (oder nie über ein Skype-Konto verfügt), gewähren Sie ihm TeamsUpgradePolicy mit Mode = TeamsOnly mit der "UpgradeToTeams"-Instanz mithilfe von PowerShell, oder verwenden Sie das Team Admin Center, um den TeamsOnly-Modus auszuwählen.
-    - Wenn der Benutzer lokal verwaltet wird, verwenden Sie die `Move-CsUser` lokalen Verwaltungstools, um den Benutzer zuerst in Skype for Business Online zu verschieben.  Wenn Sie über Skype for Business Server 2019 oder CU8 für Skype for Business Server 2015 verfügen, können Sie den `-MoveToTeams` Schalter angeben, `Move-CsUser` um den Benutzer im Rahmen des Online-Umzugs direkt in Teams zu verschieben. Mit dieser Option werden auch die Besprechungen des Benutzers in Teams migriert. Wenn `-MoveToTeams` nicht angegeben oder nicht verfügbar ist, `Move-CsUser` weisen Sie dem Benutzer nach Abschluss den TeamsOnly-Modus zu, indem Sie entweder PowerShell oder das Team Admin Center verwenden. Weitere Informationen finden Sie unter [Verschieben von Benutzern zwischen lokalen und der Cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Weitere Informationen zur Besprechungs Migration finden Sie unter [Verwenden des Besprechungs Migrations Diensts (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-
-8.    Um Microsoft Phone System mit Teams zu verwenden, müssen sich die Benutzer im TeamsOnly-Modus befinden (d. h., in Skype for Business Online verwaltet und auf Teams aktualisiert), und Sie müssen entweder für das [direkte Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) von Microsoft Phone System konfiguriert sein (damit können Sie das Telefonsystem mit ihren eigenen SIP-Stämmen und SBC verwenden) oder über einen Anrufplan für Microsoft 365 oder Office 365 Das direkte Routing von Microsoft Phone-Systemen wird im Modus "Inseln" nicht unterstützt.    
-
-9.  Das Planen von Teams-Besprechungen mit Audiokonferenzen (Einwahl oder Dial-Out über PSTN) steht unabhängig davon zur Verfügung, ob der Benutzer in Skype for Business Online oder in Skype for Business lokal gehostet ist. 
-
-
-## <a name="coexistence-modes"></a>Koexistenzmodus
-
-Interop und Migration werden basierend auf dem "Koexistenzmodus" mithilfe von TeamsUpgradePolicy verwaltet. Koexistenzmodus bietet für Endbenutzer eine einfache, vorhersagbare Erfahrung, da Organisationen von Skype for Business zu Teams wechseln. Für eine Organisation, die in Teams wechselt, ist der TeamsOnly-Modus das endgültige Ziel für jeden Benutzer, wobei nicht allen Benutzern gleichzeitig TeamsOnly (oder ein beliebiger Modus) zugewiesen werden muss. Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen alle Skype for Business-Modi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) verwenden, um eine vorhersagbare Kommunikation zwischen Benutzern, die TeamsOnly sind, und denjenigen, die noch nicht sind, zu gewährleisten.
-
+Koexistenzmodus bietet Endbenutzern eine einfache, vorhersagbare Erfahrung als Organisationen, die von Skype for Business zu Teams wechseln. Für eine Organisation, die in Teams wechselt, ist der TeamsOnly-Modus das endgültige Ziel für jeden Benutzer, wobei nicht allen Benutzern gleichzeitig TeamsOnly (oder ein beliebiger Modus) zugewiesen werden muss. Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen alle Skype for Business-Modi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) verwenden, um eine vorhersagbare Kommunikation zwischen Benutzern, die TeamsOnly sind, und denjenigen, die noch nicht sind, zu gewährleisten.
 
 Aus technischer Sicht regelt der Benutzermodus verschiedene Aspekte der Benutzererfahrung:
 
@@ -103,16 +65,12 @@ Die Modi sind im folgenden aufgeführt.
 
 <sup>1</sup> die Möglichkeit, an einer vorhandenen Besprechung teilzunehmen (unabhängig davon, ob Sie in Teams oder in Skype for Business geplant ist), wird nicht vom Modus geregelt. Standardmäßig können Benutzer immer an einer Besprechung teilnehmen, zu der Sie eingeladen wurden.
 
-<sup>2</sup> Wenn Sie einem einzelnen Benutzer entweder TeamsOnly oder SfbWithTeamsCollabAndMeetings zuweisen, werden alle vorhandenen Skype for Business-Besprechungen, die dieser Benutzer für die Zukunft geplant hat, in Teams-Besprechungen umgewandelt. Falls gewünscht, können Sie diese Besprechungen als Skype for Business-Besprechungen belassen, indem Sie entweder angeben, ob Sie `-MigrateMeetingsToTeams $false` TeamsUpgradePolicy gewähren möchten, oder indem Sie das Kontrollkästchen im Team-Administratorportal deaktivieren.   Beachten Sie, dass die Möglichkeit, Besprechungen von Skype for Business in Teams umzuwandeln, nicht verfügbar ist, wenn TeamsUpgradePolicy auf Mandantenebene gewährt wird. 
+<sup>2</sup> Wenn Sie einem einzelnen Benutzer entweder TeamsOnly oder SfbWithTeamsCollabAndMeetings zuweisen, werden alle vorhandenen Skype for Business-Besprechungen, die dieser Benutzer für die Zukunft geplant hat, in Teams-Besprechungen umgewandelt. Falls gewünscht, können Sie diese Besprechungen als Skype for Business-Besprechungen belassen, indem Sie entweder angeben, ob Sie  `-MigrateMeetingsToTeams $false` TeamsUpgradePolicy gewähren möchten, oder indem Sie das Kontrollkästchen im Team-Administratorportal deaktivieren.   Beachten Sie, dass die Möglichkeit, Besprechungen von Skype for Business in Teams umzuwandeln, nicht verfügbar ist, wenn TeamsUpgradePolicy auf Mandantenebene gewährt wird. 
 
 <sup>3</sup> zurzeit hat Teams nicht die Möglichkeit, die Funktionen Teams und Kanäle zu deaktivieren, sodass dies für jetzt aktiviert bleibt.
 
 
-
-## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy: Verwalten von Migration und Koexistenz
-
-> [!IMPORTANT]
-> Es kann bis zu 24 Stunden dauern, bis eine Änderung von TeamsUpgradePolicy wirksam wird. Zuvor ist der Anwesenheitsstatus des Benutzers möglicherweise nicht korrekt (kann als **unbekannt**angezeigt werden).
+## <a name="using-teamsupgradepolicy"></a>Verwenden von TeamsUpgradePolicy
 
 TeamsUpgradePolicy macht zwei wichtige Eigenschaften verfügbar: Mode und NotifySfbUsers. 
 </br>
@@ -148,19 +106,8 @@ Diese Richtlinieninstanzen können entweder einzelnen Benutzern oder auf Mandant
 - Um den gesamten Mandanten zu aktualisieren, lassen Sie den Parameter Identity aus dem Befehl Grant aus:</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`
 
+## <a name="the-teams-client-user-experience-when-using-skype-for-business-modes"></a>Benutzerfreundlichkeit des Teams-Clients bei Verwendung von Skype for Business-Modi
 
-## <a name="federation-considerations"></a>Überlegungen zu Föderationen
-
-Föderation von Teams zu einem anderen Benutzer unter Verwendung von Skype for Business setzt voraus, dass der Benutzer von Teams in Skype for Business Online ist.
-
-TeamsUpgradePolicy steuert das Routing für eingehende Federated-Chats und-Anrufe. Das Verhalten des Verbund Routings ist identisch mit den Szenarien für denselben Mandanten, *mit Ausnahme des Modus "Inseln"*.  Wenn sich die Empfänger im Inseln-Modus befinden: 
-- Chats und Anrufe, die von Teams initiiert werden, landen im SFB, wenn sich der Empfänger in einem *Federated-Mandanten*befindet.
-- Chats und Anrufe, die von Teams initiiert werden, landen in Teams, wenn sich der Empfänger im *gleichen Mandanten*befindet.
-- Chats und Anrufe, die vom SFB initiiert werden, landen immer in Skype for Business.
-
-Weitere Informationen finden Sie unter [Koexistenz mit Skype for Business](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence).
-
-## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>Benutzerfreundlichkeit des Teams-Clients bei Verwendung der SFB-Modi
 Wenn sich ein Nutzer in einem der Skype for Business-Modi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) befindet, werden alle eingehenden Chats und Anrufe an den Skype for Business-Client des Benutzers weitergeleitet. Um die Verwirrung des Endbenutzers zu vermeiden und die ordnungsgemäße Weiterleitung zu gewährleisten, werden Anruf-und Chatfunktionen im Teams-Client automatisch deaktiviert, wenn sich ein Benutzer in einem der Skype for Business-Modi befindet. Ebenso wird die Terminplanung in Teams automatisch deaktiviert, wenn sich Benutzer im SfBOnly-oder SfBWithTeamsCollab-Modus befinden, und automatisch aktiviert, wenn sich ein Benutzer im SfBWithTeamsCollabAndMeetings-Modus befindet. Ausführliche Informationen finden Sie unter [Teams-Clientumgebung und Konformität mit Koexistenzmodus](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
 > [!Note] 
@@ -173,7 +120,7 @@ Wenn sich ein Nutzer in einem der Skype for Business-Modi (SfBOnly, SfBWithTeams
 
 |Modus|Erklärung|
 |---|---|
-|**Inselmodus**</br>Standard|Ein Benutzer führt sowohl Skype for Business als auch Teams nebeneinander aus. Dieser Nutzer:</br><ul><li>Kann Chats und VoIP-Anrufe in Skype for Business-oder Microsoft Teams-Client initiieren. Hinweis: Benutzer mit Skype for Business, die sich lokal vernetzen, können unabhängig vom Modus des Empfängers nicht aus Teams initiieren, um einen anderen Skype for Business-Benutzer zu erreichen.<li>Empfängt Chats & VoIP-Anrufe, die in Skype for Business von einem anderen Nutzer in seinem Skype for Business-Client initiiert wurden.<li>Empfängt Chats & VoIP-Anrufe, die in Teams von einem anderen Benutzer in seinem Team-Client initiiert wurden, wenn Sie sich im *gleichen Mandanten*befinden.<li>Empfängt Chats & VoIP-Anrufe, die in Teams von einem anderen Benutzer in Ihrem Skype for Business-Client initiiert wurden, wenn Sie sich in einem *Federated*-Mandanten befinden. <li>Hat die PSTN-Funktionalität wie nachstehend beschrieben:<ul><li>Wenn der Benutzer in Skype for Business lokal beheimatet ist und Enterprise-VoIP hat, werden PSTN-Anrufe immer in Skype for Business initiiert und empfangen.<li>Wenn sich der Benutzer in Skype for Business Online befindet und über ein Microsoft Phone System verfügt, initiiert und empfängt der Benutzer immer PSTN-Anrufe in Skype for Business:<ul><li>Dies geschieht unabhängig davon, ob der Benutzer über einen Microsoft-Anrufplan verfügt oder eine Verbindung mit dem PSTN-Netzwerk über eine Skype for Business Cloud Connector Edition oder eine lokale Bereitstellung von Skype for Business Server (Hybrid-VoIP) herstellt.<li>**Hinweis: Microsoft Teams Phone System Direct Routing wird im Modus "Inseln" nicht unterstützt.**</ul></ul><li>Empfängt Microsoft-Anrufwarteschlangen und automatische Telefonzentralen-Anrufe in Skype for Business:<ul><li>Telefonnummern, die den Anrufwarteschlangen und automatischen Telefonzentralen zugewiesen sind, **können nicht** im Modus "Inseln" Direktes Routing Nummern von Microsoft Teams sein.</ul></ul><li>Sie können Besprechungen in Teams oder Skype for Business planen (und beide Plug-ins werden standardmäßig angezeigt).<li>Kann an einer Skype for Business-oder Teams-Besprechung teilnehmen die Besprechung wird im jeweiligen Client geöffnet.</ul>|
+|**Inselmodus**</br>Standard|Ein Benutzer führt sowohl Skype for Business als auch Teams nebeneinander aus. Dieser Nutzer:</br><ul><li>Kann Chats und VoIP-Anrufe in Skype for Business-oder Microsoft Teams-Client initiieren. Hinweis: Benutzer mit Skype for Business, die sich lokal vernetzen, können unabhängig vom Modus des Empfängers nicht aus Teams initiieren, um einen anderen Skype for Business-Benutzer zu erreichen.<li>Empfängt Chats & VoIP-Anrufe, die in Skype for Business von einem anderen Nutzer in seinem Skype for Business-Client initiiert wurden.<li>Empfängt Chats & VoIP-Anrufe, die in Teams von einem anderen Benutzer in seinem Team-Client initiiert wurden, wenn Sie sich im *gleichen Mandanten*befinden.<li>Empfängt Chats & VoIP-Anrufe, die in Teams von einem anderen Benutzer in Ihrem Skype for Business-Client initiiert wurden, wenn Sie sich in einem  *Federated*-Mandanten befinden. <li>Hat die PSTN-Funktionalität wie nachstehend beschrieben:<ul><li>Wenn der Benutzer in Skype for Business lokal beheimatet ist und Enterprise-VoIP hat, werden PSTN-Anrufe immer in Skype for Business initiiert und empfangen.<li>Wenn sich der Benutzer in Skype for Business Online befindet und über ein Microsoft Phone System verfügt, initiiert und empfängt der Benutzer immer PSTN-Anrufe in Skype for Business:<ul><li>Dies geschieht unabhängig davon, ob der Benutzer über einen Microsoft-Anrufplan verfügt oder eine Verbindung mit dem PSTN-Netzwerk über eine Skype for Business Cloud Connector Edition oder eine lokale Bereitstellung von Skype for Business Server (Hybrid-VoIP) herstellt.<li>**Hinweis: Microsoft Teams Phone System Direct Routing wird im Modus "Inseln" nicht unterstützt.**</ul></ul><li>Empfängt Microsoft-Anrufwarteschlangen und automatische Telefonzentralen-Anrufe in Skype for Business:<ul><li>Telefonnummern, die den Anrufwarteschlangen und automatischen Telefonzentralen zugewiesen sind, **können nicht** im Modus "Inseln" Direktes Routing Nummern von Microsoft Teams sein.</ul></ul><li>Sie können Besprechungen in Teams oder Skype for Business planen (und beide Plug-ins werden standardmäßig angezeigt).<li>Kann an einer Skype for Business-oder Teams-Besprechung teilnehmen die Besprechung wird im jeweiligen Client geöffnet.</ul>|
 |**SfBOnly**|Ein Benutzer führt nur Skype for Business aus. Dieser Nutzer:</br><ul><li>Kann Chats und Anrufe nur über Skype for Business initiieren.<li>Empfängt alle Chats/Anrufe in Ihrem Skype for Business-Client, unabhängig davon, wo Sie initiiert wurden, es sei denn, der Initiator ist ein Team Nutzer, in dem Skype for Business lokal gehostet wird. * <li> Kann nur Skype for Business-Besprechungen planen, kann aber an Skype for Business-oder </br> \* Teams-Besprechungen teilnehmen.* Die Verwendung des Modus "Inseln" mit lokalen Benutzern wird in Verbindung mit anderen Benutzern im SfBOnly-Modus nicht empfohlen. Wenn ein Benutzer von Teams, in dem Skype for Business lokal gehostet wird, einen Anruf oder einen Chat mit einem SfBOnly-Nutzer initiiert, ist der SfBOnly-Nutzer nicht erreichbar und erhält eine verpasste Chat-/Anruf-e-Mail. *|
 |**SfBWithTeamsCollab**|Ein Benutzer führt sowohl Skype for Business als auch Teams nebeneinander aus. Dieser Nutzer:</br><ul><li>Hat die Funktionalität eines Benutzers im SfBOnly-Modus.<li>Hat Teams nur für Gruppenzusammenarbeit (Kanäle) aktiviert; Chat/Anruf-und Besprechungsplanung sind deaktiviert.</ul>|
 |**SfBWithTeamsCollab </br> AndMeetings**|Ein Benutzer führt sowohl Skype for Business als auch Teams nebeneinander aus. Dieser Nutzer:<ul><li>Hat die Chat-und Anruffunktion des Benutzers im SfBOnly-Modus.<li>Verfügt über Teams, die für die Gruppenzusammenarbeit aktiviert sind (Kanäle – umfasst Kanal Unterhaltungen); Chat und Anrufe sind deaktiviert.<li>Kann nur Teambesprechungen planen, kann aber an Skype for Business-oder Teams-Besprechungen teilnehmen.</ul>|

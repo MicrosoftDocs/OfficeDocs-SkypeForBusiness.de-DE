@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324014"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940525"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
@@ -94,11 +94,11 @@ Hier erfahren Sie, wie Sie benutzerdefinierte Kategorien hinzufügen und wie Sie
 
 ### <a name="create-and-assign-custom-tags"></a>Erstellen und Zuweisen von benutzerdefinierten Tags
 
-Wenn Sie benutzerdefinierte Tags erstellen und zuweisen möchten, wählen Sie auf der linken Seite der APP **Teams** aus, und suchen Sie dann Ihr Team in der Liste. Wählen Sie **Weitere Optionen**aus, und wählen Sie dann **Kategorien verwalten**aus. Hier können Sie Kategorien erstellen und Sie Personen in Ihrem Team zuweisen.
+Wenn Sie benutzerdefinierte Tags erstellen und zuweisen möchten, wählen Sie auf der linken Seite der APP **Teams** aus, und suchen Sie dann Ihr Team in der Liste. Wählen Sie **̇ ̇ ̇ Weitere Optionen**aus, und wählen Sie dann **Kategorien verwalten**aus. Hier können Sie Kategorien erstellen und Sie Personen in Ihrem Team zuweisen.
 
 ![Screenshot zum Anwenden von Tags im Teams-Client  ](media/manage-tags-teams.png)
 
-Entfernen Sie zum Löschen einer Kategorie alle Teammitglieder, die dem Tag zugeordnet sind.
+Um eine Kategorie zu löschen, wählen Sie **̇ ̇ ̇ Weitere Optionen** neben der Kategorie aus, und wählen Sie dann **Tag löschen**aus.
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>Einrichten von Tagging nach Schicht (in Kürze verfügbar)
 
