@@ -311,6 +311,7 @@
 ## Anrufpläne
 ### [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
 ### [So erwerben Sie einen Anrufplan](calling-plans-for-office-365.md)
+### [Erweiterte ausgehende Gesprächsminuten für USA und Kanada](dial-out-minutes-canada-us.md)
 ### [Einrichten von Anrufplänen für Ihre Organisation](set-up-calling-plans.md)
 ### [Schnellstarthandbuch: Konfigurieren von Anrufplänen](configuring-teams-calling-quickstartguide.md)
 ### [Verfügbarkeit nach Land und Region für Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -573,13 +574,19 @@
 ## [Einstellung von Skype for Business Online](skype-for-business-online-retirement.md)
 ## [Häufig gestellte Fragen](FAQ-journey.md)
 
-## Technische Bibliothek
-### [Upgradeanleitung für IT-Administratoren](upgrade-to-teams-on-prem-overview.md)
-### [Migration von und Interoperabilität mit Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md)
-### [Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
+## Technische Bibliothek 
+### Upgradehandbuch für IT-Administratoren
+#### [Übersicht](upgrade-to-teams-on-prem-overview.md)
+#### [Upgrademethoden](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Tools für die Verwaltung Ihres Upgrades](upgrade-to-teams-on-prem-tools.md)
+#### [Von Organisationen mit lokalem Skype for Business zu berücksichtigende Aspekte](upgrade-to-teams-on-prem-considerations.md)
+#### [Implementieren Ihres Upgrades](upgrade-to-teams-on-prem-implement.md)
+#### [Teams und Skype for Business im Koexistenzmodus](upgrade-to-teams-on-prem-coexistence.md)
+#### [Überlegungen zu PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Koexistenzmodi – Referenz](migration-interop-guidance-for-teams-with-skype.md)
+#### [Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
 ### [Besprechungen zuerst](meetings-first.md)
 
 
