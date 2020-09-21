@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583524"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135839"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Erste Schritte mit Teams-Vorlagen mit Microsoft Graph
 
@@ -85,3 +85,4 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgesetzt, der keine zus
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
 - [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 - [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole](get-started-with-teams-templates-in-the-admin-console.md)

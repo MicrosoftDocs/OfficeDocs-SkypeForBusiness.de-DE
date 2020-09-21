@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583694"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135859"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
@@ -34,7 +34,7 @@ Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit eine
 
 Erste Schritte:
 
-1. Melden Sie sich beim Admin Center an  <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a> .
+1. Melden Sie sich beim Team Admin Center an.
 
 2. Erweitern Sie im linken Navigationsbereich **Teams**die  >  **Teamvorlagen**für Teams.
 
@@ -57,7 +57,7 @@ Erste Schritte:
     2. Geben Sie im Dialogfeld **Hinzufügen** den Namen des Kanals ein.
     3. Fügen Sie eine Beschreibung hinzu.
     4. Entscheiden Sie, ob der Kanal standardmäßig angezeigt werden soll.
-    5. Suchen Sie nach dem APP-Namen, den Sie in den Kanal addd möchten.
+    5. Suchen Sie nach dem APP-Namen, den Sie dem Kanal hinzufügen möchten.
     6. Klicken Sie auf über **nehmen** , wenn Sie beenden.
 
 ![Abbildung des Bildschirms der Team Vorlagen Kanäle, Registerkarten und Apps](media/template-channels-tabs-apps.png)

@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814865"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820509"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -42,7 +42,7 @@ Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams 
 > Es ist empfehlenswert, die von uns vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie mit fortschreitender Aneignung von Teams weitere [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu.
 
  > [!Note]
- > Weitere Informationen finden Sie unter [Teamfeatures nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+ > Mehr über Teams-Funktionen auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="chat-deployment-prerequisites"></a>Voraussetzungen für die Bereitstellung von Chat
 

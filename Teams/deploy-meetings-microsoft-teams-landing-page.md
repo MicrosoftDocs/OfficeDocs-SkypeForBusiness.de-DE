@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814764"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820449"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -45,7 +45,7 @@ Wenn Sie mehr über die Besprechungsumgebung für Ihre Benutzer erfahren möchte
 *Neu im November 2019*: Sie können nun [den Ratgeber für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Der Ratgeber für Teams (Vorschau) führt Sie durch Ihre Einführung von Teams, einschließlich der Besprechungen und Konferenzen. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Besprechungen und Konferenzen in Teams erfolgreich durchführen können.
 
  > [!Note]
- > Weitere Informationen finden Sie unter [Teamfeatures nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Mehr über Teams-Besprechungen und Konferenzen auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Bereitstellungsentscheidungen für Besprechungen und Konferenzen
 

@@ -19,14 +19,14 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860796"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135869"
 ---
-# <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Erste Schritte mit Microsoft Teams-Vorlagen in der Team-Verwaltungskonsole
+# <a name="get-started-with-teams-templates-in-the-admin-console"></a>Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
@@ -71,22 +71,31 @@ Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorl
 > [!NOTE]
 > Vordefinierte Basisvorlagen, die in Microsoft Teams bereitgestellt werden, können dupliziert, aber nicht bearbeitet werden.
 
-| Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----------------------------------------------------- |
-| Übernehmen von Office 365 |  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
-| Verwalten eines Projekts | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
-| Verwalten eines Ereignisses | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|Onboard-Mitarbeiter | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li>|</ul>
-|Organisieren des Helpdesks| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
-| Zusammenarbeit bei der Patientenversorgung | Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li>|
-| Zusammenarbeiten an globaler Krise oder Veranstaltung |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
-|Zusammenarbeiten in einer Bankfiliale |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Kauert</li><li>Kundenbesprechungen</li><li>Coaching</li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>|
-|Koordinieren der Vorfall Antwort |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|Krankenhaus |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Freiheitsentzug/Li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li></ul>|
-|Organisieren eines Shops |Kanäle <ul><li>Allgemein<li>UMSCHALT Übergabe</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
-|Qualität und Sicherheit |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li></ul>|
-|Zusammenarbeit im Einzelhandel – Manager |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
-|||
+| Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------ |----|----------------------------------------------------- |
+| Übernehmen von Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
+| Verwalten eines Projekts |`com.microsoft.teams.template.ManageAnEvent`| Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+| Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Onboard-Mitarbeiter|`com.microsoft.teams.template.OnboardEmployees` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li></ul>|
+|Organisieren des Helpdesks| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+| Zusammenarbeit bei der Patientenversorgung| `healthcareWard `| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li>|
+| Zusammenarbeiten an globaler Krise oder Veranstaltung |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
+|Zusammenarbeiten in einer Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch `|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Kauert</li><li>Kundenbesprechungen</li><li>Coaching</li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>|
+|Koordinieren der Vorfall Antwort| `com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Krankenhaus| `healthcareHospita`l |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Organisieren eines Shops| `retailStore` |Kanäle <ul><li>Allgemein<li>UMSCHALT Übergabe</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Qualität und Sicherheit |`com.microsoft.teams.template.QualitySafety`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Zusammenarbeit im Einzelhandel – Manager| `retailManagerCollaboration` |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
+||||
+
+Weitere Informationen zu den Vorlagenkategorien finden Sie unter den folgenden Themen:
+
+- [Finanz Vorlagen](financial-teams-templates-in-the-admin-console.md)
+- [Allgemeine Vorlagen](general-teams-templates-in-the-admin-console.md)
+- [Government-Vorlagen](government-teams-templates-in-the-admin-console.md)
+- [Healthcare-Vorlagen](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+- [Fertigungs Vorlagen](manufacturing-teams-templates-in-the-admin-console.md)
+- [Einzelhandels Vorlagen](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="template-size-limits"></a>Größenbeschränkungen für Vorlagen
 

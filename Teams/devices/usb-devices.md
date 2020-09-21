@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: 90c97ffb98fafa8908c2e746487d5ffca7412282
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331630"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962916"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -85,8 +85,6 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 |Epos/Sennheiser      |Impact SC 660 mit USB-Ed CC 01 MS connecto                |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Epos/Sennheiser      |Impact SC 630 mit USB-Ed CC 01 MS connecto                |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Epos/Sennheiser      |Impact SC 260 mit USB-Ed CC 01 MS connecto                |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
-|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Zertifiziert für Skype for Business                        |
-|ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Zertifiziert für Skype for Business                        |
 |Jabra                |Evolve 75-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 65-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Engage 50-Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |

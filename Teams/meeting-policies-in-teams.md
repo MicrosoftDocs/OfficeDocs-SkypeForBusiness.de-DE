@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255493"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135969"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -118,7 +118,7 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie au
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams-Kanal starten kann. Wenn Sie diese Option aktivieren und ein Benutzer eine Nachricht in einem Teams-Kanal sendet, kann der Benutzer unter dem Feld zum Verfassen auf **jetzt** besprechen klicken, um eine Ad-hoc-Besprechung im Kanal zu starten. Der Standardwert lautet „True“.
 
-![Screenshot mit dem Symbol "jetzt besprechen" unter einer Nachricht](media/meeting-policies-meet-now.png)
+[![Screenshot mit dem Symbol "jetzt besprechen" unter einer Nachricht ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ### <a name="allow-the-outlook-add-in"></a>Zulassen des Outlook-Add-ins
 
@@ -140,20 +140,23 @@ Planen einer Besprechung wird deaktiviert.
 
 Kanalauswahl ist deaktiviert.
 
-![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/meeting-policies-select-a-channel-to-meet-in.png)
+[![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 Auf der Seite Kanal Beiträge wird Folgendes deaktiviert:
 
 - Schaltfläche ' **Besprechung planen** ' im Feld ' Antwort verfassen '
-![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-meeting-disabled-in-chat2.png)
+  ![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-meeting-disabled-in-chat2.png)
+  
 - Schaltfläche " **Besprechung planen** " im Kanal Kopf
-![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-now-in-header.png)
+  ![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-now-in-header.png)
 
 Im Kanal Kalender:
 
 - Schaltfläche " **Neues Ereignis hinzufügen** " im Kanal Kalender-Header wird deaktiviert.
-![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/add-new-event-disabled.png)
+  ![Screenshot mit der Option "Kalender" zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/add-new-event-disabled.png)
+
 - Benutzer können keinen Zeit Block im Kanal Kalender ziehen und auswählen, um eine Kanal Besprechung zu erstellen.
+
 - Benutzer können keine Tastenkombinationen zum Erstellen einer Besprechung im Kanal Kalender verwenden.
 
 Im Admin Center:
@@ -234,7 +237,7 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung besti
 
 Wenn für eine Besprechung nicht genügend Bandbreite zur Verfügung steht, sehen die Teilnehmer eine Meldung, die auf schlechte Netzwerkqualität hinweist.
 
-Für Besprechungen, die die höchste Videoqualität benötigen, wie CEO-Board-Meetings und Teams-Live-Events, empfehlen wir, die Bandbreite auf 10 Mbit/s festzulegen. Auch wenn die maximale Benutzererfahrung festgelegt ist, passt sich der Medien Stapel von Teams an niedrige Bandbreitenbedingungen an, wenn bestimmte Netzwerkbedingungen je nach Szenario erkannt werden.
+Für Besprechungen, die die beste Videoqualität benötigen, wie CEO-Board-Meetings und Teams-Live-Events, empfehlen wir, die Bandbreite auf 10 Mbit/s festzulegen. Auch wenn die maximale Benutzererfahrung festgelegt ist, passt sich der Media-Stack für Teams an niedrige Bandbreitenbedingungen an, wenn bestimmte Netzwerkbedingungen je nach Szenario erkannt werden.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinien Einstellungen – Inhaltsfreigabe
 
@@ -251,7 +254,7 @@ Hierbei handelt es sich um eine Kombination aus einer pro-Organizer-und pro-User
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
-|**Ganzer Bildschirm**    | Die vollständige Desktopfreigabe und Anwendungsfreigabe ist in der Besprechung zulässig. |
+|**Ganzer Bildschirm**    | Vollständige Desktopfreigabe und Anwendungsfreigabe sind in der Besprechung zulässig |
 |**Einzelne Anwendung**   | Die Anwendungsfreigabe ist in der Besprechung zulässig.        |
 |**Deaktiviert**     |Bildschirmübertragung und Anwendungsfreigabe in der Besprechung deaktiviert.       |
 
@@ -359,31 +362,35 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, 
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Zulassen, dass anonyme Personen eine Besprechung starten
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator, die das Einwählen in Konferenz Besprechungen in Besprechungs Gruppen ermöglicht. Mit dieser Einstellung wird gesteuert, ob Einwahlbenutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert ist "falsch", was bedeutet, dass die Benutzer in der Lobby warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung Beitritt.
+Hierbei handelt es sich um eine Richtlinie für einzelne Organisatoren, die die Besprechungen mit Einwahlkonferenzen ermöglicht. Mit dieser Einstellung wird gesteuert, ob Einwahlbenutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer von der Organisation anwesend ist. Der Standardwert ist "falsch", was bedeutet, dass Einwahlbenutzer in der Lobby warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung Beitritt.
 
-**Hinweis** Ist "falsch", und ein Einwahlbenutzer nimmt zuerst an der Besprechung Teil und wird in der Lobby gespeichert, und ein Organisationsbenutzer muss an der Besprechung mit einem Team-Clientteil nehmen, um den Benutzer aus der Lobby zu akzeptieren. Es gibt keine Lobby-Steuerelemente, die für gewählte Benutzer verfügbar sind.
+> [!NOTE]
+> Wenn "falsch" und ein Einwahlbenutzer zuerst an der Besprechung teilnimmt und in der Lobby gespeichert wird, muss ein Organisationsbenutzer an der Besprechung mit einem Team-Clientteil nehmen, um den Benutzer aus der Lobby zu akzeptieren. Es gibt keine Lobby-Steuerelemente, die für gewählte Benutzer verfügbar sind.
 
 ### <a name="automatically-admit-people"></a>Automatisches zulassen von Personen
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden. Diese Einstellung gilt nicht für die Einwahl in Benutzer.
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen oder in der Lobby warten, bis Sie von einem authentifizierten Benutzer zugelassen werden. Diese Einstellung gilt nicht für Einwahlbenutzer.
 
 ![Screenshot einer Besprechung mit einem Benutzer in der Lobby](media/meeting-policies-lobby.png)
 
  Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern.
 
- **Hinweis** In den Besprechungsoptionen ist die Einstellung mit "Wer kann die Lobby umgehen" gekennzeichnet
+> [!NOTE]
+> In den Besprechungsoptionen ist die Einstellung mit "Wer kann die Lobby umgehen" gekennzeichnet. Wenn Sie die Standardeinstellung für einen beliebigen Benutzer ändern, gilt dies für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hat.
   
 |Einstellungswert  |Join-Verhalten |
 |---------|---------|
 |**Jeder**   |Alle Besprechungsteilnehmer werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten. Dazu gehören authentifizierte Benutzer, externe Benutzer von vertrauenswürdigen Organisationen (Federated), Gäste und anonyme Benutzer.     |
 |**Jeder in Ihrer Organisation und in Verbundorganisationen**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und die Benutzer aus vertrauenswürdigen Organisationen, werden direkt an der Besprechung teilnehmen, ohne in der Lobby zu warten.  Anonyme Benutzer warten in der Lobby.   |
 |**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt Teil, ohne in der Lobby zu warten.  Benutzer von vertrauenswürdigen Organisationen und anonymen Benutzern warten in der Lobby. Dies ist die Standardeinstellung.           |
+|**Nur Organisator**    |Nur Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne in der Lobby warten zu müssen. Alle anderen Personen, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer von vertrauenswürdigen Organisationen und anonyme Benutzer müssen in der Lobby warten.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Zulassen, dass Einwahlbenutzer die Lobby umgehen können
 
-Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ". Der Standardwert lautet "False". Wenn der Wert falsch ist, werden die Einwahlbenutzer in der Wartebereich warten, bis ein Organisationsbenutzer die Besprechung mit einem Team-Client verknüpft und diese zulässt. Ist der Wert "wahr", wird "Einwählen in Benutzer" automatisch an der Besprechung teilnehmen, wenn ein Organisationsbenutzer der Besprechung Beitritt.
+Hierbei handelt es sich um eine Richtlinie pro Organisator. Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ". Der Standardwert lautet "False". Wenn "falsch" festgelegt ist, warten Einwahlbenutzer in der Lobby, bis ein Organisationsbenutzer mit einem Team-Client an der Besprechung teilnimmt und diese zulässt. Wenn "true" festgelegt ist, werden Einwahlbenutzer automatisch an der Besprechung teilnehmen, wenn ein Organisationsbenutzer der Besprechung Beitritt.
 
-**Hinweis** Wenn ein Dial-in-Benutzer einer Besprechung Beitritt, bevor ein Organisationsbenutzer der Besprechung Beitritt, wird er in der Lobby gespeichert, bis ein Organisationsbenutzer mit einem Team-Client an der Besprechung teilnimmt und diesen zugibt.
+> [!NOTE]
+> Wenn ein Einwahlbenutzer an einer Besprechung teilnimmt, bevor ein Organisationsbenutzer der Besprechung Beitritt, wird er in der Lobby gespeichert, bis ein Organisationsbenutzer die Besprechung mit einem Team-Client verknüpft und diese zulässt. Wenn Sie die Standardeinstellung für einen beliebigen Benutzer ändern, gilt dies für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hat.
 
 ### <a name="enable-live-captions"></a>Aktivieren von Live Beschriftungen
 

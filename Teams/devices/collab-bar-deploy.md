@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel finden Sie Informationen zum Bereitstellen von Zusammenarbeits leisten für Microsoft Teams.
-ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 41eb3335eef78f1da2c64b1df65443ba93d40159
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410450"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962906"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Bereitstellen von Zusammenarbeits leisten für Microsoft Teams
 
@@ -29,6 +29,8 @@ Die Bereitstellung von Zusammenarbeits leisten für Microsoft Teams kann in die 
 - **Website Bereitschaft** Vergewissern Sie sich, dass Ihre Bereitstellungs Standorte (Räume) den Bereitstellungsanforderungen entsprechen.
 - **Dienstbereitschaft** Erstellen Sie Ressourcenkonten, und weisen Sie diese den Geräten zu ([Siehe Erstellen eines Ressourcenkontos mithilfe des Microsoft 365 admin Centers](resource-account-ui.md)). Zwar empfehlen wir die Verwendung einer dedizierten Raum Lizenz, doch ein ordnungsgemäß lizenziertes Endbenutzerkonto kann sich auch bei den Zusammenarbeits leisten anmelden.
 - **Konfiguration und Bereitstellung** Einrichten von Kollaborations leisten in Räumen und Verbinden der benötigten Peripheriegeräte (siehe die Dokumentation des Herstellers für Ihre Zusammenarbeits leisten).
+
+Zum Verwalten von Zusammenarbeits leisten müssen Sie ein globaler Administrator, Teams-Dienstadministrator oder Teams-Geräteadministrator sein. Weitere Informationen zu Administratorrollen finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md).
 
 ## <a name="site-readiness"></a>Website Bereitschaft
 

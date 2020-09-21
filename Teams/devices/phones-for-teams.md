@@ -17,18 +17,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden.
-ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583954"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962846"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
 Microsoft Teams unterstützt ein Portfolio von Tischtelefonen für Benutzer, die ein herkömmliches Telefon Erlebnis benötigen. In diesem Artikel finden Sie eine vollständige Übersicht über Teams-Telefone und können bei der Planung, Bereitstellung und Verwaltung von Microsoft Teams-Telefonen als Teil Ihrer Microsoft Phone-System Lösung helfen. 
 
 Um eine hochwertige und zuverlässige Microsoft Teams-Erfahrung auf Smartphones zu bieten, arbeiten wir mit Yealink, Crestron, Lenovo, Polycom und AudioCodes zusammen, um ein breites Portfolio an Tischtelefonen und Konferenzraum-Audiogeräten zu entwickeln und zu zertifizieren. Informationen zu den neuesten und aktuellen Informationen zu Teams-Geräten finden Sie unter [Teams Marketplace](https://office.com/teamsdevices).
+
+Zum Verwalten von Telefonen müssen Sie ein globaler Administrator, Teams-Dienstadministrator oder Teams-Geräteadministrator sein. Weitere Informationen zu Administratorrollen finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md).
 
 ## <a name="features-supported-by-teams-phones"></a>Von Teams-Smartphones unterstützte Funktionen
 Von Teams zertifizierte Telefone verfügen über eine breite Palette von Funktionen, die Ihren Benutzern helfen, ihre Aufgaben zu erledigen, und Sie bei der Verwaltung Ihrer Nutzung unterstützen. Nachfolgend finden Sie eine Zusammenfassung der Features, die in von Teams zertifizierten Telefonen zur Verfügung stehen:
@@ -80,7 +82,7 @@ Auf Android-Geräten basierende Teams werden über die Verwaltung von Android De
 
 Ein mandantenadministrator kann alle Ihre Teams-Geräte über das Team Admin Center auf dem neuesten Stand halten und verwalten. Weitere Informationen finden Sie unter [Verwalten von Geräten in Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/device-management). 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Marketplace für Teams](https://office.com/teamsdevices)
 

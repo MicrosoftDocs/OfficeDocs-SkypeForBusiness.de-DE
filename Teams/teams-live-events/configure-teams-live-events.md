@@ -19,20 +19,20 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f118585b28edaea63b3416aa4671337ee436345
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820589"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962856"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 
-Verwenden Sie die Einstellungen für Live Ereignisse von Teams, um Einstellungen für Live Ereignisse zu konfigurieren, die in Ihrer Organisation stattfinden. Sie können eine Support-URL einrichten und einen Drittanbieter für Videoverteilung konfigurieren. Diese Einstellungen gelten für alle Live Ereignisse, die in Ihrer Organisation erstellt wurden. 
+Verwenden Sie die Einstellungen für Live Ereignisse von Teams, um Einstellungen für Live Ereignisse zu konfigurieren, die in Ihrer Organisation stattfinden. Sie können eine Support-URL einrichten und einen Drittanbieter für Videoverteilung konfigurieren. Diese Einstellungen gelten für alle Live Ereignisse, die in Ihrer Organisation erstellt wurden.
 
-Sie können diese Einstellungen im Microsoft Teams Admin Center ganz einfach verwalten. Wechseln Sie in der linken Navigationsleiste zu **Besprechungen**  >  **Live Events-Einstellungen**. 
+Sie können diese Einstellungen im Microsoft Teams Admin Center ganz einfach verwalten. Wechseln Sie in der linken Navigationsleiste zu **Besprechungen**  >  **Live Events-Einstellungen**.
 
-![Screenshot der Einstellungen für Live-Events in Teams](../media/teams-live-events-settings.png "Screenshot der Einstellungen für Teams-Live Ereignisse, die Sie im Microsoft Teams Admin Center konfigurieren können") 
+![Screenshot der Einstellungen für Live-Events in Teams](../media/teams-live-events-settings.png "Screenshot der Einstellungen für Teams-Live Ereignisse, die Sie im Microsoft Teams Admin Center konfigurieren können")
 
 ## <a name="set-up-event-support-url"></a>Einrichten der URL für die Ereignisunterstützung
 
@@ -41,14 +41,16 @@ Diese URL wird für Live-Event-Teilnehmer angezeigt. Fügen Sie die Support-URL 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Symbol, das das Microsoft Teams-Logo zeigt](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
 
 1. Wechseln Sie in der linken Navigationsleiste **Meetings**zu  >  **Live-Ereigniseinstellungen**für Besprechungen.
-2. Geben Sie unter **Support-URL**die Support-URL Ihrer Organisation ein. 
+2. Geben Sie unter **Support-URL**die Support-URL Ihrer Organisation ein.
 
     ![Support-URL-Einstellung für Live-Ereignisse im Admin Center](../media/teams-live-events-settings-supporturl.png "Screenshot der Support-URL-Einstellung für Live-Events in Teams")
 
 ### <a name="using-windows-powershell"></a>Verwenden von Windows PowerShell
+
 Führen Sie Folgendes aus:
+
 ```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
+Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
 Weitere Informationen finden Sie unter [Satz-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Konfigurieren eines Drittanbieters für Videoverteilung 

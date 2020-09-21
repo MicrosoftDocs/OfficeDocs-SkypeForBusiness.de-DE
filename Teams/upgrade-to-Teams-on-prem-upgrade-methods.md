@@ -3,7 +3,7 @@ title: Upgrade auf Teams über eine lokale Skype for Business-Bereitstellung –
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: Upgrade von Skype for Business auf Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a7071cf6adbfa423e4c0fa12ac21a5bc777268
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2a6c4fb2e2f6433b21972a3c5e5c324d0c3d78f3
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940653"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955941"
 ---
 # <a name="upgrade-methods-mdash-for-it-administrators"></a>Aktualisierungsmethoden &mdash; für IT-Administratoren
 
@@ -45,7 +45,7 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und K
 
 ## <a name="upgrade-methods"></a>Upgrade-Methoden
 
-Es gibt zwei Methoden zum Aktualisieren einer vorhandenen Organisation mit Skype for Business (ob online oder lokal) für Teams: überlappende Funktionen und die Methode zum Auswählen von Funktionen.  Dieser Artikel unterstützt Sie bei der Auswahl der richtigen Methode für Ihre Organisation, indem beide Methoden beschrieben und die vor-und Nachteile der einzelnen Methoden vorgestellt werden. 
+Es gibt zwei Methoden zum Aktualisieren einer vorhandenen Organisation mit Skype for Business (ob online oder lokal) für Teams: überlappende Funktionen und die Methode zum Auswählen von Funktionen. Dieser Artikel unterstützt Sie bei der Auswahl der richtigen Methode für Ihre Organisation, indem beide Methoden beschrieben und die vor-und Nachteile der einzelnen Methoden vorgestellt werden. 
 
 - [Überlappende Capabilities-Methode (im Modus "Inseln")](#overlapping-capabilities-method-using-islands-mode)
 
@@ -80,9 +80,9 @@ Wenn sich Benutzer a im Modus "Inseln" befindet, ist die Anwesenheit von Benutze
 
 Dies bedeutet, dass andere Benutzer möglicherweise unterschiedliche Anwesenheitsstatus für Benutzer A sehen, je nachdem, welchen Client Sie verwenden. Weitere Informationen finden Sie unter [Anwesenheits](upgrade-to-teams-on-prem-coexistence.md#presence)Informationen.
 
-Wenn Sie bereit sind, Benutzer auf den TeamsOnly-Modus zu aktualisieren, können Sie Benutzer einzeln aktualisieren oder den gesamten Mandanten mithilfe der Mandanten weiten Richtlinie auf einmal aktualisieren. Sobald ein Benutzer auf den TeamsOnly-Modus aktualisiert wurde, erhalten alle eingehenden Chats und Anrufe in Teams. (Beachten Sie, dass die Migration von Skype for Business-Besprechungen in Teams-Besprechungen nur ausgelöst wird, wenn TeamsUpgradePolicy auf einzelne Benutzer angewendet wird, nicht auf Mandantenbasis. Details finden Sie unter [Besprechungs Migration](upgrade-to-teams-on-prem-tools.md#meeting-migration) .)
+Sobald Sie bereit sind, Benutzer auf den TeamsOnly-Modus zu aktualisieren, können Sie Benutzer einzeln aktualisieren oder den gesamten Mandanten mithilfe der Mandanten weiten Richtlinie auf einmal aktualisieren. Sobald ein Benutzer auf den TeamsOnly-Modus aktualisiert wurde, erhalten alle eingehenden Chats und Anrufe in Teams. (Beachten Sie, dass die Migration von Skype for Business-Besprechungen in Teams-Besprechungen nur ausgelöst wird, wenn TeamsUpgradePolicy auf einzelne Benutzer angewendet wird, nicht auf Mandantenbasis. Details finden Sie unter [Besprechungs Migration](upgrade-to-teams-on-prem-tools.md#meeting-migration) .)
 
-Nicht aktualisierte Empfänger im Inseln-Modus können jedoch weiterhin Chats und Anrufe von einem TeamsOnly-Benutzer in Ihren Skype for Business-oder Microsoft Teams-Clients empfangen.  Der Grund dafür ist, dass der Team-Client getrennte Konversations Threads für Teams-zu-Teams und Teams-zu-Skype for Business-Kommunikation verwaltet, selbst für denselben Benutzer.  (Siehe [Teams-Unterhaltungen – Interop versus native Threads](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).)  Nehmen Sie beispielsweise an, dass die Inseln-Benutzer a Teams für die Nachricht TeamsOnly Benutzer B verwendet. Wenn Benutzer B auf diesen Chat antwortet, landet die Kommunikation im Team-Client von Benutzer A. Nehmen Sie nun an, dass Benutzer a seinen Skype for Business-Client verwendet, um Nachrichten TeamsOnly Benutzer b. Benutzer b den Chat in Teams zu empfangen, aber dies ist eine separate Unterhaltung im Team-Client von Benutzer b im Vergleich zu den anderen Unterhaltungen. Wenn Benutzer B auf diese Unterhaltung mit Benutzer a antwortet, landet Sie im Skype for Business-Client von Benutzer a. 
+Nicht aktualisierte Empfänger im Inseln-Modus können jedoch weiterhin Chats und Anrufe von einem TeamsOnly-Benutzer in Ihren Skype for Business-oder Microsoft Teams-Clients empfangen.  Der Grund dafür ist, dass der Team-Client getrennte Konversations Threads für Teams-zu-Teams und Teams-zu-Skype for Business-Kommunikation verwaltet, selbst für denselben Benutzer.  (Siehe [Teams-Unterhaltungen – Interop versus native Threads](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).)  Nehmen Sie beispielsweise an, dass die Inseln-Benutzer a Teams für die Nachricht TeamsOnly Benutzer B verwendet. Wenn Benutzer B auf diesen Chat antwortet, landet die Kommunikation im Team-Client von Benutzer A. Nehmen Sie nun an, dass Benutzer a den Skype for Business-Client verwendet, um Nachrichten TeamsOnly Benutzer b. Benutzer b den Chat in Teams zu empfangen, aber dies ist eine separate Unterhaltung im Team-Client von Benutzer b im Vergleich zu den anderen Unterhaltungen. Wenn Benutzer B auf diese Unterhaltung mit Benutzer a antwortet, landet Sie im Skype for Business-Client von Benutzer a. 
 
 In der folgenden Tabelle sind die Teams im Modus "Inseln" und im TeamsOnly-Modus zusammengefasst:  
 
@@ -97,7 +97,7 @@ In der folgenden Tabelle werden die vor-und Nachteile der Verwendung der überla
 
 | Experten     |       Nachteile |
 | :------------------ | :---------------- |
-| Ermöglicht eine schnelle Einführung in einem Unternehmen.| Potenzielle Verwirrung für Endbenutzer, da zwei Clients mit ähnlicher Funktionalität, aber unterschiedliche Benutzeroberflächen vorhanden sind. Darüber hinaus haben Sie keine Kontrolle darüber, in welchem Client die eingehenden Chats/Anrufe landen. |
+| Ermöglicht eine schnelle Einführung in einem Unternehmen.| Potenzielle Verwirrung durch Endbenutzer, da zwei Clients mit ähnlicher Funktionalität, aber unterschiedliche Benutzeroberflächen vorhanden sind. Darüber hinaus haben Sie keine Kontrolle darüber, in welchem Client die eingehenden Chats/Anrufe landen. |
 | Ermöglicht Benutzern, Teams zu lernen und sich mit Ihnen vertraut zu machen, während Sie weiterhin vollen Zugriff auf Skype for Business haben. | Potenzielle Endbenutzer-Unzufriedenheit aufgrund verpasster Nachrichten, wenn der Benutzer nicht beide Clients ausführt. Benutzer können beklagen, dass Sie keine Nachrichten erhalten.|
 | Minimaler Verwaltungsaufwand für den Einstieg in Teams. | Kann schwierig sein, den Modus "aus den Inseln zu verlassen" und in den TeamsOnly-Modus zu wechseln, wenn nicht jeder in der Organisation Teams verwendet, besonders, wenn nicht alle Benutzer in Teams aktiv sind. Wenn beispielsweise eine Teilmenge der Benutzer auf den TeamsOnly-Modus aktualisiert wird, senden diese Benutzer nur Teams. Für die restliche Bevölkerung im Inseln-Modus landen diese Nachrichten immer in Teams. Wenn aber einige dieser Personen keine Teams ausführen, werden diese Nachrichten als verpasst wahrgenommen. |
 |  | Bei der Verwendung von Teams verfügen Benutzer, die über ein lokales Konto in Skype for Business Server verfügen, nicht über Interop-oder Federation-Unterstützung.  Dies kann möglicherweise Verwirrung stiften, wenn Sie über eine Mischung von Inseln-Benutzern verfügen--einige, die in Skype for Business Online und einige in Skype for Business lokal gehostet werden.   |
@@ -130,7 +130,7 @@ In der folgenden Tabelle sind die vor-und Nachteile der Verwendung von Skype for
 | Experten     |       Nachteile |
 | :------------------ | :---------------- |
 | Vorhersehbares Routing für den Endbenutzer.  Alle Anrufe und Chats landen entweder in Skype for Business oder in Teams (aber nicht in beiden), basierend auf der Auswahl des Administrators.  | Bei Interop-Unterhaltungen fehlt die Unterstützung für Rich-Text, Dateifreigabe und Bildschirmfreigabe.  Dies kann mit on-Demand-Besprechungen funktionieren, ist aber nicht so nahtlos.  |
-| Eliminieren Sie Verwirrung des Endbenutzers, da eine bestimmte Funktionalität nur in einem Client verfügbar ist.  | Benutzer können nicht beide Clients nebeneinander für denselben Funktionsumfang ausprobieren. Dies kann insbesondere dann ein Faktor sein, wenn die Benutzer den Wechsel von Skype for Business zu Teams als wichtigen Paradigmenwechsel wahrnehmen. |
+| Eliminieren Sie Verwirrungen von Endbenutzern, da eine bestimmte Funktionalität nur in einem Client verfügbar ist.  | Benutzer können nicht beide Clients nebeneinander für denselben Funktionsumfang ausprobieren. Dies kann insbesondere dann ein Faktor sein, wenn die Benutzer den Wechsel von Skype for Business zu Teams als wichtigen Paradigmenwechsel wahrnehmen. |
 | Ermöglicht die inkrementelle Einführung von Teams.  |  | |
 | Der Administrator hat vollständige Kontrolle über den Übergang von Skype for Business zu Teams. |  | | 
 | Ermöglicht es einer Organisation, Teams für Besprechungen zu verwenden, auch wenn Sie noch nicht bereit ist, vollständig in den TeamsOnly-Modus zu wechseln. |  | |

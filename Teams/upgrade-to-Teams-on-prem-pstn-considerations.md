@@ -3,27 +3,27 @@ title: Upgrade auf Teams über eine lokale Skype for Business-Bereitstellung –
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Upgrade von Skype for Business auf Microsoft Teams
+description: Aktualisieren von Skype for Business auf Teams-VoIP-Überlegungen
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 075960ef47f5d708a72cabc8e3c492786c2a5112
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940648"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955886"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>PSTN-Überlegungen beim Upgrade auf Teams &mdash; für IT-Administratoren
 

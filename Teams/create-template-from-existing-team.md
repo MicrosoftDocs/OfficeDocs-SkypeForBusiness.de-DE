@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9a6f183bcdf0871753f34acbf1f753a7e4c76fcb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ee1c121f4d42e2d093a3b9eabef9adedd0605128
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584014"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135949"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Erstellen einer Vorlage aus einem vorhandenen Team in Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "46584014"
 
 Microsoft Teams ermöglicht Ihnen, eine Vorlage aus einem vorhandenen Team zu erstellen, die gespeichert und geändert werden kann, um Ihre speziellen organisatorischen Anforderungen zu erfüllen.
 
-1. Melden Sie sich beim Admin Center an.
+1. Melden Sie sich beim Team Admin Center an.
 
 2. Erweitern Sie im linken Navigationsbereich **Teams**die  >  **Teamvorlagen**für Teams.
 

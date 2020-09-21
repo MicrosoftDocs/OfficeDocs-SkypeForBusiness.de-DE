@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5987588fd3df8f327502eace7f31b29483a2eba
-ms.sourcegitcommit: ab56033346426a018a8a6920d67526a9772f644c
+ms.openlocfilehash: d29bc28de39c8d145914d3bddab4ed949ad0a338
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47363358"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962896"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>Verwalten von Microsoft Teams-Gerätekategorien
 
@@ -29,7 +29,7 @@ Mithilfe von Geräte Tags in Microsoft Teams können Sie die Geräte, die Sie in
 
 Sie können ein Device-Tag zu mehr als einem Gerätetyp hinzufügen. Wenn Sie jedoch einen Gerätebereich im Admin Center öffnen, werden nur die Geräte dieses Typs zurückgegeben. So können Sie beispielsweise die Kategorie "Unternehmen" sowohl für Telefone als auch für Teams für Chatrooms festlegen. Wenn Sie nach dem "Corporate"-Tag suchen, während Sie sich in **Geräte**  >  -**Smartphones**befinden, werden nur Telefone zurückgegeben. Wenn Sie nach dem "Corporate"-Tag in den **Geräten**  >  **Teams rooms**suchen, werden nur Teams rooms-Geräte zurückgegeben.
 
-Zum Verwalten von Geräte Tags müssen Sie entweder ein globaler Administrator oder ein Team Dienstadministrator sein.
+Zum Verwalten von Geräte Tags müssen Sie ein globaler Administrator, Teams-Dienstadministrator oder Teams-Geräteadministrator sein. Weitere Informationen zu Administratorrollen finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](../using-admin-roles.md).
 
 > [!IMPORTANT]
 > Geräte Tags werden dem Ressourcenkonto zugewiesen, das bei einem Gerät angemeldet ist. Wenn Sie ein Ressourcenkonto von einem Gerät aus Signieren und es dann zum Anmelden bei anderen Geräten verwenden, werden die Gerätekategorien auf das neue Gerät angewendet.

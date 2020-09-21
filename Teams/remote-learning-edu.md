@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 781828d8a94595a6b686fdaa729c3480d2712581
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814344"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820599"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -33,8 +33,8 @@ Ressourcen zur Unterstützung von Lehrkräften und Schülern/Studenten beim Remo
 
 Dieser Artikel befasst sich mit den eigentlichen Schritten, die Sie ausführen müssen, um Ihre Bildungseinrichtung für Remote Learning einzurichten.
 
- > [!Note]
- > Weitere Informationen finden Sie unter [Teamfeatures nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> [!Note]
+> Mehr über die Funktionen für den Fernunterricht in Teams auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > Für Pädagogen, Einrichtungsleiter oder IT-Experten können diese Ressourcen hilfreich sein:

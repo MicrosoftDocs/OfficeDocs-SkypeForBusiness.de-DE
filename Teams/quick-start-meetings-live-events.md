@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814395"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820619"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
 In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen und Liveereignisse. Verwenden Sie diesen Artikel, um Besprechungen und Liveereignisse für Ihre Organisation schnell einzurichten und zu konfigurieren. 
+
+> [!Note]
+> Mehr über die schnelle Konfiguration von Teams-Besprechungen und -Ereignissen auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 300* Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme. 
 
@@ -43,9 +46,6 @@ Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten,
 > <sup>1</sup> Besprechungsorganisatoren benötigen eine [Lizenz für das Audiokonferenz-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), um eine Einladung zu versenden, die Einwahlkonferenzen umfasst.
 >
 > <sup>2</sup> Für ausgehende Anrufe aus Konferenzen an eine [**Rückruf unter**-Nummer](set-up-the-call-me-feature-for-your-users.md) müssen Organisatoren über eine E5- oder [Audiokonferenz-Add-In-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) verfügen. Es kann auch ein [Wählplan](what-are-dial-plans.md) erforderlich sein. 
-
- > [!Note]
- > Weitere Informationen finden Sie unter [Teamfeatures nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 

@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868704"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135879"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
 
@@ -147,7 +147,7 @@ Jeder einzelnen Richtlinie wird der Name des Richtlinienpakets zugewiesen, damit
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Richtlinien, die zum Schutz von Schülern und Studenten zugewiesen werden sollten
 
-### <a name="meeting-policies"></a>Besprechungsrichtlinien
+### <a name="meeting-policies-for-students"></a>Besprechungsrichtlinien für Schülern und Studenten
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Deaktivieren der Möglichkeit zum Erstellen und Starten von Besprechungen
 
@@ -216,7 +216,7 @@ Dies sind die Optionen:
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="Schüler einer Bildungseinrichtung in Remote-Learning-Umgebung, die Seite mit den Videooptionen wird angezeigt.":::
 
-### <a name="live-events-policies"></a>Richtlinien für Live-Ereignisse
+### <a name="live-events-policies-for-students"></a>Liveereignisse für Schülern und Studenten
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>Deaktivieren der Möglichkeit zum Erstellen und Starten von Liveereignissen
 
@@ -224,7 +224,7 @@ Wenn Sie sicherstellen möchten, dass die Schüler nicht in der Lage sind, ein L
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="Schüler einer Bildungseinrichtung in Remote-Learning-Umgebung, die Option zum Zulassen der Planung ist ausgeschaltet.":::
 
-### <a name="calling-policies"></a>Anrufpläne
+### <a name="calling-policies-for-students"></a>Aufrufen von Richtlinien für Schüler und Studenten
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>Deaktivieren der Möglichkeit, private Anrufe zu tätigen
 
@@ -232,7 +232,7 @@ Um sicherzustellen, dass Schüler keine privaten Gespräche mit anderen Schüler
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="Schüler einer Bildungseinrichtung in Remote-Learning-Umgebung, private Anrufe sind deaktiviert.":::
 
-### <a name="messaging-policies"></a>Messagingrichtlinien
+### <a name="messaging-policies-for-students"></a>Messagingrichtlinien für Schüler und Studenten
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Deaktivieren der Möglichkeit zum Löschen oder Bearbeiten von gesendeten Nachrichten
 
@@ -276,7 +276,7 @@ Die Schüler/Studenten sollten nicht in der Lage sein, andere Benutzer aus Chats
 
 ![Schüler einer Bildungseinrichtung in Remote-Learning-Umgebung, die Option zum Entfernen von Benutzern aus Gruppenchats ist ausgeschaltet.](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Teams-Richtlinien
+### <a name="teams-policies-for-students"></a>Teams-Richtlinien für Schüler und Studenten
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>Deaktivieren der Möglichkeit, private Kanäle zu suchen und zu erstellen
 
@@ -287,7 +287,7 @@ Wenn Sie sicherstellen möchten, dass die Kursteilnehmer keinen privaten Kanal a
 > [!IMPORTANT]
 > Wahrscheinlich möchten Sie auch sicherstellen, dass die Kursteilnehmer nicht in der Lage sind, neue Teams in Microsoft Teams zu erstellen. Dies ist tatsächlich eine Einstellung für M365-Gruppen, und Sie können mehr dazu in [Verwalten von Personen, die Microsoft 365-Gruppen erstellen können](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups) lesen.
 
-### <a name="app-permission-policies"></a>App-Berechtigungsrichtlinien
+### <a name="app-permission-policies-for-students"></a>App-Berechtigungsrichtlinien für Schüler und Studenten
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>Steuern, ob Kursteilnehmer innerhalb von Teams Apps hinzufügen können
 
@@ -309,7 +309,7 @@ Dies sind die empfohlenen Richtlinieneinstellungen, die Administratoren für Leh
 > [!NOTE]
 > Die Richtlinienempfehlungen für Schüler/Studenten enthalten mehr Informationen als der Abschnitt für Lehrkräfte, der nachstehend aufgeführt ist. Während Sie Richtlinieneinstellungen in Übereinstimmung mit den Richtlinien und Verfahren für das Bildungsinstitut festlegen können, sind die hier aufgeführten Empfehlungen in Bezug auf die Sicherheit der Kursteilnehmer strikt relevant.
 
-### <a name="meeting-policies"></a>Besprechungsrichtlinien
+### <a name="meeting-policies-for-educators"></a>Besprechungsrichtlinien für Lehrkräfte
 
 Diese Einstellungen ermöglichen Lehrkräften die Steuerung des Zugangs zu ihren Besprechungen.
 
