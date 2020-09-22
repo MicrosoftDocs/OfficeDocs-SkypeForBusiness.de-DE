@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann eine Liste der bekannten Probleme in Microsoft Teams-Räumen kennenlernen, einschließlich Update, Benutzeroberfläche, Hardware sowie Einschränkungen und erwarteten Verhaltensweisen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 584b71d39552990b3e4009efb177ef4fee61f1a4
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761341"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177365"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
@@ -60,7 +60,7 @@ Microsoft Teams Rooms unterstützt keine HDCP-Eingabe. Von dieser ist bekannt, d
 
 ***
 
-Wenn Sie möchten, dass ein Front-Room-Display automatisch zu einer aktiven Videoquelle (wie einer MTR-Konsole) wechselt, wenn die Quelle aus dem Standbymodus aktiviert wird, müssen bestimmte Bedingungen erfüllt sein. Dieses Feature ist optional, wird aber von der Microsoft Teams Rooms-Software unterstützt, sofern die zugrunde liegende Hardware das Feature unterstützt. Ein Consumer-Fernsehgerät, das als Front-of-room-Display verwendet wird, muss die Funktion Consumer Electronics Control (CEC) von HDMI unterstützen.  Je nachdem, welches Dock oder welche Konsole ausgewählt wurde (das CEC möglicherweise nicht unterstützt, lesen Sie die Dokumentation zum Hersteller Support), kann ein Arbeitsbereichs Controller wie eine [newtron HD CTL 100](https://www.extron.com/article/hdctl100ad) benötigt werden, um das gewünschte Verhalten zu ermöglichen. 
+Wenn Sie möchten, dass ein Front-Room-Display automatisch zu einer aktiven Videoquelle (wie einer MTR-Konsole) wechselt, wenn die Quelle aus dem Standbymodus aktiviert wird, müssen bestimmte Bedingungen erfüllt sein. Dieses Feature ist optional, wird aber von der Microsoft Teams Rooms-Software unterstützt, sofern die zugrunde liegende Hardware das Feature unterstützt. Ein Consumer-Fernsehgerät, das als Front-of-room-Display verwendet wird, muss die Funktion Consumer Electronics Control (CEC) von HDMI unterstützen.  Je nach ausgewähltem Dock oder der ausgewählten Konsole (die CEC möglicherweise nicht unterstützt, beziehen Sie sich auf die Dokumentation des Hersteller Supports), kann ein Controller wie ein [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) von Crestron oder die [newtron HD CTL 100](https://www.extron.com/article/hdctl100ad) von der newtron benötigt werden, um das gewünschte Verhalten zu ermöglichen. 
 
 ***
 

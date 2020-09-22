@@ -19,12 +19,12 @@ ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams-Vorlagen in der Administratorkonsole, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und apps bereitstellen.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25d9fb2d59eb272220813de8ae7749f9911b8da6
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136092"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171089"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Verwenden von Teams Healthcare-Vorlagen in der Admin-Konsole
 
@@ -40,7 +40,6 @@ Wir bieten derzeit zwei First-Party Healthcare-Vorlagen an, die Sie für untersc
 
  Optimieren Sie die Kommunikation und Zusammenarbeit im Gesundheitswesen innerhalb einer Abteilung, eines Pod oder einer Abteilung. Die Vorlage kann verwendet werden, um die Patientenverwaltung sowie die betrieblichen Anforderungen einer Station zu vereinfachen.
 
-
 | Basis Vorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |---|----------------------------------------------------- |
 | Zusammenarbeit bei der Patientenversorgung |`healthcareWard` | Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li>|
@@ -52,7 +51,7 @@ Optimieren Sie die Kommunikation und Zusammenarbeit zwischen mehreren Stationen,
 
 | Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-|Krankenhaus|` healthcareHospital`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Krankenhaus|`healthcareHospital`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Verwandte Themen

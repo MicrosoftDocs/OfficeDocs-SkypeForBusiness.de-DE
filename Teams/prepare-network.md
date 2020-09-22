@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: d0ce589ef972639928e4c8696f3ed23146126086
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583889"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177560"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -38,26 +38,23 @@ Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert](htt
     |Ports     |UDP-Ports <strong>3478</strong> bis <strong>3481</strong>        |
     |[IP-Adressen](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>und <strong>52.120.0.0/14</strong>         |
 
-> [!IMPORTANT]
-> Wenn Sie mit Skype for Business (lokal oder Online) eine Föderation eingehen müssen, müssen Sie einige zusätzliche DNS-Einträge konfigurieren.
->
->|CNAME-Einträge/Hostname  |TTL  |Verweist auf die Adresse oder den Wert  |
->|---------|---------|---------|
->|SIP     |    3600     |    sipdir.online.lync.com     |
->|lyncdiscover     |   3600      |    webdir.online.lync.com     |
->
-
-
+    > [!IMPORTANT]
+    > Wenn Sie mit Skype for Business (lokal oder Online) eine Föderation eingehen müssen, müssen Sie einige zusätzliche DNS-Einträge konfigurieren.
+    >
+    >|CNAME-Einträge/Hostname  |TTL  |Verweist auf die Adresse oder den Wert  |
+    >|---------|---------|---------|
+    >|SIP     |    3600     |    sipdir.online.lync.com     |
+    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
 2.  Verfügen Sie über eine verifizierte Domäne für Microsoft 365 oder Office 365 (beispielsweise contoso.com)?
     
-      - Wenn Ihre Organisation Microsoft 365 oder Office 365 noch nicht ausgeführt hat, lesen Sie [Erste Schritte](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
-      - Wenn Ihre Organisation keine verifizierte Domäne für Microsoft 365 oder Office 365 hinzugefügt oder konfiguriert hat, lesen Sie die [FAQ zu Domains](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
+    - Wenn Ihre Organisation Microsoft 365 oder Office 365 noch nicht ausgeführt hat, lesen Sie [Erste Schritte](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+    - Wenn Ihre Organisation keine verifizierte Domäne für Microsoft 365 oder Office 365 hinzugefügt oder konfiguriert hat, lesen Sie die [FAQ zu Domains](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Hat Ihre Organisation Exchange Online und SharePoint Online bereitgestellt?
     
-      - Wenn Ihre Organisation nicht über Exchange Online verfügt, lesen Sie [verstehen, wie Exchange und Microsoft Teams interagieren](exchange-teams-interact.md).
-      - Wenn Ihre Organisation nicht über SharePoint Online verfügt, lesen Sie Grund [Legendes zur Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md).
+    - Wenn Ihre Organisation nicht über Exchange Online verfügt, lesen Sie [verstehen, wie Exchange und Microsoft Teams interagieren](exchange-teams-interact.md).
+    - Wenn Ihre Organisation nicht über SharePoint Online verfügt, lesen Sie Grund [Legendes zur Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md).
 
 Nachdem Sie überprüft haben, dass Sie diese Netzwerkanforderungen erfüllen, sind Sie möglicherweise bereit, [Teams zu Rollen](How-to-roll-out-teams.md). Wenn Sie ein großes multinationales Unternehmen sind oder wissen, dass Sie einige Netzwerkeinschränkungen haben, lesen Sie weiter, um zu erfahren, wie Sie Ihr Netzwerk für Teams bewerten und optimieren können.
 
@@ -122,7 +119,7 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="even">
 <td>Konfigurieren des Split-Tunnel-VPN</td>
-<td><p>Wir empfehlen, dass Sie einen alternativen Pfad für Teams-Datenverkehr bereitstellen, der das VPN (virtuelles privates Netzwerk) umgeht, das gemeinhin als [Split-Tunnel-VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)bezeichnet wird. Split-Tunneling bedeutet, dass der Datenverkehr für Microsoft 365 oder Office 365 nicht über das VPN geht, sondern direkt zu Microsoft 365 oder Office 365 führt. Das umgehen Ihres VPNs hat eine positive Auswirkung auf die Qualität von Teams und verringert die Auslastung von VPN-Geräten und dem Netzwerk der Organisation. Wenn Sie ein VPN mit geteilten Tunneln implementieren möchten, arbeiten Sie mit Ihrem VPN-Anbieter zusammen.</p>
+<td><p>Wir empfehlen, dass Sie einen alternativen Pfad für Teams-Datenverkehr bereitstellen, der das VPN (virtuelles privates Netzwerk) umgeht, das gemeinhin als <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">Split-Tunnel-VPN</a>bezeichnet wird. Split-Tunneling bedeutet, dass der Datenverkehr für Microsoft 365 oder Office 365 nicht über das VPN geht, sondern direkt zu Microsoft 365 oder Office 365 führt. Das umgehen Ihres VPNs hat eine positive Auswirkung auf die Qualität von Teams und verringert die Auslastung von VPN-Geräten und dem Netzwerk der Organisation. Wenn Sie ein VPN mit geteilten Tunneln implementieren möchten, arbeiten Sie mit Ihrem VPN-Anbieter zusammen.</p>
 <p>Weitere Gründe, warum wir empfehlen, das VPN zu umgehen:
 <ul>
 <li><p>VPNs sind in der Regel nicht für die Unterstützung von Echt Zeit Medien konzipiert oder konfiguriert.</p></li> 

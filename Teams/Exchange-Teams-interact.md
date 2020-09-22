@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 689b2fcad408f0fe18651ada1a5ed03467bea345
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 35c020d981fba9827f10753a04b9b5629a9939df
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255238"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177205"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -37,9 +37,9 @@ Benutzer, die auf Exchange Online oder dedizierten Exchange-vNext erhielten geho
 Benutzer, die auf Exchange Online Dedicated (Legacy) gehostet werden, müssen mit Azure Active Directory auf Microsoft 365 oder Office 365 synchronisiert werden. Sie können Teams und Kanäle erstellen und daran teilnehmen, Registerkarten und Bots hinzufügen und konfigurieren sowie die Chat-und Anruffunktionen nutzen. Sie können jedoch keine Profil Bilder ändern, Besprechungen verwalten, auf Outlook-Kontakte zugreifen oder Connectors verwalten.
 
 > [!IMPORTANT]
-> Für die Integration in lokale Umgebungen wird dringend empfohlen, dass Sie über eine vollständige klassische Hybrid Bereitstellung mit Exchange Server 2016 oder höher verfügen, um die folgenden Anforderungen zu erfüllen. Weitere Informationen zum Einrichten einer hybridbereitstellung finden Sie unter [Exchange Server-hybridbereitstellungen](https://docs.microsoft.com/exchange/exchange-hybrid).
+> Für die Integration in lokale Umgebungen wird dringend empfohlen, dass Sie über eine vollständige klassische Hybrid Bereitstellung mit Exchange Server 2016 oder höher verfügen. Die moderne Hybrid-Unterstützung ist auf Frei/Gebucht-Funktionen limitiert und bietet beispielsweise keine Kalenderintegration von Teams in Postfächer vor Ort. Weitere Informationen zum Einrichten einer hybridbereitstellung finden Sie unter [Exchange Server-hybridbereitstellungen](https://docs.microsoft.com/exchange/exchange-hybrid).
 
-Benutzer mit lokal gehosteten Postfächern müssen mit Azure Active Directory synchronisiert werden. Sie können alle Funktionen in dem obigen Szenario nutzen, aber darüber hinaus können Sie Besprechungen verwalten, wenn die Anforderungen unter [Anforderungen für Lokal gehostete Postfächer](#requirements-for-mailboxes-hosted-on-premises) erfüllt sind.
+Benutzer mit lokal gehosteten Postfächern müssen mit Azure Active Directory synchronisiert werden. Sie können alle Funktionen in dem obigen Szenario nutzen, aber darüber hinaus können Sie Besprechungen verwalten, wenn die Anforderungen unter [Anforderungen für Lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) erfüllt sind.
 
 Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügbarkeit von Features, die auf der Exchange-Umgebung basiert.
 
@@ -66,7 +66,7 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>7</sup> Teams honoriert die [Outlook-Einstellung für die Web-Postfachrichtlinie](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) , die von mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **-SetPhotoEnabled** in der Richtlinie deaktiviert ist, können Benutzer Ihr Profilbild nicht hinzufügen, ändern oder entfernen. Wenn ein Benutzer beispielsweise ein Profilbild hochlädt, das von der IT-oder Personalabteilung Ihrer Organisation genehmigt wurde, ist keine Aktion erforderlich. Wenn ein Benutzer jedoch ein unangemessenes Bild hochlädt, ändern Sie es gemäß den internen Richtlinien Ihrer Organisation.
 
-<sup>8</sup> Sie müssen die Anforderungen erfüllen, die unter [Anforderungen für Lokal gehostete Postfächer](#requirements-for-mailboxes-hosted-on-premises) aufgeführt sind.
+<sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen zum Erstellen und Anzeigen von Besprechungen für Postfächer gehostet werden, die lokal gehostet werden](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) .
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen, um Microsoft Teams optimal nutzen zu können
 
@@ -83,9 +83,9 @@ Microsoft Teams arbeitet mit verschiedenen Microsoft 365-und Office 365-Diensten
 > [!IMPORTANT]
 > Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den Modus **nur für Teams** verschoben haben, funktioniert die Anwesenheit in Outlook und anderen Office-Apps möglicherweise nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Um dieses Problem zu beheben, wählen Sie Ihr Profilbild in der oberen rechten Ecke von Microsoft Teams aus, und wählen Sie dann **Einstellungen**aus. Wählen Sie auf der Registerkarte **Allgemein** unter **Anwendung** **die Option Teams als Chat-App für Office registrieren aus (erfordert einen Neustart von Office-Anwendungen)**. Nachdem Sie diese Option ausgewählt haben, schließen Sie alle Office-Apps, einschließlich Outlook, und öffnen Sie Sie erneut. Nachdem Sie Outlook geöffnet haben, stehen die Anwesenheitsinformationen zur Verfügung.
 
-## <a name="requirements-for-mailboxes-hosted-on-premises"></a>Voraussetzungen für Lokal gehostete Postfächer
+## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Voraussetzungen für das Erstellen und Anzeigen von Besprechungen für Lokal gehostete Postfächer
 
-Wenn Benutzer die Möglichkeit haben möchten, eine Teambesprechung mit Exchange Server lokal zu planen, müssen die folgenden Voraussetzungen erfüllt sein:
+Wenn Postfächer lokal gehostet werden, müssen zum Erstellen und Anzeigen von Besprechungen die folgenden Voraussetzungen erfüllt sein:
 
 - Die erforderliche Teams-Lizenz muss für den Azure Active Directory-synchronisierten Benutzer zugewiesen werden.
 
@@ -94,14 +94,11 @@ Wenn Benutzer die Möglichkeit haben möchten, eine Teambesprechung mit Exchange
 - Postfächer werden in Exchange Server 2016 Kumulatives Update 3 oder höher gehostet.
 
 - Auto Ermittlungs-und Exchange-Webdienste werden extern veröffentlicht.
- 
-> [!NOTE]
-> AutoErmittlung (automatisch) v2 ist erforderlich, damit der Team Dienst eine nicht authentifizierte Ermittlung des Postfachs des Benutzers durchführen kann. Autod v2 wird in Exchange 2016 CU3 und höher unterstützt.
 
 - Die OAuth-Authentifizierung wird vorzugsweise über den Exchange-Hybrid Konfigurations-Assistenten konfiguriert, der eine vollständige Hybrid Konfiguration ausführt (klassisch oder modern). Wenn Sie den Assistenten für die Hybrid Konfiguration nicht verwenden können, konfigurieren Sie OAuth wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)beschrieben.
 
-> [!NOTE]
-> Exchange Trusts OAuth-Token des Teams-Diensts, der als EvoSTS bezeichnet wird. Schritt 1 sollte ausreichen, aber nur die EvoSTS; ACS wird für den frei/gebucht-Lookup im Kalender verwendet.
+ > [!NOTE]
+ > Exchange Trusts OAuth-Token des Teams-Diensts, der als EvoSTS bezeichnet wird. Schritt 1 sollte ausreichen, aber nur die EvoSTS; ACS wird für den frei/gebucht-Lookup im Kalender verwendet.
 
 - Das Kontrollkästchen für das Exchange-Feature für die Hybrid Bereitstellung in Azure AD Connect ist aktiviert.
 
@@ -109,13 +106,12 @@ Wenn Benutzer die Möglichkeit haben möchten, eine Teambesprechung mit Exchange
 
 So aktivieren Sie die Kalender Delegierung für diese Benutzer:
 
-
-- Sowohl Stellvertretung als auch delegator müssen über ein Postfach auf dem Exchange-Server verfügen.
-
 - Sie müssen auch die Schritte 2-3 ausführen, wie unter [Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)beschrieben ist. mit den folgenden Schritten wird der Team Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stell Vertretungs Berechtigungen bereitgestellt.
  
-> [!NOTE]
-> Schritt 2 enthält die Rollenzuweisung für ArchiveApplication, die für die Delegierung nicht erforderlich ist.
+ > [!NOTE]
+ > Schritt 2 enthält die Rollenzuweisung für ArchiveApplication, die für die Delegierung nicht erforderlich ist.
+
+- Bei der Planung einer Besprechung im Auftrag einer anderen Person ist Exchange 2013 CU19 oder höher erforderlich. Dies dient zur Unterstützung der nicht authentifizierten Ermittlung des Postfachs durch unseren Dienst, um Stell Vertretungs Berechtigungen für das Postfach zu überprüfen. Der Stell Vertretungs-und delegator-Speicherort kann Exchange 2013 oder höher oder Exchange Online sein, die AutoErmittlung muss jedoch in Exchange 2013 CU19 oder höher aufgelöst werden.
 
 ## <a name="additional-considerations"></a>Weitere Überlegungen
 

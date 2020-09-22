@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135869"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171099"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole
 
@@ -74,7 +74,7 @@ Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorl
 | Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |----|----------------------------------------------------- |
 | Übernehmen von Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
-| Verwalten eines Projekts |`com.microsoft.teams.template.ManageAnEvent`| Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+| Verwalten eines Projekts |`com.microsoft.teams.template.ManageAProject`| Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
 | Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 |Onboard-Mitarbeiter|`com.microsoft.teams.template.OnboardEmployees` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li></ul>|
 |Organisieren des Helpdesks| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |

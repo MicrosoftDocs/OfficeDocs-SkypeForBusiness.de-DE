@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359301"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177425"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -158,7 +158,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | VM | Benutzerfunktionen | Unterstützte Gruß Sprachen | Details finden Sie hier: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | VM | Benutzerfunktionen | Mailboxansageregeln |  | v | v    |
 | VM | Benutzerfunktionen | Wiedergabe über Telefon (PSTN) – zur Wiedergabe von Nachrichten | Rufen Sie mich in meiner Zelle an, um die Sprachnachricht zu hören  | N | v    |
-| VM | Benutzerfunktionen | Wiedergabe über Telefon (Authentifizierung) – zur Wiedergabe von Nachrichten | Auf meinem authentifizierten Gerät anrufen  | v | v    |
+| VM | Benutzerfunktionen | Wiedergabe über Telefon (Authentifizierung) – zur Wiedergabe von Nachrichten | Auf meinem authentifizierten Gerät anrufen  | N | v    |
 | VM | Benutzerfunktionen | Freigegebenes Postfach zwischen mehreren Benutzern |  | v | v    |
 | VM | Anrufer-Features  | Anrufer-Erfahrung – geschützte Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als geschützt zu markieren.| N | v    |
 | VM | Anrufer-Features  | Anrufer-Erfahrung – private Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als privat zu kennzeichnen.  | N | v    |

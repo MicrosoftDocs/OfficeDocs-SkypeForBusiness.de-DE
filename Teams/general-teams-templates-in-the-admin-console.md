@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9138c1e1222f106c9eaf67b44bf7deca0a250790
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136048"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171119"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Verwenden von allgemeinen Teams-Vorlagen in der Admin-Konsole
 
@@ -45,28 +45,28 @@ Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Sch
 
 Zentralisieren Sie die Zusammenarbeit für Ihr Krisenteam unternehmensübergreifend und helfen Sie, Business Continuity-Pläne zu erstellen, Remote-Arbeitstipps zu überwachen, Kundenkommunikation nachzuverfolgen und alle mit Ankündigungen und Nachrichten auf dem Laufenden zu halten.
 
-| Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----------------------------------------------------- |
-| Zusammenarbeiten an globaler Krise oder Veranstaltung |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
-|||
+| Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------ |--|----------------------------------------------------- |
+| Zusammenarbeiten an globaler Krise oder Veranstaltung |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
+||||
 
-## <a name="adopt-officd-365"></a>Annahme von Officd 365
+## <a name="adopt-office-365"></a>Übernehmen von Office 365
 
 Helfen Sie bei der Entwicklung, dem Wachstum und dem aufrecht erhalten des Rollouts ihrer Champions Community, indem Sie Ihre Kollegen mit der neuen Technologie evangelisieren und unterstützen.
 
-| Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----------------------------------------------------- |
-| Übernehmen von Office 365 |  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |Li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>|
-|||
+| Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------|-- |----------------------------------------------------- |
+| Übernehmen von Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |Li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>|
+||||
 
-## <a name="manage-a-project"></a>Verwalten eines Projekts 
+## <a name="manage-a-project"></a>Verwalten eines Projekts
 
 Verwalten von Aufgaben, Freigeben von Dokumenten, durchführen von Projektbesprechungen und Dokumentieren von Risiken und Entscheidungen mit dieser Vorlage für das allgemeine Projektmanagement.
 
-| Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----------------------------------------------------- |
-| Verwalten eines Projekts | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
-|||
+| Basis Vorlagentyp| baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------|-- |----------------------------------------------------- |
+| Verwalten eines Projekts| com. Microsoft. Teams. Template. ManageAProject  | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+||||
 
 ## <a name="manage-an-event"></a>Verwalten eines Ereignisses
 
@@ -74,24 +74,25 @@ Verwalten Sie Aufgaben, Dokumente und zusammenarbeiten an allem, was Sie brauche
 
 Sie haben möglicherweise keinen Zugriff auf bestimmte apps basierend auf Ihrer APP-Berechtigungsrichtlinie.
 
-| Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----------------------------------------------------- |
-| Verwalten eines Ereignisses | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|||
+| Basis Vorlagentyp | baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------ |--|----------------------------------------------------- |
+| Verwalten eines Ereignisses| `com.microsoft.teams.template.ManageAnEvent` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+||||
 
 ## <a name="onboard-employees"></a>Onboard-Mitarbeiter
+
 Verbessern Sie Ihre Kultur, und optimieren Sie Ihre Mitarbeiter mit diesem zentralen Team für Ressourcen, Fragen und ein wenig Spaß.
 
-| Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----------------------------------------------------- |
-|Onboard-Mitarbeiter | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li></ul>|
-|||
+| Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------|- |----------------------------------------------------- |
+|Onboard-Mitarbeiter|`com.microsoft.teams.template.OnboardEmployees`  | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li></ul>|
+||||
 
 ## <a name="organize-a-help-desk"></a>Organisieren eines Helpdesks
 
 Zusammenarbeiten an Dokumentation, Richtlinien und Prozessen, die Ihren Helpdesk unterstützen. Integrieren Sie Ihr vorhandenes Ticketing-System, oder verwenden Sie unsere Vorlage zum Verwalten von Anfragen.
 
-| Basis Vorlagentyp | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----------------------------------------------------- |
-|Organisieren des Helpdesks| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
-|||
+| Basis Vorlagentyp | | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------|-- |----------------------------------------------------- |
+|Organisieren des Helpdesks|`com.microsoft.teams.template.OrganizeHelpDesk`| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+||||

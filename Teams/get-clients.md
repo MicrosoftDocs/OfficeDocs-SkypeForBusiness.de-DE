@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820329"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177225"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 
@@ -78,7 +78,7 @@ Wenn Benutzer erstmals mit dem Microsoft Teams-Client einen Anruf einleiten, seh
 ![Screenshot des Dialogfelds „Windows-Sicherheitshinweis“](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Die Konfiguration der Windows-Firewall wird auch dann geändert, wenn die Eingabeaufforderung durch Auswählen von „Abbrechen“ geschlossen wird. Zwei eingehende Regeln für „teams.exe“ werden mit der Aktion „Blockieren“ für die Protokolle TCP und UDP erstellt.
+> Die Konfiguration der Windows-Firewall wird auch dann geändert, wenn die Eingabeaufforderung geschlossen wird, indem Sie "Abbrechen" auswählen. Zwei eingehende Regeln für teams.exe werden mit Allow-Aktion für TCP-und UDP-Protokolle erstellt.
 
 Wenn Sie verhindern möchten, dass die Benutzer von Teams aufgefordert werden, Firewallregeln zu erstellen, wenn die Benutzer ihren ersten Anruf von Teams aus führen, verwenden Sie die folgende [Beispiel-PowerShell-Skript-eingehende Firewall-Regel](#sample-powershell-script---inbound-firewall-rule) . 
 
