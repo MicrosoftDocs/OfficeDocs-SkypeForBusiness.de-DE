@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
-description: Die Seite "Topologie veröffentlichen" wird angezeigt, wenn Sie mit dem Veröffentlichungsprozess beginnen. Lesen und bestätigen Sie, dass die aufgelisteten Aufgaben abgeschlossen sind, bevor Sie fortfahren. Wenn Sie den Vorgang fortsetzen möchten, klicken Sie auf Weiter. Wenn Sie den Veröffentlichungsprozess beenden müssen, klicken Sie auf Abbrechen.
-ms.openlocfilehash: 0fb9e626988ff83b7e01974d4af3201f0b8cff9f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die Seite Topologie veröffentlichen wird zu Beginn des Veröffentlichungsprozesses angezeigt. Vergewissern Sie sich vor dem Fortfahren, dass die aufgeführten Aufgaben abgeschlossen wurden. Klicken Sie im Anschluss auf Weiter. Wenn Sie den Veröffentlichungsprozess abbrechen müssen, klicken Sie auf Abbrechen.
+ms.openlocfilehash: d8e9244e8259a3966f2dd1ef8200993ee04b2b99
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819357"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217226"
 ---
 # <a name="publish-topology"></a>Veröffentlichen der Topologie
  
-Die Seite " **Topologie veröffentlichen** " wird angezeigt, wenn Sie mit dem Veröffentlichungsprozess beginnen. Lesen und bestätigen Sie, dass die aufgelisteten Aufgaben abgeschlossen sind, bevor Sie fortfahren. Wenn Sie den Vorgang fortsetzen möchten, klicken Sie auf **weiter**. Wenn Sie den Veröffentlichungsprozess beenden müssen, klicken Sie auf **Abbrechen**.
+Die Seite **Topologie veröffentlichen** wird zu Beginn des Veröffentlichungsprozesses angezeigt. Vergewissern Sie sich vor dem Fortfahren, dass die aufgeführten Aufgaben abgeschlossen wurden. Klicken Sie im Anschluss auf **Weiter**. Wenn Sie den Veröffentlichungsprozess abbrechen müssen, klicken Sie auf **Abbrechen**.
   
 

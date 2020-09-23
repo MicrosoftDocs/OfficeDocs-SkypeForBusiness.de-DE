@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171099"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218576"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole
 
@@ -37,7 +37,7 @@ ms.locfileid: "48171099"
 
 In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Mithilfe von "Teams-Vorlagen" können Sie schnell umfangreiche Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. Derzeit können Sie ein Team aus einer Vorlage in Teams oder mit [Microsoft Graph](get-started-with-teams-templates.md)erstellen.
 
-In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie ein Team anhand einer Vorlage mit einigen Beispiel Anforderungen erstellen können.
+In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie mit einigen Beispiel Anforderungen ein Team aus einer Vorlage erstellen können.
 
 Dieser Artikel ist für Sie da:
 
@@ -88,7 +88,7 @@ Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorl
 |Zusammenarbeit im Einzelhandel – Manager| `retailManagerCollaboration` |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
 ||||
 
-Weitere Informationen zu den Vorlagenkategorien finden Sie unter den folgenden Themen:
+Weitere Informationen zu den Vorlagenkategorien finden Sie in den folgenden Kategorien:
 
 - [Finanz Vorlagen](financial-teams-templates-in-the-admin-console.md)
 - [Allgemeine Vorlagen](general-teams-templates-in-the-admin-console.md)

@@ -8,22 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddMonitoringServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
-description: Sie müssen den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers angeben, auf dem Sie den Monitoring Server bereitstellen möchten, um einen Überwachungsserver in den Topologie-Entwurf einzubeziehen. Vor dem Veröffentlichen einer Topologie, die den Monitoring Server umfasst, und die Installation von Skype for Business Server auf dem Server, sollten Sie alle Voraussetzungen für die Bereitstellung der Überwachung erfüllen. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter Deploying Monitoring in der Bereitstellungsdokumentation.
-ms.openlocfilehash: fd45368a15a95f1e8674413afec19bc65a1a3f2e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Um eine Monitoring Server in ihren Topologie-Entwurf einzubinden, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers angeben, auf dem Sie Monitoring Server bereitstellen möchten. Vor dem Veröffentlichen einer Topologie mit dem Monitoring Server und dem Installieren von Skype for Business Server auf dem Server sollten Sie alle Voraussetzungen für die Bereitstellung der Überwachung abschließen. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter Deploying Monitoring in der Bereitstellungsdokumentation.
+ms.openlocfilehash: 63ca79ace04109821ea520a247eb53331ae3d5e0
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820737"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217866"
 ---
 # <a name="add-monitoring-server"></a>Hinzufügen des Monitoring Servers
 
-Sie müssen den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers angeben, auf dem Sie den Monitoring Server bereitstellen möchten, um einen Überwachungsserver in den Topologie-Entwurf einzubeziehen. Vor dem Veröffentlichen einer Topologie, die den Monitoring Server umfasst, und die Installation von Skype for Business Server auf dem Server, sollten Sie alle Voraussetzungen für die Bereitstellung der Überwachung erfüllen. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) in der Bereitstellungsdokumentation.
+Um eine Monitoring Server in ihren Topologie-Entwurf einzubinden, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers angeben, auf dem Sie Monitoring Server bereitstellen möchten. Vor dem Veröffentlichen einer Topologie mit dem Monitoring Server und dem Installieren von Skype for Business Server auf dem Server sollten Sie alle Voraussetzungen für die Bereitstellung der Überwachung abschließen. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) in der Bereitstellungsdokumentation.
 
 

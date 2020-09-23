@@ -8,43 +8,43 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
-description: 'Sie können Optionen für den Serverpool des beständigen Chats oder des beständigen Chats konfigurieren, indem Sie die folgenden Eigenschaften definieren:'
-ms.openlocfilehash: 39816bcc4c76a5be07e90c63dfa9064c4a0670d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Sie können Optionen für den Serverpool für beständigen Chat oder für beständigen Chat konfigurieren, indem Sie die folgenden Eigenschaften definieren:'
+ms.openlocfilehash: 8d3cef04d7089ffff640740bb048ca52cf7fd91e
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820187"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218546"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definieren von Eigenschaften und Optionen für den Pool für beständigen Chat
  
-Sie können Optionen für den Serverpool des beständigen Chats oder des beständigen Chats konfigurieren, indem Sie die folgenden Eigenschaften definieren:
+Sie können Optionen für den Serverpool für beständigen Chat oder für beständigen Chat konfigurieren, indem Sie die folgenden Eigenschaften definieren:
   
- **Anzeigename des beständigen Chat Pools**: eine erforderliche Eigenschaft, die einen benutzerfreundlichen Namen definiert, der für diesen beständigen Chat Server oder den Serverpool für beständigen Chat angezeigt wird.
+ **Anzeigename des Pools für beständigen Chat**: eine erforderliche Eigenschaft, die einen benutzerfreundlichen Namen definiert, der für diesen persistent Chat Server oder den Serverpool für beständigen Chat angezeigt wird.
   
- **Port für beständigen Chat**: eine erforderliche Eigenschaft, die die Portnummer definiert, die dieser beständige Chat Server oder beständiger Chat Serverpool überwacht.
+ **Port für beständigen Chat**: eine erforderliche Eigenschaft, mit der die Portnummer definiert wird, die von diesem Serverpool für beständigen Chat oder beständiger Chat überwacht wird.
   
- **Aktivieren der Kompatibilität**: Aktivieren Sie das Kontrollkästchen, wenn Sie beabsichtigen, das optionale Feature für beständigen Chat und die Datenbank bereitzustellen und zu implementieren.
+ **Kompatibilität aktivieren**: Aktivieren Sie das Kontrollkästchen, wenn Sie das optionale Feature für beständigen Chat und die Datenbank bereitstellen und implementieren möchten.
   
- **Verwenden von Backup-SQL Server-Stores zum Aktivieren der Disaster Recovery**: Aktivieren Sie dieses Kontrollkästchen, wenn Sie beabsichtigen, die Disaster Recovery des beständigen Chats von SQL Server-speichern aus einem konfigurierten Sicherungssatz von speichern auf einem anderen SQL Server bereitzustellen und zu implementieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Höchstverfügbarkeit und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+ **Verwenden von Sicherungs SQL Server speichern zum Aktivieren der Notfallwiederherstellung**: Aktivieren Sie dieses Kontrollkästchen, wenn Sie die Notfallwiederherstellung des beständigen Chats SQL Server speichern aus einem konfigurierten Sicherungssatzes von Speichern in einem anderen SQL Server bereitstellen und implementieren möchten. Ausführliche Informationen finden Sie unter [Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
 > Diese Option ist nur für Pools mit mehreren Servern verfügbar. 
   
- **Verwenden Sie diesen Pool als Standard für die \<Website Website, in\>der dieser Server oder Pool konfiguriert ist**: Aktivieren Sie dieses Kontrollkästchen, wenn es sich um den standardmäßigen Chat Server oder den Serverpool für beständigen Chat für die Website handelt. Sie müssen über einen standardmäßigen beständigen Chat Server oder Pol pro Website verfügen.
+ **Diesen Pool als Standard für die \<site that this server or pool is being configured in\> Website verwenden **: Aktivieren Sie dieses Kontrollkästchen, wenn es sich um den Standardserver für beständigen Chat oder den Serverpool für beständigen Chat für die Website handelt. Sie müssen über einen standardmäßigen Server für beständigen Chat oder Pol pro Website verfügen.
   
 > [!NOTE]
-> Falls die Topologie mehrere Standorte umfasst, wird auch das Kontrollkästchen **Diesen Pool als Standard für alle Standorte verwenden** angezeigt.
+> Wenn Ihre Topologie mehrere Standorte umfasst, wird auch ein Kontrollkästchen für **diesen Pool als Standard für alle Websites verwenden** angezeigt.
   
 Klicken Sie auf **Zurück**, um zum vorherigen Dialogfeld für die Pooldefinition zurückzukehren.
   
-Klicken Sie auf **weiter** , nachdem Sie die Optionen für diesen Pool eingegeben haben, um die Definition des beständigen Chat Server Pools fortzusetzen.
+Klicken Sie auf **weiter** , nachdem Sie die Eingabe der Optionen für diesen Pool abgeschlossen haben, um mit der Definition des Server Pools für beständigen Chat fortzufahren.
   
 Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assistenten **Neuen Pool für beständigen Chat definieren** zu beenden.
   
@@ -52,6 +52,6 @@ Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite)
   
 ## <a name="see-also"></a>Siehe auch
 
-[Planen für den Server für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planen des Servers für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Hinzufügen eines beständigen Chat Servers zu Ihrer Skype for Business Server 2015-Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Hinzufügen eines Servers für beständigen Chat zu Ihrer Skype for Business Server 2015 Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

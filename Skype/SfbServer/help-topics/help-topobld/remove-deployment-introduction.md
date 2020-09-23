@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
-description: Führen Sie den Assistenten zum Entfernen der Bereitstellung nur aus, wenn Sie die gesamte Bereitstellung außer Betrieb nehmen möchten. Dieser Assistent erstellt eine leere Topologie, die aus einem einzelnen Front-End-Server besteht. Nachdem Sie diesen Assistenten ausgeführt und die leere Topologie veröffentlicht haben, können Sie nicht mehr auf Ihre ursprüngliche Topologie zurückgreifen.
-ms.openlocfilehash: 6b9bce53e9836a3b19bf5b78d3bf43f4924ba589
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Führen Sie den Assistenten zum Entfernen einer Bereitstellung nur dann aus, wenn Sie Ihre gesamte Bereitstellung außer Betrieb nehmen möchten. Dieser Assistent erstellt eine leere Topologie mit einem einzigen Front-End-Server. Nachdem Sie diesen Assistenten ausgeführt und die leere Topologie veröffentlicht haben, kann die ursprüngliche Topologie nicht wiederhergestellt werden.
+ms.openlocfilehash: 03e35836f8d01ce6356f021e334ba612bbd65491
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819317"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217136"
 ---
 # <a name="remove-deployment-introduction"></a>Entfernen der Bereitstellung – Einführung
  
-Führen Sie den **Assistenten zum Entfernen der Bereitstellung** nur aus, wenn Sie die gesamte Bereitstellung außer Betrieb nehmen möchten. Dieser Assistent erstellt eine leere Topologie, die aus einem einzelnen Front-End-Server besteht. Nachdem Sie diesen Assistenten ausgeführt und die leere Topologie veröffentlicht haben, können Sie nicht mehr auf Ihre ursprüngliche Topologie zurückgreifen.
+Führen Sie den Assistenten zum Entfernen einer Bereitstellung**** nur dann aus, wenn Sie Ihre gesamte Bereitstellung außer Betrieb nehmen möchten. Dieser Assistent erstellt eine leere Topologie mit einem einzigen Front-End-Server. Nachdem Sie diesen Assistenten ausgeführt und die leere Topologie veröffentlicht haben, kann die ursprüngliche Topologie nicht wiederhergestellt werden.
   
 > [!IMPORTANT]
-> Bevor Sie auf **weiter**klicken, müssen Sie alle inaktiven Computer entfernen, alle Benutzer und Endpunkte aus Unified Communications deaktivieren und alle Konferenzverzeichnisse entfernen, wie auf der ersten Seite des Assistenten angegeben. 
+> Entfernen Sie daher alle inaktiven Computer, deaktivieren Sie alle Benutzer und Endpunkte aus Unified Communications, und entfernen Sie alle Konferenzverzeichnisse gemäß Anweisungen auf der ersten Seite des Assistenten, bevor Sie auf **Weiter** klicken. 
   
 

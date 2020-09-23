@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithFrontEndPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
-description: Wählen Sie auf der Seite Front-End-Pool auswählen den Front-End-Pool oder einen Standard Edition-Server aus der Dropdownliste Front-End-Pool aus, um die überlebensfähige Branch-Appliance oder den Survivable Branch-Server mit einem Front-End-Pool oder einem Standard Edition-Server zu verknüpfen. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: b8feac6f1afdd35a6c632ed29e07dfe42b6453d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Um die Survivable Branch Appliance oder Survivable Branch Server einem Front-End-Pool oder einem Standard Edition-Server zuzuordnen, wählen Sie auf der Seite Front-End-Pool auswählen das Front-End-Pool oder ein Standard Edition-Server aus der Dropdownliste Front-End-Pool aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
+ms.openlocfilehash: 851eeebbbac3f9c2da1a546c952c9d47a0284534
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820437"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217846"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Zuordnen der Branch Office Appliance zum Front-End
  
-Wählen Sie auf der Seite **Front-End-Pool auswählen** den Front-End-Pool oder einen Standard Edition-Server aus der Dropdownliste **Front-End-Pool** aus, um die überlebensfähige Branch-Appliance oder den Survivable Branch-Server mit einem Front-End-Pool oder einem Standard Edition-Server zu verknüpfen. Klicken Sie auf **Weiter**, um fortzufahren.
+Um die Survivable Branch Appliance oder Survivable Branch Server einem Front-End-Pool oder einem Standard Edition-Server zuzuordnen, wählen Sie auf der Seite **Front-End-Pool auswählen** das Front-End-Pool oder ein Standard Edition-Server aus der Dropdownliste **Front-End-Pool** aus. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
   
 

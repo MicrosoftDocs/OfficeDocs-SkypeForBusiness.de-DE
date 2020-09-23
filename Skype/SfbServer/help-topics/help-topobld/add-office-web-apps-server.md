@@ -8,33 +8,33 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddOfficeWebAppsServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
-description: 'Der Assistent zum Definieren eines neuen Office Web Apps-Servers definiert einen neuen Office Web Apps-Server in Ihrer Bereitstellung. Fügen Sie die folgenden Informationen ein:'
-ms.openlocfilehash: 9f0d9680e57dd55b0a4370364aff23c7f37f57a4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Der Assistent zum Definieren eines neuen Office-webapps-Servers definiert einen neuen Office-webapps-Server in Ihrer Bereitstellung. Geben Sie die folgenden Informationen ein:'
+ms.openlocfilehash: 9e1726ea4b536e46fdbca5ec3eddce25358cbbbb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820717"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218726"
 ---
 # <a name="add-office-web-apps-server"></a>Hinzufügen von Office Web Apps-Servern
 
-Der Assistent zum **Definieren eines neuen Office Web Apps-Servers** definiert einen neuen Office Web Apps-Server in Ihrer Bereitstellung. Fügen Sie die folgenden Informationen ein:
+Der Assistent zum **Definieren eines neuen Office-webapps-Servers** definiert einen neuen Office-webapps-Server in Ihrer Bereitstellung. Geben Sie die folgenden Informationen ein:
 
- **Office Web Apps Server-FQDN**: Geben Sie den vollqualifizierten Domänennamen des Servers ein, auf dem der Office Web Apps-Server gehostet werden soll.
+ **Office-webapps-Server-FQDN**: Geben Sie den vollqualifizierten Domänennamen des Servers ein, auf dem der Office-webapps-Server gehostet wird.
 
- **Office Web Apps Server Discovery-URL**: Geben Sie den vollständigen URL (Uniform Resource Locator) des Office Web Apps-Servers ein.
+ **Office webapps Server Discovery-URL**: Geben Sie den vollständigen URL (Uniform Resource Locator) des Office-webapps-Servers ein.
 
 > [!TIP]
-> Das Standardverhalten der **Office Web Apps Server Discovery-URL** besteht im Erstellen der URL basierend auf dem FQDN des Office Web Apps-Servers im Format: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . Normalerweise ist es nicht erforderlich, das Standardformat zu ändern. Möglicherweise müssen Sie das Standardformat für den Fall ändern, dass der Office Web Apps-Server und die Office Web Apps Server Discovery-URL unterschiedlich sein müssen. Beispielsweise wird der Office Web Apps-Server im Umkreisnetzwerk gespeichert, und es wird eine andere URL basierend auf dem Standort vorhanden sein.
+> Das Standardverhalten der **Office webapps Server Discovery-URL** besteht darin, die URL basierend auf dem FQDN des Office-webapps-Servers im folgenden Format zu erstellen: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . In den meisten Fällen ist es nicht erforderlich, das Standardformat zu ändern. Möglicherweise müssen Sie das Standardformat ändern, falls der Office-webapps-Server und die Office-webapps-Server Erkennungs-URL unterschiedlich sein müssen. Beispielsweise wird Ihr Office-webapps-Server im Umkreisnetzwerk gespeichert, und es wird eine andere URL auf der Grundlage des Speicherorts angegeben.
 
- **Office Web Apps Server wird in einem externen Netzwerk bereitgestellt (also Umkreis/Internet)**: Aktivieren Sie das Kontrollkästchen, wenn der Office Web Apps-Server außerhalb ihrer internen Firewall wie dem Umkreisnetzwerk, externen Netzwerk oder einer anderen Netzwerkzone, die nicht mit Ihrem internen Netzwerk identisch ist, positioniert wird.
+ **Office Web Apps Server wird in einem externen Netzwerk (Perimeter/Internet) bereitgestellt**: Aktivieren Sie das Kontrollkästchen, wenn Ihr Office Web Apps-Server außerhalb ihrer internen Firewall wie das Umkreisnetzwerk, das externe Netzwerk oder eine andere Netzwerkzone positioniert ist, die nicht mit dem internen Netzwerk identisch ist.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Komponenten und Topologien für Konferenzen](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

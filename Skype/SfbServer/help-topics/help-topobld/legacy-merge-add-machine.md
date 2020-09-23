@@ -8,22 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
-description: Geben Sie zum Bestimmen der Computer, die den Edgeserverpool bilden sollen, den vollqualifizierten Domänennamen mindestens eines Computers an, der zum konsolidierten Legacy-Edgepool mit Lastenausgleich gehört.
-ms.openlocfilehash: 80e078b9555c56121c6f21c13152f6e437369b5b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Geben Sie zum Definieren der Computer, die den Edgeserver Pool bilden, den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) von mindestens einem Computer ein, der zum konsolidierten Edgepool mit Lastenausgleich der Vorgängerversion gehört.
+ms.openlocfilehash: b303a9b5e083e3646f3e39e74782d4810d3d473c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819777"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218486"
 ---
 # <a name="legacy-merge-add-machine"></a>Legacyzusammenführung – Hinzufügen eines Computers
  
-Geben Sie zum Bestimmen der Computer, die den Edgeserverpool bilden sollen, den vollqualifizierten Domänennamen mindestens eines Computers an, der zum konsolidierten Legacy-Edgepool mit Lastenausgleich gehört. 
+Geben Sie zum Definieren der Computer, die den Edgeserver Pool bilden, den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) von mindestens einem Computer ein, der zum konsolidierten Edgepool mit Lastenausgleich der Vorgängerversion gehört. 
   
 

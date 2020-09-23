@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
-description: Der externe FQDN für Webkonferenzen ermöglicht externen Benutzern, an lokalen Besprechungen teilzunehmen. Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der externen Webkonferenz Schnittstelle des Legacy Edge-Servers ein.
-ms.openlocfilehash: 19e508bdaaf44f64b3d907070d96a3691ce611c0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Über den externen FQDN für Webkonferenzen können externe Benutzer an lokalen Besprechungen teilnehmen. Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der externen Webkonferenzschnittstelle des Legacyedgeservers an.
+ms.openlocfilehash: 984d40f8797a974a5865cca37ba1057dc638d886
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819687"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217996"
 ---
 # <a name="legacy-merge"></a>Legacyzusammenführung
 
-Der **externe FQDN für Webkonferenzen** ermöglicht externen Benutzern, an lokalen Besprechungen teilzunehmen. Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der externen Webkonferenz Schnittstelle des Legacy Edge-Servers ein.
+Über den externen FQDN für Webkonferenzen**** können externe Benutzer an lokalen Besprechungen teilnehmen. Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der externen Webkonferenzschnittstelle des Legacyedgeservers an.
 
-Der externe **Portwert externer Webkonferenzen** von **443** ist das standardmäßige TCP-Protokoll (Transmission Control Protocol), das für Konferenz Clients konfiguriert ist. Wenn der Standardwert nicht verwendet wurde, aktualisieren Sie den externen **Port-Wert externer Webkonferenzen** .
+Der Wert **443** des externen Ports für externe Webkonferenzen**** ist der für Konferenzclients konfigurierte TCP-SIP-Standardport (Transmission Control Protocol) (Session Initiation Protocol). Wenn der Standardwert nicht verwendet wurde, aktualisieren Sie diesen Wert****.
 
-Aktivieren Sie das Kontrollkästchen **dieser Edge-Pool wird für Verbund-und öffentliche Chat Verbindungen verwendet** , wenn Sie diesen Edgeserver für Föderation verwenden möchten. Wenn Sie mehrere Edgeserver bereitgestellt haben, wird nur einer dieser Server für den Verbund aktiviert. Wenn Sie dieses Kontrollkästchen nicht aktivieren und später entscheiden, dass Sie den Verbund aktivieren möchten, müssen Sie den Zusammenführungs-Assistenten für Topologie-Builder erneut ausführen und Ihre Topologie veröffentlichen. Ausführliche Informationen finden Sie unter [Phase 4: Zusammenführen von Topologien](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).
+Aktivieren Sie das Kontrollkästchen **Dieser Edgepool wird für den Partnerverbund und die Verbindung mit öffentlichen Instant Messaging-Diensten verwendet**, wenn dieser Edgeserver für den Partnerverbund verwendet werden soll. Bei Bereitstellung mehrerer Edgeserver wird nur einer dieser Server für den Partnerverbund aktiviert. Wenn Sie dieses Kontrollkästchen nicht aktivieren und den Partnerverbund zu einem späteren Zeitpunkt aktivieren möchten, müssen Sie den Zusammenführungs-Assistenten des Topologie-Generators erneut ausführen und Ihre Topologie veröffentlichen. Ausführliche Informationen finden Sie unter [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).
 
 
