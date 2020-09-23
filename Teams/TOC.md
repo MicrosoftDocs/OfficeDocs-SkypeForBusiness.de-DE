@@ -8,9 +8,11 @@
 
 # Schulungen
 ## [Übersicht](training-microsoft-teams-landing-page.md)
-## [Kursleitergeführte Schulung für Teams](instructor-led-training-teams-landing-page.yml)
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
 ## [Microsoft Teams-Schulungen für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Teams Sitzungen bei Ignite 2020](ignite-2020-landing-page.md)
+## [Teams-Liveschulung](instructor-led-training-teams-landing-page.yml)
+## [Teams-Online-Schulung](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Bereitstellen von Teams](How-to-roll-out-teams.md)
@@ -76,8 +78,6 @@
 #### [Problembehandlung beim Gastzugriff](troubleshoot-guest-access.md)
 ## [Cortana in Teams](cortana-in-teams.md)
 
-
-
 ## Verwalten von Teams
 ### [Administratorrollen](using-admin-roles.md)
 ### [Verwalten von Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
@@ -118,16 +118,18 @@
 ## [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ## [Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors](Office-365-custom-connectors.md)
 ## [Ressourcenspezifische Zustimmung](resource-specific-consent.md)
-## [Eine benutzerdefinierte App veröffentlichen, die über die Teams App Submission API eingereicht wurde](submit-approve-custom-apps.md)
-## [Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen](upload-custom-apps.md)
+## Benutzerdefinierte Apps
+### [Eine benutzerdefinierte App veröffentlichen, die über die Teams-App Submission API eingereicht wurde](submit-approve-custom-apps.md)
+### [Verwalten von Power Platform-Apps im Microsoft Teams Admin Center](manage-power-platform-apps.md)
+### [Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen](upload-custom-apps.md)
 ## [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [App-Berechtigungen und Erwägungen](app-permissions.md).
 ## [Dienste für Teams von Drittanbieter-Apps kaufen](purchase-third-party-apps.md)
 ## [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Verwalten der Listen-App für Ihre Organisation in Teams](manage-lists-app.md)
 ## [Verwalten der Aufgaben-App für Ihre Organisation](manage-tasks-app.md)
-## [Verwalten der Lob-App im Admin Center von Teams](manage-praise-app.md)
 ## [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md)
+## [Verwalten der Lob-App im Admin Center von Teams](manage-praise-app.md)
 ## [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -719,6 +721,7 @@
 ### [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md)
 ### [Sichere Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [AppLocker-Anwendungssteuerungsrichtlinien](applocker-in-teams.md)
+### [Blockieren des Zugriffs auf SharePoint](block-access-sharepoint.md)
 ## Compliance
 ### [Informationsbarrieren](information-barriers-in-teams.md)
 ### [Aufbewahrungsrichtlinien](retention-policies.md)
@@ -733,7 +736,12 @@
 #### [Suchen nach Überwachungsprotokoll für Ereignisse](audit-log-events.md)
 ## Datenschutz
 ### [Datenschutz und Microsoft Teams](teams-privacy.md)
+### [Datensammlungsverfahren](data-collection-practices.md)
 ### [Speicherort von Daten in Teams](location-of-data-in-teams.md)
+### [Blockieren des Zugriffs auf SharePoint für bestimmte Benutzer](block-access-sharepoint.md)
+### [Übersicht über die Zugriffssteuerung](policy-control-overview.md)
+### [Mobile Diagnosedaten](policy-control-diagnostic-data-mobile.md)
+### [Diagnosedaten für Desktop Clients](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
@@ -779,9 +787,7 @@
   
 # Referenz
 
-## [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
-## [Speicherort von Daten in Teams](location-of-data-in-teams.md)
-## [Datensammlungsverfahren](data-collection-practices.md)
+## [Grenzwerte und Daten für Teams](limits-specifications-teams.md)
 
 ## Vorbereiten der Bereitstellung von Teams
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
@@ -979,5 +985,5 @@
 ### [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 ## [Fragebogen für die Upgradeermittlung](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Exportieren von Inhalten mit Microsoft Teams Export-API](export-teams-content.md)
 ## [Versionshinweise für Teams-Administratorfunktionen](release-notes/release-notes.md)
