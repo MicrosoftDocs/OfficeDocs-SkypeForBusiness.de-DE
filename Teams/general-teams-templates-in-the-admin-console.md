@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171119"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216696"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Verwenden von allgemeinen Teams-Vorlagen in der Admin-Konsole
 
@@ -81,7 +81,7 @@ Sie haben möglicherweise keinen Zugriff auf bestimmte apps basierend auf Ihrer 
 
 ## <a name="onboard-employees"></a>Onboard-Mitarbeiter
 
-Verbessern Sie Ihre Kultur, und optimieren Sie Ihre Mitarbeiter mit diesem zentralen Team für Ressourcen, Fragen und ein wenig Spaß.
+Verbessern Sie Ihre Kultur, und optimieren Sie Ihre Mitarbeiter an Bord mit diesem zentralen Team für Ressourcen, Fragen und ein wenig Spaß.
 
 | Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|- |----------------------------------------------------- |

@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
-description: Beim nächsten Hop für den Edge-Pool handelt es sich um einen Front-End-Pool (der entweder ein Enterprise-Pool oder ein Standard Edition-Server sein kann), oder wenn Ihre Bereitstellung einen Director umfasst, ist der nächste Hop der Director.
-ms.openlocfilehash: 3714e2f4ae3f9731254a8f7d028f0c3b7cc0d3a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Der nächste Hop für den Edgepool ist ein Front-End-Pool (Dies kann entweder ein Enterprise-Pool oder ein Standard Edition-Server sein), oder, wenn Ihre Bereitstellung einen Director enthält, ist der nächste Hop der Director.
+ms.openlocfilehash: 9f26f0dfdc730219192ba51d6aed7e1e2c259454
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820997"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216336"
 ---
 # <a name="add-edge-server-next-hop"></a>Hinzufügen des nächsten Hops für den Edgeserver
 
-Beim nächsten Hop für den Edge-Pool handelt es sich um einen Front-End-Pool (der entweder ein Enterprise-Pool oder ein Standard Edition-Server sein kann), oder wenn Ihre Bereitstellung einen Director umfasst, ist der nächste Hop der Director.
+Der nächste Hop für den Edgepool ist ein Front-End-Pool (Dies kann entweder ein Enterprise-Pool oder ein Standard Edition-Server sein), oder, wenn Ihre Bereitstellung einen Director enthält, ist der nächste Hop der Director.
 
-Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie in der Edgeserver-Bereitstellungsdokumentation unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in der Edgeserver-Bereitstellungsdokumentation.
 
 

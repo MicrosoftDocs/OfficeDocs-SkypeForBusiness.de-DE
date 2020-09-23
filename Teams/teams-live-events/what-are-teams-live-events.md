@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902290"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203958"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -65,6 +65,9 @@ Die Videoeingabe ist die Grundlage des Liveereignisses und kann von einer einzel
 - **Externe Apps oder Geräte**: Externe Encoder ermöglichen Benutzern, ihre Liveereignisse direkt von einem externen hardware- oder softwarebasierten Encoder aus mit [Stream](https://stream.microsoft.com) zu produzieren. Diese Option ist am besten, wenn Sie bereits über Geräte mit Studioqualität verfügen (z. B. Medien-Mixer), die das Streaming an einen RTMP-Dienst (Real-time Messaging Protocol) unterstützen. Diese Art von Produktion wird in der Regel für großmaßstäbige Ereignisse wie Town Halls der Geschäftsleitung verwendet, bei denen ein Stream von einem Medien-Mixer für das Publikum übertragen wird. 
 
     ![Screenshot eines Liveereignisses, das mithilfe einer externen App oder einem externen Gerät produziert wurde](../media/teams-live-events-external-encoder.png "Screenshot eines Liveereignisses, das mithilfe der Produktionsmethode für externe Anwendungen oder Geräte produziert wird")
+
+>[!Note]
+> Die Änderung von der Verwendung von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) ist ein Phasen orientierter Ansatz. Beim Start können Sie sich für diese Erfahrung entscheiden, im November müssen Sie sich abmelden, wenn Sie den Datenstrom weiterhin verwenden möchten, und einige Zeit in frühen 2021 werden wir alle Kunden dazu auffordern, OneDrive for Business und SharePoint für neue Besprechungsaufzeichnungen zu verwenden.
 
 ### <a name="streaming-platform"></a>Streaming-Plattform
 Die Liveereignis-Streamingplattform besteht aus den folgenden Bestandteilen:

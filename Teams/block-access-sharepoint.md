@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen zum Blockieren des Zugriffs auf SharePoint für bestimmte Benutzer
-ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135929"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203838"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Blockieren des Zugriffs auf SharePoint für bestimmte Benutzer
 
@@ -40,7 +40,7 @@ Sie können den Zugriff sperren oder einschränken für:
 
 Wenn Access blockiert ist, wird eine Fehlermeldung angezeigt. Das Blockieren des Zugriffs hilft, Sicherheit zu gewährleisten und sichere Daten zu schützen. Wenn Access blockiert ist, wird eine Fehlermeldung angezeigt.
 
-1. Öffnen Sie das SharePoint [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+1. Öffnen Sie das SharePoint Admin Center.
 
 2. Erweitern Sie **Richtlinien**  >  **Zugriffsrichtlinien**.
 

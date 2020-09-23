@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581356"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203718"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 ==================================================
@@ -31,6 +31,9 @@ Mit Registerkarten können Teammitglieder auf Dienste und Inhalte in einem dediz
 Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem Gruppenchat Registerkarten hinzufügen, um ihre Clouddienste besser integrieren zu können. Sie können Registerkarten hinzufügen, um Benutzern den einfachen Zugriff auf und das Verwalten der Daten zu ermöglichen, die Sie benötigen, oder mit den meisten interagieren. Hierbei kann es sich um einen Power BI-Bericht, ein Dashboard oder sogar einen [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) -Videokanal handeln, in dem Sie Schulungsvideos veröffentlichen.
 
 ![Drei Screenshots mit verschiedenen Inhalten von Registerkarten](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+
+>[!Note]
+> Die Änderung von der Verwendung von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) ist ein Phasen orientierter Ansatz. Beim Start können Sie sich für diese Erfahrung entscheiden, im November müssen Sie sich abmelden, wenn Sie den Datenstrom weiterhin verwenden möchten, und einige Zeit in frühen 2021 werden wir alle Kunden dazu auffordern, OneDrive for Business und SharePoint für neue Besprechungsaufzeichnungen zu verwenden.
 
 ## <a name="work-with-tabs"></a>Arbeiten mit Registerkarten
 

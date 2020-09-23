@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f330b183a02654f6c56cad27332fcc9ed81d93f4
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542869"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203818"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Erweitertes Kommunikations-Add-on für Microsoft Teams
 
@@ -71,7 +71,10 @@ Ab dem 4. August 2020 steht eine 60-tägige Testversion zur Verfügung. Sie kön
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>Unterschied zwischen Überlauf Besprechungen und Live Ereignissen
 
-Mit der erweiterten Kommunikation bietet jede Besprechung mit mehr als 300 Teilnehmern eine Möglichkeit für bis zu 1.000 Teilnehmer, eine interaktive Erfahrung zu führen, und bis zu 20.000 Teilnehmer können an einer Besprechung teilnehmen, die nur eine reine Ansicht ist. Live-Ereignis ermöglicht zusätzliche Funktionen. In Live-Ereignissen können 20.000-Teilnehmer die Übertragung beobachten und mit Q&A in Teams, Unterhaltungen in "jammern" oder "nur anzeigen" in Microsoft Stream interagieren. Darüber hinaus erhöhen wir die Länge der Live-Ereignisse von 4 Stunden auf 16 Stunden und ermöglichen bis zu 50 gleichzeitige Live-Events pro Mandant.  
+Mit der erweiterten Kommunikation bietet jede Besprechung mit mehr als 300 Teilnehmern eine Möglichkeit für bis zu 1.000 Teilnehmer, eine interaktive Erfahrung zu führen, und bis zu 20.000 Teilnehmer können an einer Besprechung teilnehmen, die nur eine reine Ansicht ist. Live-Ereignis ermöglicht zusätzliche Funktionen. In Live-Ereignissen können 20.000-Teilnehmer die Übertragung beobachten und mit Q&A in Teams, Unterhaltungen in "jammern" oder "nur anzeigen" in Microsoft Stream interagieren. Darüber hinaus erhöhen wir die Länge der Live-Ereignisse von 4 Stunden auf 16 Stunden und ermöglichen bis zu 50 gleichzeitige Live-Events pro Mandant. 
+
+>[!Note]
+> Die Änderung von der Verwendung von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) ist ein Phasen orientierter Ansatz. Beim Start können Sie sich für diese Erfahrung entscheiden, im November müssen Sie sich abmelden, wenn Sie den Datenstrom weiterhin verwenden möchten, und einige Zeit in frühen 2021 werden wir alle Kunden dazu auffordern, OneDrive for Business und SharePoint für neue Besprechungsaufzeichnungen zu verwenden.
 
 > [!NOTE]
 > Enterprise-und Education-SKUs können vorübergehend Live Ereignisse für bis zu 20.000 Teilnehmer mit einer Ereignisdauer von 16 Stunden pro Broadcast und 50 gleichzeitigen Ereignissen innerhalb eines Mandanten bis zum 1. Oktober 2020 speichern.

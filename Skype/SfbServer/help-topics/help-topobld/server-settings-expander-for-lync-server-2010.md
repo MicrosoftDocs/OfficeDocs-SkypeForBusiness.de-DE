@@ -8,33 +8,33 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
-description: 'Gehen Sie wie folgt vor, um die Eigenschaften für diesen Computer zu bearbeiten:'
-ms.openlocfilehash: 0f8a1a31c593c792ff4872d0e104c6aadabcd819
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Führen Sie die folgenden Schritte aus, um die Eigenschaften für diesen Computer zu bearbeiten:'
+ms.openlocfilehash: c0eb39a516cbcce18940abe7936747fc18db9761
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819297"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215696"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Servereinstellungen für Lync Server 2010 – Erweiterung
  
-Gehen Sie wie folgt vor, um die Eigenschaften für diesen Computer zu bearbeiten:
+Führen Sie die folgenden Schritte aus, um die Eigenschaften für diesen Computer zu bearbeiten:
   
-- Bearbeiten Sie den **vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN)** für diesen Computer. Dieser Eintrag muss mit dem Computernamen übereinstimmen, wie er im DNS (Domain Name System) definiert ist, sowie in "Subject Alternative Names (San)" oder "Subject Name (SN)" des Zertifikats, das diesem Computer zugeordnet ist.
+- Bearbeiten Sie unter **Vollqualifizierter Domänenname (FQDN)** den FQDN für diesen Computer. Dieser Eintrag muss mit dem Computernamen übereinstimmen, der im Domain Name System (DNS) und in den alternativen Antragstellernamen (SAN) bzw. Antragstellernamen (SN) des Zertifikats für diesen Computer angegeben ist.
     
 - Wählen Sie eine der folgenden Optionen aus:
     
-    **Alle konfigurierten IP-Adressen verwenden**: Wählen Sie diese Option aus, um alle konfigurierten IP-Adressen auf dem Computer zu verwenden.
+    **Alle konfigurierten IP-Adressen verwenden**: Wählen Sie diese Option aus, um alle auf dem Computer konfigurierten IP-Adressen zu verwenden.
     
     > [!IMPORTANT]
-    > Wenn der Computer über mehrere IP-Adressen verfügt, müssen Sie beachten, dass die diesem Computer zugeordneten Dienste alle IP-Adressen für alle Dienste verwenden werden. Wenn ein Überwachungsserver oder-Dienst die Kommunikation mit einer bestimmten IP-Adresse und einem Port erwartet, kann der Dienst möglicherweise nicht die beste Auswahl für die IP-Adresse treffen, die Sie abhören möchten. 
+    > Beachten Sie bei mehreren auf dem Computer vorhandenen IP-Adressen, dass für die Dienste, die diesem Computer zugeordnet sind, alle IP-Adressen für alle Dienste verwendet werden. Wenn ein Überwachungsserver oder -dienst eine Kommunikation von einer bestimmten IP-Adresse und dem dazugehörigen Port erwartet, wird für den Dienst möglicherweise nicht die beste IP-Adresse für die Überwachung gewählt. 
   
-    **Einschränken der Dienstnutzung auf ausgewählte IP-Adressen**: Wählen Sie diese Option aus, wenn Sie bestimmte IP-Adressen für die **primäre IP-Adresse** definieren möchten, die dieser Computer für die Kommunikation von anderen Computern und Pools in der Bereitstellung überwacht. Definieren Sie die **PSTN-IP-Adresse** für die spezifische IP-Adresse, die der Computer und Dienst für die Kommunikation überwacht, und senden Sie die Kommunikation an das definierte PSTN-Gateway oder die IP-Telefonanlage.
+    **Dienstnutzung auf die ausgewählten IP-Adressen beschränken**: Wählen Sie diese Option aus, wenn Sie bestimmte IP-Adressen als **Primäre IP-Adresse** definieren möchten, über die der Computer eine Kommunikation mit anderen Computern und Pools der Bereitstellung erwartet. Definieren Sie die **PSTN-IP-Adresse** für die jeweilige IP-Adresse, über die der Computer und der Dienst die Kommunikation erwartet und Kommunikationsdaten an das definierte PSTN-Gateway oder die Festnetztelefonanlage sendet.
     
 

@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 1740e36c496b4df4df796d00d2be6a644ae0933b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177438"
+ms.locfileid: "48209484"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams-Sitzungen bei Ignite 2020
 
@@ -55,7 +55,7 @@ ms.locfileid: "48177438"
 | Titel | Abstrakt            | Ebene| Redner |
 |---|----------|---|---|---|
 |[Einführung in virtuelle Ereignisse: bewährte Methoden für Organisatoren und Produzenten](https://aka.ms/PR101)|In dieser Lektion zur realen Welt wird unser virtuelles Event-Manuskript für Event-Organisatoren und IT-Experten überprüft.  Erfahren Sie, was Sie von Karuana Gatimu, dem technischen Hersteller von wichtigen Flaggschiff-Events für Microsoft Teams Engineering während der ersten Phase der Pandemie wissen müssen.   Informieren Sie sich über den Microsoft-Übergang zu virtuellen Ereignissen und erfahren Sie, wie Sie Teambesprechungen und Live-Events verwenden können, um überzeugende Ereignisse zu liefern, mit denen Ihre Organisation verbunden bleibt.  |300|Karuana Gatimu, Appiah|
-|[Deep Dive on Governance für Office 365-Gruppen und Microsoft Teams](https://aka.ms/PR102)|Sehen Sie sich diese Hands bei der Demonstration von Governance-capabilties und-Tools an, mit denen Sie die Benutzeroberfläche von Microsoft Teams verwalten und Ihnen Vertrauen in die Sicherheit und Compliance Ihrer Informationen geben können. Umfasst die Konfiguration der Azure Active Director-Add-on-Funktionen. |300|Karuana Gatimu|
+|[Deep Dive on Governance für Office 365-Gruppen und Microsoft Teams](https://aka.ms/PR102)|Sehen Sie sich diese Hands an, um die Governance-Funktionen und-Tools zu demonstrieren, mit denen Sie die Benutzererfahrung von Microsoft Teams verwalten und Ihnen Vertrauen in die Sicherheit und Compliance Ihrer Informationen geben können. Umfasst die Konfiguration der Azure Active Director-Add-on-Funktionen. |300|Karuana Gatimu|
 |[Einführung in die Industrie – spezielle Szenarien und Funktionen für First-, gemeinnützige, Gesundheits-und mehr.](https://aka.ms/PR121)|In dieser Szenario-basierten Sitzung werden die vorhandenen und neuen Features im Kontext der IT-Experten überprüft, die Sie bereitstellen müssen.  Einschließlich Endbenutzer-und ITPro-Vorlagen, Mobile Features|200|Karuana Gatimu, Kathy Minnis|
 |[Sind Sie bereit, Microsoft Teams bereitzustellen?](https://aka.ms/PR127) |In dieser Sitzung werden wir alle wichtigen Produkte und Ressourcen durchlaufen, die Ihnen helfen können, sicherzustellen, dass Ihr Team-Rollout erfolgreich ist. Von Tools und Ressourcen zu bewährten Methoden: diese Sitzung muss teilnehmen, wenn die Planung und Bereitstellung von Teams in Ihrer Aufgabenliste liegt!|300|Stephen Rose|
 |[Teams-Bereitstellung und Microsoft-Endpunkt-Manager](https://aka.ms/PR122)|Anzeigen von Hands zu Demonstrationen rund um bewährte Methoden, die Ihnen beim Bereitstellen und Verwalten von Microsoft Teams über Endpunkt-Manager helfen|300|Mayunk Jain, Mayank Verma|

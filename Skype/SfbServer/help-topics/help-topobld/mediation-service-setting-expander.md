@@ -8,22 +8,22 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
-description: Verwenden Sie diese Seite, um die Abhör Anschlüsse für diesen Vermittlungs Server festzulegen und seine Zuordnungen mit PSTN-Gateways (Public Switched Telephone Network) festzulegen.
-ms.openlocfilehash: 9b678269905c54d225b276ea2c937adacb6eb826
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Auf dieser Seite können Sie die Überwachungsports für diesen Vermittlungsserver bestimmen und seine Zuordnungen zu PSTN-Gateways (Public Switched Telephone Network) einrichten.
+ms.openlocfilehash: b771538ec5ff6bbd7eb0cf24be7574278f3428e8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819577"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215116"
 ---
 # <a name="mediation-service-setting-expander"></a>Einstellung für den Vermittlungsdienst – Erweiterung
  
-Verwenden Sie diese Seite, um die Abhör Anschlüsse für diesen Vermittlungs Server festzulegen und seine Zuordnungen mit PSTN-Gateways (Public Switched Telephone Network) festzulegen. 
+Auf dieser Seite können Sie die Überwachungsports für diesen Vermittlungsserver bestimmen und seine Zuordnungen zu PSTN-Gateways (Public Switched Telephone Network) einrichten. 
   
 
