@@ -8,24 +8,24 @@ ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerIsSingleFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
-description: Informationen zur einzelnen FQDN-Seite des Edgeservers.
-ms.openlocfilehash: a9a4fcd3f596fac06922cea047ead9cbf29c47f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Informationen auf Edgeserver einzelnen FQDN-Seite.
+ms.openlocfilehash: 5fd25045d9dff3922d3c6aac9e79c98dec2414b1
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820957"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216346"
 ---
-# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="e5135-103">Hinzufügen von Edgeservern mit einer einzelnen FQDN-Seite</span><span class="sxs-lookup"><span data-stu-id="e5135-103">Add Edge Server With Single FQDN Page</span></span>
+# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="49747-103">Hinzufügen von Edgeservern mit einer einzelnen FQDN-Seite</span><span class="sxs-lookup"><span data-stu-id="49747-103">Add Edge Server With Single FQDN Page</span></span>
  
-<span data-ttu-id="e5135-104">Informationen zur einzelnen FQDN-Seite des Edgeservers.</span><span class="sxs-lookup"><span data-stu-id="e5135-104">Information on Edge Server Single FQDN Page.</span></span>
+<span data-ttu-id="49747-104">Informationen auf Edgeserver einzelnen FQDN-Seite.</span><span class="sxs-lookup"><span data-stu-id="49747-104">Information on Edge Server Single FQDN Page.</span></span>
   
-<span data-ttu-id="e5135-105">Informationen zur Edge-Bereitstellung finden Sie unter [Bereitstellen eines Edge-Servers in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="e5135-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
+<span data-ttu-id="49747-105">Informationen zur Edge-Bereitstellung finden Sie unter [Deploy Edgeserver in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="49747-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
   
 

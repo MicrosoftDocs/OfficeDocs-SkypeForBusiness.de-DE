@@ -12,18 +12,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
-description: Themen zur Topologie-Builder
-ms.openlocfilehash: e1c4a3ebe97e6a386743cfd0eda0519ec6cf1852
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Themen zum Topologie-Generator
+ms.openlocfilehash: 6497f0ae39b8e94e9303100a29408cb425285ad4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819837"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215376"
 ---
-# <a name="help-topobld"></a><span data-ttu-id="bdc8f-103">Help-TopoBld</span><span class="sxs-lookup"><span data-stu-id="bdc8f-103">Help-TopoBld</span></span>
+# <a name="help-topobld"></a><span data-ttu-id="dd0a4-103">Help-TopoBld</span><span class="sxs-lookup"><span data-stu-id="dd0a4-103">Help-TopoBld</span></span>
  
-<span data-ttu-id="bdc8f-104">Dieser Knoten enthält Hilfethemen für den Skype for Business Server-Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="bdc8f-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
-  
-
-  
-
+<span data-ttu-id="dd0a4-104">Dieser Knoten enthält Hilfethemen für den Skype for Business Server Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="dd0a4-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
