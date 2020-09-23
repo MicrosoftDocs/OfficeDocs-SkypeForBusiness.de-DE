@@ -8,23 +8,23 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
-description: 'Wenn Sie die Einstellungen für einen vorhandenen Director bearbeiten möchten, werden Ihnen die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: e6fb587484cd4024e69c8630e49f95a978ec747a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden die folgenden Abschnitte angezeigt:'
+ms.openlocfilehash: 261593cd7b1f8f79588462cb57eb8ecc517dd4a3
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820127"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218986"
 ---
 # <a name="director-general-settings-expander"></a>Allgemeine Einstellungen für Director – Erweiterung
  
-Wenn Sie die Einstellungen für einen vorhandenen Director bearbeiten möchten, werden Ihnen die folgenden Abschnitte angezeigt:
+Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden die folgenden Abschnitte angezeigt:
   
 - Allgemeine Einstellungen
     
@@ -34,34 +34,34 @@ Wenn Sie die Einstellungen für einen vorhandenen Director bearbeiten möchten, 
 
 ## <a name="general-settings"></a>Allgemeine Einstellungen
 
-Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Director-Pools. Bearbeiten Sie den FQDN des Servers, um den Wert zu ändern. Sie müssen über einen DNS-A-Eintrag (Domain Name System) verfügen, der mit dem neuen Wert übereinstimmt.
+Vollqualifizierter Domänenname (FQDN) des Director-Pools. Bearbeiten Sie den FQDN des Servers, um den Wert zu ändern. Sie müssen über einen DNS-A-Eintrag (Domain Name System) verfügen, der mit dem neuen Wert übereinstimmt.
   
 In **Zuordnungen** können Sie Folgendes bearbeiten oder angeben:
   
-Dateifreigabe, die der Director-Pool verwenden soll. Wählen Sie eine vorhandene Dateifreigabe aus, die bereits im Topologie-Generator definiert wurde, oder klicken Sie auf **neu** , um eine neue Dateifreigabe Definition zu erstellen.
+Dateifreigabe für den zu verwendenden Director-Pool. Wählen Sie eine vorhandene Dateifreigabe aus, die bereits im Topologie-Generator definiert wurde, oder klicken Sie auf **neu** , um eine neue Dateifreigabe Definition zu erstellen.
   
-Überwachen des SQL Server-Speichers
+SQL Server-Speicher für Überwachung.
   
 > [!IMPORTANT]
-> Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein. Wenn Sie eine neue Dateifreigabe erstellt haben, muss die Dateifreigabe auf dem von Ihnen festgelegten Server erstellt werden. 
+> Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein. Wenn Sie eine neue Dateifreigabe erstellen, muss die Dateifreigabe auf dem angegebenen Server erstellt werden. 
   
 ## <a name="web-services"></a>Webdienste
 
-Zum Bearbeiten oder angeben zusätzlicher Einstellungen für die Webdienste im Director-Pool ändern oder spezifizieren Sie die Einstellungen in den internen Webdiensten und externen Webdiensten.
+Wenn Sie zusätzliche Einstellungen für die Webdienste im Director-Pool bearbeiten oder angeben möchten, müssen Sie die Einstellungen in den internen und externen Webdiensten ändern oder angeben.
   
-Bei **internen Webdiensten** können Sie Folgendes angeben:
+Für **Interne Webdienste** können Sie Folgendes angeben:
   
 > [!CAUTION]
-> Wenn Sie über mehr als einen Front-End-Pool oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN eines externen Webdiensts eines Front-End-Servers als **pool01.contoso.com**definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie Directors auch bereitstellen, müssen die für Director-oder Director-Pools definierten externen Webdienst-FQDN für jeden anderen Director-oder Director-Pool sowie für jeden Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie sich entscheiden, die internen Webdienste mit einem selbst definierten FQDN zu überschreiben, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+> Wenn Sie mehr als eine Front-End-Pool oder Front-End-Server der FQDN der externen Webdienste eindeutig sein muss. Wenn Sie beispielsweise den externen Webdienste-FQDN eines Front-End-Server als **pool01.contoso.com**definieren, können Sie **pool01.contoso.com** nicht für eine andere Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN für externe Webdienste, der für einen Director-oder Directorpool definiert ist, von einem anderen Director oder Directorpool sowie von Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN außer Kraft setzen möchten, muss jeder FQDN von jedem anderen Front-End-Pool, Director oder einem Directorpool eindeutig sein.
   
-Wenn Sie Vollqualifizierten Domänennamen außer Kraft setzen auswählen, können Sie einen anderen FQDN für die Identität Interne Webdienste im Pool angeben. Standardmäßig ist die Einstellung der Name des aktuellen Pools, wie er für den Director-Pool definiert ist.
+Wenn Sie die Außerkraftsetzung des FQDN wählen, können Sie einen anderen FQDN für die Identität der internen Webdienste im Pool angeben. In der Standardeinstellung entspricht die Einstellung dem aktuellen Poolnamen, der für den Director-Pool definiert ist.
   
-Sie können Überwachungs-und veröffentlichte Ports für http und HTTPS angeben, die für die Bereitstellung erforderlich sind. Die Standardeinstellung von Port 80 für http und Port 443 für HTTPS sind die am häufigsten verwendeten Einstellungen, die normalerweise nicht geändert werden müssen, es sei denn, Sie verfügen über bestimmte Anforderungen innerhalb Ihres Unternehmens-und Infrastruktur Designs.
+Sie können für die Bereitstellung erforderliche Überwachungs- und veröffentlichte Ports für HTTP und HTTPS angeben. Die Standardeinstellungen von Port 80 für HTTP und Port 443 für HTTPS sind die gängigsten Einstellungen und müssen in der Regel nicht geändert werden, es sei denn, in Ihrem Organisations- und Infrastrukturentwurf liegen besondere Anforderungen vor.
   
-Bei **externen Webdiensten**können Sie Folgendes angeben:
+Für **Externe Webdienste** können Sie Folgendes angeben:
   
-Sie können den FQDN der externen Webdienste definieren. Der hier angegebene FQDN wird meist von den externen Verbindungsanforderungen bestimmt, z. B. dem Reverseproxy.
+Sie können den FQDN der externen Webdienste definieren. Der hier angegebene vollqualifizierte Domänenname wird meist von den externen Verbindungsanforderungen bestimmt, z. B. dem Reverseproxy.
   
-Sie können Überwachungs-und veröffentlichte Ports für http und HTTPS angeben, die für die Bereitstellung erforderlich sind. Die Standardeinstellungen von Port 8080 für http und Port 4443 für HTTPS werden zunächst definiert. Sie können diese Einstellungen für die Überwachungsports basierend auf den Anforderungen für den Reverseproxy und das externe Netzwerk ändern. Die veröffentlichten Ports sind auf Standard Port 80 für http und Port 443 für HTTPS eingestellt. Diese Werte legen fest, welche Ports der Director-Pool oder Director-Server auf eingehende Anforderungen überwacht. In der Regel müssen diese nicht geändert werden, es sei denn, es gibt einen Konflikt zwischen den Portanforderungen im Pool. Interne und externe veröffentlichte Ports, die die gleichen Portwerte verwenden, werden erwartet. Dies ist kein Konflikt.
+Sie können für die Bereitstellung erforderliche Überwachungs- und veröffentlichte Ports für HTTP und HTTPS angeben. Anfänglich sind die Standardeinstellungen (Port 8080 für HTTP und Port 4443 für HTTPS) definiert. Sie können diese Einstellungen für die Überwachungsports basierend auf den Anforderungen für den Reverseproxy und das externe Netzwerk ändern. Die veröffentlichten Ports sind auf die Standardeinstellungen Port 80 für HTTP und Port 443 für HTTPS festgelegt. Diese Werte bestimmen, an welchen Ports der Director-Pool oder Director-Server das System auf eingehende Anforderungen überwacht. Diese Werte müssen zumeist nicht geändert werden, es sei denn, es liegt ein Konflikt bei den Portanforderungen des Pools vor. Interne und externe veröffentlichte Ports mit denselben Portwerten werden erwartet. Dies stellt keinen Konflikt dar.
   
 

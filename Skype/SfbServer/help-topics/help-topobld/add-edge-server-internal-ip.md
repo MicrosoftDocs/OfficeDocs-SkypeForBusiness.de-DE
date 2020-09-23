@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerInternalIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
-description: Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des Edge-Servers.
-ms.openlocfilehash: df51ce72fa16205a42089fc668c99bc7170c10a1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des A/V-Edgeservers.
+ms.openlocfilehash: 99aa1ec3c7f7df15a755f7585cb39cfe3f9411b6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821037"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219176"
 ---
 # <a name="add-edge-server-internal-ip"></a>Hinzufügen der internen IP-Adresse des Edgeservers
 
-Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des Edge-Servers.
+Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des A/V-Edgeservers.
 
-Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie in der Edgeserver-Bereitstellungsdokumentation unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in der Edgeserver-Bereitstellungsdokumentation.
 
 

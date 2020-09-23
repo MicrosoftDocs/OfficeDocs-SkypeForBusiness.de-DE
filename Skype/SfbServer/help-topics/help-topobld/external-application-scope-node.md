@@ -8,33 +8,33 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools, Replikationseinstellungen und den nächsten Hoppool für diesen vertrauenswürdigen Anwendungspool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 1f92255c156cd7845385ae7368916177d4cbd2ca
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e913a227b3d5a16384b7f7503ae6e7be693c1736
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819967"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218826"
 ---
 # <a name="external-application-scope-node"></a>Externe Anwendung – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools, Replikationseinstellungen und den nächsten Hoppool für diesen vertrauenswürdigen Anwendungspool. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers ****, mit dem Sie diesem vertrauenswürdigen Anwendungspool einen weiteren Server hinzufügen können.
+- **Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers****, mit dem Sie diesem vertrauenswürdigen Anwendungspool einen weiteren Server hinzufügen können.
     
-- **Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen und den Port des internen und externen Pools festlegen, den Partnerverbund und die Netzwerkadressenübersetzung (NAT) aktivieren und deaktivieren und den nächsten Hoppool angeben können.
+- **Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen und Port des internen und externen Pools festlegen, den Partnerverbund und die Netzwerkadressenübersetzung (NAT) aktivieren und deaktivieren und den nächsten Hoppool angeben können.
     
 - **Löschen**: Dient zum Löschen des Pools aus der Topologie.
     
 Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:
   
-- **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren oder die Bereitstellung entfernen.
+- **Topologie**. Sie können diese Option verwenden, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren oder die Bereitstellung zu entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

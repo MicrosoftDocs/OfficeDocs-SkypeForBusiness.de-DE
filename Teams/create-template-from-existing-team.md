@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ee1c121f4d42e2d093a3b9eabef9adedd0605128
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135949"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219126"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Erstellen einer Vorlage aus einem vorhandenen Team in Microsoft Teams
 
@@ -32,35 +32,35 @@ ms.locfileid: "48135949"
 
 Microsoft Teams ermöglicht Ihnen, eine Vorlage aus einem vorhandenen Team zu erstellen, die gespeichert und geändert werden kann, um Ihre speziellen organisatorischen Anforderungen zu erfüllen.
 
-1. Melden Sie sich beim Team Admin Center an.
+1. Anmelden beim Team Admin Center.
 
 2. Erweitern Sie im linken Navigationsbereich **Teams**die  >  **Teamvorlagen**für Teams.
 
-3. Klicken Sie auf **Hinzufügen**.
+3. Wählen Sie **Hinzufügen**aus.
 
-4. Wählen Sie **vorhandenes Team als Vorlage verwenden**aus, und klicken Sie auf **weiter**.
+4. Wählen Sie **vorhandenes Team als Vorlage verwenden**aus, und wählen Sie **weiter**aus.
 
  ![Abbildung des Bildschirms "Startpunkt für Teamvorlagen" mit hervorgehobener Option "vorhandenes Team als Vorlage verwenden"](media/team-existing-team-as-template.png)
 
-5. Wählen Sie ein Team aus, das als Ausgangspunkt verwendet werden soll, indem Sie neben dem Teamnamen klicken und dann auf **weiter**klicken.
+5. Wählen Sie ein Team aus, das als Ausgangspunkt verwendet werden soll, indem Sie neben dem Teamnamen auswählen, und wählen Sie dann **weiter**aus.
 
 ![Eine Abbildung der Liste der Teams, in der ein Team hervorgehoben ist.](media/team-existing-team-selection.png)
 
-6. Füllen Sie im Abschnitt **Vorlageneinstellungen** die folgenden Felder aus, und klicken Sie dann auf **weiter**:
+6. Füllen Sie im Abschnitt **Vorlageneinstellungen** die folgenden Felder aus, und wählen Sie dann **weiter**aus:
     - Vorlagenname
     - Vorlagen für kurze und lange Beschreibungen
     - Gebietsschema Sichtbarkeit  
   
 7. Fügen Sie im Abschnitt **Kanäle, Registerkarten und apps** alle Kanäle und apps hinzu, die Ihr Team benötigt.
 
-    1. Klicken Sie im Abschnitt **Kanäle** auf **Hinzufügen**.
+    1. Wählen Sie im Abschnitt **Kanäle** die Option **Hinzufügen**aus.
     2. Geben Sie im Dialogfeld **Hinzufügen** den Namen des Kanals ein.
     3. Fügen Sie eine Beschreibung hinzu.
     4. Entscheiden Sie, ob der Kanal standardmäßig angezeigt werden soll.
-    5. Suchen Sie nach dem APP-Namen, den Sie in den Kanal addd möchten.
-    6. Klicken Sie auf über **nehmen** , wenn Sie beenden.
+    5. Suchen Sie nach dem APP-Namen, den Sie dem Kanal hinzufügen möchten.
+    6. Wählen Sie nach Abschluss **anwenden** aus.
 
-8. Klicken Sie auf **senden** , um die Änderungen zu speichern.
+8. Wählen Sie **Absenden** aus, um Ihre Änderungen zu speichern.
 
 Ihre neue Vorlage wird in der Liste der **Team Vorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in Teams verwendet werden.
 

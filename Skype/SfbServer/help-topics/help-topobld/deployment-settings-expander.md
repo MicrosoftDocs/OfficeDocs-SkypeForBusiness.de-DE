@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: 972abaf61a481ae21ea87e09b8355b4481c7f1c1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820147"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219066"
 ---
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
 
@@ -28,9 +28,9 @@ Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgen
 
 - SIP-Domäne
 
-- Einfache URLs 
+- Einfache URLs
 
-- zentraler Verwaltungsserver
+- Zentraler Verwaltungsserver
 
 ## <a name="sip-domain"></a>SIP-Domäne
 
@@ -38,11 +38,11 @@ Geben Sie zum Ändern der **Standard-SIP-Domäne** den neuen Domänennamen ein.
 
 Geben Sie zum Hinzufügen**** weiterer unterstützter SIP-Domänen den Namen der Domäne ein, die hinzugefügt werden soll. Klicken Sie auf **Hinzufügen**, um den neuen SIP-Domänennamen (Session Initiation Protocol) zu übernehmen.
 
-Wählen Sie zum Ändern eines vorhandenen zusätzlichen SIP-Domänennamens den Domänennamen aus und nehmen Sie im Textfeld Änderungen vor. Klicken Sie auf **Aktualisieren**, um die Änderung zu übernehmen.
+Wählen Sie zum Ändern eines vorhandenen zusätzlichen SIP-Domänennamens den Domänennamen aus, und nehmen Sie im Textfeld Änderungen vor. Klicken Sie auf **Aktualisieren**, um die Änderung zu übernehmen.
 
-Wählen Sie zum Entfernen eines definierten zusätzlichen SIP-Domänennamens den Domänennamen und klicken Sie dann auf **Entfernen**.
+Wählen Sie zum Entfernen eines definierten zusätzlichen SIP-Domänennamens den Domänennamen aus, und klicken Sie dann auf **Entfernen**.
 
-Klicken Sie, nachdem Sie alle Änderungen auf der Seite „Eigenschaften bearbeiten“ vorgenommen haben, auf **OK**, um die Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Änderungen zu verwerfen.
+Klicken Sie, nachdem Sie alle Änderungen auf der Seite "Eigenschaften bearbeiten" vorgenommen haben, auf **OK**, um die Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Änderungen zu verwerfen.
 
 ## <a name="simple-urls"></a>Einfache URLs
 
@@ -50,30 +50,30 @@ Zum Ändern oder Definieren der einfachen URLs müssen Sie bestimmen, welche der
 
 Wählen Sie zum Ändern der Telefonzugriffs-URL oder der Besprechungs-URL die zu ändernde URL aus. Klicken Sie auf **URL bearbeiten**. Bearbeiten Sie anschließend die URL, und klicken Sie auf **OK**, um die URL zu speichern. Klicken Sie auf **Abbrechen**, um die Änderungen zu verwerfen.
 
-Klicken Sie auf **Hinzufügen**, um eine neue URL hinzuzufügen. Geben Sie im Dialogfeld **Einfache URL hinzufügen** die URL an und klicken Sie auf **OK**, um die URL zu speichern. Aktivieren Sie **Als aktive URL für die ausgewählte Domäne festlegen**, wenn die neue URL als aktive URL festgelegt werden soll. Klicken Sie auf **Abbrechen**, um sämtliche Änderungen zu verwerfen.
+Klicken Sie auf **Hinzufügen**, um eine neue URL hinzuzufügen. Geben Sie im Dialogfeld **Einfache URL hinzufügen** die URL an, und klicken Sie auf **OK**, um die URL zu speichern. Aktivieren Sie **Als aktive URL für die ausgewählte Domäne festlegen**, wenn die neue URL als aktive URL festgelegt werden soll. Klicken Sie auf **Abbrechen**, um sämtliche Änderungen zu verwerfen.
 
-Wählen Sie zum Festlegen einer anderen URL als aktive URL (gekennzeichnet durch ein grünes Häkchen neben der URL) die betreffende URL, und klicken Sie dann auf **Aktivieren**.
+Wählen Sie zum Festlegen einer anderen URL als aktive URL (gekennzeichnet durch ein grünes Häkchen neben der URL) die URL aus, und klicken Sie dann auf **Aktivieren**.
 
 > [!NOTE]
 > Für jede SIP-Domäne kann nur eine aktive URL vorhanden sein.
 
-Wenn Sie eine URL entfernen müssen, wählen Sie sie aus und klicken Sie dann auf **Entfernen**.
+Wenn Sie eine URL entfernen müssen, wählen Sie sie aus, und klicken Sie dann auf **Entfernen**.
 
 > [!CAUTION]
 > Lesen Sie die Informationen auf der Dialogfeldseite mit den Einstellungen einfacher URLs sorgfältig durch. Das Entfernen einer Besprechungs-URL kann dazu führen, dass auf von Benutzern geplante Besprechungen kein Zugriff mehr möglich ist. Erwägen Sie die Beibehaltung der vorhandenen URL, nachdem Sie die neue Besprechungs-URL als aktiv festgelegt haben. Sobald Sie sicher sind, dass keine Benutzer mehr die alte Besprechungs-URL verwenden, können Sie sie unbesorgt entfernen.
 
 Zum Bearbeiten oder Ändern der URL für den administrativen Zugriff müssen Sie den Eintrag bearbeiten.
 
-Klicken Sie, nachdem Sie alle Änderungen auf der Seite „Eigenschaften bearbeiten“ vorgenommen haben, auf **OK**, um die Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Änderungen zu verwerfen.
+Klicken Sie, nachdem Sie alle Änderungen auf der Seite "Eigenschaften bearbeiten" vorgenommen haben, auf **OK**, um die Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Änderungen zu verwerfen.
 
 ## <a name="central-management-server"></a>Zentraler Verwaltungsserver
 
-Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in einen anderen verschoben werden. Wählen Sie zum Ändern des Speicherorts des zentralen Verwaltungsservers den Front-End-Pool in der Dropdownliste unter **Front-End-Server, auf dem der zentrale Verwaltungsserver installiert werden soll**. Ein Front-End-Server kann ein Front-End-Pool der Enterprise Edition oder ein Front-End-Server der Standard Edition sein.
+Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in einen anderen verschoben werden. Wählen Sie zum Ändern des Speicherorts des zentralen Verwaltungsservers den Front-End-Pool in der Dropdownliste unter **Front-End-Server, auf dem der zentrale Verwaltungsserver installiert werden soll** aus. Ein Front-End-Server kann ein Front-End-Pool der Enterprise Edition oder ein Front-End-Server der Standard Edition sein.
 
 > [!IMPORTANT]
 > Nachdem Sie den zentralen Verwaltungsspeicher für die Infrastruktur definiert, veröffentlicht und bereitgestellt haben, kann der Speicherort des zentralen Verwaltungsspeichers nur über einen externen Vorgang in einen anderen Front-End-Pool verschoben werden.
 
-Weitere Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Referenz zu den Windows PowerShell-Cmdlets.
+Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [verschieben-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Windows PowerShell-Cmdlet-Referenz.
 
 ## <a name="see-also"></a>Siehe auch
 

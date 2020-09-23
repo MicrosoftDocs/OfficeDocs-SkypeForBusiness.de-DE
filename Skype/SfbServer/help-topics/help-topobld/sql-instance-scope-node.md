@@ -8,31 +8,31 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server an, die diesen SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: ab13624b6d018ee2d62d6dcbb1d2b092a83e1c8b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diesen SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 1b1f090f5990e36a8b1c945773fec23e8933e0ff
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819217"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219660"
 ---
 # <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  
-Dieser Knoten zeigt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server an, die diesen SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:
+Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diesen SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Bearbeiten von Eigenschaften** Öffnet die Seite " **Eigenschaften bearbeiten** " für diesen Server, auf der Sie den FQDN des Servers ändern können (sofern die Topologie noch nicht veröffentlicht wurde) und die zu verwendende Instanz von SQL Server.
+- **Eigenschaften bearbeiten**. Öffnet die Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den FQDN des Servers (falls die Topologie noch nicht veröffentlicht ist) und die zu verwendende Instanz von SQL Server ändern können.
     
 - **Löschen**: Dient zum Löschen des Servers aus der Topologie.
     
 Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:
   
-- **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren oder die Bereitstellung entfernen.
+- **Topologie**. Sie können diese Option verwenden, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren oder die Bereitstellung zu entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

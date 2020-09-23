@@ -8,23 +8,23 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
-description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und den zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 3f9600c3a432ebd3d3af3d1bd25dc083cd8a0c81
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 36790cae5872bc5b84295b5defc78fafa87b02ba
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820117"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218966"
 ---
 # <a name="director-scope-node"></a>Director – Bereichsknoten
  
-Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und den zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:
+Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:
   
 - **Neuer Server**: Dient zum Laden der Seite **Neuen Server definieren**, auf der Sie diesem Pool einen weiteren Director hinzufügen können.
     
@@ -34,7 +34,7 @@ Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und den zugeo
     
 Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:
   
-- **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

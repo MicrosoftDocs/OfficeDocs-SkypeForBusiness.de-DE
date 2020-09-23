@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
-description: Um den FQDN des Director-Pools zu definieren, wählen Sie entweder einen Pool mit mehreren Computern aus, der aus zwei oder mehr Directors in einem Lastenausgleichspool oder einem einzelnen Computerpool bestehen soll. Sie müssen auch den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) eingeben, der für die Verbindung mit dem Director-Pool oder dem FQDN des einzelnen Directors verwendet wird. Bei einem Pool von Director-Computern handelt es sich hierbei um den DNS-Eintrag (Domain Name System) für die virtuelle IP eines Hardwarelastenausgleichs oder den freigegebenen DNS-Eintrag für den DNS-Lastenausgleich.
-ms.openlocfilehash: 1a419c6a27118cbdf7ffe841a39b9b60e6e84577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Wählen Sie unter FQDN des Directorpools definieren entweder die Option Pool mit mehreren Computern, wobei der Pool mindestens zwei Directors in einem Pool mit Lastenausgleich umfasst, oder die Option Pool mit einem Computer aus. Sie müssen auch den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) eingeben, der zum Herstellen einer Verbindung mit dem Directorpool oder dem FQDN des einzelnen Directors verwendet wird. Bei einem Pool aus Director-Computern ist dies der DNS-Eintrag (Domain Name System) für die virtuelle IP-Adresse eines Hardwaregeräts zum Lastenausgleich oder der gemeinsame DNS-Eintrag für den DNS-Lastenausgleich.
+ms.openlocfilehash: 9209fa9e4417644b20b95668b05e660114414efc
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821187"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219486"
 ---
 # <a name="add-director-pool"></a>Hinzufügen des Director-Pools
  
-Um **den FQDN des Director-Pools zu definieren**, wählen Sie entweder einen **Pool mit mehreren Computern** aus, der aus zwei oder mehr Directors in einem Lastenausgleichspool oder einem **einzelnen Computerpool**bestehen soll. Sie müssen auch den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) eingeben, der für die Verbindung mit dem Director-Pool oder dem FQDN des einzelnen Directors verwendet wird. Bei einem Pool von Director-Computern handelt es sich hierbei um den DNS-Eintrag (Domain Name System) für die virtuelle IP eines Hardwarelastenausgleichs oder den freigegebenen DNS-Eintrag für den DNS-Lastenausgleich.
+Wählen Sie unter **FQDN des Directorpools definieren** entweder die Option **Pool mit mehreren Computern**, wobei der Pool mindestens zwei Directors in einem Pool mit Lastenausgleich umfasst, oder die Option **Pool mit einem Computer** aus. Sie müssen auch den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) eingeben, der zum Herstellen einer Verbindung mit dem Directorpool oder dem FQDN des einzelnen Directors verwendet wird. Bei einem Pool aus Director-Computern ist dies der DNS-Eintrag (Domain Name System) für die virtuelle IP-Adresse eines Hardwaregeräts zum Lastenausgleich oder der gemeinsame DNS-Eintrag für den DNS-Lastenausgleich.
   
 > [!TIP]
-> Wenn Sie beabsichtigen, einen Director-Pool in Zukunft zu implementieren, wählen Sie den **Pool für mehrere Computer**aus. Obwohl ein Pool als zwei oder mehr Computer definiert ist, die Lastenausgleich aufweisen, können Sie einen einzelnen Computerpool erstellen und einen Pool-FQDN für den einzelnen Computer erstellen. Wenn Sie bereit sind, dem Pool später weitere Computer hinzuzufügen, müssen Sie den Topology Builder erneut ausführen, um das neue Poolmitglied zu definieren, die neue Topologie zu veröffentlichen und dann den neuen Director-Pool-Member über den Skype for Business Server-Bereitstellungs-Assistenten einzurichten. Darüber hinaus müssen Sie das neue Poolmitglied den entsprechenden Lastenausgleichs Komponenten für den Pool, für den DNS-Lastenausgleich (Domain Name System) oder für Hardwarelastenausgleichs hinzufügen. In vielen Fällen sind beide Lastenausgleichssysteme vorhanden. Stellen Sie sicher, dass Sie beide den neuen Mitgliedsserver hinzufügen. 
+> Wenn Sie für die Zukunft die Implementierung eines Director-Pools planen, wählen Sie **Pool mit mehreren Computern** aus. Obwohl ein Pool per Definition mindestens zwei Computer mit Lastenausgleich umfasst, können Sie einen Pool mit einem einzelnen Computer sowie einen Pool-FQDN für diesen einzelnen Computer erstellen. Wenn Sie später weitere Computer zum Pool hinzufügen möchten, müssen Sie den Topologie-Generator erneut ausführen, um das neue Poolmitglied zu definieren, die neue Topologie zu veröffentlichen und dann den neuen Directorpool-Member über den Skype for Business Server-Bereitstellungs-Assistenten einzurichten. Zudem müssen Sie das neue Poolmitglied den entsprechenden Lastenausgleichsmodulen hinzufügen (für den Pool, den DNS-Lastenausgleich (Domain Name System) oder das Hardwaregerät zum Lastenausgleich). In vielen Fällen verfügen Sie über beide Lastenausgleichssysteme. Stellen Sie sicher, dass Sie den neuen Mitgliedsserver beiden Systemen hinzufügen. 
   
 

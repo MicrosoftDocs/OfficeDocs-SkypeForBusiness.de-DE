@@ -8,64 +8,64 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
-description: 'Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 963d396705bb2bc692cdd22e8857f23d351a95b0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Um die Einstellungen für eine vorhandene Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
+ms.openlocfilehash: c2d4ec8e97557a584821bb82ef1d24b9bfa7a9bb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820017"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218896"
 ---
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 
-Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:
+Um die Einstellungen für eine vorhandene Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:
 
 - Allgemeine Einstellungen
 
-- Einstellungen für nächsten Hop
+- Auswahl Einstellungen für den nächsten Hop
 
-- Edgeserver-Konfiguration
+- Edgeserver Konfiguration
 
 
 
 ## <a name="general-settings"></a>Allgemeine Einstellungen
 
-Vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools für den Edgeserverpool. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
+Interner Pool vollqualifizierter Domänenname (FQDN) des Edgeserver Pools. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
 
-Aktivieren Sie das Kontrollkästchen **Föderation für diesen Edge-Pool aktivieren (Port 5061)** , wenn Sie einen Verbund mit einem vertrauenswürdigen Partner für lync Server 2013, Microsoft lync Server 2010 oder Microsoft Office Communications Server 2007 R2 einrichten möchten.
+Aktivieren Sie das Kontrollkästchen Partner **Verbund für diesen Edgepool aktivieren (Port 5061)** , wenn Sie einen Verbund mit einem lync Server 2013, Microsoft lync Server 2010 oder Microsoft Office Communications Server 2007 R2 vertrauenswürdigen Partner einrichten möchten.
 
-Wählen Sie **XMPP-Partnerverbund für diesen Edgepool aktivieren** aus, um den XMPP-Partnerverbund zu aktivieren.
+Wählen Sie XMPP-Partner **Verbund für diesen Edgepool aktivieren** aus, um den XMPP-Partnerverbund zu aktivieren.
 
-Geben Sie die Portnummer unter **Interner Port für die Konfigurationsreplikation (HTTPS)** an.
+Geben Sie die Portnummer für den **Port der internen Konfigurations Replikation (HTTPS)** an.
 
-## <a name="next-hop-selection-settings"></a>Einstellungen für nächsten Hop
+## <a name="next-hop-selection-settings"></a>Auswahl Einstellungen für den nächsten Hop
 
-Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus dem Dropdown-Listenfeld aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll. Nur Directors oder Front Ends, die im Topologie-Generator konfiguriert wurden, werden zur Auswahl angezeigt.
+Um den Pool für den **nächsten Hop** festzulegen oder zu ändern, den die Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden, wählen Sie im Dropdown-Listenfeld einen Director-, Directorpool-, Front-End-Server-oder Front-End-Server-Pool aus. Für die Auswahl werden nur Directors oder Front-Ends angezeigt, die im Topologie-Generator konfiguriert wurden.
 
-## <a name="edge-server-configuration"></a>Edgeserver-Konfiguration
+## <a name="edge-server-configuration"></a>Edgeserver Konfiguration
 
-Um die externen Einstellungen**** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst festlegen, ob separate IP-Adressen für den SIP-Zugriff, die Webkonferenzfunktion und den A/V-Dienst verwendet werden.
+Um Einstellungen für die **externen Einstellungen** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst feststellen, ob Sie separate IP-Adressen für SIP-Zugriff, Webkonferenzen und den Audio/Video-Dienst verwenden werden.
 
-Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein DNS-A-Eintrag (Host) erstellt werden.
+Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein entsprechender DNS-Hosteintrag (a) erstellt werden.
 
-Für jeden externen Dienst geben Sie einen FQDN und einen zugeordneten Port an. Für den **SIP-Zugriff** würden z. B. „sip.contoso.com“ und der Port 5061 verwendet.
+Für jeden der extern angerichteten Dienste geben Sie einen FQDN und einen zugeordneten Port an. Beispielsweise würde der **SIP-Zugriff** SIP.contoso.com mit einem zugeordneten Port von 5061 verwenden.
 
 > [!IMPORTANT]
-> Wenn Sie separate vollqualifizierte Domänennamen für die externen Dienste auswählen, muss jedem Dienst ein eindeutiger Portwert zugeordnet werden. Standardmäßig ist für SIP der Port 5061/TLS, für den Webkonferenz-Edgedienst der Port 444/TLS und für den A/V-Konferenzserver der Port 443/TLS festgelegt. Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.
+> Wenn Sie separate vollqualifizierte Domänennamen für die externen Dienste auswählen, muss jedem Dienst ein eindeutiger Portwert zugeordnet werden. Standardmäßig befindet sich das SIP auf Port 5061/TLS, der Webkonferenz-Edgedienst befindet sich auf Port 444/TLS, und der A/V-Konferenzserver befindet sich auf Port 443/TLS. Wenn Sie Änderungen an diesen Einstellungen vornehmen, einschließlich der Verwendung separater FQDN-und IP-Adressen oder Ports, müssen Sie alle anderen Dienste aktualisieren, die auf die anfänglich konfigurierten Werte angewiesen sind.
 
-Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige IP-Adresse für die externen Dienste verwendet, deaktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Bei Bedarf können Sie anschließend die Werte für den Pool-FQDN und den Port für den **SIP-Zugriff** ändern.
+Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige IP-Adresse für die externen Dienste verwendet, deaktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Bei Bedarf können Sie anschließend die Werte für den Pool-FQDN und den Port für den SIP-Zugriff**** ändern.
 
 > [!IMPORTANT]
 > Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.
 
 ## <a name="see-also"></a>Siehe auch
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edge-Dienste finden Sie unter [define your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 
 

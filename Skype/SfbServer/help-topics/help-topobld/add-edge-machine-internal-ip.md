@@ -8,19 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineInternalIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: Auf dieser Seite können Sie die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) des Edgeservers angeben.
-ms.openlocfilehash: 0b7b9117734b621b9fd15fd116eb3520ebf963fe
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ac84f2e1c74a4ae8f01895da0ba1b1ec75e63211
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821127"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219356"
 ---
 # <a name="add-edge-machine-internal-ip"></a>Hinzufügen der internen IP-Adresse des Edgecomputers
 

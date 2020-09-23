@@ -8,28 +8,28 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
-description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: 33768e7e3d95d75018efeac81393465932d2b81b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Dies ist eine vorläufige Dokumentation und kann jederzeit geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
+ms.openlocfilehash: c60871e5ec094c878c9ed093022c88a714cbe3be
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819397"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219116"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Veröffentlichen der Topologie – Seite "Spiegeldatenbanken erstellen"
  
-Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
+Dies ist eine vorläufige Dokumentation und kann jederzeit geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
   
-Der Topologie-Generator analysiert alle Konfigurationseinstellungen in Ihrem definierten Topologie-Dokument. Wenn Sie gespiegelte SQL Server-Datenbanken konfiguriert haben, wird ein Bildschirm mit dem Spiegel Speicher, dem primären Speicher, dem Dateifreigabepfad und den Datenbankpfaden angezeigt. Sie aktivieren ein Kontrollkästchen, das einem Daten Bank Spiegelungs Speicher zugeordnet ist, um die gespiegelte Datenbank und den Dateifreigabepfad zu erstellen. Sie deaktivieren ein Kontrollkästchen für eine Datenbankspiegelung, wenn Sie die Datenbank nicht auf dem definierten SQL Server erstellen und bereitstellen möchten.
+Der Topologie-Generator analysiert alle Konfigurationseinstellungen in Ihrem definierten Topologie-Dokument. Wenn Sie gespiegelte SQL Server Datenbanken konfiguriert haben, wird ein Bildschirm angezeigt, der den Spiegel Speicher, den primären Speicher, den Dateifreigabepfad und die Datenbankpfade anzeigt. Sie können ein Kontrollkästchen aktivieren, das einem Daten Bank Spiegelungs Speicher zugeordnet ist, um die gespiegelte Datenbank und den Dateifreigabepfad zu erstellen. Sie können ein Kontrollkästchen für eine Datenbankspiegelung deaktivieren, wenn Sie die Datenbank nicht im definierten SQL Server erstellen und bereitstellen möchten.
   
- Wenn Sie auswählen, dass derzeit keine oder alle dieser Datenbanken installiert werden sollen, löschen Sie die Datenbanken, die Sie nicht installieren werden. Zu einem späteren Zeitpunkt Wählen Sie die Option " **Datenbank installieren** " aus, indem Sie mit der rechten Maustaste auf die meisten Knoten Elemente im Topologie-Generator klicken.
+ Wenn Sie auswählen, dass zu diesem Zeitpunkt keine oder alle dieser Datenbanken installiert werden sollen, deaktivieren Sie die Datenbanken, die Sie nicht installieren möchten. Zu einem späteren Zeitpunkt Wählen Sie die Option " **Datenbank installieren** " aus, indem Sie mit der rechten Maustaste auf die meisten Knoten Elemente im Topologie-Generator klicken.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

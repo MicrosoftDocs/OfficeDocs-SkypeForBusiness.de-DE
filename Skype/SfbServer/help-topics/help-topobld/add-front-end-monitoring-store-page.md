@@ -8,46 +8,46 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndMonitoringStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
-description: 'Sie definieren den SQL Server-Überwachungsspeicher, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 789083ad0743ed7baf94630c86e4647e218c336c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Sie verwenden die Option SQL Server-Überwachungsspeicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
+ms.openlocfilehash: 85b8518bb533de68423dea93f259fc7b927ed9ba
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820857"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218876"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Hinzufügen des Front-End-Überwachungsspeichers – Seite
  
-Sie **definieren den SQL Server-Überwachungsspeicher** , indem Sie die folgenden Eigenschaften konfigurieren:
+Sie verwenden die Option **SQL Server-Überwachungsspeicher definieren**, indem Sie die folgenden Eigenschaften konfigurieren:
   
-- Über **Wachen des SQL Server-Speichers**: Wählen Sie einen vollqualifizierten SQL Server-Domänennamen (und optional eine Instanz) aus der Liste aus.
+- **Überwachung SQL Server Speichers**: Wählen Sie einen SQL Server vollqualifizierten Domänennamen (und optional eine Instanz) aus der Liste aus.
     
-    Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanzennamen für den Monitoring Server-Speicher zu erstellen.
+    Klicken Sie auf **neu** , um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Monitoring Server Speicher zu erstellen.
     
-- Aktivieren Sie das Kontrollkästchen **Spiegelung des SQL Server-Speichers aktivieren** , wenn Sie die Datenbankspiegelung für den Monitoring Server hinzufügen möchten.
+- Aktivieren Sie das Kontrollkästchen **SQL Server Speicherspiegelung aktivieren** , wenn Sie die Datenbankspiegelung für die Monitoring Server hinzufügen möchten.
     
-    Wählen Sie eine vorhandene **Überwachungs-SQL Server-Speicherspiegelung** in der Liste aus.
+    Wählen Sie in der Liste eine vorhandene **SQL Server-Speicherspiegelung für Überwachung** aus.
     
-    Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanzennamen für den Spiegel Speicher zu erstellen.
+    Klicken Sie auf **neu** , um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Spiegel Speicher zu erstellen.
     
-- Wenn Sie **Aktivieren der Spiegelung des SQL Server-Speichers**ausgewählt haben, wählen Sie optional **SQL Server-Spiegelungs Zeuge verwenden aus, um das automatische Failover zu aktivieren** , um einen SQL Server-Spiegelungs-Zeugen Speicher aus der Liste auszuwählen.
+- Wenn Sie **SQL Server Speicherspiegelung aktivieren**ausgewählt haben, wählen Sie optional **SQL Server Spiegelungs Zeugen verwenden aus, um das automatische Failover zu aktivieren** , um einen SQL Server Spiegelungs Zeugen Speicher aus der Liste auszuwählen.
     
-    Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanzennamen für den Spiegelungs-Zeugen Speicher zu erstellen.
+    Klicken Sie auf **neu** , um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Spiegelungs Zeugen Speicher zu erstellen.
     
 Klicken Sie auf **Zurück**, um zum vorherigen Dialogfeld für die Pooldefinition zurückzukehren.
   
-Klicken Sie auf **weiter** , nachdem Sie die Optionen für dieses Dialogfeld eingegeben haben, um mit der Konfiguration fortzufahren.
+Klicken Sie auf **Weiter**, nachdem Sie die Eingabe der Optionen für dieses Dialogfeld abgeschlossen haben, um mit der Konfiguration fortzufahren.
   
-Klicken Sie auf **Abbrechen** , um alle Änderungen zu verwerfen und den Assistenten zu beenden.
+Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assistenten zu beenden.
   
 Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

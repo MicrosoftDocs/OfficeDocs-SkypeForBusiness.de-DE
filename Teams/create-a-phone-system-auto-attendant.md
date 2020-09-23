@@ -1,9 +1,9 @@
 ---
-title: Einrichten einer automatischen Cloudtelefonzentrale
-ms.author: dstrome
-author: dstrome
+title: Einrichten einer automatischen Telefonzentrale für Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: waseemh
+ms.reviewer: colongma
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -20,407 +20,197 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 247cb553c2fb3c4dafd1a36b826fc13f2f21b0ce
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
+ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077715"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48220154"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
+# <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
-Mit automatischen Telefonzentralen können Personen Ihre Organisation anrufen und in einem Menü System navigieren, um mit der richtigen Abteilung, Anrufwarteschlange, Person oder einem Operator zu sprechen. Sie können automatische Telefonzentralen für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen. Wenn Sie eine automatische Telefonzentrale erstellen möchten, wechseln Sie in der linken Navigationsleiste zu **VoIP** , und wählen Sie dann **automatische Telefonzentralen**  >  **Neu hinzufügen**aus.
+Mit automatischen Telefonzentralen können Personen Ihre Organisation anrufen und in einem Menü System navigieren, um mit der richtigen Abteilung, Anrufwarteschlange, Person oder einem Operator zu sprechen. Sie können automatische Telefonzentralen für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen. 
 
-Wenn Sie mehr über automatische Telefonzentralen erfahren möchten, lesen Sie [Was sind automatische Cloud-Telefonzentralen?](/microsoftteams/what-are-phone-system-auto-attendants)
+Stellen Sie sicher, dass Sie den [Plan für automatische Team-Telefonzentralen und-Warteschlangen](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den [Schritten unter erste](plan-auto-attendant-call-queue.md#getting-started) Schritte, bevor Sie die in diesem Artikel beschriebenen Schritte ausführen.
 
-> [!NOTE]
-> Dieser Artikel bezieht sich auf Microsoft Teams und Skype for Business Online.
+Automatische Telefonzentralen können Anrufe, basierend auf der Eingabe von Anrufern, an eines der folgenden Ziele weiterleiten:
 
-Telefonnummern werden nicht direkt der automatischen Telefonzentrale, sondern einem [Ressourcenkonto](manage-resource-accounts.md) zugewiesen, das der automatischen Telefonzentrale zugeordnet ist.
+- **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Hierbei kann es sich um einen Online Benutzer oder einen lokal gehosteten Benutzer mit Skype for Business Server handeln.
+- **Sprach-App** – eine andere automatische Telefonzentrale oder eine Anrufwarteschlange. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefonzentrale oder der Anrufwarteschlange zugeordnet ist, wenn Sie dieses Ziel auswählen.)
+- **Externe Telefonnummer** – eine beliebige Telefonnummer. (Siehe [technische Informationen zur externen Übertragung](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **Voicemail** – das Voicemail-Postfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist.
+- **Operator** – der für die automatische Telefonzentrale definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als eines der anderen Ziele in dieser Liste definiert werden.
 
-Für automatische Telefonzentralen-Implementierungen sind häufig mehrere automatische Telefonzentralen erforderlich. Eine automatische Telefonzentrale der *ersten Ebene* verfügt in der Regel über ein Ressourcenkonto mit einer zugewiesenen Telefonnummer. Eine geschachtelte automatische Telefonzentrale wird als Menü auf zweiter Ebene verwendet, das von der automatischen Telefonzentrale der *ersten Ebene* als Anruf verbunden wird. Eine *geschachtelte* automatische Telefonzentrale muss nicht über eine Telefonnummer verfügen, die dem Ressourcenkonto zugeordnet ist.
+Sie werden aufgefordert, eine dieser Optionen in verschiedenen Phasen zu wählen, während Sie eine automatische Telefonzentrale einrichten.
 
-## <a name="step-1--get-started"></a>Schritt 1 – erste Schritte
+Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin Center die **Sprache**, klicken Sie auf **automatische Telefonzentralen**, und klicken Sie dann auf **Hinzufügen**.
 
-Für eine automatische Telefonzentrale ist ein zugeordnetes Ressourcenkonto erforderlich. Informationen zu Ressourcenkonten und allen erforderlichen Lizenzen finden Sie unter [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md) . 
- 
-<!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
- 
-> [!TIP]
-> Wenn Sie Anrufe an einen Operator oder eine Menüoption umleiten möchten, bei der es sich um einen Online Benutzer mit einer Telefon System Lizenz handelt, müssen Sie diese für Enterprise-VoIP aktivieren. Weitere Informationen finden Sie unter [Zuweisen von Skype for Business-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) oder [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+## <a name="general-info"></a>Allgemeine Informationen
 
-## <a name="step-2--create-auto-attendants"></a>Schritt 2 – Erstellen von automatischen Telefonzentralen
+![](media/auto-attendant-general-info-page-new.png)
 
-> [!IMPORTANT]
-> Für jede automatische Telefonzentrale ist ein zugeordnetes [Ressourcenkonto](manage-resource-accounts.md)erforderlich. Sie müssen zuerst das Ressourcenkonto erstellen, dann können Sie es der automatischen Telefonzentrale zuordnen.
+1. Geben Sie einen Namen für die automatische Telefonzentrale in das Feld oben ein.
 
-### <a name="with-the-microsoft-teams-admin-center"></a>Mit dem Microsoft Teams Admin Center
+2. Wenn Sie einen Operator festlegen möchten, geben Sie das Ziel für Anrufe an den Operator an. Dies ist optional (wird aber empfohlen). Sie können die Option " **Operator** " so einstellen, dass Anrufer die Menüs ausbrechen und mit einer bestimmten Person sprechen können.
 
-Klicken Sie im **Microsoft Teams Admin Center**auf automatische **Voicemail**  >  -**Telefonzentralen**, und klicken Sie dann auf **+ Hinzufügen**:
+3. Geben Sie die Zeitzone für diese automatische Telefonzentrale an. Die Zeitzone wird zum Berechnen von Geschäftszeiten verwendet, wenn Sie [einen separaten Anruffluss für After Hours erstellen](#call-flow-for-after-hours).
 
-#### <a name="general-info-page"></a>Seite "Allgemeine Informationen"
+4. Geben Sie eine Sprache für diese automatische Telefonzentrale an. Hierbei handelt es sich um die Sprache, die für vom System generierte Sprachansagen verwendet wird.
 
-![Screenshot der Seite "meine automatische Telefonzentrale"](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+5. Wählen Sie aus, ob die Spracheingabe aktiviert werden soll. Wenn diese Option aktiviert ist, wird der Name jeder Menüoption zu einem Schlüsselwort für die Spracherkennung. Anrufer können beispielsweise "eins" sagen, um die Menüoption auszuwählen, die Key 1 zugeordnet ist, oder Sie können "Sales" sagen, um die Menüoption "Sales" zu wählen.
 
-* * *
+6. Klicken Sie auf **Weiter**.
 
-![Symbol der Zahl 1, eine Beschriftung im vorherigen Screenshot- ](media/teamscallout1.png)
- **Namen** geben Sie einen Anzeigenamen für Ihre automatische Telefonzentrale ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. Der hier festgelegte **Name** wird in einer Spalte auf der Registerkarte **automatische Telefonzentrale** angezeigt.
+## <a name="call-flow"></a>Anruffluss
 
-<a name="phonenumber"> </a>
+![](media/auto-attendant-call-flow-greeting-message.png)
 
-* * *
+Wählen Sie aus, ob Sie eine Ansage wiedergeben möchten, wenn die automatische Telefonzentrale einen Anruf annimmt.
 
-![Das Symbol der Zahl 2, eine Legende im vorherigen Screenshot ](media/teamscallout2.png)
- <a name="operator"> </a>- 
- **Operator** , ist optional (wird jedoch empfohlen). Sie können die Option " **Operator** " so einstellen, dass Anrufer die Menüs ausbrechen und mit einer bestimmten Person sprechen können.
+Wenn Sie **eine Audiodatei wiedergeben** auswählen, können Sie die Schaltfläche **Datei hochladen** verwenden, um eine aufgezeichnete Grußnachricht hochzuladen, die als Audio gespeichert wurde. WAV,. MP3 oder. WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
 
-Die 0-Taste wird standardmäßig dem Operator zugewiesen.
+Wenn Sie **eine Begrüßungsnachricht eingeben** auswählen, liest das System den Text, den Sie eingeben (bis zu 1000 Zeichen), wenn die automatische Telefonzentrale einen Anruf annimmt.
 
-Wenn Sie einen Operator festzulegen, informieren Sie Personen, die über die Option im **Menü "Optionen bearbeiten"** auf der Seite " **Anruffluss** " anrufen. Wenn Sie einen Operator für Ihre automatische Telefonzentrale festlegen, geben Sie den entsprechenden Eingabeaufforderungstext in das Feld **Anrufer hören** ein, oder ändern Sie Ihre Audiodatei, um diese Option einzubeziehen. Beispiel: „Drücken Sie ‚0', um mit der Vermittlung zu sprechen".
+![](media/auto-attendant-call-flow-route-call-message.png)
 
-Sie haben mehrere Möglichkeiten, den Operator einzurichten:
+Wählen Sie aus, wie Sie den Anruf weiterleiten möchten.
 
-- **Kein Operator** deaktiviert die Optionen "Operator" und "0 drücken". Dies ist die aktuelle Standardeinstellung.
-- Die **Person in der Organisation** weist einer Person eine Telefon System Lizenz zu, die für Enterprise-VoIP oder zugewiesene Anrufpläne in Microsoft 365 oder Office 365 aktiviert ist. Sie können es auch so einrichten, dass der Anrufer an die Voicemail weitergeleitet wird. Wenn Sie einen Anrufer an Voicemail senden möchten, wählen Sie **Person in der Organisation** aus, und legen Sie die Einstellungen dieses Kontos fest, um Anrufe direkt an Voicemail zu senden.
+Wenn Sie **trennen**auswählen, wird der Anruf von der automatischen Telefonzentrale aufgegeben.
 
-     > [!Note]
-     > Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Wenn Sie eine **Person in der Organisation** auswählen, können Sie ein Konto mit einem freigegebenen Postfach oder einem Benutzerpostfach auswählen.
+Wenn Sie **Anruf umleiten**wählen, können Sie eines der Anruf Weiterleitungs Ziele auswählen.
 
-- **Sprach-App**  Wählen Sie den Namen des Ressourcenkontos aus, das mit einer automatischen Telefonzentrale oder einer Anrufwarteschlange verknüpft ist, die bereits erstellt wurde. Anrufer, die einen Operator anfordern, werden dorthin umgeleitet.
-- **Externe** Rufnummer übergibt den Anrufer an eine von Ihnen angegebene externe Telefonnummer. Beachten Sie Folgendes:
+Wenn Sie **Menü Optionen wiedergeben**auswählen, können Sie eine **Audiodatei abspielen** oder **eine Begrüßungsnachricht eingeben** und dann zwischen den Menü Optionen und der Verzeichnissuche wählen.
 
-    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
-        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
-        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
-    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
-        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
-        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
-            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
-            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
-    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
+### <a name="menu-options"></a>Menü Optionen
 
-<!--   
+![](media/auto-attendant-call-flow-menu-options-complete.png)
 
-- **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
-- **Call queue** Select the name of the resource account linked to a call queue that has already been created. Callers that request an operator are redirected there.
+Für Wähloptionen können Sie die 0-9-Schlüssel auf der Telefontastatur einem der Anruf Weiterleitungs Ziele zuweisen. (Die Tasten \* (Wiederholen) und \# (zurück) werden vom System reserviert und können nicht neu zugewiesen werden.)
 
-**Phone number (optional)** Enter the service phone number you want to assign to the new resource account this wizard creates and links to the new auto attendant. If you intend this auto attendant to be a nested auto attendant, it doesn't need a phone number. You can add one if for some reason you require several ways to connect to the auto attendant system.
+Tastenzuordnungen müssen nicht kontinuierlich sein. So können Sie beispielsweise ein Menü mit den Tasten 0, 1 und 3 erstellen, die den Optionen zugeordnet sind, während die Taste 2 nicht verwendet wird.
 
-> [!NOTE]
-> Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
--->
+Wir empfehlen, die 0-Taste dem Operator zuzuordnen, wenn Sie einen konfiguriert haben. Wenn der Operator nicht auf eine beliebige Taste eingestellt ist, ist der Sprachbefehl "Operator" ebenfalls deaktiviert. 
 
-* * *
+Geben Sie für jede Menüoption Folgendes an:
 
-<a name="timezone"> </a>
+- **Wähl Taste** – die Taste auf der Telefontastatur, um auf diese Option zuzugreifen. Wenn Spracheingaben verfügbar sind, können Anrufer diese Nummer auch sagen, um auf die Option zuzugreifen.
 
-![Symbol der Zahl 3, einer Legende in der vorherigen Screenshot- ](media/teamscallout3.png) **Zeitzone** Sie müssen die Zeitzone für Ihre automatische Telefonzentrale einstellen. Die Einstellung kann mit der Zeitzone der Hauptadresse, die für Ihre Organisation aufgelistet ist, oder einer anderen Zeitzone identisch sein. Jede automatische Telefonzentrale kann eine andere Zeitzone aufweisen. Die für die automatische Telefonzentrale eingestellten Geschäftszeiten verwenden ebenfalls diese Zeitzone. Stellen Sie sicher, dass Sie die richtige Zeitzone einrichten, um Geschäftsstunden Unterschiede zu vermeiden, da nicht alle Regionen Sommerzeit haben. 
+- **Sprachbefehl** – definiert den Sprachbefehl, den ein Anrufer für den Zugriff auf diese Option geben kann, wenn Spracheingaben aktiviert sind. Sie kann mehrere Wörter wie "Kundendienst" oder "Vorgänge und Gründe" enthalten. Der Anrufer kann beispielsweise 2 drücken, "zwei" sagen oder "Umsatz" sagen, um die Option auszuwählen, die der Taste 2 zugeordnet ist. Dieser Text wird auch von Text zu Sprache für die Bestätigungsaufforderung des Diensts gerendert, die möglicherweise so etwas wie "übertragen Ihres Anrufs an Verkäufe" sein könnte.
 
-* * *
+- **Umleitung zu** – das Anrufrouting Ziel, das verwendet wird, wenn Anrufer diese Option auswählen. Wenn Sie eine Umleitung an eine automatische Telefonzentrale oder eine Anrufwarteschlange durchführen, wählen Sie das zugehörige Ressourcenkonto aus.
 
-![Symbol der Zahl 4, ein Callout in der vorherigen Bildschirmfoto ](media/teamscallout4.png)
- <a name="language"> </a> 
- **Sprache** wählen Sie die Sprache aus, die Sie für Ihre automatische Telefonzentrale verwenden möchten. Die automatische Telefonzentrale verwendet diese Sprache für Anrufer, und alle Systemansagen werden in dieser Sprache wiedergegeben.
+### <a name="directory-search"></a>Verzeichnissuche
 
- * * *
+Wenn Sie Wähltasten zu Zielen zuweisen, empfehlen wir, dass Sie **keine** für die **Verzeichnissuche**auswählen. Wenn ein Anrufer versucht, mithilfe von Schlüsseln, die bestimmten Zielen zugewiesen sind, einen Namen oder eine Durchwahlnummer zu wählen, werden Sie möglicherweise unerwartet an ein Ziel weitergeleitet, bevor Sie den Namen oder die Erweiterung eingeben. Wir empfehlen, dass Sie eine separate automatische Telefonzentrale für die Verzeichnissuche erstellen und Ihre primäre automatische Telefonzentrale über eine Wähl Taste darauf verweisen.
 
-![Symbol der Zahl 5, eine Beschriftung im vorherigen Screenshot Aktivieren der Spracherkennung sprach ](media/teamscallout5.png)
- **Eingaben** ist verfügbar, wenn diese Option aktiviert ist. Anrufer können die Spracheingabe in der von [Ihnen eingerichteten Sprache](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)verwenden. Wenn Sie zulassen möchten, dass Personen nur Ihre Telefontastatur verwenden, um eine Auswahl zu treffen, können Sie die Spracherkennung auf " **aus**" setzen lassen.
+Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche**aus.
 
-* * *  
+**Nach Namen wählen** : Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Telefontastatur eingeben. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit dem Dial by-Namen gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
 
-Wenn Sie mit der Auswahl fertig sind, klicken Sie auf **weiter**.
+**Durchwahl: Wenn** Sie diese Option aktivieren, können Anrufer mit den Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons wählen. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit **Dial by Extension**gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
 
-#### <a name="call-flow"></a>Anruffluss
+Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen über eine Erweiterung verfügen, die als Teil eines der folgenden in Active Directory oder Azure Active Directory definierten Telefon Attribute angegeben ist (Weitere Informationen finden Sie unter [einzeln oder in Massen Hinzufügen von Benutzern](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .)
 
-<a name="greetingsandrouting"> </a>
+- OfficePhone
+- HomePhone
+- Mobil-Handy
+- TelephoneNumber/Telefonnummer
+- OtherTelephone
 
-> [!TIP]
-> Sie können festlegen, dass ein benutzerdefinierter Geschäftsstunden Plan mit unterschiedlichen Anruffluss Verhalten während und nach Geschäftszeiten eingerichtet wird. Wenn Sie einen benutzerdefinierten Zeitplan festlegen möchten, legen Sie den optionalen [Anruffluss für After Hours ab](#call-flow-for-after-hours). Standardmäßig verwendet eine automatische Telefonzentrale Geschäftszeiten-Anruf Ströme.
+Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder * + <phone number> Ext <extension> =* oder * + <phone number> x <extension> *.
 
-Sie können angepasste Begrüßungen, Eingabeaufforderungen und Menüs einrichten, die von Personen hören, wenn Sie Ihre automatische Telefonzentrale erreichen.
-
-![Screenshot: Abschnitt "Begrüßungsseite für die Anrufbehandlung"](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-
-* * *
-
-**Erste Wiedergabe einer Grußnachricht** Eine Begrüßung ist optional und kann auf **keine Begrüßung**, **Wiedergabe einer Audiodatei**oder **eine Grußnachricht**eingestellt werden.
+Sie können die Erweiterung im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Active Directory Admin Center](https://aad.portal.azure.com)einrichten. Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonzentralen und Anrufwarteschlangen verfügbar sind.
 
 > [!NOTE]
-> Eine Begrüßung ist für eine automatische Telefonzentrale der ersten Ebene besonders wertvoll. Eine geschachtelte automatische Telefonzentrale benötigt oft keine Begrüßung.
+> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch "Dial **by Extension** " verwenden möchten, können Sie eine Wähltaste für Ihre primäre automatische Telefonzentrale zuweisen, um eine automatische Telefonzentrale zu erreichen, die für **Dial by Name**aktiviert ist. Innerhalb dieser automatischen Telefonzentrale können Sie die 1-Taste (der keine Buchstaben zugeordnet sind) zuweisen, um **die automatische Telefon** Zentrale für die Durchwahl zu erreichen.
 
-![Symbol der Zahl 1, einer Legende im vorherigen Screenshot ](media/teamscallout1.png) Wenn Sie **keine Begrüßung**auswählen, hört der Anrufer keine Nachricht oder Begrüßung, bevor der Anruf von einer der Aktionen bearbeitet wird, die Sie später auswählen. 
+Nachdem Sie eine **Verzeichnis Such** Option ausgewählt haben, klicken Sie auf **weiter**.
 
-<!-- You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.-->
+## <a name="call-flow-for-after-hours"></a>Anruffluss für After Hours
 
-![Symbol der Zahl 2, eine Beschriftung im vorherigen Screenshot ](media/teamscallout2.png) Wenn Sie **eine Audiodatei wiedergeben** auswählen, können Sie die Schaltfläche **Datei hochladen** verwenden, um eine aufgezeichnete Grußnachricht hochzuladen, die als Audio gespeichert wurde. WAV,. MP3 oder. WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
+![](media/auto-attendant-business-hours.png)
 
-![Symbol der Zahl 3, eine Beschriftung im vorherigen Screenshot ](media/teamscallout3.png) **Geben Sie eine Grußnachricht ein** , wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). Geben Sie beispielsweise "Willkommen bei Contoso" ein. Ihr Anruf ist uns sehr wichtig“ Die Ausgabe wird von der Text-zu-Sprache-Software erstellt.
+Die Geschäftszeiten können für jede automatische Telefonzentrale eingestellt werden. Wenn die Geschäftszeiten nicht gesetzt sind, gelten alle Tage und alle Stunden des Tages als Geschäftszeiten, da ein 24/7-Terminplan standardmäßig eingestellt ist. Geschäftszeiten können mit Zeit Unterbrechungen während des Tages festgesetzt werden, und alle Stunden, die nicht als Geschäftszeiten festgesetzt sind, gelten als After-Hours-Zeiten. Sie können unterschiedliche Optionen für eingehende Anrufe und Grußformeln für After-Hours-Einstellungen einstellen.
 
-* * *
+Je nachdem, wie Sie Ihre automatischen Telefonzentralen und Anrufwarteschlangen konfiguriert haben, müssen Sie möglicherweise nur nach Stunden-Anrufweiterleitung für automatische Telefonzentralen mit direkten Telefonnummern angeben.
 
-Im Abschnitt **Anruf weiterleiten** können Sie auswählen, was neben anrufen aus den folgenden Aktionen geschieht. Einstellungen sind die Optionen " **trennen**", " **Anruf umleiten** **" oder "Wiedergabe"**.
+Wenn Sie für Anrufer nach Stunden ein separates Anrufrouting wünschen, geben Sie Ihre Geschäftszeiten für jeden Tag an. Klicken Sie auf **neue Zeit hinzufügen** , um mehrere Stundensätze für einen bestimmten Tag anzugeben, beispielsweise um eine Mittagspause anzugeben.
 
-Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage getrennt. 
+Nachdem Sie Ihre Geschäftszeiten angegeben haben, wählen Sie Ihre Anrufweiterleitungsoptionen für After Hours aus. Die gleichen Optionen stehen zur Verfügung wie für das oben angegebene Geschäftszeiten-Anrufrouting.
 
-<a name="redirectcalls"> </a>
+Klicken Sie auf **weiter** , wenn Sie fertig sind.
 
-![Symbol der Zahl 4: eine Beschriftung im vorherigen Screenshot- ](media/teamscallout4.png) **Umleitungs Anruf** sendet den Anrufer an das gewählte Ziel, ohne eine der Optionen zu wählen. Die möglichen Einstellungen lauten wie folgt:
+## <a name="call-flows-during-holidays"></a>Anruf Ströme während der Feiertage
 
-  - **Person in der Organisation** Für das von Ihnen ausgewählte Konto muss eine Telefon System Lizenz für Enterprise-VoIP aktiviert sein, oder Sie verfügen über einen zugewiesenen Anrufplan in Microsoft 365 oder Office 365. Sie können es so einrichten, dass der Anrufer an Voicemail gesendet werden kann. Wählen Sie die **Person in der Organisation** aus, und legen Sie fest, dass Anrufe direkt an Voicemail weitergeleitet werden sollen.
+![](media/auto-attendant-holiday-greeting.png)
 
-    > [!Note]
-    > Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Wenn Sie eine **Person in der Organisation** auswählen, können Sie ein Konto mit einem freigegebenen Postfach oder einem Benutzerpostfach auswählen.
+Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag haben, den [Sie eingerichtet](set-up-holidays-in-teams.md)haben. Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
-  - **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das dem Dienst zugeordnet ist.
-  - **Externe** Rufnummer übergibt den Anrufer an eine von Ihnen angegebene externe Telefonnummer. Beachten Sie Folgendes:
+1. Klicken Sie auf der Seite Feiertags Anrufeinstellungen auf **Hinzufügen**.
 
-    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
-        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
-        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
-    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
-        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
-        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
-            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
-            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
-    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
-  - **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser automatischen Telefonzentrale empfangene Voicemail zugreifen müssen. Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
+2. Geben Sie einen Namen für diese Feiertagseinstellung ein.
 
-      Schalten Sie die **Transkription** auf **ein** , um die sprach-zu-Text-Transkription von Voicemail-Nachrichten zu aktivieren.
+3. Wählen Sie in der Dropdownliste **Feiertag** den Feiertag aus, den Sie verwenden möchten.
 
+4. Wählen Sie die Art der Begrüßung aus, die Sie verwenden möchten.
 
- * * *
+    ![](media/auto-attendant-holiday-actions.png)
 
-![Screenshot: Abschnitt "Aktionen für die Anrufbehandlung"](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+5. Wählen Sie aus, ob Sie den Anruf **trennen** oder **umleiten** möchten.
 
-![Symbol der Zahl 1, einer Legende im vorherigen Screenshot ](media/teamscallout1.png) Wenn Sie **Menü Optionen für "Wiedergabe** " auswählen, können Sie auswählen, ob Sie eine Audiodatei verwenden oder Text eingeben möchten, der als Text-zu-Sprache gerendert wird, um Anrufern Menü Optionen zur Verfügung zu stellen. Wählen Sie diese Option anstelle der Optionen **Umleitung anrufen** oder **trennen** aus.
+6. Wenn Sie die Umleitung gewählt haben, wählen Sie das Anrufrouting Ziel für den Anruf aus.
 
+7. Klicken Sie auf **Speichern**.
 
-![Symbol der Zahl 2: eine Legende im vorherigen Screenshot ](media/teamscallout2.png) **Wiedergeben einer Audiodatei** ermöglicht das Einrichten von Eingabeaufforderungen und Optionen für den Anrufer. 
-- Wenn Sie **eine Audiodatei wiedergeben** auswählen, können Sie die Schaltfläche **Datei hochladen** verwenden, um eine aufgezeichnete Grußnachricht hochzuladen, die als Audio gespeichert wurde. WAV,. MP3 oder. WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
+![](media/auto-attendant-holiday-call-settings.png)
 
-- **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). Geben Sie beispielsweise "Willkommen bei Contoso" ein. Ihr Anruf ist uns sehr wichtig“ Die Ausgabe wird von der Text-zu-Sprache-Software erstellt.
+Wiederholen Sie den Vorgang nach Bedarf für jeden weiteren Feiertag.
 
-**Menü Optionen einstellen** In diesem Dialogfeld können Telefontasten oder Sprachbefehle hinzugefügt oder entfernt werden. Um eine Menüoption zu löschen, entfernen Sie den Sprachbefehls Eintrag, und legen Sie **Redirect auf** zurück zur **Auswahl**.
+Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter**.
 
-> [!TIP]
-> Aktualisieren Sie Menü Aufforderungstext, oder nehmen Sie die Audioeingaben erneut auf, wenn Sie Optionen entfernen. Die für Anrufer abgespielte Menüansage wird nicht automatisch aktualisiert.  
->
-> Jede Menüoption kann in beliebiger Reihenfolge hinzugefügt und entfernt werden, und die Tastenzuordnungen müssen nicht kontinuierlich sein. So können Sie beispielsweise ein Menü mit den Tasten 0, 1 und 3 erstellen, die den Optionen zugeordnet sind, während die Taste 2 nicht verwendet wird.
+## <a name="dial-scope"></a>Wählbereich
+
+![](media/auto-attendant-dial-scope.png)
+
+Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer Dial-by-Name oder Dial-by-Extension verwendet. Der Standardwert **aller Online Benutzer** umfasst alle Benutzer in Ihrer Organisation, die Online Benutzer mit einer Telefon System Lizenz sind oder lokal mit Skype for Business Server gehostet werden.
+
+Sie können bestimmte Benutzer einbeziehen oder ausschließen, indem Sie unter **einbeziehen** oder **ausschließen** eine **benutzerdefinierte Benutzergruppe** auswählen und eine oder mehrere Microsoft 365-Gruppen,-Verteilerlisten oder-Sicherheitsgruppen auswählen. So können Sie beispielsweise Führungskräfte in Ihrer Organisation aus dem Wähl Verzeichnis ausschließen.
 
 > [!NOTE]
-> Die Tasten \* (wiederholen) und \# (zurück) werden vom System reserviert und können nicht neu zugewiesen werden. Wenn die Spracherkennung aktiviert ist, entspricht das Drücken von * mit "Wiederholen", und # entspricht den Sprachbefehlen "zurück".
+> Es kann bis zu 36 Stunden dauern, bis der Name des neuen Benutzers im Verzeichnis aufgeführt ist.
 
-![Symbol der Zahl 3, einer Legende im vorherigen Screenshot ](media/teamscallout3.png) zum Einrichten einer Menüoption klicken Sie auf die Schaltfläche **+ Zuweisen einer Wähl Taste** , und geben Sie Informationen für die folgenden Optionen ein:
+Wenn Sie mit dem Festlegen des Wähl Bereichs fertig sind, klicken Sie auf **weiter**.
 
-![Symbol der Zahl 4: ein Callout in der vorherigen Screenshot- ](media/teamscallout4.png) **Sprachbefehls** Spalte für eine Option kann bis zu 64 Zeichen lang sein und mehrere Wörter wie "Kundendienst" oder "Vorgänge und Gründe" enthalten.   Wenn die Spracherkennung aktiviert ist, wird der Name automatisch erkannt, und der Anrufer ist in der Lage, 3 zu drücken, "drei" zu sagen oder "Kundendienst" zu wählen, um die Option auszuwählen, die Key 3 zugeordnet ist. Dieser Text wird auch von Text in Sprache für die Bestätigungsaufforderung des Diensts gerendert, die möglicherweise so etwas wie "übertragen des Anrufs an den Operator" sein könnte.
+## <a name="resource-accounts"></a>Ressourcenkonten
 
-![Symbol der Zahl 5, ein Callout im vorherigen Screenshot ](media/teamscallout5.png) die Option " **Umleiten an** " legt fest, wo der Anruf abläuft, wenn die entsprechende Taste gedrückt wird, oder die Option wird mithilfe der Spracherkennung ausgewählt. Der Anruf kann gesendet werden an:
+Alle automatischen Telefonzentralen müssen über ein zugeordnetes Ressourcenkonto verfügen.  Die automatische Telefonzentrale der ersten Ebene benötigt mindestens ein Ressourcenkonto, das über eine zugeordnete Dienstnummer verfügt. Wenn Sie möchten, können Sie einer automatischen Telefonzentrale mit jeweils einer separaten Servicenummer mehrere Ressourcenkonten zuweisen.
 
-<!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
+![](media/auto-attendant-add-resource-account.png)
 
-- **Operator** Wenn ein Operator bereits eingerichtet ist, wird die Option automatisch der Taste 0 zugeordnet, kann aber auch gelöscht oder einem anderen Schlüssel zugewiesen werden. Der Anrufer, der diese Option auswählt, wird an den festgelegten Operator gesendet. Wenn der Operator nicht auf eine beliebige Taste eingestellt ist, ist der Sprachbefehl "Operator" ebenfalls deaktiviert. 
-- Die **Person in der Organisation** kann ein Online Benutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird. Der Benutzer muss über eine Telefon System Lizenz verfügen, die für Enterprise-VoIP oder zugewiesene Anrufpläne in Microsoft 365 oder Office 365 aktiviert ist. Suchen Sie im Feld nach **Name suchen** nach der betreffenden Person.
+Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen**, und klicken Sie dann auf **Hinzufügen**.
 
-- **Sprach-App** Wählen Sie eine automatische Telefonzentrale oder eine Anrufwarteschlange aus, die bereits eingerichtet wurde. Sie suchen nach der automatischen Telefonzentrale oder Anrufwarteschlange nach dem Namen des Ressourcenkontos, das der Anwendung zugeordnet ist.
+![](media/auto-attendant-resource-account-assigned.png)
 
-- **Externe** Rufnummer übergibt den Anrufer an eine von Ihnen angegebene externe Telefonnummer. Beachten Sie Folgendes:
+Wenn Sie alle Dienstkonten hinzugefügt haben, klicken Sie auf **Absenden**. Damit ist die Konfiguration der automatischen Telefonzentrale abgeschlossen.
 
-    - Das Ressourcenkonto, das der Anwendung für die PSTN-Übertragung zugeordnet ist, muss über eine Telefonnummer verfügen und einer virtuellen Telefon System Lizenz zugewiesen sein. Telefon System Lizenzen werden nicht unterstützt. Darüber hinaus muss das Ressourcenkonto über eine der folgenden Optionen verfügen:
-        - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
-        - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
-    - Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
-        - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
-        - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
-            - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
-            - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
-    - Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
+## <a name="external-phone-number-transfers---technical-details"></a>Externe Rufnummern Übertragungen – technische Details
 
-- **Voicemail** Wählen Sie die Microsoft 365-Gruppe aus, die die Benutzer in Ihrer Organisation enthält, die auf die von dieser automatischen Telefonzentrale empfangene Voicemail zugreifen müssen. Voicemail-Nachrichten werden an die von Ihnen angegebene Microsoft 365-Gruppe gesendet. Um auf Voicemail-Nachrichten zuzugreifen, können Mitglieder der Gruppe Sie öffnen, indem Sie in Outlook zur Gruppe navigieren.
+Beim Übertragen von Anrufen an eine externe Telefonnummer muss das Ressourcenkonto, das der automatischen Telefonzentrale oder Anrufwarteschlange zugeordnet ist, über eine Telefonnummer und eine Microsoft 365-Telefon System-virtuelle Benutzerlizenz verfügen. Darüber hinaus
 
-    Schalten Sie die **Transkription** auf **ein** , um die sprach-zu-Text-Transkription von Voicemail-Nachrichten zu aktivieren.
+- Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+- Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
 
-<!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
-- **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
-- **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
-- **Group Voicemail** routes the call to a voicemail box that you select.  -->
+Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
 
-![Symbol der Zahl 6, einer Legende in der vorherigen Screenshot- ](media/teamscallout6.png) **Verzeichnissuche** in diesem Abschnitt können Sie die **Wählfunktion nach Namen** und **Dial by Extension** die Durchwahl für die automatische Telefonzentrale aktivieren.   Auf der Seite Optionaler Wählbereich können Sie bestimmen, wer in diesen Diensten enthalten ist und was nicht. Die Verzeichnissuche ist standardmäßig auf **keine** eingestellt.
+  - Bei Anruf Plan Nummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+  - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
+    - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
+    - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
 
-**Wählen nach Name** Wenn Sie diese Option aktivieren, können Anrufer nach Personen in Ihrer Organisation mithilfe **von Dial by Name**suchen. Sie sagen, dass der Name und die Spracherkennung des Benutzers mit einem Benutzer übereinstimmen. Auf der Seite Optionaler Wählbereich können Sie bestimmen, wer in diesen Diensten enthalten ist und was nicht. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit dem Dial by-Namen gefunden werden.
+Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
 
-
-**Durchwahl** Wenn Sie diese Option aktivieren, können Anrufer mit den Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons eingeben. Auf der Seite Optionaler Wählbereich können Sie auswählen, welche Benutzer als "verfügbar" oder "nicht verfügbar" für " **Dial by Extension** " aufgeführt sind. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit Dial by Extension gefunden werden.
-
-> [!IMPORTANT]
-> Beachten Sie bitte Folgendes:
->- Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen über eine Erweiterung verfügen, die als Teil eines der folgenden in Active Directory oder Azure Active Directory definierten Telefon Attribute angegeben ist (siehe [Benutzer einzeln oder in Massen hinzufügen], um weitere Informationen zu erhalten ( https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
->    - HomePhone
->    - Mobil-Handy
->    - TelephoneNumber/Telefonnummer
->    - OtherTelephone
->- Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder `+<phonenumber>;ext=<extension>` oder `x<extension>` .
->- Das Zuweisen einer Erweiterung im Team Admin Center wird derzeit nicht unterstützt. Sie müssen entweder den Befehl " [MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell" oder das Microsoft 365 Admin Center verwenden.
->- Es kann bis zu 12 Stunden dauern, bis Änderungen an den Aad-Telefon-und Handy-Attributen verfügbar sind.
->- Bitte definieren Sie keine Erweiterung für die LineUri eines Benutzers. Dies wird derzeit nicht unterstützt.
->- Eine automatische Telefonzentrale kann entweder für die Wahl nach Namen oder für die Durchwahl, aber nicht für beide konfiguriert werden.
-
-> [!NOTE]
-> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch " **Dial by Extension** " verwenden möchten, können Sie die Haupt-automatische Telefonzentrale (für **Dial by Name**aktiviert) erstellen, die Anrufer auffordert, eine Menüoption auszuwählen, wenn Sie die Durchwahl des Benutzers kennen, und diese Option so festlegen, dass der Anruf an eine automatische Telefonzentrale übertragen wird, die für die Durchwahl aktiviert ist
-
-* * *
-
-<!--
-**Instructions for callers** lets you choose **Use recorded call instructions** or **Write your call instructions**.  
-
-If you choose **Use recorded call instructions**, you have the option to record and upload new or prerecorded sound files to play as menu instructions. The same app used in recording the auto attendant greeting is used here.
-
-If you choose **Write your call instructions**, enter the script  you want the system to read (up to 1000 characters). For example, you might enter text that begins "Please choose from one of the following menu options ... " and provide a script written to reflect your configuration.
-* * *  -->
-
-Wenn Sie Ihre Auswahl getroffen haben, können Sie auf **weiter** klicken, wenn Sie die erweiterten Einstellungen ändern möchten, oder auf **Absenden** klicken, wenn Sie die Standardeinstellungen für Folgendes verwenden möchten:
-- Anruffluss für After Hours
-- Anruffluss für Feiertage
-- Wählbereich
-- Ressourcenkonten
-
-Da für Ihre automatische Telefonzentrale ein Ressourcenkonto erforderlich ist, haben Sie die Möglichkeit, zur Seite " **Ressourcenkonto** " zu wechseln und ein bereits konfiguriertes Ressourcenkonto zu verknüpfen oder ein Ressourcenkonto zu erstellen und es der automatischen Telefonzentrale zuzuordnen, wie es unter [Verwalten von Ressourcenkonten in Microsoft Teams](manage-resource-accounts.md)beschrieben ist. Sie können diese automatische Telefonzentrale erst dann verwenden, wenn Sie einem Ressourcenkonto zugeordnet wurde. Klicken Sie dazu unten auf dem Bildschirm auf die Schaltfläche **weiter** , und klicken Sie dann im linken Navigationsbereich auf **Ressourcenkonten** , um direkt zur Seite Ressourcenkonten zu wechseln und die automatische Telefonzentrale einem Ressourcenkonto zuzuordnen.
-
-#### <a name="advanced-settings-optional"></a>Erweiterte Einstellungen (optional)
-
-Es gibt vier zusätzliche Bildschirme, die Sie bei der Auswahl standardmäßig konfigurieren oder belassen können.
-
-##### <a name="call-flow-for-after-hours"></a>Anruffluss für After Hours
-
-Standardmäßig werden die Geschäftszeiten einer automatischen Telefonzentrale von Montag bis Freitag auf 09.00 Uhr eingestellt.  <!--24/7-->, und die Anruffluss Optionen für *After Hours* -Anrufe sind deaktiviert, da alle Stunden als *Geschäftszeiten*gelten. Wenn Sie die Option **benutzerdefinierte Geschäftszeiten einrichten** auswählen, konfiguriert die Seite **Anruffluss für After Hours** die Anruf Behandlungs Regeln, die von der automatischen Telefonzentrale nach Stunden verwendet werden. Die verfügbaren Optionen sind identisch, der Unterschied besteht darin, dass Sie einen Zeitplan für verschiedene Menüs und Verhaltensweisen festlegen können.
-
-Bei einem System von automatischen Telefonzentralen muss möglicherweise nur das Anruf Behandlungs Verhalten für die automatische Telefonzentrale der ersten Ebene nach Stunden eingestellt werden. Geschachtelte automatische Telefonzentralen werden möglicherweise nicht einmal von der automatischen Telefonzentrale der ersten Ebene aufgerufen, aber Alternativ kann das System das After-Hours-Verhalten für jede verwendete automatische Telefonzentrale definieren.
-
-Zunächst werden die Geschäftszeiten so festgelegt, dass Sie um 12:00 Uhr beginnen und um 12:00 Uhr, Sonntag bis Samstag, enden. Alle Stunden, die nicht während der Geschäftszeiten sind, werden *nach Stunden*berücksichtigt.
-
-
-![Screenshot der Anruffluss Einstellungen für After Hours](media/aa-afterhour.png)
- * * *
-
-![Symbol der Zahl 1, einer Legende im vorherigen Screenshot: ](media/teamscallout1.png) Sie können auf **24/7 auswählen** klicken, um die Geschäftszeiten für diese automatische Telefonzentrale zu übernehmen.
-
-![Symbol der Zahl 2, eine Legende im vorherigen Screenshot ](media/teamscallout2.png) Wählen Sie die Option **auf Standard zurücksetzen** aus, um alle Änderungen im Terminplan rückgängig zu machen und zur Standard Definition der Geschäftszeiten zurückzukehren, wobei Sie Montag bis Freitag 9:00 Uhr bis 5:00 Uhr sind.
-
-![Symbol der Zahl 3: eine Legende im vorherigen Screenshot ](media/teamscallout3.png) Wählen Sie **alle Stunden löschen** aus, um den Terminplan vollständig zu löschen. Wenn Sie diese Option auswählen und die festgelegten Stunden nicht mehr benötigen, sollten Sie diese Option nur verwenden, wenn Sie Ihre Geschäftszeiten vollständig wiederholen möchten.
-
-![Symbol der Zahl 4, einer Legende im vorherigen Screenshot- ](media/teamscallout4.png) ![ Symbol der Zahl 5, einer Legende im vorherigen Screenshot ](media/teamscallout5.png) zum Anpassen der Start-oder Endzeit für einen Wochentag, klicken Sie auf **Start at** oder **Ende** zum Zeitpunkt, zu dem Sie das zurücksetzen möchten, und wählen Sie die neue Uhrzeit in der angezeigten Liste aus.   In der Liste können Sie Geschäftszeiten in 15-Minuten-Intervallen auswählen, und die hier ausgewählten Geschäftszeiten basieren auf der Zeitzone, die Sie auf der Seite **Allgemeine Informationen** festzulegen.
-
- <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
-
-![Symbol der Zahl 6, eine Legende im vorherigen Screenshot ](media/teamscallout6.png) zum Einrichten einer Unterbrechung (beispielsweise eine Mittagspause), wählen Sie neue Zeit für diesen Wochentag **Hinzufügen** aus, um eine neue Tabellenzeile zu erstellen, und wählen Sie neue Start-und Endzeit aus. Sie können innerhalb der Geschäftszeiten mehrere Pausen festlegen.
-
-Die nach Stunden verfügbaren Optionen für den [Anruffluss](#call-flow) sind die gleichen wie die während der Geschäftszeiten verfügbaren Optionen. Scrollen Sie auf der Seite Informationseintrag nach unten, um die Anruffluss Optionen nach Stunden festzulegen.
-
-* * *
-
-Wenn Sie die gewünschten Optionen ausgewählt haben, klicken Sie auf **weiter**. Sie können auch im linken Navigationsbereich auf **Ressourcenkonten** klicken, um direkt zur Seite Ressourcenkonten zu wechseln und Ihre automatische Telefonzentrale einem Ressourcenkonto zuzuordnen.
-
-##### <a name="call-flow-during-holidays"></a>Anruffluss während der Feiertage
-
-<a name="holidaygreetings"> </a>
-
-Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen. Ihre Organisation hat möglicherweise bereits Feiertage definiert, wie unter [Einrichten von Feiertagen in Microsoft Teams](set-up-holidays-in-teams.md)beschrieben. Wenn dies nicht der Fall ist, sehen Sie den folgenden Bildschirm: 
-
-![Screenshot: keine Feiertage konfiguriert](media/aa-no-holidays.png)
-
-![Symbol der Zahl 1, einer Legende im vorherigen Screenshot, ](media/teamscallout1.png) um einen benutzerdefinierten Anruffluss für einen Feiertag in der automatischen Telefonzentrale festzulegen, klicken Sie auf **+ Hinzufügen** , um den Bildschirm " **neue Feiertags Anruffluss** " anzuzeigen.
-> [!TIP]
-> Zum Erstellen von Feiertagen können Sie auf dem Bildschirm unter " **organisationsweite Einstellungen**" auf "  >  **Feiertage**" wechseln.  
-
-
-
-![Screenshot: Hinzufügen eines Anruf Handlers](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
-
-* * *
-
-![Symbol der Zahl 1, eine Beschriftung im vorherigen Screenshot ](media/teamscallout1.png) Geben Sie einen **Namen** für den neuen Anruffluss ein.
-
-![Symbol der Zahl 2, eine Beschriftung im vorherigen Screenshot ](media/teamscallout2.png) Wenn Sie bereits Feiertage erstellt haben, werden diese im Pulldown-Menü " **Feiertag** " angezeigt, und Sie können Sie auswählen. Möglicherweise wird eine nicht verwendete Option angezeigt, die Sie in Ihren Anforderungen bearbeiten können. Wenn dies nicht der Fall ist, klicken Sie unten in der Pulldown-Liste auf **Hinzufügen** , um einen neuen Feiertag zu erstellen.  Die zum Erstellen eines Feiertags verwendeten Schritte finden Sie unter [Einrichten von Feiertagen in Microsoft Teams](set-up-holidays-in-teams.md) . 
-
-Ein Feiertags-Anruffluss Name kann bis zu 64 Zeichen lang sein und muss für die Organisation eindeutig sein. So können Sie beispielsweise in der gleichen Organisation nicht zwei Urlaubs Anruf Flüsse mit dem Namen "Thanksgiving" haben. Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag haben, den Sie eingerichtet haben, aber möglicherweise möchten Sie eine gemeinsame Reihe von Verhaltensweisen planen, die nicht mit einer benutzerdefinierten Begrüßung geplant sind.
-
-![Symbol der Zahl 3, eine Legende im vorherigen Screenshot ](media/teamscallout3.png) die für einen Feiertags Anruffluss verfügbaren [Gruß](#call-flow) Optionen entsprechen den Optionen, die während der Geschäftszeiten zur Verfügung stehen. Die **Aktionen** , die nach der Wiedergabe der Ansage ausgeführt werden, sind ebenfalls ähnlich, mit der Ausnahme, dass es sich bei den einzigen verfügbaren Aktionen um die **Trennung** oder **Umleitung**handelt, und bei der Auswahl der Option **zum Umleiten an** ist der Operator nicht eine der verfügbaren Optionen. Sie können kein spezielles Menü für einen Feiertags Fluss einrichten.
-
-> [!NOTE]
-> Standardmäßig werden alle während eines Urlaubs Zeitraums empfangenen Anrufe nach der Ansage (sofern vorhanden) auf " **trennen** " festgelegt, sodass Sie eine Umleitung angeben müssen, wenn Sie ein benutzerdefiniertes Verhalten wünschen.
-
-![Screenshot der Anruf Flüsse während der Feiertags Seite](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
-
-Klicken Sie auf speichern, um die Erstellung des Feiertags-Anrufflusses abzuschließen. Nachdem Sie einen Feiertags-Anruffluss erstellt haben, wird er auf dem Bildschirm " **Anruf Flüsse während des Urlaubs** " angezeigt.
-
-Klicken Sie auf **weiter** , um den Wählbereich zu ändern, **zurück** , um Änderungen an den nach Stunden-Anruf strömen vorzunehmen, und über **Mitteln** , wenn Sie fertig sind. Sie können auch im linken Navigationsbereich auf **Ressourcenkonten** klicken, um direkt zur Seite Ressourcenkonten zu wechseln und Ihre automatische Telefonzentrale einem Ressourcenkonto zuzuordnen.
-
-#### <a name="dial-scope"></a>Wählbereich
-
-<a name="dialscope"> </a>
-
-![Screenshot mit der Seite "Wählbereich"](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
-
-Auf dieser Seite können Sie festlegen, wer in Ihrem Verzeichnis aufgeführt und für Dial by Name verfügbar ist, wenn eine Person Ihre Organisation anruft. Dial by Name ist in einem früheren Fenster standardmäßig auf **Off** eingestellt. Alle Benutzer mit einer Erweiterung stehen zur Verfügung **,** wenn die Wähl-Erweiterung zuvor ausgewählt wurde.
-
-![Symbol der Zahl 1: ](media/teamscallout1.png) **Include** die Optionen in diesem Abschnitt sind entweder **alle Online Benutzer** oder Benutzer **definierte Benutzergruppen** .
-
-Wenn Sie **alle Online Benutzer**auswählen, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
-
-**Benutzerdefinierte Benutzergruppen** Mit dieser Option können Sie eine Microsoft 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen und auswählen, die bereits in Ihrer Organisation erstellt wurde. Benutzer werden dem Verzeichnis hinzugefügt, wenn Sie sich in der ausgewählten Microsoft 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe befinden und **Online-Benutzer mit einer Telefon System Lizenz** sind oder lokal mit Skype for Business Server gehostet werden. Sie können dem Verzeichnis mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
-
-<a name="dialscope"> </a>
-
-Auf dieser Seite können Sie festlegen, welche Benutzer in Ihrer Organisation in Ihrem Verzeichnis aufgeführt und für die Wahl nach Namen verfügbar sein sollen, wenn eine Person, die sich in Ihre Organisation einwählt.
-
-![Symbol der Zahl 2: eine Legende im vorherigen Screenshot ](media/teamscallout2.png) **schließt** die Optionen in diesem Abschnitt aus, mit denen Sie bestimmte Benutzer oder Gruppen von Benutzern aus dem Verzeichnis der Organisation ausschließen können.
-
-Wenn Sie **keine**auswählen, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
-
-**Benutzerdefinierte Benutzergruppe** Sie können nach einer Microsoft 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde. Benutzer in dieser Gruppe sind von der Verzeichnissuche ausgeschlossen. Sie können mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
-
-Wenn Sie die Einstellungen bei aktivierter Wahl nach Namen standardmäßig beibehalten, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
-
-> [!NOTE]
-> Es kann bis zu 36 Stunden dauern, bis der Name des neuen Benutzers im Verzeichnis aufgeführt ist. Wenn jemand Dial-by-Name mit Spracherkennung verwendet, stehen neue Konten möglicherweise nicht für dieses Feature zur Verfügung.
-
-Nachdem Sie alle erforderlichen Felder eingegeben und die Menüs und Optionen für die Anrufbehandlung eingerichtet haben, klicken Sie auf **weiter** , um mit dem Zuordnen eines Ressourcenkontos fortzufahren.
-
-#### <a name="resource-accounts"></a>Ressourcenkonten
-
-Alle automatischen Telefonzentralen müssen über ein zugeordnetes Ressourcenkonto verfügen.  Für automatische Telefonzentralen auf oberster Ebene wird definitiv mindestens ein Ressourcenkonto benötigt, das über eine zugeordnete Dienstnummer verfügt. Wenn Sie möchten, können Sie einer automatischen Telefonzentrale mit jeweils einer separaten Servicenummer mehrere Ressourcenkonten zuweisen.
-
-Wenn Sie noch kein Ressourcenkonto für Ihre automatische Telefonzentrale konfiguriert haben, wird der folgende Bildschirm angezeigt: 
-
-![Screenshot: optionale Ressourcenkonto Verwaltung](media/aa-ra-optional.png) 
-
-![Symbol der Zahl 1, einer Legende im vorherigen Screenshot Wenn Sie ](media/teamscallout1.png) der automatischen Telefonzentrale mindestens ein vorhandenes und nicht zugewiesenes Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konten hinzufügen** , und wählen Sie Sie aus den bereitgestellten Dialogfeldern aus.
-
-![Screenshot der Zusammenfassungsansicht der neuen Telefonzentrale](media/aa-assigned.png)
-
-![Symbol der Zahl 1, einer Legende im vorherigen Screenshot Wenn Sie ](media/teamscallout1.png) ein zusätzliches Ressourcenkonto hinzufügen möchten, klicken Sie auf **+ Konto hinzufügen**.
-
-![Symbol der Zahl 2, eine Legende im vorherigen Screenshot](media/teamscallout2.png) Das Ressourcenkonto oder die Konten, die dieser automatischen Telefonzentrale zugewiesen sind, werden in einer Liste angezeigt.
-
-## <a name="edit-auto-attendants"></a>Bearbeiten von automatischen Telefonzentralen
-
-Nachdem Sie die neue automatische Telefonzentrale gespeichert haben, wird Sie auf der Seite **automatische Telefonzentralen** angezeigt. Auf dieser Seite können Sie schnell einige der von Ihnen eingerichteten Optionen sehen, einschließlich Name, zugeordnetes Ressourcenkonto, Sprache und zugewiesenen Operator.
-
-![Screenshot der Attendant-Liste](media/aa-list.png)
-
-Wenn Sie die Einstellungen für die automatische Telefonzentrale ändern möchten, wählen Sie die automatische Telefonzentrale aus, und klicken Sie dann im Bereich "Aktion" auf **Bearbeiten**.
-
-<!-- To quickly place a test call to your auto attendant, click the **Test** button in the Action pane. -->
-
-<!-- ## Summary view
-
-You can use the Summary page to review the settings you've created.
-
-![screenshot of the new attendant summary view](media/aa-new-summary.png)
-
-Press the **Create** button to finish setup of your new auto attendant. -->
+Wenn Sie in einer Hybridumgebung einen Anruf der automatischen Telefonzentrale über die PSTN-Integration von Skype for Business an das PSTN übertragen möchten, erstellen Sie einen neuen lokalen Benutzer, wobei die Anrufweiterleitung auf die PSTN-Nummer festgesetzt ist. Der Benutzer muss für Enterprise-VoIP aktiviert sein und eine VoIP-Richtlinie zugewiesen haben. Weitere Informationen finden Sie unter [automatische Telefonzentrale-Anrufübertragung an PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Erstellen einer automatischen Telefonzentrale mit PowerShell
 
@@ -444,19 +234,6 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 - [Importieren-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
 - [Neu – CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
-### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
-
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Microsoft Teams von einem zentralen Punkt aus verwalten, der Ihre tägliche Arbeit vereinfachen kann. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
-
-  - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
-
-- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn nur das Microsoft 365 Admin Center verwendet wird, beispielsweise das vornehmen von Einstellungsänderungen für viele Benutzer gleichzeitig. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
-
-  - [Verwalten von Microsoft 365 oder Office 365 mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
-
-  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -466,8 +243,6 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[Beispiel für kleine Unternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) 
 
-[Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
-
-[Beispiel für kleine Unternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa)  
+[Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

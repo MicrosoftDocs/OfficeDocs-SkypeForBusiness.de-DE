@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerAssociationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
-description: Auf dieser Seite können Sie auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edge-Pool für A/V-Datenverkehr verwenden werden.
-ms.openlocfilehash: 2fc4bd0f582fcac45f397d04467ed20d7f217551
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Auf dieser Seite können auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edgepool für A/V-Datenverkehr nutzen.
+ms.openlocfilehash: aede7eed913eefb778920061554b56dd0e2ef9fb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821097"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219296"
 ---
 # <a name="add-edge-server-associations"></a>Hinzufügen von Edgeserverzuordnungen
  
-Auf dieser Seite können Sie auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edge-Pool für A/V-Datenverkehr verwenden werden. 
+Auf dieser Seite können auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edgepool für A/V-Datenverkehr nutzen. 
   
-Jeder Front-End-Pool kann nur einem Edge-Pool zugeordnet werden. Wenn Sie einen Pool auswählen, der bereits einem anderen Edge-Pool zugeordnet ist, wird die Zuordnung vom vorherigen Edge-Pool entfernt geändert.
+Jedem Front-End-Pool kann nur ein Edgepool zugeordnet werden. Wenn Sie einen Pool auswählen, der bereits einem anderen Edgepool zugeordnet ist, wird die Zuordnung zum vorherigen Pool aufgehoben.
   
-Sie können auch diesen Edgeserver oder Edge-Pool mit Vermittlungsservern oder Vermittlungsserver Pools verknüpfen, um Enterprise-VoIP für externe Benutzer zu konfigurieren und zu aktivieren.
+Sie können auch diesen Edgeserver oder Edgepool mit Vermittlungsservern oder Vermittlungsserver Pools zuordnen, um Enterprise-VoIP für externe Benutzer zu konfigurieren und zu aktivieren.
   
 

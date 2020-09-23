@@ -8,19 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: Sie können die Eigenschaften auf dieser Seite so konfigurieren, dass der Edgeserver auf die externen Speicherorte der Zugriffs-Edgedienst, Webkonferenz-Edgedienst und A/V-Edgedienst verweist.
-ms.openlocfilehash: a278ed44280b6bdcfd4bb50f4d8637f7c91d40fe
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 25914c222e1f483f1b5af03299da1560eb51c8f8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821167"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219456"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>Hinzufügen der externen IP-Adresse zum Edgecomputer – 2010
 

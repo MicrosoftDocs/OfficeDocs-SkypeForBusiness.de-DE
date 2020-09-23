@@ -8,17 +8,18 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.Federation
+- ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Edgeserver können so konfiguriert werden, dass ihren internen und externen Benutzern der Zugriff auf Kontakte in Partnerorganisationen oder-Diensten ermöglicht wird.
-ms.openlocfilehash: 9a54bd99c579cc1cc1a99faf9eab18f19262e456
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16ac8fb77a8f15be9da7bc58f96954ffff2c7255
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037695"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219800"
 ---
 # <a name="federation-planning-tool"></a>Partnerverbund (Planungs Tool)
  

@@ -8,39 +8,39 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: 'So konfigurieren Sie die allgemeinen Eigenschaften des Director-oder Director-Pools:'
-ms.openlocfilehash: c10afd53a8a5525ddf34bdb67b117a6cdf580abf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'So konfigurieren Sie die allgemeinen Eigenschaften des Directors oder eines Directorpool:'
+ms.openlocfilehash: d61bc52500c254ed43a1804d3094623dd0c8be1b
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820137"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219026"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Allgemeine Director-Einstellungen für Lync Server 2010 – Erweiterung
  
-So konfigurieren Sie die **allgemeinen** Eigenschaften des Director-oder Director-Pools:
+So konfigurieren Sie die **allgemeinen** Eigenschaften des Directors oder eines Directorpool:
   
- **FQDN**: Geben Sie den vollqualifizierten Domänennamen des Director-oder Director-Pools ein.
+ **FQDN**: Geben Sie den vollqualifizierten Domänennamen des Directors oder Directorpool ein.
   
- **Zuordnungen**
+ **Verbände**
   
- **Dateispeicher**: Wählen Sie in der Liste den Dateispeicher des Director-oder Director-Pools aus.
+ **Dateispeicher**: Wählen Sie in der Liste den Dateispeicher für den Director oder einen Directorpool
   
-Klicken Sie auf **neu** , um einen neuen Dateispeicher zu definieren.
+Klicken Sie auf **Neu**, um einen neuen Dateispeicher zu definieren.
   
-Aktivieren Sie das Kontrollkästchen **Überwachungsserver zuordnen** , und wählen Sie einen Überwachungsserver aus der Liste aus.
+Aktivieren Sie das Kontrollkästchen **Monitoring Server zuordnen** , und wählen Sie einen Monitoring Server aus der Liste aus.
   
-Klicken Sie auf **neu** , um einen neuen Überwachungs Server zu definieren.
+Klicken Sie auf **neu** , um einen neuen Monitoring Server zu definieren.
   
  **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   
- **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
+ **Abbrechen**: Mit dieser Option werden die Änderungen verworfen, und das Dialogfeld wird geschlossen.
   
  **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
   
