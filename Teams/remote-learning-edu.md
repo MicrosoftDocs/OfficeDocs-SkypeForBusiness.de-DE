@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820599"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171109"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -87,7 +87,7 @@ Eine exemplarische Vorgehensweise zum Erstellen von Teams finden Sie hier: [Erst
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Benutzeroberflächen mithilfe von Richtlinien konfigurieren
 
 > [!IMPORTANT]
-> Wenn Sie mehr darüber erfahren möchten, wie Schüler während Besprechungen geschützt werden können, lesen Sie [Schutz von Schülern bei der Verwendung von Teams-Meetings für Fernunterricht](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Wenn Sie sich eingehend mit unseren Administrator-EDU-Richtlinienempfehlungen befassen möchten, navigieren Sie zu [Teams-Richtlinien und Richtlinienpakete für das Bildungswesen](policy-packages-edu.md).
+> Mehr zu den Maßnahmen, die Sie zum Schutz von Schülerinnen und Schülern ergreifen müssen, erfahren Sie unter [Sicherheit für Schülerinnen und Schüler in Teams für den Fernunterricht](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Wenn Sie sich eingehend mit unseren Administrator-EDU-Richtlinienempfehlungen befassen möchten, navigieren Sie zu [Teams-Richtlinien und Richtlinienpakete für das Bildungswesen](policy-packages-edu.md).
 
 [Teams-Richtlinien](teams-policies.md) bieten die Möglichkeit, die für bestimmte Benutzer oder Benutzergruppen verfügbaren Optionen zu steuern. Richtlinien können angewendet werden, um zu definieren, wer private Chats, private Anrufe, Besprechungsplanung, Inhaltstypen, die geteilt werden können, und vieles mehr verwenden darf.
 

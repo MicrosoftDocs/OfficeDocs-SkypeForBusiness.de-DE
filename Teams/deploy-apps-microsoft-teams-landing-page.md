@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d377b18080d9208529b9c6196cd3879bd03a011f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584004"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177335"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Apps, Bots und Connectors in Microsoft Teams
 
@@ -45,7 +45,7 @@ Dies sind die Einstellungen für Apps, deren Änderung in den meisten Organisati
 
 Teams bietet eine Reihe von von Microsoft veröffentlichte und von Drittanbietern stammende Apps, um Benutzer zu binden, die Produktivität zu steigern und häufig verwendete Businessdienste in Teams zu integrieren. Laden Sie Apps aus dem Teams Store herunter. Standardmäßig sind alle Apps, einschließlich benutzerdefinierter Apps, die Sie mithilfe des [Teams Store-Genehmigungsverfahrens](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process) eingereicht haben, für alle Benutzer aktiviert. Beispielsweise können Benutzer die Planner-App verwenden, um Teamaufgaben in Teams zu erstellen und verwalten.
 
-Standardmäßig sind alle von Microsoft bereitgestellten und benutzerdefinierten Apps verfügbar, und Sie können einzelne Apps aktivieren oder deaktivieren. Mithilfe einer unternehmensweiten Einstellung können Sie alle benutzerdefinierten Apps für Ihre gesamte Organisation aktivieren oder deaktivieren.
+Standardmäßig sind alle von Microsoft bereitgestellten, Drittanbieter- und benutzerdefinierten Apps verfügbar. Sie können einzelne Apps ein- oder ausschalten. Es gibt organisationsweite Einstellungen, mit denen Sie alle Apps von Drittanbietern und/oder benutzerdefinierte Apps für Ihre gesamte Organisation ein- oder ausschalten können.
 
 | Frage | Aktion |
 |--------------|--------|
