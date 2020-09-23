@@ -8,36 +8,36 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
-description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und den zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 3f9600c3a432ebd3d3af3d1bd25dc083cd8a0c81
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 36790cae5872bc5b84295b5defc78fafa87b02ba
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820117"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218966"
 ---
-# <a name="director-scope-node"></a><span data-ttu-id="36af9-104">Director – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="36af9-104">Director Scope Node</span></span>
+# <a name="director-scope-node"></a><span data-ttu-id="87739-104">Director – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="87739-104">Director Scope Node</span></span>
  
-<span data-ttu-id="36af9-p102">Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und den zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="36af9-p102">This node shows the fully qualified domain name (FQDN), ports, and associated file store for this Director pool. You can perform the following actions:</span></span>
+<span data-ttu-id="87739-p102">Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="87739-p102">This node shows the fully qualified domain name (FQDN), ports, and associated file store for this Director pool. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="36af9-p103">**Neuer Server**: Dient zum Laden der Seite **Neuen Server definieren**, auf der Sie diesem Pool einen weiteren Director hinzufügen können.</span><span class="sxs-lookup"><span data-stu-id="36af9-p103">**New Server**. Loads the **Define New Server** page, which you can use to add another Director to this pool.</span></span>
+- <span data-ttu-id="87739-p103">**Neuer Server**: Dient zum Laden der Seite **Neuen Server definieren**, auf der Sie diesem Pool einen weiteren Director hinzufügen können.</span><span class="sxs-lookup"><span data-stu-id="87739-p103">**New Server**. Loads the **Define New Server** page, which you can use to add another Director to this pool.</span></span>
     
-- <span data-ttu-id="36af9-p104">**Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen, Ports und den diesem Director-Pool zugeordneten Dateispeicher ändern können.</span><span class="sxs-lookup"><span data-stu-id="36af9-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN, ports, and associated file store for this Director pool.</span></span>
+- <span data-ttu-id="87739-p104">**Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen, Ports und den diesem Director-Pool zugeordneten Dateispeicher ändern können.</span><span class="sxs-lookup"><span data-stu-id="87739-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN, ports, and associated file store for this Director pool.</span></span>
     
-- <span data-ttu-id="36af9-p105">**Löschen**: Dient zum Löschen des Pools aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="36af9-p105">**Delete**. Deletes the pool from the topology.</span></span>
+- <span data-ttu-id="87739-p105">**Löschen**: Dient zum Löschen des Pools aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="87739-p105">**Delete**. Deletes the pool from the topology.</span></span>
     
-<span data-ttu-id="36af9-113">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="36af9-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="87739-113">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="87739-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="36af9-p106">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="36af9-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="87739-114">**Topologie**.</span><span class="sxs-lookup"><span data-stu-id="87739-114">**Topology**.</span></span> <span data-ttu-id="87739-115">Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="87739-115">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="36af9-p107">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="36af9-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="87739-p107">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="87739-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="36af9-p108">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="36af9-p108">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="87739-p108">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="87739-p108">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

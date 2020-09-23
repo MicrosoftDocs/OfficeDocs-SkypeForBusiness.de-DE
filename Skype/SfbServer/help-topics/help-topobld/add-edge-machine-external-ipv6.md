@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIPv6Page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
-description: Geben Sie unter externe IPv6-Adresse die externe IP-Adresse ein, die auf den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verweist.
-ms.openlocfilehash: b260e3980c33260e2cdaf64f0f6b69c769017cfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Geben Sie unter externe IPv6-Adresse die externe IP-Adresse ein, die auf die Zugriffs-Edgedienst, Webkonferenz-Edgedienst und A/V-Edgedienst zeigt.
+ms.openlocfilehash: d1c0e3d1f61d7b5c4d0b6ca2c53ac6a19bc6a0c9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821147"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219386"
 ---
-# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="967df-103">Hinzufügen der externen IPv6-Adresse des Edgecomputers</span><span class="sxs-lookup"><span data-stu-id="967df-103">Add Edge Machine External IPv6</span></span>
+# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="2f676-103">Hinzufügen der externen IPv6-Adresse des Edgecomputers</span><span class="sxs-lookup"><span data-stu-id="2f676-103">Add Edge Machine External IPv6</span></span>
  
-<span data-ttu-id="967df-104">Geben Sie unter **externe IPv6-Adresse**die externe IP-Adresse ein, die auf den Access-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verweist.</span><span class="sxs-lookup"><span data-stu-id="967df-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="2f676-104">Geben Sie unter **externe IPv6-Adresse**die externe IP-Adresse ein, die auf die Zugriffs-Edgedienst, Webkonferenz-Edgedienst und A/V-Edgedienst zeigt.</span><span class="sxs-lookup"><span data-stu-id="2f676-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 
