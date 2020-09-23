@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen einer Director-Zuordnung für lync Server 2010
+title: Director-Zuordnung für lync Server 2010 hinzufügen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddDirectorAssociationPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
-description: Sie legen fest, ob dem Director-oder Director-Pool ein Monitoring Server zugeordnet ist. Aktivieren Sie das Kontrollkästchen, um einen Überwachungs Server dem Director-oder Director-Pool zuzuordnen.
-ms.openlocfilehash: f7d298e18925e373401ed1ae6f005b58b5789cdb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Sie definieren, ob dem Director oder Directorpool ein Monitoring Server zugeordnet ist. Aktivieren Sie das Kontrollkästchen, um eine Monitoring Server dem Director oder Directorpool zuzuordnen.
+ms.openlocfilehash: 31eedd38d4ef63019d2e333759ec2195c9e6ebc9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821237"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217306"
 ---
-# <a name="add-director-association-for-lync-server-2010"></a><span data-ttu-id="171ed-104">Hinzufügen einer Director-Zuordnung für lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="171ed-104">Add Director Association for Lync Server 2010</span></span>
+# <a name="add-director-association-for-lync-server-2010"></a><span data-ttu-id="9d68e-104">Director-Zuordnung für lync Server 2010 hinzufügen</span><span class="sxs-lookup"><span data-stu-id="9d68e-104">Add Director Association for Lync Server 2010</span></span>
  
-<span data-ttu-id="171ed-105">Sie legen fest, ob dem Director-oder Director-Pool ein Monitoring Server zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="171ed-105">You define whether the Director or Director pool will have a Monitoring Server associated with it.</span></span> <span data-ttu-id="171ed-106">Aktivieren Sie das Kontrollkästchen, um einen Überwachungs Server dem Director-oder Director-Pool zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="171ed-106">Select the check box to associate a Monitoring Server with the Director or Director pool.</span></span>
+<span data-ttu-id="9d68e-105">Sie definieren, ob dem Director oder Directorpool ein Monitoring Server zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="9d68e-105">You define whether the Director or Director pool will have a Monitoring Server associated with it.</span></span> <span data-ttu-id="9d68e-106">Aktivieren Sie das Kontrollkästchen, um eine Monitoring Server dem Director oder Directorpool zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="9d68e-106">Select the check box to associate a Monitoring Server with the Director or Director pool.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="171ed-107">Wenn Sie noch keine Monitoring Server-Datenbank (und eine optionale Instanz) erstellt haben, können Sie diese später erstellen, wenn Sie dieses Kontrollkästchen aktivieren, um einen Überwachungsserver dem Director-oder Director-Pool zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="171ed-107">If you have not yet created a Monitoring Server database (and optional instance), you will be given the opportunity to create it later if you select this check box to associate a Monitoring Server with the Director or Director pool.</span></span> 
+> <span data-ttu-id="9d68e-107">Wenn Sie noch keine Monitoring Server Datenbank (und optionaler Instanz) erstellt haben, können Sie Sie später erstellen, wenn Sie dieses Kontrollkästchen aktivieren, um eine Monitoring Server dem Director oder Directorpool zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="9d68e-107">If you have not yet created a Monitoring Server database (and optional instance), you will be given the opportunity to create it later if you select this check box to associate a Monitoring Server with the Director or Director pool.</span></span> 
   
 
