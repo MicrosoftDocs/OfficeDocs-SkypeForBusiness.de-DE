@@ -9,7 +9,6 @@
 # Schulungen
 ## [Übersicht](training-microsoft-teams-landing-page.md)
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
-## [Microsoft Teams-Schulungen für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 ## [Teams Sitzungen bei Ignite 2020](ignite-2020-landing-page.md)
 ## [Teams-Liveschulung](instructor-led-training-teams-landing-page.yml)
 ## [Teams-Online-Schulung](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
@@ -367,7 +366,6 @@
 ##### [Definitionen und RFC-Standards](direct-routing-protocols.md)
 ##### [SIP-Protokoll](direct-routing-protocols-SIP.md)
 ##### [Media-Protokolle](direct-routing-protocols-media.md)
-#### [Einrichten des Rückruf-Bots](direct-routing-ringback-bot.md)
 #### [Verwalten von VoIP-Routingrichtlinien](manage-voice-routing-policies.md)
 
 
