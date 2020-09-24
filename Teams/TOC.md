@@ -113,6 +113,7 @@
 # Apps, Bots und Connectors
 
 ## [Übersicht](deploy-apps-microsoft-teams-landing-page.md)
+## [Integrieren mit Power Platform](teams-power-platfom-integration.md)
 ## [Verwalten von Apps für Teams](manage-apps.md)
 ## [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 ## [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
@@ -186,6 +187,7 @@
 ## [Teams-Besprechungen in nicht unterstützten Browsern](unsupported-browsers.md)
 ## [Konfigurieren der Desktopfreigabe in Teams](configure-desktop-sharing.md)
 ## [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md)
+## [Verwenden von OneDrive for Business und SharePoint oder Stream für Sitzungsaufzeichnungen](tmr-meeting-recording-change.md)
 ## [Contact Center-Integrationen](teams-contact-center.md)
 ## [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
 ## [Einrichten der Funktion „Rückruf“ für Ihre Benutzer](set-up-the-call-me-feature-for-your-users.md)
@@ -258,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Cloud-Video-Interoperabilität](cloud-video-interop.md)
 
 ## Liveereignisse
@@ -293,14 +294,15 @@
 #### [Mehr über Telefonnummer-ID und Name des Anrufers](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Automatische Telefonzentralen und Anrufwarteschleifen 
-#### [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
-#### [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)
+#### [Planung](plan-auto-attendant-call-queue.md)
+#### [Einrichten der automatischen Telefonzentrale](create-a-phone-system-auto-attendant.md)
+#### [Einrichten der Anrufwarteschleife](create-a-phone-system-call-queue.md)
 #### [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](tutorial-org-aa.yml)
 #### [Beispiel für Kleinunternehmen – Einrichten einer Anrufwarteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Verwalten von Ressourcenkonten in Teams](manage-resource-accounts.md)
-#### [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
 #### [Feiertage festlegen](set-up-holidays-in-teams.md)
 #### [Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Wahl- und Sprachreferenz](dial-voice-reference.md)
 
 ### [Eingehende Anrufe blockieren](block-inbound-calls.md)
 ### [Parken von Anrufen und Holen](call-park-and-retrieve.md)
