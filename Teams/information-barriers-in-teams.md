@@ -16,16 +16,16 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
-ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
+ms.openlocfilehash: 8addc6ff58ad148f5a5146e7397ec479c8dfbbb4
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46592909"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235853"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
-Informationsbarrieren (IB) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. Dies ist hilfreich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollen, oder eine Gruppe verhindert oder isoliert werden muss, um mit Personen außerhalb dieser Gruppe zu kommunizieren.
+Informationsbarrieren (IB) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. IB ist nützlich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollen, oder eine Gruppe verhindert oder isoliert werden muss, um mit Personen außerhalb dieser Gruppe zu kommunizieren.
 
 > [!NOTE]
 > - Gruppen für Informationsbarrieren können nicht für Mandanten erstellt werden.
@@ -33,7 +33,7 @@ Informationsbarrieren (IB) sind Richtlinien, die ein Administrator konfigurieren
 > - Private Kanäle sind mit Richtlinien für Informationsbarrieren kompatibel, die Sie konfigurieren.
 > - Neu: Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit Teams verbunden sind, finden Sie [hier](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
-Richtlinien für Informationsbarrieren verhindern auch Nachschlagevorgänge und Ermittlungen. Wenn Sie versuchen, mit einer Person zu kommunizieren, mit der Sie nicht kommunizieren sollten, wird dieser Benutzer in der Personenauswahl nicht gefunden.
+Richtlinien für Informationsbarrieren verhindern auch Nachschlagevorgänge und Ermittlungen. Wenn Sie versuchen, mit einer Person zu kommunizieren, mit der Sie nicht kommunizieren sollten, finden Sie diesen Benutzer nicht in der Personenauswahl.
 
 ## <a name="background"></a>Hintergrund
 
@@ -92,7 +92,7 @@ Richtlinien für Informationsbarrieren werden aktiviert, wenn die folgenden Team
 
     ![Screenshot des Benutzers, der von einer Besprechung blockiert wurde](media/information-barriers-meeting.png)
 
-- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – jedes Mal, wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig. 
+- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig. 
  
     Hier ist ein Beispiel für die Bildschirmfreigabe, bevor die Richtlinie angewendet wird. 
 
@@ -121,7 +121,7 @@ Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, e
 
     ![Screenshot, der zeigt, dass der Benutzer Chat deaktiviert ist](media/ib-after-1-1chat-policy.png)
 
-- **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer die Arbeit wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe ist nicht zulässig. Der Benutzer kann weiterhin alte Konversationen sehen (die schreibgeschützt sind), aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen.
+- **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer die Arbeit wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe ist nicht zulässig. Der Benutzer kann weiterhin alte Konversationen (schreibgeschützt) sehen, aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen.
 
 In diesem Beispiel zog Enrico zu einer anderen Abteilung innerhalb der Organisation und wird aus dem Gruppen-Chat entfernt.
 
@@ -135,7 +135,7 @@ Enrico kann keine Nachrichten mehr an den Gruppen-Chat senden.
 
 ## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>Szenario: ein Benutzer in einem vorhandenen Chat wird blockiert
 
-Derzeit erfahren Benutzer Folgendes, wenn eine Richtlinie für Informationsbarrieren einen anderen Benutzer blockiert:
+Derzeit können Benutzer die folgenden Szenarien erleben, wenn eine Richtlinie für Informationsbarrieren einen anderen Benutzer blockiert:
 
 - **Registerkarte "Personen"** – Benutzer können auf der Registerkarte **Personen** keine blockierten Benutzer sehen.
 - **Personenauswahl** – blockierte Benutzer werden in der Personenauswahl nicht angezeigt.
@@ -179,7 +179,7 @@ Weitere Informationen finden Sie im Artikel [Informationen zu Barrieren](https:/
 Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Lizenzierungs Leit Faden](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Bekannte Probleme
-- **Benutzer können nicht an Besprechungen teilnehmen**: Wenn IB-Richtlinien aktiviert sind, können Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Besprechungsliste mehr als 250 Benutzer ist. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Wenn Sie an einer Besprechung teilnehmen, wird dieser Benutzer dem Dienstplan hinzugefügt, sodass der Dienstplan für wiederkehrende Besprechungen schnell aufgefüllt wird. Sobald Sie eine Anzahl von 250-Benutzern erreicht haben, dürfen keine weiteren Benutzer zur Besprechungsliste hinzugefügt werden. Wenn IB aktiviert ist, können Benutzer nicht an der Besprechung teilnehmen, aber wenn IB nicht aktiviert ist, können Benutzer an der Besprechung teilnehmen, obwohl Sie nicht in die Liste der Besprechungs Chats aufgenommen werden. Eine kurzfristige Lösung besteht darin, inaktive Mitglieder aus der Liste der Besprechungs Chats zu entfernen, um Platz für neue Benutzer zu schaffen. Wir werden jedoch zu einem späteren Zeitpunkt die Größe von Besprechungs-Chat-Dienstplänen erhöhen.
+- **Benutzer können nicht an Besprechungen teilnehmen**: Wenn IB-Richtlinien aktiviert sind, können Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Besprechungsliste mehr als die [Grenzwerte für Besprechungs Besuche](limits-specifications-teams.md)ist. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Wenn Sie an einer Besprechung teilnehmen, wird dieser Benutzer dem Dienstplan hinzugefügt, sodass der Dienstplan für wiederkehrende Besprechungen schnell aufgefüllt wird. Sobald die [Obergrenze](limits-specifications-teams.md)für die Teilnahme an der Besprechung erreicht ist, dürfen keine weiteren Benutzer zur Besprechung Chat Liste hinzugefügt werden. Wenn IB aktiviert ist, können Benutzer nicht an der Besprechung teilnehmen, aber wenn IB nicht aktiviert ist, können Benutzer an der Besprechung teilnehmen, obwohl Sie nicht in die Liste der Besprechungs Chats aufgenommen werden. Eine kurzfristige Lösung besteht darin, inaktive Mitglieder aus der Liste der Besprechungs Chats zu entfernen, um Platz für neue Benutzer zu schaffen. Wir werden jedoch zu einem späteren Zeitpunkt die Größe von Besprechungs-Chat-Dienstplänen erhöhen.
 
 ## <a name="more-information"></a>Weitere Informationen
 

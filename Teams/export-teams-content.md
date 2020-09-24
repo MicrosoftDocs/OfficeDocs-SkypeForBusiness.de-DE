@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7849892870f54f43f0fda16564ad472426d46cd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 2932488128ccf6f0bff12f3aad39181ed56c1cd0
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171443"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235813"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportieren von Inhalten mit den Microsoft Teams Export-APIs
 
@@ -31,8 +31,8 @@ Teams-Export-APIs ermöglichen es Ihnen, 1:1-und Gruppen-Chatnachrichten aus Mic
 
 Nachfolgend finden Sie einige Beispiele, wie Sie diese Export-APIs verwenden können:
 
-- **Beispiel 1**: Wenn Sie Microsoft Teams in Ihrer Organisation aktiviert haben und alle Microsoft Teams-Nachrichten bis dato programmgesteuert exportieren möchten, indem Sie den Datenbereich für einen bestimmten Benutzer übergeben.
-- **Beispiel 2**: Wenn Sie alle Benutzer Nachrichten programmgesteuert exportieren möchten, indem Sie einen Datenbereich bereitstellen. Export-APIs können alle Nachrichten abrufen, die während des angegebenen Datumsbereichs erstellt oder aktualisiert wurden.
+- **Beispiel 1**: Wenn Sie Microsoft Teams in Ihrer Organisation aktiviert haben und alle Microsoft Teams-Nachrichten bis dato programmgesteuert exportieren möchten, indem Sie den Datumsbereich für einen bestimmten Benutzer übergeben.
+- **Beispiel 2**: Wenn Sie alle Benutzer Nachrichten programmgesteuert exportieren möchten, indem Sie einen Datumsbereich angeben. Export-APIs können alle Nachrichten abrufen, die während des angegebenen Datumsbereichs erstellt oder aktualisiert wurden.
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Was wird von den Export-APIs für Teams unterstützt?
 
@@ -50,13 +50,13 @@ Nachfolgend finden Sie einige Beispiele, wie Sie diese Export-APIs verwenden kö
 - **Beispiel 1** ist eine einfache Abfrage, mit der alle Nachrichten eines Benutzers ohne Filter abgerufen werden:
 
     ```HTTP
-    GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
 
 - **Beispiel 2** ist eine Beispielabfrage, um alle Nachrichten eines Benutzers abzurufen, indem Datums Zeitfilter und Top 50-Nachrichten angegeben werden:
 
     ```HTTP
-    https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 
 >[!NOTE]
@@ -64,7 +64,7 @@ Nachfolgend finden Sie einige Beispiele, wie Sie diese Export-APIs verwenden kö
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>Voraussetzungen für den Zugriff auf Team Export-APIs 
 
-- Die Export-APIs für Teams sind derzeit in der Preview-Version unter den Nutzungsbedingungen von Microsoft-APIs.  Es steht Benutzern und Mandanten, die über die erforderlichen Lizenzen verfügen, nur zur Verfügung. Versuche, ohne die richtigen Lizenzen auf APIs zuzugreifen, führen zu einem 403-Fehler.
+- Die Export-APIs für Teams befinden sich derzeit in der Vorschau. Es steht Benutzern und Mandanten nur zur Verfügung, die über die [erforderlichen Lizenzen](https://aka.ms/teams-changenotification-licenses) für APIs verfügen. In Zukunft kann Microsoft verlangen, dass Sie oder Ihre Kunden zusätzliche Gebühren auf der Grundlage der Datenmenge Zahlen, auf die über die API zugegriffen wird.
 - Microsoft Teams-APIs in Microsoft Graph, die auf vertrauliche Daten zugreifen, gelten als geschützte APIs. Für Export-APIs ist es erforderlich, dass Sie über Berechtigungen und Zustimmung hinaus zusätzliche Überprüfung haben, bevor Sie Sie verwenden können. Wenn Sie den Zugriff auf diese geschützten APIs anfordern möchten, füllen Sie das [Anforderungsformular](https://aka.ms/teamsgraph/requestaccess)aus.
 - Anwendungsberechtigungen werden von apps verwendet, die ohne angemeldeten Benutzer ausgeführt werden. Anwendungsberechtigungen können nur von einem Administrator zugestimmt werden. Die folgenden Berechtigungen sind erforderlich:
 
