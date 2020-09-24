@@ -17,37 +17,38 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820619"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235843"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
-In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen und Liveereignisse. Verwenden Sie diesen Artikel, um Besprechungen und Liveereignisse für Ihre Organisation schnell einzurichten und zu konfigurieren. 
+In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen und Liveereignisse. Verwenden Sie diesen Artikel, um Besprechungen und Liveereignisse für Ihre Organisation schnell einzurichten und zu konfigurieren.
 
 > [!Note]
 > Mehr über die schnelle Konfiguration von Teams-Besprechungen und -Ereignissen auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 300* Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme. 
+ - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 300* Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme.
 
  - **Liveereignisse** sind eine Erweiterung von Teams-Besprechungen, die es Ihnen ermöglichen, Veranstaltungen bzw. Ereignisse zu planen und zu erstellen, die an ein zahlenmäßig großes Onlinepublikum – bis zu 10.000 Personen – übertragen werden. Wenn Sie eine Besprechung für mehr als 300 Personen durchführen möchten, verwenden Sie ein Liveereignis.
-<br><br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird.
+<br><br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird. Die neuesten Informationen zu Teams-Besprechungsgrenzwerten finden Sie unter [Grenzwerte und Daten](limits-specifications-teams.md).
+
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Lizenzen für Besprechungen und Liveereignisse abrufen
 
-Jeder kann kostenlos an einer Teams-Besprechung oder einem öffentlichen Liveereignis teilnehmen – es ist keine Lizenz erforderlich. Um an einer Teams-Besprechung oder einem Liveereignis teilzunehmen, müssen Teilnehmer nur in Teams oder in der Besprechungseinladung auf die Schaltfläche **Teilnehmen** klicken. Die Audioübertragung ist Teil einer Teams-Besprechung, aber wenn Sie möchten, dass sich die Teilnehmer per Telefon in eine Besprechung einwählen können, müssen Sie eine Einwahlnummer angeben. 
+Jeder kann kostenlos an einer Teams-Besprechung oder einem öffentlichen Liveereignis teilnehmen – es ist keine Lizenz erforderlich. Um an einer Teams-Besprechung oder einem Liveereignis teilzunehmen, müssen Teilnehmer nur in Teams oder in der Besprechungseinladung auf die Schaltfläche **Teilnehmen** klicken. Die Audioübertragung ist Teil einer Teams-Besprechung, aber wenn Sie möchten, dass sich die Teilnehmer per Telefon in eine Besprechung einwählen können, müssen Sie eine Einwahlnummer angeben.
 
-Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten, benötigen eine der Microsoft 365- oder Office 365-Lizenzen, die in der nachstehenden Tabelle aufgeführt sind. Wenn Sie bereits Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen und Liveereignissen benötigen. 
+Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten, benötigen eine der Microsoft 365- oder Office 365-Lizenzen, die in der nachstehenden Tabelle aufgeführt sind. Wenn Sie bereits Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen und Liveereignissen benötigen.
 
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tabelle mit erforderlichen Lizenzen für Teams-Besprechungen oder Liveereignisse":::
 
 > <sup>1</sup> Besprechungsorganisatoren benötigen eine [Lizenz für das Audiokonferenz-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), um eine Einladung zu versenden, die Einwahlkonferenzen umfasst.
 >
-> <sup>2</sup> Für ausgehende Anrufe aus Konferenzen an eine [**Rückruf unter**-Nummer](set-up-the-call-me-feature-for-your-users.md) müssen Organisatoren über eine E5- oder [Audiokonferenz-Add-In-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) verfügen. Es kann auch ein [Wählplan](what-are-dial-plans.md) erforderlich sein. 
+> <sup>2</sup> Für ausgehende Anrufe aus Konferenzen an eine [**Rückruf unter**-Nummer](set-up-the-call-me-feature-for-your-users.md) müssen Organisatoren über eine E5- oder [Audiokonferenz-Add-In-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) verfügen. Es kann auch ein [Wählplan](what-are-dial-plans.md) erforderlich sein.
 
-Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
+Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="make-sure-your-networks-ready"></a>Sicherstellen, dass Ihr Netzwerk bereit ist
 
@@ -55,7 +56,7 @@ Wenn Sie Ihr Netzwerk bereits beim Rollout von Microsoft 365 oder Office 365 vor
 
 ## <a name="meetings-and-conferencing"></a>Besprechungen und Konferenzen
 
-- Als Administrator konfigurieren Sie [Besprechungseinstellungen](meeting-settings-in-teams.md) für alle Benutzer. Anschließend verwenden Sie [Besprechungsrichtlinien](meeting-policies-in-teams.md), um zu steuern, welche Besprechungsfeatures für Ihre Benutzer zur Verfügung stehen (und welche nicht). 
+- Als Administrator konfigurieren Sie [Besprechungseinstellungen](meeting-settings-in-teams.md) für alle Benutzer. Anschließend verwenden Sie [Besprechungsrichtlinien](meeting-policies-in-teams.md), um zu steuern, welche Besprechungsfeatures für Ihre Benutzer zur Verfügung stehen (und welche nicht).
 
 - Um mehr über die Verwaltung der Sitzungsaufzeichnung zu erfahren, lesen Sie [Teams-Cloudsitzungsaufzeichnung](cloud-recording.md).
 
