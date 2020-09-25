@@ -16,22 +16,22 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583814"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235823"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
-Möchte Ihre Organisation Microsoft Teams einführen, um Remotemitarbeiter und Benutzer zu unterstützen, die von zu Hause aus arbeiten? Verwenden Sie die Anleitungen in diesem Artikel für einen schnellen Einstieg.
+Möchte Ihre Organisation Microsoft Teams verwenden, um Remotemitarbeiter und Benutzer zu unterstützen, die von zu Hause aus arbeiten? Verwenden Sie die Anleitungen in diesem Artikel für einen schnellen Einstieg.
 
 Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie den Artikel [Remote-Arbeit kann auch Ihrem Kleinunternehmen weiterhelfen](https://aka.ms/remote-business).
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 
-- Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) hat. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** Experience aktivieren.
+- Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) hat. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
 
 -  Wenn Sie bereits über ein Abonnement verfügen, das Teams umfasst, **[aktivieren Sie es für jeden](user-access.md)**.
     
@@ -40,7 +40,7 @@ Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie den Artikel [Rem
 Weitere Informationen hierzu finden Sie unter [Zusätzlicher Ressourcen zur Unterstützung von Remotemitarbeitern](#additional-resources-for-supporting-remote-workers) weiter unten.
 
 
-## <a name="end-user-communications"></a>Endbenutzerkommunikation
+## <a name="end-user-communications"></a>Kommunikation der Endbenutzer
 
 Sind Sie bereit für das Rollout von Teams an Ihre Benutzer? Holen Sie sich das **[Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)**, das diese großartigen E-Mail-Vorlagen enthält:
 
@@ -74,15 +74,15 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (Wie es Microsoft seinen Mitarbeitern ermöglicht, mit Microsoft Teams remote zu arbeiten)
    - [Unterstützung für kleine und mittelständische Unternehmen bei der Remotearbeit mit Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Die 9 wichtigsten Methoden, mit denen Microsoft IT die Remotearbeit für die Mitarbeiter ermöglicht](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Die neun wichtigsten Methoden, mit denen Microsoft IT Mitarbeitern die Remotearbeit ermöglicht](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. Teams für Bildung 
+1. Microsoft Teams für Bildungseinrichtungen 
    - Wenn Sie im Bildungswesen arbeiten und Lehrkräfte, Schüler/Studenten und Administratoren in Teams einrichten möchten, verwenden Sie Office 365 A1. Diese ﻿kostenlose Version von Office 365 ist für alle Bildungseinrichtungen verfügbar. Melden Sie sich unter [Kostenloses Office 365 für die gesamte Bildungseinrichtung nutzen](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) an.
 
    - Lesen Sie unbedingt auch [Erste Schritte mit Teams für Fernunterricht](remote-learning-edu.md).
 
-1. Stellen Sie sicher, dass Ihre Mitarbeiter über einen angemessenen Internetzugang und ausreichend Bandbreite für Teams verfügen. Wenn Sie wissen möchten, wie Sie dazu vorgehen müssen, nutzen Sie die Anleitung in [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md).
+1. Stellen Sie sicher, dass Ihre Mitarbeiter über einen angemessenen Internetzugang und ausreichend Bandbreite für Teams verfügen. Wenn Sie wissen möchten, wie Sie für eine ausreichende Bandbreite sorgen, nutzen Sie die Anleitung in [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md).
 
    - Begrenzte Bandbreite kann die Audioqualität in Teams-Besprechungen beeinträchtigen. Um ein optimales Besprechungserlebnis unter Bedingungen mit geringer Bandbreite zu gewährleisten, ermutigen Sie die Benutzer, Videos einzuschränken und das Telefonfestnetz (PSTN) für Anrufe und Besprechungsaudio zu verwenden. 
 
@@ -92,7 +92,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
    
    - Sofern Ihr Standort China ist, testen Sie doch die[Microsoft 365- oder Office 365-Leistungsoptimierung des globalen Mandanten für Benutzer in China ](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
-   - Wenn Sie Hilfe bei der Fehlersuche oder der Problembehandlung im Zusammenhang mit Anruf- oder Besprechungsqualität benötigen, befolgen Sie die Hinweise unter [Bekanntes Problem (China): Einwahl in Skype for Business/Teams-Konferenz-IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) am Ende dieses Artikels.
+   - Wenn Sie Hilfe bei der Fehlersuche oder Problembehandlung im Zusammenhang mit der Anruf- oder Besprechungsqualität benötigen, befolgen Sie die Hinweise unter [Bekanntes Problem (China): Einwahl in Skype for Business/Teams-Konferenz-IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) am Ende dieses Artikels.
 
 1. Sicherheit, wenn jeder von zu Hause aus arbeitet
 
@@ -128,13 +128,13 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
       
       - [Remotearbeit mit Teams](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Teams-Blog (28. Febr. 2020): [4 Tipps für die Arbeit mit Microsoft Teams von zu Hause aus](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Teams-Blog (28. Februar 2020): [Vier Tipps für die Arbeit mit Microsoft Teams von zu Hause aus](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Zusammenarbeit mit Microsoft 365 oder Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [Remotearbeit mit Microsoft 365 oder Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
-      - [9 Tipps für die Remotearbeit](https://www.microsoft.com/tips/home/working-remotely)
+      - [Neun Tipps für die Remotearbeit](https://www.microsoft.com/tips/home/working-remotely)
 
       - Video mit Satya Nadella und der Teams-Produktmarketingmanagerin, Aya Tange, zur [Nutzung von Teams für die Remotearbeit](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (20. März 2020)
 
@@ -150,7 +150,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
     
    - Senden Sie Informationen zu den Fernarbeits- sowie Integritäts- und Sicherheitsrichtlinien Ihrer Organisation.
     
-   - Verwenden Sie [Liveereignisse](teams-live-events/what-are-teams-live-events.md) für unternehmensweite Besprechungen. Machen Sie jede Besprechung mit mehr als 250 Teilnehmern zu einer Liveveranstaltung. Aktivieren Sie die Liveuntertitel für [Besprechungen](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) und [Liveveranstaltungen](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Aktivieren Sie zudem Untertitel in Liveveranstaltungen. Diese Features verbessern Inklusion, Produktivität und Verständnis. 
+   - Verwenden Sie [Liveereignisse](teams-live-events/what-are-teams-live-events.md) für unternehmensweite Besprechungen. Wenn Ihre Besprechung die [Beschränkungen und Spezifikationen](limits-specifications-teams.md) einer regulären Teams-Besprechung erreicht, legen Sie sie als Liveereignis an. Aktivieren Sie die Liveuntertitel für [Besprechungen](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) und [Liveveranstaltungen](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Aktivieren Sie Untertitel in Liveereignissen. Diese Features verbessern Inklusion, Produktivität und Verständnis. 
 
 4.  Rüsten Sie Ihre [Helpdesks](troubleshoot-installation.md) für die Bearbeitung von Benutzeranfragen auf.
 
@@ -164,12 +164,12 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
 Es folgt eine Zusammenfassung eines Nachrichtencenter-Beitrags vom 7. Februar 2020 (MC203397):
 
-Microsoft ist sich bewusst, dass einige Nutzer in der Region China Probleme bei der Einwahl in Skype for Business- oder Teams-Konferenz-IDs haben. In den meisten Fällen liegen diese Probleme außerhalb der Systeme, die unter unserer Kontrolle stehen. Häufig liegen die Ursachen bei den lokalen Mobilfunk- und Telefonieanbietern. 
+Microsoft ist sich bewusst, dass einige Benutzer in der Region China Probleme bei der Einwahl in Skype for Business- oder Teams-Konferenz-IDs haben. In den meisten Fällen liegen diese Probleme außerhalb der Systeme, die unter unserer Kontrolle stehen. Häufig liegen die Ursachen bei den lokalen Mobilfunk- und Telefonieanbietern. 
 
 Wir empfehlen Folgendes, wenn Sie Probleme mit Audiokonferenzen haben:
 
 - Bitten Sie den Anrufer oder Besprechungsorganisator, Ihre Festnetz- oder Mobiltelefonnummer anzurufen.
-- Nehmen Sie an einem Anruf oder einer Besprechung vom Desktop oder von mobilen Clients aus unter Verwendung von VoIP teil.
+- Nehmen Sie an einem Anruf oder einer Besprechung vom Desktop oder von mobilen Clients aus mithilfe von VoIP teil.
 
 Wenn Sie ein Supportticket öffnen müssen, machen Sie bitte folgende Angaben:
     
