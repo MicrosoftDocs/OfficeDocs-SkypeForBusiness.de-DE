@@ -16,12 +16,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203968"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262462"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -30,7 +30,7 @@ In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeic
 Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Die Änderung von der Verwendung von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) ist ein Phasen orientierter Ansatz. Beim Start können Sie sich für diese Erfahrung entscheiden, im November müssen Sie sich abmelden, wenn Sie den Datenstrom weiterhin verwenden möchten, und einige Zeit in frühen 2021 werden wir alle Kunden dazu verpflichten, OneDrive for Business und SharePoint für Besprechungsaufzeichnungen zu verwenden.
+> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 verlangen wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für Besprechungsaufzeichnungen.
 
 > [!NOTE]
 > Informationen zum Verwenden von Rollen in Teams-Besprechungen und zum Ändern der Rollen von Benutzern finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -112,7 +112,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert. Aufzeichnungen werden aufbewahrt und können 21 Tage lang angezeigt und heruntergeladen werden. Derzeit ist das Feature für die Besprechungsaufzeichnung von Teams für Kunden ausgeschaltet, deren Teams-Daten inländisch gespeichert werden, falls Microsoft Stream im inländischen Datenbereich, in dem die Daten gespeichert werden, nicht verfügbar ist. In Zukunft wird das Feature für die Besprechungsaufzeichnung von Teams für Kunden eingeschaltet, deren Daten inländisch gespeichert werden, auch wenn Microsoft Stream im inländischen Datenbereich nicht verfügbar ist.
 
-Wenn diese Änderung wirksam wird, werden Besprechungsaufzeichnungen standardmäßig in der nächstgelegenen geografischen Region für Microsoft Stream gespeichert. Wenn Ihre Teams-Daten inländisch gespeichert werden und Sie Besprechungsaufzeichnungen lieber im Inland speichern möchten, empfehlen wir, dass Sie dieses Feature deaktivieren und es erst dann wieder aktivieren, nachdem Microsoft Stream für Ihren Datenaufbewahrungsbereich in Ihrem Land bereitgestellt wurde. Wenn Sie das Feature für alle Benutzer in Ihrer Organisation deaktivieren möchten, deaktivieren Sie in der globalen Teams-Besprechungsrichtlinie, die sich im Microsoft Teams Admin Center befindet, die Einstellung " **Cloud-Aufzeichnung zulassen** ".
+Wenn diese Änderung wirksam wird, werden Besprechungsaufzeichnungen standardmäßig in der nächstgelegenen geografischen Region für Microsoft Stream gespeichert. Wenn Ihre Teams-Daten inländisch gespeichert werden und Sie Besprechungsaufzeichnungen lieber im Inland speichern möchten, empfehlen wir, dass Sie dieses Feature deaktivieren und es erst dann wieder aktivieren, nachdem Microsoft Stream für Ihren Datenaufbewahrungsbereich in Ihrem Land bereitgestellt wurde. Wenn Sie das Feature für alle Benutzer in Ihrer Organisation deaktivieren möchten, deaktivieren Sie in der globalen Teams-Besprechungsrichtlinie, die sich im Microsoft Teams Admin Center befindet, die Einstellung " **Cloud-Aufzeichnung zulassen** ". Wenn Sie jedoch weiterhin möchten, dass Aufzeichnungen in der nächstgelegenen geografischen Region für Microsoft Stream gespeichert werden, müssen Sie die Option **Cloud-Aufzeichnung zulassen** und **Aufzeichnungs Speicher außerhalb der Region zulassen** aktivieren, bevor diese Änderung durchgeführt wird.
+
+Verwenden Sie das folgende Cmdlet, um Aufzeichnungen in der globalen Richtlinie für den Bereich zu aktivieren:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 Nachfolgend finden Sie eine Zusammenfassung dessen, was passiert, wenn Sie die Besprechungsaufzeichnung aktivieren, wenn diese Änderung wirksam wird:
 

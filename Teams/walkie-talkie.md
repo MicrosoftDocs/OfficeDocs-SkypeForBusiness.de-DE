@@ -18,18 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 605ba58582210c71561cd60442aa66f97be0be0d
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229051"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262502"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-app in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Die Walkie Talkie-app in Microsoft Teams bietet eine direkte Push-to-Talk (PTT)-Kommunikation für Ihr Team und steht in Public Preview auf Android zur Verfügung. Walkie Talkie ermöglicht Benutzern die Verbindung mit Ihrem Team unter Verwendung der gleichen zugrunde liegenden Kanäle, in denen Sie Mitglied sind. Nur Benutzer, die eine Verbindung mit Walkie Talkie in einem Kanal herstellen, werden Teilnehmer und können jeweils einzeln über Push-to-Talk miteinander kommunizieren.
+Die Walkie Talkie-app in Microsoft Teams bietet Instant Push-to-Talk (PTT)-Kommunikation für Ihr Team und steht jetzt auf Android zur Verfügung. Walkie Talkie ermöglicht Benutzern die Verbindung mit Ihrem Team unter Verwendung der gleichen zugrunde liegenden Kanäle, in denen Sie Mitglied sind. Nur Benutzer, die eine Verbindung mit Walkie Talkie in einem Kanal herstellen, werden Teilnehmer und können jeweils einzeln über Push-to-Talk miteinander kommunizieren.
 
 Mit Walkie Talkie in Teams können First-Workers nun sicher mit einer vertrauten PTT-Erfahrung kommunizieren, ohne sperrige Radios tragen zu müssen, und Walkie Talkie funktioniert überall mit WiFi-oder Mobilfunk-Internetverbindung.
 
@@ -37,7 +35,7 @@ Mit Walkie Talkie in Teams können First-Workers nun sicher mit einer vertrauten
 
 ### <a name="deploying-walkie-talkie"></a>Bereitstellen von Walkie Talkie
 
-Während der öffentlichen Vorschau ist Walkie Talkie nicht vorinstalliert. Um dieses Feature für Benutzer in Ihrer Organisation zu aktivieren, müssen Sie Walkie Talkie der APP- [Setup Richtlinie](teams-app-setup-policies.md)hinzufügen, die   Benutzern aus dem [Team Admin Center](https://admin.teams.microsoft.com/)zugewiesen wurde.
+Derzeit ist Walkie Talkie nicht vorinstalliert. Um dieses Feature für Benutzer in Ihrer Organisation zu aktivieren, müssen Sie Walkie Talkie der APP- [Setup Richtlinie](teams-app-setup-policies.md)hinzufügen, die   Benutzern aus dem [Team Admin Center](https://admin.teams.microsoft.com/)zugewiesen wurde.
 
 Nach der Aktivierung wird Walkie Talkie innerhalb von 48 Stunden in der Android-App verfügbar sein.
 
@@ -59,7 +57,11 @@ Die Walkie Talkie-app sollte nun in der Liste der angehefteten apps angezeigt we
 
 Walkie Talkie in Teams erfordert Internet-Konnektivität und unter den Netzwerkbedingungen sind für eine optimale Nutzung erforderlich.
 
-Latenz (RTT) < 300m | Jitter < 30ms | Paketverlust < 1%
+|Metrik | Erforderlich |
+|---|---|
+|Latenz (RTT) | < 300m |
+|Jitter |< 30ms |
+|Paketverlust |< 1% |
 
 Wie bereits erwähnt, wird die Qualität der Echt Zeit Medien über ein IP-Netzwerk stark von der Qualität der Netzwerkkonnektivität beeinflusst, insbesondere aber von der folgenden Anzahl:
 

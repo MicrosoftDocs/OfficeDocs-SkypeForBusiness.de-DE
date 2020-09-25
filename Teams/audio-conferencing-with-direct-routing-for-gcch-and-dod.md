@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: Der Administrator kann sich mit der Verwendung von Audiokonferenzen in GCCH-und DoD-Umgebungen vertraut machen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55efdc0c79f80a2a7b7ca44fd9c80481b163c63f
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34fcb84ee0e5126188f47a4ccc231c04ffd093b2
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868592"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262492"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
@@ -91,25 +91,79 @@ Sie können die ID Ihrer Audiokonferenz-Bridge mithilfe von Get-CsOnlineDialInCo
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Schritt 4: Zuweisen von Audiokonferenzen mit Direct Routing für gcc-höchst-oder DoD-Lizenzen für Ihre Benutzer
+
+### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Schritt 4: Definieren einer globalen VoIP-Routing Richtlinie zum Aktivieren des Routings von ausgehenden Anrufen aus Besprechungen
+
+Das Routing von ausgehenden Anrufen, die an das PSTN über von den Benutzern in Ihrer Organisation organisierte Besprechungen durchgeführt werden, wird durch die globale VoIP-Routing Richtlinie Ihrer Organisation definiert. Wenn in Ihrer Organisation eine globale VoIP-Routing Richtlinie definiert ist, überprüfen Sie, ob die globale VoIP-Routing Richtlinie die ausgehenden Anrufe an das PSTN zulässt, die von den von Benutzern in Ihrer Organisation organisierten Besprechungen initiiert werden sollen. Wenn in Ihrer Organisation keine globale VoIP-Routing Richtlinie definiert ist, müssen Sie eine Definition definieren, um die Weiterleitung von ausgehenden Anrufen an das PSTN aus Besprechungen zu ermöglichen, die von Benutzern in Ihrer Organisation organisiert werden. Beachten Sie, dass die globale VoIP-Routing Richtlinie Ihrer Organisation auch für Einzel Anrufe an das PSTN von Benutzern in Ihrer Organisation gilt. Wenn eins-zu-eins-Anrufe an das PSTN für Benutzer in Ihrer Organisation aktiviert sind, stellen Sie sicher, dass die globale VoIP-Routing Richtlinie die Anforderungen Ihrer Organisation für beide Anrufarten erfüllt. 
+
+> [!NOTE]
+> Standortbasiertes Routing steht in den Microsoft 365 Government Community Cloud (gcc)-oder DoD-Bereitstellungen nicht zur Verfügung. Stellen Sie beim Aktivieren von Audiokonferenzen sicher, dass keine Audiokonferenz-Benutzer in den gcc-oder DoD-Umgebungen für standortbasiertes Routing aktiviert sind.
+
+#### <a name="defining-a-global-voice-routing-policy"></a>Definieren einer globalen VoIP-Routing Richtlinie
+
+Eine globale VoIP-Routing Richtlinie kann definiert werden, indem eine PSTN-Nutzung, eine VoIP-Route, eine VoIP-Routing Richtlinie und die neue VoIP-Routing Richtlinie als globale VoIP-Weiterleitungs Richtlinie Ihrer Organisation zugewiesen werden.
+
+In den folgenden Schritten wird beschrieben, wie Sie eine neue globale VoIP-Routing Richtlinie für eine Organisation ohne einen definieren. Wenn in Ihrer Organisation bereits VoIP-Routing Richtlinien definiert sind, stellen Sie sicher, dass die folgende Konfiguration nicht in Konflikt mit den vorhandenen VoIP-Routing Richtlinien Ihrer Organisation steht.
+
+Zum Erstellen einer neuen PSTN-Nutzung in einer Remote-PowerShell-Sitzung in Skype for Business Online verwenden Sie den folgenden Befehl:
+
+  ```PowerShell
+  Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+  ```
+
+Weitere Informationen finden Sie unter [Satz-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage).
+
+Verwenden Sie zum Erstellen einer neuen VoIP-Route den folgenden Befehl:
+
+  ```PowerShell
+  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
+  ```
+
+Wenn Sie eine neue VoIP-Route für Ihre Organisation definieren, geben Sie ein oder mehrere der PSTN-Online-PSTN-Gateways an, die während der Konfiguration des direkten Routings für Ihre Organisation definiert wurden. 
+
+Das Zahlenmuster gibt an, welche Anrufe über die angegebene Liste der Gateways basierend auf der Zieltelefonnummer des Anrufs weitergeleitet werden. Im obigen Beispiel Stimmen Anrufe an alle Zielorte der Welt mit der VoIP-Route überein. Wenn Sie die Telefonnummern einschränken möchten, die aus den Besprechungen von Benutzern in Ihrer Organisation gewählt werden können, können Sie das Zahlenmuster so ändern, dass die VoIP-Route nur den Zahlen Mustern der zulässigen Ziele entspricht. Beachten Sie bitte, dass der Anruf nicht weitergeleitet wird, wenn keine VoIP-Routen vorhanden sind, die dem Zahlenmuster der Zielrufnummer eines bestimmten Anrufs entsprechen.
+
+Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
+
+Verwenden Sie zum Erstellen einer neuen VoIP-Routing Richtlinie den folgenden Befehl:
+
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
+  ```
+
+Wenn in der VoIP-Routing Richtlinie mehrere PSTN-Nutzungen definiert sind, werden Sie in der Reihenfolge ausgewertet, in der Sie definiert sind. Es wird empfohlen, dass die PSTN-Verwendungen in der Reihenfolge der spezifischsten für die generischen Ausdrücke definiert sind, was die Zahlenmuster der VoIP-Routen anbelangt, die mit den PSTN-Nutzungen verknüpft sind. Wenn beispielsweise eine PSTN-Nutzung für die Weiterleitung von Anrufen in die USA definiert wurde und eine andere PSTN-Nutzung für die Weiterleitung von Anrufen an einen anderen Ort in der Welt definiert wurde, sollte die PSTN-Nutzung für Anrufe in die Vereinigten Staaten in der VoIP-Routing Richtlinie vor der PSTN-Nutzung aufgeführt werden, um Anrufe an einen anderen Ort in der weltweiter zuleiten.
+
+Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+
+Verwenden Sie den folgenden Befehl, um die neue VoIP-Route der globalen VoIP-Routing Richtlinie Ihrer Organisation zuzuweisen:
+
+  ```PowerShell
+  Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
+  ```
+
+Weitere Informationen finden Sie unter [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+
+Nachdem die globale VoIP-Routing Richtlinie definiert wurde, werden ausgehende Anrufe aus Besprechungen, die von Benutzern in Ihrer Organisation organisiert werden, anhand der VoIP-Routen ausgewertet, die den PSTN-Nutzungen der globalen VoIP-Routing Richtlinie zugeordnet sind. Die ausgehenden Anrufe werden entsprechend der ersten VoIP-Route weitergeleitet, die dem Nummernmuster der gewählten Telefonnummer entspricht.
+
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Schritt 5: Zuweisen von Audiokonferenzen mit Direct Routing für gcc-höchst-oder DoD-Lizenzen für Ihre Benutzer
 
 Informationen zum Zuweisen von Audiokonferenzen mit Direct Routing für gcc-Lizenzen für höhere oder DoD-Lizenzen für Ihren Benutzer finden Sie unter [Zuweisen von Lizenzen zu Benutzern](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
-### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Schritt 5: (optional) Anzeigen einer Liste der Audiokonferenz-Nummern in Teams
+### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Schritt 6: (optional) Anzeigen einer Liste der Audiokonferenz-Nummern in Teams
 
-Wenn Sie die Liste der Audiokonferenz-Nummern Ihrer Organisation anzeigen möchten, wechseln [Sie zu einer Liste der Audiokonferenz-Nummern in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md) .
+Wenn Sie die Liste der Audiokonferenz-Nummern Ihrer Organisation anzeigen möchten, wechseln [Sie zu einer Liste der Audiokonferenz-Nummern in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
-### <a name="step-6-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Schritt 6: (optional) festlegen der Sprachen der automatischen Telefonzentrale für die Einwahlnummern für Audiokonferenzen Ihrer Organisation
+### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Schritt 7: (optional) festlegen der Sprachen der automatischen Telefonzentrale für die Einwahlnummern für Audiokonferenzen Ihrer Organisation
 
-Informationen zum Ändern der Sprachen der Einwahlnummern für Audiokonferenzen in Ihrer Organisation finden Sie unter [Festlegen von Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) .
+Informationen zum Ändern der Sprachen der Einwahlnummern für Audiokonferenzen in Ihrer Organisation finden Sie unter [Festlegen von Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
 
-### <a name="step-7-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Schritt 7: (optional) Ändern der Einstellungen der Audiokonferenz-Brücke in Ihrer Organisation
+### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Schritt 8: (optional) Ändern der Einstellungen der Audiokonferenz-Brücke in Ihrer Organisation
 
-Informationen zum Ändern der Einstellungen der Audiokonferenz-Brücke in Ihrer Organisation finden Sie unter [Ändern der Einstellungen für eine Audiokonferenz-Brücke](change-the-settings-for-an-audio-conferencing-bridge.md) .
+Informationen zum Ändern der Einstellungen der Audiokonferenz-Brücke in Ihrer Organisation finden Sie unter [Ändern der Einstellungen für eine Audiokonferenz-Brücke](change-the-settings-for-an-audio-conferencing-bridge.md).
 
-### <a name="step-8-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Schritt 8: (optional) festlegen der Telefonnummern, die in den Besprechungseinladungen der Benutzer in Ihrer Organisation enthalten sind
+### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Schritt 9: (optional) festlegen der Telefonnummern, die in den Besprechungseinladungen der Benutzer in Ihrer Organisation enthalten sind
 
-Informationen zum Ändern der Gruppe von Telefonnummern, die in den Besprechungseinladungen der Benutzer enthalten sind, finden Sie unter [Festlegen der Telefonnummern, die in Einladungen in Microsoft Teams enthalten](set-the-phone-numbers-included-on-invites-in-teams.md) sind.
+Informationen zum Ändern der Gruppe von Telefonnummern, die in den Besprechungseinladungen der Benutzer enthalten sind, finden Sie unter [Festlegen der Telefonnummern, die in Einladungen in Microsoft Teams enthalten](set-the-phone-numbers-included-on-invites-in-teams.md)sind.
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzfunktionen, die in Audiokonferenzen nicht unterstützt werden, mit direktem Routing für gcc-höchst-und DoD-Funktionen
 

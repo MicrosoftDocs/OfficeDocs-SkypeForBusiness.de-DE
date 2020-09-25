@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321738"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269649"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -141,7 +141,7 @@ Beachten Sie, dass es einige Zeit dauern kann (bis zu ein paar Stunden), bis ein
 
 ## <a name="configure-location-information-service"></a>Konfigurieren des Standort Informationsdiensts
 
-Ein Team-Client ruft Notfalladressen von den Speicherorten ab, die verschiedenen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Drahtloszugriffspunkte (WAPs) werden unterstützt. (Unterstützung für Ethernet-Switch/-Port ist ausstehend.)
+Ein Team-Client ruft Notfalladressen von den Speicherorten ab, die verschiedenen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Drahtloszugriffspunkte (WAPs) werden unterstützt. Ethernet-Switch/-Port wird in Windows 8,1 und höher unterstützt.
 
 Damit ein Client einen Standort erhält, müssen Sie den LIS mit Netzwerkkennungen (Subnets, WAPs, Switches, Ports) und Notfall Speicherorten füllen. Sie können dies im Microsoft Teams Admin Center oder mithilfe von PowerShell tun.
 

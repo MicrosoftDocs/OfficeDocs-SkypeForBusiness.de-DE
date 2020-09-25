@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820639"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262532"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -189,7 +189,9 @@ Das Zertifikat muss von einer der folgenden Stammzertifizierungsstellen generier
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
-
+Für die direkte Weiterleitung in der Office 365 gcc DoD-Umgebung muss das Zertifikat von einer der folgenden Stammzertifizierungsstellen generiert werden:
+- Globale Digicert-Stammzertifizierungsstelle
+- Digicert-Stammzertifizierungsstelle für höchste Sicherheit
 
 > [!NOTE]
 > * Wenn Mutual TLS (MTLS)-Unterstützung für die Teams-Verbindung auf dem SBC aktiviert ist, müssen Sie das Baltimore-Cybertrust-Stammzertifikat im SBC Trusted Root Store des Teams TLS-Kontexts installieren. (Dies liegt daran, dass die Microsoft-Dienstzertifikate das Baltimore-Stammzertifikat verwenden.) Informationen zum Herunterladen des Baltimore-Stammzertifikats finden Sie unter [Office 365-Verschlüsselungs Ketten](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält detaillierte Schritte zum Deaktivieren von Hybriden im Rahmen der Cloud-Konsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: a049491550ed26c61c587824034035a4c3a40a07
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221499"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269659"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud
 
@@ -39,6 +39,8 @@ Nachdem Sie alle Benutzer von lokal in die Cloud verschoben haben, können Sie d
 3. Deaktivieren Sie die Möglichkeit in der lokalen Kommunikation mit Microsoft 365 oder Office 365.
 
 Diese Schritte sollten zusammen als Einheit ausgeführt werden. Details finden Sie weiter unten. Darüber hinaus werden Richtlinien für die Verwaltung von Telefonnummern für migrierte Benutzer bereitgestellt, sobald die lokale Bereitstellung getrennt wird.
+
+Sobald diese Schritte abgeschlossen sind, werden die lokalen Skype for Business Server nicht mehr verwendet, und diese Server können neu abbildet werden.
 
 > [!Important] 
 >Sie sollten weiterhin die msRTCSIP-Attribute in Active Directory Sync über Azure AD Connect in Azure Ad lassen.  Löschen Sie keines dieser Attribute, es sei denn, Sie werden durch den Support geleitet.  Führen Sie disable-CsUser nicht in der lokalen Umgebung aus. Wenn Sie die SIP-Adresse eines Benutzers ändern müssen, führen Sie dies in Ihrem lokalen Active Directory aus, und lassen Sie diese Änderung über Azure AD Connect wie unten beschrieben in Azure AD synchronisieren. Wenn Sie eine Telefonnummer ändern müssen und die LineURI des Benutzers lokal bereits definiert ist, sollten Sie dies entsprechend in der lokalen Active Directory ändern.

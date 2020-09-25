@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: In diesem Thema finden Sie Informationen zum Konfigurieren von Konten für Microsoft Teams Rooms in Exchange und Skype for Business.
-ms.openlocfilehash: 97367427aa2629fab3e40bae064c02f521ff710d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 98507b3c5fb2b2d9383bcbff6ddcbdda0de19b9f
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666247"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262482"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Konfigurieren von Konten für Microsoft Teams-Chatrooms
  
@@ -52,7 +52,9 @@ Jedes Geräte Konto ist für ein einzelnes Microsoft Teams rooms-Gerät eindeuti
 - Ihre Infrastruktur muss so konfiguriert sein, dass Microsoft Teams-Chatrooms das Geräte Konto überprüfen und die entsprechenden Microsoft-Dienste erreichen können.
     
 > [!IMPORTANT]
-> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. In Hybrid Umgebungen muss für das für Microsoft Teams verwendete Konto die Kennwortsynchronisierung in Aad-Synchronisierung aktiviert sein, da für die Microsoft Teams rooms-Authentifizierung Microsoft 365 oder Office 365-Authentifizierung erforderlich ist.
+> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. 
+
+In Hybrid Umgebungen muss für das für Microsoft Teams verwendete Konto die Kennwortsynchronisierung in Azure Active Directory (AAD)-Synchronisierung aktiviert sein, da für die Microsoft Teams rooms-Authentifizierung Microsoft 365 oder Office 365-Authentifizierung erforderlich ist. Stellen Sie beim Einrichten des Kontos sicher, dass die SIP-Adresse des Kontos mit dem Benutzerprinzipalnamen (User Principal Name, UPN) in Aad übereinstimmt. 
   
 Sie können sich ein Geräte Konto als das Ressourcenkonto vorstellen, das Personen als Besprechungsraum-oder Besprechungsraum Konto erkennen. Wenn Sie eine Besprechung in diesem Konferenzraum planen möchten, laden Sie das Konto zu dieser Besprechung ein. Damit Sie die Microsoft Teams-Räume am effektivsten nutzen können, gehen Sie mit dem Geräte Konto um, das jedem zugewiesen ist.
   
@@ -78,11 +80,11 @@ Während die Eigenschaften für die grundlegende Konfiguration zulassen, dass da
 |:-----|:-----|
 |Zertifikatbasierte Authentifizierung  <br/> |Möglicherweise sind Zertifikate sowohl für Exchange als auch für Skype for Business Server erforderlich. Zum Bereitstellen von Zertifikaten können Sie diese laden, wenn Sie als Administrator angemeldet sind.  <br/> |
    
-Die einfachste Möglichkeit, Geräte Konten einzurichten, besteht darin, Sie mithilfe der Remote-Windows PowerShell zu konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), ein Skript, mit dem Sie neue Geräte Konten erstellen oder vorhandene Ressourcenkonten überprüfen können, damit Sie Sie zu kompatiblen Microsoft Teams rooms-Geräte Konten machen können.
+Die einfachste Möglichkeit, Geräte Konten einzurichten, besteht darin, Sie mithilfe der Remote-Windows PowerShell zu konfigurieren. Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)zur Verfügung, ein Skript, mit dem Sie neue Geräte Konten erstellen oder vorhandene Ressourcenkonten überprüfen können, damit Sie Sie zu kompatiblen Microsoft Teams rooms-Geräte Konten machen können.
   
 Wenn Sie die Microsoft 365-oder Office 365-Benutzeroberfläche über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Informationen finden Sie unter [Erstellen eines Geräte Kontos mit Microsoft 365 oder Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Plan für Microsoft Teams-Räume](rooms-plan.md)
   
