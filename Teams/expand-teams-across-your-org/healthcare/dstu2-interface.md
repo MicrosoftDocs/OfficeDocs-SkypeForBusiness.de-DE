@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: Erfahren Sie mehr über die DSTU2-Schnittstellenspezifikation in Teams, einschließlich der Einrichtung oder Neukonfiguration eines FHIR-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-app.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fbbff4eda0eb1426bdf92068d95ccf00abe62a61
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136955"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277269"
 ---
 # <a name="dstu2-interface-specification"></a>Benutzeroberflächenspezifikation DSTU2
+
+> [!IMPORTANT]
+> **30. September, 2020, wird die APP für Patienten als veraltet markiert, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
+>
+>Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Wenn die patients-App eingestellt wird, werden alle damit verknüpften Daten in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Aktuelle Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
+>
+>Die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung. Mit Listen können Betreuerteams mithilfe der integrierten Patienten Vorlage, von Grund auf neu oder durch Importieren von Daten nach Excel, patientenlisten erstellen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -43,7 +50,7 @@ Zum Einrichten oder Neukonfigurieren eines FHIR-Servers für die Arbeit mit der 
 > [!NOTE]
 > Die Patienten Ressource ist die einzige obligatorische Ressource (ohne die die APP überhaupt nicht geladen werden kann. Es wird jedoch empfohlen, dass der Partner die Unterstützung für alle oben aufgeführten Ressourcen pro Spezifikationen implementiert, die nachfolgend aufgeführt sind, um die optimale Benutzererfahrung mit der Microsoft Teams-Patienten-APP zu erhalten.
 
-Abfragen der Microsoft Teams-Patienten-App für mehr als eine Ressource Posten ein Bündel (Batch) von Anforderungen an die URL des FHIR-Servers. Der Server verarbeitet jede Anforderung und gibt ein Bündel der Ressourcen zurück, die mit den einzelnen Anforderungen übereinstimmen. Weitere Informationen und Beispiele finden Sie unter [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
+Abfragen der Microsoft Teams-Patienten-App für mehr als eine Ressource Posten ein Bündel (Batch) von Anforderungen an die URL des FHIR-Servers. Der Server verarbeitet jede Anforderung und gibt ein Bündel der Ressourcen zurück, die mit den einzelnen Anforderungen übereinstimmen. Weitere Informationen und Beispiele finden Sie unter [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) .
 
 Auf alle folgenden FHIR-Ressourcen sollte über direkten Ressourcenverweis zugegriffen werden können.
 
@@ -83,7 +90,7 @@ Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorrage
     Response: {"Ressourcenname": "Patient", "ID": "<Patient-ID>";
       .
       .
-      "Name": [{"Use": "offiziell"; "prefix": ["Mr"], "Familie": ["Chau"], "given": ["Hugh"]}], "Identifier": [{"Use": "offiziell", "Typ": {"Codierung": [{"System": "https://hl7.org/fhir/v2/0203"; "Code": "Herr"}]}, "Wert": "1234567"}], "Geschlecht": "männlich", "Geburtstag": "1957-06-05", "careProvider": [{"Display": "Jane Doe"}],}
+      "Name": [{"Use": "offiziell"; "prefix": ["Mr"], "Familie": ["Chau"], "given": ["Hugh"]}], "Identifier": [{"Use": "offiziell", "Typ": {"Codierung": [{"System": " https://hl7.org/fhir/v2/0203 "; "Code": "Herr"}]}, "Wert": "1234567"}], "Geschlecht": "männlich", "Geburtstag": "1957-06-05", "careProvider": [{"Display": "Jane Doe"}],}
 
 * * *
 
@@ -91,11 +98,11 @@ Bei einer Ressourcensuche wird die Post-Methode unter/Patient/_search und die fo
 
 1. ID
 2. Familie: Contains = (sucht nach allen Patienten, deren Familienname den Wert enthält.)
-3. given =\<Teilzeichenfolge>
-4. Name =\<Teilzeichenfolge>
+3. given =\<substring>
+4. Name =\<substring>
 5. Geburtsdatum = (exakte Übereinstimmung)
-6. \_Anzahl (maximale Anzahl der Ergebnisse, die zurückgegeben werden sollen) <br> Die Antwort sollte die Gesamtanzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben \_wurden, und die Anzahl wird vom PatientsApp verwendet, um die Anzahl der zurückgegebenen Datensätze zu begrenzen.
-7. Identifier =\<MRN>
+6. \_Anzahl (maximale Anzahl der Ergebnisse, die zurückgegeben werden sollen) <br> Die Antwort sollte die Gesamtanzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben wurden, und die Anzahl \_ wird vom PatientsApp verwendet, um die Anzahl der zurückgegebenen Datensätze zu begrenzen.
+7. Identifier =\<mrn>
 
 Das Ziel besteht darin, nach einem Patienten durchsuchen und Filtern zu können:
 
@@ -136,8 +143,8 @@ Wenn Sie Komponenten Beobachtungen verwenden, gilt dieselbe Logik für jede Komp
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<Patienten-ID\>
-2. Sort: DESC =\<Feld Ex. Datum\>
+1. Patient =\<patient id\>
+2. Sort: DESC =\<field ex. date\>
 
 Das Ziel besteht darin, die neuesten vitalen Zeichen für einen Patienten abzurufen [VitalSigns. ДСТУ. SAZ] (Observation?).
 
@@ -145,7 +152,7 @@ Das Ziel besteht darin, die neuesten vitalen Zeichen für einen Patienten abzuru
 
     Request: besorgen Sie sich <fhir-Server>/Observation? Patient =<Patient-ID>&_sort:d ESC = Datum&Kategorie = Vital-Zeichen
     
-    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Type": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": {"Coding": [{Code ":" Vital-Signs "}],}," Code ": {" Coding ": [{" System "http://loinc.org:" ";" Code ":" 39156-5 ";" Display ":" BMI "}],}," effectiveDateTime ":" 2009-12-01 ";" valueQuantity ": {" Wert ": 34,4;" Einheit ":" kg/m2 ";" System "http://unitsofmeasure.org:" "," Code ":" kg/m2 "}},},.
+    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Type": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": {"Coding": [{Code ":" Vital-Signs "}],}," Code ": {" Coding ": [{" System ":" http://loinc.org ";" Code ":" 39156-5 ";" Display ":" BMI "}],}," effectiveDateTime ":" 2009-12-01 ";" valueQuantity ": {" Wert ": 34,4;" Einheit ":" kg/m2 ";" System ":" http://unitsofmeasure.org "," Code ":" kg/m2 "}},},.
         .
         .
       ] }
@@ -167,8 +174,8 @@ Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragen
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<Patienten-ID>
-2. _Count =\<maximale Ergebnisse>
+1. Patient =\<patient id>
+2. _Count =\<max results>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
@@ -176,7 +183,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/Condition? Patient =<Patient-ID>&_count = 10
     
-    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"System": "http://snomed.info/sct"; "Code": "386033004", "Display": "Neuropathie (Nerve Damage)"}]}, "dateRecorded": "2018-09-17"; "Severity": {"Coding": [{"System"http://snomed.info/sct: ""; "Code": "24484000"; "Anzeige": "schwere"}]}},}]}
+    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"System": " http://snomed.info/sct "; "Code": "386033004", "Display": "Neuropathie (Nerve Damage)"}]}, "dateRecorded": "2018-09-17"; "Severity": {"Coding": [{"System": " http://snomed.info/sct "; "Code": "24484000"; "Anzeige": "schwere"}]}},}]}
 
 * * *
 
@@ -196,16 +203,16 @@ Darüber hinaus sind die folgenden Felder aus den Feldern "muss unterstützen" d
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<Patienten-ID>
-2. _sort: DESC =\<Feld Ex. Datum>
-3. _Count =\<maximale Ergebnisse>
+1. Patient =\<patient id>
+2. _sort: DESC =\<field ex. date>
+3. _Count =\<max results>
 
 Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu können. Jede Begegnung verweist auf eine Standortressource. Der Bezug umfasst auch das Anzeigefeld des Standorts. Sehen Sie sich das folgende Beispiel für diesen Aufruf an.
 * * *
 
     Request: besorgen Sie sich <fhir-Server>/Encounter? Patient =<Patient-ID>&_sort:d ESC = Datum&_count = 1
     
-    Antwort: {"Ressourcen": "Bundle", "Type": "searchset", "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Begegnung"; "ID": "<Resource-ID->"; "Bezeichner": [{"Use": "offiziell"; "" "<id>" "" ""; Status ":" angekommen ";" Typ ": [{" Coding ": [{" Display ":" Termin "}],}]," Patient ": {" Bezug ":" Patienten-<-ID> "}," Zeitraum ": {" Start ":" 09/17/2018 1:00:00 pm "}," Ort ": [{" Ort ": {" Anzeige ":" Clinic-HNO "},}]}}]}
+    Antwort: {"Ressourcen": "Bundle", "Type": "searchset", "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Begegnung"; "ID": "<Resource-ID->"; "Bezeichner": [{"Use": "offiziell"; "" "" <id> "" ""; Status ":" angekommen ";" Typ ": [{" Coding ": [{" Display ":" Termin "}],}]," Patient ": {" Bezug ":" Patienten-<-ID> "}," Zeitraum ": {" Start ":" 09/17/2018 1:00:00 pm "}," Ort ": [{" Ort ": {" Anzeige ":" Clinic-HNO "},}]}}]}
 
 * * *
 
@@ -229,7 +236,7 @@ Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorrage
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient = \<Patienten-ID>
+1. Patient =  \<patient id>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
@@ -260,8 +267,8 @@ Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragen
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<Patienten-ID>
-2. _Count =\<maximale Ergebnisse>
+1. Patient =\<patient id>
+2. _Count =\<max results>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
@@ -283,7 +290,7 @@ Hierbei handelt es sich um die mindestens erforderlichen Felder, die nicht in de
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<Patienten-ID>
+1. Patient =\<patient id>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 339f914ee1802fd4c9307e2a2f3e7faf20ac8eb4
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158693"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277285"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -78,7 +78,7 @@ In bestimmten Szenarien möchten Sie möglicherweise einschränken, welche Aktio
 
 Mit Listen erhalten Benutzer eine Desktop-, Web-und mobil Funkfunktionalität. Es ist wichtig zu wissen, dass Benutzer keine neuen Listen erstellen oder vorhandene Listen mithilfe von Listen auf dem mobilen Teams-Client anheften können. Wenn Sie eine Liste auf dem Mobile Teams-Client anzeigen oder bearbeiten möchten, muss zuerst eine Liste erstellt oder mithilfe von Listen auf dem Desktop-oder Webclient von Teams hinzugefügt werden.
 
-Gäste in [privaten Kanälen](private-channels.md) können keine Liste erstellen oder löschen oder eine neue Unterhaltung zu einem Listenelement beginnen. Sie können Listenelemente zu vorhandenen Listen hinzufügen und auf vorhandene Konversationen zu einem Listenelement Antworten. Beachten Sie, dass diese Einschränkungen nur für private Kanäle gelten.
+Gäste können keine Liste erstellen oder löschen. Sie können Listenelemente zu vorhandenen Listen hinzufügen, neue Konversationen zu Listenelementen beginnen und auf vorhandene Konversationen zu Listenelementen Antworten.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Listen und die SharePoint-App
 
@@ -115,3 +115,7 @@ Listen unterstützt [Power Automation](https://preview.flow.microsoft.comconnect
 ## <a name="give-feedback-or-report-an-issue"></a>Abgeben von Feedback oder melden eines Problems
   
 Wenn Sie uns Feedback senden oder ein Problem melden möchten, klicken Sie unten auf der linken Navigationsleiste in Teams auf **Hilfe** , und wählen Sie dann **Problem melden**aus. Wählen Sie **Listen**aus, und geben Sie dann Ihr Feedback oder Details zu dem Problem ein, das Sie gerade erleben.
+
+## <a name="related-topics"></a>Verwandte Themen
+
+- [Listet die Hilfedokumentation auf](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

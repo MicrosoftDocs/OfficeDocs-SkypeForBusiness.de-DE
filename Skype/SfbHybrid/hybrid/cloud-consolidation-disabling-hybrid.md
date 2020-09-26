@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält detaillierte Schritte zum Deaktivieren von Hybriden im Rahmen der Cloud-Konsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269659"
+ms.locfileid: "48277258"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud
 
@@ -46,9 +46,6 @@ Sobald diese Schritte abgeschlossen sind, werden die lokalen Skype for Business 
 >Sie sollten weiterhin die msRTCSIP-Attribute in Active Directory Sync über Azure AD Connect in Azure Ad lassen.  Löschen Sie keines dieser Attribute, es sei denn, Sie werden durch den Support geleitet.  Führen Sie disable-CsUser nicht in der lokalen Umgebung aus. Wenn Sie die SIP-Adresse eines Benutzers ändern müssen, führen Sie dies in Ihrem lokalen Active Directory aus, und lassen Sie diese Änderung über Azure AD Connect wie unten beschrieben in Azure AD synchronisieren. Wenn Sie eine Telefonnummer ändern müssen und die LineURI des Benutzers lokal bereits definiert ist, sollten Sie dies entsprechend in der lokalen Active Directory ändern.
 >Wenn Sie die lokalen msRTCSIP-Attribute löschen, nachdem Sie von einem lokalen Standort migriert haben, kann dies zu einem Verlust des Diensts für Benutzer führen.
 
-> [!Note] 
-> In seltenen Fällen kann es dazu führen, dass der Verbund mit einigen anderen Organisationen nicht mehr funktionsfähig ist, wenn das Ändern von DNS von einem Standort auf Microsoft 365 oder Office 365 für Ihre Organisation möglicherweise so lange funktioniert, bis die andere Organisation ihre Verbund Konfiguration aktualisiert:<ul><li>
-Alle Verbundorganisationen, die das ältere direkte Verbundmodell (auch als zulässiger Partner Server bezeichnet) verwenden, müssen ihre zulässigen Domäneneinträge für Ihre Organisation aktualisieren, um den Proxy-FQDN zu entfernen. Dieses Legacy-Verbundmodell basiert nicht auf DNS-SRV-Einträgen, daher wird eine solche Konfiguration veraltet, sobald Ihre Organisation in die Cloud wechselt. </li><li>Jede Partnerorganisation, die über keinen aktivierten Hostinganbieter für sipfed. online. lync verfügt. <span> com muss Ihre Konfiguration aktualisieren, um dies zu ermöglichen. Diese Situation ist nur möglich, wenn die Verbundorganisation ausschließlich lokal ist und nie mit einem hybriden oder Online-Mandanten verbunden ist. In einem solchen Fall funktioniert der Partnerverbund mit diesen Organisationen erst, wenn er seinen Hostinganbieter aktiviert.</li></ul>Wenn Sie vermuten, dass einer ihrer Verbundpartner möglicherweise einen direkten Partnerverbund verwendet oder mit einer Online-oder Hybrid Organisation verbunden ist, empfehlen wir Ihnen, Ihnen beim Vorbereiten der Migration zur Cloud eine entsprechende Mitteilung zu senden.
 
 1.  *Aktualisieren Sie DNS so, dass es auf Microsoft 365 oder Office 365 verweist.*
 Das externe DNS der Organisation für die lokale Organisation muss so aktualisiert werden, dass Skype for Business Datensätze auf Microsoft 365 oder Office 365 anstatt auf die lokale Bereitstellung deuten. Insbesondere gilt:

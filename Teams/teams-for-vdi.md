@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
+ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820609"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286111"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -413,7 +413,13 @@ Informationen zu bekannten Problemen, die nicht mit VDI in Verbindung stehen, fi
 
 ### <a name="troubleshoot-citrix-components"></a>Problembehandlung bei Citrix-Komponenten
 
-Informationen zur Behebung von Problemen mit VDA und der Problembehandlung finden Sie auf [dieser Citrix-Website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>Teams stürzt ab, oder der Anmeldebildschirm für Teams ist leer
+
+Dies ist ein bekanntes Problem mit den Citrix VDA-Versionen 1906 und 1909. Um dieses Problem zu umgehen, fügen Sie den folgenden Registrierungs DWORD-Wert hinzu, und setzen Sie ihn auf 204 (hexadezimal).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+Starten Sie dann VDA neu. Weitere Informationen finden Sie in diesem Citrix Support Artikel zur [Problembehandlung bei der HDX-Optimierung für Teams](https://support.citrix.com/article/CTX253754).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
