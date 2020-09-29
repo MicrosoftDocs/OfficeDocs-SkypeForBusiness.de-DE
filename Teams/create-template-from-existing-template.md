@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219086"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294561"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Erstellen einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
 
@@ -72,6 +69,9 @@ Microsoft Teams bietet vorgefertigte Vorlagen, die gespeichert und geändert wer
 7. Wählen Sie **Absenden** aus, wenn Sie mit dem Hinzufügen von Kanälen und apps fertig sind.
 
     Die neue Vorlage wird in der Vorlagenbibliothek gespeichert.
+
+> [!Note]
+> Es kann bis zu 24 Stunden dauern, bis Team Benutzer eine benutzerdefinierte Vorlage im Katalog sehen können.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

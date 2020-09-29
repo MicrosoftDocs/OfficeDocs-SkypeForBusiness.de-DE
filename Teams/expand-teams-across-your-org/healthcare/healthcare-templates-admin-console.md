@@ -18,17 +18,14 @@ appliesto:
 ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams-Vorlagen in der Administratorkonsole, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171089"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294581"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Verwenden von Teams Healthcare-Vorlagen in der Admin-Konsole
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 
@@ -38,7 +35,7 @@ Wir bieten derzeit zwei First-Party Healthcare-Vorlagen an, die Sie für untersc
 
 ## <a name="collaborate-on-patient-care"></a>Zusammenarbeit bei der Patientenversorgung
 
- Optimieren Sie die Kommunikation und Zusammenarbeit im Gesundheitswesen innerhalb einer Abteilung, eines Pod oder einer Abteilung. Die Vorlage kann verwendet werden, um die Patientenverwaltung sowie die betrieblichen Anforderungen einer Station zu vereinfachen.
+ Optimieren Sie die Kommunikation und Zusammenarbeit im Gesundheitswesen innerhalb einer Abteilung, eines Pod oder einer Abteilung. Die Vorlage kann verwendet werden, um die Patientenverwaltung und die betrieblichen Bedürfnisse einer Station zu vereinfachen.
 
 | Basis Vorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |---|----------------------------------------------------- |

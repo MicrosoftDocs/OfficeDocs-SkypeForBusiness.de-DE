@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 7dd598d92ab935ed8221258c386e87788d38f92c
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135859"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294591"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
 
@@ -65,6 +62,9 @@ Erste Schritte:
 8. Klicken Sie auf **Absenden** , wenn Sie fertig sind.
 
 Ihre neue Vorlage wird in der Liste der **Team Vorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in Teams verwendet werden.
+
+> [!Note]
+> Es kann bis zu 24 Stunden dauern, bis Team Benutzer eine benutzerdefinierte Vorlage im Katalog sehen können.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

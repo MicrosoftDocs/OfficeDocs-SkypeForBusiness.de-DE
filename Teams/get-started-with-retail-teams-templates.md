@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b170047a3b8d3218b8e31bdc9d4b1035eb8706c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 33be31797833152aea9dd477698be56884a5aa0b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583202"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294631"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel 
+# <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel
 
 Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 
@@ -34,7 +34,7 @@ In den Teams-Vorlagen gibt es vorgefertigte Definitionen von Teamstrukturen, die
 
 In diesem Artikel werden die einzelnen Teams-Vorlagen vorgestellt, und es wird empfohlen, diese zu verwenden.
 
-Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer Einzelhandelsorganisation verantwortlich sind. Wir gehen davon aus, dass Sie bereits einen Team Dienst in Ihrer Organisation bereitgestellt haben. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst die [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md).
+Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer Einzelhandelsorganisation verantwortlich sind. Sie haben den Team-Service bereits in Ihrer Organisation bereitgestellt. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst die [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md).
 
 Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md).
 
@@ -49,13 +49,13 @@ Die Store-Vorlage eignet sich hervorragend zum Erstellen eines Teams zur Darstel
 
 Empfohlene Vorgehensweisen zum Anpassen der Store-Vorlage für Ihre Organisation:
 
-- Wenn Ihre Organisation über Abteilungen innerhalb der einzelnen Stores verfügt, fügen Sie für jede Abteilung einen Kanal hinzu. Dadurch wird die Kommunikation und Zusammenarbeit innerhalb der Abteilung vereinfacht.
+- Wenn Ihre Organisation über Abteilungen innerhalb der einzelnen Stores verfügt, fügen Sie für jede Abteilung einen Kanal hinzu. Durch das Hinzufügen eines Kanals wird die Kommunikation und Zusammenarbeit innerhalb der Abteilung vereinfacht.
 
 - Wenn Ihre Organisation über interne Websites verfügt (beispielsweise eine SharePoint-Website), sollten Sie Sie als Registerkarten im entsprechenden Teamkanal anheften. Anweisungen hierzu finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md) .
 
 ## <a name="manager-collaboration-template"></a>Manager-Zusammenarbeits Vorlage
 
-Die Vorlage "Manager-Zusammenarbeit" ist eine weitere der Teamvorlagen, die für Einzelhändler benötigt werden. Die Vorlage "Manager-Zusammenarbeit" eignet sich hervorragend zum Erstellen eines Teams für eine Gruppe von Managern für die Zusammenarbeit in verschiedenen Geschäften/Regionen usw. Wenn Ihre Organisation beispielsweise Regionen hat, können Sie ein Manager-Zusammenarbeits Team für die Region Kalifornien erstellen und alle Filialmanager in dieser Region sowie den regionalen Manager für diese Region einbeziehen.
+Die Vorlage "Manager-Zusammenarbeit" ist eine weitere der Teamvorlagen, die für Einzelhändler benötigt werden. Die Vorlage "Manager-Zusammenarbeit" eignet sich hervorragend zum Erstellen eines Teams für eine Reihe von Managern, um über mehrere Geschäfte/Regionen hinweg zusammenzuarbeiten und mehr. Wenn Ihre Organisation beispielsweise Regionen hat, können Sie ein Manager-Zusammenarbeits Team für die Region Kalifornien erstellen und alle Filialmanager in dieser Region sowie den regionalen Manager für diese Region einbeziehen.
 
 | Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -64,11 +64,11 @@ Die Vorlage "Manager-Zusammenarbeit" ist eine weitere der Teamvorlagen, die für
 
 Empfohlene Vorgehensweisen zum Anpassen der Vorlage für die Manager-Zusammenarbeit für Ihre Organisation:
 
-- Wenn Ihre Organisation über interne Websites (beispielsweise eine SharePoint-Website) verfügt, die für Manager relevant sind, sollten Sie Sie in einem relevanten Teamkanal als Tabstopps anheften. Anweisungen hierzu finden Sie in der [Dokumentation zu Microsoft Teams-Vorlagen](get-started-with-teams-templates.md) .
+- Wenn Ihre Organisation über interne Websites wie eine SharePoint-Website verfügt, die für Manager relevant sind, sollten Sie Sie in einem relevanten Teamkanal als Tabstopps anheften. Anweisungen hierzu finden Sie in der [Dokumentation zu Microsoft Teams-Vorlagen](get-started-with-teams-templates.md) .
 
 ## <a name="how-to-use-first-party-templates"></a>Verwenden von Vorlagen für Erstanbieter
 
-Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die Eigenschaft "Template@odata. Bind" im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Wenn Sie diese Vorlagen verwenden möchten, ändern Sie die Eigenschaft "Template@odata. Bind" im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Die Kanäle in der Vorlage werden auf der RegisterkarteAllgemein automatisch erstellt.
@@ -88,3 +88,6 @@ Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die Eigenschaft 
   ]
 }
 ```
+## <a name="relate-topic"></a>Thema verknüpfen
+
+[Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole](get-started-with-teams-templates-in-the-admin-console.md)

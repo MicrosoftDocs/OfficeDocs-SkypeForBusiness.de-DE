@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f386531772a9debddca5d3be2dad8c3c778d69b6
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219126"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294571"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Erstellen einer Vorlage aus einem vorhandenen Team in Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
 
@@ -63,6 +60,9 @@ Microsoft Teams ermöglicht Ihnen, eine Vorlage aus einem vorhandenen Team zu er
 8. Wählen Sie **Absenden** aus, um Ihre Änderungen zu speichern.
 
 Ihre neue Vorlage wird in der Liste der **Team Vorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in Teams verwendet werden.
+
+> [!Note]
+> Es kann bis zu 24 Stunden dauern, bis Team Benutzer eine benutzerdefinierte Vorlage im Katalog sehen können.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

@@ -19,17 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: c9e0a75c558888fcd1c558eb3f87718a85e22471
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171079"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294541"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>Verwenden von Verkaufsvorlagen für Teams in der Administratorkonsole
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 

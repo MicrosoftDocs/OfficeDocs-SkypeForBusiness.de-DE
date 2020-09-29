@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 9ed0bd3aadcde76835bb3d435429785ceaf562a2
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
+ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938144"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48297373"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
-Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, wozu Benutzer in Ihrer Organisation in Teams und Kanälen berechtigt sind. Sie können z. B. festlegen, ob private Teams für Benutzer in den Suchergebnissen und im Teamkatalog sichtbar sind und ob Benutzer private Kanäle erstellen dürfen.
+Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, wozu Benutzer in Ihrer Organisation in Teams und Kanälen berechtigt sind. So können Sie beispielsweise festlegen, ob Benutzer private Kanäle erstellen dürfen.
 
 Zum Verwalten von Teamrichtlinien wechseln Sie im Microsoft Teams Admin Center zu **Teams** > **Teamrichtlinien**. Sie können die globale Standardrichtlinie (org-Wide) verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen.
 
@@ -46,10 +46,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 
     ![Screenshot der Richtlinieneinstellungen für Teams](media/teams-policies.png)
-4. Wählen Sie die gewünschten Einstellungen aus:
-
-- **Entdecken privater Teams** (in der privaten Vorschau)<a name="discoverteams"> </a> : Aktivieren Sie diese Einstellung, damit Benutzer private Teams in Suchergebnissen und im Team Katalog entdecken können.
-- **Private Kanäle erstellen**: <a name="createchannels"> </a>aktivieren Sie diese Einstellung, damit Benutzer private Kanäle erstellen können.
+4. Aktivieren oder deaktivieren Sie **private Kanäle erstellen**, <a name="createchannels"> </a> je nachdem, ob Sie Benutzern das Erstellen privater Kanäle gestatten möchten.
 
 5. Klicken Sie auf **Speichern**.
 
@@ -66,8 +63,6 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstel
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>Verwandte Themen
-
-[Verwalten der Sichtbarkeit privater Teams unter Teams](manage-discovery-of-private-teams.md)
 
 [Private Kanäle in Teams](private-channels.md)
 

@@ -18,17 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218576"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294611"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
 
@@ -37,12 +34,9 @@ ms.locfileid: "48218576"
 
 In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Mithilfe von "Teams-Vorlagen" können Sie schnell umfangreiche Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. Derzeit können Sie ein Team aus einer Vorlage in Teams oder mit [Microsoft Graph](get-started-with-teams-templates.md)erstellen.
 
-In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie mit einigen Beispiel Anforderungen ein Team aus einer Vorlage erstellen können.
+In diesem Artikel werden die Eigenschaften beschrieben, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie mit einigen Beispiel Anforderungen ein Team aus einer Vorlage erstellen können.
 
-Dieser Artikel ist für Sie da:
-
-- Verantwortlich für das Planen, bereitstellen und Verwalten mehrerer Teams in Ihrer Organisation<br>
-- Entwickler, die ein Team programmgesteuert mit vordefinierten Kanälen und Apps erstellen möchten
+Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation verantwortlich sind.
 
 ## <a name="teams-template-capabilities"></a>Teams-Vorlagen Funktionen
 
@@ -55,7 +49,7 @@ Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werde
 | Team Beschreibung | Kanaleinstellungen |
 | Team Sichtbarkeit (öffentlich oder privat) | Connectors |
 | Team Einstellungen (beispielsweise Member, Gast, @ Erwähnungen) | Dateien und Inhalte |
-| Automatisch bevorzugter Kanal | |
+| Autofavorite-Kanal | |
 | Installierte App | |
 | Angeheftete Tabstopps | |
 
@@ -64,9 +58,9 @@ Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werde
 
 ## <a name="what-are-base-template-types"></a>Was sind Basisvorlagen Typen?
 
-Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die im App Store zur Verfügung stehen.
+Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die im App Store nicht zur Verfügung stehen.
 
-Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten jedoch Eigenschaften, die nicht überschrieben werden können.
+Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten Eigenschaften, die nicht überschrieben werden können.
 
 > [!NOTE]
 > Vordefinierte Basisvorlagen, die in Microsoft Teams bereitgestellt werden, können dupliziert, aber nicht bearbeitet werden.

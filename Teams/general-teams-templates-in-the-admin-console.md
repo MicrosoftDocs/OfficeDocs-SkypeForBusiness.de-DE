@@ -19,17 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216696"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294451"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Verwenden von allgemeinen Teams-Vorlagen in der Admin-Konsole
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 
@@ -37,7 +34,7 @@ In den Teams-Vorlagen gibt es vorgefertigte Definitionen von Teamstrukturen, die
 
 In diesem Artikel werden die einzelnen Teams-Vorlagen vorgestellt, und es wird empfohlen, diese zu verwenden.
 
-Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer Finanzorganisation verantwortlich sind. Wir gehen davon aus, dass Sie bereits einen Team Dienst in Ihrer Organisation bereitgestellt haben. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst die [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md).
+Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer Finanzorganisation verantwortlich sind. Sie haben den Team-Service bereits in Ihrer Organisation bereitgestellt. Wenn Sie keine Teams ausgerollet haben, lesen Sie zunächst die [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md).
 
 Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -72,7 +69,7 @@ Verwalten von Aufgaben, Freigeben von Dokumenten, durchführen von Projektbespre
 
 Verwalten Sie Aufgaben, Dokumente und zusammenarbeiten an allem, was Sie brauchen, um ein fesselndes Ereignis zu liefern. Laden Sie die Benutzer zu einer sicheren Zusammenarbeit innerhalb und außerhalb Ihres Unternehmens ein.
 
-Sie haben möglicherweise keinen Zugriff auf bestimmte apps basierend auf Ihrer APP-Berechtigungsrichtlinie.
+Sie haben möglicherweise auf der Grundlage Ihrer APP-Berechtigungsrichtlinie keinen Zugriff auf bestimmte apps.
 
 | Basis Vorlagentyp | baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |--|----------------------------------------------------- |

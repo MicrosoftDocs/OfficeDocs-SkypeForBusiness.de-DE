@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Verwenden Sie in Microsoft Graph erstellte vordefinierte Microsoft Teams-Vorlagen, um schnell und einfach Teams für kleine und mittelständische Unternehmen zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: 7196dd93fc1245102a333c150715c4b4570986c7
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506148"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294551"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>In Microsoft Graph erstellte Teamvorlagen für kleine und mittelständische Unternehmen
 
@@ -30,7 +30,7 @@ Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, in
 
 Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsstark sein, da Sie Administratoren dabei helfen, Teams in ihrer gesamten Organisation schnell bereitzustellen. Mithilfe von Vorlagen können Sie Benutzer auch orientieren und mit der effektiven Verwendung von Teams beginnen. Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation verantwortlich sind.
 
-Wir bieten derzeit drei Erstanbieter-SMB-Vorlagen an, die Sie für unterschiedliche Situationen nutzen können. Alle Vorlagen werden *private* Teams erstellen. Nachdem Sie die Teams erstellt haben und bereit für das Rollout in Ihre Organisation sind, können Sie den Datenschutz je nach Bedarf auf *org-Wide* oder *Public*festlegen. Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md).
+Wir bieten derzeit drei Erstanbieter-SMB-Vorlagen an, die Sie für unterschiedliche Situationen nutzen können. Alle Vorlagen werden *private* Teams erstellen. Nachdem Sie die Teams erstellt haben und bereit sind, sich für Ihre Organisation zu registrieren, können Sie den Datenschutz je nach Bedarf auf *org-Wide* oder *Public*festlegen. Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md).
 
 ## <a name="company-wide-template"></a>Unternehmensweite Vorlage
 Die unternehmensweite Vorlage ist für Kommunikation und Zusammenarbeit vorgesehen, die für das gesamte Unternehmen relevant sind. Sie können den allgemeinen Kanal für unternehmensweite Ankündigungen, Branchen-News oder Executive-Beiträge verwenden. Der Personal Kanal ist ein großartiger Ort, um alle HR-bezogenen Aktivitäten wie Stellenangebote, neue Mitarbeiter Onboarding, Schulung und Entwicklung zu konsolidieren. Der Fun-Stuff-Kanal bietet eine soziale Plattform für alle zufällige und lustige Beiträge.
@@ -57,11 +57,11 @@ Content-Type: application/json
 
 ## <a name="executive-team-template"></a>Vorlage für das Executive-Team
 
-Die Vorlage für das Executive-Team eignet sich hervorragend zum Erstellen eines Teams für Führungskräfte von Unternehmen, um Unternehmensinitiativen wie jährliche Prioritäten, Finanzbudgets, strategische Initiativen, Top-Kunden usw. zu kommunizieren und zusammenzuarbeiten. Diese Vorlage enthält einen *privaten* Kanal, in dem Sie ausgewählte Benutzer zu bestimmten Themen einladen können.
+Die Vorlage für das Executive-Team eignet sich hervorragend zum Erstellen eines Teams für Führungskräfte von Unternehmen, um Unternehmensinitiativen wie jährliche Prioritäten, Finanzbudgets, strategische Initiativen und Top-Kunden zu kommunizieren und zusammenzuarbeiten. Diese Vorlage enthält einen *privaten* Kanal, in dem Sie ausgewählte Benutzer zu bestimmten Themen einladen können.
 
 | Basis Vorlagentyp  | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB <br>Führungskräfte Team | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Kanäle <ul><li>Allgemein\*</li><li>Private\*</li></ul> Apps<ul><li>OneNote (an den **privaten** Kanal angeheftet)</li> <li>Planner (an den **privaten** Kanal angeheftet) </li></ul><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul> | 
+| SMB <br>Führungskräfte Team | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Kanäle <ul><li>Allgemein\*</li><li>Private \*</li></ul> Apps<ul><li>OneNote (an den **privaten** Kanal angeheftet)</li> <li>Planner (an den **privaten** Kanal angeheftet) </li></ul><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul> | 
 
 * Automatisch bevorzugte Kanäle<br>
 
@@ -81,11 +81,11 @@ Content-Type: application/json
 
 ## <a name="departmental-team-template"></a>Abteilungs Team Vorlage
 
-Die Vorlage für ein Abteilungs Team kann zum Erstellen eines Teams für einzelne Abteilungen oder für Projekte verwendet werden. Die Vorlage "Finanzteam" eignet sich ideal für alle Beiträge, Ankündigungen und tägliche Zusammenarbeit und Kommunikation innerhalb der Mitglieder des Finance-Teams (und den Mitgliedern des Executive-Teams entsprechend). Die Vorlage enthält einen *privaten* Kanal, in dem Sie ausgewählte Benutzer zu bestimmten Themen einladen können. Darüber hinaus stellen wir das unten aufgeführte Skript für das Finance-Team bereit, mit dem die Vorlage auf weitere Abteilungen oder bestimmte Projekte ausgeweitet werden kann, indem Sie Ihre Wünsche hinzufügen, löschen oder bearbeiten. Wenn Sie beispielsweise über eine *Marketing* Abteilung verfügen, können Sie das Skript anpassen, indem Sie das Team von *Finance* in *Marketing* umbenennen, um ein neues Marketing Team zu erstellen.
+Die Vorlage für ein Abteilungs Team kann zum Erstellen eines Teams für einzelne Abteilungen oder für Projekte verwendet werden. Die Vorlage "Finanzteam" eignet sich ideal für alle Beiträge, Ankündigungen und tägliche Zusammenarbeit und Kommunikation innerhalb der Mitglieder des Finance-Teams und der Mitglieder des Executive-Teams, je nach Bedarf. Die Vorlage enthält einen *privaten* Kanal, in dem Sie ausgewählte Benutzer zu bestimmten Themen einladen können. Darüber hinaus bieten wir das unten aufgeführte Skript für das Finance-Team an, das zum Erweitern der Vorlage auf zusätzliche Abteilungen oder bestimmte Projekte verwendet werden kann, indem Sie nach Belieben hinzufügen, löschen oder bearbeiten. Wenn Sie beispielsweise über eine *Marketing* Abteilung verfügen, können Sie das Skript anpassen, indem Sie das Team von *Finance* in *Marketing* umbenennen, um ein neues Marketing Team zu erstellen.
 
 | Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB <br>Finanzen  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Kanäle <ul><li>Allgemein\*</li><li>Private\*</li></ul><br> Apps<ul><li>OneNote (an den **privaten** Kanal angeheftet)</li> <li>Planner (an den **privaten** Kanal angeheftet) </li> </ul><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul> | 
+| SMB <br>Finanzen  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Kanäle <ul><li>Allgemein\*</li><li>Private \*</li></ul><br> Apps<ul><li>OneNote (an den **privaten** Kanal angeheftet)</li> <li>Planner (an den **privaten** Kanal angeheftet) </li> </ul><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul> | 
 
 * Automatisch bevorzugte Kanäle
 
@@ -176,6 +176,7 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Verwandte Themen
 
+- [Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole](get-started-with-teams-templates-in-the-admin-console.md)
 - [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
 - [Team erstellen](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)
 
