@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams konfigurieren.
-ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
+ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539625"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304579"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams
 
@@ -147,10 +147,10 @@ In der folgenden Tabelle sind die in diesem Beispiel definierten Subnets aufgef�
 Bei mehreren Subnetzen können Sie eine CSV-Datei mit einem Skript wie dem folgenden importieren.
 
 ```PowerShell
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
+Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-In diesem Beispiel sieht die CSV-Datei etwa wie folgt aus:
+In diesem Beispiel sieht die CSV-Datei etwa wie folgt aus: 
 
 ```console
 Identity, Mask, SiteID

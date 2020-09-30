@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ebbf765373699d07f96d11fff66e9677213bdb8
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294435"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308398"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>Verwenden von Teams-Fertigungs Vorlagen in der Admin-Konsole
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 

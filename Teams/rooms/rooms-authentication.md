@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Informationen zum Konfigurieren der modernen Authentifizierung für Microsoft Teams-Chatrooms
-ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506179"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308258"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räumen
 
@@ -90,6 +90,7 @@ Da die Microsoft Teams-Räume jedoch die Autorisierung für das [Kennwort des Re
 - Sie müssen über Exchange Server 2016 CU8 oder höher oder Exchange Server 2019 CU1 oder höher verfügen.
 - Sie müssen über Skype for Business Server 2015 CU5 oder höher oder Skype for Business Server 2019 oder höher verfügen.
 - MFA wird unabhängig von der verwendeten Topologie nicht unterstützt.
+- Microsoft Teams rooms unterstützt keine fehlenden SIP-und UPN-Konflikte. Sie müssen ein Microsoft Teams rooms-Konto mit dem gleichen UPN und SIP erstellen, damit es funktioniert.
 - Wenn Sie einen von Azure AD unterstützten Drittanbieter-Authentifizierungsanbieter verwenden, muss er einen aktiven Authentifizierungs Fluss über WS-Trust unterstützen.
 - Verwenden Sie keine Richtlinien für den bedingten Zugriff auf Geräteebene für ein mit der Anwendung konfiguriertes Ressourcenkonto. Dies führt zu Anmeldefehlern. Registrieren Sie stattdessen ein Gerät in Microsoft InTune, und wenden Sie Konformitätsrichtlinien mithilfe der in [Verwalten von Teams-Besprechungsräumen mit InTune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)veröffentlichten Anleitungen an.
 

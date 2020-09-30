@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323989"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308168"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Verwenden von ndi®-Technologie in Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ NewTek ndi® (Network Device Interface)-Technologie ist eine moderne Lösung für den Anschluss von Mediengeräten (wie Studio Kamera und Mixer). Anstatt physische Verbindungen zu verwenden, ermöglicht die ndi-® Technologie die Konnektivität über ein lokales Intranet, auch auf einem lokalen Computer.
 
- NDI® (Network Device Interface)-Technologie ist eine moderne Lösung für den Anschluss von Mediengeräten (wie Studio Kamera und Mixer). Anstatt physische Verbindungen zu verwenden, ermöglicht die ndi-® Technologie die Konnektivität über ein lokales Intranet, auch auf einem lokalen Computer.
+NDI® Technology ist zu einer standardmäßigen Branchenlösung geworden, um Live-Inhalte für Streams zu produzieren, und hat in der professionellen Broadcast-Welt erhebliches Bewusstsein und Akzeptanz erlangt.
 
-NewTek ndi® Technology ist zu einer standardmäßigen Branchenlösung geworden, um Live-Inhalte für Streams zu produzieren, und hat in der professionellen Broadcast-Welt erhebliches Bewusstsein und Akzeptanz erlangt.
-
-Skype hat zuvor ndi-® Funktionen zu Skype in späten 2018 hinzugefügt. Microsoft Teams nutzt diese Funktion, um die Besprechungs Erfahrung zu verbessern.
+Skype hat zuvor ndi-® Funktionen zu Skype in späten 2018 hinzugefügt. Microsoft Teams verwendet diese Funktion, um die Besprechungs Erfahrung zu verbessern.
 
 NDI®-Technologie ist auf ein lokales Netzwerk limitiert und sollte nur als Teil des Produktionsworkflows, keine Broadcast-Lösung, betrachtet werden.
 

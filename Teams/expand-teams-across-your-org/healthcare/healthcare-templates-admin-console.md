@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams-Vorlagen in der Administratorkonsole, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294581"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308278"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Verwenden von Teams Healthcare-Vorlagen in der Admin-Konsole
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 
