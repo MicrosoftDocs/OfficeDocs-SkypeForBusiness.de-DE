@@ -51,7 +51,15 @@
 ## [Ablauf und Verlängerung von Microsoft Teams](team-expiration-renewal.md)
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
 ## [Migrieren von Slack auf Teams](migrate-slack-to-teams.md)
-## [Teams-Vorlagen integrieren Graph für kleine und mittlere Unternehmen](smb-templates.md)
+## Arbeiten mit Teams-Vorlagen
+### [Verwenden von Teams-Vorlagen in der Verwaltungskonsole](get-started-with-teams-templates-in-the-admin-console.md)
+### [Teams-Vorlagen integriert in Graph für kleine und mittlere Unternehmen](smb-templates.md)
+### [Erstellen einer benutzerdefinierten Teams-Vorlage](create-a-team-template.md)
+### [Erstellen einer Vorlage aus einem vorhandenen Team](create-template-from-existing-team.md)
+### [Kompilieren einer Vorlage aus einer vorhandenen Vorlage](create-template-from-existing-template.md)
+### [Teams-Vorlagen für die Kategorie Finanzen](financial-teams-templates-in-the-admin-console.md)
+### [Teams-Vorlagen für die Kategorie Allgemeines](general-teams-templates-in-the-admin-console.md)
+### [Teams-Vorlagen für die Kategorie Herstellung](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## Kommunikation mit externen Benutzern
 ### [Kommunizieren mit Benutzern aus anderen Organisationen](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## Teams für das Gesundheitswesen
 ### [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Erste Schritte mit Teams-Vorlagen in der Verwaltungskonsole für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [Erstellen einer Intranet-Portal-App für Teams von einer SPO-Website oder -Seite aus](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams für den Einzelhandel](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Erste Schritte mit Teams-Vorlagen in der Verwaltungskonsole im Einzelhandel](retail-teams-templates-in-the-admin-console.md)
 ### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 
 ## [Teams für Behörden](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Remotemitarbeiter unterstützen (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [Erste Schritte mit Teams-Vorlagen in Regierungsbehörden](government-teams-templates-in-the-admin-console.md)
 ### [Verwalten des Office 365 G1-Testangebots](g1-trial-license.md)
 ### [Planen von Microsoft 365 Government – GCC](plan-for-government-gcc.md)
 ### [Planen von Microsoft 365 Government – GCC High](plan-for-government-gcc-high.md)
