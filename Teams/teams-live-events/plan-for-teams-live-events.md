@@ -18,19 +18,19 @@ description: In diesem Artikel erfahren Sie mehr über die Faktoren, die Sie ber
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203918"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308318"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
 Wenn Sie Liveereignisse in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, müssen Sie eine Reihe von Faktoren berücksichtigen, bevor Sie mit der Einrichtung beginnen.
 
  > [!Note]
-> Mehr über Liveereignisse in Teams auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Mehr über Liveereignisse in Teams auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Weitere Informationen zu den Bandbreitenanforderungen für Teams finden Sie unter [Vorbereiten Ihrer Organisation](../prepare-network.md). 
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Wer kann an Liveereignissen teilnehmen, diese erstellen und planen?
 
@@ -100,11 +100,15 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
-> 
-> Damit Kunden den sich schnell ändernden Kommunikationsbedürfnissen gerecht werden können, wird das Limit für Microsoft 365 Live-Ereignisse vorübergehend bis zum 1. Juli 2020 für Live-Ereignisse in Teams erhöht. Die nachstehenden Erhöhungen werden Ende April 2020 bereitgestellt:
-> - Teilnehmerlimit: Ereignisse können bis zu 20 000 Teilnehmer unterstützen
-> - Gleichzeitige Ereignisse: 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
-> - Ereignisdauer: die Ereignisdauer wurde auf 16 Stunden pro Sendung erhöht
+>
+> **Um unsere Kunden zu unterstützen, werden bis zum 1. Januar 2021 zeitlich begrenzte Erhöhungen für Liveereignisse in Teams, Stream und Yammer erweitern, einschließlich**:
+>
+>- Bis zu 20.000 Teilnehmer pro Ereignis
+>- Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
+>- Bis zu 16 Stunden pro Sendung
+>
+> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmer über das Microsoft Liveereignis-Hilfsprogramm geplant werden. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](../teams-add-on-licensing/advanced-communications.md)erwerben.**
+
 
 |**Funktion**   |**Skype Meeting Broadcast** |**In Teams produzierte Ereignisse** |**In einer externen App oder auf einem externen Gerät produzierte Ereignisse** |
 |---------|---------|---------|---------|
