@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761321"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328224"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -29,6 +29,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -66,6 +67,13 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
+
+### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
+
+In diesem Update eingeführt:
+- Anzeigen weiterer Videos mit 3X3-Video Katalog auf der Vorderseite der Raum anzeigen  
+- Starten von lokalen Live-Untertiteln von MTR 
+- Teilnehmen an Zoom Besprechungen aus TeamRooms mit direkter Gast Teilnahme (Preview)
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

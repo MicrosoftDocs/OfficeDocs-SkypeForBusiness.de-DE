@@ -1,11 +1,10 @@
 ---
 title: Einschränkungen für gebührenfreie Telefonnummern in Dänemark
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,14 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in China Süd, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-und Festnetz-und Mobilnetzen sowie Einschränkungen.
-ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: c3db94798c56ca35886992d8d4c3496b45b258a7
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140444"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320770"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Einschränkungen für gebührenfreie Telefonnummern in Dänemark
 
@@ -39,7 +37,7 @@ ms.locfileid: "43140444"
 |**Details**|**Beschreibung**|
 |:-----|:-----|
 |Sind gebührenfreie Anrufe verfügbar?  <br/> |Ja  <br/> |
-|Wählformate  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+|Wählformate  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |ISO-Code des Lands/der Region  <br/> |DK  <br/> |
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> | Kein Zugriff von den Faröer-Inseln oder von Grönland <br/> |
@@ -50,7 +48,7 @@ ms.locfileid: "43140444"
 ## <a name="related-topics"></a>Verwandte Themen
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Service-Telefonnummern erhalten](/microsoftteams/getting-service-phone-numbers)
 
   
  

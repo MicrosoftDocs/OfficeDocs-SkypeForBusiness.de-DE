@@ -13,19 +13,16 @@ f1.keywords:
 description: Eine Übersicht über die integrierte Contact Center as a Service (CCaaS)-Lösung für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308388"
+ms.locfileid: "48322284"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
 Die Integration von beliebten Contact Center-Lösungen in Microsoft Teams ist ein häufiges Bedürfnis für Kunden, die die Funktionen von Teams anrufen.  Dieser Artikel bietet eine Übersicht darüber, wie Contact Center-Lösungen in Microsoft Teams integriert werden können, sowie weitere Informationen zu den Partnerlösungen, die am Zertifizierungsprogramm Microsoft Teams Connected Contact Center teilnehmen.
-
-> [!NOTE]
-> Für Contact Center-Integrationsfunktionen ist Advanced Communications License erforderlich. 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Was ist eine Contact Center-Integration für Microsoft Teams?
 
@@ -50,6 +47,7 @@ Die folgenden Partner sind dabei, Ihre Lösung für Microsoft Teams zu zertifizi
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| ContactCenter4All | https://docs.microsoft.com/microsoftteams/teams-contact-center#connected-contact-center-for-microsoft-teams-certification-program |
 | Enghouse interaktiv | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |

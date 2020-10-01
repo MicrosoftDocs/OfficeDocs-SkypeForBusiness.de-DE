@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Deutschland verfügbar sind.
-ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: ba3389abd0555db7ff269ec969e216bd40d22bdf
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231164"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321888"
 ---
 # <a name="availability-in-germany"></a>Verfügbarkeit in Deutschland
 
@@ -60,7 +60,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Anrufplan für Inland und Ausland: 1200 Minuten für Inlandsgespräche ODER 600 Minuten für Auslandsgespräche (je nachdem, welches zuerst innerhalb eines Kalendermonats erreicht wird)</li></li> 
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Anrufplan für Inland und Ausland: 1200 Minuten für Inlandsgespräche ODER 600 Minuten für Auslandsgespräche (je nachdem, welches zuerst innerhalb eines Kalendermonats erreicht wird)</li></li>|
 |Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b910a93435cedfc1dcc83c34b766d9121f93eea
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955952"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328194"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Tools für das Upgrade auf Teams &mdash; für IT-Administratoren
 
@@ -45,11 +45,11 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und K
 
 ## <a name="tools-for-managing-the-upgrade"></a>Tools für die Verwaltung des Upgrades
 
-Unabhängig von der gewählten Aktualisierungsmethode verwalten Sie den Übergang zu TeamsOnly mithilfe von [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), der den Koexistenzmodus eines Benutzers steuert. Weitere Informationen zu den einzelnen Modi finden Sie unter [Koexistenz Modi](migration-interop-guidance-for-teams-with-skype.md).
+Je nachdem, welche Upgrade-Methode Sie wählen, verwalten Sie für Benutzer, die bereits Skype for Business Online haben, den Übergang zu TeamsOnly mithilfe von [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), der den Koexistenzmodus eines Benutzers steuert. Für Benutzer mit einem lokalen Konto in Skype for Business Server verwenden Sie auch, `Move-CsUser` um Sie in [die Cloud zu verschieben](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Weitere Informationen zu den einzelnen Modi finden Sie unter [Koexistenz Modi](migration-interop-guidance-for-teams-with-skype.md).  
 
-Unabhängig davon, ob Sie über den Skype for Business-Modus einen Übergang zur Auswahlfunktion ausführen oder einfach von der Standardkonfiguration der Inseln auf den TeamsOnly-Modus umsteigen, ist TeamsUpgradePolicy das wichtigste Tool. Wie bei allen anderen Richtlinien in Teams können Sie TeamsUpgradePolicy einem Benutzer direkt zuweisen. Sie können die Richtlinie auch als Mandantenweite Standardeinstellung festlegen. Jede Zuordnung zu einem Benutzer hat Vorrang vor der Standardeinstellung Mandanten.  Sie können die Richtlinie in der Team-Verwaltungskonsole und in PowerShell verwalten.
+Unabhängig davon, ob Sie über den Skype for Business-Modus einen Übergang zur Auswahlfunktion ausführen oder einfach über die standardmäßige Konfiguration der Inseln auf den TeamsOnly-Modus umsteigen, ist TeamsUpgradePolicy das wichtigste Tool für Benutzer, die bereits Skype for Business Online haben. Wie bei allen anderen Richtlinien in Teams können Sie TeamsUpgradePolicy einem Benutzer direkt zuweisen. Sie können die Richtlinie auch als Mandantenweite Standardeinstellung festlegen. Jede Zuordnung zu einem Benutzer hat Vorrang vor der Standardeinstellung Mandanten.  Sie können die Richtlinie in der Team-Verwaltungskonsole und in PowerShell verwalten.
 
-Sie können Benutzern jede Art von TeamsUpgradePolicy zuweisen, unabhängig davon, ob sich der Benutzer in Skype for Business Online oder lokal befindet, **mit der Ausnahme, dass der TeamsOnly-Modus nur einem Nutzer zugewiesen werden kann, der bereits in Skype for Business Online ist**. Dies liegt daran, dass Interop mit Skype for Business-Benutzern und-Föderation sowie Microsoft 365-Telefon System Funktionen nur möglich ist, wenn der Benutzer in Skype for Business Online verwaltet wird.
+Sie können den Benutzern, die in Skype for Business lokal gehostet werden, auch einen beliebigen TeamsUpgradePolicy-Modus (mit Ausnahme des TeamsOnly-Modus) zuweisen. Der **TeamsOnly-Modus kann nur einem Nutzer zugewiesen werden, der sich bereits in Skype for Business Online befindet**. Dies liegt daran, dass Interop mit Skype for Business-Benutzern und-Föderation sowie Microsoft 365-Telefon System Funktionen nur möglich ist, wenn der Benutzer in Skype for Business Online verwaltet wird. Darüber hinaus **können Sie den TeamsOnly-Modus nicht als mandantenübergreifenden Standardwert zuweisen, wenn Sie über eine lokale Skype for Business-Bereitstellung verfügen** (die durch Anwesenheit eines lyncdiscover-DNS-Eintrags erkannt wird, der auf einen anderen Speicherort als Office 365 verweist.
 
 Benutzer mit Skype for Business-Konten, die sich lokal [benetzen, müssen](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) mit Move-CsUser im lokalen Skype for Business-Toolset Online (entweder in Skype for Business Online oder direkt an Teams) verschoben werden. Diese Benutzer können in 1 oder 2 Schritten in TeamsOnly verschoben werden:
 
@@ -83,7 +83,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->Wenn Sie Benutzer mit Skype for Business-Konten lokal haben, dürfen Sie den TeamsOnly-Modus nicht auf Mandantenebene zuweisen, es sei denn, Sie weisen allen Benutzern mit lokalen Skype for Business-Konten explizit einen anderen Modus zu.
+>Wenn Sie über Benutzer mit Skype for Business-Konten lokal verfügen, können Sie den TeamsOnly-Modus auf Mandantenebene nicht zuweisen. Sie müssen diese Benutzer mithilfe von Move-CsUser einzeln in die Cloud verschieben.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>Verwenden von Benachrichtigungen in Skype for Business-Clients

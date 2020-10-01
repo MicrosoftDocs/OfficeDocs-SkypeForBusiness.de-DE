@@ -1,5 +1,5 @@
 ---
-title: Telefonnummernverwaltung für das Vereinigte Königreich
+title: Verwaltung von Telefonnummern für Vereinigtes Königreich
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Großbritannien (GB) für Microsoft Teams zu finden.
-ms.openlocfilehash: 3fb9da13b10c5e45f910d172a350cd6869dbaaa1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Großbritannien für Microsoft Teams zu finden.
+ms.openlocfilehash: f35d1dba6a32306c37143a03a745e46a32e3109c
+ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706940"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324151"
 ---
-# <a name="phone-number-management-for-the-uk"></a>Telefonnummernverwaltung für das Vereinigte Königreich
+# <a name="phone-number-management-for-the-united-kingdom"></a>Verwaltung von Telefonnummern für Vereinigtes Königreich
 
 Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Großbritannien für Microsoft Teams zu finden. 
   
@@ -36,10 +36,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Dieses Formular herunterladen.  [Neue Telefonnummern Anfrage für Großbritannien (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
-|Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für das Vereinigte Königreich (ortsgebundene Nummern) (v.2.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Schriftliche Vollmacht für das Vereinigte Königreich (nicht ortsgebundene Nummern) (v.2.1) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Dieses Formular herunterladen. <br/> [Neue Telefonnummern Anfrage für das Vereinigte Königreich (v. 5.0) (en-GB)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Letter of Authorization (LoA) für das Vereinigte Königreich (geografische Nummern) (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> [Letter of Authorization (LoA) für das Vereinigte Königreich (gebührenfreie Nummern) (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(toll-free-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> <br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Erstellen von Verzeichnisdienst Updates für Anrufe in Warteschlangen-oder automatische Telefonzentralen Nummern|Wenden Sie sich zum Hinzufügen oder Ändern von Rufnummern für die Anrufwarteschlange oder automatische Telefonzentrale an [den PSTN-Service-Desk](contact-pstn-service-desk.md). |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

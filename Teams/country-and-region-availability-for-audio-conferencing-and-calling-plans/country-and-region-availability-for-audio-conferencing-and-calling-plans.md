@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Informieren Sie sich, ob Audiokonferenzen, Telefonsysteme, Anrufpläne, Kommunikationsguthaben und gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 0a8c444a62570d287c016076f20844389aa3a2d5
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788529"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321678"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -157,7 +157,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, laden Sie die [Kalkulationstabelle Cloud-Sprachfeature Verfügbarkeit in Land/Region](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06242020)-(en-us).xlsx?raw=true)** herunter und speichern Sie sie.
+**Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, laden Sie die [Kalkulationstabelle Cloud-Sprachfeature Verfügbarkeit in Land/Region](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-10012020)-(en-us).xlsx?raw=true)** herunter und speichern Sie sie.
 
 ***
 

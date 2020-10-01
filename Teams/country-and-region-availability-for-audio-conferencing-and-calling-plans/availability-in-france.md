@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Frankreich verfügbar sind.
-ms.openlocfilehash: fff316dfaa0292a5afc1cc02304f09772c211d32
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 68ad6be38dd7755b9bfeb69da4605826b017bcd5
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230914"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322294"
 ---
 # <a name="availability-in-france"></a>Verfügbarkeit in Frankreich
 
@@ -57,10 +57,10 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
    
 ## <a name="calling-plans"></a>Anrufpläne
     
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Plan für Inlands-und Auslandsgespräche: 1200 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> 
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Plan für Inlands-und Auslandsgespräche: 1200 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> |
 |Können Sie ausgehende Anrufe an französische Premium-Nummern tätigen? <br/> | Ja, vollständig unterstützt bei Verwendung von Kommunikationsguthaben, um pro Minute zu zahlen. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    

@@ -1,11 +1,10 @@
 ---
 title: Einschränkungen für gebührenfreie Telefonnummern in Schweden
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 2d5f5cf4-1068-4a6d-a9e5-3dc4c67f1105
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 299c39791968a488dc5ad8d210f5841824c83c50
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681822"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321898"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Einschränkungen für gebührenfreie Telefonnummern in Schweden
 
@@ -38,7 +37,7 @@ ms.locfileid: "41681822"
 |**Details**|**Beschreibung**|
 |:-----|:-----|
 |Sind gebührenfreie Anrufe verfügbar?  <br/> |Ja  <br/> |
-|Wählformate  <br/> | 02 XXX XXXX <br/>  0200 XX XXXX <br/> |
+|Wählformate  <br/> | 020 <br/> |
 |ISO-Code des Lands/der Region  <br/> |SE  <br/> |
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |

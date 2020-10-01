@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Japan für Microsoft Teams zu finden.
-ms.openlocfilehash: ad21620896800411f72a699d19cf9704485d0207
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824926"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322254"
 ---
 # <a name="phone-number-management-for-japan"></a>Verwaltung von Telefonnummern für Japan
 
@@ -43,7 +43,8 @@ Weitere Informationen finden Sie unter  [Verwalten von Telefonnummern für Ihre 
 |Rufen Sie Telefonnummern ab, die auf Microsoft 365 oder Office 365 für **Benutzer** in Japan übertragen wurden.|Bitte wenden Sie sich an [Softbank-Anrufe](https://aka.ms/SoftBankVoicePlan) , um Nutzer Telefonnummern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.  <br/> |
 |Rufen Sie Telefonnummern ab, die auf Microsoft 365 oder Office 365 für **Anrufwarteschlangen** in Japan übertragen wurden.|Bitte wenden Sie sich an [Softbank-Anrufe](https://aka.ms/SoftBankVoicePlan) , um Dienst Rufnummern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.|
 |Ändern Sie die Notfalladresse, die Benutzern zugewiesen ist, die über eine Telefonnummer für einen Anrufplan verfügen.|Bitte wenden Sie sich an [Softbank-Anrufe](https://aka.ms/SoftBankVoicePlan) , um Änderungen an der Notfalladresse vorzunehmen. Telstra kann diese Informationen für Sie aktualisieren.|
-|Ändern einer Benutzernummer in eine Dienstnummer |Wird derzeit bei Verwendung von Softbank-anrufen nicht unterstützt.
+|Ändern einer Benutzernummer in eine Dienstnummer |Wird derzeit bei Verwendung von Softbank-anrufen nicht unterstützt.|
+|Erstellen von Verzeichnisdienst Updates für Anrufe in Warteschlangen-oder automatische Telefonzentralen Nummern|Wenden Sie sich zum Hinzufügen oder Ändern von Rufnummern für die Anrufwarteschlange oder automatische Telefonzentrale an [den PSTN-Service-Desk](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

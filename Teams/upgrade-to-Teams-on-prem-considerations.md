@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955912"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328214"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>Upgrade-Überlegungen für Organisationen mit Skype for Business Server lokal &mdash; für IT-Administratoren
 
@@ -52,7 +52,7 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und K
 
 - Benutzer von Teams, die ein Skype for Business-Konto lokal haben (das heißt, dass Sie mit Move-CsUser noch nicht in die Cloud verschoben wurden), können nicht mit Skype for Business-Benutzern zusammenarbeiten und können auch nicht mit externen Benutzern zusammenarbeiten. Diese Funktion steht nur zur Verfügung, wenn die Benutzer in die Cloud verschoben werden (entweder im Modus "Inseln" oder als TeamsOnly-Benutzer). 
 
-- Wenn Sie Benutzer mit Skype for Business-Konten lokal haben, dürfen Sie den TeamsOnly-Modus nicht auf Mandantenebene zuweisen, es sei denn, Sie weisen allen Benutzern mit lokalen Skype for Business-Konten explizit einen anderen Modus zu. 
+- Wenn Sie über Benutzer mit Skype for Business-Konten lokal verfügen, können Sie den TeamsOnly-Modus auf Mandantenebene nicht zuweisen. Sie müssen zunächst alle Benutzer mit lokalen Skype for Business-Konten in die Cloud verschieben, indem Sie die `Move-CsUser` [Migration in die Cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)mithilfe und dann deaktivieren.  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` funktioniert nicht auf Mandantenebene, wenn ein lyncdiscover-DNS-Eintrag erkannt wird, der auf einen anderen Speicherort als Office 365 verweist.
 
 - Sie müssen sicherstellen, dass Ihre Benutzer mit den korrekten Skype for Business-Attributen richtig in Azure AD synchronisiert sind. Diese Attribute sind alle Präfixe mit "Attribut msRTCSIP-". Wenn Benutzer nicht ordnungsgemäß mit Azure AD synchronisiert werden, können die Verwaltungstools in Microsoft Teams diese Benutzer nicht verwalten. (Sie können beispielsweise keine Teamrichtlinien für lokale Benutzer zuweisen, es sei denn, Sie synchronisieren diese Attribute ordnungsgemäß.) Weitere Informationen finden Sie unter [Konfigurieren von Azure AD Connect für Teams und Skype for Business](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
@@ -64,12 +64,6 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und K
 
 >[!NOTE]
 > Alle neuen Mandanten, die nach dem 3. September erstellt wurden, werden als TeamsOnly-Mandanten erstellt, es sei denn 2019, die Organisation verfügt bereits über eine lokale Bereitstellung von Skype for Business Server. Microsoft verwendet DNS-Einträge, um lokale Skype for Business Server-Organisationen zu identifizieren. Wenn Ihre Organisation über lokale Skype for Business-Server ohne öffentliche DNS-Einträge verfügt, müssen Sie den Microsoft-Support anrufen, damit Ihr neuer Mandant heruntergestuft wird. 
-
-
-
-
-
-
 
 
 

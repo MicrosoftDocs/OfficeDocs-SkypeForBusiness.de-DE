@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e146394b5f000ce984d7bfaff5e6674c2c091b98
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8030f1504e56fb6bd9aee528e7969c9d66bf8c96
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955887"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328234"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Upgrade von Skype for Business auf Teams &mdash; für IT-Administratoren
 
@@ -52,6 +52,9 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und K
 Bevor Sie beginnen, sollten Sie beachten, dass ein Benutzer, der in Teams migriert wurde, keinen Skype for Business-Client mehr verwendet, außer an einer in Skype for Business gehosteten Besprechung teilzunehmen.  Alle eingehenden Chats und Anrufe landen im Team-Client des Benutzers, unabhängig davon, ob der Absender Teams oder Skype for Business verwendet. Alle neuen Besprechungen, die vom migrierten Benutzer organisiert werden, werden als Teams-Besprechungen geplant. Wenn der Benutzer versucht, den Skype for Business-Client zu verwenden, wird das Initiieren von Chats und anrufen blockiert.  Allerdings kann der Benutzer den Skype for Business-Client weiterhin verwenden, um an Skype for Business-Besprechungen teilzunehmen, zu denen er eingeladen wurde. (Ältere Skype for Business-Clients, die vor 2017 ausgeliefert wurden, Ehren TeamsUpgradePolicy nicht. Stellen Sie sicher, dass Sie den neuesten Skype for Business-Client verwenden.)
  
 Sie verwalten den Übergang des Benutzers zu Teams mithilfe des Konzepts des [Modus](migration-interop-guidance-for-teams-with-skype.md), bei dem es sich um eine Eigenschaft von [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)handelt. Ein Benutzer, der wie oben beschrieben zu Teams migriert wurde, befindet sich im Modus "TeamsOnly".  Für eine Organisation, die zu Teams migriert, besteht das ultimative Ziel darin, alle Benutzer in den TeamsOnly-Modus zu verschieben.
+
+>[!NOTE]
+>Benutzer, die über ein lokales Skype for Business-Konto verfügen, können nicht TeamsOnly werden. Obwohl diese Benutzer [Teams im Modus "Inseln" verwenden](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)können, bietet dies nicht den vollständigen Satz der Teamfunktionen, die im TeamsOnly-Modus zur Verfügung stehen. Damit diese Benutzer TeamsOnly werden, müssen Sie `Move-CsUser` in den lokalen Skype for Business Server-Tools in die Cloud verschoben werden.
 
 Okay. Fangen wir an.  Der erste Schritt besteht darin [, die für Sie verfügbaren Aktualisierungsmethoden zu](upgrade-to-teams-on-prem-upgrade-methods.md)verstehen.
 

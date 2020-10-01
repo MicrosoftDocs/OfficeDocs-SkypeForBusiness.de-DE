@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: db0c7b0d151a12852adffafeda9d84475b82e055
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584084"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320790"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in die richtlinienbasierte Aufzeichnung von Teams für Anrufe & Besprechungen
 
@@ -39,8 +39,6 @@ Teams wurden verbessert, um die Integration von Drittanbieter-Aufzeichnungslösu
 - Unterstützung für die Interaktions Erfassung zwischen Teams-Benutzern und unterstützten Anruf Endpunkten (Teams, Mobile Teams, Skype for Business, PSTN)
 
 - Neue administrative Richtlinien für die Konformitäts Aufzeichnung, einschließlich der Integration in vorhandene Teams administrative Anruf-und Besprechungstools und-Richtlinien
-
-- Erfordert eine [Erweiterte Kommunikations Lizenz](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 Die Integrationsfunktionen der Kompatibilitäts Aufzeichnung wurden auch bei Ignite 2019 in der [<span class="underline">Sitzung Compliance Recording und Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)überprüft.
 
@@ -133,7 +131,7 @@ Die Azure-und Windows-VM-Anforderungen gelten nur für die Teams-bot-Komponente,
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Richtlinienzuweisung und Bereitstellung von Compliance-Aufzeichnungen
 
-IT-Administratoren können ermitteln, welche Benutzer aufgezeichnet werden und welche Aufzeichnung für jeden Benutzer verwendet werden soll, indem Sie Richtlinien für die Konformitäts Aufzeichnung erstellen und zuweisen. Datenschreiber werden automatisch zur Teilnahme an Unterhaltungen eingeladen, die auf der Konfiguration dieser Richtlinien basieren, wenn eine Kommunikations Interaktion stattfindet. Richtlinien für die Richtlinien Konformitäts Aufzeichnung werden mithilfe von [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) verwaltet und können für jede Organisation auf Mandanten-, pro-Benutzer-und Sicherheitsgruppen Ebene angewendet werden. Weitere Informationen zu Microsoft docs für [<span class="underline">Besprechungsrichtlinien</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), [<span class="underline">Anruf Richtlinien</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) und [<span class="underline">Gruppenrichtlinien</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)finden Sie hier.
+IT-Administratoren können ermitteln, welche Benutzer aufgezeichnet werden und welche Aufzeichnung für jeden Benutzer verwendet werden soll, indem Sie Richtlinien für die Konformitäts Aufzeichnung erstellen und zuweisen. Datenschreiber werden automatisch zur Teilnahme an Unterhaltungen eingeladen, die auf der Konfiguration dieser Richtlinien basieren, wenn eine Kommunikations Interaktion stattfindet. Richtlinien für die Richtlinien Konformitäts Aufzeichnung werden mithilfe von [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) verwaltet und können für jede Organisation auf Mandanten-, pro-Benutzer-und Sicherheitsgruppen Ebene angewendet werden. Weitere Informationen zu Microsoft docs für [<span class="underline">Besprechungsrichtlinien</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), [<span class="underline">Anruf Richtlinien</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) und  [<span class="underline">Gruppenrichtlinien</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)finden Sie hier.
 
 1. Erstellen Sie eine Anwendungsinstanz in Ihrem Mandanten.
 
@@ -224,4 +222,4 @@ Diese Liste wird aktualisiert, wenn weitere Partner teilnehmen und die Zertifizi
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Wenn Sie ein Anbieter sind und versuchen, dem Zertifizierungsprogramm beizutreten, senden Sie <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@Microsoft.com</a>.
+Wenn Sie ein Anbieter sind und versuchen, dem Zertifizierungsprogramm beizutreten, senden Sie  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@Microsoft.com</a>.
