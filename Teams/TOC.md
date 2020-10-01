@@ -281,7 +281,7 @@
 
 # VoIP – Telefonsystem und PSTN-Konnektivität 
 
-## [Planen der Bereitstellung](cloud-voice-landing-page.md)
+## [Planen der Voice-Lösung ihrer Teams](cloud-voice-landing-page.md)
 
 ## Telefonsystem
 ### [Was ist das Telefonsystem?](what-is-phone-system-in-office-365.md)
