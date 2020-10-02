@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220154"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48337594"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -175,7 +175,7 @@ Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter**.
 
 Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer Dial-by-Name oder Dial-by-Extension verwendet. Der Standardwert **aller Online Benutzer** umfasst alle Benutzer in Ihrer Organisation, die Online Benutzer mit einer Telefon System Lizenz sind oder lokal mit Skype for Business Server gehostet werden.
 
-Sie können bestimmte Benutzer einbeziehen oder ausschließen, indem Sie unter **einbeziehen** oder **ausschließen** eine **benutzerdefinierte Benutzergruppe** auswählen und eine oder mehrere Microsoft 365-Gruppen,-Verteilerlisten oder-Sicherheitsgruppen auswählen. So können Sie beispielsweise Führungskräfte in Ihrer Organisation aus dem Wähl Verzeichnis ausschließen.
+Sie können bestimmte Benutzer einbeziehen oder ausschließen, indem Sie unter **einbeziehen** oder **ausschließen** eine **benutzerdefinierte Benutzergruppe** auswählen und eine oder mehrere Microsoft 365-Gruppen,-Verteilerlisten oder-Sicherheitsgruppen auswählen. So können Sie beispielsweise Führungskräfte in Ihrer Organisation aus dem Wähl Verzeichnis ausschließen. (Wenn sich ein Benutzer in beiden Listen befindet, wird er aus dem Verzeichnis ausgeschlossen.)
 
 > [!NOTE]
 > Es kann bis zu 36 Stunden dauern, bis der Name des neuen Benutzers im Verzeichnis aufgeführt ist.

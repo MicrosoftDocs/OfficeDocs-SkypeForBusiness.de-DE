@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b79a9c0ed52ff205f81da8d859cfc9ceaacadd1b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 55d683c25ec0a5d83bbcf87a2e6df5031ec822f9
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581556"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333255"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -34,45 +34,46 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 
 | Komponente | Anforderung |
 |---------|---------|
-|Computer und Prozessor    | Mindestens 1,6 GHz (oder höher) (32-Bit oder 64-Bit).        |
-|Arbeitsspeicher     |    2,0 GB RAM     |
+|Computer und Prozessor    | Mindestens 1,6 GHz (oder höher), 2 Core        |
+|Arbeitsspeicher     |    4,0 GB Arbeitsspeicher     |
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
-|Grafikhardware |  Mindestens 128 MB Grafikspeicher
-|Betriebssystem  |    Windows Server 2012 R2 +, Windows 10 oder Windows 8,1 in 32-Bit und 64-Bit. Für eine optimale Benutzererfahrung verwenden Sie die jeweils neueste Version Ihres Betriebssystems.|
+|Grafikhardware |  Windows-Betriebssystem: die Grafikhardwarebeschleunigung erfordert DirectX 9 oder höher, mit WDDM 2,0 oder höher für Windows 10 (oder WDDM 1,3 oder höher für Windows 10 Fall Creators Update).
+|Betriebssystem  |    Windows 10, Windows 8,1, Windows Server 2019, Windows Server 2016|
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
-|Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    | 
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden. </li><li>Die optionalen **Hintergrund-Videoeffekte** werden auf Prozessoren nicht unterstützt, ohne dass ein AVX2-Befehlssatz auf Windows 8,1 oder niedriger ausgeführt wird.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe von Proximity Detection in einem Microsoft Teams-Raum ist Bluetooth LE erforderlich, wodurch Bluetooth auf dem Clientgerät aktiviert und für Windows-Clients der 64-Bit-Team-Client erforderlich ist. Dies ist auf 32-Bit-Teams-Clients nicht verfügbar.</li></ul> |
-|Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md). |
+|Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
+|Videoanrufe und Besprechungen|<ul><li>Erfordert 2 Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate wird ein 4-Core-Prozessor oder besser empfohlen</li> <li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Raum ist Bluetooth Le erforderlich, für die Bluetooth auf dem Clientgerät aktiviert werden muss, und für Windows-Clients ist auch der 64-Bit-Client für Teams erforderlich. Dieses Feature ist auf Clients mit 32-Bit-Teams nicht verfügbar.</li></ul> |
+|Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0-GB-RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht **unterstützten** Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Hardwareanforderungen für Teams auf einem Mac
 
 | Komponente | Anforderung |
 |---------|---------|
-|Prozessor    | Mindestens Intel-Prozessor, Core 2 Duo oder höher |
-|Arbeitsspeicher     |   2,0 GB RAM      |
+|Computer und Prozessor    | Intel Core Duo-Prozessor |
+|Arbeitsspeicher     |   4,0 GB Arbeitsspeicher      |
 |Festplatte    |   1,5 GB verfügbarer Speicherplatz      |
 |Anzeige    | Bildschirmauflösung 1280x800 oder höher    |
-|Betriebssystem  |    Mac OS X 10,11 El Capitan oder höher     |
+|Betriebssystem  |    Eine der drei neuesten Versionen von macOS. Die neuesten Versionen von macOS finden Sie [hier](https://support.apple.com/en-us/HT201260). Wenn beispielsweise eine neue Version von macOS veröffentlicht wird, werden die neue Version und die beiden unmittelbar vor ihr verwendeten Versionen zur unterstützten Version.      |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Mac OS nicht verfügbar.</li></ul> |
+|Videoanrufe und Besprechungen | <ul><li>Erfordert 2 Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate wird ein 4-Core-Prozessor oder besser empfohlen. </li><li>Die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Chatroom steht unter macOS nicht zur Verfügung.</li></ul>
+|
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Hardwareanforderungen für Teams unter Linux
 
 | Komponente | Anforderung |
 |---------|---------|
-|Computer und Prozessor    | Mindestens 1,6 GHz (oder höher) (32-Bit oder 64-Bit).        |
-|Arbeitsspeicher     |    2,0 GB RAM     |
+|Computer und Prozessor    | 1,6 GHz (oder höher) (32-Bit oder 64-Bit), 2 Core        |
+|Arbeitsspeicher     |    4,0 GB Arbeitsspeicher     |
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
-|Grafikhardware |  Mindestens 128 MB Grafikspeicher
+|Grafikhardware |  128 MB Grafikspeicher
 |Betriebssystem  | Linux-Verteilung, die DEB oder RPM installieren kann. |
 |Video    |  USB 2.0-Videokamera       |
-|Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    | 
+|Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von 1:1-Videoanrufen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 4,0 GB RAM (oder höher) zu verwenden. </li><li>Für eine bessere Nutzung von Onlinebesprechungen empfiehlt es sich, einen Computer mit einem Dual-Core-Prozessor und 8,0 GB RAM (oder höher) zu verwenden.</li><li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Erfordert 2 Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate wird ein 4-Core-Prozessor oder besser empfohlen</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
 |Unterstützte Linux-Verteilungen | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Hardwareanforderungen für Teams auf mobilen Geräten
@@ -81,20 +82,21 @@ Sie können Teams auf diesen mobilen Plattformen verwenden:
 
 - Android: kompatibel mit Android-Smartphones und-Tablets.
 
-  Der Support ist auf die letzten vier Hauptversionen von Android begrenzt. Wenn eine neue Hauptversion von Android veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
+  Der Support ist auf die **letzten vier** Hauptversionen von Android limitiert. Wenn beispielsweise eine neue Hauptversion von Android veröffentlicht wird, ist die Android-Anforderung die neue Version und die drei neuesten Versionen, die Ihr vorangestellt sind.
 
 - iOS: kompatibel mit iPhone, iPad und iPod Touch.
 
-  Der Support ist auf die beiden neuesten Hauptversionen von iOS beschränkt. Wenn eine neue Hauptversion von iOS veröffentlicht wird, werden die neue und die vorherige Version offiziell unterstützt.
-  Der optionale Blur-Effekt " **mein Hintergrund** Video" für IOS erfordert ein Betriebssystem von IOS 12 oder höher und ist mit den folgenden Geräten kompatibel: iPhone 7 oder höher, iPad 2018 (sechste Generation) oder höher und iPod Touch 2019 (7. Generation).
+  Der Support ist auf die **beiden** neuesten Hauptversionen von IOS limitiert. Wenn beispielsweise eine neue Hauptversion von IOS veröffentlicht wird, ist die IOS-Anforderung die neue Version und die neuesten Versionen, die ihr vorausgegangen sind. Der optionale Blur-Effekt " **mein Hintergrund** Video" für IOS erfordert ein Betriebssystem von IOS 12 oder höher, das mit den folgenden Geräten kompatibel ist: iPhone 7 oder höher, iPad 2018 (sechste Generation) oder höher und iPod Touch 2019 (7. Generation).
 
-Für eine optimale Benutzererfahrung verwenden Sie die jeweils neueste Version von iOS und Android.
+> [!Note]
+> Für eine optimale Benutzererfahrung verwenden Sie die jeweils neueste Version von iOS und Android.
 
 ## <a name="hardware-requirements-for-teams-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Hardwareanforderungen für Teams in einer VDI-Umgebung (Virtual Desktop Infrastructure)
 
 Die Anforderungen für die Ausführung von Teams in einer virtualisierten Umgebung finden Sie unter [Teams für virtualisierte Desktop-Infrastruktur](teams-for-vdi.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
+
 - [Holen Sie sich Teams-Apps](get-clients.md)
 - [Microsoft Teams auf mobilen Geräten](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installieren der Microsoft Teams-App mithilfe von MSI](msi-deployment.md)

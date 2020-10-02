@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308168"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337014"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Verwenden von ndi®-Technologie in Microsoft Teams
 
@@ -50,7 +49,7 @@ Wenn ein Benutzer einer Besprechung Beitritt, wird eine Meldung angezeigt, die S
 
 Die folgende Abbildung zeigt die Banner Nachricht, die ein Benutzer in einer Teams-Besprechung sieht.
 
-![Ein Bild des ndi® Technology-Banners, das in einer Teams-Besprechung angezeigt wird.](media/NDI-disclosure.png)
+![er ndi® Technology-Banner, das in einer Teams-Besprechung angezeigt wird.](media/NDI-disclosure.png)
 
 Das Banner enthält einen Link zu den [Microsoft-Datenschutzrichtlinien](https://aka.ms/teamsprivacy).
 
@@ -60,7 +59,7 @@ NDI®-Technologie wird in allen Gebietsschemas unterstützt. Die folgenden Benut
 
 - In-Tenant – vollständige Unterstützung, bereitgestellt basierend auf Ring/Mandanten-ID/UserID (gesteuert durch die Richtlinien für Besprechungen)
 - Federated – kein Datenstrom Zugriff (auch wenn Sie über ndi® Technologie verfügen)<sup>1</sup>
-- Freemium-kein Datenstrom Zugriff
+- Premium – kein Datenstrom Zugriff
 - Anonym – kein Datenstrom Zugriff
 - Gast – kein Datenstrom Zugriff  
 
