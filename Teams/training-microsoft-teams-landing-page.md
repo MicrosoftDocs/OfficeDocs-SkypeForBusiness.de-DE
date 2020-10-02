@@ -3,8 +3,8 @@ title: Microsoft Teams-Administratorschulung
 ms.reviewer: ''
 description: Verwenden Sie diese kursleitergeführten Schulungsressourcen für Endbenutzer und Administratoren, um Microsoft Teams in Ihrer Organisation optimal zu nutzen.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656336"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336974"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656336"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams-Liveschulung](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Von Microsoft gehostete, kostenlose Live-Onlineschulungskurse, die Sie auf Teams vorbereiten. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams-Online-Schulung](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Verwenden Sie diese Schulungsressourcen zum selbstbestimmten Lernen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen. |
 
-## <a name="dont-miss-this-key-training"></a>Lassen Sie sich diese wichtige Schulung nicht entgehen
+## <a name="dont-miss-these-key-training-offerings"></a>Diese wichtigen Schulungsangebote nicht verpassen
 
 Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin, damit Sie immer über die neuesten, coolsten und wichtigsten Teams-Schulungen Bescheid wissen.
 
@@ -51,7 +51,7 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
    :::column-end:::
 
    :::column:::
-   **[Teamarbeit](https://aka.ms/edx-cld267x-about)** </br>
+   **[Teamarbeit](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    Kurs: Die Zusammenarbeit in Teams
 
    :::column-end:::
