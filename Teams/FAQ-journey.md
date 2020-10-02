@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc99ac35344ff0628ec16c474d849320cf931afe
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597000"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320900"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
@@ -167,14 +167,8 @@ Wie bei der Skype for Business-Verwaltungskonsole ist das [Microsoft Teams Admin
 **Kann ich Microsoft Teams auf einem Surface Hub verwenden?**<br>
 Microsoft Teams-Besprechungen sind jetzt auf Surface Hub-Geräten mit Anruf- und Besprechungsfunktionen verfügbar. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams für Surface Hub](https://docs.microsoft.com/microsoftteams/teams-surface-hub).
 
-**Werden die aktuellen 3PIP-Mobiltelefone von Drittanbietern weiterhin mit Microsoft Teams zusammenarbeiten? Und wenn ja, wie lange?**<br>
-Nach Einstellung von Skype for Business Online am 31. Juli 2021 können Benutzer mit 3PIP-Geräten, die nur zu Microsoft Teams migriert wurden, ihre 3PIP-Geräte mit einer begrenzten Anzahl von Funktionen bis zum 31. Juli 2023 weiterhin verwenden.
+**Funktionieren aktuelle IP-Telefone (3PIP) von Drittanbietern weiterhin mit Microsoft Teams? Wie sieht es mit SIP-Mobiltelefonen von Drittanbietern aus?**<br>
+Die Verwendung vorhandener Hardware kann zu erheblichen Kosteneinsparungen führen, wenn auf ein neues Telefonsystem umgestellt wird. Microsoft hat den Support für Skype for Business-Telefone (3PIP) über 2023 hinaus erweitert, sodass Sie Ihre vorhandenen Skype for Business-Telefone weiterhin verwenden können, während Sie zu Teams wechseln. Darüber hinaus unterstützt Teams, beginnend in der ersten Hälfte von 2021, die wichtigsten Anruffunktionen für SIP-Smartphones von Cisco, Yealink, Polycom und anderen.
 
 **Funktionieren zertifizierte Skype for Business Online-Telefone mit Microsoft Teams?**<br>
 Antworten auf alle Fragen zur Telefonkompatibilität finden Sie im [Blog zu zertifizierten Skype for Business Online-Telefonen und zur Bedeutung für Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309).
-
-
-
-
-
-
