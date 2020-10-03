@@ -19,20 +19,21 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48170959"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346196"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Erste Schritte mit Administratorschulungen für Microsoft Teams
 
 Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren, andere zu unterrichten oder Workshops zu veranstalten. Hier finden Sie häufig neue Inhalte.
 
-|               |               |               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Ein Symbol, das eine Hand und einen Aufwärtspfeil darstellt](media/get-started-blue-small.svg)  | [Schneller Einstieg mit einigen Teams und Kanälen](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Ein Symbol mit einem Häkchen](media/success-small.svg)  | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Ein Symbol, das zwei Benutzer darstellt](media/users-people-small.svg)  | [Schulung für Ihre Benutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![Symbol "Aufgaben Zwischenablage"](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams in 30: eine Schulungsreihe für IT-Administratoren und Change Management-Leiter zur Implementierung von Teams in 30 Tagen](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+| ![Ein Symbol, das eine Hand und einen Aufwärtspfeil darstellt](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Schneller Einstieg mit einigen Teams und Kanälen](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Ein Symbol, das zwei Benutzer darstellt](https://docs.microsoft.com/office/media/icons/users-people.png) | [Schulung für Ihre Benutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![Ein Symbol mit einem Häkchen](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbol "Aufgaben Zwischenablage"](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams in 30: eine Schulungsreihe für IT-Administratoren und Change Management-Leiter zur Implementierung von Teams in 30 Tagen](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>Technische Schulung</h2>
 
@@ -73,7 +74,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 | Titel                                                                       | Abstrakt                                                                                                                                                                                                               |  Link zum Leitfaden                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Identität, Zugriffsverwaltung & Bedrohungsschutz für Teams                   | Erfahren Sie, wie Sie mithilfe von Microsoft Admin Center und PowersShell Zugriffs-und Identitätsrichtlinien konfigurieren und Office 365 Advanced Threat Protection für Teams aktivieren können.                                                            | [Sicherheitsleitfaden für Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Identität, Zugriffsverwaltung & Bedrohungsschutz für Teams                   | Erfahren Sie, wie Sie mithilfe von Microsoft Admin Center und PowerShell Zugriffs-und Identitätsrichtlinien konfigurieren und Office 365 Advanced Threat Protection für Teams aktivieren können.                                                            | [Sicherheitsleitfaden für Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
 | Verwalten der Compliance in Microsoft Teams                                                | Verwenden Sie die Microsoft 365-Sicherheits-, Microsoft 365-Compliance-und Microsoft Teams-Admin Center sowie Windows PowerShell zum Verwalten und Konfigurieren der Microsoft Teams-Richtlinien und-Einstellungen einer Office 365-Organisation. | [Verwalten der Compliance im Leitfaden für Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Advisor: Bereitstellen von Chats, Teams, Kanälen und apps in Microsoft Teams | Erfahren Sie, wie Sie den Berater für Teams nutzen können, um Ihre Umgebung zu bewerten und einen Plan für die Bereitstellung von Chats, Teams, Kanälen und apps zu erstellen.                                                                                         |  [Leitfaden für Teams-Ratgeber](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Rationalisieren der Team Verwaltung mit PowerShell und dynamischen Gruppen        | Konvertieren Sie eine Office 365-Gruppe aus der statischen Mitgliedschaft in Dynamic, und verwenden Sie Windows PowerShell, um allen Mitgliedern eine neue APP-Berechtigungsrichtlinie zuzuweisen.                                                                         |  [Leitfaden zur Vereinfachung der Team Verwaltung](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -83,7 +84,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Konfigurieren von Governance in Microsoft Teams                                     | Erfahren Sie, wie Sie eine Gruppen-Nachrichten Aufbewahrungsrichtlinie für Ihre Organisation erstellen und wie Sie einzelne Teams archivieren, löschen und wiederherstellen.                                                                                   |  [Konfigurieren der Governance im Microsoft Teams-Leitfaden](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungen                          | Führen Sie die Schritte zum Bereitstellen der Arbeitsauslastung von Besprechungen für Microsoft Teams durch.                                                                                                                                       |  [Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungs Leit Faden](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Konfigurieren von Audiokonferenzen für Microsoft Teams                            | Entdecken Sie die Funktionen von Audiokonferenzen in Teams, und erfahren Sie, wie Sie Konferenz Brücken und Einwahl Telefonnummern zuweisen.                                                                                          |  [Leitfaden zum Konfigurieren von Audiokonferenzen für Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Konfigurieren von Microsoft Teams für Fisrtline Worker                           | Hier erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre First-Workforce-Mitarbeiter konfigurieren und bereitstellen.                                                                                                                  | [Konfigurieren von Microsoft Teams für First-work-Leitfaden](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Konfigurieren von Microsoft Teams für First-work-Mitarbeiter                           | Hier erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre First-Workforce-Mitarbeiter konfigurieren und bereitstellen.                                                                                                                  | [Konfigurieren von Microsoft Teams für First-work-Leitfaden](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>Schnellstarthandbücher</h2>
 
@@ -98,5 +99,5 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <h2>Kurse</h2>
 
-- [Die Zusammenarbeit in Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Die Zusammenarbeit in Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
 - [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)

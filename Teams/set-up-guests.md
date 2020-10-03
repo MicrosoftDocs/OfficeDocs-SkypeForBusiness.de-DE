@@ -9,24 +9,25 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie das Feature "Gastzugriff" in Microsoft Teams als Office 365-Administrator aktivieren oder deaktivieren.
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+description: Hier erfahren Sie, wie Sie das Feature "Gastzugriff" in Microsoft Teams als Office 365-Administrator aktivieren oder deaktivieren.
+ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333245"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346326"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 
-Der Gastzugriff ist standardmäßig deaktiviert. Als Microsoft 365-oder Office 365-Administrator müssen Sie den Gastzugriff für Teams aktivieren, bevor die Administratoren oder Teambesitzer Gäste hinzufügen können.
+Der Gastzugriff ist standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können.
 
 Nachdem Sie den Gastzugriff aktiviert haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder der Gastzugriff nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind.
 
@@ -35,7 +36,7 @@ Nachdem Sie den Gastzugriff aktiviert haben, kann es einige Stunden dauern, bis 
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Konfigurieren des Gastzugriffs im Team Admin Center
 
-1. Melden Sie sich beim Admin Center für Microsoft Teams an.
+1. Anmelden beim [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
 2. Wählen Sie **Organisationsweite Einstellungen** > **Gastzugriff** aus.
 
@@ -63,6 +64,8 @@ Nachdem Sie den Gastzugriff aktiviert haben, kann es einige Stunden dauern, bis 
       - **Memes in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Memes in Unterhaltungen zu ermöglichen.
       - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen. 
 
+    ![Einstellungen von Gastberechtigungen in Teams](media/manage-guest-access-image1.png)
+
 5. Klicken Sie auf **Speichern**.
 
 ## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Partnerverbund) und Gastzugriff im Vergleich
@@ -70,6 +73,8 @@ Nachdem Sie den Gastzugriff aktiviert haben, kann es einige Stunden dauern, bis 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="see-also"></a>Weitere Informationen
+
+[Einrichten einer sicheren Zusammenarbeit mit Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [Sperren von Gastbenutzern aus einem bestimmten Team](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 

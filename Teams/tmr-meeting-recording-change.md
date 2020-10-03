@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269639"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346336"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -126,3 +126,7 @@ Teams, die Dateien aufzeichnen, Leben in OneDrive for Business und SharePoint un
 **Wie kann ich eine Besprechungsaufzeichnung für Teams wiedergeben?**
 
 Ihr Video wird auf dem Video Player von OneDrive for Business oder SharePoint wiedergegeben, je nachdem, wo Sie auf die Datei zugreifen.
+
+**Wenn Sie beabsichtigen, das Hinzufügen zu Datenstrom zu verwerfen, bleiben die vorhandenen Videos unverändert und für wie lange?**
+
+Stream als Plattform wird in naher Zukunft nicht mehr als veraltet markiert. Die Videos, die aktuell in Stream vorhanden sind, bleiben dort, bis wir mit der Migration beginnen. Bei der Migration werden diese Videos ebenfalls nach ODSP migriert. Weitere Informationen finden Sie [hier](https://docs.microsoft.com/stream/streamnew/classic-migration) .

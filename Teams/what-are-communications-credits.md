@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Informieren Sie sich, welche Kommunikationsguthaben (PSTN-Verbrauch) Abrechnung, wie Sie Gebühren finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: 2be427ad418bda694f979ca92bb1ff3acfbc1997
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 11777ccfd8ed3aa6cbfca14c2c8a507373230425
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788359"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341089"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -59,7 +59,7 @@ Wenn Sie sich Fragen, wie sich die Kosten für die Anrufe auf die Anrufpläne au
 Für die Verwendung von gebührenfreien Telefonnummern in Skype for Business ist Guthaben für Kommunikationen erforderlich, da diese Anrufe nach Minuten abgerechnet werden. Außerdem empfehlen wir, Guthaben für Kommunikationen für Benutzer von Anrufplänen und Audiokonferenzen einzurichten, die in der Lage sein sollen, **beliebige PSTN-Ziele** anzurufen. Viele Länder und Regionen sind enthalten, aber einige Ziele sind möglicherweise in Ihren Abonnements für Anrufpläne oder Audiokonferenzen nicht enthalten. Wenn Sie nicht Guthaben für Kommunikationen einrichten oder Ihren Benutzern eine Lizenz zuweisen und dann alle Minuten für Ihre Organisation aufgebraucht sind (abhängig von Ihrem Anrufplan, Ihrem Audiokonferenzplan oder von dem Land bzw. der Region), können diese Benutzer keine allgemeinen Anrufe tätigen und nicht aus Online-Audiokonferenzbesprechungen anrufen.
   
 > [!NOTE]
-> Sie müssen Kommunikationsguthaben einrichten und dann für jeden Benutzer in den **Microsoft 365 Admin Center**-  >  **Benutzern**  >  **aktive**Benutzer eine Lizenz für Kommunikations Kredite zuweisen. 
+> Sie müssen Kommunikationsguthaben einrichten und dann für jeden Benutzer in den **Microsoft 365 Admin Center**-  >  **Benutzern**  >  **aktive**Benutzer eine Lizenz für Kommunikations Kredite zuweisen. Communications Credits-Lizenzen werden in der Anzahl als unbegrenzt angezeigt, da Sie verwendet werden, um den Zugriff auf das Guthaben für Kommunikationsguthaben für jeden Nutzer zu gewähren, dem Sie die Lizenz für Communications-Guthaben zuweisen.
   
 Es wird empfohlen, die Verwendung des PSTN-Diensts in Ihrer Organisation sorgfältig zu bewerten, um die beste Einrichtung für Kommunikationsguthaben zu verstehen. Weitere Informationen zu PSTN-Diensten finden Sie unter Lesen von [Telefon System-und Anrufplänen](calling-plan-landing-page.md) sowie [häufig gestellte Fragen zu Audiokonferenzen](Audio-Conferencing-common-questions.md).
   
@@ -68,7 +68,7 @@ Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung*
 > [!NOTE]
 > Sie können sich die Pläne und Preise ansehen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs**  >  **Abonnements**Abonnements  >  **Hinzufügen**wechseln. 
   
-Im **Microsoft 365 Admin Center**  >  **Billing**  >  **Purchase Services**-  >  **Add-ons** können Sie Kommunikationsguthaben auswählen, um die Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option für automatisches **aufladen** aktivieren, die automatische Kontoauffüllung zulässt, wenn der Saldo unter den festgelegten Grenzwert fällt. Wenn Sie sich entscheiden, Ihr Guthaben für Kommunikationsguthaben mit einem einmaligen Betrag zu finanzieren, und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, darunter gebührenfreie Telefonnummern. Daher empfiehlt es sich, dass Sie die Einstellung für das **Automatische aufladen** verwenden, um eine Unterbrechung des Service zu vermeiden, wenn Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht. Sie erhalten eine e-Mail-Nachricht, wenn das Aufladen von Transaktionen erfolgreich ist, das Aufladen von Transaktionen fehlschlägt (wie eine abgelaufene Kreditkarte) und oder Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht.
+Im **Microsoft 365 Admin Center**  >  **Billing**  >  **Purchase Services**-  >  **Add-ons** können Sie Kommunikationsguthaben auswählen, um die Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option für automatisches **aufladen** aktivieren, die automatische Kontoauffüllung zulässt, wenn der Saldo unter den festgelegten Grenzwert fällt. Wenn Sie sich entscheiden, Ihr Guthaben für Kommunikationsguthaben mit einem einmaligen Betrag zu finanzieren, und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, darunter gebührenfreie Telefonnummern. Daher empfiehlt es sich, dass Sie die Einstellung für das **Automatische aufladen** verwenden, um eine Unterbrechung des Service zu vermeiden, wenn Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht. Sie werden e-Mails an alle Benutzer mit globalen, Abrechnungs-und Team-Administratorrollen, beim erfolgreichen Aufladen von Transaktionen, beim Aufladen von Transaktionen (wie einer abgelaufenen Kreditkarte) und dem Guthaben Ihres Kommunikations Guthabens von 0 (null) erhalten. Sie können auch den Guthabenstand Ihrer aktuellen Kommunikationsguthaben anzeigen, indem Sie zur **Abrechnung**  >  **ihrer**  >  **Kommunikationsguthaben**für Ihre Produkte wechseln.
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

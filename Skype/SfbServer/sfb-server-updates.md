@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und Verwalten von Updates für Skype for Business Server 2015/2019 und lync 2013 an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
-ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: a6b93c7b0428073e9a13808fae1515b2e1c0b344
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814314"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341029"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server-Updates
 
@@ -32,6 +32,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
+|Kumuliertes Update für Skype for Business Server 2019 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2020 |
 |Skype for Business Server 2019 Kumulatives Update 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juli 2020 |
 |Skype for Business Server 2019 Kumulatives Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| März 2020 |
 |Skype for Business Server 2019 Kumulatives Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Dezember 2019 |
@@ -244,7 +245,7 @@ Paket Name/Link|Veröffentlichungsdatum|
 
 Besuchen Sie die [Microsoft lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/details.aspx?id=22644) -Download Website, um Buchkapitel einzeln herunterzuladen, oder laden Sie eine ZIP-Datei herunter, [die alle 19 Kapitel des Resource Kits](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)enthält.
 
-### <a name="group-chat"></a>Gruppenchat
+### <a name="group-chat"></a>Group Chat
 
 Paket Name/Link|Veröffentlichungsdatum|
 |:--- |:--- |

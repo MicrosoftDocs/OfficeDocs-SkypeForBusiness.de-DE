@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55d683c25ec0a5d83bbcf87a2e6df5031ec822f9
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: ff7a65127d94882c73b6bf85ff2a01e168f2da4a
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333255"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341009"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -43,7 +43,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
-|Videoanrufe und Besprechungen|<ul><li>Erfordert 2 Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate wird ein 4-Core-Prozessor oder besser empfohlen</li> <li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Raum ist Bluetooth Le erforderlich, für die Bluetooth auf dem Clientgerät aktiviert werden muss, und für Windows-Clients ist auch der 64-Bit-Client für Teams erforderlich. Dieses Feature ist auf Clients mit 32-Bit-Teams nicht verfügbar.</li></ul> |
+|Videoanrufe und Besprechungen|<ul><li>Erfordert 2-Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate empfiehlt sich ein 4-Core-Prozessor oder besser.</li> <li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Raum ist Bluetooth Le erforderlich, für die Bluetooth auf dem Clientgerät aktiviert werden muss, und für Windows-Clients ist auch der 64-Bit-Client für Teams erforderlich. Dieses Feature ist auf Clients mit 32-Bit-Teams nicht verfügbar.</li></ul> |
 |Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0-GB-RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht **unterstützten** Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Hardwareanforderungen für Teams auf einem Mac
@@ -57,7 +57,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Betriebssystem  |    Eine der drei neuesten Versionen von macOS. Die neuesten Versionen von macOS finden Sie [hier](https://support.apple.com/en-us/HT201260). Wenn beispielsweise eine neue Version von macOS veröffentlicht wird, werden die neue Version und die beiden unmittelbar vor ihr verwendeten Versionen zur unterstützten Version.      |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Erfordert 2 Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate wird ein 4-Core-Prozessor oder besser empfohlen. </li><li>Die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Chatroom steht unter macOS nicht zur Verfügung.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Erfordert 2-Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate empfiehlt sich ein 4-Core-Prozessor oder besser. </li><li>Die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Chatroom steht unter macOS nicht zur Verfügung.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Hardwareanforderungen für Teams unter Linux
@@ -73,7 +73,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Erfordert 2 Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate wird ein 4-Core-Prozessor oder besser empfohlen</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Erfordert 2-Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate empfiehlt sich ein 4-Core-Prozessor oder besser.</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
 |Unterstützte Linux-Verteilungen | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Hardwareanforderungen für Teams auf mobilen Geräten
