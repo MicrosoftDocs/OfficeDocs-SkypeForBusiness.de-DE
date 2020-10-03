@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308198"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333265"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -119,7 +119,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 >- Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
 >- Bis zu 16 Stunden pro Sendung
 >
-> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmer über das Microsoft Liveereignis-Hilfsprogramm geplant werden. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
+> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
 
 
 |Feature     | Obergrenze |
