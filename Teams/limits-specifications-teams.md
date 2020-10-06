@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333265"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361645"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -34,8 +34,8 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Feature    | Obergrenze |
 |-----------|---------------|
 |Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
-|Anzahl von Teams, in denen ein Benutzer Mitglied sein kann|1.000|
-|Anzahl der Mitglieder in einem Team | 10.000       |
+|Anzahl von Teams, in denen ein Benutzer Mitglied sein kann|1 000&sup2;|
+|Anzahl von Mitgliedern in einem Team | 10.000       |
 |Anzahl von Besitzern pro Team | 100   |
 |Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5     |
 |Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 5.000       |
@@ -49,7 +49,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 <sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgeschlossen.
 
-<sup>2</sup> Diese Beschränkung umfasst archivierte Teams.
+<sup>2</sup> Diese Beschränkung umfasst archivierte Teams. Wenn Sie den Grenzwert überschreiten möchten, müssen Sie sich an den Microsoft-Support wenden.
 
 <sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das 200-Kanallimit pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das 200-Kanallimit pro Team eingerechnet.
 
