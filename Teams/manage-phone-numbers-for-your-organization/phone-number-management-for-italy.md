@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Italien für Microsoft Teams zu finden.
-ms.openlocfilehash: 5a58e87f0e9ad53c541137ebe3366a49b6e27661
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: ea667b2211b221153ae5c66db1e87708f2e9cac4
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324081"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361705"
 ---
 # <a name="phone-number-management-for-italy"></a>Verwaltung von Telefonnummern für Italien
 
@@ -34,7 +34,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Dieses Formular herunterladen. <br>  [Neue Telefonnummern Anfrage für Italien (v. 5.0) (IT-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). |
+|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br>  [Neue Telefonnummern Anfrage für Italien (v. 5.0) (IT-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [Neue Telefonnummern Anfrage für Italien (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). |
 |Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> | Dieses Formular herunterladen. <br/>[Letter of Authorization (LoA) für Italien (alle Nummern) (v. 5.0) (IT-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.5.0)-(it-it).pdf?raw=true) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |

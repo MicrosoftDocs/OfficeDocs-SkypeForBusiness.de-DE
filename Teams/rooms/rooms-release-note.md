@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328224"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361495"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -74,6 +74,10 @@ In diesem Update eingeführt:
 - Anzeigen weiterer Videos mit 3X3-Video Katalog auf der Vorderseite der Raum anzeigen  
 - Starten von lokalen Live-Untertiteln von MTR 
 - Teilnehmen an Zoom Besprechungen aus TeamRooms mit direkter Gast Teilnahme (Preview)
+
+> [!NOTE]
+> 3X3-Video Galerie und lokale Live-Untertitel werden über den Microsoft Teams-Dienst bereitgestellt. Diese Funktionen stehen für alle Teams in den Räumen mit Anwendungsversion 4.5.37.0 und höher zur Verfügung. 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

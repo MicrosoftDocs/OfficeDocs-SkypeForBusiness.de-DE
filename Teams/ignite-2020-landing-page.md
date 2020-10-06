@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
+ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209484"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357603"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams-Sitzungen bei Ignite 2020
 
@@ -40,9 +40,9 @@ ms.locfileid: "48209484"
 |---|----------|---|---|---|
 |[Innovation in Teams-Besprechungen und-Geräten mit Intelligenz](https://aka.ms/PR104) |Wir arbeiten ständig daran, Besprechungen zu erneuern und neu zu erstellen. Besuchen Sie uns, um zu erfahren, wie wir kontinuierlich mehr Intelligenz in Besprechungen und unsere neueste Innovation in Geräten bringen, die Intelligenz zum Leben erwecken.  |200|Shalendra Chhabra|
 |[Erweiterte Anruffunktionen](https://aka.ms/OD265)|Gehen Sie tiefer mit anrufen, während wir die neue Anruf Erfahrung erforschen, weitere Informationen zu Collaborative Calling, E911, Location Based Routing und anderen Funktionen. Erfahren Sie, wie Anrufe für Ihre erweiterten Szenarien bereit stehen, unabhängig von der Größe Ihres Unternehmens. |200|Alan Xie, Roy Kuntz|
-|[Microsoft Teams-Geräte für freigegebene Speicherorte](https://aka.ms/OD261) |Microsoft Teams-Geräte wurden entwickelt, um Personen zu helfen, die Leistungsfähigkeit von Teams zu maximieren und den Abstand zwischen Remote-und freigegebenen Arbeitsbereichen zu überwinden. Durch eine Kombination aus Teams-Besprechungsfunktionen, kundenorientierten Raumerfahrungen und branchenführender Hardware profitieren Benutzer von reibungslosen, integrativen und interaktiven Besprechungen, unabhängig davon, ob Sie an einem Remotestandort oder im Besprechungsraum teilnehmen. Erfahren Sie, wie freigegebene Speichergeräte wie Microsoft Teams-Chatrooms, Zusammenarbeits leisten und Surface Hub ihren Teams helfen können, in Verbindung mit dem Hybriden Arbeitsplatz zu bleiben.|200|Greg Baribault, Kendra Baker, Sandhya Shahdeo|
+|[Microsoft Teams-Geräte für freigegebene Speicherorte](https://aka.ms/OD261) |Microsoft Teams-Geräte wurden entwickelt, um Personen zu helfen, die Leistungsfähigkeit von Teams zu maximieren und den Abstand zwischen Remote-und freigegebenen Arbeitsbereichen zu überwinden. Durch eine Kombination aus Teams-Besprechungsfunktionen, kundenorientierten Raumerfahrungen und branchenführender Hardware profitieren Benutzer von reibungslosen, integrativen und interaktiven Besprechungen, unabhängig davon, ob Sie an einem Remotestandort oder im Besprechungsraum teilnehmen. Erfahren Sie, wie freigegebene Speichergeräte wie Microsoft Teams-Chatrooms, Zusammenarbeits leisten und Surface Hub ihren Teams helfen können, in Verbindung mit dem Hybriden Arbeitsplatz zu bleiben.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
 |[In Skype for Business? Entwerfen Ihres Pfads zu Microsoft Teams](https://aka.ms/OD251)|Nehmen Sie an dieser Sitzung Teil, um den am besten geeigneten Ansatz basierend auf Ihren aktuellen Skype for Business-Implementierungs-und Unternehmenszielen zu ermitteln. Unabhängig davon, ob Sie ein Skype for Business Online-oder Server-Kunde sind, werden wir bewährte Methoden, Ressourcen und Anleitungen austauschen, um Microsoft Teams noch heute zu erreichen. |200|Lisa McKee, Laszlo Somi
-|[Moderne Innovationen in Teams Personal Devices](https://aka.ms/PR108)  |Kunden suchen nach den richtigen persönlichen Geräten für Teams, vor allem, wenn viele ihrer Mitarbeiter Remote arbeiten. Besuchen Sie uns und erfahren Sie mehr über neue Innovationen in den Teams Personal Devices, unsere Dynamik bei Funktionen und zertifizierten Geräten und unsere bewährten Methoden für Remote-Arbeit. |200|Sandhya Rao, Arash Ghanaje-Sichanie|
+|[Moderne Innovationen in Teams Personal Devices](https://aka.ms/PR108)  |Kunden suchen nach den richtigen persönlichen Geräten für Teams, vor allem, wenn viele ihrer Mitarbeiter Remote arbeiten. Besuchen Sie uns und erfahren Sie mehr über neue Innovationen in den Teams Personal Devices, unsere Dynamik bei Funktionen und zertifizierten Geräten und unsere bewährten Methoden für Remote-Arbeit. |200|Sandhya Rao, Arash ghanaie-Sichanie, Kruthika Ponnusamy|
 |[Master virtueller Breakout Rooms in Microsoft Teams-Besprechungen](https://aka.ms/PR109) |Besuchen Sie uns und erfahren Sie mehr über die neuesten Innovationen mit virtuellen Breakout-Rooms in Teams. In dieser Sitzung werden Anwendungsfälle und bewährte Methoden zur Vereinfachung von Ideen für kleine Gruppen, Brainstorming, lernen und Diskussionen mit virtuellen Breakout-Rooms unterstrichen. |200|James Skay, Nakul Madaan|
 |[Mit den Steuerelementen für Besprechungen und Videokonferenzen können Sie Ihre Teams sicher und umfassend treffen](https://aka.ms/PR110) |Nehmen Sie an dieser Sitzung Teil, um mehr über Besprechungs Sicherheit, Sicherheit und Moderation zu erfahren – einschließlich der Möglichkeit, alle Teilnehmer stummzuschalten, Funktionalitäten zu sprechen und Breakout Rooms zu konfigurieren. Wir werden auch Funktionen wie Reaktionen und angehobene Hände abdecken, die dazu beitragen, Besprechungen umfassender zu gestalten.|200|Nakul Madaan, Rajiv Ramaiah|
 |[Microsoft Teams-Anrufe und Besprechungen als Plattform](https://aka.ms/PR111) |Erfahren Sie mehr über die Funktionen für die Anruf-und Besprechungs Plattform von Teams mit Updates für Microsoft Graph Cloud Communications-APIs, Contact Center und Compliance-Aufzeichnung sowie über kommende Nachrichten in anderen Platt Form Erfahrungen. |200|Srividhya Chandrasekaran, Mansour Malik|

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in den Niederlanden für Microsoft Teams zu finden.
-ms.openlocfilehash: ab5cd7fa88b0748f2628751f95087c9eff677dfd
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 8eecaf1d99a00f386be5dea1fbc42a19f4e567a5
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324111"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361415"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Telefonnummernverwaltung für die Niederlande
 
@@ -36,7 +36,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> | Dieses Formular herunterladen.</br> [Neue Telefonnummern Anfrage für die Niederlande (v. 5.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/><br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> | Laden Sie eines dieser Formulare herunter.</br> [Neue Telefonnummern Anfrage für die Niederlande (v. 5.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/>  [Neue Telefonnummern Anfrage für die Niederlande (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
 |Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Letter of Authorization (LoA) für die Niederlande (alle Nummern) (v. 5.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.5.0)-(nl-nl).pdf?raw=true) <br/> <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |

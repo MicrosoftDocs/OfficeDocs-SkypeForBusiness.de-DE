@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: Erfahren Sie mehr über die Integration elektronischer Integritätsdaten Sätze in die Microsoft Teams patients-APP und die STU3-Schnittstellenspezifikation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bcae5b6fae3da469aaaa35b3a0494273fa8d29ba
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 1c5e19ff28c67641ac5b643e1944bf2435fbf164
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277215"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361345"
 ---
 # <a name="stu3-interface-specification"></a>Benutzeroberflächenspezifikation STU3
 
 > [!IMPORTANT]
-> **30. September, 2020, wird die APP für Patienten als veraltet markiert, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
+> **Die Patienten-APP ist ab dem 15. Oktober 2020 veraltet, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
 >
 >Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Wenn die patients-App eingestellt wird, werden alle damit verknüpften Daten in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Aktuelle Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
 >
@@ -227,7 +227,7 @@ Sehen Sie sich das folgende Beispiel des Anrufs an:
 
 * * *
 
-    Request: besorgen Sie sich <fhir-Server>/allergyintolerance? Patient =<Patienten-ID>
+    Request: besorgen Sie sich <fhir-Server>/AllergyIntolerance? Patient =<Patienten-ID>
     
     Response: {"Ressourcentyp": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressource": "AllergyIntolerance"; "ID": "<Resource-ID>"; "clinicalStatus": "aktiv"; "verificationStatus": "bestätigt"; "Code": {"Coding": [{"System": " http://rxnav.nlm.nih.gov/REST/Ndfrt ", "Code": "N0000175503"; "Display": "Sulfonamid antibakterielle",}], "Text": "Sulfonamid antibakteriell"}, "assertedDate": "2018-01-01T00:00:00-07:00"; "Reaktion": [{"Manifest": [{"Coding": [{"System": " http://snomed.info/sct "; "Code": "271807003"; "Display": "Hautausschlag",}], "Text": "Hautausschlag"}],}]}}]}
 

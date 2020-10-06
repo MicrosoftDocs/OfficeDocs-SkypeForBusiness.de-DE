@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Deutschland für Microsoft Teams zu finden.
-ms.openlocfilehash: c703152b52ec5dff8e6618b20fd03deb8798a31f
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 048d26e1ea9b86874a4839d58df357df0a6cb695
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324071"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361725"
 ---
 # <a name="phone-number-management-for-germany"></a>Telefonnummernverwaltung für Deutschland
 
@@ -35,7 +35,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.  <br/> | In Deutschland können Sie über das Microsoft Teams Admin Center keine Telefonnummern für Ihre Organisation erhalten. Sie müssen eine Anforderung für neue Telefonnummern senden. Dieses Formular herunterladen. <br/>[Neue Telefonnummern Anfrage für Deutschland (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/><br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.  <br/> | In Deutschland können Sie über das Microsoft Teams Admin Center keine Telefonnummern für Ihre Organisation erhalten. Sie müssen eine Anforderung für neue Telefonnummern senden. <br/><br/>Laden Sie eines dieser Formulare herunter. <br/>[Neue Telefonnummern Anfrage für Deutschland (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Neue Telefonnummern Anfrage für Deutschland (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
 |Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> | Laden Sie eines dieser Formulare herunter. <br/><br/> Für Benutzer-Telefonnummern:<br/>[Letter of Authorization (LoA) für Deutschland (geographische Nummern) (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf?raw=true)<br/><br/>  Für gebührenfreie Telefonnummern:<br/>[Letter of Authorization (LoA) für Deutschland (gebührenfreie Nummern) (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de).pdf?raw=true) <br/><br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |

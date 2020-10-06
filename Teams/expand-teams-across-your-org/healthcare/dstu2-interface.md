@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: Erfahren Sie mehr über die DSTU2-Schnittstellenspezifikation in Teams, einschließlich der Einrichtung oder Neukonfiguration eines FHIR-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-app.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fbbff4eda0eb1426bdf92068d95ccf00abe62a61
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 2fa5575d6d7a4cbdffec6c3396004c38e743720a
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277269"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361455"
 ---
 # <a name="dstu2-interface-specification"></a>Benutzeroberflächenspezifikation DSTU2
 
 > [!IMPORTANT]
-> **30. September, 2020, wird die APP für Patienten als veraltet markiert, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
+> **Die Patienten-APP ist ab dem 15. Oktober 2020 veraltet, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
 >
 >Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Wenn die patients-App eingestellt wird, werden alle damit verknüpften Daten in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Aktuelle Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
 >
@@ -242,7 +242,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
 * * *
 
-    Request: besorgen Sie sich <fhir-Server>/allergyintolerance? Patient =<Patienten-ID>
+    Request: besorgen Sie sich <fhir-Server>/AllergyIntolerance? Patient =<Patienten-ID>
     
     Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>"; "recordedDate": "2018-09-17T07:00:00.000 z", "Substanz": {"Text": "Cashew-Nüsse"}, "Status": "bestätigt"; "Reaktion": [{"Substanz": {"Text": "Cashew-Nuss-Allergen Extrakt injizierbares Produkt"}, "Manifestation": [{"Text": "anaphylaktischer-Reaktion"}]}]}}]}
 
@@ -274,7 +274,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
 * * *
 
-    Request: besorgen Sie sich <fhir-Server>/medicationorder? Patient =<Patient-ID>&_count = 10
+    Request: besorgen Sie sich <fhir-Server>/MedicationOrder? Patient =<Patient-ID>&_count = 10
     
     Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "MedicationOrder"; "ID": "<Resource-ID>", "dateWritten": "2018-09-17", "medicationCodeableConcept": {"Text": "Lisinopril 20 mg Oral Tablet"}, "Verschreiber": {"Anzeige": "Jane Doe"}, "dosageInstruction": [{"Text": "1 Daily"}]}}]}
 

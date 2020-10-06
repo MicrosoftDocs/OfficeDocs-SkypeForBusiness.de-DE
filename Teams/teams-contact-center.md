@@ -13,12 +13,12 @@ f1.keywords:
 description: Eine Übersicht über die integrierte Contact Center as a Service (CCaaS)-Lösung für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322284"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361465"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
@@ -38,7 +38,7 @@ Für andere Personen, die integrierte Lösungen mit Geschäftstools und Workflow
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm
 
-Die APIs, die es Partnern ermöglichen, CCaaS-Lösungen für Teams zu entwickeln und zu integrieren, stehen mit Advanced Communications-Lizenz zur Verfügung. Darüber hinaus haben wir das Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm entwickelt, um Kunden die Gewissheit zu bieten, dass die Lösung jedes teilnehmenden Partners getestet und überprüft wurde, um die Qualität, Kompatibilität und Zuverlässigkeit zu gewährleisten, die Sie von Microsoft-Lösungen erwarten.
+Die APIs ermöglichen es Partnern, CCaaS-Lösungen für Teams zu entwickeln und zu integrieren. Darüber hinaus haben wir das Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm entwickelt, um Kunden die Gewissheit zu bieten, dass die Lösung jedes teilnehmenden Partners getestet und überprüft wurde, um die Qualität, Kompatibilität und Zuverlässigkeit zu gewährleisten, die Sie von Microsoft-Lösungen erwarten.
 
 Die folgenden Partner sind dabei, Ihre Lösung für Microsoft Teams zu zertifizieren und sind bereit, Kunden zu engagieren:
 

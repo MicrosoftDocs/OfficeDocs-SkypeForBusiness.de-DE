@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346336"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361335"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -85,7 +85,7 @@ Schauen Sie sich die "Besprechungsaufzeichnung" an, um weitere Informationen zu 
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Deaktivieren von OneDrive for Business und SharePoint, um den Datenstrom weiterhin verwenden zu können
 
-Auch wenn eine Richtlinie besagt, dass Sie bereits auf **Stream**eingestellt ist, ist Sie möglicherweise nicht eingestellt. Wenn Sie auf Nothing gesetzt ist, lautet der Standardwert Stream. Wenn Sie die Deaktivierung durchführen möchten, **müssen** Sie die Richtlinie auf **Stream** zurücksetzen, um sicherzustellen, dass der Datenstrom der Standardwert ist.
+Auch wenn eine Richtlinie besagt, dass Sie auf **Stream**eingestellt ist, ist Sie möglicherweise nicht eingestellt. In der Regel ist die Standardeinstellung **Stream**, wenn die Richtlinie nicht festgelegt ist. Wenn Sie jedoch die Verwendung von SharePoint oder OneDrive deaktivieren möchten, müssen Sie die Richtlinie auf **Stream** zurücksetzen, um sicherzustellen, dass Sie die Standardeinstellung ist, wenn Sie diese neue Änderung verwenden möchten.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"

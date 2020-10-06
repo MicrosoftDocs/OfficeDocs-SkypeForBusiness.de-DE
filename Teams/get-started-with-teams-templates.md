@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294601"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361655"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Erste Schritte mit Teams-Vorlagen mit Microsoft Graph
 
@@ -73,7 +73,7 @@ Standardmäßig ist die Basisvorlage auf **Standard**festzulegen, die keine zus�
 | Bildung<br>Mitarbeiter Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps<ul><li>OneNote-Mitarbeiter Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</li></ul> |
 |Bildung<br>SPS-Team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps<ul><li>OneNote PLC-Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</ul></li>|
 | Retail<br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften<ul><li>Team Sichtbarkeit auf "öffentlich" eingestellt</li></ul>Mitglieder Berechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul> |
-| Retail<br>Manager-Zusammenarbeit | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften:<ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul>Mitglieder Berechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul>|
+| Retail<br>Manager-Zusammenarbeit | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle<ul><li>Lerntools</li><li>Vorgänge</li></ul>Team Eigenschaften:<ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul>Mitglieder Berechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul>|
 | Im Gesundheitswesen<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle <ul><li>Ankündigungen\*</li><li>Kauert\*</li><li>Runden</li><li>Personal\*</li><li>Schulungen\*</li></ul>\*Automatisch bevorzugte Kanäle |
 |Im Gesundheitswesen<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Freiheits</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatisch bevorzugter Kanal|
 |||

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 3d0534d4c0a62573bd3ac649c39b3d0f17a235f6
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766869"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361435"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -38,7 +38,7 @@ Diese Arten von Konten werden Ihrem organisationsweiten Team nicht hinzugefügt:
 
 - Konten, die zur Anmeldung gesperrt sind
 - Gastbenutzer
-- Dienstkonten
+- Ressourcen-oder Dienstkonten (beispielsweise Konten, die mit automatischen Telefonzentralen und Anrufwarteschlangen verknüpft sind)
 - Raum- oder Gerätekonten
 - Konten, die durch ein freigegebenes Postfach gesichert sind
 
