@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 877dcef8848c7e1bf05ed19c05ede5b5304bd4c8
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203958"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367675"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -67,7 +67,7 @@ Die Videoeingabe ist die Grundlage des Liveereignisses und kann von einer einzel
     ![Screenshot eines Liveereignisses, das mithilfe einer externen App oder einem externen Gerät produziert wurde](../media/teams-live-events-external-encoder.png "Screenshot eines Liveereignisses, das mithilfe der Produktionsmethode für externe Anwendungen oder Geräte produziert wird")
 
 >[!Note]
-> Die Änderung von der Verwendung von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) ist ein Phasen orientierter Ansatz. Beim Start können Sie sich für diese Erfahrung entscheiden, im November müssen Sie sich abmelden, wenn Sie den Datenstrom weiterhin verwenden möchten, und einige Zeit in frühen 2021 werden wir alle Kunden dazu auffordern, OneDrive for Business und SharePoint für neue Besprechungsaufzeichnungen zu verwenden.
+> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen.
 
 ### <a name="streaming-platform"></a>Streaming-Plattform
 Die Liveereignis-Streamingplattform besteht aus den folgenden Bestandteilen:
@@ -80,6 +80,7 @@ Das Ziel des eCDN ist, die Videoinhalte aus dem Internet zu übernehmen und sie 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
+- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### <a name="attendee-experience"></a>Teilnehmerumgebung 
 Die Erfahrung der Teilnehmer ist der wichtigste Aspekt von Liveereignissen, und es ist entscheidend, dass die Teilnehmer ohne Probleme daran teilnehmen können. Die Teilnehmerumgebung nutzt den Stream Player (für Ereignisse, die in Teams produziert werden) und den Azure Media Player (für Ereignisse, die in einer externen Anwendung oder einem externen Gerät produziert werden) und funktioniert auf dem Desktop, im Browser und auf mobilen Geräten (iOS, Android). Microsoft 365 und Office 365 bieten jammern und Teams zwei Zusammenarbeit-Hubs, und die Live-Teilnehmer-Erfahrung ist in diese Tools für die Zusammenarbeit integriert. 
