@@ -1,7 +1,7 @@
 ---
 title: Anwesenheit in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820519"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369210"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -49,22 +49,32 @@ Die Anwesenheit in Teams wird in Outlook ab der Outlook 2013-Desktop-App und hö
 | ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend| ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend|
 || ![Das Symbol "gelbe Uhr" zeigt an](media/Presence_Away.png): abwesend; zuletzt anwesend um *Zeit*|
 |![Das Symbol "gelbe Uhr" zeigt an: abwesend – bin gleich zurück](media/Presence_Away.png) Bin gleich zurück| |
-|| ![Das Symbol "gelbe Uhr" zeigt an: abwesend – nicht bei der Arbeit](media/Presence_Away.png)  Nicht bei der Arbeit|
-|| ![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline |
+|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Als offline anzeigen | ![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline| |
 || ![Offener grauer Kreis zeig an: Status unbekannt](media/Presence_Unknown.png) Status unbekannt|
-||![Nicht gefüllter roter Kreis mit diagonaler Linie zeig an: gesperrt](media/Presence_Blocked.png) Gesperrt |
 || ![Lila Kreis mit Pfeil zeigt an: außer Haus](media/Presence_OOF.png) Außer Haus|
 |||
 
-App-konfigurierte Anwesenheitsstatus basieren auf Benutzeraktivitäten (verfügbar, abwesend), Outlook-Kalenderstatus (in einer Besprechung) oder in Teams-App-Zuständen (in einem Anruf, Präsentation). Beachten Sie Folgendes: Wenn Sie sich im Fokusmodus auf Grundlage Ihres Kalenders befinden, ist die Fokussierung der Status, den Personen in Teams angezeigt werden, aber in anderen Produkten als "nicht stören" angezeigt wird.
+App-konfigurierte Anwesenheitsstatus basieren auf Benutzeraktivitäten (verfügbar, abwesend), Outlook-Kalenderstatus (in einer Besprechung) oder in Teams-App-Zuständen (in einem Anruf, Präsentation). Beachten Sie Folgendes: Wenn Sie sich im Fokusmodus auf Grundlage Ihres Kalenders befinden, wird die Fokussierung auf den Zustand der Personen in Teams festgelegt, wird aber in anderen Produkten als "nicht stören" angezeigt.
 
-Ihr aktueller Anwesenheitsstatus wird in "Abwesend" geändert, wenn Sie Ihren Computer sperren oder wenn er in den Leerlauf-oder Ruhemodus wechselt. Auf mobilen Geräten wechselt Ihr Anwesenheitsstatus in abwesend, wenn sich die Teams-App im Hintergrund befindet.
+Ihr aktueller Anwesenheitsstatus wird in "Abwesend" geändert, wenn Sie Ihren Computer sperren oder wenn Ihr Computer in den Leerlauf-oder Ruhemodus wechselt. Auf einem mobilen Gerät ändert sich Ihr Anwesenheitsstatus in abwesend, wenn sich die Teams-App im Hintergrund befindet.
 
-Die Benutzer erhalten alle an sie in Microsoft Teams gesendeten Chatnachrichten, unabhängig von ihrem Anwesenheitsstatus. Wenn ein Benutzer offline ist, wenn jemand ihm eine Nachricht sendet, wird die Chatnachricht in Microsoft Teams angezeigt, wenn der Benutzer das nächste Mal online ist. Wenn sich ein Benutzer in "nicht stören" befindet, erhält der Benutzer weiterhin Chatnachrichten, aber Banner Benachrichtigungen werden nicht angezeigt.
+Die Benutzer erhalten alle an sie in Microsoft Teams gesendeten Chatnachrichten, unabhängig von ihrem Anwesenheitsstatus. Wenn ein Benutzer offline ist, wenn jemand ihm eine Nachricht sendet, wird die Chatnachricht in Microsoft Teams angezeigt, wenn der Benutzer das nächste Mal online ist. Wenn ein Benutzerstatus auf "nicht stören" festgelegt ist, wird der Benutzer weiterhin Chatnachrichten empfangen, aber Banner Benachrichtigungen werden nicht angezeigt.
 
 Benutzer erhalten Anrufe in allen Anwesenheitsstatus mit Ausnahme von "nicht stören", in dem eingehende Anrufe an Voicemail weitergeleitet werden. Wenn der Empfänger den Anrufer blockiert hat, wird der Anruf nicht übermittelt, und dem Anrufer wird als Anwesenheitsstatus des Empfängers "Offline" angezeigt.
 
-Benutzer können ihrer Vorrangliste Personen hinzufügen, indem sie in Microsoft Teams zu **Einstellungen** > **Privatsphäre** wechseln. Personen mit Prioritätszugriff können sich an den Benutzer wenden, selbst wenn sich der Benutzer in "nicht stören" befindet.
+Benutzer können ihrer Vorrangliste Personen hinzufügen, indem sie in Microsoft Teams zu **Einstellungen** > **Privatsphäre** wechseln. Personen mit Prioritätszugriff können sich an den Benutzer wenden, auch wenn der Status des Benutzers auf "nicht stören" eingestellt ist.
+
+## <a name="user-configured-states-expiration"></a>Ablaufdatum des Benutzer konfigurierten Status
+Wenn ein Benutzer einen bestimmten Anwesenheitsstatus auswählt, hat er Vorrang vor dem Update einer APP-Aktivität. Wenn sich ein Benutzer beispielsweise als "nicht stören" einstellt, bleibt sein Anwesenheitsstatus unverändert, auch wenn Sie an einer Besprechung teilnehmen oder einen Anruf entgegennehmen.
+
+Benutzer konfigurierte Status weisen standardmäßige Ablaufeinstellungen in Teams auf, um zu verhindern, dass Benutzer einen Status anzeigen, der nach einer bestimmten Zeitspanne nicht relevant ist.
+
+|Benutzer konfigurierter Zustand|Standardablaufdatum|
+|:--- |:---|
+| Beschäftigt|1 Tag|
+| Nicht stören|1 Tag|
+| Andere|7 Tage|
+|||
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Administratoreinstellungen in Teams im Vergleich zu Skype for Business
 

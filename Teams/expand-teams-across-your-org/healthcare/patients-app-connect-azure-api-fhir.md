@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Hier erfahren Sie, wie Sie die Patienten-app in Microsoft Teams mit Azure-API für FHIR (fast Healthcare-Interoperabilitäts Ressourcen) verbinden.
-ms.openlocfilehash: 0a763c2d7bc37f8633d3fd9051d7f08cf15be5a8
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 3bd6cdc694eb197c1e8fd45d7e133576732cdc22
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361485"
+ms.locfileid: "48367615"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Verbinden der Patienten-App mit Azure API for FHIR
 
 > [!IMPORTANT]
-> **Die Patienten-APP ist ab dem 15. Oktober 2020 veraltet, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
+> **Die Patienten-APP wird ab dem 30. Oktober 2020 veraltet sein, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
 >
 >Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Wenn die patients-App eingestellt wird, werden alle damit verknüpften Daten in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Aktuelle Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
 >

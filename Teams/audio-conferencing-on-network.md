@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im folgenden wird die Funktion zum Öffnen der Vorschau für das Netzwerk für Audiokonferenzen beschrieben.
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321797"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369180"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Öffnen der Vorschau von Netzwerk Konferenzen für Audiokonferenzen
 
@@ -38,7 +38,7 @@ In diesem Artikel werden die Voraussetzungen und Konfigurationsschritte beschrie
 
 Bevor Sie Netzwerk Konferenzen konfigurieren, müssen Sie sicherstellen, dass Ihre Organisation die folgenden Voraussetzungen erfüllt: 
 
-- Stellen Sie sicher, dass alle Benutzer in Ihrer Organisation, die für Audiokonferenzen aktiviert oder aktiviert werden, nur im Modus "nur in Teams" aufgeführt sind. Die Weiterleitung von eingehenden und outboud Audiokonferenz-anrufen über Netzwerk Konferenzen wird nur für Teams-Besprechungen unterstützt.
+- Stellen Sie sicher, dass alle Benutzer in Ihrer Organisation, die für Audiokonferenzen aktiviert oder aktiviert werden, nur im Modus "nur in Teams" aufgeführt sind. Die Weiterleitung von eingehenden und ausgehenden Audiokonferenz-anrufen über Netzwerk Konferenzen wird nur für Teams-Besprechungen unterstützt.
 
 - Weisen Sie allen Benutzern, die eine Netzwerkkonferenz verwenden werden, Audiokonferenz-Lizenzen zu.
 
@@ -56,6 +56,8 @@ Sie müssen die Telefonanlage ihrer Websites so konfigurieren, dass Anrufe an ei
 
 Sie finden die Dienstnummern im Team Admin Center unter **Besprechungen – > Konferenz Brücken** oder mithilfe des PowerShell-Cmdlets "CsOnlineDialInConferencingBridge" von Skype for Business Online. Weitere Informationen finden Sie in der Liste der [Audiokonferenz-Nummern in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
+> [!NOTE]
+> Dieses Feature steht Benutzern mit der Lizenz für Pay-per-Minute-Audio-Konferenzen nicht zur Verfügung.
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Aktivieren des Routings von Teams für die Auswahl von Anruf Gesprächen über direktes Routing
 

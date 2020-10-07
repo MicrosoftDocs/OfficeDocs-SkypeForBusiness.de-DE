@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: Erfahren Sie mehr über die Integration elektronischer Integritätsdaten Sätze in die Microsoft Teams patients-APP und die STU3-Schnittstellenspezifikation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c5e19ff28c67641ac5b643e1944bf2435fbf164
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 177d8d9bb1a05e7fc871b8c11771708099347914
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361345"
+ms.locfileid: "48367645"
 ---
 # <a name="stu3-interface-specification"></a>Benutzeroberflächenspezifikation STU3
 
 > [!IMPORTANT]
-> **Die Patienten-APP ist ab dem 15. Oktober 2020 veraltet, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
+> **Die Patienten-APP wird ab dem 30. Oktober 2020 veraltet sein, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**
 >
 >Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Wenn die patients-App eingestellt wird, werden alle damit verknüpften Daten in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Aktuelle Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
 >

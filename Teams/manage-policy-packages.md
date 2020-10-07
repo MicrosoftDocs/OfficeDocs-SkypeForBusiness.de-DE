@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten, um die Konsistenz beim Verwalten von Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und zu gewährleisten.
-ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48220305"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48370591"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "48220305"
 
 Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation aufweisen. Wir haben Richtlinien Pakete entwickelt, um die Konsistenz beim Verwalten von Richtlinien für Gruppen von Benutzern in Ihrer Organisation zu vereinfachen, zu rationalisieren und zu gewährleisten.  
 
-Sie können die [in Teams enthaltenen Richtlinien Pakete](#policy-packages-included-in-teams) verwenden oder [eigene benutzerdefinierte Richtlinien Pakete erstellen](#custom-policy-packages) (in Kürze in der privaten Vorschau).
+Sie können die [in Teams enthaltenen Richtlinien Pakete](#policy-packages-included-in-teams) verwenden oder [eigene benutzerdefinierte Richtlinien Pakete](#custom-policy-packages) (in der privaten Vorschau) erstellen.
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite "Richtlinien Pakete" im Admin Center":::
 
@@ -83,7 +83,7 @@ Wenn Sie beispielsweise Lehrern in ihrer Schule das Richtlinienpaket Education (
 
 ## <a name="custom-policy-packages"></a>Benutzerdefinierte Richtlinien Pakete
 
-**Dieses Feature wird in Kürze in der privaten Vorschau angezeigt.**
+**Dieses Feature befindet sich in der privaten Vorschau**
 
 Mit benutzerdefinierten Richtlinien Paketen können Sie Ihren eigenen Satz von Richtlinien für Benutzer mit ähnlichen Rollen in Ihrer Organisation bündeln. Erstellen Sie eigene Richtlinien Pakete, indem Sie die erforderlichen Richtlinientypen und Richtlinien hinzufügen.
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Regelmäßige Auswertung von Möglichkeiten zur Verbesserung des Teams-Diensts nach dem Upgrade überwachen Sie die Roadmap für Teams auf interessante Funktionsverbesserungen.
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a000cb8b09f4b1eebf5ca1c2805d52222ce7ec5c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780464"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369200"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Nutzen Sie Teams nach dem Upgrade optimal
 
@@ -39,9 +39,7 @@ Nachdem Sie Teams erfolgreich in Ihrer Organisation bereitgestellt und den Diens
 
 Eine großartige Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer optimal nutzen, besteht darin, die [öffentlichen Roadmaps von Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Funktionsverbesserungen zu überwachen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf das Microsoft 365 Admin Center haben, erhalten Sie regelmäßige Updates von uns über neue und geänderte Funktionen über unser Nachrichtencenter.
 
-Wenn Sie Möglichkeiten zur Verbesserung Ihres Diensts sehen, nehmen Sie sich die Zeit, es richtig zu machen. Übernehmen Sie die [Bereitstellung von Chat, Teams, Kanälen und apps in Microsoft Teams erneut](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , und wenden Sie die gleichen Anleitungen auf End-to-End an. Wenn Sie kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig durchführen müssen, doch sollten Sie sicherstellen, dass Sie die einzelnen Aktivitäten und Aufgaben auf dem Weg auswerten, um sich die beste Chance zu einem erfolgreichen Ergebnis zu verschaffen.
-
-Wenn Sie Möglichkeiten zur Verbesserung Ihres Diensts sehen, nehmen Sie sich die Zeit, es richtig zu machen. Besuchen Sie unsere [Implementierungsphasen](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , und wenden Sie die gleichen Anleitungen auf End-to-End an. Wenn Sie kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig durchführen müssen, doch sollten Sie sicherstellen, dass Sie die einzelnen Aktivitäten und Aufgaben auf dem Weg auswerten, um sich die beste Chance zu einem erfolgreichen Ergebnis zu verschaffen.
+Wenn Sie Möglichkeiten zur Verbesserung Ihres Diensts sehen, nehmen Sie sich die Zeit, es richtig zu machen. Besuchen Sie die [Bereitstellung von Chat, Teams, Kanälen und apps in Microsoft Teams und in](deploy-chat-teams-channels-microsoft-teams-landing-page.md) unseren [Implementierungsphasen](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , und wenden Sie die gleichen Anleitungen auf End-to-End an. Wenn Sie kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig durchführen müssen, doch sollten Sie sicherstellen, dass Sie die einzelnen Aktivitäten und Aufgaben auf dem Weg auswerten, um sich die beste Chance zu einem erfolgreichen Ergebnis zu verschaffen.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer öffentliche Roadmaps und andere Dienstankündigungen für neue Features oder Dienste überwachen soll, von denen Ihre Organisation profitieren könnte.</li><li>Entscheiden Sie sich für die Kadenz, mit der Sie diese neuen Features oder Dienste über Ihr Lenkungskomitee an die wichtigsten Stakeholder zurückmelden können.</li></ul></td></tr>
