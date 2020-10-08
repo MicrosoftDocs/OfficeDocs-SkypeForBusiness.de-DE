@@ -674,25 +674,25 @@
 
 # Branchen- und Regierungsrichtlinien
 ## [Übersicht](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Erste Schritte mit Teams-Vorlagen mithilfe von Microsoft Graph](get-started-with-teams-templates.md)
-## [Buchungen-App und virtuelle Besuche](bookings-app-admin.md)
-## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub wurde eingestellt](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Verwalten der Schichten-App für Ihre Organisation in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+## Alle Branchen
+### [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
+### [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+#### [Verwalten der Schichten-App für Ihre Organisation in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams für das Gesundheitswesen
 ### [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Erste Schritte mit Teams-Vorlagen in der Verwaltungskonsole für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-### [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Bookings-App und virtuelle Besuche](bookings-app-admin.md)
 ### [Teams Policy-Pakete für das Gesundheitswesen](policy-packages-healthcare.md)
-### [Übersicht der Patienten-App](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [Benutzeroberflächenspezifikation DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [Benutzeroberflächenspezifikation STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [Verbinden der Patienten-App mit Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [Überwachungsprotokolle für die Patienten-App](expand-teams-across-your-org/healthcare/patients-audit.md)
+### Sichere Messagingrichtlinien
+#### [Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+#### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### Teams-Vorlagen für Organisationen im Gesundheitswesen
+#### [Verwenden von Teams-Vorlagen für das Gesundheitswesen in der Verwaltungskonsole](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Verwalten der Listen-App](manage-lists-app.md)
+### Schichten für Teams
+#### [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+#### [Verwalten der Schicht-App](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams für Bildung](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
