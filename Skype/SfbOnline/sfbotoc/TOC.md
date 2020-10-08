@@ -257,6 +257,7 @@
 ### [Video: Externe Skype for Business Online-Kommunikation](../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## Einrichten von Richtlinien für Ihre Organisation 
+### [Einrichten von Richtlinien in Ihrer Organisation: Übersicht](../set-up-policies-in-your-organization/set-up-policies-in-your-organization.md)
 ### [Blockieren von Punkt-zu-Punkt-Dateiübertragungen](../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [Erstellen von benutzerdefinierten externen Zugriffsrichtlinien](../set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [Beibehalten von umfangreichen Dateien, die an eine Besprechung angefügt sind](../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
@@ -305,7 +306,7 @@
 ### [Zeitraum für kostenlose ausgehende Anrufe](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Verfahrensregel für das Vereinigte Königreich (UK)](/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Beanstandungshandling-Code für das Vereinigte Königreich (UK)](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Datensammlungsverfahren](/microsoftteams/teams-privacy?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Datensammlungsverfahren](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Notrufaufkleber](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Ende-der-Lebensdauer-Programm zur Integration von Skype für Unternehmen mit Audiokonferenzen von Drittanbietern](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
