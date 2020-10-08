@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361645"
+ms.locfileid: "48367565"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -42,7 +42,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
 |Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500.000&sup2;     |
 |Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup3;         |
-|Anzahl der privaten Kanäle pro Team    |30|
+|Anzahl der privaten Kanäle pro Team    |30| (einschließlich gelöschter Kanäle)&sup3;
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
 |Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10.000|
 |Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>4</sup> |
@@ -51,7 +51,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 <sup>2</sup> Diese Beschränkung umfasst archivierte Teams. Wenn Sie den Grenzwert überschreiten möchten, müssen Sie sich an den Microsoft-Support wenden.
 
-<sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das 200-Kanallimit pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das 200-Kanallimit pro Team eingerechnet.
+<sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
 
 <sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
 
@@ -94,7 +94,9 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 Weitere Informationen finden Sie unter [Exchange Online-Begrenzungen](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Die Beschränkungen für Nachrichtengröße, Dateianlagen und Inline-Bilder sind für alle Microsoft 365- und Office 365-Lizenzen identisch.
+> Die Beschränkungen für Nachrichtengröße, Dateianlagen und Inline-Bilder sind für alle Microsoft 365- und Office 365-Lizenzen identisch. Das Senden eines E-Mail-Kanals ist in Microsoft Teams für Office GCC/GCCH/DOD-Organisationen nicht verfügbar.
+
+
 
 ## <a name="channel-names"></a>Kanalnamen
 
