@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Anweisungen zum Implementieren der Hybrid Konnektivität zwischen Skype for Business Server und Skype for Business Online.
-ms.openlocfilehash: 0c4b2f716e906e30dd45b2750cfe5487868ce6df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3a68d39062387952b7a43bb22599265a69bf7a61
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780094"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376748"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Konfigurieren der Hybridverbindung zwischen Skype for Business Server und Office 365
 
