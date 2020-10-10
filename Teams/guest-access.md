@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
-ms.openlocfilehash: 388fb68196a6e68c13066b7b94a1b24a31834b37
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346166"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416850"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
@@ -33,7 +33,7 @@ Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation
 
 Als Team-Administrator steuern Sie, [welche Funktionen Gäste in Teams verwenden können (und können)](manage-guests.md). Gäste in Teams unterliegen dem gleichen Compliance-und Überwachungs Schutz wie die restlichen Microsoft 365 und können in Azure AD verwaltet werden. Gastzugriff unterliegt Azure AD- und Microsoft 365- oder Office 365-Dienstbegrenzungen.
 
-Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Eine vollständige Liste dessen, was ein Gast in Teams tun kann und was nicht, finden Sie unter[Vergleich der Teammitglieder und Gast Funktionen](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Eine vollständige Liste dessen, was ein Gast in Teams tun kann und was nicht, finden Sie unter [Vergleich der Teammitglieder und Gast Funktionen](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
 > Gastbenutzer folgen den organisationsweiten Einstellungen in Teams für den Upgrade-Modus. Dies kann nicht geändert werden.
@@ -66,7 +66,7 @@ Gäste können das Team jederzeit von Teams aus verlassen. Einzelheiten finden S
 
 ## <a name="licensing-for-guest-access"></a>Lizenzierung für Gastzugriff
 
-Der Gastzugriff ist in allen Microsoft 365 Business Standard-, Microsoft 365 Enterprise-und Microsoft 365 Education-Abonnements enthalten. Es ist keine zusätzliche Microsoft 365-Lizenz erforderlich. Die Anzahl von Gästen, die Sie hinzufügen können, ist in Teams nicht beschränkt. Die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, kann jedoch durch die kostenpflichtigen Funktionen von Azure AD eingeschränkt sein. Weitere Informationen finden Sie unter [Lizenzierung für die Azure AD B2B-Zusammenarbeit](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Der Gastzugriff ist in allen Microsoft 365 Business Standard-, Microsoft 365 Enterprise-und Microsoft 365 Education-Abonnements enthalten. Es ist keine zusätzliche Microsoft 365-Lizenz erforderlich. Die Anzahl von Gästen, die Sie hinzufügen können, ist in Teams nicht beschränkt. Die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, kann jedoch durch die kostenpflichtigen Funktionen von Azure AD eingeschränkt sein. Weitere Informationen finden Sie unter [Abrechnungsmodell für Azure AD-externe Identitäten](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 > [!NOTE]
 > Benutzer in Ihrer Organisation, die nur über eigenständige Microsoft 365-Abonnement Pläne verfügen, wie etwa Exchange Online Plan 2, können nicht als Gäste in Ihrer Organisation eingeladen werden, da diese Benutzer von Teams zur gleichen Organisation gehören. Damit diese Benutzer Teams verwenden können, muss ihnen ein Abonnement für Microsoft 365 Business Standard, Office 365 Enterprise oder Office 365 Education zugewiesen werden. 

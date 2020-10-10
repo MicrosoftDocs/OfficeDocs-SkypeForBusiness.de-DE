@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 2180c819491b3067225ada993aec60ec052bc69f
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662115"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416912"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -33,7 +33,7 @@ Teams bietet eine Reihe umfassender Tools zur Implementierung von Governance-Fun
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Gruppen-und TEAMERSTELLUNG,-Namensgebung,-Klassifizierung und Gastzugriff
 
-Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemente für das benennen und Klassifizieren von Teams zu implementieren, unabhängig davon, ob Gäste als Teammitglieder hinzugefügt werden können und wer Teams erstellen kann. Sie können jeden dieser Bereiche mit Azure Active Directory (Azure AD) konfigurieren. 
+Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemente für das benennen und Klassifizieren von Teams zu implementieren, unabhängig davon, ob Gäste als Teammitglieder hinzugefügt werden können und wer Teams erstellen kann. Sie können diese Bereiche mit Azure Active Directory (Azure AD) und Vertraulichkeits Beschriftungen konfigurieren. 
 
 <br>
 
@@ -52,6 +52,7 @@ Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemen
 |Team Gastzugriff |Zulassen oder verhindern, dass Gäste zu Teams hinzugefügt werden. |Nein |TBD |
 |Teamerstellung |Beschränken Sie die TEAMERSTELLUNG auf Administratoren. |Nein |TBD|
 |Teamerstellung |Beschränken Sie die TEAMERSTELLUNG auf Mitglieder der Sicherheitsgruppe. |P1 |TBD|
+|Vertraulichkeits Beschriftungen|Konfigurieren von Datenschutz und Gast Freigabe|Nein|TBD|
 
 > [!NOTE]
 > [Weitere Informationen zum Festlegen dieser Richtlinien und zu den erforderlichen Lizenzen finden](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)Sie unter Unterstützung bei der Planung.
@@ -64,16 +65,19 @@ Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemen
 
 Nachdem Sie Ihre Anforderungen festgelegt haben, können Sie diese mithilfe von Azure AD-Steuerelementen implementieren. Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter:
 
-- [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+- [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
 - [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Benennungsrichtlinie für Microsoft 365-Gruppen](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
+- [Verwenden von Vertraulichkeits Beschriftungen zum Schützen von Inhalten in Microsoft Teams, Microsoft 365-Gruppen und SharePoint-Websites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+
+- [Optionen für das Ende des Lebenszyklus für Gruppen, Teams und jammern](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Ablauf, Aufbewahrung und Archivierung von Gruppen und Teams
 
-In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das Festlegen von Richtlinien für Ablauf, Aufbewahrung und Archivierung von Teams und Team Daten (Kanal Nachrichten und Kanaldateien) enthalten. Sie können Gruppen Ablaufrichtlinien so konfigurieren, dass der Lebenszyklus der Gruppen-und Aufbewahrungsrichtlinien automatisch verwaltet wird, um Informationen nach Bedarf zu erhalten oder zu löschen, und Sie können Teams archivieren (im schreibgeschützten Modus festlegen), um eine Point-in-Time-Ansicht eines Teams beizubehalten, das nicht mehr aktiv ist.
+In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das Festlegen von Richtlinien für Ablauf, Aufbewahrung und Archivierung von Teams und Team Daten (Kanal Nachrichten und Kanaldateien) enthalten. Sie können Gruppen Ablaufrichtlinien so konfigurieren, dass der Lebenszyklus der Gruppen-und Aufbewahrungsrichtlinien automatisch verwaltet wird, um Informationen nach Bedarf zu erhalten oder zu löschen, und Sie können Teams archivieren (im schreibgeschützten Modus festlegen), um eine Point-in-Time-Ansicht eines Teams beizubehalten, das nicht mehr aktiv ist. Beachten Sie, dass die archivierten Teams weiterhin die Ablaufrichtlinie angewendet haben und möglicherweise gelöscht werden, wenn Sie nicht ausgeschlossen oder erneuert werden.
 
 |           |            |
 |-----------|------------|
@@ -149,8 +153,10 @@ Detaillierte Listen aller Einstellungen, einschließlich technischer Anleitungen
 
 - [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 - [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Private Kanäle in Microsoft Teams](private-channels.md)
 - [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
 - [Verwalten von Messaging-Richtlinien in Teams](messaging-policies-in-teams.md)
+- [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md)
 
 Darüber hinaus können Sie die Moderation für einen Kanal einrichten und bestimmten Benutzern Moderatorfunktionen zur Verfügung stellen, damit Sie steuern können, wer Kanal Beiträge erstellen und darauf antworten kann. Weitere Informationen finden Sie unter [Einrichten und Verwalten von Kanal Moderation in Microsoft Teams](manage-channel-moderation-in-teams.md) .
 

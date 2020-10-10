@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0555296da359a916b512bde878d5c87207a6e549
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389883"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416860"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -54,7 +54,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Arbeitsspeicher     |   4,0 GB Arbeitsspeicher      |
 |Festplatte    |   1,5 GB verfügbarer Speicherplatz      |
 |Anzeige    | Bildschirmauflösung 1280x800 oder höher    |
-|Betriebssystem  |    Eine der drei neuesten Versionen von macOS. Die neuesten Versionen von macOS finden Sie [hier](https://support.apple.com/en-us/HT201260). Wenn beispielsweise eine neue Version von macOS veröffentlicht wird, werden die neue Version und die beiden unmittelbar vor ihr verwendeten Versionen zur unterstützten Version.      |
+|Betriebssystem  |    Eine der drei neuesten Versionen von macOS. [Hier](https://support.apple.com/en-us/HT201260)finden Sie Informationen zu den neuesten Versionen von MacOS und dazu, wie Sie Ihre Version von MacOS aktualisieren können. Wenn beispielsweise eine neue Version von macOS veröffentlicht wird, werden die neue Version und die beiden unmittelbar vor ihr verwendeten Versionen zur unterstützten Version.      |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
 |Videoanrufe und Besprechungen | <ul><li>Erfordert 2-Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate empfiehlt sich ein 4-Core-Prozessor oder besser. </li><li>Die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Chatroom steht unter macOS nicht zur Verfügung.</li></ul>
