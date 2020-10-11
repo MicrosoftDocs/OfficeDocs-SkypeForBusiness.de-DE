@@ -693,6 +693,14 @@
 ### Schichten für Teams
 #### [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Verwalten der Schicht-App](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### Patienten-App
+#### [Übersicht der Patienten-App](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### Integration von elektronischen Datensätzen aus dem Gesundheitswesen in die Patienten-App
+##### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in die Patienten-App mithilfe von FHIR-APIs](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2-Schnittstellenspezifikation für die Patienten-App](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3-Schnittstellenspezifikation für die Patienten-App](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Verbinden der Patienten-App mit Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [Überwachungsprotokolle für die Patienten-App](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams für Bildung](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
