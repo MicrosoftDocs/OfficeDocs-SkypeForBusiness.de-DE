@@ -14,23 +14,23 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie mehr über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
+description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen sind, wenn Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
+ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333513"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408148"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
-Wenn Sie Liveereignisse in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, müssen Sie eine Reihe von Faktoren berücksichtigen, bevor Sie mit der Einrichtung beginnen.
+Wenn Sie Liveereignisse in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, gibt es mehrere Faktoren, die Sie vor Beginn der Einrichtung berücksichtigen müssen.
 
  > [!Note]
-> Mehr über Liveereignisse in Teams auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Weitere Informationen zu den Bandbreitenanforderungen für Teams finden Sie unter [Vorbereiten Ihrer Organisation](../prepare-network.md). 
+> Einzelheiten zu Liveereignisse in Teams auf verschiedenen Plattformen finden Sie unter [Features für Teams nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Weitere Informationen zu den Bandbreitenanforderungen für Teams finden Sie unter [Vorbereiten Ihrer Organisation](../prepare-network.md).
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Wer kann an Liveereignissen teilnehmen, diese erstellen und planen?
 
@@ -40,11 +40,11 @@ Die folgenden Voraussetzungen müssen erfüllt sein, damit ein Benutzer ein Team
 
 Folgende Lizenzen müssen für die Erstellung oder Vorführung eines Microsoft Teams-Liveereignisses zugewiesen werden:  
 
-- Eine Microsoft- oder Office 365 Enterprise E1-, E3- oder E5-Lizenz oder eine Office 365 Education A3 oder A5-Lizenz.
-- Eine Microsoft Teams-Lizenz. - ist in den oben aufgeführten Lizenzen enthalten. 
-- Eine Lizenz für Microsoft Stream ist dann erforderlich, wenn Sie die Inhalte für eine externe App oder ein Gerät freigeben möchten. Informationen hierzu finden Sie unter [Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview). 
+- Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz oder eine Office 365 Education A3- oder A5-Lizenz. Die Ausnahme von dieser Anforderung ist, dass Gastnutzer ohne Lizenz präsentieren können, wenn die anderen Kriterien für [Gastnutzer](plan-for-teams-live-events.md#guest-to-present) erfüllt sind.
+- Eine Microsoft Teams Lizenz – diese ist in den im ersten Aufzählungspunkt aufgeführten Lizenzen enthalten.
+- Eine Microsoft Stream-Lizenz – ist erforderlich, wenn Sie planen, den Inhalt mit einer externen App oder einem externen Gerät zu teilen; siehe [Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
 
-  Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert wären, sondern in Azure Media Services (AMS), wo sie nach 30 Tagen gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
+  Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Das bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden. Sie werden stattdessen in Azure Media Services (AMS) mit einer 30-tägigen Frist gespeichert, bevor sie gelöscht werden. Derzeit kann ein Admin das nicht kontrollieren oder die Möglichkeit zum Löschen vorsehen.
 
 >[!Note]
 > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 verlangen wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für Besprechungsaufzeichnungen.
@@ -72,15 +72,17 @@ Der Benutzer muss Folgendes besitzen:
 - Der Koexistenzmodus ist so konfiguriert, dass Teambesprechungen (*Inselmodus, "Besprechung zuerst" oder "Nur Teams"*) geplant werden können.
 
 > [!IMPORTANT]
-> Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Referenten zu Teams-Liveereignissen eingeladen werden.
+> Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Moderatoren zu Liveereignissen in Teams eingeladen werden.
 
-Damit ein Gast bei einem Liveereignis eine Präsentation halten kann, gehen Sie wie folgt vor:
+### <a name="guest-to-present"></a>[Gast zur Präsentation](#guest-to-present)
+
+Damit ein Gast bei einem Liveereignis präsentieren kann, gehen Sie wie folgt vor:
 
 1. [Fügen Sie den Benutzer als Gast zu einem Team hinzu](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Der Benutzer muss die Gasteinladung annehmen und dem Team beitreten.
 3. [Planen Sie das Liveereignis, und fügen Sie den Gast zu ihrer Ereignisgruppe hinzu](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Referenten des Liveereignisses zu erstellen, damit sie vor der Veranstaltung chatten und Informationen teilen können. Gäste, die keine Microsoft 365-Anmeldeinformationen haben, können den Kalender in Teams nicht sehen. Um ihnen die Teilnahme an dem Ereignis zu erleichtern, können die Produzenten den Ereignislink im Kanal posten. Referenten können dann Teams öffnen, zum Kanal wechseln und dann auf den Link klicken, um an dem Ereignis teilzunehmen. 
+Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Referenten des Liveereignisses zu erstellen, damit sie vor der Veranstaltung chatten und Informationen teilen können. Gäste, die keine Microsoft 365-Anmeldeinformationen haben, können den Kalender in Teams nicht sehen. Um ihnen die Teilnahme an dem Ereignis zu erleichtern, können die Produzenten den Ereignislink im Kanal posten. Referenten können dann Teams öffnen, zum Kanal wechseln und dann auf den Link klicken, um an dem Ereignis teilzunehmen.
 
 ## <a name="who-can-watch-live-events"></a>Wer kann Liveereignisse anschauen?
 
@@ -158,6 +160,7 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 - Europa/Afrika
 
 **Datenspeicherort für diese Länder/Regionen (unterstützt)**
+
 - Australien
 - Kanada
 - Indien
@@ -165,6 +168,7 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 - Vereinigtes Königreich
 
 **Diese Länder/Regionen und Clouds werden nicht unterstützt**
+
 - Deutschland
 - Frankreich
 - Norwegen

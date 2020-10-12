@@ -3,7 +3,6 @@ title: Planen der Lebenszyklusverwaltung
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 09/26/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bdc9df2d0d7d55e806ad0faca896f3c78a145c96
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 44be1d139fe37a34cad620cb449ac8bfe10eb99b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656366"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416923"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -58,10 +57,10 @@ Diese bestimmen, wer dem Team beitreten kann:
 
 Teambenutzertypen bestimmen, wie viel Kontrolle ein Teammitglied hat:
 
--   Der _Teamersteller_ verfügt über Berechtigungen zum Erstellen einer Gruppe oder eines Teams im Verzeichnis. Der Administrator kann diesen Benutzertyp auf eine Teilmenge der Administratoren oder Benutzer begrenzen. Weitere Informationen finden Sie unter [Verwalten von Personen, die berechtigt sind, Microsoft 365-Gruppen zu erstellen](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   Der _Teambesitzer_ verwaltet die Mitgliedschaft und die Einstellungen für das Team. Pro Team sind bis zu 100 Teambesitzer möglich.
--   Ein _Teammitglied_ ist ein Mitglied Ihrer Organisation, das an einem Team teilnimmt.
--   Ein _Gast_ ist ein Benutzer, der nicht zu Ihrer Organisation gehört. Jeder, der über eine E-Mail-Adresse verfügt, kann als Gast eingeladen werden, sofern Ihre Organisation den [Gastzugriff](guest-access.md) aktiviert hat.
+-   Der *Teamersteller* verfügt über Berechtigungen zum Erstellen einer Gruppe oder eines Teams im Verzeichnis. Der Administrator kann diesen Benutzertyp auf eine Teilmenge der Administratoren oder Benutzer begrenzen. Weitere Informationen finden Sie unter [Verwalten von Personen, die berechtigt sind, Microsoft 365-Gruppen zu erstellen](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Teamentwickler werden automatisch zum Teambesitzer.
+-   Der *Teambesitzer* verwaltet die Mitgliedschaft und die Einstellungen für das Team. Pro Team sind bis zu 100 Teambesitzer möglich.
+-   Ein *Teammitglied* ist ein Mitglied Ihrer Organisation, das an einem Team teilnimmt.
+-   Ein *Gast* ist ein Benutzer, der nicht zu Ihrer Organisation gehört. Jeder, der über eine E-Mail-Adresse verfügt, kann als Gast eingeladen werden, sofern Ihre Organisation den [Gastzugriff](guest-access.md) aktiviert hat.
 
 > [!Note]
 > Weitere Informationen zu den Möglichkeiten von Teambesitzern und Teammitgliedern finden Sie im Artikel [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md).
@@ -164,6 +163,8 @@ Alle Teambesitzer oder Mitglieder mit entsprechenden Berechtigungen können Kan�
 
 Der Kanalbesitzer kann das Interesse wecken, indem er eine Willkommensnachricht veröffentlicht, relevante Dokumente in die Registerkarte **Dateien** hochlädt oder Registerkarten zu Connectors im Kanal hinzufügt. Außerdem legt der Besitzer die Kanalbeschreibung fest, und er kann wichtige Kanäle automatisch als Favoriten festlegen, damit sie für alle Teammitglieder aufgelistet werden.
 
+Berücksichtigen Sie die Kanalnamen vor ihrer Erstellung, da das Umbenennen eines Kanals im Team den entsprechenden Ordner in der SharePoint-Dokumentbibliothek nicht umbenennen wird, was zu Verwirrung beim Endbenutzer führen kann. 
+
 |    |     |
 |-----------|------------|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Kanäle werden anfangs zum Team hinzugefügt?</li><li>Welche Anleitungen werden gegebenenfalls zum Hinzufügen neuer Kanäle bereitgestellt? (Nach welchen Kriterien sollen Kanäle eingerichtet werden: Projekte, Themen, andere Kriterien?)</li></ul> |
@@ -177,17 +178,13 @@ Vertrauen, Toleranz und ein Geist der Zusammenarbeit entstehen ganz natürlich, 
 
 Da es sich bei Teams quasi um lebende Organismen handelt, müssen sie gelegentlich untersucht und gepflegt werden. Hier sind ein paar bewährte Methoden:
 
--   Setzen Sie Pioniere ein, um die Nutzung wieder zu steigern, wenn sie abnimmt, und um kreative neue Verhaltensweisen zu entdecken und zu fördern. 
--   Verwalten Sie Gäste mit Bedacht, und stellen Sie sicher, dass ihr Zugriff endet, wenn die jeweilige Geschäftsanforderung nicht mehr gegeben ist.
--   Lassen Sie Kanäle mit den Geschäftsanforderungen wachsen, indem Sie bei Bedarf neue Kanäle hinzufügen und alte einschlafen lassen (oder erwägen Sie basierend auf Ihren Aufbewahrungsanforderungen, diese Kanäle zu archivieren oder zu löschen, wenn sie vertrauliche oder kurzlebige Daten enthalten).
--   Bilden Sie neue Teams, wenn größere Gruppen oder interessenbezogene Bereiche entstehen.
--   Probieren Sie verschiedene Arten der Zusammenarbeit in Kanälen aus, zum Beispiel Kanalbesprechungen oder Registerkartenunterhaltungen, in denen es um Dokumente geht.
-
-Wenn ein Team anfängt, in einen Trott zu verfallen, ziehen Sie Folgendes in Betracht:
-
--   Steuern Sie die Kommunikation zu Teams hin, das heißt weg von E-Mails.
--   Verwenden Sie mobile Apps, um das Engagement der Benutzer zu verstärken.
--   Reduzieren Sie die Anzahl der Kanäle.
+- Setzen Sie Pioniere ein, um die Nutzung wieder zu steigern, wenn sie abnimmt, und um kreative neue Verhaltensweisen zu entdecken und zu fördern. 
+- Verwalten Sie Gäste mit Bedacht, und stellen Sie sicher, dass ihr Zugriff endet, wenn die jeweilige Geschäftsanforderung nicht mehr gegeben ist.
+- Ermutigen Sie die Mitglieder, Unterhaltungen mit Threads und Betreffzeilen zu verwenden, um die Sichtbarkeit und Aufmerksamkeit durch Scrollen durch einen Kanal zu verbessern.
+- Lassen Sie Kanäle mit den Geschäftsanforderungen wachsen, indem Sie bei Bedarf neue Kanäle hinzufügen und alte einschlafen lassen (oder erwägen Sie basierend auf Ihren Aufbewahrungsanforderungen, diese Kanäle zu archivieren oder zu löschen, wenn sie vertrauliche oder kurzlebige Daten enthalten).
+- Bilden Sie neue Teams, wenn größere Gruppen oder interessenbezogene Bereiche entstehen.
+- Probieren Sie verschiedene Arten der Zusammenarbeit in Kanälen aus, zum Beispiel Kanalbesprechungen oder Registerkartenunterhaltungen, in denen es um Dokumente geht.
+- Verwenden Sie die mobile App von Microsoft Teams, um Ihr Engagement zu steigern.
 
 |    |     |
 |-----------|------------|
@@ -198,9 +195,11 @@ Wenn ein Team anfängt, in einen Trott zu verfallen, ziehen Sie Folgendes in Bet
 
 Wenn die Arbeit eines Teams erledigt ist, muss das Ende auch offiziell bestätigt werden. Damit vermitteln Sie den Teammitgliedern, dass die Arbeit abgeschlossen ist, und verhindern gleichzeitig, dass jemand auf veraltete, überholte Informationen zugreift. Sie können das Team selbst nutzen, um Abschlussrituale wie nachträgliche Bewertungen und Zusammenfassungen durchzuführen.
 
-Sie können Teams löschen, von denen Sie wissen, dass Sie sie nicht benötigen (zum Beispiel ein Team, das ausschließlich zu Testzwecken erstellt wurde, oder ein Team, das vertrauliche Daten enthält). Tatsächlich werden Teams nur „vorläufig gelöscht“, so dass die IT in der Lage ist, diesen Vorgang bis zu 21 Tage lang (30 Tage für Microsoft 365-Gruppen) rückgängig zu machen. Das Löschen von Teams hat keine Auswirkungen auf Chats oder Inhalte, die gemäß Compliancerichtlinien aufbewahrt wurden. Kanäle weisen auch ein "Soft Delete"-Feature auf und können bis zu 21 Tage nach dem Löschen wiederhergestellt gemacht werden.
+Sie können Teams löschen, von denen Sie wissen, dass Sie sie nicht benötigen (zum Beispiel ein Team, das ausschließlich zu Testzwecken erstellt wurde, oder ein Team, das vertrauliche Daten enthält). Tatsächlich werden Teams nur „vorläufig gelöscht“, so dass die IT in der Lage ist, diesen Vorgang bis zu 21 Tage lang (30 Tage für Microsoft 365-Gruppen) rückgängig zu machen. Das Löschen von Teams hat keine Auswirkungen auf Chats oder Inhalte, die gemäß Compliancerichtlinien aufbewahrt wurden. Kanäle weisen auch ein "Vorläufiges Löschen"-Feature auf und können bis zu 21 Tage nach dem Löschen wiederhergestellt gemacht werden. Durch das Löschen eines Kanals wird der Ordner oder dessen Inhalt nicht aus der SharePoint-Dokumentbibliothek gelöscht.
 
 Sie können neben den Archivierungsfunktionen auch Ablauf- und Aufbewahrungsrichtlinien verwenden, um den Zugriff auf Daten durch Teams zu verhindern, die nicht mehr aktiv sind oder deren Besitzer die Organisation verlassen haben.
+
+Auf Teams oder zugeordnete Dienste wie SharePoint angewendete Aufbewahrungsrichtlinien verhindern möglicherweise das Löschen von Teams. Bedenken Sie zudem, dass der Inhalt in einem Team häufig mehr ist als nur Dateien in der SharePoint-Dokumentbibliothek. Es sind Unterhaltungen, Planner-Tafeln, Wikis, Formularergebnisse, aufgezeichnete Besprechungen, OneNote-Notizbücher und vieles mehr.
 
 Weitere Informationen zum Einrichten von Ablauf- und Aufbewahrungsrichtlinien finden Sie unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md).
 
