@@ -52,7 +52,7 @@
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
 ## [Migrieren von Slack auf Teams](migrate-slack-to-teams.md)
 ## Arbeiten mit Teams-Vorlagen
-### [Verwenden von Teams-Vorlagen in der Verwaltungskonsole](get-started-with-teams-templates-in-the-admin-console.md)
+### [Verwenden von Teams-Vorlagen im Admin Center](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Teams-Vorlagen integriert in Graph für kleine und mittlere Unternehmen](smb-templates.md)
 ### [Erstellen einer benutzerdefinierten Teams-Vorlage](create-a-team-template.md)
 ### [Erstellen einer Vorlage aus einem vorhandenen Team](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### Teams-Vorlagen für Organisationen im Gesundheitswesen
-#### [Verwenden von Teams-Vorlagen für das Gesundheitswesen in der Verwaltungskonsole](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Verwenden von Teams-Vorlagen für das Gesundheitssystem im Admin Center](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Verwalten der Listen-App](manage-lists-app.md)
 ### Schichten für Teams
@@ -725,7 +725,7 @@
 ### [Erstellen einer Intranet-Portal-App für Teams von einer SPO-Website oder -Seite aus](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams für den Einzelhandel](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [Erste Schritte mit Teams-Vorlagen in der Verwaltungskonsole im Einzelhandel](retail-teams-templates-in-the-admin-console.md)
+### [Erste Schritte mit Teams-Vorlagen für den Einzelhandel im Admin Center](retail-teams-templates-in-the-admin-console.md)
 ### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 
 ## [Teams für Behörden](expand-teams-across-your-org/teams-for-government-landing-page.md)
