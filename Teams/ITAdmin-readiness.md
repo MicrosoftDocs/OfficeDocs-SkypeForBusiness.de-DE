@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346196"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426930"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Erste Schritte mit Administratorschulungen für Microsoft Teams
 
@@ -56,9 +56,9 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <h2>Teams rooms foundations for IT & AV Pros</h2>
 
-<p>Die folgende Tabelle enthält Links zu einer umfassenden Videoschulung mit zugehörigen PowerPoint-Decks in Microsoft Teams-Räumen.  
+<p>Die folgende Tabelle enthält Links zu einer umfassenden Videoschulung mit zugehörigen PowerPoint-Decks (im PDF-Format) in Microsoft Teams-Räumen.  
 
-| Modul | Video | PowerPoint-Foliensatz  |
+| Modul | Video | PowerPoint-Deck (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | Modul 1: Einführung in Microsoft Teams rooms (18:29 min) | [Video](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | Modul 2: Microsoft Teams Networking (34:10 min) | [Video](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

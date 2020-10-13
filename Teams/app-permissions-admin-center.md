@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 50a9abbd7e5872229c09d7d80c00c5d432723da1
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367595"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433048"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Anzeigen von App-Berechtigungen und erteilen der Zustimmung des Administrators im Microsoft Teams Admin Center
 
@@ -94,5 +94,6 @@ Derzeit steht die Möglichkeit zum Überprüfen von Berechtigungen und Genehmigu
 - [Berechtigungen und Zustimmung im Microsoft Identity Platform-Endpunkt](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [Ressourcenspezifische Zustimmung in Teams](resource-specific-consent.md)
 - [Ressourcenspezifische Zustimmung (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- [Navigieren im Team-App-Lebenszyklus](https://aka.ms/PR132) (Ignite 2020-Sitzung)
 
 

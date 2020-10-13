@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Teams Healthcare-Vorlagen in der Admin-Konsole
+title: Verwenden von Teams Healthcare-Vorlagen im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Verwenden Sie Microsoft Teams-Vorlagen in der Administratorkonsole, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und apps bereitstellen.
+description: Verwenden Sie Microsoft Teams-Vorlagen im Admin Center, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308278"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424735"
 ---
-# <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Verwenden von Teams Healthcare-Vorlagen in der Admin-Konsole
+# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Verwenden von Teams Healthcare-Vorlagen im Admin Center
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -33,7 +33,7 @@ Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, in
 
 Für Organisationen im Gesundheitswesen können Vorlagen besonders leistungsstark sein, da Sie die Struktur für Benutzer bereitstellen, um sich mit der effektiven Nutzung von Teams auszurichten. Mit Vorlagen können Administratoren auch konsistente Teams in ihren Organisationen bereitstellen. Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer gesamten Gesundheitsorganisation verantwortlich sind.
 
-Wir bieten derzeit zwei First-Party Healthcare-Vorlagen an, die Sie für unterschiedliche Situationen nutzen können. Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole](../../get-started-with-teams-templates-in-the-admin-console.md).
+Wir bieten derzeit zwei First-Party Healthcare-Vorlagen an, die Sie für unterschiedliche Situationen nutzen können. Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen im Admin Center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="collaborate-on-patient-care"></a>Zusammenarbeit bei der Patientenversorgung
 

@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Verkaufsvorlagen für Teams in der Administratorkonsole
+title: Verwenden von Verkaufsvorlagen für Teams im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Teamstrukturen erstellen, die für Einzelhändler benötigt werden, indem Sie mithilfe der Verwaltungskonsole vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
+description: Hier erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Teamstrukturen erstellen, die für Einzelhändler benötigt werden, indem Sie mithilfe des Admin Centers vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77411e734ebbcfaea4d3e2a0454f48e43a8b8a7d
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 40e21687aa3d14b0cb9d51d4ba5f856eada3c538
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308328"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424565"
 ---
-# <a name="use-teams-retail-templates-in-the-admin-console"></a>Verwenden von Verkaufsvorlagen für Teams in der Administratorkonsole
+# <a name="use-teams-retail-templates-in-the-admin-center"></a>Verwenden von Verkaufsvorlagen für Teams im Admin Center
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

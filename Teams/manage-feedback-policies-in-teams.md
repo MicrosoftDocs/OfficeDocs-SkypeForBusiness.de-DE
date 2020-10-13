@@ -17,18 +17,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe von Feedback Richtlinien steuern können, ob Teams-Benutzer in Ihrer Organisation Feedback zu Teams an Microsoft übermitteln können.
-ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0bece4515825a0d7ddf7e547f1607fbd6cf205cc
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433038"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Verwalten von Feedback Richtlinien in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Benutzer in Ihrer Organisation können Feedback zu Teams an Microsoft senden lassen Sie uns wissen, wie wir vorgehen, und zwar direkt von den Desktop-und Webclients der Teams aus. Wir arbeiten ständig an der Verbesserung der Teams, und wir nutzen dieses Feedback, um Teams besser zu machen.
+
+> [!NOTE]
+> Feedback Richtlinien sind in gcc-, gcc-Hochspannungs-oder DoD-Bereitstellungen nicht verfügbar.
 
 **Das Feature "Feedback senden"**
 

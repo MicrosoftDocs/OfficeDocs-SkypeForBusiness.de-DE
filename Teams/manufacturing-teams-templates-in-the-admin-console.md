@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Teams-Fertigungs Vorlagen in der Admin-Konsole
+title: Erste Schritte mit Teams-Fertigungs Vorlagen im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Informationen zur Verwendung von. Teams-Vorlagen zum Erstellen von Teamstrukturen, die für Produktionsanforderungen entwickelt wurden, indem Sie mithilfe der Verwaltungskonsole vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
+description: Informationen zur Verwendung von. Teams-Vorlagen zum Erstellen von Teamstrukturen, die für Produktionsanforderungen entwickelt wurden, indem Sie mithilfe des Admin Centers vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308398"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424615"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>Verwenden von Teams-Fertigungs Vorlagen in der Admin-Konsole
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Verwenden von Teams-Fertigungs Vorlagen im Admin Center
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

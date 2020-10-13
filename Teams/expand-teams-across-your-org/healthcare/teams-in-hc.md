@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, Telehealth, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
+description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, virtueller Besuch, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2654eab71d240a12f544fbee3521dacd2c49a17
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367665"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433058"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -31,9 +31,9 @@ Microsoft Teams bietet eine Reihe von Funktionen, die für Krankenhäuser und an
 
 - Pflege Koordination und Zusammenarbeit
 - Sicheres Messaging
-- Telehealth
-- Integration elektronischer Gesundheitsakte (EPA) 
-- Integration von Arbeitssystemen in ersterLinie 
+- Virtueller Besuch
+- Integration elektronischer Gesundheitsakte (EPA)
+- Integration von Arbeitssystemen in ersterLinie
 
 Der Inhalt dieses Abschnitts basiert auf den grundlegenden Funktionen von Teams wie Besprechungen, anrufen und Nachrichten und geht davon aus, dass Sie bereits Teams in Ihrer Organisation bereitgestellt haben. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst, [wie Sie Microsoft Teams Ausrollen](../../How-to-roll-out-teams.md).
 
@@ -46,8 +46,6 @@ Der Inhalt dieses Abschnitts basiert auf den grundlegenden Funktionen von Teams 
 >
 >Die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung. Mit Listen können Betreuerteams mithilfe der integrierten Patienten Vorlage, von Grund auf neu oder durch Importieren von Daten nach Excel, patientenlisten erstellen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
 Microsoft Teams verfügt nun über eine speziell für Gesundheitsorganisationen spezifische Pflege Koordinierungs Lösung, die Ihnen hilft, die beste Patientenversorgung zu gewährleisten. Der Kern der Lösung zur Pflege Koordination, der Microsoft Teams patients-APP, ist eine APP des First-Party-Tabs, die mit einer schnellen Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/))-Schnittstelle integriert wird, die in das System der elektronischen Krankenakte (EPA) integriert ist, um wertvolle medizinische Informationen in Microsoft Teams zusammenzubringen, um die klinische Zusammenarbeit und Kommunikation zu ermöglichen.  
 
 Die Lösung zur Pflege Koordination kann mit führenden unabhängigen Software Anbietern (Independent Software Vendors, ISVs) verbunden werden, die die Patienten-App mithilfe vorhandener Integritätsdaten Standards wie HL7v2 und FHIR mit ihren EPA-Systemen verbinden können. Microsoft-Partner mit den folgenden Branchenführern zur Einrichtung elektronischer Integritätsdaten Satz Integration in Teams:
@@ -58,12 +56,6 @@ Die Lösung zur Pflege Koordination kann mit führenden unabhängigen Software A
 - Dapasoft (über [FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
 
 Ein EPA-Integrations-und Interop-Partner, der versucht, Microsoft Teams für eine Organisation des Gesundheitswesens zu implementieren, muss der Patienten-App eine sichere und authentifizierte Verbindung mit den EPA-Systemen des Gesundheits Dienstanbieters bereitstellen. Auf diese Weise kann der unidirektionale (schreibgeschützte) Fluss der relevanten Patientendaten in die Patienten-App übermittelt werden. Die patients-App versteht das FHIR-Format, sodass der Partner auch dafür verantwortlich ist, die aggregierten Daten aus verschiedenen anderen Formaten wie HL7v2 usw. in FHIR DSTU2 oder STU3 zu transformieren.
-
-<br>
-
-![Illustrations-Highlighting-Koordination und Zusammenarbeit](../../media/ehr-1.png)
-
-<br>
 
 Die patients-APP ist in elektronische Health Records (EPA)-Systeme integriert und ermöglicht es den Leistungserbringer, in Echtzeit innerhalb der sicheren Plattform von Teams über die Patientenversorgung zu kommunizieren. Die Patienten-APP ist die erste größere Investition in den Bereich der Pflege Koordination, die sich mit den folgenden Herausforderungen befassen soll:
 
@@ -79,13 +71,12 @@ Microsoft Teams ermöglicht es Ärzten, Klinikern, Krankenschwestern und anderen
 - Verwenden von Kanälen mit Registerkarten als Möglichkeit, ihre Arbeit zu strukturieren, mit zusätzlicher Hilfe von Registerkarten, an die Sie Informationsquellen anheften können
 - Verwenden von Kanal Besprechungen mit der Leistung von Teams für Audio-, Video-, Bildschirmfreigabe-, Aufzeichnung-und Transkriptions Funktionen zum Verwalten von täglichen Besprechungen
 - Verwenden Sie die Patienten-APP, um eine Liste von Patienten mit hoher Gefährdung zu kuratiert, die überwacht werden müssen, und ziehen Sie Ihre neuesten Informationen aus dem EPA-System. Die Patienten-APP selbst fügt Microsoft Teams die folgenden Features hinzu:
-
-    - Möglichkeit zum Erstellen mehrerer patientenlisten in einem einzigen Kanal
-    - Möglichkeit zum Anzeigen und Sortieren von Informationen, die über Patienten über konfigurierbare Spalten angezeigt werden.
-    - Möglichkeit zur automatischen Bereitstellung der APP über eine Teamvorlage
-    - Verfügbar in der Teams-App für IOS und Android für Mobile First Healthcare-Mitarbeiter sowie Microsoft Teams Web-und Desktop-Client.
-    - Unterstützung für FHIR-DSTU2-und STU3-Versionen mithilfe der Analyse der Konformitäts Anweisung.
-    - Überwachungsprotokolle für alle Ansichts-und Suchaktionen auf der Benutzeroberfläche, um Phi pro HIPAA-Richtlinien zu schützen.
+  - Möglichkeit zum Erstellen mehrerer patientenlisten in einem einzigen Kanal
+  - Möglichkeit zum Anzeigen und Sortieren von Informationen, die über Patienten über konfigurierbare Spalten angezeigt werden.
+  - Möglichkeit zur automatischen Bereitstellung der APP über eine Teamvorlage
+  - Verfügbar in der Teams-App für IOS und Android für Mobile First Healthcare-Mitarbeiter sowie Microsoft Teams Web-und Desktop-Client.
+  - Unterstützung für FHIR-DSTU2-und STU3-Versionen mithilfe der Analyse der Konformitäts Anweisung.
+  - Überwachungsprotokolle für alle Ansichts-und Suchaktionen auf der Benutzeroberfläche, um Phi pro HIPAA-Richtlinien zu schützen.
 
 Die app "Patienten" basiert auf der Erweiterungs Plattform für Teams und nutzt das Registerkarten-Framework, um umfangreiche Patienten Inhalte in einem Kanal anzuzeigen. Weitere Informationen zu anderen Teams-apps und der Plattform selbst finden Sie unter [Apps für Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
 
@@ -122,7 +113,6 @@ Secure Messaging unterstützt die Zusammenarbeit in Care Teams, einschließlich 
 
 - Ein Nachrichtenabsender kann eine besondere Priorität für seine Nachricht festzulegen, sodass der Empfänger wiederholt benachrichtigt wird, bis er die Nachricht gelesen hat.
 - Ein Nachrichtenabsender kann eine Lesebestätigung anfordern, damit er benachrichtigt wird, wenn eine von Ihnen gesendete Nachricht vom Empfänger der Nachricht gelesen wurde.
-
 
 Zusammen ermöglichen diese Features eine schnellere Berücksichtung dringender Nachrichten und die Gewissheit, dass die Nachricht empfangen und gelesen wurde. Neue Betreuerteams, die diese Funktionen verwenden, können für jeden Patienten erstellt werden. Diese Features sind Richtlinien basiert und können Einzelpersonen oder gesamten Teams zugewiesen werden.
 

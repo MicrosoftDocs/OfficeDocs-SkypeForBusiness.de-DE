@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Teams Government-Vorlagen in der Admin-Konsole
+title: Verwenden von Teams Government-Vorlagen im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Informationen zur Verwendung von. Teams-Vorlagen zum Erstellen von Teamstrukturen, die für behördliche Anforderungen entwickelt wurden, indem Sie mithilfe der Verwaltungskonsole vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
+description: Informationen zur Verwendung von. Teams-Vorlagen zum Erstellen von Teamstrukturen, die für behördliche Anforderungen entwickelt wurden, indem Sie mithilfe des Admin Centers vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308138"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424715"
 ---
-# <a name="use-teams-government-templates-in-the-admin-console"></a>Verwenden von Teams Government-Vorlagen in der Admin-Konsole
+# <a name="use-teams-government-templates-in-the-admin-center"></a>Verwenden von Teams Government-Vorlagen im Admin Center
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
