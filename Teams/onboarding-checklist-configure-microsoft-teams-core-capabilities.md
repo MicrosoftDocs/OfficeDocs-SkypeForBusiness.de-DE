@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d21e120feee26230c225e59b462e35e47e4e12e1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a1881afc4897ca6321cd56609e491aef144e10da
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665177"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456089"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Konfigurieren der Kernfunktionen von Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "44665177"
 | 4  | Konfigurieren von Mandanten weiten Einstellungen für Teams | Sie können einige Teams-Einstellungen auf Mandantenebene konfigurieren. Benutzer, die für Teams aktiviert sind, erben diese Einstellungen aus der Mandanten Konfiguration:<ul><li>Allgemein</li><li>E-Mail-Integration</li><li>Apps</li><li>Benutzerdefinierter Cloudspeicher</li><li>Anrufe und Besprechungen</li><li>Messaging</li></ul>| | [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md) |
 | 5  | Optional: Konfigurieren des Gastzugriffs | Sie verwenden Gastzugriff in Teams, um mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem Sie Ihnen Zugriff auf Teams und Kanäle gewähren. Gastzugriff ist eine Einstellung auf Mandantenebene in Teams. Diese Option ist standardmäßig deaktiviert. <br/>Aktivieren Sie den Gastzugriff, und konfigurieren Sie Mandantenweite Gasteinstellungen, wenn Ihre Organisation die Verwendung dieses Features plant. | | [Gastzugriff in Microsoft Teams](guest-access.md) |
 | 6  | Optional: Konfigurieren der Benennungsrichtlinie für Teams | Teams nutzt die Namensgebungsrichtlinien für Microsoft 365-Gruppen, wenn Benutzer Team Namen erstellen oder bearbeiten. <br/><br/>Standardmäßig werden keine Namenseinschränkungen angewendet, wenn ein Benutzer ein Team erstellt. <br/><br/>Wenn Sie Regeln für die Namen von Teams erzwingen müssen, konfigurieren Sie die Namensgebungsrichtlinien für Microsoft 365-Gruppen, die für Ihre Organisation gelten. Sie können obligatorische Präfixe und Suffixe festlegen und blockierte Wörter angeben. | | [Planen von Microsoft 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md) <br/><br/>[Benennungsrichtlinie für Microsoft 365-Gruppen](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
-| 7  | Konfigurieren von Exchange für die SMTP-Domäne "Teams" | Teams verwendet Exchange Online zum Senden von Benachrichtigungen an Teammitglieder mithilfe der SMTP-Domäne – Email.Teams.Microsoft.com – Wenn Sie hinzugefügt oder entfernt wurden. <br/><br/>Stellen Sie sicher, dass diese SMTP-Domäne der Liste der akzeptierten Domänen in Ihrer Exchange-Infrastruktur hinzugefügt wird. | | [Hinzufügen der SMTP-Domäne von Microsoft Teams als akzeptierte Domäne in Exchange Online](smtp-accepted-domain.md) |
+| 7  | Konfigurieren von Exchange für die SMTP-Domäne "Teams" | Teams verwendet Exchange Online zum Senden von Benachrichtigungen an Teammitglieder mithilfe der SMTP-Domäne – Email.Teams.Microsoft.com – Wenn Sie hinzugefügt oder entfernt wurden. <br/><br/>Stellen Sie sicher, dass diese SMTP-Domäne der Liste der akzeptierten Domänen in Ihrer Exchange-Infrastruktur hinzugefügt wird. | | [Erstellen sicherer Absenderlisten in Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365?view=o365-worldwide) |
 | 8  | Konfigurieren und Verwalten des Benutzerzugriffs auf Teams | Obwohl wir dringend empfehlen, alle Benutzer für Teams zu aktivieren, können Sie den Zugriff auf Teams pro Benutzer zulassen oder verbieten, indem Sie die Produktlizenz für Teams zuweisen oder entfernen. | | [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md) |
 | 9  | Zuweisen von Lizenzen zu Benutzern | Zuweisen von Lizenzen zu Ihren Benutzern für Funktionen wie Audiokonferenzen, Telefon System und Anrufpläne | | [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
 | 10 | Optional: Verwenden von PowerShell zum Verwalten von Teams | Sie können anstelle des Microsoft 365 admin Centers PowerShell-Cmdlets verwenden, um die Einstellungen für Teams zu verwalten und zu verwalten. | | [PowerShell für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

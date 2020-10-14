@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie mehr über den benutzerdefinierten App-Store in Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fcfaee55f73ef86f1a03e99364fde1aaa306ed8a
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359890"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456149"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Benutzerdefinierter Apps-Store in Microsoft Teams
 
@@ -43,7 +43,7 @@ Jetzt können Sie den App Store für Teams mit Ihrem Branding für Ihre Organisa
 
 Hier können Sie Ihr Firmen Logo hochladen. Das ausgewählte Logo wird im Microsoft Teams-Client in **Apps**  >  **für Ihre Mandantenseite erstellten** apps angezeigt.
 
-Wenn Sie die Option **Bild auswählen** auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 240x60 sein, oder es wird auf diese Größe skaliert. Es sollte nicht größer als 5MB sein. Folgende Formate werden unterstützt:
+Wenn Sie die Option **Bild auswählen** auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 240x60 sein, oder es wird auf diese Größe skaliert. Sie darf nicht größer als 5 MB sein. Folgende Formate werden unterstützt:
 
 - . svg
 - PNG
@@ -57,9 +57,9 @@ Das Logo wird in der oberen rechten Ecke des Mandanten-App-Katalogs im Teams-Sto
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Ihr Organisations-logomark oder kleines Logo ist ein Bild oder Symbol, das die Marke Ihrer Organisation repräsentiert und den Namen Ihres Unternehmens nicht enthält. Die logomark hilft Teammitgliedern beim Identifizieren des APP-Speichers. Das ausgewählte Logo wird auf der Seite "Teams-Client in Apps" angezeigt.
+Ihr Organisations-Lovemark oder kleines Logo ist ein Bild oder Symbol, das die Marke Ihrer Organisation repräsentiert und den Namen Ihres Unternehmens nicht enthält. Die logomark hilft Teammitgliedern beim Identifizieren des APP-Speichers. Das ausgewählte Logo wird auf der Seite "Teams-Client in Apps" angezeigt.
 
-Wenn Sie die Option **Bild auswählen** auswählen, können Sie die Datei Ihrer Wahl hochladen. Die logomark sollte 32 x 32 Pixel sein, oder Sie wird auf diese Größe skaliert. Es sollte nicht größer als 5MB sein. Folgende Formate werden unterstützt:
+Wenn Sie die Option **Bild auswählen** auswählen, können Sie die Datei Ihrer Wahl hochladen. Die logomark sollte 32 x 32 Pixel sein, oder Sie wird auf diese Größe skaliert. Sie darf nicht größer als 5 MB sein. Folgende Formate werden unterstützt:
 
 - . svg
 - PNG
@@ -78,7 +78,7 @@ Der Hintergrund sollte genügend Kontrast zu dem Text aufweisen, damit die Benut
 Sie haben nun die folgenden Optionen:
 
 - Verwenden des standardmäßigen Hintergrunddesigns für Team Client
-- Wählen Sie ein Bild aus. Wenn Sie das Hintergrundbild auswählen, können Sie die Datei Ihrer Wahl hochladen. Der Hintergrund sollte 1212x100 Pixel sein, oder er wird auf diese Größe skaliert. Es sollte nicht größer als 5MB sein. Folgende Formate werden unterstützt:
+- Wählen Sie ein Bild aus. Wenn Sie das Hintergrundbild auswählen, können Sie die Datei Ihrer Wahl hochladen. Der Hintergrund sollte 1212x100 Pixel sein, oder er wird auf diese Größe skaliert. Sie darf nicht größer als 5 MB sein. Folgende Formate werden unterstützt:
   - . svg
   - PNG
   - . jpg
@@ -100,8 +100,8 @@ Wenn Sie **eine benutzerdefinierte Farbe**auswählen auswählen, wird eine Farba
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Abschließen der Anpassung Ihres Team-apps-Speichers
 
-Wenn Sie mit dem Anpassen Ihres apps Stores fertig sind, klicken Sie auf **Speichern** , um die Änderungen zu speichern.
-Wenn Sie eine Vorschau der Änderungen anzeigen möchten, klicken Sie auf **Vorschau-App Store** , um eine Darstellung Ihres angepassten Apps Store anzuzeigen.
+Wenn Sie mit dem Anpassen Ihres apps Stores fertig sind, wählen Sie **Speichern** aus, um die Änderungen zu speichern.
+Um eine Vorschau der Änderungen anzuzeigen, wählen Sie **Vorschau des App-Stores** aus, um eine Darstellung Ihres angepassten Apps Store anzuzeigen.
 
 > [!Note]
 > Die Darstellung kann von der endgültigen Version Ihres angepassten APP-Speichers abweichen, da einige Standardfarben auf der Version des Teams-Clients Ihrer Benutzer basieren.

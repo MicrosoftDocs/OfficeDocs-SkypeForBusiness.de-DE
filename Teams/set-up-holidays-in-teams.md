@@ -19,25 +19,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie Feiertage in Microsoft Teams einrichten und mit der automatischen Telefonzentrale mithilfe der Funktion "Feiertage" verbinden.
-ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: Hier erfahren Sie, wie Sie Feiertage in Microsoft Teams für die Verwendung mit ihren automatischen Telefonzentralen einrichten.
+ms.openlocfilehash: cac41995f8faa072eaac2596d246808ac77fe431
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255408"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444246"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
-Sie können die Microsoft Teams Holidays-Funktion verwenden, um bestimmte Datums-und Uhrzeitangaben zu planen, in denen Personen in Ihrer Organisation Zeit für die Arbeit frei nehmen und während regulärer Geschäftszeiten nicht zur Verfügung stehen. 
+Sie können die Funktion "Teams Feiertage" verwenden, um bestimmte Datums-und Uhrzeitangaben zu planen, in denen Personen in Ihrer Organisation Arbeitszeiten abnehmen und nicht verfügbar sind. So können Sie beispielsweise einen Feiertag für das Neujahr erstellen, wenn viele ihrer Mitarbeiter nicht am Arbeitsplatz sind.
 
-Sie können die Feiertage mit automatischen Telefonzentralen verknüpfen, die Sie in Ihrer Organisation erstellen. Mit automatischen Telefonzentralen können Anrufer in einem Menü System navigieren, um zur richtigen Abteilung zu gelangen oder um Informationen zu erhalten, die Sie benötigen. Wenn Sie die Einstellungen für den Feiertags Anruf für eine automatische Telefonzentrale konfigurieren, können Sie den Feiertag aus einer Liste auswählen, eine Begrüßung hinzufügen und angeben, was mit dem Anruf zu tun ist, wenn er von der automatischen Telefonzentrale während des Urlaubs beantwortet wird.
-
-Ein gutes Beispiel ist das Erstellen eines weihnachtsfeiertags, wenn viele ihrer Mitarbeiter nicht am Arbeitsplatz sind. Nachdem Sie das Feiertags-und festgelegte Uhrzeiten erstellt haben, fügen Sie den Feiertag Ihrer Haupt-Telefonzentrale hinzu, damit die Personen, die Sie angerufen haben, eine von Ihnen erstellte Audionachricht hören. So etwas wie: "Wir sind für Weihnachten vom 22. Dezember bis 27. Dezember geschlossen. Bitte geben Sie uns eine Sprachnachricht, damit wir Ihren Anruf zurückgeben können, wenn wir wieder im Büro sind. "
-
-Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was sind automatische Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md)?  
+Die hier erstellten Feiertage stehen zur Verfügung, wenn Sie [eine automatische Telefonzentrale einrichten](create-a-phone-system-auto-attendant.md), die jeweils eigene Gruß-und Anrufweiterleitungseinstellungen hat.
 
 ## <a name="create-a-holiday"></a>Erstellen eines Feiertags
+
+So erstellen Sie einen Feiertag:
 
 1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen**  >  **Feiertage**.
 
@@ -55,9 +53,15 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was si
 
 8. Verwenden Sie die Dropdownliste, um eine Endzeit für den Feiertag auszuwählen.
 
-9. Wählen Sie **Speichern**aus.
+9. Optional können Sie weitere Datumsangaben für wiederkehrende Feiertage hinzufügen.
+
+10. Wählen Sie **Speichern**aus.
+
+    ![](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Ändern eines Feiertags
+
+So ändern Sie einen Feiertag:
 
 1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen**  >  **Feiertage**.
 
@@ -73,21 +77,6 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was si
 
 7. Wählen Sie **Speichern**aus.
 
-## <a name="connect-a-holiday-to-an-auto-attendant"></a>Verbinden eines Feiertags mit einer automatischen Telefonzentrale
-
-1. Wechseln Sie im Microsoft Teams Admin Center zu **VoIP**-  >  **Telefonzentralen**.
-2. Wählen Sie ein Ressourcenkonto in der Liste aus.
-3. Wählen Sie im linken Bereich **Feiertags Anrufeinstellungen**aus.
-4. Wählen Sie **neue Feiertage**aus.
-5. Wählen Sie den Feiertag in der Dropdown-Liste aus.
-6. Sie können eine optionale Begrüßung hinzufügen:
-    - Wenn Sie eine aufgezeichnete Ansage wiedergeben möchten, wählen Sie **Audiodatei wiedergeben**aus, und wählen Sie **Datei hochladen**aus. Navigieren Sie zum Speicherort der Audiodatei, wählen Sie die Datei aus, und wählen Sie dann **Öffnen**aus.
-    - Wenn Sie eine Begrüßung erstellen möchten, wählen Sie **Grußnachricht eingeben**aus, und geben Sie dann Ihre Nachricht ein. Die Anrufer hören diese Nachricht, wenn Sie keine Audiodatei angegeben haben.
-7. Wenn Sie den Anruf nach der Begrüßung beenden möchten, wählen Sie unter **Aktionen**die Option **trennen**aus. 
-
-    Wenn Sie den Anruf umleiten möchten, wählen Sie **Anruf umleiten**aus, und wählen Sie dann die Person aus, die den umgeleiteten Anruf aus der Dropdown-Liste erhält, oder suchen Sie nach der Person mit dem Anzeigenamen.
-8. Wählen Sie **Speichern**aus.
-
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Was sind automatische Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md)?
+[Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams](plan-auto-attendant-call-queue.md)

@@ -4,11 +4,9 @@ ms.reviewer: kblevins
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 04/16/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-description: In diesem Artikel erfahren Sie, wie Microsoft 365-Gruppen und Gruppenmitgliedschaften mit Microsoft Teams zusammenarbeiten.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,48 +16,44 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b76dd455aa2ec4e478254f6a4dbaceefc57562b
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+description: Erfahren Sie, wie Microsoft 365-Gruppen und Gruppenmitgliedschaften mit Microsoft Teams zusammenarbeiten.
+ms.openlocfilehash: a4227432ab3557ca5e74ee5a769641185c1e432c
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262382"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456079"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365-Gruppen und Microsoft Teams
 
-> [!Tip]
-> Schauen Sie sich die folgende Sitzung an, um zu erfahren, wie Teams mit Azure Active Directory (Azure AD), Microsoft 365 Groups, Exchange, SharePoint und OneDrive for Business interagieren: [Grundlagen von Microsoft Teams](https://aka.ms/teams-foundations)
+Microsoft 365 Groups ist der Anwendungsübergreifende Mitgliedschaftsdienst in Microsoft 365. Auf grundlegender Ebene ist eine Microsoft 365-Gruppe ein Objekt in Azure Active Directory mit einer Liste von Mitgliedern und einer Kopplung mit zugehörigen Arbeitslasten, einschließlich einer SharePoint-Teamwebsite, einem freigegebenen Exchange-Postfach, Planner und Power BI-Arbeitsbereich. Sie können Personen zur Gruppe hinzufügen oder daraus entfernen, genau so, wie Sie es mit anderen gruppenbasierten Sicherheitsobjekten in Active Directory tun würden.
 
-Microsoft 365 Groups ist der Anwendungsübergreifende Mitgliedschaftsdienst in Office 365. Auf der grundlegenden Ebene ist eine Microsoft 365-Gruppe ein Objekt in Azure Active Directory mit einer Liste von Mitgliedern und einer losen Kopplung an verwandte Arbeitslasten, einschließlich einer SharePoint-Teamwebsite, einer Gruppe "jammern", freigegebenen Exchange-Postfachressourcen, Planner, Power BI und OneNote. Sie können Personen zur Gruppe hinzufügen oder daraus entfernen, genau so, wie Sie es mit anderen gruppenbasierten Sicherheitsobjekten in Active Directory tun würden.
+![Diagramm mit Microsoft 365-Gruppen und zugehörigen Diensten](https://docs.microsoft.com/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
-Ein Office 365-Administrator kann eine Microsoft 365-Gruppe definieren, Mitglieder hinzufügen und von Features wie einem freigegebenen Exchange-Postfach, einer SharePoint-Dokumentbibliothek, einer Gruppe "jammern" usw. profitieren. Weitere Informationen zu Microsoft 365-Gruppen finden Sie unter Informationen [zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Standardmäßig können Benutzer in Microsoft 365 Gruppen erstellen und verwalten. Weitere Informationen zu Microsoft 365-Gruppen finden Sie unter Informationen [zu Microsoft 365-Gruppen](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) und den [Gruppen in Microsoft 365 für IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365) -Poster.
 
-Das Poster [Gruppen in Microsoft 365 für IT-Architekten](teams-architecture-solutions-posters.md#groups-in-microsoft-365) dürfte Sie ebenfalls interessieren.
+## <a name="how-microsoft-365-groups-work-with-teams"></a>Funktionsweise von Microsoft 365-Gruppen mit Teams
 
-<a name="how-microsoft-365-groups-work"></a>Funktionsweise von Microsoft 365-Gruppen
---------------------------
+Wenn Sie ein Team erstellen, wird eine Microsoft 365-Gruppe erstellt, um die Teammitgliedschaft zu verwalten. Die zugehörigen Dienste der Gruppe, beispielsweise eine SharePoint-Website, Power BI-Arbeitsbereich usw., werden gleichzeitig erstellt.
 
-Wenn Sie ein Team erstellen, erstellen Sie im Back-End eine Microsoft 365-Gruppe und die zugehörige SharePoint-Dokumentbibliothek und das OneNote-Notizbuch sowie Verbindungen zu anderen Office 365-Cloud-Anwendungen. Wenn die Person, die das Team erstellt, ein Besitzer einer vorhandenen öffentlichen oder privaten Gruppe von Office 365 ist, können Sie der Gruppe Teamfunktionen hinzufügen, wenn die Anzahl der Mitglieder in der Gruppe innerhalb der in den [Grenzwerten und Spezifikationen für Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) angegebenen Grenzwerte liegt und die Gruppe nie zu Teams hinzugefügt wurde. Dadurch wird ein **Allgemein**-Standardkanal erstellt, in dem sich Chatnachrichten, Dokumente, OneNote und andere Objekte befinden. Wenn Sie die Dokumentbibliothek für den Kanal anzeigen, wird der **Allgemein**- Ordner angezeigt, der den Kanal im Team darstellt. Noch wichtiger ist: Wenn Sie eine eigene Ordnerstruktur in einer Dokumentbibliothek erstellen, **wird diese nicht als Kanal an Teams weitergegeben**. Gegenwärtig ist die Flussrichtung ausschließlich von Teams zu SharePoint.
+Personen, die Teams erstellen, können eine vorhandene Microsoft 365-Gruppe verwenden, wenn Sie ein Besitzer dieser Gruppe sind. Jeder Kanal im Team verfügt über einen separaten Ordner in der Dokumentbibliothek. Durch das direkte Erstellen von Ordnern in der Dokumentbibliothek werden keine Kanäle im Team erstellt.
 
-> [!NOTE]
-> Basierend auf Kundenfeedback werden neue Microsoft 365-Gruppen, die als Ergebnis des Erstellens eines Teams in Microsoft Teams-Client generiert werden, standardmäßig nicht mehr in Outlook angezeigt. Verwenden Sie das Cmdlet " [Satz-Unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) " mit dem **HiddenFromExchangeClientsEnabled** -Parameter, um die Anzeige von Gruppen in Outlook zu aktivieren oder zu deaktivieren. Gruppen, die über Outlook erstellt und dann später für Microsoft Teams aktiviert wurden, werden weiterhin in Outlook und in Microsoft Teams angezeigt. 
+Wenn Sie eine Microsoft 365-Gruppe in Outlook oder SharePoint erstellen, wird das Gruppenpostfach in Outlook angezeigt. Wenn Sie ein Team in Teams erstellen, ist das Gruppenpostfach standardmäßig ausgeblendet. Sie können das Cmdlet " [Satz-Unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) " mit dem **HiddenFromExchangeClientsEnabled** -Parameter verwenden, um ein Postfach sichtbar zu machen.
 
-> [!NOTE]
-> Wenn Sie eine Microsoft 365-Gruppe löschen, wird der Post Fach Alias für beständige Outlook/OWA-Unterhaltungen und Teams-Besprechungseinladungen entfernt, und die SharePoint-Website wird zum Löschen markiert. Es dauert ungefähr 20 Minuten, bis sich die Entfernung eines Teams auf Outlook auswirkt. Durch das Löschen eines Teams vom Teams-Client wird dieses sofort für alle Mitglieder des Teams ausgeblendet. Wenn Sie Mitglieder einer Microsoft 365-Gruppe entfernen, für die die Funktion Teams aktiviert war, kann es eine Verzögerung von etwa zwei Stunden geben, bevor das Team für die betroffenen Personen aus der Ansicht entfernt wird, die entfernt wurden.
->
->Informationen zum Wiederherstellen einer gelöschten Microsoft 365-Gruppe finden Sie [hier](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) .
+## <a name="group-membership"></a>Gruppenmitgliedschaft
 
-<a name="group-membership"></a>Gruppenmitgliedschaft
-----------------
+Wenn Sie ein Mitglied eines Teams entfernen, werden diese auch aus der Microsoft 365-Gruppe entfernt. Durch das Entfernen aus der Gruppe werden das Team und die Kanäle unmittelbar vom Teams-Client entfernt. Wenn Sie eine Person aus einer Gruppe über das Microsoft 365-Admin Center entfernen, hat diese keinen Zugriff mehr auf die anderen kollaborativen Elementen wie die SharePoint Online-Dokumentbibliothek, die Yammer-Gruppe oder freigegebene OneNote. Sie haben jedoch für etwa zwei Stunden weiterhin Zugriff auf die Chatfunktion des Teams.
 
-Die Gruppenfeatures und -funktionen für Ihre Benutzer sind davon abhängig, von wo aus Sie die Gruppenmitgliedschaft verwalten. Wenn Sie beispielsweise ein Mitglied eines Teams entfernen, werden diese auch aus der Microsoft 365-Gruppe entfernt. Durch das Entfernen aus der Gruppe werden das Team und die Kanäle unmittelbar vom Teams-Client entfernt. Wenn Sie eine Person aus einer Gruppe über das Microsoft 365-Admin Center entfernen, hat diese keinen Zugriff mehr auf die anderen kollaborativen Elementen wie die SharePoint Online-Dokumentbibliothek, die Yammer-Gruppe oder freigegebene OneNote. Sie haben jedoch für etwa zwei Stunden weiterhin Zugriff auf die Chatfunktion des Teams.
+Als bewährte Methode zum Verwalten von Teammitgliedern können Sie Sie dem Teams-Client hinzufügen und daraus entfernen, um sicherzustellen, dass Berechtigungs Updates für andere mit der Gruppe verbundene Arbeitslasten schnell erfolgen. Wenn Sie Teammitglieder außerhalb des Teams-Clients (mithilfe von Microsoft 365 Admin Center, Azure AD oder Exchange Online PowerShell) hinzufügen oder entfernen, kann es bis zu 24 Stunden dauern, bis Änderungen in Teams wiedergegeben werden.
 
-Eine bewährte Methode zum Verwalten von Teammitgliedern besteht darin, Mitglieder über den Teams-Client hinzuzufügen und zu entfernen, um sicherzustellen, dass die Weitergabe der Zugriffssteuerung an andere abhängige Cloud-Anwendungen ordnungsgemäß angewendet wird. Darüber hinaus wird dadurch vermieden, dass Benutzer den Eindruck haben, weiterhin auf die gewohnten Ressourcen zugreifen zu können (bis beim nächsten Synchronisierungszyklus der Zugriff auf eine bestimmte Komponente des Dienstes hinzugefügt oder widerrufen wird).  Wenn Sie Teammitglieder außerhalb des Teams-Clients (mithilfe von Microsoft 365 Admin Center, Azure AD oder Exchange Online PowerShell) hinzufügen oder entfernen, kann es bis zu 24 Stunden dauern (in einigen Fällen mehr), damit Änderungen in Teams widergespiegelt werden.
+## <a name="deleting-groups-and-teams"></a>Löschen von Gruppen und Teams
 
-<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>Möglichkeit zum Hinzufügen einer Gruppe als Teilnehmer beim Planen von Besprechungen
-----------------------------------------------------------
+Wenn Sie eine Microsoft 365-Gruppe löschen, wird der Post Fach Alias für beständige Outlook/OWA-Unterhaltungen und Teams-Besprechungseinladungen entfernt, und die SharePoint-Website wird zum Löschen markiert. Es dauert ungefähr 20 Minuten, bis sich die Entfernung eines Teams auf Outlook auswirkt. Durch das Löschen eines Teams vom Teams-Client wird dieses sofort für alle Mitglieder des Teams ausgeblendet. Wenn Sie Mitglieder einer Microsoft 365-Gruppe entfernen, für die die Funktion Teams aktiviert war, kann es eine Verzögerung von etwa zwei Stunden geben, bevor das Team für die betroffenen Personen aus der Ansicht entfernt wird, die entfernt wurden.
 
-Ab Mai 2020 können Sie nun eine Gruppe zu einer geplanten Besprechung einladen, mit den folgenden Einschränkungen:
-1. Alle vorhandenen Microsoft 365-Gruppen und-Teams, die aus vorhandenen Microsoft 365-Gruppen erstellt wurden, sind durchsuchbar und können der Besprechung hinzugefügt werden. Mitglieder erhalten die Besprechungseinladung jedoch auf Grundlage Ihres Abonnements für die Gruppe.
-2. Teams, die vor dem 2018. Mai neu erstellt wurden, sind ebenfalls suchbar, aber die Mitglieder empfangen die Besprechungseinladung nicht aufgrund Ihres standardmäßigen gruppenabonnements, das "nur Antworten auf Sie" ist. Dies kann in Outlook geändert werden, indem die Gruppeneinstellungen geändert werden.
-3. Teams, die nach Mai 2018 von Grund auf neu erstellt wurden, sind nicht durchsuchbar und werden mithilfe der Eigenschaft "HiddenFromAddressListsEnabled" ausgeblendet. Hierbei handelt es sich um eine vom Administrator gesteuerte Einstellung, die vom Administrator geändert werden kann.
+Details zu den Optionen für das Ende des Lebenszyklus von Gruppen und Teams finden Sie unter  [Optionen für das Ende des Lebenszyklus für Gruppen, Teams und jammern](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) sowie zum [archivieren oder Löschen eines Teams in Microsoft Teams](https://docs.microsoft.com/microsoftteams/archive-or-delete-a-team).
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Grundlagen von Microsoft Teams (Video)](https://aka.ms/teams-foundations)
+
+[Wiederherstellen einer gelöschten Gruppe](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)

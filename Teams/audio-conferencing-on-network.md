@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im folgenden wird die Funktion zum Öffnen der Vorschau für das Netzwerk für Audiokonferenzen beschrieben.
-ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369180"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444211"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Öffnen der Vorschau von Netzwerk Konferenzen für Audiokonferenzen
 
@@ -38,7 +38,7 @@ In diesem Artikel werden die Voraussetzungen und Konfigurationsschritte beschrie
 
 Bevor Sie Netzwerk Konferenzen konfigurieren, müssen Sie sicherstellen, dass Ihre Organisation die folgenden Voraussetzungen erfüllt: 
 
-- Stellen Sie sicher, dass alle Benutzer in Ihrer Organisation, die für Audiokonferenzen aktiviert oder aktiviert werden, nur im Modus "nur in Teams" aufgeführt sind. Die Weiterleitung von eingehenden und ausgehenden Audiokonferenz-anrufen über Netzwerk Konferenzen wird nur für Teams-Besprechungen unterstützt.
+- Stellen Sie sicher, dass alle Benutzer in Ihrer Organisation, die für Audiokonferenzen aktiviert sind oder aktiviert werden, Teams für alle Besprechungen verwenden. Die Weiterleitung von eingehenden und ausgehenden Audiokonferenz-anrufen über Netzwerk Konferenzen wird nur für Teams-Besprechungen unterstützt.
 
 - Weisen Sie allen Benutzern, die eine Netzwerkkonferenz verwenden werden, Audiokonferenz-Lizenzen zu.
 
@@ -67,8 +67,8 @@ Sie müssen eine Richtlinie für die Audiokonferenz-Routing Richtlinie mit dem N
 
 Die OnlineAudioConferencingRoutingPolicy-Richtlinie entspricht den CsOnlineVoiceRoutingPolicy für 1:1-PSTN-Anrufe über direkte Weiterleitung. Die OnlineAudioConferencingRoutingPolicy-Richtlinie kann mithilfe der folgenden Cmdlets verwaltet werden:
 
--   Neu – CsOnlineAudioConferencingRoutingPolicy
-- Satz-CsOnlineAudioConferencingRoutingPolicy
+-   New-CsOnlineAudioConferencingRoutingPolicy
+- Set-CsOnlineAudioConferencingRoutingPolicy
 - Get-CsOnlineAudioConferencingRoutingPolicy
 - Grant-CsOnlineAudioConferencingRoutingPolicy
 - Remove-CsOnlineAudioConferencingRoutingPolicy
@@ -101,7 +101,7 @@ PSTN-Nutzungen sind Sammlungen von VoIP-Routen. Wenn ein Auswähl-Anruf aus der 
 
 Sie können eine PSTN-Nutzung mithilfe des Cmdlets "festgelegte CsOnlinePstnUsage" erstellen. Beispiel:
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -111,7 +111,7 @@ VoIP-Routen bestimmen das PSTN-Gateway, das zum Weiterleiten eines Anrufs basier
 
 Mithilfe des Cmdlets "New-CsOnlineVoiceRoute" können Sie eine VoIP-Route erstellen und die Regex und Gateways definieren, die mit der VoIP-Route verknüpft werden sollen. Beispiel:
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -121,7 +121,7 @@ Audiokonferenz-VoIP-Routing Richtlinien ermitteln die möglichen Routen, die ver
 
 Mit dem Cmdlet "New-CsOnlineAudioConferencingRoutingPolicy" können Sie eine VoIP-Routing Richtlinie für Audiokonferenzen erstellen. Beispiel:
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -133,14 +133,14 @@ Nachdem Sie die Richtlinien für die Audiokonferenz-Routing definiert haben, kö
 
 Sie können einem Benutzer mithilfe des Cmdlets "Grant-CsOnlineAudioConferencingRoutingPolicy" eine VoIP-Routing Richtlinie für Audiokonferenzen zuweisen. Beispiel:
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Konfigurieren des Routings für die Telefonieanlagen Ihrer Organisation
 
-Auf der Telefonieanlage Ihrer Organisation müssen Sie sicherstellen, dass die durch direkte Weiterleitung geleiteten Wähl Anrufe an das vorgesehene Ziel weitergeleitet werden.
+Auf der Telefonieanlage Ihrer Organisation müssen Sie sicherstellen, dass die durch direkte Weiterleitung geleiteten Wähl Anruf Anrufe an das beabsichtigte Netzwerkziel weitergeleitet werden.
 
 
 ### <a name="optional-configure-a-dial-plan"></a>Optional Konfigurieren eines Wählplans
