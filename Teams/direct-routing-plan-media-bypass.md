@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die medienumgehung mit dem direkt Routing von Telefonsystemen planen, mit dem Sie den Pfad des Medien Verkehrs verkürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691251"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469581"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -36,7 +36,8 @@ Die folgenden Diagramme veranschaulichen den Unterschied beim Anruffluss mit und
 
 Ohne medienumgehung wird, wenn ein Client einen Anruf tätigt oder empfängt, sowohl der Signalisierungs-als auch der Medienfluss zwischen dem SBC, dem Microsoft Phone-System und dem Teams-Client erfolgen, wie in der folgenden Abbildung dargestellt:
 
-![Zeigt Signalisierungs-und Medienfluss ohne medienumgehung](media/direct-routing-media-bypass-1.png)
+> [!div class="mx-imgBorder"]
+> ![Zeigt Signalisierungs-und Medienfluss ohne medienumgehung](media/direct-routing-media-bypass-1.png)
 
 
 Angenommen, ein Benutzer befindet sich im selben Gebäude oder Netzwerk wie der SBC. Angenommen, ein Benutzer, der sich in einem Gebäude in Frankfurt befindet, führt einen Anruf an einen PSTN-Benutzer durch: 
@@ -47,7 +48,8 @@ Angenommen, ein Benutzer befindet sich im selben Gebäude oder Netzwerk wie der 
 
 - **Bei der medienumgehung**wird das Medium direkt zwischen dem Team Benutzer und dem SBC aufbewahrt, wie in der folgenden Abbildung dargestellt:
 
-![Zeigt Signalisierungs-und Medienfluss mit medienumgehung](media/direct-routing-media-bypass-2.png)
+  > [!div class="mx-imgBorder"]
+  > ![Zeigt Signalisierungs-und Medienfluss mit medienumgehung](media/direct-routing-media-bypass-2.png)
 
 Die medienumgehung nutzt die Protokolle namens Interactive Connectivity Establishment (ICE) auf dem Microsoft Teams-Client und Ice lite auf dem SBC. Mithilfe dieser Protokolle können Sie Direktes Routing verwenden, um den direktesten Medienpfad für optimale Qualität zu verwenden. Ice und Ice lite sind WebRTC-Standards. Ausführliche Informationen zu diesen Protokollen finden Sie unter RFC 5245.
 
@@ -68,11 +70,12 @@ Wenn der Benutzer direkten Zugriff auf die öffentliche IP-Adresse des SBC hat, 
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert ist, der Client intern ist und der Client die öffentliche IP-Adresse des SBC (Direct Media) erreichen kann: 
 
-- Die Pfeile und numerischen Werte der Pfade entsprechen dem [Microsoft Teams Call Flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) -Artikel.
+- Die Pfeile und numerischen Werte der Pfade entsprechen den [Microsoft Teams-Anruf strömen](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
 
 - Das SIP-Signal nimmt immer die Pfade 4 und 4 auf (je nach Verkehrsrichtung). Das Medium bleibt lokal und nimmt den Pfad 5B.
 
-![Anzeige des Anrufflusses mit aktivierter medienumgehung, Client ist intern](media/direct-routing-media-bypass-3.png)
+> [!div class="mx-imgBorder"]
+> ![Anzeige des Anrufflusses mit aktivierter medienumgehung, Client ist intern](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Anruffluss, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat
@@ -88,11 +91,12 @@ Angenommen, der Benutzer ist extern, und der mandantenadministrator hat entschie
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert ist, der Client ist extern, und der Client kann die öffentliche IP-Adresse des Session Border Controllers nicht erreichen (Medien werden von Teams Transport Relay weitergeleitet).
 
-- Die Pfeile und numerischen Werte der Pfade entsprechen dem [Microsoft Teams Call Flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) -Artikel.
+- Die Pfeile und numerischen Werte der Pfade entsprechen den [Microsoft Teams-Anruf strömen](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
 
 - Medien werden über die Pfade 3, 3 ', 4 und 4 ' weitergeleitet
 
-![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat](media/direct-routing-media-bypass-4.png)
+> [!div class="mx-imgBorder"]
+> ![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Anruffluss, wenn sich ein Benutzer außerhalb des Netzwerks befindet und Zugriff auf die öffentliche IP des SBC hat
@@ -106,7 +110,8 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert is
 
 - Das SIP-Signal nimmt immer die Pfade 3 und 3 auf (abhängig von der Richtung des Datenverkehrs). Mediendatenströme mit Pfad 2.
 
-![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat](media/direct-routing-media-bypass-5.png)
+> [!div class="mx-imgBorder"]
+> ![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Verwendung von Medien Prozessoren und Transport-Relays
@@ -126,7 +131,8 @@ Das folgende Diagramm zeigt zwei Anruf Flüsse: eine mit aktivierter medienumgeh
 
 - Der SIP-Proxy ist eine Komponente, die http-Ruhe Signalisierungen übersetzt, die in Teams für SIP verwendet werden.    
 
-![Zeigt Anruf Flüsse mit aktivierter und deaktivierter medienumgehung](media/direct-routing-media-bypass-6.png)
+> [!div class="mx-imgBorder"]
+> ![Zeigt Anruf Flüsse mit aktivierter und deaktivierter medienumgehung](media/direct-routing-media-bypass-6.png)
 
 
 In der nachstehenden Tabelle werden die Unterschiede zwischen Medien Prozessoren und Transport-Relays zusammengefasst.
@@ -143,7 +149,7 @@ Die IP-Bereiche sind:
 - 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254)
 - 52.120.0.0/14 (IP-Adressen von 52.120.0.1 zu 52.123.255.254)
 
-\*Erläuterung der Transcodierung: 
+\* Erläuterung der Transcodierung: 
 
 - Der medienprozessor ist B2BUA, was bedeutet, dass er einen Codec ändern kann (beispielsweise Seide vom Microsoft Teams-Client zu MP und G. 711 zwischen MP und SBC).
 
@@ -190,6 +196,8 @@ Sie müssen diese drei FQDNs platzieren, um Folgendes zu tun:
 Die FQDNs **SIP.pstnhub.Microsoft.com**, **sip2.pstnhub.Microsoft.com**und **sip3.pstnhub.Microsoft.com** werden in eine der folgenden IP-Adressen aufgelöst:
 - 52.114.148.0
 - 52.114.132.46
+- 52.114.16.74
+- 52.114.20.29
 - 52.114.75.24
 - 52.114.76.76
 - 52.114.7.24
@@ -346,8 +354,8 @@ Benutzer mit Medien Umgehungs trunk | 20 | sbc2.contoso.com:5061 | false |
 
 Beide Trunks können auf denselben SBC mit der gleichen öffentlichen IP-Adresse verweisen. Die TLS-Signalisierungs Anschlüsse auf dem SBC müssen unterschiedlich sein, wie in der nachstehenden Abbildung zu sehen ist. Hinweis Sie müssen sicherstellen, dass Ihr Zertifikat beide Trunks unterstützt. In San benötigen Sie zwei Namen (**sbc1.contoso.com** und **sbc2.contoso.com**) oder ein Platzhalterzertifikat.
 
-
-![Zeigt, dass beide Trunks auf denselben SBC mit der gleichen öffentlichen IP-Adresse verweisen können.](media/direct-routing-media-bypass-7.png)
+> [!div class="mx-imgBorder"]
+> ![Zeigt, dass beide Trunks auf denselben SBC mit der gleichen öffentlichen IP-Adresse verweisen können.](media/direct-routing-media-bypass-7.png)
 
 Informationen zum Konfigurieren von zwei Stämmen im gleichen SBC finden Sie in der Dokumentation Ihres SBC-Anbieters:
 
@@ -362,7 +370,7 @@ Die medienumgehung wird für alle Teams-Desktop Clients und Teams-Telefongeräte
 
 Für alle anderen Endpunkte, die keine medienumgehung unterstützen, wird der Anruf an non-Bypass abgestellt, auch wenn er als Bypass-Anruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen des Administrators. Dazu gehören Skype for Business 3PIP-Telefone und Teams-Webclients, die direkte Routing Anrufe unterstützen (neuer Microsoft Edge basierend auf Chrom, Google Chrome, Mozilla Firefox). 
  
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Konfigurieren der Medienumgehung mit direktem Routing](direct-routing-configure-media-bypass.md)
 
