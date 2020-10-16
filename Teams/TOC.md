@@ -770,7 +770,7 @@
 ### [Übersicht über die Zugriffssteuerung](policy-control-overview.md)
 ### [Mobile Diagnosedaten](policy-control-diagnostic-data-mobile.md)
 ### [Diagnosedaten für Desktop Clients](policy-control-diagnostic-data-desktop.md)
-### [Übersicht über die optionalen verbundenen Erfahrungen in Microsoft Teams](teams-privacy-oce-overview.md)
+### [Optionale verbundene Erfahrung](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
@@ -882,8 +882,8 @@
 ### [Teams PowerShell installieren](teams-powershell-install.md)
 ### [Teams mit Teams PowerShell verwalten](teams-powershell-managing-teams.md)
 ### [Team PowerShell – Anmerkungen zu dieser Version](teams-powershell-release-notes.md)
+### [Wechseln vom Skype for Business Online-Connector zum PowerShell-Modul von Teams](teams-powershell-move-from-sfbo.md)
 ### [Cmdlet-Referenz für Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Entwicklerdokumentation für Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Hilfe in Teams abrufen](get-help-in-microsoft-teams.md)
 ## [Updates von Teams-Inhalten](teams-updates.md)
