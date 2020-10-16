@@ -17,17 +17,17 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486780"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
 
-Als Administrator können Sie auf der Seite "Apps verwalten" im Microsoft Teams Admin Center alle Teams-Apps für Ihre Organisation anzeigen und verwalten. Hier können Sie den Status und die Eigenschaften von apps auf Organisationsebene anzeigen, neue benutzerdefinierte apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf org-Ebene blockieren oder zulassen, apps zu Teams hinzufügen (in der Vorschau), Dienste für Drittanbieter-apps kaufen, die von apps angeforderten Berechtigungen anzeigen, die Zustimmung des Administrators zu apps erteilen und die App-Einstellungen für
+Als Administrator können Sie auf der Seite "Apps verwalten" im Microsoft Teams Admin Center alle Teams-Apps für Ihre Organisation anzeigen und verwalten. Hier können Sie den Status und die Eigenschaften von apps auf Organisationsebene anzeigen, neue benutzerdefinierte apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf org-Ebene blockieren oder zulassen, apps zu Teams hinzufügen, Dienste für Drittanbieter-apps kaufen, die von apps angeforderten Berechtigungen anzeigen, die Zustimmung des Administrators zu apps erteilen und die organisationsweiten App-Einstellungen verwalten.
 
 Auf der Seite "Apps verwalten" erhalten Sie einen Überblick über alle verfügbaren apps, sodass Sie über die erforderlichen Informationen verfügen, um zu entscheiden, welche apps in Ihrer Organisation zugelassen oder blockiert werden sollen. Sie können dann [App-Berechtigungsrichtlinien](teams-app-permission-policies.md), [App-Setup Richtlinien](teams-app-setup-policies.md)und [benutzerdefinierte App-Richtlinien und-Einstellungen](teams-custom-app-policies-and-settings.md) verwenden, um die APP-Umgebung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren.
 
@@ -108,8 +108,6 @@ Wenn Sie eine APP auf der Seite "Apps verwalten" blockieren oder zulassen, wird 
  > Wenn Sie eine APP deinstallieren möchten, klicken Sie mit der rechten Maustaste auf die APP, und klicken Sie dann auf **deinstallieren** oder verwenden Sie das Menü **Weitere apps** auf der linken Seite.
 
 ## <a name="add-an-app-to-a-team"></a>Hinzufügen einer APP zu einem Team
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Sie verwenden die Schaltfläche **zum Team hinzufügen** , um eine app in einem Team zu installieren. Beachten Sie, dass dies nur für apps gilt, die in einem Teambereich installiert werden können. Die Schaltfläche **zum Team hinzufügen** steht für apps, die nur im persönlichen Bereich installiert werden können, nicht zur Verfügung.
 

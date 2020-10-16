@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486760"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>PSTN-Überlegungen beim Upgrade auf Teams &mdash; für IT-Administratoren
 
@@ -44,7 +44,8 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und K
 
 
  > [!NOTE]
- > Die Verwendung von Telefonsystemen mit Teams wird nur unterstützt, wenn sich der Benutzer im TeamsOnly-Modus befindet.  Wenn sich der Benutzer im Modus "Inseln" befindet, wird das Telefon System nur von Skype for Business unterstützt. 
+ > - Die Verwendung von Telefonsystemen mit Teams wird nur unterstützt, wenn sich der Benutzer im TeamsOnly-Modus befindet.  Wenn sich der Benutzer im Modus "Inseln" befindet, wird das Telefon System nur von Skype for Business unterstützt. 
+ > - Alle Anruf Weiterleitungs-und Delegierungseinstellungen von Skype for Business werden nicht migriert und müssen für Teams neu erstellt werden.
 
 
 ## <a name="pstn-calling-scenarios"></a>Szenarien für PSTN-Anrufe

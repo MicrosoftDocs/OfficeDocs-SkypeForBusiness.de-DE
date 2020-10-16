@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416860"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476650"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -43,7 +43,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
-|Videoanrufe und Besprechungen|<ul><li>Erfordert 2-Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate empfiehlt sich ein 4-Core-Prozessor oder besser.</li> <li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Raum ist Bluetooth Le erforderlich, für die Bluetooth auf dem Clientgerät aktiviert werden muss, und für Windows-Clients ist auch der 64-Bit-Client für Teams erforderlich. Dieses Feature ist auf Clients mit 32-Bit-Teams nicht verfügbar.</li></ul> |
+|Videoanrufe und Besprechungen|<ul><li>Erfordert 2-Core-Prozessor. Für höhere Video-und Bildschirmfreigabe Auflösung und Bildrate empfiehlt sich ein 4-Core-Prozessor oder besser.</li> <li>Für Hintergrund Videoeffekte ist Windows 10 oder ein Prozessor mit AVX2-Befehlssatz erforderlich.</li> <li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe der Näherungs Erkennung in einem Microsoft Teams-Raum ist Bluetooth Le erforderlich, für die Bluetooth auf dem Clientgerät aktiviert werden muss, und für Windows-Clients ist auch der 64-Bit-Client für Teams erforderlich. Dieses Feature ist auf Clients mit 32-Bit-Teams nicht verfügbar.</li></ul> |
 |Teams-Liveereignisse | Wenn Sie ein Live-Event für Teams erstellen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4,0-GB-RAM (oder höher) und Hardware-Encoder. Eine Liste der nicht **unterstützten** Dekodierer und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md) . |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Hardwareanforderungen für Teams auf einem Mac

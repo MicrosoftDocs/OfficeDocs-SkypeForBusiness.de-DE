@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 624dcb4f99bc8ae2b83a1b8f62917ac0a5701888
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444231"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486770"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
 > [!Note]
 > Die Änderung von der Verwendung von Microsoft Stream zu OneDrive for Business und Microsoft SharePoint für Besprechungsaufzeichnungen ist ein Phasen orientierter Ansatz.
 
-|||
-|---|-----------------|
+
 |Datum|Ereignis|
+|---|-----------------|
 |Frühes Q4 CY20|**Teams-Besprechungsaufzeichnung auf OneDrive for Business und SharePoint, die für Opt-in oder Opt-out verfügbar sind.**<br> Mandantenadministratoren können die OneDrive for Business-und SharePoint-Einstellungen für die Team Richtlinie in PowerShell aktivieren oder deaktivieren.|
 |Mid Q4 CY20|**Teams-Besprechungsaufzeichnung auf OneDrive for Business und SharePoint als Standardeinstellung für Mandanten, die sich nicht abmelden**<br> Dies ist der empfohlene Pfad für die meisten Kunden.|
-Q1 CY21|**Speichern der Besprechungsaufzeichnung für Teams im klassischen Datenstrom nicht mehr zulässig**<br>Alle Mandanten speichern die Besprechungsaufzeichnung für Teams in OneDrive for Business und SharePoint.|
-|||
+|Q1 CY21|**Speichern der Besprechungsaufzeichnung für Teams im klassischen Datenstrom nicht mehr zulässig**<br>Alle Mandanten speichern die Besprechungsaufzeichnung für Teams in OneDrive for Business und SharePoint.|
+
 
 Microsoft Teams hat eine neue Methode zum Speichern von Besprechungsaufzeichnungen. Als erste Phase des Übergangs vom klassischen Microsoft-Stream auf den [neuen Datenstrom](https://docs.microsoft.com/stream/streamnew/new-stream)speichert diese Methode Aufnahmen auf Microsoft OneDrive und SharePoint in Microsoft 365 und bietet zahlreiche Vorteile.
 
@@ -98,6 +98,23 @@ Auch wenn eine Richtlinie besagt, dass Sie auf **Stream**eingestellt ist, ist Si
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
+
+## <a name="permissions-or-role-based-access"></a>Berechtigungen oder rollenbasierter Zugriff
+
+
+|Besprechungstyp                               | Wer hat auf Record geklickt?| Wo landet die Aufzeichnung?                               |Wer hat Zugriff? R/W, r oder Freigabe                                                                                                                                                                                                                                                     |
+|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|1:1-Anruf mit internen Parteien             |Anrufer                 |OneDrive for Business-Konto des Anrufers                        |-Der Anrufer ist Besitzer, hat vollständige Rechte-aufgerufene (im gleichen Mandanten) hat schreibgeschützten Zugriff, kein Freigabe Zugriff – aufgerufener (wenn in einem anderen Mandanten) keinen Zugriff hat. Der Anrufer muss ihn für den aufgerufenen freigeben.|
+|1:1-Anruf mit internen Parteien             |Callee                 |OneDrive for Business-Konto des berufenen                        |-Callee ist Besitzer, hat vollständige Rechte-Anrufer (wenn in demselben Mandanten schreibgeschützter Zugriff vorliegt, hat kein Freigabe Zugriff-Anrufer (wenn in einem anderen Mandanten) keinen Zugriff. Der Anrufer muss ihn dem angerufenen freigeben.|
+|1:1-Anruf mit einem externen Anruf             |Anrufer                 |OneDrive for Business-Konto des Anrufers                        |-Der Anrufer ist Besitzer, hat vollständige Rechte-aufgerufene hat keinen Zugriff. Der Anrufer muss ihn für den aufgerufenen freigeben.|
+|1:1-Anruf mit einem externen Anruf             |Callee                 |OneDrive for Business-Konto des Anrufers                        |-Callee ist Besitzer, hat vollständige Rechte-Anrufer hat keinen Zugriff. Der Anrufer muss ihn an den Anrufer weiterleiten.|
+|Gruppenanruf                                 |Ein beliebiges Mitglied des Anrufs |Mitglied, das auf das OneDrive for Business-Konto des Eintrags geklickt hat  |-Mitglied, das auf Record geklickt hat, hat vollständige Rechte-andere Mitglieder desselben Mandanten haben Lese Rechte-andere Mitglieder für verschiedene haben keine Rechte daran.|
+|Adhoc/geplante Besprechung                    |Organisator              |OneDrive for Business-Konto des Organisators                     |-Organizer hat vollständige Rechte an der Aufzeichnung – alle anderen Mitglieder der Besprechung haben Lesezugriff|
+|Adhoc/geplante Besprechung                    |Anderes Besprechungs Mitglied   |Mitglied, das auf Datensatz geklickt hat                                  |-Mitglied, das auf Record geklickt hat, hat vollständige Rechte an der Aufzeichnung – Organizer hat Bearbeitungsrechte und kann freigeben – alle anderen Mitglieder haben Lesezugriff|
+|Adhoc/geplante Besprechung mit externen Benutzern|Organisator              |OneDrive for Business-Konto des Organisators                     |-Organizer hat vollständige Rechte an der Aufzeichnung – alle anderen Mitglieder der Besprechung vom gleichen Mandanten wie der Organisator haben Lesezugriff – alle anderen externen Mitglieder haben keinen Zugriff und der Organisator muss Sie an Sie weiterleiten.|
+|Adhoc/geplante Besprechung mit externen Benutzern|Anderes Besprechungs Mitglied   |Mitglied, das auf Datensatz geklickt hat                                  |-Mitglied, das auf Record geklickt hat, hat vollständige Rechte an der Aufzeichnung-Organizer hat Bearbeitungsrechte und kann freigeben – alle anderen Mitglieder der Besprechung vom gleichen Mandanten wie der Organisator haben Lesezugriff – alle anderen externen Mitglieder haben keinen Zugriff und der Organisator muss Sie freigeben.|
+|Kanal Besprechung                            |Kanalmitglied         |SharePoint-Standort des Teams für diesen Kanal                   |-Mitglied, das auf Record geklickt hat, hat Rechte an der Aufzeichnung zu bearbeiten – die Berechtigungen jedes anderen Mitglieds basieren auf dem Kanal SharePoint-Berechtigungen.|
+
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

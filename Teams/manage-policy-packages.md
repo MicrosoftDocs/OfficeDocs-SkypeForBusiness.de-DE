@@ -20,17 +20,17 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten, um die Konsistenz beim Verwalten von Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und zu gewährleisten.
-ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48370591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48488428"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
 > [!NOTE]
-> Eines der in diesem Artikel beschriebenen Features, [benutzerdefinierte Richtlinien Pakete](#custom-policy-packages), wurde noch nicht veröffentlicht. Es kommt bald zur privaten Vorschau.
+> Eines der in diesem Artikel beschriebenen Features, [benutzerdefinierte Richtlinien Pakete](#custom-policy-packages), befindet sich derzeit in der privaten Vorschau.
 
 Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation aufweisen. Wir haben Richtlinien Pakete entwickelt, um die Konsistenz beim Verwalten von Richtlinien für Gruppen von Benutzern in Ihrer Organisation zu vereinfachen, zu rationalisieren und zu gewährleisten.  
 

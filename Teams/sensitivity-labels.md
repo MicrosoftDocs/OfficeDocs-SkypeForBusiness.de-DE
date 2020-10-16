@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Vertraulichkeits Beschriftungen in Microsoft Teams definieren und verwenden.
-ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
-ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
+ms.openlocfilehash: 21d70bf48448ccef5555078e4aba65bb10d5d6a2
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091268"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476720"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Vertraulichkeits Bezeichnungen für Microsoft Teams
 
@@ -104,10 +104,6 @@ Sie können angeben, ob ein Team, das mit einer bestimmten Bezeichnung erstellt 
 Sie können Vertraulichkeits Beschriftungen einrichten, wenn Sie im Microsoft Teams Admin Center ein Team erstellen oder bearbeiten. Vertraulichkeits Beschriftungen sind auch in den teameigenschaften und in der Spalte **Klassifizierung** auf der Seite Teams Verwalten des Microsoft Teams admin Centers sichtbar.
 
 ## <a name="known-issues"></a>Bekannte Probleme
-
-**Untergeordnete Standardbeschriftungen werden während der Teamerstellung nicht angezeigt**
-
-Derzeit wird eine untergeordnete Beschriftung, die als Standardbeschriftung für Teams eingestellt ist, nicht am Anfang der Liste im Dropdownfeld "Vertraulichkeits Beschriftungen" im Team Erstellungsmodell angezeigt. Team Entwickler können die Dropdownliste weiterhin verwenden, um das untergeordnete Etikett als Problemumgehung anzuwenden.
 
 **Unterstützung für Vertraulichkeits Beschriftungen in Teams-Diagramm-APIs, PowerShell-Cmdlets und-Vorlagen**
 

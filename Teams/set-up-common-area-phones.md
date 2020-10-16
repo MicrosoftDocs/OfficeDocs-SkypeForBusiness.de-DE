@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
-ms.openlocfilehash: dfde8c601c0a52dc56a3d76903b788400a5b299a
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: f940ea7c14ad55c8cd3842e9830eb82da0d8867f
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294461"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476710"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
@@ -67,7 +67,7 @@ Die Telefon Lizenz für den öffentlichen Bereich unterstützt:
 |Microsoft Teams |   &#x2714; |
 |Telefonsystem |    &#x2714; |
 |Audiokonferenzen |       &#x2718; &sup1;  |
-|Microsoft InTune |    &#x2714; |
+|Microsoft InTune |    &#x2718; |
 |Weltweite Verfügbarkeit |       &#x2718; &sup2;  |
 |Kanalverfügbarkeit |    EA, EAS, CSP, gcc, EBS, Web Direct  |
 |      |         |

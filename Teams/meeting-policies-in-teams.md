@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308417"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486820"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -161,9 +161,9 @@ Im Kanal Kalender:
 
 Im Admin Center:
 
-Die Kanal Kalender-APP wird im Abschnitt " **Microsoft-apps** " im Administratorbereich für Berechtigungsrichtlinien angezeigt.
+Die Kanal Kalender-APP wird im Abschnitt **Microsoft-apps** auf der Seite App-Berechtigungsrichtlinien angezeigt.
 
-![Screenshot der Microsoft-apps-Richtlinie in der Team-Verwaltungskonsole](media/manage-microsoft-apps-policy.png)
+![Screenshot der APP-Berechtigungsrichtlinie im Team Admin Center](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Planen privater Besprechungen zulassen
 
@@ -227,6 +227,8 @@ Wenn Sie für einen Benutzer auf **deaktiviert** festgesetzt ist, kann dieser Be
 
 Diese Einstellung gilt nicht für 1:1-Anrufe. Wenn Sie 1:1-Anrufe einschränken möchten, konfigurieren Sie eine [Anrufrichtlinie](teams-calling-policy.md) für Teams, und deaktivieren Sie die Einstellung **private Anrufe tätigen** . Diese Einstellung gilt auch nicht für Konferenzraum Geräte wie Surface Hub und Microsoft Teams rooms Devices.
 
+Diese Einstellung steht noch nicht für Microsoft 365 Government Community Cloud (gcc), gcc-höchst-oder Department of Defense (DoD)-Umgebungen zur Verfügung.
+
 Weitere Informationen finden Sie unter [Verwalten von Audio/Video für Besprechungsteilnehmer](#manage-audiovideo-for-meeting-participants).
 
 ### <a name="mode-for-ip-video"></a>Modus für IP-Video
@@ -240,10 +242,14 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Diese Einstellung steue
 
 Wenn diese Option für einen Benutzer **deaktiviert** ist, kann dieser Benutzer Video oder Videos, die von anderen Besprechungsteilnehmern freigegeben wurden, nicht aktivieren. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (beispielsweise anonyme Teilnehmer), ist diese Option auf **Ausgehendes und eingehendes Video** standardmäßig aktiviert.
 
-Diese Einstellung gilt nicht für Konferenzraum Geräte wie Surface Hub und Microsoft Teams rooms Devices.
+Diese Einstellung gilt nicht für Konferenzraum Geräte wie Surface Hub und Microsoft Teams rooms Devices. 
+
+Diese Einstellung steht noch nicht für Microsoft 365 Government Community Cloud (gcc), gcc-höchst-oder Department of Defense (DoD)-Umgebungen zur Verfügung.
 
 > [!NOTE]
 > Beachten Sie, dass diese Einstellung sowohl das ausgehende als auch das eingehende Video steuert, während die **IP-Videoeinstellung Allow** das ausgehende Video steuert. Weitere Informationen finden Sie unter [welche IP-Video Richtlinieneinstellung hat Vorrang?](#which-ip-video-policy-setting-takes-precedence) und [Verwalten von Audio/Video für Besprechungsteilnehmer](#manage-audiovideo-for-meeting-participants).
+
+Weitere Informationen finden Sie unter [Verwalten von Audio/Video für Besprechungsteilnehmer](#manage-audiovideo-for-meeting-participants).
 
 ### <a name="allow-ip-video"></a>IP-Video zulassen
 
@@ -258,7 +264,6 @@ Besprechungen, die von einem Benutzer organisiert werden, für den diese Richtli
 |:-------:|:-------:|
 |![Screenshot der Besprechungsteilnahme mit Audio/Video-Einstellungen auf dem Desktop](media/meeting-policies-audio-video-settings.png)    |![Screenshot der Besprechungsteilnahme Sreen mit Audio/Video-Einstellungen auf mobilen Geräten](media/meeting-policies-mobile-join.png)          |
 
-
 Sehen wir uns das folgende Beispiel an:
 
 |Benutzer |Besprechungsrichtlinie  |IP-Video zulassen |
@@ -271,6 +276,8 @@ Von Daniela moderierte Besprechungen ermöglichen das Aktivieren von Videos. Dan
 In Besprechungen, die von Amanda gehostet werden, kann niemand Video unabhängig von der Ihnen zugewiesenen Video Richtlinie aktivieren. Das bedeutet, dass Daniela in Amandas Besprechungen kein Video einschalten kann.  
 
 Wenn Daniela Amanda mit Video anruft, kann Amanda den Anruf nur mit Audio annehmen.  Wenn der Anruf verbunden ist, kann Amanda Danielas Video sehen, kann aber kein Video aktivieren. Wenn Amanda Daniela anruft, kann Daniela den Anruf mit Video und Audio annehmen. Wenn der Anruf verbunden ist, kann Daniela sein Video nach Bedarf aktivieren oder deaktivieren.
+
+Weitere Informationen finden Sie unter [Verwalten von Audio/Video für Besprechungsteilnehmer](#manage-audiovideo-for-meeting-participants).
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>Welche IP-Video Richtlinieneinstellung hat Vorrang?
 
