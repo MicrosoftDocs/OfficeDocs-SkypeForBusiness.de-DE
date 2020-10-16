@@ -3,6 +3,7 @@ title: Sicherheitshandbuch für Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761291"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486800"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -239,7 +240,7 @@ Das Aktivieren externer Nutzer zur Teilnahme an Teams-Besprechungen kann sehr n�
 Ein Organisator kann auch Einstellungen konfigurieren, damit Einwählanrufer die erste Person in einer Besprechung sind. Diese Einstellung wird in den Audiokonferenzeinstellungen für Nutzer konfiguriert und gilt für alle vom Nutzer geplanten Besprechungen.
 
 > [!NOTE]
-> Weitere Informationen zum Gast- und externen Zugriff in Teams finden Sie in diesem[Artikel](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). Es wird erläutert, welche Funktionen Gast- oder externe Nutzer erwarten können, wenn sie sich bei Teams anmelden.
+> Weitere Informationen zum Gast- und externen Zugriff in Teams finden Sie in diesem[Artikel](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). Es wird erläutert, welche Funktionen Gast- oder externe Nutzer erwarten können, wenn sie sich bei Teams anmelden. <p> Wenn Sie Besprechungen aufzeichnen und eine Berechtigungsmatrix für den Zugriff auf die Inhalte anzeigen möchten, lesen Sie [diesen Artikel](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) und dessen Matrix.
 
 ### <a name="participant-roles"></a>Teilnehmerrollen
 
@@ -305,3 +306,5 @@ Es ist möglich, die Besprechungsoptionen zu ändern, während eine Besprechung 
 [Optimieren der Microsoft 365- oder Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Implementierung: Geteilter VPN Tunnel](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Besprechungsaufzeichnungen in Teams, wo Aufzeichnungen gespeichert werden und wer darauf zugreifen kann](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
