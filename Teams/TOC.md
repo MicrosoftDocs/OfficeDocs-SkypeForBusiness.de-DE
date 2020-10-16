@@ -770,6 +770,7 @@
 ### [Übersicht über die Zugriffssteuerung](policy-control-overview.md)
 ### [Mobile Diagnosedaten](policy-control-diagnostic-data-mobile.md)
 ### [Diagnosedaten für Desktop Clients](policy-control-diagnostic-data-desktop.md)
+### [Übersicht über die optionalen verbundenen Erfahrungen in Microsoft Teams](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
@@ -861,7 +862,7 @@
 ### [Erweitern von vorhandenen Microsoft 365-Gruppen mit Microsoft Teams](enhance-office-365-groups.md)
 ### [Interaktion von Exchange und Teams](exchange-teams-interact.md)
 #### [Konfigurieren einer hybriden Exchange-Organisation zur Verwendung in Teams](exchange-hybrid-organization.md)
-#### [Hinzufügen der SMTP-Domäne von Teams als akzeptierte Domäne in Exchange Online](smtp-accepted-domain.md)
+#### [Verwenden von Nachrichtenflussregeln mit Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [Interaktion von SharePoint Online und OneDrive for Business mit Teams](sharepoint-onedrive-interact.md)
 ### [Teams-Erfahrung in einer Microsoft 365- oder Office 365-Mandantenumgebung mit Multi-Geo-Unterstützung](teams-experience-o365odb-spo-multi-geo.md)
 
