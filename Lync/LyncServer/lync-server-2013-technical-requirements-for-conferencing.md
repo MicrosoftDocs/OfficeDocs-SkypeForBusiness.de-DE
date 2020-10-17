@@ -12,20 +12,22 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f28effa3ac80f4a2bca1fa062fcc3dfafb5d7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d28afb699b63ee3523c7b5d4ae31bf9153459abf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194929"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533942"
 ---
+# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Technische Anforderungen für Konferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Technische Anforderungen für Konferenzen in lync Server 2013
+
 
 </div>
 
@@ -214,7 +216,7 @@ Für Konferenzzentrale und Konferenzankündigungsanwendung gelten die folgenden 
 
 ## <a name="user-requirements-for-dial-in-conferencing"></a>Benutzeranforderungen für Einwahlkonferenzen
 
-Dem Konto eines Einwahlkonferenzbenutzers muss eine eindeutige Rufnummer oder Durchwahl zugewiesen sein. Diese Anforderung unterstützt die Authentifizierung während der Einwahlkonferenz. Enterprise-Benutzer (Benutzer mit Active Directory-Domänendienste Anmeldeinformationen und lync Server Konten in Ihrer Organisation) geben Ihre Telefonnummer (oder Durchwahl) und eine persönliche Identifikationsnummer (PIN) für die Einwahl in Konferenzen als authentifizierter Benutzer.
+Dem Konto eines Einwahlkonferenzbenutzers muss eine eindeutige Rufnummer oder Durchwahl zugewiesen sein. Diese Anforderung unterstützt die Authentifizierung während der Einwahlkonferenz. Enterprise-Benutzer (Benutzer mit Active Directory-Domänendienste Anmeldeinformationen und lync Server Konten in Ihrer Organisation) geben Ihre Telefonnummer (oder Durchwahl) und eine persönliche Identifikationsnummer (PIN) ein, um sich als authentifizierter Benutzer in Konferenzen einwählen zu können.
 
 </div>
 

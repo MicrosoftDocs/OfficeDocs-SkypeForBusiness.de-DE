@@ -12,20 +12,22 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534544"
 ---
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Verwalten von Ankündigungen während der Notfallwiederherstellung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Verwalten von Ankündigungen während der Notfallwiederherstellung in lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Dieser Abschnitt bezieht sich auf nicht zugewiesene Nummernbereiche, die das Ank
 
 Unabhängig davon, ob Sie Ankündigungen während Ausfällen verwenden, sollten Sie separate Sicherungen aller benutzerdefinierten Audiodateien durchführen, die Sie für die Ankündigungsanwendung konfiguriert haben. Benutzerdefinierte Ankündigungen werden im Rahmen des lync Server Notfall Wiederherstellungsprozesses nicht gesichert. Wenn Sie keine separaten Backups der Dateien erstellen und die auf den Server oder in den Pool hochgeladenen Dateien beschädigt, infiziert oder gelöscht werden, sind die Dateien verloren.
 
-Wenn Sie keine Sicherungskopien von benutzerdefinierten Audiodateien haben und die ursprünglichen Audiodateien nicht mehr verfügbar sind, finden Sie die Audiodateien, die Sie für eine Ankündigungsanwendung konfiguriert haben, indem Sie in der Dateispeicher für den Server oder Pool suchen, in dem Sie ursprünglich die Dateien wurden importiert. Sie können alle Audiodateien, die Sie für den Ankündigungsanwendung konfiguriert haben, aus dem Dateispeicher kopieren.
+Wenn Sie keine Sicherungskopien von benutzerdefinierten Audiodateien haben und die ursprünglichen Audiodateien nicht mehr verfügbar sind, finden Sie die Audiodateien, die Sie für eine Ankündigungsanwendung konfiguriert haben, indem Sie sich im Dateispeicher für den Server oder Pool befinden, in dem Sie die Dateien ursprünglich importiert haben. Sie können alle Audiodateien, die Sie für den Ankündigungsanwendung konfiguriert haben, aus dem Dateispeicher kopieren.
 
 **So kopieren Sie Audiodateien aus dem Dateispeicher**
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bc8ad2f5372ee9b434a1236e9d0cbba0f34a5de
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec5d280d05089c4f1efc4fd8c54ab4841d24621d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535002"
 ---
+# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42204871"
 
 _**Letztes Änderungsstand des Themas:** 2014-03-19_
 
-Die Konzepte und die Konfiguration von *Anbietern* im zentralisierten Protokollierungsdienst sind eine der wichtigsten, die Sie erfassen müssen. Die *Anbieter* werden lync Server-Server Rollen Komponenten im lync Server-Ablaufverfolgungsmodell direkt zugeordnet. Der Anbieter definiert die Komponenten einer lync Server 2013, die nachverfolgt werden, den Typ der Nachrichten (beispielsweise tödlich, Fehler oder Warnung), die erfasst werden sollen, und die Flags (beispielsweise TF\_Connection oder TF\_Diag). Anbieter sind die nachvollziehbaren Komponenten in jeder lync Server Server Rolle. Mithilfe von Anbietern definieren Sie die Ablaufverfolgungsebene und den Typ von Verfolgung für Komponenten (z. B. S4, SIPStack, Instant Messaging oder Anwesenheit). Der festgelegte Anbieter wird in einem Szenario verwendet, um sämtliche Anbieter für eine vorgegebene logische Auflistung zu gruppieren, die eine bestimmte Problembedingung betrifft.
+Die Konzepte und die Konfiguration von *Anbietern* im zentralisierten Protokollierungsdienst sind eine der wichtigsten, die Sie erfassen müssen. Die *Anbieter* werden lync Server-Server Rollen Komponenten im lync Server-Ablaufverfolgungsmodell direkt zugeordnet. Der Anbieter definiert die Komponenten einer lync Server 2013, die nachverfolgt werden, den Typ der Nachrichten (beispielsweise tödlich, Fehler oder Warnung), die erfasst werden sollen, und die Flags (beispielsweise TF \_ Connection oder TF \_ Diag). Anbieter sind die nachvollziehbaren Komponenten in jeder lync Server Server Rolle. Mithilfe von Anbietern definieren Sie die Ablaufverfolgungsebene und den Typ von Verfolgung für Komponenten (z. B. S4, SIPStack, Instant Messaging oder Anwesenheit). Der festgelegte Anbieter wird in einem Szenario verwendet, um sämtliche Anbieter für eine vorgegebene logische Auflistung zu gruppieren, die eine bestimmte Problembedingung betrifft.
 
-Zum Ausführen der Funktionen für den zentralisierten Protokollierungsdienst mit dem lync Server-Verwaltungsshell müssen Sie Mitglied der rollenbasierten Sicherheitsgruppen "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die eine der beiden Diese beiden Gruppen. Zum Zurückgeben einer Liste aller rollenbasierten zugriffssteuerungsrollen, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus:
+Zum Ausführen der Funktionen für den zentralisierten Protokollierungsdienst mit dem lync Server-Verwaltungsshell müssen Sie ein Mitglied der CsAdministrator-oder der CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control, RBAC) oder eine benutzerdefinierte RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Zum Zurückgeben einer Liste aller rollenbasierten zugriffssteuerungsrollen, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -47,7 +49,7 @@ Beispiel:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-Im Rest dieses Themas geht es darum, wie Anbieter definiert oder geändert werden und welche Elemente eine Anbieterdefinition enthält (was bei Fehlerbehebungen hilfreich ist). Es gibt zwei Möglichkeiten zum Ausgeben von Befehlen für den zentralisierten Protokollierungsdienst. Sie können\\die CLSController. exe verwenden, die sich standardmäßig im Verzeichnis C: Program Files\\Common Files\\Microsoft lync Server 2013\\CLSAgent befindet. Sie können auch die lync Server-Verwaltungsshell verwenden, um Windows PowerShell Befehle auszugeben. Bei Verwendung der nm-winshell-2nd können Sie neue Anbieter definieren, die in Ihren Protokollierungssitzungen verwendet werden sollen. Durch die Verwendung von Windows PowerShell können Sie neue Anbieter für die Verwendung in ihren Protokollierungssitzungen definieren, die vollständige Kontrolle über ihre Erstellung, Ihre Sammlung und auf welcher Ebene Sie Daten erfassen.
+Im Rest dieses Themas geht es darum, wie Anbieter definiert oder geändert werden und welche Elemente eine Anbieterdefinition enthält (was bei Fehlerbehebungen hilfreich ist). Es gibt zwei Möglichkeiten zum Ausgeben von Befehlen für den zentralisierten Protokollierungsdienst. Sie können die CLSController.exe verwenden, die sich standardmäßig im Verzeichnis C: \\ Programmdateien \\ Allgemeine Dateien \\ Microsoft lync Server 2013 \\ CLSAgent befindet. Sie können auch die lync Server-Verwaltungsshell verwenden, um Windows PowerShell Befehle auszugeben. Bei Verwendung der nm-winshell-2nd können Sie neue Anbieter definieren, die in Ihren Protokollierungssitzungen verwendet werden sollen. Durch die Verwendung von Windows PowerShell können Sie neue Anbieter für die Verwendung in ihren Protokollierungssitzungen definieren, die vollständige Kontrolle über ihre Erstellung, Ihre Sammlung und auf welcher Ebene Sie Daten erfassen.
 
 <div class="">
 
@@ -61,35 +63,35 @@ Im Rest dieses Themas geht es darum, wie Anbieter definiert oder geändert werde
 
 In der [Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)werden die wichtigsten Elemente zur Definition eines Anbieters für die Verwendung in einem Szenario wie folgt vorgestellt:
 
-  - **Anbieter**   Wenn Sie mit OCSLogger vertraut sind, handelt es sich bei Anbietern um die Komponenten, die Sie OCSLogger mitteilen, welche Protokolle von dem Ablaufverfolgungsmodul erfasst werden sollen. Die Anbieter entsprechen den Komponenten in OCSLogger und haben in vielen Fällen auch dieselben Namen. Wenn Sie mit OCSLogger nicht vertraut sind, handelt es sich bei Anbietern um Serverrollen spezifische Komponenten, von denen der zentralisierte Protokollierungsdienst Protokolle erfassen kann. Im Fall des zentralisierten Protokollierungsdiensts ist der CLSAgent der Architektur Teil des zentralisierten Protokollierungsdiensts, der die Ablaufverfolgung der in der Anbieterkonfiguration definierten Komponenten ausführt.
+  - **Anbieter**     Wenn Sie mit OCSLogger vertraut sind, handelt es sich bei Anbietern um die Komponenten, die Sie OCSLogger mitteilen, welche Protokolle von dem Ablaufverfolgungsmodul erfasst werden sollen. Die Anbieter entsprechen den Komponenten in OCSLogger und haben in vielen Fällen auch dieselben Namen. Wenn Sie mit OCSLogger nicht vertraut sind, handelt es sich bei Anbietern um Serverrollen spezifische Komponenten, von denen der zentralisierte Protokollierungsdienst Protokolle erfassen kann. Im Fall des zentralisierten Protokollierungsdiensts ist der CLSAgent der Architektur Teil des zentralisierten Protokollierungsdiensts, der die Ablaufverfolgung der in der Anbieterkonfiguration definierten Komponenten ausführt.
 
-  - **Protokollierungsebenen**   OCSLogger, sofern die Option zum Auswählen einer Reihe von Detailebenen für die gesammelten Daten bereitgestellt wurde. Dieses Feature ist ein integraler Bestandteil des zentralisierten Protokollierungsdiensts und der Szenarien und wird durch den **Type** -Parameter definiert. Es stehen folgende Optionen zur Auswahl:
+  - **Protokollierungsstufen**     OCSLogger hat die Option zum Auswählen einer Reihe von Detailebenen für die gesammelten Daten bereitgestellt. Dieses Feature ist ein integraler Bestandteil des zentralisierten Protokollierungsdiensts und der Szenarien und wird durch den **Type** -Parameter definiert. Es stehen folgende Optionen zur Auswahl:
     
-      - **Alle**   erfasst Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning" und "Info" im Protokoll für den definierten Anbieter.
+      - **Alle**     Sammelt Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning" und "Info" im Protokoll für den definierten Anbieter.
     
-      - **Fatal**   erfasst nur die Ablaufverfolgungsmeldungen, die auf einen Fehler für den definierten Anbieter hindeuten.
+      - **Fatal**     Erfasst nur die Ablaufverfolgungsmeldungen, die auf einen Fehler für den definierten Anbieter hindeuten.
     
-      - **Error**   erfasst nur die Ablaufverfolgungsmeldungen, die einen Fehler für den definierten Anbieter sowie fatale Nachrichten angeben.
+      - **Fehlermeldung**     Erfasst nur die Ablaufverfolgungsmeldungen, die einen Fehler für den definierten Anbieter sowie fatale Nachrichten angeben.
     
-      - **Warnung**   sammelt nur die Ablaufverfolgungsmeldungen, die eine Warnung für den definierten Anbieter angeben, sowie fatale und Fehlermeldungen.
+      - **Warnung**     Erfasst nur die Ablaufverfolgungsmeldungen, die eine Warnung für den definierten Anbieter sowie fatale und Fehlermeldungen angeben.
     
-      - **Info**   erfasst nur die Ablaufverfolgungsmeldungen, die eine Informationsmeldung für den definierten Anbieter angeben, sowie fatale, fehlerhafte und Warnmeldungen.
+      - **Informationen**     Erfasst nur die Ablaufverfolgungsmeldungen, die eine Informationsmeldung für den definierten Anbieter angeben, sowie fatale, fehlerhafte und Warnmeldungen.
     
-      - **Verbose**   sammelt alle Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning" und "Info" für den definierten Anbieter.
+      - **Ausführlich**     Erfasst alle Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning" und "Info" für den definierten Anbieter.
 
-  - **Flags**   OCSLogger, sofern die Option zum Auswählen von Flags für jeden Anbieter, die definiert, welche Art von Informationen, die Sie aus den Ablaufverfolgungsdateien abrufen konnte. Sie können die folgenden Flags basierend auf dem Anbieter auswählen:
+  - **Flags**     OCSLogger hat die Option zum Auswählen von Flags für jeden Anbieter bereitgestellt, die definiert haben, welche Art von Informationen aus den Ablaufverfolgungsdateien abgerufen werden können. Sie können die folgenden Flags basierend auf dem Anbieter auswählen:
     
-      - **TF\_Connection**   stellt verbindungsbezogene Protokolleinträge bereit. Diese Protokolle enthalten Informationen über Verbindungen, die mit und von einer bestimmten Komponente hergestellt werden. Dies kann auch wichtige Informationen auf Netzwerkebene beinhalten (also für Komponenten ohne das Konzept einer Verbindung).
+      - **Tf \_ Connection**     stellt verbindungsbezogene Protokolleinträge bereit. Diese Protokolle enthalten Informationen über Verbindungen, die mit und von einer bestimmten Komponente hergestellt werden. Dies kann auch wichtige Informationen auf Netzwerkebene beinhalten (also für Komponenten ohne das Konzept einer Verbindung).
     
-      - **TF\_Security**   bietet alle Ereignisse/Protokolleinträge im Zusammenhang mit der Sicherheit. Bei SipStack handelt es sich beispielsweise um Sicherheitsereignisse wie etwa einen Domänen Überprüfungsfehler und Clientauthentifizierung/Autorisierungsfehler.
+      - **Tf \_ Security**     stellt alle Ereignisse/Protokolleinträge im Zusammenhang mit der Sicherheit bereit. Bei SipStack handelt es sich beispielsweise um Sicherheitsereignisse wie etwa einen Domänen Überprüfungsfehler und Clientauthentifizierung/Autorisierungsfehler.
     
-      - **TF\_Diag**   stellt Diagnoseereignisse bereit, die Sie zum diagnostizieren oder Problembehandlung der Komponente verwenden können. Bei SipStack handelt es sich beispielsweise um Zertifikat Fehler oder DNS-Warnungen/-Fehler.
+      - **Tf \_ Diag**     stellt Diagnoseereignisse bereit, die Sie zum diagnostizieren oder Problembehandlung der Komponente verwenden können. Bei SipStack handelt es sich beispielsweise um Zertifikat Fehler oder DNS-Warnungen/-Fehler.
     
-      - **Das\_TF-Protokoll**   stellt Protokollnachrichten wie SIP-und kombinierte Community-Codec-Paket Nachrichten bereit.
+      - **Tf \_ Protocol**     stellt Protokollnachrichten wie SIP-und kombinierte Community-Codec-Paket Nachrichten bereit.
     
-      - **TF\_Component**   aktiviert die Protokollierung für die Komponenten, die als Teil der Anbieter angegeben werden.
+      - **Tf \_ Komponente**     aktiviert die Protokollierung für die Komponenten, die als Teil der Anbieter angegeben werden.
     
-      - **Alle**   legt alle verfügbaren Flags fest, die für den Anbieter verfügbar sind.
+      - **Alle**     Legt alle verfügbaren Flags fest, die für den Anbieter verfügbar sind.
 
 <div>
 
@@ -127,7 +129,7 @@ In der [Übersicht über den zentralisierten Protokollierungsdienst in lync Serv
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
-Auf der Ebene "–" werden fatale, Fehler-, Warn-und Informationsmeldungen gesammelt. Die verwendeten Flags sind alle für den Lyss-Anbieter definierten und enthalten TF\_Connection, TF\_diag und TF\_Protocol.
+Auf der Ebene "–" werden fatale, Fehler-, Warn-und Informationsmeldungen gesammelt. Die verwendeten Flags sind alle für den Lyss-Anbieter definierten und enthalten TF \_ Connection, TF \_ diag und TF \_ Protocol.
 
 Nachdem die Variable "$LyssProvider" definiert ist, können Sie sie beim **New-CsClsScenario**-Cmdlet verwenden, um Ablaufverfolgungen vom Anbieter "Lyss" zu sammeln. Geben Sie für die Erstellung und Zuweisung des Anbieters zu einem neuen Szenario den folgenden Befehl ein:
 
@@ -177,7 +179,7 @@ Hierbei wurde jeder mit der "Add"-Anweisung festgelegte Anbieter bereits mithilf
 
 1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter "-Provider" die Anweisung "Replace" verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung "Update" zu verwenden. Beispielsweise ist unser Anbieter lyssprovider "mit WPP definiert, da der Protokolltyp, der auf Debugebene festgelegte Wert und\_die Flags fest\_gelegt TF Connection und TF Diag sind. Sie möchten die Flags auf "Alle" ändern. Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
+2.  Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter "-Provider" die Anweisung "Replace" verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung "Update" zu verwenden. Beispielsweise ist unser Anbieter lyssprovider "mit WPP definiert, da der Protokolltyp, der auf Debugebene festgelegte Wert und die Flags festgelegt TF \_ Connection und TF \_ Diag sind. Sie möchten die Flags auf "Alle" ändern. Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 

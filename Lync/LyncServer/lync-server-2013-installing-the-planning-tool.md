@@ -12,20 +12,22 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ba88a00ed00a36005f9c1a60806e18253d2ce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 970a638a84849120a27748980fa4017570672a35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207271"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534792"
 ---
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Installieren des Planungstools in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Installieren des Planungstools in lync Server 2013
+
 
 </div>
 
@@ -77,13 +79,13 @@ Nachdem die Voraussetzungen für die Vorinstallation erfüllt sind, können Sie 
 
 2.  Suchen Sie im Windows-Explorer oder in einem Befehlsfenster nach dem Verzeichnis, in das Sie die Installationsdateien für das Planungs Tool heruntergeladen haben.
 
-3.  Suchen Sie nach der LyncPlanningTool. msi. Doppelklicken Sie in Windows-Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie dann die **EINGABETASTE** , um die Datei auszuführen.
+3.  Suchen Sie nach dem LyncPlanningTool.msi. Doppelklicken Sie in Windows-Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie dann die **EINGABETASTE** , um die Datei auszuführen.
 
 4.  Klicken Sie auf der Willkommensseite des Setup-Assistenten für das **Microsoft lync Server 2013 des Planungstools**auf **weiter**.
 
 5.  Lesen Sie den **Endbenutzer-Lizenzvertrag**, wählen Sie **Ich stimme den Bedingungen des Lizenzvertrags** zu, wenn Sie die Nutzungsbedingungen des Lizenzvertrags akzeptieren möchten, und klicken Sie dann auf **weiter**.
 
-6.  Wählen Sie aus, wo die Planungs Tool Dateien installiert werden sollen. Der Standardspeicherort ist C:\\Programmdateien (x86)\\Microsoft lync Server 2013\\Planungs Tool. Wenn Sie den Installationsspeicherort ändern möchten, klicken Sie auf **ändern**. Klicken Sie unter **Zielordner ändern**auf Durchsuchen oder geben Sie den Speicherort zum Installieren der Dateien ein, klicken Sie auf **OK**, und klicken Sie dann auf **weiter**.
+6.  Wählen Sie aus, wo die Planungs Tool Dateien installiert werden sollen. Der Standardspeicherort ist C: \\ Programmdateien (x86) \\ Microsoft lync Server 2013 \\ Planungs Tool. Wenn Sie den Installationsspeicherort ändern möchten, klicken Sie auf **ändern**. Klicken Sie unter **Zielordner ändern**auf Durchsuchen oder geben Sie den Speicherort zum Installieren der Dateien ein, klicken Sie auf **OK**, und klicken Sie dann auf **weiter**.
 
 7.  Das Installationsprogramm ist nun für die Installation des Planungstools verfügbar. Klicken Sie auf **Installieren** , um den Installationsvorgang zu starten.
 

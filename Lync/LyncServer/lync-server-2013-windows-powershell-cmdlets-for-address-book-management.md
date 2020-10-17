@@ -12,20 +12,22 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69af5cc5bc9279b1be748cb9a38477ea6d0f3aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210221"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535322"
 ---
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Windows PowerShell-Cmdlets für Adressbuchdienste in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Windows PowerShell-Cmdlets für Adressbuchdienste in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42210221"
 
 _**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Lync Server enthält eine Reihe von Windows PowerShell Cmdlets für Befehlszeilenschnittstelle, um den Adressbuchdienst zu verwalten und zu konfigurieren. Einige dieser Cmdlets sind Ersatz für die ABServer. exe-Befehle, die in früheren Versionen von Office Communications Server verwendet wurden. In den folgenden Themen finden Sie die Cmdlets zum Festlegen, Erstellen und Abrufen von Informationen über den Adressbuchdienst und seine Konfiguration sowie von Informationen über den Webdienst, den der Adressbuchdienst verwendet, wenn Clients Dateien und Einstellungen des Adressbuchdiensts abrufen.
+Lync Server enthält eine Reihe von Windows PowerShell Cmdlets für Befehlszeilenschnittstelle, um den Adressbuchdienst zu verwalten und zu konfigurieren. Einige dieser Cmdlets sind Ersatz für die ABServer.exe Befehle, die in früheren Versionen von Office Communications Server verwendet wurden. In den folgenden Themen finden Sie die Cmdlets zum Festlegen, Erstellen und Abrufen von Informationen über den Adressbuchdienst und seine Konfiguration sowie von Informationen über den Webdienst, den der Adressbuchdienst verwendet, wenn Clients Dateien und Einstellungen des Adressbuchdiensts abrufen.
 
 Alle diese Cmdlets werden über die lync Server-Verwaltungsshell herausgegeben, die im lync Server Tools auf einem Server oder einer Arbeitsstation gefunden wurden, auf dem die Verwaltungstools installiert wurden.
 

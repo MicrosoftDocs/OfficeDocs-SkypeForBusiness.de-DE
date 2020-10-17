@@ -12,20 +12,22 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71c29a2181f898bf837fef88522787902e02e61c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 760edaff2a03642a0d7c13f856580b3f538ab915
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218241"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534482"
 ---
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Verwalten von SIP-Verbunddomänen für Ihre Organisation in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Verwalten von SIP-Verbunddomänen für Ihre Organisation in lync Server 2013
+
 
 </div>
 

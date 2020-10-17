@@ -12,20 +12,22 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112f9e5a90e0b7b73acc40c6c7ec9d68b256d45d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2118cac5e8380d27e8f273f5cb469efdbddfd9bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184908"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534332"
 ---
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Ändern der Einstellungen für Geräte Aktualisierungsprotokolldateien in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Ändern der Einstellungen für Geräte Aktualisierungsprotokolldateien in lync Server 2013
+
 
 </div>
 
@@ -57,25 +59,25 @@ Protokolleinstellungen können global oder pro Standort geändert und angewendet
 <tr class="odd">
 <td><p>Die maximale Größe (in Byte) für eine Protokolldatei</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>- oder -</p>
+<p>oder</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="even">
 <td><p>Die maximale Menge an Informationen (in Bytes), die im Cache gespeichert werden können.</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>- oder -</p>
+<p>oder</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="odd">
 <td><p>Wie oft (in Minuten) zwischengespeicherte Informationen in die Protokolldatei geschrieben werden sollen</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>- oder -</p>
+<p>oder</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="even">
 <td><p>Wie lange (in Tagen), um Protokolldateien beizubehalten</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>- oder -</p>
+<p>oder</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="odd">
@@ -106,13 +108,13 @@ Protokolleinstellungen können global oder pro Standort geändert und angewendet
 
 4.  Ändern Sie im Dialogfeld **Protokolleinstellung bearbeiten** die folgenden Einstellungen:
     
-      - **Maximale Dateigröße (Bytes)**   gibt die maximale Größe an, mit der eine Protokolldatei gelöscht werden kann, bevor Sie bereinigt wird. Der Standardwert beträgt 1.024.000 (1 MB).
+      - **Maximale Dateigröße (Bytes)**     Gibt die maximale Größe an, die eine Protokolldatei erhalten werden kann, bevor Sie gelöscht wird. Der Standardwert beträgt 1.024.000 (1 MB).
     
-      - **Maximale Cachegröße (Bytes)**   gibt die maximale Menge an Informationen (in Byte) an, die im Protokolldatei Cache aufbewahrt werden können, bevor dieser Cache gelöscht werden muss und die Daten in eine Protokolldatei geschrieben werden. Der Standardwert beträgt 512.000 (0,5 MB).
+      - **Maximale Cachegröße (Bytes)**     Gibt die maximale Menge an Informationen (in Byte) an, die im Protokolldatei Cache aufbewahrt werden können, bevor dieser Cache gelöscht werden muss und die Daten in eine Protokolldatei geschrieben werden. Der Standardwert beträgt 512.000 (0,5 MB).
     
-      - **Anzahl der Minuten für das Leeren des Caches (1-60)**   gibt an, wie oft im Protokolldatei Cache gespeicherte Informationen in die tatsächliche Protokolldatei geschrieben werden. Nachdem die Daten protokolliert wurden, wird der Cache geleert. Der Standardwert beträgt fünf Minuten.
+      - **Anzahl der Minuten für leeren Zwischenspeicher (1-60)**     Gibt an, wie oft im Protokolldatei Cache gespeicherte Informationen in die tatsächliche Protokolldatei geschrieben werden. Nachdem die Daten protokolliert wurden, wird der Cache geleert. Der Standardwert beträgt fünf Minuten.
     
-      - **Anzahl der Tage für die Aufbewahrung von Protokolldateien (1-365)**   gibt an, wie viele Tage die Protokolldateien aufbewahrt werden, bevor Sie gelöscht werden. Der Standardwert beträgt 10 Tage.
+      - **Anzahl der Tage, die Protokolldateien aufbewahrt werden sollen (1-365)**     Gibt an, wie viele Tage die Protokolldateien aufbewahrt werden, bevor Sie gelöscht werden. Der Standardwert beträgt 10 Tage.
 
 5.  Klicken Sie auf **Commit**.
 
@@ -128,7 +130,7 @@ Einstellungen für die Geräteupdate Protokolldatei können mithilfe von Windows
 
 
 > [!NOTE]  
-> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .
 
 
 

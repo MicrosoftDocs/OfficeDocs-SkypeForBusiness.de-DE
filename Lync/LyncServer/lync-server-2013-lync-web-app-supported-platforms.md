@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534612"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Web App unterstützte Plattformen für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Web App unterstützte Plattformen für lync Server 2013
+
 
 </div>
 
@@ -72,7 +74,7 @@ Um lync Web App verwenden zu können, müssen Sie über eine der folgenden unter
 <tr class="odd">
 <td><p>Betriebssystem</p></td>
 <td><p>Microsoft Edge</p></td>
-<td><p>Internet Explorer 11</p></td>
+<td><p>Internet Explorer 11</p></td>
 <td><p>32-Bit-Internet Explorer 10</p></td>
 <td><p>64-Bit-Internet Explorer 10</p></td>
 <td><p>32-Bit-Internet Explorer 9</p></td>
@@ -183,7 +185,7 @@ Um lync Web App verwenden zu können, müssen Sie über eine der folgenden unter
 
 <sup>3</sup> bei unterstützten Windows Server 2008 Betriebssystemen sind computerbasierte sprach-und Videofunktionen nicht verfügbar. Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe stehen zur Verfügung.
 
-<sup>4</sup> für das Plug-in ist die Unterstützung von NPAPI im Browser erforderlich. Firefox hat die Unterstützung für NPAPI in Version 52,0 entfernt, und die Unterstützung von Chrome wurde in Version 45 entfernt, sodass diese Browser in ihren aktuellen Versionen nicht mehr unterstützt werden.
+<sup>4</sup>  für das Plug-in ist die Unterstützung von NPAPI im Browser erforderlich. Firefox hat die Unterstützung für NPAPI in Version 52,0 entfernt, und die Unterstützung von Chrome wurde in Version 45 entfernt, sodass diese Browser in ihren aktuellen Versionen nicht mehr unterstützt werden.
 
 </div>
 

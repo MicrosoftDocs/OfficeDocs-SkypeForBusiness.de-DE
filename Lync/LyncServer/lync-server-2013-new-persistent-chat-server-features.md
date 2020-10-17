@@ -12,20 +12,22 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dd9288fea9105be27428ac94d992de6e147f4900
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221559"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534182"
 ---
+# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Neue Features für den Server für beständigen Chat in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Neue Features für den Server für beständigen Chat in lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Weitere Informationen zur neuesten Version des Servers für beständigen Chat fi
 
   - Die [Planung für den Server für beständigen Chat in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, Bereitstellen des Servers für beständigen [Chat in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation, [Migration von lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat zu lync Server 2013, beständigen Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in der Migrationsdokumentation und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md) in der Betriebsdokumentation, die alle Anweisungen zum Einrichten von persistent Chat Server
 
-  - Die Datei "Documentation. msi" des persistent Chat-Servers (Windows Installer-Datei) ermöglicht Benutzern den Zugriff auf eine umfassende offlinedokumentation über den Server für beständigen Chat.
+  - Der Server für beständigen Chat Documentation.msi Datei (Windows Installer-Datei) ermöglicht Benutzern den Zugriff auf eine umfassende offlinedokumentation über den Server für beständigen Chat.
 
 <div>
 
@@ -165,7 +167,7 @@ Lync Server 2013 hat es einfacher gemacht, den Server für beständigen Chat zu 
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>Was unterscheidet sich von den Benutzerrollen aus früheren Gruppen Chat Server-Versionen?
 
-Lync Server 2010 hatten Gruppenchats eine Benutzeradministratorrolle, eine Rolle als Chatroom-Administrator und eine lync Server Administratorrolle, die Add-Ins verwalten konnte. der Server für beständigen Chat stellt einfach eine Administratorrolle für beständigen Chat bereit (ähnlich wie bei anderen lync Server rollenbasierten Zugriffssteuerung (Role-Based Access Control, RBAC)). Jeder, der Mitglied dieser RBAC-Rolle ist, kann Chatrooms, Add-Ins und Kategorien verwalten (und somit Benutzer Zugriff für diese Kategorien erhalten) und die Konfiguration des Server Pools für beständigen Chat.
+Lync Server 2010 hatten Gruppenchats eine Benutzeradministratorrolle, eine Rolle als Chatroom-Administrator und eine lync Server Administratorrolle, die Add-Ins verwalten konnte. Der Server für beständigen Chat stellt einfach eine Administrator Rolle für beständigen Chat bereit (ähnlich wie bei anderen lync Server rollenbasierten zugriffssteuerungsrollen). Jeder, der Mitglied dieser RBAC-Rolle ist, kann Chatrooms, Add-Ins und Kategorien verwalten (und somit Benutzer Zugriff für diese Kategorien erhalten) und die Konfiguration des Server Pools für beständigen Chat.
 
 </div>
 

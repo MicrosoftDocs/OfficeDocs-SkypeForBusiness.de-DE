@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197058"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534942"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Installieren und Konfigurieren von Watcher-Knoten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Installieren und Konfigurieren von Watcher-Knoten in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-11-07_
 
 *Watcher-Knoten* sind Computer, die regelmäßig lync Server synthetischen Transaktionen ausgeführt werden. *Synthetische Transaktionen* sind Windows PowerShell-Cmdlets, mit denen sichergestellt wird, dass wichtige Endbenutzerszenarien wie die Möglichkeit zum Anmelden am System oder die Möglichkeit zum Austauschen von Sofortnachrichten wie erwartet funktionieren. Für lync Server 2013 kann System Center Operations Manager die synthetischen Transaktionen ausführen, die in der folgenden Tabelle aufgeführt sind. In der Tabelle sind drei verschiedene synthetische Transaktionstypen aufgeführt:
 
-  - **Standard**. Hierbei handelt es sich um die synthetischen Transaktionen, die standardmäßig ein Watcher-Knoten ausgeführt wird. Wenn Sie einen neuen Watcher-Knoten erstellen, haben Sie die Möglichkeit, anzugeben, welche synthetischen Transaktionen dieser Knoten ausführen soll. (Dies ist der Zweck des Parameters "Tests", der vom Cmdlet " **New-CsWatcherNodeConfiguration** " verwendet wird.) Wenn Sie den Parameter Tests nicht verwenden, wenn der Watcher-Knoten erstellt wird, werden alle synthetischen Standardtransaktionen automatisch ausgeführt, und es werden keine synthetischen, nicht standardmäßigen Transaktionen ausgeführt. Das bedeutet beispielsweise, dass der Watcher-Knoten so konfiguriert wird, dass der Test-CsAddressBookService-Test ausgeführt wird, aber nicht für die Ausführung des Test-csexumconnectivity "-Tests konfiguriert ist.
+  - **Standard**. Hierbei handelt es sich um die synthetischen Transaktionen, die standardmäßig ein Watcher-Knoten ausgeführt wird. Wenn Sie einen neuen Watcher-Knoten erstellen, haben Sie die Möglichkeit, anzugeben, welche synthetischen Transaktionen dieser Knoten ausführen soll. (Dies ist der Zweck des Parameters "Tests", der vom Cmdlet " **New-CsWatcherNodeConfiguration** " verwendet wird.) Wenn Sie den Parameter Tests nicht verwenden, wenn der Watcher-Knoten erstellt wird, werden alle synthetischen Standardtransaktionen automatisch ausgeführt, und es werden keine synthetischen, nicht standardmäßigen Transaktionen ausgeführt. Das bedeutet beispielsweise, dass der Watcher-Knoten so konfiguriert wird, dass der Test-CsAddressBookService Test ausgeführt wird, aber nicht für die Ausführung des Test-CsExumConnectivity Tests konfiguriert ist.
 
   - **Nicht Standard**. Wie es der Name schon sagt, handelt es sich bei synthetischen Transaktionen dieses Typs um Tests, die vom Watcher-Knoten nicht standardmäßig durchgeführt werden. Der Knoten kann jedoch zum Ausführen von nicht standardmäßigen synthetischen Transaktionen aktiviert werden. Dies können Sie beim Erstellen des Watcher-Knotens (mithilfe des **New-CsWatcherNodeConfiguration**-Cmdlets) oder jederzeit später vornehmen. Für viele der nicht standardmäßigen synthetischen Transaktionen sind zusätzliche Einrichtungsschritte erforderlich. Ausführliche Informationen finden Sie unter [spezielle Einrichtungsanweisungen für synthetische Transaktionen in lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).
 
@@ -110,17 +112,17 @@ Zu den für Watcher-Knoten verfügbaren synthetischen Transaktionen gehören:
 <td><p>Standard</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csavedgeconnectivity "(AVEdgeConnectivity)</p></td>
+<td><p>Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</p></td>
 <td><p>Überprüft, ob die Audio-/Video-Edgeserver in der Lage sind, Verbindungen für Peer-zu-Peer-Anrufe und Konferenzanrufe entgegenzunehmen.</p></td>
 <td><p>Nicht Standard</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csdataconference "(dataconference)</p></td>
+<td><p>Test-CsDataConference (dataconference)</p></td>
 <td><p>Überprüft, ob Benutzer an einer Datenzusammenarbeitskonferenz (eine Online-Besprechung, zu der Aktivitäten wie Whiteboards und Abstimmungen gehören) teilnehmen können.</p></td>
 <td><p>Nicht Standard</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csexumconnectivity "(ExumConnectivity)</p></td>
+<td><p>Test-CsExumConnectivity (ExumConnectivity)</p></td>
 <td><p>Bestätigt, dass ein Benutzer eine Verbindung mit Exchange Unified Messaging (um) herstellen kann.</p></td>
 <td><p>Nicht Standard</p></td>
 </tr>
@@ -140,7 +142,7 @@ Zu den für Watcher-Knoten verfügbaren synthetischen Transaktionen gehören:
 <td><p>Nicht Standard</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-cspersistentchatmessage "(PersistentChatMessage)</p></td>
+<td><p>Test-CsPersistentChatMessage (PersistentChatMessage)</p></td>
 <td><p>Bestätigt, dass Benutzer Nachrichten mithilfe des Diensts für beständigen Chat austauschen können.</p></td>
 <td><p>Nicht Standard</p></td>
 </tr>
@@ -150,7 +152,7 @@ Zu den für Watcher-Knoten verfügbaren synthetischen Transaktionen gehören:
 <td><p>Nicht Standard</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csxmppim "(XmppIM)</p></td>
+<td><p>Test-CsXmppIM (XmppIM)</p></td>
 <td><p>Überprüft, ob eine Sofortnachricht über das XMPP-Gateway (Extensible Messaging and Presence Protocol) gesendet werden kann.</p></td>
 <td><p>Nicht Standard</p></td>
 </tr>
@@ -164,7 +166,7 @@ Sie müssen keine Watcher-Knoten installieren, um System Center Operations Manag
 
 
 > [!NOTE]  
-> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne dass dazu der Operations Manager installiert oder verwendet werden muss. Ausführliche Informationen zu den verschiedenen Cmdlets für Test-CS finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">lync Server 2013 Cmdlets-Index</A>.
+> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne dass dazu der Operations Manager installiert oder verwendet werden muss. Ausführliche Informationen zu den verschiedenen Test-Cs-Cmdlets finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">lync Server 2013 Cmdlets-Index</A>.
 
 
 

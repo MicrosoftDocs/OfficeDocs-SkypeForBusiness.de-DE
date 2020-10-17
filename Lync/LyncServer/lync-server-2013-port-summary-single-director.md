@@ -12,20 +12,22 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27095f154d4a79af949d3568bb444adfc83699c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541cd7eb560cd9d509c5c0beec206803f2cddecc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533992"
 ---
+# <a name="port-summary---single-director-in-lync-server-2013"></a>Port Zusammenfassung für einen einzelnen Director in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>Port Zusammenfassung für einen einzelnen Director in lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Ports,
 <th>Rolle/Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +79,7 @@ Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Ports,
 </tr>
 <tr class="even">
 <td><p>HTTP/TCP 80</p></td>
-<td><p>Internal Clients</p></td>
+<td><p>Interne Clients</p></td>
 <td><p>Director-Webdienste</p></td>
 <td><p>Der Director stellt Webdienste für interne und externe Clients bereit.</p></td>
 </tr>
@@ -95,19 +97,19 @@ Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Ports,
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne Schnittstelle</p></td>
 <td><p>Befehle und Protokollsammlung für den Controller des zentralisierten Protokollierungsdiensts (ClsController.exe) oder Agent (ClasAgent.exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne Schnittstelle</p></td>
 <td><p>Befehle und Protokollsammlung für den Controller des zentralisierten Protokollierungsdiensts (ClsController.exe) oder Agent (ClasAgent.exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne Schnittstelle</p></td>
 <td><p>Befehle und Protokollsammlung für den Controller des zentralisierten Protokollierungsdiensts (ClsController.exe) oder Agent (ClasAgent.exe)</p></td>
 </tr>

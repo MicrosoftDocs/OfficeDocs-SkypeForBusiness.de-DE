@@ -12,20 +12,22 @@ ms:contentKeyID: 48184841
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6af913a6be7b92a7a640a2e06537197ba21351c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc4a56edb79d2eff52bf0d234aedcee1b3cdced4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534112"
 ---
+# <a name="port-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Port Zusammenfassung für einen skalierten konsolidierten Edgeserver mit Hardwarelastenausgleichs für den Lastenausgleich in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Port Zusammenfassung für einen skalierten konsolidierten Edgeserver mit Hardwarelastenausgleichs für den Lastenausgleich in lync Server 2013
+
 
 </div>
 
@@ -67,74 +69,74 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 <th>Rolle/Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Access/http/TCP/80</p></td>
 <td><p>Edgeserver Zugriffs-Edgedienst öffentliche IP-Adresse</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Zertifikatsperre/Zertifikatsperrlistenprüfung und -abruf</p></td>
 </tr>
 <tr class="even">
 <td><p>Access/DNS/TCP/53</p></td>
 <td><p>Edgeserver Zugriffs-Edgedienst öffentliche IP-Adresse</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>DNS-Abfrage über TCP</p></td>
 </tr>
 <tr class="odd">
 <td><p>Access/DNS/UDP/53</p></td>
 <td><p>Edgeserver Zugriffs-Edgedienst öffentliche IP-Adresse</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>DNS-Abfrage über UDP</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/TCP/50000-59.999</p></td>
 <td><p>Edgeserver A/V-Edgedienst IP-Adresse</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Erforderlich für Partnerverbund mit Partnern, die Office Communications Server 2007, Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013 durchführen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/UDP/50000-59.999</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche IP-Adresse</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nur für Partnerverbund mit Partnern erforderlich, die Office Communications Server 2007 durchführen.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/RTP/TCP/50000-59.999</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche IP-Adresse</p></td>
 <td><p>Nur für Partnerverbund mit Partnern erforderlich, die Office Communications Server 2007 durchführen</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/RTP/UDP/50000-59.999</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche IP-Adresse</p></td>
 <td><p>Nur für Partnerverbund mit Partnern erforderlich, die Office Communications Server 2007 durchführen</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/Stun, MSTURN/UDP/3478</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche IP-Adresse</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>3478 Outbound wird verwendet, um die Version von Edgeserver zu bestimmen, mit der lync Server kommuniziert, und auch für den Mediendatenverkehr von Edgeserver zu Edgeserver. Erforderlich für Partnerverbund mit lync Server 2010, Windows Live Messenger und Office Communications Server 2007 R2 und auch, wenn mehrere Edge-Pools in einem Unternehmen bereitgestellt werden.</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/Stun, MSTURN/UDP/3478</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche IP-Adresse</p></td>
 <td><p>STUN/TURN-Aushandlung von Kandidaten über UDP/3478</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/Stun, MSTURN/TCP/443</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche IP-Adresse</p></td>
 <td><p>STUN/TURN-Aushandlung von Kandidaten über TCP/443</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/Stun, MSTURN/TCP/443</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche IP-Adresse</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>STUN/TURN-Aushandlung von Kandidaten über TCP/443</p></td>
 </tr>
 </tbody>
@@ -155,7 +157,7 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 <th>Rolle/Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -191,21 +193,21 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne Schnittstelle</p></td>
-<td><p>Dienstcontroller für zentralisierte Protokollierung mit lync Server-Verwaltungsshell-und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenoptionen (ClsController. exe) oder Agent-Befehlen (ClsAgent. exe) und Protokollsammlung</p></td>
+<td><p>Zentralisierter Protokollierungsdienst-Controller mit lync Server-Verwaltungsshell-und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenoptionen (ClsController.exe) oder Agent-Befehlen (ClsAgent.exe) und Protokollsammlung</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne Schnittstelle</p></td>
-<td><p>Dienstcontroller für zentralisierte Protokollierung mit lync Server-Verwaltungsshell-und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenoptionen (ClsController. exe) oder Agent-Befehlen (ClsAgent. exe) und Protokollsammlung</p></td>
+<td><p>Zentralisierter Protokollierungsdienst-Controller mit lync Server-Verwaltungsshell-und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenoptionen (ClsController.exe) oder Agent-Befehlen (ClsAgent.exe) und Protokollsammlung</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne Schnittstelle</p></td>
-<td><p>Dienstcontroller für zentralisierte Protokollierung mit lync Server-Verwaltungsshell-und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenoptionen (ClsController. exe) oder Agent-Befehlen (ClsAgent. exe) und Protokollsammlung</p></td>
+<td><p>Zentralisierter Protokollierungsdienst-Controller mit lync Server-Verwaltungsshell-und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenoptionen (ClsController.exe) oder Agent-Befehlen (ClsAgent.exe) und Protokollsammlung</p></td>
 </tr>
 </tbody>
 </table>
@@ -267,31 +269,31 @@ Berücksichtigen Sie beim Konfigurieren von Hardware-Lastenausgleichsmodulen die
 <th>Rolle/Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>XMPP-Proxy Dienst (Freigabe der IP-Adresse mit Zugriffs-Edgedienst)</p></td>
 <td><p>XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Partnerverbunden</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>XMPP-Proxy Dienst (Freigabe der IP-Adresse mit Zugriffs-Edgedienst)</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>XMPP-Proxy Dienst sendet Datenverkehr an XMPP-Kontakte in definierten XMPP-verbünden</p></td>
 </tr>
 <tr class="odd">
 <td><p>Access/SIP (TLS)-/TCP/443</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Zugriffs-Edgedienst öffentliche VIP-Adresse</p></td>
 <td><p>Client-zu-Server-SIP-Datenverkehr für den externen Benutzerzugriff</p></td>
 </tr>
 <tr class="even">
 <td><p>Access/SIP (MTLS)-/TCP/5061</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Zugriffs-Edgedienst öffentliche VIP-Adresse</p></td>
 <td><p>SIP-Signalisierungs-, Verbund-und öffentliche Instant Messaging-Konnektivität mit SIP</p></td>
 </tr>
@@ -303,19 +305,19 @@ Berücksichtigen Sie beim Konfigurieren von Hardware-Lastenausgleichsmodulen die
 </tr>
 <tr class="even">
 <td><p>Webkonferenz-PSOM (TLS)/TCP/443</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver Webkonferenz-Edgedienst öffentliche VIP-Adresse</p></td>
 <td><p>Webkonferenzmedien</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/Stun, MSTURN/UDP/3478</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche VIP-Adresse</p></td>
 <td><p>STUN/TURN-Aushandlung von Kandidaten über UDP/3478</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/Stun, MSTURN/TCP/443</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver A/V-Edgedienst öffentliche VIP-Adresse</p></td>
 <td><p>STUN/TURN-Aushandlung von Kandidaten über TCP/443</p></td>
 </tr>
@@ -337,7 +339,7 @@ Berücksichtigen Sie beim Konfigurieren von Hardware-Lastenausgleichsmodulen die
 <th>Rolle/Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -361,20 +363,20 @@ Berücksichtigen Sie beim Konfigurieren von Hardware-Lastenausgleichsmodulen die
 </tr>
 <tr class="even">
 <td><p>Stun/MSTURN/UDP/3478</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne VIP-Schnittstelle</p></td>
 <td><p>Bevorzugter Pfad für die Übertragung von A/V-Mediendaten zwischen internen Benutzern und externen Benutzern</p></td>
 </tr>
 <tr class="odd">
 <td><p>Stun/MSTURN/TCP/443</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Edgeserver interne VIP-Schnittstelle</p></td>
 <td><p>Ausweichpfad für die Übertragung von A/V-Mediendaten zwischen internen und externen Benutzern, wenn keine UDP-Kommunikation hergestellt werden kann und TCP für die Dateiübertragung und Desktopfreigabe verwendet wird</p></td>
 </tr>
 <tr class="even">
 <td><p>Stun/MSTURN/TCP/443</p></td>
 <td><p>Edgeserver interne VIP-Schnittstelle</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Ausweichpfad für die Übertragung von A/V-Mediendaten zwischen internen und externen Benutzern, wenn keine UDP-Kommunikation hergestellt werden kann und TCP für die Dateiübertragung und Desktopfreigabe verwendet wird</p></td>
 </tr>
 </tbody>

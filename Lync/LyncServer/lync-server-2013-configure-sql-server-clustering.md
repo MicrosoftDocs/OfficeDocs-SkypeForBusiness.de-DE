@@ -12,20 +12,22 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59c02a5ab417a17c7c81b2c495ce96e6948aebc7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21fac13a22e2b2acf400ca154551a0705544644f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535212"
 ---
+# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Konfigurieren von SQL Server Clustering für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Konfigurieren von SQL Server Clustering für lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2014-01-10_
 
 Microsoft lync Server 2013 unterstützt Clustering für SQL Server 2012 und SQL Server 2008 R2. Ausführliche Informationen zu den unterstützten Funktionen finden Sie unter [Database Software Support in lync Server 2013](lync-server-2013-database-software-support.md).
 
-Sie sollten den SQL Server Cluster einrichten und konfigurieren, bevor Sie die Enterprise Edition-Front-End-Server und die Back-End-Datenbank installieren und bereitstellen. Bewährte Methoden und Setupanweisungen für die Failover-Clusterunterstützung in SQL Server 2012 finden <https://technet.microsoft.com/library/hh231721.aspx>Sie unter. Informationen zur Failover-Clusterunterstützung in SQL Server 2008 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>finden Sie unter.
+Sie sollten den SQL Server Cluster einrichten und konfigurieren, bevor Sie die Enterprise Edition-Front-End-Server und die Back-End-Datenbank installieren und bereitstellen. Bewährte Methoden und Setupanweisungen für die Failover-Clusterunterstützung in SQL Server 2012 finden Sie unter <https://technet.microsoft.com/library/hh231721.aspx> . Informationen zur Failover-Clusterunterstützung in SQL Server 2008 finden Sie unter <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> .
 
 Wenn Sie SQL Server installieren, sollten Sie auch SQL Server Management Studio installieren, um die Speicherorte für Datenbank und Protokolldateien zu verwalten. SQL Server Management Studio ist eine optionale Komponente bei der Installation von SQL Server.
 
@@ -57,7 +59,7 @@ Wenn Sie SQL Server installieren, sollten Sie auch SQL Server Management Studi
 
 ## <a name="to-configure-sql-server-clustering"></a>So konfigurieren Sie das SQL Server-Clustering
 
-1.  Nachdem Sie die Installation und Konfiguration von SQL Server Clustering abgeschlossen haben, definieren Sie den SQL Server Speicher im Topologie-Generator mithilfe des virtuellen Clusternamens SQL Server Instanz (wie im Setup für SQL Server Clustering konfiguriert) und der Instanz Name der SQL Server Datenbank. Anders als bei einem einzelnen SQL Server-basierten Server verwenden Sie für einen geclusterten SQL Server-basierten Server den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des virtuellen Knotens.
+1.  Nachdem Sie die Installation und Konfiguration von SQL Server Clustering abgeschlossen haben, definieren Sie den SQL Server Speicher im Topologie-Generator mithilfe des virtuellen Clusternamens SQL Server Instanz (wie im Setup für SQL Server Clustering konfiguriert) und dem Instanznamen der SQL Server Datenbank. Anders als bei einem einzelnen SQL Server-basierten Server verwenden Sie für einen geclusterten SQL Server-basierten Server den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des virtuellen Knotens.
     
     <div>
     

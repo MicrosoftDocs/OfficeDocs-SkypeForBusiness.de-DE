@@ -12,20 +12,22 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6210591be9aaf281b76ea02f6f919ea3d1620db7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7bbe3f6439b357253ae49a5c1609319b6a91bfb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534756"
 ---
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Integrieren einer Anwendung für die Zusammenarbeit eines Drittanbieters mit lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Integrieren einer Anwendung für die Zusammenarbeit eines Drittanbieters mit lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie lync 2013 in Internet bas
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Integrieren einer Anwendung für Internet basierte Zusammenarbeit mit lync 2013
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Integrieren einer Internet-Based-Zusammenarbeitsanwendung in lync 2013
 
 Im Allgemeinen müssen die folgenden Schritte ausgeführt werden, um eine Drittanbieteranwendung für die Zusammenarbeit zu integrieren:
 
@@ -57,7 +59,7 @@ Im Allgemeinen müssen die folgenden Schritte ausgeführt werden, um eine Dritta
 
 In der folgenden Tabelle werden die Registrierungseinträge beschrieben, die für die Integration einer Internet basierten Zusammenarbeitsanwendung mit lync 2013 erforderlich sind. Diese Einträge werden an folgendem Speicherort in der Registrierung gespeichert:
 
-  - HKEY\_local\_Machine\\Software\\Microsoft\\Office\\15,0\\lync\\SessionManager\\-\\apps-Parameter
+  - HKEY \_ local \_ Machine \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync \\ SessionManager- \\ apps- \\ Parameter
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Registrierungseinträge für eine internetbasierte Anwendung für die Zusammenarbeit
 
@@ -119,7 +121,7 @@ In der folgenden Tabelle werden die Registrierungseinträge beschrieben, die fü
 </table>
 
 
-In der folgenden Tabelle werden die Registrierungseinträge für Parameter beschrieben. Diese Einträge finden Sie unter HKEY\_aktuelle\_Benutzer\\Software\\Microsoft\\Office\\15,0\\lync\\SessionManager\\-\\apps-Parameter.
+In der folgenden Tabelle werden die Registrierungseinträge für Parameter beschrieben. Diese Einträge finden Sie unter HKEY \_ aktuelle \_ Benutzer \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync \\ SessionManager \\ \\ -apps-Parameter.
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Registrierungseinträge für eine internetbasierte Anwendung für die Zusammenarbeit
 
@@ -140,7 +142,7 @@ In der folgenden Tabelle werden die Registrierungseinträge für Parameter besch
 <tr class="odd">
 <td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Wird im Tokenformat (<code>%Parm1%</code>) verwendet, um dem Registrierungsschlüssel OriginatorPath benutzerspezifische Werte hinzuzufügen.</p></td>
+<td><p>Wird im Tokenformat ( <code>%Parm1%</code> ) verwendet, um dem Registrierungsschlüssel OriginatorPath benutzerspezifische Werte hinzuzufügen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Param2</p></td>
@@ -182,11 +184,11 @@ Im folgenden Beispiel werden die Registrierungseinstellungen Adatum-Zusammenarbe
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Integrieren einer Server basierten Zusammenarbeitsanwendung mit lync 2013
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Integrieren einer Server-Based-Zusammenarbeitsanwendung in lync 2013
 
-Die Einstellungen zum Hinzufügen von Befehlen zum Starten einer Server basierten Zusammenarbeitsanwendung in lync 2013 ähneln denen im vorherigen Abschnitt und integrieren eine Internet basierte Zusammenarbeitsanwendung mit lync 2013. "OriginatorPath" ist jedoch nicht erforderlich, und einige Werte sind geändert. Registrierungseinträge werden an folgendem Speicherort eingefügt:
+Die Einstellungen zum Hinzufügen von Befehlen zum Starten einer Server basierten Zusammenarbeitsanwendung in lync 2013 ähneln denen im vorherigen Abschnitt, der die Integration einer Internet-Based Zusammenarbeitsanwendung mit lync 2013 beschreibt. "OriginatorPath" ist jedoch nicht erforderlich, und einige Werte sind geändert. Registrierungseinträge werden an folgendem Speicherort eingefügt:
 
-  - HKEY\_local\_Machine\\Software\\Microsoft\\Office\\15,0\\lync\\SessionManager\\-\\apps-Parameter
+  - HKEY \_ local \_ Machine \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync \\ SessionManager- \\ apps- \\ Parameter
 
 ### <a name="registry-entries-for-a-server-based-collaboration-application"></a>Registrierungseinträge für eine serverbasierte Anwendung für die Zusammenarbeit
 
@@ -217,7 +219,7 @@ Die Einstellungen zum Hinzufügen von Befehlen zum Starten einer Server basierte
 <tr class="odd">
 <td><p>Pfad</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Zum Starten der Anwendung für die Zusammenarbeit verwendetes Protokoll. Für Live Meeting 2007 ist der Wert von Path auf <code>meet:%conf-uri%</code>festgelegt.</p></td>
+<td><p>Zum Starten der Anwendung für die Zusammenarbeit verwendetes Protokoll. Für Live Meeting 2007 ist der Wert von Path auf festgelegt <code>meet:%conf-uri%</code> .</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>

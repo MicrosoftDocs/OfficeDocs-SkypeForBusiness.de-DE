@@ -12,20 +12,22 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7be6cd7dcf58cae1cfe794c6a27d27fc5aaa5193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63ee7f494b131fc194d6bf9d028525efd71cf0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186108"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534682"
 ---
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Voraussetzungen für lync VDI-Plug-ins in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Voraussetzungen für lync VDI-Plug-ins in lync Server 2013
+
 
 </div>
 
@@ -46,9 +48,9 @@ In einer VDI-Umgebung (Virtual Desktop Infrastructure) müssen die virtuellen Co
 > Informationen zum Installieren und Bereitstellen der virtualisierten Umgebung erhalten Sie von Ihrem Virtualisierungslösungsanbieter. Informationen zum Bereitstellen einer virtualisierten Umgebung basierend auf Hyper-V und Remotedesktopdiensten finden Sie in den folgenden Artikeln in der TechNet-Bibliothek von Microsoft: 
 > <UL>
 > <LI>
-> <P>Hyper-V unter<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
+> <P>Hyper-V unter <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
 > <LI>
-> <P>Remote Desktop Dienste in Windows Server&nbsp;2008&nbsp;R2 unter<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
+> <P>Remote Desktop Dienste in Windows Server &nbsp; 2008 &nbsp; R2 unter <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
 
@@ -66,7 +68,7 @@ Die folgenden Anforderungen gelten für den Benutzer und den lokalen Computer de
 
   - Wenn Sie Remote Desktop Dienste verwenden, muss das lync VDI-Plug-in Bitanzahl (das heißt, ob es sich um 32-Bit-oder 64-Bit-Anwendungen handelt) mit dem Betriebssystem Bitanzahl des lokalen Computers übereinstimmen. Die Bitanzahl des Betriebssystems auf dem lokalen Computer und das Betriebssystem auf dem virtuellen Computer müssen nicht übereinstimmen. Wenn Sie eine andere Virtualisierungslösung oder Plattform verwenden, lesen Sie den Leitfaden Ihres Anbieters für die Virtualisierungslösung zu Bitanzahl Anforderungen.
 
-  - Auf dem lokalen Computer muss die neueste Version des Remotedesktopclients installiert sein. Installieren Sie die neuesten Updates des Remotedesktopdienste-Clients von Microsoft oder die neueste Remote Desktop-Client Software von Ihrem Anbieter für die Virtualisierung. Die neuesten Updates für Remote Desktop Dienste finden Sie [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)unter.
+  - Auf dem lokalen Computer muss die neueste Version des Remotedesktopclients installiert sein. Installieren Sie die neuesten Updates des Remotedesktopdienste-Clients von Microsoft oder die neueste Remote Desktop-Client Software von Ihrem Anbieter für die Virtualisierung. Die neuesten Updates für Remote Desktop Dienste finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
   - Auf dem lokalen Computer müssen die Einstellungen für den Remotedesktopclient so konfiguriert sein, dass die Audiowiedergabe auf dem lokalen Computer aktiviert und die Remoteaufzeichnung deaktiviert ist. Informationen zum Konfigurieren dieser Einstellungen für die Remotedesktopverbindung in Windows finden Sie im nächsten Abschnitt "so konfigurieren Sie Einstellungen für die Remotedesktopverbindung".
 
@@ -76,7 +78,7 @@ Die folgenden Anforderungen gelten für den Benutzer und den lokalen Computer de
 
 Führen Sie die folgenden Schritte aus, um die Remote Desktop Verbindung in Windows für das lync VDI-Plug-in vorzubereiten.
 
-1.  Wenn der lokale Computer Windows 8 ausführt, überspringen Sie diesen Schritt. Wenn der lokale Computer Windows 7 mit SP1 ausführt, installieren Sie die neueste Windows 8-Version des Remote Desktop Dienste-Clients, die [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)unter verfügbar ist.
+1.  Wenn der lokale Computer Windows 8 ausführt, überspringen Sie diesen Schritt. Wenn der lokale Computer Windows 7 mit SP1 ausführt, installieren Sie die neueste Windows 8-Version des Remote Desktop Dienste-Clients, die unter verfügbar ist [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
 2.  Starten Sie den Remotedesktopdienste-Client, indem Sie auf **Start** und dann auf **Remotedesktopverbindung** klicken.
 

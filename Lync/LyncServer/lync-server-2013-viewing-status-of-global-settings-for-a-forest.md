@@ -12,20 +12,22 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab574067b05b494601e0dd769003cb01904c52bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211102"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535582"
 ---
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Anzeigen des Status globaler Einstellungen für eine Gesamtstruktur in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Anzeigen des Status globaler Einstellungen für eine Gesamtstruktur in lync Server 2013
+
 
 </div>
 
@@ -47,9 +49,9 @@ Globale Einstellungen, die überprüft werden sollten, werden in den folgenden A
 
 Überprüfen Sie die allgemeinen Einstellungen, einschließlich der unterstützten SIP-Domänen (Session Initiation Protocol) für lync Server 2013.
 
-SIP-Domäneninformationen können mit Windows PowerShell und dem Cmdlet **Get-CsSipDomain** zurückgegeben werden. Führen Sie den `Get-CsSipDomain` Befehl Windows PowerShell aus, um diese Informationen zurückzugeben.
+SIP-Domäneninformationen können mit Windows PowerShell und dem Cmdlet **Get-CsSipDomain** zurückgegeben werden. Führen Sie den Befehl Windows PowerShell aus, um diese Informationen zurückzugeben `Get-CsSipDomain` .
 
-Mit Get-CsSipDomain werden Informationen wie diese für alle autorisierten SIP-Domänen zurückgegeben:
+In Get-CsSipDomain werden für alle autorisierten SIP-Domänen ähnliche Informationen wie diese zurückgegeben:
 
 Identitäts Name-IsDefault
 
@@ -59,7 +61,7 @@ fabrikam.com fabrikam.com true
 
 na.fabrikam.com na.fabrikam.com false
 
-Wenn die IsDefault-Eigenschaft auf true festgelegt ist, ist die entsprechende Domäne Ihre Standard-SIP-Domäne. Sie können das Cmdlet "CsSipDomain" verwenden, um die Standard-SIP-Domäne für Ihre Organisation zu ändern. Allerdings können Sie die Standard-SIP-Domäne nicht einfach löschen, da Sie ohne Standarddomäne bleiben würde. Wenn Sie die fabrikam.com-Domäne löschen wollten (wie im vorherigen Beispiel gezeigt), müssen Sie zunächst na.fabrikam.com so konfigurieren, dass Sie die Standarddomäne ist.
+Wenn die IsDefault-Eigenschaft auf true festgelegt ist, ist die entsprechende Domäne Ihre Standard-SIP-Domäne. Sie können das Set-CsSipDomain-Cmdlet verwenden, um die Standard-SIP-Domäne für Ihre Organisation zu ändern. Allerdings können Sie die Standard-SIP-Domäne nicht einfach löschen, da Sie ohne Standarddomäne bleiben würde. Wenn Sie die fabrikam.com-Domäne löschen wollten (wie im vorherigen Beispiel gezeigt), müssen Sie zunächst na.fabrikam.com so konfigurieren, dass Sie die Standarddomäne ist.
 
 </div>
 
@@ -71,7 +73,7 @@ Die Besprechungseinstellungen umfassen Richtlinien Definitionen für Besprechung
 
 Die Besprechungs Konfigurationseinstellungen können mit Windows PowerShell und dem Cmdlet **Get-CsMeetingConfiguration** abgerufen werden. Mit diesem Befehl werden beispielsweise Informationen zu den globalen Besprechungs Konfigurationseinstellungen zurückgegeben:
 
-Get-CsMeetingConfiguration – Identity "Global" Besprechungs Konfigurationseinstellungen können auch auf Standortebene konfiguriert werden. Aus diesem Grund möchten Sie möglicherweise den folgenden Befehl verwenden, der Informationen zu allen Besprechungs Konfigurationseinstellungen zurückgibt:
+Get-CsMeetingConfiguration – Identity "globale" Besprechungs Konfigurationseinstellungen können auch auf Standortebene konfiguriert werden. Aus diesem Grund möchten Sie möglicherweise den folgenden Befehl verwenden, der Informationen zu allen Besprechungs Konfigurationseinstellungen zurückgibt:
 
 `Get-CsMeetingConfiguration`
 
@@ -239,7 +241,7 @@ Wenn **EnableFederationAccess** auf true festgelegt ist, können Benutzer, die v
 
 Überprüfen Sie die Archivierungseinstellungen für die interne und die Verbundkommunikation. Bevor Sie die Einstellungen für die interne und externe Archivierung überprüfen, sollten Sie überprüfen, ob die Archivierung aktiviert ist.
 
-Die Archivierungs Konfigurationseinstellungen können mit Windows PowerShell und dem Cmdlet Get-CsArchivingConfiguration überprüft werden:
+Die Archivierungs Konfigurationseinstellungen können mithilfe von Windows PowerShell und dem Get-CsArchivingConfiguration-Cmdlet überprüft werden:
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
@@ -247,7 +249,7 @@ Beachten Sie, dass Archivierungseinstellungen auch auf Standortebene konfigurier
 
 `Get-CsArchivingConfiguration`
 
-Das Get-CsArchivingConfiguration-Cmdlet gibt Daten ähnlich der folgenden zurück:
+Mit dem Get-CsArchivingConfiguration-Cmdlet werden Daten wie die folgende zurückgegeben:
 
 Identity: Global
 
@@ -287,7 +289,7 @@ Sie können diesen Befehl auch verwenden, um den FQDN ihrer Archivierungsserver 
 
 Nachdem Sie überprüft haben, dass die Archivierung aktiviert ist, können Sie Ihre Archivierungsrichtlinien anzeigen, um festzustellen, ob interne und externe Kommunikationssitzungen archiviert werden.
 
-Informationen zur Archivierungsrichtlinie können mithilfe des Cmdlets Get-CsArchivingPolicy abgerufen werden. Mit diesem Befehl werden beispielsweise Informationen zur globalen Archivierungsrichtlinie zurückgegeben:
+Informationen zur Archivierungsrichtlinie können mithilfe des Get-CsArchivingPolicy-Cmdlets abgerufen werden. Mit diesem Befehl werden beispielsweise Informationen zur globalen Archivierungsrichtlinie zurückgegeben:
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
@@ -321,7 +323,7 @@ Da KDS auch auf Standortebene konfiguriert werden kann, möchten Sie möglicherw
 
 `Get-CsCdrConfiguration`
 
-Das Cmdlet Get-CsCdrConfiguration gibt für jede Auflistung von KDS-Konfigurationseinstellungen ähnliche Informationen zurück:
+Das Get-CsCdrConfiguration-Cmdlet gibt für jede Auflistung von KDS-Konfigurationseinstellungen ähnliche Informationen zurück:
 
 Identity: Global
 
@@ -377,7 +379,7 @@ Sie können den FQDN ihrer Monitoring Server auch zurückgeben, indem Sie den fo
 
 ## <a name="check-voice-settings"></a>Spracheinstellungen überprüfen
 
-Die VoIP-Einstellungen, die für Administratoren typischerweise wichtig sind, sind in VoIP-Richtlinien und VoIP-Routen enthalten: VoIP-Richtlinien enthalten die Einstellungen, die die für einzelne Benutzer verfügbaren Funktionen bestimmen (beispielsweise die Möglichkeit, Anrufe weiterzuleiten oder zu übertragen), während VoIP-Routen bestimmen, wie (und ob) Anrufe über das PSTN weitergeleitet werden.
+Die VoIP-Einstellungen, die für Administratoren typischerweise wichtig sind, sind in VoIP-Richtlinien und VoIP-Routen enthalten: VoIP-Richtlinien enthalten die Einstellungen, die die für einzelne Benutzer verfügbaren Funktionen bestimmen (beispielsweise die Möglichkeit, Anrufe weiterzuleiten oder zu übertragen), während VoIP-Routen bestimmen, wie (und wenn) Anrufe über das PSTN weitergeleitet werden.
 
 Informationen zur VoIP-Richtlinie können mithilfe von Windows PowerShell abgerufen werden. Mit diesem Befehl werden beispielsweise Informationen zur globalen VoIP-Richtlinie zurückgegeben:
 
@@ -387,11 +389,11 @@ Und dieser Befehl gibt Informationen zu allen VoIP-Richtlinien zurück, die für
 
 `Get-CsVoicePolicy`
 
-Die vom Cmdlet Get-CsVoicePolicy zurückgegebenen Informationen ähneln wie folgt:
+Die vom Get-CsVoicePolicy-Cmdlet zurückgegebenen Informationen ähneln wie folgt:
 
 Identity: Global
 
-PstnUsages{}
+PstnUsages {}
 
 Beschreibung
 
@@ -425,7 +427,7 @@ Und dieser Befehl gibt alle VoIP-Richtlinien zurück, die die Anrufweiterleitung
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-Verwenden Sie in Windows PowerShell das Cmdlet Get-CsVoiceRouting, um Informationen zu Ihren VoIP-Routen zurückzugeben:
+Verwenden Sie in Windows PowerShell das Get-CsVoiceRouting-Cmdlet, um Informationen zu Ihren VoIP-Routen zurückzugeben:
 
 `Get-CsVoiceRoute`
 
@@ -437,11 +439,11 @@ Priorität: 0
 
 Beschreibung
 
-NumberPattern: ^ (\\+ 1\[0-9\]{10}) $
+NumberPattern: ^ ( \\ + 1 \[ 0-9 \] {10} ) $
 
-PstnUsages{}
+PstnUsages {}
 
-PstnGatewayList :{}
+PstnGatewayList : {}
 
 Name: LocalRoute
 
@@ -471,7 +473,7 @@ Beachten Sie, dass die Einstellungen für die Konferenzzentrale auch auf Standor
 
 `Get-CsDialInConferencingConfiguration`
 
-Das Get-CsDialInConferencingConfiguration-Cmdlet gibt Daten ähnlich der folgenden zurück:
+Mit dem Get-CsDialInConferencingConfiguration-Cmdlet werden Daten wie die folgende zurückgegeben:
 
 Identity: Global
 

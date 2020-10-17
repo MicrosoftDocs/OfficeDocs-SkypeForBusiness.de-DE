@@ -12,20 +12,22 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93ce3e013f5c0578c78db3ceee8ab1d65481efbb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ffa6108760955de643b7ffa4afe841464ae140f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535592"
 ---
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Anzeigen von Berichten aus Best Practices Analyzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Anzeigen von Berichten aus Best Practices Analyzer in lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Verwenden Sie das folgende Verfahren, um die Überprüfungsergebnisse anzuzeigen
       - Wenn Sie Berichte aus der Liste der lokal gespeicherten Überprüfungsergebnisse anzeigen möchten, klicken Sie auf den Namen der Überprüfung, und klicken Sie dann auf **Bericht für diese Überprüfung anzeigen**.
         
         > [!NOTE]  
-        > Der Best Practices Analyzer erstellt die Liste der lokalen Dateien aus dem &lt;Ordner&gt;\\System Drive Dokumente\\&lt;und&gt;Einstellungen Benutzer Data\Microsoft\RtcBPA.
+        > Der Best Practices Analyzer erstellt die Liste der lokalen Dateien aus dem &lt; Ordner &gt; \\ System Drive Dokumente und Einstellungen \\ &lt; Benutzer &gt; Data\Microsoft\RtcBPA.
     
       - Wenn Sie Berichte zu Ergebnissen einer Überprüfung anzeigen möchten, die sich an einem anderen Speicherort befinden, klicken Sie auf **Überprüfung importieren**, suchen Sie nach der Datei, in der die Überprüfungsergebnisse enthalten sind, und klicken Sie dann auf **Öffnen**.
         

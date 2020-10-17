@@ -12,20 +12,22 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accb2efafddc9253deda7fa20006dd9093e32496
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91c0878623a68863aea219d1b3f3735042abc085
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186008"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534592"
 ---
+# <a name="mn-trunk-in-lync-server-2013"></a>M:n-trunk trunk in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mn-trunk-in-lync-server-2013"></a>M:n-trunk trunk in lync Server 2013
+
 
 </div>
 
@@ -49,9 +51,9 @@ Die Vermittlungsserver kann als Pool bereitgestellt werden; Dieser Pool kann mit
 
   - **Sitzungs Rahmen Controller.** Bei einem SIP-Trunk handelt es sich bei der Peer-Entität um einen Session Border Controller (SBC) bei einem Internet Telefonie-Dienstanbieter. In Richtung vom Vermittlungsserver Pool zum SBC kann der SBC Verbindungen von beliebigen Vermittlungsserver im Pool empfangen. In Richtung vom SBC zum Pool kann der Datenverkehr an jede Vermittlungsserver im Pool gesendet werden. Eine Möglichkeit, dies zu erreichen, ist der DNS-Lastenausgleich, wenn dieser vom Dienstanbieter und SBC unterstützt wird. Eine Alternative besteht darin, dem Dienstanbieter die IP-Adressen aller Vermittlungsserver im Pool zu geben, und der Dienstanbieter stellt diese in seinem SBC als separaten SIP-Trunk für jeden Vermittlungsserver bereit. Der Dienstanbieter übernimmt dann den Lastenausgleich für die eigenen Server. Nicht alle Dienstanbieter oder SBCS können diese Funktionen unterstützen. Darüber hinaus kann der Dienstanbieter für diese Funktion zusätzliche Gebühren verlangen. Normalerweise wird für jeden SIP-Trunk zum SBC eine monatliche Gebühr erhoben.
 
-  - **IP-Nebenstellenanlage.** In Richtung vom Vermittlungsserver Pool zur IP-PBX-SIP-Beendigung kann die IP-Nebenstellenanlage Verbindungen von beliebigen Vermittlungsserver im Pool empfangen. In Richtung von der IP-Nebenstellenanlage zum Pool kann der Datenverkehr an eine beliebige Vermittlungsserver im Pool gesendet werden. Da die meisten IP-Nebenstellenanlagen keinen DNS-Lastenausgleich unterstützen, wird empfohlen, einzelne direkte SIP-Verbindungen von der IP-Nebenstellenanlage zu jeder Vermittlungsserver im Pool zu definieren. Die IP-Nebenstellenanlage verarbeitet dann einen eigenen Lastenausgleich, indem der Datenverkehr über die Trunkgruppe verteilt wird. Es wird davon ausgegangen, dass die Trunkgruppe über einen konsistenten Satz von Routingregeln an der IP-Nebenstellenanlage verfügt. Ob eine bestimmte IP-PBX dieses Trunkgruppen Konzept unterstützt und wie die IP-Nebenstellenanlage mit der eigenen Redundanz und Clustering-Architektur überschneidet, muss ermittelt werden, bevor Sie entscheiden können, ob ein Vermittlungsserver Cluster ordnungsgemäß mit einer IP-Nebenstellenanlage interagieren kann.
+  - **IP-Nebenstellenanlage.** In Richtung vom Vermittlungsserver Pool zur IP-PBX-SIP-Beendigung kann die IP-Nebenstellenanlage Verbindungen von beliebigen Vermittlungsserver im Pool empfangen. In Richtung von der IP-Nebenstellenanlage zum Pool kann der Datenverkehr an eine beliebige Vermittlungsserver im Pool gesendet werden. Da die meisten IP-PBXs keinen DNS-Lastenausgleich unterstützen, wird empfohlen, einzelne direkte SIP-Verbindungen von der IP-Nebenstellenanlage zu jedem Vermittlungsserver im Pool zu definieren. Die IP-Nebenstellenanlage verarbeitet dann einen eigenen Lastenausgleich, indem der Datenverkehr über die Trunkgruppe verteilt wird. Es wird davon ausgegangen, dass die Trunkgruppe über einen konsistenten Satz von Routingregeln an der IP-Nebenstellenanlage verfügt. Ob eine bestimmte IP-PBX dieses Trunkgruppen Konzept unterstützt und wie die IP-Nebenstellenanlage mit der eigenen Redundanz und Clustering-Architektur überschneidet, muss ermittelt werden, bevor Sie entscheiden können, ob ein Vermittlungsserver Cluster ordnungsgemäß mit einer IP-Nebenstellenanlage interagieren kann.
 
-Ein Vermittlungsserver Pool muss eine einheitliche Ansicht des Peer Gateways haben, mit dem es interagiert. Dies bedeutet, dass alle Mitglieder des Pools auf dieselbe Definition des Peer Gateways aus dem Konfigurationsspeicher zugreifen und gleichzeitig für ausgehende Anrufe interagieren. Daher gibt es keine Möglichkeit, den Pool so zu segmentieren, dass einige Vermittlungsserver nur mit bestimmten Gateway-Peers für ausgehende Anrufe kommunizieren. Wenn eine solche Segmentierung erforderlich ist, muss ein separater Pool von Vermittlungsservern verwendet werden. Dies ist beispielsweise der Fall, wenn die zugehörigen Funktionen in PSTN-Gateways, SIP-Trunks oder IP-Nebenstellenanlagen zur Interaktion mit einem Pool wie weiter oben in diesem Thema beschrieben nicht vorhanden sind.
+Ein Vermittlungsserver Pool muss eine einheitliche Ansicht des Peer Gateways haben, mit dem es interagiert. Dies bedeutet, dass alle Mitglieder des Pools auf dieselbe Definition des Peer Gateways aus dem Konfigurationsspeicher zugreifen und gleichzeitig für ausgehende Anrufe interagieren. Daher gibt es keine Möglichkeit, den Pool so zu segmentieren, dass einige Vermittlungsserver nur mit bestimmten Gateway-Peers für ausgehende Anrufe kommunizieren. Wenn eine solche Segmentierung erforderlich ist, muss ein separater Pool von Vermittlungsservern verwendet werden. Dies ist beispielsweise der Fall, wenn die zugehörigen Funktionen in PSTN-Gateways, SIP-Trunks oder IP-PBXs zur Interaktion mit einem Pool wie weiter oben in diesem Thema beschrieben nicht vorhanden sind.
 
 Ein bestimmtes PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SIP-Trunk-Peer kann an mehrere Vermittlungsserver oder Trunks weitergeleitet werden. Die Anzahl der Gateways, die ein bestimmter Pool von Vermittlungsservern steuern kann, hängt von der Anzahl der Anrufe ab, die die medienumgehung verwenden. Wenn eine große Anzahl von Anrufen die medienumgehung verwendet, kann eine Vermittlungsserver im Pool viele weitere Anrufe verarbeiten, da nur die Verarbeitung von Signal Ebenen erforderlich ist.
 

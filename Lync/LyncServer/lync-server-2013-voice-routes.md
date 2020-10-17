@@ -12,20 +12,22 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434f7cc92fd6a6bc284074cce476f4bc3b2eca01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0f457fc96981927ea2b6cb4d4177488dc3f5231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211071"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535492"
 ---
+# <a name="voice-routes-in-lync-server-2013"></a>VoIP-Routen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>VoIP-Routen in lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten V
 
 ## <a name="translating-outbound-dial-strings"></a>Übersetzen ausgehender Wählzeichenfolgen
 
-Lync Server 2013 wie seine unmittelbaren Vorgänger erfordert, dass alle Wählzeichenfolgen zum E. 164-Format normalisiert werden, um eine rückwärts Nummernsuche durchführen zu können (können). Für Trunks mit Gateways oder Private Branch Exchanges (PBX), die Nummern in lokalen Wähl Formaten übersetzt erfordern, ermöglicht lync Server 2013 Ihnen, eine oder mehrere Regeln zu erstellen, die die Bearbeitung der angerufenen Nummer unterstützen (d.h. Anforderungs-URI), bevor Sie Sie an das Routing Stamm. Sie können beispielsweise eine Regel schreiben, mit der das Präfix +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
+Lync Server 2013 wie seine unmittelbaren Vorgänger erfordert, dass alle Wählzeichenfolgen zum E. 164-Format normalisiert werden, um eine rückwärts Nummernsuche durchführen zu können (können). Für Trunks mit Gateways oder Private Branch Exchanges (PBX), die Nummern in lokalen Wähl Formaten übersetzt erfordern, ermöglicht lync Server 2013 Ihnen, eine oder mehrere Regeln zu erstellen, die das Manipulieren der angerufenen Nummer (also Anforderungs-URI) vor dem Weiterleiten an den trunk unterstützen. Sie können beispielsweise eine Regel schreiben, mit der das Präfix +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
 
 Mit lync Server 2013 ist es möglich, eine oder mehrere Regeln zu erstellen, die die Manipulation der anrufenden Nummer vor dem Weiterleiten an den trunk unterstützen.
 
@@ -97,7 +99,7 @@ Bei der Planung Ihrer Trunks, die Gateways: Port Pairs mit Vermittlungsserver: P
 
 ## <a name="configuring-caller-id"></a>Konfigurieren der Anrufer-ID
 
-Lync Server bietet eine Möglichkeit zum Bearbeiten der Anrufer-ID für ausgehende Anrufe. Wenn beispielsweise eine Organisation die Durchwahl Durchwahl von Mitarbeitern maskieren und durch die generische Firmen-oder Abteilungsnummer ersetzen möchte, kann ein Administrator dies mithilfe von lync Server-Systemsteuerung durchführen, um die Anrufer-ID zu unterdrücken und durch einen zu ersetzen. angegebene alternative Anrufer-ID. Denken Sie bei der Planung der Routinglogik darüber nach, für welche Einzelpersonen, Gruppen oder Standorte Sie diese Optionen verwenden möchten oder ob Sie sie sogar für alle Mitarbeiter verwenden möchten.
+Lync Server bietet eine Möglichkeit zum Bearbeiten der Anrufer-ID für ausgehende Anrufe. Wenn beispielsweise eine Organisation die Durchwahl Durchwahl von Mitarbeitern maskieren und durch die generische Firmen-oder Abteilungsnummer ersetzen möchte, kann ein Administrator dies mithilfe von lync Server-Systemsteuerung durchführen, um die Anrufer-ID zu unterdrücken und durch eine angegebene alternative Anrufer-ID zu ersetzen. Denken Sie bei der Planung der Routinglogik darüber nach, für welche Einzelpersonen, Gruppen oder Standorte Sie diese Optionen verwenden möchten oder ob Sie sie sogar für alle Mitarbeiter verwenden möchten.
 
 <div>
 
