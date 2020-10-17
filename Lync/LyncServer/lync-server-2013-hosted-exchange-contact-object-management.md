@@ -12,20 +12,22 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ede940e1126660aaae89fe6552f050632f841b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528192"
 ---
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Hosted Exchange-Kontaktobjekt Verwaltung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Hosted Exchange-Kontaktobjekt Verwaltung in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-09-25_
 
 Sie müssen ein Kontaktobjekt für jede Telefonzentrale und Teilnehmerzugriffsnummer in Ihrer standortübergreifenden Bereitstellung konfigurieren.
 
-Für die Integration in gehostete Exchange um kann OCSUMUtil. exe nicht zum Verwalten von Kontaktobjekten verwendet werden, da dies von Active Directory Exchange um Einstellungen abhängt. In einer standortübergreifenden Bereitstellung werden lync Server 2013 und gehostete Exchange um in getrennten Gesamtstrukturen installiert, ohne dass diese vertrauenswürdig sind. Aus Sicherheitsgründen haben lync Server 2013 Administratoren keinen direkten Zugriff auf Exchange um Active Directory Einstellungen. Lync Server 2013 bietet daher ein anderes Modell für die Verwaltung von Kontaktobjekten in einem *freigegebenen SIP-Adressraum* , auf den sowohl lync Server 2013 als auch der gehostete Exchange um Dienst zugreifen können.
+Für die Integration in gehostete Exchange um kann ocsumutil.exe nicht zum Verwalten von Kontaktobjekten verwendet werden, da dies von Active Directory Exchange um Einstellungen abhängt. In einer standortübergreifenden Bereitstellung werden lync Server 2013 und gehostete Exchange um in getrennten Gesamtstrukturen installiert, ohne dass diese vertrauenswürdig sind. Aus Sicherheitsgründen haben lync Server 2013 Administratoren keinen direkten Zugriff auf Exchange um Active Directory Einstellungen. Lync Server 2013 bietet daher ein anderes Modell für die Verwaltung von Kontaktobjekten in einem *freigegebenen SIP-Adressraum* , auf den sowohl lync Server 2013 als auch der gehostete Exchange um Dienst zugreifen können.
 
 <div>
 
@@ -93,7 +95,7 @@ Im folgenden Beispiel wird ein Contact-Objekt der automatischen Telefonzentrale 
 
 In diesem Beispiel wird ein neues Exchange um Contact-Objekt mit der SIP-Adresse SIP:exumaa1@fabrikam.com erstellt. Der Name des Pools, in dem der lync Server 2013 Registrierungsdienst aktiv ist, ist RedmondPool.litwareinc.com. Die Active Directory Organisationseinheit, in der diese Informationen gespeichert werden, ist ou = ExUmContacts, DC = litwareinc, DC = com. Die Telefonnummer des Kontaktobjekts lautet 2065554567. Der Parameter optional-autoattend $true gibt an, dass es sich bei diesem Objekt um ein Kontaktobjekt der automatischen Telefonzentrale handelt. Wenn Sie den-autoattender-Parameter auf "false" festlegen (Standardeinstellung), wird ein Kontaktobjekt des Teilnehmerzugriffs angegeben.
 
-Ausführliche Informationen zu den Cmdlets New-CsExUmContact und CsExUmContact finden Sie in der Dokumentation zum lync Server-Verwaltungsshell.
+Ausführliche Informationen zu den Cmdlets New-CsExUmContact und Set-CsExUmContact finden Sie in der lync Server-Verwaltungsshell Dokumentation.
 
 </div>
 

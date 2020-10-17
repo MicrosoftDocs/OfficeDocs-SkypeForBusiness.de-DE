@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528032"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planen der rollenbasierten Zugriffssteuerung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planen der rollenbasierten Zugriffssteuerung in lync Server 2013
+
 
 </div>
 
@@ -159,11 +161,11 @@ Alle vordefinierten Rollen, die in lync Server ausgeliefert werden, haben einen 
 
 ## <a name="creating-a-scoped-role"></a>Erstellen einer bereichsbezogenen Rolle
 
-Wenn Sie eine Rolle mit begrenztem Bereich erstellen (eine bereichsbezogene Rolle), geben Sie den Bereich zusammen mit der vorhandenen Rolle und der Active Directory Gruppe an, der die Rolle zugewiesen werden soll. Die von Ihnen angegebene Active Directory Gruppe muss bereits erstellt sein. Das folgende Cmdlet ist ein Beispiel für das Erstellen einer Rolle mit den Berechtigungen einer der vordefinierten Administratorrollen, jedoch mit begrenztem Bereich. Es wird eine neue Rolle mit `Site01 Server Administrators`dem Namen erstellt. Die Rolle besitzt die Fähigkeiten der vordefinierten CsServerAdministrator-Rolle, jedoch nur für die Server, die sich am Site01-Standort befinden. Damit dieses Cmdlet funktioniert, muss der Site01-Standort bereits definiert sein, und es muss bereits eine Univers `Site01 Server Administrators` Elle Sicherheitsgruppe mit dem Namen vorhanden sein.
+Wenn Sie eine Rolle mit begrenztem Bereich erstellen (eine bereichsbezogene Rolle), geben Sie den Bereich zusammen mit der vorhandenen Rolle und der Active Directory Gruppe an, der die Rolle zugewiesen werden soll. Die von Ihnen angegebene Active Directory Gruppe muss bereits erstellt sein. Das folgende Cmdlet ist ein Beispiel für das Erstellen einer Rolle mit den Berechtigungen einer der vordefinierten Administratorrollen, jedoch mit begrenztem Bereich. Es wird eine neue Rolle mit dem Namen erstellt `Site01 Server Administrators` . Die Rolle besitzt die Fähigkeiten der vordefinierten CsServerAdministrator-Rolle, jedoch nur für die Server, die sich am Site01-Standort befinden. Damit dieses Cmdlet funktioniert, muss der Site01-Standort bereits definiert sein, und es muss bereits eine universelle Sicherheitsgruppe mit dem Namen `Site01 Server Administrators` vorhanden sein.
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-Nachdem dieses Cmdlet ausgeführt wurde, verfügen alle Benutzer, die Mitglied `Site01 Server Administrators` der Gruppe sind, über Serveradministratorrechte für die Server in Site01. Darüber hinaus erhalten alle Benutzer, die dieser universellen Sicherheitsgruppe später hinzugefügt werden, auch die Rechte dieser Rolle. Beachten Sie, dass sowohl die Rolle selbst als auch die universelle Sicherheitsgruppe, der Sie `Site01 Server Administrators`zugewiesen ist, aufgerufen werden.
+Nachdem dieses Cmdlet ausgeführt wurde, verfügen alle Benutzer, die Mitglied der Gruppe sind, `Site01 Server Administrators` über Serveradministratorrechte für die Server in Site01. Darüber hinaus erhalten alle Benutzer, die dieser universellen Sicherheitsgruppe später hinzugefügt werden, auch die Rechte dieser Rolle. Beachten Sie, dass sowohl die Rolle selbst als auch die universelle Sicherheitsgruppe, der Sie zugewiesen ist, aufgerufen werden `Site01 Server Administrators` .
 
 Im folgenden Beispiel wird der Serverbereich auf den Benutzerbereich eingeschränkt. Es wird eine `Sales Users Administrator` Rolle zum Verwalten der Benutzerkonten in der Organisationseinheit "Sales" erstellt. Die universelle Sicherheitsgruppe SalesUsersAdministrator muss bereits erstellt sein, damit dieses Cmdlet funktioniert.
 
@@ -177,13 +179,13 @@ Im folgenden Beispiel wird der Serverbereich auf den Benutzerbereich eingeschrä
 
 Um eine Rolle zu erstellen, die Zugriff auf einen Satz von Cmdlets außerhalb der vordefinierten Rollen oder auf einen Satz von Skripts oder Modulen hat, müssen Sie ebenfalls zunächst eine der vordefinierten Rollen als Vorlage verwenden. Beachten Sie, dass Skripts und Module, die Rollen ausführen können sollen, an folgenden Orten gespeichert werden müssen:
 
-  - Der lync-Modul Pfad, der standardmäßig C:\\Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\Module\\lync
+  - Der lync-Modul Pfad, der standardmäßig C: \\ Programmdateien \\ Allgemeine Dateien \\ Microsoft lync Server 2013 \\ Module \\ lync
 
-  - Der Benutzer\\Skriptpfad, der standardmäßig C: Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013 AdminScripts\\
+  - Der Benutzer Skriptpfad, der standardmäßig C: \\ Programmdateien \\ Allgemeine Dateien \\ Microsoft lync Server 2013 \\ AdminScripts
 
 Um eine neue Rolle zu erstellen, verwenden Sie das Cmdlet **New-CsAdminRole**. Vor dem Ausführen von **New-CsAdminRole**müssen Sie zuerst die zugrunde liegende universelle Sicherheitsgruppe erstellen, die dieser Rolle zugeordnet wird.
 
-Die folgenden Cmdlet-Beispiele zeigen die Erstellung einer neuen Rolle. Sie erstellen einen neuen Rollentypen mit `MyHelpDeskScriptRole`dem Namen. Die neue Rolle besitzt die Fähigkeiten der vordefinierten Rolle "CsHelpDesk" und kann außerdem die Funktionen in einem Skript namens "testscript" ausführen.
+Die folgenden Cmdlet-Beispiele zeigen die Erstellung einer neuen Rolle. Sie erstellen einen neuen Rollentypen mit dem Namen `MyHelpDeskScriptRole` . Die neue Rolle besitzt die Fähigkeiten der vordefinierten Rolle "CsHelpDesk" und kann außerdem die Funktionen in einem Skript namens "testscript" ausführen.
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 

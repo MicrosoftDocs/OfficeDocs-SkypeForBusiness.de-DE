@@ -12,20 +12,22 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e991f6240d9c21815299a3ef169c5824cf5ef3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57d8e3cb0a79c8ce6a6c1c51891fbad265f045de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529202"
 ---
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>ConferenceSessionDetails-Tabelle in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>ConferenceSessionDetails-Tabelle in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Jeder Datensatz steht für eine Konferenzsitzung, bei der es sich entweder um di
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary, Foreign</p></td>
+<td><p>Primär, Fremd</p></td>
 <td><p>ID zur Identifikation der Sitzung. Wird in Verbindung mit <strong>SessionID</strong> verwendet, um eine Konferenzsitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> . *</p></td>
 </tr>
 <tr class="odd">
@@ -248,7 +250,7 @@ Jeder Datensatz steht für eine Konferenzsitzung, bei der es sich entweder um di
 </table>
 
 
-\*Für die meisten Sitzungen wird SessionIdSeq den Wert 1 haben. Wenn mehrere Sitzungen zum selben Zeitpunkt gestart werden, lautet der Wert für eine Sitzung 1, für eine weitere Sitzung 2, usw.
+\* Für die meisten Sitzungen wird SessionIdSeq den Wert 1 haben. Wenn mehrere Sitzungen zum selben Zeitpunkt gestart werden, lautet der Wert für eine Sitzung 1, für eine weitere Sitzung 2, usw.
 
 </div>
 

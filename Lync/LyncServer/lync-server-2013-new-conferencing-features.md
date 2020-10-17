@@ -12,20 +12,22 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4478a68392e751ee9e641542e7764237580e781
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1e04507e0dc109b4477973a3a36b851afe81014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216981"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528042"
 ---
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Neue Konferenzfeatures in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Neue Konferenzfeatures in lync Server 2013
+
 
 </div>
 
@@ -51,11 +53,11 @@ In lync Server 2013 werden einige neue Features vorgestellt, die die Konferenz v
     
       - Windows 8
     
-      - Internet Explorer 10
+      - Internet Explorer 10
 
   - **Aktualisierte PowerPoint-Freigabe**
     
-    In lync Server 2013 werden nun Office-Webanwendungen und der Office-webapps-Server (ehemals "AS-Server" genannt) verwendet, um PowerPoint-Präsentationen zu behandeln. Die Verwendung von Office-webapps Server ermöglicht Displays mit höherer Auflösung und eine bessere Unterstützung für PowerPoint-Funktionen, Zugriff auf weitere Typen von mobilen Geräten (lync Server 2013 verwendet Standard-DHTML und JavaScript zum Übertragen von PowerPoint-Präsentationen) und die Möglichkeit für Benutzer mit den entsprechenden Berechtigungen, einen Bildlauf durch eine PowerPoint-Präsentation unabhängig von der Präsentation selbst durchzuführen.
+    In lync Server 2013 werden nun Office-Webanwendungen und der Office-webapps-Server (ehemals "AS-Server" genannt) verwendet, um PowerPoint-Präsentationen zu behandeln. Die Verwendung von Office-webapps Server ermöglicht Displays mit höherer Auflösung und eine bessere Unterstützung für PowerPoint-Funktionen, den Zugriff auf weitere Typen von mobilen Geräten (lync Server 2013 verwendet Standard-DHTML und JavaScript zum Übertragen von PowerPoint-Präsentationen) und die Möglichkeit für Benutzer mit den entsprechenden Berechtigungen, unabhängig von der Präsentation selbst einen Bildlauf durch eine PowerPoint-Präsentation durchzuführen.
 
   - **Galerieansicht und HD-Video Konferenzen**
     

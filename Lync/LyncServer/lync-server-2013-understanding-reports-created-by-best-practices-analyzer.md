@@ -12,20 +12,22 @@ ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f676482badb5c00d007fced66bfc9a8abbb33a68
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 24699e685b58c718f6b67306c1eaa2d6974c87c5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193148"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527722"
 ---
+# <a name="understanding-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Grundlegendes zu berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Grundlegendes zu berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden
+
 
 </div>
 
@@ -45,11 +47,11 @@ Best Practices Analyzer bietet verschiedene Berichttypen zur Vereinfachung der A
 
 Sie können auf die Ergebnisse einer Überprüfung zugreifen, indem Sie jeden der folgenden Berichte anzeigen:
 
-  - **Listen Berichte Listen**Berichte werden nach bestimmten Kriterien sortiert.    Sie können die Ergebnisse nach Klasse, Schweregrad oder Problem anordnen. Wenn Sie die Ergebnisse beispielsweise nach Klasse anordnen, befinden sich Probleme im Zusammenhang mit Directors im Directors-Abschnitt des Berichts. Sie können alle Probleme oder nur die Informationselemente anzeigen. Sie können einen Listenbericht nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
+  - **Auflisten von Berichten**     Listen Berichte werden nach bestimmten Kriterien sortiert. Sie können die Ergebnisse nach Klasse, Schweregrad oder Problem anordnen. Wenn Sie die Ergebnisse beispielsweise nach Klasse anordnen, befinden sich Probleme im Zusammenhang mit Directors im Directors-Abschnitt des Berichts. Sie können alle Probleme oder nur die Informationselemente anzeigen. Sie können einen Listenbericht nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
 
-  - **Strukturberichte**   Strukturberichte werden nach den Regeln organisiert, die zum Ausführen der Überprüfung und anderen Optionen verwendet werden, die Sie zum Zeitpunkt der Überprüfung angegeben haben. Probleme im Zusammenhang mit Testtopologieregeln befinden sich z. B. im Testtopologie-Abschnitt des Berichts. Sie können Details zu allen Problemen oder nur eine Zusammenfassung der Probleme anzeigen. Sie können einen Strukturbericht nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
+  - **Strukturberichte**     Strukturberichte werden nach den Regeln organisiert, die zum Ausführen der Überprüfung und anderen Optionen verwendet werden, die Sie zum Zeitpunkt der Überprüfung angegeben haben. Probleme im Zusammenhang mit Testtopologieregeln befinden sich z. B. im Testtopologie-Abschnitt des Berichts. Sie können Details zu allen Problemen oder nur eine Zusammenfassung der Probleme anzeigen. Sie können einen Strukturbericht nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
 
-  - **Andere Berichts**   Elemente in anderen Berichten enthalten das Laufzeitprotokoll der Aufgaben, die in der Überprüfung enthalten waren. Sie können die Elemente in anderen Berichten nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
+  - **Andere Berichte**     Elemente in anderen Berichten enthalten das Laufzeitprotokoll der Aufgaben, die in der Überprüfung enthalten waren. Sie können die Elemente in anderen Berichten nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
 
 </div>
 
@@ -59,15 +61,15 @@ Sie können auf die Ergebnisse einer Überprüfung zugreifen, indem Sie jeden de
 
 Die vom Best Practices Analyzer generierten Berichte geben bestimmte Probleme an, die während der Überprüfung Ihrer Umgebung identifiziert wurden, einschließlich folgender Problemtypen:
 
-  - **Fehler**   : wichtige Probleme, bei denen Sie eine Änderung in Ihrer Umgebung vornehmen müssen. Wenn beispielsweise lync Server 2013 Kernkomponenten nicht installiert sind, wird ein Fehler protokolliert.
+  - **Fehler**     Wichtige Probleme, bei denen Sie eine Änderung in Ihrer Umgebung vornehmen müssen. Wenn beispielsweise lync Server 2013 Kernkomponenten nicht installiert sind, wird ein Fehler protokolliert.
 
     Als Fehler klassifizierte Probleme sind im Bericht mit einem roten X-Symbol gekennzeichnet. Fehler werden auf der Registerkarte **Alle Probleme** in der Ansicht **Listenberichte** und auf den Registerkarten **Detaillierte Ansicht** und **Zusammenfassungsansicht** der Ansicht **Strukturberichte** angezeigt. Wenn Sie in einem Bericht einen bestimmten Fehler nicht anzeigen möchten, können Sie festlegen, dass der Fehler für eine Instanz oder alle Instanzen dieses Fehlers im Bericht nicht angezeigt wird. Der Fehler wird dann nur auf der Registerkarte **Ausgeblendete Elemente** der Ansicht **Andere Berichte** angezeigt, außer Sie ändern die Einstellung und legen fest, dass der Fehler im Bericht angezeigt wird.
 
-  - **Warnungen**   Probleme, die nicht mit der Implementierung einer bewährten Methode konsistent sind. Dies kann u. U. die Notwendigkeit einer Änderung in Ihrer Umgebung anzeigen. Bei dem Problem könnte es sich um ein bekanntes Problem mit einer bestimmten Einstellung handeln, die Sie nicht ändern müssen. Auf einem Server nicht gestartete Dienste werden z. B. als Warnungen protokolliert.
+  - **Warnungen**     Probleme, die nicht mit der Implementierung einer bewährten Methode in Einklang stehen. Dies kann u. U. die Notwendigkeit einer Änderung in Ihrer Umgebung anzeigen. Bei dem Problem könnte es sich um ein bekanntes Problem mit einer bestimmten Einstellung handeln, die Sie nicht ändern müssen. Auf einem Server nicht gestartete Dienste werden z. B. als Warnungen protokolliert.
 
     Als Warnungen klassifizierte Probleme sind im Bericht mit einem dreieckigen gelben Warnsymbol gekennzeichnet. Warnungen werden auf der Registerkarte **Alle Probleme** der Ansicht **Listenberichte** sowie auf den Registerkarten **Detaillierte Ansicht** und **Zusammenfassungsansicht** der Ansicht **Strukturberichte** angezeigt. Wenn Sie in einem Bericht einen bestimmten Fehler nicht anzeigen möchten, können Sie festlegen, dass der Fehler für eine Instanz oder alle Instanzen dieses Fehlers im Bericht nicht angezeigt wird. Die Warnung wird dann nur auf der Registerkarte **Ausgeblendete Elemente** der Ansicht **Andere Berichte** angezeigt, außer Sie ändern die Einstellung und legen fest, dass die Warnung im Bericht angezeigt wird.
 
-  - **Informationen**   umfassen alle Probleme, die nicht als Fehler oder Warnungen klassifiziert sind. Beispielsweise wird die Anzahl der lync Server 2013 Standard Edition-Server-Objekte in Active Directory-Domänendienste als Informationsproblem klassifiziert.
+  - **Informationen**     zum Enthält alle Probleme, die nicht als Fehler oder Warnungen klassifiziert sind. Beispielsweise wird die Anzahl der lync Server 2013 Standard Edition-Server-Objekte in Active Directory-Domänendienste als Informationsproblem klassifiziert.
 
     Informationsprobleme werden auf der Registerkarte **Alle Probleme** der Ansicht **Listenberichte** und der Registerkarte **Detaillierte Ansicht** der Ansicht **Strukturberichte** angezeigt.
 

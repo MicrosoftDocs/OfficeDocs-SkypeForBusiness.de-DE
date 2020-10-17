@@ -12,20 +12,22 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bee58b0a35d2a3a322d799f2aadc9ba3b9c1bd9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f427486756895f1bff5330075f4c323f944afd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529632"
 ---
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Active Directory-Domänendienste-Unterstützung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Active Directory-Domänendienste-Unterstützung in lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ Alle Gesamtstrukturen, in denen Sie lync Server 2013 bereitstellen, müssen auf 
 
 <div>
 
-## <a name="support-for-read-only-domain-controllers"></a>Unterstützung für schreibgeschützte Domänencontroller
+## <a name="support-for-read-only-domain-controllers"></a>Unterstützung für Read-Only Domänencontroller
 
 Lync Server 2013 unterstützt Active Directory-Domänendienste-Bereitstellungen, die schreibgeschützte Domänencontroller oder schreibgeschützte globale Katalogserver enthalten, sofern schreibbare Domänencontroller verfügbar sind.
 
@@ -103,7 +105,7 @@ Lync Server 2013 unterstützt Active Directory-Domänendienste-Bereitstellungen,
 
 ## <a name="domain-names"></a>Domänennamen
 
-Lync Server bietet keine Unterstützung für Domänen mit einfacher Bezeichnung. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne namens **contoso.local** unterstützt, eine Stammdomäne namens **local** hingegen nicht. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 300684, "Informationen zum Konfigurieren von Windows für Domänen mit DNS-Namen mit einfacher [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)Bezeichnung" unter.
+Lync Server bietet keine Unterstützung für Domänen mit einfacher Bezeichnung. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne namens **contoso.local** unterstützt, eine Stammdomäne namens **local** hingegen nicht. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 300684, "Informationen zum Konfigurieren von Windows für Domänen mit DNS-Namen mit einfacher Bezeichnung" unter [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752) .
 
 <div>
 
@@ -121,7 +123,7 @@ Lync Server bietet keine Unterstützung für Domänen mit einfacher Bezeichnung.
 
 ## <a name="locked-down-adds-environments"></a>AD DS Umgebungen gesperrt
 
-In einer gesperrten AD DS Umgebung werden Benutzer und Computer Objekte häufig in bestimmten Organisationseinheiten (Organizational Units, OUs) mit deaktivierten Berechtigungen vererbt, um eine sichere administrative Delegierung zu gewährleisten und die Verwendung von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs) zu ermöglichen, um die Erzwingung Sicherheitsrichtlinien. Lync Server 2013 können in einer gesperrten Active Directory Umgebung bereitgestellt werden. Ausführliche Informationen dazu, was für die Bereitstellung von lync Server in einer gesperrten Umgebung erforderlich ist, finden Sie unter [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
+In einer gesperrten AD DS Umgebung werden Benutzer und Computer Objekte häufig in bestimmten Organisationseinheiten (Organizational Units, OUs) mit deaktivierten Berechtigungen vererbt, um eine sichere administrative Delegierung zu gewährleisten und die Verwendung von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs) zum Erzwingen von Sicherheitsrichtlinien zu ermöglichen. Lync Server 2013 können in einer gesperrten Active Directory Umgebung bereitgestellt werden. Ausführliche Informationen dazu, was für die Bereitstellung von lync Server in einer gesperrten Umgebung erforderlich ist, finden Sie unter [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0b274d933fbb1c9f47b219a492403bd1c5f58d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528952"
 ---
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Notfall Wiederherstellungstest in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Notfall Wiederherstellungstest in lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ So sichern Sie Produktions lync Server 2013 Daten:
 
   - Verwenden Sie die Sicherungsanwendung eines Drittanbieters, um die Daten in Datei oder auf Band zu sichern.
 
-  - Verwenden Sie das Cmdlet Export-csuserdata ", um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
+  - Verwenden Sie das Export-CsUserData-Cmdlet, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
 
   - Verwenden Sie die Dateisystemsicherung oder Drittanbieter, um Besprechungsinhalte und Kompatibilitäts Protokolle zu sichern.
 
@@ -74,7 +76,7 @@ Diese Daten können über die folgenden beiden Prozesse wiederhergestellt werden
 
   - Die RTC-Datenbank kann vom ursprünglichen Sicherungsspeicher Gerät aus dem Produktions SQL Server mithilfe des standardmäßigen SQL Server Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungstools eines Drittanbieters wiederhergestellt werden.
 
-  - Benutzer Kontaktdaten können mit dem Dienstprogramm DBIMPEXP. exe mithilfe der XML-Datei, die aus dem Export der Produktions SQL Server erstellt wurde, wiederhergestellt werden.
+  - Benutzer Kontaktdaten können mit dem DBIMPEXP.exe-Dienstprogramm mithilfe der XML-Datei wiederhergestellt werden, die aus dem Export der Produktions SQL Server erstellt wurde.
 
 Nachdem diese Daten wiederhergestellt wurden, können Benutzer effektiv eine Verbindung mit dem Notfall Wiederherstellungs lync Server 2013-Pool herstellen und wie gewohnt arbeiten.
 
@@ -82,21 +84,21 @@ Damit Benutzer eine Verbindung mit dem Notfall Wiederherstellungs lync Server 20
 
 Auf den Produktions lync Server 2013 Pool wird von Clients verwiesen, die die Auto-Konfiguration und DNS-SRV-Einträge von verwenden:
 
-  - SRV: \_SIP. \_TLS. \<Domäne\> /CNAME: SIP. \<Domäne\>
+  - SRV: \_ SIP. \_ TLS.\<domain\> /CNAME: SIP.\<domain\>
 
-  - CNAME: SIP. \<Domänen\> /CVC-Pool-1. \<Domäne\>
+  - CNAME: SIP.\<domain\> /cvc-pool-1.\<domain\>
 
 Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den FQDN des DROCSPool verweist:
 
-  - CNAME: SIP. \<Domänen\> /DROCSPool. \<Domäne\>
+  - CNAME: SIP.\<domain\> /DROCSPool.\<domain\>
 
-  - SIP. \<Domäne\>
+  - SIP.\<domain\>
 
-  - AV.\<Domäne\>
+  - AV.\<domain\>
 
-  - webconf. \<Domäne\>
+  - webconf.\<domain\>
 
-  - OCSServices. \<Domäne\>
+  - OCSServices.\<domain\>
 
 <div>
 

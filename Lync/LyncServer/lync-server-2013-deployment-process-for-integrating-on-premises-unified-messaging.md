@@ -12,20 +12,22 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f8edade1ed4f0480d776e77eb66816c033a7e3d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53dcbeb362387c31a97ad1e26713b642f82b2390
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529122"
 ---
+# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Bereitstellungsprozess für die Integration von lokalen Unified Messaging-und lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Bereitstellungsprozess für die Integration von lokalen Unified Messaging-und lync Server 2013
+
 
 </div>
 
@@ -92,18 +94,18 @@ Wenn Sie Exchange Unified Messaging (um) mit lync Server 2013 integrieren möcht
 </ul>
 <p>Wenn lync Server 2013 und Exchange Unified Messaging (um) in unterschiedlichen Gesamtstrukturen installiert sind, konfigurieren Sie jede Exchange-Gesamtstruktur so, dass Sie der lync Server 2013 Gesamtstruktur vertraut.</p></td>
 <td><p>Organisations-Admins (wenn es sich um den ersten Exchange Server in der Organisation handelt)</p>
-<p>oder -</p>
+<p>– ODER –</p>
 <p>Exchange-Organisationsadministrator (wenn es sich nicht um den ersten Exchange Server in der Organisation handelt)</p></td>
 <td><p>Weitere Informationen finden Sie in der Dokumentation zur jeweiligen Version von Exchange Server:</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2007 Bereitstellungsdokumentation <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a>unter.</p>
+<dd><p>Exchange Server 2007 Bereitstellungsdokumentation unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a> .</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2010 oder neueste Service Pack-Bereitstellungs <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a>Dokumentation unter.</p>
+<dd><p>Exchange Server 2010 oder neueste Service Pack-Bereitstellungsdokumentation unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a> .</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Microsoft Exchange Server 2013 Planung und Bereitstellung <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a>bei.</p>
+<dd><p>Microsoft Exchange Server 2013 Planung und Bereitstellung bei <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a> .</p>
 </dd>
 </dl></td>
 </tr>
@@ -117,9 +119,9 @@ Wenn Sie Exchange Unified Messaging (um) mit lync Server 2013 integrieren möcht
 <td><p>Erstellen und konfigurieren Sie einen neuen Exchange um SIP-Wähleinstellungen.</p></td>
 <td><p>Erstellen Sie auf dem Exchange um Server einen SIP-Wählplan basierend auf den spezifischen Bereitstellungsanforderungen Ihrer Organisation.</p></td>
 <td><p>Exchange-Organisationsadministrator</p></td>
-<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden &quot;Sie unter Erstellen eines Unified Messaging-SIP-URI&quot; - <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a>Wähl Plans unter.</p>
-<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden &quot;Sie unter Erstellen eines um&quot; - <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a>Wähl Plans unter.</p>
-<p>Informationen zu Exchange 2013 finden Sie unter Unified <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>Messaging unter.</p></td>
+<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden Sie unter &quot; Erstellen eines Unified Messaging-SIP-URI-Wähl Plans unter &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a> .</p>
+<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden Sie unter &quot; Erstellen eines um-Wähl Plans &quot; unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a> .</p>
+<p>Informationen zu Exchange 2013 finden Sie unter Unified Messaging unter <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Konfigurieren Sie Sicherheitseinstellungen für den Exchange um SIP-Wählplan.</p></td>
@@ -127,32 +129,32 @@ Wenn Sie Exchange Unified Messaging (um) mit lync Server 2013 integrieren möcht
 <td><p>Exchange-Organisationsadministrator</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Konfigurieren von Unified Messaging für Microsoft Exchange für lync Server 2013</a></p>
 <p>Informationen zu Exchange 2007 SP1 oder zum neuesten Service Pack finden Sie unter auch:</p>
-<p>&quot;Konfigurieren der Sicherheit für einen Unified Messaging-Wählplan&quot; unter. <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a></p>
+<p>&quot;Konfigurieren der Sicherheit für einen Unified Messaging &quot; -Wählplan unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a> .</p>
 <p>Informationen zu Exchange 2010 oder neuestes Service Pack finden Sie auch hier:</p>
-<p>&quot;Konfigurieren Sie VoIP&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a>-Sicherheit für einen um-Wählplan.</p>
-<p>Informationen zu Exchange 2013 finden Sie unter Unified <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>Messaging unter.</p></td>
+<p>&quot;Konfigurieren Sie VoIP-Sicherheit für einen um &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a> -Wählplan.</p>
+<p>Informationen zu Exchange 2013 finden Sie unter Unified Messaging unter <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p>Fügen Sie dem Exchange um SIP-Wähleinstellungen Unified Messaging-Server hinzu.</p></td>
 <td><p>Wenn Sie einen neu installierten Unified Messaging-Server zur Entgegennahme und Verarbeitung eingehender Anrufe aktivieren möchten, müssen Sie den Unified Messaging-Server einem Satz mit UM-Wähleinstellungen hinzufügen. In diesem Fall fügen Sie den Server dem Exchange um SIP-Wähleinstellungen hinzu.</p></td>
 <td><p>Administratoren</p>
 <p>Exchange-Serveradministratoren</p></td>
-<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden &quot;Sie unter Hinzufügen von Unified Messaging-Server zu&quot; Wähl <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a>Einstellungen unter.</p>
-<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden &quot;Sie unter Anzeigen oder Konfigurieren der Eigenschaften eines um&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a>-Servers unter.</p>
-<p>Informationen zu Exchange 2013 finden Sie unter Unified <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>Messaging unter.</p></td>
+<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden Sie unter &quot; Hinzufügen von Unified Messaging-Server zu Wähleinstellungen unter &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a> .</p>
+<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden Sie unter &quot; anzeigen oder Konfigurieren der Eigenschaften eines um &quot; -Servers unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a> .</p>
+<p>Informationen zu Exchange 2013 finden Sie unter Unified Messaging unter <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Konfigurieren Sie Postfächer mit SIP-Adressen.</p></td>
 <td><p>Weisen Sie den Postfächern von Enterprise-VoIP-Benutzern, die Exchange um-Features verwenden werden, SIP-Adressen zu.</p></td>
 <td><p>Lync Server 2013 Administrator</p>
 <p>Exchange-Empfängeradministrator</p></td>
-<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden &quot;Sie unter Hinzufügen, entfernen oder Ändern einer SIP-Adresse für einen um-aktivierten&quot; Benutzer <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a>unter.</p>
-<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden &quot;Sie unter Ändern einer SIP-Adresse für einen um&quot; - <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a>aktivierten Benutzer unter.</p>
-<p>Informationen zu Exchange 2013 finden Sie unter Unified <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>Messaging unter.</p></td>
+<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden Sie unter &quot; hinzufügen, entfernen oder Ändern einer SIP-Adresse für einen UM-Enabled-Benutzer &quot; unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a> .</p>
+<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden Sie unter &quot; Ändern einer SIP-Adresse für einen UM-Enabled-Benutzer &quot; unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a> .</p>
+<p>Informationen zu Exchange 2013 finden Sie unter Unified Messaging unter <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p>Führen Sie das Skript "exchucutil.ps1" aus.</p></td>
-<td><p>Öffnen Sie auf dem Server, auf dem Exchange um Dienste ausgeführt werden, das Exchange-Verwaltungsshell, und führen Sie das Skript "exchucutil. ps1-Skript aus, das Folgendes ausführt:</p>
+<td><p>Öffnen Sie auf dem Server, auf dem Exchange um Dienste ausgeführt werden, das Exchange-Verwaltungsshell, und führen Sie das exchucutil.ps1-Skript aus, das Folgendes ausführt:</p>
 <ul>
 <li><p>Erteilt lync Server 2013 Berechtigung zum Lesen von Exchange um Active Directory-Domänendienste-Objekten, insbesondere die SIP-Wählpläne, die in der vorherigen Aufgabe erstellt wurden.</p></li>
 <li><p>Erstellt ein Unified Messaging-IP-Gateway-Objekt in Active Directory für jeden lync Server 2013 Enterprise Edition-Pool oder Standard Edition-Server, der Benutzer hostet, die für Enterprise-VoIP aktiviert sind.</p></li>
@@ -185,7 +187,7 @@ Wenn Sie Exchange Unified Messaging (um) mit lync Server 2013 integrieren möcht
 </tr>
 <tr class="odd">
 <td><p>Führen Sie das Exchange um-integrationstool aus.</p></td>
-<td><p>Führen Sie auf der lync Server 2013 <strong>OCSUMUtil. exe</strong>aus, die:</p>
+<td><p>Führen Sie auf der lync Server 2013 <strong>ocsumutil.exe</strong>aus, die:</p>
 <ul>
 <li><p>Erstellen von Kontaktobjekten für Teilnehmerzugriff und automatische Telefonzentrale.</p></li>
 <li><p>Überprüft, ob ein Enterprise-VoIP-Wählplan mit einem Namen vorhanden ist, der mit dem FQDN des Exchange um Wähl Plans übereinstimmt. Wenn Sie Exchange 2010 SP1 oder höher ausführen, müssen die Namen der Wähleinstellungen nicht übereinstimmen, und Sie können die Warnung des Tools zu diesem Thema ignorieren.</p></li>
@@ -212,7 +214,7 @@ Wenn Sie Exchange Unified Messaging (um) mit lync Server 2013 integrieren möcht
 <td><p>Führen Sie bei Bedarf weitere Schritte zur Enterprise-VoIP-Konfiguration aus.</p></td>
 <td><p>Wenn Sie nicht bereits Enterprise-VoIP-Einstellungen für Ihre Server oder Benutzer konfiguriert haben, führen Sie eine oder mehrere der folgenden Aufgaben aus:</p>
 <ul>
-<li><p>Bereitstellen und konfigurieren</p>
+<li><p>Bereitstellen und Konfigurieren</p>
 <p>PSTN-Gateways (Public Switched Telephone Network) und Vermittlungsserver</p></li>
 <li><p>Definieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und ausgehenden Anrufrouten</p></li>
 <li><p>Aktivieren von Benutzern für Enterprise-VoIP</p></li>
@@ -231,9 +233,9 @@ Wenn Sie Exchange Unified Messaging (um) mit lync Server 2013 integrieren möcht
 <td><p>Aktivieren Sie Enterprise-VoIP-Benutzer für Exchange um.</p></td>
 <td><p>Stellen Sie auf dem Exchange um Server sicher, dass eine Unified Messaging-Postfachrichtlinie erstellt wurde und dass jeder Benutzer über eine eindeutige Durchwahlnummer verfügt, und aktivieren Sie dann den Benutzer für Unified Messaging.</p></td>
 <td><p>Exchange-Empfängeradministrator</p></td>
-<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden &quot;Sie unter Aktivieren eines Benutzers für Unified Messaging&quot; unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a>.</p>
-<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden &quot;Sie unter Aktivieren eines Benutzers für&quot; Unified <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a>Messaging unter.</p>
-<p>Informationen zu Exchange 2013 finden Sie unter Unified <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>Messaging unter.</p></td>
+<td><p>Informationen zum Exchange 2007 SP1 oder neuesten Service Pack finden Sie unter &quot; Aktivieren eines Benutzers für Unified Messaging &quot; unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a> .</p>
+<p>Informationen zum Exchange 2010 oder neuesten Service Pack finden Sie unter &quot; Aktivieren eines Benutzers für Unified Messaging &quot; unter <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a> .</p>
+<p>Informationen zu Exchange 2013 finden Sie unter Unified Messaging unter <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 </tbody>
 </table>

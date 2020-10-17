@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529112"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Direkte SIP-Bereitstellungsoptionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Direkte SIP-Bereitstellungsoptionen in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Dieses Thema enthält Beispiel Topologien für die Bereitstellung von direkten S
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Lync Server eigenständig
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
 Wenn in Ihrer Organisation eine der in diesem Abschnitt beschriebenen Bereitstellungen verwendet wird, können Sie lync Server 2013 als einzige Telefonielösung für einen Teil oder die gesamte Organisation verwenden. In diesem Abschnitt werden die folgenden Bereitstellungen ausführlich beschrieben:
 
@@ -71,7 +73,7 @@ In der folgenden Abbildung ist die generische Topologie für die Bereitstellung 
 
 
 > [!NOTE]  
-> Wenn Sie Ihre lync Server-Bereitstellung mit einem zertifizierten direkten SIP-Partner verbinden, ist ein PSTN-Gateway (Public Switched Telephone Network) zwischen dem Vermittlungsserver und der Nebenstellenanlage nicht erforderlich. Eine Liste mit zertifizierten Direct SIP-Partnern finden Sie auf <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>der Website Microsoft Unified Communications Open Interoperability Program unter.
+> Wenn Sie Ihre lync Server-Bereitstellung mit einem zertifizierten direkten SIP-Partner verbinden, ist ein PSTN-Gateway (Public Switched Telephone Network) zwischen dem Vermittlungsserver und der Nebenstellenanlage nicht erforderlich. Eine Liste mit zertifizierten Direct SIP-Partnern finden Sie auf der Website Microsoft Unified Communications Open Interoperability Program unter <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> .
 
 
 
@@ -141,9 +143,9 @@ Wenn Enterprise-VoIP vor der Nebenstellenanlage bereitgestellt wird, werden alle
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Lync Server nur-VoIP-Bereitstellung
+## <a name="lync-server-voip-only-deployment"></a>Lync Server VoIP-Only-Bereitstellung
 
-Enterprise-VoIP bietet neuen Unternehmen und auch neuen Office-Websites für vorhandene Unternehmen die Möglichkeit, eine umfassende VoIP-Lösung zu implementieren, ohne sich Gedanken über die Integration von Nebenstellenanlagen oder die erhebliche Bereitstellung und Wartung machen zu müssen. Kosten einer IP-PBX-Infrastruktur. Diese Lösung unterstützt sowohl vor-Ort-als auch Remote-Arbeitskräfte.
+Enterprise-VoIP bietet neuen Unternehmen und auch neuen Office-Websites für vorhandene Unternehmen die Möglichkeit, eine umfassende VoIP-Lösung zu implementieren, ohne sich Gedanken über die Integration von Nebenstellenanlagen oder die erheblichen Bereitstellungs-und Wartungskosten einer IP-PBX-Infrastruktur machen zu müssen. Diese Lösung unterstützt sowohl vor-Ort-als auch Remote-Arbeitskräfte.
 
 In dieser Bereitstellung werden alle Anrufe über das IP-Netzwerk weitergeleitet. Anrufe an das PSTN werden an das entsprechende PSTN-Gateway weitergeleitet. Lync 2013 oder lync Phone Edition dient als Softphone. Die Remote Anrufsteuerung ist nicht verfügbar und unnötig, da es keine Nebenstellentelefone gibt, die von Benutzern gesteuert werden können. Voicemail-und automatische Telefonzentralendienste stehen über die optionale Bereitstellung von Exchange Unified Messaging (um) zur Verfügung.
 

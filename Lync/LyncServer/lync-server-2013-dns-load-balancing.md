@@ -12,20 +12,22 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47469a8b47273c077a96196b06b827ac13a0e336
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79c2bb8e5bbcb9d00fe687d6f06ac6226a2edf6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197438"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528922"
 ---
+# <a name="dns-load-balancing-in-lync-server-2013"></a>DNS-Lastenausgleich in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-load-balancing-in-lync-server-2013"></a>DNS-Lastenausgleich in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server aktiviert den DNS-Lastenausgleich, eine Softwarelösung, die den Ver
 
 Wenn Sie den DNS-Lastenausgleich bereitstellen, wird der Verwaltungsaufwand Ihrer Organisation für Hardwarelastenausgleich minimiert. Darüber hinaus entfällt die komplexe Problembehandlung zur Beseitigung von Fehlern, die durch eine falsche Konfiguration des Lastenausgleichs für SIP-Datenverkehr entstehen. Zudem können Sie Serververbindungen verhindern, sodass Sie Server offline schalten können. Der DNS-Lastenausgleich stellt ferner sicher, dass sich durch Hardwarelastenausgleich hervorgerufene Probleme nicht auf den SIP-Datenverkehr auswirken, etwa auf die grundlegende Anrufweiterleitung.
 
-Wenn Sie DNS-Lastenausgleich verwenden, können Sie möglicherweise auch kostengünstigere Hardwaregeräte zum Lastenausgleich anschaffen, da diese nicht für alle Arten von Datenverkehr eingesetzt werden müssen. Sie sollten Lastenausgleichsmodule verwenden, die Interoperabilitäts Qualifizierungstests mit lync Server bestanden haben. Ausführliche Informationen zum Testen der Lastenausgleichsmodul-Interoperabilität finden Sie unter "lync Server 2010 Lasten [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)Ausgleichs Partner" unter.
+Wenn Sie DNS-Lastenausgleich verwenden, können Sie möglicherweise auch kostengünstigere Hardwaregeräte zum Lastenausgleich anschaffen, da diese nicht für alle Arten von Datenverkehr eingesetzt werden müssen. Sie sollten Lastenausgleichsmodule verwenden, die Interoperabilitäts Qualifizierungstests mit lync Server bestanden haben. Ausführliche Informationen zum Testen der Lastenausgleichsmodul-Interoperabilität finden Sie unter "lync Server 2010 Lastenausgleichs Partner" unter [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 Der DNS-Lastenausgleich wird für Front-End-Pools, Edgeserverpools, Director-Pools und eigenständige Vermittlungsserverpools unterstützt.
 
@@ -57,7 +59,7 @@ Auch wenn für diese Pools weiterhin Hardwaregeräte zum Lastenausgleich benöti
 
 ## <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS-Lastenausgleich und Unterstützung älterer Clients und Server
 
-Der DNS-Lastenausgleich unterstützt das automatische Failover nur für Server, auf denen lync Server 2013 oder lync Server 2010 sowie für lync 2013-und lync 2010-Clients verwendet wird. Frühere Versionen von Clients und Office Communications Server können weiterhin mit Pools mit dem DNS-Lastenausgleich verbunden werden, wenn Sie jedoch keine Verbindung mit dem ersten Server herstellen können, auf den der DNS-Lastenausgleich verweist, kann kein Failover auf einen anderen Server im Pool ausgeführt werden. .
+Der DNS-Lastenausgleich unterstützt das automatische Failover nur für Server, auf denen lync Server 2013 oder lync Server 2010 sowie für lync 2013-und lync 2010-Clients verwendet wird. Frühere Versionen von Clients und Office Communications Server können weiterhin mit Pools mit dem DNS-Lastenausgleich verbunden werden, wenn Sie jedoch keine Verbindung mit dem ersten Server herstellen können, auf den der DNS-Lastenausgleich verweist, kann kein Failover auf einen anderen Server im Pool ausgeführt werden.
 
 Wenn Sie Exchange um verwenden, müssen Sie darüber hinaus mindestens Exchange 2010 SP1 verwenden, um Unterstützung für lync Server DNS-Lastenausgleich zu erhalten. Wenn Sie eine frühere Version von Exchange verwenden, verfügen die Benutzer nicht über Failoverfunktionen für diese Exchange um Szenarien:
 
@@ -104,7 +106,7 @@ Bei Verwendung des DNS-Lastenausgleichs auf Ihren Edgeservern verfügen Sie in d
 
   - Partnerverbund mit Organisationen, die Versionen von Office Communications Server, die vor lync Server 2010 veröffentlicht wurden, ausführt.
 
-  - Instant Message Exchange mit Benutzern von öffentlichen Instant Messaging-Diensten (im) AOLand\!Yahoo, zusätzlich zu XMPP-basierten Anbietern und Servern wie Google Talk.
+  - Instant Message Exchange mit Benutzern von öffentlichen Instant Messaging-Diensten (im) AOLand Yahoo \! , zusätzlich zu XMPP-basierten Anbietern und Servern wie Google Talk.
     
     <div>
     

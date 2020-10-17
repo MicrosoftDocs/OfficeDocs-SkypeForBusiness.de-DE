@@ -12,20 +12,22 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57f32d84e4cd08c40f95a47af7c988599678c972
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f836c71023defd6c826ab763d36e395a1240d3da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527742"
 ---
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Grundlegendes zu Firewall-Anforderungen für SQL Server mit lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Grundlegendes zu Firewall-Anforderungen für SQL Server mit lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Bei der Verwendung benannter Instanzen in der SQL Server-Konfiguration für Date
 
 ## <a name="sql-server-documentation"></a>SQL Server Dokumentation
 
-In Microsoft SQL Server 2012-Dokumentation finden Sie detaillierte Anleitungen zum Konfigurieren des Firewall-Zugriffs für Datenbanken. Ausführliche Informationen zu Microsoft SQL Server 2012 finden Sie unter "Konfigurieren der Windows-Firewall, um SQL Server Zugriff [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031)zu ermöglichen" unter.
+In Microsoft SQL Server 2012-Dokumentation finden Sie detaillierte Anleitungen zum Konfigurieren des Firewall-Zugriffs für Datenbanken. Ausführliche Informationen zu Microsoft SQL Server 2012 finden Sie unter "Konfigurieren der Windows-Firewall, um SQL Server Zugriff zu ermöglichen" unter [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031) .
 
 </div>
 

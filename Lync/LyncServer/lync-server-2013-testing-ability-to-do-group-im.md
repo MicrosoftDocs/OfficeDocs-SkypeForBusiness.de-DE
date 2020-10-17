@@ -12,20 +12,22 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eef76c8728a7b5a569efee9305505f4e19f6bceb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f33d34644f76c9773edbfd9ad5d3945c0c1974c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527822"
 ---
+# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Testen der Fähigkeit, Gruppen-Chat in lync Server 2013 zu ausführen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Testen der Fähigkeit, Gruppen-Chat in lync Server 2013 zu ausführen
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsGroupIM verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsGroupIM-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsGroupIM überprüft, ob Benutzer in Ihrer Organisation Gruppen-Chatsitzungen durchführen können. Wenn Sie Test-CsGroupIM ausführen, versucht das Cmdlet, sich an einem Paar von Testbenutzern anzumelden, um lync Server. Wenn die Methode erfolgreich verläuft, erstellt Test-CsGroupIM eine neue Konferenz mit dem ersten Testbenutzer und lädt den zweiten Benutzer ein, an der Konferenz teilzunehmen. Nach dem Austausch von Nachrichten werden beide Benutzer vom System getrennt. Beachten Sie, dass dies alles ohne Benutzerinteraktion und ohne Beeinträchtigung von tatsächlichen Benutzern geschieht. Nehmen wir beispielsweise an, dass das Test Konto SIP:kenmyer@litwareinc.com einem echten Benutzer entspricht, der über ein echtes lync Server Konto verfügt. In diesem Fall wird der Test ohne Unterbrechung des realen Ken Myers durchgeführt. Wenn sich beispielsweise das Ken Myers-Test Konto vom System abmeldet, bleibt die Person angemeldet. Ebenso wird der wirkliche Ken Myers keine Einladung erhalten, an der Konferenz teilzunehmen. Diese Einladung wird an das Test Konto gesendet und von diesem akzeptiert.
+Das Test-CsGroupIM-Cmdlet überprüft, ob Benutzer in Ihrer Organisation Gruppen-Chatsitzungen durchführen können. Wenn Sie Test-CsGroupIM ausführen, versucht das Cmdlet, sich an einem Paar von Testbenutzern anzumelden, um lync Server. Wenn die Test-CsGroupIM erfolgreich verläuft, wird mit dem ersten Testbenutzer eine neue Konferenz erstellt, und anschließend wird der zweite Benutzer aufgefordert, an der Konferenz teilzunehmen. Nach dem Austausch von Nachrichten werden beide Benutzer vom System getrennt. Beachten Sie, dass dies alles ohne Benutzerinteraktion und ohne Beeinträchtigung von tatsächlichen Benutzern geschieht. Nehmen wir beispielsweise an, dass das Test Konto SIP:kenmyer@litwareinc.com einem echten Benutzer entspricht, der über ein echtes lync Server Konto verfügt. In diesem Fall wird der Test ohne Unterbrechung des realen Ken Myers durchgeführt. Wenn sich beispielsweise das Ken Myers-Test Konto vom System abmeldet, bleibt die Person angemeldet. Ebenso wird der wirkliche Ken Myers keine Einladung erhalten, an der Konferenz teilzunehmen. Diese Einladung wird an das Test Konto gesendet und von diesem akzeptiert.
 
 Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) .
 
@@ -76,7 +78,7 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsGr
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsGroupIM kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Zum Beispiel:
+Das Test-CsGroupIM-Cmdlet kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Zum Beispiel:
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -132,7 +134,7 @@ Wenn Test-CsGroupIM fehlschlägt, möchten Sie möglicherweise den Test erneut a
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsGroupIM eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer Gruppe von Chatsitzungen überprüft hat. Wenn der Test beispielsweise fehlschlägt und Ihnen mitgeteilt wird, dass ein oder mehrere Benutzerkonten ungültig sind, können Sie den Test mit dem Verbose-Parameter erneut ausführen und bestimmen, welches Benutzerkonto ungültig ist:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsGroupIM eine schrittweise Rechnung über jede Aktion zurück, die versucht wurde, als Sie die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer Gruppe von Chatsitzungen überprüft hat. Wenn der Test beispielsweise fehlschlägt und Ihnen mitgeteilt wird, dass ein oder mehrere Benutzerkonten ungültig sind, können Sie den Test mit dem Verbose-Parameter erneut ausführen und bestimmen, welches Benutzerkonto ungültig ist:
 
 Senden der Registrierungsanforderung:
 
@@ -154,7 +156,7 @@ Wie Sie sehen können, konnte sich der Benutzer, der über die SIP-Adresse SIP:k
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsGroupIM möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsGroupIM Fehler auftreten können:
 
   - Sie haben ein falsches Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     
@@ -162,7 +164,7 @@ Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von Cs
 
   - Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert. Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert wurde, führen Sie einen Befehl wie den folgenden aus:
     
-    Get-CsUser "SIP:kenmyer@litwareinc.com" | SELECT-Objekt aktiviert
+    Get-CsUser "SIP:kenmyer@litwareinc.com" | Select-Object aktiviert
     
     Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.
 

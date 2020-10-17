@@ -12,20 +12,22 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98ac8f4f84280fb8980d38170fc964157b8037ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ec13a23daf0f3dae47ae0ce0dc630e64c596e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529412"
 ---
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Von Grant-CsSetupPermission in lync Server 2013 vorgenommene Änderungen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Von Grant-CsSetupPermission vorgenommene Änderungen in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42191528"
 
 _**Letztes Änderungsstand des Themas:** 2012-06-20_
 
-Um Setup zu delegieren, können Sie der universellen Gruppe RTCUniversalServerAdmins Berechtigungen für eine bestimmte Active Directory Organisationseinheit (Organizational Unit, OU) erteilen, sodass Mitglieder der Gruppe RTCUniversalServerAdmins in dieser Organisationseinheit lync Server 2013 in der angegebenen Domäne ohne Mitglied der Gruppe "Domänen-Admins" zu sein.
+Um Setup zu delegieren, können Sie der universellen Gruppe RTCUniversalServerAdmins Berechtigungen für eine bestimmte Active Directory Organisationseinheit (Organizational Unit, OU) erteilen, sodass Mitglieder der Gruppe RTCUniversalServerAdmins in dieser Organisationseinheit lync Server 2013 in der angegebenen Domäne ohne Mitgliedschaft in der Gruppe "Domänen-Admins" installieren können.
 
 Das **Grant-CsSetupPermission-** Cmdlet erteilt den RTCUniversalServerAdmins-Gruppen Berechtigungen für eine OU, wie in der folgenden Tabelle angegeben:
 

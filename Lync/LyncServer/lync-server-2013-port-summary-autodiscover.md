@@ -12,20 +12,22 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93750418bce8ea98d0cee385232bc09bb0bd63bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57397d3c2629c0f3f69ebb616c3d933c8312f7b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208821"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527952"
 ---
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Port Zusammenfassung-AutoErmittlung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Port Zusammenfassung-AutoErmittlung in lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208821"
 
 _**Letztes Änderungsstand des Themas:** 2013-03-05_
 
-Der lync Server 2013 AutoErmittlungsdienst wird auf dem Director-und Front-End-Pool-Server ausgeführt und kann, wenn `lyncdiscover.<domain>` er `lyncdiscoverinternal.<domain>` in DNS mit den und Hosteinträgen veröffentlicht wird, von Clients zum Auffinden von lync Server Features verwendet werden. Damit Mobile Geräte, die lync Mobile ausführen, die AutoErmittlung verwenden, müssen Sie möglicherweise zuerst die Liste alternativer Zertifikatsantrags Teller Namen auf einem beliebigen Director ändern und Front-End-Server den AutoErmittlungsdienst ausführen. Darüber hinaus kann es erforderlich sein, die Listen Betreff alternativer Namen auf Zertifikaten zu ändern, die für externe Webdienst-Veröffentlichungsregeln für Reverse-Proxies verwendet werden.
+Der lync Server 2013 AutoErmittlungsdienst wird auf dem Director-und Front-End-Pool-Server ausgeführt und kann, wenn er in DNS mit den `lyncdiscover.<domain>` und `lyncdiscoverinternal.<domain>` Hosteinträgen veröffentlicht wird, von Clients zum Auffinden von lync Server Features verwendet werden. Damit Mobile Geräte, die lync Mobile ausführen, die AutoErmittlung verwenden, müssen Sie möglicherweise zuerst die Liste alternativer Zertifikatsantrags Teller Namen auf einem beliebigen Director ändern und Front-End-Server den AutoErmittlungsdienst ausführen. Darüber hinaus kann es erforderlich sein, die Listen Betreff alternativer Namen auf Zertifikaten zu ändern, die für externe Webdienst-Veröffentlichungsregeln für Reverse-Proxies verwendet werden.
 
 Die Entscheidung, ob Listen für alternative Antragstellernamen in umgekehrten Proxys verwendet werden sollen, basiert darauf, ob Sie den AutoErmittlungsdienst auf Port 80 oder an Port 443 veröffentlichen:
 
-  - **Veröffentlicht auf Port 80**   für mobile Geräte sind keine Zertifikat Änderungen erforderlich, wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync läuft, extern auf den Reverseproxy auf Port 80 zugreifen und dann an Port 8080 intern an einen Director oder Front-End-Server weitergeleitet werden.
+  - **Veröffentlicht am Port 80**     Für mobile Geräte sind keine Zertifikat Änderungen erforderlich, wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync läuft, extern auf den Reverseproxy auf Port 80 zugreifen und dann an Port 8080 intern an einen Director oder Front-End-Server weitergeleitet werden.
 
-  - **Veröffentlicht am Port 443**   die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für `lyncdiscover.<sipdomain>` externe Webdienste verwendet werden, muss einen Eintrag für jede SIP-Domäne in Ihrer Organisation enthalten.
+  - **Veröffentlicht am Port 443**     Die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für externe Webdienste verwendet werden, muss einen `lyncdiscover.<sipdomain>` Eintrag für jede SIP-Domäne in Ihrer Organisation enthalten.
     
     <div>
     
@@ -68,19 +70,19 @@ Die Entscheidung, ob Listen für alternative Antragstellernamen in umgekehrten P
 <th>Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Reverseproxylistener</p></td>
-<td><p>Optional Umleitung zu HTTPS, wenn der Benutzer http://&lt;publishedSiteFQDN&gt;eingibt. Auch erforderlich, wenn Office-webapps für Konferenzen und der AutoErmittlungsdienst für mobile Geräte, auf denen lync ausgeführt wird, in Situationen verwendet werden, in denen die Organisation das Zertifikat für die Veröffentlichungsregel für externe Webdienste nicht ändern möchte.</p></td>
+<td><p>Optional Umleitung zu HTTPS, wenn der Benutzer http://publishedSiteFQDN eingibt &lt; &gt; . Auch erforderlich, wenn Office-webapps für Konferenzen und der AutoErmittlungsdienst für mobile Geräte, auf denen lync ausgeführt wird, in Situationen verwendet werden, in denen die Organisation das Zertifikat für die Veröffentlichungsregel für externe Webdienste nicht ändern möchte.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Reverseproxylistener</p></td>
 <td><p>Adressbuch Downloads, Adressbuch-Webabfragedienst, AutoErmittlung, Clientupdates, Besprechungsinhalte, Geräteaktualisierungen, Gruppenerweiterung, Office-Webanwendungen für Konferenzen, Einwahlkonferenzen und Besprechungen.</p></td>
 </tr>
@@ -102,7 +104,7 @@ Die Entscheidung, ob Listen für alternative Antragstellernamen in umgekehrten P
 <th>Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>

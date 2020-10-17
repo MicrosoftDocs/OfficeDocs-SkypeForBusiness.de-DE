@@ -12,20 +12,22 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216cada44f2512e33a0b33b627ed9a6d6582cda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527972"
 ---
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Auffüllen der Standortdatenbank in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>Auffüllen der Standortdatenbank in lync Server 2013
+
 
 </div>
 
@@ -58,23 +60,23 @@ Wenn Sie ein Elin-Gateway (Emergency Location Identification Number) verwenden, 
 <tbody>
 <tr class="odd">
 <td><p><strong>Drahtloser Zugriffspfad</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;Hausnummer&gt;,&lt;HouseNumberSuffix&gt;,&lt;Vorrichtungs&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;"streetsuffix"&gt;&lt;, Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
+<td><p>&lt;BSSID &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; Hausnummer &gt; , &lt; HouseNumberSuffix &gt; , &lt; Vorrichtungs &gt; ,...</p>
+<p>... &lt; Streetname &gt; , &lt; "streetsuffix", Post &gt; &lt; Directional &gt; , &lt; City &gt; , &lt; State &gt; , &lt; PostalCode &gt; , &lt; Country&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Subnetz</strong></p></td>
-<td><p>&lt;Subnetz&gt;,&lt;Beschreibung&gt;,&lt;Speicherort&gt;,&lt;CompanyName&gt;,&lt;Hausnummer&gt;,&lt;HouseNumberSuffix&gt;,&lt;Vorrichtungs&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;"streetsuffix"&gt;&lt;, Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
+<td><p>&lt;Subnetz &gt; , &lt; Beschreibung &gt; , &lt; Speicherort &gt; , &lt; CompanyName &gt; , &lt; Hausnummer &gt; , &lt; HouseNumberSuffix &gt; , &lt; Vorrichtungs &gt; ,...</p>
+<p>... &lt; Streetname &gt; , &lt; "streetsuffix", Post &gt; &lt; Directional &gt; , &lt; City &gt; , &lt; State &gt; , &lt; PostalCode &gt; , &lt; Country&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;&gt;Chassis-&lt;PortIDSubType&gt;,&lt;Port-&gt;Nr&lt;,&gt;Description&lt;,&gt;Location&lt;,&gt;CompanyName&lt;,&gt;Hausnummer&lt;,&gt;HouseNumberSuffix,...</p>
-<p>... &lt;Predirectional&gt;,&lt;streetname&gt;,&lt;"streetsuffix"&gt;,&lt;Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
+<td><p>&lt;Chassis-PortIDSubType, Port-Nr &gt; &lt; &gt; &lt; &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; Hausnummer &gt; , &lt; HouseNumberSuffix &gt; ,...</p>
+<p>... &lt; Predirectional &gt; , &lt; streetname &gt; , &lt; "streetsuffix" &gt; , Post &lt; Directional &gt; , &lt; City &gt; , &lt; State &gt; , &lt; PostalCode &gt; , &lt; Country&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Switch</strong></p></td>
-<td><p>&lt;Fahrgestell-&gt;Nr&lt;,&gt;Beschreibung&lt;,&gt;Speicherort&lt;,&gt;CompanyName&lt;,&gt;Hausnummer&lt;,&gt;HouseNumberSuffix&lt;, Vorrichtungs&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;"streetsuffix"&gt;&lt;, Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
+<td><p>&lt;Fahrgestell-Nr &gt; , &lt; Beschreibung &gt; , &lt; Speicherort &gt; , &lt; CompanyName &gt; , &lt; Hausnummer &gt; , &lt; HouseNumberSuffix &gt; , &lt; Vorrichtungs &gt; ,...</p>
+<p>... &lt; Streetname &gt; , &lt; "streetsuffix", Post &gt; &lt; Directional &gt; , &lt; City &gt; , &lt; State &gt; , &lt; PostalCode &gt; , &lt; Country&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -120,7 +122,7 @@ Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie in d
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "Subnetze. csv" verwenden, um Massenaktualisierungen für Subnet-Speicherorte durchzuführen.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "subnets.csv" zum Massenaktualisieren von Subnet-Speicherorten verwenden.
     
         $g = Import-Csv subnets.csv
         $g | Set-CsLisSubnet
@@ -129,7 +131,7 @@ Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie in d
     
         Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "WAPs. csv" zum Massenaktualisieren von drahtlos Standorten verwenden.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "waps.csv" zum Massenaktualisieren von drahtlos Standorten verwenden.
     
         $g = Import-Csv waps.csv
         $g | Set-CsLisWirelessAccessPoint
@@ -138,7 +140,7 @@ Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie in d
     
         Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "Switches. csv" zum Massenaktualisieren von Switch-Standorten verwenden.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "switches.csv" zum Massenaktualisieren von Switch-Speicherorten verwenden.
     
         $g = Import-Csv switches.csv
         $g | Set-CsLisSwitch
@@ -149,7 +151,7 @@ Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie in d
     
     Der Standardwert für PortIDSubType ist LocallyAssigned. Sie können ihn auch auf InterfaceAlias oder InterfaceName festlegen.
     
-    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "Ports. csv" zum Massenaktualisieren von Port Speicherorten verwenden.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "ports.csv" zum Massenaktualisieren von Port Speicherorten verwenden.
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort

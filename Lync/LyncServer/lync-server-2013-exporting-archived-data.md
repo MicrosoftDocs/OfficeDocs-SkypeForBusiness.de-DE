@@ -12,20 +12,22 @@ ms:contentKeyID: 48183347
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc93d529c5f93ad020634d631c94c09e0a94df1a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f06c4208e3830db2e32dc9866747b78a93b567e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202321"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528362"
 ---
+# <a name="exporting-archived-data-from-lync-server-2013"></a>Exportieren archivierter Daten aus lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exporting-archived-data-from-lync-server-2013"></a>Exportieren archivierter Daten aus lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202321"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-In Archivierungsdatenbanken archivierte Daten sind nicht durchsuchbar oder in einem lesbaren Format, aber Sie können das Cmdlet Export-CsArchivingData verwenden, um Datensätze aus der Datenbank zu extrahieren und als EML-Datei (Outlook Electronic Mail) zu speichern. Ausführliche Informationen zum Exportieren archivierter Daten finden Sie unter [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) in der Betriebsdokumentation.
+In Archivierungsdatenbanken archivierte Daten sind nicht durchsuchbar oder in einem lesbaren Format, aber Sie können das Export-CsArchivingData-Cmdlet verwenden, um Datensätze aus der Datenbank zu extrahieren und als EML-Datei (Outlook Electronic Mail) zu speichern. Ausführliche Informationen zum Exportieren archivierter Daten finden Sie unter [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) in der Betriebsdokumentation.
 
 Wenn Sie Microsoft Exchange Integration aktivieren, werden Daten in Exchange 2013 speichern archiviert. In Exchange 2013 archivierte Daten sind durchsuchbar und auffindbar. Ausführliche Informationen zur Unterstützung integrierter Kommunikation für Exchange 2013 und lync Server 2013 finden Sie unter [Exchange Server and SharePoint Integration Support in lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) in der Unterstützungsdokumentation. Ausführliche Informationen zum Zugreifen auf Daten, die in Exchange archiviert werden, finden Sie in der Exchange 2013 Dokumentation.
 
@@ -45,11 +47,11 @@ Wenn Sie Microsoft Exchange Integration aktivieren, werden Daten in Exchange 201
 
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Exportieren von Archivierungsdaten mithilfe von Windows PowerShell-Cmdlets
 
-Archivierungsdaten können mithilfe des Cmdlets "Export-CSArchivingData" exportiert werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Archivierungsdaten können mithilfe des Cmdlets "Export-CSArchivingData" exportiert werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 **So exportieren Sie Archivierungsdaten**
 
-  - Mit diesem Befehl werden alle Archivierungsdaten, die in die Archivierungsdatenbank ATL-SQL-001.litwareinc.com geschrieben wurden, seit dem 1. Juni 2012 exportiert. Die resultierende Ausgabedatei wird im Ordner C:\\ArchivingExports gespeichert.
+  - Mit diesem Befehl werden alle Archivierungsdaten, die in die Archivierungsdatenbank ATL-SQL-001.litwareinc.com geschrieben wurden, seit dem 1. Juni 2012 exportiert. Die resultierende Ausgabedatei wird im Ordner C: ArchivingExports gespeichert \\ .
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58abaf251bf479a9e892d019bd086a10b2300afc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 98b4323374c9801ec07930941a0daa3635b04e43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529542"
 ---
+# <a name="as-needed-tasks-in-lync-server-2013"></a>Erforderliche Aufgaben in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="as-needed-tasks-in-lync-server-2013"></a>Erforderliche Aufgaben in lync Server 2013
+
 
 </div>
 
@@ -41,11 +43,11 @@ Führen Sie bei Bedarf die folgenden Aufgaben aus. Sie werden häufig auch von S
 
   - **Vollständige Sicherheitsüberwachung   ** Sie können diese Überprüfung regelmäßig als Reaktion auf ein Upgrade oder ein Neuentwurf des Messagingsystems oder als Reaktion auf eine versuchte (oder erfolgreiche) Sicherheitsverletzung durchführen. Das Verfahren kann Portscans auf Servern und Firewalls, Überwachung der Sicherheitsfixes und Tests hinsichtlich Zugriffsverletzungen durch Dritte beinhalten.
 
-  - **Ersetzen von Zertifikaten über das ablaufen**   der Überprüfung lync Server Zertifikate ist eine der regelmäßigen wöchentlichen Aufgaben, und als Teil des Verfahrens sollte ein Administrator einen Datensatz mit Ablaufdatum aller Zertifikate aufweisen. Dieser Datensatz ermöglicht es einem Administrator, eine Benachrichtigung zu erstellen, wenn ein bestimmtes Zertifikat abgelaufen ist und bei Bedarf ersetzt wird.
+  - **Ersetzen von Zertifikaten zum Ablaufdatum**     Das Überprüfen lync Server Zertifikate ist eine der regelmäßigen wöchentlichen Aufgaben, und im Rahmen des Verfahrens sollte ein Administrator einen Datensatz mit Ablaufdatum aller Zertifikate aufweisen. Dieser Datensatz ermöglicht es einem Administrator, eine Benachrichtigung zu erstellen, wenn ein bestimmtes Zertifikat abgelaufen ist und bei Bedarf ersetzt wird.
 
-  - **Beim Aktualisieren**   der Leistungsbasislinien werden Leistungsbasis Pläne nach einem Upgrade oder einer Konfigurationsänderung aktualisiert. Ihre Organisation kann Basispläne verwenden, um Leistungsänderungen zu messen und Probleme zu erkennen, die sich auf die Systemleistung auswirken.
+  - **Aktualisieren von Leistungsbasislinien**     Aktualisieren der Leistungsbasislinien nach einem Upgrade oder einer Konfigurationsänderung. Ihre Organisation kann Basispläne verwenden, um Leistungsänderungen zu messen und Probleme zu erkennen, die sich auf die Systemleistung auswirken.
 
-  - **Managing Enterprise-Pool**   die Erstkonfiguration von Enterprise-Pools, Standard Edition-Servern und anderen Servern in der Umgebung Ihrer Organisation wurde während der Bereitstellung der einzelnen Server durchgeführt. Die Verwaltung nach der Bereitstellung von Servern und Pools für Standard Edition-Server und Enterprise-Pools umfasst die folgenden Aufgaben:
+  - **Verwalten von Enterprise-Pool**     Die anfängliche Konfiguration von Enterprise-Pools, Standard Edition-Servern und anderen Servern in der Umgebung Ihres Unternehmens erfolgte während der Bereitstellung der einzelnen Server. Die Verwaltung nach der Bereitstellung von Servern und Pools für Standard Edition-Server und Enterprise-Pools umfasst die folgenden Aufgaben:
     
       - Verwalten von Front-End-Servern
     
@@ -61,7 +63,7 @@ Führen Sie bei Bedarf die folgenden Aufgaben aus. Sie werden häufig auch von S
     
       - Entfernen von Servern und Serverrollen, Entfernen von Pools und Außerbetriebnahme von Servern und Pools
 
-  - **Verwalten der Verwendung**   Sie können lync Server 2013 konfigurieren, um die Features und Funktionen bereitzustellen, die für Ihre Organisation am besten geeignet sind. Dazu gehört Folgendes:
+  - **Verwalten der Verwendung**     Sie können lync Server 2013 so konfigurieren, dass die Features und Funktionen bereitgestellt werden, die für Ihre Organisation am besten geeignet sind. Dazu gehört Folgendes:
     
       - Verwalten der Unterstützung für lokale Webkonferenzbesprechungen
     
@@ -75,7 +77,7 @@ Führen Sie bei Bedarf die folgenden Aufgaben aus. Sie werden häufig auch von S
     
       - Konfigurieren der Archivierung, Aufzeichnung von Kommunikationsdatensätzen und erfüllen der Compliance
 
-  - **Managing Edgeserver Connectivity**   die laufende Verwaltung der Server und Einstellungen, die für die Bereitstellung externer Konnektivität erforderlich sind, umfasst Folgendes:
+  - **Verwalten von Edgeserver Konnektivität**     Die laufende Verwaltung der Server und Einstellungen, die für die Bereitstellung externer Konnektivität erforderlich sind, umfasst Folgendes:
     
       - Verwalten der Konnektivität zwischen internen Servern und Edge-Servern
     
@@ -83,13 +85,13 @@ Führen Sie bei Bedarf die folgenden Aufgaben aus. Sie werden häufig auch von S
     
       - Verwalten des Zugriffs durch Verbund Partner
 
-  - **Das Verwalten**   von Adressbuch Servern für das Adressbuch umfasst Folgendes:
+  - **Verwalten des Adressbuchs**     Das Verwalten von Adressbuch Servern umfasst Folgendes:
     
       - Konfigurieren der Adressbuch Server-Telefon Normalisierung
     
       - Verwalten des Adressbuchservers über die Befehlszeile
 
-  - **Das Verwalten der Benutzerkonten**   Verwaltung von Benutzerkonten umfasst Folgendes:
+  - **Verwalten von Benutzerkonten**     Die Verwaltung von Benutzerkonten umfasst Folgendes:
     
       - Aktivieren von Benutzerkonten für lync Server
     
@@ -103,7 +105,7 @@ Führen Sie bei Bedarf die folgenden Aufgaben aus. Sie werden häufig auch von S
     
       - Löschen von lync Server Benutzern
 
-  - **Analysieren von lync Server 2013 Protokolldateien**   ein sehr hilfreiches Tool, das in der Regel für die Problembehandlung verwendet wird, ist das lync Server 2013 Protokollierungstool, das ausführlich unter [using lync Server 2013 Logging Tool](https://technet.microsoft.com/library/gg558599.aspx)beschrieben wird.
+  - **Analysieren von lync Server 2013 Protokolldateien**     Ein sehr hilfreiches Tool, das in der Regel für die Problembehandlung verwendet wird, ist das lync Server 2013 Protokollierungstool, das ausführlich unter [using lync Server 2013 Logging Tool](https://technet.microsoft.com/library/gg558599.aspx)beschrieben wird.
 
 Da das Protokollierungstool Protokolldateien (auf Serverebene) generiert, können diese Protokolldateien mithilfe des Tools Snooper angezeigt und analysiert werden, wenn die Microsoft Office Server 12 Resource Kit-Tools auf dem Computer installiert sind. Andernfalls können Protokolle auch mithilfe eines Text-Editors analysiert werden, was weitaus weniger transparent und komplexer ist als die Verwendung des Snooper-Dienstprogramms.
 
@@ -123,7 +125,7 @@ Wenn Sie im Protokollierungstool die Debugsitzung beendet haben, klicken Sie auf
 
   - Fehlerberichte aus der Archivierungsdatenbank
 
-Informationen zur Organisation der Leistung von nach Bedarf ausgeführten Aufgaben finden Sie unter Checkliste der erforderlichen Vorgänge.
+Informationen zum Organisieren der Leistung von nach Bedarf ausgeführten Aufgaben finden Sie unter Checkliste für As-Needed Vorgänge.
 
 <div>
 
@@ -139,7 +141,7 @@ Informationen zur Organisation der Leistung von nach Bedarf ausgeführten Aufgab
 
 ## <a name="backup-and-restore-policies-or-configuration-settings"></a>Sicherungs-(und Wiederherstellungs-) Richtlinien oder Konfigurationseinstellungen
 
-Lync Server 2013 können Sie das gesamte System sichern und wiederherstellen. IIf Sie möchten eine einzelne Richtlinie oder eine einzelne Auflistung von Konfigurationseinstellungen sichern (und dann möglicherweise eines Tages wiederherstellen), die entsprechende Richtlinie abrufen und das Objekt dann an das Export-CliXML-Cmdlet weiterleiten, wodurch die Richtlinieninformationen als XML-Datei gespeichert werden:
+Lync Server 2013 können Sie das gesamte System sichern und wiederherstellen. IIf Sie möchten eine einzelne Richtlinie oder eine einzelne Auflistung von Konfigurationseinstellungen sichern (und dann möglicherweise eines Tages wiederherstellen), die entsprechende Richtlinie abrufen und das Objekt dann an das Export-Clixml-Cmdlet weiterleiten, wodurch die Richtlinieninformationen als XML-Datei gespeichert werden:
 
 `Get-CsClientPolicy -Identity "RedmondClientPolicy" | Export-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 

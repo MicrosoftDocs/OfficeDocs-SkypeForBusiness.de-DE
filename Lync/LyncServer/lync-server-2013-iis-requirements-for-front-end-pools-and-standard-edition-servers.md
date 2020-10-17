@@ -12,20 +12,22 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1511ea24acb058f8de7bdbcf7f831e6493b2ffd6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33c3db01f772f43ea8507cee5c309b6705c8a69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197178"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528142"
 ---
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>IIS-Anforderungen für Front-End-Pools und Standard Edition-Server in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>IIS-Anforderungen für Front-End-Pools und Standard Edition-Server in lync Server 2013
+
 
 </div>
 
@@ -70,7 +72,7 @@ Für lync Server müssen die folgenden IIS-Module installiert werden:
 
 
 > [!IMPORTANT]
-> Wenn in Ihrer Organisation IIS und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk lokalisiert werden müssen, können Sie den Installationspfad für die lync Server Dateien im Dialogfeld Setup ändern. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore. msi, werden auch die restlichen lync Server Dateien auf diesem Laufwerk bereitgestellt. Ausführliche Informationen zum Verschieben des von Windows Server-Manager bereitgestellten Verzeichnis Inetpub bei der Installation von <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>IIS finden Sie unter.
+> Wenn in Ihrer Organisation IIS und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk lokalisiert werden müssen, können Sie den Installationspfad für die lync Server Dateien im Dialogfeld Setup ändern. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore.msi, werden auch die restlichen lync Server Dateien auf diesem Laufwerk bereitgestellt. Ausführliche Informationen zum Verschieben des von Windows Server-Manager bereitgestellten Verzeichnis Inetpub bei der Installation von IIS finden Sie unter <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> .
 
 
   - Statischer Inhalt
@@ -129,58 +131,58 @@ In der folgenden Tabelle sind die URIs für die virtuellen Verzeichnisse für de
 <tbody>
 <tr class="odd">
 <td><p>Adressbuchserver</p></td>
-<td><p>https://&lt;Interner FQDN&gt;/ABS/int/Handler</p></td>
+<td><p>https:// &lt; Interner FQDN &gt; /ABS/int/Handler</p></td>
 <td><p>Speicherort der Adressbuch Server-Downloaddateien für interne Benutzer.</p></td>
 </tr>
 <tr class="even">
 <td><p>AutoErmittlungsdienst</p></td>
-<td><p>https://&lt;Interner FQDN&gt;/autodiscover</p></td>
+<td><p>https:// &lt; Interner FQDN &gt; /autodiscover</p></td>
 <td><p>Speicherort des lync Server AutoErmittlungsdiensts, der mobilitätsressourcen für Benutzer interner mobiler Geräte sucht.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clientupdates</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/AutoUpdate/int</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /AutoUpdate/int</p></td>
 <td><p>Speicherort der Updatedateien für interne computerbasierte Clients.</p></td>
 </tr>
 <tr class="even">
 <td><p>Conf</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/conf/int</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /conf/int</p></td>
 <td><p>Speicherort von Konferenzressourcen für interne Benutzer.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Geräte Updates</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/DeviceUpdateFiles_Int</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /DeviceUpdateFiles_Int</p></td>
 <td><p>Speicherort der UC-Geräteaktualisierungsdateien (Unified Communications) für interne UC-Geräte.</p></td>
 </tr>
 <tr class="even">
 <td><p>Besprechung</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/etc/Place/NULL</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /etc/Place/NULL</p></td>
 <td><p>Speicherort des Besprechungsinhalts für interne Benutzer.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mobilitätsdienst</p></td>
-<td><p>https://&lt;Interner FQDN&gt;/MCX</p></td>
+<td><p>https:// &lt; Interner FQDN &gt; /MCX</p></td>
 <td><p>Speicherort der Mobilitätsdienst Ressourcen für Benutzer interner mobiler Geräte.</p></td>
 </tr>
 <tr class="even">
 <td><p>Gruppenerweiterung und Adressbuch-Webabfragedienst</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/GroupExpansion/int/Service.asmx</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /GroupExpansion/int/Service.asmx</p></td>
 <td><p>Speicherort des Webdiensts, der die Gruppenerweiterung für interne Benutzer ermöglicht. Außerdem wird der Speicherort des Adressbuch-Webabfragedienst, der Informationen zur globalen Adressliste für interne lync Mobile Microsoft lync 2010 Mobile-Clients bereitstellt.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Telefonkonferenzen</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/PhoneConferencing/int</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /PhoneConferencing/int</p></td>
 <td><p>Speicherort der Telefonkonferenz Daten für interne Benutzer.</p></td>
 </tr>
 <tr class="even">
 <td><p>Geräte Updates</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/RequestHandler</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /RequestHandler</p></td>
 <td><p>Speicherort des Anforderungshandlers für den Geräte Update-Webdienst, mit dem interne UC-Geräteprotokolle hochladen und nach Updates suchen können.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Reaktionsgruppenanwendung</p></td>
-<td><p>http://&lt;Interner FQDN&gt;/RgsConfig</p>
-<p>http://&lt;Interner FQDN&gt;/RgsClients</p></td>
+<td><p>http:// &lt; Interner FQDN &gt; /RgsConfig</p>
+<p>http:// &lt; Interner FQDN &gt; /RgsClients</p></td>
 <td><p>Speicherort des Reaktionsgruppen-Konfigurationstools.</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221195"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527752"
 ---
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Grundlegendes zu Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Grundlegendes zu Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
     
 
     > [!TIP]
-    > Sie können den Bereich der Konfigurationseinstellungen, die von der Definition zurückgegeben werden, oder <CODE>-Identity</CODE> einen Bereich wie "Site: Redmond" eingrenzen oder erweitern, um nur die csclsconfiguration "für die Website" Redmond "zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe in ein anderes Windows PowerShell-Cmdlet übertragen. Geben Sie beispielsweise Folgendes ein, um Details zu den in der Konfiguration für die Website "Redmond" definierten Szenarien zu erhalten:<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > Sie können den Bereich der Konfigurationseinstellungen, die von der Definition zurückgegeben werden, oder <CODE>-Identity</CODE> einen Bereich wie "Site: Redmond" eingrenzen oder erweitern, um nur die csclsconfiguration "für die Website" Redmond "zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe in ein anderes Windows PowerShell-Cmdlet übertragen. Geben Sie beispielsweise Folgendes ein, um Details zu den in der Konfiguration für die Website "Redmond" definierten Szenarien zu erhalten: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>

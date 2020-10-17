@@ -12,20 +12,22 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebb2eb7695cfcc3b1ed6166f7768128dc48fb8ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c8d7f99b4a7c72b9eb039fb7447397e711caa36
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527922"
 ---
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Port Zusammenfassung – XMPP-Partnerverbund (Extensible Messaging and Presence Protocol) in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Port Zusammenfassung – XMPP-Partnerverbund (Extensible Messaging and Presence Protocol) in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208766"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Die Ports und Protokolle, die für den auf dem Edgeserver bereitgestellten XMPP-Proxy (Extensible Messaging and Presence Protocol) definiert sind, ermöglichen die Kommunikation vom XMPP-Verbundpartner zum Edgeserver und erlauben auch die Kommunikation von Ihrem Edgeserver zur xmpp. Verbundpartner. Eine Regel wird auch in der internen Firewall aus dem Front-End-Server oder Front-End-Pool zum Edgeserver oder Edgepool definiert.
+Die Ports und Protokolle, die für den auf dem Edgeserver bereitgestellten XMPP-Proxy (Extensible Messaging and Presence Protocol) definiert sind, ermöglichen die Kommunikation zwischen dem XMPP-Verbundpartner und der Edgeserver und erlauben auch die Kommunikation von Ihrem Edgeserver zum XMPP-Verbundpartner. Eine Regel wird auch in der internen Firewall aus dem Front-End-Server oder Front-End-Pool zum Edgeserver oder Edgepool definiert.
 
 <div>
 
@@ -56,25 +58,25 @@ Die Ports und Protokolle, die für den auf dem Edgeserver bereitgestellten XMPP-
 <th>Protokoll/TCP oder UDP/Port</th>
 <th>Quelle (IP-Adresse)</th>
 <th>Ziel (IP-Adresse)</th>
-<th>Anmerkungen</th>
+<th>Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>IP-Adresse der Zugriffs-Edgedienst-Schnittstelle</p></td>
 <td><p>Standardmäßiger Server-zu-Server-Kommunikationsport für XMPP. Ermöglicht die Kommunikation mit dem Edgeserver XMPP-Proxy von Partnerverbund-XMPP-Partnern</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>IP-Adresse der Zugriffs-Edgedienst-Schnittstelle</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Standardmäßiger Server-zu-Server-Kommunikationsport für XMPP. Ermöglicht die Kommunikation vom Edgeserver XMPP-Proxy zu Partner-XMPP-Partnern.</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Interne Edgeserver-Schnittstellen-IP</p></td>
 <td><p>Interner XMPP-Datenverkehr vom XMPP-Gateway im Front-End-Server oder Front-End-Pool zum Edgeserver</p></td>
 </tr>

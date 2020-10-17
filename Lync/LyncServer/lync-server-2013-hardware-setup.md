@@ -12,20 +12,22 @@ ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c56c987fbda2e67ed0f04c7280e9dfd394f9c25
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57b06362ad70bedd8edd0baafc3d512cbbf95714
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528342"
 ---
+# <a name="hardware-setup-for-lync-server-2013"></a>Hardware Setup für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-setup-for-lync-server-2013"></a>Hardware Setup für lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
 Zum Einrichten der Hardware und anderer Komponenten, die für die Infrastruktur erforderlich sind, die Sie zur Implementierung Ihrer Topologie benötigen, müssen Sie vor dem Veröffentlichen der Topologie im Topologie-Generator folgende Schritte ausführen:
 
-  - Installieren Sie die Hardware für jede Komponente im Topologie-Design, die Sie mithilfe des Topologie-Generators erstellt und gespeichert haben, einschließlich aller erforderlichen Computer (Server mit lync Server 2013, Datenbankservern, Servern mit Internet Information Services (IIS) und Reverse Proxy Server, je nach Bedarf), Netzwerkadapter, Hardwarelastenausgleich und Speichergeräte (beispielsweise Dateiserver). Überprüfen Sie, ob Sie die Empfehlungen für die Anzahl und die Geschwindigkeit von Netzwerkadaptern befolgt haben. Wenn Sie Hardwaregeräte zum Lastenausgleich verwenden, stellen Sie sicher, dass Sie über die richtigen Informationen vom Anbieter verfügen, um Sie für die Verwendung mit lync Server 2013 zu konfigurieren. Wenn Sie einen Dateiserver oder einen anderen Server verwenden, um die für lync Server erforderliche Dateifreigabe zu beherbergen, stellen Sie sicher, dass der Server verfügbar und für die Konfiguration der Dateifreigabe bereit ist. Ausführliche Informationen zum Definieren einer Topologie, die die für Ihre Bereitstellung erforderlichen Komponenten angibt, finden Sie unter [definieren und Konfigurieren der Topologie in lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Ausführliche Informationen zu den Hardwareanforderungen für Server finden Sie unter [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Unterstützungsdokumentation.
+  - Installieren Sie die Hardware für jede Komponente im Topologie-Design, die Sie mithilfe des Topologie-Generators erstellt und gespeichert haben, einschließlich aller erforderlichen Computer (Server, auf denen lync Server 2013, Datenbankserver, Server mit Internet Information Services (IIS) und Reverse-Proxyservern, je nach Bedarf), Netzwerkadapter, Hardwarelastenausgleichs und Speichergeräte (wie Dateiserver) verwendet werden. Überprüfen Sie, ob Sie die Empfehlungen für die Anzahl und die Geschwindigkeit von Netzwerkadaptern befolgt haben. Wenn Sie Hardwaregeräte zum Lastenausgleich verwenden, stellen Sie sicher, dass Sie über die richtigen Informationen vom Anbieter verfügen, um Sie für die Verwendung mit lync Server 2013 zu konfigurieren. Wenn Sie einen Dateiserver oder einen anderen Server verwenden, um die für lync Server erforderliche Dateifreigabe zu beherbergen, stellen Sie sicher, dass der Server verfügbar und für die Konfiguration der Dateifreigabe bereit ist. Ausführliche Informationen zum Definieren einer Topologie, die die für Ihre Bereitstellung erforderlichen Komponenten angibt, finden Sie unter [definieren und Konfigurieren der Topologie in lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Ausführliche Informationen zu den Hardwareanforderungen für Server finden Sie unter [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Unterstützungsdokumentation.
 
   - Stellen Sie sicher, dass die Netzwerkinfrastruktur die Anforderungen erfüllt. Ausführliche Informationen finden Sie unter Anforderungen an die [Netzwerkinfrastruktur für lync Server 2013](lync-server-2013-network-infrastructure-requirements.md) in der Planungsdokumentation.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5842a22d1899398b282e7305e4dd921fea86ea39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89d512eea147039a5766193f9ec2a20cf45caaa0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528722"
 ---
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190698"
 
 _**Letztes Änderungsstand des Themas:** 2013-01-30_
 
-Verwenden Sie das SEFAUtil Resource Kit-Tool, um die gruppenanrufannahme für Benutzer zu aktivieren. Benutzern muss eine Gruppennummer mit dem Typ GroupPickup in der Orbit-Tabelle für das Parken von Anrufen zugewiesen sein, damit die gruppenanrufannahme aktiviert ist. Sie weisen eine Gruppennummer für die Anrufannahme zu und aktivieren die gruppenanrufannahme gleichzeitig mithilfe des Parameters/enablegrouppickup, wenn Sie SEFAUtil. exe ausführen.
+Verwenden Sie das SEFAUtil Resource Kit-Tool, um die gruppenanrufannahme für Benutzer zu aktivieren. Benutzern muss eine Gruppennummer mit dem Typ GroupPickup in der Orbit-Tabelle für das Parken von Anrufen zugewiesen sein, damit die gruppenanrufannahme aktiviert ist. Sie weisen eine Gruppennummer für die Anrufannahme zu und aktivieren die gruppenanrufannahme gleichzeitig mithilfe des Parameters/enablegrouppickup, wenn Sie SEFAUtil.exe ausführen.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 950d52dfe86ebf4d5b8b53677248528f1ef49047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ae71fa6e91c0bc212bc019b1afa85ebcacb4d0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193248"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527792"
 ---
+# <a name="ucwa-events-in-lync-server-2013"></a>UCWA-Ereignisse in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ucwa-events-in-lync-server-2013"></a>UCWA-Ereignisse in lync Server 2013
+
 
 </div>
 
@@ -69,21 +71,21 @@ In UCWA werden Datensätze des Betriebsverhaltens als Ereignistypen Information,
 </tr>
 <tr class="even">
 <td><p>20002</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>UCWA bei der Initialisierung ist eine unerwartete Ausnahme aufgetreten</p></td>
 <td><p>Während der Initialisierung ist ein unerwarteter Fehler aufgetreten.</p>
 <p>Überprüfen Sie die Ausnahmedetails im zugeordneten Ereignisprotokolleintrag, um die mögliche Ursache zu ermitteln.</p></td>
 </tr>
 <tr class="odd">
 <td><p>20003</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>UCWA hat eine nicht behandelte Ausnahme gefunden</p></td>
 <td><p>Eine unbehandelte Ausnahme ist aufgetreten.</p>
 <p>Starten Sie den Server neu. Wenn das Problem fortbesteht, wenden Sie sich an den Produktsupport</p></td>
 </tr>
 <tr class="even">
 <td><p>20004</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Zugriff auf Exchange für HD-Foto nicht möglich</p></td>
 <td><p>Die Verbindung mit Exchange ist nicht verfügbar.</p>
 <p>Stellen Sie sicher, dass die Verbindung mit Exchange verfügbar ist</p></td>
@@ -96,7 +98,7 @@ In UCWA werden Datensätze des Betriebsverhaltens als Ereignistypen Information,
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Zugriff auf Exchange für Kontakt Suche nicht möglich</p></td>
 <td><p>Die Verbindung mit Exchange ist nicht verfügbar.</p>
 <p>Stellen Sie sicher, dass die Verbindung mit Exchange verfügbar ist</p></td>
@@ -123,28 +125,28 @@ In UCWA werden Datensätze des Betriebsverhaltens als Ereignistypen Information,
 </tr>
 <tr class="even">
 <td><p>20010</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Inband-Daten können nicht abgerufen werden</p></td>
 <td><p>Inband-Daten können nicht abgerufen werden</p>
 <p>Wenn das Problem fortbesteht, wenden Sie sich an den Produktsupport</p></td>
 </tr>
 <tr class="odd">
 <td><p>20011</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Anwesenheit kann nicht abonniert werden</p></td>
 <td><p>Anwesenheit kann nicht abonniert werden</p>
 <p>Wenn das Problem fortbesteht, wenden Sie sich an den Produktsupport</p></td>
 </tr>
 <tr class="even">
 <td><p>20012</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Fehler beim Registrieren des Endpunkts</p></td>
 <td><p>Fehler beim Registrieren des Endpunkts</p>
 <p>Wenn das Problem fortbesteht, wenden Sie sich an den Produktsupport</p></td>
 </tr>
 <tr class="odd">
 <td><p>20013</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>IM MCU ist nicht verfügbar</p></td>
 <td><p>IM MCU ist nicht verfügbar</p>
 <p>Überprüfen, ob im MCU ausgeführt wird</p></td>
@@ -157,7 +159,7 @@ In UCWA werden Datensätze des Betriebsverhaltens als Ereignistypen Information,
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>AV MCU ist nicht verfügbar</p></td>
 <td><p>AV MCU ist nicht verfügbar</p>
 <p>Prüfen, ob AV MCU ausgeführt wird</p></td>
@@ -170,7 +172,7 @@ In UCWA werden Datensätze des Betriebsverhaltens als Ereignistypen Information,
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Da MCU nicht verfügbar ist</p></td>
 <td><p>Da MCU nicht verfügbar ist</p>
 <p>Anzeigen, ob as MCU ausgeführt wird</p></td>
@@ -183,7 +185,7 @@ In UCWA werden Datensätze des Betriebsverhaltens als Ereignistypen Information,
 </tr>
 <tr class="odd">
 <td><p>20019</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Data MCU ist nicht verfügbar</p></td>
 <td><p>Data MCU ist nicht verfügbar</p>
 <p>Überprüfen, ob Data MCU ausgeführt wird</p></td>
@@ -196,35 +198,35 @@ In UCWA werden Datensätze des Betriebsverhaltens als Ereignistypen Information,
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Teilnahme an Chat MCU nicht möglich</p></td>
 <td><p>Teilnahme an Chat MCU nicht möglich</p>
 <p>Überprüfen, ob im MCU ausgeführt wird</p></td>
 </tr>
 <tr class="even">
 <td><p>20022</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Beitritt zur AV MCU nicht möglich</p></td>
 <td><p>Beitritt zur AV MCU nicht möglich</p>
 <p>Prüfen, ob AV MCU ausgeführt wird</p></td>
 </tr>
 <tr class="odd">
 <td><p>20023</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Beitritt zur MCU nicht möglich</p></td>
 <td><p>Beitritt zur MCU nicht möglich</p>
 <p>Anzeigen, ob as MCU ausgeführt wird</p></td>
 </tr>
 <tr class="even">
 <td><p>20024</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Beitreten zu Daten-MCU nicht möglich</p></td>
 <td><p>Beitreten zu Daten-MCU nicht möglich</p>
 <p>Überprüfen, ob Data MCU ausgeführt wird</p></td>
 </tr>
 <tr class="odd">
 <td><p>20025</p></td>
-<td><p>Fehler</p></td>
+<td><p>Error</p></td>
 <td><p>Zugriff auf Active Directory für Foto nicht möglich</p></td>
 <td><p>Die Verbindung mit Active Directory ist nicht verfügbar.</p>
 <p>Stellen Sie sicher, dass die Verbindung mit Active Directory verfügbar ist.</p></td>

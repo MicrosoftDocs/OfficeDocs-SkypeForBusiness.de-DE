@@ -12,20 +12,22 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d8efb03b4d67b6409f93b6a99d2314cb703952
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f52d9c5e88e88665f530d6d7ace06a07c4814b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529562"
 ---
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Hinzufügen eines Survivable Branch Appliance zu Active Directory in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Hinzufügen eines Survivable Branch Appliance zu Active Directory in lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Wenn Sie ein Survivable Branch Appliance bereitstellen möchten, müssen Sie den
 
 9.  Klicken Sie in der Attributliste auf **servicePrincipalName** und anschließend auf **Bearbeiten**.
 
-10. Geben Sie im Feld **Hinzuzufügender Wert** Host\</SBA\> - \<FQDN ein\> , wobei SBA FQDN der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) Ihrer Survivable Branch Appliance ist. Geben Sie beispielsweise **HOST/BranchOffice1.contoso.com** ein.
+10. Geben Sie im Feld **Hinzuzufügender Wert** \<SBA FQDN\> \<SBA FQDN\> den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) Ihrer Survivable Branch Appliance ein. Geben Sie beispielsweise **HOST/BranchOffice1.contoso.com** ein.
 
 11. Klicken Sie auf **OK**, um die Attributeinstellung **servicePrincipalName** zu speichern, und klicken Sie dann auf **OK**, um die Eigenschaften des Computerobjekts zu speichern.
 

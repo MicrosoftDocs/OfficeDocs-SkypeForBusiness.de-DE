@@ -12,20 +12,22 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46e0b0a294500514ce1b200fd646ed4e70136828
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89983ae54e879bdb55691b33a0512a00e5883735
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528442"
 ---
+# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Beispiel: Sammeln der Anforderungen für die Anrufsteuerung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Beispiel: Sammeln der Anforderungen für die Anrufsteuerung in lync Server 2013
+
 
 </div>
 
@@ -304,7 +306,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
 
     > [!NOTE]
-    > Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8 Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:<BR><STRONG>Quelle:</STRONG> CS Bandwidth Policy Service (Kern)<BR><STRONG>Ereignisnummer:</STRONG> 36034<BR><STRONG>Ebene:</STRONG> 2<BR><STRONG>Beschreibung:</STRONG> Die Subnetze für die folgenden IP- &lt;Adressen: Liste der&gt; IP-Adressen sind entweder nicht konfiguriert oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Ursache:</STRONG> Die Subnetze für die entsprechenden IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Lösung:</STRONG> Fügen Sie den Netzwerkkonfigurationseinstellungen Subnetze hinzu, die der vorherigen Liste der IP-Adressen entsprechen, und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.<BR>Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet, oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen: 
+    > Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8 Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:<BR><STRONG>Quelle:</STRONG> CS Bandwidth Policy Service (Kern)<BR><STRONG>Ereignisnummer:</STRONG> 36034<BR><STRONG>Ebene:</STRONG> 2<BR><STRONG>Beschreibung:</STRONG> Die Subnetze für die folgenden IP-Adressen: &lt; Liste der IP-Adressen &gt; sind entweder nicht konfiguriert oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Ursache:</STRONG> Die Subnetze für die entsprechenden IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Lösung:</STRONG> Fügen Sie den Netzwerkkonfigurationseinstellungen Subnetze hinzu, die der vorherigen Liste der IP-Adressen entsprechen, und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.<BR>Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet, oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen: 
     > <OL>
     > <LI>
     > <P>Stellen Sie sicher, dass die IP-Adresse 10.121.248.226 dem Subnetz 10.121.248.0/24 und die IP-Adresse 10.121.249.20 dem Subnetz 10.121.249.0/24 zugeordnet ist.</P>

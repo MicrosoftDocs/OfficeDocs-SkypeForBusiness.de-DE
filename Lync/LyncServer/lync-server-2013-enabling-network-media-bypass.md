@@ -12,20 +12,22 @@ ms:contentKeyID: 48184846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbabf2f9ccf606fde60409a32872c09d812ffac5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4caab36c57c3c8901bd0691e5623f232879bd03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528522"
 ---
+# <a name="enabling-network-media-bypass-in-lync-server-2013"></a>Aktivieren der Netzwerkmedien Umgehung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-network-media-bypass-in-lync-server-2013"></a>Aktivieren der Netzwerkmedien Umgehung in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Sie können die medienumgehung im lync Server-Systemsteuerung aktivieren und kon
 
 7.  Wählen Sie eine der folgenden Optionen aus:
     
-      - **Immer umgehen**   wählen Sie diese Option aus, um die medienumgehung für alle Anrufe zu versuchen. Diese Option ist nicht verfügbar, wenn die Anrufsteuerung aktiviert ist. Ist die Anrufsteuerung nicht aktiviert, wählen Sie diese Option in den folgenden Situationen:
+      - **Immer umgehen**     Wählen Sie diese Option aus, um die medienumgehung für alle Anrufe zu versuchen. Diese Option ist nicht verfügbar, wenn die Anrufsteuerung aktiviert ist. Ist die Anrufsteuerung nicht aktiviert, wählen Sie diese Option in den folgenden Situationen:
         
           - Es besteht keine Notwendigkeit zur Bandbreitensteuerung.
         
@@ -67,7 +69,7 @@ Sie können die medienumgehung im lync Server-Systemsteuerung aktivieren und kon
         
           - Zwischen Gateways und Clients ist vollständige Konnektivität gegeben.
     
-      - **Verwenden von Websites und Regions Konfiguration**   wenn die Anrufsteuerung aktiviert ist, ist diese Option standardmäßig aktiviert und kann nicht geändert werden. Ist diese Option ausgewählt, wird anhand der Standorte und Regionen in der Netzwerkkonfiguration ermittelt, ob eine Medienumgehung möglich ist. Wenn Sie diese Option auswählen, können Sie eine Umgehung für Standorte aktivieren, die nicht zugeordnet sind. Aktivieren Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte aktivieren** nur dann, wenn Sie über einen oder mehrere große Standorte ohne Bandbreiteneinschränkungen verfügen (z. B. ein großer Hauptstandort), die mit einer bestimmten Region verknüpft sind, und Sie außerdem über einige Zweigstellen mit Bandbreiteneinschränkungen verfügen, die mit derselben Region verknüpft sind. Wenn Sie die Umgehung für nicht zugeordnete Standorte aktivieren, wird die Konfiguration optimiert, da Sie nur die mit den Zweigstandorten verknüpften Subnetze angeben, statt sämtliche, mit allen Standorten verknüpfte Subnetze angeben zu müssen. Es wird empfohlen, das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte** nicht zu aktivieren, wenn die Anrufsteuerung aktiviert ist.
+      - **Verwenden von Websites und Regions Konfiguration**     Wenn die Anrufsteuerung aktiviert ist, ist diese Option standardmäßig ausgewählt und kann nicht geändert werden. Ist diese Option ausgewählt, wird anhand der Standorte und Regionen in der Netzwerkkonfiguration ermittelt, ob eine Medienumgehung möglich ist. Wenn Sie diese Option auswählen, können Sie eine Umgehung für Standorte aktivieren, die nicht zugeordnet sind. Aktivieren Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte aktivieren** nur dann, wenn Sie über einen oder mehrere große Standorte ohne Bandbreiteneinschränkungen verfügen (z. B. ein großer Hauptstandort), die mit einer bestimmten Region verknüpft sind, und Sie außerdem über einige Zweigstellen mit Bandbreiteneinschränkungen verfügen, die mit derselben Region verknüpft sind. Wenn Sie die Umgehung für nicht zugeordnete Standorte aktivieren, wird die Konfiguration optimiert, da Sie nur die mit den Zweigstandorten verknüpften Subnetze angeben, statt sämtliche, mit allen Standorten verknüpfte Subnetze angeben zu müssen. Es wird empfohlen, das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte** nicht zu aktivieren, wenn die Anrufsteuerung aktiviert ist.
 
 8.  Klicken Sie auf **Commit**, um Ihre Änderungen zu speichern.
 

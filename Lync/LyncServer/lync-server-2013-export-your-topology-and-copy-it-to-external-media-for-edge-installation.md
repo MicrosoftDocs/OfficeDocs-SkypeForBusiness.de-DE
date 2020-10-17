@@ -12,20 +12,22 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52903a2e7ae1b9a3a994a1199e32d8d7c4bd1e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5dd461e6a8ce184e5e418feddede258af68d2c25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528372"
 ---
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exportieren der lync Server 2013 Topologie und kopieren auf externe Medien für die Edge-Installation
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exportieren der lync Server 2013 Topologie und kopieren auf externe Medien für die Edge-Installation
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202351"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Nachdem Sie Ihre Topologie veröffentlicht haben, benötigt der lync Server-Bereitstellungs-Assistent Zugriff auf die Daten des zentralen Verwaltungsspeichers, um den Bereitstellungsprozess auf dem Server zu starten. Im internen Netzwerk sind die Daten direkt von den Servern verfügbar, aber Edgeserver, die sich nicht in der internen Domäne befinden, können nicht auf die Daten zugreifen. Um die Topologie-Konfigurationsdaten für eine Edgeserver-Bereitstellung zur Verfügung zu stellen, müssen Sie die Topologiedaten in eine Datei exportieren und auf externe Medien (beispielsweise ein USB-Laufwerk oder eine Netzwerkfreigabe, die im Edgeserver verfügbar ist) kopieren, bevor Sie die lync Server DEP ausführen. loyment-Assistent im Edgeserver. Verwenden Sie das folgende Verfahren, um Ihre Topologie-Konfigurationsdaten auf dem Edgeserver bereitzustellen, die Sie bereitstellen.
+Nachdem Sie Ihre Topologie veröffentlicht haben, benötigt der lync Server-Bereitstellungs-Assistent Zugriff auf die Daten des zentralen Verwaltungsspeichers, um den Bereitstellungsprozess auf dem Server zu starten. Im internen Netzwerk sind die Daten direkt von den Servern verfügbar, aber Edgeserver, die sich nicht in der internen Domäne befinden, können nicht auf die Daten zugreifen. Um die Topologie-Konfigurationsdaten für eine Edgeserver-Bereitstellung zur Verfügung zu stellen, müssen Sie die Topologiedaten in eine Datei exportieren und auf externe Medien (beispielsweise ein USB-Laufwerk oder eine Netzwerkfreigabe, die im Edgeserver verfügbar ist) kopieren, bevor Sie den lync Server-Bereitstellungs-Assistenten auf dem Edgeserver ausführen. Verwenden Sie das folgende Verfahren, um Ihre Topologie-Konfigurationsdaten auf dem Edgeserver bereitzustellen, die Sie bereitstellen.
 
 <div>
 

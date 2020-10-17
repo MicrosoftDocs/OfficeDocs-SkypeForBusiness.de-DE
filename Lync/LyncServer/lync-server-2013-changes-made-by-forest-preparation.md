@@ -12,20 +12,22 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b0429eabd9a02a08918e5590043bbad9faca83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529472"
 ---
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Von der Gesamtstrukturvorbereitung in lync Server 2013 vorgenommene Änderungen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Von der Gesamtstrukturvorbereitung in lync Server 2013 vorgenommene Änderungen
+
 
 </div>
 
@@ -43,7 +45,7 @@ Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objek
 
 ## <a name="active-directory-global-settings-and-objects"></a>Globale Einstellungen und Objekte in Active Directory
 
-Wenn Sie globale Einstellungen im Container "Configuration" (wie bei allen neuen lync Server 2013-Bereitstellungen) speichern, verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste-Container und **** fügt unter dem Objekt "Configuration\\Services" ein RTC-Dienstobjekt hinzu. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das Global Settings-Objekt umfasst alle Einstellungen, die für die lync Server-Bereitstellung gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen-Systemcontainer und ein RTC-Dienst\\Objekt unter dem Microsoft-Systemobjekt.
+Wenn Sie globale Einstellungen im Container "Configuration" (wie bei allen neuen lync Server 2013-Bereitstellungen) speichern, verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste-Container und fügt unter dem Objekt "Configuration Services" ein **RTC-Dienst** Objekt hinzu \\ . Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das Global Settings-Objekt umfasst alle Einstellungen, die für die lync Server-Bereitstellung gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen-Systemcontainer und ein RTC-Dienstobjekt unter dem Microsoft-System \\ Objekt.
 
 Außerdem wird während der Gesamtstrukturvorbereitung ein neues Objekt **msRTCSIP-Domain** für die Stammdomäne hinzugefügt, in der das Verfahren ausgeführt wird.
 
@@ -57,11 +59,11 @@ Die Gesamtstrukturvorbereitung erstellt universelle Gruppen anhand der von Ihnen
 
 Anhand von universellen Gruppen können Administratoren globale Einstellungen und Dienste verwenden und verwalten. Bei der Gesamtstrukturvorbereitung werden die folgenden Typen von universellen Gruppen hinzugefügt:
 
-  - **Administrative Gruppen**   diese Gruppen definieren Administratorrollen für ein lync Server Netzwerk.
+  - **Administrative Gruppen**     Diese Gruppen definieren Administratorrollen für ein lync Server Netzwerk.
 
-  - **Infrastrukturgruppen**   diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der lync Server Infrastruktur. Sie fungieren als Komponenten von administrativen Gruppen. Sie sollten diese Gruppen weder ändern noch direkt Benutzer zu ihnen hinzufügen.
+  - **Infrastrukturgruppen**     Diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der lync Server Infrastruktur. Sie fungieren als Komponenten von administrativen Gruppen. Sie sollten diese Gruppen weder ändern noch direkt Benutzer zu ihnen hinzufügen.
 
-  - **Dienstgruppen**   diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene lync Server Dienste erforderlich sind.
+  - **Dienstgruppen**     Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene lync Server Dienste erforderlich sind.
 
 In der folgenden Tabelle werden die administrativen Gruppen beschrieben.
 

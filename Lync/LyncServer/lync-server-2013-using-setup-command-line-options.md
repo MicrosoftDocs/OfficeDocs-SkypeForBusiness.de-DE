@@ -12,20 +12,22 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c181c16e5480d1dc7659ed3778faf738eed70949
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c530387fa9f504120ff3a8f38128eeb07b04e615
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527642"
 ---
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Verwenden von Setup-Befehlszeilenoptionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Verwenden von Setup-Befehlszeilenoptionen in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle bes
 </tr>
 <tr class="odd">
 <td><p>/config [Pfad]</p></td>
-<td><p>Gibt die Datei "config. xml" an, die von Setup während der Installation verwendet wird. Verwenden Sie die Option/config, um die Datei config. XML anzugeben, die Sie für lync 2013 Installationen angepasst haben, beispielsweise:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Gibt die Config.xml Datei an, die von Setup während der Installation verwendet wird. Verwenden Sie die Option/config, um die Config.xml Datei anzugeben, die Sie für lync 2013 Installationen angepasst haben, beispielsweise: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
 <td><p>/modify Lync</p></td>
@@ -83,7 +85,7 @@ Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle bes
 </table>
 
 
-Ausführliche Informationen zur Verwendung der Setup-Befehlszeilenoptionen finden Sie <https://go.microsoft.com/fwlink/p/?linkid=267515>unter.
+Ausführliche Informationen zur Verwendung der Setup-Befehlszeilenoptionen finden Sie unter <https://go.microsoft.com/fwlink/p/?linkid=267515> .
 
 </div>
 

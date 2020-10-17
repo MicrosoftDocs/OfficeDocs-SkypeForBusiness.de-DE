@@ -12,20 +12,22 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf04728db30bada37e43f14b33420ede1ce9258
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b903ff4453f15bc22b6715abe27cc045381c0e5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527852"
 ---
+# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Testen von VoIP-Regeln,-Routen und-Richtlinien in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Testen von VoIP-Regeln,-Routen und-Richtlinien in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-05-20_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsVoiceUser verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoiceUser-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceUser&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ Wenn ein Benutzer einen Anruf tätigt, richtet sich die Route, die der Anruf zum
 
   - Die Telefonverwendung, die die VoIP-Richtlinie des Benutzers mit der VoIP-Route verknüpft hat.
 
-Mit Test-CsVoiceUser können Sie bestimmen, ob eine bestimmte Telefonnummer wie erwartet weitergeleitet und übersetzt wird und kann bei der Behandlung von anrufbezogenen Problemen behilflich sein, die von einzelnen Benutzern auftreten.
+Test-CsVoiceUser können Sie bestimmen, ob eine bestimmte Telefonnummer wie erwartet weitergeleitet und übersetzt wird, und kann bei der Behandlung von Problemen im Zusammenhang mit anrufen helfen, die von einzelnen Benutzern aufgetreten sind.
 
 </div>
 
@@ -84,7 +86,7 @@ Mit Test-CsVoiceUser können Sie bestimmen, ob eine bestimmte Telefonnummer wie 
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Wenn Sie das Cmdlet Test-CsVoiceUser ausführen, müssen Sie zwei Informationen angeben: die Nummer, die gewählt wird ("DialedNumber") und die Identität des zu testenden Benutzerkontos. Beispielsweise testet dieser Befehl die Fähigkeit des Benutzers, der über die SIP-Adresse SIP:kenmyer@litwareinc.com verfügt, um einen Anruf an die Telefonnummer + 1206555-1219 zu tätigen:
+Beim Ausführen des Test-CsVoiceUser-Cmdlets müssen Sie zwei Informationen bereitstellen: die Nummer, die gewählt wird ("DialedNumber") und die Identität des zu testenden Benutzerkontos. Beispielsweise testet dieser Befehl die Fähigkeit des Benutzers, der über die SIP-Adresse SIP:kenmyer@litwareinc.com verfügt, um einen Anruf an die Telefonnummer + 1206555-1219 zu tätigen:
 
 `Test-CsVoiceUser -DialedNumber "12065551219" -SipUri "sip:kenmyer@litwareinc.com"`
 
@@ -114,7 +116,7 @@ TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
 \+12065551219 Descripti...    LocalRoute lokal
 
-Aufgrund der Einschränkungen des Windows PowerShell Bildschirms werden mindestens einige zurückgegebene Informationen (insbesondere die vollständige Beschreibung der übereinstimmenden Normalisierungsregel) möglicherweise nicht auf dem Bildschirm angezeigt. Wenn Sie nur am Erfolg oder Misserfolg des Tests interessiert sind, ist dies möglicherweise nicht wichtig. Wenn Sie die vollständigen Details der zurückgegebenen Daten sehen möchten, übergeben Sie die Ausgabe an das Cmdlet Format-List, wenn Sie den Test ausführen:
+Aufgrund der Einschränkungen des Windows PowerShell Bildschirms werden mindestens einige zurückgegebene Informationen (insbesondere die vollständige Beschreibung der übereinstimmenden Normalisierungsregel) möglicherweise nicht auf dem Bildschirm angezeigt. Wenn Sie nur am Erfolg oder Misserfolg des Tests interessiert sind, ist dies möglicherweise nicht wichtig. Wenn Sie die vollständigen Details der zurückgegebenen Daten anzeigen möchten, geben Sie beim Ausführen des Tests die Pipe der Ausgabe an das Format-List-Cmdlet an:
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose | Format-List`
 
@@ -122,7 +124,7 @@ Dadurch wird die Ausgabe in einem Leser freundlicheren Format angezeigt:
 
 TranslatedNumber: + 12065551219
 
-MatchingRule: Description =; Muster = ^ (\\d{11}) $; Übersetzung = + $1;
+MatchingRule: Description =; Muster = ^ ( \\ d {11} ) $; Übersetzung = + $1;
 
 Name = Prefix all; IsInternalExtension = false
 
@@ -142,7 +144,7 @@ TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Es gibt eine Reihe von Gründen, aus denen das Test-CsVoiceUser-Cmdlet möglicherweise fehlschlägt: Es ist möglicherweise keine Normalisierungsregel vorhanden, mit der die bereitgestellte Telefonnummer übersetzt werden kann. Es kann Probleme mit der VoIP-Route geben. Es kann ein Konfigurationsproblem mit den Wähleinstellungen geben, die dem betreffenden Benutzer zugewiesen sind. Aus diesem Grund sollten Sie den Verbose-Parameter einschließen, wenn Sie das Cmdlet Test-CsVoiceUser ausführen:
+Es gibt eine Reihe von Gründen, aus denen das Test-CsVoiceUser-Cmdlet möglicherweise fehlschlägt: Es ist möglicherweise keine Normalisierungsregel vorhanden, mit der die bereitgestellte Telefonnummer übersetzt werden kann. Es kann Probleme mit der VoIP-Route geben. Es kann ein Konfigurationsproblem mit den Wähleinstellungen geben, die dem betreffenden Benutzer zugewiesen sind. Aus diesem Grund sollten Sie den Verbose-Parameter einschließen, wenn Sie das Test-CsVoiceUser-Cmdlet ausführen:
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose`
 

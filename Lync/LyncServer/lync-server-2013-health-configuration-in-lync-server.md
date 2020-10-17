@@ -12,20 +12,22 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea97a57deba77e0bc5b7f2a77a973bb1fb8c21b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa0164a9e3003c130bc7b14a4312397a4559843c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528242"
 ---
+# <a name="health-configuration-in-lync-server-2013"></a>Integritäts Konfiguration in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="health-configuration-in-lync-server-2013"></a>Integritäts Konfiguration in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Zwischen verschiedenen Websites, Microsoft Knowledge Base-Artikeln und lync Serv
 
 Offensichtlich gibt es keine Möglichkeit sicherzustellen, dass Probleme mit lync Server 2013 nie auftreten, da lync Server von vielen Dingen wie Netzwerk abstürzen und Hardwarefehlern betroffen sein können, die das Produkt selbst nicht steuern kann. Durch die Implementierung der Zustandsüberwachung können Administratoren potenzielle Probleme ermitteln, bevor sie zu wirklichen Problemen werden. Administratoren können beispielsweise die lync Server Überwachung verwenden, um Trends und Tendenzen zu identifizieren. So kann beispielsweise eine stete Zunahme der Anzahl von Audio-/Videokonferenzen ein Hinweis darauf sein, dass die Kapazität erhöht werden muss, um eine Überlastung des Systems zu verhindern.
 
-Auf ähnliche Weise können Administratoren System Center Operations Manager verwenden, um beim Auftreten bestimmter Ereignisse Echtzeitwarnungen auszugeben und synthetische Transaktionen auszuführen, mit denen das System proaktiv getestet wird. Synthetische Transaktionen werden in lync Server verwendet, um sicherzustellen, dass Benutzer allgemeine Aufgaben wie das Anmelden am System, das Austauschen von Chatnachrichten oder das Telefonieren von Anrufen im öffentlichen Telefonnetz (PSTN) erfolgreich ausführen können. Beispielsweise können Sie diese Tests regelmäßig ausführen, um potenzielle Probleme mit Benutzern bei der Anmeldung bei lync Server zu warnen, und Sie haben die Möglichkeit, das Problem zu beheben, bevor Ihr Support Team mit Anrufen von Benutzern überflutet wird, die keine Verbindung herstellen können. Durch die Verwendung von System Center Operations Manager zur Ausführung dieser synthetischen Transaktionen können Administratoren die Bereitstellung von lync Server routinemäßig 24 Stunden lang kontinuierlich überwachen, ohne vieles mehr tun zu müssen, als auf Warnungen zu reagieren, die möglicherweise ausgestellt werden.
+Auf ähnliche Weise können Administratoren System Center Operations Manager verwenden, um beim Auftreten bestimmter Ereignisse Echtzeitwarnungen auszugeben und synthetische Transaktionen auszuführen, mit denen das System proaktiv getestet wird. Synthetische Transaktionen werden in lync Server verwendet, um sicherzustellen, dass Benutzer allgemeine Aufgaben wie das Anmelden am System, das Austauschen von Chatnachrichten oder das Telefonieren von Anrufen im öffentlichen Telefonnetz (PSTN) erfolgreich ausführen können. Beispielsweise können Sie diese Tests regelmäßig ausführen, um potenzielle Probleme mit Benutzern bei der Anmeldung bei lync Server zu warnen, und Sie haben die Möglichkeit, das Problem zu beheben, bevor Ihr Support Team mit Anrufen von Benutzern überflutet wird, die keine Verbindung herstellen können. Durch die Verwendung von System Center Operations Manager zur Ausführung dieser synthetischen Transaktionen können Administratoren die Bereitstellung von lync Server routinemäßig 24 Stunden lang kontinuierlich überwachen, ohne vieles mehr tun zu müssen, als auf eventuell ausgegebene Warnungen zu reagieren.
 
 <div>
 
@@ -55,7 +57,7 @@ Auf ähnliche Weise können Administratoren System Center Operations Manager ver
 
 Die Integritäts Konfiguration in lync Server 2013 ist um System Center Operations Manager und die Verwendung von lync Server Management Packs aufgebaut. Diese Management Packs weisen die folgenden neuen Features und Verbesserungen auf:
 
-  - **Szenarioverfügbarkeit an jedem Standort.** Mit dem lync Server 2010 Management Pack wurde das Konzept der Überwachung der Verfügbarkeit von Endbenutzerszenarien mit synthetischen Transaktionen eingeführt. In lync Server 2013 haben diese Agents mehr synthetische Transaktionen und können an einer Vielzahl von Standorten innerhalb des Unternehmens, von Remote geografischen Standorten außerhalb des Unternehmens, gegenüber Zweigstellengeräten und gegen lync Server 2010 ausgeführt werden. Bereitstellungen zum Hinzufügen von Abdeckung zu Legacy-Edge-Bereitstellungen.
+  - **Szenarioverfügbarkeit an jedem Standort.** Mit dem lync Server 2010 Management Pack wurde das Konzept der Überwachung der Verfügbarkeit von Endbenutzerszenarien mit synthetischen Transaktionen eingeführt. In lync Server 2013 verfügen diese Agents über mehr synthetische Transaktionen und können an einer Vielzahl von Speicherorten innerhalb des Unternehmens ausgeführt werden, von Remotestandorten außerhalb des Unternehmens bis hin zu Zweigstellen-Appliances und lync Server 2010-Bereitstellungen, um ältere Edge-Bereitstellungen mit Abdeckung zu versehen.
 
   - **Synthetische Transaktionsprotokolle.** Wenn bei einer synthetischen Transaktion ein Fehler auftritt, haben Administratoren Zugriff auf HTML-Protokolle, um die Ursache für den Fehler zu bestimmen. Hierzu gehört das Ermitteln der fehlgeschlagenen Aktion, die Wartezeit jeder Aktion, die zum Ausführen des Tests verwendete Befehlszeile sowie der gefundene Fehler.
 
