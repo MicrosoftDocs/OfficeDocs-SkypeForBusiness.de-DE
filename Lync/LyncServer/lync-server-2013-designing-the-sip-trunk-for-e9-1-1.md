@@ -12,20 +12,22 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c4191ed20497b4136b4e836da112054bef5a446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35efd8571a30b3d0dd067cbfc27f292985b6ee14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498952"
 ---
+# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Entwerfen des SIP-Trunks für E9-1-1 in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Entwerfen des SIP-Trunks für E9-1-1 in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204381"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Lync Server verwendet SIP-Trunks, um einen Notruf mit dem E9-1 -1-Dienstanbieter zu verbinden. Sie können Notfalldienst-SIP-Trunks für E9-1-1 an einem zentralen Standort, an mehreren zentralen Standorten oder an jedem Zweigstellenstandort einrichten. Wenn jedoch die WAN-Verbindung zwischen dem Standort des Anrufers und dem Standort, der den SIP-Trunk Dienst hostet, nicht verfügbar ist, benötigt ein Anruf, der von einem Benutzer am getrennten Standort getätigt wird, einen speziellen Telefonverwendungseintrag in der VoIP-Richtlinie des Benutzers, der den Anruf an den ECRC über das lokale PSTN-Gateway (Public Switched Telephone Network). Das gleiche gilt, wenn die Anrufsteuerung gleichzeitige Anruf Grenzwerte wirksam macht.
+Lync Server verwendet SIP-Trunks, um einen Notruf mit dem E9-1 -1-Dienstanbieter zu verbinden. Sie können Notfalldienst-SIP-Trunks für E9-1-1 an einem zentralen Standort, an mehreren zentralen Standorten oder an jedem Zweigstellenstandort einrichten. Wenn jedoch die WAN-Verbindung zwischen dem Standort des Anrufers und dem Standort, der den SIP-Trunk Dienst hostet, nicht verfügbar ist, benötigt ein Anruf, der von einem Benutzer am getrennten Standort getätigt wird, einen speziellen Telefonverwendungseintrag in der VoIP-Richtlinie des Benutzers, der den Anruf an das ECRC über das lokale Festnetz (Public Switched Telephone Network) weiterleitet. Das gleiche gilt, wenn die Anrufsteuerung gleichzeitige Anruf Grenzwerte wirksam macht.
 
 <div>
 
@@ -48,7 +50,7 @@ Lync Server verwendet SIP-Trunks, um einen Notruf mit dem E9-1 -1-Dienstanbieter
 > <LI>
 > <P>Verwenden Sie mehrfach vernetzte Vermittlungsserver, die ihre nach außen gerichteten öffentlich weitergeleiteten Schnittstellen verwenden, um mit dem SIP-Trunk Anbieter zu kommunizieren.</P>
 > <LI>
-> <P>Verwenden Sie einen lokalen Session Border Controller (SBC), um einen sicheren Abgrenzungs Pfad zwischen den Vermittlungsservern und den Diensten des SIP-Trunk Anbieters bereitzustellen.</P></LI></UL>Wenn Sie die letztere Methode auswählen, müssen Sie sicherstellen, dass die von Ihnen ausgewählte SBC-Marke und das Modell zertifiziert wurden und unterstützt die Übergabe von Anwesenheitsinformationen im Daten Format Location-Objekt (PIDF-Lo) als Teil der SIP-INVITE-Daten. Andernfalls werden die Anrufe bei dem Notrufdienst Anbieter eintreffen, der von den Standortinformationen entfernt wurde. Ausführliche Informationen zu zertifizierten SBCS finden Sie unter "qualifizierte Infrastruktur für Microsoft lync <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A>" unter.<BR>Mit E9-1-1-Dienstanbietern erhalten Sie Zugriff auf ein SBCS-Paar für Redundanz. Sie müssen mehrere Entscheidungen hinsichtlich der Vermittlungsserver Topologie und der Anruf Weiterleitungskonfiguration treffen. Werden Sie beide SBCS als gleichwertige Peers behandeln und das Round-Robin-Routing für Anrufe zwischen Ihnen verwenden, oder werden Sie einen SBC als primären und den anderen als sekundären angeben?
+> <P>Verwenden Sie einen lokalen Session Border Controller (SBC), um einen sicheren Abgrenzungs Pfad zwischen den Vermittlungsservern und den Diensten des SIP-Trunk Anbieters bereitzustellen.</P></LI></UL>Wenn Sie die letztere Methode auswählen, müssen Sie sicherstellen, dass die von Ihnen ausgewählte SBC-Marke und das Modell zertifiziert wurden und unterstützt die Übergabe von Anwesenheitsinformationen im Daten Format Location-Objekt (PIDF-Lo) als Teil der SIP-INVITE-Daten. Andernfalls werden die Anrufe bei dem Notrufdienst Anbieter eintreffen, der von den Standortinformationen entfernt wurde. Ausführliche Informationen zu zertifizierten SBCS finden Sie unter "qualifizierte Infrastruktur für Microsoft lync" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A> .<BR>Mit E9-1-1-Dienstanbietern erhalten Sie Zugriff auf ein SBCS-Paar für Redundanz. Sie müssen mehrere Entscheidungen hinsichtlich der Vermittlungsserver Topologie und der Anruf Weiterleitungskonfiguration treffen. Werden Sie beide SBCS als gleichwertige Peers behandeln und das Round-Robin-Routing für Anrufe zwischen Ihnen verwenden, oder werden Sie einen SBC als primären und den anderen als sekundären angeben?
 
 
 

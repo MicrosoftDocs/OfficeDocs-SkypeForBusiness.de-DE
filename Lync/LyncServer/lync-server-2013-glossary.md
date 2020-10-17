@@ -12,20 +12,22 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d40e0c94733ca26768e2f72475ed0d66e37f20c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a241f67f524569a4e8bf0d61e2cb667dd018e0a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199408"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498892"
 ---
+# <a name="glossary-for-lync-server-2013"></a>Glossar für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="glossary-for-lync-server-2013"></a>Glossar für lync Server 2013
+
 
 </div>
 
@@ -180,7 +182,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="even">
 <td><p>Lange Nachricht</p></td>
-<td><p>Eine Nachricht in einem beständigen Chatroom, die die maximale Zeichenanzahl überschreitet. Wenn die Zeichen Grenze überschritten wird, wird die Nachricht als &quot;lange Nachricht angezeigt.&quot;</p></td>
+<td><p>Eine Nachricht in einem beständigen Chatroom, die die maximale Zeichenanzahl überschreitet. Wenn die Zeichen Grenze überschritten wird, wird die Nachricht als &quot; lange Nachricht angezeigt.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2013 VDI-Plug-In</p></td>

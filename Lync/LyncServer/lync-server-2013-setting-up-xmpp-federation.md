@@ -12,20 +12,22 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e34e47eaa5cd4bf8ffc2fccbc2a8bcb3f4f2de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497522"
 ---
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Einrichten des XMPP-Verbunds in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Einrichten des XMPP-Verbunds in lync Server 2013
+
 
 </div>
 
@@ -70,7 +72,7 @@ Um den XMPP-Proxy im Edgeserver bereitzustellen, müssen Sie die Edgeserver für
 
 9.  Aktivieren Sie auf der Seite Verzögerte oder sofortige Anforderung das Kontrollkästchen Anforderung jetzt vorbereiten, jedoch später senden.
 
-10. Geben Sie auf der Seite Zertifikatanforderungsdatei den vollständigen Pfad und den Dateinamen der Datei ein, in der die Anforderung gespeichert werden soll (beispielsweise\\c\_: Zertifikat "\_Edge. cer").
+10. Geben Sie auf der Seite Zertifikatanforderungsdatei den vollständigen Pfad und den Dateinamen der Datei ein, in der die Anforderung gespeichert werden soll (beispielsweise c: \\ Zertifikat " \_ \_ Edge. cer").
 
 11. Aktivieren Sie auf der Seite Alternative Zertifikatvorlage angeben das Kontrollkästchen Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden, um eine andere Vorlage als die Standardvorlage "WebServer" zu verwenden.
 
@@ -88,7 +90,7 @@ Um den XMPP-Proxy im Edgeserver bereitzustellen, müssen Sie die Edgeserver für
 
 15. Auf der Seite Antragstellername/Alternative Antragstellernamen werden die Informationen angezeigt, die automatisch vom Assistenten aufgefüllt werden. Wenn zusätzliche alternative Antragstellernamen erforderlich sind, werden diese in den nächsten zwei Schritten angegeben.
 
-16. Aktivieren Sie auf der Seite SIP-Domäneneinstellung für alternative Antragstellernamen (SANs) das Kontrollkästchen Domäne, um ein SIP hinzuzufügen. \<sipdomain "\> -Eintrag zur Liste der alternativen Antragstellernamen.
+16. Aktivieren Sie auf der Seite SIP-Domäneneinstellung für alternative Antragstellernamen (SANs) das Kontrollkästchen Domäne, um ein SIP hinzuzufügen.\<sipdomain\> Eintrag zur Liste der alternativen Antragstellernamen.
 
 17. Geben Sie auf der Seite zusätzliche Alternative Antragstellernamen konfigurieren zusätzliche Alternative Antragstellernamen an, die erforderlich sind.
     
@@ -119,7 +121,7 @@ Um den XMPP-Proxy im Edgeserver bereitzustellen, müssen Sie die Edgeserver für
         Start-CsWindowsService
        ```
 
-23. Um DNS für den XMPP-Verbund zu konfigurieren, fügen Sie den folgenden SRV-Eintrag\_zu externem DNS hinzu: XMPP-Server. \_TCP. \<Domänenname\> der SRV-Eintrag wird in den Zugriffs-Edge-FQDN des Edgeserver mit dem Portwert 5269 aufgelöst. Darüber hinaus konfigurieren Sie einen "A"-Hosteintrag (beispielsweise xmpp.contoso.com), der auf die IP-Adresse des Access-Edgeserver verweist.
+23. Um DNS für den XMPP-Verbund zu konfigurieren, fügen Sie den folgenden SRV-Eintrag zu externem DNS hinzu: \_ XMPP-Server. \_ TCP.\<domain name\> Der SRV-Eintrag wird in den Zugriffs-Edge-FQDN des Edgeserver mit dem Portwert 5269 aufgelöst. Darüber hinaus konfigurieren Sie einen "A"-Hosteintrag (beispielsweise xmpp.contoso.com), der auf die IP-Adresse des Access-Edgeserver verweist.
     
     <div class=" ">
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e870fb22bc8d3e183192d7ec8e94a554878fb04
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5fcba91b3017faff29ad8d1bcce20d51a32bd1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198178"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498982"
 ---
+# <a name="deployment-of-lync-server-2013"></a>Bereitstellung von lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-of-lync-server-2013"></a>Bereitstellung von lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198178"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Die Bereitstellung von lync Server 2013 Kommunikationssoftware umfasst die Vorbereitung Active Directory-Domänendienste, die Bereitstellung der Front-End-Server und anderer Kern lync Server 2013 interner Komponenten und die anschließende Bereitstellung zusätzlicher Server Rollen und Features, die Ihre Organisation erfordert möglicherweise einen externen Benutzer Zugriff und Enterprise-VoIP.
+Die Bereitstellung von lync Server 2013 Kommunikationssoftware umfasst die Vorbereitung Active Directory-Domänendienste, die Bereitstellung der Front-End-Server und anderer Kern lync Server 2013 interner Komponenten sowie die anschließende Bereitstellung zusätzlicher Server Rollen und Features, die Ihre Organisation möglicherweise benötigt, beispielsweise externer Benutzer Zugriff und Enterprise-VoIP.
 
 In dieser Dokumentation werden drei Szenarien für die Bereitstellung von lync Server 2013 beschrieben:
 

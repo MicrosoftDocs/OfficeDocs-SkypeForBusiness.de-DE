@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187478"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499312"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Zertifikatzusammenfassung-AutoErmittlung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Zertifikatzusammenfassung-AutoErmittlung in lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ Der lync Server 2013 AutoErmittlungsdienst wird auf dem Director-und Front-End-P
 
 Die Entscheidung, ob Listen für alternative Antragstellernamen in umgekehrten Proxys verwendet werden sollen, basiert darauf, ob Sie den AutoErmittlungsdienst auf Port 80 oder an Port 443 veröffentlichen:
 
-  - **Veröffentlicht auf Port 80**   keine Zertifikat Änderungen sind erforderlich, wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync betrieben wird, extern auf den Reverseproxy auf Port 80 zugreifen und dann intern mit einem Director oder Front-End-Server an Port 8080 überbrückt werden. Ausführliche Informationen finden Sie im Abschnitt "erste Auto Ermittlungsverfahren mit Port 80" [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+  - **Veröffentlicht am Port 80**     Wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt, sind keine Änderungen am Zertifikat erforderlich. Dies liegt daran, dass Mobile Geräte, auf denen lync betrieben wird, extern auf den Reverseproxy auf Port 80 zugreifen und dann intern mit einem Director oder Front-End-Server an Port 8080 überbrückt werden. Ausführliche Informationen finden Sie im Abschnitt "erste Auto Ermittlungsverfahren mit Port 80" [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
-  - **Veröffentlicht am Port 443**   die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für externe Webdienste verwendet werden, muss ein *lyncdiscover enthalten.\< sipdomain "\> * -Eintrag für jede SIP-Domäne in Ihrer Organisation.
+  - **Veröffentlicht am Port 443**     Die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für externe Webdienste verwendet werden, muss ein *lyncdiscover enthalten. \<sipdomain\> * Eintrag für jede SIP-Domäne in Ihrer Organisation.
     
     <div>
     
@@ -60,7 +62,7 @@ Das neuausgeben von Zertifikaten mithilfe einer internen Zertifizierungsstelle i
 
 
 > [!NOTE]  
-> Wenn Ihre lync Server 2013-Infrastruktur interne Zertifikate verwendet, die von einer internen Zertifizierungsstelle ausgestellt werden und Sie beabsichtigen, Mobile Geräte mit Drahtlosverbindungen zu unterstützen, muss entweder die Stammzertifikatkette von der internen Zertifizierungsstelle installiert sein. auf den mobilen Geräten oder müssen Sie zu einem öffentlichen Zertifikat in ihrer lync Server 2013 Infrastruktur wechseln.
+> Wenn Ihre lync Server 2013-Infrastruktur interne Zertifikate verwendet, die von einer internen Zertifizierungsstelle ausgestellt werden und Sie mobile Geräte mit Drahtlosverbindung unterstützen möchten, muss entweder die Stammzertifikatkette von der internen Zertifizierungsstelle auf den mobilen Geräten installiert sein, oder Sie müssen zu einem öffentlichen Zertifikat in ihrer lync Server 2013 Infrastruktur wechseln.
 
 
 
@@ -86,11 +88,11 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 <tbody>
 <tr class="odd">
 <td><p>Interne URL des AutoErmittlungsdiensts</p></td>
-<td><p>San = "lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
+<td><p>San = "lyncdiscoverinternal". &lt; Interner Domänenname&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>Externe URL des AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>San = lyncdiscover. &lt; sipdomain "&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 
 
 > [!NOTE]  
-> Sie weisen das neu aktualisierte Zertifikat dem neuen San-Eintrag dem Standardzertifikat zu. Alternativ können Sie San = * verwenden. &lt;sipdomain "&gt;.
+> Sie weisen das neu aktualisierte Zertifikat dem neuen San-Eintrag dem Standardzertifikat zu. Alternativ können Sie San = * verwenden. &lt; sipdomain " &gt; .
 
 
 
@@ -122,11 +124,11 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 <tbody>
 <tr class="odd">
 <td><p>Interne URL des AutoErmittlungsdiensts</p></td>
-<td><p>San = "lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
+<td><p>San = "lyncdiscoverinternal". &lt; Interner Domänenname&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>Externe URL des AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>San = lyncdiscover. &lt; sipdomain "&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 
 
 > [!NOTE]  
-> Sie weisen das neu aktualisierte Zertifikat dem neuen San-Eintrag dem Standardzertifikat zu. Alternativ können Sie San = * verwenden. &lt;sipdomain "&gt;
+> Sie weisen das neu aktualisierte Zertifikat dem neuen San-Eintrag dem Standardzertifikat zu. Alternativ können Sie San = * verwenden. &lt; sipdomain "&gt;
 
 
 
@@ -158,7 +160,7 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 <tbody>
 <tr class="odd">
 <td><p>Externe URL des AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>San = lyncdiscover. &lt; sipdomain "&gt;</p></td>
 </tr>
 </tbody>
 </table>

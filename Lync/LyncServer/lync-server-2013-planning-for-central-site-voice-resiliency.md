@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184408"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497732"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planen der VoIP-Ausfallsicherheit für den zentralen Standort in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planen der VoIP-Ausfallsicherheit für den zentralen Standort in lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Lync Server hängt von den folgenden Infrastruktur-und Softwarekomponenten ab, u
 </tr>
 <tr class="odd">
 <td><p>DHCP Options 120</p></td>
-<td><p>Wenn DNS-SRV nicht verfügbar ist, versucht der Client, DHCP Option 120 für die Suche nach der Registrierung zu verwenden. Damit dies funktioniert, muss entweder ein DHCP-Server konfiguriert sein, oder lync Server 2013 DHCP muss aktiviert sein. Ausführliche Informationen finden Sie unter Hardware-und Software Anforderungen für Ausfallsicherheit für Zweigstellenstandorte in <a href="lync-server-2013-branch-site-resiliency-requirements.md">Anforderungen für die Ausfallsicherheit an Zweigstellenstandorten für lync Server 2013</a> Abschnitt.</p></td>
+<td><p>Wenn DNS-SRV nicht verfügbar ist, versucht der Client, DHCP Option 120 für die Suche nach der Registrierung zu verwenden. Damit dies funktioniert, muss entweder ein DHCP-Server konfiguriert sein, oder lync Server 2013 DHCP muss aktiviert sein. Ausführliche Informationen finden Sie unter Hardware-und Software Anforderungen für Branch-Site Ausfallsicherheit in Anforderungen an die <a href="lync-server-2013-branch-site-resiliency-requirements.md">Ausfallsicherheit an Zweigstellenstandorten für lync Server 2013</a> Abschnitt.</p></td>
 </tr>
 </tbody>
 </table>

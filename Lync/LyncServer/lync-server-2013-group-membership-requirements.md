@@ -12,20 +12,22 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8726d471b1db95aa67cca58a77452d9faa43df4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 041bba31a4c8225a4326e3409475210a46261a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200008"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498772"
 ---
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Anforderungen an die Gruppenmitgliedschaft für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Anforderungen an die Gruppenmitgliedschaft für lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ In der folgenden Tabelle sind die Gruppen oder Gruppen zusammengefasst, denen ei
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup. exe</strong> – ausführbare Datei, mit der die Installation des lync Server 2013 Verwaltungstools gestartet wird.</p></td>
+<td><p><strong>Setup.exe</strong> – ausführbare Datei, mit der die Installation der lync Server 2013-Verwaltungstools gestartet wird.</p></td>
 <td><p>Mitglied der lokalen Administratorgruppe auf dem Computer, auf dem die ausführbare Datei ausgeführt wird. Mitglied der Gruppe "Domänenbenutzer" zum Lesen von Informationen in Active Directory-Domänendienste. Diese Berechtigungsstufe ist erforderlich, da für die automatische Installation der erforderlichen MSI-Pakete auf dem lokalen Computer Lese- und Schreibberechtigungen für geschützte Ressourcen des lokalen Computers – z. B. Verzeichnisse unter "Programme" oder geschützte Registrierungseinträge wie der Schlüssel "Local Machine" – benötigt werden.</p>
 <div>
 
@@ -87,7 +89,7 @@ In der folgenden Tabelle sind die Gruppen oder Gruppen zusammengefasst, denen ei
 <td><p>Mitglied der Gruppe "CsAdministrator" oder einer anderen rollenbasierten Zugriffssteuerungsrolle (Role-Based Access Control, RBAC), der eine bestimmte Verwaltungsaufgabe zugewiesen wurde. In lync Server 2013 Systemsteuerung werden Konfigurationsänderungen durch Ausführen der Cmdlets der lync Server 2013 Verwaltungsshell implementiert. Eine Liste mit vordefinierten Rollen und die Cmdlets, die von Mitgliedern ausgeführt werden dürfen, finden Sie unter <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in lync Server 2013</a> in der Planungsdokumentation.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PowerShell. exe mit dem lync Server 2013 Modul Loaded</strong> – Befehlszeilen-Verwaltungstool mit Cmdlets für die Verwaltung von lync Server 2013.</p></td>
+<td><p><strong>PowerShell.exe mit dem lync Server 2013 Modul Loaded</strong> – Befehlszeilen-Verwaltungstool mit speziell für die Verwaltung von lync Server 2013 spezifischen Cmdlets.</p></td>
 <td><p>Mitglied der Gruppe "CsAdministrator" oder einer anderen rollenbasierten Zugriffssteuerungsrolle, der ein bestimmtes Cmdlet zugewiesen wurde. Eine Liste mit vordefinierten Rollen und die Cmdlets, die von Mitgliedern ausgeführt werden dürfen, finden Sie unter <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in lync Server 2013</a> in der Planungsdokumentation.</p>
 <p>Oder, abhängig vom Cmdlet, Mitglied einer oder mehrerer der folgenden Gruppen:</p>
 <ul>

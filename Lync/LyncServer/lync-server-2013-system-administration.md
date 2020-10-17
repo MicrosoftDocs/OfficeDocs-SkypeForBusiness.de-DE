@@ -12,20 +12,22 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f128196f1d541e8a7f8ffd3b48bac8f34de85b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c830b689f0f55c2af191443583394e9f8c22eed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192238"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497502"
 ---
+# <a name="system-administration-in-lync-server-2013"></a>System Verwaltung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-administration-in-lync-server-2013"></a>System Verwaltung in lync Server 2013
+
 
 </div>
 
@@ -59,13 +61,13 @@ Das folgende Diagramm zeigt den Systemproblem Behandlungsprozess und die Interak
 
 ![Flussdiagramm zur System Problembehandlung](images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "Flussdiagramm zur System Problembehandlung")
 
-  - **Klassifizieren und priorisieren**   dieser Aufgabe wird in der Regel vom Service Desk ausgeführt. Beispielsweise kann ein Problem als Softwareproblem oder Hardwareproblem gruppiert werden. Das Problem wird dann zur Untersuchung an das entsprechende Support Team weitergeleitet. Die Regeln für die Bestimmung der Priorität eines Problems sowie die Reaktionszeit und die Auflösungszeit sind in der Regel in der SLA definiert.
+  - **Klassifizieren und priorisieren**     Diese Aufgabe wird in der Regel vom Service Desk ausgeführt. Beispielsweise kann ein Problem als Softwareproblem oder Hardwareproblem gruppiert werden. Das Problem wird dann zur Untersuchung an das entsprechende Support Team weitergeleitet. Die Regeln für die Bestimmung der Priorität eines Problems sowie die Reaktionszeit und die Auflösungszeit sind in der Regel in der SLA definiert.
 
-  - **Untersuchen und diagnostizieren**   des entsprechenden Support Teams diagnostizieren des Problems und vorschlagen von Änderungen zur Lösung des Problems. Wenn die Lösung einfach ist und keine Änderungssteuerung erfordert, kann die Lösung sofort angewendet werden. Wenn die Lösung nicht einfach ist, sollte eine Änderungsanforderung ausgelöst werden, und die vorgeschlagene Arbeit sollte durch den Change Management-Prozess verwaltet werden, häufig unter einem "Fast-Track"-Verfahren. Alle vorgenommenen Änderungen sollten mit dem Konfigurationsverwaltungsprozess aufgezeichnet werden.
+  - **Untersuchen und diagnostizieren**     Das entsprechende Support Team diagnostiziert das Problem und schlägt Änderungen vor, um das Problem zu beheben. Wenn die Lösung einfach ist und keine Änderungssteuerung erfordert, kann die Lösung sofort angewendet werden. Wenn die Lösung nicht einfach ist, sollte eine Änderungsanforderung ausgelöst werden, und die vorgeschlagene Arbeit sollte durch den Change Management-Prozess verwaltet werden, häufig unter einem "Fast-Track"-Verfahren. Alle vorgenommenen Änderungen sollten mit dem Konfigurationsverwaltungsprozess aufgezeichnet werden.
 
-  - **Schließen und aufzeichnen**   nach dem Testen der Lösung sollte das Problem geschlossen werden. Wenn aus dem Problem Lektionen gelernt werden müssen, sollte ein Eintrag in der Knowledge Base erstellt werden.
+  - **Schließen und aufzeichnen**     Nach dem Testen der Lösung sollte das Problem geschlossen werden. Wenn aus dem Problem Lektionen gelernt werden müssen, sollte ein Eintrag in der Knowledge Base erstellt werden.
 
-  - **Überprüfung und Trend Analyse**   regelmäßige Überprüfungen der aktuellen Probleme sollten durchgeführt werden, um Problem Trends zu identifizieren. Wenn die Benutzer beispielsweise häufig Probleme mit langsamen Anmeldungen an Ihren lync-Websites auftreten, können Probleme mit der Netzwerkbandbreite verursacht werden. Die Problem Behebungszeiten und die Auswirkungen von Ausfällen auf die Systemverfügbarkeit sollten überprüft und mit der SLA verglichen werden. Die Person, die mit dem Kunden bei Dienstproblemen kontaktiert, wie beispielsweise ein Account Manager, sollte über wichtige Probleme informiert werden.
+  - **Überprüfung und Trend Analyse**     Regelmäßige Überprüfungen der aktuellen Probleme sollten durchgeführt werden, um Problem Trends zu identifizieren. Wenn die Benutzer beispielsweise häufig Probleme mit langsamen Anmeldungen an Ihren lync-Websites auftreten, können Probleme mit der Netzwerkbandbreite verursacht werden. Die Problem Behebungszeiten und die Auswirkungen von Ausfällen auf die Systemverfügbarkeit sollten überprüft und mit der SLA verglichen werden. Die Person, die mit dem Kunden bei Dienstproblemen kontaktiert, wie beispielsweise ein Account Manager, sollte über wichtige Probleme informiert werden.
 
 </div>
 
@@ -75,7 +77,7 @@ Das folgende Diagramm zeigt den Systemproblem Behandlungsprozess und die Interak
 
 Service Desk-Tools ermöglichen es Mitarbeitern, neue Probleme aufzuzeichnen, zu klassifizieren und zu priorisieren. Tools stellt dann die Workflowprozesse zur Verwaltung der Problem Dienstanforderung durch Untersuchung und Diagnose bereit, häufig von mehr als einem Support Team. Tools, die häufig Berichte über Lösungszeiten und Verlaufstrends bereitstellen, können auch eine Knowledge Base-Datenbank enthalten, die zum Durchsuchen früherer Probleme verwendet werden kann.
 
-Die Microsoft Knowledge Base ist eine nützliche Aufzeichnung von Supportproblemen, die von Microsoft aufgetreten sind. Weitere Informationen finden Sie auf der Microsoft-Support-<https://go.microsoft.com/fwlink/?linkid=14898>Website ().
+Die Microsoft Knowledge Base ist eine nützliche Aufzeichnung von Supportproblemen, die von Microsoft aufgetreten sind. Weitere Informationen finden Sie auf der Microsoft-Support-Website ( <https://go.microsoft.com/fwlink/?linkid=14898> ).
 
 Bei Drittanbietersoftware ist in der Regel eine Anpassung erforderlich, die den Anforderungen der Organisation entspricht, beispielsweise die Organisation von Teams, Berichtsanforderungen und für die SLA erforderlichen Maßnahmen.
 
@@ -87,9 +89,9 @@ Bei Drittanbietersoftware ist in der Regel eine Anpassung erforderlich, die den 
 
 Rollen und Verantwortlichkeiten für die Ausführung von Systemverwaltungsaufgaben hängen davon ab, ob die Organisation einem zentralisierten Modell, einem dezentralisierten Modell oder einer Kombination aus beiden folgt.
 
-  - **Zentralisiertes Modell**   in einem zentralisierten Modell behalten eine oder mehrere administrative Gruppen die vollständige Kontrolle über die gesamte lync Server Umgebung bei. Dieses Verwaltungsmodell ähnelt einem Rechenzentrum, in dem alle Verwaltungsaufgaben von einer einzigen Informationstechnologiegruppe ausgeführt werden. Die Funktionen und Verantwortlichkeiten innerhalb des Teams sollten gemäß der Erfahrung und der Kenntnisse definiert werden.
+  - **Zentrales Modell**     In einem zentralisierten Modell behalten eine oder mehrere administrative Gruppen die vollständige Kontrolle über die gesamte lync Server Umgebung bei. Dieses Verwaltungsmodell ähnelt einem Rechenzentrum, in dem alle Verwaltungsaufgaben von einer einzigen Informationstechnologiegruppe ausgeführt werden. Die Funktionen und Verantwortlichkeiten innerhalb des Teams sollten gemäß der Erfahrung und der Kenntnisse definiert werden.
 
-  - **Dezentrale Modell**   dezentralisierte Organisationen befinden sich an mehreren geografischen Standorten und funktionieren lync Server Server und Administratoren Teams an unterschiedlichen Standorten. Beispielsweise kann es lokale Verwaltungsmitarbeiter und einen oder mehrere Server geben, auf denen lync Server 2013 für jedes Land/dieselbe Region laufen. Oder es kann ein Serverpool mit lync Server 2013 und ein Verwaltungsteam für Nordamerika und eins für Europa geben. Möglicherweise möchten Sie, dass Administratoren nur für Ihren eigenen geografischen Bereich zuständig sind und Berechtigungen zum Verwalten von Ressourcen in anderen Bereichen einschränken.
+  - **Dezentralisiertes Modell**     Dezentrale Organisationen befinden sich an mehreren geografischen Standorten und funktionieren lync Server Server und Administratoren Teams an unterschiedlichen Standorten. Beispielsweise kann es lokale Verwaltungsmitarbeiter und einen oder mehrere Server geben, auf denen lync Server 2013 für jedes Land/dieselbe Region laufen. Oder es kann ein Serverpool mit lync Server 2013 und ein Verwaltungsteam für Nordamerika und eins für Europa geben. Möglicherweise möchten Sie, dass Administratoren nur für Ihren eigenen geografischen Bereich zuständig sind und Berechtigungen zum Verwalten von Ressourcen in anderen Bereichen einschränken.
 
 Mit lync Server können Sie auch bestimmte administrative Aufgaben mithilfe der rollenbasierten Zugriffssteuerung (Role-Based Access Control, RBAC) an bestimmte Personen oder Gruppen delegieren. Mit RBAC können Administratoren bestimmte Benutzerrechte und-Berechtigungen an andere Administratoren delegieren, um eine Teilmenge der möglichen administrativen Aufgaben auszuführen. Durch die Verwendung von RBAC hängt die Fähigkeit des Benutzers, bestimmte administrative Aufgaben auszuführen, von den dem Benutzer zugewiesenen RBAC-Rollen ab. RBAC enthält eine Liste der Cmdlets, die der Benutzer basierend auf den RBAC-Rollen ausführen kann, bei denen der Benutzer Mitglied ist.
 

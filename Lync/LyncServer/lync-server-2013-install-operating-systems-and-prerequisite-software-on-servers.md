@@ -12,20 +12,22 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 266e8b049bd5de97fbb8f8d5d1e89b7280db3d4f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37cfbf02d379a3003338d4eabc7a5ca3c4b49f15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197148"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498692"
 ---
+# <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>Installieren von Betriebssystemen und erforderlicher Software auf Servern für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>Installieren von Betriebssystemen und erforderlicher Software auf Servern für lync Server 2013
+
 
 </div>
 
@@ -55,15 +57,15 @@ Nachdem Sie die Hardware- und Systeminfrastruktur eingerichtet haben, müssen Si
 
 Installieren Sie auf jedem Server, den Sie bereitstellen, das entsprechende Windows-Betriebssystem wie folgt:
 
-  - **Server mit lync Server 2013**   ausführliche Informationen zu den Betriebssystemanforderungen für Server mit lync Server 2013 finden Sie in der Unterstützungsdokumentation unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) .
+  - **Server mit lync Server 2013**     Ausführliche Informationen zu den Betriebssystemanforderungen für Server, auf denen lync Server 2013 ausführen, finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.
 
-  - **Datenbankserver**   ausführliche Informationen zu den Betriebssystemanforderungen für Datenbankserver, einschließlich der Back-End-Datenbank, Archivierungsdatenbank und Überwachungsdatenbank finden Sie in der SQL Server Dokumentation. Informationen zu SQL Server 2012 finden Sie in [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)der SQL Server 2012-Online Dokumentation unter.
+  - **Datenbankserver**     Ausführliche Informationen zu den Betriebssystemanforderungen für Datenbankserver, einschließlich der Back-End-Datenbank, Archivierungsdatenbank und Überwachungsdatenbank finden Sie in der SQL Server Dokumentation. Informationen zu SQL Server 2012 finden Sie in der SQL Server 2012-Online Dokumentation unter [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015) .
 
 <div>
 
 
 > [!NOTE]
-> Wenn Sie lync Server 2013 unter Windows Server&nbsp;2008&nbsp;R2 mit SP1 installieren, müssen Sie zuerst das Update installieren, das im Microsoft Knowledge-Artikel 2646886, "Update: Heap corruption" auftritt, wenn ein Modul die InsertEntityBody-Methode in IIS 7,5 aufruft, unter <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>Sie müssen auch die Registrierung wie im KB-Artikel, Ereignis- <A href="https://go.microsoft.com/fwlink/p/?linkid=506893">IDs 32402, 61045, in lync Server 2013 auf Windows Server 2012 R2 installierten Front-End-Servern angemeldet sind</A>, ändern.
+> Wenn Sie lync Server 2013 unter Windows Server &nbsp; 2008 &nbsp; R2 mit SP1 installieren, müssen Sie zuerst das Update installieren, das im Microsoft Knowledge-Artikel 2646886, "Update: Heap corruption" auftritt, wenn ein Modul die InsertEntityBody-Methode in IIS 7,5 aufruft, unter <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp ; kbid = 2646886</A>.<BR>Sie müssen auch die Registrierung wie im KB-Artikel, Ereignis- <A href="https://go.microsoft.com/fwlink/p/?linkid=506893">IDs 32402, 61045, in lync Server 2013 auf Windows Server 2012 R2 installierten Front-End-Servern angemeldet sind</A>, ändern.
 
 
 
@@ -77,9 +79,9 @@ Installieren Sie auf jedem Server, den Sie bereitstellen, das entsprechende Wind
 
 Installieren Sie die folgenden Updates von Windows Update auf jedem Server:
 
-  - **Windows Update für Server mit lync Server 2013**   ausführliche Informationen zu den Updates von Windows Update, die für Server mit lync Server 2013 erforderlich sind, finden Sie unter [Additional Software Requirements for lync Server 2013](lync-server-2013-additional-software-requirements.md) in der Planungsdokumentation.
+  - **Windows Update für Server mit lync Server 2013**     Ausführliche Informationen zu den Updates von Windows Update, die für Server mit lync Server 2013 erforderlich sind, finden Sie unter [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md) in der Planungsdokumentation.
 
-  - **Datenbankserver**   ausführliche Informationen zu den Updates, die für Datenbankserver erforderlich sind, einschließlich der Back-End-Datenbank, Archivierungsdatenbank und Überwachungsdatenbank finden Sie in der Dokumentation zu SQL Server 2012. Informationen zu SQL Server 2012 finden Sie in [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)der SQL Server 2012-Online Dokumentation unter.
+  - **Datenbankserver**     Ausführliche Informationen zu den Updates von Windows Update, die für Datenbankserver erforderlich sind, einschließlich der Back-End-Datenbank, Archivierungsdatenbank und Überwachungsdatenbank, finden Sie in der Dokumentation zu SQL Server 2012. Informationen zu SQL Server 2012 finden Sie in der SQL Server 2012-Online Dokumentation unter [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015) .
 
 </div>
 
@@ -89,13 +91,13 @@ Installieren Sie die folgenden Updates von Windows Update auf jedem Server:
 
 Lync Server 2013 erfordert die Installation der folgenden zusätzlichen Software auf Servern:
 
-  - **Die erforderliche Software für Server, auf denen lync Server 2013**   die zusätzlichen Softwarevoraussetzungen für Server mit lync Server 2013 basieren, hängen von der bereitzustellenden Serverrolle ab. Ausführliche Informationen zu den spezifischen Softwareanforderungen für die einzelnen Server finden Sie in der Planungsdokumentation unter [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md) .
+  - **Erforderliche Software für Server mit lync Server 2013**     Die zusätzlichen Softwarevoraussetzungen für Server, auf denen lync Server 2013 ausführt, hängen von der bereitzustellenden Serverrolle ab. Ausführliche Informationen zu den spezifischen Softwareanforderungen für die einzelnen Server finden Sie in der Planungsdokumentation unter [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md) .
 
-  - **WindowsIdentity Foundation**   lync Server 2013 erfordert die Installation von WindowsIdentity Foundation, um Server-zu-Server-Authentifizierungsszenarien zu unterstützen. Um zu überprüfen, ob Sie bereits auf Ihrem Computer installiert wurde, wechseln Sie zur Systemsteuerung, klicken Sie auf **Programme und Funktionen**, **zeigen Sie installierte Updates**an, und schauen Sie unter **Microsoft Windows**nach. Ausführliche Informationen zum Installieren von Windows Identity Foundation finden [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Sie unter.
+  - **Windows Identity Foundation**     Lync Server 2013 erfordert die Installation von Windows Identity Foundation, um Server-zu-Server-Authentifizierungsszenarien zu unterstützen. Um zu überprüfen, ob Sie bereits auf Ihrem Computer installiert wurde, wechseln Sie zur Systemsteuerung, klicken Sie auf **Programme und Funktionen**, **zeigen Sie installierte Updates**an, und schauen Sie unter **Microsoft Windows**nach. Ausführliche Informationen zum Installieren von Windows Identity Foundation finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) .
 
-  - **Microsoft .NET Framework 4.5**   die 64-Bit-Version von Microsoft .NET Framework 4.5 ist für lync Server 2013 erforderlich.
+  - **Microsoft .NET Framework 4.5**     Die 64-Bit-Edition von Microsoft .NET Framework 4.5 ist für lync Server 2013 erforderlich.
 
-  - **Erforderliche Software für Datenbankserver**   ausführliche Informationen zu den für Datenbankserver erforderlichen Windows-Updates, einschließlich der Back-End-Datenbank, Archivierungsdatenbank und Überwachungsdatenbank finden Sie in der [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015)Dokumentation zu SQL Server 2012 unter.
+  - **Erforderliche Software für Datenbankserver**     Ausführliche Informationen zu den Windows-Updates, die für Datenbankserver erforderlich sind, einschließlich der Back-End-Datenbank, Archivierungsdatenbank und Überwachungsdatenbank finden Sie in der Dokumentation zu SQL Server 2012 unter [https://go.microsoft.com/fwlink/p/?linkId=218015](https://go.microsoft.com/fwlink/p/?linkid=218015) .
     
     <div>
     
@@ -106,7 +108,7 @@ Lync Server 2013 erfordert die Installation der folgenden zusätzlichen Software
     
     </div>
 
-  - **Windows Media Format Laufzeit**   für alle Front-End-Server und Standard Edition-Server, auf denen Konferenzen bereitgestellt werden, muss die Windows Media Format Runtime installiert sein. Die Windows Media Format-Laufzeitkomponente ist für die WMA-Dateien (Windows Media Audio) erforderlich, die in der Anwendung zum Parken von Anrufen, in der Ansageanwendung und in der Reaktionsgruppenanwendung für die Wiedergabe von Ansagen und Musik verwendet werden.
+  - **Windows Media Format Laufzeit**     Auf allen Front-End-Servern und Standard Edition-Servern, auf denen Konferenzen bereitgestellt werden, muss die Windows Media Format Runtime installiert sein. Die Windows Media Format-Laufzeitkomponente ist für die WMA-Dateien (Windows Media Audio) erforderlich, die in der Anwendung zum Parken von Anrufen, in der Ansageanwendung und in der Reaktionsgruppenanwendung für die Wiedergabe von Ansagen und Musik verwendet werden.
     
     <div>
     
@@ -121,7 +123,7 @@ Lync Server 2013 erfordert die Installation der folgenden zusätzlichen Software
     
 
     > [!NOTE]
-    > Für Windows Server&nbsp;2008 und Windows Server&nbsp;2008&nbsp;R2 wird die Windows Media Format Runtime als Teil der Windows-Desktop Umgebung installiert. Es wird empfohlen, dass Sie Windows Desktop Experience installieren, bevor Sie lync Server 2013 installieren. Wenn lync Server 2013 diese Software nicht auf dem Server findet, werden Sie aufgefordert, Sie zu installieren, und Sie müssen den Server neu starten, um die Installation abzuschließen.
+    > Für Windows Server &nbsp; 2008 und Windows Server &nbsp; 2008 &nbsp; R2 wird die Windows Media Format Runtime als Teil der Windows-Desktop Umgebung installiert. Es wird empfohlen, dass Sie Windows Desktop Experience installieren, bevor Sie lync Server 2013 installieren. Wenn lync Server 2013 diese Software nicht auf dem Server findet, werden Sie aufgefordert, Sie zu installieren, und Sie müssen den Server neu starten, um die Installation abzuschließen.
 
     
     </div>

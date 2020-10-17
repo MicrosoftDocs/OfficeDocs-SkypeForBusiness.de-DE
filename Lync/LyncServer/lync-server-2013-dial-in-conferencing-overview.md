@@ -12,20 +12,22 @@ ms:contentKeyID: 48184436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d088d07e5d49a916835da581af81ff7def581b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d91c455c1e4bfbb2b4fe7af827265a789c9ace68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214302"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498932"
 ---
+# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Übersicht über Einwahlkonferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Übersicht über Einwahlkonferenzen in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214302"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-30_
 
-Wenn Ihre Organisation über Benutzer verfügt, die lync Server 2013 lokalen Konferenzen teilnehmen müssen, wenn Sie nicht im Büro sind oder keinen Zugriff auf einen Computer haben, können Sie Einwahlkonferenzen bereitstellen, damit Sie an der Konferenz teilnehmen können, indem Sie ein öffentliches Switched-Telefon verwenden. Festnetz-Telefon.
+Wenn Ihre Organisation über Benutzer verfügt, die lync Server 2013 lokalen Konferenzen teilnehmen müssen, wenn Sie nicht im Büro sind oder keinen Zugriff auf einen Computer haben, können Sie Einwahlkonferenzen bereitstellen, damit Sie über ein PSTN-Telefon (Public Switched Telephone Network) an der Konferenz teilnehmen können.
 
 Einwahlkonferenzen sind ein optionales Feature, das Sie bei der Bereitstellung von lync Server 2013 Konferenzen konfigurieren können. Bei Einwahlkonferenzen werden zwar einige der lync Server 2013 Komponenten verwendet, die Enterprise-VoIP verwendet, aber Sie können Einwahlkonferenzen auch dann bereitstellen, wenn Sie Enterprise-VoIP nicht bereitstellen.
 

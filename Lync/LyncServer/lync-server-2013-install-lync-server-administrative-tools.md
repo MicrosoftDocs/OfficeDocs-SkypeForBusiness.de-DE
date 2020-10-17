@@ -12,20 +12,22 @@ ms:contentKeyID: 48184695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8805c82c26eb97da8537b33cda8346f5942de1c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ded1dbdcd81c846db9f23574fa0b39efa0c33dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204251"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498722"
 ---
+# <a name="install-lync-server-2013-administrative-tools"></a>Installieren von lync Server 2013 Verwaltungstools
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-administrative-tools"></a>Installieren von lync Server 2013 Verwaltungstools
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204251"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die Sie für die Bereitstellung und Verwaltung von lync Server 2013 verwenden müssen. Die Verwaltungstools werden auf jedem Server mit lync Server 2013 standardmäßig installiert. Sie können die Verwaltungstools auch auf anderen Computern wie etwa dedizierten Verwaltungskonsolen installieren. Es wird dringend empfohlen, dass Sie die Verwaltungstools auf einem Computer installieren, der sich in der gleichen Domäne oder Gesamtstruktur wie die lync Server 2013 Bereitstellung befindet, da Sie dadurch sicherstellen, dass Active Directory-Domänendienste Vorbereitungsschritte bereits vollständig, sodass Sie die Verwaltungstools auf diesem Computer später zum Veröffentlichen Ihrer Topologie verwenden können.
+In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die Sie für die Bereitstellung und Verwaltung von lync Server 2013 verwenden müssen. Die Verwaltungstools werden auf jedem Server mit lync Server 2013 standardmäßig installiert. Sie können die Verwaltungstools auch auf anderen Computern wie etwa dedizierten Verwaltungskonsolen installieren. Es wird dringend empfohlen, dass Sie die Verwaltungstools auf einem Computer installieren, der sich in der gleichen Domäne oder Gesamtstruktur wie die lync Server 2013 Bereitstellung befindet, die Sie erstellen, da Sie dadurch sicherstellen, dass Active Directory-Domänendienste Vorbereitungsschritte bereits abgeschlossen sind, sodass Sie später die Verwaltungstools auf diesem Computer zum Veröffentlichen Ihrer Topologie verwenden können.
 
 Stellen Sie sicher, dass Sie die Anforderungen an Infrastruktur, Betriebssystem, Software und Administratorrechte überprüfen, bevor Sie die lync Server 2013 Verwaltungstools installieren oder verwenden. Ausführliche Informationen zu den Infrastrukturanforderungen finden Sie unter [Administrative Tools Infrastructure Requirements in lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Ausführliche Informationen zu den Betriebssystem-und Softwareanforderungen für die Installation der lync Server 2013 Verwaltungstools finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md)sowie [zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Ausführliche Informationen zu den Benutzerrechten und-Berechtigungen, die für die Installation und Verwendung der Tools erforderlich sind, finden Sie unter [Administrator Rechte und-Berechtigungen, die für die Einrichtung und Verwaltung von lync Server 2013 erforderlich](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)sind.
 
@@ -45,7 +47,7 @@ Stellen Sie sicher, dass Sie die Anforderungen an Infrastruktur, Betriebssystem,
 
 
 > [!IMPORTANT]  
-> Wenn die Internetinformationsdienste (IIS) und alle Webdienste in Ihrer Organisation auf einem anderen Laufwerk als auf dem Systemlaufwerk platziert werden müssen, können Sie das Installationsverzeichnis für die Lync Server-Dateien im Setupdialogfeld ändern. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore. msi, werden auch die restlichen lync Server 2013 Dateien auf diesem Laufwerk bereitgestellt.
+> Wenn die Internetinformationsdienste (IIS) und alle Webdienste in Ihrer Organisation auf einem anderen Laufwerk als auf dem Systemlaufwerk platziert werden müssen, können Sie das Installationsverzeichnis für die Lync Server-Dateien im Setupdialogfeld ändern. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore.msi, werden auch die restlichen lync Server 2013 Dateien auf diesem Laufwerk bereitgestellt.
 
 
 
@@ -57,7 +59,7 @@ Stellen Sie sicher, dass Sie die Anforderungen an Infrastruktur, Betriebssystem,
 
 1.  Melden Sie sich mindestens als lokaler Administrator auf dem Computer an, auf dem der fea-cs-topo-tool und die Verwaltungstools installiert werden sollen. Wenn Sie als Standardbenutzer bei einem Windows Vista- oder Windows 7-Betriebssystem angemeldet sind und die Benutzerkontensteuerung aktiviert ist, werden Sie zur Eingabe von Name und Kennwort für den lokalen Administrator oder für ein gleichwertiges Domänenbenutzerkonto aufgefordert.
 
-2.  Suchen Sie das Installationsmedium auf Ihrem Computer, und doppelklicken Sie \\dann\\auf\\Setup amd64 Setup. exe.
+2.  Suchen Sie das Installationsmedium auf Ihrem Computer, und doppelklicken Sie dann auf \\ Setup \\ amd64 \\Setup.exe.
 
 3.  Klicken Sie auf **Ja**, wenn Sie zur Installation von Microsoft Visual C++ 2008 Distributable aufgefordert werden.
 
@@ -67,7 +69,7 @@ Stellen Sie sicher, dass Sie die Anforderungen an Infrastruktur, Betriebssystem,
     
 
     > [!IMPORTANT]  
-    > Wenn in Ihrer Organisation Internet Information Services (IIS) und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk gefunden werden müssen, können Sie den Pfad für den Installationspfad für die lync Server 2013 Dateien im Dialogfeld Setup ändern. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore. msi, werden auch die restlichen lync Server 2013 Dateien auf diesem Laufwerk bereitgestellt.
+    > Wenn in Ihrer Organisation Internet Information Services (IIS) und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk gefunden werden müssen, können Sie den Pfad für den Installationspfad für die lync Server 2013 Dateien im Dialogfeld Setup ändern. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore.msi, werden auch die restlichen lync Server 2013 Dateien auf diesem Laufwerk bereitgestellt.
 
     
     </div>

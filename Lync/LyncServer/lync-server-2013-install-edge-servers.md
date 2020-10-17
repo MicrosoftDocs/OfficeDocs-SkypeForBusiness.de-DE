@@ -12,20 +12,22 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af95403b8a1fc383d8d6065f26a55242e735a51b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81a17eacb30c62f64185508afef3842408238ba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498742"
 ---
+# <a name="install-edge-servers-for-lync-server-2013"></a>Installieren von Edge-Servern für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-edge-servers-for-lync-server-2013"></a>Installieren von Edge-Servern für lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Nachdem Sie die einzelnen Edgeserver mithilfe des Bereitstellungs-Assistenten in
 
 1.  Melden Sie sich als Mitglied der lokalen Administratorgruppe bei dem Computer an, auf dem Sie den Edgeserver installieren möchten, oder verwenden Sie ein Konto mit gleichwertigen Benutzerrechten und -berechtigungen.
 
-2.  Stellen Sie sicher, dass die Topologie-Konfigurationsdatei, die Sie mithilfe des Topologie-Generators erstellt und anschließend auf externe Medien exportiert und kopiert haben, im Edgeserver verfügbar ist (beispielsweise Zugriff auf das USB-Laufwerk, auf dem Sie die Topologie-Konfigurationsdatei kopiert haben, oder überprüfen Zugriff auf die Netzwerkfreigabe, in die Sie die Datei kopiert haben.)
+2.  Stellen Sie sicher, dass die Topologie-Konfigurationsdatei, die Sie mithilfe des Topologie-Generators erstellt und anschließend auf externe Medien exportiert und kopiert haben, im Edgeserver verfügbar ist (beispielsweise Zugriff auf das USB-Laufwerk, auf dem Sie die topologiedatei kopiert haben, oder überprüfen Sie den Zugriff auf die Netzwerkfreigabe, in der Sie die Datei kopiert haben).
 
 3.  Starten Sie den Bereitstellungs-Assistenten.
     

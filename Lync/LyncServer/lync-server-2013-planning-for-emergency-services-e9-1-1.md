@@ -12,20 +12,22 @@ ms:contentKeyID: 48183363
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c642fefb7fcaf17422bc292f3ed56516ede206bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e261716dcd7dd117b53420cf0c72ede8bb8c4621
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202091"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497702"
 ---
+# <a name="planning-for-emergency-services-e9-1-1-in-lync-server-2013"></a>Planung von Notrufdiensten (E9-1-1) in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-emergency-services-e9-1-1-in-lync-server-2013"></a>Planung von Notrufdiensten (E9-1-1) in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202091"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-17_
 
-Lync Server 2013 unterstützt Enhanced 9-1-1 (E9-1-1)-Dienste in den Vereinigten Staaten als Teil einer Enterprise-VoIP-Bereitstellung. E9-1-1 ist ein Notfall Versand Feature, das einen 9-1-1-Anruf mit einem Notfall Reaktions Standort (ERL) verknüpft, der aus bürgerlichen (also Straße)-Adressen und anderen spezifischen Standortinformationen wie Stock Nummern für Anrufe von Bürogebäuden besteht. und andere Multitenant-Einrichtungen. Mithilfe des bereitgestellten Erl kann ein öffentlicher Sicherheits-Anrufbeantworter (Rettungsleitstelle) sofort erste Responder an den Anrufer in Seenot senden, wobei das Risiko verringert ist, versehentlich den Responder an eine falsche oder nicht eindeutige Position zu leiten.
+Lync Server 2013 unterstützt Enhanced 9-1-1 (E9-1-1)-Dienste in den Vereinigten Staaten als Teil einer Enterprise-VoIP-Bereitstellung. Bei E9-1-1 handelt es sich um eine Notfall Versandfunktion, die einen 9-1-1-Anruf mit einem Notfall Reaktions Standort (ERL) verknüpft, der aus bürgerlichen (also Straße)-Adressen und anderen spezifischen Standortinformationen wie Stock Nummern für Anrufe von Bürogebäuden und anderen Multitenant-Einrichtungen besteht. Mithilfe des bereitgestellten Erl kann ein öffentlicher Sicherheits-Anrufbeantworter (Rettungsleitstelle) sofort erste Responder an den Anrufer in Seenot senden, wobei das Risiko verringert ist, versehentlich den Responder an eine falsche oder nicht eindeutige Position zu leiten.
 
 <div>
 

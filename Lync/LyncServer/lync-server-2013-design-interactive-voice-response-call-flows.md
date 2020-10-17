@@ -12,20 +12,22 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78032a23fce6bb210ecec6eb828178aabddf9b52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 649d085253610002e7623872012a400ac0a1f079
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498942"
 ---
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Entwerfen von interaktiven Anrufflüssen für Sprachantworten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Entwerfen von interaktiven Anrufflüssen für Sprachantworten in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Die IVR-Fragen und die Antworten des Anrufers werden dem antwortenden Agent zur 
 
 ## <a name="working-with-speech-technologies"></a>Arbeiten mit Sprachtechnologien
 
-Sprachtechnologien wie Spracherkennung und Text-zu-Sprache können die Benutzerfreundlichkeit verbessern und den Zugriff auf Informationen auf natürliche und effektive Weise ermöglichen. Es kann jedoch vorkommen, dass der angegebene Text oder die Benutzer Sprachantwort vom Sprachmodul nicht ordnungsgemäß erkannt wird. Beispielsweise wird das Symbol\#"" vom Text-zu-Sprache-Modul als Wort "Number" übersetzt. Dieses Problem kann durch folgende Maßnahmen gemindert werden:
+Sprachtechnologien wie Spracherkennung und Text-zu-Sprache können die Benutzerfreundlichkeit verbessern und den Zugriff auf Informationen auf natürliche und effektive Weise ermöglichen. Es kann jedoch vorkommen, dass der angegebene Text oder die Benutzer Sprachantwort vom Sprachmodul nicht ordnungsgemäß erkannt wird. Beispielsweise \# wird das Symbol "" vom Text-zu-Sprache-Modul als Wort "Number" übersetzt. Dieses Problem kann durch folgende Maßnahmen gemindert werden:
 
   - Das Sprachmodul gibt dem Anrufer fünf Versuche, die Frage zu beantworten. Wenn der Anrufer die Frage falsch beantwortet (das heißt, dass die Antwort nicht eine der angegebenen Antworten ist) oder überhaupt keine Antwort gibt, erhält der Anrufer eine weitere Chance, die Frage zu beantworten. Der Anrufer hat fünf Versuche, die Frage zu beantworten, bevor er getrennt wird. Sie können die IVR so konfigurieren, dass eine benutzerdefinierte Nachricht nach jedem Fehler des Anrufers wiedergegeben wird. Die Frage wird jedes Mal wiederholt.
 
@@ -73,7 +75,7 @@ Sprachtechnologien wie Spracherkennung und Text-zu-Sprache können die Benutzerf
 
   - Wenn Ihre Fragen sowohl sprach-als auch DTMF-Antworten haben, konfigurieren Sie die Sprachantworten mit Wörtern, die das Konzept anstelle der DTMF-Antwort darstellen. Verwenden Sie beispielsweise anstelle von "drücken oder sagen Sie eine" Verwendung "1 drücken oder sagen Sie Abrechnung."
 
-  - Nachdem Sie Ihre IVR entworfen haben, rufen Sie den Workflow auf, hören Sie die Eingabeaufforderungen an, reagieren Sie auf alle Eingabeaufforderungen mit Voice, und überprüfen Sie, dass die IVR wie erwartet klingt und sich verhält. Anschließend können Sie die IVR so ändern, dass etwaige Interpretationsprobleme behoben werden. Wenn Sie sich im vorherigen Beispiel auf den \# Schlüssel berufen müssen, können Sie Ihre IVR-Ansage umschreiben, um anstelle des \# Symbols den Schlüsselnamen zu verwenden. Wenn Sie beispielsweise "mit Vertrieb sprechen möchten, drücken Sie die Taste Pound".
+  - Nachdem Sie Ihre IVR entworfen haben, rufen Sie den Workflow auf, hören Sie die Eingabeaufforderungen an, reagieren Sie auf alle Eingabeaufforderungen mit Voice, und überprüfen Sie, dass die IVR wie erwartet klingt und sich verhält. Anschließend können Sie die IVR so ändern, dass etwaige Interpretationsprobleme behoben werden. Wenn Sie sich im vorherigen Beispiel auf den Schlüssel berufen müssen \# , können Sie Ihre IVR-Ansage umschreiben, um anstelle des Symbols den Schlüsselnamen zu verwenden \# . Wenn Sie beispielsweise "mit Vertrieb sprechen möchten, drücken Sie die Taste Pound".
 
 </div>
 

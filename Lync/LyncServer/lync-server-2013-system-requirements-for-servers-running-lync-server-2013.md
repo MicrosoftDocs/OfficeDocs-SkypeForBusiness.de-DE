@@ -12,12 +12,12 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0affd2d951d437a930bc7f210e0878e2978f8731
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 2d25be2132fdaba58024ba58081656b830ea9fe4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497332"
 ---
 # <a name="system-requirements-for-servers-running-lync-server-2013"></a>System Anforderungen für Server mit lync Server 2013
 
@@ -84,7 +84,7 @@ Installieren Sie die Betriebssystemsoftware im Standard Edition-Server-oder Ente
 
 
 > [!NOTE]
-> Damit lync Server 2013 an Windows Server 2012 R2 arbeiten können, müssen Sie möglicherweise den Wert eines Registrierungsschlüssels in Windows Server ändern. Diese Änderung ist möglicherweise erforderlich, damit Zertifikate ordnungsgemäß funktionieren, und Clients können sich bei Survivable Branch Appliances registrieren. Weitere Informationen finden Sie unter <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>.
+> Damit lync Server 2013 an Windows Server 2012 R2 arbeiten können, müssen Sie möglicherweise den Wert eines Registrierungsschlüssels in Windows Server ändern. Diese Änderung ist möglicherweise erforderlich, damit Zertifikate ordnungsgemäß funktionieren, und Clients können sich bei Survivable Branch Appliances registrieren. Weitere Informationen finden Sie unter <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A> .
 
 
 
@@ -118,7 +118,7 @@ Für lync Server 2013 müssen Sie Windows PowerShell 3,0 auf jedem Computer inst
 
 
 > [!NOTE]
-> Unter Windows Server&nbsp;2008&nbsp;R2 mit SP1 kann Windows PowerShell Befehlszeilenschnittstelle 3,0 nicht vor der Installation von Microsoft .NET Framework 4.5 installiert werden.
+> Unter Windows Server &nbsp; 2008 &nbsp; R2 mit SP1 kann Windows PowerShell Befehlszeilenschnittstelle 3,0 nicht vor der Installation von Microsoft .NET Framework 4.5 installiert werden.
 
 
 
@@ -128,7 +128,7 @@ Für lync Server 2013 müssen Sie Windows PowerShell 3,0 auf jedem Computer inst
 
 <div>
 
-## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
+## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
 Wenn Sie Microsoft .NET Framework 4.5 auf Servern installieren, auf denen lync Server 2013 auf Windows Server 2012 oder Windows Server 2012 R2 ausgeführt wird, müssen Sie einen weiteren Schritt ausführen. Nachdem .NET Framework 4.5 installiert wurde, verwenden Sie Server-Manager, um die HTTP-Aktivierung zu installieren.
 

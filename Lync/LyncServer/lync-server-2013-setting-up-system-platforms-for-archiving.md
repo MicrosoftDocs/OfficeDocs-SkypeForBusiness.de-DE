@@ -12,20 +12,22 @@ ms:contentKeyID: 48183716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c87f8b0994cc6022cd68bd7e42bb37ae8cb84d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac0a0e39a65b32b42398aab832e7010573534807
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497552"
 ---
+# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>Einrichten von Systemplattformen für die Archivierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-system-platforms-for-archiving-in-lync-server-2013"></a>Einrichten von Systemplattformen für die Archivierung in lync Server 2013
+
 
 </div>
 
@@ -39,15 +41,15 @@ _**Letztes Änderungsstand des Themas:** 2012-10-09_
 
 Bevor Sie mit der Bereitstellung der Archivierung beginnen, müssen Sie das erforderliche Betriebssystem und alle anderen erforderlichen Softwarekomponenten auf Hardware installieren, die die Systemanforderungen erfüllt:
 
-  - **Lync Server 2013 Plattform**   lync Server 2013-Bereitstellungen verfügen nicht über Archivierungsserver. Stattdessen werden einheitliche Datenerfassungs-Agents auf Front-End-Servern und Standard Edition-Servern ausgeführt, um Daten für die Archivierung zu erfassen, sodass keine separate Systemplattform zum Hosten der Archivierung benötigt wird.
+  - **Lync Server 2013 Plattform**     Lync Server 2013-Bereitstellungen verfügen nicht über Archivierungsserver. Stattdessen werden einheitliche Datenerfassungs-Agents auf Front-End-Servern und Standard Edition-Servern ausgeführt, um Daten für die Archivierung zu erfassen, sodass keine separate Systemplattform zum Hosten der Archivierung benötigt wird.
 
-  - **Datenspeicherplattform**   in lync Server 2013 können Sie Daten mithilfe einer der folgenden Optionen speichern:
+  - **Datenspeicherplattform**     In lync Server 2013 können Sie Daten mithilfe einer der folgenden Optionen speichern:
     
-      - **Microsoft Exchange Integration**   Wenn Sie lync Server 2013 Archivierungsdaten mithilfe der Exchange 2013-Bereitstellung speichern möchten, statt oder zusätzlich zum Einrichten einer separaten Datenbank für die Speicherung von Archivierungsdaten, muss Ihre Exchange-Bereitstellung Exchange 2013 ausführen. Ausführliche Informationen zum Einrichten von Systemplattformen für Exchange 2013 finden Sie in der Exchange-Produktdokumentation.
+      - **Microsoft Exchange Integration**     Wenn Sie lync Server 2013 Archivierungsdaten mithilfe Ihrer Exchange 2013-Bereitstellung speichern möchten, statt oder zusätzlich zum Einrichten einer separaten Datenbank für die Speicherung von Archivierungsdaten, muss Ihre Exchange-Bereitstellung Exchange 2013 ausführen. Ausführliche Informationen zum Einrichten von Systemplattformen für Exchange 2013 finden Sie in der Exchange-Produktdokumentation.
     
-      - **SQL Server**   Wenn Sie eine separate SQL Server Datenbank für die Speicherung von Archivierungsdaten anstelle von oder zusätzlich zur Verwendung Microsoft Exchange Integration verwenden möchten, müssen Sie vor der Bereitstellung der Archivierung die Systemplattform für die Datenbank einrichten. Die spezifischen Anforderungen an die Systemplattform hängen davon ab, ob Sie Microsoft SQL Server 2008 R2 oder Microsoft SQL Server 2012 für den Archivierungsdatenbank verwenden. Ausführliche Informationen zum Einrichten von Systemplattformen für diese Datenbanken finden Sie in der Produktdokumentation zu Microsoft SQL Server 2008 R2 und Microsoft SQL Server 2012.
+      - **SQL Server**     Wenn Sie eine separate SQL Server Datenbank für die Speicherung von Archivierungsdaten anstelle von oder zusätzlich zur Verwendung Microsoft Exchange Integration verwenden möchten, müssen Sie die Systemplattform für die Datenbank vor der Bereitstellung der Archivierung einrichten. Die spezifischen Anforderungen an die Systemplattform hängen davon ab, ob Sie Microsoft SQL Server 2008 R2 oder Microsoft SQL Server 2012 für den Archivierungsdatenbank verwenden. Ausführliche Informationen zum Einrichten von Systemplattformen für diese Datenbanken finden Sie in der Produktdokumentation zu Microsoft SQL Server 2008 R2 und Microsoft SQL Server 2012.
 
-  - **Dateiserver Plattform**   lync Server 2013 speichert lync Server Archivierungsdateien an demselben Speicherort, den Sie für die Dateispeicherung angegeben haben, wenn Sie Ihre Front-End-Server oder Standard Edition-Server einrichten. Sie können keinen separaten Speicherort für die Archivierung von Dateispeicher angeben, daher ist für die Archivierung von Datei speichern keine separate Systemplattform erforderlich. Wenn Sie Microsoft Exchange Integration verwenden, werden Exchange 2013 die Dateien für archivierte lync-Kommunikation auf Exchange 2013 Servern für Benutzer gespeichert, die auf diesen Exchange-Servern verwaltet werden.
+  - **Dateiserver Plattform**     Lync Server 2013 speichert lync Server Archivierungsdateien an demselben Speicherort, den Sie für die Dateispeicherung angegeben haben, wenn Sie Ihre Front-End-Server oder Standard Edition-Server einrichten. Sie können keinen separaten Speicherort für die Archivierung von Dateispeicher angeben, daher ist für die Archivierung von Datei speichern keine separate Systemplattform erforderlich. Wenn Sie Microsoft Exchange Integration verwenden, werden Exchange 2013 die Dateien für archivierte lync-Kommunikation auf Exchange 2013 Servern für Benutzer gespeichert, die auf diesen Exchange-Servern verwaltet werden.
 
 </div>
 

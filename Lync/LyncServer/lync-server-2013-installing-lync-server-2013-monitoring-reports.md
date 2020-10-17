@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191668"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498542"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Installieren von Lync Server 2013-Überwachungsberichten
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>Installieren von Lync Server 2013-Überwachungsberichten
+
 
 </div>
 
@@ -83,7 +85,7 @@ Führen Sie folgende Schritte durch, um die Überwachungsberichte mithilfe des B
 
 3.  Stellen Sie im Assistenten für die Bereitstellung der Überwachungsberichte auf der Seite **Überwachungsdatenbank angeben** sicher, dass der vollqualifizierte Domänenname des als Host für Ihren Überwachungsspeicher fungierenden Computers in der Dropdownliste **Überwachungsdatenbank** angezeigt wird. (Sollten Sie über mehrere Überwachungsspeicher verfügen, müssen Sie den entsprechenden Server in der Dropdownliste auswählen.) Stellen Sie sicher, dass die richtige SQL-Serverinstanz im Feld **SQL Server Reporting Services-Instanz (SSRS)** angezeigt wird (z. B. **atl-sql-001.litwareinc.com/archinst**) und klicken Sie anschließend auf **Weiter**.
 
-4.  Geben Sie auf der Seite **Anmeldeinformationen angeben** im Feld **Benutzername** den Domänennamen und den Benutzernamen des Kontos ein, das beim Zugriff auf die Überwachungsberichte verwendet werden soll (beispielsweise **\\litwareinc kenmyer**). Wenn Sie dieses Format (Domänen\\Benutzername) nicht verwenden, wird ein Fehler auftreten.
+4.  Geben Sie auf der Seite **Anmeldeinformationen angeben** im Feld **Benutzername** den Domänennamen und den Benutzernamen des Kontos ein, das beim Zugriff auf die Überwachungsberichte verwendet werden soll (beispielsweise **litwareinc \\ kenmyer**). Wenn Sie dieses Format (Domänen \\ Benutzername) nicht verwenden, wird ein Fehler auftreten.
     
     Geben Sie das Kennwort in das Feld **Kennwort** ein, und klicken Sie auf **Weiter**. Beachten Sie, dass für dieses Konto keine besonderen Rechte erforderlich sind. Dem Konto werden automatisch die erforderlichen Anmelde-und Datenbankberechtigungen erteilt, wenn das Setup abgeschlossen ist.
 
@@ -91,7 +93,7 @@ Führen Sie folgende Schritte durch, um die Überwachungsberichte mithilfe des B
 
 6.  Klicken Sie auf der Seite **Befehle ausführen** auf **Fertig stellen**.
 
-Überwachungsberichte können auch über das lync Server-Verwaltungsshell installiert werden, indem Sie das Skript DeployReports. ps1 ausführen; Dieses Windows PowerShell Skript finden Sie auf der lync Server Installationsmedien im Ordner \\Setup\\ReportingSetup. Um die Überwachungsdienste mithilfe von "DeployReports.ps1" zu installieren, geben Sie einen ähnlichen Befehl wie den folgenden an der Verwaltungsshell-Eingabeaufforderung ein:
+Überwachungsberichte können auch über die lync Server-Verwaltungsshell installiert werden, indem Sie das Skript DeployReports.ps1 ausführen; Dieses Windows PowerShell Skript finden Sie auf der lync Server Installationsmedien im \\ \\ Ordner Setup ReportingSetup. Um die Überwachungsdienste mithilfe von "DeployReports.ps1" zu installieren, geben Sie einen ähnlichen Befehl wie den folgenden an der Verwaltungsshell-Eingabeaufforderung ein:
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -146,7 +148,7 @@ Die im vorstehenden Befehl verwendeten Parameter werden in der folgenden Tabelle
 </table>
 
 
-Nachdem die Überwachungsberichte installiert wurden, müssen Sie das Cmdlet "csreportingconfiguration" "verwenden, um die URL zu konfigurieren, die für den Zugriff auf diese Berichte verwendet wird. Diese Aufgabe kann aus dem lync Server-Verwaltungsshell ausgeführt werden, indem Sie den folgenden Windows PowerShell-Befehl ausführen. Beachten Sie, dass es empfohlen wird, aber nicht erforderlich ist, dass Sie beim Konfigurieren der Berichts-URL das HTTPS-Protokoll verwenden:
+Nachdem die Überwachungsberichte installiert wurden, müssen Sie das Set-CsReportingConfiguration-Cmdlet verwenden, um die URL zu konfigurieren, die für den Zugriff auf diese Berichte verwendet wird. Diese Aufgabe kann aus dem lync Server-Verwaltungsshell ausgeführt werden, indem Sie den folgenden Windows PowerShell-Befehl ausführen. Beachten Sie, dass es empfohlen wird, aber nicht erforderlich ist, dass Sie beim Konfigurieren der Berichts-URL das HTTPS-Protokoll verwenden:
 
     Set-CsReportingConfiguration -Identity "MonitoringDatabase:atl-sql-001.litwareinc.com" -ReportingURL "https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST"
 
