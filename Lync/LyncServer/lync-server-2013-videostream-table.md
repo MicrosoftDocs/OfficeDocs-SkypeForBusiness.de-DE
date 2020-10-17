@@ -12,20 +12,22 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a313419ca4072fe4d1841ba66a9cb603671e6c56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef5c417ff391bb3ec5954cf12d00f6de3d2e6d9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211645"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518562"
 ---
+# <a name="videostream-table-in-lync-server-2013"></a>Videostream-Tabelle in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostream-table-in-lync-server-2013"></a>Videostream-Tabelle in lync Server 2013
+
 
 </div>
 
@@ -231,13 +233,13 @@ Jeder Datensatz stellt einen Videodatenstrom dar. Eine Video Medien Verbindung e
 <td><p>Prozentsatz der Anrufdauer mit BPSPI Frame Drop.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Eingehend</strong></p></td>
+<td><p><strong>Eingehende</strong></p></td>
 <td><p>Bit</p></td>
 <td><p> </p></td>
 <td><p>Datenstrom auf Empfängerseite wird empfangen.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ausgehend</strong></p></td>
+<td><p><strong>Ausgehende</strong></p></td>
 <td><p>Bit</p></td>
 <td><p> </p></td>
 <td><p>Datenstrom auf Absenderseite wird empfangen.</p></td>

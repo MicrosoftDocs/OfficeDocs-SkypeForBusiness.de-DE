@@ -12,20 +12,22 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61eb53c5c2f3cfe74087599535541cfb8286ab55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79af6165da1c8d5093912f36413ef98812226cbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518992"
 ---
+# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Testen von Messaging mithilfe von xmpp in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Testen von Messaging mithilfe von xmpp in lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Wenn Testbenutzer nicht definiert sind, tritt beim Ausführen des Befehls ein Fe
 
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com"
 
-Die im nächsten Beispiel gezeigten Befehle testen die Fähigkeit eines bestimmten Benutzers (litwareinc\\Pilar), sich anzumelden, um eine XMPP-Sofortnachricht an den Benutzer adelaney@contoso.com zu senden. Dazu wird im ersten Befehl des Beispiels das Cmdlet Get-Credential verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc\\Pilar als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur vom Administrator eingegeben werden, um das Kennwort für das Pilar Ackerman-Konto einzugeben.) Das resultierende Credential-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert.
+Die im nächsten Beispiel gezeigten Befehle testen die Fähigkeit eines bestimmten Benutzers (litwareinc \\ Pilar), sich anzumelden, um eine XMPP-Sofortnachricht an den Benutzer adelaney@contoso.com zu senden. Dazu wird im ersten Befehl des Beispiels das Get-Credential-Cmdlet verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc \\ Pilar als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur vom Administrator eingegeben werden, um das Kennwort für das Pilar Ackerman-Konto einzugeben.) Das resultierende Credential-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert.
 
 Der zweite Befehl prüft dann, ob sich dieser Benutzer am Pool ATL-CS-001.litwareinc.com anmelden und die XMPP-Sofortnachricht senden kann. Zum Ausführen dieser Aufgabe wird das Cmdlet **Test-csxmppim "** zusammen mit vier Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); Empfänger (die SIP-Adresse des Benutzers, an den die Nachricht adressiert wird); UserCredential (das Windows PowerShell-Objekt, das die Benutzeranmeldeinformationen von Pilar Ackerman enthält); und UserSipAddress (die SIP-Adresse, die den angegebenen Benutzeranmeldeinformationen entspricht).
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969644
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98c5f39a636eb300f19cd42131fc42d2480bbf14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e74a24818094d7de0edc4627f987464df048315f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194068"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519012"
 ---
+# <a name="testing-lync-server-services-in-lync-server-2013"></a>Testen von lync Server Diensten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-server-services-in-lync-server-2013"></a>Testen von lync Server Diensten in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsComputer verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsComputer-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsComputer&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Mit Test-CsComputer wird der Status aller auf dem lokalen Computer ausgeführten lync Server 2013 Dienste überprüft. (Test-CsComputer kann nur lokal ausgeführt werden, kann nicht von einer Remoteinstanz von Windows PowerShell ausgeführt werden.) Das Cmdlet prüft außerdem, ob die entsprechenden Firewall-Ports auf dem Computer geöffnet sind, und legt fest, ob die Active Directory Gruppen, die beim Installieren von lync Server 2013 erstellt wurden, zu den entsprechenden lokalen Gruppen hinzugefügt wurden. Beispielsweise prüft Test-CsComputer, ob die Active Directory Gruppe RTCUniversalUserAdmins der Gruppe Administratoren hinzugefügt wurde.
+Test-CsComputer überprüft den Status aller lync Server 2013 Dienste, die auf dem lokalen Computer aktiv sind. (Test-CsComputer kann nur lokal ausgeführt werden, kann nicht von einer Remoteinstanz von Windows PowerShell ausgeführt werden.) Das Cmdlet prüft außerdem, ob die entsprechenden Firewall-Ports auf dem Computer geöffnet sind, und legt fest, ob die Active Directory Gruppen, die beim Installieren von lync Server 2013 erstellt wurden, zu den entsprechenden lokalen Gruppen hinzugefügt wurden. Beispielsweise überprüfen Test-CsComputer, ob die Active Directory Gruppe RTCUniversalUserAdmins der Gruppe Administratoren hinzugefügt wurde.
 
 Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsComputer](https://docs.microsoft.com/powershell/module/skype/Test-CsComputer) .
 
@@ -76,9 +78,9 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsCo
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsComputer kann nur auf dem lokalen Computer ausgeführt werden, und Sie können Test-CsComputer nicht von einer Remoteinstanz von Windows PowerShell aus aufrufen. Standardmäßig zeigt Test-CsComputer sehr wenig Ausgabe auf dem Bildschirm an, stattdessen werden vom Cmdlet zurückgegebene Informationen in eine HTML-Datei geschrieben. Aus diesem Grund wird empfohlen, dass Sie den Verbose-Parameter und den Report-Parameter immer dann einbeziehen, wenn Sie Test-CsComputer ausführen. Der Verbose-Parameter stellt eine etwas detailliertere Ausgabe auf dem Bildschirm bereit, während das Cmdlet ausgeführt wird. Mit dem Parameter Report können Sie einen Dateipfad und einen Dateinamen für die von Test-CsComputer generierte HTML-Datei angeben. Wenn Sie den Parameter "Report" nicht angeben, wird die HTML-Datei automatisch im Ordner "Users" gespeichert und erhält einen ähnlichen Namen wie den folgenden: ce84964a-c4da-4622-AD34-c54ff3ed361f. html.
+Das Test-CsComputer-Cmdlet kann nur auf dem lokalen Computer ausgeführt werden, und Sie können Test-CsComputer nicht von einer Remoteinstanz von Windows PowerShell aus aufrufen. Standardmäßig zeigt Test-CsComputer nur sehr wenig Ausgabe auf dem Bildschirm an, stattdessen werden vom Cmdlet zurückgegebene Informationen in eine HTML-Datei geschrieben. Aus diesem Grund wird empfohlen, dass Sie den Verbose-Parameter und den Report-Parameter immer dann einbeziehen, wenn Sie Test-CsComputer ausführen. Der Verbose-Parameter stellt eine etwas detailliertere Ausgabe auf dem Bildschirm bereit, während das Cmdlet ausgeführt wird. Mit dem Parameter Report können Sie einen Dateipfad und einen Dateinamen für die von Test-CsComputer generierte HTML-Datei angeben. Wenn Sie den Parameter "Report" nicht angeben, wird die HTML-Datei automatisch im Ordner "Users" gespeichert und erhält einen ähnlichen Namen wie den folgenden: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
 
-Im folgenden Beispielbefehl wird Test-CsComputer ausgeführt, und die Ausgabe wird in einer Datei mit dem Namen\\C\\: Logs ComputerTest. html gespeichert:
+Der folgende Beispielbefehl führt Test-CsComputer aus und speichert die Ausgabe in einer Datei mit dem Namen C: \\ Logs \\ComputerTest.html:
 
     Test-CsComputer -Report "C:\Logs\ComputerTest.html" -Verbose
 
@@ -98,13 +100,13 @@ Aufgrund der Anzahl der Überprüfungs Prüfungen, die durchgeführt werden, mel
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsComputer möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsComputer Fehler auftreten können:
 
-  - Der Testcomputer ist möglicherweise nicht für die Verwendung mit lync Server aktiviert. Dies kann vorkommen, wenn sich die lync Server-Dienste oder-Server Rollen auf dem Computer geändert haben und das Cmdlet Enable-CsComputer nicht ausgeführt wurde. Führen Sie zum Beheben des Problems den folgenden Befehl aus:
+  - Der Testcomputer ist möglicherweise nicht für die Verwendung mit lync Server aktiviert. Dies kann vorkommen, wenn sich die lync Server-Dienste oder-Server Rollen auf dem Computer geändert haben und das Enable-CsComputer-Cmdlet nicht ausgeführt wurde. Führen Sie zum Beheben des Problems den folgenden Befehl aus:
     
         Enable-CsComputer
 
-  - Die Replikation ist auf dem Testcomputer möglicherweise nicht auf dem neuesten Stand. Sie können den aktuellen Replikationsstatus für einen Computer überprüfen, indem Sie das Cmdlet Get-CsManagementStoreReplicationStatus ausführen:
+  - Die Replikation ist auf dem Testcomputer möglicherweise nicht auf dem neuesten Stand. Sie können den aktuellen Replikationsstatus für einen Computer überprüfen, indem Sie das Get-CsManagementStoreReplicationStatus-Cmdlet ausführen:
     
         Get-CsManagementStoreReplicationStatus -ReplicaFqdn "atl-cs-001.litwareinc.com"
     

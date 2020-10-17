@@ -12,20 +12,22 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 490068a9c9eec3e582471d9ff228b9bbccad43bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 308bb50e5365cd45c993875ea503b33b32617397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194088"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519032"
 ---
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Testen der lync-Client Authentifizierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Testen der lync-Client Authentifizierung in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsClientAuth verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsClientAuth-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsClientAuth&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Mit dem Cmdlet Test-CsClientAuth können Sie bestimmen, ob sich ein Benutzer bei der lync Server mithilfe eines Clientzertifikats anmelden kann, indem Sie das Test-CsClientAuth-Cmdlet ausführen. Nach dem Aufruf von Test-CsClientAuth wird das Cmdlet mit dem Dienst für die Bereitstellung von Zertifikaten Kontakt aufnehmen und eine Kopie aller Clientzertifikate für den angegebenen Benutzer herunterladen. Wenn ein Clientzertifikat gefunden und heruntergeladen werden kann, versucht Test-CsClientAuth, sich mit diesem Zertifikat anzumelden. Wenn die Anmeldung erfolgreich ist, meldet sich Test-CsClientAuth ab und meldet, dass der Test erfolgreich war. Falls kein Zertifikat gefunden oder heruntergeladen werden kann oder wenn das Cmdlet sich mit dem Zertifikat nicht anmelden kann, meldet Test-CsClientAuth den Test als nicht erfolgreich.
+Mit dem Test-CsClientAuth-Cmdlet können Sie bestimmen, ob sich ein Benutzer bei der lync Server mithilfe eines Clientzertifikats anmelden kann, indem Sie das Test-CsClientAuth-Cmdlet ausführen. Nach dem Aufruf von Test-CsClientAuth wird das Cmdlet mit dem Dienst für die Bereitstellung von Zertifikaten Kontakt aufnehmen und eine Kopie aller Clientzertifikate für den angegebenen Benutzer herunterladen. Wenn ein Clientzertifikat gefunden und heruntergeladen werden kann, versucht Test-CsClientAuth, sich mit diesem Zertifikat anzumelden. Wenn die Anmeldung erfolgreich ist, melden sich Test-CsClientAuth ab und melden, dass der Test erfolgreich war. Falls kein Zertifikat gefunden oder heruntergeladen werden kann oder wenn das Cmdlet sich mit dem Zertifikat nicht anmelden kann, meldet Test-CsClientAuth den Test als nicht erfolgreich.
 
 </div>
 
@@ -74,7 +76,7 @@ Mit dem Cmdlet Test-CsClientAuth können Sie bestimmen, ob sich ein Benutzer bei
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsClientAuth wird mithilfe des Kontos eines beliebigen Benutzers ausgeführt, der für lync Server aktiviert ist. Um diese Prüfung mit einem tatsächlichen Benutzerkonto auszuführen, müssen Sie zuerst ein Windows PowerShell Credentials-Objekt erstellen, das den Kontonamen und das Kennwort enthält. Anschließend müssen Sie das Credentials-Objekt und die dem Konto zugewiesene SIP-Adresse hinzufügen, wenn das System Test-CsClientAuth aufruft:
+Das Test-CsClientAuth-Cmdlet wird mithilfe des Kontos eines beliebigen Benutzers ausgeführt, der für lync Server aktiviert ist. Um diese Prüfung mit einem tatsächlichen Benutzerkonto auszuführen, müssen Sie zuerst ein Windows PowerShell Credentials-Objekt erstellen, das den Kontonamen und das Kennwort enthält. Anschließend müssen Sie das Credentials-Objekt und die dem Konto zugewiesene SIP-Adresse hinzufügen, wenn das System Test-CsClientAuth aufruft:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -122,21 +124,21 @@ Wenn Test-CsClientAuth fehlschlägt, möchten Sie möglicherweise den Test erneu
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsClientAuth eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Zum Beispiel:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsClientAuth eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die Möglichkeit des angegebenen Benutzers geprüft wurde, sich bei lync Server anzumelden. Zum Beispiel:
 
 Versuch, ein CS-Zertifikat für den Benutzer herunterzuladen: kenmyer@litwareinc.com-Endpunkt: Step-up
 
-Webdienst-URL:https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
+Webdienst-URL: https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
 
 CS-Zertifikat konnte nicht aus dem Webdienst heruntergeladen werden.
 
 Kontroll
 
-\-Die Webdienst-URL ist gültig, und die Webdienste sind funktionsfähig.
+\- Die Webdienst-URL ist gültig, und die Webdienste sind funktionsfähig.
 
-\-Wenn Sie die\\\\PhoneNo-Pin zur Authentifizierung verwenden, stellen Sie sicher, dass Sie mit dem Benutzer-URI übereinstimmen.
+\-Wenn \\ \\ Sie die PhoneNo-Pin zur Authentifizierung verwenden, stellen Sie sicher, dass Sie mit dem Benutzer-URI übereinstimmen.
 
-\-Wenn Sie NTLM\\-Kerberos-Authentifizierung verwenden, stellen Sie sicher, dass Sie gültige Anmeldeinformationen angegeben haben
+\- Wenn Sie NTLM \\ -Kerberos-Authentifizierung verwenden, stellen Sie sicher, dass Sie gültige Anmeldeinformationen angegeben haben
 
 </div>
 
@@ -144,7 +146,7 @@ Kontroll
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsClientAuth möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsClientAuth Fehler auftreten können:
 
   - Sie haben ein ungültiges Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     

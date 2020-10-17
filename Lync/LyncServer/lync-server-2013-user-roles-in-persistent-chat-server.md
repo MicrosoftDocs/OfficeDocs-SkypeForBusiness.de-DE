@@ -12,20 +12,22 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7d01b15c035b3f14a0f2d6dba92719d7f885437
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c91fcb656d936d0fb469cdec4b01824d3fa97d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213011"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518852"
 ---
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Benutzerrollen auf dem Server für beständigen Chat in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Benutzerrollen auf dem Server für beständigen Chat in lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Im folgenden sind die vier Benutzerrollen für beständigen Chat Server:
     
     </div>
 
-  - **Mitglied:** Benutzer, die Mitglied eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis sehen (auch wenn der Chatroom geheim ist) sowie den Chatroom abonnieren (einschließlich der Metadaten-Optionen wie ungelesene Nachrichten, Ego-Filter und Stichwortfilter) und am Chatroom teilnehmen (kann Posten, es sei denn, der Raum ist ein Hörsaal Raum, in dem nur Referenten Beiträge veröffentlichen, Inhalte abrufen und suchen können. Benutzer, die nicht Mitglied des Chatrooms sind, können nach dem Chatroom suchen, wenn Sie sich in der Liste zugelassene Mitglieder der Kategorie befinden, müssen jedoch den Zugriff auf diese Chatrooms anfordern, um auf Inhalte zuzugreifen. (Es gibt keinen Anforderungs Zugriff oder keine Genehmigungen, die in das System integriert sind; diese werden extern per e-Mail, Telefon oder anderen Kontaktformen ausgeführt.)
+  - **Mitglied:** Benutzer, die Mitglied eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis sehen (auch wenn der Chatroom geheim ist) sowie den Chatroom abonnieren (einschließlich der Metadaten-Optionen wie ungelesene Nachrichten, Ego-Filter und Stichwortfilter) und am Chatroom teilnehmen (kann Beitrag, es sei denn, der Raum ist ein hörsaalraum, in dem nur Referenten Beiträge veröffentlichen, Inhalte abrufen und suchen können). Benutzer, die nicht Mitglied des Chatrooms sind, können nach dem Chatroom suchen, wenn Sie sich in der Liste zugelassene Mitglieder der Kategorie befinden, müssen jedoch den Zugriff auf diese Chatrooms anfordern, um auf Inhalte zuzugreifen. (Es gibt keinen Anforderungs Zugriff oder keine Genehmigungen, die in das System integriert sind; diese werden extern per e-Mail, Telefon oder anderen Kontaktformen ausgeführt.)
 
   - **Referent:** Benutzer, die in einem Auditorium-Raum Posten können.
 
@@ -93,9 +95,9 @@ Im folgenden sind die vier Benutzerrollen für beständigen Chat Server:
 
 Die folgenden Rollen sind Administratorrollen für den Server für beständigen Chat:
 
-  - **Administrator für beständigen Chat ("cspersistentchatadministrator"):** Hierbei handelt es sich um eine neue rollenbasierte zugriffssteuerungsrolle (Role-Based Access Control, RBAC) zum Verwalten und Verwalten von Servern für beständigen Chat. Benutzer oder Sicherheitsgruppen, die als "cspersistentchatadministrator" festgelegt sind, können den Server für beständigen Chat verwalten, indem Sie Windows PowerShell-Cmdlets Remote verwenden (also von einem anderen Computer als dem Server für beständigen Chat). Der Server für beständigen Chat überprüft, ob der Administrator für beständigen Chat Mitglied der lokalen Gruppe RTC Local Administrator auf dem Server für beständigen Chat ist Front-End-Server.
+  - **Administrator für beständigen Chat ("cspersistentchatadministrator"):** Dies ist eine neue Rolle für die Role-Based Zugriffssteuerung, um den Server für beständigen Chat zu verwalten und zu verwalten. Benutzer oder Sicherheitsgruppen, die als "cspersistentchatadministrator" festgelegt sind, können den Server für beständigen Chat verwalten, indem Sie Windows PowerShell-Cmdlets Remote verwenden (also von einem anderen Computer als dem Server für beständigen Chat). Der Server für beständigen Chat überprüft, ob der Administrator für beständigen Chat Mitglied der lokalen Gruppe RTC Local Administrator auf dem Server für beständigen Chat ist Front-End-Server.
     
-    Die "cspersistentchatadministrator"-Rolle kann Chatrooms verwalten (alle Eigenschaften einschließlich Mitgliedschaft, Manager, Kategorien, Kennzeichen von Räumen als deaktiviert) sowie Chatroom-Kategorien erstellen und verwalten, die definieren, wer Chatrooms erstellen und auf Sie zugreifen kann. Administratoren können Chatrooms auch als deaktiviert kennzeichnen und Chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen der Ersteller oder zugelassenen Mitglieder. Administratoren können alle Arten von Chatrooms erstellen und sich selbst als Mitglied in Chatrooms hinzufügen. Administratoren können auch die Konfiguration beständiger Chats ändern und verwalten (Pooleigenschaften, globale Einstellungen und Kompatibilitäts Konfiguration), und Sie können auch die Migration von einer älteren Gruppen Chat Server-Bereitstellung zu beständiger Chat von lync Server 2013 planen und implementieren. Server.
+    Die "cspersistentchatadministrator"-Rolle kann Chatrooms verwalten (alle Eigenschaften einschließlich Mitgliedschaft, Manager, Kategorien, Kennzeichen von Räumen als deaktiviert) sowie Chatroom-Kategorien erstellen und verwalten, die definieren, wer Chatrooms erstellen und auf Sie zugreifen kann. Administratoren können Chatrooms auch als deaktiviert kennzeichnen und Chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen der Ersteller oder zugelassenen Mitglieder. Administratoren können alle Arten von Chatrooms erstellen und sich selbst als Mitglied in Chatrooms hinzufügen. Administratoren können auch die Konfiguration beständiger Chats ändern und verwalten (Pooleigenschaften, globale Einstellungen und Kompatibilitäts Konfiguration), und Sie können auch die Migration von einer älteren Gruppen Chat Server-Bereitstellung zu beständiger Chat von lync Server 2013 Server planen und implementieren.
 
   - **Lync-Administrator:** Gesamtunternehmens Administrator für lync Server 2013, die für die Bereitstellung zuständig sind.
 

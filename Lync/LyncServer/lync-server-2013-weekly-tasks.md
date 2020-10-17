@@ -12,20 +12,22 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a723c17e5c909ba0313b962cf97a508b17487309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210992"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518222"
 ---
+# <a name="weekly-tasks-in-lync-server-2013"></a>Wöchentliche Aufgaben in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="weekly-tasks-in-lync-server-2013"></a>Wöchentliche Aufgaben in lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Mit dem richtigen Netzwerkzugriff kann das Tool Ihre AD DS und Server untersuche
 
   - Generieren von Konfigurationsinformationen, die für eine spätere Überprüfung erfasst werden können
 
-Stellen Sie sicher, dass die RTCBPA. msi auf allen lync Server 2013 Servern installiert ist, und generieren Sie einen wöchentlichen Integritäts Prüfungsbericht. Notieren Sie sich die Ergebnisse und korrigieren Sie, falls erforderlich.
+Stellen Sie sicher, dass der RTCBPA.msi auf allen lync Server 2013 Servern installiert ist, und generieren Sie einen wöchentlichen Integritäts Prüfungsbericht. Notieren Sie sich die Ergebnisse und korrigieren Sie, falls erforderlich.
 
 </div>
 
@@ -211,11 +213,11 @@ Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank
 <ul>
 <li><p>Ein aktivierter Benutzer ist ein Benutzer, der mithilfe des Snap-Ins Active Directory Benutzer und Computer für lync Server 2013 aktiviert ist.</p></li>
 <li><p>Ein aktiver Benutzer ist ein Benutzer, der sich angemeldet oder registriert hat.</p></li>
-<li><p>Die zusammenfassenden Berichte bieten auch eine Reihe von statistischen Informationen über Kontakte. Diese Statistiken sind nur für die Auffüllung von Benutzern gültig, die sich mindestens einmal angemeldet haben und die mindestens einen Kontakt haben. Folglich wird normalerweise keine Mindestanzahl von Kontakten von 0 angezeigt. Wenn ein Benutzer über keine Kontakte verfügt (aber aktiv ist, in dem der Benutzer registriert ist), wird aufgrund dieses Verhaltens möglicherweise Folgendes &lt;angezeigt&gt; : Empty für einige Statistikfelder.</p></li>
+<li><p>Die zusammenfassenden Berichte bieten auch eine Reihe von statistischen Informationen über Kontakte. Diese Statistiken sind nur für die Auffüllung von Benutzern gültig, die sich mindestens einmal angemeldet haben und die mindestens einen Kontakt haben. Folglich wird normalerweise keine Mindestanzahl von Kontakten von 0 angezeigt. Wenn ein Benutzer über keine Kontakte verfügt (aber aktiv ist, in dem der Benutzer registriert ist), wird aufgrund dieses Verhaltens möglicherweise Folgendes angezeigt: &lt; Empty &gt; für einige Statistikfelder.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Berichte pro Benutzer</p></td>
+<td><p>Per-User Berichte</p></td>
 <td><p>Dbanalyze/v/Report: Datenträger [/SQLServer: Wert]</p>
 <p>Im Gegensatz zu den Zusammenfassungsberichten, die für eine Benutzer Auffüllung berechnet werden, handelt es sich um Berichte über einen bestimmten Benutzer.</p></td>
 </tr>

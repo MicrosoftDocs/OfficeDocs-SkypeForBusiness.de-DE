@@ -3,8 +3,8 @@ title: Sicherheitsleitfaden für Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: ''
 ms.date: 01/22/2018
+ms.reviewer: ''
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Security
 description: Sicherheitsleitfaden für Skype for Business Online <add description>
-ms.openlocfilehash: c10dc554cc1d07dbefb4fba84aed55ae14e9374e
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a430d2b6aa4f1992e8710c4a7105530b3dd9fc24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505192"
 ---
 # <a name="security-and-skype-for-business-online"></a>Sicherheit und Skype for Business Online
 
-Skype for Business Online (SfBO), im Rahmen der Microsoft 365-und Office 365-Dienste, befolgt alle bewährten Sicherheitsmethoden und-Verfahren wie die Sicherheit auf Dienstebene durch tief greifende, kundenspezifische Steuerelemente innerhalb des Diensts, Sicherheits Härtung und bewährte Methoden für den Betrieb. Ausführliche Informationen finden Sie im Microsoft Trust Center (https://microsoft.com/trustcenter).
+Skype for Business Online (SfBO), im Rahmen der Microsoft 365-und Office 365-Dienste, befolgt alle bewährten Sicherheitsmethoden und-Verfahren wie die Sicherheit auf Dienstebene durch tief greifende, kundenspezifische Steuerelemente innerhalb des Diensts, Sicherheits Härtung und bewährte Methoden für den Betrieb. Ausführliche Informationen finden Sie im Microsoft Trust Center ( https://microsoft.com/trustcenter) .
 
 ## <a name="trustworthy-by-design"></a>Vertrauenswürdiges Design
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -207,7 +207,7 @@ Client Zertifikate stellen eine alternative Möglichkeit für Benutzer dar, von 
 In SfBO können IT-Administratoren ihren Dienst über das Office 365-Administratorportal oder mithilfe der Mandanten-Remote-PowerShell (TRPS) verwalten. Mandantenadministratoren verwenden die moderne Authentifizierung, um sich bei TRPS zu authentifizieren.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Konfigurieren des Zugriffs auf SfBO an Ihrer Internetgrenze
-Damit SfBO ordnungsgemäß funktioniert (Benutzer können an Besprechungen teilnehmen usw.), müssen Kunden den Internetzugriff so konfigurieren, dass der ausgehende UDP-und TCP-Datenverkehr zu Diensten in der SfBO-Cloud zulässig ist. Weitere Informationen finden Sie hier:https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+Damit SfBO ordnungsgemäß funktioniert (Benutzer können an Besprechungen teilnehmen usw.), müssen Kunden den Internetzugriff so konfigurieren, dass der ausgehende UDP-und TCP-Datenverkehr zu Diensten in der SfBO-Cloud zulässig ist. Weitere Informationen finden Sie hier: https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 und TCP 443
 
@@ -254,16 +254,16 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 
 ### <a name="participant-roles"></a>Teilnehmerrollen
 Die Besprechungsteilnehmer gliedern sich in drei Gruppen mit jeweils eigenen Privilegien und Einschränkungen:
-- **Organizer** &nbsp; &nbsp;der Benutzer, der eine Besprechung erstellt, ob spontan oder durch planen. Ein Organisator muss ein authentifizierter Unternehmensbenutzer sein und alle Endbenutzer Aspekte einer Besprechung kontrollieren.
-- **Presenter** &nbsp;Referent &nbsp;ein Benutzer, der berechtigt ist, Informationen in einer Besprechung zu präsentieren, wobei alle Medien unterstützt werden. Ein Besprechungsorganisator ist definitionsgemäß auch Referent und bestimmt, wer sonst ein Referent sein kann. Ein Organisator kann diese Entscheidung treffen, wenn eine Besprechung geplant ist oder die Besprechung läuft.
-- &nbsp; &nbsp; **Teilnehmer** : ein Benutzer, der zur Teilnahme an einer Besprechung eingeladen wurde, aber nicht autorisiert ist, als Referent zu fungieren.
+- **Organizer** &nbsp; &nbsp; Der Benutzer, der eine Besprechung erstellt, ob spontan oder durch Terminierung. Ein Organisator muss ein authentifizierter Unternehmensbenutzer sein und alle Endbenutzer Aspekte einer Besprechung kontrollieren.
+- **Presenter** &nbsp; Referent &nbsp; Ein Benutzer, der die Berechtigung hat, Informationen in einer Besprechung zu präsentieren, wobei alle Medien unterstützt werden. Ein Besprechungsorganisator ist definitionsgemäß auch Referent und bestimmt, wer sonst ein Referent sein kann. Ein Organisator kann diese Entscheidung treffen, wenn eine Besprechung geplant ist oder die Besprechung läuft.
+- **Teilnehmer** &nbsp; &nbsp; Ein Benutzer, der zur Teilnahme an einer Besprechung eingeladen wurde, aber nicht autorisiert ist, als Referent zu fungieren.
 
 Ein Referent kann auch einen Teilnehmer während der Besprechung für die Rolle des Referenten befördern.
 
 ### <a name="participant-types"></a>Teilnehmertypen
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.  **Benutzer, die dem Mandanten** &nbsp; &nbsp;angehören diese Benutzer verfügen über eine Anmeldeinformationen in Azure Active Directory für den Mandanten.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+1.  **Benutzer, die dem Mandanten** &nbsp; &nbsp; angehören Diese Benutzer verfügen über eine Anmeldeinformationen in Azure Active Directory für den Mandanten.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
 2.  **Benutzer, die nicht zum Mandaten gehören**&nbsp;&nbsp;Diese Benutzer haben keine Anmeldeinformation im Azure Active Directory für den Mandanten.<br/>a. *Federated-Benutzer* – Föderationsbenutzer besitzen gültige Anmeldeinformationen für Federated-Partner und werden daher von SfBO als authentifiziert behandelt. Föderationsbenutzer können an Konferenzen teilnehmen und zu Referenten heraufgestuft werden, nachdem Sie der Besprechung beigetreten sind, aber Sie können keine Konferenzen in Unternehmen erstellen, mit denen Sie verbunden sind.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
@@ -275,14 +275,14 @@ Standardmäßig gehen Teilnehmer, die sich aus dem PSTN einwählen, direkt zur B
 Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 - **Nur ich, der Organisator des Treffens**&nbsp;&nbsp;Jeder außer dem Organisator muss in der Lobby warten, bis er zugelassen wird.
 - **Personen, die ich aus meinem Unternehmen einlade**&nbsp;&nbsp;Jeder aus Ihrem Unternehmen kann direkt zur Besprechung kommen, auch wenn er nicht eingeladen ist.
-- **Alle Personen aus meiner Organisation**&nbsp;&nbsp;können alle SfBO-Benutzer im Microsoft 365-oder Office 365-Mandanten an der Besprechung teilnehmen, ohne in der Lobby warten zu müssen, selbst wenn Sie nicht in der Verteilerliste aufgeführt sind. Alle anderen Personen, einschließlich aller externen und anonymen Nutzer, müssen in der Lobby warten, bis Sie zugelassen sind.
-- **Anyone**&nbsp;Jeder&nbsp;Benutzer (es gibt keine Einschränkungen), der Zugriff auf den Besprechungslink hat, wird direkt an der Besprechung teilnehmen. Wenn eine Methode mit Ausnahme von Organizer (gesperrt) angegeben wird, kann der Besprechungsorganisator auch angeben, dass Personen, die sich per Telefon einwählen, die Lobby umgehen. 
+- **Personen aus meiner Organisation** &nbsp; &nbsp; Alle SfBO-Benutzer im Microsoft 365-oder Office 365-Mandanten können an der Besprechung teilnehmen, ohne in der Lobby warten zu müssen, selbst wenn Sie nicht in der Verteilerliste aufgeführt sind. Alle anderen Personen, einschließlich aller externen und anonymen Nutzer, müssen in der Lobby warten, bis Sie zugelassen sind.
+- **Alle Personen** &nbsp; &nbsp; Jeder (es gibt keine Einschränkungen), der auf den Besprechungslink zugreifen kann, erhält die Besprechung direkt. Wenn eine Methode mit Ausnahme von Organizer (gesperrt) angegeben wird, kann der Besprechungsorganisator auch angeben, dass Personen, die sich per Telefon einwählen, die Lobby umgehen. 
 
 ### <a name="presenter-capabilities"></a>Referentenfunktion
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
-- **Organisator nur**&nbsp;&nbsp;der Besprechungsorganisator kann anwesend sein.
-- **Personen aus meinem Unternehmen**&nbsp;&nbsp;, die alle internen Benutzer präsentieren können.
-- **Alle Personen, einschließlich Personen außerhalb meines Unternehmens**&nbsp;&nbsp;(es gibt keine Einschränkungen), die der Besprechung beitreten, können anwesend sein.
+- **Nur Organisator** &nbsp; &nbsp; Nur der Besprechungsorganisator kann anwesend sein.
+- **Personen aus meinem Unternehmen** &nbsp; &nbsp; Alle internen Benutzer können vorhanden sein.
+- **Alle Personen, einschließlich Personen außerhalb meines Unternehmens** &nbsp; &nbsp; Jeder (es gibt keine Einschränkungen), der an der Besprechung teilnimmt, kann anwesend sein.
 - **Personen, die ich wähle**&nbsp;&nbsp;Der Organisator der Besprechung legt fest, welche Benutzer präsentieren können, indem er sie einer Liste von Referenten hinzufügt.
 
 ## <a name="related-topics"></a>Verwandte Themen

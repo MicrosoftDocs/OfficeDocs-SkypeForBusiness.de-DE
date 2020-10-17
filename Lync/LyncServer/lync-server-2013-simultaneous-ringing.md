@@ -12,20 +12,22 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da250e04b3547e7ce6f00a73028ac3fcd083c30d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 358a0dd6dab96b67b26c211c9f28dbc6c0842804
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519792"
 ---
+# <a name="simultaneous-ringing-in-lync-server-2013"></a>Gleichzeitiges Klingeln in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="simultaneous-ringing-in-lync-server-2013"></a>Gleichzeitiges Klingeln in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200348"
 
 _**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Wenn für den angerufenen das gleichzeitige Klingeln aktiviert ist, analysiert das standortbasierte Routing den Standort des anrufenden Teilnehmers und die Endpunkte der angerufenen Parteien, um zu bestimmen, ob der Anruf weitergeleitet werden soll.
+Wenn für den angerufenen das gleichzeitige Klingeln aktiviert ist, analysiert Location-Based Routing den Standort des anrufenden Teilnehmers und die Endpunkte der angerufenen Parteien, um zu bestimmen, ob der Anruf weitergeleitet werden soll.
 
 Die folgende Tabelle zeigt einen Benutzer, der mit gleichzeitigem Klingeln konfiguriert ist, und das gleichzeitige Klingeln-Ziel ist ein Benutzer am gleichen Netzwerkstandort, an einem anderen Netzwerkstandort oder an einem unbekannten Netzwerkstandort.
 
@@ -54,7 +56,7 @@ Die folgende Tabelle zeigt einen Benutzer, der mit gleichzeitigem Klingeln konfi
 <th>Eingehender PSTN-Anruf für</th>
 <th>Befindet sich am gleichen Netzwerkstandort wie der angerufene</th>
 <th>Befindet sich an einem anderen Netzwerkstandort als der angerufene</th>
-<th>Befindet sich an einem unbekannten Netzwerkstandort oder ist für standortbasiertes Routing nicht aktiviert</th>
+<th>Befindet sich an einem unbekannten Netzwerkstandort oder ist für Location-Based Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
@@ -68,7 +70,7 @@ Die folgende Tabelle zeigt einen Benutzer, der mit gleichzeitigem Klingeln konfi
 </table>
 
   
-Die folgende Tabelle zeigt einen Aufruf von einem lync-Benutzer (dh lync-Anrufer) am gleichen Netzwerkstandort, an einem anderen Netzwerkstandort oder an einem unbekannten Netzwerkstandort. Der angerufene verfügt über einen PSTN-Endpunkt (also ein Mobiltelefon), der als gleichzeitiger Ring-Zielwert konfiguriert ist. In diesem Szenario wird durch das standortbasierte Routing ermittelt, ob der Anruf an das Ziel für das gleichzeitige Klingeln (also das Mobiltelefon) des angerufenen weitergeleitet werden soll.
+Die folgende Tabelle zeigt einen Aufruf von einem lync-Benutzer (dh lync-Anrufer) am gleichen Netzwerkstandort, an einem anderen Netzwerkstandort oder an einem unbekannten Netzwerkstandort. Der angerufene verfügt über einen PSTN-Endpunkt (also ein Mobiltelefon), der als gleichzeitiger Ring-Zielwert konfiguriert ist. In diesem Szenario wird Location-Based Routing feststellen, ob der Anruf an das Ziel für das gleichzeitige Klingeln (also das Mobiltelefon) des angerufenen weitergeleitet werden soll.
 
 
 <table>
@@ -83,7 +85,7 @@ Die folgende Tabelle zeigt einen Aufruf von einem lync-Benutzer (dh lync-Anrufer
 <th>Gleichzeitiges Klingel Ziel</th>
 <th>Befindet sich am gleichen Netzwerkstandort wie der angerufene</th>
 <th>Befindet sich an einem anderen Netzwerkstandort als der angerufene</th>
-<th>Befindet sich an einem unbekannten Netzwerkstandort oder ist für standortbasiertes Routing nicht aktiviert</th>
+<th>Befindet sich an einem unbekannten Netzwerkstandort oder ist für Location-Based Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +93,7 @@ Die folgende Tabelle zeigt einen Aufruf von einem lync-Benutzer (dh lync-Anrufer
 <td><p>PSTN-Endpunkt</p></td>
 <td><p>Gleichzeitiges Klingeln über die Website VoIP-Routing Richtlinie des Anrufers zulässig</p></td>
 <td><p>Gleichzeitiges Klingeln über die Website VoIP-Routing Richtlinie des Anrufers zulässig</p></td>
-<td><p>Gleichzeitiges Klingeln über die VoIP-Richtlinie des Anrufers in Trunks, die nicht für standortbasiertes Routing aktiviert sind</p></td>
+<td><p>Gleichzeitiges Klingeln über die VoIP-Richtlinie des Anrufers in Trunks, die für Location-Based Routing nicht aktiviert sind</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +104,7 @@ Die folgende Tabelle zeigt einen Aufruf von einem lync-Benutzer (dh lync-Anrufer
 ## <a name="see-also"></a>Siehe auch
 
 
-[Szenarien für das standortbasierte Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Szenarien für Location-Based Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

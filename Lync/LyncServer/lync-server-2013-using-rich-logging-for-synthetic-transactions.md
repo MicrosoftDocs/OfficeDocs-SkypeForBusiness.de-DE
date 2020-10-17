@@ -12,20 +12,22 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1fd1cfd26e1b5d56a6043e13d348e73e3c2b108
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1d73bfe085d34e536c5d3b44f1cacca8819de442
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518792"
 ---
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Verwenden der umfangreichen Protokollierung für synthetische Transaktionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Verwenden der umfangreichen Protokollierung für synthetische Transaktionen in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42212721"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Synthetische Transaktionen (in Microsoft lync Server 2010 eingeführt) bieten Administratoren die Möglichkeit zu überprüfen, ob Benutzer in der Lage sind, allgemeine Aufgaben wie das Anmelden am System, das Austauschen von Chatnachrichten oder das tätigen von Anrufen an ein Telefon erfolgreich abzuschließen. im Festnetz (Public Switched Telephone Network, PSTN). Diese Tests (die als eine Gruppe von lync Server Windows PowerShell-Cmdlets verpackt sind) können manuell von einem Administrator ausgeführt werden, oder Sie können von einer Anwendung wie System Center Operations Manager automatisch durchgeführt werden.
+Synthetische Transaktionen (in Microsoft lync Server 2010 eingeführt) bieten Administratoren die Möglichkeit, sicherzustellen, dass Benutzer allgemeine Aufgaben wie das Anmelden am System, das Austauschen von Chatnachrichten oder das Telefonieren von Anrufen im öffentlichen Telefonnetz (PSTN) erfolgreich ausführen können. Diese Tests (die als eine Gruppe von lync Server Windows PowerShell-Cmdlets verpackt sind) können manuell von einem Administrator ausgeführt werden, oder Sie können von einer Anwendung wie System Center Operations Manager automatisch durchgeführt werden.
 
 In lync Server 2010 erwiesen sich synthetische Transaktionen als äußerst hilfreich bei der Unterstützung von Administratoren bei der Identifizierung von Problemen mit dem System. Beispielsweise könnte das **Test-CsRegistration-** Cmdlet Administratoren darauf hinweisen, dass sich einige Benutzer bei der Registrierung bei lync Server Schwierigkeiten hatten. Die synthetischen Transaktionen waren jedoch etwas weniger hilfreich, um Administratoren bei der Entscheidung zu unterstützen, warum sich diese Benutzer bei der Registrierung bei lync Server Schwierigkeiten hatten. Dies liegt daran, dass die synthetischen Transaktionen keine detaillierten Protokollierungsinformationen bereitgestellt haben, die Administratoren bei der Behandlung von Problemen mit lync Server unterstützen könnten. Bestenfalls enthielt die ausführliche Ausgabe einer synthetischen Transaktion Schritt-für-Schritt-Informationen, anhand derer ein Administrator aufgrund seiner Erfahrung Vermutungen darüber anstellen konnte, wo wahrscheinlich ein Problem aufgetreten ist.
 
@@ -91,7 +93,7 @@ Diese Dateien können dann mit Internet Explorer, Visual Studio oder einer belie
 Synthetische Transaktionen, die von innerhalb von System Center Operations Manager ausgeführt werden, generieren diese Protokolldateien automatisch für Fehler. Diese Protokolle werden jedoch nicht generiert, wenn die Ausführung fehlschlägt, bevor Windows PowerShell die synthetische Transaktion laden und ausführen kann.
 
 > [!IMPORTANT]  
-> Standardmäßig speichert lync Server 2013 Protokolldateien in einem Ordner, der nicht freigegeben ist. Damit diese Protokolle leicht zugänglich sind, sollten Sie diesen Ordner freigeben (beispielsweise \\ \\ATL-Watcher-001. litwareinc. com\WatcherNode.
+> Standardmäßig speichert lync Server 2013 Protokolldateien in einem Ordner, der nicht freigegeben ist. Damit diese Protokolle leicht zugänglich sind, sollten Sie diesen Ordner freigeben (beispielsweise \\ \\ ATL-Watcher-001. litwareinc. com\WatcherNode.
 
 
 </div>

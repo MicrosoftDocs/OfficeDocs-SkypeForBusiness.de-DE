@@ -12,20 +12,22 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f31159a2d14facbdfed2f74f3567081699a7bde9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d9bbf5ea35b6b24180f7853fd3715ad95973051
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181838"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519652"
 ---
+# <a name="sip-trunking-support-in-lync-server-2013"></a>Unterstützung für SIP-Trunking in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-support-in-lync-server-2013"></a>Unterstützung für SIP-Trunking in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-10-03_
 
 Wenn Sie Enterprise-VoIP mit SIP-Trunking verwenden möchten, müssen Sie eine Vermittlungsserver bereitstellen und sicherstellen, dass andere Infrastrukturen und Komponenten die für Ihr Bereitstellungsmodell geeigneten Supportanforderungen erfüllen. Ausführliche Informationen zum ermitteln, ob SIP-Trunking implementiert werden soll, finden Sie unter [Overview of SIP Trunking in lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) in der Planungsdokumentation.
 
-Sie können das Microsoft Unified Communications Open Interoperability-Programm für die Enterprise-Telefonie-Infrastruktur verwenden, um qualifizierte PSTN-Gateways (Public Switched Telephone Network), IP-Nebenstellenanlagen und SIP-Trunking-Dienste, einschließlich qualifizierter IP-Telefonie, zu finden. Dienstanbieter. Ausführliche Informationen finden Sie auf [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)der Website Microsoft Unified Communications Open Interoperability Program unter.
+Sie können das Microsoft Unified Communications Open Interoperability-Programm für die Enterprise-Telefonie-Infrastruktur verwenden, um qualifizierte PSTN-Gateways (Public Switched Telephone Network), IP-Nebenstellenanlagen und SIP-Trunking-Dienste zu finden, einschließlich qualifizierter IP-Telefonie-Dienstanbieter. Ausführliche Informationen finden Sie auf der Website Microsoft Unified Communications Open Interoperability Program unter [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309) .
 
 <div>
 
@@ -95,7 +97,7 @@ Lync Server 2013 unterstützt die folgenden Verbindungstypen für das SIP-Trunki
 
   - Eine private Verbindung ohne anderen Datenverkehr ist im Allgemeinen die zuverlässigste und sicherste Form der Verbindung (beispielsweise eine geleaste Glasfaserleitung oder T1-Leitung). Dieser Verbindungstyp bietet die höchste Anrufkapazität, ist typischerweise jedoch auch die teuerste Variante. Ein VPN ist nicht erforderlich. Private Verbindungen sind geeignet für Organisationen mit hohem Anrufaufkommen oder strikten Sicherheits- und Verfügbarkeitsanforderungen.
 
-  - Das öffentliche Internet ist der günstigste Verbindungstyp, bietet jedoch auch die geringste Zuverlässigkeit und Anrufkapazität. Ihr Internet Telefonie-Dienstanbieter (ITSP) kann diesen SIP-Trunk-Verbindungstyp schützen, wenn er TLS (Transport Layer Security) und SRTP (Secure Real-Time Transport Protocol) unterstützt, um Signal-und Mediendatenverkehr zu verschlüsseln. Wenn Sie eine SIP-Trunkverbindung über das Internet nicht für die Verwendung von TLS und SRTP konfigurieren können, wird dringend empfohlen, einen VPN-Tunnel zu verwenden, um eine sicherere Verbindung zu gewährleisten. Erkundigen Sie sich bei Ihrem Dienstanbieter, ob er TLS mit SRTP unterstützt.
+  - Das öffentliche Internet ist der günstigste Verbindungstyp, bietet jedoch auch die geringste Zuverlässigkeit und Anrufkapazität. Ihr Internet Telefonie-Dienstanbieter (ITSP) kann diesen SIP-Trunk-Verbindungstyp schützen, wenn er TLS (Transport Layer Security) und SRTP (Secure Real-Time Transport Protocol) zur Verschlüsselung von Signal-und Mediendatenverkehr unterstützt. Wenn Sie eine SIP-Trunkverbindung über das Internet nicht für die Verwendung von TLS und SRTP konfigurieren können, wird dringend empfohlen, einen VPN-Tunnel zu verwenden, um eine sicherere Verbindung zu gewährleisten. Erkundigen Sie sich bei Ihrem Dienstanbieter, ob er TLS mit SRTP unterstützt.
 
 <div>
 

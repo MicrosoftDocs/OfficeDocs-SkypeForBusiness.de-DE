@@ -12,20 +12,22 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca51a3c597be40c679a7b131f87775876a63811d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c07fc83680fd6b1d3f4d0d24429165ff9cc5ca65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518612"
 ---
+# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Überprüfen oder Konfigurieren der Authentifizierung und Zertifizierung für virtuelle IIS-Verzeichnisse in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Überprüfen oder Konfigurieren der Authentifizierung und Zertifizierung für virtuelle IIS-Verzeichnisse in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Verwenden Sie das folgende Verfahren, um das Zertifikat in Ihren Internet Inform
 
 
 > [!NOTE]  
-> Im folgenden Verfahren wird eine Prozedur zum Anfordern eines kombinierten Zertifikats definiert, das für alle Zwecke lync Server, der internen Website und der externen Website in IIS verwendet wird. Lync Server 2010 eine Reihe von lync Server-Verwaltungsshell&nbsp;Windows PowerShell-Cmdlets zum Zweck der Verwaltung der Zertifikatanforderung, des Imports und der Zuweisung eingeführt. Bei dem Verfahren wird angenommen, dass eine intern bereitgestellte Zertifizierungsstelle existiert, die die Anfrage verarbeiten kann. Wenn Sie öffentliche Zertifikate für Ihre lync Server Zwecke verwenden oder Ihre Zertifizierungsstelle eine Offlineanforderung erfordert, finden Sie in der ausführlichen Syntax in diesem Thema Informationen zum Parameter – Output. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
+> Im folgenden Verfahren wird eine Prozedur zum Anfordern eines kombinierten Zertifikats definiert, das für alle Zwecke lync Server, der internen Website und der externen Website in IIS verwendet wird. Lync Server 2010 eine Reihe von lync Server-Verwaltungsshell &nbsp; Windows PowerShell-Cmdlets zum Zweck der Verwaltung der Zertifikatanforderung, des Imports und der Zuweisung eingeführt. Bei dem Verfahren wird angenommen, dass eine intern bereitgestellte Zertifizierungsstelle existiert, die die Anfrage verarbeiten kann. Wenn Sie öffentliche Zertifikate für Ihre lync Server Zwecke verwenden oder Ihre Zertifizierungsstelle eine Offlineanforderung erfordert, finden Sie in der ausführlichen Syntax in diesem Thema Informationen zum Parameter – Output. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
 
@@ -95,7 +97,7 @@ Verwenden Sie das folgende Verfahren, um das Zertifikat in Ihren Internet Inform
     
     </div>
     
-    ![Ausgabe von CERT-Anforderung mithilfe von Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Ausgabe von CERT-Anforderung mithilfe von Request-CsCertifica")
+    ![Ausgabe von CERT-Anforderung mithilfe von Request-CsCertifica](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Ausgabe von CERT-Anforderung mit Request-CsCertifica")
 
 7.  Geben Sie im lync Server-Verwaltungsshell Folgendes ein:
     
@@ -107,7 +109,7 @@ Verwenden Sie das folgende Verfahren, um das Zertifikat in Ihren Internet Inform
     
     Die Ausgabe vom Set-CsCertificate-Cmdlet zeigt an, dass dasselbe Zertifikat (identifiziert durch seinen Fingerabdruck) für die Verwendung mit Default, WebServicesExternal und WebServicesInternal zugewiesen ist.
     
-    ![Ausgabe von "CsCertificate" in IIS Webext](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Ausgabe von "CsCertificate" in IIS Webext")
+    ![Ausgabe von Set-CsCertificate auf IIS Webext](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Ausgabe von Set-CsCertificate auf IIS Webext")
 
 </div>
 

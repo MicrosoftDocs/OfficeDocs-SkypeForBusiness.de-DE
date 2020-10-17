@@ -12,20 +12,22 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8ea4abd3608863dea1bf914f5d89cc0ad43fae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518202"
 ---
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>Neuerungen für Clients in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>Neuerungen für Clients in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft lync 2013 verfügt über eine neu gestaltete Benutzeroberfläche und w
 
 
 > [!NOTE]  
-> Eine illustrierte Ansicht der lync 2013 Updates der Benutzeroberfläche finden Sie unter "What es New in lync 2013 <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A>" unter.
+> Eine illustrierte Ansicht der lync 2013 Updates der Benutzeroberfläche finden Sie unter "What es New in lync 2013" unter <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A> .
 
 
 
@@ -81,7 +83,7 @@ Ausführliche Informationen finden Sie unter [Deploying lync Clients in lync Ser
 
 ## <a name="group-policy-deployment"></a>Bereitstellung von Gruppenrichtlinien
 
-Da lync 2013 jetzt in Office Setup enthalten ist, wurde die Methode zum Bereitstellen von lync-Gruppenrichtlinieneinstellungen geändert. In früheren Versionen von lync und Office Communicator konnten Sie die Communicator. adm zum Definieren von Gruppenrichtlinieneinstellungen verwenden, während Sie in lync 2013 jetzt die administrativen Vorlagen für lync ADMX und ADML verwenden können, die zusammen mit der Office-Gruppenrichtlinie bereitgestellt werden. Administrative Vorlagen.
+Da lync 2013 jetzt in Office Setup enthalten ist, wurde die Methode zum Bereitstellen von lync-Gruppenrichtlinieneinstellungen geändert. In früheren Versionen von lync und Office Communicator konnten Sie die Communicator. adm zum Definieren von Gruppenrichtlinieneinstellungen verwenden, während Sie in lync 2013 jetzt die administrativen Vorlagen für lync ADMX und ADML verwenden können, die zusammen mit den administrativen Vorlagen für Office-Gruppenrichtlinien bereitgestellt werden.
 
 Ausführliche Informationen finden Sie unter [Gruppenrichtlinieneinstellungen für lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md).
 

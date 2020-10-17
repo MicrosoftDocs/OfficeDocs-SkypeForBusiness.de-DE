@@ -12,20 +12,22 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f284332507d06bf9ef55abecc894b3047965472c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 83d5be38ecddad1f9388f5e2efb33994b49e4bfd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519212"
 ---
+# <a name="test-mobile-user-access-in-lync-server-2013"></a>Testen des Zugriffs auf mobile Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-user-access-in-lync-server-2013"></a>Testen des Zugriffs auf mobile Benutzer in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-07_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsMcxConference verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsMcxConference-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -72,7 +74,7 @@ Mit dem Mobilitätsdienst können Benutzer mobiler Geräte folgende Aufgaben aus
 
 2.  Speichern und Abrufen von Voicemail intern statt mit Ihrem drahtlosen Anbieter.
 
-3.  Nutzen Sie lync Server Funktionen wie "Anruf über Arbeit" und "Einwahlkonferenzen". Das Cmdlet Test-CsMcxConference bietet eine schnelle und einfache Möglichkeit, um zu überprüfen, ob Benutzer an lync Server Konferenzen teilnehmen können, indem Sie ein mobiles Gerät verwenden.
+3.  Nutzen Sie lync Server Funktionen wie "Anruf über Arbeit" und "Einwahlkonferenzen". Das Test-CsMcxConference-Cmdlet bietet eine schnelle und einfache Möglichkeit zu überprüfen, ob Benutzer an lync Server Konferenzen teilnehmen können, indem Sie ein mobiles Gerät verwenden.
 
 </div>
 
@@ -80,7 +82,7 @@ Mit dem Mobilitätsdienst können Benutzer mobiler Geräte folgende Aufgaben aus
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Um diese Prüfung auszuführen, müssen Sie drei Windows PowerShell Credential-Objekte (Objekte, die den Kontonamen und das Kennwort enthalten) für jedes Konto erstellen. Sie müssen dann diese Credentials-Objekte und die SIP-Adressen der beiden Konten einschließen, wenn Sie Test-CsMcxConference wie im folgenden Beispiel gezeigt aufrufen:
+Um diese Prüfung auszuführen, müssen Sie drei Windows PowerShell Credential-Objekte (Objekte, die den Kontonamen und das Kennwort enthalten) für jedes Konto erstellen. Sie müssen dann diese Credentials-Objekte und die SIP-Adressen der beiden Konten einschließen, wenn Sie Test-CsMcxConference aufrufen, wie im folgenden Beispiel gezeigt:
 
     $organizerCred = Get-Credential "litwareinc\kenmyer"
     $user1Cred = Get-Credential "litwareinc\packerman"
@@ -96,11 +98,11 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsMcxConference]
 
 ## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die Überprüfung erfolgreich ist, wird mit Test-CsMcxConference ein Testergebnis von Success gemeldet:
+Wenn die Überprüfung erfolgreich verläuft, meldet Test-CsMcxConference ein Testergebnis von Success:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Ziel-URI:http://atl-cs-001.litwareinc.com:443/mcx
+Ziel-URI: http://atl-cs-001.litwareinc.com:443/mcx
 
 Ergebnis: Success
 
@@ -110,17 +112,17 @@ Fehlermeldung:
 
 Diagnose
 
-Wenn die Überprüfung nicht erfolgreich ist, meldet CsMcxConference ein Testergebnis des Fehlers. Dieses Testergebnis wird in der Regel von einer detaillierten Fehlermeldung und Diagnose begleitet. Zum Beispiel:
+Wenn die Überprüfung nicht erfolgreich war Test-CsMcxConference meldet ein Testergebnis eines Fehlers. Dieses Testergebnis wird in der Regel von einer detaillierten Fehlermeldung und Diagnose begleitet. Zum Beispiel:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Ziel-URI:https://atl-cs-001.litwareinc.com:443/mcx
+Ziel-URI: https://atl-cs-001.litwareinc.com:443/mcx
 
 Ergebnis: Fehler
 
 Wartezeit: 00:00:00
 
-Fehlermeldung: Es wurde keine Antwort für den WebTICKET Dienst empfangen.
+Fehlermeldung: für Web-Ticket Dienst wurde keine Antwort empfangen.
 
 Innere Ausnahme: die HHTP-Anforderung ist mit dem Client nicht autorisiert
 
@@ -142,7 +144,7 @@ Content-Type: Text/HTML; charset = UTF-8.
 
 Server: Microsoft-IIS/8.5
 
-WWW-Authenticate: Negotiate, NTLM
+WWW-Authenticate: aushandeln, NTLM
 
 X-powered by: ASP.net
 
@@ -170,11 +172,11 @@ Wenn die Enabled-Eigenschaft nicht gleich true ist oder wenn der Befehl fehlschl
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-Nachdem Sie den Richtliniennamen kennen, verwenden Sie das Cmdlet Get-CsMobilityPolicy, um zu überprüfen, ob die betreffende Richtlinie (beispielsweise RedmondMobilityPolicy) die EnableMobility-Eigenschaft auf true festgelegt ist:
+Nachdem Sie den Richtliniennamen kennen, verwenden Sie das Get-CsMobilityPolicy-Cmdlet, um zu überprüfen, ob die fragliche Richtlinie (beispielsweise RedmondMobilityPolicy) die EnableMobility-Eigenschaft auf true festgelegt ist:
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-Wenn Sie beim Ausführen von Test-CsMcxConference eine Fehlermeldung "Authentifizierungsheader" erhalten, die häufig bedeutet, dass Sie kein gültiges Benutzerkonto angegeben haben, überprüfen Sie den Benutzernamen und das Kennwort, und testen Sie den Test erneut. Wenn Sie davon überzeugt sind, dass das Benutzerkonto gültig ist, verwenden Sie das Cmdlet Get-CsWebServiceConfiguration, und überprüfen Sie den Wert der UseWindowsAuth-Eigenschaft. Dadurch erfahren Sie, welche Authentifizierungsmethoden in Ihrer Organisation aktiviert sind.
+Wenn Sie eine Fehlermeldung "Authentifizierungsheader" erhalten, wenn Sie Test-CsMcxConference ausführen, die häufig bedeutet, dass Sie kein gültiges Benutzerkonto angegeben haben, überprüfen Sie den Benutzernamen und das Kennwort, und testen Sie den Test erneut. Wenn Sie davon überzeugt sind, dass das Benutzerkonto gültig ist, verwenden Sie das Get-CsWebServiceConfiguration-Cmdlet, und überprüfen Sie den Wert der UseWindowsAuth-Eigenschaft. Dadurch erfahren Sie, welche Authentifizierungsmethoden in Ihrer Organisation aktiviert sind.
 
 Weitere Tipps zur Problembehandlung für den Mobilitätsdienst finden Sie im Blogbeitrag [Troubleshooting External lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
 

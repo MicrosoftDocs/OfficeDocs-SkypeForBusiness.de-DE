@@ -12,20 +12,22 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5476d47d0aac550d048e35e617d6d342084ccd75
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e2db63b7f8c4d801c7e2e89da93593a5745c9c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194538"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519122"
 ---
+# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Testen der Telefonnummer für eine VoIP-Route in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Testen der Telefonnummer für eine VoIP-Route in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-05-20_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsVoiceRoute verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoiceRoute-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceRoute&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ Die Route kann keine der folgenden zwei Zahlen verarbeiten, von denen keine 10 Z
 
   - 12065551219
 
-Das Cmdlet Test-CsVoiceRoute überprüft, ob eine bestimmte VoIP-Route eine angegebene Telefonnummer weiterleiten kann.
+Das Test-CsVoiceRoute-Cmdlet überprüft, ob eine bestimmte VoIP-Route eine angegebene Telefonnummer weiterleiten kann.
 
 </div>
 
@@ -84,7 +86,7 @@ Das Cmdlet Test-CsVoiceRoute überprüft, ob eine bestimmte VoIP-Route eine ange
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Die Überprüfung der Fähigkeit einer VoIP-Route zum Weiterleiten einer bestimmten Telefonnummer ist ein zweistufiger Prozess. Zunächst müssen Sie das Cmdlet Get-CsVoiceRoute verwenden, um eine Instanz dieser VoIP-Route zurückzugeben, und anschließend müssen Sie das Test-CsVoiceRoute-Cmdlet verwenden, um zu überprüfen, ob diese Route die Zieltelefonnummer verarbeiten kann. Mit diesem Befehl wird beispielsweise überprüft, ob die RedmondVoiceRoute-VoIP-Route die Telefonnummer 2065551219 weiterleiten kann:
+Die Überprüfung der Fähigkeit einer VoIP-Route zum Weiterleiten einer bestimmten Telefonnummer ist ein zweistufiger Prozess. Zunächst müssen Sie das Get-CsVoiceRoute-Cmdlet verwenden, um eine Instanz dieser VoIP-Route zurückzugeben, und anschließend müssen Sie das Test-CsVoiceRoute-Cmdlet verwenden, um zu überprüfen, ob diese Route die Zieltelefonnummer verarbeiten kann. Mit diesem Befehl wird beispielsweise überprüft, ob die RedmondVoiceRoute-VoIP-Route die Telefonnummer 2065551219 weiterleiten kann:
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
@@ -106,13 +108,13 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Test-CsVoi
 
 ## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die VoIP-Route die Zieltelefonnummer weiterleiten kann, gibt das Cmdlet "Test-CsVoiceRoute" nur den Wert "true" zurück:
+Wenn die VoIP-Route die Zieltelefonnummer weiterleiten kann, gibt das Test-CsVoiceRoute-Cmdlet nur den Wert true zurück:
 
 MatchesPattern
 
 \--------------
 
-Wahr
+Richtig
 
 Das bedeutet, dass die Route Nummern ähnlich wie die Zielrufnummer verarbeiten kann. Wenn die VoIP-Route die Ziel Nummer nicht verarbeiten kann, gibt Test-CsVoiceRoute den Wert false zurück:
 
@@ -128,7 +130,7 @@ False
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Beim Testen von VoIP-Routen ist "Fehler" ein relativer Ausdruck. In diesem Fall bedeutet dies nicht, dass die Route irgendwie "kaputt" ist, sondern bedeutet nur, dass die Zielrufnummer nicht von der Route verarbeitet werden kann. Dies kann daran liegen, dass die VoIP-Route falsch konfiguriert wurde. Dies kann auch bedeuten, dass die Route nie mit diesem Muster Zahlen verarbeiten sollte. Wenn Sie beispielsweise keine Anrufe an andere Länder über eine bestimmte Route weiterleiten möchten, kann diese Route so konfiguriert werden, dass alle Telefonnummern abgelehnt werden, die eine Ländervorwahl enthalten. Wenn Test-CsVoiceRoute false zurückgibt, wenn Sie erwartet haben, dass true zurückgegeben wird, überprüfen Sie, ob Sie die Zielrufnummer richtig eingegeben haben. Wenn Sie dies getan haben, verwenden Sie einen Befehl wie den folgenden, um die für die Route konfigurierte NumberPattern anzuzeigen:
+Beim Testen von VoIP-Routen ist "Fehler" ein relativer Ausdruck. In diesem Fall bedeutet dies nicht, dass die Route irgendwie "kaputt" ist, sondern bedeutet nur, dass die Zielrufnummer nicht von der Route verarbeitet werden kann. Dies kann daran liegen, dass die VoIP-Route falsch konfiguriert wurde. Dies kann auch bedeuten, dass die Route nie mit diesem Muster Zahlen verarbeiten sollte. Wenn Sie beispielsweise keine Anrufe an andere Länder über eine bestimmte Route weiterleiten möchten, kann diese Route so konfiguriert werden, dass alle Telefonnummern abgelehnt werden, die eine Ländervorwahl enthalten. Wenn Test-CsVoiceRoute false zurückgibt, wenn Sie erwartet haben, dass true zurückgegeben wird, überprüfen Sie, ob Sie die Ziel Nummer richtig eingegeben haben. Wenn Sie dies getan haben, verwenden Sie einen Befehl wie den folgenden, um die für die Route konfigurierte NumberPattern anzuzeigen:
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Select-Object NumberPattern`
 

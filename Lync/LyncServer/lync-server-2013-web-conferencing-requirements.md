@@ -12,20 +12,22 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56a030329f9d69a3748b2b76179c7a783b13cb0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 404ce93e841bbbefd62498a1dbb3da664eb927ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518252"
 ---
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Webkonferenz Anforderungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Webkonferenz Anforderungen in lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Sie können die folgenden Einstellungen verwenden, um das Speichern von Inhalten
 
   - **MaxContentStorageMb**, die sich in [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)befindet, legt die maximale Menge an Dateispeicherplatz fest, die für die Speicherung von Inhalten während einer einzelnen Besprechung zulässig ist.
 
-**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein. Der Grenzwert für die Dateigrößen Uploads für lync Web App wird auf ungefähr 30 MB festgelegt und wird von der IIS-Datei\["\]Internet. config" gesteuert:/DataCollabWeb/int ext/Handler/Web.config. Um den Upload-Grenzwert für die Dateigröße für lync Web App `maxRequestLength` zu `maxAllowedContentLength` konfigurieren, aktualisieren Sie und in der Datei "config" wie unten dargestellt.
+**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein. Der Grenzwert für die Dateigrößen Uploads für lync Web App wird auf ungefähr 30 MB festgelegt und wird von der IIS-web.config Datei gesteuert:/DataCollabWeb/int \[ Ext \] /Handler/web.config. Um den Upload-Grenzwert für die Dateigröße für lync Web App zu konfigurieren, aktualisieren Sie `maxRequestLength` und `maxAllowedContentLength` in der web.config Datei, wie unten dargestellt.
 
     <system.web>
         <!-- 
@@ -105,7 +107,7 @@ Sie können die folgenden Einstellungen verwenden, um das Speichern von Inhalten
                     </requestFiltering>
                     </security>
 
-Sie müssen die Datei "Internet. config" für jede Front-End-Server aktualisieren.
+Sie müssen die web.config Datei für jeden Front-End-Server aktualisieren.
 
 </div>
 
@@ -113,7 +115,7 @@ Sie müssen die Datei "Internet. config" für jede Front-End-Server aktualisiere
 
 ## <a name="office-web-apps-server"></a>Office Web Apps-Server
 
-Um diese neuen Funktionen nutzen zu können, müssen Administratoren Office-webapps Server installieren und lync Server 2013 für die Kommunikation mit Office-webapps-Server konfigurieren. Diese Dokumentation enthält Informationen zum Konfigurieren von lync Server 2013 für die Verwendung mit Office-webapps Server. In dieser Dokumentation werden Informationen zur Installation von Office-webapps Server nicht bereitgestellt. Weitere Informationen zur Installation finden Sie auf <https://go.microsoft.com/fwlink/p/?linkid=257525>der Microsoft Office Web Apps-Bereitstellungswebsite unter. Dieser Leitfaden enthält alle erforderlichen Informationen für Office-webapps Server. Beachten Sie, dass Office webapps Server auf einem eigenständigen Computer installiert werden sollte, auf dem lync Server, SQL Server oder eine andere Server Anwendung nicht aktiv ist. (Auf diesem Computer darf keine Version von Office installiert sein.) Auf jedem Computer, auf dem Office-webapps-Server ausgeführt wird, muss auch ein bestimmter Softwaresatz installiert sein (einschließlich .NET Framework 4.5 und Windows PowerShell 3,0). Diese Anforderungen sowie Informationen zum Konfigurieren von Zertifikaten und Internet Information Services (IIS) werden ausführlich in der Microsoft Office Web Apps-Bereitstellungswebsite unter <https://go.microsoft.com/fwlink/p/?linkid=257525>beschrieben.
+Um diese neuen Funktionen nutzen zu können, müssen Administratoren Office-webapps Server installieren und lync Server 2013 für die Kommunikation mit Office-webapps-Server konfigurieren. Diese Dokumentation enthält Informationen zum Konfigurieren von lync Server 2013 für die Verwendung mit Office-webapps Server. In dieser Dokumentation werden Informationen zur Installation von Office-webapps Server nicht bereitgestellt. Weitere Informationen zur Installation finden Sie auf der Microsoft Office Web Apps-Bereitstellungswebsite unter <https://go.microsoft.com/fwlink/p/?linkid=257525> . Dieser Leitfaden enthält alle erforderlichen Informationen für Office-webapps Server. Beachten Sie, dass Office webapps Server auf einem eigenständigen Computer installiert werden sollte, auf dem lync Server, SQL Server oder eine andere Server Anwendung nicht aktiv ist. (Auf diesem Computer darf keine Version von Office installiert sein.) Auf jedem Computer, auf dem Office-webapps-Server ausgeführt wird, muss auch ein bestimmter Softwaresatz installiert sein (einschließlich .NET Framework 4.5 und Windows PowerShell 3,0). Diese Anforderungen sowie Informationen zum Konfigurieren von Zertifikaten und Internet Information Services (IIS) werden ausführlich in der Microsoft Office Web Apps-Bereitstellungswebsite unter beschrieben <https://go.microsoft.com/fwlink/p/?linkid=257525> .
 
 </div>
 

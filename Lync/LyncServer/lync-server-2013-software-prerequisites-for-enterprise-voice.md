@@ -12,20 +12,22 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4b0b2e2708abbf3b92223474ec0804c1d11ac8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b504c498b2f07915f741e6c3172e911c7d40dae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519622"
 ---
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Software Voraussetzungen für Enterprise-VoIP in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Software Voraussetzungen für Enterprise-VoIP in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Stellen Sie sicher, dass die zur Bereitstellung von Enterprise-VoIP vorgesehene 
 
   - Alle Edgeserver werden in Ihrem Umkreisnetzwerk bereitgestellt und in Betrieb genommen, einschließlich Edgeserver mit Zugriffs-Edgedienst, A/V-Edgedienst, Webkonferenz-Edgedienst und einem Reverseproxy.
 
-  - Für die Integration von Exchange Unified Messaging mit lync Server ist entweder Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 oder Microsoft Exchange Server 2013 erforderlich, und Sie erhalten umfangreiche Benachrichtigungen und Anrufprotokoll Informationen für Lync-Endpunkte.
+  - Entweder Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 oder Microsoft Exchange Server 2013 ist für die Integration von Exchange Unified Messaging mit lync Server erforderlich, und es müssen umfangreiche Benachrichtigungen und Anrufprotokoll Informationen für die lync-Endpunkte bereitgestellt werden.
 
   - Mindestens ein Benutzer wurde für lync Server erstellt und aktiviert.
 

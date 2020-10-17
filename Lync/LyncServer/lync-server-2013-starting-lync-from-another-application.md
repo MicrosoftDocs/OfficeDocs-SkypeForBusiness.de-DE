@@ -12,20 +12,22 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40e049b2a8a88514b9236ee0172474a5252bfdb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d10e70615083796baa0934c6291b377dcd18005
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208311"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519512"
 ---
+# <a name="starting-lync-from-another-application"></a>Starten von lync aus einer anderen Anwendung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a>Starten von lync aus einer anderen Anwendung
+
 
 </div>
 
@@ -45,7 +47,7 @@ Wenn lync 2013 für die automatische Anmeldung beim Start konfiguriert ist, wird
 
 Die folgende Tabelle zeigt die verfügbaren Parameter.
 
-### <a name="lync-2013-command-line-parameters"></a>Lync 2013 Befehlszeilenparameter
+### <a name="lync-2013-command-line-parameters"></a>Lync 2013 Command-Line Parameter
 
 <table>
 <colgroup>
@@ -89,7 +91,7 @@ Die folgende Tabelle zeigt die verfügbaren Parameter.
 <tr class="even">
 <td><p>Chat</p></td>
 <td><p>SIP-URI</p></td>
-<td><p>Zeigt ein Fenster "Unterhaltung" mit dem SIP-URI an, in dem ausschließlich Sofortnachrichten gesendet werden können. Akzeptiert mehrere SIP-URIs, die innerhalb von&lt;&gt;spitzen Klammern () ohne Trennzeichen angegeben werden.</p>
+<td><p>Zeigt ein Fenster "Unterhaltung" mit dem SIP-URI an, in dem ausschließlich Sofortnachrichten gesendet werden können. Akzeptiert mehrere SIP-URIs, die innerhalb von spitzen Klammern ( &lt; &gt; ) ohne Trennzeichen angegeben werden.</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
@@ -107,7 +109,7 @@ In der folgenden Tabelle sind Beispiele für diese Befehlszeilenparameter aufgef
 </colgroup>
 <thead>
 <tr class="header">
-<th>Instanz</th>
+<th>Instance</th>
 <th>Ergebnisse</th>
 </tr>
 </thead>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0001d70033aac6d7c6125bb9e4016143beefc80f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51dbff3748f342bd630c33fc867a4249b386c00c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518822"
 ---
+# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Verwenden von Microsoft SQL Server 2008 R2 als System Center Operations Manager-Datenbank für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Verwenden von Microsoft SQL Server 2008 R2 als System Center Operations Manager-Datenbank für lync Server 2013
+
 
 </div>
 
@@ -47,15 +49,15 @@ Bevor Sie mit der Installation von System Center Operations Manager beginnen, m�
 
 1.  Klicken Sie auf **Start** und dann auf **Ausführen**.
 
-2.  Geben Sie im Dialogfeld **Ausführen** den **Text C\\: Programm\\Dateien\\ Microsoft SQL Server\_MSRS10 50.\\ARCHINST Reporting\\Services Report Server** ein, und drücken Sie dann die EINGABETASTE.
+2.  Geben Sie im Dialogfeld **Ausführen** den Text **C: \\ Programmdateien \\ Microsoft SQL Server \\ MSRS10 \_ 50. ARCHINST \\ Reporting Services \\ Report Server** ein, und drücken Sie dann die EINGABETASTE.
 
-3.  Öffnen Sie im Ordner **Report Server** die Datei **RSReportServer. config** im Editor oder in einem anderen Text-Editor.
+3.  Öffnen Sie im Ordner **Report Server** die Datei **rsreportserver.config** im Editor oder einem anderen Text-Editor.
 
-4.  In der Nähe des Datei Beginns wird eine Reihe von "Schlüssel hinzufügen"-Knoten angezeigt. Suchen Sie den Eintrag, der ** \<Hinzufügen von Key = "SecureConnectionLevel"** beginnt, und legen Sie den Wert auf **0**fest:
+4.  In der Nähe des Datei Beginns wird eine Reihe von "Schlüssel hinzufügen"-Knoten angezeigt. Suchen Sie den Eintrag, der ** \< Hinzufügen von Key = "SecureConnectionLevel"** beginnt, und legen Sie den Wert auf **0**fest:
     
         <Add Key="SecureConnectionLevel" Value="0"/>
 
-5.  Speichern Sie die Datei **RSReportServer. config** , und schließen Sie dann den Text-Editor.
+5.  Speichern Sie die Datei **rsreportserver.config** , und schließen Sie dann den Text-Editor.
 
 Nach dem Aktualisieren der Berichts Server-Konfigurationsdatei müssen Sie SQL Server Reporting Services das richtige Zertifikat zuweisen. Gehen Sie dazu wie folgt vor:
 
@@ -81,7 +83,7 @@ Wenn Sie System Center Operations Manager für die Verwendung einer SQL Server 2
 
 Führen Sie die folgenden Schritte aus, um eine Operations Manager-Datenbank manuell zu erstellen:
 
-1.  Doppelklicken Sie auf dem System Center Operations Manager 2007 R2-Setup Medium\\im Support Tools amd64-Ordner auf **DBCreateWizard. exe**.
+1.  Doppelklicken Sie auf dem System Center Operations Manager 2007 R2-Setup Medium im Support Tools \\ amd64-Ordner auf **DBCreateWizard.exe**.
 
 2.  Klicken Sie im Assistenten für die Datenbankkonfiguration auf der Seite **Willkommen beim Assistenten für die Datenbankkonfiguration** auf **weiter**.
 
@@ -101,15 +103,15 @@ Führen Sie die folgenden Schritte aus, um eine Operations Manager-Datenbank man
 
 Microsoft lync Server 2013 werden mit drei neuen System Center Operations Manager-Berichten ausgeliefert:
 
-  - **End-to-End-Szenario-Verfügbarkeitsbericht**   in diesem Bericht wird die Verfügbarkeit/Uptime für wichtige lync Server Dienste wie Registrierung oder Anwesenheit erläutert.
+  - Bericht zur Verfüg **barkeit von End-to-End-Szenarien**     In diesem Bericht wird die Verfügbarkeit/Uptime für wichtige lync Server Dienste wie Registrierung oder Anwesenheit erläutert.
 
-  - **Kapazitäts Bericht**   mit Leistungsindikatorinformationen zeigt dieser Bericht Trends für Systemkomponenten wie Arbeitsspeicher Verfügbarkeit und Prozessorauslastung.
+  - **Kapazitäts Bericht**     In diesem Bericht werden mithilfe von Leistungsindikatorinformationen Trends für Systemkomponenten wie Arbeitsspeicher Verfügbarkeit und Prozessorauslastung dargestellt.
 
-  - **Komponentenbericht**   in diesem Bericht werden die wichtigsten Warnungs Generatoren aufgelistet, die nach lync Server Komponente gruppiert sind.
+  - **Komponentenbericht**     In diesem Bericht werden die wichtigsten Warnungs Generatoren aufgelistet, die nach lync Server-Komponente gruppiert sind.
 
 Um diese neuen Berichte verwenden zu können, müssen Sie ein System Center Operations Manager-Data Warehouse installieren. (Ein Data Warehouse ermöglicht die langfristige Speicherung von Betriebsdaten.) Wenn Sie ein Data Warehouse mit SQL Server 2008 R2 verwenden möchten, müssen Sie die folgenden Schritte auf dem Computer ausführen, auf dem die SQL Server-Datenbank gehostet wird:
 
-1.  Doppelklicken Sie auf den System Center Operations Manager-Setupmedien\\im\\Ordner Setup Support Tools amd64 auf **DBCreateWizard. exe**.
+1.  Doppelklicken Sie auf dem System Center Operations Manager-Setup Medium \\ im \\ Ordner Setup Support Tools amd64 auf **DBCreateWizard.exe**.
 
 2.  Klicken Sie im Assistenten für die Datenbankkonfiguration auf der Seite **Willkommen beim Assistenten für die Datenbankkonfiguration** auf **weiter**.
 
@@ -127,7 +129,7 @@ Die Operations Manager-Konsole ist das primäre Tool, das zum Verwalten von Syst
 
 So installieren Sie die System Center Operations Manager-Konsole:
 
-1.  Doppelklicken Sie auf den System Center Operations Manager-Setupmedien auf **SetupOM. exe**.
+1.  Doppelklicken Sie auf dem System Center Operations Manager-Setup Medium auf **SetupOM.exe**.
 
 2.  Klicken Sie in System Center Operations Manager 2007 R2-Setup auf **Voraussetzungen überprüfen**.
 
@@ -171,15 +173,15 @@ Nachdem Sie die System Center Operations Manager-Konsole installiert und konfigu
 
 2.  Erweitern Sie im Server-Manager die Optionen **Konfiguration** und **Lokale Benutzer und Gruppen**, und klicken Sie dann auf **Gruppen**.
 
-3.  Suchen Sie die folgende Gruppe, wobei ATL-SC-001 den Namen Ihres Computers darstellt und ARCHINST die SQL Server Instanz für die System Center-Datenbank darstellt: **SQLServerReportServerUser $ ATL-SC-001 $\_MSRS10 50. ARCHINST**.
+3.  Suchen Sie die folgende Gruppe, wobei ATL-SC-001 den Namen Ihres Computers darstellt und ARCHINST die SQL Server Instanz für die System Center-Datenbank darstellt: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10 \_ 50. ARCHINST**.
 
-4.  Klicken Sie mit der rechten Maustaste auf die Gruppe, und klicken Sie dann auf **Umbenennen**. Benennen Sie die Gruppe um, indem Sie ** \_50** aus dem Gruppennamen löschen. Beispiel: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
+4.  Klicken Sie mit der rechten Maustaste auf die Gruppe, und klicken Sie dann auf **Umbenennen**. Benennen Sie die Gruppe um, indem Sie ** \_ 50** aus dem Gruppennamen löschen. Beispiel: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
 
 5.  Schließen Sie den Server-Manager.
 
 An diesem Punkt sind Sie für die Installation von System Center Reporting Services gerüstet. Gehen Sie hierfür folgendermaßen vor:
 
-1.  Doppelklicken Sie auf dem System Center Operations Manager 2007 R2-Setup Medien auf **SetupOM. exe**.
+1.  Doppelklicken Sie auf dem System Center Operations Manager 2007 R2-Setup Medium auf **SetupOM.exe**.
 
 2.  Klicken Sie in System Center Operations Manager 2007 R2-Setup auf **Operations Manager-Berichterstellung installieren**.
 
@@ -219,7 +221,7 @@ Nachdem Sie die System Center-Berichterstellung installiert haben, verwenden Sie
 
 3.  Suchen Sie die folgende Gruppe, wobei ATL-SC-001 den Namen Ihres Computers darstellt und ARCHINST die SQL Server Instanz für die Archivierungs-und Überwachungsdatenbanken darstellt: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
 
-4.  Klicken Sie mit der rechten Maustaste auf die Gruppe, und klicken Sie dann auf **Umbenennen**. Benennen Sie die Gruppe um, indem Sie ** \_50** an das Ende des Gruppennamens, direkt vor dem Namen der SQL Server Instanz, hinzufügen. Beispiel: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10\_50. ARCHINST**.
+4.  Klicken Sie mit der rechten Maustaste auf die Gruppe, und klicken Sie dann auf **Umbenennen**. Benennen Sie die Gruppe um, indem Sie ** \_ 50** an das Ende des Gruppennamens, direkt vor dem Namen der SQL Server Instanz, hinzufügen. Beispiel: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10 \_ 50. ARCHINST**.
 
 5.  Schließen Sie den Server-Manager.
 

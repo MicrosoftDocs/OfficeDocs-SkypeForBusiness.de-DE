@@ -12,20 +12,22 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d306c17f2c399d38e406d466664a49e3e2df6ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b054f3ea8a1054be1e920fbbacbfe2e88b157ba7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518762"
 ---
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Verwenden der Suche in den vom zentralisierten Protokollierungsdienst in lync Server 2013 erstellten Aufzeichnungs Protokollen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Verwenden der Suche in den vom zentralisierten Protokollierungsdienst in lync Server 2013 erstellten Aufzeichnungs Protokollen
+
 
 </div>
 
@@ -51,11 +53,11 @@ Nach jeder Suche wird das **Sync-CsClsLogging-** Cmdlet ausgeführt, und der von
 
 Um den größten Nutzen aus dem zentralisierten Protokollierungsdienst zu ziehen, benötigen Sie ein gutes Verständnis dafür, wie Sie die Suche so konfigurieren, dass nur Ablaufverfolgungsmeldungen vom Computer und Pool Protokolle zurückgegeben werden, die für das Problem relevant sind, das Sie durchsuchen. Probleme
 
-Zum Ausführen der Suchfunktionen für den zentralisierten Protokollierungsdienst mithilfe der lync Server-Verwaltungsshell müssen Sie Mitglied der rollenbasierten Sicherheitsgruppen für die CsAdministrator oder CsServerAdministrator oder eine benutzerdefinierte RBAC-Rolle sein, die Folgendes enthält: eine dieser beiden Gruppen. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus:
+Zum Ausführen der Suchfunktionen für den zentralisierten Protokollierungsdienst mithilfe der lync Server-Verwaltungsshell müssen Sie Mitglied der rollenbasierten Sicherheitsgruppen für die CsAdministrator oder der CsServerAdministrator oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-Zum Beispiel:
+Beispiel:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -75,12 +77,12 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
     
 
     > [!NOTE]
-    > Standardmäßig werden von "Search-CsClsLogging" die Ergebnisse der Suche an die Konsole gesendet. Wenn Sie die Suchergebnisse in einer Datei speichern möchten, verwenden Sie den voll &lt;qualifizierten Datei Pfad&gt;– OutputFilePath String. Um den Parameter "–OutputFilePath" zu definieren, geben Sie einen Pfad und einen Dateinamen als Teil des Parameters in Form einer Zeichenfolge zwischen Anführungszeichen ein, z. B. "C:\LogFiles\SearchOutput.txt". In diesen Beispiel müssen Sie sicherstellen, dass das Verzeichnis "C:\LogFiles" vorhanden ist und Sie über Lese- und Schreibberechtigungen  (NTFS-Berechtigungen) für Dateien in diesem Ordner verfügen. An die Ausgabe werden immer Daten angefügt, sie wird nicht überschrieben. Wenn Sie separate Dateien benötigen, geben Sie unterschiedliche Dateinamen für die einzelnen Suchvorgänge an.
+    > Standardmäßig werden von "Search-CsClsLogging" die Ergebnisse der Suche an die Konsole gesendet. Wenn Sie die Suchergebnisse in einer Datei speichern möchten, verwenden Sie den &lt; vollqualifizierten Datei Pfad – OutputFilePath &gt; String. Um den Parameter "–OutputFilePath" zu definieren, geben Sie einen Pfad und einen Dateinamen als Teil des Parameters in Form einer Zeichenfolge zwischen Anführungszeichen ein, z. B. "C:\LogFiles\SearchOutput.txt". In diesen Beispiel müssen Sie sicherstellen, dass das Verzeichnis "C:\LogFiles" vorhanden ist und Sie über Lese- und Schreibberechtigungen  (NTFS-Berechtigungen) für Dateien in diesem Ordner verfügen. An die Ausgabe werden immer Daten angefügt, sie wird nicht überschrieben. Wenn Sie separate Dateien benötigen, geben Sie unterschiedliche Dateinamen für die einzelnen Suchvorgänge an.
 
     
     </div>
     
-    Zum Beispiel:
+    Beispiel:
     
         Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -94,7 +96,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
     
         Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
     
-    Zum Beispiel:
+    Beispiel:
     
         Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -104,13 +106,13 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
 
 3.  Wenn Sie einen gesamten Pool anstelle eines einzelnen Computers durchsuchen müssen, ändern Sie den Parameter "–Computers" in "–Pools", entfernen Sie den Computernamen, und ersetzen Sie ihn mit den Pools (versehen mit Anführungszeichen und durch Komma getrennt).
     
-    Zum Beispiel:
+    Beispiel:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
 4.  Bei Verwendung der Suchbefehle kann es sich bei Pools um einen beliebigen Pool in der Bereitstellung handeln, beispielsweise um Front-End-Pools, Edge-Pools, Server Pools für beständigen Chat oder andere, die als Pool in der Bereitstellung definiert sind.
     
-    Zum Beispiel:
+    Beispiel:
     
         Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
@@ -124,7 +126,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
 
 2.  Standardmäßig liegt die Startzeit für die zeitspezifischen Parameter einer Suche 30 Minuten vor der Zeit, zu der die Suche gestartet wird. Anders ausgedrückt: Wenn Sie die Suche um 16:00 Uhr starten, werden die Protokolle für die festgelegten Computer und Pools zwischen 15:30 und 16:00 Uhr durchsucht. Wenn 60 Minuten oder 3 Stunden vor der aktuellen Uhrzeit eine Suche ausgeführt werden soll, verwenden Sie den Parameter "–StartTime", und legen Sie die Zeichenfolge für Datum und Uhrzeit fest, um die Uhrzeit für den Beginn der Suche anzugeben.
     
-    Beispiel: Wenn Sie mit "–StartTime" und "–EndTime" einen Uhrzeit- und Datumsbereich festlegen, können Sie eine Suche für den 20.11.2012 für den Zeitraum zwischen 8 und 9 Uhr für Ihren Pool definieren. Sie können den Ausgabepfad so festlegen, dass die Ergebnisse wie folgt in eine Datei\\mit dem Namen "c: Logfile. txt" geschrieben werden:
+    Beispiel: Wenn Sie mit "–StartTime" und "–EndTime" einen Uhrzeit- und Datumsbereich festlegen, können Sie eine Suche für den 20.11.2012 für den Zeitraum zwischen 8 und 9 Uhr für Ihren Pool definieren. Sie können den Ausgabepfad so festlegen, dass die Ergebnisse in eine Datei namens c: \\logfile.txt wie folgt geschrieben werden:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
@@ -139,7 +141,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
 
 3.  Wenn Sie mit dem Abrufen von Protokollen am 20.11.2012 um 11:00 Uhr beginnen möchten, legen Sie "–StartTime" fest. Der Standardzeitraum für die Suche ist 30 Minuten, es sei denn, Sie legen einen bestimmten Wert für "–EndTime" fest. Die Suche gibt Protokolle der festgelegten Computer oder Pools aus dem Zeitraum zwischen 11:00 Uhr bis 11:30 Uhr zurück.
     
-    Zum Beispiel:
+    Beispiel:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
 

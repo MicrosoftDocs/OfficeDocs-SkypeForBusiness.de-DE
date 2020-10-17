@@ -12,20 +12,22 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e160af5920f58b3813bd168c7f4fbe2e0f0cf95c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519322"
 ---
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Testen und melden der Funktionsbereitschaft für die Kerberos-Authentifizierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Testen und melden der Funktionsbereitschaft für die Kerberos-Authentifizierung in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-01-16_
 
 Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
 
-Sie können das Cmdlet **Test-CsKerberosAccountAssignment** Windows PowerShell verwenden, um die Funktionsbereitschaft einer Standortzuweisung für die Kerberos-Authentifizierung zu testen und zu melden. Dieser Befehl fragt den im erforderlichen Parameter "Identity" angegebenen Standort ab. Der optionale Berichtsparameter bewirkt, dass das Cmdlet einen HTML-Bericht in C\\: Logs auf dem Computer schreibt, auf dem der Befehl ausgeführt wird. Bei Verwendung des optionalen Parameters "Verbose" werden auf dem Bildschirm ausführliche Informationen zur Aktivität ausgegeben.
+Sie können das Cmdlet **Test-CsKerberosAccountAssignment**   Windows PowerShell verwenden, um die Funktionsbereitschaft einer Standortzuweisung für die Kerberos-Authentifizierung zu testen und zu melden. Dieser Befehl fragt den im erforderlichen Parameter "Identity" angegebenen Standort ab. Der optionale Berichtsparameter bewirkt, dass das Cmdlet einen HTML-Bericht in C: \\ Logs auf dem Computer schreibt, auf dem der Befehl ausgeführt wird. Bei Verwendung des optionalen Parameters "Verbose" werden auf dem Bildschirm ausführliche Informationen zur Aktivität ausgegeben.
 
 <div>
 

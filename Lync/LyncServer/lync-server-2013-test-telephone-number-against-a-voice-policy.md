@@ -12,20 +12,22 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d22c801c7d08c3df663f69df07a6c73a5f17f858
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2ac10938dbbc2810e5b43aae85711bf8413ad27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194523"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519162"
 ---
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Testen der Telefonnummer für eine VoIP-Richtlinie in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Testen der Telefonnummer für eine VoIP-Richtlinie in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-05-20_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsVoicePolicy verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoicePolicy-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoicePolicy&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ Die Fähigkeit von Enterprise-VoIP-Benutzern, ausgehende Anrufe über das Festne
 
 Die PSTN-Verwendung ist besonders wichtig: Sie ist die Eigenschaft, die eine VoIP-Richtlinie mit einer VoIP-Route verbindet. (Eine VoIP-Richtlinie und eine VoIP-Route werden als verbunden bezeichnet, wenn Sie mindestens eine PSTN-Nutzung gemeinsam haben.) VoIP-Richtlinien können ohne Angabe einer PSTN-Verwendung konfiguriert werden. In diesem Fall können Benutzer, denen diese Richtlinie zugewiesen wurde, keine ausgehenden Anrufe über das PSTN-Netzwerk tätigen. Ebenso können VoIP-Routen, die nicht über mindestens eine festgelegte PSTN-Verwendung verfügen, keine Anrufe an das PSTN-Netzwerk weiterleiten.
 
-Das Cmdlet Test-CsVoicePolicy überprüft, ob eine bestimmte VoIP-Richtlinie über eine PSTN-Verwendung verfügt und dass die Nutzung von mindestens einer VoIP-Route gemeinsam genutzt wird. Wenn die Überprüfung durch Test-CsVoicePolicy erfolgreich ausgeführt wird, meldet das Cmdlet den Namen der ersten gültigen VoIP-Route, die gefunden wird, sowie den Namen der PSTN-Verwendung, die die Richtlinie mit der Route verbindet.
+Das Test-CsVoicePolicy-Cmdlet überprüft, ob eine bestimmte VoIP-Richtlinie über eine PSTN-Verwendung verfügt und dass die Nutzung von mindestens einer VoIP-Route gemeinsam genutzt wird. Wenn die Überprüfung durch Test-CsVoicePolicy erfolgreich ausgeführt wird, meldet das Cmdlet den Namen der ersten gültigen VoIP-Route, die gefunden wird, sowie den Namen der PSTN-Verwendung, die die Richtlinie mit der Route verbindet.
 
 </div>
 
@@ -84,11 +86,11 @@ Das Cmdlet Test-CsVoicePolicy überprüft, ob eine bestimmte VoIP-Richtlinie üb
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Zum Ausführen des Test-CsVoicePolicy-Cmdlets müssen Sie zunächst das Cmdlet Get-CsVoicePolicy verwenden, um eine Instanz der zu testenden VoIP-Richtlinie abzurufen. Diese Instanz muss anschließend an Test-CsVoicePolicy weitergeleitet werden. Zum Beispiel:
+Zum Ausführen des Test-CsVoicePolicy-Cmdlets müssen Sie zunächst das Cmdlet "Get-CsVoicePolicy" verwenden, um eine Instanz der zu testenden VoIP-Richtlinie abzurufen. Diese Instanz muss anschließend an Test-CsVoicePolicy weitergeleitet werden. Zum Beispiel:
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-Beachten Sie, dass dieser Befehl, der nicht get-CsVoicePolicy zum Abrufen einer VoIP-Richtlinieninstanz verwendet, fehlschlägt:
+Beachten Sie, dass dieser Befehl, der nicht Get-CsVoicePolicy verwendet, um eine VoIP-Richtlinieninstanz abzurufen, fehlschlägt:
 
 `Test-CsVoicePolicy -TargetNumber "+12065551219" -VoicePolicy "Global"`
 
@@ -126,7 +128,7 @@ FirstMatchingRoute MatchingUsage
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Wenn mit Test-CsVoicePolicy keine Übereinstimmung zurückgegeben wird, kann dies bedeuten, dass die VoIP-Richtlinie nicht eine PSTN-Verwendung mit einer VoIP-Route teilt. Verwenden Sie zum Überprüfen eines Cmdlets wie das folgende ein Cmdlet, um zu überprüfen, ob PSTN-Verwendungen der VoIP-Richtlinie zugewiesen sind:
+Wenn Test-CsVoicePolicy keine Übereinstimmung zurückgibt, kann dies bedeuten, dass die VoIP-Richtlinie nicht eine PSTN-Verwendung mit einer VoIP-Route aufteilt. Verwenden Sie zum Überprüfen eines Cmdlets wie das folgende ein Cmdlet, um zu überprüfen, ob PSTN-Verwendungen der VoIP-Richtlinie zugewiesen sind:
 
 `Get-CsVoicePolicy -Identity "Global" | Select-Object PstnUsages | Format-List`
 
@@ -134,7 +136,7 @@ Führen Sie als nächstes den folgenden Befehl aus, um festzustellen, welche PST
 
 `Get-CsVoiceRoute | Select-Object Identity, PstnUsages`
 
-Wenn Übereinstimmungen angezeigt werden (wenn eine oder mehrere VoIP-Routen angezeigt werden, die mindestens eine PSTN-Verwendung mit Ihrer VoIP-Richtlinie aufweisen), sollten Sie das Cmdlet Test-CsVoiceRoute ausführen, um sicherzustellen, dass die VoIP-Route die angegebene Telefonnummer wählen kann.
+Wenn Übereinstimmungen angezeigt werden (wenn eine oder mehrere VoIP-Routen angezeigt werden, die mindestens eine PSTN-Verwendung mit Ihrer VoIP-Richtlinie aufweisen), sollten Sie das Test-CsVoiceRoute-Cmdlet ausführen, um sicherzustellen, dass die VoIP-Route die angegebene Telefonnummer wählen kann.
 
 </div>
 
