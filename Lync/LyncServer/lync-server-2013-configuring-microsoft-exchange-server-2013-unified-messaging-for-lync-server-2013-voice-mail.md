@@ -12,20 +12,22 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebce894ae93b9071a880b35dffd039225b5485cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7376ce3cbafe1321878a28e43e9bc3ab065c990f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525937"
 ---
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Konfigurieren Microsoft Exchange Server 2013 Unified Messaging für Microsoft lync Server 2013-Voicemail
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Konfigurieren Microsoft Exchange Server 2013 Unified Messaging für Microsoft lync Server 2013-Voicemail
+
 
 </div>
 
@@ -46,15 +48,15 @@ Wenn Sie die Server-zu-Server-Authentifizierung bereits zwischen lync Server 201
 
 Im ersten Befehl im Beispiel geben der Parameter "VoIPSecurity" und der Parameterwert "Secured" an, dass der Signalkanal mithilfe von TLS (Transport Layer Security) verschlüsselt wird. Der URI-Typ "SipName" gibt an, dass Nachrichten unter Verwendung des SIP-Protokolls gesendet und empfangen werden, und der Wert "1" für "CountryOrRegionCode" gibt an, dass der Wählplan für die USA gilt.
 
-Im zweiten Befehl gibt der an den Parameter "ConfiguredInCountryOrRegionGroups" übergebene Parameterwert die länderinternen Gruppen an, die mit diesem Wählplan verwendet werden können. Der Parameterwert "Anywhere,\*,\*,\*" legt Folgendes fest:
+Im zweiten Befehl gibt der an den Parameter "ConfiguredInCountryOrRegionGroups" übergebene Parameterwert die länderinternen Gruppen an, die mit diesem Wählplan verwendet werden können. Der Parameterwert "Anywhere, \* , \* , \* " legt Folgendes fest:
 
   - Gruppenname ("Anywhere")
 
-  - AllowedNumberString (\*, ein Platzhalterzeichen, das angibt, dass eine beliebige Nummernzeichenfolge zulässig ist)
+  - AllowedNumberString ( \* , ein Platzhalterzeichen, das angibt, dass eine beliebige Nummernzeichenfolge zulässig ist)
 
-  - DialNumberString (\*, ein Platzhalterzeichen, das angibt, dass eine beliebige gewählte Nummer zulässig ist)
+  - DialNumberString ( \* , ein Platzhalterzeichen, das angibt, dass eine beliebige gewählte Nummer zulässig ist)
 
-  - Textcomment (\*, ein Platzhalterzeichen, das angibt, dass ein beliebiger Textbefehl zulässig ist)
+  - Textcomment ( \* , ein Platzhalterzeichen, das angibt, dass ein beliebiger Textbefehl zulässig ist)
 
 <div>
 
@@ -70,7 +72,7 @@ Nachdem Sie die neuen Wähleinstellungen erstellt und konfiguriert haben, müsse
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-Nach dem Konfigurieren des Unified Messaging-Servers sollten Sie als nächstes das Cmdlet Enable-ExchangeCertificate ausführen, um sicherzustellen, dass Ihr Exchange-Zertifikat auf den Unified Messaging-Dienst angewendet wird:
+Nachdem der Unified Messaging-Server konfiguriert wurde, sollten Sie als nächstes das Enable-ExchangeCertificate-Cmdlet ausführen, um sicherzustellen, dass Ihr Exchange-Zertifikat auf den Unified Messaging-Dienst angewendet wird:
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 

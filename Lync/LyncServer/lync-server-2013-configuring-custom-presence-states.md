@@ -12,20 +12,22 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f93229ee06a3d45db2478003a18ac22a2e7cf59
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fd551ede7d7be7e631c229e99613cfc8baa006eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526992"
 ---
+# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Konfigurieren von benutzerdefinierten Anwesenheitsstatus in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Konfigurieren von benutzerdefinierten Anwesenheitsstatus in lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Konfigurationsdateien weisen die folgenden Eigenschaften auf:
 
   - Es können maximal vier benutzerdefinierte Anwesenheitsstatus hinzugefügt werden.
 
-  - Der Parameter CustomStateURL gibt den Speicherort der Konfigurationsdatei an. In lync 2013 ist der SIP-Modus für hohe Sicherheit standardmäßig aktiviert, sodass Sie die benutzerdefinierte Anwesenheits Konfigurationsdatei auf einem Webserver speichern müssen, auf dem HTTPS aktiviert ist. Andernfalls können lync 2013 Clients keine Verbindung dazu herstellen. Beispielsweise wäre eine gültige Adresse `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
+  - Der Parameter CustomStateURL gibt den Speicherort der Konfigurationsdatei an. In lync 2013 ist der SIP-Modus für hohe Sicherheit standardmäßig aktiviert, sodass Sie die benutzerdefinierte Anwesenheits Konfigurationsdatei auf einem Webserver speichern müssen, auf dem HTTPS aktiviert ist. Andernfalls können lync 2013 Clients keine Verbindung dazu herstellen. Beispielsweise wäre eine gültige Adresse `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml` .
 
 <div>
 
@@ -58,19 +60,19 @@ Konfigurationsdateien weisen die folgenden Eigenschaften auf:
 > Obwohl es in einer Produktionsumgebung nicht empfohlen wird, können Sie eine Konfigurationsdatei testen, die sich auf einer nicht-HTTPS-Dateifreigabe befindet, indem Sie die Registrierungseinstellung EnableSIPHighSecurityMode verwenden, um den SIP-Modus für hohe Sicherheit auf dem Client zu deaktivieren. Anschließend können Sie die Registrierungseinstellung CustomStateURL verwenden, um einen nicht-HTTPS-Speicherort für die Konfigurationsdatei anzugeben. Beachten Sie, dass lync 2013 lync 2010 Registrierungseinstellungen ehrt, die Registrierungsstruktur jedoch aktualisiert wurde. Sie würden die Registrierungseinstellungen wie folgt erstellen: 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \software\policies\microsoft\office\15.0\lync\enablesiphighsecuritymode</P>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
 > <P>Typ: DWORD</P>
 > <P>Wertdaten: 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \software\policies\microsoft\office\15.0\lync\customstateurl</P>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
 > <P>Typ: String (REG_SZ)</P>
-> <P>Werte Daten (Beispiele): file://\\lspool. Corp. contoso. com\LSFileShare\ClientConfigFolder\Presence.XML oder file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.XML</P></LI></UL>
+> <P>Werte Daten (Beispiele): file:// \\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml oder file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
 
 
 </div>
 
-Sie können eine Übersetzung Ihrer benutzerdefinierten Anwesenheitsstatus bereitstellen, indem Sie eine oder mehrere Gebietsschema-IDs in Ihrer XML-Konfigurationsdatei angeben. Das Beispiel weiter unten in diesem Thema zeigt die Übersetzung in Englisch – USA (1033), Norwegisch – Bokmål (1044), Französisch – Frankreich (1036) und Türkisch (1055). Eine Liste der LCIDs finden Sie Untergebiets Schema-IDs, die <https://go.microsoft.com/fwlink/p/?linkid=157331>von Microsoft unter zugewiesen wurden.
+Sie können eine Übersetzung Ihrer benutzerdefinierten Anwesenheitsstatus bereitstellen, indem Sie eine oder mehrere Gebietsschema-IDs in Ihrer XML-Konfigurationsdatei angeben. Das Beispiel weiter unten in diesem Thema zeigt die Übersetzung in Englisch – USA (1033), Norwegisch – Bokmål (1044), Französisch – Frankreich (1036) und Türkisch (1055). Eine Liste der LCIDs finden Sie Untergebiets Schema-IDs, die von Microsoft unter zugewiesen wurden <https://go.microsoft.com/fwlink/p/?linkid=157331> .
 
 <div>
 
@@ -99,7 +101,7 @@ Sie können eine Übersetzung Ihrer benutzerdefinierten Anwesenheitsstatus berei
           </customState>
         </customStates>
 
-2.  Speichern Sie die XML-Konfigurationsdatei auf einem Webserver mit aktiviertem HTTPS. In diesem Beispiel wird die Datei Presence. xml genannt und im Speicherort https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xmlgespeichert.
+2.  Speichern Sie die XML-Konfigurationsdatei auf einem Webserver mit aktiviertem HTTPS. In diesem Beispiel wird die Datei Presence.xml benannt und am Speicherort gespeichert https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml .
 
 3.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
@@ -118,9 +120,9 @@ Ausführliche Informationen finden Sie unter [New-CsClientPolicy](https://docs.m
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Standardmäßig aktualisiert lync Server 2013&nbsp;alle drei Stunden Clientrichtlinien und-Einstellungen.</P>
+> <P>Standardmäßig aktualisiert lync Server 2013 &nbsp; alle drei Stunden Clientrichtlinien und-Einstellungen.</P>
 > <LI>
-> <P>Wenn Sie weiterhin Gruppenrichtlinieneinstellungen aus früheren Versionen wie CustomStateURL verwenden möchten, werden lync 2013 die Einstellungen erkennen, wenn Sie sich in der neuen Registrierungsstruktur der Richtlinie befinden (HKEY_LOCAL_MACHINE \software\policies\microsoft\office\15.0\lync). Allerdings haben serverbasierte Clientrichtlinien Vorrang.</P></LI></UL>
+> <P>Wenn Sie weiterhin Gruppenrichtlinieneinstellungen aus früheren Versionen wie CustomStateURL verwenden möchten, werden lync 2013 die Einstellungen erkennen, wenn Sie sich in der neuen Registrierungsstruktur der Richtlinie befinden (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Allerdings haben serverbasierte Clientrichtlinien Vorrang.</P></LI></UL>
 
 
 

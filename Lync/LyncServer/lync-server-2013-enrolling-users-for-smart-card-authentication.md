@@ -12,20 +12,22 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a157d5492378771cf40a6438bbf8672efd01412
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213371"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526772"
 ---
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Registrieren von Benutzern für die Smartcard-Authentifizierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Registrieren von Benutzern für die Smartcard-Authentifizierung in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-07-03_
 
 Im Allgemeinen gibt es zwei Methoden für die Registrierung von Benutzern für die Smartcard-Authentifizierung. Die einfachere Methode besteht darin, dass Benutzer sich direkt für die Smartcard-Authentifizierung mithilfe der Webregistrierung registrieren, während die komplexere Methode einen Registrierungs-Agent verwendet. Dieses Thema konzentriert sich auf die Selbstregistrierung für Smartcard-Zertifikate.
 
-Weitere Informationen zur Registrierung im Namen von Benutzern als Registrierungs-Agent finden Sie unter Registrieren für Zertifikate im Namen anderer Benutzer unter [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367).
+Weitere Informationen zur Registrierung im Namen von Benutzern als Registrierungs-Agent finden Sie unter Registrieren für Zertifikate im Namen anderer Benutzer unter [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367) .
 
 <div>
 

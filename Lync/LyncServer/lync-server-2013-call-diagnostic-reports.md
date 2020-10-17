@@ -12,20 +12,22 @@ ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692c3e3baa564b2276be678b48e67b5f2a4abd56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46073c5540b0b4cd48f6c5a13c17d4a4d3f12a46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526332"
 ---
+# <a name="call-diagnostic-reports-in-lync-server-2013"></a>Anruf Diagnoseberichte in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-in-lync-server-2013"></a>Anruf Diagnoseberichte in lync Server 2013
+
 
 </div>
 
@@ -43,19 +45,19 @@ Die Anrufdiagnoseberichte enthalten zusammenfassende Informationen und Diagnosed
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Zusammenfassender Anruf Diagnosebericht in lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   enthält eine Gesamtübersicht über fehlerhafte Peer-to-Peer-Sitzungen und Konferenzsitzungen. Peer-zu-Peer-Sitzungen sind Sitzungen mit nur zwei Teilnehmern. Bei Konferenzsitzungen nehmen mindestens drei Teilnehmer teil.
+  - [Zusammenfassender Anruf Diagnosebericht in lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)     Enthält eine Gesamtübersicht über fehlerhafte Peer-to-Peer-Sitzungen und Konferenzsitzungen. Peer-zu-Peer-Sitzungen sind Sitzungen mit nur zwei Teilnehmern. Bei Konferenzsitzungen nehmen mindestens drei Teilnehmer teil.
 
-  - [Der Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   bietet eine allgemeine trendansicht der fehlgeschlagenen Peer-to-Peer-Sitzungen. Bei einer Peer-zu-Peer-Sitzung sind nur zwei Teilnehmer beteiligt.
+  - [Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)     Stellt eine allgemeine trendansicht von fehlgeschlagenen Peer-to-Peer-Sitzungen bereit. Bei einer Peer-zu-Peer-Sitzung sind nur zwei Teilnehmer beteiligt.
 
-  - [Der Konferenz Diagnosebericht in lync Server 2013](lync-server-2013-conference-diagnostic-report.md)   bietet eine allgemeine trendansicht von fehlgeschlagenen Konferenzsitzungen und Trend Ansichten für jede Konferenz Modalität. Bei Konferenzsitzungen sind mindestens drei Teilnehmer beteiligt.
+  - [Konferenz Diagnosebericht in lync Server 2013](lync-server-2013-conference-diagnostic-report.md)     Bietet eine allgemeine trendansicht von fehlerhaften Konferenzsitzungen und Trend Ansichten für jede Konferenz Modalität. Bei Konferenzsitzungen sind mindestens drei Teilnehmer beteiligt.
 
-  - [Top Failures Report in lync Server 2013](lync-server-2013-top-failures-report.md)   enthält eine Liste der häufigsten Fehler und deren Trends im Laufe der Zeit.
+  - [Bericht über die häufigsten Fehler in lync Server 2013](lync-server-2013-top-failures-report.md)     Enthält eine Liste der häufigsten Fehler und deren Trends im Laufe der Zeit.
 
-  - [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md)   enthält eine Analyse der fehlerhaften Sitzungen.
+  - [Bericht über Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md)     Enthält eine Analyse der fehlerhaften Sitzungen.
 
-  - [Fehlerlistenbericht in lync Server 2013](lync-server-2013-failure-list-report.md)   enthält detaillierte Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Konferenz beteiligt sind.
+  - [Fehlerlistenbericht in lync Server 2013](lync-server-2013-failure-list-report.md)     Enthält detaillierte Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Konferenz beteiligt sind.
 
-  - [Der Diagnosebericht in lync Server 2013](lync-server-2013-diagnostic-report.md)   enthält Diagnose-und Problembehandlungsinformationen (einschließlich SIP-Antwortcodes und Diagnose Kopfzeilen und-IDs) für fehlerhafte Sitzungen.
+  - [Diagnosebericht in lync Server 2013](lync-server-2013-diagnostic-report.md)     Enthält Diagnose-und Problembehandlungsinformationen (einschließlich SIP-Antwortcodes und Diagnose Kopfzeilen und-IDs) für fehlerhafte Sitzungen.
 
 </div>
 

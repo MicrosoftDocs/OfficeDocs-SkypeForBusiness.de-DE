@@ -12,20 +12,22 @@ ms:contentKeyID: 49733692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e446a4981a3b9b255311ff5720e2c6dc36d61e9a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 716e3c5eebf365118e795d584f7c9e73f949cf9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527322"
 ---
+# <a name="migrating-xmpp-federation"></a>Migrieren eines XMPP-Partnerverbunds
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-xmpp-federation"></a>Migrieren eines XMPP-Partnerverbunds
+
 
 </div>
 

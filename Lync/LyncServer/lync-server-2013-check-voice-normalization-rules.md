@@ -12,20 +12,22 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca48668bf0a19392558e10366f7a9bf4bb202ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 547f117a9706aa0ab5bf1202c31d0bc9f8ce34fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526212"
 ---
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Überprüfen der VoIP-Normalisierungsregeln in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Überprüfen der VoIP-Normalisierungsregeln in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-05-20_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsVoiceNormalizationRule verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoiceNormalizationRule-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceNormalizationRule&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -68,7 +70,7 @@ _**Letztes Änderungsstand des Themas:** 2014-05-20_
 
 Regeln für die VoIP-Normalisierung werden verwendet, um eine von einem Benutzer gewählte Telefonnummer (beispielsweise 2065551219) in das E. 164-Format zu konvertieren, das von lync Server (+ 12065551219) verwendet wird. Wenn Benutzer beispielsweise die Gewohnheit haben, eine Telefonnummer zu wählen, ohne die Landesvorwahl oder die Vorwahl (z.b. 5551219) einzuschließen, benötigen Sie eine sprach Normalisierungsregel, mit der diese Nummer in das e. 164-Format konvertiert werden kann: + 12065551219. Ohne eine solche Regel kann der Benutzer 555-1219 nicht aufrufen.
 
-Das Cmdlet Test-CsVoiceNormalizationRule überprüft, ob eine angegebene sprach Normalisierungsregel eine angegebene Telefonnummer erfolgreich konvertieren kann. Beispielsweise überprüft dieser Befehl, ob die globale Normalisierungsregel NoAreaCode die Wählzeichenfolge 5551219 normalisieren und konvertieren kann.
+Das Test-CsVoiceNormalizationRule-Cmdlet überprüft, ob eine angegebene sprach Normalisierungsregel eine angegebene Telefonnummer erfolgreich konvertieren kann. Beispielsweise überprüft dieser Befehl, ob die globale Normalisierungsregel NoAreaCode die Wählzeichenfolge 5551219 normalisieren und konvertieren kann.
 
 `Get-CsVoiceNormalizationRule -Identity "global/NoAreaCode" | Test-CsVoiceNormalizationRule -DialedNumber "5551219"`
 
@@ -78,13 +80,13 @@ Das Cmdlet Test-CsVoiceNormalizationRule überprüft, ob eine angegebene sprach 
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Zum Ausführen des Test-CsVoiceNormalizationRule-Cmdlets müssen Sie zunächst das Cmdlet Get-CsVoiceNormalizationRule verwenden, um eine Instanz der getesteten Regel abzurufen, und diese Instanz dann an Test-CsVoiceNormalizationRule weiterleiten. Syntax ähnlich wie dies funktioniert nicht:
+Zum Ausführen des Test-CsVoiceNormalizationRule-Cmdlets müssen Sie zunächst das Get-CsVoiceNormalizationRule-Cmdlet verwenden, um eine Instanz der getesteten Regel abzurufen, und diese Instanz dann an Test-CsVoiceNormalizationRule weiterleiten. Syntax ähnlich wie dies funktioniert nicht:
 
-Test-CsVoiceNormalizationRule-"DialedNumber" "12065551219" – normalizationrule "" Global/Präfix all "
+Test-CsVoiceNormalizationRule-"DialedNumber" "12065551219" – normalizationrule "" Global/Prefix all "
 
 Verwenden Sie stattdessen eine Syntax wie die folgende, die sowohl die Get-CsVoiceNormalizationRule-als auch die Test-CsVoiceNormalizationRule-Cmdlets kombiniert:
 
-Get-CsVoiceNormalizationRule-Identity "Global/Präfix all" | Test-CsVoiceNormalizationRule-"DialedNumber" "12065551219"
+Get-CsVoiceNormalizationRule-Identity "Global/Prefix all" | Test-CsVoiceNormalizationRule-"DialedNumber" "12065551219"
 
 <div>
 
@@ -134,7 +136,7 @@ TranslatedNumber
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Wenn der Test-CsVoiceNormalizationRule eine übersetzte Zahl zurückgibt, bedeutet dies, dass die angegebene sprach Normalisierungsregel die bereitgestellte Telefonnummer nicht in das von lync Server verwendete E. 164-Format übersetzen konnte. Um dies zu überprüfen, müssen Sie zunächst sicherstellen, dass Sie die Telefonnummer richtig eingegeben haben. Beispielsweise würden Sie davon ausgehen, dass Ihre VoIP-Normalisierungsregel Probleme mit der Übersetzung einer Zahl ähnlich der folgenden hat:
+Wenn der Test-CsVoiceNormalizationRule eine übersetzte Zahl zurückgibt, bedeutet dies, dass die angegebene sprach Normalisierungsregel die angegebene Telefonnummer nicht in das von lync Server verwendete E. 164-Format übersetzen konnte. Um dies zu überprüfen, müssen Sie zunächst sicherstellen, dass Sie die Telefonnummer richtig eingegeben haben. Beispielsweise würden Sie davon ausgehen, dass Ihre VoIP-Normalisierungsregel Probleme mit der Übersetzung einer Zahl ähnlich der folgenden hat:
 
 `-DialedNumber "1"`
 

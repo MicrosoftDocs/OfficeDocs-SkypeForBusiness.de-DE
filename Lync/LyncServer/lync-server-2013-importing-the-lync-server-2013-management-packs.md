@@ -12,20 +12,22 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd5f09d80aa86c9c0f692fbe0e744a445067e74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4edc22c1cfc46b032e679a9dc0718113bc6967bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526652"
 ---
+# <a name="importing-the-lync-server-2013-management-packs"></a>Importieren der lync Server 2013 Management Packs
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="importing-the-lync-server-2013-management-packs"></a>Importieren der lync Server 2013 Management Packs
+
 
 </div>
 
@@ -37,20 +39,20 @@ ms.locfileid: "42197158"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Sie können die Funktionen von System Center Operations Manager erweitern, indem Sie Management Packs installieren – Software, die festlegt, welche Elemente System Center Operations Manager überwachen kann und wie diese Elemente überwacht werden sollen und wie Warnungen ausgelöst werden sollen und gemeldet. Lync Server 2013 enthält zwei System Center Operations Manager-Management Packs, die die folgenden Funktionen bieten:
+Sie können die Funktionen von System Center Operations Manager erweitern, indem Sie Management Packs installieren – Software, die bestimmt, welche Elemente von System Center Operations Manager überwacht werden können und wie diese Elemente überwacht werden sollen und wie Warnungen ausgelöst und gemeldet werden sollen. Lync Server 2013 enthält zwei System Center Operations Manager-Management Packs, die die folgenden Funktionen bieten:
 
-  - Das Component and User Management Pack (Microsoft.ls.2013.Monitoring.ComponentAndUser.MP) verfolgt lync Server Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den Kommunikationsdatensätzen (KDS) oder der Quality of Experience (QoE) protokolliert wurden. Datenbanken. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per e-Mail, Chatnachrichten oder SMS-Messaging benachrichtigt werden. Mit der SMS-Technologie werden Textnachrichten von einem mobilen Gerät zu einem anderen gesendet.)
+  - Das Component and User Management Pack (Microsoft.ls.2013.Monitoring.ComponentAndUser.MP) verfolgt lync Server Probleme, die in Ereignisprotokollen aufgezeichnet werden, die von Leistungsindikatoren registriert wurden oder in den Datensätzen "Call Detail Records" (KDS) oder QoE (Quality of Experience) protokolliert wurden. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per e-Mail, Chatnachrichten oder SMS-Messaging benachrichtigt werden. Mit der SMS-Technologie werden Textnachrichten von einem mobilen Gerät zu einem anderen gesendet.)
     
     <div>
     
 
     > [!NOTE]  
-    > Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter Konfigurieren der Benachrichtigung in der <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A>TechNet-Bibliothek unter.
+    > Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter Konfigurieren der Benachrichtigung in der TechNet-Bibliothek unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A> .
 
     
     </div>
 
-  - Das Active Monitoring Management Pack (Microsoft.ls.2013.Monitoring.ActiveMonitoring.MP) testet die Schlüssel lync Server Komponenten, beispielsweise das Anmelden beim System, das Austauschen von Chatnachrichten oder das tätigen von Anrufen an ein Telefon, das sich im öffentlichen Switch befindet, proaktiv. Telefonnetz (PSTN). Diese Tests werden mithilfe der Cmdlets für synthetische Transaktionen lync Server ausgeführt. Beispielsweise können Sie das Cmdlet **Test-CsIM** verwenden, um eine Konversation mit Sofortnachrichten zwischen einem Testbenutzerpaar zu simulieren. Wenn bei dieser simulierten Konversation mit Sofortnachrichten ein Fehler auftritt, wird eine Warnung generiert.
+  - Das Active Monitoring Management Pack (Microsoft.ls.2013.Monitoring.ActiveMonitoring.MP) testet die Schlüssel lync Server Komponenten proaktiv, beispielsweise das Anmelden beim System, das Austauschen von Chatnachrichten oder das tätigen von Anrufen an ein Telefon im öffentlichen Telefonnetz (PSTN). Diese Tests werden mithilfe der Cmdlets für synthetische Transaktionen lync Server ausgeführt. Beispielsweise können Sie das Cmdlet **Test-CsIM** verwenden, um eine Konversation mit Sofortnachrichten zwischen einem Testbenutzerpaar zu simulieren. Wenn bei dieser simulierten Konversation mit Sofortnachrichten ein Fehler auftritt, wird eine Warnung generiert.
 
 Sie müssen die Management Packs importieren. Wenn Sie die Management Packs nicht importieren, können Sie Operations Manager nicht verwenden, um lync Server Ereignisse zu überwachen oder lync Server synthetische Transaktionen auszuführen.
 
@@ -68,9 +70,9 @@ Das Komponenten-und das User Management Pack wird nur zum Überwachen von lync S
 
 Zum Importieren der Management Packs können folgende Tools verwendet werden:
 
-  - **System Center Operations Manager**   mit dieser Methode verwenden Sie den Operations Manager, um die Überwachung für lync Server hinzuzufügen.
+  - **System Center Operations Manager**     Mit dieser Methode verwenden Sie den Operations Manager, um die Überwachung für lync Server hinzuzufügen.
 
-  - **Operations Manager-Shell**   Sie können die Operations Manager-Shell verwenden, um direkt zu importieren oder Probleme zu beheben, die beim Importieren von Management Packs mithilfe der System Center Operations Manager-Konsole auftreten.
+  - **Operations Manager-Shell**     Sie können die Operations Manager-Shell verwenden, um direkt zu importieren oder Probleme zu beheben, die beim Importieren von Management Packs mithilfe der System Center Operations Manager-Konsole auftreten.
 
 <div>
 

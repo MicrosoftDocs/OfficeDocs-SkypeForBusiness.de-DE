@@ -12,20 +12,22 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9641170534c4c4ad1ef4976d018699d01d6069a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a2adc9d0ca10382aa7faa7abf6f9ea46eb6cf51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525812"
 ---
+# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Erstellen oder Ändern einer Übersetzungsregel mithilfe des Tools zum Erstellen einer Übersetzungsregel in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Erstellen oder Ändern einer Übersetzungsregel mithilfe des Tools zum Erstellen einer Übersetzungsregel in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
 
 6.  Geben Sie im Abschnitt **Übersetzungsregel erstellen** des Dialogfelds Werte in die folgenden Felder ein:
     
-      - **Starting digits**: (optional) geben Sie die führenden Ziffern von Zahlen an, die mit dem Muster übereinstimmen sollen. Geben Sie **+** beispielsweise in dieses Feldnummern im E. 164-Format (die mit + beginnen) überein.
+      - **Starting digits**: (optional) geben Sie die führenden Ziffern von Zahlen an, die mit dem Muster übereinstimmen sollen. Geben Sie beispielsweise **+** in dieses Feldnummern im E. 164-Format (die mit + beginnen) überein.
     
       - **Length**: Geben Sie die Anzahl der Stellen im übereinstimmenden Muster an, und wählen Sie aus, ob das Muster Zahlen entsprechen soll, die diese Länge genau, mindestens diese Länge oder eine beliebige Länge aufweisen. Geben Sie beispielsweise **11** ein, und wählen Sie **mindestens** in der Dropdownliste aus, um Nummern mit einer Länge von mindestens 11 Ziffern abzugleichen.
     
@@ -65,7 +67,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
     
     Die in diesen Feldern eingegebenen Werte werden in den Feldern **Muster für Übereinstimmung** und **Übersetzungsregel** wiedergegeben. Wenn Sie beispielsweise die obigen Beispielwerte angeben, lautet der resultierende reguläre Ausdruck im Feld **Muster an Übereinstimmung** wie folgt:
     
-    **^\\+ (\\d{9}\\d +) $**
+    **^\\+ ( \\ d {9} \\ d +) $**
     
     Das Feld **Übersetzungsregel** gibt ein Muster für das Format der übersetzten Zahlen an. Dieses Muster besteht aus zwei Teilen:
     

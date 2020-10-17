@@ -12,20 +12,22 @@ ms:contentKeyID: 49733762
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2afd309f59a66a7117d43b930500a7807d493d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 151ebb138a1518e184c3b008605c259be533c788
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190938"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526122"
 ---
+# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Allgemeine Konferenz Konzepte in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Allgemeine Konferenz Konzepte in lync Server 2013
+
 
 </div>
 
@@ -69,11 +71,11 @@ Das Monitoring Server-Feature kann Anruf Detaildatensätze (CDRs) erfassen, mit 
 
 Sie können den Nutzen Ihrer Investition in lync Server 2013 Konferenzen erheblich verbessern, indem Sie externen Benutzern die Möglichkeit bieten, auch an Konferenzen teilzunehmen, wenn Sie eingeladen werden. Externe Benutzer können Folgendes umfassen:
 
-  - **Remote Benutzer**   die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere lync Server 2013 Geräte verwenden.
+  - **Remote Benutzer**     Die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere lync Server 2013 Geräte verwenden.
 
-  - **Benutzer von Verbundbenutzern**   aus Unternehmen, mit denen Sie zusammenarbeiten und die auch lync Server 2013 ausführen. Damit Ihre Benutzer diese Benutzer problemlos kontaktieren können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
+  - Partner **Verbundbenutzer**     Benutzer aus Unternehmen, mit denen Sie zusammenarbeiten und die auch lync Server 2013 ausführen. Damit Ihre Benutzer diese Benutzer problemlos kontaktieren können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
 
-  - **Anonyme Benutzer**   andere externe Benutzer, die speziell von Ihren Benutzern eingeladen werden, um an bestimmten Konferenzen teilzunehmen. Der Organisator einer Besprechung in Ihrem Unternehmen kann eine E-Mail-Einladung für eine Konferenz an einen externen Benutzer senden. Diese E-Mail enthält einen Link, über den der externe Benutzer an der Konferenz teilnehmen kann.
+  - **Anonyme Benutzer**     Alle anderen externen Benutzer, die speziell von Ihren Benutzern eingeladen werden, um an bestimmten Konferenzen teilzunehmen. Der Organisator einer Besprechung in Ihrem Unternehmen kann eine E-Mail-Einladung für eine Konferenz an einen externen Benutzer senden. Diese E-Mail enthält einen Link, über den der externe Benutzer an der Konferenz teilnehmen kann.
 
 Zum Aktivieren eines oder aller dieser Szenarien müssen Sie eine Edgeserver bereitstellen, die die sichere Kommunikation zwischen Ihrer lync Server 2013-Bereitstellung und externen Benutzern unterstützt. Die lync Server 2013 Lösung, die Edgeserver verwendet, bietet Medien höherer Qualität als andere Lösungen wie ein VPN (virtuelles privates Netzwerk). Ausführliche Informationen finden Sie unter [Planning for external User Access in lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 

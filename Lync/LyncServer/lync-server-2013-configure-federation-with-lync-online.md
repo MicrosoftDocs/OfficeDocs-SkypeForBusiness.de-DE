@@ -12,20 +12,22 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cfeffc8a72d26167b9771e6437d21ba55c8f5636
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525952"
 ---
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Konfigurieren des Verbund lync Server 2013 mit lync Online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Konfigurieren des Verbund lync Server 2013 mit lync Online
+
 
 </div>
 
@@ -65,7 +67,7 @@ Mit dem Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit Micr
 
 Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner für jeden Benutzer in einem Netzwerk, ähnlich wie eine Telefonnummer oder eine e-Mail-Adresse. Bevor Sie lync-Benutzer von lokal in Skype for Business Online verschieben, müssen Sie Ihre Microsoft 365-oder Office 365-Organisation so konfigurieren, dass der SIP-Adressraum (Shared Session Initiation Protocol) mit Ihrer lokalen Bereitstellung freigegeben wird. Wenn diese nicht konfiguriert ist, wird möglicherweise die folgende Fehlermeldung angezeigt:
 
-Verschieben-CsUser: HostedMigration Fault: Error = (510), Description = (der Mandant des Benutzers ist für den freigegebenen SIP-Adressraum nicht aktiviert.)
+Move-CsUser: HostedMigration Fault: Error = (510), Description = (der Mandant des Benutzers ist für den freigegebenen SIP-Adressraum nicht aktiviert.)
 
 Zum Konfigurieren eines freigegebenen SIP-Adressraums richten Sie eine Remote-PowerShell-Sitzung mit Skype for Business Online ein, und führen Sie dann das folgende Cmdlet aus:
 ```powershell

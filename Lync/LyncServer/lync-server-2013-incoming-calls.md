@@ -12,20 +12,22 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5a6cd54732bb6c33e358eeb1a5dbb72a1a4e789
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05147e469ce120663992e5ae7b8a3ee59acaf78c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526612"
 ---
+# <a name="incoming-calls-in-lync-server-2013"></a>Eingehende Anrufe in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a>Eingehende Anrufe in lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42204746"
 
 _**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Das Routing eingehender Anrufe an Benutzer, die für standortbasiertes Routing aktiviert sind, hängt vom Speicherort des Endpunkts des Benutzers ab. Das Routing eingehender Anrufe wird wie folgt beeinflusst. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem standortbasierten Routing fähigen Netzwerkstandort befindet, und sich der Endpunkt am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, wird der Anruf weitergeleitet. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem standortbasierten Routing fähigen Netzwerkstandort befindet und sich der Endpunkt an einem anderen Netzwerkstandort befindet als das PSTN-Gateway, wird der Anruf nicht weitergeleitet. Wenn ein Benutzer keine Endpunkte am selben Netzwerkstandort wie das PSTN-Gateway hat, von dem der eingehende Anruf stammt, wird der eingehende Anruf direkt an die Voicemail des Benutzers weitergeleitet, und eine Benachrichtigung über verpasste Anrufe wird an den angerufenen Teilnehmer gesendet.
+Das Routing eingehender Anrufe an Benutzer, die für Location-Based Routing aktiviert sind, hängt vom Speicherort des Endpunkts des Benutzers ab. Das Routing eingehender Anrufe wird wie folgt beeinflusst. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem Netzwerkstandort mit Location-Based Routing aktiviert hat, und sich der Endpunkt am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, wird der Anruf weitergeleitet. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem Netzwerkstandort mit Location-Based Routing aktiviert hat, und sich der Endpunkt an einem anderen Netzwerkstandort als das PSTN-Gateway befindet, wird der Anruf nicht weitergeleitet. Wenn ein Benutzer keine Endpunkte am selben Netzwerkstandort wie das PSTN-Gateway hat, von dem der eingehende Anruf stammt, wird der eingehende Anruf direkt an die Voicemail des Benutzers weitergeleitet, und eine Benachrichtigung über verpasste Anrufe wird an den angerufenen Teilnehmer gesendet.
 
-Die Anrufweiterleitungseinstellungen eines Benutzers, der für das standortbasierte Routing aktiviert ist, werden weiterhin erzwungen, jedoch werden weitergeleitete Anrufe den standortbasierten Routing Einschränkungen des Benutzers unterworfen.
+Die Anrufweiterleitungseinstellungen eines Benutzers, der für Location-Based Routing aktiviert ist, werden weiterhin erzwungen, jedoch werden weitergeleitete Anrufe Location-Based Routing Einschränkungen des Benutzers unterworfen.
 
-In der folgenden Tabelle wird veranschaulicht, wie sich das standortbasierte Routing auf das Routing eingehender Anrufe in Abhängigkeit von der Position des Endpunkts des angerufenen auswirkt. Der Netzwerkstandort des PSTN-Gateways ist für das standortbasierte Routing aktiviert, und das standortbasierte Routing ermöglicht nur das Routing von PSTN-Anrufen an Endpunkte innerhalb desselben Netzwerkstandorts.
+In der folgenden Tabelle wird veranschaulicht, wie sich Location-Based Routing auf das Routing von eingehenden Anrufen in Abhängigkeit von der Position des Endpunkts des angerufenen auswirkt. Der Netzwerkstandort des PSTN-Gateways ist für Location-Based Routing aktiviert, und Location-Based Routing ermöglicht nur das Routing von PSTN-Anrufen an Endpunkte innerhalb desselben Netzwerkstandorts.
 
 ### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>Angerufener empfängt einen eingehenden Anruf aus dem PSTN
 
@@ -57,7 +59,7 @@ In der folgenden Tabelle wird veranschaulicht, wie sich das standortbasierte Rou
 <th></th>
 <th>Endpunkt des angerufenen befindet sich am selben Netzwerkstandort wie das PSTN-Gateway</th>
 <th>Der Endpunkt des angerufenen befindet sich nicht am gleichen Netzwerkstandort wie das PSTN-Gateway</th>
-<th>Endpunkt des angerufenen befindet sich an einem unbekannten Netzwerkstandort oder ist für standortbasiertes Routing nicht aktiviert</th>
+<th>Endpunkt des angerufenen befindet sich an einem unbekannten Netzwerkstandort oder ist für Location-Based Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +79,7 @@ In der folgenden Tabelle wird veranschaulicht, wie sich das standortbasierte Rou
 ## <a name="see-also"></a>Siehe auch
 
 
-[Szenarien für das standortbasierte Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Szenarien für Location-Based Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 670696a0945464486e0872b17df330a6ca8140b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1c2a25105aec6cdf6d21193038f90ea852c5b3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526032"
 ---
+# <a name="conference-detail-report-in-lync-server-2013"></a>Konferenz Detail Bericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-detail-report-in-lync-server-2013"></a>Konferenz Detail Bericht in lync Server 2013
+
 
 </div>
 
@@ -134,7 +136,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zur Konferen
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Benutzer</strong></p></td>
+<td><p><strong>Benutzende</strong></p></td>
 <td></td>
 <td><p>SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.</p></td>
 </tr>
@@ -191,7 +193,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Abschnitt "K
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Benutzer</strong></p></td>
+<td><p><strong>Benutzende</strong></p></td>
 <td></td>
 <td><p>SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.</p></td>
 </tr>

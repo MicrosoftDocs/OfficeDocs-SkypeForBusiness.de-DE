@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526242"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Zertifikatanforderungen für interne Server in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Zertifikatanforderungen für interne Server in lync Server 2013
+
 
 </div>
 
@@ -49,11 +51,11 @@ Zu den internen Servern, auf denen lync Server ausführt und für die Zertifikat
 
 </div>
 
-Wenngleich für interne Server die Verwendung einer internen Unternehmenszertifizierungsstelle empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden. Eine Liste der öffentlichen Zertifizierungsstellen mit Zertifikaten, die bestimmte Anforderungen an Unified Communications-Zertifikate (UC) erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem Assistenten für lync Server Zertifikate kompatibel sind, finden Sie in [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)Artikel Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server" unter.
+Wenngleich für interne Server die Verwendung einer internen Unternehmenszertifizierungsstelle empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden. Eine Liste der öffentlichen Zertifizierungsstellen mit Zertifikaten, die bestimmte Anforderungen an Unified Communications-Zertifikate (UC) erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem Assistenten für lync Server Zertifikate kompatibel sind, finden Sie in Artikel Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server" unter [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 Für die Kommunikation mit anderen Anwendungen und Servern wie Exchange 2013 ist ein Zertifikat erforderlich, das von den anderen Anwendungen und Produkten unterstützt wird. Für das 2013-Release, lync Server 2013 und andere Microsoft-Serverprodukte, einschließlich Exchange 2013 und SharePoint Server, wird das Open Authorization (OAuth)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung unterstützt. Ausführliche Informationen finden Sie unter [Managing Server-to-Server Authentication (OAuth) and Partner Applications in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
-Für Verbindungen von Clients, die Windows 7 Betriebssystem, Windows Server 2008 Betriebssystem, Windows Server 2008 R2-Betriebssystem, Windows Vista Betriebssystem und Microsoft lync Phone Edition ausführen, enthält lync Server 2013 Unterstützung für (aber keine erfordern) Zertifikate, die mit der kryptografischen Hashfunktion von SHA-256 signiert wurden. Damit der externe Zugriff über SHA-256 unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die SHA-256 verwendet.
+Für Verbindungen von Clients, die Windows 7 Betriebssystem, Windows Server 2008 Betriebssystem, Windows Server 2008 R2-Betriebssystem, Windows Vista Betriebssystem und Microsoft lync Phone Edition ausführen, enthält lync Server 2013 Unterstützung für (jedoch nicht erforderliche) Zertifikate, die mit der kryptografischen Hashfunktion von SHA-256 signiert wurden. Damit der externe Zugriff über SHA-256 unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die SHA-256 verwendet.
 
 In der folgenden Tabelle werden die Zertifikatanforderungen nach Serverrolle für Front-End-Pools und Standard Edition-Server aufgeführt. Es handelt sich in allen Fällen um standardmäßige, nicht exportierbare Webserverzertifikate mit privatem Schlüssel.
 
@@ -95,7 +97,7 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU)
 <th>Antragstellername/Allgemeiner Name</th>
 <th>Alternativer Antragstellername</th>
 <th>Beispiel</th>
-<th>Anmerkungen</th>
+<th>Kommentare</th>
 </tr>
 </thead>
 <tbody>
@@ -165,7 +167,7 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU)
 <th>Antragstellername/Allgemeiner Name</th>
 <th>Alternativer Antragstellername</th>
 <th>Beispiel</th>
-<th>Anmerkungen</th>
+<th>Kommentare</th>
 </tr>
 </thead>
 <tbody>
@@ -331,7 +333,7 @@ Wenn Sie über einen eigenständigen Vermittlungsserverpool verfügen, muss jede
 <tr class="odd">
 <td><p>Standard</p></td>
 <td><p>FQDN der Appliance</p></td>
-<td><p>SIP. &lt;sipdomain "&gt; (benötigt einen Eintrag pro SIP-Domäne)</p></td>
+<td><p>SIP. &lt; sipdomain " &gt; (benötigt einen Eintrag pro SIP-Domäne)</p></td>
 <td><p>SN = sba01. contoso. net; San = SIP. contoso. com; San = SIP. fabrikam. com</p></td>
 </tr>
 </tbody>

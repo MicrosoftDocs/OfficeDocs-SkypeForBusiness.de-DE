@@ -12,20 +12,22 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60ba1c402a629c0a85b2bd99dc4819da3455660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 874b73af42869bc5cbe6a66b7efaf792d231b95d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202881"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525752"
 ---
+# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Erstellen oder Ändern einer Agentengruppe in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Erstellen oder Ändern einer Agentengruppe in lync Server 2013
+
 
 </div>
 
@@ -152,7 +154,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentengruppe zu erstellen 
         
           - Wenn eine Verteilerliste so konfiguriert wurde, dass die Mitgliedschaft ausgeblendet ist und der Reaktionsgruppen Administrator die Verteilerliste der Agentliste zuordnet, können Benutzer die Gruppe aufrufen, um herauszufinden, wer die Mitglieder sind.
         
-          - Wenn eine Verteilerliste so konfiguriert wurde, dass Sie in der globalen Exchange-Adressliste ausgeblendet ist, kann der Reaktionsgruppen Administrator möglicherweise die Verteilerliste anzeigen und Sie der Liste Agent zuweisen, wenn der Reaktionsgruppen Prozess über die entsprechenden Benutzerrechte verfügt und Berechtigungen, auch wenn der Administrator nicht über die entsprechenden Benutzerrechte und-Berechtigungen verfügt.
+          - Wenn eine Verteilerliste so konfiguriert wurde, dass Sie in der globalen Exchange-Adressliste ausgeblendet ist, kann der Reaktionsgruppen Administrator möglicherweise die Verteilerliste anzeigen und der Agentliste zuweisen, wenn der Reaktionsgruppen Prozess über die entsprechenden Benutzerrechte und Berechtigungen verfügt, selbst wenn der Administrator nicht über die entsprechenden Benutzerrechte und Berechtigungen verfügt.
 
 11. Klicken Sie auf **Commit ausführen**.
 

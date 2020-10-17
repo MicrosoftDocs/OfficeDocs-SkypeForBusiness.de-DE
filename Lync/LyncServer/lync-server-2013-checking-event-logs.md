@@ -12,20 +12,22 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8574681353a6082ce46efb514923871a01c1427d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: edbd977eb8023d5001a5b8e4a6a1c706eea84fc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526192"
 ---
+# <a name="checking-event-logs-in-lync-server-2013"></a>Überprüfen von Ereignisprotokollen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-event-logs-in-lync-server-2013"></a>Überprüfen von Ereignisprotokollen in lync Server 2013
+
 
 </div>
 
@@ -53,13 +55,13 @@ Verwenden Sie die Ereignisanzeige für Folgendes:
 
 Ein Server, auf dem lync Server auf einem Windows Server-Betriebssystem läuft, zeichnet Ereignisse in vier Protokolltypen auf:
 
-  - **Anwendungsprotokolle**   das Anwendungsprotokoll enthält Ereignisse, die von Anwendungen oder Programmen protokolliert werden. Entwickler legen fest, welche Ereignisse protokolliert werden. Ein Datenbankprogramm könnte z. B. einen Dateifehler im Anwendungsprotokoll aufzeichnen. Die meisten lync Server 2013 bezogenen Ereignisse werden im Anwendungsprotokoll angezeigt.
+  - **Anwendungsprotokolle**     Das Anwendungsprotokoll enthält Ereignisse, die von Anwendungen oder Programmen protokolliert werden. Entwickler legen fest, welche Ereignisse protokolliert werden. Ein Datenbankprogramm könnte z. B. einen Dateifehler im Anwendungsprotokoll aufzeichnen. Die meisten lync Server 2013 bezogenen Ereignisse werden im Anwendungsprotokoll angezeigt.
 
-  - **Sicherheitsprotokolle**   das Sicherheitsprotokoll zeichnet Ereignisse wie gültige und ungültige Anmeldeversuche zusätzlich zu Ereignissen im Zusammenhang mit der Ressourcenverwendung wie erstellen, öffnen oder Löschen von Dateien oder anderen Objekten auf. Wenn Anmeldeüberwachung aktiviert ist, werden z. B. Anmeldeversuche am System im Sicherheitsprotokoll aufgezeichnet.
+  - **Sicherheitsprotokolle**     Das Sicherheitsprotokoll zeichnet Ereignisse wie gültige und ungültige Anmeldeversuche zusätzlich zu Ereignissen im Zusammenhang mit der Ressourcenverwendung wie erstellen, öffnen oder Löschen von Dateien oder anderen Objekten auf. Wenn Anmeldeüberwachung aktiviert ist, werden z. B. Anmeldeversuche am System im Sicherheitsprotokoll aufgezeichnet.
 
-  - **Systemprotokolle**   das Systemprotokoll enthält Ereignisse, die von Windows-System Komponenten protokolliert werden. Der Ladefehler eines Treibers oder einer anderen Systemkomponente während des Startvorgangs wird z. B. im Systemprotokoll aufgezeichnet. Die von Systemkomponenten protokollierten Ereignistypen werden von Server im Vorfeld festgelegt.
+  - **System Protokolle**     Das Systemprotokoll enthält Ereignisse, die von Windows-Systemkomponenten protokolliert werden. Der Ladefehler eines Treibers oder einer anderen Systemkomponente während des Startvorgangs wird z. B. im Systemprotokoll aufgezeichnet. Die von Systemkomponenten protokollierten Ereignistypen werden von Server im Vorfeld festgelegt.
 
-  - **Lync Server 2013**   das Protokollierungstool zeichnet wichtige Ereignisse im Zusammenhang mit Authentifizierung, Verbindungen und Benutzeraktionen auf. Nachdem Sie die Diagnoseprotokollierung aktiviert haben, können Sie die Protokolleinträge in der Ereignisanzeige anzeigen.
+  - **Lync Server 2013**     Das Protokollierungstool zeichnet wichtige Ereignisse im Zusammenhang mit Authentifizierung, Verbindungen und Benutzeraktionen auf. Nachdem Sie die Diagnoseprotokollierung aktiviert haben, können Sie die Protokolleinträge in der Ereignisanzeige anzeigen.
 
 <div>
 
@@ -93,9 +95,9 @@ Das Management Pack bietet die folgenden Features:
 
 Weitere Informationen zu lync Server 2013 Management Pack finden Sie unter [Monitoring lync Server 2013 with System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
 
-**Ereignis Kamm**   mit dem Tool "Ereignis Kamm" werden bestimmte Ereignisse aus den Ereignisprotokollen mehrerer Computer an einem zentralen Speicherort erfasst. Sie können nur die Ereignis-IDs oder Ereignisquellen melden, die es angibt. Weitere Informationen zum Ereignis Kamm finden Sie auf der Website für [Kontosperrung und Verwaltungs Tools](https://go.microsoft.com/fwlink/?linkid=35607) .
+**Ereignis Kamm**     Das Tool Event Comb sammelt bestimmte Ereignisse aus den Ereignisprotokollen mehrerer Computer an einem zentralen Standort. Sie können nur die Ereignis-IDs oder Ereignisquellen melden, die es angibt. Weitere Informationen zum Ereignis Kamm finden Sie auf der Website für [Kontosperrung und Verwaltungs Tools](https://go.microsoft.com/fwlink/?linkid=35607) .
 
-**Ereignisauslöser**   in Windows Server 2012 können Sie "eine Aufgabe an dieses Ereignis anfügen" in der Windows-Ereignisanzeige, bei der ein Administrator entweder ein Programm ausführen, eine e-Mail-Nachricht senden oder eine Bildschirm Nachricht anzeigen kann. Weitere Informationen zu diesem Feature finden Sie im Windows Server 2008 R2 Thema [Ausführen einer Aufgabe als Reaktion auf ein bestimmtes Ereignis](https://technet.microsoft.com/library/cc748900.aspx). Sie können auch Befehlszeilentools wie "EventTrigger. exe" zum Erstellen und Abfragen von Ereignisprotokollen und zum Zuordnen von Programmen zu bestimmten protokollierten Ereignissen verwenden. Mit Eventtriggers. exe können Sie Ereignisauslöser erstellen, die Programme ausführen, wenn bestimmte Ereignisse eintreten.
+**Ereignisauslöser**     In Windows Server 2012 können Sie "eine Aufgabe an dieses Ereignis anfügen" in der Windows-Ereignisanzeige, bei der ein Administrator entweder ein Programm ausführen, eine e-Mail-Nachricht senden oder eine Bildschirm Nachricht anzeigen kann. Weitere Informationen zu diesem Feature finden Sie im Windows Server 2008 R2 Thema [Ausführen einer Aufgabe als Reaktion auf ein bestimmtes Ereignis](https://technet.microsoft.com/library/cc748900.aspx). Sie können auch Befehlszeilentools wie "Eventtrigger.exe" zum Erstellen und Abfragen von Ereignisprotokollen und zum Zuordnen von Programmen zu bestimmten protokollierten Ereignissen verwenden. Mithilfe Eventtriggers.exe können Sie Ereignisauslöser erstellen, die Programme ausführen, wenn bestimmte Ereignisse auftreten.
 
 <div>
 

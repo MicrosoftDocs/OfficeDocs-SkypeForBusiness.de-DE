@@ -1,6 +1,6 @@
 ---
 title: Stream-Klassifizierung im Dashboard für die Anrufqualität (CQD)
-ms.author: serdarsacobsen
+ms.author: serdars
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität in das Anruf Qualitäts Dashboard (CQD) für Microsoft Teams und Skype for Business Online eingestuft wird.
-ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526352"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Stream-Klassifizierung im Dashboard für die Anrufqualität (CQD)
 
@@ -50,7 +50,7 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audiost
 
 ### <a name="video-classifier-due-to-freeze"></a>Video Klassifizierung durch Einfrieren
 
-Der Videostream wird basierend auf dem Wert eines Klassifizierungs Ergebnisses als " _gut_ " oder " _schlecht_ " gekennzeichnet, um zu schätzen, dass der Endbenutzer ein gefrorenes Video erlebt hat. Diese Klassifizierung steht nur für Microsoft Teams-Produkt zur Verfügung.
+Der Videostream wird basierend auf dem Wert eines Klassifizierungs Ergebnisses als "  _gut_ " oder " _schlecht_ " gekennzeichnet, um zu schätzen, dass der Endbenutzer ein gefrorenes Video erlebt hat. Diese Klassifizierung steht nur für Microsoft Teams-Produkt zur Verfügung.
 
 |Schritt #|Metrik|Szenario|Bedingung |Klassifizierung, wenn die Bedingung wahr ist |Klassifizierung, wenn die Bedingung falsch ist |Klassifizierung, wenn die Metrik nicht verfügbar ist |Erklärung |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |

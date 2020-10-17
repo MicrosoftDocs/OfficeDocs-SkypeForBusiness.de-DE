@@ -12,20 +12,22 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b805553349e6958671bc024cb862b296b74fc697
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4c85dd6da5ba15a6ce946c4e331e09c8617974
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525822"
 ---
+# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Erstellen oder Ändern einer Warteschlange in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Erstellen oder Ändern einer Warteschlange in lync Server 2013
+
 
 </div>
 
@@ -95,11 +97,11 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
       - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-      - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format SIP\<:\>@\<username Domain\> Name ein (beispielsweise SIP:Bob@contoso.com).
+      - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format SIP: \<username\> @ \<domainname\> (beispielsweise SIP:Bob@contoso.com) ein.
     
-      - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer\<im\>@\<Format SIP\> : Number Domain Name ein (beispielsweise SIP:+14255550121@contoso.com).
+      - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer im Format SIP: \<number\> @ \<domainname\> (beispielsweise SIP:+14255550121@contoso.com) ein.
     
-      - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI für den\<Benutzer\>@\<im Format\>SIP: username Domain Name ein.
+      - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI für den Benutzer im Format SIP: ein \<username\> @ \<domainname\> .
     
       - Klicken Sie auf **An andere Warteschleife weiterleiten**, und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
 
@@ -115,11 +117,11 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
       - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-      - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format SIP\<:\>@\<username Domain\> Name ein (beispielsweise SIP:Bob@contoso.com).
+      - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format SIP: \<username\> @ \<domainname\> (beispielsweise SIP:Bob@contoso.com) ein.
     
-      - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer\<im\>@\<Format SIP\> : Number Domain Name ein (beispielsweise SIP:+14255550121@contoso.com).
+      - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer im Format SIP: \<number\> @ \<domainname\> (beispielsweise SIP:+14255550121@contoso.com) ein.
     
-      - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI für den\<Benutzer\>@\<im Format\>SIP: username Domain Name ein.
+      - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI für den Benutzer im Format SIP: ein \<username\> @ \<domainname\> .
     
       - Klicken Sie auf **An andere Warteschleife weiterleiten**, und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
 

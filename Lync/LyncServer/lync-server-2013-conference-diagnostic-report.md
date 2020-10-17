@@ -12,20 +12,22 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb475db2d1a12dcfc2b95dbf4711191767b18236
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1c4489e13f794a924e1512a1e6ed7b32f73da8f1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525992"
 ---
+# <a name="conference-diagnostic-report-in-lync-server-2013"></a>Konferenz Diagnosebericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-diagnostic-report-in-lync-server-2013"></a>Konferenz Diagnosebericht in lync Server 2013
+
 
 </div>
 
@@ -204,7 +206,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Diagnoseberi
 <tr class="odd">
 <td><p><strong>Anzahl der erwarteten Fehler</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Konferenzen, &quot;bei denen&quot; ein erwarteter Fehler aufgetreten ist.</p>
+<td><p>Die Gesamtzahl der Konferenzen, bei denen ein &quot; Erwarteter Fehler &quot; aufgetreten ist.</p>
 <p>Ein erwarteter Fehler ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf Nicht stören festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +217,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Diagnoseberi
 <tr class="odd">
 <td><p><strong>Anzahl der unerwarteten Fehler</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Konferenzen, &quot;bei denen&quot; ein unerwarteter Fehler aufgetreten ist.</p>
+<td><p>Die Gesamtzahl der Konferenzen, bei denen ein &quot; unerwarteter Fehler &quot; aufgetreten ist.</p>
 <p>Ein unerwarteter Fehler ist ein Fehler, der in einem System auftritt, das abgesehen davon anscheinend intakt ist. Beispielsweise sollte ein Anruf nicht beendet werden, wenn der Anrufer in der Warteschleife platziert ist. Geschieht dies jedoch, würde dieser Vorgang als unerwarteter Fehler gekennzeichnet werden.</p></td>
 </tr>
 <tr class="even">

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6379d110fc25ba31062d211d3893567ad92fda1f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526202"
 ---
+# <a name="checking-disk-usage-in-lync-server-2013"></a>Überprüfen der Datenträgerverwendung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a>Überprüfen der Datenträgerverwendung in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2014-04-30_
 
 Festplatten sind ein wichtiger Bestandteil der lync Server 2013-Bereitstellung. Ohne ausreichend freies Festplattenvolume kann weder das Betriebssystem noch die lync Server 2013 Datenbanken ordnungsgemäß funktionieren. Sie müssen die Statistiken für lync Server 2013 Back-End-Datenbanken täglich überwachen, um sicherzustellen, dass auf den Servern nicht genügend Speicherplatz zur Verfügung steht und dass Sie nach Bedarf Speicherressourcen hinzufügen können.
 
-Neben der Überprüfung des Speicherplatzes auf Datenträgern, die das Betriebssystem, die Programmdateien, die Datenbank und die Transaktionsprotokolle (lync Server 2013 Back-End) hosten, sollten Sie auch die Verwendung des Dateisystems überwachen, das Speicherplatz für Dateifreigaben enthält, die die folgenden wichtigen Daten
+Neben der Überprüfung des Speicherplatzes auf Datenträgern, die das Betriebssystem, die Programmdateien, die Datenbank und die Transaktionsprotokolle (lync Server 2013 Back-End) hosten, sollten Sie auch die Verwendung des Dateisystems überwachen, das Speicherplatz für Dateifreigaben enthält, die die folgenden wichtigen Daten enthalten:
 
   - Besprechungsinhalte
 
@@ -67,11 +69,11 @@ Zur Unterstützung der Problembehandlung und Notfall Wiederherstellungssituation
 
 Sie können den freien Speicherplatz auf der Festplatte mithilfe der folgenden Methoden überprüfen:
 
-1.  **System Center Operations Manager**   System Center Operations Manager kann verwendet werden, um Administratoren zu warnen, wenn der Speicherplatz auf dem Volume eingeschränkt ist.
+1.  **System Center Operations Manager**     System Center Operations Manager kann verwendet werden, um Administratoren zu warnen, wenn der Speicherplatz auf dem Volume eingeschränkt ist.
 
-2.  ****   Durch Ausführen eines Skripts wird der Speicherplatz durch Ausführen eines Skripts überwacht, das Ihnen eine Nachricht sendet, wenn der verfügbare Festplattenspeicherplatz unter 20 Prozent liegt. Ein Beispielskript im Microsoft Script Center auf TechNet finden Sie unter:[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **Ausführen eines Skripts**     Überwachen Sie den Speicherplatz, indem Sie ein Skript ausführen, das Ihnen eine Nachricht sendet, wenn der verfügbare Festplattenspeicherplatz unter 20 Prozent liegt. Ein Beispielskript im Microsoft Script Center auf TechNet finden Sie unter: [https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **Windows-Explorer**   verwenden Sie Windows-Explorer, um auf Datenträgern auf Volumes zu suchen, in denen lync Server 2013 Protokolle und Datenbanken gespeichert sind.
+3.  **Windows-Explorer**     Überprüfen Sie mithilfe von Windows-Explorer den Speicherplatz auf Volumes, in denen lync Server 2013 Protokolle und Datenbanken gespeichert sind.
 
 </div>
 
