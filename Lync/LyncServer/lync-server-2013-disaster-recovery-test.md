@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Notfall Wiederherstellungstest'
+description: 'Lync Server 2013: Notfall Wiederherstellungstest.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fa22abd37f656134c54381d63f29d3160ff85257
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528952"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557661"
 ---
-# <a name="disaster-recovery-test-in-lync-server-2013"></a><span data-ttu-id="f3453-102">Notfall Wiederherstellungstest in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f3453-102">Disaster recovery test in Lync Server 2013</span></span>
+# <a name="disaster-recovery-test-in-lync-server-2013"></a><span data-ttu-id="50f25-103">Notfall Wiederherstellungstest in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50f25-103">Disaster recovery test in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,74 +38,74 @@ ms.locfileid: "48528952"
 
 <span> </span>
 
-<span data-ttu-id="f3453-103">_**Letztes Änderungsstand des Themas:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="f3453-103">_**Topic Last Modified:** 2015-01-26_</span></span>
+<span data-ttu-id="50f25-104">_**Letztes Änderungsstand des Themas:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="50f25-104">_**Topic Last Modified:** 2015-01-26_</span></span>
 
-<span data-ttu-id="f3453-104">Führen Sie eine Systemwiederherstellung für einen lync Server 2013 Pool Server aus, um Ihren dokumentierten Notfall Wiederherstellungsprozess zu testen.</span><span class="sxs-lookup"><span data-stu-id="f3453-104">Perform a system recovery for a Lync Server 2013 pool server to test your documented disaster recovery process.</span></span> <span data-ttu-id="f3453-105">Bei diesem Test wird ein vollständiger Hardwarefehler für einen Server simuliert, und es wird sichergestellt, dass die Ressourcen, Pläne und Daten für die Wiederherstellung zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="f3453-105">This test will simulate a complete hardware failure for one server, and will help guarantee that the resources, plans, and data is available for recovery.</span></span> <span data-ttu-id="f3453-106">Versuchen Sie, den Fokus des Tests jeden Monat zu drehen, damit Ihre Organisation jedes Mal den Fehler eines anderen Servers oder eines anderen Geräts testet.</span><span class="sxs-lookup"><span data-stu-id="f3453-106">Try to rotate the focus of the test each month so that your organization tests the failure of a different server or other piece of equipment every time.</span></span>
+<span data-ttu-id="50f25-105">Führen Sie eine Systemwiederherstellung für einen lync Server 2013 Pool Server aus, um Ihren dokumentierten Notfall Wiederherstellungsprozess zu testen.</span><span class="sxs-lookup"><span data-stu-id="50f25-105">Perform a system recovery for a Lync Server 2013 pool server to test your documented disaster recovery process.</span></span> <span data-ttu-id="50f25-106">Bei diesem Test wird ein vollständiger Hardwarefehler für einen Server simuliert, und es wird sichergestellt, dass die Ressourcen, Pläne und Daten für die Wiederherstellung zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="50f25-106">This test will simulate a complete hardware failure for one server, and will help guarantee that the resources, plans, and data is available for recovery.</span></span> <span data-ttu-id="50f25-107">Versuchen Sie, den Fokus des Tests jeden Monat zu drehen, damit Ihre Organisation jedes Mal den Fehler eines anderen Servers oder eines anderen Geräts testet.</span><span class="sxs-lookup"><span data-stu-id="50f25-107">Try to rotate the focus of the test each month so that your organization tests the failure of a different server or other piece of equipment every time.</span></span>
 
-<span data-ttu-id="f3453-107">Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfall Wiederherstellungstests durchführen, unterschiedlich ist.</span><span class="sxs-lookup"><span data-stu-id="f3453-107">Note that the schedule by which organizations perform Disaster Recovery testing will vary.</span></span> <span data-ttu-id="f3453-108">Es ist sehr wichtig, dass Tests zur Notfallwiederherstellung nicht ignoriert oder vernachlässigt werden.</span><span class="sxs-lookup"><span data-stu-id="f3453-108">It is very important that disaster recovery testing is not ignored or neglected.</span></span>
+<span data-ttu-id="50f25-108">Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfall Wiederherstellungstests durchführen, unterschiedlich ist.</span><span class="sxs-lookup"><span data-stu-id="50f25-108">Note that the schedule by which organizations perform Disaster Recovery testing will vary.</span></span> <span data-ttu-id="50f25-109">Es ist sehr wichtig, dass Tests zur Notfallwiederherstellung nicht ignoriert oder vernachlässigt werden.</span><span class="sxs-lookup"><span data-stu-id="50f25-109">It is very important that disaster recovery testing is not ignored or neglected.</span></span>
 
 <div>
 
 
-<span data-ttu-id="f3453-109">Exportieren Sie die lync Server 2013 Topologie, Richtlinien und Konfigurationseinstellungen in eine Datei.</span><span class="sxs-lookup"><span data-stu-id="f3453-109">Export your Lync Server 2013 topology, policies, and configuration settings to a file.</span></span> <span data-ttu-id="f3453-110">Diese Datei kann unter anderem dann verwendet werden, um diese Informationen im zentralen Verwaltungsspeicher wiederherzustellen, nachdem ein Upgrade, ein Hardwarefehler oder ein anderes Problem zu Datenverlust geführt hat.</span><span class="sxs-lookup"><span data-stu-id="f3453-110">Among other things, this file can then be used to restore this information to the Central Management store after an upgrade, a hardware failure, or some other issue has resulted in data loss.</span></span>
+<span data-ttu-id="50f25-110">Exportieren Sie die lync Server 2013 Topologie, Richtlinien und Konfigurationseinstellungen in eine Datei.</span><span class="sxs-lookup"><span data-stu-id="50f25-110">Export your Lync Server 2013 topology, policies, and configuration settings to a file.</span></span> <span data-ttu-id="50f25-111">Diese Datei kann unter anderem dann verwendet werden, um diese Informationen im zentralen Verwaltungsspeicher wiederherzustellen, nachdem ein Upgrade, ein Hardwarefehler oder ein anderes Problem zu Datenverlust geführt hat.</span><span class="sxs-lookup"><span data-stu-id="50f25-111">Among other things, this file can then be used to restore this information to the Central Management store after an upgrade, a hardware failure, or some other issue has resulted in data loss.</span></span>
 
-<span data-ttu-id="f3453-111">Importieren Sie die lync Server 2013 Topologie, Richtlinien und Konfigurationseinstellungen in den zentralen Verwaltungsspeicher oder auf den lokalen Computer, wie in den folgenden Befehlen dargestellt:</span><span class="sxs-lookup"><span data-stu-id="f3453-111">Import your Lync Server 2013 topology, policies, and configuration settings to either the Central Management store or to the local computer as shown in the following commands:</span></span>
+<span data-ttu-id="50f25-112">Importieren Sie die lync Server 2013 Topologie, Richtlinien und Konfigurationseinstellungen in den zentralen Verwaltungsspeicher oder auf den lokalen Computer, wie in den folgenden Befehlen dargestellt:</span><span class="sxs-lookup"><span data-stu-id="50f25-112">Import your Lync Server 2013 topology, policies, and configuration settings to either the Central Management store or to the local computer as shown in the following commands:</span></span>
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
-<span data-ttu-id="f3453-112">So sichern Sie Produktions lync Server 2013 Daten:</span><span class="sxs-lookup"><span data-stu-id="f3453-112">To back up production Lync Server 2013 data:</span></span>
+<span data-ttu-id="50f25-113">So sichern Sie Produktions lync Server 2013 Daten:</span><span class="sxs-lookup"><span data-stu-id="50f25-113">To back up production Lync Server 2013 data:</span></span>
 
-  - <span data-ttu-id="f3453-113">Sichern Sie die RTC-und LCSLog-Datenbanken, indem Sie den Standard SQL Server Sicherungsvorgang verwenden, um die Datenbank auf ein Datei-oder Bandsicherungsgerät zu kippen.</span><span class="sxs-lookup"><span data-stu-id="f3453-113">Back up the RTC and LCSLog databases by using the standard SQL Server backup process to dump the database to a file or tape dump device.</span></span>
+  - <span data-ttu-id="50f25-114">Sichern Sie die RTC-und LCSLog-Datenbanken, indem Sie den Standard SQL Server Sicherungsvorgang verwenden, um die Datenbank auf ein Datei-oder Bandsicherungsgerät zu kippen.</span><span class="sxs-lookup"><span data-stu-id="50f25-114">Back up the RTC and LCSLog databases by using the standard SQL Server backup process to dump the database to a file or tape dump device.</span></span>
 
-  - <span data-ttu-id="f3453-114">Verwenden Sie die Sicherungsanwendung eines Drittanbieters, um die Daten in Datei oder auf Band zu sichern.</span><span class="sxs-lookup"><span data-stu-id="f3453-114">Use third-party backup application to back up the data to file or to tape.</span></span>
+  - <span data-ttu-id="50f25-115">Verwenden Sie die Sicherungsanwendung eines Drittanbieters, um die Daten in Datei oder auf Band zu sichern.</span><span class="sxs-lookup"><span data-stu-id="50f25-115">Use third-party backup application to back up the data to file or to tape.</span></span>
 
-  - <span data-ttu-id="f3453-115">Verwenden Sie das Export-CsUserData-Cmdlet, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="f3453-115">Use the Export-CsUserData cmdlet to create an XML export of the whole RTC database.</span></span>
+  - <span data-ttu-id="50f25-116">Verwenden Sie das Export-CsUserData-Cmdlet, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="50f25-116">Use the Export-CsUserData cmdlet to create an XML export of the whole RTC database.</span></span>
 
-  - <span data-ttu-id="f3453-116">Verwenden Sie die Dateisystemsicherung oder Drittanbieter, um Besprechungsinhalte und Kompatibilitäts Protokolle zu sichern.</span><span class="sxs-lookup"><span data-stu-id="f3453-116">Use the file system backup or third-party to back up meeting content and compliance logs.</span></span>
+  - <span data-ttu-id="50f25-117">Verwenden Sie die Dateisystemsicherung oder Drittanbieter, um Besprechungsinhalte und Kompatibilitäts Protokolle zu sichern.</span><span class="sxs-lookup"><span data-stu-id="50f25-117">Use the file system backup or third-party to back up meeting content and compliance logs.</span></span>
 
-  - <span data-ttu-id="f3453-117">Verwenden Sie das Befehlszeilentool Export-CsConfiguration, um lync Server 2013 Einstellungen zu sichern.</span><span class="sxs-lookup"><span data-stu-id="f3453-117">Use the Export-CsConfiguration command-line tool to back up Lync Server 2013 settings.</span></span>
+  - <span data-ttu-id="50f25-118">Verwenden Sie das Befehlszeilentool Export-CsConfiguration, um lync Server 2013 Einstellungen zu sichern.</span><span class="sxs-lookup"><span data-stu-id="50f25-118">Use the Export-CsConfiguration command-line tool to back up Lync Server 2013 settings.</span></span>
 
-<span data-ttu-id="f3453-118">Der erste Schritt beim Failover-Verfahren umfasst die erzwungene Verlagerung von Benutzern aus dem Produktionspool in den Notfall Wiederherstellungs Pool.</span><span class="sxs-lookup"><span data-stu-id="f3453-118">The first step in the failover procedure includes a forced move of users from the production pool to the Disaster Recovery pool.</span></span>
+<span data-ttu-id="50f25-119">Der erste Schritt beim Failover-Verfahren umfasst die erzwungene Verlagerung von Benutzern aus dem Produktionspool in den Notfall Wiederherstellungs Pool.</span><span class="sxs-lookup"><span data-stu-id="50f25-119">The first step in the failover procedure includes a forced move of users from the production pool to the Disaster Recovery pool.</span></span>
 
-<span data-ttu-id="f3453-119">Dies ist eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Benutzer Verlagerung zu akzeptieren.</span><span class="sxs-lookup"><span data-stu-id="f3453-119">This will be a forced move because the production pool won't be available to accept the user relocation.</span></span>
+<span data-ttu-id="50f25-120">Dies ist eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Benutzer Verlagerung zu akzeptieren.</span><span class="sxs-lookup"><span data-stu-id="50f25-120">This will be a forced move because the production pool won't be available to accept the user relocation.</span></span>
 
-<span data-ttu-id="f3453-120">Der lync Server 2013 Prozess "Benutzer verlegen" ist eine Änderung an einem Attribut für das Benutzerkontoobjekt zusätzlich zu einer Datensatzaktualisierung in der RTC SQL-Datenbank.</span><span class="sxs-lookup"><span data-stu-id="f3453-120">The Lync Server 2013 move user process is effectively a change to an attribute on the user account object in addition to a record update on the RTC SQL database.</span></span>
+<span data-ttu-id="50f25-121">Der lync Server 2013 Prozess "Benutzer verlegen" ist eine Änderung an einem Attribut für das Benutzerkontoobjekt zusätzlich zu einer Datensatzaktualisierung in der RTC SQL-Datenbank.</span><span class="sxs-lookup"><span data-stu-id="50f25-121">The Lync Server 2013 move user process is effectively a change to an attribute on the user account object in addition to a record update on the RTC SQL database.</span></span>
 
-<span data-ttu-id="f3453-121">Diese Daten können über die folgenden beiden Prozesse wiederhergestellt werden:</span><span class="sxs-lookup"><span data-stu-id="f3453-121">This data can be restored through the following two processes:</span></span>
+<span data-ttu-id="50f25-122">Diese Daten können über die folgenden beiden Prozesse wiederhergestellt werden:</span><span class="sxs-lookup"><span data-stu-id="50f25-122">This data can be restored through the following two processes:</span></span>
 
-  - <span data-ttu-id="f3453-122">Die RTC-Datenbank kann vom ursprünglichen Sicherungsspeicher Gerät aus dem Produktions SQL Server mithilfe des standardmäßigen SQL Server Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungstools eines Drittanbieters wiederhergestellt werden.</span><span class="sxs-lookup"><span data-stu-id="f3453-122">RTC database can be restored from the original backup dump device from the production SQL Server using the standard SQL Server restore process, or using a third-party backup/restore utility.</span></span>
+  - <span data-ttu-id="50f25-123">Die RTC-Datenbank kann vom ursprünglichen Sicherungsspeicher Gerät aus dem Produktions SQL Server mithilfe des standardmäßigen SQL Server Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungstools eines Drittanbieters wiederhergestellt werden.</span><span class="sxs-lookup"><span data-stu-id="50f25-123">RTC database can be restored from the original backup dump device from the production SQL Server using the standard SQL Server restore process, or using a third-party backup/restore utility.</span></span>
 
-  - <span data-ttu-id="f3453-123">Benutzer Kontaktdaten können mit dem DBIMPEXP.exe-Dienstprogramm mithilfe der XML-Datei wiederhergestellt werden, die aus dem Export der Produktions SQL Server erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="f3453-123">User contact data can be restored with the DBIMPEXP.exe utility using the XML file that was created from the production SQL Server export.</span></span>
+  - <span data-ttu-id="50f25-124">Benutzer Kontaktdaten können mit dem DBIMPEXP.exe-Dienstprogramm mithilfe der XML-Datei wiederhergestellt werden, die aus dem Export der Produktions SQL Server erstellt wurde.</span><span class="sxs-lookup"><span data-stu-id="50f25-124">User contact data can be restored with the DBIMPEXP.exe utility using the XML file that was created from the production SQL Server export.</span></span>
 
-<span data-ttu-id="f3453-124">Nachdem diese Daten wiederhergestellt wurden, können Benutzer effektiv eine Verbindung mit dem Notfall Wiederherstellungs lync Server 2013-Pool herstellen und wie gewohnt arbeiten.</span><span class="sxs-lookup"><span data-stu-id="f3453-124">After this data is restored, users can effectively connect to the Disaster Recovery Lync Server 2013 pool, and operate as usual.</span></span>
+<span data-ttu-id="50f25-125">Nachdem diese Daten wiederhergestellt wurden, können Benutzer effektiv eine Verbindung mit dem Notfall Wiederherstellungs lync Server 2013-Pool herstellen und wie gewohnt arbeiten.</span><span class="sxs-lookup"><span data-stu-id="50f25-125">After this data is restored, users can effectively connect to the Disaster Recovery Lync Server 2013 pool, and operate as usual.</span></span>
 
-<span data-ttu-id="f3453-125">Damit Benutzer eine Verbindung mit dem Notfall Wiederherstellungs lync Server 2013-Pool herstellen können, ist eine Änderung des DNS-Eintrags erforderlich.</span><span class="sxs-lookup"><span data-stu-id="f3453-125">To enable users to connect to the Disaster Recovery Lync Server 2013 pool, a DNS record change will be required.</span></span>
+<span data-ttu-id="50f25-126">Damit Benutzer eine Verbindung mit dem Notfall Wiederherstellungs lync Server 2013-Pool herstellen können, ist eine Änderung des DNS-Eintrags erforderlich.</span><span class="sxs-lookup"><span data-stu-id="50f25-126">To enable users to connect to the Disaster Recovery Lync Server 2013 pool, a DNS record change will be required.</span></span>
 
-<span data-ttu-id="f3453-126">Auf den Produktions lync Server 2013 Pool wird von Clients verwiesen, die die Auto-Konfiguration und DNS-SRV-Einträge von verwenden:</span><span class="sxs-lookup"><span data-stu-id="f3453-126">The production Lync Server 2013 pool will be referenced by clients using the auto-configuration and DNS SRV records of:</span></span>
+<span data-ttu-id="50f25-127">Auf den Produktions lync Server 2013 Pool wird von Clients verwiesen, die die Auto-Konfiguration und DNS-SRV-Einträge von verwenden:</span><span class="sxs-lookup"><span data-stu-id="50f25-127">The production Lync Server 2013 pool will be referenced by clients using the auto-configuration and DNS SRV records of:</span></span>
 
-  - <span data-ttu-id="f3453-127">SRV: \_ SIP. \_ TLS.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-127">SRV: \_sip.\_tls.\<domain\></span></span> <span data-ttu-id="f3453-128">/CNAME: SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-128">/CNAME: SIP.\<domain\></span></span>
+  - <span data-ttu-id="50f25-128">SRV: \_ SIP. \_ TLS.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-128">SRV: \_sip.\_tls.\<domain\></span></span> <span data-ttu-id="50f25-129">/CNAME: SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-129">/CNAME: SIP.\<domain\></span></span>
 
-  - <span data-ttu-id="f3453-129">CNAME: SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-129">CNAME: SIP.\<domain\></span></span> <span data-ttu-id="f3453-130">/cvc-pool-1.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-130">/cvc-pool-1.\<domain\></span></span>
+  - <span data-ttu-id="50f25-130">CNAME: SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-130">CNAME: SIP.\<domain\></span></span> <span data-ttu-id="50f25-131">/cvc-pool-1.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-131">/cvc-pool-1.\<domain\></span></span>
 
-<span data-ttu-id="f3453-131">Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den FQDN des DROCSPool verweist:</span><span class="sxs-lookup"><span data-stu-id="f3453-131">To facilitate the failover, this CNAME record must be updated to reference the DROCSPool FQDN:</span></span>
+<span data-ttu-id="50f25-132">Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den FQDN des DROCSPool verweist:</span><span class="sxs-lookup"><span data-stu-id="50f25-132">To facilitate the failover, this CNAME record must be updated to reference the DROCSPool FQDN:</span></span>
 
-  - <span data-ttu-id="f3453-132">CNAME: SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-132">CNAME: SIP.\<domain\></span></span> <span data-ttu-id="f3453-133">/DROCSPool.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-133">/DROCSPool.\<domain\></span></span>
+  - <span data-ttu-id="50f25-133">CNAME: SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-133">CNAME: SIP.\<domain\></span></span> <span data-ttu-id="50f25-134">/DROCSPool.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-134">/DROCSPool.\<domain\></span></span>
 
-  - <span data-ttu-id="f3453-134">SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-134">Sip.\<domain\></span></span>
+  - <span data-ttu-id="50f25-135">SIP.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-135">Sip.\<domain\></span></span>
 
-  - <span data-ttu-id="f3453-135">AV.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-135">AV.\<domain\></span></span>
+  - <span data-ttu-id="50f25-136">AV.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-136">AV.\<domain\></span></span>
 
-  - <span data-ttu-id="f3453-136">webconf.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-136">webconf.\<domain\></span></span>
+  - <span data-ttu-id="50f25-137">webconf.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-137">webconf.\<domain\></span></span>
 
-  - <span data-ttu-id="f3453-137">OCSServices.\<domain\></span><span class="sxs-lookup"><span data-stu-id="f3453-137">OCSServices.\<domain\></span></span>
+  - <span data-ttu-id="50f25-138">OCSServices.\<domain\></span><span class="sxs-lookup"><span data-stu-id="50f25-138">OCSServices.\<domain\></span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="f3453-138">Ausführliche Verwaltungs-und Verwaltungsverfahren finden Sie unter <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sichern und Wiederherstellen von lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="f3453-138">For detailed administration and management procedures, see <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Backing up and restoring Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="50f25-139">Ausführliche Verwaltungs-und Verwaltungsverfahren finden Sie unter <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sichern und Wiederherstellen von lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="50f25-139">For detailed administration and management procedures, see <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Backing up and restoring Lync Server 2013</A>.</span></span>
 
 
 
@@ -114,16 +115,16 @@ ms.locfileid: "48528952"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f3453-139">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f3453-139">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="50f25-140">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="50f25-140">See Also</span></span>
 
 
-[<span data-ttu-id="f3453-140">Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f3453-140">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[<span data-ttu-id="f3453-141">Cmdlets für Sicherung und hohe Verfügbarkeit in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f3453-141">Backup and high availability cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
+[<span data-ttu-id="50f25-141">Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50f25-141">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[<span data-ttu-id="50f25-142">Cmdlets für Sicherung und hohe Verfügbarkeit in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50f25-142">Backup and high availability cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
 
 
-[<span data-ttu-id="f3453-142">Import-CsConfiguration</span><span class="sxs-lookup"><span data-stu-id="f3453-142">Import-CsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
-[<span data-ttu-id="f3453-143">Sichern und Wiederherstellen lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f3453-143">Backing up and restoring Lync Server 2013</span></span>](lync-server-2013-backing-up-and-restoring-lync-server.md)  
-[<span data-ttu-id="f3453-144">Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst</span><span class="sxs-lookup"><span data-stu-id="f3453-144">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</span></span>](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[<span data-ttu-id="50f25-143">Import-CsConfiguration</span><span class="sxs-lookup"><span data-stu-id="50f25-143">Import-CsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
+[<span data-ttu-id="50f25-144">Sichern und Wiederherstellen lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50f25-144">Backing up and restoring Lync Server 2013</span></span>](lync-server-2013-backing-up-and-restoring-lync-server.md)  
+[<span data-ttu-id="50f25-145">Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst</span><span class="sxs-lookup"><span data-stu-id="50f25-145">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</span></span>](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

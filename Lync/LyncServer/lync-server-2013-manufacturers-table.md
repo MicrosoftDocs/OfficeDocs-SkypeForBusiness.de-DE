@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: herstellertabelle'
+description: 'Lync Server 2013: herstellertabelle.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c56d3895c87e9278d8d508328cc21584ff9297b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ecd2a7432cbe8b3ee83e8e5f0890f915dd86207e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524772"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556571"
 ---
-# <a name="manufacturers-table-in-lync-server-2013"></a><span data-ttu-id="48919-102">Herstellertabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48919-102">Manufacturers table in Lync Server 2013</span></span>
+# <a name="manufacturers-table-in-lync-server-2013"></a><span data-ttu-id="d9c7f-103">Herstellertabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9c7f-103">Manufacturers table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48524772"
 
 <span> </span>
 
-<span data-ttu-id="48919-103">_**Letztes Änderungsstand des Themas:** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="48919-103">_**Topic Last Modified:** 2010-11-07_</span></span>
+<span data-ttu-id="d9c7f-104">_**Letztes Änderungsstand des Themas:** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="d9c7f-104">_**Topic Last Modified:** 2010-11-07_</span></span>
 
-<span data-ttu-id="48919-104">Die Tabelle "Hersteller" ist eine unterstützende Tabelle.</span><span class="sxs-lookup"><span data-stu-id="48919-104">The Manufacturers table is a supporting table.</span></span> <span data-ttu-id="48919-105">Jeder Datensatz speichert Informationen zu einem Gerät (Telefonhersteller).</span><span class="sxs-lookup"><span data-stu-id="48919-105">Each record stores information about one device (desk phone) manufacturer.</span></span>
+<span data-ttu-id="d9c7f-105">Die Tabelle "Hersteller" ist eine unterstützende Tabelle.</span><span class="sxs-lookup"><span data-stu-id="d9c7f-105">The Manufacturers table is a supporting table.</span></span> <span data-ttu-id="d9c7f-106">Jeder Datensatz speichert Informationen zu einem Gerät (Telefonhersteller).</span><span class="sxs-lookup"><span data-stu-id="d9c7f-106">Each record stores information about one device (desk phone) manufacturer.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48524772"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="48919-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="48919-106">Column</span></span></th>
-<th><span data-ttu-id="48919-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="48919-107">Data Type</span></span></th>
-<th><span data-ttu-id="48919-108">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="48919-108">Key/Index</span></span></th>
-<th><span data-ttu-id="48919-109">Details</span><span class="sxs-lookup"><span data-stu-id="48919-109">Details</span></span></th>
+<th><span data-ttu-id="d9c7f-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="d9c7f-107">Column</span></span></th>
+<th><span data-ttu-id="d9c7f-108">Datentyp</span><span class="sxs-lookup"><span data-stu-id="d9c7f-108">Data Type</span></span></th>
+<th><span data-ttu-id="d9c7f-109">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="d9c7f-109">Key/Index</span></span></th>
+<th><span data-ttu-id="d9c7f-110">Details</span><span class="sxs-lookup"><span data-stu-id="d9c7f-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="48919-110"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="48919-110"><strong>ManufacturerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="48919-111">int</span><span class="sxs-lookup"><span data-stu-id="48919-111">int</span></span></p></td>
-<td><p><span data-ttu-id="48919-112">Primary</span><span class="sxs-lookup"><span data-stu-id="48919-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="48919-113">Eindeutige Zahl, die diesen Hersteller identifiziert.</span><span class="sxs-lookup"><span data-stu-id="48919-113">Unique number identifying this manufacturer.</span></span></p></td>
+<td><p><span data-ttu-id="d9c7f-111"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="d9c7f-111"><strong>ManufacturerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9c7f-112">int</span><span class="sxs-lookup"><span data-stu-id="d9c7f-112">int</span></span></p></td>
+<td><p><span data-ttu-id="d9c7f-113">Primary</span><span class="sxs-lookup"><span data-stu-id="d9c7f-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="d9c7f-114">Eindeutige Zahl, die diesen Hersteller identifiziert.</span><span class="sxs-lookup"><span data-stu-id="d9c7f-114">Unique number identifying this manufacturer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="48919-114"><strong>Hersteller</strong></span><span class="sxs-lookup"><span data-stu-id="48919-114"><strong>Manufacturer</strong></span></span></p></td>
-<td><p><span data-ttu-id="48919-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="48919-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d9c7f-115"><strong>Hersteller</strong></span><span class="sxs-lookup"><span data-stu-id="d9c7f-115"><strong>Manufacturer</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9c7f-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d9c7f-116">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="48919-116">Herstellername.</span><span class="sxs-lookup"><span data-stu-id="48919-116">Manufacturer name.</span></span></p></td>
+<td><p><span data-ttu-id="d9c7f-117">Herstellername.</span><span class="sxs-lookup"><span data-stu-id="d9c7f-117">Manufacturer name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

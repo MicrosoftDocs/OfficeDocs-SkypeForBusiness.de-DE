@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: MCU-Ansicht'
+description: 'Lync Server 2013: MCU-Ansicht.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7512054e3b0f1e4edaf7736558bed1df8c9b08d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c2f72b4584696162496dcd91990edb086d558204
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524652"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556461"
 ---
-# <a name="mcus-view-in-lync-server-2013"></a><span data-ttu-id="c7348-102">MCU-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7348-102">Mcus view in Lync Server 2013</span></span>
+# <a name="mcus-view-in-lync-server-2013"></a><span data-ttu-id="84fbd-103">MCU-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="84fbd-103">Mcus view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48524652"
 
 <span> </span>
 
-<span data-ttu-id="c7348-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c7348-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="84fbd-104">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="84fbd-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="c7348-104">In der MCU-Ansicht werden Informationen zu den MCUs gespeichert, die an Konferenzsitzungen teilgenommen haben.</span><span class="sxs-lookup"><span data-stu-id="c7348-104">The Mcus view stores information about the MCUs that have participated in conference sessions.</span></span> <span data-ttu-id="c7348-105">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="c7348-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="84fbd-105">In der MCU-Ansicht werden Informationen zu den MCUs gespeichert, die an Konferenzsitzungen teilgenommen haben.</span><span class="sxs-lookup"><span data-stu-id="84fbd-105">The Mcus view stores information about the MCUs that have participated in conference sessions.</span></span> <span data-ttu-id="84fbd-106">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="84fbd-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,26 +51,26 @@ ms.locfileid: "48524652"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c7348-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="c7348-106">Column</span></span></th>
-<th><span data-ttu-id="c7348-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="c7348-107">Data Type</span></span></th>
-<th><span data-ttu-id="c7348-108">Details</span><span class="sxs-lookup"><span data-stu-id="c7348-108">Details</span></span></th>
+<th><span data-ttu-id="84fbd-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="84fbd-107">Column</span></span></th>
+<th><span data-ttu-id="84fbd-108">Datentyp</span><span class="sxs-lookup"><span data-stu-id="84fbd-108">Data Type</span></span></th>
+<th><span data-ttu-id="84fbd-109">Details</span><span class="sxs-lookup"><span data-stu-id="84fbd-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c7348-109"><strong>McuId</strong></span><span class="sxs-lookup"><span data-stu-id="c7348-109"><strong>McuId</strong></span></span></p></td>
-<td><p><span data-ttu-id="c7348-110">int</span><span class="sxs-lookup"><span data-stu-id="c7348-110">int</span></span></p></td>
-<td><p><span data-ttu-id="c7348-111">Eindeutige Zahl, die die MCU identifiziert.</span><span class="sxs-lookup"><span data-stu-id="c7348-111">Unique number identifying the MCU.</span></span></p></td>
+<td><p><span data-ttu-id="84fbd-110"><strong>McuId</strong></span><span class="sxs-lookup"><span data-stu-id="84fbd-110"><strong>McuId</strong></span></span></p></td>
+<td><p><span data-ttu-id="84fbd-111">int</span><span class="sxs-lookup"><span data-stu-id="84fbd-111">int</span></span></p></td>
+<td><p><span data-ttu-id="84fbd-112">Eindeutige Zahl, die die MCU identifiziert.</span><span class="sxs-lookup"><span data-stu-id="84fbd-112">Unique number identifying the MCU.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c7348-112"><strong>McuUri</strong></span><span class="sxs-lookup"><span data-stu-id="c7348-112"><strong>McuUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="c7348-113">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="c7348-113">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="c7348-114">URI der MCU.</span><span class="sxs-lookup"><span data-stu-id="c7348-114">URI of the MCU.</span></span></p></td>
+<td><p><span data-ttu-id="84fbd-113"><strong>McuUri</strong></span><span class="sxs-lookup"><span data-stu-id="84fbd-113"><strong>McuUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="84fbd-114">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="84fbd-114">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="84fbd-115">URI der MCU.</span><span class="sxs-lookup"><span data-stu-id="84fbd-115">URI of the MCU.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c7348-115"><strong>McuUriType</strong></span><span class="sxs-lookup"><span data-stu-id="c7348-115"><strong>McuUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="c7348-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="c7348-116">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="c7348-117">MCU-URI-Typ.</span><span class="sxs-lookup"><span data-stu-id="c7348-117">Type of MCU URI.</span></span> <span data-ttu-id="c7348-118">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="c7348-118">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="84fbd-116"><strong>McuUriType</strong></span><span class="sxs-lookup"><span data-stu-id="84fbd-116"><strong>McuUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="84fbd-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="84fbd-117">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="84fbd-118">MCU-URI-Typ.</span><span class="sxs-lookup"><span data-stu-id="84fbd-118">Type of MCU URI.</span></span> <span data-ttu-id="84fbd-119">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="84fbd-119">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>

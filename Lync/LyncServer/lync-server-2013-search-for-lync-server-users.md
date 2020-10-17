@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Suchen nach lync Server Benutzern'
+description: 'Lync Server 2013: Suchen Sie nach lync Server-Benutzern.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b690b0880e1da838b3b8f15392e64c4f4c650c10
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0c4860b7b89ad13b3a0003c5666a320172dad6d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510492"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557081"
 ---
-# <a name="search-for-lync-server-users-in-lync-server-2013"></a><span data-ttu-id="f9049-102">Suchen nach lync Server Benutzern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9049-102">Search for Lync Server users in Lync Server 2013</span></span>
+# <a name="search-for-lync-server-users-in-lync-server-2013"></a><span data-ttu-id="586aa-103">Suchen nach lync Server Benutzern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="586aa-103">Search for Lync Server users in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48510492"
 
 <span> </span>
 
-<span data-ttu-id="f9049-103">_**Letztes Änderungsstand des Themas:** 2014-05-14_</span><span class="sxs-lookup"><span data-stu-id="f9049-103">_**Topic Last Modified:** 2014-05-14_</span></span>
+<span data-ttu-id="586aa-104">_**Letztes Änderungsstand des Themas:** 2014-05-14_</span><span class="sxs-lookup"><span data-stu-id="586aa-104">_**Topic Last Modified:** 2014-05-14_</span></span>
 
-<span data-ttu-id="f9049-104">Sie können die Ergebnisse einer Suchabfrage verwenden, um Benutzer für lync Server 2013 zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="f9049-104">You can use the results of a search query to configure users for Lync Server 2013.</span></span> <span data-ttu-id="f9049-105">Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen.</span><span class="sxs-lookup"><span data-stu-id="f9049-105">You can search for users by display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI).</span></span>
+<span data-ttu-id="586aa-105">Sie können die Ergebnisse einer Suchabfrage verwenden, um Benutzer für lync Server 2013 zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="586aa-105">You can use the results of a search query to configure users for Lync Server 2013.</span></span> <span data-ttu-id="586aa-106">Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen.</span><span class="sxs-lookup"><span data-stu-id="586aa-106">You can search for users by display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI).</span></span>
 
-<span data-ttu-id="f9049-106">Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In Active Directory-Benutzer und -Computer suchen.</span><span class="sxs-lookup"><span data-stu-id="f9049-106">You can search for users by using the Lync Server Control Panel or the Active Directory Users and Computers snap-in.</span></span> <span data-ttu-id="f9049-107">Im folgenden Verfahren wird beschrieben, wie lync Server-Systemsteuerung für die Suche nach Benutzern verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="f9049-107">The following procedure describes how to use Lync Server Control Panel to search for users.</span></span>
+<span data-ttu-id="586aa-107">Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In Active Directory-Benutzer und -Computer suchen.</span><span class="sxs-lookup"><span data-stu-id="586aa-107">You can search for users by using the Lync Server Control Panel or the Active Directory Users and Computers snap-in.</span></span> <span data-ttu-id="586aa-108">Im folgenden Verfahren wird beschrieben, wie lync Server-Systemsteuerung für die Suche nach Benutzern verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="586aa-108">The following procedure describes how to use Lync Server Control Panel to search for users.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f9049-108">In einer Umgebung mit einer zentralen Gesamtstrukturtopologie sind die Suchergebnisse möglicherweise ungenau, wenn Sie anhand der E-Mail-Adresse nach einem Benutzer suchen.</span><span class="sxs-lookup"><span data-stu-id="f9049-108">In an environment with a central forest topology, search results might not be accurate when you search for a user by the user’s email address.</span></span> <span data-ttu-id="f9049-109">Stattdessen können Sie Benutzer durch Angabe eines SIP-Adressenpräfixes suchen, z. B. "sip:name", einen Suchfilter hinzufügen und eine SIP-Adresse auswählen, die einen Teil einer E-Mail-Adresse enthält, oder das Cmdlet <STRONG>Get-CSUser</STRONG> verwenden.</span><span class="sxs-lookup"><span data-stu-id="f9049-109">Instead, you can search for users by specifying a SIP address prefix, for example, sip:name, add a search filter and select a SIP address that contains a partial email address, or use the <STRONG>Get-CSUser</STRONG> cmdlet.</span></span>
+> <span data-ttu-id="586aa-109">In einer Umgebung mit einer zentralen Gesamtstrukturtopologie sind die Suchergebnisse möglicherweise ungenau, wenn Sie anhand der E-Mail-Adresse nach einem Benutzer suchen.</span><span class="sxs-lookup"><span data-stu-id="586aa-109">In an environment with a central forest topology, search results might not be accurate when you search for a user by the user’s email address.</span></span> <span data-ttu-id="586aa-110">Stattdessen können Sie Benutzer durch Angabe eines SIP-Adressenpräfixes suchen, z. B. "sip:name", einen Suchfilter hinzufügen und eine SIP-Adresse auswählen, die einen Teil einer E-Mail-Adresse enthält, oder das Cmdlet <STRONG>Get-CSUser</STRONG> verwenden.</span><span class="sxs-lookup"><span data-stu-id="586aa-110">Instead, you can search for users by specifying a SIP address prefix, for example, sip:name, add a search filter and select a SIP address that contains a partial email address, or use the <STRONG>Get-CSUser</STRONG> cmdlet.</span></span>
 
 
 
@@ -55,37 +56,37 @@ ms.locfileid: "48510492"
 
 <div>
 
-## <a name="to-search-for-one-or-more-users"></a><span data-ttu-id="f9049-110">So suchen Sie nach einem oder mehreren Benutzern</span><span class="sxs-lookup"><span data-stu-id="f9049-110">To search for one or more users</span></span>
+## <a name="to-search-for-one-or-more-users"></a><span data-ttu-id="586aa-111">So suchen Sie nach einem oder mehreren Benutzern</span><span class="sxs-lookup"><span data-stu-id="586aa-111">To search for one or more users</span></span>
 
-1.  <span data-ttu-id="f9049-111">Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="f9049-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="586aa-112">Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="586aa-112">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="f9049-112">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="f9049-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f9049-113">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="f9049-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="586aa-113">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="586aa-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="586aa-114">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="586aa-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="f9049-114">Klicken Sie in der linken Navigationsleiste auf **Benutzer**.</span><span class="sxs-lookup"><span data-stu-id="f9049-114">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="586aa-115">Klicken Sie in der linken Navigationsleiste auf **Benutzer**.</span><span class="sxs-lookup"><span data-stu-id="586aa-115">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="f9049-115">Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen, die SIP-Adresse oder den Anschluss-URI des zu suchenden Benutzerkontos ein, und klicken Sie dann auf **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="f9049-115">In the **Search users** box, type all or the first portion of the display name, first name, last name, SAM account name, SIP address, or line URI of the user account that you want to search for, and then click **Find**.</span></span>
+4.  <span data-ttu-id="586aa-116">Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen, die SIP-Adresse oder den Anschluss-URI des zu suchenden Benutzerkontos ein, und klicken Sie dann auf **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="586aa-116">In the **Search users** box, type all or the first portion of the display name, first name, last name, SAM account name, SIP address, or line URI of the user account that you want to search for, and then click **Find**.</span></span>
 
-5.  <span data-ttu-id="f9049-116">(Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse zu beschränken:</span><span class="sxs-lookup"><span data-stu-id="f9049-116">(Optional) Specify additional search criteria to narrow the results:</span></span>
+5.  <span data-ttu-id="586aa-117">(Optional) Geben Sie zusätzliche Suchkriterien ein, um die Ergebnisse zu beschränken:</span><span class="sxs-lookup"><span data-stu-id="586aa-117">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  <span data-ttu-id="f9049-117">Klicken Sie in der oberen rechten Ecke des Bildschirms oberhalb von **Suchergebnisse** auf die Pfeiltaste zum Erweitern des Fensters, und klicken Sie dann auf **Filter hinzufügen**.</span><span class="sxs-lookup"><span data-stu-id="f9049-117">Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.</span></span>
+    1.  <span data-ttu-id="586aa-118">Klicken Sie in der oberen rechten Ecke des Bildschirms oberhalb von **Suchergebnisse** auf die Pfeiltaste zum Erweitern des Fensters, und klicken Sie dann auf **Filter hinzufügen**.</span><span class="sxs-lookup"><span data-stu-id="586aa-118">Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.</span></span>
     
-    2.  <span data-ttu-id="f9049-118">Geben Sie die Benutzereigenschaft ein, indem Sie sie eingeben oder auf den Pfeil in der Dropdownliste klicken, um eine Benutzereigenschaft auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="f9049-118">Enter the user property by typing it or clicking the arrow in the drop-down list to select a user property.</span></span>
+    2.  <span data-ttu-id="586aa-119">Geben Sie die Benutzereigenschaft ein, indem Sie sie eingeben oder auf den Pfeil in der Dropdownliste klicken, um eine Benutzereigenschaft auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="586aa-119">Enter the user property by typing it or clicking the arrow in the drop-down list to select a user property.</span></span>
     
-    3.  <span data-ttu-id="f9049-119">Klicken Sie in der Dropdownliste **Gleich** auf **Gleich** oder **Ungleich**.</span><span class="sxs-lookup"><span data-stu-id="f9049-119">In the **Equal to** list, click **Equal to** or **Not equal to**.</span></span>
+    3.  <span data-ttu-id="586aa-120">Klicken Sie in der Dropdownliste **Gleich** auf **Gleich** oder **Ungleich**.</span><span class="sxs-lookup"><span data-stu-id="586aa-120">In the **Equal to** list, click **Equal to** or **Not equal to**.</span></span>
     
-    4.  <span data-ttu-id="f9049-120">Geben Sie im Textfeld die Suchkriterien ein, die Sie zum Filtern der Suchergebnisse verwenden möchten, und klicken Sie dann auf **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="f9049-120">In the text box, type the search criteria you want to use to filter search results, and then click **Find**.</span></span>
+    4.  <span data-ttu-id="586aa-121">Geben Sie im Textfeld die Suchkriterien ein, die Sie zum Filtern der Suchergebnisse verwenden möchten, und klicken Sie dann auf **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="586aa-121">In the text box, type the search criteria you want to use to filter search results, and then click **Find**.</span></span>
 
-6.  <span data-ttu-id="f9049-p105">Die Suchergebnisse werden unter **Suchergebnisse** angezeigt. Sie können bestimmte oder alle Benutzer in der Liste auswählen und für die ausgewählten Benutzer Konfigurationsaufgaben durchführen.</span><span class="sxs-lookup"><span data-stu-id="f9049-p105">The search results appear under **Search Results**. You can select any or all of the users in the list and perform configuration tasks on the users you select.</span></span>
+6.  <span data-ttu-id="586aa-p105">Die Suchergebnisse werden unter **Suchergebnisse** angezeigt. Sie können bestimmte oder alle Benutzer in der Liste auswählen und für die ausgewählten Benutzer Konfigurationsaufgaben durchführen.</span><span class="sxs-lookup"><span data-stu-id="586aa-p105">The search results appear under **Search Results**. You can select any or all of the users in the list and perform configuration tasks on the users you select.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f9049-123">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f9049-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="586aa-124">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="586aa-124">See Also</span></span>
 
 
-[<span data-ttu-id="f9049-124">Anzeigen von Informationen zu Benutzerkonten, die für lync Server 2013 aktiviert sind</span><span class="sxs-lookup"><span data-stu-id="f9049-124">Viewing information about user accounts enabled for Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)  
-[<span data-ttu-id="f9049-125">Aktivieren und Deaktivieren von Benutzern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9049-125">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+[<span data-ttu-id="586aa-125">Anzeigen von Informationen zu Benutzerkonten, die für lync Server 2013 aktiviert sind</span><span class="sxs-lookup"><span data-stu-id="586aa-125">Viewing information about user accounts enabled for Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)  
+[<span data-ttu-id="586aa-126">Aktivieren und Deaktivieren von Benutzern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="586aa-126">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 
 </div>

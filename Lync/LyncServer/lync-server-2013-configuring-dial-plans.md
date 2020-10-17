@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von Wählplänen'
+description: 'Lync Server 2013: Konfigurieren von Wählplänen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93532cae14d64a69a0aa7e948607f075f5ae4240
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e0b913b10ef14e8c9652e44f8ca556a03ffd85b9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532612"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557891"
 ---
-# <a name="configuring-dial-plans-in-lync-server-2013"></a><span data-ttu-id="62614-102">Konfigurieren von Wählplänen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62614-102">Configuring dial plans in Lync Server 2013</span></span>
+# <a name="configuring-dial-plans-in-lync-server-2013"></a><span data-ttu-id="39349-103">Konfigurieren von Wählplänen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39349-103">Configuring dial plans in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48532612"
 
 <span> </span>
 
-<span data-ttu-id="62614-103">_**Letztes Änderungsstand des Themas:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="62614-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="39349-104">_**Letztes Änderungsstand des Themas:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="39349-104">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="62614-104">Bei einem lync Server 2013 Wählplan handelt es sich um eine benannte Gruppe von Normalisierungsregeln, die Telefonnummern für einen benannten Standort, einen einzelnen Benutzer oder ein Kontaktobjekt zu Zwecken der Telefonautorisierung und Anrufweiterleitung übersetzt.</span><span class="sxs-lookup"><span data-stu-id="62614-104">A Lync Server 2013 dial plan is a named set of normalization rules that translate phone numbers for a named location, individual user, or contact object for purposes of phone authorization and call routing.</span></span>
+<span data-ttu-id="39349-105">Bei einem lync Server 2013 Wählplan handelt es sich um eine benannte Gruppe von Normalisierungsregeln, die Telefonnummern für einen benannten Standort, einen einzelnen Benutzer oder ein Kontaktobjekt zu Zwecken der Telefonautorisierung und Anrufweiterleitung übersetzt.</span><span class="sxs-lookup"><span data-stu-id="39349-105">A Lync Server 2013 dial plan is a named set of normalization rules that translate phone numbers for a named location, individual user, or contact object for purposes of phone authorization and call routing.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="62614-105">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="62614-105">For details, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="39349-106">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="39349-106">For details, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -53,22 +54,22 @@ ms.locfileid: "48532612"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="62614-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="62614-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="39349-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="39349-107">In This Section</span></span>
 
-  - [<span data-ttu-id="62614-107">Anzeigen von Informationen zu Wählplänen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62614-107">View dial plan information in Lync Server 2013</span></span>](lync-server-2013-view-dial-plan-information.md)
+  - [<span data-ttu-id="39349-108">Anzeigen von Informationen zu Wählplänen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39349-108">View dial plan information in Lync Server 2013</span></span>](lync-server-2013-view-dial-plan-information.md)
 
-  - [<span data-ttu-id="62614-108">Erstellen von Wähleinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62614-108">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)
+  - [<span data-ttu-id="39349-109">Erstellen von Wähleinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39349-109">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)
 
-  - [<span data-ttu-id="62614-109">Ändern von Wähleinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62614-109">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)
+  - [<span data-ttu-id="39349-110">Ändern von Wähleinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39349-110">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="62614-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="62614-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="39349-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="39349-111">See Also</span></span>
 
 
-[<span data-ttu-id="62614-111">Wählpläne und Normalisierungsregeln in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62614-111">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)  
+[<span data-ttu-id="39349-112">Wählpläne und Normalisierungsregeln in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39349-112">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)  
   
 
 </div>
