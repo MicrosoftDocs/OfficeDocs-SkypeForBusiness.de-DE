@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testen von UCWA-Konferenzen'
+description: 'Lync Server 2013: Testen von UCWA-Konferenzen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5879eaa10b128bedbc1e28fe85cee40aed27dddd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 37f88a683abb67d55211422fc4dcf45fc1d5c966
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503912"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556091"
 ---
 # <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Testen von UCWA-Konferenzen in lync Server 2013
 

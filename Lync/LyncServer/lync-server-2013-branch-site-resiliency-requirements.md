@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Anforderungen an die Ausfallsicherheit für Zweigstellenstandorte'
+description: 'Lync Server 2013: Anforderungen an die Ausfallsicherheit für Zweigstellenstandorte.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d76107fc419891561b8c98cf0989bbb0cbddbee4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ef05917fb53d1333895236e849cb54596cc41947
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504842"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555081"
 ---
 # <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Anforderungen für Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013
 

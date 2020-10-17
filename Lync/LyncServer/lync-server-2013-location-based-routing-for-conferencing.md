@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Location-Based Routing für Konferenzen'
+description: 'Lync Server 2013: Location-Based Routing für Konferenzen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03e216e80b50bd7b2d5c0515700c4f1cd7260f22
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 979c835e03bbf87c9a9bf86b030cb9a8f4e138e0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513802"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554851"
 ---
 # <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Location-Based Routing für Konferenzen in lync Server 2013
 

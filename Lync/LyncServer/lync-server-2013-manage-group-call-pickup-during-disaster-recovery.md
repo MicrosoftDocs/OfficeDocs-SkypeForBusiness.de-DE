@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verwalten der gruppenanrufannahme während der Notfallwiederherstellung'
+description: 'Lync Server 2013: Manage Group Call Pickup während der Notfallwiederherstellung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d181570b55ce175a63ac1ac1f218ee99aec7a5a0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 04d85bc83cfe35571c2b0f47f707c9dcd8037d80
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534532"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555281"
 ---
 # <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>Verwalten der gruppenanrufannahme während der Notfallwiederherstellung in lync Server 2013
 

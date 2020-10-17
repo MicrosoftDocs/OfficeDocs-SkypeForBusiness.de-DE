@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Cmdlets für Telefone und Geräte'
+description: 'Lync Server 2013: Cmdlets für Telefone und Geräte.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d997b8a6c6dfc82943134d797ab2d98eb93d888
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e425cd32f6d51cfcdb79e2e026b62c65bcd917e4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524202"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554841"
 ---
 # <a name="phones-and-devices-cmdlets-in-lync-server-2013"></a>Cmdlets für Telefone und Geräte in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: System Anforderungen für Verwaltungstools'
+description: 'Lync Server 2013: System Anforderungen für Verwaltungstools.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22a0639a7d42112bd265b0e3eb6871b76f596d0c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d37a821ed3f06e0239db928b2a94f909020e542
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497442"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554771"
 ---
 # <a name="system-requirements-for-administration-tools-in-lync-server-2013"></a>System Anforderungen für Verwaltungstools in lync Server 2013
 

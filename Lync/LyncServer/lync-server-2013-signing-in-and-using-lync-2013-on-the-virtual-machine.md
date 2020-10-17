@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: anmelden und Verwenden von lync 2013 auf dem virtuellen Computer'
+description: 'Lync Server 2013: anmelden und Verwenden von lync 2013 auf dem virtuellen Computer.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 710119091a5ed6254f18f7b40a4549ab9d09c776
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ad9a92d450fb9d60aed70617089d95280528892f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533982"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555681"
 ---
 # <a name="signing-in-and-using-lync-2013-on-the-virtual-machine"></a>Anmelden und Verwenden von lync 2013 auf dem virtuellen Computer
 

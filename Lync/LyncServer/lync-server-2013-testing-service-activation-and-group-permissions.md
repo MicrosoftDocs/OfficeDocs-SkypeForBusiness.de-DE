@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testen der Dienstaktivierung und der Gruppen Berechtigungen'
+description: 'Lync Server 2013: Testen der Dienstaktivierung und der Gruppen Berechtigungen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 116cf939f3110616ce395eb14c7945890bdb89b7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530522"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556261"
 ---
 # <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Testen von Dienstaktivierung und Gruppen Berechtigungen in lync Server 2013
 

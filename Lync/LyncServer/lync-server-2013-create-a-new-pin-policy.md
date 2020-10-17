@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erstellen einer neuen PIN-Richtlinie'
+description: 'Lync Server 2013: Erstellen einer neuen PIN-Richtlinie.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1755ee6afc6ce613451d1dc17155a4b6c9c744d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c69a91148ce90829b8bde6d88b1f98ca12ca4683
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501922"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554681"
 ---
 # <a name="create-a-new-pin-policy-in-lync-server-2013"></a>Erstellen einer neuen PIN-Richtlinie in lync Server 2013
 

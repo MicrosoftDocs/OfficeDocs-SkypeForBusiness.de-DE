@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planen der Darstellung freigegebener Leitungen'
+description: 'Lync Server 2013: Planen der Darstellung freigegebener Leitungen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a79c053098d1fbd3ba364a12b18fb335a0687e46
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 09c34a4792d6df9b37b138c08881699dfcdf684d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519832"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554381"
 ---
 # <a name="plan-for-shared-line-appearance-in-lync-server-2013"></a>Planen der Darstellung freigegebener Leitungen in lync Server 2013
 

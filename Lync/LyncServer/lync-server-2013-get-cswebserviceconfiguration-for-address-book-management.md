@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Get-CsWebServiceConfiguration für die Adressbuchverwaltung'
+description: 'Lync Server 2013: Get-CsWebServiceConfiguration für die Adressbuchverwaltung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 143b4964de91c10f2fce0272d6e882ff68c9f862
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bb22d7607f9ac18cda9c8653374ae86839b033e0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512632"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554641"
 ---
 # <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration für die Adressbuchverwaltung in lync Server 2013
 

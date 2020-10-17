@@ -1,5 +1,6 @@
 ---
 title: Konfigurationsvoraussetzungen und Benutzerrechte für Gruppenanruf Pickups
+description: Konfigurationsvoraussetzungen für die gruppenanrufannahme und Benutzerrechte.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b15be02b48c5e3f95a9b05475bea42284ec275
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74d2a758b7199634e14ee387d2554b30bf2ae8d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498792"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554451"
 ---
 # <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Konfigurieren von Voraussetzungen und Benutzerrechten für Gruppenanruf Pickups in lync Server 2013
 
