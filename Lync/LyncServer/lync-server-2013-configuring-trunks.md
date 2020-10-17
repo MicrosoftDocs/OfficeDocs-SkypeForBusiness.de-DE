@@ -12,20 +12,22 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80f5bf646dbed73beb7d9dd102e7e7b2bf802e49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c2fd4a79937477edbe01f5550a81e92a663d3d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209301"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517342"
 ---
+# <a name="configuring-trunks-in-lync-server-2013"></a><span data-ttu-id="3a1e7-102">Konfigurieren von Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-102">Configuring trunks in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-trunks-in-lync-server-2013"></a><span data-ttu-id="8cc0c-102">Konfigurieren von Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-102">Configuring trunks in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42209301"
 
 <span> </span>
 
-<span data-ttu-id="8cc0c-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="8cc0c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="3a1e7-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="3a1e7-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="8cc0c-104">Im Rahmen der Enterprise-VoIP-Bereitstellung können Sie einen trunk zwischen einem Vermittlungsserver und einem oder mehreren der folgenden Peers konfigurieren, um eine PSTN-Konnektivität (Public Switched Telephone Network) für Enterprise-VoIP-Clients und-Geräte in Ihrer Organisation bereitzustellen:</span><span class="sxs-lookup"><span data-stu-id="8cc0c-104">As part of Enterprise Voice deployment, you can configure a trunk between a Mediation Server and one or more of the following peers to provide public switched telephone network (PSTN) connectivity for Enterprise Voice clients and devices in your organization:</span></span>
+<span data-ttu-id="3a1e7-104">Im Rahmen der Enterprise-VoIP-Bereitstellung können Sie einen trunk zwischen einem Vermittlungsserver und einem oder mehreren der folgenden Peers konfigurieren, um eine PSTN-Konnektivität (Public Switched Telephone Network) für Enterprise-VoIP-Clients und-Geräte in Ihrer Organisation bereitzustellen:</span><span class="sxs-lookup"><span data-stu-id="3a1e7-104">As part of Enterprise Voice deployment, you can configure a trunk between a Mediation Server and one or more of the following peers to provide public switched telephone network (PSTN) connectivity for Enterprise Voice clients and devices in your organization:</span></span>
 
-  - <span data-ttu-id="8cc0c-105">SIP-Trunkverbindung mit einem Anbieter von Internettelefoniediensten</span><span class="sxs-lookup"><span data-stu-id="8cc0c-105">SIP trunk connection to an Internet telephony service provider (ITSP)</span></span>
+  - <span data-ttu-id="3a1e7-105">SIP-Trunkverbindung mit einem Anbieter von Internettelefoniediensten</span><span class="sxs-lookup"><span data-stu-id="3a1e7-105">SIP trunk connection to an Internet telephony service provider (ITSP)</span></span>
 
-  - <span data-ttu-id="8cc0c-106">PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="8cc0c-106">PSTN gateway</span></span>
+  - <span data-ttu-id="3a1e7-106">PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="3a1e7-106">PSTN gateway</span></span>
 
-  - <span data-ttu-id="8cc0c-107">Nebenstellenanlage (Private Branch Exchange, PBX)</span><span class="sxs-lookup"><span data-stu-id="8cc0c-107">Private branch exchange (PBX)</span></span>
+  - <span data-ttu-id="3a1e7-107">Nebenstellenanlage (Private Branch Exchange, PBX)</span><span class="sxs-lookup"><span data-stu-id="3a1e7-107">Private branch exchange (PBX)</span></span>
 
-<span data-ttu-id="8cc0c-108">Ausführliche Informationen finden Sie unter [Planning for PSTN Connectivity in lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="8cc0c-108">For details, see [Planning for PSTN connectivity in Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) in the Planning documentation.</span></span>
+<span data-ttu-id="3a1e7-108">Ausführliche Informationen finden Sie unter [Planning for PSTN Connectivity in lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="3a1e7-108">For details, see [Planning for PSTN connectivity in Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) in the Planning documentation.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="8cc0c-109">Bevor Sie mit der Trunkkonfiguration beginnen, überprüfen Sie, ob die Topologie erstellt und der Vermittlungsserver und der Peer konfiguriert und einander zugeordnet wurden.</span><span class="sxs-lookup"><span data-stu-id="8cc0c-109">Before you begin trunk configuration, verify that the topology has been created and that the Mediation Server and its peer have been configured and associated with one another.</span></span> <span data-ttu-id="8cc0c-110">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">define a Gateway in Topology Builder in lync Server 2013</A> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="8cc0c-110">For details, see <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Define a gateway in Topology Builder in Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="3a1e7-109">Bevor Sie mit der Trunkkonfiguration beginnen, überprüfen Sie, ob die Topologie erstellt und der Vermittlungsserver und der Peer konfiguriert und einander zugeordnet wurden.</span><span class="sxs-lookup"><span data-stu-id="3a1e7-109">Before you begin trunk configuration, verify that the topology has been created and that the Mediation Server and its peer have been configured and associated with one another.</span></span> <span data-ttu-id="3a1e7-110">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">define a Gateway in Topology Builder in lync Server 2013</A> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="3a1e7-110">For details, see <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Define a gateway in Topology Builder in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
@@ -61,7 +63,7 @@ ms.locfileid: "42209301"
 
 
 > [!NOTE]  
-> <span data-ttu-id="8cc0c-111">Im Rahmen der trunkkonfiguration können Sie die lync Server 2013 medienumgehung aktivieren, die es Medien ermöglicht, das Vermittlungsserver zu umgehen.</span><span class="sxs-lookup"><span data-stu-id="8cc0c-111">As a part of trunk configuration, you can enable the Lync Server 2013 media bypass feature, which enables media to bypass the Mediation Server.</span></span> <span data-ttu-id="8cc0c-112">Trunks können mit oder ohne Medienumgehung konfiguriert werden, die Aktivierung dieser Funktion wird jedoch dringend empfohlen.</span><span class="sxs-lookup"><span data-stu-id="8cc0c-112">Trunks can be configured either with or without media bypass enabled, but we strongly recommend that you enable it.</span></span> <span data-ttu-id="8cc0c-113">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-media-bypass.md">Planning for Media Bypass in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="8cc0c-113">For details, see <A href="lync-server-2013-planning-for-media-bypass.md">Planning for media bypass in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="3a1e7-111">Im Rahmen der trunkkonfiguration können Sie die lync Server 2013 medienumgehung aktivieren, die es Medien ermöglicht, das Vermittlungsserver zu umgehen.</span><span class="sxs-lookup"><span data-stu-id="3a1e7-111">As a part of trunk configuration, you can enable the Lync Server 2013 media bypass feature, which enables media to bypass the Mediation Server.</span></span> <span data-ttu-id="3a1e7-112">Trunks können mit oder ohne Medienumgehung konfiguriert werden, die Aktivierung dieser Funktion wird jedoch dringend empfohlen.</span><span class="sxs-lookup"><span data-stu-id="3a1e7-112">Trunks can be configured either with or without media bypass enabled, but we strongly recommend that you enable it.</span></span> <span data-ttu-id="3a1e7-113">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-media-bypass.md">Planning for Media Bypass in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="3a1e7-113">For details, see <A href="lync-server-2013-planning-for-media-bypass.md">Planning for media bypass in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -69,40 +71,40 @@ ms.locfileid: "42209301"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8cc0c-114">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="8cc0c-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3a1e7-114">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3a1e7-114">In This Section</span></span>
 
-  - [<span data-ttu-id="8cc0c-115">Unterstützung mehrerer Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-115">Multiple trunk support in Lync Server 2013</span></span>](lync-server-2013-multiple-trunk-support.md)
+  - [<span data-ttu-id="3a1e7-115">Unterstützung mehrerer Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-115">Multiple trunk support in Lync Server 2013</span></span>](lync-server-2013-multiple-trunk-support.md)
 
-  - [<span data-ttu-id="8cc0c-116">Zwischen trunk Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-116">Inter-trunk routing in Lync Server 2013</span></span>](lync-server-2013-inter-trunk-routing.md)
+  - [<span data-ttu-id="3a1e7-116">Zwischen trunk Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-116">Inter-trunk routing in Lync Server 2013</span></span>](lync-server-2013-inter-trunk-routing.md)
 
-  - [<span data-ttu-id="8cc0c-117">Anzeigen von trunk Konfigurationsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-117">View trunk configuration information in Lync Server 2013</span></span>](lync-server-2013-view-trunk-configuration-information.md)
+  - [<span data-ttu-id="3a1e7-117">Anzeigen von trunk Konfigurationsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-117">View trunk configuration information in Lync Server 2013</span></span>](lync-server-2013-view-trunk-configuration-information.md)
 
-  - [<span data-ttu-id="8cc0c-118">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-118">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [<span data-ttu-id="3a1e7-118">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-118">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [<span data-ttu-id="8cc0c-119">Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-119">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [<span data-ttu-id="3a1e7-119">Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-119">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-  - [<span data-ttu-id="8cc0c-120">Erstellen Sie in lync Server 2013 eine neue Auflistung von trunkkonfigurationseinstellungen.</span><span class="sxs-lookup"><span data-stu-id="8cc0c-120">Create a new collection of trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
+  - [<span data-ttu-id="3a1e7-120">Erstellen Sie in lync Server 2013 eine neue Auflistung von trunkkonfigurationseinstellungen.</span><span class="sxs-lookup"><span data-stu-id="3a1e7-120">Create a new collection of trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
 
-  - [<span data-ttu-id="8cc0c-121">Löschen einer vorhandenen Auflistung von SIP-trunkkonfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-121">Delete an existing collection of SIP trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
+  - [<span data-ttu-id="3a1e7-121">Löschen einer vorhandenen Auflistung von SIP-trunkkonfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-121">Delete an existing collection of SIP trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
 
-  - [<span data-ttu-id="8cc0c-122">Ändern von SIP-Trunk-Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-122">Modify SIP trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-sip-trunk-configuration-settings.md)
+  - [<span data-ttu-id="3a1e7-122">Ändern von SIP-Trunk-Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-122">Modify SIP trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-sip-trunk-configuration-settings.md)
 
-  - [<span data-ttu-id="8cc0c-123">Testen von Konfigurationseinstellungen für SIP-Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-123">Test SIP trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-test-sip-trunk-configuration-settings.md)
+  - [<span data-ttu-id="3a1e7-123">Testen von Konfigurationseinstellungen für SIP-Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-123">Test SIP trunk configuration settings in Lync Server 2013</span></span>](lync-server-2013-test-sip-trunk-configuration-settings.md)
 
-  - [<span data-ttu-id="8cc0c-124">Anzeigen von Informationen zu einzelnen SIP-Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-124">View information about individual SIP trunks in Lync Server 2013</span></span>](lync-server-2013-view-information-about-individual-sip-trunks.md)
+  - [<span data-ttu-id="3a1e7-124">Anzeigen von Informationen zu einzelnen SIP-Trunks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-124">View information about individual SIP trunks in Lync Server 2013</span></span>](lync-server-2013-view-information-about-individual-sip-trunks.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8cc0c-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="8cc0c-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a1e7-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3a1e7-125">See Also</span></span>
 
 
-[<span data-ttu-id="8cc0c-126">Definieren eines Gateways im Topologie-Generator in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-126">Define a gateway in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-gateway-in-topology-builder.md)  
+[<span data-ttu-id="3a1e7-126">Definieren eines Gateways im Topologie-Generator in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-126">Define a gateway in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-gateway-in-topology-builder.md)  
 
 
-[<span data-ttu-id="8cc0c-127">Planen der PSTN-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-127">Planning for PSTN connectivity in Lync Server 2013</span></span>](lync-server-2013-planning-for-pstn-connectivity.md)  
-[<span data-ttu-id="8cc0c-128">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cc0c-128">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="3a1e7-127">Planen der PSTN-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-127">Planning for PSTN connectivity in Lync Server 2013</span></span>](lync-server-2013-planning-for-pstn-connectivity.md)  
+[<span data-ttu-id="3a1e7-128">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a1e7-128">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>
