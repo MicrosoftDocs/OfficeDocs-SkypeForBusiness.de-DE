@@ -12,20 +12,22 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b93d43637585f164f2f9d79d48bb7839a6dc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 324798f36a92a81a1f210a173cf9e3e0efa00aca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202081"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513572"
 ---
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="446b1-102">Planung von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-102">Planning for Enterprise Voice in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="dca83-102">Planung von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-102">Planning for Enterprise Voice in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,49 +37,49 @@ ms.locfileid: "42202081"
 
 <span> </span>
 
-<span data-ttu-id="dca83-103">_**Letztes Änderungsstand des Themas:** 2013-11-01_</span><span class="sxs-lookup"><span data-stu-id="dca83-103">_**Topic Last Modified:** 2013-11-01_</span></span>
+<span data-ttu-id="446b1-103">_**Letztes Änderungsstand des Themas:** 2013-11-01_</span><span class="sxs-lookup"><span data-stu-id="446b1-103">_**Topic Last Modified:** 2013-11-01_</span></span>
 
-<span data-ttu-id="dca83-104">Der Bereitstellungsprozess für Enterprise-VoIP hängt von der vorhandenen Topologie, der Infrastruktur und der Enterprise-VoIP-Funktionalität ab, die Sie unterstützen möchten.</span><span class="sxs-lookup"><span data-stu-id="dca83-104">The deployment process for Enterprise Voice depends on your existing topology, infrastructure, and the Enterprise Voice functionality that you want to support.</span></span> <span data-ttu-id="dca83-105">Die erforderlichen Verfahren hängen davon ab, welche Funktionen Sie auswählen, aber es gibt andere Planungsüberlegungen, die Sie auf einer hohen Ebene vornehmen müssen.</span><span class="sxs-lookup"><span data-stu-id="dca83-105">The required procedures will depend on what features you choose, but there are other planning considerations that you must make at a high level.</span></span>
+<span data-ttu-id="446b1-104">Der Bereitstellungsprozess für Enterprise-VoIP hängt von der vorhandenen Topologie, der Infrastruktur und der Enterprise-VoIP-Funktionalität ab, die Sie unterstützen möchten.</span><span class="sxs-lookup"><span data-stu-id="446b1-104">The deployment process for Enterprise Voice depends on your existing topology, infrastructure, and the Enterprise Voice functionality that you want to support.</span></span> <span data-ttu-id="446b1-105">Die erforderlichen Verfahren hängen davon ab, welche Funktionen Sie auswählen, aber es gibt andere Planungsüberlegungen, die Sie auf einer hohen Ebene vornehmen müssen.</span><span class="sxs-lookup"><span data-stu-id="446b1-105">The required procedures will depend on what features you choose, but there are other planning considerations that you must make at a high level.</span></span>
 
-<span data-ttu-id="dca83-106">Im Allgemeinen sollten Sie den Typ und die Anzahl der Websites, die Sie bereitstellen möchten, sowie deren geographische Standorte, das Anrufvolumen an jedem Standort, die Arten von Netzwerkverbindungen, die Standorte verbinden, unabhängig davon, ob Sie Redundanz und Failover für die VoIP-Funktionen für die einzelnen Website, und ob Sie vorhandene PBX-Geräte verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="dca83-106">In general, consider the type and number of sites that you want to deploy and their geographical locations, the call volume at each site, the types of network links that connect sites, whether you want to provide redundancy and failover for voice functionality for each site, and whether you want to use existing PBX equipment.</span></span> <span data-ttu-id="dca83-107">Es gibt bestimmte Überlegungen, beispielsweise hohe Verfügbarkeit, die Sie berücksichtigen sollten, wenn Sie lync Server Kommunikationssoftware als Ganzes planen.</span><span class="sxs-lookup"><span data-stu-id="dca83-107">There are certain considerations, such as high availability, that you should consider when you plan for Lync Server  communications software as a whole.</span></span> <span data-ttu-id="dca83-108">Diese Überlegungen werden bei Bedarf in Themen in diesem Abschnitt behandelt.</span><span class="sxs-lookup"><span data-stu-id="dca83-108">These considerations are discussed in topics throughout this section, as needed.</span></span>
+<span data-ttu-id="446b1-106">Im Allgemeinen sollten Sie den Typ und die Anzahl der Websites, die Sie bereitstellen möchten, sowie deren geografische Standorte, das Anrufvolumen an jedem Standort, die Arten von Netzwerkverbindungen, die Standorte verbinden, festlegen, ob Redundanz und Failover für die VoIP-Funktionen für die einzelnen Standorte bereitgestellt werden sollen und ob vorhandene PBX-Anlagen verwendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="446b1-106">In general, consider the type and number of sites that you want to deploy and their geographical locations, the call volume at each site, the types of network links that connect sites, whether you want to provide redundancy and failover for voice functionality for each site, and whether you want to use existing PBX equipment.</span></span> <span data-ttu-id="446b1-107">Es gibt bestimmte Überlegungen, beispielsweise hohe Verfügbarkeit, die Sie berücksichtigen sollten, wenn Sie lync Server Kommunikationssoftware als Ganzes planen.</span><span class="sxs-lookup"><span data-stu-id="446b1-107">There are certain considerations, such as high availability, that you should consider when you plan for Lync Server  communications software as a whole.</span></span> <span data-ttu-id="446b1-108">Diese Überlegungen werden bei Bedarf in Themen in diesem Abschnitt behandelt.</span><span class="sxs-lookup"><span data-stu-id="446b1-108">These considerations are discussed in topics throughout this section, as needed.</span></span>
 
 <div>
 
-## <a name="planning-considerations"></a><span data-ttu-id="dca83-109">Planungsüberlegungen</span><span class="sxs-lookup"><span data-stu-id="dca83-109">Planning Considerations</span></span>
+## <a name="planning-considerations"></a><span data-ttu-id="446b1-109">Planungsüberlegungen</span><span class="sxs-lookup"><span data-stu-id="446b1-109">Planning Considerations</span></span>
 
-<span data-ttu-id="dca83-110">Informationen zu Planungsentscheidungen, die sich auf die Bereitstellung einer bestimmten Enterprise-VoIP-Funktion oder eines Bereitstellungsszenarios oder einer Komponente beziehen, finden Sie in den Themen in diesem Abschnitt.</span><span class="sxs-lookup"><span data-stu-id="dca83-110">For planning decisions that pertain to the deployment of a particular Enterprise Voice capability or deployment scenario or component, consult the topics in this section.</span></span>
+<span data-ttu-id="446b1-110">Informationen zu Planungsentscheidungen, die sich auf die Bereitstellung einer bestimmten Enterprise-VoIP-Funktion oder eines Bereitstellungsszenarios oder einer Komponente beziehen, finden Sie in den Themen in diesem Abschnitt.</span><span class="sxs-lookup"><span data-stu-id="446b1-110">For planning decisions that pertain to the deployment of a particular Enterprise Voice capability or deployment scenario or component, consult the topics in this section.</span></span>
 
-  - [<span data-ttu-id="dca83-111">Definieren der Anforderungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-111">Defining your requirements for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
+  - [<span data-ttu-id="446b1-111">Definieren der Anforderungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-111">Defining your requirements for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="dca83-112">Schätzen der VoIP-Nutzung und des Datenverkehrs für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-112">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [<span data-ttu-id="446b1-112">Schätzen der VoIP-Nutzung und des Datenverkehrs für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-112">Estimating voice usage and traffic for Lync Server 2013</span></span>](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [<span data-ttu-id="dca83-113">Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-113">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+  - [<span data-ttu-id="446b1-113">Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-113">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
 
-  - [<span data-ttu-id="dca83-114">Erforderliche Komponenten für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-114">Components required for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-components-required-for-enterprise-voice.md)
+  - [<span data-ttu-id="446b1-114">Erforderliche Komponenten für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-114">Components required for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-components-required-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="dca83-115">Planen der Ausfallsicherheit für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-115">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [<span data-ttu-id="446b1-115">Planen der Ausfallsicherheit für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-115">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [<span data-ttu-id="dca83-116">Planen der Integration von Exchange Unified Messaging in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-116">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="446b1-116">Planen der Integration von Exchange Unified Messaging in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-116">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [<span data-ttu-id="dca83-117">Planung der Anrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-117">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
+  - [<span data-ttu-id="446b1-117">Planung der Anrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-117">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [<span data-ttu-id="dca83-118">Planung von Notrufdiensten (E9-1-1) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-118">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [<span data-ttu-id="446b1-118">Planung von Notrufdiensten (E9-1-1) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-118">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [<span data-ttu-id="dca83-119">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-119">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)
+  - [<span data-ttu-id="446b1-119">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-119">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)
 
-  - [<span data-ttu-id="dca83-120">Planen privater Telefonleitungen mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-120">Planning for private telephone lines with Lync Server 2013</span></span>](lync-server-2013-planning-for-private-telephone-lines.md)
+  - [<span data-ttu-id="446b1-120">Planen privater Telefonleitungen mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-120">Planning for private telephone lines with Lync Server 2013</span></span>](lync-server-2013-planning-for-private-telephone-lines.md)
 
-  - [<span data-ttu-id="dca83-121">Planen des standortbasierten Routings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-121">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)
+  - [<span data-ttu-id="446b1-121">Planen von Location-Based Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-121">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)
 
-  - [<span data-ttu-id="dca83-122">Planen der Ausfallsicherheit für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-122">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [<span data-ttu-id="446b1-122">Planen der Ausfallsicherheit für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-122">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [<span data-ttu-id="dca83-123">Bereitstellungsrichtlinien für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-123">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
+  - [<span data-ttu-id="446b1-123">Bereitstellungsrichtlinien für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-123">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="dca83-124">Übersicht über den Bereitstellungsprozess für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-124">Deployment process overview for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
+  - [<span data-ttu-id="446b1-124">Übersicht über den Bereitstellungsprozess für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-124">Deployment process overview for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="dca83-125">Verschieben von Benutzern zu Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-125">Moving users to Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-moving-users-to-enterprise-voice.md)
+  - [<span data-ttu-id="446b1-125">Verschieben von Benutzern zu Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-125">Moving users to Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-moving-users-to-enterprise-voice.md)
 
-  - [<span data-ttu-id="dca83-126">Tool für die lync-voranruf Diagnose in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dca83-126">Lync PreCall Diagnostics Tool in Lync Server 2013</span></span>](lync-server-2013-lync-precall-diagnostics-tool.md)
+  - [<span data-ttu-id="446b1-126">Tool für die lync-voranruf Diagnose in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="446b1-126">Lync PreCall Diagnostics Tool in Lync Server 2013</span></span>](lync-server-2013-lync-precall-diagnostics-tool.md)
 
 </div>
 

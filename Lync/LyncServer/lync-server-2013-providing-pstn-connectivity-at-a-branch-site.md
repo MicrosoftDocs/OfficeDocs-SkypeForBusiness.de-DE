@@ -12,20 +12,22 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4998db2c00699e766b664caf79fa271af0395a6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38c76d378db31cb8a6619a18072ec0218260843e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513172"
 ---
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a><span data-ttu-id="37c73-102">Bereitstellen der PSTN-Konnektivität an einem Zweigstellenstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c73-102">Providing PSTN connectivity at a branch site in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a><span data-ttu-id="8521d-102">Bereitstellen der PSTN-Konnektivität an einem Zweigstellenstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8521d-102">Providing PSTN connectivity at a branch site in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42215281"
 
 <span> </span>
 
-<span data-ttu-id="8521d-103">_**Letztes Änderungsstand des Themas:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="8521d-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="37c73-103">_**Letztes Änderungsstand des Themas:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="37c73-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="8521d-104">Wir empfehlen die Verwendung des Microsoft lync Server 2013, Planungstools zum Hinzufügen von Zweigstellenstandorten zu Ihrer Topologie und zum Einrichten Ihrer VoIP-Infrastruktur an Zweigstellenstandorten.</span><span class="sxs-lookup"><span data-stu-id="8521d-104">We recommend using the Microsoft Lync Server 2013, Planning Tool to add branch sites to your topology and to set up your voice infrastructure in branch sites.</span></span>
+<span data-ttu-id="37c73-104">Wir empfehlen die Verwendung des Microsoft lync Server 2013, Planungstools zum Hinzufügen von Zweigstellenstandorten zu Ihrer Topologie und zum Einrichten Ihrer VoIP-Infrastruktur an Zweigstellenstandorten.</span><span class="sxs-lookup"><span data-stu-id="37c73-104">We recommend using the Microsoft Lync Server 2013, Planning Tool to add branch sites to your topology and to set up your voice infrastructure in branch sites.</span></span>
 
-<span data-ttu-id="8521d-105">Wenn Sie das Planungs Tool nicht verwenden, verwenden Sie die Verfahren in den Themen in diesem Abschnitt zuerst zum Hinzufügen der Zweigstellenstandorte und dann zum Einrichten Ihrer VoIP-Infrastruktur durch Definieren des IP/Public Switched Telephone Network (PSTN)-Gateways und/oder durch Konfigurieren des SIP-Trunks (mit oder ohne medienumgehung).</span><span class="sxs-lookup"><span data-stu-id="8521d-105">If you are not using the Planning Tool, use the procedures in the topics in this section—first, to add the branch sites, and then, to set up your voice infrastructure by defining the IP/public switched telephone network (PSTN) gateway and/or by configuring the SIP trunk (with or without media bypass).</span></span> <span data-ttu-id="8521d-106">Eine weitere Option ist das Verbinden einer Nebenstellenanlage mit dem Zweigstellenstandort.</span><span class="sxs-lookup"><span data-stu-id="8521d-106">Connecting a private branch exchange (PBX) to the branch site is another option.</span></span>
+<span data-ttu-id="37c73-105">Wenn Sie das Planungs Tool nicht verwenden, verwenden Sie die Verfahren in den Themen in diesem Abschnitt zuerst zum Hinzufügen der Zweigstellenstandorte und dann zum Einrichten Ihrer VoIP-Infrastruktur durch Definieren des IP/Public Switched Telephone Network (PSTN)-Gateways und/oder durch Konfigurieren des SIP-Trunks (mit oder ohne medienumgehung).</span><span class="sxs-lookup"><span data-stu-id="37c73-105">If you are not using the Planning Tool, use the procedures in the topics in this section—first, to add the branch sites, and then, to set up your voice infrastructure by defining the IP/public switched telephone network (PSTN) gateway and/or by configuring the SIP trunk (with or without media bypass).</span></span> <span data-ttu-id="37c73-106">Eine weitere Option ist das Verbinden einer Nebenstellenanlage mit dem Zweigstellenstandort.</span><span class="sxs-lookup"><span data-stu-id="37c73-106">Connecting a private branch exchange (PBX) to the branch site is another option.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="8521d-107">Wenn Sie Ausfallsicherheit für Zweigstellenstandorte bereitstellen möchten, müssen Sie eine Survivable Branch Appliance, eine Survivable Branch Server oder Standard Edition-Server am Zweigstellenstandort bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="8521d-107">If you want to provide branch-site resiliency, you must deploy a Survivable Branch Appliance, a Survivable Branch Server, or Standard Edition server at the branch site.</span></span> <span data-ttu-id="8521d-108">Ausführliche Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013</A> oder <A href="lync-server-2013-deploying-lync-server.md">Bereitstellen lync Server 2013</A>entsprechend.</span><span class="sxs-lookup"><span data-stu-id="8521d-108">For details, see <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Deploying a Survivable Branch Appliance or Server with Lync Server 2013</A> or <A href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</A>, as appropriate, in the Deployment documentation.</span></span>
+> <span data-ttu-id="37c73-107">Wenn Sie Ausfallsicherheit für Zweigstellenstandorte bereitstellen möchten, müssen Sie eine Survivable Branch Appliance, eine Survivable Branch Server oder Standard Edition-Server am Zweigstellenstandort bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="37c73-107">If you want to provide branch-site resiliency, you must deploy a Survivable Branch Appliance, a Survivable Branch Server, or Standard Edition server at the branch site.</span></span> <span data-ttu-id="37c73-108">Ausführliche Informationen finden Sie in der Bereitstellungsdokumentation unter <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013</A> oder <A href="lync-server-2013-deploying-lync-server.md">Bereitstellen lync Server 2013</A>entsprechend.</span><span class="sxs-lookup"><span data-stu-id="37c73-108">For details, see <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Deploying a Survivable Branch Appliance or Server with Lync Server 2013</A> or <A href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</A>, as appropriate, in the Deployment documentation.</span></span>
 
 
 
@@ -53,25 +55,25 @@ ms.locfileid: "42215281"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8521d-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="8521d-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="37c73-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="37c73-109">In This Section</span></span>
 
-  - [<span data-ttu-id="8521d-110">Hinzufügen von Zweigstellenstandorten zu Ihrer Topologie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8521d-110">Add branch sites to your topology in Lync Server 2013</span></span>](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [<span data-ttu-id="37c73-110">Hinzufügen von Zweigstellenstandorten zu Ihrer Topologie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c73-110">Add branch sites to your topology in Lync Server 2013</span></span>](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [<span data-ttu-id="8521d-111">Definieren eines PSTN-Gateways für einen Zweigstellenstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8521d-111">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
+  - [<span data-ttu-id="37c73-111">Definieren eines PSTN-Gateways für einen Zweigstellenstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c73-111">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [<span data-ttu-id="8521d-112">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8521d-112">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [<span data-ttu-id="37c73-112">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c73-112">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [<span data-ttu-id="8521d-113">Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8521d-113">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [<span data-ttu-id="37c73-113">Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c73-113">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8521d-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="8521d-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="37c73-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="37c73-114">See Also</span></span>
 
 
-[<span data-ttu-id="8521d-115">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8521d-115">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
-[<span data-ttu-id="8521d-116">Planen der PSTN-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8521d-116">Planning for PSTN connectivity in Lync Server 2013</span></span>](lync-server-2013-planning-for-pstn-connectivity.md)  
+[<span data-ttu-id="37c73-115">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c73-115">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="37c73-116">Planen der PSTN-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c73-116">Planning for PSTN connectivity in Lync Server 2013</span></span>](lync-server-2013-planning-for-pstn-connectivity.md)  
   
 
 </div>
