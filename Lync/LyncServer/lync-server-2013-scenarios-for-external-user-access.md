@@ -12,20 +12,22 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9a2f60b2273cf8d43833226ede66a2a90478a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8404a48ae4a8fce5f0d0a85fd5aa36824152c9d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182705"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510852"
 ---
+# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Szenarien für den Zugriff durch externe Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Szenarien für den Zugriff durch externe Benutzer in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Für die Bereitstellung von externem Benutzer Zugriff für lync Server 2013 müs
 
 Wenn Sie mehr Kapazität benötigen, als ein einzelnes Edgeserver bereitstellen kann, oder wenn Sie hohe Verfügbarkeit für Ihre Edgeserver-Bereitstellung benötigen, können Sie den Lastenausgleich konfigurieren und mehrere Edgeserver in einem Lastenausgleichspool bereitstellen. Wenn Ihre Organisation über mehrere Rechenzentren verfügt, können Sie Edgeserver-oder Edgepool-Bereitstellungen an mehr als einem Standort haben. Es kann jedoch nur eine der Edgeserver-Bereitstellungen als Verbund Route festgelegt werden.
 
-In diesem Abschnitt werden die Szenarien für Edgeserver Bereitstellungen definiert und die Planungsabschnitte den möglichen Szenarien zugeordnet. Wenn Ihre Bereitstellung beispielsweise eine hohe Verfügbarkeit, einen Partnerverbund mit XMPP-Kontakten (Extensible Messaging and Presence) und lync Mobility erfordert, wählen Sie in der folgenden Tabelle die übereinstimmenden Einträge aus, die diese Anforderungen erfüllen würden, und verwenden Sie die referenzierte Planungsabschnitte zur Definition Ihrer Bereitstellung, wie im folgenden Flussdiagramm dargestellt.
+In diesem Abschnitt werden die Szenarien für Edgeserver Bereitstellungen definiert und die Planungsabschnitte den möglichen Szenarien zugeordnet. Wenn Ihre Bereitstellung beispielsweise eine hohe Verfügbarkeit, einen Partnerverbund mit XMPP-Kontakten (Extensible Messaging and Presence) und lync Mobility erfordert, wählen Sie die entsprechenden Einträge in der folgenden Tabelle aus, die diese Anforderungen erfüllen würden, und verwenden Sie die referenzierten Planungsabschnitte, um Ihre Bereitstellung zu definieren, wie im folgenden Flussdiagramm dargestellt.
 
 **Auswahl des Szenarios für die Bereitstellung von Edgeservers**
 
@@ -53,7 +55,7 @@ Mit diesem Verfahren können Sie die Konfiguration aller potenziellen Features p
 
 
 > [!TIP]  
-> Wenn Sie planen, die Edgeserver und den Reverseproxy zu installieren und später Features hinzuzufügen (beispielsweise "Verbund" und "Mobilität"), legen Sie fest, welche Zertifikate für alle Dienste nach der Bereitstellung erforderlich sind. Das Planen und erwerben der Zertifikate für alle Features im voraus, die anfänglich bereitgestellt werden oder nicht, erspart Ihnen das Anfordern neuer Zertifikate, um die Anforderungen des Verbunds (also auf den Edgeserver) oder des Reverseproxys (also für Mobilität) zu erfüllen. Dienste).
+> Wenn Sie planen, die Edgeserver und den Reverseproxy zu installieren und später Features hinzuzufügen (beispielsweise "Verbund" und "Mobilität"), legen Sie fest, welche Zertifikate für alle Dienste nach der Bereitstellung erforderlich sind. Wenn Sie die Zertifikate für alle Features vorab planen und erwerben, die anfänglich bereitgestellt wurden oder nicht, müssen Sie keine neuen Zertifikate bestellen, um die Anforderungen des Verbunds (also auf den Edgeserver) oder des Reverseproxys (also für Mobilitätsdienste) zu erfüllen.
 
 
 

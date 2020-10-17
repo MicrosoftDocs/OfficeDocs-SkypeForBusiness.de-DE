@@ -12,20 +12,22 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35e7e0f3cfe38a7a1c4802eca16c37a62013cecb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b40f2c316216b01415b3e58d5d59c97421439d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182398"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510302"
 ---
+# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Trend Bericht über Server Medienqualität in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Trend Bericht über Server Medienqualität in lync Server 2013
+
 
 </div>
 
@@ -201,7 +203,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Trend Berich
 <tr class="even">
 <td><p><strong>Roundtrip (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Durchschnittliche Zeit (in Millisekunden), die für ein Transport Protokoll Paket in Echtzeit erforderlich ist, um an einen Endpunkt und dann zurück zu reisen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.</p>
+<td><p>Durchschnittliche Zeit (in Millisekunden), die für ein Real-Time Transport Protokoll Paket benötigt wird, um an einen Endpunkt und dann zurück zu reisen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.</p>
 <p>Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routing konfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</p></td>
 </tr>
 <tr class="odd">
@@ -212,7 +214,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Trend Berich
 <tr class="even">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot; Zittern eines &quot; Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ausblendungsverhältnis der Reparatur</strong></p></td>

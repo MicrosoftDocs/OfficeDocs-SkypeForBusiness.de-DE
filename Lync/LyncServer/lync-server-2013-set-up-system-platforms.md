@@ -12,20 +12,22 @@ ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59aafcda7cbe94401cdbd77479eecf38e3e9e351
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29bd5bff0b215060b1d352d5cc5798b114140c15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200605"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509782"
 ---
+# <a name="set-up-system-platforms-in-lync-server-2013"></a>Einrichten von Systemplattformen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-system-platforms-in-lync-server-2013"></a>Einrichten von Systemplattformen in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Sie können auch den Server für beständigen Chat mit lync Server 2013 Standard
 
 
 > [!IMPORTANT]  
-> Wir unterstützen keine persistent Chat Server&nbsp;Standard Edition für hohe Verfügbarkeit. Leistung und Skalierung sind eingeschränkt. Darüber hinaus werden nur neue Server&nbsp;für beständigen Chat Standard Edition-Server-Bereitstellungen unterstützt. Wir unterstützen kein Upgrade von lync Server 2010, Gruppen Chat Server auf eine lync Server 2013&nbsp;persistent Chat Server&nbsp;Standard Edition.
+> Wir unterstützen keine persistent Chat Server &nbsp; Standard Edition für hohe Verfügbarkeit. Leistung und Skalierung sind eingeschränkt. Darüber hinaus werden nur neue Server für beständigen Chat &nbsp; Standard Edition-Server-Bereitstellungen unterstützt. Wir unterstützen kein Upgrade von lync Server 2010, Gruppen Chat Server auf eine lync Server 2013 &nbsp; persistent Chat Server &nbsp; Standard Edition.
 
 
 

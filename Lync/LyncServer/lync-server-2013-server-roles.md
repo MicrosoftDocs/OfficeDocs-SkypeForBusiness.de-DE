@@ -12,20 +12,22 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e153e41e0c5d452ec136daf2ad46d4ea67541d83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a413bde093c375a887f1ea39c435401b3ce1c4a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510262"
 ---
+# <a name="server-roles-in-lync-server-2013"></a>Server Rollen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-roles-in-lync-server-2013"></a>Server Rollen in lync Server 2013
+
 
 </div>
 
@@ -127,7 +129,7 @@ Die in den Datenbanken auf einem Back-End-Server gespeicherten Daten umfassen An
 
 ## <a name="edge-server"></a>Edgeserver
 
-Edgeserver ermöglicht Ihren Benutzern die Kommunikation und Zusammenarbeit mit Benutzern außerhalb der Firewalls der Organisation. Zu diesen externen Benutzern können die eigenen Benutzer der Organisation gehören, die derzeit extern arbeiten, Benutzer aus Verbundpartner Organisationen und externe Benutzer, die eingeladen wurden, an Konferenzen teilzunehmen, die in ihrer lync Server-Bereitstellung gehostet werden. Edgeserver ermöglicht auch die Konnektivität mit öffentlichen Instant Messaging-Verbindungs Diensten, einschließlich Windows Live,\!AOL, Yahoo und Google Talk.
+Edgeserver ermöglicht Ihren Benutzern die Kommunikation und Zusammenarbeit mit Benutzern außerhalb der Firewalls der Organisation. Zu diesen externen Benutzern können die eigenen Benutzer der Organisation gehören, die derzeit extern arbeiten, Benutzer aus Verbundpartner Organisationen und externe Benutzer, die eingeladen wurden, an Konferenzen teilzunehmen, die in ihrer lync Server-Bereitstellung gehostet werden. Edgeserver ermöglicht auch die Konnektivität mit öffentlichen Instant Messaging-Verbindungs Diensten, einschließlich Windows Live, AOL, Yahoo \! und Google Talk.
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Szenarien für das standortbasierte Routing'
+title: 'Lync Server 2013: Szenarien für das Location-Based Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 702c777219346af1b35bc70e0fd88a09ad07dae9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f896340a97b9d61ab9b463061d135a9871940335
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182658"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510842"
 ---
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Szenarien für Location-Based Routing in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Szenarien für das standortbasierte Routing in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182658"
 
 _**Letztes Änderungsstand des Themas:** 2014-08-11_
 
-Bei der standortbasierten Weiterleitung werden die folgenden allgemeinen Regeln beim Weiterleiten von Anrufen in den folgenden Szenarien angewendet.
+Location-Based Routing wendet die folgenden allgemeinen Regeln beim Routing von Anrufen in den folgenden Szenarien an.
 
 <div>
 
@@ -53,7 +55,7 @@ Bei der standortbasierten Weiterleitung werden die folgenden allgemeinen Regeln 
 
   - [Delegation in lync Server 2013](lync-server-2013-delegation.md)
 
-  - [Team Anrufe mit Standort basiertem Routing in lync Server 2013](lync-server-2013-team-calling-with-location-based-routing.md)
+  - [Team Anrufe mit Location-Based Routing in lync Server 2013](lync-server-2013-team-calling-with-location-based-routing.md)
 
 </div>
 
@@ -62,7 +64,7 @@ Bei der standortbasierten Weiterleitung werden die folgenden allgemeinen Regeln 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen des standortbasierten Routings in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planen von Location-Based Routing in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

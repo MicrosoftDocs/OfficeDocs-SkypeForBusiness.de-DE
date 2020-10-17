@@ -12,20 +12,22 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c34e1d0d4e87bffbf28ba600ab23d849fd664423
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8f8c5c41eba828cb6514ba6963167d708ed203d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509892"
 ---
+# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Einrichten von Zertifikaten für die interne Edge-Schnittstelle in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Einrichten von Zertifikaten für die interne Edge-Schnittstelle in lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
 
 
 > [!NOTE]  
-> Die Schritte in diesem Abschnitt basieren auf der Verwendung einer Windows Server&nbsp;2008-Zertifizierungsstelle, einer&nbsp;Windows&nbsp;Server 2008 R2-Zertifizierungsstelle, Windows Server 2012 ca oder Windows Server 2012 R2-Zertifizierungsstelle, um ein Zertifikat für jede Edgeserver zu erstellen. Eine Schritt-für-Schritt-Anleitung für andere Zertifizierungsstellen finden Sie in der Dokumentation für die jeweilige Zertifizierungsstelle. Standardmäßig besitzen alle authentifizierten Benutzer die entsprechenden Benutzerrechte zum Anfordern von Zertifikaten.<BR>Die Verfahren in diesem Abschnitt basieren auf der Erstellung von Zertifikatanforderungen auf dem Edgeserver im Rahmen des Edgeserver-Bereitstellungsprozesses. Zertifikatanforderungen können mithilfe des Front-End-Servers erstellt werden. Dies ist möglich, um die Zertifikatanforderung zu einem frühen Zeitpunkt im Planungs- und Bereitstellungsprozess vor der Bereitstellung der Edgeserver abzuschließen. Hierzu müssen Sie sicherstellen, dass das angeforderte Zertifikat mit einem exportierbaren privaten Schlüssel definiert ist.<BR>Die Verfahren in diesem Abschnitt beschreiben die Verwendung einer CER- und einer P7B-Datei für das Zertifikat. Wenn Sie einen anderen Dateityp verwenden, ändern Sie diese Verfahren entsprechend ab.
+> Die Schritte in diesem Abschnitt basieren auf der Verwendung einer Windows Server 2008-Zertifizierungsstelle, einer &nbsp; Windows Server &nbsp; 2008 &nbsp; R2-Zertifizierungsstelle, Windows Server 2012 ca oder Windows Server 2012 R2-Zertifizierungsstelle, um ein Zertifikat für jede Edgeserver zu erstellen. Eine Schritt-für-Schritt-Anleitung für andere Zertifizierungsstellen finden Sie in der Dokumentation für die jeweilige Zertifizierungsstelle. Standardmäßig besitzen alle authentifizierten Benutzer die entsprechenden Benutzerrechte zum Anfordern von Zertifikaten.<BR>Die Verfahren in diesem Abschnitt basieren auf der Erstellung von Zertifikatanforderungen auf dem Edgeserver im Rahmen des Edgeserver-Bereitstellungsprozesses. Zertifikatanforderungen können mithilfe des Front-End-Servers erstellt werden. Dies ist möglich, um die Zertifikatanforderung zu einem frühen Zeitpunkt im Planungs- und Bereitstellungsprozess vor der Bereitstellung der Edgeserver abzuschließen. Hierzu müssen Sie sicherstellen, dass das angeforderte Zertifikat mit einem exportierbaren privaten Schlüssel definiert ist.<BR>Die Verfahren in diesem Abschnitt beschreiben die Verwendung einer CER- und einer P7B-Datei für das Zertifikat. Wenn Sie einen anderen Dateityp verwenden, ändern Sie diese Verfahren entsprechend ab.
 
 
 
@@ -135,7 +137,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
 
 6.  Klicken Sie im **Zertifikatexport-Assistenten** auf **Weiter**.
 
-7.  Wählen Sie im Dialogfeld **Format der zu exportierenden Datei** ein Format für den Export aus. Wir empfehlen die **Syntax Standard für kryptografische Nachrichten \#– PKCS 7-Zertifikate (. P7B)**. Wenn Sie die **Syntax Standard für kryptografische Nachrichten auswählen \#– PKCS 7-Zertifikate (. P7B)**, aktivieren Sie das Kontrollkästchen **alle Zertifikate im Zertifizierungspfad einschließen** , um die Zertifikatkette einschließlich Zertifikat der Stammzertifizierungsstelle und aller Zwischenzertifizierungsstellen Zertifikate zu exportieren. Klicken Sie auf **Weiter**.
+7.  Wählen Sie im Dialogfeld **Format der zu exportierenden Datei** ein Format für den Export aus. Wir empfehlen die **Syntax Standard für kryptografische Nachrichten – PKCS \# 7-Zertifikate (. P7B)**. Wenn Sie die **Syntax Standard für kryptografische Nachrichten auswählen – PKCS \# 7-Zertifikate (. P7B)**, aktivieren Sie das Kontrollkästchen **alle Zertifikate im Zertifizierungspfad einschließen** , um die Zertifikatkette einschließlich Zertifikat der Stammzertifizierungsstelle und aller Zwischenzertifizierungsstellen Zertifikate zu exportieren. Klicken Sie auf **Weiter**.
 
 8.  Geben Sie im Dialogfeld **Zu exportierende Datei** im Eingabefeld für den Dateinamen einen Pfad und Dateinamen (die Standarderweiterung lautet ".p7b") für das exportierte Zertifikat ein. Optional können Sie auf **Durchsuchen** klicken, ein Verzeichnis zum Speichern des exportierten Zertifikats suchen und einen Namen für das exportierte Zertifikat angeben. Klicken Sie auf **Speichern**. Klicken Sie auf **Weiter**.
 
@@ -188,7 +190,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
 
 4.  Klicken Sie auf der Seite **Verzögerte oder sofortige Anforderungen** auf **Anforderung jetzt vorbereiten, jedoch später senden**.
 
-5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Namen der Datei ein, in die die Anforderung gespeichert werden soll (beispielsweise **c:\\CERT\_Internal\_Edge. CER**).
+5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Namen der Datei ein, in die die Anforderung gespeichert werden soll (beispielsweise **c: \\ CERT \_ internal \_ Edge. CER**).
 
 6.  Aktivieren Sie auf der Seite **Alternative Zertifikatvorlage angeben** das Kontrollkästchen **Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden**, um eine andere Vorlage als die Standardvorlage "WebServer" zu verwenden.
 
@@ -291,7 +293,7 @@ Falls Sie über mehrere Standorte mit Edgeservern verfügen (also über eine Edg
     
     </div>
 
-9.  Wählen Sie im Dialogfeld Dateiformate exportieren die Option **Personal Information Exchange\#– PKCS 12 (aus. PFX)** , und wählen Sie dann Folgendes aus:
+9.  Wählen Sie im Dialogfeld Dateiformate exportieren die Option **Personal Information Exchange – PKCS \# 12 (aus. PFX)** , und wählen Sie dann Folgendes aus:
     
       - Wenn möglich, alle Zertifikate im Zertifizierungspfad einbeziehen
     

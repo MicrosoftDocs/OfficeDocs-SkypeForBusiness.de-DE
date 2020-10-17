@@ -12,20 +12,22 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05678690718563dac9187ee275d3809016b78d33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: deda1ec30ef5267acd8b3826b77077e7902d98e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208489"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511262"
 ---
+# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Wiederherstellen migrierter Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Wiederherstellen migrierter Benutzer in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208489"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-07_
 
-Wenn Sie ein Rollback für die Funktion des einheitlichen Kontaktspeichers ausführen müssen, führen Sie die Kontakte nur zurück, wenn Sie den Benutzer zurück in Exchange 2010 oder lync Server 2010 bewegen. Wenn Sie ein Rollback ausführen möchten, deaktivieren Sie die Richtlinie für den Benutzer, und führen Sie dann das Cmdlet **Invoke-CsUcsRollback** aus. Das Ausführen von **Invoke-CsUcsRollback** alleine reicht nicht aus, um ein dauerhaftes Rollback sicherzustellen, da die Migration des einheitlichen Kontaktspeichers erneut initiiert wird, wenn die Richtlinie nicht deaktiviert ist. Wenn beispielsweise ein Rollback für einen Benutzer durchgeführt wird, da Exchange 2013 auf Exchange 2010 zurückgesetzt wird und dann das Postfach des Benutzers in Exchange 2013 verschoben wird, wird die Migration des einheitlichen Kontaktspeichers sieben Tage nach dem Rollback erneut initiiert, solange ein einheitlicher Kontaktspeicher ist weiterhin für den Benutzer in der Benutzer Dienste-Richtlinie aktiviert.
+Wenn Sie ein Rollback für die Funktion des einheitlichen Kontaktspeichers ausführen müssen, führen Sie die Kontakte nur zurück, wenn Sie den Benutzer zurück in Exchange 2010 oder lync Server 2010 bewegen. Wenn Sie ein Rollback ausführen möchten, deaktivieren Sie die Richtlinie für den Benutzer, und führen Sie dann das Cmdlet **Invoke-CsUcsRollback** aus. Das Ausführen von **Invoke-CsUcsRollback** alleine reicht nicht aus, um ein dauerhaftes Rollback sicherzustellen, da die Migration des einheitlichen Kontaktspeichers erneut initiiert wird, wenn die Richtlinie nicht deaktiviert ist. Wenn beispielsweise ein Rollback für einen Benutzer durchgeführt wird, da Exchange 2013 auf Exchange 2010 zurückgesetzt wird und das Postfach des Benutzers in Exchange 2013 verschoben wird, wird die Migration des einheitlichen Kontaktspeichers sieben Tage nach dem Rollback erneut initiiert, solange der einheitliche Kontaktspeicher für den Benutzer in der Benutzer Dienste-Richtlinie weiterhin aktiviert ist.
 
 <div>
 
@@ -91,7 +93,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie ein Rollback für Benutzerkonta
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
-    Zum Beispiel:
+    Beispiel:
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
@@ -110,7 +112,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie ein Rollback für Benutzerkonta
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    Zum Beispiel:
+    Beispiel:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
@@ -143,7 +145,7 @@ Im folgenden Verfahren wird beschrieben, wie Sie ein Rollback für Benutzerkonta
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    Zum Beispiel:
+    Beispiel:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     

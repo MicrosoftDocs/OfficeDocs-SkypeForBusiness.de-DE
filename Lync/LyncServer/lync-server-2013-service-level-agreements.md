@@ -12,20 +12,22 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f902a946d272ce3a16db5f032b74ec031c7e3a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7dbc961068a0b0efe0e9d540d1e95540d9dd88cd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510112"
 ---
+# <a name="service-level-agreements-in-lync-server-2013"></a>Vereinbarungen zum Service Level in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="service-level-agreements-in-lync-server-2013"></a>Vereinbarungen zum Service Level in lync Server 2013
+
 
 </div>
 
@@ -63,11 +65,11 @@ Wenn Ihr Kunde intern ist, möchten Sie möglicherweise dennoch die Dienste defi
 
 SLAs umfassen Abschnitte, die Kriterien für mindestverfügbarkeits Stufen, Support und Kapazität definieren.
 
-  - **Verfügbarkeit**   definieren Sie die Stunden und Betriebssysteme, auf denen Websites und andere lync-Dienste verfügbar sind. Alle Routinewartungen, die sich auf die Dienstverfügbarkeit auswirken, sollten definiert werden. Definieren Sie externe Faktoren, die sich auf den Dienst auswirken, beispielsweise den Verlust der Internet Konnektivität.
+  - **Verfügbarkeit**     Definieren Sie die Stunden und Betriebssysteme, auf denen Websites und andere lync-Dienste verfügbar sind. Alle Routinewartungen, die sich auf die Dienstverfügbarkeit auswirken, sollten definiert werden. Definieren Sie externe Faktoren, die sich auf den Dienst auswirken, beispielsweise den Verlust der Internet Konnektivität.
 
-  - **Unterstützung**   definieren Sie die Zeiten, in denen die Unterstützung für ein System verfügbar sein wird. Geben Sie Methoden an, mit denen Kunden sich an das Support Team wenden können, wie Vorfälle gruppiert werden, und welche Zeit für eine Antwort und zur Lösung des Vorfalls gelten soll. Definieren Sie die Häufigkeit und den Inhalt von Feedback für den Kunden.
+  - **Unterstützung**     Definieren Sie die Zeiten, in denen die Unterstützung für ein System verfügbar sein wird. Geben Sie Methoden an, mit denen Kunden sich an das Support Team wenden können, wie Vorfälle gruppiert werden, und welche Zeit für eine Antwort und zur Lösung des Vorfalls gelten soll. Definieren Sie die Häufigkeit und den Inhalt von Feedback für den Kunden.
 
-  - **Kapazität**   definieren Sie die maximal aktivierte Größe von lync-Websites und die erforderlichen Schritte, wenn der Grenzwert überschritten wird. Definieren Sie die maximal aktivierte Zeit für Standardaufgaben, beispielsweise die Zeit zum Abrufen eines Dokuments aus einer Dokumentbibliothek. Definieren Sie die maximale Anzahl von Benutzern pro lync-Pool, und stimmen Sie einem Prozess zu, um die Kapazität zu verbessern, wenn mehr Benutzer hinzugefügt werden.
+  - **Kapazität**     Definieren Sie die maximal aktivierte Größe von lync-Websites und die Schritte, die ausgeführt werden sollen, wenn die Grenze überschritten wird. Definieren Sie die maximal aktivierte Zeit für Standardaufgaben, beispielsweise die Zeit zum Abrufen eines Dokuments aus einer Dokumentbibliothek. Definieren Sie die maximale Anzahl von Benutzern pro lync-Pool, und stimmen Sie einem Prozess zu, um die Kapazität zu verbessern, wenn mehr Benutzer hinzugefügt werden.
 
 </div>
 

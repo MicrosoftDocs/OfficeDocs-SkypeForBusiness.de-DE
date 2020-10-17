@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510272"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Server Hardwareplattformen für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Server Hardwareplattformen für lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Um eine optimale Leistung zu erzielen, sollten Sie lync Server auf Servern mit H
 <td><ul>
 <li><p>8 oder mehr 10.000 RPM-Festplatten mit mindestens 72 GB freiem Speicherplatz.</p>
 <p>Zwei der Datenträger sollten RAID 1 verwenden, und sechs sollten RAID 10 verwenden.</p>
-<p>-Oder</p></li>
+<p>- Oder</p></li>
 <li><p>Solid State Drives (SSDs), die ähnliche Leistung wie mechanische Festplattenlaufwerke mit 8 10.000-rpm bieten.</p></li>
 </ul></td>
 </tr>
@@ -124,7 +126,7 @@ Um eine optimale Leistung zu erzielen, sollten Sie lync Server auf Servern mit H
 <td><p>CPU</p></td>
 <td><ul>
 <li><p>Dualprozessor mit 64 Bit, Quad-Core, 2,0 Gigahertz (GHz) oder höher.</p>
-<p>-Oder</p></li>
+<p>- Oder</p></li>
 <li><p>64-Bit-4-Wege-Prozessor, Dual-Core, 2,0 GHz oder höher.</p></li>
 </ul>
 <p>Intel Itanium-Prozessoren werden für lync Server-Server Rollen nicht unterstützt.</p></td>
@@ -138,7 +140,7 @@ Um eine optimale Leistung zu erzielen, sollten Sie lync Server auf Servern mit H
 <td><ul>
 <li><p>4 oder mehr 10.000 RPM-Festplatten mit mindestens 72 GB freiem Speicherplatz.</p>
 <p>Die Datenträger sollten sich in einer 2X-RAID-1-Konfiguration befinden.</p>
-<p>-Oder</p></li>
+<p>- Oder</p></li>
 <li><p>Solid State Drives (SSDs), die ähnliche Leistung wie mechanische Festplattenlaufwerke mit 4 10.000-rpm bieten.</p></li>
 </ul></td>
 </tr>

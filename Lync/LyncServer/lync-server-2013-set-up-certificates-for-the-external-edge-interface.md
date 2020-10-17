@@ -12,20 +12,22 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2bad8f01e773d50f8d722ddbbf4be0757cb31d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509882"
 ---
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Einrichten von Zertifikaten für die externe Edge-Schnittstelle für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Einrichten von Zertifikaten für die externe Edge-Schnittstelle für lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Jeder Edgeserver benötigt ein öffentliches Zertifikat für die Schnittstelle z
 
 Ausführliche Informationen zu diesen und anderen Zertifikatanforderungen finden Sie unter [Certificate Requirements for external User Access in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate bereitstellen, die den spezifischen Anforderungen an Unified Communications-Zertifikate entsprechen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server 2013-Zertifikat-Assistenten funktionieren, finden Sie im [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)Microsoft Knowledge Base-Artikel 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server" unter.
+Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate bereitstellen, die den spezifischen Anforderungen an Unified Communications-Zertifikate entsprechen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server 2013-Zertifikat-Assistenten funktionieren, finden Sie im Microsoft Knowledge Base-Artikel 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server" unter [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 <div>
 
@@ -96,7 +98,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
 
 4.  Aktivieren Sie auf der Seite **Verzögerte oder sofortige Anforderung** das Kontrollkästchen **Anforderung jetzt vorbereiten, jedoch später senden**.
 
-5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Dateinamen der Datei ein, in der die Anforderung gespeichert werden soll (beispielsweise\\c\_: Zertifikat "\_Edge. cer").
+5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Dateinamen der Datei ein, in der die Anforderung gespeichert werden soll (beispielsweise c: \\ Zertifikat " \_ \_ Edge. cer").
 
 6.  Aktivieren Sie auf der Seite **Alternative Zertifikatvorlage angeben** das Kontrollkästchen **Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden**, um eine andere Vorlage als die Standardvorlage "WebServer" zu verwenden.
 
@@ -114,7 +116,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
 
 10. Auf der Seite **Antragstellername/Alternative Antragstellernamen** werden die Informationen angezeigt, die automatisch vom Assistenten aufgefüllt werden. Wenn zusätzliche alternative Antragstellernamen erforderlich sind, werden diese in den nächsten zwei Schritten angegeben.
 
-11. Aktivieren Sie auf der Seite **SIP-Domäneneinstellung für alternative Antragstellernamen (SANs)** das Kontrollkästchen Domäne, um ein SIP hinzuzufügen. \<sipdomain "\> -Eintrag zur Liste der alternativen Antragstellernamen.
+11. Aktivieren Sie auf der Seite **SIP-Domäneneinstellung für alternative Antragstellernamen (SANs)** das Kontrollkästchen Domäne, um ein SIP hinzuzufügen.\<sipdomain\> Eintrag zur Liste der alternativen Antragstellernamen.
 
 12. Geben Sie auf der Seite **Zusätzliche alternative Antragstellernamen konfigurieren** zusätzliche alternative Antragstellernamen an, die benötigt werden.
 
@@ -144,7 +146,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Der standardmäßige Zertifikatname der in lync Server 2013 bereitgestellten Vorlage ist Webserver. Geben Sie nur \<den Vorlagen\> Namen an, wenn Sie eine Vorlage verwenden möchten, die sich von der Standardvorlage unterscheidet.
+    Der standardmäßige Zertifikatname der in lync Server 2013 bereitgestellten Vorlage ist Webserver. Geben Sie nur die an \<template name\> , wenn Sie eine Vorlage verwenden möchten, die sich von der Standardvorlage unterscheidet.
     
     <div>
     
@@ -239,7 +241,7 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
     
     </div>
 
-9.  Wählen Sie im Dialogfeld Dateiformate exportieren die Option **Personal Information Exchange\#– PKCS 12 (aus. PFX)** , und wählen Sie dann Folgendes aus:
+9.  Wählen Sie im Dialogfeld Dateiformate exportieren die Option **Personal Information Exchange – PKCS \# 12 (aus. PFX)** , und wählen Sie dann Folgendes aus:
     
       - Wenn möglich, alle Zertifikate im Zertifizierungspfad einbeziehen
     

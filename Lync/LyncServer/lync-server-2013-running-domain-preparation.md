@@ -12,20 +12,22 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d22c35f4e1a2b117ffa765446a94c9a7d2b0fd0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cf14c4b566d6c6447776d3251004f5d508220e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511112"
 ---
+# <a name="running-domain-preparation-for-lync-server-2013"></a>Ausführung der Domänenvorbereitung für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-domain-preparation-for-lync-server-2013"></a>Ausführung der Domänenvorbereitung für lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Die Domänenvorbereitung ist der letzte Schritt bei der Vorbereitung Active Dire
 
 1.  Melden Sie sich als Mitglied der Gruppe der Domänenadministratoren bei einem beliebigen Server an.
 
-2.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup. exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
+2.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup.exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
 
 3.  Klicken Sie auf **Active Directory vorbereiten**, und warten Sie das Bestimmen des Bereitstellungsstatus ab.
 
@@ -57,7 +59,7 @@ Die Domänenvorbereitung ist der letzte Schritt bei der Vorbereitung Active Dire
 
 6.  Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen**, und klicken Sie dann auf **Protokoll anzeigen**.
 
-7.  Erweitern Sie in der Spalte **Aktion** den Knoten **Domänenvorbereitung**, suchen Sie nach einem ** \<\> ** Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, um zu überprüfen, ob die Domänenvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
+7.  Erweitern Sie in der Spalte **Aktion** den Knoten **Domänen**Vorbereitung, suchen Sie nach einem **\<Success\>** Ausführungsergebnis am Ende jeder Aufgabe, um zu überprüfen, ob die Domänenvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
 
 8.  Warten Sie auf den Abschluss der Active Directory-Replikation, oder erzwingen Sie die Replikation für alle Domänencontroller, die im Snap-In "Active Directory-Standorte und -Dienste" für den Domänencontroller des Gesamtstrukturstamms aufgelistet sind.
 
@@ -71,7 +73,7 @@ Die Domänenvorbereitung ist der letzte Schritt bei der Vorbereitung Active Dire
 
 2.  Installieren Sie lync Server Kernkomponenten wie folgt:
     
-    1.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup. exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
+    1.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup.exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
     
     2.  Klicken Sie auf **Ja**, wenn Sie zur Installation von Microsoft Visual C++ Redistributable aufgefordert werden.
     
@@ -85,7 +87,7 @@ Die Domänenvorbereitung ist der letzte Schritt bei der Vorbereitung Active Dire
     
         Enable-CsAdDomain [-Domain <DomainFQDN>] 
     
-    Zum Beispiel:
+    Beispiel:
     
         Enable-CsAdDomain -Domain domain1.contoso.net 
     
@@ -103,14 +105,14 @@ Die Domänenvorbereitung ist der letzte Schritt bei der Vorbereitung Active Dire
     
 
     > [!NOTE]  
-    > Über den Parameter "GlobalSettingsDomainController" können Sie den Speicherort der globalen Einstellungen angeben. Wenn Ihre Einstellungen im Systemcontainer gespeichert sind (dies ist bei Upgradebereitstellungen typisch, in denen die globalen Einstellungen nicht zum Konfigurationscontainer migriert wurden), definieren Sie einen Domänencontroller im Stammverzeichnis Ihrer Active Directory-Gesamtstruktur. Wenn sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind, und verweist auf einen beliebigen Domänen&nbsp;Controller in AD DS.
+    > Über den Parameter "GlobalSettingsDomainController" können Sie den Speicherort der globalen Einstellungen angeben. Wenn Ihre Einstellungen im Systemcontainer gespeichert sind (dies ist bei Upgradebereitstellungen typisch, in denen die globalen Einstellungen nicht zum Konfigurationscontainer migriert wurden), definieren Sie einen Domänencontroller im Stammverzeichnis Ihrer Active Directory-Gesamtstruktur. Wenn sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind, und verweist auf einen beliebigen Domänencontroller in AD &nbsp; DS.
 
     
     </div>
     
     Wenn Sie den Parameter **Domain** nicht angeben, wird standardmäßig die lokale Domäne verwendet.
     
-    Dieses Cmdlet gibt einen Wert von **LC\_DOMAINSETTINGS\_Status\_Ready** zurück, wenn die Domänenvorbereitung erfolgreich war.
+    Dieses Cmdlet gibt einen Wert von **LC \_ DOMAINSETTINGS \_ Status \_ Ready** zurück, wenn die Domänenvorbereitung erfolgreich war.
 
 </div>
 

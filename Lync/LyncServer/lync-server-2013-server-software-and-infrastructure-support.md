@@ -12,20 +12,22 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92794db01db02ec8c9413fdab8c2c31cc624dfaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7906d381c49fe3514683989fd725d9d29802f81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182388"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510242"
 ---
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Server Software und Infrastrukturunterstützung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Server Software und Infrastrukturunterstützung in lync Server 2013
+
 
 </div>
 

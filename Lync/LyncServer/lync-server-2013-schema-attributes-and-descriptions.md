@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182668"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510872"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Schema Attribute und-Beschreibungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Schema Attribute und-Beschreibungen in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Einige Attribute weisen einen Bitmaskenwert auf. Für diese Attribute wird jede 
 <tr class="header">
 <th>Attribut</th>
 <th>Beschreibung</th>
-<th>Anmerkungen</th>
+<th>Kommentare</th>
 </tr>
 </thead>
 <tbody>
@@ -441,7 +443,7 @@ Einige Attribute weisen einen Bitmaskenwert auf. Für diese Attribute wird jede 
 <p>In Live Communications Server 2005 veraltet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Reihe</p></td>
+<td><p>msRTCSIP-Line</p></td>
 <td><p>Dieses einwertige Attribut enthält die Geräte-ID (entweder den SIP-URI oder den Tel-URI des Telefons, den der Benutzer steuert), der von lync für die Telefonie verwendet wird. Dieses Attribut ist für die Replikation des globalen Katalogs gekennzeichnet und wird indiziert. Wenn ein Benutzer für Enterprise-VoIP aktiviert ist, wird in diesem Attribut die normalisierte E. 164-Version der Telefonnummer des Benutzers gespeichert.</p></td>
 <td><p>Neu in Microsoft Office Live Communications Server 2005 mit SP1</p></td>
 </tr>
@@ -546,7 +548,7 @@ Einige Attribute weisen einen Bitmaskenwert auf. Für diese Attribute wird jede 
 <td><p>msRTCSIP-MCUFactoryData</p></td>
 <td><p>Dies ist ein reserviertes Attribut mit mehreren Zeichenfolgen. In diesem Attribut gespeicherte Einstellungen werden als Name = Wert-Paare dargestellt. Aktuell definierte Name = Wert-Paare sind:</p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p>FactoryURL = &lt; URL&gt;</p></li>
 </ul></td>
 <td><p>Neu in Office Communications Server 2007.</p></td>
 </tr>
@@ -769,7 +771,7 @@ Einige Attribute weisen einen Bitmaskenwert auf. Für diese Attribute wird jede 
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-PoolDomainFQDN</p></td>
-<td><p>Dieses Attribut ist ein einwertiger Zeichenfolgenwert. Der Wert dieses Attributs stellt, sofern vorhanden, den Domänen-FQDN des Pools dar, wenn der Administrator eine Front-End-Pool mit einem FQDN erstellen möchte, der nicht der Active Directory Domänenstruktur entspricht, in der das Front-End-Pool erstellt wird (beispielsweise ein SIP Namespace, der von Domain Name System (DNS) Namespace nicht verbunden ist).</p>
+<td><p>Dieses Attribut ist ein einwertiger Zeichenfolgenwert. Der Wert dieses Attributs stellt, sofern vorhanden, den Domänen-FQDN des Pools dar, wenn der Administrator eine Front-End-Pool mit einem FQDN erstellen möchte, der nicht der Active Directory Domänenstruktur entspricht, in der das Front-End-Pool erstellt wird (beispielsweise ein SIP-Namespace, der vom Domain Name System (DNS) Namespace abweicht).</p>
 <p>Es wird empfohlen, den Domänen-FQDN Front-End-Pool Domänennamen als Active Directory Domäne, in der sich der Pool befindet, dem Domänennamens Teil zuzuordnen. Wenn in diesem Attribut kein Wert vorhanden ist, wird der Front-End-Pool-FQDN standardmäßig auf die Active Directory Domänennamenstruktur, wie durch das <strong>dNSHostName</strong> -Attribut gekennzeichnet.</p></td>
 <td><p>Neu in Office Communications Server 2007.</p></td>
 </tr>
@@ -1082,7 +1084,7 @@ Einige Attribute weisen einen Bitmaskenwert auf. Für diese Attribute wird jede 
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-UserExtension</p></td>
-<td><p>Dieses mehrwertige Attribut enthält eine Liste von Name-Wert-Paaren im Format &quot;von Name = Value. &quot; Dieses Attribut ist für die Replikation des globalen Katalogs gekennzeichnet.</p></td>
+<td><p>Dieses mehrwertige Attribut enthält eine Liste von Name-Wert-Paaren im Format von &quot; Name = Value. &quot; Dieses Attribut ist für die Replikation des globalen Katalogs gekennzeichnet.</p></td>
 <td><p>Neu in Live Communications Server 2005 mit SP1.</p></td>
 </tr>
 <tr class="odd">
@@ -1148,7 +1150,7 @@ Einige Attribute weisen einen Bitmaskenwert auf. Für diese Attribute wird jede 
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>Dieses vorhandene Active Directory mehrwertige Attribut ist Teil des grundlegenden Active Directory Schemas, das in Windows 2000 eingeführt wurde. Dieses Attribut enthält die verschiedenen X400-, x500-und SMTP-Adressen der e-Mail-Adresse des Benutzers. In Live Communications Server 2003 und höher wird der SIP-URI des Benutzers mithilfe des &quot;SIP:&quot; -Tags zu dieser Liste hinzugefügt.</p>
+<td><p>Dieses vorhandene Active Directory mehrwertige Attribut ist Teil des grundlegenden Active Directory Schemas, das in Windows 2000 eingeführt wurde. Dieses Attribut enthält die verschiedenen X400-, x500-und SMTP-Adressen der e-Mail-Adresse des Benutzers. In Live Communications Server 2003 und höher wird der SIP-URI des Benutzers mithilfe des SIP:-Tags zu dieser Liste hinzugefügt &quot; &quot; .</p>
 <p>Die folgenden Anwendungen durchsuchen den SIP-URI des Benutzers aus diesem Attribut:</p>
 <ul>
 <li><p>Microsoft Office Outlook 2003 Messaging-und Zusammenarbeitsclient</p></li>

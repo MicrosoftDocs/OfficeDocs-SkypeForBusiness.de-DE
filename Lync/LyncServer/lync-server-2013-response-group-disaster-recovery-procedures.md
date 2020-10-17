@@ -12,20 +12,22 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 254f9e95edfb445d996948a17064ae460dbdb7d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea967dc717f36b8ab5951fa758e7c78d6130dc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511662"
 ---
+# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Notfallwiederherstellungsverfahren für Reaktionsgruppen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Notfallwiederherstellungsverfahren für Reaktionsgruppen in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214871"
 
 _**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Während der Failoverphase der Notfallwiederherstellung verbleiben die Reaktionsgruppen in mehreren Pools: Im primären Pool (der nicht verfügbar ist) und im Sicherungspool. Die Reaktionsgruppen weisen in beiden Pools den gleichen Namen und den gleichen Inhaber auf (den primären Pool), haben aber unterschiedliche übergeordnete Elemente. Während dieser Zeit funktionieren die Cmdlets für Reaktionsgruppen ein wenig anders. Verwenden Sie Parameter, wie dies im folgenden Verfahren dargelegt wird. Ausführliche Informationen zur Funktionsweise von Cmdlets während der failoverphase finden Sie unter NextHop Blog Artikel "lync Server 2013: Wiederherstellen von [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)Reaktionsgruppen während der Notfallwiederherstellung" unter. Dieser Blog Artikel gilt auch für die veröffentlichte Version von lync Server 2013.
+Während der Failoverphase der Notfallwiederherstellung verbleiben die Reaktionsgruppen in mehreren Pools: Im primären Pool (der nicht verfügbar ist) und im Sicherungspool. Die Reaktionsgruppen weisen in beiden Pools den gleichen Namen und den gleichen Inhaber auf (den primären Pool), haben aber unterschiedliche übergeordnete Elemente. Während dieser Zeit funktionieren die Cmdlets für Reaktionsgruppen ein wenig anders. Verwenden Sie Parameter, wie dies im folgenden Verfahren dargelegt wird. Ausführliche Informationen zur Funktionsweise von Cmdlets während der failoverphase finden Sie unter NextHop Blog Artikel "lync Server 2013: Wiederherstellen von Reaktionsgruppen während der Notfallwiederherstellung" unter [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957) . Dieser Blog Artikel gilt auch für die veröffentlichte Version von lync Server 2013.
 
 Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherstellung für lync Server Reaktionsgruppendienst vorzubereiten und durchzuführen.
 
@@ -51,7 +53,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
-    Zum Beispiel:
+    Beispiel:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
@@ -78,7 +80,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
@@ -86,7 +88,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -94,7 +96,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -102,7 +104,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -110,7 +112,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -150,7 +152,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
-    Zum Beispiel:
+    Beispiel:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
@@ -167,7 +169,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
-    Zum Beispiel:
+    Beispiel:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
@@ -186,7 +188,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
@@ -194,7 +196,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -202,7 +204,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -210,7 +212,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -218,7 +220,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um eine Notfallwiederherste
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Zum Beispiel:
+        Beispiel:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201391"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511562"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Wiederherstellen eines Standard Edition-Servers in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Wiederherstellen eines Standard Edition-Servers in lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Wenn ein Standard Edition-Server, auf dem der zentrale Verwaltungsspeicher nicht
     
     3.  Wählen Sie die Topologie aus, und klicken Sie auf **Speichern**. Klicken Sie auf **Ja**, um die Auswahl zu bestätigen.
 
-5.  Navigieren Sie zum Installationsordner für lync Server oder Medien, und starten Sie dann den lync Server-Bereitstellungs\\-\\Assistenten unter \\Setup amd64 Setup. exe. Verwenden Sie den lync Server-Bereitstellungs-Assistenten, um folgende Aktionen auszuführen:
+5.  Wechseln Sie zum lync Server Installationsordner oder Medien, und starten Sie dann den lync Server-Bereitstellungs-Assistenten, der sich unter \\ Setup \\ amd64 \\Setup.exe befindet. Verwenden Sie den lync Server-Bereitstellungs-Assistenten, um folgende Aktionen auszuführen:
     
     1.  Führen Sie **Schritt 1: Lokalen Konfigurationsspeicher installieren** aus, um die lokalen Konfigurationsdateien zu installieren.
     
@@ -99,7 +101,7 @@ Wenn ein Standard Edition-Server, auf dem der zentrale Verwaltungsspeicher nicht
 
 6.  Stellen Sie Benutzerdaten wieder her, indem Sie folgende Schritte ausführen:
     
-    1.  Kopieren Sie ExportedUserData. zip aus\\ $Backup in ein lokales Verzeichnis.
+    1.  Kopieren Sie ExportedUserData.zip aus $Backup \\ in ein lokales Verzeichnis.
     
     2.  Bevor Sie die Benutzerdaten wiederherstellen, müssen Sie lync-Dienste beenden. Geben Sie dazu Folgendes ein:
         
@@ -123,7 +125,7 @@ Wenn ein Standard Edition-Server, auf dem der zentrale Verwaltungsspeicher nicht
     
     Wenn Sie SQL Server Sicherung zum Sichern der Datenbank für beständigen Chat verwendet haben, verwenden Sie SQL Server Wiederherstellungsverfahren, um Sie wiederherzustellen.
     
-    Wenn Sie das Cmdlet Export-CsPersistentChatData verwendet haben, verwenden Sie das Import-CsPersistentChatData, um es wiederherzustellen.
+    Wenn Sie das Export-CsPersistentChatData-Cmdlet zum Sichern verwendet haben, verwenden Sie das Import-CsPersistentChatData, um es wiederherzustellen.
 
 </div>
 

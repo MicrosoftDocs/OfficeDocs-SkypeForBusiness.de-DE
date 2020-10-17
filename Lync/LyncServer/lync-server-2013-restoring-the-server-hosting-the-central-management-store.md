@@ -12,20 +12,22 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772646b8122e228aa43818aa5fe7fe2fb6689366
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511392"
 ---
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher in lync Server 2013 hostet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher in lync Server 2013 hostet
+
 
 </div>
 
@@ -41,7 +43,7 @@ Eine lync Server-Bereitstellung verfügt über einen einzelnen zentralen Verwalt
 
 Um den Pool zu finden, in dem sich der zentrale Verwaltungsserver befindet, öffnen Sie den Topologie-Generator, klicken Sie auf **lync Server**, und suchen Sie im rechten Bereich unter **zentrale Verwaltungsserver**.
 
-Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher befindet, in einem gespiegelten Setup befindet und die Spiegeldatenbank weiterhin funktionsfähig ist, wird empfohlen, dass Sie eine Sicherung dieser noch funktionsfähigen Spiegelung durchführen und dann eine vollständige Wiederherstellung der primären Datenbank und der Spiegeldatenbank mit dieser Sicherung, indem Sie das folgende Wiederherstellungsverfahren ausführen. Dies ist erforderlich, da für die Back-End-Wiederherstellung die Topologie geändert und veröffentlicht werden muss, und dies ist nur möglich, wenn die primäre Datenbank, die CMS hostet, betriebsbereit ist. Beachten Sie auch, dass die primäre und die Spiegel Datenbankrolle nicht ausgetauscht werden können, wenn die Topologie nicht veröffentlicht werden kann.
+Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher befindet, in einem gespiegelten Setup befindet und die Spiegeldatenbank weiterhin funktionsfähig ist, wird empfohlen, dass Sie eine Sicherung dieser noch funktionsfähigen Spiegelung vornehmen und anschließend eine vollständige Wiederherstellung der primären Datenbank und der Spiegeldatenbank mithilfe dieser Sicherung durchführen, indem Sie das folgende Wiederherstellungsverfahren ausführen. Dies ist erforderlich, da für die Back-End-Wiederherstellung die Topologie geändert und veröffentlicht werden muss, und dies ist nur möglich, wenn die primäre Datenbank, die CMS hostet, betriebsbereit ist. Beachten Sie auch, dass die primäre und die Spiegel Datenbankrolle nicht ausgetauscht werden können, wenn die Topologie nicht veröffentlicht werden kann.
 
 <div>
 
@@ -93,7 +95,7 @@ Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher bef
 
 4.  Führen Sie einen der folgenden Schritte aus:
     
-      - Wenn Sie ein Standard Edition-Server installieren möchten, wechseln Sie zum Installationsordner für lync Server oder Medien, und starten Sie dann den lync Server-Bereitstellungs\\-\\Assistenten unter \\Setup amd64 Setup. exe. Klicken Sie im Bereitstellungs-Assistenten auf **erste Standard Edition-Server vorbereiten** , und führen Sie den Assistenten aus, um den zentralen Verwaltungsspeicher zu installieren.
+      - Wenn Sie ein Standard Edition-Server installieren möchten, wechseln Sie zum Installationsordner für lync Server oder Medien, und starten Sie dann den lync Server-Bereitstellungs-Assistenten, der sich unter \\ Setup \\ amd64 \\Setup.exe befindet. Klicken Sie im Bereitstellungs-Assistenten auf **erste Standard Edition-Server vorbereiten** , und führen Sie den Assistenten aus, um den zentralen Verwaltungsspeicher zu installieren.
     
       - Wenn Sie einen Enterprise-Back-End-Server installieren, installieren Sie SQL Server 2012 oder SQL Server 2008 R2, wobei die Instanznamen wie vor dem Fehler beibehalten werden.
         
@@ -112,7 +114,7 @@ Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher bef
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    Zum Beispiel:
+    Beispiel:
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
 
@@ -120,7 +122,7 @@ Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher bef
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    Zum Beispiel:
+    Beispiel:
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
@@ -190,7 +192,7 @@ Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher bef
     
     </div>
 
-11. Wenn Sie ein Standard Edition-Server wiederherstellen, wechseln Sie zum Installationsordner lync Server oder Medien, und starten Sie den lync Server-Bereitstellungs \\-\\Assistenten\\unter Setup amd64 Setup. exe. Verwenden Sie den lync Server-Bereitstellungs-Assistenten, um folgende Aktionen auszuführen:
+11. Wenn Sie ein Standard Edition-Server wiederherstellen, wechseln Sie zum Installationsordner lync Server oder Medien, und starten Sie den lync Server-Bereitstellungs-Assistenten, der sich unter \\ Setup \\ amd64 \\Setup.exe befindet. Verwenden Sie den lync Server-Bereitstellungs-Assistenten, um folgende Aktionen auszuführen:
     
     1.  Führen Sie **Schritt 1: Lokalen Konfigurationsspeicher installieren** aus, um die lokalen Konfigurationsdateien zu installieren.
     
@@ -204,7 +206,7 @@ Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher bef
 
 12. Gehen Sie folgendermaßen vor, um Benutzerdaten wiederherzustellen:
     
-    1.  Kopieren Sie ExportedUserData. zip aus\\ $Backup in ein lokales Verzeichnis.
+    1.  Kopieren Sie ExportedUserData.zip aus $Backup \\ in ein lokales Verzeichnis.
     
     2.  Bevor Sie die Benutzerdaten wiederherstellen, müssen Sie lync-Dienste beenden. Geben Sie dazu Folgendes ein:
         
@@ -226,7 +228,7 @@ Wenn sich der Back-End-Server, auf dem sich der zentrale Verwaltungsspeicher bef
     
         Import-CsLisConfiguration -FileName <LIS backup file name>
     
-    Zum Beispiel:
+    Beispiel:
     
         Import-CsLisConfiguration -FileName "D:\E911Config.zip"
 

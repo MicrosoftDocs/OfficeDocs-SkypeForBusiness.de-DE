@@ -12,20 +12,22 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1122605aabea32d86fbacd1f23675fcdef687539
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510312"
 ---
+# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Server Zusammenstellung in einer Standard Edition-Server-Bereitstellung für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Server Zusammenstellung in einer Standard Edition-Server-Bereitstellung für lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Sie können diese Datenbanken einzeln oder alle in einer einzigen SQL-Instanz ve
 
   - Jede SQL-Instanz kann nur eine einzige Back-End-Datenbank (für einen Enterprise Edition-Front-End-Pool), eine einzige Überwachungsdatenbank, eine einzige Archivierungsdatenbank, eine einzige Datenbank für beständigen Chat und eine einzige Kompatibilitätsdatenbank für beständigen Chat enthalten.
 
-  - Der Datenbankserver kann nicht mehrere Enterprise Edition-Front-End-Pool, einen Server, auf dem die Archivierung durchführen wird, eine Überwachung, eine einzelne Datenbank für beständigen Chat und eine einzelne Datenbank für beständigen Chat, aber eine der beiden unterstützen. unabhängig davon, ob die Datenbanken dieselbe Instanz von SQL Server oder separate Instanzen von SQL Server verwenden.
+  - Der Datenbankserver kann nicht mehrere Enterprise Edition-Front-End-Pool unterstützen, einen Server, auf dem die Archivierung durchführen wird, einen Server mit Überwachung, eine Datenbank für beständigen Chat und eine einzelne Datenbank für beständigen Chat, die jedoch jeweils eine unterstützt, unabhängig davon, ob die Datenbanken dieselbe Instanz von SQL Server oder separate Instanzen von SQL Server verwenden.
 
 Die gemeinsame Ausführung einer Dateifreigabe mit den Datenbanken ist möglich, wie weiter unten in diesem Abschnitt beschrieben.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12dda05b36406e620c08abac494dceecc7d314d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 202052ce01bca6cdc11e8ed36dfede9afba74b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511102"
 ---
+# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Durchführen Active Directory Schemavorbereitung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Durchführen Active Directory Schemavorbereitung in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Sie können Setup oder lync Server-Verwaltungsshell-Cmdlets verwenden, um das Ac
 
 
 > [!NOTE]  
-> Das Schema Vorbereitungs-Cmdlet (<STRONG>install-CsAdServerSchema</STRONG>) muss auf den Schemamaster zugreifen, der erfordert, dass der Remoteregistrierungsdienst aktiv ist und dass der Remote Registrierungsschlüssel aktiviert ist. Wenn der Remoteregistrierungsdienst auf dem Schemamaster nicht aktiviert werden kann, können Sie das Cmdlet lokal auf dem Schemamaster ausführen. Ausführliche Informationen zum Remotezugriff auf die Registrierung finden Sie im <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>Microsoft Knowledge Base-Artikel 314837, "Verwalten des Remotezugriffs auf die Registrierung" unter.
+> Das Schema Vorbereitungs-Cmdlet (<STRONG>install-CsAdServerSchema</STRONG>) muss auf den Schemamaster zugreifen, der erfordert, dass der Remoteregistrierungsdienst aktiv ist und dass der Remote Registrierungsschlüssel aktiviert ist. Wenn der Remoteregistrierungsdienst auf dem Schemamaster nicht aktiviert werden kann, können Sie das Cmdlet lokal auf dem Schemamaster ausführen. Ausführliche Informationen zum Remotezugriff auf die Registrierung finden Sie im Microsoft Knowledge Base-Artikel 314837, "Verwalten des Remotezugriffs auf die Registrierung" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A> .
 
 
 
@@ -57,7 +59,7 @@ Stellen Sie nach Abschluss der Schemavorbereitung manuell sicher, dass die Schem
 
 1.  Melden Sie sich bei einem Server in der Gesamtstruktur als Mitglied der Gruppe "Schema-Admins" und mit Administratorrechten auf dem Schemamaster an.
 
-2.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup. exe aus, um den Bereitstellungs-Assistenten zu starten.
+2.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup.exe aus, um den Bereitstellungs-Assistenten zu starten.
 
 3.  Klicken Sie auf **Ja**, wenn Sie zur Installation von Microsoft Visual C++ Redistributable aufgefordert werden.
 
@@ -75,7 +77,7 @@ Stellen Sie nach Abschluss der Schemavorbereitung manuell sicher, dass die Schem
 
 10. Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen**, und klicken Sie dann auf **Protokoll anzeigen**.
 
-11. Erweitern Sie in der Spalte **Aktion** die Option **Schema prep**, suchen Sie nach dem ** \<\> ** Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, um zu überprüfen, ob die Schema Vorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
+11. Erweitern Sie in der Spalte **Aktion** die Option **Schema prep**, suchen Sie nach dem **\<Success\>** Ausführungsergebnis am Ende jeder Aufgabe, um zu überprüfen, ob die Schema Vorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
 
 12. Warten Sie, bis die Active Directory-Replikation abgeschlossen ist, oder erzwingen Sie die Replikation.
 
@@ -91,7 +93,7 @@ Stellen Sie nach Abschluss der Schemavorbereitung manuell sicher, dass die Schem
 
 2.  Installieren Sie lync Server Kernkomponenten wie folgt:
     
-    1.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup. exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
+    1.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup.exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
     
     2.  Klicken Sie auf **Ja**, wenn Sie zur Installation von Microsoft Visual C++ Redistributable aufgefordert werden.
     
@@ -115,7 +117,7 @@ Stellen Sie nach Abschluss der Schemavorbereitung manuell sicher, dass die Schem
     
         Get-CsAdServerSchema 
     
-    Dieses Cmdlet gibt den Wert des **Schema\_Versions\_Status\_Current** zurück, wenn die Schemavorbereitung erfolgreich war.
+    Dieses Cmdlet gibt den Wert des **Schema \_ Versions \_ Status \_ Current** zurück, wenn die Schemavorbereitung erfolgreich war.
 
 6.  Warten Sie, bis die Active Directory-Replikation abgeschlossen ist, oder erzwingen Sie die Replikation.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Festlegen von CsClientPolicy für die Adressbuchverwaltung'
+title: 'Lync Server 2013: Set-CsClientPolicy für die Adressbuchverwaltung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 086f88ad26e53e9086c3b1ec027877451f459187
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ffa2cfb5435919d28f959bf6d8bc49673b87ef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200671"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509952"
 ---
+# <a name="set-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Set-CsClientPolicy für die Adressbuchverwaltung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Festlegen von CsClientPolicy für die Adressbuchverwaltung in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig d
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClientPolicy"}
 
-Ähnlich wie bei New-CsClientPolicy können Sie mit dem Cmdlet "CsClientPolicy" Clienteinstellungen ändern, die bereits vorhanden sind.
+Ähnlich wie bei New-CsClientPolicy können Sie mit dem Set-CsClientPolicy-Cmdlet Clienteinstellungen ändern, die bereits vorhanden sind.
 
 Beispiel:
 

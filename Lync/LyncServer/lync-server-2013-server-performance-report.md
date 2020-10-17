@@ -12,20 +12,22 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff400c0384d6b9e6b51da09666629d1bb6b725ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8e348882ffa07d1784e62a458455a1ad32a5bbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200801"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510292"
 ---
+# <a name="server-performance-report-in-lync-server-2013"></a>Bericht über die Server Leistung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-performance-report-in-lync-server-2013"></a>Bericht über die Server Leistung in lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Es ist wichtig zu beachten, dass es sich bei den in diesem Bericht enthaltenen R
 
 Der Zugriff auf den Bericht über Serverleistung erfolgt auf der Startseite für Überwachungsberichte. Sie können einen Drilldown zum [Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
 
-  - Anruflautstärke
+  - Anrufvolumen
 
   - Prozentsatz der Anrufe schlechter Qualität
 
@@ -136,7 +138,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 <td><p>Gibt die Anzahl der Server an (basierend auf dem Prozentsatz der Anrufe schlechter Qualität), die in den einzelnen Kategorien angezeigt werden sollen. Wenn Sie z. B. <strong>5</strong> auswählen, werden die fünf Server mit der schlechtesten Leistung angezeigt. Wählen Sie eine der folgenden Optionen aus:</p>
 <ol>
 <li><p>Alle</p></li>
-<li><p>5</p></li>
+<li><p>5 </p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>
@@ -230,7 +232,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über S
 <tr class="odd">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot; Zittern eines &quot; Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Ausblendungsverhältnis der Reparatur</strong></p></td>
@@ -408,7 +410,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über S
 <tr class="odd">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot; Zittern eines &quot; Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Durchschnitt relativ unidirektional</strong></p></td>

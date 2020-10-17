@@ -12,20 +12,22 @@ ms:contentKeyID: 48184787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eeb9338943d17be1c970b4aa2ffc04d5e2c8cb86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20229f7bbc600b6a54bf28b13b9d5c14e8cbeb28
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182258"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510042"
 ---
+# <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Festlegen eines Kennworts für das Kerberos-Authentifizierungs Konto auf einem Server in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Festlegen eines Kennworts für das Kerberos-Authentifizierungs Konto auf einem Server in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-01-16_
 
 Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
 
-Für das Kerberos-Konto muss für jeden Standort, der über Front-End-Server, Standard Edition-Server und Director-Server verfügt, ein Kennwort eingerichtet werden. Sie können das Kennwort einrichten, indem Sie das Cmdlet " **CsKerberosAccountPassword** Windows PowerShell" auf einem Server am Standort ausführen (beispielsweise ein Front-End-Server). Für jeden Standort müssen Sie das Cmdlet " **CsKerberosAccountPassword** " ausführen. Das Cmdlet konfiguriert Internet Information Services (IIS) für den Webdienste Dienst und legt dann das Kennwort für das Computerkonto in Active Directory-Domänendienste fest. Bei einer alternativen Methode wird IIS abhängig davon, welcher Parameter mit dem Cmdlet verwendet wird, auf einem Server konfiguriert, während ein anderer Server verwendet wird, der als Quelle des Kerberos-Kontokennworts konfiguriert wurde.
+Für das Kerberos-Konto muss für jeden Standort, der über Front-End-Server, Standard Edition-Server und Director-Server verfügt, ein Kennwort eingerichtet werden. Sie können das Kennwort einrichten, indem Sie das Cmdlet " **CsKerberosAccountPassword**   Windows PowerShell" auf einem Server am Standort ausführen (beispielsweise ein Front-End-Server). Für jeden Standort müssen Sie das Cmdlet " **CsKerberosAccountPassword**" Ausführen   . Das Cmdlet konfiguriert Internet Information Services (IIS) für den Webdienste Dienst und legt dann das Kennwort für das Computerkonto in Active Directory-Domänendienste fest. Bei einer alternativen Methode wird IIS abhängig davon, welcher Parameter mit dem Cmdlet verwendet wird, auf einem Server konfiguriert, während ein anderer Server verwendet wird, der als Quelle des Kerberos-Kontokennworts konfiguriert wurde.
 
 Bei Verwendung des Cmdlets **Set-CsKerberosAccountPassword** zum Festlegen des Kennworts legt Kerberos das Kennwort auf eine nach dem Zufallsprinzip generierte Zeichenfolge fest. Dieses Cmdlet kontaktiert alle IIS-Instanzen an allen lync Server 2013 zentralen Standorten, denen dieses Konto zugewiesen ist.
 

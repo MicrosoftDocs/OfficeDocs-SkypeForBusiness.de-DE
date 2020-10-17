@@ -12,20 +12,22 @@ ms:contentKeyID: 48184991
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d9f0f1bc18cf7c0a54a5bacc9257e4264b7b93c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e4ed33466e9b31fbabb3432927baea8f087ea1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208461"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511122"
 ---
+# <a name="running-forest-preparation-for-lync-server-2013"></a>Laufende Gesamtstrukturvorbereitung für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-forest-preparation-for-lync-server-2013"></a>Laufende Gesamtstrukturvorbereitung für lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Nach der Vorbereitung der Gesamtstruktur, müssen Sie vor der Domänenvorbereitu
 
 1.  Melden Sie sich bei einem an eine Domäne angeschlossenen Computer als Mitglied der Gruppe "Organisations-Admins" für die Gesamtstruktur-Stammdomäne an.
 
-2.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup. exe aus, um den Bereitstellungs-Assistenten zu starten.
+2.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup.exe aus, um den Bereitstellungs-Assistenten zu starten.
 
 3.  Klicken Sie auf **Active Directory vorbereiten**, und warten Sie das Bestimmen des Bereitstellungsstatus ab.
 
@@ -66,7 +68,7 @@ Nach der Vorbereitung der Gesamtstruktur, müssen Sie vor der Domänenvorbereitu
 
 6.  Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen**, und klicken Sie dann auf **Protokoll anzeigen**.
 
-7.  Erweitern Sie in der Spalte **Aktion** die Option **Gesamtstrukturvorbereitung**, suchen Sie nach einem ** \<\> ** Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, um zu überprüfen, ob die Gesamtstrukturvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
+7.  Erweitern Sie in der Spalte **Aktion** die Option **Gesamtstrukturvorbereitung**, suchen Sie nach einem **\<Success\>** Ausführungsergebnis am Ende jeder Aufgabe, um zu überprüfen, ob die Gesamtstrukturvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
 
 8.  Warten Sie auf den Abschluss der Active Directory-Replikation, oder erzwingen Sie die Replikation auf alle Domänencontroller, die im Snap-In **Active Directory-Standorte und -Dienste** für den Domänencontroller der Gesamtstruktur-Stammdomäne aufgelistet sind, bevor Sie die Domänenvorbereitung ausführen. Erzwingen Sie die Replikation zwischen den Domänencontrollern an allen Active Directory-Standorten, damit die Replikation an den Standorten innerhalb von Minuten durchgeführt werden kann.
 
@@ -80,7 +82,7 @@ Nach der Vorbereitung der Gesamtstruktur, müssen Sie vor der Domänenvorbereitu
 
 2.  Installieren Sie lync Server Kernkomponenten wie folgt:
     
-    1.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup. exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
+    1.  Führen Sie im lync Server 2013 Installationsordner oder auf dem Medium Setup.exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
     
     2.  Klicken Sie auf **Ja**, wenn Sie zur Installation von Microsoft Visual C++ Redistributable aufgefordert werden.
     
@@ -106,7 +108,7 @@ Nach der Vorbereitung der Gesamtstruktur, müssen Sie vor der Domänenvorbereitu
     
         Get-CsAdForest 
     
-    Dieses Cmdlet gibt einen Wert von **LC\_FORESTSETTINGS\_Status\_Ready** zurück, wenn die Gesamtstrukturvorbereitung erfolgreich war.
+    Dieses Cmdlet gibt einen Wert von **LC \_ FORESTSETTINGS \_ Status \_ Ready** zurück, wenn die Gesamtstrukturvorbereitung erfolgreich war.
 
 </div>
 
