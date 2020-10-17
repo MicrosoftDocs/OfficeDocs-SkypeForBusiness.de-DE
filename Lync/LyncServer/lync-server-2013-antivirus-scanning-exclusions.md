@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187258"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508972"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a><span data-ttu-id="9dd29-102">Antivirus-Scan Ausschlüsse für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9dd29-102">Antivirus scanning exclusions for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a><span data-ttu-id="93144-102">Antivirus-Scan Ausschlüsse für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93144-102">Antivirus scanning exclusions for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42187258"
 
 <span> </span>
 
-<span data-ttu-id="93144-103">_**Letztes Änderungsstand des Themas:** 2015-11-02_</span><span class="sxs-lookup"><span data-stu-id="93144-103">_**Topic Last Modified:** 2015-11-02_</span></span>
+<span data-ttu-id="9dd29-103">_**Letztes Änderungsstand des Themas:** 2015-11-02_</span><span class="sxs-lookup"><span data-stu-id="9dd29-103">_**Topic Last Modified:** 2015-11-02_</span></span>
 
-<span data-ttu-id="93144-104">Um sicherzustellen, dass der Antivirus-Scanner den Betrieb von lync Server 2013 nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden lync Server 2013 Server oder jede Serverrolle ausschließen, auf dem Sie einen Antivirenprogramm ausführen.</span><span class="sxs-lookup"><span data-stu-id="93144-104">To ensure that the antivirus scanner does not interfere with the operation of Lync Server 2013, you must exclude specific processes and directories for each Lync Server 2013 server or server role on which you run an antivirus scanner.</span></span> <span data-ttu-id="93144-105">Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:</span><span class="sxs-lookup"><span data-stu-id="93144-105">The following processes and directories should be excluded:</span></span>
+<span data-ttu-id="9dd29-104">Um sicherzustellen, dass der Antivirus-Scanner den Betrieb von lync Server 2013 nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden lync Server 2013 Server oder jede Serverrolle ausschließen, auf dem Sie einen Antivirenprogramm ausführen.</span><span class="sxs-lookup"><span data-stu-id="9dd29-104">To ensure that the antivirus scanner does not interfere with the operation of Lync Server 2013, you must exclude specific processes and directories for each Lync Server 2013 server or server role on which you run an antivirus scanner.</span></span> <span data-ttu-id="9dd29-105">Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:</span><span class="sxs-lookup"><span data-stu-id="9dd29-105">The following processes and directories should be excluded:</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="93144-106">Unten aufgeführte Ordner-und Dateispeicherorte sind die Standardspeicherorte für lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="93144-106">Folder and file locations listed below are the default locations for Lync Server 2013.</span></span> <span data-ttu-id="93144-107">Schließen Sie für alle Standorte, für die Sie die Standardeinstellung nicht verwendet haben, die für Ihre Organisation angegebenen Speicherorte anstelle der in diesem Thema angegebenen Standardspeicherorte aus.</span><span class="sxs-lookup"><span data-stu-id="93144-107">For any locations for which you did not use the default, exclude the locations you specified for your organization instead of the default locations specified in this topic.</span></span>
+> <span data-ttu-id="9dd29-106">Unten aufgeführte Ordner-und Dateispeicherorte sind die Standardspeicherorte für lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9dd29-106">Folder and file locations listed below are the default locations for Lync Server 2013.</span></span> <span data-ttu-id="9dd29-107">Schließen Sie für alle Standorte, für die Sie die Standardeinstellung nicht verwendet haben, die für Ihre Organisation angegebenen Speicherorte anstelle der in diesem Thema angegebenen Standardspeicherorte aus.</span><span class="sxs-lookup"><span data-stu-id="9dd29-107">For any locations for which you did not use the default, exclude the locations you specified for your organization instead of the default locations specified in this topic.</span></span>
 
 
 
@@ -53,109 +55,109 @@ ms.locfileid: "42187258"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="93144-108">Beachten Sie, dass einige Antivirus-Programme möglicherweise absolute, keine relativen Pfade für Ihre Ausschlussliste benötigen.</span><span class="sxs-lookup"><span data-stu-id="93144-108">Please note that some antivirus programs may need absolute, not relative paths, for their exclusion list.</span></span>
+> <span data-ttu-id="9dd29-108">Beachten Sie, dass einige Antivirus-Programme möglicherweise absolute, keine relativen Pfade für Ihre Ausschlussliste benötigen.</span><span class="sxs-lookup"><span data-stu-id="9dd29-108">Please note that some antivirus programs may need absolute, not relative paths, for their exclusion list.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="93144-109">Lync Server 2013 Prozesse:</span><span class="sxs-lookup"><span data-stu-id="93144-109">Lync Server 2013 processes:</span></span>
+  - <span data-ttu-id="9dd29-109">Lync Server 2013 Prozesse:</span><span class="sxs-lookup"><span data-stu-id="9dd29-109">Lync Server 2013 processes:</span></span>
     
-      - <span data-ttu-id="93144-110">ABServer. exe</span><span class="sxs-lookup"><span data-stu-id="93144-110">ABServer.exe</span></span>
+      - <span data-ttu-id="9dd29-110">ABServer.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-110">ABServer.exe</span></span>
     
-      - <span data-ttu-id="93144-111">AcpMcuSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-111">AcpMcuSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-111">AcpMcuSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-111">AcpMcuSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-112">ASMCUSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-112">ASMCUSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-112">ASMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-112">ASMCUSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-113">AVMCUSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-113">AVMCUSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-113">AVMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-113">AVMCUSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-114">Channelservice. exe</span><span class="sxs-lookup"><span data-stu-id="93144-114">ChannelService.exe</span></span>
+      - <span data-ttu-id="9dd29-114">ChannelService.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-114">ChannelService.exe</span></span>
     
-      - <span data-ttu-id="93144-115">ClsAgent. exe</span><span class="sxs-lookup"><span data-stu-id="93144-115">ClsAgent.exe</span></span>
+      - <span data-ttu-id="9dd29-115">ClsAgent.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-115">ClsAgent.exe</span></span>
     
-      - <span data-ttu-id="93144-116">ComplianceService. exe</span><span class="sxs-lookup"><span data-stu-id="93144-116">ComplianceService.exe</span></span>
+      - <span data-ttu-id="9dd29-116">ComplianceService.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-116">ComplianceService.exe</span></span>
     
-      - <span data-ttu-id="93144-117">DataMCUSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-117">DataMCUSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-117">DataMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-117">DataMCUSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-118">Dataproxy. exe</span><span class="sxs-lookup"><span data-stu-id="93144-118">DataProxy.exe</span></span>
+      - <span data-ttu-id="9dd29-118">DataProxy.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-118">DataProxy.exe</span></span>
     
-      - <span data-ttu-id="93144-119">FileTransferAgent. exe</span><span class="sxs-lookup"><span data-stu-id="93144-119">FileTransferAgent.exe</span></span>
+      - <span data-ttu-id="9dd29-119">FileTransferAgent.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-119">FileTransferAgent.exe</span></span>
     
-      - <span data-ttu-id="93144-120">IMMCUSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-120">IMMCUSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-120">IMMCUSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-120">IMMCUSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-121">LysSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-121">LysSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-121">LysSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-121">LysSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-122">MasterReplicatorAgent. exe</span><span class="sxs-lookup"><span data-stu-id="93144-122">MasterReplicatorAgent.exe</span></span>
+      - <span data-ttu-id="9dd29-122">MasterReplicatorAgent.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-122">MasterReplicatorAgent.exe</span></span>
     
-      - <span data-ttu-id="93144-123">MediaRelaySvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-123">MediaRelaySvc.exe</span></span>
+      - <span data-ttu-id="9dd29-123">MediaRelaySvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-123">MediaRelaySvc.exe</span></span>
     
-      - <span data-ttu-id="93144-124">MediationServerSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-124">MediationServerSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-124">MediationServerSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-124">MediationServerSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-125">MRASSvc. exe</span><span class="sxs-lookup"><span data-stu-id="93144-125">MRASSvc.exe</span></span>
+      - <span data-ttu-id="9dd29-125">MRASSvc.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-125">MRASSvc.exe</span></span>
     
-      - <span data-ttu-id="93144-126">OcsAppServerHost. exe</span><span class="sxs-lookup"><span data-stu-id="93144-126">OcsAppServerHost.exe</span></span>
+      - <span data-ttu-id="9dd29-126">OcsAppServerHost.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-126">OcsAppServerHost.exe</span></span>
     
-      - <span data-ttu-id="93144-127">ReplicaReplicatorAgent. exe</span><span class="sxs-lookup"><span data-stu-id="93144-127">ReplicaReplicatorAgent.exe</span></span>
+      - <span data-ttu-id="9dd29-127">ReplicaReplicatorAgent.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-127">ReplicaReplicatorAgent.exe</span></span>
     
-      - <span data-ttu-id="93144-128">ReplicationApp. exe</span><span class="sxs-lookup"><span data-stu-id="93144-128">ReplicationApp.exe</span></span>
+      - <span data-ttu-id="9dd29-128">ReplicationApp.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-128">ReplicationApp.exe</span></span>
     
-      - <span data-ttu-id="93144-129">RtcHost. exe</span><span class="sxs-lookup"><span data-stu-id="93144-129">RtcHost.exe</span></span>
+      - <span data-ttu-id="9dd29-129">RtcHost.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-129">RtcHost.exe</span></span>
     
-      - <span data-ttu-id="93144-130">RtcSrv. exe</span><span class="sxs-lookup"><span data-stu-id="93144-130">RTCSrv.exe</span></span>
+      - <span data-ttu-id="9dd29-130">RTCSrv.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-130">RTCSrv.exe</span></span>
     
-      - <span data-ttu-id="93144-131">XmppProxy. exe</span><span class="sxs-lookup"><span data-stu-id="93144-131">XmppProxy.exe</span></span>
+      - <span data-ttu-id="9dd29-131">XmppProxy.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-131">XmppProxy.exe</span></span>
     
-      - <span data-ttu-id="93144-132">XmppTGW. exe</span><span class="sxs-lookup"><span data-stu-id="93144-132">XmppTGW.exe</span></span>
+      - <span data-ttu-id="9dd29-132">XmppTGW.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-132">XmppTGW.exe</span></span>
 
-  - <span data-ttu-id="93144-133">Windows Fabric-Host Dienstprozesse:</span><span class="sxs-lookup"><span data-stu-id="93144-133">Windows Fabric Host Service processes:</span></span>
+  - <span data-ttu-id="9dd29-133">Windows Fabric-Host Dienstprozesse:</span><span class="sxs-lookup"><span data-stu-id="9dd29-133">Windows Fabric Host Service processes:</span></span>
     
-      - <span data-ttu-id="93144-134">Fabric. exe</span><span class="sxs-lookup"><span data-stu-id="93144-134">Fabric.exe</span></span>
+      - <span data-ttu-id="9dd29-134">Fabric.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-134">Fabric.exe</span></span>
     
-      - <span data-ttu-id="93144-135">FabricDCA. exe</span><span class="sxs-lookup"><span data-stu-id="93144-135">FabricDCA.exe</span></span>
+      - <span data-ttu-id="9dd29-135">FabricDCA.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-135">FabricDCA.exe</span></span>
     
-      - <span data-ttu-id="93144-136">FabricHost. exe</span><span class="sxs-lookup"><span data-stu-id="93144-136">FabricHost.exe</span></span>
+      - <span data-ttu-id="9dd29-136">FabricHost.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-136">FabricHost.exe</span></span>
 
-  - <span data-ttu-id="93144-137">IIS-Prozesse:</span><span class="sxs-lookup"><span data-stu-id="93144-137">IIS processes:</span></span>
+  - <span data-ttu-id="9dd29-137">IIS-Prozesse:</span><span class="sxs-lookup"><span data-stu-id="9dd29-137">IIS processes:</span></span>
     
-      - <span data-ttu-id="93144-138">% systemroot\\%\\System32\\inetsrv w3wp. exe</span><span class="sxs-lookup"><span data-stu-id="93144-138">%systemroot%\\system32\\inetsrv\\w3wp.exe</span></span>
+      - <span data-ttu-id="9dd29-138">% systemroot% \\ system32 \\ inetsrv \\w3wp.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-138">%systemroot%\\system32\\inetsrv\\w3wp.exe</span></span>
     
-      - <span data-ttu-id="93144-139">% systemroot\\%\\syswow64\\inetsrv w3wp. exe</span><span class="sxs-lookup"><span data-stu-id="93144-139">%systemroot%\\SysWOW64\\inetsrv\\w3wp.exe</span></span>
+      - <span data-ttu-id="9dd29-139">% systemroot% \\ syswow64 \\ inetsrv \\w3wp.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-139">%systemroot%\\SysWOW64\\inetsrv\\w3wp.exe</span></span>
 
-  - <span data-ttu-id="93144-140">SQL Server Back-End-Prozesse:</span><span class="sxs-lookup"><span data-stu-id="93144-140">SQL Server Back-End processes:</span></span>
+  - <span data-ttu-id="9dd29-140">SQL Server Back-End Prozesse:</span><span class="sxs-lookup"><span data-stu-id="9dd29-140">SQL Server Back-End processes:</span></span>
     
-      - <span data-ttu-id="93144-141">% Programme%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr. exe</span><span class="sxs-lookup"><span data-stu-id="93144-141">%ProgramFiles%\\Microsoft SQL Server\\MSSQL11.MSSQLSERVER\\MSSQL\\Binn\\SQLServr.exe</span></span>
+      - <span data-ttu-id="9dd29-141">% Programme% \\ Microsoft SQL Server \\ MSSQL11. MSSQLSERVER \\ MSSQL \\ Binn \\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-141">%ProgramFiles%\\Microsoft SQL Server\\MSSQL11.MSSQLSERVER\\MSSQL\\Binn\\SQLServr.exe</span></span>
     
-      - <span data-ttu-id="93144-142">% Programme%\\Microsoft SQL Server\\MSRS11. MSSQLSERVER\\Reporting Services\\Report\\Container\\bin ReportingServicesService. exe</span><span class="sxs-lookup"><span data-stu-id="93144-142">%ProgramFiles%\\Microsoft SQL Server\\MSRS11.MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService.exe</span></span>
+      - <span data-ttu-id="9dd29-142">% Programme% \\ Microsoft SQL Server \\ MSRS11. MSSQLSERVER \\ Reporting Services \\ Report \\ Container bin \\ReportingServicesService.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-142">%ProgramFiles%\\Microsoft SQL Server\\MSRS11.MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService.exe</span></span>
     
-      - <span data-ttu-id="93144-143">% Programme%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\MSMDSrv. exe</span><span class="sxs-lookup"><span data-stu-id="93144-143">%ProgramFiles%\\Microsoft SQL Server\\MSAS11.MSSQLSERVER\\OLAP\\Bin\\MSMDSrv.exe</span></span>
+      - <span data-ttu-id="9dd29-143">% Programme% \\ Microsoft SQL Server \\ MSAS11. OLAP-Schacht "MSSQLSERVER" \\ \\ \\MSMDSrv.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-143">%ProgramFiles%\\Microsoft SQL Server\\MSAS11.MSSQLSERVER\\OLAP\\Bin\\MSMDSrv.exe</span></span>
 
-  - <span data-ttu-id="93144-144">SQL Server Front-End-Prozesse:</span><span class="sxs-lookup"><span data-stu-id="93144-144">SQL Server Front-End processes:</span></span>
+  - <span data-ttu-id="9dd29-144">SQL Server Front-End Prozesse:</span><span class="sxs-lookup"><span data-stu-id="9dd29-144">SQL Server Front-End processes:</span></span>
     
-      - <span data-ttu-id="93144-145">% Programme%\\Microsoft SQL Server\\MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\sqlservr. exe</span><span class="sxs-lookup"><span data-stu-id="93144-145">%ProgramFiles%\\Microsoft SQL Server\\MSSQL11.LYNCLOCAL\\MSSQL\\Binn\\SQLServr.exe</span></span>
+      - <span data-ttu-id="9dd29-145">% Programme% \\ Microsoft SQL Server \\ MSSQL11. LYNCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-145">%ProgramFiles%\\Microsoft SQL Server\\MSSQL11.LYNCLOCAL\\MSSQL\\Binn\\SQLServr.exe</span></span>
     
-      - <span data-ttu-id="93144-146">% Programme%\\Microsoft SQL Server\\MSSQL11. RTCLOCAL\\MSSQL\\Binn\\sqlservr. exe</span><span class="sxs-lookup"><span data-stu-id="93144-146">%ProgramFiles%\\Microsoft SQL Server\\MSSQL11.RTCLOCAL\\MSSQL\\Binn\\SQLServr.exe</span></span>
+      - <span data-ttu-id="9dd29-146">% Programme% \\ Microsoft SQL Server \\ MSSQL11. RTCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe</span><span class="sxs-lookup"><span data-stu-id="9dd29-146">%ProgramFiles%\\Microsoft SQL Server\\MSSQL11.RTCLOCAL\\MSSQL\\Binn\\SQLServr.exe</span></span>
 
-  - <span data-ttu-id="93144-147">Verzeichnisse und Dateien:</span><span class="sxs-lookup"><span data-stu-id="93144-147">Directories and files:</span></span>
+  - <span data-ttu-id="9dd29-147">Verzeichnisse und Dateien:</span><span class="sxs-lookup"><span data-stu-id="9dd29-147">Directories and files:</span></span>
     
-      - <span data-ttu-id="93144-148">% systemroot\\%\\System32-Protokolldateien</span><span class="sxs-lookup"><span data-stu-id="93144-148">%systemroot%\\System32\\LogFiles</span></span>
+      - <span data-ttu-id="9dd29-148">% systemroot% \\ system32- \\ Protokolldateien</span><span class="sxs-lookup"><span data-stu-id="9dd29-148">%systemroot%\\System32\\LogFiles</span></span>
     
-      - <span data-ttu-id="93144-149">% systemroot\\-%\\syswow64-Protokolldateien</span><span class="sxs-lookup"><span data-stu-id="93144-149">%systemroot%\\SysWow64\\LogFiles</span></span>
+      - <span data-ttu-id="9dd29-149">% systemroot-% \\ syswow64- \\ Protokolldateien</span><span class="sxs-lookup"><span data-stu-id="9dd29-149">%systemroot%\\SysWow64\\LogFiles</span></span>
     
-      - <span data-ttu-id="93144-150">% systemroot\\%\\Microsoft.net\\-\_Assembly GAC MSIL</span><span class="sxs-lookup"><span data-stu-id="93144-150">%systemroot%\\Microsoft.NET\\assembly\\GAC\_MSIL</span></span>
+      - <span data-ttu-id="9dd29-150">% systemroot% \\ Microsoft.net- \\ Assembly \\ GAC \_ MSIL</span><span class="sxs-lookup"><span data-stu-id="9dd29-150">%systemroot%\\Microsoft.NET\\assembly\\GAC\_MSIL</span></span>
     
-      - <span data-ttu-id="93144-151">% Programme%\\Microsoft lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93144-151">%programfiles%\\Microsoft Lync Server 2013</span></span>
+      - <span data-ttu-id="9dd29-151">% Programme% \\ Microsoft lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9dd29-151">%programfiles%\\Microsoft Lync Server 2013</span></span>
     
-      - <span data-ttu-id="93144-152">% Programme%\\allgemeine Dateien\\Microsoft lync Server 2013\\Watcher-Knoten</span><span class="sxs-lookup"><span data-stu-id="93144-152">%programfiles%\\Common Files\\Microsoft Lync Server 2013\\Watcher Node</span></span>
+      - <span data-ttu-id="9dd29-152">% Programme% \\ Allgemeine Dateien \\ Microsoft lync Server 2013 \\ Watcher-Knoten</span><span class="sxs-lookup"><span data-stu-id="9dd29-152">%programfiles%\\Common Files\\Microsoft Lync Server 2013\\Watcher Node</span></span>
     
-      - <span data-ttu-id="93144-153">% Programme%\\allgemeine Dateien\\Microsoft lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93144-153">%programfiles%\\Common Files\\Microsoft Lync Server 2013</span></span>
+      - <span data-ttu-id="9dd29-153">% Programme% \\ Allgemeine Dateien \\ Microsoft lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9dd29-153">%programfiles%\\Common Files\\Microsoft Lync Server 2013</span></span>
     
-      - <span data-ttu-id="93144-154">% System Drive\\% RtcReplicaRoot</span><span class="sxs-lookup"><span data-stu-id="93144-154">%SystemDrive%\\RtcReplicaRoot</span></span>
+      - <span data-ttu-id="9dd29-154">% System Drive% \\ RtcReplicaRoot</span><span class="sxs-lookup"><span data-stu-id="9dd29-154">%SystemDrive%\\RtcReplicaRoot</span></span>
     
-      - <span data-ttu-id="93144-155">Dateifreigabe Speicher (im Topologie-Generator angegeben).</span><span class="sxs-lookup"><span data-stu-id="93144-155">File share store (specified in Topology Builder).</span></span> <span data-ttu-id="93144-156">Dateispeicher werden im Topologie-Generator angegeben.</span><span class="sxs-lookup"><span data-stu-id="93144-156">File stores are specified in Topology Builder.</span></span>
+      - <span data-ttu-id="9dd29-155">Dateifreigabe Speicher (im Topologie-Generator angegeben).</span><span class="sxs-lookup"><span data-stu-id="9dd29-155">File share store (specified in Topology Builder).</span></span> <span data-ttu-id="9dd29-156">Dateispeicher werden im Topologie-Generator angegeben.</span><span class="sxs-lookup"><span data-stu-id="9dd29-156">File stores are specified in Topology Builder.</span></span>
     
-      - <span data-ttu-id="93144-157">SQL Server von Daten-und Protokolldateien, einschließlich derer für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher.</span><span class="sxs-lookup"><span data-stu-id="93144-157">SQL Server data and log files, including those for the back-end database, user store, archiving store, monitoring store, and application store.</span></span> <span data-ttu-id="93144-158">Datenbank-und Protokolldateien können im Topologie-Generator angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="93144-158">Database and log files can be specified in Topology Builder.</span></span> <span data-ttu-id="93144-159">Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich der Standardnamen, finden Sie unter [SQL Server Data and Log File Placement for lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="93144-159">For details about the data and log files for each database, including default names, see [SQL Server data and log file placement for Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in the Deployment documentation.</span></span>
+      - <span data-ttu-id="9dd29-157">SQL Server von Daten-und Protokolldateien, einschließlich derer für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher.</span><span class="sxs-lookup"><span data-stu-id="9dd29-157">SQL Server data and log files, including those for the back-end database, user store, archiving store, monitoring store, and application store.</span></span> <span data-ttu-id="9dd29-158">Datenbank-und Protokolldateien können im Topologie-Generator angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="9dd29-158">Database and log files can be specified in Topology Builder.</span></span> <span data-ttu-id="9dd29-159">Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich der Standardnamen, finden Sie unter [SQL Server Data and Log File Placement for lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="9dd29-159">For details about the data and log files for each database, including default names, see [SQL Server data and log file placement for Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in the Deployment documentation.</span></span>
     
-      - <span data-ttu-id="93144-160">SQL Server von Daten-und Protokolldateien, einschließlich der für die Front-End-Datenbank, lync Store und RtcDatabase Store.</span><span class="sxs-lookup"><span data-stu-id="93144-160">SQL Server data and log files, including those for the Front-end database, Lync store, and RtcDatabase store.</span></span> <span data-ttu-id="93144-161">Sie befinden sich normalerweise unter\\% LokalesLaufwerk% CSData.</span><span class="sxs-lookup"><span data-stu-id="93144-161">They are normally under %localdrive%\\CSData.</span></span>
+      - <span data-ttu-id="9dd29-160">SQL Server von Daten-und Protokolldateien, einschließlich der für die Front-End-Datenbank, lync Store und RtcDatabase Store.</span><span class="sxs-lookup"><span data-stu-id="9dd29-160">SQL Server data and log files, including those for the Front-end database, Lync store, and RtcDatabase store.</span></span> <span data-ttu-id="9dd29-161">Sie befinden sich normalerweise unter% LokalesLaufwerk% \\ CSData.</span><span class="sxs-lookup"><span data-stu-id="9dd29-161">They are normally under %localdrive%\\CSData.</span></span>
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1e1ad498f25656e01507e55c41d98ff4bb9143b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508412"
 ---
+# <a name="verify-configuration-settings"></a><span data-ttu-id="36f6c-102">Überprüfen der Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="36f6c-102">Verify configuration settings</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a><span data-ttu-id="484da-102">Überprüfen der Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="484da-102">Verify configuration settings</span></span>
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "44755599"
 
 <span> </span>
 
-<span data-ttu-id="484da-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="484da-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="36f6c-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="36f6c-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="484da-104">Nachdem Sie die Topologie zusammengeführt und das **Import-CsLegacyConfiguration-** Cmdlet ausgeführt haben, stellen Sie sicher, dass Ihre Office Communications Server 2007 R2-Richtlinien und-Einstellungen in lync Server 2013 importiert wurden.</span><span class="sxs-lookup"><span data-stu-id="484da-104">After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet, verify that your Office Communications Server 2007 R2 policies and settings were imported to Lync Server 2013.</span></span> <span data-ttu-id="484da-105">In der folgenden Tabelle werden die Richtlinien und Einstellungen aufgelistet, die Sie überprüfen sollten.</span><span class="sxs-lookup"><span data-stu-id="484da-105">The following table lists the policies and settings that you should verify.</span></span>
+<span data-ttu-id="36f6c-104">Nachdem Sie die Topologie zusammengeführt und das **Import-CsLegacyConfiguration-** Cmdlet ausgeführt haben, stellen Sie sicher, dass Ihre Office Communications Server 2007 R2-Richtlinien und-Einstellungen in lync Server 2013 importiert wurden.</span><span class="sxs-lookup"><span data-stu-id="36f6c-104">After you merge the topology and run the **Import-CsLegacyConfiguration** cmdlet, verify that your Office Communications Server 2007 R2 policies and settings were imported to Lync Server 2013.</span></span> <span data-ttu-id="36f6c-105">In der folgenden Tabelle werden die Richtlinien und Einstellungen aufgelistet, die Sie überprüfen sollten.</span><span class="sxs-lookup"><span data-stu-id="36f6c-105">The following table lists the policies and settings that you should verify.</span></span>
 
 <div>
 
-## <a name="policies-and-settings-to-verify-after-migration"></a><span data-ttu-id="484da-106">Nach der Migration zu überprüfende Richtlinien und Einstellungen</span><span class="sxs-lookup"><span data-stu-id="484da-106">Policies and Settings to Verify after Migration</span></span>
+## <a name="policies-and-settings-to-verify-after-migration"></a><span data-ttu-id="36f6c-106">Nach der Migration zu überprüfende Richtlinien und Einstellungen</span><span class="sxs-lookup"><span data-stu-id="36f6c-106">Policies and Settings to Verify after Migration</span></span>
 
 
 <table>
@@ -51,39 +53,39 @@ ms.locfileid: "44755599"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="484da-107">Verwendete Arbeitslast</span><span class="sxs-lookup"><span data-stu-id="484da-107">If you use this workload:</span></span></th>
-<th><span data-ttu-id="484da-108">Zu überprüfende Richtlinien und Einstellungen</span><span class="sxs-lookup"><span data-stu-id="484da-108">Verify these policies and settings:</span></span></th>
+<th><span data-ttu-id="36f6c-107">Verwendete Arbeitslast</span><span class="sxs-lookup"><span data-stu-id="36f6c-107">If you use this workload:</span></span></th>
+<th><span data-ttu-id="36f6c-108">Zu überprüfende Richtlinien und Einstellungen</span><span class="sxs-lookup"><span data-stu-id="36f6c-108">Verify these policies and settings:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-109">Instant Messaging und Konferenzen</span><span class="sxs-lookup"><span data-stu-id="484da-109">Instant messaging (IM) and conferencing</span></span></p></td>
-<td><p><span data-ttu-id="484da-110">Anwesenheitsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-110">Presence policy</span></span></p>
-<p><span data-ttu-id="484da-111">Konferenzrichtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-111">Conferencing policy</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-109">Instant Messaging und Konferenzen</span><span class="sxs-lookup"><span data-stu-id="36f6c-109">Instant messaging (IM) and conferencing</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-110">Anwesenheitsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-110">Presence policy</span></span></p>
+<p><span data-ttu-id="36f6c-111">Konferenzrichtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-111">Conferencing policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-112">Einwahlkonferenzen</span><span class="sxs-lookup"><span data-stu-id="484da-112">Dial-in conferencing</span></span></p></td>
-<td><p><span data-ttu-id="484da-113">Zugriffsnummern für Einwahlkonferenz</span><span class="sxs-lookup"><span data-stu-id="484da-113">Dial-in access numbers</span></span></p>
-<p><span data-ttu-id="484da-114">Wählpläne</span><span class="sxs-lookup"><span data-stu-id="484da-114">Dial plans</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-112">Einwahlkonferenzen</span><span class="sxs-lookup"><span data-stu-id="36f6c-112">Dial-in conferencing</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-113">Zugriffsnummern für Einwahlkonferenz</span><span class="sxs-lookup"><span data-stu-id="36f6c-113">Dial-in access numbers</span></span></p>
+<p><span data-ttu-id="36f6c-114">Wählpläne</span><span class="sxs-lookup"><span data-stu-id="36f6c-114">Dial plans</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-115">Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="484da-115">Enterprise Voice</span></span></p></td>
-<td><p><span data-ttu-id="484da-116">VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-116">Voice policy</span></span></p>
-<p><span data-ttu-id="484da-117">VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="484da-117">Voice routes</span></span></p>
-<p><span data-ttu-id="484da-118">Wähleinstellungen</span><span class="sxs-lookup"><span data-stu-id="484da-118">Dial plans</span></span></p>
-<p><span data-ttu-id="484da-119">PSTN-Verwendungseinstellungen</span><span class="sxs-lookup"><span data-stu-id="484da-119">PSTN usage settings</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-115">Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="36f6c-115">Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-116">VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-116">Voice policy</span></span></p>
+<p><span data-ttu-id="36f6c-117">VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="36f6c-117">Voice routes</span></span></p>
+<p><span data-ttu-id="36f6c-118">Wählpläne</span><span class="sxs-lookup"><span data-stu-id="36f6c-118">Dial plans</span></span></p>
+<p><span data-ttu-id="36f6c-119">PSTN-Verwendungseinstellungen</span><span class="sxs-lookup"><span data-stu-id="36f6c-119">PSTN usage settings</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-120">Communicator Web Access</span><span class="sxs-lookup"><span data-stu-id="484da-120">Communicator Web Access</span></span></p></td>
-<td><p><span data-ttu-id="484da-121">Einfache URLs</span><span class="sxs-lookup"><span data-stu-id="484da-121">Simple URLs</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-120">Communicator Web Access</span><span class="sxs-lookup"><span data-stu-id="36f6c-120">Communicator Web Access</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-121">Einfache URLs</span><span class="sxs-lookup"><span data-stu-id="36f6c-121">Simple URLs</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-122">Externe Benutzer</span><span class="sxs-lookup"><span data-stu-id="484da-122">External users</span></span></p></td>
-<td><p><span data-ttu-id="484da-123">Richtlinien für den externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="484da-123">External access policies</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-122">Externe Benutzer</span><span class="sxs-lookup"><span data-stu-id="36f6c-122">External users</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-123">Richtlinien für externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="36f6c-123">External access policies</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-124">Archivierung</span><span class="sxs-lookup"><span data-stu-id="484da-124">Archiving</span></span></p></td>
-<td><p><span data-ttu-id="484da-125">Archivierungsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-125">Archiving policy</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-124">Archivierung</span><span class="sxs-lookup"><span data-stu-id="36f6c-124">Archiving</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-125">Archivierungsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-125">Archiving policy</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -93,19 +95,19 @@ ms.locfileid: "44755599"
 
 <div>
 
-## <a name="to-verify-policies-and-settings"></a><span data-ttu-id="484da-126">So überprüfen Sie Richtlinien und Einstellungen</span><span class="sxs-lookup"><span data-stu-id="484da-126">To verify policies and settings</span></span>
+## <a name="to-verify-policies-and-settings"></a><span data-ttu-id="36f6c-126">So überprüfen Sie Richtlinien und Einstellungen</span><span class="sxs-lookup"><span data-stu-id="36f6c-126">To verify policies and settings</span></span>
 
-1.  <span data-ttu-id="484da-127">Notieren Sie sich in Ihrer Office Communications Server 2007 R2 Umgebung die Namen von Wähleinstellungen (früher als Standortprofile bezeichnet), Einwahlnummern (Zugriffs Telefonnummern und Regionen für die Konferenzzentrale), VoIP-Routen und die in der obigen Tabelle aufgeführten Richtlinien zusätzlich zu den für Communicator-Webzugriff verwendeten URLs.</span><span class="sxs-lookup"><span data-stu-id="484da-127">In your Office Communications Server 2007 R2 environment, make note of the names of dial plans (formerly known as location profiles), dial-in access numbers (Conferencing Attendant access phone numbers and regions), voice routes, and the policies listed in the preceding table, in addition to the URLs used for Communicator Web Access.</span></span>
+1.  <span data-ttu-id="36f6c-127">Notieren Sie sich in Ihrer Office Communications Server 2007 R2 Umgebung die Namen von Wähleinstellungen (früher als Standortprofile bezeichnet), Einwahlnummern (Zugriffs Telefonnummern und Regionen für die Konferenzzentrale), VoIP-Routen und die in der obigen Tabelle aufgeführten Richtlinien zusätzlich zu den für Communicator-Webzugriff verwendeten URLs.</span><span class="sxs-lookup"><span data-stu-id="36f6c-127">In your Office Communications Server 2007 R2 environment, make note of the names of dial plans (formerly known as location profiles), dial-in access numbers (Conferencing Attendant access phone numbers and regions), voice routes, and the policies listed in the preceding table, in addition to the URLs used for Communicator Web Access.</span></span>
 
-2.  <span data-ttu-id="484da-128">Öffnen Sie auf dem lync Server 2013-Front-End-Server lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="484da-128">On the Lync Server 2013 Front End server, open Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="36f6c-128">Öffnen Sie auf dem lync Server 2013-Front-End-Server lync Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="36f6c-128">On the Lync Server 2013 Front End server, open Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="484da-129">Zum Überprüfen der importierten Konferenzrichtlinien klicken Sie im linken Bereich auf **Konferenzen**, dann auf **konferenzrichtlinie**, und stellen Sie sicher, dass alle Konferenzrichtlinien in Ihrer Office Communications Server 2007 R2 Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="484da-129">To verify imported conferencing policies, in the left pane, click **Conferencing**, click **Conferencing Policy**, and then verify that all the conferencing policies in your Office Communications Server 2007 R2 environment are included in the list.</span></span>
+3.  <span data-ttu-id="36f6c-129">Zum Überprüfen der importierten Konferenzrichtlinien klicken Sie im linken Bereich auf **Konferenzen**, dann auf **konferenzrichtlinie**, und stellen Sie sicher, dass alle Konferenzrichtlinien in Ihrer Office Communications Server 2007 R2 Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="36f6c-129">To verify imported conferencing policies, in the left pane, click **Conferencing**, click **Conferencing Policy**, and then verify that all the conferencing policies in your Office Communications Server 2007 R2 environment are included in the list.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="484da-130">Die <STRONG>Besprechungs</STRONG> Richtlinie aus früheren Versionen von Office Communications Server wird nun in lync Server 2013 als konferenzrichtlinie bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="484da-130">The <STRONG>Meeting</STRONG> policy from previous versions of Office Communications Server is now known as the conferencing policy in Lync Server 2013.</span></span> <span data-ttu-id="484da-131">Darüber hinaus ist die Einstellung für <STRONG>Anonyme Teilnehmern</STRONG> aus früheren Versionen von Office Communications Server jetzt eine Einstellung in der lync Server 2013 konferenzrichtlinie.</span><span class="sxs-lookup"><span data-stu-id="484da-131">Additionally, the <STRONG>Anonymous Particpants</STRONG> setting from previous versions of Office Communications Server is now a setting in the Lync Server 2013 conferencing policy.</span></span>
+    > <span data-ttu-id="36f6c-130">Die <STRONG>Besprechungs</STRONG> Richtlinie aus früheren Versionen von Office Communications Server wird nun in lync Server 2013 als konferenzrichtlinie bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="36f6c-130">The <STRONG>Meeting</STRONG> policy from previous versions of Office Communications Server is now known as the conferencing policy in Lync Server 2013.</span></span> <span data-ttu-id="36f6c-131">Darüber hinaus ist die Einstellung für <STRONG>Anonyme Teilnehmern</STRONG> aus früheren Versionen von Office Communications Server jetzt eine Einstellung in der lync Server 2013 konferenzrichtlinie.</span><span class="sxs-lookup"><span data-stu-id="36f6c-131">Additionally, the <STRONG>Anonymous Particpants</STRONG> setting from previous versions of Office Communications Server is now a setting in the Lync Server 2013 conferencing policy.</span></span>
 
     
     </div>
@@ -114,7 +116,7 @@ ms.locfileid: "44755599"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="484da-132">Wenn in Office Communications Server 2007 R2 die konferenzrichtlinie nicht auf die <STRONG>Verwendung pro Benutzer</STRONG>festgelegt ist, werden nur globale Richtlinieneinstellungen importiert.</span><span class="sxs-lookup"><span data-stu-id="484da-132">In Office Communications Server 2007 R2, if the conferencing policy is not set to <STRONG>use per user</STRONG>, only global policy settings are imported.</span></span> <span data-ttu-id="484da-133">In dieser Situation werden keine anderen Konferenzrichtlinien importiert.</span><span class="sxs-lookup"><span data-stu-id="484da-133">No other conference policies are imported in this situation.</span></span>
+    > <span data-ttu-id="36f6c-132">Wenn in Office Communications Server 2007 R2 die konferenzrichtlinie nicht auf die <STRONG>Verwendung pro Benutzer</STRONG>festgelegt ist, werden nur globale Richtlinieneinstellungen importiert.</span><span class="sxs-lookup"><span data-stu-id="36f6c-132">In Office Communications Server 2007 R2, if the conferencing policy is not set to <STRONG>use per user</STRONG>, only global policy settings are imported.</span></span> <span data-ttu-id="36f6c-133">In dieser Situation werden keine anderen Konferenzrichtlinien importiert.</span><span class="sxs-lookup"><span data-stu-id="36f6c-133">No other conference policies are imported in this situation.</span></span>
 
     
     </div>
@@ -123,64 +125,64 @@ ms.locfileid: "44755599"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="484da-134">Wenn <STRONG>Anonyme Teilnehmer</STRONG> in Ihrer Office Communications Server 2007 R2 konferenzrichtlinie auf <STRONG>erzwingen pro Benutzer</STRONG> festgelegt sind, werden während der Migration zwei Konferenzrichtlinien erstellt: eine mit <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> <STRONG>, und eine</STRONG> mit <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> , die auf <STRONG>false</STRONG>festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="484da-134">If <STRONG>Anonymous Participants</STRONG> is set to <STRONG>Enforce per user</STRONG> in your Office Communications Server 2007 R2 conferencing policy, two conferencing policies are created during migration: one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>True</STRONG> and one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>False</STRONG>.</span></span>
+    > <span data-ttu-id="36f6c-134">Wenn <STRONG>Anonyme Teilnehmer</STRONG> in Ihrer Office Communications Server 2007 R2 konferenzrichtlinie auf <STRONG>erzwingen pro Benutzer</STRONG> festgelegt sind, werden während der Migration zwei Konferenzrichtlinien erstellt: eine mit <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> <STRONG>, und eine</STRONG> mit <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> , die auf <STRONG>false</STRONG>festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="36f6c-134">If <STRONG>Anonymous Participants</STRONG> is set to <STRONG>Enforce per user</STRONG> in your Office Communications Server 2007 R2 conferencing policy, two conferencing policies are created during migration: one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>True</STRONG> and one with <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> set to <STRONG>False</STRONG>.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="484da-135">Zum Überprüfen von migrierten Wählplänen klicken Sie auf **VoIP-Routing** und auf **Wählplan**, und stellen Sie dann sicher, dass alle Wählpläne in Ihrer Office Communicator 2007 R2-Umgebung in der Liste aufgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="484da-135">To verify imported dial plans, click **Voice Routing**, click **Dial Plan**, and then verify that all the dial plans in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+4.  <span data-ttu-id="36f6c-135">Zum Überprüfen von migrierten Wählplänen klicken Sie auf **VoIP-Routing** und auf **Wählplan**, und stellen Sie dann sicher, dass alle Wählpläne in Ihrer Office Communicator 2007 R2-Umgebung in der Liste aufgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="36f6c-135">To verify imported dial plans, click **Voice Routing**, click **Dial Plan**, and then verify that all the dial plans in your Office Communicator 2007 R2 environment are included in the list.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="484da-136">In lync Server 2013 werden <STRONG>Standortprofile</STRONG> jetzt als <STRONG>Wählpläne</STRONG>bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="484da-136">In Lync Server 2013, <STRONG>location profiles</STRONG> are now referred to as <STRONG>dial-plans</STRONG>.</span></span>
+    > <span data-ttu-id="36f6c-136">In lync Server 2013 werden <STRONG>Standortprofile</STRONG> jetzt als <STRONG>Wählpläne</STRONG>bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="36f6c-136">In Lync Server 2013, <STRONG>location profiles</STRONG> are now referred to as <STRONG>dial-plans</STRONG>.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="484da-137">Zum Überprüfen der importierten VoIP-Richtlinien klicken Sie auf **VoIP-Routing**, dann auf **VoIP-Richtlinie**, und überprüfen Sie anschließend, ob alle VoIP-Richtlinien in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="484da-137">To verify imported voice policies, click **Voice Routing**, click **Voice Policy**, and then verify that all the voice policies in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+5.  <span data-ttu-id="36f6c-137">Zum Überprüfen der importierten VoIP-Richtlinien klicken Sie auf **VoIP-Routing**, dann auf **VoIP-Richtlinie**, und überprüfen Sie anschließend, ob alle VoIP-Richtlinien in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="36f6c-137">To verify imported voice policies, click **Voice Routing**, click **Voice Policy**, and then verify that all the voice policies in your Office Communicator 2007 R2 environment are included in the list.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="484da-138">Wenn für die VoIP-Richtlinie nicht die <STRONG>Verwendung pro Benutzer</STRONG> in Ihrer Office Communications Server 2007 R2 Umgebung festgelegt ist, werden nur globale Richtlinieneinstellungen importiert.</span><span class="sxs-lookup"><span data-stu-id="484da-138">If voice policy is not set to <STRONG>use per user</STRONG> in your Office Communications Server 2007 R2 environment, only global policy settings are imported.</span></span> <span data-ttu-id="484da-139">In dieser Situation werden keine anderen VoIP-Richtlinien importiert.</span><span class="sxs-lookup"><span data-stu-id="484da-139">No other voice policies are imported in this situation.</span></span>
+    > <span data-ttu-id="36f6c-138">Wenn für die VoIP-Richtlinie nicht die <STRONG>Verwendung pro Benutzer</STRONG> in Ihrer Office Communications Server 2007 R2 Umgebung festgelegt ist, werden nur globale Richtlinieneinstellungen importiert.</span><span class="sxs-lookup"><span data-stu-id="36f6c-138">If voice policy is not set to <STRONG>use per user</STRONG> in your Office Communications Server 2007 R2 environment, only global policy settings are imported.</span></span> <span data-ttu-id="36f6c-139">In dieser Situation werden keine anderen VoIP-Richtlinien importiert.</span><span class="sxs-lookup"><span data-stu-id="36f6c-139">No other voice policies are imported in this situation.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="484da-140">Zum Überprüfen von migrierten VoIP-Routen klicken Sie auf **VoIP-Routing** und dann auf **Route**, und stellen Sie sicher, dass alle VoIP-Routen in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="484da-140">To verify imported voice routes, click **Voice Routing**, click **Route**, and then verify that all the voice routes in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+6.  <span data-ttu-id="36f6c-140">Zum Überprüfen von migrierten VoIP-Routen klicken Sie auf **VoIP-Routing** und dann auf **Route**, und stellen Sie sicher, dass alle VoIP-Routen in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="36f6c-140">To verify imported voice routes, click **Voice Routing**, click **Route**, and then verify that all the voice routes in your Office Communicator 2007 R2 environment are included in the list.</span></span>
 
-7.  <span data-ttu-id="484da-141">Zum Überprüfen der importierten PSTN-Verwendungseinstellungen klicken Sie auf **VoIP-Routing** und auf **PSTN-Verwendung**, und stellen Sie dann sicher, dass die PSTN-Verwendungseinstellungen aus der Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="484da-141">To verify imported PSTN usage settings, click **Voice Routing**, click **PSTN Usage**, and then verify that the PSTN Usage settings from your Office Communicator 2007 R2 environment are included in the list.</span></span>
+7.  <span data-ttu-id="36f6c-141">Zum Überprüfen der importierten PSTN-Verwendungseinstellungen klicken Sie auf **VoIP-Routing** und auf **PSTN-Verwendung**, und stellen Sie dann sicher, dass die PSTN-Verwendungseinstellungen aus der Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="36f6c-141">To verify imported PSTN usage settings, click **Voice Routing**, click **PSTN Usage**, and then verify that the PSTN Usage settings from your Office Communicator 2007 R2 environment are included in the list.</span></span>
 
-8.  <span data-ttu-id="484da-142">Zum Überprüfen der importierten Richtlinien für externen Zugriff klicken Sie auf **Partnerverbund und externer Zugriff** und auf **Externe Zugriffsrichtlinie**, und stellen Sie dann sicher, dass alle Richtlinien für externen Zugriff in der Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="484da-142">To verify imported external access policies, click **Federation and External Access**, click **External Access Policy**, and then verify that all the external access policies in your Office Communicator 2007 R2 environment are included in the list.</span></span>
+8.  <span data-ttu-id="36f6c-142">Zum Überprüfen der importierten Richtlinien für externen Zugriff klicken Sie auf **Partnerverbund und externer Zugriff** und auf **Externe Zugriffsrichtlinie**, und stellen Sie dann sicher, dass alle Richtlinien für externen Zugriff in der Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="36f6c-142">To verify imported external access policies, click **Federation and External Access**, click **External Access Policy**, and then verify that all the external access policies in your Office Communicator 2007 R2 environment are included in the list.</span></span>
 
-9.  <span data-ttu-id="484da-143">Klicken Sie zum Überprüfen der Archivierungsrichtlinien auf **Überwachung und Archivierung**, klicken Sie auf **Archivierungsrichtlinie**, und stellen Sie dann sicher, dass alle Archivierungsrichtlinien in Ihrer Office Communications Server 2007 R2 Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="484da-143">To verify archiving policies, click **Monitoring and Archiving**, click **Archiving Policy**, and then verify that all the archiving policies in your Office Communications Server 2007 R2 environment are included in the list.</span></span>
+9.  <span data-ttu-id="36f6c-143">Klicken Sie zum Überprüfen der Archivierungsrichtlinien auf **Überwachung und Archivierung**, klicken Sie auf **Archivierungsrichtlinie**, und stellen Sie dann sicher, dass alle Archivierungsrichtlinien in Ihrer Office Communications Server 2007 R2 Umgebung in der Liste enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="36f6c-143">To verify archiving policies, click **Monitoring and Archiving**, click **Archiving Policy**, and then verify that all the archiving policies in your Office Communications Server 2007 R2 environment are included in the list.</span></span>
 
-10. <span data-ttu-id="484da-144">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="484da-144">Open the Lync Server Management Shell.</span></span>
+10. <span data-ttu-id="36f6c-144">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="36f6c-144">Open the Lync Server Management Shell.</span></span>
 
-11. <span data-ttu-id="484da-145">Geben Sie zum Überprüfen der Anwesenheitsrichtlinien an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="484da-145">To verify presence policies, at the command line, type the following:</span></span>
+11. <span data-ttu-id="36f6c-145">Geben Sie zum Überprüfen der Anwesenheitsrichtlinien an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="36f6c-145">To verify presence policies, at the command line, type the following:</span></span>
     
         Get-CsPresencePolicy
     
-    <span data-ttu-id="484da-146">Stellen Sie sicher, dass alle Präsenz Richtlinien in Ihrer Office Communications Server 2007 R2 Umgebung importiert wurden, indem Sie den Namen im Parameter **Identity** betrachten.</span><span class="sxs-lookup"><span data-stu-id="484da-146">By looking at the name in the **Identity** parameter, verify that all the presence policies in your Office Communications Server 2007 R2 environment were imported.</span></span>
+    <span data-ttu-id="36f6c-146">Stellen Sie sicher, dass alle Präsenz Richtlinien in Ihrer Office Communications Server 2007 R2 Umgebung importiert wurden, indem Sie den Namen im Parameter **Identity** betrachten.</span><span class="sxs-lookup"><span data-stu-id="36f6c-146">By looking at the name in the **Identity** parameter, verify that all the presence policies in your Office Communications Server 2007 R2 environment were imported.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-verify-policies-and-settings-by-using-cmdlets"></a><span data-ttu-id="484da-147">So überprüfen Sie Richtlinien und Einstellungen mithilfe von Cmdlets</span><span class="sxs-lookup"><span data-stu-id="484da-147">To verify policies and settings by using cmdlets</span></span>
+## <a name="to-verify-policies-and-settings-by-using-cmdlets"></a><span data-ttu-id="36f6c-147">So überprüfen Sie Richtlinien und Einstellungen mithilfe von Cmdlets</span><span class="sxs-lookup"><span data-stu-id="36f6c-147">To verify policies and settings by using cmdlets</span></span>
 
-1.  <span data-ttu-id="484da-148">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="484da-148">Open the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="36f6c-148">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="36f6c-148">Open the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="484da-149">Führen Sie die Cmdlets in der folgenden Tabelle aus, um Richtlinien und Einstellungen zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="484da-149">Run the cmdlets in the following table to verify policies and settings.</span></span>
+2.  <span data-ttu-id="36f6c-149">Führen Sie die Cmdlets in der folgenden Tabelle aus, um Richtlinien und Einstellungen zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="36f6c-149">Run the cmdlets in the following table to verify policies and settings.</span></span>
     
-    <span data-ttu-id="484da-150">Die Syntax dieser Cmdlets entspricht dem folgenden Beispiel:</span><span class="sxs-lookup"><span data-stu-id="484da-150">The syntax of these cmdlets is like the following example:</span></span>
+    <span data-ttu-id="36f6c-150">Die Syntax dieser Cmdlets entspricht dem folgenden Beispiel:</span><span class="sxs-lookup"><span data-stu-id="36f6c-150">The syntax of these cmdlets is like the following example:</span></span>
     
         Get-CsConferencingPolicy
     
-    <span data-ttu-id="484da-151">Wenn Sie ausführliche Informationen zu diesen Cmdlets benötigen, führen Sie folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="484da-151">For details about these cmdlets, run:</span></span>
+    <span data-ttu-id="36f6c-151">Wenn Sie ausführliche Informationen zu diesen Cmdlets benötigen, führen Sie folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="36f6c-151">For details about these cmdlets, run:</span></span>
     
         Get-Help <cmdlet name> -Detailed
 
@@ -192,50 +194,50 @@ ms.locfileid: "44755599"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="484da-152">Zu überprüfende Richtlinie oder Einstellung</span><span class="sxs-lookup"><span data-stu-id="484da-152">For this policy or setting:</span></span></th>
-<th><span data-ttu-id="484da-153">Cmdlet</span><span class="sxs-lookup"><span data-stu-id="484da-153">Use this cmdlet:</span></span></th>
+<th><span data-ttu-id="36f6c-152">Zu überprüfende Richtlinie oder Einstellung</span><span class="sxs-lookup"><span data-stu-id="36f6c-152">For this policy or setting:</span></span></th>
+<th><span data-ttu-id="36f6c-153">Cmdlet</span><span class="sxs-lookup"><span data-stu-id="36f6c-153">Use this cmdlet:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-154">Anwesenheitsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-154">Presence policy</span></span></p></td>
-<td><p><span data-ttu-id="484da-155"><strong>Get-CsPresencePolicy</strong></span><span class="sxs-lookup"><span data-stu-id="484da-155"><strong>Get-CsPresencePolicy</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-154">Anwesenheitsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-154">Presence policy</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-155"><strong>Get-CsPresencePolicy</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-155"><strong>Get-CsPresencePolicy</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-156">Konferenzrichtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-156">Conferencing policy</span></span></p></td>
-<td><p><span data-ttu-id="484da-157"><strong>Get-CsConferencingPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="484da-157"><strong>Get-CsConferencingPolicy</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-156">Konferenzrichtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-156">Conferencing policy</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-157"><strong>Get-CsConferencingPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-157"><strong>Get-CsConferencingPolicy</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-158">Zugriffsnummern für Einwahlkonferenz</span><span class="sxs-lookup"><span data-stu-id="484da-158">Dial-in access numbers</span></span></p></td>
-<td><p><span data-ttu-id="484da-159"><strong>Get-CsDialInConferencingAccessNumber</strong></span><span class="sxs-lookup"><span data-stu-id="484da-159"><strong>Get-CsDialInConferencingAccessNumber</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-158">Zugriffsnummern für Einwahlkonferenz</span><span class="sxs-lookup"><span data-stu-id="36f6c-158">Dial-in access numbers</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-159"><strong>Get-CsDialInConferencingAccessNumber</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-159"><strong>Get-CsDialInConferencingAccessNumber</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-160">Wählpläne</span><span class="sxs-lookup"><span data-stu-id="484da-160">Dial plans</span></span></p></td>
-<td><p><span data-ttu-id="484da-161"><strong>Get-CsDialPlan</strong></span><span class="sxs-lookup"><span data-stu-id="484da-161"><strong>Get-CsDialPlan</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-160">Wählpläne</span><span class="sxs-lookup"><span data-stu-id="36f6c-160">Dial plans</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-161"><strong>Get-CsDialPlan</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-161"><strong>Get-CsDialPlan</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-162">VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-162">Voice policy</span></span></p></td>
-<td><p><span data-ttu-id="484da-163"><strong>Get-CsVoicePolicy</strong></span><span class="sxs-lookup"><span data-stu-id="484da-163"><strong>Get-CsVoicePolicy</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-162">VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-162">Voice policy</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-163"><strong>Get-CsVoicePolicy</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-163"><strong>Get-CsVoicePolicy</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-164">VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="484da-164">Voice routes</span></span></p></td>
-<td><p><span data-ttu-id="484da-165"><strong>Get-CsVoiceRoute</strong></span><span class="sxs-lookup"><span data-stu-id="484da-165"><strong>Get-CsVoiceRoute</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-164">VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="36f6c-164">Voice routes</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-165"><strong>Get-CsVoiceRoute</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-165"><strong>Get-CsVoiceRoute</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-166">PSTN-Verwendung</span><span class="sxs-lookup"><span data-stu-id="484da-166">PSTN Usage</span></span></p></td>
-<td><p><span data-ttu-id="484da-167"><strong>Get-CsPstnUsage</strong></span><span class="sxs-lookup"><span data-stu-id="484da-167"><strong>Get-CsPstnUsage</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-166">PSTN-Verwendung</span><span class="sxs-lookup"><span data-stu-id="36f6c-166">PSTN Usage</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-167"><strong>Get-CsPstnUsage</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-167"><strong>Get-CsPstnUsage</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-168">URLs</span><span class="sxs-lookup"><span data-stu-id="484da-168">URLs</span></span></p></td>
-<td><p><span data-ttu-id="484da-169"><strong>Get-CsSimpleUrlConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="484da-169"><strong>Get-CsSimpleUrlConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-168">URLs</span><span class="sxs-lookup"><span data-stu-id="36f6c-168">URLs</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-169"><strong>Get-CsSimpleUrlConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-169"><strong>Get-CsSimpleUrlConfiguration</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="484da-170">Richtlinien für externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="484da-170">External access policies</span></span></p></td>
-<td><p><span data-ttu-id="484da-171"><strong>Get-CsExternalAccessPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="484da-171"><strong>Get-CsExternalAccessPolicy</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-170">Richtlinien für externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="36f6c-170">External access policies</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-171"><strong>Get-CsExternalAccessPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-171"><strong>Get-CsExternalAccessPolicy</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="484da-172">Archivierungsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="484da-172">Archiving policy</span></span></p></td>
-<td><p><span data-ttu-id="484da-173"><strong>Get-CsArchivingPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="484da-173"><strong>Get-CsArchivingPolicy</strong></span></span></p></td>
+<td><p><span data-ttu-id="36f6c-172">Archivierungsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="36f6c-172">Archiving policy</span></span></p></td>
+<td><p><span data-ttu-id="36f6c-173"><strong>Get-CsArchivingPolicy</strong></span><span class="sxs-lookup"><span data-stu-id="36f6c-173"><strong>Get-CsArchivingPolicy</strong></span></span></p></td>
 </tr>
 </tbody>
 </table>

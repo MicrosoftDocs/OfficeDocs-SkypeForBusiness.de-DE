@@ -12,20 +12,22 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3e08a66397e5c6e7fb5b6111fbdcf6d11d3632a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 45b1c9d320ef35555e83bbd8851d77e00a452631
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509102"
 ---
+# <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="5b340-102">Proversionierung der Topologie zum Ausführen der Last</span><span class="sxs-lookup"><span data-stu-id="5b340-102">Provisioning the Topology to Run Load</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="ac63d-102">Proversionierung der Topologie zum Ausführen der Last</span><span class="sxs-lookup"><span data-stu-id="ac63d-102">Provisioning the Topology to Run Load</span></span>
+
 
 </div>
 
@@ -35,41 +37,39 @@ ms.locfileid: "44756876"
 
 <span> </span>
 
-<span data-ttu-id="ac63d-103">_**Letztes Änderungsstand des Themas:** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="ac63d-103">_**Topic Last Modified:** 2013-02-04_</span></span>
+<span data-ttu-id="5b340-103">_**Letztes Änderungsstand des Themas:** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="5b340-103">_**Topic Last Modified:** 2013-02-04_</span></span>
 
 <div>
 
-## <a name="provisioning-the-topology-to-run-load"></a><span data-ttu-id="ac63d-104">Proversionierung der Topologie zum Ausführen der Last</span><span class="sxs-lookup"><span data-stu-id="ac63d-104">Provisioning the Topology to Run Load</span></span>
+<span data-ttu-id="5b340-104">Je nach den vorhandenen Einstellungen und der Konfiguration von lync Server 2013 müssen Sie möglicherweise die folgenden Änderungen in Ihrer Umgebung vornehmen:</span><span class="sxs-lookup"><span data-stu-id="5b340-104">Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:</span></span>
 
-<span data-ttu-id="ac63d-105">Je nach den vorhandenen Einstellungen und der Konfiguration von lync Server 2013 müssen Sie möglicherweise die folgenden Änderungen in Ihrer Umgebung vornehmen:</span><span class="sxs-lookup"><span data-stu-id="ac63d-105">Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:</span></span>
-
-1.  <span data-ttu-id="ac63d-106">Legen Sie die Ausführungsrichtlinie für Windows PowerShell auf Unrestricted fest.</span><span class="sxs-lookup"><span data-stu-id="ac63d-106">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="ac63d-107">Um die Einstellungen für die Ausführungsrichtlinie zu überprüfen, öffnen Sie die lync Server-Verwaltungsshell und führen Sie den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="ac63d-107">To check your execution policy settings, open the Lync Server Management Shell and run the following command:</span></span>
+1.  <span data-ttu-id="5b340-105">Legen Sie die Ausführungsrichtlinie für Windows PowerShell auf Unrestricted fest.</span><span class="sxs-lookup"><span data-stu-id="5b340-105">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="5b340-106">Um die Einstellungen für die Ausführungsrichtlinie zu überprüfen, öffnen Sie die lync Server-Verwaltungsshell und führen Sie den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="5b340-106">To check your execution policy settings, open the Lync Server Management Shell and run the following command:</span></span>
 
     ``` powershell
         Get-ExecutionPolicy
     ```        
 
-    <span data-ttu-id="ac63d-108">Wenn dieser Befehl nicht den Wert Unrestricted zurückgibt, führen Sie den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="ac63d-108">If this command does not return the value Unrestricted, run this command:</span></span>
+    <span data-ttu-id="5b340-107">Wenn dieser Befehl nicht den Wert Unrestricted zurückgibt, führen Sie den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="5b340-107">If this command does not return the value Unrestricted, run this command:</span></span>
 
     ``` powershell
         Set-ExecutionPolicy -Unrestricted
     ```
 
-2.  <span data-ttu-id="ac63d-109">Um lync Server 2013 effektiv konfigurieren zu können, müssen Sie Folgendes tun:</span><span class="sxs-lookup"><span data-stu-id="ac63d-109">To effectively configure Lync Server 2013, you will need to:</span></span>
+2.  <span data-ttu-id="5b340-108">Um lync Server 2013 effektiv konfigurieren zu können, müssen Sie Folgendes tun:</span><span class="sxs-lookup"><span data-stu-id="5b340-108">To effectively configure Lync Server 2013, you will need to:</span></span>
     
-      - <span data-ttu-id="ac63d-110">Sie sollten mit lync Server 2013 Topologie (beispielsweise Computernamen, Dienstinstanzen, Websitenamen und Richtlinien) vertraut sein.</span><span class="sxs-lookup"><span data-stu-id="ac63d-110">Be familiar with Lync Server 2013 topology (for example, computer names, service instances, site names, and policies).</span></span>
+      - <span data-ttu-id="5b340-109">Sie sollten mit lync Server 2013 Topologie (beispielsweise Computernamen, Dienstinstanzen, Websitenamen und Richtlinien) vertraut sein.</span><span class="sxs-lookup"><span data-stu-id="5b340-109">Be familiar with Lync Server 2013 topology (for example, computer names, service instances, site names, and policies).</span></span>
     
-      - <span data-ttu-id="ac63d-111">Weisen Sie einige der erstellten Benutzergruppen zu, beispielsweise Reaktionsgruppen-Sammelanschlüsse (beispielsweise SIP-URIs).</span><span class="sxs-lookup"><span data-stu-id="ac63d-111">Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
+      - <span data-ttu-id="5b340-110">Weisen Sie einige der erstellten Benutzergruppen zu, beispielsweise Reaktionsgruppen-Sammelanschlüsse (beispielsweise SIP-URIs).</span><span class="sxs-lookup"><span data-stu-id="5b340-110">Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
 
-3.  <span data-ttu-id="ac63d-112">Um das Skript über die Befehlszeile auszuführen, können Sie Folgendes verwenden:</span><span class="sxs-lookup"><span data-stu-id="ac63d-112">To run the script from the command line, you may use:</span></span>
+3.  <span data-ttu-id="5b340-111">Um das Skript über die Befehlszeile auszuführen, können Sie Folgendes verwenden:</span><span class="sxs-lookup"><span data-stu-id="5b340-111">To run the script from the command line, you may use:</span></span>
 
     ``` powershell
         Powershell.exe -file <path to the file>
     ```
     
-4.  <span data-ttu-id="ac63d-113">Nach dem Ausführen eines Skripts in diesem Paket werden die daraus resultierenden Ablaufverfolgungen in der Regel in einer Datei im gleichen Pfad gespeichert, von dem das Skript aufgerufen wurde, mit dem Namen \<scriptname\> $h $ m $s.txt.</span><span class="sxs-lookup"><span data-stu-id="ac63d-113">Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="ac63d-114">Beispiel: Running ArchivingPolicy.ps1 um 12:15 Uhr</span><span class="sxs-lookup"><span data-stu-id="ac63d-114">For example, running ArchivingPolicy.ps1 at 12:15 P.M.</span></span> <span data-ttu-id="ac63d-115">generiert eine Protokolldatei wie ArchivingPolicy121500.txt.</span><span class="sxs-lookup"><span data-stu-id="ac63d-115">will generate a log file such as ArchivingPolicy121500.txt.</span></span>
+4.  <span data-ttu-id="5b340-112">Nach dem Ausführen eines Skripts in diesem Paket werden die daraus resultierenden Ablaufverfolgungen in der Regel in einer Datei im gleichen Pfad gespeichert, von dem das Skript aufgerufen wurde, mit dem Namen \<scriptname\> $h $ m $s.txt.</span><span class="sxs-lookup"><span data-stu-id="5b340-112">Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="5b340-113">Beispiel: Running ArchivingPolicy.ps1 um 12:15 Uhr</span><span class="sxs-lookup"><span data-stu-id="5b340-113">For example, running ArchivingPolicy.ps1 at 12:15 P.M.</span></span> <span data-ttu-id="5b340-114">generiert eine Protokolldatei wie ArchivingPolicy121500.txt.</span><span class="sxs-lookup"><span data-stu-id="5b340-114">will generate a log file such as ArchivingPolicy121500.txt.</span></span>
 
-5.  <span data-ttu-id="ac63d-116">Beachten Sie außerdem, dass Sie zwar Beispiele für die Konfiguration des Servers bereitgestellt haben, dass Sie jedoch für das ändern oder Löschen der Konfiguration verantwortlich sind, nachdem Sie die Ausführung der Last abgeschlossen haben.</span><span class="sxs-lookup"><span data-stu-id="ac63d-116">Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.</span></span>
+5.  <span data-ttu-id="5b340-115">Beachten Sie außerdem, dass Sie zwar Beispiele für die Konfiguration des Servers bereitgestellt haben, dass Sie jedoch für das ändern oder Löschen der Konfiguration verantwortlich sind, nachdem Sie die Ausführung der Last abgeschlossen haben.</span><span class="sxs-lookup"><span data-stu-id="5b340-115">Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.</span></span>
 
 </div>
 
