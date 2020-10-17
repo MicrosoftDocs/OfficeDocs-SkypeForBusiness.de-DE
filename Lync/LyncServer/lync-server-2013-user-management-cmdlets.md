@@ -12,20 +12,22 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a5d62eb0f3487fd345fc76640c49065d2d21c92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fee7b4eb6044e82a4ba7e6015e804fa34ec87e81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530172"
 ---
+# <a name="user-management-cmdlets-in-lync-server-2013"></a><span data-ttu-id="348ac-102">Cmdlets für die Benutzerverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="348ac-102">User management cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-management-cmdlets-in-lync-server-2013"></a><span data-ttu-id="9741f-102">Cmdlets für die Benutzerverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9741f-102">User management cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,98 +37,98 @@ ms.locfileid: "42192948"
 
 <span> </span>
 
-<span data-ttu-id="9741f-103">_**Letztes Änderungsstand des Themas:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="9741f-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="348ac-103">_**Letztes Änderungsstand des Themas:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="348ac-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="9741f-104">Mit den in Microsoft lync Server 2013 enthaltenen Cmdlets für die Benutzerverwaltung können Sie lync Server Benutzerkonten aktivieren, deaktivieren und ändern.</span><span class="sxs-lookup"><span data-stu-id="9741f-104">The user management cmdlets included in Microsoft Lync Server 2013 allow you to enable, disable, and modify Lync Server user accounts.</span></span>
+<span data-ttu-id="348ac-104">Mit den in Microsoft lync Server 2013 enthaltenen Cmdlets für die Benutzerverwaltung können Sie lync Server Benutzerkonten aktivieren, deaktivieren und ändern.</span><span class="sxs-lookup"><span data-stu-id="348ac-104">The user management cmdlets included in Microsoft Lync Server 2013 allow you to enable, disable, and modify Lync Server user accounts.</span></span>
 
 <div>
 
-## <a name="user-management-cmdlets"></a><span data-ttu-id="9741f-105">Cmdlets für die Benutzerverwaltung</span><span class="sxs-lookup"><span data-stu-id="9741f-105">User Management Cmdlets</span></span>
+## <a name="user-management-cmdlets"></a><span data-ttu-id="348ac-105">Cmdlets für die Benutzerverwaltung</span><span class="sxs-lookup"><span data-stu-id="348ac-105">User Management Cmdlets</span></span>
 
-<span data-ttu-id="9741f-106">Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, können in der lync Server-Systemsteuerung ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="9741f-106">Most management tasks that apply to users and user accounts can be performed from the Lync Server Control Panel.</span></span> <span data-ttu-id="9741f-107">Eine Ausnahme bilden die Cmdlets zum Konfigurieren von Audiokonferenzanbietern.</span><span class="sxs-lookup"><span data-stu-id="9741f-107">The primary exceptions are the cmdlets that deal with audio conferencing providers.</span></span> <span data-ttu-id="9741f-108">Benutzerverwaltungsaufgaben können mit Cmdlets aus dem lync Server-Verwaltungsshell oder in einem Skript ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="9741f-108">User management tasks can be performed using cmdlets from the Lync Server Management Shell or from within a script.</span></span> <span data-ttu-id="9741f-109">Durch die Verwendung eines Skripts können bestimmte Aufgaben automatisiert werden.</span><span class="sxs-lookup"><span data-stu-id="9741f-109">By using a script, you can automate certain tasks.</span></span> <span data-ttu-id="9741f-110">In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Benutzern und Benutzerkonten eingesetzt werden:</span><span class="sxs-lookup"><span data-stu-id="9741f-110">The following is a list of cmdlets that relate directly to managing users and user accounts:</span></span>
+<span data-ttu-id="348ac-106">Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, können in der lync Server-Systemsteuerung ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="348ac-106">Most management tasks that apply to users and user accounts can be performed from the Lync Server Control Panel.</span></span> <span data-ttu-id="348ac-107">Eine Ausnahme bilden die Cmdlets zum Konfigurieren von Audiokonferenzanbietern.</span><span class="sxs-lookup"><span data-stu-id="348ac-107">The primary exceptions are the cmdlets that deal with audio conferencing providers.</span></span> <span data-ttu-id="348ac-108">Benutzerverwaltungsaufgaben können mit Cmdlets aus dem lync Server-Verwaltungsshell oder in einem Skript ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="348ac-108">User management tasks can be performed using cmdlets from the Lync Server Management Shell or from within a script.</span></span> <span data-ttu-id="348ac-109">Durch die Verwendung eines Skripts können bestimmte Aufgaben automatisiert werden.</span><span class="sxs-lookup"><span data-stu-id="348ac-109">By using a script, you can automate certain tasks.</span></span> <span data-ttu-id="348ac-110">In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Benutzern und Benutzerkonten eingesetzt werden:</span><span class="sxs-lookup"><span data-stu-id="348ac-110">The following is a list of cmdlets that relate directly to managing users and user accounts:</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="9741f-111">Get-CsAdContact</span><span class="sxs-lookup"><span data-stu-id="9741f-111">Get-CsAdContact</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
+    [<span data-ttu-id="348ac-111">Get-CsAdContact</span><span class="sxs-lookup"><span data-stu-id="348ac-111">Get-CsAdContact</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
 
 <!-- end list -->
 
   - <span></span>  
-    [<span data-ttu-id="9741f-112">Get-CsAdUser</span><span class="sxs-lookup"><span data-stu-id="9741f-112">Get-CsAdUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAdUser)
+    [<span data-ttu-id="348ac-112">Get-CsAdUser</span><span class="sxs-lookup"><span data-stu-id="348ac-112">Get-CsAdUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAdUser)
 
 <!-- end list -->
 
-  - [<span data-ttu-id="9741f-113">Get-csclientaccesslicense abrufen</span><span class="sxs-lookup"><span data-stu-id="9741f-113">Get-CsClientAccessLicense</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsClientAccessLicense)
+  - [<span data-ttu-id="348ac-113">Get-csclientaccesslicense abrufen</span><span class="sxs-lookup"><span data-stu-id="348ac-113">Get-CsClientAccessLicense</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsClientAccessLicense)
 
 <!-- end list -->
 
-  - [<span data-ttu-id="9741f-114">Get-CsEffectivePolicy</span><span class="sxs-lookup"><span data-stu-id="9741f-114">Get-CsEffectivePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsEffectivePolicy)
+  - [<span data-ttu-id="348ac-114">Get-CsEffectivePolicy</span><span class="sxs-lookup"><span data-stu-id="348ac-114">Get-CsEffectivePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsEffectivePolicy)
 
 <!-- end list -->
 
-  - [<span data-ttu-id="9741f-115">Invoke-CsUcsRollback</span><span class="sxs-lookup"><span data-stu-id="9741f-115">Invoke-CsUcsRollback</span></span>](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)
+  - [<span data-ttu-id="348ac-115">Invoke-CsUcsRollback</span><span class="sxs-lookup"><span data-stu-id="348ac-115">Invoke-CsUcsRollback</span></span>](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)
 
 <!-- end list -->
 
-  - [<span data-ttu-id="9741f-116">Debug-CsUnifiedContactStore</span><span class="sxs-lookup"><span data-stu-id="9741f-116">Debug-CsUnifiedContactStore</span></span>](https://docs.microsoft.com/powershell/module/skype/Debug-CsUnifiedContactStore)
+  - [<span data-ttu-id="348ac-116">Debug-CsUnifiedContactStore</span><span class="sxs-lookup"><span data-stu-id="348ac-116">Debug-CsUnifiedContactStore</span></span>](https://docs.microsoft.com/powershell/module/skype/Debug-CsUnifiedContactStore)
 
-  - [<span data-ttu-id="9741f-117">Test-CsUnifiedContactStore</span><span class="sxs-lookup"><span data-stu-id="9741f-117">Test-CsUnifiedContactStore</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)
-
-<!-- end list -->
-
-  - <span></span>  
-    [<span data-ttu-id="9741f-118">Disable-CsUser</span><span class="sxs-lookup"><span data-stu-id="9741f-118">Disable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
-
-  - <span></span>  
-    [<span data-ttu-id="9741f-119">Enable-CsUser</span><span class="sxs-lookup"><span data-stu-id="9741f-119">Enable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
-
-  - <span></span>  
-    [<span data-ttu-id="9741f-120">Get-CsUser</span><span class="sxs-lookup"><span data-stu-id="9741f-120">Get-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
-
-  - <span></span>  
-    [<span data-ttu-id="9741f-121">CsUser</span><span class="sxs-lookup"><span data-stu-id="9741f-121">Move-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
-
-  - <span></span>  
-    [<span data-ttu-id="9741f-122">Gruppe-CsUser</span><span class="sxs-lookup"><span data-stu-id="9741f-122">Set-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
+  - [<span data-ttu-id="348ac-117">Test-CsUnifiedContactStore</span><span class="sxs-lookup"><span data-stu-id="348ac-117">Test-CsUnifiedContactStore</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)
 
 <!-- end list -->
 
   - <span></span>  
-    [<span data-ttu-id="9741f-123">Get-CsUserAcp</span><span class="sxs-lookup"><span data-stu-id="9741f-123">Get-CsUserAcp</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUserAcp)
+    [<span data-ttu-id="348ac-118">Disable-CsUser</span><span class="sxs-lookup"><span data-stu-id="348ac-118">Disable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
 
   - <span></span>  
-    [<span data-ttu-id="9741f-124">Remove-CsUserAcp</span><span class="sxs-lookup"><span data-stu-id="9741f-124">Remove-CsUserAcp</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserAcp)
+    [<span data-ttu-id="348ac-119">Enable-CsUser</span><span class="sxs-lookup"><span data-stu-id="348ac-119">Enable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
 
   - <span></span>  
-    [<span data-ttu-id="9741f-125">Gruppe-CsUserAcp</span><span class="sxs-lookup"><span data-stu-id="9741f-125">Set-CsUserAcp</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
+    [<span data-ttu-id="348ac-120">Get-CsUser</span><span class="sxs-lookup"><span data-stu-id="348ac-120">Get-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
 
   - <span></span>  
-    [<span data-ttu-id="9741f-126">Test-CsAudioConferencingProvider</span><span class="sxs-lookup"><span data-stu-id="9741f-126">Test-CsAudioConferencingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
+    [<span data-ttu-id="348ac-121">CsUser</span><span class="sxs-lookup"><span data-stu-id="348ac-121">Move-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
+
+  - <span></span>  
+    [<span data-ttu-id="348ac-122">Gruppe-CsUser</span><span class="sxs-lookup"><span data-stu-id="348ac-122">Set-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
 
 <!-- end list -->
 
   - <span></span>  
-    [<span data-ttu-id="9741f-127">Get-CsUserPoolInfo</span><span class="sxs-lookup"><span data-stu-id="9741f-127">Get-CsUserPoolInfo</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUserPoolInfo)
+    [<span data-ttu-id="348ac-123">Get-CsUserAcp</span><span class="sxs-lookup"><span data-stu-id="348ac-123">Get-CsUserAcp</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUserAcp)
+
+  - <span></span>  
+    [<span data-ttu-id="348ac-124">Remove-CsUserAcp</span><span class="sxs-lookup"><span data-stu-id="348ac-124">Remove-CsUserAcp</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserAcp)
+
+  - <span></span>  
+    [<span data-ttu-id="348ac-125">Gruppe-CsUserAcp</span><span class="sxs-lookup"><span data-stu-id="348ac-125">Set-CsUserAcp</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
+
+  - <span></span>  
+    [<span data-ttu-id="348ac-126">Test-CsAudioConferencingProvider</span><span class="sxs-lookup"><span data-stu-id="348ac-126">Test-CsAudioConferencingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
 
 <!-- end list -->
 
-  - [<span data-ttu-id="9741f-128">Get-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="9741f-128">Get-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUserServicesPolicy)
+  - <span></span>  
+    [<span data-ttu-id="348ac-127">Get-CsUserPoolInfo</span><span class="sxs-lookup"><span data-stu-id="348ac-127">Get-CsUserPoolInfo</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUserPoolInfo)
 
-  - [<span data-ttu-id="9741f-129">Grant-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="9741f-129">Grant-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
+<!-- end list -->
 
-  - [<span data-ttu-id="9741f-130">New-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="9741f-130">New-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
+  - [<span data-ttu-id="348ac-128">Get-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="348ac-128">Get-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUserServicesPolicy)
 
-  - [<span data-ttu-id="9741f-131">Remove-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="9741f-131">Remove-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
+  - [<span data-ttu-id="348ac-129">Grant-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="348ac-129">Grant-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
 
-  - [<span data-ttu-id="9741f-132">Gruppe-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="9741f-132">Set-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
+  - [<span data-ttu-id="348ac-130">New-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="348ac-130">New-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
+
+  - [<span data-ttu-id="348ac-131">Remove-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="348ac-131">Remove-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
+
+  - [<span data-ttu-id="348ac-132">Gruppe-csuserservicespolicy "</span><span class="sxs-lookup"><span data-stu-id="348ac-132">Set-CsUserServicesPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9741f-133">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9741f-133">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="348ac-133">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="348ac-133">See Also</span></span>
 
 
-[<span data-ttu-id="9741f-134">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="9741f-134">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="348ac-134">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="348ac-134">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

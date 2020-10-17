@@ -12,20 +12,22 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe0ed4bf8e4977391f557cb7f63d17eb735bde76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b28fa4a83e89e446c5f4739d95fedea88769bc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530742"
 ---
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a><span data-ttu-id="86b4b-102">Optional Überprüfen der Bereitstellung von Reaktionsgruppen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86b4b-102">(Optional) Verify Response Group deployment in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a><span data-ttu-id="8b897-102">Optional Überprüfen der Bereitstellung von Reaktionsgruppen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8b897-102">(Optional) Verify Response Group deployment in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42216451"
 
 <span> </span>
 
-<span data-ttu-id="8b897-103">_**Letztes Änderungsstand des Themas:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="8b897-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="86b4b-103">_**Letztes Änderungsstand des Themas:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="86b4b-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="8b897-104">Nachdem Sie die Reaktionsgruppe konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass Ihre Reaktionsgruppen wie erwartet funktionieren.</span><span class="sxs-lookup"><span data-stu-id="8b897-104">After you configure Response Group, you need to verify the configuration to make sure your response groups work as expected.</span></span> <span data-ttu-id="8b897-105">Führen Sie mindestens eine Überprüfung der folgenden Szenarien mit den folgenden Benutzertypen durch:</span><span class="sxs-lookup"><span data-stu-id="8b897-105">At minimum, verify the following scenarios by using the following types of users:</span></span>
+<span data-ttu-id="86b4b-104">Nachdem Sie die Reaktionsgruppe konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass Ihre Reaktionsgruppen wie erwartet funktionieren.</span><span class="sxs-lookup"><span data-stu-id="86b4b-104">After you configure Response Group, you need to verify the configuration to make sure your response groups work as expected.</span></span> <span data-ttu-id="86b4b-105">Führen Sie mindestens eine Überprüfung der folgenden Szenarien mit den folgenden Benutzertypen durch:</span><span class="sxs-lookup"><span data-stu-id="86b4b-105">At minimum, verify the following scenarios by using the following types of users:</span></span>
 
-<span data-ttu-id="8b897-106">**Benutzer**</span><span class="sxs-lookup"><span data-stu-id="8b897-106">**Users**</span></span>
+<span data-ttu-id="86b4b-106">**Benutzer**</span><span class="sxs-lookup"><span data-stu-id="86b4b-106">**Users**</span></span>
 
-  - <span data-ttu-id="8b897-107">Ein Benutzer, der in lync Server 2013 verwaltet wird</span><span class="sxs-lookup"><span data-stu-id="8b897-107">A user who is homed on Lync Server 2013</span></span>
+  - <span data-ttu-id="86b4b-107">Ein Benutzer, der in lync Server 2013 verwaltet wird</span><span class="sxs-lookup"><span data-stu-id="86b4b-107">A user who is homed on Lync Server 2013</span></span>
 
-  - <span data-ttu-id="8b897-108">Ein externer Benutzer, der das Telefonfestnetz (Public Switched Telephone Network, PSTN) verwendet</span><span class="sxs-lookup"><span data-stu-id="8b897-108">An external user who uses the public switched telephone network (PSTN)</span></span>
+  - <span data-ttu-id="86b4b-108">Ein externer Benutzer, der das Telefonfestnetz (Public Switched Telephone Network, PSTN) verwendet</span><span class="sxs-lookup"><span data-stu-id="86b4b-108">An external user who uses the public switched telephone network (PSTN)</span></span>
 
-  - <span data-ttu-id="8b897-109">Ein Agent, der in lync Server 2013 verwaltet wird</span><span class="sxs-lookup"><span data-stu-id="8b897-109">An agent who is homed on Lync Server 2013</span></span>
+  - <span data-ttu-id="86b4b-109">Ein Agent, der in lync Server 2013 verwaltet wird</span><span class="sxs-lookup"><span data-stu-id="86b4b-109">An agent who is homed on Lync Server 2013</span></span>
 
-<span data-ttu-id="8b897-110">**Scenarios**</span><span class="sxs-lookup"><span data-stu-id="8b897-110">**Scenarios**</span></span>
+<span data-ttu-id="86b4b-110">**Scenarios**</span><span class="sxs-lookup"><span data-stu-id="86b4b-110">**Scenarios**</span></span>
 
-  - <span data-ttu-id="8b897-111">Der lync Server 2013 Benutzer ruft die Reaktionsgruppe an.</span><span class="sxs-lookup"><span data-stu-id="8b897-111">The Lync Server 2013 user calls the response group.</span></span>
+  - <span data-ttu-id="86b4b-111">Der lync Server 2013 Benutzer ruft die Reaktionsgruppe an.</span><span class="sxs-lookup"><span data-stu-id="86b4b-111">The Lync Server 2013 user calls the response group.</span></span>
 
-  - <span data-ttu-id="8b897-112">Der externe Benutzer ruft die Reaktionsgruppe an.</span><span class="sxs-lookup"><span data-stu-id="8b897-112">The external user calls the response group.</span></span>
+  - <span data-ttu-id="86b4b-112">Der externe Benutzer ruft die Reaktionsgruppe an.</span><span class="sxs-lookup"><span data-stu-id="86b4b-112">The external user calls the response group.</span></span>
 
-  - <span data-ttu-id="8b897-113">Ein Benutzer ruft die Reaktionsgruppe an, während der Agent sich in einem Gespräch befindet; der Benutzer wird in der Warteschleife platziert.</span><span class="sxs-lookup"><span data-stu-id="8b897-113">A user calls the response group while the agent is on another call and goes to the queue.</span></span>
+  - <span data-ttu-id="86b4b-113">Ein Benutzer ruft die Reaktionsgruppe an, während der Agent sich in einem Gespräch befindet; der Benutzer wird in der Warteschleife platziert.</span><span class="sxs-lookup"><span data-stu-id="86b4b-113">A user calls the response group while the agent is on another call and goes to the queue.</span></span>
 
 </div>
 
