@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: synthetische Transaktionen werden ausgeführt'
+description: 'Lync Server 2013: synthetische Transaktionen werden ausgeführt.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969593
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 297e1ee6416fb534791a2459e10acaa87f86e205
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 26b0c26024f361dac196319eaf849c1847033cc9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511092"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569351"
 ---
-# <a name="running-synthetic-transactions-in-lync-server-2013"></a><span data-ttu-id="da922-102">Durchführen synthetischer Transaktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da922-102">Running synthetic transactions in Lync Server 2013</span></span>
+# <a name="running-synthetic-transactions-in-lync-server-2013"></a><span data-ttu-id="fc907-103">Durchführen synthetischer Transaktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc907-103">Running synthetic transactions in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48511092"
 
 <span> </span>
 
-<span data-ttu-id="da922-103">_**Letztes Änderungsstand des Themas:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="da922-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="fc907-104">_**Letztes Änderungsstand des Themas:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="fc907-104">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="da922-104">Synthetische Transaktionen werden in der Regel auf zwei Arten ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="da922-104">Synthetic transactions are typically conducted in two ways.</span></span> <span data-ttu-id="da922-105">Sie können die CsHealthMonitoringConfiguration-Cmdlets verwenden, um Testbenutzer für jeden Ihrer Registrierungsstellen Pools einzurichten.</span><span class="sxs-lookup"><span data-stu-id="da922-105">You can use the CsHealthMonitoringConfiguration cmdlets to set up test users for each of their Registrar pools.</span></span> <span data-ttu-id="da922-106">Bei diesen Testbenutzern handelt es sich um ein paar von Benutzern, die für die Verwendung mit synthetischen Transaktionen vorkonfiguriert wurden.</span><span class="sxs-lookup"><span data-stu-id="da922-106">These test users are a pair of users who were preconfigured for use with synthetic transactions.</span></span> <span data-ttu-id="da922-107">(In der Regel handelt es sich um Testkonten und nicht um Konten, die tatsächlichen Benutzern angehören.) Mit Testbenutzern, die für einen Pool konfiguriert sind, können Sie eine synthetische Transaktion für diesen Pool ausführen, ohne die Identitäten von (und die Anmeldeinformationen für) der an dem Test beteiligten Benutzerkonten anzugeben.</span><span class="sxs-lookup"><span data-stu-id="da922-107">(Typically these are test accounts and not accounts that belong to actual users.) With test users configured for a pool, you can run a synthetic transaction against that pool without having to specify the identities of (and supply the credentials for) the user accounts involved in the test.</span></span>
+<span data-ttu-id="fc907-105">Synthetische Transaktionen werden in der Regel auf zwei Arten ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="fc907-105">Synthetic transactions are typically conducted in two ways.</span></span> <span data-ttu-id="fc907-106">Sie können die CsHealthMonitoringConfiguration-Cmdlets verwenden, um Testbenutzer für jeden Ihrer Registrierungsstellen Pools einzurichten.</span><span class="sxs-lookup"><span data-stu-id="fc907-106">You can use the CsHealthMonitoringConfiguration cmdlets to set up test users for each of their Registrar pools.</span></span> <span data-ttu-id="fc907-107">Bei diesen Testbenutzern handelt es sich um ein paar von Benutzern, die für die Verwendung mit synthetischen Transaktionen vorkonfiguriert wurden.</span><span class="sxs-lookup"><span data-stu-id="fc907-107">These test users are a pair of users who were preconfigured for use with synthetic transactions.</span></span> <span data-ttu-id="fc907-108">(In der Regel handelt es sich um Testkonten und nicht um Konten, die tatsächlichen Benutzern angehören.) Mit Testbenutzern, die für einen Pool konfiguriert sind, können Sie eine synthetische Transaktion für diesen Pool ausführen, ohne die Identitäten von (und die Anmeldeinformationen für) der an dem Test beteiligten Benutzerkonten anzugeben.</span><span class="sxs-lookup"><span data-stu-id="fc907-108">(Typically these are test accounts and not accounts that belong to actual users.) With test users configured for a pool, you can run a synthetic transaction against that pool without having to specify the identities of (and supply the credentials for) the user accounts involved in the test.</span></span>
 
-<span data-ttu-id="da922-108">Oder Sie können eine synthetische Transaktion mithilfe von tatsächlichen Benutzerkonten ausführen.</span><span class="sxs-lookup"><span data-stu-id="da922-108">Or, you can run a synthetic transaction by using actual user accounts.</span></span> <span data-ttu-id="da922-109">Wenn beispielsweise zwei Benutzer keine Chatnachrichten austauschen können, können Sie eine synthetische Transaktion mit diesen beiden Benutzerkonten (anstelle eines paar Testkonten) ausführen und dann versuchen, das Problem zu diagnostizieren und zu beheben.</span><span class="sxs-lookup"><span data-stu-id="da922-109">For example, if two users cannot exchange instant messages, you could run a synthetic transaction using those two user accounts (instead of a pair of test accounts), and then try to diagnose and resolve the issue.</span></span> <span data-ttu-id="da922-110">Wenn Sie eine synthetische Transaktion mithilfe von tatsächlichen Benutzerkonten durchführen möchten, müssen Sie die Anmeldenamen und Kennwörter für jeden Benutzer angeben.</span><span class="sxs-lookup"><span data-stu-id="da922-110">If you decide to conduct a synthetic transaction using actual user accounts, you must supply the logon names and passwords for each user.</span></span>
+<span data-ttu-id="fc907-109">Oder Sie können eine synthetische Transaktion mithilfe von tatsächlichen Benutzerkonten ausführen.</span><span class="sxs-lookup"><span data-stu-id="fc907-109">Or, you can run a synthetic transaction by using actual user accounts.</span></span> <span data-ttu-id="fc907-110">Wenn beispielsweise zwei Benutzer keine Chatnachrichten austauschen können, können Sie eine synthetische Transaktion mit diesen beiden Benutzerkonten (anstelle eines paar Testkonten) ausführen und dann versuchen, das Problem zu diagnostizieren und zu beheben.</span><span class="sxs-lookup"><span data-stu-id="fc907-110">For example, if two users cannot exchange instant messages, you could run a synthetic transaction using those two user accounts (instead of a pair of test accounts), and then try to diagnose and resolve the issue.</span></span> <span data-ttu-id="fc907-111">Wenn Sie eine synthetische Transaktion mithilfe von tatsächlichen Benutzerkonten durchführen möchten, müssen Sie die Anmeldenamen und Kennwörter für jeden Benutzer angeben.</span><span class="sxs-lookup"><span data-stu-id="fc907-111">If you decide to conduct a synthetic transaction using actual user accounts, you must supply the logon names and passwords for each user.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="da922-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="da922-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc907-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="fc907-112">See Also</span></span>
 
 
-[<span data-ttu-id="da922-112">Konfigurieren von Testbenutzern und Konfigurationseinstellungen für Watcher-Knoten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da922-112">Configuring watcher node test users and configuration settings in Lync Server 2013</span></span>](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
-[<span data-ttu-id="da922-113">Spezielle Einrichtungsanweisungen für synthetische Transaktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da922-113">Special setup instructions for synthetic transactions in Lync Server 2013</span></span>](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
+[<span data-ttu-id="fc907-113">Konfigurieren von Testbenutzern und Konfigurationseinstellungen für Watcher-Knoten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc907-113">Configuring watcher node test users and configuration settings in Lync Server 2013</span></span>](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
+[<span data-ttu-id="fc907-114">Spezielle Einrichtungsanweisungen für synthetische Transaktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc907-114">Special setup instructions for synthetic transactions in Lync Server 2013</span></span>](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
   
 
 </div>

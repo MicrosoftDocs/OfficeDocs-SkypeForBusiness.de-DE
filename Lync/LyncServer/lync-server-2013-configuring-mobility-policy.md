@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren der Mobilitätsrichtlinie'
+description: 'Lync Server 2013: Konfigurieren der Mobilitätsrichtlinie.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91f54f701d46f9b3e6e8f268612d7dc555b2716d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dbbf7f9db54c8436f2db24d593dbd7a1372d5e00
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512762"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570001"
 ---
-# <a name="configuring-mobility-policy-in-lync-server-2013"></a><span data-ttu-id="27760-102">Konfigurieren von mobilitätsrichtlinien in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27760-102">Configuring mobility policy in Lync Server 2013</span></span>
+# <a name="configuring-mobility-policy-in-lync-server-2013"></a><span data-ttu-id="2022d-103">Konfigurieren von mobilitätsrichtlinien in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2022d-103">Configuring mobility policy in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,49 +38,49 @@ ms.locfileid: "48512762"
 
 <span> </span>
 
-<span data-ttu-id="27760-103">_**Letztes Änderungsstand des Themas:** 2013-02-13_</span><span class="sxs-lookup"><span data-stu-id="27760-103">_**Topic Last Modified:** 2013-02-13_</span></span>
+<span data-ttu-id="2022d-104">_**Letztes Änderungsstand des Themas:** 2013-02-13_</span><span class="sxs-lookup"><span data-stu-id="2022d-104">_**Topic Last Modified:** 2013-02-13_</span></span>
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-<span data-ttu-id="27760-104">Lync Server 2013 bietet mobilitätsrichtlinien, die festlegen, wer Mobilitätsfunktionen nutzen, über Arbeit anrufen, VoIP (Voice over IP) oder Video verwenden kann und ob WLAN für VoIP oder Video erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="27760-104">Lync Server 2013 provides mobility policies that determine who can use mobility features, Call via Work, voice over IP (VoIP) or video, and whether WiFi will be required for either VoIP or video.</span></span> <span data-ttu-id="27760-105">Das Feature "Anruf über Arbeit" ermöglicht einem mobilen Benutzer das tätigen und annehmen von Anrufen auf einem Mobiltelefon mithilfe einer geschäftlichen Telefonnummer anstelle der Mobiltelefonnummer.</span><span class="sxs-lookup"><span data-stu-id="27760-105">The Call via Work feature enables a mobile user to make and receive calls on a mobile phone by using a work phone number instead of the mobile phone number.</span></span> <span data-ttu-id="27760-106">Dieses Feature verhindert, dass die angerufene Person die Mobiltelefonnummer des Anrufers sieht und einem Benutzer die Möglichkeit gibt, ausgehende Gebühren zu vermeiden.</span><span class="sxs-lookup"><span data-stu-id="27760-106">This feature prevents the called party from seeing the caller's mobile phone number and enables a user to avoid outbound calling charges.</span></span> <span data-ttu-id="27760-107">Durch die Konfiguration von VoIP und Video können Benutzer VoIP-Anrufe und Videos empfangen und tätigen.</span><span class="sxs-lookup"><span data-stu-id="27760-107">Configuring VoIP and video makes it possible for users to receive and make VoIP calls and video.</span></span> <span data-ttu-id="27760-108">Einstellungen für die WLAN-Nutzung definieren, ob das Gerät eines Benutzers ein WLAN-Netzwerk über ein Mobilfunknetz verwenden muss.</span><span class="sxs-lookup"><span data-stu-id="27760-108">Settings for WiFi usage define if a user’s device will be required to use a WiFi network over a cellular data network.</span></span>
+<span data-ttu-id="2022d-105">Lync Server 2013 bietet mobilitätsrichtlinien, die festlegen, wer Mobilitätsfunktionen nutzen, über Arbeit anrufen, VoIP (Voice over IP) oder Video verwenden kann und ob WLAN für VoIP oder Video erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="2022d-105">Lync Server 2013 provides mobility policies that determine who can use mobility features, Call via Work, voice over IP (VoIP) or video, and whether WiFi will be required for either VoIP or video.</span></span> <span data-ttu-id="2022d-106">Das Feature "Anruf über Arbeit" ermöglicht einem mobilen Benutzer das tätigen und annehmen von Anrufen auf einem Mobiltelefon mithilfe einer geschäftlichen Telefonnummer anstelle der Mobiltelefonnummer.</span><span class="sxs-lookup"><span data-stu-id="2022d-106">The Call via Work feature enables a mobile user to make and receive calls on a mobile phone by using a work phone number instead of the mobile phone number.</span></span> <span data-ttu-id="2022d-107">Dieses Feature verhindert, dass die angerufene Person die Mobiltelefonnummer des Anrufers sieht und einem Benutzer die Möglichkeit gibt, ausgehende Gebühren zu vermeiden.</span><span class="sxs-lookup"><span data-stu-id="2022d-107">This feature prevents the called party from seeing the caller's mobile phone number and enables a user to avoid outbound calling charges.</span></span> <span data-ttu-id="2022d-108">Durch die Konfiguration von VoIP und Video können Benutzer VoIP-Anrufe und Videos empfangen und tätigen.</span><span class="sxs-lookup"><span data-stu-id="2022d-108">Configuring VoIP and video makes it possible for users to receive and make VoIP calls and video.</span></span> <span data-ttu-id="2022d-109">Einstellungen für die WLAN-Nutzung definieren, ob das Gerät eines Benutzers ein WLAN-Netzwerk über ein Mobilfunknetz verwenden muss.</span><span class="sxs-lookup"><span data-stu-id="2022d-109">Settings for WiFi usage define if a user’s device will be required to use a WiFi network over a cellular data network.</span></span>
 
-<span data-ttu-id="27760-109">Standardmäßig sind Mobilität, Anruf über Arbeit und VoIP-und Videofunktionen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="27760-109">By default, mobility, Call via Work, and the VoIP and video features are enabled.</span></span> <span data-ttu-id="27760-110">Die Einstellungen, die WLAN für VoIP und Video erfordern, sind deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="27760-110">The settings to require WiFi for VoIp and video are disabled.</span></span> <span data-ttu-id="27760-111">Administratoren können durch Ausführen eines Cmdlets bestimmen, wer Zugriff auf diese Features hat.</span><span class="sxs-lookup"><span data-stu-id="27760-111">Administrators can determine who has access to these features by running a cmdlet.</span></span> <span data-ttu-id="27760-112">Sie können die Optionen global, nach Standort oder nach Benutzer deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="27760-112">You can turn options off globally, by site, or by user.</span></span>
+<span data-ttu-id="2022d-110">Standardmäßig sind Mobilität, Anruf über Arbeit und VoIP-und Videofunktionen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="2022d-110">By default, mobility, Call via Work, and the VoIP and video features are enabled.</span></span> <span data-ttu-id="2022d-111">Die Einstellungen, die WLAN für VoIP und Video erfordern, sind deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="2022d-111">The settings to require WiFi for VoIp and video are disabled.</span></span> <span data-ttu-id="2022d-112">Administratoren können durch Ausführen eines Cmdlets bestimmen, wer Zugriff auf diese Features hat.</span><span class="sxs-lookup"><span data-stu-id="2022d-112">Administrators can determine who has access to these features by running a cmdlet.</span></span> <span data-ttu-id="2022d-113">Sie können die Optionen global, nach Standort oder nach Benutzer deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="2022d-113">You can turn options off globally, by site, or by user.</span></span>
 
-<span data-ttu-id="27760-113">Benutzer müssen die beiden folgenden Voraussetzungen erfüllen, um die Mobilitätsfeatures und das Feature "Geschäftlich anrufen" verwenden zu können:</span><span class="sxs-lookup"><span data-stu-id="27760-113">To be able to use mobility features and Call via Work, users must meet the following prerequisites:</span></span>
+<span data-ttu-id="2022d-114">Benutzer müssen die beiden folgenden Voraussetzungen erfüllen, um die Mobilitätsfeatures und das Feature "Geschäftlich anrufen" verwenden zu können:</span><span class="sxs-lookup"><span data-stu-id="2022d-114">To be able to use mobility features and Call via Work, users must meet the following prerequisites:</span></span>
 
-  - <span data-ttu-id="27760-114">Benutzer müssen für lync Server 2013 aktiviert sein.</span><span class="sxs-lookup"><span data-stu-id="27760-114">Users must be enabled for Lync Server 2013.</span></span>
+  - <span data-ttu-id="2022d-115">Benutzer müssen für lync Server 2013 aktiviert sein.</span><span class="sxs-lookup"><span data-stu-id="2022d-115">Users must be enabled for Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="27760-115">Benutzer müssen für Enterprise-VoIP aktiviert sein.</span><span class="sxs-lookup"><span data-stu-id="27760-115">Users must be enabled for Enterprise Voice.</span></span>
+  - <span data-ttu-id="2022d-116">Benutzer müssen für Enterprise-VoIP aktiviert sein.</span><span class="sxs-lookup"><span data-stu-id="2022d-116">Users must be enabled for Enterprise Voice.</span></span>
 
-  - <span data-ttu-id="27760-116">Benutzern muss eine Mobilitätsrichtlinie zugewiesen sein, für die die Option **EnableMobility** auf TRUE gesetzt ist.</span><span class="sxs-lookup"><span data-stu-id="27760-116">Users must be assigned a mobility policy that has the **EnableMobility** option set to True.</span></span>
+  - <span data-ttu-id="2022d-117">Benutzern muss eine Mobilitätsrichtlinie zugewiesen sein, für die die Option **EnableMobility** auf TRUE gesetzt ist.</span><span class="sxs-lookup"><span data-stu-id="2022d-117">Users must be assigned a mobility policy that has the **EnableMobility** option set to True.</span></span>
 
-<span data-ttu-id="27760-117">Zum Verwenden des Features Geschäftlich anrufen müssen Benutzer zudem die beiden folgenden Voraussetzungen erfüllen:</span><span class="sxs-lookup"><span data-stu-id="27760-117">For users to be able to use Call via Work, they must meet the following two additional prerequisites:</span></span>
+<span data-ttu-id="2022d-118">Zum Verwenden des Features Geschäftlich anrufen müssen Benutzer zudem die beiden folgenden Voraussetzungen erfüllen:</span><span class="sxs-lookup"><span data-stu-id="2022d-118">For users to be able to use Call via Work, they must meet the following two additional prerequisites:</span></span>
 
-  - <span data-ttu-id="27760-118">Benutzern muss eine VoIP-Richtlinie zugewiesen sein, für die die Option **Gleichzeitiges Klingeln von Telefonen aktivieren** aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="27760-118">Users must be assigned a voice policy that has the **Enable simultaneous ringing of phones** option selected.</span></span>
+  - <span data-ttu-id="2022d-119">Benutzern muss eine VoIP-Richtlinie zugewiesen sein, für die die Option **Gleichzeitiges Klingeln von Telefonen aktivieren** aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="2022d-119">Users must be assigned a voice policy that has the **Enable simultaneous ringing of phones** option selected.</span></span>
 
-  - <span data-ttu-id="27760-119">Benutzern muss eine Mobilitätsrichtlinie mit der Option **EnableOutsideVoice** und dem Wert "True" zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="27760-119">Users must be assigned a mobility policy that has the **EnableOutsideVoice** option set to True.</span></span>
+  - <span data-ttu-id="2022d-120">Benutzern muss eine Mobilitätsrichtlinie mit der Option **EnableOutsideVoice** und dem Wert "True" zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="2022d-120">Users must be assigned a mobility policy that has the **EnableOutsideVoice** option set to True.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="27760-120">Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können mit ihren mobilen Geräten lync-VoIP-Anrufe (Voice over IP) durchführen oder an Konferenzen teilnehmen, indem Sie den Link klicken, um auf Ihren mobilen Geräten zu verbinden, wenn Sie diesen Benutzern die entsprechenden Optionen für die VoIP-Richtlinie zuweisen.</span><span class="sxs-lookup"><span data-stu-id="27760-120">Users who are not enabled for Enterprise Voice can use their mobile devices to make Lync to Lync Voice over IP (VoIP) calls, or can join conferences by using the Click to Join link on their mobile devices, if you assign those users the appropriate options for voice policy.</span></span> <span data-ttu-id="27760-121">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-defining-your-mobility-requirements.md">Definieren Ihrer Mobilitätsanforderungen für lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="27760-121">For details, see <A href="lync-server-2013-defining-your-mobility-requirements.md">Defining your mobility requirements for Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="2022d-121">Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können mit ihren mobilen Geräten lync-VoIP-Anrufe (Voice over IP) durchführen oder an Konferenzen teilnehmen, indem Sie den Link klicken, um auf Ihren mobilen Geräten zu verbinden, wenn Sie diesen Benutzern die entsprechenden Optionen für die VoIP-Richtlinie zuweisen.</span><span class="sxs-lookup"><span data-stu-id="2022d-121">Users who are not enabled for Enterprise Voice can use their mobile devices to make Lync to Lync Voice over IP (VoIP) calls, or can join conferences by using the Click to Join link on their mobile devices, if you assign those users the appropriate options for voice policy.</span></span> <span data-ttu-id="2022d-122">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-defining-your-mobility-requirements.md">Definieren Ihrer Mobilitätsanforderungen für lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="2022d-122">For details, see <A href="lync-server-2013-defining-your-mobility-requirements.md">Defining your mobility requirements for Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="27760-122">Ausführliche Informationen zum Aktivieren von Benutzern für lync Server 2013 finden Sie unter [deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="27760-122">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="27760-123">Ausführliche Informationen zum Aktivieren von Benutzern für Enterprise-VoIP finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span><span class="sxs-lookup"><span data-stu-id="27760-123">For details about enabling users for Enterprise Voice, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span> <span data-ttu-id="27760-124">Ausführliche Informationen zum Festlegen von VoIP-Richtlinienoptionen finden Sie unter [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).</span><span class="sxs-lookup"><span data-stu-id="27760-124">For details about setting voice policy options, see [Modify a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).</span></span>
+<span data-ttu-id="2022d-123">Ausführliche Informationen zum Aktivieren von Benutzern für lync Server 2013 finden Sie unter [deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="2022d-123">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="2022d-124">Ausführliche Informationen zum Aktivieren von Benutzern für Enterprise-VoIP finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span><span class="sxs-lookup"><span data-stu-id="2022d-124">For details about enabling users for Enterprise Voice, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span> <span data-ttu-id="2022d-125">Ausführliche Informationen zum Festlegen von VoIP-Richtlinienoptionen finden Sie unter [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).</span><span class="sxs-lookup"><span data-stu-id="2022d-125">For details about setting voice policy options, see [Modify a voice policy and configure PSTN usage records in Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md).</span></span>
 
 <div>
 
-## <a name="to-modify-global-mobility-policy"></a><span data-ttu-id="27760-125">So ändern Sie die globale Mobilitätsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="27760-125">To modify global mobility policy</span></span>
+## <a name="to-modify-global-mobility-policy"></a><span data-ttu-id="2022d-126">So ändern Sie die globale Mobilitätsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="2022d-126">To modify global mobility policy</span></span>
 
-1.  <span data-ttu-id="27760-126">Melden Sie sich an einem beliebigen Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="27760-126">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="2022d-127">Melden Sie sich an einem beliebigen Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="2022d-127">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="27760-127">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="27760-127">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="2022d-128">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="2022d-128">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="27760-p105">Deaktivieren Sie den Zugriff auf die Mobilität und Geschäftlich anrufen global. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="27760-p105">Turn off access to mobility and Call via Work globally. At the command line, type:</span></span>
+3.  <span data-ttu-id="2022d-p105">Deaktivieren Sie den Zugriff auf die Mobilität und Geschäftlich anrufen global. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2022d-p105">Turn off access to mobility and Call via Work globally. At the command line, type:</span></span>
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
@@ -87,7 +88,7 @@ ms.locfileid: "48512762"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="27760-p106">Sie können auch nur den Zugriff auf das Feature Geschäftlich anrufen deaktivieren, ohne den Zugriff auf die Mobilität zu deaktivieren. Es ist jedoch nicht möglich, den Zugriff auf die Mobilität deaktivieren, ohne auch den Zugriff auf Geschäftlich anrufen zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="27760-p106">You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.</span></span>
+    > <span data-ttu-id="2022d-p106">Sie können auch nur den Zugriff auf das Feature Geschäftlich anrufen deaktivieren, ohne den Zugriff auf die Mobilität zu deaktivieren. Es ist jedoch nicht möglich, den Zugriff auf die Mobilität deaktivieren, ohne auch den Zugriff auf Geschäftlich anrufen zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="2022d-p106">You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.</span></span>
 
     
     </div>
@@ -96,13 +97,13 @@ ms.locfileid: "48512762"
 
 <div>
 
-## <a name="to-modify-mobility-policy-by-site"></a><span data-ttu-id="27760-132">So ändern Sie die Mobilitätsrichtlinie nach Standort</span><span class="sxs-lookup"><span data-stu-id="27760-132">To modify mobility policy by site</span></span>
+## <a name="to-modify-mobility-policy-by-site"></a><span data-ttu-id="2022d-133">So ändern Sie die Mobilitätsrichtlinie nach Standort</span><span class="sxs-lookup"><span data-stu-id="2022d-133">To modify mobility policy by site</span></span>
 
-1.  <span data-ttu-id="27760-133">Melden Sie sich an einem beliebigen Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="27760-133">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="2022d-134">Melden Sie sich an einem beliebigen Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="2022d-134">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="27760-134">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="27760-134">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="2022d-135">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="2022d-135">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="27760-135">Erstellen Sie eine Richtlinie auf Standortebene, und schalten Sie VoIP und Video aus, und aktivieren Sie WLAN für IP-Audio und IP-Video nach Standort.</span><span class="sxs-lookup"><span data-stu-id="27760-135">Create a site-level policy, and turn off VoIP and video, and enable Require WiFi for IP Audio and for IP Video by site.</span></span> <span data-ttu-id="27760-136">Geben Sie in die Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="27760-136">At the command line, type:</span></span>
+3.  <span data-ttu-id="2022d-136">Erstellen Sie eine Richtlinie auf Standortebene, und schalten Sie VoIP und Video aus, und aktivieren Sie WLAN für IP-Audio und IP-Video nach Standort.</span><span class="sxs-lookup"><span data-stu-id="2022d-136">Create a site-level policy, and turn off VoIP and video, and enable Require WiFi for IP Audio and for IP Video by site.</span></span> <span data-ttu-id="2022d-137">Geben Sie in die Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2022d-137">At the command line, type:</span></span>
     
         New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $False -RequireWiFiForIPAudio $True -RequireWiFiForIPVideo $True
 
@@ -110,20 +111,20 @@ ms.locfileid: "48512762"
 
 <div>
 
-## <a name="to-modify-mobility-policy-by-user"></a><span data-ttu-id="27760-137">So ändern Sie die Mobilitätsrichtlinie nach Benutzer</span><span class="sxs-lookup"><span data-stu-id="27760-137">To modify mobility policy by user</span></span>
+## <a name="to-modify-mobility-policy-by-user"></a><span data-ttu-id="2022d-138">So ändern Sie die Mobilitätsrichtlinie nach Benutzer</span><span class="sxs-lookup"><span data-stu-id="2022d-138">To modify mobility policy by user</span></span>
 
-1.  <span data-ttu-id="27760-138">Melden Sie sich an einem beliebigen Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="27760-138">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="2022d-139">Melden Sie sich an einem beliebigen Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="2022d-139">Log on to any computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="27760-139">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="27760-139">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="2022d-140">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="2022d-140">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="27760-p108">Erstellen Sie Mobilitätsrichtlinien auf Benutzerebene, und deaktivieren Sie den Zugriff auf die Mobilität und Geschäftlich anrufen nach Benutzer. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="27760-p108">Create user level mobility policies and turn off mobility and Call via Work by user. At the command line, type:</span></span>
+3.  <span data-ttu-id="2022d-p108">Erstellen Sie Mobilitätsrichtlinien auf Benutzerebene, und deaktivieren Sie den Zugriff auf die Mobilität und Geschäftlich anrufen nach Benutzer. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2022d-p108">Create user level mobility policies and turn off mobility and Call via Work by user. At the command line, type:</span></span>
     
         New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
     
-    <span data-ttu-id="27760-p109">Sie können auch nur den Zugriff auf das Feature Geschäftlich anrufen deaktivieren, ohne den Zugriff auf die Mobilität zu deaktivieren. Es ist jedoch nicht möglich, den Zugriff auf die Mobilität deaktivieren, ohne auch den Zugriff auf Geschäftlich anrufen zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="27760-p109">You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.</span></span>
+    <span data-ttu-id="2022d-p109">Sie können auch nur den Zugriff auf das Feature Geschäftlich anrufen deaktivieren, ohne den Zugriff auf die Mobilität zu deaktivieren. Es ist jedoch nicht möglich, den Zugriff auf die Mobilität deaktivieren, ohne auch den Zugriff auf Geschäftlich anrufen zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="2022d-p109">You can turn off Call via Work without turning off access to mobility. However, you cannot turn off mobility without also turning off Call via Work.</span></span>
     
-    <span data-ttu-id="27760-144">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="27760-144">For example:</span></span>
+    <span data-ttu-id="2022d-145">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="2022d-145">For example:</span></span>
     
         New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity -MobileUser1@contoso.com -PolicyName Tag:disableOutsideVoice
@@ -132,22 +133,22 @@ ms.locfileid: "48512762"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="27760-145">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="27760-145">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2022d-146">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="2022d-146">See Also</span></span>
 
 
-[<span data-ttu-id="27760-146">Deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27760-146">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[<span data-ttu-id="27760-147">Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27760-147">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
-[<span data-ttu-id="27760-148">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27760-148">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[<span data-ttu-id="2022d-147">Deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2022d-147">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[<span data-ttu-id="2022d-148">Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2022d-148">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[<span data-ttu-id="2022d-149">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2022d-149">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
 
 
-[<span data-ttu-id="27760-149">Definieren der Mobilitätsanforderungen für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="27760-149">Defining your mobility requirements for Lync Server 2013</span></span>](lync-server-2013-defining-your-mobility-requirements.md)  
+[<span data-ttu-id="2022d-150">Definieren der Mobilitätsanforderungen für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2022d-150">Defining your mobility requirements for Lync Server 2013</span></span>](lync-server-2013-defining-your-mobility-requirements.md)  
 
 
-[<span data-ttu-id="27760-150">New-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="27760-150">New-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
-[<span data-ttu-id="27760-151">Gruppe-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="27760-151">Set-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
-[<span data-ttu-id="27760-152">Get-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="27760-152">Get-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
-[<span data-ttu-id="27760-153">Grant-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="27760-153">Grant-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
-[<span data-ttu-id="27760-154">Remove-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="27760-154">Remove-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
+[<span data-ttu-id="2022d-151">New-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="2022d-151">New-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
+[<span data-ttu-id="2022d-152">Gruppe-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="2022d-152">Set-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
+[<span data-ttu-id="2022d-153">Get-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="2022d-153">Get-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
+[<span data-ttu-id="2022d-154">Grant-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="2022d-154">Grant-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
+[<span data-ttu-id="2022d-155">Remove-CsMobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="2022d-155">Remove-CsMobilityPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
   
 
 </div>
