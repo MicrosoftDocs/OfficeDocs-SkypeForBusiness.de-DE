@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von Enterprise-VoIP'
+description: 'Lync Server 2013: Konfigurieren von Enterprise-VoIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 49a231b92bf7b04aa3466927a79258f0cbad4e3f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532552"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548431"
 ---
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="fa35d-102">Konfigurieren von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa35d-102">Configuring Enterprise Voice in Lync Server 2013</span></span>
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="cc793-103">Konfigurieren von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc793-103">Configuring Enterprise Voice in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48532552"
 
 <span> </span>
 
-<span data-ttu-id="fa35d-103">_**Letztes Änderungsstand des Themas:** 2013-03-12_</span><span class="sxs-lookup"><span data-stu-id="fa35d-103">_**Topic Last Modified:** 2013-03-12_</span></span>
+<span data-ttu-id="cc793-104">_**Letztes Änderungsstand des Themas:** 2013-03-12_</span><span class="sxs-lookup"><span data-stu-id="cc793-104">_**Topic Last Modified:** 2013-03-12_</span></span>
 
-<span data-ttu-id="fa35d-104">Um Enterprise-VoIP bereitzustellen, müssen Sie Folgendes konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="fa35d-104">To deploy Enterprise Voice, you’ll need to configure the following:</span></span>
+<span data-ttu-id="cc793-105">Um Enterprise-VoIP bereitzustellen, müssen Sie Folgendes konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="cc793-105">To deploy Enterprise Voice, you’ll need to configure the following:</span></span>
 
-  - <span data-ttu-id="fa35d-105">Erstellen eines Trunks</span><span class="sxs-lookup"><span data-stu-id="fa35d-105">Create a Trunk</span></span>
+  - <span data-ttu-id="cc793-106">Erstellen eines Trunks</span><span class="sxs-lookup"><span data-stu-id="cc793-106">Create a Trunk</span></span>
 
-  - <span data-ttu-id="fa35d-106">Definieren einer VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="fa35d-106">Define a Voice Policy</span></span>
+  - <span data-ttu-id="cc793-107">Definieren einer VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="cc793-107">Define a Voice Policy</span></span>
 
-  - <span data-ttu-id="fa35d-107">Definieren einer VoIP-Route</span><span class="sxs-lookup"><span data-stu-id="fa35d-107">Define a Voice Route</span></span>
+  - <span data-ttu-id="cc793-108">Definieren einer VoIP-Route</span><span class="sxs-lookup"><span data-stu-id="cc793-108">Define a Voice Route</span></span>
 
-  - <span data-ttu-id="fa35d-108">Aktivieren von Benutzern für Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="fa35d-108">Enable Users for Enterprise Voice</span></span>
+  - <span data-ttu-id="cc793-109">Aktivieren von Benutzern für Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="cc793-109">Enable Users for Enterprise Voice</span></span>
 
 <div>
 
-## <a name="create-a-trunk"></a><span data-ttu-id="fa35d-109">Erstellen eines Trunks</span><span class="sxs-lookup"><span data-stu-id="fa35d-109">Create a Trunk</span></span>
+## <a name="create-a-trunk"></a><span data-ttu-id="cc793-110">Erstellen eines Trunks</span><span class="sxs-lookup"><span data-stu-id="cc793-110">Create a Trunk</span></span>
 
-<span data-ttu-id="fa35d-110">Sie müssen Trunks in Ihrer Enterprise-VoIP-Bereitstellung definieren.</span><span class="sxs-lookup"><span data-stu-id="fa35d-110">You must define trunks in your Enterprise Voice deployment.</span></span> <span data-ttu-id="fa35d-111">Für Location-Based Routing müssen Sie eine trunkkonfiguration pro trunk erstellen.</span><span class="sxs-lookup"><span data-stu-id="fa35d-111">For Location-Based Routing, you must create a trunk configuration per trunk.</span></span> <span data-ttu-id="fa35d-112">Verwenden Sie den lync Server Topologie-Generator, um Ihre Trunks zu definieren, und verwenden Sie den lync Server Windows PowerShell-Befehl, New-CsTrunkConfiguration oder den lync Server-Systemsteuerung, um die entsprechenden Trunk Konfigurationen zu definieren.</span><span class="sxs-lookup"><span data-stu-id="fa35d-112">Use the Lync Server Topology Builder to define your trunks, and use the Lync Server Windows PowerShell command, New-CsTrunkConfiguration, or the Lync Server Control Panel to define the corresponding trunk configurations.</span></span> <span data-ttu-id="fa35d-113">Weitere Informationen zum Aktivieren des Location-Based Routings auf Trunk Konfigurationen finden Sie im Abschnitt enable Location-Based Routing to Trunks, in dem Thema Aktivieren von [Location-Based Routing in lync Server 2013](lync-server-2013-enabling-location-based-routing.md).</span><span class="sxs-lookup"><span data-stu-id="fa35d-113">More information on how to enable Location-Based Routing on trunk configurations can be found in the section, Enable Location-Based Routing to Trunks, in the topic, [Enabling Location-Based Routing in Lync Server 2013](lync-server-2013-enabling-location-based-routing.md).</span></span> <span data-ttu-id="fa35d-114">In diesem Beispiel werden in der folgenden Tabelle die Trunks dargestellt, die in diesem Szenario verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="fa35d-114">For this example, the following table illustrates the trunks used in this scenario.</span></span>
+<span data-ttu-id="cc793-111">Sie müssen Trunks in Ihrer Enterprise-VoIP-Bereitstellung definieren.</span><span class="sxs-lookup"><span data-stu-id="cc793-111">You must define trunks in your Enterprise Voice deployment.</span></span> <span data-ttu-id="cc793-112">Für Location-Based Routing müssen Sie eine trunkkonfiguration pro trunk erstellen.</span><span class="sxs-lookup"><span data-stu-id="cc793-112">For Location-Based Routing, you must create a trunk configuration per trunk.</span></span> <span data-ttu-id="cc793-113">Verwenden Sie den lync Server Topologie-Generator, um Ihre Trunks zu definieren, und verwenden Sie den lync Server Windows PowerShell-Befehl, New-CsTrunkConfiguration oder den lync Server-Systemsteuerung, um die entsprechenden Trunk Konfigurationen zu definieren.</span><span class="sxs-lookup"><span data-stu-id="cc793-113">Use the Lync Server Topology Builder to define your trunks, and use the Lync Server Windows PowerShell command, New-CsTrunkConfiguration, or the Lync Server Control Panel to define the corresponding trunk configurations.</span></span> <span data-ttu-id="cc793-114">Weitere Informationen zum Aktivieren des Location-Based Routings auf Trunk Konfigurationen finden Sie im Abschnitt enable Location-Based Routing to Trunks, in dem Thema Aktivieren von [Location-Based Routing in lync Server 2013](lync-server-2013-enabling-location-based-routing.md).</span><span class="sxs-lookup"><span data-stu-id="cc793-114">More information on how to enable Location-Based Routing on trunk configurations can be found in the section, Enable Location-Based Routing to Trunks, in the topic, [Enabling Location-Based Routing in Lync Server 2013](lync-server-2013-enabling-location-based-routing.md).</span></span> <span data-ttu-id="cc793-115">In diesem Beispiel werden in der folgenden Tabelle die Trunks dargestellt, die in diesem Szenario verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="cc793-115">For this example, the following table illustrates the trunks used in this scenario.</span></span>
 
-<span data-ttu-id="fa35d-115">Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topologie-Generator in lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).</span><span class="sxs-lookup"><span data-stu-id="fa35d-115">For more information, see [Define additional trunks in Topology Builder in Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).</span></span>
+<span data-ttu-id="cc793-116">Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topologie-Generator in lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).</span><span class="sxs-lookup"><span data-stu-id="cc793-116">For more information, see [Define additional trunks in Topology Builder in Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).</span></span>
 
 
 <table>
@@ -68,41 +69,41 @@ ms.locfileid: "48532552"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fa35d-116">Trunk Name</span><span class="sxs-lookup"><span data-stu-id="fa35d-116">Trunk name</span></span></th>
-<th><span data-ttu-id="fa35d-117">Systemtyp</span><span class="sxs-lookup"><span data-stu-id="fa35d-117">System type</span></span></th>
-<th><span data-ttu-id="fa35d-118">Name</span><span class="sxs-lookup"><span data-stu-id="fa35d-118">Name</span></span></th>
-<th><span data-ttu-id="fa35d-119">Standort</span><span class="sxs-lookup"><span data-stu-id="fa35d-119">Location</span></span></th>
-<th><span data-ttu-id="fa35d-120">Vermittlungsserver</span><span class="sxs-lookup"><span data-stu-id="fa35d-120">Mediation Server</span></span></th>
+<th><span data-ttu-id="cc793-117">Trunk Name</span><span class="sxs-lookup"><span data-stu-id="cc793-117">Trunk name</span></span></th>
+<th><span data-ttu-id="cc793-118">Systemtyp</span><span class="sxs-lookup"><span data-stu-id="cc793-118">System type</span></span></th>
+<th><span data-ttu-id="cc793-119">Name</span><span class="sxs-lookup"><span data-stu-id="cc793-119">Name</span></span></th>
+<th><span data-ttu-id="cc793-120">Standort</span><span class="sxs-lookup"><span data-stu-id="cc793-120">Location</span></span></th>
+<th><span data-ttu-id="cc793-121">Vermittlungsserver</span><span class="sxs-lookup"><span data-stu-id="cc793-121">Mediation Server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fa35d-121">Trunk 1 del-GW</span><span class="sxs-lookup"><span data-stu-id="fa35d-121">Trunk 1 DEL-GW</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-122">PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="fa35d-122">PSTN gateway</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-123">DEL-GW</span><span class="sxs-lookup"><span data-stu-id="fa35d-123">DEL-GW</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-124">Delhi</span><span class="sxs-lookup"><span data-stu-id="fa35d-124">Delhi</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-125">MS1</span><span class="sxs-lookup"><span data-stu-id="fa35d-125">MS1</span></span></p></td>
+<td><p><span data-ttu-id="cc793-122">Trunk 1 del-GW</span><span class="sxs-lookup"><span data-stu-id="cc793-122">Trunk 1 DEL-GW</span></span></p></td>
+<td><p><span data-ttu-id="cc793-123">PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="cc793-123">PSTN gateway</span></span></p></td>
+<td><p><span data-ttu-id="cc793-124">DEL-GW</span><span class="sxs-lookup"><span data-stu-id="cc793-124">DEL-GW</span></span></p></td>
+<td><p><span data-ttu-id="cc793-125">Delhi</span><span class="sxs-lookup"><span data-stu-id="cc793-125">Delhi</span></span></p></td>
+<td><p><span data-ttu-id="cc793-126">MS1</span><span class="sxs-lookup"><span data-stu-id="cc793-126">MS1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa35d-126">Trunk 2 Hyd-GW</span><span class="sxs-lookup"><span data-stu-id="fa35d-126">Trunk 2 HYD-GW</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-127">PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="fa35d-127">PSTN gateway</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-128">Hyd-GW</span><span class="sxs-lookup"><span data-stu-id="fa35d-128">HYD-GW</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-129">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="fa35d-129">Hyderabad</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-130">MS1</span><span class="sxs-lookup"><span data-stu-id="fa35d-130">MS1</span></span></p></td>
+<td><p><span data-ttu-id="cc793-127">Trunk 2 Hyd-GW</span><span class="sxs-lookup"><span data-stu-id="cc793-127">Trunk 2 HYD-GW</span></span></p></td>
+<td><p><span data-ttu-id="cc793-128">PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="cc793-128">PSTN gateway</span></span></p></td>
+<td><p><span data-ttu-id="cc793-129">Hyd-GW</span><span class="sxs-lookup"><span data-stu-id="cc793-129">HYD-GW</span></span></p></td>
+<td><p><span data-ttu-id="cc793-130">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="cc793-130">Hyderabad</span></span></p></td>
+<td><p><span data-ttu-id="cc793-131">MS1</span><span class="sxs-lookup"><span data-stu-id="cc793-131">MS1</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa35d-131">Trunk 3 del-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="fa35d-131">Trunk 3 DEL-PBX</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-132">PBX</span><span class="sxs-lookup"><span data-stu-id="fa35d-132">PBX</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-133">DEL-PBX</span><span class="sxs-lookup"><span data-stu-id="fa35d-133">DEL-PBX</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-134">Delhi</span><span class="sxs-lookup"><span data-stu-id="fa35d-134">Delhi</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-135">MS1</span><span class="sxs-lookup"><span data-stu-id="fa35d-135">MS1</span></span></p></td>
+<td><p><span data-ttu-id="cc793-132">Trunk 3 del-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="cc793-132">Trunk 3 DEL-PBX</span></span></p></td>
+<td><p><span data-ttu-id="cc793-133">PBX</span><span class="sxs-lookup"><span data-stu-id="cc793-133">PBX</span></span></p></td>
+<td><p><span data-ttu-id="cc793-134">DEL-PBX</span><span class="sxs-lookup"><span data-stu-id="cc793-134">DEL-PBX</span></span></p></td>
+<td><p><span data-ttu-id="cc793-135">Delhi</span><span class="sxs-lookup"><span data-stu-id="cc793-135">Delhi</span></span></p></td>
+<td><p><span data-ttu-id="cc793-136">MS1</span><span class="sxs-lookup"><span data-stu-id="cc793-136">MS1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa35d-136">Trunk 4 Hyd-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="fa35d-136">Trunk 4 HYD-PBX</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-137">PBX</span><span class="sxs-lookup"><span data-stu-id="fa35d-137">PBX</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-138">Hyd-PBX</span><span class="sxs-lookup"><span data-stu-id="fa35d-138">HYD-PBX</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-139">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="fa35d-139">Hyderabad</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-140">MS1</span><span class="sxs-lookup"><span data-stu-id="fa35d-140">MS1</span></span></p></td>
+<td><p><span data-ttu-id="cc793-137">Trunk 4 Hyd-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="cc793-137">Trunk 4 HYD-PBX</span></span></p></td>
+<td><p><span data-ttu-id="cc793-138">PBX</span><span class="sxs-lookup"><span data-stu-id="cc793-138">PBX</span></span></p></td>
+<td><p><span data-ttu-id="cc793-139">Hyd-PBX</span><span class="sxs-lookup"><span data-stu-id="cc793-139">HYD-PBX</span></span></p></td>
+<td><p><span data-ttu-id="cc793-140">Hyderabad</span><span class="sxs-lookup"><span data-stu-id="cc793-140">Hyderabad</span></span></p></td>
+<td><p><span data-ttu-id="cc793-141">MS1</span><span class="sxs-lookup"><span data-stu-id="cc793-141">MS1</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -117,119 +118,11 @@ ms.locfileid: "48532552"
 
 <div>
 
-## <a name="defines-voice-policies"></a><span data-ttu-id="fa35d-141">Definiert VoIP-Richtlinien</span><span class="sxs-lookup"><span data-stu-id="fa35d-141">Defines Voice Policies</span></span>
+## <a name="defines-voice-policies"></a><span data-ttu-id="cc793-142">Definiert VoIP-Richtlinien</span><span class="sxs-lookup"><span data-stu-id="cc793-142">Defines Voice Policies</span></span>
 
-<span data-ttu-id="fa35d-142">Sie müssen VoIP-Richtlinien für Ihre Enterprise-VoIP-Bereitstellung definieren.</span><span class="sxs-lookup"><span data-stu-id="fa35d-142">You must define voice policies for your Enterprise Voice deployment.</span></span> <span data-ttu-id="fa35d-143">Definieren Sie eine VoIP-Richtlinie, um Location-Based Routing Einschränkungen für eine Teilmenge von Benutzern zu erzwingen, wenn nur eine Teilmenge von Ihnen für die Verwendung Location-Based Routings erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="fa35d-143">Define a Voice Policy to enforce Location-Based Routing restrictions to a subset of users if only a subset of them is required to use Location-Based Routing.</span></span> <span data-ttu-id="fa35d-144">In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Richtlinien erläutert.</span><span class="sxs-lookup"><span data-stu-id="fa35d-144">For this example, the following table illustrates the voice policies used in this scenario.</span></span> <span data-ttu-id="fa35d-145">Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.</span><span class="sxs-lookup"><span data-stu-id="fa35d-145">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
+<span data-ttu-id="cc793-143">Sie müssen VoIP-Richtlinien für Ihre Enterprise-VoIP-Bereitstellung definieren.</span><span class="sxs-lookup"><span data-stu-id="cc793-143">You must define voice policies for your Enterprise Voice deployment.</span></span> <span data-ttu-id="cc793-144">Definieren Sie eine VoIP-Richtlinie, um Location-Based Routing Einschränkungen für eine Teilmenge von Benutzern zu erzwingen, wenn nur eine Teilmenge von Ihnen für die Verwendung Location-Based Routings erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="cc793-144">Define a Voice Policy to enforce Location-Based Routing restrictions to a subset of users if only a subset of them is required to use Location-Based Routing.</span></span> <span data-ttu-id="cc793-145">In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Richtlinien erläutert.</span><span class="sxs-lookup"><span data-stu-id="cc793-145">For this example, the following table illustrates the voice policies used in this scenario.</span></span> <span data-ttu-id="cc793-146">Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.</span><span class="sxs-lookup"><span data-stu-id="cc793-146">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
 
-<span data-ttu-id="fa35d-146">Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen in lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span><span class="sxs-lookup"><span data-stu-id="fa35d-146">For more information, see [Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span></span>
-
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th><span data-ttu-id="fa35d-147">VoIP-Richtlinie 1</span><span class="sxs-lookup"><span data-stu-id="fa35d-147">Voice policy 1</span></span></th>
-<th><span data-ttu-id="fa35d-148">VoIP-Richtlinie 2</span><span class="sxs-lookup"><span data-stu-id="fa35d-148">Voice policy 2</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="fa35d-149">VoIP-Richtlinien-ID</span><span class="sxs-lookup"><span data-stu-id="fa35d-149">Voice policy ID</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-150">VoIP-Richtlinie für Delhi</span><span class="sxs-lookup"><span data-stu-id="fa35d-150">Delhi voice policy</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-151">Hyderabad-VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="fa35d-151">Hyderabad voice policy</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="fa35d-152">PSTN-Verwendungen</span><span class="sxs-lookup"><span data-stu-id="fa35d-152">PSTN usages</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-153">Verwendung von Delhi, PBX del Usage, PBX Hyd</span><span class="sxs-lookup"><span data-stu-id="fa35d-153">Delhi usage, PBX Del usage, PBX Hyd usage</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-154">Verwendung von Hyderabad, Nebenstellenanlagen Hyd, PBX del Usage</span><span class="sxs-lookup"><span data-stu-id="fa35d-154">Hyderabad usage, PBX Hyd usage, PBX Del usage</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="fa35d-155">PreventPSTNTollBypass</span><span class="sxs-lookup"><span data-stu-id="fa35d-155">PreventPSTNTollBypass</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-156">False</span><span class="sxs-lookup"><span data-stu-id="fa35d-156">False</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-157">False</span><span class="sxs-lookup"><span data-stu-id="fa35d-157">False</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-<div>
-
-
-</div>
-
-</div>
-
-<div>
-
-## <a name="define-voice-routes"></a><span data-ttu-id="fa35d-158">Definieren von VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="fa35d-158">Define Voice Routes</span></span>
-
-<span data-ttu-id="fa35d-159">Sie müssen VoIP-Routen für Ihre Enterprise-VoIP-Bereitstellung definieren.</span><span class="sxs-lookup"><span data-stu-id="fa35d-159">You must define voice routes for your Enterprise Voice deployment.</span></span> <span data-ttu-id="fa35d-160">In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Routen dargestellt.</span><span class="sxs-lookup"><span data-stu-id="fa35d-160">For this example, the following table illustrates the voice routes used in this scenario.</span></span> <span data-ttu-id="fa35d-161">Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.</span><span class="sxs-lookup"><span data-stu-id="fa35d-161">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
-
-<span data-ttu-id="fa35d-162">Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausgehende Anrufe in lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).</span><span class="sxs-lookup"><span data-stu-id="fa35d-162">For more information, see [Configuring voice routes for outbound calls in Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).</span></span>
-
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th><span data-ttu-id="fa35d-163">VoIP-Route 1</span><span class="sxs-lookup"><span data-stu-id="fa35d-163">Voice route 1</span></span></th>
-<th><span data-ttu-id="fa35d-164">VoIP-Route 2</span><span class="sxs-lookup"><span data-stu-id="fa35d-164">Voice route 2</span></span></th>
-<th><span data-ttu-id="fa35d-165">VoIP-Route 3</span><span class="sxs-lookup"><span data-stu-id="fa35d-165">Voice route 3</span></span></th>
-<th><span data-ttu-id="fa35d-166">VoIP-Route 4</span><span class="sxs-lookup"><span data-stu-id="fa35d-166">Voice route 4</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="fa35d-167">Name</span><span class="sxs-lookup"><span data-stu-id="fa35d-167">Name</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-168">Delhi-Route</span><span class="sxs-lookup"><span data-stu-id="fa35d-168">Delhi route</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-169">Hyderabad-Route</span><span class="sxs-lookup"><span data-stu-id="fa35d-169">Hyderabad route</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-170">Nebenstellenanlage del Route</span><span class="sxs-lookup"><span data-stu-id="fa35d-170">PBX Del route</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-171">PBX-Hyd-Route</span><span class="sxs-lookup"><span data-stu-id="fa35d-171">PBX Hyd route</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="fa35d-172">PSTN-Verwendungen</span><span class="sxs-lookup"><span data-stu-id="fa35d-172">PSTN usages</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-173">Delhi-Nutzung</span><span class="sxs-lookup"><span data-stu-id="fa35d-173">Delhi usage</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-174">Hyderabad-Nutzung</span><span class="sxs-lookup"><span data-stu-id="fa35d-174">Hyderabad usage</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-175">PBX del-Nutzung</span><span class="sxs-lookup"><span data-stu-id="fa35d-175">PBX Del usage</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-176">PBX-Hyd-Verwendung</span><span class="sxs-lookup"><span data-stu-id="fa35d-176">PBX Hyd usage</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="fa35d-177">Stamm</span><span class="sxs-lookup"><span data-stu-id="fa35d-177">Trunk</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-178">Trunk 1 del-GW</span><span class="sxs-lookup"><span data-stu-id="fa35d-178">Trunk 1 DEL-GW</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-179">Trunk 2 Hyd-GW</span><span class="sxs-lookup"><span data-stu-id="fa35d-179">Trunk 2 HYD-GW</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-180">Trunk 3 del-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="fa35d-180">Trunk 3 DEL-PBX</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-181">Trunk 4 Hyd-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="fa35d-181">Trunk 4 HYD-PBX</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-<div>
-
-
-</div>
-
-</div>
-
-<div>
-
-## <a name="enable-users-for-enterprise-voice"></a><span data-ttu-id="fa35d-182">Aktivieren von Benutzern für Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="fa35d-182">Enable Users for Enterprise Voice</span></span>
-
-<span data-ttu-id="fa35d-183">Aktivieren Sie Benutzer für Enterprise-VoIP, und weisen Sie Ihnen eine VoIP-Richtlinie zu, die Sie zuvor definiert haben.</span><span class="sxs-lookup"><span data-stu-id="fa35d-183">Enable users for Enterprise Voice and assign them a voice policy you’ve previously defined.</span></span> <span data-ttu-id="fa35d-184">In diesem Beispiel wird in der folgenden Tabelle die in diesem Szenario verwendete Zuweisung dargestellt.</span><span class="sxs-lookup"><span data-stu-id="fa35d-184">For this example, the following table illustrates the assignment used in this scenario.</span></span> <span data-ttu-id="fa35d-185">Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.</span><span class="sxs-lookup"><span data-stu-id="fa35d-185">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
-
-<span data-ttu-id="fa35d-186">Weitere Informationen finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span><span class="sxs-lookup"><span data-stu-id="fa35d-186">For more information, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span>
+<span data-ttu-id="cc793-147">Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen in lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span><span class="sxs-lookup"><span data-stu-id="cc793-147">For more information, see [Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span></span>
 
 
 <table>
@@ -241,20 +134,25 @@ ms.locfileid: "48532552"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="fa35d-187">Benutzer, die sich in Delhi befinden</span><span class="sxs-lookup"><span data-stu-id="fa35d-187">Users located in Delhi</span></span></th>
-<th><span data-ttu-id="fa35d-188">Benutzer, die sich in Hyderabad befinden</span><span class="sxs-lookup"><span data-stu-id="fa35d-188">Users located in Hyderabad</span></span></th>
+<th><span data-ttu-id="cc793-148">VoIP-Richtlinie 1</span><span class="sxs-lookup"><span data-stu-id="cc793-148">Voice policy 1</span></span></th>
+<th><span data-ttu-id="cc793-149">VoIP-Richtlinie 2</span><span class="sxs-lookup"><span data-stu-id="cc793-149">Voice policy 2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fa35d-189">Zugeordnete VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="fa35d-189">Associated voice policy</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-190">VoIP-Richtlinie für Delhi</span><span class="sxs-lookup"><span data-stu-id="fa35d-190">Delhi voice policy</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-191">Hyderabad-VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="fa35d-191">Hyderabad voice policy</span></span></p></td>
+<td><p><span data-ttu-id="cc793-150">VoIP-Richtlinien-ID</span><span class="sxs-lookup"><span data-stu-id="cc793-150">Voice policy ID</span></span></p></td>
+<td><p><span data-ttu-id="cc793-151">VoIP-Richtlinie für Delhi</span><span class="sxs-lookup"><span data-stu-id="cc793-151">Delhi voice policy</span></span></p></td>
+<td><p><span data-ttu-id="cc793-152">Hyderabad-VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="cc793-152">Hyderabad voice policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa35d-192">Beispiel Benutzer</span><span class="sxs-lookup"><span data-stu-id="fa35d-192">Sample users</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-193">Del-lync-1, del-lync-2, del-lync-3</span><span class="sxs-lookup"><span data-stu-id="fa35d-193">DEL-LYNC-1,DEL-LYNC-2,DEL-LYNC-3</span></span></p></td>
-<td><p><span data-ttu-id="fa35d-194">Hyd-lync-1, Hyd-lync-2, Hyd-lync-3</span><span class="sxs-lookup"><span data-stu-id="fa35d-194">HYD-LYNC-1, HYD-LYNC-2, HYD-LYNC-3</span></span></p></td>
+<td><p><span data-ttu-id="cc793-153">PSTN-Verwendungen</span><span class="sxs-lookup"><span data-stu-id="cc793-153">PSTN usages</span></span></p></td>
+<td><p><span data-ttu-id="cc793-154">Verwendung von Delhi, PBX del Usage, PBX Hyd</span><span class="sxs-lookup"><span data-stu-id="cc793-154">Delhi usage, PBX Del usage, PBX Hyd usage</span></span></p></td>
+<td><p><span data-ttu-id="cc793-155">Verwendung von Hyderabad, Nebenstellenanlagen Hyd, PBX del Usage</span><span class="sxs-lookup"><span data-stu-id="cc793-155">Hyderabad usage, PBX Hyd usage, PBX Del usage</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="cc793-156">PreventPSTNTollBypass</span><span class="sxs-lookup"><span data-stu-id="cc793-156">PreventPSTNTollBypass</span></span></p></td>
+<td><p><span data-ttu-id="cc793-157">False</span><span class="sxs-lookup"><span data-stu-id="cc793-157">False</span></span></p></td>
+<td><p><span data-ttu-id="cc793-158">False</span><span class="sxs-lookup"><span data-stu-id="cc793-158">False</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -269,10 +167,113 @@ ms.locfileid: "48532552"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fa35d-195">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="fa35d-195">See Also</span></span>
+## <a name="define-voice-routes"></a><span data-ttu-id="cc793-159">Definieren von VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="cc793-159">Define Voice Routes</span></span>
+
+<span data-ttu-id="cc793-160">Sie müssen VoIP-Routen für Ihre Enterprise-VoIP-Bereitstellung definieren.</span><span class="sxs-lookup"><span data-stu-id="cc793-160">You must define voice routes for your Enterprise Voice deployment.</span></span> <span data-ttu-id="cc793-161">In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Routen dargestellt.</span><span class="sxs-lookup"><span data-stu-id="cc793-161">For this example, the following table illustrates the voice routes used in this scenario.</span></span> <span data-ttu-id="cc793-162">Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.</span><span class="sxs-lookup"><span data-stu-id="cc793-162">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
+
+<span data-ttu-id="cc793-163">Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausgehende Anrufe in lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).</span><span class="sxs-lookup"><span data-stu-id="cc793-163">For more information, see [Configuring voice routes for outbound calls in Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).</span></span>
 
 
-[<span data-ttu-id="fa35d-196">Konfigurieren Location-Based Routings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa35d-196">Configuring Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-configuring-location-based-routing.md)  
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><span data-ttu-id="cc793-164">VoIP-Route 1</span><span class="sxs-lookup"><span data-stu-id="cc793-164">Voice route 1</span></span></th>
+<th><span data-ttu-id="cc793-165">VoIP-Route 2</span><span class="sxs-lookup"><span data-stu-id="cc793-165">Voice route 2</span></span></th>
+<th><span data-ttu-id="cc793-166">VoIP-Route 3</span><span class="sxs-lookup"><span data-stu-id="cc793-166">Voice route 3</span></span></th>
+<th><span data-ttu-id="cc793-167">VoIP-Route 4</span><span class="sxs-lookup"><span data-stu-id="cc793-167">Voice route 4</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="cc793-168">Name</span><span class="sxs-lookup"><span data-stu-id="cc793-168">Name</span></span></p></td>
+<td><p><span data-ttu-id="cc793-169">Delhi-Route</span><span class="sxs-lookup"><span data-stu-id="cc793-169">Delhi route</span></span></p></td>
+<td><p><span data-ttu-id="cc793-170">Hyderabad-Route</span><span class="sxs-lookup"><span data-stu-id="cc793-170">Hyderabad route</span></span></p></td>
+<td><p><span data-ttu-id="cc793-171">Nebenstellenanlage del Route</span><span class="sxs-lookup"><span data-stu-id="cc793-171">PBX Del route</span></span></p></td>
+<td><p><span data-ttu-id="cc793-172">PBX-Hyd-Route</span><span class="sxs-lookup"><span data-stu-id="cc793-172">PBX Hyd route</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="cc793-173">PSTN-Verwendungen</span><span class="sxs-lookup"><span data-stu-id="cc793-173">PSTN usages</span></span></p></td>
+<td><p><span data-ttu-id="cc793-174">Delhi-Nutzung</span><span class="sxs-lookup"><span data-stu-id="cc793-174">Delhi usage</span></span></p></td>
+<td><p><span data-ttu-id="cc793-175">Hyderabad-Nutzung</span><span class="sxs-lookup"><span data-stu-id="cc793-175">Hyderabad usage</span></span></p></td>
+<td><p><span data-ttu-id="cc793-176">PBX del-Nutzung</span><span class="sxs-lookup"><span data-stu-id="cc793-176">PBX Del usage</span></span></p></td>
+<td><p><span data-ttu-id="cc793-177">PBX-Hyd-Verwendung</span><span class="sxs-lookup"><span data-stu-id="cc793-177">PBX Hyd usage</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="cc793-178">Stamm</span><span class="sxs-lookup"><span data-stu-id="cc793-178">Trunk</span></span></p></td>
+<td><p><span data-ttu-id="cc793-179">Trunk 1 del-GW</span><span class="sxs-lookup"><span data-stu-id="cc793-179">Trunk 1 DEL-GW</span></span></p></td>
+<td><p><span data-ttu-id="cc793-180">Trunk 2 Hyd-GW</span><span class="sxs-lookup"><span data-stu-id="cc793-180">Trunk 2 HYD-GW</span></span></p></td>
+<td><p><span data-ttu-id="cc793-181">Trunk 3 del-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="cc793-181">Trunk 3 DEL-PBX</span></span></p></td>
+<td><p><span data-ttu-id="cc793-182">Trunk 4 Hyd-Nebenstellenanlage</span><span class="sxs-lookup"><span data-stu-id="cc793-182">Trunk 4 HYD-PBX</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<div>
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="enable-users-for-enterprise-voice"></a><span data-ttu-id="cc793-183">Aktivieren von Benutzern für Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="cc793-183">Enable Users for Enterprise Voice</span></span>
+
+<span data-ttu-id="cc793-184">Aktivieren Sie Benutzer für Enterprise-VoIP, und weisen Sie Ihnen eine VoIP-Richtlinie zu, die Sie zuvor definiert haben.</span><span class="sxs-lookup"><span data-stu-id="cc793-184">Enable users for Enterprise Voice and assign them a voice policy you’ve previously defined.</span></span> <span data-ttu-id="cc793-185">In diesem Beispiel wird in der folgenden Tabelle die in diesem Szenario verwendete Zuweisung dargestellt.</span><span class="sxs-lookup"><span data-stu-id="cc793-185">For this example, the following table illustrates the assignment used in this scenario.</span></span> <span data-ttu-id="cc793-186">Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.</span><span class="sxs-lookup"><span data-stu-id="cc793-186">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
+
+<span data-ttu-id="cc793-187">Weitere Informationen finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span><span class="sxs-lookup"><span data-stu-id="cc793-187">For more information, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><span data-ttu-id="cc793-188">Benutzer, die sich in Delhi befinden</span><span class="sxs-lookup"><span data-stu-id="cc793-188">Users located in Delhi</span></span></th>
+<th><span data-ttu-id="cc793-189">Benutzer, die sich in Hyderabad befinden</span><span class="sxs-lookup"><span data-stu-id="cc793-189">Users located in Hyderabad</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="cc793-190">Zugeordnete VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="cc793-190">Associated voice policy</span></span></p></td>
+<td><p><span data-ttu-id="cc793-191">VoIP-Richtlinie für Delhi</span><span class="sxs-lookup"><span data-stu-id="cc793-191">Delhi voice policy</span></span></p></td>
+<td><p><span data-ttu-id="cc793-192">Hyderabad-VoIP-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="cc793-192">Hyderabad voice policy</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="cc793-193">Beispiel Benutzer</span><span class="sxs-lookup"><span data-stu-id="cc793-193">Sample users</span></span></p></td>
+<td><p><span data-ttu-id="cc793-194">Del-lync-1, del-lync-2, del-lync-3</span><span class="sxs-lookup"><span data-stu-id="cc793-194">DEL-LYNC-1,DEL-LYNC-2,DEL-LYNC-3</span></span></p></td>
+<td><p><span data-ttu-id="cc793-195">Hyd-lync-1, Hyd-lync-2, Hyd-lync-3</span><span class="sxs-lookup"><span data-stu-id="cc793-195">HYD-LYNC-1, HYD-LYNC-2, HYD-LYNC-3</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<div>
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="cc793-196">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="cc793-196">See Also</span></span>
+
+
+[<span data-ttu-id="cc793-197">Konfigurieren Location-Based Routings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc793-197">Configuring Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

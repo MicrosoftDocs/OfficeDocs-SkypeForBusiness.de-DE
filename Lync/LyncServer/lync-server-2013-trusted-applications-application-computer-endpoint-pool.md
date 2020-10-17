@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vertrauenswürdige Anwendungen (Anwendung/Computer/Endpunkt/Pool)'
+description: 'Lync Server 2013: vertrauenswürdige Anwendungen (Anwendung/Computer/Endpunkt/Pool).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cccfa4125327ee2077878fdbaf74d23f5388414e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2bd813ab8b5a2a06694341b4392a2bde82e8f9c8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518912"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548901"
 ---
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a><span data-ttu-id="1bfe0-102">Vertrauenswürdige Anwendungen (Anwendung/Computer/Endpunkt/Pool) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bfe0-102">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a><span data-ttu-id="54acc-103">Vertrauenswürdige Anwendungen (Anwendung/Computer/Endpunkt/Pool) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54acc-103">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,32 +38,32 @@ ms.locfileid: "48518912"
 
 <span> </span>
 
-<span data-ttu-id="1bfe0-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1bfe0-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="54acc-104">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="54acc-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="1bfe0-104">Verwenden Sie die Verfahren in diesem Abschnitt, um vertrauenswürdige Anwendungen für lync Server 2013 zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="1bfe0-104">Use the procedures in this section to manage trusted applications for Lync Server 2013.</span></span>
+<span data-ttu-id="54acc-105">Verwenden Sie die Verfahren in diesem Abschnitt, um vertrauenswürdige Anwendungen für lync Server 2013 zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="54acc-105">Use the procedures in this section to manage trusted applications for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1bfe0-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="1bfe0-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="54acc-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="54acc-106">In This Section</span></span>
 
-  - [<span data-ttu-id="1bfe0-106">Verwalten vertrauenswürdiger Anwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bfe0-106">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)
+  - [<span data-ttu-id="54acc-107">Verwalten vertrauenswürdiger Anwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54acc-107">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="1bfe0-107">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="1bfe0-107">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="54acc-108">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="54acc-108">Related Sections</span></span>
 
-[<span data-ttu-id="1bfe0-108">Cmdlets für vertrauenswürdige Anwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bfe0-108">Trusted applications cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[<span data-ttu-id="54acc-109">Cmdlets für vertrauenswürdige Anwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54acc-109">Trusted applications cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1bfe0-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1bfe0-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="54acc-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="54acc-110">See Also</span></span>
 
 
-[<span data-ttu-id="1bfe0-110">Verwalten vertrauenswürdiger Anwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bfe0-110">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)  
+[<span data-ttu-id="54acc-111">Verwalten vertrauenswürdiger Anwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54acc-111">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)  
   
 
 </div>

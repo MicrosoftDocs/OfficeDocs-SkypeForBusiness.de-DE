@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Auswählen eines E9-1-1-Dienstanbieters'
+description: 'Lync Server 2013: Auswählen eines E9-1-1-Dienstanbieters.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d15c3283cb775dd052843eac4a279ce4390bbd81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01cadd501f08c17f9f0b9494de0cd6ef86ae4b2e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529372"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549661"
 ---
-# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="05070-102">Auswählen eines E9-1-1-Dienstanbieters für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05070-102">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
+# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="b2cef-103">Auswählen eines E9-1-1-Dienstanbieters für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2cef-103">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48529372"
 
 <span> </span>
 
-<span data-ttu-id="05070-103">_**Letztes Änderungsstand des Themas:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="05070-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="b2cef-104">_**Letztes Änderungsstand des Themas:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="b2cef-104">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="05070-104">Der E9-1 -1-Dienstanbieter leitet Notrufe aus lync Server an den richtigen Anrufbeantworter (Public Safety Answering Points, Rettungsleitstelle) basierend auf den im Anruf enthaltenen Standortinformationen weiter.</span><span class="sxs-lookup"><span data-stu-id="05070-104">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
+<span data-ttu-id="b2cef-105">Der E9-1 -1-Dienstanbieter leitet Notrufe aus lync Server an den richtigen Anrufbeantworter (Public Safety Answering Points, Rettungsleitstelle) basierend auf den im Anruf enthaltenen Standortinformationen weiter.</span><span class="sxs-lookup"><span data-stu-id="b2cef-105">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
 
-<span data-ttu-id="05070-105">Zur Unterstützung von E9-1-1 im Rahmen einer lync Server-Bereitstellung müssen Sie den E9-1-1-Routingdienst von einem qualifizierten E9-1 -1-Dienstanbieter für lync Open Interoperability Program erhalten.</span><span class="sxs-lookup"><span data-stu-id="05070-105">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="05070-106">Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.</span><span class="sxs-lookup"><span data-stu-id="05070-106">Choose the provider that best fits your organizational requirements.</span></span>
+<span data-ttu-id="b2cef-106">Zur Unterstützung von E9-1-1 im Rahmen einer lync Server-Bereitstellung müssen Sie den E9-1-1-Routingdienst von einem qualifizierten E9-1 -1-Dienstanbieter für lync Open Interoperability Program erhalten.</span><span class="sxs-lookup"><span data-stu-id="b2cef-106">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="b2cef-107">Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.</span><span class="sxs-lookup"><span data-stu-id="b2cef-107">Choose the provider that best fits your organizational requirements.</span></span>
 
 </div>
 
