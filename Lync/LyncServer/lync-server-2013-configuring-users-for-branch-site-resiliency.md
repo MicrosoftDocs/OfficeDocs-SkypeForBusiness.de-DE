@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von Benutzern für Ausfallsicherheit für Zweigstellenstandorte'
+description: 'Lync Server 2013: Konfigurieren von Benutzern für Ausfallsicherheit für Zweigstellenstandorte.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9984cb01635095d53240891c04352012f5d0fa76
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5fde1797fd9826ea142639ef9c3e0194a6758d4c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517032"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550231"
 ---
 # <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Konfigurieren von Benutzern für Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013
 
