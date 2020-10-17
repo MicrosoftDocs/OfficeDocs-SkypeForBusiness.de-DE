@@ -12,20 +12,22 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68764952ebfe2a45895e480d923d76a108fdda8e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 107a6a2094537c6937ae401f68807b494634f75f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525052"
 ---
+# <a name="lync-server-2013-cmdlets-by-category"></a>Lync Server 2013-Cmdlets nach Kategorie
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-by-category"></a>Lync Server 2013-Cmdlets nach Kategorie
+
 
 </div>
 
@@ -53,7 +55,7 @@ Wenn Sie unsicher sind, welche Cmdlets Sie benötigen, finden Sie nachstehend ei
 
 
 > [!NOTE]
-> Die Skype for Business-Cmdlet-Referenz wurde zu docs.Microsoft.com verschoben. Durch Klicken auf die unten aufgeführten Links gelangen Sie zur neuen docs.Microsoft.com-Seite. Der Inhalt ist nun Open sourced und für Community-Beiträge über GitHub verfügbar. Möchten Sie einen Beitrag leisten? Lesen Sie die Readme-Datei im Repo hier:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Die Skype for Business-Cmdlet-Referenz wurde zu docs.Microsoft.com verschoben. Durch Klicken auf die unten aufgeführten Links gelangen Sie zur neuen docs.Microsoft.com-Seite. Der Inhalt ist nun Open sourced und für Community-Beiträge über GitHub verfügbar. Möchten Sie einen Beitrag leisten? Lesen Sie die Readme-Datei im Repo hier: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 

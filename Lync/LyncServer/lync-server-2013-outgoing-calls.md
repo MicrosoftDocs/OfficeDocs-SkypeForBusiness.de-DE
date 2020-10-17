@@ -12,20 +12,22 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aa72bb1da56862765279f25f73070863d218067
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a77ddf0757cd463bb8f1b95dbecfe90fd1086c9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524402"
 ---
+# <a name="outgoing-calls-in-lync-server-2013"></a>Ausgehende Anrufe in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="outgoing-calls-in-lync-server-2013"></a>Ausgehende Anrufe in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216380"
 
 _**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasiertes Routing aktiviert sind, wird von der Netzwerkadresse des Endpunkts des Benutzers beeinflusst. In der folgenden Tabelle wird veranschaulicht, wie sich das standortbasierte Routing auf das Routing ausgehender Anrufe in Abhängigkeit von der Position des Endpunkts des Anrufers auswirkt.
+Das Routing von ausgehenden Anrufen von Benutzern, die für Location-Based Routing aktiviert sind, wird von der Netzwerkadresse des Endpunkts des Benutzers beeinflusst. In der folgenden Tabelle wird veranschaulicht, wie sich Location-Based Routing auf das Routing ausgehender Anrufe in Abhängigkeit von der Position des Endpunkts des Anrufers auswirkt.
 
 ### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>Anrufer, der einen ausgehenden Anruf an das PSTN abgibt
 
@@ -50,8 +52,8 @@ Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasiertes Ro
 <thead>
 <tr class="header">
 <th></th>
-<th>Benutzer Endpunkt befindet sich an einem Netzwerkstandort, der für standortbasiertes Routing aktiviert ist</th>
-<th>Benutzer Endpunkt befindet sich an einem unbekannten Netzwerkstandort oder ist für standortbasiertes Routing nicht aktiviert</th>
+<th>Benutzer Endpunkt befindet sich an einem Netzwerkstandort, der für Location-Based Routing aktiviert ist</th>
+<th>Benutzer Endpunkt befindet sich an einem unbekannten Netzwerkstandort oder ist für Location-Based Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +65,7 @@ Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasiertes Ro
 <tr class="even">
 <td><p>Weiterleitung des ausgehenden Anrufs</p></td>
 <td><p>Der Anruf wird entsprechend der VoIP-Routing Richtlinie des Netzwerkstandorts weitergeleitet.</p></td>
-<td><p>Der Anruf wird entsprechend der VoIP-Richtlinie des Benutzers und nur über Trunks weitergeleitet, die nicht für standortbasiertes Routing aktiviert sind (sofern verfügbar)</p></td>
+<td><p>Der Anruf wird entsprechend der VoIP-Richtlinie des Benutzers und nur über Trunks weitergeleitet, die für Location-Based Routing nicht aktiviert sind (sofern verfügbar)</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +76,7 @@ Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasiertes Ro
 ## <a name="see-also"></a>Siehe auch
 
 
-[Szenarien für das standortbasierte Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Szenarien für Location-Based Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

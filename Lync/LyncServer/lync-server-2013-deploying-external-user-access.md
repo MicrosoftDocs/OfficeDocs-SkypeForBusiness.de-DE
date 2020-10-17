@@ -12,20 +12,22 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 960f5d895f821e8d9bbc6fa71f451ee455d88388
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1878b011ce62ff732f9b31fb905c012872fe743
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525312"
 ---
+# <a name="deploying-external-user-access-in-lync-server-2013"></a>Bereitstellen von externem Benutzer Zugriff in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-external-user-access-in-lync-server-2013"></a>Bereitstellen von externem Benutzer Zugriff in lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42198328"
 
 _**Letztes Änderungsstand des Themas:** 2013-09-23_
 
-Durch die Bereitstellung von Edge-Komponenten für Microsoft lync Server 2013 können externe Benutzer, die nicht am internen Netzwerk Ihrer Organisation angemeldet sind, einschließlich authentifizierter und anonymer Remotebenutzer, Partnerverbund Partner (einschließlich XMPP-Partnern), Mobile Clients und Benutzer von öffentlichen Instant Messaging-Diensten (Chat) für die Kommunikation mit anderen Benutzern in Ihrer Organisation mithilfe von lync Server. Die Bereitstellungs-und Konfigurationsprozesse für lync Server 2013 unterscheiden sich nicht wesentlich von lync Server 2010. Die Tools für die Installation und Verwaltung sind ähnlich wie in lync Server 2010.
+Durch die Bereitstellung von Edge-Komponenten für Microsoft lync Server 2013 können externe Benutzer, die nicht am internen Netzwerk Ihrer Organisation angemeldet sind, einschließlich authentifizierten und anonymen Remotebenutzern, Verbundpartnern (einschließlich XMPP-Partnern), mobilen Clients und Benutzern von öffentlichen Sofortnachrichtendiensten, mit anderen Benutzern in Ihrer Organisation über lync Server kommunizieren. Die Bereitstellungs-und Konfigurationsprozesse für lync Server 2013 unterscheiden sich nicht wesentlich von lync Server 2010. Die Tools für die Installation und Verwaltung sind ähnlich wie in lync Server 2010.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft lync Server 2013&nbsp;Edgeserver-Installation und-Konfiguration kann ein komplexer Prozess sein, der eine potenziell erhebliche Menge an Planung und Koordination mit ihren internen Teams erfordert, einschließlich der Überlegungen zu Sicherheit, Netzwerk, Firewall, Domain Name System (DNS), Lastenausgleich und Public Key-Infrastruktur (PKI). Es wird dringend empfohlen, den Planungsprozess und die Dokumentation zu überprüfen und zu verwenden, die vor der Bereitstellung Ihrer Komponenten für den externen Zugriff bereitgestellt werden. Dies hilft beim Durchlaufen des Bereitstellungsprozesses, die Anzahl und die Häufigkeit unerwünschter Änderungen und Probleme zu begrenzen. Informationen zum Planen des Zugriffs durch externe Benutzer finden Sie unter <A href="lync-server-2013-planning-for-external-user-access.md">Planning for external User Access in lync Server 2013</A>.
+> Microsoft lync Server 2013 &nbsp; Edgeserver-Installation und-Konfiguration kann ein komplexer Prozess sein, der eine potenziell erhebliche Menge an Planung und Koordination mit ihren internen Teams erfordert, einschließlich der Überlegungen zu Sicherheit, Netzwerk, Firewall, Domain Name System (DNS), Lastenausgleich und Public Key-Infrastruktur (PKI). Es wird dringend empfohlen, den Planungsprozess und die Dokumentation zu überprüfen und zu verwenden, die vor der Bereitstellung Ihrer Komponenten für den externen Zugriff bereitgestellt werden. Dies hilft beim Durchlaufen des Bereitstellungsprozesses, die Anzahl und die Häufigkeit unerwünschter Änderungen und Probleme zu begrenzen. Informationen zum Planen des Zugriffs durch externe Benutzer finden Sie unter <A href="lync-server-2013-planning-for-external-user-access.md">Planning for external User Access in lync Server 2013</A>.
 
 
 
@@ -69,7 +71,7 @@ Durch die Bereitstellung von Edge-Komponenten für Microsoft lync Server 2013 k�
 
   - [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md)
 
-  - [Leitfaden zur Anleitung für lync-Skype-Konnektivität in lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+  - [Leitfaden zur Anleitung zur Lync-Skype Konnektivität in lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
   - [Konfigurieren des SIP-Verbunds, des XMPP-Verbunds und der öffentlichen Chatnachrichten in lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
 

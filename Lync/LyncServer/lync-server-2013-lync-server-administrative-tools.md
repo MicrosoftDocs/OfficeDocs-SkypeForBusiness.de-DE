@@ -12,20 +12,22 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a7567fa467f8e152f4b6a61b06600a127607d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23ac976f2c05268b5cf864511b19db1fd251edbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525112"
 ---
+# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 Verwaltungstools
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 Verwaltungstools
+
 
 </div>
 
@@ -45,17 +47,17 @@ Stellen Sie sicher, dass Sie die Anforderungen an Infrastruktur, Betriebssystem,
 
 Zu den Verwaltungstools gehören:
 
-  - **Lync Server Bereitstellungs-Assistent**   wird zum Bereitstellen von lync Server und zum Installieren aller Verwaltungstools verwendet.
+  - **Lync Server-Bereitstellungs-Assistent**     Wird verwendet, um lync Server bereitzustellen und alle Verwaltungstools zu installieren.
 
-  - **Lync Server Topologie-Generator**   wird zum Definieren von Komponenten in der Bereitstellung verwendet.
+  - **Lync Server Topologie-Generator**     Verwenden Sie, um Komponenten in Ihrer Bereitstellung zu definieren.
 
-  - **Lync Server-Systemsteuerung**   für die laufende Verwaltung Ihrer Bereitstellung mithilfe einer webbasierten Schnittstelle verwenden.
+  - **Lync Server-Systemsteuerung**     Verwenden Sie für die laufende Verwaltung Ihrer Bereitstellung über eine webbasierte Schnittstelle.
 
-  - **Lync Server-Verwaltungsshell**   für die laufende Verwaltung Ihrer Bereitstellung mithilfe der Befehlszeile verwenden.
+  - **Lync Server-Verwaltungsshell**     Verwenden Sie für die laufende Verwaltung Ihrer Bereitstellung über die Befehlszeile.
 
-  - **Lync Server Protokollierungstool**   zur Behebung von Problemen in Ihrer Bereitstellung verwenden.
+  - **Lync Server Protokollierungstool**     Verwenden Sie zur Behandlung von Problemen in Ihrer Bereitstellung.
 
-  - **Der zentralisierte Protokollierungsdienst**   sammelt Protokolle und Ablaufverfolgungsdateien von einem Computer, Pool, Standort oder Global. Auswählen und Definieren von Szenarien, die Anbieter, Kennzeichen und Ablaufverfolgungsstufen enthalten Die Protokollierung wird gesammelt, aggregiert und mit Tools wie einem textbasierten Tool oder Snooper. exe angezeigt.
+  - **Zentralisierter Protokollierungsdienst**     Sammeln von Protokollen und Ablaufverfolgungsdateien von einem Computer, Pool, Standort oder Global. Auswählen und Definieren von Szenarien, die Anbieter, Kennzeichen und Ablaufverfolgungsstufen enthalten Die Protokollierung wird gesammelt, aggregiert und mit Tools wie einem textbasierten Tool oder Snooper.exe angezeigt.
 
 Sie können Ihre Bereitstellung verwalten, indem Sie in erster Linie den Topologie-Generator und lync Server-Systemsteuerung verwenden.
 
@@ -63,7 +65,7 @@ Sie können Ihre Bereitstellung verwalten, indem Sie in erster Linie den Topolog
 
 ## <a name="deployment-wizard"></a>Bereitstellungs-Assistent
 
-Sie müssen den auf dem Installationsdatenträger enthaltenen lync Server-Bereitstellungs-Assistenten verwenden, um alle Verwaltungstools auf einem Computer zu installieren, auf dem Sie lync Server noch nicht installiert haben. Während der Installation von Verwaltungstools wird der lync Server-Bereitstellungs-Assistent lokal zusammen mit den anderen Tools installiert, sodass Sie ihn später zum Installieren von Dateien für zusätzliche Komponenten oder zum Entfernen von Dateien für Komponenten verwenden können, die nicht auf der Computer.
+Sie müssen den auf dem Installationsdatenträger enthaltenen lync Server-Bereitstellungs-Assistenten verwenden, um alle Verwaltungstools auf einem Computer zu installieren, auf dem Sie lync Server noch nicht installiert haben. Während der Installation von Verwaltungstools wird der lync Server-Bereitstellungs-Assistent lokal zusammen mit den anderen Tools installiert, sodass Sie ihn später zum Installieren von Dateien für zusätzliche Komponenten oder zum Entfernen von Dateien für Komponenten verwenden können, die Sie auf dem Computer nicht benötigen.
 
 Ausführliche Informationen dazu, wie Sie den lync Server-Bereitstellungs-Assistenten erstmals auf dem lync Server Installationsmedium ausführen, finden Sie unter [install lync Server 2013 Administration Tools](lync-server-2013-install-lync-server-administrative-tools.md).
 
@@ -113,7 +115,7 @@ In lync Server bietet der lync Server-Verwaltungsshell eine neue Methode für Ve
 
 ## <a name="logging-tool"></a>Protokollierungstool
 
-Das lync Server Protokollierungs Tool erleichtert die Problembehandlung durch Erfassen von Protokollierungs-und Ablaufverfolgungsinformationen aus dem Produkt während der Ausführung des Produkts. Sie können das Tool verwenden, um Debug-Sitzungen auf jeder lync Server-Server Rolle auszuführen. Ausführliche Informationen zum Protokollierungstool finden Sie in der Dokumentation zum lync Server 2010 Protokollierungstool in der [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)TechNet-Bibliothek unter.
+Das lync Server Protokollierungs Tool erleichtert die Problembehandlung durch Erfassen von Protokollierungs-und Ablaufverfolgungsinformationen aus dem Produkt während der Ausführung des Produkts. Sie können das Tool verwenden, um Debug-Sitzungen auf jeder lync Server-Server Rolle auszuführen. Ausführliche Informationen zum Protokollierungstool finden Sie in der Dokumentation zum lync Server 2010 Protokollierungstool in der TechNet-Bibliothek unter [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) .
 
 <div>
 

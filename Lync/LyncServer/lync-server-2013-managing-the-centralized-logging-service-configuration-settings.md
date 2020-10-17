@@ -12,20 +12,22 @@ ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c6e156fbae7147b650c7360394cbd0d277b937b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 99d496bf211abe2c9ccab04c45eb0fd0fba7439d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524952"
 ---
+# <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Verwalten der Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Verwalten der Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in lync Server 2013
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcf2defebaf557230118bf557800d06a862ed39d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e4b0c8154429fa68bc05e757130e0b92a47e65c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214461"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523762"
 ---
+# <a name="tblprincipal-in-lync-server-2013"></a>tblPrincipal in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipal-in-lync-server-2013"></a>tblPrincipal in lync Server 2013
+
 
 </div>
 
@@ -131,7 +133,7 @@ Die Tabelle „tblPrincipal“ enthält alle Prinzipale, einschließlich Benutze
 </tr>
 <tr class="odd">
 <td><p>prinAddedOn</p></td>
-<td><p>bigint, nicht NULL</p></td>
+<td><p>bigint, not null</p></td>
 <td><p>Der Zeitstempel für den Zeitpunkt der Erstellung.</p></td>
 </tr>
 <tr class="even">

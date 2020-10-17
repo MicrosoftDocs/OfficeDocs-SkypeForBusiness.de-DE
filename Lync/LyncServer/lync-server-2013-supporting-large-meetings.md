@@ -12,20 +12,22 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 949e5fb209722d8a0d8476d017bba1b7144561a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19359dd785b846fa765e72adb810ccd255c2bd2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523922"
 ---
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>Unterstützen großer Besprechungen mit lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>Unterstützen großer Besprechungen mit lync Server 2013
+
 
 </div>
 
@@ -49,13 +51,13 @@ Große Besprechungen folgen nicht dem im vorherigen Abschnitt beschriebenen Test
 
   - Eine dedizierte Person, in der Regel entweder der Besprechungsorganisator oder ein Assistent des Organisators, richtet die Besprechung rechtzeitig im Voraus ein.
 
-  - Dedizierte Mitarbeiter (nicht die Referenten) führen die Besprechung aus, einschließlich der Verbindung mit einer Onlinebesprechung, der Überprüfung, ob Audio-, Video-und Folien Freigaben ausgeführt werden, die Verwaltung von Lobby-und Benutzerrollen, das stumm schalten und stumm schalten von Teilnehmern, das nehmen von Fragen und das Verwalten von Aufzeichnungen, wie entsprechenden.
+  - Dedizierte Mitarbeiter (nicht die Referenten) führen die Besprechung aus, einschließlich der Verbindung mit einer Onlinebesprechung, der Überprüfung, ob Audio-, Video-und Folien Freigaben ausgeführt werden, die Verwaltung von Lobby-und Benutzerrollen, das stumm schalten und das stumm schalten von Teilnehmern, das nehmen von Fragen und das Verwalten von Aufzeichnungen, je nach Bedarf.
 
 Die Unterstützung großer Besprechungen mit bis zu 1000 Benutzern erfordert die Behebung der Probleme im Zusammenhang mit dem freigegebenen Hardwaremodell und dem nicht Reservierungs Modell.
 
 Um über ausreichende CPU-und Arbeitsspeicherressourcen für Besprechungen mit bis zu 1000 Benutzern verfügen zu können, sollten die hostenden Front-End-Server keine anderen Chatnachrichten und Anwesenheits-oder Enterprise-VoIP-Arbeitslasten hosten. Es sollte auch keine anderen Besprechungen hosten, unabhängig von der Größe der anderen Besprechungen. Dies bedeutet, dass das Hosten von Besprechungen mit bis zu 1000 Benutzern einen separaten lync Server Pool einrichten muss, der für das Hosten großer Besprechungen mit bis zu 1000 Benutzern vorgesehen ist.
 
-Ein lync Server Pool, der für das Hosten großer Besprechungen vorgesehen ist, sollte nur eine Besprechung mit bis zu 1000 Benutzern gleichzeitig hosten, sodass Besprechungszeiten vorab über einen Out-of-Band-Planungsprozess reserviert werden müssen, um die dedizierte Unterstützung von der Front-End-Serv sicherzustellen. ERS. Zur gleichzeitigen Unterstützung mehrerer großer Besprechungen wird empfohlen, mehrere dedizierte große Besprechungs Pools einzurichten.
+Ein lync Server Pool, der für das Hosten großer Besprechungen vorgesehen ist, sollte nur eine Besprechung mit bis zu 1000 Benutzern gleichzeitig hosten, sodass Besprechungszeiten vorab über einen Out-of-Band-Planungsprozess reserviert werden müssen, um den dedizierten Support von den Front-End-Servern sicherzustellen. Zur gleichzeitigen Unterstützung mehrerer großer Besprechungen wird empfohlen, mehrere dedizierte große Besprechungs Pools einzurichten.
 
 Es wird empfohlen, dass eine dedizierte Person den Online Teil einer großen Besprechung ausführt und überwacht. Diese Person ist möglicherweise der Organisator, Stellvertreter des Organisators oder Referenten oder ein Mitglied des Support Teams für große Besprechungen, je nach den Einstellungen der Organisation.
 

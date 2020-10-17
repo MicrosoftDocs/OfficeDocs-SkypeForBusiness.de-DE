@@ -12,20 +12,22 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec650c62b26775aeddf9f01ff8d455a6f6a7667
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48ee24dca1cdf083de990ef42dae4017ed927e15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185106"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524562"
 ---
+# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Migrationsüberlegungen für Besprechungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Migrationsüberlegungen für Besprechungen in lync Server 2013
+
 
 </div>
 
@@ -55,11 +57,11 @@ In diesem Abschnitt werden die folgenden Themen erläutert:
 
 ## <a name="changes-to-meetings-in-lync-server-2013"></a>Änderungen an Besprechungen in lync Server 2013
 
-**Lync Server 2013 Funktionen.**    Lync Server 2013 stellt neue Konferenzfeatures bereit, die Benutzern zur Verfügung stehen, nachdem Ihre Konten in lync Server 2013 verschoben wurden und sich mit dem lync 2013-Client anmelden. Neue Features werden in [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert.
+**Lync Server 2013 Funktionen.**     Lync Server 2013 stellt neue Konferenzfeatures bereit, die Benutzern zur Verfügung stehen, nachdem Ihre Konten in lync Server 2013 verschoben wurden und sich mit dem lync 2013-Client anmelden. Neue Features werden in [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert.
 
-**Besprechungs-URL.**    Wie in lync Server 2010 verfügen alle neu geplanten Besprechungen in lync Server 2013 über ein URL-Präfix für https://, und vorhandene Besprechungen werden zusammen mit Benutzerkonten migriert. Lync Server 2013 unterstützt jedoch nicht die Office Communications Server 2007 R2-Telefonkonferenz (conf://-URL-Präfix) oder Webkonferenz (Meet://-URL-Präfix). Weitere Informationen finden Sie unter "Migrieren von Besprechungen aus Office Communications Server 2007 R2" weiter unten in diesem Thema.
+**Besprechungs-URL.**     Wie in lync Server 2010 verfügen alle neu geplanten Besprechungen in lync Server 2013 über ein URL-Präfix für https://, und vorhandene Besprechungen werden zusammen mit Benutzerkonten migriert. Lync Server 2013 unterstützt jedoch nicht die Office Communications Server 2007 R2-Telefonkonferenz (conf://-URL-Präfix) oder Webkonferenz (Meet://-URL-Präfix). Weitere Informationen finden Sie unter "Migrieren von Besprechungen aus Office Communications Server 2007 R2" weiter unten in diesem Thema.
 
-**Client Unterstützung.**    Im Gegensatz zu lync Server 2010 unterstützt lync Server 2013 keine Office Communicator-Clients für Konferenzen. Sie können die folgenden Clients nicht verwenden, um an Besprechungen teilzunehmen, die über das Online-Besprechungs-Add-in für lync 2013 geplant wurden:
+**Client Unterstützung.**     Im Gegensatz zu lync Server 2010 unterstützt lync Server 2013 keine Office Communicator-Clients für Konferenzen. Sie können die folgenden Clients nicht verwenden, um an Besprechungen teilzunehmen, die über das Online-Besprechungs-Add-in für lync 2013 geplant wurden:
 
   - Office Communicator 2007 R2
 
@@ -82,9 +84,9 @@ Während der Migration sollten Office Communicator 2007 R2 Benutzer lync Web App
 
 ## <a name="migrating-users-based-on-their-conferencing-needs"></a>Migrieren von Benutzern basierend auf ihren Konferenzanforderungen
 
-**Häufige Besprechungsorganisatoren.**    Ziehen Sie es vor, häufige Besprechungsorganisatoren frühzeitig zu migrieren, damit Sie die neuen lync Server 2013 und lync 2013 Features nutzen können, die in [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert werden.
+**Häufige Besprechungsorganisatoren.**     Ziehen Sie es vor, häufige Besprechungsorganisatoren frühzeitig zu migrieren, damit Sie die neuen lync Server 2013 und lync 2013 Features nutzen können, die in [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert werden.
 
-**Live Meeting Benutzer.**    Wenn Sie von Office Communications Server 2007 R2 migrieren und über Benutzer verfügen, die spezielle Webkonferenz Features für Live Meeting benötigen – insbesondere Unterstützung für große Besprechungen und Break-out-Räume – haben Sie die folgenden Optionen:
+**Live Meeting Benutzer.**     Wenn Sie von Office Communications Server 2007 R2 migrieren und über Benutzer verfügen, die spezielle Webkonferenz Features für Live Meeting benötigen – insbesondere Unterstützung für große Besprechungen und Break-out-Räume – haben Sie die folgenden Optionen:
 
   - Empfehlen Sie Organisatoren die Verwendung des Live Meeting-Diensts (falls in Ihrer Organisation vorhanden).
 
@@ -110,7 +112,7 @@ Die folgenden Benutzerkontoinformationen werden jedoch nicht auf den neuen Serve
 
   - Besprechungsinhalte, beispielsweise PowerPoint-Präsentationen, Whiteboard-Inhalte und Umfragedaten
 
-Verwenden Sie den MoveMeetingContent-Parameter des Cmdlets "CsUser", um den Inhalt zu verlagern, der in Besprechungen freigegeben wurde. Ausführliche Informationen zur Verwendung dieses Cmdlets finden Sie unter CsUser in der Dokumentation zu lync Server 2013 [-](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) Cmdlets.
+Verwenden Sie den MoveMeetingContent-Parameter des Move-CsUser-Cmdlets, um den Inhalt zu verlagern, der in Besprechungen freigegeben wurde. Ausführliche Informationen zur Verwendung dieses Cmdlets finden Sie unter CsUser in der Dokumentation zu lync Server 2013 [-](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) Cmdlets.
 
 </div>
 
@@ -158,7 +160,7 @@ Dieser Abschnitt enthält eine Zusammenfassung der Benutzer Konferenz Erfahrung 
 
 ## <a name="after-user-account-is-migrated-before-lync-2013-is-installed"></a>Nachdem das Benutzerkonto migriert wurde, bevor lync 2013 installiert ist
 
-Nachdem ein Benutzer zum lync Server 2013 Server migriert wurde, aber bevor neue Clients installiert werden, können Office Communicator 2007 R2 Benutzer den vorhandenen Client weiterhin für die lync Server 2013 für Anwesenheits-und Chatfunktionen verwenden, aber die Konferenzfunktionen werden nicht stützt.
+Nachdem ein Benutzer zum lync Server 2013 Server migriert wurde, aber bevor neue Clients installiert werden, können Office Communicator 2007 R2 Benutzer den vorhandenen Client weiterhin für die lync Server 2013 von Anwesenheits-und Chat Features verwenden, aber Konferenzfeatures werden nicht unterstützt.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f19c7eac607ffcba65435cea2faf53c91e75609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7fc614b2c571df14eac5382e9a022554fc32a260
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208221"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524122"
 ---
+# <a name="supported-devices-in-lync-server-2013"></a>Unterstützte Geräte in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-devices-in-lync-server-2013"></a>Unterstützte Geräte in lync Server 2013
+
 
 </div>
 
@@ -43,13 +45,13 @@ Lync Server unterstützt alle Telefone, die in der folgenden Tabelle aufgeführt
 
 
 > [!NOTE]  
-> Es werden drei Typen von Telefonen unterstützt: Telefonapparate (Hörer-IP oder USB-Geräte, die von Mitarbeitern am Schreibtisch verwendet werden), Konferenzgeräte (Freisprech-IP oder USB-Telefone, die für den Einsatz in Besprechungsräumen ausgelegt sind) und Telefone für gemeinsame Bereiche (IP-Telefone, die sind für die Verwendung in freigegebenen Bereichen wie Lobbies, Küchen, Factory Floors und freigegebenen Arbeitsbereichen konzipiert und können angepasst werden, um verschiedene Gruppen von lync-Phone Edition Funktionen bereitzustellen.
+> Es werden drei Typen von Telefonen unterstützt: Telefonapparate (Hörer-IP oder USB-Geräte, die von Mitarbeitern am Arbeitsplatz verwendet werden), Konferenzgeräte (Freisprech-IP oder USB-Telefone, die für den Einsatz in Besprechungsräumen ausgelegt sind) und Telefone für gemeinsame Bereiche (IP-Telefone, die für die Verwendung in freigegebenen Bereichen ausgelegt sind – wie Lobbys, Küchen und freigegebene Arbeitsbereiche – und können angepasst werden, um verschiedene Gruppen von lync-Phone Edition Features bereitzustellen.
 
 
 
 </div>
 
-Ausführliche Vergleichstabellen zu allen Geräten, die für die Verwendung mit lync optimiert wurden, finden Sie unter "für Microsoft lync qualifizierte Telefone und <https://go.microsoft.com/fwlink/p/?linkid=208938>Geräte" unter. Die Telefonvergleichstabellen auf dieser Website enthalten Preisangaben und technische Daten.
+Ausführliche Vergleichstabellen zu allen Geräten, die für die Verwendung mit lync optimiert wurden, finden Sie unter "für Microsoft lync qualifizierte Telefone und Geräte" unter <https://go.microsoft.com/fwlink/p/?linkid=208938> . Die Telefonvergleichstabellen auf dieser Website enthalten Preisangaben und technische Daten.
 
 
 <table>
@@ -60,7 +62,7 @@ Ausführliche Vergleichstabellen zu allen Geräten, die für die Verwendung mit 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Telefon</th>
+<th>Phone</th>
 <th>Führt lync Phone Edition</th>
 <th>Weitere Informationen</th>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6797d5e65f182e8a28bb442858070ffed19fcc80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b34b3a0dd79651ef288740243313d58482959e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185378"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524782"
 ---
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Manuelles Löschen der Datenbanken für das Aufzeichnen von Anrufen und der Qualität von Experience in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Manuelles Löschen der Datenbanken für das Aufzeichnen von Anrufen und der Qualität von Experience in lync Server 2013
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Letztes Änderungsstand des Themas:** 2014-07-07_
 
 Administratoren können die KDS-Datenbanken (Call Detail Recording) und/oder die QoE-Datenbank (Quality of Experience) so konfigurieren, dass alte Datensätze automatisch aus der Datenbank bereinigt werden; Dies tritt auf, wenn die Bereinigung für die angegebene Datenbank (CDR oder QoE) aktiviert wurde und wenn Datensätze vorhanden sind, die sich in der Datenbank länger als die angegebene Zeitspanne befinden. Beispielsweise können Administratoren jeden Tag um 1:00 Uhr das System so konfigurieren, dass QoE-Datensätze, die älter als 60 Tage sind, aus der QoE-Datenbank gelöscht werden.
 
-Zusätzlich zu dieser automatischen Bereinigung wurden zwei neue Cmdlets--Invoke-CsCdrDatabasePurge und Invoke-CsQoEDatbasePurge--zu Microsoft lync Server 2013 hinzugefügt. Diese Cmdlets ermöglichen Administratoren das manuelle Löschen von Datensätzen aus der KDS-und der QoE-Datenbank zu jedem beliebigen Zeitpunkt. Wenn Sie beispielsweise alle Datensätze, die älter als 10 Tage sind, aus der KDS-Datenbank manuell löschen möchten, können Sie einen Befehl wie den folgenden verwenden:
+Zusätzlich zu dieser automatischen Bereinigung wurden zwei neue Cmdlets hinzugefügt, Invoke-CsCdrDatabasePurge und Invoke-CsQoEDatbasePurge--Microsoft lync Server 2013. Diese Cmdlets ermöglichen Administratoren das manuelle Löschen von Datensätzen aus der KDS-und der QoE-Datenbank zu jedem beliebigen Zeitpunkt. Wenn Sie beispielsweise alle Datensätze, die älter als 10 Tage sind, aus der KDS-Datenbank manuell löschen möchten, können Sie einen Befehl wie den folgenden verwenden:
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
 Im vorstehenden Befehl werden sowohl Anruf Detaildatensätze als auch Diagnosedatensätze, die älter als 10 Tage sind, aus der Überwachungsdatenbank auf ATL-SQL-001.litwareinc.com gelöscht. (Anruf Detaildatensätze sind Benutzer/Sitzungsberichte. Bei Diagnosedatensätzen handelt es sich um Diagnoseprotokolle, die von Clientanwendungen wie lync 2013 hochgeladen werden.)
 
-Wie oben gezeigt, müssen Sie beim Ausführen des Cmdlets Invoke-CsCdrDatabasePurge sowohl den Parameter PurgeCallDetaiDataOlderThanDays als auch den Parameter PurgeDiagnosticDataOlderThanDays einfügen. Diese Parameter müssen jedoch nicht auf denselben Wert festgelegt werden. Sie können beispielsweise festlegen, dass Anrufdetaildatensätze, die älter sind als 10 Tage, gelöscht werden, und konfigurieren, dass alle Diagnosedatensätze in der Datenbank bleiben. Legen Sie dazu PurgeCallDetailDataOlderThanDays auf 10 und PurgeDiagnosticDataOlderThanDays auf 0 fest. Zum Beispiel:
+Wie oben gezeigt, müssen Sie beim Ausführen des Cmdlets Invoke-CsCdrDatabasePurge sowohl den Parameter PurgeCallDetaiDataOlderThanDays als auch den Parameter PurgeDiagnosticDataOlderThanDays einfügen. Diese Parameter müssen jedoch nicht auf denselben Wert festgelegt werden. Sie können beispielsweise festlegen, dass Anrufdetaildatensätze, die älter sind als 10 Tage, gelöscht werden, und konfigurieren, dass alle Diagnosedatensätze in der Datenbank bleiben. Legen Sie dazu PurgeCallDetailDataOlderThanDays auf 10 und PurgeDiagnosticDataOlderThanDays auf 0 fest. Beispiel:
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 

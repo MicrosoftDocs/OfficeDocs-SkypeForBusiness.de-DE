@@ -12,20 +12,22 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5007ec14ad197afb2cfb8d2c73baa41ed144a4e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a50431ee1917c580440f8a47cff0ca09f5e47f07
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216501"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524432"
 ---
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Optional Aktivieren und Deaktivieren von Konferenz Anmeldungen und Abwesenheits Ankündigungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Optional Aktivieren und Deaktivieren von Konferenz Anmeldungen und Abwesenheits Ankündigungen in lync Server 2013
+
 
 </div>
 
@@ -60,11 +62,11 @@ Wenn Einwahlbenutzer einer Konferenz beitreten oder diese verlassen, können die
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   legt fest, ob anonyme Teilnehmer aufgefordert werden, Ihren Namen vor dem Betreten der Konferenz aufzuzeichnen. Der Standardwert ist "$true", was bedeutet, dass anonyme Teilnehmer aufgefordert werden, Ihren Namen anzugeben, wenn Sie einer Konferenz beitreten. (Authentifizierte Teilnehmer notieren ihren Namen nicht, da stattdessen Ihr Anzeigename verwendet wird.)
+    **EnableNameRecording**     Legt fest, ob anonyme Teilnehmer aufgefordert werden, Ihren Namen vor dem Betreten der Konferenz aufzuzeichnen. Der Standardwert ist "$true", was bedeutet, dass anonyme Teilnehmer aufgefordert werden, Ihren Namen anzugeben, wenn Sie einer Konferenz beitreten. (Authentifizierte Teilnehmer notieren ihren Namen nicht, da stattdessen Ihr Anzeigename verwendet wird.)
     
-    **EntryExitAnnouncementsEnabledByDefault**   gibt an, ob Ankündigungen standardmäßig aktiviert oder deaktiviert werden. Der Standardwert ist "$false", was bedeutet, dass es standardmäßig keine Ankündigungen gibt, wenn Teilnehmer einer Konferenz beitreten oder diese verlassen. Der Besprechungsorganisator kann diese Einstellung beim Planen einer Besprechung außer Kraft setzen.
+    **EntryExitAnnouncementsEnabledByDefault**     Gibt an, ob Ankündigungen standardmäßig aktiviert oder deaktiviert werden. Der Standardwert ist "$false", was bedeutet, dass es standardmäßig keine Ankündigungen gibt, wenn Teilnehmer einer Konferenz beitreten oder diese verlassen. Der Besprechungsorganisator kann diese Einstellung beim Planen einer Besprechung außer Kraft setzen.
     
-    **EntryExitAnnouncementsType**   gibt die Aktion an, die ausgeführt wird, wenn ein Teilnehmer einer Konferenz Beitritt oder diese verlässt, für die Ankündigungen aktiviert sind. Der Standardwert ist "UseNames", was bedeutet, dass eine Ansage ähnlich der folgenden vorliegt: "Ken Myers hat der Konferenz beigetreten, wenn Ankündigungen aktiviert sind.
+    **EntryExitAnnouncementsType**     Gibt die Aktion an, die ausgeführt wird, wenn ein Teilnehmer einer Konferenz Beitritt oder diese verlässt, für die Ankündigungen aktiviert sind. Der Standardwert ist "UseNames", was bedeutet, dass eine Ansage ähnlich der folgenden vorliegt: "Ken Myers hat der Konferenz beigetreten, wenn Ankündigungen aktiviert sind.
     
     Sie können diese Einstellungen auf globaler Ebene oder auf Standortebene konfigurieren. Auf Standortebene konfigurierte Einstellungen haben Vorrang vor den auf globaler Ebene konfigurierten Einstellungen.
     

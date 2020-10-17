@@ -12,20 +12,22 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddfd9bc59a42a8ab8cad77fa0c434adc1da02c27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 16098a1d549c155f9a642f7e68f056f07973217d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524372"
 ---
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Peer-zu-Peer-Chat Bericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Peer-zu-Peer-Chat Bericht in lync Server 2013
+
 
 </div>
 
@@ -194,7 +196,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 <td><p>Nein</p></td>
 <td><p>Der von den Sitzungsteilnehmern verwendete Authentifizierungstyp. Folgende Werte sind möglich:</p>
 <ul>
-<li><p>Unternehmen</p></li>
+<li><p>Enterprise</p></li>
 <li><p>Verbund</p></li>
 <li><p>PIC</p></li>
 </ul></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2a2ee39440ec339fc7bf0757d1882f0be199659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 212a640577d55e80225a597c9263b7a2573d257f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216611"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524532"
 ---
+# <a name="operations-guide-for-lync-server-2013"></a>Betriebsanleitung für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Betriebsanleitung für lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216611"
 
 _**Letztes Änderungsstand des Themas:** 2014-08-18_
 
-In diesem Dokument werden die Betriebsprozesse, Aufgaben und Tools beschrieben, die für die Verwaltung einer Microsoft lync Server 2013 Kommunikationssoftware Umgebung erforderlich sind. In diesem Artikel wird erklärt, wie Sie lync Server 2013 entsprechend dem Microsoft Operations Framework (MOF)-Modell verwalten, und Sie unterstützen Sie beim Entwerfen einer effizienten Betriebsverwaltungsumgebung, einschließlich der Implementierung von Zeitplänen, Prozessen und Verfahren zur Verwaltung einer effiziente Arbeitsumgebung.
+In diesem Dokument werden die Betriebsprozesse, Aufgaben und Tools beschrieben, die für die Verwaltung einer Microsoft lync Server 2013 Kommunikationssoftware Umgebung erforderlich sind. In diesem Artikel wird erklärt, wie Sie lync Server 2013 entsprechend dem Microsoft Operations Framework (MOF)-Modell verwalten, und Sie unterstützen Sie beim Entwerfen einer effizienten Betriebsverwaltungsumgebung, die die Implementierung von Zeitplänen, Prozessen und Verfahren zur Aufrechterhaltung einer effizienten Arbeitsumgebung umfasst.
 
 <div>
 

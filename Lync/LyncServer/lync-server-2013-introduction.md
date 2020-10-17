@@ -12,20 +12,22 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b25a989913db4e76b306eaaf7efba38612a2315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2878f47fcace98bbd9e156f24c2b87e85faf728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525232"
 ---
+# <a name="introduction-to-lync-server-2013"></a>Einführung in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction-to-lync-server-2013"></a>Einführung in Lync Server 2013
+
 
 </div>
 
@@ -90,7 +92,7 @@ In dieser Tabelle und den folgenden Abschnitten werden die wichtigsten Funktions
 </tr>
 <tr class="odd">
 <td><p>Unterstützung für mobile Clients</p></td>
-<td><p>Außerdem können Ihre Benutzer mit lync Server Mobilitätsdiensten auf lync-Funktionen zugreifen, wenn Sie unterstützte Apple IOS-, Android-, Windows Phone-oder Nokia-Mobilgeräte verwenden und Aktivitäten wie das Senden und empfangen von Chatnachrichten, das Anzeigen von Kontakten durchführen. und Anzeigen der Anwesenheit. Zudem unterstützen mobile Geräte einige Enterprise-VoIP-Features, beispielsweise die Teilnahme an einer Besprechung durch Klicken, Geschäftlich anrufen, Erreichbarkeit unter einer Nummer, Voicemail und Anrufe in Abwesenheit. Push-Benachrichtigungen werden auch für mobile Geräte unterstützt, die Anwendungen, die im Hintergrund ausgeführt werden, nicht unterstützen.</p></td>
+<td><p>Außerdem können Ihre Benutzer mit lync Server Mobilitätsdiensten auf lync-Funktionen zugreifen, wenn Sie unterstützte Apple IOS-, Android-, Windows Phone-oder Nokia-Mobilgeräte verwenden, und führen Sie solche Aktivitäten aus, wie das Senden und empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen der Anwesenheit. Zudem unterstützen mobile Geräte einige Enterprise-VoIP-Features, beispielsweise die Teilnahme an einer Besprechung durch Klicken, Geschäftlich anrufen, Erreichbarkeit unter einer Nummer, Voicemail und Anrufe in Abwesenheit. Push-Benachrichtigungen werden auch für mobile Geräte unterstützt, die Anwendungen, die im Hintergrund ausgeführt werden, nicht unterstützen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Integration in andere Produkte</p></td>

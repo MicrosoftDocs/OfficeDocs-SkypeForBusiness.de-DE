@@ -12,20 +12,22 @@ ms:contentKeyID: 48185597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 685e8ae3e767e3dc237da1698fd593a9c56021c8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76dda06baa4e5fab51ca44586f7f8fce00860695
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523612"
 ---
+# <a name="tblprincipalrole-in-lync-server-2013"></a>tblPrincipalRole in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalrole-in-lync-server-2013"></a>tblPrincipalRole in lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ tblPrincipalRole enthält explizite Rollen, die Knoten zugeordnet sind.
 </tr>
 <tr class="even">
 <td><p>prinRolePrinID</p></td>
-<td><p>int, not null</p></td>
+<td><p>int, nicht NULL</p></td>
 <td><p>Prinzipal-ID</p></td>
 </tr>
 <tr class="odd">

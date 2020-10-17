@@ -12,20 +12,22 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc7c6de27a4ccc9cd05777476ac4abc7d6fc9f58
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53e47232a6345749f78f6136929209722a83621e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524392"
 ---
+# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013
+
 
 </div>
 
@@ -204,7 +206,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht
 <tr class="odd">
 <td><p><strong>Anzahl der erwarteten Fehler</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Sitzungen, &quot;bei denen&quot; ein erwarteter Fehler aufgetreten ist.</p>
+<td><p>Die Gesamtzahl der Sitzungen, bei denen ein &quot; Erwarteter Fehler &quot; aufgetreten ist.</p>
 <p>Ein erwarteter Fehler ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf Nicht stören festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +217,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht
 <tr class="odd">
 <td><p><strong>Anzahl der unerwarteten Fehler</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Sitzungen, &quot;bei denen&quot; ein unerwarteter Fehler aufgetreten ist.</p>
+<td><p>Die Gesamtzahl der Sitzungen, bei denen ein &quot; unerwarteter Fehler &quot; aufgetreten ist.</p>
 <p>Ein unerwarteter Fehler ist ein Fehler, der in einem System auftritt, das abgesehen davon anscheinend intakt ist. Beispielsweise sollte ein Anruf nicht beendet werden, wenn der Anrufer in der Warteschleife platziert ist. Geschieht dies jedoch, würde dieser Vorgang als unerwarteter Fehler gekennzeichnet werden.</p></td>
 </tr>
 <tr class="even">

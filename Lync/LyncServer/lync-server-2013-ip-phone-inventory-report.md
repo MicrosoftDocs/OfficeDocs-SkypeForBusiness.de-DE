@@ -12,20 +12,22 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb24be3ba069bcf900c86c4e4b45ef31420a3ff9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0be055238c2e8db45337b9e66d936bb73c73e61
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525202"
 ---
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Inventurbericht über IP-Telefone in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Inventurbericht über IP-Telefone in lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Der Zugriff auf den Bericht für den IP-Telefonbestand erfolgt über die Startse
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Optimale Nutzung des Berichts für den IP-Telefonbestand
 
-Wenn Sie nur an Verwendungsinformationen für eine bestimmte Art von Telefon interessiert sind (beispielsweise "wie oft verwenden Benutzer ein Polycom CX600-Telefon?"), können Sie diese Informationen direkt aus dem IP-Telefon Inventurbericht abrufen, indem Sie nach dieser bestimmten Art von Telefon filtern. Wenn Sie jedoch zusammenfassende Informationen für alle Telefone wünschen (wie viele Benutzer eine Polycom CX600 verwenden, wie viele eine LG-Nortel-IP8540 verwenden, usw.), müssen Sie die Daten exportieren und eine andere Anwendung (wie Windows PowerShell) für diesen Typ von verwenden. Analyse. Nehmen Sie beispielsweise an, dass Sie die Daten in eine Datei mit Komma getrennten Werten exportieren\\(\\C\_:\_Data\_IP Phone Inventory Report. CSV). In diesem Fall können Sie diese beiden Befehle verwenden, um zusammenfassende Daten für alle Telefone bereitzustellen:
+Wenn Sie nur an Verwendungsinformationen für eine bestimmte Art von Telefon interessiert sind (beispielsweise "wie oft verwenden Benutzer ein Polycom CX600-Telefon?"), können Sie diese Informationen direkt aus dem IP-Telefon Inventurbericht abrufen, indem Sie nach dieser bestimmten Art von Telefon filtern. Wenn Sie jedoch Zusammenfassungsinformationen für alle Telefone wünschen (wie viele Benutzer eine Polycom CX600 verwenden, wie viele eine LG-Nortel IP8540 verwenden, usw.), müssen Sie die Daten exportieren und eine andere Anwendung (beispielsweise Windows PowerShell) für diese Art von Analyse verwenden. Nehmen Sie beispielsweise an, dass Sie die Daten in eine Datei mit Komma getrennten Werten exportieren (C: \\ Data \\ IP \_ Phone \_ Inventory \_Report.csv). In diesem Fall können Sie diese beiden Befehle verwenden, um zusammenfassende Daten für alle Telefone bereitzustellen:
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending

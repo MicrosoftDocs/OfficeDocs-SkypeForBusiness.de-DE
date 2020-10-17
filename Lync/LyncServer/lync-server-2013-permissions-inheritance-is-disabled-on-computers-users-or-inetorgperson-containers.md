@@ -12,20 +12,22 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f0ac6b7614da844a35f97070b61f1b074a4367
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd6e20c510c1a26b3fc367c853d08469798ff765
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524322"
 ---
+# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>Die Vererbung von Berechtigungen ist für Computer-, Benutzer-oder inetOrgPerson-Container in lync Server 2013 deaktiviert.
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>Die Vererbung von Berechtigungen ist für Computer-, Benutzer-oder inetOrgPerson-Container in lync Server 2013 deaktiviert.
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42215561"
 
 _**Letztes Änderungsstand des Themas:** 2014-12-19_
 
-In einer gesperrten Active Directory-Domänendienste werden Benutzer und Computer Objekte häufig in bestimmten Organisationseinheiten (Organizational Units, OUs) mit deaktivierten Berechtigungen vererbt, um eine sichere administrative Delegierung zu gewährleisten und die Verwendung von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs) zu ermöglichen. zum Erzwingen von Sicherheitsrichtlinien.
+In einer gesperrten Active Directory-Domänendienste werden Benutzer und Computer Objekte häufig in bestimmten Organisationseinheiten (Organizational Units, OUs) mit deaktivierten Berechtigungen vererbt, um eine sichere administrative Delegierung zu gewährleisten und die Verwendung von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs) zum Erzwingen von Sicherheitsrichtlinien zu ermöglichen.
 
 Domänenvorbereitung und Serveraktivierung legen Sie die für lync Server 2013 erforderlichen Zugriffssteuerungseinträge (Access Control Entries, ACEs) fest. Wenn die Vererbung von Berechtigungen deaktiviert ist, können die lync Server Sicherheitsgruppen diese ACEs nicht erben. Wenn diese Berechtigungen nicht vererbt werden, können lync Server Sicherheitsgruppen nicht auf Einstellungen zugreifen, und es treten die folgenden beiden Probleme auf:
 
-  - Um Benutzer, InetOrgPersons und Kontakte zu verwalten und Server zu betreiben, erfordern die lync Server Sicherheitsgruppen ACEs, die von der Domänen Vorbereitungs Prozedur für die Eigenschaftensätze der einzelnen Benutzer, Echtzeitkommunikation (RTC), RTC-Benutzersuche und öffentliche Informationen festgelegt sind. . Wenn die Vererbung von Berechtigungen deaktiviert ist, werden diese Zugriffssteuerungseinträge von den Sicherheitsgruppen nicht geerbt, sodass diese keine Server oder Benutzer verwalten können.
+  - Um Benutzer, InetOrgPersons und Kontakte zu verwalten und Server zu betreiben, erfordern die lync Server Sicherheitsgruppen ACEs, die von der Domänen Vorbereitungs Prozedur auf den Eigenschaftensätzen der einzelnen Benutzer, RTC (Real-Time Communications), RTC-Benutzersuche und öffentlichen Informationen festgelegt sind. Wenn die Vererbung von Berechtigungen deaktiviert ist, werden diese Zugriffssteuerungseinträge von den Sicherheitsgruppen nicht geerbt, sodass diese keine Server oder Benutzer verwalten können.
 
   - Zum Ermitteln von Servern und Pools beruhen Server mit lync Server auf ACEs, die durch Aktivierung für computerbezogene Objekte festgelegt wurden, einschließlich des Microsoft-Containers und des Server Objekts. Wenn die Vererbung von Berechtigungen deaktiviert ist, werden diese Zugriffssteuerungseinträge von Sicherheitsgruppen, Servern und Pools nicht geerbt und können nicht verwendet werden.
 
@@ -70,11 +72,11 @@ Sie benötigen für die Ausführung dieses Cmdlets entsprechende Benutzerrechte 
     
     Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
     
-    Zum Beispiel:
+    Beispiel:
     
         Grant-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net"
 
-4.  Suchen Sie in der Protokolldatei nach ** \<dem\> ** Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, um sicherzustellen, dass die Berechtigungen festgelegt wurden, und schließen Sie dann das Protokollfenster. Sie können auch den folgenden Befehl ausführen, um zu bestimmen, ob die Berechtigungen festgelegt wurden:
+4.  Suchen Sie in der Protokolldatei **\<Success\>** am Ende jeder Aufgabe nach dem Ausführungsergebnis, um sicherzustellen, dass die Berechtigungen festgelegt wurden, und schließen Sie dann das Protokollfenster. Sie können auch den folgenden Befehl ausführen, um zu bestimmen, ob die Berechtigungen festgelegt wurden:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> 
@@ -110,16 +112,16 @@ Sie benötigen für die Ausführung dieses Cmdlets entsprechende Benutzerrechte 
     
     Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
     
-    Zum Beispiel:
+    Beispiel:
     
         Grant-CsOuPermission -ObjectType "Computer" -OU "ou=Lync Servers,dc=litwareinc,dc=com" -Report "C:\Logs\OUPermissions.xml"
 
-4.  In der Beispielprotokolldatei C:\\Logs\\OUPermissions. XML würden Sie nach ** \<\> ** dem Ergebnis der Erfolgs Ausführung am Ende jeder Aufgabe suchen und sicherstellen, dass keine Fehler vorliegen, und dann das Protokoll schließen. Sie können das folgende Cmdlet ausführen, um Berechtigungen zu testen:
+4.  In der Beispielprotokolldatei C: \\ Logs \\OUPermissions.xml würden Sie **\<Success\>** am Ende jeder Aufgabe nach dem Ausführungsergebnis suchen und sicherstellen, dass keine Fehler vorliegen, und dann das Protokoll schließen. Sie können das folgende Cmdlet ausführen, um Berechtigungen zu testen:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
     
-    Zum Beispiel:
+    Beispiel:
     
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
@@ -127,7 +129,7 @@ Sie benötigen für die Ausführung dieses Cmdlets entsprechende Benutzerrechte 
     
 
     > [!NOTE]  
-    > Wenn Sie die Domänenvorbereitung in der Gesamtstruktur-Stammdomäne in einer gesperrten Active Directory Umgebung ausführen, müssen Sie beachten, dass lync Server Zugriff auf das Active Directory-Schema und die Konfigurationscontainer benötigt.<BR>Wenn die standardmäßige Berechtigung "authentifizierter Benutzer" aus dem Schema oder den Konfigurations&nbsp;Containern in AD DS entfernt wird, dürfen nur Mitglieder der Gruppe "Schema-Admins" (für den Schemacontainer) oder der Gruppe "Organisations-Admins" (für den Konfigurationscontainer) auf den angegebenen Container zugreifen. Da Setup. exe, lync Server-Verwaltungsshell-Cmdlets und lync Server-Systemsteuerung Zugriff auf diese Container benötigen, tritt beim Setup und bei der Installation der Verwaltungstools ein Fehler auf, es sei denn, der Benutzer, der die Installation ausführt, verfügt über Benutzerrechte, die dem Schema entsprechen. Gruppenmitgliedschaft von Administratoren und Organisations-Admins.<BR>Um dieses Problem zu beheben, müssen Sie der Gruppe "RTCUniversalGlobalWriteGroup" Lese- und Schreibberechtigungen für die Schema- und Konfigurationscontainer gewähren.
+    > Wenn Sie die Domänenvorbereitung in der Gesamtstruktur-Stammdomäne in einer gesperrten Active Directory Umgebung ausführen, müssen Sie beachten, dass lync Server Zugriff auf das Active Directory-Schema und die Konfigurationscontainer benötigt.<BR>Wenn die standardmäßige Berechtigung "authentifizierter Benutzer" aus dem Schema oder den Konfigurationscontainern in AD DS entfernt wird &nbsp; , dürfen nur Mitglieder der Gruppe "Schema-Admins" (für den Schemacontainer) oder der Gruppe "Organisations-Admins" (für den Konfigurationscontainer) auf den angegebenen Container zugreifen. Da Setup.exe, lync Server-Verwaltungsshell-Cmdlets und lync Server-Systemsteuerung Zugriff auf diese Container erfordern, tritt beim Setup und bei der Installation der Verwaltungstools ein Fehler auf, es sei denn, der Benutzer, der die Installation ausführt, verfügt über Benutzerrechte, die den Schema-Admins und den Gruppenmitgliedschaften der Organisations-Admins entsprechen.<BR>Um dieses Problem zu beheben, müssen Sie der Gruppe "RTCUniversalGlobalWriteGroup" Lese- und Schreibberechtigungen für die Schema- und Konfigurationscontainer gewähren.
 
     
     </div>
