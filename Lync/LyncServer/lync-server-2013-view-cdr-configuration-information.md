@@ -12,20 +12,22 @@ ms:contentKeyID: 49733695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7b33f42deeacbc9bd85c03ca865e72df9571abe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60ea87c488c84f76e60d3a4ad1815e8cfcb3d078
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506632"
 ---
+# <a name="view-cdr-configuration-information-in-lync-server-2013"></a><span data-ttu-id="4e920-102">Anzeigen von KDS-Konfigurationsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e920-102">View CDR configuration information in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-cdr-configuration-information-in-lync-server-2013"></a><span data-ttu-id="57bfa-102">Anzeigen von KDS-Konfigurationsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57bfa-102">View CDR configuration information in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "42211591"
 
 <span> </span>
 
-<span data-ttu-id="57bfa-103">_**Letztes Änderungsstand des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="57bfa-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="4e920-103">_**Letztes Änderungsstand des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="4e920-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="57bfa-p101">Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-zu-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.</span><span class="sxs-lookup"><span data-stu-id="57bfa-p101">Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
+<span data-ttu-id="4e920-p101">Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-zu-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.</span><span class="sxs-lookup"><span data-stu-id="4e920-p101">Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
 
-<span data-ttu-id="57bfa-106">Wenn Sie Microsoft lync Server 2013 installieren, wird eine einzelne, globale Auflistung von KDS-Konfigurationseinstellungen für Sie erstellt.</span><span class="sxs-lookup"><span data-stu-id="57bfa-106">When you install Microsoft Lync Server 2013, a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="57bfa-107">Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können.</span><span class="sxs-lookup"><span data-stu-id="57bfa-107">Administrators also have the option of creating custom setting collections that can be applied to individual sites.</span></span> <span data-ttu-id="57bfa-108">Sie können die in Ihrer Organisation verwendeten KDS-Konfigurationseinstellungen mithilfe von lync Server-Systemsteuerung oder mit dem Cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) anzeigen.</span><span class="sxs-lookup"><span data-stu-id="57bfa-108">You can view the CDR configuration settings in use in your organization by using Lync Server Control Panel or the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
+<span data-ttu-id="4e920-106">Wenn Sie Microsoft lync Server 2013 installieren, wird eine einzelne, globale Auflistung von KDS-Konfigurationseinstellungen für Sie erstellt.</span><span class="sxs-lookup"><span data-stu-id="4e920-106">When you install Microsoft Lync Server 2013, a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="4e920-107">Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können.</span><span class="sxs-lookup"><span data-stu-id="4e920-107">Administrators also have the option of creating custom setting collections that can be applied to individual sites.</span></span> <span data-ttu-id="4e920-108">Sie können die in Ihrer Organisation verwendeten KDS-Konfigurationseinstellungen mithilfe von lync Server-Systemsteuerung oder mit dem Cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) anzeigen.</span><span class="sxs-lookup"><span data-stu-id="4e920-108">You can view the CDR configuration settings in use in your organization by using Lync Server Control Panel or the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
 
 <div>
 
-## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="57bfa-109">So zeigen Sie KDS-Konfigurationsinformationen mithilfe von lync Server-Systemsteuerung an</span><span class="sxs-lookup"><span data-stu-id="57bfa-109">To view CDR configuration information by using Lync Server Control Panel</span></span>
+## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="4e920-109">So zeigen Sie KDS-Konfigurationsinformationen mithilfe von lync Server-Systemsteuerung an</span><span class="sxs-lookup"><span data-stu-id="4e920-109">To view CDR configuration information by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="57bfa-110">Klicken Sie in lync Server-Systemsteuerung auf **Überwachung und Archivierung**.</span><span class="sxs-lookup"><span data-stu-id="57bfa-110">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
+1.  <span data-ttu-id="4e920-110">Klicken Sie in lync Server-Systemsteuerung auf **Überwachung und Archivierung**.</span><span class="sxs-lookup"><span data-stu-id="4e920-110">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
 
-2.  <span data-ttu-id="57bfa-p103">Auf der Registerkarte **Aufzeichnung von Kommunikationsdatensätzen** wird eine Liste mit allen KDS-Konfigurationseinstellungen angezeigt; für jede Einstellungsauflistung wird der **Name** der Auflistung angezeigt; ob KDS aktiviert wurde oder nicht (die Eigenschaft **KDS**); und ob die Bereinigung (die Eigenschaft **Bereinigungsfunktion für aufgezeichnete Kommunikationsdatensätze**) aktiviert wurde oder nicht. Sie können detaillierte Informationen zu einer Auflistung anzeigen, indem Sie doppelt auf diese Auflistung klicken. Alternativ können Sie die gewünschte Auflistung auswählen und auf **Bearbeiten** und **Details anzeigen** klicken. Beachten Sie Folgendes: Es können jeweils nur detaillierte Informationen zu einer Auflistung mit KDS-Konfigurationseinstellungen angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="57bfa-p103">A list of all your CDR configuration settings will be displayed in the **Call Detail Recording** tab; for each collection of settings you will see the collection **Name**; whether or not CDR has been enabled (the **CDR** property); and whether or not purging has been enabled (the **CDR purging** property). To see detailed information about a collection, double-click the collection, or select the appropriate collection, click **Edit**, and then click **Show Details**. Note that you can only view detailed information for a single collection of CDR configuration settings at a time.</span></span>
+2.  <span data-ttu-id="4e920-p103">Auf der Registerkarte **Aufzeichnung von Kommunikationsdatensätzen** wird eine Liste mit allen KDS-Konfigurationseinstellungen angezeigt; für jede Einstellungsauflistung wird der **Name** der Auflistung angezeigt; ob KDS aktiviert wurde oder nicht (die Eigenschaft **KDS**); und ob die Bereinigung (die Eigenschaft **Bereinigungsfunktion für aufgezeichnete Kommunikationsdatensätze**) aktiviert wurde oder nicht. Sie können detaillierte Informationen zu einer Auflistung anzeigen, indem Sie doppelt auf diese Auflistung klicken. Alternativ können Sie die gewünschte Auflistung auswählen und auf **Bearbeiten** und **Details anzeigen** klicken. Beachten Sie Folgendes: Es können jeweils nur detaillierte Informationen zu einer Auflistung mit KDS-Konfigurationseinstellungen angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="4e920-p103">A list of all your CDR configuration settings will be displayed in the **Call Detail Recording** tab; for each collection of settings you will see the collection **Name**; whether or not CDR has been enabled (the **CDR** property); and whether or not purging has been enabled (the **CDR purging** property). To see detailed information about a collection, double-click the collection, or select the appropriate collection, click **Edit**, and then click **Show Details**. Note that you can only view detailed information for a single collection of CDR configuration settings at a time.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="57bfa-114">Anzeigen von KDS-Konfigurationsinformationen mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="57bfa-114">Viewing CDR Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="4e920-114">Anzeigen von KDS-Konfigurationsinformationen mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="4e920-114">Viewing CDR Configuration Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="57bfa-115">Sie können KDS-Konfigurationseinstellungen mithilfe von Windows PowerShell und dem Cmdlet Get-CsCdrConfiguration anzeigen.</span><span class="sxs-lookup"><span data-stu-id="57bfa-115">You can view CDR configuration settings by using Windows PowerShell and the Get-CsCdrConfiguration cmdlet.</span></span> <span data-ttu-id="57bfa-116">Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen.</span><span class="sxs-lookup"><span data-stu-id="57bfa-116">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="57bfa-117">Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.</span><span class="sxs-lookup"><span data-stu-id="57bfa-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="4e920-115">Sie können KDS-Konfigurationseinstellungen mithilfe von Windows PowerShell und dem Get-CsCdrConfiguration-Cmdlet anzeigen.</span><span class="sxs-lookup"><span data-stu-id="4e920-115">You can view CDR configuration settings by using Windows PowerShell and the Get-CsCdrConfiguration cmdlet.</span></span> <span data-ttu-id="4e920-116">Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen.</span><span class="sxs-lookup"><span data-stu-id="4e920-116">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="4e920-117">Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="4e920-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-cdr-configuration-information"></a><span data-ttu-id="57bfa-118">So zeigen Sie KDS-Konfigurationsinformationen an</span><span class="sxs-lookup"><span data-stu-id="57bfa-118">To view CDR configuration information</span></span>
+## <a name="to-view-cdr-configuration-information"></a><span data-ttu-id="4e920-118">So zeigen Sie KDS-Konfigurationsinformationen an</span><span class="sxs-lookup"><span data-stu-id="4e920-118">To view CDR configuration information</span></span>
 
-  - <span data-ttu-id="57bfa-119">Wenn Sie Informationen zu allen KDS-Konfigurationseinstellungen anzeigen möchten, geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:</span><span class="sxs-lookup"><span data-stu-id="57bfa-119">To view information about all your CDR configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="4e920-119">Wenn Sie Informationen zu allen KDS-Konfigurationseinstellungen anzeigen möchten, geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:</span><span class="sxs-lookup"><span data-stu-id="4e920-119">To view information about all your CDR configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsCdrConfiguration
     
-    <span data-ttu-id="57bfa-120">Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:</span><span class="sxs-lookup"><span data-stu-id="57bfa-120">That will return information similar to this:</span></span>
+    <span data-ttu-id="4e920-120">Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:</span><span class="sxs-lookup"><span data-stu-id="4e920-120">That will return information similar to this:</span></span>
     
         Identity               : Global
         EnableCDR              : True
@@ -76,7 +78,7 @@ ms.locfileid: "42211591"
 
 </div>
 
-<span data-ttu-id="57bfa-121">Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="57bfa-121">For more information, see the help topic for the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
+<span data-ttu-id="4e920-121">Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="4e920-121">For more information, see the help topic for the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
 
 </div>
 
