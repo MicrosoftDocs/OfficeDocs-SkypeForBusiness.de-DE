@@ -3,7 +3,7 @@ title: Teams in 30
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 7/1/19
+ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -19,18 +19,18 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e108db74324deef93b2306e1d0fda8a8c69ad3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f87375db770db8ef6df85989dd228a4ccb376b02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515872"
 ---
-# <a name="teams-in-30"></a><span data-ttu-id="3e74f-103">Teams in 30</span><span class="sxs-lookup"><span data-stu-id="3e74f-103">Teams in 30</span></span>
+# <a name="teams-in-30"></a><span data-ttu-id="2efef-103">Teams in 30</span><span class="sxs-lookup"><span data-stu-id="2efef-103">Teams in 30</span></span>
 <div id="main" class="v2">
     <div class="container">
-        <p><span data-ttu-id="3e74f-104">Microsoft freut sich, Sie zu <strong>Teams in 30</strong>, einer Reihe von interaktiven interaktiven Workshops einzuladen, die dazu beitragen, mittelständische Organisationen (500-5000-Mitarbeiter) in weniger als 30 Tagen mit Microsoft Teams in Betrieb zu nehmen.</span><span class="sxs-lookup"><span data-stu-id="3e74f-104">Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days.</span></span> <span data-ttu-id="3e74f-105">Besuchen Sie uns, um bewährte Anleitungen und bewährte Methoden zu erfahren und Ihre Team-Fragen beantwortet zu bekommen.</span><span class="sxs-lookup"><span data-stu-id="3e74f-105">Join us to learn time-tested guidance and best practices and get your Teams questions answered.</span></span> <span data-ttu-id="3e74f-106">Workshop-Teilnehmer erhalten auch eine exklusive Einladung zu Open-Mic-Sprechstunden mit einem Team Experten.</span><span class="sxs-lookup"><span data-stu-id="3e74f-106">Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.</span></span>
-           <p><span data-ttu-id="3e74f-107"><font color="#6264A7">Sind Sie bereit, zu springen?</font></span><span class="sxs-lookup"><span data-stu-id="3e74f-107"><font color="#6264A7">Ready to jump in?</font></span></span> <span data-ttu-id="3e74f-108">Wir empfehlen allen Mitgliedern des Projektteams, mit den ersten <i>Schritten mit Teams in 30</i> Sitzungen zu beginnen.</span><span class="sxs-lookup"><span data-stu-id="3e74f-108">We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session.</span></span> <span data-ttu-id="3e74f-109">Klicken Sie unten auf einen Sitzungstitel, um sich anzumelden.</span><span class="sxs-lookup"><span data-stu-id="3e74f-109">Click a session title below to sign up.</span></span>
+        <p><span data-ttu-id="2efef-104">Microsoft freut sich, Sie zu <strong>Teams in 30</strong>, einer Reihe von interaktiven interaktiven Workshops einzuladen, die dazu beitragen, mittelständische Organisationen (500-5000-Mitarbeiter) in weniger als 30 Tagen mit Microsoft Teams in Betrieb zu nehmen.</span><span class="sxs-lookup"><span data-stu-id="2efef-104">Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days.</span></span> <span data-ttu-id="2efef-105">Besuchen Sie uns, um bewährte Anleitungen und bewährte Methoden zu erfahren und Ihre Team-Fragen beantwortet zu bekommen.</span><span class="sxs-lookup"><span data-stu-id="2efef-105">Join us to learn time-tested guidance and best practices and get your Teams questions answered.</span></span> <span data-ttu-id="2efef-106">Workshop-Teilnehmer erhalten auch eine exklusive Einladung zu Open-Mic-Sprechstunden mit einem Team Experten.</span><span class="sxs-lookup"><span data-stu-id="2efef-106">Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.</span></span>
+           <p><span data-ttu-id="2efef-107"><font color="#6264A7">Sind Sie bereit, zu springen?</font></span><span class="sxs-lookup"><span data-stu-id="2efef-107"><font color="#6264A7">Ready to jump in?</font></span></span> <span data-ttu-id="2efef-108">Wir empfehlen allen Mitgliedern des Projektteams, mit den ersten <i>Schritten mit Teams in 30</i> Sitzungen zu beginnen.</span><span class="sxs-lookup"><span data-stu-id="2efef-108">We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session.</span></span> <span data-ttu-id="2efef-109">Klicken Sie unten auf einen Sitzungstitel, um sich anzumelden.</span><span class="sxs-lookup"><span data-stu-id="2efef-109">Click a session title below to sign up.</span></span>
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -43,9 +43,9 @@ ms.locfileid: "46584104"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><span data-ttu-id="3e74f-110">Erste Schritte mit Teams in 30 (beginnen Sie hier!)</span><span class="sxs-lookup"><span data-stu-id="3e74f-110">Get started with Teams in 30 (Start here!)</span></span></h3>
-                        <P><span data-ttu-id="3e74f-111">Starten Sie Ihre Teams in 30 Fahrt auf dem rechten Fuß.</span><span class="sxs-lookup"><span data-stu-id="3e74f-111">Start your Teams in 30 journey on the right foot.</span></span> <span data-ttu-id="3e74f-112">Verstehen Sie das Programm, wer teilnehmen soll, und welche Ressourcen können Sie verwenden, um Ihren Erfolg zu gewährleisten.</span><span class="sxs-lookup"><span data-stu-id="3e74f-112">Understand the program, who should participate, and what resources you can use to ensure your success.</span></span></P>
-                        <p><span data-ttu-id="3e74f-113"><i>Zielgruppe: Geschäftssponsoren, IT-Administratoren, Adoptions-und Änderungsbesitzer</i></span><span class="sxs-lookup"><span data-stu-id="3e74f-113"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
+                        <h3><span data-ttu-id="2efef-110">Erste Schritte mit Teams in 30 (beginnen Sie hier!)</span><span class="sxs-lookup"><span data-stu-id="2efef-110">Get started with Teams in 30 (Start here!)</span></span></h3>
+                        <P><span data-ttu-id="2efef-111">Starten Sie Ihre Teams in 30 Fahrt auf dem rechten Fuß.</span><span class="sxs-lookup"><span data-stu-id="2efef-111">Start your Teams in 30 journey on the right foot.</span></span> <span data-ttu-id="2efef-112">Verstehen Sie das Programm, wer teilnehmen soll, und welche Ressourcen können Sie verwenden, um Ihren Erfolg zu gewährleisten.</span><span class="sxs-lookup"><span data-stu-id="2efef-112">Understand the program, who should participate, and what resources you can use to ensure your success.</span></span></P>
+                        <p><span data-ttu-id="2efef-113"><i>Zielgruppe: Geschäftssponsoren, IT-Administratoren, Adoptions-und Änderungsbesitzer</i></span><span class="sxs-lookup"><span data-stu-id="2efef-113"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -63,8 +63,8 @@ ms.locfileid: "46584104"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><span data-ttu-id="3e74f-114">Bereitschaft Ihrer Endbenutzer</span><span class="sxs-lookup"><span data-stu-id="3e74f-114">Ready your end users</span></span></h3>
-                    <p><span data-ttu-id="3e74f-115">Entdecken Sie Strategien und Ressourcen für das Vorbereiten Ihrer Benutzer, das Erstellen eines Kontingents von Champions und die Sicherstellung der Benutzerakzeptanz als zentrale Komponente des Rollouts Ihres Teams.</span><span class="sxs-lookup"><span data-stu-id="3e74f-115">Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</span></span></p><p><span data-ttu-id="3e74f-116"><i>Zielgruppe: annehmen und Ändern von Besitzern</i></span><span class="sxs-lookup"><span data-stu-id="3e74f-116"><i>Audience: Adoption and change owners</i></span></span></p>
+                        <h3><span data-ttu-id="2efef-114">Bereitschaft Ihrer Endbenutzer</span><span class="sxs-lookup"><span data-stu-id="2efef-114">Ready your end users</span></span></h3>
+                    <p><span data-ttu-id="2efef-115">Entdecken Sie Strategien und Ressourcen für das Vorbereiten Ihrer Benutzer, das Erstellen eines Kontingents von Champions und die Sicherstellung der Benutzerakzeptanz als zentrale Komponente des Rollouts Ihres Teams.</span><span class="sxs-lookup"><span data-stu-id="2efef-115">Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</span></span></p><p><span data-ttu-id="2efef-116"><i>Zielgruppe: annehmen und Ändern von Besitzern</i></span><span class="sxs-lookup"><span data-stu-id="2efef-116"><i>Audience: Adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@ ms.locfileid: "46584104"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3><span data-ttu-id="3e74f-117">Vorbereiten Ihrer Umgebung – Teil I</span><span class="sxs-lookup"><span data-stu-id="3e74f-117">Prepare your environment - Part I</span></span></h3>
-                    <p><span data-ttu-id="3e74f-118">Setzen Sie die Grundlage für das Rollout Ihres Teams.</span><span class="sxs-lookup"><span data-stu-id="3e74f-118">Set the foundation for your Teams rollout.</span></span> <span data-ttu-id="3e74f-119">Ermitteln der Voraussetzungen für Teams, bewährte Methoden für Netzwerke und Sicherheit, Koexistenz-Richtlinien, Analysen und Berichte sowie Empfehlungen für die Client Verteilung.</span><span class="sxs-lookup"><span data-stu-id="3e74f-119">Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations.</span></span></p><p><span data-ttu-id="3e74f-120"><i>Zielgruppe: IT-Administratoren</i></span><span class="sxs-lookup"><span data-stu-id="3e74f-120"><i>Audience: IT admins</i></span></span></p>
+                    <h3><span data-ttu-id="2efef-117">Vorbereiten Ihrer Umgebung – Teil I</span><span class="sxs-lookup"><span data-stu-id="2efef-117">Prepare your environment - Part I</span></span></h3>
+                    <p><span data-ttu-id="2efef-118">Setzen Sie die Grundlage für das Rollout Ihres Teams.</span><span class="sxs-lookup"><span data-stu-id="2efef-118">Set the foundation for your Teams rollout.</span></span> <span data-ttu-id="2efef-119">Ermitteln der Voraussetzungen für Teams, bewährte Methoden für Netzwerke und Sicherheit, Koexistenz-Richtlinien, Analysen und Berichte sowie Empfehlungen für die Client Verteilung.</span><span class="sxs-lookup"><span data-stu-id="2efef-119">Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations.</span></span></p><p><span data-ttu-id="2efef-120"><i>Zielgruppe: IT-Administratoren</i></span><span class="sxs-lookup"><span data-stu-id="2efef-120"><i>Audience: IT admins</i></span></span></p>
 </div>
                 </div>
             </div>
@@ -100,8 +100,8 @@ ms.locfileid: "46584104"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><span data-ttu-id="3e74f-121">Vorbereiten Ihrer Umgebung – Teil II</span><span class="sxs-lookup"><span data-stu-id="3e74f-121">Prepare your environment - Part II</span></span></h3>
-                    <p><span data-ttu-id="3e74f-122">Nachdem Sie die Grundlagen eingerichtet haben, sollten Sie sich mit den bewährten Methoden für die Implementierung von Compliance, Aufbewahrung, Governance und Audiokonferenzen für Teams vertraut machen.</span><span class="sxs-lookup"><span data-stu-id="3e74f-122">Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams.</span></span></p><p><span data-ttu-id="3e74f-123"><i>Zielgruppe: IT-Administratoren</i></span><span class="sxs-lookup"><span data-stu-id="3e74f-123"><i>Audience: IT admins</i></span></span></p>
+                        <h3><span data-ttu-id="2efef-121">Vorbereiten Ihrer Umgebung – Teil II</span><span class="sxs-lookup"><span data-stu-id="2efef-121">Prepare your environment - Part II</span></span></h3>
+                    <p><span data-ttu-id="2efef-122">Nachdem Sie die Grundlagen eingerichtet haben, sollten Sie sich mit den bewährten Methoden für die Implementierung von Compliance, Aufbewahrung, Governance und Audiokonferenzen für Teams vertraut machen.</span><span class="sxs-lookup"><span data-stu-id="2efef-122">Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams.</span></span></p><p><span data-ttu-id="2efef-123"><i>Zielgruppe: IT-Administratoren</i></span><span class="sxs-lookup"><span data-stu-id="2efef-123"><i>Audience: IT admins</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -119,9 +119,9 @@ ms.locfileid: "46584104"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3><span data-ttu-id="3e74f-124">Optimieren und erweitern</span><span class="sxs-lookup"><span data-stu-id="3e74f-124">Optimize and expand</span></span></h3>
-                    <p><span data-ttu-id="3e74f-125">Entwerfen Sie einen Plan, der die Optimierung der Dienstleistung, die Erweiterung der Teamfunktionen und die Onboarding von neuen Benutzern umfasst.</span><span class="sxs-lookup"><span data-stu-id="3e74f-125">Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users.</span></span></p>
-                    <p><span data-ttu-id="3e74f-126"><i>Zielgruppe: Geschäftssponsoren, IT-Administratoren, Adoptions-und Änderungsbesitzer</i></span><span class="sxs-lookup"><span data-stu-id="3e74f-126"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
+                    <h3><span data-ttu-id="2efef-124">Optimieren und erweitern</span><span class="sxs-lookup"><span data-stu-id="2efef-124">Optimize and expand</span></span></h3>
+                    <p><span data-ttu-id="2efef-125">Entwerfen Sie einen Plan, der die Optimierung der Dienstleistung, die Erweiterung der Teamfunktionen und die Onboarding von neuen Benutzern umfasst.</span><span class="sxs-lookup"><span data-stu-id="2efef-125">Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users.</span></span></p>
+                    <p><span data-ttu-id="2efef-126"><i>Zielgruppe: Geschäftssponsoren, IT-Administratoren, Adoptions-und Änderungsbesitzer</i></span><span class="sxs-lookup"><span data-stu-id="2efef-126"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -139,10 +139,10 @@ ms.locfileid: "46584104"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3><span data-ttu-id="3e74f-127">Teams Chalk Talks</span><span class="sxs-lookup"><span data-stu-id="3e74f-127">Teams Chalk Talks</span></span></h3>
-                    <p><span data-ttu-id="3e74f-128">Diese interaktiven Online-Workshops, die von Sachverständigen unterstützt werden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu finden.</span><span class="sxs-lookup"><span data-stu-id="3e74f-128">Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</span></span> <span data-ttu-id="3e74f-129">Bei Kreide Gesprächen wird davon ausgegangen, dass Sie einen einfachen Teams-Rollout abgeschlossen haben</span><span class="sxs-lookup"><span data-stu-id="3e74f-129">Chalk Talks assume you've completed a basic Teams rollout.</span></span></p>
-                    <p><span data-ttu-id="3e74f-130"><strong>Voraussetzung</strong>: Teams in 30 Workshops oder bereits für Teams in Ihrer Organisation aktiviert.</span><span class="sxs-lookup"><span data-stu-id="3e74f-130"><strong>Prerequisite</strong>: Teams in 30 workshop attendance OR already enabled for Teams across your organization.</span></span></p>
-                    <p><span data-ttu-id="3e74f-131"><i>Zielgruppe: IT-Administratoren</i></span><span class="sxs-lookup"><span data-stu-id="3e74f-131"><i>Audience: IT admins</i></span></span></p>
+                    <h3><span data-ttu-id="2efef-127">Teams Chalk Talks</span><span class="sxs-lookup"><span data-stu-id="2efef-127">Teams Chalk Talks</span></span></h3>
+                    <p><span data-ttu-id="2efef-128">Diese interaktiven Online-Workshops, die von Sachverständigen unterstützt werden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu finden.</span><span class="sxs-lookup"><span data-stu-id="2efef-128">Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</span></span> <span data-ttu-id="2efef-129">Bei Kreide Gesprächen wird davon ausgegangen, dass Sie einen einfachen Teams-Rollout abgeschlossen haben</span><span class="sxs-lookup"><span data-stu-id="2efef-129">Chalk Talks assume you've completed a basic Teams rollout.</span></span></p>
+                    <p><span data-ttu-id="2efef-130"><strong>Voraussetzung</strong>: Teams in 30 Workshops oder bereits für Teams in Ihrer Organisation aktiviert.</span><span class="sxs-lookup"><span data-stu-id="2efef-130"><strong>Prerequisite</strong>: Teams in 30 workshop attendance OR already enabled for Teams across your organization.</span></span></p>
+                    <p><span data-ttu-id="2efef-131"><i>Zielgruppe: IT-Administratoren</i></span><span class="sxs-lookup"><span data-stu-id="2efef-131"><i>Audience: IT admins</i></span></span></p>
                     </div>
                 </div>
             </div>
