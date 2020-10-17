@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konferenzrichtlinien'
+description: 'Lync Server 2013: Konferenzrichtlinien.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 681dbf0d6786656afcee12120e1b26d95bee41df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6f117cfb077fc24c3e728e208d8bef78cd3284ae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502302"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542741"
 ---
 # <a name="conferencing-policies-in-lync-server-2013"></a>Konferenzrichtlinien in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren Microsoft SharePoint Server 2013 für die Suche nach archivierten lync Server 2013 Daten'
+description: 'Lync Server 2013: Konfigurieren Microsoft SharePoint Server 2013 für die Suche nach archivierten lync Server 2013 Daten.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d831638cf25df4f9c1b792c34815e8bed8c15e8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aeabe49bb4f4e71bac7017497f3aadd9799bf515
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525872"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542761"
 ---
 # <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>Konfigurieren Microsoft SharePoint Server 2013 für die Suche nach archivierten Microsoft lync Server 2013 Daten
 

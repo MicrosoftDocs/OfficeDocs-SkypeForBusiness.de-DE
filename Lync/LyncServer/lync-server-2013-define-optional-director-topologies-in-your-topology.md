@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Definieren von optionalen Director-Topologien in Ihrer Topologie'
+description: 'Lync Server 2013: definieren Sie die optionalen Director-Topologien in Ihrer Topologie.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e53512d2d3c0bd99c4d5b23d20f21859ec974415
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5bc82108d4277969489739fc81db07ec6f96bb96
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504572"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542652"
 ---
 # <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Definieren von optionalen Director-Topologien in Ihrer Topologie für lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Integration von Verwaltungstools für beständigen Chat'
+description: 'Lync Server 2013: Integration von Verwaltungstools für beständigen Chat.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19814b3fb193ffb23c53c72929d7597f51ca046a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 55ca6403aca43b9bb197f925add9e73dde8e6493
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498502"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543956"
 ---
 # <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>Integration von Verwaltungstools für beständigen Chat in lync Server 2013
 

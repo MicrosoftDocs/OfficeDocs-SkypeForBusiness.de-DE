@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
+description: Konfigurieren Sie Verbund Routen und den Mediendatenverkehr.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b07e0bfe62fe6d09521d1f9d5dc2d84aa975d5e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: de26f472bddc504ff79e427b5243587f27020c3d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503352"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542981"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
