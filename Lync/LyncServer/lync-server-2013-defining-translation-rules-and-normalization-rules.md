@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Definieren von Übersetzungsregeln und Normalisierungsregeln'
+description: 'Lync Server 2013: Definieren von Übersetzungsregeln und Normalisierungsregeln.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d77562edd0b29bb176b7793b9f87efc717c2214
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c5b0e174d7eb1f22b8a2fb35a6ddfffd3da5d636
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504462"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570711"
 ---
 # <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>Definieren von Übersetzungsregeln und Normalisierungsregeln in lync Server 2013
 

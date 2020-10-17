@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Bereitstellen der lync Windows Store-App'
+description: 'Lync Server 2013: Bereitstellen der lync Windows Store-App.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aaae8df4d21e3aa766bd452c5ffd697dce30660a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b9260d656079fb694a14aadf5049ca36241830c0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507482"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571711"
 ---
 # <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Bereitstellen der lync Windows Store-App in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren einer lokalen Bereitstellung für Hybrid mit lync Online
+description: Konfigurieren einer lokalen Bereitstellung für Hybrid mit lync online.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dae2fadbfa9a51d322189be028d835432c796d0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 717900389db98fc14513a7d54bd37813757f98ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517622"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570941"
 ---
 # <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Konfigurieren einer lokalen Bereitstellung für Hybrid mit lync Online
 

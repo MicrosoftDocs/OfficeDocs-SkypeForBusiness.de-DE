@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zertifikatzusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten'
+description: 'Lync Server 2013: Zertifikatzusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdc4bba8064332d7fa3f90d0d6a3d4b9f6cef9e6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: abf5a01bdeb03da158e221c623417a1b42cc82f8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512782"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572331"
 ---
 # <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Zertifikatzusammenfassung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013
 

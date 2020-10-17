@@ -1,5 +1,6 @@
 ---
 title: 'Phase 1: Planen der Migration von Office Communications Server 2007 R2'
+description: 'Phase 1: Planen der Migration von Office Communications Server 2007 R2.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64414268ef1ca38302eed360810b92706bf3ce89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 67a05fb6782b22d7a4efb70702c8c2378cd6bde3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533782"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571211"
 ---
 # <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>Phase 1: Planen der Migration von Office Communications Server 2007 R2
 
@@ -45,15 +46,15 @@ In diesem Abschnitt werden die Planungsthemen für die Migration von Office Comm
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Benutzermigration](user-migration_1.md)
+  - [Benutzermigration](user-migration.md)
 
-  - [Migrieren von Archivierungsservern und Monitoring Servern](migrating-archiving-and-monitoring-servers_1.md)
+  - [Migrieren von Archivierungsservern und Monitoring Servern](migrating-archiving-and-monitoring-servers.md)
 
-  - [Verwalten von Servern nach der Migration](administering-servers-after-migration_1.md)
+  - [Verwalten von Servern nach der Migration](administering-servers-after-migration.md)
 
-  - [Migrieren von mehreren Standorten und Pools](migrating-multiple-sites-and-pools_1.md)
+  - [Migrieren von mehreren Standorten und Pools](migrating-multiple-sites-and-pools.md)
 
-  - [Migrieren eines XMPP-Partnerverbunds](migrating-xmpp-federation_1.md)
+  - [Migrieren eines XMPP-Partnerverbunds](migrating-xmpp-federation.md)
 
 </div>
 

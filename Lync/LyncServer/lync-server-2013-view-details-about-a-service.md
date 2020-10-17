@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Anzeigen von Details zu einem Dienst'
+description: 'Lync Server 2013: Anzeigen von Details zu einem Dienst.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0769c8cc327a3cc4889a79f32bb5b9af0b1e3087
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 09cc5a86748f18a9a032fbf7e90682f46b324902
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211501"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572441"
 ---
+# <a name="view-details-about-a-service-in-lync-server-2013"></a>Anzeigen von Details zu einem Dienst in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-details-about-a-service-in-lync-server-2013"></a>Anzeigen von Details zu einem Dienst in lync Server 2013
+
 
 </div>
 

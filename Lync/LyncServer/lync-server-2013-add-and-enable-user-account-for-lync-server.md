@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hinzufügen und Aktivieren des Benutzerkontos für lync Server'
+description: 'Lync Server 2013: Fügen Sie das Benutzerkonto für lync Server hinzu, und aktivieren Sie es.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1277887e6ed866a832edce276f21195fb74f6e92
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4f70ae2da122a0db3986a75677c1d29234fbe0e3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499552"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571811"
 ---
 # <a name="add-and-enable-user-account-for-lync-server-2013"></a>Hinzufügen und Aktivieren des Benutzerkontos für lync Server 2013
 

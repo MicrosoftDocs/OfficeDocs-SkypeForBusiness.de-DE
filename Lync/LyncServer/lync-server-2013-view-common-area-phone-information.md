@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Anzeigen von Telefon Informationen für allgemeine Bereiche'
+description: 'Lync Server 2013: anzeigen allgemeiner Bereichs Telefon Informationen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b2a3bc8191b093e589d74d9783ddb6323cf3b2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e4debe9a76118ac0bf1ca711426ce5487009a053
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506542"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572471"
 ---
 # <a name="view-common-area-phone-information-in-lync-server-2013"></a>Anzeigen von Informationen zu Telefonen in öffentlichen Bereichen in lync Server 2013
 
