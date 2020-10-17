@@ -12,20 +12,22 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5bd99e487aa596bdf3b32db77d8deb2cfab9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536132"
 ---
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Technische Anforderungen für den Server für beständigen Chat in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Technische Anforderungen für den Server für beständigen Chat in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-01-06_
 
 Jeder Computer, der den Server für beständigen Chat hostet, muss Zugriff auf eine vorhandene lync Server 2013 Topologie mit den folgenden Komponenten haben:
 
-  - **Lync Server 2013, Front-End-Server.**  Das Front-End-Server ist die Grundlage für das SIP-Routing (Session Initiation Protocol), das die Kommunikation zwischen Computern mit persistent Chat Server und der Funktion für beständigen Chat ermöglicht. Bevor Sie mit der Bereitstellung des Servers für beständigen Chat beginnen, überprüfen Sie die Bereitstellung von lync Server 2013, Standard Edition oder einer lync Server Front-End-Pool sowie alle anderen internen Computer, die lync Server entsprechend Ihrer Organisation ausführen.
+  - **Lync Server 2013, Front-End-Server.**   Das Front-End-Server ist die Grundlage für das SIP-Routing (Session Initiation Protocol), das die Kommunikation zwischen Computern mit persistent Chat Server und der Funktion für beständigen Chat ermöglicht. Bevor Sie mit der Bereitstellung des Servers für beständigen Chat beginnen, überprüfen Sie die Bereitstellung von lync Server 2013, Standard Edition oder einer lync Server Front-End-Pool sowie alle anderen internen Computer, die lync Server entsprechend Ihrer Organisation ausführen.
 
 In den folgenden Abschnitten werden die spezifischen Anforderungen für den Server für beständigen Chat und die Datenbank beschrieben, in der die Daten des beständigen Chats gespeichert sind.
 
@@ -99,9 +101,9 @@ Die Server Plattform für die Datenbankserver für beständigen Chat erfordert d
 
 Stellen Sie sicher, dass eine der folgenden Softwareanwendungen auf dem Datenbankserver installiert ist:
 
-  - Microsoft SQL Server 2012. Ausführliche Informationen zur Installation von Microsoft SQL Server 2012 finden Sie unter "Install SQL Server 2012" unter [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559).
+  - Microsoft SQL Server 2012. Ausführliche Informationen zur Installation von Microsoft SQL Server 2012 finden Sie unter "Install SQL Server 2012" unter [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559) .
 
-  - Microsoft SQL Server 2008 R2. Ausführliche Informationen zum Installieren von Microsoft SQL Server 2008 R2 finden Sie unter "SQL Server Installation (SQL Server 2008 R2)" unter [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702).
+  - Microsoft SQL Server 2008 R2. Ausführliche Informationen zum Installieren von Microsoft SQL Server 2008 R2 finden Sie unter "SQL Server Installation (SQL Server 2008 R2)" unter [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702) .
 
 </div>
 

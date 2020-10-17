@@ -12,20 +12,22 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ccce5823e997cafc5e8c8e7555df18bc67d1fe6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b27472526f98bc0f867b027fe111aac9c4f9aab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535972"
 ---
+# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Topologien und Komponenten für Mobilität in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Topologien und Komponenten für Mobilität in lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Zur Unterstützung von mobilen lync-Anwendungen auf mobilen Geräten bietet lync
 
 Die folgenden Dienste unterstützen Mobilität:
 
-  - **Lync Server 2013 Unified Communications Web API (UCWA)**   bietet Dienste für die Echtzeitkommunikation mit mobilen und Webclients in lync Server 2013. Wenn Sie die kumulativen Updates für lync Server 2013 bereitstellen: 2013 Februar bis zum Front-End-Server und Director erstellt die Installation ein virtuelles Verzeichnis in den internen und externen Webdiensten (Ucwa). Eine Webkomponente, die Teil des virtuellen Ucwa-Verzeichnisses ist, akzeptiert Anrufe von Ucwa-aktivierten Clients. Die Client-apps kommunizieren über eine Rest-Schnittstelle für Anwesenheit, Kontakte, Instant Messaging, VoIP, Videokonferenzen und Zusammenarbeit. UCWA verwendet einen P-get-basierten Kanal, um Ereignisse wie einen eingehenden Anruf, eine eingehende Sofortnachricht oder eine Nachricht an die Client-App zu senden.
+  - **Lync Server 2013 Unified Communications Web API (UCWA)**     Stellt Dienste für die Echtzeitkommunikation mit mobilen und Webclients in lync Server 2013 bereit. Wenn Sie die kumulativen Updates für lync Server 2013 bereitstellen: 2013 Februar bis zum Front-End-Server und Director erstellt die Installation ein virtuelles Verzeichnis in den internen und externen Webdiensten (Ucwa). Eine Webkomponente, die Teil des virtuellen Ucwa-Verzeichnisses ist, akzeptiert Anrufe von Ucwa-aktivierten Clients. Die Client-apps kommunizieren über eine Rest-Schnittstelle für Anwesenheit, Kontakte, Instant Messaging, VoIP, Videokonferenzen und Zusammenarbeit. UCWA verwendet einen P-get-basierten Kanal, um Ereignisse wie einen eingehenden Anruf, eine eingehende Sofortnachricht oder eine Nachricht an die Client-App zu senden.
     
     <div>
     
@@ -78,7 +80,7 @@ Die folgenden Dienste unterstützen Mobilität:
     
     </div>
 
-  - **Lync Server 2013 Mobilitätsdienst (MCX)**   dieser Dienst unterstützt lync-Funktionen wie Instant Messaging (Sofortnachrichten), Anwesenheitsinformationen und Kontakte auf mobilen Geräten. Der Mobilitätsdienst wird auf jedem Front-End-Server in jedem Pool installiert, der lync-Funktionen auf mobilen Geräten unterstützen soll. Wenn Sie lync Server 2013 installieren, wird ein neues virtuelles Verzeichnis (MCX) sowohl unter der internen Website als auch auf der externen Website auf Ihren Front-End-Servern erstellt.
+  - **Lync Server 2013 Mobilitätsdienst (MCX)**     Dieser Dienst unterstützt lync-Funktionen wie Instant Messaging (Sofortnachrichten), Anwesenheitsinformationen und Kontakte auf mobilen Geräten. Der Mobilitätsdienst wird auf jedem Front-End-Server in jedem Pool installiert, der lync-Funktionen auf mobilen Geräten unterstützen soll. Wenn Sie lync Server 2013 installieren, wird ein neues virtuelles Verzeichnis (MCX) sowohl unter der internen Website als auch auf der externen Website auf Ihren Front-End-Servern erstellt.
     
     <div>
     
@@ -89,7 +91,7 @@ Die folgenden Dienste unterstützen Mobilität:
     
     </div>
 
-  - **Lync Server 2013 AutoErmittlungsdienst**   dieser Dienst identifiziert den Speicherort des Benutzers und ermöglicht es mobilen Geräten und anderen lync-Clients, Ressourcen wie die internen und externen URLs für lync Server 2013 Webdienste und die URL für die MCX oder UCWA unabhängig vom Netzwerkstandort zu finden. Bei der automatischen Ermittlung werden hart codierte Hostnamen ("lyncdiscoverinternal" für Benutzer innerhalb des Netzwerks; lyncdiscover für Benutzer außerhalb des Netzwerks) und die SIP-Domäne des Benutzers verwendet. Es unterstützt Clientverbindungen, die entweder http oder HTTPS verwenden.
+  - **Lync Server 2013 AutoErmittlungsdienst**     Dieser Dienst identifiziert den Speicherort des Benutzers und ermöglicht es mobilen Geräten und anderen lync-Clients, Ressourcen wie die internen und externen URLs für lync Server 2013 Webdienste und die URL für die MCX oder UCWA unabhängig vom Netzwerkstandort zu finden. Bei der automatischen Ermittlung werden hart codierte Hostnamen ("lyncdiscoverinternal" für Benutzer innerhalb des Netzwerks; lyncdiscover für Benutzer außerhalb des Netzwerks) und die SIP-Domäne des Benutzers verwendet. Es unterstützt Clientverbindungen, die entweder http oder HTTPS verwenden.
     
     Der AutoErmittlungsdienst wird auf jedem Front-End-Server und jedem Director in jedem Pool installiert, der lync-Funktionen auf mobilen Geräten unterstützen soll. Wenn Sie den AutoErmittlungsdienst installieren, wird ein neues virtuelles Verzeichnis (AutoErmittlung) sowohl unter der internen Website als auch auf der externen Website sowohl auf Front-End-Servern als auch in Directors erstellt.
     
@@ -102,7 +104,7 @@ Die folgenden Dienste unterstützen Mobilität:
     
     </div>
 
-  - **Push-Benachrichtigungsdienst**   dieser Dienst ist ein Cloud-basierter Dienst, der sich im Rechenzentrum lync Online befindet. Wenn die Mobile lync-Anwendung auf einem unterstützten Apple IOS-Gerät oder Windows Phone inaktiv ist, kann Sie nicht auf neue Ereignisse reagieren, beispielsweise auf eine neue sofortnachrichteneinladung, eine verpasste Sofortnachricht, einen verpassten Anruf oder eine Voicemail, da diese Geräte keine Unterstützung für Mobile Anwendungen, die im Hintergrund ausgeführt werden. In diesen Fällen wird eine Benachrichtigung des neuen Ereignisses, das als *Push-Benachrichtigung*bezeichnet wird, an das Mobile Gerät gesendet. Der Mobilitätsdienst sendet die Benachrichtigung an den cloudbasierten Push-Benachrichtigungsdienst, der die Benachrichtigung dann entweder an den Apple Push Notification Service (APNS) (für unterstützte Apple IOS-Geräte) oder an den Microsoft Push Notification Service sendet (MPNS ) (für Windows Phone), der Sie dann an das Mobile Gerät sendet. Der Benutzer kann dann auf dem mobilen Gerät auf die Benachrichtigung Antworten, um die Anwendung zu aktivieren.
+  - **Push-Benachrichtigungsdienst**     Dieser Dienst ist ein Cloud-basierter Dienst, der sich im Rechenzentrum lync Online befindet. Wenn die Mobile lync-Anwendung auf einem unterstützten Apple IOS-Gerät oder Windows Phone inaktiv ist, kann Sie nicht auf neue Ereignisse wie eine neue sofortnachrichteneinladung, eine verpasste Sofortnachricht, einen verpassten Anruf oder Voicemail reagieren, da diese Geräte keine mobilen Anwendungen unterstützen, die im Hintergrund ausgeführt werden. In diesen Fällen wird eine Benachrichtigung des neuen Ereignisses, das als *Push-Benachrichtigung*bezeichnet wird, an das Mobile Gerät gesendet. Der Mobilitätsdienst sendet die Benachrichtigung an den cloudbasierten Push-Benachrichtigungsdienst, der die Benachrichtigung entweder an den Apple Push Notification Service (APNS) (für unterstützte Apple IOS-Geräte) oder an den Microsoft Push Notification Service (MPNS) (für Windows Phone) sendet, der Sie dann an das Mobile Gerät sendet. Der Benutzer kann dann auf dem mobilen Gerät auf die Benachrichtigung Antworten, um die Anwendung zu aktivieren.
     
     Die lync 2010 Mobile auf Apple-und Windows Phone-Geräten verwenden Push-Benachrichtigungen. Der lync 2013 Mobile Client für Apple-Geräte, die mit den kumulativen Updates für lync Server 2013 eingeführt wurden: Februar 2013 verwendet keine Push-Benachrichtigung mehr oder das Push Notification Clearing House (PNCH).
 

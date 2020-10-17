@@ -12,20 +12,22 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be41eb547589c74b070a55325efcfd05e33f4588
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22d3e88cae787a47d1fe519cfbe5c27acf5ad821
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537272"
 ---
+# <a name="building-an-edge-and-director-topology-in-lync-server-2013"></a>Erstellen einer Edge-und Director-Topologie in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="building-an-edge-and-director-topology-in-lync-server-2013"></a>Erstellen einer Edge-und Director-Topologie in lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Letztes Änderungsstand des Themas:** 2012-09-08_
 
 Das Bereitstellen der Topologie umfasst die folgenden Planungs- und Bereitstellungsaufgaben:
 
-  - **Planung**   Sie müssen eine geeignete Topologie für Ihre Organisation definieren und die für die Bereitstellung erforderlichen Komponenten identifizieren. Dies sind die Standardschritte im Planungsprozess. Das mit lync Server 2013 bereitgestellte Microsoft lync Server 2013-Planungs Tool erleichtert den Start des Planungsprozesses sowie die Möglichkeit, Änderungen leicht vorzunehmen, wenn Ihre Anforderungen und Pläne abgeschlossen sind.
+  - **Planung**     Sie müssen eine geeignete Topologie für Ihre Organisation definieren und die für die Bereitstellung erforderlichen Komponenten identifizieren. Dies sind die Standardschritte im Planungsprozess. Das mit lync Server 2013 bereitgestellte Microsoft lync Server 2013-Planungs Tool erleichtert den Start des Planungsprozesses sowie die Möglichkeit, Änderungen leicht vorzunehmen, wenn Ihre Anforderungen und Pläne abgeschlossen sind.
 
-  - **Bereitstellung**   die Topologie, die Sie mit dem Topologie-Generator definieren, ist für die Bereitstellungeines beliebigen lync Server 2013 Servers unerlässlich. Wenn Sie die Definition und Veröffentlichung Ihrer Topologie nicht mit dem Topologie-Generator im Rahmen ihrer Planungsbemühungen abgeschlossen haben, müssen Sie Sie abschließen und die Topologie veröffentlichen, bevor Sie die Edgeserver bereitstellen.
+  - **Bereitstellung**     Die Topologie, die Sie mit dem Topologie-Generator definieren, ist für die Bereitstellungeines beliebigen lync Server 2013 Servers unerlässlich. Wenn Sie die Definition und Veröffentlichung Ihrer Topologie nicht mit dem Topologie-Generator im Rahmen ihrer Planungsbemühungen abgeschlossen haben, müssen Sie Sie abschließen und die Topologie veröffentlichen, bevor Sie die Edgeserver bereitstellen.
 
 Sie können Edgeserver-Komponenten erst bereitstellen, wenn Sie mindestens einen internen Pool bereitgestellt haben, und Sie müssen den Topologie-Generator installieren, um einen internen Pool bereitzustellen. In diesem Abschnitt wird die Installation des Topologie-Generators nicht behandelt, da dies Teil des Installationsprozesses für den internen Pool ist.
 

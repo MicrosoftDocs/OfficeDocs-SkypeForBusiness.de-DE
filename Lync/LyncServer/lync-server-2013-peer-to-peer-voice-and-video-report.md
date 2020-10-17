@@ -12,20 +12,22 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb58becb1b495c16338ef9590ede8fb4005bc2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc5d3905df971cf5ce09bfb026acc4838974ff18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215661"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536802"
 ---
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Bericht über Peer-zu-Peer-sprach-und-Video Funktion in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Bericht über Peer-zu-Peer-sprach-und-Video Funktion in lync Server 2013
+
 
 </div>
 
@@ -104,7 +106,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <tr class="even">
 <td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f572c120d86c5f89fb82e23066a6262e957e5e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f98a19e81ebf52d97b4c6807dbb97dc8110b0f34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536562"
 ---
+# <a name="release-notes-for-lync-server-2013"></a>Anmerkungen zur Version für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="release-notes-for-lync-server-2013"></a>Anmerkungen zur Version für lync Server 2013
+
 
 </div>
 
@@ -109,7 +111,7 @@ Der lync Server Speicherdienst verwendet Windows Fabric für die Replikation. We
 
 **Problemumgehung**
 
-Um dieses Problem zu umgehen, sollten Administratoren den Leistungs\_Indikator\_auf\_dem\_Front-End-Server unter **ls: Lyss-Storage Service API** mit\_dem\_Namen **Lyss-Current number of Storage Service veraltete Warteschlangenelemente**überprüfen, wenn die Ereignisse Lyss DB Space used Error (ID = 32058) und Lyss\_DB\_Space Critical (ID = 32059) im Ereignisprotokoll generiert wird. Wenn dieser Leistungsindikator einen hohen Wert aufweist (beispielsweise größer als 50000), sollte der Administrator das Tool CleanuUpStorageServiceData. exe im lync Server 2013 Resource Kit ausführen, mit dem alle verwaisten Daten aus dem Pool gelöscht werden. Ausführliche Informationen zum Tool finden Sie in der Dokumentation zum lync Server 2013 Resource Kit.
+Um dieses Problem zu umgehen, \_ \_ \_ \_ \_ \_ \_ \_ sollten Administratoren den Leistungsindikator auf dem Front-End-Server unter **ls: Lyss-Storage Service API** mit dem Namen **Lyss-Current number of Storage Service veraltete Warteschlangenelemente**überprüfen, wenn die Ereignisse Lyss DB Space used Error (ID = 32058) und Lyss DB Space Critical (ID = 32059) im Ereignisprotokoll generiert wird. Wenn dieser Leistungsindikator einen hohen Wert aufweist (beispielsweise mehr als 50000), sollte der Administrator das Tool CleanuUpStorageServiceData.exe im lync Server 2013 Resource Kit ausführen, mit dem alle verwaisten Daten aus dem Pool gelöscht werden. Ausführliche Informationen zum Tool finden Sie in der Dokumentation zum lync Server 2013 Resource Kit.
 
 </div>
 
@@ -175,7 +177,7 @@ Das Problem kann nicht umgangen werden. Um das Problem zu identifizieren, überw
 
 In lync Server 2013 werden Daten zu Konferenzen und Chatnachrichten (beispielsweise archivierte Nachrichten und Aufzeichnung von Kommunikationsdatensätzen) in einer Datenbank auf jeder Front-End-Server gespeichert. Die Daten werden während der Verarbeitung in der Datenbank gespeichert, bevor Sie an das vorgesehene Ziel übermittelt werden. Um die Leistung zu verbessern, exportiert lync Server 2013 die Warteschlangenelemente regelmäßig aus der lokalen Datenbank, die für einen längeren Zeitraum nicht verarbeitet werden, und speichert Sie im Dateispeicher. Wenn der Dateispeicher nicht verfügbar ist, werden die Elemente auf jeder Front-End-Server gespeichert. Derselbe Vorgang wird zum Verhindern von Datenverlusten bei Failovervorgängen für Pools verwendet.
 
-Während des Exportvorgangs zeichnet der lync Server Speicherdienst jede Stufe im Ereignisprotokoll mit den Ereignis-IDs 32075 (vollständiger Löschvorgang wird gestartet), 32076 (vollständiger Flush ist abgeschlossen), 32082 (Wartungsebene wird gestartet), 32083 (Wartungsebene bündig ist abgeschlossen), 32089 (Flush erfolgte aufgrund des Füllens der Datenbank). Diese Daten werden nicht automatisch zurück in das System importiert, damit Sie verarbeitet und an ihr endgültiges Ziel (SQL Server oder Exchange Server) übermittelt werden.
+Während des Exportvorgangs zeichnet der lync Server Speicherdienst jede Stufe im Ereignisprotokoll mit Ereignis-IDs von 32075 (vollständiger Löschvorgang wird gestartet), 32076 (vollständiger Flush ist abgeschlossen), 32082 (Maintenance Level Flush wird gestartet), 32083 (Maintenance Level Flush ist abgeschlossen), 32089 (Flush erfolgte aufgrund des Füllens der Datenbank). Diese Daten werden nicht automatisch zurück in das System importiert, damit Sie verarbeitet und an ihr endgültiges Ziel (SQL Server oder Exchange Server) übermittelt werden.
 
 **Problemumgehung**
 
@@ -209,7 +211,7 @@ Wenn der Standardwert für UseNormalizationRules auf false festgelegt ist, damit
 
 3.  Warten Sie, bis die CMS-Replikation für alle Pools erfolgt ist.
 
-4.  Ändern Sie die Datei mit den Telefonnormalisierungsregeln für Ihre Bereitstellung, sodass die Inhalte gelöscht werden. Die Datei befindet sich in der Dateifreigabe der einzelnen lync Server 2013 Pools. Wenn die Datei nicht vorhanden ist, erstellen Sie eine leere Datei mit dem Namen\_"\_Normalisierung\_\_Rules. txt" für Firmen Telefonnummern.
+4.  Ändern Sie die Datei mit den Telefonnormalisierungsregeln für Ihre Bereitstellung, sodass die Inhalte gelöscht werden. Die Datei befindet sich in der Dateifreigabe der einzelnen lync Server 2013 Pools. Wenn die Datei nicht vorhanden ist, erstellen Sie eine leere Datei mit dem Namen \_ " \_ \_ NormalisierungRules.txt Firmentelefonnummer \_ ".
 
 5.  Warten Sie einige Minuten, bis alle Front-End-Pools die neuen Dateien gelesen haben.
 
@@ -285,7 +287,7 @@ Wenn Sie die Wartung durchführen, statt Front-End-Server einzeln im Pool zu sta
 
 <div>
 
-## <a name="administrators-cannot-get-licensee-count-by-using-the-get-csclientaccesslicense-cmdlet"></a>Administratoren können die Anzahl der Lizenznehmer nicht mithilfe des Get-csclientaccesslicense abrufen-Cmdlets abrufen.
+## <a name="administrators-cannot-get-licensee-count-by-using-the-get-csclientaccesslicense-cmdlet"></a>Administratoren können die Anzahl der Lizenznehmer nicht mithilfe des Get-CsClientAccessLicense-Cmdlets abrufen.
 
 **Problem**
 
@@ -365,13 +367,13 @@ Wenn Sie das lync Server-Systemsteuerung in einer VMware-Umgebung verwenden, fun
 
 Führen Sie einen der folgenden Schritte aus, um das Problem zu umgehen:
 
-  - Deinstallieren Sie Silverlight 5, und installieren Sie Silverlight [https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156)4 aus.
+  - Deinstallieren Sie Silverlight 5, und installieren Sie Silverlight 4 aus [https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156) .
 
   - Greifen Sie auf den lync Server-Systemsteuerung von einem Computer aus, auf dem es sich nicht um einen virtuellen VMware-Computer handelt.
     
     Dazu können Sie die lync Server-Systemsteuerung im Windows- **Startmenü** auf dem Server starten, wenn die lync Server Verwaltungstools auf dem Computer installiert sind.
     
-    Sie können auch über einen Webbrowser auf die lync Server-Systemsteuerung zugreifen. \<Die URL ähnelt dem FQDN\_\_\>des https://-Front-End-Pools/CSCP.
+    Sie können auch über einen Webbrowser auf die lync Server-Systemsteuerung zugreifen. Die URL ist https:///CSCP. ähnlich. \<frontend\_pool\_fqdn\>
 
 </div>
 
@@ -427,11 +429,11 @@ Verwenden Sie nur ASCII-Zeichen im Namen des Zielordners, des Computernamens, de
 
 **Problem**
 
-Der Hotfix für "Heap Beschädigung tritt auf, wenn ein Modul die InsertEntityBody-Methode in IIS 7,5[https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)" () aufruft, die im Microsoft Knowledge[https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603)Base-Artikel 264886 () beschrieben wird, muss vor der Installation von lync Server 2013 installiert werden.
+Der Hotfix für "Heap Beschädigung tritt auf, wenn ein Modul die InsertEntityBody-Methode in IIS 7,5" () aufruft [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602) , die im Microsoft Knowledge Base-Artikel 264886 () beschrieben wird [https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603) , muss vor der Installation von lync Server 2013 installiert werden.
 
 **Problemumgehung**
 
-Laden Sie das Hotfix aus dem Microsoft Download Center unter [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)herunter, und installieren Sie es.
+Laden Sie das Hotfix aus dem Microsoft Download Center unter herunter, und installieren Sie es [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602) .
 
 </div>
 
@@ -447,7 +449,7 @@ Die Windows Fabric-Installation ist fehlerhaft, weil Fabric-Ablaufverfolgunge im
 
 **Problemumgehung**
 
-Um dieses Problem zu umgehen, aktualisieren Sie die Systemregistrierung, bevor Sie lync Server 2013 installieren. Der Registrierungsschlüssel, der aktualisiert werden muss, lautet:\_HKEY\\-Benutzer. Standard\\mäßige\\System\\Steuerung internationale sTimeFormat. Ändern Sie den Wert von sTimeFormat in hh: mm: SS, indem Sie die Befehlszeilenschnittstelle Windows PowerShell wie folgt verwenden:
+Um dieses Problem zu umgehen, aktualisieren Sie die Systemregistrierung, bevor Sie lync Server 2013 installieren. Der Registrierungsschlüssel, der aktualisiert werden muss, lautet: \_ HKEY \\ -Benutzer. Standardmäßige \\ Systemsteuerung \\ internationale \\ sTimeFormat. Ändern Sie den Wert von sTimeFormat in hh: mm: SS, indem Sie die Befehlszeilenschnittstelle Windows PowerShell wie folgt verwenden:
 
 1.  Starten Sie Windows PowerShell, und führen Sie die folgenden Cmdlets aus:
     
@@ -471,7 +473,7 @@ Um dieses Problem zu umgehen, aktualisieren Sie die Systemregistrierung, bevor S
 
 4.  Nachdem lync Server 2013 erfolgreich installiert wurde, stellen Sie den ursprünglichen Wert für das sTimeFormat-Objekt wieder her, indem Sie das folgende Cmdlet ausführen:
     
-        - Festlegen-ItemProperty $a-Name sTimeFormat-Wert "<Wert, der in Schritt 3 notiert wurde. oberhalb> "
+        - Set-ItemProperty $a-Name sTimeFormat-Wert "<Wert, der in Schritt 3 notiert wurde. oberhalb> "
 
 </div>
 
@@ -591,19 +593,19 @@ Antivirensoftware kann Anwendungsdomänen Neustarts auslösen, was dazu führen 
 
 **Problemumgehung**
 
-Wenn Sie dieses Problem umgehen möchten, schließen Sie die Ordner mit Webkomponenten und .NET Framework aus dem Virenschutzprogramm aus. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 312592, "PRB: zufällige Anwendungsneustarts mit" Anwendung ist ein Neustart "Error in ASP.net" unter [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592).
+Wenn Sie dieses Problem umgehen möchten, schließen Sie die Ordner mit Webkomponenten und .NET Framework aus dem Virenschutzprogramm aus. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 312592, "PRB: zufällige Anwendungsneustarts mit" Anwendung ist ein Neustart "Error in ASP.net" unter [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592) .
 
 Die folgenden Ordner sollten ausgeschlossen werden:
 
-  - % Programme%\\Microsoft lync Server 2013\\-\\Webkomponenten\\MCX ext
+  - % Programme% \\ Microsoft lync Server 2013 \\ -Webkomponenten \\ MCX \\ ext
 
-  - % Programme%\\Microsoft lync Server 2013\\-\\Webkomponenten\\MCX int
+  - % Programme% \\ Microsoft lync Server 2013 \\ -Webkomponenten \\ MCX \\ int
 
-  - % Programme%\\Microsoft lync Server 2013\\-\\Webkomponenten\\Ucwa int
+  - % Programme% \\ Microsoft lync Server 2013 \\ -Webkomponenten \\ Ucwa \\ int
 
-  - % Programme%\\Microsoft lync Server 2013\\-\\Webkomponenten\\Ucwa ext
+  - % Programme% \\ Microsoft lync Server 2013 \\ -Webkomponenten \\ Ucwa \\ ext
 
-  - % Windir%\\Microsoft.net\\Framework64\\v 4.0.30319\\config
+  - % Windir% \\ Microsoft.net \\ Framework64 \\ v 4.0.30319 \\ config
 
 </div>
 
@@ -641,7 +643,7 @@ Ein Administrator muss den Konferenzdienst manuell neu starten, nachem der Syste
 
 **Problem**
 
-Wenn Sie einen Office Web Apps-Server außerhalb des Webkonferenzdienst bereitgestellt haben (also ein Server, der sich nicht im internen Unternehmensnetzwerk befindet) im Internet, Umkreisnetzwerk und der Webkonferenzdienst ein HTTP-Proxy erfordert, um eine Verbindung mit diesem herzustellen, wird der Die Office-webapps-Server Ermittlung schlägt fehl. Im Webkonferenzdienst wird die http-Proxyeinstellung ignoriert, wie im Topologie-Generator für Office-webapps-Server Setup definiert. Daher kann der lync-Client Microsoft PowerPoint 2010 Freigabe für andere Teilnehmer an der Konferenz nicht durchführen. Wenn Sie lync Server lokal installieren und außerdem Office-webapps Server lokal im internen Netzwerk konfigurieren, ist keine Proxykonfiguration erforderlich.
+Wenn Sie einen Office Web Apps-Server außerhalb des Webkonferenzdienst bereitgestellt haben (also ein Server, der sich nicht im internen Unternehmensnetzwerk befindet) im Internet, Umkreisnetzwerk und der Webkonferenzdienst ein HTTP-Proxy erfordert, um eine Verbindung mit diesem herzustellen, tritt bei der Office Web Apps Server-Ermittlung ein Fehler auf. Im Webkonferenzdienst wird die http-Proxyeinstellung ignoriert, wie im Topologie-Generator für Office-webapps-Server Setup definiert. Daher kann der lync-Client Microsoft PowerPoint 2010 Freigabe für andere Teilnehmer an der Konferenz nicht durchführen. Wenn Sie lync Server lokal installieren und außerdem Office-webapps Server lokal im internen Netzwerk konfigurieren, ist keine Proxykonfiguration erforderlich.
 
 **Problemumgehung**
 
@@ -675,9 +677,9 @@ Wenn eine Topologie mit aktiviertem IPv6 konfiguriert ist, können Benutzer Ihre
 
 Wenn Sie eine Aktualisierung der neuesten Version des Plug-Ins für die Bildschirmfreigabe beim Beitritt zur Besprechung über lync Web App erzwingen möchten, ändern Sie den Wert von **MinSupportedBuildVersion** von "4.0.7457.0" in "4.0.7577.380" in den beiden folgenden Dateien:
 
-  - % Programme%\\Microsoft lync Server 15\\-\\Webkomponenten\\erreichen\\int\\-\\Client-Plugins ReachAppShPluginProperties. XML
+  - % Programme% \\ Microsoft lync Server 15 \\ -Webkomponenten \\ erreichen \\ int-Client- \\ \\ Plugins \\ReachAppShPluginProperties.xml
 
-  - % Programme%\\Microsoft lync Server 15\\-\\Webkomponenten\\erreichen\\Ext\\-\\Client-Plugins ReachAppShPluginProperties. XML
+  - % Programme% \\ Microsoft lync Server 15 \\ -Webkomponenten \\ erreichen \\ ext-Client- \\ \\ Plugins \\ReachAppShPluginProperties.xml
 
 </div>
 
@@ -965,7 +967,7 @@ Es gibt derzeit keine Umgehungslösung für dieses Problem.
 
 **Problem**
 
-Wenn Sie die lync Server-Systemsteuerung verwenden, um alle Benutzer von einem Pool in einen anderen Pool in einer komplexen Active Directory Umgebung zu versetzen, beispielsweise mit mehreren Domänencontrollern und übergeordneten/untergeordneten Domänen, wird möglicherweise eine Fehlermeldung zurückgegeben, die besagt, dass "der angegebene Benutzer kein älterer Benutzer ist" stattdessen das Cmdlet "CsUser" verwendet. Dies ist ein Ergebnis längerer Replikationszeiten in komplexen Active Directory Umgebungen.
+Wenn Sie die lync Server-Systemsteuerung verwenden, um alle Benutzer von einem Pool in einen anderen Pool in einer komplexen Active Directory Umgebung zu versetzen, beispielsweise mit mehreren Domänencontrollern und übergeordneten/untergeordneten Domänen, wird möglicherweise eine Fehlermeldung zurückgegeben, die besagt, dass "der angegebene Benutzer kein älterer Benutzer ist, stattdessen Move-CsUser-Cmdlet verwendet". Dies ist ein Ergebnis längerer Replikationszeiten in komplexen Active Directory Umgebungen.
 
 **Problemumgehung**
 
@@ -989,13 +991,13 @@ Wenn Sie das lync Server-Systemsteuerung in einer VMware-Umgebung verwenden, fun
 
 Führen Sie einen der folgenden Schritte aus, um das Problem zu umgehen:
 
-  - Deinstallieren Sie Silverlight 5, und installieren Sie dann Silverlight [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0)4 aus.
+  - Deinstallieren Sie Silverlight 5, und installieren Sie dann Silverlight 4 aus [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0) .
 
   - Öffnen Sie die lync Server-Systemsteuerung von einem Computer, auf dem es sich nicht um einen virtuellen VMware-Computer handelt.
     
     Um die lync Server-Systemsteuerung von einem Remotecomputer aus zu öffnen, installieren Sie lync Server Verwaltungstools auf dem Computer, und starten Sie dann die lync Server-Systemsteuerung aus dem Windows- **Startmenü** .
     
-    Sie können das lync Server-Systemsteuerung auch öffnen, indem Sie die URL in einen Webbrowser eingeben. \<Die URL ähnelt dem FQDN\_\_\>des https://-Front-End-Pools/CSCP.
+    Sie können das lync Server-Systemsteuerung auch öffnen, indem Sie die URL in einen Webbrowser eingeben. Die URL ist https:///CSCP. ähnlich. \<frontend\_pool\_fqdn\>
 
 </div>
 
@@ -1061,7 +1063,7 @@ Führen Sie einen der folgenden Schritte aus, um das Problem zu umgehen:
 
 **Problem**
 
-Wenn lync Server 2013 das Planungs Tool das Website Topologie-Diagramm für eine Server Bereitstellung für beständigen Chat bereitstellt und die Notfallwiederherstellung aktiviert ist, enthält das Diagramm für die Standorttopologie mehrere (physikalische) Websites mit gleichmäßig zugewiesenen beständigen Chatservern in jedem der beiden Seiten. Website. Im Topologie-Generator werden alle Server für beständigen Chat als Zugehörigkeit zu einem einzigen (logischen) Standort dargestellt und unter demselben Serverpool Knoten für beständigen Chat aufgeführt.
+Wenn lync Server 2013 das Planungs Tool das Website Topologie-Diagramm für eine Server Bereitstellung für beständigen Chat mit aktivierter Notfallwiederherstellung ausgibt, umfasst das Diagramm für die Standorttopologie mehrere (physikalische) Websites mit gleichmäßig zugewiesenen beständigen Chatservern an jedem Standort. Im Topologie-Generator werden alle Server für beständigen Chat als Zugehörigkeit zu einem einzigen (logischen) Standort dargestellt und unter demselben Serverpool Knoten für beständigen Chat aufgeführt.
 
 **Problemumgehung**
 
@@ -1087,7 +1089,7 @@ Derzeit kann dieses Problem nicht umgangen werden. Der Benutzer sollte die Ausga
 
 **Problem**
 
-Bei Verwendung einer ostasiatischen Version von lync Server 2013-beispielsweise Chinesisch (vereinfacht), Chinesisch (traditionell), Japanisch oder Koreanisch – auf einem Betriebssystem, auf dem das Systemgebietsschema nicht auf eine ostasiatische Sprache festgelegt ist, wird der Assistent zum Bereitstellen von Überwachungsberichten Anzeigen von Fragezeichen oder anderen Zeichen anstelle lokalisierter Nachrichten.
+Wenn Sie eine ostasiatische Version von lync Server 2013 verwenden (beispielsweise Chinesisch (vereinfacht), Chinesisch (traditionell), Japanisch oder Koreanisch – auf einem Betriebssystem, auf dem das Systemgebietsschema nicht auf eine ostasiatische Sprache festgelegt ist, werden im Assistenten zum Bereitstellen von Überwachungsberichten anstelle von lokalisierten Nachrichten Fragezeichen oder andere Zeichen angezeigt.
 
 **Problemumgehung**
 
@@ -1183,7 +1185,7 @@ Die folgenden Zeichen und Gebietsschemas können nicht indiziert werden:
 
 **Problem**
 
-Bei der Auswahl eines neutralen Gebietsschemas in einem Webbrowser (in Internet Explorer beispielsweise kann der Name der Sprache ohne weitere Angaben wie " \[Norwegisch\]Nein" anstelle eines Gebietsschemas, das die Sprache, das Skript und das Gebietsschema angibt (wie "Norwegisch \[, Nynorsk (\]Norwegen) nb-no") zu unerwartetem Anzeigeverhalten für bestimmte Sprachen in lync-Webplaner, Einwahl, Join Launcher, beständiger chatroomverwaltung und OCTab führen. Beispielsweise wird den Benutzern beim Auswählen einer der folgenden Sprachen möglicherweise die englische Seite angezeigt:
+Bei der Auswahl eines neutralen Gebietsschemas in einem Webbrowser (in Internet Explorer beispielsweise kann der Name der Sprache ohne weitere Angaben wie "Norwegisch \[ Nein \] " anstelle eines Gebietsschemas, das die Sprache, das Skript und das Gebietsschema angibt (wie "Norwegisch, Nynorsk (Norwegen) \[ nb-no \] ") zu unerwartetem Anzeigeverhalten für bestimmte Sprachen in lync-Webplaner, Einwahl, Join Launcher, beständiger chatroomverwaltung und OCTab führen. Beispielsweise wird den Benutzern beim Auswählen einer der folgenden Sprachen möglicherweise die englische Seite angezeigt:
 
   - Norwegisch
 

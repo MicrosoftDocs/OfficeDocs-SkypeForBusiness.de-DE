@@ -12,20 +12,22 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8687c5b9c5f422994817910eec640cc795798d18
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54371acb29bcc7d9b6581cbfd26199888dcfe893
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536102"
 ---
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Technische Anforderungen für die Ankündigungsanwendung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Technische Anforderungen für die Ankündigungsanwendung in lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Die Ankündigungsanwendung hat die gleichen Hardwareanforderungen wie Front-End-
 
 Das Ankündigungsanwendung hat die gleichen Betriebssystemanforderungen und Softwarevoraussetzungen wie Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.
 
-Auf allen Front-End-Servern oder Standard Edition-Servern, auf denen der Ankündigungsanwendung ausgeführt wird, muss die Windows Media Format-Laufzeitumgebung für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server installiert sein, auf denen Windows Server 2012 ausgeführt wird, oder Windows Server 2012 R2. Für Windows Server 2008 R2 wird die Windows Media Format-Laufzeitkomponente als Teil der Windows-Desktop Umgebung installiert. Windows Media Format Runtime oder Microsoft Media Foundation ist für Windows Media Audio-(WMA-) Dateien erforderlich, die das Ankündigungsanwendung für Ankündigungen und Musik abspielt.
+Auf allen Front-End-Servern oder Standard Edition-Servern, auf denen der Ankündigungsanwendung ausgeführt wird, muss die Windows Media Format-Laufzeitumgebung für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 installiert sein. Für Windows Server 2008 R2 wird die Windows Media Format-Laufzeitkomponente als Teil der Windows-Desktop Umgebung installiert. Windows Media Format Runtime oder Microsoft Media Foundation ist für Windows Media Audio-(WMA-) Dateien erforderlich, die das Ankündigungsanwendung für Ankündigungen und Musik abspielt.
 
 </div>
 
@@ -71,7 +73,7 @@ Auf allen Front-End-Servern oder Standard Edition-Servern, auf denen der Ankünd
 
 Der Ankündigungsanwendung verwendet den folgenden Port:
 
-  - **Port 5071**   wird für SIP-Überwachungsanforderungen verwendet
+  - **Port 5071**     Wird für SIP-Überwachungsanforderungen verwendet
 
 <div>
 

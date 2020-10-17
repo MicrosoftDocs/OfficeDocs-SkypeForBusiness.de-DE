@@ -12,20 +12,22 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f620712404fffe8e46f8f2a6f066c6ffa7b77d74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a7b43056071ddc2322ff5147de72d818548b86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212887"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535882"
 ---
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Verwenden von Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013-Bereitstellung auf mögliche Probleme
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Verwenden von Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013-Bereitstellung auf mögliche Probleme
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Letztes Änderungsstand des Themas:** 2012-10-21_
 
 Zum Ausführen einer Best Practices Analyzer-Überprüfung müssen Sie Folgendes angeben:
 
-  - **Anmeldeinformationen**   zum Ausführen eines Scans müssen Sie sich bei einem Computer anmelden, auf dem Best Practices Analyzer installiert ist, indem Sie ein Konto verwenden, das Mitglied der lokalen Gruppe Administratoren ist. Außerdem müssen Sie sich mit einem Benutzerkonto anmelden, das über die erforderlichen Benutzerrechte und Berechtigungen verfügt, um die geeigneten Überprüfungen auszuführen, oder Sie müssen beim Ausführen von Best Practices Analyzer Anmeldeinformationen angeben, die über die erforderlichen Benutzerrechte und Berechtigungen verfügen. Ausführliche Informationen finden Sie unter [Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+  - **Anmeldeinformationen**     Zum Ausführen einer Überprüfung müssen Sie sich bei einem Computer anmelden, auf dem Best Practices Analyzer installiert ist, indem Sie ein Konto verwenden, das Mitglied der lokalen Gruppe Administratoren ist. Außerdem müssen Sie sich mit einem Benutzerkonto anmelden, das über die erforderlichen Benutzerrechte und Berechtigungen verfügt, um die geeigneten Überprüfungen auszuführen, oder Sie müssen beim Ausführen von Best Practices Analyzer Anmeldeinformationen angeben, die über die erforderlichen Benutzerrechte und Berechtigungen verfügen. Ausführliche Informationen finden Sie unter [Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
-  - **Umfang**   der Überprüfung um den Umfang der Überprüfung anzugeben, wählen Sie die Kategorien und Server aus, die Sie überprüfen möchten. Sie können alle Kategorien, eine oder mehrere Kategorien oder einen oder mehrere Server in einer bestimmten Kategorie in ihrer lync Server Umgebung auswählen.
+  - **Umfang der Überprüfung**     Um den Bereich der Überprüfung anzugeben, wählen Sie die Kategorien und Server aus, die Sie überprüfen möchten. Sie können alle Kategorien, eine oder mehrere Kategorien oder einen oder mehrere Server in einer bestimmten Kategorie in ihrer lync Server Umgebung auswählen.
 
-  - **Typ der**   Überprüfung derzeit ist der Integritäts Prüfungs Scan der einzige verfügbare Scantyp (standardmäßig ausgewählt). Die Integritätsprüfung generiert einen Bericht mit Fehlern, Warnungen und weiteren Informationen für alle Server, die sich im angegebenen Bereich befinden.
+  - **Typ der Überprüfung**     Derzeit ist der Integritäts Prüfungs Scan der einzige verfügbare Scantyp (standardmäßig ausgewählt). Die Integritätsprüfung generiert einen Bericht mit Fehlern, Warnungen und weiteren Informationen für alle Server, die sich im angegebenen Bereich befinden.
 
-  - **Netzwerkgeschwindigkeit**   Netzwerk Geschwindigkeitsoptionen umfassen schnelles LAN (100 Mbit/s oder mehr), LAN (10 Mbit/s), schnelles WAN (1,5 MBit/s) oder WAN (64 Kbit/s). Die geschätzte Dauer der Überprüfung basiert auf dieser Einstellung. Zudem wird diese Einstellung auch zum Festlegen des Timeouts verwendet. Während der Überprüfung wartet der Best Practices Analyzer eine angegebene Zeitdauer auf eine Serverantwort. Erfolgt innerhalb des angegebenen Timeout-Zeitraums keine Antwort, wird zum nächsten Server in der Überprüfung gewechselt. In langsameren Netzwerken ist dieser Timeout-Zeitraum länger, um längere Netzwerklatenzen zu berücksichtigen. Wir empfehlen die Auswahl der langsamsten Verbindung in Ihrer Topologie für diesen Parameter, damit das Tool nicht zu schnell einen Timeout ausgibt.
+  - **Netzwerkgeschwindigkeit**     Zu den Netzwerk Geschwindigkeitsoptionen zählen schnelles LAN (100 Mbit/s oder mehr), LAN (10 Mbit/s), schnelles WAN (1,5 MBit/s) oder WAN (64 Kbit/s). Die geschätzte Dauer der Überprüfung basiert auf dieser Einstellung. Zudem wird diese Einstellung auch zum Festlegen des Timeouts verwendet. Während der Überprüfung wartet der Best Practices Analyzer eine angegebene Zeitdauer auf eine Serverantwort. Erfolgt innerhalb des angegebenen Timeout-Zeitraums keine Antwort, wird zum nächsten Server in der Überprüfung gewechselt. In langsameren Netzwerken ist dieser Timeout-Zeitraum länger, um längere Netzwerklatenzen zu berücksichtigen. Wir empfehlen die Auswahl der langsamsten Verbindung in Ihrer Topologie für diesen Parameter, damit das Tool nicht zu schnell einen Timeout ausgibt.
 
 <div>
 

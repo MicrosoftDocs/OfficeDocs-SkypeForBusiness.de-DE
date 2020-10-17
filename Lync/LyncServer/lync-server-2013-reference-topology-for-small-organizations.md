@@ -12,20 +12,22 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726056b63dfa37864171a77913b5126c23b27045
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68163756f2c2153d1e164999532bc6265400ac5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536732"
 ---
+# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Referenztopologie für lync Server 2013 in kleinen Organisationen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Referenztopologie für lync Server 2013 in kleinen Organisationen
+
 
 </div>
 
@@ -43,9 +45,9 @@ Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine stabile, ho
 
 ![Referenztopologie Bereitstellen von drei Server Diagrammen](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Referenztopologie Bereitstellen von drei Server Diagrammen")
 
-  - **Paar Standard Edition-Server bereitgestellt**     diese Organisation verfügt über 4.000 Benutzer am zentralen Standort. Die Organisation hat zwei Standard Edition-Server bereitgestellt und kombiniert, um hohe Verfügbarkeit und Notfallwiederherstellung zu ermöglichen. Jeder Server Homes 2.000 Benutzer, aber Informationen zu allen Benutzern werden zwischen den beiden Servern synchronisiert. Wenn eine ausfällt, kann ein Administrator ein Failover für diese Benutzer durchführen, um von dem anderen Server bedient zu werden, mit einem Minimum an Unterbrechungen für die Benutzer. Weitere Informationen zu Funktionen für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013 finden Sie unter [Planning for High Availability and Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Paar von Standard Edition-Servern, die bereitgestellt werden**     Diese Organisation verfügt über 4.000 Benutzer am zentralen Standort. Die Organisation hat zwei Standard Edition-Server bereitgestellt und kombiniert, um hohe Verfügbarkeit und Notfallwiederherstellung zu ermöglichen. Jeder Server Homes 2.000 Benutzer, aber Informationen zu allen Benutzern werden zwischen den beiden Servern synchronisiert. Wenn eine ausfällt, kann ein Administrator ein Failover für diese Benutzer durchführen, um von dem anderen Server bedient zu werden, mit einem Minimum an Unterbrechungen für die Benutzer. Weitere Informationen zu Funktionen für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013 finden Sie unter [Planning for High Availability and Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - **Edgeserver Bereitstellung wird empfohlen.**    Obwohl die Bereitstellungeines Edgeserver für interne Sofortnachrichten, Anwesenheitsinformationen und Konferenzen nicht erforderlich ist, wird dies auch für kleine Bereitstellungen empfohlen. Sie können Ihre lync Server Investition maximieren, indem Sie eine Edgeserver bereitstellen, um die Dienste für Benutzer bereitzustellen, die sich derzeit außerhalb der Firewalls Ihrer Organisation befinden. Hierdurch bieten sich folgende Vorteile:
+  - **Edgeserver Bereitstellung wird empfohlen.**     Obwohl die Bereitstellungeines Edgeserver für interne Sofortnachrichten, Anwesenheitsinformationen und Konferenzen nicht erforderlich ist, wird dies auch für kleine Bereitstellungen empfohlen. Sie können Ihre lync Server Investition maximieren, indem Sie eine Edgeserver bereitstellen, um die Dienste für Benutzer bereitzustellen, die sich derzeit außerhalb der Firewalls Ihrer Organisation befinden. Hierdurch bieten sich folgende Vorteile:
     
       - Die eigenen Benutzer Ihrer Organisation können lync Server Funktionalität verwenden, wenn Sie von zu Hause aus arbeiten oder unterwegs sind.
     
@@ -53,7 +55,7 @@ Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine stabile, ho
     
       - Wenn Sie über einen Partner, einen Anbieter oder eine Kundenorganisation verfügen, die auch lync Server verwendet, können Sie eine *Verbundbeziehung* mit dieser Organisation bilden. Ihre lync Server-Bereitstellung würde dann Benutzer aus dieser Verbundorganisation erkennen, was zu einer besseren Zusammenarbeit führt.
     
-      - Ihre Benutzer können Sofortnachrichten mit Benutzern von öffentlichen Instant Messaging-Diensten austauschen, einschließlich einer oder aller der folgenden: Windows Live, AOL,\!Yahoo und Google Talk. Für öffentliche Chat Verbindungen mit diesen Diensten ist möglicherweise eine separate Lizenz erforderlich.
+      - Ihre Benutzer können Sofortnachrichten mit Benutzern von öffentlichen Instant Messaging-Diensten austauschen, einschließlich einer oder aller der folgenden: Windows Live, AOL, Yahoo \! und Google Talk. Für öffentliche Chat Verbindungen mit diesen Diensten ist möglicherweise eine separate Lizenz erforderlich.
         
         <div>
         
@@ -70,7 +72,7 @@ Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine stabile, ho
         
         </div>
 
-  - **** Überlebensfähigkeit von Zweigstellen Websites.    In dieser Organisation wird ein Pilotprogramm der Enterprise-VoIP-Funktion von lync Server durchführen. Einige Benutzer verwenden lync Server als einzige Sprachlösung. Einige dieser VoIP-Pilotbenutzer befinden sich am Zweigstellenstandort. Der Zweigstellenstandort verfügt nicht über eine zuverlässige WAN-Verbindung (Wide Area Network) mit dem zentralen Standort, sodass ein Survivable Branch Appliance dort bereitgestellt wird. Wenn die WAN-Verbindung ausfällt, können Benutzer am Zweigstellenstandort weiterhin Anrufe tätigen und empfangen (beide Anrufe innerhalb der Organisation und PSTN-Anrufe), über Voicemailfunktionen verfügen und mit Instant Messaging (Sofortnachrichten) mit zwei Teilnehmern kommunizieren. Benutzer können darüber hinaus auch dann authentifiziert werden, wenn die WAN-Verbindung nicht verfügbar ist.
+  - Überlebensfähigkeit von **Zweigstellen Websites.**     In dieser Organisation wird ein Pilotprogramm der Enterprise-VoIP-Funktion von lync Server durchführen. Einige Benutzer verwenden lync Server als einzige Sprachlösung. Einige dieser VoIP-Pilotbenutzer befinden sich am Zweigstellenstandort. Der Zweigstellenstandort verfügt nicht über eine zuverlässige WAN-Verbindung (Wide Area Network) mit dem zentralen Standort, sodass ein Survivable Branch Appliance dort bereitgestellt wird. Wenn die WAN-Verbindung ausfällt, können Benutzer am Zweigstellenstandort weiterhin Anrufe tätigen und empfangen (beide Anrufe innerhalb der Organisation und PSTN-Anrufe), über Voicemailfunktionen verfügen und mit Instant Messaging (Sofortnachrichten) mit zwei Teilnehmern kommunizieren. Benutzer können darüber hinaus auch dann authentifiziert werden, wenn die WAN-Verbindung nicht verfügbar ist.
 
   - **Exchange UM-Bereitstellung.** Diese Referenztopologie umfasst einen Exchange Unified Messaging (um) Server, der Exchange Server und nicht lync Server ausführt.
     

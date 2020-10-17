@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwenden von lync-Skype-Konnektivität als Endbenutzer'
+title: 'Lync Server 2013: Verwenden von Lync-Skype Konnektivität als Endbenutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6971ef2d6fb08838a4fcf71f4fec8097a7f9e47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94bb9a2d5fa584de5b6195de0ad2accf6899d0e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212821"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535772"
 ---
+# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>Verwenden Lync-Skype Konnektivität in lync Server 2013 als Endbenutzer
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>Verwenden von lync-Skype-Konnektivität in lync Server 2013 als Endbenutzer
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42212821"
 
 _**Letztes Änderungsstand des Themas:** 2016-12-27_
 
-Mit lync-Skype-Konnektivität können Skype-Benutzer und lync-Benutzer sich gegenseitig als Kontakte hinzufügen, Chatnachrichten austauschen und Audio-und Videoanrufe tätigen. Wenn ein Skype-Benutzer einen lync-Benutzer hinzufügt, erstellt ein Skype-Benutzer einen Kontakt in Skype, der den SIP-Uniform Resource Identifier (Session Initiation Protocol) des lync-Benutzers enthält. Wenn ein lync-Benutzer einen Skype-Kontakt hinzufügt, erstellt der lync-Benutzer umgekehrt einen Kontakt in lync, der das Microsoft-Konto (MSA) des Skype-Benutzers und nicht den Skype-Benutzernamen enthalten soll.
+Durch Lync-Skype Konnektivität können Skype-Benutzer und lync-Benutzer sich gegenseitig als Kontakte hinzufügen, Chatnachrichten austauschen und Audio-und Videoanrufe tätigen. Wenn ein Skype-Benutzer einen lync-Benutzer hinzufügt, erstellt ein Skype-Benutzer einen Kontakt in Skype, der den SIP-Uniform Resource Identifier (Session Initiation Protocol) des lync-Benutzers enthält. Wenn ein lync-Benutzer einen Skype-Kontakt hinzufügt, erstellt der lync-Benutzer umgekehrt einen Kontakt in lync, der das Microsoft-Konto (MSA) des Skype-Benutzers und nicht den Skype-Benutzernamen enthalten soll.
 
-**Was ist eine MSA?** Skype-Benutzer müssen sich mit einem Microsoft-Konto (früher als Windows Live ID bezeichnet) bei Skype anmelden, um mit lync-Kontakten zu kommunizieren.Ein Microsoft-Konto besteht aus der Kombination aus einer e-Mail-Adresse und einem Kennwort, die Sie auch für die Anmeldung bei Diensten wie Microsoft OneDrive Speichertechnologie, Windows Phone, Microsoft Xbox Live Online Game Service und Microsoft Outlook Messaging verwenden können. und Zusammenarbeitsclient (und zuvor Microsoft Hotmail-webbasierter e-Mail-Dienst oder Windows Live Messenger).Wenn Sie eine e-Mail-Adresse und ein Kennwort verwenden, um sich bei diesen oder anderen Diensten anzumelden, verfügen Sie bereits über ein Microsoft-Konto.Ausführliche Informationen zum Erstellen eines Microsoft-Kontos finden Sie auf [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)der Microsoft-Konto-Anmeldeseite unter. Sie können Ihr vorhandenes Skype-Konto mit Ihrem Microsoft-Konto für einmaliges Anmelden in einer Vielzahl von Anwendungen und Diensten zusammenführen. Nachdem das Konto zusammengeführt wurde, kann ein Skype-Benutzer eine Kontakt Anfrage an lync-Benutzer senden.
+**Was ist eine MSA?** Skype-Benutzer müssen sich mit einem Microsoft-Konto (früher als Windows Live ID bezeichnet) bei Skype anmelden, um mit lync-Kontakten zu kommunizieren.Ein Microsoft-Konto besteht aus der Kombination aus einer e-Mail-Adresse und einem Kennwort, die Sie auch für die Anmeldung bei Diensten wie Microsoft OneDrive Speichertechnologie, Windows Phone, Microsoft Xbox Live Online Game Service und Microsoft Outlook Messaging and Collaboration Client (und zuvor Microsoft Hotmail-webbasierter e-Mail-Dienst oder Windows Live Messenger) verwenden können.Wenn Sie eine e-Mail-Adresse und ein Kennwort verwenden, um sich bei diesen oder anderen Diensten anzumelden, verfügen Sie bereits über ein Microsoft-Konto.Ausführliche Informationen zum Erstellen eines Microsoft-Kontos finden Sie auf der Microsoft-Konto-Anmeldeseite unter [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061) . Sie können Ihr vorhandenes Skype-Konto mit Ihrem Microsoft-Konto für einmaliges Anmelden in einer Vielzahl von Anwendungen und Diensten zusammenführen. Nachdem das Konto zusammengeführt wurde, kann ein Skype-Benutzer eine Kontakt Anfrage an lync-Benutzer senden.
 
 <div>
 
@@ -102,7 +104,7 @@ In jeder Instanz muss der lync-Benutzer die e-Mail-Adresse des Skype-Benutzers i
 
 2.  Wählen Sie in der Liste der verfügbaren Kontakt Anbieter **Skype**aus.
 
-3.  Geben Sie im Feld **Chat Adresse** das Microsoft-Konto (MSA) des Skype-Benutzers im Format <strong>Benutzer (Domänenname) @MSN. com</strong>ein. Für Benutzer Bob@contoso.com wäre der Eintrag also <strong>Bob (contoso. com) @MSN. com.<strong>
+3.  Geben Sie im Feld **Chat Adresse** das Microsoft-Konto (MSA) des Skype-Benutzers im Format <strong>Benutzer (Domänenname) @MSN. com</strong>ein. Für Benutzer Bob@contoso.com wäre der Eintrag also <strong> Bob (contoso. com) @MSN. com <strong> .
 
 4.  Wählen Sie im Dropdown-Listenfeld **zu Kontaktgruppe hinzufügen** eine Kontaktgruppe aus, der der Benutzer hinzugefügt werden soll.
 

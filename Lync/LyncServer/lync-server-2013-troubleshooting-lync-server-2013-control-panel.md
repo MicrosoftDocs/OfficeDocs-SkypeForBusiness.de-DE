@@ -12,20 +12,22 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 629fa8ea52148e25bd37fa448d9762fbfd557788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7da23bc56d18b1b5e6235551f7b99cc15e658fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193378"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535932"
 ---
+# <a name="troubleshooting-lync-server-2013-control-panel"></a>Problembehandlung für die Lync Server 2013-Systemsteuerung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-lync-server-2013-control-panel"></a>Problembehandlung für die Lync Server 2013-Systemsteuerung
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server-Systemsteuerung erfordert, dass Microsoft Silverlight Browser-Plug-i
 
 </div>
 
-Wenn Ihr Internet Browser die Installation von Silverlight aufgrund von Sicherheitsüberlegungen blockiert, fügen Sie die URL (Uniform Resource Locator) hinzu, mit der lync Server-Systemsteuerung der Liste der vertrauenswürdigen Websites geöffnet wird. Stellen Sie sicher, dass in den Sicherheitseinstellungen von Internet Explorer die Option **ActiveX-Steuerelemente und Plugins ausführen****aktiviert** ist. Ausführliche Informationen finden Sie [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060)unter. Stellen Sie außerdem sicher, dass der Browser für die Verwendung von SSL 3.0 konfiguriert ist.
+Wenn Ihr Internet Browser die Installation von Silverlight aufgrund von Sicherheitsüberlegungen blockiert, fügen Sie die URL (Uniform Resource Locator) hinzu, mit der lync Server-Systemsteuerung der Liste der vertrauenswürdigen Websites geöffnet wird. Stellen Sie sicher, dass in den Sicherheitseinstellungen von Internet Explorer die Option **ActiveX-Steuerelemente und Plugins ausführen****aktiviert** ist. Ausführliche Informationen finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060) . Stellen Sie außerdem sicher, dass der Browser für die Verwendung von SSL 3.0 konfiguriert ist.
 
 Wenn der Internetbrowser für die Verwendung eines Proxyservers konfiguriert ist, stellen Sie sicher, dass der Browser dafür konfiguriert ist, den Proxyserver für automatisch als intern erkannte  Websites zu umgehen. Alternativ können Sie auch in den Konfigurationseinstellungen für Proxyserver die Adresse der Ausnahmeliste des Browsers hinzufügen.
 

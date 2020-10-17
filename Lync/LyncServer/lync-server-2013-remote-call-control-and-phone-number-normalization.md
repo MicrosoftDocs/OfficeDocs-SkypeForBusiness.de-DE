@@ -12,20 +12,22 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9acca7ab40ea8c6af3488c454620d20f1e9e326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 211f0f717f7c40895cdbbad75bd98ae0ff90af89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536552"
 ---
+# <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Remote Anrufsteuerung und Telefonnummernnormalisierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Remote Anrufsteuerung und Telefonnummernnormalisierung in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42215061"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-22_
 
-Lync-Clients laden die Normalisierungsregeln für Telefonnummern als Teil des Adressbuchdienst-Dateidownloads (Address Book Service, ABS) herunter. In Szenarien mit Remoteanrufsteuerung werden die vom Adressbuchdienst verwendeten Normalisierungsregeln für Rufnummern sowohl auf eingehende als auch auf ausgehende Anrufe mit Remoteanrufsteuerung angewendet. Für eingehende Anrufe bei einem Benutzer, der für die Remoteanrufsteuerung aktiviert ist, wird die Rufnummer des Anrufers zunächst über das SIP/CSTA-Gateway oder eine Nebenstellenanlage (Private Branch Exchange, PBX) in das E.164-Format normalisiert. Wenn lync Server 2013 den Anruf vom Gateway erhält, führt er eine umgekehrte Nummernsuche (können) für die Telefonnummer des Anrufers anhand der normalisierten Nummer in der Microsoft Office Outlook-Kontaktliste des angerufenen oder der globalen Adressliste (GAL) durch, die in gespeichert wird. der Adressbuchdienst. Wenn die umgekehrte Nummernsuche zu einem Treffer führt, wird der Anrufer in der Benachrichtigung über einen eingehenden Anruf mit seinem Namen identifiziert.
+Lync-Clients laden die Normalisierungsregeln für Telefonnummern als Teil des Adressbuchdienst-Dateidownloads (Address Book Service, ABS) herunter. In Szenarien mit Remoteanrufsteuerung werden die vom Adressbuchdienst verwendeten Normalisierungsregeln für Rufnummern sowohl auf eingehende als auch auf ausgehende Anrufe mit Remoteanrufsteuerung angewendet. Für eingehende Anrufe bei einem Benutzer, der für die Remoteanrufsteuerung aktiviert ist, wird die Rufnummer des Anrufers zunächst über das SIP/CSTA-Gateway oder eine Nebenstellenanlage (Private Branch Exchange, PBX) in das E.164-Format normalisiert. Wenn lync Server 2013 den Anruf vom Gateway erhält, führt er Reverse Number Lookup (können) für die Telefonnummer des Anrufers anhand der normalisierten Nummer in der Microsoft Office Outlook-Kontaktliste des angerufenen oder in der globalen Adressliste (GAL) durch, die im Adressbuchdienst gespeichert ist. Wenn die umgekehrte Nummernsuche zu einem Treffer führt, wird der Anrufer in der Benachrichtigung über einen eingehenden Anruf mit seinem Namen identifiziert.
 
 Für ausgehende Anrufe mit Remoteanrufsteuerung wendet lync die Normalisierungsregeln für den Adressbuchdienst auf die gewählte Nummer an, bevor der Anruf an das SIP/CSTA-Gateway weitergeleitet wird.
 

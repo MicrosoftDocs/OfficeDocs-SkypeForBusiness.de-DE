@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwenden von "config. xml" zum Ausführen von Installationsaufgaben'
+title: 'Lync Server 2013: Verwenden von Config.xml zum Ausführen von Installationsaufgaben'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2933da3fc52cc6a5c23f74806ff3a4e81dcb2ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 901d95797955c6f545c0d305e2c855829c92addf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535782"
 ---
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Ausführen von Installationsaufgaben in lync Server 2013 mithilfe von Config.xml
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Verwenden von "config. xml" zum Ausführen von Installationsaufgaben in lync Server 2013
+
 
 </div>
 
@@ -51,13 +53,13 @@ Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste I
 
   - Hinzufügen oder Entfernen von Sprachen in der Installation
 
-Es wird empfohlen, dass Sie die Datei "config. xml" verwenden, um lync 2013 unbeaufsichtigte Installation zu konfigurieren.
+Es wird empfohlen, dass Sie die Config.xml Datei verwenden, um lync 2013 unbeaufsichtigte Installation zu konfigurieren.
 
-Standardmäßig die Datei "config. xml", die im Hauptproduktordner gespeichert ist (beispielsweise \\"Product. WW) weist Setup an, dieses Produkt zu installieren. Beispielsweise wird in der Datei "config. xml" im folgenden Ordner lync 2013 installiert:
+Standardmäßig die Config.xml Datei, die im Hauptproduktordner gespeichert ist (beispielsweise \\ Product. WW) weist Setup an, dieses Produkt zu installieren. Die Config.xml Datei im folgenden Ordner installiert beispielsweise lync 2013:
 
-  - \\\\Server\\Freigabe\\Lync15\\lync. WW \\config. XML
+  - \\\\Server \\ Freigabe \\ Lync15 \\ lync. WW \\Config.xml
 
-Die für lync 2013 Installation am häufigsten verwendeten config. XML-Elemente sind in der folgenden Tabelle aufgeführt.
+In der folgenden Tabelle sind die Config.xml Elemente aufgeführt, die für die lync 2013-Installation am häufigsten verwendet werden.
 
 ### <a name="configxml-elements"></a>Config.xml-Elemente
 
@@ -81,24 +83,24 @@ Die für lync 2013 Installation am häufigsten verwendeten config. XML-Elemente 
 <td><p>OptionState</p></td>
 <td><p>Gibt an, wie bestimmte Produktfeatures während der Installation behandelt werden. Verwenden Sie die folgenden Attribute, um die Installation von Business Connectivity Services zu verhindern, die freigegebene Komponenten enthält, die die Outlook 2010 behindern:</p>
 <ul>
-<li><p>ID =&quot;LOBiMain&quot;</p></li>
-<li><p>State =&quot;abwesend&quot;</p></li>
-<li><p>Children =&quot;Force&quot;</p></li>
+<li><p>ID = &quot; LOBiMain&quot;</p></li>
+<li><p>State = &quot; abwesend&quot;</p></li>
+<li><p>Children = &quot; Force&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Anzeige</p></td>
+<td><p>Anzeigen</p></td>
 <td><p>Die Ebene der Benutzeroberfläche, die dem Benutzer angezeigt wird. Zu den typischen Attributen zählen Folgende:</p>
 <ul>
-<li><p>CompletionNotice =&quot;ja&quot; | &quot;Nein&quot;(Standard)</p></li>
-<li><p>AcceptEULA =&quot;ja&quot; | &quot;Nein&quot;(Standard)</p></li>
+<li><p>CompletionNotice = &quot; Ja &quot;  |  &quot; Nein &quot; (Standard)</p></li>
+<li><p>AcceptEULA = &quot; Ja &quot;  |  &quot; Nein &quot; (Standard)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Protokollierung</p></td>
 <td><p>Optionen für den vom Setup ausgeführten Protokollierungstyp. Zu den typischen Attributen zählen Folgende:</p>
 <ul>
-<li><p>Type =&quot;off&quot; | &quot;Standard&quot;(Standard) | &quot;Ausführlich&quot;</p></li>
+<li><p>Type = &quot; Off &quot;  |  &quot; Standard &quot; (Standard) | &quot; Verbose&quot;</p></li>
 <li><p>Template=”Dateiname.txt” (Name der Protokolldatei)</p></li>
 </ul></td>
 </tr>
@@ -106,8 +108,8 @@ Die für lync 2013 Installation am häufigsten verwendeten config. XML-Elemente 
 <td><p>Einstellung</p></td>
 <td><p>Gibt Werte für Windows Installer-Eigenschaften an. Zu den typischen Attributen zählen Folgende:</p>
 <ul>
-<li><p>Setting ID =&quot;Name&quot; (der Name der Windows Installer-Eigenschaft)</p></li>
-<li><p>Wert =&quot;Wert&quot; (der Wert, der der Eigenschaft zugewiesen werden soll)</p></li>
+<li><p>Setting ID = &quot; Name &quot; (der Name der Windows Installer-Eigenschaft)</p></li>
+<li><p>Wert = &quot; Wert &quot; (der Wert, der der Eigenschaft zugewiesen werden soll)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -121,7 +123,7 @@ Die für lync 2013 Installation am häufigsten verwendeten config. XML-Elemente 
 </table>
 
 
-Das folgende Beispiel zeigt eine Datei "config. xml" für eine typische automatische Installation von lync 2013.
+Das folgende Beispiel zeigt eine Config.xml Datei für eine typische automatische Installation von lync 2013.
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,7 +133,7 @@ Das folgende Beispiel zeigt eine Datei "config. xml" für eine typische automati
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Ausführliche Informationen zur Verwendung der Datei "config. xml" zur Durchführung von Office-Installations- <https://go.microsoft.com/fwlink/p/?linkid=267514>und Wartungsaufgaben finden Sie unter.
+Ausführliche Informationen zur Verwendung der Config.xml Datei zum Ausführen von Office-Installations-und Wartungsaufgaben finden Sie unter <https://go.microsoft.com/fwlink/p/?linkid=267514> .
 
 <div>
 
@@ -141,7 +143,7 @@ Ausführliche Informationen zur Verwendung der Datei "config. xml" zur Durchfüh
 
 2.  Suchen Sie die Zeilen, die die zu ändernden Elemente enthalten.
 
-3.  Ändern Sie den Elementeintrag mit den gewünschten Optionen für eine automatische Installation. Stellen Sie sicher, dass Sie die Kommentartrennzeichen "\<\!--" und "--\>" entfernen. Verwenden Sie z. B. die folgende Syntax:
+3.  Ändern Sie den Elementeintrag mit den gewünschten Optionen für eine automatische Installation. Stellen Sie sicher, dass Sie die Kommentartrennzeichen "" entfernen \<\!--" and "--\> . Verwenden Sie z. B. die folgende Syntax:
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

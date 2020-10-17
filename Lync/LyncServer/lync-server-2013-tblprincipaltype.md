@@ -12,20 +12,22 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536322"
 ---
+# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType in lync Server 2013
+
 
 </div>
 
@@ -121,7 +123,7 @@ tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tbl
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.</p></td>
 <td></td>
 </tr>
@@ -138,13 +140,13 @@ tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tbl
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Multiswitch</p></td>
 <td><p>Prinzipal, der intern vom Server für beständigen Chat verwendet wird.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>Benutzer</p></td>
 <td><p>Regelmäßiger Benutzer.</p></td>
 <td><p>Ja</p></td>
@@ -157,7 +159,7 @@ tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tbl
 </tr>
 <tr class="odd">
 <td><p>9 </p></td>
-<td><p>Group</p></td>
+<td><p>Gruppe</p></td>
 <td><p>Active Directory-Sicherheitsgruppe</p></td>
 <td></td>
 </tr>
