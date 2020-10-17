@@ -12,20 +12,22 @@ ms:contentKeyID: 48184913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9c7da9fd484ec0229417233de3f4338dd9f4b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: be270859304236b0704bc8cc9e1bc29f3e80fcb9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514822"
 ---
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="60af0-102">Bewährte Methoden für die Anrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60af0-102">Best practices for call admission control in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="c956e-102">Bewährte Methoden für die Anrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c956e-102">Best practices for call admission control in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,32 +37,32 @@ ms.locfileid: "42199358"
 
 <span> </span>
 
-<span data-ttu-id="c956e-103">_**Letztes Änderungsstand des Themas:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="c956e-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="60af0-103">_**Letztes Änderungsstand des Themas:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="60af0-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="c956e-104">Halten Sie sich bei der Bereitstellung der Anrufsteuerung an die folgenden bewährten Methoden, um die Leistung zu verbessern und die Bereitstellung zu vereinfachen:</span><span class="sxs-lookup"><span data-stu-id="c956e-104">To enhance performance and facilitate deployment, apply the following best practices when you deploy call admission control:</span></span>
+<span data-ttu-id="60af0-104">Halten Sie sich bei der Bereitstellung der Anrufsteuerung an die folgenden bewährten Methoden, um die Leistung zu verbessern und die Bereitstellung zu vereinfachen:</span><span class="sxs-lookup"><span data-stu-id="60af0-104">To enhance performance and facilitate deployment, apply the following best practices when you deploy call admission control:</span></span>
 
-  - <span data-ttu-id="c956e-105">Stellen Sie sicher, dass WANs für den aktuellen und den erwarteten Mediendatenverkehr angemessen ausgelegt sind.</span><span class="sxs-lookup"><span data-stu-id="c956e-105">Ensure that WANs are adequately provisioned for current and anticipated media traffic.</span></span>
+  - <span data-ttu-id="60af0-105">Stellen Sie sicher, dass WANs für den aktuellen und den erwarteten Mediendatenverkehr angemessen ausgelegt sind.</span><span class="sxs-lookup"><span data-stu-id="60af0-105">Ensure that WANs are adequately provisioned for current and anticipated media traffic.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="c956e-p101">Es empfiehlt sich, bei der Bandbreiteneinschränkungen einen Puffer einzurechnen. Manche Szenarien, zum Beispiel Racebedingungen, wirken sich auf die verwendete Gesamtbandbreite aus und können zu Situationen führen, in denen die Bandbreiteneinschränkung überschritten wird. Wenn beispielsweise zwei Anrufe gestartet werden, während der Mediendatenverkehr sich einer Bandbreiteneinschränkung nähert, wird möglicherweise einer der beiden Anrufe abgewiesen, weil der andere zuerst gestartet wurde.</span><span class="sxs-lookup"><span data-stu-id="c956e-p101">We recommend that you factor in a buffer to your bandwidth limits. There are scenarios such as race conditions that affect the total bandwidth used and can result in situations where the bandwidth limit is exceeded. For example, if two calls try to start while media traffic is approaching a bandwidth limit, one of them may be denied because the other managed to start first.</span></span>
+    > <span data-ttu-id="60af0-p101">Es empfiehlt sich, bei der Bandbreiteneinschränkungen einen Puffer einzurechnen. Manche Szenarien, zum Beispiel Racebedingungen, wirken sich auf die verwendete Gesamtbandbreite aus und können zu Situationen führen, in denen die Bandbreiteneinschränkung überschritten wird. Wenn beispielsweise zwei Anrufe gestartet werden, während der Mediendatenverkehr sich einer Bandbreiteneinschränkung nähert, wird möglicherweise einer der beiden Anrufe abgewiesen, weil der andere zuerst gestartet wurde.</span><span class="sxs-lookup"><span data-stu-id="60af0-p101">We recommend that you factor in a buffer to your bandwidth limits. There are scenarios such as race conditions that affect the total bandwidth used and can result in situations where the bandwidth limit is exceeded. For example, if two calls try to start while media traffic is approaching a bandwidth limit, one of them may be denied because the other managed to start first.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="c956e-109">Überwachen Sie die Netzwerkbelegung und die Kommunikationsdatensätze, damit Sie die optimalen Einstellungen für die Anrufsteuerung wählen und diese bei Änderungen in der Netzwerkbelegung aktualisieren können.</span><span class="sxs-lookup"><span data-stu-id="c956e-109">Monitor network usage and call detail records so that you can choose optimal CAC settings and update CAC settings as network usage changes.</span></span>
+  - <span data-ttu-id="60af0-109">Überwachen Sie die Netzwerkbelegung und die Kommunikationsdatensätze, damit Sie die optimalen Einstellungen für die Anrufsteuerung wählen und diese bei Änderungen in der Netzwerkbelegung aktualisieren können.</span><span class="sxs-lookup"><span data-stu-id="60af0-109">Monitor network usage and call detail records so that you can choose optimal CAC settings and update CAC settings as network usage changes.</span></span>
 
-  - <span data-ttu-id="c956e-110">Verwenden Sie Richtlinien für die Anrufsteuerung zur Ergänzung der QoS-Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="c956e-110">Use CAC bandwidth policies to complement QoS settings.</span></span>
+  - <span data-ttu-id="60af0-110">Verwenden Sie Richtlinien für die Anrufsteuerung zur Ergänzung der QoS-Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="60af0-110">Use CAC bandwidth policies to complement QoS settings.</span></span>
 
-  - <span data-ttu-id="c956e-111">Wenn Sie blockierte Anrufe in das Telefonfestnetz umleiten möchten, überprüfen Sie die PSTN-Funktionalität und -Kapazität.</span><span class="sxs-lookup"><span data-stu-id="c956e-111">If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity.</span></span> <span data-ttu-id="c956e-112">Ausführliche Informationen finden Sie unter [Planning Outbound Voice Routing in lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span><span class="sxs-lookup"><span data-stu-id="c956e-112">For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span></span>
+  - <span data-ttu-id="60af0-111">Wenn Sie blockierte Anrufe in das Telefonfestnetz umleiten möchten, überprüfen Sie die PSTN-Funktionalität und -Kapazität.</span><span class="sxs-lookup"><span data-stu-id="60af0-111">If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity.</span></span> <span data-ttu-id="60af0-112">Ausführliche Informationen finden Sie unter [Planning Outbound Voice Routing in lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span><span class="sxs-lookup"><span data-stu-id="60af0-112">For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="c956e-113">Kapazität bezieht sich auf die Anzahl der Ports, die Sie zur Unterstützung einer möglichen PSTN-Umleitung öffnen müssen.</span><span class="sxs-lookup"><span data-stu-id="c956e-113">Capacity refers to the number of ports you need to open to support potential PSTN re-routing.</span></span>
+    > <span data-ttu-id="60af0-113">Kapazität bezieht sich auf die Anzahl der Ports, die Sie zur Unterstützung einer möglichen PSTN-Umleitung öffnen müssen.</span><span class="sxs-lookup"><span data-stu-id="60af0-113">Capacity refers to the number of ports you need to open to support potential PSTN re-routing.</span></span>
 
     
     </div>
