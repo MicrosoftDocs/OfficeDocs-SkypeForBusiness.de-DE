@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Überprüfen der System Einstellungen des Domänennamens für den Lastenausgleich'
+description: 'Lync Server 2013: Überprüfen der System Einstellungen des Domänennamens für den Lastenausgleich.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc346dba48de1914f9aa5684d114e2f3466396f9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a218a79a541e9c9705a8403146fe7e134e8ed827
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508612"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547231"
 ---
 # <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>Validieren von Domänennamen-System Einstellungen für den Lastenausgleich in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (optional) willkommene Benutzer für Einwahlkonferenzen'
+description: 'Lync Server 2013: (optional) Begrüßung von Benutzern zu Einwahlkonferenzen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fde04364faf306983f5008539c2ccc6f248955bf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0d33c7184a8cf22699b4ebe8d8ea8b4ef1c133a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522252"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546901"
 ---
 # <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Optional Begrüßen von Benutzern für Einwahlkonferenzen in lync Server 2013
 

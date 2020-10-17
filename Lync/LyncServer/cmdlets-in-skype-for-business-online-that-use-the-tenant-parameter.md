@@ -1,5 +1,6 @@
 ---
 title: Cmdlets in Skype for Business Online, die den Parameter "Mandant" verwenden
+description: Cmdlets in Skype for Business Online, die den Parameter Mandanten verwenden.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ff2b8053dd855a854fa26699770d3dafaa0dcbd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755041"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546801"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets in Skype for Business Online, die den Parameter "Mandant" verwenden
 
@@ -34,7 +35,7 @@ Glücklicherweise müssen Sie nicht jedes Mal, wenn Sie eines dieser Cmdlets aus
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-Alternativ können Sie dies in einem einzigen Befehl durchführen, indem Sie die Mandanten-ID abrufen und diesen Wert dann an das Cmdlet "Cmdlet" "CsTenantPublicProvider" weiterleiten:
+Alternativ können Sie dies in einem einzigen Befehl durchführen, indem Sie die Mandanten-ID abrufen und diesen Wert anschließend an das Set-CsTenantPublicProvider-Cmdlet weiterleiten:
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 

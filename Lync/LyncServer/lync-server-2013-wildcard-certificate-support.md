@@ -1,5 +1,6 @@
 ---
 title: Unterstützung für lync Server 2013 Platzhalterzertifikat
+description: Lync Server 2013 Unterstützung von Platzhalterzertifikaten.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 46cc362eb925a86b5e90d51569db6d425ba88fa6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508522"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546111"
 ---
 # <a name="wildcard-certificate-support-in-lync-server-2013"></a>Unterstützung von Platzhalterzertifikaten in lync Server 2013
 

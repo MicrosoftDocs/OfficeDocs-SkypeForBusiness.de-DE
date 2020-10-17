@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern'
+description: 'Lync Server 2013: Aktivieren oder Deaktivieren der Ermittlung von Partnerverbund Partnern.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff9fb4e0b243cc1ce9b51deac1c4021f9b3dff56
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 36b91120ffc1ce2bd6cd8b8114f0330e6d39d996
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526822"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546601"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-lync-server-2013"></a>Aktivieren oder Deaktivieren der Ermittlung von Partnerverbund Partnern in lync Server 2013
 

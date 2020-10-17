@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: einschließen des Security Desks'
+description: 'Lync Server 2013: einschließlich des Security Desks.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52133ebc1e842b1f2ee3f885e038cf521fb18f3d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23a5b01dff5e3db8293944033f1f3b675bbc4d37
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526622"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547751"
 ---
 # <a name="including-the-security-desk-in-lync-server-2013"></a>Einschließen des Sicherheits Desks in lync Server 2013
 
