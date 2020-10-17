@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Prüfliste zur Bereitstellung für die Überwachung'
+description: 'Lync Server 2013: Prüfliste zur Bereitstellung für die Überwachung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6cf28170044b7580fd07321b081e9366b056cd1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe3d3293accf6e25c20ae8391f9107ae75fef338
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522762"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568325"
 ---
-# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="ddd3a-102">Prüfliste zur Bereitstellung für die Überwachung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddd3a-102">Deployment checklist for monitoring in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="a0e4f-103">Prüfliste zur Bereitstellung für die Überwachung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0e4f-103">Deployment checklist for monitoring in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48522762"
 
 <span> </span>
 
-<span data-ttu-id="ddd3a-103">_**Letztes Änderungsstand des Themas:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="ddd3a-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="a0e4f-104">_**Letztes Änderungsstand des Themas:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="a0e4f-104">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="ddd3a-104">Obwohl die Überwachung auf jedem Front-End-Server bereits installiert und aktiviert ist, müssen Sie noch mehrere Schritte durchführen, bevor Sie tatsächlich Überwachungsdaten für Microsoft lync Server 2013 erfassen können.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-104">Although monitoring is already installed and activated on each Front End server, there are still several steps that you must undertake before you can actually being to collect monitoring data for Microsoft Lync Server 2013.</span></span> <span data-ttu-id="ddd3a-105">Diese Schritte werden in der nachstehenden Prüfliste aufgeführt:</span><span class="sxs-lookup"><span data-stu-id="ddd3a-105">These steps are outlined in the following checklist:</span></span>
+<span data-ttu-id="a0e4f-105">Obwohl die Überwachung auf jedem Front-End-Server bereits installiert und aktiviert ist, müssen Sie noch mehrere Schritte durchführen, bevor Sie tatsächlich Überwachungsdaten für Microsoft lync Server 2013 erfassen können.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-105">Although monitoring is already installed and activated on each Front End server, there are still several steps that you must undertake before you can actually being to collect monitoring data for Microsoft Lync Server 2013.</span></span> <span data-ttu-id="a0e4f-106">Diese Schritte werden in der nachstehenden Prüfliste aufgeführt:</span><span class="sxs-lookup"><span data-stu-id="a0e4f-106">These steps are outlined in the following checklist:</span></span>
 
 
 <table>
@@ -51,30 +52,30 @@ ms.locfileid: "48522762"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ddd3a-106">Phase</span><span class="sxs-lookup"><span data-stu-id="ddd3a-106">Phase</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-107">Schritte</span><span class="sxs-lookup"><span data-stu-id="ddd3a-107">Steps</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-108">Rolle und Gruppenmitgliedschaft</span><span class="sxs-lookup"><span data-stu-id="ddd3a-108">Role and group membership</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-109">Dokumentation</span><span class="sxs-lookup"><span data-stu-id="ddd3a-109">Documentation</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-107">Phase</span><span class="sxs-lookup"><span data-stu-id="a0e4f-107">Phase</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-108">Schritte</span><span class="sxs-lookup"><span data-stu-id="a0e4f-108">Steps</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-109">Rolle und Gruppenmitgliedschaft</span><span class="sxs-lookup"><span data-stu-id="a0e4f-109">Role and group membership</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-110">Dokumentation</span><span class="sxs-lookup"><span data-stu-id="a0e4f-110">Documentation</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ddd3a-110"><strong>Hard- und Softwarevoraussetzungen für die Installation</strong></span><span class="sxs-lookup"><span data-stu-id="ddd3a-110"><strong>Install prerequisite hardware and software</strong></span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-111">Installieren einer unterstützten Version von Microsoft SQL Server auf dem Computer, der als Back-End-Datenspeicher für die Überwachung fungiert.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-111">Install a supported version of Microsoft SQL Server on the computer that will act as the backend data store for monitoring.</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-112">Domänenbenutzer, der auch Mitglied der lokalen Administratorgruppe ist.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-112">Domain user who is also a member of the local administrators group.</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-113"><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für lync Server 2013</a> im Unterstützungs Handbuch</span><span class="sxs-lookup"><span data-stu-id="ddd3a-113"><a href="lync-server-2013-supported-hardware.md">Supported hardware for Lync Server 2013</a> in the Supportability guide</span></span></p>
-<p><span data-ttu-id="ddd3a-114"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server Software und Infrastrukturunterstützung in lync Server 2013</a> im Support-Leitfaden</span><span class="sxs-lookup"><span data-stu-id="ddd3a-114"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server software and infrastructure support in Lync Server 2013</a> in the Supportability Guide</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-111"><strong>Hard- und Softwarevoraussetzungen für die Installation</strong></span><span class="sxs-lookup"><span data-stu-id="a0e4f-111"><strong>Install prerequisite hardware and software</strong></span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-112">Installieren einer unterstützten Version von Microsoft SQL Server auf dem Computer, der als Back-End-Datenspeicher für die Überwachung fungiert.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-112">Install a supported version of Microsoft SQL Server on the computer that will act as the backend data store for monitoring.</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-113">Domänenbenutzer, der auch Mitglied der lokalen Administratorgruppe ist.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-113">Domain user who is also a member of the local administrators group.</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-114"><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für lync Server 2013</a> im Unterstützungs Handbuch</span><span class="sxs-lookup"><span data-stu-id="a0e4f-114"><a href="lync-server-2013-supported-hardware.md">Supported hardware for Lync Server 2013</a> in the Supportability guide</span></span></p>
+<p><span data-ttu-id="a0e4f-115"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server Software und Infrastrukturunterstützung in lync Server 2013</a> im Support-Leitfaden</span><span class="sxs-lookup"><span data-stu-id="a0e4f-115"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server software and infrastructure support in Lync Server 2013</a> in the Supportability Guide</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ddd3a-115"><strong>Erstellen der geeigneten internen Topologie zur Unterstützung der Archivierung</strong></span><span class="sxs-lookup"><span data-stu-id="ddd3a-115"><strong>Create the appropriate internal topology to support monitoring</strong></span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-116">Verwenden Sie lync Server 2013 Topologie-Generator, um der Topologie Überwachungsdatenbanken hinzuzufügen, und veröffentlichen Sie dann die aktualisierte Topologie.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-116">Use Lync Server 2013 Topology Builder to add monitoring databases to the topology, then published the updated topology.</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-117">Definieren einer Topologie, ein Benutzer, der Mitglied der lokalen Benutzergruppe ist.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-117">To define a topology, a user who is a member of the local users group.</span></span></p>
-<p><span data-ttu-id="ddd3a-118">Veröffentlichen der Topologie, ein Benutzer, der Mitglied der Domänenadministratorgruppe und der RTCUniversalServerAdmins-Gruppe ist.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-118">To publish the topology, a user who is a member if the domain administrators group and the RTCUniversalServerAdmins group.</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-119"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in lync Server 2013</a> im Bereitstellungshandbuch</span><span class="sxs-lookup"><span data-stu-id="ddd3a-119"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Associating a monitoring store with a Front End pool in Lync Server 2013</a> in the Deployment guide</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-116"><strong>Erstellen der geeigneten internen Topologie zur Unterstützung der Archivierung</strong></span><span class="sxs-lookup"><span data-stu-id="a0e4f-116"><strong>Create the appropriate internal topology to support monitoring</strong></span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-117">Verwenden Sie lync Server 2013 Topologie-Generator, um der Topologie Überwachungsdatenbanken hinzuzufügen, und veröffentlichen Sie dann die aktualisierte Topologie.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-117">Use Lync Server 2013 Topology Builder to add monitoring databases to the topology, then published the updated topology.</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-118">Definieren einer Topologie, ein Benutzer, der Mitglied der lokalen Benutzergruppe ist.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-118">To define a topology, a user who is a member of the local users group.</span></span></p>
+<p><span data-ttu-id="a0e4f-119">Veröffentlichen der Topologie, ein Benutzer, der Mitglied der Domänenadministratorgruppe und der RTCUniversalServerAdmins-Gruppe ist.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-119">To publish the topology, a user who is a member if the domain administrators group and the RTCUniversalServerAdmins group.</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-120"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in lync Server 2013</a> im Bereitstellungshandbuch</span><span class="sxs-lookup"><span data-stu-id="a0e4f-120"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Associating a monitoring store with a Front End pool in Lync Server 2013</a> in the Deployment guide</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ddd3a-120"><strong>Aktivieren der entsprechenden Überwachungseinstellungen</strong></span><span class="sxs-lookup"><span data-stu-id="ddd3a-120"><strong>Enable the appropriate monitoring settings</strong></span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-121">Aktivieren Sie die Aufzeichnung von Kommunikationsdatensätzen und/oder die QoE-Überwachung (Quality of Experience) auf globaler und/oder auf Standortebene.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-121">Enable call detail recording (CDR) and/or Quality of Experience (QoE) monitoring at the global and/or the site scopes.</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-122">Ein Benutzer, der Mitglied der RTCUniversalServerAdmins-Gruppe ist oder dem eine RBAC-Rolle mit Zugriff auf das Cmdlet CsCdrConfiguration und auf das Cmdlet CsQoEConfiguration zugewiesen wurde.</span><span class="sxs-lookup"><span data-stu-id="ddd3a-122">A user who is a member of the RTCUniversalServerAdmins group or who has been assigned an RBAC role that provides access to the CsCdrConfiguration and CsQoEConfiguration cmdlets.</span></span></p></td>
-<td><p><span data-ttu-id="ddd3a-123"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Konfigurieren der Einstellungen für die Aufzeichnung von Gesprächsdaten und der erfahrungsqualität in lync Server 2013</a> im Betriebshandbuch</span><span class="sxs-lookup"><span data-stu-id="ddd3a-123"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</a> in the Operations guide</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-121"><strong>Aktivieren der entsprechenden Überwachungseinstellungen</strong></span><span class="sxs-lookup"><span data-stu-id="a0e4f-121"><strong>Enable the appropriate monitoring settings</strong></span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-122">Aktivieren Sie die Aufzeichnung von Kommunikationsdatensätzen und/oder die QoE-Überwachung (Quality of Experience) auf globaler und/oder auf Standortebene.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-122">Enable call detail recording (CDR) and/or Quality of Experience (QoE) monitoring at the global and/or the site scopes.</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-123">Ein Benutzer, der Mitglied der RTCUniversalServerAdmins-Gruppe ist oder dem eine RBAC-Rolle mit Zugriff auf das Cmdlet CsCdrConfiguration und auf das Cmdlet CsQoEConfiguration zugewiesen wurde.</span><span class="sxs-lookup"><span data-stu-id="a0e4f-123">A user who is a member of the RTCUniversalServerAdmins group or who has been assigned an RBAC role that provides access to the CsCdrConfiguration and CsQoEConfiguration cmdlets.</span></span></p></td>
+<td><p><span data-ttu-id="a0e4f-124"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Konfigurieren der Einstellungen für die Aufzeichnung von Gesprächsdaten und der erfahrungsqualität in lync Server 2013</a> im Betriebshandbuch</span><span class="sxs-lookup"><span data-stu-id="a0e4f-124"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</a> in the Operations guide</span></span></p></td>
 </tr>
 </tbody>
 </table>

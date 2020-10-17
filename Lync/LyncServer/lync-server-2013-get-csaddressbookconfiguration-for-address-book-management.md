@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Get-CsAddressBookConfiguration für die Adressbuchverwaltung'
+description: 'Lync Server 2013: Get-CsAddressBookConfiguration für die Adressbuchverwaltung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185264
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03a13705381c127a6c2c04e7c4ffa70214c49cb6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 91b96aead7b7038464f3166691a5952b9ff850dc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512642"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567001"
 ---
-# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="886db-102">Get-CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="886db-102">Get-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="459cf-103">Get-CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="459cf-103">Get-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,30 +38,30 @@ ms.locfileid: "48512642"
 
 <span> </span>
 
-<span data-ttu-id="886db-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="886db-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="459cf-104">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="459cf-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="886db-p101">Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig dürfen Mitglieder der folgenden Gruppen das Cmdlet "Get-CsAddressBookConfiguration" lokal ausführen: RTCUniversalServerAdmins. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):</span><span class="sxs-lookup"><span data-stu-id="886db-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="459cf-p101">Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig dürfen Mitglieder der folgenden Gruppen das Cmdlet "Get-CsAddressBookConfiguration" lokal ausführen: RTCUniversalServerAdmins. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):</span><span class="sxs-lookup"><span data-stu-id="459cf-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsAddressBookConfiguration"}
 
-<span data-ttu-id="886db-106">Mit dem Cmdlet "Get-CsAddressBookConfiguration" werden Informationen zu einer Konfiguration zurückgegeben, die bereits vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="886db-106">The cmdlet Get-CsAddressBookConfiguration returns information about a configuration that already exists.</span></span>
+<span data-ttu-id="459cf-107">Mit dem Cmdlet "Get-CsAddressBookConfiguration" werden Informationen zu einer Konfiguration zurückgegeben, die bereits vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="459cf-107">The cmdlet Get-CsAddressBookConfiguration returns information about a configuration that already exists.</span></span>
 
-<span data-ttu-id="886db-107">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="886db-107">For example:</span></span>
+<span data-ttu-id="459cf-108">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="459cf-108">For example:</span></span>
 
     Get-CsAddressBookConfiguration -Identity site:Redmond
 
-<span data-ttu-id="886db-p102">Durch den kombinierten Einsatz der Cmdlets "Get-CsAddressBookConfiguration" und "Set-CsAddressBookConfiguration" kann der Administrator zunächst definieren, welche Konfigurationen geändert werden sollen, und die Änderungen anschließend anwenden. Beispiel für die kombinierte Verwendung:</span><span class="sxs-lookup"><span data-stu-id="886db-p102">Combining the functionality of Get-CsAddressBookConfiguration and Set-CsAddressBookConfiguration allows the administrator to define which configurations to modify and then apply the modifications. For example, this combined:</span></span>
+<span data-ttu-id="459cf-p102">Durch den kombinierten Einsatz der Cmdlets "Get-CsAddressBookConfiguration" und "Set-CsAddressBookConfiguration" kann der Administrator zunächst definieren, welche Konfigurationen geändert werden sollen, und die Änderungen anschließend anwenden. Beispiel für die kombinierte Verwendung:</span><span class="sxs-lookup"><span data-stu-id="459cf-p102">Combining the functionality of Get-CsAddressBookConfiguration and Set-CsAddressBookConfiguration allows the administrator to define which configurations to modify and then apply the modifications. For example, this combined:</span></span>
 
     Get-CsAddressBookConfiguration -Filter site:* | Set-CsAddressBookConfiguration -RunTimeOfDay 23:00
 
-<span data-ttu-id="886db-110">In diesem Beispiel werden alle Konfigurationen an sämtlichen Standorten zurückgegeben, und der Parameter "RunTimeOfDay" wird für alle Konfigurationen auf "23:00" festgelegt.</span><span class="sxs-lookup"><span data-stu-id="886db-110">Returns all configurations in all sites and applies the RunTimeOfDay of 23:00 hours to the configurations.</span></span>
+<span data-ttu-id="459cf-111">In diesem Beispiel werden alle Konfigurationen an sämtlichen Standorten zurückgegeben, und der Parameter "RunTimeOfDay" wird für alle Konfigurationen auf "23:00" festgelegt.</span><span class="sxs-lookup"><span data-stu-id="459cf-111">Returns all configurations in all sites and applies the RunTimeOfDay of 23:00 hours to the configurations.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="886db-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="886db-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="459cf-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="459cf-112">See Also</span></span>
 
 
-[<span data-ttu-id="886db-112">Get-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="886db-112">Get-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAddressBookConfiguration)  
+[<span data-ttu-id="459cf-113">Get-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="459cf-113">Get-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAddressBookConfiguration)  
   
 
 </div>
