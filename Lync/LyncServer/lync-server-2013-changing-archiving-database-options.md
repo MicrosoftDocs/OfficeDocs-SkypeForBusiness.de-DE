@@ -12,20 +12,22 @@ ms:contentKeyID: 48183879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a820ca891ceb8196f8b4e0d2e023799f36e9e9ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f06b1327b1f0718015de0a877963ad7eb04cc03c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190388"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502712"
 ---
+# <a name="changing-archiving-database-options-in-lync-server-2013"></a>Ändern von Archivierungsdatenbank Optionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changing-archiving-database-options-in-lync-server-2013"></a>Ändern von Archivierungsdatenbank Optionen in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Um eine dieser Änderungen vornehmen zu können, müssen Sie den Topologie-Gener
     
 
     > [!NOTE]  
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die zum Hinzufügen einer Komponente zur Topologie erforderlich ist. Sie müssen ein Konto verwenden, das Mitglied der Gruppe "Domänen- <STRONG>Admins</STRONG> " und der Gruppe " <STRONG>RTCUniversalServerAdmins</STRONG> " ist und das über die Berechtigung "Vollzugriff" (Lese-, Schreib-und Änderungsberechtigungen) für die Dateifreigabe verfügt, die Sie für den lync Server 2013 Dateispeicher verwenden (damit der Topologie-Generator die erforderlichen Discretionary Access Control Lists konfigurieren kann ( DACLs) oder ein Konto mit gleichwertigen Rechten.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die zum Hinzufügen einer Komponente zur Topologie erforderlich ist. Sie müssen ein Konto verwenden, das Mitglied der Gruppe "Domänen- <STRONG>Admins</STRONG> " und der <STRONG>RTCUniversalServerAdmins</STRONG> -Gruppe ist und das über die Berechtigung "Vollzugriff" (lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den lync Server 2013 Dateispeicher verwenden (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit gleichwertigen Rechten konfigurieren kann
 
     
     </div>

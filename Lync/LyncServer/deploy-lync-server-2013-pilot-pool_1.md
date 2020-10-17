@@ -12,20 +12,22 @@ ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af8c2f5ed78bb228c4e650da983a1c82456c47b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3df30b2aa45fe9519d724f904e8b375bed794042
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502956"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Bereitstellen lync Server 2013 Pilot-Pools
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Bereitstellen lync Server 2013 Pilot-Pools
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-11-22_
 
 Einer der ersten Schritte, die für die Migration zu lync Server 2013 erforderlich sind, ist die Bereitstellungeines pilotpools. Der Pilot Pool testet die Koexistenz von lync Server 2013 mit Ihrer Office Communications Server 2007 R2-Bereitstellung. Koexistenz ist ein temporärer Zustand, der dauert, bis Sie alle Benutzer und Pools in lync Server 2013 verschoben haben.
 
-Beim Bereitstellen eines Pilotpools verwenden Sie den Assistenten zum Definieren eines neuen Front-End-Pools. Sie sollten dieselben Funktionen und Arbeitslasten in Ihrem lync Server 2013 Pilot-Pool bereitstellen, die Sie in Ihrem Office Communications Server 2007 R2-Pool haben. Wenn Sie Archivierungsserver, Monitoring Server oder System Center Operations Manager zur Archivierung oder Überwachung Ihrer Office Communications Server 2007 R2 Umgebung bereitgestellt haben und die Archivierung oder Überwachung während der gesamten Migration fortsetzen möchten, müssen Sie Stellen Sie diese Features auch in ihrer Pilotumgebung bereit. Die Version, die Sie zum Archivieren oder Überwachen Ihrer Office Communications Server 2007 R2 Umgebung bereitgestellt haben, erfasst keine Daten in ihrer lync Server 2013 Umgebung.
+Beim Bereitstellen eines Pilotpools verwenden Sie den Assistenten zum Definieren eines neuen Front-End-Pools. Sie sollten dieselben Funktionen und Arbeitslasten in Ihrem lync Server 2013 Pilot-Pool bereitstellen, die Sie in Ihrem Office Communications Server 2007 R2-Pool haben. Wenn Sie Archivierungsserver, Monitoring Server oder System Center Operations Manager zur Archivierung oder Überwachung Ihrer Office Communications Server 2007 R2 Umgebung bereitgestellt haben und die Archivierung oder Überwachung während der Migration fortsetzen möchten, müssen Sie diese Features auch in ihrer Pilotumgebung bereitstellen. Die Version, die Sie zum Archivieren oder Überwachen Ihrer Office Communications Server 2007 R2 Umgebung bereitgestellt haben, erfasst keine Daten in ihrer lync Server 2013 Umgebung.
 
 <div>
 
@@ -80,11 +82,11 @@ Beim Bereitstellen eines Pilotpools verwenden Sie den Assistenten zum Definieren
     
     ![Dialogfeld "neuen Front-End-Pool definieren"](images/JJ204718.374f0ed4-988b-465f-9861-8d1db401e76f(OCS.15).jpg "Dialogfeld "neuen Front-End-Pool definieren"")
 
-7.  Aktivieren Sie auf der Seite **Features auswählen** die Kontrollkästchen für die Features, die in diesem Front-End-Pool werden sollen. Wenn Sie beispielsweise nur Chatnachrichten und Anwesenheitsfunktionen bereitstellen, aktivieren Sie das Kontrollkästchen Konferenzen, um mehr Parteien-Chat zu ermöglichen, aber nicht die Kontrollkästchen Einwahl (PSTN) Conferencing, Enterprise-VoIP oder Anrufsteuerung aktivieren, Da Sie sprach-, Video-und kollaborative Konferenzfunktionen darstellen. Weitere Informationen zum Auswählen von Features finden Sie unter [define and configure a Front-End-Pool or Standard Edition-Server in lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) in der Bereitstellungsdokumentation.
+7.  Aktivieren Sie auf der Seite **Features auswählen** die Kontrollkästchen für die Features, die in diesem Front-End-Pool werden sollen. Wenn Sie beispielsweise nur Instant Messaging-und Anwesenheitsfunktionen bereitstellen, aktivieren Sie das Kontrollkästchen Konferenzen, um mehr Parteien-Chat zu ermöglichen, aber nicht die Kontrollkästchen Einwahlkonferenzen, Enterprise-VoIP oder Anrufsteuerung auswählen, da Sie die Features für VoIP-, Video-und Konferenz Konferenzen darstellen. Weitere Informationen zum Auswählen von Features finden Sie unter [define and configure a Front-End-Pool or Standard Edition-Server in lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) in der Bereitstellungsdokumentation.
     
     ![Front-End-Pool Features auswählen (Seite)](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Front-End-Pool Features auswählen (Seite)")
 
-8.  Auf der Seite **"verbundene Serverrollen auswählen** " wird empfohlen, die Vermittlungsserver in lync Server 2013 collocate. Wenn Sie eine Legacy Topologie mit lync Server 2013 zusammenführen, müssen Sie zuerst die Office Communications Server 2007 R2 Vermittlungsserver collocate. Nachdem Sie die Topologien zusammengeführt und die lync Server 2013 Vermittlungsserver konfiguriert haben, können Sie entscheiden, ob Sie die verbundenen Vermittlungsserver beibehalten oder Sie in einen eigenständigen Server ändern möchten, wenn Sie die Vermittlungsserver Rolle später in der Bereitstellung zu lync Server 2013 wechseln. Prozess.
+8.  Auf der Seite **"verbundene Serverrollen auswählen** " wird empfohlen, die Vermittlungsserver in lync Server 2013 collocate. Wenn Sie eine Legacy Topologie mit lync Server 2013 zusammenführen, müssen Sie zuerst die Office Communications Server 2007 R2 Vermittlungsserver collocate. Nachdem Sie die Topologien zusammengeführt und die lync Server 2013 Vermittlungsserver konfiguriert haben, können Sie entscheiden, ob Sie die verbundenen Vermittlungsserver beibehalten oder Sie in einen eigenständigen Server ändern möchten, wenn Sie die Vermittlungsserver Rolle später im Bereitstellungsprozess zu lync Server 2013 wechseln.
     
     ![Front-End-Pool auswählen der Seite "verbundene Serverrollen"](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Front-End-Pool auswählen der Seite "verbundene Serverrollen"")
 

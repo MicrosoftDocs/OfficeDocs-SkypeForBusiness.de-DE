@@ -12,20 +12,22 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9518b605ed6c79418e58fd0d3f9aab0e4d493957
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e23f14b1db7c846d5dbaa0aa6861274a7b6a2611
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195928"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501882"
 ---
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Erstellen einer Hosted Voice Mail-Richtlinie auf Standortebene in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Erstellen einer Hosted Voice Mail-Richtlinie auf Standortebene in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Ausführliche Informationen zum Konfigurieren von Website Richtlinien finden Sie
     
     In diesem Beispiel wird eine Richtlinie für gehostete Voicemail auf Standortebene erstellt. Hierbei werden die folgenden Parameter festgelegt:
     
-      - **Identity** gibt eine eindeutige ID für die Richtlinie an, die den Bereich einschließt. Für eine Richtlinie mit Website Bereich muss der Wert des Identity-Parameters im `site:` * \<Format\>Namen*angegeben werden, `site:Redmond`beispielsweise.
+      - **Identity** gibt eine eindeutige ID für die Richtlinie an, die den Bereich einschließt. Für eine Richtlinie mit Website Bereich muss der Wert des Identity-Parameters im Format angegeben werden `site:` *\<name\>* , beispielsweise `site:Redmond` .
     
       - **Destination** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Exchange UM-Diensts an. Dieser Parameter ist optional. Wenn Sie jedoch versuchen, einen Benutzer für gehostete Voicemail zu aktivieren, und die zugewiesene Richtlinie des Benutzers nicht auf "Destination" festgelegt ist, tritt bei der Aktivierung ein Fehler auf.
     

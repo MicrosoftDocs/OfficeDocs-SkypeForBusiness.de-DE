@@ -12,20 +12,22 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9fac6f65d1bb1c04b8d8597454df775f8545d2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da110d7e3bfb7188384163cb572591d0bf7f8ff3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205751"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501772"
 ---
+# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Erstellen eines Testfalls für das VoIP-Routing in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Erstellen eines Testfalls für das VoIP-Routing in lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Letztes Änderungsstand des Themas:** 2014-02-07_
 
 5.  Geben Sie unter **Name** einen eindeutigen Namen für den Testfall ein.
     
-    Der Name muss bei allen VoIP-Routing Testfälle in Ihrer Enterprise-VoIP-Bereitstellung eindeutig sein. Es kann bis zu 32 Zeichen lang sein und kann neben dem umgekehrten Schrägstrich (\\), Punkt (.) oder Unterstrich (\_) auch beliebige alphanumerische Zeichen enthalten.
+    Der Name muss bei allen VoIP-Routing Testfälle in Ihrer Enterprise-VoIP-Bereitstellung eindeutig sein. Es kann bis zu 32 Zeichen lang sein und kann neben dem umgekehrten Schrägstrich ( \\ ), Punkt (.) oder Unterstrich () auch beliebige alphanumerische Zeichen enthalten \_ .
 
 6.  Geben Sie unter **Zu testende gewählte Rufnummer** die gewählte Rufnummer ein, die Sie zum Testen der für diesen Testfall angegebenen Routingkonfiguration verwenden möchten. Basierend auf dem Satz mit Wähleinstellungen, der Route und der VoIP-Richtlinie wird diese Nummer normalisiert und als Ausgabe angezeigt.
 
@@ -80,7 +82,7 @@ _**Letztes Änderungsstand des Themas:** 2014-02-07_
     
     </div>
     
-    Wenn der im Test verwendete Wählplan die Telefonnummern normalisiert, die mit einem Pluszeichen beginnen (beispielsweise + 12065551219), kann dieser Plan dazu führen, dass der VoIP-Routing Test fehlschlägt. (Die Wähleinstellungen und die VoIP-Route funktionieren; tatsächlich ist Test-CsDialPlan erfolgreich. Der VoIP-Routing Test schlägt jedoch möglicherweise fehl.) Dies sollten Sie beim Testen von VoIP-Routen beachten.
+    Wenn der im Test verwendete Wählplan die Telefonnummern normalisiert, die mit einem Pluszeichen beginnen (beispielsweise + 12065551219), kann dieser Plan dazu führen, dass der VoIP-Routing Test fehlschlägt. (Die Wähleinstellungen und die VoIP-Route funktionieren; tatsächlich werden Test-CsDialPlan erfolgreich sein. Der VoIP-Routing Test schlägt jedoch möglicherweise fehl.) Dies sollten Sie beim Testen von VoIP-Routen beachten.
 
 </div>
 

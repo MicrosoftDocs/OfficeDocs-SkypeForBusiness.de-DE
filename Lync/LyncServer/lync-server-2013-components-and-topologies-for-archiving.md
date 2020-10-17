@@ -12,20 +12,22 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca674be0059a235439df637f07cb4ca834806d4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec153b237df086f3622acc70c104bddc64fef28a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209431"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502612"
 ---
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Komponenten und Topologien für die Archivierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Komponenten und Topologien für die Archivierung in lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Die Archivierungsfunktion beinhaltet folgende Komponenten:
 
   - **Datenspeicher für die Archivierung**. Der Datenspeicher für lync Server 2013 kann einer der folgenden Werte sein:
     
-      - Exchange 2013 Speicher. Wenn Sie die Option für die Microsoft Exchange Integration aktivieren, verwenden Benutzerpostfächer, die auf dem Exchange 2013-Server verwaltet werden, Exchange 2013 Speicher für archivierte Daten, jedoch nur, wenn die Postfächer im Compliance-Archiv platziert wurden.
+      - Exchange 2013 Speicher. Wenn Sie die Option für die Microsoft Exchange Integration aktivieren, verwenden Benutzerpostfächer, die auf dem Exchange 2013-Server verwaltet werden, Exchange 2013 Speicher für archivierte Daten, jedoch nur, wenn die Postfächer In-Place Aufbewahrung abgelegt wurden.
     
       - SQL Server Speicher. Wenn Sie über Benutzer in Ihrer Bereitstellung verfügen, die in lync Server 2013 verwaltet werden, können Sie Archivierungsdatenbanken einrichten, die eine unterstützte Version von SQL Server ausführen, um die Archivierung für diese Benutzer zu aktivieren.
 
@@ -69,7 +71,7 @@ Die Archivierung wird in allen Pools bereitgestellt, deren Benutzer die entsprec
 
   - Bereitstellung mithilfe separater SQL Server-Datenbanken
 
-Wenn Ihre Exchange 2013-Bereitstellung nicht alle Benutzer in ihrer lync Server-Bereitstellung enthält, müssen Sie Microsoft Exchange Integration für die Benutzer verwenden, deren Postfächer auf Exchange 2013 Servern gespeichert sind, und Sie müssen separate SQL Server-Datenbanken für alle anderen bereitstellen. Lync-Benutzer, die für die Archivierung verwendet werden sollen.
+Wenn Ihre Exchange 2013-Bereitstellung nicht alle Benutzer in ihrer lync Server-Bereitstellung enthält, müssen Sie Microsoft Exchange Integration für die Benutzer verwenden, deren Postfächer auf Exchange 2013 Servern gespeichert sind, und Sie müssen separate SQL Server Datenbanken für alle anderen lync-Benutzer bereitstellen, die für die Archivierung verwendet werden sollen.
 
 </div>
 
@@ -77,7 +79,7 @@ Wenn Ihre Exchange 2013-Bereitstellung nicht alle Benutzer in ihrer lync Server-
 
 ## <a name="supported-collocation"></a>Unterstützte Zusammenstellungen
 
-Lync Server 2013 unterstützt eine Vielzahl von Zusammenstellungs Szenarien, die Ihnen die Möglichkeit bieten, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf unterschiedlichen Servern ausführen (wenn Sie über einen größeren Organisation, die Skalierbarkeit und Leistung benötigt). Skalierbarkeits Faktoren sollten sicherlich berücksichtigt werden, bevor Sie entscheiden, ob Sie Komponenten collocate.
+Lync Server 2013 unterstützt eine Vielzahl von Zusammenstellungs Szenarien, die Ihnen die Möglichkeit bieten, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf unterschiedlichen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung benötigt). Skalierbarkeits Faktoren sollten sicherlich berücksichtigt werden, bevor Sie entscheiden, ob Sie Komponenten collocate.
 
 Die Archivierung wird auf den Front-End-Servern eines Pools oder Standard Edition-Servers bereitgestellt. Ausführliche Informationen zu den Komponenten, die dort zusammengefasst werden können, finden Sie unter [unterstützte Server](lync-server-2013-supported-server-collocation.md) Zusammenstellungen in lync Server 2013 in der Unterstützungsdokumentation.
 

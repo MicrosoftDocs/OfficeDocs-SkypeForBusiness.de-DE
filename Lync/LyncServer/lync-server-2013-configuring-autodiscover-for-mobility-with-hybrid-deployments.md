@@ -12,20 +12,22 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d09ad9555e9ef694baece8bf089eeaa06814f51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3b0617094c9dcab6b6eee0cf634440fea63cf16
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502162"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Konfigurieren der AutoErmittlung in lync Server 2013 für Mobilität mit hybridbereitstellungen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Konfigurieren der AutoErmittlung in lync Server 2013 für Mobilität mit hybridbereitstellungen
+
 
 </div>
 
@@ -61,7 +63,7 @@ Damit Mobile Clients die Bereitstellung ermitteln können, auf der sich der Benu
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    Wobei \[Identity\] durch den Domänennamen des freigegebenen SIP-Adressraums ersetzt wird.
+    Wobei \[ Identity \] durch den Domänennamen des freigegebenen SIP-Adressraums ersetzt wird.
 
 </div>
 

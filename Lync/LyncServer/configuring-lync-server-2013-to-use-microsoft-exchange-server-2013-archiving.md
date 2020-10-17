@@ -12,20 +12,22 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85a9a1d035994c143336abc83312fb56f67b927d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6f557c95b9bf706b3a38b51bdbea4fea156b314
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503162"
 ---
+# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Konfigurieren Microsoft lync Server 2013 für die Verwendung Microsoft Exchange Server 2013 Archivierung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Konfigurieren Microsoft lync Server 2013 für die Verwendung Microsoft Exchange Server 2013 Archivierung
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180628"
 
 _**Letztes Änderungsstand des Themas:** 2014-06-24_
 
-Microsoft lync Server 2013 bietet Administratoren die Möglichkeit, Chatnachrichten und Webkonferenz-Transkripte im Microsoft Exchange Server 2013 Postfach eines Benutzers statt in einer SQL Server Datenbank zu archivieren. Wenn Sie diese Option aktivieren, werden Transkripte in den Ordner "Säuberungen" im Postfach des Benutzers geschrieben. Der Ordner "purges" ist ein ausgeblendeter Ordner, der im Ordner "refundable Items" gefunden wird. Obwohl dieser Ordner für Endbenutzer nicht sichtbar ist, wird der Ordner von der Exchange-Suchmaschine indiziert und kann mithilfe der Exchange-Postfachsuche und/oder Microsoft SharePoint Server 2013 ermittelt werden. Da Informationen in demselben Ordner gespeichert werden, der von der Exchange-in-situ-Speicherfunktion verwendet wird (die für das Archivieren von e-Mails und anderen Exchange-Kommunikationen zuständig ist), können Administratoren ein einzelnes Tool verwenden, um nach der für eine archivierten elektronischen Kommunikation zu suchen. Benutzer.
+Microsoft lync Server 2013 bietet Administratoren die Möglichkeit, Chatnachrichten und Webkonferenz-Transkripte im Microsoft Exchange Server 2013 Postfach eines Benutzers statt in einer SQL Server Datenbank zu archivieren. Wenn Sie diese Option aktivieren, werden Transkripte in den Ordner "Säuberungen" im Postfach des Benutzers geschrieben. Der Ordner "purges" ist ein ausgeblendeter Ordner, der im Ordner "refundable Items" gefunden wird. Obwohl dieser Ordner für Endbenutzer nicht sichtbar ist, wird der Ordner von der Exchange-Suchmaschine indiziert und kann mithilfe der Exchange-Postfachsuche und/oder Microsoft SharePoint Server 2013 ermittelt werden. Da Informationen in demselben Ordner gespeichert werden, der von der Exchange In-Place Hold-Funktion verwendet wird (zuständig für das Archivieren von e-Mails und anderen Exchange-Kommunikationen), können Administratoren ein einzelnes Tool verwenden, um nach der für einen Benutzer archivierten elektronischen Kommunikation zu suchen.
 
 <div>
 
@@ -107,7 +109,7 @@ Die Exchange-Archivierung kann auch mithilfe der lync Server-Systemsteuerung akt
 
 </div>
 
-Wenn sich lync Server 2013 und Exchange 2013 in derselben Gesamtstruktur befinden, wird die Archivierung für einzelne Benutzer (oder zumindest für Benutzer mit e-Mail-Konten in Exchange 2013) mithilfe von Exchange-Richtlinien für in-situ-Speicherung verwaltet. Wenn Sie über Benutzer verfügen, die in einer früheren Version von Exchange verwaltet werden, wird die Archivierung für diese Benutzer mithilfe lync Server Archivierungsrichtlinien verwaltet. Beachten Sie, dass nur Benutzer mit Konten in Exchange 2013 ihre lync-Transkripte in Exchange archivieren lassen können.
+Wenn sich lync Server 2013 und Exchange 2013 in derselben Gesamtstruktur befinden, wird die Archivierung für einzelne Benutzer (oder zumindest für Benutzer mit e-Mail-Konten in Exchange 2013) mithilfe von Exchange In-Place-Aufbewahrungsrichtlinien verwaltet. Wenn Sie über Benutzer verfügen, die in einer früheren Version von Exchange verwaltet werden, wird die Archivierung für diese Benutzer mithilfe lync Server Archivierungsrichtlinien verwaltet. Beachten Sie, dass nur Benutzer mit Konten in Exchange 2013 ihre lync-Transkripte in Exchange archivieren lassen können.
 
 Wenn sich lync Server 2013 und Exchange 2013 in unterschiedlichen Gesamtstrukturen befinden, wird die Archivierung für einzelne Benutzer durch Konfigurieren der ExchangeArchivingPolicy-Eigenschaft für jedes einzelne Benutzerkonto verwaltet. Weitere Informationen finden Sie in Schritt 3.
 
@@ -123,7 +125,7 @@ Nachdem Sie die Archivierung (und die Exchange-Archivierung) aktiviert haben, m�
 
   - **"Archiveexternal"**. Bei Festlegung auf "true" ($true) wird angegeben, dass interne Kommunikationssitzungen (Sitzungen mit mindestens einem Benutzer, der über kein Active Directory Konto in Ihrer Organisation verfügt) archiviert werden.
 
-Standardmäßig sind beide Eigenschaftswerte auf false festgelegt, was bedeutet, dass weder interne noch externe Kommunikationssitzungen archiviert werden. Zum Ändern der globalen Richtlinie können Sie die lync Server-Verwaltungsshell und das Cmdlet "CsArchivingPolicy" verwenden. Mit diesem Befehl wird die Archivierung interner und externer Kommunikationssitzungen aktiviert:
+Standardmäßig sind beide Eigenschaftswerte auf false festgelegt, was bedeutet, dass weder interne noch externe Kommunikationssitzungen archiviert werden. Zum Ändern der globalen Richtlinie können Sie die lync Server-Verwaltungsshell und das Set-CsArchivingPolicy-Cmdlet verwenden. Mit diesem Befehl wird die Archivierung interner und externer Kommunikationssitzungen aktiviert:
 
     Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 
@@ -145,13 +147,13 @@ Archivierungsrichtlinien können auch mithilfe der lync Server-Systemsteuerung v
 
 Wenn sich lync Server 2013 und Exchange 2013 in unterschiedlichen Gesamtstrukturen befinden, genügt es nicht, die Exchange-Archivierung in den Archivierungs Konfigurationseinstellungen einfach zu aktivieren. Dadurch werden keine Instant Messaging-und Webkonferenz Protokolle in Exchange archiviert. Stattdessen müssen Sie auch die ExchangeArchivingPolicy-Eigenschaft für jedes der relevanten lync Server-Benutzerkonten konfigurieren. Diese Eigenschaft kann auf einen von vier möglichen Werten festgelegt werden:
 
-1.  Initialisierten. Gibt an, dass die Archivierung auf den in-situ-Aufbewahrungseinstellungen basiert, die für das Exchange-Postfach des Benutzers konfiguriert sind; Wenn in-situ-Speicher für das Postfach des Benutzers nicht aktiviert wurde, wird der Benutzer in lync Server seine oder Ihre Messaging-und Webkonferenz Protokolle archiviert.
+1.  Initialisierten. Gibt an, dass die Archivierung auf den In-Place halten-Einstellungen basiert, die für das Exchange-Postfach des Benutzers konfiguriert sind; Wenn In-Place Haltestatus für das Postfach des Benutzers nicht aktiviert wurde, wird der Benutzer in lync Server über seine Messaging-und Webkonferenz Protokolle archiviert.
 
 2.  **UseLyncArchivingPolicy**. Gibt an, dass die Protokolle für Chatnachrichten und Webkonferenzen des Benutzers in lync Server anstatt in Exchange archiviert werden sollen.
 
 3.  **Noarchivierung**. Zeigt an, dass die Chat- und Webkonferenzaufzeichnungen des Benutzers überhaupt nicht archiviert werden sollten. Beachten Sie, dass diese Einstellung alle lync Server Archivierungsrichtlinien außer Kraft setzt, die dem Benutzer zugewiesen sind.
 
-4.  **ArchivingToExchange**. Gibt an, dass die Protokolle für Sofortnachrichten und Webkonferenzen des Benutzers in Exchange unabhängig von den in-situ-Speichereinstellungen, die dem Postfach des Benutzers zugewiesen wurden (oder nicht), archiviert werden sollen.
+4.  **ArchivingToExchange**. Gibt an, dass die Protokolle für Sofortnachrichten und Webkonferenzen des Benutzers in Exchange archiviert werden sollen, unabhängig von den In-Place Aufbewahrungseinstellungen, die dem Postfach des Benutzers zugewiesen wurden (oder nicht).
 
 Wenn Sie beispielsweise ein Benutzerkonto so konfigurieren möchten, dass Sofortnachrichten und Webkonferenz Protokolle immer in Exchange archiviert werden, können Sie einen Befehl wie den folgenden aus dem lync Server-Verwaltungsshell verwenden:
 

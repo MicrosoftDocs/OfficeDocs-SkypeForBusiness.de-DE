@@ -12,20 +12,22 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2da0884915f44246e316f80cb9fd35fb7aecaad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 331b2afbfa4b6c4147ffab3765af4e9e5031c190
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195768"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502872"
 ---
+# <a name="audiostream-table-in-lync-server-2013"></a>AudioStream-Tabelle in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostream-table-in-lync-server-2013"></a>AudioStream-Tabelle in lync Server 2013
+
 
 </div>
 
@@ -249,13 +251,13 @@ Jeder Datensatz stellt einen Audiostream dar. Eine Audio-Medien Verbindung enth�
 <td><p>Durchschnittliches Verhältnis zwischen komprimierten Samples, generiert durch Audioreparatur, und Standardsamples.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Eingehend</strong></p></td>
+<td><p><strong>Eingehende</strong></p></td>
 <td><p>Bit</p></td>
 <td><p> </p></td>
 <td><p>Datenstrom auf Empfängerseite wird empfangen.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Ausgehend</strong></p></td>
+<td><p><strong>Ausgehende</strong></p></td>
 <td><p>Bit</p></td>
 <td><p> </p></td>
 <td><p>Datenstrom auf Absenderseite wird empfangen.</p></td>

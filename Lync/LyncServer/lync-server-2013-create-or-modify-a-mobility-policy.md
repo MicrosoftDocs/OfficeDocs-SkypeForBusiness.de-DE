@@ -12,20 +12,22 @@ ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a240c55b4478c5cf5f67a4f0774b1979e884b3b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c54222d7fda3c3d5581db85b0fc264358e2bde22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501652"
 ---
+# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Erstellen oder Ändern einer Mobilitätsrichtlinie in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Erstellen oder Ändern einer Mobilitätsrichtlinie in lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Sie können mobilitätsrichtlinien erstellen oder ändern, um mobilen Benutzern 
 
 ## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Erstellen von Richtlinien für den externen Zugriff mithilfe von Windows PowerShell-Cmdlets
 
-Sie können mobilitätsrichtlinien (auf Standortebene oder auf Benutzerebene) erstellen, indem Sie Windows PowerShell und das Cmdlet **New-CsMobilityPolicy** verwenden. Darüber hinaus können Sie mit dem Cmdlet " **CsMobilityPolicy** " alle vorhandenen Richtlinien ändern, einschließlich der globalen Richtlinie. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können mobilitätsrichtlinien (auf Standortebene oder auf Benutzerebene) erstellen, indem Sie Windows PowerShell und das Cmdlet **New-CsMobilityPolicy** verwenden. Darüber hinaus können Sie mit dem Cmdlet " **CsMobilityPolicy** " alle vorhandenen Richtlinien ändern, einschließlich der globalen Richtlinie. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

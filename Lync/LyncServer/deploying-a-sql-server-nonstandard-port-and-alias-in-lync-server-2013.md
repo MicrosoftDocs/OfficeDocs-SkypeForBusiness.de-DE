@@ -12,20 +12,22 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51d102c6a810730d6c748dafc6a4fcdc3dd6821e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8721cc82651710ab5fc8158eeb6f297f80847c33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502912"
 ---
+# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Bereitstellen eines SQL Server nicht standardmäßigen Ports und Alias in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Bereitstellen eines SQL Server nicht standardmäßigen Ports und Alias in lync Server 2013
+
 
 </div>
 
@@ -55,13 +57,13 @@ Um bei der Bestimmung des Ports, der für die Kommunikation mit SQL Server verwe
 
 
 > [!NOTE]  
-> SQL Server bietet zwei Fehlertoleranz Methoden (Failover-Clusterunterstützung und-Spiegelung). Beide SQL Server-Fehlertoleranz Methoden werden mit einem SQL Server nicht standardmäßigen Port und Alias mit lync Server 2013 unterstützt. Wenn sich das vom Pool verwendete SQL Server-Back-End in einer gespiegelten Konfiguration befindet, sollte der SQL-Browserdienst auf den SQL Server-Back-End-Servern für Front-End-Server ausgeführt werden, um eine Verbindung mit der gespiegelten Datenbank herzustellen, wenn die Datenbanken auf den gespiegelten SQL-Failover Server.
+> SQL Server bietet zwei Fehlertoleranz Methoden (Failover-Clusterunterstützung und-Spiegelung). Beide SQL Server-Fehlertoleranz Methoden werden mit einem SQL Server nicht standardmäßigen Port und Alias mit lync Server 2013 unterstützt. Wenn sich das vom Pool verwendete SQL Server-Back-End in einer gespiegelten Konfiguration befindet, sollte der SQL-Browserdienst auf den SQL Server-Back-End-Servern für Front-End-Server ausgeführt werden, um eine Verbindung mit der gespiegelten Datenbank herzustellen, wenn die Datenbanken auf den gespiegelten SQL Server gescheitert sind.
 
 
 
 </div>
 
-Wenn Sie SQL Server Datenbankkonnektivität im Topologie-Generator konfigurieren oder das Cmdlet Install-CsDatabase verwenden, kann nicht explizit eine SQL Server nicht standardmäßigen Portnummer definiert und einer SQL-Instanz zugeordnet werden. Zum Festlegen eines nicht standardmäßigen Ports müssen Sie SQL Server-und Windows Server-Dienstprogramme verwenden.
+Beim Konfigurieren SQL Serverer Datenbankkonnektivität innerhalb des Topologie-Generators oder bei Verwendung des Install-CsDatabase-Cmdlets ist es nicht möglich, explizit eine SQL Server nicht standardmäßige Portnummer zu definieren und diese einer SQL-Instanz zuzuordnen. Zum Festlegen eines nicht standardmäßigen Ports müssen Sie SQL Server-und Windows Server-Dienstprogramme verwenden.
 
 Um einen SQL Server nicht standardmäßigen Port und Alias für die Verwendung mit lync Server 2013 einzurichten, müssen Sie drei primäre Schritte ausführen. Die folgenden Schritte sind erforderlich:
 
@@ -99,7 +101,7 @@ Die SQL Server nicht standardmäßigen Port und Alias müssen auf der Datenbanki
     
     ![Das SQL Server Management Studio-Symbol](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "Das SQL Server Management Studio-Symbol")
 
-2.  Wählen Sie im Navigationsbereich aus, um die **SQL Server Instanz**zu erweitern, wählen Sie **SQL Server Netzwerkkonfiguration**aus, und wählen Sie **Protokolle \<für Instanzname\>** aus, wie in der folgenden Abbildung dargestellt.
+2.  Wählen Sie im Navigationsbereich aus, um die **SQL Server Instanz**zu erweitern, wählen Sie aus, um **SQL Server Netzwerkkonfiguration**zu erweitern, und wählen Sie **Protokolle für aus \<instance name\> **, wie in der folgenden Abbildung dargestellt.
     
     ![Navigieren zu TCP/IP-Eigenschaften](images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "Navigieren zu TCP/IP-Eigenschaften")
 
@@ -121,7 +123,7 @@ Die SQL Server nicht standardmäßigen Port und Alias müssen auf der Datenbanki
 
 8.  Wählen Sie **OK** aus, um das Dialogfeld TCP/IP-Eigenschaften zu schließen.
 
-9.  Starten Sie die SQL Server-Instanz neu, indem Sie im linken Bereich von SQL Server Configuration Manager **SQL Server Dienste** auswählen. Klicken Sie dann im rechten Bereich mit der rechten Maustaste auf **SQL Server \<\> Instanznamen** , und wählen Sie **neu starten**aus, wie in der folgenden Abbildung dargestellt.
+9.  Starten Sie die SQL Server-Instanz neu, indem Sie im linken Bereich von SQL Server Configuration Manager **SQL Server Dienste** auswählen. Klicken Sie dann im rechten Bereich mit der rechten Maustaste auf ** \<instance name\> SQL Server** , und wählen Sie **neu starten**aus, wie in der folgenden Abbildung dargestellt.
     
     ![Setzen Sie beispielsweise den SQL Server Dienst zurück.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Setzen Sie beispielsweise den SQL Server Dienst zurück.")
 
@@ -141,7 +143,7 @@ Die SQL Server nicht standardmäßigen Port und Alias müssen auf der Datenbanki
     
     ![Das SQL Server Management Studio-Symbol](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "Das SQL Server Management Studio-Symbol")
 
-2.  Wählen Sie im linken Bereich **SQL Server Instanz**erweitern aus, und wählen Sie aus, um **SQL \<Native\> Client-Versions Konfiguration**zu erweitern, und wählen Sie dann **Aliase**aus, wie in der folgenden Abbildung dargestellt.
+2.  Wählen Sie im linken Bereich **SQL Server Instanz**erweitern aus, und wählen Sie aus, um die **SQL Native Client- \<version\> Konfiguration**zu erweitern, und wählen Sie dann **Aliase**aus, wie in der folgenden Abbildung dargestellt.
     
     ![Aliase in SQL Server Configuration Manager.](images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "Aliase in SQL Server Configuration Manager.")
 
@@ -210,7 +212,7 @@ Es gibt viele verschiedene Möglichkeiten, um sicherzustellen, dass es funktioni
     
     ![Verwenden von netstat zum Überprüfen des Ports.](images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Verwenden von netstat zum Überprüfen des Ports.")
 
-3.  Geben Sie den ** \<Telnet\> \<- \# Aliasnamen Port** ein, um die Verbindung mit der SQL Server Instanz zu bestätigen. Wenn die Verbindung erfolgreich hergestellt wurde, stellt Telnet eine Verbindung her, und es sollte kein Fehler angezeigt werden. Dies zeigt, dass die SQL Server Instanz den korrekten Port mit dem korrekten Alias überwacht. Wenn beim Herstellen einer Verbindung mit der SQL Server Datenbank ein Problem auftritt, zeigt Telnet einen Fehler an, bei dem die Verbindung nicht hergestellt werden kann. Nachdem Sie nun die Datenbankkonnektivität auf dem Datenbankserver überprüft haben, können Sie dasselbe von lync Server (über das Netzwerk) durchführen und sicherstellen, dass keine Firewalls den Zugriff auf dem Weg blockieren.
+3.  Geben **Sie \<alias name\> \<port \#\> Telnet** ein, um die Verbindung mit der SQL Server Instanz zu bestätigen. Wenn die Verbindung erfolgreich hergestellt wurde, stellt Telnet eine Verbindung her, und es sollte kein Fehler angezeigt werden. Dies zeigt, dass die SQL Server Instanz den korrekten Port mit dem korrekten Alias überwacht. Wenn beim Herstellen einer Verbindung mit der SQL Server Datenbank ein Problem auftritt, zeigt Telnet einen Fehler an, bei dem die Verbindung nicht hergestellt werden kann. Nachdem Sie nun die Datenbankkonnektivität auf dem Datenbankserver überprüft haben, können Sie dasselbe von lync Server (über das Netzwerk) durchführen und sicherstellen, dass keine Firewalls den Zugriff auf dem Weg blockieren.
 
 </div>
 
@@ -229,8 +231,8 @@ Nachdem der SQL Server-Alias konfiguriert wurde, können Sie ihn verwenden, um e
 ## <a name="see-also"></a>Siehe auch
 
 
-[Microsoft lync Server 2013](microsoft-lync-server-2013.md) 
-[Planen der Sicherheit in lync Server 2013](lync-server-2013-planning-for-security.md)  
+[Microsoft lync Server 2013](microsoft-lync-server-2013.md)  
+ [Planen der Sicherheit in lync Server 2013](lync-server-2013-planning-for-security.md)  
 [Definieren und Konfigurieren der Topologie in lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md)  
 [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
   

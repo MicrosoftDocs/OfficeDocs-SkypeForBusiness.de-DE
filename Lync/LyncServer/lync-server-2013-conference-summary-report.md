@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213071"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502352"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Zusammenfassender Konferenzbericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Zusammenfassender Konferenzbericht in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2014-09-03_
 
 Der "Zusammenfassende Konferenzbericht" gibt Ihnen einen Überblick über Ihre Onlinekonferenzsitzungen. Eine Konferenz umfasst normalerweise mehr als 2 Benutzer und erfordert die Verwendung von Microsoft lync Server 2013 Konferenzdiensten. Im Vergleich dazu sind an einer Peer-zu-Peer-Sitzung nur 2 Benutzer beteiligt, ohne dass die Konferenzdienste von Lync Server benötigt werden. Peer-zu-Peer-Aktivitäten werden im [zusammenfassenden Bericht über Peer-zu-Peer-Aktivitäten in lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)angezeigt.
 
-Im zusammenfassenden Konferenzbericht erfahren Sie nicht nur, wie viele Konferenzen in einem bestimmten Zeitraum abgehalten wurden (stündlich, täglich, wöchentlich, monatlich), sondern auch die Gesamtzahl der Personen, die an diesen Konferenzen teilgenommen haben, und die Gesamtzahl der einmaligen Konferenz. Organisatoren.
+Im zusammenfassenden Konferenzbericht erfahren Sie nicht nur, wie viele Konferenzen in einem bestimmten Zeitraum abgehalten wurden (stündlich, täglich, wöchentlich, monatlich), sondern auch die Gesamtzahl der Personen, die an diesen Konferenzen teilgenommen haben, sowie die Gesamtzahl der eindeutigen Konferenzorganisatoren.
 
 Ein "eindeutiger” Organisator kann jeder sein, der mindestens eine Konferenz plant. Wenn zum Beispiel Pilar Ackerman eine Konferenz plant, zählt sie als ein eindeutiger Organisator. Wenn Ken Myer 148 Konferenzen plant, zählt auch er als ein eindeutiger Organisator. So sind in der Tabelle unten 8 geplante Konferenzen aufgeführt, jedoch nur 3 eindeutige Organisatoren (Ken Myer, Pilar Ackerman und David Ahs).
 
@@ -74,7 +76,7 @@ Ein "eindeutiger” Organisator kann jeder sein, der mindestens eine Konferenz p
 </tr>
 <tr class="odd">
 <td><p>Ken Myer</p></td>
-<td><p>07.07.2012 13:00</p></td>
+<td><p>07.07.2012 13:00:00 Uhr</p></td>
 </tr>
 <tr class="even">
 <td><p>Pilar Ackerman</p></td>
@@ -143,7 +145,7 @@ Unten im Bericht können Sie die Gesamtwerte der meisten im "Zusammenfassenden K
 </tr>
 <tr class="odd">
 <td><p>Ken Myer</p></td>
-<td><p>07.07.2012 13:00</p></td>
+<td><p>07.07.2012 13:00:00 Uhr</p></td>
 </tr>
 <tr class="even">
 <td><p>Pilar Ackerman</p></td>

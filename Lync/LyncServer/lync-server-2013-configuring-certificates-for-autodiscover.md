@@ -12,20 +12,22 @@ ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d414a998fcce0f68186fbf9a6e42d6075dfb991c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e97bb7d77bbd468fff18084ecc7d4da8c5feb7f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502112"
 ---
+# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Konfigurieren von Zertifikaten für die AutoErmittlung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Konfigurieren von Zertifikaten für die AutoErmittlung in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Die Zertifikate für Ihre Directorpool, Front-End-Pool und Reverseproxy erforder
 
 
 > [!NOTE]  
-> Mit dem Cmdlet <STRONG>Get-CsCertificate</STRONG> können Sie Informationen über die derzeit zugewiesenen Zertifikate anzeigen. In der Standardansicht werden die Eigenschaften des Zertifikats jedoch abgeschnitten, und die Werte in der Eigenschaft "SubjectAlternativeNames" werden nicht vollständig angezeigt. Mit den Cmdlets <STRONG>Get-CsCertificate</STRONG>, <STRONG>Request-</STRONG>CsCertificate und <STRONG>Set-CsCertificate</STRONG> können Sie einige Informationen anzeigen und Zertifikate anfordern sowie zuweisen. Wenn Sie sich bezüglich der Eigenschaften der alternativen Antragstellernamen im aktuellen Zertifikat unsicher sind, ist dies jedoch nicht unbedingt die am besten geeignete Methode. Um das Zertifikat und alle Eigenschaften Mitglieder anzuzeigen, wird empfohlen, das Zertifikat-Snap-in <EM>Microsoft Management Console (MMC)</EM> zu verwenden oder den lync Server-Bereitstellungs-Assistenten zu verwenden. Im lync Server-Bereitstellungs-Assistenten können Sie den Zertifikat-Assistenten verwenden, um die Zertifikateigenschaften anzuzeigen. Die Verfahren zum Anzeigen, anfordern und Zuweisen eines Zertifikats mithilfe der lync Server-Verwaltungsshell und der <EM>MMC (Microsoft Management Console)</EM> werden in den folgenden Verfahren erläutert. Informationen zum Verwenden des lync Server-Bereitstellungs-Assistenten finden Sie unter Details hier, wenn Sie den optionalen Director oder Directorpool: <A href="lync-server-2013-configure-certificates-for-the-director.md">configure certificates for the Director in lync Server 2013</A>bereitgestellt haben. Informationen zum Front-End-Server oder Front-End-Pool finden Sie unter Details hier: <A href="lync-server-2013-configure-certificates-for-servers.md">Konfigurieren von Zertifikaten für Server in lync Server 2013</A>.<BR>Die ersten Schritte in diesem Verfahren sind Vorbereitungsschritte zur Orientierung an der Rolle, die die aktuellen Zertifikate spielen. Standardmäßig verfügen die Zertifikate über keine lyncdiscover. &lt;sipdomain "&gt; oder" lyncdiscoverinternal ". &lt;interner Domänennamen&gt; Eintrag, es sei denn, Sie haben zuvor Mobilitätsdienste installiert oder Ihre Zertifikate im Voraus vorbereitet. Dieses Verfahren verwendet den SIP-Domänennamen "contoso.com" und den Beispiel internen Domänennamen "contoso.net".<BR>Die Standardzertifikat Konfiguration für lync Server 2013 und lync Server 2010 besteht darin, ein einzelnes Zertifikat (mit dem Namen "Default") mit dem Verwendungszweck default (für alle Zwecke außer für die Webdienste), "webservicesexternal" und "webservicesinternal" zu verwenden. Optional können Sie ein separates Zertifikat für jeden Zweck verwenden. Zertifikate können mithilfe der Cmdlets lync Server-Verwaltungsshell und Windows PowerShell oder mithilfe des Zertifikat-Assistenten im lync Server-Bereitstellungs-Assistenten verwaltet werden.
+> Mit dem Cmdlet <STRONG>Get-CsCertificate</STRONG> können Sie Informationen über die derzeit zugewiesenen Zertifikate anzeigen. In der Standardansicht werden die Eigenschaften des Zertifikats jedoch abgeschnitten, und die Werte in der Eigenschaft "SubjectAlternativeNames" werden nicht vollständig angezeigt. Mit den Cmdlets <STRONG>Get-CsCertificate</STRONG>, <STRONG>Request-</STRONG>CsCertificate und <STRONG>Set-CsCertificate</STRONG> können Sie einige Informationen anzeigen und Zertifikate anfordern sowie zuweisen. Wenn Sie sich bezüglich der Eigenschaften der alternativen Antragstellernamen im aktuellen Zertifikat unsicher sind, ist dies jedoch nicht unbedingt die am besten geeignete Methode. Um das Zertifikat und alle Eigenschaften Mitglieder anzuzeigen, wird empfohlen, das Zertifikat-Snap-in <EM>Microsoft Management Console (MMC)</EM> zu verwenden oder den lync Server-Bereitstellungs-Assistenten zu verwenden. Im lync Server-Bereitstellungs-Assistenten können Sie den Zertifikat-Assistenten verwenden, um die Zertifikateigenschaften anzuzeigen. Die Verfahren zum Anzeigen, anfordern und Zuweisen eines Zertifikats mithilfe der lync Server-Verwaltungsshell und der <EM>MMC (Microsoft Management Console)</EM> werden in den folgenden Verfahren erläutert. Informationen zum Verwenden des lync Server-Bereitstellungs-Assistenten finden Sie unter Details hier, wenn Sie den optionalen Director oder Directorpool: <A href="lync-server-2013-configure-certificates-for-the-director.md">configure certificates for the Director in lync Server 2013</A>bereitgestellt haben. Informationen zum Front-End-Server oder Front-End-Pool finden Sie unter Details hier: <A href="lync-server-2013-configure-certificates-for-servers.md">Konfigurieren von Zertifikaten für Server in lync Server 2013</A>.<BR>Die ersten Schritte in diesem Verfahren sind Vorbereitungsschritte zur Orientierung an der Rolle, die die aktuellen Zertifikate spielen. Standardmäßig verfügen die Zertifikate über keine lyncdiscover. &lt; sipdomain " &gt; oder" lyncdiscoverinternal ". &lt; Interner Domänennamen &gt; Eintrag, es sei denn, Sie haben zuvor Mobilitätsdienste installiert oder Ihre Zertifikate im Voraus vorbereitet. Dieses Verfahren verwendet den SIP-Domänennamen "contoso.com" und den Beispiel internen Domänennamen "contoso.net".<BR>Die Standardzertifikat Konfiguration für lync Server 2013 und lync Server 2010 besteht darin, ein einzelnes Zertifikat (mit dem Namen "Default") mit dem Verwendungszweck default (für alle Zwecke außer für die Webdienste), "webservicesexternal" und "webservicesinternal" zu verwenden. Optional können Sie ein separates Zertifikat für jeden Zweck verwenden. Zertifikate können mithilfe der Cmdlets lync Server-Verwaltungsshell und Windows PowerShell oder mithilfe des Zertifikat-Assistenten im lync Server-Bereitstellungs-Assistenten verwaltet werden.
 
 
 
@@ -73,7 +75,7 @@ Die Zertifikate für Ihre Directorpool, Front-End-Pool und Reverseproxy erforder
     
     **Wichtig:**
     
-    Wenn für jeden Verwendungszweck ein anderes Zertifikat zugewiesen ist (der Thumbprint-Wert ist für jedes Zertifikat unterschiedlich), ist es wichtig, dass Sie das **Set-CsCertificate**-Cmdlet nicht mit mehreren Typen ausführen. Führen Sie in diesem Fall das **Set-CsCertificate**-Cmdlet für jeden Verwendungszweck separat aus. Zum Beispiel:
+    Wenn für jeden Verwendungszweck ein anderes Zertifikat zugewiesen ist (der Thumbprint-Wert ist für jedes Zertifikat unterschiedlich), ist es wichtig, dass Sie das **Set-CsCertificate**-Cmdlet nicht mit mehreren Typen ausführen. Führen Sie in diesem Fall das **Set-CsCertificate**-Cmdlet für jeden Verwendungszweck separat aus. Beispiel:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
@@ -108,13 +110,13 @@ Die Zertifikate für Ihre Directorpool, Front-End-Pool und Reverseproxy erforder
     
       - Interne Webdienste und Webdienste externe Namen (beispielsweise webpool01.contoso.net, webpool01.contoso.com), basierend auf den im Topologie-Generator und über berittenen Webdiensten vorgenommenen Auswahlmöglichkeiten.
     
-      - Wenn bereits zugewiesen, lyncdiscover. \<sipdomain "\> und" lyncdiscoverinternal ". \<sipdomain "\> -Datensätze.
+      - Wenn bereits zugewiesen, lyncdiscover.\<sipdomain\> und "lyncdiscoverinternal".\<sipdomain\> Datensätze.
     
     Das letzte Element ist für Sie am interessantesten – falls ein SAN-Eintrag für "lyncdiscover" bzw. für "lyncdiscoverinternal" vorhanden ist.
     
     Sobald Sie über diese Informationen verfügen, können Sie die Zertifikatansicht und die MMC schließen.
 
-12. Wenn ein AutoErmittlungsdienst, das heißt lyncdiscover. \>Domänenname\> und "lyncdiscoverinternal". \<Domänenname\> (basierend auf, wenn es sich um ein externes oder internes Zertifikat handelt) der Antragstellername fehlt, und Sie verwenden ein einzelnes Standardzertifikat für die Typen Default, "webservicesinternal" und WebServiceExternal, und führen Sie die folgenden Schritte aus:
+12. Wenn ein AutoErmittlungsdienst, das heißt lyncdiscover. \> Domänenname \> und "lyncdiscoverinternal".\<domain name\> (je nachdem, ob es sich um ein externes oder internes Zertifikat handelt) fehlt der Alternative Antragstellername, und Sie verwenden ein einzelnes Standardzertifikat für die Typen Default, "webservicesinternal" und WebServiceExternal, und führen Sie die folgenden Schritte aus:
     
       - Geben Sie an der lync Server-Verwaltungsshell Eingabeaufforderung für die Befehlszeile Folgendes ein:
         

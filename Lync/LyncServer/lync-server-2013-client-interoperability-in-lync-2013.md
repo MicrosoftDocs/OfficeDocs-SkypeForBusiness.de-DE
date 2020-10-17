@@ -12,20 +12,22 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 437051279393b9dedc7c4def0c75cd119cded914
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502672"
 ---
+# <a name="client-interoperability-in-lync-2013"></a>Client Interoperabilität in lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Client Interoperabilität in lync 2013
+
 
 </div>
 
@@ -436,7 +438,7 @@ In lync Server 2013 Besprechungen werden bestimmte Konferenzfeatures für Benutz
 
 2 lync Server 2013 verwendet einen aktualisierten Mechanismus für das Hochladen von PowerPoint-Dateien. Lync Web App Benutzer, die einer Besprechung beitreten, die ursprünglich auf lync Server 2010 geplant war, können PowerPoint-Präsentationen anzeigen und navigieren, jedoch keine PowerPoint-Dateien hochladen.
 
-3 Wenn die Besprechung in lync Server 2013 geplant wurde und PowerPoint-Folien von einem lync 2013-Client hochgeladen wurden, verfügen lync 2010 Benutzer über einen schreibgeschützten Zugriff auf die Folien. Wenn umgekehrt die PowerPoint-Folien von einem lync 2010-Benutzer hochgeladen wurden, können lync Server 2013 Benutzer anzeigen und Folien und, falls Office-webapps-Server konfiguriert ist, auf neue Funktionen wie höhere Auflösung, Animationen, Folienübergänge und Eingebettetes Video. Weitere Informationen finden Sie unter [Konfigurieren der Integration mit Office-webapps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+3 Wenn die Besprechung in lync Server 2013 geplant wurde und PowerPoint-Folien von einem lync 2013-Client hochgeladen wurden, verfügen lync 2010 Benutzer über einen schreibgeschützten Zugriff auf die Folien. Wenn umgekehrt die PowerPoint-Folien von einem lync 2010-Benutzer hochgeladen wurden, können lync Server 2013 Benutzer anzeigen und Folien und, falls Office-webapps-Server konfiguriert ist, auf neue Funktionen wie höhere Auflösung, Animationen, Folienübergänge und eingebettete Videos zugreifen. Weitere Informationen finden Sie unter [Konfigurieren der Integration mit Office-webapps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
 4Die-Anwesenheits-und Chat-Features in Office Communicator 2007 R2 sind mit lync Server 2013 kompatibel, die Konferenzfunktionen jedoch nicht. Während der Migration von Office Communications Server 2007 R2 ist Office Communicator 2007 R2 für die Interoperabilität von Anwesenheits-und Chatfunktionen geeignet, aber Benutzer sollten lync Web App 2013 verwenden, um lync Server 2013 Besprechungen beizutreten.
 
@@ -450,11 +452,11 @@ In lync Server 2013 Besprechungen werden bestimmte Konferenzfeatures für Benutz
 
 Die Server Unterstützung für die unterschiedlichen Planungs-Add-Ins ist konsistent mit der Server-und Client Versionskompatibilität. Im Allgemeinen werden die folgenden Planungs-Add-Ins in lync Server 2013 unterstützt. In früheren Versionen von Add-Ins werden jedoch keine neuen lync 2013-Add-in-Features bereitgestellt, wie beispielsweise die Option zum stumm schalten aller Teilnehmer-Audio-und-Videos beim Besprechungseintrag.
 
-  - **Das Online-Besprechungs-Add-in für lync 2013**   bietet dieselben Features wie das Online-Besprechungs-Add-in für lync 2010, wobei die Teilnehmer-stumm Schaltungs Steuerelemente hinzugefügt werden, mit deren Hilfe Besprechungsorganisatoren Konferenzen planen können, für die die Teilnehmer-Audio und-Videostandard mäßig stumm geschaltet sind. Administratoren können die Besprechungseinladungen der Organisation auch anpassen, indem Sie ein benutzerdefiniertes Logo, eine Support-URL, eine URL für einen rechtlichen Haftungsausschluss oder benutzerdefinierter Fußzeilentext hinzufügen.
+  - **Online-Besprechungs-Add-in für lync 2013**     Stellt die gleichen Features wie das Online Besprechungs-Add-in für lync 2010 bereit, wobei die Teilnehmer-stumm Schaltungs Steuerelemente hinzugefügt werden, mit deren Hilfe Besprechungsorganisatoren Konferenzen planen können, bei denen Audio und Video für Teilnehmer standardmäßig stumm geschaltet sind. Administratoren können die Besprechungseinladungen der Organisation auch anpassen, indem Sie ein benutzerdefiniertes Logo, eine Support-URL, eine URL für einen rechtlichen Haftungsausschluss oder benutzerdefinierter Fußzeilentext hinzufügen.
 
-  - **Das Online-Besprechungs-Add-in für lync 2010**   bietet Zeitpläne für lync-Besprechungen und entfernt die Möglichkeit, Office Live Meeting Konferenzen zu planen.
+  - **Online-Besprechungs-Add-in für lync 2010**     Bietet Zeitplanung für lync-Besprechungen und entfernt die Möglichkeit, Office Live Meeting Konferenzen zu planen.
 
-  - **Office Communicator 2007 R2 Konferenz-Add-in**   bietet Zeitplanung für Office Live Meeting Konferenzen und Office Communicator 2007 R2 Konferenzen. 
+  - **Office Communicator 2007 R2-Konferenz-Add-in**     Bietet Zeitplanung für Office Live Meeting Konferenzen und Office Communicator 2007 R2 Konferenzen. 
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45707cafca4a7ed9da7cdeb5e162128ccd73468d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191508"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502502"
 ---
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Komponenten und Topologien für den Server für beständigen Chat in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Komponenten und Topologien für den Server für beständigen Chat in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Für die Installation der neuesten Version des Servers für beständigen Chat si
     
 
     > [!IMPORTANT]  
-    > In lync Server 2013 ist der beständige Chat Webdienste für das Hochladen/Herunterladen von Dateien&nbsp;nun mit lync Server 2013 Front-End-Server verbunden.<BR>Die Webdienste für den beständigen Chat für die chatroomverwaltung wird&nbsp;auch mit lync Server 2013 Front-End-Server zusammengefasst.
+    > In lync Server 2013 ist der beständige Chat Webdienste für das Hochladen/Herunterladen von Dateien nun mit lync Server 2013 &nbsp; Front-End-Server verbunden.<BR>Die Webdienste für den beständigen Chat für die chatroomverwaltung wird auch mit lync Server 2013 Front-End-Server zusammengefasst &nbsp; .
 
     
     </div>
@@ -83,7 +85,7 @@ Ausführliche Informationen zu Hardware-und Softwareanforderungen für den Serve
 
 ## <a name="supported-collocation"></a>Unterstützte Zusammenstellungen
 
-Lync Server 2013 unterstützt eine Vielzahl von Zusammenstellungs Szenarien, die Ihnen die Flexibilität bieten, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf unterschiedlichen Servern ausführen (wenn Sie über einen größere Organisation, die Skalierbarkeit und Leistung benötigt). Skalierbarkeits Faktoren sollten sicherlich berücksichtigt werden, bevor Sie entscheiden, ob Sie Komponenten collocate.
+Lync Server 2013 unterstützt eine Vielzahl von Zusammenstellungs Szenarien, die Ihnen die Flexibilität bieten, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf unterschiedlichen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung benötigt). Skalierbarkeits Faktoren sollten sicherlich berücksichtigt werden, bevor Sie entscheiden, ob Sie Komponenten collocate.
 
 Der Kompatibilitätsdienst für beständigen Chat, falls die Kompatibilität aktiviert ist, wird mit dem lync Server 2013 Front-End-Server zusammengefasst.
 
@@ -139,7 +141,7 @@ Sie können den Server für beständigen Chat mit dem Topologie-Generator zu ihr
 
 ## <a name="single-server-topology"></a>Einzelservertopologie
 
-Die minimale Konfiguration und die einfachste Bereitstellung für den Server für beständigen Chat ist ein einzelner Server für beständigen Chat Front-End-Server Topologie. Für diese Bereitstellung ist ein einzelner Server erforderlich, auf dem der Server für beständigen Chat ausgeführt wird (optional wird der Kompatibilitätsdienst ausgeführt, wenn die Kompatibilität aktiviert ist), ein Server, der sowohl die SQL Server Datenbank hostet, als auch die erforderliche Kompatibilität, die SQL Server Datenbank zum Speichern des Compliance-Daten.
+Die minimale Konfiguration und die einfachste Bereitstellung für den Server für beständigen Chat ist ein einzelner Server für beständigen Chat Front-End-Server Topologie. Für diese Bereitstellung ist ein einzelner Server erforderlich, auf dem der Server für beständigen Chat ausgeführt wird (optional wird der Kompatibilitätsdienst ausgeführt, wenn die Kompatibilität aktiviert ist), ein Server, der sowohl die SQL Server Datenbank hostet, als auch die erforderliche Kompatibilität, die SQL Server Datenbank zum Speichern der Kompatibilitätsdaten.
 
 <div>
 

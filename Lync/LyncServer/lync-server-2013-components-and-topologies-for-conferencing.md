@@ -12,20 +12,22 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4c843bbe5c34aaf0ad98ca73e8ebd33820b87d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfdb6ae250e3ccb97f044892daa8ac11e7c1b99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502582"
 ---
+# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Komponenten und Topologien für Konferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Komponenten und Topologien für Konferenzen in lync Server 2013
+
 
 </div>
 
@@ -49,15 +51,15 @@ Lync Server 2013 verwendet Office-Webanwendungen und den Office-webapps-Server, 
 
 Zusätzlich zu den Anforderungen für Webkonferenzen und A/V-Konferenzen verwendet Einwahlkonferenzen die folgenden lync Server 2013 Komponenten:
 
-  - **Anwendungsdienst**   Anwendungsdienst stellt eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen (UC) bereit. Bei Einwahlkonferenzen werden zwei UC-Anwendungen verwendet, die Anwendungsdienst erfordern: Konferenzzentrale und Konferenz Ansage. Anwendungsdienst wird bei jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server standardmäßig installiert und aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option "Einwahlkonferenzen" auswählen.
+  - **Anwendungsdienst**     Anwendungsdienst stellt eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen (UC) bereit. Bei Einwahlkonferenzen werden zwei UC-Anwendungen verwendet, die Anwendungsdienst erfordern: Konferenzzentrale und Konferenz Ansage. Anwendungsdienst wird bei jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server standardmäßig installiert und aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option "Einwahlkonferenzen" auswählen.
 
-  - **Konferenzzentrale**   Konferenzzentrale ist eine Unified Communications-Anwendung, die PSTN-Anrufe (Public Switched Telephone Network) akzeptiert, Ansagen abgibt und die Anrufe an eine a/V-Konferenz anschließt. Konferenzzentrale wird standardmäßig installiert und aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option "Einwahlkonferenzen" auswählen.
+  - **Konferenzzentrale**     Konferenzzentrale ist eine Unified Communications-Anwendung, die PSTN-Anrufe (Public Switched Telephone Network) akzeptiert, Ansagen abgibt und die Anrufe an eine a/V-Konferenz anschließt. Konferenzzentrale wird standardmäßig installiert und aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option "Einwahlkonferenzen" auswählen.
 
-  - **Konferenzankündigungsanwendung**   Konferenzankündigungsanwendung ist eine Unified Communications-Anwendung, die für bestimmte Aktionen Töne und Ansagen an PSTN-Teilnehmer abgibt, beispielsweise wenn Teilnehmer einer Konferenz beitreten oder diese verlassen, die Teilnehmer stumm geschaltet oder stumm geschaltet werden, jemand in die Konferenz Lobby wechselt oder die Konferenz gesperrt oder entsperrt ist. Konferenzankündigungsanwendung unterstützt auch DTMF-Befehle (Dual-Tone MultiFrequency) über die Telefontastatur. Konferenzankündigungsanwendung wird automatisch installiert und standardmäßig aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option Einwahlkonferenzen auswählen.
+  - **Konferenzankündigungsanwendung**     Konferenzankündigungsanwendung ist eine Unified Communications-Anwendung, die für bestimmte Aktionen Töne und Ansagen an PSTN-Teilnehmer abgibt, beispielsweise wenn Teilnehmer einer Konferenz beitreten oder diese verlassen, die Teilnehmer stumm geschaltet oder stumm geschaltet werden, jemand in die Konferenz Lobby wechselt oder die Konferenz gesperrt oder entsperrt ist. Konferenzankündigungsanwendung unterstützt auch DTMF-Befehle (Dual-Tone MultiFrequency) über die Telefontastatur. Konferenzankündigungsanwendung wird automatisch installiert und standardmäßig aktiviert, wenn Sie eine Konferenz Arbeitsauslastung bereitstellen und die Option Einwahlkonferenzen auswählen.
 
-  - **Seite "Einstellungen für Einwahlkonferenzen"**   das Seite "Einstellungen für Einwahlkonferenzen" zeigt Konferenzeinwahl Nummern mit den verfügbaren Sprachen an, zugewiesene Konferenz Informationen (also für Besprechungen, die nicht geplant werden müssen) sowie DTMF-Steuerelemente in der Konferenz und unterstützt die Verwaltung von persönlicher Identifikationsnummer (PIN) und zugewiesener Konferenz Informationen. Das Seite "Einstellungen für Einwahlkonferenzen" wird automatisch als Teil von Webdienste installiert.
+  - **Seite "Einstellungen für Einwahlkonferenzen"**     Das Seite "Einstellungen für Einwahlkonferenzen" zeigt Konferenzeinwahl Nummern mit den verfügbaren Sprachen an, zugewiesene Konferenz Informationen (also für Besprechungen, die nicht geplant werden müssen) sowie DTMF-Steuerelemente in der Konferenz und unterstützt die Verwaltung von persönlicher Identifikationsnummer (PIN) und zugewiesener Konferenz Informationen. Das Seite "Einstellungen für Einwahlkonferenzen" wird automatisch als Teil von Webdienste installiert.
 
-  - **Für lync Server 2013-, Vermittlungsserver-und PSTN-Gateway**   -Einwahlkonferenzen ist ein Vermittlungsserver erforderlich, um Signalübertragungen (und Medien in einigen Konfigurationen) zwischen lync Server 2013 und dem PSTN-Gateway und ein PSTN-Gateway zu übersetzen, um Signal-und Medienübertragung zwischen dem Vermittlungsserver und dem PSTN-Gateway zu übersetzen. Bei Einwahlkonferenzen müssen Sie mindestens eine Vermittlungsserver und mindestens eine der folgenden bereitstellen:
+  - **Lync Server 2013, Vermittlungsserver und PSTN-Gateway**     Einwahlkonferenzen erfordern eine Vermittlungsserver zum Übersetzen von Signalen (und Medien in einigen Konfigurationen) zwischen lync Server 2013 und dem PSTN-Gateway sowie ein PSTN-Gateway zum Übersetzen von Signal-und Mediendaten zwischen der Vermittlungsserver und dem PSTN-Gateway. Bei Einwahlkonferenzen müssen Sie mindestens eine Vermittlungsserver und mindestens eine der folgenden bereitstellen:
     
       - PSTN-Gateway
     
@@ -74,13 +76,13 @@ Zusätzlich zu den Anforderungen für Webkonferenzen und A/V-Konferenzen verwend
     
     </div>
 
-  - **Dateispeicher**   Dateispeicher wird für aufgezeichnete Namen-Audiodateien verwendet. Dateispeicher ist eine Standardkomponente in jeder Enterprise Edition-oder Standard Edition-Bereitstellung.
+  - **Dateispeicher**     Dateispeicher wird für aufgezeichnete Namen-Audiodateien verwendet. Dateispeicher ist eine Standardkomponente in jeder Enterprise Edition-oder Standard Edition-Bereitstellung.
 
-  - **User Store User**Store dient zum Speichern von Benutzer lync Server 2013 Pins.    Pins werden gehasht. Der Benutzerspeicher ist eine Standardkomponente in jeder Enterprise Edition-oder Standard Edition-Bereitstellung.
+  - **Benutzerspeicher**     Der Benutzerspeicher dient zum Speichern von Benutzer lync Server 2013 Pins. Pins werden gehasht. Der Benutzerspeicher ist eine Standardkomponente in jeder Enterprise Edition-oder Standard Edition-Bereitstellung.
 
-  - **Lync Server-Systemsteuerung**   einige Einwahleinstellungen können mithilfe von lync Server-Systemsteuerung konfiguriert werden.
+  - **Lync Server-Systemsteuerung**     Einige Einwahleinstellungen können mithilfe von lync Server-Systemsteuerung konfiguriert werden.
 
-  - **Lync Server-Verwaltungsshell**   alle Einwahleinstellungen können mithilfe von lync Server-Verwaltungsshell-Cmdlets konfiguriert werden. Lync Server-Verwaltungsshell-Cmdlets stehen für die Bereitstellung, Konfiguration, Ausführung, Überwachung und Problembehandlung von Konferenzzentrale und Konferenzankündigungsanwendung zur Verfügung. Ausführliche Informationen zu bestimmten Cmdlets finden Sie unter lync Server-Verwaltungsshell Dokumentation.
+  - **Lync Server-Verwaltungsshell**     Alle Einwahleinstellungen können mithilfe von lync Server-Verwaltungsshell-Cmdlets konfiguriert werden. Lync Server-Verwaltungsshell-Cmdlets stehen für die Bereitstellung, Konfiguration, Ausführung, Überwachung und Problembehandlung von Konferenzzentrale und Konferenzankündigungsanwendung zur Verfügung. Ausführliche Informationen zu bestimmten Cmdlets finden Sie unter lync Server-Verwaltungsshell Dokumentation.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66f2489b0ffaabc3744d92b38bcbf71ffcd84591
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 173f63fce60215ca0bc68791b0bc051136d931a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501702"
 ---
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Erstellen von Bandbreitenrichtlinien Profilen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Erstellen von Bandbreitenrichtlinien Profilen in lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Ausführliche Informationen zum Arbeiten mit Bandbreitenrichtlinien und Richtlin
 
   - [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-Die im folgenden Verfahren erstellten Beispiel Richtlinien legen Grenzwerte für den gesamten Audioverkehr, einzelne audiositzungen, den gesamten Videodatenverkehr und einzelne Videositzungen fest. Beispielsweise legt das Band\_breiten Richtlinienprofil für 5MB-Link die folgenden Grenzwerte fest:
+Die im folgenden Verfahren erstellten Beispiel Richtlinien legen Grenzwerte für den gesamten Audioverkehr, einzelne audiositzungen, den gesamten Videodatenverkehr und einzelne Videositzungen fest. Beispielsweise \_ legt das bandbreitenrichtlinienprofil für 5MB-Link die folgenden Grenzwerte fest:
 
   - Grenzwert für Audiodaten: 2.000 Kbit/s
 
@@ -77,7 +79,7 @@ Die im folgenden Verfahren erstellten Beispiel Richtlinien legen Grenzwerte für
 
 1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie für jedes bandbreitenrichtlinienprofil, das Sie erstellen möchten, das Cmdlet New-CsNetworkBandwidthPolicyProfile aus. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie für jedes bandbreitenrichtlinienprofil, das Sie erstellen möchten, das New-CsNetworkBandwidthPolicyProfile-Cmdlet aus. Führen Sie beispielsweise den folgenden Befehl aus:
     
        ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400  -VideoBWSessionLimit 700

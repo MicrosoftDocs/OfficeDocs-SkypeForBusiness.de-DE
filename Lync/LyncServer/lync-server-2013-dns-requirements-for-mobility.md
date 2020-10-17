@@ -12,20 +12,22 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ceddef859ebc24168c12fdf0721448c6d2b658
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208878"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501432"
 ---
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>DNS-Anforderungen für die Mobilität mit lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>DNS-Anforderungen für die Mobilität mit lync Server 2013
+
 
 </div>
 
@@ -70,12 +72,12 @@ Sie müssen einen der folgenden internen DNS-Einträge erstellen:
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>"lyncdiscoverinternal". &lt;sipdomain "&gt;</p></td>
+<td><p>"lyncdiscoverinternal". &lt; sipdomain "&gt;</p></td>
 <td><p>Interner Webdienste vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) für Ihren Directorpool, wenn Sie einen haben, oder für Ihre Front-End-Pool, wenn Sie keinen Director haben</p></td>
 </tr>
 <tr class="even">
 <td><p>A (Host)</p></td>
-<td><p>"lyncdiscoverinternal". &lt;sipdomain "&gt;</p></td>
+<td><p>"lyncdiscoverinternal". &lt; sipdomain "&gt;</p></td>
 <td><p>Interne Webdienste IP-Adresse (virtuelle IP-Adresse (VIP), wenn Sie einen Lastenausgleich verwenden) Ihres Directorpool, wenn Sie einen haben, oder Ihrer Front-End-Pool, wenn Sie keinen Director haben</p></td>
 </tr>
 </tbody>
@@ -113,7 +115,7 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls. _tcp. &lt;sipdomain "&gt;</p>
+<td><p>_sipfederationtls _sipfederationtls._tcp. &lt;sipdomain "&gt;</p>
 <p>Aufgelöst in Hosteintrag (a oder AAAA) für den Zugriffs-Edgedienst</p></td>
 <td><p>Zur Unterstützung von Push Notification Service und Apple Push Notification Service erstellen Sie einen SRV-Eintrag für jede SIP-Domäne mit Microsoft lync Mobile-Clients.</p>
 <div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5198416e3c06dfd83cf7d1cf5bf3c6002ebe72ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea3269b9594df0597220648313ec79acfa329cf9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195478"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502102"
 ---
+# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Konfigurieren der lync Server 2013 Umgebung für das Administrator-Webportal von lync Room System
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Konfigurieren der lync Server 2013 Umgebung für das Administrator-Webportal von lync Room System
+
 
 </div>
 
@@ -83,7 +85,7 @@ Für die Verwendung des administrativen Webportal für lync-Raumsysteme müssen 
     
      
 
-7.  Installieren Sie ASP.NET MVC 4 für Visual Studio 2010 SP1 und Visual-Webentwickler 2010 SP1, die im Microsoft Download Center [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)unter verfügbar sind.
+7.  Installieren Sie ASP.NET MVC 4 für Visual Studio 2010 SP1 und Visual-Webentwickler 2010 SP1, die im Microsoft Download Center unter verfügbar sind [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f2c57f56f1f82b94b20feb7aa801ca26f0ae022
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f39bf16a9d0ecf57a5617774395af477a67c2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180272"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502132"
 ---
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Konfigurieren der Einstellungen für die Aufzeichnung von Gesprächsdaten und der erfahrungsqualität in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Konfigurieren der Einstellungen für die Aufzeichnung von Gesprächsdaten und der erfahrungsqualität in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180272"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-17_
 
-Nachdem Sie einem Überwachungsspeicher eine Front-End-Pool zugeordnet haben, den Überwachungsspeicher eingerichtet und dann SQL Server Reporting Services-und Monitoring-Berichte installiert und konfiguriert haben, können Sie die Aufzeichnung von Kommunikationsdatensätzen (KDS) und die Quality of Experience (QoE) verwalten. Überwachung mithilfe lync Server-Verwaltungsshell. Mit lync Server-Verwaltungsshell-Cmdlets können Sie die KDS-und/oder QoE-Überwachung für eine bestimmte Website oder für die gesamte lync Server-Bereitstellung aktivieren und deaktivieren. Dies kann mit einem einfachen Befehl erfolgen:
+Nachdem Sie einem Überwachungsspeicher eine Front-End-Pool zugeordnet haben, den Überwachungsspeicher eingerichtet und dann SQL Server Reporting Services-und Monitoring-Berichte installiert und konfiguriert haben, können Sie die Aufzeichnung von Kommunikationsdatensätzen (KDS) und QoE-Überwachung (Quality of Experience) mithilfe von lync Server-Verwaltungsshell verwalten. Mit lync Server-Verwaltungsshell-Cmdlets können Sie die KDS-und/oder QoE-Überwachung für eine bestimmte Website oder für die gesamte lync Server-Bereitstellung aktivieren und deaktivieren. Dies kann mit einem einfachen Befehl erfolgen:
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
@@ -61,18 +63,18 @@ Wenn Sie Microsoft lync Server 2013 installieren, installieren Sie auch eine vor
 <tr class="odd">
 <td><p>"Enablecdr"</p></td>
 <td><p>Gibt an, ob KDS aktiviert ist. Bei "True" werden alle KDS-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 </tr>
 <tr class="even">
 <td><p>"Enablepurging"</p></td>
 <td><p>Gibt an, ob KDS-Datensätze regelmäßig aus der Datenbank gelöscht werden. Bei Festlegung auf "True" werden Einträge nach dem Zeitraum gelöscht, der in den Eigenschaften "KeepCallDetailForDays" (KDS-Datensätze) und "KeepErrorReportForDays" (KDS-Fehler) angegeben ist. Bei Festlegung des Parameters auf "False" werden KDS-Einträge nie gelöscht.</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 </tr>
 <tr class="odd">
 <td><p>"Keepcalldetailfordays"</p></td>
 <td><p>Gibt die Anzahl von Tagen an, die KDS-Datensätze in der Datenbank gespeichert werden. Einträge, die älter sind als angegeben, werden automatisch gelöscht. Dies erfolgt jedoch nur, wenn der Löschvorgang aktiviert ist.</p>
 <p>"KeepCallDetailForDays" kann auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (ungefähr 7 Jahre) festgelegt werden.</p></td>
-<td><p>60 Tage</p></td>
+<td><p>60 Tage</p></td>
 </tr>
 <tr class="even">
 <td><p>KeepErrorReportForDays</p></td>
@@ -104,12 +106,12 @@ Entsprechend werden in dieser Tabelle Standardwerte für ausgewählte QoE-Einste
 <tr class="odd">
 <td><p>EnableQoE</p></td>
 <td><p>Gibt an, ob die QoE-Überwachung aktiviert ist. Bei Festlegung auf "True" werden alle QoE-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 </tr>
 <tr class="even">
 <td><p>"Enablepurging"</p></td>
 <td><p>Gibt an, ob QoE-Datensätze regelmäßig aus der Datenbank gelöscht werden oder nicht. Wenn dieser Parameter auf "True" festgelegt ist, werden die Einträge nach der über die Eigenschaft "KeepQoEDataForDays"    angegebenen Zeitdauer gelöscht. Bei Festlegung des Parameters auf "False" werden QoE-Datensätze nie gelöscht.</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 </tr>
 <tr class="odd">
 <td><p>"Keepqoedatafordays"</p></td>

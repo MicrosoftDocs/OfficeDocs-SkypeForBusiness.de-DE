@@ -12,20 +12,22 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6015603d2c8c151cbe9d9b76410e51708f3ba9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1b96727af805107e7101c395d7c545c4e4967b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188448"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502192"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Konfigurieren der AutoErmittlung in lync Server 2013 für hybridbereitstellungen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Konfigurieren der AutoErmittlung in lync Server 2013 für hybridbereitstellungen
+
 
 </div>
 
@@ -55,13 +57,13 @@ Damit Clients die Bereitstellung ermitteln können, auf der sich der Benutzersta
 
 ## <a name="configuring-autodiscover-for-hybrid-deployments"></a>Konfigurieren der AutoErmittlung für Hybrid Bereitstellungen
 
-1.  Im Thema [AutoErmittlungsdienst-Anforderungen für lync Server 2013](lync-server-2013-autodiscover-service-requirements.md)verwenden Sie Get-CsHostingProvider, um den Wert des Attributs ProxyFQDN abzurufen.
+1.  Im Thema [AutoErmittlung-Dienstanforderungen für lync Server 2013](lync-server-2013-autodiscover-service-requirements.md)verwenden Sie Get-CsHostingProvider, um den Wert des Attributs ProxyFQDN abzurufen.
 
 2.  Geben Sie im lync Server-Verwaltungsshell
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    Wobei \[Identity\] durch den Domänennamen des freigegebenen SIP-Adressraums ersetzt wird.
+    Wobei \[ Identity \] durch den Domänennamen des freigegebenen SIP-Adressraums ersetzt wird.
 
 </div>
 
