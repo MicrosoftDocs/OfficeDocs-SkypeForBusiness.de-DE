@@ -12,20 +12,22 @@ ms:contentKeyID: 48184688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8c36fee84880e5236c5048da35dca38a476eab
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c9f4186a351876b874a8b84963f9923369511f65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511822"
 ---
+# <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>Anforderungen zum Veröffentlichen einer Topologie in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>Anforderungen zum Veröffentlichen einer Topologie in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
 In diesem Thema werden die Infrastruktur-und Softwareanforderungen beschrieben, die für die Veröffentlichung einer Topologie spezifisch sind, sei es mithilfe des Topologie-Generators oder der Befehlszeilenschnittstelle für die lync Server 2013 Verwaltungsshell. Diese Anforderungen gelten zusätzlich zu den allgemeinen Betriebssystem-, Software-und Berechtigungsanforderungen für alle lync Server 2013 Verwaltungstools. Stellen Sie sicher, dass Sie alle Anforderungen an die Verwaltungstools erfüllen, bevor Sie eine Topologie veröffentlichen.
 
-  - Sie müssen den Topologie-Generator auf einem Computer ausführen, der der gleichen Domäne oder Gesamtstruktur der lync Server 2013 Bereitstellung beigetreten ist, die Sie erstellen, damit Active Directory-Domänendienste Vorbereitungsschritte bereits abgeschlossen sind, sodass Sie die Verwaltungstools für die Verwendung von diesen Computer, um die Topologie erfolgreich zu veröffentlichen.
+  - Sie müssen den Topologie-Generator auf einem Computer ausführen, der der gleichen Domäne oder Gesamtstruktur der lync Server 2013 Bereitstellung beigetreten ist, die Sie erstellen, damit Active Directory-Domänendienste Vorbereitungsschritte bereits abgeschlossen sind, sodass Sie die Verwaltungstools auf diesem Computer verwenden können, um die Topologie erfolgreich zu veröffentlichen.
 
   - Die in der Topologie definierten Computer müssen mit der Domäne (mit Ausnahme der Edgeserver) und in AD DS verbunden werden. Die Computer müssen beim Veröffentlichen der Topologie jedoch nicht online sein.
 

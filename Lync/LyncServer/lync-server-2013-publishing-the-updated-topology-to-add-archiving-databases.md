@@ -12,20 +12,22 @@ ms:contentKeyID: 48184034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff09dc330c7194ebe3657220c20a6138dc2f9a4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5834c6c7d0386f7943c523a184ea63f8ba129a89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512242"
 ---
+# <a name="publishing-the-updated-topology-to-add-archiving-databases-in-lync-server-2013"></a>Veröffentlichen der aktualisierten Topologie zum Hinzufügen von Archivierungsdatenbanken in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-the-updated-topology-to-add-archiving-databases-in-lync-server-2013"></a>Veröffentlichen der aktualisierten Topologie zum Hinzufügen von Archivierungsdatenbanken in lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Nach dem Aktualisieren der Topologie im Topologie-Generator müssen Sie die Topo
     
 
     > [!NOTE]  
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die erforderlich ist, um der Topologie einen Server hinzuzufügen. Sie müssen ein Konto verwenden, das Mitglied der Gruppe " <STRONG>Domänen-Admins</STRONG> " und der Gruppe " <STRONG>RTCUniversalServerAdmins</STRONG> " ist und das über die Berechtigung "Vollzugriff" (lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den lync Server 2013 Dateispeicher verwenden (damit der Topologie-Generator die erforderliche DACL (Discretionary Access Control List) konfigurieren kann. oder ein Konto mit gleichwertigen Rechten.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die erforderlich ist, um der Topologie einen Server hinzuzufügen. Sie müssen ein Konto verwenden, das Mitglied der Gruppe " <STRONG>Domänen-Admins</STRONG> " und der <STRONG>RTCUniversalServerAdmins</STRONG> -Gruppe ist und das über die Berechtigung "Vollzugriff" (lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den lync Server 2013 Dateispeicher verwenden (damit der Topologie-Generator die erforderliche DACL (Discretionary Access Control List) oder ein Konto mit gleichwertigen Rechten konfigurieren kann.
 
     
     </div>

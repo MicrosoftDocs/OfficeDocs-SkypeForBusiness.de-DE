@@ -12,20 +12,22 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353e0941f443e2cb971f8ebd037413232e21b827
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69caa96c6f0e49d472f13da11b34f7d199322184
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183428"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512182"
 ---
+# <a name="qoe-reports-in-lync-server-2013"></a>QoE-Berichte in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>QoE-Berichte in lync Server 2013
+
 
 </div>
 
@@ -129,7 +131,7 @@ Für jeden A/V-Konferenzserver wird im Bericht Folgendes angezeigt:
 
 ## <a name="location-based-performance-report"></a>Standortbasierter Leistungsbericht
 
-Der standortbasierte Leistungsbericht enthält eine Liste der Netzwerkstandorte, und für jeden Standort wird die Anzahl der Anrufe in jedem vorab festgelegten Qualitätsbereich angezeigt. Das Ziel dieses Berichts besteht darin, Einblicke in die Medienqualität des Großteils der Telefonanrufe Ihrer Organisation für verschiedene Standorte zu geben, damit Sie schlecht durch führ Ende Standorte identifizieren und die verschiedenen Grade der Medienqualität in Ihrer Organisation anzeigen können. unterschiedliche Standorte.
+Der Bericht über die Location-Based Leistung enthält eine Liste der Netzwerkstandorte und für jeden Standort die Anzahl der Anrufe in jedem vorab festgelegten Qualitätsbereich. Das Ziel dieses Berichts besteht darin, Einblicke in die Medienqualität des Großteils der Telefonanrufe Ihrer Organisation für verschiedene Standorte zu geben, damit Sie schlecht darstellende Standorte identifizieren und die unterschiedlichen Grade der Medienqualität in den verschiedenen Standorten Ihrer Organisation anzeigen können.
 
 Beim Anzeigen des Berichts werden verschiedene metrische Tabellen angezeigt – eine Tabelle für jede Metrik, für die Ihre Organisation einen Bericht beschließt. Für diesen Bericht stehen Ihnen die folgenden Metriken zur Verfügung:
 

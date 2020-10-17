@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513402"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Ports und Protokolle für interne Server in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Ports und Protokolle für interne Server in lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ In der folgenden Tabelle sind die Ports aufgeführt, die für jede interne Serve
 <th>Dienstname</th>
 <th>Port</th>
 <th>Protokoll</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -96,21 +98,21 @@ In der folgenden Tabelle sind die Ports aufgeführt, die für jede interne Serve
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server Front-End-Dienst</p></td>
+<td><p>Lync Server Front-End Dienst</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Optional von Standard Edition-Servern und Front-End-Servern für statische Routen zu vertrauenswürdigen Diensten wie Remote Anruf Steuerungs Servern verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server Front-End-Dienst</p></td>
+<td><p>Lync Server Front-End Dienst</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>Wird von Standard Edition-Servern und Front-End-Pools für die gesamte interne SIP-Kommunikation zwischen Servern (MTLS), für die SIP-Kommunikation zwischen Server und Client (TLS) und für die SIP-Kommunikation zwischen Front-End-Servern und Vermittlungsservern (MTLS) verwendet. Wird auch für die Kommunikation mit Monitoring Server verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server Front-End-Dienst</p></td>
+<td><p>Lync Server Front-End Dienst</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ In der folgenden Tabelle sind die Ports aufgeführt, die für jede interne Serve
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server Front-End-Dienst</p></td>
+<td><p>Lync Server Front-End Dienst</p></td>
 <td><p>135</p></td>
 <td><p>DCOM und Remoteprozeduraufruf (RPC)</p></td>
 <td><p>Wird für DCOM-basierte Vorgänge wie das Verschieben von Benutzern, die Benutzer Replikationssynchronisierung und die Adressbuchsynchronisierung verwendet.</p></td>
@@ -371,14 +373,14 @@ In der folgenden Tabelle sind die Ports aufgeführt, die für jede interne Serve
 </tr>
 <tr class="odd">
 <td><p>Verwaltungsrat</p></td>
-<td><p>Lync Server Front-End-Dienst</p></td>
+<td><p>Lync Server Front-End Dienst</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Optional für statische Routen zu vertrauenswürdigen Diensten wie Remote Anruf Steuerungs Servern verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Verwaltungsrat</p></td>
-<td><p>Lync Server Front-End-Dienst</p></td>
+<td><p>Lync Server Front-End Dienst</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -400,7 +402,7 @@ In der folgenden Tabelle sind die Ports aufgeführt, die für jede interne Serve
 </tr>
 <tr class="odd">
 <td><p>Verwaltungsrat</p></td>
-<td><p>Lync Server Front-End-Dienst</p></td>
+<td><p>Lync Server Front-End Dienst</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für die interne Kommunikation zwischen Servern und für Clientverbindungen verwendet.</p></td>
@@ -480,7 +482,7 @@ Für Ihre Pools, in denen nur Hardwarelastenausgleich (nicht DNS-Lastenausgleich
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lastenausgleichsmodul</th>
+<th>Lastenausgleichssystem</th>
 <th>Port</th>
 <th>Protokoll</th>
 </tr>
@@ -602,7 +604,7 @@ Für die Front-End-Pools und Director-Pools, die den DNS-Lastenausgleich verwend
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lastenausgleichsmodul</th>
+<th>Lastenausgleichssystem</th>
 <th>Port</th>
 <th>Protokoll</th>
 </tr>
@@ -661,7 +663,7 @@ Für die Front-End-Pools und Director-Pools, die den DNS-Lastenausgleich verwend
 <th>Komponente</th>
 <th>Port</th>
 <th>Protokoll</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ede6730357f50967f13089e02e32ad1a21d8ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512982"
 ---
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Ausfall Sicherheitslösungen für Zweigstellenstandorte in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Ausfall Sicherheitslösungen für Zweigstellenstandorte in lync Server 2013
+
 
 </div>
 
@@ -61,14 +63,14 @@ Wenn Sie sich zur Bereitstellung von Ausfallsicherheit für Zweigstellenstandort
 <td><p>Host mit 25 bis 1.000 Benutzern am Zweigstellenstandort, wobei eine vollständige Bereitstellung nicht rentabel ist oder kein administrativer Support zur Verfügung steht</p></td>
 <td><p>Survivable Branch Appliance</p>
 <p>Das Survivable Branch Appliance ist ein Industriestandard-Blade-Server mit einer lync Server Registrierungsstelle und Vermittlungsserver, die auf Windows Server 2008 R2 läuft. Das Survivable Branch Appliance enthält auch ein PSTN-Gateway (Public Switched Telephone Network). Qualifizierte Drittanbietergeräte (entwickelt von Microsoft-Partnern im Programm zur SBA-Qualifizierung/-Zertifizierung) bieten bei einem WAN-Ausfall eine dauerhafte PSTN-Verbindung (Public Switched Telephone Network, Telefonfestnetz), es werden jedoch keine ausfallsicheren Anwesenheits- und Konferenzfeatures bereitgestellt, da diese Features von den Front-End-Servern am zentralen Standort abhängen.</p>
-<p>Ausführliche Informationen zu Survivable Branch Appliances finden &quot;Sie unter Survivable Branch Appliance&quot; Details weiter unten in diesem Thema.</p>
+<p>Ausführliche Informationen zu Survivable Branch Appliances finden Sie unter &quot; Survivable Branch Appliance Details &quot; weiter unten in diesem Thema.</p>
 <p><strong>Hinweis:</strong> Wenn Sie sich entscheiden, auch einen SIP-Trunk mit Ihrem Survivable Branch Appliance zu verwenden, wenden Sie sich an Ihren Survivable Branch Appliance-Anbieter, um zu erfahren, welcher Dienstanbieter am besten für Ihre Organisation geeignet ist.</p></td>
 </tr>
 <tr class="even">
 <td><p>Host zwischen 1000 und 2000 Benutzern an Ihrem Zweigstellenstandort, keine ausfallsichere WAN-Verbindung, und Sie haben lync Server Administratoren zur Verfügung gestellt</p></td>
 <td><p>Survivable Branch Server oder zwei Survivable Branch Appliances.</p>
 <p>Bei der Survivable Branch Server handelt es sich um eine Windows Server-Sitzung, für die die Hardwareanforderungen festgelegt sind, auf denen lync Server Registrierungsstelle und Vermittlungsserver Software installiert ist. Der Server muss entweder über ein PSTN-Gateway oder einen SIP-Trunk mit einem Telefoniedienstanbieter verbunden sein.</p>
-<p>Ausführliche Informationen zu Survivable Branch-Servern finden &quot;Sie unter Survivable Branch Server&quot; Details weiter unten in diesem Thema.</p></td>
+<p>Ausführliche Informationen zu Survivable Branch-Servern finden Sie unter &quot; Survivable Branch Server Details &quot; weiter unten in diesem Thema.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Wenn Sie zusätzlich zu den VoIP-Funktionen für bis zu 5000 Benutzer Anwesenheits-und Konferenzfunktionen benötigen und lync Server Administratoren verfügbar gemacht haben</p></td>
@@ -108,7 +110,7 @@ Die lync Server Survivable Branch Appliance umfasst die folgenden Komponenten:
 
 Das Survivable Branch Appliance enthält auch PSTN-Trunks, analoge Ports und einen Ethernet-Adapter.
 
-Wenn die WAN-Verbindung der Zweigstelle zu einem zentralen Standort nicht mehr verfügbar ist, werden interne Zweigstellenbenutzer weiterhin bei der Survivable Branch Appliance Registrierungsstelle registriert und erhalten unterbrechungsfreie Sprachdienste mithilfe der Survivable Branch Appliance-Verbindung. an das PSTN. Zweigstellenbenutzer, die von zu Hause oder von Remotestandorten aus eine Verbindung herstellen, können sich beim Registrierungsserver am zentralen Standort registrieren, wenn die WAN-Leitung zum Zweigstellenstandort nicht verfügbar ist. Diese Benutzer haben Zugriff auf die vollständige Unified Communications-Funktionalität (UM), mit der Ausnahme, dass eingehende Anrufe am Zweigstellenstandort an das Voicemailsystem übermittelt werden. Wenn die WAN-Verbindung wieder verfügbar ist, sollte für Benutzer am Zweigstellenstandort automatisch die vollständige Funktionalität wiederhergestellt werden. Weder das Failover auf die Survivable Branch Appliance noch die Wiederherstellung des Diensts erfordert das vorhanden sein eines IT-Administrators.
+Wenn die WAN-Verbindung der Zweigstelle zu einem zentralen Standort nicht mehr verfügbar ist, werden interne Zweigstellenbenutzer weiterhin bei der Survivable Branch Appliance Registrierungsstelle registriert und erhalten unterbrechungsfreie Sprachdienste über die Survivable Branch Appliance-Verbindung mit dem PSTN. Zweigstellenbenutzer, die von zu Hause oder von Remotestandorten aus eine Verbindung herstellen, können sich beim Registrierungsserver am zentralen Standort registrieren, wenn die WAN-Leitung zum Zweigstellenstandort nicht verfügbar ist. Diese Benutzer haben Zugriff auf die vollständige Unified Communications-Funktionalität (UM), mit der Ausnahme, dass eingehende Anrufe am Zweigstellenstandort an das Voicemailsystem übermittelt werden. Wenn die WAN-Verbindung wieder verfügbar ist, sollte für Benutzer am Zweigstellenstandort automatisch die vollständige Funktionalität wiederhergestellt werden. Weder das Failover auf die Survivable Branch Appliance noch die Wiederherstellung des Diensts erfordert das vorhanden sein eines IT-Administrators.
 
 Lync Server unterstützt bis zu zwei Survivable Branch Appliance an einem Zweigstellenstandort.
 

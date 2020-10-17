@@ -12,20 +12,22 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d53797c490ba53872786311b51e310e6400addf5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aae84d208df1d7c2945fee641b243bf7110902c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215291"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513192"
 ---
+# <a name="protecting-iis-in-lync-server-2013"></a>Schützen von IIS in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="protecting-iis-in-lync-server-2013"></a>Schützen von IIS in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-12-05_
 
 In Microsoft Office Communications Server 2007 und Microsoft Office Communications Server 2007 R2 Internet Information Services (IIS) unter einem Standardbenutzerkonto ausgeführt. Dies konnte potenziell Probleme mit sich bringen: Bei Ablauf des zugehörigen Kennworts gingen möglicherweise die Webdienste verloren, und dieses Problem war häufig nur schwer zu diagnostizieren. Um das Problem der ablaufenden Kennwörter zu vermeiden, können Sie mit Microsoft lync Server 2013 ein Computerkonto (für einen nicht vorhandenen Computer) erstellen, das als Authentifizierungs Prinzipal für alle Computer an einem Standort dienen kann, auf dem IIS läuft. Da diese Konten das Kerberos-Authentifizierungsprotokoll verwenden, werden sie als Kerberos-Konten und der neue Authentifizierungsprozess als Kerberos-Webauthentifizierung bezeichnet. Auf diese Weise können Sie alle IIS-Server über ein einziges Konto verwalten.
 
-Wenn Sie die Server unter diesem Authentifizierungs Prinzipal ausführen möchten, müssen Sie zuerst ein Computerkonto mithilfe des New-CsKerberosAccount-Cmdlets erstellen. Dieses Konto wird dann einer oder mehreren Standorten zugewiesen. Nachdem die Zuordnung vorgenommen wurde, wird die Zuordnung zwischen dem Konto und der lync Server 2013 Website durch Ausführen des Cmdlets Enable-CsTopology aktiviert. Dadurch wird unter anderem der erforderliche Dienstprinzipalname (Service Principal Name, SPN) in Active Directory-Domänendienste (AD DS) erstellt. SPNs bieten Clientanwendungen die Möglichkeit, einen bestimmten Dienst zu finden. Ausführliche Informationen finden Sie unter [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) in der Betriebsdokumentation.
+Zum Ausführen der Server unter diesem Authentifizierungs Prinzipal müssen Sie zunächst ein Computerkonto mithilfe des New-CsKerberosAccount-Cmdlets erstellen. Dieses Konto wird dann einer oder mehreren Standorten zugewiesen. Nachdem die Zuordnung vorgenommen wurde, wird die Zuordnung zwischen dem Konto und der lync Server 2013 Website durch Ausführen des Enable-CsTopology-Cmdlets aktiviert. Dadurch wird unter anderem der erforderliche Dienstprinzipalname (Service Principal Name, SPN) in Active Directory-Domänendienste (AD DS) erstellt. SPNs bieten Clientanwendungen die Möglichkeit, einen bestimmten Dienst zu finden. Ausführliche Informationen finden Sie unter [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) in der Betriebsdokumentation.
 
 <div>
 

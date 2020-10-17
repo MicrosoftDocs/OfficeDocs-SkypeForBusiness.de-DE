@@ -12,20 +12,22 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aca31ca681c75438bbcbb67b1d2dc5c0b6305cb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6db6a701c98a44b042d9ee36d0a749bf6363bd2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513382"
 ---
+# <a name="key-health-indicators-in-lync-server-2013"></a>Wichtige Integritätsindikatoren in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-health-indicators-in-lync-server-2013"></a>Wichtige Integritätsindikatoren in lync Server 2013
+
 
 </div>
 
@@ -105,15 +107,15 @@ Laden Sie das [lync Server Networking Guide](https://go.microsoft.com/fwlink/p/?
 
 Beginnen Sie mit dem Sammeln von KHI-Leistungsdaten für alle Server. Ermitteln Sie für jede Systemrolle (Details weiter unten in diesem Dokument erläutert), ob die grundlegenden Systemkomponenten die empfohlenen Ziele erfüllen. Wenn dies nicht der Fall ist, stellen Sie die Systemleistung wieder her, sammeln Sie dann KHI-Daten, und stellen Sie sicher, dass die Systemintegrität überprüft wird, bevor Sie die für die Serverrolle in der lync-Implementierung spezifischen Metriken betrachten. Der Komponentenzustand für alle Rollen ist wie folgt definiert:
 
-  - CPU- \< Auslastung 80%
+  - CPU-Auslastung \< 80%
 
   - AVG. Disk Write \< 10 ms
 
   - AVG. Disk Read \< 10 ms
 
-  - Verfügbarer Arbeitsspeicher \>20% System gesamt MB
+  - Verfügbarer Arbeitsspeicher \> 20% System gesamt MB
 
-  - Netzwerkwarteschlange ( \< Länge 2)
+  - Netzwerkwarteschlange (Länge \< 2)
 
   - Verworfene Pakete (in/out) = 0
 
@@ -170,34 +172,34 @@ Die folgenden empfohlenen KHI-Ziele sind für Front-End-Server zusätzlich zur g
 <tbody>
 <tr class="odd">
 <td><p>AS/AV/im MCU</p></td>
-<td><p>MCU-Integritätsstatus &lt;2</p></td>
+<td><p>MCU-Integritätsstatus &lt; 2</p></td>
 </tr>
 <tr class="even">
-<td><p>Webkomponenten</p></td>
-<td><p>Verteilerlistenerweiterung AD Timeouts &lt;0</p>
+<td><p>Web Components</p></td>
+<td><p>Verteilerlistenerweiterung AD Timeouts &lt; 0</p>
 <p>ABWQ-Fehler = 0</p>
 <p>LIS-Fehler = 0</p>
-<p>Authentifizierungs &lt; Fehler 1/s</p>
+<p>Authentifizierungsfehler &lt; 1/s</p>
 <p>ASP.net V4-Anforderungen abgelehnt = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP-Stack</p></td>
-<td><p>AVG. eingehende Nachrichten &lt; Verarbeitung 1 Sek.</p>
-<p>Eingehende Antworten &lt; fallen gelassen 1/sec Eingeh &lt; Ende Anfragen wurden um 1/Sek.</p>
+<td><p>AVG. eingehende Nachrichtenverarbeitung &lt; 1 Sek.</p>
+<p>Eingehende Antworten fallen gelassen &lt; 1/sec eingehende Anfragen wurden um &lt; 1/Sek.</p>
 <p>Warteschlangen Wartezeit &lt; 100 MS</p>
-<p>Wartezeit in &lt; der Warte Prozedur 100 MS</p>
+<p>Wartezeit in der Warte Prozedur &lt; 100 MS</p>
 <p>Gedrosselte Anforderungen = 0</p>
-<p>Authentifizierungs &lt; Fehler 1/s</p>
-<p>Timeout für eingehende &lt; Nachrichten 2</p>
-<p>AVG. eingehende Nachricht &lt; halten 1 Sek.</p>
+<p>Authentifizierungsfehler &lt; 1/s</p>
+<p>Timeout für eingehende Nachrichten &lt; 2</p>
+<p>AVG. eingehende Nachricht halten &lt; 1 Sek.</p>
 <p>Fluss gesteuerte Verbindungen &lt; 2</p>
-<p>Verzögerung &lt; von AVG. Out-Warteschlange 2 Sek.</p></td>
+<p>Verzögerung von AVG. Out-Warteschlange &lt; 2 Sek.</p></td>
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>% des Speicherplatzes, der von &lt; der Speicherdienst-DB 80 verwendet wird</p>
-<p>#von Replikat Replikationsfehlern = 0</p>
-<p>#von Datenverlust Ereignissen = 0</p></td>
+<td><p>% des Speicherplatzes, der von der Speicherdienst-DB 80 verwendet wird &lt;</p>
+<p># von Replikat Replikationsfehlern = 0</p>
+<p># von Datenverlust Ereignissen = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
@@ -266,8 +268,8 @@ Die folgenden empfohlenen KHI-Ziele gelten zusätzlich zu den grundlegenden komp
 <tr class="odd">
 <td><p>Vermittlungsserver Dienst</p></td>
 <td><p>Fehler beim Laden des Anrufs Index = 0</p>
-<p>Fehlgeschlagene Anrufe &lt;aufgrund von Proxy 10</p>
-<p>Fehlgeschlagene Anrufe &lt;aufgrund von Gateway 10</p>
+<p>Fehlgeschlagene Anrufe aufgrund von Proxy &lt; 10</p>
+<p>Fehlgeschlagene Anrufe aufgrund von Gateway &lt; 10</p>
 <p>Zurück geleitete Aufrufe (in oder out) = 0</p>
 <p>Fehlende Medien Kandidaten = 0</p>
 <p>Fehler bei der Medien Verbindungsüberprüfung = 0</p></td>
@@ -305,21 +307,21 @@ Die folgenden empfohlenen KHI-Ziele gelten neben dem grundlegenden Zustand der K
 </tr>
 <tr class="even">
 <td><p>AV-Edge</p></td>
-<td><p>Authentifizierungsfehler &lt;20/Sek.</p>
-<p>Zuordnungsfehler &lt;20/Sek.</p>
-<p>Gelöschte &lt;Pakete 300/s</p></td>
+<td><p>Authentifizierungsfehler &lt; 20/Sek.</p>
+<p>Zuordnungsfehler &lt; 20/Sek.</p>
+<p>Gelöschte Pakete &lt; 300/s</p></td>
 </tr>
 <tr class="odd">
 <td><p>Daten Proxy</p></td>
-<td><p>Gedrosselte Server &lt; Verbindungen 3</p>
-<p>Das System gibt die &lt;Drosselung 1 an.</p></td>
+<td><p>Gedrosselte Server Verbindungen &lt; 3</p>
+<p>Das System gibt die Drosselung 1 an. &lt;</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP-Stack</p></td>
 <td><p>Verbindungen über Grenzwert sank &lt; 1</p>
-<p>Sende Zeitüberschreitung &lt;10</p>
-<p>Fluss gesteuerte Verbindungen &lt;100</p>
-<p>Eingehende Anforderungen &lt; sanken 1/s</p>
+<p>Sende Zeitüberschreitung &lt; 10</p>
+<p>Fluss gesteuerte Verbindungen &lt; 100</p>
+<p>Eingehende Anforderungen sanken &lt; 1/s</p>
 <p>AVG. Message processing &lt; 3 sec</p></td>
 </tr>
 </tbody>

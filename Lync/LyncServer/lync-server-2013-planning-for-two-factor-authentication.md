@@ -12,20 +12,22 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0738cb282ad2f1f375e89526fcdd1569a6707ad0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1932164cd1236257bbb81d1503b0310c8c55526e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513452"
 ---
+# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planen der zweistufigen Authentifizierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planen der zweistufigen Authentifizierung in lync Server 2013
+
 
 </div>
 
@@ -106,7 +108,7 @@ Wenn diese Authentifizierungstypen auf Dienstebene deaktiviert sind, können sic
 
 ## <a name="lync-service-discovery"></a>Lync-Dienstermittlung
 
-DNS-Einträge, die von internen und/oder externen Clients zum Ermitteln von lync-Diensten verwendet werden, sollten so konfiguriert werden, dass Sie auf einen lync-Server aufgelöst werden, der nicht für die zweistufige Authentifizierung aktiviert ist. Bei dieser Konfiguration müssen Benutzer aus lync-Pools, die nicht für die zweistufige Authentifizierung aktiviert sind, keine PIN zur Authentifizierung eingeben, während Benutzer aus lync-Pools, die für die zweistufige Authentifizierung aktiviert sind, Ihre PIN eingeben müssen, um authentifizieren.
+DNS-Einträge, die von internen und/oder externen Clients zum Ermitteln von lync-Diensten verwendet werden, sollten so konfiguriert werden, dass Sie auf einen lync-Server aufgelöst werden, der nicht für die zweistufige Authentifizierung aktiviert ist. Bei dieser Konfiguration sind Benutzer aus lync-Pools, die nicht für die zweistufige Authentifizierung aktiviert sind, nicht zur Eingabe einer PIN zur Authentifizierung verpflichtet, während Benutzer aus lync-Pools, die für die zweistufige Authentifizierung aktiviert sind, Ihre PIN für die Authentifizierung benötigen.
 
 </div>
 
@@ -146,7 +148,7 @@ Es gibt eine Reihe von Überlegungen zur Bereitstellung von gespeicherten lync-A
 
 ## <a name="deleting-saved-credentials"></a>Löschen gespeicherter Anmeldeinformationen
 
-Benutzer von Desktop Clients sollten die **Option Meine Anmeldeinformationen löschen** im lync-Client verwenden und Ihren SIP-Profilordner aus% LocalAppData%\\Microsoft\\Office\\15,0\\lync löschen, bevor Sie versuchen, das erste Mal unter Verwendung der zweistufigen Authentifizierung zu signieren.
+Benutzer von Desktop Clients sollten die Option **Meine Anmeldeinformationen löschen** im lync-Client verwenden und Ihren SIP-Profilordner aus% LocalAppData% \\ Microsoft \\ Office \\ 15,0 lync löschen \\ , bevor Sie versuchen, das erste Mal unter Verwendung der zweistufigen Authentifizierung zu signieren.
 
 </div>
 
@@ -160,9 +162,9 @@ Wenn Benutzer versehentlich zur Eingabe von Anmeldeinformationen aufgefordert we
 
 Um die zusätzliche Aufforderung zur Eingabe von Anmeldeinformationen zu verhindern, erstellen Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die administrative Vorlage lync, um mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool zuzutreffen:
 
-HKEY\_-\_Software\\\\Richtlinien\\für lokale\\Computer\\Microsoft\\Office 15,0 lync
+HKEY \_ - \_ Software Richtlinien für lokale Computer \\ \\ \\ Microsoft \\ Office \\ 15,0 \\ lync
 
-REG\_DWORD: DisableNTCredentials
+REG \_ DWORD: DisableNTCredentials
 
 Wert: 0x0 festlegen
 
@@ -176,9 +178,9 @@ Wenn sich ein Benutzer zum ersten Mal bei lync anmeldet, wird der Benutzer aufge
 
 Die Registrierungseinstellung **SavePassword** sollte deaktiviert werden, wenn lync für die Unterstützung der zweistufigen Authentifizierung konfiguriert ist. Wenn Sie verhindern möchten, dass Benutzer ihre Kennwörter speichern, ändern Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die administrative Vorlage lync, um mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool zuzutreffen:
 
-HKEY\_aktuelle\_Benutzer\\Software\\Microsoft\\Office\\15,0\\lync
+HKEY \_ aktuelle \_ Benutzer \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync
 
-REG\_DWORD: SavePassword
+REG \_ DWORD: SavePassword
 
 Wert: 0x0 festlegen
 
@@ -190,9 +192,9 @@ Wert: 0x0 festlegen
 
 ## <a name="ad-fs-20-token-replay"></a>Wiedergabe von AD FS 2.0 Token
 
-AD FS 2.0 stellt ein Feature dar, das als Erkennung von Token-Wiedergaben bezeichnet wird, durch das mehrere Token-Anforderungen mit demselben Token erkannt und anschließend verworfen werden können. Wenn dieses Feature aktiviert ist, schützt die Token-Wiedergabeerkennung die Integrität von Authentifizierungsanforderungen sowohl im passiven WS-verbundprofil als auch im SAML-WebSSO-Profil, indem sichergestellt wird, dass das gleiche Token nie mehr als einmal verwendet wird.
+AD FS 2.0 stellt ein Feature dar, das als Erkennung von Token-Wiedergaben bezeichnet wird, durch das mehrere Token-Anforderungen mit demselben Token erkannt und anschließend verworfen werden können. Wenn dieses Feature aktiviert ist, schützt die Token-Wiedergabeerkennung die Integrität von Authentifizierungsanforderungen sowohl im WS-Federation passiven Profil als auch im SAML-WebSSO-Profil, indem sichergestellt wird, dass dasselbe Token nie mehr als einmal verwendet wird.
 
-Dieses Feature sollte in Situationen aktiviert sein, in denen Sicherheit ein sehr hoher Aspekt ist, beispielsweise bei der Verwendung von Kiosken. Weitere Informationen zur Erkennung von Token-Wiedergabe finden Sie unter Bewährte Methoden für die sichere Planung und bereit [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)Stellung von AD FS 2.0 unter.
+Dieses Feature sollte in Situationen aktiviert sein, in denen Sicherheit ein sehr hoher Aspekt ist, beispielsweise bei der Verwendung von Kiosken. Weitere Informationen zur Erkennung von Token-Wiedergabe finden Sie unter Bewährte Methoden für die sichere Planung und Bereitstellung von AD FS 2.0 unter [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a9e8be425a86eef0d548493e1466888d3d8728c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43c2c6ada55c1bc7db6c8593ee14028b986a2b78
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196758"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512622"
 ---
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService für die Adressbuchverwaltung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService für die Adressbuchverwaltung in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig s
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService ist wertvoll, um die aktuelle Konfiguration der definierten Webdienste der Infrastruktur abzurufen und anzuzeigen. Bei Definition des vollqualifizierten Domänennamens des Pools (Fully Qualified Domain Name, FQDN) und des Parameters "WebServer" gibt das Cmdlet die von Ihrem Server angebotenen webbasierten Dienste zurück, einschließlich des Adressbuchhandlers und der URIs für die Verteilerlistenerweiterung.
+Get-CsService ist wertvoll, um die aktuelle Konfiguration der definierten Webdienste Ihrer Infrastruktur abzurufen und anzuzeigen. Bei Definition des vollqualifizierten Domänennamens des Pools (Fully Qualified Domain Name, FQDN) und des Parameters "WebServer" gibt das Cmdlet die von Ihrem Server angebotenen webbasierten Dienste zurück, einschließlich des Adressbuchhandlers und der URIs für die Verteilerlistenerweiterung.
 
 Beispiel:
 
@@ -79,51 +81,51 @@ AppSharingPortStart: 49152
 
 AppSharingPortCount: 16383
 
-LIServiceInternalUri :https://internalweb.contoso.net/locationinformation/liservice.svc
+LIServiceInternalUri : https://internalweb.contoso.net/locationinformation/liservice.svc
 
-ABHandlerInternalUri :https://internalweb.contoso.net/abs/handler
+ABHandlerInternalUri : https://internalweb.contoso.net/abs/handler
 
-ABHandlerExternalUri :https://csweb.contoso.com/abs/handler
+ABHandlerExternalUri : https://csweb.contoso.com/abs/handler
 
-DLExpansionInternalUri :https://internalweb.contoso.net/groupexpansion/service.svc
+DLExpansionInternalUri : https://internalweb.contoso.net/groupexpansion/service.svc
 
-DLExpansionExternalUri :https://csweb.contoso.com/groupexpansion/service.svc
+DLExpansionExternalUri : https://csweb.contoso.com/groupexpansion/service.svc
 
-CAHandlerInternalUri :https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+CAHandlerInternalUri : https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-CAHandlerInternalAnonUri :http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+CAHandlerInternalAnonUri : http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-CollabContentInternalUri :https://internalweb.contoso.net/CollabContent
+CollabContentInternalUri : https://internalweb.contoso.net/CollabContent
 
-CollabContentExternalUri :https://csweb.contoso.com/CollabContent
+CollabContentExternalUri : https://csweb.contoso.com/CollabContent
 
-CAHandlerExternalUri :https://csweb.contoso.com/CertProv/CertProvisioningService.svc
+CAHandlerExternalUri : https://csweb.contoso.com/CertProv/CertProvisioningService.svc
 
-DeviceUpdateDownloadInternalUri :https://internalweb.contoso.net/RequestHandler/ucdevice.upx
+DeviceUpdateDownloadInternalUri : https://internalweb.contoso.net/RequestHandler/ucdevice.upx
 
-DeviceUpdateDownloadExternalUri :https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
+DeviceUpdateDownloadExternalUri : https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
 
-DeviceUpdateStoreInternalUri :http://internalweb.contoso.net/RequestHandler/Files
+DeviceUpdateStoreInternalUri : http://internalweb.contoso.net/RequestHandler/Files
 
-DeviceUpdateStoreExternalUri :https://csweb.contoso.com/RequestHandlerExt/Files
+DeviceUpdateStoreExternalUri : https://csweb.contoso.com/RequestHandlerExt/Files
 
-RgsAgentServiceInternalUri :https://internalweb.contoso.net/RgsClients/AgentService.svc
+RgsAgentServiceInternalUri : https://internalweb.contoso.net/RgsClients/AgentService.svc
 
-RgsAgentServiceExternalUri :https://csweb.contoso.com/RgsClients/AgentService.svc
+RgsAgentServiceExternalUri : https://csweb.contoso.com/RgsClients/AgentService.svc
 
-MeetExternalUri :https://csweb.contoso.com/Meet
+MeetExternalUri : https://csweb.contoso.com/Meet
 
-DialinExternalUri :https://csweb.contoso.com/Dialin
+DialinExternalUri : https://csweb.contoso.com/Dialin
 
-CscpInternalUri :https://internalweb.contoso.net/Cscp
+CscpInternalUri : https://internalweb.contoso.net/Cscp
 
-ReachExternalUri :https://csweb.contoso.com/Reach
+ReachExternalUri : https://csweb.contoso.com/Reach
 
-ReachInternalUri :https://internalweb.contoso.net/Reach
+ReachInternalUri : https://internalweb.contoso.net/Reach
 
-WebTicketExternalUri :https://csweb.contoso.com/WebTicket/WebTicketService.svc
+WebTicketExternalUri : https://csweb.contoso.com/WebTicket/WebTicketService.svc
 
-WebTicketInternalUri :https://internalweb.contoso.net/WebTicket/WebTicketService.svc
+WebTicketInternalUri : https://internalweb.contoso.net/WebTicket/WebTicketService.svc
 
 ExternalFqdn: csweb.contoso.com
 

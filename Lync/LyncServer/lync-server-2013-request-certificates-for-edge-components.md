@@ -12,20 +12,22 @@ ms:contentKeyID: 48184779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b023ac5c9023e6a301e490e7f081c31628195247
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1f31f257254650b930d0f3017366849132f72b7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183147"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511972"
 ---
+# <a name="request-certificates-for-edge-components-in-lync-server-2013"></a>Anfordern von Zertifikaten für Edge-Komponenten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="request-certificates-for-edge-components-in-lync-server-2013"></a>Anfordern von Zertifikaten für Edge-Komponenten in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Wenngleich Sie eine öffentliche Zertifizierungsstelle für das interne Edgezert
 
 
 > [!NOTE]  
-> Wenn Sie ein Edgeserver installieren, enthält das Setup einen Zertifikat-Assistenten, der die Aufgaben zum anfordern, zuweisen und Installieren von Zertifikaten erleichtert, wie im Abschnitt <A href="lync-server-2013-set-up-edge-certificates.md">Einrichten von Edge-Zertifikaten für lync Server 2013</A> beschrieben. Wenn Sie vor der Installation eines Edgeserver Zertifikate anfordern möchten (beispielsweise um Zeit bei der tatsächlichen Bereitstellung von Edgeserver Komponenten zu sparen), können Sie dies mithilfe von internen Servern tun, solange Sie sicherstellen, dass die Zertifikate exportierbar sind und alle erforderliche alternative Antragstellernamen. In dieser Dokumentation werden keine Verfahren für die Verwendung interner Server zum Anfordern von Zertifikaten bereitgestellt.
+> Wenn Sie ein Edgeserver installieren, enthält das Setup einen Zertifikat-Assistenten, der die Aufgaben zum anfordern, zuweisen und Installieren von Zertifikaten erleichtert, wie im Abschnitt <A href="lync-server-2013-set-up-edge-certificates.md">Einrichten von Edge-Zertifikaten für lync Server 2013</A> beschrieben. Wenn Sie vor der Installation eines Edgeserver Zertifikate anfordern möchten (beispielsweise um Zeit bei der tatsächlichen Bereitstellung von Edgeserver Komponenten zu sparen), können Sie dies mithilfe von internen Servern tun, solange Sie sicherstellen, dass die Zertifikate exportierbar sind und alle erforderlichen alternativen Antragstellernamen enthalten. In dieser Dokumentation werden keine Verfahren für die Verwendung interner Server zum Anfordern von Zertifikaten bereitgestellt.
 
 
 

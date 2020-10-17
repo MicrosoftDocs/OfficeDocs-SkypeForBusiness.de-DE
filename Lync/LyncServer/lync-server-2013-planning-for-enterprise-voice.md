@@ -12,20 +12,22 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b93d43637585f164f2f9d79d48bb7839a6dc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 324798f36a92a81a1f210a173cf9e3e0efa00aca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202081"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513572"
 ---
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Planung von Enterprise-VoIP in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Planung von Enterprise-VoIP in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-11-01_
 
 Der Bereitstellungsprozess für Enterprise-VoIP hängt von der vorhandenen Topologie, der Infrastruktur und der Enterprise-VoIP-Funktionalität ab, die Sie unterstützen möchten. Die erforderlichen Verfahren hängen davon ab, welche Funktionen Sie auswählen, aber es gibt andere Planungsüberlegungen, die Sie auf einer hohen Ebene vornehmen müssen.
 
-Im Allgemeinen sollten Sie den Typ und die Anzahl der Websites, die Sie bereitstellen möchten, sowie deren geographische Standorte, das Anrufvolumen an jedem Standort, die Arten von Netzwerkverbindungen, die Standorte verbinden, unabhängig davon, ob Sie Redundanz und Failover für die VoIP-Funktionen für die einzelnen Website, und ob Sie vorhandene PBX-Geräte verwenden möchten. Es gibt bestimmte Überlegungen, beispielsweise hohe Verfügbarkeit, die Sie berücksichtigen sollten, wenn Sie lync Server Kommunikationssoftware als Ganzes planen. Diese Überlegungen werden bei Bedarf in Themen in diesem Abschnitt behandelt.
+Im Allgemeinen sollten Sie den Typ und die Anzahl der Websites, die Sie bereitstellen möchten, sowie deren geografische Standorte, das Anrufvolumen an jedem Standort, die Arten von Netzwerkverbindungen, die Standorte verbinden, festlegen, ob Redundanz und Failover für die VoIP-Funktionen für die einzelnen Standorte bereitgestellt werden sollen und ob vorhandene PBX-Anlagen verwendet werden sollen. Es gibt bestimmte Überlegungen, beispielsweise hohe Verfügbarkeit, die Sie berücksichtigen sollten, wenn Sie lync Server Kommunikationssoftware als Ganzes planen. Diese Überlegungen werden bei Bedarf in Themen in diesem Abschnitt behandelt.
 
 <div>
 
@@ -67,7 +69,7 @@ Informationen zu Planungsentscheidungen, die sich auf die Bereitstellung einer b
 
   - [Planen privater Telefonleitungen mit lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)
 
-  - [Planen des standortbasierten Routings in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+  - [Planen von Location-Based Routing in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
 
   - [Planen der Ausfallsicherheit für Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 

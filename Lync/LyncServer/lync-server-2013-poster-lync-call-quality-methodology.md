@@ -12,20 +12,22 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: caff54dd2919bacfda02fceff138650f90bae650
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3647de7f803a8ec90d50236c5cf14c1a1cf8e0da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208782"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513392"
 ---
+# <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Methode für die lync-Anrufqualität in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Methode für die lync-Anrufqualität in lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Die Methode für die Anrufqualität ist ein neues Framework zur Problembehandlun
 
 CQM bricht die System Problembehandlung in drei Pfade oder "Straßen" ab. Dabei handelt es sich um die Server-Werks Straße, die die Server und die Verbindungen zwischen Ihnen, die Endpunkte-Straße, die auf Benutzergeräten und Medien, die für die Durchführung von Anrufen verwendet werden, und die letzte Meile, die die Integration von herkömmlichen Telefonnetz anrufen adressiert, betrachtet.
 
-Jede Straße ist in mehrere Abschnitte unterteilt, die sich auf einen bestimmten Bereich oder ein bestimmtes Thema beziehen, und bei jedem Segment werden Definitionen darüber erstellt, was eine akzeptable Qualitätsstufe ist, es werden Maßnahmen ergriffen, um diese Qualitätsstufe zu erreichen, und es wird ein Service Management Plan bereitgestellt, um zu warten. Diese Qualitätsstufe, bevor Sie mit dem nächsten Thema fortfahren.
+Jede Straße ist in mehrere Segmente in Bezug auf einen bestimmten Bereich oder ein bestimmtes Thema unterteilt, und bei jedem Segment werden Definitionen darüber erstellt, was eine akzeptable Qualitätsstufe ist, es werden Maßnahmen getroffen, um diese Qualitätsstufe zu erreichen, und es wird ein Service Management Plan eingeführt, um diese Qualitätsstufe beizubehalten, bevor Sie mit dem nächsten Thema fortfahren.
 
 Das Poster stellt lync CQM als Brettspiel für drei Spieler vor, von denen jeder eine der Straßen durchläuft. Im Download enthaltene Karten werden verwendet, um Beeinträchtigungen der Anrufqualität zu simulieren, die überwunden werden müssen. Hinweise und Vorschläge zu Zielen und deren Erreichung finden Sie in den drei Pfaden sowie in den Richtlinien für die Priorisierung, für welche Straße zunächst in den tatsächlichen Anwendungen vorgegangen werden soll (im Spiel werden alle drei Straßen parallel adressiert).
 
@@ -103,7 +105,7 @@ Nachdem Sie eine Straße für den Anfang ausgewählt haben, definieren Sie ein Z
 
 ## <a name="pcd"></a>PCD
 
-Das precall Diagnostics Tool (PCD) hilft Ihnen bei der Identifizierung und Diagnose von Problemen in Ihrem Umkreisnetzwerk (die QoE-Datenbank sammelt keine Informationen im Edge-oder Umkreisnetzwerk) und auch zur Problembehandlung von Verbindungen in der letzten Meile. Das Tool ist sowohl als Windows 8 moderne App als auch als Windows https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88-Desktop-App verfügbar.
+Das precall Diagnostics Tool (PCD) hilft Ihnen bei der Identifizierung und Diagnose von Problemen in Ihrem Umkreisnetzwerk (die QoE-Datenbank sammelt keine Informationen im Edge-oder Umkreisnetzwerk) und auch zur Problembehandlung von Verbindungen in der letzten Meile. Das Tool ist sowohl als Windows 8 moderne App als auch als Windows-Desktop-App verfügbar https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88 .
 
 </div>
 
@@ -129,9 +131,9 @@ Die Verbesserung der Sprachqualität auf dem nicht verwalteten Speicherplatz erf
 
 In Segment 1 der Server-Werks Straße werden die tatsächlichen Server in der lync-Implementierung behandelt. Sammeln Sie KHI-Daten bezüglich des Servers selbst und seiner Rolle in der Implementierung, und analysieren Sie das Ergebnis. Wenn die Aktion gerechtfertigt ist, beheben Sie die gefundenen Probleme. Ausführlichere Informationen zu diesem Thema finden Sie im Artikel über [wichtige Gesundheitsindikatoren in lync Server 2013](lync-server-2013-poster-key-health-indicators.md) , die dem KHI-Poster beigefügt sind.
 
-Das nächste Segment behandelt Mediendatenströme zwischen dem AV MCU-Server und dem Vermittlungsserver. Beginnen Sie mit der Bestimmung der Ziele für schlechte Datenstrom Schwellenwerte. Schlechte Streams sind in der \> Regel PacketLossRate .01 \> oder PacketLossRateMax. 05. Ein weiteres erstrebenswertes \< Ziel ist PoorStreamsRatio 2%. Verwenden Sie anschließend detaillierte Abfragen, um AVMCU-und Vermittlungsserver Paare mit schlechten Streams zu finden, die Ursache für schwache Streams zu untersuchen, Netzwerkgeräte in den schlechten Strompfaden zu suchen, schwache Datenströme zu beheben und die optimale oder "Goldene" Konfiguration für das Netzwerk zu definieren. Ausrüstung. Um Ihre Leistung aufrechtzuerhalten, implementieren Sie Prozesse und Tools, um die Konfigurations Verschiebung zu verwalten und neue Problembereiche zu melden.
+Das nächste Segment behandelt Mediendatenströme zwischen dem AV MCU-Server und dem Vermittlungsserver. Beginnen Sie mit der Bestimmung der Ziele für schlechte Datenstrom Schwellenwerte. Schlechte Streams sind in der Regel PacketLossRate \> .01 oder PacketLossRateMax \> . 05. Ein weiteres erstrebenswertes Ziel ist PoorStreamsRatio \< 2%. Verwenden Sie anschließend detaillierte Abfragen, um AVMCU-und Vermittlungsserver Paare mit schlechten Streams zu finden, die Ursache für schwache Streams zu untersuchen, Netzwerkgeräte in den schlechten Strompfaden zu suchen, schwache Datenströme zu beheben und die optimale oder "Goldene" Konfiguration für Netzwerkgeräte zu definieren. Um Ihre Leistung aufrechtzuerhalten, implementieren Sie Prozesse und Tools, um die Konfigurations Verschiebung zu verwalten und neue Problembereiche zu melden.
 
-Überprüfen Sie als nächstes die Mediendatenströme zwischen dem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network). Beginnen Sie mit der Bestimmung der Ziele für schlechte Datenstrom Schwellenwerte. Schlechte Streams sind in der \> Regel PacketLossRate .01 \> oder PacketLossRateMax. 05. Ein weiteres erstrebenswertes \< Ziel ist PoorStreamsRatio 2%. Verwenden Sie anschließend detaillierte Abfragen, um Vermittlungsserver-und Gateway-Paare mit schlechten Streams zu finden, die Ursache für schwache Streams zu untersuchen, Netzwerkgeräte in den schlechten Strompfaden zu suchen, schwache Datenströme zu beheben und die optimale oder "Goldene" Konfiguration für das Netzwerk zu definieren. Ausrüstung. Um Ihre Leistung aufrechtzuerhalten, implementieren Sie Prozesse und Tools, um die Konfigurations Verschiebung zu verwalten und neue Problembereiche zu melden.
+Überprüfen Sie als nächstes die Mediendatenströme zwischen dem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network). Beginnen Sie mit der Bestimmung der Ziele für schlechte Datenstrom Schwellenwerte. Schlechte Streams sind in der Regel PacketLossRate \> .01 oder PacketLossRateMax \> . 05. Ein weiteres erstrebenswertes Ziel ist PoorStreamsRatio \< 2%. Verwenden Sie anschließend detaillierte Abfragen, um Vermittlungsserver-und Gateway-Paare mit schlechten Streams zu finden, die Ursache für schwache Streams zu untersuchen, Netzwerkgeräte in den schlechten Strompfaden zu suchen, schwache Datenströme zu beheben und die optimale oder "Goldene" Konfiguration für Netzwerkgeräte zu definieren. Um Ihre Leistung aufrechtzuerhalten, implementieren Sie Prozesse und Tools, um die Konfigurations Verschiebung zu verwalten und neue Problembereiche zu melden.
 
 Untersuchen Sie schließlich die Integritäts Metrik für Ihr PSTN-Gateway. Identifizieren der Statistiken, die die Integrität anzeigen, und Definieren von Zielen für diese. Hier werden keine spezifischen Anleitungen bereitgestellt, da viele mögliche Gateways verwendet werden können. Sobald die Ziele festgelegt wurden, können Sie bei Bedarf korrigieren, um das Ziel zu erreichen. in diesem Prozess werden Sie wahrscheinlich eine "Gold"-oder eine optimale Konfiguration für das Gateway definieren. Um Ihre Leistung aufrechtzuerhalten, implementieren Sie Prozesse und Tools, um die Konfigurations Verschiebung zu verwalten und neue Problembereiche zu melden. Beachten Sie, dass Firmware-und Softwareupdates möglicherweise Ihre Konfiguration ändern oder die Definition der "Gold"-Konfiguration ändern, um diese Aktivitäten daher mit Bedacht anzugehen.
 
@@ -143,9 +145,9 @@ Untersuchen Sie schließlich die Integritäts Metrik für Ihr PSTN-Gateway. Iden
 
 ## <a name="the-last-mile-road"></a>Die letzte Meile Straße
 
-Von den beiden Möglichkeiten, mit denen Clients eine Verbindung mit dem Netzwerk herstellen, wird von Wired erwartet, dass Sie die höchste Qualität liefern, und dementsprechend muss Ihr anfänglicher Schwerpunkt für die letzten Meile-Probleme sein. Verwenden Sie die CQM-verkabelte Abfrage (LastMile\_0\_Wired) und die von ihr bereitgestellten Datenstrom Verhältnisdaten. Wir empfehlen, ein Ziel PoorStreamsRatio \< von 5% für Websites \> mit 300-Streams festzulegen. Um Ihre Ziele zu erreichen, müssen Sie die Subnetze, die von der schlechtesten bis zum besten sortiert sind, korrigieren und QoS implementieren.
+Von den beiden Möglichkeiten, mit denen Clients eine Verbindung mit dem Netzwerk herstellen, wird von Wired erwartet, dass Sie die höchste Qualität liefern, und dementsprechend muss Ihr anfänglicher Schwerpunkt für die letzten Meile-Probleme sein. Verwenden Sie die CQM-verkabelte Abfrage (LastMile \_ 0 \_ Wired) und die von ihr bereitgestellten Datenstrom Verhältnisdaten. Wir empfehlen die Definition eines Target PoorStreamsRatio \< 5% for sites with \> 300 Streams). Um Ihre Ziele zu erreichen, müssen Sie die Subnetze, die von der schlechtesten bis zum besten sortiert sind, korrigieren und QoS implementieren.
 
-Nachdem Sie die Qualität ihrer kabelgebundenen Verbindungen optimiert haben, wird die Verbesserung der drahtlosen Qualität vereinfacht, da sich die drahtlose Infrastruktur an jedem Standort oben auf dem drahtgebundenen Kern befindet. Schlechte drahtlose Datenströme an einem Standort mit guter Kabelqualität müssen den spezifischen drahtlosen Komponenten zugeschrieben werden. Die drahtlose CQM-Abfrage (\_LastMile\_1 Wireless) arbeitet in einem Datumsbereich und gibt alle internen drahtlosen Datenströme in Ihrer Umgebung von lync-Clients zu oder von Konferenzservern oder Vermittlungsservern zurück. Wir empfehlen, ein Ziel PoorStreamsRatio \< von 5% für Websites \> mit 300-Streams festzulegen. Um Ihre Ziele zu erreichen, müssen Sie die Subnetze, die von der schlechtesten bis zum besten sortiert sind, korrigieren und QoS implementieren.
+Nachdem Sie die Qualität ihrer kabelgebundenen Verbindungen optimiert haben, wird die Verbesserung der drahtlosen Qualität vereinfacht, da sich die drahtlose Infrastruktur an jedem Standort oben auf dem drahtgebundenen Kern befindet. Schlechte drahtlose Datenströme an einem Standort mit guter Kabelqualität müssen den spezifischen drahtlosen Komponenten zugeschrieben werden. Die drahtlose CQM-Abfrage (LastMile \_ 1 \_ Wireless) arbeitet in einem Datumsbereich und gibt alle internen drahtlosen Datenströme in Ihrer Umgebung von lync-Clients zu oder von Konferenzservern oder Vermittlungsservern zurück. Wir empfehlen die Definition eines Target PoorStreamsRatio \< 5% for sites with \> 300 Streams). Um Ihre Ziele zu erreichen, müssen Sie die Subnetze, die von der schlechtesten bis zum besten sortiert sind, korrigieren und QoS implementieren.
 
 </div>
 
@@ -157,9 +159,9 @@ Nachdem Sie die Qualität ihrer kabelgebundenen Verbindungen optimiert haben, wi
 
 Beginnen Sie mit Anfragen an der End Points Road, wobei die Headsets und andere Geräte bekanntermaßen eine akzeptable Qualität bei Verwendung mit lync erzeugen. Wir schlagen ein Ziel AvgSendListen Mos \> 3,6 für Implementierungen mit über 100 Streams vor.) Erreichen Sie das Ziel, indem Sie problematische Geräte identifizieren und diese reparieren oder ersetzen.
 
-Überprüfen Sie als nächstes das Gerät oder den PC, in dem die Audiodaten für Endbenutzer Anrufe verarbeitet werden. Eine vorgeschlagene Ziel Qualitätsmetrik ist eine AudioMicGlitchRate \<= 1. Definieren Sie bei der Ermittlung optimaler Systemkonfigurationen für die Benutzersysteme eine "Goldene" PC-Konfiguration mit Treiberversionen.
+Überprüfen Sie als nächstes das Gerät oder den PC, in dem die Audiodaten für Endbenutzer Anrufe verarbeitet werden. Eine vorgeschlagene Ziel Qualitätsmetrik ist eine AudioMicGlitchRate \< = 1. Definieren Sie bei der Ermittlung optimaler Systemkonfigurationen für die Benutzersysteme eine "Goldene" PC-Konfiguration mit Treiberversionen.
 
-Untersuchen Sie nun den Netzwerkpfad, den ein Audiostream von einem lync-Endpunkt System benötigt, was zu einer schlechten Audioqualität führen kann. Wenn die Audiodaten über eine VPN-Verbindung transportiert werden, werden möglicherweise Latenzprobleme angezeigt. Wenn ein interner lync-Client keinen direkten Mediendatenstrom zu einem anderen internen lync-Client für einen zwei-oder einen Peer-zu-Peer-Anruf einrichten kann, greift er auf einen Pfad zurück, der über einen lync-Edgeserver weitergeleitet wird, was wiederum zu Wartezeiten und einem erhöhten Potenzial für Verlust und Jitter. Es wird empfohlen, eine Qualitätsmetrik von 0% Medien über VPN zu definieren. Wenn Sie die Lösung zur Erreichung des von Ihnen festgelegten Ziels korrigieren, identifizieren Sie Problem Subnetze und untersuchen Sie Firewallregeln, Paket Formteile und andere relevante Netzwerkgeräte Konfigurationen.
+Untersuchen Sie nun den Netzwerkpfad, den ein Audiostream von einem lync-Endpunkt System benötigt, was zu einer schlechten Audioqualität führen kann. Wenn die Audiodaten über eine VPN-Verbindung transportiert werden, werden möglicherweise Latenzprobleme angezeigt. Wenn ein interner lync-Client keinen direkten Mediendatenstrom zu einem anderen internen lync-Client für einen zwei-oder einen Peer-zu-Peer-Anruf herstellen kann, greift er auf einen Pfad zurück, der über einen lync-Edgeserver weitergeleitet wird, was wiederum zu Wartezeiten sowie zu einem erhöhten Verlust-und Jitter-Potenzial führt. Es wird empfohlen, eine Qualitätsmetrik von 0% Medien über VPN zu definieren. Wenn Sie die Lösung zur Erreichung des von Ihnen festgelegten Ziels korrigieren, identifizieren Sie Problem Subnetze und untersuchen Sie Firewallregeln, Paket Formteile und andere relevante Netzwerkgeräte Konfigurationen.
 
 IP-Pakete können entweder TCP (Transmission Control Protocol) oder UDP (User Datagram Protocol) verwenden. TCP eignet sich optimal für Datenströme. UDP ist verbindungslos und ist für Medien effizienter, da die TCP-Wiederherstellungsmechanismen keinen Verlust in Echt Zeit Medien adressieren können. Lync bevorzugt UDP immer, wird jedoch auf TCP zurückgesetzt, wenn keine UDP-Sitzung hergestellt werden kann. Mediensitzungen über TCP weisen eine schlechtere Qualität als über UDP auf. Wir empfehlen eine Qualitätsdefinition von 0% Verbindungen über TCP. Wenn Sie die Lösung zur Erreichung des von Ihnen festgelegten Ziels korrigieren, identifizieren Sie Problem Subnetze und untersuchen Sie Firewallregeln, Paket Formteile und andere relevante Netzwerkgeräte Konfigurationen.
 

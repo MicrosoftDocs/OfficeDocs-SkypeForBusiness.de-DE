@@ -12,20 +12,22 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c68855f3f0ae36e0934959b820dc84a716cf2a51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c92adf48a09f83c3c3dec18f91e4aadc3a3cbd39
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513232"
 ---
+# <a name="progressreport-table-in-lync-server-2013"></a>ProgressReport-Tabelle in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-table-in-lync-server-2013"></a>ProgressReport-Tabelle in lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Die Felder ErrorTime, ErrorReportSeq und ProgressReportSeq verweisen nicht notwe
 <tr class="even">
 <td><p><strong>ErrorID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary, Foreign</p></td>
+<td><p>Primär, Fremd</p></td>
 <td><p>ID-Nummer, die in Verbindung mit Error-ProgressReportSeq verwendet wird, um einen Statusbericht eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-errorreport-table.md">in der errorreport-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">

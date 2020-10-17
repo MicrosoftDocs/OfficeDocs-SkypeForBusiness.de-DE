@@ -12,20 +12,22 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b531d0e8d7d4fe5de6d1598cf557096ebff8a90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0dbb90d0776ee89fe9ab8b9f5796b182c5dc0457
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215251"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513112"
 ---
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Zusammenfassender PSTN-Konferenzbericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Zusammenfassender PSTN-Konferenzbericht in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Wenn nicht die von Ihnen erwartete Anzahl an PSTN-Konferenzen angezeigt wird, m�
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-Dadurch werden Daten zurückgegeben, die den Folgenden ähneln:
+Es werden Daten nach dem folgenden Muster zurückgegeben:
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------

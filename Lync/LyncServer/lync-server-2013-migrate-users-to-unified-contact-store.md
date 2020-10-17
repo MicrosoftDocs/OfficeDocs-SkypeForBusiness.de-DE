@@ -12,20 +12,22 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a4bd640d4f2e13ff6ecec129bd86602a197a451
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ab00e89c41b075e47d7764ce1c9c4cd3c471b8c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217501"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513632"
 ---
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>Migrieren von Benutzern zu einem einheitlichen Kontaktspeicher in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>Migrieren von Benutzern zu einem einheitlichen Kontaktspeicher in lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Verwenden Sie eine der folgenden Methoden, um zu ermitteln, ob die Kontakte eine
 
   - Überprüfen Sie den folgenden Registrierungsschlüssel auf dem Clientcomputer:
     
-    HKEY\_aktuelle\_Benutzer\\Software\\Microsoft\\Office\\15,0\\lync\\\<SIP URL\>\\UCS
+    HKEY \_ aktuelle \_ Benutzer \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync \\ \<SIP URL\> \\ UCS
     
     Wenn die Kontakte des Benutzers in Exchange 2013 gespeichert sind, enthält dieser Schlüssel den Wert InUCSMode mit dem Wert 2165.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6bbbe8650ae1d7746c9b87ecf4518236f8b1575
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d5ae03267b266b1ef2abbacc2e3fce06e034ec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513522"
 ---
+# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Planen von einfachen URLs in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Planen von einfachen URLs in lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ Einfache URLs erleichtern die Teilnahme an Besprechungen für Ihre Benutzer und 
 
 Lync Server unterstützt drei einfache URLs:
 
-  - **Meet**: Dient als Basis-URL für alle Konferenzen, die am Standort oder in der Organisation abgehalten werden. Ein Beispiel für eine einfache Meet-URL https://meet.contoso.comist. Eine URL für eine bestimmte Besprechung ist https://meet.contoso.com/möglicherweise *username*/7322994.
+  - **Meet**: Dient als Basis-URL für alle Konferenzen, die am Standort oder in der Organisation abgehalten werden. Ein Beispiel für eine einfache Meet-URL ist https://meet.contoso.com . Eine URL für eine bestimmte Besprechung ist möglicherweise https://meet.contoso.com/ *username*/7322994.
     
     Mit der einfachen Meet-URL sind Links für den Besprechungsbeitritt einfach zu verstehen, leicht zu kommunizieren und zu verteilen.
 
-  - **Dial-in**: Ermöglicht den Zugriff auf die Webseite mit den Einstellungen für eine Einwahlkonferenz. Auf dieser Seite werden Konferenzeinwahl Nummern mit den verfügbaren Sprachen angezeigt, Konferenz Informationen zugewiesen (also für Besprechungen, die nicht geplant werden müssen) und DTMF-Steuerelemente in der Konferenz und unterstützt die Verwaltung der persönlichen Identifikationsnummer ( PIN) und zugewiesene Konferenz Informationen. Die einfache Dial-in-URL ist in allen Besprechungseinladungen enthalten, sodass Benutzer, die sich in die Besprechung einwählen möchten, Zugriff auf die erforderlichen Informationen zu Telefonnummer und PIN haben. Ein Beispiel für die einfache Einwahl-URL ist https://dialin.contoso.com.
+  - **Dial-in**: Ermöglicht den Zugriff auf die Webseite mit den Einstellungen für eine Einwahlkonferenz. Auf dieser Seite werden Konferenzeinwahl Nummern mit den verfügbaren Sprachen angezeigt, Konferenz Informationen zugewiesen (also für Besprechungen, die nicht geplant werden müssen) und DTMF-Steuerelemente in der Konferenz und unterstützt die Verwaltung von persönlicher Identifikationsnummer (PIN) und zugewiesener Konferenz Informationen. Die einfache Dial-in-URL ist in allen Besprechungseinladungen enthalten, sodass Benutzer, die sich in die Besprechung einwählen möchten, Zugriff auf die erforderlichen Informationen zu Telefonnummer und PIN haben. Ein Beispiel für die einfache Einwahl-URL ist https://dialin.contoso.com .
 
-  - Der **Administrator** ermöglicht den schnellen Zugriff auf die lync Server-Systemsteuerung. Von einem beliebigen Computer innerhalb der Firewalls Ihrer Organisation kann ein Administrator die lync Server-Systemsteuerung öffnen, indem er die einfache admin-URL in einen Browser eingibt. Die einfache Admin-URL wird innerhalb Ihrer Organisation verwendet. Ein Beispiel für die einfache admin-URL isthttps://admin.contoso.com
+  - Der **Administrator** ermöglicht den schnellen Zugriff auf die lync Server-Systemsteuerung. Von einem beliebigen Computer innerhalb der Firewalls Ihrer Organisation kann ein Administrator die lync Server-Systemsteuerung öffnen, indem er die einfache admin-URL in einen Browser eingibt. Die einfache Admin-URL wird innerhalb Ihrer Organisation verwendet. Ein Beispiel für die einfache admin-URL ist https://admin.contoso.com
 
 <div>
 
@@ -61,7 +63,7 @@ In den meisten Fällen wird empfohlen, einfache URLs nur auf globaler Ebene fest
 
 
 > [!NOTE]  
-> Wenn Sie einfache URLs mit Website Bereich verwenden, können Ihre Benutzer nicht zwischen Front-End-Pools an unterschiedlichen Standorten navigieren, ohne dass Benutzer alle geplanten Besprechungen Umplanen, da sich die einfachen URLs der Besprechung zwischen den Websites unterscheiden. Dies umfasst Failover-Szenarien, in denen sich Pools in Sicherungsbeziehungen an unterschiedlichen Standorten befinden. Wenn Sie ein Failover zwischen Websites durchführen müssen, bei denen einfache URLs auf Websiteebene bereitgestellt werden, können Benutzer aufgrund des Bereichs für die URL nicht an Ihren Besprechungen teilnehmen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
+> Wenn Sie einfache URLs mit Website Bereich verwenden, können Ihre Benutzer nicht zwischen Front-End Pools an unterschiedlichen Standorten navigieren, ohne dass Benutzer alle geplanten Besprechungen Umplanen, da sich die einfachen URLs der Besprechung zwischen Websites unterscheiden. Dies umfasst Failover-Szenarien, in denen sich Pools in Sicherungsbeziehungen an unterschiedlichen Standorten befinden. Wenn Sie ein Failover zwischen Websites durchführen müssen, bei denen einfache URLs auf Websiteebene bereitgestellt werden, können Benutzer aufgrund des Bereichs für die URL nicht an Ihren Besprechungen teilnehmen. Weitere Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
 
 
 
@@ -99,14 +101,14 @@ Wenn Sie sich für diese Option entscheiden, benötigen Sie einen separaten DNS-
 </tr>
 <tr class="even">
 <td><p>Erfüllen</p></td>
-<td><p>https://meet.contoso.com, https://meet.fabrikam.comusw. (eine für jede SIP-Domäne in Ihrer Organisation)</p></td>
+<td><p>https://meet.contoso.com, https://meet.fabrikam.com usw. (eine für jede SIP-Domäne in Ihrer Organisation)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Einwahl</p></td>
 <td><p>https://dialin.contoso.com</p></td>
 </tr>
 <tr class="even">
-<td><p>Admin</p></td>
+<td><p>Administrator</p></td>
 <td><p>https://admin.contoso.com</p></td>
 </tr>
 </tbody>
@@ -129,14 +131,14 @@ Bei Option 2 basieren die einfachen URLs auf dem Domänennamen "lync.contoso.com
 </tr>
 <tr class="even">
 <td><p>Erfüllen</p></td>
-<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meetusw. (eine für jede SIP-Domäne in Ihrer Organisation)</p></td>
+<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet usw. (eine für jede SIP-Domäne in Ihrer Organisation)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Einwahl</p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>Admin</p></td>
+<td><p>Administrator</p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
@@ -167,7 +169,7 @@ Option 3 ist sinnvoll, wenn Sie über zahlreiche SIP-Domänen verfügen und die
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>Admin</p></td>
+<td><p>Administrator</p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
@@ -190,7 +192,7 @@ Einfache URLs können ausschließlich alphanumerische Zeichen enthalten – a-z,
 
 ## <a name="changing-simple-urls-after-deployment"></a>Ändern von einfachen URLs nach der Bereitstellung
 
-Wenn Sie eine einfache URL nach der anfänglichen Bereitstellung ändern, müssen Sie sich der Auswirkungen auf DNS-Einträge und Zertifikate für einfache URLs bewusst sein. Wenn die Änderung sich auf die Basis einer einfachen URL auswirkt, müssen Sie auch die DNS-Einträge und Zertifikate ändern. Wenn beispielsweise von https://lync.contoso.com/Meet in https://meet.contoso.com geändert wird, wird die Basis-URL von lync.contoso.com in Meet.contoso.com geändert, sodass Sie die DNS-Einträge und Zertifikate für den Verweis auf Meet.contoso.com ändern müssen. Wenn Sie die einfache URL von https://lync.contoso.com/Meet in https://lync.contoso.com/Meetingsgeändert haben, bleibt die Basis-URL von lync.contoso.com unverändert, sodass keine DNS-oder Zertifikat Änderungen erforderlich sind.
+Wenn Sie eine einfache URL nach der anfänglichen Bereitstellung ändern, müssen Sie sich der Auswirkungen auf DNS-Einträge und Zertifikate für einfache URLs bewusst sein. Wenn die Änderung sich auf die Basis einer einfachen URL auswirkt, müssen Sie auch die DNS-Einträge und Zertifikate ändern. Wenn beispielsweise von in geändert wird, wird https://lync.contoso.com/Meet https://meet.contoso.com die Basis-URL von lync.contoso.com in Meet.contoso.com geändert, sodass Sie die DNS-Einträge und Zertifikate für den Verweis auf Meet.contoso.com ändern müssen. Wenn Sie die einfache URL von in geändert haben https://lync.contoso.com/Meet https://lync.contoso.com/Meetings , bleibt die Basis-URL von lync.contoso.com unverändert, sodass keine DNS-oder Zertifikat Änderungen erforderlich sind.
 
 Wenn Sie jedoch einen einfachen URL-Namen ändern, müssen Sie **enable-CsComputer** auf jedem Director und Front-End-Server ausführen, um die Änderung zu registrieren.
 

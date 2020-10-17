@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511762"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Anruflistenbericht der Reaktionsgruppe in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Anruflistenbericht der Reaktionsgruppe in lync Server 2013
+
 
 </div>
 
@@ -87,7 +89,7 @@ Bei einer Frage wie "Welcher Einzelworkflow hat die meisten Anrufe empfangen?" k
 
 3.  Führen Sie Ihre Analysen mit Windows PowerShell aus.
 
-Wenn Sie beispielsweise die Daten in einer Datei namens C\\: Data\\Response\_Group\_Call\_List\_Report. csv gespeichert haben, können Sie den folgenden Befehl verwenden, um die Gesamtzahl der empfangenen Anrufe für jeden im Bericht aufgeführten Workflow zurückzugeben:
+Wenn Sie beispielsweise die Daten in einer Datei namens C: \\ Data \\ Response \_ Group \_ Call \_ ListReport.csv gespeichert haben \_ , können Sie den folgenden Befehl verwenden, um die Gesamtzahl der empfangenen Anrufe für jeden im Bericht aufgeführten Workflow zurückzugeben:
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
@@ -150,7 +152,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
 <p>sip:helpdesk@litwareinc.com</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anrufe</strong></p></td>
+<td><p><strong>Aufrufe</strong></p></td>
 <td><p>Sie können die folgenden Anruftypen auswählen:</p>
 <ul>
 <li><p>Empfangene Anrufe</p></li>

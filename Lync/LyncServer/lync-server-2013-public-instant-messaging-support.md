@@ -12,20 +12,22 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f996e8f15707a0c676ea77a6ffaeb5e6943ac48c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 026ceb24ef3e046d6d800db4ba82381c8905b99d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512402"
 ---
+# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Unterstützung für öffentliche Chatnachrichten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Unterstützung für öffentliche Chatnachrichten in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183498"
 
 _**Letztes Änderungsstand des Themas:** 2013-10-07_
 
-Lync Server 2013 unterstützt die Verwendung von lizenzierten öffentlichen Sofortnachrichten-Verbindungs Anbietern sowie die Verwendung von "XMPP" (Extensible Messaging and Presence Protocol) zur Implementierung eines speziellen Verbund Typs, der einem lync Server den Zugriff auf konfiguriertes XMPP ermöglicht. Domänen Partner mithilfe des lync 2013-Clients.
+Lync Server 2013 unterstützt die Verwendung von lizenzierten öffentlichen Instant Messaging-Verbindungs Anbietern sowie die Verwendung von "XMPP" (Extensible Messaging and Presence Protocol) zur Implementierung eines speziellen Verbund Typs, der einem lync Server ermöglicht, über den lync 2013-Client auf konfigurierte XMPP-Domänen Partner zuzugreifen.
 
 <div>
 
@@ -51,7 +53,7 @@ Derzeit unterstützte Partner für Verbindungen mit öffentlichen Instant Messa
 
   - Yahoo\!
 
-Für die Kommunikation mit Windows Live-Benutzern unterstützt lync Server 2013 Peer-zu-Peer-Chat-und Audio-und Videoanrufe. Für die Kommunikation mit AOL und\!Yahoo unterstützt lync Server 2013 Peer-to-Peer-Chat. Möglicherweise ist eine separate Lizenz erforderlich.
+Für die Kommunikation mit Windows Live-Benutzern unterstützt lync Server 2013 Peer-zu-Peer-Chat-und Audio-und Videoanrufe. Für die Kommunikation mit AOL und Yahoo \! unterstützt lync Server 2013 Peer-to-Peer-Chat. Möglicherweise ist eine separate Lizenz erforderlich.
 
 <div>
 

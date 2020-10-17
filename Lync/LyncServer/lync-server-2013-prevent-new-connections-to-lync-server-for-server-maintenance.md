@@ -12,20 +12,22 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc787dee62152e9ace76663a084fe5c1c428b1f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dd1881050e5226df9c36d3b92194e27e1123df13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513262"
 ---
+# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>Verhindern, dass neue Verbindungen für die Server Wartung lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>Verhindern, dass neue Verbindungen für die Server Wartung lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ Mit lync Server können Sie einen Server offline schalten (beispielsweise zum An
 
 Wenn Sie die Option zum Verhindern neuer Verbindungen oder Anrufe an einen Server innerhalb eines Pools angeben, werden keine neuen Verbindungen hergestellt oder Anrufe angenommen, sobald Sie diese Option aktivieren. Alle neuen Verbindungen und Anrufe werden an andere Server im Pool umgeleitet. Ein Server, der neue Verbindungen verhindert, ermöglicht die Fortsetzung von Sitzungen für bereits hergestellte Verbindungen, bis diese vom Benutzer beendet werden. Sobald alle vorhandenen Sitzungen beendet wurden, kann der Server offline geschaltet werden.
 
-Wenn Sie neue Verbindungen mit einem Front-End-Server verhindern, beruhen einige lync Server-Features und-Dienste auf dem DNS-Lastenausgleich, um sicherzustellen, dass er ordnungsgemäß funktioniert. Wenn Sie keinen DNS-Lastenausgleich im Pool verwenden, werden Verbindungen über diese Dienste möglicherweise nicht an andere Server umgeleitet, während der Zeitraum, in dem der Server neue Verbindungen verhindert, und daher, wenn der Server offline geschaltet wird, einige Sitzungen und Anrufe möglicherweise unterbrochen. Die Funktionen, die DNS-Lastenausgleich verwenden, um sicherzustellen, dass diese Option ordnungsgemäß funktioniert, lauten wie folgt:
+Wenn Sie neue Verbindungen mit einem Front-End-Server verhindern, beruhen einige lync Server-Features und-Dienste auf dem DNS-Lastenausgleich, um sicherzustellen, dass er ordnungsgemäß funktioniert. Wenn Sie keinen DNS-Lastenausgleich im Pool verwenden, werden Verbindungen über diese Dienste möglicherweise nicht an andere Server umgeleitet, während der Zeitraum, in dem der Server neue Verbindungen verhindert, und daher, wenn der Server offline geschaltet wird, einige Sitzungen und Anrufe möglicherweise unterbrochen werden. Die Funktionen, die DNS-Lastenausgleich verwenden, um sicherzustellen, dass diese Option ordnungsgemäß funktioniert, lauten wie folgt:
 
-  - Telefonzentrale
+  - Attendant
 
   - Konferenzankündigungsanwendung
 
@@ -55,7 +57,7 @@ Wenn Sie neue Verbindungen mit einem Front-End-Server verhindern, beruhen einige
 
 Ausführliche Informationen zum DNS-Lastenausgleich finden Sie unter [DNS-Lastenausgleich in lync Server 2013](lync-server-2013-dns-load-balancing.md) in der Planungsdokumentation.
 
-Zusätzlich zur Verhinderung neuer Verbindungen für alle Dienste auf einem Server mit lync Server können Sie auch neue Verbindungen für einzelne lync Server Dienste verhindern. Diese Methode ist beispielsweise hilfreich in Situationen, in denen Sie ein lync Server-Update anwenden müssen, bei dem der gesamte Server nicht heruntergefahren werden muss. Hinweis: Wenn Sie Verbindungen für einen Dienst verhindern, müssen Sie den Dienst basierend auf der Gruppierung und Anzeige in der Windows-Liste von Diensten auswählen. Beispielsweise sind der lync Server-Front-End-Dienst und der Datenerfassungs-Agent für die Überwachung separate lync Server Dienste, in der Liste der Windows-Dienste werden Sie jedoch konsolidiert und als lync Server Front-End-Dienst angezeigt. Sie können neue Verbindungen für den lync Server-Front-End-Dienst verhindern, aber Sie können keine neuen Verbindungen für diese beiden einzelnen zugrunde liegenden lync Server Dienste separat verhindern.
+Zusätzlich zur Verhinderung neuer Verbindungen für alle Dienste auf einem Server mit lync Server können Sie auch neue Verbindungen für einzelne lync Server Dienste verhindern. Diese Methode ist beispielsweise hilfreich in Situationen, in denen Sie ein lync Server-Update anwenden müssen, bei dem der gesamte Server nicht heruntergefahren werden muss. Hinweis: Wenn Sie Verbindungen für einen Dienst verhindern, müssen Sie den Dienst basierend auf der Gruppierung und Anzeige in der Windows-Liste von Diensten auswählen. Beispielsweise sind die lync Server Front-End Dienst und der Datenerfassungs-Agent für die Überwachung separate lync Server Dienste, in der Liste der Windows-Dienste werden Sie jedoch konsolidiert und als lync Server Front-End-Dienst angezeigt. Sie können neue Verbindungen für den lync Server-Front-End-Dienst verhindern, aber Sie können keine neuen Verbindungen für diese beiden einzelnen zugrunde liegenden lync Server Dienste separat verhindern.
 
 <div>
 

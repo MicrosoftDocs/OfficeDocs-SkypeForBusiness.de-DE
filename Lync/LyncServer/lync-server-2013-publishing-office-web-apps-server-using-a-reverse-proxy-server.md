@@ -12,20 +12,22 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a2bc53d306b51bd6aa681ccb4aa6747f38eac7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb200204cc96d40d66d0546c86687fb0e1c48de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512232"
 ---
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Veröffentlichen von Office-webapps-Servern in lync Server 2013 mithilfe eines Reverse-Proxyservers
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Veröffentlichen von Office-webapps-Servern in lync Server 2013 mithilfe eines Reverse-Proxyservers
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201686"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-25_
 
-Wenn Sie möchten, dass externe Benutzer (also Benutzer, die sich außerhalb der Firewall Ihrer Organisation anmelden) Zugriff auf Office-webapps Server-PowerPoint-Präsentationen haben, müssen Sie Office-webappsserver und einen Reverse-Proxy Server wie Microsoft Forefront verwenden. Threat Management-Gateway. Das bedeutet auch, dass Sie eine Website-Veröffentlichungsregel erstellen und konfigurieren müssen. Diese Regel hilft sicherzustellen, dass Benutzer eine Verbindung mit dem Server herstellen können. Wenn Sie keinen Zugriff auf externe Benutzer benötigen, müssen Sie keine Website-Veröffentlichungsregel konfigurieren.
+Wenn externe Benutzer (also Benutzer, die sich außerhalb der Firewall Ihrer Organisation anmelden) Zugriff auf Office-webapps Server-PowerPoint-Präsentationen haben sollen, müssen Sie Office-webapps Server und einen Reverseproxy wie Microsoft Forefront Threat Management Gateway verwenden. Das bedeutet auch, dass Sie eine Website-Veröffentlichungsregel erstellen und konfigurieren müssen. Diese Regel hilft sicherzustellen, dass Benutzer eine Verbindung mit dem Server herstellen können. Wenn Sie keinen Zugriff auf externe Benutzer benötigen, müssen Sie keine Website-Veröffentlichungsregel konfigurieren.
 
 Führen Sie das folgende Verfahren aus, um in Forefront Threat Management Gateway eine Website-Veröffentlichungsregel zu konfigurieren:
 
@@ -55,9 +57,9 @@ Führen Sie das folgende Verfahren aus, um in Forefront Threat Management Gatewa
 
 7.  Geben Sie auf der Seite **Interne Veröffentlichungsdetails** im Feld **Interner Sitename** den FQDN Ihres Office Web Apps-Servers ein (z. B. **officewebapps01.contoso.com**), und klicken Sie dann auf **Weiter**. Der im Feld **Interner Sitename** eingegebene Name muss im Betrefffeld oder dem Feld "Alternativer Antragstellername" des Zertifikats angezeigt werden, das Sie dem Office Web Apps-Server zugeordnet haben.
 
-8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** im Feld **Pfad (optional)** ein, und klicken Sie dann auf **weiter**. Mithilfe der\* /-Syntax wird sichergestellt, dass alle Ordner und Unterordner für die Website veröffentlicht werden.
+8.  Geben Sie auf der Seite **interne Veröffentlichungs Details** **/\*** im Feld **Pfad (optional)** ein, und klicken Sie dann auf **weiter**. Mithilfe der/- \* Syntax wird sichergestellt, dass alle Ordner und Unterordner für die Website veröffentlicht werden.
 
-9.  Wählen Sie auf der Seite **Details des öffentlichen Namen** in der Dropdownliste **Anforderungen annehmen für** die Option **Diesen Domänennamen (unten eingeben)**, und geben Sie dann den vollqualifizierten Domänennamen für Ihren Office Web Apps-Server in das Feld "Öffentlicher Name" ein. Dieser Name sollte der Name für den Zugriff auf Ihre Website sein. Wenn beispielsweise über die URL http://officewebapps01.contoso.com auf Ihre Website zugegriffen wird, sollten Sie **officewebapps01.contoso.com** in das Feld **Öffentlicher Name** eingeben.
+9.  Wählen Sie auf der Seite **Details des öffentlichen Namen** in der Dropdownliste **Anforderungen annehmen für** die Option **Diesen Domänennamen (unten eingeben)**, und geben Sie dann den vollqualifizierten Domänennamen für Ihren Office Web Apps-Server in das Feld "Öffentlicher Name" ein. Dieser Name sollte der Name für den Zugriff auf Ihre Website sein. Wenn beispielsweise über die URL auf Ihre Website zugegriffen wird, http://officewebapps01.contoso.com sollten Sie **officewebapps01.contoso.com** in das Feld **Öffentlicher Name** eingeben.
 
 10. Klicken Sie auf **Weiter**.
 

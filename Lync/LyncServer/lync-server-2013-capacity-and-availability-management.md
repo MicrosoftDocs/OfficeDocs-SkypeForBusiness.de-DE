@@ -12,20 +12,22 @@ ms:contentKeyID: 63969586
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc20882362de83a83d60be4c2a70a092df2e603b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: efef66bcac833bb67c67dc453c25f3e0f6d51ba1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198438"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512852"
 ---
+# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Kapazitäts-und Verfügbarkeitsverwaltung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Kapazitäts-und Verfügbarkeitsverwaltung in lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ Der Zweck der Kapazitätsverwaltung und der Verfügbarkeitsverwaltung besteht da
 
 Die Kapazitätsverwaltung umfasst die Planung, Dimensionierung und Steuerung der Dienstkapazität, um sicherzustellen, dass die in Ihrer SLA festgelegten mindestleistungs Werte überschritten werden. Die Verwaltung guter Kapazität hilft sicherzustellen, dass Sie IT-Dienste zu vertretbaren Kosten bereitstellen und trotzdem die Leistungsstufen erfüllen können, die in ihren SLAs mit dem Client definiert sind. Diese Kriterien können Folgendes umfassen:
 
-  - **Systemantwortzeit**   Dies ist die gemessene Zeit, die das System für typische Aktionen benötigt. Beispiele hierfür sind die Zeit, die für die Verarbeitung von Audio/Video-Datenverkehr durch die Audio/Video-Serverrolle erforderlich ist, die Zeit, die für die Erstellung und Teilnahme an einer Konferenz für einen Client erforderlich ist, oder die Zeit, die für die Aktualisierung von Anwesenheitsinformationen in allen Watcher-Clients benötigt wird.
+  - **System Antwortzeit**     Dies ist die gemessene Zeit, die das System für typische Aktionen benötigt. Beispiele hierfür sind die Zeit, die für die Verarbeitung von Audio/Video-Datenverkehr durch die Audio/Video-Serverrolle erforderlich ist, die Zeit, die für die Erstellung und Teilnahme an einer Konferenz für einen Client erforderlich ist, oder die Zeit, die für die Aktualisierung von Anwesenheitsinformationen in allen Watcher-Clients benötigt wird.
 
-  - **Speicherkapazität**   Dies ist die Kapazität eines Speichersystems, unabhängig davon, ob es sich um eine Inhaltsdatenbank, ein Sicherungsmedium oder ein lokales Laufwerk handelt. Beispiele hierfür sind die maximale Menge an Speicherplatz, die pro Standort bereitgestellt werden soll, sowie die Zeit, die Sicherungen gespeichert werden sollen, bevor Sie überschrieben werden.
+  - **Speicherkapazität**     Dies ist die Kapazität eines Speichersystems, unabhängig davon, ob es sich um eine Inhaltsdatenbank, ein Sicherungsmedium oder ein lokales Laufwerk handelt. Beispiele hierfür sind die maximale Menge an Speicherplatz, die pro Standort bereitgestellt werden soll, sowie die Zeit, die Sicherungen gespeichert werden sollen, bevor Sie überschrieben werden.
 
 Die Kapazitätsanpassung ist häufig ein Fall, um sicherzustellen, dass genügend physische Ressourcen zur Verfügung stehen, beispielsweise Speicherplatz und Netzwerkbandbreite. In der folgenden Tabelle sind typische Lösungen für kapazitätsbezogene Probleme aufgeführt.
 
@@ -83,9 +85,9 @@ Die Kapazität ist von der Systemkonfiguration betroffen und hängt von physikal
 
 Bei der Kapazitätsverwaltung handelt es sich um die Beibehaltung der Kapazität eines Systems innerhalb akzeptabler Stufen, und es werden die folgenden Probleme behoben:
 
-  - **Reagieren auf Änderungen in Anforderungen**   Kapazitätsanforderungen müssen angepasst werden, um Änderungen im System oder in der Organisation zu berücksichtigen. Wenn Ihre Umgebung beispielsweise entscheidet, Enterprise-VoIP zu implementieren, ist die Anzahl und Platzierung von Vermittlungsservern und PSTN-Gateways (Public Switched Telephone Network) sehr wichtig. Wenn Sie SIP-Trunking (Session Initiation Protocol) oder Direct SIP durchführen, wird der Gesamtentwurf erheblich geändert, um die beste Leistung für Enterprise-VoIP bereitzustellen.
+  - **Reagieren auf geänderte Anforderungen**     Kapazitätsanforderungen müssen angepasst werden, um Änderungen im System oder in der Organisation zu berücksichtigen. Wenn Ihre Umgebung beispielsweise entscheidet, Enterprise-VoIP zu implementieren, ist die Anzahl und Platzierung von Vermittlungsservern und PSTN-Gateways (Public Switched Telephone Network) sehr wichtig. Wenn Sie SIP-Trunking (Session Initiation Protocol) oder Direct SIP durchführen, wird der Gesamtentwurf erheblich geändert, um die beste Leistung für Enterprise-VoIP bereitzustellen.
 
-  - **Voraussagen für zukünftige Anforderungen**   einige Kapazitätsanforderungen ändern sich im Laufe der Zeit vorhersagbar. Durch Tracking Trends können Sie Upgrades vorab planen. Beispielsweise muss die verfügbare Bandbreite zwischen verschiedenen lync-Standorten überwacht werden, um einen Basisplan zu erstellen. Mit diesem Basisplan können Sie Vorhersagen, wann Sie diesen Links mehr Bandbreite hinzufügen müssen, da die Anzahl der Benutzer in diesen Remotestandorten mit der Zeit zunimmt.
+  - **Voraussagen für zukünftige Anforderungen**     Einige Kapazitätsanforderungen ändern sich im Laufe der Zeit vorhersagbar. Durch Tracking Trends können Sie Upgrades vorab planen. Beispielsweise muss die verfügbare Bandbreite zwischen verschiedenen lync-Standorten überwacht werden, um einen Basisplan zu erstellen. Mit diesem Basisplan können Sie Vorhersagen, wann Sie diesen Links mehr Bandbreite hinzufügen müssen, da die Anzahl der Benutzer in diesen Remotestandorten mit der Zeit zunimmt.
 
 </div>
 
@@ -99,23 +101,23 @@ Wenn Sie Berichte an ihre Verwaltung über die Verfügbarkeit von Systemen berei
 
 Im Zusammenhang mit der Verfügbarkeit werden folgende Maßnahmen getroffen:
 
-  - **Verfügbarkeit**   Dies wird normalerweise als die Zeit ausgedrückt, die auf ein System oder einen Dienst zugegriffen werden kann, im Vergleich zu dem Zeitpunkt, zu dem er nicht aktiv ist. Er wird normalerweise als Prozentsatz ausgedrückt. (Möglicherweise werden Verweise auf "drei Neunen" oder "fünf Neunen" angezeigt. Dies bezieht sich auf 99,9 Prozent oder 99,999 Prozent Verfügbarkeit.)
+  - **Verfügbarkeit**     Dies wird normalerweise als die Zeit ausgedrückt, die auf ein System oder einen Dienst zugegriffen werden kann, im Vergleich zu dem Zeitpunkt, zu dem er nicht aktiv ist. Er wird normalerweise als Prozentsatz ausgedrückt. (Möglicherweise werden Verweise auf "drei Neunen" oder "fünf Neunen" angezeigt. Dies bezieht sich auf 99,9 Prozent oder 99,999 Prozent Verfügbarkeit.)
 
-  - **Zuverlässigkeit**   Dies ist ein Maß für die Zeit zwischen den Fehlern eines Systems und wird manchmal als durchschnittliche (mittlere) Zeit zwischen Fehlern (MTBF) ausgedrückt.
+  - **Zuverlässigkeit**     Dies ist ein Maß für die Zeit zwischen den Fehlern eines Systems und wird manchmal als durchschnittliche (mittlere) Zeit zwischen Fehlern (MTBF) ausgedrückt.
 
-  - **Zeit zum Reparieren**   Dies ist die Zeit, die zum Wiederherstellen eines Diensts nach einem Fehler aufgetreten ist, und wird häufig als "Mean" (Bedeutung für den durchschnittlichen) Zeitaufwand für die Reparatur (MTTR) ausgedrückt.
+  - **Reparaturzeit**     Dies ist die Zeit, die zum Wiederherstellen eines Diensts vorgenommen wurde, nachdem ein Fehler aufgetreten ist, und wird häufig als "Mean" (Bedeutung für den durchschnittlichen) Zeitaufwand für die Reparatur ausgedrückt (MTTR).
 
 Verfügbarkeit, Zuverlässigkeit und Reparaturzeit hängen wie folgt zusammen:
 
-**Verfügbarkeit = (MTBF – MTTR)/MTBF**   wenn ein Server beispielsweise zwei Mal über einen Zeitraum von sechs Monaten ausfällt und für durchschnittlich 20 Minuten nicht verfügbar ist, beträgt die MTBF drei Monate oder 90 Tage, und die MTTR beträgt 20 Minuten. Daher Verfügbarkeit = (90 Tage – 20 Minuten)/90 Tage = 99,985 Prozent.
+**Verfügbarkeit = (MTBF – MTTR)/MTBF**     Wenn ein Server beispielsweise zwei Mal über einen Zeitraum von sechs Monaten ausfällt und für durchschnittlich 20 Minuten nicht verfügbar ist, beträgt die MTBF drei Monate oder 90 Tage, und die MTTR beträgt 20 Minuten. Daher Verfügbarkeit = (90 Tage – 20 Minuten)/90 Tage = 99,985 Prozent.
 
 Bei der Verfügbarkeitsverwaltung wird sichergestellt, dass die Verfügbarkeit maximiert und innerhalb der in SLAs definierten Parameter aufbewahrt wird. Die Verfügbarkeitsverwaltung umfasst die folgenden Prozesse:
 
-  - **Überwachen**     der Untersuchung, wann und für wie lange Dienste nicht verfügbar sind.
+  - **Überwachung**     Untersuchen, wann und für wie lange Dienste nicht verfügbar sind.
 
-  - **Berichts**   Verfügbarkeitszahlen sollten den Management-, Benutzer-und Betriebsteams regelmäßig zur Verfügung gestellt werden. Diese Berichte sollten Trends hervorheben und Bereiche erkennen, die gut sind, und Bereiche, die Aufmerksamkeit erfordern. Der Bericht sollte die Einhaltung der in den SLAs festgelegten Ziele zusammenfassen.
+  - **Berichterstellung**     Verfügbarkeitszahlen sollten regelmäßig für Management-, Benutzer-und Betriebsteams bereitgestellt werden. Diese Berichte sollten Trends hervorheben und Bereiche erkennen, die gut sind, und Bereiche, die Aufmerksamkeit erfordern. Der Bericht sollte die Einhaltung der in den SLAs festgelegten Ziele zusammenfassen.
 
-  - **Verbesserung**   wenn die Verfügbarkeit keine Ziele erfüllt, die in den SLAs definiert sind oder wenn sich der Trend auf die reduzierte Verfügbarkeit auswirkt, sollte der Verfügbarkeits Verwaltungsprozess Abhilfemaßnahmen planen. Dazu gehört die Zusammenarbeit mit anderen verantwortlichen Teams, um Ursachen für Ausfällen hervorzuheben und Sanierungsmaßnahmen zu planen, um eine Wiederholung der Ausfälle zu verhindern.
+  - **Verbesserung**     Wenn die Verfügbarkeit keine Ziele erfüllt, die in den SLAs definiert sind oder wenn sich der Trend auf die reduzierte Verfügbarkeit auswirkt, sollte der Verfügbarkeits Verwaltungsprozess Abhilfemaßnahmen planen. Dazu gehört die Zusammenarbeit mit anderen verantwortlichen Teams, um Ursachen für Ausfällen hervorzuheben und Sanierungsmaßnahmen zu planen, um eine Wiederholung der Ausfälle zu verhindern.
 
 Bei Kapazitäts-und Verfügbarkeits Messungen handelt es sich um sich wiederholende Aufgaben, die für automatisierte Tools und Skripts wie Microsoft System Center Operations Manager (früher Microsoft Operations Manager), die weiter unten in diesem Dokument behandelt werden, ideal geeignet sind.
 

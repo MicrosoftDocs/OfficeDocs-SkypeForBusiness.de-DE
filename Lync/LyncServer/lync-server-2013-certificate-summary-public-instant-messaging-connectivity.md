@@ -12,20 +12,22 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacf411f348199376e1564be37f683854480872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdc4bba8064332d7fa3f90d0d6a3d4b9f6cef9e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187408"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512782"
 ---
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Zertifikatzusammenfassung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Zertifikatzusammenfassung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187408"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-19_
 
-Um Zertifikate für die Verbindung mit öffentlichen Instant Messaging-Diensten zu konfigurieren, sollten Sie zunächst bemerken, dass es nichts anderes als andere SIP-Verbundtypen oder sogar Standard Edgeserver Zertifikate gibt, außer dass America Online (AOL) eine eindeutige Zertifikatkonfiguration. Zusätzlich zur üblichen Server Enhanced Key Usage (EKU) erfordert America Online, dass das Zertifikat oder die Zertifikate (im Fall eines Edgepool) auch den Client-EKU enthalten. Die EKU des Clients ist eine Ergänzung des Zertifikats und ist Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.
+Um Zertifikate für die Verbindung mit öffentlichen Instant Messaging-Diensten zu konfigurieren, sollten Sie zunächst bemerken, dass es nichts anderes als andere SIP-Verbundtypen oder sogar Standard Edgeserver Zertifikate gibt, es sei denn, dass America Online (AOL) eine eindeutige Zertifikatkonfiguration erfordert. Zusätzlich zur üblichen Server Enhanced Key Usage (EKU) erfordert America Online, dass das Zertifikat oder die Zertifikate (im Fall eines Edgepool) auch den Client-EKU enthalten. Die EKU des Clients ist eine Ergänzung des Zertifikats und ist Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.
 
 <div>
 
@@ -56,7 +58,7 @@ Um Zertifikate für die Verbindung mit öffentlichen Instant Messaging-Diensten 
 <th>Komponente</th>
 <th>Antragstellername</th>
 <th>Alternative Antragstellernamen (SAN)/Reihenfolge</th>
-<th>Anmerkungen</th>
+<th>Kommentare</th>
 </tr>
 </thead>
 <tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b920f7fd0325c3232abb5670a2da66fc98352d38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 230b731bf7b63a1ce86b5652d9e3d3b2956c94a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512822"
 ---
+# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Verwenden des Kapazitäts Planungs Rechners für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Verwenden des Kapazitäts Planungs Rechners für lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42207381"
 
 _**Letztes Änderungsstand des Themas:** 2013-11-21_
 
-Der Rechner zur Kapazitätsplanung von Microsoft® lync™ Server 2013 steht zum <https://www.microsoft.com/download/details.aspx?id=36828>Download zur Verfügung. Es wurde entwickelt, um Sie bei der Ermittlung von Server Anforderungen basierend auf der Anzahl von Benutzern und Kommunikationsmodalitäten zu unterstützen, die in Ihrer Organisation aktiviert sind. Sie geben das Profil Ihrer Organisation ein, und der Rechner enthält Empfehlungen, die Sie bei der Planung Ihrer Topologie unterstützen.
+Der Rechner zur Kapazitätsplanung von Microsoft® lync™ Server 2013 steht zum Download zur Verfügung <https://www.microsoft.com/download/details.aspx?id=36828> . Es wurde entwickelt, um Sie bei der Ermittlung von Server Anforderungen basierend auf der Anzahl von Benutzern und Kommunikationsmodalitäten zu unterstützen, die in Ihrer Organisation aktiviert sind. Sie geben das Profil Ihrer Organisation ein, und der Rechner enthält Empfehlungen, die Sie bei der Planung Ihrer Topologie unterstützen.
 
 Die vom Rechner erstellten Empfehlungen dienen nur zu Planungszwecken. Die tatsächliche Auslastungssimulation ist erforderlich, um sicherzustellen, dass lync Server 2013 angemessen bereitgestellt wird. Verwenden Sie zum Ausführen von Belastungstests unter simulierter Last das [Tool lync Server 2013 Stress and Performance](https://go.microsoft.com/fwlink/?linkid=282724).
 

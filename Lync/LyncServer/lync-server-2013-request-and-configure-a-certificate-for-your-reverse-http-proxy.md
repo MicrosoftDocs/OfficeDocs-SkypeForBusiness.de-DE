@@ -12,20 +12,22 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5db6e8ed2df53acf5c1543569778b29168d0500b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7651e3da61e5ca197d36ca59ad8216af4c0188af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183198"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511982"
 ---
+# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Anfordern und Konfigurieren eines Zertifikats für den Reverse-http-Proxy in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Anfordern und Konfigurieren eines Zertifikats für den Reverse-http-Proxy in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183198"
 
 _**Letztes Änderungsstand des Themas:** 2014-02-14_
 
-Sie müssen das Zertifikat der Stammzertifizierungsstelle auf dem Server mit Microsoft Forefront Threat Management Gateway 2010 oder IIS arr für die Zertifizierungsstelleninfrastruktur installieren, die die Serverzertifikate für die internen Server mit Microsoft lync ausgestellt hat. Server 2013.
+Sie müssen das Zertifikat der Stammzertifizierungsstelle auf dem Server mit Microsoft Forefront Threat Management Gateway 2010 oder IIS arr für die Zertifizierungsstelleninfrastruktur installieren, die die Serverzertifikate für die internen Server mit Microsoft lync Server 2013 ausgestellt hat.
 
 Sie müssen außerdem ein öffentliches Webserverzertifikat auf Ihrem Reverseproxyserver installieren. Die Liste der alternativen Antragstellernamen dieses Zertifikats sollte die veröffentlichten externen FQDNs für jeden Pool enthalten, in dem Benutzer verwaltet werden, die für den Remotezugriff aktiviert wurden. Außerdem muss das Zertifikat die externen FQDNs aller Directors oder Directorpools enthalten, die innerhalb dieser Edgeinfrastruktur verwendet werden. In den alternativen Antragstellernamen müssen außerdem die einfachen URLs für Besprechungen und Einwahl enthalten sein sowie – wenn Sie mobile Anwendungen bereitstellen und die Verwendung der AutoErmittlung planen – die externe AutoErmittlungsdienst-URL, wie im Folgenden gezeigt.
 
@@ -146,7 +148,7 @@ Sie erstellen eine Zertifikatanforderung auf dem Reverse-Proxy. Sie erstellen ei
 
 
 > [!TIP]
-> Wenn Sie Ihre Edgeserver Zertifikate und ihre Reverse-Proxy Zertifikate gleichzeitig planen, sollten Sie feststellen, dass es eine große Ähnlichkeit zwischen den beiden Zertifikatanforderungen gibt. Wenn Sie Ihr Edgeserver Zertifikat konfigurieren und anfordern, kombinieren Sie die Edgeserver und die alternativen Alternative Namen für den Reverseproxy. Sie können das gleiche Zertifikat für den Reverseproxy verwenden, wenn Sie das Zertifikat und den privaten Schlüssel exportieren und die exportierte Datei in den Reverseproxy kopieren und dann das Zertifikat/Schlüsselpaar importieren und nach Bedarf in den anstehenden Verfahren zuweisen. Lesen Sie die Zertifikatanforderungen für den Edgeserver&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">Plan für Edgeserver Zertifikate in lync Server 2013</A> und die Zusammenfassung des Reverse Proxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Zertifikats-Reverseproxy in lync Server 2013</A>. Stellen Sie sicher, dass Sie das Zertifikat mit einem exportierbaren privaten Schlüssel erstellen. Das Erstellen des Zertifikats und der Zertifikatanforderung mit einem exportierbaren privaten Schlüssel ist für gepoolte Edgeserver erforderlich, daher ist dies eine normale Vorgehensweise, und der Zertifikat-Assistent im lync Server-Bereitstellungs-Assistenten für die Edgeserver ermöglicht Ihnen das Festlegen des exportierbaren Kennzeichens <STRONG>privater Schlüssel</STRONG> . Nachdem Sie die Zertifikatanforderung von der öffentlichen Zertifizierungsstelle zurück erhalten haben, werden Sie das Zertifikat und den privaten Schlüssel exportieren. Weitere Informationen zum Erstellen und Exportieren Ihres Zertifikats mit einem privaten Schlüssel finden Sie im Abschnitt "So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool" im Thema <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Einrichten von Zertifikaten für die externe Edge-Schnittstelle für lync Server 2013</A> . Die Erweiterung des Zertifikats sollte vom Typ <STRONG>. pfx</STRONG>sein.
+> Wenn Sie Ihre Edgeserver Zertifikate und ihre Reverse-Proxy Zertifikate gleichzeitig planen, sollten Sie feststellen, dass es eine große Ähnlichkeit zwischen den beiden Zertifikatanforderungen gibt. Wenn Sie Ihr Edgeserver Zertifikat konfigurieren und anfordern, kombinieren Sie die Edgeserver und die alternativen Alternative Namen für den Reverseproxy. Sie können das gleiche Zertifikat für den Reverseproxy verwenden, wenn Sie das Zertifikat und den privaten Schlüssel exportieren und die exportierte Datei in den Reverseproxy kopieren und dann das Zertifikat/Schlüsselpaar importieren und nach Bedarf in den anstehenden Verfahren zuweisen. Lesen Sie die Zertifikatanforderungen für den Edgeserver &nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">Plan für Edgeserver Zertifikate in lync Server 2013</A> und die Zusammenfassung des Reverse Proxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Zertifikats-Reverseproxy in lync Server 2013</A>. Stellen Sie sicher, dass Sie das Zertifikat mit einem exportierbaren privaten Schlüssel erstellen. Das Erstellen des Zertifikats und der Zertifikatanforderung mit einem exportierbaren privaten Schlüssel ist für gepoolte Edgeserver erforderlich, daher ist dies eine normale Vorgehensweise, und der Zertifikat-Assistent im lync Server-Bereitstellungs-Assistenten für die Edgeserver ermöglicht Ihnen das Festlegen des exportierbaren Kennzeichens <STRONG>privater Schlüssel</STRONG> . Nachdem Sie die Zertifikatanforderung von der öffentlichen Zertifizierungsstelle zurück erhalten haben, werden Sie das Zertifikat und den privaten Schlüssel exportieren. Weitere Informationen zum Erstellen und Exportieren Ihres Zertifikats mit einem privaten Schlüssel finden Sie im Abschnitt "So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool" im Thema <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Einrichten von Zertifikaten für die externe Edge-Schnittstelle für lync Server 2013</A> . Die Erweiterung des Zertifikats sollte vom Typ <STRONG>. pfx</STRONG>sein.
 
 
 
@@ -156,7 +158,7 @@ Führen Sie die folgenden Schritte aus, um eine Zertifikatsignaturanforderung au
 
 **Erstellen einer Zertifikatsignaturanforderung**
 
-1.  Öffnen Sie die Microsoft Management Console (MMC), fügen Sie das Zertifikat-Snap-in hinzu, wählen Sie **Computer**aus, und erweitern Sie dann **Personal**. Ausführliche Informationen zum Erstellen einer Zertifikatkonsole in der Microsoft Management Console (MMC) finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616).
+1.  Öffnen Sie die Microsoft Management Console (MMC), fügen Sie das Zertifikat-Snap-in hinzu, wählen Sie **Computer**aus, und erweitern Sie dann **Personal**. Ausführliche Informationen zum Erstellen einer Zertifikatkonsole in der Microsoft Management Console (MMC) finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616) .
 
 2.  Klicken Sie mit der rechten Maustaste auf **Zertifikate**, klicken Sie auf **alle Aufgaben**, klicken Sie auf **Erweiterte Vorgänge**und dann auf **Benutzerdefinierte Anforderung erstellen**.
 
@@ -164,7 +166,7 @@ Führen Sie die folgenden Schritte aus, um eine Zertifikatsignaturanforderung au
 
 4.  Wählen Sie auf der Seite **Zertifikatregistrierungsrichtlinie auswählen** unter **Benutzerdefinierte Anforderung**die Option **ohne Registrierungsrichtlinie fortfahren**aus. Klicken Sie auf **Weiter**.
 
-5.  Klicken Sie auf der Seite **Benutzerdefinierte Anforderung** für **Vorlage** auswählen **(kein Vorlage) Legacy Schlüssel**. Wenn nicht anders von Ihrem Zertifikatanbieter verwiesen wird, lassen Sie die Option **Standarderweiterungen** deaktivieren und die Auswahl des **Anforderungs Formats** auf ** \#PKCS 10**unterdrücken. Klicken Sie auf **Weiter**.
+5.  Klicken Sie auf der Seite **Benutzerdefinierte Anforderung** für **Vorlage** auswählen **(kein Vorlage) Legacy Schlüssel**. Wenn nicht anders von Ihrem Zertifikatanbieter verwiesen wird, lassen Sie die Option **Standarderweiterungen** deaktivieren und die Auswahl des **Anforderungs Formats** auf **PKCS \# 10**unterdrücken. Klicken Sie auf **Weiter**.
 
 6.  Klicken Sie auf der Seite **Zertifikatinformationen** auf **Details**und dann auf **Eigenschaften**.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0807552784b69b58accfd026031af55d41c91f33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1058f48ede85067ac0aeefc3c8dab329bf042ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201531"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512032"
 ---
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lesen von Erfassungs Protokollen aus dem zentralisierten Protokollierungsdienst in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lesen von Erfassungs Protokollen aus dem zentralisierten Protokollierungsdienst in lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42201531"
 
 _**Letztes Änderungsstand des Themas:** 2016-12-28_
 
-Sie erkennen den tatsächlichen Vorteil des zentralisierten Protokollierungsdiensts nach dem Ausführen der Suche, und Sie verfügen über eine Datei, die Sie zum Aufspüren eines gemeldeten Problems verwenden können. Es gibt eine Reihe von Möglichkeiten, wie Sie die Datei lesen können. Die Ausgabedatei hat ein Standardtextformat und Sie können Notepad. exe oder andere Programme verwenden, mit denen Sie eine Textdatei öffnen und lesen können. Für größere Dateien und komplexere Probleme können Sie ein Tool wie Snooper. exe verwenden, das zum Lesen und Analysieren der Protokollierungsausgabe vom zentralisierten Protokollierungsdienst entwickelt wurde. Snooper ist in den lync Server 2013 Debug-Tools enthalten, die als separater Download zur Verfügung stehen. Sie können die lync Server 2013 Debug-Tools hier herunter [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)laden:. Wenn Sie die lync Server 2013 Debug-Tools installieren, werden keine Kurzschnitte und Menüelemente erstellt. Nachdem Sie die lync Server 2013 Debug-Tools installiert haben, öffnen Sie Windows Explorer, ein Befehlszeilenfenster oder lync Server-Verwaltungsshell und wechseln Sie zum Verzeichnis (Standardspeicherort) C\\: Programm\\Dateien\\Microsoft lync Server 2013 Debugging-Tools. Doppelklicken Sie auf Snooper. exe, oder geben Sie Snooper. exe ein, und drücken Sie dann die EINGABETASTE, wenn Sie die Befehlszeile oder lync Server-Verwaltungsshell verwenden.
+Sie erkennen den tatsächlichen Vorteil des zentralisierten Protokollierungsdiensts nach dem Ausführen der Suche, und Sie verfügen über eine Datei, die Sie zum Aufspüren eines gemeldeten Problems verwenden können. Es gibt eine Reihe von Möglichkeiten, wie Sie die Datei lesen können. Die Ausgabedatei hat ein Standardtextformat und Sie können Notepad.exe oder andere Programme verwenden, mit denen Sie eine Textdatei öffnen und lesen können. Für größere Dateien und komplexere Probleme können Sie ein Tool wie Snooper.exe verwenden, das zum Lesen und Analysieren der Protokollierungsausgabe vom zentralisierten Protokollierungsdienst entwickelt wurde. Snooper ist in den lync Server 2013 Debug-Tools enthalten, die als separater Download zur Verfügung stehen. Sie können die lync Server 2013 Debug-Tools hier herunterladen: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) . Wenn Sie die lync Server 2013 Debug-Tools installieren, werden keine Kurzschnitte und Menüelemente erstellt. Nachdem Sie die lync Server 2013 Debug-Tools installiert haben, öffnen Sie Windows Explorer, ein Befehlszeilenfenster oder lync Server-Verwaltungsshell und wechseln Sie zum Verzeichnis (Standardspeicherort) C: \\ Programmdateien \\ Microsoft lync Server 2013 Debugging- \\ Tools. Doppelklicken Sie auf Snooper.exe oder geben Sie Snooper.exe ein, und drücken Sie dann die EINGABETASTE, wenn Sie die Befehlszeile oder lync Server-Verwaltungsshell verwenden.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Die Absicht dieses Themas ist nicht detailliert und besprechen die Problembehandlungstechniken. Die Problembehandlung und die Prozesse um Sie herum sind ein komplexes Thema. Ausführliche Informationen zur grundlegenden Problembehandlung und zur Problembehandlung bei bestimmten Arbeitsauslastungen finden <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Sie im Microsoft lync Server 2010 Resource Kit-Buch unter. Die Prozesse und Verfahren gelten weiterhin für lync Server 2013.
+> Die Absicht dieses Themas ist nicht detailliert und besprechen die Problembehandlungstechniken. Die Problembehandlung und die Prozesse um Sie herum sind ein komplexes Thema. Ausführliche Informationen zur grundlegenden Problembehandlung und zur Problembehandlung bei bestimmten Arbeitsauslastungen finden Sie im Microsoft lync Server 2010 Resource Kit-Buch unter <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A> . Die Prozesse und Verfahren gelten weiterhin für lync Server 2013.
 
 
 
@@ -75,7 +77,7 @@ Sie können mit dem Mauszeiger auf die Diagrammansicht zeigen und Details zu den
 
 1.  Um Snooper zu verwenden und Protokolldateien zu öffnen, benötigen Sie Lesezugriff auf die Protokolldateien. Um Snooper verwenden und auf die Protokolldateien zugreifen zu können, müssen Sie Mitglied der CsAdministrator-oder der CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control) oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält.
 
-2.  Ändern Sie nach der Installation der lync Server Debugging-Tools (LyncDebugTools. msi) das Verzeichnis in den Speicherort von Snooper. exe mithilfe von Windows Explorer oder über die Befehlszeile. Standardmäßig befinden sich die Debug-Tools in C:\\Program Files\\Microsoft lync Server 2013\\Debugging Tools. Doppelklicken Sie auf oder führen Sie Snooper. exe aus.
+2.  Ändern Sie nach der Installation der lync Server Debugging-Tools (LyncDebugTools.msi) das Verzeichnis in den Speicherort von Snooper.exe mithilfe von Windows-Explorer oder über die Befehlszeile. Standardmäßig befinden sich die Debug-Tools in C: \\ Program Files \\ Microsoft lync Server 2013 \\ Debugging Tools. Doppelklicken Sie auf oder führen Sie Snooper.exe aus.
 
 3.  Nachdem Snooper geöffnet wurde, klicken Sie mit der rechten Maustaste auf **Datei**, klicken Sie auf **OpenFile**, suchen Sie nach ihren Protokolldateien, wählen Sie im Dialogfeld **Öffnen** eine Datei aus, und klicken Sie dann auf **Öffnen**.
 
