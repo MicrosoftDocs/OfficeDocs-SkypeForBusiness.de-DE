@@ -12,20 +12,22 @@ ms:contentKeyID: 48184673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da116d47d423b1bbbc7be1b84f08f05a40ae83cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 71f0173472acffaea435eaf7858b45cefd2f0e56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510072"
 ---
+# <a name="services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="8e381-102">Cmdlets für Dienste in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8e381-102">Services cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="974d0-102">Cmdlets für Dienste in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="974d0-102">Services cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,40 +37,40 @@ ms.locfileid: "42182348"
 
 <span> </span>
 
-<span data-ttu-id="974d0-103">_**Letztes Änderungsstand des Themas:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="974d0-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="8e381-103">_**Letztes Änderungsstand des Themas:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="8e381-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="974d0-104">Mit den Serverrollen-und Dienste-Cmdlets, die mit Microsoft lync Server 2013 ausgeliefert werden, können Sie Informationen zu den verschiedenen Komponenten zurückgeben, die als Teil ihrer lync Server 2013-Bereitstellung installiert wurden.</span><span class="sxs-lookup"><span data-stu-id="974d0-104">The server role and services cmdlets that ship with Microsoft Lync Server 2013 enable you to return information about the various components that have been installed as part of your Lync Server 2013 deployment.</span></span> <span data-ttu-id="974d0-105">Darüber hinaus vereinfachen diese Cmdlets das Beenden und starten ihrer lync Server Dienste.</span><span class="sxs-lookup"><span data-stu-id="974d0-105">In addition, these cmdlets make it easy to stop and start your Lync Server services.</span></span>
+<span data-ttu-id="8e381-104">Mit den Serverrollen-und Dienste-Cmdlets, die mit Microsoft lync Server 2013 ausgeliefert werden, können Sie Informationen zu den verschiedenen Komponenten zurückgeben, die als Teil ihrer lync Server 2013-Bereitstellung installiert wurden.</span><span class="sxs-lookup"><span data-stu-id="8e381-104">The server role and services cmdlets that ship with Microsoft Lync Server 2013 enable you to return information about the various components that have been installed as part of your Lync Server 2013 deployment.</span></span> <span data-ttu-id="8e381-105">Darüber hinaus vereinfachen diese Cmdlets das Beenden und starten ihrer lync Server Dienste.</span><span class="sxs-lookup"><span data-stu-id="8e381-105">In addition, these cmdlets make it easy to stop and start your Lync Server services.</span></span>
 
 <div>
 
-## <a name="services-cmdlets"></a><span data-ttu-id="974d0-106">Cmdlets für Dienste</span><span class="sxs-lookup"><span data-stu-id="974d0-106">Services Cmdlets</span></span>
+## <a name="services-cmdlets"></a><span data-ttu-id="8e381-106">Cmdlets für Dienste</span><span class="sxs-lookup"><span data-stu-id="8e381-106">Services Cmdlets</span></span>
 
-<span data-ttu-id="974d0-107">In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Diensten eingesetzt werden:</span><span class="sxs-lookup"><span data-stu-id="974d0-107">The following is a list of cmdlets that relate directly to managing services:</span></span>
+<span data-ttu-id="8e381-107">In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Diensten eingesetzt werden:</span><span class="sxs-lookup"><span data-stu-id="8e381-107">The following is a list of cmdlets that relate directly to managing services:</span></span>
 
-<span data-ttu-id="974d0-108">**Dienste**</span><span class="sxs-lookup"><span data-stu-id="974d0-108">**Services**</span></span>
+<span data-ttu-id="8e381-108">**Dienste**</span><span class="sxs-lookup"><span data-stu-id="8e381-108">**Services**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="974d0-109">[Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="974d0-109">[Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))</span></span>
+    <span data-ttu-id="8e381-109">[Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8e381-109">[Get-CsService](https://technet.microsoft.com/library/Gg413038(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="974d0-110">[Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="974d0-110">[Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))</span></span>
+    <span data-ttu-id="8e381-110">[Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8e381-110">[Get-CsWindowsService](https://technet.microsoft.com/library/Gg398803(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="974d0-111">[Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="974d0-111">[Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))</span></span>
+    <span data-ttu-id="8e381-111">[Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8e381-111">[Start-CsWindowsService](https://technet.microsoft.com/library/Gg398561(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="974d0-112">[Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="974d0-112">[Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))</span></span>
+    <span data-ttu-id="8e381-112">[Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8e381-112">[Stop-CsWindowsService](https://technet.microsoft.com/library/Gg398426(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="974d0-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="974d0-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e381-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="8e381-113">See Also</span></span>
 
 
-[<span data-ttu-id="974d0-114">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="974d0-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="8e381-114">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="8e381-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
