@@ -12,20 +12,22 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df74bda74f1b9af01e1c4e73fa2f21b7119363f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccec3917e892d1ba6c3e1841773c77e8c2d015d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514528"
 ---
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Prüfliste zur Bereitstellung für die Archivierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Prüfliste zur Bereitstellung für die Archivierung in lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ Die Archivierung wird automatisch auf jedem Front-End-Server in ihrer lync Serve
 
 Die Einrichtung der Archivierung ist abhängig von der jeweiligen Speicheroption:
 
-  - Wenn Sie Microsoft Exchange Integration für alle Benutzer in Ihrer Bereitstellung verwenden, müssen Sie lync Server 2013 Archivierungsrichtlinien für Ihre Benutzer nicht konfigurieren. Konfigurieren Sie stattdessen ihre in-situ-Speicherrichtlinien für Exchange, um die Archivierung für Benutzer zu unterstützen, die in Exchange 2013 verwaltet werden, wobei ihre Postfächer im Compliance-Archiv abgelegt werden. Ausführliche Informationen zum Konfigurieren dieser Richtlinien finden Sie in der Exchange 2013-Produktdokumentation.
+  - Wenn Sie Microsoft Exchange Integration für alle Benutzer in Ihrer Bereitstellung verwenden, müssen Sie lync Server 2013 Archivierungsrichtlinien für Ihre Benutzer nicht konfigurieren. Konfigurieren Sie stattdessen Ihre Exchange In-Place Hold-Richtlinien zur Unterstützung der Archivierung für Benutzer, die in Exchange 2013 verwaltet werden und deren Postfächer In-Place aufbewahrt werden. Ausführliche Informationen zum Konfigurieren dieser Richtlinien finden Sie in der Exchange 2013-Produktdokumentation.
 
-  - Wenn Sie Microsoft Exchange Integration nicht für alle Benutzer in Ihrer Bereitstellung verwenden, müssen Sie lync Server Archivierungsdatenbanken (SQL Server Datenbanken) zu Ihrer Topologie hinzufügen und diese dann veröffentlichen sowie Richtlinien und Einstellungen für Ihre Benutzer konfigurieren, bevor Sie Archivieren von Daten für diese Benutzer. Sie können Archivierungsdatenbanken gleichzeitig bereitstellen, wenn Sie die anfängliche Topologie bereitstellen oder nachdem Sie mindestens eine Front-End-Pool oder Standard Edition-Server bereitgestellt haben. In diesem Dokument wird beschrieben, wie Sie Archivierungsdatenbanken bereitstellen, indem Sie Sie einer vorhandenen Bereitstellung hinzufügen.
+  - Wenn Sie Microsoft Exchange Integration nicht für alle Benutzer in Ihrer Bereitstellung verwenden, müssen Sie lync Server Archivierungsdatenbanken (SQL Server Datenbanken) zu Ihrer Topologie hinzufügen und diese dann veröffentlichen sowie Richtlinien und Einstellungen für Ihre Benutzer konfigurieren, bevor Sie Daten für diese Benutzer archivieren können. Sie können Archivierungsdatenbanken gleichzeitig bereitstellen, wenn Sie die anfängliche Topologie bereitstellen oder nachdem Sie mindestens eine Front-End-Pool oder Standard Edition-Server bereitgestellt haben. In diesem Dokument wird beschrieben, wie Sie Archivierungsdatenbanken bereitstellen, indem Sie Sie einer vorhandenen Bereitstellung hinzufügen.
 
 Wenn Sie die Archivierung in einem Front-End-Pool oder auf einem Standard Edition-Server aktivieren, sollten Sie sie für alle weiteren Front-End-Pools und Standard Edition-Server in Ihrer Bereitstellung ebenfalls aktivieren. Auf diese Weise können Benutzer, deren Kommunikation archiviert werden muss, zu Sofortnachrichten-Gruppenunterhaltungen oder Besprechungen eingeladen werden, die in einem anderen Pool gehostet werden. Wenn im Pool, der die Unterhaltung oder Besprechung hostet, die Archivierung nicht aktiviert wurde, kann möglicherweise die gesamte Sitzung nicht archiviert werden. In diesen Fällen können Sofortnachrichten mit archivierungsfähigen Benutzern trotzdem archiviert werden. Für Konferenzinhaltdateien sowie für den Beitritt bzw. das Verlassen einer Konferenz ist dies jedoch nicht möglich.
 
@@ -121,8 +123,8 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 </tr>
 <tr class="even">
 <td><p><strong>Konfigurieren von Archivierungsrichtlinien und -konfigurationen</strong></p></td>
-<td><p>Konfigurieren der Archivierung, einschließlich der Frage, ob Microsoft Exchange Integration, die globale Richtlinie und alle Standort-und Benutzerrichtlinien verwendet werden sollen (wenn die Microsoft Exchange Integration nicht für alle Datenspeicher verwendet wird) und bestimmte Archivierungsoptionen wie kritischer Modus und Daten Exportieren und löschen.</p>
-<p>Konfigurieren Sie bei Verwendung Microsoft Exchange Integration die Richtlinien für Exchange in-situ-Speicher entsprechend.</p></td>
+<td><p>Konfigurieren Sie die Archivierung, einschließlich der Frage, ob Sie Microsoft Exchange Integration, die globale Richtlinie und alle Standort-und Benutzerrichtlinien verwenden möchten (wenn Sie nicht die Microsoft Exchange Integration für alle Datenspeicher verwenden), sowie bestimmte Archivierungsoptionen, beispielsweise den kritischen Modus und den Datenexport und das Löschen.</p>
+<p>Wenn Sie Microsoft Exchange Integration verwenden, konfigurieren Sie die Exchange In-Place-Aufbewahrungsrichtlinien entsprechend.</p></td>
 <td><p>Gruppe „RTCUniversalServerAdmins“ (nur Windows PowerShell) oder Zuweisung von Benutzern zur Rolle „CSArchivingAdministrator“ oder „CSAdministrator“</p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-archiving.md">Konfigurieren der Unterstützung für die Archivierung in lync Server 2013</a> in der Bereitstellungsdokumentation.</p>
 <p>Exchange-Produktdokumentation (bei Verwendung Microsoft Exchange Integration).</p></td>

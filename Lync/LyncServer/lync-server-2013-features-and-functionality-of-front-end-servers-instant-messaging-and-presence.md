@@ -12,20 +12,22 @@ ms:contentKeyID: 48183294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab1b2285b80098ec6acf1faad64f21a78472c0b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26f80eb823af5ec50c18390fe2ebca2b25498874
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179652"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515372"
 ---
+# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Features und Funktionen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Features und Funktionen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179652"
 
 _**Letztes Änderungsstand des Themas:** 2013-03-17_
 
-Front-End-Server bieten die meisten lync Server Funktionalität. Es stehen zwei Editionen zur Verfügung: lync Server Enterprise Edition, die in erster Linie für größere Organisationen entwickelt wurde, und lync Server Standard Edition, die in erster Linie für kleinere Organisationen entwickelt wurde, die einen kleineren Hardwareinvestition wünschen und nicht hohe Verfügbarkeit erforderlich. Beide Editionen unterstützen alle lync Server Arbeitslasten einschließlich Sofortnachrichten, Anwesenheit, Konferenzen und Enterprise-VoIP.
+Front-End-Server bieten die meisten lync Server Funktionalität. Es stehen zwei Editionen zur Verfügung: lync Server Enterprise Edition, die in erster Linie für größere Organisationen entwickelt wurde, und lync Server Standard Edition, die in erster Linie für kleinere Organisationen entwickelt wurde, die einen kleineren Hardwareinvestition wünschen und keine hohe Verfügbarkeit erfordern. Beide Editionen unterstützen alle lync Server Arbeitslasten einschließlich Sofortnachrichten, Anwesenheit, Konferenzen und Enterprise-VoIP.
 
 Mit der Sofortnachrichtenfunktion (Instant Messaging, IM) können Benutzer auf ihren Computern in Echtzeit über textbasierte Nachrichten miteinander kommunizieren. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Ein Teilnehmer an einer Sofortnachrichtensitzung mit zwei Teilnehmern kann der Unterhaltung jederzeit einen dritten Teilnehmer hinzufügen. Wenn dies geschieht, ändert sich das Unterhaltungsfenster, um Konferenzfunktionen zu unterstützen.
 
@@ -51,7 +53,7 @@ Mit der Sofortnachrichtenfunktion (Instant Messaging, IM) können Benutzer auf i
 
 </div>
 
-*Presence* stellt Benutzern Informationen über den Status von other im Netzwerk zur Verfügung. Der Anwesenheitsstatus eines Benutzers enthält Informationen, um anderen zu helfen, zu entscheiden, ob Sie versuchen sollen, den Benutzer zu kontaktieren und ob Chat, Telefon oder e-Mail verwendet werden sollen. Anwesenheit fördert die sofortige Kommunikation, wenn möglich, bietet aber auch Informationen darüber, ob sich ein Benutzer in einer Besprechung oder außerhalb des Büros befindet, was bedeutet, dass eine sofortige Kommunikation nicht möglich ist. Dieser Anwesenheitsstatus wird in lync und anderen Anwendungen mit Anwesenheitsinformationen als Anwesenheitssymbol angezeigt, einschließlich der Microsoft Outlook Messaging-und Zusammenarbeits Clients, Microsoft SharePoint-Technologien, Microsoft Word und Microsoft Excel Kalkulationstabelle Software. Das Anwesenheitssymbol stellt die aktuelle Verfügbarkeit und Bereitschaft des Benutzers zur Kommunikation dar.
+*Presence* stellt Benutzern Informationen über den Status von other im Netzwerk zur Verfügung. Der Anwesenheitsstatus eines Benutzers enthält Informationen, um anderen zu helfen, zu entscheiden, ob Sie versuchen sollen, den Benutzer zu kontaktieren und ob Chat, Telefon oder e-Mail verwendet werden sollen. Anwesenheit fördert die sofortige Kommunikation, wenn möglich, bietet aber auch Informationen darüber, ob sich ein Benutzer in einer Besprechung oder außerhalb des Büros befindet, was bedeutet, dass eine sofortige Kommunikation nicht möglich ist. Dieser Anwesenheitsstatus wird in lync und anderen Anwendungen mit Anwesenheitsinformationen als Anwesenheitssymbol angezeigt, einschließlich des Microsoft Outlook Messaging-und Zusammenarbeits Clients, der Microsoft SharePoint-Technologien, Microsoft Word und Microsoft Excel Tabellenkalkulationssoftware. Das Anwesenheitssymbol stellt die aktuelle Verfügbarkeit und Bereitschaft des Benutzers zur Kommunikation dar.
 
 </div>
 

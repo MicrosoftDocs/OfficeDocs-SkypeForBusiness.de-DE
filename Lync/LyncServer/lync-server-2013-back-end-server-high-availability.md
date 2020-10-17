@@ -12,20 +12,22 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f7680a98eb53414a8b438975d79327b515946
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515752"
 ---
+# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Hohe Verfügbarkeit von Back-End-Servern in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Hohe Verfügbarkeit von Back-End-Servern in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Sie können die SQL-Spiegelung ganz einfach mit dem Topologie-Generator einricht
 
 Wenn Sie entweder SQL-Spiegelung oder SQL-Clustering in einem Pool verwenden, der mit einem anderen Front-End-Pool für die Notfallwiederherstellung gekoppelt ist, sollten Sie dieselbe Back-End-Lösung für hohe Verfügbarkeit in beiden Pools verwenden. Sie sollten keinen Pool mit SQL-Spiegelung mit einem Pool mit SQL-Clustering koppeln.
 
-Wenn Sie die SQL-Spiegelung bereitstellen, werden alle lync Server-Datenbanken im Pool gespiegelt, einschließlich des zentralen Verwaltungsspeichers, wenn dieser sich in diesem Pool befindet, sowie der Reaktionsgruppenanwendung Datenbank und der Anwendung zum Parken von Anrufen Datenbank, wenn diese Anwendungen werden im Pool betrieben.
+Wenn Sie die SQL-Spiegelung bereitstellen, werden alle lync Server-Datenbanken im Pool gespiegelt, einschließlich des zentralen Verwaltungsspeichers, wenn Sie sich in diesem Pool befinden, sowie der Reaktionsgruppenanwendung Datenbank und der Anwendung zum Parken von Anrufen Datenbank, wenn diese Anwendungen im Pool ausführen.
 
 Bei der SQL-Spiegelung müssen Sie keinen gemeinsam genutzten Speicher für die Server verwenden. Jeder Server verwaltet eine Kopie der Datenbanken im lokalen Speicher.
 

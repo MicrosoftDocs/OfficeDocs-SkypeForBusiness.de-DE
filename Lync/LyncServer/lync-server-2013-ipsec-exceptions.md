@@ -12,20 +12,22 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd649cea823ce13460de924ffc49741b3ca5c6d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ee06e4b7f3cabc606a612cd0f332aed47b46823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514152"
 ---
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>IPsec-Ausnahmen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipsec-exceptions-in-lync-server-2013"></a>IPsec-Ausnahmen in lync Server 2013
+
 
 </div>
 
@@ -67,139 +69,139 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahm
 <tbody>
 <tr class="odd">
 <td><p>A/V-Edgeserver, intern eingehend</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>A/V-Edgeserver, intern</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V-Edgeserver, extern eingehend</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>A/V-Edgeserver, extern</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V-Edgeserver, intern ausgehend</p></td>
 <td><p>A/V-Edgeserver, intern</p></td>
-<td><p>Any</p></td>
-<td><p>UDP &amp; -TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>UDP- &amp; TCP</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V-Edgeserver, extern ausgehend</p></td>
 <td><p>A/V-Edgeserver, extern</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Vermittlungsserver, eingehend</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Vermittlungs</p>
 <p>Server (s)</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Vermittlungsserver, ausgehend</p></td>
 <td><p>Vermittlungs</p>
 <p>Server (s)</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Konferenzzentrale, eingehend</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Konferenzzentrale (ausgehend)</p></td>
 <td><p>Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V-Konferenzserver, eingehend</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Front-End-Server</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V-Konferenzen, ausgehend</p></td>
 <td><p>Front-End-Server</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange, eingehend</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Exchange Unified Messaging</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Anwendungsfreigabeserver, eingehend</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Anwendungsfreigabeserver</p></td>
 <td><p>TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anwendungsfreigabeserver, ausgehend</p></td>
 <td><p>Anwendungsfreigabeserver</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange, ausgehend</p></td>
 <td><p>Exchange Unified Messaging</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clients</p></td>
-<td><p>Any</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
+<td><p>Beliebig</p></td>
 <td><p>UDP</p></td>
 <td><p>Angegebener Medienportbereich</p></td>
-<td><p>Any</p></td>
+<td><p>Beliebig</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8400c6bbcf0cfc7d69bcba9dbebab07d14b5e0a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1517ef4a7515a46b9237b1788c457c3aee10953d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180162"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514802"
 ---
+# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Erstellen oder Bearbeiten der XMPP-Partnerkonfiguration in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Erstellen oder Bearbeiten der XMPP-Partnerkonfiguration in lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Microsoft lync Server 2013 integriert einen XMPP-Proxy (Extensible Messaging and
     
     Weitere Informationen zu den XMPP-Anforderungen finden Sie im XSF-Dokument XEP-0178. Ausführliche Informationen finden Sie unter "XEP-0178: bewährte Methoden für die Verwendung von SASL extern mit Zertifikaten". <http://xmpp.org/extensions/xep-0178.html>
     
-    Lesen Sie das IETF-Dokument "Extensible Messaging and Presence Protocol (XMPP): Core", Abschnitt 5,0, STARTTLS <https://tools.ietf.org/html/rfc6120>-Verhandlung.
+    Lesen Sie das IETF-Dokument "Extensible Messaging and Presence Protocol (XMPP): Core", Abschnitt 5,0, STARTTLS-Verhandlung <https://tools.ietf.org/html/rfc6120> .
     
       - **TLS-Aushandlung**. Definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Bei Auswahl von optional wird die Anforderung für eine obligatorische Aushandlungs Entscheidung für den XMPP-Dienst erfüllt. Um alle möglichen Einstellungen und Details für SASL, TLS und Rückruf-Aushandlung – einschließlich nicht gültiger und bekannter Fehler Konfigurationen – anzuzeigen, finden Sie weitere Informationen unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
@@ -108,7 +110,7 @@ Microsoft lync Server 2013 integriert einen XMPP-Proxy (Extensible Messaging and
           - <span></span>  
             **Nicht unterstützt**. Der XMPP-Dienst unterstützt SASL nicht.
     
-      - **Rückruf-Aushandlung**. Rückruf-Aushandlung wird durch die XSF in Document **XEP-220: Server Rückruf** <http://xmpp.org/extensions/xep-0220.html>definiert. Der Serverrückrufprozess verwendet das Domain Name System (DNS) und einen autoritativen Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner stammt. Hierzu erstellt der Ausgangsserver eine Meldung eines bestimmten Typs mit einem generierten Rückrufschlüssel und schlägt den empfangenden Server im DNS nach. Der Ausgangsserver sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, wahrscheinlich an den empfangenden Server. Wenn der Schlüssel über den XML-Datenstrom empfangen wird, antwortet der empfangende Server dem Ausgangsserver nicht, sondern sendet den Schlüssel aber an einen bekannten autoritativen Server. Der autoritative Server überprüft die Gültigkeit des Schlüssels. Wenn der Schlüssel nicht gültig ist, antwortet der empfangende Server dem Ausgangsserver nicht. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ausgangsserver, dass die Identität und der Schlüssel gültig sind und dass die Unterhaltung beginnen kann.
+      - **Rückruf-Aushandlung**. Rückruf-Aushandlung wird durch die XSF in Document **XEP-220: Server Rückruf** definiert <http://xmpp.org/extensions/xep-0220.html> . Der Serverrückrufprozess verwendet das Domain Name System (DNS) und einen autoritativen Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner stammt. Hierzu erstellt der Ausgangsserver eine Meldung eines bestimmten Typs mit einem generierten Rückrufschlüssel und schlägt den empfangenden Server im DNS nach. Der Ausgangsserver sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, wahrscheinlich an den empfangenden Server. Wenn der Schlüssel über den XML-Datenstrom empfangen wird, antwortet der empfangende Server dem Ausgangsserver nicht, sondern sendet den Schlüssel aber an einen bekannten autoritativen Server. Der autoritative Server überprüft die Gültigkeit des Schlüssels. Wenn der Schlüssel nicht gültig ist, antwortet der empfangende Server dem Ausgangsserver nicht. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ausgangsserver, dass die Identität und der Schlüssel gültig sind und dass die Unterhaltung beginnen kann.
         
         Für die **Rückrufaushandlung** gibt es zwei gültige Statusangaben:
         

@@ -12,20 +12,22 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20205bb401132143b0bcda28343e4ae3bcfd93b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a1ff88b11c7d0ce007fc3bac38e7e3618771fb7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514022"
 ---
+# <a name="key-security-features-in-lync-server-2013"></a>Wichtige Sicherheitsfeatures in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-security-features-in-lync-server-2013"></a>Wichtige Sicherheitsfeatures in lync Server 2013
+
 
 </div>
 
@@ -89,7 +91,7 @@ Lync Server 2013 bietet eine leistungsstarke Verwaltungsschnittstelle, die auf d
 
 <div>
 
-## <a name="role-based-access-control-rbac"></a>Rollenbasierte Zugriffssteuerung (RBAC)
+## <a name="role-based-access-control-rbac"></a>Role-Based Zugriffssteuerung (RBAC)
 
 Microsoft lync Server 2013 bietet rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC), mit der Sie administrative Aufgaben delegieren und gleichzeitig hohe Sicherheitsstandards aufrecht erhalten können. Mit der rollenbasierten Zugriffssteuerung können Sie dem Prinzip der geringsten Rechte folgen, bei dem Benutzer nur die administrativen Rechte erhalten, die sie für ihre Arbeit benötigen. Lync Server 2013 bietet die Möglichkeit, eine neue Rolle zu erstellen und außerdem die Möglichkeit, eine vorhandene Rolle zu ändern. Ausführliche Informationen finden Sie unter [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
@@ -127,13 +129,13 @@ Der Bereitstellungs-Assistent kann automatisch die Antragstellernamen (SNS) und 
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>Trustworthy Computing Security Development Lifecycle (SDL)
 
-Lync Server 2013 wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing Security Development Lifecycle (SDL) entworfen und entwickelt, der unter <https://go.microsoft.com/fwlink/?linkid=68761>beschrieben wird.
+Lync Server 2013 wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing Security Development Lifecycle (SDL) entworfen und entwickelt, der unter beschrieben wird <https://go.microsoft.com/fwlink/?linkid=68761> .
 
-  - **Vertrauenswürdig durch Entwurf**   der erste Schritt beim Erstellen eines sicheren Unified Communications-Systems bestand darin, Bedrohungsmodelle zu entwerfen und die einzelnen Features so zu testen, wie Sie entworfen wurden. Darüber hinaus führt Microsoft Tests außerhalb des entworfenen Verhaltens durch, um Sicherheitsrisiken zu finden, die aus einem unerwarteten Produktverhalten resultieren. Mehrere sicherheitsrelevante Verbesserungen wurden während der Codephase getestet und integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt aufgenommen wird. Natürlich ist es nicht möglich, alle unbekannten Sicherheitsbedrohungen vorherzusehen. Es gibt kein System ohne Sicherheitslücken. Da die Produktentwicklung jedoch von Anfang an sichere Entwurfsprinzipien umfasste, umfasst lync Server 2013 Branchenstandard-Sicherheitstechnologien als grundlegender Bestandteil ihrer Architektur.
+  - **Vertrauenswürdig nach Design**     Der erste Schritt bei der Erstellung eines sicheren Unified Communications-Systems war das Entwerfen von Bedrohungsmodellen und das Testen der einzelnen Features, die so entworfen wurden. Darüber hinaus führt Microsoft Tests außerhalb des entworfenen Verhaltens durch, um Sicherheitsrisiken zu finden, die aus einem unerwarteten Produktverhalten resultieren. Mehrere sicherheitsrelevante Verbesserungen wurden während der Codephase getestet und integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt aufgenommen wird. Natürlich ist es nicht möglich, alle unbekannten Sicherheitsbedrohungen vorherzusehen. Es gibt kein System ohne Sicherheitslücken. Da die Produktentwicklung jedoch von Anfang an sichere Entwurfsprinzipien umfasste, umfasst lync Server 2013 Branchenstandard-Sicherheitstechnologien als grundlegender Bestandteil ihrer Architektur.
 
-  - **Vertrauenswürdig**standardmäßig ist die Netzwerkkommunikation in lync Server 2013 verschlüsselt.    Da alle Serverzertifikate und Kerberos-Authentifizierung, TLS, SRTP (Secure Real-Time Transport Protocol) und andere Standard Verschlüsselungstechniken verwenden, einschließlich AES-Verschlüsselung (128-Bit Advanced Encryption Standard), ist praktisch alle lync Server Daten sind im Netzwerk geschützt. Darüber hinaus ermöglicht die rollenbasierte Zugriffssteuerung die Bereitstellung von Servern, auf denen lync Server 2013 ausgeführt wird, sodass jede Serverrolle nur die Dienste ausführt und nur über die Berechtigungen für diese Dienste verfügt, die für die Serverrolle geeignet sind.
+  - **Standardmäßig**     vertrauenswürdig Die Netzwerkkommunikation in lync Server 2013 wird standardmäßig verschlüsselt. Da alle Serverzertifikate und Kerberos-Authentifizierung, TLS, Secure Real-Time Transport Protocol (SRTP) und andere Standard Verschlüsselungstechniken (einschließlich 128-Bit Advanced Encryption Standard) (AES)-Verschlüsselung verwenden, sind praktisch alle lync Server Daten im Netzwerk geschützt. Darüber hinaus ermöglicht die rollenbasierte Zugriffssteuerung die Bereitstellung von Servern, auf denen lync Server 2013 ausgeführt wird, sodass jede Serverrolle nur die Dienste ausführt und nur über die Berechtigungen für diese Dienste verfügt, die für die Serverrolle geeignet sind.
 
-  - **Vertrauenswürdig durch die Bereitstellung**   alle lync Server 2013 Dokumentation enthält bewährte Methoden und Empfehlungen, die Sie bei der Ermittlung und Konfiguration der optimalen Sicherheitsstufen für Ihre Bereitstellung unterstützen und die Sicherheitsrisiken der Aktivierung nicht standardmäßiger Optionen bewerten.
+  - **Vertrauenswürdig durch Bereitstellung**     In der lync Server 2013 Dokumentation finden Sie bewährte Methoden und Empfehlungen, mit denen Sie die optimalen Sicherheitsstufen für Ihre Bereitstellung ermitteln und konfigurieren und die Sicherheitsrisiken der Aktivierung nicht standardmäßiger Optionen bewerten können.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f64676494916bf2c2bd71399bbdd04642da50cee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b10ea662d055812b9fccaa730a936033aaea077c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217301"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515162"
 ---
+# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Ändern von Zertifikaten für Mobilität in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Ändern von Zertifikaten für Mobilität in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217301"
 
 _**Letztes Änderungsstand des Themas:** 2014-06-20_
 
-Um sichere Verbindungen zwischen Ihrer lync-Umgebung und ihren mobilen Clients zu unterstützen, müssen die SSL-Zertifikate (Secure Socket Layer) für Ihre Directorpool, Front-End-Pool und Reverseproxy mit einigen zusätzlichen alternativen Antragstellernamen aktualisiert werden ( San)-Einträge. Wenn Sie weitere Details zu den Zertifikatanforderungen für Mobilität lesen müssen, lesen Sie den Abschnitt Zertifikatanforderungen unter [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), aber im Grunde müssen Sie neue Zertifikate von der Zertifizierungsstelle mit den zusätzlichen San-Einträgen erhalten, und fügen Sie diese Zertifikate dann mithilfe der Schritte dieses Artikels hinzu.
+Um sichere Verbindungen zwischen Ihrer lync-Umgebung und ihren mobilen Clients zu unterstützen, müssen die SSL-Zertifikate (Secure Socket Layer) für Ihre Directorpool, Front-End-Pool und Reverseproxy mit einigen zusätzlichen alternativen Antragstellernamen (San-Einträgen) aktualisiert werden. Wenn Sie weitere Details zu den Zertifikatanforderungen für Mobilität lesen müssen, lesen Sie den Abschnitt Zertifikatanforderungen unter [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), aber im Grunde müssen Sie neue Zertifikate von der Zertifizierungsstelle mit den zusätzlichen San-Einträgen erhalten, und fügen Sie diese Zertifikate dann mithilfe der Schritte dieses Artikels hinzu.
 
 Bevor Sie beginnen, ist es normalerweise ratsam zu wissen, welche alternativen Antragstellernamen ihre Zertifikate bereits besitzen. Wenn Sie nicht sicher sind, was bereits konfiguriert ist, gibt es viele Möglichkeiten, dies herauszufinden. Während die Option zum Ausführen der Befehle **Get-CsCertificate** und other PowerShell zum Anzeigen dieser Informationen (die wir weiter unten durchlaufen) standardmäßig die Daten abgeschnitten werden, sodass Sie möglicherweise nicht alle Eigenschaften angezeigt werden, die Sie benötigen. Um ein gutes Bild des Zertifikats und seiner Eigenschaften zu erhalten, können Sie zur Microsoft Management Console (MMC) wechseln und das Zertifikat-Snap-in (das wir auch weiter unten durchlaufen) laden, oder Sie können einfach den lync Server-Bereitstellungs-Assistenten einchecken.
 
@@ -95,7 +97,7 @@ Als letztes müssen Sie Bedenken, dass Sie möglicherweise ein einzelnes Standar
     
       - Interne Webdienste und Webdienste externe Namen (beispielsweise webpool01.contoso.net, webpool01.contoso.com), basierend auf den im Topologie-Generator und über berittenen Webdiensten vorgenommenen Auswahlmöglichkeiten.
     
-      - Wenn bereits zugewiesen, lyncdiscover. \<sipdomain "\> und" lyncdiscoverinternal ". \<sipdomain "\> -Datensätze.
+      - Wenn bereits zugewiesen, lyncdiscover.\<sipdomain\> und "lyncdiscoverinternal".\<sipdomain\> Datensätze.
     
     Am meisten interessieren Sie sich für das letzte Element – Wenn ein lyncdiscover-und "lyncdiscoverinternal"-San-Eintrag vorhanden ist.
     
@@ -107,7 +109,7 @@ Als letztes müssen Sie Bedenken, dass Sie möglicherweise ein einzelnes Standar
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie den FQDN für die "lyncdiscoverinternal"-und lyncdiscover-Datensätze definieren. Zum Beispiel:
+        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie den FQDN für die "lyncdiscoverinternal"-und lyncdiscover-Datensätze definieren. Beispiel:
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -123,7 +125,7 @@ Als letztes müssen Sie Bedenken, dass Sie möglicherweise ein einzelnes Standar
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
         
-        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie ein entsprechendes Präfix für den FQDN der SIP-Domäne verwenden. Zum Beispiel:
+        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie ein entsprechendes Präfix für den FQDN der SIP-Domäne verwenden. Beispiel:
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -147,7 +149,7 @@ Als letztes müssen Sie Bedenken, dass Sie möglicherweise ein einzelnes Standar
     
 
     > [!NOTE]  
-    > Beachten Sie, dass die Schritte 12 und 13 nur ausgeführt werden sollten, wenn das Konto, auf dem Sie ausgeführt werden, über die entsprechenden Berechtigungen auf die Zertifizierungsstelle zugreifen kann. Wenn Sie sich nicht mit einem Konto anmelden können, das diese Berechtigungen besitzt, oder wenn Sie eine öffentliche oder Remotezertifizierungsstelle für Ihre Zertifikate verwenden, müssen Sie diese über den lync Server-Bereitstellungs-Assistenten anfordern, der oben im Artikel.
+    > Beachten Sie, dass die Schritte 12 und 13 nur ausgeführt werden sollten, wenn das Konto, auf dem Sie ausgeführt werden, über die entsprechenden Berechtigungen auf die Zertifizierungsstelle zugreifen kann. Wenn Sie sich nicht mit einem Konto anmelden können, das diese Berechtigungen hat, oder wenn Sie eine öffentliche oder Remotezertifizierungsstelle für Ihre Zertifikate verwenden, müssen Sie diese über den lync Server-Bereitstellungs-Assistenten anfordern, der oben im Artikel behandelt wurde.
 
     
     </div>

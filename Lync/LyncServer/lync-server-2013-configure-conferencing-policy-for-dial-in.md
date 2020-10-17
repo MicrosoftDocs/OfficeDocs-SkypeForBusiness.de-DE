@@ -12,20 +12,22 @@ ms:contentKeyID: 48184979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33f84ec3cb900b4283f30d67e318ab10d3625326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c42084f2e5ed8acceb73b4f417d8205b78b4b56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204931"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515712"
 ---
+# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>Konfigurieren von Konferenzrichtlinien für die Einwahl in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>Konfigurieren von Konferenzrichtlinien für die Einwahl in lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ Die Konferenzrichtlinie ist eine Benutzerkontoeinstellung, die die Konferenzmög
 
 Überprüfen Sie in Ihrer Konferenzrichtlinie die folgenden Felder:
 
-  - **Teilnehmer dürfen anonyme Benutzer**   einladen mit dieser Einstellung können Besprechungsorganisatoren anonyme (nicht authentifizierte) Teilnehmer zu Besprechungen einladen. Diese Einstellung ist für Einwahlkonferenzen optional. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig ausgewählt.
+  - **Teilnehmer dürfen anonyme Benutzer einladen**     Mit dieser Einstellung können Besprechungsorganisatoren anonyme (nicht authentifizierte) Teilnehmer zu Besprechungen einladen. Diese Einstellung ist für Einwahlkonferenzen optional. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig ausgewählt.
 
-  - **PSTN-Einwahlkonferenzen**   aktivieren mit dieser Einstellung können Benutzer am Audioteil einer Konferenz teilnehmen, indem Sie sich über das PSTN einwählen. Diese Einstellung ist für Einwahlkonferenzen erforderlich. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig ausgewählt.
+  - **Aktivieren von PSTN-Einwahlkonferenzen**     Mit dieser Einstellung können Benutzer am Audioteil einer Konferenz teilnehmen, indem Sie sich über das PSTN einwählen. Diese Einstellung ist für Einwahlkonferenzen erforderlich. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig ausgewählt.
 
-  - **Anonymen Teilnehmern**   das auswählen erlauben diese Einstellung ermöglicht es anonymen Benutzern, die sich bereits mit der Besprechung verbunden haben,, eine Telefonnummer für die Teilnahme am Audioteil der Konferenz zu wählen. Diese Einstellung ist für Einwahlkonferenzen optional. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig nicht ausgewählt.
+  - **Anonymen Teilnehmern das auswählen erlauben**     Mit dieser Einstellung können anonyme Benutzer, die bereits der Besprechung beigetreten sind, eine Telefonnummer wählen, um dem Audioteil der Konferenz beizutreten. Diese Einstellung ist für Einwahlkonferenzen optional. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig nicht ausgewählt.
 
-  - **Teilnehmern, die nicht für Enterprise-VoIP aktiviert sind,**   das auswählen erlauben mit dieser Einstellung können Besprechungsteilnehmer und Organisatoren, die nicht für Enterprise-VoIP aktiviert sind, eine Telefonnummer für die Teilnahme am Audioteil der Konferenz wählen. Der ausgehende Anruf wird auf der Grundlage der dem Organisator zugewiesenen VoIP-Richtlinie autorisiert. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig nicht ausgewählt. Diese Einstellung ist standardmäßig deaktiviert.
+  - **Teilnehmern, die nicht für Enterprise-VoIP aktiviert sind, die Wahlmöglichkeit**     Mit dieser Einstellung können Besprechungsteilnehmer und Organisatoren, die nicht für Enterprise-VoIP aktiviert sind, eine Telefonnummer wählen, um am Audioteil der Konferenz teilzunehmen. Der ausgehende Anruf wird auf der Grundlage der dem Organisator zugewiesenen VoIP-Richtlinie autorisiert. Diese Einstellung ist in der globalen Standardkonferenzrichtlinie standardmäßig nicht ausgewählt. Diese Einstellung ist standardmäßig deaktiviert.
     
     <div>
     

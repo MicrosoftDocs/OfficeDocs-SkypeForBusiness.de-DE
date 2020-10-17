@@ -12,20 +12,22 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96c97301221e50873ab53dc06452721c74ed6627
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec067e84c87321374ed1d9beb98c086633f3e28c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515332"
 ---
+# <a name="global-media-bypass-options-in-lync-server-2013"></a>Optionen für die globale medienumgehung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="global-media-bypass-options-in-lync-server-2013"></a>Optionen für die globale medienumgehung in lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**Letztes Änderungsstand des Themas:** 2012-10-04_
 
 
 > [!NOTE]  
-> In diesem Thema wird davon ausgegangen, dass Sie die medienumgehung für alle Trunks mit einem Peer (öffentliches Telefon Festnetz (PSTN), IP-PBX oder einen Session Border Controller (SBC) bei einem Internet Telefonie-Dienstanbieter konfiguriert haben) für einen bestimmten Standort oder Dienst für auf dem die Vermittlungsserver von Medien umgangen werden sollen.
+> In diesem Thema wird davon ausgegangen, dass Sie die medienumgehung für alle Trunks für einen bestimmten Standort oder Dienst, für den Medien die Vermittlungsserver umgehen sollen, bereits für einen Peer (ein PSTN-Gateway (Public Switched Telephone Network), eine IP-Nebenstellenanlage oder einen Session Border Controller (SBC) konfiguriert haben.
 
 
 
 </div>
 
-Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, die einem Peer zugeordnet sind, müssen Sie die Medienumgehung auch global aktivieren. Globale medienumgehungseinstellungen können entweder angeben, dass die medienumgehung immer für Anrufe an das PSTN versucht wird, oder dass die medienumgehung mithilfe der Zuordnung von Subnetzen zu Netzwerkstandorten und netzwerkregionen verwendet wird – ähnlich wie bei der Anrufsteuerung, eine andere Erweiterte Sprachfunktion. Wenn medienumgehung und Anrufsteuerung aktiviert sind, werden die netzwerkregion, der Netzwerkstandort und die Subnetzinformationen, die für die Anrufsteuerung angegeben sind, automatisch verwendet, wenn Sie feststellen, ob die medienumgehung eingesetzt werden soll. Dies bedeutet, dass Sie nicht angeben können, dass die medienumgehung immer für Anrufe an das PSTN versucht wird, wenn die Anrufsteuerung aktiviert ist.
+Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, die einem Peer zugeordnet sind, müssen Sie die Medienumgehung auch global aktivieren. Globale medienumgehungseinstellungen können entweder angeben, dass die medienumgehung immer für Anrufe an das PSTN versucht wird, oder dass die medienumgehung mithilfe der Zuordnung von Subnetzen zu Netzwerkstandorten und netzwerkregionen verwendet wird – ähnlich wie bei der Anrufsteuerung, einer weiteren erweiterten Sprachfunktion. Wenn medienumgehung und Anrufsteuerung aktiviert sind, werden die netzwerkregion, der Netzwerkstandort und die Subnetzinformationen, die für die Anrufsteuerung angegeben sind, automatisch verwendet, wenn Sie feststellen, ob die medienumgehung eingesetzt werden soll. Dies bedeutet, dass Sie nicht angeben können, dass die medienumgehung immer für Anrufe an das PSTN versucht wird, wenn die Anrufsteuerung aktiviert ist.
 
 In diesem Thema wird beschrieben, wie Sie lync Server-Systemsteuerung und lync Server-Verwaltungsshell zusammen verwenden, um die globalen Einstellungen für die medienumgehung zu konfigurieren.
 
@@ -55,7 +57,7 @@ In diesem Thema wird beschrieben, wie Sie lync Server-Systemsteuerung und lync S
 
 
 > [!NOTE]  
-> Wenn Sie diese Schritte zum Konfigurieren der Medienumgehung verwenden, wird von einer guten Konnektivität zwischen Clients und dem Vermittlungsserverpeer ausgegangen (z. B. einem PSTN-Gateway, einer IP-Nebenstellenanlage oder einem SBC beim SIP-Trunking-Anbieter). Wenn für die Verbindung Bandbreiteneinschränkungen gelten, kann die Medienumgehung nicht auf den Anruf angewendet werden. Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCS mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBX durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>– lync Server unter aufgeführt sind.
+> Wenn Sie diese Schritte zum Konfigurieren der Medienumgehung verwenden, wird von einer guten Konnektivität zwischen Clients und dem Vermittlungsserverpeer ausgegangen (z. B. einem PSTN-Gateway, einer IP-Nebenstellenanlage oder einem SBC beim SIP-Trunking-Anbieter). Wenn für die Verbindung Bandbreiteneinschränkungen gelten, kann die Medienumgehung nicht auf den Anruf angewendet werden. Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCS mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBX durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program – lync Server unter aufgeführt sind <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> .
 
 
 

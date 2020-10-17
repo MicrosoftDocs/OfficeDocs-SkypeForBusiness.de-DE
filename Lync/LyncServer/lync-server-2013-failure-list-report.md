@@ -12,20 +12,22 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 010e8314eb7d2cbb33354461bdc2a1eb2c5b2cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 467dbfe14cbcbe7a032439fd437d3ce2c58c6d46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204349"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515382"
 ---
+# <a name="failure-list-report-in-lync-server-2013"></a>Fehlerlistenbericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Fehlerlistenbericht in lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ Im fehlerlistenbericht können Sie einfach eine Beschreibung für jeden Antwortc
 
 Interner Serverfehler beim Erstellen von Medien für den Benutzer.
 
-Beachten Sie, dass der fehlerlistenbericht keine einfache Möglichkeit bietet, eine Liste aller Benutzer direkt abzurufen, die an mindestens einer fehlgeschlagenen Sitzung teilgenommen haben, und es ist auch nicht möglich, festzustellen, welche Benutzer am häufigsten an einem fehlgeschlagenen Vorgang beteiligt waren. Sitzung. (Für eine Sache hat der fehlerlistenbericht keine Filterfunktionen.) Wenn Sie die Daten jedoch exportieren und dann in eine Datei mit Komma getrennten Werten konvertieren, können Sie Windows PowerShell verwenden, um die Antworten auf Fragen wie diese zu finden. Nehmen Sie beispielsweise an, dass Sie die Daten in a speichern. CSV-Datei namens C\\:\\Data\_Failure List. CSV. Basierend auf den in dieser Datei gespeicherten Daten listet dieser Befehl alle Benutzer auf, die an mindestens einer fehlgeschlagenen Sitzung beteiligt waren:
+Beachten Sie, dass der fehlerlistenbericht keine direkte Möglichkeit bietet, eine Liste aller Benutzer direkt abzurufen, die an mindestens einer fehlgeschlagenen Sitzung teilgenommen haben, und es ist auch nicht möglich, festzustellen, welche Benutzer am häufigsten an einer fehlgeschlagenen Sitzung beteiligt waren. (Für eine Sache hat der fehlerlistenbericht keine Filterfunktionen.) Wenn Sie die Daten jedoch exportieren und dann in eine Datei mit Komma getrennten Werten konvertieren, können Sie Windows PowerShell verwenden, um die Antworten auf Fragen wie diese zu finden. Nehmen Sie beispielsweise an, dass Sie die Daten in a speichern. CSV-Datei mit dem Namen C: \\ Daten \\ Fehler \_List.csv. Basierend auf den in dieser Datei gespeicherten Daten listet dieser Befehl alle Benutzer auf, die an mindestens einer fehlgeschlagenen Sitzung beteiligt waren:
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique

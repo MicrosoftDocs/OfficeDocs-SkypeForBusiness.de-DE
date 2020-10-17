@@ -12,20 +12,22 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514508"
 ---
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Voraussetzungen und Berechtigungen für die Einwahlkonferenz Konfiguration in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Voraussetzungen und Berechtigungen für die Einwahlkonferenz Konfiguration in lync Server 2013
+
 
 </div>
 
@@ -119,11 +121,11 @@ Mithilfe dieser Verwaltungsprogramme konfigurieren Sie die Einwahlkonferenzeinst
 
 Für das Konfigurieren von Einwahlkonferenzen ist, je nach Aufgabe, eine der folgenden Administratorrollen erforderlich:
 
-  - **CsVoiceAdministrator**   diese Administratorrolle kann VoIP-bezogene Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.
+  - **CsVoiceAdministrator**     Diese Administratorrolle kann VoIP-bezogene Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.
 
-  - **CsUserAdministrator**   diese Administratorrolle kann Benutzer für lync Server aktivieren und deaktivieren und Benutzern vorhandene Richtlinien wie Konferenzrichtlinien und PIN-Richtlinien zuweisen.
+  - **CsUserAdministrator**     Diese Administratorrolle kann Benutzer für lync Server aktivieren und deaktivieren und Benutzern vorhandene Richtlinien wie Konferenzrichtlinien und PIN-Richtlinien zuweisen.
 
-  - **CsAdministrator**   diese Administratorrolle kann alle Aufgaben von CsVoiceAdministrator und CsUserAdministrator ausführen.
+  - **CsAdministrator**     Diese Administratorrolle kann alle Aufgaben von CsVoiceAdministrator und CsUserAdministrator ausführen.
 
 </div>
 

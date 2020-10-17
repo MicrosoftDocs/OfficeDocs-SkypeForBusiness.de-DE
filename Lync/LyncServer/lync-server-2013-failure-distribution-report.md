@@ -12,20 +12,22 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1531b7b103e3df6f2d165a4fd6fcd3abf100132
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65735c6b5eba4ff8d15aced6fcc94e38591bdb3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179622"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515392"
 ---
+# <a name="failure-distribution-report-in-lync-server-2013"></a>Bericht über Fehlerverteilung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-distribution-report-in-lync-server-2013"></a>Bericht über Fehlerverteilung in lync Server 2013
+
 
 </div>
 
@@ -163,11 +165,11 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Bericht über F
 <td><p>Gibt an, ob die betreffende Aktivität erfolgreich war oder nicht. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
 <li><p>Alle</p></li>
-<li><p>Success</p></li>
+<li><p>Erfolg</p></li>
 <li><p>Erwarteter Fehler</p></li>
 <li><p>Unerwarteter Fehler</p></li>
 </ul>
-<p>Ein &quot;erwarteter&quot; Fehler ist ein Fehler, der voraussichtlich eintreten wird. Hat beispielsweise ein Benutzer seinen Status auf "Nicht stören" gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen. Ein &quot;unerwarteter Fehler&quot; ist ein Fehler, der in einem ansonsten fehlerhaften System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als "unerwartet" gekennzeichnet.</p></td>
+<p>Ein &quot; Erwarteter Fehler &quot; ist ein Fehler, der voraussichtlich eintreten wird. Hat beispielsweise ein Benutzer seinen Status auf "Nicht stören" gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen. Ein &quot; unerwarteter Fehler &quot; ist ein Fehler, der in einem ansonsten fehlerhaften System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als "unerwartet" gekennzeichnet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Diagnose-ID</strong></p></td>

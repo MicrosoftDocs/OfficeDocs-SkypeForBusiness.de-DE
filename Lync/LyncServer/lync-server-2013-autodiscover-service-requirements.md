@@ -12,20 +12,22 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec6c3ada06312f816a75f5539593336addc8d2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cf4a26c9f0b36cd239daabbc2538716e2bcd3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515772"
 ---
+# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Anforderungen für den AutoErmittlungsdienst für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Anforderungen für den AutoErmittlungsdienst für lync Server 2013
+
 
 </div>
 
@@ -43,9 +45,9 @@ Ausführliche Informationen zu den Einträgen für alternative Antragstellername
 
 Die Entscheidung, ob auf Reverseproxys alternative Antragstellernamen verwendet werden sollen, basiert darauf, ob Sie den AutoErmittlungsdienst an Port 80 oder an Port 443 veröffentlichen:
 
-  - **Veröffentlicht auf Port 80**   keine Zertifikat Änderungen sind erforderlich, wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync läuft, extern auf den Reverseproxy auf Port 80 zugreifen und dann an Port 8080 intern an einen Director oder Front-End-Server weitergeleitet werden. Detaillierte Informationen finden Sie im Abschnitt "Anfänglicher AutoErmittlungsprozess über Port 80" weiter unten in diesem Thema.
+  - **Veröffentlicht am Port 80**     Wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt, sind keine Änderungen am Zertifikat erforderlich. Dies liegt daran, dass Mobile Geräte, auf denen lync läuft, extern auf den Reverseproxy auf Port 80 zugreifen und dann an Port 8080 intern an einen Director oder Front-End-Server weitergeleitet werden. Detaillierte Informationen finden Sie im Abschnitt "Anfänglicher AutoErmittlungsprozess über Port 80" weiter unten in diesem Thema.
 
-  - **Veröffentlicht am Port 443**   die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für externe Webdienste verwendet werden, muss ein *lyncdiscover enthalten.\< sipdomain "\> * -Eintrag für jede SIP-Domäne in Ihrer Organisation.
+  - **Veröffentlicht am Port 443**     Die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für externe Webdienste verwendet werden, muss ein *lyncdiscover enthalten. \<sipdomain\> * Eintrag für jede SIP-Domäne in Ihrer Organisation.
 
 Das erneute Ausstellen von Zertifikaten mithilfe einer internen Zertifizierungsstelle ist in der Regel ein einfacher Prozess, für öffentliche Zertifikate, die in der Veröffentlichungsregel des Webdiensts verwendet werden, kann das Hinzufügen mehrerer alternativer alternativen Namen teuer werden. Um dieses Problem zu umgehen, unterstützen wir die anfängliche automatische Ermittlungs Verbindung über Port 80, die dann an Port 8080 auf dem Director oder Front-End-Server umgeleitet wird.
 
@@ -59,7 +61,7 @@ Nehmen Sie beispielsweise an, dass ein mobiler Client, auf dem lync Mobile läuf
 
 2.  Externe DNS gibt die IP-Adresse für die externen Webdienste an den Client zurück.
 
-3.  Mobiles Gerät, auf dem lync http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com Mobile läuft, sendet eine Anforderung an den Reverse-Proxy
+3.  Mobiles Gerät, auf dem lync Mobile läuft, sendet eine Anforderung http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com an den Reverse-Proxy
 
 4.  Die Webveröffentlichungsregel wird die Anforderung von Port 80 extern an Port 8080 intern überbrücken, um Sie dann an einen Director oder Front-End-Server weiterzuleiten.
     
@@ -77,7 +79,7 @@ Nehmen Sie beispielsweise an, dass ein mobiler Client, auf dem lync Mobile läuf
     
 
     > [!NOTE]  
-    > Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a.&nbsp;&nbsp;&nbsp;der Webserver antwortet mit einem "Server Hello" und keinem Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;das Mobile Gerät, auf dem lync Mobile läuft, beendet die Sitzung sofort.<BR>Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a.&nbsp;&nbsp;&nbsp;der Webserver antwortet mit einem "Server Hello" und einem Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;mobiles Gerät, auf dem lync Mobile ausgeführt wird, überprüft das Zertifikat und schließt den Hand Shake ab.
+    > Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a. &nbsp; &nbsp; &nbsp; Der Webserver antwortet mit einem "Server Hello" und keinem Zertifikat.<BR>b. &nbsp; &nbsp; &nbsp; Mobiles Gerät, auf dem lync Mobile läuft, beendet die Sitzung sofort.<BR>Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a. &nbsp; &nbsp; &nbsp; Der Webserver antwortet mit einem "Server Hello" und einem Zertifikat.<BR>b. &nbsp; &nbsp; &nbsp; Mobiles Gerät, auf dem lync Mobile ausgeführt wird, überprüft das Zertifikat und schließt den Hand Shake ab.
 
     
     </div>

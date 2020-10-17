@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514002"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>FAQ für umfangreiche Besprechungs Unterstützung für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>FAQ für umfangreiche Besprechungs Unterstützung für lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Die folgenden Abschnitte enthalten Antworten auf häufige Fragen zum Erstellen u
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>Frage: Wie viele Benutzer können an einer großen Besprechung teilnehmen?
 
-Das lync Server Benutzermodell gibt die Begrenzungen von 250 Benutzern in einem freigegebenen Pool oder 1000-Benutzern in einem Pool an, der für große Besprechungen reserviert ist, aber diese Zahlen stellen nur die Anzahl der getesteten Benutzer dar und nur für die spezifische Hardware, die wir in unseren Tests verwendet haben. Basierend auf unseren Tests empfehlen wir diese Grenzwerte für maximale Größe. Sie steuern jedoch die tatsächliche Anzahl von Teilnehmern, die in Besprechungen in Ihrer Organisation zulässig sind, indem Sie eine oder mehrere Konferenzrichtlinien konfigurieren (die Sie mit Windows PowerShell-Cmdlets im lync Server-Verwaltungsshell oder mithilfe der lync Server Systemsteuerung). Die Nummer, die Sie in einer konferenzrichtlinie angeben, kann eine beliebige 32-Bit-ganze Zahl zwischen 1 und 4.294.967.295 sein, die empfohlene Größe liegt jedoch zwischen 2 und 250 Teilnehmern, einschließlich; der Standardwert lautet 250.
+Das lync Server Benutzermodell gibt die Begrenzungen von 250 Benutzern in einem freigegebenen Pool oder 1000-Benutzern in einem Pool an, der für große Besprechungen reserviert ist, aber diese Zahlen stellen nur die Anzahl der getesteten Benutzer dar und nur für die spezifische Hardware, die wir in unseren Tests verwendet haben. Basierend auf unseren Tests empfehlen wir diese Grenzwerte für maximale Größe. Sie steuern jedoch die tatsächliche Anzahl von Teilnehmern, die in Besprechungen in Ihrer Organisation zulässig sind, indem Sie eine oder mehrere Konferenzrichtlinien konfigurieren (die Sie mit Windows PowerShell-Cmdlets im lync Server-Verwaltungsshell oder mithilfe der lync Server-Systemsteuerung konfigurieren). Die Nummer, die Sie in einer konferenzrichtlinie angeben, kann eine beliebige 32-Bit-ganze Zahl zwischen 1 und 4.294.967.295 sein, die empfohlene Größe liegt jedoch zwischen 2 und 250 Teilnehmern, einschließlich; der Standardwert lautet 250.
 
 </div>
 
@@ -75,7 +77,7 @@ Große Besprechungen mit bis zu 1000 Benutzern können Audio, Video, PowerPoint
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>Frage: Kann ich in großen Besprechungen einen Gruppenchat verwenden?
 
-Ja. Jedoch kann eine große Anzahl von Chatnachrichten, insbesondere wenn diese von sehr vielen Besprechungsteilnehmern gesendet werden, die Benutzerfreundlichkeit beeinträchtigen, da es Probleme mit dem schnellen Textbildlauf im Chatfester geben kann. Durch das Senden einer großen Anzahl von Chatnachrichten an bis zu 1000 Benutzer kann zudem eine beträchtliche Serverlast entstehen, die zu einer Leistungsbeeinträchtigung führen kann. Im Allgemeinen ist Chat nur für Fragen und Antworten erforderlich (Q\&as).
+Ja. Jedoch kann eine große Anzahl von Chatnachrichten, insbesondere wenn diese von sehr vielen Besprechungsteilnehmern gesendet werden, die Benutzerfreundlichkeit beeinträchtigen, da es Probleme mit dem schnellen Textbildlauf im Chatfester geben kann. Durch das Senden einer großen Anzahl von Chatnachrichten an bis zu 1000 Benutzer kann zudem eine beträchtliche Serverlast entstehen, die zu einer Leistungsbeeinträchtigung führen kann. Im Allgemeinen ist Chat nur für Fragen und Antworten erforderlich (Q \& As).
 
 </div>
 

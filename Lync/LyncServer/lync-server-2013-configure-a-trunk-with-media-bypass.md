@@ -12,20 +12,22 @@ ms:contentKeyID: 48184959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 256962ace879c9d418d877b94f15227959177407
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 940470dc8b6ccb7563dede6e3deaa4f123d88858
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515722"
 ---
+# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Konfigurieren eines Trunks mit medienumgehung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Konfigurieren eines Trunks mit medienumgehung in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Es wird dringend empfohlen, die medienumgehung zu aktivieren. Bevor Sie jedoch d
 
 
 > [!NOTE]  
-> Die medienumgehung kann nicht mit jedem PSTN-Gateway (Public Switched Telephone Network), IP-PBX-Gerät und einem SBC (Session Border Controller) zusammenarbeiten. Microsoft hat eine Reihe von PSTN-Gateways und SBCS mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBX durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program – lync Server <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>unter aufgeführt sind.
+> Die medienumgehung kann nicht mit jedem PSTN-Gateway (Public Switched Telephone Network), IP-PBX-Gerät und einem SBC (Session Border Controller) zusammenarbeiten. Microsoft hat eine Reihe von PSTN-Gateways und SBCS mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBX durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program – lync Server unter aufgeführt sind <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> .
 
 
 
@@ -180,7 +182,7 @@ Eine trunkkonfiguration wie unten beschrieben gruppiert eine Gruppe von Paramete
     
 
     > [!IMPORTANT]  
-    > Es ist wichtig, PSTN-Verwendungsdaten Sätze gemäß dem Vermittlungsserver Peer zuzuordnen, der dem zu konfigurierenden trunk zugeordnet ist. Wenn es sich bei dem Vermittlungsserver Peer um ein PSTN-Gateway oder einen SBC (Session Border Controller) handelt, wird dringend empfohlen, dass die trunkkonfiguration keinem PSTN-Verwendungs Eintrag zugeordnet ist, der zu einem PSTN-Ziel oder anderen über lync verbundenen Downstream-Systemen weiterleitet. Server.
+    > Es ist wichtig, PSTN-Verwendungsdaten Sätze gemäß dem Vermittlungsserver Peer zuzuordnen, der dem zu konfigurierenden trunk zugeordnet ist. Wenn es sich bei dem Vermittlungsserver Peer um ein PSTN-Gateway oder einen SBC (Session Border Controller) handelt, wird dringend empfohlen, dass die trunkkonfiguration keinem PSTN-Verwendungsdaten Satz zugeordnet ist, der an ein PSTN-Ziel oder andere nachgeschaltete Systeme weitergeleitet wird, die über lync Server verbunden sind.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a65dd081cacd9952ce1b9a7f0917209532a28cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e281b85879063cacb9538d03fe221a4bf96b6bc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514212"
 ---
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Einrichten einer Sicherungs-und Wiederherstellungsstrategie für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Einrichten einer Sicherungs-und Wiederherstellungsstrategie für lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Bewerten Sie die geschäftlichen Prioritäten Ihrer Organisation. Normalerweise 
 
   - Datenvollständigkeit
 
-  - Daten kritisch
+  - Datenkritikalität
 
   - Portabilitäts Anforderungen
 
@@ -69,15 +71,15 @@ Geschäftliche Anforderungen wie diese helfen bei der Bestimmung der Vereinbarun
 
 Ihre geschäftlichen Prioritäten und Vereinbarungen zum Service Level dienen der Bestimmung der Anforderungen Ihrer Organisation zum Sichern und Wiederherstellen von lync Server. Identifizieren und dokumentieren Sie Ihre Anforderungen für Folgendes:
 
-  - **Häufigkeit von Sicherungen**   ausführliche Informationen zu bewährten Methoden für die Sicherungshäufigkeit finden Sie unter [bewährte Methoden für die Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
+  - **Häufigkeit von Sicherungen**     Ausführliche Informationen zu bewährten Methoden für die Sicherungshäufigkeit finden Sie unter [bewährte Methoden für die Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
 
-  - **Zu den Sicherungs-und Wiederherstellungstools**   gehören die Benutzer, die die Tools verwenden sollen, und auf welchen Computern. Ausführliche Informationen zu den in diesem Thema und den erforderlichen Berechtigungen beschriebenen Tools finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - **Sicherungs-und Wiederherstellungstools**     Geben Sie an, welche Benutzer die Tools verwenden sollen und auf welchen Computern. Ausführliche Informationen zu den in diesem Thema und den erforderlichen Berechtigungen beschriebenen Tools finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
-  - **Sicherungsspeicherort**   ermitteln Sie, ob die Sicherungen lokal oder Remote aufbewahrt werden, wobei Sicherheit und Barrierefreiheit berücksichtigt werden. Geben Sie die Medien an, die für die Sicherungen verwendet werden sollen.
+  - **Sicherungsspeicherort**     Ermitteln, ob die Sicherungen lokal oder Remote aufbewahrt werden, wobei Sicherheit und Barrierefreiheit berücksichtigt werden. Geben Sie die Medien an, die für die Sicherungen verwendet werden sollen.
 
-  - **Hardware-und Softwareanforderungen**   identifizieren und dokumentieren ihre spezifischen Hardware-und Softwareanforderungen, einschließlich der Hardware für den Sicherungsspeicher und der Wiederherstellung bestimmter Komponenten sowie der erforderlichen Software-und Netzwerkkonnektivität zur Unterstützung von Sicherung und Wiederherstellung. Beachten Sie bei der Entwicklung Ihrer Hardware-und Softwareanforderungen die verschiedenen Wiederherstellungsszenarien, die befolgt werden.
+  - **Hardware-und Softwareanforderungen**     Identifizieren und dokumentieren Sie Ihre spezifischen Hardware-und Softwareanforderungen, einschließlich der Hardware für den Sicherungsspeicher und der Wiederherstellung bestimmter Komponenten sowie aller Software-und Netzwerkkonnektivität, die zur Unterstützung von Sicherung und Wiederherstellung erforderlich sind. Beachten Sie bei der Entwicklung Ihrer Hardware-und Softwareanforderungen die verschiedenen Wiederherstellungsszenarien, die befolgt werden.
 
-  - **Wiederherstellungsszenarien**   sind hier die Wiederherstellungsprozesse für die folgenden Szenarien:
+  - **Wiederherstellungsszenarien**     Hier sind die Wiederherstellungsprozesse für die folgenden Szenarien:
     
       - Ein lync Server Pool schlägt fehl. In diesem Szenario ist es erforderlich, jeden Server im Pool neu zu erstellen.
     

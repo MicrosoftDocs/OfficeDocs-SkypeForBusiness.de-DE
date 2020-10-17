@@ -12,20 +12,22 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f2b88b43c41a5a8bf990a72f0fdfef1c5537e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 213e42a7477202cf40a0b06c79edde49976f0bbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184818"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515272"
 ---
+# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Ändern Sie die Standardaktion für Clients, die nicht explizit unterstützt oder in lync Server 2013 eingeschränkt sind.
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Ändern Sie die Standardaktion für Clients, die nicht explizit unterstützt oder in lync Server 2013 eingeschränkt sind.
+
 
 </div>
 
@@ -53,13 +55,13 @@ Zusätzlich zur Angabe der Version der Clients, die Sie in ihrer lync Server 201
 
 5.  Stellen Sie im Dialogfeld **Clientversionskonfiguration bearbeiten** sicher, dass das Kontrollkästchen **Versionskontrolle aktivieren** aktiviert ist, und wählen Sie anschließend unter **Standardaktion** eine der folgenden Optionen aus:
     
-      - **Allow**   ermöglicht dem Client die Anmeldung, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht.
+      - **Zulassen**     Ermöglicht dem Client die Anmeldung, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht.
     
-      - **Blockieren**   verhindert, dass der Client sich anmeldet, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht.
+      - **Block**     Verhindert, dass der Client sich anmeldet, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht.
     
-      - **Blockieren mit URL**   verhindert, dass der Client sich anmeldet, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht, und eine Fehlermeldung mit einer URL enthält, in der ein neuerer Client heruntergeladen werden kann.
+      - **Blockieren mit URL**     Verhindert, dass der Client sich anmeldet, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht, und eine Fehlermeldung mit einer URL enthält, in der ein neuerer Client heruntergeladen werden kann.
     
-      - **Allow with URL**   ermöglicht dem Client die Anmeldung, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht, und eine Fehlermeldung mit einer URL enthält, in der ein neuerer Client heruntergeladen werden kann.
+      - **Zulassen mit URL**     Ermöglicht dem Client die Anmeldung, wenn die Client Version keinem Filter in der Liste mit den **clientversionsrichtlinien** entspricht, und eine Fehlermeldung mit einer URL enthält, in der ein neuerer Client heruntergeladen werden kann.
 
 6.  Wenn Sie die Option **Blockieren mit URL** auswählen, geben Sie im Feld **URL** die URL für den Clientdownload ein, die in der Fehlermeldung angezeigt werden soll.
 
@@ -79,7 +81,7 @@ Zusätzlich zur Angabe der Version der Clients, die Sie in ihrer lync Server 201
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Ändern der Standardaktion mithilfe von Windows PowerShell-Cmdlets
 
-Die Standardaktion, die ausgeführt werden soll, wenn Benutzer versuchen, sich mit Clients zu anmelden, die nicht explizit unterstützt oder durch eine clientversionsrichtlinie eingeschränkt sind, können über Windows PowerShell Befehlszeilenschnittstelle und das Cmdlet " **CsClientVersionPolicy** " verwaltet werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Die Standardaktion, die ausgeführt werden soll, wenn Benutzer versuchen, sich mit Clients zu anmelden, die nicht explizit unterstützt oder durch eine clientversionsrichtlinie eingeschränkt sind, können über Windows PowerShell Befehlszeilenschnittstelle und das Cmdlet " **CsClientVersionPolicy** " verwaltet werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

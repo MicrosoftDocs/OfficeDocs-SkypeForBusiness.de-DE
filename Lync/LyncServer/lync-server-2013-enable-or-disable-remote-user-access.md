@@ -12,20 +12,22 @@ ms:contentKeyID: 48185660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73381280b2d87ff73daa79162571f1f729086b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f02281bdb47fc043d372f5b6e3842a70fe39316
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515548"
 ---
+# <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Um den Zugriff durch Remotebenutzer zu unterstützen, müssen Sie den Remotebenu
 
 
 > [!NOTE]  
-> Aktivieren des Remotebenutzerzugriffs nur gibt an, dass Ihre Server mit dem Zugriffs-Edgedienst die Kommunikation mit Remotebenutzern unterstützen, Remotebenutzer können jedoch nicht an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, bis Sie auch unter mindestens eine Richtlinie zum Verwalten der Verwendung des Remotebenutzerzugriffs. Lync Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Lync Server Vorrang vor der Richtlinie: Benutzerrichtlinie (der meiste Einfluss) setzt eine Standortrichtlinie außer Kraft, und eine Standortrichtlinie setzt eine globale Richtlinie (am wenigsten Einfluss) außer Kraft. Dies bedeutet, dass je näher die Richtlinieneinstellung auf das Objekt zutrifft, das die Richtlinie betrifft, desto mehr Einfluss hat Sie auf das Objekt. Ausführliche Informationen zum Konfigurieren von Richtlinien für die Verwendung des Remotebenutzerzugriffs finden Sie unter <A href="lync-server-2013-configure-policies-to-control-remote-user-access.md">configure Policies to Control Remote User Access in lync Server 2013</A>.
+> Aktivieren des Remotebenutzerzugriffs nur gibt an, dass Ihre Server mit dem Zugriffs-Edgedienst die Kommunikation mit Remotebenutzern unterstützen, Remotebenutzer können jedoch erst an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie zum Verwalten der Verwendung des Remotebenutzerzugriffs konfiguriert haben. Lync Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Lync Server Vorrang vor der Richtlinie: Benutzerrichtlinie (der meiste Einfluss) setzt eine Standortrichtlinie außer Kraft, und eine Standortrichtlinie setzt eine globale Richtlinie (am wenigsten Einfluss) außer Kraft. Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie. Ausführliche Informationen zum Konfigurieren von Richtlinien für die Verwendung des Remotebenutzerzugriffs finden Sie unter <A href="lync-server-2013-configure-policies-to-control-remote-user-access.md">configure Policies to Control Remote User Access in lync Server 2013</A>.
 
 
 
@@ -79,7 +81,7 @@ Damit Remotebenutzer sich bei ihren Servern anmelden können, auf denen lync Ser
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des Remote Benutzerzugriffs mithilfe von Windows PowerShell-Cmdlets
 
-Der Remote Benutzer Zugriff kann mit Windows PowerShell und dem Cmdlet "csaccessedgeconfiguration nicht angeben" verwaltet werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Der Remote Benutzer Zugriff kann mit Windows PowerShell und dem Set-CsAccessEdgeConfiguration-Cmdlet verwaltet werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65560cd792fe4132cf20f3b32824b2c828ae757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513882"
 ---
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Liste der Server Tabellen für beständigen Chat in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Liste der Server Tabellen für beständigen Chat in lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Das Datenbankschema für beständigen Chat besteht aus den folgenden Tabellen.
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladupdates.md">tblADUpdates in lync Server 2013</a></p></td>
-<td><p>Enthält Änderungen an Active Directory-Domänendienste, die von den späteren Active Directory Synchronisierungs Schritten noch nicht verarbeitet wurden und eine der temporären Tabellen (zusammen mit der principalmemberdifference-Tabelle) sind, die im ersten Schritt von Active Directory verwendet werden. Sync.</p>
+<td><p>Enthält Änderungen an Active Directory-Domänendienste, die von den späteren Active Directory Synchronisierungs Schritten noch nicht verarbeitet wurden und eine der temporären Tabellen (zusammen mit der principalmemberdifference-Tabelle) sind, die im ersten Schritt der Active Directory Synchronisierung verwendet werden.</p>
 <p>Änderungen an Active Directory werden nur für Prinzipale gespeichert, verarbeitet oder beide, die bereits in der tblPrincipal-Tabelle aufgeführt sind.</p></td>
 </tr>
 <tr class="even">
@@ -143,11 +145,11 @@ Das Datenbankschema für beständigen Chat besteht aus den folgenden Tabellen.
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute in lync Server 2013</a></p></td>
-<td><p>Enthält nur die hart &quot;codierten&quot; Sichtbarkeits-und &quot;Verhaltens&quot; Attribute, die in der tblNode-Tabelle verwendet werden.</p></td>
+<td><p>Enthält nur die hartcodierten &quot; Sichtbarkeits &quot; -und &quot; Verhaltens &quot; Attribute, die in der tblNode-Tabelle verwendet werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">tblEnumValue in lync Server 2013</a></p></td>
-<td><p>Enthält die Werte der hartcodierten &quot;Sichtbarkeits-und Verhaltens&quot; Attribute, die in der tblNode-Tabelle verwendet werden.</p></td>
+<td><p>Enthält die Werte der hartcodierten &quot; Sichtbarkeits-und Verhaltens &quot; Attribute, die in der tblNode-Tabelle verwendet werden.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8a8da9937e31f0544dd93b1994745dc3a9eb10b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 58b0ffdc009d48ef82d1bdf3ba8662cd4072ea1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180172"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514852"
 ---
+# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180172"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Die Verbindung mit öffentlichen Instant Messaging-Verbindungen ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chat, um mit Benutzern von Chat Diensten zu kommunizieren, die von öffentlichen Sofortnachrichten-Dienstanbietern bereit\!gestellt werden, einschließlich Windows Live Messenger, Yahoo und AOL.
+Die Verbindung mit öffentlichen Instant Messaging-Verbindungen ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chat, um mit Benutzern von Chat Diensten zu kommunizieren, die von öffentlichen Sofortnachrichten-Dienstanbietern bereitgestellt werden, einschließlich Windows Live Messenger, Yahoo \! und AOL.
 
 Lync Server 2013 hat öffentliche Anbieter Konfigurationen für America Online, Windows Live und Yahoo\! und AOL. Jeder öffentliche Anbieter ist mit dem vollqualifizierten Domänennamen des Edgeservers für den jeweiligen Anbieter sowie mit der Standardüberprüfungsstufe **Benutzer können nur mit Personen in ihrer Liste 'Kontakte' kommunizieren, die diesen Anbieter verwenden** konfiguriert.
 
@@ -61,13 +63,13 @@ Mit den folgenden Verfahren können Sie öffentliche Anbieter erstellen oder bea
 
 6.  Auf der Seite **SIP-Partneranbieter bearbeiten** können Sie die folgenden Einstellungen eingeben oder ändern:
     
-      - **Kommunikation mit diesem Anbieter**   aktivieren beim Auswählen dieser Einstellung wird Chat mit den Benutzern dieses Anbieters aktiviert.
+      - **Aktivieren der Kommunikation mit diesem Anbieter**     Durch Auswählen dieser Einstellung wird Chat mit den Benutzern dieses Anbieters aktiviert.
     
-      - **Anbietername:**   eine erforderliche Eigenschaft geben Sie den Namen des Anbieters ein, der in der Liste der SIP-Verbund Anbieter wiedergegeben wird.
+      - **Anbietername:**     Eine erforderliche Eigenschaft, geben Sie den Namen des Anbieters ein, der in der Liste der SIP-Verbund Anbieter wiedergegeben wird.
     
-      - **Zugriffs-Edgedienst (FQDN):**   eine erforderliche Eigenschaft, geben Sie den vollqualifizierten Domänennamen des Zugriffs-Edgedienst des Anbieters ein, den Sie konfigurieren. Diese Informationen werden als Standardelement bereitgestellt und sollten nur geändert werden, wenn der öffentliche Anbieter eine Änderung am FQDN des Zugriffs-Edgedienst beim öffentlichen Anbieter vornimmt.
+      - **Zugriffs-Edgedienst (FQDN):**     Eine erforderliche Eigenschaft, geben Sie den vollqualifizierten Domänennamen des Zugriffs-Edgedienst des Anbieters ein, den Sie konfigurieren. Diese Informationen werden als Standardelement bereitgestellt und sollten nur geändert werden, wenn der öffentliche Anbieter eine Änderung am FQDN des Zugriffs-Edgedienst beim öffentlichen Anbieter vornimmt.
     
-      - **Standard Überprüfungsebene:**   die Standardeinstellung **ermöglicht Benutzern die Kommunikation mit Personen in Ihrer Kontaktliste, die diesen Anbieter verwenden** , beschränkt die Kommunikation auf Kontakte, die Sie akzeptiert haben und die sich in Ihrer Kontaktliste befinden.
+      - **Standard Überprüfungsebene:**     Die Standardeinstellung **ermöglicht Benutzern die Kommunikation mit Personen in Ihrer Kontaktliste, die diesen Anbieter verwenden** , beschränkt die Kommunikation auf Kontakte, die Sie akzeptiert haben und die sich in Ihrer Kontaktliste befinden.
         
         Durch Auswählen von **Benutzer können mit allen Benutzern mit diesem Anbieter kommunizieren** wird die Einschränkung entfernt, dass eine Kontakteinladung empfangen und angenommen worden sein muss. Diese Einschränkung hat keine Auswirkungen darauf, welche Benutzer aus dem Netzwerk des öffentlichen Anbieters mit Ihnen Kontakt aufnehmen können.
 

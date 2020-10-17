@@ -12,20 +12,22 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7043b2ce5fd35e36615b7b92d1561d725a86cc92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a90e58c1dee8aacae052f916c6fdf6e260b7ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514692"
 ---
+# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Löschen einer vorhandenen Auflistung von A/V-Edgeserver Konfigurationseinstellungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Löschen einer vorhandenen Auflistung von A/V-Edgeserver Konfigurationseinstellungen in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-11-01_
 
 Der A/V-Edgeserverdienst bietet eine Möglichkeit für Ihre internen Benutzer (in Ihrem Organisationsnetzwerk angemeldete Benutzer), Audio- und Videodateien für externe Benutzer (nicht in Ihrem Organisationsnetzwerk angemeldete Benutzer) freizugeben. Der A/V-Edgeserverdienst wird primär durch die Verwendung von A/V-Edge-Konfigurationseinstellungen verwaltet; Einstellung, die über die Standort- oder die Dienstebene konfiguriert werden kann (d. h., sie kann für einen einzelnen A/V-Edgeserver konfiguriert werden).
 
-Wenn Sie lync Server installieren, wird eine globale Sammlung von a/V-Edge-Konfigurationseinstellungen für Sie erstellt. Diese globale Auflistung kann nicht gelöscht werden. Sie können jedoch die Windows PowerShell und das Cmdlet Remove-CsAVEdgeConfiguration verwenden, um die globale Auflistung zurückzusetzen. Das bedeutet einfach, dass alle Eigenschaftswerte in der globalen Auflistung auf ihren Standardwert zurückgesetzt werden. Wenn Sie beispielsweise die MaxTokenLifetime-Eigenschaft auf 16 Stunden festgelegt haben, wird diese Eigenschaft auf den Standardwert von 8 Stunden zurückgesetzt.
+Wenn Sie lync Server installieren, wird eine globale Sammlung von a/V-Edge-Konfigurationseinstellungen für Sie erstellt. Diese globale Auflistung kann nicht gelöscht werden. Sie können jedoch die Windows PowerShell und das Remove-CsAVEdgeConfiguration-Cmdlet verwenden, um die globale Auflistung zurückzusetzen. Das bedeutet einfach, dass alle Eigenschaftswerte in der globalen Auflistung auf ihren Standardwert zurückgesetzt werden. Wenn Sie beispielsweise die MaxTokenLifetime-Eigenschaft auf 16 Stunden festgelegt haben, wird diese Eigenschaft auf den Standardwert von 8 Stunden zurückgesetzt.
 
 Ihre auf Standort- oder Dienstebene erstellten benutzerdefinierten Einstellungsauflistungen können Sie jedoch mit dem Remove-CsAVEdgeConfiguration-Cmdlet löschen. Wenn Sie Standorteinstellungen löschen, werden die an diesem Standort befindlichen A/V-Edgeserver anhand der globalen Einstellungen verwaltet. Wenn Sie auf Dienstebene festgelegte Einstellungen löschen, wird der Server dann gemäß den Einstellungen für seinen Standort oder (wenn diese nicht vorhanden sind) anhand der globalen Einstellungen verwaltet.
 

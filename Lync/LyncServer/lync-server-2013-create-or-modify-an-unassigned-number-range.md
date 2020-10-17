@@ -12,20 +12,22 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7252b2cda2f957dc72e006b7ce298bc5dd87fd5a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4409a0c5688d131b34c792230c992142dd4f9c51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206301"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514682"
 ---
+# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in lync Server 2013
+
 
 </div>
 
@@ -86,7 +88,7 @@ Verwenden Sie eines der folgenden Verfahren, um nicht zugewiesene Nummernbereich
     > <LI>
     > <P>Wenn die erste Nummer im Bereich oder die letzte Nummer im Bereich eine Durchwahl umfassen, müssen sowohl die erste als auch die letzte Nummer im Bereich einen Durchwahl aufweisen, und die Durchwahlnummer muss für die erste und die letzte Nummer übereinstimmen.</P>
     > <LI>
-    > <P>Die Zahl muss mit dem regulären Ausdruck übereinstimmen (Tel:)? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9})?. Demnach kann die Nummer mit der Zeichenfolge "tel:" (wenn Sie diese Zeichenfolge nicht angeben, wird sie automatisch hinzugefügt) sowie einem Pluszeichen (+) und einer Zahl zwischen 1 und 9 beginnen. Die Telefonnummer kann bis zu 17 Zeichen umfassen, gefolgt von einer Durchwahl im Format ";ext=" plus der Durchwahlnummer.</P></LI></UL>
+    > <P>Die Zahl muss mit dem regulären Ausdruck übereinstimmen (Tel:)? ( \+ )? [1-9] \d {0,17} (; ext = [1-9] \d {0,9} )?. Demnach kann die Nummer mit der Zeichenfolge "tel:" (wenn Sie diese Zeichenfolge nicht angeben, wird sie automatisch hinzugefügt) sowie einem Pluszeichen (+) und einer Zahl zwischen 1 und 9 beginnen. Die Telefonnummer kann bis zu 17 Zeichen umfassen, gefolgt von einer Durchwahl im Format ";ext=" plus der Durchwahlnummer.</P></LI></UL>
 
     
     </div>

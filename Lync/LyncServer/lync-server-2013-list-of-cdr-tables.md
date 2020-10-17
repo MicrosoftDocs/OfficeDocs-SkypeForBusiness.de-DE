@@ -12,20 +12,22 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ca9fd0b05eba812730c926685fedb244d60a29e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fbcd509d0abd05c12bd3443fe35fdd8c3f8a8885
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513972"
 ---
+# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Liste der CDR-Tabellen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Liste der CDR-Tabellen in lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-deregistertype-table.md">Deregistertype-Tabelle in lync Server 2013</a></p></td>
-<td><p>&quot;Speichert die Liste der möglichen Benutzer deregister Gründe, beispielsweise initiierter Client,&quot; &quot;Registrierung abgelaufen,&quot; &quot;Client Absturz&quot; und vieles mehr.</p></td>
+<td><p>Speichert die Liste der möglichen Benutzer deregister Gründe, beispielsweise &quot; initiierter Client, &quot; &quot; Registrierung abgelaufen, &quot; &quot; Client Absturz &quot; und vieles mehr.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialist-table.md">Medialist-Tabelle in lync Server 2013</a></p></td>
@@ -426,51 +428,51 @@ Die Tabellen in der folgenden Liste werden intern von lync Server verwendet. Die
 <tbody>
 <tr class="odd">
 <td><p><strong>DbConfigDateTime</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DbConfigInt</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dberrormessage</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur für interne Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FrontEnd-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MSMQProcessing-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SummaryTableConfiguration</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Syndicators-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SyndicatorsTenantMap-Tabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Aufgabentabelle</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserStatistics</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UsageSummary_UQ</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UsageSummary</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DaylightSavingYears</strong></p></td>
@@ -482,19 +484,19 @@ Die Tabellen in der folgenden Liste werden intern von lync Server verwendet. Die
 </tr>
 <tr class="odd">
 <td><p><strong>TimeZones</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FailureSummary_UQ</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FailureSummary</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ServerSummary</strong></p></td>
-<td><p>Ausschließlich für interne Zwecke.</p></td>
+<td><p>Nur zur internen Verwendung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagMetaData</strong></p></td>

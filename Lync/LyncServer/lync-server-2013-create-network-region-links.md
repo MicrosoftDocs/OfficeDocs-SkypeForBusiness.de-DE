@@ -12,20 +12,22 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1af9c2d6b651fd127986d89d521e99745e1af384
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e8c3d0fd254ba780b91d554402ca38d30f7073
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515562"
 ---
+# <a name="create-network-region-links-in-lync-server-2013"></a>Erstellen von Netzwerk Regions Links in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a>Erstellen von Netzwerk Regions Links in lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Die Beispieltopologie hat eine Verbindung zwischen den Regionen Nordamerika und 
 
 1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet New-CsNetworkRegionLink aus, um die Regions Verknüpfungen zu erstellen und entsprechende bandbreitenrichtlinienprofile anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie das New-CsNetworkRegionLink-Cmdlet aus, um die Regions Verknüpfungen zu erstellen und entsprechende bandbreitenrichtlinienprofile anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
     
       ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -83,9 +85,9 @@ Die Beispieltopologie hat eine Verbindung zwischen den Regionen Nordamerika und 
 
 5.  Klicken Sie auf der Seite **neue Regions Verknüpfung** auf **Name** , und geben Sie dann einen Namen für die Netzwerk Regions Verknüpfung ein.
 
-6.  Klicken Sie auf **netzwerkregion \#1**, und klicken Sie dann auf die netzwerkregion in der Liste, die Sie mit \#der netzwerkregion 2 verknüpfen möchten.
+6.  Klicken Sie auf **netzwerkregion \# 1**, und klicken Sie dann auf die netzwerkregion in der Liste, die Sie mit der netzwerkregion 2 verknüpfen möchten \# .
 
-7.  Klicken Sie auf **netzwerkregion \#2**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie mit \#der netzwerkregion 1 verknüpfen möchten.
+7.  Klicken Sie auf **netzwerkregion \# 2**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie mit der netzwerkregion 1 verknüpfen möchten \# .
 
 8.  Klicken Sie optional auf **bandbreitenrichtlinie**, und wählen Sie dann das bandbreitenrichtlinienprofil aus, das Sie auf den Link netzwerkregion anwenden möchten.
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52815327d185355c6c5762252e4ad9b34e77ea85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8cf9f63fbe5340b3a241fc60b8623f54906dd8cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515762"
 ---
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Berechtigungen für authentifizierte Benutzer werden in lync Server 2013 entfernt.
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Berechtigungen für authentifizierte Benutzer werden in lync Server 2013 entfernt.
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196998"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-In einer gesperrten Active Directory Umgebung werden authentifizierte Benutzerzugriffs Steuerungs Einträge (ACEs) aus den standardmäßigen Active Directory Containern entfernt, einschließlich der Benutzer, der Konfiguration oder des Systems sowie der Organisationseinheiten (Organizational Units, OUs), in denen Benutzer und Computer Objekte werden gespeichert. Durch das Entfernen authentifizierter Benutzer-ACEs wird der Lesezugriff auf Active Directory Informationen verhindert. Das Entfernen der ACEs verursacht jedoch Probleme für lync Server 2013, da Sie von Leseberechtigungen für diese Container abhängt, damit Benutzer die Domänenvorbereitung ausführen können.
+In einer gesperrten Active Directory Umgebung werden authentifizierte Benutzerzugriffs Steuerungs Einträge (ACEs) aus den standardmäßigen Active Directory Containern entfernt, einschließlich der Benutzer, der Konfiguration oder des Systems sowie der Organisationseinheiten (Organizational Units, OUs), in denen Benutzer-und Computer Objekte gespeichert werden. Durch das Entfernen authentifizierter Benutzer-ACEs wird der Lesezugriff auf Active Directory Informationen verhindert. Das Entfernen der ACEs verursacht jedoch Probleme für lync Server 2013, da Sie von Leseberechtigungen für diese Container abhängt, damit Benutzer die Domänenvorbereitung ausführen können.
 
 In diesem Fall erteilt die Mitgliedschaft in der Gruppe "Domänen-Admins", die zum Ausführen der Domänenvorbereitung, Serveraktivierung und Poolerstellung erforderlich ist, keinen Lesezugriff mehr auf Active Directory Informationen, die in den Standardcontainern gespeichert sind. Sie müssen Lesezugriff-Berechtigungen für verschiedene Container in der Gesamtstruktur-Stammdomäne manuell erteilen, um zu überprüfen, ob die Vorbereitungs Prozedur für die erforderliche Gesamtstruktur abgeschlossen ist.
 
@@ -71,7 +73,7 @@ Wenn Sie ein Konto, das Mitglied der Gruppe "Organisations-Admins" ist, zum Ausf
 
 6.  Klicken Sie auf der Registerkarte **Berechtigungen** auf **Hinzufügen**.
 
-7.  Geben Sie den Namen des Benutzers oder der Gruppe ein, der Berechtigungen erhält, indem `domain\account name`Sie folgendes Format verwenden:, und klicken Sie dann auf **OK**.
+7.  Geben Sie den Namen des Benutzers oder der Gruppe ein, der Berechtigungen erhält, indem Sie folgendes Format verwenden: `domain\account name` , und klicken Sie dann auf **OK**.
 
 8.  Klicken Sie auf der Registerkarte **Objekte** unter **gilt für**auf **nur dieses Objekt**.
 

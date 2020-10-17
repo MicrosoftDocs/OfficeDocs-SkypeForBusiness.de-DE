@@ -12,20 +12,22 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fe04aea0cc0d6ab38b0bfa9597b420d608c7597
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1ecf0a1313519a74bb054c7fa3b441580758018
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514782"
 ---
+# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Erstellen oder Ändern eines Umlaufbahn Bereichs für das Parken von Anrufen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Erstellen oder Ändern eines Umlaufbahn Bereichs für das Parken von Anrufen in lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
     > <LI>
     > <P>Wenn der Orbitbereich mit dem Zeichen * oder # beginnt, muss der Bereich größer als 100 sein.</P>
     > <LI>
-    > <P>Gültige Werte: muss mit der Zeichenfolge für reguläre Ausdrücke\*übereinstimmen ([| #]? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). Dies bedeutet, dass es sich bei dem Wert um eine Zeichenfolge handeln muss, die entweder mit dem Zeichen * oder # oder einer Zahl zwischen 1 und 9 beginnt (das erste Zeichen darf keine Null sein). Wenn das erste Zeichen ein Sternchen (*) oder ein Rautenzeichen (#) ist, muss das folgende Zeichen eine Zahl zwischen 1 und 9 sein (keine Null). Nachfolgende Zeichen können eine beliebige Zahl von 0 bis 9 bis zu sieben zusätzlichen Zeichen sein (beispielsweise "#6000", "*92000", "* 95551212" und "915551212"). Wenn es sich bei dem ersten Zeichen nicht um * oder # handelt, muss das erste Zeichen eine Nummer zwischen 1 und 9 sein (keine Null), gefolgt von bis zu acht Zeichen, bei denen es sich jeweils um eine Zahl zwischen 0 und 9 handeln muss (z. B. "915551212", "41212" oder "300").</P>
+    > <P>Gültige Werte: muss mit der Zeichenfolge für reguläre Ausdrücke übereinstimmen ([ \* | #]? [ 1-9] \d {0,7} ) | ([1-9] \d {0,8} ). Dies bedeutet, dass es sich bei dem Wert um eine Zeichenfolge handeln muss, die entweder mit dem Zeichen * oder # oder einer Zahl zwischen 1 und 9 beginnt (das erste Zeichen darf keine Null sein). Wenn das erste Zeichen ein Sternchen (*) oder ein Rautenzeichen (#) ist, muss das folgende Zeichen eine Zahl zwischen 1 und 9 sein (keine Null). Nachfolgende Zeichen können eine beliebige Zahl von 0 bis 9 bis zu sieben zusätzlichen Zeichen sein (beispielsweise "#6000", "*92000", "* 95551212" und "915551212"). Wenn es sich bei dem ersten Zeichen nicht um * oder # handelt, muss das erste Zeichen eine Nummer zwischen 1 und 9 sein (keine Null), gefolgt von bis zu acht Zeichen, bei denen es sich jeweils um eine Zahl zwischen 0 und 9 handeln muss (z. B. "915551212", "41212" oder "300").</P>
     > <LI>
     > <P>Sie sollten über maximal 50.000 Orbits pro Pool verfügen. Jeder Orbitbereich umfasst typischerweise maximal 100 Orbits, Sie können jedoch einen deutlich höheren Wert festlegen (bis maximal 10.000 Orbits). Geben Sie anstelle eines Bereichs mit der Startnummer "7000000" und der Endnummer "8000000" als Startnummer beispielsweise "7000000" und als Endnummer "7000100" an.</P></LI></UL>
 
