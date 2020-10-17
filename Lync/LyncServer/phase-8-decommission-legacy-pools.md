@@ -12,20 +12,22 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1c82bb7775c43c1bdbbf9ac9c3d788227f16cb76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532912"
 ---
+# <a name="phase-8-decommission-legacy-pools"></a><span data-ttu-id="558d7-102">Phase 8: Außerbetriebsetzen der Legacypools</span><span class="sxs-lookup"><span data-stu-id="558d7-102">Phase 8: Decommission legacy pools</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a><span data-ttu-id="de4e3-102">Phase 8: Außerbetriebsetzen der Legacypools</span><span class="sxs-lookup"><span data-stu-id="de4e3-102">Phase 8: Decommission legacy pools</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "44756766"
 
 <span> </span>
 
-<span data-ttu-id="de4e3-103">_**Letztes Änderungsstand des Themas:** 2016-12-08_</span><span class="sxs-lookup"><span data-stu-id="de4e3-103">_**Topic Last Modified:** 2016-12-08_</span></span>
+<span data-ttu-id="558d7-103">_**Letztes Änderungsstand des Themas:** 2016-12-08_</span><span class="sxs-lookup"><span data-stu-id="558d7-103">_**Topic Last Modified:** 2016-12-08_</span></span>
 
-<span data-ttu-id="de4e3-104">Das folgende Thema bietet Anleitungen zum Aktualisieren von DNS-Einträgen, zum Verschieben des Inhalts Verwaltungsservers, zur Außerbetriebnahme von Pools und zum Deaktivieren und Entfernen von Servern und Pools aus einer Legacy Bereitstellung von lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="de4e3-104">The following topic provides guidance in updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Lync Server 2010.</span></span> <span data-ttu-id="de4e3-105">Es sind nicht alle der in diesem Abschnitt aufgeführten Verfahren notwendig.</span><span class="sxs-lookup"><span data-stu-id="de4e3-105">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="de4e3-106">Lesen Sie die Dokumentation, um das Verfahren zu ermitteln, das Sie für die Außerbetriebsetzung ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="de4e3-106">Read the documentation and determine which decommissioning procedure to use.</span></span>
+<span data-ttu-id="558d7-104">Das folgende Thema bietet Anleitungen zum Aktualisieren von DNS-Einträgen, zum Verschieben des Inhalts Verwaltungsservers, zur Außerbetriebnahme von Pools und zum Deaktivieren und Entfernen von Servern und Pools aus einer Legacy Bereitstellung von lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="558d7-104">The following topic provides guidance in updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Lync Server 2010.</span></span> <span data-ttu-id="558d7-105">Es sind nicht alle der in diesem Abschnitt aufgeführten Verfahren notwendig.</span><span class="sxs-lookup"><span data-stu-id="558d7-105">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="558d7-106">Lesen Sie die Dokumentation, um das Verfahren zu ermitteln, das Sie für die Außerbetriebsetzung ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="558d7-106">Read the documentation and determine which decommissioning procedure to use.</span></span>
 
-<span data-ttu-id="de4e3-107">Ausführliche Informationen zum Entfernen lync Server 2010 Server und Serverrollen sowie eine schrittweise Anleitung zur Außerbetriebnahme einer lync Server 2010-Bereitstellung finden Sie unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Serverrollen", die unter heruntergeladen werden können [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .</span><span class="sxs-lookup"><span data-stu-id="de4e3-107">For exhaustive coverage of removing Lync Server 2010 servers and server roles, and a step-by-step guide to decommissioning a Lync Server 2010 deployment, see "Uninstalling Microsoft Lync Server 2010 and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).</span></span>
+<span data-ttu-id="558d7-107">Ausführliche Informationen zum Entfernen lync Server 2010 Server und Serverrollen sowie eine schrittweise Anleitung zur Außerbetriebnahme einer lync Server 2010-Bereitstellung finden Sie unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Serverrollen", die unter heruntergeladen werden können [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .</span><span class="sxs-lookup"><span data-stu-id="558d7-107">For exhaustive coverage of removing Lync Server 2010 servers and server roles, and a step-by-step guide to decommissioning a Lync Server 2010 deployment, see "Uninstalling Microsoft Lync Server 2010 and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="de4e3-108">Informationen zum Migrieren und aktualisieren verwaltete API von Microsoft Unified Communications (UCMA) Anwendungen vor dem Stillsetzen ihrer Vorgänger Umgebung finden Sie unter<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="de4e3-108">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
+> <span data-ttu-id="558d7-108">Informationen zum Migrieren und aktualisieren verwaltete API von Microsoft Unified Communications (UCMA) Anwendungen vor dem Stillsetzen ihrer Vorgänger Umgebung finden Sie unter <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="558d7-108">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
 
 
 
@@ -53,28 +55,28 @@ ms.locfileid: "44756766"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="de4e3-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="de4e3-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="558d7-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="558d7-109">In This Section</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="de4e3-110">Aktualisieren von DNS SRV-Einträgen</span><span class="sxs-lookup"><span data-stu-id="de4e3-110">Update DNS SRV records</span></span>](update-dns-srv-records.md)
+    [<span data-ttu-id="558d7-110">Aktualisieren von DNS SRV-Einträgen</span><span class="sxs-lookup"><span data-stu-id="558d7-110">Update DNS SRV records</span></span>](update-dns-srv-records.md)
 
   - <span></span>  
-    [<span data-ttu-id="de4e3-111">Legen Sie den lync Server 2010 zentralen Verwaltungs Server auf lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de4e3-111">Move the Lync Server 2010 Central Management Server to Lync Server 2013</span></span>](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+    [<span data-ttu-id="558d7-111">Legen Sie den lync Server 2010 zentralen Verwaltungs Server auf lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="558d7-111">Move the Lync Server 2010 Central Management Server to Lync Server 2013</span></span>](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
   - <span></span>  
-    [<span data-ttu-id="de4e3-112">Verschieben von Konferenzverzeichnissen</span><span class="sxs-lookup"><span data-stu-id="de4e3-112">Move Conference Directories</span></span>](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+    [<span data-ttu-id="558d7-112">Verschieben von Konferenzverzeichnissen</span><span class="sxs-lookup"><span data-stu-id="558d7-112">Move Conference Directories</span></span>](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [<span data-ttu-id="de4e3-113">Entfernen der Zuordnung des Archivierungsservers</span><span class="sxs-lookup"><span data-stu-id="de4e3-113">Remove the Archiving server association</span></span>](remove-the-archiving-server-association.md)
+    [<span data-ttu-id="558d7-113">Entfernen der Zuordnung des Archivierungsservers</span><span class="sxs-lookup"><span data-stu-id="558d7-113">Remove the Archiving server association</span></span>](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [<span data-ttu-id="de4e3-114">Entfernen der Zuordnung der Monitoring Server</span><span class="sxs-lookup"><span data-stu-id="de4e3-114">Remove the Monitoring server association</span></span>](remove-the-monitoring-server-association.md)
+    [<span data-ttu-id="558d7-114">Entfernen der Zuordnung der Monitoring Server</span><span class="sxs-lookup"><span data-stu-id="558d7-114">Remove the Monitoring server association</span></span>](remove-the-monitoring-server-association.md)
 
   - <span></span>  
-    [<span data-ttu-id="de4e3-115">Entfernen der Enterprise Edition-Front-End-Server oder Standard Edition Front-End-Server</span><span class="sxs-lookup"><span data-stu-id="de4e3-115">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+    [<span data-ttu-id="558d7-115">Entfernen der Enterprise Edition-Front-End-Server oder Standard Edition Front-End-Server</span><span class="sxs-lookup"><span data-stu-id="558d7-115">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
-    [<span data-ttu-id="de4e3-116">Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server</span><span class="sxs-lookup"><span data-stu-id="de4e3-116">Remove SQL Server instances and databases on the Back End Server</span></span>](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+    [<span data-ttu-id="558d7-116">Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server</span><span class="sxs-lookup"><span data-stu-id="558d7-116">Remove SQL Server instances and databases on the Back End Server</span></span>](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 
 </div>
 

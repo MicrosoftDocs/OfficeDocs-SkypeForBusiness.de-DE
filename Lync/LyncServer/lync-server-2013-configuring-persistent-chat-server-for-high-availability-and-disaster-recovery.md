@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung für den Server für beständigen Chat
+title: Konfigurieren des Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d0c3b9a35a138e3aadac8cc6ffcd4e808b2dca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90bb6ee0d9c060787c7b750046f79810aeb0c425
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756319"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532412"
 ---
+# <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="22f9a-102">Konfigurieren des Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22f9a-102">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="c3df5-102">Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung für den Server für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3df5-102">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "41756319"
 
 <span> </span>
 
-<span data-ttu-id="c3df5-103">_**Letztes Änderungsdatum des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c3df5-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="22f9a-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="22f9a-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="c3df5-104">Lync Server 2013, persistent Chat Server Services verwenden eine *ausgestreckte Pool* Konfiguration für die Notfallwiederherstellung.</span><span class="sxs-lookup"><span data-stu-id="c3df5-104">The Lync Server 2013, Persistent Chat Server services use a *stretched pool* configuration for disaster recovery.</span></span> <span data-ttu-id="c3df5-105">Bei einem gedehnten Pool handelt es sich um einen Pool mit Computern, die zwischen zwei physikalischen Rechenzentren verteilt sind, sich aber auf einer einzelnen logischen lync Server-Website befinden.</span><span class="sxs-lookup"><span data-stu-id="c3df5-105">A stretched pool is a pool that has computers that are distributed between two physical data centers, but are within a single logical Lync Server site.</span></span>
+<span data-ttu-id="22f9a-104">Die lync Server 2013, die Server Dienste für beständigen Chat verwenden eine *gestreckte Pool* Konfiguration für die Notfallwiederherstellung.</span><span class="sxs-lookup"><span data-stu-id="22f9a-104">The Lync Server 2013, Persistent Chat Server services use a *stretched pool* configuration for disaster recovery.</span></span> <span data-ttu-id="22f9a-105">Ein gestreckter Pool ist ein Pool mit Computern, die zwischen zwei physischen Rechenzentren verteilt sind, aber sich innerhalb eines einzelnen logischen lync Server-Standorts befinden.</span><span class="sxs-lookup"><span data-stu-id="22f9a-105">A stretched pool is a pool that has computers that are distributed between two physical data centers, but are within a single logical Lync Server site.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c3df5-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="c3df5-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="22f9a-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="22f9a-106">In This Section</span></span>
 
-  - [<span data-ttu-id="c3df5-107">Erforderliche Ressourcen für den Server für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3df5-107">Required resources for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-required-resources-for-persistent-chat-server.md)
+  - [<span data-ttu-id="22f9a-107">Erforderliche Ressourcen für den Server für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22f9a-107">Required resources for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-required-resources-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="c3df5-108">Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung mithilfe des Topologie-Generators in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3df5-108">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-using-topology-builder-to-configure-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="22f9a-108">Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung mithilfe des Topologie-Generators in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22f9a-108">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-using-topology-builder-to-configure-high-availability-and-disaster-recovery.md)
 
-  - [<span data-ttu-id="c3df5-109">Verwenden eines ausgedehnten Pools für den Server für beständigen Chat für die Notfallwiederherstellung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3df5-109">Using a stretched Persistent Chat Server pool for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-using-a-stretched-persistent-chat-server-pool-for-disaster-recovery.md)
+  - [<span data-ttu-id="22f9a-109">Verwenden eines ausgedehnten Server Pools für beständigen Chat für die Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22f9a-109">Using a stretched Persistent Chat Server pool for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-using-a-stretched-persistent-chat-server-pool-for-disaster-recovery.md)
 
-  - [<span data-ttu-id="c3df5-110">SQL Server-Spiegelung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3df5-110">SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-sql-server-mirroring.md)
+  - [<span data-ttu-id="22f9a-110">SQL Server Spiegelung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22f9a-110">SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-sql-server-mirroring.md)
 
-  - [<span data-ttu-id="c3df5-111">Einrichten des SQL Server-Protokollversands für die primäre Datenbank des Servers für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3df5-111">Setting up SQL Server Log Shipping in Lync Server 2013 for the Persistent Chat Server primary database</span></span>](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
+  - [<span data-ttu-id="22f9a-111">Einrichten SQL Server Protokollversands in lync Server 2013 für die primäre Datenbank des beständigen Chat Servers</span><span class="sxs-lookup"><span data-stu-id="22f9a-111">Setting up SQL Server Log Shipping in Lync Server 2013 for the Persistent Chat Server primary database</span></span>](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
 
-  - [<span data-ttu-id="c3df5-112">Einrichten des SQL Server-Protokollversands zwischen der primären Spiegeldatenbank und der sekundären Datenbank des Protokollversands in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3df5-112">Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database in Lync Server 2013</span></span>](lync-server-2013-set-up-log-shipping-secondary-database.md)
+  - [<span data-ttu-id="22f9a-112">Einrichten SQL Server Protokollversands zwischen der primären Spiegelung und der sekundären Datenbank des Protokollversands in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22f9a-112">Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database in Lync Server 2013</span></span>](lync-server-2013-set-up-log-shipping-secondary-database.md)
 
 </div>
 

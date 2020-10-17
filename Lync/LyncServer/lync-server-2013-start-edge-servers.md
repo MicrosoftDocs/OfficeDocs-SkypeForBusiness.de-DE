@@ -12,20 +12,22 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895cd0832dbf9b19c38a236b23ca02e1be39abda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6dd2f40cdcba947a560dd51c520c8da2dbc768d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532972"
 ---
+# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="cd245-102">Starten der Edgeserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd245-102">Start Edge Servers in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="a3237-102">Starten der Edgeserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3237-102">Start Edge Servers in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42208381"
 
 <span> </span>
 
-<span data-ttu-id="a3237-103">_**Letztes Änderungsstand des Themas:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="a3237-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="cd245-103">_**Letztes Änderungsstand des Themas:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="cd245-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="a3237-104">Nachdem Sie die Einstellungen für die Edgeserver und Lastenausgleichsmodule abgeschlossen haben, müssen Sie die Dienste auf jeder Edgeserver starten.</span><span class="sxs-lookup"><span data-stu-id="a3237-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
+<span data-ttu-id="cd245-104">Nachdem Sie die Einstellungen für die Edgeserver und Lastenausgleichsmodule abgeschlossen haben, müssen Sie die Dienste auf jeder Edgeserver starten.</span><span class="sxs-lookup"><span data-stu-id="cd245-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
 
 <div>
 
-## <a name="to-start-the-services"></a><span data-ttu-id="a3237-105">So starten Sie die Dienste</span><span class="sxs-lookup"><span data-stu-id="a3237-105">To start the services</span></span>
+## <a name="to-start-the-services"></a><span data-ttu-id="cd245-105">So starten Sie die Dienste</span><span class="sxs-lookup"><span data-stu-id="cd245-105">To start the services</span></span>
 
-1.  <span data-ttu-id="a3237-106">Klicken Sie auf jeder Edgeserver im Bereitstellungs-Assistenten neben **Schritt 4: Dienste starten**auf **Ausführen**.</span><span class="sxs-lookup"><span data-stu-id="a3237-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
+1.  <span data-ttu-id="cd245-106">Klicken Sie auf jeder Edgeserver im Bereitstellungs-Assistenten neben **Schritt 4: Dienste starten**auf **Ausführen**.</span><span class="sxs-lookup"><span data-stu-id="cd245-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
 
-2.  <span data-ttu-id="a3237-107">Überprüfen Sie auf der Seite **lync Server 15 Dienste starten** die Liste der Dienste, und klicken Sie dann auf **weiter** , um die Dienste zu starten.</span><span class="sxs-lookup"><span data-stu-id="a3237-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
+2.  <span data-ttu-id="cd245-107">Überprüfen Sie auf der Seite **lync Server 15 Dienste starten** die Liste der Dienste, und klicken Sie dann auf **weiter** , um die Dienste zu starten.</span><span class="sxs-lookup"><span data-stu-id="cd245-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
 
-3.  <span data-ttu-id="a3237-108">Nachdem die Dienste gestartet wurden, klicken Sie auf **Fertig stellen** , um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="a3237-108">After the services are started, click **Finish** to close the wizard.</span></span>
+3.  <span data-ttu-id="cd245-108">Nachdem die Dienste gestartet wurden, klicken Sie auf **Fertig stellen** , um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="cd245-108">After the services are started, click **Finish** to close the wizard.</span></span>
 
-4.  <span data-ttu-id="a3237-109">Klicken Sie unter **Schritt 4: Dienste starten**auf **Dienst Status (optional)**.</span><span class="sxs-lookup"><span data-stu-id="a3237-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="cd245-109">Klicken Sie unter **Schritt 4: Dienste starten**auf **Dienst Status (optional)**.</span><span class="sxs-lookup"><span data-stu-id="cd245-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="a3237-110">Überprüfen Sie in der Microsoft Management Console (MMC) **Dienste** auf dem Server, ob alle lync Server 2013 Dienste aktiv sind.</span><span class="sxs-lookup"><span data-stu-id="a3237-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="cd245-110">Überprüfen Sie in der Microsoft Management Console (MMC) **Dienste** auf dem Server, ob alle lync Server 2013 Dienste aktiv sind.</span><span class="sxs-lookup"><span data-stu-id="cd245-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 
