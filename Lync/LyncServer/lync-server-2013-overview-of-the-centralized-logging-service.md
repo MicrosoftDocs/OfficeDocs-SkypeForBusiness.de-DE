@@ -12,20 +12,22 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68f2589e6c30a6ca928230dde2deb32f23e91967
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e1c382151d34751e7e934f15fdd2855ce696e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520832"
 ---
+# <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Letztes Änderungsstand des Themas:** 2013-02-22_
 
 Der zentralisierte Protokollierungsdienst bietet eine Möglichkeit zur kontrollierten Sammlung von Daten – mit einem breiten oder engen Bereich. Sie können Daten von allen Servern in der Bereitstellung gleichzeitig erfassen, spezifische Elemente definieren, die nachverfolgt werden, Nachverfolgungsflags festlegen und Suchergebnisse von einem einzelnen Computer zurückgeben oder eine Zusammenfassung aller Daten von allen Servern. Der zentralisierte Protokollierungsdienst wird auf allen Servern in der Bereitstellung ausgeführt. Die Architektur des zentralisierten Protokollierungsdiensts umfasst die folgenden Agents und Dienste:
 
-  - *Der Agent*   für den zentralisierten Protokollierungsdienst ClsAgent. exe ist die ausführbare Dienstdatei, die mit dem Controller kommuniziert und die Befehle empfängt, die der Controller vom Administrator ausgestellt wird. Der Agent wird auf jedem lync Server Computer als Dienst ausgeführt. Wenn der Agent einen Befehl empfängt, führt er diesen aus, sendet Nachrichten an die für die Nachverfolgung definierten Komponenten und schreibt die Nachverfolgungsprotokolle auf die Festplatte. Er liest außerdem die Nachverfolgungsprotokolle für seine Computer und sendet die Nachverfolgungsdaten auf Anfrage zurück an den Controller. Der ClsAgent überwacht folgende Ports auf Befehle: **TCP 50001**, **TCP 50002** und **TCP 50003**.
+  - Agent für zentralisierten *Protokollierungsdienst*    ClsAgent.exe ist die ausführbare Dienstdatei, die mit dem Controller kommuniziert und die Befehle empfängt, die der Controller vom Administrator ausgestellt wird. Der Agent wird auf jedem lync Server Computer als Dienst ausgeführt. Wenn der Agent einen Befehl empfängt, führt er diesen aus, sendet Nachrichten an die für die Nachverfolgung definierten Komponenten und schreibt die Nachverfolgungsprotokolle auf die Festplatte. Er liest außerdem die Nachverfolgungsprotokolle für seine Computer und sendet die Nachverfolgungsdaten auf Anfrage zurück an den Controller. Der ClsAgent überwacht folgende Ports auf Befehle: **TCP 50001**, **TCP 50002** und **TCP 50003**.
 
-  - *Der zentralisierte Protokollierungsdienst-Controller*   ClsControllerLib. dll ist das Befehls Ausführungsmodul für die lync Server-Verwaltungsshell und für ClsController. exe. CLSControllerLib. dll sendet Befehle zum Starten, beenden, leeren und suchen an das ClsAgent-Steuerfeld. Wenn Suchbefehle gesendet werden, werden die resultierenden Protokolle an die ClsControllerLib. dll zurückgegeben und aggregiert. Der Controller ist für das Senden von Befehlen an den Agent verantwortlich, wobei der Status dieser Befehle erhalten und die Daten der Suchprotokoll Datei verwaltet werden, wenn Sie von allen Agents auf einem beliebigen Computer im Suchbereich zurückgegeben werden, und die Protokolldaten in eine sinnvolle und geordnete Aggregation Ausgabemenge. Die Informationen in den folgenden Themen konzentrieren sich auf die Verwendung des lync Server-Verwaltungsshell. ClsController. exe ist auf eine Teilmenge der Features und Funktionen eingeschränkt, die in der lync Server-Verwaltungsshell verfügbar sind. Hilfe für ClsController. exe steht an der Befehlszeile zur Verfügung `ClsController` , indem Sie das Standardverzeichnis\\C:\\allgemeine Dateien\\für\\Programmdateien Microsoft lync Server 2013 ClsAgent eingeben.
+  - *Zentralisierter Protokollierungsdienst-Controller*    ClsControllerLib.dll ist das Befehls Ausführungsmodul für die lync Server-Verwaltungsshell und ClsController.exe. CLSControllerLib.dll sendet die Befehle Start, Stop, Flush und Search an die ClsAgent. Wenn Suchbefehle gesendet werden, werden die resultierenden Protokolle an die ClsControllerLib.dll zurückgegeben und aggregiert. Der Controller ist für das Senden von Befehlen an den Agent, den Status dieser Befehle und die Verwaltung der Suchprotokoll Dateidaten verantwortlich, die von allen Agents auf einem beliebigen Computer im Suchbereich zurückgegeben werden, und die Protokolldaten werden in eine sinnvolle und geordnete Ausgabegruppe aggregiert. Die Informationen in den folgenden Themen konzentrieren sich auf die Verwendung des lync Server-Verwaltungsshell. ClsController.exe ist auf eine Teilmenge der Features und Funktionen eingeschränkt, die im lync Server-Verwaltungsshell verfügbar sind. Hilfe für ClsController.exe steht an der Befehlszeile zur Verfügung, indem Sie `ClsController` das Standardverzeichnis C: \\ Allgemeine Dateien für Programmdateien \\ \\ Microsoft lync Server 2013 \\ ClsAgent eingeben.
 
 **Kommunikation zwischen ClsController und ClsAgent**
 
@@ -61,9 +63,9 @@ ClsAgent verwaltet eine Indexdatei aller .CACHE-Dateien, die auf dem lokalen Com
 
 </div>
 
-Die resultierenden Protokolldateien können mit einer Vielzahl von Tools, einschließlich **Snooper. exe** und allen Tools, die eine Textdatei wie **Notepad. exe**lesen können, gelesen und analysiert werden. Snooper. exe ist Teil der lync Server 2013 Debug-Tools und steht als Webdownload zur Verfügung [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257).
+Die resultierenden Protokolldateien können mit einer Vielzahl von Tools gelesen und analysiert werden, einschließlich **Snooper.exe** und eines Tools, das eine Textdatei wie **Notepad.exe**lesen kann. Snooper.exe ist Teil der lync Server 2013 Debug-Tools und steht als Webdownload zur Verfügung [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) .
 
-Wie OCSLogger verfügt der zentralisierte Protokollierungsdienst über mehrere Komponenten, anhand derer nachverfolgt werden kann, und bietet Optionen zum\_auswählen von Flags\_wie TF Component und TF diag. Der zentralisierte Protokollierungsdienst behält auch die Protokollierungsgrad Optionen von OCSLogger bei.
+Wie OCSLogger verfügt der zentralisierte Protokollierungsdienst über mehrere Komponenten, anhand derer nachverfolgt werden kann, und bietet Optionen zum Auswählen von Flags wie TF \_ Component und TF \_ diag. Der zentralisierte Protokollierungsdienst behält auch die Protokollierungsgrad Optionen von OCSLogger bei.
 
 Der wichtigste Vorteil bei der Verwendung der lync Server-Verwaltungsshell über das Befehlszeilen-ClsController ist, dass Sie neue Szenarien mithilfe ausgewählter Anbieter konfigurieren und definieren können, die auf Problembereich, benutzerdefinierte Flags und Protokollierungsstufen abzielen. Die für ClsController verfügbaren Szenarien sind auf die für das Programm definierten Szenarien beschränkt.
 
@@ -89,7 +91,7 @@ Wenn ein Problem auftritt, können Sie ein zweites Szenario starten, das sich au
 
 
 > [!TIP]  
-> Wenn ein Problemszenario in lync Server angezeigt wird, Fragen Sie sich zunächst: "was weiß ich bereits über das Problem?" Wenn Sie die Problem Grenzen quantifizieren, können Sie einen großen Teil der Betriebs Entitäten in lync Server entfernen.<BR>Stellen Sie sich ein Beispielszenario vor, in dem Sie wissen, dass Benutzer bei der Suche nach einem Kontakt keine aktuellen Ergebnisse erhalten. Es hat keinen Sinn, nach Problemen in den Medienkomponenten, Enterprise-VoIP, Konferenzen und einer Reihe anderer Komponenten zu suchen. Was Sie nicht wissen, ist, wo das Problem tatsächlich auftritt: auf dem Client oder auf dem Server? Kontakte werden vom Benutzerreplikationsdienst aus Active Directory gesammelt und über den Adressbuch Server (AbServer) an den Client übermittelt. Der ABServer erhält seine Updates von der RTC-Datenbank (in die der User Replicator diese geschrieben hat) und erfasst diese in Adressbuchdateien – standardmäßig um 1:30 Uhr. Die lync Server Clients rufen das neue Adressbuch in einem randomisierten Zeitplan ab. Da Sie die Funktionsweise des Prozesses kennen, können Sie die Suche nach der potenziellen Ursache für ein Problem reduzieren, das sich auf Daten bezieht, die vom Benutzerreplikationsdienst aus Active Directory gesammelt werden, das ABServer nicht das Abrufen und Erstellen der Adressbuchdateien oder die Clients, die nicht Herunterladen der Adressbuchdatei.
+> Wenn ein Problemszenario in lync Server angezeigt wird, Fragen Sie sich zunächst: "was weiß ich bereits über das Problem?" Wenn Sie die Problem Grenzen quantifizieren, können Sie einen großen Teil der Betriebs Entitäten in lync Server entfernen.<BR>Stellen Sie sich ein Beispielszenario vor, in dem Sie wissen, dass Benutzer bei der Suche nach einem Kontakt keine aktuellen Ergebnisse erhalten. Es hat keinen Sinn, nach Problemen in den Medienkomponenten, Enterprise-VoIP, Konferenzen und einer Reihe anderer Komponenten zu suchen. Was Sie nicht wissen, ist, wo das Problem tatsächlich auftritt: auf dem Client oder auf dem Server? Kontakte werden vom Benutzerreplikationsdienst aus Active Directory gesammelt und über den Adressbuch Server (AbServer) an den Client übermittelt. Der ABServer erhält seine Updates von der RTC-Datenbank (in die der User Replicator diese geschrieben hat) und erfasst diese in Adressbuchdateien – standardmäßig um 1:30 Uhr. Die lync Server Clients rufen das neue Adressbuch in einem randomisierten Zeitplan ab. Da Sie die Funktionsweise des Prozesses kennen, können Sie die Suche nach der potenziellen Ursache für ein Problem reduzieren, das sich auf Daten bezieht, die von Active Directory vom Benutzerreplikationsdienst erfasst werden, das ABServer nicht das Abrufen und Erstellen der Adressbuchdateien oder die Clients, die die Adressbuchdatei nicht herunterladen.
 
 
 

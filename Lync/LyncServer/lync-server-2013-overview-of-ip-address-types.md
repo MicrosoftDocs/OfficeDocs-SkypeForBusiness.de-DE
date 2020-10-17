@@ -12,20 +12,22 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417b304825da6a611ccfdaf3521b2d9571cd4756
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9663f7ee8b57ceba27e1a1892c30bb92a1c86ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521002"
 ---
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Übersicht über IP-Adresstypen für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Übersicht über IP-Adresstypen für lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Letztes Änderungsstand des Themas:** 2013-01-29_
 
 Beim Konfigurieren von IP-Adressen in lync Server 2013 haben Sie drei Optionen. Sie können lync Server 2013 so konfigurieren, dass nur IP Version 4 (IPv4), nur IP Version 6 (IPv6) oder eine Kombination aus beidem (als *dualer Stapel*bezeichnet) unterstützt wird. Bei jedem Konfigurationstyp sind bestimmte Punkte zu beachten:
 
-  - **IPv4 nur**   IPv6 wurde erstellt, da die IPv4-Adressen auf der Welt nicht mehr funktionieren. IPv6 wird sich letztendlich weltweit durchsetzen, aber viele Unternehmen und Geräte, mit denen Ihr Unternehmen kommunizieren muss, unterstützen vielleicht derzeit noch nicht IPv6, und möglicherweise bleibt das auch noch eine ganze Weile so. Eine nur-IPv4-Konfiguration hilft sicherzustellen, dass Ihre lync Server Implementierung mit den meisten vorhandenen Geräten kommunizieren kann.
+  - **Nur IPv4**     IPv6 wurde erstellt, da die IPv4-Adressen auf der Welt nicht mehr funktionieren. IPv6 wird sich letztendlich weltweit durchsetzen, aber viele Unternehmen und Geräte, mit denen Ihr Unternehmen kommunizieren muss, unterstützen vielleicht derzeit noch nicht IPv6, und möglicherweise bleibt das auch noch eine ganze Weile so. Eine nur-IPv4-Konfiguration hilft sicherzustellen, dass Ihre lync Server Implementierung mit den meisten vorhandenen Geräten kommunizieren kann.
 
-  - **IPv6 nur**   umgekehrt wird eine vollständige IPv6-Implementierung zu diesem Zeitpunkt die Kommunikation mit vielen vorhandenen Geräten ausschließen.
+  - **Nur IPv6**     Umgekehrt schließt eine vollständige IPv6-Implementierung zu diesem Zeitpunkt die Kommunikation mit vielen vorhandenen Geräten aus.
 
-  - **Dual Stack**   Dual Stack ist ein Netzwerk, in dem sowohl IPv4-als auch IPv6-Adressen aktiviert sind. Diese Konfiguration wird in lync Server 2013 unterstützt, da in den meisten Fällen der Übergang von voll-IPv4 zu voll-IPv6 einige Jahre dauern wird.
+  - **Dualer Stapel**     Dual Stack ist ein Netzwerk, in dem sowohl IPv4-als auch IPv6-Adressen aktiviert sind. Diese Konfiguration wird in lync Server 2013 unterstützt, da in den meisten Fällen der Übergang von voll-IPv4 zu voll-IPv6 einige Jahre dauern wird.
 
 In den folgenden Abschnitten wird die Kompatibilität zwischen diesen drei Konfigurationen für verschiedene lync Server Features erläutert.
 
@@ -246,7 +248,7 @@ Lync Server 2013 unterstützt keine medienumgehung für PSTN-Anrufe (Public Swit
 </table>
 
 
-\*Die primäre Schnittstelle ist die Schnittstelle, die mit den lync Server Komponenten kommuniziert.
+\* Die primäre Schnittstelle ist die Schnittstelle, die mit den lync Server Komponenten kommuniziert.
 
 </div>
 
@@ -339,7 +341,7 @@ In der folgenden Tabelle ist die Unterstützungsmatrix zwischen dem Front-End-Se
 </table>
 
 
-\*Verwenden Sie diese Kombination nur in einer Lab-Umgebung.
+\* Verwenden Sie diese Kombination nur in einer Lab-Umgebung.
 
 Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und externen Edge-Schnittstellen unterstützt werden.
 
@@ -381,7 +383,7 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und exter
 </table>
 
 
-\*Verwenden Sie diese Kombination nur in einer Lab-Umgebung.
+\* Verwenden Sie diese Kombination nur in einer Lab-Umgebung.
 
 </div>
 

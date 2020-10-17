@@ -12,20 +12,22 @@ ms:contentKeyID: 48184261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66dd239acbb274c7223363f1522f2d0c76590c37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c44ef02ef0685b4f930d7a264915d5338600ef71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520842"
 ---
+# <a name="overview-of-monitoring-in-lync-server-2013"></a>Übersicht über die Überwachung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-monitoring-in-lync-server-2013"></a>Übersicht über die Überwachung in lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Zusätzlich zu diesen grundlegenden Anrufinformationen stellt der Monitoring Ser
 
   - **Medienmetriken mit Auswirkungen auf die Qualität**. Die Metriken beziehen sich auf die eigentliche Übertragung des Anrufs. Sie stellen eine Art "Reiseprotokoll" des Anrufs durch das Netzwerk dar und beinhalten Daten wie Paketverluste, Jitter und Roundtripzeiten. Anhand dieser Informationen lässt sich erkennen, was mit dem Anruf zwischen dem Verlassen des einen Benutzerendpunkts und dem Eintreffen am anderen Benutzerendpunkt passiert.
 
-  - **Dem Endbenutzer gemeldete Probleme**. Zu diesen Metriken gehören Benachrichtigungen über schlechte Qualität, die Endbenutzern in Fällen angezeigt lync 2013, in denen Sie zu weit entfernt von einem Mikrofon sind, zu leise sprechen, eine schlechte Netzwerkverbindung haben oder eine schlechte Qualität aufweisen, da ein anderes Programm auf dem Computer die verfügbaren Ressourcen werden beansprucht.
+  - **Dem Endbenutzer gemeldete Probleme**. Zu diesen Metriken gehören Benachrichtigungen über schlechte Qualität, die Endbenutzern in Fällen angezeigt lync 2013, in denen Sie zu weit von einem Mikrofon entfernt sind, zu leise sprechen, eine schlechte Netzwerkverbindung haben oder eine schlechte Qualität aufweisen, da ein anderes Programm auf dem Computer die verfügbaren Ressourcen verbraucht.
 
   - **Umgebungsinformationen**. Diese Metriken erfassen detaillierte Faktoren der Anrufqualität wie den Typ des verwendeten Mikrofons und Lautsprechers, Angaben darüber, ob eine VPN-Verbindung verwendet wurde und Angaben darüber, ob eine WLAN-Verbindung verwendet wurde.
 

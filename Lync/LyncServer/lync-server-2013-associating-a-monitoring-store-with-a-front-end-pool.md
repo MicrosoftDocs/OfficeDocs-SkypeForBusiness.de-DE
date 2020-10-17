@@ -12,20 +12,22 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdff8863c0e629c99d0e64aca0b7f84dcb63a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e80c6f7482787d448709beaf98e796519860d22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520635"
 ---
+# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in lync Server 2013
+
 
 </div>
 
@@ -69,9 +71,9 @@ Nachdem die Topologie veröffentlicht wurde, können Sie die Überwachungsdatenb
 
     Install-CsDatabase -LocalDatabases
 
-Wenn Sie den obigen Befehl ausführen, liest install-CsDatabase die aktuelle lync Server-Topologie, ermittelt, welche Datenbanken auf dem lokalen Computer installiert werden müssen, und installiert und konfiguriert dann automatisch jede dieser Datenbanken.
+Wenn Sie den obigen Befehl ausführen, liest Install-CsDatabase die aktuelle lync Server-Topologie, legt fest, welche Datenbanken auf dem lokalen Computer installiert werden müssen, und installiert und konfiguriert dann automatisch jede dieser Datenbanken.
 
-Zum Installieren der Datenbank auf einem Remotecomputer (also einem anderen Computer als dem Computer, auf dem die Verwaltungsshell läuft) müssen Sie mindestens zwei Parameter einschließen: den ConfiguredDatabases-Parameter und den sqlserverfqdn "nicht-Parameter. Mit diesen Parametern wird das Cmdlet Install-CsDatabase dazu aufgefordert, die lync Server Topologie abzurufen und anschließend die erforderlichen Datenbanken auf dem durch den Parameter sqlserverfqdn "nicht angegebenen Computer zu installieren und zu konfigurieren. Der Parameter sqlserverfqdn "nicht muss einen Parameterwert verwenden, der den vollqualifizierten Domänennamen des Computers darstellt, auf dem die Datenbanken installiert werden sollen.
+Zum Installieren der Datenbank auf einem Remotecomputer (also einem anderen Computer als dem Computer, auf dem die Verwaltungsshell läuft) müssen Sie mindestens zwei Parameter einschließen: den ConfiguredDatabases-Parameter und den sqlserverfqdn "nicht-Parameter. Mit diesen Parametern wird das Install-CsDatabase-Cmdlet dazu aufgefordert, die lync Server Topologie abzurufen und anschließend die erforderlichen Datenbanken auf dem durch den Parameter sqlserverfqdn "nicht angegebenen Computer zu installieren und zu konfigurieren. Der Parameter sqlserverfqdn "nicht muss einen Parameterwert verwenden, der den vollqualifizierten Domänennamen des Computers darstellt, auf dem die Datenbanken installiert werden sollen.
 
 Beispielsweise wird mit dem folgenden Befehl die Überwachungsdatenbank auf dem Computer atl-sql-001.litwareinc.com installiert:
 
@@ -87,7 +89,7 @@ Alternativ können Sie die Überwachungsdatenbank installieren, indem Sie den ly
 
 4.  Klicken Sie im Assistenten zum Einrichten von Lync Server-Komponenten auf der Seite **Lync Server-Komponenten einrichten** auf **Weiter**.
 
-5.  Geben Sie auf der Seite **Pfad zu MSIs angeben** den Pfad zur Datei OCSCore. msi ein (eine Datei, die im lync Server Installationsmedium enthalten ist), und klicken Sie dann auf **weiter**.
+5.  Geben Sie auf der Seite **Pfad zur MSIs angeben** den Pfad zur Datei Ocscore.msi ein (eine Datei, die in Ihrem lync Server Installationsmedium enthalten ist), und klicken Sie dann auf **weiter**.
 
 6.  Klicken Sie auf der Seite **Befehle ausführen** auf **Fertig stellen**.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3fe22d70f442eed0cda1bbf56e79fb0e0e21f8a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 86eade8f7a2ac1db627668ca78b8fb7869e6da71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520372"
 ---
+# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Konfigurieren der Telefonie für einen Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Konfigurieren der Telefonie für einen Benutzer in lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ Die Telefonieeinstellungen sind einige der individuellen Einstellungen eines Ben
 
 Lync Server Benutzer Telefonie-Optionen umfassen Folgendes:
 
-  - **Audio/Video deaktiviert**   der Benutzer kann keine Anrufe mit Audio und Video durchführen.
+  - **Audio/Video deaktiviert**     Der Benutzer kann mit Audio und Video keine Anrufe tätigen.
 
-  - **Nur PC-zu-PC**   der Benutzer kann nur PC-zu-PC-Audio-oder-Videoanrufe tätigen.
+  - Nur PC- **zu-PC**     Der Benutzer kann nur PC-zu-PC-Audio-oder-Videoanrufe tätigen.
 
-  - **Enterprise-VoIP**   der Benutzer kann die lync Server 2013-Infrastruktur verwenden, um alle eingehenden und ausgehenden Anrufe weiterzuleiten. Außerdem kann der Benutzer Anrufe von PC zu PC tätigen.
+  - **Enterprise-VoIP**     Der Benutzer kann die lync Server 2013-Infrastruktur verwenden, um alle eingehenden und ausgehenden Anrufe weiterzuleiten. Außerdem kann der Benutzer Anrufe von PC zu PC tätigen.
 
-  - **Remote Anrufsteuerung**   der Benutzer kann lync Server 2013 verwenden, um das Desktoptelefon zu steuern, und kann auch PC-zu-PC-Anrufe tätigen.
+  - **Remote Anrufsteuerung**     Der Benutzer kann lync Server 2013 verwenden, um das Desktoptelefon zu steuern, und kann auch PC-zu-PC-Anrufe tätigen.
 
 Ausführliche Informationen zum Konfigurieren der Telefonie für eine Organisation finden Sie unter [Konfigurieren der Telefonie für einen Benutzer in lync Server 2013](lync-server-2013-configure-telephony-for-a-user.md) und [Bereitstellen von Enterprise-VoIP in lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) in der Bereitstellungsdokumentation.
 

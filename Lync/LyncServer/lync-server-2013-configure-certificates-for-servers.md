@@ -12,20 +12,22 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3556c9147ddf2769e6a403de9e31edf31129d796
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82d23410257db89ff0c7498aba879444a5be9707
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521062"
 ---
+# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Konfigurieren von Zertifikaten für Server in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Konfigurieren von Zertifikaten für Server in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gr
 
 
 > [!NOTE]  
-> Lync Server 2013 enthält Unterstützung für die SHA-2-Suite (SHA-2 verwendet Digest-Längen von 224, 256, 384 oder 512 Bits) von Digest-Hash-und Signaturalgorithmen für Verbindungen von Clients, auf denen die Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista oder Windows XP-Betriebssysteme, zusätzlich zu lync Phone Edition. Um den externen Zugriff mithilfe der SHA-2-Suite zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die auch ein Zertifikat mit demselben Bit-Längen-Digest ausgeben kann.
+> Lync Server 2013 enthält Unterstützung für die SHA-2-Suite (SHA-2 verwendet Digest-Längen von 224, 256, 384 oder 512 Bits) von Digest-Hash-und Signaturalgorithmen für Verbindungen von Clients, die die Windows 7-, Windows Server 2008 R2-, Windows Server 2008-, Windows Vista-oder Windows XP-Betriebssysteme verwenden, zusätzlich zu lync Phone Edition. Um den externen Zugriff mithilfe der SHA-2-Suite zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die auch ein Zertifikat mit demselben Bit-Längen-Digest ausgeben kann.
 
 
 
@@ -53,7 +55,7 @@ Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gr
 
 
 > [!WARNING]  
-> Die Auswahl des Hash Digest-und Signaturalgorithmus hängt von den Clients und den Servern ab, auf denen das Zertifikat verwendet wird, sowie von anderen Computern und Geräten, mit denen Clients und Server kommunizieren, die auch wissen müssen, wie die in der Anwendung verwendeten Algorithmen verwendet werden sollen. Zertifikat. Informationen darüber, welche Digest-Längen im Betriebssystem und in einigen Clientanwendungen unterstützt<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>werden, finden Sie unter.
+> Die Auswahl des Hash Digest-und Signaturalgorithmus hängt von den Clients und den Servern ab, auf denen das Zertifikat verwendet wird, sowie von anderen Computern und Geräten, mit denen Clients und Server kommunizieren, die auch wissen müssen, wie die im Zertifikat verwendeten Algorithmen verwendet werden. Informationen darüber, welche Digest-Längen im Betriebssystem und in einigen Clientanwendungen unterstützt werden, finden Sie unter <A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A> .
 
 
 

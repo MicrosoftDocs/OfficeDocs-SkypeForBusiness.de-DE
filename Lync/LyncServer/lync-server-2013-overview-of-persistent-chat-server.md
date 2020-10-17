@@ -12,20 +12,22 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38188067f5320c7e9fc6aa7ccef60812d5a42023
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520862"
 ---
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Übersicht über den Server für beständigen Chat in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Übersicht über den Server für beständigen Chat in lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 Server für beständigen Chat ermöglicht Benutzern die Teilnah
 
   - Gezielte Weitergabe von wichtigem Wissen und wichtigen Informationen. Dokumente und Links können in Unterhaltungen eingefügt werden, damit das gesamte Team darauf zugreifen kann. Wenn sie Fragen an ein großes Team stellen, können Benutzer von den Antworten der Fachbereichsexperten profitieren. Durch die Integration in andere Informationssysteme können wichtige organisatorische Daten einfach an große Gruppen kommuniziert werden.
 
-Um Chatrooms in lync Server 2013 zu aktivieren, stellen Sie beständiger Chat von lync Server 2013 bereit. Informationen zum Aktivieren von Chatrooms finden Sie in <https://go.microsoft.com/fwlink/p/?linkid=270945>der Hilfe zum beständigen Chat unter. Wenn Benutzer für lync Server aktiviert sind und lync Server-Unterstützung bereitgestellt wird, können Benutzer lync 2013 beständigen Chat installieren und verwenden, um Chat Raum Unterstützung bereitzustellen.
+Um Chatrooms in lync Server 2013 zu aktivieren, stellen Sie beständiger Chat von lync Server 2013 bereit. Informationen zum Aktivieren von Chatrooms finden Sie in der Hilfe zum beständigen Chat unter <https://go.microsoft.com/fwlink/p/?linkid=270945> . Wenn Benutzer für lync Server aktiviert sind und lync Server-Unterstützung bereitgestellt wird, können Benutzer lync 2013 beständigen Chat installieren und verwenden, um Chat Raum Unterstützung bereitzustellen.
 
 Wenn Ihre Organisation Compliance-Vorschriften einhalten muss, können Sie optional den Compliance-Dienst für beständigen Chat bereitstellen.
 

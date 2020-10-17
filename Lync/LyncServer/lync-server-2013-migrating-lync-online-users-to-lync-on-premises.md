@@ -12,20 +12,22 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 8a2be7414dbdc48c9e245db33e57b8238cfb2ee9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221225"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520992"
 ---
+# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Migrieren von lync Online Benutzern lokal zu lync in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Migrieren von lync Online Benutzern lokal zu lync in lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
-2.  Stellen Sie sicher, dass Sie auf Ihren lokalen Edgeserver die Zertifikatkette haben, die die Verbindung mit lync Online ermöglicht, wie in der folgenden Tabelle dargestellt. Sie können diese Kette hier herunterladen:https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
+2.  Stellen Sie sicher, dass Sie auf Ihren lokalen Edgeserver die Zertifikatkette haben, die die Verbindung mit lync Online ermöglicht, wie in der folgenden Tabelle dargestellt. Sie können diese Kette hier herunterladen: https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
 
 
     <table>
@@ -104,7 +106,7 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
         -SipAddress "sip: username@contoso.com"
         -HostingProviderProxyFqdn "sipfed.online.lync.com"
     
-    Sie können auch ein Skript erstellen, das Benutzernamen aus einer Datei liest und diese als Eingabe für das Cmdlet Enable-CsUser bereitstellt:
+    Sie können auch ein Skript erstellen, das Benutzernamen aus einer Datei liest und diese als Eingabe für das Enable-CsUser-Cmdlet bereitstellt:
     
         Enable-CsUser
         -Identity $Identity 
@@ -141,7 +143,7 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format: *https:// \< Pool FQDN \> /HostedMigration/hostedmigrationService.svc*.
+    Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format: *https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc*.
     
     Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Microsoft 365-oder Office 365-organisationskonto anzeigen.
     

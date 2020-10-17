@@ -12,20 +12,22 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213421"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520018"
 ---
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Wählpläne und Normalisierungsregeln in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Wählpläne und Normalisierungsregeln in lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ Führen Sie die folgenden Schritte aus, um einen Wählplan zu planen:
     
     Wenn Ihre Organisation einen einzelnen Wählplan über mehrere Standorte hinweg verwaltet, müssen Sie möglicherweise dennoch einen separaten Wählplan für Enterprise-VoIP-Benutzer erstellen, die von einer Nebenstellenanlage migrieren und die vorhandenen Erweiterungen beibehalten müssen.
 
-  - Entscheiden Sie, ob benutzerspezifische Wählpläne erforderlich sind. Wenn Sie beispielsweise über Benutzer an einem Zweigstellenstandort verfügen, die am zentralen Standort registriert sind oder wenn Sie über Benutzer verfügen, die in einem Survivable Branch Appliance registriert sind, können Sie spezielle Wähl Szenarien für solche Benutzer verwenden, die benutzerspezifische Wählpläne und Normalisierungsregeln verwenden. . Ausführliche Informationen finden Sie unter Anforderungen an die [Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
+  - Entscheiden Sie, ob benutzerspezifische Wählpläne erforderlich sind. Wenn Sie beispielsweise über Benutzer an einem Zweigstellenstandort verfügen, die beim zentralen Standort registriert sind oder wenn Sie über Benutzer verfügen, die in einem Survivable Branch Appliance registriert sind, können Sie spezielle Wähl Szenarien für solche Benutzer verwenden, die benutzerspezifische Wählpläne und Normalisierungsregeln verwenden. Ausführliche Informationen finden Sie unter Anforderungen an die [Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
 
   - Bestimmen des Wähl planbereichs (wie zuvor in diesem Thema beschrieben).
 
@@ -129,7 +131,7 @@ Wenn Sie Einwahlkonferenzen bereitstellen, müssen Sie eine Einwahlkonferenz Reg
 
 ## <a name="external-access-prefix"></a>Präfix für externen Zugriff
 
-Sie können ein externes Zugriffs Präfix mit bis zu vier Zeichen (\#, \*und 0-9) angeben, wenn Benutzer eine oder mehrere zusätzliche führende Ziffern (beispielsweise 9) zum Abrufen einer externen Leitung wählen müssen.
+Sie können ein externes Zugriffs Präfix mit bis zu vier Zeichen ( \# , \* und 0-9) angeben, wenn Benutzer eine oder mehrere zusätzliche führende Ziffern (beispielsweise 9) zum Abrufen einer externen Leitung wählen müssen.
 
 <div>
 
@@ -173,9 +175,9 @@ Die folgenden Zahlenfelder gehören zu denen, die ihre Normalisierungsregeln mö
 
 ## <a name="creating-normalization-rules"></a>Erstellen von Normalisierungsregeln
 
-Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um numerische Übereinstimmungsmuster anzugeben, die der Server verwendet, um Wählzeichenfolgen in das E. 164-Format zu übersetzen, um eine umgekehrte Nummernsuche durchführen zu können. Normalisierungsregeln werden im lync Server-Systemsteuerung entweder durch manuelles Eingeben der Ausdrücke oder durch Eingeben der Start Ziffern und der Länge der zu entgegen gebenden Wählzeichenfolgen und dem lync Server-Systemsteuerung generieren der entsprechenden regulärer Ausdruck für Sie. In beiden Fällen können Sie, wenn Sie fertig sind, eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
+Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um numerische Übereinstimmungsmuster anzugeben, die der Server verwendet, um Wählzeichenfolgen in das E. 164-Format zu übersetzen, um eine umgekehrte Nummernsuche durchführen zu können. Normalisierungsregeln werden im lync Server-Systemsteuerung entweder durch manuelles Eingeben der Ausdrücke oder durch Eingeben der Start Ziffern und der Länge der zu entgegen gebenden Wählzeichenfolgen und dem lync Server-Systemsteuerung generieren des entsprechenden regulären Ausdrucks für Sie erstellt. In beiden Fällen können Sie, wenn Sie fertig sind, eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
 
-Ausführliche Informationen zur Verwendung .NET Framework reguläre Ausdrücke finden Sie unter ".NET Framework reguläre Ausdrücke" [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)unter.
+Ausführliche Informationen zur Verwendung .NET Framework reguläre Ausdrücke finden Sie unter ".NET Framework reguläre Ausdrücke" unter [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 </div>
 
@@ -202,7 +204,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als .NET
 <th>Regelname</th>
 <th>Beschreibung</th>
 <th>Nummernmuster</th>
-<th>Translation</th>
+<th>Übersetzung</th>
 <th>Beispiel</th>
 </tr>
 </thead>
@@ -210,42 +212,42 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als .NET
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>Übersetzt vierstellige Durchwahlnummern</p></td>
-<td><p>^ (\d{4}) $</p></td>
+<td><p>^(\d{4})$</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>0100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>Übersetzt fünfstellige Durchwahlnummern</p></td>
-<td><p>^ 5 (\d{4}) $</p></td>
+<td><p>^ 5 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>50100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>Übersetzt 7-stellige Nummern in lokale Redmond-Nummern.</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^(\d{7})$</p></td>
 <td><p>+ 1425 $1</p></td>
 <td><p>5550100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>Übersetzt siebenstellige Nummern in lokale Dallas-Nummern</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^(\d{7})$</p></td>
 <td><p>+ 1972 $1</p></td>
 <td><p>5550100 wird in + 19725550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>Übersetzt 10-stellige Zahlen in den USA</p></td>
-<td><p>^ (\d{10}) $</p></td>
-<td><p>+ 1 $1</p></td>
+<td><p>^(\d{10})$</p></td>
+<td><p>+1$1</p></td>
 <td><p>2065550100 wird in + 12065550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>Übersetzt Nummern mit Präfixen für Ferngespräche in den Vereinigten Staaten</p></td>
-<td><p>^ 1 (\d{10}) $</p></td>
+<td><p>^ 1 (\d {10} ) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>12145550100 wird in + 2145550100 übersetzt</p></td>
 </tr>
@@ -266,21 +268,21 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als .NET
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>Übersetzt Nummern mit on-net prefix (6) und Redmond Site Code (222)</p></td>
-<td><p>^ 6222 (\d{4}) $</p></td>
+<td><p>^ 6222 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>62220100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>Übersetzt Nummern mit on-net prefix (6) und NY Site Code (333)</p></td>
-<td><p>^ 6333 (\d{4}) $</p></td>
+<td><p>^ 6333 (\d {4} ) $</p></td>
 <td><p>+ 1202555 $1</p></td>
 <td><p>63330100 wird in + 12025550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>Übersetzt Nummern mit on-net prefix (6) und Dallas Site Code (444)</p></td>
-<td><p>^ 6444 (\d{4}) $</p></td>
+<td><p>^ 6444 (\d {4} ) $</p></td>
 <td><p>+ 1972555 $1</p></td>
 <td><p>64440100 wird in + 19725550100 übersetzt</p></td>
 </tr>

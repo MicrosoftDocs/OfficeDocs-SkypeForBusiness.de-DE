@@ -12,20 +12,22 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff6e72d13ddfb80369a0a522abc14a1de459536
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 249993e68930db1eb5dd5159633a73f80cef8c05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520052"
 ---
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Konfigurieren von DNS für die AutoErmittlung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Konfigurieren von DNS für die AutoErmittlung in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Um die AutoErmittlung für lync-Clients zu unterstützen, müssen Sie die folgen
 
 Für jede SIP-Domäne muss ein interner DNS-Eintrag und ein externer DNS-Eintrag erstellt werden.
 
-Bei den DNS-Einträgen kann es sich entweder um einen (Host-) Eintrag oder um CNAME-Einträge handeln, basierend auf ihrer Fähigkeit, neue Zertifikate mit dem zusätzlichen Antragstellernamen (San) zu erstellen. Wenn Sie kein neues externes (öffentliches) Zertifikat mit dem lyncdiscover anfordern und bereitstellen können. \<Domänenname\> San, verwenden Sie das Verfahren für die Verwendung von http/TCP-Port 80. Die folgenden Vorgehensweisen beschreiben, wie interne und externe DNS-Einträge erstellt werden.
+Bei den DNS-Einträgen kann es sich entweder um einen (Host-) Eintrag oder um CNAME-Einträge handeln, basierend auf ihrer Fähigkeit, neue Zertifikate mit dem zusätzlichen Antragstellernamen (San) zu erstellen. Wenn Sie kein neues externes (öffentliches) Zertifikat mit dem lyncdiscover anfordern und bereitstellen können.\<domain name\> San verwenden Sie das Verfahren für die Verwendung von http/TCP-Port 80. Die folgenden Vorgehensweisen beschreiben, wie interne und externe DNS-Einträge erstellt werden.
 
 <div>
 
@@ -67,7 +69,7 @@ Bei den DNS-Einträgen kann es sich entweder um einen (Host-) Eintrag oder um CN
         
 
         > [!NOTE]  
-        > Diese Domäne ist die Active Directory Domäne, in der&nbsp;ihre lync Server 2013 Directorpool und Front-End-Pool installiert sind.
+        > Diese Domäne ist die Active Directory Domäne, in der Ihre lync Server 2013 &nbsp; Directorpool und Front-End-Pool installiert sind.
 
         
         </div>
@@ -151,7 +153,7 @@ Bei den DNS-Einträgen kann es sich entweder um einen (Host-) Eintrag oder um CN
         
 
         > [!NOTE]  
-        > Diese Domäne ist die Active Directory Domäne, in der&nbsp;ihre lync Server 2013 Directorpool und Front-End-Pool installiert sind.
+        > Diese Domäne ist die Active Directory Domäne, in der Ihre lync Server 2013 &nbsp; Directorpool und Front-End-Pool installiert sind.
 
         
         </div>

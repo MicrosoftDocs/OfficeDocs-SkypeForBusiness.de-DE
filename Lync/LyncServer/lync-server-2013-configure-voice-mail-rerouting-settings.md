@@ -12,20 +12,22 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f327bfc533b28313e4728b13c7a69d6c16bc034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b51a529ee7bc4fd1148413058ceaf1f1f6d61e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520182"
 ---
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Konfigurieren von Einstellungen für das Umleiten von Voicemail in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Konfigurieren von Einstellungen für das Umleiten von Voicemail in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Ausführliche Informationen finden Sie im Abschnitt "Vorbereiten der Überlebens
 
 ## <a name="to-configure-voice-mail-survivability"></a>So konfigurieren Sie die Ausfallsicherheit für VoIP-Funktionen
 
-1.  Bitten Sie Ihren Exchange-Administrator, die AA so zu konfigurieren, dass nur Nachrichten akzeptiert werden (verwenden Sie in der Exchange-Shell das folgende Cmdlet: **UMAutoAttendant \<AA Name\> -CallSomeoneEnabled $false**. Der Parameter, der angibt, dass das verlassen von Nachrichten zulässig ist (*SendVoiceMsgEnabled*), ist standardmäßig true.
+1.  Bitten Sie Ihren Exchange-Administrator, die AA so zu konfigurieren, dass nur Nachrichten akzeptiert werden (verwenden Sie in der Exchange-Shell das folgende Cmdlet: **festlegen-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**. Der Parameter, der angibt, dass das verlassen von Nachrichten zulässig ist (*SendVoiceMsgEnabled*), ist standardmäßig true.
 
 2.  Verwenden Sie im lync Server-Verwaltungsshell das Cmdlet **New-CSVoiceMailReroutingConfiguration** , um die AA-Telefonnummer Exchange um als Telefonnummer der automatischen Telefonzentrale in der Konfiguration für die Voicemail-Umleitung auf dem Survivable Branch Appliance oder Survivable Branch Server festzulegen.
     

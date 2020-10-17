@@ -12,20 +12,22 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6377824a7d96e6bb7b0ae6c60c79f3ee4c05b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 738f745d4f91458b95e95e5cc5770c34ed4e8c88
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203331"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521352"
 ---
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Hinzufügen von Befehlen zu lync-Menüs in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Hinzufügen von Befehlen zu lync-Menüs in lync Server 2013
+
 
 </div>
 
@@ -69,9 +71,9 @@ Der benutzerdefinierte Befehl kann auf folgende Weise aufgerufen werden:
 
 Verwenden Sie die Registrierungseinstellungen in der folgenden Tabelle, um den Menüs einen Befehl hinzuzufügen. Diese Einträge werden an einem der folgenden Speicherorte in der Registrierung gespeichert:
 
-  - Für 32bit OS: HKEY\_local\_Machine\\Software\\Microsoft\\Office\\15,0\\lync\\SessionManager\\apps
+  - Für 32bit OS: HKEY \_ local \_ Machine \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync \\ SessionManager \\ apps
 
-  - Für 64bit OS: HKEY\_local\_Machine\\Software\\Wow6432Node\\Microsoft\\Office\\15,0\\lync\\SessionManager\\apps
+  - Für 64bit OS: HKEY \_ local \_ Machine \\ Software \\ Wow6432Node \\ Microsoft \\ Office \\ 15,0 \\ lync \\ SessionManager \\ apps
 
 ### <a name="custom-command-registry-entries"></a>Registrierungseinträge für benutzerdefinierte Befehle
 
@@ -166,13 +168,13 @@ Beispielsweise wird der folgende Registrierungs-Editor (. REG) zeigt die Ergebni
 
 Wenn Sie nach dem Hinzufügen auf einen benutzerdefinierten Befehl zugreifen möchten, führen Sie je nach den von Ihnen definierten ExtensibleMenu-Werten einen der folgenden Schritte aus:
 
-  - **MainWindowActions**   klicken Sie im lync-Hauptfenster auf **Extras**, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
+  - **MainWindowActions**     Klicken Sie im lync-Hauptfenster auf **Extras**, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
 
-  - **MainWindowRightClick**   klicken Sie im lync-Hauptfenster mit der rechten Maustaste auf einen Kontakt, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
+  - **MainWindowRightClick**     Klicken Sie im lync-Hauptfenster mit der rechten Maustaste auf einen Kontakt, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
 
-  - **ConversationWindowActions**   klicken Sie im Fenster Unterhaltung auf das Symbol **Weitere Optionen** , und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
+  - **ConversationWindowActions**     Klicken Sie im Fenster Unterhaltung auf das Symbol **Weitere Optionen** , und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
 
-  - **ConversationWindowRightClick**   klicken Sie im Fenster Unterhaltung mit der rechten Maustaste auf einen Kontaktnamen, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
+  - **ConversationWindowRightClick**     Klicken Sie im Fenster Unterhaltung mit der rechten Maustaste auf einen Kontaktnamen, und klicken Sie dann auf Ihren benutzerdefinierten Befehl.
 
 </div>
 

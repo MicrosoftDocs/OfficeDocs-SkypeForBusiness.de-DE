@@ -12,20 +12,22 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6f299b01b95cddd461893b35518e3c2fe40c694
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab7e22d4ff0e34d903fa0306d971705c5455b2f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200481"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521782"
 ---
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Einrichten des Speichers für die Archivierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Einrichten des Speichers für die Archivierung in lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Letztes Änderungsstand des Themas:** 2013-12-17_
 
 Der Archivierungsspeicher für lync Server 2013 umfasst Folgendes:
 
-  - **Daten**Speicherdaten Speicher ist erforderlich, um Chatinhalte zu speichern.   
+  - **Datenspeicherung**     Datenspeicher ist erforderlich, um Chatinhalte zu speichern.
 
-  - **Datei**   Speicherdatei Speicher ist erforderlich, um Konferenzen (Besprechungs-) Inhaltsdaten Speicher und Dateispeicher zu speichern.
+  - **Dateispeicher**     Dateispeicher ist erforderlich, um die Inhaltsdaten Speicherung und den Dateispeicher für Konferenzen (Besprechungen) zu speichern.
 
 <div>
 
@@ -57,7 +59,7 @@ Voraussetzungen für das Einrichten des Datenspeichers für die Archivierung in 
 
 ## <a name="setting-up-exchange-storage-for-archiving-data"></a>Einrichten des Exchange-Speichers für Archivierungsdaten
 
-Das Einrichten von Exchange für die Speicherung von Archivierungsdaten erfordert, dass Ihre Exchange-Bereitstellung Exchange 2013 ausführt. Darüber hinaus müssen Benutzerpostfächer auf dem Exchange 2013 Server verwaltet werden, und ihre Postfächer müssen in einem Compliance-Archiv abgelegt sein. Ausführliche Informationen zum Konfigurieren von Exchange 2013 finden Sie in der Exchange-Produktdokumentation.
+Das Einrichten von Exchange für die Speicherung von Archivierungsdaten erfordert, dass Ihre Exchange-Bereitstellung Exchange 2013 ausführt. Darüber hinaus müssen Benutzerpostfächer auf dem Exchange 2013-Server verwaltet werden, und ihre Postfächer müssen in In-Place Aufbewahrungsbereich verschoben werden. Ausführliche Informationen zum Konfigurieren von Exchange 2013 finden Sie in der Exchange-Produktdokumentation.
 
 </div>
 
@@ -71,13 +73,13 @@ Für SQL Server Archivierungsdatenbanken müssen Sie SQL Server auf dem Computer
 
 Auf jedem Datenbankserver muss eine unterstützte Version von SQL Server installiert sein. Ausführliche Informationen zu den unterstützten Versionen finden Sie unter [Technical Requirements for Archiving in lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) in der Planungsdokumentation.
 
-Sie müssen die SQL Server Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren. Wenn das zum Veröffentlichen der Topologie verwendete Konto über die entsprechenden Administratorrechte und-Berechtigungen verfügt, können Sie beim Veröffentlichen Ihrer Topologie die Archivierungsdatenbank (LcsLog) erstellen. Sie können die Datenbank auch zu einem späteren Zeitpunkt erstellen, z. B. als Teil des Installationsvorgangs. Ausführliche Informationen zu SQL Server finden Sie im SQL Server TechCenter unter [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045).
+Sie müssen die SQL Server Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren. Wenn das zum Veröffentlichen der Topologie verwendete Konto über die entsprechenden Administratorrechte und-Berechtigungen verfügt, können Sie beim Veröffentlichen Ihrer Topologie die Archivierungsdatenbank (LcsLog) erstellen. Sie können die Datenbank auch zu einem späteren Zeitpunkt erstellen, z. B. als Teil des Installationsvorgangs. Ausführliche Informationen zu SQL Server finden Sie im SQL Server TechCenter unter [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) .
 
 <div>
 
 
 > [!NOTE]  
-> Stellen Sie sicher, dass der Starttyp des SQL Server-Agent-Diensts automatisch ist und dass der SQL Server-Agentdienst für die SQL-Instanz ausgeführt wird, die das Archivierungsdatenbank aufweist, damit der standardmäßige Archivierungs SQL Server-Wartungsauftrag unter der festgelegten Basis ausgeführt werden kann. Steuerung des SQL Server-Agent-Diensts.
+> Stellen Sie sicher, dass der Starttyp des SQL Server-Agent-Diensts automatisch ist und der SQL Server-Agentdienst für die SQL-Instanz ausgeführt wird, die das Archivierungsdatenbank aufweist, damit der standardmäßige Archivierungs SQL Server-Wartungsauftrag unter der Kontrolle des SQL Server Agent-Diensts planmäßig ausgeführt werden kann.
 
 
 

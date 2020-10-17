@@ -12,20 +12,22 @@ ms:contentKeyID: 50873757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6851a332b0b2c33d769328a0656f206d5f7d271c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56061b4d6c801263c30e471acef70e68c10bfea1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521742"
 ---
+# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen in lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client
 
 ## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Erstellen oder Ändern von Konfigurationseinstellungen für Client Versionen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Konfigurationseinstellungen für Clientversionen mithilfe des **New-CsClientVersionConfiguration-** Cmdlets erstellen und diese mithilfe des Cmdlets " **CsClientVersionConfiguration** " ändern. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können Konfigurationseinstellungen für Clientversionen mithilfe des **New-CsClientVersionConfiguration-** Cmdlets erstellen und diese mithilfe des Cmdlets " **CsClientVersionConfiguration** " ändern. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

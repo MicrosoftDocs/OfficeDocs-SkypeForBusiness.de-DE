@@ -12,20 +12,22 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54c92e1da5ea1ea54ae8386cdcdce5054d76609e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a967f186d924a199b007ceba8390bf968253ec72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520412"
 ---
+# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213261"
 
 _**Letztes Änderungsstand des Themas:** 2013-10-07_
 
-Die Verbindung mit öffentlichen Instant Messaging-Verbindungen ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chat, um mit Benutzern von Chat Diensten zu kommunizieren, die von öffentlichen Sofortnachrichten-Dienstanbietern bereitgestellt werden,\!einschließlich des Windows Live-Netzwerks für Internet Dienste, Yahoo und AOL. Sie konfigurieren eine oder mehrere Richtlinien für den externen Benutzer Zugriff, um zu steuern, ob öffentliche Benutzer mit internen lync Server Benutzern zusammenarbeiten können. Die Verbindung mit öffentlichen Instant Messaging-Diensten ist ein zusätzliches Feature, das auf der Konfiguration Ihrer Bereitstellung und der Benutzer basiert. Es hängt auch von der Einrichtung des Diensts beim öffentlichen Instant Messaging-Anbieter ab. Informationen zum Bereitstellen der Bereitstellung für die Verwendung der öffentlichen Anbieter finden Sie im Leitfaden "Public im Connectivity Provisioning Guide for Microsoft lync Server, Office Communications Server und Live Communications Server".[https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
+Die Verbindung mit öffentlichen Instant Messaging-Verbindungen ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chat, um mit Benutzern von Chat Diensten zu kommunizieren, die von öffentlichen Sofortnachrichten-Dienstanbietern bereitgestellt werden, einschließlich des Windows Live-Netzwerks für Internet Dienste, Yahoo \! und AOL. Sie konfigurieren eine oder mehrere Richtlinien für den externen Benutzer Zugriff, um zu steuern, ob öffentliche Benutzer mit internen lync Server Benutzern zusammenarbeiten können. Die Verbindung mit öffentlichen Instant Messaging-Diensten ist ein zusätzliches Feature, das auf der Konfiguration Ihrer Bereitstellung und der Benutzer basiert. Es hängt auch von der Einrichtung des Diensts beim öffentlichen Instant Messaging-Anbieter ab. Informationen zum Bereitstellen der Bereitstellung für die Verwendung der öffentlichen Anbieter finden Sie im Leitfaden "Public im Connectivity Provisioning Guide for Microsoft lync Server, Office Communications Server und Live Communications Server". [https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -55,9 +57,9 @@ Die Verbindung mit öffentlichen Instant Messaging-Verbindungen ermöglicht Benu
 
 </div>
 
-Verwenden Sie den folgenden Link, um auf die Microsoft lync Server-Website für die Konnektivität mit öffentlichen Instant Messaging-Diensten zuzugreifen:[https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
+Verwenden Sie den folgenden Link, um auf die Microsoft lync Server-Website für die Konnektivität mit öffentlichen Instant Messaging-Diensten zuzugreifen: [https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
 
-Zum Steuern des Zugriffs durch öffentliche Benutzer können Sie Richtlinien auf globaler Ebene und Standort- und Benutzerebene konfigurieren. Ausführliche Informationen zu den Typen von Richtlinien, die Sie konfigurieren können, finden Sie unter [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) in der Bereitstellungsdokumentation oder in der Planungsdokumentation. Lync Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Lync Server Vorrang vor der Richtlinie: Benutzerrichtlinie (der meiste Einfluss) setzt eine Standortrichtlinie außer Kraft, und eine Standortrichtlinie setzt eine globale Richtlinie (am wenigsten Einfluss) außer Kraft. Dies bedeutet, dass je näher die Richtlinieneinstellung auf das Objekt zutrifft, das die Richtlinie betrifft, desto mehr Einfluss hat Sie auf das Objekt.
+Zum Steuern des Zugriffs durch öffentliche Benutzer können Sie Richtlinien auf globaler Ebene und Standort- und Benutzerebene konfigurieren. Ausführliche Informationen zu den Typen von Richtlinien, die Sie konfigurieren können, finden Sie unter [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) in der Bereitstellungsdokumentation oder in der Planungsdokumentation. Lync Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Lync Server Vorrang vor der Richtlinie: Benutzerrichtlinie (der meiste Einfluss) setzt eine Standortrichtlinie außer Kraft, und eine Standortrichtlinie setzt eine globale Richtlinie (am wenigsten Einfluss) außer Kraft. Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie.
 
 Im Fall von Sofortnachrichten-Einladungen hängt die Antwort von der Clientsoftware ab. Die Anforderung wird akzeptiert, sofern externe Absender nicht ausdrücklich durch eine vom Benutzer konfigurierte Regel (also Einstellungen in der **Zulassungs-** und **Blockierliste** des Benutzers) blockiert werden. Darüber hinaus können Sofortnachrichten-Einladungen blockiert werden, wenn ein Benutzer festlegt, dass alle Sofortnachrichten von Benutzern, die nicht in der **Zulassungsliste** enthalten sind, blockiert werden.
 

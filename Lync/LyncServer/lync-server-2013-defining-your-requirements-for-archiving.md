@@ -12,20 +12,22 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21f7d374d3c4263f2341386d2c4471f50e4b719d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5f789f390e1cf104a0dc1b3a10a4116ba38c03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521662"
 ---
+# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Definieren der Anforderungen für die Archivierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Definieren der Anforderungen für die Archivierung in lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Zum Implementieren der Archivierung müssen Sie zunächst bestimmen, wie die Arc
     
     Diese Option können Sie auf globaler Ebene, Standortebene und Poolebene konfigurieren. Standardmäßig ist der kritische Modus nicht aktiviert.
 
-  - Gibt **an, ob Microsoft Exchange Integration verwendet werden soll**. Mit dieser Option wird der Archivierungsspeicher in Ihren Exchange 2013 Speicher integriert, sodass Ihre lync Server archivierten Daten und Exchange 2013 archivierten Daten in Exchange zusammen gespeichert werden. Sie können Microsoft Exchange Integration zum Speichern von Archivierungsdaten für Benutzer verwenden, die in Exchange 2013 verwaltet werden, wenn ihre Postfächer im Compliance-Archiv platziert wurden. Wenn Sie nicht über eine Exchange 2013-Bereitstellung verfügen oder keine Integration in das Programm wünschen oder wenn Sie lync-Benutzer haben, die nicht in Exchange 2013 verwaltet werden, können Sie separate Archivierungsdatenbanken bereitstellen, indem Sie mithilfe von SQL Server archivierte Daten aus lync Communications speichern. Sie können die Option Microsoft Exchange Integration auf globaler Ebene, auf Standortebene und auf Poolebene konfigurieren. Microsoft Exchange Integration ist standardmäßig nicht aktiviert.
+  - Gibt **an, ob Microsoft Exchange Integration verwendet werden soll**. Mit dieser Option wird der Archivierungsspeicher in Ihren Exchange 2013 Speicher integriert, sodass Ihre lync Server archivierten Daten und Exchange 2013 archivierten Daten in Exchange zusammen gespeichert werden. Sie können Microsoft Exchange Integration zum Speichern von Archivierungsdaten für Benutzer verwenden, die in Exchange 2013 verwaltet werden, wenn ihre Postfächer in In-Place Aufbewahrungsspeicher gesetzt wurden. Wenn Sie nicht über eine Exchange 2013-Bereitstellung verfügen oder keine Integration in das Programm wünschen oder wenn Sie lync-Benutzer haben, die nicht in Exchange 2013 verwaltet werden, können Sie separate Archivierungsdatenbanken bereitstellen, indem Sie mithilfe von SQL Server archivierte Daten aus lync Communications speichern. Sie können die Option Microsoft Exchange Integration auf globaler Ebene, auf Standortebene und auf Poolebene konfigurieren. Microsoft Exchange Integration ist standardmäßig nicht aktiviert.
 
   - **Wie archivierte Daten verwaltet werden sollen**. Die Archivierungsdatenbank ist nicht für die langfristige Aufbewahrung vorgesehen, und lync Server 2013 stellt keine e-Discovery-Lösung (Search) für archivierte Daten bereit, sodass Daten in andere Speicher verschoben werden müssen. Lync Server stellt ein Sitzungs Export Tool bereit, mit dem Sie archivierte Daten exportieren und durchsuchbare Transkripte der archivierten Daten erstellen können. Für die globale Richtlinie sowie für jede von Ihnen erstellte Standort- und Benutzerrichtlinie können Sie das Bereinigen von Daten aktivieren und eine der folgenden Optionen angeben:
     
@@ -97,7 +99,7 @@ Wenn Sie die Archivierung für einen Front-End-Pool oder einen Standard Edition-
 
 
 > [!NOTE]  
-> Um die Delegierung von administrativen Aufgaben unter Beibehaltung der Sicherheitsstandards Ihrer Organisation zu&nbsp;aktivieren, verwendet lync Server 2013 die rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC). Mit RBAC werden Administratorrechte erteilt, indem Benutzer vordefinierten Administratorrollen zugewiesen werden. Zum Konfigurieren von lync-Archivierungsrichtlinien und Archivierungs Konfigurationen muss der Benutzer der csarchivingadministrator "-Rolle zugewiesen sein (es sei denn, die Konfiguration erfolgt direkt auf dem Server, auf dem die Archivierung statt Remote von einem anderen Computer bereitgestellt wird). Ausführliche Informationen zu RBAC finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</A> in der Planungsdokumentation. Eine Liste der für die Archivierungs Bereitstellung erforderlichen Benutzerrechte, Berechtigungen und Rollen finden Sie unter <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checkliste for Archiving in lync Server 2013</A>, die sowohl in der Planungsdokumentation als auch in der Bereitstellungsdokumentation zur Verfügung steht.<BR>Wenn Sie Microsoft Exchange Integration verwenden, erfordert die Konfiguration von Exchange-Richtlinien entsprechende Administratorrechte und-Berechtigungen. Ausführliche Informationen finden Sie in der Exchange 2013 Dokumentation.
+> Um die Delegierung von administrativen Aufgaben unter Beibehaltung der Sicherheitsstandards Ihrer Organisation zu aktivieren, verwendet lync Server 2013 die &nbsp; rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC). Mit RBAC werden Administratorrechte erteilt, indem Benutzer vordefinierten Administratorrollen zugewiesen werden. Zum Konfigurieren von lync-Archivierungsrichtlinien und Archivierungs Konfigurationen muss der Benutzer der csarchivingadministrator "-Rolle zugewiesen sein (es sei denn, die Konfiguration erfolgt direkt auf dem Server, auf dem die Archivierung statt Remote von einem anderen Computer bereitgestellt wird). Ausführliche Informationen zu RBAC finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</A> in der Planungsdokumentation. Eine Liste der für die Archivierungs Bereitstellung erforderlichen Benutzerrechte, Berechtigungen und Rollen finden Sie unter <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checkliste for Archiving in lync Server 2013</A>, die sowohl in der Planungsdokumentation als auch in der Bereitstellungsdokumentation zur Verfügung steht.<BR>Wenn Sie Microsoft Exchange Integration verwenden, erfordert die Konfiguration von Exchange-Richtlinien entsprechende Administratorrechte und-Berechtigungen. Ausführliche Informationen finden Sie in der Exchange 2013 Dokumentation.
 
 
 

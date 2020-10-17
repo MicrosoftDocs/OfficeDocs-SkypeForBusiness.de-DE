@@ -12,20 +12,22 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adf6a1d777e16827f41d9a795fde54fca49750e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d159fd8fa4ade4cb2dee44da7fd7bbd2376b2a80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204629"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520102"
 ---
+# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Konfigurieren von Webveröffentlichungsregeln für einen einzelnen internen Pool in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Konfigurieren von Webveröffentlichungsregeln für einen einzelnen internen Pool in lync Server 2013
+
 
 </div>
 
@@ -82,7 +84,7 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
     
     </div>
 
-8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** im Feld **Pfad (optional)** als Pfad zu dem zu veröffentlichenden Ordner ein.
+8.  Geben Sie auf der Seite **interne Veröffentlichungs Details** im Feld **Pfad (optional)** **/\*** als Pfad zu dem zu veröffentlichenden Ordner ein.
     
     <div>
     
@@ -168,7 +170,7 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
     
     Geben Sie im Dialogfeld **Serverfarm erstellen** in **Serverfarm Name**den Namen a ein (Dies kann ein Anzeigename zu Identifikationszwecken sein) für die erste URL. Klicken Sie auf **Weiter**.
 
-6.  Geben Sie im Dialogfeld **Server hinzufügen** unter **Serveradresse**den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der externen Webdienste in Ihrer Front-End-Server ein. Die Namen, die hier zum Beispiel verwendet werden, sind dieselben, die im Planungsabschnitt für den Reverseproxy, die [Zertifikatzusammenfassung-Reverseproxy in lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md)verwendet werden. In Bezug auf die Planung für Reverse-Proxys geben `webext.contoso.com`Sie den FQDN ein. Stellen Sie sicher, dass das Kontrollkästchen neben **Online** aktiviert ist. Klicken Sie auf **Hinzufügen** , um den Server dem Pool von Webservern für diese Konfiguration hinzuzufügen.
+6.  Geben Sie im Dialogfeld **Server hinzufügen** unter **Serveradresse**den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der externen Webdienste in Ihrer Front-End-Server ein. Die Namen, die hier zum Beispiel verwendet werden, sind dieselben, die im Planungsabschnitt für den Reverseproxy, die [Zertifikatzusammenfassung-Reverseproxy in lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md)verwendet werden. In Bezug auf die Planung für Reverse-Proxys geben Sie den FQDN ein `webext.contoso.com` . Stellen Sie sicher, dass das Kontrollkästchen neben **Online** aktiviert ist. Klicken Sie auf **Hinzufügen** , um den Server dem Pool von Webservern für diese Konfiguration hinzuzufügen.
     
     <div>
     
@@ -234,13 +236,13 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
 
 13. Klicken Sie auf der linken Seite der Konsole auf den Namen des IIS-Servers. Suchen Sie in der Mitte der Konsole unter **IIS**nach **URL-Umschreibung** . Doppelklicken Sie auf URL umschreiben, um die Konfiguration der URL-umschreibungs Regeln zu öffnen. Es sollten Regeln für jede Server Farm angezeigt werden, die Sie in den vorherigen Schritten erstellt haben. Wenn Sie dies nicht tun, vergewissern Sie sich, dass Sie direkt unter dem Knoten **Start Seite** in der Konsole von Internet Informationsserver-Manager auf den Namen des **IIS-Servers** geklickt haben.
 
-14. Im Dialog **Feld URL-Umschreibung** mit Webext.contoso.com als Beispiel ist der vollständige Name der Regel, wie angezeigt wird **,\_arr\_Webext.contoso.com\_Loadbalance SSL**.
+14. Im Dialogfeld **URL-Umschreibung** mit Webext.contoso.com als Beispiel ist der vollständige Name der Regel, wie angezeigt wird, **arr \_ Webext.contoso.com \_ Loadbalance \_ SSL**.
     
       - Doppelklicken Sie auf die Regel, um das Dialogfeld **Eingehende Regel bearbeiten** zu öffnen.
     
       - Klicken Sie auf **hinzufügen...** im Dialogfeld **Bedingungen** .
     
-      - Geben Sie in der Bedingung **Hinzufügen Bedingung** **Input:** **{\_HTTP Host}** ein. (Während der Eingabe wird ein Dialogfeld angezeigt, in dem Sie die Bedingung auswählen können). Wählen Sie unter **überprüfen, ob Eingabezeichenfolge:** SELECT mit **dem Muster übereinstimmt**. Geben **\*** Sie im **Muster Eingabetyp** ein. **Fall ignorieren** sollte ausgewählt sein. Klicken Sie auf **OK**.
+      - Geben Sie in der Bedingung **Hinzufügen Bedingung** **Input:** **{http \_ Host}** ein. (Während der Eingabe wird ein Dialogfeld angezeigt, in dem Sie die Bedingung auswählen können). Wählen Sie unter **überprüfen, ob Eingabezeichenfolge:** SELECT mit **dem Muster übereinstimmt**. Geben Sie im **Muster Eingabetyp** ein **\*** . **Fall ignorieren** sollte ausgewählt sein. Klicken Sie auf **OK**.
     
       - Scrollen Sie im Dialogfeld **Eingehende Regel bearbeiten** , um das Dialogfeld **Aktion** zu suchen. **Aktionstyp:** sollte auf **Route zur Server Farm**, **Schema:** auf **https://**, **Serverfarm:** auf die URL festgelegt werden, auf die diese Regel angewendet wird. In diesem Beispiel sollte dies auf **Webext.contoso.com**festgelegt werden. **Path:** ist auf/{R festgelegt **: 0}**
     
@@ -252,7 +254,7 @@ Verwenden Sie die folgenden Verfahren, um Webveröffentlichungsregeln zu erstell
     
 
     > [!WARNING]  
-    > Standardmäßig werden http-Regeln ebenfalls erstellt und durch die ähnliche Benennung der SSL-Regeln gekennzeichnet. Für unser aktuelles Beispiel würde die HTTP-Regel den Namen <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>haben. Für diese Regeln sind keine Änderungen erforderlich, und Sie können sicher ignoriert werden.
+    > Standardmäßig werden http-Regeln ebenfalls erstellt und durch die ähnliche Benennung der SSL-Regeln gekennzeichnet. Für unser aktuelles Beispiel würde die HTTP-Regel den Namen <STRONG>ARR_webext. contoso. com _loadbalance</STRONG>. Für diese Regeln sind keine Änderungen erforderlich, und Sie können sicher ignoriert werden.
 
     
     </div>

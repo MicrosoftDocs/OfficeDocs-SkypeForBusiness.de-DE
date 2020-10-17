@@ -12,20 +12,22 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ff565c1d884fe2af9a49da6798e8c3e52cb38da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9495bc0c52e8e9af4af0daa3d29304d5b25d4b7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213311"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520262"
 ---
+# <a name="configure-the-location-database-in-lync-server-2013"></a>Konfigurieren der Standortdatenbank in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-location-database-in-lync-server-2013"></a>Konfigurieren der Standortdatenbank in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Sie müssen zunächst die Standortdatenbank konfigurieren, um Clients für die a
 
 Zur Konfiguration der Standortdatenbank führen Sie die folgenden Aufgaben aus:
 
-1.  Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein Elin-Gateway (Emergency Location Identification Number) verwenden, müssen Sie das Elin in das \<Feld\> CompanyName einschließen.
+1.  Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein Elin-Gateway (Emergency Location Identification Number) verwenden, müssen Sie das Elin in das \<CompanyName\> Feld einbeziehen.
 
 2.  Überprüfen Sie die Adressen anhand der MSAG-Daten (Master Street Address Guide), die vom Dienstanbieter für E9-1-1 verwaltet werden.
 

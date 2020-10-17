@@ -12,20 +12,22 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4ff853e3f31804e4bca55bd6a4576e25702b6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 640d8e97cf8b7a31e11cb2dc8f1b1394e4b1aae3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521812"
 ---
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Einrichten von Reverse-Proxyservern für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Einrichten von Reverse-Proxyservern für lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Für Microsoft lync Server 2013 Edgeserver-Bereitstellungen ist ein HTTPS-Revers
 
   - Aktivieren des lync 2013-Clients, der lync Windows Store-App und lync 2013 mobilen Clients zum Auffinden der lync Discover (autodiscover)-URLs und Verwenden von Unified Communications Web API (UCWA).
 
-Es wird empfohlen, den HTTP-Reverseproxy zum Veröffentlichen aller Webdienste in sämtlichen Pools zu konfigurieren. Veröffentlichen https://ExternalFQDN/\* veröffentlicht alle virtuellen IIS-Verzeichnisse für einen Pool. Sie benötigen eine Veröffentlichungsregel für jeden Standard Edition-Server, Front-End-Pool oder Director oder Director-Pool in Ihrer Organisation.
+Es wird empfohlen, den HTTP-Reverseproxy zum Veröffentlichen aller Webdienste in sämtlichen Pools zu konfigurieren. Veröffentlichen https://ExternalFQDN/ \* veröffentlicht alle virtuellen IIS-Verzeichnisse für einen Pool. Sie benötigen eine Veröffentlichungsregel für jeden Standard Edition-Server, Front-End-Pool oder Director oder Director-Pool in Ihrer Organisation.
 
 Darüber hinaus müssen Sie die einfachen URLs veröffentlichen. Wenn die Organisation über einen Director oder einen Director-Pool verfügt, fängt der HTTP-Reverseproxy HTTP/HTTPS-Anforderungen an die einfachen URLs ab und leitet sie an das virtuelle Verzeichnis der externen Webdienste auf dem Director oder dem Director-Pool weiter. Wenn Sie keinen Director bereitgestellt haben, müssen Sie einen Pool zur Verarbeitung von Anforderungen für einfache URLs festlegen. (Wenn es sich hierbei nicht um den Homepool des Benutzers handelt, wird eine Weiterleitung an die Webdienste im Homepool des Benutzers durchgeführt.) Die einfachen URLs können durch eine dedizierte Webveröffentlichungsregel verarbeitet werden, oder Sie können sie zu den öffentlichen Namen der Webveröffentlichungsregel für den Director hinzufügen. Sie müssen auch die externe AutoErmittlungsdienst-URL veröffentlichen.
 

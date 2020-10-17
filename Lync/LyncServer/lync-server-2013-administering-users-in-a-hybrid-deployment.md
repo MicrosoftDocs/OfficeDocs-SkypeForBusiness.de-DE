@@ -12,20 +12,22 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 906018941b00d8ef2cbb5e37aef8d1245ad93f00
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 15585b5df4a2c38c4d72733b8c999556e6cb8467
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221439"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521242"
 ---
+# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>Verwalten von Benutzern in einer hybriden lync Server 2013-Bereitstellung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>Verwalten von Benutzern in einer hybriden lync Server 2013-Bereitstellung
+
 
 </div>
 
@@ -65,7 +67,7 @@ Sie können Benutzereinstellungen und Richtlinien für Benutzer verwalten, die z
 
 Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, in folgendem Format:
 
-Https://- \< Pool-FQDN \> /HostedMigration/hostedmigrationService.svc. Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Microsoft 365-oder Office 365-organisationskonto anzeigen.
+Https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc. Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Microsoft 365-oder Office 365-organisationskonto anzeigen.
 
 **So bestimmen Sie die URL des gehosteten Migrations Diensts für Ihre Microsoft 365-oder Office 365-Organisation**
 

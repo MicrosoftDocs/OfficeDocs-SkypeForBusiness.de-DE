@@ -12,20 +12,22 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d05939f9d15f992d350a6bb756fe3c6b9839c37b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b39c10a3fb590acc99771663f5f6e23e3c3095e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520222"
 ---
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Konfigurieren von Unified Messaging für Microsoft Exchange für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Konfigurieren von Unified Messaging für Microsoft Exchange für lync Server 2013
+
 
 </div>
 
@@ -68,19 +70,19 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```powershell
      New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
     ```
-    Weitere Informationen finden Sie unter:
+    Ausführliche Informationen finden Sie hier:
     
-      - Informationen zu Office Communications Server 2007 finden Sie unter "Erstellen eines SIP [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) -URI-Wählplans für Unified Messaging" unter und "New-UMDialplan [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666): Exchange 2007 Help" unter.
+      - Informationen zu Office Communications Server 2007 finden Sie unter "Erstellen eines SIP-URI-Wählplans für Unified Messaging" unter [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) und "New-UMDialplan: Exchange 2007 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666) .
     
-      - Informationen zum Exchange 2010 finden Sie unter "Erstellen eines um-Wählplans" unter [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) und "New-UMDialplan [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680): Exchange 2010 Help" unter.
+      - Informationen zum Exchange 2010 finden Sie unter "Erstellen eines um-Wählplans" unter [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) und "New-UMDialplan: Exchange 2010 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680) .
     
-      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
+      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging" unter [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
     
     <div>
     
 
     > [!NOTE]  
-    > Ob Sie die Sicherheitsstufe <STRONG>SIPSecured</STRONG> oder <STRONG>Secured</STRONG> auswählen, hängt davon ab, ob SRTP (Secure Real-time Transport Protocol) für die Medienverschlüsselung aktiviert oder deaktiviert ist. Für die lync Server 2010 Integration in Exchange um sollte dies der Verschlüsselungsstufe in der lync Server Medienkonfiguration entsprechen. Die lync Server Medienkonfiguration kann durch Ausführen des Cmdlets <STRONG>Get-CsMediaConfiguration</STRONG> angezeigt werden. Ausführliche Informationen finden Sie unter Get-CsMediaConfiguration in der lync Server-Verwaltungsshell Dokumentation.<BR>Ausführliche Informationen zum Auswählen der geeigneten VoIP-Sicherheitseinstellung finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Deployment Process for Integration on-premises Unified Messaging and lync Server 2013</A>.
+    > Ob Sie die Sicherheitsstufe <STRONG>SIPSecured</STRONG> oder <STRONG>Secured</STRONG> auswählen, hängt davon ab, ob SRTP (Secure Real-time Transport Protocol) für die Medienverschlüsselung aktiviert oder deaktiviert ist. Für die lync Server 2010 Integration in Exchange um sollte dies der Verschlüsselungsstufe in der lync Server Medienkonfiguration entsprechen. Die lync Server Medienkonfiguration kann durch Ausführen des Cmdlets <STRONG>Get-CsMediaConfiguration</STRONG> angezeigt werden. Ausführliche Informationen finden Sie unter Get-CsMediaConfiguration in der lync Server-Verwaltungsshell-Dokumentation.<BR>Ausführliche Informationen zum Auswählen der geeigneten VoIP-Sicherheitseinstellung finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Deployment Process for Integration on-premises Unified Messaging and lync Server 2013</A>.
 
     
     </div>
@@ -91,13 +93,13 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
-    Weitere Informationen finden Sie unter:
+    Ausführliche Informationen finden Sie hier:
     
-      - Informationen zu Exchange 2007 finden Sie unter "Get-UMDialplan: [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678)Exchange 2007 Help" unter.
+      - Informationen zu Exchange 2007 finden Sie unter "Get-UMDialplan: Exchange 2007 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678) .
     
-      - Informationen zu Exchange 2010 finden Sie unter "Get-UMDialplan: [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679)Exchange 2010 Help" unter.
+      - Informationen zu Exchange 2010 finden Sie unter "Get-UMDialplan: Exchange 2010 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679) .
     
-      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
+      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging" unter [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
 
 3.  Notieren Sie die Namen aller UM-Wählpläne. Je nach ihrer Version von Exchange Server müssen Sie möglicherweise den FQDN der einzelnen Wähl Plan Namen später als Namen für die entsprechenden lync Server Wähleinstellungen für die um-Wähleinstellungen verwenden, damit die Wähl Plan Namen übereinstimmen.
     
@@ -114,11 +116,11 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
       - Wenn Sie sich zur Verwendung der Exchange-Verwaltungskonsole entscheiden, können Sie die Wähleinstellungen aus der Eigenschaftenseite des Servers hinzufügen. Genaue Anweisungen finden Sie in der Exchange Server-Produktdokumentation.
         
-        Informationen zum Exchange 2007 finden Sie unter "Hinzufügen eines Unified Messaging-Servers zu Wähleinstellungen [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)" unter.
+        Informationen zum Exchange 2007 finden Sie unter "Hinzufügen eines Unified Messaging-Servers zu Wähleinstellungen" unter [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681) .
         
-        Informationen zu Exchange 2010 finden Sie unter "anzeigen oder Konfigurieren der Eigenschaften eines um [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682)-Servers" unter.
+        Informationen zu Exchange 2010 finden Sie unter "anzeigen oder Konfigurieren der Eigenschaften eines um-Servers" unter [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682) .
         
-        Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
+        Informationen zu Exchange 2013 finden Sie unter "Unified Messaging" unter [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
     
       - Wenn Sie die Exchange-Verwaltungsshell verwenden, führen Sie für jeden Exchange UM-Server den folgenden Befehl aus:
         ```powershell
@@ -131,12 +133,12 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
 
     > [!NOTE]  
-    > Vergewissern Sie sich vor dem Ausführen des folgenden Schritts, dass für alle Enterprise-VoIP-Benutzer ein Exchange Server-Postfach konfiguriert wurde.<BR>Informationen zu Exchange 2007 finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>der Exchange Server 2007 TechNet-Bibliothek unter.<BR>Informationen zu Exchange 2010 finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>der Exchange Server 2010 TechNet-Bibliothek unter.<BR>Wenn Sie eine Postfachrichtlinie für jeden in Schritt 1 erstellten Satz mit Wähleinstellungen festlegen, verwenden Sie entweder die Standardrichtlinie oder eine von Ihnen selbst erstellte Richtlinie.
+    > Vergewissern Sie sich vor dem Ausführen des folgenden Schritts, dass für alle Enterprise-VoIP-Benutzer ein Exchange Server-Postfach konfiguriert wurde.<BR>Informationen zu Exchange 2007 finden Sie in der Exchange Server 2007 TechNet-Bibliothek unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A> .<BR>Informationen zu Exchange 2010 finden Sie in der Exchange Server 2010 TechNet-Bibliothek unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A> .<BR>Wenn Sie eine Postfachrichtlinie für jeden in Schritt 1 erstellten Satz mit Wähleinstellungen festlegen, verwenden Sie entweder die Standardrichtlinie oder eine von Ihnen selbst erstellte Richtlinie.
 
     
     </div>
 
-5.  Navigieren Sie \<zu Exchange-\>\\Installationsverzeichnis Skripts, und geben Sie Folgendes ein, wenn Exchange in einer einzelnen Gesamtstruktur bereitgestellt wird:
+5.  Navigieren Sie zu \<Exchange installation directory\> \\ Skripts, und geben Sie Folgendes ein, wenn Exchange in einer einzelnen Gesamtstruktur bereitgestellt wird:
     ```console
     exchucutil.ps1
     ```
@@ -181,9 +183,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Informationen zu Exchange 2007 finden Sie unter "festlegen-UMIPGateway: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)" unter.
+        Informationen zu Exchange 2007 finden Sie unter "festlegen-UMIPGateway: Exchange 2007 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687) .
         
-        Informationen zu Exchange 2010 finden Sie unter "festlegen-UMIPGateway: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)" unter.
+        Informationen zu Exchange 2010 finden Sie unter "festlegen-UMIPGateway: Exchange 2010 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688) .
     
       - Wenn Sie die Exchange-Verwaltungskonsole verwenden, deaktivieren Sie das Kontrollkästchen **Ausgehende Anrufe über dieses IP-Gateway zulassen**.
     
@@ -212,9 +214,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```
     Ausführliche Informationen finden Sie hier:
     
-      - Informationen zu Exchange 2007 finden Sie unter "New-UMAutoAttendant: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)" unter.
+      - Informationen zu Exchange 2007 finden Sie unter "New-UMAutoAttendant: Exchange 2007 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689) .
     
-      - Informationen zu Exchange 2010 finden Sie unter "New-UMAutoAttendant: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)" unter.
+      - Informationen zu Exchange 2010 finden Sie unter "New-UMAutoAttendant: Exchange 2010 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690) .
     
     Der folgende Schritt sollte für jeden Benutzer ausgeführt werden, nachdem Sie lync Server Benutzer für Enterprise-VoIP aktiviert und deren SIP-URIs kennen.
 
@@ -234,9 +236,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```
     Weitere Informationen finden Sie unter:
     
-      - Informationen zu Exchange 2007 finden Sie unter "Enable-UMMailbox: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)" unter.
+      - Informationen zu Exchange 2007 finden Sie unter "Enable-UMMailbox: Exchange 2007 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691) .
     
-      - Informationen zu Exchange 2010 finden Sie unter "Enable-UMMailbox: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)" unter.
+      - Informationen zu Exchange 2010 finden Sie unter "Enable-UMMailbox: Exchange 2010 Help" unter [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692) .
 
 </div>
 

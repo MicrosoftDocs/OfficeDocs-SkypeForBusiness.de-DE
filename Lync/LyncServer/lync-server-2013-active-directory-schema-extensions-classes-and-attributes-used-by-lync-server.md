@@ -12,20 +12,22 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ed67522a2f47466bbf01efdd3a548c3e3637321
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cf2b157dcd039f11d38ef56d6da07a6921e1c9c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191638"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521592"
 ---
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Active Directory von lync Server 2013 verwendeten Schemaerweiterungen, Klassen und Attribute
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Active Directory von lync Server 2013 verwendeten Schemaerweiterungen, Klassen und Attribute
+
 
 </div>
 
@@ -53,9 +55,9 @@ Dieser Referenzbereich enthält die folgenden Informationen:
 
   - Während der Domänenvorbereitung im Domänenstamm und in integrierten Containern erstellte Zugriffssteuerungseinträge (Access Control Entries, ACEs).
 
-  - Änderungen, die an einer Active Directory Organisationseinheit (Organizational Unit, OU)\_durch das Grant CsSetupPermission-Cmdlet vorgenommen werden.
+  - Änderungen, die an einer Active Directory Organisationseinheit (Organizational Unit, OU) durch das Grant CsSetupPermission-Cmdlet vorgenommen werden \_ .
 
-  - Änderungen, die auf einer Active Directory-OU durch das Grant\_CsOUPermission-Cmdlet vorgenommen werden.
+  - Änderungen, die auf einer Active Directory-OU durch das Grant \_ CsOUPermission-Cmdlet vorgenommen werden.
 
 <div>
 
@@ -73,9 +75,9 @@ Dieser Referenzbereich enthält die folgenden Informationen:
 
   - [Von der Domänenvorbereitung in lync Server 2013 vorgenommene Änderungen](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Von Grant-CsSetupPermission vorgenommene Änderungen in lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Von Grant-CsSetupPermission in lync Server 2013 vorgenommene Änderungen](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Von Grant-CsOUPermission vorgenommene Änderungen in lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Von Grant-CsOUPermission in lync Server 2013 vorgenommene Änderungen](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

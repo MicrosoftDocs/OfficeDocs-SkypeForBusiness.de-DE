@@ -12,20 +12,22 @@ ms:contentKeyID: 48183689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ffccccdc92df2d64424a0cc240dbda51f636a3d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0bceaef7a165f4594d825a80b93ee167b68c85a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520812"
 ---
+# <a name="overview-of-the-announcement-application-in-lync-server-2013"></a>Übersicht über die Ankündigungsanwendung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-announcement-application-in-lync-server-2013"></a>Übersicht über die Ankündigungsanwendung in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42215911"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-13_
 
-Wenn Sie das Ankündigungsanwendung bereitstellen, müssen Sie eine Tabelle nicht zugewiesener Nummern konfigurieren, die festlegt, welche Aktion ausgeführt werden soll, wenn jemand eine nicht zugewiesene Nummer wählt. Die Tabelle nicht zugewiesene Nummern enthält Bereiche von Telefonnummern, die für die Organisation gültig sind, und gibt an, welche Ankündigungsanwendung jeden Bereich verarbeitet. Wenn ein Anrufer eine Telefonnummer wählt, die für Ihre Organisation gültig ist, jedoch keinem Benutzer zugewiesen ist, sucht lync Server die Nummer in der Routingtabelle nicht zugewiesene Nummer ab, gibt an, in welchem Bereich die Zahl liegt, und leitet den Anruf an die Ansage weiter. für diesen Bereich angegebene Anwendung. Das Ankündigungsanwendung den Anruf entgegennimmt und eine Audio-Nachricht wiedergibt (wenn Sie es so konfiguriert haben) und dann entweder den Anruf trennt oder an ein vordefiniertes Ziel, beispielsweise an einen Operator, übergibt. Sie können lync Server-Verwaltungsshell-Cmdlets verwenden, um mehrere Audionachrichten zu konfigurieren oder Ziele zu übertragen.
+Wenn Sie das Ankündigungsanwendung bereitstellen, müssen Sie eine Tabelle nicht zugewiesener Nummern konfigurieren, die festlegt, welche Aktion ausgeführt werden soll, wenn jemand eine nicht zugewiesene Nummer wählt. Die Tabelle nicht zugewiesene Nummern enthält Bereiche von Telefonnummern, die für die Organisation gültig sind, und gibt an, welche Ankündigungsanwendung jeden Bereich verarbeitet. Wenn ein Anrufer eine Telefonnummer wählt, die für Ihre Organisation gültig ist, jedoch keinem Benutzer zugewiesen ist, sucht lync Server die Nummer in der Routingtabelle nicht zugewiesene Nummer ab, gibt den Bereich an, in den die Zahl fällt, und leitet den Anruf an das für diesen Bereich angegebene Ankündigungsanwendung weiter. Das Ankündigungsanwendung den Anruf entgegennimmt und eine Audio-Nachricht wiedergibt (wenn Sie es so konfiguriert haben) und dann entweder den Anruf trennt oder an ein vordefiniertes Ziel, beispielsweise an einen Operator, übergibt. Sie können lync Server-Verwaltungsshell-Cmdlets verwenden, um mehrere Audionachrichten zu konfigurieren oder Ziele zu übertragen.
 
 Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich danach, wie Sie diese verwenden möchten. Wenn Sie über bestimmte Nummern verfügen, die nicht mehr verwendet werden, und Sie individuelle Nachrichten für jede dieser Nummern wiedergeben möchten, können Sie diese spezifischen Nummern in der Tabelle nicht zugewiesener Rufnummern eingeben. Wenn Sie beispielsweise die Nummer für Ihren Kundendienst ändern, können Sie die alte Rufnummer des Kundendiensts in die Tabelle eingeben und einer Ansage zuordnen, in der die neue Rufnummer bereitgestellt wird. Um eine allgemeine Nachricht für Anrufer wiederzugeben, die eine nicht zugewiesene Nummer wählen (z. B. für Mitarbeiter, die nicht länger für Ihre Organisation tätig sind), können Sie Bereiche für alle gültigen Durchwahlnummern in Ihrer Organisation angeben. Die Tabelle nicht zugewiesener Rufnummern wird aufgerufen, sobald ein Anrufer eine Nummer wählt, die gegenwärtig nicht zugewiesen ist.
 
