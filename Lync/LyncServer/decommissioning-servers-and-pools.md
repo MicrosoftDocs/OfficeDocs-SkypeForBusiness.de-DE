@@ -1,5 +1,6 @@
 ---
 title: Außerbetriebnahme von Servern und Pools
+description: Außerbetriebnahme von Servern und Pools.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3db7f76cd9d271de05cf28728ad6028749a50cfa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0c0fc3400ded1b4866c604755c63b1ae9cf689a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503072"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550251"
 ---
-# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="17fe5-102">Außerbetriebnahme von Servern und Pools</span><span class="sxs-lookup"><span data-stu-id="17fe5-102">Decommissioning servers and pools</span></span>
+# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="c18cc-103">Außerbetriebnahme von Servern und Pools</span><span class="sxs-lookup"><span data-stu-id="c18cc-103">Decommissioning servers and pools</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48503072"
 
 <span> </span>
 
-<span data-ttu-id="17fe5-103">_**Letztes Änderungsstand des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="17fe5-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="c18cc-104">_**Letztes Änderungsstand des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="c18cc-104">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="17fe5-104">Die folgenden Webseiten enthalten Details zur Außerbetriebnahme Office Communications Server 2007 R2 Standard Edition-oder Enterprise Edition-Server und-Pools.</span><span class="sxs-lookup"><span data-stu-id="17fe5-104">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
+<span data-ttu-id="c18cc-105">Die folgenden Webseiten enthalten Details zur Außerbetriebnahme Office Communications Server 2007 R2 Standard Edition-oder Enterprise Edition-Server und-Pools.</span><span class="sxs-lookup"><span data-stu-id="c18cc-105">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
 
-  - <span data-ttu-id="17fe5-105">Außerbetriebnahme Standard Edition unter [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="17fe5-105">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
+  - <span data-ttu-id="c18cc-106">Außerbetriebnahme Standard Edition unter [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="c18cc-106">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
 
-  - <span data-ttu-id="17fe5-106">Entfernen von Servern und Serverrollen unter [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="17fe5-106">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
+  - <span data-ttu-id="c18cc-107">Entfernen von Servern und Serverrollen unter [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="c18cc-107">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
 
-  - <span data-ttu-id="17fe5-107">Entfernen eines Enterprise-Pools unter [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="17fe5-107">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
+  - <span data-ttu-id="c18cc-108">Entfernen eines Enterprise-Pools unter [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="c18cc-108">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
 
 </div>
 
