@@ -12,20 +12,22 @@ ms:contentKeyID: 62803597
 ms.date: 08/15/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5974f8a495ab555dd6d2ebd1e96e685a0d809863
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f02bbec8e2546045e44ed7fd37f61af27af1374
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195048"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536158"
 ---
+# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="3e968-102">Team Anrufe mit Location-Based Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e968-102">Team calling with Location-Based Routing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="485cb-102">Team Anrufe mit Standort basiertem Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="485cb-102">Team calling with Location-Based Routing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42195048"
 
 <span> </span>
 
-<span data-ttu-id="485cb-103">_**Letztes Änderungsstand des Themas:** 2014-08-11_</span><span class="sxs-lookup"><span data-stu-id="485cb-103">_**Topic Last Modified:** 2014-08-11_</span></span>
+<span data-ttu-id="3e968-103">_**Letztes Änderungsstand des Themas:** 2014-08-11_</span><span class="sxs-lookup"><span data-stu-id="3e968-103">_**Topic Last Modified:** 2014-08-11_</span></span>
 
-<span data-ttu-id="485cb-104">Lync Server 2013 unterstützt Teamanrufe mit Standort basiertem Routing.</span><span class="sxs-lookup"><span data-stu-id="485cb-104">Lync Server 2013 supports team calling with Location-Based Routing.</span></span>
+<span data-ttu-id="3e968-104">Lync Server 2013 unterstützt Teamanrufe mit Location-Based Routing.</span><span class="sxs-lookup"><span data-stu-id="3e968-104">Lync Server 2013 supports team calling with Location-Based Routing.</span></span>
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5bd99e487aa596bdf3b32db77d8deb2cfab9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536132"
 ---
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="bfa17-102">Technische Anforderungen für den Server für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfa17-102">Technical requirements for Persistent Chat Server in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="d2cec-102">Technische Anforderungen für den Server für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2cec-102">Technical requirements for Persistent Chat Server in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42194788"
 
 <span> </span>
 
-<span data-ttu-id="d2cec-103">_**Letztes Änderungsstand des Themas:** 2013-01-06_</span><span class="sxs-lookup"><span data-stu-id="d2cec-103">_**Topic Last Modified:** 2013-01-06_</span></span>
+<span data-ttu-id="bfa17-103">_**Letztes Änderungsstand des Themas:** 2013-01-06_</span><span class="sxs-lookup"><span data-stu-id="bfa17-103">_**Topic Last Modified:** 2013-01-06_</span></span>
 
-<span data-ttu-id="d2cec-104">Jeder Computer, der den Server für beständigen Chat hostet, muss Zugriff auf eine vorhandene lync Server 2013 Topologie mit den folgenden Komponenten haben:</span><span class="sxs-lookup"><span data-stu-id="d2cec-104">Each computer that hosts Persistent Chat Server must have access to an existing Lync Server 2013 topology with the following components:</span></span>
+<span data-ttu-id="bfa17-104">Jeder Computer, der den Server für beständigen Chat hostet, muss Zugriff auf eine vorhandene lync Server 2013 Topologie mit den folgenden Komponenten haben:</span><span class="sxs-lookup"><span data-stu-id="bfa17-104">Each computer that hosts Persistent Chat Server must have access to an existing Lync Server 2013 topology with the following components:</span></span>
 
-  - <span data-ttu-id="d2cec-105">**Lync Server 2013, Front-End-Server.**  Das Front-End-Server ist die Grundlage für das SIP-Routing (Session Initiation Protocol), das die Kommunikation zwischen Computern mit persistent Chat Server und der Funktion für beständigen Chat ermöglicht.</span><span class="sxs-lookup"><span data-stu-id="d2cec-105">**Lync Server 2013, Front End Server.** The Front End Server is the foundation for Session Initiation Protocol (SIP) routing, which makes communication between computers running Persistent Chat Server and the Persistent Chat functionality possible.</span></span> <span data-ttu-id="d2cec-106">Bevor Sie mit der Bereitstellung des Servers für beständigen Chat beginnen, überprüfen Sie die Bereitstellung von lync Server 2013, Standard Edition oder einer lync Server Front-End-Pool sowie alle anderen internen Computer, die lync Server entsprechend Ihrer Organisation ausführen.</span><span class="sxs-lookup"><span data-stu-id="d2cec-106">Before you begin to deploy Persistent Chat Server, verify the deployment of Lync Server 2013, Standard Edition, or a Lync Server Front End pool and any other internal computers running Lync Server, as appropriate to your organization.</span></span>
+  - <span data-ttu-id="bfa17-105">**Lync Server 2013, Front-End-Server.**   Das Front-End-Server ist die Grundlage für das SIP-Routing (Session Initiation Protocol), das die Kommunikation zwischen Computern mit persistent Chat Server und der Funktion für beständigen Chat ermöglicht.</span><span class="sxs-lookup"><span data-stu-id="bfa17-105">**Lync Server 2013, Front End Server.** The Front End Server is the foundation for Session Initiation Protocol (SIP) routing, which makes communication between computers running Persistent Chat Server and the Persistent Chat functionality possible.</span></span> <span data-ttu-id="bfa17-106">Bevor Sie mit der Bereitstellung des Servers für beständigen Chat beginnen, überprüfen Sie die Bereitstellung von lync Server 2013, Standard Edition oder einer lync Server Front-End-Pool sowie alle anderen internen Computer, die lync Server entsprechend Ihrer Organisation ausführen.</span><span class="sxs-lookup"><span data-stu-id="bfa17-106">Before you begin to deploy Persistent Chat Server, verify the deployment of Lync Server 2013, Standard Edition, or a Lync Server Front End pool and any other internal computers running Lync Server, as appropriate to your organization.</span></span>
 
-<span data-ttu-id="d2cec-107">In den folgenden Abschnitten werden die spezifischen Anforderungen für den Server für beständigen Chat und die Datenbank beschrieben, in der die Daten des beständigen Chats gespeichert sind.</span><span class="sxs-lookup"><span data-stu-id="d2cec-107">The following sections describe the specific requirements for the Persistent Chat Server and the database that stores the Persistent Chat data.</span></span>
+<span data-ttu-id="bfa17-107">In den folgenden Abschnitten werden die spezifischen Anforderungen für den Server für beständigen Chat und die Datenbank beschrieben, in der die Daten des beständigen Chats gespeichert sind.</span><span class="sxs-lookup"><span data-stu-id="bfa17-107">The following sections describe the specific requirements for the Persistent Chat Server and the database that stores the Persistent Chat data.</span></span>
 
 <div>
 
-## <a name="persistent-chat-server-requirements"></a><span data-ttu-id="d2cec-108">Server Anforderungen für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="d2cec-108">Persistent Chat Server Requirements</span></span>
+## <a name="persistent-chat-server-requirements"></a><span data-ttu-id="bfa17-108">Server Anforderungen für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="bfa17-108">Persistent Chat Server Requirements</span></span>
 
-<span data-ttu-id="d2cec-109">Ausführliche Informationen zur empfohlenen Hardware für die Bereitstellung von lync Server und die neueste Version des Servers für beständigen Chat finden Sie unter [Server Hardware Platforms for lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="d2cec-109">For details about the recommended hardware for deploying Lync Server and the latest version of Persistent Chat Server, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="bfa17-109">Ausführliche Informationen zur empfohlenen Hardware für die Bereitstellung von lync Server und die neueste Version des Servers für beständigen Chat finden Sie unter [Server Hardware Platforms for lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="bfa17-109">For details about the recommended hardware for deploying Lync Server and the latest version of Persistent Chat Server, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="d2cec-110">Ausführliche Informationen zur Betriebssystemunterstützung für Server und Tools für lync Server und beständigen Chat Server finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="d2cec-110">For details about the server and tools operating system support for Lync Server and Persistent Chat Server, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="bfa17-110">Ausführliche Informationen zur Betriebssystemunterstützung für Server und Tools für lync Server und beständigen Chat Server finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="bfa17-110">For details about the server and tools operating system support for Lync Server and Persistent Chat Server, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="d2cec-111">Ausführliche Informationen zu zusätzlicher Software, die für die Bereitstellung von persistent Chat Server erforderlich ist, finden Sie in der folgenden Tabelle.</span><span class="sxs-lookup"><span data-stu-id="d2cec-111">For details about additional software required for deploying Persistent Chat Server, see the following table.</span></span>
+<span data-ttu-id="bfa17-111">Ausführliche Informationen zu zusätzlicher Software, die für die Bereitstellung von persistent Chat Server erforderlich ist, finden Sie in der folgenden Tabelle.</span><span class="sxs-lookup"><span data-stu-id="bfa17-111">For details about additional software required for deploying Persistent Chat Server, see the following table.</span></span>
 
-### <a name="persistent-chat-server-software-prerequisites"></a><span data-ttu-id="d2cec-112">Software Voraussetzungen für persistent Chat Server</span><span class="sxs-lookup"><span data-stu-id="d2cec-112">Persistent Chat Server Software Prerequisites</span></span>
+### <a name="persistent-chat-server-software-prerequisites"></a><span data-ttu-id="bfa17-112">Software Voraussetzungen für persistent Chat Server</span><span class="sxs-lookup"><span data-stu-id="bfa17-112">Persistent Chat Server Software Prerequisites</span></span>
 
 <table>
 <colgroup>
@@ -62,14 +64,14 @@ ms.locfileid: "42194788"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d2cec-113">Software</span><span class="sxs-lookup"><span data-stu-id="d2cec-113">Software</span></span></th>
-<th><span data-ttu-id="d2cec-114">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="d2cec-114">Description</span></span></th>
+<th><span data-ttu-id="bfa17-113">Software</span><span class="sxs-lookup"><span data-stu-id="bfa17-113">Software</span></span></th>
+<th><span data-ttu-id="bfa17-114">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="bfa17-114">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d2cec-115">Message Queuing</span><span class="sxs-lookup"><span data-stu-id="d2cec-115">Message Queuing</span></span></p></td>
-<td><p><span data-ttu-id="d2cec-116">Wird vom beständigen Chat Server und dem Kompatibilitätsdienst für beständigen Chat verwendet, sofern bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="d2cec-116">Used by the Persistent Chat Server and Persistent Chat Compliance service, if deployed.</span></span></p></td>
+<td><p><span data-ttu-id="bfa17-115">Message Queuing</span><span class="sxs-lookup"><span data-stu-id="bfa17-115">Message Queuing</span></span></p></td>
+<td><p><span data-ttu-id="bfa17-116">Wird vom beständigen Chat Server und dem Kompatibilitätsdienst für beständigen Chat verwendet, sofern bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="bfa17-116">Used by the Persistent Chat Server and Persistent Chat Compliance service, if deployed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -79,37 +81,37 @@ ms.locfileid: "42194788"
 
 <div>
 
-## <a name="persistent-chat-server-database-requirements"></a><span data-ttu-id="d2cec-117">Datenbankanforderungen für beständigen Chat Server</span><span class="sxs-lookup"><span data-stu-id="d2cec-117">Persistent Chat Server Database Requirements</span></span>
+## <a name="persistent-chat-server-database-requirements"></a><span data-ttu-id="bfa17-117">Datenbankanforderungen für beständigen Chat Server</span><span class="sxs-lookup"><span data-stu-id="bfa17-117">Persistent Chat Server Database Requirements</span></span>
 
-<span data-ttu-id="d2cec-118">Der Server für beständigen Chat verwendet die Datenbank für beständigen Chat, um Chat Verlaufs-, Konfigurations-und Benutzerdaten zu speichern.</span><span class="sxs-lookup"><span data-stu-id="d2cec-118">Persistent Chat Server uses the Persistent Chat database to store chat history, configuration, and user provisioning data.</span></span> <span data-ttu-id="d2cec-119">Optional wird die Compliance-Datenbank für beständigen Chat zum Speichern von Kompatibilitätsdaten verwendet.</span><span class="sxs-lookup"><span data-stu-id="d2cec-119">Optionally, it uses the Persistent Chat compliance database to store compliance data.</span></span>
+<span data-ttu-id="bfa17-118">Der Server für beständigen Chat verwendet die Datenbank für beständigen Chat, um Chat Verlaufs-, Konfigurations-und Benutzerdaten zu speichern.</span><span class="sxs-lookup"><span data-stu-id="bfa17-118">Persistent Chat Server uses the Persistent Chat database to store chat history, configuration, and user provisioning data.</span></span> <span data-ttu-id="bfa17-119">Optional wird die Compliance-Datenbank für beständigen Chat zum Speichern von Kompatibilitätsdaten verwendet.</span><span class="sxs-lookup"><span data-stu-id="bfa17-119">Optionally, it uses the Persistent Chat compliance database to store compliance data.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d2cec-120">Die Datenbank für beständigen Chat (MGC) und die Kompatibilitätsdatenbank (mgccomp) können sich in derselben Instanz von SQL Server oder auf verschiedenen SQL-Servern befinden.</span><span class="sxs-lookup"><span data-stu-id="d2cec-120">The Persistent Chat database (mgc) and the compliance database (mgccomp) can be located in the same instance of SQL Server or on different SQL Servers.</span></span>
+> <span data-ttu-id="bfa17-120">Die Datenbank für beständigen Chat (MGC) und die Kompatibilitätsdatenbank (mgccomp) können sich in derselben Instanz von SQL Server oder auf verschiedenen SQL-Servern befinden.</span><span class="sxs-lookup"><span data-stu-id="bfa17-120">The Persistent Chat database (mgc) and the compliance database (mgccomp) can be located in the same instance of SQL Server or on different SQL Servers.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d2cec-121">Um eine Datenbankserverplattform vorzubereiten, stellen Sie sicher, dass jeder Computer die Hardwareanforderungen erfüllt, und installieren Sie dann die erforderliche Software.</span><span class="sxs-lookup"><span data-stu-id="d2cec-121">To prepare a database server platform, be sure that each computer meets the hardware requirements, and then install the prerequisite software.</span></span>
+<span data-ttu-id="bfa17-121">Um eine Datenbankserverplattform vorzubereiten, stellen Sie sicher, dass jeder Computer die Hardwareanforderungen erfüllt, und installieren Sie dann die erforderliche Software.</span><span class="sxs-lookup"><span data-stu-id="bfa17-121">To prepare a database server platform, be sure that each computer meets the hardware requirements, and then install the prerequisite software.</span></span>
 
-<span data-ttu-id="d2cec-122">Die Server Plattform für die Datenbankserver für beständigen Chat erfordert die gleiche Hardware wie der lync Server Back-End-Datenbankserver.</span><span class="sxs-lookup"><span data-stu-id="d2cec-122">The server platform for the Persistent Chat database servers requires the same hardware as the Lync Server back-end database server.</span></span> <span data-ttu-id="d2cec-123">Ausführliche Informationen finden Sie unter [Server Hardware Platforms for lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="d2cec-123">For details, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="bfa17-122">Die Server Plattform für die Datenbankserver für beständigen Chat erfordert die gleiche Hardware wie der lync Server Back-End-Datenbankserver.</span><span class="sxs-lookup"><span data-stu-id="bfa17-122">The server platform for the Persistent Chat database servers requires the same hardware as the Lync Server back-end database server.</span></span> <span data-ttu-id="bfa17-123">Ausführliche Informationen finden Sie unter [Server Hardware Platforms for lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="bfa17-123">For details, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="d2cec-124">Stellen Sie sicher, dass eine der folgenden Softwareanwendungen auf dem Datenbankserver installiert ist:</span><span class="sxs-lookup"><span data-stu-id="d2cec-124">On the database server, be sure that one of the following software applications is installed:</span></span>
+<span data-ttu-id="bfa17-124">Stellen Sie sicher, dass eine der folgenden Softwareanwendungen auf dem Datenbankserver installiert ist:</span><span class="sxs-lookup"><span data-stu-id="bfa17-124">On the database server, be sure that one of the following software applications is installed:</span></span>
 
-  - <span data-ttu-id="d2cec-125">Microsoft SQL Server 2012.</span><span class="sxs-lookup"><span data-stu-id="d2cec-125">Microsoft SQL Server 2012.</span></span> <span data-ttu-id="d2cec-126">Ausführliche Informationen zur Installation von Microsoft SQL Server 2012 finden Sie unter "Install SQL Server 2012" unter [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559).</span><span class="sxs-lookup"><span data-stu-id="d2cec-126">For details about how to install Microsoft SQL Server 2012, see "Install SQL Server 2012" at [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559).</span></span>
+  - <span data-ttu-id="bfa17-125">Microsoft SQL Server 2012.</span><span class="sxs-lookup"><span data-stu-id="bfa17-125">Microsoft SQL Server 2012.</span></span> <span data-ttu-id="bfa17-126">Ausführliche Informationen zur Installation von Microsoft SQL Server 2012 finden Sie unter "Install SQL Server 2012" unter [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559) .</span><span class="sxs-lookup"><span data-stu-id="bfa17-126">For details about how to install Microsoft SQL Server 2012, see "Install SQL Server 2012" at [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559).</span></span>
 
-  - <span data-ttu-id="d2cec-127">Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="d2cec-127">Microsoft SQL Server 2008 R2.</span></span> <span data-ttu-id="d2cec-128">Ausführliche Informationen zum Installieren von Microsoft SQL Server 2008 R2 finden Sie unter "SQL Server Installation (SQL Server 2008 R2)" unter [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702).</span><span class="sxs-lookup"><span data-stu-id="d2cec-128">For details about how to install Microsoft SQL Server 2008 R2, see "SQL Server Installation (SQL Server 2008 R2)" at [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702).</span></span>
+  - <span data-ttu-id="bfa17-127">Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="bfa17-127">Microsoft SQL Server 2008 R2.</span></span> <span data-ttu-id="bfa17-128">Ausführliche Informationen zum Installieren von Microsoft SQL Server 2008 R2 finden Sie unter "SQL Server Installation (SQL Server 2008 R2)" unter [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702) .</span><span class="sxs-lookup"><span data-stu-id="bfa17-128">For details about how to install Microsoft SQL Server 2008 R2, see "SQL Server Installation (SQL Server 2008 R2)" at [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702).</span></span>
 
 </div>
 
 <div>
 
-## <a name="persistent-chat-server-certificate-requirements"></a><span data-ttu-id="d2cec-129">Zertifikatanforderungen für den Server für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="d2cec-129">Persistent Chat Server Certificate Requirements</span></span>
+## <a name="persistent-chat-server-certificate-requirements"></a><span data-ttu-id="bfa17-129">Zertifikatanforderungen für den Server für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="bfa17-129">Persistent Chat Server Certificate Requirements</span></span>
 
-<span data-ttu-id="d2cec-130">Ausführliche Informationen zum Erwerb von Zertifikaten, zum Erstellen der SQL Server Datenbank und zum Erstellen von Datei speichern finden Sie unter [Deploying lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="d2cec-130">For details about acquiring certificates, creating the SQL Server database, and creating file stores, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="bfa17-130">Ausführliche Informationen zum Erwerb von Zertifikaten, zum Erstellen der SQL Server Datenbank und zum Erstellen von Datei speichern finden Sie unter [Deploying lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="bfa17-130">For details about acquiring certificates, creating the SQL Server database, and creating file stores, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
 
 </div>
 
