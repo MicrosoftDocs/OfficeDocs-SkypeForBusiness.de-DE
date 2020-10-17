@@ -12,20 +12,22 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0dc8bc60f87b981a18f351df8ddd163d1b080be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b297a505b1a12335e545895e0203ffc0e29c7354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507632"
 ---
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Konfigurieren von lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Exchange Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Konfigurieren von lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Exchange Server
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42197698"
 
 _**Letztes Änderungsstand des Themas:** 2013-04-03_
 
-Für diesen Schritt ist das Exchange um Integration Utility (OcsUmUtil. exe) erforderlich. Dieses Tool befindet sich auf dem lync Server 2013-Server in der.. \\Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\Support Ordner.
+Für diesen Schritt ist das Exchange um Integration Utility (OcsUmUtil.exe) erforderlich. Dieses Tool befindet sich auf dem lync Server 2013-Server in der.. \\ Programmdateien \\ Allgemeine Dateien \\ Microsoft lync Server 2013 \\ Support Ordner.
 
 <div>
 
@@ -57,8 +59,8 @@ Wenn Sie das Exchange um-Integrationsprogramm ausführen, werden die folgenden A
 > Stellen Sie sicher, dass Sie die folgenden Schritte ausgeführt haben, bevor Sie das Exchange um-Integrationsprogramm ausführen:
 > <ul>
 > <li><p>Erstellen Sie einen oder mehrere Exchange um Wählpläne, wie in der Exchange-Produktdokumentation beschrieben.</p>
-> <p>Informationen zum Microsoft Exchange Server 2010 finden &quot;Sie unter Erstellen eines um&quot; - <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>Wähl Plans unter.</p>
-> <p>Informationen zum Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden &quot;Sie unter Erstellen eines Unified Messaging-SIP-URI&quot; - <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>Wähl Plans unter.</p></li>
+> <p>Informationen zum Microsoft Exchange Server 2010 finden Sie unter &quot; Erstellen eines um-Wähl Plans &quot; unter <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a> .</p>
+> <p>Informationen zum Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden Sie unter &quot; Erstellen eines Unified Messaging-SIP-URI-Wähl Plans unter &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a> .</p></li>
 > <li><p>Erstellen Sie einen oder mehrere entsprechende lync Server Wählpläne, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Create a Dial Plan in lync Server 2013</a>beschrieben.</p></li>
 > <ul><li>Wenn Sie eine Version von Exchange verwenden, die älter als Microsoft Exchange Server 2010 SP1 ist, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der entsprechenden Exchange Unified Messaging (um) SIP-Wähleinstellungen in das Feld <STRONG>einfacher Name</STRONG> von lync Server 2013 Wähleinstellungen eingeben. Wenn Sie Microsoft Exchange Server 2010 SP1 oder das neueste Service Pack verwenden, ist diese Wähl Plan Namen Übereinstimmung nicht erforderlich.</li></ul>
 > <li>Erstellen Sie eine automatische Telefonzentrale, und stellen Sie sicher, dass sowohl die Teilnehmerzugriffsnummer als auch die Nummer der automatischen Telefonzentrale im E. 164-Format vorliegen.</li></ul>
@@ -68,9 +70,9 @@ Wenn Sie das Exchange um-Integrationsprogramm ausführen, werden die folgenden A
 
 ## <a name="to-run-the-exchange-um-integration-utility"></a>So führen Sie das Exchange um-Integrations Dienstprogramm aus
 
-1.  Öffnen Sie auf einem Front-End-Server eine Eingabeaufforderung, und geben Sie **CD%\\COMMONPROGRAMFILES\\% Microsoft lync Server 2013 Support**ein, und drücken Sie dann die EINGABETASTE.
+1.  Öffnen Sie auf einem Front-End-Server eine Eingabeaufforderung, und geben Sie **CD% COMMONPROGRAMFILES% \\ Microsoft lync Server 2013 \\ Support**ein, und drücken Sie dann die EINGABETASTE.
 
-2.  Geben Sie **OcsUmUtil. exe**ein, und drücken Sie dann die EINGABETASTE.
+2.  Geben Sie **OcsUmUtil.exe**ein, und drücken Sie dann die EINGABETASTE.
 
 3.  Klicken Sie auf **Daten laden** , um alle vertrauenswürdigen Exchange-Gesamtstrukturen zu finden.
 

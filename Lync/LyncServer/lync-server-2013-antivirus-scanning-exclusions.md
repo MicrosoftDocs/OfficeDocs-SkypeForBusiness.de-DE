@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187258"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508972"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Antivirus-Scan Ausschlüsse für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Antivirus-Scan Ausschlüsse für lync Server 2013
+
 
 </div>
 
@@ -61,101 +63,101 @@ Um sicherzustellen, dass der Antivirus-Scanner den Betrieb von lync Server 2013 
 
   - Lync Server 2013 Prozesse:
     
-      - ABServer. exe
+      - ABServer.exe
     
-      - AcpMcuSvc. exe
+      - AcpMcuSvc.exe
     
-      - ASMCUSvc. exe
+      - ASMCUSvc.exe
     
-      - AVMCUSvc. exe
+      - AVMCUSvc.exe
     
-      - Channelservice. exe
+      - ChannelService.exe
     
-      - ClsAgent. exe
+      - ClsAgent.exe
     
-      - ComplianceService. exe
+      - ComplianceService.exe
     
-      - DataMCUSvc. exe
+      - DataMCUSvc.exe
     
-      - Dataproxy. exe
+      - DataProxy.exe
     
-      - FileTransferAgent. exe
+      - FileTransferAgent.exe
     
-      - IMMCUSvc. exe
+      - IMMCUSvc.exe
     
-      - LysSvc. exe
+      - LysSvc.exe
     
-      - MasterReplicatorAgent. exe
+      - MasterReplicatorAgent.exe
     
-      - MediaRelaySvc. exe
+      - MediaRelaySvc.exe
     
-      - MediationServerSvc. exe
+      - MediationServerSvc.exe
     
-      - MRASSvc. exe
+      - MRASSvc.exe
     
-      - OcsAppServerHost. exe
+      - OcsAppServerHost.exe
     
-      - ReplicaReplicatorAgent. exe
+      - ReplicaReplicatorAgent.exe
     
-      - ReplicationApp. exe
+      - ReplicationApp.exe
     
-      - RtcHost. exe
+      - RtcHost.exe
     
-      - RtcSrv. exe
+      - RTCSrv.exe
     
-      - XmppProxy. exe
+      - XmppProxy.exe
     
-      - XmppTGW. exe
+      - XmppTGW.exe
 
   - Windows Fabric-Host Dienstprozesse:
     
-      - Fabric. exe
+      - Fabric.exe
     
-      - FabricDCA. exe
+      - FabricDCA.exe
     
-      - FabricHost. exe
+      - FabricHost.exe
 
   - IIS-Prozesse:
     
-      - % systemroot\\%\\System32\\inetsrv w3wp. exe
+      - % systemroot% \\ system32 \\ inetsrv \\w3wp.exe
     
-      - % systemroot\\%\\syswow64\\inetsrv w3wp. exe
+      - % systemroot% \\ syswow64 \\ inetsrv \\w3wp.exe
 
-  - SQL Server Back-End-Prozesse:
+  - SQL Server Back-End Prozesse:
     
-      - % Programme%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr. exe
+      - % Programme% \\ Microsoft SQL Server \\ MSSQL11. MSSQLSERVER \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % Programme%\\Microsoft SQL Server\\MSRS11. MSSQLSERVER\\Reporting Services\\Report\\Container\\bin ReportingServicesService. exe
+      - % Programme% \\ Microsoft SQL Server \\ MSRS11. MSSQLSERVER \\ Reporting Services \\ Report \\ Container bin \\ReportingServicesService.exe
     
-      - % Programme%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\MSMDSrv. exe
+      - % Programme% \\ Microsoft SQL Server \\ MSAS11. OLAP-Schacht "MSSQLSERVER" \\ \\ \\MSMDSrv.exe
 
-  - SQL Server Front-End-Prozesse:
+  - SQL Server Front-End Prozesse:
     
-      - % Programme%\\Microsoft SQL Server\\MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\sqlservr. exe
+      - % Programme% \\ Microsoft SQL Server \\ MSSQL11. LYNCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % Programme%\\Microsoft SQL Server\\MSSQL11. RTCLOCAL\\MSSQL\\Binn\\sqlservr. exe
+      - % Programme% \\ Microsoft SQL Server \\ MSSQL11. RTCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
 
   - Verzeichnisse und Dateien:
     
-      - % systemroot\\%\\System32-Protokolldateien
+      - % systemroot% \\ system32- \\ Protokolldateien
     
-      - % systemroot\\-%\\syswow64-Protokolldateien
+      - % systemroot-% \\ syswow64- \\ Protokolldateien
     
-      - % systemroot\\%\\Microsoft.net\\-\_Assembly GAC MSIL
+      - % systemroot% \\ Microsoft.net- \\ Assembly \\ GAC \_ MSIL
     
-      - % Programme%\\Microsoft lync Server 2013
+      - % Programme% \\ Microsoft lync Server 2013
     
-      - % Programme%\\allgemeine Dateien\\Microsoft lync Server 2013\\Watcher-Knoten
+      - % Programme% \\ Allgemeine Dateien \\ Microsoft lync Server 2013 \\ Watcher-Knoten
     
-      - % Programme%\\allgemeine Dateien\\Microsoft lync Server 2013
+      - % Programme% \\ Allgemeine Dateien \\ Microsoft lync Server 2013
     
-      - % System Drive\\% RtcReplicaRoot
+      - % System Drive% \\ RtcReplicaRoot
     
       - Dateifreigabe Speicher (im Topologie-Generator angegeben). Dateispeicher werden im Topologie-Generator angegeben.
     
       - SQL Server von Daten-und Protokolldateien, einschließlich derer für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank-und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich der Standardnamen, finden Sie unter [SQL Server Data and Log File Placement for lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in der Bereitstellungsdokumentation.
     
-      - SQL Server von Daten-und Protokolldateien, einschließlich der für die Front-End-Datenbank, lync Store und RtcDatabase Store. Sie befinden sich normalerweise unter\\% LokalesLaufwerk% CSData.
+      - SQL Server von Daten-und Protokolldateien, einschließlich der für die Front-End-Datenbank, lync Store und RtcDatabase Store. Sie befinden sich normalerweise unter% LokalesLaufwerk% \\ CSData.
 
 </div>
 

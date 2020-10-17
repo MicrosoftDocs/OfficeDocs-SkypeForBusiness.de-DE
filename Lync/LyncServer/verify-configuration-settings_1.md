@@ -12,20 +12,22 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1e1ad498f25656e01507e55c41d98ff4bb9143b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508412"
 ---
+# <a name="verify-configuration-settings"></a>Überprüfen der Konfigurationseinstellungen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a>Überprüfen der Konfigurationseinstellungen
+
 
 </div>
 
@@ -70,7 +72,7 @@ Nachdem Sie die Topologie zusammengeführt und das **Import-CsLegacyConfiguratio
 <td><p>Enterprise-VoIP</p></td>
 <td><p>VoIP-Richtlinie</p>
 <p>VoIP-Routen</p>
-<p>Wähleinstellungen</p>
+<p>Wählpläne</p>
 <p>PSTN-Verwendungseinstellungen</p></td>
 </tr>
 <tr class="even">
@@ -79,7 +81,7 @@ Nachdem Sie die Topologie zusammengeführt und das **Import-CsLegacyConfiguratio
 </tr>
 <tr class="odd">
 <td><p>Externe Benutzer</p></td>
-<td><p>Richtlinien für den externen Zugriff</p></td>
+<td><p>Richtlinien für externen Zugriff</p></td>
 </tr>
 <tr class="even">
 <td><p>Archivierung</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4166e25375c7ddd631b1ee7944ac703f21c9ba80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79d1b68cd10858812a1310ebbd1f2caae913da75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207171"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509322"
 ---
+# <a name="tblenumvalue-in-lync-server-2013"></a>tblEnumValue in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblenumvalue-in-lync-server-2013"></a>tblEnumValue in lync Server 2013
+
 
 </div>
 
@@ -124,15 +126,15 @@ _**Letztes Änderungsstand des Themas:** 2012-06-28_
 <tr class="even">
 <td><p>3</p></td>
 <td><p>1</p></td>
-<td><p>scope</p></td>
+<td><p>Bereich</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>2</p></td>
 <td><p>normal</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>2</p></td>
 <td><p>Auditorium</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37462eb9f15553138dc6bb7285a5d0786dbc4b57
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204881"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508872"
 ---
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Konfigurieren einer Dienst Qualitätsrichtlinie in lync Server 2013 für Ihre Konferenz-, Anwendungs-und Vermittlungsserver
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Konfigurieren einer Dienst Qualitätsrichtlinie in lync Server 2013 für Ihre Konferenz-, Anwendungs-und Vermittlungsserver
+
 
 </div>
 
@@ -101,9 +103,9 @@ Führen Sie folgende Schritte aus, um zu überprüfen, ob die neuen QoS-Richtlin
 
 1.  Klicken Sie auf einem Lync Server-Computer auf **Start**, und klicken Sie dann auf **Ausführen**.
 
-2.  Geben Sie im Dialogfeld **Ausführen** den Befehl **reged** ein, und drücken Sie die EINGABETASTE.
+2.  Geben Sie im Dialogfeld **Ausführen** den Befehl **regedit** ein, und drücken Sie dann die EINGABETASTE.
 
-3.  Erweitern Sie im Registrierungs-Editor den Knoten **Computer**, erweitern Sie **\_HKEY lokaler\_Computer**, erweitern Sie **Software**, erweitern Sie **Richtlinien**, erweitern Sie **Microsoft**, erweitern Sie **Windows**, und klicken Sie dann auf **QoS**. Unter **QoS** sollten die Registrierungsschlüssel für jede einzelne der gerade von Ihnen erstellten QoS-Richtlinien angezeigt werden. Wenn Sie beispielsweise zwei neue Richtlinien (eine mit dem Namen "lync Server Audio QoS" und den anderen benannten lync Server-Video-QoS) erstellt haben, sollten Sie Registrierungseinträge für lync Server QoS von Audio-QoS und lync Server-Video erstellen.
+3.  Erweitern Sie im Registrierungs-Editor den Knoten **Computer**, erweitern Sie **HKEY \_ lokaler \_ Computer**, erweitern Sie **Software**, erweitern Sie **Richtlinien**, erweitern Sie **Microsoft**, erweitern Sie **Windows**, und klicken Sie dann auf **QoS**. Unter **QoS** sollten die Registrierungsschlüssel für jede einzelne der gerade von Ihnen erstellten QoS-Richtlinien angezeigt werden. Wenn Sie beispielsweise zwei neue Richtlinien (eine mit dem Namen "lync Server Audio QoS" und den anderen benannten lync Server-Video-QoS) erstellt haben, sollten Sie Registrierungseinträge für lync Server QoS von Audio-QoS und lync Server-Video erstellen.
 
 Um sicherzustellen, dass Netzwerkpakete mit dem richtigen DSCP-Wert markiert sind, sollten Sie auch auf jedem Computer einen neuen Registrierungseintrag erstellen, indem Sie folgendes Verfahren ausführen:
 
@@ -111,7 +113,7 @@ Um sicherzustellen, dass Netzwerkpakete mit dem richtigen DSCP-Wert markiert sin
 
 2.  Geben Sie im Dialogfeld **Ausführen** den Befehl **reged** ein, und drücken Sie die EINGABETASTE.
 
-3.  Erweitern Sie im Registrierungs-Editor **HKEY\_lokaler\_Computer**, erweitern Sie **System**, erweitern Sie **CurrentControlSet**, erweitern Sie **Dienste**, und erweitern Sie dann **tcpip**.
+3.  Erweitern Sie im Registrierungs-Editor **HKEY \_ lokaler \_ Computer**, erweitern Sie **System**, erweitern Sie **CurrentControlSet**, erweitern Sie **Dienste**, und erweitern Sie dann **tcpip**.
 
 4.  Klicken Sie mit der rechten Maustaste auf **Tcpip** zeigen Sie auf **Neu**, und klicken Sie dann auf **Schlüssel**. Nachdem der neue Registrierungsschlüssel erstellt wurde, geben Sie **QoS** ein und drücken dann die EINGABETASTE, um den Schlüssel umzubenennen.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c90183d13581387d444301278d4c1c1125e5dc91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a90dd3c40267f0994e7f41eabb689c869182cea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212611"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508642"
 ---
+# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Verwenden der zweistufigen Authentifizierung mit lync-Client und lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Verwenden der zweistufigen Authentifizierung mit lync-Client und lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Die lync-Anmeldeinformationen werden normalerweise bei der Installation von lync
 
 1.  Melden Sie sich beim Netzwerk Ihrer Organisation an.
 
-2.  Wählen Sie **Alle Programme** \> **starten** \> **Microsoft \> lync lync 2013**aus.
+2.  Wählen **Start** Sie \> **Alle Programme** starten \> **Microsoft \> lync lync 2013**aus.
     
     Der lync-Anmeldebildschirm sollte angezeigt werden.
     
@@ -108,7 +110,7 @@ Wenn Sie lync abgeschlossen haben, können Sie die Anzeige schließen, sich von 
 </tr>
 <tr class="odd">
 <td><p>Beenden</p></td>
-<td><p>Beendet die lync-Sitzung und beendet lync auf Ihrem Computer. Wenn Sie lync nach dem Beenden neu starten möchten, wählen Sie <strong></strong> &gt; <strong>Alle Programme</strong> &gt; starten <strong>Microsoft lync</strong> &gt; <strong>lync 2013</strong>aus.</p></td>
+<td><p>Beendet die lync-Sitzung und beendet lync auf Ihrem Computer. Wenn Sie lync nach dem Beenden neu starten möchten, wählen Sie <strong>Start</strong> &gt; <strong>Alle Programme</strong> starten &gt; <strong>Microsoft lync</strong> &gt; <strong>lync 2013</strong>aus.</p></td>
 <td><p>Wählen Sie im lync-Hauptfenster die Schaltfläche <strong>Optionen</strong> aus, und wählen Sie dann <strong>Datei</strong> &gt; <strong>Beenden</strong>aus.</p></td>
 </tr>
 </tbody>
@@ -123,9 +125,9 @@ Wenn Sie lync abgeschlossen haben, können Sie die Anzeige schließen, sich von 
 
 Einige Organisationen verwenden jetzt einen mehrstufigen Anmeldevorgang, die sogenannte zweistufige Authentifizierung, um die Sicherheit für Ihre lync 2013 Benutzer zu verbessern. Wenn Sie diese Option voraussichtlich verwenden, benötigen Sie eine Smartcard zur Anmeldung bei lync. Smartcards gibt es in zwei Varianten: physisch und virtuell:
 
-  - **Physische**   Größe einer Kreditkarte. Sie fügen es bei der Anmeldung in ein Smartcard-Lesegerät ein.
+  - **Physischer**     Computer Die Größe einer Kreditkarte. Sie fügen es bei der Anmeldung in ein Smartcard-Lesegerät ein.
 
-  - **Virtual**   kein physisches Objekt, sondern eine elektronische ID, die auf einen speziellen Chip auf Ihrem Computer geschrieben wird, der im Wesentlichen die Smartcard in Ihren Computer einbaut. Nur für die Verwendung mit Windows 8 Computern verfügbar, die den TPM-Chip (Trusted Platform Module) enthalten.
+  - **Virtuell**     Es handelt sich nicht um ein physisches Objekt, sondern um eine elektronische ID, die auf einen speziellen Chip auf Ihrem Computer geschrieben wird, der im Wesentlichen die Smartcard in Ihren Computer einbaut. Nur für die Verwendung mit Windows 8 Computern verfügbar, die den TPM-Chip (Trusted Platform Module) enthalten.
 
 <div>
 
@@ -149,7 +151,7 @@ Bevor Sie sich mit einer Smartcard anmelden können, muss die Karte "registriert
 
 2.  Wechseln Sie mithilfe von Internet Explorer zur Webregistrierungs Seite der Zertifizierungsstelle Ihrer Organisation.
     
-    Fragen Sie Ihren lync Server-Administrator nach der Webadresse dieser Ressource, wenn Sie Sie nicht bereits haben. Die URL sieht in etwa wie folgt aus https://MyCA.\: [\]YourCompanyName. com/certsrv.
+    Fragen Sie Ihren lync Server-Administrator nach der Webadresse dieser Ressource, wenn Sie Sie nicht bereits haben. Die URL sieht in etwa wie folgt aus: https://MyCA.\ [YourCompanyName \] . com/certsrv.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e8c96c6b4ad5e19abf2d1f41024932c710786cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18666f33becabcbdf61370a32900ae7a4819e0cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191048"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508022"
 ---
+# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Anforderungen an die Zertifikatinfrastruktur für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Anforderungen an die Zertifikatinfrastruktur für lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Für lync Server gelten die folgenden allgemeinen Anforderungen:
 
   - Alle Serverzertifikate müssen einen Zertifikatsperrlisten-Verteilungspunkt unterstützen.
 
-  - Alle Zertifikate müssen mit einem vom Betriebssystemunter stützten Signaturalgorithmus signiert werden. Lync Server 2013 unterstützt die SHA-1-und SHA-2-Suite mit Digest-Größen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen. Informationen zur Betriebssystemunterstützung finden [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)Sie unter.
+  - Alle Zertifikate müssen mit einem vom Betriebssystemunter stützten Signaturalgorithmus signiert werden. Lync Server 2013 unterstützt die SHA-1-und SHA-2-Suite mit Digest-Größen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen. Informationen zur Betriebssystemunterstützung finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002) .
     
     <div>
     
@@ -80,7 +82,7 @@ Für lync Server gelten die folgenden allgemeinen Anforderungen:
 
   - Die Verschlüsselungsschlüssel Längen 1024, 2048 und 4096 werden unterstützt. Die Schlüssellängen von 2048 und höher werden empfohlen.
 
-  - Der standardmäßige Digest-oder Hashsignatur Algorithmus ist RSA. Die Algorithmen\_ECDH P256,\_ECDH P384 und ECDH\_P521 werden ebenfalls unterstützt. 
+  - Der standardmäßige Digest-oder Hashsignatur Algorithmus ist RSA. Die \_ Algorithmen ECDH P256, ECDH \_ P384 und ECDH \_ P521 werden ebenfalls unterstützt. 
 
 <div>
 

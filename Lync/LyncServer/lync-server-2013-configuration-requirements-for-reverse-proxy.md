@@ -12,20 +12,22 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13026da5515615610c960fe4648d5c58f64f99fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 555169f6de67ae23bc63d81aad549b0033a6696c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507742"
 ---
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Konfigurationsanforderungen für Reverse Proxy in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Konfigurationsanforderungen für Reverse Proxy in lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Bei den Funktions Vorgängen, die von einem Reverseproxy erwartet werden, handel
 
   - Kann eine intern gehostete Website extern mithilfe eines vollqualifizierten Domänennamens (Fully Qualified Domain Name, FQDN) veröffentlichen.
 
-  - Alle Inhalte der gehosteten Website können veröffentlicht werden. Standardmäßig können Sie die ** / ** von den meisten Webservern erkannte Direktive verwenden, um "alle Inhalte auf dem Webserver veröffentlichen" zu verstehen. Sie können die Direktive auch ändern, beispielsweise **/UWCA/\***, was bedeutet "Veröffentlichen aller Inhalte unter dem virtuellen Verzeichnis Ucwa".
+  - Alle Inhalte der gehosteten Website können veröffentlicht werden. Standardmäßig können Sie die von den **/\*** meisten Webservern erkannte Direktive verwenden, um "alle Inhalte auf dem Webserver veröffentlichen" zu verstehen. Sie können die Direktive auch ändern, beispielsweise **/UWCA/ \* **, was bedeutet "Veröffentlichen aller Inhalte unter dem virtuellen Verzeichnis Ucwa".
 
   - Muss konfigurierbar sein, damit Secure Sockets Layer (SSL) und/oder TLS-Verbindungen (Transport Layer Security) mit Clients erforderlich sind, die Inhalte von einer veröffentlichten Website anfordern.
 

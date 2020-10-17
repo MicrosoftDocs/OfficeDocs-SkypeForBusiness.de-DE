@@ -12,20 +12,22 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea49c91269c0a9c4f74a1a226462fbda26aa2af4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dddb1902422cb3efc52f4f0b3271976ab9b9950e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188008"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508222"
 ---
+# <a name="called-id-presentation-in-lync-server-2013"></a>Aufgerufene ID-Präsentation in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="called-id-presentation-in-lync-server-2013"></a>Aufgerufene ID-Präsentation in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Mithilfe einer der beiden folgenden Methoden können Sie eine Übersetzungsregel
 
 
 > [!NOTE]  
-> Informationen zum Schreiben von regulären Ausdrücken finden Sie unter ".NET Framework reguläre Ausdrücke" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=140927">https://go.microsoft.com/fwlink/p/?linkId=140927</A>.
+> Informationen zum Schreiben von regulären Ausdrücken finden Sie unter ".NET Framework reguläre Ausdrücke" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=140927">https://go.microsoft.com/fwlink/p/?linkId=140927</A> .
 
 
 

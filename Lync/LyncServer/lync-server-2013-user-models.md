@@ -12,20 +12,22 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389d545c18edb4a3c14fc2f0abdf5fb185fcd0ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a5f110e6b2badd5b0651a2ad32860f421fab167
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213051"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508732"
 ---
+# <a name="user-models-in-lync-server-2013"></a>Benutzermodelle in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a>Benutzermodelle in lync Server 2013
+
 
 </div>
 
@@ -153,7 +155,7 @@ In der folgenden Tabelle wird das Benutzermodell für die Registrierung, Kontakt
 <td><p>Peer-zu-Peer-Chatsitzungen</p></td>
 <td><p>Jeder Benutzer verfügt über durchschnittlich sechs Peer-zu-Peer-Chatsitzungen pro Tag.</p>
 <p>10 Chatnachrichten pro Sitzung.</p>
-<p>Jede Nachricht wird durch zwei SIP-Info-Nachrichten und 2 SIP 200 OK-Nachrichten (für die Status&lt;anzeigen&gt; wie "Name is Typing") abgeglichen.</p></td>
+<p>Jede Nachricht wird durch zwei SIP-Info-Nachrichten und 2 SIP 200 OK-Nachrichten (für die Status anzeigen wie " &lt; Name &gt; is Typing") abgeglichen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Abfrage von Anwesenheitsinformationen</p></td>
@@ -234,7 +236,7 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Geplante Besprechungen &quot;im Vergleich&quot; zu Sofortbesprechungen</p></td>
+<td><p>Geplante Besprechungen im Vergleich zu &quot; sofort &quot; Besprechungen</p></td>
 <td><p>60 % geplant, 40 % ungeplant.</p>
 <p>Bei den geplanten Besprechungen wird von 80 % zugewiesenen Konferenzen ausgegangen, wobei es sich um Instanzen von wiederkehrenden Konferenzen handelt. 10 % sind einmalige offene Besprechungen, 8% sind einmalige anonyme Besprechungen, und 2 % sind einmalige geschlossene Besprechungen.</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f2c781b01aaa1ac00793f97067f24233c1e8db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509652"
 ---
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Einrichten der Kerberos-Authentifizierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Einrichten der Kerberos-Authentifizierung in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200561"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Lync Server 2013 unterstützt NTLM-und Kerberos-Authentifizierung für Webdienste. Office Communications Server 2007 und Office Communications Server 2007 R2 verwendet die standardmäßigen RTCComponentService und RTCService als Benutzerkonten zum Ausführen der Webdienste Anwendungspools, sodass ein Dienstprinzipalname (Service Principal Name, SPN) dem Benutzer zugewiesen werden kann. Konten und als Authentifizierungs Prinzipal fungieren. Lync Server verwendet Network Service zum Ausführen von Webdienste, und Network Service kann keine SPNs zugewiesen werden.
+Lync Server 2013 unterstützt NTLM-und Kerberos-Authentifizierung für Webdienste. Office Communications Server 2007 und Office Communications Server 2007 R2 verwendet die standardmäßigen RTCComponentService und RTCService als Benutzerkonten zum Ausführen der Webdienste Anwendungspools, sodass ein Dienstprinzipalname (Service Principal Name, SPN) den Benutzerkonten zugewiesen und als Authentifizierungs Prinzipal fungieren kann. Lync Server verwendet Network Service zum Ausführen von Webdienste, und Network Service kann keine SPNs zugewiesen werden.
 
 Um das Problem zu beheben, dass keine Active Directory-Objekte zum Speichern der SPNs zur Verfügung stehen, können lync Server-Systemsteuerung Computerkonto-Objekte zu diesem Zweck verwenden. Die Computerkontoobjekte können die Dienstprinzipalnamen enthalten und unterliegen keinem Kennwortablauf, was bei der Verwendung von Benutzerkonten in früheren Versionen ein Problem darstellte.
 

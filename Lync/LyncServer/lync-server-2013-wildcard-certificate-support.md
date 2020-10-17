@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210231"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508522"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Unterstützung von Platzhalterzertifikaten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Unterstützung von Platzhalterzertifikaten in lync Server 2013
+
 
 </div>
 
@@ -52,25 +54,25 @@ Lync Server 2013 verwendet Zertifikate zur Bereitstellung von Kommunikationsvers
 Ein Platzhaltereintrag als Antragstellername (auch als "allgemeiner Name" (Common Name, CN) bezeichnet) wird für keine Rolle unterstützt. Für die folgenden Serverrollen wird die Verwendung von Platzhaltereinträgen im SAN unterstützt:
 
   - <span></span>  
-    **Reverseproxy.**    Platzhalter-San-Eintrag wird für das Veröffentlichungs Zertifikat für einfache URLs (Meet and Dialin) unterstützt.
+    **Reverseproxy.**     Platzhalter-San-Eintrag wird für das Veröffentlichungs Zertifikat für einfache URLs (Meet and Dialin) unterstützt.
 
   - <span></span>  
-    **Reverseproxy.**    Platzhalter-San-Eintrag wird für die San-Einträge für LyncDiscover im Veröffentlichungs Zertifikat unterstützt.
+    **Reverseproxy.**     Platzhalter-San-Eintrag wird für die San-Einträge für LyncDiscover im Veröffentlichungs Zertifikat unterstützt.
 
   - <span></span>  
-    **Director.**    Platzhalter-San-Eintrag wird für einfache URLs (Meet and Dialin) und für San-Einträge für LyncDiscover und "lyncdiscoverinternal" in Director-Webkomponenten unterstützt.
+    **Director.**     Platzhalter-San-Eintrag wird für einfache URLs (Meet and Dialin) und für San-Einträge für LyncDiscover und "lyncdiscoverinternal" in Director-Webkomponenten unterstützt.
 
   - <span></span>  
     **Front-End-Server (Standard Edition) und Front-End-Pool (Enterprise Edition).** Platzhalter-San-Eintrag wird für einfache URLs (Meet and Dialin) und für San-Einträge für LyncDiscover und "lyncdiscoverinternal" in Front-End-Webkomponenten unterstützt.
 
   - <span></span>  
-    **Exchange Unified Messaging (um).**    Der Server verwendet keine San-Einträge, wenn er als eigenständiger Server bereitgestellt wird.
+    **Exchange Unified Messaging (um).**     Der Server verwendet keine San-Einträge, wenn er als eigenständiger Server bereitgestellt wird.
 
   - <span></span>  
-    **Exchange Server Client Zugriffs Server.**    Platzhaltereinträge im San werden für interne und externe Clients unterstützt.
+    **Exchange Server Client Zugriffs Server.**     Platzhaltereinträge im San werden für interne und externe Clients unterstützt.
 
   - <span></span>  
-    **Exchange Unified Messaging (um) und Exchange Server Client Zugriffsserver auf demselben Server.**    Platzhalter-San-Einträge werden unterstützt.
+    **Exchange Unified Messaging (um) und Exchange Server Client Zugriffsserver auf demselben Server.**     Platzhalter-San-Einträge werden unterstützt.
 
 In diesem Thema nicht behandelte Serverrollen:
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02bbebae55504fcc27550bae3b90d7fca662a487
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 299d4c6d5b8a8cd53cee9fdae0a38769a535b118
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205477"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508842"
 ---
+# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Erstellen oder Ändern einer Normalisierungsregel mithilfe der Regel zum Erstellen einer Normalisierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Erstellen oder Ändern einer Normalisierungsregel mithilfe der Regel zum Erstellen einer Normalisierung in lync Server 2013
+
 
 </div>
 
@@ -55,25 +57,25 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in ly
 
 6.  Geben Sie unter **Normalisierungsregel erstellen**Werte in die folgenden Felder ein:
     
-      - **Starting digits**   (optional) geben Sie die führenden Ziffern von gewählten Nummern an, die mit dem Muster übereinstimmen sollen. Geben Sie beispielsweise **425** ein, wenn das Muster mit den gewählten Nummern beginnend mit 425 übereinstimmen soll.
+      - **Anfangsziffern**     Optional Geben Sie die führenden Ziffern von gewählten Nummern an, die mit dem Muster übereinstimmen sollen. Geben Sie beispielsweise **425** ein, wenn das Muster mit den gewählten Nummern beginnend mit 425 übereinstimmen soll.
     
-      - **Length**   geben Sie die Anzahl der Stellen im übereinstimmenden Muster an, und wählen Sie aus, ob das Muster genau mit dieser Länge übereinstimmen soll, mit ausgewählten Nummern, die mindestens diese Länge aufweisen, oder mit den gewählten Nummern einer beliebigen Länge übereinstimmen.
+      - **Länge**     Geben Sie die Anzahl der Stellen im übereinstimmenden Muster an, und wählen Sie aus, ob das Muster genau mit dieser Länge übereinstimmen soll, wählen Sie Nummern aus, die mindestens diese Länge aufweisen, oder passen Sie gewählte Nummern einer beliebigen Länge an.
     
-      - **Zu entfern**   Ende Ziffern (optional) geben Sie die Anzahl der Start Ziffern an, die aus gewählten Nummern entfernt werden sollen, die mit dem Muster übereinstimmen sollen.
+      - **Zu entfern**     Ende Ziffern Optional Geben Sie die Anzahl der Anfangsziffern an, die aus gewählten Nummern entfernt werden sollen, die mit dem Muster übereinstimmen sollen.
     
-      - **Hinzuzufügende**   Ziffern (optional) geben Sie Ziffern an, die gewählten Nummern hinzugefügt werden sollen, die mit dem Muster übereinstimmen sollen.
+      - **Hinzuzufügende Ziffern**     Optional Geben Sie Ziffern an, die zu gewählten Nummern hinzugefügt werden sollen, die mit dem Muster übereinstimmen sollen.
     
     Die Werte, die Sie in diese Felder eingeben, werden in **Übereinstimmung mit Muster** und **Übersetzungsregel**übernommen. Wenn Sie beispielsweise **Start Ziffern** leer lassen, geben Sie **7** in das Feld **length** ein, und wählen Sie **genau**aus, und geben Sie **0** in **Ziffern zum Entfernen**an, sodass der resultierende reguläre Ausdruck im **Muster mit folgendem übereinstimmt** :
     
-    **^ (\\d{7}) $**
+    **^ ( \\ d {7} ) $**
 
 7.  Geben Sie in **Übersetzungsregel**ein Muster für das Format der übersetzten E. 164-Telefonnummern wie folgt an:
     
-      - Ein Wert, der die Anzahl der im übereinstimmenden Muster angegebenen Ziffern darstellt. Wenn das übereinstimmende Musterbeispiels Weise **^ (\\d{7}) $** ist, dann **$1** in der Übersetzungsregel 7-stellige gewählte Nummern darstellt.
+      - Ein Wert, der die Anzahl der im übereinstimmenden Muster angegebenen Ziffern darstellt. Wenn das übereinstimmende Musterbeispiels Weise **^ ( \\ d {7} ) $** ist, dann **$1** in der Übersetzungsregel 7-stellige gewählte Nummern darstellt.
     
       - Optional Geben Sie einen Wert in das Feld **Ziffern hinzufügen** ein, um Ziffern anzugeben, die der übersetzten Zahl vorangestellt werden sollen (beispielsweise **+ 1425**).
     
-    Enthält beispielsweise das Muster für die **Übereinstimmung** **^\\({7}d) $** , da das Muster für gewählte Nummern und die **Übersetzungsregel** **+ 1425 $1** als Muster für E. 164-Telefonnummern enthält, normalisiert die Regel 5550100 bis + 14255550100.
+    Enthält beispielsweise das Muster für die **Übereinstimmung** **^ ( \\ d {7} ) $** , da das Muster für gewählte Nummern und die **Übersetzungsregel** **+ 1425 $1** als Muster für E. 164-Telefonnummern enthält, normalisiert die Regel 5550100 bis + 14255550100.
 
 8.  Optional Wenn die Normalisierungsregel eine interne Telefonnummer für Ihre Organisation ergibt, wählen Sie **interne Durchwahl**aus.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7665a8edb5e77514633de5e66a063ab509fdd821
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d315de4f8b18a5ecbeabe7ba29231c70ff893e8a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191198"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508142"
 ---
+# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Kapazitätsplanung für lync Server 2013 mithilfe der Benutzermodelle
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Kapazitätsplanung für lync Server 2013 mithilfe der Benutzermodelle
+
 
 </div>
 
@@ -73,7 +75,7 @@ Alle Leistungsergebnisse und Bereitstellungsempfehlungen in diesem Abschnitt bas
 <td><ul>
 <li><p>8 oder mehr 10.000-RPM-Festplatten mit mindestens 72 GB freiem Speicherplatz.</p>
 <p>Zwei der Datenträger sollten RAID 1 verwenden, und sechs sollten RAID 10 verwenden.</p>
-<p>-Oder</p></li>
+<p>- Oder</p></li>
 <li><p>Solid State Drives (SSDs), die ähnliche Leistung wie mechanische Festplattenlaufwerke mit 8 10.000-rpm bieten.</p></li>
 </ul></td>
 </tr>
@@ -175,7 +177,7 @@ Wenn Sie stattdessen mit sechs Front-End-Servern für ihre 30.000-Benutzer begon
 
 Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 80.000. Die maximale Anzahl der Front-End-Server in einem Pool beträgt 12.
 
-Für eine Front-End-Pool mit 80.000-Benutzern genügen zwölf Front-End-Server für die Leistung in typischen Bereitstellungen, die den [Benutzermodellen in lync Server 2013](lync-server-2013-user-models.md)entsprechen. Für Bereitstellungen zur Unterstützung des Notfall Wiederherstellungs Failovers wird davon ausgegangen, dass maximal 40.000 Benutzer in zwei gekoppelten Front-End-Pools gehostet werden können, in denen jeder Pool über genügend Front-End-Server verfügt, um die Benutzer in beiden Pools unterzubringen, wenn ein Pool fehlerhaft sein muss. auf den anderen.
+Für eine Front-End-Pool mit 80.000-Benutzern genügen zwölf Front-End-Server für die Leistung in typischen Bereitstellungen, die den [Benutzermodellen in lync Server 2013](lync-server-2013-user-models.md)entsprechen. Für Bereitstellungen zur Unterstützung des Notfall Wiederherstellungs Failovers wird davon ausgegangen, dass maximal 40.000 Benutzer in zwei gepaarten Front-End-Pools gehostet werden können, in denen jeder Pool über genügend Front-End-Server verfügt, um die Benutzer in beiden Pools zu beherbergen, wenn ein Pool für einen Failover auf den anderen benötigt wird.
 
 Die Anzahl der Benutzer, die von einer bestimmten Front-End-Pool mit guter Leistung unterstützt werden, kann aus den folgenden Gründen von diesen Zahlen abweichen:
 
@@ -220,7 +222,7 @@ In der folgenden Tabelle ist die durchschnittliche Bandbreite für Sofortnachric
 
 
 > [!NOTE]  
-> Um die Medien Leistung der co-located A/V-Konferenz-und Vermittlungsserver Funktionalität auf Ihren Front-End-Servern zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Medien Leistung der co-located A/V-Konferenz-und Vermittlungsserver Funktionalität auf Ihren Front-End-Servern zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
 
@@ -266,7 +268,7 @@ Wenn Sie die Anzahl von Benutzern für die Edgeserver berechnen, berücksichtige
 
 
 > [!NOTE]  
-> Zum Verbessern der Leistung des A/V-Konferenzedgediensts auf Ihren Edgeservern sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter Ihrer Edgeserver aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zum Verbessern der Leistung des A/V-Konferenzedgediensts auf Ihren Edgeservern sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter Ihrer Edgeserver aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
 
@@ -310,7 +312,7 @@ Wenn Sie die Anzahl von Benutzern für die Director-Server berechnen, berücksic
 
 Wenn Sie Vermittlungsserver mit Front-End-Server collocate, wird Vermittlungsserver auf jeder Front-End-Server im Pool ausgeführt und sollte genügend Kapazität für die Benutzer im Pool bereitstellen.
 
-Wenn Sie einen eigenständigen Vermittlungsserver Pool bereitstellen, hängt die Anzahl der bereitzustellenden Vermittlungsserver von vielen Faktoren ab, einschließlich der für Vermittlungsserver verwendeten Hardware, der Anzahl der VoIP-Benutzer, der Anzahl der Gateway-Peers, die die einzelnen Vermittlungsserver Pools steuert den Datenverkehr über diese Gateways und den Prozentsatz der Anrufe mit Medien, die die Vermittlungsserver umgehen.
+Wenn Sie einen eigenständigen Vermittlungsserver Pool bereitstellen, hängt die Anzahl der bereitzustellenden Vermittlungsserver von vielen Faktoren ab, einschließlich der für Vermittlungsserver verwendeten Hardware, der Anzahl der VoIP-Benutzer, der Anzahl von Gateway-Peers, die von jedem Vermittlungsserver Pool gesteuert werden, dem Datenverkehr über diese Gateways und dem Prozentsatz der Anrufe mit Medien, die die Vermittlungsserver umgehen.
 
 Die folgenden Tabellen bieten eine Richtlinie für die Anzahl gleichzeitiger Anrufe, die ein Vermittlungsserver verarbeiten kann, vorausgesetzt, dass die Hardware für die Vermittlungsserver die Anforderungen unter [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) erfüllt und Hyper-Threading aktiviert ist. Ausführliche Informationen zur Vermittlungsserver Skalierbarkeit finden Sie unter [Estimating Voice usage and Traffic for lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) and [Deployment Guidelines for Vermittlungsserver in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
@@ -396,7 +398,7 @@ Alle folgenden Tabellen gehen davon aus, dass die Verwendung in [Benutzermodelle
 
 
 > [!NOTE]  
-> Um die Leistung des Vermittlungsserver zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Leistung des Vermittlungsserver zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
 

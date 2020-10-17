@@ -12,20 +12,22 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ef0d68cc06582339ed066108efa28a7a85bb00
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e730b1e44bbe6e6fbec4d84a2c81ce474cff693
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507622"
 ---
+# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Konfigurieren der globalen Einstellungen für die medienumgehung in lync Server 2013 zur Verwendung von Standort-und Regionsinformationen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Konfigurieren der globalen Einstellungen für die medienumgehung in lync Server 2013 zur Verwendung von Standort-und Regionsinformationen
+
 
 </div>
 
@@ -66,7 +68,7 @@ Die Informationen zu Netzwerkregionen und Netzwerkstandorten werden sowohl für 
 
 Oder führen Sie diese Schritte aus, wenn die Informationen zu Standorten und Regionen für Entscheidungen zur Medienumgehung herangezogen werden sollen, Sie jedoch nicht die Anrufsteuerung aktivieren möchten. In diesem Fall müssen Links zur Bandbreiteneinschränkung weiterhin über Netzwerk-standortübergreifende Richtlinien dargestellt werden, wie unter [Create Network Standort-Richtlinien in lync Server 2013](lync-server-2013-create-network-intersite-policies.md)beschrieben. Die tatsächlichen Bandbreiteneinschränkungen sind hierbei weniger wichtig, da die Anrufsteuerung nicht aktiviert wurde. Stattdessen werden diese Verbindungen zur Partitionierung von Subnetzen verwendet, um Verbindungen mit Bandbreitenbeschränkungen anzugeben, die für die Medienumgehung eingesetzt werden können. Beachten Sie, dass dies auch gilt, wenn sowohl die Anrufsteuerung als auch die Medienumgehung aktiviert wurden.
 
-Damit die Umgehung ordnungsgemäß funktioniert, muss außerdem Konsistenz zwischen einem Standort gemäß Definition im Topologie-Generator und wie er definiert ist, wenn Sie netzwerkregionen und Netzwerkstandorte konfigurieren. Wenn Sie beispielsweise einen Zweigstellenstandort haben, den Sie im Topologie-Generator als nur ein PSTN-Gateway festgelegt haben, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP-Richtlinie konfiguriert werden, mit der Zweigstellenbenutzer ihre PSTN-Anrufe über das PSTN weiterleiten können. Gateway am Zweigstellenstandort.
+Damit die Umgehung ordnungsgemäß funktioniert, muss außerdem Konsistenz zwischen einem Standort gemäß Definition im Topologie-Generator und wie er definiert ist, wenn Sie netzwerkregionen und Netzwerkstandorte konfigurieren. Wenn Sie beispielsweise einen Zweigstellenstandort haben, den Sie im Topologie-Generator als nur ein PSTN-Gateway festgelegt haben, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP-Richtlinie konfiguriert werden, mit deren Hilfe Zweigstellenbenutzer ihre PSTN-Anrufe über das PSTN-Gateway am Zweigstellenstandort weiterleiten können.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 496d1c5e420ab20787d526f1a9fa93070e9eafb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60c2260f5729c45455596f0ab2477f7a190ef520
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206501"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509222"
 ---
+# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Dokumentation zu lync Server 2013 Resource Kit-Tools
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Dokumentation zu lync Server 2013 Resource Kit-Tools
+
 
 </div>
 
@@ -43,9 +45,9 @@ In diesem Thema werden die Tools beschrieben, die Teil des lync Server 2013 Reso
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Installation der Resource Kit-Tools
 
-Zum Installieren der lync Server 2013 Resource Kit-Tools laden Sie **OCSReskit. msi**herunter. Sie können den Resource Kit Tools [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429)-Installer aus dem Download Center herunterladen.
+Zum Installieren der lync Server 2013, Resource Kit-Tools, laden Sie **OCSReskit.msi**herunter. Sie können den Resource Kit Tools-Installer aus dem Download Center herunterladen [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429) .
 
-Führen Sie **OCSResKit. msi** aus, um eine einfache Installation durchzuführen. Die MSI-Datei installiert alle Tools im folgenden Pfad: **% Programmdateien%\\\\Microsoft lync Server 2013 reskit**. Tools mit eigenständigen ausführbaren Dateien befinden sich in diesem Ordner. Tools, die auch Dateien enthalten, befinden sich in ihren eigenen Unterordnern.
+Führen Sie **OCSResKit.msi** aus, um eine einfache Installation durchzuführen. Die MSI-Datei installiert alle Tools im folgenden Pfad: **% Programmdateien% \\ Microsoft lync Server 2013 \\ reskit**. Tools mit eigenständigen ausführbaren Dateien befinden sich in diesem Ordner. Tools, die auch Dateien enthalten, befinden sich in ihren eigenen Unterordnern.
 
 </div>
 
@@ -89,7 +91,7 @@ In der folgenden Liste werden die Tools beschrieben, die im lync Server 2013 Res
 
   - SEFAUtil
 
-  - SYSPrep. ps1
+  - SYSPrep.ps1
 
   - Migration nicht zugewiesener Nummern Ankündigungen
 
@@ -117,7 +119,7 @@ Die primären Szenarien für das Tool lauten wie folgt:
 
   - Damit Administratoren Standardeinstellungen für den Adressbuchdienst wiederherstellen können.
 
-Das ABSConfig-Tool kann mithilfe der Datei ABSConfig. exe gestartet werden. Das Tool wird auf der Registerkarte **Configure Attributes** geöffnet. Diese Tabelle enthält Optionen zum Zuordnen Active Directory-Domänendienste Attribute zu den Attributfeldern für lync Server 2013 und zum Angeben der Benutzer, die in Adressbuchdienst Dateien basierend auf bestimmten Attribut Filtern eingeschlossen oder ausgeschlossen werden sollen. Außerdem gibt es Optionen, um den Wert der Telefonnummer anzupassen, der in die Adressbuchdatei aufgenommen werden soll. Die Option **Standardeinstellungen wiederherstellen** ermöglicht Administratoren das Wiederherstellen von Einstellungen für den Adressbuchdienst auf Standardwerte.
+Das ABSConfig-Tool kann mithilfe der absConfig.exe-Datei gestartet werden. Das Tool wird auf der Registerkarte **Configure Attributes** geöffnet. Diese Tabelle enthält Optionen zum Zuordnen Active Directory-Domänendienste Attribute zu den Attributfeldern für lync Server 2013 und zum Angeben der Benutzer, die in Adressbuchdienst Dateien basierend auf bestimmten Attribut Filtern eingeschlossen oder ausgeschlossen werden sollen. Außerdem gibt es Optionen, um den Wert der Telefonnummer anzupassen, der in die Adressbuchdatei aufgenommen werden soll. Die Option **Standardeinstellungen wiederherstellen** ermöglicht Administratoren das Wiederherstellen von Einstellungen für den Adressbuchdienst auf Standardwerte.
 
 </div>
 
@@ -183,7 +185,7 @@ Der Computer sollte in der Lage sein, eine Verbindung mit der Front-End-Pool-und
 
 Die folgenden Softwarekomponenten müssen installiert sein, bevor Sie das ABSConfig-Tool ausführen:
 
-  - Microsoft Lync Server 2013
+  - Microsoft Lync Server 2013
 
 </div>
 
@@ -201,9 +203,9 @@ Administratoren, die über die erforderlichen Berechtigungen zum Aktualisieren d
 
 ## <a name="examples"></a>Beispiele
 
-ABSConfig kann gestartet werden, indem Sie **ABSConfig. exe** an einer Eingabeaufforderung eingeben. Unten sehen Sie die Benutzeroberfläche des ABSConfig-Tools.
+ABSConfig kann gestartet werden, indem Sie **ABSConfig.exe** an einer Eingabeaufforderung eingeben. Unten sehen Sie die Benutzeroberfläche des ABSConfig-Tools.
 
-![Das Tool ABSConfig. exe.](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "Das Tool ABSConfig. exe.")
+![Das ABSConfig.exe-Tool.](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "Das ABSConfig.exe-Tool.")
 
 </div>
 
@@ -233,7 +235,7 @@ Das Tool Bandbreitenrichtlinien-Dienstüberwachung soll Administratoren die Mög
 
 ## <a name="description"></a>Beschreibung
 
-Das Tool Bandwidth Policy Service Monitor wird als GUI-basierte Anwendung implementiert. Administratoren starten das Tool durch Ausführung von PDPMonUI. exe.
+Das Tool Bandwidth Policy Service Monitor wird als GUI-basierte Anwendung implementiert. Administratoren starten das Tool, indem Sie PDPMonUI.exe durchführen.
 
 Wenn das Tool gestartet wird, versucht es, die Liste der Bandbreitenrichtlinien Dienste in der Topologie zu ermitteln. Nachdem die anfängliche Aktualisierung abgeschlossen ist, wird der Bereich links neben dem Fenster mit einer Liste von Diensten aufgefüllt, die nach den Clustern gruppiert sind, zu denen Sie gehören.
 
@@ -295,7 +297,7 @@ Das Tool für Bandbreitenrichtlinien-Dienstüberwachung muss auf einem Computer 
 
 ## <a name="summary"></a>Zusammenfassung
 
-Das Tool Bandbreitenrichtlinien-Dienstüberwachung kann eine wertvolle Ressource für Administratoren sein, damit Sie den Status aller Bandbreitenrichtlinien Dienste in der Topologie überprüfen können-und was noch wichtiger ist-Sie können eine Echtzeitbandbreite für die Links erhalten, die in den Netzwerkkonfigurationseinstellungen definiert.
+Das Tool für Bandbreitenrichtlinien-Dienstüberwachung kann eine wertvolle Ressource für Administratoren sein, damit Sie den Status aller Bandbreitenrichtlinien Dienste in der Topologie überprüfen können-und was noch wichtiger ist-Sie können eine Echtzeit-Bandbreitenauslastung für die in den Netzwerkkonfigurationseinstellungen definierten Links erhalten.
 
 </div>
 
@@ -351,13 +353,13 @@ Bandbreiten Auslastungsanalyse kann grafische Plots von Bandbreitenkapazität un
 
 <div>
 
-## <a name="applications"></a>Applications
+## <a name="applications"></a>Anwendungen
 
 Bandbreiten Auslastungsanalyse verfügt über die beiden folgenden Anwendungen (Tools):
 
-  - **"Wanlinklogcollector. exe**   mit diesem Tool können die Benutzer die erforderlichen Informationen eingeben.
+  - **WanLinkLogCollector.exe**     Mit diesem Tool können die Benutzer die erforderlichen Informationen eingeben.
 
-  - **"Bandwidthutilizationanalyzer. xlsm**  ein Microsoft Excel-Tabellenkalkulationssoftware Bericht wird automatisch von" wanlinklogcollector. exe gestartet. Diese Anwendung ermöglicht dem Benutzer das Anwenden von Filtern auf den Bericht, wie weiter unten in diesem Artikel dargestellt.
+  - **BandwidthUtilizationAnalyzer.xlsm**    Ein Microsoft Excel Bericht über die Tabellenkalkulation wird automatisch von WanLinkLogCollector.exe gestartet. Diese Anwendung ermöglicht dem Benutzer das Anwenden von Filtern auf den Bericht, wie weiter unten in diesem Artikel dargestellt.
 
 </div>
 
@@ -367,15 +369,15 @@ Bandbreiten Auslastungsanalyse verfügt über die beiden folgenden Anwendungen (
 
 Es gibt zwei Phasen bei der Verwendung des Bandbreiten Auslastungsanalyse Programms:
 
-  - Sammeln von Protokollen, die mithilfe von "wanlinklogcollector. exe ausgeführt werden
+  - Sammeln von Protokollen, die mithilfe von WanLinkLogCollector.exe ausgeführt werden
 
-  - Anpassen von Berichten, die mithilfe von "bandwidthutilizationanalyzer. xlsm ausgeführt werden
+  - Anpassen von Berichten, die mit BandwidthUtilizationAnalyzer.xlsm ausgeführt werden
 
 <div>
 
 
 > [!IMPORTANT]  
-> Es wird dringend empfohlen, dass "bandwidthutilizationanalyzer. xlsm nicht von Endbenutzern manuell gestartet wird.
+> Es wird dringend empfohlen, dass BandwidthUtilizationAnalyzer.xlsm nicht von Endbenutzern manuell gestartet werden.
 
 
 
@@ -387,17 +389,17 @@ Es gibt zwei Phasen bei der Verwendung des Bandbreiten Auslastungsanalyse Progra
 
 ## <a name="starting-bandwidth-utilization-analyzer"></a>Starten der Bandbreiten Auslastungsanalyse
 
-Starten Sie "wanlinklogcollector. exe an der Eingabeaufforderung oder mithilfe von Windows Explorer.
+Starten Sie WanLinkLogCollector.exe an der Eingabeaufforderung oder mithilfe von Windows Explorer.
 
-**Verwenden von "wanlinklogcollector. exe**
+**Verwenden von WanLinkLogCollector.exe**
 
-Es gibt drei Schritte zur Verwendung von "wanlinklogcollector. exe:
+Es gibt drei Schritte zur Verwendung von WanLinkLogCollector.exe:
 
-1.  **Protokollieren der Zeitachse**   geben Sie die Zeitachse an, für die der Bericht generiert werden muss.
+1.  **Protokollieren des Zeitplans**     Geben Sie die Zeitachse an, für die der Bericht generiert werden muss.
 
-2.  **Angeben der Dateiverzeichnisse**   zur Bereitstellung von Dateispeicherort Informationen
+2.  **Angeben der Dateiverzeichnisse**     Angeben von Dateispeicherort Informationen
 
-3.  **Erfassen der Protokolle und Starten der Berichtsanzeige**  führen Sie den Befehl aus, um den Bericht zu generieren.
+3.  **Erfassen der Protokolle und Starten der Berichtsanzeige**    Ausführen des Befehls zum Generieren des Berichts
 
 <div>
 
@@ -419,7 +421,7 @@ Durch die Protokollierung der Zeitachse kann der Benutzer des Tools Folgendes an
 
 Die folgenden Dateiverzeichnisse können vom Benutzer wie dargestellt angegeben werden.
 
-  - **Speicherort der Server Protokolldateien** Der Speicherort des Ordners, in dem die Bandbreitenrichtlinien Serverprotokolle gespeichert werden. Dies ist in der \<Regel in\>\\\<Fileserver Choice\>\\von\\FE AppServerFiles PDP.
+  - **Speicherort der Server Protokolldateien** Der Speicherort des Ordners, in dem die Bandbreitenrichtlinien Serverprotokolle gespeichert werden. Dies ist in der Regel in \<fileserver\> \\ \<choice of FE\> \\ AppServerFiles \\ PDP.
 
   - **Speicherplatz für temporäre Dateien** Der temporäre Dateispeicherort, an dem zwischen Dateien gespeichert werden, während der Bericht generiert wird.
 
@@ -449,20 +451,20 @@ Wenn die Eingabeüberprüfung erfolgreich ist, wird die unten gezeigte Meldung a
 
 ![Protokolliert erfasste Benachrichtigung in der Bandbreite utili](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Protokolliert erfasste Benachrichtigung in der Bandbreite utili")
 
-Klicken Sie auf **OK**. "Bandwidthutilizationanalyzer. xlsm wird automatisch gestartet. Befolgen Sie die Anweisungen im Meldungsfeld. Ausführliche Informationen finden Sie unter **using "bandwidthutilizationanalyzer. xlsm** im nächsten Abschnitt.
+Klicken Sie auf **OK**. BandwidthUtilizationAnalyzer.xlsm wird automatisch gestartet. Befolgen Sie die Anweisungen im Meldungsfeld. Ausführliche Informationen finden Sie unter **using BandwidthUtilizationAnalyzer.xlsm** im nächsten Abschnitt.
 
 </div>
 
 <div>
 
 
-**Verwenden von "bandwidthutilizationanalyzer. xlsm**
+**Verwenden von BandwidthUtilizationAnalyzer.xlsm**
 
-1.  Wenn "bandwidthutilizationanalyzer. xlsm automatisch gestartet wird, klicken Sie wie unten gezeigt auf **Aktualisieren** .
+1.  Wenn BandwidthUtilizationAnalyzer.xlsm automatisch gestartet wird, klicken Sie wie unten gezeigt auf **Aktualisieren** .
     
-    !["Bandwidthutilizationanalyzer. xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg ""Bandwidthutilizationanalyzer. xlsm")
+    ![BandwidthUtilizationAnalyzer.xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
-2.  Wenn ein Datei Ordner geöffnet wird, wählen Sie konsolidiert. CSV aus dem Speicherort aus, der im Meldungsfeld angegeben ist, wie unten dargestellt. Außerdem wird der Speicherort als **C:\\Temp**angezeigt.
+2.  Wenn ein Datei Ordner geöffnet wird, wählen Sie consolidated.csv von dem Speicherort aus, der im Meldungsfeld angegeben ist, wie unten dargestellt. Außerdem wird der Speicherort als **C: \\ Temp**angezeigt.
     
     ![Öffnen eines Ordners in "bandwidthutilizationanalyzer.](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "Öffnen eines Ordners in "bandwidthutilizationanalyzer.")
 
@@ -594,7 +596,7 @@ Alle Optionen schließen sich gegenseitig aus. Die Befehlszeilensyntax lautet wi
     
       - Zeitstempel für den Zeitpunkt, zu dem der Anruf abgerufen oder gelöscht wurde.
 
-  - **-t\<n\> ** Parameter-testet das Reservieren einer Umlaufbahn in der Datenbank, um die Zufälligkeit der zugewiesenen Umlaufbahn Nummern anzuzeigen.
+  - **-t \<n\> ** Parameter-Tests Reservieren einer Umlaufbahn in der Datenbank, um die Zufälligkeit der zugewiesenen Orbit-Nummern anzuzeigen.
 
 </div>
 
@@ -628,7 +630,7 @@ Der Zweck des CPS-Tools besteht darin, den Befehlszeilenzugriff auf die CPS-Date
 
 ## <a name="requirements"></a>Anforderungen
 
-Es gibt keine Anforderungen, wenn dieses Tool auf demselben Computer ausgeführt wird, auf dem CPS ausgeführt wird. Wenn dieses Tool auf einem Remotecomputer ausgeführt wird, muss die von lync Server 2013 verwendete SQL Server Datenbank so konfiguriert werden, dass der Remotezugriff zulässig ist. Der Aufruf Parkometer muss mit einer SQL Server Datenbankverbindungszeichenfolge konfiguriert werden, um eine Verbindung mit dem SQL Server des Pools herzustellen. Diese SQL Server Datenbankverbindungszeichenfolge ist in der Konfigurationsdatei **parkometer. exe. config**definiert. Es muss sich in demselben Verzeichnis befinden, in dem sich parkometer. exe befindet. Die folgende XML-Datei ist ein Beispiel für eine parkometer. exe. config. Die Parameter, die konfiguriert werden müssen, sind Benutzername (beispielsweise mydomain\\Administrator), Kennwort (beispielsweise mypassword) und Hostname (beispielsweise MyServer).
+Es gibt keine Anforderungen, wenn dieses Tool auf demselben Computer ausgeführt wird, auf dem CPS ausgeführt wird. Wenn dieses Tool auf einem Remotecomputer ausgeführt wird, muss die von lync Server 2013 verwendete SQL Server Datenbank so konfiguriert werden, dass der Remotezugriff zulässig ist. Der Aufruf Parkometer muss mit einer SQL Server Datenbankverbindungszeichenfolge konfiguriert werden, um eine Verbindung mit dem SQL Server des Pools herzustellen. Diese SQL Server Datenbankverbindungszeichenfolge wird in der Konfigurationsdatei **parkometer.exe.config**definiert. Es muss sich in demselben Verzeichnis befinden, in dem sich parkometer.exe befindet. Die folgende XML-Datei ist ein Beispiel für ein parkometer.exe.config. Die Parameter, die konfiguriert werden müssen, sind Benutzername (beispielsweise mydomain \\ Administrator), Kennwort (beispielsweise mypassword) und Hostname (beispielsweise MyServer).
 
 ```xml
     <?xml version="1.0" encoding="utf-8" ?>
@@ -661,11 +663,11 @@ Anzahl der freien Umlaufbahnen: der Parameter "– f" listet die Anzahl der derz
 
 ![Freie Umlaufbahnen in der Anruf Parkometer.](images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "Freie Umlaufbahnen in der Anruf Parkometer.")
 
-Zuletzt geparkte Anrufe: der Parameter \<–\> r n listet \<die\> n zuletzt geparkten Anrufe wie dargestellt auf.
+Zuletzt geparkte Anrufe: der Parameter – r \<n\> Listet die \<n\> zuletzt geparkten Anrufe wie dargestellt auf.
 
 ![Zuletzt geparkte Anrufe in Anruf Parkometer.](images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "Zuletzt geparkte Anrufe in Anruf Parkometer.")
 
-Test Orbit-Reservierung: der – \<t\> n-Parameter testet, wie in der Abbildung gezeigt, eine Umlaufbahn in der Datenbank reserviert
+Test Orbit-Reservierung: der Parameter "– t" \<n\> testet, wie in der Abbildung gezeigt, eine Umlaufbahn in der Datenbank reserviert
 
 ![Testen Sie die Orbit-Reservierungen in der Anruf Parkometer.](images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "Testen Sie die Orbit-Reservierungen in der Anruf Parkometer.")
 
@@ -699,7 +701,7 @@ Zur Unterstützung von hoher Verfügbarkeit akzeptiert und speichert LYSS vorüb
 
 ## <a name="requirements"></a>Anforderungen
 
-Installieren Sie die lync Server 2013 Resource Kit-Tools. Das Tool wird auf Computern mit Domänenbeitritt ausgeführt, auf denen lync Server und lync Server 2013 Verwaltungsshell installiert sind. Das Tool verwendet ein Cmdlet aus der Verwaltungsshell, um alle Front-End-Server im Pool zu identifizieren. Zweitens muss das Tool von einem Computer im Pool ausgeführt werden, auf dem die **RtcLocal** -Datenbank installiert ist. Diese Datenbank wird vom CleanupStorageServiceData-Tool verwendet, um die Verbindungsdetails abzurufen, die für die Kommunikation mit dem lync Server Routing Dienst erforderlich sind. Schließlich muss das Konto oder die Anmeldeinformationen, die das Tool aufrufen, über Lese-/Schreibzugriff auf die Dateifreigabe verfügen, in die das Ausgabeprotokoll geschrieben werden soll. Außerdem hängt dieses Tool davon ab, dass sich der Pool in einem stabilen Zustand befindet. Im Wesentlichen bedeutet dies, dass jeder Front-End-Server voraussichtlich betriebsbereit ist, die SQL Server LYNCLOCAL-Instanz und die Lysser-Datenbank müssen mit verbunden sein, und jede Routinggruppe muss über einen vollständigen Satzes von 1 primären Front-End-Servern und 2 sekundären Front-End-s verfügen. Server aufgelistet.
+Installieren Sie die lync Server 2013 Resource Kit-Tools. Das Tool wird auf Computern mit Domänenbeitritt ausgeführt, auf denen lync Server und lync Server 2013 Verwaltungsshell installiert sind. Das Tool verwendet ein Cmdlet aus der Verwaltungsshell, um alle Front-End-Server im Pool zu identifizieren. Zweitens muss das Tool von einem Computer im Pool ausgeführt werden, auf dem die **RtcLocal** -Datenbank installiert ist. Diese Datenbank wird vom CleanupStorageServiceData-Tool verwendet, um die Verbindungsdetails abzurufen, die für die Kommunikation mit dem lync Server Routing Dienst erforderlich sind. Schließlich muss das Konto oder die Anmeldeinformationen, die das Tool aufrufen, über Lese-/Schreibzugriff auf die Dateifreigabe verfügen, in die das Ausgabeprotokoll geschrieben werden soll. Außerdem hängt dieses Tool davon ab, dass sich der Pool in einem stabilen Zustand befindet. Im Wesentlichen bedeutet dies, dass jeder Front-End-Server voraussichtlich ausgeführt wird, dass die SQL Server LYNCLOCAL-Instanz und die Lysser Datenbank mit verbunden sein müssen, und jede Routinggruppe muss über einen vollständigen Satzes von 1 primären Front-End-Servern und 2 sekundären Front-End-Servern verfügen.
 
 </div>
 
@@ -707,7 +709,7 @@ Installieren Sie die lync Server 2013 Resource Kit-Tools. Das Tool wird auf Comp
 
 ## <a name="examples"></a>Beispiele
 
-C:\\Programmdateien\\Microsoft lync Server 2013\\reskit\\StorageService\> ImportStorageServiceData. exe
+C: \\ Programmdateien \\ Microsoft lync Server 2013 \\ reskit \\ StorageService \> ImportStorageServiceData.exe
 
     Description:
     This tool will remove orphaned data from the Storage Service database
@@ -779,7 +781,7 @@ C:\\Programmdateien\\Microsoft lync Server 2013\\reskit\\StorageService\> Import
 
 Dbanalyze ist ein Befehlszeilentool, mit dem Administratoren Analyseberichte zu den lync Server 2013 Datenbanken sammeln können. Dbanalyze verfügt über die folgenden Modi: Diagnose, Benutzerdaten, Konferenz, MCU und Datenträgerfragmentierung:
 
-  - **Der Diagnosemodus**   erstellt einen Bericht mit Informationen zu Tabellen (Anzahl der Datensätze, Fragmentierung, Datengröße und Indexgröße), Daten-und Protokolldateigrößen, die letzte Sicherungszeit, die Kontaktverteilung zwischen Servern mit Microsoft Office Communications Server, die durchschnittliche Anzahl von Berechtigungen, Kontakte, Container, Abonnements, Publikationen, Endpunkte pro Benutzer, nicht ordnungsgemäß verwaltete Benutzer, Benutzer, die nicht weitergeleitet werden können, die durchschnittliche Anzahl der pro Benutzer organisierten Konferenzen, geplant Konferenzen, aktive Konferenzen und die Datenbankversion.
+  - **Diagnosemodus**     Erstellt einen Bericht mit Informationen zu Tabellen (Anzahl der Datensätze, Fragmentierung, Datengröße und Indexgröße). Daten-und Protokolldateigrößen, die letzte Sicherungszeit, die Kontaktverteilung zwischen Servern mit Microsoft Office Communications Server, die durchschnittliche Anzahl von Berechtigungen, Kontakte, Container, Abonnements, Publikationen, Endpunkte pro Benutzer, nicht ordnungsgemäß verwaltete Benutzer, Benutzer, die nicht weitergeleitet werden können, die durchschnittliche Anzahl der pro Benutzer organisierten Konferenzen, geplante Konferenzen, aktive Konferenzen und die Datenbankversion.
     
     <div>
     
@@ -790,17 +792,17 @@ Dbanalyze ist ein Befehlszeilentool, mit dem Administratoren Analyseberichte zu 
     
     </div>
 
-  - Der **Benutzerdaten Modus**  meldet Kontakt-, Container-, Abonnement-, Publikations-, Berechtigungs-und Kontaktgruppen Daten für einen bestimmten Benutzer oder für Benutzer, die diesen Benutzer in seinen Kontakt-und Berechtigungslisten haben. In diesem Modus werden auch Zusammenfassungsdaten für Konferenzen gemeldet, die ein Benutzer organisiert oder dazu eingeladen wird.
+  - **Benutzerdaten Modus**   Meldet Kontakt-, Container-, Abonnement-, Publikations-, Berechtigungs-und Kontaktgruppen Daten für einen bestimmten Benutzer oder für Benutzer, die diesen Benutzer in seinen Kontakt-und Berechtigungslisten haben. In diesem Modus werden auch Zusammenfassungsdaten für Konferenzen gemeldet, die ein Benutzer organisiert oder dazu eingeladen wird.
 
-  - **Der Konferenzmodus**   meldet detaillierte Daten für eine bestimmte Konferenz, einschließlich aller Terminplanzeit Details für die Konferenz, der Einladungsliste, der Liste der für die Konferenz zulässigen Medientypen, der aktiven MCU (Multipoint Control Units), der aktiven Teilnehmerliste und des Signalisierungs Status jedes Teilnehmers.
+  - **Konferenzmodus**     Meldet detaillierte Daten für eine bestimmte Konferenz, einschließlich aller Terminplanzeit Details für die Konferenz, der Einladungsliste, der Liste der für die Konferenz zulässigen Medientypen, der aktiven MCU (Multipoint Control Units), der aktiven Teilnehmerliste und des Signalisierungs Status jedes Teilnehmers.
 
-  - **Decodieren von Besprechungs-IDs**  decodiert eine PSTN-Besprechungs-ID (Public Switched Telephone Network), die durch den **Parameter/pstnid** -Switch angegeben wird, aber keine Verbindung zum Back-End für detaillierte Informationen.
+  - **Decodieren der Besprechungs-ID**    Decodiert eine PSTN-Besprechungs-ID (Public Switched Telephone Network), die durch den **Parameter/pstnid** -Switch angegeben wird, aber keine Verbindung zum Back-End für detaillierte Informationen.
 
-  - **Konferenz auflösen**   decodiert eine PSTN-Besprechungs-ID, die vom **Parameter/pstnid** -Schalter angegeben wird, und zeigt Informationen über die Konferenz an, die durch die ID angegeben wird.
+  - **Konferenz**     Auflösen Decodiert eine von der **Parameter/pstnid** -Option angegebene PSTN-Besprechungs-ID und zeigt Informationen über die durch die ID angegebene Konferenz an.
 
-  - **Der MCU-Modus**  meldet die ID, den Medientyp, die URL, den Takt Status, die Konferenz Last und die Teilnehmer Auslastung für jede MCU im Pool.
+  - **MCU-Modus**    Meldet die ID, den Medientyp, die URL, den Takt Status, die Konferenz Last und die Teilnehmer Auslastung für jede MCU im Pool.
 
-  - **Im Modus "Datenträgerfragmentierung"**  wird der Fragmentierungs Status aller Datenträger angezeigt.
+  - **Datenträger Fragmentierungs Modus**    Zeigt den Fragmentierungs Status aller Datenträger an.
 
 Dieses Tool kann verwendet werden, um verschiedene Probleme zu diagnostizieren oder Administratoren bei der Kapazitätsplanung zu unterstützen. Wenn beispielsweise die meisten der Benutzer, die sich auf dem Server a befinden, Benutzer auf Server b als Kontakte verwaltet haben, kann der Administrator die Benutzer auf Server a auf Server b umstellen, um den serverübergreifenden Datenverkehr zu reduzieren.
 
@@ -810,7 +812,7 @@ Dieses Tool kann verwendet werden, um verschiedene Probleme zu diagnostizieren o
 
 ## <a name="output"></a>Output
 
-Dieses Tool gibt vordefinierte Berichte zur lync Server 2013 Datenbank aus. **Pfad:** % Programme%\\Microsoft lync Server 2013\\reskit
+Dieses Tool gibt vordefinierte Berichte zur lync Server 2013 Datenbank aus. **Pfad:** % Programme% \\ Microsoft lync Server 2013 \\ reskit
 
 </div>
 
@@ -818,9 +820,9 @@ Dieses Tool gibt vordefinierte Berichte zur lync Server 2013 Datenbank aus. **Pf
 
 ## <a name="purpose"></a>Zweck
 
-Um Dbanalyze. exe zu installieren, kopieren Sie Sie in einen lokalen Ordner, und führen Sie das Tool aus. Führen Sie den folgenden Befehl an der Befehlszeile aus, um das Tool zu verwenden.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` Die Beschreibungen der Befehlszeilenoptionen werden unten angezeigt.
+Um Dbanalyze.exe zu installieren, kopieren Sie Sie in einen lokalen Ordner, und führen Sie das Tool aus. Führen Sie den folgenden Befehl an der Befehlszeile aus, um das Tool zu verwenden.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` Die Beschreibungen der Befehlszeilenoptionen werden unten angezeigt.
 
-![Befehlszeilenoptionen für Dbanalyze. exe.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Befehlszeilenoptionen für Dbanalyze. exe.")
+![Befehlszeilenoptionen für Dbanalyze.exe.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Befehlszeilenoptionen für Dbanalyze.exe.")
 
 </div>
 
@@ -836,7 +838,7 @@ Um Dbanalyze. exe zu installieren, kopieren Sie Sie in einen lokalen Ordner, und
 
 **Benutzer** Die folgende Tabelle zeigt die Administratoren, die über die erforderlichen Berechtigungen für den Zugriff auf lync Server 2013-Datenbanken verfügen.
 
-![Berechtigungstabelle für Dbanalyze. exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Berechtigungstabelle für Dbanalyze. exe.")
+![Berechtigungstabelle für Dbanalyze.exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Berechtigungstabelle für Dbanalyze.exe.")
 
 <div>
 
@@ -854,7 +856,7 @@ Um Dbanalyze. exe zu installieren, kopieren Sie Sie in einen lokalen Ordner, und
 
 ## <a name="examples"></a>Beispiele
 
-Im folgenden sind Beispiele für gültige Dbanalyze. exe-Befehle aufgeführt:
+Im folgenden sind Beispiele für gültige Dbanalyze.exe Befehle aufgeführt:
 
     dbanalyze.exe /report:diag
     dbanalyze.exe /report:user /user:usera@domainb.com
@@ -891,7 +893,7 @@ Die aus dem Speicherdienst gelöschten Daten konnten auf der Grundlage des Warte
 
 **Szenario 2:** die Daten werden jeden Tag automatisch oder als Reaktion auf die Speicherdienst Datenbank geleert, die bestimmte größenschwellenwerte überschreitet (beispielsweise 60%, 80%, 90% vollständig). Diese automatisch gespülten Daten sollten vom Administrator routinemäßig erneut importiert werden. Wenn das Monitoring-SCOM-Paket nicht bereitgestellt ist, gibt es in der obigen Situation Ereignisse für lync Server Speicherdienst, die sich auf Daten beziehen, die vom Speicherdienst geleert werden. Ereignis-IDs von 32075 (vollständiger Löschvorgang wird gestartet), 32076 (vollständiger Flush wurde abgeschlossen), 32082 (Wartungsebene wurde gestartet), 32083 (Wartungsebene ist leer), 32089 (Flush erfolgte aufgrund des Füllens der Datenbank). Hinweis Diese Ereignis-IDs entsprechen der RTM-Version. Wenn ein Administrator diese Ereignisse sieht, bedeutet dies, dass Dateien geleert wurden. Diese Daten sollten mit diesem Tool routinemäßig wieder importiert werden, beispielsweise einmal pro Woche.
 
-Wenn für die Online Dienstversion die SCOM Pack for lync Server-Integritätsüberwachung bereitgestellt wird, werden möglicherweise neue Warnungen ausgelöst, die den Administrator auffordern, die gelöschten Daten wieder in den Speicherdienst zu importieren. Im Ereignisprotokoll auf dem Front-End-Server, der die Warnung ausgelöst hat, ist ein entsprechendes Ereignis vorhanden. Das Ereignis gibt eine Beschreibung des übergeordneten Pfads an, unter dem sich die geleerten Datendateien befinden, sowie die Anzahl der Dateien, die den Warnungskriterien entsprechen. Die Warnungskriterien sind, dass es x oder mehr Dateien unter dem bestimmten übergeordneten Pfad gibt, die mindestens Y Tage alt sind (wobei x und y im StorageService voreingestellt sind, aber durch Ändern der APPCONFIG-Datei außer Kraft gesetzt werden können). Im folgenden werden zwei Beispiele für Ereignisse angezeigt, die die Integritäts Warnung auslösen können: der Unterschied ist der übergeordnete Pfad. Eine Möglichkeit besteht unter Webdienst-Dateifreigabe, während die andere Möglichkeit das lokale Anwendungsdatenverzeichnis jedes Front-End ist. (zum Beispiel c:\\ProgramData\\Microsoft\\lync Server\\StorageService). Der Administrator führt dann dieses reskit-Tool aus.
+Wenn für die Online Dienstversion die SCOM Pack for lync Server-Integritätsüberwachung bereitgestellt wird, werden möglicherweise neue Warnungen ausgelöst, die den Administrator auffordern, die gelöschten Daten wieder in den Speicherdienst zu importieren. Im Ereignisprotokoll auf dem Front-End-Server, der die Warnung ausgelöst hat, ist ein entsprechendes Ereignis vorhanden. Das Ereignis gibt eine Beschreibung des übergeordneten Pfads an, unter dem sich die geleerten Datendateien befinden, sowie die Anzahl der Dateien, die den Warnungskriterien entsprechen. Die Warnungskriterien sind, dass es x oder mehr Dateien unter dem bestimmten übergeordneten Pfad gibt, die mindestens Y Tage alt sind (wobei x und y im StorageService voreingestellt sind, aber durch Ändern der APPCONFIG-Datei außer Kraft gesetzt werden können). Im folgenden werden zwei Beispiele für Ereignisse angezeigt, die die Integritäts Warnung auslösen können: der Unterschied ist der übergeordnete Pfad. Eine Möglichkeit besteht unter Webdienst-Dateifreigabe, während die andere Möglichkeit das lokale Anwendungsdatenverzeichnis jedes Front-End ist. (zum Beispiel c: \\ ProgramData \\ Microsoft \\ lync Server \\ StorageService). Der Administrator führt dann dieses reskit-Tool aus.
 
 Dieses Tool erhöht die CPU-und e/a-Last auf dem Front-End, auf dem es ausgeführt wird, sowie anderen Front-Ends in der Situation, dass die Daten nicht dem Front-End gehören, auf dem das Tool ausgeführt wird. Es wird empfohlen, dieses Tool Ausführung, wenn die Front-Ends nicht unter starker CPU-und e/a-Last stehen, beispielsweise außerhalb der Spitzenzeiten. Zweitens kann dieses Tool 2 bis 3 Minuten, um eine Datendatei zu importieren. Beachten Sie dies, wenn Sie schätzen, wie lange das Tool in Betrieb sein wird. Die vom Tool generierte ausführliche Protokolldatei wird standardmäßig im Dateispeicher angezeigt. Löschen Sie es, wenn keine Fehler gemeldet werden, da die Protokolldatei zehn MB oder mehr sein kann.
 
@@ -1116,7 +1118,7 @@ Das LookupUserConsole-Tool zeigt interne lync Server Routinginformationen zu bes
 
 ## <a name="description"></a>Beschreibung
 
-Durch die Ausführung von LookupUserConsole. exe wird eine Eingabeaufforderung geöffnet, die SIP-Adressen akzeptiert, und versucht, interne lync Server Routinginformationen anzuzeigen, die Sie betreffen. Geben Sie **Exit** ein, um das LookupUserConsole-Tool zu beenden.
+Durch das Ausführen von LookupUserConsole.exe wird eine Eingabeaufforderung geöffnet, die SIP-Adressen akzeptiert und versucht, interne lync Server Routinginformationen anzuzeigen, die Sie betreffen. Geben Sie **Exit** ein, um das LookupUserConsole-Tool zu beenden.
 
 </div>
 
@@ -1132,7 +1134,7 @@ Installieren Sie die lync Server 2013 Resource Kit-Tools. Das Tool wird auf Dom�
 
 ## <a name="examples"></a>Beispiele
 
-C:\\Programmdateien\\Microsoft lync Server 2013\\reskit\>LookupUserConsole. exe
+C: \\ Programmdateien \\ Microsoft lync Server 2013 \\ reskit \>LookupUserConsole.exe
 
     > sip:john.doe@vdomain.com
     
@@ -1260,13 +1262,13 @@ Dieses Tool kann eine wertvolle Ressource für lync Server 2013 Administratoren 
 
 ## <a name="network-configuration-viewer"></a>Netzwerk Konfigurationsanzeige
 
-Die Netzwerkkonfigurations-Anzeige kann von Microsoft lync Server 2013 Kommunikationssoftware Administratoren verwendet werden, um die Anruf Steuerungs Netzwerk-Topologie für ein Unternehmen anzuzeigen, das bereitgestellt wird, um Echt Zeit Kommunikationssitzungen zu ermöglichen, beispielsweise sprach-oder Videoanrufe basierend auf der angegebenen Bandbreitenkapazität. Lync Server 2013 Administratoren definieren CAC-Richtlinien, die von den Bandbreitenrichtlinien Diensten erzwungen werden, die mit lync Server 2013 installiert werden.
+Die Netzwerkkonfigurations-Anzeige kann von Microsoft lync Server 2013 Kommunikationssoftware Administratoren verwendet werden, um die Anruf Steuerungs Netzwerk-Topologie für ein Unternehmen anzuzeigen, das bereitgestellt wird, um Echt Zeit Kommunikationssitzungen wie Sprach-oder Videoanrufe basierend auf der angegebenen Bandbreitenkapazität zuzulassen. Lync Server 2013 Administratoren definieren CAC-Richtlinien, die von den Bandbreitenrichtlinien Diensten erzwungen werden, die mit lync Server 2013 installiert werden.
 
 <div>
 
 ## <a name="description"></a>Beschreibung
 
-Network Configuration Viewer (NetworkConfigurationViewer. exe) ermöglicht Administratoren das Ausführen der folgenden Aufgaben:
+Die Netzwerk Konfigurationsanzeige (NetworkConfigurationViewer.exe) ermöglicht Administratoren das Ausführen der folgenden Aufgaben:
 
   - Laden und Anzeigen der CAC-Netzwerktopologie aus einer lync Server 2013-Bereitstellung in einem grafischen Format.
 
@@ -1400,7 +1402,7 @@ Für den Reaktionsgruppen-Agent Live ist der .NET Framework 4,0 erforderlich. Da
 
 ## <a name="configuration"></a>Konfiguration
 
-Der Live Reaktionsgruppen-Agent kann mithilfe des Dialogfelds Optionen in der Anwendung an individuelle Einstellungen angepasst werden. Darüber hinaus kann der Administrator die Standardhost Adresse definieren, indem er die defaultHostAddress-Eigenschaft der Datei RGAgentLive. exe. config direkt bearbeitet.
+Der Live Reaktionsgruppen-Agent kann mithilfe des Dialogfelds Optionen in der Anwendung an individuelle Einstellungen angepasst werden. Darüber hinaus kann der Administrator die Standardhost Adresse definieren, indem er direkt die defaultHostAddress-Eigenschaft der RGAgentLive.exe.config Datei bearbeitet.
 
 Die folgende Abbildung zeigt das Dialogfeldoptionen, mit dem Agents die Hostadresse und die Tastenkombinationen konfigurieren können. Der Zugriff auf dieses Dialogfeld erfolgt durch Klicken auf die Schaltfläche Optionen oben rechts auf der Hauptoberfläche.
 
@@ -1446,9 +1448,9 @@ Schnelle Anmeldung und Abmeldung, Gruppenmitgliedschaft und grundlegende Echtzei
 
 ## <a name="sefautil"></a>SEFAUtil
 
-SEFAUtil (Secondary Extension Feature Activation) ist ein Befehlszeilentool, mit dem Microsoft lync Server 2013 Kommunikationssoftware Administratoren und Helpdesk-Agents Delegate-Klingeln, Anrufweiterleitung, gleichzeitiges Klingeln, Teamanrufe konfigurieren können. Einstellungen und Gruppenanruf Abholung im Auftrag eines lync Server 2013 Benutzers. Das Tool ermöglicht es Administratoren auch, die Anrufweiterleitungseinstellungen abzufragen, die für einen bestimmten Benutzer veröffentlicht werden. Das SEFAUtil-Tool ermöglicht dem Administrator das aktivieren/deaktivieren/Ändern der Anrufweiterleitung oder das gleichzeitige Klingeln im Namen des Benutzers. Der Administrator kann das Ziel (in Form eines SIP-URI) angeben oder ein Ziel verwenden, das bereits vom Benutzer veröffentlicht wurde. Mit diesem Tool können Administratoren auch Stellvertretungen oder Teamanrufgruppen Mitglieder im Namen des Benutzers hinzufügen oder entfernen. Dieses Tool basiert auf Microsoft Unified Communications Managed API (UCMA) 3.0 und erfordert, dass Administratoren eine vertrauenswürdige Anwendung im zentralen Verwaltungsspeicher für SEFAUtil erstellen.
+SEFAUtil (Secondary Extension Feature Activation) ist ein Befehlszeilentool, mit dem Microsoft lync Server 2013 Kommunikationssoftware Administratoren und Helpdesk-Agents Stellvertreter, Anrufweiterleitung, gleichzeitiges Klingeln, Team Anrufeinstellungen und gruppenanrufannahme im Auftrag eines lync Server 2013 Benutzers konfigurieren können. Das Tool ermöglicht es Administratoren auch, die Anrufweiterleitungseinstellungen abzufragen, die für einen bestimmten Benutzer veröffentlicht werden. Das SEFAUtil-Tool ermöglicht dem Administrator das aktivieren/deaktivieren/Ändern der Anrufweiterleitung oder das gleichzeitige Klingeln im Namen des Benutzers. Der Administrator kann das Ziel (in Form eines SIP-URI) angeben oder ein Ziel verwenden, das bereits vom Benutzer veröffentlicht wurde. Mit diesem Tool können Administratoren auch Stellvertretungen oder Teamanrufgruppen Mitglieder im Namen des Benutzers hinzufügen oder entfernen. Dieses Tool basiert auf Microsoft Unified Communications Managed API (UCMA) 3.0 und erfordert, dass Administratoren eine vertrauenswürdige Anwendung im zentralen Verwaltungsspeicher für SEFAUtil erstellen.
 
-SEFAUtil (sekundäre Erweiterung Feature Activation) ermöglicht es lync Server 2013 Administratoren und Helpdesk-Agents, Stellvertreter-Klingeln, Anrufweiterleitung, gleichzeitiges Klingeln, Team Anrufeinstellungen und gruppenanrufannahme im Auftrag eines lync Server 2013 Benutzers zu konfigurieren. . Mit diesem Tool können Administratoren auch die Anrufweiterleitungseinstellungen Abfragen, die für einen bestimmten Benutzer veröffentlicht werden.
+SEFAUtil (sekundäre Erweiterung Feature Activation) ermöglicht es lync Server 2013 Administratoren und Helpdesk-Agents, Stellvertreter-Klingeln, Anrufweiterleitung, gleichzeitiges Klingeln, Team Anrufeinstellungen und gruppenanrufannahme im Auftrag eines lync Server 2013 Benutzers zu konfigurieren. Mit diesem Tool können Administratoren auch die Anrufweiterleitungseinstellungen Abfragen, die für einen bestimmten Benutzer veröffentlicht werden.
 
 <div>
 
@@ -1525,7 +1527,7 @@ Im folgenden finden Sie einige der wichtigsten Szenarien, in denen dieses Tool v
 
   - Joes Anrufe an seine Arbeitsnummer gehen zu seiner mobilen Voicemail, wenn er bei der Arbeit ist; in den meisten anderen Speicherorten scheinen die Dinge jedoch korrekt zu funktionieren. Der Helpdesk-Techniker kann Joes Routingkonfiguration anzeigen und feststellt, dass Joe das gleichzeitige Klingeln auf seinem Mobiltelefon konfiguriert hat. Der Techniker fragt Joe nach der mobilen Abdeckung in seinem Büro und kann feststellen, dass die gleichzeitige Klingel Regel ist, was dazu führt, dass die Anrufe an Joes Mobile Voicemail gehen, wenn seine Netzwerkabdeckung schlecht ist.
 
-  - Mike ist ein neuer Mitarbeiter bei Contoso und er nimmt an einem neuen Team Teil, für das alle Mitglieder für Teamanrufe konfiguriert sind, wenn es für Microsoft lync aktiviert ist, kann der Administrator seine Teamanrufgruppen Einstellungen so festlegen, dass alle seine neuen Teammitglieder hinzugefügt werden. der Administrator fügt Mike als Teamanrufgruppe für jedes Mitglied in seinem Team hinzu.
+  - Mike ist ein neuer Mitarbeiter bei Contoso und er nimmt an einem neuen Team Teil, für das alle Mitglieder für Teamanrufe konfiguriert sind, wenn es für Microsoft lync aktiviert ist, kann der Administrator seine Teamanrufgruppen Einstellungen so festlegen, dass alle seine neuen Teammitglieder hinzugefügt werden und der Administrator Mike als Teamanrufgruppe für jedes Mitglied in seinem Team hinzufügt.
 
   - Eine Kundendienst Praxis in der Personalabteilung von Contoso ist die Bereitstellung persönlicher Dienste für alle Anrufer seit dem ersten Anruf. Da alle Mitglieder der Abteilung sehr nahe beieinander sitzen, ist es für das Team sehr störend, dass alle Telefone gleichzeitig mit dem Team Anruf Klingeln. Um den besten Dienst bereitzustellen, ohne die Teammitglieder zu unterbrechen, nutzt der lync-Administrator die Funktion für die gruppenanrufannahme. Der Administrator fügt alle Abteilungsmitglieder zu einer Pickup-Gruppe hinzu und kommuniziert mit der Abteilung mit der Abhol Gruppennummer. Wenn Samantha von Ihrem Schreibtisch abwesend ist, merkt Joe, dass Ihr Telefon klingelt und er den Anruf von seinem Schreibtisch aus beantwortet.
 
@@ -1571,7 +1573,7 @@ Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der Teil eines
 
 4.  Installieren Sie bei Bedarf die lync Server 2013 Resource Kit-Tools auf dem Server, der zum Ausführen des SEFAUtil-Tools verwendet wird (der Server muss Teil eines vertrauenswürdigen Anwendungspools sein).
 
-5.  Stellen Sie sicher, dass die SEFAUtil ordnungsgemäß ausgeführt wird. Führen Sie dazu das Tool über eine Windows-Eingabeaufforderung mit Administratorrechten aus, um die Anrufweiterleitungseinstellungen eines Benutzers in der Bereitstellung anzuzeigen. Das Tool befindet sich standardmäßig in: "... \\Programmdateien\\Microsoft lync Server 2013\\"resketch". Verwenden Sie den folgenden Befehl, um die Anrufweiterleitungseinstellungen eines Benutzers anzuzeigen:
+5.  Stellen Sie sicher, dass die SEFAUtil ordnungsgemäß ausgeführt wird. Führen Sie dazu das Tool über eine Windows-Eingabeaufforderung mit Administratorrechten aus, um die Anrufweiterleitungseinstellungen eines Benutzers in der Bereitstellung anzuzeigen. Das Tool befindet sich standardmäßig in: "... \\ Programmdateien \\ Microsoft lync Server 2013 \\ "resketch". Verwenden Sie den folgenden Befehl, um die Anrufweiterleitungseinstellungen eines Benutzers anzuzeigen:
     
         SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
     
@@ -1740,7 +1742,7 @@ In diesem Beispiel wird die Stellvertretung entfernt.
 
 <div>
 
-## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>Hinzufügen einer Stellvertretung und Einrichten der Regel "Anrufweiterleitung an Stellvertretungen"
+## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>Hinzufügen einer Stellvertretung und Einrichten der Call-Forward für Stellvertretungen Regel
 
 In diesem Beispiel wird eine Stellvertretung hinzugefügt und die Regel "Anrufweiterleitung an Stellvertretungen" eingerichtet.
 
@@ -1804,7 +1806,7 @@ In diesem Beispiel wird das gleichzeitige Klingeln deaktiviert.
 
 <div>
 
-## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>Hinzufügen eines Teammitglieds für Teamanrufe und Einrichten von gleichzeitigem Klingeln für die Gruppe "Team Anruf Mitglieder"
+## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>Hinzufügen eines Team Mitglieds für Team-Call und gleichzeitiges Klingeln für die Gruppe "Team-Call Mitglieder" einrichten
 
 In diesem Beispiel wird der Teamanrufgruppe eines Benutzers ein Teammitglied hinzugefügt und das gleichzeitige Klingeln für die Teamanrufgruppe aktiviert.
 
@@ -1831,7 +1833,7 @@ In diesem Beispiel wird der Teamanrufgruppe eines Benutzers ein Teammitglied hin
 
 <div>
 
-## <a name="remove-a-member-from-the-team-call-group"></a>Entfernen eines Mitglieds aus der Team anrufgruppe
+## <a name="remove-a-member-from-the-team-call-group"></a>Entfernen eines Mitglieds aus der Team-Call Gruppe
 
 In diesem Beispiel wird ein Teammitglied der Teamanrufgruppe eines Benutzers entfernt.
 
@@ -1859,7 +1861,7 @@ In diesem Beispiel wird ein Teammitglied der Teamanrufgruppe eines Benutzers ent
 
 <div>
 
-## <a name="set-the-delayed-ring-to-the-team-call-group"></a>Festlegen des verzögerten Rings auf die Team anrufgruppe
+## <a name="set-the-delayed-ring-to-the-team-call-group"></a>Festlegen des verzögerten Rings auf die Team-Call Gruppe
 
 In diesem Beispiel wird der verzögerte Ring in die Zeiteinstellung für die Teamanrufgruppe geändert.
 
@@ -1876,7 +1878,7 @@ In diesem Beispiel wird der verzögerte Ring in die Zeiteinstellung für die Tea
 
 <div>
 
-## <a name="enable-team-call"></a>Aktivieren des Team Anrufs
+## <a name="enable-team-call"></a>Team-Call aktivieren
 
 In diesem Beispiel wird der Team Aufruf für einen bestimmten Benutzer aktiviert.
 
@@ -1898,7 +1900,7 @@ In diesem Beispiel wird der Team Aufruf für einen bestimmten Benutzer aktiviert
 
 <div>
 
-## <a name="disable-team-call"></a>Team Anruf deaktivieren
+## <a name="disable-team-call"></a>Team-Call deaktivieren
 
 In diesem Beispiel wird der Team Aufruf für einen bestimmten Benutzer deaktiviert.
 
@@ -1961,13 +1963,13 @@ In diesem Beispiel wird die gruppenanrufannahme für einen bestimmten Benutzer d
 
 <div>
 
-## <a name="sysprepps1"></a>SYSPrep. ps1
+## <a name="sysprepps1"></a>SYSPrep.ps1
 
 <div>
 
 ## <a name="description"></a>Beschreibung
 
-SYSPrep. ps1 ist ein Windows PowerShell Skript, mit dem die folgenden lync Server 2013 erforderlichen Komponenten auf Ihrem Windows Server 2008-Betriebssystem Computer installiert werden.
+SYSPrep.ps1 ist ein Windows PowerShelles Skript, mit dem die folgenden lync Server 2013 erforderlichen Komponenten auf dem Windows Server 2008-Betriebssystem Computer installiert werden.
 
   - Microsoft .NET Framework 4,5
 
@@ -1991,7 +1993,7 @@ Während der Skriptname dem System Vorbereitungs Tool für Microsoft Windows-Bet
 
 ## <a name="requirements"></a>Anforderungen
 
-Vor dem Ausführen des Skripts "SYSPrep. ps1" müssen Sie die erforderlichen Dateien in einen lokalen Ordner auf dem Windows Server 2008-Betriebssystem Computer kopieren (zum Beispiel **D:\\Setup)**. Dieser Ordner muss auch eine Kopie der lync Server 2013 Dateien enthalten, insbesondere **Setup. exe.** Die erforderlichen Dateien können von den folgenden Speicherorten heruntergeladen werden:
+Vor dem Ausführen des SYSPrep.ps1 Skripts müssen Sie die erforderlichen Dateien in einen lokalen Ordner auf dem Computer des Windows Server 2008-Betriebssystems kopieren (zum Beispiel **D: \\ Setup)**. Dieser Ordner muss auch eine Kopie der lync Server 2013 Dateien enthalten, insbesondere **Setup.exe.** Die erforderlichen Dateien können von den folgenden Speicherorten heruntergeladen werden:
 
 
 <table>
@@ -2031,7 +2033,7 @@ Vor dem Ausführen des Skripts "SYSPrep. ps1" müssen Sie die erforderlichen Dat
 <td><p>https://www.microsoft.com/download/details.aspx?id=17331</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 Setup. exe</p></td>
+<td><p>Lync Server 2013 Setup.exe</p></td>
 <td><p>Kopieren von lync Server 2013 Medien</p></td>
 </tr>
 </tbody>
@@ -2052,7 +2054,7 @@ Der Parameter **– SetupFolder** verwendet als Argument den Verzeichnisspeicher
 
 ## <a name="examples"></a>Beispiele
 
-Führen Sie den folgenden Befehl an einer Eingabeaufforderung mit erhöhten Rechten aus, um das Skript "SYSPrep. ps1" auszuführen und die erforderlichen Komponenten für lync Server 2013 zu installieren:
+Führen Sie den folgenden Befehl an einer Eingabeaufforderung mit erhöhten Rechten aus, um das SYSPrep.ps1 Skript auszuführen und die lync Server 2013 Voraussetzungen zu installieren:
 
     ./SysPrep.PS1 -SetupFolder D:\Setup
 
@@ -2099,7 +2101,7 @@ Nach erfolgreicher Ausführung des Skripts werden alle nicht zugewiesenen Nummer
 
 Das **CsAnnouncementConfiguration-** Skript zeigt im Fenster von lync Management Shell an, wo es den Erfolg oder Misserfolg des Migrationsvorgangs ausgeführt wird.
 
-Wenn die Ausführung des Vorgangs durch einen Fehler unterbrochen wird, verbleiben die nicht zugewiesenen Nummernbereiche, die erfolgreich in das Ziel verschoben wurden, in einem operativen Formular im Ziel und die restlichen nicht zugewiesenen Nummernbereiche, die migriert werden sollen, werden in die Quelle als auch in einem operativen Formular. Um den Rest der Konfiguration vollständig zu migrieren, führen Sie das Skript nach dem Beheben des Fehlers erneut aus.
+Wenn die Ausführung des Vorgangs durch einen Fehler unterbrochen wird, verbleiben die nicht zugewiesenen Nummernbereiche, die erfolgreich in das Ziel verschoben wurden, im Ziel in einem operativen Formular, und die restlichen nicht zugewiesenen Nummernbereiche, die migriert werden sollen, verbleiben ebenfalls in der Quelle in einem operativen Formular. Um den Rest der Konfiguration vollständig zu migrieren, führen Sie das Skript nach dem Beheben des Fehlers erneut aus.
 
 </div>
 
@@ -2127,11 +2129,11 @@ Die folgenden Hauptanforderungen müssen erfüllt sein, um das Tool erfolgreich 
 
 <div>
 
-## <a name="move-csannouncementconfiguration-script"></a>CsAnnouncementConfiguration-Skript
+## <a name="move-csannouncementconfiguration-script"></a>Move-CsAnnouncementConfiguration-Skript
 
-Das CsAnnouncementConfiguration-Skript erfordert die beiden Parameter, die in der folgenden Tabelle beschrieben werden.
+Das Move-CsAnnouncementConfiguration Skript erfordert die beiden Parameter, die in der folgenden Tabelle beschrieben werden.
 
-![CsAnnouncementConfiguration-Parameter.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "CsAnnouncementConfiguration-Parameter.")
+![CsAnnouncementConfiguration-Parameter.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Move-CsAnnouncementConfiguration Parameter.")
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 665ee384afd85c4be5c82182691953e1c78c9659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea3344c0a0a4f1992cc9ef67cd14bc2321419307
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508582"
 ---
+# <a name="validating-address-book-access-in-lync-server-2013"></a>Überprüfen des Adressbuch Zugriffs in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-access-in-lync-server-2013"></a>Überprüfen des Adressbuch Zugriffs in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsAddressBookService verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsAddressBookService-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookService&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsAddressBookService bietet Ihnen die Möglichkeit, zu überprüfen, ob ein Benutzer eine Verbindung mit dem Webdienst für den Adressbuch Download herstellen kann. Wenn Sie das Cmdlet ausführen, stellt Test-CsAddressBookService eine Verbindung mit dem Adressbuch-Download-Webdienst im angegebenen Pool her und fordert den Speicherort der Adressbuchdateien an. Wenn der Adressbuch-Download-Webdienst diesen Speicherort bereitstellt, wird der Test als erfolgreich betrachtet. Wenn die Anforderung abgelehnt wird, wird der Test als nicht erfolgreich betrachtet.
+Mit dem Test-CsAddressBookService-Cmdlet können Sie überprüfen, ob ein Benutzer eine Verbindung mit dem Webdienst für den Adressbuch Download herstellen kann. Wenn Sie das Cmdlet ausführen, stellt Test-CsAddressBookService eine Verbindung mit dem Adressbuch-Download-Webdienst im angegebenen Pool her und fordert den Speicherort der Adressbuchdateien an. Wenn der Adressbuch-Download-Webdienst diesen Speicherort bereitstellt, wird der Test als erfolgreich betrachtet. Wenn die Anforderung abgelehnt wird, wird der Test als nicht erfolgreich betrachtet.
 
 </div>
 
@@ -74,7 +76,7 @@ Das Cmdlet Test-CsAddressBookService bietet Ihnen die Möglichkeit, zu überprü
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsAddressBookService kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert wurde. Um diese Prüfung mit einem Testkonto auszuführen, müssen Sie lediglich den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Tests lync Server Pools angeben. Zum Beispiel:
+Das Test-CsAddressBookService-Cmdlet kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert wurde. Um diese Prüfung mit einem Testkonto auszuführen, müssen Sie lediglich den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Tests lync Server Pools angeben. Zum Beispiel:
 
     Test-CsAddressBookService -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -93,7 +95,7 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsAd
 
 Wenn der angegebene Benutzer eine Verbindung mit dem Adressbuchdienst herstellen kann, wird die Ausgabe wie folgt zurückgegeben, wobei die Result-Eigenschaft als **Success**markiert ist:
 
-TargetUrihttps://lync-se.fabrikam.com:443/abs/handler
+TargetUri https://lync-se.fabrikam.com:443/abs/handler
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
@@ -125,23 +127,23 @@ Microsoft. RTC. Signaling. DiagnosticHeader
 
 Die obige Ausgabe besagt beispielsweise, dass der Test fehlgeschlagen ist, da der angegebene Benutzer (also der "Ziel-URI") entweder nicht vorhanden oder für lync Server nicht aktiviert wurde. Sie können überprüfen, ob ein Benutzerkonto gültig ist, und sicherstellen, dass Sie die richtige SIP-Adresse angegeben haben, indem Sie einen Befehl wie den folgenden ausführen:
 
-Get-CsUser-Identity "SIP:kenmyer@litwareinc.com" | SELECT-Objekt SipAddress, aktiviert
+Get-CsUser-Identity "SIP:kenmyer@litwareinc.com" | Select-Object SipAddress, aktiviert
 
-Wenn "Test-CsAddressBookService" fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, einschließlich des Verbose-Parameters:
+Wenn Test-CsAddressBookService fehlschlägt, möchten Sie den Test möglicherweise erneut ausführen, und zwar mit dem Verbose-Parameter:
 
 Test-CsAddressBookService-TargetFqdn "ATL-CS-001.litwareinc.com"-Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsAddressBookService eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, um die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server zu überprüfen. Beispielsweise zeigt diese Beispielausgabe, dass Test-CsAddressBookService zumindest in diesem Beispiel die Adressbuchdatei herunterladen konnte:
+Wenn der Verbose-Parameter enthalten ist Test-CsAddressBookService gibt eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die Fähigkeit des angegebenen Benutzers geprüft wurde, sich bei lync Server anzumelden. Beispielsweise zeigt diese Beispielausgabe, dass Test-CsAddressBookService zumindest in diesem Beispiel die Adressbuchdatei herunterladen konnte:
 
 Senden der HTTP GET-Anforderung.
 
-Dateipfad =https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Dateipfad = https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 Nummer des Versuchs = 1
 
 Timeout (MS) = 60000
 
-Die ABS-Datei wurde erfolgreich heruntergeladen.https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Die ABS-Datei wurde erfolgreich heruntergeladen. https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 </div>
 
@@ -149,7 +151,7 @@ Die ABS-Datei wurde erfolgreich heruntergeladen.https://atl-cs-001.litwareinc.co
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsAddressBookService möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsAddressBookService Fehler auftreten können:
 
   - Sie haben ein ungültiges Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     

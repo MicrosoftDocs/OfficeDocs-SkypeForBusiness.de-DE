@@ -12,20 +12,22 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfae4aef6e6f5ec0a33fe64d42ea7bfd093badee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f536f2d67010856259abf6b98936cd9e096fc93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208406"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509622"
 ---
+# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>SQL Server der Daten-und Protokolldatei Platzierung für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>SQL Server der Daten-und Protokolldatei Platzierung für lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208406"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Bei der Planung und Bereitstellung von Microsoft SQL Server 2012 oder Microsoft SQL Server 2008 R2 SP1 für Ihre lync Server 2013 Front-End-Pool, ist es wichtig, dass Daten und Protokolldateien für die Leistung auf physischen Festplatten platziert werden. Die empfohlene Datenträgerkonfiguration besteht in der Implementierung eines 1 +1-RAID-Satzes mit 6 Spindeln. Platzieren aller Datenbank-und Protokolldateien, die von der Front-End-Pool und den zugehörigen Serverrollen und-Diensten verwendet werden (also Archivierungs-und Monitoring Server, lync Server Reaktionsgruppendienst, lync Server parkendienst) auf dem festgelegten RAID-Laufwerk mithilfe der lync Server Der Bereitstellungs-Assistent führt zu einer Konfiguration, die auf eine gute Leistung getestet wurde. Die Datenbankdateien und deren Verantwortlichkeiten sind in der folgenden Tabelle aufgeführt.
+Bei der Planung und Bereitstellung von Microsoft SQL Server 2012 oder Microsoft SQL Server 2008 R2 SP1 für Ihre lync Server 2013 Front-End-Pool, ist es wichtig, dass Daten und Protokolldateien für die Leistung auf physischen Festplatten platziert werden. Die empfohlene Datenträgerkonfiguration besteht in der Implementierung eines 1 +1-RAID-Satzes mit 6 Spindeln. Wenn Sie alle Datenbank-und Protokolldateien, die von der Front-End-Pool und den zugehörigen Serverrollen und-Diensten verwendet werden (also Archivierungs-und Monitoring Server, lync Server Reaktionsgruppendienst, lync Server Dienst zum Parken von Anrufen) auf dem RAID-Laufwerk mit dem lync Server-Bereitstellungs-Assistenten platzieren, wird eine Konfiguration mit einer guten Leistung getestet. Die Datenbankdateien und deren Verantwortlichkeiten sind in der folgenden Tabelle aufgeführt.
 
 <div>
 
