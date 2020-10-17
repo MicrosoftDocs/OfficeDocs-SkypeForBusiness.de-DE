@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verwalten der Systemintegrität'
+description: 'Lync Server 2013: Verwalten des Systemzustands.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07212635099d9ffa1f3b042e5f674a2913b79a47
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a826aa99847d7fb7ade6222b53ea39e512b68b09
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525022"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560381"
 ---
-# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="6066f-102">Verwalten der Systemintegrität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6066f-102">Managing system health in Lync Server 2013</span></span>
+# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="65447-103">Verwalten der Systemintegrität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65447-103">Managing system health in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48525022"
 
 <span> </span>
 
-<span data-ttu-id="6066f-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6066f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="65447-104">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="65447-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6066f-104">Die System Integritätsverwaltung und-Überwachung ist in die allgemeine lync Server 2013 Integritätsverwaltung und-Überwachung integriert.</span><span class="sxs-lookup"><span data-stu-id="6066f-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="6066f-105">Ausführliche Informationen finden Sie unter [Integritäts Konfiguration in lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="6066f-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
+<span data-ttu-id="65447-105">Die System Integritätsverwaltung und-Überwachung ist in die allgemeine lync Server 2013 Integritätsverwaltung und-Überwachung integriert.</span><span class="sxs-lookup"><span data-stu-id="65447-105">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="65447-106">Ausführliche Informationen finden Sie unter [Integritäts Konfiguration in lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="65447-106">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
 
 </div>
 
