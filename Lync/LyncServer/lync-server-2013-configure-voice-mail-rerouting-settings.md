@@ -12,20 +12,22 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f327bfc533b28313e4728b13c7a69d6c16bc034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b51a529ee7bc4fd1148413058ceaf1f1f6d61e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520182"
 ---
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a><span data-ttu-id="ab5e1-102">Konfigurieren von Einstellungen für das Umleiten von Voicemail in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ab5e1-102">Configure voice mail rerouting settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a><span data-ttu-id="82f3c-102">Konfigurieren von Einstellungen für das Umleiten von Voicemail in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82f3c-102">Configure voice mail rerouting settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,41 +37,41 @@ ms.locfileid: "42206601"
 
 <span> </span>
 
-<span data-ttu-id="82f3c-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="82f3c-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="ab5e1-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="ab5e1-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="82f3c-104">Survivable Branch Appliances und Survivable Branch-Server können während eines WAN-Ausfalls die Überlebensfähigkeit von Voicemail für Zweigstellenbenutzer ermöglichen, wenn Exchange Unified Messaging (um) am zentralen Standort installiert ist und eine Exchange um automatische Nachrichtenzentrale (AA) bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="82f3c-104">Survivable Branch Appliances and Survivable Branch Servers can provide voice mail survivability for branch users during a WAN outage, if Exchange Unified Messaging (UM) is installed at the central site and an Exchange UM Message Auto Attendant (AA) is deployed.</span></span> <span data-ttu-id="82f3c-105">Es wird empfohlen, dass Ihr Exchange-Administrator die AA so konfigurieren, dass nur Nachrichten akzeptiert werden, wodurch andere generische Funktionen wie die Übertragung an einen Benutzer oder die Übertragung an einen Operator deaktiviert werden.</span><span class="sxs-lookup"><span data-stu-id="82f3c-105">We recommend that your Exchange administrator configure the AA to accept messages only, which disables other generic functionality, such as transfer to a user or transfer to an operator.</span></span> <span data-ttu-id="82f3c-106">Alternativ können Sie ein generisches AA oder ein AA-Benutzerdefiniert verwenden, um den Anruf weiterzuleiten.</span><span class="sxs-lookup"><span data-stu-id="82f3c-106">Alternatively, you might use a generic AA or an AA customized to route the call.</span></span>
+<span data-ttu-id="ab5e1-104">Survivable Branch Appliances und Survivable Branch-Server können während eines WAN-Ausfalls die Überlebensfähigkeit von Voicemail für Zweigstellenbenutzer ermöglichen, wenn Exchange Unified Messaging (um) am zentralen Standort installiert ist und eine Exchange um automatische Nachrichtenzentrale (AA) bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-104">Survivable Branch Appliances and Survivable Branch Servers can provide voice mail survivability for branch users during a WAN outage, if Exchange Unified Messaging (UM) is installed at the central site and an Exchange UM Message Auto Attendant (AA) is deployed.</span></span> <span data-ttu-id="ab5e1-105">Es wird empfohlen, dass Ihr Exchange-Administrator die AA so konfigurieren, dass nur Nachrichten akzeptiert werden, wodurch andere generische Funktionen wie die Übertragung an einen Benutzer oder die Übertragung an einen Operator deaktiviert werden.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-105">We recommend that your Exchange administrator configure the AA to accept messages only, which disables other generic functionality, such as transfer to a user or transfer to an operator.</span></span> <span data-ttu-id="ab5e1-106">Alternativ können Sie ein generisches AA oder ein AA-Benutzerdefiniert verwenden, um den Anruf weiterzuleiten.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-106">Alternatively, you might use a generic AA or an AA customized to route the call.</span></span>
 
-<span data-ttu-id="82f3c-107">Ausführliche Informationen finden Sie im Abschnitt "Vorbereiten der Überlebensfähigkeit von Voicemail" der Anforderungen an die [Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="82f3c-107">For details, see the “Preparing for Voice Mail Survivability” section of [Branch-site resiliency requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) in the Planning documentation.</span></span>
+<span data-ttu-id="ab5e1-107">Ausführliche Informationen finden Sie im Abschnitt "Vorbereiten der Überlebensfähigkeit von Voicemail" der Anforderungen an die [Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-107">For details, see the “Preparing for Voice Mail Survivability” section of [Branch-site resiliency requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) in the Planning documentation.</span></span>
 
 <div>
 
-## <a name="to-configure-voice-mail-survivability"></a><span data-ttu-id="82f3c-108">So konfigurieren Sie die Ausfallsicherheit für VoIP-Funktionen</span><span class="sxs-lookup"><span data-stu-id="82f3c-108">To configure voice mail survivability</span></span>
+## <a name="to-configure-voice-mail-survivability"></a><span data-ttu-id="ab5e1-108">So konfigurieren Sie die Ausfallsicherheit für VoIP-Funktionen</span><span class="sxs-lookup"><span data-stu-id="ab5e1-108">To configure voice mail survivability</span></span>
 
-1.  <span data-ttu-id="82f3c-109">Bitten Sie Ihren Exchange-Administrator, die AA so zu konfigurieren, dass nur Nachrichten akzeptiert werden (verwenden Sie in der Exchange-Shell das folgende Cmdlet: **UMAutoAttendant \<AA Name\> -CallSomeoneEnabled $false**.</span><span class="sxs-lookup"><span data-stu-id="82f3c-109">Ask your Exchange administrator to configure the AA to accept messages only (in the Exchange Shell use the following cmdlet: **Set-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**.</span></span> <span data-ttu-id="82f3c-110">Der Parameter, der angibt, dass das verlassen von Nachrichten zulässig ist (*SendVoiceMsgEnabled*), ist standardmäßig true.</span><span class="sxs-lookup"><span data-stu-id="82f3c-110">The parameter that specifies to allow leaving messages (*SendVoiceMsgEnabled*) is true by default.</span></span>
+1.  <span data-ttu-id="ab5e1-109">Bitten Sie Ihren Exchange-Administrator, die AA so zu konfigurieren, dass nur Nachrichten akzeptiert werden (verwenden Sie in der Exchange-Shell das folgende Cmdlet: **festlegen-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-109">Ask your Exchange administrator to configure the AA to accept messages only (in the Exchange Shell use the following cmdlet: **Set-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**.</span></span> <span data-ttu-id="ab5e1-110">Der Parameter, der angibt, dass das verlassen von Nachrichten zulässig ist (*SendVoiceMsgEnabled*), ist standardmäßig true.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-110">The parameter that specifies to allow leaving messages (*SendVoiceMsgEnabled*) is true by default.</span></span>
 
-2.  <span data-ttu-id="82f3c-111">Verwenden Sie im lync Server-Verwaltungsshell das Cmdlet **New-CSVoiceMailReroutingConfiguration** , um die AA-Telefonnummer Exchange um als Telefonnummer der automatischen Telefonzentrale in der Konfiguration für die Voicemail-Umleitung auf dem Survivable Branch Appliance oder Survivable Branch Server festzulegen.</span><span class="sxs-lookup"><span data-stu-id="82f3c-111">In the Lync Server Management Shell, use the **New-CSVoiceMailReroutingConfiguration** cmdlet to set the AA phone number as the Exchange UM Auto Attendant phone number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+2.  <span data-ttu-id="ab5e1-111">Verwenden Sie im lync Server-Verwaltungsshell das Cmdlet **New-CSVoiceMailReroutingConfiguration** , um die AA-Telefonnummer Exchange um als Telefonnummer der automatischen Telefonzentrale in der Konfiguration für die Voicemail-Umleitung auf dem Survivable Branch Appliance oder Survivable Branch Server festzulegen.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-111">In the Lync Server Management Shell, use the **New-CSVoiceMailReroutingConfiguration** cmdlet to set the AA phone number as the Exchange UM Auto Attendant phone number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="82f3c-112">Wenn Sie die Voicemailumleitungseinstellungen ändern müssen, verwenden Sie das Cmdlet <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="82f3c-112">If you need to modify the voice mail rerouting setting later, use the <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG> cmdlet to do so.</span></span> <span data-ttu-id="82f3c-113">Ausführliche Informationen zu den Cmdlets <STRONG>New-</STRONG> und <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG> finden Sie in den Hilfethemen der Shell.</span><span class="sxs-lookup"><span data-stu-id="82f3c-113">For details, about <STRONG>New-</STRONG> and <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG>, in the Shell Help topics.</span></span>
+    > <span data-ttu-id="ab5e1-112">Wenn Sie die Voicemailumleitungseinstellungen ändern müssen, verwenden Sie das Cmdlet <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-112">If you need to modify the voice mail rerouting setting later, use the <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG> cmdlet to do so.</span></span> <span data-ttu-id="ab5e1-113">Ausführliche Informationen zu den Cmdlets <STRONG>New-</STRONG> und <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG> finden Sie in den Hilfethemen der Shell.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-113">For details, about <STRONG>New-</STRONG> and <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG>, in the Shell Help topics.</span></span>
 
     
     </div>
 
-3.  <span data-ttu-id="82f3c-114">Legen Sie die Exchange um Teilnehmerzugriffsnummer, die den Exchange UM Wähleinstellungen des Zweig Benutzers entspricht, als Exchange um Teilnehmerzugriffsnummer in der Konfiguration für die Voicemail-Umleitung auf dem Survivable Branch Appliance oder Survivable Branch Server fest.</span><span class="sxs-lookup"><span data-stu-id="82f3c-114">Set the Exchange UM subscriber access number that corresponds to the branch user’s Exchange UM dial plan as the Exchange UM subscriber access number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+3.  <span data-ttu-id="ab5e1-114">Legen Sie die Exchange um Teilnehmerzugriffsnummer, die den Exchange UM Wähleinstellungen des Zweig Benutzers entspricht, als Exchange um Teilnehmerzugriffsnummer in der Konfiguration für die Voicemail-Umleitung auf dem Survivable Branch Appliance oder Survivable Branch Server fest.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-114">Set the Exchange UM subscriber access number that corresponds to the branch user’s Exchange UM dial plan as the Exchange UM subscriber access number in the voice mail rerouting configuration on the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="82f3c-115">Konfigurieren Sie die Exchange UM Wähleinstellungen der Benutzer so, dass allen Zweigstellenbenutzern nur ein Wählplan zugeordnet ist, der während eines WAN-Ausfalls auf die Funktion Get Voice Mail zugreifen muss.</span><span class="sxs-lookup"><span data-stu-id="82f3c-115">Configure the Exchange UM users’ dial plan so that there is only one dial plan associated with all branch users who need access to the Get Voice Mail functionality during a WAN outage.</span></span>
+    > <span data-ttu-id="ab5e1-115">Konfigurieren Sie die Exchange UM Wähleinstellungen der Benutzer so, dass allen Zweigstellenbenutzern nur ein Wählplan zugeordnet ist, der während eines WAN-Ausfalls auf die Funktion Get Voice Mail zugreifen muss.</span><span class="sxs-lookup"><span data-stu-id="ab5e1-115">Configure the Exchange UM users’ dial plan so that there is only one dial plan associated with all branch users who need access to the Get Voice Mail functionality during a WAN outage.</span></span>
 
     
     </div>
 
-<span data-ttu-id="82f3c-116">**Nächster Schritt** für Survivable Branch Appliances oder Survivable Branch Servers: [Privatbenutzer auf einem Survivable Branch Appliance oder Server in lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="82f3c-116">**Next step** for Survivable Branch Appliances or Survivable Branch Servers: [Home users on a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span></span>
+<span data-ttu-id="ab5e1-116">**Nächster Schritt** für Survivable Branch Appliances oder Survivable Branch Servers: [Privatbenutzer auf einem Survivable Branch Appliance oder Server in lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="ab5e1-116">**Next step** for Survivable Branch Appliances or Survivable Branch Servers: [Home users on a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).</span></span>
 
 </div>
 
