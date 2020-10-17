@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testen der VoIP-Konfiguration'
+description: 'Lync Server 2013: Testen Sie die VoIP-Konfiguration.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1491aa1d28de238bcadd2a024021fabf16e9128a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4cc05286e5f534b4d469ef561d9ce009367e15be
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527902"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557071"
 ---
 # <a name="test-voice-configuration-in-lync-server-2013"></a>Testen der VoIP-Konfiguration in lync Server 2013
 

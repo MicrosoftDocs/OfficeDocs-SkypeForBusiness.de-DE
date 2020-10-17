@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verwalten des Anruf Parks während der Notfallwiederherstellung'
+description: 'Lync Server 2013: Manage Parken von Anrufen während der Notfallwiederherstellung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a12abceb5972325f0843e8fb8500d7ac2b45c725
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ad7936dd28f749dc792505ec78d54857065957e2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525012"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556771"
 ---
 # <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>Verwalten des Anruf Parks während der Notfallwiederherstellung in lync Server 2013
 

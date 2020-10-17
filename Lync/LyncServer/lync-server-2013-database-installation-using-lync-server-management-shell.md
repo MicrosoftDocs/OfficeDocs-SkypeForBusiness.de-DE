@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Datenbankinstallation mit lync Server-Verwaltungsshell'
+description: 'Lync Server 2013: Datenbankinstallation mit lync Server-Verwaltungsshell.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b602e29e0f90a49a031c25d6bb919337bef87b8d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2d572984c94d280723b12c5343a92ddfaa12d4f0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516542"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558181"
 ---
 # <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Datenbankinstallation mit lync Server-Verwaltungsshell in lync Server 2013
 

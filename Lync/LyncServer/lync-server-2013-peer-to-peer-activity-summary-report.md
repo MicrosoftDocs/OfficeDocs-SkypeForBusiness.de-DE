@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: zusammenfassender Bericht über Peer-to-Peer-Aktivitäten'
+description: 'Lync Server 2013: zusammenfassender Bericht über Peer-to-Peer-Aktivitäten.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e232d6ffee5e49d52eef68c9668d7d8b6325f13d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2f081f542a5063ed83be470d3e991c58e458b487
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520802"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557301"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Zusammenfassender Bericht über Peer-to-Peer-Aktivitäten in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren der Unterstützung für die AutoErmittlung'
+description: 'Lync Server 2013: Konfigurieren der Unterstützung für die AutoErmittlung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3893ddd2282fd6abdfff716207f99102d09fac31
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23991f2f9467035f4ba461ff1b6a84fa8ed1a11d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507542"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556911"
 ---
 # <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>Konfigurieren der Unterstützung für die AutoErmittlung in lync Server 2013
 

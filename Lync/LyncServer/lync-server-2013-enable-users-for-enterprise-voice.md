@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Aktivieren von Benutzern für Enterprise-VoIP'
+description: 'Lync Server 2013: Aktivieren Sie Benutzer für Enterprise-VoIP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d03f47cbe637e2c6fe6a0466b73a3588b842d6e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8aa8dbbeb507ced5217e517c1608c3a2a9259668
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501042"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557651"
 ---
 # <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013
 

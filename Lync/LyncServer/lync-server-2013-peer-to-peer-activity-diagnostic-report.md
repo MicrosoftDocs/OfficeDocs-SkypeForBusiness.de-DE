@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Diagnosebericht über Peer-to-Peer-Aktivität'
+description: 'Lync Server 2013: Diagnosebericht über Peer-to-Peer-Aktivitäten.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53e47232a6345749f78f6136929209722a83621e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 80172c5e0f8b23bf05fad6ec300f0d1ffefb3327
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524392"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557351"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013
 
