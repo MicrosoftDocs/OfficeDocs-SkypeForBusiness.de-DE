@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen eines Survivable Branch Appliance-oder Server Zweig-Standort Tasks
+description: Stellen Sie einen Survivable Branch Appliance-oder Server Zweig-Standort Task bereit.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184586
 ms.date: 10/29/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 835de118f46dba61fe86ee3f412c55d945dfb2a9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b84f603f185bd507111d4767a22e9009fc0e8b3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521652"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545301"
 ---
 # <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013-Branch-Standort Aufgabe
 
