@@ -678,7 +678,6 @@
 ### [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
 ### [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Verwalten der Schichten-App für Ihre Organisation in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## Teams für das Gesundheitswesen
 ### [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Bookings-App und virtuelle Besuche](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## Teams für Mitarbeiter "an vorderster Front"
 ### [Schnellstart für Mitarbeiter "an vorderster Front"](firstline-workers-quickstart.yml)
 ### [Skriptgestützte Bereitstellung für Mitarbeiter "an vorderster Front"](flw-scripted-deployment.md)
+### [Verwalten von schichtbasiertem Zugriff für Mitarbeiter "an vorderster Front"](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear für Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
 ### [Erstellen einer Intranet-Portal-App für Teams von einer SPO-Website oder -Seite aus](teams-standalone-static-tabs-using-spo-sites.md)
