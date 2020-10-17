@@ -12,20 +12,22 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0315104e4bbbd2d8741d5bc011455be2d28191dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221779"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500812"
 ---
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Häufig gestellte Fragen: lync Server 2013 für Skype-Konnektivität
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Häufig gestellte Fragen: lync Server 2013 für Skype-Konnektivität
+
 
 </div>
 
@@ -116,15 +118,15 @@ Sobald diese Änderung aktiv ist, können wir keine e-Mail-Updates mehr für aus
 
   - Kontaktinformationen. Geben Sie eine e-Mail-Adresse für den Administrator jeder von Ihnen angegebenen SIP-Domäne an.
 
-**F: Wie aktiviere ich die lync-Skype-Konnektivität in einem Szenario mit geteilten Domänen?**
+**F: Wie aktiviere ich Lync-Skype Konnektivität in einem Szenario mit geteilten Domänen?**
 
-**A:** Wenn Sie über ein Szenario mit einer lync Online 2013 und lync Server lokalen Split-Domain (mit Benutzern sowohl online als auch lokal mit derselben SIP-Domäne) verfügen, aktivieren Sie die lync-Skype-Konnektivität, indem Sie die folgenden beiden Schritte in der folgenden Reihenfolge ausführen.
+**A:** Wenn Sie über ein Szenario mit einer lync Online 2013 und lync Server lokalen Split-Domain (mit Benutzern sowohl online als auch lokal mit derselben SIP-Domäne) verfügen, aktivieren Sie Lync-Skype Konnektivität, indem Sie diese beiden Schritte in der folgenden Reihenfolge ausführen.
 
-1.  Richten Sie die lokale lync-Skype-Konnektivität wie im PIC-Leitfaden zur Anleitung beschrieben ein.
+1.  Richten Sie die lokale Lync-Skype-Konnektivität wie im PIC-Leitfaden zur Anleitung beschrieben ein.
 
 2.  Warten Sie, bis die Bestätigung angezeigt wird, dass Ihre Domäne von Microsoft bereitgestellt wurde.
 
-3.  Nachdem Sie die Bestätigung angezeigt haben, aktivieren Sie im lync Admin Center "externe Kommunikation". Weitere Informationen finden Sie unter[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  Nachdem Sie die Bestätigung angezeigt haben, aktivieren Sie im lync Admin Center "externe Kommunikation". Weitere Informationen finden Sie unter [https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, bevor Sie die Kommunikation in lync Online aktivieren. Wenn die Reihenfolge umgekehrt wird, werden die für die lokale Anmeldung eingegebenen Informationen <https://pic.lync.com> nicht durchlaufen. Wenn Sie lync Online für die externe Kommunikation mit dieser Domäne bereits eingerichtet haben, müssen Sie diese deaktivieren, 24 Stunden warten und erneut starten, indem Sie zuerst Ihre lokalen Informationen eingeben <https://pic.lync.com> und dann die externe Kommunikation für lync Online aktivieren.
 
@@ -138,7 +140,7 @@ Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, 
 
 **F: Wie füge ich einen Windows Live Messenger-Kontakt hinzu, der eine ID enthält, die eine andere Domäne als die von Windows Live unterstützten hat?**
 
-**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID mit einer nicht-Windows Live-Domäne hinzufügen, geben Sie die Adresse im folgenden Format ein: \< Benutzername \> ( \< Domänenname \> ) @MSN. com, wobei \< Domain Name \> der Domänenname in der e-Mail-Adresse des Benutzers ist. Wenn Sie beispielsweise Ted@contoso.com hinzufügen wollten, verwenden Sie das folgende Format: Ted (contoso. com) @MSN. com. Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt "unterstützte Domänen" unter "bekannte Probleme, die mit öffentlichen Sofortnachrichten nach der Installation von Live Communications Server Service Pack 1 auftreten" unter https://support.microsoft.com/?kbid=897567 .
+**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID mit einer nicht-Windows Live-Domäne hinzufügen, geben Sie die Adresse im folgenden Format ein: \<user name\> ( \<domain name\> ) @MSN. com, wobei \<domain name\> es sich um den Domänennamen in der e-Mail-Adresse des Benutzers handelt. Wenn Sie beispielsweise Ted@contoso.com hinzufügen wollten, verwenden Sie das folgende Format: Ted (contoso. com) @MSN. com. Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt "unterstützte Domänen" unter "bekannte Probleme, die mit öffentlichen Sofortnachrichten nach der Installation von Live Communications Server Service Pack 1 auftreten" unter https://support.microsoft.com/?kbid=897567 .
 
 **F: wie lange dauert der Bereitstellung Prozess?**
 

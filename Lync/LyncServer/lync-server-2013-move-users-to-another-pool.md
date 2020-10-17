@@ -12,20 +12,22 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b103e2911812932026799bda154190aa6f46fc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4ecadb2a487dc17f18e1956b6ac075e25b0b035
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192638"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500552"
 ---
+# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Migrieren von Benutzern in einen anderen Pool in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Migrieren von Benutzern in einen anderen Pool in lync Server 2013
+
 
 </div>
 
@@ -159,7 +161,7 @@ Sie können lync Server-Systemsteuerung verwenden, um Benutzer einem bestimmten 
     
     1.  Wenn Sie die Befehle auf dem lokalen Computer ausführen (beispielsweise melden Sie sich direkt bei einem Front-End-Server an): Melden Sie sich bei dem Computer an, auf dem lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
     
-    2.  Wenn Sie die Befehle Remote auf einem anderen Computer ausführen (beispielsweise melden Sie sich an Ihrem Computer an, und führen Sie die Befehle Remote auf einem Standard Edition-Front-End-Server) aus: von einem Benutzerkonto, das der Rolle "CsUserAdministrator" oder CsAdministrator zugewiesen ist. -Rolle, melden Sie sich an einem beliebigen Computer in ihrer internen Bereitstellung an.
+    2.  Wenn Sie die Befehle Remote auf einem anderen Computer ausführen (beispielsweise melden Sie sich an Ihrem Computer an, und führen Sie die Befehle Remote auf einem Standard Edition-Front-End-Server) aus: Melden Sie sich über ein Benutzerkonto, das der CsUserAdministrator-Rolle oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
 2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 

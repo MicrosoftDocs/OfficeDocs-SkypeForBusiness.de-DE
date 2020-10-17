@@ -12,20 +12,22 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60ded6539f6d984662449562d0f978e98dc3078
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa82180853e8835782d1e39d56fe595e5c7b09b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500802"
 ---
+# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Front-End-Pool ABC-Failover-Verfahren in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Front-End-Pool ABC-Failover-Verfahren in lync Server 2013
+
 
 </div>
 
@@ -89,7 +91,7 @@ Führen Sie die folgenden Schritte aus, um das ABC-Failover-Verfahren durchzufü
     
 
     > [!WARNING]  
-    > Beachten Sie, dass, wenn Sie die Einstellungen auf Anwendungsebene des Sicherungs Pools (Pool B) nicht mit den Einstellungen des primären Pools (Pool a) überschreiben möchten, die Einstellungen auf Anwendungsebene von Pool a verloren gehen, wenn Pool a verloren geht, da die Reaktionsgruppenanwendung Speichern Sie nur eine Gruppe von Einstellungen auf Anwendungsebene pro Pool. Wenn Pool C zum Ersetzen von Pool A bereitgestellt wird, müssen die Einstellungen auf Anwendungsebene neu konfiguriert werden, einschließlich der standardmäßigen Musikarchiv-Audiodatei.
+    > Beachten Sie, dass, wenn Sie die Einstellungen auf Anwendungsebene des Sicherungs Pools (Pool B) nicht mit den Einstellungen des primären Pools (Pool a) überschreiben möchten, die Einstellungen auf Anwendungsebene von Pool a verloren gehen, wenn Pool a verloren geht, da die Reaktionsgruppenanwendung nur eine Gruppe von Einstellungen auf Anwendungsebene pro Pool speichern kann. Wenn Pool C zum Ersetzen von Pool A bereitgestellt wird, müssen die Einstellungen auf Anwendungsebene neu konfiguriert werden, einschließlich der standardmäßigen Musikarchiv-Audiodatei.
 
     
     </div>
@@ -194,7 +196,7 @@ Führen Sie die folgenden Schritte aus, um das ABC-Failover-Verfahren durchzufü
     
 
     > [!WARNING]  
-    > Beachten Sie, dass, wenn Sie die Einstellungen auf Anwendungsebene von Pool C nicht mit den Einstellungen des Sicherungs Pools (Pool b) überschreiben möchten, die Einstellungen auf Anwendungsebene von Pool b verloren gehen, da der Reaktionsgruppenanwendung nur einen Anwendungs Ebenensatz speichern kann. Einstellungen pro Pool.
+    > Beachten Sie, dass, wenn Sie die Einstellungen auf Anwendungsebene von Pool C nicht mit den Einstellungen des Sicherungs Pools (Pool b) überschreiben möchten, die Einstellungen auf Anwendungsebene von Pool b verloren gehen, da der Reaktionsgruppenanwendung nur eine Gruppe von Einstellungen auf Anwendungsebene pro Pool speichern kann.
 
     
     </div>

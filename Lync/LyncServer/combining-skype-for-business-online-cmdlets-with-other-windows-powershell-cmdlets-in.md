@@ -13,20 +13,22 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: eb395820f9f90060ac24b737fab08c7d615727c2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755021"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499612"
 ---
+# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a>Kombinieren von Skype for Business Online-Cmdlets mit anderen Windows PowerShell-Cmdlets in
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a>Kombinieren von Skype for Business Online-Cmdlets mit anderen Windows PowerShell-Cmdlets in
+
 
 </div>
 

@@ -13,20 +13,22 @@ ms:contentKeyID: 48183571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 871ac9a924962588001c0d85d4cae73878833022
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fd534cfab7e118172ade7a0efb23721cc3af0c65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499802"
 ---
+# <a name="apply-lync-server-2010-updates"></a>Anwenden von lync Server 2010 Updates
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="apply-lync-server-2010-updates"></a>Anwenden von lync Server 2010 Updates
+
 
 </div>
 
@@ -38,9 +40,9 @@ ms.locfileid: "42181188"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Vor der Migration zu lync Server 2013 müssen Updates auf Ihre lync Server 2010 Umgebung angewendet werden. Die aktuellsten Informationen zu lync Server 2010 finden Sie unter **Updates-Ressourcen Center für lync** unter <https://go.microsoft.com/fwlink/p/?linkid=232630>.
+Vor der Migration zu lync Server 2013 müssen Updates auf Ihre lync Server 2010 Umgebung angewendet werden. Die aktuellsten Informationen zu lync Server 2010 finden Sie unter **Updates-Ressourcen Center für lync** unter <https://go.microsoft.com/fwlink/p/?linkid=232630> .
 
-Wenn Sie Updates für lync Server 2010 installieren möchten, empfehlen wir Ihnen, das Installationsverfahren für **Kumulatives Server Update (Methode 1** ), das im Microsoft Knowledge Base-Artikel " [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736)Updates for lync Server 2010" unter beschrieben ist, zu befolgten.
+Wenn Sie Updates für lync Server 2010 installieren möchten, empfehlen wir Ihnen, das Installationsverfahren für **Kumulatives Server Update (Methode 1** ), das im Microsoft Knowledge Base-Artikel "Updates for lync Server 2010" unter beschrieben ist, zu befolgten [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736) .
 
 </div>
 

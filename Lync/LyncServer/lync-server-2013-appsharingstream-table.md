@@ -12,20 +12,22 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34f3ea8a5b25a4eaa3345249c8c7847dd4a3f2bd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b729112aa0fb064a518c50212a6a041a6661be3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499502"
 ---
+# <a name="appsharingstream-table-in-lync-server-2013"></a>AppSharingStream-Tabelle in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingstream-table-in-lync-server-2013"></a>AppSharingStream-Tabelle in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Die AppSharingStream-Tabelle enthält Metriken für die Qualität der Erfahrung 
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary, Foreign</p></td>
+<td><p>Primär, Fremd</p></td>
 <td><p>Sequenzielle ID, anhand der zwischen Sitzungen unterschieden wird, die an denselben Tag und zur derselben Uhrzeit gestartet wurden.</p></td>
 </tr>
 <tr class="odd">
@@ -90,20 +92,20 @@ Die AppSharingStream-Tabelle enthält Metriken für die Qualität der Erfahrung 
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot; Zittern eines &quot; Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Der maximale Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
+<td><p>Der maximale Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot; Zittern eines &quot; Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Roundtrip</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-Time Transport-Protokoll) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.</p>
-<p>Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routing konfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</p></td>
+<p>Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTripMax</strong></p></td>
@@ -647,13 +649,13 @@ Die AppSharingStream-Tabelle enthält Metriken für die Qualität der Erfahrung 
 <td><p>Durchschnittliche Breite der Videoauflösung in Pixeln.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Eingehend</strong></p></td>
+<td><p><strong>Eingehende</strong></p></td>
 <td><p>Bit</p></td>
 <td></td>
 <td><p>Durchschnittliche Framerate (in Frames pro Sekunde) für eingehende Übertragungen.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ausgehend</strong></p></td>
+<td><p><strong>Ausgehende</strong></p></td>
 <td><p>Bit</p></td>
 <td></td>
 <td><p>Durchschnittliche Framerate (in Frames pro Sekunde) für ausgehende Übertragungen.</p></td>

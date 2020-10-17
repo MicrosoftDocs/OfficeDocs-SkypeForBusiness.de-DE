@@ -12,20 +12,22 @@ ms:contentKeyID: 48184601
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 622cb9811e33762bf40c05dfa5e5f0ab644b51aa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e0604a018b4b558612e2e2a3802ca97676b58b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501232"
 ---
+# <a name="dns-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>DNS-Zusammenfassung – einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>DNS-Zusammenfassung – einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Die Anforderungen an den DNS-Eintrag für den Remotezugriff auf lync Server 2013
 
 Ausführliche Informationen zu lync 2013 DNS-Anforderungen finden Sie unter [bestimmen der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-Ausführliche Informationen zur automatischen Konfiguration von Clients, auf denen lync 2013, wenn das Split-Brain-DNS nicht konfiguriert ist, finden Sie unter "automatische Konfiguration ohne Split-Brain-DNS" in [bestimmen der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+Ausführliche Informationen zur automatischen Konfiguration von Clients, auf denen lync 2013, wenn das Split-Brain-DNS nicht konfiguriert ist, finden Sie unter "automatische Konfiguration ohne Split-Brain DNS" in [bestimmen der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
 Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die zur Unterstützung einer Topologie mit einem einzelnen konsolidierten Edgeserver erforderlich ist, wie sie in der Abbildung „Topologie mit einem einzelnen konsolidierten Edgeserver“ gezeigt wird. Beachten Sie, dass bestimmte DNS-Einträge nur für die automatische Konfiguration von lync 2013 und lync 2010 Clients erforderlich sind. Wenn Sie planen, Gruppenrichtlinienobjekte (Group Policy Objects, GPOs) zum Konfigurieren von lync-Clients zu verwenden, sind die zugeordneten automatischen Konfigurationseinträge nicht erforderlich.
 
@@ -107,7 +109,7 @@ Sie können die zwei Netzwerkadapter auf Ihrem Edgeserver folgendermaßen konfig
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag</p></td>
+<td><p>Externe DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>131.107.155.10</p></td>
 <td><p>Externe Schnittstelle des Zugriffs-Edgeservers (Contoso); bei Bedarf für alle SIP-Domänen mit für Lync aktivierten Benutzern wiederholen</p></td>
@@ -119,20 +121,20 @@ Sie können die zwei Netzwerkadapter auf Ihrem Edgeserver folgendermaßen konfig
 <td><p>Externe Schnittstelle des Edgeservers für Webkonferenzen</p></td>
 </tr>
 <tr class="odd">
-<td><p>Externes DNS/A</p></td>
+<td><p>Externe DNS/A</p></td>
 <td><p>av.contoso.com</p></td>
 <td><p>131.107.155.30</p></td>
 <td><p>Externe Schnittstelle des A/V-Edgeservers</p></td>
 </tr>
 <tr class="even">
 <td><p>Externe DNS/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Schnittstelle des Zugriffs-Edgeservers. Für die automatische Konfiguration von lync 2013 und lync 2010 Clients für externe Arbeit erforderlich. Bei Bedarf für alle SIP-Domänen mit für Lync aktivierten Benutzern wiederholen.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Externes DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>Externe DNS/SRV/5061</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Schnittstelle des SIP-Zugriffs-Edgeservers. Erforderlich für die automatische DNS-Suche von Verbundpartnern, bezeichnet als „Zugelassene SIP-Domäne“ (in Vorgängerversionen als erweiterter Verbund bezeichnet). Bei Bedarf für alle SIP-Domänen mit für Lync aktivierten Benutzern wiederholen.</p></td>
 </tr>
@@ -181,7 +183,7 @@ Sie können die zwei Netzwerkadapter auf Ihrem Edgeserver folgendermaßen konfig
 <tbody>
 <tr class="odd">
 <td><p>Externe DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Externe Schnittstelle des SIP-Zugriffs-Edgeservers. Erforderlich für die automatische DNS-Suche Ihres Partnerverbungs nach anderen Verbundpartnern, bezeichnet als „Zugelassene SIP-Domänen“ (in Vorgängerversionen als erweiterter Verbund bezeichnet). Bei Bedarf für alle SIP-Domänen mit für Lync aktivierten Benutzern wiederholen.</p>
 
@@ -221,9 +223,9 @@ Sie können die zwei Netzwerkadapter auf Ihrem Edgeserver folgendermaßen konfig
 <tbody>
 <tr class="odd">
 <td><p>Externe DNS/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-Server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Externe XMPP-Proxyschnittstelle im Zugriffs-Edgedienst oder Edgepool. Wiederholen Sie diese Schritte bei Bedarf für alle internen SIP-Domänen mit lync-aktivierten Benutzern, bei denen Kontakt mit XMPP-Kontakten über die Konfiguration der Richtlinie für den externen Zugriff über eine globale Richtlinie, eine Standortrichtlinie, in der sich der Benutzer befindet, oder auf die Benutzerrichtlinie angewendet wird, die auf den Lync-aktivierter Benutzer. Eine zulässige XMPP-Domäne muss auch in der XMPP-Verbundpartner Richtlinie konfiguriert werden. Weitere Informationen finden Sie Unterthemen in <strong>Siehe auch</strong> .</p></td>
+<td><p>Externe XMPP-Proxyschnittstelle im Zugriffs-Edgedienst oder Edgepool. Wiederholen Sie den Vorgang bei Bedarf für alle internen SIP-Domänen mit lync-aktivierten Benutzern, bei denen Kontakt mit XMPP-Kontakten über die Konfiguration der Richtlinie für den externen Zugriff über eine globale Richtlinie, eine Standortrichtlinie, in der sich der Benutzer befindet, oder eine auf den lync-aktivierten Benutzer angewendete Benutzerrichtlinie zulässig ist. Eine zulässige XMPP-Domäne muss auch in der XMPP-Verbundpartner Richtlinie konfiguriert werden. Weitere Informationen finden Sie Unterthemen in <strong>Siehe auch</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Externe DNS/A</p></td>

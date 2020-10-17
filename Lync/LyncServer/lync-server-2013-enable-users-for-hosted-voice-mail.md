@@ -12,20 +12,22 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 836edd026e6b80404b9a85a3d5a0f53fa2ba574a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c0975f6be3d78ec7634859b26e7ed35e7efee5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501032"
 ---
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Aktivieren von Benutzern für gehostete Voicemail in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Aktivieren von Benutzern für gehostete Voicemail in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Ausführliche Informationen zum Cmdlet " [CsUser](https://docs.microsoft.com/pow
 
 1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet "CsUser" aus, um das Benutzerkonto für gehostete Voicemail zu konfigurieren. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie das Set-CsUser-Cmdlet aus, um das Benutzerkonto für gehostete Voicemail zu konfigurieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
         Set-CsUser -HostedVoiceMail $True -Identity "contoso\kenmyer"
     
@@ -73,9 +75,9 @@ Ausführliche Informationen zum Cmdlet " [CsUser](https://docs.microsoft.com/pow
         
           - Active Directory-Benutzerprinzipalname des Benutzers
         
-          - Der Domänen\\Anmeldename des Benutzers (beispielsweise "Contoso\\kenmyer")
+          - Der Domänen \\ Anmeldename des Benutzers (beispielsweise "Contoso \\ kenmyer")
         
-          - AD DS-Anzeigename des Benutzers (zum Beispiel "Ken Myer"). Wenn Sie den Anzeigenamen als Identitätswert verwenden, können Sie das Platzhalterzeichen Sternchen\*() verwenden. Die Identität "\* Smith" gibt beispielsweise alle Benutzer zurück, die einen Anzeigenamen haben, der mit dem Zeichenfolgenwert "Smith" endet.
+          - AD DS-Anzeigename des Benutzers (zum Beispiel "Ken Myer"). Wenn Sie die Display-Name als Identitätswert verwenden, können Sie das \* Platzhalterzeichen Sternchen () verwenden. Die Identität " \* Smith" gibt beispielsweise alle Benutzer zurück, die eine Display-Name haben, die mit dem Zeichenfolgenwert "Smith" endet.
         
         <div>
         

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2712859aa3268b70db9bd126f1ea17463955db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0074b1739cd571db46fc704d4863ac4f0462c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216371"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500582"
 ---
+# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Übersicht über die Active Directory-Domänendienste Vorbereitung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Übersicht über die Active Directory-Domänendienste Vorbereitung in lync Server 2013
+
 
 </div>
 
@@ -127,7 +129,7 @@ Lync Server 2013 wie lync Server 2010 speichert viele Konfigurationsinformatione
     
       - Das Kerberos-Authentifizierungskonto (ein optionales Computerobjekt)
 
-In lync Server 2013 delegieren Sie Setup und Verwaltung, indem Sie der universellen RTCUniversalServerAdmins-Gruppe Setup Berechtigungen erteilen, sodass Mitglieder dieser Gruppe lync Server 2013 auf einem lokalen Server installieren und aktivieren können (nachdem der Server dem hinzugefügt wurde. Topologie, veröffentlicht und aktiviert). Die Delegierten Benutzer müssen lokale Administratoren auf dem Computer sein, auf dem Sie lync Server 2013 installieren und aktivieren, aber Sie müssen nicht Mitglieder der Gruppe "Domänen-Admins" sein. Sie können auch Objekten in bestimmten Organisationseinheiten Berechtigungen gewähren, sodass Mitglieder der während der Gesamtstrukturvorbereitung erstellten universellen Gruppen auf diese Objekte zugreifen können, ohne Mitglieder der Gruppe "Domänen-Admins" zu sein.
+In lync Server 2013 delegieren Sie Setup und Verwaltung, indem Sie der universellen RTCUniversalServerAdmins-Gruppe Setup Berechtigungen erteilen, sodass Mitglieder dieser Gruppe lync Server 2013 auf einem lokalen Server installieren und aktivieren können (nachdem der Server der Topologie hinzugefügt, veröffentlicht und aktiviert wurde). Die Delegierten Benutzer müssen lokale Administratoren auf dem Computer sein, auf dem Sie lync Server 2013 installieren und aktivieren, aber Sie müssen nicht Mitglieder der Gruppe "Domänen-Admins" sein. Sie können auch Objekten in bestimmten Organisationseinheiten Berechtigungen gewähren, sodass Mitglieder der während der Gesamtstrukturvorbereitung erstellten universellen Gruppen auf diese Objekte zugreifen können, ohne Mitglieder der Gruppe "Domänen-Admins" zu sein.
 
 Für neue Bereitstellungen von lync Server 2013 müssen globale Einstellungen im Konfigurationscontainer gespeichert werden. Wenn Ihre Organisation ein Upgrade von einer früheren Version durchführen und weiterhin über globale Einstellungen im Systemcontainer verfügt, wird der Systemcontainer weiterhin unterstützt.
 

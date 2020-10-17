@@ -12,20 +12,22 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72e52927b8c84f5ad9cb869cd680f057e1618f8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc30b787d938825f229f28b10d54907ad26a4d35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501322"
 ---
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS-Zusammenfassung – AutoErmittlung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS-Zusammenfassung – AutoErmittlung in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Die AutoErmittlung ist ein flexibler Dienst, da Sie die Kommunikation über HTTP
 
 
 > [!IMPORTANT]  
-> Die DNS-Nachschlage Logik für die lync Server Clients verwendet eine bestimmte Lösungsreihenfolge. Sie sollten immer sowohl die "lyncdiscoverinternal"-als auch die. &lt;Domäne&gt; und lyncdiscover. &lt;Domäne&gt; in Ihrem DNS. Ohne "lyncdiscoverinternal". &lt;der&gt; Domäneneintrag führt dazu, dass interne Clients nicht mit den vorgesehenen Diensten verbunden werden oder die falsche Auto Ermittlungs Antwort erhalten.
+> Die DNS-Nachschlage Logik für die lync Server Clients verwendet eine bestimmte Lösungsreihenfolge. Sie sollten immer sowohl die "lyncdiscoverinternal"-als auch die. &lt; Domäne &gt; und lyncdiscover. &lt; Domäne &gt; in Ihrem DNS. Ohne "lyncdiscoverinternal". &lt; der Domäneneintrag führt dazu, dass &gt; interne Clients nicht mit den vorgesehenen Diensten verbunden werden oder die falsche Auto Ermittlungs Antwort erhalten.
 
 
 
@@ -67,12 +69,12 @@ Die AutoErmittlung ist ein flexibler Dienst, da Sie die Kommunikation über HTTP
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>"Lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
+<td><p>"Lyncdiscoverinternal". &lt; Interner Domänenname&gt;</p></td>
 <td><p>Interner Webdienste FQDN für Ihren Directorpool, wenn Sie einen haben, oder für Ihre Front-End-Pool, wenn Sie keinen Director haben.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (Host, wenn IPv6, AAAA)</p></td>
-<td><p>"lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
+<td><p>"lyncdiscoverinternal". &lt; Interner Domänenname&gt;</p></td>
 <td><p>Interne Webdienste IP-Adresse (virtuelle IP-Adresse (VIP), wenn Sie einen Lastenausgleich verwenden) Ihres Directorpool, wenn Sie einen haben, oder Ihrer Front-End-Pool, wenn Sie keinen Director haben.</p></td>
 </tr>
 </tbody>
@@ -99,12 +101,12 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>lyncdiscover. &lt; sipdomain "&gt;</p></td>
 <td><p>Externer Webdienste FQDN für Ihren Directorpool, wenn Sie einen haben, oder für Ihre Front-End-Pool, wenn Sie keinen Director haben.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (Host, wenn IPv6, AAAA)</p></td>
-<td><p>lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>lyncdiscover. &lt; sipdomain "&gt;</p></td>
 <td><p>Externe oder öffentliche IP-Adresse des Reverse-Proxys.</p></td>
 </tr>
 </tbody>

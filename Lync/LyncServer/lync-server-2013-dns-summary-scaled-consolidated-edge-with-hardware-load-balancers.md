@@ -12,20 +12,22 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5625aa9d6211c703853b110b3fec439113cfa48d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5847a43c6d07cf188c97cd8de6a47dfb83e1468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501282"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>DNS-Zusammenfassung – skalierter konsolidierter Edgeserver mit Hardwarelastenausgleichs in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>DNS-Zusammenfassung – skalierter konsolidierter Edgeserver mit Hardwarelastenausgleichs in lync Server 2013
+
 
 </div>
 
@@ -107,7 +109,7 @@ Sie können zwei Netzwerkadapter auf jedem ihrer Edgeserver wie folgt konfigurie
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externer DNS-Eintrag</p></td>
+<td><p>Externe DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>131.107.155.10</p></td>
 <td><p>Zugriffs-Edgedienst externe Schnittstelle (Contoso). Wiederholen bei Bedarf für alle SIP-Domänen mit lync-aktivierten Benutzern</p></td>
@@ -126,13 +128,13 @@ Sie können zwei Netzwerkadapter auf jedem ihrer Edgeserver wie folgt konfigurie
 </tr>
 <tr class="even">
 <td><p>Externe DNS/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Zugriffs-Edgedienst externe Schnittstelle. Für die automatische Konfiguration von lync 2013 und lync 2010 Clients für externe Arbeit erforderlich. Bei Bedarf für alle SIP-Domänen mit für Lync aktivierten Benutzern wiederholen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Externe DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP Zugriffs-Edgedienst externe Schnittstelle, die für die automatische DNS-Ermittlung von Verbundpartnern erforderlich ist, die als "zugelassene SIP-Domäne" bezeichnet werden (als erweiterter Verbund in früheren Versionen bezeichnet). Wiederholen Sie diese Schritte bei Bedarf für alle SIP-Domänen mit lync-aktivierten Benutzern und Microsoft lync Mobile-Clients, die entweder den Push-Benachrichtigungsdienst oder den Apple Push Notification-Dienst verwenden.</p></td>
 </tr>

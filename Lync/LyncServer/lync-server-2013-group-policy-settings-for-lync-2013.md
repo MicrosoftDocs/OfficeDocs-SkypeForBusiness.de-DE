@@ -12,20 +12,22 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937869dffc3dfecc994f3c9ce819e1a644c88abe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72493338d854cc0aff63fde5eabb5d7a281fd50e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214310"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500712"
 ---
+# <a name="group-policy-settings-for-lync-2013"></a>Gruppenrichtlinieneinstellungen für lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-policy-settings-for-lync-2013"></a>Gruppenrichtlinieneinstellungen für lync 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214310"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-In früheren Versionen von lync und Office Communicator Stand eine eigenständige administrative Vorlage "Communicator. adm" zum Konfigurieren von Clientgruppen Richtlinieneinstellungen zur Verfügung. Für lync 2013 werden neue administrative Vorlagendateien (ADMX-und ADML-Dateien) zusammen mit der administrativen Vorlage für Office-Gruppenrichtlinien eingeschlossen. Die Verfügbarkeit von lync 2013. ADMX-und. ADML-Dateien ermöglicht Ihnen das Herunterladen von Vorlagen und das zentrale Verwalten von Gruppenrichtlinieneinstellungen für alle Ihre Office-Programme und Sprachpakete. Ausführliche Informationen finden Sie unter "Office 2013 administrative Template Files (ADMX, ADML)" in der Office 2013- <https://go.microsoft.com/fwlink/p/?linkid=267516>Dokumentation unter.
+In früheren Versionen von lync und Office Communicator Stand eine eigenständige administrative Vorlage "Communicator. adm" zum Konfigurieren von Clientgruppen Richtlinieneinstellungen zur Verfügung. Für lync 2013 werden neue administrative Vorlagendateien (ADMX-und ADML-Dateien) zusammen mit der administrativen Vorlage für Office-Gruppenrichtlinien eingeschlossen. Die Verfügbarkeit von lync 2013. ADMX-und. ADML-Dateien ermöglicht Ihnen das Herunterladen von Vorlagen und das zentrale Verwalten von Gruppenrichtlinieneinstellungen für alle Ihre Office-Programme und Sprachpakete. Ausführliche Informationen finden Sie unter "Office 2013 administrative Template Files (ADMX, ADML)" in der Office 2013-Dokumentation unter <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 <div>
 

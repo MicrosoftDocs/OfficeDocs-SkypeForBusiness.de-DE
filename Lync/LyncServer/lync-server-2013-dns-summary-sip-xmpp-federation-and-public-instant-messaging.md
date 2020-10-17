@@ -12,20 +12,22 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c2ccaab6d1d3bcb1cf597bef076601544f47aad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8c7b36448f2aa8eb895aebeeaddc6187c1831ca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501192"
 ---
+# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>DNS-Zusammenfassung – SIP, XMPP-Partnerverbund und öffentliche Chatnachrichten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>DNS-Zusammenfassung – SIP, XMPP-Partnerverbund und öffentliche Chatnachrichten in lync Server 2013
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42192788"
 
 _**Letztes Änderungsstand des Themas:** 2017-03-09_
 
-Die Domain Name System (DNS) Datensätze, die zum Definieren eines Verbunds mit Office Communications Server oder lync Server Partnern erforderlich sind, werden durch ihre Entscheidung bestimmt, die automatische DNS-Ermittlung Ihrer Domäne durch andere Perspective-Partner zuzulassen. Wenn Sie die \_sipfederationtls veröffentlichen. \_TCP. *SIP-Domänenname\> \<* SRV-Eintrag, kann jede andere SIP-Verbunddomäne ihren Partnerverbund "ermitteln". Sie können steuern, welche Verbunddomänen mit Ihnen kommunizieren können, indem Sie die Einstellungen für Domänen und Blockierte Domänen in der lync Server-Systemsteuerung zulassen oder die Konfiguration der zugelassenen oder blockierten Domänen mithilfe der lync Server-Verwaltungsshell und der Cmdlets **Get**, **Sets**, **New**, **Remove-CsAllowedDomain** und **-CsBlockedDomain** festlegen. Weitere Informationen zum Konfigurieren dieser Einstellungen und zur Verwendung der PowerShell-Cmdlets finden Sie unter " **Verwandte Themen** " am Ende dieses Themas.
+Die Domain Name System (DNS) Datensätze, die zum Definieren eines Verbunds mit Office Communications Server oder lync Server Partnern erforderlich sind, werden durch ihre Entscheidung bestimmt, die automatische DNS-Ermittlung Ihrer Domäne durch andere Perspective-Partner zuzulassen. Wenn Sie die \_ sipfederationtls veröffentlichen. \_ TCP. *\<SIP domain name\>* SRV-Eintrag, kann jede andere SIP-Verbunddomäne ihren Partnerverbund "ermitteln". Sie können steuern, welche Verbunddomänen mit Ihnen kommunizieren können, indem Sie die Einstellungen für Domänen und Blockierte Domänen in der lync Server-Systemsteuerung zulassen oder die Konfiguration der zugelassenen oder blockierten Domänen mithilfe der lync Server-Verwaltungsshell und der Cmdlets **Get**, **Sets**, **New**, **Remove-CsAllowedDomain** und **-CsBlockedDomain** festlegen. Weitere Informationen zum Konfigurieren dieser Einstellungen und zur Verwendung der PowerShell-Cmdlets finden Sie unter " **Verwandte Themen** " am Ende dieses Themas.
 
-In der Zusammenfassungstabelle für DNS-Einträge werden die erforderlichen Einträge für einen geöffneten oder auffindbaren Partnerverbund dargestellt. Wenn Sie die Verbund Ermittlung nicht implementieren möchten, können Sie sich dafür entscheiden, die \_sipfederationtls nicht zu konfigurieren. \_TCP. *SIP-Domänen\> Namen Eintrag. \<*
+In der Zusammenfassungstabelle für DNS-Einträge werden die erforderlichen Einträge für einen geöffneten oder auffindbaren Partnerverbund dargestellt. Wenn Sie die Verbund Ermittlung nicht implementieren möchten, können Sie sich dafür entscheiden, die sipfederationtls nicht zu konfigurieren \_ . \_ TCP. *\<SIP domain name\>* Datensatz.
 
 <div>
 
 
 > [!IMPORTANT]
-> Es gibt bestimmte Szenarien, in denen Sie über die _sipfederationtls. _tcp verfügen müssen. <EM>SIP-Domänenname&gt; &lt;</EM> SRV-Eintrag, aber Sie möchten keinen auffindbaren Partnerverbund haben. Eine solche Instanz ist der Ort, an dem Sie die Mobilität für Ihre Benutzer bereitgestellt haben. Das Mobility Push Notification Clearing House (PNCH) ist ein spezieller Verbundtyp, der für Microsoft lync Mobile-Clients auf Apple iPhone oder iPad mit dem lync 2010 Mobile-Client oder Windows Phone mit dem lync 2010 Mobile oder lync 2013 mobilen Clients verwendet wird. Die _sipfederationtls. _tcp. <EM>SIP-Domänenname&gt; &lt;</EM> SRV-Eintrag wird im Fall von Mobilität und Push-Benachrichtigung verwendet. Um dieses Problem zu beheben und die Auffindbarkeit zu kontrollieren, deaktivieren Sie die Einstellung <STRONG>Aktivieren der Partnerdomänen Suche</STRONG> , um die Ermittlung zu deaktivieren.
+> Es gibt bestimmte Szenarien, in denen Sie über das _sipfederationtls. _tcp verfügen müssen. <EM> &lt; SIP-Domänen &gt; Namen</EM> -SRV-Eintrag, aber Sie möchten keinen auffindbaren Partnerverbund haben. Eine solche Instanz ist der Ort, an dem Sie die Mobilität für Ihre Benutzer bereitgestellt haben. Das Mobility Push Notification Clearing House (PNCH) ist ein spezieller Verbundtyp, der für Microsoft lync Mobile-Clients auf Apple iPhone oder iPad mit dem lync 2010 Mobile-Client oder Windows Phone mit dem lync 2010 Mobile oder lync 2013 mobilen Clients verwendet wird. Die _sipfederationtls. _tcp. <EM> &lt; SIP-Domänen &gt; Namen</EM> -SRV-Eintrag wird im Fall von Mobilität und Push-Benachrichtigung verwendet. Um dieses Problem zu beheben und die Auffindbarkeit zu kontrollieren, deaktivieren Sie die Einstellung <STRONG>Aktivieren der Partnerdomänen Suche</STRONG> , um die Ermittlung zu deaktivieren.
 
 
 
@@ -78,7 +80,7 @@ Wenn Sie DNS (Domain Name System) für die Verbindung mit öffentlichen Instant 
 <tbody>
 <tr class="odd">
 <td><p>Externe DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Zugriffs-Edgedienst externe Schnittstelle, die für die automatische DNS-Ermittlung ihres Verbunds für andere potenzielle Verbundpartner erforderlich ist, und wird als "zugelassene SIP-Domänen" bezeichnet ("Enhanced Federation" in früheren Versionen genannt). Wiederholen bei Bedarf für alle SIP-Domänen mit lync-aktivierten Benutzern</p>
 
@@ -118,9 +120,9 @@ Wenn Sie DNS (Domain Name System) für die Verbindung mit öffentlichen Instant 
 <tbody>
 <tr class="odd">
 <td><p>Externe DNS/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-Server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Externe XMPP-Proxyschnittstelle im Zugriffs-Edgedienst oder Edgepool. Wiederholen Sie diese Schritte bei Bedarf für alle internen SIP-Domänen mit lync-aktivierten Benutzern, bei denen Kontakt mit XMPP-Kontakten über die Konfiguration der Richtlinie für den externen Zugriff über eine globale Richtlinie, eine Standortrichtlinie, in der sich der Benutzer befindet, oder auf die Benutzerrichtlinie angewendet wird, die auf den Lync-aktivierter Benutzer. Eine zulässige XMPP-Domäne muss auch in der XMPP-Verbundpartner Richtlinie konfiguriert werden. Weitere Informationen finden Sie Unterthemen in <strong>Siehe auch</strong> .</p></td>
+<td><p>Externe XMPP-Proxyschnittstelle im Zugriffs-Edgedienst oder Edgepool. Wiederholen Sie den Vorgang bei Bedarf für alle internen SIP-Domänen mit lync-aktivierten Benutzern, bei denen Kontakt mit XMPP-Kontakten über die Konfiguration der Richtlinie für den externen Zugriff über eine globale Richtlinie, eine Standortrichtlinie, in der sich der Benutzer befindet, oder eine auf den lync-aktivierten Benutzer angewendete Benutzerrichtlinie zulässig ist. Eine zulässige XMPP-Domäne muss auch in der XMPP-Verbundpartner Richtlinie konfiguriert werden. Weitere Informationen finden Sie Unterthemen in <strong>Siehe auch</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Externe DNS/A</p></td>

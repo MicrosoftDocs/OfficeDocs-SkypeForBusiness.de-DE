@@ -12,20 +12,22 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67ac175ea9aae83a56bd2706bee3c80418b99ea8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a6403092daa1a8cd84d246f2bd3bdece7661fef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203321"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499462"
 ---
+# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Zuweisen von Richtlinien in lync Server 2013 zu einem Telefon im öffentlichen Bereich
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Zuweisen von Richtlinien in lync Server 2013 zu einem Telefon im öffentlichen Bereich
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203321"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Nachdem Sie Ihre Richtlinie für Telefone für gemeinsame Bereiche erstellt haben (Weitere Informationen finden Sie unter [Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), können Sie die Richtlinie mithilfe von Windows PowerShell und dem entsprechenden **Grant-CS-** Cmdlet einem Telefon im öffentlichen Bereich zuweisen. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Nachdem Sie Ihre Richtlinie für Telefone für gemeinsame Bereiche erstellt haben (Weitere Informationen finden Sie unter [Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), können Sie die Richtlinie mithilfe von Windows PowerShell und dem entsprechenden **Grant-CS-** Cmdlet einem Telefon im öffentlichen Bereich zuweisen. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

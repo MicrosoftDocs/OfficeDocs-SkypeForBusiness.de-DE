@@ -12,20 +12,22 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d954fcd121bff2dbc77f390b5cdad1116bb7e7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d03f47cbe637e2c6fe6a0466b73a3588b842d6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501042"
 ---
+# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013
+
 
 </div>
 
@@ -101,7 +103,7 @@ VoIP-Richtlinien auf globaler und Standortebene werden automatisch allen Benutze
     
         Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
     
-    Zum Beispiel:
+    Beispiel:
     
         Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
     

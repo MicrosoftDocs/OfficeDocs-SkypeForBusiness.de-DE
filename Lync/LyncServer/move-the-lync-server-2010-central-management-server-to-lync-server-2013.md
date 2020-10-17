@@ -12,20 +12,22 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90af32fce28d87b211a0829c5c863c9277129c86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53251e03c55d6d61ae360d7b0739c07ac44dccdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500132"
 ---
+# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Legen Sie den lync Server 2010 zentralen Verwaltungs Server auf lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Legen Sie den lync Server 2010 zentralen Verwaltungs Server auf lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2013-11-25_
 
 Nachdem Sie von lync Server 2010 zu lync Server 2013 migriert haben, müssen Sie den lync Server 2010 zentralen Verwaltungsserver in den lync Server 2013 Front-End-Server oder-Pool verschieben, bevor Sie den Legacy lync Server 2010 Server entfernen können.
 
-Bei dem zentralen Verwaltungsserver handelt es sich um ein einzelnes Master/Multiple-Replikat System, bei dem die Lese-/Schreibzugriff-Kopie der Datenbank von der Front-End-Server gespeichert wird, die den zentralen Verwaltungsserver enthält. Jeder Computer in der Topologie, einschließlich der Front-End-Server, die den zentralen Verwaltungs Server enthält, verfügt über eine schreibgeschützte Kopie der Daten des zentralen Verwaltungsspeichers in der SQL Server-Datenbank (standardmäßig auf dem Computer RTCLOCAL), die während des Setups auf dem Computer installiert ist, und Bereitstellung. Die lokale Datenbank erhält Replikat Aktualisierungen über den lync Server Replikat Replikationsdienst-Agent, der auf allen Computern als Dienst ausgeführt wird. Der Name der tatsächlichen Datenbank auf dem zentralen Verwaltungs Server und das lokale Replikat ist XDS, das aus den Dateien XDS. mdf und XDS. ldf besteht. Auf den Speicherort der Master Datenbank wird in Active Directory-Domänendienste von einem Dienststeuerungspunkt (Service Control Points, SCP) verwiesen. Alle Tools, die den zentralen Verwaltungs Server zum Verwalten und konfigurieren lync Server verwenden den SCP zum Auffinden des zentralen Verwaltungsspeichers.
+Bei dem zentralen Verwaltungsserver handelt es sich um ein einzelnes Master/Multiple-Replikat System, bei dem die Lese-/Schreibzugriff-Kopie der Datenbank von der Front-End-Server gespeichert wird, die den zentralen Verwaltungsserver enthält. Jeder Computer in der Topologie, einschließlich der Front-End-Server, die den zentralen Verwaltungs Server enthält, verfügt über eine schreibgeschützte Kopie der Daten des zentralen Verwaltungsspeichers in der SQL Server Datenbank (standardmäßig RTCLOCAL), die während des Setups und der Bereitstellung auf dem Computer installiert sind. Die lokale Datenbank erhält Replikat Aktualisierungen über den lync Server Replikat Replikationsdienst-Agent, der auf allen Computern als Dienst ausgeführt wird. Der Name der tatsächlichen Datenbank auf dem zentralen Verwaltungs Server und das lokale Replikat ist XDS, das aus den Dateien XDS. mdf und XDS. ldf besteht. Auf den Speicherort der Master Datenbank wird in Active Directory-Domänendienste von einem Dienststeuerungspunkt (Service Control Points, SCP) verwiesen. Alle Tools, die den zentralen Verwaltungs Server zum Verwalten und konfigurieren lync Server verwenden den SCP zum Auffinden des zentralen Verwaltungsspeichers.
 
 Nachdem Sie den zentralen Verwaltungsserver erfolgreich verschoben haben, sollten Sie die Datenbanken des zentralen Verwaltungsservers aus dem ursprünglichen Front-End-Server entfernen. Informationen zum Entfernen der Datenbanken des zentralen Verwaltungsservers finden Sie unter [Entfernen der SQL Server Datenbank für ein Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md).
 
@@ -177,7 +179,7 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die lync Server 2013-Front-E
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
     
-    Dabei ist \<der FQDN von\> SQL Server entweder der lync Server 2010-Back-End-Server in einer Enterprise Edition-Bereitstellung oder der FQDN des Standard Edition-Server.
+    Hierbei \<FQDN of SQL Server\> handelt es sich entweder um den lync Server 2010 Back-End-Server in einer Enterprise Edition-Bereitstellung oder den FQDN des Standard Edition-Server.
 
 </div>
 

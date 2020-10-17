@@ -12,20 +12,22 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f4c1b14ce7260d4b320ea7feacddb9a85a8f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec8ac614cdc829ab2b1efd7d6ff9179c33d5a33e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203301"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499472"
 ---
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Microsoft lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Microsoft lync Server 2013
+
 
 </div>
 
@@ -56,9 +58,9 @@ Alternativ können Sie ein vorhandenes Zertifikat als Server-zu-Server-Authentif
 
 Im vorherigen Befehl ist das abgerufene Zertifikat für die Funktion als globales Server-zu-Server-Authentifizierungszertifikat konfiguriert. Das bedeutet, dass das Zertifikat auf allen Front-End-Servern repliziert und von diesen verwendet wird. Dieser Befehl sollte wiederum nur einmal und nur auf einem Ihrer Front-End-Server ausgeführt werden. Obwohl alle Front-End-Server dasselbe Zertifikat verwenden müssen, sollten Sie das OAuthTokenIssuer-Zertifikat nicht auf jeder Front-End-Server konfigurieren. Konfigurieren Sie das Zertifikat stattdessen einmal, und überlassen Sie es dem Replikations Server von lync Server, dieses Zertifikat auf jeden Server zu kopieren.
 
-Das Cmdlet "CsCertificate" übernimmt das betreffende Zertifikat und konfiguriert dieses Zertifikat sofort als Aktuelles OAuthTokenIssuer-Zertifikat. (Lync Server 2013 zwei Kopien eines Zertifikattyps aufbewahrt: das aktuelle Zertifikat und das vorherige Zertifikat.) Wenn das neue Zertifikat sofort als OAuthTokenIssuer-Zertifikat fungieren soll, sollten Sie das Cmdlet "CsCertificate" verwenden.
+Das Set-CsCertificate-Cmdlet übernimmt das betreffende Zertifikat und konfiguriert dieses Zertifikat sofort als Aktuelles OAuthTokenIssuer-Zertifikat. (Lync Server 2013 zwei Kopien eines Zertifikattyps aufbewahrt: das aktuelle Zertifikat und das vorherige Zertifikat.) Wenn das neue Zertifikat sofort als OAuthTokenIssuer-Zertifikat fungieren soll, sollten Sie das Set-CsCertificate-Cmdlet verwenden.
 
-Sie können auch das Cmdlet "CsCertificate" verwenden, um ein neues Zertifikat zu "Rollen". "Rolling" ein Zertifikat bedeutet einfach, dass Sie ein neues Zertifikat zu einem bestimmten Zeitpunkt als Aktuelles OAuthTokenIssuer-Zertifikat konfigurieren. Dieser Befehl ruft beispielsweise das Standardzertifikat ab und konfiguriert dann das Zertifikat für die Übernahme als Aktuelles OAuthTokenIssuer-Zertifikat vom 1. Juli 2012:
+Sie können auch das Cmdlet Set-CsCertificate verwenden, um ein neues Zertifikat zu "Rollen". "Rolling" ein Zertifikat bedeutet einfach, dass Sie ein neues Zertifikat zu einem bestimmten Zeitpunkt als Aktuelles OAuthTokenIssuer-Zertifikat konfigurieren. Dieser Befehl ruft beispielsweise das Standardzertifikat ab und konfiguriert dann das Zertifikat für die Übernahme als Aktuelles OAuthTokenIssuer-Zertifikat vom 1. Juli 2012:
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2012" -Roll

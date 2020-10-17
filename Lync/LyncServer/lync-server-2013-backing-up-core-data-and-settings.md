@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205861"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499382"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Sichern von Hauptdaten und-Einstellungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Sichern von Hauptdaten und-Einstellungen in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
     
         Export-CsConfiguration -FileName <path and file name for backup>
     
-    Zum Beispiel:
+    Beispiel:
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
@@ -78,7 +80,7 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
     
     </div>
 
-5.  Kopieren Sie die gesicherte Konfigurationsdatei des zentralen Verwaltungsspeichers in $Backup\\.
+5.  Kopieren Sie die gesicherte Konfigurationsdatei des zentralen Verwaltungsspeichers in $Backup \\ .
 
 6.  Sichern Sie die Standortinformationsdienst-Daten. Geben Sie an der Befehlszeile Folgendes ein:
     
@@ -88,17 +90,17 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  Kopieren Sie die gesicherte Standortinformationsdienst Konfigurationsdatei in $Backup\\.
+7.  Kopieren Sie die gesicherte Standortinformationsdienst Konfigurationsdatei in $Backup \\ .
 
 8.  Sichern von Benutzerdaten in jeder Back-End-Datenbank eines Front-End-Pool und jeder Standard Edition-Server. Geben Sie an der Befehlszeile Folgendes ein:
     
         Export-CsUserData -PoolFQDN <Fqdn> -FileName <String>
     
-    Zum Beispiel:
+    Beispiel:
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  Kopieren Sie die gesicherte Benutzerdatei in $Backup\\.
+9.  Kopieren Sie die gesicherte Benutzerdatei in $Backup \\ .
 
 10. Sichern Sie in jedem Pool, der das Reaktionsgruppenanwendung ausführt, die Konfiguration der Reaktionsgruppe. Gehen Sie wie folgt vor:
     
@@ -106,11 +108,11 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
         
             Export-CsRgsConfiguration -Source "service:ApplicationServer:<pool FQDN>" -FileName <path and file name for backup>
         
-        Zum Beispiel:
+        Beispiel:
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. Kopieren Sie die gesicherte Antwortgruppen-Konfigurationsdatei in $Backup\\.
+11. Kopieren Sie die gesicherte Antwortgruppen-Konfigurationsdatei in $Backup \\ .
 
 </div>
 

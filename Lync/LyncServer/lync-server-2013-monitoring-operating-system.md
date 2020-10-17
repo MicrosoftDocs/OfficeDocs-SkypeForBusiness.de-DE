@@ -12,20 +12,22 @@ ms:contentKeyID: 63969617
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3857ffa37ac3b50be6dc35ed281616aafff87c48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d6cad561761b7387cb4c268229f76b52f4bd24b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500632"
 ---
+# <a name="monitoring-operating-system-in-lync-server-2013"></a>Überwachen des Betriebssystems in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-operating-system-in-lync-server-2013"></a>Überwachen des Betriebssystems in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Sie müssen die Leistung aller Server und Komponenten im lync Server 2013 überw
 
 Die transparenteste Möglichkeit zum Überwachen eines Betriebssystems ist die Verwendung des Windows Server Operating System Management Packs. Es bietet die grundlegenden Überwachungs Grundlagen wie Leistung, Integrität und Verfügbarkeit für Computer, auf denen Windows Server 2012, Windows Server 2012 R2 und Windows Server 2008 R2 durchführen.
 
-Durch die Erkennung, Warnung und automatische Reaktion auf wichtige Ereignisse und Leistungsindikatoren reduzieren diese Management Packs Lösungszeiten für Probleme und verbessern die allgemeine Verfügbarkeit und Leistung von Systemen mit Windows Server Betriebssysteme.
+Durch die Erkennung, Warnung und automatische Reaktion auf wichtige Ereignisse und Leistungsindikatoren reduzieren diese Management Packs Lösungszeiten für Probleme und verbessern die allgemeine Verfügbarkeit und Leistung von Systemen, die die Windows Server-Betriebssysteme ausführen.
 
 Neben den relevanten Windows Server Management Packs für System Center Operations Manager können die folgenden System Tools und Ressourcen verwendet werden, um die Integrität des Betriebssystems zu überwachen (je nach Betriebssystemversion).
 
@@ -77,7 +79,7 @@ Es umfasst auch Zuverlässigkeitsüberwachung, ein MMC-Snap-in, das Änderungen 
 
 ## <a name="windows-reliability-and-performance-monitor"></a>Windows-Zuverlässigkeits-und Leistungsüberwachung
 
-Während die Windows-Zuverlässigkeits-und Leistungsüberwachung Funktionen einiger ehemaliger eigenständiger Tools wie Leistungsprotokolle und Warnungen sowie System Monitor und Server Leistungs Ratgeber kombinieren, bietet Sie auch einige neue Funktionen für Windows Server 2008 und Windows Server 2008 R2 wie die folgenden:
+Während die Windows-Zuverlässigkeits-und Leistungsüberwachung Funktionen einiger ehemaliger eigenständiger Tools wie Leistungsprotokolle und Warnungen sowie System Monitor und Server Leistungs Ratgeber kombinieren, stellt Sie auch einige neue Funktionen für Windows Server 2008 und Windows Server 2008 R2 bereit, beispielsweise die folgenden:
 
   - Sammlungssätze
 
@@ -91,7 +93,7 @@ Der **Daten sammlersatz** gruppiert Datensammler in wieder verwendbare Elemente 
 
 Die Startseite der Windows-Zuverlässigkeits-und Leistungsüberwachung ist der neue **Ressourcen Ansichts** Bildschirm, der eine grafische Übersicht über die CPU-, Datenträger-, Netzwerk-und Speicherauslastung in Echtzeit bietet. Durch das Erweitern dieser überwachten Elemente können Systemadministratoren ermitteln, welche Prozesse welche Ressourcen verwenden. In früheren Versionen von Windows waren diese prozessspezifischen Daten in Echtzeit nur in beschränkter Form im Task-Manager verfügbar.
 
-Die **Zuverlässigkeitsüberwachung** berechnet einen System Stabilitäts Index, der angibt, ob unerwartete Probleme die Zuverlässigkeit des Systems verringert haben. Ein Diagramm des Stabilitäts Index im Laufe der Zeit erkennt schnell Daten, wenn Probleme auftreten begannen. Der zugehörige System Stabilitätsbericht enthält Details zur Problembehandlung bei der Ursache für eine geringere Zuverlässigkeit. Durch Anzeigen von Systemänderungen (Installation oder Entfernung von Anwendungen, Updates des Betriebssystems oder hinzufügen oder Ändern von Treibern) nebeneinander mit Fehlern (Anwendungsfehler, Betriebssystemabstürze oder Hardwarefehler) wird eine Strategie für die Problembehandlung kann schnell entwickelt werden.
+Die **Zuverlässigkeitsüberwachung** berechnet einen System Stabilitäts Index, der angibt, ob unerwartete Probleme die Zuverlässigkeit des Systems verringert haben. Ein Diagramm des Stabilitäts Index im Laufe der Zeit erkennt schnell Daten, wenn Probleme auftreten begannen. Der zugehörige System Stabilitätsbericht enthält Details zur Problembehandlung bei der Ursache für eine geringere Zuverlässigkeit. Durch Anzeigen von Systemänderungen (Installation oder Entfernung von Anwendungen, Updates des Betriebssystems oder hinzufügen oder Ändern von Treibern) nebeneinander mit Fehlern (Anwendungsfehler, Betriebssystemabstürze oder Hardwarefehler) kann eine Strategie zur Problembehandlung schnell entwickelt werden.
 
 Das Hinzufügen von Leistungsindikatoren zu Protokolldateien und das Planen von Start, Stopp und Dauer kann nun über eine **Assistentenschnittstelle**erfolgen. Wenn Sie diese Konfiguration als Vorlage speichern, können Systemadministratoren außerdem dasselbe Protokoll auf anderen Computern erfassen, ohne die Daten Sammlungsauswahl und die Planungsprozesse zu wiederholen. Leistungsprotokolle und Warnungen wurden in die Windows-Zuverlässigkeits-und-Leistungsüberwachung zur Verwendung mit beliebigen Datensammlersätzen integriert.
 
