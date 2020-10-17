@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Bereitstellen des SEFAUtil-Tools'
+description: 'Lync Server 2013: Stellen Sie das SEFAUtil-Tool bereit.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91392470d47cc4d59130e7c304656f9eee48ae5e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 311f14f33dff30b388836a7f02483c4afe5da1b1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531372"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558611"
 ---
 # <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Bereitstellen des SEFAUtil-Tools in lync Server 2013
 

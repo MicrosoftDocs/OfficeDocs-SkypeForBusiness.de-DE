@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Wählpläne und Normalisierungsregeln'
+description: 'Lync Server 2013: Wählpläne und Normalisierungsregeln.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0341d0c5267a2272ff45bd93408b2bd14f0ceeaa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520018"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559741"
 ---
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Wählpläne und Normalisierungsregeln in lync Server 2013
 

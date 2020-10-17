@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zuweisen einer Richtlinie für den Wählplan auf Benutzerbasis'
+description: 'Lync Server 2013: weisen Sie eine Richtlinie für den Wählplan auf Benutzerbasis zu.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bd4d46e2cd41c972258a84a1e8fb34549dc8b4e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 654c1f15ccb1efa4d1aa35d957df7a2654fa41d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134441"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559901"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Zuweisen einer benutzerbezogenen Wähl Plan Richtlinie in lync Server 2013
 
@@ -48,9 +49,9 @@ Für den Abschluss der Benutzerkontokonfiguration für Benutzer von Enterprise-V
 
 Ausführliche Informationen zum Konfigurieren von Wählplänen finden Sie unter [Konfigurieren von Wählplänen in lync Server 2013](lync-server-2013-configuring-dial-plans.md) Thema.
 
-## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Zuweisen eines benutzerbezogenen Wählplans mithilfe von Windows PowerShell-Cmdlets
+## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Zuweisen eines Per-User Wähl Plans mithilfe von Windows PowerShell-Cmdlets
 
-Sie können benutzerspezifische Wählpläne mit Windows PowerShell und dem Cmdlet **Grant-CsdialPlan** zuweisen. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können benutzerspezifische Wählpläne mit Windows PowerShell und dem Cmdlet **Grant-CsdialPlan** zuweisen. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer einen Wählplan pro Benutzer zu
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zuweisen einer Standortrichtlinie pro Benutzer'
+description: 'Lync Server 2013: weisen Sie eine ortungsrichtlinie pro Benutzer zu.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 81631740e0a6c908c392ccacb6b37d7033d9224c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134431"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559881"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Zuweisen einer Standortrichtlinie pro Benutzer in lync Server 2013
 
@@ -77,7 +78,7 @@ Ausführliche Informationen zum Erstellen von ortungsrichtlinien finden Sie unte
     
 
     > [!NOTE]  
-    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds <STRONG>Richtlinien zuweisen</STRONG> konfigurieren <STRONG> &lt;&gt; </STRONG> können, ist für jede Richtlinie im Dialogfeld standardmäßig beizubehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds <STRONG>Richtlinien zuweisen</STRONG> konfigurieren können, ist für jede Richtlinie im Dialogfeld standardmäßig <STRONG> &lt; &gt; beizubehalten</STRONG> aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
       - Zulassen, dass lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Subnetzebene wählt.
@@ -92,9 +93,9 @@ Ausführliche Informationen zum Erstellen von ortungsrichtlinien finden Sie unte
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Zuweisen einer Standortrichtlinie auf Benutzerbasis mithilfe lync Server-Verwaltungsshell-Cmdlets
+## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Zuweisen einer Per-User ortungsrichtlinie mithilfe von lync Server-Verwaltungsshell-Cmdlets
 
-Sie können benutzerspezifische ortungsrichtlinien zuweisen, indem Sie das Grant-CsLocationPolicy-Cmdlet verwenden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können benutzerspezifische ortungsrichtlinien zuweisen, indem Sie das Grant-CsLocationPolicy-Cmdlet verwenden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>So weisen Sie eine benutzerbasierte Standortrichtlinie einem einzelnen Benutzer zu
 

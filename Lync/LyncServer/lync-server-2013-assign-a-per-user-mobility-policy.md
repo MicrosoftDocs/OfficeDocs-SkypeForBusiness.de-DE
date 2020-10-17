@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zuweisen einer Mobilitätsrichtlinie pro Benutzer'
+description: 'Lync Server 2013: weisen Sie eine benutzerspezifische Mobilitätsrichtlinie zu.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9b17c58cf3477002a7fa43035b72c77963663316
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134421"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559831"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Zuweisen einer benutzerbezogenen Mobilitätsrichtlinie in lync Server 2013
 
@@ -69,10 +70,10 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
     
 
     > [!NOTE]  
-    > Da es mehrere Richtlinien gibt, die Sie in <STRONG>Zuweisungsrichtlinien</STRONG>konfigurieren können, <STRONG> &lt;&gt; </STRONG> ist für jede Richtlinie im Dialogfeld standardmäßig beizubehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > Da es mehrere Richtlinien gibt, die Sie in <STRONG>Zuweisungsrichtlinien</STRONG>konfigurieren können, ist für jede Richtlinie im Dialogfeld standardmäßig <STRONG> &lt; &gt; beizubehalten</STRONG> aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
-      - Wählen ** \<Sie\> automatisch** aus, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Standortebene auswählen kann.
+      - Aktivieren Sie **\<Automatic\>** diese Option, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Standortebene auswählen kann.
     
       - Klicken Sie auf der Seite **Mobilitätsrichtlinie** auf den Namen einer benutzerbasierten Mobilitätsrichtlinie, die Sie zuvor definiert haben.
         
@@ -84,9 +85,9 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer benutzerbasierten Mobilitätsrichtlinie mithilfe von Windows PowerShell-Cmdlets
+## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Per-User Mobilitätsrichtlinie mithilfe von Windows PowerShell-Cmdlets
 
-Sie können benutzerspezifische mobilitätsrichtlinien zuweisen, indem Sie Windows PowerShell und das **Grant-CsMobilityPolicy-** Cmdlet verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können benutzerspezifische mobilitätsrichtlinien zuweisen, indem Sie Windows PowerShell und das **Grant-CsMobilityPolicy-** Cmdlet verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine benutzerbasierte Mobilitätsrichtlinie zu
 

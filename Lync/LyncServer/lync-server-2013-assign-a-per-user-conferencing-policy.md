@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zuweisen einer konferenzrichtlinie für einzelne Benutzer'
+description: 'Lync Server 2013: Zuweisen einer konferenzrichtlinie auf Benutzerbasis.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47419dfde4bf41b0edfccb2bce23393f04c49a3d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 819d1431a2a7a921ff8c306c47c8b5f86bf5d5bb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134451"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559921"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Zuweisen einer benutzerbezogenen konferenzrichtlinie in lync Server 2013
 
@@ -77,10 +78,10 @@ Ausführliche Informationen zum Erstellen von Konferenzrichtlinien finden Sie un
     
 
     > [!NOTE]  
-    > Da es mehrere Richtlinien gibt, die Sie in <STRONG>Zuweisungsrichtlinien</STRONG>konfigurieren können, <STRONG> &lt;&gt; </STRONG> ist für jede Richtlinie im Dialogfeld standardmäßig beizubehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > Da es mehrere Richtlinien gibt, die Sie in <STRONG>Zuweisungsrichtlinien</STRONG>konfigurieren können, ist für jede Richtlinie im Dialogfeld standardmäßig <STRONG> &lt; &gt; beizubehalten</STRONG> aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
-      - Wählen ** \<Sie\> automatisch** aus, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Standortebene auswählen kann.
+      - Aktivieren Sie **\<Automatic\>** diese Option, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Standortebene auswählen kann.
     
       - Klicken Sie auf der Seite **Konferenzrichtlinie** auf den Namen einer Konferenzrichtlinie auf Benutzerebene, die Sie zuvor definiert haben.
         
@@ -92,9 +93,9 @@ Ausführliche Informationen zum Erstellen von Konferenzrichtlinien finden Sie un
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer benutzerbezogenen konferenzrichtlinie mithilfe von Windows PowerShell-Cmdlets
+## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Per-User konferenzrichtlinie mithilfe von Windows PowerShell-Cmdlets
 
-Benutzerspezifische Konferenzrichtlinien können mithilfe von Windows PowerShell und dem Cmdlet Grant-CsConferencingPolicy zugewiesen werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Benutzerspezifische Konferenzrichtlinien können mithilfe von Windows PowerShell und dem Grant-CsConferencingPolicy-Cmdlet zugewiesen werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine konferenzrichtlinie pro Benutzer zu
 
