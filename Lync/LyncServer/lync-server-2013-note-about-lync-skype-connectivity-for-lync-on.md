@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Hinweis zur lync-Skype-Konnektivität für lync unter'
+title: 'Lync Server 2013: Hinweis zu Lync-Skype Konnektivität für lync unter'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 57793359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8535c2a3d4f3d5f1cae8ec443283c1a3db8c8c45
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 59fae4389400042f5ca99f56113fbfbff4941ce6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221549"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522222"
 ---
+# <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>Hinweis zu Lync-Skype Konnektivität in lync Server 2013 für lync Online Kunden
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="note-about-lync-skype-connectivity-in-lync-server-2013-for-lync-online-customers"></a>Hinweis zu lync-Skype-Konnektivität in lync Server 2013 für lync Online Kunden
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "44221549"
 
 _**Letztes Änderungsstand des Themas:** 2013-09-23_
 
-Dieses Dokument wurde geschrieben, um lync Server lokalen Administratoren zu helfen, die lync-Skype-Konnektivität einzurichten.Die lync-Skype-Konnektivität ist auch ein Feature von lync Online, das Teil von Office 365 und Microsoft 365 ist. Sie können das lync-Skype Connectivity-Feature in der lync-Verwaltungskonsole im Admin Center aktivieren.
+Dieses Dokument wurde geschrieben, um lync Server lokalen Administratoren zu helfen, Lync-Skype Konnektivität einzurichten.Lync-Skype Konnektivität ist auch ein Feature von lync Online, das Teil von Office 365 und Microsoft 365 ist. Sie können das Feature Lync-Skype Konnektivität in der lync-Verwaltungskonsole im Admin Center aktivieren.
 
-Für Microsoft 365 mittelständische Unternehmen, Office 365 Enterprise, Microsoft 365 Education und Office 365 for Government: Melden Sie sich beim Office 365-Portal oder Microsoft 365 Admin Center an, und navigieren Sie zur **lync-Verwaltungskonsole**. Wechseln Sie zu **externe Kommunikation**. Klicken Sie unter **öffentliche Sofortnachrichten-Dienstanbieter**auf **aktivieren**. Wenn Sie den Zugriff einzelner Benutzer auf lync-Skype-Konnektivität steuern möchten, können Sie dies tun, indem Sie die Einstellungen für die externe Kommunikation einzelner Benutzer bearbeiten.
+Für Microsoft 365 mittelständische Unternehmen, Office 365 Enterprise, Microsoft 365 Education und Office 365 for Government: Melden Sie sich beim Office 365-Portal oder Microsoft 365 Admin Center an, und navigieren Sie zur **lync-Verwaltungskonsole**. Wechseln Sie zu **externe Kommunikation**. Klicken Sie unter **öffentliche Sofortnachrichten-Dienstanbieter**auf **aktivieren**. Wenn Sie den Zugriff einzelner Benutzer auf Lync-Skype Konnektivität steuern möchten, können Sie dies tun, indem Sie die Einstellungen für die externe Kommunikation einzelner Benutzer bearbeiten.
 
-Für Microsoft 365 Small Business Premium: Melden Sie sich bei Microsoft 365 an, und wechseln Sie zu **Administrator \> Diensteinstellungen \> Chat, Besprechungen und Konferenzen**. Aktivieren Sie die externe Kommunikation. Der Switch für externe Kommunikation aktiviert sowohl die lync-Skype-Konnektivität als auch die Kommunikation mit anderen Organisationen, die lync verwenden. Je nachdem, wann Sie mit der Verwendung von lync Online begonnen haben, kann der Switch für externe Kommunikationen in einem "on"-Zustand zunächst nur darauf hindeuten, dass die Kommunikation mit anderen lync-Organisationen aktiviert ist. Um die lync-Skype-Konnektivität zu aktivieren, schalten Sie den Switch einfach aus und wieder ein.
+Für Microsoft 365 Small Business Premium: Melden Sie sich bei Microsoft 365 an, und wechseln Sie zu **Administrator \> Diensteinstellungen \> Chat, Besprechungen und Konferenzen**. Aktivieren Sie die externe Kommunikation. Der Switch für externe Kommunikationen aktiviert sowohl Lync-Skype Konnektivität als auch die Kommunikation mit anderen Organisationen, die lync verwenden. Je nachdem, wann Sie mit der Verwendung von lync Online begonnen haben, kann der Switch für externe Kommunikationen in einem "on"-Zustand zunächst nur darauf hindeuten, dass die Kommunikation mit anderen lync-Organisationen aktiviert ist. Um die Lync-Skype Konnektivität zu aktivieren, schalten Sie den Switch einfach aus und wieder ein.
 
 </div>
 

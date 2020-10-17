@@ -1,5 +1,5 @@
 ---
-title: Teams für Bildung
+title: Microsoft Teams für Bildungseinrichtungen
 description: Informieren Sie sich über die Administrator Ressourcen, die Ihnen bei der erfolgreichen Bereitstellung, Übernahme und Verwaltung von Teams in ihrer Schule oder Institution zur Verfügung stehen.
 ms.topic: conceptual
 author: lanachin
@@ -8,6 +8,7 @@ manager: serdars
 audience: admin
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.assignments.overview
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
@@ -18,14 +19,14 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 452f75284e67f600406e16075e1f01c7de491975
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6c84caf7bd2307d290887ef9206f16625a25c996
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506322"
 ---
-# <a name="teams-for-education"></a>Teams für Bildung
+# <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
 Mit Teams können Pädagogen und Dozenten gemeinschaftliche Klassenräume erstellen, in professionellen Lerngemeinschaften eine Verbindung herstellen und mit Schülern und Pädagogen kommunizieren. Verwenden Sie die Administrator Ressourcen hier, um Ihnen beim erfolgreichen bereitstellen, übernehmen und Verwalten von Teams in Ihrer Bildungseinrichtung zu helfen. 
 

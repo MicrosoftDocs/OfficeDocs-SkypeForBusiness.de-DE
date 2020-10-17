@@ -12,20 +12,22 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93e750d66f3c18ee0960237ab5ffdfb37784f157
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97971d339dc57ab8786ff4a05adadd016a87e23a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522452"
 ---
+# <a name="device-report-in-lync-server-2013"></a>Gerätebericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-report-in-lync-server-2013"></a>Gerätebericht in lync Server 2013
+
 
 </div>
 
@@ -197,7 +199,7 @@ Wenn es um Gerätenamen geht, ist der gerätebericht äußerst detailliert; nehm
 
 </div>
 
-Oft werden Sie diese Detailgenauigkeit wünschen. zu anderen Zeiten sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon unabhängig von der Modellnummer verwenden. Eine Möglichkeit zum Abrufen von Informationen wie das ist das Exportieren der Geräte Berichtsdaten in Microsoft Excel und das anschließende Speichern dieser Daten in einer Datei mit Komma getrennten Werten (beispielsweise C\\:\\Data\_Devices Report. CSV). Anschließend können Sie eine Reihe von Befehlen wie diese verwenden, um die zu importieren. CSV-Datei in Windows PowerShell und melden Sie die Gesamtzahl der Anrufe, die mit einem Aastra Capture-Gerät ausgeführt wurden, zurück:
+Oft werden Sie diese Detailgenauigkeit wünschen. zu anderen Zeiten sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon unabhängig von der Modellnummer verwenden. Eine Möglichkeit zum Abrufen von Informationen wie das ist das Exportieren der Geräte Berichtsdaten in Microsoft Excel und das anschließende Speichern dieser Daten in einer Datei mit Komma getrennten Werten (beispielsweise C: \\ Daten \\ Geräte \_Report.csv). Anschließend können Sie eine Reihe von Befehlen wie diese verwenden, um die zu importieren. CSV-Datei in Windows PowerShell und melden Sie die Gesamtzahl der Anrufe, die mit einem Aastra Capture-Gerät ausgeführt wurden, zurück:
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -393,7 +395,7 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem geräteber
 <p>Mikrofon (Microsoft LifeCam VX-1000.)</p>
 <p>Sie können auch nur einen Teil des Namens eingeben. Zum Beispiel:</p>
 <p>LifeCam</p>
-<p>Beachten Sie, dass der obige Filter jedes Gerät zurückgibt, &quot;das&quot; die Zeichenfolge LifeCam Anywhere in seinem Namen enthält.</p></td>
+<p>Beachten Sie, dass der obige Filter jedes Gerät zurückgibt, das die Zeichenfolge &quot; LifeCam &quot; Anywhere in seinem Namen enthält.</p></td>
 </tr>
 </tbody>
 </table>
@@ -441,7 +443,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im geräteberic
 <tr class="even">
 <td><p><strong>Prozentsatz der Anrufe schlechter Qualität</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Prozentsatz der Anrufe, die als &quot;unzureichend klassifiziert wurden. &quot; Bei einem schlechten Anruf handelt es sich um einen Anruf, bei dem mindestens eine der gemessenen Metriken den zulässigen Wert überschritten hat (beispielsweise ein Anruf, bei dem übermäßiger Jitter aufgetreten ist).</p></td>
+<td><p>Prozentsatz der Anrufe, die als unzureichend klassifiziert wurden &quot; . &quot; Bei einem schlechten Anruf handelt es sich um einen Anruf, bei dem mindestens eine der gemessenen Metriken den zulässigen Wert überschritten hat (beispielsweise ein Anruf, bei dem übermäßiger Jitter aufgetreten ist).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Eindeutige Benutzer</strong></p></td>

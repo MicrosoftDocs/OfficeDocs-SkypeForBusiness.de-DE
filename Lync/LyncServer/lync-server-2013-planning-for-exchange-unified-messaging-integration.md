@@ -12,20 +12,22 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049de11361f0d27390df75592035bd31eca17c18
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 298e0f2667707c0ff73819b6fdd38ab105474d91
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522242"
 ---
+# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Planen der Integration von Exchange Unified Messaging in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Planen der Integration von Exchange Unified Messaging in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server 2013 unterstützt die Integration in Exchange Unified Messaging (um)
 
 In Microsoft Exchange Server 2013 wird Exchange um als Dienst auf einem Exchange-Post Fach Server ausgeführt. Für lync Server 2013 Enterprise-VoIP-Bereitstellungen kombiniert Unified Messaging Sprachnachrichten und e-Mail-Nachrichten in einem einzigen Speicher, der über ein Telefon (Outlook Voice Access) oder einen Computer zur Verfügung steht. Unified Messaging und lync Server 2013 arbeiten zusammen, um Mailboxansage, Outlook Voice Access und automatische Telefonzentralendienste für Benutzer von Enterprise-VoIP bereitzustellen.
 
-Weitere Informationen zu den Architekturänderungen in Microsoft Exchange Server 2013 finden Sie unter "Änderungen an der Spracharchitektur" in der Microsoft Exchange Server 2013 [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730)-Dokumentation unter.
+Weitere Informationen zu den Architekturänderungen in Microsoft Exchange Server 2013 finden Sie unter "Änderungen an der Spracharchitektur" in der Microsoft Exchange Server 2013-Dokumentation unter [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730) .
 
 Damit diese Features in einer lokalen Exchange um-Bereitstellung unterstützt werden, müssen Sie eine der folgenden Aktionen ausführen:
 

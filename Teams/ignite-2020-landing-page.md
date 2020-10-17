@@ -4,13 +4,16 @@ description: Hier finden Sie alle verfügbaren Learning for Business Central-Too
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357603"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514942"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams-Sitzungen bei Ignite 2020
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357603"
 |[Erstellen benutzerdefinierter apps, Bots und Automatisierung für Microsoft Teams mit Funktionen mit geringem Code](https://aka.ms/PR134)|Hier erfahren Sie, wie Sie mit dem Erstellen benutzerdefinierter Lösungen für Teams beginnen.  Wir vertiefen die Integration von Teams und Power Platform, um zu zeigen, wie Benutzer benutzerdefinierte digitale Tools erstellen können – selbst wenn Sie keine Entwickler Erfahrung haben|300|Pete Daderko, Geneve Estrada|
 |[Erhöhen der Benutzerfreundlichkeit mit Teams und adaptiver Karte](https://aka.ms/PR135)|Die Teams-Plattform mit adaptiven Karten ermöglicht das Erstellen von wunderbaren integrierten und umsetzbaren Benutzer Erfahrungen in Teams. In dieser Sitzung wird erläutert, wie Entwickler neue Funktionen nutzen können, um kontextbezogene und kompatible Erfahrungen zu erstellen, die die Zusammenarbeit in Teams erhöhen.|300|Suryamanohar Mallela, Shubham Chauhan|
 |[Tipps und Kniffe: bewährte Methoden und häufige Herausforderungen beim Erstellen von Microsoft Teams-apps](https://aka.ms/PR136) |Nehmen Sie an einer Sitzung Teil, in der wir einige häufige Herausforderungen behandeln, die Entwickler beim Erstellen von Teams-apps ausführen. Entwickler können diese Sitzung mit Tipps und Einblicken belegen, die Sie während der Weiterentwicklung ihrer Teams-App-Entwicklungsreise verwenden können.|400|Adrian Solis, Erin Bailie|
-|[Erstellen von reibungslosen apps & die eine nahtlose Einführung mithilfe von Autorisierungs-und Authentifizierungsfunktionen und Microsoft Graph ermöglichen](https://aka.ms/PR137)|Entwickeln Sie Apps mit leistungsstarken Funktionen wie einmaliges Anmelden (Single Sign-on, SSO), Ressourcen spezifischer Genehmigung (RSC), granulare Berechtigungen und wo IT-Administratoren erfahren, wie Sie Diagramm-APIs zur Automatisierung des App-Lebenszyklus/-Managements nutzen können.|400|Nick Kramer|
+|[Erstellen von reibungslosen apps & die eine nahtlose Einführung mithilfe von Autorisierungs-und Authentifizierungsfunktionen und Microsoft Graph ermöglichen](https://aka.ms/PR137)|Entwickeln von apps mit leistungsstarken Funktionen wie Single Sign-On (SSO), Resource-Specific Zustimmung (RSC), granularen Berechtigungen und wo IT-Administratoren erfahren, wie Sie Diagramm-APIs zur Automatisierung des App-Lebenszyklus/-Managements nutzen können.|400|Nick Kramer|
 ||||||
 
 ### <a name="industry"></a>Industrie

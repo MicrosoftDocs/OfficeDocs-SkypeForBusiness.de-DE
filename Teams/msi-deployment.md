@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57b7cdcf2229f6fa0aa6b9710866545238bec98c
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323929"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504962"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -33,18 +33,18 @@ Wenn Sie für die allgemeine Bereitstellung Microsoft Endpoint Configuration Man
 
 Hier sind die Links zu den MSI-Dateien:
 
-|Entität  |32-Bit      |64-Bit      |
-|---------|---------|---------|
-|Commercial     | [32-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|Bundesbehörden – GCC     | [32-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|Bundesbehörden – GCC High    | [32-Bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-Bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|Bundesbehörden – DoD     | [32-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Entität  |32-Bit      |64-Bit      | ARM64 |
+|---------|---------|---------|-----------|
+|Commercial     | [32-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Bundesbehörden – GCC     | [32-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Bundesbehörden – GCC High    | [32-Bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-Bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Bundesbehörden – DoD     | [32-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **Wenn Sie eine erfolgreiche Bereitstellung sicherstellen möchten, beachten Sie Folgendes:**
 
 - Installieren Sie die 64-Bit-Version von Teams auf 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, ist die Installation nicht erfolgreich, und es wird derzeit keine Fehlermeldung angezeigt.
 
-- Wenn sich der Kunde Mandant auf der GCCH-oder DoD-Cloud befindet, sollte der Kunde den anfänglichen Endpunkt in der Registrierung durch Hinzufügen des **cloudtype** -Werts zum **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** -Schlüssel in der Registrierung festzulegen. Der Typ für **cloudtype** ist **DWORD** , und die Werte sind (0 = unset, 1 = kommerziell, 2 = gcc, 3 = GCCH; 4 = DoD). Durch das Festlegen des Endpunkts mit dem Registrierungsschlüssel wird für Teams die Verbindung zum richtigen Cloud-Endpunkt für die Voranmeldungs Konnektivität mit Teams eingeschränkt.
+- Wenn sich der Kunde Mandant auf der GCCH-oder DoD-Cloud befindet, sollte der Kunde den anfänglichen Endpunkt in der Registrierung durch Hinzufügen des **cloudtype** -Werts zum **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** -Schlüssel in der Registrierung festzulegen. Der Typ für **cloudtype** ist **DWORD** , und die Werte sind (0 = unset, 1 = kommerziell, 2 = gcc, 3 = GCCH; 4 = DoD). Durch das Festlegen des Endpunkts mit dem Registrierungsschlüssel wird für Teams die Verbindung zum richtigen Cloud-Endpunkt für die Voranmeldungs Konnektivität mit Teams eingeschränkt.
 
 - Teams können auch in einer Bereitstellung von Microsoft 365-Apps für Unternehmen enthalten sein. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/deployoffice/teams-install).
 

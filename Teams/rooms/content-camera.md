@@ -12,14 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
 description: Verwenden Sie eine Inhalts Kamera in einem Microsoft Teams-Chatroom, die mit der Bildverarbeitungssoftware interagiert, damit Referenten auf einem analogen Whiteboard zeichnen können.
-ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ced0a65c0c1fab25bd1b244aea7301d654c44a9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508312"
 ---
 # <a name="content-cameras"></a>Inhalts-Kameras
 
@@ -96,7 +97,7 @@ Nachdem Sie die Kamera im Chatroom installiert haben, richten Sie Sie in der Mic
 
 Sie können diese Einstellungen auch Remote mithilfe einer [XML-Konfigurationsdatei](xml-config-file.md)anpassen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei](xml-config-file.md)
 

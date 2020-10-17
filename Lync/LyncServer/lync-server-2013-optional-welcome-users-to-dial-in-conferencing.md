@@ -12,20 +12,22 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4698484c240322623760f1fd308398192bfb928f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fde04364faf306983f5008539c2ccc6f248955bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216441"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522252"
 ---
+# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Optional Begrüßen von Benutzern für Einwahlkonferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>Optional Begrüßen von Benutzern für Einwahlkonferenzen in lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42216441"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-30_
 
-Nachdem Sie Einwahlkonferenzen und Tests konfiguriert haben, um sicherzustellen, dass die Funktion ordnungsgemäß funktioniert, sollten Sie die anfänglichen persönlichen Identifikationsnummern (Pins) für Benutzer festlegen und die Benutzer über die Verfügbarkeit des Features informieren, einschließlich einführende Anweisungen wie als anfänglicher PIN und Link zur Webseite für Einwahlkonferenzeinstellungen. Dieser Schritt ist optional. Normalerweise verwenden Sie das Cmdlet " **CsClientPin** ", um Pins zurückzusetzen, aber Sie können das Verfahren in diesem Thema zum ersten Mal verwenden, wenn Sie eine Willkommens-e-Mail mit den Informationen senden möchten. Wenn Sie die e-Mail nicht senden möchten, können Sie stattdessen die **Einstellung "CsClientPin** " verwenden.
+Nachdem Sie Einwahlkonferenzen und Tests konfiguriert haben, um sicherzustellen, dass die Funktion ordnungsgemäß funktioniert, sollten Sie anfängliche persönliche Identifikationsnummern (Pins) für Benutzer festlegen und die Benutzer über die Verfügbarkeit des Features informieren, einschließlich einführende Anweisungen wie die anfängliche PIN und den Link zur Webseite für Einwahlkonferenzeinstellungen. Dieser Schritt ist optional. Normalerweise verwenden Sie das Cmdlet " **CsClientPin** ", um Pins zurückzusetzen, aber Sie können das Verfahren in diesem Thema zum ersten Mal verwenden, wenn Sie eine Willkommens-e-Mail mit den Informationen senden möchten. Wenn Sie die e-Mail nicht senden möchten, können Sie stattdessen die **Einstellung "CsClientPin** " verwenden.
 
 Sie können das Skript " **CsPinSendCAWelcomeMail** " verwenden, um die PIN festzulegen und eine Willkommens-e-Mail an einen einzelnen Benutzer zu senden. Standardmäßig setzt das Skript keine PIN zurück, wenn es bereits festgelegt ist, aber Sie können den Parameter **Force** verwenden, um das Zurücksetzen einer PIN zu erzwingen. Die e-Mail-Nachricht wird mit Simple Mail Transfer Protocol (SMTP) gesendet.
 
-Sie können ein Skript erstellen, mit dem das **CsPinSendCAWelcomeMail-** Skript iterativ ausgeführt wird, um Pins festzulegen und e-Mails an eine Gruppe von Benutzern zu senden. Sie können die e-Mail-Vorlage (d **. CAWelcomeEmailTemplate. html** -Datei) so ändern, dass weitere Links zu Intranetseiten hinzugefügt oder der e-Mail-Text geändert wird.
+Sie können ein Skript erstellen, mit dem das **CsPinSendCAWelcomeMail-** Skript iterativ ausgeführt wird, um Pins festzulegen und e-Mails an eine Gruppe von Benutzern zu senden. Sie können die e-Mail-Vorlage (d. h. die **CAWelcomeEmailTemplate.html** -Datei) ändern, um weitere Links zu Intranetseiten hinzuzufügen oder den e-Mail-Text zu ändern.
 
 <div>
 
@@ -64,9 +66,9 @@ Sie können ein Skript erstellen, mit dem das **CsPinSendCAWelcomeMail-** Skript
         [-Pin <new numeric PIN>] [-Force] `
         [-Credential <SMTP server credentials used to send email with the specified From address>]
     
-    **SmtpServer**   standardmäßig verwendet das Skript den Wert der reservierten Umgebungsvariablen **$PSEmailServer** für diesen Parameter. Wenn die **$PSEmailServer** -Variable nicht festgelegt ist, müssen Sie diesen Parameter angeben.
+    **SmtpServer**     Das Skript verwendet standardmäßig den Wert der reservierten Umgebungsvariablen **$PSEmailServer** für diesen Parameter. Wenn die **$PSEmailServer** -Variable nicht festgelegt ist, müssen Sie diesen Parameter angeben.
     
-    **Anmeldeinformationen**   standardmäßig verwendet das Skript die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht über die Berechtigung zum Senden von e-Mails im Namen der angegebenen von-Adresse verfügt, müssen Sie diesen Parameter angeben. Als allgemeine Regel müssen Sie diesen Parameter angeben, wenn Sie Ihre e-Mail-Adresse nicht als Absenderadresse angeben.
+    **Anmeldeinformationen**     Standardmäßig verwendet das Skript die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht über die Berechtigung zum Senden von e-Mails im Namen der angegebenen von-Adresse verfügt, müssen Sie diesen Parameter angeben. Als allgemeine Regel müssen Sie diesen Parameter angeben, wenn Sie Ihre e-Mail-Adresse nicht als Absenderadresse angeben.
     
     Zum Beispiel:
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc219e06e0d9bb6f7d76d4d08aef991c525b3aaf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d20aa4cfc8ab86dfe12458fbd9ce04e11fc4442e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207875"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522392"
 ---
+# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Aktivieren oder Deaktivieren der Integration von lync Server 2013 mit Exchange-Speicher
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Aktivieren oder Deaktivieren der Integration von lync Server 2013 mit Exchange-Speicher
+
 
 </div>
 

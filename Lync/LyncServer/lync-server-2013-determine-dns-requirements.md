@@ -12,20 +12,22 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3f1bc8cd839b986a4830ad32f797835c56e9ebd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d00f86eb437f673e83e2ea2e610ad9b35dbea082
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522602"
 ---
+# <a name="determine-dns-requirements-for-lync-server-2013"></a>Bestimmen der DNS-Anforderungen für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determine-dns-requirements-for-lync-server-2013"></a>Bestimmen der DNS-Anforderungen für lync Server 2013
+
 
 </div>
 
@@ -67,31 +69,31 @@ Anhand des folgenden Ablaufdiagramms können Sie die DNS-Anforderungen (Domain N
 
 ## <a name="how-lync-clients-locate-services"></a>So finden lync-Clients Dienste
 
-Microsoft lync 2010, lync 2013 und lync Mobile ähneln der Art und Weise, in der der Clientdienste in lync Server 2013 findet und zugreift. Die wichtigste Ausnahme ist die lync Windows Store-App, die einen anderen Dienststandort Prozess verwendet. In diesem Abschnitt werden zwei Szenarien beschrieben, wie die Clients Dienste suchen, zunächst die herkömmliche Methode, die eine Reihe von SRV-und Hosteinträgen verwendet, und zweitens nur die Datensätze des AutoErmittlungsdiensts. Kumulierte Aktualisierungen der Desktop Clients ändern den DNS-Standort Prozess von lync Server 2010 für alle Clients, der DNS-Abfrageprozess wird fortgesetzt, bis eine erfolgreiche Abfrage zurückgegeben wird, oder die Liste der möglichen DNS-Einträge ist erschöpft, und der letzte Fehler wird an zurückgegeben. der Client.
+Microsoft lync 2010, lync 2013 und lync Mobile ähneln der Art und Weise, in der der Clientdienste in lync Server 2013 findet und zugreift. Die wichtigste Ausnahme ist die lync Windows Store-App, die einen anderen Dienststandort Prozess verwendet. In diesem Abschnitt werden zwei Szenarien beschrieben, wie die Clients Dienste suchen, zunächst die herkömmliche Methode, die eine Reihe von SRV-und Hosteinträgen verwendet, und zweitens nur die Datensätze des AutoErmittlungsdiensts. Kumulierte Aktualisierungen der Desktop Clients ändern den DNS-Standort Prozess von lync Server 2010 für alle Clients, der DNS-Abfrageprozess wird fortgesetzt, bis eine erfolgreiche Abfrage zurückgegeben wird, oder die Liste der möglichen DNS-Einträge ist erschöpft, und der letzte Fehler wird an den Client zurückgegeben.
 
 Für alle Clients **mit Ausnahme** der lync Windows Store-App während der DNS-Suche werden SRV-Einträge abgefragt und in der folgenden Reihenfolge an den Client zurückgegeben:
 
-1.  "lyncdiscoverinternal". \<Domain\> A (Host)-Eintrag für den AutoErmittlungsdienst in den internen Webdiensten
+1.  "lyncdiscoverinternal". \<domain\>     Ein (Host)-Eintrag für den AutoErmittlungsdienst in den internen Webdiensten
 
-2.  lyncdiscover. \<Domain\> A (Host)-Eintrag für den AutoErmittlungsdienst in den externen Webdiensten
+2.  lyncdiscover. \<domain\>     Ein (Host)-Eintrag für den AutoErmittlungsdienst in den externen Webdiensten
 
-3.  \_sipinternaltls. \_TCP. \<Domänen\> -SRV-Eintrag (Service Locator) für interne TLS-Verbindungen
+3.  \_sipinternaltls. \_ TCP. \<domain\>     SRV (Service Locator)-Eintrag für interne TLS-Verbindungen
 
-4.  \_sipinternal. \_TCP. \<Domänen\> -SRV-Eintrag (Dienst Locator) für interne TCP-Verbindungen (nur ausgeführt, wenn TCP zulässig ist)
+4.  \_sipinternal. \_ TCP. \<domain\>     SRV (Service Locator)-Eintrag für interne TCP-Verbindungen (nur ausgeführt, wenn TCP zulässig ist)
 
-5.  \_SIP. \_TLS. \<Domänen\> -SRV (Service Locator)-Eintrag für externe TLS-Verbindungen
+5.  \_SIP. \_ TLS. \<domain\>     SRV (Service Locator)-Eintrag für externe TLS-Verbindungen
 
-6.  sipinternal. \<Domain\> A (Host)-Eintrag für den Front-End-Pool oder Director, nur im internen Netzwerk lösbar
+6.  sipinternal. \<domain\>     Ein (Host-) Eintrag für den Front-End-Pool oder Director, der nur im internen Netzwerk aufgelöst werden kann
 
-7.  SIP. \<Domain\> A (Host)-Eintrag für den Front-End-Pool oder Director im internen Netzwerk oder den Zugriffs-Edgedienst, wenn der Client extern ist
+7.  SIP. \<domain\>     Ein (Host-) Eintrag für den Front-End-Pool oder Director im internen Netzwerk oder die Zugriffs-Edgedienst, wenn der Client extern ist
 
-8.  sipexternal. \<Domänen\> -a-Eintrag (Host) für die Zugriffs-Edgedienst, wenn der Client extern ist
+8.  sipexternal. \<domain\>     Ein (Host-) Eintrag für den Zugriffs-Edgedienst, wenn der Client extern ist
 
 Die lync Windows Store-App ändert den Prozess vollständig, da zwei Datensätze verwendet werden:
 
-1.  "lyncdiscoverinternal". \<Domain\> A (Host)-Eintrag für den AutoErmittlungsdienst in den internen Webdiensten
+1.  "lyncdiscoverinternal". \<domain\>     Ein (Host)-Eintrag für den AutoErmittlungsdienst in den internen Webdiensten
 
-2.  lyncdiscover. \<Domain\> A (Host)-Eintrag für den AutoErmittlungsdienst in den externen Webdiensten
+2.  lyncdiscover. \<domain\>     Ein (Host)-Eintrag für den AutoErmittlungsdienst in den externen Webdiensten
 
 Es gibt kein Fallback auf die anderen Datensatztypen.
 
@@ -133,9 +135,9 @@ Wenn die kumulativen Updates für lync Server 2013:2013 Februar installiert wurd
 
 Mobile Geräte unterstützen die manuelle Ermittlung von Diensten. In diesem Fall muss jeder Benutzer in den Einstellungen des mobilen Geräts wie folgt die vollständigen internen und externen AutoErmittlungsdienst-URIs konfigurieren, einschließlich Protokoll und Pfad:
 
-  - https://\<ExtPoolFQDN\>/autodiscover/autodiscoverservice.svc/root für externen Zugriff
+  - https://- \<ExtPoolFQDN\> /autodiscover/autodiscoverservice.svc/root für externen Zugriff
 
-  - https://\<IntPoolFQDN\>/autodiscover/autodiscover.svc/root für internen Zugriff
+  - https://- \<IntPoolFQDN\> /autodiscover/autodiscover.svc/root für internen Zugriff
 
 Es wird empfohlen, die automatische Ermittlung anstelle von manueller Ermittlung zu verwenden. Manuelle Einstellungen können jedoch bei der Behandlung von Problemen mit der Konnektivität mobiler Geräte hilfreich sein.
 
@@ -143,7 +145,7 @@ Es wird empfohlen, die automatische Ermittlung anstelle von manueller Ermittlung
 
 <div>
 
-## <a name="configuring-split-brain-dns-with-lync-server"></a>Konfigurieren von Split-Brain-DNS mit lync Server
+## <a name="configuring-split-brain-dns-with-lync-server"></a>Konfigurieren Split-Brain DNS mit lync Server
 
 Split-Brain-DNS ist durch eine Reihe von Namen bekannt, beispielsweise geteilte DNS oder Split-Horizon-DNS. Es wird lediglich eine DNS-Konfiguration beschrieben, in der zwei DNS-Zonen mit dem gleichen Namespace vorhanden sind – nur interne Anforderungen für DNS-Zonen Dienste und die anderen DNS-Zonen Dienste, die nur extern angefordert werden. Eine Vielzahl der DNS-SRV- und DNS-A-Einträge in der internen DNS-Konfiguration sind jedoch nicht in der externen DNS-Konfiguration enthalten und umgekehrt. In Fällen, in denen derselbe DNS-Eintrag sowohl im internen als auch im externen DNS vorhanden ist (beispielsweise www.contoso.com), unterscheidet sich die zurückgegebene IP-Adresse je nachdem, wo (intern oder extern) die Abfrage initiiert wurde.
 
@@ -151,7 +153,7 @@ Split-Brain-DNS ist durch eine Reihe von Namen bekannt, beispielsweise geteilte 
 
 
 > [!IMPORTANT]  
-> Derzeit wird Split-Brain-DNS nicht für die Mobilität unterstützt, genauer gesagt für die LyncDiscover-und "lyncdiscoverinternal"-DNS-Einträge. LyncDiscover muss auf einem externen DNS-Server definiert sein, und "lyncdiscoverinternal" muss auf einem internen DNS-Server definiert sein.
+> Derzeit wird Split-Brain DNS für die Mobilität oder genauer gesagt für die LyncDiscover-und "lyncdiscoverinternal"-DNS-Einträge nicht unterstützt. LyncDiscover muss auf einem externen DNS-Server definiert sein, und "lyncdiscoverinternal" muss auf einem internen DNS-Server definiert sein.
 
 
 
@@ -179,7 +181,7 @@ Wenn Sie Split-Brain-DNS konfigurieren, umfassen die folgenden internen und exte
     
       - Alle lync Server 2013 Edgeserver internen Edge-Schnittstellen im Umkreisnetzwerk verwenden die interne DNS-Zone zum Auflösen von Abfragen in contoso.com
     
-      - Alle Server mit lync Server 2013 und Clients, auf denen lync 2013 im Unternehmensnetzwerk läuft, weisen auf die internen DNS-Server hin, um Abfragen an contoso.com zu lösen, oder die Verwendung der Hosts-Datei auf jedem Edgeserver und Listen A und AAAA (wenn Sie IPv6-Adressierung verwenden) Einträge für Nächster Hop-Server, insbesondere der Director oder Director VIP, Front-End-Pool VIP oder Standard Edition-Server
+      - Alle Server mit lync Server 2013 und Clients, auf denen lync 2013 im Unternehmensnetzwerk läuft, weisen auf die internen DNS-Server hin, um Abfragen an contoso.com zu lösen, oder Sie können die Hosts-Datei auf jedem Edgeserver und Listen A und AAAA (wenn Sie IPv6-Adressierung verwenden) für den nächsten Hop-Server, insbesondere den Director oder Director VIP, Front-End-Pool VIP oder Standard Edition-Server
 
 **Externe DNS-Konfiguration:**
 
@@ -201,25 +203,25 @@ Wenn Sie Split-Brain-DNS konfigurieren, umfassen die folgenden internen und exte
 
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Automatische Konfiguration ohne Split-Brain-DNS
 
-Bei Verwendung von Split-Brain-DNS kann ein lync Server 2013 Benutzer, der sich intern anmeldet, die automatische Konfiguration nutzen, wenn die \_interne DNS-Zone eine sipinternaltls enthält. \_TCP-SRV-Eintrag für jede verwendete SIP-Domäne. Wenn Sie jedoch nicht Split-Brain-DNS verwenden, funktioniert die interne automatische Konfiguration von Clients, auf denen lync ausgeführt wird, nur, wenn eine der in diesem Abschnitt weiter unten beschriebenen Problemumgehungen implementiert ist. Dies liegt daran, dass lync Server 2013 erfordert, dass der SIP-URI des Benutzers mit der Domäne der Front-End-Pool übereinstimmt, die für die automatische Konfiguration festgelegt ist. Dies war auch bei früheren Versionen von Communicator der Fall.
+Bei Verwendung von Split-Brain-DNS kann ein lync Server 2013 Benutzer, der sich intern anmeldet, die automatische Konfiguration nutzen, wenn die interne DNS-Zone eine \_ sipinternaltls enthält. \_ TCP-SRV-Eintrag für jede verwendete SIP-Domäne. Wenn Sie jedoch nicht Split-Brain-DNS verwenden, funktioniert die interne automatische Konfiguration von Clients, auf denen lync ausgeführt wird, nur, wenn eine der in diesem Abschnitt weiter unten beschriebenen Problemumgehungen implementiert ist. Dies liegt daran, dass lync Server 2013 erfordert, dass der SIP-URI des Benutzers mit der Domäne der Front-End-Pool übereinstimmt, die für die automatische Konfiguration festgelegt ist. Dies war auch bei früheren Versionen von Communicator der Fall.
 
 Wenn Sie z. B. zwei SIP-Domänen verwenden, sind die zwei folgenden DNS-SRV-Einträge erforderlich:
 
   - Wenn sich ein Benutzer als Bob@contoso.com anmeldet, funktioniert der folgende SRV-Eintrag für die automatische Konfiguration, da die SIP-Domäne (contoso.com) des Benutzers mit der Domäne der automatischen Konfigurations Front-End-Pool) übereinstimmt:
     
-     \_sipinternaltls. \_TCP.contoso.com. 86400 IN SRV 0 0 5061 pool01.contoso.com
+     \_sipinternaltls. \_ TCP.contoso.com. 86400 IN SRV 0 0 5061 pool01.contoso.com
 
   - Wenn sich ein Benutzer als Alice@fabrikam.com anmeldet, funktioniert der folgende DNS-SRV-Eintrag für die automatische Konfiguration der zweiten SIP-Domäne.
     
-     \_sipinternaltls. \_TCP.fabrikam.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
+     \_sipinternaltls. \_ TCP.fabrikam.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
 
 Wenn sich ein Benutzer als Tim@litwareinc.com anmeldet, kann der folgende DNS-SRV-Eintrag zum Vergleich nicht für die automatische Konfiguration verwendet werden, da die SIP-Domäne (litwareinc.com) des Clients nicht mit der Domäne übereinstimmt, in der sich der Pool befindet (fabrikam.com):
 
- \_sipinternaltls. \_TCP.litwareinc.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
+ \_sipinternaltls. \_ TCP.litwareinc.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
 
 Wenn für Clients, die lync ausführen, die automatische Konfiguration erforderlich ist, wählen Sie eine der folgenden Optionen aus:
 
-  - **Gruppenrichtlinienobjekte**   verwenden Gruppenrichtlinienobjekte (Group Policy Objects, GPOs), um die richtigen Server Werte aufzufüllen.
+  - **Gruppenrichtlinienobjekte**     Verwenden Sie Gruppenrichtlinienobjekte (Group Policy Objects, GPOs), um die richtigen Server Werte aufzufüllen.
     
     <div>
     
@@ -230,9 +232,9 @@ Wenn für Clients, die lync ausführen, die automatische Konfiguration erforderl
     
     </div>
 
-  - **Übereinstimmende interne Zone**   erstellen Sie eine Zone im internen DNS, die der externen DNS-Zone (beispielsweise contoso.com) entspricht, und erstellen Sie DNS a und AAAA (wenn Sie IPv6-Adressierung verwenden), die dem lync Server 2013 Pool entsprechen, der für die automatische Konfiguration verwendet wird. Wenn ein Benutzer beispielsweise in pool01.contoso.NET verwaltet wird, sich jedoch als Bob@contoso.com in lync befindet, erstellen Sie eine interne DNS-Zone namens Contoso.com, und erstellen Sie in dieser einen DNS-Eintrag a und AAAA (falls IPv6-Adressierung verwendet wird) für pool01.contoso.com.
+  - **Übereinstimmende interne Zone**     Erstellen Sie eine Zone im internen DNS, die mit der externen DNS-Zone übereinstimmt (beispielsweise contoso.com), und erstellen Sie DNS a und AAAA (wenn Sie IPv6-Adressierung verwenden), die dem lync Server 2013 Pool entsprechen, der für die automatische Konfiguration verwendet wird. Wenn ein Benutzer beispielsweise in pool01.contoso.NET verwaltet wird, sich jedoch als Bob@contoso.com in lync befindet, erstellen Sie eine interne DNS-Zone namens Contoso.com, und erstellen Sie in dieser einen DNS-Eintrag a und AAAA (falls IPv6-Adressierung verwendet wird) für pool01.contoso.com.
 
-  - **Interne Pin-Punkt-Zone**   Wenn Sie eine gesamte Zone im internen DNS erstellen, ist keine Option, Sie können PIN-Punkt-(dedizierte) Zonen erstellen, die den SRV-Einträgen entsprechen, die für die automatische Konfiguration erforderlich sind, und diese Zonen mit dnscmd. exe auffüllen. Dnscmd. exe ist erforderlich, da die DNS-Benutzeroberfläche die Erstellung von PIN-Punkt-Zonen nicht unterstützt. Wenn die SIP-Domäne beispielsweise contoso.com ist und Sie über eine Front-End-Pool namens pool01 verfügen, die zwei Front-End-Server enthält, benötigen Sie die folgenden Pin-Punkt-Zonen und einen Eintrag in Ihrem internen DNS:
+  - **Interne Pin-Punkt Zone**     Wenn Sie eine gesamte Zone im internen DNS erstellen, ist keine Option, sondern Sie können PIN-Punkt-(dedizierte) Zonen erstellen, die den SRV-Einträgen entsprechen, die für die automatische Konfiguration erforderlich sind, und diese Zonen mit dnscmd.exe auffüllen. Dnscmd.exe ist erforderlich, da die DNS-Benutzeroberfläche die Erstellung von PIN-Punkt-Zonen nicht unterstützt. Wenn die SIP-Domäne beispielsweise contoso.com ist und Sie über eine Front-End-Pool namens pool01 verfügen, die zwei Front-End-Server enthält, benötigen Sie die folgenden Pin-Punkt-Zonen und einen Eintrag in Ihrem internen DNS:
     
         dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
@@ -262,7 +264,7 @@ Wenn für Clients, die lync ausführen, die automatische Konfiguration erforderl
 
 </div>
 
-Ausführliche Informationen finden Sie im DMTF-Blog Artikel "Automatische Communicator-Konfiguration und Split-Brain-DNS" [https://go.microsoft.com/fwlink/p/?linkId=200707](https://go.microsoft.com/fwlink/p/?linkid=200707)unter.
+Ausführliche Informationen finden Sie im DMTF-Blog Artikel "Communicator Automatic Configuration and Split-Brain DNS" unter [https://go.microsoft.com/fwlink/p/?linkId=200707](https://go.microsoft.com/fwlink/p/?linkid=200707) .
 
 <div>
 
@@ -427,7 +429,7 @@ DNS-Lastenausgleich kann für folgende Szenarien nicht eingesetzt werden:
 
 DNS-Lastenausgleich und Datenverkehr im Partnerverbund:
 
-Wenn mehrere DNS-Einträge von einer DNS-SRV-Abfrage zurückgegeben werden, wählt der Zugriffs-Edgedienst immer den DNS-SRV-Eintrag mit der niedrigsten numerischen Priorität und der höchsten numerischen Gewichtung aus. Das Internet Engineering Task Force-Dokument "ein DNS-Ressourceneintrag für die Angabe des Speicherorts von Diensten <http://www.ietf.org/rfc/rfc2782.txt> (DNS-SRV)" gibt an, dass wenn mehrere DNS-SRV-Einträge definiert sind, Priorität zuerst verwendet wird, dann die Gewichtung. Beispielsweise hat DNS-SRV-Eintrag a eine Gewichtung von 20 und eine Priorität von 40 und DNS-SRV-Eintrag B eine Gewichtung von 10 und eine Priorität von 50. DNS-SRV-Eintrag A mit Priorität 40 wird ausgewählt. Die folgenden Regeln gelten für die Auswahl des DNS-SRV-Eintrags:
+Wenn mehrere DNS-Einträge von einer DNS-SRV-Abfrage zurückgegeben werden, wählt der Zugriffs-Edgedienst immer den DNS-SRV-Eintrag mit der niedrigsten numerischen Priorität und der höchsten numerischen Gewichtung aus. Das Internet Engineering Task Force-Dokument "ein DNS-Ressourceneintrag für die Angabe des Speicherorts von Diensten (DNS-SRV)" <http://www.ietf.org/rfc/rfc2782.txt> gibt an, dass wenn mehrere DNS-SRV-Einträge definiert sind, Priorität zuerst verwendet wird, dann die Gewichtung. Beispielsweise hat DNS-SRV-Eintrag a eine Gewichtung von 20 und eine Priorität von 40 und DNS-SRV-Eintrag B eine Gewichtung von 10 und eine Priorität von 50. DNS-SRV-Eintrag A mit Priorität 40 wird ausgewählt. Die folgenden Regeln gelten für die Auswahl des DNS-SRV-Eintrags:
 
   - Priorität wird als erstes betrachtet. Ein Client muss versuchen, den vom DNS-SRV-Eintrag definierten Ziel Host mit der niedrigsten nummerierten Priorität zu kontaktieren, die er erreichen kann. Ziele mit derselben Priorität sollten in einer durch das gewichtungsfeld definierten Reihenfolge ausprobiert werden.
 

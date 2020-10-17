@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im folgenden wird die Funktion zum Öffnen der Vorschau für das Netzwerk für Audiokonferenzen beschrieben.
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444211"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503472"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Öffnen der Vorschau von Netzwerk Konferenzen für Audiokonferenzen
 
@@ -63,7 +63,7 @@ Sie finden die Dienstnummern im Team Admin Center unter **Besprechungen – > Ko
 
 In einer Besprechung in Ihrer Organisation werden Anrufe von Teams für die Anruf Besprechung an PSTN-Nummern initiiert, einschließlich Anrufe und Anrufe, um neue Teilnehmer zu einer Besprechung zu führen. 
 
-Sie müssen eine Richtlinie für die Audiokonferenz-Routing Richtlinie mit dem Namen "OnlineAudioConferencingRoutingPolicy" erstellen und zuweisen, um Teams das Einwahl Routing über das direkte Routing zu ermöglichen. 
+Sie müssen eine Richtlinie für die Audiokonferenz-Routing Richtlinie mit dem Namen "OnlineAudioConferencingRoutingPolicy" erstellen und zuweisen, um Teams das Einwahl Routing durch direkte Weiterleitung an Netzwerkbenutzer zu ermöglichen. 
 
 Die OnlineAudioConferencingRoutingPolicy-Richtlinie entspricht den CsOnlineVoiceRoutingPolicy für 1:1-PSTN-Anrufe über direkte Weiterleitung. Die OnlineAudioConferencingRoutingPolicy-Richtlinie kann mithilfe der folgenden Cmdlets verwaltet werden:
 

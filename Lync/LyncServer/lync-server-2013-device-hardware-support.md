@@ -12,20 +12,22 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6786d22d81f6b78d1e551d05f3d908876ca3068
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c802141adfecf53b70709ad90cc098004eacda1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522462"
 ---
+# <a name="device-hardware-support-in-lync-server-2013"></a>Unterstützung von Gerätehardware in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a>Unterstützung von Gerätehardware in lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Wenn Ihre Bereitstellung analoge Geräte enthält, müssen Sie darüber hinaus d
 
   - Survivable Branch Appliance mit PSTN-Gateway, das mit einem ATA-Gerät kommuniziert
 
-Informationen zum Konfigurieren eines analogen Gateways finden Sie unter "Planung der Bereitstellung von analogen [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) Geräten" in der lync Server 2010 TechNet-Bibliothek. (Analoge Geräte funktionieren in lync Server 2013 genauso wie in lync Server 2010.)
+Informationen zum Konfigurieren eines analogen Gateways finden Sie unter "Planung der Bereitstellung von analogen Geräten" [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) in der lync Server 2010 TechNet-Bibliothek. (Analoge Geräte funktionieren in lync Server 2013 genauso wie in lync Server 2010.)
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcbfec56f4cfee3def2a0ef6deb82934534dbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4e627dfdc161093d07243e6598807f3ad91cab1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213817"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522712"
 ---
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Bereitstellungsrichtlinien für Vermittlungsserver in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Bereitstellungsrichtlinien für Vermittlungsserver in lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Der Vermittlungsserver ist standardmäßig mit anderen Servern auf dem Standard 
 
 Achten Sie bei der Planung darauf, die Anforderungen an die Medienverarbeitung für PSTN-Anrufe und A/V-Konferenzen, die nicht für die medienumgehung konfiguriert sind, sowie die Verarbeitung zur Behandlung von Signalisierungs Interaktionen für die Anzahl der Anrufe, die unterstützt werden müssen, zu berücksichtigen. Wenn nicht genügend CPU vorhanden ist, müssen Sie einen eigenständigen Pool von Vermittlungsservern bereitstellen. und PSTN-Gateways, IP-Nebenstellenanlagen und SBCS müssen in Untergruppen unterteilt werden, die von den verbundenen Vermittlungsservern in einem Pool und den eigenständigen Vermittlungsservern in einem oder mehreren eigenständigen Pools gesteuert werden.
 
-Wenn Sie PSTN-Gateways, IP-Nebenstellenanlagen oder Session Border Controller (SBCS) bereitgestellt haben, die nicht die richtigen Funktionen für die Interaktion mit einem Pool von Vermittlungsservern unterstützen, einschließlich der folgenden, müssen Sie einem eigenständigen Pool zugeordnet sein, der aus eines einzelnen Vermittlungsserver:
+Wenn Sie PSTN-Gateways, IP-Nebenstellenanlagen oder Session Border Controller (SBCS) bereitgestellt haben, die nicht die richtigen Funktionen für die Interaktion mit einem Pool von Vermittlungsservern unterstützen, einschließlich der folgenden, müssen Sie einem eigenständigen Pool zugeordnet sein, der aus einem einzigen Vermittlungsserver besteht:
 
   - Ausführen von Netzwerkschicht Domain Name System (DNS) Lastenausgleich über Vermittlungsserver in einem Pool (oder anderweitige gleichmäßige Weiterleitung des Datenverkehrs an alle Vermittlungsserver in einem Pool)
 
@@ -73,7 +75,7 @@ Vermittlungsserver am zentralen Standort können zum Weiterleiten von Anrufen f�
 
 
 > [!NOTE]  
-> Die Medienumgehung kann nicht mit jedem PSTN-Gateway, IP-PBX und SBC interagieren. Microsoft hat eine Reihe von PSTN-Gateways und SBCS mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBX durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>– lync Server unter aufgeführt sind.
+> Die Medienumgehung kann nicht mit jedem PSTN-Gateway, IP-PBX und SBC interagieren. Microsoft hat eine Reihe von PSTN-Gateways und SBCS mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBX durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter Unified Communications Open Interoperability Program – lync Server unter aufgeführt sind <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A> .
 
 
 
@@ -89,7 +91,7 @@ Wenn der zentrale Standort über eine TDM-Nebenstellenlage verfügt oder die Not
 
 
 > [!NOTE]  
-> Um die Medien Leistung eigenständiger Vermittlungsserver zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf diesen Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>Skalierung in Windows Server" unter. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Medien Leistung eigenständiger Vermittlungsserver zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf diesen Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A> . Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dab7c088e0850e455d12c2ca83e04994666269a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d3e374825b762d059cc4b56a232d8e8b518319bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523232"
 ---
+# <a name="accessibility-in-lync-server-2013"></a>Barrierefreiheit in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="accessibility-in-lync-server-2013"></a>Barrierefreiheit in lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Die folgenden Features in lync Server 2013 helfen Benutzern mit Behinderungen, d
 
   - Alternativtext für Abbildungen
 
-Darüber hinaus können einige Barrierefreiheitsfeatures und-Tools von Windows lync Server Benutzern mit Behinderungen zugute kommen. Windows PowerShell Größen-und Farbänderungen bieten Optionen für Barrierefreiheit bei Verwendung der lync Server-Verwaltungsshell. Ausführliche Informationen zu Windows PowerShell Optionen für Barrierefreiheit finden Sie unter "Barrierefreiheit in Windows PowerShell 2,0" in [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964)der TechNet-Bibliothek unter.
+Darüber hinaus können einige Barrierefreiheitsfeatures und-Tools von Windows lync Server Benutzern mit Behinderungen zugute kommen. Windows PowerShell Größen-und Farbänderungen bieten Optionen für Barrierefreiheit bei Verwendung der lync Server-Verwaltungsshell. Ausführliche Informationen zu Windows PowerShell Optionen für Barrierefreiheit finden Sie unter "Barrierefreiheit in Windows PowerShell 2,0" in der TechNet-Bibliothek unter [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964) .
 
 </div>
 
@@ -98,15 +100,15 @@ Mithilfe von Tastenkombinationen können Sie schnell die folgenden allgemeinen A
 </tr>
 <tr class="even">
 <td><p>Erweitern des ausgewählten Knotens in der Struktur</p></td>
-<td><p>+Schlüssel</p></td>
+<td><p>+ Schlüssel</p></td>
 </tr>
 <tr class="odd">
 <td><p>Reduzieren des ausgewählten Knotens in der Struktur</p></td>
-<td><p>-Schlüssel</p></td>
+<td><p>- Schlüssel</p></td>
 </tr>
 <tr class="even">
 <td><p>Zugreifen auf die Menüleiste</p></td>
-<td><p>ALT-TASTE</p></td>
+<td><p>ALT</p></td>
 </tr>
 <tr class="odd">
 <td><p>Zugreifen auf einen Menüleistenbefehl</p></td>
@@ -156,7 +158,7 @@ Die folgenden Abschnitte enthalten Informationen zu den Features, Produkten und 
 
 
 > [!NOTE]  
-> Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den USA lizenzpflichtig nutzen. Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene subsidiäre Informationskarte oder die Microsoft <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> Accessibility-Website unter für eine Liste der Telefonnummern und Adressen für Microsoft-Supportdienste verwenden. Erfragen Sie bei Ihrer Niederlassung vor Ort, ob die in diesem Abschnitt beschriebenen Produkte und Dienste in Ihrer Region verfügbar sind. Weitere Informationen zu den in Microsoft-Produkten enthaltenen Barrierefreiheitsfunktionen finden Sie auf der Website für Barrierefreiheit in Microsoft-Produkte.
+> Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den USA lizenzpflichtig nutzen. Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene subsidiäre Informationskarte oder die Microsoft Accessibility-Website unter <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> für eine Liste der Telefonnummern und Adressen für Microsoft-Supportdienste verwenden. Erfragen Sie bei Ihrer Niederlassung vor Ort, ob die in diesem Abschnitt beschriebenen Produkte und Dienste in Ihrer Region verfügbar sind. Weitere Informationen zu den in Microsoft-Produkten enthaltenen Barrierefreiheitsfunktionen finden Sie auf der Website für Barrierefreiheit in Microsoft-Produkte.
 
 
 
@@ -166,13 +168,13 @@ Die folgenden Abschnitte enthalten Informationen zu den Features, Produkten und 
 
 ## <a name="accessibility-features-of-windows"></a>Barrierefreiheitsfeatures von Windows
 
-Das Windows-Betriebssystem bietet zahlreiche integrierte Barrierefreiheitsfunktionen, die für Personen hilfreich sind, die eine Tastatur oder eine Maus nur mit Schwierigkeiten bedienen können, blind oder sehbehindert sind oder gehörlos oder hörgeschädigt sind. Diese Funktionen werden beim Setup installiert. Ausführliche Informationen zu diesen Features finden Sie unter Windows-Hilfe oder Microsoft [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility.
+Das Windows-Betriebssystem bietet zahlreiche integrierte Barrierefreiheitsfunktionen, die für Personen hilfreich sind, die eine Tastatur oder eine Maus nur mit Schwierigkeiten bedienen können, blind oder sehbehindert sind oder gehörlos oder hörgeschädigt sind. Diese Funktionen werden beim Setup installiert. Ausführliche Informationen zu diesen Features finden Sie unter Windows-Hilfe oder Microsoft Accessibility [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) .
 
-  - **﻿Kostenlose Schritt-für-Schritt-Tutorials**   Microsoft bietet eine Reihe Schritt-für-Schritt-Anleitungen, in denen detaillierte Verfahren zum Anpassen der Barrierefreiheitsoptionen und Einstellungen auf dem Computer bereitgestellt werden. Diese Informationen werden parallel präsentiert, sodass Sie die Verwendung der Maus, der Tastatur oder die kombinierte Verwendung beider Eingabegeräte erlernen können.
+  - **﻿Kostenlose Schritt-für-Schritt-Anleitungen**     Microsoft bietet eine Reihe Schritt-für-Schritt-Anleitungen, in denen detaillierte Verfahren zum Anpassen der Barrierefreiheitsoptionen und Einstellungen auf dem Computer bereitgestellt werden. Diese Informationen werden parallel präsentiert, sodass Sie die Verwendung der Maus, der Tastatur oder die kombinierte Verwendung beider Eingabegeräte erlernen können.
     
-    Eine Schritt-für-Schritt-Anleitung für Microsoft-Produkte finden Sie unter Microsoft [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility unter.
+    Eine Schritt-für-Schritt-Anleitung für Microsoft-Produkte finden Sie unter Microsoft Accessibility unter [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) .
 
-  - **Hilfstechnologieprodukte für Windows**   eine Vielzahl von Hilfstechnologieprodukte stehen zur Verfügung, um die Verwendung von Computern für Personen mit Behinderungen zu verbessern. Sie können einen Katalog unterstützter Technologie Produkte Durchsuchen, die unter Windows auf der Microsoft Accessibility-Website [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)unter ausgeführt werden.
+  - **Unterstützende Technologie Produkte für Windows**     Es stehen eine Vielzahl von Hilfstechnologieprodukte zur Verfügung, mit denen Computer für Personen mit Behinderungen einfacher verwendet werden können. Sie können einen Katalog unterstützter Technologie Produkte Durchsuchen, die unter Windows auf der Microsoft Accessibility-Website unter ausgeführt werden [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) .
     
     Wenn Sie Hilfstechnologie verwenden, informieren Sie sich bei Ihrem Hilfstechnologieanbieter über mögliche Kompatibilitätsprobleme, bevor Sie Ihre Software oder Hardware aktualisieren.
 
@@ -182,9 +184,9 @@ Das Windows-Betriebssystem bietet zahlreiche integrierte Barrierefreiheitsfunkti
 
 ## <a name="documentation-in-alternative-formats"></a>Dokumentation in alternativen Formaten
 
-Falls Sie Probleme beim Lesen oder Verwenden von gedruckten Dokumenten haben, können Sie sich die Dokumentation für viele Microsoft-Produkte in anderen Formaten besorgen, die den Zugriff für Personen mit Behinderungen erleichtern. Einen Index der barrierefreien Produktdokumentation finden Sie auf der Microsoft Accessibility-Website [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)unter.
+Falls Sie Probleme beim Lesen oder Verwenden von gedruckten Dokumenten haben, können Sie sich die Dokumentation für viele Microsoft-Produkte in anderen Formaten besorgen, die den Zugriff für Personen mit Behinderungen erleichtern. Einen Index der barrierefreien Produktdokumentation finden Sie auf der Microsoft Accessibility-Website unter [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) .
 
-Darüber hinaus können Sie weitere Microsoft-Publikationen von Recording for the Blind & Legasthenie, Inc (RFB\&D) erhalten. RFB\&D verteilt diese Dokumente an registrierte, berechtigte Mitglieder Ihres Verteilungs Diensts. Informationen zur Verfügbarkeit der Microsoft-Produktdokumentation und der Bücher von Microsoft Press erhalten Sie\&von RFB D.
+Darüber hinaus können Sie weitere Microsoft-Publikationen von Recording for the Blind & Legasthenie, Inc (RFB \& D) erhalten. RFB \& D verteilt diese Dokumente an registrierte, berechtigte Mitglieder Ihres Verteilungs Diensts. Informationen zur Verfügbarkeit der Microsoft-Produktdokumentation und der Bücher von Microsoft Press erhalten Sie von RFB \& D.
 
 
 <table>
@@ -197,7 +199,7 @@ Darüber hinaus können Sie weitere Microsoft-Publikationen von Recording for th
 <p>20 Roszel Road</p>
 <p>Princeton, NJ 08540, USA</p>
 <p>Telefonnummer, wenn Sie innerhalb der USA anrufen: (800) 221-4792</p>
-<p>Website: Aufzeichnung für blinde &amp; Legasthenie unter<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<p>Website: Aufzeichnung für blinde &amp; Legasthenie unter <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -233,7 +235,7 @@ Wenn Sie taub oder hörgeschädigt sind, können Sie über den Texttelefondienst
 
   - Technische Unterstützung in den USA bietet der Produktsupport von Microsoft, den Sie unter der Rufnummer (800) 892-5234 montags bis freitags von 06:00 bis 18:00 Uhr (Pacific Time) erreichen, außer an Feiertagen. In Kanada ist die Rufnummer (905) 568-9641 montags bis freitags von 08:00 bis 20:00 Uhr (Eastern Standard Time) erreichbar, außer an Feiertagen.
 
-Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zeitpunkt der Inanspruchnahme des Diensts gelten. Ausführliche Informationen finden Sie unter Microsoft- [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142)Support unter.
+Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zeitpunkt der Inanspruchnahme des Diensts gelten. Ausführliche Informationen finden Sie unter Microsoft-Support unter [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142) .
 
 </div>
 
@@ -243,7 +245,7 @@ Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zei
 
 ## <a name="for-more-information"></a>Weitere Informationen
 
-Ausführliche Informationen dazu, wie barrierefreie Technologien für Computer das Leben von Menschen mit Behinderungen verbessern können, finden [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)Sie unter Microsoft Accessibility.
+Ausführliche Informationen dazu, wie barrierefreie Technologien für Computer das Leben von Menschen mit Behinderungen verbessern können, finden Sie unter Microsoft Accessibility [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f2897434eb275b82ef9ab4ef78e32e99e8d0a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522772"
 ---
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Prüfliste zur Bereitstellung für den Zugriff durch externe Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Prüfliste zur Bereitstellung für den Zugriff durch externe Benutzer in lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ Bevor Sie Ihr Umkreisnetzwerk bereitstellen und die Unterstützung für externe 
 
 Microsoft lync Server 2013 enthält Tools zur Erleichterung der Planung und Bereitstellung von internen Servern und Edgeserver. Veröffentlichen Sie nach dem Abschließen der Topologie die resultierende Topologiedefinition in Ihrer Produktionsumgebung. Um diese Aufgabe ausführen zu können, müssen Sie Mitglied der Gruppe **Domänen-Admins** und der Gruppe **RTCUniversalServerAdmins** sein.
 
-  - **Planungs**   Tool Office Communications Server 2007 R2 ein Planungstool und ein Edge-Planungstool enthalten, mit deren Hilfe Sie das Topologie-Design vereinfachen können. In lync Server 2010 wurden diese beiden Tools zu einem einzigen Planungs Tool zusammengefasst, das zusätzliche Features und Funktionen wie das Sammeln geplanter Benutzeranzahl, Sprachanforderungen, Zugriffstypen für externe Benutzer und Verbund Optionen aufweist. Darüber hinaus können Sie die Netzwerkparameter Ihrer Infrastruktur wie IP-Adressen, Lastenausgleichs Typen und andere Aspekte des Umkreisnetzwerks planen.
+  - **Planungs Tool**     Office Communications Server 2007 R2 umfasste ein Planungstool und ein Edge-Planungstool, mit denen Sie die Planung von Topologien vereinfachen können. In lync Server 2010 wurden diese beiden Tools zu einem einzigen Planungs Tool zusammengefasst, das zusätzliche Features und Funktionen wie das Sammeln geplanter Benutzeranzahl, Sprachanforderungen, Zugriffstypen für externe Benutzer und Verbund Optionen aufweist. Darüber hinaus können Sie die Netzwerkparameter Ihrer Infrastruktur wie IP-Adressen, Lastenausgleichs Typen und andere Aspekte des Umkreisnetzwerks planen.
 
-  - **Topologie-Generator**   lync Server 2013 Topologie-Generator unterstützt Sie bei der Definition Ihrer Topologie und Komponenten. Der Topologie-Generator ist für die Bereitstellung von Servern erforderlich, auf denen lync Server 2013 ausführt. Der Topologie-Generator veröffentlicht die Ergebnisse in einem zentralen Verwaltungsspeicher, der verwendet wird, um alle Server zu konfigurieren, auf denen lync Server 2013 in Ihrer Organisation läuft. Sie können lync Server 2013 nicht auf Servern ohne Verwendung des Topologie-Generators installieren.
+  - **Topologie-Generator**     Lync Server 2013 Topologie-Generator unterstützt Sie bei der Definition Ihrer Topologie und Komponenten. Der Topologie-Generator ist für die Bereitstellung von Servern erforderlich, auf denen lync Server 2013 ausführt. Der Topologie-Generator veröffentlicht die Ergebnisse in einem zentralen Verwaltungsspeicher, der verwendet wird, um alle Server zu konfigurieren, auf denen lync Server 2013 in Ihrer Organisation läuft. Sie können lync Server 2013 nicht auf Servern ohne Verwendung des Topologie-Generators installieren.
 
 Wenn Sie Ihre Edge-Topologie während des Planungsprozesses entworfen haben, einschließlich der Ausführung des Topologie-Generators zur Definition ihrer Edge-Topologie, können Sie diese Ergebnisse verwenden, um die Edgeserver-Bereitstellung zu starten. Wenn Sie die Edge-Topologie zuvor nicht fertig erstellt haben oder die zuvor angegebenen Informationen ändern möchten, müssen Sie den Topologie-Generator ausführen, bevor Sie mit anderen Bereitstellungsschritten fortfahren. Ausführliche Informationen zum Erstellen Ihrer Topologie finden Sie unter [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
@@ -135,7 +137,7 @@ Halten Sie sich bei der Bereitstellung des Umkreisnetzwerks und der Edgeserver a
 <tr class="odd">
 <td><p>Richten Sie den Reverseproxy ein.</p></td>
 <td><ul>
-<li><p>Richten Sie den Reverseproxy ein (beispielsweise für Microsoft Forefront Threat Management Gateway 2010 oder ISA (Microsoft Internet Security and Acceleration Server) mit Service Pack 1) im Umkreisnetzwerk, beziehen Sie die erforderlichen öffentlichen Zertifikate, und konfigurieren Sie die Webveröffentlichungsregeln auf dem Reverse-Proxy Server.</p>
+<li><p>Richten Sie den Reverseproxy (beispielsweise für Microsoft Forefront Threat Management Gateway 2010 oder ISA (Microsoft Internet Security and Acceleration Server) mit Service Pack 1) im Umkreisnetzwerk ein, rufen Sie die erforderlichen öffentlichen Zertifikate ab, und konfigurieren Sie die Webveröffentlichungsregeln auf dem Reverseproxy-Proxy Server.</p>
 <p>Bereiten Sie den Reverseproxy für Mobilitätsdienste vor, falls Sie Mobilität eingeplant haben und die Mobilitätsdienste im Front-End-Pool oder auf dem Standard Edition-Server bereitstellen.</p></li>
 </ul></td>
 <td><p>Gruppe <strong>Administratoren</strong> oder Reverseproxy-Administrator</p></td>
@@ -185,7 +187,7 @@ Halten Sie sich bei der Bereitstellung des Umkreisnetzwerks und der Edgeserver a
 <td><ol>
 <li><p>Überprüfen Sie die Serverkonnektivität, und stellen Sie sicher, dass die Replikation der Konfigurationsdaten interner Server ordnungsgemäß funktioniert.</p></li>
 <li><p>Stellen Sie sicher, dass externe Benutzer eine Verbindung herstellen können – Remotebenutzer, Benutzer in Partnerdomänen, Benutzer öffentlicher Instant Messaging-Dienste und anonyme Benutzer eingeschlossen (je nach Anforderungen für Ihre Bereitstellung).</p></li>
-<li><p>Überprüfen der Konfiguration und der Kommunikation mit dem lync Server Remote Connectivity Analyzer<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>Überprüfen der Konfiguration und der Kommunikation mit dem lync Server Remote Connectivity Analyzer <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
 <li><p>Konfiguration der Fehlersuche und Hilfe bei Kommunikationsproblemen</p></li>
 </ol></td>
 <td><p>Zum Überprüfen der Replikation: Gruppe <strong>RTCUniversalServerAdmins</strong> oder Benutzerkonto mit zugewiesener Rolle <strong>CSAdministrator</strong></p>

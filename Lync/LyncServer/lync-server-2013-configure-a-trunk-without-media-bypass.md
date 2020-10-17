@@ -12,20 +12,22 @@ ms:contentKeyID: 48183825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7216b6c3003ab30a31a9181e11d725c4827f0584
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8fce45563538b41773f76a8733b1c226454e6f76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205231"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523122"
 ---
+# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-without-media-bypass-in-lync-server-2013"></a>Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013
+
 
 </div>
 
@@ -139,7 +141,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     
 
     > [!IMPORTANT]  
-    > Es ist wichtig, PSTN-Verwendungsdaten Sätze gemäß dem Vermittlungsserver Peer zuzuordnen, der dem zu konfigurierenden trunk zugeordnet ist. Wenn es sich bei dem Vermittlungsserver Peer um ein PSTN-Gateway oder einen SBC (Session Border Controller) handelt, wird dringend empfohlen, dass die trunkkonfiguration keinem PSTN-Verwendungs Eintrag zugeordnet ist, der zu einem PSTN-Ziel oder anderen über lync verbundenen Downstream-Systemen weiterleitet. Server.
+    > Es ist wichtig, PSTN-Verwendungsdaten Sätze gemäß dem Vermittlungsserver Peer zuzuordnen, der dem zu konfigurierenden trunk zugeordnet ist. Wenn es sich bei dem Vermittlungsserver Peer um ein PSTN-Gateway oder einen SBC (Session Border Controller) handelt, wird dringend empfohlen, dass die trunkkonfiguration keinem PSTN-Verwendungsdaten Satz zugeordnet ist, der an ein PSTN-Ziel oder andere nachgeschaltete Systeme weitergeleitet wird, die über lync Server verbunden sind.
 
     
     </div>

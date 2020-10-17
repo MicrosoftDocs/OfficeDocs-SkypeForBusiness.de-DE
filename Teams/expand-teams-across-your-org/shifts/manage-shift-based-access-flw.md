@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01180f95766412b82d9df7986c3667298f24d5b4
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 9ec470422e402da07171bef627d1592c73d6c12f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486852"
+ms.locfileid: "48514132"
 ---
 # <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>Verwalten des Schicht basierten Zugriffs für Mitarbeiter von First-work in Teams
 
@@ -114,7 +114,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> Verwenden Sie den **ShiftNoticeMessageType** -Parameter, um die Nachricht festzulegen, die Sie anzeigen möchten. Eine Liste der vordefinierten Nachrichten, die Sie für diesen Parameter auswählen können, finden Sie unter New-TeamsShiftPolicy.
+> Verwenden Sie den **ShiftNoticeMessageType** -Parameter, um die Nachricht festzulegen, die Sie anzeigen möchten. Eine Liste der vordefinierten Nachrichten, die Sie für diesen Parameter auswählen können, finden Sie unter [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-4"></a>Beispiel 4
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63be6e13448428a40a407971b2dc9285414d1f83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7cd7e9698ef19147c20ef04afbe1a158ad5c397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522332"
 ---
+# <a name="new-video-features-in-lync-server-2013"></a>Neue Videofunktionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-video-features-in-lync-server-2013"></a>Neue Videofunktionen in lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Letztes Änderungsstand des Themas:** 2012-08-16_
 
 In lync Server 2013 werden die folgenden neuen Videofeatures vorgestellt:
 
-  - **HD-Video**   Benutzer können Auflösungen bis zu HD 1080p in Gesprächen mit zwei Teilnehmern und Konferenzen mit mehreren Teilnehmern durchführen.
+  - **HD-Video**     Benutzer können Auflösungen bis zu HD 1080p in Gesprächen mit zwei Teilnehmern und Konferenzen in mehreren Gruppen erleben.
 
-  - **Galerieansicht**   in Videokonferenzen mit mehr als zwei Personen können Benutzer Videos von Teilnehmern in der Konferenz sehen. Wenn die Konferenz über mehr als fünf Teilnehmer verfügt, wird in der obersten Zeile nur Video von den aktivsten Teilnehmern angezeigt, und für die anderen Teilnehmer wird ein Foto angezeigt.
+  - **Galerieansicht**     In Videokonferenzen mit mehr als zwei Personen können Benutzer Videos von Teilnehmern in der Konferenz sehen. Wenn die Konferenz über mehr als fünf Teilnehmer verfügt, wird in der obersten Zeile nur Video von den aktivsten Teilnehmern angezeigt, und für die anderen Teilnehmer wird ein Foto angezeigt.
 
-  - **H. 264-Video**   der h. 264-Videocodec ist jetzt der Standard für die Codierung von Video auf lync 2013 Clients. H.264-Video unterstützt mehr Auflösungen und Frameraten und verbessert die Videoskalierbarkeit.
+  - **H. 264-Video**     Der H. 264-Videocodec ist jetzt der Standard für die Codierung von Video auf lync 2013 Clients. H.264-Video unterstützt mehr Auflösungen und Frameraten und verbessert die Videoskalierbarkeit.
 
 <div>
 

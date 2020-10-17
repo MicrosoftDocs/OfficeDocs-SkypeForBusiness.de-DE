@@ -11,19 +11,22 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+ms.custom:
+- NewAdminCenter_Update
+- seo-marvel-apr2020
+- ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, wie Sie das Feature "Gastzugriff" in Microsoft Teams als Office 365-Administrator aktivieren oder deaktivieren.
-ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 54d7461e9e03cd22900e07aca7ad2d12712faab7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508062"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 

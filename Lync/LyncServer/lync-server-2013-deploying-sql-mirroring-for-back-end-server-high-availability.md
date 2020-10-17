@@ -12,20 +12,22 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 577d6bb312ae2b31f96fed5f3e5b02e84844adf6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 085b7c10416fddefa8b869bbb617160f03b1e89a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522942"
 ---
+# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188188"
 
 _**Letztes Änderungsstand des Themas:** 2014-01-08_
 
-Um die SQL-Spiegelung bereitstellen zu können, müssen die Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern ausgeführt werden: primär, Spiegel und Zeuge. Ausführliche Informationen finden Sie [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)unter.
+Um die SQL-Spiegelung bereitstellen zu können, müssen die Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern ausgeführt werden: primär, Spiegel und Zeuge. Ausführliche Informationen finden Sie unter [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921) .
 
 Im Allgemeinen erfordert das Einrichten der SQL-Spiegelung zwischen den beiden Back-End-Servern mit einem Zeugen Folgendes:
 
@@ -47,19 +49,19 @@ Im Allgemeinen erfordert das Einrichten der SQL-Spiegelung zwischen den beiden B
 
   - Der primäre und der Spiegel müssen dieselbe Edition von SQL Server aufweisen. Der Zeugen kann eine andere Edition haben.
 
-Informationen zu SQL-Best Practices in Bezug auf die Unterstützung von SQL-Versionen für eine Zeugenrolle finden Sie unter "Datenbank-Spiegelungs [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)Zeuge" in der MSDN Library unter.
+Informationen zu SQL-Best Practices in Bezug auf die Unterstützung von SQL-Versionen für eine Zeugenrolle finden Sie unter "Datenbank-Spiegelungs Zeuge" in der MSDN Library unter [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345) .
 
 Verwenden Sie den Topologie-Generator, um die SQL-Spiegelung bereitzustellen. Sie wählen eine Option im Topologie-Generator aus, um die Datenbanken zu spiegeln, und der Topologie-Generator richtet die Spiegelung (einschließlich Einrichten eines Zeugen, falls gewünscht) ein, wenn Sie die Topologie veröffentlichen. Beachten Sie, dass Sie den Zeugen gleichzeitig einrichten oder entfernen, wenn Sie die Spiegelung einrichten oder entfernen. Es gibt keinen separaten Befehl zum Bereitstellen oder Entfernen eines Zeugen.
 
-Zum Konfigurieren der Server Spiegelung müssen Sie zunächst die SQL-Datenbankberechtigungen ordnungsgemäß einrichten. Ausführliche Informationen finden Sie unter "Einrichten von Anmeldekonten für die Datenbankspiegelung oder AlwaysOn-Verfügbarkeitsgruppen ( [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)SQL Server)" unter.
+Zum Konfigurieren der Server Spiegelung müssen Sie zunächst die SQL-Datenbankberechtigungen ordnungsgemäß einrichten. Ausführliche Informationen finden Sie unter "Einrichten von Anmeldekonten für die Datenbankspiegelung oder AlwaysOn-Verfügbarkeitsgruppen (SQL Server)" unter [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454) .
 
 Bei der SQL-Spiegelung ist der Wiederherstellungsmodus der Datenbank immer auf **Full**festgelegt, was bedeutet, dass Sie die Größe des Transaktionsprotokolls genau überwachen und Transaktionsprotokolle regelmäßig sichern müssen, um zu vermeiden, dass der Speicherplatz auf den Back-End-Servern knapp wird. Die Häufigkeit der Transaktionsprotokollsicherungen hängt von der Protokoll Wachstumsrate ab, die wiederum von Datenbanktransaktionen abhängt, die von Benutzeraktivitäten auf dem Front-End-Pool verursacht werden. Es wird empfohlen, festzulegen, wie viel Transaktionsprotokoll Wachstum für Ihre lync-Bereitstellungs Arbeitsauslastung erwartet wird, damit Sie die Planung entsprechend durchführen können. Die folgenden Artikel bieten zusätzliche Informationen zur SQL-Sicherung und-Protokollverwaltung:
 
-  - Daten Bank Wiederherstellungsmodelle: "Wiederherstellungsmodelle (SQL Server)" unter[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
+  - Daten Bank Wiederherstellungsmodelle: "Wiederherstellungsmodelle (SQL Server)" unter [https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - Übersicht über die Sicherung: "Übersicht über Sicherungen (SQL Server)" unter[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
+  - Übersicht über die Sicherung: "Übersicht über Sicherungen (SQL Server)" unter [https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - Sicherungs Transaktionsprotokoll: "Sichern eines Transaktionsprotokolls (SQL Server)" unter[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
+  - Sicherungs Transaktionsprotokoll: "Sichern eines Transaktionsprotokolls (SQL Server)" unter [https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 Bei der SQL-Spiegelung können Sie entweder die Topologie für die Spiegelung konfigurieren, wenn Sie die Pools erstellen oder nachdem die Pools bereits erstellt wurden.
 
@@ -86,7 +88,7 @@ Bei der SQL-Spiegelung können Sie entweder die Topologie für die Spiegelung ko
 
 
 > [!NOTE]
-> Es muss eine Dateifreigabe erstellt werden, in die die Spiegeldateien geschrieben werden sollen, und der Dienst, auf dem SQL Server und SQL-Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server Dienst unter dem Kontext von Netzwerkdienst läuft, &lt;können Sie Domänen&gt;&#92;&lt;sqlservername&gt;$ sowohl der Prinzipal-als auch der Mirror SQL-Server den Freigabeberechtigungen hinzufügen. Der Wert $ ist wichtig, um festzustellen, dass es sich um ein Computerkonto handelt.
+> Es muss eine Dateifreigabe erstellt werden, in die die Spiegeldateien geschrieben werden sollen, und der Dienst, auf dem SQL Server und SQL-Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server Dienst unter dem Kontext von Netzwerkdienst läuft, können Sie &lt; Domänen &gt;&#92;&lt; SQLServerName &gt; $ sowohl der Prinzipal-als auch der Mirror SQL-Server den Freigabeberechtigungen hinzufügen. Der Wert $ ist wichtig, um festzustellen, dass es sich um ein Computerkonto handelt.
 
 
 <div>
@@ -151,9 +153,9 @@ Beachten Sie beim Einrichten der SQL-Spiegelung Folgendes:
 
   - Jeder Port, der bereits für andere Anwendungen auf demselben Server reserviert ist, einschließlich der für andere SQL-Instanzen, sollte nicht für die installierten SQL-Instanzen verwendet werden. Dies bedeutet, dass Sie bei mehr als einer SQL-Instanz auf demselben Server nicht denselben Port für die Spiegelung verwenden dürfen. Ausführliche Informationen finden Sie in den folgenden Artikeln:
     
-      - "Angeben einer Server Netzwerkadresse (Datenbankspiegelung)" in der MSDN Library unter[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
+      - "Angeben einer Server Netzwerkadresse (Datenbankspiegelung)" in der MSDN Library unter [https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "Der Datenbankspiegelungsendpunkt (SQL Server)" unter[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "Der Datenbankspiegelungsendpunkt (SQL Server)" unter [https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -249,13 +251,13 @@ Die einfachste Möglichkeit zum Einrichten der Spiegelung ist die Verwendung des
 
 2.  Überprüfen Sie Folgendes:
     
-      - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im primären SQL Server "E04-OCS\_. Los a. lsipt\\. local RTC aktiviert ist.
+      - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im primären SQL Server "E04-OCS. Los \_ a. lsipt. local RTC aktiviert ist \\ .
     
-      - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im Spiegel SQL Server "K16-OCS\_. Los a. lsipt\\. local RTC aktiviert ist.
+      - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im Spiegel SQL Server "K16-OCS. Los \_ a. lsipt. local RTC aktiviert ist \\ .
     
-      - Auf Port 7022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im Zeugen SQL Server "ab14-LCT\_. Los a. lsipt\\. local RTC aktiviert ist.
+      - Auf Port 7022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im Zeugen SQL Server "ab14-LCT. Los \_ a. lsipt. local RTC aktiviert ist \\ .
     
-      - Konten, die die SQL-Server auf allen primären und Spiegel-SQL-Servern durchführen, verfügen über \\ \\Lese-/Schreibzugriff\\auf die Dateifreigabe E04 – OCS-csdatabackup
+      - Konten, die die SQL-Server auf allen primären und Spiegel-SQL-Servern durchführen, verfügen über Lese-/Schreibzugriff auf die Dateifreigabe \\ \\ E04 – OCS- \\ csdatabackup
     
       - Stellen Sie sicher, dass der WMI-Anbieter (Windows Management Instrumentation) auf allen diesen Servern läuft. Das Cmdlet verwendet diesen Anbieter, um die Kontoinformationen für SQL Server Dienste zu finden, die auf allen primären, Spiegel-und Zeugen Servern aktiv sind.
     
@@ -267,7 +269,7 @@ Die einfachste Möglichkeit zum Einrichten der Spiegelung ist die Verwendung des
     
     Die Spiegelung wird konfiguriert.
 
-**Install-CsMirrorDatabase** installiert die Spiegelung und konfiguriert die Spiegelung für alle Datenbanken, die auf dem primären SQL-Speicher vorhanden sind. Wenn Sie die Spiegelung nur für bestimmte Datenbanken konfigurieren möchten, können Sie die Option – DatabaseType verwenden, oder wenn Sie die Spiegelung für alle Datenbanken mit Ausnahme einiger wenige konfigurieren möchten, können Sie die Option-ExcludeDatabaseList zusammen mit einer durch Trennzeichen getrennten Liste der Datenbank verwenden. auszuschließende Namen.
+**Install-CsMirrorDatabase** installiert die Spiegelung und konfiguriert die Spiegelung für alle Datenbanken, die auf dem primären SQL-Speicher vorhanden sind. Wenn Sie die Spiegelung nur für bestimmte Datenbanken konfigurieren möchten, können Sie die Option – DatabaseType verwenden, oder wenn Sie die Spiegelung für alle Datenbanken mit Ausnahme einiger weniger konfigurieren möchten, können Sie die Option-ExcludeDatabaseList zusammen mit einer durch Trennzeichen getrennten Liste der auszuschließenden Datenbanknamen verwenden.
 
 Wenn Sie beispielsweise die folgende Option zum Installieren von **-CsMirrorDatabase**hinzufügen, werden alle Datenbanken mit Ausnahme von RTCAb und "rtcxds" gespiegelt.
 
@@ -319,9 +321,9 @@ Verwenden Sie dieses Verfahren, wenn Sie den Zeugen aus einer Back-End-Server-Sp
     
         Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
     
-    Führen Sie diesen Schritt jedoch nicht aus, und geben `Uninstall-CsMirrorDatabase` Sie nicht so ein, dass die gesamte Spiegelungskonfiguration deinstalliert wird.
+    Führen Sie diesen Schritt jedoch nicht aus, und geben Sie nicht `Uninstall-CsMirrorDatabase` so ein, dass die gesamte Spiegelungskonfiguration deinstalliert wird.
 
-4.  Wenn Sie lediglich den Zeugen aus der SQL Server Konfiguration entfernen möchten, befolgen Sie die Anweisungen unter "Entfernen des Zeugen aus einer Datenbank-Spiegelungssitzung [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)(SQL Server)" unter.
+4.  Wenn Sie lediglich den Zeugen aus der SQL Server Konfiguration entfernen möchten, befolgen Sie die Anweisungen unter "Entfernen des Zeugen aus einer Datenbank-Spiegelungssitzung (SQL Server)" unter [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456) .
 
 </div>
 
