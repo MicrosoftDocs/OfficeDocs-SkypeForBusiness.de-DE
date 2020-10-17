@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: lync Server Best Practices Analyzer'
+description: 'Lync Server 2013: lync Server Best Practices Analyzer.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a491267c90a34bde8553a16ef3810a5dc73561da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 22c162dc73ce92ada18ee98d6956b7ed3e5c07a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525072"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571891"
 ---
-# <a name="lync-server-2013-best-practices-analyzer"></a><span data-ttu-id="1420f-102">Lync Server 2013 Best Practices Analyzer</span><span class="sxs-lookup"><span data-stu-id="1420f-102">Lync Server 2013 Best Practices Analyzer</span></span>
+# <a name="lync-server-2013-best-practices-analyzer"></a><span data-ttu-id="1adcf-103">Lync Server 2013 Best Practices Analyzer</span><span class="sxs-lookup"><span data-stu-id="1adcf-103">Lync Server 2013 Best Practices Analyzer</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48525072"
 
 <span> </span>
 
-<span data-ttu-id="1420f-103">_**Letztes Änderungsstand des Themas:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="1420f-103">_**Topic Last Modified:** 2012-06-13_</span></span>
+<span data-ttu-id="1adcf-104">_**Letztes Änderungsstand des Themas:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="1adcf-104">_**Topic Last Modified:** 2012-06-13_</span></span>
 
-<span data-ttu-id="1420f-104">Lync Server 2013 ist Best Practices Analyzer ein Diagnosetool, mit dem Konfigurationsinformationen aus lync Server 2013-Umgebungen zusammengestellt werden, und es wird ermittelt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt wurde.</span><span class="sxs-lookup"><span data-stu-id="1420f-104">Lync Server 2013, Best Practices Analyzer is a diagnostic tool that gathers configuration information from Lync Server 2013 environments and determines whether the configuration is set according to Microsoft best practices.</span></span>
+<span data-ttu-id="1adcf-105">Lync Server 2013 ist Best Practices Analyzer ein Diagnosetool, mit dem Konfigurationsinformationen aus lync Server 2013-Umgebungen zusammengestellt werden, und es wird ermittelt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt wurde.</span><span class="sxs-lookup"><span data-stu-id="1adcf-105">Lync Server 2013, Best Practices Analyzer is a diagnostic tool that gathers configuration information from Lync Server 2013 environments and determines whether the configuration is set according to Microsoft best practices.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1420f-105">Lync Server 2013 überprüft und meldet Best Practices Analyzer nur Probleme mit lync Server 2013-Komponenten.</span><span class="sxs-lookup"><span data-stu-id="1420f-105">Lync Server 2013, Best Practices Analyzer scans and reports issues only with Lync Server 2013 components.</span></span> <span data-ttu-id="1420f-106">Wenn Ihre Bereitstellung lync Server 2010-oder Office Communications Server 2007 R2 Komponenten enthält, verwenden Sie die vorherige Version von Best Practices Analyzer, um diese Komponenten zu analysieren.</span><span class="sxs-lookup"><span data-stu-id="1420f-106">If your deployment includes Lync Server 2010 or Office Communications Server 2007 R2 components, use the previous version of Best Practices Analyzer to analyze those components.</span></span> <span data-ttu-id="1420f-107">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for Running Best Practices Analyzer in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="1420f-107">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="1adcf-106">Lync Server 2013 überprüft und meldet Best Practices Analyzer nur Probleme mit lync Server 2013-Komponenten.</span><span class="sxs-lookup"><span data-stu-id="1adcf-106">Lync Server 2013, Best Practices Analyzer scans and reports issues only with Lync Server 2013 components.</span></span> <span data-ttu-id="1adcf-107">Wenn Ihre Bereitstellung lync Server 2010-oder Office Communications Server 2007 R2 Komponenten enthält, verwenden Sie die vorherige Version von Best Practices Analyzer, um diese Komponenten zu analysieren.</span><span class="sxs-lookup"><span data-stu-id="1adcf-107">If your deployment includes Lync Server 2010 or Office Communications Server 2007 R2 components, use the previous version of Best Practices Analyzer to analyze those components.</span></span> <span data-ttu-id="1adcf-108">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for Running Best Practices Analyzer in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="1adcf-108">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
 
 
@@ -53,15 +54,15 @@ ms.locfileid: "48525072"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1420f-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="1420f-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1adcf-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="1adcf-109">In This Section</span></span>
 
-  - [<span data-ttu-id="1420f-109">Übersicht über Best Practices Analyzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1420f-109">Overview of Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-overview-of-best-practices-analyzer.md)
+  - [<span data-ttu-id="1adcf-110">Übersicht über Best Practices Analyzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1adcf-110">Overview of Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-overview-of-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="1420f-110">Vorbereiten und Installieren von Best Practices Analyzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1420f-110">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
+  - [<span data-ttu-id="1adcf-111">Vorbereiten und Installieren von Best Practices Analyzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1adcf-111">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="1420f-111">Verwenden von Best Practices Analyzer zum Identifizieren potenzieller Probleme in ihrer lync Server 2013-Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="1420f-111">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
+  - [<span data-ttu-id="1adcf-112">Verwenden von Best Practices Analyzer zum Identifizieren potenzieller Probleme in ihrer lync Server 2013-Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="1adcf-112">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
 
-  - [<span data-ttu-id="1420f-112">Verwenden von Überprüfungsergebnissen zum Analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 gemeldet wurden</span><span class="sxs-lookup"><span data-stu-id="1420f-112">Using scan results to analyze and resolve issues reported by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
+  - [<span data-ttu-id="1adcf-113">Verwenden von Überprüfungsergebnissen zum Analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 gemeldet wurden</span><span class="sxs-lookup"><span data-stu-id="1adcf-113">Using scan results to analyze and resolve issues reported by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
 
 </div>
 
