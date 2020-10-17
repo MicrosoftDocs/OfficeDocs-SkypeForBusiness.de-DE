@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Löschen einer vorhandenen clientversionsrichtlinien Regel'
+description: 'Lync Server 2013: Löschen einer vorhandenen clientversionsrichtlinien Regel.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fce0da6ece0d34c7cf41eac43d472e85c117817
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48cb2dc6458406c988bdc2626fc000c7a9bf5d16
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501572"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553651"
 ---
 # <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a>Löschen einer vorhandenen clientversionsrichtlinien Regel in lync Server 2013
 

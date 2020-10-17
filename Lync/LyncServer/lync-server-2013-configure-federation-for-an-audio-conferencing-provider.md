@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren des Verbunds für einen Audiokonferenz-Anbieter'
+description: 'Lync Server 2013: Konfigurieren Sie den Partnerverbund für einen Audiokonferenz-Anbieter.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 60595883
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cebbac17955f812bf07a368064156b57b0c0ddd9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c74654224c42618768d881a95031d58be4d55df5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537092"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553321"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-lync-server-2013"></a>Konfigurieren des Verbunds für einen Audiokonferenz-Anbieter in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 verfügt über neue Funktionen für die rollenbasierte Zugriffssteuerung
+description: Lync Server 2013 verfügt über neue Funktionen für die rollenbasierte Zugriffssteuerung.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4637d41ddd8f36012ead0ac89f733bb6e0c5f62
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ecf42d46670cd1848bece8e4dc6ea70b27f3a68f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528322"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552841"
 ---
 # <a name="new-role-based-access-control-features-in-lync-server-2013"></a>Neue Features für die rollenbasierte Zugriffssteuerung in lync Server 2013
 

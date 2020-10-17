@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Einrichten von Systemen und Infrastruktur für die Archivierung'
+description: 'Lync Server 2013: Einrichten von Systemen und Infrastruktur für die Archivierung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183797
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2298562d310803d2bab758a3ab875a2643392f38
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6e2ba9162d9561a39bbc25b3fe3b8e2337fc5dde
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497542"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554161"
 ---
 # <a name="setting-up-systems-and-infrastructure-for-archiving-in-lync-server-2013"></a>Einrichten von Systemen und Infrastruktur für die Archivierung in lync Server 2013
 

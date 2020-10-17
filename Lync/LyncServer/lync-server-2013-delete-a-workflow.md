@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Löschen eines Workflows'
+description: 'Lync Server 2013: Löschen eines Workflows.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b46f3b9bd89df2594c7ca8a3b382839437e40eb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9a588a1dc0428660db95d4d492abbd1b157ca7a0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516292"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553701"
 ---
 # <a name="delete-a-workflow-in-lync-server-2013"></a>Löschen eines Workflows in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 von Sicherungs Registrierungsstellen Beziehungen
+description: Lync Server 2013 Sicherungs Registrierungsstellen Beziehungen.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184631
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd41595fed0d16327f65f4e6af39fe80c049daa4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b0bfce6444ae78c2fb792a6d63dba4bf36b1791
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499332"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552313"
 ---
 # <a name="backup-registrar-relationships-in-lync-server-2013"></a>Sicherungs Registrierungs Beziehungen in lync Server 2013
 

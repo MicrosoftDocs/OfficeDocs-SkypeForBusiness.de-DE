@@ -1,5 +1,6 @@
 ---
 title: Planung für lync Server und Office Communications Server Partnerverbund
+description: Planung für lync Server und Office Communications Server Partnerverbund.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 801237e4390cd81ac634a928f4963be1c930d01e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5d7385b8fde27446fb0648802544a8840a0f6276
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522022"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552371"
 ---
 # <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>Planung für lync Server 2013 und Office Communications Server Partnerverbund
 

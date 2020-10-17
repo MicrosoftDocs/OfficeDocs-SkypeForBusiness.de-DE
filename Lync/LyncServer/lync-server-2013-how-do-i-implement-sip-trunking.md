@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Wie kann ich SIP-Trunking implementieren?'
+description: 'Lync Server 2013: Wie kann ich SIP-Trunking implementieren?.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecd89ce28f1565e44c92ba543ccf992bb2a3c811
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10882adc0bff573868dcd07268ed0446385d895c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504142"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553151"
 ---
 # <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Wie kann ich SIP-Trunking in lync Server 2013 implementieren?
 

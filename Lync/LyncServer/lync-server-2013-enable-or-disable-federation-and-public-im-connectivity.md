@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen'
+description: 'Lync Server 2013: Aktivieren oder deaktivieren Sie die Partnerverbund-und Public Chat-Konnektivität.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c94b75aff1b79650adc846d3d761580e9429035d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48c77e4bf892fa891f413226a4adf068e980c352
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526792"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552471"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-lync-server-2013"></a>Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013
 

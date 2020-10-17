@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Aktivieren oder Deaktivieren der gruppenanrufannahme für Benutzer'
+description: 'Lync Server 2013: Aktivieren oder Deaktivieren der gruppenanrufannahme für Benutzer.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 756f2da13f083f4592e8553b974bd7540a48f494
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f9972ad5c10d298d0e1051816581433d0809f6c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501052"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552445"
 ---
 # <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Aktivieren oder Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013
 
