@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Bestimmen der Anforderungen für externe A/V-Firewalls und Ports'
+description: 'Lync Server 2013: Bestimmen der externen A/V-Firewall-und Portanforderungen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c7b117f68719230151fd19050dbb080f6acde14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 38c2a8c1e8e332a4a1e65adb87a1e962e82941c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522582"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550931"
 ---
 # <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a>Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für lync Server 2013
 

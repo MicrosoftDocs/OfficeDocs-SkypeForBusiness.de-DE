@@ -1,5 +1,6 @@
 ---
 title: Aktivieren der Remoteanrufsteuerung
+description: Aktivieren Sie die Remoteanrufsteuerung.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8009ffc927ad3f7a4f83ad3505100f3a9d4e82d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502892"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551131"
 ---
 # <a name="enable-remote-call-control"></a>Aktivieren der Remoteanrufsteuerung
 
@@ -55,7 +56,7 @@ Die Remote Anrufsteuerung ermöglicht Benutzern das Steuern ihrer PBX-Telefone (
 
 4.  Konfigurieren Sie lync 2013 Benutzer für die Remoteanrufsteuerung, indem Sie die Remoteanrufsteuerung aktivieren und einen Anschlussserver-URI (Uniform Resource Identifier) und einen Anschluss-URI zuweisen. Wenn Sie Benutzer aus Ihrer Legacy Bereitstellung in lync Server 2013 migrieren, werden die Einstellungen für die Remoteanrufsteuerung zusammen mit den anderen Benutzereinstellungen migriert.
 
-5.  Wenn Sie die Normalisierungsregeln für Rufnummern im Adressbuch in Ihrer Vorversionsbereitstellung angepasst haben, müssen Sie nach der automatischen Migration der Richtlinien und Einstellungen einige manuelle Aufgaben durchführen, um die angepassten Normalisierungsregeln zu migrieren. Wenn Sie die Normalisierungsregeln nicht angepasst haben, wird das Adressbuch mit der restlichen Topologie migriert. Ausführliche Informationen über die manuelle Migration benutzerdefinierter Normalisierungsregeln finden Sie unter [Migrate Address Book](migrate-address-book_1.md).
+5.  Wenn Sie die Normalisierungsregeln für Rufnummern im Adressbuch in Ihrer Vorversionsbereitstellung angepasst haben, müssen Sie nach der automatischen Migration der Richtlinien und Einstellungen einige manuelle Aufgaben durchführen, um die angepassten Normalisierungsregeln zu migrieren. Wenn Sie die Normalisierungsregeln nicht angepasst haben, wird das Adressbuch mit der restlichen Topologie migriert. Ausführliche Informationen über die manuelle Migration benutzerdefinierter Normalisierungsregeln finden Sie unter [Migrate Address Book](migrate-address-book.md).
 
 </div>
 

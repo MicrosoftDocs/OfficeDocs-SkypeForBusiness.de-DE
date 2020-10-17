@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Einrichten eines Sicherungsspeicherorts'
+description: 'Lync Server 2013: Einrichten eines Sicherungsspeicherorts.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ee86d2cf3d68b65c03e851980b21fb0293c5362
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 344baea1b7e51454bb28d31d88451d29fd6aa3a4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509742"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550451"
 ---
 # <a name="setting-up-a-backup-location-for-lync-server-2013"></a>Einrichten eines Sicherungsspeicherorts für lync Server 2013
 

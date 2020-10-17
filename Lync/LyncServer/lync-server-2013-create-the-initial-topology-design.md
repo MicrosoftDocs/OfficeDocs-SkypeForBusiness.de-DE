@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erstellen des anfänglichen Topologie-Designs'
+description: 'Lync Server 2013: Erstellen des anfänglichen Topologie-Designs.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbd021a6b3804c369bccea5affcf26558802de2c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c91bfe68a1de4a1f9862948edd708b8efa6a5c6d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504732"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551091"
 ---
 # <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Erstellen des anfänglichen Topologie Designs für lync Server 2013
 
