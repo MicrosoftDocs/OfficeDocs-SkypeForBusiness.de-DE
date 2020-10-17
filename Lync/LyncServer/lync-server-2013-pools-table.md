@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Pools-Tabelle'
+description: 'Lync Server 2013: Pools-Tabelle.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f9895307599210a7d30fde58d7e09b8353388db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a587eba6798121f39fe64ff8bd720b62e9311ec0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527992"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543191"
 ---
-# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="58881-102">Tabelle "Pools" in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="58881-102">Pools table in Lync Server 2013</span></span>
+# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="f5a51-103">Tabelle "Pools" in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5a51-103">Pools table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48527992"
 
 <span> </span>
 
-<span data-ttu-id="58881-103">_**Letztes Änderungsstand des Themas:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="58881-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="f5a51-104">_**Letztes Änderungsstand des Themas:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="f5a51-104">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="58881-104">Die Tabelle Pools ist eine unterstützende Tabelle, in der Informationen zu den verschiedenen Pools gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="58881-104">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="58881-105">Jeder Datensatz in der Tabelle steht für einen Pool.</span><span class="sxs-lookup"><span data-stu-id="58881-105">Each record in the table represents one pool.</span></span>
+<span data-ttu-id="f5a51-105">Die Tabelle Pools ist eine unterstützende Tabelle, in der Informationen zu den verschiedenen Pools gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="f5a51-105">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="f5a51-106">Jeder Datensatz in der Tabelle steht für einen Pool.</span><span class="sxs-lookup"><span data-stu-id="f5a51-106">Each record in the table represents one pool.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48527992"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="58881-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="58881-106">Column</span></span></th>
-<th><span data-ttu-id="58881-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="58881-107">Data Type</span></span></th>
-<th><span data-ttu-id="58881-108">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="58881-108">Key/Index</span></span></th>
-<th><span data-ttu-id="58881-109">Details</span><span class="sxs-lookup"><span data-stu-id="58881-109">Details</span></span></th>
+<th><span data-ttu-id="f5a51-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="f5a51-107">Column</span></span></th>
+<th><span data-ttu-id="f5a51-108">Datentyp</span><span class="sxs-lookup"><span data-stu-id="f5a51-108">Data Type</span></span></th>
+<th><span data-ttu-id="f5a51-109">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="f5a51-109">Key/Index</span></span></th>
+<th><span data-ttu-id="f5a51-110">Details</span><span class="sxs-lookup"><span data-stu-id="f5a51-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="58881-110"><strong>Pool-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="58881-110"><strong>PoolId</strong></span></span></p></td>
-<td><p><span data-ttu-id="58881-111">int</span><span class="sxs-lookup"><span data-stu-id="58881-111">int</span></span></p></td>
-<td><p><span data-ttu-id="58881-112">Primary</span><span class="sxs-lookup"><span data-stu-id="58881-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="58881-113">Eindeutige Zahl, die diesen Pool identifiziert.</span><span class="sxs-lookup"><span data-stu-id="58881-113">Unique number identifying this pool.</span></span></p></td>
+<td><p><span data-ttu-id="f5a51-111"><strong>Pool-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="f5a51-111"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5a51-112">int</span><span class="sxs-lookup"><span data-stu-id="f5a51-112">int</span></span></p></td>
+<td><p><span data-ttu-id="f5a51-113">Primary</span><span class="sxs-lookup"><span data-stu-id="f5a51-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="f5a51-114">Eindeutige Zahl, die diesen Pool identifiziert.</span><span class="sxs-lookup"><span data-stu-id="f5a51-114">Unique number identifying this pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="58881-114"><strong>Poolfqdn "</strong></span><span class="sxs-lookup"><span data-stu-id="58881-114"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="58881-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="58881-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="f5a51-115"><strong>Poolfqdn "</strong></span><span class="sxs-lookup"><span data-stu-id="f5a51-115"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5a51-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="f5a51-116">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="58881-116">Pool-FQDN</span><span class="sxs-lookup"><span data-stu-id="58881-116">Pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="f5a51-117">Pool-FQDN</span><span class="sxs-lookup"><span data-stu-id="f5a51-117">Pool FQDN.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von Website Informationen für E9-1-1'
+description: 'Lync Server 2013: Konfigurieren von Website Informationen für E9-1-1.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9a6f9b24256bdc577e02ceb41bd3f67601e74e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 880a5e596a009e86214c2ab3a5a1223dd3ba63d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508912"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542671"
 ---
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="86080-102">Konfigurieren von Website Informationen für E9-1-1 in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86080-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="0b002-103">Konfigurieren von Website Informationen für E9-1-1 in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b002-103">Configure site information for E9-1-1 in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48508912"
 
 <span> </span>
 
-<span data-ttu-id="86080-103">_**Letztes Änderungsstand des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="86080-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="0b002-104">_**Letztes Änderungsstand des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="0b002-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="86080-104">Zum Definieren einer Standortrichtlinie für Subnetze müssen Sie folgende Aufgaben in beliebiger Reihenfolge ausführen:</span><span class="sxs-lookup"><span data-stu-id="86080-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
+<span data-ttu-id="0b002-105">Zum Definieren einer Standortrichtlinie für Subnetze müssen Sie folgende Aufgaben in beliebiger Reihenfolge ausführen:</span><span class="sxs-lookup"><span data-stu-id="0b002-105">To define a location policy for subnets, you must do the following, in any order:</span></span>
 
-  - <span data-ttu-id="86080-105">Wenden Sie eine Standortrichtlinie auf den Netzwerkstandort an.</span><span class="sxs-lookup"><span data-stu-id="86080-105">Apply a location policy to the network site.</span></span>
+  - <span data-ttu-id="0b002-106">Wenden Sie eine Standortrichtlinie auf den Netzwerkstandort an.</span><span class="sxs-lookup"><span data-stu-id="0b002-106">Apply a location policy to the network site.</span></span>
 
-  - <span data-ttu-id="86080-106">Fügen Sie dem Netzwerkstandort Subnetze hinzu.</span><span class="sxs-lookup"><span data-stu-id="86080-106">Add the subnets to the network site.</span></span>
+  - <span data-ttu-id="0b002-107">Fügen Sie dem Netzwerkstandort Subnetze hinzu.</span><span class="sxs-lookup"><span data-stu-id="0b002-107">Add the subnets to the network site.</span></span>
 
-<span data-ttu-id="86080-107">Ausführliche Informationen zu Netzwerkstandorten finden Sie unter [lync Server Sites for lync Server 2013](lync-server-2013-sites.md).</span><span class="sxs-lookup"><span data-stu-id="86080-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
+<span data-ttu-id="0b002-108">Ausführliche Informationen zu Netzwerkstandorten finden Sie unter [lync Server Sites for lync Server 2013](lync-server-2013-sites.md).</span><span class="sxs-lookup"><span data-stu-id="0b002-108">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="86080-108">Wenn Sie Netzwerkstandorte für eine weitere VoIP-Funktion erstellen und für dieselben Standorte die erweiterten Notrufdienste (E9-1-1) konfigurieren möchten, können Sie die vorhandenen Standorte zur Verwendung von E9-1-1 ändern.</span><span class="sxs-lookup"><span data-stu-id="86080-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
+> <span data-ttu-id="0b002-109">Wenn Sie Netzwerkstandorte für eine weitere VoIP-Funktion erstellen und für dieselben Standorte die erweiterten Notrufdienste (E9-1-1) konfigurieren möchten, können Sie die vorhandenen Standorte zur Verwendung von E9-1-1 ändern.</span><span class="sxs-lookup"><span data-stu-id="0b002-109">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
 
 
 
@@ -59,11 +60,11 @@ ms.locfileid: "48508912"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="86080-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="86080-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0b002-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0b002-110">In This Section</span></span>
 
-  - [<span data-ttu-id="86080-110">Hinzufügen einer ortungsrichtlinie zu einem Netzwerkstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86080-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [<span data-ttu-id="0b002-111">Hinzufügen einer ortungsrichtlinie zu einem Netzwerkstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b002-111">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [<span data-ttu-id="86080-111">Zuordnen eines Subnetzes zu einem Netzwerkstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86080-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="0b002-112">Zuordnen eines Subnetzes zu einem Netzwerkstandort in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b002-112">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 
