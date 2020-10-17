@@ -12,20 +12,22 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cf838e59c95528a1c32870d90f5c2e2babf10fc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 363baeb3065b04dc936b69fff34f2314726f495a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198398"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526932"
 ---
+# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="b9453-102">Konfigurieren von Netzwerk Regions Links in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9453-102">Configuring network region links in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="09c1b-102">Konfigurieren von Netzwerk Regions Links in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09c1b-102">Configuring network region links in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,75 +37,75 @@ ms.locfileid: "42198398"
 
 <span> </span>
 
-<span data-ttu-id="09c1b-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="09c1b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b9453-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b9453-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="09c1b-104">Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="09c1b-104">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="09c1b-105">Regionen in einem Netzwerk sind über eine physische WAN-Verbindung (Wide Area Network, Fernnetz) verbunden.</span><span class="sxs-lookup"><span data-stu-id="09c1b-105">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="09c1b-106">Sie können die lync Server-Systemsteuerung verwenden, um eine Verknüpfung zwischen zwei netzwerkregionen zu definieren und die Bandbreitenbeschränkungen für Audio-und Videoverbindungen zwischen diesen Regionen festzulegen.</span><span class="sxs-lookup"><span data-stu-id="09c1b-106">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="09c1b-107">Ausführliche Informationen zum Löschen einer vorhandenen Netzwerk Regions Verbindung finden Sie unter [Löschen von Netzwerk Regions Links in lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span><span class="sxs-lookup"><span data-stu-id="09c1b-107">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
+<span data-ttu-id="b9453-104">Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="b9453-104">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="b9453-105">Regionen in einem Netzwerk sind über eine physische WAN-Verbindung (Wide Area Network, Fernnetz) verbunden.</span><span class="sxs-lookup"><span data-stu-id="b9453-105">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="b9453-106">Sie können die lync Server-Systemsteuerung verwenden, um eine Verknüpfung zwischen zwei netzwerkregionen zu definieren und die Bandbreitenbeschränkungen für Audio-und Videoverbindungen zwischen diesen Regionen festzulegen.</span><span class="sxs-lookup"><span data-stu-id="b9453-106">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="b9453-107">Ausführliche Informationen zum Löschen einer vorhandenen Netzwerk Regions Verbindung finden Sie unter [Löschen von Netzwerk Regions Links in lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span><span class="sxs-lookup"><span data-stu-id="b9453-107">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-network-region-link"></a><span data-ttu-id="09c1b-108">So erstellen Sie eine Netzwerkregionenverbindung</span><span class="sxs-lookup"><span data-stu-id="09c1b-108">To create a network region link</span></span>
+## <a name="to-create-a-network-region-link"></a><span data-ttu-id="b9453-108">So erstellen Sie eine Netzwerkregionenverbindung</span><span class="sxs-lookup"><span data-stu-id="b9453-108">To create a network region link</span></span>
 
-1.  <span data-ttu-id="09c1b-109">Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="09c1b-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="b9453-109">Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="b9453-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="09c1b-110">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="09c1b-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="09c1b-111">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="09c1b-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="b9453-110">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="b9453-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b9453-111">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b9453-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="09c1b-112">Klicken Sie auf der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionenverbindung**.</span><span class="sxs-lookup"><span data-stu-id="09c1b-112">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+3.  <span data-ttu-id="b9453-112">Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionenverbindung**.</span><span class="sxs-lookup"><span data-stu-id="b9453-112">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
 
-4.  <span data-ttu-id="09c1b-113">Klicken Sie auf der Seite **Regionenverbindung** auf **Neu**.</span><span class="sxs-lookup"><span data-stu-id="09c1b-113">On the **Region Link** page, click **New**.</span></span>
+4.  <span data-ttu-id="b9453-113">Klicken Sie auf der Seite **Regionenverbindung** auf **Neu**.</span><span class="sxs-lookup"><span data-stu-id="b9453-113">On the **Region Link** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="09c1b-114">Geben Sie im Abschnitt **Neue Regionenverbindung** im Feld **Name** einen Wert ein.</span><span class="sxs-lookup"><span data-stu-id="09c1b-114">In **New Region Link**, type a value in the **Name** field.</span></span>
+5.  <span data-ttu-id="b9453-114">Geben Sie im Abschnitt **Neue Regionenverbindung** im Feld **Name** einen Wert ein.</span><span class="sxs-lookup"><span data-stu-id="b9453-114">In **New Region Link**, type a value in the **Name** field.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="09c1b-115">Dieser Wert muss innerhalb ihrer lync Server 2013-Bereitstellung eindeutig sein.</span><span class="sxs-lookup"><span data-stu-id="09c1b-115">This value must be unique within your Lync Server 2013 deployment.</span></span>
+    > <span data-ttu-id="b9453-115">Dieser Wert muss innerhalb ihrer lync Server 2013-Bereitstellung eindeutig sein.</span><span class="sxs-lookup"><span data-stu-id="b9453-115">This value must be unique within your Lync Server 2013 deployment.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="09c1b-116">Wählen Sie in der Dropdownliste **netzwerkregion \#1** eine der beiden Regionen aus, die verknüpft werden sollen.</span><span class="sxs-lookup"><span data-stu-id="09c1b-116">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
+6.  <span data-ttu-id="b9453-116">Wählen Sie in der Dropdownliste **netzwerkregion \# 1** eine der beiden Regionen aus, die verknüpft werden sollen.</span><span class="sxs-lookup"><span data-stu-id="b9453-116">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
 
-7.  <span data-ttu-id="09c1b-117">Wählen Sie in der Dropdownliste **netzwerkregion \#2** den anderen zu verknüpfenden Bereich aus.</span><span class="sxs-lookup"><span data-stu-id="09c1b-117">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="09c1b-118">Diese Region muss sich von der für die netzwerkregion \#1 ausgewählten Region unterscheiden.</span><span class="sxs-lookup"><span data-stu-id="09c1b-118">This region must be different from the region selected for Network region \#1.</span></span>
+7.  <span data-ttu-id="b9453-117">Wählen Sie in der Dropdownliste **netzwerkregion \# 2** den anderen zu verknüpfenden Bereich aus.</span><span class="sxs-lookup"><span data-stu-id="b9453-117">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="b9453-118">Diese Region muss sich von der für die netzwerkregion 1 ausgewählten Region unterscheiden \# .</span><span class="sxs-lookup"><span data-stu-id="b9453-118">This region must be different from the region selected for Network region \#1.</span></span>
 
-8.  <span data-ttu-id="09c1b-119">(Optional) Wenn Sie Bandbreitenbeschränkungen für Audio- oder Videoanrufe zwischen diesen Regionen festlegen möchten, wählen Sie ein Bandbreitenrichtlinienprofil in der Dropdownliste **Bandbreitenrichtlinie** aus.</span><span class="sxs-lookup"><span data-stu-id="09c1b-119">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
+8.  <span data-ttu-id="b9453-119">(Optional) Wenn Sie Bandbreitenbeschränkungen für Audio- oder Videoanrufe zwischen diesen Regionen festlegen möchten, wählen Sie ein Bandbreitenrichtlinienprofil in der Dropdownliste **Bandbreitenrichtlinie** aus.</span><span class="sxs-lookup"><span data-stu-id="b9453-119">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
 
-9.  <span data-ttu-id="09c1b-120">Klicken Sie auf **Commit**.</span><span class="sxs-lookup"><span data-stu-id="09c1b-120">Click **Commit**.</span></span>
-
-</div>
-
-<div>
-
-## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="09c1b-121">So ändern Sie eine Netzwerkregionenverbindung</span><span class="sxs-lookup"><span data-stu-id="09c1b-121">To modify a network region link</span></span>
-
-1.  <span data-ttu-id="09c1b-122">Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="09c1b-122">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
-
-2.  <span data-ttu-id="09c1b-123">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="09c1b-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="09c1b-124">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="09c1b-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
-
-3.  <span data-ttu-id="09c1b-125">Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionenverbindung**.</span><span class="sxs-lookup"><span data-stu-id="09c1b-125">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
-
-4.  <span data-ttu-id="09c1b-126">Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie ändern möchten.</span><span class="sxs-lookup"><span data-stu-id="09c1b-126">On the **Region Link** page, click the region link that you want to modify.</span></span>
-
-5.  <span data-ttu-id="09c1b-127">Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="09c1b-127">On the **Edit** menu, click **Show details**.</span></span>
-
-6.  <span data-ttu-id="09c1b-128">Im Abschnitt **Regionenverbindung bearbeiten** können Sie die verknüpften Regionen oder das Bandbreitenrichtlinienprofil für diese Region ändern.</span><span class="sxs-lookup"><span data-stu-id="09c1b-128">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
-
-7.  <span data-ttu-id="09c1b-129">Klicken Sie auf **Commit**.</span><span class="sxs-lookup"><span data-stu-id="09c1b-129">Click **Commit**.</span></span>
+9.  <span data-ttu-id="b9453-120">Klicken Sie auf **Commit**.</span><span class="sxs-lookup"><span data-stu-id="b9453-120">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="09c1b-130">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="09c1b-130">See Also</span></span>
+## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="b9453-121">So ändern Sie eine Netzwerkregionenverbindung</span><span class="sxs-lookup"><span data-stu-id="b9453-121">To modify a network region link</span></span>
+
+1.  <span data-ttu-id="b9453-122">Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="b9453-122">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="b9453-123">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="b9453-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b9453-124">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b9453-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="b9453-125">Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionenverbindung**.</span><span class="sxs-lookup"><span data-stu-id="b9453-125">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+
+4.  <span data-ttu-id="b9453-126">Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie ändern möchten.</span><span class="sxs-lookup"><span data-stu-id="b9453-126">On the **Region Link** page, click the region link that you want to modify.</span></span>
+
+5.  <span data-ttu-id="b9453-127">Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="b9453-127">On the **Edit** menu, click **Show details**.</span></span>
+
+6.  <span data-ttu-id="b9453-128">Im Abschnitt **Regionenverbindung bearbeiten** können Sie die verknüpften Regionen oder das Bandbreitenrichtlinienprofil für diese Region ändern.</span><span class="sxs-lookup"><span data-stu-id="b9453-128">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
+
+7.  <span data-ttu-id="b9453-129">Klicken Sie auf **Commit**.</span><span class="sxs-lookup"><span data-stu-id="b9453-129">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="b9453-130">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b9453-130">See Also</span></span>
 
 
-[<span data-ttu-id="09c1b-131">Löschen von Netzwerk Regions Links in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09c1b-131">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
+[<span data-ttu-id="b9453-131">Löschen von Netzwerk Regions Links in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9453-131">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
 
 
-[<span data-ttu-id="09c1b-132">New-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="09c1b-132">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
-[<span data-ttu-id="09c1b-133">Gruppe-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="09c1b-133">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
-[<span data-ttu-id="09c1b-134">Remove-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="09c1b-134">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
-[<span data-ttu-id="09c1b-135">Get-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="09c1b-135">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[<span data-ttu-id="b9453-132">New-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="b9453-132">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[<span data-ttu-id="b9453-133">Gruppe-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="b9453-133">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[<span data-ttu-id="b9453-134">Remove-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="b9453-134">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[<span data-ttu-id="b9453-135">Get-CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="b9453-135">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f35d45c1b437c04e96885f098df6026650d61768
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d587444dfd1fbe4fae8898438a51bc9cfb2b5ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526952"
 ---
+# <a name="configuring-mobility-service-for-high-performance-in-lync-server-2013"></a><span data-ttu-id="170c3-102">Konfigurieren des mobilitätsdiensts für hohe Leistung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="170c3-102">Configuring Mobility Service for high performance in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-mobility-service-for-high-performance-in-lync-server-2013"></a><span data-ttu-id="47b0d-102">Konfigurieren des mobilitätsdiensts für hohe Leistung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47b0d-102">Configuring Mobility Service for high performance in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,33 +37,33 @@ ms.locfileid: "42213561"
 
 <span> </span>
 
-<span data-ttu-id="47b0d-103">_**Letztes Änderungsstand des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="47b0d-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="170c3-103">_**Letztes Änderungsstand des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="170c3-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="47b0d-104">Dieses Thema bezieht sich nur auf den lync Server 2013 Mobilitätsdienst (MCX) und gilt nicht für Unified Communications Web API (UCWA), wie in den kumulativen Updates für lync Server 2013:2013. Februar ausgeliefert.</span><span class="sxs-lookup"><span data-stu-id="47b0d-104">This topic applies only to the Lync Server 2013 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
+> <span data-ttu-id="170c3-104">Dieses Thema bezieht sich nur auf den lync Server 2013 Mobilitätsdienst (MCX) und gilt nicht für Unified Communications Web API (UCWA), wie in den kumulativen Updates für lync Server 2013:2013. Februar ausgeliefert.</span><span class="sxs-lookup"><span data-stu-id="170c3-104">This topic applies only to the Lync Server 2013 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="47b0d-105">Wenn Sie den Mobilitätsdienst (MCX) auf Internet Information Services (IIS) 7,5 installieren, konfiguriert das Mobilitätsdienst-Installationsprogramm einige Leistungseinstellungen auf dem Front-End-Server.</span><span class="sxs-lookup"><span data-stu-id="47b0d-105">When you install the Mobility Service (Mcx) on Internet Information Services (IIS) 7.5, the Mobility Service installer configures some performance settings on the Front End Server.</span></span> <span data-ttu-id="47b0d-106">Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="47b0d-106">We recommend that you use IIS 7.5 for mobility.</span></span> <span data-ttu-id="47b0d-107">Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.</span><span class="sxs-lookup"><span data-stu-id="47b0d-107">The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.</span></span>
+<span data-ttu-id="170c3-105">Wenn Sie den Mobilitätsdienst (MCX) auf Internet Information Services (IIS) 7,5 installieren, konfiguriert das Mobilitätsdienst-Installationsprogramm einige Leistungseinstellungen auf dem Front-End-Server.</span><span class="sxs-lookup"><span data-stu-id="170c3-105">When you install the Mobility Service (Mcx) on Internet Information Services (IIS) 7.5, the Mobility Service installer configures some performance settings on the Front End Server.</span></span> <span data-ttu-id="170c3-106">Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="170c3-106">We recommend that you use IIS 7.5 for mobility.</span></span> <span data-ttu-id="170c3-107">Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.</span><span class="sxs-lookup"><span data-stu-id="170c3-107">The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.</span></span>
 
-<span data-ttu-id="47b0d-108">Hier sind die Leistungseinstellungen:</span><span class="sxs-lookup"><span data-stu-id="47b0d-108">Here are the performance settings:</span></span>
+<span data-ttu-id="170c3-108">Hier sind die Leistungseinstellungen:</span><span class="sxs-lookup"><span data-stu-id="170c3-108">Here are the performance settings:</span></span>
 
 <div>
 
-## <a name="settings-for-mcx-on-iis-75"></a><span data-ttu-id="47b0d-109">Einstellungen für MCX unter IIS 7,5</span><span class="sxs-lookup"><span data-stu-id="47b0d-109">Settings for Mcx on IIS 7.5</span></span>
+## <a name="settings-for-mcx-on-iis-75"></a><span data-ttu-id="170c3-109">Einstellungen für MCX unter IIS 7,5</span><span class="sxs-lookup"><span data-stu-id="170c3-109">Settings for Mcx on IIS 7.5</span></span>
 
-1.  <span data-ttu-id="47b0d-110">**maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="47b0d-110">**maxConcurrentThreadsPerCPU** is set to zero (0).</span></span>
+1.  <span data-ttu-id="170c3-110">**maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="170c3-110">**maxConcurrentThreadsPerCPU** is set to zero (0).</span></span>
 
-2.  <span data-ttu-id="47b0d-111">**maxConcurrentRequestsPerCPU** ist auf null (0) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="47b0d-111">**maxConcurrentRequestsPerCPU** is set to zero (0).</span></span>
+2.  <span data-ttu-id="170c3-111">**maxConcurrentRequestsPerCPU** ist auf null (0) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="170c3-111">**maxConcurrentRequestsPerCPU** is set to zero (0).</span></span>
 
-3.  <span data-ttu-id="47b0d-112">Das ASP.NET-Prozessmodell ist auf "AutoConfig" (nur für IIS 7.5) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="47b0d-112">ASP.NET process model is set to AutoConfig (for IIS 7.5 only).</span></span>
+3.  <span data-ttu-id="170c3-112">Das ASP.NET-Prozessmodell ist auf "AutoConfig" (nur für IIS 7.5) gesetzt.</span><span class="sxs-lookup"><span data-stu-id="170c3-112">ASP.NET process model is set to AutoConfig (for IIS 7.5 only).</span></span>
 
-4.  <span data-ttu-id="47b0d-113">Das Limit für die HTTP.SYS-Warteschlange ist standardmäßig auf 1.000 gesetzt.</span><span class="sxs-lookup"><span data-stu-id="47b0d-113">HTTP.sys queue limit is set to 1,000 (by default).</span></span>
+4.  <span data-ttu-id="170c3-113">Das Limit für die HTTP.SYS-Warteschlange ist standardmäßig auf 1.000 gesetzt.</span><span class="sxs-lookup"><span data-stu-id="170c3-113">HTTP.sys queue limit is set to 1,000 (by default).</span></span>
 
 </div>
 

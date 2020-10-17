@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellungsprozess für standortbasiertes Routing'
+title: 'Lync Server 2013: Bereitstellungsprozess für Location-Based Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08def9741ad6ba4f91759e88a38fccdea0d44333
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f9d2dfa15dce07fa66678932d8d765ec7308ba75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198308"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526922"
 ---
+# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="23abb-102">Bereitstellungsprozess für Location-Based Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23abb-102">Deployment process for Location-Based Routing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="641a7-102">Bereitstellungsprozess für standortbasiertes Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="641a7-102">Deployment process for Location-Based Routing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42198308"
 
 <span> </span>
 
-<span data-ttu-id="641a7-103">_**Letztes Änderungsstand des Themas:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="641a7-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="23abb-103">_**Letztes Änderungsstand des Themas:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="23abb-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="641a7-104">Dieses Thema bietet eine Übersicht über den Prozess, der bei der Konfiguration des standortbasierten Routings erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="641a7-104">This topic provides an overview of the process involved in configuring Location-Based Routing.</span></span> <span data-ttu-id="641a7-105">Sie müssen lync Server Enterprise Edition oder Standard Edition mit Enterprise-VoIP bereitstellen, bevor Sie das standortbasierte Routing konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="641a7-105">You must deploy Lync Server Enterprise Edition or Standard Edition with Enterprise Voice before you configure Location-Based Routing.</span></span> <span data-ttu-id="641a7-106">Die Komponenten, die für das standortbasierte Routing erforderlich sind, sind bereits installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="641a7-106">The components required by Location-Based Routing are already installed and enabled when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="23abb-104">Dieses Thema bietet eine Übersicht über den Prozess, der beim Konfigurieren Location-Based Routings erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="23abb-104">This topic provides an overview of the process involved in configuring Location-Based Routing.</span></span> <span data-ttu-id="23abb-105">Sie müssen lync Server Enterprise Edition oder Standard Edition mit Enterprise-VoIP bereitstellen, bevor Sie Location-Based Routing konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="23abb-105">You must deploy Lync Server Enterprise Edition or Standard Edition with Enterprise Voice before you configure Location-Based Routing.</span></span> <span data-ttu-id="23abb-106">Die für Location-Based Routing erforderlichen Komponenten sind bereits installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="23abb-106">The components required by Location-Based Routing are already installed and enabled when you deploy Enterprise Voice.</span></span>
 
-### <a name="location-based-routing-deployment-process"></a><span data-ttu-id="641a7-107">Standortbasierter Routing Bereitstellungsprozess</span><span class="sxs-lookup"><span data-stu-id="641a7-107">Location-Based Routing Deployment Process</span></span>
+### <a name="location-based-routing-deployment-process"></a><span data-ttu-id="23abb-107">Location-Based Routing Bereitstellungsprozess</span><span class="sxs-lookup"><span data-stu-id="23abb-107">Location-Based Routing Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -50,59 +52,59 @@ ms.locfileid: "42198308"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="641a7-108">Phase</span><span class="sxs-lookup"><span data-stu-id="641a7-108">Phase</span></span></th>
-<th><span data-ttu-id="641a7-109">Schritte</span><span class="sxs-lookup"><span data-stu-id="641a7-109">Steps</span></span></th>
-<th><span data-ttu-id="641a7-110">Erforderliche Gruppen und Rollen</span><span class="sxs-lookup"><span data-stu-id="641a7-110">Required groups and roles</span></span></th>
-<th><span data-ttu-id="641a7-111">Bereitstellungsdokumentation</span><span class="sxs-lookup"><span data-stu-id="641a7-111">Deployment documentation</span></span></th>
+<th><span data-ttu-id="23abb-108">Phase</span><span class="sxs-lookup"><span data-stu-id="23abb-108">Phase</span></span></th>
+<th><span data-ttu-id="23abb-109">Schritte</span><span class="sxs-lookup"><span data-stu-id="23abb-109">Steps</span></span></th>
+<th><span data-ttu-id="23abb-110">Erforderliche Gruppen und Rollen</span><span class="sxs-lookup"><span data-stu-id="23abb-110">Required groups and roles</span></span></th>
+<th><span data-ttu-id="23abb-111">Bereitstellungsdokumentation</span><span class="sxs-lookup"><span data-stu-id="23abb-111">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-112">Bereitstellen von Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="641a7-112">Deploy Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="23abb-112">Bereitstellen von Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="23abb-112">Deploy Enterprise Voice</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="641a7-113">Konfigurieren von Trunks</span><span class="sxs-lookup"><span data-stu-id="641a7-113">Configure Trunks</span></span></p></li>
-<li><p><span data-ttu-id="641a7-114">Erstellen von VoIP-Richtlinien</span><span class="sxs-lookup"><span data-stu-id="641a7-114">Create Voice Policies</span></span></p></li>
-<li><p><span data-ttu-id="641a7-115">Definieren von VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="641a7-115">Define Voice Routes</span></span></p></li>
+<li><p><span data-ttu-id="23abb-113">Konfigurieren von Trunks</span><span class="sxs-lookup"><span data-stu-id="23abb-113">Configure Trunks</span></span></p></li>
+<li><p><span data-ttu-id="23abb-114">Erstellen von VoIP-Richtlinien</span><span class="sxs-lookup"><span data-stu-id="23abb-114">Create Voice Policies</span></span></p></li>
+<li><p><span data-ttu-id="23abb-115">Definieren von VoIP-Routen</span><span class="sxs-lookup"><span data-stu-id="23abb-115">Define Voice Routes</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="641a7-116">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="641a7-116">CSVoiceAdmins</span></span><br />
-<span data-ttu-id="641a7-117">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-117">CsAdministrator</span></span><br />
-<span data-ttu-id="641a7-118">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-118">CsServerAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="641a7-119">Bereitstellen von Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="641a7-119">Deploying Enterprise Voice</span></span></p></td>
+<td><p><span data-ttu-id="23abb-116">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="23abb-116">CSVoiceAdmins</span></span><br />
+<span data-ttu-id="23abb-117">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-117">CsAdministrator</span></span><br />
+<span data-ttu-id="23abb-118">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-118">CsServerAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="23abb-119">Bereitstellen von Enterprise-VoIP</span><span class="sxs-lookup"><span data-stu-id="23abb-119">Deploying Enterprise Voice</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="641a7-120">Überprüfen Ihrer Enterprise-VoIP-Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="641a7-120">Verify your Enterprise Voice deployment</span></span></p></td>
+<td><p><span data-ttu-id="23abb-120">Überprüfen Ihrer Enterprise-VoIP-Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="23abb-120">Verify your Enterprise Voice deployment</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="641a7-121">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="641a7-121">CSVoiceAdmins</span></span><br />
-<span data-ttu-id="641a7-122">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-122">CsAdministrator</span></span><br />
-<span data-ttu-id="641a7-123">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-123">CsServerAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="23abb-121">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="23abb-121">CSVoiceAdmins</span></span><br />
+<span data-ttu-id="23abb-122">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-122">CsAdministrator</span></span><br />
+<span data-ttu-id="23abb-123">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-123">CsServerAdministrator</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-124">Konfigurieren von netzwerkregionen, Standorten und Subnetzen</span><span class="sxs-lookup"><span data-stu-id="641a7-124">Configure network regions, sites, and subnets</span></span></p></td>
+<td><p><span data-ttu-id="23abb-124">Konfigurieren von netzwerkregionen, Standorten und Subnetzen</span><span class="sxs-lookup"><span data-stu-id="23abb-124">Configure network regions, sites, and subnets</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="641a7-125">Erstellen von netzwerkregionen</span><span class="sxs-lookup"><span data-stu-id="641a7-125">Create network regions</span></span></p></li>
-<li><p><span data-ttu-id="641a7-126">Erstellen von Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="641a7-126">Create network sites</span></span></p></li>
-<li><p><span data-ttu-id="641a7-127">Assoziierte Subnetze mit Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="641a7-127">Associates subnets with network sites</span></span></p></li>
+<li><p><span data-ttu-id="23abb-125">Erstellen von netzwerkregionen</span><span class="sxs-lookup"><span data-stu-id="23abb-125">Create network regions</span></span></p></li>
+<li><p><span data-ttu-id="23abb-126">Erstellen von Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="23abb-126">Create network sites</span></span></p></li>
+<li><p><span data-ttu-id="23abb-127">Assoziierte Subnetze mit Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="23abb-127">Associates subnets with network sites</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="641a7-128">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="641a7-128">CSVoiceAdmins</span></span><br />
-<span data-ttu-id="641a7-129">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-129">CsAdministrator</span></span><br />
-<span data-ttu-id="641a7-130">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-130">CsServerAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="641a7-131">Grundlegende Informationen zu Netzwerkregionen, Standorten und Subnetzen</span><span class="sxs-lookup"><span data-stu-id="641a7-131">About Network Regions, Sites, and Subnets</span></span><br />
-<span data-ttu-id="641a7-132">Erstellen oder Ändern einer Netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="641a7-132">Create or Modify a Network Region</span></span><br />
-<span data-ttu-id="641a7-133">Erstellen oder Ändern eines Netzwerkstandorts</span><span class="sxs-lookup"><span data-stu-id="641a7-133">Create or Modify a Network Site</span></span><br />
-<span data-ttu-id="641a7-134">Zuordnen eines Subnetzes zu einem Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="641a7-134">Associate a Subnet with a Network Site</span></span></p></td>
+<td><p><span data-ttu-id="23abb-128">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="23abb-128">CSVoiceAdmins</span></span><br />
+<span data-ttu-id="23abb-129">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-129">CsAdministrator</span></span><br />
+<span data-ttu-id="23abb-130">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-130">CsServerAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="23abb-131">Grundlegende Informationen zu Netzwerkregionen, Standorten und Subnetzen</span><span class="sxs-lookup"><span data-stu-id="23abb-131">About Network Regions, Sites, and Subnets</span></span><br />
+<span data-ttu-id="23abb-132">Erstellen oder Ändern einer Netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="23abb-132">Create or Modify a Network Region</span></span><br />
+<span data-ttu-id="23abb-133">Erstellen oder Ändern eines Netzwerkstandorts</span><span class="sxs-lookup"><span data-stu-id="23abb-133">Create or Modify a Network Site</span></span><br />
+<span data-ttu-id="23abb-134">Zuordnen eines Subnetzes zu einem Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="23abb-134">Associate a Subnet with a Network Site</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="641a7-135">Konfigurieren des standortbasierten Routings</span><span class="sxs-lookup"><span data-stu-id="641a7-135">Configure Location-Based Routing</span></span></p></td>
+<td><p><span data-ttu-id="23abb-135">Konfigurieren des Location-Based Routings</span><span class="sxs-lookup"><span data-stu-id="23abb-135">Configure Location-Based Routing</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="641a7-136">Erstellen von Richtlinien für das VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="641a7-136">Create voice routing policies</span></span></p></li>
-<li><p><span data-ttu-id="641a7-137">Definieren einer separaten trunkkonfiguration pro trunk</span><span class="sxs-lookup"><span data-stu-id="641a7-137">Define separate trunk configuration per trunk</span></span></p></li>
-<li><p><span data-ttu-id="641a7-138">Ändern von VoIP-Richtlinien</span><span class="sxs-lookup"><span data-stu-id="641a7-138">Modify voice policies</span></span></p></li>
-<li><p><span data-ttu-id="641a7-139">Aktivieren der standortbasierten Routing Konfiguration</span><span class="sxs-lookup"><span data-stu-id="641a7-139">Enable Location-Based Routing configuration</span></span></p></li>
+<li><p><span data-ttu-id="23abb-136">Erstellen von Richtlinien für das VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="23abb-136">Create voice routing policies</span></span></p></li>
+<li><p><span data-ttu-id="23abb-137">Definieren einer separaten trunkkonfiguration pro trunk</span><span class="sxs-lookup"><span data-stu-id="23abb-137">Define separate trunk configuration per trunk</span></span></p></li>
+<li><p><span data-ttu-id="23abb-138">Ändern von VoIP-Richtlinien</span><span class="sxs-lookup"><span data-stu-id="23abb-138">Modify voice policies</span></span></p></li>
+<li><p><span data-ttu-id="23abb-139">Aktivieren Location-Based Routing Konfiguration</span><span class="sxs-lookup"><span data-stu-id="23abb-139">Enable Location-Based Routing configuration</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="641a7-140">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="641a7-140">CSVoiceAdmins</span></span><br />
-<span data-ttu-id="641a7-141">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-141">CsAdministrator</span></span><br />
-<span data-ttu-id="641a7-142">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="641a7-142">CsServerAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="23abb-140">CSVoiceAdmins</span><span class="sxs-lookup"><span data-stu-id="23abb-140">CSVoiceAdmins</span></span><br />
+<span data-ttu-id="23abb-141">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-141">CsAdministrator</span></span><br />
+<span data-ttu-id="23abb-142">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="23abb-142">CsServerAdministrator</span></span></p></td>
 <td></td>
 </tr>
 </tbody>
@@ -111,21 +113,21 @@ ms.locfileid: "42198308"
 
 <div>
 
-## <a name="sample-deployment"></a><span data-ttu-id="641a7-143">Beispielbereitstellung</span><span class="sxs-lookup"><span data-stu-id="641a7-143">Sample Deployment</span></span>
+## <a name="sample-deployment"></a><span data-ttu-id="23abb-143">Beispielbereitstellung</span><span class="sxs-lookup"><span data-stu-id="23abb-143">Sample Deployment</span></span>
 
-<span data-ttu-id="641a7-144">Die folgende Bereitstellung dient zur Veranschaulichung der Mechanismen, die durch standortbasiertes Routing aktiviert sind.</span><span class="sxs-lookup"><span data-stu-id="641a7-144">The following deployment is used to illustrate further the mechanisms enabled by Location-Based Routing.</span></span>
+<span data-ttu-id="23abb-144">Die folgende Bereitstellung wird verwendet, um die durch Location-Based Routing aktivierten Mechanismen zu veranschaulichen.</span><span class="sxs-lookup"><span data-stu-id="23abb-144">The following deployment is used to illustrate further the mechanisms enabled by Location-Based Routing.</span></span>
 
-<span data-ttu-id="641a7-145">![e1bd2230-44da-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44da-4784-b359-24572b6ce02d")</span><span class="sxs-lookup"><span data-stu-id="641a7-145">![e1bd2230-44da-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44da-4784-b359-24572b6ce02d")</span></span>
+<span data-ttu-id="23abb-145">![e1bd2230-44da-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44da-4784-b359-24572b6ce02d")</span><span class="sxs-lookup"><span data-stu-id="23abb-145">![e1bd2230-44da-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44da-4784-b359-24572b6ce02d")</span></span>
 
 <div>
 
-## <a name="incoming-pstn-calls"></a><span data-ttu-id="641a7-146">Eingehende PSTN-Anrufe</span><span class="sxs-lookup"><span data-stu-id="641a7-146">Incoming PSTN calls</span></span>
+## <a name="incoming-pstn-calls"></a><span data-ttu-id="23abb-146">Eingehende PSTN-Anrufe</span><span class="sxs-lookup"><span data-stu-id="23abb-146">Incoming PSTN calls</span></span>
 
-<span data-ttu-id="641a7-147">Ein Administrator kann den definierten trunk so konfigurieren, dass er Anrufe an das Gateway "Standort 1" für das standortbasierte Routing weiterleitet und das "Standort 1-Gateway" mit Standort 1 verbindet.</span><span class="sxs-lookup"><span data-stu-id="641a7-147">An administrator can enable the trunk defined to route calls to “Site 1 Gateway” for Location-Based Routing and associate the “Site 1 Gateway” to site 1.</span></span> <span data-ttu-id="641a7-148">Nach der Aktivierung werden Anrufe, die über das Gateway "Standort 1" weitergeleitet werden, nur an Benutzer weitergeleitet, die sich an Standort 1 befinden.</span><span class="sxs-lookup"><span data-stu-id="641a7-148">Once enabled, calls that are routed through “Site 1 Gateway“ will only be routed to users that are located in site 1.</span></span> <span data-ttu-id="641a7-149">Alle Anrufe, die über den trunk "Standort 1-Gateway" geleitet werden, der für Benutzer an einem anderen Standort bestimmt ist, wie etwa Standort 2, werden blockiert, um eine PSTN-Maut Umgehung zu verhindern.</span><span class="sxs-lookup"><span data-stu-id="641a7-149">All calls routed through the “Site 1 Gateway” trunk destined to users in a different site, such as site 2 will be blocked to prevent PSTN toll bypass.</span></span>
+<span data-ttu-id="23abb-147">Ein Administrator kann den definierten trunk aktivieren, um Anrufe an "Standort 1-Gateway" für Location-Based Routing weiterzuleiten und das "Standort 1-Gateway" zu Standort 1 zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="23abb-147">An administrator can enable the trunk defined to route calls to “Site 1 Gateway” for Location-Based Routing and associate the “Site 1 Gateway” to site 1.</span></span> <span data-ttu-id="23abb-148">Nach der Aktivierung werden Anrufe, die über das Gateway "Standort 1" weitergeleitet werden, nur an Benutzer weitergeleitet, die sich an Standort 1 befinden.</span><span class="sxs-lookup"><span data-stu-id="23abb-148">Once enabled, calls that are routed through “Site 1 Gateway“ will only be routed to users that are located in site 1.</span></span> <span data-ttu-id="23abb-149">Alle Anrufe, die über den trunk "Standort 1-Gateway" geleitet werden, der für Benutzer an einem anderen Standort bestimmt ist, wie etwa Standort 2, werden blockiert, um eine PSTN-Maut Umgehung zu verhindern.</span><span class="sxs-lookup"><span data-stu-id="23abb-149">All calls routed through the “Site 1 Gateway” trunk destined to users in a different site, such as site 2 will be blocked to prevent PSTN toll bypass.</span></span>
 
-<span data-ttu-id="641a7-150">Alle eingehenden PSTN-Anrufe über "Standort 1-Gateway" dürfen nur an Endpunkte an Standort 1 weitergeleitet werden.</span><span class="sxs-lookup"><span data-stu-id="641a7-150">All incoming PSTN calls through “Site 1 Gateway” will only be allowed to route to endpoints located in site 1.</span></span> <span data-ttu-id="641a7-151">Wenn beispielsweise "lync Benutzer 1" zu Standort 2 reist, werden alle eingehenden PSTN-Anrufe über "Standort 1-Gateway" nicht an die Endpunkte von "lync User 1" an Standort 2 weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-151">For example, when “Lync user 1” travels to site 2, all incoming PSTN calls through “Site 1 Gateway” will not be routed to “Lync user 1” endpoints located in site 2.</span></span> <span data-ttu-id="641a7-152">Dieselbe Routingregel gilt, wenn "lync Benutzer 1" zu einem unbekannten Netzwerkstandort reist, in dem der Speicherort des Benutzers nicht ermittelt werden kann.</span><span class="sxs-lookup"><span data-stu-id="641a7-152">The same routing rule applies if “Lync user 1” travels to an unknown network site where the user’s location can’t be determined.</span></span>
+<span data-ttu-id="23abb-150">Alle eingehenden PSTN-Anrufe über "Standort 1-Gateway" dürfen nur an Endpunkte an Standort 1 weitergeleitet werden.</span><span class="sxs-lookup"><span data-stu-id="23abb-150">All incoming PSTN calls through “Site 1 Gateway” will only be allowed to route to endpoints located in site 1.</span></span> <span data-ttu-id="23abb-151">Wenn beispielsweise "lync Benutzer 1" zu Standort 2 reist, werden alle eingehenden PSTN-Anrufe über "Standort 1-Gateway" nicht an die Endpunkte von "lync User 1" an Standort 2 weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-151">For example, when “Lync user 1” travels to site 2, all incoming PSTN calls through “Site 1 Gateway” will not be routed to “Lync user 1” endpoints located in site 2.</span></span> <span data-ttu-id="23abb-152">Dieselbe Routingregel gilt, wenn "lync Benutzer 1" zu einem unbekannten Netzwerkstandort reist, in dem der Speicherort des Benutzers nicht ermittelt werden kann.</span><span class="sxs-lookup"><span data-stu-id="23abb-152">The same routing rule applies if “Lync user 1” travels to an unknown network site where the user’s location can’t be determined.</span></span>
 
-<span data-ttu-id="641a7-153">In der folgenden Tabelle wird die Benutzerfreundlichkeit von "lync User 1" in diesem Kontext erläutert.</span><span class="sxs-lookup"><span data-stu-id="641a7-153">The following table outlines the user experience of “Lync user 1” in this context.</span></span>
+<span data-ttu-id="23abb-153">In der folgenden Tabelle wird die Benutzerfreundlichkeit von "lync User 1" in diesem Kontext erläutert.</span><span class="sxs-lookup"><span data-stu-id="23abb-153">The following table outlines the user experience of “Lync user 1” in this context.</span></span>
 
 
 <table>
@@ -138,17 +140,17 @@ ms.locfileid: "42198308"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="641a7-154">Lync User 1-Endpunkte an Netzwerkstandort 1</span><span class="sxs-lookup"><span data-stu-id="641a7-154">Lync user 1 endpoints located in network site 1</span></span></th>
-<th><span data-ttu-id="641a7-155">Lync User 1-Endpunkte an Netzwerkstandort 2</span><span class="sxs-lookup"><span data-stu-id="641a7-155">Lync user 1 endpoints located in network site 2</span></span></th>
-<th><span data-ttu-id="641a7-156">Lync User 1-Endpunkte befinden sich an einem unbekannten Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="641a7-156">Lync user 1 endpoints located in unknown network site</span></span></th>
+<th><span data-ttu-id="23abb-154">Lync User 1-Endpunkte an Netzwerkstandort 1</span><span class="sxs-lookup"><span data-stu-id="23abb-154">Lync user 1 endpoints located in network site 1</span></span></th>
+<th><span data-ttu-id="23abb-155">Lync User 1-Endpunkte an Netzwerkstandort 2</span><span class="sxs-lookup"><span data-stu-id="23abb-155">Lync user 1 endpoints located in network site 2</span></span></th>
+<th><span data-ttu-id="23abb-156">Lync User 1-Endpunkte befinden sich an einem unbekannten Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="23abb-156">Lync user 1 endpoints located in unknown network site</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-157">Eingehende PSTN-Anrufe an lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="641a7-157">Inbound PSTN calls to Lync user 1</span></span></p></td>
-<td><p><span data-ttu-id="641a7-158">Anrufe werden an diesem Speicherort an Endpunkte weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-158">Calls are routed to endpoints in this location</span></span></p></td>
-<td><p><span data-ttu-id="641a7-159">Anrufe werden an diesem Speicherort nicht an Endpunkte weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-159">Calls are not routed to endpoints in this location</span></span></p></td>
-<td><p><span data-ttu-id="641a7-160">Anrufe werden an diesem Speicherort nicht an Endpunkte weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-160">Calls are not routed to endpoints in this location</span></span></p></td>
+<td><p><span data-ttu-id="23abb-157">Eingehende PSTN-Anrufe an lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="23abb-157">Inbound PSTN calls to Lync user 1</span></span></p></td>
+<td><p><span data-ttu-id="23abb-158">Anrufe werden an diesem Speicherort an Endpunkte weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-158">Calls are routed to endpoints in this location</span></span></p></td>
+<td><p><span data-ttu-id="23abb-159">Anrufe werden an diesem Speicherort nicht an Endpunkte weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-159">Calls are not routed to endpoints in this location</span></span></p></td>
+<td><p><span data-ttu-id="23abb-160">Anrufe werden an diesem Speicherort nicht an Endpunkte weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-160">Calls are not routed to endpoints in this location</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -158,13 +160,13 @@ ms.locfileid: "42198308"
 
 <div>
 
-## <a name="outgoing-pstn-calls"></a><span data-ttu-id="641a7-161">Ausgehende PSTN-Anrufe</span><span class="sxs-lookup"><span data-stu-id="641a7-161">Outgoing PSTN calls</span></span>
+## <a name="outgoing-pstn-calls"></a><span data-ttu-id="23abb-161">Ausgehende PSTN-Anrufe</span><span class="sxs-lookup"><span data-stu-id="23abb-161">Outgoing PSTN calls</span></span>
 
-<span data-ttu-id="641a7-162">Auf VoIP-Routen wird in beiden VoIP-Richtlinien verwiesen, die direkt Benutzern zugewiesen sind, sowie auf VoIP-Routing Richtlinien, die Netzwerkstandorten zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="641a7-162">Voice routes are referenced in both Voice Policies assigned directly to users, and Voice Routing Policies assigned to network sites.</span></span> <span data-ttu-id="641a7-163">Beide Richtlinien enthalten Verweise auf Routen, die verwendet werden können, um einen Anruf anders weiterzuleiten.</span><span class="sxs-lookup"><span data-stu-id="641a7-163">Both policies contain references to routes, which can be used to route a call differently.</span></span> <span data-ttu-id="641a7-164">Beispielsweise kann ein Administrator eine VoIP-Routing Richtlinie für alle Benutzer definieren, die sich im Netzwerkstandort 1 befinden, um alle ausgehenden Anrufe über das Gateway "Standort 1" weiterzuleiten, während die VoIP-Richtlinie einiger Benutzer eine Route für alle ausgehenden Anrufe über das Gateway "Standort 2" definiert.</span><span class="sxs-lookup"><span data-stu-id="641a7-164">For example, an administrator can define a Voice Routing Policy for all users located in network site 1 to route all outbound calls through the “Site 1 Gateway” while the Voice Policy of some users define a route for all outbound calls through the “Site 2 Gateway”.</span></span> <span data-ttu-id="641a7-165">Während sich diese Benutzer im Netzwerkstandort 1 befinden, werden Ihre ausgehenden Anrufe über das Gateway "Standort 1" weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-165">While these users are located in network site 1, their outbound calls will be routed through the “Site 1 Gateway”.</span></span>
+<span data-ttu-id="23abb-162">Auf VoIP-Routen wird in beiden VoIP-Richtlinien verwiesen, die direkt Benutzern zugewiesen sind, sowie auf VoIP-Routing Richtlinien, die Netzwerkstandorten zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="23abb-162">Voice routes are referenced in both Voice Policies assigned directly to users, and Voice Routing Policies assigned to network sites.</span></span> <span data-ttu-id="23abb-163">Beide Richtlinien enthalten Verweise auf Routen, die verwendet werden können, um einen Anruf anders weiterzuleiten.</span><span class="sxs-lookup"><span data-stu-id="23abb-163">Both policies contain references to routes, which can be used to route a call differently.</span></span> <span data-ttu-id="23abb-164">Beispielsweise kann ein Administrator eine VoIP-Routing Richtlinie für alle Benutzer definieren, die sich im Netzwerkstandort 1 befinden, um alle ausgehenden Anrufe über das Gateway "Standort 1" weiterzuleiten, während die VoIP-Richtlinie einiger Benutzer eine Route für alle ausgehenden Anrufe über das Gateway "Standort 2" definiert.</span><span class="sxs-lookup"><span data-stu-id="23abb-164">For example, an administrator can define a Voice Routing Policy for all users located in network site 1 to route all outbound calls through the “Site 1 Gateway” while the Voice Policy of some users define a route for all outbound calls through the “Site 2 Gateway”.</span></span> <span data-ttu-id="23abb-165">Während sich diese Benutzer im Netzwerkstandort 1 befinden, werden Ihre ausgehenden Anrufe über das Gateway "Standort 1" weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-165">While these users are located in network site 1, their outbound calls will be routed through the “Site 1 Gateway”.</span></span>
 
-<span data-ttu-id="641a7-166">Wenn sich ein Benutzer an einem Netzwerkstandort befindet, der für das standortbasierte Routing konfiguriert ist, überschreibt die Route der VoIP-Routing Richtlinie des Netzwerkstandorts die VoIP-Richtlinien Route des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="641a7-166">When a user is located in a network site configured for Location-Based Routing, the network site’s Voice Routing Policy route overrides the user’s Voice Policy route.</span></span> <span data-ttu-id="641a7-167">Diese Regel ist besonders nützlich für Benutzer, die vorübergehend zu einer anderen Website navigieren.</span><span class="sxs-lookup"><span data-stu-id="641a7-167">This rule is particularly useful for users that temporarily move to a different site.</span></span> <span data-ttu-id="641a7-168">In diesem speziellen Fall verwendet ein Benutzer immer ein Gateway, das lokal an seinem Standort ist; Wenn sich "lync User 3" unter "Standort 2" befindet, werden alle ausgehenden Anrufe über "Standort-2-Gateway" weitergeleitet, aber wenn er zu Standort 1 reist, werden alle ausgehenden Anrufe, die bei Standort 1 getätigt werden, über "Standort 1-Gateway" weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-168">In this particular case a user will always use a gateway that is local to his location; if “Lync user 3” is located at “Site 2”, all his outbound calls will be routed via “Site 2 Gateway”, but if he travels to site 1, all his outbound calls placed while he’s at site 1 will be routed through “Site 1 Gateway”.</span></span>
+<span data-ttu-id="23abb-166">Wenn sich ein Benutzer an einem Netzwerkstandort befindet, der für Location-Based Routing konfiguriert ist, überschreibt die Route der VoIP-Routing Richtlinie des Netzwerkstandorts die VoIP-Richtlinien Route des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="23abb-166">When a user is located in a network site configured for Location-Based Routing, the network site’s Voice Routing Policy route overrides the user’s Voice Policy route.</span></span> <span data-ttu-id="23abb-167">Diese Regel ist besonders nützlich für Benutzer, die vorübergehend zu einer anderen Website navigieren.</span><span class="sxs-lookup"><span data-stu-id="23abb-167">This rule is particularly useful for users that temporarily move to a different site.</span></span> <span data-ttu-id="23abb-168">In diesem speziellen Fall verwendet ein Benutzer immer ein Gateway, das lokal an seinem Standort ist; Wenn sich "lync User 3" unter "Standort 2" befindet, werden alle ausgehenden Anrufe über "Standort-2-Gateway" weitergeleitet, aber wenn er zu Standort 1 reist, werden alle ausgehenden Anrufe, die bei Standort 1 getätigt werden, über "Standort 1-Gateway" weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-168">In this particular case a user will always use a gateway that is local to his location; if “Lync user 3” is located at “Site 2”, all his outbound calls will be routed via “Site 2 Gateway”, but if he travels to site 1, all his outbound calls placed while he’s at site 1 will be routed through “Site 1 Gateway”.</span></span>
 
-<span data-ttu-id="641a7-169">In der folgenden Tabelle wird die Benutzererfahrung von lync User 1, die einen ausgehenden Anruf von den folgenden Netzwerkstandorten aus durch zeigt, dargestellt.</span><span class="sxs-lookup"><span data-stu-id="641a7-169">The following table illustrates the user experience of Lync user 1 placing an outbound call from the following network sites.</span></span>
+<span data-ttu-id="23abb-169">In der folgenden Tabelle wird die Benutzererfahrung von lync User 1, die einen ausgehenden Anruf von den folgenden Netzwerkstandorten aus durch zeigt, dargestellt.</span><span class="sxs-lookup"><span data-stu-id="23abb-169">The following table illustrates the user experience of Lync user 1 placing an outbound call from the following network sites.</span></span>
 
 
 <table>
@@ -177,23 +179,23 @@ ms.locfileid: "42198308"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="641a7-170">Netzwerkstandort 1</span><span class="sxs-lookup"><span data-stu-id="641a7-170">Network site 1</span></span></th>
-<th><span data-ttu-id="641a7-171">Netzwerkstandort 2</span><span class="sxs-lookup"><span data-stu-id="641a7-171">Network site 2</span></span></th>
-<th><span data-ttu-id="641a7-172">Unbekannter Netzwerkstandort oder nicht für standortbasiertes Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="641a7-172">Unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="23abb-170">Netzwerkstandort 1</span><span class="sxs-lookup"><span data-stu-id="23abb-170">Network site 1</span></span></th>
+<th><span data-ttu-id="23abb-171">Netzwerkstandort 2</span><span class="sxs-lookup"><span data-stu-id="23abb-171">Network site 2</span></span></th>
+<th><span data-ttu-id="23abb-172">Unbekannter Netzwerkstandort oder nicht für Location-Based Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="23abb-172">Unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-173">Autorisierung für ausgehende Anrufe</span><span class="sxs-lookup"><span data-stu-id="641a7-173">Authorization of outbound calls</span></span></p></td>
-<td><p><span data-ttu-id="641a7-174">VoIP-Richtlinie für lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="641a7-174">Lync user 1 voice policy</span></span></p></td>
-<td><p><span data-ttu-id="641a7-175">VoIP-Richtlinie für lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="641a7-175">Lync user 1 voice policy</span></span></p></td>
-<td><p><span data-ttu-id="641a7-176">VoIP-Richtlinie für lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="641a7-176">Lync user 1 voice policy</span></span></p></td>
+<td><p><span data-ttu-id="23abb-173">Autorisierung für ausgehende Anrufe</span><span class="sxs-lookup"><span data-stu-id="23abb-173">Authorization of outbound calls</span></span></p></td>
+<td><p><span data-ttu-id="23abb-174">VoIP-Richtlinie für lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="23abb-174">Lync user 1 voice policy</span></span></p></td>
+<td><p><span data-ttu-id="23abb-175">VoIP-Richtlinie für lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="23abb-175">Lync user 1 voice policy</span></span></p></td>
+<td><p><span data-ttu-id="23abb-176">VoIP-Richtlinie für lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="23abb-176">Lync user 1 voice policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="641a7-177">Weiterleiten von ausgehenden Anrufen</span><span class="sxs-lookup"><span data-stu-id="641a7-177">Routing of outbound calls</span></span></p></td>
-<td><p><span data-ttu-id="641a7-178">VoIP-Routing Richtlinie für Standort 1</span><span class="sxs-lookup"><span data-stu-id="641a7-178">Site 1 voice routing policy</span></span></p></td>
-<td><p><span data-ttu-id="641a7-179">VoIP-Routing Richtlinie für Standort 2</span><span class="sxs-lookup"><span data-stu-id="641a7-179">Site 2 voice routing policy</span></span></p></td>
-<td><p><span data-ttu-id="641a7-180">VoIP-Richtlinie des Benutzers und nur für Systeme, die nicht für standortbasiertes Routing aktiviert sind</span><span class="sxs-lookup"><span data-stu-id="641a7-180">User’s voice policy and only to systems not enabled for Location-Based Routing</span></span></p></td>
+<td><p><span data-ttu-id="23abb-177">Weiterleiten von ausgehenden Anrufen</span><span class="sxs-lookup"><span data-stu-id="23abb-177">Routing of outbound calls</span></span></p></td>
+<td><p><span data-ttu-id="23abb-178">VoIP-Routing Richtlinie für Standort 1</span><span class="sxs-lookup"><span data-stu-id="23abb-178">Site 1 voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="23abb-179">VoIP-Routing Richtlinie für Standort 2</span><span class="sxs-lookup"><span data-stu-id="23abb-179">Site 2 voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="23abb-180">VoIP-Richtlinie des Benutzers und nur für nicht für Location-Based Routing aktivierte Systeme</span><span class="sxs-lookup"><span data-stu-id="23abb-180">User’s voice policy and only to systems not enabled for Location-Based Routing</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -203,11 +205,11 @@ ms.locfileid: "42198308"
 
 <div>
 
-## <a name="call-transfers-and-forwards"></a><span data-ttu-id="641a7-181">Anruf Übertragungen und-Weiterleitungen</span><span class="sxs-lookup"><span data-stu-id="641a7-181">Call transfers and forwards</span></span>
+## <a name="call-transfers-and-forwards"></a><span data-ttu-id="23abb-181">Anruf Übertragungen und-Weiterleitungen</span><span class="sxs-lookup"><span data-stu-id="23abb-181">Call transfers and forwards</span></span>
 
-<span data-ttu-id="641a7-182">Bei der Übertragung oder Weiterleitung von Anrufen wird das Routing der Anrufe von Standort basiertem Routing beeinflusst.</span><span class="sxs-lookup"><span data-stu-id="641a7-182">When calls are transferred or forwarded, the routing of calls is affected by Location-Based Routing.</span></span>
+<span data-ttu-id="23abb-182">Wenn Anrufe übertragen oder weitergeleitet werden, ist das Routing von Anrufen von Location-Based Routing betroffen.</span><span class="sxs-lookup"><span data-stu-id="23abb-182">When calls are transferred or forwarded, the routing of calls is affected by Location-Based Routing.</span></span>
 
-<span data-ttu-id="641a7-183">In der folgenden Tabelle wird lync-Benutzer 1, der einen PSTN-Anruf an einen anderen lync-Benutzer übertragen oder weiterleitet, dargestellt.</span><span class="sxs-lookup"><span data-stu-id="641a7-183">The following table depicts Lync user 1 transferring or forwarding a PSTN call to another Lync user.</span></span>
+<span data-ttu-id="23abb-183">In der folgenden Tabelle wird lync-Benutzer 1, der einen PSTN-Anruf an einen anderen lync-Benutzer übertragen oder weiterleitet, dargestellt.</span><span class="sxs-lookup"><span data-stu-id="23abb-183">The following table depicts Lync user 1 transferring or forwarding a PSTN call to another Lync user.</span></span>
 
 
 <table>
@@ -219,24 +221,24 @@ ms.locfileid: "42198308"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="641a7-184">Benutzer, der die Anrufweiterleitung initiiert oder weiterleitet</span><span class="sxs-lookup"><span data-stu-id="641a7-184">User initiating call transfer or forward</span></span></th>
-<th><span data-ttu-id="641a7-185">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="641a7-185">Lync user 2</span></span></th>
-<th><span data-ttu-id="641a7-186">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="641a7-186">Lync user 4</span></span></th>
-<th><span data-ttu-id="641a7-187">Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="641a7-187">Lync user in network site not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="23abb-184">Benutzer, der die Anrufweiterleitung initiiert oder weiterleitet</span><span class="sxs-lookup"><span data-stu-id="23abb-184">User initiating call transfer or forward</span></span></th>
+<th><span data-ttu-id="23abb-185">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="23abb-185">Lync user 2</span></span></th>
+<th><span data-ttu-id="23abb-186">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="23abb-186">Lync user 4</span></span></th>
+<th><span data-ttu-id="23abb-187">Lync-Benutzer im Netzwerkstandort nicht für Location-Based Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="23abb-187">Lync user in network site not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-188">Lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="641a7-188">Lync user 1</span></span></p></td>
-<td><p><span data-ttu-id="641a7-189">Anrufweiterleitung oder-Übertragung ist zulässig</span><span class="sxs-lookup"><span data-stu-id="641a7-189">Call forward or transfer is allowed</span></span></p></td>
-<td><p><span data-ttu-id="641a7-190">Anrufweiterleitung oder-Übertragung ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="641a7-190">Call forward or transfer is not allowed</span></span></p></td>
-<td><p><span data-ttu-id="641a7-191">Anrufweiterleitung oder-Übertragung ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="641a7-191">Call forward or transfer is not allowed</span></span></p></td>
+<td><p><span data-ttu-id="23abb-188">Lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="23abb-188">Lync user 1</span></span></p></td>
+<td><p><span data-ttu-id="23abb-189">Anrufweiterleitung oder-Übertragung ist zulässig</span><span class="sxs-lookup"><span data-stu-id="23abb-189">Call forward or transfer is allowed</span></span></p></td>
+<td><p><span data-ttu-id="23abb-190">Anrufweiterleitung oder-Übertragung ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="23abb-190">Call forward or transfer is not allowed</span></span></p></td>
+<td><p><span data-ttu-id="23abb-191">Anrufweiterleitung oder-Übertragung ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="23abb-191">Call forward or transfer is not allowed</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
   
-<span data-ttu-id="641a7-192">Die folgende Tabelle zeigt, wie sich das standortbasierte Routing auf die Weiterleitung des Anrufs auswirkt, basierend auf dem Speicherort des übertragenden lync-Benutzers (lync Benutzer 2, lync-Benutzer 4 usw.) an einen PSTN-Endpunkt.</span><span class="sxs-lookup"><span data-stu-id="641a7-192">The following table illustrates how Location-Based Routing affects how the call is routed based on the location of the Lync user being transferred (Lync user 2, Lync user 4, etc) to a PSTN endpoint</span></span>
+<span data-ttu-id="23abb-192">In der folgenden Tabelle wird veranschaulicht, wie sich Location-Based Routing auf die Weiterleitung des Anrufs basierend auf dem Standort des übertragenden lync-Benutzers (lync Benutzer 2, lync-Benutzer 4 usw.) an einen PSTN-Endpunkt auswirkt.</span><span class="sxs-lookup"><span data-stu-id="23abb-192">The following table illustrates how Location-Based Routing affects how the call is routed based on the location of the Lync user being transferred (Lync user 2, Lync user 4, etc) to a PSTN endpoint</span></span>
 
 
 <table>
@@ -248,18 +250,18 @@ ms.locfileid: "42198308"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="641a7-193">Endpunkt, an den der Anruf übertragen oder an diese weitergeleitet wird</span><span class="sxs-lookup"><span data-stu-id="641a7-193">Endpoint where call is transferred or forwarded to</span></span></th>
-<th><span data-ttu-id="641a7-194">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="641a7-194">Lync user 2</span></span></th>
-<th><span data-ttu-id="641a7-195">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="641a7-195">Lync user 4</span></span></th>
-<th><span data-ttu-id="641a7-196">Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="641a7-196">Lync user in network site not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="23abb-193">Endpunkt, an den der Anruf übertragen oder an diese weitergeleitet wird</span><span class="sxs-lookup"><span data-stu-id="23abb-193">Endpoint where call is transferred or forwarded to</span></span></th>
+<th><span data-ttu-id="23abb-194">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="23abb-194">Lync user 2</span></span></th>
+<th><span data-ttu-id="23abb-195">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="23abb-195">Lync user 4</span></span></th>
+<th><span data-ttu-id="23abb-196">Lync-Benutzer im Netzwerkstandort nicht für Location-Based Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="23abb-196">Lync user in network site not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-197">PSTN-Endpunkt</span><span class="sxs-lookup"><span data-stu-id="641a7-197">PSTN endpoint</span></span></p></td>
-<td><p><span data-ttu-id="641a7-198">Anrufweiterleitung oder-Übertragung wird über Standort 1-VoIP-Routing Richtlinie und Ausstieg über Standort 1-Gateway weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-198">Call forward or transfer is routed through site 1 voice routing policy and egress via Site 1 Gateway</span></span></p></td>
-<td><p><span data-ttu-id="641a7-199">Anrufweiterleitung oder-Übertragung wird über Standort 2-VoIP-Routing Richtlinie und Ausstieg über Standort-2-Gateway weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="641a7-199">Call forward or transfer is routed through site 2 voice routing policy and egress via Site 2 Gateway</span></span></p></td>
-<td><p><span data-ttu-id="641a7-200">Anrufweiterleitung oder-Übertragung wird über die VoIP-Richtlinie für lync-Benutzer weitergeleitet und über ein Gateway nicht für standortbasiertes Routing aktiviert (sofern verfügbar)</span><span class="sxs-lookup"><span data-stu-id="641a7-200">Call forward or transfer is routed through the Lync user voice policy and egress via a gateway not enabled for location-based routing (if available)</span></span></p></td>
+<td><p><span data-ttu-id="23abb-197">PSTN-Endpunkt</span><span class="sxs-lookup"><span data-stu-id="23abb-197">PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="23abb-198">Anrufweiterleitung oder-Übertragung wird über Standort 1-VoIP-Routing Richtlinie und Ausstieg über Standort 1-Gateway weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-198">Call forward or transfer is routed through site 1 voice routing policy and egress via Site 1 Gateway</span></span></p></td>
+<td><p><span data-ttu-id="23abb-199">Anrufweiterleitung oder-Übertragung wird über Standort 2-VoIP-Routing Richtlinie und Ausstieg über Standort-2-Gateway weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="23abb-199">Call forward or transfer is routed through site 2 voice routing policy and egress via Site 2 Gateway</span></span></p></td>
+<td><p><span data-ttu-id="23abb-200">Anrufweiterleitung oder-Übertragung wird über die VoIP-Richtlinie für lync-Benutzer weitergeleitet und über ein Gateway nicht für standortbasiertes Routing aktiviert (sofern verfügbar)</span><span class="sxs-lookup"><span data-stu-id="23abb-200">Call forward or transfer is routed through the Lync user voice policy and egress via a gateway not enabled for location-based routing (if available)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -269,11 +271,11 @@ ms.locfileid: "42198308"
 
 <div>
 
-## <a name="simultaneous-ringing"></a><span data-ttu-id="641a7-201">Gleichzeitiges Klingeln</span><span class="sxs-lookup"><span data-stu-id="641a7-201">Simultaneous ringing</span></span>
+## <a name="simultaneous-ringing"></a><span data-ttu-id="23abb-201">Gleichzeitiges Klingeln</span><span class="sxs-lookup"><span data-stu-id="23abb-201">Simultaneous ringing</span></span>
 
-<span data-ttu-id="641a7-202">Nachdem das standortbasierte Routing in der Beispieltopologie konfiguriert wurde, werden die folgenden Interaktionen erzwungen.</span><span class="sxs-lookup"><span data-stu-id="641a7-202">Once location-based routing is configured in the sample topology, the following interactions are enforced.</span></span>
+<span data-ttu-id="23abb-202">Nachdem das standortbasierte Routing in der Beispieltopologie konfiguriert wurde, werden die folgenden Interaktionen erzwungen.</span><span class="sxs-lookup"><span data-stu-id="23abb-202">Once location-based routing is configured in the sample topology, the following interactions are enforced.</span></span>
 
-<span data-ttu-id="641a7-203">In der folgenden Tabelle wird gezeigt, ob das standortbasierte Routing das gleichzeitige Klingeln für verschiedene lync-Benutzer ermöglicht (also lync User 2, lync User 4 usw.).</span><span class="sxs-lookup"><span data-stu-id="641a7-203">The following table illustrates whether Location-Based Routing allows simultaneous ringing for different Lync users (i.e. Lync user 2, Lync user 4, etc).</span></span>
+<span data-ttu-id="23abb-203">In der folgenden Tabelle wird gezeigt, ob Location-Based Routing das gleichzeitige Klingeln für verschiedene lync-Benutzer ermöglicht (also lync User 2, lync User 4 usw.).</span><span class="sxs-lookup"><span data-stu-id="23abb-203">The following table illustrates whether Location-Based Routing allows simultaneous ringing for different Lync users (i.e. Lync user 2, Lync user 4, etc).</span></span>
 
 
 <table>
@@ -285,24 +287,24 @@ ms.locfileid: "42198308"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="641a7-204">Ziel eines eingehenden PSTN-Anrufs</span><span class="sxs-lookup"><span data-stu-id="641a7-204">Incoming PSTN call target</span></span></th>
-<th><span data-ttu-id="641a7-205">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="641a7-205">Lync user 2</span></span></th>
-<th><span data-ttu-id="641a7-206">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="641a7-206">Lync user 4</span></span></th>
-<th><span data-ttu-id="641a7-207">Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="641a7-207">Lync user in network site not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="23abb-204">Ziel eines eingehenden PSTN-Anrufs</span><span class="sxs-lookup"><span data-stu-id="23abb-204">Incoming PSTN call target</span></span></th>
+<th><span data-ttu-id="23abb-205">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="23abb-205">Lync user 2</span></span></th>
+<th><span data-ttu-id="23abb-206">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="23abb-206">Lync user 4</span></span></th>
+<th><span data-ttu-id="23abb-207">Lync-Benutzer im Netzwerkstandort nicht für Location-Based Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="23abb-207">Lync user in network site not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-208">Lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="641a7-208">Lync user 1</span></span></p></td>
-<td><p><span data-ttu-id="641a7-209">Gleichzeitiges Klingeln ist zulässig</span><span class="sxs-lookup"><span data-stu-id="641a7-209">Simultaneous ring is allowed</span></span></p></td>
-<td><p><span data-ttu-id="641a7-210">Gleichzeitiges Klingeln ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="641a7-210">Simultaneous ring is not allowed</span></span></p></td>
-<td><p><span data-ttu-id="641a7-211">Gleichzeitiges Klingeln ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="641a7-211">Simultaneous ring is not allowed</span></span></p></td>
+<td><p><span data-ttu-id="23abb-208">Lync-Benutzer 1</span><span class="sxs-lookup"><span data-stu-id="23abb-208">Lync user 1</span></span></p></td>
+<td><p><span data-ttu-id="23abb-209">Gleichzeitiges Klingeln ist zulässig</span><span class="sxs-lookup"><span data-stu-id="23abb-209">Simultaneous ring is allowed</span></span></p></td>
+<td><p><span data-ttu-id="23abb-210">Gleichzeitiges Klingeln ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="23abb-210">Simultaneous ring is not allowed</span></span></p></td>
+<td><p><span data-ttu-id="23abb-211">Gleichzeitiges Klingeln ist nicht zulässig</span><span class="sxs-lookup"><span data-stu-id="23abb-211">Simultaneous ring is not allowed</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
   
-<span data-ttu-id="641a7-212">In der folgenden Tabelle wird veranschaulicht, ob das standortbasierte Routing das gleichzeitige Klingeln an einen PSTN-Endpunkt von verschiedenen lync-Benutzern ermöglicht (also lync User 2, lync User 4 usw.).</span><span class="sxs-lookup"><span data-stu-id="641a7-212">The following table illustrates whether Location-Based Routing allows simultaneous ringing to a PSTN endpoint from different Lync users (i.e. Lync user 2, Lync user 4, etc).</span></span>
+<span data-ttu-id="23abb-212">In der folgenden Tabelle wird gezeigt, ob Location-Based Routing das gleichzeitige Klingeln an einem PSTN-Endpunkt von verschiedenen lync-Benutzern ermöglicht (also lync User 2, lync User 4 usw.).</span><span class="sxs-lookup"><span data-stu-id="23abb-212">The following table illustrates whether Location-Based Routing allows simultaneous ringing to a PSTN endpoint from different Lync users (i.e. Lync user 2, Lync user 4, etc).</span></span>
 
 
 <table>
@@ -314,18 +316,18 @@ ms.locfileid: "42198308"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="641a7-213">Gleichzeitiges Klingel Ziel</span><span class="sxs-lookup"><span data-stu-id="641a7-213">Simultaneous ring target</span></span></th>
-<th><span data-ttu-id="641a7-214">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="641a7-214">Lync user 2</span></span></th>
-<th><span data-ttu-id="641a7-215">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="641a7-215">Lync user 4</span></span></th>
-<th><span data-ttu-id="641a7-216">Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="641a7-216">Lync user in network site not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="23abb-213">Gleichzeitiges Klingel Ziel</span><span class="sxs-lookup"><span data-stu-id="23abb-213">Simultaneous ring target</span></span></th>
+<th><span data-ttu-id="23abb-214">Lync-Benutzer 2</span><span class="sxs-lookup"><span data-stu-id="23abb-214">Lync user 2</span></span></th>
+<th><span data-ttu-id="23abb-215">Lync-Benutzer 4</span><span class="sxs-lookup"><span data-stu-id="23abb-215">Lync user 4</span></span></th>
+<th><span data-ttu-id="23abb-216">Lync-Benutzer im Netzwerkstandort nicht für Location-Based Routing aktiviert</span><span class="sxs-lookup"><span data-stu-id="23abb-216">Lync user in network site not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="641a7-217">Mobiltelefon für lync-Benutzer 1 (PSTN-Endpunkt)</span><span class="sxs-lookup"><span data-stu-id="641a7-217">Lync user 1 mobile phone (PSTN endpoint)</span></span></p></td>
-<td><p><span data-ttu-id="641a7-218">Anrufweiterleitung über die VoIP-Routing Richtlinie des Netzwerkstandorts und Ausstieg über Standort 1-Gateway</span><span class="sxs-lookup"><span data-stu-id="641a7-218">Call routed through network site 1’s voice routing policy and egress via site 1 gateway</span></span></p></td>
-<td><p><span data-ttu-id="641a7-219">Anruf weitergeleitet über die VoIP-Routing Richtlinie von Netzwerkstandort 2 und Ausgangspunkt über Standort 2-Gateway</span><span class="sxs-lookup"><span data-stu-id="641a7-219">Call routed through network site 2’s voice routing policy and egress via site 2 gateway</span></span></p></td>
-<td><p><span data-ttu-id="641a7-220">Anrufweiterleitung über die VoIP-Richtlinie für Anrufer und Austritt über ein PSTN-Gateway, das nicht für standortbasiertes Routing aktiviert ist</span><span class="sxs-lookup"><span data-stu-id="641a7-220">Call routed through the caller voice policy and will egress via a PSTN gateway not enabled for Location-Based Routing</span></span></p></td>
+<td><p><span data-ttu-id="23abb-217">Mobiltelefon für lync-Benutzer 1 (PSTN-Endpunkt)</span><span class="sxs-lookup"><span data-stu-id="23abb-217">Lync user 1 mobile phone (PSTN endpoint)</span></span></p></td>
+<td><p><span data-ttu-id="23abb-218">Anrufweiterleitung über die VoIP-Routing Richtlinie des Netzwerkstandorts und Ausstieg über Standort 1-Gateway</span><span class="sxs-lookup"><span data-stu-id="23abb-218">Call routed through network site 1’s voice routing policy and egress via site 1 gateway</span></span></p></td>
+<td><p><span data-ttu-id="23abb-219">Anruf weitergeleitet über die VoIP-Routing Richtlinie von Netzwerkstandort 2 und Ausgangspunkt über Standort 2-Gateway</span><span class="sxs-lookup"><span data-stu-id="23abb-219">Call routed through network site 2’s voice routing policy and egress via site 2 gateway</span></span></p></td>
+<td><p><span data-ttu-id="23abb-220">Anrufweiterleitung über die VoIP-Richtlinie für Anrufer und Austritt über ein PSTN-Gateway, das für Location-Based Routing nicht aktiviert ist</span><span class="sxs-lookup"><span data-stu-id="23abb-220">Call routed through the caller voice policy and will egress via a PSTN gateway not enabled for Location-Based Routing</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -337,10 +339,10 @@ ms.locfileid: "42198308"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="641a7-221">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="641a7-221">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="23abb-221">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="23abb-221">See Also</span></span>
 
 
-[<span data-ttu-id="641a7-222">Planen des standortbasierten Routings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="641a7-222">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="23abb-222">Planen von Location-Based Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23abb-222">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

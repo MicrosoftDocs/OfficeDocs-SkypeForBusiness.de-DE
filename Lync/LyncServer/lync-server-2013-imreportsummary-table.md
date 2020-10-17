@@ -12,20 +12,22 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d13401f38677d75bc40cbb4c1bd56f2fbb7fbb4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e750da3fd42a726012f089291d3e2c770e52b44
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196688"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526632"
 ---
+# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="4e3ea-102">IMReportSummary-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e3ea-102">IMReportSummary table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="107a1-102">IMReportSummary-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="107a1-102">IMReportSummary table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42196688"
 
 <span> </span>
 
-<span data-ttu-id="107a1-103">_**Letztes Änderungsstand des Themas:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="107a1-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="4e3ea-103">_**Letztes Änderungsstand des Themas:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="4e3ea-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="107a1-104">Das IMReportSummaryTable bietet einen Gesamtbericht zu den in einer Organisation gehaltenen Sofortnachrichtensitzungen.</span><span class="sxs-lookup"><span data-stu-id="107a1-104">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="107a1-105">Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="107a1-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="4e3ea-104">Das IMReportSummaryTable bietet einen Gesamtbericht zu den in einer Organisation gehaltenen Sofortnachrichtensitzungen.</span><span class="sxs-lookup"><span data-stu-id="4e3ea-104">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="4e3ea-105">Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="4e3ea-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -49,48 +51,48 @@ ms.locfileid: "42196688"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="107a1-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="107a1-106">Column</span></span></th>
-<th><span data-ttu-id="107a1-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="107a1-107">Data Type</span></span></th>
-<th><span data-ttu-id="107a1-108">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="107a1-108">Key/Index</span></span></th>
-<th><span data-ttu-id="107a1-109">Details</span><span class="sxs-lookup"><span data-stu-id="107a1-109">Details</span></span></th>
+<th><span data-ttu-id="4e3ea-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="4e3ea-106">Column</span></span></th>
+<th><span data-ttu-id="4e3ea-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="4e3ea-107">Data Type</span></span></th>
+<th><span data-ttu-id="4e3ea-108">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="4e3ea-108">Key/Index</span></span></th>
+<th><span data-ttu-id="4e3ea-109">Details</span><span class="sxs-lookup"><span data-stu-id="4e3ea-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="107a1-110"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="107a1-110"><strong>StartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="107a1-111">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="107a1-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="107a1-112">Primary</span><span class="sxs-lookup"><span data-stu-id="107a1-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="107a1-113">Datum und Uhrzeit, an dem bzw. zu der die Chatsitzung begann.</span><span class="sxs-lookup"><span data-stu-id="107a1-113">Date and time that the instant messaging session began.</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-110"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="4e3ea-110"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-111">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="4e3ea-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-112">Primary</span><span class="sxs-lookup"><span data-stu-id="4e3ea-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-113">Datum und Uhrzeit, an dem bzw. zu der die Chatsitzung begann.</span><span class="sxs-lookup"><span data-stu-id="4e3ea-113">Date and time that the instant messaging session began.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="107a1-114"><strong>Zeitraum</strong></span><span class="sxs-lookup"><span data-stu-id="107a1-114"><strong>TimePeriod</strong></span></span></p></td>
-<td><p><span data-ttu-id="107a1-115">char (1)</span><span class="sxs-lookup"><span data-stu-id="107a1-115">char(1)</span></span></p></td>
-<td><p><span data-ttu-id="107a1-116">Primary</span><span class="sxs-lookup"><span data-stu-id="107a1-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-114"><strong>Zeitraum</strong></span><span class="sxs-lookup"><span data-stu-id="4e3ea-114"><strong>TimePeriod</strong></span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-115">char (1)</span><span class="sxs-lookup"><span data-stu-id="4e3ea-115">char(1)</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-116">Primary</span><span class="sxs-lookup"><span data-stu-id="4e3ea-116">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="107a1-117"><strong>Poolfqdn "</strong></span><span class="sxs-lookup"><span data-stu-id="107a1-117"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="107a1-118">nvarchar (257)</span><span class="sxs-lookup"><span data-stu-id="107a1-118">nvarchar(257)</span></span></p></td>
-<td><p><span data-ttu-id="107a1-119">Primary</span><span class="sxs-lookup"><span data-stu-id="107a1-119">Primary</span></span></p></td>
-<td><p><span data-ttu-id="107a1-120">Vollqualifizierter Domänenname des Pools, der die Sitzung hostet.</span><span class="sxs-lookup"><span data-stu-id="107a1-120">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-117"><strong>Poolfqdn "</strong></span><span class="sxs-lookup"><span data-stu-id="4e3ea-117"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-118">nvarchar (257)</span><span class="sxs-lookup"><span data-stu-id="4e3ea-118">nvarchar(257)</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-119">Primary</span><span class="sxs-lookup"><span data-stu-id="4e3ea-119">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-120">Vollqualifizierter Domänenname des Pools, der die Sitzung hostet.</span><span class="sxs-lookup"><span data-stu-id="4e3ea-120">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="107a1-121"><strong>AuthType</strong></span><span class="sxs-lookup"><span data-stu-id="107a1-121"><strong>AuthType</strong></span></span></p></td>
-<td><p><span data-ttu-id="107a1-122">int</span><span class="sxs-lookup"><span data-stu-id="107a1-122">int</span></span></p></td>
-<td><p><span data-ttu-id="107a1-123">Primary</span><span class="sxs-lookup"><span data-stu-id="107a1-123">Primary</span></span></p></td>
-<td><p><span data-ttu-id="107a1-124">Priorität (z. B. dringend oder nicht dringend) des Anrufs.</span><span class="sxs-lookup"><span data-stu-id="107a1-124">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="107a1-125">Prioritätsinformationen werden in der <a href="lync-server-2013-callpriorities-table.md">CallPriorities-Tabelle in lync Server 2013</a>gespeichert.</span><span class="sxs-lookup"><span data-stu-id="107a1-125">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-121"><strong>AuthType</strong></span><span class="sxs-lookup"><span data-stu-id="4e3ea-121"><strong>AuthType</strong></span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-122">int</span><span class="sxs-lookup"><span data-stu-id="4e3ea-122">int</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-123">Primary</span><span class="sxs-lookup"><span data-stu-id="4e3ea-123">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-124">Priorität (z. B. dringend oder nicht dringend) des Anrufs.</span><span class="sxs-lookup"><span data-stu-id="4e3ea-124">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="4e3ea-125">Prioritätsinformationen werden in der <a href="lync-server-2013-callpriorities-table.md">CallPriorities-Tabelle in lync Server 2013</a>gespeichert.</span><span class="sxs-lookup"><span data-stu-id="4e3ea-125">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="107a1-126"><strong>SessionCount gespeichert</strong></span><span class="sxs-lookup"><span data-stu-id="107a1-126"><strong>SessionCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="107a1-127">bigint</span><span class="sxs-lookup"><span data-stu-id="107a1-127">bigint</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-126"><strong>SessionCount gespeichert</strong></span><span class="sxs-lookup"><span data-stu-id="4e3ea-126"><strong>SessionCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-127">bigint</span><span class="sxs-lookup"><span data-stu-id="4e3ea-127">bigint</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="107a1-128"><strong>MsgCount</strong></span><span class="sxs-lookup"><span data-stu-id="107a1-128"><strong>MsgCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="107a1-129">bigint</span><span class="sxs-lookup"><span data-stu-id="107a1-129">bigint</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-128"><strong>MsgCount</strong></span><span class="sxs-lookup"><span data-stu-id="4e3ea-128"><strong>MsgCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-129">bigint</span><span class="sxs-lookup"><span data-stu-id="4e3ea-129">bigint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="107a1-130">Die Gesamtzahl der Chatnachrichten, die während der Sitzung ausgetauscht wurden.</span><span class="sxs-lookup"><span data-stu-id="107a1-130">Total number of instant messages exchanged during the session.</span></span></p></td>
+<td><p><span data-ttu-id="4e3ea-130">Die Gesamtzahl der Chatnachrichten, die während der Sitzung ausgetauscht wurden.</span><span class="sxs-lookup"><span data-stu-id="4e3ea-130">Total number of instant messages exchanged during the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
