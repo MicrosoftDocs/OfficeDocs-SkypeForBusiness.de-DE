@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Bestimmen der Systemanforderungen'
+description: 'Lync Server 2013: Bestimmen der Systemanforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1d98235a00388b0a699f657714dbbc7fde2c182
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5ceca8eabb234ae7fd483372ff5e611664ecc4fa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522532"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569491"
 ---
 # <a name="determining-your-system-requirements-for-lync-server-2013"></a>Bestimmen der Systemanforderungen für lync Server 2013
 

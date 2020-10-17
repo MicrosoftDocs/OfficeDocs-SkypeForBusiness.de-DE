@@ -1,5 +1,6 @@
 ---
 title: Entfernen der SQL Server-Datenbank für einen Monitoring Server
+description: Entfernen Sie die SQL Server Datenbank für einen Monitoring Server.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dda833bd188eeaa2b969e8748bffb87944c5dc59
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 99bf734f0a9978fe14055fb36b01ce37f77e14a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518112"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570191"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Entfernen der SQL Server-Datenbank für einen Monitoring Server
 

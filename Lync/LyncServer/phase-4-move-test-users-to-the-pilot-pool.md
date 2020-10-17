@@ -1,5 +1,6 @@
 ---
 title: 'Phase 4: verlagern von Testbenutzern in den Pilot Pool'
+description: 'Phase 4: verlagern Sie Testbenutzer in den Pilot Pool.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed5cb22db64f2f26791bf17ae7217697691ad154
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1e5cc7a4eaec0b47c257a8c68ef0dc426c9d30cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523432"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568481"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Phase 4: verlagern von Testbenutzern in den Pilot Pool
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Video Client Event-Tabelle'
+description: 'Lync Server 2013: Video Client Event-Tabelle.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9282af929757a4703f40537cb94d50761b1ac422
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ae73ac2548e838241febe60a2d31f80983b01de5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527582"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568491"
 ---
 # <a name="videoclientevent-table-in-lync-server-2013"></a>Video Client Event-Tabelle in lync Server 2013
 

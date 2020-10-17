@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren des Parkens von Anrufen'
+description: 'Lync Server 2013: Konfigurieren des Anruf Parks.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76c9b0b3e091a45e637780a58646253746559a23
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1d2708f26fae5706afc31aa195b9fdb82536247b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502122"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568751"
 ---
 # <a name="configuring-call-park-in-lync-server-2013"></a>Konfigurieren des Parkens von Anrufen in lync Server 2013
 

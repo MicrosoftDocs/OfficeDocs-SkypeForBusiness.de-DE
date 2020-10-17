@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definieren und Konfigurieren einer Topologie im Topologie-Generator'
+description: 'Lync Server 2013: definieren und Konfigurieren einer Topologie im Topologie-Generator.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0aa4a2c12771adf41972fc0c69222935d6935570
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 83a1f29ec78cf7cfd3856d3f1aa87a22dc0bbe00
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504602"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569941"
 ---
 # <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Definieren und Konfigurieren einer Topologie im Topologie-Generator für lync Server 2013
 

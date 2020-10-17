@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verwalten von Reaktionsgruppen-Agentgruppen'
+description: 'Lync Server 2013: Verwalten von Reaktionsgruppen-Agentgruppen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11e0c0c022b1925831737d70a10c2a193b9732bf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23a4f430981689f9794c05aa1472ff61cd32cd5f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497952"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569391"
 ---
 # <a name="managing-response-group-agent-groups-in-lync-server-2013"></a>Verwalten von Reaktionsgruppen-Agentgruppen in lync Server 2013
 

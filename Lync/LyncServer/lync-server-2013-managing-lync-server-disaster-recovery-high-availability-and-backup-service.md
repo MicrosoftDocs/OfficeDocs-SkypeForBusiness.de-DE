@@ -1,5 +1,6 @@
 ---
 title: Verwalten von lync Server Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst
+description: Verwalten von lync Server Notfallwiederherstellung, Hochverfügbarkeit und Sicherungsdienst.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c935a27f737d8ec7fdb012f4e0c13930d20a1319
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3e440c8c72ab5e66d27a86dfce963368dff804bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498152"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569411"
 ---
 # <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst
 
