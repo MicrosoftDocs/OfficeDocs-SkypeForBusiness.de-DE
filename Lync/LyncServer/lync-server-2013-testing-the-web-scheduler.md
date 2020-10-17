@@ -12,20 +12,22 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193768"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503942"
 ---
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Testen des webplaners in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Testen des webplaners in lync Server 2013
+
 
 </div>
 
@@ -92,7 +94,7 @@ Wenn Testbenutzer nicht definiert sind, tritt beim Ausführen des Befehls ein Fe
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Die im nächsten Beispiel gezeigten Befehle testen die Fähigkeit eines bestimmten Benutzers (litwareinc\\kenmeyer), eine Onlinebesprechung mithilfe des webplaners zu planen. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Ken Meyer enthält. (Da der Anmeldename litwareinc\\kenmeyer als Parameter enthalten ist, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Ken Meyer-Konto angeben.) Das resultierende Credential-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert.
+Die im nächsten Beispiel gezeigten Befehle testen die Fähigkeit eines bestimmten Benutzers (litwareinc \\ kenmeyer), eine Onlinebesprechung mithilfe des webplaners zu planen. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Ken Meyer enthält. (Da der Anmeldename litwareinc \\ kenmeyer als Parameter enthalten ist, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Ken Meyer-Konto angeben.) Das resultierende Credential-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert.
 
 Der zweite Befehl prüft dann, ob sich dieser Benutzer am Pool ATL-CS-001.litwareinc.com anmelden und eine Onlinebesprechung planen kann. Zum Ausführen dieser Aufgabe wird das Cmdlet **Test-cswebscheduler "** zusammen mit drei Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); UserCredential (das Windows PowerShell-Objekt, das die Benutzeranmeldeinformationen von Pilar Ackerman enthält); und UserSipAddress (die SIP-Adresse, die den angegebenen Benutzeranmeldeinformationen entspricht).
 

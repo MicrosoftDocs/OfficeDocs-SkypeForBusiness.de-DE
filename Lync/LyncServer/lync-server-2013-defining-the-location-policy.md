@@ -12,20 +12,22 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64c164f24f0f2c140a140b7343dd526979cc2bff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bdb3b556f5b9a8d552a3c48e300b8c4b7b19f5f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208921"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504522"
 ---
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definieren der ortungsrichtlinie für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definieren der ortungsrichtlinie für lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
 <!-- end list -->
 
   - **Standort erforderlich**  
-    Diese Einstellung wird nur verwendet, wenn **Emergency Services Enabled** auf **Ja**festgelegt ist.
+    Diese Einstellung wird nur verwendet, wenn **Emergency Services Enabled**   auf **Ja**festgelegt ist.
     
     Sie können die Einstellung **Standort erforderlich** konfigurieren, um das Clientverhalten zu definieren. Lautet die Einstellung **Nein**, so wird der Benutzer nicht zur Eingabe eines Standorts aufgefordert. Lautet die Einstellung **Ja**, wird der Benutzer zur Eingabe eines Standorts aufgefordert, kann die Eingabeaufforderung jedoch verwerfen. Mit der Einstellung **Haftungsausschluss** wird der Benutzer zur Eingabe eines Standorts aufgefordert. Wenn der Benutzer versucht, diese Aufforderung zu verwerfen, wird ebenfalls ein Haftungsausschluss angezeigt. In allen Fällen kann der Benutzer den Client weiterhin verwenden.
     
@@ -81,7 +83,7 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
     
 
     > [!NOTE]  
-    > Wenn in Ihrer Organisation kein Präfix für den Zugriff auf externe Leitungen verwendet wird, müssen Sie keine entsprechende Normalisierungsregel für den Wählplan erstellen, die vor dem Senden des Anrufs an das ausgehende Routing auf einem lync-Pool Server ein "+" zur Zeichenfolge "911" hinzufügt. Das "+" wird dem lync-Client als Ergebnis der ortungsrichtlinie automatisch vorangestellt. Wenn Ihre Website jedoch ein externes Zugriffs Präfix verwendet, müssen Sie der entsprechenden Wähl Plan Richtlinie eine Normalisierungsregel hinzufügen, mit der das Präfix für den externen Zugriff entfernt und das Pluszeichen "+" hinzugefügt wird. Wenn Ihr Standort beispielsweise ein externes Zugriffs Präfix von 9 verwendet und ein Benutzer 9&nbsp;911 zum Platzieren eines Notrufs wählt, verwendet der Client seine Wähl Plan Richtlinie, um diese auf + 911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird.
+    > Wenn in Ihrer Organisation kein Präfix für den Zugriff auf externe Leitungen verwendet wird, müssen Sie keine entsprechende Normalisierungsregel für den Wählplan erstellen, die vor dem Senden des Anrufs an das ausgehende Routing auf einem lync-Pool Server ein "+" zur Zeichenfolge "911" hinzufügt. Das "+" wird dem lync-Client als Ergebnis der ortungsrichtlinie automatisch vorangestellt. Wenn Ihre Website jedoch ein externes Zugriffs Präfix verwendet, müssen Sie der entsprechenden Wähl Plan Richtlinie eine Normalisierungsregel hinzufügen, mit der das Präfix für den externen Zugriff entfernt und das Pluszeichen "+" hinzugefügt wird. Wenn Ihr Standort beispielsweise ein externes Zugriffs Präfix von 9 verwendet und ein Benutzer 9 &nbsp; 911 zum Platzieren eines Notrufs wählt, verwendet der Client seine Wähl Plan Richtlinie, um diese auf + 911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird.
 
     
     </div>

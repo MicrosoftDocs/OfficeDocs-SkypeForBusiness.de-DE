@@ -12,20 +12,22 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e55661d2d28052f7672798059d458563ab5c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51f728bfb5617185bdd9a1ef3b5f21b3e12ca61f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193758"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503932"
 ---
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Testen von Drittanbieter-Audiokonferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Testen von Drittanbieter-Audiokonferenzen in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-11-01_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsAudioConferencingProvider verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsAudioConferencingProvider-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -82,7 +84,7 @@ In Beispiel 1 wird überprüft, ob ein für den Pool ATL-CS-001.litwareinc.com d
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-Die in Beispiel 2 gezeigten Befehle testen die Fähigkeit eines bestimmten Benutzers (\\litwareinc kenmyer), eine Verbindung mit seinem Anbieter für Audiokonferenzen herzustellen. Dazu wird im ersten Befehl des Beispiels das Cmdlet Get-Credential verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Ken Myers enthält. (Da der Anmeldename litwareinc\\kenmyer als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Ken Myers-Konto angeben.) Das resultierende Credentials-Objekt wird in einer Variablen namens $Credential gespeichert.
+Die in Beispiel 2 gezeigten Befehle testen die Fähigkeit eines bestimmten Benutzers (litwareinc \\ kenmyer), eine Verbindung mit seinem Anbieter für Audiokonferenzen herzustellen. Dazu wird im ersten Befehl des Beispiels das Get-Credential-Cmdlet verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Ken Myers enthält. (Da der Anmeldename litwareinc \\ kenmyer als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Ken Myers-Konto angeben.) Das resultierende Credentials-Objekt wird in einer Variablen namens $Credential gespeichert.
 
 Der zweite Befehl prüft anschließend, ob dieser Benutzer eine Verbindung mit dem Audiokonferenzanbieter herstellen kann. Zur Ausführung dieser Aufgabe wird das Cmdlet Test-CsAudioConferencingProvider zusammen mit drei Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); UserCredential (das Windows PowerShell-Objekt, das die Benutzeranmeldeinformationen von Ken Myers enthält); und UserSipAddress (die SIP-Adresse, die den angegebenen Benutzeranmeldeinformationen entspricht).
 
@@ -121,7 +123,7 @@ nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
 Fehler bei hergestellter Verbindung, da der verbundene Host
 
-Fehler bei der \[Antwort 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
+Fehler bei der Antwort \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
@@ -131,7 +133,7 @@ Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
 Fehler beim Antworten
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Diagnose
 

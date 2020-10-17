@@ -12,20 +12,22 @@ ms:contentKeyID: 59893873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39c3d9dbaeb4c630445b832ab8f220c209461837
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e22fcf910062df155bb62a9da183bbe6ad73e0f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193668"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503772"
 ---
+# <a name="tls-and-mtls-for-lync-server-2013"></a>TLS und MTLS für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tls-and-mtls-for-lync-server-2013"></a>TLS und MTLS für lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ TLS-(Transport Layer Security) und MTLS-Protokolle (Mutual Transport Layer Secur
 
 Mit TLS können Benutzer über Ihre Client Software die lync Server 2013 Server authentifizieren, mit denen Sie eine Verbindung herstellen. Bei einer TLS-Verbindung fordert der Client ein gültiges Zertifikat vom Server an. Ein gültiges Zertifikat muss von einer auch für den Client vertrauenswürdigen Zertifizierungsstelle ausgegeben worden sein, und der DNS-Name des Servers muss mit dem DNS-Namen des Zertifikats übereinstimmen. Wenn das Zertifikat gültig ist, verwendet der Client den öffentlichen Schlüssel im Zertifikat, um die symmetrischen Verschlüsselungsschlüssel zu verschlüsseln, die zur Kommunikation verwendet werden sollen, damit nur der ursprüngliche Besitzer des Zertifikats den privaten Schlüssel zum Entschlüsseln der Kommunikationsinhalte verwenden kann. Die daraus resultierende Verbindung ist vertrauenswürdig, und im weiteren Verlauf wird keine Authentifizierung von anderen vertrauenswürdigen Servern oder Clients angefordert. In diesem Zusammenhang kann Secure Sockets Layer (SSL) bei der Verwendung mit Webdiensten auf TLS-Basis zugeordnet werden.
 
-Server-zu-Server-Verbindungen basieren auf MTLS für die gegenseitige Authentifizierung. Bei einer MTLS-Verbindung wird der Server mit einer Nachricht und dem empfangenden Server mit Exchange-Zertifikaten von einer gegenseitig vertrauenswürdigen Zertifizierungsstelle verbunden. Die Zertifikate beweisen die Identität der einzelnen Server auf der anderen. In lync Server 2013 Bereitstellungen werden von der Unternehmenszertifizierungsstelle ausgestellte Zertifikate, die während des Gültigkeitszeitraums von der ausstellenden Zertifizierungsstelle nicht widerrufen werden, automatisch von allen internen Clients und Servern als gültig betrachtet, da alle Mitglieder einer Active Directory Domäne Vertrauen Sie der Unternehmenszertifizierungsstelle in dieser Domäne. In Verbundszenarien muss die ausstellende Zertifizierungsstelle von beiden Verbundpartnern als vertrauenswürdig eingestuft werden. Jeder Partner kann bei Bedarf eine andere Zertifizierungsstelle verwenden, solange die Zertifizierungsstelle auch vom anderen Partner als vertrauenswürdig eingestuft wird. Diese Vertrauensstellung kann am einfachsten durch die Edgeserver mit dem Zertifikat der Stammzertifizierungsstelle des Partners in ihren vertrauenswürdigen Stammzertifizierungsstellen oder durch die Verwendung einer Drittanbieter-Zertifizierungsstelle erreicht werden, die von beiden Seiten als vertrauenswürdig eingestuft wird.
+Server-zu-Server-Verbindungen basieren auf MTLS für die gegenseitige Authentifizierung. Bei einer MTLS-Verbindung wird der Server mit einer Nachricht und dem empfangenden Server mit Exchange-Zertifikaten von einer gegenseitig vertrauenswürdigen Zertifizierungsstelle verbunden. Die Zertifikate beweisen die Identität der einzelnen Server auf der anderen. In lync Server 2013 Bereitstellungen werden von der Unternehmenszertifizierungsstelle ausgestellte Zertifikate, die während des Gültigkeitszeitraums von der ausstellenden Zertifizierungsstelle nicht widerrufen werden, automatisch von allen internen Clients und Servern als gültig betrachtet, da alle Mitglieder einer Active Directory Domäne der Unternehmenszertifizierungsstelle in dieser Domäne vertrauen. In Verbundszenarien muss die ausstellende Zertifizierungsstelle von beiden Verbundpartnern als vertrauenswürdig eingestuft werden. Jeder Partner kann bei Bedarf eine andere Zertifizierungsstelle verwenden, solange die Zertifizierungsstelle auch vom anderen Partner als vertrauenswürdig eingestuft wird. Diese Vertrauensstellung kann am einfachsten durch die Edgeserver mit dem Zertifikat der Stammzertifizierungsstelle des Partners in ihren vertrauenswürdigen Stammzertifizierungsstellen oder durch die Verwendung einer Drittanbieter-Zertifizierungsstelle erreicht werden, die von beiden Seiten als vertrauenswürdig eingestuft wird.
 
-TLS und MTLS helfen, Abhör-und man-in-the-Middle-Angriffe zu verhindern. Bei einem man-in-the-Middle-Angriff leitet der Angreifer die Kommunikation zwischen zwei Netzwerkentitäten über den Computer des Angreifers ohne das Wissen einer Partei weiter. TLS-und lync Server 2013 Spezifikation vertrauenswürdiger Server (nur die im Topologie-Generator angegebenen) mindern das Risiko eines man-in-the-Middle-Angriffs teilweise auf der Anwendungsebene mithilfe von End-to-End-Verschlüsselung, die mithilfe der Kryptografie mit öffentlichen Schlüsseln koordiniert wird. zwischen den beiden Endpunkten, und ein Angreifer muss über ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel verfügen und für den Namen des Diensts ausgegeben werden, mit dem der Client kommuniziert, um die Kommunikation zu entschlüsseln. Letztendlich müssen Sie jedoch die besten Sicherheitsmethoden mit Ihrer Netzwerkinfrastruktur befolgten (in diesem Fall Corporate DNS). Lync Server 2013 geht davon aus, dass der DNS-Server auf die gleiche Weise wie Domänencontrollern und globalen Katalogen als vertrauenswürdig eingestuft wird, DNS bietet jedoch einen Schutzgrad vor DNS-Hijack-Angriffen, indem verhindert, dass der Server eines Angreifers erfolgreich auf eine Anforderung an den gefälschten Namen.
+TLS und MTLS helfen, Abhör-und man-in-the-Middle-Angriffe zu verhindern. Bei einem man-in-the-Middle-Angriff leitet der Angreifer die Kommunikation zwischen zwei Netzwerkentitäten über den Computer des Angreifers ohne das Wissen einer Partei weiter. TLS-und lync Server 2013 Spezifikation vertrauenswürdiger Server (nur die im Topologie-Generator angegebenen) mindern das Risiko eines man-in-the-Middle-Angriffs teilweise auf der Anwendungsebene mithilfe von End-to-End-Verschlüsselung, die mithilfe der Kryptografie mit öffentlichen Schlüsseln zwischen den beiden Endpunkten koordiniert wird. ein Angreifer muss über ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel verfügen und für den Namen des Diensts ausgegeben werden, mit dem der Client kommuniziert, um die Kommunikation zu entschlüsseln. Letztendlich müssen Sie jedoch die besten Sicherheitsmethoden mit Ihrer Netzwerkinfrastruktur befolgten (in diesem Fall Corporate DNS). Lync Server 2013 geht davon aus, dass der DNS-Server auf die gleiche Weise wie Domänencontrollern und globalen Katalogen als vertrauenswürdig eingestuft wird, aber DNS bietet eine Schutzebene gegen DNS-Hijack-Angriffe, indem verhindert, dass der Server eines Angreifers erfolgreich auf eine Anforderung an den gefälschten Namen antwortet.
 
 In der folgenden Abbildung wird auf einer hohen Ebene gezeigt, wie lync Server 2013 MTLS verwendet, um ein Netzwerk vertrauenswürdiger Server zu erstellen.
 

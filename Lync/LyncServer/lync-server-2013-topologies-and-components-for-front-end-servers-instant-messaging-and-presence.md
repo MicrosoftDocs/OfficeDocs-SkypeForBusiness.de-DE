@@ -12,20 +12,22 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4abe15d3884bc24d4facb26e2fc0c2df9e31bdcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 103d03920df57023ae7dbb953beb0c426d0a43df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503752"
 ---
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013
+
 
 </div>
 
@@ -99,20 +101,20 @@ Wenn Sie ein neues Front-End-Pool zum ersten Mal starten, ist es wichtig, dass 8
 <td><p>3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>3</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>4</p></td>
+<td><p>5 </p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -127,11 +129,11 @@ Wenn Sie ein neues Front-End-Pool zum ersten Mal starten, ist es wichtig, dass 8
 <td><p>8 </p></td>
 </tr>
 <tr class="even">
-<td><p>11 </p></td>
+<td><p>11</p></td>
 <td><p>9 </p></td>
 </tr>
 <tr class="odd">
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>10 </p></td>
 </tr>
 </tbody>

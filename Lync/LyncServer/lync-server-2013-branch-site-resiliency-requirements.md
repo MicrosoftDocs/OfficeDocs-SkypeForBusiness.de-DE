@@ -12,20 +12,22 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e8fb2cdbf2b9192411f74c5099930d8bd7d7a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d76107fc419891561b8c98cf0989bbb0cbddbee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504842"
 ---
+# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Anforderungen für Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Anforderungen für Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Es wird empfohlen, eine separate VoIP-Richtlinie auf Benutzerebene für Benutzer
 
 </div>
 
-Um sicherzustellen, dass eingehende Anrufe an Zweigstellenbenutzer diese Benutzer erreichen, wenn das Zweigstellen Gateway oder die Windows-Komponente des Survivable Branch Appliance-Standorts nicht verfügbar ist (beispielsweise wenn der Survivable Branch Appliance oder die Verzweigung Gateway für die Wartung nicht zur Verfügung stand), erstellen Sie eine Failover-Route auf dem Gateway (oder arbeiten Sie mit Ihrem Direct Inward Dialing (DID)-Anbieter), um eingehende Anrufe an den sicherungsregistrierungspool am zentralen Standort umzuleiten. Von dort aus werden die Anrufe über die WAN-Verbindung an Zweigstellenbenutzer weitergeleitet. Stellen Sie sicher, dass die Route Nummern so übersetzt, dass sie den zulässigen Telefonnummernformaten des PSTN-Gateways oder eines anderen Trunkpeers entspricht. Ausführliche Informationen zum Erstellen einer Failover-Route finden Sie unter [Configuring a Failover Route in lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Erstellen Sie außerdem Wählpläne auf Dienstebene für den Trunkt, der dem Gateway an der Zweigstelle zugeordnet ist, damit eingehende Anrufe normalisiert werden. Wenn Sie zwei Survivable Branch Appliances an einem Zweigstellenstandort haben, können Sie einen Wählplan auf Standortebene für beide erstellen, es sei denn, es ist ein separater Service Level-Plan für jeden erforderlich.
+Um sicherzustellen, dass eingehende Anrufe an Zweigstellenbenutzer diese Benutzer erreichen, wenn das Zweigstellen Gateway oder die Windows-Komponente der Survivable Branch Appliance Website nicht verfügbar ist (was geschieht, wenn beispielsweise das Survivable Branch Appliance-oder Zweigstellen Gateway für die Wartung nicht zur Verfügung stand), erstellen Sie eine Failover-Route auf dem Gateway (oder arbeiten Sie mit Ihrem Direct Inward Dialing (DID)-Anbieter), um eingehende Anrufe an den Sicherungs registrierungsstellenpool am zentralen Standort umzuleiten. Von dort aus werden die Anrufe über die WAN-Verbindung an Zweigstellenbenutzer weitergeleitet. Stellen Sie sicher, dass die Route Nummern so übersetzt, dass sie den zulässigen Telefonnummernformaten des PSTN-Gateways oder eines anderen Trunkpeers entspricht. Ausführliche Informationen zum Erstellen einer Failover-Route finden Sie unter [Configuring a Failover Route in lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Erstellen Sie außerdem Wählpläne auf Dienstebene für den Trunkt, der dem Gateway an der Zweigstelle zugeordnet ist, damit eingehende Anrufe normalisiert werden. Wenn Sie zwei Survivable Branch Appliances an einem Zweigstellenstandort haben, können Sie einen Wählplan auf Standortebene für beide erstellen, es sei denn, es ist ein separater Service Level-Plan für jeden erforderlich.
 
 <div>
 
@@ -93,7 +95,7 @@ Es empfiehlt sich außerdem, einen Wählplan und eine VoIP-Richtlinie auf Benutz
 
 ## <a name="routing-extension-numbers"></a>Weiterleiten von Durchwahlnummern
 
-Bei der Vorbereitung von Wähleinstellungen und VoIP-Richtlinien für Zweigstellenbenutzer müssen Sie die Normalisierungsregeln und Übersetzungsregeln einbeziehen, die mit den Zeichenfolgen und dem Zahlenformat übereinstimmen, die im msRTCSIP-Linien Attribut (oder dem Linien-URI) verwendet werden, sodass lync 2013 Anrufe zwischen Verzweigung aktiviert sind. Websitebenutzer und Benutzer des zentralen Standorts werden ordnungsgemäß weitergeleitet, insbesondere dann, wenn Anrufe über das PSTN umgeleitet werden müssen, da die WAN-Verbindung nicht verfügbar ist. Weitere besondere Überlegungen betreffen gewählte Nummern, die nur Durchwahlnummern und keine Telefonnummern enthalten.
+Bei der Vorbereitung von Wählplänen und VoIP-Richtlinien für Benutzer von Zweigstellen Websites stellen Sie sicher, dass Sie Normalisierungsregeln und Übersetzungsregeln einbeziehen, die mit den Zeichenfolgen und dem Zahlenformat übereinstimmen, die im msRTCSIP-Attribut (oder dem Linien-URI) verwendet werden, sodass lync 2013 Anrufe zwischen Zweigstellenbenutzern und Benutzern mit zentral Standort ordnungsgemäß weitergeleitet werden, insbesondere dann, wenn Anrufe über das PSTN umgeleitet werden müssen, da die WAN-Verbindung nicht verfügbar ist Weitere besondere Überlegungen betreffen gewählte Nummern, die nur Durchwahlnummern und keine Telefonnummern enthalten.
 
 Besondere Voraussetzungen gelten für Normalisierungs- und Übersetzungsregeln, die Anschluss-URIs entsprechen, die eine Durchwahlnummer enthalten – sei es ausschließlich oder zusätzlich zu einer vollständigen E.164-Telefonnummer. In diesem Abschnitt werden einige Beispielszenarien zur Weiterleitung von Anrufen für Anschluss-URIs mit einer Durchwahlnummer beschrieben.
 
@@ -115,7 +117,7 @@ In einem Szenario, in dem die WAN-Verbindung zwischen einer Zweigstelle und eine
 <th>Regelname</th>
 <th>Beschreibung</th>
 <th>Nummernmuster</th>
-<th>Translation</th>
+<th>Übersetzung</th>
 <th>Beispiel</th>
 </tr>
 </thead>
@@ -123,7 +125,7 @@ In einem Szenario, in dem die WAN-Verbindung zwischen einer Zweigstelle und eine
 <tr class="odd">
 <td><p>5digitExtensions</p></td>
 <td><p>Fünfstellige Nummern werden nicht übersetzt</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^(\d{5})$</p></td>
 <td><p>$1</p></td>
 <td><p>10001 wird nicht übersetzt</p></td>
 </tr>
@@ -145,20 +147,20 @@ Sie müssen auch Durchwahlnummern für besondere Szenarien mit einbeziehen, bei 
 <tr class="header">
 <th>Beschreibung</th>
 <th>Vergleichsmuster</th>
-<th>Translation</th>
+<th>Übersetzung</th>
 <th>Beispiel</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Übersetzt fünfstellige Nummern in die Telefon- und Durchwahlnummer eines Benutzers</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^(\d{5})$</p></td>
 <td><p>+ 14255550123; EXT = $1</p></td>
 <td><p>10001 wird in +14255550123;ext=10001 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>Übersetzt fünfstellige Nummern in die Telefonnummer Ihrer Organisation und die Durchwahlnummer eines Benutzers</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^(\d{5})$</p></td>
 <td><p>+ 14255550100 übersetzt; EXT = $1</p></td>
 <td><p>10001 wird in +14255550100;ext=10001 übersetzt</p></td>
 </tr>
@@ -180,7 +182,7 @@ In diesem Szenario muss die ausgehende Übersetzungsregel, wenn der Trunkpeer, d
 <tr class="header">
 <th>Beschreibung</th>
 <th>Vergleichsmuster</th>
-<th>Translation</th>
+<th>Übersetzung</th>
 <th>Beispiel</th>
 </tr>
 </thead>
@@ -209,7 +211,7 @@ Einzelheiten zu Anrufen von einem Benutzer am zentralen Standort zu einem Zweigs
 
 ## <a name="preparing-for-voice-mail-survivability"></a>Vorbereiten der Ausfallsicherheit für VoIP-Funktionen
 
-Exchange Unified Messaging (um) wird normalerweise nur an einem zentralen Standort und nicht an Zweigstellenstandorten installiert. Ein Anrufer sollte auch dann eine Voicemailnachricht hinterlassen können, wenn die WAN-Verbindung zwischen Zweigstelle und zentralem Standort nicht verfügbar ist. Daher erfordert das Konfigurieren des Leitungs-URI für die Exchange um Telefonnummer für die automatische Telefonzentrale, die Voicemail für Zweigstellenbenutzer bereitstellt, zusätzlich zu den für diese Voicemail geltenden VoIP-Richtlinien, Wähleinstellungen und Normalisierungsregeln besondere Überlegungen. Anzahl.
+Exchange Unified Messaging (um) wird normalerweise nur an einem zentralen Standort und nicht an Zweigstellenstandorten installiert. Ein Anrufer sollte auch dann eine Voicemailnachricht hinterlassen können, wenn die WAN-Verbindung zwischen Zweigstelle und zentralem Standort nicht verfügbar ist. Folglich erfordert das Konfigurieren des Leitungs-URIs für die Exchange um Telefonnummer für die automatische Telefonzentrale, die Voicemail für Zweigstellenbenutzer bereitstellt, zusätzlich zu den für diese Voicemailnummer geltenden VoIP-Richtlinien, Wähleinstellungen und Normalisierungsregeln besondere Überlegungen.
 
 Survivable Branch Appliances (SBAS) und Survivable Branch Server bieten Filial Benutzern während eines WAN-Ausfalls eine Überlebensfähigkeit von Voicemail. Wenn Sie beispielsweise eine Survivable Branch Appliance oder Survivable Branch Server verwenden und das WAN nicht mehr verfügbar ist, leitet das SBA oder Survivable Branch Server unbeantwortete Anrufe über das PSTN an Exchange um am zentralen Standort weiter. Mit einem SBA oder Survivable Branch Server können Benutzer während eines WAN-Ausfalls auch Voicemail-Nachrichten über das PSTN abrufen. Schließlich werden bei einem WAN-Ausfall die Survivable Branch Appliance oder Survivable Branch Server in Warteschlangen verpasste Benachrichtigungen gesendet und dann auf den Exchange um Server hochzuladen, wenn das WAN wiederhergestellt wird. Um sicherzustellen, dass das Voicemail-neurouting widerstandsfähig ist, müssen Sie einen Eintrag für den FQDN des zentralen Website Pools und einen Eintrag für den Edgeserver FQDN der Hosts-Datei auf dem Survivable Branch Server hinzufügen. Andernfalls kann es bei der DNS-Auflösung zu einem Timeout kommen, wenn an der Zweigstelle kein DNS-Server vorhanden ist.
 

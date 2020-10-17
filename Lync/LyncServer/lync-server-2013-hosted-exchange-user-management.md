@@ -12,20 +12,22 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cceaeaa869d1e058251a62d237c563143a4ae4c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4a54c4a7a3833fdd31999d7613659f9a35f9732
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198618"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504202"
 ---
+# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Gehostete Exchange-Benutzerverwaltung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Gehostete Exchange-Benutzerverwaltung in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Um Voicemail-Dienste für lync Server 2013 Benutzer bereitzustellen, deren Postf
 
 Lync Server 2013 stellt ein neues Benutzerattribut namens **"msexchucvoicemailsettings"** vor, das im Rahmen der Vorbereitung des lync Server 2013 Active Directory Schemas erstellt wird. Dieses mehrwertige Attribut umfasst Voicemaileinstellungen, die von lync Server 2013 und dem gehosteten Exchange-Dienst gemeinsam verwendet werden.
 
-Der gehostete Exchange-Dienst kann in einigen Fällen den Wert des "msexchucvoicemailsettings"-Attributs bei der Aktivierung von Exchange um oder beim Übertragen von Postfächern in einen gehosteten Exchange Server festlegen. Wenn dieses Attribut nicht von Exchange festgelegt wird, muss der lync Server 2013 Administrator es durch Ausführen des Cmdlets "CsUser" festlegen, wie weiter oben in diesem Thema beschrieben.
+Der gehostete Exchange-Dienst kann in einigen Fällen den Wert des "msexchucvoicemailsettings"-Attributs bei der Aktivierung von Exchange um oder beim Übertragen von Postfächern in einen gehosteten Exchange Server festlegen. Wenn dieses Attribut nicht von Exchange festgelegt wird, muss der lync Server 2013 Administrator es durch Ausführen des Set-CsUser-Cmdlets festlegen, wie weiter oben in diesem Thema beschrieben.
 
 Die Schlüssel-Wert-Paare des Attributs und deren Autoren sind in der folgenden Tabelle dargestellt.
 
@@ -103,7 +105,7 @@ Die Schlüssel-Wert-Paare des Attributs und deren Autoren sind in der folgenden 
 
 
 > [!NOTE]  
-> Wenn das Attribut bereits Werte enthält, die nicht zu den lync Server 2013 Schlüssel/Wert-Paaren (CSHostedVoiceMail = 0 oder CSHostedVoiceMail = 1), wird eine Warnung angezeigt, dass das Attribut von einer anderen Anwendung verwaltet werden kann. Beispielsweise wird eine Warnung angezeigt, wenn das Schlüssel/Wert-Paar ExchangeHostedVoiceMail = 0 oder ExchangeHostedVoiceMail = 1 bereits vorhanden ist. In diesem Fall können Sie den Wert ändern, indem Sie ihn im Active Directory bearbeiten oder das folgende Cmdlet ausführen, um den Wert auf NULL festzulegen:<BR>Gruppe-CsUser – Identity User – HostedVoicemail $NULL
+> Wenn das Attribut bereits Werte enthält, die nicht zu den lync Server 2013 Schlüssel/Wert-Paaren (CSHostedVoiceMail = 0 oder CSHostedVoiceMail = 1), wird eine Warnung angezeigt, dass das Attribut von einer anderen Anwendung verwaltet werden kann. Beispielsweise wird eine Warnung angezeigt, wenn das Schlüssel/Wert-Paar ExchangeHostedVoiceMail = 0 oder ExchangeHostedVoiceMail = 1 bereits vorhanden ist. In diesem Fall können Sie den Wert ändern, indem Sie ihn im Active Directory bearbeiten oder das folgende Cmdlet ausführen, um den Wert auf NULL festzulegen:<BR>Set-CsUser – Identitäts Benutzer – HostedVoicemail $NULL
 
 
 
@@ -115,7 +117,7 @@ Die Schlüssel-Wert-Paare des Attributs und deren Autoren sind in der folgenden 
 
 ## <a name="enabling-users-for-hosted-voice-mail"></a>Aktivieren von Benutzern für gehostete Voicemail
 
-Um zu ermöglichen, dass die Voicemail-Anrufe eines Benutzers an gehostete Exchange um weitergeleitet werden, müssen Sie das Cmdlet "Cmdlet festlegen" ausführen, um den Wert des *HostedVoiceMail* -Parameters festzulegen. Dieser Parameter signalisiert auch lync Server 2013, das Symbol "Voicemail anrufen" aufzuhellen.
+Um zu ermöglichen, dass die Voicemail-Anrufe eines Benutzers an gehostete Exchange um weitergeleitet werden, müssen Sie das Set-CsUser-Cmdlet ausführen, um den Wert des Parameters *HostedVoiceMail* festzulegen. Dieser Parameter signalisiert auch lync Server 2013, das Symbol "Voicemail anrufen" aufzuhellen.
 
   - Im folgenden Beispiel wird das Benutzerkonto von Pilar Ackerman für gehostete Voicemail aktiviert:
     
@@ -129,7 +131,7 @@ Um zu ermöglichen, dass die Voicemail-Anrufe eines Benutzers an gehostete Excha
     
     Das Cmdlet überprüft, ob für diesen Benutzer keine Richtlinie für gehostete Voicemails (Global, Websiteebene oder pro Benutzer) gilt. Wenn eine Richtlinie angewendet wird, schlägt das Cmdlet fehl.
 
-Ausführliche Informationen zur Verwendung des Cmdlets "CsUser" finden Sie in der lync Server-Verwaltungsshell Dokumentation.
+Ausführliche Informationen zur Verwendung des Set-CsUser-Cmdlets finden Sie in der lync Server-Verwaltungsshell-Dokumentation.
 
 </div>
 

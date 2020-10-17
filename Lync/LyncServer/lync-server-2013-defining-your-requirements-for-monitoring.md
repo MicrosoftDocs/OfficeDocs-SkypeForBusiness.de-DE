@@ -12,20 +12,22 @@ ms:contentKeyID: 48185491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a155f19f134506a4e592de18d03a7812c16dcbab
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f116fec331c252934c42e624c36813218d8f9ca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504322"
 ---
+# <a name="defining-your-requirements-for-monitoring-in-lync-server-2013"></a>Definieren der Anforderungen für die Überwachung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-monitoring-in-lync-server-2013"></a>Definieren der Anforderungen für die Überwachung in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Durch die Straffung der Bereitstellung und Installation der Überwachung in Micr
 
 Wenn Sie die Überwachung in lync Server 2013 aktivieren, können Sie sowohl die KDS-Überwachung als auch die QoE-Überwachung aktivieren, oder Sie können auswählen, ob ein Überwachungstyp aktiviert werden soll, während der andere Typ deaktiviert bleibt. Nehmen Sie beispielsweise an, dass Ihre Benutzer nur Chatnachrichten und Dateiübertragungen verwenden und keine Audio-oder Videoanrufe tätigen. In diesem Fall gibt es möglicherweise wenig Grund, die QoE-Überwachung zu aktivieren. Ebenso erleichtert lync Server das Aktivieren und Deaktivieren der Überwachung, nachdem die Überwachung bereitgestellt wurde. Sie können beispielsweise die Überwachung bereitstellen, die QoE-Überwachung zunächst jedoch deaktiviert lassen. Wenn Ihre Benutzer Probleme mit Audio-oder Videoanrufen auftreten, können Sie die QoE-Überwachung aktivieren und diese Daten verwenden, um Sie bei der Behandlung und Lösung dieser Probleme zu unterstützen.
 
-Es gibt keinen besonderen Vorteil (oder keinen Nachteil) für die Installation der Überwachung, gleichzeitig installieren Sie lync Server vs Installieren der Überwachung, nachdem lync Server installiert wurde. Beachten Sie, dass Sie vor der Installation der Überwachung einen Computer auswählen müssen, der den Back-End-Überwachungsspeicher hostet, und dass eine unterstützte Version von SQL Server auf diesem Computer installiert und konfiguriert werden muss, bevor dieser Computer für die Überwachung verwendet werden kann. . Wenn Sie SQL Server bereits auf einem Computer installiert haben und dieser Computer für die Verwendung bereit ist, können Sie die Überwachung gleichzeitig installieren, wenn Sie lync Server installieren. Wenn Sie nicht über einen Back-End-Computer verfügen, können Sie mit der Installation von lync Server fortfahren und dann die Überwachung installieren, sobald der Back-End-Computerbetriebs fähig ist.
+Es gibt keinen besonderen Vorteil (oder keinen Nachteil) für die Installation der Überwachung, gleichzeitig installieren Sie lync Server vs Installieren der Überwachung, nachdem lync Server installiert wurde. Beachten Sie, dass Sie vor der Installation der Überwachung einen Computer auswählen müssen, der den Back-End-Überwachungsspeicher hostet, und dass eine unterstützte Version von SQL Server auf diesem Computer installiert und konfiguriert werden muss, bevor dieser Computer für die Überwachung verwendet werden kann. Wenn Sie SQL Server bereits auf einem Computer installiert haben und dieser Computer für die Verwendung bereit ist, können Sie die Überwachung gleichzeitig installieren, wenn Sie lync Server installieren. Wenn Sie nicht über einen Back-End-Computer verfügen, können Sie mit der Installation von lync Server fortfahren und dann die Überwachung installieren, sobald der Back-End-Computerbetriebs fähig ist.
 
 **Wann möchten Sie die Überwachung installieren?** Die Überwachung kann gleichzeitig installiert und konfiguriert werden, wenn Sie lync Server 2013 installieren und konfigurieren; der Assistent für die lync Server-Bereitstellung bietet Ihnen die Möglichkeit, während des Setups Ihre Front-End-Pools einer Überwachungsdatenbank zuzuordnen. Alternativ können Sie die Überwachung installieren, nachdem lync Server selbst installiert wurde; Hierzu können Sie mithilfe des Topologie-Generators Ihre Front-End-Pools und Server einer Überwachungsdatenbank zuordnen und dann die überarbeitete Topologie veröffentlichen.
 

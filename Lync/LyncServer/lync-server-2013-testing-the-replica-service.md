@@ -12,20 +12,22 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cae11cce4d4214f0392304823710fe1f02a36f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e30d0b8c0e570605c8c6556d42224a205741a821
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503962"
 ---
+# <a name="testing-the-replica-service-in-lync-server-2013"></a>Testen des Replikat Diensts in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-replica-service-in-lync-server-2013"></a>Testen des Replikat Diensts in lync Server 2013
+
 
 </div>
 
@@ -88,7 +90,7 @@ Der in Beispiel 1 gezeigte Befehl testet den lync Server 2013 Replikat Dienst au
 
 Beispiel 2 ist eine Variante des Befehls in Beispiel 1. In diesem Fall ist der Parameter Report enthalten, um einen Ordnerpfad und-Namen für den vom Test generierten Bericht anzugeben. Wenn Sie keinen Berichtspfad angeben, erhält der Bericht einen automatisch generierten Namen, der dem folgenden ähnelt:
 
-C:\\Benutzer\\Administrator. litwareinc\\APPDATA\\local\\Temp\\1\\Test-CS-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e. html
+C: \\ Benutzer \\ Administrator. litwareinc \\ AppData \\ lokale \\ Temp \\ 1 \\Test-Cs-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e.html
 
     Test-CsReplica -Verbose -Report C:\Logs\ReplicaTest.html
 
@@ -100,55 +102,55 @@ C:\\Benutzer\\Administrator. litwareinc\\APPDATA\\local\\Temp\\1\\Test-CS-Replic
 
 Abschnittstext hier einfügen.
 
-Ausführlich: Erstellen einer neuen Protokolldatei "C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\Test-csreplica"-3cb066b3-dd23-411a-8932-99f01c0f940c. xml ".
+Ausführlich: Erstellen einer neuen Protokolldatei "C: \\ Benutzer \\ Testen \\ AppData \\ local \\ Temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml".
 
-Ausführlich: Erstellen einer neuen Protokolldatei "C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\Test-csreplica"-3cb066b3-dd23-411a-8932-99f01c0f940c. xml ".
+Ausführlich: Erstellen einer neuen Protokolldatei "C: \\ Benutzer \\ Testen \\ AppData \\ local \\ Temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml".
 
 Verbose: die Verarbeitung von "Test-csreplica" "wurde erfolgreich abgeschlossen.
 
-Ausführlich: detaillierte Ergebnisse finden Sie unter "C\\: Users\\testing\\APPDATA\\local\\Temp\\Test-csreplica"-3cb066b3-dd23-411a-8932-99f01c0f940c. xml ".
+Ausführlich: detaillierte Ergebnisse finden Sie unter "C: \\ Users \\ testing \\ AppData \\ local \\ Temp \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml".
 
 Ausführlich: Erstellen einer neuen Protokolldatei
 
-"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
+"C: \\ Benutzer \\ Testen \\ AppData \\ local \\ Temp \\ 2 \\ Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
 
-d3bd0e4a083. xml ".
+d3bd0e4a083.xml ".
 
 Ausführlich: Erstellen einer neuen Protokolldatei
 
-"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
+"C: \\ Benutzer \\ Testen \\ AppData \\ local \\ Temp \\ 2 \\ Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
 
-d3bd0e4a083. html ".
+d3bd0e4a083.html ".
 
-Warnung: Fehler bei Test-csreplica ".
+Warnung: Test-CsReplica fehlgeschlagen.
 
 Warnung: detaillierte Ergebnisse finden Sie unter
 
-"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
+"C: \\ Benutzer \\ Testen \\ AppData \\ local \\ Temp \\ 2 \\ Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
 
-d3bd0e4a083. html ".
+d3bd0e4a083.html ".
 
-Test-csreplica ": Fehler bei Befehlsausführung: der angeforderte Registrierungszugriff ist nicht
+Test-CsReplica: Fehler bei Befehlsausführung: der angeforderte Registrierungszugriff ist nicht
 
 erlaubt.
 
 In der Reihe: 1 Char: 1
 
-\+Test-csreplica "-Verbose
+\+ Test-CsReplica-ausführlich
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo: InvalidOperation: (:) \[Test-csreplica "\], Sicherheit
+\+ CategoryInfo: InvalidOperation: (:) \[ Test-csreplica " \] , Sicherheit
 
 Ausnahme
 
-\+FullyQualifiedErrorId: ProcessingFailed, Microsoft. RTC. Management. deploy
+\+ FullyQualifiedErrorId: ProcessingFailed, Microsoft. RTC. Management. deploy
 
 ment. TestReplicaCmdlet
 
-PS C:\\testen\\von Benutzern\>
+PS C: \\ Testen von Benutzern \\\>
 
-PS C:\\Benutzer\\testen\> Test-CsUcwaConference-TargetFqdn "LyncTest. SelfHost. Corp. M
+PS C: \\ Benutzer \\ Testen \> Test-CsUcwaConference-TargetFqdn "LyncTest. SelfHost. Corp. M
 
 icrosoft.com "
 
@@ -164,21 +166,21 @@ Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryR
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Test-CsUcwaConference: Es ist kein Testbenutzer zugewiesen
+Test-CsUcwaConference: kein Testbenutzer zugewiesen
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Überprüfen Sie die Konfiguration des Testbenutzers.
+\[LyncTest.SelfHost.Corp.Microsoft.com \] . Überprüfen Sie die Konfiguration des Testbenutzers.
 
 In der Reihe: 1 Char: 1
 
-\+Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+ Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo: ResourceUnavailable: (:) \[Test-CsUcwaConference\]
+\+ CategoryInfo: ResourceUnavailable: (:) \[ Test-CsUcwaConference\]
 
 , InvalidOperationException
 
-\+FullyQualifiedErrorId: NotFoundTestUsers, Microsoft. RTC. Management. Synth
+\+ FullyQualifiedErrorId: NotFoundTestUsers, Microsoft. RTC. Management. Synth
 
 eticTransactions.TestUcwaConferenceCmdlet
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1cc8659035e6df437d10684eb1bd0158a76b7a0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cad9784eb2c50662bfedc460cb0dbc8c892206c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204461"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504932"
 ---
+# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Anwenden einer lync Server Archivierungsrichtlinie auf einen Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Anwenden einer lync Server Archivierungsrichtlinie auf einen Benutzer in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Ausführliche Informationen zur Funktionsweise von Archivierungsrichtlinien, ein
 
 
 > [!NOTE]  
-> Um die Archivierung konfigurieren und verwenden zu können, müssen Sie zunächst die Archivierung bereitstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-archiving.md">Deploying Archiving in lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Wenn Sie Microsoft Exchange Integration für Ihre Bereitstellung aktiviert haben, Steuern Exchange in-situ-Speicherrichtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange 2013 verwaltet werden, und dass ihre Postfächer im Compliance-Archiv platziert werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung in lync Server 2013 bei Verwendung Exchange Server Integration</A> in die Bereitstellungsdokumentation.<BR>Sie sollten alle entsprechenden Optionen in den Archivierungskonfigurationen angeben, bevor Sie die Archivierung aktivieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving Options in lync Server 2013</A> in der Bereitstellungsdokumentation.
+> Um die Archivierung konfigurieren und verwenden zu können, müssen Sie zunächst die Archivierung bereitstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-archiving.md">Deploying Archiving in lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Wenn Sie Microsoft Exchange Integration für Ihre Bereitstellung aktiviert haben, Steuern Exchange-In-Place-Aufbewahrungsrichtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange 2013 verwaltet werden, und dass ihre Postfächer In-Place Aufbewahrungsspeicher abgelegt werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung in lync Server 2013 bei Verwendung Exchange Server Integration</A> in die Bereitstellungsdokumentation.<BR>Sie sollten alle entsprechenden Optionen in den Archivierungskonfigurationen angeben, bevor Sie die Archivierung aktivieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving Options in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
 
@@ -69,7 +71,7 @@ Ausführliche Informationen zur Funktionsweise von Archivierungsrichtlinien, ein
     
 
     > [!NOTE]  
-    > Durch <STRONG> &lt;die&gt; automatischen</STRONG> Einstellungen werden die Standardeinstellungen für die Server Installation übernommen. Diese Einstellungen werden automatisch vom Server angewendet.
+    > Durch die <STRONG> &lt; automatischen &gt; </STRONG> Einstellungen werden die Standardeinstellungen für die Server Installation übernommen. Diese Einstellungen werden automatisch vom Server angewendet.
 
     
     </div>

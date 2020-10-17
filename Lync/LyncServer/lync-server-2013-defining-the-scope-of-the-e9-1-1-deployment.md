@@ -12,20 +12,22 @@ ms:contentKeyID: 48183707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed4a5fb3e34192aab9c94d72a3bc79b733828e3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27d280580f4d9cae1f6240b554be760d1689daa3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504482"
 ---
+# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>Definieren des Bereichs der E9-1-1-Bereitstellung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>Definieren des Bereichs der E9-1-1-Bereitstellung in lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Bevor Sie Microsoft lync Server 2013 für E9-1-1 konfigurieren, müssen Sie die 
     
 
     > [!NOTE]  
-    > Lync-Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, können interne IP-Adressinformationen abholen, aber da diese Adressen nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze aus dem ausgeschlossen werden. Standortinformationsdienst.
+    > Lync-Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, können interne IP-Adressinformationen aufnehmen, aber da diese Adressen nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze aus dem Standortinformationsdienst ausgeschlossen werden.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11ca47596106a3c2a6395f90ccaab2905c1a4599
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 83c7069db95d36e79d74cea81faf3aa98685832f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504772"
 ---
+# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Konfigurieren von Zugriffsnummern für Einwahlkonferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Konfigurieren von Zugriffsnummern für Einwahlkonferenzen in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die
 
 
 > [!NOTE]  
-> Sie können keine neue Zugriffsnummer für die Einwahl verwenden, bis Active Directory-Domänendienste&nbsp;(AD DS)-Replikation dieser Zugriffsnummer abgeschlossen ist. Die Replikation kann mehrere Stunden in Anspruch nehmen.
+> Sie können keine neue Zugriffsnummer für die Einwahl verwenden, bis Active Directory-Domänendienste (AD &nbsp; DS)-Replikation dieser Zugriffsnummer abgeschlossen ist. Die Replikation kann mehrere Stunden in Anspruch nehmen.
 
 
 

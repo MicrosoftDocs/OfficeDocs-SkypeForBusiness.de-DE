@@ -12,20 +12,22 @@ ms:contentKeyID: 48184997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0fcf148e5e3cc4003dac97e8ef5ca9f1b2e678a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 453da166895c79cafe9f9637163e93a63ebccd75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504282"
 ---
+# <a name="delegate-setup-permissions-in-lync-server-2013"></a>Delegieren von Setup Berechtigungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegate-setup-permissions-in-lync-server-2013"></a>Delegieren von Setup Berechtigungen in lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42204601"
 
 _**Letztes Änderungsstand des Themas:** 2014-02-05_
 
-Wenn Sie Benutzern oder Gruppen, die lync Server 2013 bereitstellen, keine Mitgliedschaft in der Gruppe "Domänen-Admins" gewähren möchten, können Sie Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Cmdlet **enable-CsTopology** Windows PowerShell auf Servern mit lync Server 2013 ermöglichen. Standardmäßig verfügen Mitglieder der Gruppe "RTCUniversalServerAdmins" nicht über die Berechtigung zum Ausführen dieses Cmdlets. Sie gewähren Administratorrechte und Berechtigungen zum Ausführen von **enable-CsTopology** auf Servern mit lync Server mithilfe des Cmdlets **Grant-CsSetupPermission** und der Angabe einer Organisationseinheit (Organizational Unit, OU), in der sich Computerobjekte für den Server befinden, auf dem lync Server 2013 ausgeführt werden.
+Wenn Sie Benutzern oder Gruppen, die lync Server 2013 bereitstellen, keine Mitgliedschaft in der Gruppe "Domänen-Admins" gewähren möchten, können Sie Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Cmdlet **enable-CsTopology**   Windows PowerShell auf Servern mit lync Server 2013 ermöglichen. Standardmäßig verfügen Mitglieder der Gruppe "RTCUniversalServerAdmins" nicht über die Berechtigung zum Ausführen dieses Cmdlets. Sie gewähren Administratorrechte und Berechtigungen zum Ausführen von **enable-CsTopology** auf Servern mit lync Server mithilfe des Cmdlets **Grant-CsSetupPermission** und der Angabe einer Organisationseinheit (Organizational Unit, OU), in der sich Computerobjekte für den Server befinden, auf dem lync Server 2013 ausgeführt werden.
 
-Bei der Domänenvorbereitung, die bei der Installation von lync Server erfolgt, werden nicht automatisch die Berechtigungen hinzugefügt, mit denen Mitglieder der RTCUniversalServerAdmins-Gruppe das Cmdlet Enable-CsTopology ausführen können. Dies bedeutet, dass Sie standardmäßig ein Domänenadministrator sein müssen, um eine Topologie zu aktivieren. Um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zum Aktivieren einer Topologie zu erteilen, müssen Sie das Cmdlet Grant-CsSetupPermissions ausführen. Darüber hinaus müssen Sie dieses Cmdlet für jeden Active Directory Container ausführen, in dem sich Computer befinden, auf denen lync Server ausgeführt wird.
+Bei der Domänenvorbereitung, die bei der Installation von lync Server erfolgt, werden nicht automatisch die Berechtigungen hinzugefügt, mit denen Mitglieder der RTCUniversalServerAdmins-Gruppe das Enable-CsTopology-Cmdlet ausführen können. Dies bedeutet, dass Sie standardmäßig ein Domänenadministrator sein müssen, um eine Topologie zu aktivieren. Um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zum Aktivieren einer Topologie zu erteilen, müssen Sie das Cmdlet Grant-CsSetupPermissions ausführen. Darüber hinaus müssen Sie dieses Cmdlet für jeden Active Directory Container ausführen, in dem sich Computer befinden, auf denen lync Server ausgeführt wird.
 
 Beachten Sie, dass dieses Cmdlet nur der Gruppe "RTCUniversalServerAdmins" Berechtigungen erteilt; das Cmdlet kann keiner anderen Sicherheitsgruppe oder einzelnen Benutzern Berechtigungen gewähren.
 

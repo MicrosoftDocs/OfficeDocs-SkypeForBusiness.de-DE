@@ -12,20 +12,22 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5857e979b48dd3fee5f19016a7109eb15584b83f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33aa0447c90ea9c76a1956cb817f0e61ce0d626e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504042"
 ---
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Testen des PSTN-Peer-to-Peer-Anrufs in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Testen des PSTN-Peer-to-Peer-Anrufs in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsPstnPeerToPeerCall verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsPstnPeerToPeerCall-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsPstnPeerToPeerCall überprüft, ob ein Benutzer paar über das PSTN-Gateway (Public Switched Telephone Network) einen Peer-to-Peer-Anruf durchführen muss. Wenn Sie Test-CsPstnPeerToPeerCall aufrufen, versucht das Cmdlet zunächst, sich bei zwei Test Benutzern anzumelden, um lync Server. Unter der Voraussetzung, dass die Anmeldungen erfolgreich sind, wird das Cmdlet dann den Benutzer 1 versuchen, Benutzer 2 über das PSTN-Gateway aufzurufen. Mit Test-CsPstnPeerToPeerCall wird dieser Aufruf unter Verwendung des Wählplans, der VoIP-Richtlinie und anderer Richtlinien-und Konfigurationseinstellungen durchführen, die dem Testbenutzer zugewiesen sind. Wenn der Test wie geplant verläuft, überprüft das Cmdlet, dass Benutzer 2 den Anruf annehmen konnte, und meldet sich dann beide Testkonten vom System ab.
+Das Test-CsPstnPeerToPeerCall-Cmdlet überprüft, ob ein Benutzer paar über das PSTN-Gateway (Public Switched Telephone Network) einen Peer-to-Peer-Anruf durchführen muss. Wenn Sie Test-CsPstnPeerToPeerCall aufrufen, versucht das Cmdlet zunächst, sich bei zwei Test Benutzern anzumelden, um lync Server. Unter der Voraussetzung, dass die Anmeldungen erfolgreich sind, wird das Cmdlet dann den Benutzer 1 versuchen, Benutzer 2 über das PSTN-Gateway aufzurufen. In Test-CsPstnPeerToPeerCall wird dieser Aufruf mithilfe des Wählplans, der VoIP-Richtlinie und anderer Richtlinien-und Konfigurationseinstellungen durchführen, die dem Testbenutzer zugewiesen sind. Wenn der Test wie geplant verläuft, überprüft das Cmdlet, dass Benutzer 2 den Anruf annehmen konnte, und meldet sich dann beide Testkonten vom System ab.
 
-Mit Test-CsPstnPeerToPeerCall wird ein tatsächlicher Anruf getätigt, der sicherstellt, dass eine Verbindung hergestellt werden kann und die auch DTMF-Codes über das Netzwerk sendet, um festzustellen, ob Medien über die Verbindung gesendet werden können. Der Anruf wird vom Cmdlet selbst beantwortet, und es ist keine manuelle Beendigung des Anrufs erforderlich. (Das heißt, niemand muss Antworten und dann das Telefon aufhängen, das aufgerufen wurde.)
+Test-CsPstnPeerToPeerCall führt einen tatsächlichen Telefonanruf aus, der überprüft, ob eine Verbindung hergestellt werden kann und der auch DTMF-Codes über das Netzwerk sendet, um festzustellen, ob Medien über die Verbindung gesendet werden können. Der Anruf wird vom Cmdlet selbst beantwortet, und es ist keine manuelle Beendigung des Anrufs erforderlich. (Das heißt, niemand muss Antworten und dann das Telefon aufhängen, das aufgerufen wurde.)
 
 </div>
 
@@ -76,7 +78,7 @@ Mit Test-CsPstnPeerToPeerCall wird ein tatsächlicher Anruf getätigt, der siche
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsPstnPeerToPeerCall kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Zum Beispiel:
+Das Test-CsPstnPeerToPeerCall-Cmdlet kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Zum Beispiel:
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
@@ -126,7 +128,7 @@ Wenn Test-CsPstnPeerToPeerCall fehlschlägt, möchten Sie möglicherweise den Te
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsPstnPeerToPeerCall eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Diese Ausgabe gibt beispielsweise an, dass Netzwerkprobleme eine Verbindung mit dem PSTN verhindern:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsPstnPeerToPeerCall eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die Möglichkeit des angegebenen Benutzers geprüft wurde, sich bei lync Server anzumelden. Diese Ausgabe gibt beispielsweise an, dass Netzwerkprobleme eine Verbindung mit dem PSTN verhindern:
 
 Einrichten eines Audiovideo-Anrufs zu "SIP: + 12065551219@litwareinc. com; User = Phone".
 
@@ -138,7 +140,7 @@ Eine Ausnahme "A 404 (nicht gefunden) Antwort wurde aus dem Netzwerk empfangen u
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsPstnPeerToPeerCall möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsPstnPeerToPeerCall Fehler auftreten können:
 
   - Sie haben ein ungültiges Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     

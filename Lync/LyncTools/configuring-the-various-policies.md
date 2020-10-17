@@ -12,20 +12,22 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8270452893e6e2e531eed86d730a1ea4f9f604fc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: b0abb428dab96c09c7cd8b82d99de12ba76068eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755489"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505242"
 ---
+# <a name="configuring-the-various-policies"></a>Konfigurieren der verschiedenen Richtlinien
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-various-policies"></a>Konfigurieren der verschiedenen Richtlinien
+
 
 </div>
 
@@ -38,8 +40,6 @@ ms.locfileid: "44755489"
 _**Letztes Änderungsstand des Themas:** 2013-02-24_
 
 <div>
-
-## <a name="configuring-the-various-policies"></a>Konfigurieren der verschiedenen Richtlinien
 
 Im folgenden finden Sie die verschiedenen Richtlinien, die Sie in ihrer lync Server 2013 Topologie konfigurieren können, bevor Sie das Tool für die lync Server 2013 Spannung und Leistung ausführt.
 

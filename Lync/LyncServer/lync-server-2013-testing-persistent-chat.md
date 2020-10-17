@@ -12,20 +12,22 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2177e4fce4d32bb2dc6c82e1f3fecae367eb2543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c1980d66649ff465ad251d5b95a9642e5bcd43c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504072"
 ---
+# <a name="testing-persistent-chat-in-lync-server-2013"></a>Testen des beständigen Chats in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-persistent-chat-in-lync-server-2013"></a>Testen des beständigen Chats in lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Das Cmdlet **Test-cspersistentchatmessage "** überprüft, ob ein paar Testbenut
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Die im folgenden Beispiel gezeigten Befehle testen die Fähigkeit eines Benutzer Paares (litwareinc\\Pilar und litwareinc\\kenmyer), sich bei lync Server 2013 anzumelden und dann Nachrichten mit dem Dienst für beständigen Chat auszutauschen. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc\\Pilar als Parameter angegeben wurde, erfordert das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator, das Kennwort für das Pilar Ackerman-Konto einzugeben.) Das resultierende Credentials-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert. Der zweite Befehl hat die gleiche Aufgabe, nur gibt dieser ein Objekt mit Anmeldeinformationen für das Konto "Ken Myer" zurück.
+Die im folgenden Beispiel gezeigten Befehle testen die Fähigkeit eines Benutzer Paares (litwareinc \\ Pilar und litwareinc \\ kenmyer), sich bei lync Server 2013 anzumelden und dann Nachrichten mit dem Dienst für beständigen Chat auszutauschen. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc \\ Pilar als Parameter angegeben wurde, erfordert das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator, das Kennwort für das Pilar Ackerman-Konto einzugeben.) Das resultierende Credentials-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert. Der zweite Befehl hat die gleiche Aufgabe, nur gibt dieser ein Objekt mit Anmeldeinformationen für das Konto "Ken Myer" zurück.
 
 Wenn die Credential-Objekte in der Hand sind, bestimmt der dritte Befehl, ob sich diese beiden Benutzer bei lync Server 2013 anmelden und Nachrichten mithilfe des beständigen Chats austauschen können. Um diese Aufgabe auszuführen, wird das Cmdlet **Test-cspersistentchatmessage "** mit den folgenden Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); "Sendersipaddress" (die SIP-Adresse für den ersten Testbenutzer); SenderCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für diesen Benutzer enthält); "Receiversipaddress" (die SIP-Adresse für den anderen Testbenutzer); und ReceiverCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für den anderen Testbenutzer enthält).
 
@@ -127,7 +129,7 @@ nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
 Fehler bei hergestellter Verbindung, da der verbundene Host
 
-Fehler bei der \[Antwort 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
+Fehler bei der Antwort \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
@@ -137,7 +139,7 @@ Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
 Fehler beim Antworten
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Diagnose
 

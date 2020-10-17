@@ -12,20 +12,22 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c55cfa8fd795feeca5e265f43823c4263512211f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8943712ff78dcc065a6a75e3756c1c689234eec2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503712"
 ---
+# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Verwenden des Office-Anpassungstools (OAT) in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Verwenden des Office-Anpassungstools (OAT) in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-10-02_
 
 Das Office-Anpassungstool (OAT) ist Teil des Setup-Programms und ist das empfohlene Tool für viele Anpassungen. Mithilfe des OAT passen Sie Office an und speichern Ihre Anpassungen in einer MSP-Setup Anpassungsdatei. Legen Sie die Datei am Netzwerkinstallationspfad im Ordner "Updates" ab. Bei der Installation von Office sucht das Setupprogramm nach einer Setupanpassungsdatei im Ordner Updates und wendet die Anpassungen an. Der Ordner Updates kann nur zum Bereitstellen von Softwareupdates während einer Erstinstallation von Office 2013 verwendet werden.
 
-Das OAT ist Teil des Setups und ist in Volumenlizenzversionen des Produkts enthalten. Sie führen das OAT aus, `setup.exe /admin` indem Sie an der Befehlszeile im Stammverzeichnis des Netzwerkinstallationspfads, der die Office 2013 Quelldateien enthält, eingeben. Verwenden Sie beispielsweise folgenden Befehl:
+Das OAT ist Teil des Setups und ist in Volumenlizenzversionen des Produkts enthalten. Sie führen das OAT `setup.exe /admin` aus, indem Sie an der Befehlszeile im Stammverzeichnis des Netzwerkinstallationspfads, der die Office 2013 Quelldateien enthält, eingeben. Verwenden Sie beispielsweise folgenden Befehl:
 
 `\\server\share\Office15\setup.exe /admin`
 
@@ -51,9 +53,9 @@ Administratoren verwenden das OAT zum Erstellen einer Setupanpassungsdatei (MSP-
 
   - **Zusätzlicher Inhalt** Wird zum Hinzufügen oder Entfernen von Dateien, zum Hinzufügen oder Entfernen von Registrierungseinträgen und zum Konfigurieren von Verknüpfungen verwendet.
 
-  - **Outlook** Dient zum Anpassen des Outlook-Standardprofils eines Benutzers, zum Angeben von Exchange-Einstellungen, zum Hinzufügen von Konten, zum Entfernen\\von Konten und zum Exportieren von Einstellungen und zum Angeben von Sende Empfangs Gruppen.
+  - **Outlook** Dient zum Anpassen des Outlook-Standardprofils eines Benutzers, zum Angeben von Exchange-Einstellungen, zum Hinzufügen von Konten, zum Entfernen von Konten und zum Exportieren von Einstellungen und zum Angeben von Sende \\ Empfangs Gruppen.
 
-Weitere Informationen zum OAT finden Sie unter <https://go.microsoft.com/fwlink/p/?linkid=267516>.
+Weitere Informationen zum OAT finden Sie unter <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503702"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Überprüfen von Audio/Video-Konferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Überprüfen von Audio/Video-Konferenzen in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="even">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsAVConference verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsAVConference-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,9 +72,9 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsAVConference überprüft, ob zwei Test Benutzer an einer Audio/Video-Konferenz (A/V) teilnehmen können. Wenn das Cmdlet durchgeführt wird, werden die zwei Benutzer beim System angemeldet. Nachdem Sie sich erfolgreich angemeldet haben, erstellt der erste Benutzer eine A/V-Konferenz und wartet darauf, dass der zweite Benutzer an dieser Konferenz teilnehmen kann. Nach einem kurzen Datenaustausch wird die Konferenz gelöscht, und die zwei Testbenutzer werden abgemeldet.
+Das Test-CsAVConference-Cmdlet überprüft, ob zwei Testbenutzer an einer Audio/Video-Konferenz (A/V) teilnehmen können. Wenn das Cmdlet durchgeführt wird, werden die zwei Benutzer beim System angemeldet. Nachdem Sie sich erfolgreich angemeldet haben, erstellt der erste Benutzer eine A/V-Konferenz und wartet darauf, dass der zweite Benutzer an dieser Konferenz teilnehmen kann. Nach einem kurzen Datenaustausch wird die Konferenz gelöscht, und die zwei Testbenutzer werden abgemeldet.
 
-Beachten Sie, dass mit Test-CsAVConference keine tatsächliche A/V-Konferenz zwischen den beiden Testbenutzern durchzuführen ist. Stattdessen überprüft das Cmdlet, ob die beiden Benutzer alle erforderlichen Verbindungen zum Durchführen einer solchen Konferenz herstellen können.
+Beachten Sie, dass Test-CsAVConference keine tatsächliche A/V-Konferenz zwischen den beiden Testbenutzern durchführt. Stattdessen überprüft das Cmdlet, ob die beiden Benutzer alle erforderlichen Verbindungen zum Durchführen einer solchen Konferenz herstellen können.
 
 Weitere Beispiele für diesen Befehl finden Sie unter [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference).
 
@@ -82,7 +84,7 @@ Weitere Beispiele für diesen Befehl finden Sie unter [Test-CsAVConference](http
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsAVConference kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Zum Beispiel:
+Das Test-CsAVConference-Cmdlet kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Zum Beispiel:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -138,7 +140,7 @@ Wenn Test-CsAVConference fehlschlägt, möchten Sie möglicherweise den Test ern
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsAVConference eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer AV-Konferenz überprüft hat. Nehmen Sie beispielsweise an, dass Ihr Test fehlschlägt und Sie die folgende Diagnose erhalten:
+Wenn der Verbose-Parameter enthalten ist Test-CsAVConference gibt eine schrittweise Rechnung über jede Aktion zurück, die versucht wurde, als Sie die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer AV-Konferenz überprüft hat. Nehmen Sie beispielsweise an, dass Ihr Test fehlschlägt und Sie die folgende Diagnose erhalten:
 
 ErrorCode = 1008, Source = accessproxy. litwareinc. com, Reason = DNS-SRV-Eintrag kann nicht aufgelöst werden
 
@@ -178,7 +180,7 @@ Die letzte Ausgabe in dieser Ausgabe gibt an, dass sich der Benutzer SIP:kenmyer
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsAVConference möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsAVConference Fehler auftreten können:
 
   - Sie haben ein ungültiges Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     

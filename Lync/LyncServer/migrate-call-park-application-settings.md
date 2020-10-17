@@ -12,20 +12,22 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2789a8a83c8f3ee831fb91c85999d936ea54dd8b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f63b91c6a742310d14031bdadc28cbc6ca57e115
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757006"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503562"
 ---
+# <a name="migrate-call-park-application-settings"></a>Migrieren von Einstellungen für die Anwendung zum Parken von Anrufen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-call-park-application-settings"></a>Migrieren von Einstellungen für die Anwendung zum Parken von Anrufen
+
 
 </div>
 
@@ -66,7 +68,7 @@ Zu den Einstellungen der Anwendung zum Parken von Anrufen gehören die Auswahl d
     
     </div>
     ```powershell
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" <LS2010 CPS TimeSpan> "-" enablemusiconhold "" <LS2010 CPS value> "-" maxcallpickupattempts "" <LS2010 CPS pickup attempts> "-OnTimeoutURI" <LS2010 CPS timeout URI> "```
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" <LS2010 CPS TimeSpan> "-" enablemusiconhold "" <LS2010 CPS value> "-" maxcallpickupattempts "" <LS2010 CPS pickup attempts> "-OnTimeoutURI" <LS2010 CPS timeout URI> " ```
 
 Um alle orbitbereiche für das Parken von Anrufen von lync Server 2010 Pool zum lync Server 2013-Pool neu zuzuweisen, können Sie entweder den lync Server-Systemsteuerung oder den lync Server-Verwaltungsshell verwenden.
 

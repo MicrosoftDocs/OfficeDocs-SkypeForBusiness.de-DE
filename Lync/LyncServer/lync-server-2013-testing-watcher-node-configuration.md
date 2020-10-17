@@ -12,20 +12,22 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193688"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503812"
 ---
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Testen der Konfiguration des Watcher-Knotens in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Testen der Konfiguration des Watcher-Knotens in lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2014-11-03_
 
 ## <a name="description"></a>Beschreibung
 
-Wenn Sie Microsoft System Center Operations Manager zum Überwachen von lync Server 2013 verwenden, haben Sie die Möglichkeit, "Watcher-Knoten" einzurichten: Computer, die regelmäßig und automatisch synthetische Transaktionen ausführen, um zu überprüfen, ob lync Server als erwartet. Watcher-Knoten werden Pools zugewiesen und mit den **CsWatcherNodeConfiguration** -Cmdlets verwaltet. Beachten Sie, dass Sie keine Watcher-Knoten installieren müssen, wenn Sie System Center Operations Manager verwenden. Sie können Ihr System weiterhin überwachen, ohne Watcher-Knoten zu verwenden. Der einzige Unterschied besteht darin, dass alle synthetischen Transaktionen, die Sie ausführen möchten, manuell aufgerufen werden müssen, anstatt von Operations Manager automatisch aufgerufen zu werden.
+Wenn Sie Microsoft System Center Operations Manager zum Überwachen von lync Server 2013 verwenden, haben Sie die Möglichkeit, "Watcher-Knoten" einzurichten: Computer, die regelmäßig und automatisch synthetische Transaktionen ausführen, um zu überprüfen, ob lync Server erwartungsgemäß funktioniert. Watcher-Knoten werden Pools zugewiesen und mit den **CsWatcherNodeConfiguration** -Cmdlets verwaltet. Beachten Sie, dass Sie keine Watcher-Knoten installieren müssen, wenn Sie System Center Operations Manager verwenden. Sie können Ihr System weiterhin überwachen, ohne Watcher-Knoten zu verwenden. Der einzige Unterschied besteht darin, dass alle synthetischen Transaktionen, die Sie ausführen möchten, manuell aufgerufen werden müssen, anstatt von Operations Manager automatisch aufgerufen zu werden.
 
 Mit dem Cmdlet **Test-CsWatcherNodeConfiguration** können Sie überprüfen, ob ein Watcher-Knoten ordnungsgemäß konfiguriert wurde und einem gültigen lync Server 2013-Pool zugewiesen ist. Beachten Sie, dass das Cmdlet **Test-CsWatcherNodeConfiguration** auf dem Watcher-Knoten selbst ausgeführt werden muss. Das Cmdlet kann nicht für Remotecomputer ausgeführt werden.
 
@@ -124,7 +126,7 @@ begann. Wenn ein Fehler erkannt wird, wird er gedruckt.
 
 Test-CsWatcherNodeConfiguration: Integritäts Registrierungsschlüssel kann nicht gefunden werden
 
-Software\\-\\Microsoft-Echtzeitkommunikation. Stellen Sie sicher, dass Watcher Node. msi
+Software \\ \\ -Microsoft-Echtzeitkommunikation. Stellen Sie sicher, dass Watcher Node. msi
 
 ordnungsgemäß installiert.
 

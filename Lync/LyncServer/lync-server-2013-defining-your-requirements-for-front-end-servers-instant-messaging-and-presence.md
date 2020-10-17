@@ -12,20 +12,22 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9be82373d33dafba7a5cf3e967b162ab5d33b01e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54629a270fcba5f6237deaaa1146108e16bafef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213719"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504332"
 ---
+# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Definieren der Anforderungen für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Definieren der Anforderungen für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013
+
 
 </div>
 
@@ -45,11 +47,11 @@ Die Hauptaufgabe bei der Planung von Instant Messaging (Sofortnachrichten) und A
 
 Sie können die Vorteile Ihrer Investition in lync Server erheblich verbessern, indem Sie Ihren Benutzern die Kommunikation mit externen Benutzern ermöglichen. Externe Benutzer können Folgendes umfassen:
 
-  - **Remote Benutzer**   die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere lync Server Geräte verwenden.
+  - **Remote Benutzer**     Die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere lync Server Geräte verwenden.
 
-  - **Benutzer von Verbundbenutzern**   aus Unternehmen, mit denen Sie zusammenarbeiten und die auch lync Server ausführen. Damit Ihre Benutzer diese Benutzer problemlos kontaktieren können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
+  - Partner **Verbundbenutzer**     Benutzer aus Unternehmen, mit denen Sie zusammenarbeiten und die auch lync Server ausführen. Damit Ihre Benutzer diese Benutzer problemlos kontaktieren können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
 
-  - **Öffentliche Benutzer**   von öffentlichen Chat Diensten wie Chat Dienste, die von dem Windows Live-Netzwerk der Internet Dienste, Yahoo\!und AOL bereitgestellt werden, sowie Benutzer von Anbietern und Servern, die XMPP (Extensible Messaging and Presence Protocol) verwenden, wie etwa Google Talk.
+  - **Öffentliche Benutzer**     Benutzer von öffentlichen Sofortnachrichtendiensten wie Chat Dienste, die von dem Windows Live-Netzwerk von Internet Diensten, Yahoo \! und AOL bereitgestellt werden, sowie Benutzer von Anbietern und Servern, die XMPP (Extensible Messaging and Presence Protocol) verwenden, wie etwa Google Talk.
     
     <div>
     

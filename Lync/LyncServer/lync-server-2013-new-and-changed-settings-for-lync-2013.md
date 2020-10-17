@@ -12,20 +12,22 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de4a1a82dbefb5a7f55a4c5872a6702933af08c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184579"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505432"
 ---
+# <a name="new-and-changed-settings-for-lync-2013"></a>Neue und geänderte Einstellungen für lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-and-changed-settings-for-lync-2013"></a>Neue und geänderte Einstellungen für lync 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ In diesem Thema werden Änderungen an lync Server-Verwaltungsshell-Cmdlets erlä
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Bei Festlegung auf "true" wird die Software Ablaufverfolgung in lync aktiviert; bei Festlegung auf "false" wird die Software Ablaufverfolgung deaktiviert. Die Softwareablaufverfolgung umfasst das Aufzeichnen detaillierter Informationen zu allen Abläufen in einem Programm (einschließlich API-Aufrufe). Die Ablaufverfolgung ist vor allem für Entwickler und Anwendungssupport Mitarbeiter hilfreich. Diese Einstellung entspricht der Einstellung &quot;Communications Server 2007 R2 Gruppenrichtlinie die Ablaufverfolgung für Communicator aktivieren. &quot; Die Einstellungen lauten wie folgt:</p>
+<td><p>Bei Festlegung auf "true" wird die Software Ablaufverfolgung in lync aktiviert; bei Festlegung auf "false" wird die Software Ablaufverfolgung deaktiviert. Die Softwareablaufverfolgung umfasst das Aufzeichnen detaillierter Informationen zu allen Abläufen in einem Programm (einschließlich API-Aufrufe). Die Ablaufverfolgung ist vor allem für Entwickler und Anwendungssupport Mitarbeiter hilfreich. Diese Einstellung entspricht der Einstellung Communications Server 2007 R2 Gruppenrichtlinie die &quot; Ablaufverfolgung für Communicator aktivieren. &quot; Die Einstellungen lauten wie folgt:</p>
 <ul>
 <li><p>Off = Ablaufverfolgung ist deaktiviert, und der Benutzer kann diese Einstellung nicht ändern.</p></li>
 <li><p>Light = minimale Ablaufverfolgung wird ausgeführt, und der Benutzer kann diese Einstellung nicht ändern.</p></li>
@@ -77,7 +79,7 @@ In diesem Thema werden Änderungen an lync Server-Verwaltungsshell-Cmdlets erlä
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Bei Festlegung auf "true" werden alle lync- &quot;Besprechungen als große Besprechungen behandelt. &quot; Bei einer großen Besprechung werden Einschränkungen für die Anzahl der Benachrichtigungen, die an die Teilnehmer gesendet werden, zusätzlich zur Größe der standardmäßig übermittelten Besprechungsliste erteilt.</p></td>
+<td><p>Bei Festlegung auf "true" werden alle lync-Besprechungen als &quot; große Besprechungen behandelt. &quot; Bei einer großen Besprechung werden Einschränkungen für die Anzahl der Benachrichtigungen, die an die Teilnehmer gesendet werden, zusätzlich zur Größe der standardmäßig übermittelten Besprechungsliste erteilt.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
@@ -150,8 +152,8 @@ In diesem Thema werden Änderungen an lync Server-Verwaltungsshell-Cmdlets erlä
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Der Parameter EnableSQMData des Cmdlets "CSClientPolicy" wurde in lync Server 2013 entfernt. Stattdessen können Sie die freigegebene Gruppenrichtlinieneinstellung für QM-Daten (Software Quality Management) verwenden, um die Benutzeroberfläche für die Option zur Verbesserung der Benutzerfreundlichkeit auf der Seite Allgemeine lync-Clientoptionen zu bestimmen:</p>
-<p>HKEY_CURRENT_USER \software\policies\microsoft\office\common\qmenable</p>
+<td><p>Der Parameter EnableSQMData des Cmdlets Set-CSClientPolicy wurde in lync Server 2013 entfernt. Stattdessen können Sie die freigegebene Gruppenrichtlinieneinstellung für QM-Daten (Software Quality Management) verwenden, um die Benutzeroberfläche für die Option zur Verbesserung der Benutzerfreundlichkeit auf der Seite Allgemeine lync-Clientoptionen zu bestimmen:</p>
+<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>Werte</p>
 <p>1 = anzeigen und Aktivieren des Kontrollkästchens (der Benutzer kann das Kontrollkästchen deaktivieren)</p>
 <p>0 = das Kontrollkästchen deaktivieren und deaktivieren (Benutzer kann nicht außer Kraft gesetzt werden)</p>
@@ -160,7 +162,7 @@ In diesem Thema werden Änderungen an lync Server-Verwaltungsshell-Cmdlets erlä
 <tr class="even">
 <td><p>AllowExchangeContactStore</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Dieser Parameter wurde entfernt. Wenn Sie stattdessen lync Server 2013 bereitstellen und die Topologie veröffentlichen, wird der einheitliche Kontaktspeicher standardmäßig für alle Benutzer aktiviert. Dies bedeutet, dass alle Kontakte eines Benutzers in Exchange aufbewahrt werden und in lync, Outlook und Outlook Web Access verfügbar sind. Mit dem Cmdlet "csuserservicespolicy" "können Sie anpassen, welche Benutzer einen einheitlichen Kontaktspeicher zur Verfügung stellen. Sie können Benutzer Global, nach Standort, nach Mandanten oder nach Einzelpersonen oder Personengruppen aktivieren. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in lync Server 2013</a>.</p></td>
+<td><p>Dieser Parameter wurde entfernt. Wenn Sie stattdessen lync Server 2013 bereitstellen und die Topologie veröffentlichen, wird der einheitliche Kontaktspeicher standardmäßig für alle Benutzer aktiviert. Dies bedeutet, dass alle Kontakte eines Benutzers in Exchange aufbewahrt werden und in lync, Outlook und Outlook Web Access verfügbar sind. Mit dem Set-CsUserServicesPolicy-Cmdlet können Sie anpassen, welche Benutzer einen einheitlichen Kontaktspeicher zur Verfügung haben. Sie können Benutzer Global, nach Standort, nach Mandanten oder nach Einzelpersonen oder Personengruppen aktivieren. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MAPIPollInterval</p></td>

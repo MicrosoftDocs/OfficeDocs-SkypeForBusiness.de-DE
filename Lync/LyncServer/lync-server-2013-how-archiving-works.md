@@ -12,20 +12,22 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc6266cdf81f4462adf82c5878bcc47a6060fdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2e982884e0e73a5315f0c6281876be225ccab6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504162"
 ---
+# <a name="how-archiving-works-in-lync-server-2013"></a>Funktionsweise der Archivierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-archiving-works-in-lync-server-2013"></a>Funktionsweise der Archivierung in lync Server 2013
+
 
 </div>
 
@@ -77,15 +79,15 @@ Lync Server archiviert auch keine beständigen Chat Unterhaltungen. Zum Archivie
 
 Die Archivierung wird bei der Bereitstellung des Servers automatisch auf jedem Front-End-Server installiert. Zum Verwenden der Archivierung müssen Sie sie jedoch zunächst konfigurieren. Die Konfiguration der Archivierung ist dabei abhängig von Ihrer Bereitstellung:
 
-  - **Archivierung mit Microsoft Exchange Integration.** Wenn Sie über Benutzer verfügen, die in Exchange 2013 verwaltet werden und deren Postfächer in einem Compliance-Archiv abgelegt wurden, können Sie die Option zum integrieren lync Server 2013 Speichers mit Exchange-Speicher auswählen. Wenn Sie die Option Microsoft Exchange Integration auswählen, verwenden Sie Exchange 2013 Richtlinien und Konfigurationen, um die Archivierung von lync Server 2013 Daten für diese Benutzer zu steuern.
+  - **Archivierung mit Microsoft Exchange Integration.** Wenn Sie über Benutzer verfügen, die in Exchange 2013 verwaltet werden und deren Postfächer In-Place gespeichert wurden, können Sie die Option zum integrieren lync Server 2013 Speichers mit Exchange-Speicher auswählen. Wenn Sie die Option Microsoft Exchange Integration auswählen, verwenden Sie Exchange 2013 Richtlinien und Konfigurationen, um die Archivierung von lync Server 2013 Daten für diese Benutzer zu steuern.
 
-  - **Archivierung mit lync Server Archivierungsdatenbanken.** Wenn Sie über Benutzer verfügen, die nicht in Exchange 2013 verwaltet werden oder deren Postfächer nicht in-situ-Speicher abgelegt wurden, oder wenn Sie Microsoft Exchange Integration nicht für einen oder alle Benutzer in Ihrer Bereitstellung verwenden möchten, können Sie lync Server Archivierungsdatenbanken mithilfe von SQL Server bereitstellen.  zum Speichern von Archivierungsdaten für diese Benutzer. In diesem Fall bestimmen lync Server 2013 Archivierungsrichtlinien und-Konfigurationen, ob die Archivierung aktiviert ist und wie Sie implementiert wird. Um lync Server 2013 verwenden zu können, müssen Sie die entsprechenden SQL Server Datenbanken zu Ihrer Topologie hinzufügen und die Topologie veröffentlichen.
+  - **Archivierung mit lync Server Archivierungsdatenbanken.** Wenn Sie über Benutzer verfügen, die nicht in Exchange 2013 verwaltet werden oder deren Postfächer nicht in In-Place Aufbewahrungsbereich verschoben wurden oder wenn Sie Microsoft Exchange Integration nicht für einen oder alle Benutzer in Ihrer Bereitstellung verwenden möchten, können Sie lync Server Archivierungsdatenbanken mithilfe von SQL Server bereitstellen, um Archivierungsdaten für diese Benutzer zu speichern. In diesem Fall bestimmen lync Server 2013 Archivierungsrichtlinien und-Konfigurationen, ob die Archivierung aktiviert ist und wie Sie implementiert wird. Um lync Server 2013 verwenden zu können, müssen Sie die entsprechenden SQL Server Datenbanken zu Ihrer Topologie hinzufügen und die Topologie veröffentlichen.
 
 <div>
 
 ## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Archivierungs Setup bei Verwendung Microsoft Exchange Integration
 
-Wenn Ihre Benutzer in Exchange 2013 verwaltet werden und ihre Postfächer in einem Compliance-Archiv abgelegt wurden, können Sie die Option **Microsoft Exchange Integration** (wie weiter unten in diesem Abschnitt beschrieben) zur Archivierung von lync Server 2013 für diese Benutzer auswählen und dann die Archivierung für diese Benutzer steuern, indem Sie die in-situ-Speicherrichtlinien und-Einstellungen von Exchange festlegen sowie lync Server Konfigurationen zur Steuerung der folgenden Schritte durchführen:
+Wenn Ihre Benutzer in Exchange 2013 verwaltet werden und ihre Postfächer In-Place gespeichert wurden, können Sie die **Microsoft Exchange Integrations** Option (wie weiter unten in diesem Abschnitt beschrieben) auswählen, um lync Server 2013 für diese Benutzer zu archivieren und dann die Archivierung für diese Benutzer zu kontrollieren, indem Sie die Exchange In-Place Hold-Richtlinien und-Einstellungen sowie lync Server Konfigurationen zur Steuerung der folgenden festlegen:
 
   - Zu archivierende Elemente (Sofortnachrichten, Konferenzen oder beides)
 
@@ -93,7 +95,7 @@ Wenn Ihre Benutzer in Exchange 2013 verwaltet werden und ihre Postfächer in ein
 
   - Auswahl der Option für die Microsoft Exchange Integration, um Exchange 2013 für die Speicherung archivierter Daten zu verwenden.
 
-Diese lync Server 2013 Archivierungs Konfigurationsoptionen werden weiter unten in diesem Abschnitt beschrieben. Informationen zum Konfigurieren von Exchange in-situ-Speicherrichtlinien und-Einstellungen zur Unterstützung der Archivierung finden Sie in der Exchange 2013-Produktdokumentation.
+Diese lync Server 2013 Archivierungs Konfigurationsoptionen werden weiter unten in diesem Abschnitt beschrieben. Informationen zum Konfigurieren von Exchange In-Place-Aufbewahrungsrichtlinien und-Einstellungen zur Unterstützung der Archivierung finden Sie in der Exchange 2013-Produktdokumentation.
 
 </div>
 
@@ -123,7 +125,7 @@ Ausführliche Informationen zum Einrichten der anfänglichen Archivierungsrichtl
 
 
 > [!NOTE]  
-> Wenn Sie sowohl lync Server 2013 Archivierungsdatenbanken implementieren als auch Microsoft Exchange Integration aktivieren, setzen Exchange 2013-Richtlinien lync Server Archivierungsrichtlinien außer Kraft, jedoch nur für Benutzer, die in Exchange 2013 verwaltet werden und ihre Postfächer in einem Compliance-Archiv platziert haben. . Die lync-Archivierung hängt nur von Microsoft Exchange in-situ-Aufbewahrungsrichtlinie ab.
+> Wenn Sie sowohl lync Server 2013 Archivierungsdatenbanken implementieren als auch Microsoft Exchange Integration aktivieren, setzen Exchange 2013-Richtlinien lync Server Archivierungsrichtlinien außer Kraft, jedoch nur für Benutzer, die in Exchange 2013 verwaltet werden und deren Postfächer In-Place halten. Die lync-Archivierung hängt nur von Microsoft Exchange In-Place Aufbewahrungsrichtlinie ab.
 
 
 
@@ -167,7 +169,7 @@ Die Konfiguration auf globaler Ebene wird automatisch beim Bereitstellen der Arc
     
 
     > [!NOTE]  
-    > Wenn Sie Microsoft Exchange Integration aktivieren, wird die Bereinigung für Benutzer, die in Exchange 2013 verwaltet werden, und mit ihren Postfächern, die in Compliance-Archiv abgelegt werden, von Exchange gesteuert. Die einzige Qualifikation besteht für Konferenz Dateien, die auf der lync Server Dateifreigabe gespeichert sind. Diese Dateien werden erst nach dem Export der Dateien aus der Dateifreigabe gelöscht (in Exchange hochgeladen), wenn Sie die Option zum Löschen von Daten nach dem Exportieren der Archivierungsdaten oder nach der angegebenen maximalen Anzahl von Tagen auswählen, wenn Sie eine maximale Anzahl von Tage für die Aufbewahrung.
+    > Wenn Sie Microsoft Exchange Integration aktivieren, wird die Bereinigung für Benutzer, die in Exchange 2013 verwaltet werden, und mit ihren Postfächern, die in In-Place Speicher abgelegt werden, von Exchange gesteuert. Die einzige Qualifikation besteht für Konferenz Dateien, die auf der lync Server Dateifreigabe gespeichert sind. Diese Dateien werden erst nach dem Export der Dateien aus der Dateifreigabe gelöscht (hochgeladen in Exchange), wenn Sie die Option zum Löschen von Daten nach dem Exportieren der Archivierungsdaten oder nach der angegebenen maximalen Anzahl von Tagen auswählen, wenn Sie eine maximale Anzahl von Tagen für die Aufbewahrung angeben.
 
     
     </div>
@@ -208,9 +210,9 @@ Mithilfe von lync Server 2013 Management Shell können Sie mithilfe von Cmdlets 
 
 Der Zugriff auf archivierte Daten ist abhängig davon, wo die Daten gespeichert wurden:
 
-  - **Microsoft Exchange Speicher**. Wenn Sie die Option für die Exchange-Integration auswählen, lync Server den Archivierungs Inhalt im Exchange 2013 Speicher für alle Benutzer ablegen, die in Exchange 2013 verwaltet werden und deren Postfächer im Compliance-Archiv gespeichert wurden. Archivierte Daten werden im Ordner "Wiederherstellbare Elemente für Benutzerpostfächer" gespeichert, der in der Regel für Benutzer unsichtbar ist und nur von Benutzern mit einer Exchange **Discovery-Verwaltungs** Rolle durchsucht werden kann. Exchange aktiviert die Verbundsuche und-Ermittlung zusammen mit SharePoint, wenn es bereitgestellt wird. Weitere Informationen zum Speichern, zur Aufbewahrung und zur Ermittlung der in Exchange gespeicherten Daten finden Sie in der Dokumentation zu Exchange 2013 und SharePoint.
+  - **Microsoft Exchange Speicher**. Wenn Sie die Option für die Exchange-Integration auswählen, lync Server den Archivierungs Inhalt im Exchange 2013 Speicher für alle Benutzer ablegen, die in Exchange 2013 verwaltet werden und deren Postfächer In-Place Aufbewahrung abgelegt wurden. Archivierte Daten werden im Ordner "Wiederherstellbare Elemente für Benutzerpostfächer" gespeichert, der in der Regel für Benutzer unsichtbar ist und nur von Benutzern mit einer Exchange **Discovery-Verwaltungs** Rolle durchsucht werden kann. Exchange aktiviert die Verbundsuche und-Ermittlung zusammen mit SharePoint, wenn es bereitgestellt wird. Weitere Informationen zum Speichern, zur Aufbewahrung und zur Ermittlung der in Exchange gespeicherten Daten finden Sie in der Dokumentation zu Exchange 2013 und SharePoint.
 
-  - **Lync Server Speicher**. Wenn Sie lync Server 2013 Archivierungsdatenbanken für die Speicherung von lync Server Daten eingerichtet haben, lync Server Ablage von Archivinhalten in den lync Server Archivierungsdatenbanken (SQL Server Datenbanken) für Benutzer, die nicht in Exchange 2013 verwaltet werden und für die keine Postfächer eingerichtet wurden. In-situ-Speicher. Diese Daten sind nicht durchsuchbar, können aber in Formate exportiert werden, die mithilfe anderer Tools durchsuchbar sind. Ausführliche Informationen zum Exportieren von Daten, die in Archivierungsdatenbanken gespeichert sind, finden Sie unter [exportieren archivierter Daten aus lync Server 2013](lync-server-2013-exporting-archived-data.md) in der Betriebsdokumentation.
+  - **Lync Server Speicher**. Wenn Sie lync Server 2013 Archivierungsdatenbanken für die Speicherung von lync Server Daten eingerichtet haben, lync Server Ablage Inhalte in den lync Server Archivierungsdatenbanken (SQL Server Datenbanken) für alle Benutzer, die nicht in Exchange 2013 verwaltet werden und die ihre Postfächer nicht In-Place halten konnten. Diese Daten sind nicht durchsuchbar, können aber in Formate exportiert werden, die mithilfe anderer Tools durchsuchbar sind. Ausführliche Informationen zum Exportieren von Daten, die in Archivierungsdatenbanken gespeichert sind, finden Sie unter [exportieren archivierter Daten aus lync Server 2013](lync-server-2013-exporting-archived-data.md) in der Betriebsdokumentation.
 
 Weitere Informationen zur Zusammenarbeit von lync Server 2013 und Exchange 2013 finden Sie unter [Exchange Server and SharePoint Integration Support in lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) in der Unterstützungsdokumentation.
 

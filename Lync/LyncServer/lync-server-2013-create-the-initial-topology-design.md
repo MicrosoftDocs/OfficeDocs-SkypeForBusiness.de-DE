@@ -12,20 +12,22 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71ccdec2c39839674c6304000680ec611a48c016
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bbd021a6b3804c369bccea5affcf26558802de2c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504732"
 ---
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Erstellen des anfänglichen Topologie Designs für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Erstellen des anfänglichen Topologie Designs für lync Server 2013
+
 
 </div>
 
@@ -57,11 +59,11 @@ Nachdem Sie die Installation des lync Server 2013 Planungstools abgeschlossen ha
 
 2.  Nachdem das Planungstool gestartet wurde, wird die Seite **Willkommen beim Planungstool für Microsoft lync Server 2013** angezeigt. Wählen Sie eine der folgenden Optionen aus, um mit Ihrem Entwurf zu beginnen:
     
-      - **Option 1: Erste Schritte**   klicken **Sie auf erste Schritte** , um eine bestimmte Reihe von Interview Fragen mit relevanten Auswahlmöglichkeiten zum Definieren der Kriterien anzuzeigen. Nachdem Sie den Abschnitt erste **Schritte** mit dem ersten Gespräch abgeschlossen haben, gehen Sie zu **Design Websites** , um die Websitearchitektur zu definieren. Um diese Option abzuschließen, fahren Sie mit Schritt 3 fort.
+      - **Option 1: Erste Schritte**     Wenn **Sie auf erste Schritte** klicken, wird eine bestimmte Reihe von Interview Fragen mit relevanten Auswahlmöglichkeiten zur Definition der Kriterien gestellt. Nachdem Sie den Abschnitt erste **Schritte** mit dem ersten Gespräch abgeschlossen haben, gehen Sie zu **Design Websites** , um die Websitearchitektur zu definieren. Um diese Option abzuschließen, fahren Sie mit Schritt 3 fort.
     
-      - **Option 2: Design Websites**   Wenn Sie auf der Willkommensseite auf " **Design Sites** " klicken, werden die im Abschnitt " **Erste Schritte** " dargestellten Interview Fragen umgangen. Die Informationen, die durch Antworten auf das Interview Fragen im Abschnitt **Erste Schritte** gesammelt worden wären, werden mit dieser Option auf Standardwerte festgelegt. Durch Klicken auf **Websites entwerfen**kann der erfahrene Designer das ursprüngliche Interview umgehen und die Standardwerte bei Bedarf auf der Startseite der **zentralen Websites** ändern. Um diese Option abzuschließen, überspringen Sie die Schritte 3-5, und beginnen Sie mit Schritt 6.
+      - **Option 2: Entwerfen von Websites**     Durch Klicken auf **Design Sites** auf der Willkommensseite werden die im Abschnitt **Erste Schritte** dargestellten Interview Fragen umgangen. Die Informationen, die durch Antworten auf das Interview Fragen im Abschnitt **Erste Schritte** gesammelt worden wären, werden mit dieser Option auf Standardwerte festgelegt. Durch Klicken auf **Websites entwerfen**kann der erfahrene Designer das ursprüngliche Interview umgehen und die Standardwerte bei Bedarf auf der Startseite der **zentralen Websites** ändern. Um diese Option abzuschließen, überspringen Sie die Schritte 3-5, und beginnen Sie mit Schritt 6.
     
-      - **Option 3: Anzeigen der gespeicherten Topologie**   Wenn Sie eine Topologie durch vorherige Verwendung des Planungstools bereits abgeschlossen und gespeichert haben, können Sie die meisten dieser Schritte überspringen und mit dem Öffnen und Anzeigen der Topologie beginnen. Sie können auch Änderungen und Aktualisierungen an der Topologie vornehmen, Sie erneut speichern und dann in Microsoft Excel oder Microsoft Visio exportieren. Um diese Option abzuschließen, überspringen Sie die Schritte 3-12, und beginnen Sie mit Schritt 13.
+      - **Option 3: Anzeigen der gespeicherten Topologie**     Wenn Sie eine Topologie bereits durch vorherige Verwendung des Planungstools abgeschlossen und gespeichert haben, können Sie die meisten dieser Schritte überspringen und mit dem Öffnen und Anzeigen der Topologie beginnen. Sie können auch Änderungen und Aktualisierungen an der Topologie vornehmen, Sie erneut speichern und dann in Microsoft Excel oder Microsoft Visio exportieren. Um diese Option abzuschließen, überspringen Sie die Schritte 3-12, und beginnen Sie mit Schritt 13.
 
 3.  Klicken Sie auf **Erste Schritte** , um mit dem Entwerfen Ihrer lync Server 2013 Topologie zu beginnen.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340a1902137b6c675b154ef9ccf3d9fbcc882e88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d8096f9dbce6e5e807cc806a5d87df7558f38a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217081"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505482"
 ---
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Bei einer Netzwerkregion handelt es sich um einen Netzwerkhub oder Netzwerkbackb
 
 </div>
 
-Für die Anrufsteuerung ist es erforderlich, dass für jede netzwerkregion ein zugeordneter lync Server zentraler Standort vorhanden ist, der den Mediendatenverkehr innerhalb der Region verwaltet (also Entscheidungen basierend auf den von Ihnen konfigurierten Richtlinien trifft, ob eine echt Zeit-Audio-oder Videositzung möglich ist oder nicht. festgelegt werden). Lync Server zentralen Standorte stellen keine geografischen Standorte, sondern logische Gruppen von Servern dar, die als Pool oder eine Gruppe von Pools konfiguriert sind. Ausführliche Informationen zu zentralen Standorten finden Sie unter [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md) in der Planungsdokumentation. Siehe auch [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md) in der Unterstützungsdokumentation.
+Für die Anrufsteuerung ist es erforderlich, dass jede netzwerkregion über einen zugeordneten lync Server zentralen Standort verfügt, der den Mediendatenverkehr innerhalb der Region verwaltet (also Entscheidungen basierend auf den von Ihnen konfigurierten Richtlinien trifft, um festzustellen, ob eine echt Zeit Audio-oder Videositzung hergestellt werden kann). Lync Server zentralen Standorte stellen keine geografischen Standorte, sondern logische Gruppen von Servern dar, die als Pool oder eine Gruppe von Pools konfiguriert sind. Ausführliche Informationen zu zentralen Standorten finden Sie unter [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md) in der Planungsdokumentation. Siehe auch [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md) in der Unterstützungsdokumentation.
 
 Zum Konfigurieren einer netzwerkregion können Sie entweder die Registerkarte **Regionen** im Abschnitt **Netzwerkkonfiguration** von lync Server-Systemsteuerung verwenden oder die Cmdlets **New-CsNetworkRegion** oder **CsNetworkRegion** lync Server-Verwaltungsshell ausführen. Anweisungen finden Sie unter [erstellen oder Ändern einer netzwerkregion in lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) in der Bereitstellungsdokumentation oder in der lync Server-Verwaltungsshell-Dokumentation.
 
