@@ -1,5 +1,6 @@
 ---
 title: Verwenden von Best Practices Analyzer zum Identifizieren möglicher Probleme in Ihrer Bereitstellung
+description: Verwenden von Best Practices Analyzer, um potenzielle Probleme in Ihrer Bereitstellung zu identifizieren.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ebeeb175a4c79022630a432a075bd2cda18f3a0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b334a6eb3d6596fdc3208c60a8894b0873386c85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535892"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567191"
 ---
 # <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Verwenden von Best Practices Analyzer zum Identifizieren potenzieller Probleme in ihrer lync Server 2013-Bereitstellung
 

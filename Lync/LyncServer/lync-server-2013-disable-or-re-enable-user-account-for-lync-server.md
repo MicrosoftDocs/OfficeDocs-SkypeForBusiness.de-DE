@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server'
+description: 'Lync Server 2013: deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 646f4ae59ce5058af84c0e5ddd3197f7a9f47fe7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b30d83d7a7f38b84f8e669ac06947eebf4a8545
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528992"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568171"
 ---
 # <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013
 

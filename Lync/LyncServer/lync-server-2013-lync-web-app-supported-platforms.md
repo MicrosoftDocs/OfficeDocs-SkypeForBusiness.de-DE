@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: lync Web App unterstützte Plattformen'
+description: 'Lync Server 2013: lync Web App unterstützte Plattformen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 92fd1e73a087cb20e311857a8ec93cdabd5bc794
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534612"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566531"
 ---
 # <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Web App unterstützte Plattformen für lync Server 2013
 

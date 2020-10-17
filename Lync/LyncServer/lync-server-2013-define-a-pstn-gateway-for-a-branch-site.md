@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Definieren eines PSTN-Gateways für einen Zweigstellenstandort'
+description: 'Lync Server 2013: definieren Sie ein PSTN-Gateway für einen Zweigstellenstandort.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 435af3ab537097592325438707b89ce901da9bcd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 17fb1004366fef17f57d7e8b7d14696e1e3f0fbe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516392"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567771"
 ---
 # <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Definieren eines PSTN-Gateways für einen Zweigstellenstandort in lync Server 2013
 

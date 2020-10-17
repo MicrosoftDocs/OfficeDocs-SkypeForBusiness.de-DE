@@ -1,5 +1,6 @@
 ---
 title: Zurückgeben der Edgepool, die für lync Server Partnerverbund oder XMPP-Partnerverbund verwendet werden
+description: Fehler beim Zurückgeben der Edgepool, die für lync Server Partnerverbund oder XMPP-Partnerverbund verwendet werden.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2fc24adb8808eae3d3152b74e29426b2facecfb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 137910d71de1d6177356e0b7bacbd6d17022d71d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530992"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567721"
 ---
 # <a name="failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation-in-lync-server-2013"></a>Zurückgeben der Edgepool, die für lync Server Partnerverbund oder XMPP-Verbund in lync Server 2013 verwendet wurden
 

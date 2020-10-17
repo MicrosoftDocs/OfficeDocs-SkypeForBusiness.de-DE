@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Prüfliste zur Bereitstellung für den Zugriff durch externe Benutzer'
+description: 'Lync Server 2013: Prüfliste für die Bereitstellung des Zugriffs durch externe Benutzer.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a31534d1dcf3ba4dd0bb222de682d247c9683f94
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522772"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568326"
 ---
 # <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Prüfliste zur Bereitstellung für den Zugriff durch externe Benutzer in lync Server 2013
 
