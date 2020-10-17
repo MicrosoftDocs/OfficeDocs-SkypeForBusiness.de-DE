@@ -1,5 +1,6 @@
 ---
 title: Verwenden eines ausgedehnten Server Pools für beständigen Chat für die Notfallwiederherstellung
+description: Verwenden eines ausgedehnten Server Pools für beständigen Chat für die Notfallwiederherstellung.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c09231abfae7bbcc32083d7db72d8a4be79ecff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b83a7226f7b9a49a2676b6222505f53247bd5abf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535922"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548541"
 ---
 # <a name="using-a-stretched-persistent-chat-server-pool-for-disaster-recovery-in-lync-server-2013"></a>Verwenden eines ausgedehnten Server Pools für beständigen Chat für die Notfallwiederherstellung in lync Server 2013
 

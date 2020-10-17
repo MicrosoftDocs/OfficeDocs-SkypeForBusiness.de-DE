@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von Richtlinien zur Steuerung des Remotebenutzerzugriffs'
+description: 'Lync Server 2013: Configure Policies to Control Remote User Access.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a195a0bbca8bdfcc0b150504635d3f86cca376c3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6408747cfbbc5e7dff8fd198c0de162f49fc5ff2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527012"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548711"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-lync-server-2013"></a>Konfigurieren von Richtlinien zur Steuerung des Remotebenutzerzugriffs in lync Server 2013
 

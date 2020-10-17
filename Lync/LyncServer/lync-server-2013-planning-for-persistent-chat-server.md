@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planen des Servers für beständigen Chat'
+description: 'Lync Server 2013: Planung für den Server für beständigen Chat.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37208a366ae1cac70733113d6b15605886f34e97
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6944437492a1eee718a614369201c3548c95864a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521962"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549301"
 ---
 # <a name="planning-for-persistent-chat-server-in-lync-server-2013"></a>Planen von Servern für beständigen Chat in lync Server 2013
 

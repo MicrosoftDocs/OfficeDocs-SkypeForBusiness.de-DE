@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von Durchwahlnummern für das Parken von Anrufen'
+description: 'Lync Server 2013: Konfigurieren von Durchwahlnummern für das Parken von anrufen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97a8871454ed95b955558c441d567f68dd0974bd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6219e04243d0c19bc37251f7d113f7ebdd09fb72
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520432"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548831"
 ---
 # <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>Konfigurieren von Durchwahlnummern für das Parken von Anrufen in lync Server 2013
 

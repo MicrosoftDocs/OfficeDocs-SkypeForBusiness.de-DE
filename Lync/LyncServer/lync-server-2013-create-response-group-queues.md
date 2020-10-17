@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erstellen von Warteschlangen für Reaktionsgruppen'
+description: 'Lync Server 2013: Erstellen von Warteschlangen für Reaktionsgruppen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184070
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44dabaa6e1fd014933859c516cc305e8582655ab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74f61aeef06b430cea20f509445c220b53fc6891
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514712"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548661"
 ---
 # <a name="create-response-group-queues-in-lync-server-2013"></a>Erstellen von Warteschlangen für Reaktionsgruppen in lync Server 2013
 
