@@ -1,5 +1,6 @@
 ---
 title: 'Phase 7: Hinzufügen von lync Server 2013 Edgeserver zu einem Pilot Pool'
+description: 'Phase 7: Hinzufügen von lync Server 2013 Edgeserver zu einem Pilot Pool.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 215e877820d4fac8cb00bbf036dd31e90f71dcdb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4bfd628b4633e6dff4ffe13d3ba4818962138986
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518162"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566191"
 ---
 # <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a>Phase 7: Hinzufügen von lync Server 2013 Edgeserver zu einem Pilot Pool
 
@@ -45,7 +46,7 @@ In den Themen in diesem Abschnitt wird erläutert, wie der Bereitstellungeines p
 
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-  - [Bereitstellen eines Pilot-Edgeservers](deploy-pilot-edge-server_1.md)
+  - [Bereitstellen eines Pilot-Edgeservers](deploy-pilot-edge-server.md)
 
   - [Überprüfen der Replikation von Konfigurationseinstellungen](validate-replication-of-configuration-settings.md)
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (optional) definieren von Feiertagssätzen für Reaktionsgruppen'
+description: 'Lync Server 2013: (optional) definieren von Feiertagssätzen für Reaktionsgruppen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5613ee8e3c1d5038b72b32d4d59950b884d32db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d7ba735cc62efb9d5553c8bd6aad1aa9484f70f4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524452"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565761"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Optional Definieren von Feiertagssätzen für Reaktionsgruppen in lync Server 2013
 

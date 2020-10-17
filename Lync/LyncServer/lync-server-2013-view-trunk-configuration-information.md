@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Informationen zur trunkkonfiguration anzeigen'
+description: 'Lync Server 2013: Anzeigen von trunk Konfigurationsinformationen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe7c828fe771a410825fd641c333a2230d7e9798
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b4e1d3063d65f8c27ad231f063249748046f759
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518372"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565431"
 ---
 # <a name="view-trunk-configuration-information-in-lync-server-2013"></a>Anzeigen von trunk Konfigurationsinformationen in lync Server 2013
 

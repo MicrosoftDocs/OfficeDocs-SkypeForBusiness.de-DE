@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Anruf parken-Erfahrung während des Pool Fehlers'
+description: 'Lync Server 2013: Anruf parken-Erfahrung während des Pool Fehlers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605900501a141c053459c690292b1e0a10c8abbc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b97a0af13d378b0753979c32b6d5ffe7a525cf0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508252"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565271"
 ---
 # <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>Parken von Anrufen in lync Server 2013 beim Pool Ausfall
 

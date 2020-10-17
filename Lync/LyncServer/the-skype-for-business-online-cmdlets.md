@@ -1,5 +1,6 @@
 ---
 title: Die Skype for Business Online-Cmdlets
+description: Die Skype for Business Online-Cmdlets.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ee2e51d9554e4c986bacdcb876fc5b42464477f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4a3551e11ba943e46b48002f86f03a52174b3eed
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514962"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564581"
 ---
 # <a name="the-skype-for-business-online-cmdlets"></a>Die Skype for Business Online-Cmdlets
 

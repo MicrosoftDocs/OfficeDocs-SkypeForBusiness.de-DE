@@ -1,5 +1,6 @@
 ---
-title: 'Lync Server 2013: Vorgangs Prüflisten'
+title: 'Lync Server 2013: Operations Checklisten'
+description: 'Lync Server 2013: Operations Checklisten.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,37 +13,37 @@ ms:contentKeyID: 63969588
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13d3ddce01fb172aa03134a48c40cdd43573f369
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ce6fc8a17c4b661737d014b5d1abf20731e39d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755799"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565887"
 ---
-# <a name="operations-checklists-for-lync-server-2013"></a>Vorgangs Checklisten für lync Server 2013 
+# <a name="operations-checklists-for-lync-server-2013"></a>Betriebs Prüflisten für lync Server 2013 
 
 
-_**Letztes Änderungsdatum des Themas:** 2019-06-03_
+_**Letztes Änderungsstand des Themas:** 2019-06-03_
 
-Die hier erwähnten Checklisten dienen zur internen Datensatzspeicherung und können, falls erforderlich, entsprechend den Anforderungen Ihrer Organisation geändert werden.
-
-<br>
-
-## <a name="daily-task-checklist"></a>Tägliche Aufgabenprüfliste
-
-Die Checkliste für tägliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)vorgestellt.
+Die hier erwähnten Prüflisten dienen der internen Aufbewahrung von Datensätzen, und falls erforderlich, können Sie Sie ändern, um die Anforderungen Ihrer Organisation zu erfüllen.
 
 <br>
 
-## <a name="weekly-task-checklist"></a>Checkliste für wöchentliche Aufgaben
+## <a name="daily-task-checklist"></a>Prüfliste für tägliche Aufgaben
 
-Die Checkliste für wöchentliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)vorgestellt.
+Die Checkliste für tägliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true)angezeigt.
+
+<br>
+
+## <a name="weekly-task-checklist"></a>Prüfliste für wöchentliche Aufgaben
+
+Die wöchentliche Aufgaben Prüfliste wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true)angezeigt.
 
 
 <br>
 
-## <a name="monthly-task-checklist"></a>Checkliste für monatliche Aufgaben
+## <a name="monthly-task-checklist"></a>Prüfliste für monatliche Aufgaben
 
 
-Die Checkliste für monatliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)vorgestellt.
+Die Prüfliste für monatliche Aufgaben wird in dieser [Excel-Tabelle](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true)angezeigt.
 

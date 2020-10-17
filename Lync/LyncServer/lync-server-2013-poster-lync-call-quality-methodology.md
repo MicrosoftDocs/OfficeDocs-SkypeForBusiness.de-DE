@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Poster: lync Call Quality Method'
+description: 'Lync Server 2013: Poster: lync Call Quality method.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3647de7f803a8ec90d50236c5cf14c1a1cf8e0da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0db34da35ce32d32aa00f10cd3523a0f508f8ffd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513392"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566331"
 ---
 # <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Methode für die lync-Anrufqualität in lync Server 2013
 

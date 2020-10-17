@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Benutzer in einen anderen Pool verlegen'
+description: 'Lync Server 2013: verschiebt Benutzer in einen anderen Pool.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4ecadb2a487dc17f18e1956b6ac075e25b0b035
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 21012e0df7567a79bca018d194878c85b8653ae4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500552"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566391"
 ---
 # <a name="move-users-to-another-pool-in-lync-server-2013"></a>Migrieren von Benutzern in einen anderen Pool in lync Server 2013
 
