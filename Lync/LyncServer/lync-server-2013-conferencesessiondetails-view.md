@@ -12,20 +12,22 @@ ms:contentKeyID: 49733660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc6d1888753edbeb076d60d6725b6d9cffc509e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf8023408990b7f0243aaf0e937e2d1095dff0c2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529182"
 ---
+# <a name="conferencesessiondetails-view-in-lync-server-2013"></a><span data-ttu-id="5f87a-102">ConferenceSessionDetails-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f87a-102">ConferenceSessionDetails view in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-view-in-lync-server-2013"></a><span data-ttu-id="cd4b8-102">ConferenceSessionDetails-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd4b8-102">ConferenceSessionDetails view in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42209361"
 
 <span> </span>
 
-<span data-ttu-id="cd4b8-103">_**Letztes Änderungsstand des Themas:** 2012-11-12_</span><span class="sxs-lookup"><span data-stu-id="cd4b8-103">_**Topic Last Modified:** 2012-11-12_</span></span>
+<span data-ttu-id="5f87a-103">_**Letztes Änderungsstand des Themas:** 2012-11-12_</span><span class="sxs-lookup"><span data-stu-id="5f87a-103">_**Topic Last Modified:** 2012-11-12_</span></span>
 
-<span data-ttu-id="cd4b8-104">In der ConferenceSessionDetails-Ansicht werden Informationen zu mehrteiligen Sitzungen gespeichert.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-104">The ConferenceSessionDetails view stores information about multiparty sessions.</span></span> <span data-ttu-id="cd4b8-105">Jeder Datensatz steht für eine Konferenzsitzung, bei der es sich entweder um die Sitzung mit Konferenzzustandsobjekt oder die Sitzung mit einem spezifischen Konferenzserver handelt.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-105">Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server.</span></span> <span data-ttu-id="cd4b8-106">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="5f87a-104">In der ConferenceSessionDetails-Ansicht werden Informationen zu mehrteiligen Sitzungen gespeichert.</span><span class="sxs-lookup"><span data-stu-id="5f87a-104">The ConferenceSessionDetails view stores information about multiparty sessions.</span></span> <span data-ttu-id="5f87a-105">Jeder Datensatz steht für eine Konferenzsitzung, bei der es sich entweder um die Sitzung mit Konferenzzustandsobjekt oder die Sitzung mit einem spezifischen Konferenzserver handelt.</span><span class="sxs-lookup"><span data-stu-id="5f87a-105">Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server.</span></span> <span data-ttu-id="5f87a-106">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="5f87a-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -48,231 +50,231 @@ ms.locfileid: "42209361"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cd4b8-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="cd4b8-107">Column</span></span></th>
-<th><span data-ttu-id="cd4b8-108">Datentyp</span><span class="sxs-lookup"><span data-stu-id="cd4b8-108">Data Type</span></span></th>
-<th><span data-ttu-id="cd4b8-109">Details</span><span class="sxs-lookup"><span data-stu-id="cd4b8-109">Details</span></span></th>
+<th><span data-ttu-id="5f87a-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="5f87a-107">Column</span></span></th>
+<th><span data-ttu-id="5f87a-108">Datentyp</span><span class="sxs-lookup"><span data-stu-id="5f87a-108">Data Type</span></span></th>
+<th><span data-ttu-id="5f87a-109">Details</span><span class="sxs-lookup"><span data-stu-id="5f87a-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-110"><strong>SessionID</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-110"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-111">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-112">Zeitpunkt der Sitzungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-112">Time of session request.</span></span> <span data-ttu-id="cd4b8-113">Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren..</span><span class="sxs-lookup"><span data-stu-id="cd4b8-113">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="cd4b8-114">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-110"><strong>SessionID</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-111">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5f87a-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-112">Zeitpunkt der Sitzungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-112">Time of session request.</span></span> <span data-ttu-id="5f87a-113">Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren..</span><span class="sxs-lookup"><span data-stu-id="5f87a-113">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="5f87a-114">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-116">int</span><span class="sxs-lookup"><span data-stu-id="cd4b8-116">int</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-117">ID zur Identifikation der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-117">ID number to identify the session.</span></span> <span data-ttu-id="cd4b8-118">Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-118">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="cd4b8-119">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-116">int</span><span class="sxs-lookup"><span data-stu-id="5f87a-116">int</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-117">ID zur Identifikation der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-117">ID number to identify the session.</span></span> <span data-ttu-id="5f87a-118">Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="5f87a-118">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="5f87a-119">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-120"><strong>Invitezeit</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-120"><strong>InviteTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-121">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-121">datetime</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p104">Der Zeitpunkt der ersten INVITE-Anforderung. Dieses Feld wird i. d. R. mit Daten aus der ersten INVITE-Nachricht in der Sitzung gefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) gefüllt.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p104">Time of the first INVITE request. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-120"><strong>Invitezeit</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-120"><strong>InviteTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-121">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5f87a-121">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p104">Der Zeitpunkt der ersten INVITE-Anforderung. Dieses Feld wird i. d. R. mit Daten aus der ersten INVITE-Nachricht in der Sitzung gefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) gefüllt.</span><span class="sxs-lookup"><span data-stu-id="5f87a-p104">Time of the first INVITE request. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-125"><strong>ConferenceUri</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-125"><strong>ConferenceUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-126">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-126">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-127">Die URI der Konferenz.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-127">URI of the conference.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-125"><strong>ConferenceUri</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-125"><strong>ConferenceUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-126">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="5f87a-126">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-127">Die URI der Konferenz.</span><span class="sxs-lookup"><span data-stu-id="5f87a-127">URI of the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-128"><strong>ConferenceUriType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-128"><strong>ConferenceUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-129">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-129">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-130">Typ des URI.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-130">Type of conference URI.</span></span> <span data-ttu-id="cd4b8-131">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-131">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-128"><strong>ConferenceUriType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-128"><strong>ConferenceUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-129">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-129">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-130">Typ des URI.</span><span class="sxs-lookup"><span data-stu-id="5f87a-130">Type of conference URI.</span></span> <span data-ttu-id="5f87a-131">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-131">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-132"><strong>ConfInstance</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-132"><strong>ConfInstance</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-133">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="cd4b8-133">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p106">ID zur Unterscheidung zwischen einzelnen Instanzen wiederkehrender Konferenzen. Jede wiederkehrende Konferenz weist denselben ConferenceURI, jedoch einen eigenen ConfInstance-Wert auf.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p106">Identifier that differentiates between instances of recurring conferences. Each recurring conference instance has the same ConferenceURI but a different ConfInstance value.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-132"><strong>ConfInstance</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-132"><strong>ConfInstance</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-133">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="5f87a-133">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p106">ID zur Unterscheidung zwischen einzelnen Instanzen wiederkehrender Konferenzen. Jede wiederkehrende Konferenz weist denselben ConferenceURI, jedoch einen eigenen ConfInstance-Wert auf.</span><span class="sxs-lookup"><span data-stu-id="5f87a-p106">Identifier that differentiates between instances of recurring conferences. Each recurring conference instance has the same ConferenceURI but a different ConfInstance value.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-136"><strong>McuConferenceUri</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-136"><strong>McuConferenceUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-137">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-137">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-138">Der URI des Konferenz-Servers.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-138">URI of the conferencing server.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-136"><strong>McuConferenceUri</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-136"><strong>McuConferenceUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-137">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="5f87a-137">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-138">Der URI des Konferenz-Servers.</span><span class="sxs-lookup"><span data-stu-id="5f87a-138">URI of the conferencing server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-139"><strong>McuConferenceUriType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-139"><strong>McuConferenceUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-140">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-140">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-141">Der Typ der Konferenz-Server-URIs.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-141">Type of conferencing server URI.</span></span> <span data-ttu-id="cd4b8-142">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-142">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-139"><strong>McuConferenceUriType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-139"><strong>McuConferenceUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-140">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-140">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-141">Der Typ der Konferenz-Server-URIs.</span><span class="sxs-lookup"><span data-stu-id="5f87a-141">Type of conferencing server URI.</span></span> <span data-ttu-id="5f87a-142">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-142">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-143"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-143"><strong>UserUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-144">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-144">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-145">Der URI des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-145">URI of the user involved in the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-143"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-143"><strong>UserUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-144">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="5f87a-144">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-145">Der URI des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-145">URI of the user involved in the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-146"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-146"><strong>UserUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-147">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-147">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-148">Der URI-Typ des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-148">Type of URI of the user whose was part of the session.</span></span> <span data-ttu-id="cd4b8-149">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-149">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-146"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-146"><strong>UserUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-147">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-147">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-148">Der URI-Typ des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-148">Type of URI of the user whose was part of the session.</span></span> <span data-ttu-id="5f87a-149">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-149">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-150"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-150"><strong>UserTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-151">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-151">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-152">Der Mandant des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-152">Tenant of the user whose was part of the session.</span></span> <span data-ttu-id="cd4b8-153">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-153">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-150"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-150"><strong>UserTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-151">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-151">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-152">Der Mandant des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-152">Tenant of the user whose was part of the session.</span></span> <span data-ttu-id="5f87a-153">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-153">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-154"><strong>UserEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-154"><strong>UserEndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-155">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="cd4b8-155">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-156">Die eindeutige ID des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-156">Unique identifier of the user whose was part of the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-154"><strong>UserEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-154"><strong>UserEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-155">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="5f87a-155">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-156">Die eindeutige ID des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-156">Unique identifier of the user whose was part of the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-157"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-157"><strong>EndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-158">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-158">datetime</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-159">Die Endzeit der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-159">End time of the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-157"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-157"><strong>EndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-158">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5f87a-158">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-159">Die Endzeit der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-159">End time of the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-160"><strong>ConferenceClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-160"><strong>ConferenceClientVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-161">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-161">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-162">Die Version des Konferenzservers.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-162">Version of conference server.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-160"><strong>ConferenceClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-160"><strong>ConferenceClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-161">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-161">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-162">Die Version des Konferenzservers.</span><span class="sxs-lookup"><span data-stu-id="5f87a-162">Version of conference server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-163"><strong>ConferenceClientType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-163"><strong>ConferenceClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-164">int</span><span class="sxs-lookup"><span data-stu-id="cd4b8-164">int</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-165">Der Typ des Konferenzservers.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-165">Type of conference server.</span></span> <span data-ttu-id="cd4b8-166">Weitere Informationen finden Sie <a href="lync-server-2013-useragentdef-table.md">in der UserAgentDef-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-166">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-163"><strong>ConferenceClientType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-163"><strong>ConferenceClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-164">int</span><span class="sxs-lookup"><span data-stu-id="5f87a-164">int</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-165">Der Typ des Konferenzservers.</span><span class="sxs-lookup"><span data-stu-id="5f87a-165">Type of conference server.</span></span> <span data-ttu-id="5f87a-166">Weitere Informationen finden Sie <a href="lync-server-2013-useragentdef-table.md">in der UserAgentDef-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-166">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-167"><strong>ConferenceCategory</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-167"><strong>ConferenceCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-168">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-168">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-169">Die Kategorie des Konferenzservers.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-169">Conference server category.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-167"><strong>ConferenceCategory</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-167"><strong>ConferenceCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-168">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="5f87a-168">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-169">Die Kategorie des Konferenzservers.</span><span class="sxs-lookup"><span data-stu-id="5f87a-169">Conference server category.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-170"><strong>UserClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-170"><strong>UserClientVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-171">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-171">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-172">Die Version des Clients für den Benutzer aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-172">Version of client used by the user who participated in the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-170"><strong>UserClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-170"><strong>UserClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-171">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-171">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-172">Die Version des Clients für den Benutzer aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-172">Version of client used by the user who participated in the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-173"><strong>UserClientType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-173"><strong>UserClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-174">int</span><span class="sxs-lookup"><span data-stu-id="cd4b8-174">int</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-175">Der Client des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-175">Client used by the user who participated in the session.</span></span> <span data-ttu-id="cd4b8-176">Weitere Informationen finden Sie <a href="lync-server-2013-useragentdef-table.md">in der UserAgentDef-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-176">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-173"><strong>UserClientType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-173"><strong>UserClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-174">int</span><span class="sxs-lookup"><span data-stu-id="5f87a-174">int</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-175">Der Client des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-175">Client used by the user who participated in the session.</span></span> <span data-ttu-id="5f87a-176">Weitere Informationen finden Sie <a href="lync-server-2013-useragentdef-table.md">in der UserAgentDef-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-176">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-177"><strong>UserClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-177"><strong>UserClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-178">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-178">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-179">Der Name der Kategorie für den Client des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-179">Name of the category of the client used by the user who was part of the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-177"><strong>UserClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-177"><strong>UserClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-178">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="5f87a-178">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-179">Der Name der Kategorie für den Client des Benutzers aus der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-179">Name of the category of the client used by the user who was part of the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-180"><strong>OnBehalfOfUri</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-180"><strong>OnBehalfOfUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-181">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-181">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-182">Der URI des Benutzers, in dessen Namen die Sitzung gestartet wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-182">URI of the user on whose behalf the session was started.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-180"><strong>OnBehalfOfUri</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-180"><strong>OnBehalfOfUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-181">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="5f87a-181">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-182">Der URI des Benutzers, in dessen Namen die Sitzung gestartet wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-182">URI of the user on whose behalf the session was started.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-183"><strong>OnBehalfOfUriType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-183"><strong>OnBehalfOfUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-184">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-184">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-185">Typ des URI des Benutzers, in dessen Namen die Sitzung gestartet worden ist.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-185">Type of URI of the user on whose behalf the session was started.</span></span> <span data-ttu-id="cd4b8-186">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-186">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-183"><strong>OnBehalfOfUriType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-183"><strong>OnBehalfOfUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-184">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-184">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-185">Typ des URI des Benutzers, in dessen Namen die Sitzung gestartet worden ist.</span><span class="sxs-lookup"><span data-stu-id="5f87a-185">Type of URI of the user on whose behalf the session was started.</span></span> <span data-ttu-id="5f87a-186">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-186">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-187"><strong>OnBehalfOfTenant</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-187"><strong>OnBehalfOfTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-188">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-188">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-189">Mandant des Benutzers, in dessen Namen die Sitzung gestartet worden ist.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-189">Tenant of the user whose on behalf the session was started.</span></span> <span data-ttu-id="cd4b8-190">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-190">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-187"><strong>OnBehalfOfTenant</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-187"><strong>OnBehalfOfTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-188">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-188">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-189">Mandant des Benutzers, in dessen Namen die Sitzung gestartet worden ist.</span><span class="sxs-lookup"><span data-stu-id="5f87a-189">Tenant of the user whose on behalf the session was started.</span></span> <span data-ttu-id="5f87a-190">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-190">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-191"><strong>ReferredByUri</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-191"><strong>ReferredByUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-192">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-192">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-193">URI des Benutzers, der die Sitzung weitergeleitet hat.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-193">URI of the user who referred the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-191"><strong>ReferredByUri</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-191"><strong>ReferredByUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-192">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="5f87a-192">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-193">URI des Benutzers, der die Sitzung weitergeleitet hat.</span><span class="sxs-lookup"><span data-stu-id="5f87a-193">URI of the user who referred the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-194"><strong>ReferredByUriType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-194"><strong>ReferredByUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-195">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-195">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-196">Typ des URI des Benutzers, der die Sitzung weitergeleitet hat.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-196">Type of URI of the user who referred the session.</span></span> <span data-ttu-id="cd4b8-197">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-197">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-194"><strong>ReferredByUriType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-194"><strong>ReferredByUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-195">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-195">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-196">Typ des URI des Benutzers, der die Sitzung weitergeleitet hat.</span><span class="sxs-lookup"><span data-stu-id="5f87a-196">Type of URI of the user who referred the session.</span></span> <span data-ttu-id="5f87a-197">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-197">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-198"><strong>ReferredByUriTenant</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-198"><strong>ReferredByUriTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-199">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-199">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-200">Mandant des Benutzers, der die Sitzung weitergeleitet hat.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-200">Tenant of the user who referred the session.</span></span> <span data-ttu-id="cd4b8-201">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-201">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-198"><strong>ReferredByUriTenant</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-198"><strong>ReferredByUriTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-199">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-199">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-200">Mandant des Benutzers, der die Sitzung weitergeleitet hat.</span><span class="sxs-lookup"><span data-stu-id="5f87a-200">Tenant of the user who referred the session.</span></span> <span data-ttu-id="5f87a-201">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-201">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-202"><strong>ID</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-202"><strong>DialogId</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-203">varstring (775)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-203">varstring(775)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p116">Die ID des SIP-Dialogs im Format</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p116">SIP dialog ID. The format is</span></span></p>
-<p><span data-ttu-id="cd4b8-206">:d ialog; from-Tag; to-Tag</span><span class="sxs-lookup"><span data-stu-id="cd4b8-206">:dialog;from-tag;to-tag</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-202"><strong>ID</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-202"><strong>DialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-203">varstring (775)</span><span class="sxs-lookup"><span data-stu-id="5f87a-203">varstring(775)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p116">Die ID des SIP-Dialogs im Format</span><span class="sxs-lookup"><span data-stu-id="5f87a-p116">SIP dialog ID. The format is</span></span></p>
+<p><span data-ttu-id="5f87a-206">:d ialog; from-Tag; to-Tag</span><span class="sxs-lookup"><span data-stu-id="5f87a-206">:dialog;from-tag;to-tag</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-207"><strong>ReplaceDialogIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-207"><strong>ReplaceDialogIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-208">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-208">datetime</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-209">Die ID-Nummer zum Identifizieren des Dialogs, der durch die aktuelle Sitzung ersetzt wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-209">ID number to identify the dialog which was replaced by current session.</span></span> <span data-ttu-id="cd4b8-210">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-210">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-207"><strong>ReplaceDialogIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-207"><strong>ReplaceDialogIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-208">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5f87a-208">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-209">Die ID-Nummer zum Identifizieren des Dialogs, der durch die aktuelle Sitzung ersetzt wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-209">ID number to identify the dialog which was replaced by current session.</span></span> <span data-ttu-id="5f87a-210">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-210">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-211"><strong>ReplaceDialogIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-211"><strong>ReplaceDialogIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-212">int</span><span class="sxs-lookup"><span data-stu-id="cd4b8-212">int</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-213">Die ID zur Identifizierung der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-213">ID number to identify the session.</span></span> <span data-ttu-id="cd4b8-214">Wird zusammen mit ReplaceDialogIdTime verwendet, um eine Sitzung eindeutig zu identifizieren, die durch diese Sitzung ersetzt wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-214">Used in conjunction with ReplaceDialogIdTime to uniquely identify a session that is replaced by this session.</span></span> <span data-ttu-id="cd4b8-215">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cd4b8-215">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-211"><strong>ReplaceDialogIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-211"><strong>ReplaceDialogIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-212">int</span><span class="sxs-lookup"><span data-stu-id="5f87a-212">int</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-213">Die ID zur Identifizierung der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-213">ID number to identify the session.</span></span> <span data-ttu-id="5f87a-214">Wird zusammen mit ReplaceDialogIdTime verwendet, um eine Sitzung eindeutig zu identifizieren, die durch diese Sitzung ersetzt wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-214">Used in conjunction with ReplaceDialogIdTime to uniquely identify a session that is replaced by this session.</span></span> <span data-ttu-id="5f87a-215">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5f87a-215">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-216"><strong>ReplacesDialogId</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-216"><strong>ReplacesDialogId</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-217">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-217">varchar(775)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p119">Die ID des SIP-Dialogs, der durch die Sitzung ersetzt wird im Format:</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p119">SIP dialog ID the session replaces. The format of the is:</span></span></p>
-<p><span data-ttu-id="cd4b8-220">Dialogfeld; from-Tag; to-Tag</span><span class="sxs-lookup"><span data-stu-id="cd4b8-220">dialog;from-tag;to-tag</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-216"><strong>ReplacesDialogId</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-216"><strong>ReplacesDialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-217">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="5f87a-217">varchar(775)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p119">Die ID des SIP-Dialogs, der durch die Sitzung ersetzt wird im Format:</span><span class="sxs-lookup"><span data-stu-id="5f87a-p119">SIP dialog ID the session replaces. The format of the is:</span></span></p>
+<p><span data-ttu-id="5f87a-220">Dialogfeld; from-Tag; to-Tag</span><span class="sxs-lookup"><span data-stu-id="5f87a-220">dialog;from-tag;to-tag</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-221"><strong>IsStartedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-221"><strong>IsStartedByConfServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-222">Bit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-222">bit</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-223">Gibt an, ob die Sitzung vom Konferenzserver gestartet wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-223">Indicates whether the session was started by the conferencing server.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-221"><strong>IsStartedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-221"><strong>IsStartedByConfServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-222">Bit</span><span class="sxs-lookup"><span data-stu-id="5f87a-222">bit</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-223">Gibt an, ob die Sitzung vom Konferenzserver gestartet wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-223">Indicates whether the session was started by the conferencing server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-224"><strong>IsEndedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-224"><strong>IsEndedByConfServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-225">Bit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-225">bit</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-226">Gibt an, ob die Sitzung vom Konferenzserver beendet wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-226">Indicates whether the session was ended by the conferencing server.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-224"><strong>IsEndedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-224"><strong>IsEndedByConfServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-225">Bit</span><span class="sxs-lookup"><span data-stu-id="5f87a-225">bit</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-226">Gibt an, ob die Sitzung vom Konferenzserver beendet wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-226">Indicates whether the session was ended by the conferencing server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-227"><strong>IsUserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-227"><strong>IsUserInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-228">Bit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-228">bit</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-229">Gibt an, ob sich der Benutzer aus dem internen Netzwerk angemeldet hat.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-229">Indicates whether the user logged on from the internal network.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-227"><strong>IsUserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-227"><strong>IsUserInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-228">Bit</span><span class="sxs-lookup"><span data-stu-id="5f87a-228">bit</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-229">Gibt an, ob sich der Benutzer aus dem internen Netzwerk angemeldet hat.</span><span class="sxs-lookup"><span data-stu-id="5f87a-229">Indicates whether the user logged on from the internal network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-230"><strong>Webantworten</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-230"><strong>ResponseTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-231">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="cd4b8-231">datetime</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p120">Zeitpunkt der Antwort auf die erste INVITE-Nachricht. Dieses Feld wird typischerweise mit Daten aufgefüllt, die von der ersten INVITE-Nachricht in der Sitzung generiert werden. Ist keine INVITE-Nachricht vorhanden, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) aufgefüllt.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p120">Time of the response to the first INVITE message. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-230"><strong>Webantworten</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-230"><strong>ResponseTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-231">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5f87a-231">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p120">Zeitpunkt der Antwort auf die erste INVITE-Nachricht. Dieses Feld wird typischerweise mit Daten aufgefüllt, die von der ersten INVITE-Nachricht in der Sitzung generiert werden. Ist keine INVITE-Nachricht vorhanden, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) aufgefüllt.</span><span class="sxs-lookup"><span data-stu-id="5f87a-p120">Time of the response to the first INVITE message. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-235"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-235"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-236">int</span><span class="sxs-lookup"><span data-stu-id="cd4b8-236">int</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p121">SIP-Antwortcode auf die Sitzungseinladung. Dieses Feld wird typischerweise mit Daten aufgefüllt, die von der ersten INVITE-Nachricht in der Sitzung generiert werden. Ist keine INVITE-Nachricht vorhanden, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) aufgefüllt.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p121">SIP response code to the session invitation. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-235"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-235"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-236">int</span><span class="sxs-lookup"><span data-stu-id="5f87a-236">int</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p121">SIP-Antwortcode auf die Sitzungseinladung. Dieses Feld wird typischerweise mit Daten aufgefüllt, die von der ersten INVITE-Nachricht in der Sitzung generiert werden. Ist keine INVITE-Nachricht vorhanden, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) aufgefüllt.</span><span class="sxs-lookup"><span data-stu-id="5f87a-p121">SIP response code to the session invitation. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-240"><strong>Diagnose-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-240"><strong>DiagnosticId</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-241">int</span><span class="sxs-lookup"><span data-stu-id="cd4b8-241">int</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-242">Die Diagnose-ID aus den SIP-Sitzungsheadern.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-242">Diagnostic ID captured from session SIP headers.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-240"><strong>Diagnose-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-240"><strong>DiagnosticId</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-241">int</span><span class="sxs-lookup"><span data-stu-id="5f87a-241">int</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-242">Die Diagnose-ID aus den SIP-Sitzungsheadern.</span><span class="sxs-lookup"><span data-stu-id="5f87a-242">Diagnostic ID captured from session SIP headers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-243"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-243"><strong>ContentType</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-244">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-244">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-245">Der Inhaltstyp der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-245">Content type for the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-243"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-243"><strong>ContentType</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-244">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-244">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-245">Der Inhaltstyp der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="5f87a-245">Content type for the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-246"><strong>Frontend</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-246"><strong>FrontEnd</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-247">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-247">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-248">Vollqualifizierter Domänenname des Front-End-Servers, der die Daten für die Sitzung erfasst hat.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-248">FQDN of the Front End server that captured the data for the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-246"><strong>FrontEnd</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-246"><strong>FrontEnd</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-247">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-247">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-248">Vollqualifizierter Domänenname des Front-End-Servers, der die Daten für die Sitzung erfasst hat.</span><span class="sxs-lookup"><span data-stu-id="5f87a-248">FQDN of the Front End server that captured the data for the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-249"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-249"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-250">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-250">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-251">Der FQDN des Pools, der die Daten für die Sitzung erfasst hat.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-251">FQDN of the pool that captured the data for the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-249"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-249"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-250">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-250">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-251">Der FQDN des Pools, der die Daten für die Sitzung erfasst hat.</span><span class="sxs-lookup"><span data-stu-id="5f87a-251">FQDN of the pool that captured the data for the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-252"><strong>MediationServer</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-252"><strong>MediationServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-253">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-253">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-254">Der Vermittlungsserver, der vom Benutzer aus der Sitzung verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-254">Mediation Server used by the user who participated in the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-252"><strong>MediationServer</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-252"><strong>MediationServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-253">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-253">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-254">Der Vermittlungsserver, der vom Benutzer aus der Sitzung verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-254">Mediation Server used by the user who participated in the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-255"><strong>Gateway</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-255"><strong>Gateway</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-256">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-256">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-257">Das Gateway, das vom Benutzer aus der Sitzung verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-257">Gateway used by the user who participated the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-255"><strong>Gateway</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-255"><strong>Gateway</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-256">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-256">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-257">Das Gateway, das vom Benutzer aus der Sitzung verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-257">Gateway used by the user who participated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-258"><strong>EdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-258"><strong>EdgeServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-259">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd4b8-259">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-260">Der FQDN des Edge-Servers, der vom Benutzer aus der Sitzung verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="cd4b8-260">FQDN of the Edge server used by the user who participated in the session.</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-258"><strong>EdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-258"><strong>EdgeServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-259">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5f87a-259">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-260">Der FQDN des Edge-Servers, der vom Benutzer aus der Sitzung verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="5f87a-260">FQDN of the Edge server used by the user who participated in the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4b8-261"><strong>UserFlag</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-261"><strong>UserFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-262">smallint</span><span class="sxs-lookup"><span data-stu-id="cd4b8-262">smallint</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p122">Gibt die Attribute des Benutzers aus der Sitzung an. Folgende Attributdefinitionen sind zulässig:</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p122">Indicates the attributes of the user who participated in the session. The following attribute definitions allowed:</span></span></p>
-<p><span data-ttu-id="cd4b8-265">0x01 - Integriert in Standardtelefon</span><span class="sxs-lookup"><span data-stu-id="cd4b8-265">0x01 - Integrated with desktop phone</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-261"><strong>UserFlag</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-261"><strong>UserFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-262">smallint</span><span class="sxs-lookup"><span data-stu-id="5f87a-262">smallint</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p122">Gibt die Attribute des Benutzers aus der Sitzung an. Folgende Attributdefinitionen sind zulässig:</span><span class="sxs-lookup"><span data-stu-id="5f87a-p122">Indicates the attributes of the user who participated in the session. The following attribute definitions allowed:</span></span></p>
+<p><span data-ttu-id="5f87a-265">0x01 - Integriert in Standardtelefon</span><span class="sxs-lookup"><span data-stu-id="5f87a-265">0x01 - Integrated with desktop phone</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4b8-266"><strong>CallFlag</strong></span><span class="sxs-lookup"><span data-stu-id="cd4b8-266"><strong>CallFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-267">smallint</span><span class="sxs-lookup"><span data-stu-id="cd4b8-267">smallint</span></span></p></td>
-<td><p><span data-ttu-id="cd4b8-p123">Gibt die Anrufattribute an. Folgende Attributdefinitionen sind zulässig:</span><span class="sxs-lookup"><span data-stu-id="cd4b8-p123">Indicates the call attributes. The following attribute definitions are allowed:</span></span></p>
-<p><span data-ttu-id="cd4b8-270">0x01 - Retried Session0</span><span class="sxs-lookup"><span data-stu-id="cd4b8-270">0x01 - Retried Session0</span></span></p>
-<p><span data-ttu-id="cd4b8-271">x02 - Von Agent getätigter Anruf im Namen einer Reaktionsgruppe</span><span class="sxs-lookup"><span data-stu-id="cd4b8-271">x02 - A call made by agent on behalf of a Response Group</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-266"><strong>CallFlag</strong></span><span class="sxs-lookup"><span data-stu-id="5f87a-266"><strong>CallFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f87a-267">smallint</span><span class="sxs-lookup"><span data-stu-id="5f87a-267">smallint</span></span></p></td>
+<td><p><span data-ttu-id="5f87a-p123">Gibt die Anrufattribute an. Folgende Attributdefinitionen sind zulässig:</span><span class="sxs-lookup"><span data-stu-id="5f87a-p123">Indicates the call attributes. The following attribute definitions are allowed:</span></span></p>
+<p><span data-ttu-id="5f87a-270">0x01 - Retried Session0</span><span class="sxs-lookup"><span data-stu-id="5f87a-270">0x01 - Retried Session0</span></span></p>
+<p><span data-ttu-id="5f87a-271">x02 - Von Agent getätigter Anruf im Namen einer Reaktionsgruppe</span><span class="sxs-lookup"><span data-stu-id="5f87a-271">x02 - A call made by agent on behalf of a Response Group</span></span></p></td>
 </tr>
 </tbody>
 </table>
