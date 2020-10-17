@@ -12,20 +12,22 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f345b97851aac264bb3b7ef05978d80d851099ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e13e491037346d9c3186a8f15aada949c46ac8df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191478"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502092"
 ---
+# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a><span data-ttu-id="45157-102">Konfigurieren von Einstellungen für den Medienportbereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45157-102">Configuring media port range settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a><span data-ttu-id="dce03-102">Konfigurieren von Einstellungen für den Medienportbereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dce03-102">Configuring media port range settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42191478"
 
 <span> </span>
 
-<span data-ttu-id="dce03-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="dce03-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="45157-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="45157-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="dce03-104">Die Einstellungen für Medienportbereiche können sich erheblich auf die Clientleistung auswirken und sollten konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="dce03-104">Media port range settings can significantly impact client performance and should be configured.</span></span> <span data-ttu-id="dce03-105">Sie können diese Einstellungen mit lync Server-Verwaltungsshell konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="dce03-105">You can configure these settings by using Lync Server Management Shell.</span></span>
+<span data-ttu-id="45157-104">Die Einstellungen für Medienportbereiche können sich erheblich auf die Clientleistung auswirken und sollten konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="45157-104">Media port range settings can significantly impact client performance and should be configured.</span></span> <span data-ttu-id="45157-105">Sie können diese Einstellungen mit lync Server-Verwaltungsshell konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="45157-105">You can configure these settings by using Lync Server Management Shell.</span></span>
 
-### <a name="media-port-range-settings"></a><span data-ttu-id="dce03-106">Einstellungen für den Medienportbereich</span><span class="sxs-lookup"><span data-stu-id="dce03-106">Media Port Range Settings</span></span>
+### <a name="media-port-range-settings"></a><span data-ttu-id="45157-106">Einstellungen für den Medienportbereich</span><span class="sxs-lookup"><span data-stu-id="45157-106">Media Port Range Settings</span></span>
 
 <table>
 <colgroup>
@@ -50,30 +52,30 @@ ms.locfileid: "42191478"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dce03-107">Einstellung</span><span class="sxs-lookup"><span data-stu-id="dce03-107">Setting</span></span></th>
-<th><span data-ttu-id="dce03-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="dce03-108">Description</span></span></th>
-<th><span data-ttu-id="dce03-109">Lync Server-Verwaltungsshell-Cmdlet</span><span class="sxs-lookup"><span data-stu-id="dce03-109">Lync Server Management Shell cmdlet</span></span></th>
-<th><span data-ttu-id="dce03-110">Cmdlet-Parameter</span><span class="sxs-lookup"><span data-stu-id="dce03-110">Cmdlet parameters</span></span></th>
+<th><span data-ttu-id="45157-107">Einstellung</span><span class="sxs-lookup"><span data-stu-id="45157-107">Setting</span></span></th>
+<th><span data-ttu-id="45157-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="45157-108">Description</span></span></th>
+<th><span data-ttu-id="45157-109">Lync Server-Verwaltungsshell-Cmdlet</span><span class="sxs-lookup"><span data-stu-id="45157-109">Lync Server Management Shell cmdlet</span></span></th>
+<th><span data-ttu-id="45157-110">Cmdlet-Parameter</span><span class="sxs-lookup"><span data-stu-id="45157-110">Cmdlet parameters</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dce03-111">Portrange\Enabled</span><span class="sxs-lookup"><span data-stu-id="dce03-111">Portrange\Enabled</span></span></p></td>
-<td><p><span data-ttu-id="dce03-p102">Gibt an, ob die vom Server gesendeten Portbereiche vom Client für Medien- und Signaldatenverkehr verwendet werden sollen. Wird gemeinsam mit den Unterwerten "MinMediaPort" und "MaxMediaPort" verwendet.</span><span class="sxs-lookup"><span data-stu-id="dce03-p102">Specifies whether the port ranges sent by the server should be used by the client for media and signaling. Used in conjunction with the subvalues MinMediaPort and MaxMediaPort.</span></span></p></td>
-<td><p><span data-ttu-id="dce03-114"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="dce03-114"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="dce03-115">Parameter clientmediaportrangeenabled</span><span class="sxs-lookup"><span data-stu-id="dce03-115">ClientMediaPortRangeEnabled</span></span></p></td>
+<td><p><span data-ttu-id="45157-111">Portrange\Enabled</span><span class="sxs-lookup"><span data-stu-id="45157-111">Portrange\Enabled</span></span></p></td>
+<td><p><span data-ttu-id="45157-p102">Gibt an, ob die vom Server gesendeten Portbereiche vom Client für Medien- und Signaldatenverkehr verwendet werden sollen. Wird gemeinsam mit den Unterwerten "MinMediaPort" und "MaxMediaPort" verwendet.</span><span class="sxs-lookup"><span data-stu-id="45157-p102">Specifies whether the port ranges sent by the server should be used by the client for media and signaling. Used in conjunction with the subvalues MinMediaPort and MaxMediaPort.</span></span></p></td>
+<td><p><span data-ttu-id="45157-114"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="45157-114"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="45157-115">Parameter clientmediaportrangeenabled</span><span class="sxs-lookup"><span data-stu-id="45157-115">ClientMediaPortRangeEnabled</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dce03-116">Portrange\MinMediaPort</span><span class="sxs-lookup"><span data-stu-id="dce03-116">Portrange\MinMediaPort</span></span></p></td>
-<td><p><span data-ttu-id="dce03-p103">Gibt die erste Portnummer an, die für Mediendaten verwendet wird. Gibt in Kombination mit "MaxMediaPort" den Portbereich an. Der empfohlene Mindestbereich umfasst 40 Ports.</span><span class="sxs-lookup"><span data-stu-id="dce03-p103">Specifies the starting port number to use for media. Combines with MaxMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
-<td><p><span data-ttu-id="dce03-120"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="dce03-120"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="dce03-121">ClientMediaPort (repräsentiert die erste Portnummer, die für Clientmediendaten verwendet wird)</span><span class="sxs-lookup"><span data-stu-id="dce03-121">ClientMediaPort (represents the starting port number to use for client media)</span></span></p></td>
+<td><p><span data-ttu-id="45157-116">Portrange\MinMediaPort</span><span class="sxs-lookup"><span data-stu-id="45157-116">Portrange\MinMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="45157-p103">Gibt die erste Portnummer an, die für Mediendaten verwendet wird. Gibt in Kombination mit "MaxMediaPort" den Portbereich an. Der empfohlene Mindestbereich umfasst 40 Ports.</span><span class="sxs-lookup"><span data-stu-id="45157-p103">Specifies the starting port number to use for media. Combines with MaxMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="45157-120"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="45157-120"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="45157-121">ClientMediaPort (repräsentiert die erste Portnummer, die für Clientmediendaten verwendet wird)</span><span class="sxs-lookup"><span data-stu-id="45157-121">ClientMediaPort (represents the starting port number to use for client media)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dce03-122">Portrange\MaxMediaPort</span><span class="sxs-lookup"><span data-stu-id="dce03-122">Portrange\MaxMediaPort</span></span></p></td>
-<td><p><span data-ttu-id="dce03-p104">Gibt die höchste Portnummer an, die für Mediendaten verwendet wird. Gibt in Kombination mit "MinMediaPort" den Portbereich an. Der empfohlene Mindestbereich umfasst 40 Ports.</span><span class="sxs-lookup"><span data-stu-id="dce03-p104">Specifies the highest port number to use for media. Combines with MinMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
-<td><p><span data-ttu-id="dce03-126"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="dce03-126"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="dce03-127">ClientMediaPortRange (gibt die Gesamtanzahl von Ports an, die für Clientmediendaten verfügbar sind; der Standardwert lautet 40)</span><span class="sxs-lookup"><span data-stu-id="dce03-127">ClientMediaPortRange (indicates the total number of ports available for client media; default is 40)</span></span></p></td>
+<td><p><span data-ttu-id="45157-122">Portrange\MaxMediaPort</span><span class="sxs-lookup"><span data-stu-id="45157-122">Portrange\MaxMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="45157-p104">Gibt die höchste Portnummer an, die für Mediendaten verwendet wird. Gibt in Kombination mit "MinMediaPort" den Portbereich an. Der empfohlene Mindestbereich umfasst 40 Ports.</span><span class="sxs-lookup"><span data-stu-id="45157-p104">Specifies the highest port number to use for media. Combines with MinMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="45157-126"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="45157-126"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="45157-127">ClientMediaPortRange (gibt die Gesamtanzahl von Ports an, die für Clientmediendaten verfügbar sind; der Standardwert lautet 40)</span><span class="sxs-lookup"><span data-stu-id="45157-127">ClientMediaPortRange (indicates the total number of ports available for client media; default is 40)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -81,17 +83,17 @@ ms.locfileid: "42191478"
 
 <div>
 
-## <a name="to-configure-media-port-range-settings"></a><span data-ttu-id="dce03-128">So konfigurieren Sie die Einstellungen für den Medienportbereich</span><span class="sxs-lookup"><span data-stu-id="dce03-128">To Configure Media Port Range Settings</span></span>
+## <a name="to-configure-media-port-range-settings"></a><span data-ttu-id="45157-128">So konfigurieren Sie die Einstellungen für den Medienportbereich</span><span class="sxs-lookup"><span data-stu-id="45157-128">To Configure Media Port Range Settings</span></span>
 
-1.  <span data-ttu-id="dce03-129">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="dce03-129">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="45157-129">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="45157-129">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="dce03-130">Führen Sie das folgende Cmdlet aus:</span><span class="sxs-lookup"><span data-stu-id="dce03-130">Run the following cmdlet:</span></span>
+2.  <span data-ttu-id="45157-130">Führen Sie das folgende Cmdlet aus:</span><span class="sxs-lookup"><span data-stu-id="45157-130">Run the following cmdlet:</span></span>
     
         Get-CsConferencingConfiguration
     
-    <span data-ttu-id="dce03-131">Dieses Cmdlet gibt die Konfigurationseinstellungen für Konferenzen zurück.</span><span class="sxs-lookup"><span data-stu-id="dce03-131">This cmdlet returns the conferencing configuration settings.</span></span>
+    <span data-ttu-id="45157-131">Dieses Cmdlet gibt die Konfigurationseinstellungen für Konferenzen zurück.</span><span class="sxs-lookup"><span data-stu-id="45157-131">This cmdlet returns the conferencing configuration settings.</span></span>
 
-3.  <span data-ttu-id="dce03-132">Führen Sie das folgende Cmdlet mit den Parametern und Werten aus, die Sie ändern möchten (Ausführliche Informationen zu den Parametern für dieses Cmdlet finden Sie in der lync Server-Verwaltungsshell Dokumentation):</span><span class="sxs-lookup"><span data-stu-id="dce03-132">Run the following cmdlet with the parameters and values you want to change (for details about the parameters for this cmdlet, see the Lync Server Management Shell documentation):</span></span>
+3.  <span data-ttu-id="45157-132">Führen Sie das folgende Cmdlet mit den Parametern und Werten aus, die Sie ändern möchten (Ausführliche Informationen zu den Parametern für dieses Cmdlet finden Sie in der lync Server-Verwaltungsshell Dokumentation):</span><span class="sxs-lookup"><span data-stu-id="45157-132">Run the following cmdlet with the parameters and values you want to change (for details about the parameters for this cmdlet, see the Lync Server Management Shell documentation):</span></span>
     
         Set-CsConferencingConfiguration
     
@@ -99,7 +101,7 @@ ms.locfileid: "42191478"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="dce03-133">Sie können zusätzliche Sätze mit Konfigurationseinstellungen für Konferenzen für bestimmte Standorte erstellen.</span><span class="sxs-lookup"><span data-stu-id="dce03-133">You can create additional sets of conferencing configuration settings for specific sites.</span></span> <span data-ttu-id="dce03-134">Verwenden Sie das Cmdlet <STRONG>New-CsConferencingConfiguration</STRONG> mit einer Standortidentität.</span><span class="sxs-lookup"><span data-stu-id="dce03-134">Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity.</span></span> <span data-ttu-id="dce03-135">Beim Erstellen neuer Konfigurationseinstellungen für Konferenzen für einen Standort haben die Standorteinstellungen Vorrang vor den globalen Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="dce03-135">When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="dce03-136">Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="dce03-136">For details, see the Lync Server Management Shell documentation.</span></span>
+    > <span data-ttu-id="45157-133">Sie können zusätzliche Sätze mit Konfigurationseinstellungen für Konferenzen für bestimmte Standorte erstellen.</span><span class="sxs-lookup"><span data-stu-id="45157-133">You can create additional sets of conferencing configuration settings for specific sites.</span></span> <span data-ttu-id="45157-134">Verwenden Sie das Cmdlet <STRONG>New-CsConferencingConfiguration</STRONG> mit einer Standortidentität.</span><span class="sxs-lookup"><span data-stu-id="45157-134">Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity.</span></span> <span data-ttu-id="45157-135">Beim Erstellen neuer Konfigurationseinstellungen für Konferenzen für einen Standort haben die Standorteinstellungen Vorrang vor den globalen Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="45157-135">When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="45157-136">Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="45157-136">For details, see the Lync Server Management Shell documentation.</span></span>
 
     
     </div>
