@@ -12,20 +12,22 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89e1ea12a35b7cf9fd440396369e5217162127b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541beafe32dcfbe830573ae5954f81ee7febe8de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184587"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505492"
 ---
+# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="7c6a3-102">Netzwerkregionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7c6a3-102">Network regions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="59ab8-102">Netzwerkregionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59ab8-102">Network regions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42184587"
 
 <span> </span>
 
-<span data-ttu-id="59ab8-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="59ab8-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="7c6a3-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="7c6a3-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="59ab8-104">Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackbone, der in der Konfiguration von Anrufsteuerung, E9-1-1 und Medienumgehung verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="59ab8-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="59ab8-105">Verwenden Sie die folgenden Verfahren, um Netzwerkregionen anzuzeigen, zu erstellen oder zu ändern.</span><span class="sxs-lookup"><span data-stu-id="59ab8-105">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="59ab8-106">Wenn Sie beispielsweise bereits Netzwerkregionen für eine VoIP-Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen erstellen, da dieselben Netzwerkregionen für weitere Enterprise VoIP-Funktionen verwendet werden können.</span><span class="sxs-lookup"><span data-stu-id="59ab8-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="59ab8-107">Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="59ab8-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="59ab8-108">Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben.</span><span class="sxs-lookup"><span data-stu-id="59ab8-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="59ab8-109">Ausführliche Informationen finden Sie unter [configure Network Regions for CAC in lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span><span class="sxs-lookup"><span data-stu-id="59ab8-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
+<span data-ttu-id="7c6a3-104">Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackbone, der in der Konfiguration von Anrufsteuerung, E9-1-1 und Medienumgehung verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="7c6a3-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="7c6a3-105">Verwenden Sie die folgenden Verfahren, um Netzwerkregionen anzuzeigen, zu erstellen oder zu ändern.</span><span class="sxs-lookup"><span data-stu-id="7c6a3-105">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="7c6a3-106">Wenn Sie beispielsweise bereits Netzwerkregionen für eine VoIP-Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen erstellen, da dieselben Netzwerkregionen für weitere Enterprise VoIP-Funktionen verwendet werden können.</span><span class="sxs-lookup"><span data-stu-id="7c6a3-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="7c6a3-107">Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="7c6a3-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="7c6a3-108">Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben.</span><span class="sxs-lookup"><span data-stu-id="7c6a3-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="7c6a3-109">Ausführliche Informationen finden Sie unter [configure Network Regions for CAC in lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span><span class="sxs-lookup"><span data-stu-id="7c6a3-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="59ab8-110">Funktionsspezifische Anforderungen für die Netzwerkregionendefinitionen sind in den Bereitstellungsthemen der jeweiligen Funktion dokumentiert.</span><span class="sxs-lookup"><span data-stu-id="59ab8-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
+> <span data-ttu-id="7c6a3-110">Funktionsspezifische Anforderungen für die Netzwerkregionendefinitionen sind in den Bereitstellungsthemen der jeweiligen Funktion dokumentiert.</span><span class="sxs-lookup"><span data-stu-id="7c6a3-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
 
 
 
@@ -51,21 +53,21 @@ ms.locfileid: "42184587"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="59ab8-111">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="59ab8-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7c6a3-111">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="7c6a3-111">In This Section</span></span>
 
-  - [<span data-ttu-id="59ab8-112">Anzeigen von Informationen zur netzwerkregion in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59ab8-112">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
+  - [<span data-ttu-id="7c6a3-112">Anzeigen von Informationen zur netzwerkregion in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7c6a3-112">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
 
-  - [<span data-ttu-id="59ab8-113">Erstellen oder Ändern von netzwerkregionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59ab8-113">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [<span data-ttu-id="7c6a3-113">Erstellen oder Ändern von netzwerkregionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7c6a3-113">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [<span data-ttu-id="59ab8-114">Löschen vorhandener netzwerkregionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59ab8-114">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
+  - [<span data-ttu-id="7c6a3-114">Löschen vorhandener netzwerkregionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7c6a3-114">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="59ab8-115">Referenz</span><span class="sxs-lookup"><span data-stu-id="59ab8-115">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="7c6a3-115">Referenz</span><span class="sxs-lookup"><span data-stu-id="7c6a3-115">Reference</span></span>
 
-[<span data-ttu-id="59ab8-116">Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59ab8-116">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[<span data-ttu-id="7c6a3-116">Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7c6a3-116">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
