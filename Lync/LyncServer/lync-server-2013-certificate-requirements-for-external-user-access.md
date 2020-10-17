@@ -12,20 +12,22 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dda45706b8c55bf99120ec3776702060998a6921
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37494b3f8389709681ffc92a17d388b71baddd70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517952"
 ---
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Zertifikatanforderungen für den Zugriff durch externe Benutzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Zertifikatanforderungen für den Zugriff durch externe Benutzer in lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Microsoft lync Server 2013 Kommunikationssoftware unterstützt die Verwendung ei
 
 Im Folgenden finden Sie die Anforderungen für das öffentliche Zertifikat, das für die externen Edgeschnittstellen für Zugriff und Webkonferenzen sowie für den Audio-Video-Authentifizierungsdienst verwendet wird:
 
-  - Das Zertifikat muss von einer vertrauenswürdigen öffentlichen Zertifizierungsstelle ausgestellt werden, die alternative Antragstellernamen unterstützt. Ausführliche Informationen finden Sie im [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)Microsoft Knowledge Base-Artikel 929395, "Unified Communications Zertifikat Partner für Exchange Server und für Communications Server" unter.
+  - Das Zertifikat muss von einer vertrauenswürdigen öffentlichen Zertifizierungsstelle ausgestellt werden, die alternative Antragstellernamen unterstützt. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 929395, "Unified Communications Zertifikat Partner für Exchange Server und für Communications Server" unter [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
   - Wenn das Zertifikat in einem Edgepool verwendet werden soll, muss es als exportierbares Zertifikat erstellt werden, und es muss auf jedem Edgeserver im Edgepool das gleiche Zertifikat verwendet werden. Der private Schlüssel als exportierbarer Schlüssel ist für die Verwendung mit dem Audio-Video-Authentifizierungsdienst notwendig, der für alle Edgeserver des Pools den gleichen privaten Schlüssel verwenden muss.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cad247f2643261e02e475c459e703db843f18fbe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3faf28bdd85f32de1560d35aaf35392fef9746
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516952"
 ---
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Konfigurieren von Voicemail-Escapes in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Konfigurieren von Voicemail-Escapes in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195568"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-22_
 
-Wenn ein Benutzer das gleichzeitige Klingeln für ein Mobiltelefon konfiguriert, werden Anrufer normalerweise an den persönlichen Voicemail-Dienst des Benutzers weitergeleitet, wenn das Mobiltelefon ausgeschaltet wird, wenn der Akku leer ist oder wenn sich das Mobiltelefon außerhalb des Empfangsbereichs befindet. Mit lync Server 2013 können sich Benutzer für geschäftsbezogene Anrufe entscheiden, die an das Voicemailsystem des Unternehmens weitergeleitet werden. Insbesondere kann ein Zeitgeber konfiguriert werden, und wenn der Anruf von der Voicemail des Carriers innerhalb des definierten Zeitbereichs beantwortet wird, trennt sich lync Server vom Voicemailsystem des Carriers (und der persönlichen Voicemail des Benutzers), während der verbleibende Benutzer Endpunkte im Unternehmenssystem Ringen weiter. Somit wird der Anrufer automatisch an das Voicemail-System des Unternehmens des Benutzers weitergeleitet.
+Wenn ein Benutzer das gleichzeitige Klingeln für ein Mobiltelefon konfiguriert, werden Anrufer normalerweise an den persönlichen Voicemail-Dienst des Benutzers weitergeleitet, wenn das Mobiltelefon ausgeschaltet wird, wenn der Akku leer ist oder wenn sich das Mobiltelefon außerhalb des Empfangsbereichs befindet. Mit lync Server 2013 können sich Benutzer für geschäftsbezogene Anrufe entscheiden, die an das Voicemailsystem des Unternehmens weitergeleitet werden. Insbesondere kann ein Zeitgeber konfiguriert werden, und wenn der Anruf von der Voicemail des Carriers innerhalb des definierten Zeitbereichs beantwortet wird, werden lync Server die Verbindung mit dem Voicemailsystem des Carriers (und der persönlichen Voicemail des Benutzers) trennen, während die verbleibenden Endpunkte des Benutzers im Unternehmenssystem weiter Klingeln. Somit wird der Anrufer automatisch an das Voicemail-System des Unternehmens des Benutzers weitergeleitet.
 
 Diese Konfiguration wird mithilfe des lync Server-Verwaltungsshell-Cmdlets, **festlegen-CsVoicePolicy**, auf VoIP-Richtlinienebene mit den folgenden Parametern ausgeführt.
 

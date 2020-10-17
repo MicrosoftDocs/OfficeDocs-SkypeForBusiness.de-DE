@@ -12,20 +12,22 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f99aeda6136c79b7ffda9b5cd3d5dced3b1f6ee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516112"
 ---
+# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Übersicht über die lync Server 2013 Hybridumgebung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Übersicht über die lync Server 2013 Hybridumgebung
+
 
 </div>
 
@@ -59,7 +61,7 @@ Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um 
 
   - [Installieren von Windows PowerShell für einmaliges Anmelden mit AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist in der Desktop Einrichtung für Microsoft 365 enthalten, die auf der Seite mit den Downloads aus dem Microsoft 365 Admin Center abgerufen werden kann.
+  - Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0.msi) ist in der Desktop Einrichtung für Microsoft 365 enthalten, die auf der Seite mit den Downloads aus dem Microsoft 365 Admin Center abgerufen werden kann.
 
 </div>
 

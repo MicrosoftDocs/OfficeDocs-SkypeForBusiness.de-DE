@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516632"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Anpassen der XSLT-Definitionsdatei in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Anpassen der XSLT-Definitionsdatei in lync Server 2013
+
 
 </div>
 
@@ -152,7 +154,7 @@ Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "i
 <td><p>Erforderlich</p></td>
 </tr>
 <tr class="odd">
-<td><p>E-Mail</p></td>
+<td><p>E-Mails</p></td>
 <td><p>Die E-Mail-Adresse des Absenders</p></td>
 <td><p>Optional</p></td>
 </tr>
@@ -197,7 +199,7 @@ In der folgenden Tabelle sind die Nachrichtentypen beschrieben, die das Nachrich
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Teil</p></td>
+<td><p>Bestandteil</p></td>
 <td><p>Ein Benutzer verlässt einen Chatroom.</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 

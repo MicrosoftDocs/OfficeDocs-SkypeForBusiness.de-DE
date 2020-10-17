@@ -12,20 +12,22 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82520ea030dcfacdea1a5eb13608df8b827fe27a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb7f5df9a734fc248afbe0bf21739b95ecfba285
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190452"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516902"
 ---
+# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013
+
 
 </div>
 
@@ -114,7 +116,7 @@ Sie können die Einstellungen auf der Seite besprechungskonfiguration verwenden,
 
 ## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Erstellen neuer Besprechungs Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
 
-Besprechungs Konfigurationseinstellungen können (nur auf Standortebene) mithilfe Windows PowerShell und des Cmdlets New-CsMeetingConfiguration erstellt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Besprechungs Konfigurationseinstellungen können (nur auf Standortebene) mithilfe von Windows PowerShell und dem New-CsMeetingConfiguration-Cmdlet erstellt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72b04170df1a616aec595f72dce74cd15e8059b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a98bdaa5b97193ad20a78939560190a413a87161
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515972"
 ---
+# <a name="verify-lync-server-2010-environment"></a>Überprüfen der lync Server 2010 Umgebung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-lync-server-2010-environment"></a>Überprüfen der lync Server 2010 Umgebung
+
 
 </div>
 
@@ -49,7 +51,7 @@ Bevor Sie lync Server 2013 im koexistenzstatus mit lync Server 2010 bereitstelle
 
 **Überprüfen, lync Server 2010 Dienste gestartet wurden**
 
-1.  Navigieren Sie im lync Server 2010 Front-End-Server zum Applet Dienste für administrative\\Tools.
+1.  Navigieren Sie im lync Server 2010 Front-End-Server zum Applet Dienste für administrative Tools \\ .
 
 2.  Überprüfen Sie, ob die folgenden Dienste auf dem Front-End-Server ausgeführt werden:
     
@@ -99,7 +101,7 @@ Bevor Sie lync Server 2013 im koexistenzstatus mit lync Server 2010 bereitstelle
 
 **Überprüfen der XMPP-Verbundpartnerkonfiguration der Vorversion**
 
-1.  Navigieren Sie auf dem vorversions-XMPP-Server\\zum Applet Dienste für administrative Tools.
+1.  Navigieren Sie auf dem vorversions-XMPP-Server zum Applet Dienste für administrative Tools \\ .
 
 2.  Überprüfen Sie, ob der Office Communications Server-XMPP-Gatewaydienst gestartet ist.
     

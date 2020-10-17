@@ -12,20 +12,22 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8272dc0097205749ca3c0e5d613bc3da853fc7ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1478e2b2153c1b6834629ab41ccd6cde5b272430
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517702"
 ---
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Konfigurieren eines Watcher-Knotens in lync Server 2013 zur Verwendung der vertrauenswürdigen Server Authentifizierung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Konfigurieren eines Watcher-Knotens in lync Server 2013 zur Verwendung der vertrauenswürdigen Server Authentifizierung
+
 
 </div>
 
@@ -112,13 +114,13 @@ Jeder Watcher-Knoten muss mit dem lync Server-Bereitstellungs-Assistenten ein St
 
 ## <a name="installing-and-configuring-a-watcher-node"></a>Installieren und Konfigurieren eines Watcher-Knotens
 
-Nachdem Sie den Watcher-Knoten-Computer neu gestartet und ein Zertifikat konfiguriert haben, müssen Sie die Datei "Watchernode.msi" ausführen. (Sie müssen Watchernode. msi auf einem Computer ausführen, auf dem sowohl die Operations Manager-Agent-Dateien als auch die lync Server 2013 Kernkomponenten installiert sind.)
+Nachdem Sie den Watcher-Knoten-Computer neu gestartet und ein Zertifikat konfiguriert haben, müssen Sie die Datei "Watchernode.msi" ausführen. (Sie müssen Watchernode.msi auf einem Computer ausführen, auf dem sowohl die Operations Manager-Agent-Dateien als auch die lync Server 2013-Kernkomponenten installiert sind.)
 
 **So installieren und konfigurieren Sie einen Watcher-Knoten**
 
 1.  Öffnen Sie das lync Server-Verwaltungsshell, indem Sie auf **Start**, auf **Alle Programme**, auf **lync Server**und dann auf **lync Server-Verwaltungsshell**klicken.
 
-2.  Geben Sie im lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE (geben Sie den tatsächlichen Pfad zu Ihrer Kopie von Watchernode. msi an):
+2.  Geben Sie im lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE (geben Sie den tatsächlichen Pfad zu Ihrer Kopie von Watchernode.msi an):
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
@@ -133,7 +135,7 @@ Nachdem Sie den Watcher-Knoten-Computer neu gestartet und ein Zertifikat konfigu
 
 Beachten Sie, dass beim Namen/Wertpaar im vorstehenden Befehl "Authentication=TrustedServer" Groß-/Kleinschreibung beachtet wird. Geben Sie es genau wie angezeigt ein. Bei der Ausführung des folgenden Befehls tritt ein Fehler auf, weil nicht die richtige Folge von Klein- und Großbuchstaben verwendet wird:
 
-C:\\Tools\\Watchernode. msi Authentication = trustedserver
+C: \\ Tools \\Watchernode.msi Authentication = trustedserver
 
 Sie können den TrustedServer-Modus nur auf Computern verwenden, die sich im Umkreisnetzwerk befinden. Wenn ein Watcher-Knoten im TrustedServer-Modus ausgeführt wird, müssen Administratoren keine Kennwörter für Testbenutzer auf dem Computer beibehalten.
 

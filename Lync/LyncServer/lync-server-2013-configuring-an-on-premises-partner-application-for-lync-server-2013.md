@@ -12,20 +12,22 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58cfee7b89d2e7e66bd39b28a6d3361b4521cdc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517582"
 ---
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Konfigurieren einer lokalen Partneranwendung für Microsoft lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Konfigurieren einer lokalen Partneranwendung für Microsoft lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Nachdem Sie das OAuthTokenIssuer-Zertifikat zugewiesen haben, müssen Sie Ihre M
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-Nachdem Sie den Code kopiert haben, speichern Sie das Skript mithilfe eines. PS1-Dateierweiterung (beispielsweise C:\\Skripts\\ServerToServerAuth. ps1). Beachten Sie, dass Sie vor dem Ausführen dieses Skripts die Metadaten-URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 und die http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx Metadaten-URLs ersetzen müssen, die von Ihren Exchange 2013-und SharePoint-Servern verwendet werden. In der Produktdokumentation für Exchange 2013 und SharePoint finden Sie Informationen dazu, wie Sie die Metadaten-URL des jeweiligen Produkts identifizieren können.
+Nachdem Sie den Code kopiert haben, speichern Sie das Skript mithilfe eines. PS1-Dateierweiterung (beispielsweise C: \\ Skripts \\ServerToServerAuth.ps1). Beachten Sie, dass Sie vor dem Ausführen dieses Skripts die Metadaten https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 -URLs und die Metadaten-URLs ersetzen müssen, http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx die von Ihren Exchange 2013-und SharePoint-Servern verwendet werden. In der Produktdokumentation für Exchange 2013 und SharePoint finden Sie Informationen dazu, wie Sie die Metadaten-URL des jeweiligen Produkts identifizieren können.
 
 In der letzten Zeile des Skripts werden Sie bemerken, dass dort ein Set-CsOAuthConfiguration-Cmdlet mit der folgenden Syntax aufgerufen wird:
 
@@ -107,7 +109,7 @@ Bei Ausführung des Skripts würden Sie dann eine Fehlermeldung erhalten, die wi
 
 Diese Fehlermeldung hat meist zwei Bedeutungen: 1.) Eine der im Skript angegebenen URLs ist ungültig (d. h. eine Ihrer metadata-URLs ist keine echte metadata-URL); oder 2.) Eine der metadata-URLs konnte nicht kontaktiert werden. In diesem Fall sollten Sie überprüfen, ob die URLs korrekt geschrieben und zugreifbar sind, und Sie sollten das Skript danach erneut ausführen.
 
-Nachdem Sie die Partneranwendung für lync Server 2013 erstellt haben, müssen Sie lync Server als Partneranwendung für Exchange 2013 konfigurieren. Sie können Partneranwendungen für Exchange 2013 konfigurieren, indem Sie das Skript configure-EnterprisePartnerApplication. ps1 ausführen; Sie müssen lediglich die Metadaten-URL für lync Server angeben und angeben, dass lync Server die neue Partneranwendung ist.
+Nachdem Sie die Partneranwendung für lync Server 2013 erstellt haben, müssen Sie lync Server als Partneranwendung für Exchange 2013 konfigurieren. Sie können Partneranwendungen für Exchange 2013 konfigurieren, indem Sie das Skript Configure-EnterprisePartnerApplication.ps1 ausführen; Sie müssen lediglich die Metadaten-URL für lync Server angeben und angeben, dass lync Server die neue Partneranwendung ist.
 
 Wenn Sie lync Server als Partneranwendung für Exchange konfigurieren möchten, öffnen Sie den Exchange-Verwaltungsshell, und führen Sie einen Befehl wie den folgenden aus.
 

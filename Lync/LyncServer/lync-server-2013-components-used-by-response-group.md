@@ -12,20 +12,22 @@ ms:contentKeyID: 48183693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bfefeabc1c9f64a4f1bf9fa794b269fbdcb0650
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b59f96175925c427f77880012f804daf20bf751
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213171"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517772"
 ---
+# <a name="components-used-by-response-group-in-lync-server-2013"></a>Von der Reaktionsgruppe in lync Server 2013 verwendete Komponenten
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-response-group-in-lync-server-2013"></a>Von der Reaktionsgruppe in lync Server 2013 verwendete Komponenten
+
 
 </div>
 
@@ -45,27 +47,27 @@ Das Reaktionsgruppenanwendung wird automatisch aktiviert, wenn Sie Enterprise-Vo
 
 Die folgenden Microsoft lync Server 2013 Komponenten unterstützen das Reaktionsgruppenanwendung:
 
-  - **Anwendungsdienst**   Anwendungsdienst stellt eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen wie Reaktionsgruppe bereit. Das Anwendungsdienst wird automatisch auf jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server installiert.
+  - **Anwendungsdienst**     Anwendungsdienst bietet eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen wie Reaktionsgruppe. Das Anwendungsdienst wird automatisch auf jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server installiert.
 
-  - **Reaktionsgruppenanwendung**   das Reaktionsgruppenanwendung ist eine der Unified Communications-Anwendungen, die von Anwendungsdienst gehostet werden. Sie wird automatisch bei der Bereitstellung der Reaktionsgruppe einbezogen. Das Reaktionsgruppenanwendung leitet eingehende Anrufe an Gruppen von Agents weiter und Warteschlangen.
+  - **Reaktionsgruppenanwendung**     Die Reaktionsgruppenanwendung ist eine der Unified Communications-Anwendungen, die von Anwendungsdienst gehostet werden. Sie wird automatisch bei der Bereitstellung der Reaktionsgruppe einbezogen. Das Reaktionsgruppenanwendung leitet eingehende Anrufe an Gruppen von Agents weiter und Warteschlangen.
 
-  - **Sprachpaket**   ein Sprachpaket ist für die Unterstützung von Text-zu-Sprache-und Spracherkennung erforderlich. Diese Sprachtechnologien werden zum Konfigurieren von Nachrichten verwendet, beispielsweise für die Willkommensnachricht oder für andere Ansagen sowie für Fragen und Antworten der interaktiven Sprachantwort (Interactive Voice Response, IVR). Standardmäßig werden die 26 unterstützten Sprachpakete installiert, wenn Sie lync Server 2013 bereitstellen.
+  - **Sprachpaket**     Zur Unterstützung von Text-zu-Sprache-und Spracherkennung ist ein Sprachpaket erforderlich. Diese Sprachtechnologien werden zum Konfigurieren von Nachrichten verwendet, beispielsweise für die Willkommensnachricht oder für andere Ansagen sowie für Fragen und Antworten der interaktiven Sprachantwort (Interactive Voice Response, IVR). Standardmäßig werden die 26 unterstützten Sprachpakete installiert, wenn Sie lync Server 2013 bereitstellen.
 
-  - **Audiodateien**Audiodateien werden für Nachrichten und Wartemusik verwendet.   
+  - **Audio-Dateien**     Audiodateien werden für Nachrichten und Wartemusik verwendet.
 
-  - **Dateispeicher**   Reaktionsgruppe verwendet den Dateispeicher zum Speichern von Audiodateien. Mehrere Reaktionsgruppen Pools können dieselbe Instanz des Dateispeichers verwenden.
+  - **Dateispeicher**     Die Reaktionsgruppe verwendet den Dateispeicher zum Speichern von Audiodateien. Mehrere Reaktionsgruppen Pools können dieselbe Instanz des Dateispeichers verwenden.
 
-  - **Reaktionsgruppen-Konfigurationstool**   das Reaktionsgruppen-Konfigurationstool ist ein webbasiertes Tool, mit dem Reaktionsgruppen erstellt und konfiguriert werden. Das Tool zum Konfigurieren von Reaktionsgruppen ist enthalten, wenn Sie Webdienste installieren.
+  - **Reaktionsgruppen-Konfigurations Tool**     Das Reaktionsgruppen-Konfigurationstool ist ein webbasiertes Tool, das zum Erstellen und Konfigurieren von Reaktionsgruppen verwendet wird. Das Tool zum Konfigurieren von Reaktionsgruppen ist enthalten, wenn Sie Webdienste installieren.
 
-  - **Microsoft lync Server 2013-System**   Steuerung können Sie lync Server-Systemsteuerung zum Einrichten und Konfigurieren von Agentgruppen und Warteschlangen für Reaktionsgruppen verwenden.
+  - **Microsoft lync Server 2013-System**     Steuerung Sie können lync Server-Systemsteuerung verwenden, um Agentgruppen und Warteschlangen für Reaktionsgruppen einzurichten und zu konfigurieren.
 
-  - **Lync Server-Verwaltungsshell**   alle Einstellungen für Reaktionsgruppen können mithilfe von lync Server-Verwaltungsshell-Cmdlets konfiguriert werden.
+  - **Lync Server-Verwaltungsshell**     Alle Einstellungen der Reaktionsgruppe können mithilfe von lync Server-Verwaltungsshell-Cmdlets konfiguriert werden.
 
-  - **Microsoft lync 2013**   formelle Agents (Agents, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe für die Gruppe annehmen können) verwenden Sie lync 2013, um sich bei der Gruppe anzumelden und abzumelden. Wenn eine Agentgruppe für formelle Agents konfiguriert ist, klicken die Agents auf ein Menüelement in lync 2013, um Internet Explorer zu öffnen und eine Webseiten Konsole zum ein-und Ausloggen der Gruppe anzuzeigen.
+  - **Microsoft lync 2013**     Formelle Agents (Agents, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe für die Gruppe annehmen können) verwenden Sie lync 2013, um sich bei der Gruppe anzumelden und abzumelden. Wenn eine Agentgruppe für formelle Agents konfiguriert ist, klicken die Agents auf ein Menüelement in lync 2013, um Internet Explorer zu öffnen und eine Webseiten Konsole zum ein-und Ausloggen der Gruppe anzuzeigen.
 
-  - **Webdienste**   Webdienste ist für das Konfigurations Tool für Reaktionsgruppen, die Anmelde-und Abmelde Konsole, die lync Server-Systemsteuerung und den Client-Webdienst für Reaktionsgruppen erforderlich.
+  - **Webdienste**     Webdienste ist für das Konfigurations Tool für Reaktionsgruppen, die Anmelde-und Abmelde Konsole der Agents, lync Server-Systemsteuerung und den Client-Webdienst der Reaktionsgruppe erforderlich.
 
-  - **Client-Webdienst für Reaktionsgruppen**   Reaktionsgruppenanwendung stellt einen Client-Webdienst bereit, der von Drittanbieteranwendungen zum Abrufen von Informationen zu Agents, zur Agent-Gruppenmitgliedschaft, zum Agent-Anmeldestatus, zum Anrufstatus für Gruppen und zu den Gruppen, die anonyme Anrufe unterstützen, verwendet werden kann. Lync 2013 und lync 2010 Attendant den Client-Webdienst für Reaktionsgruppen verwenden, um die Liste der Reaktionsgruppen abzurufen, mit denen Agents anonyme Anrufe tätigen können. Der Clientwebdienst ist in der Installation der Webdienste enthalten.
+  - **Client-Webdienst**     für Reaktionsgruppen Reaktionsgruppenanwendung stellt einen Client-Webdienst bereit, der von Drittanbieteranwendungen zum Abrufen von Informationen zu Agents, zur Agent-Gruppenmitgliedschaft, zum Agent-Anmeldestatus, zum Anrufstatus für Gruppen und zu den Gruppen, die anonyme Anrufe unterstützen, verwendet werden kann. Lync 2013 und lync 2010 Attendant den Client-Webdienst für Reaktionsgruppen verwenden, um die Liste der Reaktionsgruppen abzurufen, mit denen Agents anonyme Anrufe tätigen können. Der Clientwebdienst ist in der Installation der Webdienste enthalten.
 
 </div>
 

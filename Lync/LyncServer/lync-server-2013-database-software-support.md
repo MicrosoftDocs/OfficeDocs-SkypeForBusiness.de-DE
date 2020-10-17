@@ -12,20 +12,22 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187388"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516502"
 ---
+# <a name="database-software-support-in-lync-server-2013"></a>Unterstützung der Datenbanksoftware in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a>Unterstützung der Datenbanksoftware in lync Server 2013
+
 
 </div>
 
@@ -120,7 +122,7 @@ Die folgende Unterstützung ist enthalten:
 
 Weitere Informationen zur SQL-Spiegelung finden Sie unter [Back End Server High Availability in lync Server 2013](lync-server-2013-back-end-server-high-availability.md). Ausführliche Informationen zum Bereitstellen von SQL-Clustering finden Sie unter [configure SQL Server Clustering for lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).
 
-Weitere Informationen und bewährte Methoden für die Failover-Clusterunterstützung in SQL Server 2012 finden <https://technet.microsoft.com/library/hh231721.aspx>Sie unter. Informationen zur Failover-Clusterunterstützung in SQL Server 2008 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>finden Sie unter.
+Weitere Informationen und bewährte Methoden für die Failover-Clusterunterstützung in SQL Server 2012 finden Sie unter <https://technet.microsoft.com/library/hh231721.aspx> . Informationen zur Failover-Clusterunterstützung in SQL Server 2008 finden Sie unter <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c5f3cdd8000892886b3273fbb33fc1b1f668e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0cdc05978b6fb8d81c81995d7b089d14ed4bec3b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196238"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516742"
 ---
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Erstellen oder Ändern von Netzwerk Regions Routen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Erstellen oder Ändern von Netzwerk Regions Routen in lync Server 2013
+
 
 </div>
 
@@ -62,9 +64,9 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
     
     </div>
 
-6.  Wählen Sie in der Dropdownliste **netzwerkregion \#1** eine der zwei Regionen aus, die über diese Route verbunden werden sollen.
+6.  Wählen Sie in der Dropdownliste **netzwerkregion \# 1** eine der zwei Regionen aus, die über diese Route verbunden werden sollen.
 
-7.  Wählen Sie in der Dropdownliste **netzwerkregion \#2** den anderen Bereich für diese Route aus. Diese Region muss sich von der für die netzwerkregion \#1 ausgewählten Region unterscheiden.
+7.  Wählen Sie in der Dropdownliste **netzwerkregion \# 2** den anderen Bereich für diese Route aus. Diese Region muss sich von der für die netzwerkregion 1 ausgewählten Region unterscheiden \# .
 
 8.  Fügen Sie der Route über das Listenfeld **Netzwerkregionenverbindungen** Regionenverbindungen hinzu. Klicken Sie auf die Schaltfläche **Hinzufügen**, um die Seite **Regionenverbindung** anzuzeigen. Klicken Sie auf eine Regionenverbindung, die Sie dieser Route hinzufügen möchten, und klicken Sie anschließend auf **OK**.
     

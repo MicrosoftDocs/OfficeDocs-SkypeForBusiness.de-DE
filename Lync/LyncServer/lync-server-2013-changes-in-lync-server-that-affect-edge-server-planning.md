@@ -12,20 +12,22 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2903bd2701ac860232dd73342ed280688feac34b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc006a73e6fcb7036d0085d9c5dcba4d3e21e133
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517832"
 ---
+# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>Änderungen in lync Server 2013, die sich auf die Edgeserver Planung auswirken
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>Änderungen in lync Server 2013, die sich auf die Edgeserver Planung auswirken
+
 
 </div>
 
@@ -115,7 +117,7 @@ Ausführliche Informationen zur Cookie-basierten Affinität in lync Server 2013 
 
 ## <a name="autodiscover-enhancements"></a>Verbesserungen bei der AutoErmittlungs-Funktion
 
-Das Auto Ermittlungs Feature in lync Server 2013 ermöglicht Clients das Auffinden zusätzlicher Features, die für die Kommunikation verfügbar gemacht werden. Die AutoErmittlung wurde erstmals im kumulativen Update für lync Server 2010: November 2011 für Mobilität und Microsoft lync 2010 Mobile eingeführt. Das Auto Ermittlungs Feature (auch bekannt durch die DNS-Eintragsnamen LyncDiscover und "lyncdiscoverinternal") ermöglicht Clients das Auffinden und Verwenden von Mobilitätsdiensten (für Microsoft lync 2010 Mobile Clients), die Microsoft lync Web App und den lync-Webplaner sowie Kommunikation mit Exchange Server und SharePoint Server. Die AutoErmittlung wird als normaler Teil des Setups und der Bereitstellung Ihrer Infrastruktur und lync Server 2013 Server installiert. Mit dem Topologie-Generator und dem lync Server-Bereitstellungs-Assistenten werden die meisten Konfigurationsaufgaben beseitigt, die im kumulativen Update für lync Server 2010 erforderlich waren: November 2011.
+Das Auto Ermittlungs Feature in lync Server 2013 ermöglicht Clients das Auffinden zusätzlicher Features, die für die Kommunikation verfügbar gemacht werden. Die AutoErmittlung wurde erstmals im kumulativen Update für lync Server 2010: November 2011 für Mobilität und Microsoft lync 2010 Mobile eingeführt. Das Auto Ermittlungs Feature (auch bekannt durch die DNS-Eintragsnamen LyncDiscover und "lyncdiscoverinternal") ermöglicht Clients das Auffinden und Verwenden von Mobilitätsdiensten (für Microsoft lync 2010 Mobile Clients), den Microsoft lync Web App und den lync-Webplaner sowie die Kommunikation mit Exchange Server und SharePoint Server. Die AutoErmittlung wird als normaler Teil des Setups und der Bereitstellung Ihrer Infrastruktur und lync Server 2013 Server installiert. Mit dem Topologie-Generator und dem lync Server-Bereitstellungs-Assistenten werden die meisten Konfigurationsaufgaben beseitigt, die im kumulativen Update für lync Server 2010 erforderlich waren: November 2011.
 
 </div>
 
@@ -123,7 +125,7 @@ Das Auto Ermittlungs Feature in lync Server 2013 ermöglicht Clients das Auffind
 
 ## <a name="services-for-mobile-clients"></a>Dienste für mobile Clients
 
-Im kumulativen Update für lync Server 2010: November 2011 wurden Mobilitätsdienste in lync Server 2013 für Mobiltelefone, auf denen lync Mobile und Tablet-Geräte mit unterstützten Apple IOS-, Android-, Windows Phone-oder Nokia-Mobilgeräten ausgeführt werden, für die Ausführung von Aktivitäten wie das Senden und empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen. Zudem unterstützen Mobilgeräte einige Enterprise-VoIP-Features, beispielsweise die Teilnahme an einer Besprechung durch Klicken, geschäftlich Anrufen, Erreichbarkeit unter einer Nummer, Voicemail und Anrufe in Abwesenheit.
+Im kumulativen Update für lync Server 2010: November 2011 wurden Mobilitätsdienste in lync Server 2013 für Mobiltelefone mit lync Mobile und Tablet-Geräten mit unterstützten Apple IOS-, Android-, Windows Phone-oder Nokia-Mobilgeräten zur Durchführung von Aktivitäten wie senden und empfangen von Sofortnachrichten, Anzeigen von Kontakten und Anzeigen der Anwesenheitsinformationen für mobile Geräte aktiviert. Zudem unterstützen Mobilgeräte einige Enterprise-VoIP-Features, beispielsweise die Teilnahme an einer Besprechung durch Klicken, geschäftlich Anrufen, Erreichbarkeit unter einer Nummer, Voicemail und Anrufe in Abwesenheit.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3d90f738741c2815d01041a7d2293e978cd2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 462252b1826802ec424c6684e3a6347754095508
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195678"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517052"
 ---
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Konfigurieren von Unified Messaging für Exchange Server zum Arbeiten mit lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Konfigurieren von Unified Messaging für Exchange Server zum Arbeiten mit lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ Um Exchange Unified Messaging (um) für die Zusammenarbeit mit Enterprise-VoIP z
 
   - Erstellen Sie bei Bedarf einen oder mehrere um-SIP-URI-Wählpläne zusammen mit den Telefonnummern für den Teilnehmerzugriff, und erstellen Sie dann entsprechende lync Server Wählpläne.
 
-  - Verwenden Sie das **Skript "exchucutil. ps1-** Skript für Folgendes:
+  - Verwenden Sie das **exchucutil.ps1** -Skript:
     
       - Erstellen von UM-IP-Gateways
     
@@ -82,7 +84,7 @@ Um Exchange Unified Messaging (um) für die Zusammenarbeit mit Enterprise-VoIP z
 
 Bevor Sie beginnen, wird in der Dokumentation in diesem Abschnitt davon ausgegangen, dass Sie die folgenden Exchange 2013 Rollen bereitgestellt haben: Client Zugriff und Postfach. In Microsoft Exchange Server 2013 wird Exchange um als Dienst auf diesen Servern ausgeführt.
 
-Ausführliche Informationen zum Bereitstellen von Exchange 2013 finden Sie in der Exchange 2013 TechNet-Bibliothek unter[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
+Ausführliche Informationen zum Bereitstellen von Exchange 2013 finden Sie in der Exchange 2013 TechNet-Bibliothek unter [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 Beachten Sie auch Folgendes:
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c534aa912e2564f8a8934aafa75bc52b76600795
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3eecf3d55ba3bb8e8629d41a9a924c65ac7a4c0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217471"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516132"
 ---
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Mobilitätsfeatures und-Funktionen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Mobilitätsfeatures und-Funktionen in lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Das in den kumulativen Updates für lync Server 2013:2013. Februar eingeführte 
 
 </div>
 
-Apple iPad-Benutzer haben Zugriff auf erweiterte Fähigkeiten. Nachdem ein iPad-Benutzer eine Besprechung mit dem audiorückruf durchführen konnte, kann er hochgeladene Microsoft PowerPoint Präsentationen in einer Besprechung anzeigen, Anwendungen und Desktops freigeben, die Teilnehmerliste der Besprechung anzeigen und Benachrichtigungen über andere Inhaltstypen empfangen. , die in der Besprechung freigegeben werden.
+Apple iPad-Benutzer haben Zugriff auf erweiterte Fähigkeiten. Nachdem ein iPad-Benutzer eine Besprechung mit einem audiorückruf durchgeführt hat, kann er hochgeladene Microsoft PowerPoint Präsentationen in einer Besprechung anzeigen, Anwendungen und Desktops freigeben, die Teilnehmerliste der Besprechung anzeigen und Benachrichtigungen über andere Inhaltstypen empfangen, die in der Besprechung freigegeben werden.
 
 <div>
 
@@ -99,7 +101,7 @@ Apple iPad-Benutzer haben Zugriff auf erweiterte Fähigkeiten. Nachdem ein iPad-
 
 
 > [!NOTE]  
-> Nicht alle Features werden auf sämtlichen Mobiltelefonen genau gleich ausgeführt. Ausführliche Informationen zu den auf mobilen Geräten unterstützten Features finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A>den Vergleichstabellen für mobile Clients unter. Ausführliche Informationen zu unterstützten Geräten und Betriebssystemen finden Sie in den Anforderungen unter <A href="lync-server-2013-planning-for-mobile-clients.md">Planung für mobile Clients in lync Server 2013</A>.
+> Nicht alle Features werden auf sämtlichen Mobiltelefonen genau gleich ausgeführt. Ausführliche Informationen zu den auf mobilen Geräten unterstützten Features finden Sie in den Vergleichstabellen für mobile Clients unter <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A> . Ausführliche Informationen zu unterstützten Geräten und Betriebssystemen finden Sie in den Anforderungen unter <A href="lync-server-2013-planning-for-mobile-clients.md">Planung für mobile Clients in lync Server 2013</A>.
 
 
 

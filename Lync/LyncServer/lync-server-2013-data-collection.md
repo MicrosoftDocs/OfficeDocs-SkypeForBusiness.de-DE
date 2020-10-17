@@ -12,20 +12,22 @@ ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e6ef9454912b2d421302d7e696350a6f83bc9fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01e6c75a4a557ff44d626f006210bec3a3c38472
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516572"
 ---
+# <a name="data-collection-in-lync-server-2013"></a>Datensammlung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="data-collection-in-lync-server-2013"></a>Datensammlung in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206951"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-In Microsoft lync Server 2013 Kommunikationssoftware können Sie das Planungs Tool Microsoft lync Server 2013 ausführen, ohne Ihre vorhandenen und vorgeschlagenen IP-Adressen und Edgeserver vollqualifizierten Domänennamen (FQDNs) zu dokumentieren, dies ist jedoch wesentlich schwieriger ohne Konfigurationsfehler zu verursachen. Wenn beispielsweise die Koexistenz für einen bestimmten Zeitraum erforderlich ist, besteht ein häufiger Fehler darin, FQDNs aus einer vorhandenen Edge-Bereitstellung für Ihre lync Server 2013-Edge-Bereitstellung wiederzuverwenden. Durch das aufschreiben vorhandener und vorgeschlagener IP-Adressen und FQDNs in einer Tabellenkalkulation, Tabelle oder in einem anderen visuellen Formular können Sie während der Installation Installationsprobleme vermeiden.
+In Microsoft lync Server 2013 Kommunikationssoftware können Sie das Microsoft lync Server 2013-Planungs Tool ausführen, ohne die vorhandenen und vorgeschlagenen IP-Adressen und Edgeserver vollqualifizierten Domänennamen (FQDNs) zu dokumentieren, dies ist jedoch wesentlich schwieriger, ohne Konfigurationsfehler zu verursachen. Wenn beispielsweise die Koexistenz für einen bestimmten Zeitraum erforderlich ist, besteht ein häufiger Fehler darin, FQDNs aus einer vorhandenen Edge-Bereitstellung für Ihre lync Server 2013-Edge-Bereitstellung wiederzuverwenden. Durch das aufschreiben vorhandener und vorgeschlagener IP-Adressen und FQDNs in einer Tabellenkalkulation, Tabelle oder in einem anderen visuellen Formular können Sie während der Installation Installationsprobleme vermeiden.
 
 <div>
 
@@ -55,7 +57,7 @@ Um Microsoft lync Server 2013 erfolgreich bereitzustellen, müssen Sie die Inter
 
 Bei der [Auswahl einer Topologie in lync Server 2013](lync-server-2013-choosing-a-topology.md)werden drei Hauptarchitekturen mit zwei Variationen für insgesamt fünf mögliche Bereitstellungsszenarien eingeführt. Eines dieser Szenarien ist der Ausgangspunkt für die Datenerfassung. Die IP-Adressen, Servernamen und Domänennamen sind Beispiele, die den Zertifikat-, Firewall und DNS-Diagrammen entsprechen, welche die erforderlichen Informationen für eine umfassende Planungslösung enthalten. Die Diagramme und die Angabe der erforderlichen Werte für Zertifikate, DNS und Firewalls spielen bei der teamübergreifenden Kommunikation eine besonders wichtige Rolle, bei der die Verwaltung von Zertifizierungsstelle, Firewallkonfiguration und DNS von anderen Teams als dem Team, das die Bereitstellung plant, ausgeführt wird. Die Diagramme liefern Informationen zu erforderlichen Komponenten, die für die Weitergabe dieser Anforderungen für die teamübergreifende Zusammenarbeit verwendet werden können.
 
-Die bereitgestellten Diagramme sind absichtlich generisch, ermöglichen jedoch die Sammlung aller relevanten Daten, die für die Kommunikation von Anforderungen in einem teamübergreifenden Szenario erforderlich wären, in dem Netzwerk, Firewall, Zertifikaterstellung und-Verwaltung, Server die Bereitstellung und die Serververwaltung werden von verschiedenen Gruppen verarbeitet. Die erforderlichen Details für die Konfiguration von Netzwerken, Firewalls, Ports und Protokollen, Zertifikaten und Servern sind von unschätzbarem Wert, wenn die Bereitstellung von lync Server fortgeschritten ist.
+Die bereitgestellten Diagramme sind absichtlich generisch, ermöglichen jedoch die Sammlung aller relevanten Daten, die für die Kommunikation von Anforderungen in einem teamübergreifenden Szenario erforderlich sind, in dem Netzwerke, Firewalls, Zertifikaterstellung und-Verwaltung, Server Bereitstellung und Serververwaltung von verschiedenen Gruppen verarbeitet werden. Die erforderlichen Details für die Konfiguration von Netzwerken, Firewalls, Ports und Protokollen, Zertifikaten und Servern sind von unschätzbarem Wert, wenn die Bereitstellung von lync Server fortgeschritten ist.
 
 **Edgeserver und Edgepool**
 

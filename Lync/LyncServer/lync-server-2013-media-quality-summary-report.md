@@ -12,20 +12,22 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edeec17bccc4c2084f71d3a052d3a44a34f4ed94
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4080460083074f7ad74618034ab2e7910de5e53d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185183"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516182"
 ---
+# <a name="media-quality-summary-report-in-lync-server-2013"></a>Zusammenfassender Bericht über Medienqualität in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-summary-report-in-lync-server-2013"></a>Zusammenfassender Bericht über Medienqualität in lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Im "Zusammenfassenden Bericht über Medienqualität" können Sie Filter anwenden
 
 Auf den "Zusammenfassenden Bericht über Medienqualität" kann auf der Startseite "Überwachungsberichte" zugegriffen werden. Sie können einen Drilldown zum [Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
 
-  - Anruflautstärke
+  - Anrufvolumen
 
   - Prozentsatz der Anrufe schlechter Qualität
 
@@ -243,7 +245,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <tr class="even">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot; Zittern eines &quot; Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ausblendungsverhältnis der Reparatur</strong></p></td>
@@ -421,7 +423,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <tr class="odd">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot; Zittern eines &quot; Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Durchschnitt relativ unidirektional</strong></p></td>

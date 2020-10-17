@@ -12,20 +12,22 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61f0de957889f108ff7b7cec3ad71e984fd61f11
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 84fb2d57e03965acff9d647854b86d7a5a528246
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517712"
 ---
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Von der Ankündigungsanwendung in lync Server 2013 verwendete Komponenten
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Von der Ankündigungsanwendung in lync Server 2013 verwendete Komponenten
+
 
 </div>
 
@@ -45,17 +47,17 @@ In lync Server 2013 ist der Ankündigungsanwendung eine Komponente der Reaktions
 
 Die folgenden lync Server Komponenten unterstützen das Ankündigungsanwendung:
 
-  - **Anwendungsdienst**   Anwendungsdienst bietet eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen. Anwendungsdienst wird automatisch auf jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server installiert.
+  - **Anwendungsdienst**     Anwendungsdienst bietet eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen. Anwendungsdienst wird automatisch auf jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server installiert.
 
-  - **Reaktionsgruppenanwendung**   das Reaktionsgruppenanwendung ist eine der Unified Communications-Anwendungen, die von Anwendungsdienst gehostet werden. Wenn ein nicht zugewiesener Telefonnummern Bereich für die Weiterleitung an eine Ansage konfiguriert ist, muss der Reaktionsgruppenanwendung die Anrufe an die Telefonnummer weiterleiten. (Reaktionsgruppenanwendung ist nicht erforderlich, wenn alle Bereiche für die Weiterleitung an Exchange Unified Messaging (um) konfiguriert sind.)
+  - **Reaktionsgruppenanwendung**     Die Reaktionsgruppenanwendung ist eine der Unified Communications-Anwendungen, die von Anwendungsdienst gehostet werden. Wenn ein nicht zugewiesener Telefonnummern Bereich für die Weiterleitung an eine Ansage konfiguriert ist, muss der Reaktionsgruppenanwendung die Anrufe an die Telefonnummer weiterleiten. (Reaktionsgruppenanwendung ist nicht erforderlich, wenn alle Bereiche für die Weiterleitung an Exchange Unified Messaging (um) konfiguriert sind.)
 
-  - **Audiodateien**   -Audiodateien werden für die Ankündigungen verwendet.
+  - **Audio-Dateien**     Audio-Dateien werden für die Ankündigungen verwendet.
 
-  - **Dateispeicher**   der Ankündigungsanwendung verwendet Dateispeicher, um seine Audiodateien zu speichern.
+  - **Dateispeicher**     Der Ankündigungsanwendung verwendet Dateispeicher, um seine Audiodateien zu speichern.
 
-  - **Lync Server-Systemsteuerung**   Sie lync Server-Systemsteuerung verwenden können, um die Tabelle nicht zugewiesener Nummern zu konfigurieren.
+  - **Lync Server-Systemsteuerung**     Sie können lync Server-Systemsteuerung verwenden, um die Tabelle nicht zugewiesener Nummern zu konfigurieren.
 
-  - **Lync Server-Verwaltungsshell**   Sie können lync Server-Verwaltungsshell-Cmdlets zum Konfigurieren von Ankündigungseinstellungen und der Tabelle nicht zugewiesener Nummern verwenden.
+  - **Lync Server-Verwaltungsshell**     Sie können lync Server-Verwaltungsshell-Cmdlets zum Konfigurieren von Ankündigungseinstellungen und der Tabelle nicht zugewiesener Nummern verwenden.
 
 </div>
 

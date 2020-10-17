@@ -12,20 +12,22 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2da630e422aaf7068a4252333d5221f552bce525
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f560df21555bf15c1a51c055861898860ff8dc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516332"
 ---
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Definieren der Mobilitätsanforderungen für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Definieren der Mobilitätsanforderungen für lync Server 2013
+
 
 </div>
 
@@ -45,13 +47,13 @@ Hier sind die Entscheidungen, die Sie berücksichtigen müssen:
 
   - **Möchten Sie die automatische Ermittlung für Mobile lync-Clients verwenden?**
     
-    Wenn Sie die automatische Ermittlung unterstützen möchten, müssen Sie neue interne und externe Domain Name System (DNS) Einträge erstellen, Zertifikate auf den Front-End-Servern, Directors und Reverseproxy hinzufügen und die vorhandenen Veröffentlichungsregeln ändern. auf dem Reverse-Proxy. Ausführliche Informationen finden Sie unter [Technical Requirements for Mobility in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Mit der automatischen Ermittlung können Benutzer automatisch lync Server 2013 Webdienste von einer beliebigen Stelle innerhalb oder außerhalb des Unternehmensnetzwerks Auffinden, ohne URLs in Ihre Einstellungen für mobile Geräte einzugeben.
+    Wenn Sie die automatische Ermittlung unterstützen möchten, müssen Sie neue interne und externe Domain Name System (DNS) Einträge erstellen, Zertifikate auf den Front-End-Servern, Directors und Reverseproxy hinzufügen und die vorhandenen Veröffentlichungsregeln auf dem Reverseproxy ändern. Ausführliche Informationen finden Sie unter [Technical Requirements for Mobility in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Mit der automatischen Ermittlung können Benutzer automatisch lync Server 2013 Webdienste von einer beliebigen Stelle innerhalb oder außerhalb des Unternehmensnetzwerks Auffinden, ohne URLs in Ihre Einstellungen für mobile Geräte einzugeben.
     
     Wenn Sie anstelle der automatischen Ermittlung manuelle Einstellungen verwenden, müssen Mobile Benutzer die folgenden URLs manuell in ihren mobilen Geräten eingeben:
     
-      - https://\<ExtPoolFQDN\>/autodiscover/autodiscoverservice.svc/root für externen Zugriff
+      - https://- \<ExtPoolFQDN\> /autodiscover/autodiscoverservice.svc/root für externen Zugriff
     
-      - https://\<IntPoolFQDN\>/autodiscover/autodiscoverservice. svc/Stammverzeichnis für internen Zugriff
+      - https:// \<IntPoolFQDN\> /autodiscover/autodiscoverservice. svc/Stamm für internen Zugriff
     
     Es wird dringend empfohlen, die automatische Ermittlung zu verwenden. Die primäre Verwendung von manuellen Einstellungen ist für die Problembehandlung.
 
@@ -82,7 +84,7 @@ Hier sind die Entscheidungen, die Sie berücksichtigen müssen:
     
 
     > [!IMPORTANT]  
-    > Wenn Sie eine lync Server 2013&nbsp;-Front-End-Server-oder Front-End-Pools verwenden und keine lync Server 2010&nbsp;-Front-End-Server oder Front-End-Pools <STRONG>haben</STRONG> , <STRONG>ist keine Notwendigkeit für die Cookie-basierte Persistenz</STRONG>. Wenn Sie lync Server 2010&nbsp;Front-End-Server oder Front-End-Pools beibehalten müssen, gelten dieselben Regeln wie in lync Server 2010 für die Cookie-basierte Persistenz.
+    > Wenn Sie eine lync Server 2013- &nbsp; Front-End-Server-oder Front-End- <STRONG>you do not have</STRONG> Pools verwenden und keine lync Server 2010- &nbsp; Front-End-Server oder Front-End-Pools haben, <STRONG>ist keine Notwendigkeit für die Cookie-basierte Persistenz</STRONG>. Wenn Sie lync Server 2010 &nbsp; Front-End-Server oder Front-End-Pools beibehalten müssen, gelten dieselben Regeln wie in lync Server 2010 für die Cookie-basierte Persistenz.
 
     
     </div>
@@ -91,7 +93,7 @@ Hier sind die Entscheidungen, die Sie berücksichtigen müssen:
     
     Wenn Sie Push-Benachrichtigungen unterstützen, erhalten unterstützte Apple IOS-Geräte und Windows Phone eine Benachrichtigung über Ereignisse, die auftreten, wenn die Mobile Anwendung inaktiv ist. Sie müssen ihre Edgeserver so konfigurieren, dass Sie über eine Verbundbeziehung mit dem cloudbasierten lync Server Push-Benachrichtigungsdienst verfügt, der sich im lync Online Datencenter befindet, und führen Sie ein Cmdlet aus, um Push-Benachrichtigungen zu aktivieren.
     
-    Wenn Sie Push-Benachrichtigungen über Ihr WLAN-Netzwerk unterstützen möchten, müssen Sie zusätzlich zur Unterstützung von Push-Benachrichtigungen über die 3G-oder Datennetzwerke der Mobilgeräte Anbieter den Port 5223 Outbound in Ihrem WLAN-Netzwerk in Ihrem Unternehmen öffnen. Unterstützen von Push-Benachrichtigungen über das WLAN-Netzwerk unterstützt mobile Geräte, die nur WLAN und mobile Geräte verwenden, die einen schlechten innen Empfang haben.
+    Wenn Sie Push-Benachrichtigungen über das Wi-Fi Netzwerk unterstützen möchten, müssen Sie zusätzlich zur Unterstützung von Push-Benachrichtigungen über die 3G-oder Datennetzwerke von Mobilgeräte Anbietern den Port 5223 Outbound im Enterprise-Wi-Fi-Netzwerk öffnen. Die Unterstützung von Push-Benachrichtigungen über das Wi-Fi Netzwerk unterstützt mobile Geräte, die nur Wi-Fi und mobile Geräte mit schlechtem innen Empfang verwenden.
     
     <div>
     
@@ -134,7 +136,7 @@ Hier sind die Entscheidungen, die Sie berücksichtigen müssen:
     <tbody>
     <tr class="odd">
     <td><p>Aktivieren der Mobilität</p>
-    <p>Parameter Name:<code>EnableMobility</code></p>
+    <p>Parameter Name: <code>EnableMobility</code></p>
     <p>Bereich: Global/Site/User</p></td>
     <td><p>Administrative Einstellung zum Steuern von Benutzern in einem bestimmten Bereich, auf dem lync Mobile installiert ist, wenn die Richtlinie auf "false" festgelegt ist, kann der Benutzer sich nicht beim Client anmelden.</p>
     <p>Die Standardeinstellung ist true.</p></td>
@@ -142,7 +144,7 @@ Hier sind die Entscheidungen, die Sie berücksichtigen müssen:
     </tr>
     <tr class="even">
     <td><p>Aktivieren von externer Sprachausgabe</p>
-    <p>Parameter Name:<code>EnableOutsideVoice</code></p>
+    <p>Parameter Name: <code>EnableOutsideVoice</code></p>
     <p>Bereich: Global/Site/User</p></td>
     <td><p>Steuert die Fähigkeit eines Benutzers, die Funktion "Anruf über Arbeit" zu verwenden, ein Feature, mit dem Benutzer Anrufe über Ihre Arbeitsnummer anstelle Ihrer Mobiltelefonnummer tätigen und empfangen können. Bei Festlegung auf "false" kann der Benutzer keine Anrufe tätigen oder empfangen, indem er seine Arbeitsnummer auf seinem mobilen Gerät verwendet.</p>
     <p>Die Standardeinstellung ist true.</p></td>
@@ -150,27 +152,27 @@ Hier sind die Entscheidungen, die Sie berücksichtigen müssen:
     </tr>
     <tr class="odd">
     <td><p>Aktivieren von IP-Audio und-Video</p>
-    <p>Parameter Name:<code>EnableIPAudioVideo</code></p>
+    <p>Parameter Name: <code>EnableIPAudioVideo</code></p>
     <p>Bereich: Global/Site/User</p></td>
     <td><p>Steuert, ob ein Benutzer VoIP-oder Videoanrufe auf seinem mobilen Gerät tätigen oder empfangen kann. Wenn dieser Wert auf "false" festgelegt ist, kann der Benutzer keine VoIP-oder Videoanrufe auf seinem Gerät tätigen oder empfangen.</p>
     <p>Die Standardeinstellung ist true.</p></td>
-    <td><p>Microsoft Lync Server 2013</p></td>
+    <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     <tr class="even">
     <td><p>WiFi für IP-Audio erforderlich</p>
-    <p>Parameter Name:<code>RequireWiFiForIPAudio</code></p>
+    <p>Parameter Name: <code>RequireWiFiForIPAudio</code></p>
     <p>Bereich: Global/Site/User</p></td>
     <td><p>Mit dieser Einstellung wird festgelegt, ob der Client Anrufe über VoIP auf WLAN anstelle des Mobil Datennetzwerks tätigen und empfangen muss. Wenn dieser Wert auf true festgelegt ist, kann der Benutzer nur dann VoIP-Anrufe tätigen und empfangen, wenn er mit einem WLAN-Netzwerk verbunden ist.</p>
     <p>Die Standardeinstellung ist false.</p></td>
-    <td><p>Microsoft Lync Server 2013</p></td>
+    <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     <tr class="odd">
     <td><p>Erfordern von WLAN für IP-Video</p>
-    <p>Parameter Name:<code>RequireWiFiForIPVideo</code></p>
+    <p>Parameter Name: <code>RequireWiFiForIPVideo</code></p>
     <p>Bereich: Global/Site/User</p></td>
-    <td><p>Mit dieser Einstellung wird festgelegt, ob der Client Videoanrufe über WLAN statt im Mobilfunk-Datennetzwerk tätigen und empfangen muss. Wenn dieser Wert auf "true" festgelegt ist, kann der Benutzer Videoanrufe nur dann tätigen und empfangen, wenn er mit einem Wi-Fi-Netzwerk verbunden ist.</p>
+    <td><p>Mit dieser Einstellung wird festgelegt, ob der Client Videoanrufe auf Wi-Fi statt im Mobil Datennetzwerk tätigen und empfangen muss. Wenn dieser Wert auf "true" festgelegt ist, kann der Benutzer Videoanrufe nur dann tätigen und empfangen, wenn er mit einem Wi-Fi Netzwerk verbunden ist.</p>
     <p>Die Standardeinstellung ist false.</p></td>
-    <td><p>Microsoft Lync Server 2013</p></td>
+    <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
     </tbody>
     </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87653490036c55a5f8b60925c988775c881a7326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 777d0fdfc8857022c0a54fcb1cd237b90f68d9d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516642"
 ---
+# <a name="daily-tasks-in-lync-server-2013"></a>Tägliche Aufgaben in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="daily-tasks-in-lync-server-2013"></a>Tägliche Aufgaben in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42209143"
 
 _**Letztes Änderungsstand des Themas:** 2015-01-26_
 
-Um die Verfügbarkeit und Zuverlässigkeit der lync Server 2013-Bereitstellung sicherzustellen, sollten Sie im Rahmen der täglichen Routineüberwachung und Testen von Elementen, die für die Funktionsweise des Systems wichtig sind, einschließlich der physischen Plattform, des Betriebssystems und alle wichtigen lync Server 2013 Dienste. Vorbeugende Wartung und proaktive Überwachung helfen Ihnen bei der Ermittlung möglicher Fehler und Probleme, die sich negativ auf die lync Server 2013-Bereitstellung auswirken können.
+Um die Verfügbarkeit und Zuverlässigkeit der lync Server 2013-Bereitstellung sicherzustellen, sollten Sie im Rahmen der täglichen Routineüberwachung und Testen von Elementen, die für die Funktionsweise des Systems wichtig sind, die die physische Plattform, das Betriebssystem und alle wichtigen lync Server 2013 Dienste umfassen. Vorbeugende Wartung und proaktive Überwachung helfen Ihnen bei der Ermittlung möglicher Fehler und Probleme, die sich negativ auf die lync Server 2013-Bereitstellung auswirken können.
 
 Das Überwachen der lync Server 2013-Bereitstellung umfasst das Überprüfen auf Probleme mit Verbindungen, Diensten, Server Ressourcen und Systemressourcen. Windows Server-Betriebssysteme, zusammen mit System Center Operations Manager und lync Server Ihnen zahlreiche Überwachungstools und-Dienste zur Verfügung stellen, um sicherzustellen, dass die lync Server Organisation reibungslos ausgeführt wird. Wenn diese Technologien gemeinsam implementiert werden, können Administratoren Warnungen erhalten, wenn oder bevor Probleme auftreten.
 

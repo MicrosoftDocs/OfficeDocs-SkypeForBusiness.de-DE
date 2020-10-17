@@ -12,20 +12,22 @@ ms:contentKeyID: 48183946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2a84b07821601b82e0268c6f5f167105f7d55c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ed1a67fbc037f0828b386bf1339d59851e13680
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517402"
 ---
+# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Konfigurieren des Reverse-Proxys für Mobilität in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Konfigurieren des Reverse-Proxys für Mobilität in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2014-03-20_
 
 Wenn Sie die AutoErmittlung für die Clients mobiler Geräte verwenden möchten, müssen Sie eine neue Webveröffentlichungsregel für den Reverseproxy erstellen oder eine vorhandene bearbeiten, ganz gleich, ob Sie die Listen der alternativen Antragstellernamen für die Reverseproxyzertifikate aktualisieren oder nicht.
 
-Wenn Sie HTTPS für die anfängliche lync Server 2013 AutoErmittlungs-Dienstanforderungen verwenden und die Listen alternativer Antragstellernamen in den Reverse-Proxy Zertifikaten aktualisieren, müssen Sie das aktualisierte öffentliche Zertifikat dem Secure Sockets Layer (SSL) Listener auf zuweisen. Reverse-Proxy. Ausführliche Informationen zu den erforderlichen Einträgen für alternative Antragstellernamen finden Sie unter [Technical Requirements for Mobility in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Dann müssen Sie den bestehenden Listener für die externen Webdienste bearbeiten oder eine neue Webveröffentlichungsregel für die externe AutoErmittlungsdienst-URL erstellen. Wenn Sie noch nicht über eine Webveröffentlichungsregel für die externe lync Server 2013 Webdienste-URL für Ihre Front-End-Pool verfügen, müssen Sie auch eine Regel dafür veröffentlichen.
+Wenn Sie HTTPS für die anfängliche lync Server 2013 AutoErmittlungs-Dienstanforderungen verwenden und die Listen alternativer Antragstellernamen in den Reverse-Proxy Zertifikaten aktualisieren, müssen Sie das aktualisierte öffentliche Zertifikat dem Secure Sockets Layer (SSL) Listener auf dem Reverseproxy zuweisen. Ausführliche Informationen zu den erforderlichen Einträgen für alternative Antragstellernamen finden Sie unter [Technical Requirements for Mobility in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Dann müssen Sie den bestehenden Listener für die externen Webdienste bearbeiten oder eine neue Webveröffentlichungsregel für die externe AutoErmittlungsdienst-URL erstellen. Wenn Sie noch nicht über eine Webveröffentlichungsregel für die externe lync Server 2013 Webdienste-URL für Ihre Front-End-Pool verfügen, müssen Sie auch eine Regel dafür veröffentlichen.
 
 <div>
 
@@ -83,15 +85,15 @@ Die Vorgehensweisen in diesem Abschnitt beschreiben, wie die neuen Webveröffent
 
 7.  Geben Sie auf der Seite **interne Veröffentlichungs Details** unter **interner Websitename**den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) Ihrer Directorpool ein (beispielsweise lyncdir01. contoso. local). Wenn Sie eine Regel für die externe Webdienste-URL im Front-End-Pool erstellen, geben Sie die VIP-Adresse des Hardware Lastenausgleichs (HLB) vor dem Front-End-Pool ein.
 
-8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** im **Pfad (optional)** als Pfad zu dem zu veröffentlichenden Ordner ein, und wählen Sie dann **den ursprünglichen Hostheader weiterleiten**aus.
+8.  Geben Sie auf der Seite **interne Veröffentlichungs Details** im **Pfad (optional)** **/\*** als Pfad zu dem zu veröffentlichenden Ordner ein, und wählen Sie dann **den ursprünglichen Hostheader weiterleiten**aus.
 
 9.  Führen Sie auf der Seite **Details des öffentlichen Namens** folgende Schritte aus:
     
       - Wählen Sie unter **Anforderungen annehmen für:** den Eintrag**Diesen Domänennamen** aus.
     
-      - Geben Sie im **öffentlichen Namen** **lyncdiscover.** \<sipdomain "\> (die externe AutoErmittlungsdienst-URL). Wenn Sie eine Regel für die externe Webdienste-URL im Front-End-Pool erstellen, geben Sie den FQDN für die externe Webdienste auf dem Front-End-Pool ein (beispielsweise lyncwebextpool01.contoso.com).
+      - Geben Sie im **öffentlichen Namen** **lyncdiscover.**\<sipdomain\> (die externe AutoErmittlungsdienst-URL). Wenn Sie eine Regel für die externe Webdienste-URL im Front-End-Pool erstellen, geben Sie den FQDN für die externe Webdienste auf dem Front-End-Pool ein (beispielsweise lyncwebextpool01.contoso.com).
     
-      - Geben **** Sie im Pfad ** / **den Namen ein.
+      - Geben Sie im **Pfad**den Namen ein **/\*** .
 
 10. Wählen Sie auf der Seite **Weblistener auswählen** im Feld **Weblistener** den vorhandenen SSL-Listener mit dem aktualisierten öffentlichen Zertifikat aus.
 
@@ -172,15 +174,15 @@ Die Vorgehensweisen in diesem Abschnitt beschreiben, wie die neuen Webveröffent
 
 7.  Geben Sie auf der Seite **interne Veröffentlichungs Details** unter **interner Websitename**die VIP-Adresse des Hardware Lastenausgleichs (HLB) vor dem Front-End-Pool ein.
 
-8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** im Feld **Pfad (optional)** den Pfad des zu veröffentlichenden Ordners ein, und wählen Sie dann **den ursprünglichen Hostheader anstelle des im Feld Interner Websitename angegebenen Forwards**aus.
+8.  Geben Sie auf der Seite **interne Veröffentlichungs Details** im Feld **Pfad (optional)** **/\*** den Pfad des zu veröffentlichenden Ordners ein, und wählen Sie dann **den ursprünglichen Hostheader anstelle des im Feld Interner Websitename angegebenen Forwards**aus.
 
 9.  Führen Sie auf der Seite **Details des öffentlichen Namens** folgende Schritte aus:
     
       - Wählen Sie unter **Anforderungen annehmen für:** den Eintrag**Diesen Domänennamen** aus.
     
-      - Geben Sie im **öffentlichen Namen** **lyncdiscover.** \<sipdomain "\> (die externe AutoErmittlungsdienst-URL).
+      - Geben Sie im **öffentlichen Namen** **lyncdiscover.**\<sipdomain\> (die externe AutoErmittlungsdienst-URL).
     
-      - Geben **** Sie im Pfad ** / **den Namen ein.
+      - Geben Sie im **Pfad**den Namen ein **/\*** .
 
 10. Wählen Sie auf der Seite **Weblistener auswählen** im Feld **Weblistener** einen Weblistener aus, oder erstellen Sie mit dem Assistenten für neue Weblistenerdefinition einen neuen Weblistener.
 

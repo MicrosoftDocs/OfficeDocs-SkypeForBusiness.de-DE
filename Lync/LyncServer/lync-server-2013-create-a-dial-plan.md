@@ -12,20 +12,22 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 382b04f9b0aa835d0230cb05fb56cb272546c038
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f530faa83cb2e924d93abce6f7496c3ef1b82311
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192928"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516922"
 ---
+# <a name="create-a-dial-plan-in-lync-server-2013"></a>Erstellen von Wähleinstellungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dial-plan-in-lync-server-2013"></a>Erstellen von Wähleinstellungen in lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Führen Sie die folgenden Schritte aus, um einen Wählplan zu erstellen. Wenn Si
     
 
     > [!IMPORTANT]  
-    > Der <STRONG>einfache Name</STRONG> muss unter allen Wählplänen innerhalb der lync Server-Bereitstellung eindeutig sein. Er darf 256 Unicode-Zeichen nicht überschreiten, von denen jedes ein alphabetisches oder numerisches Zeichen, ein Bindestrich (-), ein Punkt (.) oder ein Unterstrich (_) sein kann.<BR><STRONG>Nicht unterstützte</STRONG> Zeichen umfassen Leerzeichen und reservierte Zeichen gemäßhttp://www.ietf.org/rfc/rfc3966.txt)der Definition in RFC 3966 (. Reservierte Zeichen, die im <STRONG>einfachen Namen</STRONG> <STRONG>nicht unterstützt</STRONG> werden, umfassen Folgendes:<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+    > Der <STRONG>einfache Name</STRONG> muss unter allen Wählplänen innerhalb der lync Server-Bereitstellung eindeutig sein. Er darf 256 Unicode-Zeichen nicht überschreiten, von denen jedes ein alphabetisches oder numerisches Zeichen, ein Bindestrich (-), ein Punkt (.) oder ein Unterstrich (_) sein kann.<BR><STRONG>Nicht unterstützte</STRONG> Zeichen umfassen Leerzeichen und reservierte Zeichen gemäß der Definition in RFC 3966 ( http://www.ietf.org/rfc/rfc3966.txt) . Reservierte Zeichen, die im <STRONG>einfachen Namen</STRONG> <STRONG>nicht unterstützt</STRONG> werden, umfassen Folgendes:<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
     
     </div>
@@ -101,7 +103,7 @@ Führen Sie die folgenden Schritte aus, um einen Wählplan zu erstellen. Wenn Si
     
     </div>
 
-9.  (Optional) Geben Sie im Feld **Präfix für externen Zugriff** nur dann einen Wert an, wenn Benutzer eine oder mehrere zusätzliche Nummern wählen müssen, um eine externe Leitung zu erhalten (z. B. 9). Sie können einen Präfixwert von bis zu vier Zeichen eingeben (\#, \*und 0-9).
+9.  (Optional) Geben Sie im Feld **Präfix für externen Zugriff** nur dann einen Wert an, wenn Benutzer eine oder mehrere zusätzliche Nummern wählen müssen, um eine externe Leitung zu erhalten (z. B. 9). Sie können einen Präfixwert von bis zu vier Zeichen eingeben ( \# , \* und 0-9).
     
     <div>
     
@@ -139,7 +141,7 @@ Führen Sie die folgenden Schritte aus, um einen Wählplan zu erstellen. Wenn Si
     
 
     > [!IMPORTANT]  
-    > Lync Server durchläuft die Liste Normalisierungsregel von oben nach unten und verwendet die erste Regel, die mit der gewählten Nummer übereinstimmt. Wenn Sie einen Satz mit Wähleinstellungen so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind.<BR>Die standardmäßige Normalisierungsregel " <STRONG>Keep all</STRONG> " <STRONG>^ ({11}\d) $</STRONG> entspricht einer beliebigen 11-stelligen Zahl. Wenn Sie beispielsweise eine Normalisierungsregel hinzufügen, die 11-stelligen Zahlen entspricht, die mit 1425 beginnen, stellen Sie sicher, dass <STRONG>Alle beibehalten</STRONG> unter der restriktiveren <STRONG>^ (1425 \{7}d) $</STRONG> -Regel sortiert ist.
+    > Lync Server durchläuft die Liste Normalisierungsregel von oben nach unten und verwendet die erste Regel, die mit der gewählten Nummer übereinstimmt. Wenn Sie einen Satz mit Wähleinstellungen so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind.<BR>Die standardmäßige Normalisierungsregel " <STRONG>Keep all</STRONG> " <STRONG>^ (\d {11} ) $</STRONG> entspricht einer beliebigen 11-stelligen Zahl. Wenn Sie beispielsweise eine Normalisierungsregel hinzufügen, die 11-stelligen Zahlen entspricht, die mit 1425 beginnen, stellen Sie sicher, dass <STRONG>Alle beibehalten</STRONG> unter der restriktiveren <STRONG>^ (1425 \ d {7} ) $</STRONG> -Regel sortiert ist.
 
     
     </div>

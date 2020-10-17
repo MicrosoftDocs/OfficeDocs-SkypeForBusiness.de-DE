@@ -12,20 +12,22 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 522f1d1240e73775ae1f0976556b882ba00fe1d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dc01c8bed503f06806c873431ef201e03c31811
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180072"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516892"
 ---
+# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>Erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>Erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um eine Konferenzrichtlinie auf Benutzer
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **Konferenzrichtlinie**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und dann auf **Konferenzrichtlinie**.
 
 4.  Klicken Sie auf **Neu**, und führen Sie eine der folgenden Aktionen aus:
     
@@ -154,7 +156,7 @@ Führen Sie die folgenden Schritte aus, um eine Konferenzrichtlinie auf Benutzer
 
 5.  Ändern Sie im Abschnitt **Konferenzrichtlinie bearbeiten** eine beliebige der Richtlinieneinstellungen. Hiervon ausgenommen ist der Richtlinienname, dieser kann nicht geändert werden.
 
-6.  Klicken Sie auf **Commit**.
+6.  Klicken Sie auf **Commit ausführen**.
 
 </div>
 

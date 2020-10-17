@@ -12,20 +12,22 @@ ms:contentKeyID: 48183943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33ca4ebfd56407bfd162bd7df76be98c890e2fbf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2eaa9da579561464c46776662cacaca80dafe016
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517682"
 ---
+# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>Konfigurieren der Unterstützung für zugelassene externe Domänen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>Konfigurieren der Unterstützung für zugelassene externe Domänen in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie 
 
 
 > [!NOTE]  
-> In diesem Verfahren wird beschrieben, wie Sie die Unterstützung für bestimmte Domänen konfigurieren, aber die Implementierung der Unterstützung für Partnerverbund Benutzer erfordert auch, dass Sie die Unterstützung für Partnerverbund Benutzer für Ihre Organisation aktivieren und Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer Zusammenarbeit mit Partnerverbund Benutzern. Ausführliche Informationen zum Aktivieren der Unterstützung für Partnerverbund Benutzer finden Sie unter <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013</A>. Ausführliche Informationen zum Konfigurieren von Richtlinien zur Steuerung des Verbunds finden Sie unter <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">configure Policies to Control Federated User Access in lync Server 2013</A>.
+> In diesem Verfahren wird beschrieben, wie Sie die Unterstützung für bestimmte Domänen konfigurieren, aber das Implementieren der Unterstützung für Partnerverbund Benutzer erfordert auch, dass Sie die Unterstützung für Partnerverbund Benutzer für Ihre Organisation aktivieren und Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer mit Partnerverbund Benutzern zusammenarbeiten können. Ausführliche Informationen zum Aktivieren der Unterstützung für Partnerverbund Benutzer finden Sie unter <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013</A>. Ausführliche Informationen zum Konfigurieren von Richtlinien zur Steuerung des Verbunds finden Sie unter <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">configure Policies to Control Federated User Access in lync Server 2013</A>.
 
 
 

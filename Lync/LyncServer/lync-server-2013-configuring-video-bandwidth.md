@@ -12,20 +12,22 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8995f47ff1059921c324d71cbaca26fa47c50ca0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3e1c4b0dab165c43e873c49039896f0af80f7f3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195648"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516982"
 ---
+# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>Konfigurieren der Videobandbreite in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>Konfigurieren der Videobandbreite in lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Die in diesem Abschnitt beschriebenen Parameter gelten für Anrufe mit zwei und 
 
 Überprüfen Sie in Ihrer Konferenzrichtlinie die folgenden Einstellungen:
 
-  - **VideoBitRateKb**   mit dieser Einstellung wird die maximale Video Bitrate (Kbit/s) angegeben, die für von einem Benutzer gesendete Videodaten verwendet wird. Der Standardwert ist 50.000 KBit/s. Gültige Werte sind 0 bis 50.000 KBit/s.
+  - **VideoBitRateKb**     Diese Einstellung gibt die maximale Video Bitrate (Kbit/s) an, die für von einem Benutzer gesendete Videodaten verwendet wird. Der Standardwert ist 50.000 KBit/s. Gültige Werte sind 0 bis 50.000 KBit/s.
     
     Diese Einstellung gilt separat für Haupt- und Panoramavideo.
     
@@ -64,7 +66,7 @@ Die in diesem Abschnitt beschriebenen Parameter gelten für Anrufe mit zwei und 
     
     </div>
 
-  - **TotalReceiveVideoBitRateKb**   diese Einstellung, die neu in lync Server 2013 ist, gibt die maximal zulässige Bitrate (in Kbit/s) für alle Videodatenströme an, die von einem Client empfangen werden. Dies bedeutet, dass damit der kombinierte Gesamtwert für alle Videostreams mit Ausnahme der Panoramavideo-Streams angegeben wird, die ein Client empfangen kann. Wenn Sie beispielsweise 1.500 KBit/s angeben, kann ein Client bis zu 1.500 KBit/s an Videoinhalten empfangen, die aus einem einzelnen oder mehreren Videostreams bestehen können. Diese Einstellung gilt nur für lync Server 2013 Clients.
+  - **TotalReceiveVideoBitRateKb**     Diese Einstellung, die neu in lync Server 2013 ist, gibt die maximal zulässige Bitrate (in Kbit/s) für alle Videodatenströme an, die von einem Client empfangen werden. Dies bedeutet, dass damit der kombinierte Gesamtwert für alle Videostreams mit Ausnahme der Panoramavideo-Streams angegeben wird, die ein Client empfangen kann. Wenn Sie beispielsweise 1.500 KBit/s angeben, kann ein Client bis zu 1.500 KBit/s an Videoinhalten empfangen, die aus einem einzelnen oder mehreren Videostreams bestehen können. Diese Einstellung gilt nur für lync Server 2013 Clients.
     
     Der Standardwert für **TotalReceiveVideoBitRateKb** ist 50.000 KBit/s. Wenn die **EnableMultiviewJoin**-Einstellung für die Katalogansicht auf "True" festgelegt ist, darf **TotalReceiveVideoBitRateKb** nicht auf weniger als 420 KBit/s festgelegt sein. Wenn die **EnableMultiviewJoin**-Einstellung für die Katalogansicht auf "True" festgelegt ist, darf **TotalReceiveVideoBitRateKb** nicht auf weniger als 100 KBit/s festgelegt sein. Wenn **EnableMultiviewJoin** auf "True" festgelegt ist und Sie den Wert auf weniger als 420 KBit/s festlegen, werden die Werte standardmäßig auf den Schwellenwert festgelegt. Dieser Schwellenwert verhindert versehentliche Fehlkonfigurationen, die eine schlechte Benutzererfahrung zur Folge haben könnten.
     
@@ -77,7 +79,7 @@ Die in diesem Abschnitt beschriebenen Parameter gelten für Anrufe mit zwei und 
     
     </div>
 
-  - **MaxVideoConferencingResolution**   dieser Parameter wird nicht mehr für lync Server 2013 Clients in lync Server 2013 Konferenzen verwendet. In lync Server 2013 Konferenzen werden die weiter oben in diesem Abschnitt beschriebenen Bitraten Steuerelemente verwendet. Diese Einstellung wird weiterhin für Legacyclients verwendet, die einer lync Server 2013 Konferenz beitreten. Dieser Parameter bestimmt die maximal zulässige Auflösung für Legacyclients in Konferenzen, die von Benutzern organisiert werden, die in lync Server 2013 verwaltet werden. Ältere Clients werden also genauso behandelt wie in früheren Versionen von lync Server oder Office Communications Server.
+  - **MaxVideoConferencingResolution**     Dieser Parameter wird nicht mehr für lync Server 2013 Clients in lync Server 2013 Konferenzen verwendet. In lync Server 2013 Konferenzen werden die weiter oben in diesem Abschnitt beschriebenen Bitraten Steuerelemente verwendet. Diese Einstellung wird weiterhin für Legacyclients verwendet, die einer lync Server 2013 Konferenz beitreten. Dieser Parameter bestimmt die maximal zulässige Auflösung für Legacyclients in Konferenzen, die von Benutzern organisiert werden, die in lync Server 2013 verwaltet werden. Ältere Clients werden also genauso behandelt wie in früheren Versionen von lync Server oder Office Communications Server.
 
 Überprüfen Sie zusätzlich zu den für Benutzer geltenden Einstellungen für Konferenzrichtlinien die Medienkonfigurationseinstellungen. Sie können diese Einstellungen mithilfe eines der folgenden Cmdlets anzeigen oder ändern:
 
@@ -89,7 +91,7 @@ Die in diesem Abschnitt beschriebenen Parameter gelten für Anrufe mit zwei und 
 
 Überprüfen Sie die folgenden Einstellungen:
 
-  - **MaxVideoRateAllowed**   diese pro-Pool-Einstellung gibt die maximale Rate an, mit der Videosignale an den Clientendpunkten übertragen werden. Sie gilt nur für frühere Versionen von lync Server Clients.
+  - **MaxVideoRateAllowed**     Diese Einstellung pro Pool gibt die maximale Rate an, mit der Videosignale an den Clientendpunkten übertragen werden. Sie gilt nur für frühere Versionen von lync Server Clients.
     
     <div>
     

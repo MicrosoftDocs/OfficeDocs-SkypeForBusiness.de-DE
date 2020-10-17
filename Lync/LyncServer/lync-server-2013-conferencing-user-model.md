@@ -12,20 +12,22 @@ ms:contentKeyID: 48185229
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1049ff2d11d76e78661636972c812cc6c9c731f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8f16ebf97a23bad014fde7fa9ebfbe005c4b95a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199036"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517672"
 ---
+# <a name="the-conferencing-user-model-in-lync-server-2013"></a>Das Benutzermodell für Konferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-conferencing-user-model-in-lync-server-2013"></a>Das Benutzermodell für Konferenzen in lync Server 2013
+
 
 </div>
 
@@ -47,13 +49,13 @@ Ein wichtiger Bestandteil des Benutzermodells für lync Server Konferenzen ist d
 
 Neben dem Besprechungsumfang berücksichtigt das Konferenzbenutzermodell auch eine Reihe von Faktoren, wie zum Beispiel:
 
-  - **Gleichzeitige Besprechungen**   wie viele Benutzer werden in Besprechungen gleichzeitig erwartet?
+  - **Gleichzeitige Besprechungen**     Wie viele Benutzer werden in Besprechungen gleichzeitig erwartet?
 
-  - **Medienmischung**   welche Arten von Medien sind verfügbar und werden von Benutzern in Besprechungen voraussichtlich verwendet?
+  - **Medienmischung**     Welche Arten von Medien sind verfügbar und sollen von Benutzern in Besprechungen verwendet werden?
 
-  - **Benutzertypen**   sind Benutzer interne Benutzer, Remotebenutzer, Verbundbenutzer oder anonyme Benutzer?
+  - **Benutzertypen**     Sind Benutzer interne Benutzer, Remotebenutzer, Verbundbenutzer oder anonyme Benutzer?
 
-  - **Meeting-Ramp up time**   wie lange dauert es, bis alle Benutzer einer Besprechung an einer Besprechung teilnehmen?
+  - **Besprechungs Rampen-Zeit**     Wie lange dauert es, bis alle Benutzer einer Besprechung an einer Besprechung teilnehmen?
 
 Ausführliche Informationen zum Benutzermodell finden Sie unter [Benutzermodelle in lync Server 2013](lync-server-2013-user-models.md).
 

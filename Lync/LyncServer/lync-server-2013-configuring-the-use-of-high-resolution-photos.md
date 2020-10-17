@@ -12,20 +12,22 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a49618cd4039163f22d44f358c29a802037b8b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e817e86d6f05291192593e2345b9e4bc1c0b6db3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209311"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517352"
 ---
+# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Konfigurieren der Verwendung von hochauflösenden Fotos in Microsoft lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Konfigurieren der Verwendung von hochauflösenden Fotos in Microsoft lync Server 2013
+
 
 </div>
 
@@ -63,13 +65,13 @@ Hochauflösende Fotos, auf die mithilfe von Exchange Webdienste zugegriffen werd
     Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Confirm:$False
     Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 
-Im ersten Befehl im vorherigen Beispiel wird das Cmdlet Get-Content verwendet, um den Inhalt der Datei C:\\Photos\\kenmyer. jpg zu lesen und diese Daten in einer Variablen namens $Photo zu speichern. Im zweiten Befehl wird das Exchange-Cmdlet "UserPhoto" verwendet, um das Foto hochzuladen und das Foto an das Benutzerkonto von Ken Myers anzufügen.
+Der erste Befehl im vorherigen Beispiel verwendet das Get-Content-Cmdlet, um den Inhalt der Datei C: \\ FotosKenmyer.jpg zu lesen \\ und diese Daten in einer Variablen mit dem Namen "$Photo" zu speichern. Im zweiten Befehl wird das Exchange-Cmdlet Set-UserPhoto verwendet, um das Foto hochzuladen und das Foto an das Benutzerkonto von Ken Myers anzufügen.
 
 <div>
 
 
 > [!NOTE]  
-> In diesem Beispiel wird der Active Directory-Anzeigename von Ken Myer als Benutzerkontoidentität verwendet. Sie können ein Benutzerkonto auch über andere IDs referenzieren, wie die SMTP-Adresse des Benutzers oder dessen Benutzerprinzipalnamen. Weitere Informationen finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=268536">https://go.microsoft.com/fwlink/p/?LinkId=268536</A> der Dokumentation zum Cmdlet "Cmdlet" unter "UserPhoto".
+> In diesem Beispiel wird der Active Directory-Anzeigename von Ken Myer als Benutzerkontoidentität verwendet. Sie können ein Benutzerkonto auch über andere IDs referenzieren, wie die SMTP-Adresse des Benutzers oder dessen Benutzerprinzipalnamen. Weitere Informationen finden Sie in der Dokumentation für das Set-UserPhoto-Cmdlet unter. <A href="https://go.microsoft.com/fwlink/p/?linkid=268536">https://go.microsoft.com/fwlink/p/?LinkId=268536</A>
 
 
 
@@ -85,7 +87,7 @@ Um zu überprüfen, ob das neue Foto dem Benutzerkonto zugewiesen wurde, kann Ke
 
 Wenn der Administrator das Foto mit Internet Explorer anzeigen kann, der Benutzer aber sein Foto nicht in lync 2013 anzeigen kann, deutet dies normalerweise auf ein Verbindungsproblem mit Exchange Webdienste oder dem Exchange-AutoErmittlungsdienst hin.
 
-Beachten Sie auch, dass keine zusätzliche Konfiguration erforderlich ist, um dieses Foto in lync 2013 zur Verfügung zu stellen. Stattdessen ist das Foto sofort verfügbar, nachdem es hochgeladen wurde und das Cmdlet "UserPhoto" ausgeführt wurde.
+Beachten Sie auch, dass keine zusätzliche Konfiguration erforderlich ist, um dieses Foto in lync 2013 zur Verfügung zu stellen. Stattdessen ist das Foto sofort verfügbar, nachdem es hochgeladen wurde und das Set-UserPhoto-Cmdlet ausgeführt wurde.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 443f353a43c2fdfd2f9fc8c7ce1a1b20c11a4a84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b602e29e0f90a49a031c25d6bb919337bef87b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187398"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516542"
 ---
+# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Datenbankinstallation mit lync Server-Verwaltungsshell in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Datenbankinstallation mit lync Server-Verwaltungsshell in lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Die Trennung von Rollen und Zuständigkeiten zwischen Serveradministratoren und 
 
 
 > [!IMPORTANT]  
-> Im folgenden Verfahren wird davon ausgegangen, dass mindestens die lync Server 2013 OCSCore. msi, SQL Server Native Client (sqlncli. msi) Microsoft SQL Server 2012-Verwaltungsobjekte, CLR-Typen für Microsoft SQL Server 2012 und Microsoft SQL Server 2012 ADOMD.NET installiert sind. Die OCSCore. msi befindet sich auf dem Installationsmedium im \Setup\AMD64\Setup-Verzeichnis. Die restlichen Komponenten befinden sich in \setup\amd64. Darüber hinaus wurde Active Directory Vorbereitung für lync Server 2013 erfolgreich abgeschlossen.
+> Im folgenden Verfahren wird davon ausgegangen, dass mindestens die lync Server 2013 OCSCore.msi, SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012-Verwaltungsobjekte, CLR-Typen für Microsoft SQL Server 2012 und Microsoft SQL Server 2012 ADOMD.NET installiert sind. Die OCSCore.msi befindet sich auf dem Installationsmedium im Verzeichnis \Setup\AMD64\Setup. Die restlichen Komponenten befinden sich in \setup\amd64. Darüber hinaus wurde Active Directory Vorbereitung für lync Server 2013 erfolgreich abgeschlossen.
 
 
 
@@ -77,7 +79,7 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
 
 1.  Melden Sie sich auf einem beliebigen Computer mit administrativen Anmeldeinformationen für die Erstellung der Datenbanken auf dem SQL Server basierten Server an. Ausführliche Informationen finden Sie unter [Deployment Permissions for SQL Server in lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Öffnen Sie die lync Server 2013 Management-Shell. Wenn Sie die Ausführungsrichtlinie für Windows PowerShell nicht angepasst haben, müssen Sie die Richtlinie so anpassen, dass Windows PowerShell Skripts ausgeführt werden können. Ausführliche Informationen finden Sie unter "Überprüfen der Ausführungsrichtlinie" [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)unter.
+2.  Öffnen Sie die lync Server 2013 Management-Shell. Wenn Sie die Ausführungsrichtlinie für Windows PowerShell nicht angepasst haben, müssen Sie die Richtlinie so anpassen, dass Windows PowerShell Skripts ausgeführt werden können. Ausführliche Informationen finden Sie unter "Überprüfen der Ausführungsrichtlinie" unter [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093) .
 
 3.  Verwenden Sie das Cmdlet **install-CsDatabase** , um den zentralen Verwaltungsspeicher zu installieren.
     
@@ -122,7 +124,7 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
     
 
     > [!IMPORTANT]  
-    > Um die SQL Server basierten Datenbanken konfigurieren zu können, müssen Sie sicherstellen, dass das SQL Server Administratorkonto, das zum Ausführen der hier beschriebenen Schritte verwendet wird, auch ein Mitglied der Gruppe "Sysadmins" (oder einer gleichwertigen) auf dem Server ist, auf dem SQL Server ausgeführt wird und das die zentrale Verwaltung hält. Server Rolle. Dies ist besonders wichtig, um nach zusätzlichen lync Server 2013 Pools zu suchen, die SQL Server Datenbankinstallation oder-Konfiguration erfordern. Wenn Sie beispielsweise einen zweiten Pool (pool02) bereitstellen, die zentrale Verwaltungs Server Rolle jedoch von pool01 gehalten wird. Die SQL Server Gruppe "sysadmin" (oder gleichwertig) muss über Berechtigungen für beide SQL Server basierte Datenbanken verfügen.
+    > Um die SQL Server basierten Datenbanken konfigurieren zu können, müssen Sie sicherstellen, dass das SQL Server Administratorkonto, das zum Ausführen der hier beschriebenen Schritte verwendet wird, auch ein Mitglied der Gruppe "Sysadmins" (oder gleichwertig) auf dem Server ist, auf dem SQL Server ausgeführt wird und die zentrale Verwaltungsserverrolle innehat. Dies ist besonders wichtig, um nach zusätzlichen lync Server 2013 Pools zu suchen, die SQL Server Datenbankinstallation oder-Konfiguration erfordern. Wenn Sie beispielsweise einen zweiten Pool (pool02) bereitstellen, die zentrale Verwaltungs Server Rolle jedoch von pool01 gehalten wird. Die SQL Server Gruppe "sysadmin" (oder gleichwertig) muss über Berechtigungen für beide SQL Server basierte Datenbanken verfügen.
 
     
     </div>
@@ -166,7 +168,7 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
     
 
     > [!IMPORTANT]  
-    > Um die SQL Server basierten Datenbanken konfigurieren zu können, müssen Sie sicherstellen, dass das SQL Server Administratorkonto, das zum Ausführen der hier beschriebenen Schritte verwendet wird, auch ein Mitglied der Gruppe "Sysadmins" (oder einer gleichwertigen) auf dem Server ist, auf dem SQL Server ausgeführt wird und das die zentrale Verwaltung hält. Server Rolle. Dies ist besonders wichtig, um nach zusätzlichen lync Server Pools zu suchen, die SQL Server Datenbankinstallation oder-Konfiguration erfordern. Wenn Sie beispielsweise einen zweiten Pool (pool02) bereitstellen, die zentrale Verwaltungs Server Rolle jedoch von pool01 gehalten wird. Die SQL Server Gruppe "sysadmin" (oder gleichwertig) muss über Berechtigungen für beide SQL Server basierte Datenbanken verfügen.
+    > Um die SQL Server basierten Datenbanken konfigurieren zu können, müssen Sie sicherstellen, dass das SQL Server Administratorkonto, das zum Ausführen der hier beschriebenen Schritte verwendet wird, auch ein Mitglied der Gruppe "Sysadmins" (oder gleichwertig) auf dem Server ist, auf dem SQL Server ausgeführt wird und die zentrale Verwaltungsserverrolle innehat. Dies ist besonders wichtig, um nach zusätzlichen lync Server Pools zu suchen, die SQL Server Datenbankinstallation oder-Konfiguration erfordern. Wenn Sie beispielsweise einen zweiten Pool (pool02) bereitstellen, die zentrale Verwaltungs Server Rolle jedoch von pool01 gehalten wird. Die SQL Server Gruppe "sysadmin" (oder gleichwertig) muss über Berechtigungen für beide SQL Server basierte Datenbanken verfügen.
 
     
     </div>
@@ -175,7 +177,7 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
 
 4.  Verwenden Sie das Cmdlet **install-CsDatabase** mit dem Parameter DatabasePathMap und einer PowerShell-Hashtabelle, um die konfigurierten Datenbanken des Topologie-Generators zu installieren.
 
-5.  Im Beispielcode können die für die Datenbanken definierten Pfade auf granulare Weise mithilfe des Parameters – DatabasePathMap und einer definierten Hashtabelle wie folgt bestimmt werden (das Beispiel verwendet "c:\\CSData" für alle Datenbankdateien (MDF) und "c:\\CSLogFiles" für alle Protokolldateien (LDF). Der Ordner wird bei Bedarf von install-CsDatabase erstellt:
+5.  Im Beispielcode können die für die Datenbanken definierten Pfade auf granulare Weise mithilfe des Parameters – DatabasePathMap und einer definierten Hashtabelle wie folgt bestimmt werden (das Beispiel verwendet "c: \\ CSData" für alle Datenbankdateien (MDF) und "c: \\ CSLogFiles" für alle Protokolldateien (LDF). Der Ordner wird bei Bedarf von install-CsDatabase erstellt:
     ```powershell
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
@@ -192,29 +194,29 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
     ```
 6.  Da die Datenbank-und Protokolldateien explizit mit ihrem Speicherort auf dem Zieldatenbankserver benannt werden, können Sie bestimmte Speicherorte für die tatsächliche Datenbank und den Protokollspeicherort der einzelnen Diensttypen definieren. Im folgenden Beispiel werden Datenbanken für jeden bestimmten Diensttyp auf separaten Datenträgern und zugeordneten Protokolldateien auf einem anderen platziert. Zum Beispiel:
     
-      - Alle RTC-Datenbanken in "\\D: RTCDatabase"
+      - Alle RTC-Datenbanken in "D: \\ RTCDatabase"
     
-      - Alle RTC-Protokolldateien in "E\\: RTCLogs"
+      - Alle RTC-Protokolldateien in "E: \\ RTCLogs"
     
-      - Alle Anwendungsspeicher Datenbanken in "F:\\CPSDatabases"
+      - Alle Anwendungsspeicher Datenbanken in "F: \\ CPSDatabases"
     
-      - Alle Anwendungsspeicher Protokolle in "G:\\CPSLogs"
+      - Alle Anwendungsspeicher Protokolle in "G: \\ CPSLogs"
     
-      - Alle Datenbanken der Reaktionsgruppen Speicherung in "\\H: RGSDatabases"
+      - Alle Datenbanken der Reaktionsgruppen Speicherung in "H: \\ RGSDatabases"
     
-      - Alle Reaktionsgruppen Speicherprotokolle in "I:\\RGSLogs"
+      - Alle Reaktionsgruppen Speicherprotokolle in "I: \\ RGSLogs"
     
-      - Alle Adressbuchspeicher-Datenbanken in "\\J: ABSDatabases"
+      - Alle Adressbuchspeicher-Datenbanken in "J: \\ ABSDatabases"
     
-      - Alle Protokolldateien des Adressbuch Speichers in "\\K: ABSLogs"
+      - Alle Protokolldateien des Adressbuch Speichers in "K: \\ ABSLogs"
     
-      - Alle Archivierungsspeicher Datenbanken in "L:\\ArchivingDatabases"
+      - Alle Archivierungsspeicher Datenbanken in "L: \\ ArchivingDatabases"
     
-      - Alle Archivierungsspeicher Protokolle in "M:\\ArchivingLogs"
+      - Alle Archivierungsspeicher Protokolle in "M: \\ ArchivingLogs"
     
-      - Alle Überwachungsspeicher Datenbanken in "N:\\MonitoringDatabases"
+      - Alle Überwachungsspeicher Datenbanken in "N: \\ MonitoringDatabases"
     
-      - Alle Überwachungsspeicher-Protokolldateien in "O\\: MonitoringLogfiles"
+      - Alle Überwachungsspeicher-Protokolldateien in "O: \\ MonitoringLogfiles"
     
     <!-- end list -->
     

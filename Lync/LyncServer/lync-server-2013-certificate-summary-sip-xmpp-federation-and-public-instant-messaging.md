@@ -1,5 +1,5 @@
 ---
-title: Zusammenfassung des Zertifikats – SIP, XMPP Federation und Public Instant Messaging
+title: Zertifikatzusammenfassung für SIP, XMPP-Partnerverbund und öffentliche Sofortnachrichten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49105659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fc3b7a1745d045954fb06403dbb3359fb699a29
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 284a633a2c5ce820009c6672058837bbecb7ecd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730215"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517872"
 ---
+# <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Zertifikatzusammenfassung für SIP, XMPP-Partnerverbund und öffentliche Chatnachrichten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Zusammenfassung des Zertifikats – SIP, XMPP Federation und Public Instant Messaging in lync Server 2013
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "41730215"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-15_
+_**Letztes Änderungsstand des Themas:** 2013-03-15_
 
-Die Zertifikate, die Sie für die Föderation mit Microsoft lync Server 2013, lync Server 2010 und Office Communications Server benötigen, werden in der Regel von den Zertifikaten erfüllt, die Sie konfigurieren, anfordern und Ihrem Edgeserver zuweisen.
+Die Zertifikate, die Sie für die Zusammenfassung mit Microsoft lync Server 2013, lync Server 2010 und Office Communications Server benötigen, werden normalerweise von den Zertifikaten erfüllt, die Sie konfigurieren, anfordern und Ihrem Edgeserver zuweisen.
 
-Für die Zertifikatanforderungen für die Aktivierung und Einrichtung der Kommunikation mit dem Extensible Messaging and Presence Protocol (XMPP)-Partner müssen Einträge für Ihre XMPP-Domänen hinzugefügt werden. Der Datensatz, der im Zertifikat als alternativer Betreff (Subject Alternative Name, San) enthalten ist, ist die Domäne, die an der XMPP-Kommunikation teilnehmen kann. Bei der Domäne kann es sich um die Domäne auf Stammebene (beispielsweise contoso.com) handeln, wenn Sie XMPP für Ihre gesamte Domäne aktivieren möchten oder untergeordnete Domänen (beispielsweise Corp.contoso.com, Finance.contoso.com) ausgewählt werden können, wenn Sie XMPP für eine Teilmenge der Benutzer aktivieren.
+Die Zertifikatanforderungen für das Aktivieren und Einrichten von Kommunikation mit XMPP-Partnern (Extensible Messaging and Presence Protocol) erfordern das Hinzufügen von Einträgen für Ihre XMPP-Domänen. Der Eintrag, der auf dem Zertifikat als alternativer Antragstellername (SAN) enthalten ist, ist die Domäne, die an XMPP-Kommunikationen teilnehmen kann. Die Domäne kann die Domäne auf Stammebene sein (beispielsweise contoso.com), wenn Sie XMPP für die gesamte Domäne aktivieren möchten, oder sie kann als untergeordnete Domäne (beispielsweise corp.contoso.com, finance.contoso.com) verwendet werden, wenn Sie XMPP für eine Teilmenge an Benutzern aktivieren.
 
-Wenn Sie Zertifikate für die öffentliche Instant Messaging-Konnektivität konfigurieren möchten, beachten Sie, dass sich nichts von anderen SIP-Verbundtypen oder sogar Standard-Edgeserver-Zertifikaten unterscheidet, es sei denn, dass für America Online (AOL) ein Zertifikat oder Zertifikate erforderlich ist (in der Fall eines Edge-Pools), der auch die Client-EKU enthalten soll. Die Client-EKU ist eine Ergänzung zum Zertifikat und Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.
+Wenn Sie Zertifikate für die Verbindung mit öffentlichen Instant Messaging-Diensten konfigurieren möchten, beachten Sie, dass es nichts anderes als andere SIP-Verbundtypen oder sogar Standard Edgeserver Zertifikate gibt, es sei denn, dass America Online (AOL) ein Zertifikat oder Zertifikate (im Fall eines Edgepools) benötigt, die auch den Client-EKU enthalten. Die EKU des Clients ist eine Ergänzung des Zertifikats und ist Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.
 
-Um zu bestätigen, dass Sie die richtigen Zertifikatanforderungen für Ihre Edge-Server-Bereitstellung erfüllt haben, überprüfen Sie die Themen, die im Abschnitt **Siehe auch**aufgeführt sind.
+Um zu bestätigen, dass Sie die richtigen Zertifikatanforderungen für Ihre Edgeserver-Bereitstellung erfüllt haben, lesen Sie die im Abschnitt **Siehe auch**aufgeführten Themen.
 
 <div>
 
@@ -59,14 +61,14 @@ Um zu bestätigen, dass Sie die richtigen Zertifikatanforderungen für Ihre Edge
 <thead>
 <tr class="header">
 <th>Komponente</th>
-<th>Name des Antragstellers</th>
-<th>Subject Alternative Names (San)</th>
+<th>Antragstellername</th>
+<th>Alternative Antragstellernamen</th>
 <th>Kommentare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Extern/Access-Edge</p></td>
+<td><p>Externer Edgeserver/Zugriffsedge</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
@@ -75,7 +77,7 @@ Um zu bestätigen, dass Sie die richtigen Zertifikatanforderungen für Ihre Edge
 
 
 > [!NOTE]
-> So unterstützen Sie den contoso.com XMPP-Namespace
+> Zur Unterstützung des contoso.com XMPP-Namespaces
 
 
 <p>sip.fabrikam.com</p>
@@ -91,10 +93,10 @@ Um zu bestätigen, dass Sie die richtigen Zertifikatanforderungen für Ihre Edge
 
 
 > [!NOTE]
-> So unterstützen Sie den fabrikam.com XMPP-Namespace
+> Zur Unterstützung des fabrikam.com XMPP-Namespaces
 
 </td>
-<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und über die Server-EKU und den Client-EKU verfügen, wenn öffentliche Chat Verbindungen mit AOL bereitgestellt werden sollen. Das Zertifikat wird den externen Edgeserver-Schnittstellen für Folgendes zugewiesen:</p>
+<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und über die Server-EKU und den Client-EKU verfügen, wenn die Verbindung mit AOL mit öffentlichen Instant Messaging-Diensten bereitgestellt werden soll. Das Zertifikat wird den externen Edgeserver-Schnittstellen für Folgendes zugewiesen:</p>
 <ul>
 <li><p>Zugriffs-Edgedienst</p></li>
 <li><p>Webkonferenz-Edgedienst</p></li>
@@ -104,10 +106,10 @@ Um zu bestätigen, dass Sie die richtigen Zertifikatanforderungen für Ihre Edge
 
 
 > [!NOTE]
-> Technisch wird dem a/V-Rand kein Zertifikat zugewiesen. Die sichere Kommunikation und Authentifizierung wird über den Media Relay Authentication Service (MRAS) verwaltet. MRAS verwendet das Zertifikat, das der internen Schnittstelle des Edge-Servers zugewiesen ist.
+> In technischer Hinsicht wird dem a/V-Edge kein Zertifikat zugewiesen. Die sichere Kommunikation und Authentifizierung wird über den Media Relay-Authentifizierungsdienst (MRAS) verwaltet. MRAS verwendet das Zertifikat, das der internen Edgeserver-Schnittstelle zugewiesen ist.
 
 
-<p>Beachten Sie, dass Sans automatisch dem Zertifikat basierend auf ihren Definitionen im Topologie-Generator hinzugefügt werden. Für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, fügen Sie nach Bedarf San-Einträge hinzu. Der Antragstellername wird im San repliziert und muss für den korrekten Betrieb vorhanden sein.</p></td>
+<p>Beachten Sie, dass SANs dem Zertifikat automatisch hinzugefügt werden, basierend auf Ihren Definitionen im Topologie-Generator. Sie können SAN-Einträge für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, nach Bedarf hinzufügen. Der Antragstellername wird im SAN repliziert und muss zum korrekten Betrieb vorhanden sein.</p></td>
 </tr>
 </tbody>
 </table>
@@ -120,15 +122,15 @@ Um zu bestätigen, dass Sie die richtigen Zertifikatanforderungen für Ihre Edge
 ## <a name="see-also"></a>Siehe auch
 
 
-[Beispiel für eine XMPP-Konfiguration in Lync Server 2013 – XMPP-Partnerverbund mit Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[Beispiel für eine XMPP-Konfiguration in lync Server 2013 – XMPP-Partnerverbund mit Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[Planen von Edgeserver-Zertifikaten in Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
-[Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit privaten IP-Adressen und NAT in Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
-[Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen in Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
-[Zertifikatzusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT in Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)  
-[Zertifikatzusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
-[Zertifikatzusammenfassung für skalierte konsolidierte Edgetopologie mit Hardwarelastenausgleich in Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
+[Planen von Edgeserver Zertifikaten in lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
+[Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit privaten IP-Adressen mithilfe von NAT in lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
+[Zertifikatzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen in lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
+[Zertifikatzusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen mithilfe von NAT in lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)  
+[Zertifikatzusammenfassung für einen skalierten konsolidierten Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
+[Zertifikatzusammenfassung für einen skalierten konsolidierten Edgeserver mit Hardwarelastenausgleichs für den Lastenausgleich in lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
   
 
 </div>

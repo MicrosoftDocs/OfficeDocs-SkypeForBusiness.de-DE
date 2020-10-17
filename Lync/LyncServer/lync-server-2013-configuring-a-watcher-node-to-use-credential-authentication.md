@@ -12,20 +12,22 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ee0d5a07ebd04e6eec585c79eb13b9be7fe98a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e05ac48896b50b4b83e4211a5036f6a6d513d43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199508"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517689"
 ---
+# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Konfigurieren eines Watcher-Knotens für die Verwendung der Anmeldeinformationen-Authentifizierung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Konfigurieren eines Watcher-Knotens für die Verwendung der Anmeldeinformationen-Authentifizierung in lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ Starten Sie den Monitorknotencomputer neu.
 
 ## <a name="installing-the-watcher-node-configuration-files"></a>Installieren der Konfigurationsdateien des Monitorknotens
 
-Nachdem der Monitorknotencomputer neu gestartet wurde, ist der nächste Schritt das Ausführen der Datei "Watchernode.msi". Um diese Datei auszuführen, öffnen Sie die lync Server 2013 Verwaltungsshell, indem Sie auf **Start**und **Alle Programme**klicken, auf **lync Server 2013**und dann auf **lync Server-Verwaltungsshell**klicken. Geben Sie im lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE (stellen Sie sicher, dass Sie den tatsächlichen Pfad zu Ihrer Kopie von Watchernode. msi angeben):
+Nachdem der Monitorknotencomputer neu gestartet wurde, ist der nächste Schritt das Ausführen der Datei "Watchernode.msi". Um diese Datei auszuführen, öffnen Sie die lync Server 2013 Verwaltungsshell, indem Sie auf **Start**und **Alle Programme**klicken, auf **lync Server 2013**und dann auf **lync Server-Verwaltungsshell**klicken. Geben Sie im lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE (stellen Sie sicher, dass Sie den tatsächlichen Pfad zu Ihrer Kopie von Watchernode.msi):
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 

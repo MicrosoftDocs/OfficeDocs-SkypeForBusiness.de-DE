@@ -12,20 +12,22 @@ ms:contentKeyID: 48183336
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c46ec104972eff34f73825fbb384259fc6eb4ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee744459f284355b0bd4aa13f7ac6a1cfba908e2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213251"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516772"
 ---
+# <a name="creating-or-modifying-bandwidth-policy-profiles-in-lync-server-2013"></a>Erstellen oder Ändern von Bandbreitenrichtlinien Profilen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-bandwidth-policy-profiles-in-lync-server-2013"></a>Erstellen oder Ändern von Bandbreitenrichtlinien Profilen in lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Bandbreitenrichtlinie**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Bandbreitenrichtlinie**.
 
 4.  Klicken Sie auf der Seite **Bandbreitenrichtlinie** auf **Neu**.
 
