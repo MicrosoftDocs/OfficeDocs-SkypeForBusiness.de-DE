@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Gruppenrichtlinieneinstellungen für lync 2013'
+description: 'Lync Server 2013: Gruppenrichtlinieneinstellungen für lync 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72493338d854cc0aff63fde5eabb5d7a281fd50e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c6f2b26fc19653b0098ed4775df1f9c8146986c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500712"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564181"
 ---
-# <a name="group-policy-settings-for-lync-2013"></a><span data-ttu-id="f3492-102">Gruppenrichtlinieneinstellungen für lync 2013</span><span class="sxs-lookup"><span data-stu-id="f3492-102">Group Policy settings for Lync 2013</span></span>
+# <a name="group-policy-settings-for-lync-2013"></a><span data-ttu-id="83b12-103">Gruppenrichtlinieneinstellungen für lync 2013</span><span class="sxs-lookup"><span data-stu-id="83b12-103">Group Policy settings for Lync 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48500712"
 
 <span> </span>
 
-<span data-ttu-id="f3492-103">_**Letztes Änderungsstand des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="f3492-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="83b12-104">_**Letztes Änderungsstand des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="83b12-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="f3492-104">In früheren Versionen von lync und Office Communicator Stand eine eigenständige administrative Vorlage "Communicator. adm" zum Konfigurieren von Clientgruppen Richtlinieneinstellungen zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="f3492-104">In previous versions of Lync and Office Communicator, a stand-alone Communicator.adm administrative template was available for configuring client Group Policy settings.</span></span> <span data-ttu-id="f3492-105">Für lync 2013 werden neue administrative Vorlagendateien (ADMX-und ADML-Dateien) zusammen mit der administrativen Vorlage für Office-Gruppenrichtlinien eingeschlossen.</span><span class="sxs-lookup"><span data-stu-id="f3492-105">For Lync 2013, new administrative template files (.admx and .adml files) are included along with the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="f3492-106">Die Verfügbarkeit von lync 2013. ADMX-und. ADML-Dateien ermöglicht Ihnen das Herunterladen von Vorlagen und das zentrale Verwalten von Gruppenrichtlinieneinstellungen für alle Ihre Office-Programme und Sprachpakete.</span><span class="sxs-lookup"><span data-stu-id="f3492-106">The availability of Lync 2013 .admx and .adml files allows you to download templates and centrally manage Group Policy settings for all your Office programs and language packs.</span></span> <span data-ttu-id="f3492-107">Ausführliche Informationen finden Sie unter "Office 2013 administrative Template Files (ADMX, ADML)" in der Office 2013-Dokumentation unter <https://go.microsoft.com/fwlink/p/?linkid=267516> .</span><span class="sxs-lookup"><span data-stu-id="f3492-107">For details, see “Office 2013 Administrative Template files (ADMX, ADML)” in the Office 2013 documentation at <https://go.microsoft.com/fwlink/p/?linkid=267516>.</span></span>
+<span data-ttu-id="83b12-105">In früheren Versionen von lync und Office Communicator Stand eine eigenständige administrative Vorlage "Communicator. adm" zum Konfigurieren von Clientgruppen Richtlinieneinstellungen zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="83b12-105">In previous versions of Lync and Office Communicator, a stand-alone Communicator.adm administrative template was available for configuring client Group Policy settings.</span></span> <span data-ttu-id="83b12-106">Für lync 2013 werden neue administrative Vorlagendateien (ADMX-und ADML-Dateien) zusammen mit der administrativen Vorlage für Office-Gruppenrichtlinien eingeschlossen.</span><span class="sxs-lookup"><span data-stu-id="83b12-106">For Lync 2013, new administrative template files (.admx and .adml files) are included along with the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="83b12-107">Die Verfügbarkeit von lync 2013. ADMX-und. ADML-Dateien ermöglicht Ihnen das Herunterladen von Vorlagen und das zentrale Verwalten von Gruppenrichtlinieneinstellungen für alle Ihre Office-Programme und Sprachpakete.</span><span class="sxs-lookup"><span data-stu-id="83b12-107">The availability of Lync 2013 .admx and .adml files allows you to download templates and centrally manage Group Policy settings for all your Office programs and language packs.</span></span> <span data-ttu-id="83b12-108">Ausführliche Informationen finden Sie unter "Office 2013 administrative Template Files (ADMX, ADML)" in der Office 2013-Dokumentation unter <https://go.microsoft.com/fwlink/p/?linkid=267516> .</span><span class="sxs-lookup"><span data-stu-id="83b12-108">For details, see “Office 2013 Administrative Template files (ADMX, ADML)” in the Office 2013 documentation at <https://go.microsoft.com/fwlink/p/?linkid=267516>.</span></span>
 
 <div>
 
-## <a name="client-bootstrapping-policies"></a><span data-ttu-id="f3492-108">Richtlinien für das Clientbootstrapping</span><span class="sxs-lookup"><span data-stu-id="f3492-108">Client Bootstrapping Policies</span></span>
+## <a name="client-bootstrapping-policies"></a><span data-ttu-id="83b12-109">Richtlinien für das Clientbootstrapping</span><span class="sxs-lookup"><span data-stu-id="83b12-109">Client Bootstrapping Policies</span></span>
 
-<span data-ttu-id="f3492-109">Es gibt verschiedene Richtlinien für das Clientbootstrapping, die Sie konfigurieren sollten, bevor sich Benutzer zum ersten Mal beim Server anmelden.</span><span class="sxs-lookup"><span data-stu-id="f3492-109">There are several client bootstrapping policies that you should configure before users sign in to the server for the first time.</span></span> <span data-ttu-id="f3492-110">Da diese Richtlinien in Kraft treten, bevor sich der Client anmeldet und In-Band-Bereitstellungseinstellungen vom Server empfängt, können Sie diese Richtlinien mithilfe von Gruppenrichtlinien konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="f3492-110">Because these policies take effect before the client signs in and begins receiving in-band provisioning settings from the server, you can use Group Policy to configure them.</span></span> <span data-ttu-id="f3492-111">Weitere Informationen finden Sie unter [Configuring clientbootstrapping Policies in lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="f3492-111">For more information, see [Configuring client bootstrapping policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="83b12-110">Es gibt verschiedene Richtlinien für das Clientbootstrapping, die Sie konfigurieren sollten, bevor sich Benutzer zum ersten Mal beim Server anmelden.</span><span class="sxs-lookup"><span data-stu-id="83b12-110">There are several client bootstrapping policies that you should configure before users sign in to the server for the first time.</span></span> <span data-ttu-id="83b12-111">Da diese Richtlinien in Kraft treten, bevor sich der Client anmeldet und In-Band-Bereitstellungseinstellungen vom Server empfängt, können Sie diese Richtlinien mithilfe von Gruppenrichtlinien konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="83b12-111">Because these policies take effect before the client signs in and begins receiving in-band provisioning settings from the server, you can use Group Policy to configure them.</span></span> <span data-ttu-id="83b12-112">Weitere Informationen finden Sie unter [Configuring clientbootstrapping Policies in lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="83b12-112">For more information, see [Configuring client bootstrapping policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) in the Deployment documentation.</span></span>
 
 </div>
 

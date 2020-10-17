@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Voraussetzungen und Benutzerrechte für die Konfiguration des Anruf Parks'
+description: 'Lync Server 2013: Voraussetzungen für das Parken von Anrufen und Benutzerrechte.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 809f39bd78d4c04ffef6763e3d1f48e40ca55089
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b01187ad32fa7338765c0fa5b409b4e185e8ad35
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508262"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563531"
 ---
-# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="d1e7d-102">Voraussetzungen und Benutzerrechte für die Konfiguration des Anruf Parks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1e7d-102">Call Park configuration prerequisites and user rights in Lync Server 2013</span></span>
+# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="359ea-103">Voraussetzungen und Benutzerrechte für die Konfiguration des Anruf Parks in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="359ea-103">Call Park configuration prerequisites and user rights in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,65 +38,65 @@ ms.locfileid: "48508262"
 
 <span> </span>
 
-<span data-ttu-id="d1e7d-103">_**Letztes Änderungsstand des Themas:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="d1e7d-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="359ea-104">_**Letztes Änderungsstand des Themas:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="359ea-104">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="d1e7d-104">Das Parken von anrufen ist ein Anruf Verwaltungsfeature, das standardmäßig bei der Bereitstellung von Enterprise-VoIP installiert wird.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-104">Call Park is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="d1e7d-105">In diesem Thema wird beschrieben, was Sie benötigen, bevor Sie das Parken von Anrufen und die Benutzerrechte konfigurieren können, die Sie zum Ausführen von Konfigurationsaufgaben benötigen.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-105">This topic describes what you need to have in place before you can configure Call Park and the user rights that you need to perform configuration tasks.</span></span>
+<span data-ttu-id="359ea-105">Das Parken von anrufen ist ein Anruf Verwaltungsfeature, das standardmäßig bei der Bereitstellung von Enterprise-VoIP installiert wird.</span><span class="sxs-lookup"><span data-stu-id="359ea-105">Call Park is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="359ea-106">In diesem Thema wird beschrieben, was Sie benötigen, bevor Sie das Parken von Anrufen und die Benutzerrechte konfigurieren können, die Sie zum Ausführen von Konfigurationsaufgaben benötigen.</span><span class="sxs-lookup"><span data-stu-id="359ea-106">This topic describes what you need to have in place before you can configure Call Park and the user rights that you need to perform configuration tasks.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d1e7d-106">Benutzerdefinierte Musikdateien für die Anwendung zum Parken von Anrufen werden im Rahmen des lync Server 2013 Notfall Wiederherstellungsvorgangs nicht gesichert, und die Dateien gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-106">Customized music-on-hold files for the Call Park application are not backed up as part of the Lync Server 2013 disaster recovery process, and the files will be lost if the files uploaded to the pool are damaged, corrupted, or erased.</span></span> <span data-ttu-id="d1e7d-107">Bewahren Sie immer eine separate Sicherungskopie der angepassten Musikdateien auf, die Sie für das Parken von Anrufen hochgeladen haben.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-107">Always keep a separate backup copy of the customized music-on-hold files that you have uploaded for Call Park.</span></span>
+> <span data-ttu-id="359ea-107">Benutzerdefinierte Musikdateien für die Anwendung zum Parken von Anrufen werden im Rahmen des lync Server 2013 Notfall Wiederherstellungsvorgangs nicht gesichert, und die Dateien gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="359ea-107">Customized music-on-hold files for the Call Park application are not backed up as part of the Lync Server 2013 disaster recovery process, and the files will be lost if the files uploaded to the pool are damaged, corrupted, or erased.</span></span> <span data-ttu-id="359ea-108">Bewahren Sie immer eine separate Sicherungskopie der angepassten Musikdateien auf, die Sie für das Parken von Anrufen hochgeladen haben.</span><span class="sxs-lookup"><span data-stu-id="359ea-108">Always keep a separate backup copy of the customized music-on-hold files that you have uploaded for Call Park.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d1e7d-108">In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsdokumentation im Zusammenhang mit dem Parken von Anrufen gelesen haben (siehe [Planning for Call Management Features in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span><span class="sxs-lookup"><span data-stu-id="d1e7d-108">This section assumes that you have read the planning documentation related to Call Park (see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span></span>
+<span data-ttu-id="359ea-109">In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsdokumentation im Zusammenhang mit dem Parken von Anrufen gelesen haben (siehe [Planning for Call Management Features in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span><span class="sxs-lookup"><span data-stu-id="359ea-109">This section assumes that you have read the planning documentation related to Call Park (see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span></span>
 
 <div>
 
-## <a name="call-park-configuration-prerequisites"></a><span data-ttu-id="d1e7d-109">Voraussetzungen für die Konfiguration des Anruf Parks</span><span class="sxs-lookup"><span data-stu-id="d1e7d-109">Call Park Configuration Prerequisites</span></span>
+## <a name="call-park-configuration-prerequisites"></a><span data-ttu-id="359ea-110">Voraussetzungen für die Konfiguration des Anruf Parks</span><span class="sxs-lookup"><span data-stu-id="359ea-110">Call Park Configuration Prerequisites</span></span>
 
-<span data-ttu-id="d1e7d-110">Das Parken von Anrufen erfordert die folgenden Komponenten:</span><span class="sxs-lookup"><span data-stu-id="d1e7d-110">Call Park requires the following components:</span></span>
+<span data-ttu-id="359ea-111">Das Parken von Anrufen erfordert die folgenden Komponenten:</span><span class="sxs-lookup"><span data-stu-id="359ea-111">Call Park requires the following components:</span></span>
 
-  - <span data-ttu-id="d1e7d-111">Anwendungsdienst</span><span class="sxs-lookup"><span data-stu-id="d1e7d-111">Application service</span></span>
+  - <span data-ttu-id="359ea-112">Anwendungsdienst</span><span class="sxs-lookup"><span data-stu-id="359ea-112">Application service</span></span>
 
-  - <span data-ttu-id="d1e7d-112">Anwendung zum Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="d1e7d-112">Call Park application</span></span>
+  - <span data-ttu-id="359ea-113">Anwendung zum Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="359ea-113">Call Park application</span></span>
 
-<span data-ttu-id="d1e7d-113">Diese Komponenten werden automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-113">These components are installed automatically when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="359ea-114">Diese Komponenten werden automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="359ea-114">These components are installed automatically when you deploy Enterprise Voice.</span></span>
 
-<span data-ttu-id="d1e7d-114">Wenn Sie möchten, dass Anrufer Wartemusik hören, solange der Anruf geparkt ist, wird zusätzlich eine Datei für die Wartemusik benötigt.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-114">If you want callers to hear music while the call is parked, a music-on-hold file is also required.</span></span> <span data-ttu-id="d1e7d-115">Eine standardmäßige Musikdatei wird automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-115">A default music-on-hold file is installed automatically when you deploy Enterprise Voice.</span></span> <span data-ttu-id="d1e7d-116">Sie können die Standarddatei durch eine eigene Wartemusikdatei ersetzen.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-116">You can substitute the default file with your own music-on-hold file.</span></span> <span data-ttu-id="d1e7d-117">Der Anruf Park verwendet Dateispeicher, um die Audiodatei zu speichern.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-117">Call Park uses File Store to hold the audio file.</span></span>
+<span data-ttu-id="359ea-115">Wenn Sie möchten, dass Anrufer Wartemusik hören, solange der Anruf geparkt ist, wird zusätzlich eine Datei für die Wartemusik benötigt.</span><span class="sxs-lookup"><span data-stu-id="359ea-115">If you want callers to hear music while the call is parked, a music-on-hold file is also required.</span></span> <span data-ttu-id="359ea-116">Eine standardmäßige Musikdatei wird automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="359ea-116">A default music-on-hold file is installed automatically when you deploy Enterprise Voice.</span></span> <span data-ttu-id="359ea-117">Sie können die Standarddatei durch eine eigene Wartemusikdatei ersetzen.</span><span class="sxs-lookup"><span data-stu-id="359ea-117">You can substitute the default file with your own music-on-hold file.</span></span> <span data-ttu-id="359ea-118">Der Anruf Park verwendet Dateispeicher, um die Audiodatei zu speichern.</span><span class="sxs-lookup"><span data-stu-id="359ea-118">Call Park uses File Store to hold the audio file.</span></span>
 
 </div>
 
 <div>
 
-## <a name="call-park-configuration-user-rights"></a><span data-ttu-id="d1e7d-118">Konfigurieren von Benutzerrechten für das Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="d1e7d-118">Call Park Configuration User Rights</span></span>
+## <a name="call-park-configuration-user-rights"></a><span data-ttu-id="359ea-119">Konfigurieren von Benutzerrechten für das Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="359ea-119">Call Park Configuration User Rights</span></span>
 
-<span data-ttu-id="d1e7d-119">Sie können die folgenden Verwaltungstools verwenden, um das Parken von Anrufen zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="d1e7d-119">You can use the following administrative tools to configure Call Park:</span></span>
+<span data-ttu-id="359ea-120">Sie können die folgenden Verwaltungstools verwenden, um das Parken von Anrufen zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="359ea-120">You can use the following administrative tools to configure Call Park:</span></span>
 
-  - <span data-ttu-id="d1e7d-120">Lync Server-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="d1e7d-120">Lync Server Control Panel</span></span>
+  - <span data-ttu-id="359ea-121">Lync Server-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="359ea-121">Lync Server Control Panel</span></span>
 
-  - <span data-ttu-id="d1e7d-121">Lync Server-Verwaltungsshell</span><span class="sxs-lookup"><span data-stu-id="d1e7d-121">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="359ea-122">Lync Server-Verwaltungsshell</span><span class="sxs-lookup"><span data-stu-id="359ea-122">Lync Server Management Shell</span></span>
 
-<span data-ttu-id="d1e7d-122">Sie verwenden diese Tools zum Einrichten der Orbit-Tabelle für das Parken von Anrufen und zum Konfigurieren anderer Einstellungen, die von der Funktion zum Parken von Anrufen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-122">You use these tools to set up the Call Park orbit table and to configure other settings used by Call Park.</span></span>
+<span data-ttu-id="359ea-123">Sie verwenden diese Tools zum Einrichten der Orbit-Tabelle für das Parken von Anrufen und zum Konfigurieren anderer Einstellungen, die von der Funktion zum Parken von Anrufen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="359ea-123">You use these tools to set up the Call Park orbit table and to configure other settings used by Call Park.</span></span>
 
-<span data-ttu-id="d1e7d-123">Für die Konfiguration des Parkens von Anrufen sind je nach Aufgabe die folgenden Administratorrollen erforderlich:</span><span class="sxs-lookup"><span data-stu-id="d1e7d-123">Configuring Call Park requires any of the following administrative roles, depending on the task:</span></span>
+<span data-ttu-id="359ea-124">Für die Konfiguration des Parkens von Anrufen sind je nach Aufgabe die folgenden Administratorrollen erforderlich:</span><span class="sxs-lookup"><span data-stu-id="359ea-124">Configuring Call Park requires any of the following administrative roles, depending on the task:</span></span>
 
-  - <span data-ttu-id="d1e7d-124">**CsVoiceAdministrator:** Diese Administratorrolle kann alle VoIP-bezogenen Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-124">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
+  - <span data-ttu-id="359ea-125">**CsVoiceAdministrator:** Diese Administratorrolle kann alle VoIP-bezogenen Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.</span><span class="sxs-lookup"><span data-stu-id="359ea-125">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
 
-  - <span data-ttu-id="d1e7d-125">**CsUserAdministrator:** Diese Administratorrolle kann das Parken von Anrufen in der VoIP-Richtlinie aktivieren.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-125">**CsUserAdministrator:** This administrator role can enable Call Park in voice policy.</span></span> <span data-ttu-id="d1e7d-126">Diese Administratorrolle hat außerdem schreibgeschützten Zugriff auf alle VoIP-Konfigurationen.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-126">This administrator role also has read-only view access to all voice configurations.</span></span>
+  - <span data-ttu-id="359ea-126">**CsUserAdministrator:** Diese Administratorrolle kann das Parken von Anrufen in der VoIP-Richtlinie aktivieren.</span><span class="sxs-lookup"><span data-stu-id="359ea-126">**CsUserAdministrator:** This administrator role can enable Call Park in voice policy.</span></span> <span data-ttu-id="359ea-127">Diese Administratorrolle hat außerdem schreibgeschützten Zugriff auf alle VoIP-Konfigurationen.</span><span class="sxs-lookup"><span data-stu-id="359ea-127">This administrator role also has read-only view access to all voice configurations.</span></span>
 
-  - <span data-ttu-id="d1e7d-127">**CsServerAdministrator:** Diese Administratorrolle kann Server und Dienste verwalten, überwachen und Problembehandlung durchführen.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-127">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
+  - <span data-ttu-id="359ea-128">**CsServerAdministrator:** Diese Administratorrolle kann Server und Dienste verwalten, überwachen und Problembehandlung durchführen.</span><span class="sxs-lookup"><span data-stu-id="359ea-128">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
 
-  - <span data-ttu-id="d1e7d-128">**CsAdministrator:** Diese Administratorrolle kann alle Aufgaben von CsVoiceAdministrator, CsServerAdministrator und CsUserAdministrator ausführen.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-128">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
+  - <span data-ttu-id="359ea-129">**CsAdministrator:** Diese Administratorrolle kann alle Aufgaben von CsVoiceAdministrator, CsServerAdministrator und CsUserAdministrator ausführen.</span><span class="sxs-lookup"><span data-stu-id="359ea-129">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d1e7d-129">Ausführliche Informationen zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="d1e7d-129">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="359ea-130">Ausführliche Informationen zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="359ea-130">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -105,13 +106,13 @@ ms.locfileid: "48508262"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d1e7d-130">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d1e7d-130">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="359ea-131">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="359ea-131">See Also</span></span>
 
 
-[<span data-ttu-id="d1e7d-131">Bereitstellen von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1e7d-131">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+[<span data-ttu-id="359ea-132">Bereitstellen von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="359ea-132">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[<span data-ttu-id="d1e7d-132">Planen von Funktionen für die Anrufverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1e7d-132">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+[<span data-ttu-id="359ea-133">Planen von Funktionen für die Anrufverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="359ea-133">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

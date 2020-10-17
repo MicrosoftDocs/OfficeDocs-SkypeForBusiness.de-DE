@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planen der zweistufigen Authentifizierung'
+description: 'Lync Server 2013: Planung für die zweistufige Authentifizierung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1932164cd1236257bbb81d1503b0310c8c55526e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a3a2cd5508f6ce9a8a389b0059a09747b9f9a09
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513452"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564001"
 ---
-# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="2c55a-102">Planen der zweistufigen Authentifizierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c55a-102">Planning for two-factor authentication in Lync Server 2013</span></span>
+# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="a6584-103">Planen der zweistufigen Authentifizierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6584-103">Planning for two-factor authentication in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48513452"
 
 <span> </span>
 
-<span data-ttu-id="2c55a-103">_**Letztes Änderungsstand des Themas:** 2015-04-06_</span><span class="sxs-lookup"><span data-stu-id="2c55a-103">_**Topic Last Modified:** 2015-04-06_</span></span>
+<span data-ttu-id="a6584-104">_**Letztes Änderungsstand des Themas:** 2015-04-06_</span><span class="sxs-lookup"><span data-stu-id="a6584-104">_**Topic Last Modified:** 2015-04-06_</span></span>
 
-<span data-ttu-id="2c55a-104">Im folgenden finden Sie eine Liste der Bereitstellungsüberlegungen beim Konfigurieren einer Microsoft lync Server 2013 Umgebung zur Unterstützung der zweistufigen Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="2c55a-104">The following is a list of deployment considerations when configuring a Microsoft Lync Server 2013 environment to support two-factor authentication.</span></span>
+<span data-ttu-id="a6584-105">Im folgenden finden Sie eine Liste der Bereitstellungsüberlegungen beim Konfigurieren einer Microsoft lync Server 2013 Umgebung zur Unterstützung der zweistufigen Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="a6584-105">The following is a list of deployment considerations when configuring a Microsoft Lync Server 2013 environment to support two-factor authentication.</span></span>
 
 <div>
 
-## <a name="client-support"></a><span data-ttu-id="2c55a-105">Client Unterstützung</span><span class="sxs-lookup"><span data-stu-id="2c55a-105">Client Support</span></span>
+## <a name="client-support"></a><span data-ttu-id="a6584-106">Client Unterstützung</span><span class="sxs-lookup"><span data-stu-id="a6584-106">Client Support</span></span>
 
-<span data-ttu-id="2c55a-106">Die lync 2013 kumulativen Updates für lync Server 2013: July 2013 Desktop Client und alle mobilen Clients unterstützen derzeit die zweistufige Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="2c55a-106">The Lync 2013 Cumulative Updates for Lync Server 2013: July 2013 desktop client and all mobile clients currently support two-factor authentication.</span></span>
+<span data-ttu-id="a6584-107">Die lync 2013 kumulativen Updates für lync Server 2013: July 2013 Desktop Client und alle mobilen Clients unterstützen derzeit die zweistufige Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="a6584-107">The Lync 2013 Cumulative Updates for Lync Server 2013: July 2013 desktop client and all mobile clients currently support two-factor authentication.</span></span>
 
 </div>
 
 <div>
 
-## <a name="topology-requirements"></a><span data-ttu-id="2c55a-107">Anforderungen im Hinblick auf die Topologie</span><span class="sxs-lookup"><span data-stu-id="2c55a-107">Topology Requirements</span></span>
+## <a name="topology-requirements"></a><span data-ttu-id="a6584-108">Anforderungen im Hinblick auf die Topologie</span><span class="sxs-lookup"><span data-stu-id="a6584-108">Topology Requirements</span></span>
 
-<span data-ttu-id="2c55a-108">Kunden wird dringend empfohlen, die zweistufige Authentifizierung mithilfe dedizierter lync Server 2013 mit kumulierten Updates für lync Server 2013 bereitzustellen: July 2013 Edge, Director und User Pools.</span><span class="sxs-lookup"><span data-stu-id="2c55a-108">Customers are strongly encouraged to deploy two-factor authentication using dedicated Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Edge, Director, and User Pools.</span></span> <span data-ttu-id="2c55a-109">Zum Aktivieren der passiven Authentifizierung für lync-Benutzer müssen andere Authentifizierungsmethoden für andere Rollen und Dienste deaktiviert sein, einschließlich der folgenden:</span><span class="sxs-lookup"><span data-stu-id="2c55a-109">To enable passive authentication for Lync users, other authentication methods must be disabled for other roles and services, including the following:</span></span>
+<span data-ttu-id="a6584-109">Kunden wird dringend empfohlen, die zweistufige Authentifizierung mithilfe dedizierter lync Server 2013 mit kumulierten Updates für lync Server 2013 bereitzustellen: July 2013 Edge, Director und User Pools.</span><span class="sxs-lookup"><span data-stu-id="a6584-109">Customers are strongly encouraged to deploy two-factor authentication using dedicated Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Edge, Director, and User Pools.</span></span> <span data-ttu-id="a6584-110">Zum Aktivieren der passiven Authentifizierung für lync-Benutzer müssen andere Authentifizierungsmethoden für andere Rollen und Dienste deaktiviert sein, einschließlich der folgenden:</span><span class="sxs-lookup"><span data-stu-id="a6584-110">To enable passive authentication for Lync users, other authentication methods must be disabled for other roles and services, including the following:</span></span>
 
 
 <table>
@@ -65,124 +66,124 @@ ms.locfileid: "48513452"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2c55a-110">Konfigurationstyp</span><span class="sxs-lookup"><span data-stu-id="2c55a-110">Configuration Type</span></span></th>
-<th><span data-ttu-id="2c55a-111">Diensttyp</span><span class="sxs-lookup"><span data-stu-id="2c55a-111">Service Type</span></span></th>
-<th><span data-ttu-id="2c55a-112">Serverrolle</span><span class="sxs-lookup"><span data-stu-id="2c55a-112">Server Role</span></span></th>
-<th><span data-ttu-id="2c55a-113">Zu deaktivierender Authentifizierungstyp</span><span class="sxs-lookup"><span data-stu-id="2c55a-113">Authentication Type to Disable</span></span></th>
+<th><span data-ttu-id="a6584-111">Konfigurationstyp</span><span class="sxs-lookup"><span data-stu-id="a6584-111">Configuration Type</span></span></th>
+<th><span data-ttu-id="a6584-112">Diensttyp</span><span class="sxs-lookup"><span data-stu-id="a6584-112">Service Type</span></span></th>
+<th><span data-ttu-id="a6584-113">Serverrolle</span><span class="sxs-lookup"><span data-stu-id="a6584-113">Server Role</span></span></th>
+<th><span data-ttu-id="a6584-114">Zu deaktivierender Authentifizierungstyp</span><span class="sxs-lookup"><span data-stu-id="a6584-114">Authentication Type to Disable</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2c55a-114">Webdienst</span><span class="sxs-lookup"><span data-stu-id="2c55a-114">Web Service</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-115">Webserver</span><span class="sxs-lookup"><span data-stu-id="2c55a-115">WebServer</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-116">Director</span><span class="sxs-lookup"><span data-stu-id="2c55a-116">Director</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-117">Kerberos, NTLM und Zertifikat</span><span class="sxs-lookup"><span data-stu-id="2c55a-117">Kerberos, NTLM, and Certificate</span></span></p></td>
+<td><p><span data-ttu-id="a6584-115">Webdienst</span><span class="sxs-lookup"><span data-stu-id="a6584-115">Web Service</span></span></p></td>
+<td><p><span data-ttu-id="a6584-116">Webserver</span><span class="sxs-lookup"><span data-stu-id="a6584-116">WebServer</span></span></p></td>
+<td><p><span data-ttu-id="a6584-117">Director</span><span class="sxs-lookup"><span data-stu-id="a6584-117">Director</span></span></p></td>
+<td><p><span data-ttu-id="a6584-118">Kerberos, NTLM und Zertifikat</span><span class="sxs-lookup"><span data-stu-id="a6584-118">Kerberos, NTLM, and Certificate</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2c55a-118">Webdienst</span><span class="sxs-lookup"><span data-stu-id="2c55a-118">Web Service</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-119">Webserver</span><span class="sxs-lookup"><span data-stu-id="2c55a-119">WebServer</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-120">Front-End-</span><span class="sxs-lookup"><span data-stu-id="2c55a-120">Front End</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-121">Kerberos, NTLM und Zertifikat</span><span class="sxs-lookup"><span data-stu-id="2c55a-121">Kerberos, NTLM, and Certificate</span></span></p></td>
+<td><p><span data-ttu-id="a6584-119">Webdienst</span><span class="sxs-lookup"><span data-stu-id="a6584-119">Web Service</span></span></p></td>
+<td><p><span data-ttu-id="a6584-120">Webserver</span><span class="sxs-lookup"><span data-stu-id="a6584-120">WebServer</span></span></p></td>
+<td><p><span data-ttu-id="a6584-121">Front-End-</span><span class="sxs-lookup"><span data-stu-id="a6584-121">Front End</span></span></p></td>
+<td><p><span data-ttu-id="a6584-122">Kerberos, NTLM und Zertifikat</span><span class="sxs-lookup"><span data-stu-id="a6584-122">Kerberos, NTLM, and Certificate</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2c55a-122">Proxy</span><span class="sxs-lookup"><span data-stu-id="2c55a-122">Proxy</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-123">EdgeServer</span><span class="sxs-lookup"><span data-stu-id="2c55a-123">EdgeServer</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-124">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="2c55a-124">Edge</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-125">Kerberos und NTLM</span><span class="sxs-lookup"><span data-stu-id="2c55a-125">Kerberos and NTLM</span></span></p></td>
+<td><p><span data-ttu-id="a6584-123">Proxy</span><span class="sxs-lookup"><span data-stu-id="a6584-123">Proxy</span></span></p></td>
+<td><p><span data-ttu-id="a6584-124">EdgeServer</span><span class="sxs-lookup"><span data-stu-id="a6584-124">EdgeServer</span></span></p></td>
+<td><p><span data-ttu-id="a6584-125">Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="a6584-125">Edge</span></span></p></td>
+<td><p><span data-ttu-id="a6584-126">Kerberos und NTLM</span><span class="sxs-lookup"><span data-stu-id="a6584-126">Kerberos and NTLM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2c55a-126">Proxy</span><span class="sxs-lookup"><span data-stu-id="2c55a-126">Proxy</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-127">Registrierungsstelle</span><span class="sxs-lookup"><span data-stu-id="2c55a-127">Registrar</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-128">Front-End-</span><span class="sxs-lookup"><span data-stu-id="2c55a-128">Front End</span></span></p></td>
-<td><p><span data-ttu-id="2c55a-129">Kerberos und NTLM</span><span class="sxs-lookup"><span data-stu-id="2c55a-129">Kerberos and NTLM</span></span></p></td>
+<td><p><span data-ttu-id="a6584-127">Proxy</span><span class="sxs-lookup"><span data-stu-id="a6584-127">Proxy</span></span></p></td>
+<td><p><span data-ttu-id="a6584-128">Registrierungsstelle</span><span class="sxs-lookup"><span data-stu-id="a6584-128">Registrar</span></span></p></td>
+<td><p><span data-ttu-id="a6584-129">Front-End-</span><span class="sxs-lookup"><span data-stu-id="a6584-129">Front End</span></span></p></td>
+<td><p><span data-ttu-id="a6584-130">Kerberos und NTLM</span><span class="sxs-lookup"><span data-stu-id="a6584-130">Kerberos and NTLM</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="2c55a-130">Wenn diese Authentifizierungstypen auf Dienstebene deaktiviert sind, können sich alle anderen Versionen des lync-Clients nicht erfolgreich anmelden, wenn die zweistufige Authentifizierung in Ihrer Bereitstellung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="2c55a-130">Unless these authentication types are disabled at the service level, all other versions of the Lync client will be unable to sign in successfully once two-factor authentication is enabled within in your deployment.</span></span>
+<span data-ttu-id="a6584-131">Wenn diese Authentifizierungstypen auf Dienstebene deaktiviert sind, können sich alle anderen Versionen des lync-Clients nicht erfolgreich anmelden, wenn die zweistufige Authentifizierung in Ihrer Bereitstellung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="a6584-131">Unless these authentication types are disabled at the service level, all other versions of the Lync client will be unable to sign in successfully once two-factor authentication is enabled within in your deployment.</span></span>
 
 </div>
 
 <div>
 
-## <a name="lync-service-discovery"></a><span data-ttu-id="2c55a-131">Lync-Dienstermittlung</span><span class="sxs-lookup"><span data-stu-id="2c55a-131">Lync Service Discovery</span></span>
+## <a name="lync-service-discovery"></a><span data-ttu-id="a6584-132">Lync-Dienstermittlung</span><span class="sxs-lookup"><span data-stu-id="a6584-132">Lync Service Discovery</span></span>
 
-<span data-ttu-id="2c55a-132">DNS-Einträge, die von internen und/oder externen Clients zum Ermitteln von lync-Diensten verwendet werden, sollten so konfiguriert werden, dass Sie auf einen lync-Server aufgelöst werden, der nicht für die zweistufige Authentifizierung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="2c55a-132">DNS records used by internal and/or external clients to discover Lync services should be configured to resolve to a Lync server that is not enabled for two-factor authentication.</span></span> <span data-ttu-id="2c55a-133">Bei dieser Konfiguration sind Benutzer aus lync-Pools, die nicht für die zweistufige Authentifizierung aktiviert sind, nicht zur Eingabe einer PIN zur Authentifizierung verpflichtet, während Benutzer aus lync-Pools, die für die zweistufige Authentifizierung aktiviert sind, Ihre PIN für die Authentifizierung benötigen.</span><span class="sxs-lookup"><span data-stu-id="2c55a-133">With this configuration, users from Lync Pools that are not enabled for two-factor authentication will not be required to enter a PIN to authenticate, while users from Lync Pools that are enabled for two-factor authentication will be required to enter their PIN to authenticate.</span></span>
-
-</div>
-
-<div>
-
-## <a name="exchange-authentication"></a><span data-ttu-id="2c55a-134">Exchange-Authentifizierung</span><span class="sxs-lookup"><span data-stu-id="2c55a-134">Exchange Authentication</span></span>
-
-<span data-ttu-id="2c55a-135">Kunden, die die zweistufige Authentifizierung für Microsoft Exchange bereitgestellt haben, stellen möglicherweise fest, dass bestimmte Funktionen im lync-Client nicht verfügbar sind.</span><span class="sxs-lookup"><span data-stu-id="2c55a-135">Customers who have deployed two-factor authentication for Microsoft Exchange may find that certain features in the Lync client are unavailable.</span></span> <span data-ttu-id="2c55a-136">Dies ist derzeit beabsichtigt, da der lync-Client die zweistufige Authentifizierung nicht für Features unterstützt, die von der Exchange-Integration abhängen.</span><span class="sxs-lookup"><span data-stu-id="2c55a-136">This is currently by design, as the Lync client does not support two-factor authentication for features that are dependent on Exchange integration.</span></span>
+<span data-ttu-id="a6584-133">DNS-Einträge, die von internen und/oder externen Clients zum Ermitteln von lync-Diensten verwendet werden, sollten so konfiguriert werden, dass Sie auf einen lync-Server aufgelöst werden, der nicht für die zweistufige Authentifizierung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="a6584-133">DNS records used by internal and/or external clients to discover Lync services should be configured to resolve to a Lync server that is not enabled for two-factor authentication.</span></span> <span data-ttu-id="a6584-134">Bei dieser Konfiguration sind Benutzer aus lync-Pools, die nicht für die zweistufige Authentifizierung aktiviert sind, nicht zur Eingabe einer PIN zur Authentifizierung verpflichtet, während Benutzer aus lync-Pools, die für die zweistufige Authentifizierung aktiviert sind, Ihre PIN für die Authentifizierung benötigen.</span><span class="sxs-lookup"><span data-stu-id="a6584-134">With this configuration, users from Lync Pools that are not enabled for two-factor authentication will not be required to enter a PIN to authenticate, while users from Lync Pools that are enabled for two-factor authentication will be required to enter their PIN to authenticate.</span></span>
 
 </div>
 
 <div>
 
-## <a name="lync-contacts"></a><span data-ttu-id="2c55a-137">Lync-Kontakte</span><span class="sxs-lookup"><span data-stu-id="2c55a-137">Lync Contacts</span></span>
+## <a name="exchange-authentication"></a><span data-ttu-id="a6584-135">Exchange-Authentifizierung</span><span class="sxs-lookup"><span data-stu-id="a6584-135">Exchange Authentication</span></span>
 
-<span data-ttu-id="2c55a-138">Lync-Benutzer, die für die Nutzung der Unified Contact Store-Funktion konfiguriert sind, werden feststellen, dass Ihre Kontakte nach der Anmeldung mit zweistufiger Authentifizierung nicht mehr verfügbar sind.</span><span class="sxs-lookup"><span data-stu-id="2c55a-138">Lync users who are configured to leverage the Unified Contact Store feature will find that their contacts are no longer available after signing in with two-factor authentication.</span></span>
-
-<span data-ttu-id="2c55a-139">Verwenden Sie das Cmdlet **Invoke-CsUcsRollback** , um vorhandene Benutzer Kontakte aus dem einheitlichen Kontaktspeicher zu entfernen und in lync Server 2013 zu speichern, bevor Sie die zweistufige Authentifizierung aktivieren.</span><span class="sxs-lookup"><span data-stu-id="2c55a-139">You should use the **Invoke-CsUcsRollback** cmdlet to remove existing user contacts from the Unified Contact Store and store them in Lync Server 2013 before enabling two-factor authentication.</span></span>
+<span data-ttu-id="a6584-136">Kunden, die die zweistufige Authentifizierung für Microsoft Exchange bereitgestellt haben, stellen möglicherweise fest, dass bestimmte Funktionen im lync-Client nicht verfügbar sind.</span><span class="sxs-lookup"><span data-stu-id="a6584-136">Customers who have deployed two-factor authentication for Microsoft Exchange may find that certain features in the Lync client are unavailable.</span></span> <span data-ttu-id="a6584-137">Dies ist derzeit beabsichtigt, da der lync-Client die zweistufige Authentifizierung nicht für Features unterstützt, die von der Exchange-Integration abhängen.</span><span class="sxs-lookup"><span data-stu-id="a6584-137">This is currently by design, as the Lync client does not support two-factor authentication for features that are dependent on Exchange integration.</span></span>
 
 </div>
 
 <div>
 
-## <a name="skill-search"></a><span data-ttu-id="2c55a-140">Skill-Suche</span><span class="sxs-lookup"><span data-stu-id="2c55a-140">Skill Search</span></span>
+## <a name="lync-contacts"></a><span data-ttu-id="a6584-138">Lync-Kontakte</span><span class="sxs-lookup"><span data-stu-id="a6584-138">Lync Contacts</span></span>
 
-<span data-ttu-id="2c55a-141">Kunden, die das Feature "Fähigkeitssuche" in ihrer lync-Umgebung konfiguriert haben, werden feststellen, dass dieses Feature nicht funktioniert, wenn lync für die zweistufige Authentifizierung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="2c55a-141">Customers who have configured the Skill Search feature in their Lync environment will find that this feature does not work when Lync is enabled for two-factor authentication.</span></span> <span data-ttu-id="2c55a-142">Dies ist beabsichtigt, da Microsoft SharePoint derzeit keine zweistufige Authentifizierung unterstützt.</span><span class="sxs-lookup"><span data-stu-id="2c55a-142">This is by design, as Microsoft SharePoint does not currently support two-factor authentication.</span></span>
+<span data-ttu-id="a6584-139">Lync-Benutzer, die für die Nutzung der Unified Contact Store-Funktion konfiguriert sind, werden feststellen, dass Ihre Kontakte nach der Anmeldung mit zweistufiger Authentifizierung nicht mehr verfügbar sind.</span><span class="sxs-lookup"><span data-stu-id="a6584-139">Lync users who are configured to leverage the Unified Contact Store feature will find that their contacts are no longer available after signing in with two-factor authentication.</span></span>
 
-</div>
-
-<div>
-
-## <a name="lync-credentials"></a><span data-ttu-id="2c55a-143">Lync-Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="2c55a-143">Lync Credentials</span></span>
-
-<span data-ttu-id="2c55a-144">Es gibt eine Reihe von Überlegungen zur Bereitstellung von gespeicherten lync-Anmeldeinformationen, die sich auf Benutzer auswirken können, die für die Verwendung der zweistufigen Authentifizierung konfiguriert sind.</span><span class="sxs-lookup"><span data-stu-id="2c55a-144">There are a number of deployment considerations involving saved Lync credentials which may impact users who are configured to use two-factor authentication.</span></span>
-
-<div>
-
-## <a name="deleting-saved-credentials"></a><span data-ttu-id="2c55a-145">Löschen gespeicherter Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="2c55a-145">Deleting Saved Credentials</span></span>
-
-<span data-ttu-id="2c55a-146">Benutzer von Desktop Clients sollten die Option **Meine Anmeldeinformationen löschen** im lync-Client verwenden und Ihren SIP-Profilordner aus% LocalAppData% \\ Microsoft \\ Office \\ 15,0 lync löschen \\ , bevor Sie versuchen, das erste Mal unter Verwendung der zweistufigen Authentifizierung zu signieren.</span><span class="sxs-lookup"><span data-stu-id="2c55a-146">Desktop client users should use the **Delete my sign-in info** option in the Lync client and delete their SIP profile folder from %localappdata%\\Microsoft\\Office\\15.0\\Lync before attempting to sign for the first time using two-factor authentication.</span></span>
+<span data-ttu-id="a6584-140">Verwenden Sie das Cmdlet **Invoke-CsUcsRollback** , um vorhandene Benutzer Kontakte aus dem einheitlichen Kontaktspeicher zu entfernen und in lync Server 2013 zu speichern, bevor Sie die zweistufige Authentifizierung aktivieren.</span><span class="sxs-lookup"><span data-stu-id="a6584-140">You should use the **Invoke-CsUcsRollback** cmdlet to remove existing user contacts from the Unified Contact Store and store them in Lync Server 2013 before enabling two-factor authentication.</span></span>
 
 </div>
 
 <div>
 
-## <a name="disablentcredentials"></a><span data-ttu-id="2c55a-147">DisableNTCredentials</span><span class="sxs-lookup"><span data-stu-id="2c55a-147">DisableNTCredentials</span></span>
+## <a name="skill-search"></a><span data-ttu-id="a6584-141">Skill-Suche</span><span class="sxs-lookup"><span data-stu-id="a6584-141">Skill Search</span></span>
 
-<span data-ttu-id="2c55a-148">Bei der Kerberos-oder NTLM-Authentifizierungsmethode werden die Windows-Anmeldeinformationen des Benutzers automatisch für die Authentifizierung verwendet.</span><span class="sxs-lookup"><span data-stu-id="2c55a-148">With the Kerberos or NTLM authentication method, the user’s Windows credentials are used automatically for authentication.</span></span> <span data-ttu-id="2c55a-149">In einer typischen lync Server 2013-Bereitstellung, bei der Kerberos und/oder NTLM für die Authentifizierung aktiviert ist, sollten Benutzer nicht jedes Mal, wenn Sie sich anmelden, Ihre Anmeldeinformationen eingeben müssen.</span><span class="sxs-lookup"><span data-stu-id="2c55a-149">In a typical Lync Server 2013 deployment where Kerberos and/or NTLM is enabled for authentication, users should not have to enter their credentials every time that they sign in.</span></span>
-
-<span data-ttu-id="2c55a-150">Wenn Benutzer versehentlich zur Eingabe von Anmeldeinformationen aufgefordert werden, bevor Sie dazu aufgefordert werden, Ihre PIN einzugeben, kann der Registrierungsschlüssel **DisableNTCredentials** möglicherweise über eine Gruppenrichtlinie unbeabsichtigt auf Clientcomputern konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="2c55a-150">If users are unintentionally prompted for credentials before they are prompted to enter their PIN, the **DisableNTCredentials** registry key may be unintentionally configured on client computers, possibly through Group Policy.</span></span>
-
-<span data-ttu-id="2c55a-151">Um die zusätzliche Aufforderung zur Eingabe von Anmeldeinformationen zu verhindern, erstellen Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die administrative Vorlage lync, um mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool zuzutreffen:</span><span class="sxs-lookup"><span data-stu-id="2c55a-151">To prevent the additional prompt for credentials, create the following registry entry on the local workstation or use the Lync administrative template to apply to all users for a given pool using Group Policy:</span></span>
-
-<span data-ttu-id="2c55a-152">HKEY \_ - \_ Software Richtlinien für lokale Computer \\ \\ \\ Microsoft \\ Office \\ 15,0 \\ lync</span><span class="sxs-lookup"><span data-stu-id="2c55a-152">HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\Office\\15.0\\Lync</span></span>
-
-<span data-ttu-id="2c55a-153">REG \_ DWORD: DisableNTCredentials</span><span class="sxs-lookup"><span data-stu-id="2c55a-153">REG\_DWORD: DisableNTCredentials</span></span>
-
-<span data-ttu-id="2c55a-154">Wert: 0x0 festlegen</span><span class="sxs-lookup"><span data-stu-id="2c55a-154">Value: 0x0</span></span>
+<span data-ttu-id="a6584-142">Kunden, die das Feature "Fähigkeitssuche" in ihrer lync-Umgebung konfiguriert haben, werden feststellen, dass dieses Feature nicht funktioniert, wenn lync für die zweistufige Authentifizierung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="a6584-142">Customers who have configured the Skill Search feature in their Lync environment will find that this feature does not work when Lync is enabled for two-factor authentication.</span></span> <span data-ttu-id="a6584-143">Dies ist beabsichtigt, da Microsoft SharePoint derzeit keine zweistufige Authentifizierung unterstützt.</span><span class="sxs-lookup"><span data-stu-id="a6584-143">This is by design, as Microsoft SharePoint does not currently support two-factor authentication.</span></span>
 
 </div>
 
 <div>
 
-## <a name="savepassword"></a><span data-ttu-id="2c55a-155">SavePassword</span><span class="sxs-lookup"><span data-stu-id="2c55a-155">SavePassword</span></span>
+## <a name="lync-credentials"></a><span data-ttu-id="a6584-144">Lync-Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="a6584-144">Lync Credentials</span></span>
 
-<span data-ttu-id="2c55a-156">Wenn sich ein Benutzer zum ersten Mal bei lync anmeldet, wird der Benutzer aufgefordert, sein Kennwort zu speichern.</span><span class="sxs-lookup"><span data-stu-id="2c55a-156">When a user signs in to Lync for the first time, the user is prompted to save his or her password.</span></span> <span data-ttu-id="2c55a-157">Wenn diese Option aktiviert ist, kann das Clientzertifikat des Benutzers im persönlichen Zertifikatspeicher und in den Windows-Anmeldeinformationen des Benutzers gespeichert werden, damit diese im Credential Manager des lokalen Computers gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="2c55a-157">If selected, this option allows the user’s client certificate to be stored in the personal certificate store and the user’s Windows credentials to be stored in the Credential Manager of the local computer.</span></span>
+<span data-ttu-id="a6584-145">Es gibt eine Reihe von Überlegungen zur Bereitstellung von gespeicherten lync-Anmeldeinformationen, die sich auf Benutzer auswirken können, die für die Verwendung der zweistufigen Authentifizierung konfiguriert sind.</span><span class="sxs-lookup"><span data-stu-id="a6584-145">There are a number of deployment considerations involving saved Lync credentials which may impact users who are configured to use two-factor authentication.</span></span>
 
-<span data-ttu-id="2c55a-158">Die Registrierungseinstellung **SavePassword** sollte deaktiviert werden, wenn lync für die Unterstützung der zweistufigen Authentifizierung konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="2c55a-158">The **SavePassword** registry setting should be disabled when Lync is configured to support two-factor authentication.</span></span> <span data-ttu-id="2c55a-159">Wenn Sie verhindern möchten, dass Benutzer ihre Kennwörter speichern, ändern Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die administrative Vorlage lync, um mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool zuzutreffen:</span><span class="sxs-lookup"><span data-stu-id="2c55a-159">To prevent users from saving their passwords, change the following registry entry on the local workstation or use the Lync administrative template to apply to all users for a given pool using Group Policy:</span></span>
+<div>
 
-<span data-ttu-id="2c55a-160">HKEY \_ aktuelle \_ Benutzer \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync</span><span class="sxs-lookup"><span data-stu-id="2c55a-160">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync</span></span>
+## <a name="deleting-saved-credentials"></a><span data-ttu-id="a6584-146">Löschen gespeicherter Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="a6584-146">Deleting Saved Credentials</span></span>
 
-<span data-ttu-id="2c55a-161">REG \_ DWORD: SavePassword</span><span class="sxs-lookup"><span data-stu-id="2c55a-161">REG\_DWORD: SavePassword</span></span>
+<span data-ttu-id="a6584-147">Benutzer von Desktop Clients sollten die Option **Meine Anmeldeinformationen löschen** im lync-Client verwenden und Ihren SIP-Profilordner aus% LocalAppData% \\ Microsoft \\ Office \\ 15,0 lync löschen \\ , bevor Sie versuchen, das erste Mal unter Verwendung der zweistufigen Authentifizierung zu signieren.</span><span class="sxs-lookup"><span data-stu-id="a6584-147">Desktop client users should use the **Delete my sign-in info** option in the Lync client and delete their SIP profile folder from %localappdata%\\Microsoft\\Office\\15.0\\Lync before attempting to sign for the first time using two-factor authentication.</span></span>
 
-<span data-ttu-id="2c55a-162">Wert: 0x0 festlegen</span><span class="sxs-lookup"><span data-stu-id="2c55a-162">Value: 0x0</span></span>
+</div>
+
+<div>
+
+## <a name="disablentcredentials"></a><span data-ttu-id="a6584-148">DisableNTCredentials</span><span class="sxs-lookup"><span data-stu-id="a6584-148">DisableNTCredentials</span></span>
+
+<span data-ttu-id="a6584-149">Bei der Kerberos-oder NTLM-Authentifizierungsmethode werden die Windows-Anmeldeinformationen des Benutzers automatisch für die Authentifizierung verwendet.</span><span class="sxs-lookup"><span data-stu-id="a6584-149">With the Kerberos or NTLM authentication method, the user’s Windows credentials are used automatically for authentication.</span></span> <span data-ttu-id="a6584-150">In einer typischen lync Server 2013-Bereitstellung, bei der Kerberos und/oder NTLM für die Authentifizierung aktiviert ist, sollten Benutzer nicht jedes Mal, wenn Sie sich anmelden, Ihre Anmeldeinformationen eingeben müssen.</span><span class="sxs-lookup"><span data-stu-id="a6584-150">In a typical Lync Server 2013 deployment where Kerberos and/or NTLM is enabled for authentication, users should not have to enter their credentials every time that they sign in.</span></span>
+
+<span data-ttu-id="a6584-151">Wenn Benutzer versehentlich zur Eingabe von Anmeldeinformationen aufgefordert werden, bevor Sie dazu aufgefordert werden, Ihre PIN einzugeben, kann der Registrierungsschlüssel **DisableNTCredentials** möglicherweise über eine Gruppenrichtlinie unbeabsichtigt auf Clientcomputern konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="a6584-151">If users are unintentionally prompted for credentials before they are prompted to enter their PIN, the **DisableNTCredentials** registry key may be unintentionally configured on client computers, possibly through Group Policy.</span></span>
+
+<span data-ttu-id="a6584-152">Um die zusätzliche Aufforderung zur Eingabe von Anmeldeinformationen zu verhindern, erstellen Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die administrative Vorlage lync, um mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool zuzutreffen:</span><span class="sxs-lookup"><span data-stu-id="a6584-152">To prevent the additional prompt for credentials, create the following registry entry on the local workstation or use the Lync administrative template to apply to all users for a given pool using Group Policy:</span></span>
+
+<span data-ttu-id="a6584-153">HKEY \_ - \_ Software Richtlinien für lokale Computer \\ \\ \\ Microsoft \\ Office \\ 15,0 \\ lync</span><span class="sxs-lookup"><span data-stu-id="a6584-153">HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\Office\\15.0\\Lync</span></span>
+
+<span data-ttu-id="a6584-154">REG \_ DWORD: DisableNTCredentials</span><span class="sxs-lookup"><span data-stu-id="a6584-154">REG\_DWORD: DisableNTCredentials</span></span>
+
+<span data-ttu-id="a6584-155">Wert: 0x0 festlegen</span><span class="sxs-lookup"><span data-stu-id="a6584-155">Value: 0x0</span></span>
+
+</div>
+
+<div>
+
+## <a name="savepassword"></a><span data-ttu-id="a6584-156">SavePassword</span><span class="sxs-lookup"><span data-stu-id="a6584-156">SavePassword</span></span>
+
+<span data-ttu-id="a6584-157">Wenn sich ein Benutzer zum ersten Mal bei lync anmeldet, wird der Benutzer aufgefordert, sein Kennwort zu speichern.</span><span class="sxs-lookup"><span data-stu-id="a6584-157">When a user signs in to Lync for the first time, the user is prompted to save his or her password.</span></span> <span data-ttu-id="a6584-158">Wenn diese Option aktiviert ist, kann das Clientzertifikat des Benutzers im persönlichen Zertifikatspeicher und in den Windows-Anmeldeinformationen des Benutzers gespeichert werden, damit diese im Credential Manager des lokalen Computers gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="a6584-158">If selected, this option allows the user’s client certificate to be stored in the personal certificate store and the user’s Windows credentials to be stored in the Credential Manager of the local computer.</span></span>
+
+<span data-ttu-id="a6584-159">Die Registrierungseinstellung **SavePassword** sollte deaktiviert werden, wenn lync für die Unterstützung der zweistufigen Authentifizierung konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="a6584-159">The **SavePassword** registry setting should be disabled when Lync is configured to support two-factor authentication.</span></span> <span data-ttu-id="a6584-160">Wenn Sie verhindern möchten, dass Benutzer ihre Kennwörter speichern, ändern Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die administrative Vorlage lync, um mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool zuzutreffen:</span><span class="sxs-lookup"><span data-stu-id="a6584-160">To prevent users from saving their passwords, change the following registry entry on the local workstation or use the Lync administrative template to apply to all users for a given pool using Group Policy:</span></span>
+
+<span data-ttu-id="a6584-161">HKEY \_ aktuelle \_ Benutzer \\ Software \\ Microsoft \\ Office \\ 15,0 \\ lync</span><span class="sxs-lookup"><span data-stu-id="a6584-161">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync</span></span>
+
+<span data-ttu-id="a6584-162">REG \_ DWORD: SavePassword</span><span class="sxs-lookup"><span data-stu-id="a6584-162">REG\_DWORD: SavePassword</span></span>
+
+<span data-ttu-id="a6584-163">Wert: 0x0 festlegen</span><span class="sxs-lookup"><span data-stu-id="a6584-163">Value: 0x0</span></span>
 
 </div>
 
@@ -190,19 +191,19 @@ ms.locfileid: "48513452"
 
 <div>
 
-## <a name="ad-fs-20-token-replay"></a><span data-ttu-id="2c55a-163">Wiedergabe von AD FS 2.0 Token</span><span class="sxs-lookup"><span data-stu-id="2c55a-163">AD FS 2.0 Token Replay</span></span>
+## <a name="ad-fs-20-token-replay"></a><span data-ttu-id="a6584-164">Wiedergabe von AD FS 2.0 Token</span><span class="sxs-lookup"><span data-stu-id="a6584-164">AD FS 2.0 Token Replay</span></span>
 
-<span data-ttu-id="2c55a-164">AD FS 2.0 stellt ein Feature dar, das als Erkennung von Token-Wiedergaben bezeichnet wird, durch das mehrere Token-Anforderungen mit demselben Token erkannt und anschließend verworfen werden können.</span><span class="sxs-lookup"><span data-stu-id="2c55a-164">AD FS 2.0 provides a feature referred to as token replay detection, by which multiple token requests using the same token can be detected and then discarded.</span></span> <span data-ttu-id="2c55a-165">Wenn dieses Feature aktiviert ist, schützt die Token-Wiedergabeerkennung die Integrität von Authentifizierungsanforderungen sowohl im WS-Federation passiven Profil als auch im SAML-WebSSO-Profil, indem sichergestellt wird, dass dasselbe Token nie mehr als einmal verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="2c55a-165">When this feature is enabled, token replay detection protects the integrity of authentication requests in both the WS-Federation passive profile and the SAML WebSSO profile by making sure that the same token is never used more than once.</span></span>
+<span data-ttu-id="a6584-165">AD FS 2.0 stellt ein Feature dar, das als Erkennung von Token-Wiedergaben bezeichnet wird, durch das mehrere Token-Anforderungen mit demselben Token erkannt und anschließend verworfen werden können.</span><span class="sxs-lookup"><span data-stu-id="a6584-165">AD FS 2.0 provides a feature referred to as token replay detection, by which multiple token requests using the same token can be detected and then discarded.</span></span> <span data-ttu-id="a6584-166">Wenn dieses Feature aktiviert ist, schützt die Token-Wiedergabeerkennung die Integrität von Authentifizierungsanforderungen sowohl im WS-Federation passiven Profil als auch im SAML-WebSSO-Profil, indem sichergestellt wird, dass dasselbe Token nie mehr als einmal verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="a6584-166">When this feature is enabled, token replay detection protects the integrity of authentication requests in both the WS-Federation passive profile and the SAML WebSSO profile by making sure that the same token is never used more than once.</span></span>
 
-<span data-ttu-id="2c55a-166">Dieses Feature sollte in Situationen aktiviert sein, in denen Sicherheit ein sehr hoher Aspekt ist, beispielsweise bei der Verwendung von Kiosken.</span><span class="sxs-lookup"><span data-stu-id="2c55a-166">This feature should be enabled in situations where security is a very high concern such as when using kiosks.</span></span> <span data-ttu-id="2c55a-167">Weitere Informationen zur Erkennung von Token-Wiedergabe finden Sie unter Bewährte Methoden für die sichere Planung und Bereitstellung von AD FS 2.0 unter [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215) .</span><span class="sxs-lookup"><span data-stu-id="2c55a-167">For more information about token replay detection, see Best Practices for Secure Planning and Deployment of AD FS 2.0 at [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215).</span></span>
+<span data-ttu-id="a6584-167">Dieses Feature sollte in Situationen aktiviert sein, in denen Sicherheit ein sehr hoher Aspekt ist, beispielsweise bei der Verwendung von Kiosken.</span><span class="sxs-lookup"><span data-stu-id="a6584-167">This feature should be enabled in situations where security is a very high concern such as when using kiosks.</span></span> <span data-ttu-id="a6584-168">Weitere Informationen zur Erkennung von Token-Wiedergabe finden Sie unter Bewährte Methoden für die sichere Planung und Bereitstellung von AD FS 2.0 unter [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215) .</span><span class="sxs-lookup"><span data-stu-id="a6584-168">For more information about token replay detection, see Best Practices for Secure Planning and Deployment of AD FS 2.0 at [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215).</span></span>
 
 </div>
 
 <div>
 
-## <a name="external-user-access"></a><span data-ttu-id="2c55a-168">Externer Benutzerzugriff</span><span class="sxs-lookup"><span data-stu-id="2c55a-168">External User Access</span></span>
+## <a name="external-user-access"></a><span data-ttu-id="a6584-169">Externer Benutzerzugriff</span><span class="sxs-lookup"><span data-stu-id="a6584-169">External User Access</span></span>
 
-<span data-ttu-id="2c55a-169">Die Konfiguration eines AD FS-Proxys oder Reverseproxy zur Unterstützung der zweistufigen lync-Authentifizierung von externen Netzwerken wird in diesen Themen nicht behandelt.</span><span class="sxs-lookup"><span data-stu-id="2c55a-169">Configuring an AD FS Proxy or Reverse Proxy to support Lync two-factor authentication from external networks is not covered in these topics.</span></span>
+<span data-ttu-id="a6584-170">Die Konfiguration eines AD FS-Proxys oder Reverseproxy zur Unterstützung der zweistufigen lync-Authentifizierung von externen Netzwerken wird in diesen Themen nicht behandelt.</span><span class="sxs-lookup"><span data-stu-id="a6584-170">Configuring an AD FS Proxy or Reverse Proxy to support Lync two-factor authentication from external networks is not covered in these topics.</span></span>
 
 </div>
 
