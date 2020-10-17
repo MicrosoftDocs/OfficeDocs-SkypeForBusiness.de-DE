@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507472"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange um
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange um
+
 
 </div>
 
@@ -62,9 +64,9 @@ In diesem Thema wird beschrieben, wie Sie den Domain Name System (DNS) SRV-Eintr
 
 5.  Klicken Sie In **Ressourceneintragstyp** auf **Dienstidentifizierung (SRV)**, und klicken Sie dann auf **Eintrag erstellen**.
 
-6.  Klicken Sie unter **neuer Ressourceneintrag**auf **Dienst**, und geben ** \_Sie sipfederationtls**.
+6.  Klicken Sie unter **neuer Ressourceneintrag**auf **Dienst**, und geben Sie ** \_ sipfederationtls**.
 
-7.  Klicken Sie auf **Protokoll**, und ** \_** geben Sie dann TCP ein.
+7.  Klicken Sie auf **Protokoll**, und geben Sie dann ** \_ TCP**ein.
 
 8.  Klicken Sie auf **Portnummer**, und geben Sie **5061** ein.
 
@@ -74,7 +76,7 @@ In diesem Thema wird beschrieben, wie Sie den Domain Name System (DNS) SRV-Eintr
     
 
     > [!NOTE]
-    > Die Domäne muss auch als autorisierende akzeptierte Domäne in den Exchange Online-Einstellungen eingerichtet werden. Ausführliche Informationen finden Sie unter CREATE Accepted <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>Domains at.
+    > Die Domäne muss auch als autorisierende akzeptierte Domäne in den Exchange Online-Einstellungen eingerichtet werden. Ausführliche Informationen finden Sie unter CREATE accepted domains at <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> .
 
     
     </div>

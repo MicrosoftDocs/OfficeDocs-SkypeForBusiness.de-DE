@@ -12,20 +12,22 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8babb6bf37e3dd75f2051dd08f0b2ebf3a4f093b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2156466e0238a061f2358127c75408fa37e3b823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507532"
 ---
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Bereitstellen von lync Web App in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Bereitstellen von lync Web App in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Für die VoIP-, Video-und Freigabefunktionen in lync Web App ist ein Microsoft A
 
 ## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a>Aktivieren der mehrstufigen Authentifizierung für lync Web App
 
-Die lync Server 2013 Version von lync Web App unterstützt die mehrstufige Authentifizierung. Neben Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins zur Authentifizierung von Benutzern benötigen, die von externen Netzwerken beitreten, wenn Sie sich bei lync-Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Verbundserver Active Directory Verbunddienst (AD FS) bereitstellen und die passive Authentifizierung in lync Server 2013 aktivieren. Nachdem AD FS konfiguriert wurde, werden externe Benutzer, die versuchen, an lync-Besprechungen teilzunehmen, mit einer AD FS-mehrstufigen Authentifizierungs Webseite angezeigt, die den Benutzernamen und das Kennwort sowie alle weiteren von Ihnen konfigurierten Authentifizierungsmethoden enthält. .
+Die lync Server 2013 Version von lync Web App unterstützt die mehrstufige Authentifizierung. Neben Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins zur Authentifizierung von Benutzern benötigen, die von externen Netzwerken beitreten, wenn Sie sich bei lync-Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Verbundserver Active Directory Verbunddienst (AD FS) bereitstellen und die passive Authentifizierung in lync Server 2013 aktivieren. Nachdem AD FS konfiguriert wurde, werden externe Benutzer, die versuchen, an lync-Besprechungen teilzunehmen, mit einer AD FS-mehrstufigen Authentifizierungs Webseite angezeigt, die den Benutzernamen und die Kennwortabfrage sowie alle weiteren von Ihnen konfigurierten Authentifizierungsmethoden enthält.
 
 <div class=" ">
 
@@ -78,9 +80,9 @@ Die lync Server 2013 Version von lync Web App unterstützt die mehrstufige Authe
 
 **Konfigurieren der mehrstufigen Authentifizierung**
 
-1.  Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Ausführliche Informationen finden Sie im Bereitstellungshandbuch für Active Directory Verbunddienste 2,0 unter<https://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Ausführliche Informationen finden Sie im Bereitstellungshandbuch für Active Directory Verbunddienste 2,0 unter <https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Erstellen von Zertifikaten für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" des Themas planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden unter [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  Erstellen von Zertifikaten für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" des Themas planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden unter [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  Führen Sie über die Befehlszeilenschnittstelle Windows PowerShell den folgenden Befehl aus:
     ```powershell
@@ -113,7 +115,7 @@ Die lync Server 2013 Version von lync Web App unterstützt die mehrstufige Authe
 
 Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann mit lync Web App Webkomponenten in Konflikt stehen. Um Probleme für lync Web App Benutzer zu vermeiden, stellen Sie sicher, dass BranchCache nicht aktiviert ist.
 
-Ausführliche Informationen zum Deaktivieren von BranchCache finden Sie im BranchCache-Bereitstellungshandbuch, das im Microsoft Download Center im [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) und im HTML-Format in der technischen Bibliothek von [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)Windows Server 2008 R2 unter im Word-Format verfügbar ist.
+Ausführliche Informationen zum Deaktivieren von BranchCache finden Sie im BranchCache-Bereitstellungshandbuch, das im Microsoft Download Center im [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) und im HTML-Format in der technischen Bibliothek von Windows Server 2008 R2 unter im Word-Format verfügbar ist [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789) .
 
 </div>
 
@@ -158,9 +160,9 @@ Wenn die Installation des Plug-Ins auf einem Computer mit Windows Server 2008 R2
 
 2.  Geben Sie **regedit** ein, um auf den Registrierungs-Editor zuzugreifen.
 
-3.  Navigieren Sie zu\_HKEY\_local\\Machine\\Software\\\\Policies\\Microsoft Windows Installer.
+3.  Navigieren Sie zu HKEY \_ local \_ Machine \\ Software \\ Policies \\ Microsoft \\ Windows \\ Installer.
 
-4.  Bearbeiten oder fügen Sie den Registrierungsschlüssel DisableMSI vom Typ\_reg DWORD hinzu, und legen Sie ihn auf 0 fest.
+4.  Bearbeiten oder fügen Sie den Registrierungsschlüssel DisableMSI vom Typ reg \_ DWORD hinzu, und legen Sie ihn auf 0 fest.
 
 5.  Nehmen Sie an der Besprechung erneut teil.
 

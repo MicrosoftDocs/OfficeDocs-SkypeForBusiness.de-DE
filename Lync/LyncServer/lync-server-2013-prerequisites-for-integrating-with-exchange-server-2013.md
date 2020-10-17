@@ -12,20 +12,22 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3ea70be8c4d431b6231b1cf8e8dc252581643b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 372c4724275b18dac8db9c050a2ac03753740976
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183541"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506742"
 ---
+# <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Voraussetzungen für die Integration von Microsoft lync Server 2013 und Microsoft Exchange Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Voraussetzungen für die Integration von Microsoft lync Server 2013 und Microsoft Exchange Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42183541"
 
 _**Letztes Änderungsstand des Themas:** 2014-04-22_
 
-Bevor Sie Microsoft lync Server 2013 und Microsoft Exchange Server 2013 integrieren können, müssen Sie sicherstellen, dass alle erforderlichen Schritte ausgeführt wurden. Wie Sie vielleicht erwarten, kann die Integration erst stattfinden, wenn sowohl Exchange 2013 als auch lync Server 2013 vollständig installiert sind und ausgeführt werden. Ausführliche Informationen zum Installieren von Exchange finden Sie in der Dokumentation zur Exchange 2013 Planung [https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539)und-Bereitstellung unter. Ausführliche Informationen zum Installieren von lync Server 2013 finden Sie in [https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806)der Dokumentation zur Planung und Bereitstellung unter.
+Bevor Sie Microsoft lync Server 2013 und Microsoft Exchange Server 2013 integrieren können, müssen Sie sicherstellen, dass alle erforderlichen Schritte ausgeführt wurden. Wie Sie vielleicht erwarten, kann die Integration erst stattfinden, wenn sowohl Exchange 2013 als auch lync Server 2013 vollständig installiert sind und ausgeführt werden. Ausführliche Informationen zum Installieren von Exchange finden Sie in der Dokumentation zur Exchange 2013 Planung und-Bereitstellung unter [https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539) . Ausführliche Informationen zum Installieren von lync Server 2013 finden Sie in der Dokumentation zur Planung und Bereitstellung unter [https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806) .
 
-Nachdem die Serverbetriebs bereit sind, müssen Sie sowohl lync Server 2013 als auch Exchange 2013 Server-zu-Server-Authentifizierungszertifikate zuweisen. Diese Zertifikate ermöglichen lync Server und Exchange zum Austausch von Informationen und zur Kommunikation miteinander. Wenn Sie Exchange 2013 installieren, wird ein selbstsigniertes Zertifikat mit dem Namen Exchange Server Authentifizierungszertifikat für Sie erstellt. Dieses Zertifikat, das sich im Zertifikatspeicher des lokalen Computers befindet, sollte für die Server-zu-Server-Authentifizierung in Exchange 2013 verwendet werden. Ausführliche Informationen zum Zuweisen von Zertifikaten in Exchange 2013 finden Sie unter "Konfigurieren des Nachrichtenflusses und des [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540)Client Zugriffs" unter.
+Nachdem die Serverbetriebs bereit sind, müssen Sie sowohl lync Server 2013 als auch Exchange 2013 Server-zu-Server-Authentifizierungszertifikate zuweisen. Diese Zertifikate ermöglichen lync Server und Exchange zum Austausch von Informationen und zur Kommunikation miteinander. Wenn Sie Exchange 2013 installieren, wird ein selbstsigniertes Zertifikat mit dem Namen Exchange Server Authentifizierungszertifikat für Sie erstellt. Dieses Zertifikat, das sich im Zertifikatspeicher des lokalen Computers befindet, sollte für die Server-zu-Server-Authentifizierung in Exchange 2013 verwendet werden. Ausführliche Informationen zum Zuweisen von Zertifikaten in Exchange 2013 finden Sie unter "Konfigurieren des Nachrichtenflusses und des Client Zugriffs" unter [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540) .
 
 Für lync Server 2013 können Sie ein vorhandenes lync Server Zertifikat als Server-zu-Server-Authentifizierungszertifikat verwenden. Beispielsweise kann Ihr Standardzertifikat auch als OAuthTokenIssuer-Zertifikat verwendet werden. Lync Server 2013 können Sie ein beliebiges Webserverzertifikat als Zertifikat für die Server-zu-Server-Authentifizierung verwenden, vorausgesetzt:
 
@@ -73,9 +75,9 @@ Sie können den URI für den AutoErmittlungsdienst zuweisen, indem Sie einem Bef
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-Ausführliche Informationen zum AutoErmittlungsdienst finden Sie unter "Understanding the Auto Ermittlungs [https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542)Service" unter.
+Ausführliche Informationen zum AutoErmittlungsdienst finden Sie unter "Understanding the Auto Ermittlungs Service" unter [https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542) .
 
-Nachdem Sie den AutoErmittlungsdienst konfiguriert haben, müssen Sie die lync Server Konfigurationseinstellungen für OAuth ändern. Dadurch wird sichergestellt, dass lync Server weiß, wo der AutoErmittlungsdienst zu finden ist. Um die OAuth-Konfigurationseinstellungen in lync Server 2013 zu ändern, führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell aus. Wenn Sie diesen Befehl ausführen, stellen Sie sicher, dass Sie den URI für den AutoErmittlungsdienst auf Ihrem Exchange-Server angeben und dass Sie **autodiscover. svc** verwenden, um auf den Dienst Speicherort zu zeigen, statt **autodiscover. XML** (der auf die vom Dienst verwendete XML-Datei verweist):
+Nachdem Sie den AutoErmittlungsdienst konfiguriert haben, müssen Sie die lync Server Konfigurationseinstellungen für OAuth ändern. Dadurch wird sichergestellt, dass lync Server weiß, wo der AutoErmittlungsdienst zu finden ist. Um die OAuth-Konfigurationseinstellungen in lync Server 2013 zu ändern, führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell aus. Wenn Sie diesen Befehl ausführen, stellen Sie sicher, dass Sie den URI für den AutoErmittlungsdienst auf Ihrem Exchange-Server angeben und dass Sie **autodiscover. svc** verwenden, um auf den Dienst Speicherort zu zeigen, statt auf **autodiscover.xml** (der auf die vom Dienst verwendete XML-Datei zeigt):
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"
 
@@ -83,7 +85,7 @@ Nachdem Sie den AutoErmittlungsdienst konfiguriert haben, müssen Sie die lync S
 
 
 > [!NOTE]  
-> Der Parameter Identity im vorangehenden Befehl ist optional; Das liegt daran, dass lync Server nur eine einzelne globale Auflistung von OAuth-Konfigurationseinstellungen haben kann. Dies bedeutet unter anderem, dass Sie die Auto Ermittlungs-URL mit dem folgenden leicht vereinfachten Befehl konfigurieren können:<BR>Gruppe-csoauthconfiguration "– ExchangeAutodiscoverUrl"https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"<BR>Wenn Sie mit der Technologie noch nicht so vertraut sind, ist "OAuth" ein Standardautorisierungsprotokoll, das von vielen wichtigen Websites verwendet wird. Bei "OAuth" werden Benutzeranmeldeinformationen und -kennwörter nicht von einem Computer zum anderen übergeben. Stattdessen basieren Authentifizierung und Autorisierung auf dem Austausch von Sicherheitstoken. Diese Token erteilen für einen bestimmte Zeitspanne Zugriff auf einen bestimmten Satz Ressourcen.
+> Der Parameter Identity im vorangehenden Befehl ist optional; Das liegt daran, dass lync Server nur eine einzelne globale Auflistung von OAuth-Konfigurationseinstellungen haben kann. Dies bedeutet unter anderem, dass Sie die Auto Ermittlungs-URL mit dem folgenden leicht vereinfachten Befehl konfigurieren können:<BR>Gruppe-csoauthconfiguration "– ExchangeAutodiscoverUrl" https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc "<BR>Wenn Sie mit der Technologie noch nicht so vertraut sind, ist "OAuth" ein Standardautorisierungsprotokoll, das von vielen wichtigen Websites verwendet wird. Bei "OAuth" werden Benutzeranmeldeinformationen und -kennwörter nicht von einem Computer zum anderen übergeben. Stattdessen basieren Authentifizierung und Autorisierung auf dem Austausch von Sicherheitstoken. Diese Token erteilen für einen bestimmte Zeitspanne Zugriff auf einen bestimmten Satz Ressourcen.
 
 
 

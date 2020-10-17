@@ -12,20 +12,22 @@ ms:contentKeyID: 48185844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8678ed12269f7f78d6d169b518e7f1208d92a7fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d44b6c4fd29109608691914784b02e2ad362b591
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506652"
 ---
+# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Anzeigen einer Liste vertrauenswürdiger Anwendungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>Anzeigen einer Liste vertrauenswürdiger Anwendungen in lync Server 2013
+
 
 </div>
 

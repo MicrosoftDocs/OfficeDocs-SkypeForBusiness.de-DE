@@ -12,20 +12,22 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d52e6a7eb36ce0f000a9986480d62692d3a33d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507522"
 ---
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Konfigurieren von Testbenutzern und Konfigurationseinstellungen für Watcher-Knoten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Konfigurieren von Testbenutzern und Konfigurationseinstellungen für Watcher-Knoten in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 ## <a name="configuring-test-user-accounts"></a>Konfigurieren von Testbenutzerkonten
 
-Test Benutzer müssen keine tatsächlichen Personen darstellen, Sie müssen jedoch Active Directory-Domänendienste Konten gültig sein; Darüber hinaus müssen diese Konten für lync Server 2013 aktiviert sein, Sie müssen über gültige SIP-Adressen verfügen und für Enterprise-VoIP aktiviert sein (für die Verwendung der synthetischen Test-CsPstnPeerToPeerCall-Transaktion). Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind und gemäß den Angaben in diesem  Dokument konfiguriert wurden. Sie sollten für jeden zu testenden Pool mindestens drei Testbenutzer zuweisen.
+Test Benutzer müssen keine tatsächlichen Personen darstellen, Sie müssen jedoch Active Directory-Domänendienste Konten gültig sein; Darüber hinaus müssen diese Konten für lync Server 2013 aktiviert sein, Sie müssen über gültige SIP-Adressen verfügen und für Enterprise-VoIP aktiviert sein (für die Verwendung der Test-CsPstnPeerToPeerCall synthetischen Transaktion). Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind und gemäß den Angaben in diesem  Dokument konfiguriert wurden. Sie sollten für jeden zu testenden Pool mindestens drei Testbenutzer zuweisen.
 
 Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das Cmdlet " **CsTestUserCredential** " und die lync Server-Verwaltungsshell verwenden, damit diese Testkonten mit den synthetischen Transaktionen arbeiten können. Dazu können Sie einen Befehl ausführen, der dem Folgenden ähnelt. (Bei diesen Befehlen wird davon ausgegangen, dass die drei Active Directory Benutzerkonten bereits erstellt wurden und diese Konten für lync Server 2013 aktiviert wurden.):
 
@@ -67,7 +69,7 @@ Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Beachten Sie, dass Sie nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort einbeziehen müssen. Wenn Sie das Kennwort nicht einschließen, werden Sie von CsTestUserCredential zur Eingabe dieser Informationen aufgefordert. Der Benutzername kann mit dem oben aufgeführten Domänennamen\\-Benutzernamenformat oder mit dem Format User Name@Domain Name angegeben werden; Zum Beispiel:
+Beachten Sie, dass Sie nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort einbeziehen müssen. Wenn Sie das Kennwort nicht einschließen Set-CsTestUserCredential werden Sie zur Eingabe dieser Informationen aufgefordert. Der Benutzername kann mit dem oben aufgeführten Domänennamen \\ -Benutzernamenformat oder mit dem Format User Name@Domain Name angegeben werden; Beispiel:
 
     -UserName "watcher3@litwareinc.com"
 

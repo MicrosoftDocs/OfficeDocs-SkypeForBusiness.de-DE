@@ -12,20 +12,22 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c5d83acbe32d33a235e7c2918663340a3ac7ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b3af3ce7940b8d0fb58a74b4a8f7bb0a21c5e2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183758"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506992"
 ---
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Vorbereiten Active Directory-Domänendienste in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Vorbereiten Active Directory-Domänendienste in lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Sie müssen Active Directory Vorbereitungsschritte auf einem Computer ausführen
 
 Zur Ausführung der Active Directory-Vorbereitungsaufgaben sind die folgenden Komponenten erforderlich:
 
-  - Lync Server Kernkomponenten (OCScore. msi)
+  - Lync Server Kernkomponenten (OCScore.msi)
     
     <div>
     
@@ -72,13 +74,13 @@ Zur Ausführung der Active Directory-Vorbereitungsaufgaben sind die folgenden Ko
     
     </div>
 
-  - Microsoft .NET Framework 4.5
+  - Microsoft .NET Framework 4.5
     
     <div>
     
 
     > [!NOTE]  
-    > Für Windows Server 2012 und Windows Server 2012 R2 installieren und aktivieren Sie .NET Framework 4.5 mit dem Server-Manager. Ausführliche Informationen finden Sie unter "Microsoft .NET Framework 4.5" in <A href="lync-server-2013-additional-software-requirements.md">zusätzlichen Softwareanforderungen für lync Server 2013</A>. Laden Sie für&nbsp;Windows&nbsp;Server 2008 R2 <A href="https://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> von der Microsoft-Website herunter, und installieren Sie es.
+    > Für Windows Server 2012 und Windows Server 2012 R2 installieren und aktivieren Sie .NET Framework 4.5 mit dem Server-Manager. Ausführliche Informationen finden Sie unter "Microsoft .NET Framework 4.5" in <A href="lync-server-2013-additional-software-requirements.md">zusätzlichen Softwareanforderungen für lync Server 2013</A>. Laden Sie für Windows Server &nbsp; 2008 &nbsp; R2 <A href="https://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> von der Microsoft-Website herunter, und installieren Sie es.
 
     
     </div>
@@ -227,7 +229,7 @@ Wenn in Ihrer Organisation statt der drei integrierten Container (Benutzer, Comp
 
 ## <a name="using-cmdlets-and-ldifdeexe"></a>Verwenden von Cmdlets und "Ldifde.exe"
 
-Der Schritt **Schema vorbereiten** im lync Server-Bereitstellungs-Assistenten und das Cmdlet **install-CsAdServerSchema** erweitern das Active Directory Schema auf Domänencontrollern mit einem 64-Bit-Betriebssystem. Wenn Sie das Active Directory Schema auf einem Domänencontroller erweitern müssen, auf dem ein 32-Bit-Betriebssystem ausgeführt wird, können Sie das Cmdlet **install-CsAdServerSchema** Remote von einem Mitgliedsserver aus ausführen (empfohlener Ansatz). Wenn Sie die Schemavorbereitung direkt auf dem Domänencontroller ausführen müssen, können Sie das Tool LDIFDE. exe verwenden, um die Schemadateien zu importieren. Das Tool "Ldifde. exe" enthält die meisten Versionen des Windows-Betriebssystems.
+Der Schritt **Schema vorbereiten** im lync Server-Bereitstellungs-Assistenten und das Cmdlet **install-CsAdServerSchema** erweitern das Active Directory Schema auf Domänencontrollern mit einem 64-Bit-Betriebssystem. Wenn Sie das Active Directory Schema auf einem Domänencontroller erweitern müssen, auf dem ein 32-Bit-Betriebssystem ausgeführt wird, können Sie das Cmdlet **install-CsAdServerSchema** Remote von einem Mitgliedsserver aus ausführen (empfohlener Ansatz). Wenn Sie die Schemavorbereitung direkt auf dem Domänencontroller ausführen müssen, können Sie das Ldifde.exe-Tool verwenden, um die Schemadateien zu importieren. Das Ldifde.exe-Tool umfasst die meisten Versionen des Windows-Betriebssystems.
 
 Bei Verwendung von "Ldifde.exe" zum Importieren der Schemadateien, müssen Sie unabhängig davon, ob Sie eine Migration von einer vorherigen Version oder eine Neuinstallation ausführen, alle vier Dateien importieren. Die Dateien müssen mit der folgenden Reihenfolge importiert werden:
 
@@ -271,7 +273,7 @@ Verwenden Sie das folgende Format, um "Ldifde.exe" zum Importieren der vier Sche
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Ausführliche Informationen zur Verwendung von LDIFDE finden Sie im [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)Microsoft Knowledge Base-Artikel 237677, "Verwenden von LDIFDE zum Importieren und Exportieren von Verzeichnisobjekten in Active Directory" unter.
+Ausführliche Informationen zur Verwendung von LDIFDE finden Sie im Microsoft Knowledge Base-Artikel 237677, "Verwenden von LDIFDE zum Importieren und Exportieren von Verzeichnisobjekten in Active Directory" unter [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab897bf5bc9d959089090ebeaaddc4d766549401
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdb09d52970b5fd97395acda6a2e4fbc824a378d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217121"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505592"
 ---
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <th>Simple Authentication and Security Layer (SASL)</th>
 <th>Rückrufauthentifizierung</th>
 <th>Erwartete Authentifizierungsmethode(n)</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -69,21 +71,21 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="even">
 <td><p>Erforderlich</p></td>
 <td><p>Optional</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
 <td><p>Wenn TLS auf Erforderlich festgelegt wird, wird SASL verwendet, wenn für den XMPP-Verbundpartner SASL auf Optional oder Erforderlich festgelegt ist. Ist SASL nicht verfügbar, wird Rückruf über TLS verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Optional</p></td>
 <td><p>Optional</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
 <td><p>Diese Einstellungen sind zwar sehr flexibel hinsichtlich der angebotenen Aushandlungsmethoden, erfordern aber die Einstellungen des XMPP-Verbundpartners. Wenn für den Partner TLS auf Optional oder Erforderlich festgelegt ist, SASL aber nicht unterstützt wird, ist TLS-Rückruf verfügbar. Wenn für den Partner TLS und SASL auf Optional oder Erforderlich festgelegt sind, wird die optimale Auswahl von TLS über SASL verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>TCP-Rückruf</p></td>
 <td><p>In vielen Fällen ist TCP-Rückruf die einzig mögliche Lösung. Das ist zwar weniger optimal als andere Optionen, bietet aber ein bestimmtes Maß an Vertrauenswürdigkeit.</p></td>
 </tr>
@@ -114,7 +116,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Erforderlich</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>SASL über TLS</p></td>
 <td><div>
 
@@ -134,7 +136,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Optional</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
 <td><div>
 
@@ -160,7 +162,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Erforderlich</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>TCP-Rückruf</p></td>
 <td><div>
 
@@ -192,7 +194,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Erforderlich</p></td>
 <td><p>Optional</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>SASL über TLS, TLS-Rückruf</p></td>
 <td></td>
 </tr>
@@ -206,7 +208,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Optional</p></td>
 <td><p>Optional</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>SASL über TLS, TLS-Rückruf, TCP-Rückruf</p></td>
 <td><div>
 
@@ -232,7 +234,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Optional</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>TCP-Rückruf</p></td>
 <td><div>
 
@@ -264,7 +266,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Erforderlich</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>TLS-Rückruf</p></td>
 <td><p>Konfiguration erlaubt TLS-Rückruf.</p></td>
 </tr>
@@ -284,7 +286,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Optional</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>TLS-Rückruf, TCP-Rückruf</p></td>
 <td><p>Je nach den Aushandlungsoptionen am anderen Endpunkt wird TCP- oder TLS-Rückruf akzeptiert.</p></td>
 </tr>
@@ -304,7 +306,7 @@ Die Einstellungen für die Aushandlungstypen in der Konfiguration eines XMPP-Par
 <tr class="odd">
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Wahr</p></td>
+<td><p>Richtig</p></td>
 <td><p>TCP-Rückruf</p></td>
 <td><p>TCP-Rückruf ist die einzige verfügbare Aushandlungsmethode</p></td>
 </tr>

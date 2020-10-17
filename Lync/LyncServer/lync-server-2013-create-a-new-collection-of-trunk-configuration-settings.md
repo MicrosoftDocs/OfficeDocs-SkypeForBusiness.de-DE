@@ -12,20 +12,22 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f988b096b6f991cb52b4d1238219b67364c37ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7d019bfe7bb1dbb1322281a50f393decc8e5cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507462"
 ---
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Erstellen Sie in lync Server 2013 eine neue Auflistung von trunkkonfigurationseinstellungen.
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Erstellen Sie in lync Server 2013 eine neue Auflistung von trunkkonfigurationseinstellungen.
+
 
 </div>
 
@@ -96,7 +98,7 @@ Wenn Sie SIP-Trunk-Konfigurationseinstellungen mit lync Server-Systemsteuerung e
 <td><p>Enable3pccRefer</p>
 <p>"Enablerefersupport"</p></td>
 <td><p>Mit der Einstellung <strong>Refer-Anforderungen an das Gateway senden</strong> unterstützt der Trunk den Empfang von Refer-Anforderungen vom Vermittlungsserver.</p>
-<p>Mit der Einstellung <strong>Refer-Anforderungen mit 3pcc senden</strong> kann das 3pcc-Protokoll verwendet werden, damit weitergeleitete Anrufe den gehosteten Standort umgehen können. 3PCC wird auch als &quot;Drittanbieter-Steuerelement&quot; bezeichnet und tritt auf, wenn ein Drittanbieter verwendet wird, um ein paar von Anrufern zu verbinden (beispielsweise ein Operator, der einen Anruf von Person a an Person B abruft).</p></td>
+<p>Mit der Einstellung <strong>Refer-Anforderungen mit 3pcc senden</strong> kann das 3pcc-Protokoll verwendet werden, damit weitergeleitete Anrufe den gehosteten Standort umgehen können. 3PCC wird auch als &quot; Drittanbieter-Steuerelement bezeichnet &quot; und tritt auf, wenn ein Drittanbieter verwendet wird, um ein paar von Anrufern zu verbinden (beispielsweise ein Operator, der einen Anruf von Person a an Person B abruft).</p></td>
 </tr>
 <tr class="even">
 <td><p>Medienumgehung aktivieren</p></td>

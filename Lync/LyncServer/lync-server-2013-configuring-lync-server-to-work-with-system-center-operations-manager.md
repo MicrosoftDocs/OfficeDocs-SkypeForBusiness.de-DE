@@ -12,20 +12,22 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88eeae2c08020aacb142bbceb6c2637ae4d55b63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506232"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Konfigurieren lync Server 2013 für die Verwendung mit System Center Operations Manager
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Konfigurieren lync Server 2013 für die Verwendung mit System Center Operations Manager
+
 
 </div>
 
@@ -43,7 +45,7 @@ Um Ihre Microsoft lync Server 2013-Infrastruktur für die Zusammenarbeit mit Sys
 
   - Identifizieren und konfigurieren Sie die lync Server Computer, die Sie überwachen möchten. Um einen lync Server Computer mithilfe von System Center Operations Manager zu überwachen, müssen Sie die System Center Operations Manager-Agentdateien installieren und jeden Server so konfigurieren, dass er als Proxy fungiert.
 
-  - Identifizieren und konfigurieren Sie die Computer, die als lync Server Watcher- *Knoten*fungieren sollen. Watcher-Knoten sind Computer, die regelmäßig lync Server synthetischen Transaktionen ausgeführt werden, bei denen es sich um Windows PowerShell-Cmdlets handelt, die sicherstellen, dass wichtige lync Server-Komponenten, beispielsweise die Möglichkeit zur Anmeldung am System oder die Möglichkeit zum Austauschen von Chatnachrichten, funktioniert wie erwartet.
+  - Identifizieren und konfigurieren Sie die Computer, die als lync Server Watcher- *Knoten*fungieren sollen. Watcher-Knoten sind Computer, die regelmäßig lync Server synthetischen Transaktionen ausgeführt werden, bei denen es sich um Windows PowerShell-Cmdlets handelt, die überprüfen, ob die Schlüssel lync Server Komponenten wie die Möglichkeit zur Anmeldung am System oder die Möglichkeit zum Austauschen von Chatnachrichten wie erwartet funktionieren.
 
 Die Themen in diesem Abschnitt enthalten Anweisungen zum Ausführen aller dieser Aufgaben
 

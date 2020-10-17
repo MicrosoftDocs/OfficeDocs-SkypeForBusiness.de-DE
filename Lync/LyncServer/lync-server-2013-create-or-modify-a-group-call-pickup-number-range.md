@@ -12,20 +12,22 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdf2ee113682ccee44d2329de68dfa87ea5824be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee394401999038c205826c99b3e6b2e35734087d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179982"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506132"
 ---
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Erstellen oder Ändern eines Nummernbereichs für die gruppenanrufannahme in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Erstellen oder Ändern eines Nummernbereichs für die gruppenanrufannahme in lync Server 2013
+
 
 </div>
 
@@ -67,9 +69,9 @@ Die Nummernbereiche der Anrufannahme Gruppe müssen den folgenden Regeln entspre
 
   - Der Nummernbereich muss eindeutig sein. Für diesen Bereich sind keine Überschneidungen mit einem anderen Bereich zulässig.
 
-  - Wenn der Nummernbereich mit dem Zeichen \* oder \#beginnt, muss der Bereich größer als 100 sein.
+  - Wenn der Nummernbereich mit dem Zeichen \* oder beginnt \# , muss der Bereich größer als 100 sein.
 
-  - Gültige Werte: muss mit der Zeichenfolge für reguläre\[\\\*|\#\]Ausdrücke\[ übereinstimmen (? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}). Dies bedeutet, dass der Wert eine Zeichenfolge sein muss, die \* entweder \# mit dem Zeichen oder einer Zahl von 1 bis 9 beginnt (das erste Zeichen darf nicht NULL sein). Wenn das erste Zeichen oder \* \#ist, muss das folgende Zeichen eine Zahl von 1 bis 9 sein (es darf keine NULL sein). Nachfolgende Zeichen können eine beliebige Zahl von 0 bis 9 bis zu sieben zusätzlichen Zeichen sein (Beispiels\#Weise "6000"\*, "92000"\*, "95551212" und "915551212"). Wenn das erste Zeichen nicht \* oder \#ist, muss das erste Zeichen eine Zahl 1 bis 9 (es darf nicht NULL sein), gefolgt von bis zu acht Zeichen, jeweils eine Zahl 0 bis 9 (beispielsweise "915551212", "41212", "300").
+  - Gültige Werte: muss mit der Zeichenfolge für reguläre Ausdrücke übereinstimmen ( \[ \\ \* | \# \] ? \[ 1-9 \] \\ d {0,7} ) | ( \[ 1-9 \] \\ d {0,8} ). Dies bedeutet, dass der Wert eine Zeichenfolge sein muss, die entweder mit dem Zeichen \* oder \# einer Zahl von 1 bis 9 beginnt (das erste Zeichen darf nicht NULL sein). Wenn das erste Zeichen \* oder ist \# , muss das folgende Zeichen eine Zahl von 1 bis 9 sein (es darf keine NULL sein). Nachfolgende Zeichen können eine beliebige Zahl von 0 bis 9 bis zu sieben zusätzlichen Zeichen sein (beispielsweise " \# 6000", " \* 92000", " \* 95551212" und "915551212"). Wenn das erste Zeichen nicht \* oder ist \# , muss das erste Zeichen eine Zahl 1 bis 9 (es darf nicht NULL sein), gefolgt von bis zu acht Zeichen, jeweils eine Zahl 0 bis 9 (beispielsweise "915551212", "41212", "300").
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25fceca5dfb3b308d7f9d545268c258c3e32609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26e4b9c2814b8e9e5bf57e2e798b4b803d7401fb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507262"
 ---
+# <a name="im-and-presence-in-lync-server-2013"></a>Chat und Anwesenheitsinformationen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="im-and-presence-in-lync-server-2013"></a>Chat und Anwesenheitsinformationen in lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Mit einem einfachen Blick auf eine Kontaktliste erhalten Benutzer alle für sie 
 
 Bei der Integration von lync Server und anderen Produkten wie Outlook und SharePoint wird jedes Mal, wenn der Name eines Kontakts angezeigt wird, beispielsweise in einer e-Mail-Nachricht oder auf einer Teamwebsite, auch der Status und die Kontaktinformationen angezeigt. Wenn Sie Exchange 2013 bereitstellen, können lync Server und Exchange 2013 darüber hinaus einen einheitlichen Kontaktspeicher freigeben, auf den von Clients der beiden Produkte zugegriffen werden kann.
 
-Mit Chatnachrichten in lync Server können sich Benutzer schnell und zeitnah informieren. Wenn es Ihnen lieber ist, können Ihre Benutzer auch mit Benutzern öffentlicher Chat Netzwerke wie MSN/Windows Live, Yahoo\!und AOL kommunizieren. Beachten Sie, dass für Verbindungen mit öffentlichen Chat Diensten mit Windows Live, AOL und Yahoo möglicherweise eine separate Lizenz erforderlich ist.\! Lync Server umfasst auch die Kompatibilität mit dem Extensible Messaging and Presence Protocol (XMPP), damit Ihre Benutzer Chatnachrichten und Anwesenheitsinformationen mit Benutzern von XMPP-Diensten wie Google Talk austauschen können.
+Mit Chatnachrichten in lync Server können sich Benutzer schnell und zeitnah informieren. Wenn es Ihnen lieber ist, können Ihre Benutzer auch mit Benutzern öffentlicher Chat Netzwerke wie MSN/Windows Live, Yahoo \! und AOL kommunizieren. Beachten Sie, dass für Verbindungen mit öffentlichen Chat Diensten mit Windows Live, AOL und Yahoo möglicherweise eine separate Lizenz erforderlich ist.\! Lync Server umfasst auch die Kompatibilität mit dem Extensible Messaging and Presence Protocol (XMPP), damit Ihre Benutzer Chatnachrichten und Anwesenheitsinformationen mit Benutzern von XMPP-Diensten wie Google Talk austauschen können.
 
 <div>
 
@@ -69,7 +71,7 @@ Anhand der aufgezeichneten Unterhaltungen können Benutzer ihre älteren Sofortn
 
 Mit dem Feature für beständigen Chat können Benutzer an mehrteiligen, themenbasierten Unterhaltungen teilnehmen, die im Laufe der Zeit beibehalten werden. In Chatrooms (Diskussionsforen) veröffentlichte Nachrichten können langlebig sein (d. h. dauerhaft verfügbar), sodass Benutzer aus unterschiedlichen Standorten und Abteilungen an dem Chat teilnehmen können, selbst wenn sie nicht alle zum gleichen Zeitpunkt online sind.
 
-Wenn Ihre Organisation rechtliche Vorschriften bezüglich Compliance einhalten muss, können Sie eine Archivierungsfunktion für Nachrichten bereitstellen, um die Inhalte von Sofortnachrichten für alle Benutzer in Ihrer Organisation oder auch nur für bestimmte festgelegte Benutzer zu archivieren. Wenn Sie auch Exchange 2013 bereitstellen, kann Ihr Chat Archiv in das in-situ-Speicherfeature von Exchange integriert werden, um eine einfache Verwaltungserfahrung für ihre Kompatibilität bereitzustellen.
+Wenn Ihre Organisation rechtliche Vorschriften bezüglich Compliance einhalten muss, können Sie eine Archivierungsfunktion für Nachrichten bereitstellen, um die Inhalte von Sofortnachrichten für alle Benutzer in Ihrer Organisation oder auch nur für bestimmte festgelegte Benutzer zu archivieren. Wenn Sie auch Exchange 2013 bereitstellen, kann Ihr Chat Archiv in die In-Place-Haltefunktion von Exchange integriert werden, um eine einfache Verwaltungserfahrung für ihre Kompatibilität bereitzustellen.
 
 </div>
 

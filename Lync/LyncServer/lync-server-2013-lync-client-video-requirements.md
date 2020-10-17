@@ -12,20 +12,22 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c15eb698babcce1cd104dd7206c037b95d402992
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506062"
 ---
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Video Anforderungen für lync-Clients für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Video Anforderungen für lync-Clients für lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync 2013 bietet eine Einführung in die Hardwarebeschleunigung für Videocodier
 <div>
 
 > [!NOTE]  
-> Ausführliche Informationen zu den Decodierungs Modi <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>finden Sie unter.
+> Ausführliche Informationen zu den Decodierungs Modi finden Sie unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A> .
 
 
 </div></td>
@@ -122,7 +124,7 @@ In der Regel werden die maximalen Codierungs- und Decodierungsmöglichkeiten ein
 
   - Windows Experience Index (WEI)
 
-Das Windows System Assessment Tool (WinSAT) ermittelt den WEI-Wert. Wenn Sie das WinSAT-Tool ausführen, generiert es ein formal. Assessment XML-Dokument auf dem Computer im WinSAT\\\\\\-DataStore-Verzeichnis "% windir% Performance". Diese XML-Datei enthält die beiden folgenden Bewertungen, die für die Ermittlung der Codierungs- und Decodierungsmöglichkeiten ausgesprochen wichtig sind:
+Das Windows System Assessment Tool (WinSAT) ermittelt den WEI-Wert. Wenn Sie das WinSAT-Tool ausführen, generiert es ein formal. Assessment XML-Dokument auf dem Computer im WinSAT- \\ \\ DataStore-Verzeichnis "% windir% Performance" \\ . Diese XML-Datei enthält die beiden folgenden Bewertungen, die für die Ermittlung der Codierungs- und Decodierungsmöglichkeiten ausgesprochen wichtig sind:
 
   - Der Wert "VideoEncodeScore" gibt die softwarebasierte Viedeocodierungsfähigkeit des Computers an.
 

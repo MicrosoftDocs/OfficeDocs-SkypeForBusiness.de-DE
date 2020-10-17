@@ -12,20 +12,22 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a4b668291c0e8ba5c402f17288bebe342ccceb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 763e60533af230f613be89cad16379b851549801
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211441"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506432"
 ---
+# <a name="view-dial-plan-information-in-lync-server-2013"></a>Anzeigen von Informationen zu Wählplänen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a>Anzeigen von Informationen zu Wählplänen in lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um Informationen für einen vorhandenen 
 
 ## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>So zeigen Sie Wählpläne mithilfe von Windows PowerShell-Cmdlets an
 
-  - Wählpläne können mithilfe der Befehlszeilenschnittstelle Windows PowerShell und des Cmdlets **Get-CsDialPlan** angezeigt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+  - Wählpläne können mithilfe der Befehlszeilenschnittstelle Windows PowerShell und des Cmdlets **Get-CsDialPlan** angezeigt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
     
     Geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE, um Informationen zu allen Wählplänen anzuzeigen:
     

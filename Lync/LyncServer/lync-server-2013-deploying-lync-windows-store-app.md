@@ -12,20 +12,22 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aaae8df4d21e3aa766bd452c5ffd697dce30660a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507482"
 ---
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Bereitstellen der lync Windows Store-App in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Bereitstellen der lync Windows Store-App in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "43779581"
 
 _**Letztes Änderungsstand des Themas:** 2013-12-03_
 
-Bevor Sie die lync Windows Store-App für Benutzer verfügbar machen, müssen Sie sicherstellen, dass Ihre Bereitstellung die [lync Windows Store-App-Anforderungen für lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)erfüllt. Ausführliche Informationen zum Konfigurieren von lync Server 2013 zur Unterstützung der lync Windows Store-App finden Sie im NextHop-Blog Artikel "lync Server AutoErmittlung und der lync Windows [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)Store-App" unter. Nachdem die Server Umgebung ordnungsgemäß konfiguriert wurde, können Sie Benutzer anweisen, die lync-App aus dem Windows Store herunterzuladen, indem Sie nach "lync" suchen.
+Bevor Sie die lync Windows Store-App für Benutzer verfügbar machen, müssen Sie sicherstellen, dass Ihre Bereitstellung die [lync Windows Store-App-Anforderungen für lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)erfüllt. Ausführliche Informationen zum Konfigurieren von lync Server 2013 zur Unterstützung der lync Windows Store-App finden Sie im NextHop-Blog Artikel "lync Server AutoErmittlung und der lync Windows Store-App" unter [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966) . Nachdem die Server Umgebung ordnungsgemäß konfiguriert wurde, können Sie Benutzer anweisen, die lync-App aus dem Windows Store herunterzuladen, indem Sie nach "lync" suchen.
 
 <div>
 
@@ -66,9 +68,9 @@ Kumulative Updates für lync Server 2013: Juni 2013 fügt Unterstützung für me
 
 **Konfigurieren der mehrstufigen Authentifizierung**
 
-1.  Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Ausführliche Informationen finden Sie im Bereitstellungshandbuch für Active Directory Verbunddienste <https://go.microsoft.com/fwlink/p/?linkid=267511>2,0 unter.
+1.  Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Ausführliche Informationen finden Sie im Bereitstellungshandbuch für Active Directory Verbunddienste 2,0 unter <https://go.microsoft.com/fwlink/p/?linkid=267511> .
 
-2.  Erstellen von Zertifikaten für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" des Themas planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden unter [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  Erstellen von Zertifikaten für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" des Themas planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden unter [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  Führen Sie über die Befehlszeilenschnittstelle Windows PowerShell den folgenden Befehl aus:
     ```powershell
@@ -150,7 +152,7 @@ Ein Anmeldeproblem kann für Microsoft 365 oder Office 365 Benutzer auftreten, d
 
 Sie können die auf dem Gerät generierten Protokolle verwenden, um Probleme zu beheben. Die Protokolle werden im folgenden Ordner gespeichert:
 
-% LocalAppData%\\Pakete\\Microsoft. LyncMX\_8wekyb3d8bbwe\\LocalState\\-Ablaufverfolgung
+% LocalAppData% \\ Pakete \\ Microsoft. LyncMX \_ 8wekyb3d8bbwe \\ LocalState- \\ Ablaufverfolgung
 
 Bevor Sie die Protokolle von einem Benutzer erhalten, stellen Sie sicher, dass die Protokollierung aktiviert ist, und bitten Sie den Benutzer, die Protokolle zu speichern, damit alle im Arbeitsspeicher gespeicherten Informationen auch in Dateien auf der Festplatte gespeichert werden.
 

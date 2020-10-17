@@ -12,20 +12,22 @@ ms:contentKeyID: 48185869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81dbf72e995291731c95749c3b1daecbf454190a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a1a72a7fdc73aeda96a2875ac48fd51b6023ddba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506072"
 ---
+# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Letztes Änderungsstand des Themas:** 2012-10-21_
 
 Damit Sie Best Practices Analyzer erfolgreich ausführen können, muss das Benutzerkonto, das Sie für die Anmeldung verwenden, Mitglied der Gruppe Administratoren auf dem lokalen Computer sein. Darüber hinaus muss das Benutzerkonto ein Mitglied der folgenden Gruppen sein, um Ihre Umgebung zu überprüfen:
 
-  - **Domänenadministratoren**   zum Auflisten Active Directory-Domänendienste Informationen und zum Aufrufen der WMI-Anbieter (Windows Management Instrumentation) auf Domänencontrollern und globalen Katalogservern.
+  - **Domänen-Admins**     Auflisten von Active Directory-Domänendienste Informationen und Aufrufen der WMI-Anbieter (Windows Management Instrumentation) auf Domänencontrollern und globalen Katalogservern.
 
-  - ****   Für jeden lync Server 2013 internen Computer und jede Edgeserver erforderliche Administratoren, um die WMI-Anbieter (Windows Management Instrumentation) aufzurufen und auf die Registrierung zuzugreifen.
+  - **Administratoren**     Für jeden lync Server 2013 internen Computer und jede Edgeserver erforderlich, um die WMI-Anbieter (Windows Management Instrumentation) aufzurufen und auf die Registrierung zuzugreifen.
 
-  - **RTCUniversalReadOnlyAdmins**   vollständig oder delegiert schreibgeschützt lync Server 2013 Administratorrechte.
+  - **RTCUniversalReadOnlyAdmins**     Vollständig oder delegiert schreibgeschützt lync Server 2013 Administratorrechte.
 
-  - **Exchange-Administrator**   mit der Ansicht nur vollständig oder Delegierter Exchange-Administrator mit Ansicht für die Microsoft Exchange Organisation.
+  - **Exchange-Administrator**     nur anzeigen Vollständiger oder Delegierter Exchange-Administrator mit nur Ansicht für die Microsoft Exchange Organisation.
 
 Wenn Ihr Benutzerkonto nicht über ausreichende Benutzerrechte verfügt, stehen Ihnen zwei Optionen zur Verfügung:
 

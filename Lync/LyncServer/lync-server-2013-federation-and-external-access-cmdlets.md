@@ -12,20 +12,22 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de54627a1effa25c6dbf16944c933c8d01441e4a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4f02160ad9991905bf0f149a2beb72ef21169e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179506"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507292"
 ---
+# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Cmdlets für den Verbund und den externen Zugriff in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Cmdlets für den Verbund und den externen Zugriff in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179506"
 
 _**Letztes Änderungsstand des Themas:** 2012-06-26_
 
-Partnerverbund und externer Zugriff bieten zwei wichtige Funktionen: mit dem Verbund können Benutzer mit Personen außerhalb Ihrer Organisation kommunizieren, während der externe Zugriff Benutzern das Herstellen einer Verbindung mit Microsoft lync Server 2013 von außerhalb des internen Netzwerks ermöglicht. Mit den verfügbaren Cmdlets für die Verwaltung von Verbund und externem Zugriff in lync Server 2013 können Sie bestimmen, mit wem Ihre Benutzer kommunizieren können (und können) und bestimmen, ob diese Benutzer eine Verbindung mit lync Server herstellen können, ohne sich bei der internen Anmeldung anmelden zu müssen. Netzwerk.
+Partnerverbund und externer Zugriff bieten zwei wichtige Funktionen: mit dem Verbund können Benutzer mit Personen außerhalb Ihrer Organisation kommunizieren, während der externe Zugriff Benutzern das Herstellen einer Verbindung mit Microsoft lync Server 2013 von außerhalb des internen Netzwerks ermöglicht. Mit den verfügbaren Cmdlets für die Verwaltung von Verbund und externem Zugriff in lync Server 2013 können Sie bestimmen, mit wem Ihre Benutzer kommunizieren können (und können) und bestimmen, ob diese Benutzer eine Verbindung mit lync Server herstellen dürfen, ohne sich beim internen Netzwerk anmelden zu müssen.
 
 <div>
 

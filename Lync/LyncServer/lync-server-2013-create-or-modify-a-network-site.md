@@ -12,20 +12,22 @@ ms:contentKeyID: 48183488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb449bcd0519338408eb596784707069d9a07415
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60119e137851bbaa8dc7b6735202132085bb8d34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506122"
 ---
+# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienum
     
         New-CsNetworkSite -NetworkSiteID <string>
     
-    Zum Beispiel:
+    Beispiel:
     
         New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
     
@@ -139,7 +141,7 @@ Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienum
 
 9.  Klicken Sie optional auf **Beschreibung**, und geben Sie zusätzliche Informationen zur Beschreibung dieses Netzwerkstandorts ein.
 
-10. Klicken Sie auf **Commit ausführen**.
+10. Klicken Sie auf **Commit**.
 
 11. Zum Abschließen der Erstellung von Netzwerkstandorten für Ihre Topologie wiederholen Sie die Schritte 4 bis 10 mit Einstellungen für weitere Standorte.
 

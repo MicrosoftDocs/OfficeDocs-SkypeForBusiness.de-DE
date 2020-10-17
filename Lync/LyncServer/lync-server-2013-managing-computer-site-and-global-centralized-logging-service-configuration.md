@@ -12,20 +12,22 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 868005d0a719bc8bc021f1a0b82260037c1f6ea6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8b7dfb9d96e452fc18dc5a7a962a18802388410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218121"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505852"
 ---
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Verwalten der Konfiguration von Computer-, Standort-und globalen zentralisierten Protokollierungs Diensten in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Verwalten der Konfiguration von Computer-, Standort-und globalen zentralisierten Protokollierungs Diensten in lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42218121"
 
 _**Letztes Änderungsstand des Themas:** 2014-02-04_
 
-Der zentralisierte Protokollierungsdienst kann in einem Bereich ausgeführt werden, der einen einzelnen Computer, einen Pool von Computern, einen Standortbereich (also einen definierten Standort wie den Standort "Redmond", der eine Sammlung von Computern und Pools in Ihrer Bereitstellung enthält) oder auf globaler Ebene (also , alle Computer und Pools in Ihrer Bereitstellung).
+Der zentralisierte Protokollierungsdienst kann in einem Bereich ausgeführt werden, der einen einzelnen Computer, einen Pool mit Computern, einen Standortbereich (also einen definierten Standort wie den Standort "Redmond", der eine Sammlung von Computern und Pools in Ihrer Bereitstellung enthält) oder auf globaler Ebene (also alle Computer und Pools in Ihrer Bereitstellung) enthält.
 
-Um den Bereich für den zentralisierten Protokollierungsdienst mithilfe der lync Server-Verwaltungsshell zu konfigurieren, müssen Sie Mitglied der rollenbasierten Sicherheitsgruppen "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die Folgendes enthält: eine dieser beiden Gruppen. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus:
+Zum Konfigurieren des Bereichs für den zentralisierten Protokollierungsdienst mit dem lync Server-Verwaltungsshell müssen Sie Mitglied der rollenbasierten Sicherheitsgruppen der CsAdministrator oder CsServerAdministrator oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
@@ -51,7 +53,7 @@ Zum Beispiel:
 
 
 > [!NOTE]
-> Windows PowerShell bietet Ihnen weitere Optionen und zusätzliche Konfigurationsoptionen, die mit CLSController. exe nicht verfügbar sind. CLSController bietet ein schnelles, präzises Verfahren zum Ausführen von Befehlen, ist aber auf den für den CLSController verfügbaren Befehlssatz beschränkt. Windows PowerShell ist nicht auf den Befehl limitiert, der für den Befehlsprozessor des CLSController verfügbar ist, und bietet eine breitere Palette von Befehlen und eine Vielzahl von Optionen. Beispiel: CLSController.exe bietet Ihnen Optionen für "–computers" und "–pools". Mit Windows PowerShell können Sie in den meisten Befehlen Computer oder Pools angeben, und wenn Sie neue Szenarien definieren (CLSController verfügt über eine begrenzte Anzahl von Szenarien, die nicht vom Benutzer geändert werden können), können Sie eine Website oder einen globalen Bereich definieren. Dieses leistungsstarke Feature von Windows PowerShell ermöglicht Ihnen, ein Szenario als Standort oder globaler Bereich zu definieren, die tatsächliche Protokollierung jedoch auf einen Computer oder einen Pool zu beschränken.<BR>Es gibt grundlegende Unterschiede zwischen den Befehlszeilenbefehlen, die Sie in Windows PowerShell oder CLSController ausführen können. Windows PowerShell bietet eine umfassende Methode zum Konfigurieren und Definieren von Szenarien sowie zur sinnvollen Wiederverwendung dieser Szenarien für Ihre Problembehandlungsszenarien. Während der CLSController eine schnelle und effiziente Möglichkeit bietet, Befehle einzugeben und Ergebnisse zu erhalten, ist der Befehlssatz für den CLSController auf die begrenzte Anzahl der über die Befehlszeile verfügbaren Befehle beschränkt. Im Gegensatz zu den Windows PowerShell-Cmdlets können CLSController keine neuen Szenarien definieren, den Bereich an einer Website oder auf globaler Ebene verwalten und viele andere Einschränkungen eines begrenzten Befehlssatzes, der nicht dynamisch konfiguriert werden kann. Während CLSController eine Möglichkeit zur schnellen Ausführung bietet, bietet Windows PowerShell eine Möglichkeit, die Funktionalität des zentralisierten Protokollierungsdiensts über das hinaus zu erweitern, was mit CLSController möglich ist.
+> Windows PowerShell bietet Ihnen weitere Optionen und zusätzliche Konfigurationsoptionen, die nicht mithilfe von CLSController.exe verfügbar sind. CLSController bietet ein schnelles, präzises Verfahren zum Ausführen von Befehlen, ist aber auf den für den CLSController verfügbaren Befehlssatz beschränkt. Windows PowerShell ist nicht auf den Befehl limitiert, der für den Befehlsprozessor des CLSController verfügbar ist, und bietet eine breitere Palette von Befehlen und eine Vielzahl von Optionen. Beispiel: CLSController.exe bietet Ihnen Optionen für "–computers" und "–pools". Mit Windows PowerShell können Sie in den meisten Befehlen Computer oder Pools angeben, und wenn Sie neue Szenarien definieren (CLSController verfügt über eine begrenzte Anzahl von Szenarien, die nicht vom Benutzer geändert werden können), können Sie eine Website oder einen globalen Bereich definieren. Dieses leistungsstarke Feature von Windows PowerShell ermöglicht Ihnen, ein Szenario als Standort oder globaler Bereich zu definieren, die tatsächliche Protokollierung jedoch auf einen Computer oder einen Pool zu beschränken.<BR>Es gibt grundlegende Unterschiede zwischen den Befehlszeilenbefehlen, die Sie in Windows PowerShell oder CLSController ausführen können. Windows PowerShell bietet eine umfassende Methode zum Konfigurieren und Definieren von Szenarien sowie zur sinnvollen Wiederverwendung dieser Szenarien für Ihre Problembehandlungsszenarien. Während der CLSController eine schnelle und effiziente Möglichkeit bietet, Befehle einzugeben und Ergebnisse zu erhalten, ist der Befehlssatz für den CLSController auf die begrenzte Anzahl der über die Befehlszeile verfügbaren Befehle beschränkt. Im Gegensatz zu den Windows PowerShell-Cmdlets können CLSController keine neuen Szenarien definieren, den Bereich an einer Website oder auf globaler Ebene verwalten und viele andere Einschränkungen eines begrenzten Befehlssatzes, der nicht dynamisch konfiguriert werden kann. Während CLSController eine Möglichkeit zur schnellen Ausführung bietet, bietet Windows PowerShell eine Möglichkeit, die Funktionalität des zentralisierten Protokollierungsdiensts über das hinaus zu erweitern, was mit CLSController möglich ist.
 
 
 

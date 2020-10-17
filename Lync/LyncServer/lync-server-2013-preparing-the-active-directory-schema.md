@@ -12,20 +12,22 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efabd082fce4dba5cf210e2c0f9c390324474cd2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27c785596d1fe994e3156eb0e52ed840609a5c26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506852"
 ---
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Vorbereiten des Active Directory Schemas in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Vorbereiten des Active Directory Schemas in lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Bevor Sie mit der Vorbereitung Active Directory-Domänendienste beginnen, könne
 
   - VersionSchema.ldf, verwendet für Versionsinformationen des vorbereiteten Schemas
 
-Alle LDF-Dateien werden während der Schemavorbereitung installiert – unabhängig davon, ob Sie eine Migration von einer vorherigen Version oder eine Neuinstallation durchführen. Diese Schemadateien werden in der in der obigen Liste aufgeführten Reihenfolge installiert und befinden sich im \\Ordner\\Support Schema auf dem Installationsmedium.
+Alle LDF-Dateien werden während der Schemavorbereitung installiert – unabhängig davon, ob Sie eine Migration von einer vorherigen Version oder eine Neuinstallation durchführen. Diese Schemadateien werden in der in der obigen Liste aufgeführten Reihenfolge installiert und befinden sich im \\ \\ Ordner Support Schema auf dem Installationsmedium.
 
 Die lync Server Schemaerweiterungen werden in allen Domänen repliziert, was sich auf den Netzwerkdatenverkehr auswirkt. Führen Sie die Schemavorbereitung zu einem Zeitpunkt aus, zu dem die Netzwerkauslastung möglichst gering ist.
 
@@ -55,7 +57,7 @@ Die lync Server Schemaerweiterungen werden in allen Domänen repliziert, was sic
 
 
 > [!NOTE]  
-> Wenn Sie Unterstützung für Microsoft® Office Communicator Mobile 2007 R2 für Java und Microsoft® Office Communicator Mobile für Nokia 1,0 Mobile Clients zu ihrer lync Server 2013-Bereitstellung hinzufügen müssen, müssen Sie das Active Directory-Schema für Microsoft Office vorbereiten. Communications Server 2007 R2 bei der Installation von lync Server 2013. Die erforderliche Software und Dokumentation finden Sie unter <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A>.
+> Wenn Sie Unterstützung für Microsoft® Office Communicator Mobile 2007 R2 für Java und Microsoft® Office Communicator Mobile für Nokia 1,0 Mobile Clients zu ihrer lync Server 2013-Bereitstellung hinzufügen müssen, müssen Sie das Active Directory Schema für Microsoft Office Communications Server 2007 R2 während der Installation von lync Server 2013 vorbereiten. Die erforderliche Software und Dokumentation finden Sie unter <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A> .
 
 
 
@@ -69,7 +71,7 @@ Der ADSI-Editor (Active Directory Services Interfaces Editor) ist ein AD DS-Ver
 
 Die ADSI-Bearbeitung wird standardmäßig installiert, wenn Sie die AD DS Rolle installieren, um einen Server als Domänencontroller zu erstellen. Für Windows Server 2008 und Windows Server 2008 R2 ist ADSI Edit (AdsiEdit. msc) in den Remote Server-Verwaltungs Tools enthalten. Sie können die Remote Dienstprogrammsoftware auch auf Domänenmitgliedsservern oder eigenständigen Servern installieren. Das Remote dienstprogrammor-Paket wird bei der Installation von Windows standardmäßig auf diese Server kopiert, wird jedoch nicht standardmäßig installiert. Sie installieren einzelne Tools mithilfe des Server-Managers. ADSI-Bearbeitung ist unter **Rollenverwaltungstools**, **Active Directory-Domänendienste Tools**, **Active Directory Domänen Controller Tools**enthalten.
 
-Für Windows Server 2003 ist die ADSI-Bearbeitung in den Support Tools enthalten. Die Support Tools stehen auf der Windows Server 2003-CD im Ordner \\Support\\Tools zur Verfügung, oder Sie können Sie unter "Windows Server 2003 Service Pack 2 32-Bit Support Tools" [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770)unter herunterladen. Anleitungen zum Installieren der Support Tools auf der Produkt-CD finden Sie unter "Install Windows Support Tools" [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771)unter. Adsiedit. dll wird automatisch registriert, wenn Sie die Support Tools installieren. Wenn Sie die Dateien jedoch auf Ihren Computer kopiert haben, müssen Sie den Befehl " **regsvr32** " ausführen, um die Datei "Adsiedit. dll" zu registrieren, bevor Sie das Tool ausführen können.
+Für Windows Server 2003 ist die ADSI-Bearbeitung in den Support Tools enthalten. Die Support Tools stehen auf der Windows Server 2003-CD im \\ Ordner Support Tools zur Verfügung \\ , oder Sie können Sie unter "Windows Server 2003 Service Pack 2 32-Bit Support Tools" unter herunterladen [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770) . Anleitungen zum Installieren der Support Tools auf der Produkt-CD finden Sie unter "Install Windows Support Tools" unter [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771) . Adsiedit.dll wird automatisch registriert, wenn Sie die Support Tools installieren. Wenn Sie die Dateien jedoch auf Ihren Computer kopiert haben, müssen Sie den Befehl " **regsvr32** " ausführen, um die adsiedit.dll Datei zu registrieren, bevor Sie das Tool ausführen können.
 
 </div>
 

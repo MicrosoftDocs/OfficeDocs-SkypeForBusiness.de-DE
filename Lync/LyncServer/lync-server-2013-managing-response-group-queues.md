@@ -12,20 +12,22 @@ ms:contentKeyID: 48183576
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7982833a6f2bf07886da0aa0b214926efdc63f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d3011ddde4c7f19fd50bbd097212c438ca7c9a5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185538"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507232"
 ---
+# <a name="managing-response-group-queues-in-lync-server-2013"></a>Verwalten von Warteschlangen für Reaktionsgruppen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-queues-in-lync-server-2013"></a>Verwalten von Warteschlangen für Reaktionsgruppen in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42185538"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Warteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf beantwortet. Wenn Sie eine Warteschlange verwalten, weisen Sie der Warteschlange eine oder mehrere Agentgruppen zu und geben Warteschlangeneinstellungen an, beispielsweise die Anzahl der Anrufe, die die Warteschlange aufnehmen kann, bevor eine Überlauf Aktion ausgeführt wird und wie lange ein Anruf auf einen Agent wartet, bevor ein Timeout ausgeführt wird. ktion. Wenn der Reaktionsgruppenanwendung nach einem verfügbaren Agent sucht, durchsucht er die Agentgruppen in der Reihenfolge, in der Sie Sie auflisten.
+Warteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf beantwortet. Wenn Sie eine Warteschlange verwalten, weisen Sie der Warteschlange eine oder mehrere Agentgruppen zu und geben Warteschlangeneinstellungen an, beispielsweise die Anzahl der Anrufe, die in der Warteschlange gespeichert werden können, bevor eine Überlauf Aktion ausgeführt wird und wie lange ein Anruf auf einen Agent wartet, bevor eine Timeout Aktion ausgeführt wird. Wenn der Reaktionsgruppenanwendung nach einem verfügbaren Agent sucht, durchsucht er die Agentgruppen in der Reihenfolge, in der Sie Sie auflisten.
 
 <div>
 

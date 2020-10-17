@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507052"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Verschieben von Benutzern zu Enterprise-VoIP in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Verschieben von Benutzern zu Enterprise-VoIP in lync Server 2013
+
 
 </div>
 
@@ -161,7 +163,7 @@ Ausführliche Informationen zum Planen von Anrufrouten finden Sie unter [VoIP-Ro
 
 <div>
 
-## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Schritt 6. Konfigurieren von PBX-oder SIP-Trunks für die Umleitung von Anrufen für Enterprise-VoIP-Benutzer
+## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Schritt 6: Konfigurieren von PBX-oder SIP-Trunks für die Umleitung von Anrufen für Enterprise-VoIP-Benutzer
 
 Benutzer, die früher in einer herkömmlichen Nebenstellenanlage oder einer SIP-Trunk Verbindung mit einem Internet Telefonie-Dienstanbieter (ITSP) gehostet wurden, behalten ihre Telefonnummern nach dem Wechsel bei. Die einzige Voraussetzung ist, dass nach dem Wechsel die Nebenstellenanlage oder der SIP-Trunk neu konfiguriert werden muss, um eingehende Anrufe für Enterprise-VoIP-Benutzer an die Vermittlungsserver weiterzuleiten.
 
@@ -175,7 +177,7 @@ Um Benutzer zu Exchange Unified Messaging zu migrieren, ist das Ausführen der f
 
   - Konfigurieren von Exchange Unified Messaging und lync Server zur Zusammenarbeit.
 
-  - Aktivieren von Exchange Unified Messaging-Mailboxansagen und Outlook Voice Access für Benutzer. Diese Aufgabe wird auf dem Exchange Unified Messaging-Server ausgeführt. Ausführliche Informationen finden Sie in [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)der Exchange Server 2010 TechNet-Bibliothek unter.
+  - Aktivieren von Exchange Unified Messaging-Mailboxansagen und Outlook Voice Access für Benutzer. Diese Aufgabe wird auf dem Exchange Unified Messaging-Server ausgeführt. Ausführliche Informationen finden Sie in der Exchange Server 2010 TechNet-Bibliothek unter [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372) .
 
 </div>
 

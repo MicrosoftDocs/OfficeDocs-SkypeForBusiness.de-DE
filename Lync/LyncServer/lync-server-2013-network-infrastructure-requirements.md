@@ -12,20 +12,22 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3571dba317998af4fe19f7d2dfd1677d3691f278
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 338e2387b08898694bd621e220d7f889a8d25e0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217111"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505542"
 ---
+# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Anforderungen an die Netzwerkinfrastruktur für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Anforderungen an die Netzwerkinfrastruktur für lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Die Netzwerkanforderungen für Audio/Video (a/V) in einer lync Server-Bereitstel
     
 
     > [!IMPORTANT]  
-    > Wenn Sie über eine Edgepool verfügen und einen Hardwaregerät zum Lastenausgleich verwenden, müssen Sie auf jedem Edgeserver öffentliche IP-Adressen verwenden, und Sie können NAT nicht für die Server oder den Pool an Ihrem NAT-Gerät verwenden (beispielsweise die Firewall oder ein anderes Infrastruktur Gerät, das NAT inbou ND-oder ausgehenden Datenverkehr). Ausführliche Informationen finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Summary – skalierter konsolidierter Edgeserver mit Hardwarelastenausgleichs in lync Server 2013</A> in der Dokumentation zur Planung externer Benutzerzugriffe.
+    > Wenn Sie über eine Edgepool verfügen und einen Hardwaregerät zum Lastenausgleich verwenden, müssen Sie auf jedem Edgeserver öffentliche IP-Adressen verwenden, und Sie können NAT nicht für die Server oder den Pool an Ihrem NAT-Gerät verwenden (beispielsweise die Firewall oder ein anderes Infrastruktur Gerät, das einen eingehenden oder ausgehenden Datenverkehr NAT? ssen). Ausführliche Informationen finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Summary – skalierter konsolidierter Edgeserver mit Hardwarelastenausgleichs in lync Server 2013</A> in der Dokumentation zur Planung externer Benutzerzugriffe.
 
     
     </div>
@@ -70,7 +72,7 @@ Mit folgenden Maßnahmen können Sie optimale Medienqualität sicherstellen:
 
   - Richten Sie die Netzwerkverbindungen so ein, dass sie bei Spitzenauslastung einen Durchsatz von 65 KBit/s pro Audiostream und 500 KBit/s pro Videostream (sofern aktiviert) unterstützen. Eine bidirektionale Audio- oder Videositzung umfasst zwei Datenströme.
 
-  - Um unerwartete Spitzenwerte im Datenverkehr oberhalb dieser Ebene und eine erhöhte Nutzung im Laufe der Zeit zu bewältigen, können sich lync Server Medien Endpunkte an unterschiedliche Netzwerkbedingungen anpassen und Lasten von dreimal so hoch wie der Durchsatz (siehe vorheriger Absatz) für Audio und Video, während die Beibehaltung annehmbarer Qualität. Gehen Sie jedoch nicht davon aus, dass diese Anpassungsfähigkeit ein unter bereitgestelltes Netzwerk unterstützt. In einem untergeordneten Netzwerk wird die Fähigkeit der lync Server Medien Endpunkte, dynamische unterschiedliche Netzwerkbedingungen (beispielsweise ein vorübergehender hoher Paketverlust) zu bewältigen, reduziert.
+  - Um unerwartete Spitzenwerte im Datenverkehr oberhalb dieser Ebene und eine erhöhte Nutzung im Laufe der Zeit zu bewältigen, können sich lync Server Medien Endpunkte an unterschiedliche Netzwerkbedingungen anpassen und Lasten von drei Mal so hoch wie der Durchsatz (siehe vorheriger Absatz) für Audio und Video unterstützen und gleichzeitig eine akzeptable Qualität beibehalten. Gehen Sie jedoch nicht davon aus, dass diese Anpassungsfähigkeit ein unter bereitgestelltes Netzwerk unterstützt. In einem untergeordneten Netzwerk wird die Fähigkeit der lync Server Medien Endpunkte, dynamische unterschiedliche Netzwerkbedingungen (beispielsweise ein vorübergehender hoher Paketverlust) zu bewältigen, reduziert.
 
   - Für Netzwerkverbindungen, deren Bereitstellung sehr kostspielig und aufwendig ist, können Sie eine Dimensionierung für ein niedrigeres Datenverkehrsaufkommen erwägen. In diesem Szenario lassen Sie die Elastizität der lync Server Medien Endpunkte den Unterschied zwischen dem Datenverkehrsvolumen und der Spitzen Daten verkehrsstufe absorbieren, wobei sich die Sprachqualität verringert. Gleichzeitig verringert sich der Puffer, der andernfalls zum Auffangen plötzlicher Datenspitzen zur Verfügung steht.
 

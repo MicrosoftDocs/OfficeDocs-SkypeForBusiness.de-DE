@@ -12,20 +12,22 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89517fb83fa5cd0c7defd62b47f7ddf9b29a303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d10ef9e4ebf2c30c12e40c7f6f48f5ac36e58dce
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192548"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505572"
 ---
+# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013
+
 
 </div>
 
@@ -127,9 +129,9 @@ Videodaten werden standardmäßig mit dem H.264/MPEG-4 Part 10 Advanced Video Co
 
 Die erforderliche Bandbreite richtet sich nach der Auflösung, Qualität und Framerate. Bei jeder Auflösung sind zwei Bitraten von Interesse:
 
-  - **Bitrate für maximale Nutzlast**   Dies ist die Bitrate, die ein lync 2013 Endpunkt für die Auflösung mit der für diese Lösung unterstützten maximalen Frame Rate verwendet wird. Dieser Wert ist von Interesse, da er die Übertragung von Videodaten mit höchster Qualität und maximaler Framerate ermöglicht.
+  - **Maximale Nutzlast-Bitrate**     Dies ist die Bitrate, die ein lync 2013-Endpunkt für die Auflösung mit der für diese Lösung unterstützten maximalen Frame Rate verwendet wird. Dieser Wert ist von Interesse, da er die Übertragung von Videodaten mit höchster Qualität und maximaler Framerate ermöglicht.
 
-  - **Bitrate für minimale Nutzlast**   Dies ist die Bitrate, unter der ein lync 2013-Endpunkt auf die nächst niedrigere Auflösung umgeschaltet wird. Um eine bestimmte Auflösung zu gewährleisten, darf die verfügbare Videonutzlast-Bitrate nicht unter diese minimale Bitrate für die jeweilige Auflösung absinken. Diese Zahl ist von Interesse, da sie für Fälle, in denen die maximale Bitrate nicht verfügbar oder sinnvoll ist, den geringstmöglichen Wert angibt. Bedenken Sie jedoch bei Verwendung dieser Bitraten, dass für einige Benutzer eine derart niedrige Videoübertragungsrate möglicherweise nicht akzeptabel ist. Beachten Sie, dass die tatsächliche Bitrate bei Videoszenen mit nur wenigen oder keinen Bewegungen des Benutzers ebenfalls kurzfristig unter die minimale Bitrate absinken kann.
+  - Bitrate für minimale **Nutzlast**     Dies ist die Bitrate, unter der ein lync 2013-Endpunkt auf die nächst niedrigere Auflösung umgeschaltet wird. Um eine bestimmte Auflösung zu gewährleisten, darf die verfügbare Videonutzlast-Bitrate nicht unter diese minimale Bitrate für die jeweilige Auflösung absinken. Diese Zahl ist von Interesse, da sie für Fälle, in denen die maximale Bitrate nicht verfügbar oder sinnvoll ist, den geringstmöglichen Wert angibt. Bedenken Sie jedoch bei Verwendung dieser Bitraten, dass für einige Benutzer eine derart niedrige Videoübertragungsrate möglicherweise nicht akzeptabel ist. Beachten Sie, dass die tatsächliche Bitrate bei Videoszenen mit nur wenigen oder keinen Bewegungen des Benutzers ebenfalls kurzfristig unter die minimale Bitrate absinken kann.
 
 Lync 2013 unterstützt viele weitere Auflösungen. Auf diese Weise bestehen bessere Anpassungsmöglichkeiten an verschiedene Netzwerkbandbreiten und Kapazitäten von Empfängerclients. Darüber hinaus wurde das standardmäßige Seitenverhältnis für lync 2013 zu 16:9 geändert. Das Seitenverhältnis 4:3 wird weiterhin für Webcams unterstützt, die keine Aufnahmen im Seitenverhältnis 16:9 erlauben.
 
@@ -265,7 +267,7 @@ Zusätzlich zu der Bandbreite, die für den RTP-Datenverkehr (Real-Time Transpor
 <tbody>
 <tr class="odd">
 <td><p>Audio</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>Video (es wird nur H.264 oder RTVideo gesendet/empfangen)</p></td>
@@ -281,9 +283,9 @@ Zusätzlich zu der Bandbreite, die für den RTP-Datenverkehr (Real-Time Transpor
 
 Für die Kapazitätsplanung sind die folgenden beiden Bandbreiten von Interesse:
 
-  - **Maximale Bandbreite ohne FEC**   die maximale Bandbreite, die ein Datenstrom verbraucht, einschließlich der typischen Aktivität des Streams und des typischen Codecs, der im Szenario ohne FEC verwendet wird.Hierbei handelt es sich um die Bandbreite, die benötigt wird, wenn die Streamaktivität bei 100 % liegt und kein Paketverlust auftritt, der eine Vorwärtsfehlerkorrektur auslöst.Diese Angaben sind nützlich, um die für den Codec in einem bestimmten Szenario erforderliche Bandbreite zu berechnen. 
+  - **Maximale Bandbreite ohne FEC**     Die maximale Bandbreite, die ein Datenstrom verbraucht, einschließlich der typischen Aktivität des Streams und des typischen Codecs, der im Szenario ohne FEC verwendet wird.Hierbei handelt es sich um die Bandbreite, die benötigt wird, wenn die Streamaktivität bei 100 % liegt und kein Paketverlust auftritt, der eine Vorwärtsfehlerkorrektur auslöst.Diese Angaben sind nützlich, um die für den Codec in einem bestimmten Szenario erforderliche Bandbreite zu berechnen. 
 
-  - **Maximale Bandbreite mit FEC**   die maximale Bandbreite, die ein Datenstrom benötigt, einschließlich der typischen Aktivität des Streams und des typischen Codecs, der im Szenario mit FEC verwendet wird. Hierbei handelt es sich um die Bandbreite, die benötigt wird, wenn die Streamaktivität bei 100 % liegt und ein Paketverlust auftritt, der eine Vorwärtsfehlerkorrektur zur Verbesserung der Qualität auslöst. Diese Angaben sind nützlich, um die Bandbreite zu berechnen, die für den Codec in einem bestimmten Szenario erforderlich ist und die Verwendung der Vorwärtsfehlerkorrektur zur Qualitätssicherung bei Paketverlusten ermöglicht. 
+  - **Maximale Bandbreite mit FEC**     Die maximale Bandbreite, die ein Datenstrom benötigt, einschließlich der typischen Aktivität des Streams und des typischen Codecs, der im Szenario mit FEC verwendet wird. Hierbei handelt es sich um die Bandbreite, die benötigt wird, wenn die Streamaktivität bei 100 % liegt und ein Paketverlust auftritt, der eine Vorwärtsfehlerkorrektur zur Verbesserung der Qualität auslöst. Diese Angaben sind nützlich, um die Bandbreite zu berechnen, die für den Codec in einem bestimmten Szenario erforderlich ist und die Verwendung der Vorwärtsfehlerkorrektur zur Qualitätssicherung bei Paketverlusten ermöglicht. 
 
 Die folgende Tabelle listet auch einen zusätzlichen Bandbreitenwert, **typische Bandbreite**. Dies ist die durchschnittliche Bandbreite, die ein Datenstrom benötigt, einschließlich der typischen Aktivität des Streams und des typischen Codecs, der im Szenario verwendet wird. Diese Bandbreite kann verwendet werden, um zu erreichen, wie viel Bandbreite zu einem bestimmten Zeitpunkt vom Mediendatenverkehr verbraucht wird, aber nicht für die Kapazitätsplanung verwendet werden sollte, da einzelne Anrufe diesen Wert überschreiten, wenn die Aktivitätsebene höher als der Durchschnitt ist. Die typische Bandbreite der Videodatenströme in den folgenden Tabellen basiert auf einer Kombination verschiedener Videoauflösungen, die in den gemessenen Kundendaten beobachtet werden. In Peer-to-Peer-Sitzungen würde die Mehrzahl der Benutzer beispielsweise das standardmäßige Video Renderfenster verwenden, während ein Teil der Benutzer die lync-Anwendung erhöhen oder maximieren würde, um höhere Videoauflösungen zuzulassen.
 
