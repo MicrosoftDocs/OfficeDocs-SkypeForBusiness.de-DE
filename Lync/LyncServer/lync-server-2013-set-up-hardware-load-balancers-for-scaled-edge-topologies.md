@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Einrichten von Hardwarelastenausgleichs für skalierte Edge-Topologien'
+description: 'Lync Server 2013: Einrichten von Hardware-Lastenausgleichssystemen für skalierte Edge-Topologien.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d77f1fba35cbb2d2ef089177d9824f070c26c71b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e09c7a7578e5fa9e486882f194969db416f8d4f9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509842"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561261"
 ---
 # <a name="set-up-hardware-load-balancers-for-scaled-edge-topologies-in-lync-server-2013"></a>Einrichten von Hardware-Lastenausgleich für skalierte Edge-Topologien in lync Server 2013
 

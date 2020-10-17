@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erstellen von Contact-Objekten für gehostete Exchange um'
+description: 'Lync Server 2013: Erstellen von Contact-Objekten für gehostete Exchange um.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 051b7f483ec3e3a59d5025c670b63b97765016b5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c9760e2a39b5182f9b5194e364e059bddc6a63d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532302"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562301"
 ---
 # <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Erstellen von Contact-Objekten für gehostete Exchange um in lync Server 2013
 

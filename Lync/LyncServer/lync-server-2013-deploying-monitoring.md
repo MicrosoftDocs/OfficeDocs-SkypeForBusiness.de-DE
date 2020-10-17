@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Bereitstellen der Überwachung'
+description: 'Lync Server 2013: Bereitstellen der Überwachung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fd56d0c06c9c81eda8cd1d7ef64b57da3219f3e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f1821198ddd0b4164f6932122aa9cf00ac34aada
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531172"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561541"
 ---
 # <a name="deploying-monitoring-in-lync-server-2013"></a>Bereitstellen der Überwachung in lync Server 2013
 

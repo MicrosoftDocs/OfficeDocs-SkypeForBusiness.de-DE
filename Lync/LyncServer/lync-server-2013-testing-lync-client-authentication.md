@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testen der lync-Client Authentifizierung'
+description: 'Lync Server 2013: Testen der lync-Client Authentifizierung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 308bb50e5365cd45c993875ea503b33b32617397
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 03694b7fd56d7847d8d493304b97af335d2a5b4d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519032"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560581"
 ---
 # <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Testen der lync-Client Authentifizierung in lync Server 2013
 

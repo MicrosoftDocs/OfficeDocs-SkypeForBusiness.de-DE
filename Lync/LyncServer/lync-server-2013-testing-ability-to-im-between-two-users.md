@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testen der Fähigkeit zum chatten zwischen zwei Benutzern'
+description: 'Lync Server 2013: Testen der Fähigkeit, im zwischen zwei Benutzern zu chatten.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1409cfb58ed435a66dcf61db56660ca760e16422
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500492"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560801"
 ---
 # <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Testen der Fähigkeit zum chatten zwischen zwei Benutzern in lync Server 2013
 
