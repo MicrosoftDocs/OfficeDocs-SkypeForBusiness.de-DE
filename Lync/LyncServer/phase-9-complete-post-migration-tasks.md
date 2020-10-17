@@ -1,5 +1,6 @@
 ---
 title: 'Phase 9: Ausführen von Aufgaben nach der Migration'
+description: 'Phase 9: Ausführen von Aufgaben nach der Migration.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33e4b97e0290ef14acda9201bb25897d7a517113
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1448f2ca399fdd31f914a55d2940f41624a9794e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532812"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563741"
 ---
 # <a name="phase-9-complete-post-migration-tasks"></a>Phase 9: Ausführen von Aufgaben nach der Migration
 
@@ -45,25 +46,25 @@ In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie ausführe
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Migrieren von Reaktionsgruppen](migrate-response-groups_1.md)
+  - [Migrieren von Reaktionsgruppen](migrate-response-groups.md)
 
-  - [Migrieren von Zugriffsnummern für die Einwahl](migrate-dial-in-access-numbers_1.md)
+  - [Migrieren von Zugriffsnummern für die Einwahl](migrate-dial-in-access-numbers.md)
 
   - [Aktivieren der Integration von Exchange 2013 Outlook Web App und Chatnachrichten](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Migrieren des Adressbuchs](migrate-address-book_1.md)
+  - [Migrieren des Adressbuchs](migrate-address-book.md)
 
   - [Aktivieren der Remoteanrufsteuerung](enable-remote-call-control.md)
 
-  - [Entfernen von Archivierungsservern und Monitoring Servern der Vorversion](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Entfernen von Archivierungsservern und Monitoring Servern der Vorversion](remove-legacy-archiving-and-monitoring-servers.md)
 
   - [Migrieren des Vermittlungsservers](migrate-mediation-server.md)
 
-  - [Konfigurieren von vertrauenswürdigen Anwendungsservern](configure-trusted-application-servers_1.md)
+  - [Konfigurieren von vertrauenswürdigen Anwendungsservern](configure-trusted-application-servers.md)
 
-  - [Konfigurieren der Seite für den Besprechungsbeitritt](configure-the-meeting-join-page_1.md)
+  - [Konfigurieren der Seite für den Besprechungsbeitritt](configure-the-meeting-join-page.md)
 
-  - [Bereitstellen von lync Server 2013 Clients](deploy-lync-server-2013-clients_1.md)
+  - [Bereitstellen von lync Server 2013 Clients](deploy-lync-server-2013-clients.md)
 
   - [Migrieren von Exchange Unified Messaging-Kontaktobjekten](move-exchange-unified-messaging-contact-objects.md)
 

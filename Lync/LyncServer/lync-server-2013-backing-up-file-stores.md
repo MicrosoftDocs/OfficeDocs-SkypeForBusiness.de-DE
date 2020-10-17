@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Sichern von Datei speichern'
+description: 'Lync Server 2013: Sichern von Datei speichern.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4971b5df8646f20843569ba653cd7a0c274d501
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ba6a92d189c39242be1b2167ffc336d9eb406719
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523162"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563281"
 ---
 # <a name="backing-up-file-stores-in-lync-server-2013"></a>Sichern von Datei speichern in lync Server 2013
 

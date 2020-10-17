@@ -1,5 +1,6 @@
 ---
 title: 'Phase 8: Umsteigen von der Pilotbereitstellung in die Produktion'
+description: 'Phase 8: Umsteigen von der Pilotbereitstellung in die Produktion.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13b5edff336b73b84183162bec3243a55f8aeb67
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 175906d916cf71e3d688a872b175da3f1cd5fcbf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532902"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563761"
 ---
 # <a name="phase-8-move-from-pilot-deployment-into-production"></a>Phase 8: Umsteigen von der Pilotbereitstellung in die Produktion
 
@@ -45,11 +46,11 @@ In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem V
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren von Partnerverbundrouten und Mediendatenverkehr](configure-federation-routes-and-media-traffic_1.md)
+  - [Konfigurieren von Partnerverbundrouten und Mediendatenverkehr](configure-federation-routes-and-media-traffic.md)
 
-  - [Verbleibenden Benutzer in lync Server 2013 verlagern](move-remaining-users-to-lync-server-2013_1.md)
+  - [Verbleibenden Benutzer in lync Server 2013 verlagern](move-remaining-users-to-lync-server-2013.md)
 
-  - [Konfigurieren des XMPP-Gateways auf lync Server 2013](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [Konfigurieren des XMPP-Gateways auf lync Server 2013](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zuweisen einer Richtlinie für den beständigen Chat pro Benutzer'
+description: 'Lync Server 2013: weisen Sie eine Richtlinie für beständigen Chat pro Benutzer zu.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e06d6c7403bd348b44c6ab36216ed7ee9a1c6d02
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 637f1947fff7f4e919e5f9c252c047b2d0e60392
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134411"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563601"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Zuweisen einer Richtlinie für beständigen Chat pro Benutzer in lync Server 2013
 
@@ -69,10 +70,10 @@ Sie können eine Richtlinie für beständigen Chat auf Benutzerbasis entweder ly
     
 
     > [!NOTE]  
-    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds <STRONG>Richtlinien zuweisen</STRONG> konfigurieren <STRONG> &lt;&gt; </STRONG> können, ist für jede Richtlinie im Dialogfeld standardmäßig beizubehalten aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds <STRONG>Richtlinien zuweisen</STRONG> konfigurieren können, ist für jede Richtlinie im Dialogfeld standardmäßig <STRONG> &lt; &gt; beizubehalten</STRONG> aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
 
     
-      - Wählen ** \<Sie\> automatisch** aus, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Standortebene auswählen kann.
+      - Aktivieren Sie **\<Automatic\>** diese Option, damit lync Server 2013 automatisch entweder die Richtlinie auf globaler Ebene oder, falls definiert, die Richtlinie auf Standortebene auswählen kann.
     
       - Klicken Sie auf der Seite **Richtlinie für beständigen Chat** auf den Namen einer benutzerbasierten Richtlinie für beständigen Chat, die Sie zuvor definiert haben.
         
@@ -84,9 +85,9 @@ Sie können eine Richtlinie für beständigen Chat auf Benutzerbasis entweder ly
 
 8.  Nachdem Sie die Eingabe beendet haben, klicken Sie auf **OK**.
 
-## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Richtlinie für beständigen Chat auf Benutzerbasis mithilfe Windows PowerShell-Cmdlets
+## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Per-User Richtlinie für beständigen Chat mithilfe von Windows PowerShell-Cmdlets
 
-Sie können auch benutzerspezifische Richtlinien für beständigen Chat mithilfe des Cmdlets **Grant-cspersistentchatpolicy "** zuweisen. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können auch benutzerspezifische Richtlinien für beständigen Chat mithilfe des Cmdlets **Grant-cspersistentchatpolicy "** zuweisen. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Richtlinie für den beständigen Chat pro Benutzer zu
 

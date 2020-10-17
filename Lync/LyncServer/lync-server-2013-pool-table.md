@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Pool Tabelle'
+description: 'Lync Server 2013: Pool Tabelle.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea5843908cf97a66e40ed2e9f945941c84615212
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 559244d37580070e7930a163eaddcc748eb2172c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528002"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563951"
 ---
 # <a name="pool-table-in-lync-server-2013"></a>Pool Tabelle in lync Server 2013
 

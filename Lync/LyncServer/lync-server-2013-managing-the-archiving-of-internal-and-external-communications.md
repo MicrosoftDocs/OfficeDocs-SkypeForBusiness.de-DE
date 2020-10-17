@@ -1,5 +1,6 @@
 ---
 title: Verwalten der Archivierung von interner und externer Kommunikation
+description: Verwalten der Archivierung der internen und externen Kommunikation.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14df9a4472d920e5b583e4d2abe2deeb3fba0c98
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 857e4772d93ead01c3914b2ee04b71bddb1feed4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525032"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564131"
 ---
 # <a name="managing-the-archiving-of-internal-and-external-communications-in-lync-server-2013"></a>Verwalten der Archivierung von interner und externer Kommunikation in lync Server 2013
 

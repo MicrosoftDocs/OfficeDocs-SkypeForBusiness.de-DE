@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Anforderungen an die Sicherung und Wiederherstellung: Daten'
+description: 'Lync Server 2013: Anforderungen an die Sicherung und Wiederherstellung: Data.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8431e16e976f0ad189205f0c42c04d50e6936e90
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7e135f09706d31ff3f0efa54c8687546de9fab78
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527042"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563181"
 ---
 # <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Data
 
