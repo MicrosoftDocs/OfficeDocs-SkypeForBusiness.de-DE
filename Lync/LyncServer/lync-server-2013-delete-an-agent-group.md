@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Löschen einer Agentengruppe'
+description: 'Lync Server 2013: Löschen einer Agentengruppe.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46ec34da45e22386d1b6b45528818725b60790f2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dded2db0957e37a624d7e8bf3a06e102f8d35cad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516282"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553681"
 ---
-# <a name="delete-an-agent-group-in-lync-server-2013"></a><span data-ttu-id="42488-102">Löschen einer Agentengruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42488-102">Delete an agent group in Lync Server 2013</span></span>
+# <a name="delete-an-agent-group-in-lync-server-2013"></a><span data-ttu-id="38c8f-103">Löschen einer Agentengruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38c8f-103">Delete an agent group in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,41 +38,41 @@ ms.locfileid: "48516282"
 
 <span> </span>
 
-<span data-ttu-id="42488-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="42488-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="38c8f-104">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="38c8f-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="42488-104">Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu löschen.</span><span class="sxs-lookup"><span data-stu-id="42488-104">Use one of the following procedures to delete an agent group.</span></span>
+<span data-ttu-id="38c8f-105">Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu löschen.</span><span class="sxs-lookup"><span data-stu-id="38c8f-105">Use one of the following procedures to delete an agent group.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-an-agent-group"></a><span data-ttu-id="42488-105">So löschen Sie eine Agentgruppe mithilfe lync Server-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="42488-105">To use Lync Server Control Panel to delete an agent group</span></span>
+## <a name="to-use-lync-server-control-panel-to-delete-an-agent-group"></a><span data-ttu-id="38c8f-106">So löschen Sie eine Agentgruppe mithilfe lync Server-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="38c8f-106">To use Lync Server Control Panel to delete an agent group</span></span>
 
-1.  <span data-ttu-id="42488-106">Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.</span><span class="sxs-lookup"><span data-stu-id="42488-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="38c8f-107">Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.</span><span class="sxs-lookup"><span data-stu-id="38c8f-107">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="42488-107">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="42488-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="42488-108">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="42488-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="38c8f-108">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="38c8f-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="38c8f-109">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="38c8f-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="42488-109">Klicken Sie in der linken Navigationsleiste auf **Reaktionsgruppen** und dann auf **Gruppe**.</span><span class="sxs-lookup"><span data-stu-id="42488-109">In the left navigation bar, click **Response Groups**, and then click **Group**.</span></span>
+3.  <span data-ttu-id="38c8f-110">Klicken Sie in der linken Navigationsleiste auf **Reaktionsgruppen** und dann auf **Gruppe**.</span><span class="sxs-lookup"><span data-stu-id="38c8f-110">In the left navigation bar, click **Response Groups**, and then click **Group**.</span></span>
 
-4.  <span data-ttu-id="42488-110">Geben Sie auf der Seite **Reaktionsgruppen** im Suchfeld einen Teil oder den vollständigen Namen der Agentgruppe ein, die Sie löschen möchten.</span><span class="sxs-lookup"><span data-stu-id="42488-110">On the **Response Groups** page, type all or part of the name of the agent group that you want to delete in the search field.</span></span>
+4.  <span data-ttu-id="38c8f-111">Geben Sie auf der Seite **Reaktionsgruppen** im Suchfeld einen Teil oder den vollständigen Namen der Agentgruppe ein, die Sie löschen möchten.</span><span class="sxs-lookup"><span data-stu-id="38c8f-111">On the **Response Groups** page, type all or part of the name of the agent group that you want to delete in the search field.</span></span>
 
-5.  <span data-ttu-id="42488-111">Klicken Sie in der Ergebnisliste auf die Gruppe, die Sie löschen möchten, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="42488-111">In the resulting list, click the group that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="38c8f-112">Klicken Sie in der Ergebnisliste auf die Gruppe, die Sie löschen möchten, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="38c8f-112">In the resulting list, click the group that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="42488-112">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="42488-112">Click **OK**.</span></span>
+6.  <span data-ttu-id="38c8f-113">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="38c8f-113">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-an-agent-group"></a><span data-ttu-id="42488-113">So löschen Sie eine Agentgruppe mithilfe Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="42488-113">To use Windows PowerShell to delete an agent group</span></span>
+## <a name="to-use-windows-powershell-to-delete-an-agent-group"></a><span data-ttu-id="38c8f-114">So löschen Sie eine Agentgruppe mithilfe Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="38c8f-114">To use Windows PowerShell to delete an agent group</span></span>
 
-1.  <span data-ttu-id="42488-114">Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.</span><span class="sxs-lookup"><span data-stu-id="42488-114">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="38c8f-115">Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.</span><span class="sxs-lookup"><span data-stu-id="38c8f-115">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="42488-115">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="42488-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="38c8f-116">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="38c8f-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="42488-116">Führen Sie an der Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="42488-116">At the command line, run:</span></span>
+3.  <span data-ttu-id="38c8f-117">Führen Sie an der Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="38c8f-117">At the command line, run:</span></span>
     
         Get-CsRgsAgentGroup -Identity <Application Server service> -Name "<name of agent group>" | Remove-CsRgsAgentGroup
     
-    <span data-ttu-id="42488-117">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="42488-117">For example:</span></span>
+    <span data-ttu-id="38c8f-118">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="38c8f-118">For example:</span></span>
     
         Get-CsRgsAgentGroup -Identity service:ApplicationServer:redmond.contoso.com -Name "Human Resources" | Remove-CsRgsAgentGroup
 
@@ -79,14 +80,14 @@ ms.locfileid: "48516282"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="42488-118">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="42488-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38c8f-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="38c8f-119">See Also</span></span>
 
 
-[<span data-ttu-id="42488-119">Erstellen oder Ändern einer Agentengruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42488-119">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)  
+[<span data-ttu-id="38c8f-120">Erstellen oder Ändern einer Agentengruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38c8f-120">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)  
 
 
-[<span data-ttu-id="42488-120">Remove-CsRgsAgentGroup</span><span class="sxs-lookup"><span data-stu-id="42488-120">Remove-CsRgsAgentGroup</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsAgentGroup)  
-[<span data-ttu-id="42488-121">Get-CsRgsAgentGroup</span><span class="sxs-lookup"><span data-stu-id="42488-121">Get-CsRgsAgentGroup</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
+[<span data-ttu-id="38c8f-121">Remove-CsRgsAgentGroup</span><span class="sxs-lookup"><span data-stu-id="38c8f-121">Remove-CsRgsAgentGroup</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsAgentGroup)  
+[<span data-ttu-id="38c8f-122">Get-CsRgsAgentGroup</span><span class="sxs-lookup"><span data-stu-id="38c8f-122">Get-CsRgsAgentGroup</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
   
 
 </div>

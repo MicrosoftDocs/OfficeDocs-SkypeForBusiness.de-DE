@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: IP-und Netzwerkprotokollunterstützung'
+description: 'Lync Server 2013: IP-und Netzwerkprotokollunterstützung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99a563df5e0eb21bf94b97dd4c578aefea896496
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dbd8022dd7197524334e0c70ea0ad875a30446de
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525242"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553121"
 ---
-# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a><span data-ttu-id="77a8e-102">IP-und Netzwerkprotokollunterstützung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="77a8e-102">IP and networking protocol support in Lync Server 2013</span></span>
+# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a><span data-ttu-id="179d3-103">IP-und Netzwerkprotokollunterstützung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="179d3-103">IP and networking protocol support in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,28 +38,28 @@ ms.locfileid: "48525242"
 
 <span> </span>
 
-<span data-ttu-id="77a8e-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="77a8e-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="179d3-104">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="179d3-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="77a8e-104">Lync Server 2013 unterstützt die folgenden IP-und Netzwerkprotokolle:</span><span class="sxs-lookup"><span data-stu-id="77a8e-104">Lync Server 2013 supports the following IP and networking protocols:</span></span>
+<span data-ttu-id="179d3-105">Lync Server 2013 unterstützt die folgenden IP-und Netzwerkprotokolle:</span><span class="sxs-lookup"><span data-stu-id="179d3-105">Lync Server 2013 supports the following IP and networking protocols:</span></span>
 
-  - <span data-ttu-id="77a8e-105">**IP-Protokolle.**     Lync Server 2013 unterstützt entweder IP Version 4 (IPv4) oder IP Version 6 (IPv6) für das Server Netzwerk.</span><span class="sxs-lookup"><span data-stu-id="77a8e-105">**IP Protocols.**   Lync Server 2013 supports either IP version 4 (IPv4) or IP version 6 (IPv6) for the server network.</span></span>
+  - <span data-ttu-id="179d3-106">**IP-Protokolle.**     Lync Server 2013 unterstützt entweder IP Version 4 (IPv4) oder IP Version 6 (IPv6) für das Server Netzwerk.</span><span class="sxs-lookup"><span data-stu-id="179d3-106">**IP Protocols.**   Lync Server 2013 supports either IP version 4 (IPv4) or IP version 6 (IPv6) for the server network.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="77a8e-106">Lync Server 2013 können in einem Netzwerk mit aktiviertem dualen IP-Stack funktionieren.</span><span class="sxs-lookup"><span data-stu-id="77a8e-106">Lync Server 2013 can function in a network with dual IP stack enabled.</span></span>
+    > <span data-ttu-id="179d3-107">Lync Server 2013 können in einem Netzwerk mit aktiviertem dualen IP-Stack funktionieren.</span><span class="sxs-lookup"><span data-stu-id="179d3-107">Lync Server 2013 can function in a network with dual IP stack enabled.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="77a8e-107">**SIP-Transport Protokolle.**     Im Allgemeinen kann SIP mindestens drei Transporttypen verwenden: UDP (User Datagram Protocol), TCP (Transmission Control Protocol) und TLS (Transport Layer Security).</span><span class="sxs-lookup"><span data-stu-id="77a8e-107">**SIP Transport Protocols.**   Generically, SIP can use at least three transport types: User Datagram Protocol (UDP), Transmission Control Protocol (TCP), and Transport Layer Security (TLS).</span></span> <span data-ttu-id="77a8e-108">In der standardmäßigen SIP-Transportkonfiguration wird TLS über TCP ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="77a8e-108">In the default SIP transport configuration, TLS runs over TCP.</span></span> <span data-ttu-id="77a8e-109">TLS wird im lync Server 2013 Netzwerk verwendet.</span><span class="sxs-lookup"><span data-stu-id="77a8e-109">TLS is used within the Lync Server 2013 network.</span></span> <span data-ttu-id="77a8e-110">Am Rand des Netzwerks können lync Server 2013 über TCP zusammenarbeiten.</span><span class="sxs-lookup"><span data-stu-id="77a8e-110">At the edge of the network, Lync Server 2013 can interoperate over TCP.</span></span> <span data-ttu-id="77a8e-111">Lync Server 2013 unterstützt UDP nicht für den SIP-Transport, da es nicht die Mindestanforderungen für die Sicherheit, Zuverlässigkeit und Skalierbarkeit von Unternehmenskommunikation erfüllt.</span><span class="sxs-lookup"><span data-stu-id="77a8e-111">Lync Server 2013 does not support UDP for SIP transport because it doesn’t meet the minimum standards for enterprise communications security, reliability, and scalability.</span></span> <span data-ttu-id="77a8e-112">Ausführliche Informationen finden Sie im NextHop-Blog Artikel "zu UDP oder nicht zu UDP, das ist die Frage" unter [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369) .</span><span class="sxs-lookup"><span data-stu-id="77a8e-112">For details, see the NextHop blog article, "To UDP, or not to UDP, that is the question," at [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369).</span></span>
+  - <span data-ttu-id="179d3-108">**SIP-Transport Protokolle.**     Im Allgemeinen kann SIP mindestens drei Transporttypen verwenden: UDP (User Datagram Protocol), TCP (Transmission Control Protocol) und TLS (Transport Layer Security).</span><span class="sxs-lookup"><span data-stu-id="179d3-108">**SIP Transport Protocols.**   Generically, SIP can use at least three transport types: User Datagram Protocol (UDP), Transmission Control Protocol (TCP), and Transport Layer Security (TLS).</span></span> <span data-ttu-id="179d3-109">In der standardmäßigen SIP-Transportkonfiguration wird TLS über TCP ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="179d3-109">In the default SIP transport configuration, TLS runs over TCP.</span></span> <span data-ttu-id="179d3-110">TLS wird im lync Server 2013 Netzwerk verwendet.</span><span class="sxs-lookup"><span data-stu-id="179d3-110">TLS is used within the Lync Server 2013 network.</span></span> <span data-ttu-id="179d3-111">Am Rand des Netzwerks können lync Server 2013 über TCP zusammenarbeiten.</span><span class="sxs-lookup"><span data-stu-id="179d3-111">At the edge of the network, Lync Server 2013 can interoperate over TCP.</span></span> <span data-ttu-id="179d3-112">Lync Server 2013 unterstützt UDP nicht für den SIP-Transport, da es nicht die Mindestanforderungen für die Sicherheit, Zuverlässigkeit und Skalierbarkeit von Unternehmenskommunikation erfüllt.</span><span class="sxs-lookup"><span data-stu-id="179d3-112">Lync Server 2013 does not support UDP for SIP transport because it doesn’t meet the minimum standards for enterprise communications security, reliability, and scalability.</span></span> <span data-ttu-id="179d3-113">Ausführliche Informationen finden Sie im NextHop-Blog Artikel "zu UDP oder nicht zu UDP, das ist die Frage" unter [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369) .</span><span class="sxs-lookup"><span data-stu-id="179d3-113">For details, see the NextHop blog article, "To UDP, or not to UDP, that is the question," at [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="77a8e-113">Der Inhalt jedes Blogs und die dazugehörige URL kann ohne vorherige Ankündigung geändert werden.</span><span class="sxs-lookup"><span data-stu-id="77a8e-113">The content of each blog and its URL are subject to change without notice.</span></span>
+    > <span data-ttu-id="179d3-114">Der Inhalt jedes Blogs und die dazugehörige URL kann ohne vorherige Ankündigung geändert werden.</span><span class="sxs-lookup"><span data-stu-id="179d3-114">The content of each blog and its URL are subject to change without notice.</span></span>
 
     
     </div>
