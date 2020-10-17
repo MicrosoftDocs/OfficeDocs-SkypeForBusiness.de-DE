@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mobiltelefone (Richtlinie/Push-Benachrichtigung)'
+description: 'Lync Server 2013: Mobiltelefone (Richtlinie/Push-Benachrichtigung).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dc176adef1f08e54ec0fa56aa55ad16ead0a3b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f29f96c75abb8f510a1265daa3ec88a5d061ad7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505662"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564601"
 ---
-# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a><span data-ttu-id="7d7af-102">Mobiltelefone (Richtlinie/Push-Benachrichtigung) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d7af-102">Mobile phones (policy/push notification) in Lync Server 2013</span></span>
+# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a><span data-ttu-id="8f3ec-103">Mobiltelefone (Richtlinie/Push-Benachrichtigung) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f3ec-103">Mobile phones (policy/push notification) in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48505662"
 
 <span> </span>
 
-<span data-ttu-id="7d7af-103">_**Letztes Änderungsstand des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="7d7af-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="8f3ec-104">_**Letztes Änderungsstand des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="8f3ec-104">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="7d7af-104">Sie können mobilitätsrichtlinien und Push-Benachrichtigungen für lync Server 2013 im Abschnitt **Clients** der lync Server 2013 Systemsteuerung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="7d7af-104">You can configure mobility policies and push notifications for Lync Server 2013 from the **Clients** section of Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="7d7af-105">Verwenden Sie die Verfahren in diesem Abschnitt, um die Einstellungen für Ihr Mobiltelefon zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="7d7af-105">Use the procedures in this section to configure your mobile phone settings.</span></span>
+<span data-ttu-id="8f3ec-105">Sie können mobilitätsrichtlinien und Push-Benachrichtigungen für lync Server 2013 im Abschnitt **Clients** der lync Server 2013 Systemsteuerung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="8f3ec-105">You can configure mobility policies and push notifications for Lync Server 2013 from the **Clients** section of Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="8f3ec-106">Verwenden Sie die Verfahren in diesem Abschnitt, um die Einstellungen für Ihr Mobiltelefon zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="8f3ec-106">Use the procedures in this section to configure your mobile phone settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7d7af-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="7d7af-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8f3ec-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="8f3ec-107">In This Section</span></span>
 
-  - [<span data-ttu-id="7d7af-107">Mobilitätsrichtlinien in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d7af-107">Mobility policies in Lync Server 2013</span></span>](lync-server-2013-mobility-policies.md)
+  - [<span data-ttu-id="8f3ec-108">Mobilitätsrichtlinien in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f3ec-108">Mobility policies in Lync Server 2013</span></span>](lync-server-2013-mobility-policies.md)
 
-  - [<span data-ttu-id="7d7af-108">Push-Benachrichtigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d7af-108">Push notifications in Lync Server 2013</span></span>](lync-server-2013-push-notifications.md)
+  - [<span data-ttu-id="8f3ec-109">Push-Benachrichtigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f3ec-109">Push notifications in Lync Server 2013</span></span>](lync-server-2013-push-notifications.md)
 
 </div>
 

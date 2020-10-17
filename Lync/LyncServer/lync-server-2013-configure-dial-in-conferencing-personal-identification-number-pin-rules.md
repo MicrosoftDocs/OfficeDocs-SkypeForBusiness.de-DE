@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von PIN-Regeln (persönliche Identifikationsnummer) für Einwahlkonferenzen
+description: Konfigurieren von PIN-Regeln (persönliche Identifikationsnummer) für Einwahlkonferenzen.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b446d38b3a2a2c054619373a605192ca05886174
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 799092ba57e9a85cd196840fc81c1f46b96e9900
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537202"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565051"
 ---
-# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a><span data-ttu-id="d77a1-102">Konfigurieren von PIN-Regeln (private Identification Number) für Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d77a1-102">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>
+# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a><span data-ttu-id="3cfc9-103">Konfigurieren von PIN-Regeln (private Identification Number) für Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3cfc9-103">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48537202"
 
 <span> </span>
 
-<span data-ttu-id="d77a1-103">_**Letztes Änderungsstand des Themas:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="d77a1-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="3cfc9-104">_**Letztes Änderungsstand des Themas:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="3cfc9-104">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="d77a1-104">Lync Server 2013 Benutzer mit Active Directory-Domänendienste (AD DS) Anmeldeinformationen in Ihrer Organisation können Einwahlkonferenzen als authentifizierte Benutzer mithilfe einer persönlichen Identifikationsnummer (PIN) beitreten.</span><span class="sxs-lookup"><span data-stu-id="d77a1-104">Lync Server 2013 users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN).</span></span> <span data-ttu-id="d77a1-105">In einer PIN-Richtlinie werden die Regeln für die Funktionsweise der Einwahlkonferenz-PINs definiert.</span><span class="sxs-lookup"><span data-stu-id="d77a1-105">PIN policy defines the rules for how dial-in conferencing PINs work.</span></span>
+<span data-ttu-id="3cfc9-105">Lync Server 2013 Benutzer mit Active Directory-Domänendienste (AD DS) Anmeldeinformationen in Ihrer Organisation können Einwahlkonferenzen als authentifizierte Benutzer mithilfe einer persönlichen Identifikationsnummer (PIN) beitreten.</span><span class="sxs-lookup"><span data-stu-id="3cfc9-105">Lync Server 2013 users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN).</span></span> <span data-ttu-id="3cfc9-106">In einer PIN-Richtlinie werden die Regeln für die Funktionsweise der Einwahlkonferenz-PINs definiert.</span><span class="sxs-lookup"><span data-stu-id="3cfc9-106">PIN policy defines the rules for how dial-in conferencing PINs work.</span></span>
 
-<span data-ttu-id="d77a1-p102">Sie können eine neue PIN-Richtlinie erstellen, wenn für einen Standort oder eine bestimmte Benutzergruppe eine bestimmte Richtlinie gelten soll. Wenn Sie dieselbe PIN-Richtlinie für Ihre gesamte Organisation einsetzen möchten, können Sie die globale PIN-Richtlinie verwenden und nach Bedarf anpassen. Die PIN-Richtlinien gelten für Benutzer vom engsten bis hin zum weitesten Bereich. Wenn Sie einem Benutzer eine PIN-Richtlinie auf Benutzerebene zuweisen, erhalten diese Einstellungen Vorrang. Wenn Sie keine Benutzerrichtlinie zuweisen, gilt die PIN-Richtlinie auf Standortebene, falls vorhanden. Gelten weder Benutzer- noch Standortrichtlinien, stellt die globale PIN-Richtlinie die Standardeinstellungen bereit.</span><span class="sxs-lookup"><span data-stu-id="d77a1-p102">You can create a new PIN policy if you want a specific policy to apply to a site or to a certain group of users. If you want to use the same PIN policy for your entire organization, you can use the global PIN policy and modify it as needed. PIN policies apply to users from the narrowest scope to the widest scope. If you assign a user-level PIN policy to a user, those settings take precedence. If you do not assign a user policy, the site-level PIN policy applies, if it exists. If no user or site policies apply, global PIN policy provides the default settings.</span></span>
+<span data-ttu-id="3cfc9-p102">Sie können eine neue PIN-Richtlinie erstellen, wenn für einen Standort oder eine bestimmte Benutzergruppe eine bestimmte Richtlinie gelten soll. Wenn Sie dieselbe PIN-Richtlinie für Ihre gesamte Organisation einsetzen möchten, können Sie die globale PIN-Richtlinie verwenden und nach Bedarf anpassen. Die PIN-Richtlinien gelten für Benutzer vom engsten bis hin zum weitesten Bereich. Wenn Sie einem Benutzer eine PIN-Richtlinie auf Benutzerebene zuweisen, erhalten diese Einstellungen Vorrang. Wenn Sie keine Benutzerrichtlinie zuweisen, gilt die PIN-Richtlinie auf Standortebene, falls vorhanden. Gelten weder Benutzer- noch Standortrichtlinien, stellt die globale PIN-Richtlinie die Standardeinstellungen bereit.</span><span class="sxs-lookup"><span data-stu-id="3cfc9-p102">You can create a new PIN policy if you want a specific policy to apply to a site or to a certain group of users. If you want to use the same PIN policy for your entire organization, you can use the global PIN policy and modify it as needed. PIN policies apply to users from the narrowest scope to the widest scope. If you assign a user-level PIN policy to a user, those settings take precedence. If you do not assign a user policy, the site-level PIN policy applies, if it exists. If no user or site policies apply, global PIN policy provides the default settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d77a1-112">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="d77a1-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3cfc9-113">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3cfc9-113">In This Section</span></span>
 
-  - [<span data-ttu-id="d77a1-113">Ändern der standardmäßigen PIN-Einstellungen für Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d77a1-113">Modify the default dial-in conferencing PIN settings in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
+  - [<span data-ttu-id="3cfc9-114">Ändern der standardmäßigen PIN-Einstellungen für Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3cfc9-114">Modify the default dial-in conferencing PIN settings in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [<span data-ttu-id="d77a1-114">Erstellen oder Ändern von PIN-Einstellungen für Einwahlkonferenzen in lync Server 2013 für einen Standort oder eine Benutzergruppe</span><span class="sxs-lookup"><span data-stu-id="d77a1-114">Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users</span></span>](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [<span data-ttu-id="3cfc9-115">Erstellen oder Ändern von PIN-Einstellungen für Einwahlkonferenzen in lync Server 2013 für einen Standort oder eine Benutzergruppe</span><span class="sxs-lookup"><span data-stu-id="3cfc9-115">Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users</span></span>](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
-  - [<span data-ttu-id="d77a1-115">Löschen von PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d77a1-115">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [<span data-ttu-id="3cfc9-116">Löschen von PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3cfc9-116">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 

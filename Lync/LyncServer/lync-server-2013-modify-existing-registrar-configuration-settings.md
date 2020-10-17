@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Ändern vorhandener Registrierungsstellen-Konfigurationseinstellungen'
+description: 'Lync Server 2013: Ändern vorhandener Registrierungsstellen-Konfigurationseinstellungen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c11830fa7047a9a732b10888b392a367dc36451c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a4a58a73ec67a320a9d9ee9a29b8e0a4708aa40a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534372"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565901"
 ---
-# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="06092-102">Ändern vorhandener Registrierungsstellen-Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06092-102">Modify existing Registrar configuration settings in Lync Server 2013</span></span>
+# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b6c66-103">Ändern vorhandener Registrierungsstellen-Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b6c66-103">Modify existing Registrar configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,43 +38,43 @@ ms.locfileid: "48534372"
 
 <span> </span>
 
-<span data-ttu-id="06092-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="06092-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b6c66-104">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b6c66-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="06092-104">Sie können die Registrierungsstelle zum Konfigurieren von Proxy Server-Authentifizierungsprotokollen verwenden.</span><span class="sxs-lookup"><span data-stu-id="06092-104">You can use the Registrar to configure proxy server authentication protocols.</span></span> <span data-ttu-id="06092-105">Informationen zu den verfügbaren Protokollen finden Sie unter [Create Registrar Configuration Settings in lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).</span><span class="sxs-lookup"><span data-stu-id="06092-105">For information about the available protocols, see [Create Registrar configuration settings in Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).</span></span>
+<span data-ttu-id="b6c66-105">Sie können die Registrierungsstelle zum Konfigurieren von Proxy Server-Authentifizierungsprotokollen verwenden.</span><span class="sxs-lookup"><span data-stu-id="b6c66-105">You can use the Registrar to configure proxy server authentication protocols.</span></span> <span data-ttu-id="b6c66-106">Informationen zu den verfügbaren Protokollen finden Sie unter [Create Registrar Configuration Settings in lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).</span><span class="sxs-lookup"><span data-stu-id="b6c66-106">For information about the available protocols, see [Create Registrar configuration settings in Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="06092-p102">Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet.</span><span class="sxs-lookup"><span data-stu-id="06092-p102">We recommend that you enable both Kerberos and NTLM when a server supports authentication for both remote and enterprise clients. The Edge Server and internal servers communicate to ensure that only NTLM authentication is offered to remote clients. If only Kerberos is enabled on these servers, they cannot authenticate remote users. If enterprise users also authenticate against the server, Kerberos is used.</span></span>
+> <span data-ttu-id="b6c66-p102">Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet.</span><span class="sxs-lookup"><span data-stu-id="b6c66-p102">We recommend that you enable both Kerberos and NTLM when a server supports authentication for both remote and enterprise clients. The Edge Server and internal servers communicate to ensure that only NTLM authentication is offered to remote clients. If only Kerberos is enabled on these servers, they cannot authenticate remote users. If enterprise users also authenticate against the server, Kerberos is used.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="06092-110">Führen Sie die folgenden Schritte aus, um eine vorhandene Registrierungsstelle zu ändern.</span><span class="sxs-lookup"><span data-stu-id="06092-110">Follow these steps to modify an existing Registrar.</span></span>
+<span data-ttu-id="b6c66-111">Führen Sie die folgenden Schritte aus, um eine vorhandene Registrierungsstelle zu ändern.</span><span class="sxs-lookup"><span data-stu-id="b6c66-111">Follow these steps to modify an existing Registrar.</span></span>
 
 <div>
 
-## <a name="to-modify-existing-registrar-configuration-settings"></a><span data-ttu-id="06092-111">So ändern Sie vorhandene Registrierungsstellen-Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="06092-111">To modify existing registrar configuration settings</span></span>
+## <a name="to-modify-existing-registrar-configuration-settings"></a><span data-ttu-id="b6c66-112">So ändern Sie vorhandene Registrierungsstellen-Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="b6c66-112">To modify existing registrar configuration settings</span></span>
 
-1.  <span data-ttu-id="06092-112">Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="06092-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="b6c66-113">Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="b6c66-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="06092-113">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="06092-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="06092-114">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="06092-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="b6c66-114">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="b6c66-114">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b6c66-115">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b6c66-115">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="06092-115">Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **Registrierung**.</span><span class="sxs-lookup"><span data-stu-id="06092-115">In the left navigation bar, click **Security** and then click **Registrar**.</span></span>
+3.  <span data-ttu-id="b6c66-116">Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **Registrierung**.</span><span class="sxs-lookup"><span data-stu-id="b6c66-116">In the left navigation bar, click **Security** and then click **Registrar**.</span></span>
 
-4.  <span data-ttu-id="06092-116">Klicken Sie auf der Seite **Registrierungs** Stelle auf einen Dienst, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="06092-116">On the **Registrar** page, click a service, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="b6c66-117">Klicken Sie auf der Seite **Registrierungs** Stelle auf einen Dienst, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="b6c66-117">On the **Registrar** page, click a service, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="06092-117">Wählen Sie unter **Registrierungseinstellung bearbeiten**in Abhängigkeit von den Funktionen der Clients und der Unterstützung in Ihrer Umgebung eine oder mehrere der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="06092-117">In **Edit Registrar Setting**, select one or more of the following depending on the capabilities of the clients and support in your environment:</span></span>
+5.  <span data-ttu-id="b6c66-118">Wählen Sie unter **Registrierungseinstellung bearbeiten**in Abhängigkeit von den Funktionen der Clients und der Unterstützung in Ihrer Umgebung eine oder mehrere der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="b6c66-118">In **Edit Registrar Setting**, select one or more of the following depending on the capabilities of the clients and support in your environment:</span></span>
     
-      - <span data-ttu-id="06092-118">**Kerberos-Authentifizierung aktivieren** – Die Server im Pool verwenden für Authentifizierungsanforderungen das Kerberos-Protokoll.</span><span class="sxs-lookup"><span data-stu-id="06092-118">**Enable Kerberos authentication** to have the servers in the pool issue challenges using Kerberos authentication.</span></span>
+      - <span data-ttu-id="b6c66-119">**Kerberos-Authentifizierung aktivieren** – Die Server im Pool verwenden für Authentifizierungsanforderungen das Kerberos-Protokoll.</span><span class="sxs-lookup"><span data-stu-id="b6c66-119">**Enable Kerberos authentication** to have the servers in the pool issue challenges using Kerberos authentication.</span></span>
     
-      - <span data-ttu-id="06092-119">**NTLM-Authentifizierung aktivieren** – Die Server im Pool verwenden für Authentifizierungsanforderungen das NTLM-Protokoll.</span><span class="sxs-lookup"><span data-stu-id="06092-119">**Enable NTLM authentication** to have the servers in the pool issue challenges using NTLM.</span></span>
+      - <span data-ttu-id="b6c66-120">**NTLM-Authentifizierung aktivieren** – Die Server im Pool verwenden für Authentifizierungsanforderungen das NTLM-Protokoll.</span><span class="sxs-lookup"><span data-stu-id="b6c66-120">**Enable NTLM authentication** to have the servers in the pool issue challenges using NTLM.</span></span>
     
-      - <span data-ttu-id="06092-120">**Zertifikatauthentifizierung aktivieren** – Die Server im Pool geben Zertifikate an die Clients aus.</span><span class="sxs-lookup"><span data-stu-id="06092-120">**Enable certificate authentication** to have the servers in the pool issue certificates to clients.</span></span>
+      - <span data-ttu-id="b6c66-121">**Zertifikatauthentifizierung aktivieren** – Die Server im Pool geben Zertifikate an die Clients aus.</span><span class="sxs-lookup"><span data-stu-id="b6c66-121">**Enable certificate authentication** to have the servers in the pool issue certificates to clients.</span></span>
 
-6.  <span data-ttu-id="06092-121">Klicken Sie auf **Commit**.</span><span class="sxs-lookup"><span data-stu-id="06092-121">Click **Commit**.</span></span>
+6.  <span data-ttu-id="b6c66-122">Klicken Sie auf **Commit**.</span><span class="sxs-lookup"><span data-stu-id="b6c66-122">Click **Commit**.</span></span>
 
 </div>
 
