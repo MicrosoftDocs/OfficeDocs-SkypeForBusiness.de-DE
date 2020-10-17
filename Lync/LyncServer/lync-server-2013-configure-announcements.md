@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure Announcements'
+description: 'Lync Server 2013: Configure Announcements.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21eed897d0f85e7d7041f5e86db2fe41e7c30bdd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 819653e63fe6279f7b477259de7af034082bdcf0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522972"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546661"
 ---
-# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="8eb96-102">Konfigurieren von Ankündigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8eb96-102">Configure announcements in Lync Server 2013</span></span>
+# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="0b5c6-103">Konfigurieren von Ankündigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b5c6-103">Configure announcements in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48522972"
 
 <span> </span>
 
-<span data-ttu-id="8eb96-103">_**Letztes Änderungsstand des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="8eb96-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="0b5c6-104">_**Letztes Änderungsstand des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="0b5c6-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="8eb96-104">Wenn Sie Ankündigungen konfigurieren, konfigurieren Sie wirklich, wie Anrufe von nicht zugewiesenen Nummern behandelt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="8eb96-104">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled.</span></span> <span data-ttu-id="8eb96-105">Sie können eine Eingabeaufforderung wiedergeben, bei der es sich um eine Audiodatei oder eine TTS-Datei (Text-to-Speech) handeln kann, oder Sie können den Anruf einfach an ein angegebenes Ziel weiterleiten, ohne eine Eingabeaufforderung wiederzugeben.</span><span class="sxs-lookup"><span data-stu-id="8eb96-105">You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
+<span data-ttu-id="0b5c6-105">Wenn Sie Ankündigungen konfigurieren, konfigurieren Sie wirklich, wie Anrufe von nicht zugewiesenen Nummern behandelt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-105">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled.</span></span> <span data-ttu-id="0b5c6-106">Sie können eine Eingabeaufforderung wiedergeben, bei der es sich um eine Audiodatei oder eine TTS-Datei (Text-to-Speech) handeln kann, oder Sie können den Anruf einfach an ein angegebenes Ziel weiterleiten, ohne eine Eingabeaufforderung wiederzugeben.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-106">You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
 
-<span data-ttu-id="8eb96-106">Sie müssen Ankündigungen erstellen, bevor Sie die Tabelle nicht zugewiesene Nummern definieren.</span><span class="sxs-lookup"><span data-stu-id="8eb96-106">You need to create announcements before you define the unassigned number table.</span></span> <span data-ttu-id="8eb96-107">Sie müssen diesen Schritt für alle Ankündigungen ausführen, die eine Eingabeaufforderung, eine TTS-Eingabeaufforderung oder keine Eingabeaufforderung verwenden.</span><span class="sxs-lookup"><span data-stu-id="8eb96-107">You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
+<span data-ttu-id="0b5c6-107">Sie müssen Ankündigungen erstellen, bevor Sie die Tabelle nicht zugewiesene Nummern definieren.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-107">You need to create announcements before you define the unassigned number table.</span></span> <span data-ttu-id="0b5c6-108">Sie müssen diesen Schritt für alle Ankündigungen ausführen, die eine Eingabeaufforderung, eine TTS-Eingabeaufforderung oder keine Eingabeaufforderung verwenden.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-108">You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8eb96-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="8eb96-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0b5c6-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0b5c6-109">In This Section</span></span>
 
-  - [<span data-ttu-id="8eb96-109">Erstellen einer Ansage in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8eb96-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
+  - [<span data-ttu-id="0b5c6-110">Erstellen einer Ansage in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b5c6-110">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
 
-  - [<span data-ttu-id="8eb96-110">Löschen einer Ansage in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8eb96-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
+  - [<span data-ttu-id="0b5c6-111">Löschen einer Ansage in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b5c6-111">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
 
 </div>
 

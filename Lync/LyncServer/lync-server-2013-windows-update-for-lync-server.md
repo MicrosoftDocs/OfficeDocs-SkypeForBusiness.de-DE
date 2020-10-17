@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Windows Update für lync Server'
+description: 'Lync Server 2013: Windows Update für lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f537e8cea8f3bf4cc08afe89de21e06f1c671d52
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe4b6d201a35584fceae5628b91631b48b30faae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535292"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546061"
 ---
-# <a name="windows-update-for-lync-server-2013"></a><span data-ttu-id="90e5f-102">Windows Update für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90e5f-102">Windows Update for Lync Server 2013</span></span>
+# <a name="windows-update-for-lync-server-2013"></a><span data-ttu-id="71d35-103">Windows Update für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71d35-103">Windows Update for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48535292"
 
 <span> </span>
 
-<span data-ttu-id="90e5f-103">_**Letztes Änderungsstand des Themas:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="90e5f-103">_**Topic Last Modified:** 2013-12-05_</span></span>
+<span data-ttu-id="71d35-104">_**Letztes Änderungsstand des Themas:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="71d35-104">_**Topic Last Modified:** 2013-12-05_</span></span>
 
-<span data-ttu-id="90e5f-104">Suchen Sie in regelmäßigen Abständen über den Dienst Windows Update nach Aktualisierungen und Sicherheitsupdates, und installieren Sie diese.</span><span class="sxs-lookup"><span data-stu-id="90e5f-104">Frequently check for and apply updates and security updates using Windows Update Services.</span></span> <span data-ttu-id="90e5f-105">Dadurch werden Sicherheitsrisiken in anderen Systemkomponenten verhindert, die dazu führen können, dass Angreifer Zugriff auf Server erhalten, die Microsoft lync Server 2013 mit Administratorrechten ausführen, und dadurch die lync Server 2013 gefährden.</span><span class="sxs-lookup"><span data-stu-id="90e5f-105">Doing so helps prevents vulnerabilities in other system components that might lead to attackers being able to gain access to servers running Microsoft Lync Server 2013 with administrator rights and thereby compromise Lync Server 2013.</span></span>
+<span data-ttu-id="71d35-105">Suchen Sie in regelmäßigen Abständen über den Dienst Windows Update nach Aktualisierungen und Sicherheitsupdates, und installieren Sie diese.</span><span class="sxs-lookup"><span data-stu-id="71d35-105">Frequently check for and apply updates and security updates using Windows Update Services.</span></span> <span data-ttu-id="71d35-106">Dadurch werden Sicherheitsrisiken in anderen Systemkomponenten verhindert, die dazu führen können, dass Angreifer Zugriff auf Server erhalten, die Microsoft lync Server 2013 mit Administratorrechten ausführen, und dadurch die lync Server 2013 gefährden.</span><span class="sxs-lookup"><span data-stu-id="71d35-106">Doing so helps prevents vulnerabilities in other system components that might lead to attackers being able to gain access to servers running Microsoft Lync Server 2013 with administrator rights and thereby compromise Lync Server 2013.</span></span>
 
-<span data-ttu-id="90e5f-106">Updates für Microsoft SQL Server 2008 Express (64-Bit-Edition) werden auf jeder lync Server 2013 Standard Edition-Server (für die Back-End-Datenbank) und auf allen anderen lync Server 2013-Server Rollen (für den lokalen Konfigurationsspeicher) ausgeführt, es sei denn, Sie haben diese Datenbanken auf SQL Server 2008 R2 Express aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="90e5f-106">Updates for Microsoft SQL Server 2008 Express (64-bit edition) runs on each Lync Server 2013 Standard Edition server (for the back-end database) and on all other Lync Server 2013 server roles (for the Local Configuration Store), unless you have upgraded these databases to SQL Server 2008 R2 Express.</span></span> <span data-ttu-id="90e5f-107">Genauso wie SQL Server in der Back-End-Datenbank eines Front-End-Pools, der Überwachungsdatenbank und der Archivierungsdatenbank sollten Sie diese Datenbanken als Bestandteil der regelmäßigen Wartung mit Sicherheitsupdates betrachten.</span><span class="sxs-lookup"><span data-stu-id="90e5f-107">You should consider these databases as part of routine security update maintenance, as should SQL Server on the back-end database of a Front End pool, the Monitoring database, and the Archiving database.</span></span>
+<span data-ttu-id="71d35-107">Updates für Microsoft SQL Server 2008 Express (64-Bit-Edition) werden auf jeder lync Server 2013 Standard Edition-Server (für die Back-End-Datenbank) und auf allen anderen lync Server 2013-Server Rollen (für den lokalen Konfigurationsspeicher) ausgeführt, es sei denn, Sie haben diese Datenbanken auf SQL Server 2008 R2 Express aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="71d35-107">Updates for Microsoft SQL Server 2008 Express (64-bit edition) runs on each Lync Server 2013 Standard Edition server (for the back-end database) and on all other Lync Server 2013 server roles (for the Local Configuration Store), unless you have upgraded these databases to SQL Server 2008 R2 Express.</span></span> <span data-ttu-id="71d35-108">Genauso wie SQL Server in der Back-End-Datenbank eines Front-End-Pools, der Überwachungsdatenbank und der Archivierungsdatenbank sollten Sie diese Datenbanken als Bestandteil der regelmäßigen Wartung mit Sicherheitsupdates betrachten.</span><span class="sxs-lookup"><span data-stu-id="71d35-108">You should consider these databases as part of routine security update maintenance, as should SQL Server on the back-end database of a Front End pool, the Monitoring database, and the Archiving database.</span></span>
 
 <div>
 
-## <a name="best-practice"></a><span data-ttu-id="90e5f-108">Bewährte Methoden</span><span class="sxs-lookup"><span data-stu-id="90e5f-108">Best Practice</span></span>
+## <a name="best-practice"></a><span data-ttu-id="71d35-109">Bewährte Methoden</span><span class="sxs-lookup"><span data-stu-id="71d35-109">Best Practice</span></span>
 
-  - <span data-ttu-id="90e5f-109">Mit Windows Update auf dem neuesten Stand bleiben.</span><span class="sxs-lookup"><span data-stu-id="90e5f-109">Keep current with Windows Update.</span></span>
+  - <span data-ttu-id="71d35-110">Mit Windows Update auf dem neuesten Stand bleiben.</span><span class="sxs-lookup"><span data-stu-id="71d35-110">Keep current with Windows Update.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: wöchentliche Aufgaben'
+description: 'Lync Server 2013: wöchentliche Aufgaben.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d818e1140141a470bb57a1471bb04931f505a6bd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518222"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546141"
 ---
-# <a name="weekly-tasks-in-lync-server-2013"></a><span data-ttu-id="37d57-102">Wöchentliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37d57-102">Weekly tasks in Lync Server 2013</span></span>
+# <a name="weekly-tasks-in-lync-server-2013"></a><span data-ttu-id="03ca7-103">Wöchentliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03ca7-103">Weekly tasks in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,161 +38,161 @@ ms.locfileid: "48518222"
 
 <span> </span>
 
-<span data-ttu-id="37d57-103">_**Letztes Änderungsstand des Themas:** 2015-08-17_</span><span class="sxs-lookup"><span data-stu-id="37d57-103">_**Topic Last Modified:** 2015-08-17_</span></span>
+<span data-ttu-id="03ca7-104">_**Letztes Änderungsstand des Themas:** 2015-08-17_</span><span class="sxs-lookup"><span data-stu-id="03ca7-104">_**Topic Last Modified:** 2015-08-17_</span></span>
 
-<span data-ttu-id="37d57-104">Wöchentliche Aufgaben beziehen sich im Allgemeinen auf das Sammeln und Analysieren von Protokollen und Berichten.</span><span class="sxs-lookup"><span data-stu-id="37d57-104">Weekly tasks are generally related to collecting and analyzing logs and reports.</span></span>
+<span data-ttu-id="03ca7-105">Wöchentliche Aufgaben beziehen sich im Allgemeinen auf das Sammeln und Analysieren von Protokollen und Berichten.</span><span class="sxs-lookup"><span data-stu-id="03ca7-105">Weekly tasks are generally related to collecting and analyzing logs and reports.</span></span>
 
 <div>
 
-## <a name="archive-event-logs"></a><span data-ttu-id="37d57-105">Archiv Ereignisprotokolle</span><span class="sxs-lookup"><span data-stu-id="37d57-105">Archive event logs</span></span>
+## <a name="archive-event-logs"></a><span data-ttu-id="03ca7-106">Archiv Ereignisprotokolle</span><span class="sxs-lookup"><span data-stu-id="03ca7-106">Archive event logs</span></span>
 
-<span data-ttu-id="37d57-106">Wenn Ereignisprotokolle nicht so konfiguriert sind, dass Ereignisse nach Bedarf überschrieben werden, müssen Sie regelmäßig archiviert und gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="37d57-106">If event logs are not configured to overwrite events as required, they must be regularly archived and deleted.</span></span> <span data-ttu-id="37d57-107">Diese Aktion ist besonders wichtig für Sicherheitsprotokolle, die bei der Untersuchung versuchter Sicherheitsverletzungen möglicherweise erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="37d57-107">This action is especially important for security logs, which may be required when investigating attempted security breaches.</span></span>
+<span data-ttu-id="03ca7-107">Wenn Ereignisprotokolle nicht so konfiguriert sind, dass Ereignisse nach Bedarf überschrieben werden, müssen Sie regelmäßig archiviert und gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="03ca7-107">If event logs are not configured to overwrite events as required, they must be regularly archived and deleted.</span></span> <span data-ttu-id="03ca7-108">Diese Aktion ist besonders wichtig für Sicherheitsprotokolle, die bei der Untersuchung versuchter Sicherheitsverletzungen möglicherweise erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="03ca7-108">This action is especially important for security logs, which may be required when investigating attempted security breaches.</span></span>
 
-<span data-ttu-id="37d57-108">In Ihrer Organisation müssen Richtlinien und Verfahren für die Protokoll Archivierung definiert werden.</span><span class="sxs-lookup"><span data-stu-id="37d57-108">Your organization will have to define policies and procedures for log archiving.</span></span>
+<span data-ttu-id="03ca7-109">In Ihrer Organisation müssen Richtlinien und Verfahren für die Protokoll Archivierung definiert werden.</span><span class="sxs-lookup"><span data-stu-id="03ca7-109">Your organization will have to define policies and procedures for log archiving.</span></span>
 
 </div>
 
 <div>
 
-## <a name="create-reports"></a><span data-ttu-id="37d57-109">Erstellen von Berichten</span><span class="sxs-lookup"><span data-stu-id="37d57-109">Create reports</span></span>
+## <a name="create-reports"></a><span data-ttu-id="03ca7-110">Erstellen von Berichten</span><span class="sxs-lookup"><span data-stu-id="03ca7-110">Create reports</span></span>
 
-<span data-ttu-id="37d57-110">Erstellen von Statusberichten zur Unterstützung bei der Kapazitätsplanung, SLA-Überprüfungen und Leistungsanalyse.</span><span class="sxs-lookup"><span data-stu-id="37d57-110">Create status reports to help with capacity planning, SLA reviews, and performance analysis.</span></span> <span data-ttu-id="37d57-111">Verwenden Sie tägliche Daten aus dem Ereignisprotokoll und dem System Monitor, um Berichte zu Datenträgern, Arbeitsspeicher und CPU-Auslastung zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="37d57-111">Use daily data from event log and System Monitor to create reports on disk, memory, and CPU usage.</span></span> <span data-ttu-id="37d57-112">Verwenden Sie System Center Operations Manager zum Generieren von Verfügbarkeits-und Verfügbarkeitsberichten.</span><span class="sxs-lookup"><span data-stu-id="37d57-112">Use System Center Operations Manager to generate uptime and availability reports.</span></span>
+<span data-ttu-id="03ca7-111">Erstellen von Statusberichten zur Unterstützung bei der Kapazitätsplanung, SLA-Überprüfungen und Leistungsanalyse.</span><span class="sxs-lookup"><span data-stu-id="03ca7-111">Create status reports to help with capacity planning, SLA reviews, and performance analysis.</span></span> <span data-ttu-id="03ca7-112">Verwenden Sie tägliche Daten aus dem Ereignisprotokoll und dem System Monitor, um Berichte zu Datenträgern, Arbeitsspeicher und CPU-Auslastung zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="03ca7-112">Use daily data from event log and System Monitor to create reports on disk, memory, and CPU usage.</span></span> <span data-ttu-id="03ca7-113">Verwenden Sie System Center Operations Manager zum Generieren von Verfügbarkeits-und Verfügbarkeitsberichten.</span><span class="sxs-lookup"><span data-stu-id="03ca7-113">Use System Center Operations Manager to generate uptime and availability reports.</span></span>
 
-<span data-ttu-id="37d57-113">In Ihrer Organisation müssen Richtlinien und Verfahren für Statusberichte definiert werden.</span><span class="sxs-lookup"><span data-stu-id="37d57-113">Your organization will have to define policies and procedures for status reports.</span></span>
-
-</div>
-
-<div>
-
-## <a name="incident-reports"></a><span data-ttu-id="37d57-114">Schadensberichte</span><span class="sxs-lookup"><span data-stu-id="37d57-114">Incident reports</span></span>
-
-<span data-ttu-id="37d57-115">Führen Sie eine wöchentliche Überprüfung der vorfallberichte Ihrer Organisation durch, die sich auf lync Server beziehen.</span><span class="sxs-lookup"><span data-stu-id="37d57-115">Perform a weekly audit of your organization’s incident reports that relate to Lync Server.</span></span> <span data-ttu-id="37d57-116">Diese Überwachung sollte Folgendes umfassen:</span><span class="sxs-lookup"><span data-stu-id="37d57-116">This audit should include the following:</span></span>
-
-  - <span data-ttu-id="37d57-117">Die am häufigsten generierten, aufgelösten und ausstehenden Vorfälle.</span><span class="sxs-lookup"><span data-stu-id="37d57-117">The top generated, resolved, and pending incidents.</span></span>
-
-  - <span data-ttu-id="37d57-118">Lösungen für ungelöste Vorfälle.</span><span class="sxs-lookup"><span data-stu-id="37d57-118">Solutions for unresolved incidents.</span></span>
-
-  - <span data-ttu-id="37d57-119">Aktualisieren von Berichten, um neue Trouble Tickets einzuschließen.</span><span class="sxs-lookup"><span data-stu-id="37d57-119">Updating reports to include new trouble tickets.</span></span>
-
-  - <span data-ttu-id="37d57-120">Aktualisieren eines Dokument-Repositorys für die Problem Behandlungs Anleitungen und Post mortem über Ausfälle.</span><span class="sxs-lookup"><span data-stu-id="37d57-120">Updating a document repository for troubleshooting guides and post mortems about outages.</span></span>
-
-<span data-ttu-id="37d57-121">Da das Vorfall Verfolgungssystem Ihrer Organisation unabhängig von lync Server ausgewählt werden kann, sind bestimmte Anweisungen oder Zeiger nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="37d57-121">Since your organization’s incident tracking system is a choice independent of Lync Server, specific instructions or pointers are not available.</span></span> <span data-ttu-id="37d57-122">Lesen Sie in der Dokumentation zu dem System, das Ihre Organisation ausgewählt hat.</span><span class="sxs-lookup"><span data-stu-id="37d57-122">Consult the documentation for the system your organization chose.</span></span>
+<span data-ttu-id="03ca7-114">In Ihrer Organisation müssen Richtlinien und Verfahren für Statusberichte definiert werden.</span><span class="sxs-lookup"><span data-stu-id="03ca7-114">Your organization will have to define policies and procedures for status reports.</span></span>
 
 </div>
 
 <div>
 
-## <a name="check-iis-logs-and-performance"></a><span data-ttu-id="37d57-123">Überprüfen der IIS-Protokolle und-Leistung</span><span class="sxs-lookup"><span data-stu-id="37d57-123">Check IIS logs and performance</span></span>
+## <a name="incident-reports"></a><span data-ttu-id="03ca7-115">Schadensberichte</span><span class="sxs-lookup"><span data-stu-id="03ca7-115">Incident reports</span></span>
 
-<span data-ttu-id="37d57-124">Führen Sie eine wöchentliche Überprüfung der Internet Information Services (IIS) Protokolle und der Leistung durch.</span><span class="sxs-lookup"><span data-stu-id="37d57-124">Perform a weekly review of Internet Information Services (IIS) logs and performance.</span></span> <span data-ttu-id="37d57-125">Weitere Informationen zum Überwachen von IIS-Protokollen und-Leistung finden Sie unter [Windows Server 2003 Internet Information Services (IIS) Ereignisprotokollierung (Übersicht](https://go.microsoft.com/fwlink/?linkid=36077)).</span><span class="sxs-lookup"><span data-stu-id="37d57-125">For more information about how to monitor IIS logs and performance, see [Windows Server 2003 Internet Information Services (IIS) Event Logging Overview](https://go.microsoft.com/fwlink/?linkid=36077).</span></span> <span data-ttu-id="37d57-126">Die Überprüfung sollte Folgendes umfassen:</span><span class="sxs-lookup"><span data-stu-id="37d57-126">The review should include the following:</span></span>
+<span data-ttu-id="03ca7-116">Führen Sie eine wöchentliche Überprüfung der vorfallberichte Ihrer Organisation durch, die sich auf lync Server beziehen.</span><span class="sxs-lookup"><span data-stu-id="03ca7-116">Perform a weekly audit of your organization’s incident reports that relate to Lync Server.</span></span> <span data-ttu-id="03ca7-117">Diese Überwachung sollte Folgendes umfassen:</span><span class="sxs-lookup"><span data-stu-id="03ca7-117">This audit should include the following:</span></span>
 
-  - <span data-ttu-id="37d57-127">Webdienst-Cache Indikatoren zum Überwachen des WWW-Dienst Caches.</span><span class="sxs-lookup"><span data-stu-id="37d57-127">Web Service Cache counters to monitor the WWW service cache.</span></span>
+  - <span data-ttu-id="03ca7-118">Die am häufigsten generierten, aufgelösten und ausstehenden Vorfälle.</span><span class="sxs-lookup"><span data-stu-id="03ca7-118">The top generated, resolved, and pending incidents.</span></span>
 
-  - <span data-ttu-id="37d57-128">ASP-Indikatoren (Active Server Pages) zum Überwachen von Anwendungen, die als ASP ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="37d57-128">Active Server Pages (ASPs) counters to monitor applications that run as ASPs.</span></span>
+  - <span data-ttu-id="03ca7-119">Lösungen für ungelöste Vorfälle.</span><span class="sxs-lookup"><span data-stu-id="03ca7-119">Solutions for unresolved incidents.</span></span>
+
+  - <span data-ttu-id="03ca7-120">Aktualisieren von Berichten, um neue Trouble Tickets einzuschließen.</span><span class="sxs-lookup"><span data-stu-id="03ca7-120">Updating reports to include new trouble tickets.</span></span>
+
+  - <span data-ttu-id="03ca7-121">Aktualisieren eines Dokument-Repositorys für die Problem Behandlungs Anleitungen und Post mortem über Ausfälle.</span><span class="sxs-lookup"><span data-stu-id="03ca7-121">Updating a document repository for troubleshooting guides and post mortems about outages.</span></span>
+
+<span data-ttu-id="03ca7-122">Da das Vorfall Verfolgungssystem Ihrer Organisation unabhängig von lync Server ausgewählt werden kann, sind bestimmte Anweisungen oder Zeiger nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="03ca7-122">Since your organization’s incident tracking system is a choice independent of Lync Server, specific instructions or pointers are not available.</span></span> <span data-ttu-id="03ca7-123">Lesen Sie in der Dokumentation zu dem System, das Ihre Organisation ausgewählt hat.</span><span class="sxs-lookup"><span data-stu-id="03ca7-123">Consult the documentation for the system your organization chose.</span></span>
 
 </div>
 
 <div>
 
-## <a name="generate-database-reports"></a><span data-ttu-id="37d57-129">Generieren von Datenbankberichten</span><span class="sxs-lookup"><span data-stu-id="37d57-129">Generate database reports</span></span>
+## <a name="check-iis-logs-and-performance"></a><span data-ttu-id="03ca7-124">Überprüfen der IIS-Protokolle und-Leistung</span><span class="sxs-lookup"><span data-stu-id="03ca7-124">Check IIS logs and performance</span></span>
 
-<span data-ttu-id="37d57-130">**So generieren Sie Berichte für die SQL-Datenbank**</span><span class="sxs-lookup"><span data-stu-id="37d57-130">**To generate reports on the SQL Database**</span></span>
+<span data-ttu-id="03ca7-125">Führen Sie eine wöchentliche Überprüfung der Internet Information Services (IIS) Protokolle und der Leistung durch.</span><span class="sxs-lookup"><span data-stu-id="03ca7-125">Perform a weekly review of Internet Information Services (IIS) logs and performance.</span></span> <span data-ttu-id="03ca7-126">Weitere Informationen zum Überwachen von IIS-Protokollen und-Leistung finden Sie unter [Windows Server 2003 Internet Information Services (IIS) Ereignisprotokollierung (Übersicht](https://go.microsoft.com/fwlink/?linkid=36077)).</span><span class="sxs-lookup"><span data-stu-id="03ca7-126">For more information about how to monitor IIS logs and performance, see [Windows Server 2003 Internet Information Services (IIS) Event Logging Overview](https://go.microsoft.com/fwlink/?linkid=36077).</span></span> <span data-ttu-id="03ca7-127">Die Überprüfung sollte Folgendes umfassen:</span><span class="sxs-lookup"><span data-stu-id="03ca7-127">The review should include the following:</span></span>
 
-1.  <span data-ttu-id="37d57-131">Öffnen Sie lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37d57-131">Open Lync Server 2013.</span></span>
+  - <span data-ttu-id="03ca7-128">Webdienst-Cache Indikatoren zum Überwachen des WWW-Dienst Caches.</span><span class="sxs-lookup"><span data-stu-id="03ca7-128">Web Service Cache counters to monitor the WWW service cache.</span></span>
 
-2.  <span data-ttu-id="37d57-132">Erweitern Sie in der Konsolenstruktur den Knoten Gesamtstruktur, erweitern Sie **Enterprise-Pools**, und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.</span><span class="sxs-lookup"><span data-stu-id="37d57-132">In the console tree, expand the forest node, expand **Enterprise pools**, and then click the pool for which you want to generate a database report.</span></span>
+  - <span data-ttu-id="03ca7-129">ASP-Indikatoren (Active Server Pages) zum Überwachen von Anwendungen, die als ASP ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="03ca7-129">Active Server Pages (ASPs) counters to monitor applications that run as ASPs.</span></span>
 
-3.  <span data-ttu-id="37d57-133">Klicken Sie im Detailbereich auf die Registerkarte **Datenbank** .</span><span class="sxs-lookup"><span data-stu-id="37d57-133">In the details pane, click the **Database** tab.</span></span>
+</div>
 
-4.  <span data-ttu-id="37d57-134">Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="37d57-134">On the **Database** tab, do the following:</span></span>
+<div>
+
+## <a name="generate-database-reports"></a><span data-ttu-id="03ca7-130">Generieren von Datenbankberichten</span><span class="sxs-lookup"><span data-stu-id="03ca7-130">Generate database reports</span></span>
+
+<span data-ttu-id="03ca7-131">**So generieren Sie Berichte für die SQL-Datenbank**</span><span class="sxs-lookup"><span data-stu-id="03ca7-131">**To generate reports on the SQL Database**</span></span>
+
+1.  <span data-ttu-id="03ca7-132">Öffnen Sie lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="03ca7-132">Open Lync Server 2013.</span></span>
+
+2.  <span data-ttu-id="03ca7-133">Erweitern Sie in der Konsolenstruktur den Knoten Gesamtstruktur, erweitern Sie **Enterprise-Pools**, und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.</span><span class="sxs-lookup"><span data-stu-id="03ca7-133">In the console tree, expand the forest node, expand **Enterprise pools**, and then click the pool for which you want to generate a database report.</span></span>
+
+3.  <span data-ttu-id="03ca7-134">Klicken Sie im Detailbereich auf die Registerkarte **Datenbank** .</span><span class="sxs-lookup"><span data-stu-id="03ca7-134">In the details pane, click the **Database** tab.</span></span>
+
+4.  <span data-ttu-id="03ca7-135">Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="03ca7-135">On the **Database** tab, do the following:</span></span>
     
-    1.  <span data-ttu-id="37d57-135">Um den Namen der Datenbank anzuzeigen, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.</span><span class="sxs-lookup"><span data-stu-id="37d57-135">To view the name of the database, expand **General Settings**, and view the database name.</span></span>
+    1.  <span data-ttu-id="03ca7-136">Um den Namen der Datenbank anzuzeigen, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-136">To view the name of the database, expand **General Settings**, and view the database name.</span></span>
     
-    2.  <span data-ttu-id="37d57-136">Um aktuelle Benutzer Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **wechseln**, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="37d57-136">To retrieve current user summary statistics for the pool, expand **User Summary Reports**, click **Go**, and view the results.</span></span>
+    2.  <span data-ttu-id="03ca7-137">Um aktuelle Benutzer Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **wechseln**, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-137">To retrieve current user summary statistics for the pool, expand **User Summary Reports**, click **Go**, and view the results.</span></span>
     
-    3.  <span data-ttu-id="37d57-137">Zum Abrufen aktueller benutzerbezogener Daten für einen einzelnen Benutzer des Pools erweitern Sie **Berichte pro Benutzer**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="37d57-137">To retrieve current per-user data for a single user of the pool, expand **Per-User Reports**, type the user’s SIP URI, click **Go**, and view the results.</span></span>
+    3.  <span data-ttu-id="03ca7-138">Zum Abrufen aktueller benutzerbezogener Daten für einen einzelnen Benutzer des Pools erweitern Sie **Berichte pro Benutzer**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-138">To retrieve current per-user data for a single user of the pool, expand **Per-User Reports**, type the user’s SIP URI, click **Go**, and view the results.</span></span>
 
-<span data-ttu-id="37d57-138">Um aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="37d57-138">To retrieve current conference summary statistics for the pool, expand **Conference Summary Reports**, click **Go**, and view the results.</span></span>
+<span data-ttu-id="03ca7-139">Um aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-139">To retrieve current conference summary statistics for the pool, expand **Conference Summary Reports**, click **Go**, and view the results.</span></span>
 
 </div>
 
 <div>
 
-## <a name="check-for-security-and-lync-server-updates"></a><span data-ttu-id="37d57-139">Überprüfen der Sicherheit und lync Server Updates</span><span class="sxs-lookup"><span data-stu-id="37d57-139">Check for security and Lync Server updates</span></span>
+## <a name="check-for-security-and-lync-server-updates"></a><span data-ttu-id="03ca7-140">Überprüfen der Sicherheit und lync Server Updates</span><span class="sxs-lookup"><span data-stu-id="03ca7-140">Check for security and Lync Server updates</span></span>
 
-<span data-ttu-id="37d57-140">Identifizieren Sie neue Service Packs, Hotfixes oder Updates.</span><span class="sxs-lookup"><span data-stu-id="37d57-140">Identify any new service packs, hotfixes, or updates.</span></span> <span data-ttu-id="37d57-141">Testen Sie diese gegebenenfalls in einem Test Labor, und ordnen Sie die Bereitstellung auf den Produktionsservern mithilfe der Änderungskontrollverfahren an.</span><span class="sxs-lookup"><span data-stu-id="37d57-141">If appropriate, test these in a test lab, and use the change control procedures to arrange for deployment to the production servers.</span></span> <span data-ttu-id="37d57-142">Außerdem sind lync Server Komponenten Aktualisierungen jetzt im Rahmen von Windows Update verfügbar.</span><span class="sxs-lookup"><span data-stu-id="37d57-142">Also, Lync Server component updates are now available as part of Windows update.</span></span> <span data-ttu-id="37d57-143">Alle lync Server-Komponenten Updates müssen gleichzeitig auf allen Servern mit lync Server aktualisiert werden, für die die Updates gelten.</span><span class="sxs-lookup"><span data-stu-id="37d57-143">All Lync Server component updates must be updated at the same time on all of the servers that are running Lync Server for which the updates are applicable.</span></span>
-
-</div>
-
-<div>
-
-## <a name="run-the-lync-server-2013-best-practice-analyzer"></a><span data-ttu-id="37d57-144">Ausführen des lync Server 2013 Best Practice Analyzer</span><span class="sxs-lookup"><span data-stu-id="37d57-144">Run the Lync Server 2013 Best Practice Analyzer</span></span>
-
-<span data-ttu-id="37d57-145">Das lync Server 2013 Best Practices Analyzer ist ein Diagnosetool, das Konfigurationsinformationen sammelt und ermittelt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt wurde.</span><span class="sxs-lookup"><span data-stu-id="37d57-145">The Lync Server 2013 Best Practices Analyzer Tool is a diagnostic tool that collects configuration information and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="37d57-146">Dokumentation zu diesem Tool finden Sie unter [lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md).</span><span class="sxs-lookup"><span data-stu-id="37d57-146">Documentation for this tool is at [Lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md).</span></span>
-
-<span data-ttu-id="37d57-147">Das Tool vergleicht die Konfigurationsdaten Ihrer Bereitstellung mit einer Reihe vordefinierter Regeln für lync Server und meldet potenzielle Probleme.</span><span class="sxs-lookup"><span data-stu-id="37d57-147">The tool compares your deployment’s configuration data against a set of pre-defined rules for Lync Server, and reports potential issues.</span></span> <span data-ttu-id="37d57-148">Für jedes gemeldete Problem stellt das Tool die aktuelle Konfiguration in der lync Server Umgebung und die empfohlene Konfiguration bereit.</span><span class="sxs-lookup"><span data-stu-id="37d57-148">For every issue reported, the tool provides the current configuration in the Lync Server environment, and the recommended configuration.</span></span>
-
-<span data-ttu-id="37d57-149">Mit dem richtigen Netzwerkzugriff kann das Tool Ihre AD DS und Server untersuchen, auf denen lync Server 2013 ausführen, um folgende Aktionen auszuführen:</span><span class="sxs-lookup"><span data-stu-id="37d57-149">With the correct network access, the tool can examine your AD DS and servers that are running Lync Server 2013 to do the following:</span></span>
-
-  - <span data-ttu-id="37d57-150">Proaktives durchführen von Integritätsprüfungen, überprüfen, ob die Konfiguration gemäß den empfohlenen bewährten Methoden festgelegt wurde</span><span class="sxs-lookup"><span data-stu-id="37d57-150">Proactively perform health checks, verifying that the configuration is set according to recommended best practices</span></span>
-
-  - <span data-ttu-id="37d57-151">Erstellen einer Liste von Problemen, beispielsweise suboptimale Konfigurationseinstellungen oder nicht unterstützte oder nicht empfohlene Optionen</span><span class="sxs-lookup"><span data-stu-id="37d57-151">Generate a list of issues, such as suboptimal configuration settings or unsupported or not recommended options</span></span>
-
-  - <span data-ttu-id="37d57-152">Beurteilen der allgemeinen Integrität eines Systems</span><span class="sxs-lookup"><span data-stu-id="37d57-152">Judge the general health of a system</span></span>
-
-  - <span data-ttu-id="37d57-153">Hilfe bei der Behandlung bestimmter Probleme</span><span class="sxs-lookup"><span data-stu-id="37d57-153">Help troubleshoot specific issues</span></span>
-
-  - <span data-ttu-id="37d57-154">Aufforderung zum Herunterladen von Updates, sofern diese verfügbar sind</span><span class="sxs-lookup"><span data-stu-id="37d57-154">Prompt you to download updates if they are available</span></span>
-
-  - <span data-ttu-id="37d57-155">Bereitstellen von Online-und lokalen Dokumentationen zu gemeldeten Problemen und einschließen von Tipps zur Problembehandlung</span><span class="sxs-lookup"><span data-stu-id="37d57-155">Provide online and local documentation about reported issues, and include troubleshooting tips</span></span>
-
-  - <span data-ttu-id="37d57-156">Generieren von Konfigurationsinformationen, die für eine spätere Überprüfung erfasst werden können</span><span class="sxs-lookup"><span data-stu-id="37d57-156">Generate configuration information that can be captured for later review</span></span>
-
-<span data-ttu-id="37d57-157">Stellen Sie sicher, dass der RTCBPA.msi auf allen lync Server 2013 Servern installiert ist, und generieren Sie einen wöchentlichen Integritäts Prüfungsbericht.</span><span class="sxs-lookup"><span data-stu-id="37d57-157">Ensure that the RTCBPA.msi is installed on all Lync Server 2013 servers, and generate a weekly Health Check Report.</span></span> <span data-ttu-id="37d57-158">Notieren Sie sich die Ergebnisse und korrigieren Sie, falls erforderlich.</span><span class="sxs-lookup"><span data-stu-id="37d57-158">Note the results and correct, if necessary.</span></span>
+<span data-ttu-id="03ca7-141">Identifizieren Sie neue Service Packs, Hotfixes oder Updates.</span><span class="sxs-lookup"><span data-stu-id="03ca7-141">Identify any new service packs, hotfixes, or updates.</span></span> <span data-ttu-id="03ca7-142">Testen Sie diese gegebenenfalls in einem Test Labor, und ordnen Sie die Bereitstellung auf den Produktionsservern mithilfe der Änderungskontrollverfahren an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-142">If appropriate, test these in a test lab, and use the change control procedures to arrange for deployment to the production servers.</span></span> <span data-ttu-id="03ca7-143">Außerdem sind lync Server Komponenten Aktualisierungen jetzt im Rahmen von Windows Update verfügbar.</span><span class="sxs-lookup"><span data-stu-id="03ca7-143">Also, Lync Server component updates are now available as part of Windows update.</span></span> <span data-ttu-id="03ca7-144">Alle lync Server-Komponenten Updates müssen gleichzeitig auf allen Servern mit lync Server aktualisiert werden, für die die Updates gelten.</span><span class="sxs-lookup"><span data-stu-id="03ca7-144">All Lync Server component updates must be updated at the same time on all of the servers that are running Lync Server for which the updates are applicable.</span></span>
 
 </div>
 
 <div>
 
-## <a name="review-sla-performance-figures"></a><span data-ttu-id="37d57-159">Überprüfen der SLA-Leistungszahlen</span><span class="sxs-lookup"><span data-stu-id="37d57-159">Review SLA performance figures</span></span>
+## <a name="run-the-lync-server-2013-best-practice-analyzer"></a><span data-ttu-id="03ca7-145">Ausführen des lync Server 2013 Best Practice Analyzer</span><span class="sxs-lookup"><span data-stu-id="03ca7-145">Run the Lync Server 2013 Best Practice Analyzer</span></span>
 
-<span data-ttu-id="37d57-160">Überprüfen Sie die wichtigsten Leistungsdaten für die vorherige Woche.</span><span class="sxs-lookup"><span data-stu-id="37d57-160">Check the key performance data for the previous week.</span></span> <span data-ttu-id="37d57-161">Überprüfen der Leistung anhand der Anforderungen der SLA.</span><span class="sxs-lookup"><span data-stu-id="37d57-161">Review performance against the requirements of the SLA.</span></span> <span data-ttu-id="37d57-162">Identifizieren von Trends und Elementen, die ihre Ziele nicht erreicht haben.</span><span class="sxs-lookup"><span data-stu-id="37d57-162">Identify trends and items that have not met their targets.</span></span>
+<span data-ttu-id="03ca7-146">Das lync Server 2013 Best Practices Analyzer ist ein Diagnosetool, das Konfigurationsinformationen sammelt und ermittelt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt wurde.</span><span class="sxs-lookup"><span data-stu-id="03ca7-146">The Lync Server 2013 Best Practices Analyzer Tool is a diagnostic tool that collects configuration information and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="03ca7-147">Dokumentation zu diesem Tool finden Sie unter [lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md).</span><span class="sxs-lookup"><span data-stu-id="03ca7-147">Documentation for this tool is at [Lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md).</span></span>
+
+<span data-ttu-id="03ca7-148">Das Tool vergleicht die Konfigurationsdaten Ihrer Bereitstellung mit einer Reihe vordefinierter Regeln für lync Server und meldet potenzielle Probleme.</span><span class="sxs-lookup"><span data-stu-id="03ca7-148">The tool compares your deployment’s configuration data against a set of pre-defined rules for Lync Server, and reports potential issues.</span></span> <span data-ttu-id="03ca7-149">Für jedes gemeldete Problem stellt das Tool die aktuelle Konfiguration in der lync Server Umgebung und die empfohlene Konfiguration bereit.</span><span class="sxs-lookup"><span data-stu-id="03ca7-149">For every issue reported, the tool provides the current configuration in the Lync Server environment, and the recommended configuration.</span></span>
+
+<span data-ttu-id="03ca7-150">Mit dem richtigen Netzwerkzugriff kann das Tool Ihre AD DS und Server untersuchen, auf denen lync Server 2013 ausführen, um folgende Aktionen auszuführen:</span><span class="sxs-lookup"><span data-stu-id="03ca7-150">With the correct network access, the tool can examine your AD DS and servers that are running Lync Server 2013 to do the following:</span></span>
+
+  - <span data-ttu-id="03ca7-151">Proaktives durchführen von Integritätsprüfungen, überprüfen, ob die Konfiguration gemäß den empfohlenen bewährten Methoden festgelegt wurde</span><span class="sxs-lookup"><span data-stu-id="03ca7-151">Proactively perform health checks, verifying that the configuration is set according to recommended best practices</span></span>
+
+  - <span data-ttu-id="03ca7-152">Erstellen einer Liste von Problemen, beispielsweise suboptimale Konfigurationseinstellungen oder nicht unterstützte oder nicht empfohlene Optionen</span><span class="sxs-lookup"><span data-stu-id="03ca7-152">Generate a list of issues, such as suboptimal configuration settings or unsupported or not recommended options</span></span>
+
+  - <span data-ttu-id="03ca7-153">Beurteilen der allgemeinen Integrität eines Systems</span><span class="sxs-lookup"><span data-stu-id="03ca7-153">Judge the general health of a system</span></span>
+
+  - <span data-ttu-id="03ca7-154">Hilfe bei der Behandlung bestimmter Probleme</span><span class="sxs-lookup"><span data-stu-id="03ca7-154">Help troubleshoot specific issues</span></span>
+
+  - <span data-ttu-id="03ca7-155">Aufforderung zum Herunterladen von Updates, sofern diese verfügbar sind</span><span class="sxs-lookup"><span data-stu-id="03ca7-155">Prompt you to download updates if they are available</span></span>
+
+  - <span data-ttu-id="03ca7-156">Bereitstellen von Online-und lokalen Dokumentationen zu gemeldeten Problemen und einschließen von Tipps zur Problembehandlung</span><span class="sxs-lookup"><span data-stu-id="03ca7-156">Provide online and local documentation about reported issues, and include troubleshooting tips</span></span>
+
+  - <span data-ttu-id="03ca7-157">Generieren von Konfigurationsinformationen, die für eine spätere Überprüfung erfasst werden können</span><span class="sxs-lookup"><span data-stu-id="03ca7-157">Generate configuration information that can be captured for later review</span></span>
+
+<span data-ttu-id="03ca7-158">Stellen Sie sicher, dass der RTCBPA.msi auf allen lync Server 2013 Servern installiert ist, und generieren Sie einen wöchentlichen Integritäts Prüfungsbericht.</span><span class="sxs-lookup"><span data-stu-id="03ca7-158">Ensure that the RTCBPA.msi is installed on all Lync Server 2013 servers, and generate a weekly Health Check Report.</span></span> <span data-ttu-id="03ca7-159">Notieren Sie sich die Ergebnisse und korrigieren Sie, falls erforderlich.</span><span class="sxs-lookup"><span data-stu-id="03ca7-159">Note the results and correct, if necessary.</span></span>
 
 </div>
 
 <div>
 
-## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a><span data-ttu-id="37d57-163">Überprüfen von System Center Operations Manager Management Pack und Quality of Experience-Berichten</span><span class="sxs-lookup"><span data-stu-id="37d57-163">Review System Center Operations Manager Management Pack and quality of experience reports</span></span>
+## <a name="review-sla-performance-figures"></a><span data-ttu-id="03ca7-160">Überprüfen der SLA-Leistungszahlen</span><span class="sxs-lookup"><span data-stu-id="03ca7-160">Review SLA performance figures</span></span>
 
-<span data-ttu-id="37d57-164">Abrufen und überprüfen lync Server 2013 Management Packs und Quality of Experience-Berichte.</span><span class="sxs-lookup"><span data-stu-id="37d57-164">Obtain and review Lync Server 2013 Management Pack and Quality of Experience reports.</span></span>
+<span data-ttu-id="03ca7-161">Überprüfen Sie die wichtigsten Leistungsdaten für die vorherige Woche.</span><span class="sxs-lookup"><span data-stu-id="03ca7-161">Check the key performance data for the previous week.</span></span> <span data-ttu-id="03ca7-162">Überprüfen der Leistung anhand der Anforderungen der SLA.</span><span class="sxs-lookup"><span data-stu-id="03ca7-162">Review performance against the requirements of the SLA.</span></span> <span data-ttu-id="03ca7-163">Identifizieren von Trends und Elementen, die ihre Ziele nicht erreicht haben.</span><span class="sxs-lookup"><span data-stu-id="03ca7-163">Identify trends and items that have not met their targets.</span></span>
 
 </div>
 
 <div>
 
-## <a name="generating-and-viewing-database-reports-for-enterprise-pools"></a><span data-ttu-id="37d57-165">Generieren und Anzeigen von Datenbankberichten für Enterprise-Pools</span><span class="sxs-lookup"><span data-stu-id="37d57-165">Generating and viewing database reports for enterprise pools</span></span>
+## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a><span data-ttu-id="03ca7-164">Überprüfen von System Center Operations Manager Management Pack und Quality of Experience-Berichten</span><span class="sxs-lookup"><span data-stu-id="03ca7-164">Review System Center Operations Manager Management Pack and quality of experience reports</span></span>
 
-<span data-ttu-id="37d57-166">**So generieren Sie Pool Berichte**</span><span class="sxs-lookup"><span data-stu-id="37d57-166">**To generate pool reports**</span></span>
+<span data-ttu-id="03ca7-165">Abrufen und überprüfen lync Server 2013 Management Packs und Quality of Experience-Berichte.</span><span class="sxs-lookup"><span data-stu-id="03ca7-165">Obtain and review Lync Server 2013 Management Pack and Quality of Experience reports.</span></span>
 
-1.  <span data-ttu-id="37d57-167">Öffnen Sie lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37d57-167">Open Lync Server 2013.</span></span>
+</div>
 
-2.  <span data-ttu-id="37d57-168">Erweitern Sie in der Konsolenstruktur den Knoten Gesamtstruktur, erweitern Sie **Enterprise-Pools**, und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.</span><span class="sxs-lookup"><span data-stu-id="37d57-168">In the console tree, expand the forest node, expand **Enterprise pools**, and then click the pool for which you want to generate a database report.</span></span>
+<div>
 
-3.  <span data-ttu-id="37d57-169">Klicken Sie im Detailbereich auf die Registerkarte **Datenbank** .</span><span class="sxs-lookup"><span data-stu-id="37d57-169">In the details pane, click the **Database** tab.</span></span>
+## <a name="generating-and-viewing-database-reports-for-enterprise-pools"></a><span data-ttu-id="03ca7-166">Generieren und Anzeigen von Datenbankberichten für Enterprise-Pools</span><span class="sxs-lookup"><span data-stu-id="03ca7-166">Generating and viewing database reports for enterprise pools</span></span>
 
-4.  <span data-ttu-id="37d57-170">Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="37d57-170">On the **Database** tab, do the following:</span></span>
+<span data-ttu-id="03ca7-167">**So generieren Sie Pool Berichte**</span><span class="sxs-lookup"><span data-stu-id="03ca7-167">**To generate pool reports**</span></span>
+
+1.  <span data-ttu-id="03ca7-168">Öffnen Sie lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="03ca7-168">Open Lync Server 2013.</span></span>
+
+2.  <span data-ttu-id="03ca7-169">Erweitern Sie in der Konsolenstruktur den Knoten Gesamtstruktur, erweitern Sie **Enterprise-Pools**, und klicken Sie dann auf den Pool, für den Sie einen Datenbankbericht generieren möchten.</span><span class="sxs-lookup"><span data-stu-id="03ca7-169">In the console tree, expand the forest node, expand **Enterprise pools**, and then click the pool for which you want to generate a database report.</span></span>
+
+3.  <span data-ttu-id="03ca7-170">Klicken Sie im Detailbereich auf die Registerkarte **Datenbank** .</span><span class="sxs-lookup"><span data-stu-id="03ca7-170">In the details pane, click the **Database** tab.</span></span>
+
+4.  <span data-ttu-id="03ca7-171">Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="03ca7-171">On the **Database** tab, do the following:</span></span>
     
-    1.  <span data-ttu-id="37d57-171">Um den Namen der Datenbank anzuzeigen, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.</span><span class="sxs-lookup"><span data-stu-id="37d57-171">To view the name of the database, expand **General Settings**, and view the database name.</span></span>
+    1.  <span data-ttu-id="03ca7-172">Um den Namen der Datenbank anzuzeigen, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-172">To view the name of the database, expand **General Settings**, and view the database name.</span></span>
     
-    2.  <span data-ttu-id="37d57-172">Um aktuelle Benutzer Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **wechseln**, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="37d57-172">To retrieve current user summary statistics for the pool, expand **User Summary Reports**, click **Go**, and view the results.</span></span>
+    2.  <span data-ttu-id="03ca7-173">Um aktuelle Benutzer Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **wechseln**, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-173">To retrieve current user summary statistics for the pool, expand **User Summary Reports**, click **Go**, and view the results.</span></span>
     
-    3.  <span data-ttu-id="37d57-173">Zum Abrufen aktueller benutzerbezogener Daten für einen einzelnen Benutzer des Pools erweitern Sie **Berichte pro Benutzer**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="37d57-173">To retrieve current per-user data for a single user of the pool, expand **Per-User Reports**, type the user’s SIP URI, click **Go**, and view the results.</span></span>
+    3.  <span data-ttu-id="03ca7-174">Zum Abrufen aktueller benutzerbezogener Daten für einen einzelnen Benutzer des Pools erweitern Sie **Berichte pro Benutzer**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-174">To retrieve current per-user data for a single user of the pool, expand **Per-User Reports**, type the user’s SIP URI, click **Go**, and view the results.</span></span>
 
-<span data-ttu-id="37d57-174">Um aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="37d57-174">To retrieve current conference summary statistics for the pool, expand **Conference Summary Reports**, click **Go**, and view the results.</span></span>
+<span data-ttu-id="03ca7-175">Um aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.</span><span class="sxs-lookup"><span data-stu-id="03ca7-175">To retrieve current conference summary statistics for the pool, expand **Conference Summary Reports**, click **Go**, and view the results.</span></span>
 
-<span data-ttu-id="37d57-175">Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank** verwenden, um den Datenbanknamen anzuzeigen und Berichte aus der Datenbank abzurufen und anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="37d57-175">For each Enterprise Pool, administrators can use the **Database** tab to view the database name and retrieve and view reports from the database.</span></span>
+<span data-ttu-id="03ca7-176">Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank** verwenden, um den Datenbanknamen anzuzeigen und Berichte aus der Datenbank abzurufen und anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="03ca7-176">For each Enterprise Pool, administrators can use the **Database** tab to view the database name and retrieve and view reports from the database.</span></span>
 
-### <a name="database-reports-and-descriptions"></a><span data-ttu-id="37d57-176">Datenbankberichte und-Beschreibungen</span><span class="sxs-lookup"><span data-stu-id="37d57-176">Database Reports and Descriptions</span></span>
+### <a name="database-reports-and-descriptions"></a><span data-ttu-id="03ca7-177">Datenbankberichte und-Beschreibungen</span><span class="sxs-lookup"><span data-stu-id="03ca7-177">Database Reports and Descriptions</span></span>
 
 <table>
 <colgroup>
@@ -200,31 +201,31 @@ ms.locfileid: "48518222"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37d57-177">Abschnitt</span><span class="sxs-lookup"><span data-stu-id="37d57-177">Section</span></span></th>
-<th><span data-ttu-id="37d57-178">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="37d57-178">Description</span></span></th>
+<th><span data-ttu-id="03ca7-178">Abschnitt</span><span class="sxs-lookup"><span data-stu-id="03ca7-178">Section</span></span></th>
+<th><span data-ttu-id="03ca7-179">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="03ca7-179">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37d57-179">Benutzer Zusammenfassungsberichte</span><span class="sxs-lookup"><span data-stu-id="37d57-179">User Summary Reports</span></span></p></td>
-<td><p><span data-ttu-id="37d57-180">Dbanalyze/v/Report: diag [/SQLServer: Wert]</span><span class="sxs-lookup"><span data-stu-id="37d57-180">Dbanalyze /v /report:diag [/sqlserver:value]</span></span></p>
-<p><span data-ttu-id="37d57-181">In diesem Abschnitt werden aggregierte Informationen zu Benutzern in einem Pool angezeigt, beispielsweise die Anzahl der aktivierten Benutzer, die durchschnittliche Anzahl der Kontakte pro Benutzer und die Anzahl der Benutzer für bestimmte Features.</span><span class="sxs-lookup"><span data-stu-id="37d57-181">This section displays aggregate information about users in a pool, such as the number of enabled users, the average number of contacts per user, and the number of users for specific features.</span></span></p>
-<p><span data-ttu-id="37d57-182">Wenn Sie diese Berichte verwenden, sind die folgenden Informationen möglicherweise hilfreich:</span><span class="sxs-lookup"><span data-stu-id="37d57-182">When using these reports, the following information may be helpful:</span></span></p>
+<td><p><span data-ttu-id="03ca7-180">Benutzer Zusammenfassungsberichte</span><span class="sxs-lookup"><span data-stu-id="03ca7-180">User Summary Reports</span></span></p></td>
+<td><p><span data-ttu-id="03ca7-181">Dbanalyze/v/Report: diag [/SQLServer: Wert]</span><span class="sxs-lookup"><span data-stu-id="03ca7-181">Dbanalyze /v /report:diag [/sqlserver:value]</span></span></p>
+<p><span data-ttu-id="03ca7-182">In diesem Abschnitt werden aggregierte Informationen zu Benutzern in einem Pool angezeigt, beispielsweise die Anzahl der aktivierten Benutzer, die durchschnittliche Anzahl der Kontakte pro Benutzer und die Anzahl der Benutzer für bestimmte Features.</span><span class="sxs-lookup"><span data-stu-id="03ca7-182">This section displays aggregate information about users in a pool, such as the number of enabled users, the average number of contacts per user, and the number of users for specific features.</span></span></p>
+<p><span data-ttu-id="03ca7-183">Wenn Sie diese Berichte verwenden, sind die folgenden Informationen möglicherweise hilfreich:</span><span class="sxs-lookup"><span data-stu-id="03ca7-183">When using these reports, the following information may be helpful:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="37d57-183">Ein aktivierter Benutzer ist ein Benutzer, der mithilfe des Snap-Ins Active Directory Benutzer und Computer für lync Server 2013 aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="37d57-183">An enabled user is a user who is enabled for Lync Server 2013 by using the Active Directory Users and Computers Snap-in.</span></span></p></li>
-<li><p><span data-ttu-id="37d57-184">Ein aktiver Benutzer ist ein Benutzer, der sich angemeldet oder registriert hat.</span><span class="sxs-lookup"><span data-stu-id="37d57-184">An active user is a user who has logged on or registered.</span></span></p></li>
-<li><p><span data-ttu-id="37d57-185">Die zusammenfassenden Berichte bieten auch eine Reihe von statistischen Informationen über Kontakte.</span><span class="sxs-lookup"><span data-stu-id="37d57-185">The summary reports also offer a set of statistical information about contacts.</span></span> <span data-ttu-id="37d57-186">Diese Statistiken sind nur für die Auffüllung von Benutzern gültig, die sich mindestens einmal angemeldet haben und die mindestens einen Kontakt haben.</span><span class="sxs-lookup"><span data-stu-id="37d57-186">These statistics are only valid for the population of users who have logged on at least one time, and who have at least one contact.</span></span> <span data-ttu-id="37d57-187">Folglich wird normalerweise keine Mindestanzahl von Kontakten von 0 angezeigt.</span><span class="sxs-lookup"><span data-stu-id="37d57-187">Consequently, you'll typically not see a minimum number of contacts of 0.</span></span> <span data-ttu-id="37d57-188">Wenn ein Benutzer über keine Kontakte verfügt (aber aktiv ist, in dem der Benutzer registriert ist), wird aufgrund dieses Verhaltens möglicherweise Folgendes angezeigt: &lt; Empty &gt; für einige Statistikfelder.</span><span class="sxs-lookup"><span data-stu-id="37d57-188">Because of this behavior, if a user has no contacts (but is active, in that the user has registered), you may see: &lt;empty&gt; for some statistics fields.</span></span></p></li>
+<li><p><span data-ttu-id="03ca7-184">Ein aktivierter Benutzer ist ein Benutzer, der mithilfe des Snap-Ins Active Directory Benutzer und Computer für lync Server 2013 aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="03ca7-184">An enabled user is a user who is enabled for Lync Server 2013 by using the Active Directory Users and Computers Snap-in.</span></span></p></li>
+<li><p><span data-ttu-id="03ca7-185">Ein aktiver Benutzer ist ein Benutzer, der sich angemeldet oder registriert hat.</span><span class="sxs-lookup"><span data-stu-id="03ca7-185">An active user is a user who has logged on or registered.</span></span></p></li>
+<li><p><span data-ttu-id="03ca7-186">Die zusammenfassenden Berichte bieten auch eine Reihe von statistischen Informationen über Kontakte.</span><span class="sxs-lookup"><span data-stu-id="03ca7-186">The summary reports also offer a set of statistical information about contacts.</span></span> <span data-ttu-id="03ca7-187">Diese Statistiken sind nur für die Auffüllung von Benutzern gültig, die sich mindestens einmal angemeldet haben und die mindestens einen Kontakt haben.</span><span class="sxs-lookup"><span data-stu-id="03ca7-187">These statistics are only valid for the population of users who have logged on at least one time, and who have at least one contact.</span></span> <span data-ttu-id="03ca7-188">Folglich wird normalerweise keine Mindestanzahl von Kontakten von 0 angezeigt.</span><span class="sxs-lookup"><span data-stu-id="03ca7-188">Consequently, you'll typically not see a minimum number of contacts of 0.</span></span> <span data-ttu-id="03ca7-189">Wenn ein Benutzer über keine Kontakte verfügt (aber aktiv ist, in dem der Benutzer registriert ist), wird aufgrund dieses Verhaltens möglicherweise Folgendes angezeigt: &lt; Empty &gt; für einige Statistikfelder.</span><span class="sxs-lookup"><span data-stu-id="03ca7-189">Because of this behavior, if a user has no contacts (but is active, in that the user has registered), you may see: &lt;empty&gt; for some statistics fields.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37d57-189">Per-User Berichte</span><span class="sxs-lookup"><span data-stu-id="37d57-189">Per-User Reports</span></span></p></td>
-<td><p><span data-ttu-id="37d57-190">Dbanalyze/v/Report: Datenträger [/SQLServer: Wert]</span><span class="sxs-lookup"><span data-stu-id="37d57-190">Dbanalyze /v /report:disk [/sqlserver:value]</span></span></p>
-<p><span data-ttu-id="37d57-191">Im Gegensatz zu den Zusammenfassungsberichten, die für eine Benutzer Auffüllung berechnet werden, handelt es sich um Berichte über einen bestimmten Benutzer.</span><span class="sxs-lookup"><span data-stu-id="37d57-191">Unlike the summary reports, which are calculated over a user population, these are reports about a specific user.</span></span></p></td>
+<td><p><span data-ttu-id="03ca7-190">Per-User Berichte</span><span class="sxs-lookup"><span data-stu-id="03ca7-190">Per-User Reports</span></span></p></td>
+<td><p><span data-ttu-id="03ca7-191">Dbanalyze/v/Report: Datenträger [/SQLServer: Wert]</span><span class="sxs-lookup"><span data-stu-id="03ca7-191">Dbanalyze /v /report:disk [/sqlserver:value]</span></span></p>
+<p><span data-ttu-id="03ca7-192">Im Gegensatz zu den Zusammenfassungsberichten, die für eine Benutzer Auffüllung berechnet werden, handelt es sich um Berichte über einen bestimmten Benutzer.</span><span class="sxs-lookup"><span data-stu-id="03ca7-192">Unlike the summary reports, which are calculated over a user population, these are reports about a specific user.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37d57-192">Konferenz Zusammenfassungsberichte</span><span class="sxs-lookup"><span data-stu-id="37d57-192">Conference Summary Reports</span></span></p></td>
-<td><p><span data-ttu-id="37d57-193">Dbanalyze/v/Report: conf [/SQLServer: Wert]</span><span class="sxs-lookup"><span data-stu-id="37d57-193">Dbanalyze /v /report:conf [/sqlserver:value]</span></span></p>
-<p><span data-ttu-id="37d57-194">In diesem Abschnitt werden aggregierte Informationen zu Konferenz Zusammenfassungs Statistiken für den Pool angezeigt, beispielsweise die Anzahl der aktiven Konferenzen und die Gesamtzahl der Teilnehmer.</span><span class="sxs-lookup"><span data-stu-id="37d57-194">This section displays aggregate information about conference summary statistics for the pool, such as the number of active conferences and total number of participants.</span></span></p></td>
+<td><p><span data-ttu-id="03ca7-193">Konferenz Zusammenfassungsberichte</span><span class="sxs-lookup"><span data-stu-id="03ca7-193">Conference Summary Reports</span></span></p></td>
+<td><p><span data-ttu-id="03ca7-194">Dbanalyze/v/Report: conf [/SQLServer: Wert]</span><span class="sxs-lookup"><span data-stu-id="03ca7-194">Dbanalyze /v /report:conf [/sqlserver:value]</span></span></p>
+<p><span data-ttu-id="03ca7-195">In diesem Abschnitt werden aggregierte Informationen zu Konferenz Zusammenfassungs Statistiken für den Pool angezeigt, beispielsweise die Anzahl der aktiven Konferenzen und die Gesamtzahl der Teilnehmer.</span><span class="sxs-lookup"><span data-stu-id="03ca7-195">This section displays aggregate information about conference summary statistics for the pool, such as the number of active conferences and total number of participants.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -234,42 +235,42 @@ ms.locfileid: "48518222"
 
 <div>
 
-## <a name="running-bandwidth-utilization-analyzer"></a><span data-ttu-id="37d57-195">Ausführung des Bandbreiten Auslastungsanalyse Programms</span><span class="sxs-lookup"><span data-stu-id="37d57-195">Running Bandwidth Utilization Analyzer</span></span>
+## <a name="running-bandwidth-utilization-analyzer"></a><span data-ttu-id="03ca7-196">Ausführung des Bandbreiten Auslastungsanalyse Programms</span><span class="sxs-lookup"><span data-stu-id="03ca7-196">Running Bandwidth Utilization Analyzer</span></span>
 
-<span data-ttu-id="37d57-196">Bandwidth Auslastung Analyzer ist ein Tool, das Berichte über verschiedene Ansichten der Bandbreitennutzung durch die UC-Endpunkte über WAN-Verbindungen im Unternehmensnetzwerk erstellt.</span><span class="sxs-lookup"><span data-stu-id="37d57-196">Bandwidth Utilization Analyzer is a tool that creates reports about various views of bandwidth consumption by the UC endpoints across WAN links in the enterprise network.</span></span> <span data-ttu-id="37d57-197">Diese Berichte können verwendet werden, um das aktuelle Muster der Bandbreitennutzung zu verstehen und die Planung der Bandbreitenkapazität zu unterstützen.</span><span class="sxs-lookup"><span data-stu-id="37d57-197">These reports can be used to understand the current bandwidth consumption pattern and to help with bandwidth capacity planning.</span></span> <span data-ttu-id="37d57-198">Außerdem wird die Bandbreitenkapazität durchlaufen, die verschiedenen Links zugewiesen ist.</span><span class="sxs-lookup"><span data-stu-id="37d57-198">It also iterates on the bandwidth capacity that is assigned to various links.</span></span>
+<span data-ttu-id="03ca7-197">Bandwidth Auslastung Analyzer ist ein Tool, das Berichte über verschiedene Ansichten der Bandbreitennutzung durch die UC-Endpunkte über WAN-Verbindungen im Unternehmensnetzwerk erstellt.</span><span class="sxs-lookup"><span data-stu-id="03ca7-197">Bandwidth Utilization Analyzer is a tool that creates reports about various views of bandwidth consumption by the UC endpoints across WAN links in the enterprise network.</span></span> <span data-ttu-id="03ca7-198">Diese Berichte können verwendet werden, um das aktuelle Muster der Bandbreitennutzung zu verstehen und die Planung der Bandbreitenkapazität zu unterstützen.</span><span class="sxs-lookup"><span data-stu-id="03ca7-198">These reports can be used to understand the current bandwidth consumption pattern and to help with bandwidth capacity planning.</span></span> <span data-ttu-id="03ca7-199">Außerdem wird die Bandbreitenkapazität durchlaufen, die verschiedenen Links zugewiesen ist.</span><span class="sxs-lookup"><span data-stu-id="03ca7-199">It also iterates on the bandwidth capacity that is assigned to various links.</span></span>
 
-<span data-ttu-id="37d57-199">Dieses Tool führt folgende Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="37d57-199">This tool does the following:</span></span>
+<span data-ttu-id="03ca7-200">Dieses Tool führt folgende Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="03ca7-200">This tool does the following:</span></span>
 
-  - <span data-ttu-id="37d57-200">Generiert spezifische Berichte für die audionutzung über das Netzwerk.</span><span class="sxs-lookup"><span data-stu-id="37d57-200">Generates specific reports for audio usage over the network</span></span>
+  - <span data-ttu-id="03ca7-201">Generiert spezifische Berichte für die audionutzung über das Netzwerk.</span><span class="sxs-lookup"><span data-stu-id="03ca7-201">Generates specific reports for audio usage over the network</span></span>
 
-  - <span data-ttu-id="37d57-201">Hilft bei der effektiveren Kapazitätsplanung und Iteration der Bandbreitenkapazität, die verschiedenen Links zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="37d57-201">Helps with more effective capacity planning and iteration on the bandwidth capacity that is assigned to various links</span></span>
+  - <span data-ttu-id="03ca7-202">Hilft bei der effektiveren Kapazitätsplanung und Iteration der Bandbreitenkapazität, die verschiedenen Links zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="03ca7-202">Helps with more effective capacity planning and iteration on the bandwidth capacity that is assigned to various links</span></span>
 
-<span data-ttu-id="37d57-202">Bandbreiten Auslastungsanalyse kann grafische Plots von Bandbreitenkapazität und Nutzungsberichten generieren.</span><span class="sxs-lookup"><span data-stu-id="37d57-202">Bandwidth Utilization Analyzer can generate graphical plots of bandwidth capacity and usage reports.</span></span> <span data-ttu-id="37d57-203">Sie sind wie folgt:</span><span class="sxs-lookup"><span data-stu-id="37d57-203">They are as follows:</span></span>
+<span data-ttu-id="03ca7-203">Bandbreiten Auslastungsanalyse kann grafische Plots von Bandbreitenkapazität und Nutzungsberichten generieren.</span><span class="sxs-lookup"><span data-stu-id="03ca7-203">Bandwidth Utilization Analyzer can generate graphical plots of bandwidth capacity and usage reports.</span></span> <span data-ttu-id="03ca7-204">Sie sind wie folgt:</span><span class="sxs-lookup"><span data-stu-id="03ca7-204">They are as follows:</span></span>
 
-  - <span data-ttu-id="37d57-204">Alle WAN-Verbindungen im Unternehmensnetzwerk</span><span class="sxs-lookup"><span data-stu-id="37d57-204">All the WAN links in the enterprise network</span></span>
+  - <span data-ttu-id="03ca7-205">Alle WAN-Verbindungen im Unternehmensnetzwerk</span><span class="sxs-lookup"><span data-stu-id="03ca7-205">All the WAN links in the enterprise network</span></span>
 
-  - <span data-ttu-id="37d57-205">Gefiltert nach ausgewählten WAN-Verbindungen, die ausgewählt wurden</span><span class="sxs-lookup"><span data-stu-id="37d57-205">Filtered by selected WAN links that were chosen</span></span>
+  - <span data-ttu-id="03ca7-206">Gefiltert nach ausgewählten WAN-Verbindungen, die ausgewählt wurden</span><span class="sxs-lookup"><span data-stu-id="03ca7-206">Filtered by selected WAN links that were chosen</span></span>
 
-  - <span data-ttu-id="37d57-206">Gefiltert nach WAN-Verbindungen, die die Link Kapazität überschritten haben</span><span class="sxs-lookup"><span data-stu-id="37d57-206">Filtered by WAN links that have exceeded link capacity</span></span>
+  - <span data-ttu-id="03ca7-207">Gefiltert nach WAN-Verbindungen, die die Link Kapazität überschritten haben</span><span class="sxs-lookup"><span data-stu-id="03ca7-207">Filtered by WAN links that have exceeded link capacity</span></span>
 
-  - <span data-ttu-id="37d57-207">Gefiltert nach WAN-Verbindungen, die die bereitgestellte Bandbreite unter Verwenden</span><span class="sxs-lookup"><span data-stu-id="37d57-207">Filtered by WAN links that were under-using the provisioned bandwidth</span></span>
+  - <span data-ttu-id="03ca7-208">Gefiltert nach WAN-Verbindungen, die die bereitgestellte Bandbreite unter Verwenden</span><span class="sxs-lookup"><span data-stu-id="03ca7-208">Filtered by WAN links that were under-using the provisioned bandwidth</span></span>
 
-  - <span data-ttu-id="37d57-208">Filtern nach WAN-Verbindungen, die kritische Ebenen erreicht haben (Bandbreitenauslastung von mehr als 90% der Bandbreitenkapazität der WAN-Verbindung)</span><span class="sxs-lookup"><span data-stu-id="37d57-208">Filter by WAN links that were reaching critical levels (a bandwidth usage that is greater than 90 percent of bandwidth capacity of the WAN link)</span></span>
+  - <span data-ttu-id="03ca7-209">Filtern nach WAN-Verbindungen, die kritische Ebenen erreicht haben (Bandbreitenauslastung von mehr als 90% der Bandbreitenkapazität der WAN-Verbindung)</span><span class="sxs-lookup"><span data-stu-id="03ca7-209">Filter by WAN links that were reaching critical levels (a bandwidth usage that is greater than 90 percent of bandwidth capacity of the WAN link)</span></span>
 
-  - <span data-ttu-id="37d57-209">Gefiltert nach WAN-Linktyp – Netzwerkstandort Verknüpfungen, interregionale Links und Links innerhalb eines Standorts</span><span class="sxs-lookup"><span data-stu-id="37d57-209">Filtered by WAN link type—network-site links, interregional links, and links inside a site</span></span>
+  - <span data-ttu-id="03ca7-210">Gefiltert nach WAN-Linktyp – Netzwerkstandort Verknüpfungen, interregionale Links und Links innerhalb eines Standorts</span><span class="sxs-lookup"><span data-stu-id="03ca7-210">Filtered by WAN link type—network-site links, interregional links, and links inside a site</span></span>
 
-  - <span data-ttu-id="37d57-210">Gefiltert nach netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="37d57-210">Filtered by network region</span></span>
+  - <span data-ttu-id="03ca7-211">Gefiltert nach netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="03ca7-211">Filtered by network region</span></span>
 
-<span data-ttu-id="37d57-211">Dokumentation zu diesem Tool finden Sie in der [Dokumentation zum lync Server 2013 Resource Kit-Tools](https://go.microsoft.com/fwlink/?linkid=623245).</span><span class="sxs-lookup"><span data-stu-id="37d57-211">Documentation for this tool is available at [Lync Server 2013 Resource Kit Tools Documentation](https://go.microsoft.com/fwlink/?linkid=623245).</span></span>
+<span data-ttu-id="03ca7-212">Dokumentation zu diesem Tool finden Sie in der [Dokumentation zum lync Server 2013 Resource Kit-Tools](https://go.microsoft.com/fwlink/?linkid=623245).</span><span class="sxs-lookup"><span data-stu-id="03ca7-212">Documentation for this tool is available at [Lync Server 2013 Resource Kit Tools Documentation](https://go.microsoft.com/fwlink/?linkid=623245).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="37d57-212">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="37d57-212">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03ca7-213">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="03ca7-213">See Also</span></span>
 
 
-[<span data-ttu-id="37d57-213">Prüfliste für wöchentliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="37d57-213">Weekly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
+[<span data-ttu-id="03ca7-214">Prüfliste für wöchentliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="03ca7-214">Weekly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
   
 
 </div>
