@@ -12,20 +12,22 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 172d448b3967782226335a5a3b9a4066514b7a9b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3b8ae0dd21221700101d1c94e1a72a4e987de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216642"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531762"
 ---
+# <a name="open-lync-server-2013-administrative-tools"></a>Öffnen lync Server 2013 Verwaltungstools
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="open-lync-server-2013-administrative-tools"></a>Öffnen lync Server 2013 Verwaltungstools
+
 
 </div>
 
@@ -85,7 +87,7 @@ Verwenden Sie das folgende Verfahren, um den Topologie-Generator zu öffnen, um 
     
 
     > [!NOTE]  
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber zum Lesen, veröffentlichen oder Aktivieren einer Topologie, die zum Installieren von lync Server 2013 auf einem Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe "Domänen-Admins" und der RTCUniv ersalServerAdmins-Gruppe mit Vollzugriff auf die Dateifreigabe, die Sie für den Archivierungsdatei Speicher verwenden möchten (also lesen, schreiben und ändern), damit der Topologie-Generator die erforderliche DACL (Discretionary Access Control List) konfigurieren kann. oder ein Konto mit gleichwertigen Benutzerrechten.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber zum Lesen, veröffentlichen oder Aktivieren einer Topologie, die zum Installieren von lync Server 2013 auf einem Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe "Domänen-Admins" und der Gruppe "RTCUniversalServerAdmins" ist und das über die Berechtigung "Vollzugriff" verfügt (also , lesen, schreiben und ändern) auf der Dateifreigabe, die Sie für den Archivierungsdatei Speicher verwenden möchten, damit der Topologie-Generator die erforderliche DACL (Discretionary Access Control List) oder ein Konto mit gleichwertigen Benutzerrechten konfigurieren kann.
 
     
     </div>
@@ -137,7 +139,7 @@ Verwenden Sie eines der folgenden Verfahren, um lync Server 2013-Systemsteuerung
 
 ## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a>So öffnen Sie lync Server 2013 Systemsteuerung auf einem Computer mit lync Server 2013
 
-1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der CsAdministrator-Rolle oder einer anderen Rolle mit entsprechenden Benutzerrechten und Berechtigungen für die auszuführende Aufgabe ist, an einem Computer an, auf dem Sie lync Server 2013 installiert haben, oder mindestens im lync Server 2013 Verwaltung. Ive-Tools. Zum Konfigurieren von Einstellungen muss der Computer eine minimale Bildschirmauflösung von 1024 x 768 aufweisen.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der CsAdministrator-Rolle oder einer anderen Rolle mit entsprechenden Benutzerrechten und Berechtigungen für die auszuführende Aufgabe ist, an einem Computer an, auf dem Sie lync Server 2013 installiert haben, oder geben Sie mindestens die lync Server 2013 Verwaltungstools an. Zum Konfigurieren von Einstellungen muss der Computer eine minimale Bildschirmauflösung von 1024 x 768 aufweisen.
 
 2.  Start lync Server 2013 Systemsteuerung: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, dann auf **Verwaltung**, dann auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server 2013 System**Steuerung.
 

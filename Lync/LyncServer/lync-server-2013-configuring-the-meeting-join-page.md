@@ -12,20 +12,22 @@ ms:contentKeyID: 48184037
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 872e95c1d5254830a80b8a0d0dd84b233f2d1813
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c191bbc8927790345e7f969c38e4bf1a74ec3bdb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532322"
 ---
+# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>Konfigurieren der Seite für den besprechungsbeitritt in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>Konfigurieren der Seite für den besprechungsbeitritt in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-12-14_
 
 Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt, erkennt die Seite für den besprechungsbeitritt, ob ein lync 2013 Client bereits auf dem Computer des Benutzers installiert ist. Wenn bereits ein Client installiert ist, wird dieser geöffnet und tritt der Besprechung bei. Wenn ein Client nicht installiert ist, wird standardmäßig die 2013-Version von lync Web App geöffnet.
 
-Sie können das Verhalten der Seite für den besprechungsbeitritt ändern, wenn Sie Benutzern die Teilnahme an Besprechungen mit Office Communicator 2007 R2 oder lync 2010 Attendant gestatten möchten. Diese Konfigurationsoptionen wurden aus der lync Server 2013-Systemsteuerung entfernt, Sie können Sie jedoch mithilfe des Cmdlets "Cmdlet festlegen-CsWebServiceConfiguration" konfigurieren.
+Sie können das Verhalten der Seite für den besprechungsbeitritt ändern, wenn Sie Benutzern die Teilnahme an Besprechungen mit Office Communicator 2007 R2 oder lync 2010 Attendant gestatten möchten. Diese Konfigurationsoptionen wurden aus der lync Server 2013-Systemsteuerung entfernt, Sie werden jedoch mithilfe des Set-CsWebServiceConfiguration-Cmdlets konfiguriert.
 
 ### <a name="meeting-join-page-set-cswebserviceconfiguration-parameters"></a>Set-CsWebServiceConfiguration-Parameter der Seite für den Besprechungsbeitritt
 

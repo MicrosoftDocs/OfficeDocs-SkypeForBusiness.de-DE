@@ -12,20 +12,22 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ace2b05b506b5bbf73177282747a66d212b38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eff0ab4c6ee2f6582c8274345c15af681d242561
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532172"
 ---
+# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>DNS-Anforderungen für Front-End-Pool in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>DNS-Anforderungen für Front-End-Pool in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Sie müssen die erforderlichen Domain Name System (DNS) Einträge vor dem Veröf
 
 
 > [!WARNING]  
-> Lync Server 2013 bietet keine Unterstützung für Domänen mit einfacher Bezeichnung. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne namens <STRONG>contoso.local</STRONG> unterstützt, eine Stammdomäne namens <STRONG>local</STRONG> hingegen nicht. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 300684, "Informationen zum Konfigurieren von Windows für Domänen mit DNS-Namen mit einfacher Bezeichnung" unter <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>.
+> Lync Server 2013 bietet keine Unterstützung für Domänen mit einfacher Bezeichnung. Beispielsweise wird eine Gesamtstruktur mit einer Stammdomäne namens <STRONG>contoso.local</STRONG> unterstützt, eine Stammdomäne namens <STRONG>local</STRONG> hingegen nicht. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 300684, "Informationen zum Konfigurieren von Windows für Domänen mit DNS-Namen mit einfacher Bezeichnung" unter <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp ; kbid = 300684</A>.
 
 
 
@@ -67,7 +69,7 @@ Stellen Sie vor dem Betrieb der Topologie nach der Bereitstellung sicher, dass d
 
   - Für jeden Server ist ein DNS-A-Eintrag vorhanden.
 
-  - Für jede SIP-Domäne ist ein DNS-SRV-Eintrag vorhanden, wenn Sie die automatische Anmeldung für Clients in \_Form\_von sipinternaltls TCP verwenden möchten. \<SIP-\>Domäne. Wenn Sie für Clients eine manuelle Konfiguration verwenden, ist dieser Eintrag nicht erforderlich.
+  - Für jede SIP-Domäne ist ein DNS-SRV-Eintrag vorhanden, wenn Sie die automatische Anmeldung für Clients in Form von \_ sipinternaltls TCP verwenden möchten \_ \<SIP domain\> . Wenn Sie für Clients eine manuelle Konfiguration verwenden, ist dieser Eintrag nicht erforderlich.
 
   - Ein DNS-A-Eintrag für jede konfigurierte einfache URL, für die es im Allgemeinen vier Typen gibt: "Meet", "Dialin", "LWA" und "Scheduler". Darüber hinaus gibt es die einfache admin-URL, die eine spezielle URL für den Zugriff auf die lync Server 2013-Systemsteuerung ist.
 
@@ -212,7 +214,7 @@ Die Tabelle folgt den Referenzarchitekturen aus dem Abschnitt zur Planung. Ausf�
 <tr class="odd">
 <td><p>Interne DNS-Konfiguration</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _tcp. contoso. com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp. contoso. com</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>Für die automatische Konfiguration von lync 2013 Clients für die interne Verwendung erforderlich.</p></td>
@@ -220,7 +222,7 @@ Die Tabelle folgt den Referenzarchitekturen aus dem Abschnitt zur Planung. Ausf�
 <tr class="even">
 <td><p>Interne DNS-Konfiguration</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _tcp. fabrikam. com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp. fabrikam. com</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>Für die automatische Konfiguration von lync 2013 Clients für die interne Verwendung erforderlich.</p></td>
@@ -228,7 +230,7 @@ Die Tabelle folgt den Referenzarchitekturen aus dem Abschnitt zur Planung. Ausf�
 <tr class="odd">
 <td><p>Interne DNS-Konfiguration</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp. _udp. contoso. com</p></td>
+<td><p>_ntp _ntp._udp. contoso. com</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
 <td><p>NTP-Quelle (Network Time Protocol) erforderlich für Geräte, die lync Phone Edition ausführen. Intern sollte dieser Eintrag auf den Domänencontroller verweisen. Wenn der Domänencontroller nicht definiert ist, wird der NTP-Server "time.windows.com" verwendet.</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db2f0df542cb85956ae3efa7321083b99ed561a8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8743b012042738ea25653cf49a804e08d59a423
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532512"
 ---
+# <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Konfigurieren von Partneranwendungen in Microsoft lync Server 2013 und Microsoft Exchange Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Konfigurieren von Partneranwendungen in Microsoft lync Server 2013 und Microsoft Exchange Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Um die Server-zu-Server-Authentifizierung zwischen lync Server und Exchange einz
 
 ## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Konfigurieren von lync Server 2013 als Partner Anwendung für Exchange 2013
 
-Am einfachsten können Sie lync Server 2013 als Partneranwendung mit Exchange 2013 konfigurieren, indem Sie das configure-EnterprisePartnerApplication. ps1-Skript ausführen, ein Windows PowerShelles Skript, das mit Exchange 2013 ausgeliefert wird. Um dieses Skript auszuführen, müssen Sie die URL für das Dokument lync Server authentifizierungsmetadaten angeben. Dabei handelt es sich normalerweise um den vollqualifizierten Domänennamen des lync Server 2013 Pools gefolgt vom Suffix/Metadata/JSON/1. Zum Beispiel:
+Die einfachste Möglichkeit zum Konfigurieren von lync Server 2013 als Partneranwendung mit Exchange 2013 besteht darin, das Configure-EnterprisePartnerApplication.ps1 Skript auszuführen, ein Windows PowerShell Skript, das mit Exchange 2013 ausgeliefert wird. Um dieses Skript auszuführen, müssen Sie die URL für das Dokument lync Server authentifizierungsmetadaten angeben. Dabei handelt es sich normalerweise um den vollqualifizierten Domänennamen des lync Server 2013 Pools gefolgt vom Suffix/Metadata/JSON/1. Zum Beispiel:
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 

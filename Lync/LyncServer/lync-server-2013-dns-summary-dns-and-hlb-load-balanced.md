@@ -12,20 +12,22 @@ ms:contentKeyID: 48185447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86a4b90cc78b3fdcb6b5a02332d95468f8246c84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6a3dc04856e1727c3982864995494cee751f457
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532152"
 ---
+# <a name="dns-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>DNS-Zusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>DNS-Zusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die zur Un
 <td><p>Director-Hosteintrag für Replikation und Server-zu-Server</p></td>
 </tr>
 <tr class="even">
-<td><p>Interne DNS/A</p></td>
+<td><p>Internes DNS/A</p></td>
 <td><p>dirpool01.contoso.net</p></td>
 <td><p>Directorpool</p></td>
 <td><p>Host Eintrag für die Directorpool für den DNS-Lastenausgleich für Server-zu-Server</p></td>
@@ -82,7 +84,7 @@ Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die zur Un
 <td><p>Hardwaregerät zum Lastenausgleich des veröffentlichten Dialin-Webdiensts vom Reverseproxy</p></td>
 </tr>
 <tr class="odd">
-<td><p>Interne DNS/A</p></td>
+<td><p>Internes DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
 <td><p>Directorpool-HLB-VIP</p></td>
 <td><p>Hardwaregerät zum Lastenausgleich des veröffentlichten Besprechungs-Webdiensts vom Reverseproxy</p></td>

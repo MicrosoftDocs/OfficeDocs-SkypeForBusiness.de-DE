@@ -12,20 +12,22 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924e15aae9590b6148864084aa68924e4c080f7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 39179f1db1c547081e059d9b3ee275c924621cab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533172"
 ---
+# <a name="enterprise-voice-in-lync-server-2013"></a>Enterprise-VoIP in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-in-lync-server-2013"></a>Enterprise-VoIP in lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Mit Exchange Unified Messaging (um) können lync und lync Server in Microsoft Ex
 
 Enterprise-VoIP umfasst auch mehrere erweiterte Anruffunktionen wie lync-Anrufdelegierung, Teamanrufe, gruppenanrufannahme und Reaktionsgruppen.
 
-Mit der lync-Anrufdelegierung können Benutzer die Anrufbehandlung an einen oder mehrere Assistenten delegieren, indem Sie die Einstellungen für die **Anrufweiterleitung**für **Tools** \> **** \> aufrufen. Der Stellvertreter kann mehrere Anruf Aufgaben im Namen des Benutzers ausführen, einschließlich der Überprüfung von anrufen, das Platzieren von Anrufen und das Initiieren von Konferenzen.
+Mit der lync-Anrufdelegierung können Benutzer die Anrufbehandlung an einen oder mehrere Assistenten delegieren **Tools** , indem Sie die Einstellungen für die \> **Options** \> **Anrufweiterleitung**für Tools aufrufen. Der Stellvertreter kann mehrere Anruf Aufgaben im Namen des Benutzers ausführen, einschließlich der Überprüfung von anrufen, das Platzieren von Anrufen und das Initiieren von Konferenzen.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532552"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Konfigurieren von Enterprise-VoIP in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Konfigurieren von Enterprise-VoIP in lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Um Enterprise-VoIP bereitzustellen, müssen Sie Folgendes konfigurieren:
 
 ## <a name="create-a-trunk"></a>Erstellen eines Trunks
 
-Sie müssen Trunks in Ihrer Enterprise-VoIP-Bereitstellung definieren. Für das standortbasierte Routing müssen Sie eine trunkkonfiguration pro trunk erstellen. Verwenden Sie den lync Server Topologie-Generator, um Ihre Trunks zu definieren, und verwenden Sie den lync Server Windows PowerShell-Befehl, New-CsTrunkConfiguration oder den lync Server-Systemsteuerung, um die entsprechenden Trunk Konfigurationen zu definieren. Weitere Informationen zum Aktivieren des standortbasierten Routings auf Trunk Konfigurationen finden Sie im Abschnitt Aktivieren des standortbasierten Routings für Trunks, im Thema Aktivieren des [standortbasierten Routings in lync Server 2013](lync-server-2013-enabling-location-based-routing.md). In diesem Beispiel werden in der folgenden Tabelle die Trunks dargestellt, die in diesem Szenario verwendet werden.
+Sie müssen Trunks in Ihrer Enterprise-VoIP-Bereitstellung definieren. Für Location-Based Routing müssen Sie eine trunkkonfiguration pro trunk erstellen. Verwenden Sie den lync Server Topologie-Generator, um Ihre Trunks zu definieren, und verwenden Sie den lync Server Windows PowerShell-Befehl, New-CsTrunkConfiguration oder den lync Server-Systemsteuerung, um die entsprechenden Trunk Konfigurationen zu definieren. Weitere Informationen zum Aktivieren des Location-Based Routings auf Trunk Konfigurationen finden Sie im Abschnitt enable Location-Based Routing to Trunks, in dem Thema Aktivieren von [Location-Based Routing in lync Server 2013](lync-server-2013-enabling-location-based-routing.md). In diesem Beispiel werden in der folgenden Tabelle die Trunks dargestellt, die in diesem Szenario verwendet werden.
 
 Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topologie-Generator in lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
@@ -117,7 +119,7 @@ Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topol
 
 ## <a name="defines-voice-policies"></a>Definiert VoIP-Richtlinien
 
-Sie müssen VoIP-Richtlinien für Ihre Enterprise-VoIP-Bereitstellung definieren. Definieren Sie eine VoIP-Richtlinie zum Erzwingen von standortbasierten Routing Einschränkungen für eine Teilmenge von Benutzern, wenn nur eine Teilmenge davon für die Verwendung des standortbasierten Routings erforderlich ist. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Richtlinien erläutert. Zur Veranschaulichung werden nur Einstellungen, die für das standortbasierte Routing spezifisch sind, in der Tabelle aufgeführt.
+Sie müssen VoIP-Richtlinien für Ihre Enterprise-VoIP-Bereitstellung definieren. Definieren Sie eine VoIP-Richtlinie, um Location-Based Routing Einschränkungen für eine Teilmenge von Benutzern zu erzwingen, wenn nur eine Teilmenge von Ihnen für die Verwendung Location-Based Routings erforderlich ist. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Richtlinien erläutert. Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.
 
 Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen in lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
@@ -166,7 +168,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und P
 
 ## <a name="define-voice-routes"></a>Definieren von VoIP-Routen
 
-Sie müssen VoIP-Routen für Ihre Enterprise-VoIP-Bereitstellung definieren. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Routen dargestellt. Zur Veranschaulichung werden nur Einstellungen, die für das standortbasierte Routing spezifisch sind, in der Tabelle aufgeführt.
+Sie müssen VoIP-Routen für Ihre Enterprise-VoIP-Bereitstellung definieren. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Routen dargestellt. Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.
 
 Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausgehende Anrufe in lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
@@ -225,7 +227,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausge
 
 ## <a name="enable-users-for-enterprise-voice"></a>Aktivieren von Benutzern für Enterprise-VoIP
 
-Aktivieren Sie Benutzer für Enterprise-VoIP, und weisen Sie Ihnen eine VoIP-Richtlinie zu, die Sie zuvor definiert haben. In diesem Beispiel wird in der folgenden Tabelle die in diesem Szenario verwendete Zuweisung dargestellt. Zur Veranschaulichung werden nur Einstellungen, die für das standortbasierte Routing spezifisch sind, in der Tabelle aufgeführt.
+Aktivieren Sie Benutzer für Enterprise-VoIP, und weisen Sie Ihnen eine VoIP-Richtlinie zu, die Sie zuvor definiert haben. In diesem Beispiel wird in der folgenden Tabelle die in diesem Szenario verwendete Zuweisung dargestellt. Zur Veranschaulichung werden nur Einstellungen, die für Location-Based Routing spezifisch sind, in die Tabelle einbezogen.
 
 Weitere Informationen finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
@@ -270,7 +272,7 @@ Weitere Informationen finden Sie unter [Aktivieren von Benutzern für Enterprise
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren des standortbasierten Routings in lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Konfigurieren Location-Based Routings in lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969592
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd46beb944f676b9916472cc39394d84ae205786
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0db9afa670cd21428a3dc4f4c812240abaa10468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531912"
 ---
+# <a name="monitoring-lync-server-2013-performance"></a>Überwachen der lync Server 2013 Leistung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-performance"></a>Überwachen der lync Server 2013 Leistung
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217281"
 
 _**Letztes Änderungsstand des Themas:** 2014-05-15_
 
-Lync Server 2013 Leistung wird durch verschiedene Faktoren wie Benutzerprofile, Systemarchitektur, Software, Hardwarekomponenten, Drittanbieter-Integrationspunkte wie Gateways und Telefoniegeräte, Netzwerkkonnektivität und Leistung, Windows Active Directory Dienstkonfiguration und-Leistung zusätzlich zu den Funktionen des Windows-Betriebssystems.
+Lync Server 2013 Leistung wird durch verschiedene Faktoren wie Benutzerprofile, Systemarchitektur, Software, Hardwarekomponenten, Drittanbieter-Integrationspunkte wie Gateways und Telefoniegeräte, Netzwerkkonnektivität und-Leistung, Konfiguration und Leistung von Windows Active Directory Diensten sowie der Funktionalität von Windows-Betriebssystemen beeinflusst.
 
 Im Mittelpunkt der Leistung einer lync Server 2013-Bereitstellungen steht die Server Software und-Hardware, auf der Sie implementiert ist. Ein Front-End-Server muss beispielsweise über ausreichende Hardwareressourcen verfügen, um die erwartete (kurzzeitige) Benutzerlast zu bewältigen. Wenn ein jeweiliger Front-End-Server für die Bereitstellung von Diensten für 10000-Benutzer erforderlich ist, muss ein entsprechend konfigurierter Server die erwarteten Ladeanforderungen erfüllen, um letztendlich die bestmögliche Endbenutzererfahrung sicherzustellen.
 
@@ -45,25 +47,25 @@ Die Überwachung der Serverleistung ist daher äußerst wichtig, um zu überprü
 
 Während detaillierte Informationen zu allen zu beachtenden Leistungsobjekten und Leistungsindikatoren in [Monitoring lync Server 2013 mit System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)verknüpft sind, können einige Leistungsindikatoren, denen Sie folgen sollten, Administratoren einen schnellen Überblick über die Systemleistung geben:
 
-  - Zum Nachverfolgen des allgemeinen Systemzustands des Front-End-Servers ist ein guter Ausgangspunkt,\\Prozessorzeit Prozessor% zu überprüfen. Der Wert sollte immer unter 80 Prozent liegen.
+  - Zum Nachverfolgen des allgemeinen Systemzustands des Front-End-Servers ist ein guter Ausgangspunkt, Prozessorzeit Prozessor% zu überprüfen \\ . Der Wert sollte immer unter 80 Prozent liegen.
 
   - Überwachen Sie die folgenden Leistungsindikatoren, um die Leistung der vom Front-End-Pool verwendeten Back-End-SQL Server Datenbanksoftware-Instanz nachzuverfolgen:
     
-    LC: USrv – 00 – DBStore\\USrv – 002 – Warteschlangen Wartezeit (MS)
+    LC: USrv – 00 – DBStore \\ USrv – 002 – Warteschlangen Wartezeit (MS)
     
-    LC: USrv – 00 – DBStore\\USrv – 0 04 – Wartezeit in der Warte Prozedur (MS)
+    LC: USrv – 00 – DBStore \\ USrv – 0 04 – Wartezeit in der Warte Prozedur (MS)
     
-    Der fehlerfreie Server im stationären Zustand \<sollte 100 MS-Latenzwerte anzeigen. Der Einschränkungsmechanismus wird aktiviert, wenn die Wartezeit 12 Sekunden erreicht, was bedeutet, dass der Front-End-Server die Einschränkungsanforderungen an das Back-End startet. Dies bewirkt, dass Clients beginnen, eine zu beschäftigte Fehlermeldung mit 503 Server zu erhalten.
+    Der fehlerfreie Server im stationären Zustand sollte \< 100 MS-Latenzwerte anzeigen. Der Einschränkungsmechanismus wird aktiviert, wenn die Wartezeit 12 Sekunden erreicht, was bedeutet, dass der Front-End-Server die Einschränkungsanforderungen an das Back-End startet. Dies bewirkt, dass Clients beginnen, eine zu beschäftigte Fehlermeldung mit 503 Server zu erhalten.
 
   - Überwachen Sie den folgenden Leistungsindikator, um die Verarbeitungszeit auf dem Front-End-Server nachzuverfolgen:
     
-    LC: SIP-07-laden Verwaltung\\SIP-000 – durchschnittliche Aufbewahrungszeit für eingehende Nachrichten
+    LC: SIP-07-laden Verwaltung \\ SIP-000 – durchschnittliche Aufbewahrungszeit für eingehende Nachrichten
     
     Hierbei handelt es sich um einen weiteren Einschränkungsmechanismus für die Front-End-Server, und zwar ab dem Zeitpunkt, zu dem die Verarbeitungszeit auf dem Front-End hoch ist. Wenn die durchschnittliche Verarbeitungszeit mehr als sechs Sekunden beträgt, wechselt der Server in den Drosselungs Modus und ermöglicht nur eine ausstehende Transaktion pro Clientverbindung.
 
   - Überwachen Sie den folgenden Leistungsindikator, um Arbeitsspeicherprobleme auf dem SQL-Back-End-Server nachzuverfolgen:
     
-    Lebenserwartung von\\SQL Server Puffer-Manager-Seite
+    Lebenserwartung von SQL Server Puffer-Manager- \\ Seite
     
     Ein niedriger Wert unterhalb von 3600 Sekunden (zusammen mit Schreibvorgängen mit hoher Latenz/s und Prüf Punkt Seiten/Sek.) weist auf den arbeitsspeicherdruck hin.
 
@@ -77,9 +79,9 @@ Der Front-End-Server kann auf Probleme hindeuten, die möglicherweise durch Engp
 
 Es folgen zwei zusätzliche Indikatoren, die Sie zuerst überprüfen können:
 
-LC: USrv-00-DBStore\\USrv-002 – Warteschlangen Wartezeit (MS)
+LC: USrv-00-DBStore \\ USrv-002 – Warteschlangen Wartezeit (MS)
 
-LC: USrv-00-DBStore\\USrv-004-Wartezeit für die Warte Prozedur (MS)
+LC: USrv-00-DBStore \\ USrv-004-Wartezeit für die Warte Prozedur (MS)
 
 Der Indikator Warteschlangen Wartezeit stellt die Zeit dar, die eine in der Warteschlange verbrachte Anforderung an das Back-End und die Wartezeit für die Prozedur die Zeit darstellt, die für das Back-End zum Verarbeiten der Anforderung benötigt wurde. Wenn der Datenträger, der Arbeitsspeicher, das Netzwerk und der Prozessor auf dem Back-End aus irgendeinem Grund in Schwierigkeiten geraten, ist der Indikator für Warteschlangen Wartezeit hoch.
 
@@ -103,21 +105,21 @@ Sie können ermitteln, ob Ihre SQL Server zusätzlichen Arbeitsspeicher erforder
 
 Es gibt einen zusätzlichen Einschränkungsmechanismus in einer lync Server 2013 Front-End-Server, der gestartet wird, wenn die Server Verarbeitungszeit hoch ist. Die DBStore-Latenz Drosselung ist nur aktiviert, wenn die Wartezeit für die SQL Server hoch ist. Ein Beispiel für die Aktivierung einer solchen Einschränkung ist, wenn der Front-End-Server CPU-gebunden ist.
 
-Wenn die durchschnittliche Verarbeitungszeit **(LC: SIP-07-Last Management\\SIP-000 – durchschnittliche Aufbewahrungszeit für eingehende Nachrichten)** auf dem Server sechs Sekunden überschreitet, wechselt der Server in den Drosselungs Modus und gibt Benutzern nur eine ausstehende Transaktion pro Clientverbindung. Sobald die Verarbeitungszeit auf drei Sekunden abfällt, fällt der Server aus dem Drosselungs Modus und gibt Benutzern bis zu 20 ausstehende Transaktionen pro Clientverbindung. Wenn die Anzahl der Transaktionen für eine bestimmte Verbindung den oben genannten Schwellenwert überschreitet, wird die Verbindung als Fluss gesteuert markiert. Das Ergebnis ist, dass der Server keine erhält, und der Indikator **LC: SIP-01-Peers\\Flow Controlled Connections** wird inkrementiert. Wenn eine Verbindung länger als eine Minute in einem flusskontrollierten Zustand verbleibt, wird Sie vom Server geschlossen. Es tut so träge. Wenn Sie die Möglichkeit zum Überprüfen der Verbindung hat, bestimmt Sie, ob Sie zu lange gedrosselt wurde, und schließt Sie, wenn Sie mehr als eine Minute hat.
+Wenn die durchschnittliche Verarbeitungszeit **(LC: SIP-07-Last Management \\ SIP-000 – durchschnittliche Aufbewahrungszeit für eingehende Nachrichten)** auf dem Server sechs Sekunden überschreitet, wechselt der Server in den Drosselungs Modus und gibt Benutzern nur eine ausstehende Transaktion pro Clientverbindung. Sobald die Verarbeitungszeit auf drei Sekunden abfällt, fällt der Server aus dem Drosselungs Modus und gibt Benutzern bis zu 20 ausstehende Transaktionen pro Clientverbindung. Wenn die Anzahl der Transaktionen für eine bestimmte Verbindung den oben genannten Schwellenwert überschreitet, wird die Verbindung als Fluss gesteuert markiert. Das Ergebnis ist, dass der Server keine erhält, und der Indikator **LC: SIP-01-Peers \\ Flow Controlled Connections** wird inkrementiert. Wenn eine Verbindung länger als eine Minute in einem flusskontrollierten Zustand verbleibt, wird Sie vom Server geschlossen. Es tut so träge. Wenn Sie die Möglichkeit zum Überprüfen der Verbindung hat, bestimmt Sie, ob Sie zu lange gedrosselt wurde, und schließt Sie, wenn Sie mehr als eine Minute hat.
 
 Hierbei handelt es sich um die beiden Einschränkungs Mechanismen, und es gibt einen Leistungsindikator, der zusammenfasst, was, wenn überhaupt, die Drosselung des Servers ausführt.
 
-**LC: SIP-04-Responses\\SIP-053-lokale 503 Antworten/Sek.**
+**LC: SIP-04-Responses \\ SIP-053-lokale 503 Antworten/Sek.**
 
   - Der Ausdruck "local" im vorherigen Leistungsindikator bezieht sich auf lokal generierte Antworten.
 
   - Der 503-Code entspricht dem Server, der nicht verfügbar ist und auf dem keine 503-Codes auf einem fehlerfreien Server angezeigt werden sollten. Während des Zeitraums, nach dem ein Server gerade online geschaltet wurde, werden möglicherweise einige 503-Codes angezeigt. Wenn sich alle Benutzer wieder anmelden und der Server in einen stabilen Zustand wechselt, sollten keine zusätzlichen 503-Codes vorhanden sein.
 
-**LC: SIP-04-Responses\\SIP-074-lokale 504 Antworten/Sek.**
+**LC: SIP-04-Responses \\ SIP-074-lokale 504 Antworten/Sek.**
 
 Dieser Leistungsindikator weist auf Verbindungsprobleme mit anderen Servern hin und kann auf Fehler beim Herstellen einer Verbindung oder auf Verzögerungen beim Verbinden hindeuten. Wenn 504 Fehler angezeigt werden, sollte der folgende Leistungsindikator überprüft werden.
 
-**LC: SIP-01-Peers\\SIP-017-Sends Outstanding**
+**LC: SIP-01-Peers \\ SIP-017-Sends Outstanding**
 
 Dieser Indikator gibt die Anzahl der ausgehenden Anforderungen und Antworten in der Warteschlange an. Wenn dieser Leistungsindikator hoch ist, ist das Problem wahrscheinlich nicht auf dem lokalen Server. Beachten Sie, dass dieser Indikator hoch sein kann, wenn es Probleme mit der Netzwerkwartezeit gibt. Dies kann auch auf Probleme mit dem lokalen Netzwerkadapter hindeuten, wird jedoch wahrscheinlich durch ein Problem auf einem Remoteserver verursacht. Dieser Leistungsindikator wäre höchstwahrscheinlich auf einem Director-Server hoch, wenn der Pool, mit dem er kommunizieren möchte, überlastet ist. Der Schlüssel mit diesem Indikator besteht darin, die Instanzen zu betrachten, nicht nur die Summe.
 

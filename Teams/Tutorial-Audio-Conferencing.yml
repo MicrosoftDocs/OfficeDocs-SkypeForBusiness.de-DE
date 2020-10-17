@@ -3,7 +3,9 @@ title: 'Lernprogramm: Audiokonferenzen – Microsoft Teams'
 metadata:
   title: Audiokonferenzen in Microsoft Teams
   description: In diesem interaktiven Lernprogramm erfahren Sie, welche Anforderungen, Planungsschritte und Berichte für Audiokonferenzen in Microsoft Teams gelten.
-  ms.custom: seo-marvel-mar2020
+  ms.custom:
+  - seo-marvel-apr2020
+  - seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: fc4f57607a0a96de6754eec0e693b7cf5cb0b767
+  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904550"
+  ms.lasthandoff: 10/16/2020
+  ms.locfileid: "48532762"
 items:
 - durationInMinutes: 1
   content: >
@@ -68,7 +70,7 @@ items:
     Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Audiokonferenzen in Teams
   durationInMinutes: 12
-  content: "\nBei Audiokonferenzen verwenden die Teilnehmer ein normales Telefon, um an Teams-Besprechungen teilzunehmen, indem Sie sich entweder von Ihrem Telefon aus in die Besprechung einwählen oder über die Wählfunktionen in der Besprechung verwenden. Lesen Sie die folgenden Ressourcen, um mehr über Audiokonferenzen zu erfahren:\n-   [Funktionen für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Features) (geschätzte Lesezeiten 1 Minute)\n-   [9 Tipps für Besprechungen mit Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (geschätzte Lesezeiten\\#für \"1 – teilnehmen an einer Besprechung über Audiokonferenzen\" ist 1 Minute; mehr, wenn Sie den ganzen Artikel lesen)\n-   [Häufig gestellte Fragen zu Audiokonferenzen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (geschätzte Lesezeiten 7 Minuten)\n-   [Aus einer Besprechung heraus wählen, damit andere Personen daran teilnehmen können](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (geschätzte Lesezeiten 2 Minuten)\n"
+  content: "\nBei Audiokonferenzen verwenden die Teilnehmer ein normales Telefon, um an Teams-Besprechungen teilzunehmen, indem Sie sich entweder von Ihrem Telefon aus in die Besprechung einwählen oder über die Wählfunktionen in der Besprechung verwenden. Lesen Sie die folgenden Ressourcen, um mehr über Audiokonferenzen zu erfahren:\n-   [Funktionen für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Features) (geschätzte Lesezeiten 1 Minute)\n-   [9 Tipps für Besprechungen mit Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (geschätzte Lesezeiten für \" \\# 1 – teilnehmen an einer Besprechung über Audiokonferenzen\" ist 1 Minute; mehr, wenn Sie den ganzen Artikel lesen)\n-   [Häufig gestellte Fragen zu Audiokonferenzen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (geschätzte Lesezeiten 7 Minuten)\n-   [Aus einer Besprechung heraus wählen, damit andere Personen daran teilnehmen können](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (geschätzte Lesezeiten 2 Minuten)\n"
 - title: Szenario – Audiokonferenzen
   durationInMinutes: 1
   content: "\nGarth arbeitet bei Contoso, einem Unternehmen, das mehrere Niederlassungen hat. Garth muss häufig mit Personen in anderen Office-Standorten in Kontakt treten, und weil er oft von zu Hause aus arbeitet oder unterwegs ist, ist er ein großer Fan von Teams-Besprechungen. Wenn Garth eine Besprechungseinladung sendet, werden automatisch Informationen für Audiokonferenzen hinzugefügt. Dadurch sind die folgenden Szenarien möglich:\n-   Alice möchte an Garths Besprechung teilnehmen, aber Sie ist unterwegs und hat keinen Zugriff auf ein zuverlässiges Netzwerk. Aus diesem Grund nimmt Sie mit den Einwahl Koordinaten aus der Besprechungseinladung an der Besprechung Teil. Während des Einwahl Prozesses verwendet Sie Ihre PIN zur Authentifizierung, damit Sie vom System als \"Alice\" erkannt wird.\n-   Bob, der sich derzeit in einem Hotel befindet, tritt der Besprechung mithilfe des Teams-Clients auf seinem PC bei. Leider ist die Audioqualität über die Internetverbindung im Hotel nicht besonders gut, daher wählt Bob seine eigene Telefonnummer aus der Besprechung aus, um über das öffentlich geschaltete Telefonnetz (PSTN) teilzunehmen.\n-   Wenn die Besprechungsteilnehmer während des Anrufs feststellen, dass Benutzer unter einer anderen Telefonnummer hinzugefügt werden sollen, können Sie sich einfach an die Telefonnummer anwählen und weitere Personen in die Besprechung bringen.\n-   Andere Benutzer können auch über den Microsoft Teams-Client auf Ihrem PC, Mac oder mobilen Gerät teilnehmen.\n\nIn Teams können Besprechungsorganisatoren eine Besprechung für alle Besprechungsteilnehmer beenden. Dies ist in Szenarien wie den folgenden hilfreich:\n\n-   Pädagogen können sicherstellen, dass die Kursteilnehmer nach Abschluss des Kurses nicht in einer Besprechung unbeaufsichtigt bleiben.\n-   Für Besprechungen, die aufgezeichnet werden, wie etwa Webinars, können Besprechungsorganisatoren sicherstellen, dass die Aufzeichnung endet, wenn die Besprechung endet.\n-   Das Beenden einer Besprechung für alle Teilnehmer kann dazu beitragen, die PSTN-Nutzung und Abrechnung in Ihrem Unternehmen zu reduzieren. \n\nWenn beispielsweise die Besprechung abgeschlossen ist, kann Garth in den Teams in der Besprechung auf **Besprechung beenden** klicken, um Sie zu beenden und alle Teilnehmer davon zu entfernen.\n"

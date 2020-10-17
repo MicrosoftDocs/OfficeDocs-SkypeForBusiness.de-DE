@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188088"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532642"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools und Berechtigungen
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools und Berechtigungen
+
 
 </div>
 
@@ -74,7 +76,7 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um lync Server z
 <tr class="even">
 <td><p>Persistente Benutzerdaten ("rtcxds". mdf-Datenbank)</p>
 <p>Konferenz-IDs</p></td>
-<td><p>Export-csuserdata "</p></td>
+<td><p>Export-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><ul>
@@ -86,7 +88,7 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um lync Server z
 </tr>
 <tr class="even">
 <td><p>Datenbank für beständigen Chat (MGC. mdf)</p></td>
-<td><p>SQL Server Sicherungsverfahren oder Export-CsPersistentChatData. Export-CsPersistentChatData exportiert beständige Chat Daten als Datei.</p></td>
+<td><p>SQL Server Sicherungsverfahren oder Export-CsPersistentChatData. Export-CsPersistentChatData exportiert persistent Chat-Daten als Datei.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Alle Dateispeicher: lync Server Dateispeicher, archivieren des Dateispeichers</p>
@@ -156,7 +158,7 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um lync Server w
 
 
 </div></td>
-<td><p>Gruppe-CsConfigurationStoreLocation</p></td>
+<td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
 <td><p>Importieren der Topologie-, Richtlinien-und Konfigurationseinstellungen in den zentralen Verwaltungsspeicher (XDS. mdf)</p></td>
@@ -165,8 +167,8 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um lync Server w
 <tr class="even">
 <td><p>Veröffentlichen und Aktivieren der Topologie</p></td>
 <td><p>Topologie-Generator</p>
-<p>- oder -</p>
-<p>Publish-CsTopology und enable-CsTopology</p></td>
+<p>oder</p>
+<p>Publish-CsTopology und Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
 <td><p>Zuletzt veröffentlichte Topologie aktivieren</p></td>
@@ -178,7 +180,7 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um lync Server w
 <div>
 
 > [!NOTE]  
-> Befindet sich im lync Server Installationsordner oder auf den Medien unter \setup\amd64\Setup.exe.
+> Befindet sich im lync Server Installationsordner oder auf dem Datenträger unter \setup\amd64\Setup.exe.
 
 
 </div></td>
@@ -189,7 +191,7 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um lync Server w
 </tr>
 <tr class="even">
 <td><p>Wiederherstellen persistenter Benutzerdaten ("rtcxds". mdf)</p></td>
-<td><p>Import-csuserdata "</p></td>
+<td><p>Import-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><p>Reaktionsgruppen-Konfigurationsdaten wiederherstellen (RgsConfig.mdf)</p></td>
@@ -224,7 +226,7 @@ Verwenden Sie die in der folgenden Tabelle aufgeführten Tools, um lync Server w
 
 ## <a name="required-permissions"></a>Erforderliche Berechtigungen
 
-Benutzer müssen ein Mitglied der **RTCUniversalServerAdmins** -Gruppe sein, um alle in diesem Thema beschriebenen Befehle ausführen zu können. Die meisten Sicherungs-und Wiederherstellungsbefehle unterstützen die rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) nicht. Es gibt zwei Ausnahmen: Cmdlets für beständigen Chat, Export-CsPersistentChatData und Import-CsPersistentChatData, die von einem Benutzer ausgeführt werden müssen, der Mitglied der "cspersistentchatadministrator"-Gruppe ist. Zum Ausführen des lync Server-Bereitstellungs-Assistenten muss ein Benutzer auch Mitglied der lokalen Administratoren-Gruppe sein.
+Benutzer müssen ein Mitglied der **RTCUniversalServerAdmins** -Gruppe sein, um alle in diesem Thema beschriebenen Befehle ausführen zu können. Die meisten Sicherungs-und Wiederherstellungsbefehle unterstützen die rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) nicht. Zwei Ausnahmen sind die Cmdlets für beständigen Chat Export-CsPersistentChatData und Import-CsPersistentChatData, die von einem Benutzer ausgeführt werden müssen, der Mitglied der "cspersistentchatadministrator"-Gruppe ist. Zum Ausführen des lync Server-Bereitstellungs-Assistenten muss ein Benutzer auch Mitglied der lokalen Administratoren-Gruppe sein.
 
 </div>
 

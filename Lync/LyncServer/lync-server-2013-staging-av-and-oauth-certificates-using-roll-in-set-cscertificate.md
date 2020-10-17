@@ -1,5 +1,5 @@
 ---
-title: Staging von AV-und OAuth-Zertifikaten mithilfe von-Roll in der Gruppe-CsCertificate
+title: Staging von AV-und OAuth-Zertifikaten mithilfe von-Roll in Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee572bbf115d1e83476194b0e5c92859886da42f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 003c8da4c953dc843fe49bf3fc5eb2d2a70b093b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533012"
 ---
+# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Staging von AV-und OAuth-Zertifikaten in lync Server 2013 using-Roll in Set-CsCertificate
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Staging von AV-und OAuth-Zertifikaten in lync Server 2013 using-Roll in der Gruppe CsCertificate
+
 
 </div>
 
@@ -53,7 +55,7 @@ Die Kommunikation zwischen Audio und Video (a/V) ist eine wichtige Komponente vo
 
 </div>
 
-Der a/v-Authentifizierungsdienst ist für die Ausstellung von Token verantwortlich, die von Clients und anderen a/v-Consumern verwendet werden. Die Token werden aus Attributen auf dem Zertifikat generiert, und wenn das Zertifikat abläuft, resultieren Verbindungsverlust und Anforderung zum erneuten Beitritt mit einem neuen Token, das vom neuen Zertifikat generiert wird. Durch ein neues Feature in lync Server 2013 wird dieses Problem behoben – die Möglichkeit, ein neues Zertifikat im Vorfeld des alten zu inszenieren und zu ermöglichen, dass beide Zertifikate für einen bestimmten Zeitraum weiterhin funktionsfähig sind. Dieses Feature verwendet aktualisierte Funktionen im lync Server-Verwaltungsshell-Cmdlet "Sets-CsCertificate". Der neue Parameter – Roll mit dem vorhandenen Parameter – EffectiveDate ", platziert das neue AudioVideoAuthentication-Zertifikat im Zertifikatspeicher. Das ältere AudioVideoAuthentication-Zertifikat bleibt weiterhin für ausgestellte Token erhalten, für die validiert werden soll. Beginnend mit dem Setzen des neuen AudioVideoAuthentication-Zertifikats wird die folgende Reihe von Ereignissen ausgeführt:
+Der a/v-Authentifizierungsdienst ist für die Ausstellung von Token verantwortlich, die von Clients und anderen a/v-Consumern verwendet werden. Die Token werden aus Attributen auf dem Zertifikat generiert, und wenn das Zertifikat abläuft, resultieren Verbindungsverlust und Anforderung zum erneuten Beitritt mit einem neuen Token, das vom neuen Zertifikat generiert wird. Durch ein neues Feature in lync Server 2013 wird dieses Problem behoben – die Möglichkeit, ein neues Zertifikat im Vorfeld des alten zu inszenieren und zu ermöglichen, dass beide Zertifikate für einen bestimmten Zeitraum weiterhin funktionsfähig sind. Dieses Feature verwendet aktualisierte Funktionen im Cmdlet Set-CsCertificate lync Server-Verwaltungsshell. Der neue Parameter – Roll mit dem vorhandenen Parameter – EffectiveDate ", platziert das neue AudioVideoAuthentication-Zertifikat im Zertifikatspeicher. Das ältere AudioVideoAuthentication-Zertifikat bleibt weiterhin für ausgestellte Token erhalten, für die validiert werden soll. Beginnend mit dem Setzen des neuen AudioVideoAuthentication-Zertifikats wird die folgende Reihe von Ereignissen ausgeführt:
 
 <div>
 
@@ -65,7 +67,7 @@ Der a/v-Authentifizierungsdienst ist für die Ausstellung von Token verantwortli
 
 </div>
 
-Zusätzliche Informationen werden benötigt, um die Optionen und Anforderungen bei der Verwendung des Set-CsCertificate-Cmdlet zum Bereitstellen von Zertifikaten vor dem Ablauf des aktuellen Zertifikats nachvollziehen zu können. Der Parameter "–Roll" ist wichtig, dient jedoch nur einem Zweck. Wenn Sie es als Parameter definieren, erklären Sie "CsCertificate", dass Sie Informationen zu dem Zertifikat bereitstellen, das von – Type (beispielsweise AudioVideoAuthentication und OAuthTokenIssuer) betroffen sein wird, wenn das Zertifikat effektiv definiert von – EffectiveDate ".
+Zusätzliche Informationen werden benötigt, um die Optionen und Anforderungen bei der Verwendung des Set-CsCertificate-Cmdlet zum Bereitstellen von Zertifikaten vor dem Ablauf des aktuellen Zertifikats nachvollziehen zu können. Der Parameter "–Roll" ist wichtig, dient jedoch nur einem Zweck. Wenn Sie es als Parameter definieren, sagen Sie Set-CsCertificate, dass Sie Informationen zu dem Zertifikat bereitstellen, das von – Type (beispielsweise AudioVideoAuthentication und OAuthTokenIssuer) betroffen sein wird, wenn das Zertifikat durch – EffectiveDate "definiert wird.
 
 **-Roll:** Der-Roll-Parameter ist erforderlich und enthält Abhängigkeiten, die zusammen mit ihm angegeben werden müssen. Parameter, die zum Festlegen der betroffenen Zertifikate und ihrer Anwendungsweise erforderlich sind:
 
@@ -87,7 +89,7 @@ Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anfo
 
 3.  Importieren Sie das neue AudioVideoAuthentication-Zertifikat in den Edgeserver und alle anderen Edgeserver in Ihrem Pool (sofern ein Pool bereitgestellt wurde).
 
-4.  Konfigurieren Sie das importierte Zertifikat mit dem Cmdlet "Set-CsCertificate", und verwenden Sie den Parameter "–Roll" mit dem Parameter "–EffectiveDate". Das Gültigkeitsdatum sollte als Ablaufzeit des aktuellen Zertifikats (14:00:00 Uhr) minus Tokengültigkeitsdauer (standardmäßig acht Stunden) festgelegt werden. Dies gibt uns eine Zeit, für die das Zertifikat auf aktiv festgelegt werden muss, und ist \<die\>Zeichenfolge – EffectiveDate ":" 7/22/2012 6:00:00 am ".
+4.  Konfigurieren Sie das importierte Zertifikat mit dem Cmdlet "Set-CsCertificate", und verwenden Sie den Parameter "–Roll" mit dem Parameter "–EffectiveDate". Das Gültigkeitsdatum sollte als Ablaufzeit des aktuellen Zertifikats (14:00:00 Uhr) minus Tokengültigkeitsdauer (standardmäßig acht Stunden) festgelegt werden. Dies gibt uns eine Zeit, für die das Zertifikat auf aktiv festgelegt werden muss, und ist der-EffectiveDate " \<string\> :" 7/22/2012 6:00:00 am ".
     
     <div>
     

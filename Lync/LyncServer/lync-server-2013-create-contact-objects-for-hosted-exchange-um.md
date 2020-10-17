@@ -12,20 +12,22 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c783a79c6d3ed3cd0af47d53d136a47585cb94d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 051b7f483ec3e3a59d5025c670b63b97765016b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205631"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532302"
 ---
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Erstellen von Contact-Objekten für gehostete Exchange um in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Erstellen von Contact-Objekten für gehostete Exchange um in lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in 
     
     In diesen Beispielen werden folgende Parameter festgelegt:
     
-      - **SipAddress** gibt die SIP-Adresse des Kontaktobjekts an. Hierbei muss es sich um eine Adresse handeln, die noch nicht zur Konfiguration eines Benutzer- oder Kontaktobjekts in den Active Directory-Domänendiensten verwendet wurde. Dieser Wert muss das Format "SIP:\<*SIP Address*\>" aufweisen, wie in den vorherigen Beispielen gezeigt.
+      - **SipAddress** gibt die SIP-Adresse des Kontaktobjekts an. Hierbei muss es sich um eine Adresse handeln, die noch nicht zur Konfiguration eines Benutzer- oder Kontaktobjekts in den Active Directory-Domänendiensten verwendet wurde. Dieser Wert muss das Format "SIP:" aufweisen \<*SIP address*\> , wie in den vorherigen Beispielen gezeigt.
     
       - **RegistrarPool** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools, in dem der Registrierungsdienst ausgeführt wird.
         

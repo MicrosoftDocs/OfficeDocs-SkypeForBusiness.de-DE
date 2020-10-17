@@ -12,20 +12,22 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49d50173439e36bd5bb7f35f668837fe04b46b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b421656d5fefbefa308178962f5c25b9ae72013f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532182"
 ---
+# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>DNS-Anforderungen für die automatische Clientanmeldung in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>DNS-Anforderungen für die automatische Clientanmeldung in lync Server 2013
+
 
 </div>
 
@@ -54,9 +56,9 @@ Zur Unterstützung der automatischen Clientanmeldung müssen Sie folgende Aufgab
     
     </div>
 
-Um die automatische Konfiguration für Ihre Clients zu aktivieren, müssen Sie einen internen DNS-SRV-Eintrag erstellen, der einen der folgenden Einträge dem vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Front-End-Pool oder Standard Edition-Server zuordnet, der Anmeldeanforderungen von lync verteilt. Clients
+Um die automatische Konfiguration für Ihre Clients zu aktivieren, müssen Sie einen internen DNS-SRV-Eintrag erstellen, mit dem einer der folgenden Einträge dem vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Front-End-Pool oder Standard Edition-Server zugeordnet wird, der Anmeldeanforderungen von lync-Clients verteilt:
 
-  - \_sipinternaltls. \_TCP. \<Domäne\> – für interne TLS-Verbindungen
+  - \_sipinternaltls. \_ TCP.\<domain\> -für interne TLS-Verbindungen
 
 Sie müssen für den Front-End-Pool oder Standard Edition-Server, der die Anmeldeanforderungen verteilt, nur einen einzigen SRV-Eintrag erstellen.
 
@@ -108,9 +110,9 @@ Die folgende Tabelle enthält einige der erforderlichen Beispieleinträge für d
 
 In diesem Beispiel werden dieselben Beispiele wie in der oben gezeigten Tabelle verwendet. Das Unternehmen Contoso unterstützt die SIP-Domänen "contoso.com" und "retail.contoso.com", und alle Benutzer des Unternehmens verfügen über einen SIP-URI in einem der folgenden Formate:
 
-  - \<Benutzer\>@Retail. contoso.com
+  - \<user\>@Retail. contoso.com
 
-  - \<Benutzer\>@contoso. com
+  - \<user\>@contoso. com
 
 </div>
 

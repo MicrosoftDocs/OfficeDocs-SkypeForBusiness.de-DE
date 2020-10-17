@@ -12,20 +12,22 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5f79437c5253365e4333e7cd064883bba968a54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a468e74206fdc6bad8f078267688450636b8a725
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532142"
 ---
+# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>DNS-Zusammenfassung-Reverseproxy in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>DNS-Zusammenfassung-Reverseproxy in lync Server 2013
+
 
 </div>
 
@@ -76,7 +78,7 @@ Sie können die zwei Netzwerkadapter auf Ihrem Reverseproxy folgendermaßen konf
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externe DNS/A</p></td>
+<td><p>Externer DNS-Eintrag/A</p></td>
 <td><p>webext.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Externe Webdienste aus der internen Bereitstellung. Zusätzliche Einträge können definiert und für alle Pools und einzelne Server für eine beliebige SIP-Domäne konfiguriert werden, die diesen Reverseproxy verwendet und für die externe Webdienste definiert sind.</p></td>
@@ -95,19 +97,19 @@ Sie können die zwei Netzwerkadapter auf Ihrem Reverseproxy folgendermaßen konf
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>Externe DNS/A</p></td>
+<td><p>Externer DNS-Eintrag/A</p></td>
 <td><p>dialin.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Extern veröffentlichte Einwahlkonferenzen</p></td>
 </tr>
 <tr class="even">
-<td><p>Externe DNS/A</p></td>
+<td><p>Externer DNS-Eintrag/A</p></td>
 <td><p>meet.contoso.com</p></td>
 <td><p>Zugewiesener Listener für extern veröffentlichte Ressourcen</p></td>
 <td><p>Extern veröffentlichte Konferenzen</p></td>
 </tr>
 <tr class="odd">
-<td><p>Externe DNS/A</p></td>
+<td><p>Externer DNS-Eintrag/A</p></td>
 <td><p>officewebapps01.contoso.com</p></td>
 <td><p>Zugewiesener Listener für Office-webapps Server</p></td>
 <td><p>Office-webapps-Server, der intern oder im Umkreis bereitgestellt und für den externen Clientzugriff veröffentlicht wurde</p></td>

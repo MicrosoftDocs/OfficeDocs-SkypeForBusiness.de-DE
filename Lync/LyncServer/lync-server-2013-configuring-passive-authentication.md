@@ -12,20 +12,22 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96c2c94bde12e6b8b77060a82f1990b673421de9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 780b539aeaf6a6bc6956fc5f8b6185092675632b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532492"
 ---
+# <a name="configuring-lync-server-2013-passive-authentication"></a>Konfigurieren lync Server 2013 passiven Authentifizierung
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-passive-authentication"></a>Konfigurieren lync Server 2013 passiven Authentifizierung
+
 
 </div>
 
@@ -99,7 +101,7 @@ In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Pro
 
 **So erstellen Sie eine benutzerdefinierte Proxykonfiguration**
 
-1.  Erstellen Sie über die Befehlszeile lync Server-Verwaltungsshell eine neue Proxykonfiguration für jeden lync Server 2013 mit kumulierten Updates: 2013. Juli-Edge-Pool, Enterprise-Pool und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, indem Sie den folgenden Befehl ausführen: folgenden Befehle aus:
+1.  Erstellen Sie über die Befehlszeile lync Server-Verwaltungsshell eine neue Proxykonfiguration für jeden lync Server 2013 mit kumulierten Updates: 2013. Juli-Edge-Pool, Enterprise-Pool und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, indem Sie die folgenden Befehle ausführen:
     
        ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 

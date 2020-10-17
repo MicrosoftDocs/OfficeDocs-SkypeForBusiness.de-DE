@@ -12,20 +12,22 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d18bea94d7844f611afb14d388d6655379ee047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8af979b36564fef40a4839e31f2597d82117741
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179952"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533382"
 ---
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Edgeserver-Cmdlets in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Edgeserver-Cmdlets in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179952"
 
 _**Letztes Änderungsstand des Themas:** 2013-10-07_
 
-Edgeserver bieten Ihnen die Möglichkeit, die Funktionen von Microsoft lync Server 2013 auf Personen auszudehnen, die nicht bei Ihrem internen Netzwerk angemeldet sind. Wenn Sie beispielsweise Remotebenutzer haben – authentifizierte Benutzer, die sich bei lync Server 2013 über das Internet anmelden, statt über das interne Netzwerk, müssen Sie eine Edgeserver einrichten, in der die lync Server Zugriffs-Edgedienst ausgeführt wird. Außerdem sind Edgeserver erforderlich, wenn Sie einen Partnerverbund mit einer anderen Organisation einrichten möchten oder Ihren Benutzern das Recht geben möchten, mit Personen zu kommunizieren, die über Konten mit einem öffentlichen Chatdienst wie Yahoo\!, AOL oder MSN verfügen.
+Edgeserver bieten Ihnen die Möglichkeit, die Funktionen von Microsoft lync Server 2013 auf Personen auszudehnen, die nicht bei Ihrem internen Netzwerk angemeldet sind. Wenn Sie beispielsweise Remotebenutzer haben – authentifizierte Benutzer, die sich bei lync Server 2013 über das Internet anmelden, statt über das interne Netzwerk, müssen Sie eine Edgeserver einrichten, in der die lync Server Zugriffs-Edgedienst ausgeführt wird. Außerdem sind Edgeserver erforderlich, wenn Sie einen Partnerverbund mit einer anderen Organisation einrichten möchten oder Ihren Benutzern das Recht geben möchten, mit Personen zu kommunizieren, die über Konten mit einem öffentlichen Chatdienst wie Yahoo \! , AOL oder MSN verfügen.
 
 <div>
 

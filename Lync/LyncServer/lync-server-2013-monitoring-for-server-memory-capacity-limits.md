@@ -12,20 +12,22 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e969de7198eecf43b57ea00fa0591bbeb06da0b1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 160d90a5a79291d18afdab00c23ff0a6726fa5b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217311"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531942"
 ---
+# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Überwachen der Kapazitätsgrenzwerte für Server Speicher in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Überwachen der Kapazitätsgrenzwerte für Server Speicher in lync Server 2013
+
 
 </div>
 
@@ -67,13 +69,13 @@ Gesamtarbeitsspeicher des MCX-mobilitätsdiensts (MB) = 164 + (400 + 134)/1024 \
 
 
 > [!IMPORTANT]  
-> Der Microsoft lync Server 2010 Kapazitäts Rechner ist eine Arbeitsmappe, die mit allen Formeln vorab aufgefüllt ist, mit denen ein Planer bestimmen kann, welche Anforderungen für die Server gelten, einschließlich CPU, Arbeitsspeicher und Festplatte. Sie können das Arbeitsblatt und ein zugehöriges Dokument herunterladen:<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> Der Microsoft lync Server 2010 Kapazitäts Rechner ist eine Arbeitsmappe, die mit allen Formeln vorab aufgefüllt ist, mit denen ein Planer bestimmen kann, welche Anforderungen für die Server gelten, einschließlich CPU, Arbeitsspeicher und Festplatte. Sie können das Arbeitsblatt und ein zugehöriges Dokument herunterladen: <A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 
 </div>
 
-Der Front-End-Server benötigt genügend Arbeitsspeicher zur Unterstützung des mobilitätsdiensts in Failover-Situationen. Sie können den derzeit verfügbaren Arbeitsspeicher auf dem Front-End-Server überwachen, indem Sie den **Arbeits\\Speicher Verfügbare MBytes** verwenden oder die zuvor erwähnte Gleichung verwenden, um die Größe des Arbeitsspeichers zu planen, den Sie vom Mobilitätsdienst erwarten sollten.
+Der Front-End-Server benötigt genügend Arbeitsspeicher zur Unterstützung des mobilitätsdiensts in Failover-Situationen. Sie können den derzeit verfügbaren Arbeitsspeicher auf dem Front-End-Server überwachen, indem Sie den **Arbeitsspeicher \\ Verfügbare MBytes** verwenden oder die zuvor erwähnte Gleichung verwenden, um die Größe des Arbeitsspeichers zu planen, den Sie vom Mobilitätsdienst erwarten sollten.
 
 Wenn der verfügbare Arbeitsspeicher auf dem Front-End-Server niedriger als 1.500 MB ist, wenn Sie die erwartete Anzahl von Mobilitäts Benutzern planen, müssen Sie weitere Hardware zur Unterstützung des mobilitätsdiensts hinzufügen. Weitere Informationen finden Sie unter [Monitoring Mobility for Performance in lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) in der Betriebsdokumentation.
 

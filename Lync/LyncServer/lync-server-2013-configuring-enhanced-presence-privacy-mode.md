@@ -12,20 +12,22 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c8622e2c32af698d599b4ed541945b4d1de0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d9a06a7bf01664c260ace3a86537665e185b64f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532602"
 ---
+# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Konfigurieren des Datenschutzmodus für erweiterte Anwesenheitsinformationen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Konfigurieren des Datenschutzmodus für erweiterte Anwesenheitsinformationen in lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202961"
 
 _**Letztes Änderungsstand des Themas:** 2014-12-08_
 
-Mit dem Datenschutzmodus für erweiterte Anwesenheit können Benutzer ihre Anwesenheitsinformationen so einschränken, dass Sie nur für die Kontakte sichtbar sind, die in ihrer lync 2013 Kontaktliste aufgeführt sind. Die Cmdlets **New-CsPrivacyConfiguration** und **Sets-CsPrivacyConfiguration** verfügen über einen EnablePrivacyMode-Parameter, der diese Option steuert. Wenn EnablePrivacyMode auf "true" festgelegt ist, wird die Option zum Einschränken der Anwesenheitsinformationen auf Kontakte in den lync 2013 Status Optionen verfügbar. Wenn EnablePrivacyMode auf "false" festgelegt ist, können Benutzer auswählen, dass jeder immer seine Anwesenheitsinformationen anzeigen oder sich an zukünftige Änderungen halten kann, die der Administrator im Datenschutzmodus durchführt.
+Mit dem Datenschutzmodus für erweiterte Anwesenheit können Benutzer ihre Anwesenheitsinformationen so einschränken, dass Sie nur für die Kontakte sichtbar sind, die in ihrer lync 2013 Kontaktliste aufgeführt sind. Die Cmdlets **New-CsPrivacyConfiguration**   und **Sets-CsPrivacyConfiguration** verfügen über einen EnablePrivacyMode-Parameter, der diese Option steuert. Wenn EnablePrivacyMode auf "true" festgelegt ist, wird die Option zum Einschränken der Anwesenheitsinformationen auf Kontakte in den lync 2013 Status Optionen verfügbar. Wenn EnablePrivacyMode auf "false" festgelegt ist, können Benutzer auswählen, dass jeder immer seine Anwesenheitsinformationen anzeigen oder sich an zukünftige Änderungen halten kann, die der Administrator im Datenschutzmodus durchführt.
 
 <div>
 
