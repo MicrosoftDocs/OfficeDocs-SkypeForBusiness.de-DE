@@ -12,20 +12,22 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b46fba4c9426a76bfb7c8ca9f15e7cba4950e8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36cf05d0d3d5cce13a100d23cb541eb5aa186ef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193888"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530492"
 ---
+# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Testen der Freigabe in Konferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Testen der Freigabe in Konferenzen in lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ Der Befehl in Beispiel 1 prüft, ob in Pool "atl-cs-001.litwareinc.com" eine Da
 
     Test-CsDataConference -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-Die in Beispiel 2 gezeigten Befehle testen die Fähigkeit eines Benutzer Paares (\\litwareinc Pilar und\\litwareinc kenmyer), sich bei lync Server 2013 anzumelden und dann eine Datenkonferenz durchzuführen. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc\\Pilar als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Pilar Ackerman-Konto angeben.) Das resultierende Credential-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert. Der zweite Befehl hat die gleiche Aufgabe, nur gibt dieser ein Objekt mit Anmeldeinformationen für das Konto "Ken Myer" zurück.
+Die in Beispiel 2 gezeigten Befehle testen die Fähigkeit eines Benutzer Paares (litwareinc \\ Pilar und litwareinc kenmyer), sich bei \\ lync Server 2013 anzumelden und dann eine Datenkonferenz durchzuführen. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc \\ Pilar als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Pilar Ackerman-Konto angeben.) Das resultierende Credential-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert. Der zweite Befehl hat die gleiche Aufgabe, nur gibt dieser ein Objekt mit Anmeldeinformationen für das Konto "Ken Myer" zurück.
 
 Wenn die Credential-Objekte in der Hand sind, bestimmt der dritte Befehl, ob sich diese beiden Benutzer bei lync Server 2013 anmelden und eine Datenkonferenz durchführen können. Zur Ausführung dieser Aufgabe wird das Cmdlet **Test-csdataconference "** zusammen mit den folgenden Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); "Sendersipaddress" (die SIP-Adresse für den ersten Testbenutzer); SenderCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für diesen Benutzer enthält); "Receiversipaddress" (die SIP-Adresse für den anderen Testbenutzer); und ReceiverCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für den anderen Testbenutzer enthält).
 
@@ -118,7 +120,7 @@ nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
 Fehler bei hergestellter Verbindung, da der verbundene Host
 
-Fehler bei der \[Antwort 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
+Fehler bei der Antwort \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
@@ -128,7 +130,7 @@ Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
 Fehler beim Antworten
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Diagnose
 

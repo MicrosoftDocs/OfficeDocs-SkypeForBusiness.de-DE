@@ -12,20 +12,22 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80c58b532c36e74aecd4d7ecb758afee1e2c2bdd
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531412"
 ---
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Bereitstellen der Darstellung freigegebener Leitungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Bereitstellen der Darstellung freigegebener Leitungen in lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Die Darstellung freigegebener Leitungen (SLA) ist ein neues Feature in lync Serv
                 <BusyOnBusy|Voicemail|Forward> [-Target
                 <TargetUserOrPhoneNumber>]
     ```
-    Das Cmdlet "CsSlaConfiguration" kennzeichnet das SLAGroup1 des Enterprise-VoIP-Kontos als SLA-Entität, und die Anzahl der SLAGroup1 wird zur Nummer für die SLA-Gruppe. Alle Anrufe an SLAGroup1 rufen die gesamte SLA-Gruppe ab.
+    Das Set-CsSlaConfiguration-Cmdlet kennzeichnet das SLAGroup1 des Enterprise-VoIP-Kontos als SLA-Entität, und die Anzahl von SLAGroup1 wird zur Nummer für die SLA-Gruppe. Alle Anrufe an SLAGroup1 rufen die gesamte SLA-Gruppe ab.
     
     Im folgenden Beispiel wird eine SLA-Gruppe für einen vorhandenen Enterprise-VoIP-Benutzer SLAGroup1 erstellt und die für SLAGroup1 zugewiesene Nummer als SLA-Hauptnummer verwendet.
     
@@ -92,7 +94,7 @@ Die Darstellung freigegebener Leitungen (SLA) ist ein neues Feature in lync Serv
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    Mithilfe von "CsSlaConfiguration" können Sie eine neue SLA-Gruppe erstellen oder eine vorhandene ändern.
+    Sie können Set-CsSlaConfiguration verwenden, um eine neue SLA-Gruppe zu erstellen oder eine vorhandene zu ändern.
     
     <div>
     
@@ -126,7 +128,7 @@ Die Darstellung freigegebener Leitungen (SLA) ist ein neues Feature in lync Serv
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    Im folgenden Beispiel werden Aufrufe festgelegt, die die maximale Anzahl gleichzeitiger Anrufe überschreiten, die an die Telefonnummer 202-555-1234 weitergeleitet werden sollen. Bei dem Ziel kann es sich um einen Benutzer in Ihrer Organisation anstelle einer Telefonnummer handeln. in diesem Fall ist die Syntax für die Person, die weitergeleitete Anrufe erhalten soll, identisch mit der Angabe eines `sip:<NameofDelegate@domain>`Delegaten:. Der andere mögliche Parameter für `BusyOption` ist `Voicemail`:
+    Im folgenden Beispiel werden Aufrufe festgelegt, die die maximale Anzahl gleichzeitiger Anrufe überschreiten, die an die Telefonnummer 202-555-1234 weitergeleitet werden sollen. Bei dem Ziel kann es sich um einen Benutzer in Ihrer Organisation anstelle einer Telefonnummer handeln. in diesem Fall ist die Syntax für die Person, die weitergeleitete Anrufe erhalten soll, identisch mit der Angabe eines Delegaten: `sip:<NameofDelegate@domain>` . Der andere mögliche Parameter für `BusyOption` ist `Voicemail` :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -143,7 +145,7 @@ Die Darstellung freigegebener Leitungen (SLA) ist ein neues Feature in lync Serv
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    Im folgenden Beispiel wird angegeben, dass verpasste Anrufe an den Benutzer mit `sla_forward_number`dem Namen weitergeleitet werden sollen. Die gültigen Optionen für den `-MissedCallOption` Parameter sind `Forward`, `BusySignal`oder `Disconnect`. Wenn Sie sich `Forward`entscheiden, müssen Sie auch den `-MissedCallForwardTarget` Parameter mit einer Benutzer-oder Telefonnummer als Ziel einschließen:
+    Im folgenden Beispiel wird angegeben, dass verpasste Anrufe an den Benutzer mit dem Namen weitergeleitet werden sollen `sla_forward_number` . Die gültigen Optionen für den `-MissedCallOption` Parameter sind `Forward` , `BusySignal` oder `Disconnect` . Wenn Sie `Forward` sich entscheiden, müssen Sie auch den `-MissedCallForwardTarget` Parameter mit einer Benutzer-oder Telefonnummer als Ziel einschließen:
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
@@ -160,7 +162,7 @@ Die Darstellung freigegebener Leitungen (SLA) ist ein neues Feature in lync Serv
     Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    Beispiel:
+    Zum Beispiel:
     ```powershell
     Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate3@contoso.com

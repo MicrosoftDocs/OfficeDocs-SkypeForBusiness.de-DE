@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191688"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530872"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Anforderungen an das Hardware Gerät zum Lastenausgleich für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Anforderungen an das Hardware Gerät zum Lastenausgleich für lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Die lync Server 2013 skalierte konsolidierte Edge-Topologie ist für den DNS-Las
 
 </div>
 
-Informationen zum ermitteln, ob Ihr Hardwaregerät zum Lastenausgleich die für lync Server 2013 erforderlichen Features unterstützt, finden Sie unter " [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 Lastenausgleichs Partner" unter.
+Informationen zum ermitteln, ob Ihr Hardwaregerät zum Lastenausgleich die für lync Server 2013 erforderlichen Features unterstützt, finden Sie unter "lync Server 2010 Lastenausgleichs Partner" unter [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 <div>
 
@@ -143,7 +145,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 
 
 > [!WARNING]  
-> F5-Hardwaregeräte zum Lastenausgleich sind mit einem Feature namens OneConnect ausgestattet, mit dem sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt). Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit.<BR>Ausführliche Informationen zu Lastenausgleichsgeräten von Drittanbietern finden Sie unter<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5-Hardwaregeräte zum Lastenausgleich sind mit einem Feature namens OneConnect ausgestattet, mit dem sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt). Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit.<BR>Ausführliche Informationen zu Lastenausgleichsgeräten von Drittanbietern finden Sie unter <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +153,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 
 Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Director- und Front-End-Pool-Webdienste aufgeführt:
 
-  - Für interne Webdienste VIPs legen Sie die\_Quell-addr-Persistenz (interner Port 80, 443) auf dem Hardwaregerät zum Lastenausgleich fest. Für lync Server 2013 bedeutet die\_Quell-addr-Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungsstatus beizubehalten.
+  - Für interne Webdienste VIPs legen Sie die Quell- \_ addr-Persistenz (interner Port 80, 443) auf dem Hardwaregerät zum Lastenausgleich fest. Für lync Server 2013 \_ bedeutet die Quell-addr-Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungsstatus beizubehalten.
 
   - Legen Sie ein TCP-Leerlauftimeout von 1.800 Sekunden fest.
 
@@ -234,12 +236,12 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 <th>Knoten Port</th>
 <th>Knoten Computer/Monitor</th>
 <th>Persistenzprofil</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Pool&gt;-int_mco_443_vs</p>
+<td><p>&lt;Pool &gt; -int_mco_443_vs</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>Front-End-</p>
@@ -248,7 +250,7 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Pool&gt;-int_mco_80_vs</p>
+<td><p>&lt;Pool &gt; -int_mco_80_vs</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>Front-End-</p>
@@ -276,12 +278,12 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 <th>Knoten Port</th>
 <th>Knoten Computer/Monitor</th>
 <th>Persistenzprofil</th>
-<th>Hinweise</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Pool&gt;web_mco_443_vs</p>
+<td><p>&lt;Pool &gt; web_mco_443_vs</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>Front-End-</p>
@@ -290,7 +292,7 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Pool&gt;web_mco_80_vs</p>
+<td><p>&lt;Pool &gt; web_mco_80_vs</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>Front-End-</p>

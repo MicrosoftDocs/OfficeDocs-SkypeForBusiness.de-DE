@@ -12,20 +12,22 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345116ebdd353fccf85f05a4a3f3ffc82fab6de2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce1c97914abf8e5db393cd932c0a453885e86a5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530622"
 ---
+# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Übersicht über E9-1-1 in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Übersicht über E9-1-1 in lync Server 2013
+
 
 </div>
 
@@ -58,9 +60,9 @@ Wenn Sie ein Elin-Gateway verwenden, fügen Sie auch ERLs zur Standortinformatio
 > Mit lync verbundene analoge Geräte können keine Standortinformationen von der Standortinformationsdienst oder vom Sendestandort an den E9-1 -1-Dienstanbieter empfangen. Wenn Sie einen SIP-Trunk-E9-1-1-Dienstanbieter verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, stehen Ihnen zwei Optionen zur Verfügung: 
 > <UL>
 > <LI>
-> <P><STRONG>Traditionelle PS-Ali-Option</STRONG>&nbsp;&nbsp;&nbsp;Wenn Sie über lokale PSTN-Gateways an jedem Standort verfügen, auf dem analoge Telefone bereitgestellt werden und auf jedem analogen Telefon ein did vorhanden ist, können Sie den Standort des analogen Geräts direkt mit einem privaten Switch/automatischer Standort Identifizierungsdienst (PS-Ali) bereitstellen. In diesem Fall konfigurieren Sie speziell hierfür erstellte Lync-VoIP-Richtlinien und weisen diese den Kontaktobjekten der analogen Geräte zu, sodass E9-1-1-Anrufe von diesen Telefonen direkt über das lokale Gateway an den für den Standort verantwortlichen PSTN-Betreiber weitergeleitet werden (anstatt den Anruf an den SIP-Trunk eines E9-1-1-Dienstanbieters weiterzuleiten). Wird ein Notruf getätigt, ordnet eine dem PSTN-Trunk zugewiesene Datenbank beim PS-ALI-Anbieter die DID jedes analogen Telefons einem physischen Standort zu und stellt diesen Standort der Rettungsleitstelle zur Verfügung. Diese Datensätze müssen beim PS-ALI-Dienstanbieter immer dann aktualisiert werden, wenn Telefone zu anderen ERLs verlegt werden.</P>
+> <P><STRONG>Traditionelle PS-Ali-Option</STRONG> &nbsp; &nbsp; &nbsp; Wenn Sie über lokale PSTN-Gateways an jedem Standort verfügen, auf dem analoge Telefone bereitgestellt werden und auf jedem analogen Telefon eine DID-Nummer vorhanden ist, können Sie den Standort des analogen Geräts direkt mit einem privaten Switch/Automatic Location Identification (PS-Ali)-Dienstanbieter bereitstellen. In diesem Fall konfigurieren Sie speziell hierfür erstellte Lync-VoIP-Richtlinien und weisen diese den Kontaktobjekten der analogen Geräte zu, sodass E9-1-1-Anrufe von diesen Telefonen direkt über das lokale Gateway an den für den Standort verantwortlichen PSTN-Betreiber weitergeleitet werden (anstatt den Anruf an den SIP-Trunk eines E9-1-1-Dienstanbieters weiterzuleiten). Wird ein Notruf getätigt, ordnet eine dem PSTN-Trunk zugewiesene Datenbank beim PS-ALI-Anbieter die DID jedes analogen Telefons einem physischen Standort zu und stellt diesen Standort der Rettungsleitstelle zur Verfügung. Diese Datensätze müssen beim PS-ALI-Dienstanbieter immer dann aktualisiert werden, wenn Telefone zu anderen ERLs verlegt werden.</P>
 > <LI>
-> <P><STRONG>Dienstanbieter Option</STRONG>&nbsp;&nbsp;&nbsp;für E9-1-1 Sie können die analoge Telefon DIDs und die dazugehörigen ERLs mit dem E9-1 -1-Dienstanbieter registrieren, wenn dies vom E9-1-1-Dienstanbieter unterstützt wird. Wenn der Anbieter einen Anruf von lync Server erhält, der keine PIDF-Lo-Daten enthält, kann der Anbieter sehen, ob eine Daten Bank Übereinstimmung für die DID-Nummer des Anrufers vorliegt. Durch die Verwendung des von der Datenbank abgerufenen Erl kann der Anbieter den Notruf automatisch an die richtige Rettungsleitstelle weiterleiten, und der Rettungsleitstelle erhält das analoge Gerät und einen ESQK-Eintrag, mit dem der Dispatcher den Standort des Anrufers nachschlagen kann.</P></LI></UL>Wenn Sie ein ELIN-Gateway verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, können Sie dem PS-ALI-Dienstanbieter wie oben in der ersten Option beschrieben den Standort des analogen Geräts direkt zur Verfügung stellen.</div>
+> <P><STRONG>Dienstanbieter Option</STRONG> &nbsp; &nbsp; &nbsp; für E9-1-1 Wenn dies vom E9-1 -1-Dienstanbieter unterstützt wird, können Sie das analoge Telefon DIDs und die entsprechenden ERLs mit dem E9-1 -1-Dienstanbieter registrieren. Wenn der Anbieter einen Anruf von lync Server erhält, der keine PIDF-Lo-Daten enthält, kann der Anbieter sehen, ob eine Daten Bank Übereinstimmung für die DID-Nummer des Anrufers vorliegt. Durch die Verwendung des von der Datenbank abgerufenen Erl kann der Anbieter den Notruf automatisch an die richtige Rettungsleitstelle weiterleiten, und der Rettungsleitstelle erhält das analoge Gerät und einen ESQK-Eintrag, mit dem der Dispatcher den Standort des Anrufers nachschlagen kann.</P></LI></UL>Wenn Sie ein ELIN-Gateway verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, können Sie dem PS-ALI-Dienstanbieter wie oben in der ersten Option beschrieben den Standort des analogen Geräts direkt zur Verfügung stellen.</div>
 
 Aus lync Server Perspektive kann der E9-1-1-Prozess in zwei Phasen aufgeteilt werden:
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccef1e811d4ccd6b54350d6678a6b089eb4caafd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c7133ee4f1753d5178bd1ac41e3483dfe61a9e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193028"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530272"
 ---
+# <a name="user-accounts-enabled-for-lync-server-2013"></a>Für lync Server 2013 aktivierte Benutzerkonten
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-accounts-enabled-for-lync-server-2013"></a>Für lync Server 2013 aktivierte Benutzerkonten
+
 
 </div>
 
@@ -49,7 +51,7 @@ Die Themen in diesem Abschnitt bieten schrittweise Anleitungen zum Konfigurieren
 
 </div>
 
-Wenn Sie eine lync Server 2013 administrative Aufgabe ausführen, die die Suche nach einem Benutzer oder das Filtern von Benutzersuchergebnissen umfasst, gibt es einige Benutzereigenschaften, die als Attribute in Active Directory-Domänendienste vorhanden sind, aber nicht auf den globalen Katalog repliziert werden. bis Exchange Server bereitgestellt wurde. Microsoft Exchange, nicht lync Server, markiert bei der Installation die folgenden Attribute für die Replikation in den globalen Katalog:
+Wenn Sie eine lync Server 2013 administrative Aufgabe ausführen, die die Suche nach einem Benutzer oder das Filtern von Benutzersuchergebnissen umfasst, gibt es einige Benutzereigenschaften, die als Attribute in Active Directory-Domänendienste vorhanden sind, aber erst nach der Bereitstellung von Exchange Server in den globalen Katalog repliziert werden. Microsoft Exchange, nicht lync Server, markiert bei der Installation die folgenden Attribute für die Replikation in den globalen Katalog:
 
 
 <table>
@@ -71,9 +73,9 @@ Wenn Sie eine lync Server 2013 administrative Aufgabe ausführen, die die Suche 
 <td><p>Adresse</p>
 <p>Land/Region</p>
 <p>Pager</p>
-<p>Fax-</p>
-<p>Mobil</p></td>
-<td><p>Position</p>
+<p>Fax</p>
+<p>Mobile</p></td>
+<td><p>Titel</p>
 <p>Company</p>
 <p>Abteilung</p>
 <p>Büro</p></td>

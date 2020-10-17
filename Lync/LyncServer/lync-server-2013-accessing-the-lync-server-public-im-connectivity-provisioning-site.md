@@ -12,20 +12,22 @@ ms:contentKeyID: 57793364
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44692fd6267e23c98ecef1ca227cbde5289a44b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e57bac3460c8feb5b3417f433aa228825d824a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529752"
 ---
+# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a>Zugreifen auf die lync Server-Website für die Konnektivität von öffentlichen Instant Messaging-Diensten von lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a>Zugreifen auf die lync Server-Website für die Konnektivität von öffentlichen Instant Messaging-Diensten von lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42191288"
 
 _**Letztes Änderungsstand des Themas:** 2019-03-22_
 
-Der Bereitstellung-Prozess für lync-Skype-Konnektivität hat sich im Vergleich zu früheren PIC-Bereitstellung Methoden geändert. Dieser Bereitstellung Vorgang kann bis zu dreißig Tage dauern. Es wird empfohlen, dass Sie zuerst diesen Prozess starten, bevor Sie die restlichen Schritte in diesem Dokument abschließen. Nachdem der lync-Skype-Bereitstellung-Prozess für Ihr Konto abgeschlossen ist, wird das Konto aktiviert, und die berechtigten Benutzer sind für die Verbindung mit öffentlichen Chat Diensten aktiviert.
+Der Bereitstellung-Prozess für Lync-Skype Konnektivität wurde im Vergleich zu früheren PIC-Bereitstellung Methoden geändert. Dieser Bereitstellung Vorgang kann bis zu dreißig Tage dauern. Es wird empfohlen, dass Sie zuerst diesen Prozess starten, bevor Sie die restlichen Schritte in diesem Dokument abschließen. Nachdem der Lync-Skype Bereitstellung für Ihr Konto abgeschlossen wurde, wird das Konto aktiviert, und die berechtigten Benutzer sind für die Verbindung mit öffentlichen Chat Diensten aktiviert.
 
-### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a>Zur Bereitstellung von lync-Skype-Konnektivität benötigen Sie die folgenden Informationen:
+### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a>Um Lync-Skype Konnektivität anbieten zu können, benötigen Sie die folgenden Informationen:
 
 <table>
 <colgroup>
@@ -65,7 +67,7 @@ Sobald diese Änderung aktiv ist, können wir keine e-Mail-Updates mehr für aus
 > [!IMPORTANT]
 > Im Rahmen dieser Änderung werden alle zuvor eingegebenen Kontaktinformationen bis Ende April 2019 aus unserem System gelöscht.
 
-### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a>So initiieren Sie den Bereitstellung-Prozess für lync-Skype-Konnektivität:
+### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a>So initiieren Sie den Bereitstellung-Prozess für Lync-Skype Konnektivität:
 
 <table>
 <colgroup>
@@ -74,7 +76,7 @@ Sobald diese Änderung aktiv ist, können wir keine e-Mail-Updates mehr für aus
 <tbody>
 <tr class="odd">
 <td><ol>
-<li><p>Melden Sie sich mit Ihrer Microsoft <strong>https://pic.lync.com</strong>Windows Live ID bei der Website an.</p></li>
+<li><p>Melden Sie sich mit <strong>https://pic.lync.com</strong> Ihrer Microsoft Windows Live ID bei der Website an.</p></li>
 <li><p>Wählen Sie den Typ Microsoft-Lizenzvertrag aus.</p></li>
 <li><p>Aktivieren Sie das Kontrollkästchen, um sicherzustellen, dass Sie die Produktnutzungsrechte für lync Server gelesen und akzeptiert haben.</p></li>
 <li><p>Klicken Sie auf der Seite zum <strong>Initiieren einer proaktivierungs Anforderung</strong> auf den entsprechenden Link, um eine Anforderung für die Weiterleitung zu initiieren:</p></li>
@@ -107,9 +109,9 @@ Nachdem die Übermittlungsanforderung übermittelt wurde, kann es bis zu 30 Tage
 
 ## <a name="enabling-federation-and-public-im-connectivity-pic"></a>Aktivieren von Verbund-und Public Chat-Konnektivität (PIC)
 
-Nachdem Sie die Bereitstellung angefordert haben, können Sie sich auf die lync Server Umgebung und die administrativen Aufgaben konzentrieren, die zum Konfigurieren der lync-Skype-Konnektivität erforderlich sind. In diesem Abschnitt wird davon ausgegangen, dass der lync Server Administrator lync Server bereitgestellt und den externen Zugriff konfiguriert hat. Weitere Informationen zum Konfigurieren des externen Zugriffs für lync Server finden Sie unter "Planen des Zugriffs durch externe Benutzer [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) " unter und "Bereitstellen des Zugriffs [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378)auf externe Benutzer" unter.
+Nachdem Sie die Bereitstellung angefordert haben, können Sie sich auf die lync Server Umgebung und die administrativen Aufgaben konzentrieren, die zum Konfigurieren Lync-Skype Konnektivität erforderlich sind. In diesem Abschnitt wird davon ausgegangen, dass der lync Server Administrator lync Server bereitgestellt und den externen Zugriff konfiguriert hat. Weitere Informationen zum Konfigurieren des externen Zugriffs für lync Server finden Sie unter "Planen des Zugriffs durch externe Benutzer" unter [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) und "Bereitstellen des Zugriffs auf externe Benutzer" unter [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378) .
 
-Um die lync Server Umgebung für die lync-Skype-Konnektivität vorzubereiten, muss der lync Server-Administrator die folgenden drei Aufgaben ausführen:
+Um die lync Server Umgebung für Lync-Skype Konnektivität vorzubereiten, muss der lync Server Administrator die folgenden drei Aufgaben ausführen:
 
 <div>
 
@@ -147,7 +149,7 @@ Mit dem lync Server-Verwaltungsshell muss ein Administrator die lync-Clientricht
 
 
 > [!NOTE]
-> Benutzer von PIC-Dienstanbietern (Public Instant Messaging Connectivity) können nicht an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, bis Sie auch mindestens eine Richtlinie (Schritt 2, weiter oben in diesem Verfahren) für die Unterstützung von Verbindungen mit öffentlichen Chat Diensten konfiguriert haben.<BR>Informationen zum Konfigurieren von Partnerverbund und PIC finden Sie unter "aktivieren oder Deaktivieren von <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>Verbund-und öffentlichen Chat Verbindungen" unter.<BR>Informationen zum Konfigurieren von mindestens einer Richtlinie zur Unterstützung des Zugriffs durch Verbundbenutzer finden Sie unter "configure Policies <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>to Control Public User Access" unter.
+> Benutzer von PIC-Dienstanbietern (Public Instant Messaging Connectivity) können nicht an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, bis Sie auch mindestens eine Richtlinie (Schritt 2, weiter oben in diesem Verfahren) für die Unterstützung von Verbindungen mit öffentlichen Chat Diensten konfiguriert haben.<BR>Informationen zum Konfigurieren von Partnerverbund und PIC finden Sie unter "aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A> .<BR>Informationen zum Konfigurieren von mindestens einer Richtlinie zur Unterstützung des Zugriffs durch Verbundbenutzer finden Sie unter "configure Policies to Control Public User Access" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A> .
 
 
 
@@ -174,16 +176,16 @@ Mit dem lync Server-Verwaltungsshell muss ein Administrator die lync-Clientricht
         
 
         > [!NOTE]
-        > In lync Server 2013 CU5 &amp; lync-Desktop-Client in Office 2013 SP1 hinzugefügt, verbessern NameDecorationRoutingDomain und NameDecorationExcludedDomainList die Situation, in der lync-Benutzer Skype-Kontakte hinzufügen, um nicht-Microsoft-Domänen zu "dekorieren", um diese zu identifizieren und an Skype weiterzuleiten (das Format: User (contoso. com) @MSN. com). Durch diese neuen Einstellungen wird die automatische Formatierung der Adresse eingegeben, die der Benutzer im Dialogfeld "Skype-Kontakt hinzufügen" mit dem NameDecorationRoutingDomain (der auf MSN.com festgelegt werden sollte) eingeben kann, wenn er die Domänen in der NameDecorationExcludedDomainList nicht enthält ( Wir können derzeit MSN.com, Live.com, hotmail.com, Outlook.com) unterstützen.
+        > In lync Server 2013 CU5 &amp; lync-Desktop-Client in Office 2013 SP1 hinzugefügt, verbessern NameDecorationRoutingDomain und NameDecorationExcludedDomainList die Situation, in der lync-Benutzer Skype-Kontakte hinzufügen, um nicht-Microsoft-Domänen zu "dekorieren", um diese zu identifizieren und an Skype weiterzuleiten (das Format: User (contoso. com) @MSN. com). Diese neuen Einstellungen ermöglichen die automatische Formatierung der Adresse des Benutzers eingeben im Dialogfeld "Skype-Kontakt hinzufügen" mit dem NameDecorationRoutingDomain (die auf MSN.com festgelegt werden sollte), wenn Sie nicht die Domänen im NameDecorationExcludedDomainList enthält (wir können derzeit MSN.com, Live.com, hotmail.com, Outlook.com) unterstützen.
 
         
         </div>
 
-3.  Von einem lync-Client aus können Sie nun Skype als PIC-Anbieter auswählen und einen Skype-Client hinzufügen, indem Sie Ihr Microsoft-Konto angeben. Darüber hinaus kann ein Skype-Benutzer, der sich mit seinem Microsoft-Konto zusammengeführt und angemeldet hat, Kontaktanfragen an lync-Benutzer senden. Weitere Informationen zu Microsoft-Konten finden Sie unter [Was ist ein Microsoft-Konto?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account). Weitere Informationen zum Hinzufügen von Clients zu lync finden Sie unter [using lync-Skype Connectivity in lync Server 2013 as a End User](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).
+3.  Von einem lync-Client aus können Sie nun Skype als PIC-Anbieter auswählen und einen Skype-Client hinzufügen, indem Sie Ihr Microsoft-Konto angeben. Darüber hinaus kann ein Skype-Benutzer, der sich mit seinem Microsoft-Konto zusammengeführt und angemeldet hat, Kontaktanfragen an lync-Benutzer senden. Weitere Informationen zu Microsoft-Konten finden Sie unter [Was ist ein Microsoft-Konto?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account). Weitere Informationen zum Hinzufügen von Clients zu lync finden Sie unter [using Lync-Skype Connectivity in lync Server 2013 as a End User](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).
 
-4.  Ausführliche Informationen zum Ändern gehosteter Anbieter finden Sie unter "erstellen oder Bearbeiten von gehosteten SIP- [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)Verbund Anbietern" unter.
+4.  Ausführliche Informationen zum Ändern gehosteter Anbieter finden Sie unter "erstellen oder Bearbeiten von gehosteten SIP-Verbund Anbietern" unter [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065) .
 
-Dadurch werden die administrativen Aufgaben abgeschlossen, die auf dem Server ausgeführt werden müssen. Sie sind jetzt für die lync-Skype-Konnektivität eingerichtet.
+Dadurch werden die administrativen Aufgaben abgeschlossen, die auf dem Server ausgeführt werden müssen. Sie sind nun für Lync-Skype Konnektivität eingerichtet.
 
 </div>
 
@@ -193,9 +195,9 @@ Dadurch werden die administrativen Aufgaben abgeschlossen, die auf dem Server au
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
-[Verwenden von lync-Skype-Konnektivität in lync Server 2013 als Endbenutzer](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+[Verwenden Lync-Skype Konnektivität in lync Server 2013 als Endbenutzer](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
 
-[Leitfaden zur Anleitung für lync-Skype-Konnektivität in lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+[Leitfaden zur Anleitung zur Lync-Skype Konnektivität in lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
 </div>
 

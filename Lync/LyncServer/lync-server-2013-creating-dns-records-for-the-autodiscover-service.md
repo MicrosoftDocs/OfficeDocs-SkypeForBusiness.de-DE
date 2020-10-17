@@ -12,20 +12,22 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 921db63f02be50866e6d26cb33007ac8ddbb32eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 928de572305cdbe19f5222f34e6616a8022e37b3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531542"
 ---
+# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Erstellen von DNS-Einträgen für den AutoErmittlungsdienst in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Erstellen von DNS-Einträgen für den AutoErmittlungsdienst in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Bei den von Ihnen erstellten DNS-Einträgen kann es sich entweder um einen (Host
 
 4.  Prüfen Sie, ob ein Host-a-Eintrag (AAAA für IPv6) für Ihren Directorpool für einen internen DNS-Eintrag vorhanden ist, sollte ein Host-a-Eintrag für den internen Webdienste vollqualifizierten Domänennamen (FQDN) für Ihre Directorpool vorhanden sein (beispielsweise lyncwebdir01. contoso. local). Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keinen Directorpool, und Sie müssen den FQDN für Ihren Front-End-Pool oder sogar einen einzelnen Server-FQDN verwenden, falls dies Ihr Setup ist.
 
-5.  Achten Sie darauf, dass ein Host-a-Eintrag (AAAA für IPv6) für die Front-End-Pool eines internen DNS-Eintrags vorhanden ist, dass ein Host-a-Eintrag (oder AAAA) für den internen Webdienste FQDN für Ihre Front-End-Pool vorhanden sein muss (beispielsweise , lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie den FQDN für den Front-End-Server oder Standard Edition-Server notieren.
+5.  Beachten Sie, dass Sie überprüfen und sehen können, ob ein Host-a-Eintrag (AAAA für IPv6) für die Front-End-Pool eines internen DNS-Eintrags vorhanden ist, dass ein Host-a-Eintrag (oder AAAA) für den internen Webdienste-FQDN für Ihre Front-End-Pool vorhanden sein muss (beispielsweise lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie den FQDN für den Front-End-Server oder Standard Edition-Server notieren.
 
 6.  Wenn Sie wissen, welche Host-a-(oder AAAA)-Einträge vorhanden sind, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com).
 
@@ -83,7 +85,7 @@ Bei den von Ihnen erstellten DNS-Einträgen kann es sich entweder um einen (Host
 
 3.  Sie sollten bereits eine SIP-Domäne für diese Umgebung erstellt haben. Erweitern Sie die **Forward-Lookupzone** für diese SIP-Domäne, oder wählen Sie Sie auf andere Weise je nach verwendeter externer DNS-Schnittstelle aus.
 
-4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihre Directorpool (beispielsweise lyncwebexdir01.contoso.com) sehen, also bestätigen Sie, dass dieser vorhanden ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool. Wenn dies der Fall ist, müssen Sie den FQDN des Front-End-Pools verwenden, oder wenn Sie dies für einen einzelnen Server, für den Front-End-Server oder Standard Edition-Server tun.
+4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihre Directorpool (beispielsweise lyncwebexdir01.contoso.com) sehen, also bestätigen Sie, dass dieser vorhanden ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool. Wenn dies der Fall ist, müssen Sie den FQDN des Front-End-Pools verwenden, oder wenn Sie dies für einen einzelnen Server, für Ihren Front-End Server oder Standard Edition-Server tun.
 
 5.  Sie müssen außerdem sicherstellen, dass ein Host-a-Eintrag (AAAA für IPv6) für Ihren externen Webdienste vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für Ihre Front-End-Pool (beispielsweise lyncwebextpool01.contoso.com) oder ein FQDN für Ihren Einzelserver-FQDN vorhanden ist, wenn Sie über keine Front-End-Pool verfügen. Wie im vorherigen Schritt erwähnt, benötigen Sie diese weiter unten, wenn Sie keine Directorpool haben.
 
@@ -109,7 +111,7 @@ Bei den von Ihnen erstellten DNS-Einträgen kann es sich entweder um einen (Host
 
 4.  Prüfen Sie, ob ein Host-a-Eintrag (AAAA für IPv6) für Ihren Directorpool für einen internen DNS-Eintrag vorhanden ist, sollte ein Host-a-Eintrag für den internen Webdienste vollqualifizierten Domänennamen (FQDN) für Ihre Directorpool vorhanden sein (beispielsweise lyncwebdir01. contoso. local). Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool, und Sie müssen die IP-Adresse für Ihre Front-End-Pool oder sogar eine IP-Adresse für einen einzelnen Server verwenden, falls dies Ihr Setup ist.
 
-5.  Achten Sie darauf, dass ein Host-a-Eintrag (AAAA für IPv6) für die Front-End-Pool eines internen DNS-Eintrags vorhanden ist, dass ein Host-a-Eintrag (oder AAAA) für den internen Webdienste FQDN für Ihre Front-End-Pool vorhanden sein muss (beispielsweise , lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie die IP-Adresse für die Front-End-Server oder Standard Edition-Server notieren.
+5.  Beachten Sie, dass Sie überprüfen und sehen können, ob ein Host-a-Eintrag (AAAA für IPv6) für die Front-End-Pool eines internen DNS-Eintrags vorhanden ist, dass ein Host-a-Eintrag (oder AAAA) für den internen Webdienste-FQDN für Ihre Front-End-Pool vorhanden sein muss (beispielsweise lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie die IP-Adresse für die Front-End-Server oder Standard Edition-Server notieren.
 
 6.  Wenn Sie wissen, welche Host-a-(oder AAAA)-Einträge vorhanden sind, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com).
 
@@ -137,9 +139,9 @@ Bei den von Ihnen erstellten DNS-Einträgen kann es sich entweder um einen (Host
 
 3.  Wenn Sie einen externen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die SIP-Domäne (z. B. "contoso.com"). Wenn Sie einen externen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die SIP-Domäne (z. B. "contoso.com").
 
-4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihre Directorpool (beispielsweise lyncwebexdir01.contoso.com) sehen, also bestätigen Sie, dass er vorhanden ist und was die IP-Adresse ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool. Wenn dies der Fall ist, müssen Sie die IP-Adresse des Front-End-Pools verwenden, oder wenn Sie dies für einen einzelnen Server, für den Front-End-Server oder Standard Edition-Server tun. Beachten Sie, dass sich Ihre Server möglicherweise auch hinter einem Lastenausgleichsmodul oder einem Reverseproxy befinden. Notieren Sie sich die IP-Adressen, und führen Sie die folgenden Schritte aus.
+4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihre Directorpool (beispielsweise lyncwebexdir01.contoso.com) sehen, also bestätigen Sie, dass er vorhanden ist und was die IP-Adresse ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool. Wenn dies der Fall ist, müssen Sie die IP-Adresse des Front-End-Pools verwenden oder wenn Sie dies für einen einzelnen Server, für Ihren Front-End Server oder Standard Edition-Server tun. Beachten Sie, dass sich Ihre Server möglicherweise auch hinter einem Lastenausgleichsmodul oder einem Reverseproxy befinden. Notieren Sie sich die IP-Adressen, und führen Sie die folgenden Schritte aus.
 
-5.  Sie müssen außerdem sicherstellen, dass ein Host-a-Eintrag (AAAA für IPv6) für Ihren externen Webdienste vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für Ihre Front-End-Pool (beispielsweise lyncwebextpool01.contoso.com) oder eine IP-Adresse für die Einzelserver-lync-Installation vorhanden ist, wenn Sie keine Front-End-Pool. Wie im vorherigen Schritt erwähnt, benötigen Sie diese weiter unten, wenn Sie keine Directorpool haben.
+5.  Sie müssen außerdem sicherstellen, dass ein Host-a-Eintrag (AAAA für IPv6) für Ihren externen Webdienste vollqualifizierten Domänennamen (FQDN) für Ihre Front-End-Pool (beispielsweise lyncwebextpool01.contoso.com) oder eine IP-Adresse für die Einzelserver-lync-Installation vorhanden ist, wenn Sie keine Front-End-Pool haben. Wie im vorherigen Schritt erwähnt, benötigen Sie diese weiter unten, wenn Sie keine Directorpool haben.
 
 6.  Wählen Sie nun im entsprechenden Format für Ihren externen DNS-Anbieter die Option zum Erstellen eines **neuen Hosts a oder AAAA** (Dies kann eine Menüoption oder ein Link sein, je nach Format des DNS-Anbieters).
 

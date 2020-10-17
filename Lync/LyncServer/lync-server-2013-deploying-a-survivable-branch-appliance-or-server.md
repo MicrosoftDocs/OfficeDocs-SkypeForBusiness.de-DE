@@ -12,20 +12,22 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63e3379e2c703df1d4ce66eda0942befb1569c7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 258f53cf16287b29c739c5a232376fa629b401f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197398"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531352"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2014-12-10_
 
 Belastbare Enterprise-VoIP bezieht sich auf die Ausfallsicherheit von Zweigstellenstandorten, also auf die Möglichkeit, den Zweigstellenbenutzern kontinuierliche Enterprise-VoIP-Dienste bereitzustellen, falls der Link zum zentralen Standort nicht mehr verfügbar ist.
 
-Für kleine und mittelgroße Zweigstellenstandorte (Zweigstellen mit 25 bis 1.000 Benutzern) wird die Bereitstellungeines Survivable Branch Appliance empfohlen, mit dem das Telefon Festnetz (Public Switched Telephone Network, PSTN) mithilfe des integrierten PSTN-Gateways oder eines SIP-Trunks an ein Telefon beendet wird. Dienstanbieter. Ein Survivable Branch Appliance ist ein Gerät eines Drittanbieters, das einen Blade-Server mit dem Windows Server 2008 R2-Betriebssystem, lync Server 2013 Registrierungsstelle, Vermittlungsserver Software und einem PSTN-Gateway in einem einzigen Gerätegehäuse enthält.
+Für kleine und mittlere Zweigstellenstandorte (Zweigstellen mit 25 bis 1.000 Benutzern) wird die Bereitstellungeines Survivable Branch Appliance empfohlen, mit dem das Telefon Festnetz (Public Switched Telephone Network, PSTN) mithilfe des integrierten PSTN-Gateways oder eines SIP-Trunks an einen Telefonanbieter beendet wird. Ein Survivable Branch Appliance ist ein Gerät eines Drittanbieters, das einen Blade-Server mit dem Windows Server 2008 R2-Betriebssystem, lync Server 2013 Registrierungsstelle, Vermittlungsserver Software und einem PSTN-Gateway in einem einzigen Gerätegehäuse enthält.
 
 Für Zweigstellen mit 1.000 bis 5.000-Benutzern und ohne ausfallsicheres WAN empfehlen wir eine Survivable Branch Server, die mit einem PSTN-Gateway oder einem SIP-Trunk an einen Telefonanbieter verbunden ist. Ein Survivable Branch Server ist ein Windows Server-basierter Computer, auf dem die Registrierungsstellen-und Vermittlungsserver Software installiert ist.
 

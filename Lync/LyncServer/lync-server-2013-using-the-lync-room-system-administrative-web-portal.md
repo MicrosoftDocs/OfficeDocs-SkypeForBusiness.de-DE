@@ -12,20 +12,22 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d950bd62b2db91f60dd5828f79977472a9c5d573
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 677fdd070994c8cc1f63f775ffb2569642768f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212671"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529942"
 ---
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Verwenden des Administrator-Webportals von lync Room System in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Verwenden des Administrator-Webportals von lync Room System in lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Nachdem Sie LRS auf dem Server bereitgestellt haben, können Sie den Status alle
 
 1.  Wechseln Sie zur folgenden URL:
     
-    https://\<FE-Server\>/LRS
+    https:// \<fe-server\> /LRS
 
 2.  Geben Sie die Anmeldeinformationen für das LRSSupport-Konto oder ein Konto ein, das der Sicherheitsgruppe LRSSupportAdminGroup hinzugefügt wurde.
 
@@ -59,15 +61,15 @@ Nachdem Sie LRS auf dem Server bereitgestellt haben, können Sie den Status alle
 
 Die Zusammenfassungsseite enthält die folgenden Informationen zu allen auf dem Server bereitgestellten LRS-Räumen:
 
-  - **Markieren**   Sie den benutzerdefinierten Namen, den der Administrator dem Chatroom übergibt. Das-Tag kann im Portal festgelegt werden, indem auf den Raumnamen geklickt wird.
+  - - **Tag**     Der benutzerdefinierte Name, den der Administrator dem Chatroom übergibt. Das-Tag kann im Portal festgelegt werden, indem auf den Raumnamen geklickt wird.
 
-  - **Integrität**   der Integritätsstatus des Raums, der vom aggregierten Integritätsstatus des Raums abgeleitet wird, der auf der Seite "Raumeinstellungen" im Abschnitt "Integrität" angezeigt wird.
+  - **Integrität**     Der Integritätsstatus des Raums, der vom aggregierten Integritätsstatus des Raums abgeleitet wird, der auf der Seite "Raumeinstellungen" im Abschnitt "Integrität" angezeigt wird.
 
-  - **Nächste Besprechung**   das Datum und die Uhrzeit, zu denen die nächste Besprechung geplant ist.
+  - **Nächste Besprechung**     Das Datum und die Uhrzeit, zu denen die nächste Besprechung geplant ist.
 
-  - **LRS-Version, Hersteller, Modell**   diese Werte werden in LRS voreingestellt. Je nach Hersteller können diese Felder leer bleiben.
+  - **LRS-Version, Hersteller, Modell**     Diese Werte sind in LRS voreingestellt. Je nach Hersteller können diese Felder leer bleiben.
 
-  - **Bei der letzten Aktualisierung**   wird angezeigt, wann die Webseite zuletzt aktualisiert wurde.
+  - **Letzte Aktualisierung**     Zeigt an, wann die Webseite zuletzt aktualisiert wurde.
 
 ![Zusammenfassung der lync Room System-Administrator Portal-Ansicht](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Zusammenfassung der lync Room System-Administrator Portal-Ansicht")
 
@@ -151,7 +153,7 @@ Der Abschnitt "Integrität" gibt einen visuellen Hinweis auf die Integrität der
 
 ## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Warum kann ich mich nicht beim administrativen Webportal anmelden?
 
-  - Wenn Sie öffnen https://localhost/lrs, werden Sie die Anmeldeseite sehen können, aber wenn Sie Ihre Anmeldeinformationen eingeben, können Sie sich nicht anmelden. In diesem Fall müssen Sie sich öffnen https://FQDNofFEserver/lrs , um sich beim administrativen Webportal anzumelden.
+  - Wenn Sie öffnen https://localhost/lrs , werden Sie die Anmeldeseite sehen können, aber wenn Sie Ihre Anmeldeinformationen eingeben, können Sie sich nicht anmelden. In diesem Fall müssen Sie sich öffnen, um https://FQDNofFEserver/lrs sich beim administrativen Webportal anzumelden.
 
   - Wenn sich der Computer, auf dem Sie das administrative Webportal aufrufen, in einer Arbeitsgruppe befindet, funktioniert "http://" nicht. Verwenden Sie stattdessen "https".
 
@@ -173,7 +175,7 @@ Der Abschnitt "Integrität" gibt einen visuellen Hinweis auf die Integrität der
 
   - Stellen Sie sicher, dass das LRSApp-Benutzerkonto SIP-aktiviert ist.
 
-  - Wenn Sie weiterhin Probleme haben, sammeln Sie die **Trace. log** -Datei im LRS-System von D\\:\\Tracing\\LRSAdminLogs, und senden Sie Sie dann an Ihren LRS-Support Kontakt.
+  - Wenn Sie weiterhin Probleme haben, sammeln Sie die **Trace. log** -Datei im LRS-System von D: \\ Tracing \\ LRSAdminLogs \\ , und senden Sie Sie dann an Ihren LRS-Support Kontakt.
 
 </div>
 

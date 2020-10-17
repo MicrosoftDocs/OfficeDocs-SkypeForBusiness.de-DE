@@ -12,20 +12,22 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd8cc2b12032e1283c10e26d4a9fa879621233f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 847aeda66657b2bd665964d6fec3276dc22807ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209166"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531512"
 ---
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Definieren und Konfigurieren eines Front-End-Pool oder Standard Edition-Server in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Definieren und Konfigurieren eines Front-End-Pool oder Standard Edition-Server in lync Server 2013
+
 
 </div>
 
@@ -68,11 +70,11 @@ Wenn Sie einen Enterprise-Server bereitstellen, muss immer eine Mindestanzahl vo
 </tr>
 <tr class="even">
 <td><p>7-8</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>9-10</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>11-12</p></td>
@@ -119,7 +121,7 @@ Nachdem Sie Ihre Topologie definiert haben, verwenden Sie das folgende Verfahren
 
 4.  Aktivieren Sie auf der Seite **Features auswählen** die Kontrollkästchen für die Features, die in diesem Front-End-Pool werden sollen. Wenn Sie beispielsweise nur Instant Messaging-und Anwesenheitsfunktionen bereitstellen, aktivieren Sie das Kontrollkästchen **Konferenzen** , um mehrteiligen Chat zu ermöglichen, aber nicht die Kontrollkästchen **Einwahlkonferenzen**, **Enterprise-VoIP**oder **Anrufsteuerung** auswählen, da Sie die Features für VoIP, Video und gemeinschaftliche Konferenzen darstellen.
     
-      - **Konferenzen**   diese Auswahl ermöglicht eine umfassende Palette von Features, einschließlich:
+      - **Konferenzen**     Diese Auswahl ermöglicht eine umfangreiche Palette von Features, einschließlich:
         
           - Sofortnachrichten mit mehr als zwei Teilnehmern in einer Sofortnachrichtenfunktionsitzung
         
@@ -127,15 +129,15 @@ Nachdem Sie Ihre Topologie definiert haben, verwenden Sie das folgende Verfahren
         
           - A/v-Konferenzen, die es Benutzern ermöglichen, Echtzeit-Audio/Video-Konferenzen (a/v) zu haben, ohne externe Dienste wie den Live Meeting-Dienst oder eine Audio-Bridge eines Drittanbieters zu benötigen.
     
-      - **Einwahlkonferenzen**   (PSTN) ermöglichen Benutzern die Teilnahme am Audioteil einer lync Server 2013 Konferenz über ein Telefon Festnetz (Public Switched Telephone Network, PSTN), ohne dass ein Anbieter für Audiokonferenzen erforderlich ist.
+      - **Einwahlkonferenzen**     (PSTN) Ermöglicht Benutzern die Teilnahme am Audioteil einer lync Server 2013 Konferenz mithilfe eines PSTN-Telefons (Public Switched Telephone Network), ohne dass ein Anbieter für Audiokonferenzen erforderlich ist.
     
-      - **Enterprise Voice**   Enterprise-VoIP ist die VoIP-Lösung (Voice over IP) in lync Server 2013, mit der Benutzer Telefonanrufe tätigen und empfangen können. Sie möchten dieses Feature bereitstellen, wenn Sie lync Server 2013 für Sprachanrufe, Voicemail und andere Funktionen verwenden möchten, die ein Hardwaregerät oder einen Software Client verwenden.
+      - **Enterprise-VoIP**     Enterprise-VoIP ist die VoIP-Lösung (Voice over IP) in lync Server 2013, mit der Benutzer Telefonanrufe tätigen und empfangen können. Sie möchten dieses Feature bereitstellen, wenn Sie lync Server 2013 für Sprachanrufe, Voicemail und andere Funktionen verwenden möchten, die ein Hardwaregerät oder einen Software Client verwenden.
     
-      - **Anrufsteuerung (Call Admission Control, CAC)**   ermittelt basierend auf der verfügbaren Netzwerkbandbreite, ob Echt Zeit Kommunikationssitzungen wie Sprach-oder Videoanrufe eingerichtet werden dürfen. Wenn Sie lediglich Sofortnachrichten- und Anwesenheitsfunktionen bereitgestellt haben, wird die Anrufsteuerung nicht benötigt, da diese Funktionen die Anrufsteuerung nicht nutzen.
+      - **Anrufsteuerung (Call Admission Control, CAC)**     Bei der Anrufsteuerung wird basierend auf der verfügbaren Netzwerkbandbreite festgelegt, ob Echt Zeit Kommunikationssitzungen wie Sprach-oder Videoanrufe eingerichtet werden dürfen. Wenn Sie lediglich Sofortnachrichten- und Anwesenheitsfunktionen bereitgestellt haben, wird die Anrufsteuerung nicht benötigt, da diese Funktionen die Anrufsteuerung nicht nutzen.
     
-      - **Archivierungs**   Archivierung bietet Ihnen die Möglichkeit, Chatinhalte, Konferenzen (Besprechungsinhalte) oder beides zu archivieren, die über lync Server 2013 gesendet werden.
+      - **Archivierung**     Die Archivierung bietet Ihnen die Möglichkeit, Chatinhalte, Konferenzinhalte (Besprechungen) oder beides zu archivieren, die über lync Server 2013 gesendet werden.
     
-      - **Mit Monitoring**   Monitoring Server können Sie numerische Daten erfassen, die die Medienqualität in Ihrem Netzwerk und Endpunkten, Nutzungsinformationen im Zusammenhang mit VoIP-Anrufen, Chatnachrichten, A/V-Unterhaltungen, Besprechungen, Anwendungsfreigabe und Dateiübertragungen sowie Anruf Fehler-und Problembehandlungsinformationen für fehlgeschlagene Anrufe beschreiben.
+      - **Überwachung**     Mit Monitoring Server können Sie numerische Daten erfassen, die die Medienqualität in Ihrem Netzwerk und Endpunkten, Nutzungsinformationen im Zusammenhang mit VoIP-Anrufen, Chatnachrichten, A/V-Unterhaltungen, Besprechungen, Anwendungsfreigabe und Dateiübertragungen sowie Anruf Fehler-und Problembehandlungsinformationen für fehlgeschlagene Anrufe beschreiben.
     
     <div>
     
@@ -218,7 +220,7 @@ Nachdem Sie Ihre Topologie definiert haben, verwenden Sie das folgende Verfahren
 
 6.  Auf der Seite **Serverrollen mit dieser Front-End-Pool zuordnen** können Sie Serverrollen mit dem Front-End-Pool definieren und zuordnen. Die folgende Rolle ist verfügbar:
     
-    **Aktivieren eines Edgepool**   definiert und ordnet einem einzelnen Edgeserver oder einem Pool von Edgeserver zu. Eine Edgeserver erleichtert die Kommunikation und Zusammenarbeit zwischen Benutzern innerhalb der Organisation und Personen außerhalb der Organisation, einschließlich Verbundbenutzern.
+    **Aktivieren eines Edgepool**     Definiert und ordnet einem einzelnen Edgeserver oder einem Pool von Edgeserver zu. Eine Edgeserver erleichtert die Kommunikation und Zusammenarbeit zwischen Benutzern innerhalb der Organisation und Personen außerhalb der Organisation, einschließlich Verbundbenutzern.
     
     Für die Bereitstellung und Zuordnung der Serverrollen sind zwei Szenarien möglich:
     
@@ -265,7 +267,7 @@ Nachdem Sie Ihre Topologie definiert haben, verwenden Sie das folgende Verfahren
     
 
     > [!IMPORTANT]
-    > Die Basis-URL ist die Webdienstidentität der URL ohne https://. Wenn beispielsweise die vollständige URL für die Webdienste des Pools ist https://pool01.contoso.net, lautet die Basis-URL pool01.contoso.net.
+    > Die Basis-URL ist die Webdienstidentität der URL ohne https://. Wenn beispielsweise die vollständige URL für die Webdienste des Pools ist https://pool01.contoso.net , lautet die Basis-URL pool01.contoso.net.
 
     
     </div>
@@ -279,7 +281,7 @@ Nachdem Sie Ihre Topologie definiert haben, verwenden Sie das folgende Verfahren
     
     </div>
     
-    1.  Wenn Sie den DNS-Lastenausgleich konfigurieren, aktivieren Sie das Kontrollkästchen **internen Webdienste Pool-FQDN außer Kraft setzen** , geben Sie die interne Basis-URL ein (die sich vom FQDN des Pools unterscheiden muss\<und möglicherweise Internal-ihre Basis-URL\>) in der **internen Basis-URL**.
+    1.  Wenn Sie den DNS-Lastenausgleich konfigurieren, aktivieren Sie das Kontrollkästchen **internen Webdienste Pool-FQDN außer Kraft setzen** , geben Sie die interne Basis-URL (die sich vom Pool-FQDN unterscheiden muss und beispielsweise Internal sein kann \<your base URL\> ) in die **interne Basis-URL**ein.
         
         <div>
         

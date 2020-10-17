@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530942"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Failover des Servers für beständigen Chat in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Failover des Servers für beständigen Chat in lync Server 2013
+
 
 </div>
 
@@ -69,15 +71,15 @@ Bei der beständigen Chat-Kompatibilitätsdatenbank (mgccomp) ist kein Failover 
 
 2.  Kopieren Sie alle nicht kopierten Sicherungsdateien von der Sicherungsfreigabe in den Kopierzielordner des Sicherungsservers.
 
-3.  Wenden Sie alle nicht angewendeten Sicherungen des Transaktionsprotokolls nacheinander auf die sekundäre Datenbank an. Ausführliche Informationen finden Sie unter "Vorgehensweise: Anwenden einer Transaktionsprotokollsicherung (Transact-SQL https://go.microsoft.com/fwlink/p/?linkid=247428)" unter.
+3.  Wenden Sie alle nicht angewendeten Sicherungen des Transaktionsprotokolls nacheinander auf die sekundäre Datenbank an. Ausführliche Informationen finden Sie unter "Vorgehensweise: Anwenden einer Transaktionsprotokollsicherung (Transact-SQL)" unter https://go.microsoft.com/fwlink/p/?linkid=247428 .
 
 4.  Stellen Sie die mgc-Sicherungsdatenbank online bereit. Führen Sie im Abfragefenster, das in Schritt 1b oben geöffnet wird, folgende Aufgaben aus:
     
     1.  Beenden Sie alle Verbindungen mit der mgc-Datenbank, falls vorhanden:
         
-        1.  **exec SP\_who2** , um Verbindungen zur MGC-Datenbank zu identifizieren.
+        1.  **exec SP \_ who2** , um Verbindungen zur MGC-Datenbank zu identifizieren.
         
-        2.  **Kill \<SPID\> ** , um diese Verbindungen zu beenden.
+        2.  **Kill \<spid\> ** , um diese Verbindungen zu beenden.
     
     2.  Stellen Sie die Datenbank online bereit:
         

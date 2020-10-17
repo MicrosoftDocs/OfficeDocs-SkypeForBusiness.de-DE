@@ -12,20 +12,22 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a5aa8e93bed162219da1ad522483d61b003a603
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 276cc87d6ec943332fc30dc21c0906a03703382d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212681"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529952"
 ---
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Verwenden des zentralisierten Protokollierungsdiensts in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Verwenden des zentralisierten Protokollierungsdiensts in lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Der zentralisierte Protokollierungsdienst ist ein neues Feature in lync Server 2
     
       - Definieren Sie den Bereich der Protokollierungssitzung unter Verwendung der Optionen **Standort** (Ausführung der Protokollierungsaufzeichnung erfolgt nur auf Computern an diesem Standort) bzw. **Global** (Ausführung der Protokollierungsaufzeichnung erfolgt auf allen Computern in der Bereitstellung).
 
-Der zentralisierte Protokollierungsdienst ist äußerst leistungsfähig und kann nahezu alle Anforderungen für Problem Behandlungs Probleme erfüllen – groß oder klein. Von der Ursachenanalyse bis hin zu Leistungsproblemen kann der zentralisierte Protokollierungsdienst ein wichtiges Tool für jeden Administrator sein. Alle Beispiele werden mit dem lync Server-Verwaltungsshell angezeigt. Es gibt eine Befehlszeilenkomponente für den zentralisierten Protokollierungsdienst namens " **CLSController. exe**". Die Hilfe zum Befehlszeilentool wird über das Tool selbst bereitgestellt. Über die Befehlszeile kann jedoch nur eine beschränkte Anzahl an Funktionen ausgeführt werden. Durch die Verwendung von lync Server-Verwaltungsshell haben Sie Zugriff auf eine viel größere und viel mehr konfigurierbare Gruppe von Features. Wenn Sie den zentralisierten Protokollierungsdienst verwenden, sollten Sie lync Server-Verwaltungsshell immer als die erste und wichtigste Methode berücksichtigen.
+Der zentralisierte Protokollierungsdienst ist äußerst leistungsfähig und kann nahezu alle Anforderungen für Problem Behandlungs Probleme erfüllen – groß oder klein. Von der Ursachenanalyse bis hin zu Leistungsproblemen kann der zentralisierte Protokollierungsdienst ein wichtiges Tool für jeden Administrator sein. Alle Beispiele werden mit dem lync Server-Verwaltungsshell angezeigt. Es gibt eine Befehlszeilenkomponente für den zentralisierten Protokollierungsdienst namens **CLSController.exe**. Die Hilfe zum Befehlszeilentool wird über das Tool selbst bereitgestellt. Über die Befehlszeile kann jedoch nur eine beschränkte Anzahl an Funktionen ausgeführt werden. Durch die Verwendung von lync Server-Verwaltungsshell haben Sie Zugriff auf eine viel größere und viel mehr konfigurierbare Gruppe von Features. Wenn Sie den zentralisierten Protokollierungsdienst verwenden, sollten Sie lync Server-Verwaltungsshell immer als die erste und wichtigste Methode berücksichtigen.
 
 In den Themen in diesem Abschnitt wird erklärt, wie der zentralisierte Protokollierungsdienst und Beispiele für die Verwendung der zahlreichen Funktionen verwendet werden.
 

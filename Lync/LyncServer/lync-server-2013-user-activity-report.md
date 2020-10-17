@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530232"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Benutzer Aktivitätsbericht in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Benutzer Aktivitätsbericht in lync Server 2013
+
 
 </div>
 
@@ -186,11 +188,11 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 <td><p>Gibt an, ob die betreffende Aktivität erfolgreich war oder nicht. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
 <li><p>Alle</p></li>
-<li><p>Success</p></li>
+<li><p>Erfolg</p></li>
 <li><p>Erwarteter Fehler</p></li>
 <li><p>Unerwarteter Fehler</p></li>
 </ul>
-<p>Ein &quot;erwarteter&quot; Fehler ist ein Fehler, der voraussichtlich eintreten wird. Wenn ein Benutzer beispielsweise seinen Status auf "nicht stören" festgelegt hat, wird erwartet, dass ein Aufruf dieses Benutzers fehlschlägt. Ein &quot;unerwarteter Fehler&quot; ist ein Fehler, der in einem ansonsten fehlerhaften System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als "unerwartet" gekennzeichnet.</p></td>
+<p>Ein &quot; Erwarteter Fehler &quot; ist ein Fehler, der erwartet wird; wenn beispielsweise ein Benutzer seinen Status auf "nicht stören" festgelegt hat, wird erwartet, dass ein Aufruf dieses Benutzers fehlschlägt. Ein &quot; unerwarteter Fehler &quot; ist ein Fehler, der in einem ansonsten fehlerhaften System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als "unerwartet" gekennzeichnet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Präfix des Benutzer-URI</strong></p></td>
@@ -253,7 +255,7 @@ In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für Peer-
 <tr class="even">
 <td><p><strong>Antwortzeit</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Datum und Uhrzeit, zu &quot;&quot; denen der Benutzer die Sitzungseinladung angenommen hat.</p></td>
+<td><p>Datum und Uhrzeit, zu denen der &quot; &quot; Benutzer die Sitzungseinladung angenommen hat.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>End time</strong></p></td>
@@ -296,7 +298,7 @@ In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für Konfe
 <tr class="odd">
 <td><p><strong>Konferenz-URI</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Eindeutige ID für die Konferenz. Wenn Sie auf dieses Element klicken, zeigt der Bericht den detaillierten Konferenzbericht für die ausgewählte Sitzung an. Erweitern Sie dieses Element, damit der der Bericht Informationen zu den Konferenzteilnehmern anzeigt. Ausführliche Informationen finden Sie im &quot;Abschnitt Metriken für Konferenz&quot; Teilnehmer weiter unten in diesem Thema.</p></td>
+<td><p>Eindeutige ID für die Konferenz. Wenn Sie auf dieses Element klicken, zeigt der Bericht den detaillierten Konferenzbericht für die ausgewählte Sitzung an. Erweitern Sie dieses Element, damit der der Bericht Informationen zu den Konferenzteilnehmern anzeigt. Ausführliche Informationen finden Sie im &quot; Abschnitt Metriken für Konferenzteilnehmer &quot; weiter unten in diesem Thema.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Organisator</strong></p></td>
@@ -359,7 +361,7 @@ In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für jeden
 <tr class="odd">
 <td><p><strong>Konnektivität</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Typ der Netzwerkverbindung. Beispielsweise &quot;von Internal&quot; für interne Verbindung oder &quot;von PSTN&quot; für Einwahlbenutzer.</p></td>
+<td><p>Typ der Netzwerkverbindung. Beispielsweise &quot; von Internal &quot; für interne Verbindung oder &quot; von PSTN &quot; für Einwahlbenutzer.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Zeitpunkt des Beitritts</strong></p></td>

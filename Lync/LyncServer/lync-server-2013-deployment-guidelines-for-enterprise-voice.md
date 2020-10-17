@@ -12,20 +12,22 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688cf48c7f716047f0d7412c34ce84006a5a9348
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05cde2a845dd6314d8822e6b58445eed5c6a1d19
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213777"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531072"
 ---
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Bereitstellungsrichtlinien für Enterprise-VoIP in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Bereitstellungsrichtlinien für Enterprise-VoIP in lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Für eine optimale Benutzerfreundlichkeit bei der Bereitstellung von Enterprise-
     
 
     > [!NOTE]  
-    > Lync Server unterstützt E. 164-Nummern und DID-Nummern (nicht direktes Inward Dialing). Nicht-DID-Nummern können im Format <STRONG> &lt;E. 164&gt;; Ext =&lt;Extension&gt; </STRONG> oder als Ziffernfolge dargestellt werden, mit der Voraussetzung, dass die private Durchwahl im gesamten Unternehmen eindeutig ist. Beispielsweise kann eine private Zahl von 1001 als <STRONG>+ 1425550100; ext = 1001</STRONG>oder als <STRONG>1001</STRONG>dargestellt werden. Wenn er als <STRONG>1001</STRONG>dargestellt wird, besteht die Erwartung, dass diese private Nummer im gesamten Unternehmen eindeutig ist.
+    > Lync Server unterstützt E. 164-Nummern und DID-Nummern (nicht direktes Inward Dialing). Nicht-DID-Nummern können im Format <STRONG> &lt; E. 164 &gt; ; Ext = &lt; Extension &gt; </STRONG> oder als Ziffernfolge dargestellt werden, mit der Voraussetzung, dass die private Durchwahl im gesamten Unternehmen eindeutig ist. Beispielsweise kann eine private Zahl von 1001 als <STRONG>+ 1425550100; ext = 1001</STRONG>oder als <STRONG>1001</STRONG>dargestellt werden. Wenn er als <STRONG>1001</STRONG>dargestellt wird, besteht die Erwartung, dass diese private Nummer im gesamten Unternehmen eindeutig ist.
 
     
     </div>
@@ -106,7 +108,7 @@ Die Sprachkommunikation mit lync Server hängt von der Verfügbarkeit der Server
 
 ## <a name="alternative-means-of-accessing-emergency-services"></a>Alternativer Zugriff auf Notrufdienste
 
-Für die Standorte, an denen Sie einen VoIP-Client installieren (beispielsweise einen PC, auf dem lync-Client oder ein lync Phone Edition-Gerät ausgeführt wird), wird empfohlen, dass Sie eine Sicherungsoption für Benutzer zum Aufrufen von Notrufdiensten (beispielsweise 911 oder 999) für den Fall eines Stromausfalls beibehalten. , Beeinträchtigung der Netzwerkkonnektivität, Ausfall eines Telefondiensts oder ein anderes Problem, das den Betrieb von lync Server-, lync-oder lync Phone Edition-Geräten hemmen kann. Zu diesen alternativen Optionen kann ein Telefon gehören, das mit einer standardmäßigen Telefonnetz Leitung oder einem Mobiltelefon verbunden ist.
+Für die Standorte, an denen Sie einen VoIP-Client installieren (beispielsweise einen PC, auf dem lync-Client oder ein lync Phone Edition-Gerät ausgeführt wird), wird empfohlen, dass Sie eine Sicherungsoption für Benutzer zum Aufrufen von Notfalldiensten (beispielsweise 911 oder 999) für den Fall eines Stromausfalls, einer Verschlechterung lync Server der Netzwerkverbindung, eines Telefondienstes oder eines anderen Problems beibehalten, das , Lync oder lync Phone Edition Geräte. Zu diesen alternativen Optionen kann ein Telefon gehören, das mit einer standardmäßigen Telefonnetz Leitung oder einem Mobiltelefon verbunden ist.
 
 </div>
 

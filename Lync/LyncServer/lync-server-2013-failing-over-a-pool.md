@@ -12,20 +12,22 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93f6aadd6cde7f09d7c6bdde118055cde8a56de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1bf54f1949627c39291388be248e0029077e9278
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204265"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530962"
 ---
+# <a name="failing-over-a-pool-in-lync-server-2013"></a>Failover eines Pools in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-pool-in-lync-server-2013"></a>Failover eines Pools in lync Server 2013
+
 
 </div>
 
@@ -63,33 +65,33 @@ Wenn ein Front-End-Pool fehlschlägt, aber der Edgepool an diesem Standort noch 
     
         Invoke-CsManagementServerFailover -Whatif
     
-    Die Ergebnisse dieses Cmdlets zeigen an, welcher Pool derzeit den zentralen Verwaltungs Server hostet. Im Rest dieses Verfahrens wird dieser Pool als CMS\_-Pool bezeichnet.
+    Die Ergebnisse dieses Cmdlets zeigen an, welcher Pool derzeit den zentralen Verwaltungs Server hostet. Im Rest dieses Verfahrens wird dieser Pool als CMS- \_ Pool bezeichnet.
 
-2.  Verwenden Sie den Topologie-Generator, um die Version von lync Server zu\_finden, die im CMS-Pool läuft. Wenn Sie lync Server 2013 ausführen, verwenden Sie das folgende Cmdlet, um den Sicherungspool von Pool 1 zu suchen.
+2.  Verwenden Sie den Topologie-Generator, um die Version von lync Server zu finden, die im CMS \_ -Pool läuft. Wenn Sie lync Server 2013 ausführen, verwenden Sie das folgende Cmdlet, um den Sicherungspool von Pool 1 zu suchen.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    Sicherungs\_Pool als Sicherungspool zulassen.
+    Sicherungs \_ Pool als Sicherungspool zulassen.
 
 3.  Überprüfen Sie den Status des zentralen Verwaltungsspeichers mit dem folgenden Cmdlet:
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    Dieses Cmdlet sollte zeigen, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des CMS\_-Pools zeigen. Wenn Sie leer sind, ist der zentrale Verwaltungs Server nicht verfügbar, und Sie müssen einen Failover durchführen.
+    Dieses Cmdlet sollte zeigen, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des CMS- \_ Pools zeigen. Wenn Sie leer sind, ist der zentrale Verwaltungs Server nicht verfügbar, und Sie müssen einen Failover durchführen.
 
 4.  Wenn der zentrale Verwaltungsspeicher nicht verfügbar ist oder der zentrale Verwaltungsspeicher auf pool1 ausgeführt wurde (das heißt, der Pool, der ausgefallen ist), müssen Sie einen Failover des zentralen Verwaltungsservers durchführen, bevor ein Failover des Pools möglich ist. Wenn Sie einen Failover des zentralen Verwaltungsservers ausführen müssen, der in einem Pool mit lync Server 2013 gehostet wurde, verwenden Sie das Cmdlet in Schritt 5 dieses Verfahrens. Wenn Sie einen Failover des zentralen Verwaltungsservers ausführen müssen, der in einem Pool mit lync Server 2010 gehostet wurde, verwenden Sie das Cmdlet in Schritt 6 dieses Verfahrens. Wenn Sie keinen Failover für den zentralen Verwaltungs Server ausführen müssen, fahren Sie mit Schritt 7 dieses Verfahrens fort.
 
 5.  Führen Sie die folgenden Schritte aus, um einen Failover des zentralen Verwaltungsspeichers in einem Pool auszuführen, auf dem lync Server 2013 ausgeführt wird:
     
-      - Überprüfen Sie zunächst, welcher Back-End\_-Server im Sicherungs Pool die Prinzipalinstanz des zentralen Verwaltungsspeichers ausführt, indem Sie Folgendes eingeben:
+      - Überprüfen Sie zunächst, welcher Back-End-Server im Sicherungs \_ Pool die Prinzipalinstanz des zentralen Verwaltungsspeichers ausführt, indem Sie Folgendes eingeben:
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - Wenn der primäre Back-End-Server\_im Sicherungs Pool der Prinzipal ist, geben Sie Folgendes ein:
+      - Wenn der primäre Back-End-Server im Sicherungs \_ Pool der Prinzipal ist, geben Sie Folgendes ein:
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Wenn der Spiegel-Back-End-\_Server im Sicherungs Pool der Prinzipal ist, geben Sie Folgendes ein:
+        Wenn der Spiegel-Back-End-Server im Sicherungs \_ Pool der Prinzipal ist, geben Sie Folgendes ein:
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -97,7 +99,7 @@ Wenn ein Front-End-Pool fehlschlägt, aber der Edgepool an diesem Standort noch 
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Stellen Sie sicher, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des\_Sicherungs Pools verweist.
+        Stellen Sie sicher, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des Sicherungs \_ Pools verweist.
     
       - Überprüfen Sie schließlich den Replikatstatus für alle Front-End-Server, indem Sie Folgendes eingeben:
         
@@ -107,7 +109,7 @@ Wenn ein Front-End-Pool fehlschlägt, aber der Edgepool an diesem Standort noch 
         
         Fahren Sie mit Schritt 7 in diesem Verfahren fort.
 
-6.  Installieren Sie den zentralen Verwaltungsspeicher auf dem Back-End-\_Server des Sicherungs Pools.
+6.  Installieren Sie den zentralen Verwaltungsspeicher auf dem Back-End-Server des Sicherungs \_ Pools.
     
       - Führen Sie zunächst den folgenden Befehl aus:
         
@@ -115,7 +117,7 @@ Wenn ein Front-End-Pool fehlschlägt, aber der Edgepool an diesem Standort noch 
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Führen Sie den nächsten Befehl auf einem der Front-End-Server\_des Sicherungs Pools aus, um die Verlagerung des zentralen Verwaltungsspeichers zu erzwingen:
+      - Führen Sie den nächsten Befehl auf einem der Front-End-Server des Sicherungs \_ Pools aus, um die Verlagerung des zentralen Verwaltungsspeichers zu erzwingen:
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
@@ -123,7 +125,7 @@ Wenn ein Front-End-Pool fehlschlägt, aber der Edgepool an diesem Standort noch 
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Stellen Sie sicher, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des\_Sicherungs Pools verweist.
+        Stellen Sie sicher, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des Sicherungs \_ Pools verweist.
     
       - Überprüfen Sie den Replikatstatus für alle Front-End-Server, indem Sie Folgendes eingeben:
         
@@ -131,7 +133,7 @@ Wenn ein Front-End-Pool fehlschlägt, aber der Edgepool an diesem Standort noch 
         
         Stellen Sie sicher, dass alle Replikate den Wert true aufweisen.
     
-      - Installieren Sie den zentralen Verwaltungs Server Dienst auf den restlichen Front-End-Servern im\_Sicherungs Pool. Führen Sie dazu den folgenden Befehl auf allen Front-End-Servern aus, mit Ausnahme derjenigen, die Sie beim Erzwingen des zentralen Verwaltungsspeichers zuvor in diesem Verfahren verwendet haben:
+      - Installieren Sie den zentralen Verwaltungs Server Dienst auf den restlichen Front-End-Servern im Sicherungs \_ Pool. Führen Sie dazu den folgenden Befehl auf allen Front-End-Servern aus, mit Ausnahme derjenigen, die Sie beim Erzwingen des zentralen Verwaltungsspeichers zuvor in diesem Verfahren verwendet haben:
         
             Bootstrapper /Setup 
 

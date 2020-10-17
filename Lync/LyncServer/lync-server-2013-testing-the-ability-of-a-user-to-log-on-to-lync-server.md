@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193848"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530472"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Testen der Fähigkeit eines Benutzers, sich bei lync Server 2013 anzumelden
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Testen der Fähigkeit eines Benutzers, sich bei lync Server 2013 anzumelden
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsRegistration verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsRegistration-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsRegistration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Mit dem Cmdlet Test-CsRegistration können Sie sicherstellen, dass sich die Benutzer in Ihrer Organisation bei lync Server anmelden können. Wenn Sie Test-CsRegistration ausführen, versucht das Cmdlet, sich an einem Testbenutzer anzumelden, um lync Server und dann, wenn es erfolgreich ist, die Verbindung zwischen diesem Testbenutzer und dem System zu trennen. All dies geschieht ohne Benutzerinteraktion und ohne Auswirkungen auf tatsächliche Benutzer. Nehmen wir beispielsweise an, dass das Test Konto SIP:kenmyer@litwareinc.com einem echten Benutzer entspricht, der über ein echtes lync Server Konto verfügt. In diesem Fall wird der Test ohne Unterbrechung des realen Ken Myers durchgeführt. Wenn sich das Ken Myers-Test Konto vom System abmeldet, bleibt die Person angemeldet.
+Mit dem Test-CsRegistration-Cmdlet können Sie sicherstellen, dass sich Benutzer in Ihrer Organisation bei lync Server anmelden können. Wenn Sie Test-CsRegistration ausführen, versucht das Cmdlet, sich an einem Testbenutzer anzumelden, um lync Server und dann, wenn es erfolgreich ist, die Verbindung zwischen diesem Testbenutzer und dem System zu trennen. All dies geschieht ohne Benutzerinteraktion und ohne Auswirkungen auf tatsächliche Benutzer. Nehmen wir beispielsweise an, dass das Test Konto SIP:kenmyer@litwareinc.com einem echten Benutzer entspricht, der über ein echtes lync Server Konto verfügt. In diesem Fall wird der Test ohne Unterbrechung des realen Ken Myers durchgeführt. Wenn sich das Ken Myers-Test Konto vom System abmeldet, bleibt die Person angemeldet.
 
 </div>
 
@@ -74,7 +76,7 @@ Mit dem Cmdlet Test-CsRegistration können Sie sicherstellen, dass sich die Benu
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsRegistration kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server registrierungspools angeben, der getestet wird. Zum Beispiel:
+Das Test-CsRegistration-Cmdlet kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server registrierungspools angeben, der getestet wird. Zum Beispiel:
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -127,7 +129,7 @@ Wenn Test-CsRegistration fehlschlägt, möchten Sie möglicherweise den Test ern
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsRegistration eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Zum Beispiel:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsRegistration eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die Möglichkeit des angegebenen Benutzers geprüft wurde, sich bei lync Server anzumelden. Zum Beispiel:
 
 Ausführlich: Aktivität "registrieren" gestartet.
 
@@ -151,7 +153,7 @@ Ausnahmeaufrufliste: unter Microsoft. RTC. Signaling. SipAsyncResult'1. ThrowIfF
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsRegistration möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsRegistration Fehler auftreten können:
 
   - Sie haben ein falsches Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     

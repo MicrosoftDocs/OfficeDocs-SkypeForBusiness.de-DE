@@ -12,20 +12,22 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00038dce85a7461be37456d9dee263a71f60c113
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5a4e548f68f68a65ac4ecfb2e4ddc532b5f337c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529712"
 ---
+# <a name="active-directory-domain-services-for-lync-server-2013"></a>Active Directory-Domänendienste für lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-for-lync-server-2013"></a>Active Directory-Domänendienste für lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Ausführliche Informationen finden Sie unter [Active Directory Infrastrukturanfo
 
 
 > [!NOTE]  
-> Es wird empfohlen, globale Einstellungen nicht im Systemcontainer, sondern im Konfigurationscontainer bereitzustellen. Dadurch wird zwar die Sicherheit nicht optimiert, aber es kann zu Verbesserungen bei der Skalierbarkeit für einige Topologien der Active Directory-Domänendienste führen. Wenn Sie von Microsoft Office Communications Server 2007 migrieren und den Systemcontainer verwendet haben, aber den Konfigurationscontainer verwenden möchten, müssen Sie die Einstellungen im Systemcontainer verschieben, bevor Sie ein Upgrade vorbereiten. Informationen zum Migrieren der System Container Einstellungen zum Konfigurationscontainer finden Sie unter Office Communications Server 2007 Migration Tool Global Settings <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>unter.
+> Es wird empfohlen, globale Einstellungen nicht im Systemcontainer, sondern im Konfigurationscontainer bereitzustellen. Dadurch wird zwar die Sicherheit nicht optimiert, aber es kann zu Verbesserungen bei der Skalierbarkeit für einige Topologien der Active Directory-Domänendienste führen. Wenn Sie von Microsoft Office Communications Server 2007 migrieren und den Systemcontainer verwendet haben, aber den Konfigurationscontainer verwenden möchten, müssen Sie die Einstellungen im Systemcontainer verschieben, bevor Sie ein Upgrade vorbereiten. Informationen zum Migrieren der System Container Einstellungen zum Konfigurationscontainer finden Sie unter Office Communications Server 2007 Migration Tool Global Settings unter <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A> .
 
 
 
@@ -119,7 +121,7 @@ Ausführliche Informationen zu den spezifischen universellen Gruppen, die beim V
 
 ## <a name="role-based-access-control"></a>Rollenbasierte Zugriffssteuerung
 
-Neben dem Erstellen von universellen Dienst-und Verwaltungsgruppen und dem Hinzufügen von Dienst-und Verwaltungsgruppen zu den entsprechenden universellen Gruppen erstellt die Gesamtstrukturvorbereitung auch Rollenbasierte Zugriffssteuerungsgruppen (Role-Based Access Control, RBAC). Ausführliche Informationen zu den spezifischen RBAC-Gruppen, die von der Gesamtstrukturvorbereitung erstellt werden, finden Sie unter Änderungen bei der [Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation. Weitere Informationen zu RBAC-Gruppen finden Sie unter [Role-Based Access Control (RBAC) für lync Server 2013](lync-server-2013-role-based-access-control-rbac.md).
+Neben dem Erstellen von universellen Dienst-und Verwaltungsgruppen und dem Hinzufügen von Dienst-und Verwaltungsgruppen zu den entsprechenden universellen Gruppen erstellt die Gesamtstrukturvorbereitung auch Role-Based Zugriffssteuerungsgruppen (RBAC). Ausführliche Informationen zu den spezifischen RBAC-Gruppen, die von der Gesamtstrukturvorbereitung erstellt werden, finden Sie unter Änderungen bei der [Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation. Weitere Informationen zu RBAC-Gruppen finden Sie unter [Role-Based Access Control (RBAC) für lync Server 2013](lync-server-2013-role-based-access-control-rbac.md).
 
 </div>
 
@@ -179,7 +181,7 @@ In lync Server 2013 sind vertrauenswürdige Server diejenigen, die beim Ausführ
 
 Wenn eines dieser Kriterien nicht zutrifft, gilt der Server nicht als vertrauenswürdig und es wird keine Verbindung damit hergestellt. Diese doppelte Anforderung soll einen möglichen, wenn auch unwahrscheinlichen Angriff ausschließen, bei dem ein nicht autorisierter Server versucht, den FQDN eines gültigen Servers zu übernehmen.
 
-Um Microsoft Office Communications Server 2007 R2 und Microsoft Office Communications Server 2007-Bereitstellungen mit lync Server 2013-Servern zu kommunizieren, erstellt lync Server 2013 außerdem Container während der Gesamtstrukturvorbereitung für das halten von Listen mit vertrauenswürdige Server für frühere Versionen. In der folgenden Tabelle werden die Container beschrieben, die erstellt werden, um die Kompatibilität mit früheren Bereitstellungen zu ermöglichen.
+Um Microsoft Office Communications Server 2007 R2-und Microsoft Office Communications Server 2007-Bereitstellungen mit lync Server 2013-Servern zu kommunizieren, erstellt lync Server 2013 außerdem Container während der Gesamtstrukturvorbereitung für die Aufbewahrung von Listen vertrauenswürdiger Server für frühere Versionen. In der folgenden Tabelle werden die Container beschrieben, die erstellt werden, um die Kompatibilität mit früheren Bereitstellungen zu ermöglichen.
 
 ### <a name="trusted-server-lists-and-their-active-directory-containers-for-compatibility-with-previous-releases"></a>Listen mit vertrauenswürdigen Servern und ihre entsprechenden Active Directory-Container für die Kompatibilität mit vorherigen Versionen
 
@@ -219,7 +221,7 @@ Um Microsoft Office Communications Server 2007 R2 und Microsoft Office Communica
 </table>
 
 
-Um vertrauenswürdige Server früherer Versionen zu unterstützen, müssen Sie das Tool Best Practices Analyzer ausführen. Ausführliche Informationen zum Durchführen von Best Practices Analyzer [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)finden Sie unter.
+Um vertrauenswürdige Server früherer Versionen zu unterstützen, müssen Sie das Tool Best Practices Analyzer ausführen. Ausführliche Informationen zum Durchführen von Best Practices Analyzer finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633) .
 
 </div>
 

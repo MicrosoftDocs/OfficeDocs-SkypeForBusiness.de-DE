@@ -12,20 +12,22 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d3825891fe6934699e310073825e50a4aee731
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c20bd593e11f032ba0a0ed852a50b6d417fa604
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531092"
 ---
+# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Prüfliste für die Bereitstellung von Webkonferenzen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Prüfliste für die Bereitstellung von Webkonferenzen in lync Server 2013
+
 
 </div>
 
@@ -105,7 +107,7 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 
 Lync Server 2013 enthält jetzt die **MaxUploadFileSizeMb** -Einstellung, die die Größe von Dateien beschränkt, die während einer Besprechung hochgeladen werden können. Der Standardwert für diese Einstellung ist "500 MB". **MaxUploadFileSizeMb** kann mit dem **Set-CsConferencingConfiguration**-Cmdlet angepasst werden.
 
-**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein. Der Grenzwert für die Dateigrößen Uploads für lync Web App wird auf ungefähr 30 MB festgelegt und wird von der IIS-Datei\["\]Internet. config" gesteuert:/DataCollabWeb/int ext/Handler/Web.config. Um den Upload-Grenzwert für die Dateigröße für lync Web App `maxRequestLength` zu `maxAllowedContentLength` konfigurieren, aktualisieren Sie und in der Datei "config" wie unten dargestellt.
+**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein. Der Grenzwert für die Dateigrößen Uploads für lync Web App wird auf ungefähr 30 MB festgelegt und wird von der IIS-web.config Datei gesteuert:/DataCollabWeb/int \[ Ext \] /Handler/web.config. Um den Upload-Grenzwert für die Dateigröße für lync Web App zu konfigurieren, aktualisieren Sie `maxRequestLength` und `maxAllowedContentLength` in der web.config Datei, wie unten dargestellt.
 
     <system.web>
         <!-- 
@@ -125,7 +127,7 @@ Lync Server 2013 enthält jetzt die **MaxUploadFileSizeMb** -Einstellung, die di
                     </requestFiltering>
                     </security>
 
-Sie müssen die Datei "Internet. config" für jede Front-End-Server aktualisieren.
+Sie müssen die web.config Datei für jeden Front-End-Server aktualisieren.
 
 </div>
 

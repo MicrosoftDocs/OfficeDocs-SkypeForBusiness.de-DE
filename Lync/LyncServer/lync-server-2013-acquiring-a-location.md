@@ -12,20 +12,22 @@ ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ed32ed07f709e0a047e8fc07e9124bc129adca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e5b3a6f9e781efbc3c8b7672ad28f1753490e17
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529742"
 ---
+# <a name="acquiring-a-location-in-lync-server-2013"></a>Erwerben eines Standorts in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="acquiring-a-location-in-lync-server-2013"></a>Erwerben eines Standorts in lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Letztes Änderungsstand des Themas:** 2012-06-06_
 
 In einer lync Server 2013 E9-1 -1-Bereitstellung erwirbt jeder intern verbundene lync-oder lync Phone Edition-Client aktiv einen eigenen Standort. Nach der SIP-Registrierung stellt der Client alle Netzwerk Verbindungsinformationen bereit, die er über sich selbst in einer standortanforderung an den Standortinformationsdienst kennt, bei dem es sich um einen Webdienst handelt, der von einer replizierten SQL Server Datenbank unterstützt wird. Jeder zentrale Website Pool verfügt über eine Standortinformationsdienst, die die Netzwerkinformationen verwendet, um die Datensätze für einen passenden Speicherort abzufragen. Wenn eine Übereinstimmung vorliegt, gibt der Standortinformationsdienst einen Speicherort an den Client zurück. Wird keine Übereinstimmung ermittelt, wird der Benutzer möglicherweise zur manuellen Eingabe eines Standorts aufgefordert (abhängig von den Einstellungen in der Ortungsrichtlinie). Die Standortdaten werden in einem standardisierten IETF-XML-Format (Internet Engineering Task Force), das als PIDF-LO (Presence Information Data Format Location Object) bezeichnet wird, zurück an den Client übertragen.
 
-Der lync Server-Client enthält die PIDF-Lo-Daten im Rahmen eines Notrufs, und diese Daten werden vom E9-1 -1-Dienstanbieter verwendet, um den entsprechenden Rettungsleitstelle zu bestimmen und den Anruf an diesen Rettungsleitstelle zusammen mit dem korrekten ESQK weiterzuleiten, sodass der Rettungsleitstelle-Dispatcher die Standort des Anrufers.
+Der lync Server-Client enthält die PIDF-Lo-Daten im Rahmen eines Notrufs, und diese Daten werden vom E9-1 -1-Dienstanbieter verwendet, um den entsprechenden Rettungsleitstelle zu ermitteln und den Anruf an diesen Rettungsleitstelle zusammen mit dem korrekten ESQK weiterzuleiten, sodass der Rettungsleitstelle Dispatcher den Standort des Anrufers abrufen kann.
 
 Das folgende Diagramm zeigt, wie ein lync Server-Client einen Standort erwirbt (mit Ausnahme der Adress basierten Ortungsmethode eines Drittanbieters für Client Mac):
 

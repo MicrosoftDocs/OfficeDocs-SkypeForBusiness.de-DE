@@ -12,20 +12,22 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc2aed62b9ad26fd1498787ecd3d58144a005b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb614726458f2cf9c77bdfe740ddb13d99d54f2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529922"
 ---
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Verwenden der lync Server 2010 Management Packs in einem Szenario für die Koexistenz
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Verwenden der lync Server 2010 Management Packs in einem Szenario für die Koexistenz
+
 
 </div>
 
@@ -41,7 +43,7 @@ Viele Kunden nehmen ein Einführungsprogramm innerhalb ihrer Unternehmen an, in 
 
 In der lync Server 2010 wurden lync Server Computer über das im zentralen Verwaltungsspeicher gespeicherte Topologie-Dokument ermittelt. In dieser Konfiguration würde ein einzelner Computer das vorhanden sein aller anderen lync Server Computer melden.
 
-Die Management Packs für lync Server 2013 verwenden jetzt die Ermittlung auf Computerebene anstelle des zentralen Ermittlungsmechanismus, der in lync Server 2010 verwendet wurde. Das bedeutet, dass sich jeder System Center-Agent im Prinzip selbst ermittelt und sein Vorhandensein dem System Center Operations Manager berichtet. Das Verwenden der Ermittlung auf Computerebene vereinfacht die Verwaltung ihrer System Center-Infrastruktur und ermöglicht auch unterschiedliche Versionen der lync Server Management Packs (beispielsweise Management Packs für lync Server 2010 und Management Packs für lync Server 2013) einfacher Koexistenz.
+Die Management Packs für lync Server 2013 verwenden jetzt die Ermittlung auf Computerebene anstelle des zentralen Ermittlungsmechanismus, der in lync Server 2010 verwendet wurde. Das bedeutet, dass sich jeder System Center-Agent im Prinzip selbst ermittelt und sein Vorhandensein dem System Center Operations Manager berichtet. Das Verwenden der Ermittlung auf Computerebene vereinfacht die Verwaltung ihrer System Center-Infrastruktur und ermöglicht außerdem eine einfachere Koexistenz verschiedener Versionen der lync Server Management Packs (beispielsweise von Management Packs für lync Server 2010 und Management Packs für lync Server 2013).
 
 Zur Unterstützung dieser Migration müssen Sie zunächst die vorhandene lync Server 2010 Überwachung aktualisieren, um Lücken bei der Berichterstattung zu vermeiden. Wählen Sie dazu einen vorhandenen lync Server 2010 Computer aus, um das zentrale Ermittlungsskript für die lync Server 2010 zu warten, bevor Sie den zentralen Verwaltungsspeicher auf lync Server 2013 aktualisieren. Dies ist ein Prozess in vier Schritten:
 
@@ -59,7 +61,7 @@ Zur Unterstützung dieser Migration müssen Sie zunächst die vorhandene lync Se
 
 Wenn Sie einen nicht-zentralen Verwaltungsspeicher Computer (beispielsweise einen lync Server-Front-End-Server) für die zentrale Ermittlung benennen möchten, müssen Sie den folgenden Registrierungsschlüssel auf dem nicht-zentralen Verwaltungsspeicher Server erstellen:
 
-HKLM\\Software\\Microsoft\\Real-Time Communications\\Health\\CentralDiscoveryCandidate
+HKLM \\ Software \\ Microsoft \\ Real-Time Communications \\ Health \\ CentralDiscoveryCandidate
 
 Sie können diesen Registrierungsschlüssel erstellen, indem Sie das folgende Verfahren durchführen:
 
@@ -67,7 +69,7 @@ Sie können diesen Registrierungsschlüssel erstellen, indem Sie das folgende Ve
 
 2.  Geben Sie im Dialogfeld **Ausführen** den Befehl **reged** ein, und drücken Sie die EINGABETASTE.
 
-3.  Erweitern Sie im Registrierungs- **Editor\_HKEY\_lokaler Computer**, erweitern Sie **Software**, erweitern Sie **Microsoft**, und erweitern Sie dann **Echtzeitkommunikation**.
+3.  Erweitern Sie im Registrierungs- **Editor \_ HKEY lokaler \_ Computer**, erweitern Sie **Software**, erweitern Sie **Microsoft**, und erweitern Sie dann **Echtzeitkommunikation**.
 
 4.  Klicken Sie mit der rechten Maustaste auf **Status**, klicken Sie dann auf **Neu**, und klicken Sie anschließend auf **Schlüssel**. Wenn der Schlüssel **Status** nicht vorhanden ist, klicken Sie mit der rechten Maustaste auf **Real-Time Communications**, zeigen auf **Neu**, und klicken Sie dann auf **Schlüssel**. Wenn der neue Schlüssel erstellt wurde, geben Sie "Status" ein, und drücken Sie dann die EINGABETASTE.
     

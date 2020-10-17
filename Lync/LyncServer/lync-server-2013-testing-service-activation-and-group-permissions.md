@@ -12,20 +12,22 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce58dae337121af9e2754b38ad5c1c0dafbfab4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193908"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530522"
 ---
+# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Testen von Dienstaktivierung und Gruppen Berechtigungen in lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Testen von Dienstaktivierung und Gruppen Berechtigungen in lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
 <td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
-<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsTopology verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsTopology-Cmdlets verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTopology&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Mit dem Cmdlet Test-CsTopology können Sie überprüfen, ob lync Server 2013 auf globaler Ebene ordnungsgemäß funktioniert. Standardmäßig prüft das Cmdlet die gesamte lync Server Infrastruktur, überprüft, ob die erforderlichen Dienste aktiv sind und dass für diese Dienste und für die universellen Sicherheitsgruppen, die bei der Installation von lync Server erstellt werden, die entsprechenden Berechtigungen festgelegt sind. .
+Mit dem Test-CsTopology-Cmdlet können Sie überprüfen, ob lync Server 2013 auf globaler Ebene ordnungsgemäß funktioniert. Standardmäßig prüft das Cmdlet die gesamte lync Server Infrastruktur, überprüft, ob die erforderlichen Dienste aktiv sind und dass die entsprechenden Berechtigungen für diese Dienste und für die universellen Sicherheitsgruppen festgelegt sind, die bei der Installation von lync Server erstellt werden.
 
 Zusätzlich zur Überprüfung der Gültigkeit der lync Server Installation können Sie mit Test-CsTopology auch die Gültigkeit eines bestimmten Diensts überprüfen. Mit dem folgenden Befehl wird beispielsweise der Zustand des A/V-Konferenzserver im Pool ATL-CS-001.litwareinc.com überprüft:
 
@@ -78,9 +80,9 @@ Zusätzlich zur Überprüfung der Gültigkeit der lync Server Installation könn
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Standardmäßig zeigt Test-CsTopology sehr wenig Ausgabe auf dem Bildschirm an. Stattdessen werden vom Cmdlet zurückgegebene Informationen in eine HTML-Datei geschrieben. Mit dem Parameter Report können Sie einen Dateipfad und einen Dateinamen für die von Test-CsTopology generierte HTML-Datei angeben. Wenn Sie den Parameter "Report" nicht angeben, wird die HTML-Datei automatisch im Ordner "Users" gespeichert und erhält einen ähnlichen Namen wie den folgenden: ce84964a-c4da-4622-AD34-c54ff3ed361f. html.
+Standardmäßig zeigt Test-CsTopology nur sehr wenig Ausgabe auf dem Bildschirm an. Stattdessen werden vom Cmdlet zurückgegebene Informationen in eine HTML-Datei geschrieben. Mit dem Parameter Report können Sie einen Dateipfad und einen Dateinamen für die von Test-CsTopology generierte HTML-Datei angeben. Wenn Sie den Parameter "Report" nicht angeben, wird die HTML-Datei automatisch im Ordner "Users" gespeichert und erhält einen ähnlichen Namen wie den folgenden: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
 
-Im folgenden Beispielbefehl wird Test-CsTopology ausgeführt, und die Ausgabe wird in einer Datei mit dem Namen\\C\\: Logs ComputerTest. html gespeichert:
+Der folgende Beispielbefehl führt Test-CsTopology aus und speichert die Ausgabe in einer Datei mit dem Namen C: \\ Logs \\ComputerTest.html:
 
     Test-CsTopology -Report "C:\Logs\ComputerTest.html" -Verbose
 
@@ -100,9 +102,9 @@ Im Gegensatz zu den meisten Test-Cmdlets meldet Test-CsTopology den Erfolg oder 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsTopology möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, aus denen Test-CsTopology Fehler auftreten können:
 
-  - Die Replikation ist auf dem Testcomputer möglicherweise nicht auf dem neuesten Stand. Sie können den aktuellen Replikationsstatus für einen Computer überprüfen, indem Sie das Cmdlet Get-CsManagementStoreReplicationStatus ausführen:
+  - Die Replikation ist auf dem Testcomputer möglicherweise nicht auf dem neuesten Stand. Sie können den aktuellen Replikationsstatus für einen Computer überprüfen, indem Sie das Get-CsManagementStoreReplicationStatus-Cmdlet ausführen:
     
         Get-CsManagementStoreReplicationStatus -ReplicaFqdn "atl-cs-001.litwareinc.com"
     
