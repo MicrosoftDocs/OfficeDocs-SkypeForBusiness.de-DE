@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Einrichten von Berechtigungen für die Archivierung'
+description: 'Lync Server 2013: Einrichten von Berechtigungen für die Archivierung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e49ca1eac9051d26cc6837214895e47e9881a6f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1f06c4fb48772a41621ece765dcc90555f0cd2d5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521852"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574831"
 ---
 # <a name="setting-up-permissions-for-archiving-in-lync-server-2013"></a>Einrichten von Berechtigungen für die Archivierung in lync Server 2013
 

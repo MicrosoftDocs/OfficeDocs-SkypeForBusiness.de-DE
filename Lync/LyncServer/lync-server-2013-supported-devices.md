@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Unterstützte Geräte'
+description: 'Lync Server 2013: Unterstützte Geräte.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc614b2c571df14eac5382e9a022554fc32a260
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5867210119dec9b1ba0f3ed5bed39286b4602472
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524122"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575271"
 ---
 # <a name="supported-devices-in-lync-server-2013"></a>Unterstützte Geräte in lync Server 2013
 

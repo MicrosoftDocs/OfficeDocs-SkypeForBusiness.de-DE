@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von Voicemail-Escape'
+description: 'Lync Server 2013: Konfigurieren von Voicemail-Escape.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c3faf28bdd85f32de1560d35aaf35392fef9746
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afbb2dd10c7ff8809eb8dfbcc64e40a599aa06a4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516952"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575111"
 ---
 # <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Konfigurieren von Voicemail-Escapes in lync Server 2013
 

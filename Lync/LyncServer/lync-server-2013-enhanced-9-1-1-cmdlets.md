@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erweiterte 9-1-1-Cmdlets'
+description: 'Lync Server 2013: Erweiterte 9-1-1-Cmdlets.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bdea8e9aeed89a52b6e288be00afb9ed5fbeb27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 381489f214e58542b7bd4e13e6e56d2bdef10d12
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533212"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575571"
 ---
 # <a name="enhanced-9-1-1-cmdlets-in-lync-server-2013"></a>Erweiterte 9-1-1-Cmdlets in lync Server 2013
 

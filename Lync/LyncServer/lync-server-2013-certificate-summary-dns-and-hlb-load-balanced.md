@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich'
+description: 'Lync Server 2013: Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 743818f81f5083e9c5d3a7877d2518d05176a5e7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 97a89975af16b6e39625677f787d3726f00c76c1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499292"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575971"
 ---
 # <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer Normalisierungsregel mit Normalisierungsregel erstellen
+description: Erstellen oder ändern Sie eine Normalisierungsregel mithilfe von Create a normalize Rule.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 299d4c6d5b8a8cd53cee9fdae0a38769a535b118
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 824936359c070090ad4225a3ead6e8e46fe14785
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508842"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574601"
 ---
 # <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Erstellen oder Ändern einer Normalisierungsregel mithilfe der Regel zum Erstellen einer Normalisierung in lync Server 2013
 
