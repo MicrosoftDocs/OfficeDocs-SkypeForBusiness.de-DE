@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planen von Edgeserver Zertifikaten'
+description: 'Lync Server 2013: Plan for Edgeserver certificates.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3fc6ab9bfb6d145b324c079e4bf746354e7329f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 22ec3743256fe3e4c55dba0f6357a85b1ad81cd0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519852"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578191"
 ---
 # <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Planen von Edgeserver Zertifikaten in lync Server 2013
 

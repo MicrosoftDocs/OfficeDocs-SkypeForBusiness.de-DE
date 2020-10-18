@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Konfigurieren von netzwerkregionen für die Anrufsteuerung'
+description: 'Lync Server 2013: Konfigurieren von netzwerkregionen für die Anrufsteuerung.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185906
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c029de2a7b6296dc81d365978c55d18c817e0894
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f016e0c943963ea4ce9739bd486c6996da502e73
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520542"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577561"
 ---
 # <a name="configure-network-regions-for-cac-in-lync-server-2013"></a>Konfigurieren von netzwerkregionen für die Anrufsteuerung in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erstellen einer Benutzerrichtlinie für den beständigen Chat'
+description: 'Lync Server 2013: Erstellen Sie eine Benutzerrichtlinie für den beständigen Chat.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185103
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dba93ca943c16caa6ee4982533e59c958e60ffc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1fcbe761d535f8c58c2f83750cdc8808cfb62634
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501842"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578021"
 ---
 # <a name="create-a-user-policy-for-persistent-chat-in-lync-server-2013"></a>Erstellen einer Benutzerrichtlinie für den beständigen Chat in lync Server 2013
 

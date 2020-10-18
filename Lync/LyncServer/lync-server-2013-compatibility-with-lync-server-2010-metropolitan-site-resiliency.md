@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Kompatibilität mit lync Server 2010 Ausfallsicherheit von großstädtischen Standorten
+description: Lync Server 2013 Kompatibilität mit lync Server 2010 Ausfallsicherheit von großstädtischen Standorten.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04b3cca41b0ea7a7060e6349127dc7c7fb1732ea
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec72f261ac593b24bad13dcd400f495ba7ba0722
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526052"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576931"
 ---
 # <a name="lync-server-2010-metropolitan-site-resiliency"></a>Ausfallsicherheit für lync Server 2010 Metropole-Standort
 

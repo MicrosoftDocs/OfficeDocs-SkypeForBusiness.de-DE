@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Sichern und schützen von Datenbanken'
+description: 'Lync Server 2013: Härten und schützen von Datenbanken.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0254c77bb276add6f55ccff623c1fc2bec590102
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: af1ed8f54384e8ecac3b1e4ce6a4253a10bcc2c6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536912"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577431"
 ---
 # <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Härten und schützen der Datenbanken von lync Server 2013
 

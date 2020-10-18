@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen
+description: Erstellen oder ändern Sie eine Sammlung von Konfigurationseinstellungen für Clientversionen.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50873757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56061b4d6c801263c30e471acef70e68c10bfea1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0082b618b8417c9d0da44599f1606cd238dfd7e8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521742"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578311"
 ---
 # <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen in lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erstellen oder Ändern einer Sammlung von KDS-Konfigurationseinstellungen'
+description: 'Lync Server 2013: Erstellen oder ändern Sie eine Sammlung von KDS-Konfigurationseinstellungen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582df13f3bcd7c1d25e8bf15ce1534992ba6aeeb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3ba911607db55a7b7206645495e70a27ed453784
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514792"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578331"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Auflistung von KDS-Konfigurationseinstellungen in lync Server 2013
 
