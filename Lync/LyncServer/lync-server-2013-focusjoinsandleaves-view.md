@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: FocusJoinsAndLeaves-Ansicht'
+description: 'Lync Server 2013: FocusJoinsAndLeaves-Ansicht.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b71678b9fbd19cfd52c81976de0955ea39ce9e4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c6f68c44461e378e9ebedce1305ee6b384a7a8a7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500822"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577451"
 ---
-# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a><span data-ttu-id="5d2dc-102">FocusJoinsAndLeaves-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5d2dc-102">FocusJoinsAndLeaves view in Lync Server 2013</span></span>
+# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a><span data-ttu-id="50e49-103">FocusJoinsAndLeaves-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="50e49-103">FocusJoinsAndLeaves view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48500822"
 
 <span> </span>
 
-<span data-ttu-id="5d2dc-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="5d2dc-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="50e49-104">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="50e49-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="5d2dc-104">In der FocusJoinsAndLeaves-Ansicht werden Informationen zu Join-und Leave-Informationen für eine Konferenz gespeichert.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-104">The FocusJoinsAndLeaves view stores information about join and leave information for one conference.</span></span> <span data-ttu-id="5d2dc-105">Jede Konferenz wird in dieser Ansicht durch einen Datensatz dargestellt, der jedes Mal geschrieben wird, wenn ein Benutzer einer Konferenz Beitritt und diese verlässt.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-105">Each conference is represented in this view by a record written each time a user joins and leaves the conference.</span></span> <span data-ttu-id="5d2dc-106">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="50e49-105">In der FocusJoinsAndLeaves-Ansicht werden Informationen zu Join-und Leave-Informationen für eine Konferenz gespeichert.</span><span class="sxs-lookup"><span data-stu-id="50e49-105">The FocusJoinsAndLeaves view stores information about join and leave information for one conference.</span></span> <span data-ttu-id="50e49-106">Jede Konferenz wird in dieser Ansicht durch einen Datensatz dargestellt, der jedes Mal geschrieben wird, wenn ein Benutzer einer Konferenz Beitritt und diese verlässt.</span><span class="sxs-lookup"><span data-stu-id="50e49-106">Each conference is represented in this view by a record written each time a user joins and leaves the conference.</span></span> <span data-ttu-id="50e49-107">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="50e49-107">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,96 +51,96 @@ ms.locfileid: "48500822"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5d2dc-107">Spalte</span><span class="sxs-lookup"><span data-stu-id="5d2dc-107">Column</span></span></th>
-<th><span data-ttu-id="5d2dc-108">Datentyp</span><span class="sxs-lookup"><span data-stu-id="5d2dc-108">Data Type</span></span></th>
-<th><span data-ttu-id="5d2dc-109">Details</span><span class="sxs-lookup"><span data-stu-id="5d2dc-109">Details</span></span></th>
+<th><span data-ttu-id="50e49-108">Spalte</span><span class="sxs-lookup"><span data-stu-id="50e49-108">Column</span></span></th>
+<th><span data-ttu-id="50e49-109">Datentyp</span><span class="sxs-lookup"><span data-stu-id="50e49-109">Data Type</span></span></th>
+<th><span data-ttu-id="50e49-110">Details</span><span class="sxs-lookup"><span data-stu-id="50e49-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-110"><strong>SessionID</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-110"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-111">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5d2dc-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-112">Zeitpunkt der Konferenzinstanz.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-112">Time of conference instance.</span></span> <span data-ttu-id="5d2dc-113">Wird zusammen mit SessionIdSeq verwendet, um eine Konferenzinstanz eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-113">Used in conjunction with SessionIdSeq to uniquely identify a conference instance.</span></span> <span data-ttu-id="5d2dc-114">Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5d2dc-114">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-111"><strong>SessionID</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-111"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-112">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="50e49-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="50e49-113">Zeitpunkt der Konferenzinstanz.</span><span class="sxs-lookup"><span data-stu-id="50e49-113">Time of conference instance.</span></span> <span data-ttu-id="50e49-114">Wird zusammen mit SessionIdSeq verwendet, um eine Konferenzinstanz eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="50e49-114">Used in conjunction with SessionIdSeq to uniquely identify a conference instance.</span></span> <span data-ttu-id="50e49-115">Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="50e49-115">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-116">int</span><span class="sxs-lookup"><span data-stu-id="5d2dc-116">int</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-117">ID zur Identifikation der Konferenzinstanz.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-117">ID number to identify the conference instance.</span></span> <span data-ttu-id="5d2dc-118">Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-118">Used in conjunction with SessionIdTime to uniquely identify a conference instance.</span></span> <span data-ttu-id="5d2dc-119">Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5d2dc-119">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-116"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-116"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-117">int</span><span class="sxs-lookup"><span data-stu-id="50e49-117">int</span></span></p></td>
+<td><p><span data-ttu-id="50e49-118">ID zur Identifikation der Konferenzinstanz.</span><span class="sxs-lookup"><span data-stu-id="50e49-118">ID number to identify the conference instance.</span></span> <span data-ttu-id="50e49-119">Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="50e49-119">Used in conjunction with SessionIdTime to uniquely identify a conference instance.</span></span> <span data-ttu-id="50e49-120">Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="50e49-120">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-120"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-120"><strong>UserUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-121">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="5d2dc-121">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-122">URI des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-122">URI of the user whose conference join/leave information was captured.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-121"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-121"><strong>UserUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-122">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="50e49-122">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="50e49-123">URI des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="50e49-123">URI of the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-123"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-123"><strong>UserUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-124">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5d2dc-124">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-125">Typ des URIs des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-125">Type of URI of the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="5d2dc-126">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5d2dc-126">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-124"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-124"><strong>UserUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-125">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="50e49-125">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="50e49-126">Typ des URIs des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="50e49-126">Type of URI of the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="50e49-127">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="50e49-127">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-127"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-127"><strong>UserTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-128">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5d2dc-128">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-129">Mandant des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-129">Tenant of the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="5d2dc-130">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5d2dc-130">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-128"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-128"><strong>UserTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-129">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="50e49-129">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="50e49-130">Mandant des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="50e49-130">Tenant of the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="50e49-131">Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="50e49-131">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-131"><strong>UserEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-131"><strong>UserEndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-132">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="5d2dc-132">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-133">Eindeutiger Bezeichner des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-133">Unique identifier of the user whose conference join/leave information was captured.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-132"><strong>UserEndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-132"><strong>UserEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-133">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="50e49-133">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="50e49-134">Eindeutiger Bezeichner des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="50e49-134">Unique identifier of the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-134"><strong>UserClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-134"><strong>UserClientVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-135">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5d2dc-135">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-136">Version des Client des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-136">Version of client used by the user whose conference join/leave information was captured.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-135"><strong>UserClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-135"><strong>UserClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-136">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="50e49-136">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="50e49-137">Version des Client des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="50e49-137">Version of client used by the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-137"><strong>UserClientType</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-137"><strong>UserClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-138">int</span><span class="sxs-lookup"><span data-stu-id="5d2dc-138">int</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-139">Client, der vom Benutzer verwendet wurde, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-139">Client used by the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="5d2dc-140">Weitere Informationen finden Sie unter <a href="lync-server-2013-useragentdef-table.md">UserAgentDef-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5d2dc-140">See <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-138"><strong>UserClientType</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-138"><strong>UserClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-139">int</span><span class="sxs-lookup"><span data-stu-id="50e49-139">int</span></span></p></td>
+<td><p><span data-ttu-id="50e49-140">Client, der vom Benutzer verwendet wurde, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="50e49-140">Client used by the user whose conference join/leave information was captured.</span></span> <span data-ttu-id="50e49-141">Weitere Informationen finden Sie unter <a href="lync-server-2013-useragentdef-table.md">UserAgentDef-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="50e49-141">See <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-141"><strong>UserClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-141"><strong>UserClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-142">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="5d2dc-142">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-143">Name der Kategorie des Clients des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-143">Name of the category of the client used by the user whose conference join/leave information was captured.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-142"><strong>UserClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-142"><strong>UserClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-143">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="50e49-143">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="50e49-144">Name der Kategorie des Clients des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="50e49-144">Name of the category of the client used by the user whose conference join/leave information was captured.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-144"><strong>FocusUserInstance</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-144"><strong>FocusUserInstance</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-145">int</span><span class="sxs-lookup"><span data-stu-id="5d2dc-145">int</span></span></p></td>
+<td><p><span data-ttu-id="50e49-145"><strong>FocusUserInstance</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-145"><strong>FocusUserInstance</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-146">int</span><span class="sxs-lookup"><span data-stu-id="50e49-146">int</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-146"><strong>IsuserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-146"><strong>IsuserInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-147">Bit</span><span class="sxs-lookup"><span data-stu-id="5d2dc-147">bit</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-148">Bitwert, der angibt, ob ein Benutzer ein interner Benutzer ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-148">Bit that represents whether the user is an internal user or not.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-147"><strong>IsuserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-147"><strong>IsuserInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-148">Bit</span><span class="sxs-lookup"><span data-stu-id="50e49-148">bit</span></span></p></td>
+<td><p><span data-ttu-id="50e49-149">Bitwert, der angibt, ob ein Benutzer ein interner Benutzer ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="50e49-149">Bit that represents whether the user is an internal user or not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-149"><strong>DialogSessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-149"><strong>DialogSessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-150">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5d2dc-150">datetime</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-151">Zeitpunkt der Sitzungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-151">Time of session request.</span></span> <span data-ttu-id="5d2dc-152">Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren..</span><span class="sxs-lookup"><span data-stu-id="5d2dc-152">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="5d2dc-153">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="5d2dc-153">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-150"><strong>DialogSessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-150"><strong>DialogSessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-151">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="50e49-151">datetime</span></span></p></td>
+<td><p><span data-ttu-id="50e49-152">Zeitpunkt der Sitzungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="50e49-152">Time of session request.</span></span> <span data-ttu-id="50e49-153">Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren..</span><span class="sxs-lookup"><span data-stu-id="50e49-153">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="50e49-154">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="50e49-154">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-154"><strong>DialogSessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-154"><strong>DialogSessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-155">int</span><span class="sxs-lookup"><span data-stu-id="5d2dc-155">int</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-156">Wenn ein Benutzer auf mehreren Computern oder Geräten gleichzeitig angemeldet ist, wird UserInstance verwendet, um die Benutzer/Geräte-Kombination eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-156">If a user is logged on at multiple computers or devices at the same time, UserInstance is used to uniquely identify the user/device combination.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-155"><strong>DialogSessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-155"><strong>DialogSessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-156">int</span><span class="sxs-lookup"><span data-stu-id="50e49-156">int</span></span></p></td>
+<td><p><span data-ttu-id="50e49-157">Wenn ein Benutzer auf mehreren Computern oder Geräten gleichzeitig angemeldet ist, wird UserInstance verwendet, um die Benutzer/Geräte-Kombination eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="50e49-157">If a user is logged on at multiple computers or devices at the same time, UserInstance is used to uniquely identify the user/device combination.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-157"><strong>ID</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-157"><strong>DialogId</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-158">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="5d2dc-158">varchar(775)</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-p108">SIP-DialogID der Sitzung. Das Format lautet: dialog;from-tag;to-tag.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-p108">SIP dialog ID of the session. The format is: dialog;from-tag;to-tag.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-158"><strong>ID</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-158"><strong>DialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-159">varchar (775)</span><span class="sxs-lookup"><span data-stu-id="50e49-159">varchar(775)</span></span></p></td>
+<td><p><span data-ttu-id="50e49-p108">SIP-DialogID der Sitzung. Das Format lautet: dialog;from-tag;to-tag.</span><span class="sxs-lookup"><span data-stu-id="50e49-p108">SIP dialog ID of the session. The format is: dialog;from-tag;to-tag.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-161"><strong>UserJoinTime</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-161"><strong>UserJoinTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-162">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5d2dc-162">datetime</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-163">Zeitpunkt, zu dem dieser Benutzer der Konferenz beitrat.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-163">Time that the user joined the conference.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-162"><strong>UserJoinTime</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-162"><strong>UserJoinTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-163">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="50e49-163">datetime</span></span></p></td>
+<td><p><span data-ttu-id="50e49-164">Zeitpunkt, zu dem dieser Benutzer der Konferenz beitrat.</span><span class="sxs-lookup"><span data-stu-id="50e49-164">Time that the user joined the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d2dc-164"><strong>UserLeaveTime</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-164"><strong>UserLeaveTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-165">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="5d2dc-165">datetime</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-166">Zeitpunkt, zu dem dieser Benutzer die Konferenz verließ.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-166">Time that the user left the conference.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-165"><strong>UserLeaveTime</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-165"><strong>UserLeaveTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-166">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="50e49-166">datetime</span></span></p></td>
+<td><p><span data-ttu-id="50e49-167">Zeitpunkt, zu dem dieser Benutzer die Konferenz verließ.</span><span class="sxs-lookup"><span data-stu-id="50e49-167">Time that the user left the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d2dc-167"><strong>UserRole</strong></span><span class="sxs-lookup"><span data-stu-id="5d2dc-167"><strong>UserRole</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-168">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="5d2dc-168">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="5d2dc-169">Die Rolle des Benutzers bei der Konferenz, wie etwa Referent oder Teilnehmer.</span><span class="sxs-lookup"><span data-stu-id="5d2dc-169">User’s role in the conference, such as Presenter or Attendee.</span></span></p></td>
+<td><p><span data-ttu-id="50e49-168"><strong>UserRole</strong></span><span class="sxs-lookup"><span data-stu-id="50e49-168"><strong>UserRole</strong></span></span></p></td>
+<td><p><span data-ttu-id="50e49-169">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="50e49-169">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="50e49-170">Die Rolle des Benutzers bei der Konferenz, wie etwa Referent oder Teilnehmer.</span><span class="sxs-lookup"><span data-stu-id="50e49-170">User’s role in the conference, such as Presenter or Attendee.</span></span></p></td>
 </tr>
 </tbody>
 </table>

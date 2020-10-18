@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Registration-Tabelle'
+description: 'Lync Server 2013: Registrierungstabelle.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c40fddd324cd687b54d0c3317edc533fa559c8d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 806e1a4e944c9bc04ebdd167c41c80a57fde3f29
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536692"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578525"
 ---
-# <a name="registration-table-in-lync-server-2013"></a><span data-ttu-id="06079-102">Registrierungstabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06079-102">Registration table in Lync Server 2013</span></span>
+# <a name="registration-table-in-lync-server-2013"></a><span data-ttu-id="e5765-103">Registrierungstabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5765-103">Registration table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48536692"
 
 <span> </span>
 
-<span data-ttu-id="06079-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="06079-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="e5765-104">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="e5765-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="06079-104">Jeder Datensatz stellt ein Benutzerregistrierungsereignis dar.</span><span class="sxs-lookup"><span data-stu-id="06079-104">Each record represents one user registration event.</span></span>
+<span data-ttu-id="e5765-105">Jeder Datensatz stellt ein Benutzerregistrierungsereignis dar.</span><span class="sxs-lookup"><span data-stu-id="e5765-105">Each record represents one user registration event.</span></span>
 
 
 <table>
@@ -51,135 +52,135 @@ ms.locfileid: "48536692"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="06079-105">Spalte</span><span class="sxs-lookup"><span data-stu-id="06079-105">Column</span></span></th>
-<th><span data-ttu-id="06079-106">Datentyp</span><span class="sxs-lookup"><span data-stu-id="06079-106">Data Type</span></span></th>
-<th><span data-ttu-id="06079-107">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="06079-107">Key/Index</span></span></th>
-<th><span data-ttu-id="06079-108">Details</span><span class="sxs-lookup"><span data-stu-id="06079-108">Details</span></span></th>
+<th><span data-ttu-id="e5765-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="e5765-106">Column</span></span></th>
+<th><span data-ttu-id="e5765-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="e5765-107">Data Type</span></span></th>
+<th><span data-ttu-id="e5765-108">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="e5765-108">Key/Index</span></span></th>
+<th><span data-ttu-id="e5765-109">Details</span><span class="sxs-lookup"><span data-stu-id="e5765-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-109"><strong>SessionID</strong></span><span class="sxs-lookup"><span data-stu-id="06079-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-110">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="06079-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="06079-111">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-112">Zeitpunkt der Sitzungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="06079-112">Time of session request.</span></span> <span data-ttu-id="06079-113">Wird zusammen mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="06079-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="06079-114">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-110"><strong>SessionID</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-111">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="e5765-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="e5765-112">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-113">Zeitpunkt der Sitzungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="e5765-113">Time of session request.</span></span> <span data-ttu-id="e5765-114">Wird zusammen mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="e5765-114">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="e5765-115">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-115">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="06079-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-116">int</span><span class="sxs-lookup"><span data-stu-id="06079-116">int</span></span></p></td>
-<td><p><span data-ttu-id="06079-117">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-118">ID zur Identifikation der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="06079-118">ID number to identify the session.</span></span> <span data-ttu-id="06079-119">Wird zusammen mit <strong>SessionIdTime</strong> verwendet, um eine Sitzung eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="06079-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="06079-120">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-116"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-116"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-117">int</span><span class="sxs-lookup"><span data-stu-id="e5765-117">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-118">Primär, Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-118">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-119">ID zur Identifikation der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="e5765-119">ID number to identify the session.</span></span> <span data-ttu-id="e5765-120">Wird zusammen mit <strong>SessionIdTime</strong> verwendet, um eine Sitzung eindeutig zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="e5765-120">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="e5765-121">Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-121">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-121"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="06079-121"><strong>UserId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-122">int</span><span class="sxs-lookup"><span data-stu-id="06079-122">int</span></span></p></td>
-<td><p><span data-ttu-id="06079-123">Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-123">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-124">Die Benutzer-ID.</span><span class="sxs-lookup"><span data-stu-id="06079-124">The user ID.</span></span> <span data-ttu-id="06079-125">Weitere Informationen finden Sie <a href="lync-server-2013-users-table.md">in der Tabelle Benutzer in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-125">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-122"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-122"><strong>UserId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-123">int</span><span class="sxs-lookup"><span data-stu-id="e5765-123">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-124">Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-124">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-125">Die Benutzer-ID.</span><span class="sxs-lookup"><span data-stu-id="e5765-125">The user ID.</span></span> <span data-ttu-id="e5765-126">Weitere Informationen finden Sie <a href="lync-server-2013-users-table.md">in der Tabelle Benutzer in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-126">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-126"><strong>EndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="06079-126"><strong>EndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-127">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="06079-127">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="e5765-127"><strong>EndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-127"><strong>EndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-128">uniqueidentifier</span><span class="sxs-lookup"><span data-stu-id="e5765-128">uniqueidentifier</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-p104">Eine GUID (Globally Unique Identifier) zur Kennzeichnung eines Registrierungsendpunkts. In der Regel hat jedes Registrierungsereignis vom gleichen Computer des gleichen Benutzers die gleiche Endpunkt-ID. Verschiedene Computer haben unterschiedliche Endpunkt-IDs.</span><span class="sxs-lookup"><span data-stu-id="06079-p104">A GUID to identify a registration endpoint. Usually the register event from the same computer of the same user will have the same endpoint ID. Different machines have a different endpoint ID.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-p104">Eine GUID (Globally Unique Identifier) zur Kennzeichnung eines Registrierungsendpunkts. In der Regel hat jedes Registrierungsereignis vom gleichen Computer des gleichen Benutzers die gleiche Endpunkt-ID. Verschiedene Computer haben unterschiedliche Endpunkt-IDs.</span><span class="sxs-lookup"><span data-stu-id="e5765-p104">A GUID to identify a registration endpoint. Usually the register event from the same computer of the same user will have the same endpoint ID. Different machines have a different endpoint ID.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-131"><strong>EndpointEra</strong></span><span class="sxs-lookup"><span data-stu-id="06079-131"><strong>EndpointEra</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-132">uniqueIdentifier</span><span class="sxs-lookup"><span data-stu-id="06079-132">uniqueIdentifier</span></span></p></td>
+<td><p><span data-ttu-id="e5765-132"><strong>EndpointEra</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-132"><strong>EndpointEra</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-133">uniqueIdentifier</span><span class="sxs-lookup"><span data-stu-id="e5765-133">uniqueIdentifier</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-133">ID zum Unterscheiden von Registrierungen, die denselben Benutzer und denselben Endpunkt betreffen.</span><span class="sxs-lookup"><span data-stu-id="06079-133">ID used to differentiate registrations that involve the same user and the same endpoint.</span></span></p>
-<p><span data-ttu-id="06079-134">Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="06079-134">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-134">ID zum Unterscheiden von Registrierungen, die denselben Benutzer und denselben Endpunkt betreffen.</span><span class="sxs-lookup"><span data-stu-id="e5765-134">ID used to differentiate registrations that involve the same user and the same endpoint.</span></span></p>
+<p><span data-ttu-id="e5765-135">Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="e5765-135">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-135"><strong>ClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="06079-135"><strong>ClientVersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-136">int</span><span class="sxs-lookup"><span data-stu-id="06079-136">int</span></span></p></td>
-<td><p><span data-ttu-id="06079-137">Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-137">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-138">Die Clientversion des aktuellen Benutzers.</span><span class="sxs-lookup"><span data-stu-id="06079-138">Client version of current user.</span></span> <span data-ttu-id="06079-139">Weitere Informationen finden Sie <a href="lync-server-2013-clientversions-table.md">in der Client Versions-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-139">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-136"><strong>ClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-136"><strong>ClientVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-137">int</span><span class="sxs-lookup"><span data-stu-id="e5765-137">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-138">Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-138">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-139">Die Clientversion des aktuellen Benutzers.</span><span class="sxs-lookup"><span data-stu-id="e5765-139">Client version of current user.</span></span> <span data-ttu-id="e5765-140">Weitere Informationen finden Sie <a href="lync-server-2013-clientversions-table.md">in der Client Versions-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-140">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-140"><strong>Registrierungsstelle</strong></span><span class="sxs-lookup"><span data-stu-id="06079-140"><strong>RegistrarId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-141">int</span><span class="sxs-lookup"><span data-stu-id="06079-141">int</span></span></p></td>
-<td><p><span data-ttu-id="06079-142">Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-142">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-143">Die ID des Registrierungsservers, der für die Registrierung verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="06079-143">ID of the Registrar Server used for registration.</span></span> <span data-ttu-id="06079-144">Weitere Informationen finden Sie <a href="lync-server-2013-servers-table.md">in der Tabelle Server in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-144">See the <a href="lync-server-2013-servers-table.md">Servers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-141"><strong>Registrierungsstelle</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-141"><strong>RegistrarId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-142">int</span><span class="sxs-lookup"><span data-stu-id="e5765-142">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-143">Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-143">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-144">Die ID des Registrierungsservers, der für die Registrierung verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="e5765-144">ID of the Registrar Server used for registration.</span></span> <span data-ttu-id="e5765-145">Weitere Informationen finden Sie <a href="lync-server-2013-servers-table.md">in der Tabelle Server in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-145">See the <a href="lync-server-2013-servers-table.md">Servers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-145"><strong>Pool-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="06079-145"><strong>PoolId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-146">int</span><span class="sxs-lookup"><span data-stu-id="06079-146">int</span></span></p></td>
-<td><p><span data-ttu-id="06079-147">Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-147">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-148">ID des Pools, in dem die Sitzung erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="06079-148">ID of the pool in which the session was captured.</span></span> <span data-ttu-id="06079-149">Weitere Informationen finden Sie <a href="lync-server-2013-pools-table.md">in der Tabelle Pools in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-149">See the <a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-146"><strong>Pool-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-146"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-147">int</span><span class="sxs-lookup"><span data-stu-id="e5765-147">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-148">Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-148">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-149">ID des Pools, in dem die Sitzung erfasst wurde.</span><span class="sxs-lookup"><span data-stu-id="e5765-149">ID of the pool in which the session was captured.</span></span> <span data-ttu-id="e5765-150">Weitere Informationen finden Sie <a href="lync-server-2013-pools-table.md">in der Tabelle Pools in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-150">See the <a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-150"><strong>EdgeServerId</strong></span><span class="sxs-lookup"><span data-stu-id="06079-150"><strong>EdgeServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-151">int</span><span class="sxs-lookup"><span data-stu-id="06079-151">int</span></span></p></td>
-<td><p><span data-ttu-id="06079-152">Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-152">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-153">Der Edgeserver, über den die Registrierung läuft.</span><span class="sxs-lookup"><span data-stu-id="06079-153">Edge Server the registration is going through.</span></span> <span data-ttu-id="06079-154">Weitere Informationen finden Sie <a href="lync-server-2013-edgeservers-table.md">in der EdgeServers-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-154">See the <a href="lync-server-2013-edgeservers-table.md">EdgeServers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-151"><strong>EdgeServerId</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-151"><strong>EdgeServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-152">int</span><span class="sxs-lookup"><span data-stu-id="e5765-152">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-153">Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-153">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-154">Der Edgeserver, über den die Registrierung läuft.</span><span class="sxs-lookup"><span data-stu-id="e5765-154">Edge Server the registration is going through.</span></span> <span data-ttu-id="e5765-155">Weitere Informationen finden Sie <a href="lync-server-2013-edgeservers-table.md">in der EdgeServers-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-155">See the <a href="lync-server-2013-edgeservers-table.md">EdgeServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-155"><strong>IsInternal</strong></span><span class="sxs-lookup"><span data-stu-id="06079-155"><strong>IsInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-156">Bit</span><span class="sxs-lookup"><span data-stu-id="06079-156">Bit</span></span></p></td>
+<td><p><span data-ttu-id="e5765-156"><strong>IsInternal</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-156"><strong>IsInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-157">Bit</span><span class="sxs-lookup"><span data-stu-id="e5765-157">Bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-157">Ob der Benutzer von innerhalb angemeldet ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="06079-157">Whether the user is logged on from internal or not.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-158">Ob der Benutzer von innerhalb angemeldet ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="e5765-158">Whether the user is logged on from internal or not.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-158"><strong>IsUserServiceAvailable</strong></span><span class="sxs-lookup"><span data-stu-id="06079-158"><strong>IsUserServiceAvailable</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-159">Bit</span><span class="sxs-lookup"><span data-stu-id="06079-159">bit</span></span></p></td>
+<td><p><span data-ttu-id="e5765-159"><strong>IsUserServiceAvailable</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-159"><strong>IsUserServiceAvailable</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-160">Bit</span><span class="sxs-lookup"><span data-stu-id="e5765-160">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-160">Ob der Benutzerdienst verfügbar ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="06079-160">Whether the UserService is available or not.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-161">Ob der Benutzerdienst verfügbar ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="e5765-161">Whether the UserService is available or not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-161"><strong>IsPrimaryRegistrar</strong></span><span class="sxs-lookup"><span data-stu-id="06079-161"><strong>IsPrimaryRegistrar</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-162">Bit</span><span class="sxs-lookup"><span data-stu-id="06079-162">bit</span></span></p></td>
+<td><p><span data-ttu-id="e5765-162"><strong>IsPrimaryRegistrar</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-162"><strong>IsPrimaryRegistrar</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-163">Bit</span><span class="sxs-lookup"><span data-stu-id="e5765-163">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-163">Ob die Registrierung bei der primären Registrierung erfolgt oder nicht.</span><span class="sxs-lookup"><span data-stu-id="06079-163">Whether register to the primary Registrar or not.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-164">Ob die Registrierung bei der primären Registrierung erfolgt oder nicht.</span><span class="sxs-lookup"><span data-stu-id="e5765-164">Whether register to the primary Registrar or not.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-164"><strong>IsPrimaryRegistrarCentral</strong></span><span class="sxs-lookup"><span data-stu-id="06079-164"><strong>IsPrimaryRegistrarCentral</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-165">Bit</span><span class="sxs-lookup"><span data-stu-id="06079-165">bit</span></span></p></td>
+<td><p><span data-ttu-id="e5765-165"><strong>IsPrimaryRegistrarCentral</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-165"><strong>IsPrimaryRegistrarCentral</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-166">Bit</span><span class="sxs-lookup"><span data-stu-id="e5765-166">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-166">Gibt an, ob der Benutzer mit einer Survivable Branch Appliance registriert ist.</span><span class="sxs-lookup"><span data-stu-id="06079-166">Indicates whether or not the user is registered with a survivable branch appliance.</span></span></p>
-<p><span data-ttu-id="06079-167">Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="06079-167">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-167">Gibt an, ob der Benutzer mit einer Survivable Branch Appliance registriert ist.</span><span class="sxs-lookup"><span data-stu-id="e5765-167">Indicates whether or not the user is registered with a survivable branch appliance.</span></span></p>
+<p><span data-ttu-id="e5765-168">Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="e5765-168">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-168"><strong>Registerzeit</strong></span><span class="sxs-lookup"><span data-stu-id="06079-168"><strong>RegisterTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-169">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="06079-169">datetime</span></span></p></td>
+<td><p><span data-ttu-id="e5765-169"><strong>Registerzeit</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-169"><strong>RegisterTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-170">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="e5765-170">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-170">Der Zeitpunkt der Registrierung.</span><span class="sxs-lookup"><span data-stu-id="06079-170">Registration time.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-171">Der Zeitpunkt der Registrierung.</span><span class="sxs-lookup"><span data-stu-id="e5765-171">Registration time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-171"><strong>Deregisterzeit</strong></span><span class="sxs-lookup"><span data-stu-id="06079-171"><strong>DeRegisterTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-172">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="06079-172">datetime</span></span></p></td>
+<td><p><span data-ttu-id="e5765-172"><strong>Deregisterzeit</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-172"><strong>DeRegisterTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-173">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="e5765-173">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-173">Der Zeitpunkt der Aufhebung der Registrierung.</span><span class="sxs-lookup"><span data-stu-id="06079-173">De-Registration time.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-174">Der Zeitpunkt der Aufhebung der Registrierung.</span><span class="sxs-lookup"><span data-stu-id="e5765-174">De-Registration time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-174"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="06079-174"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-175">int</span><span class="sxs-lookup"><span data-stu-id="06079-175">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-175"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-175"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-176">int</span><span class="sxs-lookup"><span data-stu-id="e5765-176">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-176">Der Antwortcode der Registrierungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="06079-176">Response code of the register request.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-177">Der Antwortcode der Registrierungsanforderung.</span><span class="sxs-lookup"><span data-stu-id="e5765-177">Response code of the register request.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-177"><strong>Diagnose-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="06079-177"><strong>DiagnosticId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-178">int</span><span class="sxs-lookup"><span data-stu-id="06079-178">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-178"><strong>Diagnose-Nr</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-178"><strong>DiagnosticId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-179">int</span><span class="sxs-lookup"><span data-stu-id="e5765-179">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-p109">Die Diagnose-ID der Registrierungsanforderung. Diese gibt den Diagnoseinformationstyp an.</span><span class="sxs-lookup"><span data-stu-id="06079-p109">Diagnostic ID of the register request. This indicates that diagnostic information type.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-p109">Die Diagnose-ID der Registrierungsanforderung. Diese gibt den Diagnoseinformationstyp an.</span><span class="sxs-lookup"><span data-stu-id="e5765-p109">Diagnostic ID of the register request. This indicates that diagnostic information type.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-181"><strong>DeviceID</strong></span><span class="sxs-lookup"><span data-stu-id="06079-181"><strong>DeviceId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-182">int</span><span class="sxs-lookup"><span data-stu-id="06079-182">int</span></span></p></td>
-<td><p><span data-ttu-id="06079-183">Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-183">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-184">Das Gerät, von dem die Registrierungsanforderung stammt.</span><span class="sxs-lookup"><span data-stu-id="06079-184">The device that the register request is coming from.</span></span> <span data-ttu-id="06079-185">Weitere Informationen finden Sie <a href="lync-server-2013-devices-table.md">in der Tabelle "Geräte" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-185">See the <a href="lync-server-2013-devices-table.md">Devices table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-182"><strong>DeviceID</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-182"><strong>DeviceId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-183">int</span><span class="sxs-lookup"><span data-stu-id="e5765-183">int</span></span></p></td>
+<td><p><span data-ttu-id="e5765-184">Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-184">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-185">Das Gerät, von dem die Registrierungsanforderung stammt.</span><span class="sxs-lookup"><span data-stu-id="e5765-185">The device that the register request is coming from.</span></span> <span data-ttu-id="e5765-186">Weitere Informationen finden Sie <a href="lync-server-2013-devices-table.md">in der Tabelle "Geräte" in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-186">See the <a href="lync-server-2013-devices-table.md">Devices table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06079-186"><strong>DeRegisterTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="06079-186"><strong>DeRegisterTypeId</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-187">tinyint</span><span class="sxs-lookup"><span data-stu-id="06079-187">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="06079-188">Fremd</span><span class="sxs-lookup"><span data-stu-id="06079-188">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="06079-189">Der Grund für die Aufhebung der Registrierung, z. B. vom Benutzer initiiert, Registrierung abgelaufen, Fehler beim Client usw.</span><span class="sxs-lookup"><span data-stu-id="06079-189">The reason of de-register, such as ‘user initiated’, ‘registration expired’, ‘client fail’, and more.</span></span> <span data-ttu-id="06079-190">Weitere Informationen finden Sie <a href="lync-server-2013-deregistertype-table.md">in der deregistertype-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="06079-190">See the <a href="lync-server-2013-deregistertype-table.md">DeRegisterType table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-187"><strong>DeRegisterTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-187"><strong>DeRegisterTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-188">tinyint</span><span class="sxs-lookup"><span data-stu-id="e5765-188">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="e5765-189">Fremd</span><span class="sxs-lookup"><span data-stu-id="e5765-189">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e5765-190">Der Grund für die Aufhebung der Registrierung, z. B. vom Benutzer initiiert, Registrierung abgelaufen, Fehler beim Client usw.</span><span class="sxs-lookup"><span data-stu-id="e5765-190">The reason of de-register, such as ‘user initiated’, ‘registration expired’, ‘client fail’, and more.</span></span> <span data-ttu-id="e5765-191">Weitere Informationen finden Sie <a href="lync-server-2013-deregistertype-table.md">in der deregistertype-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e5765-191">See the <a href="lync-server-2013-deregistertype-table.md">DeRegisterType table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06079-191"><strong>IPAddress</strong></span><span class="sxs-lookup"><span data-stu-id="06079-191"><strong>IPAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="06079-192">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="06079-192">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e5765-192"><strong>IPAddress</strong></span><span class="sxs-lookup"><span data-stu-id="e5765-192"><strong>IPAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5765-193">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e5765-193">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="06079-193">IP-Adresse des Endpunkts, mit dem sich der Benutzer registriert hat.</span><span class="sxs-lookup"><span data-stu-id="06079-193">IP address of the endpoint the user registered with.</span></span> <span data-ttu-id="06079-194">Dies kann eine IPv4- oder eine IPv6-Adresse sein.</span><span class="sxs-lookup"><span data-stu-id="06079-194">This can be an IPv4 address or an IPv6 address.</span></span></p>
-<p><span data-ttu-id="06079-195">Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="06079-195">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="e5765-194">IP-Adresse des Endpunkts, mit dem sich der Benutzer registriert hat.</span><span class="sxs-lookup"><span data-stu-id="e5765-194">IP address of the endpoint the user registered with.</span></span> <span data-ttu-id="e5765-195">Dies kann eine IPv4- oder eine IPv6-Adresse sein.</span><span class="sxs-lookup"><span data-stu-id="e5765-195">This can be an IPv4 address or an IPv6 address.</span></span></p>
+<p><span data-ttu-id="e5765-196">Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="e5765-196">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>
