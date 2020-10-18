@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Wiederherstellen von Daten für beständigen Chat'
+description: 'Lync Server 2013: Wiederherstellen von Daten für beständigen Chat.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dfe3a6c23e9de159c9024d660caf3f04fe648b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7c75683e151daaadab8374ed5b41886da9a3aea3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511408"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575516"
 ---
-# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a><span data-ttu-id="1fb4d-102">Wiederherstellen von Daten für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1fb4d-102">Restoring Persistent Chat data in Lync Server 2013</span></span>
+# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a><span data-ttu-id="b0355-103">Wiederherstellen von Daten für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b0355-103">Restoring Persistent Chat data in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48511408"
 
 <span> </span>
 
-<span data-ttu-id="1fb4d-103">_**Letztes Änderungsstand des Themas:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="1fb4d-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="b0355-104">_**Letztes Änderungsstand des Themas:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="b0355-104">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="1fb4d-104">Inhalt des beständigen Chatrooms wird in der Datenbank für beständigen Chat (MGC. mdf) gespeichert.</span><span class="sxs-lookup"><span data-stu-id="1fb4d-104">Persistent Chat room content is stored in the Persistent Chat database (mgc.mdf).</span></span> <span data-ttu-id="1fb4d-105">Dies sind Geschäfts wichtige Daten, die regelmäßig gesichert werden sollten.</span><span class="sxs-lookup"><span data-stu-id="1fb4d-105">This is business-critical data that should be backed up regularly.</span></span> <span data-ttu-id="1fb4d-106">Zusätzlich zu den Chatroom-Inhalten werden Prinzipale (wie Benutzer und Gruppen) und die Rollen und der Zugriff, die Sie für Chatrooms und Chatroom-Inhalte haben, ebenfalls in der Datenbank für beständigen Chat gespeichert.</span><span class="sxs-lookup"><span data-stu-id="1fb4d-106">In addition to the chat room content, principals (such as users and groups) and the roles and access that they have to chat rooms and chat room content, is also stored in the Persistent Chat database.</span></span>
+<span data-ttu-id="b0355-105">Inhalt des beständigen Chatrooms wird in der Datenbank für beständigen Chat (MGC. mdf) gespeichert.</span><span class="sxs-lookup"><span data-stu-id="b0355-105">Persistent Chat room content is stored in the Persistent Chat database (mgc.mdf).</span></span> <span data-ttu-id="b0355-106">Dies sind Geschäfts wichtige Daten, die regelmäßig gesichert werden sollten.</span><span class="sxs-lookup"><span data-stu-id="b0355-106">This is business-critical data that should be backed up regularly.</span></span> <span data-ttu-id="b0355-107">Zusätzlich zu den Chatroom-Inhalten werden Prinzipale (wie Benutzer und Gruppen) und die Rollen und der Zugriff, die Sie für Chatrooms und Chatroom-Inhalte haben, ebenfalls in der Datenbank für beständigen Chat gespeichert.</span><span class="sxs-lookup"><span data-stu-id="b0355-107">In addition to the chat room content, principals (such as users and groups) and the roles and access that they have to chat rooms and chat room content, is also stored in the Persistent Chat database.</span></span>
 
-<span data-ttu-id="1fb4d-107">Wie Sie Ihre Daten für beständigen Chat wiederherstellen, hängt von der Methode ab, die Sie zum Sichern verwendet haben.</span><span class="sxs-lookup"><span data-stu-id="1fb4d-107">How you restore your Persistent Chat data depends on the method that you used to back it up.</span></span>
+<span data-ttu-id="b0355-108">Wie Sie Ihre Daten für beständigen Chat wiederherstellen, hängt von der Methode ab, die Sie zum Sichern verwendet haben.</span><span class="sxs-lookup"><span data-stu-id="b0355-108">How you restore your Persistent Chat data depends on the method that you used to back it up.</span></span>
 
-  - <span data-ttu-id="1fb4d-108">Wenn Sie SQL Server Sicherungsverfahren verwendet haben, müssen Sie SQL Server Wiederherstellungsverfahren verwenden.</span><span class="sxs-lookup"><span data-stu-id="1fb4d-108">If you used SQL Server backup procedures, you must use SQL Server restore procedures.</span></span>
+  - <span data-ttu-id="b0355-109">Wenn Sie SQL Server Sicherungsverfahren verwendet haben, müssen Sie SQL Server Wiederherstellungsverfahren verwenden.</span><span class="sxs-lookup"><span data-stu-id="b0355-109">If you used SQL Server backup procedures, you must use SQL Server restore procedures.</span></span>
 
-  - <span data-ttu-id="1fb4d-109">Wenn Sie das Cmdlet **Export-CsPersistentChatData** zum Sichern von Daten für beständigen Chat verwendet haben, müssen Sie das Cmdlet **Import-CsPersistentChatData** verwenden, um die Daten wiederherzustellen.</span><span class="sxs-lookup"><span data-stu-id="1fb4d-109">If you used the **Export-CsPersistentChatData** cmdlet to back up Persistent Chat data, then you must use the **Import-CsPersistentChatData** cmdlet to restore the data.</span></span>
+  - <span data-ttu-id="b0355-110">Wenn Sie das Cmdlet **Export-CsPersistentChatData** zum Sichern von Daten für beständigen Chat verwendet haben, müssen Sie das Cmdlet **Import-CsPersistentChatData** verwenden, um die Daten wiederherzustellen.</span><span class="sxs-lookup"><span data-stu-id="b0355-110">If you used the **Export-CsPersistentChatData** cmdlet to back up Persistent Chat data, then you must use the **Import-CsPersistentChatData** cmdlet to restore the data.</span></span>
 
 </div>
 

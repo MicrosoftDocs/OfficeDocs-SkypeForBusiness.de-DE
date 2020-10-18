@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich'
+description: 'Lync Server 2013: Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 743818f81f5083e9c5d3a7877d2518d05176a5e7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 97a89975af16b6e39625677f787d3726f00c76c1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499292"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575971"
 ---
-# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="692e2-102">Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="692e2-102">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>
+# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="b9a38-103">Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9a38-103">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48499292"
 
 <span> </span>
 
-<span data-ttu-id="692e2-103">_**Letztes Änderungsstand des Themas:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="692e2-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="b9a38-104">_**Letztes Änderungsstand des Themas:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="b9a38-104">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="692e2-104">Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und ein Hardwaregerät zum Lastenausgleich verwenden ein Standardzertifikat, das einen Antragstellernamen und alternative Antragstellernamen für Dienste verwendet, die der Director empfangen kann.</span><span class="sxs-lookup"><span data-stu-id="692e2-104">Certificate requirements for a Director with DNS load balancing and a hardware load balancer will use a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="692e2-105">Ein Zertifikat wird für jeden Director im Pool angefordert.</span><span class="sxs-lookup"><span data-stu-id="692e2-105">A certificate is requested for each Director in the pool.</span></span> <span data-ttu-id="692e2-106">Bedenken Sie dabei, dass das Hardwaregerät zum Lastenausgleich den Lastenausgleich nur für den Datenverkehr durchführt, der vom Reverseproxy ausgeht.</span><span class="sxs-lookup"><span data-stu-id="692e2-106">It is important to remember that the hardware load balancer is load balancing only the traffic from the reverse proxy.</span></span> <span data-ttu-id="692e2-107">Außerdem gibt es ein OAuth-Token-Zertifikat für die Authentifizierung von Server zu Server, das auf jedem Server installiert wird.</span><span class="sxs-lookup"><span data-stu-id="692e2-107">Additionally, there is an OAuth Token certificate for server to server authentication purposes that is installed on each server.</span></span>
+<span data-ttu-id="b9a38-105">Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und ein Hardwaregerät zum Lastenausgleich verwenden ein Standardzertifikat, das einen Antragstellernamen und alternative Antragstellernamen für Dienste verwendet, die der Director empfangen kann.</span><span class="sxs-lookup"><span data-stu-id="b9a38-105">Certificate requirements for a Director with DNS load balancing and a hardware load balancer will use a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="b9a38-106">Ein Zertifikat wird für jeden Director im Pool angefordert.</span><span class="sxs-lookup"><span data-stu-id="b9a38-106">A certificate is requested for each Director in the pool.</span></span> <span data-ttu-id="b9a38-107">Bedenken Sie dabei, dass das Hardwaregerät zum Lastenausgleich den Lastenausgleich nur für den Datenverkehr durchführt, der vom Reverseproxy ausgeht.</span><span class="sxs-lookup"><span data-stu-id="b9a38-107">It is important to remember that the hardware load balancer is load balancing only the traffic from the reverse proxy.</span></span> <span data-ttu-id="b9a38-108">Außerdem gibt es ein OAuth-Token-Zertifikat für die Authentifizierung von Server zu Server, das auf jedem Server installiert wird.</span><span class="sxs-lookup"><span data-stu-id="b9a38-108">Additionally, there is an OAuth Token certificate for server to server authentication purposes that is installed on each server.</span></span>
 
-### <a name="certificates-for-director"></a><span data-ttu-id="692e2-108">Zertifikate für Director</span><span class="sxs-lookup"><span data-stu-id="692e2-108">Certificates for Director</span></span>
+### <a name="certificates-for-director"></a><span data-ttu-id="b9a38-109">Zertifikate für Director</span><span class="sxs-lookup"><span data-stu-id="b9a38-109">Certificates for Director</span></span>
 
 <table>
 <colgroup>
@@ -52,39 +53,39 @@ ms.locfileid: "48499292"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="692e2-109">Komponente</span><span class="sxs-lookup"><span data-stu-id="692e2-109">Component</span></span></th>
-<th><span data-ttu-id="692e2-110">Antragstellername</span><span class="sxs-lookup"><span data-stu-id="692e2-110">Subject name (SN)</span></span></th>
-<th><span data-ttu-id="692e2-111">Alternative Antragstellernamen</span><span class="sxs-lookup"><span data-stu-id="692e2-111">Subject alternative names (SAN)</span></span></th>
-<th><span data-ttu-id="692e2-112">Kommentare</span><span class="sxs-lookup"><span data-stu-id="692e2-112">Comments</span></span></th>
+<th><span data-ttu-id="b9a38-110">Komponente</span><span class="sxs-lookup"><span data-stu-id="b9a38-110">Component</span></span></th>
+<th><span data-ttu-id="b9a38-111">Antragstellername</span><span class="sxs-lookup"><span data-stu-id="b9a38-111">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="b9a38-112">Alternative Antragstellernamen</span><span class="sxs-lookup"><span data-stu-id="b9a38-112">Subject alternative names (SAN)</span></span></th>
+<th><span data-ttu-id="b9a38-113">Kommentare</span><span class="sxs-lookup"><span data-stu-id="b9a38-113">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="692e2-113">Standard</span><span class="sxs-lookup"><span data-stu-id="692e2-113">Default</span></span></p></td>
-<td><p><span data-ttu-id="692e2-114">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="692e2-114">dirpool01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="692e2-115">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="692e2-115">dirpool01.contoso.net</span></span></p>
-<p><span data-ttu-id="692e2-116">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="692e2-116">dir01.contoso.net</span></span></p>
-<p><span data-ttu-id="692e2-117">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="692e2-117">dialin.contoso.com</span></span></p>
-<p><span data-ttu-id="692e2-118">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="692e2-118">meet.contoso.com</span></span></p>
-<p><span data-ttu-id="692e2-119">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="692e2-119">lyncdiscoverinternal.contoso.com</span></span></p>
-<p><span data-ttu-id="692e2-120">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="692e2-120">lyncdiscover.contoso.com</span></span></p>
-<p><span data-ttu-id="692e2-121">(Optional) \*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="692e2-121">(Optionally) \*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="692e2-122">Director-Zertifikate können von einer intern verwalteten Zertifizierungsstelle (Certification Authority, ca) oder von einer öffentlichen Zertifizierungsstelle angefordert werden.</span><span class="sxs-lookup"><span data-stu-id="692e2-122">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
-<p><span data-ttu-id="692e2-123">Der Director antwortet auf Anfragen vom Reverseproxy im Umkreis oder von der Edgeserver.</span><span class="sxs-lookup"><span data-stu-id="692e2-123">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="692e2-124">Für interne Clients wird der Director nicht verwendet.</span><span class="sxs-lookup"><span data-stu-id="692e2-124">Internal clients will not use the Director.</span></span></p>
-<p><span data-ttu-id="692e2-125">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="692e2-125">Or, a wildcard entry for the simple URLs</span></span></p></td>
+<td><p><span data-ttu-id="b9a38-114">Standard</span><span class="sxs-lookup"><span data-stu-id="b9a38-114">Default</span></span></p></td>
+<td><p><span data-ttu-id="b9a38-115">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b9a38-115">dirpool01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="b9a38-116">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b9a38-116">dirpool01.contoso.net</span></span></p>
+<p><span data-ttu-id="b9a38-117">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b9a38-117">dir01.contoso.net</span></span></p>
+<p><span data-ttu-id="b9a38-118">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b9a38-118">dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="b9a38-119">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b9a38-119">meet.contoso.com</span></span></p>
+<p><span data-ttu-id="b9a38-120">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b9a38-120">lyncdiscoverinternal.contoso.com</span></span></p>
+<p><span data-ttu-id="b9a38-121">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b9a38-121">lyncdiscover.contoso.com</span></span></p>
+<p><span data-ttu-id="b9a38-122">(Optional) \*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b9a38-122">(Optionally) \*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="b9a38-123">Director-Zertifikate können von einer intern verwalteten Zertifizierungsstelle (Certification Authority, ca) oder von einer öffentlichen Zertifizierungsstelle angefordert werden.</span><span class="sxs-lookup"><span data-stu-id="b9a38-123">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
+<p><span data-ttu-id="b9a38-124">Der Director antwortet auf Anfragen vom Reverseproxy im Umkreis oder von der Edgeserver.</span><span class="sxs-lookup"><span data-stu-id="b9a38-124">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="b9a38-125">Für interne Clients wird der Director nicht verwendet.</span><span class="sxs-lookup"><span data-stu-id="b9a38-125">Internal clients will not use the Director.</span></span></p>
+<p><span data-ttu-id="b9a38-126">Oder ein Platzhaltereintrag für die einfachen URLs</span><span class="sxs-lookup"><span data-stu-id="b9a38-126">Or, a wildcard entry for the simple URLs</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="692e2-126">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="692e2-126">OAuthTokenIssuer</span></span></p></td>
-<td><p><span data-ttu-id="692e2-127">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="692e2-127">dir01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="692e2-128">Kein Eintrag</span><span class="sxs-lookup"><span data-stu-id="692e2-128">No Entry</span></span></p></td>
+<td><p><span data-ttu-id="b9a38-127">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="b9a38-127">OAuthTokenIssuer</span></span></p></td>
+<td><p><span data-ttu-id="b9a38-128">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b9a38-128">dir01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="b9a38-129">Kein Eintrag</span><span class="sxs-lookup"><span data-stu-id="b9a38-129">No Entry</span></span></p></td>
 <td><div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="692e2-129">Beachten Sie, dass die minimale Schlüssellänge 1024 Bit beträgt. Dennoch ist es möglich, dass Sie eine Warnmeldung erhalten, die besagt, dass die empfohlene Mindestlänge 2048 Bit beträgt.</span><span class="sxs-lookup"><span data-stu-id="692e2-129">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
+> <span data-ttu-id="b9a38-130">Beachten Sie, dass die minimale Schlüssellänge 1024 Bit beträgt. Dennoch ist es möglich, dass Sie eine Warnmeldung erhalten, die besagt, dass die empfohlene Mindestlänge 2048 Bit beträgt.</span><span class="sxs-lookup"><span data-stu-id="b9a38-130">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
 
 
 </div>
-<p><span data-ttu-id="692e2-p103">Das OAuthTokenIssuer-Zertifikat dient ausschließlich zum Authentifizieren von Servern in einer großen Umgebung und kann von einer internen oder öffentlichen Zertifizierungsstelle angefordert werden. Das Zertifikat ist erforderlich.</span><span class="sxs-lookup"><span data-stu-id="692e2-p103">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA. The certificate is required.</span></span></p></td>
+<p><span data-ttu-id="b9a38-p103">Das OAuthTokenIssuer-Zertifikat dient ausschließlich zum Authentifizieren von Servern in einer großen Umgebung und kann von einer internen oder öffentlichen Zertifizierungsstelle angefordert werden. Das Zertifikat ist erforderlich.</span><span class="sxs-lookup"><span data-stu-id="b9a38-p103">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA. The certificate is required.</span></span></p></td>
 </tr>
 </tbody>
 </table>

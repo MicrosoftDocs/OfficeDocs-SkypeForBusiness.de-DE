@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Löschen vorhandener Webdienst-Konfigurationseinstellungen'
+description: 'Lync Server 2013: Löschen vorhandener Webdienst-Konfigurationseinstellungen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4635e0c2c12f25f438aadd17d1241fdc88334a39
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5a28197f26a447112e29b6e4a831585dd49a9854
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525552"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575851"
 ---
-# <a name="delete-existing-web-service-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="2ae39-102">Löschen vorhandener Webdienst-Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ae39-102">Delete existing Web Service configuration settings in Lync Server 2013</span></span>
+# <a name="delete-existing-web-service-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="dcc9b-103">Löschen vorhandener Webdienst-Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dcc9b-103">Delete existing Web Service configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,39 +38,39 @@ ms.locfileid: "48525552"
 
 <span> </span>
 
-<span data-ttu-id="2ae39-103">_**Letztes Änderungsstand des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="2ae39-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="dcc9b-104">_**Letztes Änderungsstand des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="dcc9b-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="2ae39-104">Führen Sie die folgenden Schritte aus, um Konfigurationseinstellungen für den Webdienst zu löschen.</span><span class="sxs-lookup"><span data-stu-id="2ae39-104">Follow these steps to delete web service configuration settings.</span></span>
+<span data-ttu-id="dcc9b-105">Führen Sie die folgenden Schritte aus, um Konfigurationseinstellungen für den Webdienst zu löschen.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-105">Follow these steps to delete web service configuration settings.</span></span>
 
 <div>
 
-## <a name="to-delete-web-service-configuration-settings"></a><span data-ttu-id="2ae39-105">So löschen Sie Konfigurationseinstellungen für Webdienste</span><span class="sxs-lookup"><span data-stu-id="2ae39-105">To delete web service configuration settings</span></span>
+## <a name="to-delete-web-service-configuration-settings"></a><span data-ttu-id="dcc9b-106">So löschen Sie Konfigurationseinstellungen für Webdienste</span><span class="sxs-lookup"><span data-stu-id="dcc9b-106">To delete web service configuration settings</span></span>
 
-1.  <span data-ttu-id="2ae39-106">Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="2ae39-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="dcc9b-107">Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-107">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="2ae39-107">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="2ae39-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2ae39-108">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2ae39-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="dcc9b-108">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="dcc9b-109">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="dcc9b-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="2ae39-109">Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **Webdienst**.</span><span class="sxs-lookup"><span data-stu-id="2ae39-109">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
+3.  <span data-ttu-id="dcc9b-110">Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **Webdienst**.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-110">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
 
-4.  <span data-ttu-id="2ae39-110">Geben Sie auf der Seite **Webdienst** im Suchfeld Teile oder den vollständigen Namen der Richtlinie ein, die Sie löschen möchten.</span><span class="sxs-lookup"><span data-stu-id="2ae39-110">On the **Web Service** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
+4.  <span data-ttu-id="dcc9b-111">Geben Sie auf der Seite **Webdienst** im Suchfeld Teile oder den vollständigen Namen der Richtlinie ein, die Sie löschen möchten.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-111">On the **Web Service** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
 
-5.  <span data-ttu-id="2ae39-111">Klicken Sie in der Richtlinienliste auf die gewünschte Richtlinie, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="2ae39-111">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="dcc9b-112">Klicken Sie in der Richtlinienliste auf die gewünschte Richtlinie, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="2ae39-112">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="2ae39-112">Click **OK**.</span></span>
+6.  <span data-ttu-id="dcc9b-113">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-113">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="2ae39-113">Löschen von Konfigurationseinstellungen für Webdienste mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="2ae39-113">Deleting Web Service Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="dcc9b-114">Löschen von Konfigurationseinstellungen für Webdienste mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="dcc9b-114">Deleting Web Service Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="2ae39-114">Sie können Webdienst-Konfigurationseinstellungen mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsWebServiceConfiguration** löschen.</span><span class="sxs-lookup"><span data-stu-id="2ae39-114">You can delete web service configuration settings by using Windows PowerShell and the **Remove-CsWebServiceConfiguration** cmdlet.</span></span> <span data-ttu-id="2ae39-115">Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen.</span><span class="sxs-lookup"><span data-stu-id="2ae39-115">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="2ae39-116">Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="2ae39-116">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="dcc9b-115">Sie können Webdienst-Konfigurationseinstellungen mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsWebServiceConfiguration** löschen.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-115">You can delete web service configuration settings by using Windows PowerShell and the **Remove-CsWebServiceConfiguration** cmdlet.</span></span> <span data-ttu-id="dcc9b-116">Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen.</span><span class="sxs-lookup"><span data-stu-id="dcc9b-116">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="dcc9b-117">Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="dcc9b-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a><span data-ttu-id="2ae39-117">So löschen Sie bestimmte Konfigurationseinstellungen für Webdienste</span><span class="sxs-lookup"><span data-stu-id="2ae39-117">To delete a specific collection of web service configuration settings</span></span>
+## <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a><span data-ttu-id="dcc9b-118">So löschen Sie bestimmte Konfigurationseinstellungen für Webdienste</span><span class="sxs-lookup"><span data-stu-id="dcc9b-118">To delete a specific collection of web service configuration settings</span></span>
 
-  - <span data-ttu-id="2ae39-118">Mit dem folgenden Befehl werden die Webdienstsicherheitseinstellungen für den Standort "Redmond" entfernt:</span><span class="sxs-lookup"><span data-stu-id="2ae39-118">The following command removes the Web Service security settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="dcc9b-119">Mit dem folgenden Befehl werden die Webdienstsicherheitseinstellungen für den Standort "Redmond" entfernt:</span><span class="sxs-lookup"><span data-stu-id="dcc9b-119">The following command removes the Web Service security settings applied to the Redmond site:</span></span>
     
         Remove-CsWebServiceConfiguration -Identity "site:Redmond"
 
@@ -77,9 +78,9 @@ ms.locfileid: "48525552"
 
 <div>
 
-## <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="2ae39-119">So löschen Sie alle auf den Website Bereich angewendeten Konfigurationseinstellungen für den Webdienst</span><span class="sxs-lookup"><span data-stu-id="2ae39-119">To delete all of the web service configuration settings applied to the site scope</span></span>
+## <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="dcc9b-120">So löschen Sie alle auf den Website Bereich angewendeten Konfigurationseinstellungen für den Webdienst</span><span class="sxs-lookup"><span data-stu-id="dcc9b-120">To delete all of the web service configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="2ae39-120">Mit dem folgenden Befehl werden alle auf Dienstebene angewendeten Webdienstsicherheitseinstellungen entfernt:</span><span class="sxs-lookup"><span data-stu-id="2ae39-120">The following command removes all of the Web Service security settings applied to the service scope:</span></span>
+  - <span data-ttu-id="dcc9b-121">Mit dem folgenden Befehl werden alle auf Dienstebene angewendeten Webdienstsicherheitseinstellungen entfernt:</span><span class="sxs-lookup"><span data-stu-id="dcc9b-121">The following command removes all of the Web Service security settings applied to the service scope:</span></span>
     
         Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
 
@@ -87,24 +88,24 @@ ms.locfileid: "48525552"
 
 <div>
 
-## <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a><span data-ttu-id="2ae39-121">So löschen Sie alle Webdienst-Konfigurationseinstellungen, die die Zertifikatauthentifizierung ermöglichen</span><span class="sxs-lookup"><span data-stu-id="2ae39-121">To delete all of the web service configuration settings that allow certificate authentication</span></span>
+## <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a><span data-ttu-id="dcc9b-122">So löschen Sie alle Webdienst-Konfigurationseinstellungen, die die Zertifikatauthentifizierung ermöglichen</span><span class="sxs-lookup"><span data-stu-id="dcc9b-122">To delete all of the web service configuration settings that allow certificate authentication</span></span>
 
-  - <span data-ttu-id="2ae39-122">Mit dem folgenden Befehl werden alle Webdienstsicherheitseinstellungen entfernt, die die Verwendung der Zertifikatauthentifizierung erlauben:</span><span class="sxs-lookup"><span data-stu-id="2ae39-122">The following command removes all the Web Service security settings that allow the use of certificate authentication:</span></span>
+  - <span data-ttu-id="dcc9b-123">Mit dem folgenden Befehl werden alle Webdienstsicherheitseinstellungen entfernt, die die Verwendung der Zertifikatauthentifizierung erlauben:</span><span class="sxs-lookup"><span data-stu-id="dcc9b-123">The following command removes all the Web Service security settings that allow the use of certificate authentication:</span></span>
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
 </div>
 
-<span data-ttu-id="2ae39-123">Ausführliche Informationen finden Sie unter [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration).</span><span class="sxs-lookup"><span data-stu-id="2ae39-123">For details, see [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration).</span></span>
+<span data-ttu-id="dcc9b-124">Ausführliche Informationen finden Sie unter [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration).</span><span class="sxs-lookup"><span data-stu-id="dcc9b-124">For details, see [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2ae39-124">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="2ae39-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dcc9b-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="dcc9b-125">See Also</span></span>
 
 
-[<span data-ttu-id="2ae39-125">Konfigurieren der Authentifizierung in der lync Server 2013-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="2ae39-125">Configuring authentication in the Lync Server 2013 Control Panel</span></span>](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  
+[<span data-ttu-id="dcc9b-126">Konfigurieren der Authentifizierung in der lync Server 2013-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="dcc9b-126">Configuring authentication in the Lync Server 2013 Control Panel</span></span>](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  
   
 
 </div>

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver'
+description: 'Lync Server 2013: Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1620d9a4d1625335a52c474d608377bd2529425d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7fb6da8e69883e321f23a53e8dc5067817d5aa66
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526802"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575531"
 ---
-# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a><span data-ttu-id="39c26-102">Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39c26-102">Enhanced 9-1-1 (E9-1-1) and Mediation Server in Lync Server 2013</span></span>
+# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a><span data-ttu-id="6c82f-103">Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c82f-103">Enhanced 9-1-1 (E9-1-1) and Mediation Server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48526802"
 
 <span> </span>
 
-<span data-ttu-id="39c26-103">_**Letztes Änderungsstand des Themas:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="39c26-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="6c82f-104">_**Letztes Änderungsstand des Themas:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="6c82f-104">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="39c26-104">Das Vermittlungsserver verfügt über erweiterte Funktionen, sodass es ordnungsgemäß mit den erweiterten 9-1-1 (E9-1-1)-Dienstanbietern interagieren kann.</span><span class="sxs-lookup"><span data-stu-id="39c26-104">The Mediation Server has extended capabilities so that it can correctly interact with Enhanced 9-1-1 (E9-1-1) service providers.</span></span> <span data-ttu-id="39c26-105">Für die Vermittlungsserver ist keine spezielle Konfiguration erforderlich; die für die E9-1 -1-Interaktion erforderlichen SIP-Erweiterungen sind standardmäßig im SIP-Protokoll des Vermittlungsserver für die Interaktionen mit einem Gateway-Peer (PSTN-Gateway, IP-Nebenstellenanlage oder dem SBC eines Internet Telefonie-Dienstanbieters, einschließlich E9-1-1-Dienstanbietern) enthalten.</span><span class="sxs-lookup"><span data-stu-id="39c26-105">No special configuration is needed on the Mediation Server; the SIP extensions required for E9-1-1 interaction are, by default, included in the Mediation Server’s SIP protocol for its interactions with a gateway peer (PSTN gateway, IP-PBX, or the SBC of an Internet Telephony Service Provider, including E9-1-1 Service Providers)</span></span>
+<span data-ttu-id="6c82f-105">Das Vermittlungsserver verfügt über erweiterte Funktionen, sodass es ordnungsgemäß mit den erweiterten 9-1-1 (E9-1-1)-Dienstanbietern interagieren kann.</span><span class="sxs-lookup"><span data-stu-id="6c82f-105">The Mediation Server has extended capabilities so that it can correctly interact with Enhanced 9-1-1 (E9-1-1) service providers.</span></span> <span data-ttu-id="6c82f-106">Für die Vermittlungsserver ist keine spezielle Konfiguration erforderlich; die für die E9-1 -1-Interaktion erforderlichen SIP-Erweiterungen sind standardmäßig im SIP-Protokoll des Vermittlungsserver für die Interaktionen mit einem Gateway-Peer (PSTN-Gateway, IP-Nebenstellenanlage oder dem SBC eines Internet Telefonie-Dienstanbieters, einschließlich E9-1-1-Dienstanbietern) enthalten.</span><span class="sxs-lookup"><span data-stu-id="6c82f-106">No special configuration is needed on the Mediation Server; the SIP extensions required for E9-1-1 interaction are, by default, included in the Mediation Server’s SIP protocol for its interactions with a gateway peer (PSTN gateway, IP-PBX, or the SBC of an Internet Telephony Service Provider, including E9-1-1 Service Providers)</span></span>
 
-<span data-ttu-id="39c26-106">Ob ein SIP-Trunk zu einem E9-1-1-Dienstanbieter in einem vorhandenen Vermittlungsserverpool terminiert werden kann oder eigenständige Vermittlungsserver erfordert, hängt davon ab, ob der E9-1-1-SBC mit einem Vermittlungsserverpool interagieren kann.</span><span class="sxs-lookup"><span data-stu-id="39c26-106">Whether the SIP trunk to an E9-1-1 Service Provider can be terminated on an existing Mediation Server pool or will require stand-alone Mediation Servers will depend on whether the E9-1-1 SBC can interact with a pool of Mediation Servers.</span></span> <span data-ttu-id="39c26-107">Ausführliche Informationen finden Sie unter [m:n-trunk trunk in lync Server 2013](lync-server-2013-m-n-trunk.md).</span><span class="sxs-lookup"><span data-stu-id="39c26-107">For details, see [M:N trunk in Lync Server 2013](lync-server-2013-m-n-trunk.md).</span></span>
+<span data-ttu-id="6c82f-107">Ob ein SIP-Trunk zu einem E9-1-1-Dienstanbieter in einem vorhandenen Vermittlungsserverpool terminiert werden kann oder eigenständige Vermittlungsserver erfordert, hängt davon ab, ob der E9-1-1-SBC mit einem Vermittlungsserverpool interagieren kann.</span><span class="sxs-lookup"><span data-stu-id="6c82f-107">Whether the SIP trunk to an E9-1-1 Service Provider can be terminated on an existing Mediation Server pool or will require stand-alone Mediation Servers will depend on whether the E9-1-1 SBC can interact with a pool of Mediation Servers.</span></span> <span data-ttu-id="6c82f-108">Ausführliche Informationen finden Sie unter [m:n-trunk trunk in lync Server 2013](lync-server-2013-m-n-trunk.md).</span><span class="sxs-lookup"><span data-stu-id="6c82f-108">For details, see [M:N trunk in Lync Server 2013](lync-server-2013-m-n-trunk.md).</span></span>
 
 </div>
 

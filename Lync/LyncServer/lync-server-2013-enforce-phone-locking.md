@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Erzwingen der Telefonsperre'
+description: 'Lync Server 2013: erzwingen Sie die Telefonsperre.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183594
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b8af6141f5b9c9894ee90c6b58a58b4bc7f1274
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5afae4fa27edf9378bacc39a29697c9607b25c07
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533292"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575601"
 ---
-# <a name="enforce-phone-locking-in-lync-server-2013"></a><span data-ttu-id="a49ef-102">Erzwingen der Telefonsperre in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a49ef-102">Enforce phone locking in Lync Server 2013</span></span>
+# <a name="enforce-phone-locking-in-lync-server-2013"></a><span data-ttu-id="30c82-103">Erzwingen der Telefonsperre in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30c82-103">Enforce phone locking in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,45 +38,45 @@ ms.locfileid: "48533292"
 
 <span> </span>
 
-<span data-ttu-id="a49ef-103">_**Letztes Änderungsstand des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="a49ef-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="30c82-104">_**Letztes Änderungsstand des Themas:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="30c82-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="a49ef-104">Lync Phone Edition-Geräte können aus Sicherheitsgründen gesperrt werden.</span><span class="sxs-lookup"><span data-stu-id="a49ef-104">Lync Phone Edition devices can be locked for security purposes.</span></span> <span data-ttu-id="a49ef-105">Wenn Sie die Telefonsperre erzwingen, sperrt das Gerät, auf dem lync installiert ist, Phone Edition nach einer von Ihnen konfigurierten Zeitspanne.</span><span class="sxs-lookup"><span data-stu-id="a49ef-105">If you enforce phone lock, the device running Lync Phone Edition locks after a period of time that you configure.</span></span> <span data-ttu-id="a49ef-106">Wenn ein Telefon gesperrt ist, kann ein Benutzer Anrufe tätigen, aber nicht auf Kalender-und Kontaktinformationen, Voicemails oder Anrufprotokolle zugreifen oder die Suche verwenden.</span><span class="sxs-lookup"><span data-stu-id="a49ef-106">When a phone is locked, a user can make calls but cannot access calendar and contact information, voice mail, or call logs or use search.</span></span> <span data-ttu-id="a49ef-107">Um das Telefon zu entsperren, gibt der Benutzer eine PIN ein.</span><span class="sxs-lookup"><span data-stu-id="a49ef-107">To unlock the phone, the user enters a PIN.</span></span>
+<span data-ttu-id="30c82-105">Lync Phone Edition-Geräte können aus Sicherheitsgründen gesperrt werden.</span><span class="sxs-lookup"><span data-stu-id="30c82-105">Lync Phone Edition devices can be locked for security purposes.</span></span> <span data-ttu-id="30c82-106">Wenn Sie die Telefonsperre erzwingen, sperrt das Gerät, auf dem lync installiert ist, Phone Edition nach einer von Ihnen konfigurierten Zeitspanne.</span><span class="sxs-lookup"><span data-stu-id="30c82-106">If you enforce phone lock, the device running Lync Phone Edition locks after a period of time that you configure.</span></span> <span data-ttu-id="30c82-107">Wenn ein Telefon gesperrt ist, kann ein Benutzer Anrufe tätigen, aber nicht auf Kalender-und Kontaktinformationen, Voicemails oder Anrufprotokolle zugreifen oder die Suche verwenden.</span><span class="sxs-lookup"><span data-stu-id="30c82-107">When a phone is locked, a user can make calls but cannot access calendar and contact information, voice mail, or call logs or use search.</span></span> <span data-ttu-id="30c82-108">Um das Telefon zu entsperren, gibt der Benutzer eine PIN ein.</span><span class="sxs-lookup"><span data-stu-id="30c82-108">To unlock the phone, the user enters a PIN.</span></span>
 
-<span data-ttu-id="a49ef-108">Um die Telefonsperre zu erzwingen, aktivieren und konfigurieren Sie Sie mithilfe von lync Server-Systemsteuerung oder lync Server PowerShell-Cmdlets.</span><span class="sxs-lookup"><span data-stu-id="a49ef-108">To enforce phone lock, enable and configure it by using Lync Server Control Panel or Lync Server PowerShell cmdlets.</span></span> <span data-ttu-id="a49ef-109">Sie können die Telefonsperre Global oder nur innerhalb der Website erzwingen, für die Sie konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="a49ef-109">You can enforce phone lock globally or only within the site for which it is configured.</span></span>
+<span data-ttu-id="30c82-109">Um die Telefonsperre zu erzwingen, aktivieren und konfigurieren Sie Sie mithilfe von lync Server-Systemsteuerung oder lync Server PowerShell-Cmdlets.</span><span class="sxs-lookup"><span data-stu-id="30c82-109">To enforce phone lock, enable and configure it by using Lync Server Control Panel or Lync Server PowerShell cmdlets.</span></span> <span data-ttu-id="30c82-110">Sie können die Telefonsperre Global oder nur innerhalb der Website erzwingen, für die Sie konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="30c82-110">You can enforce phone lock globally or only within the site for which it is configured.</span></span>
 
 <div>
 
-## <a name="to-configure-and-enforce-the-phone-lock"></a><span data-ttu-id="a49ef-110">So konfigurieren und erzwingen Sie die Telefonsperre</span><span class="sxs-lookup"><span data-stu-id="a49ef-110">To configure and enforce the phone lock</span></span>
+## <a name="to-configure-and-enforce-the-phone-lock"></a><span data-ttu-id="30c82-111">So konfigurieren und erzwingen Sie die Telefonsperre</span><span class="sxs-lookup"><span data-stu-id="30c82-111">To configure and enforce the phone lock</span></span>
 
-1.  <span data-ttu-id="a49ef-111">Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="a49ef-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="30c82-112">Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="30c82-112">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="a49ef-112">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="a49ef-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a49ef-113">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a49ef-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="30c82-113">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="30c82-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="30c82-114">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="30c82-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="a49ef-114">Klicken Sie auf **Clients** und anschließend auf **Gerätekonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="a49ef-114">Click **Clients**, and then click **Device Configuration**.</span></span>
+3.  <span data-ttu-id="30c82-115">Klicken Sie auf **Clients** und anschließend auf **Gerätekonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="30c82-115">Click **Clients**, and then click **Device Configuration**.</span></span>
 
-4.  <span data-ttu-id="a49ef-115">Doppelklicken Sie auf der Registerkarte **Gerätekonfiguration** in der Liste der Gerätekonfigurationen auf diejenige Konfiguration, deren Einstellungen für die Telefonsperre Sie ändern möchten.</span><span class="sxs-lookup"><span data-stu-id="a49ef-115">On the **Device Configuration** tab, in the list of device configurations, double-click the configuration for which you want to change the phone lock settings.</span></span>
+4.  <span data-ttu-id="30c82-116">Doppelklicken Sie auf der Registerkarte **Gerätekonfiguration** in der Liste der Gerätekonfigurationen auf diejenige Konfiguration, deren Einstellungen für die Telefonsperre Sie ändern möchten.</span><span class="sxs-lookup"><span data-stu-id="30c82-116">On the **Device Configuration** tab, in the list of device configurations, double-click the configuration for which you want to change the phone lock settings.</span></span>
 
-5.  <span data-ttu-id="a49ef-116">Stellen Sie im Dialogfeld **Gerätekonfiguration bearbeiten** sicher, dass das Kontrollkästchen **Gerätesperre erzwingen** aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="a49ef-116">In the **Edit Device Configuration** dialog box, verify that the **Enforce device locking** check box is selected.</span></span>
+5.  <span data-ttu-id="30c82-117">Stellen Sie im Dialogfeld **Gerätekonfiguration bearbeiten** sicher, dass das Kontrollkästchen **Gerätesperre erzwingen** aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="30c82-117">In the **Edit Device Configuration** dialog box, verify that the **Enforce device locking** check box is selected.</span></span>
 
-6.  <span data-ttu-id="a49ef-117">Übernehmen Sie in der **minimalen PIN-Länge**den Standardwert für die minimale Anzahl von stellen, die die Unlock-Pin enthalten muss, oder geben Sie einen neuen Wert an.</span><span class="sxs-lookup"><span data-stu-id="a49ef-117">In **Minimum PIN length**, accept the default value for the minimum number of digits that the unlock PIN must contain or specify a new value.</span></span> <span data-ttu-id="a49ef-118">Der Bereich für die PIN-Länge beträgt vier bis 15 Ziffern, der Standardwert ist 6.</span><span class="sxs-lookup"><span data-stu-id="a49ef-118">The range for the PIN length is four to 15 digits, and the default is six.</span></span>
+6.  <span data-ttu-id="30c82-118">Übernehmen Sie in der **minimalen PIN-Länge**den Standardwert für die minimale Anzahl von stellen, die die Unlock-Pin enthalten muss, oder geben Sie einen neuen Wert an.</span><span class="sxs-lookup"><span data-stu-id="30c82-118">In **Minimum PIN length**, accept the default value for the minimum number of digits that the unlock PIN must contain or specify a new value.</span></span> <span data-ttu-id="30c82-119">Der Bereich für die PIN-Länge beträgt vier bis 15 Ziffern, der Standardwert ist 6.</span><span class="sxs-lookup"><span data-stu-id="30c82-119">The range for the PIN length is four to 15 digits, and the default is six.</span></span>
 
-7.  <span data-ttu-id="a49ef-119">Übernehmen Sie im **Telefon Sperrtimeout**den Standardwert für die minimale Zeitdauer, bevor das Telefon sich selbst sperrt, oder geben Sie einen neuen Wert ein.</span><span class="sxs-lookup"><span data-stu-id="a49ef-119">In **Phone lock time-out**, accept the default value for the minimum length of time before the phone locks itself or specify a new value.</span></span> <span data-ttu-id="a49ef-120">Der Bereich für das Timeout ist 0 bis 60 Minuten, und der Standardwert ist 10.</span><span class="sxs-lookup"><span data-stu-id="a49ef-120">The range for the timeout is 0 to 60 minutes, and the default is 10.</span></span> <span data-ttu-id="a49ef-121">Geben Sie den Wert im Format HH:MM:SS ein.</span><span class="sxs-lookup"><span data-stu-id="a49ef-121">Enter the value in the format HH:MM:SS.</span></span>
+7.  <span data-ttu-id="30c82-120">Übernehmen Sie im **Telefon Sperrtimeout**den Standardwert für die minimale Zeitdauer, bevor das Telefon sich selbst sperrt, oder geben Sie einen neuen Wert ein.</span><span class="sxs-lookup"><span data-stu-id="30c82-120">In **Phone lock time-out**, accept the default value for the minimum length of time before the phone locks itself or specify a new value.</span></span> <span data-ttu-id="30c82-121">Der Bereich für das Timeout ist 0 bis 60 Minuten, und der Standardwert ist 10.</span><span class="sxs-lookup"><span data-stu-id="30c82-121">The range for the timeout is 0 to 60 minutes, and the default is 10.</span></span> <span data-ttu-id="30c82-122">Geben Sie den Wert im Format HH:MM:SS ein.</span><span class="sxs-lookup"><span data-stu-id="30c82-122">Enter the value in the format HH:MM:SS.</span></span>
 
-8.  <span data-ttu-id="a49ef-122">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="a49ef-122">Click **Commit**.</span></span>
+8.  <span data-ttu-id="30c82-123">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="30c82-123">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="enforcing-phone-locking-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a49ef-123">Erzwingen der Telefonsperre mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="a49ef-123">Enforcing Phone Locking by Using Windows PowerShell Cmdlets</span></span>
+## <a name="enforcing-phone-locking-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="30c82-124">Erzwingen der Telefonsperre mithilfe von Windows PowerShell-Cmdlets</span><span class="sxs-lookup"><span data-stu-id="30c82-124">Enforcing Phone Locking by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="a49ef-124">Die Telefonsperre kann mithilfe des Set-CsUCPhoneConfiguration-Cmdlets erzwungen werden.</span><span class="sxs-lookup"><span data-stu-id="a49ef-124">Phone locking can be enforced by using the Set-CsUCPhoneConfiguration cmdlet.</span></span> <span data-ttu-id="a49ef-125">Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="a49ef-125">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="a49ef-126">Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="a49ef-126">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="30c82-125">Die Telefonsperre kann mithilfe des Set-CsUCPhoneConfiguration-Cmdlets erzwungen werden.</span><span class="sxs-lookup"><span data-stu-id="30c82-125">Phone locking can be enforced by using the Set-CsUCPhoneConfiguration cmdlet.</span></span> <span data-ttu-id="30c82-126">Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="30c82-126">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="30c82-127">Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell" unter [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="30c82-127">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-enable-phone-locking"></a><span data-ttu-id="a49ef-127">So aktivieren Sie die Telefonsperre</span><span class="sxs-lookup"><span data-stu-id="a49ef-127">To enable phone locking</span></span>
+## <a name="to-enable-phone-locking"></a><span data-ttu-id="30c82-128">So aktivieren Sie die Telefonsperre</span><span class="sxs-lookup"><span data-stu-id="30c82-128">To enable phone locking</span></span>
 
-  - <span data-ttu-id="a49ef-128">Mit dem folgenden Befehl können Sie die Telefonsperre für den Standort Redmond aktivieren.</span><span class="sxs-lookup"><span data-stu-id="a49ef-128">The following command enables phone locking for the Redmond site.</span></span> <span data-ttu-id="a49ef-129">Setzen Sie zum Deaktivieren der Telefonsperre die Eigenschaft "EnforcePhoneLock" auf "False" ($False).</span><span class="sxs-lookup"><span data-stu-id="a49ef-129">To disable phone locking, set the EnforcePhoneLock property to False ($False).</span></span>
+  - <span data-ttu-id="30c82-129">Mit dem folgenden Befehl können Sie die Telefonsperre für den Standort Redmond aktivieren.</span><span class="sxs-lookup"><span data-stu-id="30c82-129">The following command enables phone locking for the Redmond site.</span></span> <span data-ttu-id="30c82-130">Setzen Sie zum Deaktivieren der Telefonsperre die Eigenschaft "EnforcePhoneLock" auf "False" ($False).</span><span class="sxs-lookup"><span data-stu-id="30c82-130">To disable phone locking, set the EnforcePhoneLock property to False ($False).</span></span>
     
         Set-CsUCPhoneConfiguration -Identity" site:Redmond" -EnforcePhoneLock $True
 
@@ -83,9 +84,9 @@ ms.locfileid: "48533292"
 
 <div>
 
-## <a name="to-enable-phone-locking-and-modify-the-phone-lock-timeout"></a><span data-ttu-id="a49ef-130">So aktivieren Sie das Sperren von Telefon sperren und Ändern des Timeouts für die Telefonsperre</span><span class="sxs-lookup"><span data-stu-id="a49ef-130">To enable phone locking and modify the phone lock timeout</span></span>
+## <a name="to-enable-phone-locking-and-modify-the-phone-lock-timeout"></a><span data-ttu-id="30c82-131">So aktivieren Sie das Sperren von Telefon sperren und Ändern des Timeouts für die Telefonsperre</span><span class="sxs-lookup"><span data-stu-id="30c82-131">To enable phone locking and modify the phone lock timeout</span></span>
 
-  - <span data-ttu-id="a49ef-131">Mit diesem Befehl wird die Telefonsperre aktiviert und das Timeout für die Telefonsperre auf 30 Minuten festgelegt.</span><span class="sxs-lookup"><span data-stu-id="a49ef-131">This command enables phone locking and also sets the phone lock timeout to 30 minutes.</span></span>
+  - <span data-ttu-id="30c82-132">Mit diesem Befehl wird die Telefonsperre aktiviert und das Timeout für die Telefonsperre auf 30 Minuten festgelegt.</span><span class="sxs-lookup"><span data-stu-id="30c82-132">This command enables phone locking and also sets the phone lock timeout to 30 minutes.</span></span>
     
         Set-CsUCPhoneConfiguration -Identity" site:Redmond" -EnforcePhoneLock $True -PhoneLockTimeout "00:30:00"
 
@@ -93,27 +94,27 @@ ms.locfileid: "48533292"
 
 <div>
 
-## <a name="to-enable-phone-locking-throughout-the-organization"></a><span data-ttu-id="a49ef-132">So aktivieren Sie die Telefonsperre in der gesamten Organisation</span><span class="sxs-lookup"><span data-stu-id="a49ef-132">To enable phone locking throughout the organization</span></span>
+## <a name="to-enable-phone-locking-throughout-the-organization"></a><span data-ttu-id="30c82-133">So aktivieren Sie die Telefonsperre in der gesamten Organisation</span><span class="sxs-lookup"><span data-stu-id="30c82-133">To enable phone locking throughout the organization</span></span>
 
-  - <span data-ttu-id="a49ef-133">In diesem Beispiel ist die Telefonsperre für alle in der Organisation eingesetzten UC-Telefonkonfigurationseinstellungen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="a49ef-133">In this example, phone locking is enabled on all the UC phone configuration settings in use in the organization.</span></span>
+  - <span data-ttu-id="30c82-134">In diesem Beispiel ist die Telefonsperre für alle in der Organisation eingesetzten UC-Telefonkonfigurationseinstellungen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="30c82-134">In this example, phone locking is enabled on all the UC phone configuration settings in use in the organization.</span></span>
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
 </div>
 
-<span data-ttu-id="a49ef-134">Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration) ".</span><span class="sxs-lookup"><span data-stu-id="a49ef-134">For more information, see the help topic for the [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration) cmdlet.</span></span>
+<span data-ttu-id="30c82-135">Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration) ".</span><span class="sxs-lookup"><span data-stu-id="30c82-135">For more information, see the help topic for the [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a49ef-135">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a49ef-135">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30c82-136">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="30c82-136">See Also</span></span>
 
 
-[<span data-ttu-id="a49ef-136">Verwalten der lync Server 2013 Authentifizierung</span><span class="sxs-lookup"><span data-stu-id="a49ef-136">Managing Lync Server 2013 authentication</span></span>](lync-server-2013-managing-lync-server-authentication.md)  
+[<span data-ttu-id="30c82-137">Verwalten der lync Server 2013 Authentifizierung</span><span class="sxs-lookup"><span data-stu-id="30c82-137">Managing Lync Server 2013 authentication</span></span>](lync-server-2013-managing-lync-server-authentication.md)  
 
 
-[<span data-ttu-id="a49ef-137">Verwalten von Geräten, Telefonen und Clientanwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a49ef-137">Managing devices, phones, and client applications in Lync Server 2013</span></span>](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[<span data-ttu-id="30c82-138">Verwalten von Geräten, Telefonen und Clientanwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30c82-138">Managing devices, phones, and client applications in Lync Server 2013</span></span>](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>
