@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Installieren der lync Server 2013 Management Packs'
+description: 'Lync Server 2013: Installieren der lync Server 2013 Management Packs.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ff5b636c4cb2eaea2b3f7caa5681a26a8a59dc6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cbb50146474211c12dbd95801ed2b20f6bbfd8c9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534812"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573831"
 ---
 # <a name="installing-the-lync-server-2013-management-packs"></a>Installieren der lync Server 2013 Management Packs
 

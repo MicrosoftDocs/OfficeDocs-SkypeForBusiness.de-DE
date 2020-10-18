@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Vorbereiten von Active Directory-Domänendienste'
+description: 'Lync Server 2013: Vorbereiten von Active Directory-Domänendienste.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc8b5f4a5efc60456d874276b025ff7ca9806028
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d6ecfcffd55739bc6d1bf1b83a701a0fd515ec56
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513312"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572535"
 ---
 # <a name="preparing-active-directory-domain-services-for-lync-server-2013"></a>Vorbereiten der Active Directory-Domänendienste für Lync Server 2013
 
@@ -51,7 +52,7 @@ In den Themen in diesem Abschnitt wird beschrieben, wie Sie AD DS für die Berei
 
   - [Übersicht über die Active Directory-Domänendienste Vorbereitung in lync Server 2013](lync-server-2013-overview-of-active-directory-domain-services-preparation.md)
 
-  - [Vorbereiten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-active-directory-domain-services_1.md)
+  - [Vorbereiten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md)
 
   - [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
 

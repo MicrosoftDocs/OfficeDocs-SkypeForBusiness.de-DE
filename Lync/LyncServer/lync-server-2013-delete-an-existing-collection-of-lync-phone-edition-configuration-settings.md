@@ -1,5 +1,6 @@
 ---
 title: Löschen einer vorhandenen Sammlung von lync Phone Edition-Konfigurationseinstellungen
+description: Löschen Sie eine vorhandene Sammlung von lync Phone Edition Konfigurationseinstellungen.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce796b13ea69296fa72799a13d35cb2046a643b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5137590a37b8bbb47f7445d20639157953597ca6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514632"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572861"
 ---
 # <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Löschen einer vorhandenen Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013
 

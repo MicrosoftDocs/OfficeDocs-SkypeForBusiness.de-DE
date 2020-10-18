@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Installieren Standard Edition-Server Datenbank'
+description: 'Lync Server 2013: Installieren Sie Standard Edition-Server Datenbank.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d4027c02a866769c5b9866f6d315d31c6dcf80c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0a20d2c01de94ad88960555db78c57c6b79d92f7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498662"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574081"
 ---
 # <a name="install-standard-edition-server-database-for-lync-server-2013"></a>Installieren Standard Edition-Server Datenbank für lync Server 2013
 
