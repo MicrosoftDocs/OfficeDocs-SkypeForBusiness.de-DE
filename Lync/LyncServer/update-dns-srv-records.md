@@ -1,5 +1,6 @@
 ---
 title: Aktualisieren von DNS SRV-Einträgen
+description: Aktualisieren von DNS-SRV-Einträgen
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d45abd1599666079705f3e77b74ac2ba81d9df71
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 24161074e8f3bcf7e296a957588eeb59d5f2ad1b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503512"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579591"
 ---
 # <a name="update-dns-srv-records"></a>Aktualisieren von DNS SRV-Einträgen
 

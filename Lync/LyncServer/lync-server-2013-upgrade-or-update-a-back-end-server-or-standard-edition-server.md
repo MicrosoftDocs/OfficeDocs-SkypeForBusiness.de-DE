@@ -1,5 +1,6 @@
 ---
 title: Aktualisieren oder Aktualisieren eines Back-End-Servers oder Standard Edition-Server
+description: Aktualisieren oder Aktualisieren eines Back-End-Servers oder Standard Edition-Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3afeee91457b2d10f506be81a146643a4598c9f6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c529546bdcf88ada6fd82399d3b65b46b4312db0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506642"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580431"
 ---
 # <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Aktualisieren oder Aktualisieren eines Back-End-Servers oder Standard Edition-Server in lync Server 2013
 

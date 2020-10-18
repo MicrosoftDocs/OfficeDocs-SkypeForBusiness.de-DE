@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Referenztopologie für kleine Organisationen
+description: Lync Server 2013 Referenztopologie für kleine Organisationen.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68163756f2c2153d1e164999532bc6265400ac5b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7f2f23a963543c303e54f8f2773d499e8317a63a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536732"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578631"
 ---
 # <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Referenztopologie für lync Server 2013 in kleinen Organisationen
 

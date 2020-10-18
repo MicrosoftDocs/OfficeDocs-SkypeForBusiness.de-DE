@@ -8,20 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Informationen zu den Administratoreinstellungen in der Lob-App im Microsoft Teams Admin Center
-ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328204"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580451"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
-Die Lob-app in Microsoft Teams hilft Benutzern, die Mitglieder Ihrer Organisation oder Ihres Klassenzimmers zu schätzen. Mit einer Auswahl von Signal Sätzen, die Sie auswählen können, und der Möglichkeit, ihre eigenen Badges zu erstellen, soll das Lob dazu beitragen, die Anstrengung zu erkennen, die in die breite Palette der Arbeit eingeht, die die Benutzer von Teams machen, von Pädagogen bis zu Mitarbeitern erster Linie.
+> [!NOTE]
+> Administratoren müssen über eine Teams-Lizenz verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Teams-Lizenz auf dieses Feature zuzugreifen, erhalten Sie eine Fehlermeldung.
+
+Die Lob-app in Microsoft Teams hilft Benutzern, die Mitglieder Ihrer Organisation oder Ihres Klassenzimmers zu schätzen. Mit einer Auswahl von Signal Sätzen, die Sie auswählen können, und der Möglichkeit, ihre eigenen Badges zu erstellen, soll das Lob dazu beitragen, die Anstrengung zu erkennen, die in die breite Palette der Arbeit, die die Benutzer von Teams tun, eingeht, von Pädagogen bis zu Mitarbeitern in erster Linie.
 
 Administratoren können über das Team Admin Center steuern, welche Abzeichen für Ihre Organisation zur Verfügung stehen. Wählen Sie im linken Navigationsbereich die Option **Teams-apps > apps verwalten**aus. Öffnen Sie Lob im [Mandanten-App-Katalog](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog), und wechseln Sie zu **Einstellungen**.
 
-> [!Note]
+> [!NOTE]
 > Das Lob-App-Feature steht für Clouds der US-Regierung nicht zur Verfügung.
 
 ## <a name="use-built-in-badge-sets"></a>Verwenden integrierter Signal Sätze

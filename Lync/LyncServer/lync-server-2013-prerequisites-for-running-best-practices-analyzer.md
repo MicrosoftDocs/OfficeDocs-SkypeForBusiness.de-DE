@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Voraussetzungen für die Ausführung von Best Practices Analyzer'
+description: 'Lync Server 2013: Voraussetzungen für die Ausführung von Best Practices Analyzer.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183283
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0e4c39925ab40a376b93afb03a0de97d95e3898
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d8705d390f9ae1e2508f4935c28ec728ec0bfbfe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506712"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579841"
 ---
 # <a name="prerequisites-for-running-best-practices-analyzer-in-lync-server-2013"></a>Voraussetzungen für die Ausführung von Best Practices Analyzer in lync Server 2013
 

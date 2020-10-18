@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Cmdlets für Registrierungsstellen und Directors'
+description: 'Lync Server 2013: Cmdlets für Registrierungsstellen und Directors.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73528a29a88ee2196d9aa1c522b6d6cdb221a9f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7a0cd1775e2fc4e83e3507cbbea588b57550b8cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536682"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578601"
 ---
 # <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a>Cmdlets für Registrierungsstellen und Directors in lync Server 2013
 

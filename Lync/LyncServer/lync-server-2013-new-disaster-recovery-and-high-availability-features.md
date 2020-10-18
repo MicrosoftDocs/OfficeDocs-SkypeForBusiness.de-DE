@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: neue Features für die Notfallwiederherstellung und hohe Verfügbarkeit'
+description: 'Lync Server 2013: neue Features für die Notfallwiederherstellung und hohe Verfügbarkeit.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33a9039c65d059042d9eb93c9d5437a00ebff266
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 92816f61b66d9eed76c16286aaa6c7392dca7708
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512562"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578861"
 ---
 # <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a>Neue Features für die Notfallwiederherstellung und hohe Verfügbarkeit in lync Server 2013
 
