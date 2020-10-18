@@ -15,7 +15,7 @@
 ### [Topologiegrundlagen](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Referenztopologien](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### Voraussetzungen 
-####[Systemanforderungen](../plan/system-requirements.md)
+#### [Systemanforderungen](../plan/system-requirements.md)
 #### [Anforderungen an den Lastenausgleich](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Netzwerkanforderungen](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [IPv6](../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -97,7 +97,7 @@
 #### [Geschäftlich anrufen](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Remoteanrufsteuerung](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### Cloudvoicemail
-#####[Planen von Cloudvoicemail](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [Planen von Cloudvoicemail](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [Konfigurieren von Cloudvoicemail](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Automatische Cloudtelefonzentralen
 ##### [Planen automatischer Cloudtelefonzentralen](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
