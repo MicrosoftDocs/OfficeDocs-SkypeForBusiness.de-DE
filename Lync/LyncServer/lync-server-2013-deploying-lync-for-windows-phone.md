@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Bereitstellen von lync für Windows Phone'
+description: 'Lync Server 2013: Bereitstellen von lync für Windows phone.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7a5d012b7b84cf8426b790dd4e9aae8ba6b6d1e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cd02965f7e04cd583ee5b727e99c7c109c8000af
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501522"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573381"
 ---
-# <a name="deploying-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="e9039-102">Bereitstellen von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9039-102">Deploying Lync for Windows Phone in Lync Server 2013</span></span>
+# <a name="deploying-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="c3c24-103">Bereitstellen von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3c24-103">Deploying Lync for Windows Phone in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48501522"
 
 <span> </span>
 
-<span data-ttu-id="e9039-103">_**Letztes Änderungsstand des Themas:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="e9039-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="c3c24-104">_**Letztes Änderungsstand des Themas:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="c3c24-104">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="e9039-104">In diesem Abschnitt wird beschrieben, wie Sie lync 2013 für Windows Phone für Ihre mobilen Benutzer bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="e9039-104">This section describes how to deploy Lync 2013 for Windows Phone for your mobile users.</span></span>
+<span data-ttu-id="c3c24-105">In diesem Abschnitt wird beschrieben, wie Sie lync 2013 für Windows Phone für Ihre mobilen Benutzer bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="c3c24-105">This section describes how to deploy Lync 2013 for Windows Phone for your mobile users.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e9039-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e9039-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c3c24-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="c3c24-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e9039-106">Installieren von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9039-106">Installing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-windows-phone.md)
+  - [<span data-ttu-id="c3c24-107">Installieren von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3c24-107">Installing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-windows-phone.md)
 
-  - [<span data-ttu-id="e9039-107">Entfernen von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9039-107">Removing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-windows-phone.md)
+  - [<span data-ttu-id="c3c24-108">Entfernen von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c3c24-108">Removing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-windows-phone.md)
 
 </div>
 
