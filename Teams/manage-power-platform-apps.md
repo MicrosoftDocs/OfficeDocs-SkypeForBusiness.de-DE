@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Zugriff auf Power Platform-apps im Microsoft Teams Admin Center verwalten.
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171451"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599550"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Power Platform-apps im Microsoft Teams Admin Center
 
@@ -78,6 +78,13 @@ Wenn Sie bestimmten Benutzern in Ihrer Organisation den Zugriff auf apps erlaube
 Wenn Sie beispielsweise verhindern möchten, dass bestimmte Benutzer auf apps zugreifen können, die in Power Apps erstellt wurden, erstellen Sie eine benutzerdefinierte App-Berechtigungsrichtlinie, um **freigegebene Power apps**zu blockieren, und weisen Sie die Richtlinie diesen Benutzern zu.
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Screenshot einer benutzerdefinierten Beispiel-App-Berechtigungsrichtlinie mit blockierten freigegebenen Power apps":::
+
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Verwenden von Überwachungsprotokollen zum Untersuchen der Power Platform-Installationsaktivitäten
+
+Sie können Überwachungsprotokolle für Teams verwenden, um Ereignisse zu untersuchen, bei denen Benutzer Power Platform-Apps über den Abschnitt " **von ihren Kollegen erstellt** " auf der Seite "Apps" in Microsoft Teams installiert haben. Durchsuchen Sie dazu [das Überwachungsprotokoll](https://docs.microsoft.com/microsoftteams/audit-log-events) für das **installierte App** Teams-Ereignis (unter dem **AppInstalled** -Vorgang) für einen bestimmten Benutzer oder eine Gruppe von Benutzern. Suchen Sie nach dem **TemplatedInstance** -Wert unter der **AppDistributionMode** -Eigenschaft in den Details eines bestimmten Datensatzes, um apps zu finden, die im Abschnitt " **von ihren Kollegen erstellt** " installiert sind. 
+
+> [!NOTE]
+> Sie können Überwachungsdatensätze im CSV-Format exportieren, um die Filterung zu vereinfachen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Zusammenfassung: Installieren und Konfigurieren von Watcher-Knoten für Skype for Business Server synthetischen Transaktionen.'
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640945"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599635"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Watcher-Knoten
  
@@ -27,9 +27,9 @@ ms.locfileid: "46640945"
   
 Watcher-Knoten sind Computer, die regelmäßig Skype for Business Server synthetischen Transaktionen ausgeführt werden. Synthetische Transaktionen sind Windows PowerShell Cmdlets, mit denen sichergestellt wird, dass wichtige Benutzerszenarien wie die Möglichkeit zum Anmelden oder zum Austauschen von Chatnachrichten wie erwartet funktionieren. Für Skype for Business Server 2015 kann System Center Operations Manager die synthetischen Transaktionen ausführen, die in der folgenden Tabelle gezeigt werden, die drei synthetische Transaktionstypen umfasst:
   
-- **Standardwert** Synthetische Transaktionen, die ein Watcher-Knoten standardmäßig ausführt. Wenn Sie einen neuen Watcher-Knoten erstellen, können Sie angeben, welche synthetischen Transaktionen dieser Knoten ausführen soll. (Dies ist der Zweck des Parameters "Tests", der vom Cmdlet "New-CsWatcherNodeConfiguration" verwendet wird.) Wenn Sie den Parameter Tests nicht verwenden, wenn der Watcher-Knoten erstellt wird, werden alle synthetischen Standardtransaktionen automatisch ausgeführt, und es werden keine synthetischen, nicht standardmäßigen Transaktionen ausgeführt. Dies bedeutet beispielsweise, dass der Watcher-Knoten so konfiguriert wird, dass der Test-CsAddressBookService-Test ausgeführt wird, aber nicht für die Ausführung des Test-csexumconnectivity "-Tests konfiguriert ist.
+- **Standardwert** Synthetische Transaktionen, die ein Watcher-Knoten standardmäßig ausführt. Wenn Sie einen neuen Watcher-Knoten erstellen, können Sie angeben, welche synthetischen Transaktionen dieser Knoten ausführen soll. (Dies ist der Zweck des Parameters "Tests", der vom New-CsWatcherNodeConfiguration-Cmdlet verwendet wird.) Wenn Sie den Parameter Tests nicht verwenden, wenn der Watcher-Knoten erstellt wird, werden alle synthetischen Standardtransaktionen automatisch ausgeführt, und es werden keine synthetischen, nicht standardmäßigen Transaktionen ausgeführt. Dies bedeutet beispielsweise, dass der Watcher-Knoten so konfiguriert wird, dass der Test-CsAddressBookService Test ausgeführt wird, aber nicht für die Ausführung des Test-CsExumConnectivity Tests konfiguriert ist.
     
-- **Nicht Standard** Testet, ob Watcher-Knoten standardmäßig nicht ausgeführt werden. (Ausführliche Informationen finden Sie in der Beschreibung des Standardtyps.) Allerdings kann der Watcher-Knoten aktiviert werden, um alle nicht standardmäßigen synthetischen Transaktionen auszuführen. Sie können dies tun, wenn Sie den Watcher-Knoten (mithilfe des New-CsWatcherNodeConfiguration-Cmdlets) oder nach der Erstellung des Watcher-Knotens erstellen. Beachten Sie, dass für viele der nicht standardmäßigen synthetischen Transaktionen zusätzliche Einrichtungsschritte erforderlich sind. Ausführliche Informationen zu diesen Schritten finden Sie unter [spezielle Einrichtungsanweisungen für synthetische Transaktionen](test-users-and-settings.md#special_synthetictrans).
+- **Nicht Standard** Testet, ob Watcher-Knoten standardmäßig nicht ausgeführt werden. (Ausführliche Informationen finden Sie in der Beschreibung des Standardtyps.) Allerdings kann der Watcher-Knoten aktiviert werden, um alle nicht standardmäßigen synthetischen Transaktionen auszuführen. Sie können dies tun, wenn Sie den Watcher-Knoten erstellen (mithilfe des New-CsWatcherNodeConfiguration-Cmdlets) oder wenn der Watcher-Knoten erstellt wurde. Beachten Sie, dass für viele der nicht standardmäßigen synthetischen Transaktionen zusätzliche Einrichtungsschritte erforderlich sind. Ausführliche Informationen zu diesen Schritten finden Sie unter [spezielle Einrichtungsanweisungen für synthetische Transaktionen](test-users-and-settings.md#special_synthetictrans).
     
 - **Erweitert** Ein spezieller Typ einer nicht standardmäßigen synthetischen Transaktion. Im Unterschied zu anderen synthetischen Transaktionen können sie bei jedem Durchgang mehrere Male ausgeführt werden. Dies ist hilfreich, wenn Sie das Verhalten überprüfen möchten, beispielsweise mehrere PSTN-VoIP-Routen (Public Switched Telephone Network) für einen Pool. Sie können dies einfach durch Hinzufügen mehrerer Instanzen eines erweiterten Tests zu einem Watcher-Knoten konfigurieren.
     
@@ -48,19 +48,19 @@ Zu den für Watcher-Knoten verfügbaren synthetischen Transaktionen gehören:
 |Test-CsPresence (Anwesenheit)  <br/> |Bestätigt, dass Benutzer in der Lage sind, die Anwesenheit anderer Benutzer anzuzeigen.  <br/> |
 |Test-CsRegistration (Registrierung)  <br/> |Bestätigt, dass sich Benutzer bei Skype for Business anmelden können.  <br/> |
 |Test-CsPstnPeerToPeerCall (PSTN)  <br/> |Überprüft, ob Benutzer in der Lage sind, Anrufe von Personen außerhalb des Unternehmens (PSTN-Nummern) entgegenzunehmen oder diese anzurufen.  <br/> |
-|Test-csasconference "(Konferenz)  <br/> |Bestätigt, dass Benutzer in der Lage sind, eine Anwendungsfreigabe Konferenz zu erstellen und daran teilzunehmen.  <br/> |
-|Test-csavedgeconnectivity "(AVEdgeConnectivity)  <br/> |Bestätigt, dass die Audio-Video-Edgeserver Verbindungen für Peer-zu-Peer-Anrufe und Telefonkonferenzen annehmen können.  <br/> |
-|Test-csdataconference "(dataconference)  <br/> |Bestätigt, dass Benutzer an einer Daten Zusammenarbeits Konferenz teilnehmen können (eine Onlinebesprechung, die Aktivitäten wie Whiteboards und Umfragen umfasst).  <br/> |
+|Test-CsASConference (Konferenz)  <br/> |Bestätigt, dass Benutzer in der Lage sind, eine Anwendungsfreigabe Konferenz zu erstellen und daran teilzunehmen.  <br/> |
+|Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |Bestätigt, dass die Audio-Video-Edgeserver Verbindungen für Peer-zu-Peer-Anrufe und Telefonkonferenzen annehmen können.  <br/> |
+|Test-CsDataConference (dataconference)  <br/> |Bestätigt, dass Benutzer an einer Daten Zusammenarbeits Konferenz teilnehmen können (eine Onlinebesprechung, die Aktivitäten wie Whiteboards und Umfragen umfasst).  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |Bestätigt, dass Benutzer in der Lage sind, Telefonnummern für die Teilnahme an Konferenzen zu wählen.  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |Bestätigt, dass Benutzer in der Lage sind, Telefonnummern für die Teilnahme an Konferenzen zu wählen.  <br/> |
-|Test-csexumconnectivity "(ExumConnectivity)  <br/> |Bestätigt, dass ein Benutzer eine Verbindung mit Exchange Unified Messaging (um) herstellen kann.  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)  <br/> |Bestätigt, dass ein Benutzer eine Verbindung mit Exchange Unified Messaging (um) herstellen kann.  <br/> |
 |Test-CsGroupIM-TestJoinLauncher (JoinLauncher)  <br/> |Bestätigt, dass Benutzer in der Lage sind, geplante Besprechungen (über einen Webadressen Link) zu erstellen und daran teilzunehmen.  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Überprüft, ob Benutzer mit Mobilgeräten in der Lage sind, sich zu registrieren und Sofortnachrichten zu senden.  <br/> |
 |Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Bestätigt, dass der Video-Interop-Server installiert ist und eingehende Verbindungen über einen Video-SIP-Trunk verarbeiten kann.  <br/> **Hinweis:** Die MCX-Unterstützung für ältere Mobile Clients steht in Skype for Business Server 2019 nicht mehr zur Verfügung. |
-|Test-cspersistentchatmessage "(PersistentChatMessage)  <br/> |Bestätigt, dass Benutzer Nachrichten mithilfe des Diensts für beständigen Chat austauschen können.  <br/> |
+|Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Bestätigt, dass Benutzer Nachrichten mithilfe des Diensts für beständigen Chat austauschen können.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Bestätigt, dass Benutzer über das Internet an Konferenzen teilnehmen können.  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Überprüft, ob die Kontakte eines Benutzers über den einheitlichen Kontaktspeicher zugänglich sind. Der einheitliche Kontaktspeicher bietet Benutzern eine Möglichkeit, eine einzelne Gruppe von Kontakten zu verwalten, auf die mithilfe von Skype for Business Server 2015, dem Outlook-Messaging-und Zusammenarbeitsclient und/oder Outlook Web Access zugegriffen werden kann.  <br/> |
-|Test-csxmppim "(XmppIM)  <br/> |Bestätigt, dass eine Sofortnachricht über das XMPP-Gateway (Extensible Messaging and Presence Protocol) gesendet werden kann.  <br/> XMPP-Gateways und-Proxys stehen in Skype for Business Server 2015 zur Verfügung, werden in Skype for Business Server 2019 jedoch nicht mehr unterstützt.  |
+|Test-CsXmppIM (XmppIM)  <br/> |Bestätigt, dass eine Sofortnachricht über das XMPP-Gateway (Extensible Messaging and Presence Protocol) gesendet werden kann.  <br/> XMPP-Gateways und-Proxys stehen in Skype for Business Server 2015 zur Verfügung, werden in Skype for Business Server 2019 jedoch nicht mehr unterstützt.  |
 
 Sie müssen keine Watcher-Knoten installieren, um System Center Operations Manager verwenden zu können. Wenn Sie diese Knoten nicht installieren, können Sie immer noch Echtzeitwarnungen von Skype for Business Server 2015 Komponenten erhalten, wenn ein Problem auftritt. (Die Komponente und das Benutzer Management Pack verwenden keine Watcher-Knoten.) Watcher-Knoten sind jedoch erforderlich, wenn Sie End-to-End-Szenarien mithilfe des Active Monitoring Management Packs überwachen möchten.
   
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 Wenn sich der Monitor Knoten Computer in Ihrem Umkreisnetzwerk befindet, können Sie den folgenden Befehl ausführen, um die Installation von Skype for Business Server 2015 zu überprüfen:
   
-Abhängig von der Anzahl der für die Verwendung in Ihrer Organisation konfigurierten PIN-Richtlinien erhält Get-CsPinPolicyYou Informationen wie diese.
+Get-CsPinPolicyYou erhalten ähnliche Informationen, abhängig von der Anzahl der PIN-Richtlinien, die für die Verwendung in Ihrer Organisation konfiguriert sind:
   
 Identity: Global
   
@@ -216,7 +216,7 @@ So weisen Sie ein Standardzertifikat zu:
 > [!NOTE]
 > Wenn die Schaltfläche Ausführen deaktiviert ist, müssen Sie möglicherweise zunächst unter Lokalen Konfigurationsspeicher installieren auf Ausführen klicken. 
   
-Führen Sie eine der folgenden Aktionen aus:
+Führen Sie einen der folgenden Schritte aus:
   
 - Wenn Sie bereits über ein Zertifikat verfügen, das als Standardzertifikat verwendet werden kann, klicken Sie im Zertifikat-Assistenten auf Standard, und klicken Sie dann auf zuweisen. Befolgen Sie die Anweisungen des Zertifikat-Assistenten, um das Zertifikat zuzuweisen.
     
