@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427690"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625101"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -78,6 +78,8 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 
 | Hersteller        | Modell                                                     | Qualifizierten      | Certified-Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Epos/Sennheiser      |MB pro 1                                                   |10/2/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Epos/Sennheiser      |MB pro 2                                                   |10/2/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 80-Headset                                          |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 40-Headset                                          |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 30 II-Headset                                       |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |

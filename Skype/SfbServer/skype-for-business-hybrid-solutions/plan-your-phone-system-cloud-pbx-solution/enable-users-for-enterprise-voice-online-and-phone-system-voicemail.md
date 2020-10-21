@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Erfahren Sie, wie Sie VoIP-Dienste für Telefonsysteme für Ihre Skype for Business-Benutzer aktivieren.
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359181"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625111"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP online und für Telefonsystem-Voicemail
  
@@ -41,14 +41,18 @@ Wenn Sie einen Benutzer für Telefon System-VoIP und Voicemail aktivieren möcht
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>So aktivieren Sie Ihre Benutzer für Telefon System Sprache und Voicemail
 
-1. Bevor Sie beginnen, sollten Sie sicherstellen, dass der Skype for Business Online Connector (Windows PowerShell-Modul) auf Ihren Front-End-Servern bereitgestellt wird. Wenn dies nicht der Fall ist, können Sie es aus [dem Download Center](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen. Weitere Informationen zur Verwendung dieses Moduls finden Sie unter [Konfigurieren Ihres Computers für Skype for Business Online Verwaltung](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
+> [!NOTE]
+> Skype for Business Online Connector ist derzeit Teil des aktuellen Teams-PowerShell-Moduls.
+> Wenn Sie die neueste PowerShell- [Version](https://www.powershellgallery.com/packages/MicrosoftTeams/)von Microsoft Teams verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
+
+1. Bevor Sie beginnen, sollten Sie sicherstellen, dass das PowerShell-Modul von Teams auf Ihren Front-End-Servern installiert ist. Wenn dies nicht der Fall ist, installieren Sie die Anweisungen unter [Teams PowerShell Module Installation](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Starten Sie Windows PowerShell als Administrator.
     
 3. Geben Sie Folgendes ein, und drücken Sie die EINGABETASTE:
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. Geben Sie Folgendes ein, und drücken Sie die EINGABETASTE:
@@ -75,13 +79,13 @@ Wenn Sie einen Benutzer für Telefon System-VoIP und Voicemail aktivieren möcht
 
     Beim Ausführen von PowerShell auf einem Skype for Business Server werden die lokalen Skype for Business-Cmdlets bereits geladen, wenn Sie PowerShell öffnen. Sie müssen den Parameter-AllowClobber angeben, damit die Online-Cmdlets die lokalen Cmdlets mit dem gleichen Namen überschreiben können.
     
-8. Verwenden Sie das Cmdlet "CsUser", um dem Benutzer die Eigenschaften $EnterpriseVoiceEnabled und $HostedVoiceMail wie folgt zuzuweisen:
+8. Verwenden Sie das Set-CsUser-Cmdlet, um dem Benutzer die Eigenschaften $EnterpriseVoiceEnabled und $HostedVoiceMail wie folgt zuzuweisen:
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    Zum Beispiel:
+    Beispiel:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -172,7 +176,7 @@ Telefon System Benutzern muss eine VoIP-Routing Richtlinie zugewiesen sein, dami
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>So heben Sie die Zuweisung einer VoIP-Routing Richtlinie pro Benutzer auf
 
-- Verwenden Sie das Grant-csvoiceroutingpolicy ", um die Zuweisung einer benutzerbasierten VoIP-Routing Richtlinie aufzuheben, die Ken Myers zuvor zugewiesen wurde. Nachdem die Zuweisung der VoIP-Routing Richtlinie pro Benutzer aufgehoben wurde, wird Ken Myers automatisch mithilfe der globalen VoIP-Routing Richtlinie verwaltet.
+- Verwenden Sie die Grant-CsVoiceRoutingPolicy, um die Zuweisung einer benutzerbasierten VoIP-Routing Richtlinie aufzuheben, die Ken Myers zuvor zugewiesen wurde. Nachdem die Zuweisung der VoIP-Routing Richtlinie pro Benutzer aufgehoben wurde, wird Ken Myers automatisch mithilfe der globalen VoIP-Routing Richtlinie verwaltet.
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
