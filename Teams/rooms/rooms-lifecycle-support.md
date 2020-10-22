@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Erfahren Sie mehr über die Lebenszyklus Unterstützung für Microsoft Teams-Räume, einschließlich der dynamischen Supportstruktur und ihrer Phasen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336983"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650918"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams rooms-App-Versionsunterstützung
  
@@ -38,7 +38,7 @@ Alle Versionen sind in den Versionshinweisen für [Microsoft Teams-Chatrooms](ro
 
 ## <a name="windows-10-release-support"></a>Windows 10-Release-Unterstützung
 
-Für Microsoft Teams Rooms sind die Windows 10-Enterprise-oder Windows 10 Enterprise-SKUs unter halbjährlichen Kanal Wartungsoptionen erforderlich. Diese anderen Windows 10-Editionen werden nicht unterstützt:
+Für Microsoft Teams Rooms sind die Windows 10-Enterprise-oder Windows 10 Enterprise-SKUs unter Semi-Annual Optionen für den Kanal Service erforderlich. Diese anderen Windows 10-Editionen werden nicht unterstützt:
 
 - Windows 10 Enterprise Long Term Servicing Branch (LTSB)/Long Term Servicing Channel (LTSC) Editions
 - Windows 10 Internet der Dinge (viel) Enterprise-LTSB/LTSC-Editionen
@@ -53,7 +53,8 @@ In der folgenden Tabelle sind die empfohlenen und unterstützten Versionen von W
 
 |Version  |Verfügbarkeitsdatum   |Support Status für Microsoft Teams rooms   |Microsoft Teams-Chatrooms, minimale Anwendungsversion | Empfohlener Betriebssystem-Build  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 2004 |2020-05-27 |Unter Überprüfung <br/>Nicht empfohlen|&#x2014; |19041,264 |
+| 20H2 |2020-10-20 |Unter Überprüfung <br/>Noch nicht unterstützt|&#x2014; |19042,572 |
+| 2004 |2020-05-27 |Übersprungen <br/> Nicht empfohlen|&#x2014; |19041,264 |
 | 1909 |2019-11-12 |Stützt <br/>Empfohlen |4.5.33.0 |18363,418  |
 | 1903 |2019-05-21 |Unterstützt  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Nicht unterstützt, <br/>Bekannte Kompatibilitätsprobleme &#x2780;|&#x2014; |&#x2014; |

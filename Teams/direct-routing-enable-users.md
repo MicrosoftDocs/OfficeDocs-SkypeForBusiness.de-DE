@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie Benutzern das direkte Routing von Microsoft Phone-Systemen ermöglichen.
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814544"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655482"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -91,7 +91,7 @@ So fügen Sie die Telefonnummer hinzu und aktivieren für Voicemail:
 2. Geben Sie den folgenden Befehl ein: 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     Wenn Sie beispielsweise eine Telefonnummer für den Benutzer "Spencer Low" hinzufügen möchten, geben Sie Folgendes ein: 
@@ -99,9 +99,18 @@ So fügen Sie die Telefonnummer hinzu und aktivieren für Voicemail:
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    Wenn die Benutzer "Spencer Low" und "Stacy Quinn" dieselbe Basisnummer mit eindeutigen Erweiterungen verwenden, geben Sie Folgendes ein:
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    Die verwendete Telefonnummer muss als vollständige E. 164-Telefonnummer mit Landesvorwahl konfiguriert werden. 
-
+    Es wird empfohlen, aber nicht erforderlich, dass die verwendete Telefonnummer als vollständige E. 164-Telefonnummer mit Landesvorwahl konfiguriert ist. Es wird unterstützt, Telefonnummern mit Erweiterungen zu konfigurieren, die verwendet werden, um Benutzer zu lookupen, wenn der Verweis auf die Basisnummer mehr als ein Ergebnis zurückgibt. So können Unternehmen Telefonnummern mit der gleichen Basisnummer und eindeutigen Erweiterungen konfigurieren. Damit Lookup erfolgreich ist, muss die Einladung die vollständige Nummer mit der Erweiterung wie folgt aufweisen:
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > Wenn die Telefonnummer des Benutzers lokal verwaltet wird, verwenden Sie die lokale Skype for Business-Verwaltungsshell oder die Systemsteuerung, um die Telefonnummer des Benutzers zu konfigurieren. 
 

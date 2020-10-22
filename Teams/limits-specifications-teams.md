@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1b0d3e656ae8d102199e0dcb7ebd61a4d5d15c2f
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: fa78b6a86b3216cd74fb07ae83f2ca99886d4213
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599470"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655372"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -116,13 +116,13 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Liveereignisse wird erhöht**
 >
-> **Um unsere Kunden zu unterstützen, werden bis zum 1. Januar 2021 zeitlich begrenzte Erhöhungen für Liveereignisse in Teams, Stream und Yammer erweitern, einschließlich**:
+> **Um unsere Kunden zu unterstützen, verlängern wir bis zum 1. Januar 2021 die befristete Erhöhung der Limits für Live Events, die in Teams, Stream und Yammer stattfinden, einschließlich**:
 >
 >- Bis zu 20.000 Teilnehmer pro Ereignis
 >- Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
 >- Bis zu 16 Stunden pro Sendung
 >
-> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
+> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
 
 
 |Feature     | Obergrenze |
@@ -148,28 +148,28 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 > [!NOTE]
 > Microsoft Teams-Besprechungen haben ein Zeitlimit von 24 Stunden.
 
-## <a name="teams-live-events"></a>Teams-Liveereignisse
+## <a name="teams-live-events"></a>Live Events in Teams
 
-|Funktion     | Obergrenze |
+|Feature     | Obergrenze |
 |------------|---------------|
 |Zielgruppengröße | 10.000 Teilnehmer |
 |Dauer des Ereignisses | 4 Stunden |
-|Gleichzeitige Liveereignisse in einer Microsoft 365- oder Office 365-Organisation<sup>1</sup> | 15 |
+|Gleichzeitige Live Events in einer Microsoft 365- oder Office 365-Organisation<sup>1</sup> | 15 |
 
-<sup>1</sup> Sie können beliebig viele Live-Ereignisse planen, aber Sie können nur jeweils 15 ausführen. Sobald der Produzent einem Live-Ereignis beitritt, wird es als ausgeführt betrachtet. Der Produzent, der versucht, am 16. Live-Ereignis teilzunehmen, erhält eine Fehlermeldung.
+<sup>1</sup> Sie können beliebig viele Live Events planen, aber nur 15 gleichzeitig ausführen. Sobald der Produzent einem Live-Ereignis beitritt, wird es als ausgeführt betrachtet. Der Produzent, der versucht, am 16. Live-Ereignis teilzunehmen, erhält eine Fehlermeldung.
 
-Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Liveereignissen und Skype-Livekonferenzen finden Sie unter [Teams-Liveereignisse und Skype-Livekonferenzen](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Liveereignissen und Skype-Livekonferenzen finden Sie unter [Teams-Liveereignisse und Skype-Livekonferenzen](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Siehe auch [Planen eines Live Events in Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
-> **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
+> **Das Limit für Microsoft 365 Live Events wird erhöht**
 >
-> Damit Kunden den sich schnell ändernden Kommunikationsanforderungen gerecht werden, werden wir vorübergehend Standardgrenzwerte bis zum 1. Januar 2021 für Liveereignisse in Teams, Stream und Yammer erhöhen.
+> **Um unsere Kunden zu unterstützen, verlängern wir bis zum 1. Januar 2021 die befristete Erhöhung der Limits für Live Events, die in Teams, Stream und Yammer stattfinden, einschließlich**:
 >
-> - Teilnehmerlimit: Ereignisse können bis zu 20 000 Teilnehmer unterstützen
-> - Gleichzeitige Ereignisse: 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
-> - Ereignisdauer: die Ereignisdauer wurde auf 16 Stunden pro Sendung erhöht
+> - Bis zu 20.000 Teilnehmer pro Ereignis
+> - Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
+> - Bis zu 16 Stunden pro Sendung
 >
-> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmer über das Microsoft Liveereignis-Hilfsprogramm geplant werden. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
+> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
 
 ## <a name="presence-in-outlook"></a>Anwesenheit in Outlook
 

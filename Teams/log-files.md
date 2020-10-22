@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766759"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650828"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -90,11 +90,11 @@ Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
 <a name="media-logs"></a>Medienprotokolle
 ---------------------------
 
-Medienprotokolle enthalten diagnostische Daten zur Audio-, Video-und Bildschirmfreigabe in Teams-Besprechungen. Sie werden für Supportfälle nur auf Anfrage benötigt und können nur von Microsoft überprüft werden. 
+Medienprotokolle enthalten diagnostische Daten zur Audio-, Video-und Bildschirmfreigabe in Teams-Besprechungen. Sie sind für Supportfälle erforderlich, die mit anrufbezogenen Problemen verknüpft sind.
 
-Die Medien Protokollierung ist standardmäßig deaktiviert. Zum Protokollieren von Diagnosedaten für Teams-Besprechungen müssen die Benutzer die Option im Teams-Client aktivieren. Wechseln Sie zu **Einstellungen**  >  **Allgemein**, aktivieren Sie das Kontrollkästchen **Protokollierung für die Besprechungs Diagnose aktivieren (erfordert einen Neustart von Teams**), und starten Sie dann Teams neu.
+Die Medien Protokollierung ist standardmäßig deaktiviert. Zum Protokollieren von Diagnosedaten für Teams-Besprechungen müssen die Benutzer die Option im Teams-Client aktivieren. Wechseln Sie zu **Einstellungen**  >  **Allgemein**, aktivieren Sie das Kontrollkästchen **Protokollierung für die Besprechungs Diagnose aktivieren (erfordert einen Neustart von Teams**), und starten Sie dann Teams neu, und reproduzieren Sie das Problem. 
 
-In der folgenden Tabelle werden die Protokollspeicherorte erläutert.
+In der folgenden Tabelle werden die Speicherorte des Medien Protokolls erläutert. Wenn Sie die Protokolldateien an den Microsoft-Support senden, überprüfen Sie bitte den Zeitstempel der Protokolldateien, um sicherzustellen, dass die Protokolle den Zeitrahmen abdecken, wenn Sie das Problem reproduzieren.
 
 |Client |Speicherort |
 |---------|---------|
@@ -143,4 +143,3 @@ Linux
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-

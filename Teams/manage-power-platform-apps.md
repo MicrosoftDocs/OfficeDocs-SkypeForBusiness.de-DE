@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Zugriff auf Power Platform-apps im Microsoft Teams Admin Center verwalten.
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599550"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650958"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Power Platform-apps im Microsoft Teams Admin Center
 
@@ -32,7 +32,7 @@ In diesem Artikel erhalten Sie einen Überblick über das Verwalten von [Power P
 
 [Power apps](https://powerapps.microsoft.com) ist eine Anwendungsentwicklungsumgebung mit geringem Code/ohne Code, die Entscheidungsträger in Ihrer Organisation zum Erstellen benutzerdefinierter Apps verwenden können, die eine Verbindung mit ihren Geschäftsdaten herstellen. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) ist eine nicht-Code-bot-Gebäudeumgebung für Entscheidungsträger, um leistungsfähige Bots zu erstellen. Durch die Integration von Power-Platform-apps in Teams können Unternehmen Geschäftsprozesse rationalisieren, auf sich verändernde geschäftliche Anforderungen schneller reagieren, um eine größere Zusammenarbeit zu fördern sowie benutzerdefinierte Lösungen zu erstellen und freizugeben, um produktiver zu arbeiten.  
 
-Power Platform-apps, die von Entscheidungsträgern in Ihrer Organisation erstellt wurden, werden automatisch zu Teams hinzugefügt. Entscheidungsträger können mithilfe der [Freigabefunktion in Power apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) und der [Freigabefunktion in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)steuern, wer auf Ihre App zugreifen kann. 
+Power Platform-apps, die von Entscheidungsträgern in Ihrer Organisation erstellt wurden, werden automatisch zu Teams hinzugefügt. Entscheidungsträger können mithilfe der [Freigabefunktion in Power apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) und der [Freigabefunktion in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)steuern, wer auf Ihre App zugreifen kann.
 
 Wenn eine Power Platform-App erstellt oder freigegeben wird, können Benutzer Sie auf der Seite "Apps" anzeigen und installieren, indem Sie **für *Ihren Organisationsnamen***, der  >  **von ihren Kollegen erstellt wurde**, auf "erstellt" klicken. (Es kann einige Minuten dauern, nachdem eine App erstellt oder freigegeben wurde, damit die app hier angezeigt wird.)
 
@@ -77,11 +77,13 @@ Wenn Sie bestimmten Benutzern in Ihrer Organisation den Zugriff auf apps erlaube
 
 Wenn Sie beispielsweise verhindern möchten, dass bestimmte Benutzer auf apps zugreifen können, die in Power Apps erstellt wurden, erstellen Sie eine benutzerdefinierte App-Berechtigungsrichtlinie, um **freigegebene Power apps**zu blockieren, und weisen Sie die Richtlinie diesen Benutzern zu.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Screenshot einer benutzerdefinierten Beispiel-App-Berechtigungsrichtlinie mit blockierten freigegebenen Power apps":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot einer benutzerdefinierten Beispiel-App-Berechtigungsrichtlinie mit blockierten freigegebenen Power apps":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Verwenden von Überwachungsprotokollen zum Untersuchen der Power Platform-Installationsaktivitäten
 
-Sie können Überwachungsprotokolle für Teams verwenden, um Ereignisse zu untersuchen, bei denen Benutzer Power Platform-Apps über den Abschnitt " **von ihren Kollegen erstellt** " auf der Seite "Apps" in Microsoft Teams installiert haben. Durchsuchen Sie dazu [das Überwachungsprotokoll](https://docs.microsoft.com/microsoftteams/audit-log-events) für das **installierte App** Teams-Ereignis (unter dem **AppInstalled** -Vorgang) für einen bestimmten Benutzer oder eine Gruppe von Benutzern. Suchen Sie nach dem **TemplatedInstance** -Wert unter der **AppDistributionMode** -Eigenschaft in den Details eines bestimmten Datensatzes, um apps zu finden, die im Abschnitt " **von ihren Kollegen erstellt** " installiert sind. 
+Sie können Überwachungsprotokolle für Teams verwenden, um Ereignisse zu untersuchen, bei denen Benutzer Power Platform-Apps über den Abschnitt " **von ihren Kollegen erstellt** " auf der Seite "Apps" in Microsoft Teams installiert haben. Durchsuchen Sie dazu [das Überwachungsprotokoll](https://docs.microsoft.com/microsoftteams/audit-log-events) für das **installierte App** Teams-Ereignis (unter dem **AppInstalled** -Vorgang) für einen Benutzer oder eine Gruppe von Benutzern. Um apps zu finden, die von **ihren Kollegen erstellt**wurden, suchen Sie in den Details eines bestimmten Datensatzes nach dem **TemplatedInstance** -Wert in der **AppDistributionMode** -Eigenschaft. 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Screenshot des TemplatedInstance-Werts in der AppDistributionMode-Eigenschaft":::
 
 > [!NOTE]
 > Sie können Überwachungsdatensätze im CSV-Format exportieren, um die Filterung zu vereinfachen.

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen Session Border Controller (SBC) für die Bereitstellung mehrerer Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber konfigurieren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814241"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655522"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -62,7 +62,7 @@ Die detaillierten Schritte zum Bereitstellen und Konfigurieren von SBCS für ein
 - **Oracle:** [Direct Routing-Konfigurationshinweise](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)die Konfiguration des SBC-Host Szenarios wird im Abschnitt "Microsoft" beschrieben. 
 - **Band Kommunikation:**  Weitere Informationen finden Sie im [Menüband Communications SBC Core Microsoft Teams-Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) für die Dokumentation zur Konfiguration der Menüband-Core-Serie SBCS und zu diesem Seiten [Menüband bewährte Methode – Konfigurieren von Netzbetreibern für Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **Te-Systems (anynode):**  Bitte melden Sie sich auf der [te-Systems Community-Seite](https://community.te-systems.de/) an, um Dokumentationen und Beispiele zum Konfigurieren von anynode SBC für mehrere Mandanten zu erhalten.
-- **Metaswitch:**  Bitte melden Sie sich auf der [Community-Seite für metaswitch](https://sso.metaswitch.com/UI/Login) an, um zu erfahren, wie Sie Perimeta SBC für mehrere Mandanten aktivieren.
+- **Metaswitch:**  Bitte melden Sie sich auf der [Community-Seite für metaswitch](https://manuals.metaswitch.com/MAN39555) an, um zu erfahren, wie Sie Perimeta SBC für mehrere Mandanten aktivieren.
 
 > [!NOTE]
 > Bitte achten Sie darauf, wie Sie die Kopfzeile "Kontakt" konfigurieren. Der Kontakt Kopf wird verwendet, um den Kundenmandanten in der eingehenden Einladungsnachricht zu finden. 
@@ -87,7 +87,7 @@ Das folgende Diagramm fasst die Anforderungen für Basisdomänen, Unterdomänen 
 
 ![Diagramm mit Voraussetzungen für Domänen und Kontakt Kopfzeile](media/direct-routing-1-sbc-requirements.png)
 
-Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \* . base_domain anfordern (Beispiel: \* . Customers.adatum.biz)*. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
+Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \* .base_domain anfordern (beispielsweise \* Customers.adatum.biz)*. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
 
 
 Die folgende Tabelle zeigt ein Beispiel für eine Konfiguration.
@@ -220,14 +220,14 @@ Dies hat sich jedoch aus zwei Gründen nicht als optimal erwiesen:
 Basierend auf diesem Feedback führt Microsoft eine neue Logik ein, um die Stämme für die Kundenmandanten bereitzustellen.
 
 Es wurden zwei neue Entitäten eingeführt:
--    Ein Träger trunk, der im Carrier-Mandanten mit dem Befehl New-CSOnlinePSTNGateway registriert ist, beispielsweise New-CSOnlinePSTNGateway-FQDN Customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
+-    Ein für den Carrier-Mandanten registrierter Stamm mit dem Befehl New-CSOnlinePSTNGateway, beispielsweise New-CSOnlinePSTNGateway-FQDN Customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
 -    Ein abgeleiteter Stamm, für den keine Registrierung erforderlich ist. Es ist einfach ein gewünschter Hostname, der aus dem Carrier trunk hinzugefügt wurde. Er leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Der abgeleitete Stamm muss nicht in PowerShell erstellt werden, und die Zuordnung zum Netzbetreiber trunk basiert auf dem FQDN-Namen (siehe Details unten).
 
 **Bereitstellungslogik und-Beispiel**
 
--    Carrier müssen nur einen einzigen trunk (Carrier trunk in der Carrier-Domäne) einrichten und verwalten, indem Sie den Befehl "CSOnlinePSTNGateway" verwenden. Im obigen Beispiel ist adatum.biz;
--    Im Kundenmandanten muss der Netzbetreiber nur den FQDN des abgeleiteten Trunks zu den VoIP-Routing Richtlinien der Benutzer hinzufügen. Die Ausführung von New-CSOnlinePSTNGateway für einen trunk ist nicht erforderlich.
+-    Netzbetreiber müssen nur einen einzigen trunk (Carrier trunk in der Carrier-Domäne) mit dem Befehl Set-CSOnlinePSTNGateway einrichten und verwalten. Im obigen Beispiel ist adatum.biz;
+-    Im Kundenmandanten muss der Netzbetreiber nur den FQDN des abgeleiteten Trunks zu den VoIP-Routing Richtlinien der Benutzer hinzufügen. Es ist nicht erforderlich, New-CSOnlinePSTNGateway für einen trunk auszuführen.
 -    Der abgeleitete Stamm, wie der Name andeutet, erbt oder leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Beispiele
 -    Customers.adatum.biz – der Carrier trunk, der im Carrier-Mandanten erstellt werden muss.
 -    Sbc1.Customers.adatum.biz – der abgeleitete Stamm in einem Kundenmandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Mandanten Mandanten in der Online-VoIP-Routing Richtlinie hinzufügen, ohne ihn zu erstellen.
@@ -240,7 +240,7 @@ Es wurden zwei neue Entitäten eingeführt:
 
 **Migration vom Vorgängermodell zum Carrier trunk**
  
-Für die Migration von der aktuellen Implementierung des Carrier-Hosted-Modells zum neuen Modell müssen die Netzbetreiber die Stämme für Kundenmandanten neu konfigurieren. Entfernen Sie die Trunks von den Kundenmandanten mithilfe von Remove-CSOnlinePSTNGateway (verlassen des Stamms im Carrier-Mandanten)-
+Für die Migration von der aktuellen Implementierung des Carrier-Hosted-Modells zum neuen Modell müssen die Netzbetreiber die Stämme für Kundenmandanten neu konfigurieren. Entfernen Sie die Trunks von den Kundenmandanten mit Remove-CSOnlinePSTNGateway (verlassen des Stamms im Carrier-Mandanten)-
 
 Wir empfehlen, so schnell wie möglich auf die neue Lösung zu migrieren, da wir die Überwachung und Bereitstellung mit dem Carrier und dem abgeleiteten trunk Modell verbessern werden.
  
@@ -259,7 +259,7 @@ Zum Einrichten eines Failovers für eine Multi-Tenant-Umgebung müssen Sie die f
 - Geben Sie in den Online-VoIP-Routing Richtlinien der Benutzer beide SBCS.  Wenn ein SBC fehlschlägt, leitet die Routing Richtlinie Anrufe an den zweiten SBC weiter.
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Planen von direktem Routing](direct-routing-plan.md)
 
