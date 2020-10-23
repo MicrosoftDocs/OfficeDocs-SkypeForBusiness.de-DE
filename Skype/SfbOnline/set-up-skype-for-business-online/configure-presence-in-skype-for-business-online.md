@@ -20,14 +20,17 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Hier erfahren Sie, wie Sie Skype for Business einrichten, damit Sie die Verfügbarkeit Ihrer Kollegen sehen können. '
-ms.openlocfilehash: 80d0edfc5ba192f86d64d45d34116b55d43a5a25
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b06139d3614335505c7f8682700aa3d7d6fb5df8
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010898"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739193"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Konfigurieren der Anwesenheit in Skype for Business Online
+
+> [!IMPORTANT]
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Standardmäßig können alle Personen, die mit einem der Personen in Ihrer Organisation über Skype for Business kommunizieren können, auch sehen, ob diese Person online ist. Skype for Business zeigt, ob eine Person Online, in einer Besprechung, offline oder einem anderen Indikator verfügbar ist.
 
@@ -37,7 +40,7 @@ Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Wechseln Sie zum Admin Center > **Admin** > Center**Skype for Business**.
+1. Wechseln Sie zum Admin Center > **Admin**Center  >  **Skype for Business**.
 
 2. Wählen Sie im **Skype for Business Admin Center**die Option **Organisation**aus.
 
@@ -46,7 +49,7 @@ Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc
 |**Einstellung**|**Wer kann die Anwesenheit eines Benutzers anzeigen?**|
 |:-----|:-----|
 |**Anwesenheitsinformationen automatisch anzeigen** <br/> |Alle Skype for Business-Benutzer in Ihrem Unternehmen, die keiner **externen** oder **blockierten** Liste einer Person hinzugefügt wurden, können die Onlineanwesenheit dieser Person sehen. <br/> |
-|**Anzeigen von Anwesenheitsinformationen nur für die Kontakte eines Benutzers** <br/> |Alle Personen in der Kontaktliste einer Person, die Sie Ihrer **externen** oder **blockierten** Liste nicht hinzugefügt haben. <br/> Einzelpersonen können ihre Standardeinstellungen in Ihrer Skype for Business-APP außer Kraft setzen: **Einstellungen** > **-Tools** > -**Optionen**. <br/> |
+|**Anzeigen von Anwesenheitsinformationen nur für die Kontakte eines Benutzers** <br/> |Alle Personen in der Kontaktliste einer Person, die Sie Ihrer **externen** oder **blockierten** Liste nicht hinzugefügt haben. <br/> Einzelpersonen können ihre Standardeinstellungen in Ihrer Skype for Business-APP außer Kraft setzen: **Einstellungen**  >  -**Tools**  >  -**Optionen**. <br/> |
 
 Informationen dazu, was Ihre Benutzer in Skype for Business ändern können, finden Sie in den folgenden Artikeln:
 

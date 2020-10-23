@@ -19,27 +19,30 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können, müssen Sie Sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden. Wenn Sie Windows PowerShell nicht kennen, sollten Sie einen Microsoft-Partner anheuern, um diesen Schritt für Sie durchführen zu können.
-ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778120"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739053"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
-Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können, müssen Sie Sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden. Wenn Sie Windows PowerShell nicht kennen, sollten Sie einen [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) anheuern, um diesen Schritt für Sie durchführen zu können.
+> [!IMPORTANT]
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+
+Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können, müssen Sie Sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) für diese Aufgabe heranziehen.
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Aktivieren von Skype-Livekonferenz im Skype for Business Admin Center
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Registrieren Sie sich mit ihrem globalen Administratorkonto oder dem Skype for Business- [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Administratorkonto unter.
+1. Registrieren Sie sich mit ihrem globalen Administratorkonto oder dem Skype for Business-Administratorkonto unter [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. Wechseln Sie im Admin Center zu **Admin Center** > **Teams**.
+2. Wechseln Sie im Admin Center zu **Admin Center**  >  **Teams**.
     
-3. Wechseln Sie im **Team Admin Center**zu **Legacy Portal** > **Online Besprechungen** > **, und**wählen Sie dann Skype-Live **Konferenz aktivieren**aus.
+3. Wechseln Sie im **Team Admin Center**zu **Legacy Portal**  >  **Online Besprechungen**  >  **Broadcast meetings**, und wählen Sie dann Skype-Live **Konferenz aktivieren**aus.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Aktivieren von Skype-Livekonferenz mit PowerShell
 
@@ -79,7 +82,7 @@ Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können,
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    Sie können überprüfen, ob die Einstellung aktiviert ist `Get-CsBroadcastMeetingConfiguration` , indem Sie erneut ausgeführt wird.
+    Sie können überprüfen, ob die Einstellung aktiviert ist, indem Sie erneut ausgeführt wird  `Get-CsBroadcastMeetingConfiguration` .
     
      ![Cmdlet "Enable Organization" in Skype Meeting Broadcast](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   

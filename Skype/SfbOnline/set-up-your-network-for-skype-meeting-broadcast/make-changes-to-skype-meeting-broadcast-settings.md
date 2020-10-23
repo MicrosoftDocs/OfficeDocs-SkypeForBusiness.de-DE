@@ -20,14 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
-ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769478"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739063"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Vornehmen von Änderungen an den Einstellungen für die Skype-Live Konferenz für Ihre Organisation
+
+> [!IMPORTANT]
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
   

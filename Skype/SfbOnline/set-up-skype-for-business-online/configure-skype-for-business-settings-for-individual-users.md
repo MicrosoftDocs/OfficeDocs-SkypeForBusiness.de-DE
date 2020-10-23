@@ -23,14 +23,17 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Hier erfahren Sie, wie Sie die Skype for Business-Einstellungen für einzelne Benutzer ändern, beispielsweise Audio-und Videokonferenzen, Aufzeichnung von Anrufen und Besprechungen. '
-ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 546e693dd1fb6e9becf7119c35d7b00875eda99a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776320"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739173"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren
+
+> [!IMPORTANT]
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 In diesem Artikel wird erläutert, wie Administratoren Skype for Business für eine kleine Anzahl von Benutzern einrichten. Um diese Schritte in Massen durchführen zu können, haben wir Links zu den Windows PowerShell-Cmdlets hinzugefügt, die Sie verwenden können.
   
@@ -76,7 +79,7 @@ Wenn Sie diese Einstellungen massenhaft konfigurieren möchten, verwenden Sie Po
 
 Nachdem Sie die [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md) für alle Benutzer in Ihrem Unternehmen aktiviert haben, können Sie unter Ausführung der folgenden Schritte einzelne externe Kommunikationen für bestimmte Benutzer sperren.
   
-1. Wählen Sie **Benutzer**aus, wählen Sie die Benutzer aus, deren Einstellungen Sie deaktivieren möchten, **und wählen Sie dann bearbeiten aus** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Wählen Sie **Benutzer**aus, wählen Sie die Benutzer aus, deren Einstellungen Sie deaktivieren möchten, **und wählen Sie dann bearbeiten aus** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
 2. Wählen Sie **Externe Kommunikation** aus, und deaktivieren Sie dann die Optionen Ihren Anforderungen entsprechend:
     
@@ -91,7 +94,7 @@ Wenn Sie diese Einstellungen massenhaft konfigurieren möchten, verwenden Sie Po
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Bearbeiten von Audio-Konferenzeinstellungen für einen Benutzer
 <a name="__toc314837483"> </a>
 
-1. Wählen Sie **Benutzer**aus, wählen Sie den Benutzer aus, dessen audiokonferenzeinstellungen Sie bearbeiten möchten, **und wählen Sie dann bearbeiten aus** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Wählen Sie **Benutzer**aus, wählen Sie den Benutzer aus, dessen audiokonferenzeinstellungen Sie bearbeiten möchten, **und wählen Sie dann bearbeiten aus** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
 2. Wählen Sie **Audiokonferenzen**aus, wählen Sie Ihren Audiokonferenz-Anbieter aus, geben Sie die angeforderten Informationen ein, oder ändern Sie Sie, und klicken Sie auf **Speichern**
     
