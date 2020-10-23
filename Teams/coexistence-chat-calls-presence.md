@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Koexistenz-Verhalten zwischen Teams & Skype for Business, einschließlich Routing Parametern, Chat & Anrufweiterleitung, Chats & von bereits vorhandenen Threads, & Anwesenheit.
-ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
+ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757236"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48661347"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -70,7 +70,7 @@ Nachrichten, die an TeamsOnly-Benutzer gesendet werden, werden immer an Teams we
 In den folgenden Tabellen wird angezeigt, welcher Client in einem bestimmten Modus einen Anruf vom Absender (drei ganz links) erhält, je nach dem Modus des Erstellers, dem ausgewählten Client und dem Aufenthaltsort des Skype for Business-Clients (auf-Prem oder Online).
 
 In den folgenden Tabellen: 
-- **SFB \* ** stellt einen der folgenden Modi dar: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **SFB \* * _ steht für einen der folgenden Modi: _SfBOnly *, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
 - *Kursiver Text* hebt eine Interop-Unterhaltung hervor.
 
@@ -78,7 +78,7 @@ In den folgenden Tabellen:
 
 **Tabelle 1a: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im Modus "Inseln"**
 
-| <br/><br/> Modus | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed | | Empfänger <br/><br/> Inselmodus  |
+| <br/><br/> Modus | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed |<br/><br/>Route – >| Empfänger <br/><br/> Inselmodus  |
 |--- |--- |--- |--- |--- |
 | Inselmodus | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Auf-Prem<br/>Auf-Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
 |SFB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
@@ -87,7 +87,7 @@ In den folgenden Tabellen:
 
 **Tabelle 1B: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im SFB- \* Modus**
 
-| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed | |   Empfänger <br/><br/> SFB\*   |
+| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed |<br/><br/>Route – > |   Empfänger <br/><br/> SFB\*   |
 |--- |--- |--- |---   |--- |
 | Inselmodus |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Nicht möglich** <br/>Skype for Business<br/> |
 |SFB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
@@ -96,9 +96,9 @@ In den folgenden Tabellen:
 
 **Tabelle 1C: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im TeamsOnly-Modus**
 
-| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed | |   Empfänger <br/><br/> TeamsOnly  |
+| <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB &nbsp; Homed |<br/><br/>Route – >|   Empfänger <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Inselmodus   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
+| Inselmodus   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Microsoft Teams <br/>*Microsoft Teams*  |
 |SFB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
@@ -118,27 +118,27 @@ In den folgenden Tabellen wird beschrieben, welcher Client einen Anruf vom Absen
 
 **Tabelle 2a: Föderation des neuen Chats oder Anrufweiterleitung zu einem Insel Empfänger**
 
-| <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed| | Empfänger<br/><br/> Inselmodus |
+| <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed|<br/><br/>Route – > | Empfänger<br/><br/> Inselmodus |
 |--- |--- |--- |--- |--- |
-| Inselmodus |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich**   <br/> Skype for Business |
+| Inselmodus |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich**   <br/> Skype for Business |
 | SFB\* |Skype for Business <br/>Skype for Business |Online<br/> Auf-Prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
 **Tabelle 2B: Föderation des neuen Chats oder Anrufweiterleitung an einen Empfänger im SFB- \* Modus**
 
-| <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed| |  Empfänger<br/><br/> SFB\* |  
+| <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed|<br/><br/>Route – >|  Empfänger<br/><br/> SFB\* |  
 |--- |--- |--- |--- |--- |
-| Inselmodus |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich** <br/>Skype for Business <br/> |  
+| Inselmodus |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich** <br/>Skype for Business <br/> |  
 | SFB\* |Skype for Business <br/>Skype for Business  |Online<br/> Auf-Prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
 
 **Tabelle 2C: Föderation des neuen Chats oder Anrufweiterleitung zu einem TeamsOnly-Modus-Empfänger**
 
-| <br/><br/>Modus | Urheber<br/><br/> Client| <br/><br/>SFB Homed| |  Empfänger<br/>  <br/> TeamsOnly  |
+| <br/><br/>Modus | Urheber<br/><br/> Client| <br/><br/>SFB Homed|<br/><br/>Route – >|  Empfänger<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Inselmodus  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Nicht möglich** <br/>*Microsoft Teams* |
+| Inselmodus  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Nicht möglich** <br/>*Microsoft Teams* |
 | SFB\* |Skype for Business <br/>Skype for Business  | Online<br/> Auf-Prem| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
 | TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
@@ -189,9 +189,9 @@ In der Tabelle wird die Anwesenheit des Herausgebers beschrieben, die von einem 
 
 **Tabelle 3: Anwesenheit im Mandanten (neuer Thread)**
 
-|Überwachungselement <br/><br/>Client| |<br/><br/>Inselmodus |Publisher <br/><br/>SFB\* |<br/>Nur für Teams|
+|Überwachungselement <br/><br/>Client|<br/><br/>Route – > |<br/><br/>Inselmodus |Publisher <br/><br/>SFB\* |<br/>Nur für Teams|
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
+|Skype for Business |&boxv;|Skype for Business | Skype for Business | Microsoft Teams|
 |Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Teams |
 | | | | |
 
@@ -203,9 +203,9 @@ In der folgenden Tabelle wird die Anwesenheit des Herausgebers beschrieben, die 
 
 **Tabelle 4: Verbund Anwesenheit (neuer Thread)**
 
-|Überwachungselement <br/><br/> Client | |<br/><br/> Inselmodus  |Publisher <br/><br/> SFB\* |<br/><br/> Nur für Teams |
+|Überwachungselement <br/><br/> Client |<br/><br/>Route – >|<br/><br/> Inselmodus  |Publisher <br/><br/> SFB\* |<br/><br/> Nur für Teams |
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
+|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Microsoft Teams  |
 |Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 

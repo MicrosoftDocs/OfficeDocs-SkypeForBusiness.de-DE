@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 350af8c004f44205c6228b0dc734da25602062d0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610057"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739323"
 ---
 # <a name="evaluate-my-environment"></a>Bewerten der Umgebung
 
 Dieser Artikel enthält eine Übersicht über die Anforderungen für die ordnungsgemäße Bewertung Ihrer aktuellen Umgebung für die Verwendung von Cloud-VoIP-Diensten. Durch Auswertung Ihrer Umgebung ermitteln Sie Risiken und Anforderungen, die sich auf die gesamte Cloud-sprach Bereitstellung auswirken. Wenn Sie diese Elemente vorher identifizieren, können Sie Ihre Planung anpassen, um den Erfolg zu steigern.
 
-## <a name="introduction-to-evaluating-your-environment"></a>Einführung in das Auswerten Ihrer Umgebung 
+## <a name="introduction-to-evaluating-your-environment"></a>Einführung in das Auswerten Ihrer Umgebung
 
 Um Ihre objektiven Hauptergebnisse (OKRs) zu erreichen, haben Sie zuvor wichtige Dienst Entscheidungen getroffen. Der nächste Schritt besteht darin, die Umwelt Ermittlung durchzuführen, um alle Aspekte in Bezug auf Ihre IT-und Telefonie-Infrastruktur, Netzwerke und Vorgänge auszuwerten, um zu bestätigen, dass Ihre Organisation zur Implementierung der Lösung bereit ist.
 
@@ -49,13 +49,14 @@ Mit der Umgebungserkennung kann auch ermittelt werden, ob Sie [Telefonnummern an
 Wenn Sie dies wissen, wird Ihre Organisation den Projektplan entsprechend anpassen und die erforderlichen Informationen für die Nummernportierung vorbereiten. Sie können das [Rollout Umwelt Ermittlung für Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) verwenden, um Umgebungs Ermittlungen durchzuführen.
 
 <table>
+<tr><td>Titel</td><td>Beschreibung</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Wer ist für das Ausfüllen einer Umgebungs Bewertung verantwortlich?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ergebnisse der Umgebungs Bewertung.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="adoption-and-change-management-assessment-capabilities"></a>Bewertungsfunktionen für Akzeptanz und Änderungsverwaltung 
+## <a name="adoption-and-change-management-assessment-capabilities"></a>Bewertungsfunktionen für Akzeptanz und Änderungsverwaltung
 
 Die Bereitstellung stellt eine neue Technologie für die Benutzer zur Verfügung, aber Unternehmensergebnisse werden erst verwirklicht, nachdem die Benutzer diese Lösung wirklich als ihre eigene Anwendung übernommen haben. Um eine nachhaltige Einführung einer neuen Lösung zu gewährleisten, müssen Sie Ihre Bemühungen auf die Benutzer Bereitschaft und die Änderungsverwaltung konzentrieren. Um optimale Ergebnisse zu erzielen, führen Sie die Benutzer Bereitschaftsplanung als parallele Arbeitsstream zu ihren technischen Bereitschafts Aktivitäten aus, und integrieren Sie die folgenden Aktivitäten:
 
@@ -66,6 +67,7 @@ Die Bereitstellung stellt eine neue Technologie für die Benutzer zur Verfügung
 Verwenden Sie die folgenden Überlegungen, um die Bereitschaft Ihrer Organisation zur Behandlung der Benutzer Änderungsverwaltung zu bewerten.
 
 <table>
+<tr><td>Titel</td><td>Beschreibung</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie bereits erfolgreich mit der Einführung von Software oder Diensten durch den Nutzer zu tun?</li><li>Können Sie die Nutzungs Akzeptanz nachvollziehen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer anfänglichen &mdash; und laufenden &mdash; Adoptions Kampagne (Sensibilisierung, Schulung und Support)?</li><li>Verfügen Sie über ein dediziertes Benutzer Adoptions-/Change Management-Team, oder können Sie in diese Ressourcen investieren, um geschäftliche Ergebnisse zu gewährleisten?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Wenn Sie &quot; &quot; alle oben genannten mit "Ja" beantwortet haben, identifizieren Sie die richtigen Stakeholder für das Change Management von Benutzern, und beginnen Sie mit der Planung der Benutzer Bereitschaft.</li><li>Wenn Sie &quot; "Nein &quot; " zu einigen oder allen oben genannten Fragen beantwortet haben, ziehen Sie es in Frage, externe Ressourcen zu verwenden, um die Aktivitäten zur Änderungsverwaltung und zur Adoptions bezogenen Aktivität für Ihre Organisation zu unterstützen.</li></ol></td></tr>
 </table>
@@ -130,7 +132,7 @@ Wenn Sie einen geteilten Tunnel implementieren möchten, erkundigen Sie sich bei
 
 ### <a name="wi-fi"></a>WLAN
 
-Wie bei VPN sind WLAN-Netzwerke nicht unbedingt so konzipiert oder konfiguriert, dass Sie Echt Zeit Medien unterstützen. Die Planung oder Optimierung eines WLAN-Netzwerks zur Unterstützung von Microsoft Teams ist bei einer Bereitstellung von hoher Qualität eine wichtige Überlegung.
+Wie VPN sind Wi-Fi Netzwerke nicht unbedingt so konzipiert oder konfiguriert, dass Sie Echt Zeit Medien unterstützen. Die Planung oder Optimierung eines WLAN-Netzwerks zur Unterstützung von Microsoft Teams ist bei einer Bereitstellung von hoher Qualität eine wichtige Überlegung.
 
 Beim Optimieren eines WLAN-Netzwerks kommen verschiedene Faktoren zum Tragen:
 
@@ -220,6 +222,7 @@ Weitere Informationen finden Sie unter [Quality of Service in Microsoft Teams](h
 
 
 <table>
+<tr><td>Titel</td><td>Beschreibung</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Wer soll für die Ausführung ordnungsgemäßer Netzwerkbewertungen in allen Netzwerksegmenten und an allen Organisationsstandorten zuständig sein?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Sie können eine detaillierte Netzwerkbewertung ausführen, um sicherzustellen, dass Ihr Netzwerk für die Bereitstellung von Microsoft Teams bereit ist.</li><li>Führen Sie die Netzwerk Bereinigung basierend auf den Ergebnissen der Bewertung für jedes Netzwerksegment durch.</li></ol></td></tr>
 </table>

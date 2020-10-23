@@ -15,12 +15,12 @@ description: Erstellen Sie eine Strategie für die Änderungsverwaltung für Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581786"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739093"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 =======================================================
@@ -40,7 +40,7 @@ Bewährte Methoden für Change Management für Microsoft Teams:
     a.  Interne Informationsmaterialien wie beispielsweise Poster, digitale Beschilderung und Veranstaltungen
 
     b.  Zentral verfügbare Selbsthilfe- und Schulungsinformationen
-    
+
     c.  Einen definierten Feedbackmechanismus
 
     d.  Vordefinierte Erfolgskennzahlen (Einführung der Lösung, Aufrufe von wichtigen Materialien, Teilnahme an Kursen)
@@ -58,7 +58,7 @@ Bewährte Methoden für Change Management für Microsoft Teams:
 
 Die erste Regel für eine erfolgreiche Einführung ist die Bildung eines dynamischen Teams, das sich aus den wichtigsten Beteiligten und den richtigen Personen zusammensetzt, und die Änderungen bei anderen vorantreiben und bewirken können. Eine erfolgreiche Einführungsstrategie beginnt mit einem Team aus engagierten Einzelpersonen, die einen Querschnitt Ihrer Organisation darstellen. Wichtige Rollen von Beteiligten sind unter anderem Befürworter aus der Führungsebene, Dienstbesitzer, IT-Spezialisten und Pioniere.
 
-|  |  |
+|Symbol  |Beschreibung  |
 |---------|---------|
 |![Symbol für Befürworter aus der Führungsebene](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**Befürworter aus der Führungsebene** sind wichtige Führungskräfte innerhalb der Organisation. Ihre Beteiligung spielt eine wichtige Rolle dabei, die Einführung durch die Mitarbeiter voranzutreiben. Sie haben den größten Einfluss auf die Firmenkultur und können aktiv den Wert und die Vorteile einer neuen Technologie und Arbeitsweise vermitteln.         |
 |![Symbol für Dienstbesitzer](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Dienstbesitzer** sind dafür verantwortlich, sicherzustellen, dass Personen den Dienst nutzen und daraus einen Mehrwert erhalten. Das Festlegen von Dienstbesitzern in Ihrer Organisation ist wichtig, um sicherzustellen, dass die für Microsoft 365 oder Office 365 festgelegten Unternehmensziele verwirklicht werden.         |

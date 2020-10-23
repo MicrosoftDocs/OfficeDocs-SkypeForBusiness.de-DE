@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Informieren Sie sich über den kostenlosen Wähl Zeitraum für Microsoft 365 oder Office 365-Anrufplan und Office 365-Audiokonferenzen in Microsoft Teams.
-ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690891"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739253"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -68,7 +68,7 @@ Weitere Informationen zu Kommunikationsguthaben finden Sie unter [Kommunikations
 
 **Zone A Länder und Regionen**
 
-|    |
+|Land    |
 |-----|
 |Australien  <br/> |
 |Österreich  <br/> |
@@ -116,4 +116,4 @@ Weitere Informationen zu Kommunikationsguthaben finden Sie unter [Kommunikations
 |Vereinigte Staaten  <br/> |
      
 ## <a name="related-topics"></a>Verwandte Themen
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
