@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235843"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739393"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
@@ -31,10 +31,9 @@ In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen u
 > [!Note]
 > Mehr über die schnelle Konfiguration von Teams-Besprechungen und -Ereignissen auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 300* Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme.
+ - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 300 Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme.
 
  - **Liveereignisse** sind eine Erweiterung von Teams-Besprechungen, die es Ihnen ermöglichen, Veranstaltungen bzw. Ereignisse zu planen und zu erstellen, die an ein zahlenmäßig großes Onlinepublikum – bis zu 10.000 Personen – übertragen werden. Wenn Sie eine Besprechung für mehr als 300 Personen durchführen möchten, verwenden Sie ein Liveereignis.
-<br><br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird. Die neuesten Informationen zu Teams-Besprechungsgrenzwerten finden Sie unter [Grenzwerte und Daten](limits-specifications-teams.md).
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Lizenzen für Besprechungen und Liveereignisse abrufen
 
