@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Einstellungen für Skype for Business-Features im Microsoft Teams Admin Center verwalten.
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739233"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753560"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739233"
 
 Als Administrator können Sie im Microsoft Teams Admin Center die Skype for Business-Funktionen für Skype for Business-Benutzer in Ihrer Organisation verwalten. Sie können die Einstellungen [für Ihre Organisation](#manage-skype-for-business-settings-for-your-organization) auf der Seite **Skype for Business** und den Einstellungen [für einzelne Benutzer](#manage-skype-for-business-settings-for-individual-users) auf der Registerkarte **Skype for Business** auf den Benutzerdetail Seiten verwalten.
 
-Im Microsoft Teams Admin Center wird nur die Seite **Skype for Business** angezeigt, wenn der Koexistenzmodus für Ihre Organisation nicht **nur auf Teams**festgesetzt ist. Auf ähnliche Weise wird nur die Registerkarte " **Skype for Business** " für einen Benutzer angezeigt, wenn der Koexistenzmodus des Benutzers nicht **nur Teams**ist. Weitere Informationen zu Koexistenzmodus finden Sie Untergrund [Legendes zu Teams und zur Koexistenz und Interoperabilität von Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) und [Festlegen ihrer Koexistenz-und Aktualisierungseinstellungen](setting-your-coexistence-and-upgrade-settings.md).
+Die Seite **Skype for Business** wird nur angezeigt, wenn der Koexistenzmodus für Ihre Organisation nicht **nur auf Teams**festgesetzt ist. Auf ähnliche Weise wird nur die Registerkarte " **Skype for Business** " für einen Benutzer angezeigt, wenn der Koexistenzmodus des Benutzers nicht **nur Teams**ist. Weitere Informationen zu Koexistenzmodus finden Sie Untergrund [Legendes zu Teams und zur Koexistenz und Interoperabilität von Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) und [Festlegen ihrer Koexistenz-und Aktualisierungseinstellungen](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
 > Skype for Business-Einstellungen befanden sich zuvor im **Legacy-Portal** im Microsoft Teams Admin Center. Mit der Pensionierung des Legacy-Portals haben wir die Einstellungen an diese neuen Standorte im Team Admin Center für Skype for Business Management migriert.
+
+Sie müssen der [Azure AD-Administratorrolle](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) des globalen Administrators oder des Skype for Business-Administrators zugewiesen sein, um Skype for Business-Funktionen im Microsoft Teams Admin Center verwalten zu können.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Verwalten von Skype for Business-Einstellungen für Ihre Organisation
 

@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Hier erfahren Sie, wie Sie Skype for Business einrichten, damit Sie die Verfügbarkeit Ihrer Kollegen sehen können. '
-ms.openlocfilehash: b06139d3614335505c7f8682700aa3d7d6fb5df8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: f2b149a2b6277d356fe4478ee6de12ec6b078f48
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739193"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753450"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Konfigurieren der Anwesenheit in Skype for Business Online
 
 > [!IMPORTANT]
-> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Sie müssen der [Azure AD-Administratorrolle](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) des globalen Administrators oder des Skype for Business-Administrators zugewiesen sein, um Skype for Business-Funktionen im Team Admin Center verwalten zu können. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Standardmäßig können alle Personen, die mit einem der Personen in Ihrer Organisation über Skype for Business kommunizieren können, auch sehen, ob diese Person online ist. Skype for Business zeigt, ob eine Person Online, in einer Besprechung, offline oder einem anderen Indikator verfügbar ist.
 

@@ -20,17 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
-ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 88f074838ff1d03153441beb624bc5d9b7ad157c
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739063"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753410"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Vornehmen von Änderungen an den Einstellungen für die Skype-Live Konferenz für Ihre Organisation
 
 > [!IMPORTANT]
-> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Sie müssen der [Azure AD-Administratorrolle](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) des globalen Administrators oder des Skype for Business-Administrators zugewiesen sein, um Skype for Business-Funktionen im Team Admin Center verwalten zu können. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
   

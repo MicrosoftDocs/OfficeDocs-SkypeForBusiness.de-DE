@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschlangen und wie Sie Sie verwenden können, um Anrufern zu helfen, durch ein Menü System zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 3e1a7fe6b5f059236e0fafd64dbf87b7cebbeecf
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
+ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209991"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48748897"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams
 
@@ -136,13 +136,13 @@ Automatische Telefonzentralen leiten alle Anrufe auf eine der folgenden Arten:
 > [!NOTE]
 > Eine einzelne automatische Telefonzentrale kann nur eine einzelne "Dial by"-Methode unterstützen.  Damit Anrufer über den Namen und die Nummer wählen können, müssen Sie eine automatische Telefonzentrale erstellen, die eine Option für "Dial by Name" und die andere für "Durchwahl" hat.  Jede dieser Optionen wird zu separaten automatischen attenants weitergeleitet, die für diese "Wähl-Szenarien" konfiguriert sind. 
 
-Wenn Anrufe von einer automatischen Telefonzentrale weitergeleitet werden, können Sie aus den folgenden Anruf Weiterleitungs Zielen auswählen:
+Wenn Anrufe von einer automatischen Telefonzentrale oder Anrufwarteschlange umgeleitet werden, können Sie aus den folgenden Anruf Weiterleitungs Zielen auswählen:
 
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Hierbei kann es sich um einen Online Benutzer oder einen lokal gehosteten Benutzer mit Skype for Business Server handeln.
 - **Sprach-App** – eine andere automatische Telefonzentrale oder eine Anrufwarteschlange. Wählen Sie das dem Ziel zugeordnete Ressourcenkonto aus.
 - **Externe Telefonnummer** – eine beliebige Telefonnummer. (Siehe [technische Informationen zur externen Übertragung](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - **Voicemail** – das Voicemail-Postfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist.
-- **Operator** – der für die automatische Telefonzentrale definierte Operator. Das Definieren eines Operators ist optional. Ein Operator kann eines der anderen Ziele in dieser Liste sein.
+- **Operator** (nur automatische Telefonzentrale) – der für die automatische Telefonzentrale definierte Operator. Das Definieren eines Operators ist optional. Ein Operator kann eines der anderen Ziele in dieser Liste sein.
 
 Automatische Telefonzentralen bieten getrennte Anrufweiterleitungsoptionen für eingehende Anrufe außerhalb der Geschäftszeiten und an Feiertagen. Nach Stunden-Anrufweiterleitung können alle oben aufgeführten Optionen ausgeführt werden, während das Urlaubs Anrufrouting nur das Umleiten oder Trennen eines Anrufs, aber keine Wähltasten Optionen ermöglicht.
 
@@ -222,6 +222,6 @@ Informationen zum Erstellen von automatischen Telefonzentralen und Anrufwartesch
 
 [Planen von direktem Routing](direct-routing-plan.md)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa)
