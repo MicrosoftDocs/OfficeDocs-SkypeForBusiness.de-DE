@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583444"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739243"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -46,9 +46,9 @@ Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Ce
 
 Hinzufügen oder Sperren einer Domäne:
 
-1. Wählen Sie **Domäne hinzufügen**.
+1. Wählen Sie **Domäne hinzufügen** .
 2. Geben Sie im Bereich „Domäne hinzufügen“ den Domänennamen ein, und drücken Sie die LEERTASTE, um den Namen zu speichern.
-3. Wählen Sie **Zulässig** oder **Blockiert**.
+3. Wählen Sie **Zulässig** oder **Blockiert** .
 4. Wählen Sie **Fertig** aus, um die Änderungen zu speichern. 
 
 ### <a name="guest-access"></a>Gastzugriff
@@ -96,7 +96,11 @@ Die Verzeichnissuche in Microsoft Teams verwendet Exchange-Adressbuchrichtlinien
 - Der Mandant Ihrer Organisation enthält mehrere Unternehmen, die voneinander getrennt sein sollen. 
 - Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen. 
 
-Ändern Sie diese Einstellung in **Ein**, um die bereichsbezogene Verzeichnissuche zu aktivieren.
+Ändern Sie diese Einstellung in **Ein** , um die bereichsbezogene Verzeichnissuche zu aktivieren.
+
+### <a name="skype-for-business"></a>Skype for Business
+
+Auf dieser Seite können Sie die Skype for Business-Funktionen für die Skype for Business-Benutzer Ihrer Organisation verwalten. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](skype-for-business-settings.md).
 
 ### <a name="teams-upgrade"></a>„Teams upgrade“ (Microsoft Teams-Upgrade)
 
