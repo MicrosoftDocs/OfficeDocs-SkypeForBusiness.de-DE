@@ -235,9 +235,10 @@
 ### [Was ist Guthaben für Kommunikationen?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Zulassen, dass Benutzer externe Skype for Business-Benutzer kontaktieren](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+### [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/microsoftteams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Konfigurieren der Anwesenheitsinformationen in Skype for Business Online](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [Konfigurieren des vertraulichen Anwesenheitsmodus](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
+### [Zulassen, dass Benutzer externe Skype for Business-Benutzer kontaktieren](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Konfigurieren von Skype for Business-Einstellungen für einzelne Benutzer](../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
 ### [Anpassen von Besprechungseinladungen](../set-up-skype-for-business-online/customize-meeting-invitations.md)
 ### [Bereitstellen des Skype for Business-Clients](../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
