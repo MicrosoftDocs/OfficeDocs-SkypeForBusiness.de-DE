@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320900"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766588"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
@@ -114,7 +114,7 @@ Ja, Microsoft Teams steht für die US Government Cloud Community (GCC) zur Verf�
 
 
 
-## <a name="calling-capabiities"></a>Anruffunktionen
+## <a name="calling-capabilities"></a>Anruffunktionen
 
 **Was ist der Plan für Onlinesprachfunktionen von Microsoft?**<br>
 Das Herzstück unserer Sprachlösung ist das heute zur Verfügung stehende Telefonsystem. Kunden können darüber hinaus einen Microsoft-Anrufplan hinzufügen, der vollständige Anrufunterstützung, einschließlich Rufnummernerwerb und -zuordnung direkt in Microsoft 365 bietet. Kunden, die ihre Telekommunikations/Telefonanschlüsse beibehalten möchten, können das direkte Routing verwenden, das als Bestandteil des Telefonsystems bereitgestellt wird. Sie können beide Lösungen kombinieren und an die Anforderungen Ihrer Organisation bezüglich einer umfassenden Sprachlösung anpassen.
