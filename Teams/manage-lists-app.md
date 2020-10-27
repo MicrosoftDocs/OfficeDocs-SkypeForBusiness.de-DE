@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469561"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766734"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -44,7 +44,7 @@ Vorlagen in Listen sind auf häufige Informations Überwachungsszenarien für Be
 
 - Verfolgen Sie Probleme, und bringen Sie Sie mithilfe der Issue Tracker-Vorlage zum Abschluss.
 - Organisieren Sie alle Ihre Veranstaltungsdetails mit der Vorlage für das Event-Reiseplan.
-- Verwenden Sie die Vorlage "Patienten", um die Anforderungen und den Status von Patienten für Betreuerteams in Ihrer Gesundheitsorganisation aufzuzeichnen, um die Betreuung zu überwachen und zu koordinieren.
+- Verwenden Sie die Vorlage "Patienten", um die Anforderungen und den Status von Patienten für Gesundheitsteams in Ihrer Gesundheitsorganisation für die Überwachung und Koordinierung der Behandlung festzuhalten.
 - Nachvollziehen des Status von Darlehensanträgen mit der Vorlage "Kredite"
 
 ## <a name="example-scenario"></a>Beispielszenario
@@ -88,11 +88,11 @@ Wenn Benutzer in Ihrer Organisation Listen mithilfe der SharePoint-App erstellt 
 
 Listen ist standardmäßig für alle Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten** .
 2. Führen Sie einen der folgenden Schritte aus:
 
-    - Wenn Sie Listen für Ihre Organisation deaktivieren möchten, suchen Sie nach der App "Listen", wählen Sie Sie aus, und klicken Sie dann auf **blockieren**.
-    - Um Listen für Ihre Organisation zu aktivieren, suchen Sie nach der App "Listen", wählen Sie Sie aus, und klicken Sie dann auf **zulassen**.
+    - Wenn Sie Listen für Ihre Organisation deaktivieren möchten, suchen Sie nach der App "Listen", wählen Sie Sie aus, und klicken Sie dann auf **blockieren** .
+    - Um Listen für Ihre Organisation zu aktivieren, suchen Sie nach der App "Listen", wählen Sie Sie aus, und klicken Sie dann auf **zulassen** .
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Listen für bestimmte Benutzer in Ihrer Organisation
 
@@ -112,7 +112,7 @@ Listen unterstützt [Power Automation](https://preview.flow.microsoft.comconnect
 
 ## <a name="give-feedback-or-report-an-issue"></a>Abgeben von Feedback oder melden eines Problems
   
-Wenn Sie uns Feedback senden oder ein Problem melden möchten, klicken Sie unten auf der linken Navigationsleiste in Teams auf **Hilfe** , und wählen Sie dann **Problem melden**aus. Wählen Sie **Listen**aus, und geben Sie dann Ihr Feedback oder Details zu dem Problem ein, das Sie gerade erleben.
+Wenn Sie uns Feedback senden oder ein Problem melden möchten, klicken Sie unten auf der linken Navigationsleiste in Teams auf **Hilfe** , und wählen Sie dann **Problem melden** aus. Wählen Sie **Listen** aus, und geben Sie dann Ihr Feedback oder Details zu dem Problem ein, das Sie gerade erleben.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

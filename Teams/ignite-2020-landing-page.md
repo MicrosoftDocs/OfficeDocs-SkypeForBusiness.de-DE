@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f7818102426f38279caac5c4532a22e53f1673e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514942"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766768"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams-Sitzungen bei Ignite 2020
 
@@ -96,7 +96,7 @@ ms.locfileid: "48514942"
 | Titel | Abstrakt            | Ebene| Redner |
 |---|----------|---|---|---|
 |[Bereitstellung und Verwaltung von Teams für Bildungseinrichtungen](https://aka.ms/PR103) |Verstehen Sie alles, was Sie für eine ganzheitliche Governance für Ihre Bildungseinrichtung wissen müssen. In dieser Sitzung werden Chat-Richtlinien, Besprechungsrichtlinien, App-Richtlinien, Aufgaben in Gruppen, Konfigurieren der Kursteilnehmer Sicherheit und Methoden für die Automatisierung der Team Kurserstellung behandelt. |300|Jethro Seghers|
-|[Virtueller Status und Zusammenarbeit mit Microsoft Teams im Gesundheitswesen](https://aka.ms/PR116)|Erfahren Sie, wie Gesundheitsorganisationen in der Lage sind, Betreuerteams in die Lage zu versetzen, mit Microsoft Teams bestmögliche Hilfe zu leisten. Diese Sitzung konzentriert sich auf die Zusammenarbeit mit virtuellen Gesundheits-und Pflegeteams und taucht tief in Bereiche wie die neuesten Ankündigungen für Teams im Gesundheitswesen, virtuelle Besuche, Kunden Geschichten und vieles mehr auf. Darüber hinaus erfahren Sie, wie Sie Microsoft Teams als Plattform für die Behandlung vieler aktueller Gesundheits Szenarien verwenden.|200|Evan Westenberger, Tom McGuinness, Kristina Behr, Daniel Canning|
+|[Virtueller Status und Zusammenarbeit mit Microsoft Teams im Gesundheitswesen](https://aka.ms/PR116)|Erfahren Sie, wie Gesundheitsorganisationen in der Lage sind, Gesundheitsteams zu helfen, die bestmögliche Versorgung mit Microsoft Teams zu gewährleisten. Diese Sitzung konzentriert sich auf die Zusammenarbeit im Bereich der virtuellen Gesundheit und des Gesundheitswesens und taucht tief in Bereiche wie die neuesten Ankündigungen für Teams im Gesundheitswesen, virtuelle Besuche, Kunden Geschichten und vieles mehr auf. Darüber hinaus erfahren Sie, wie Sie Microsoft Teams als Plattform für die Behandlung vieler aktueller Gesundheits Szenarien verwenden.|200|Evan Westenberger, Tom McGuinness, Kristina Behr, Daniel Canning|
 |[Anpassen von Microsoft Teams für Ihre Branche](https://aka.ms/PR117)|In dieser Sitzung teilen wir Details darüber, wie Sie Ihre Erfahrungen mit der Zusammenarbeit mithilfe von Vorlagen über unseren Branchenkatalog andocken, diese Vorlagen den Anforderungen Ihrer Organisation anpassen und Sie in verschiedenen Teilen unserer Organisation bereitstellen und einfach über Richtlinien Pakete verwalten können.|200|Prem Kuchi, Aaron Glick|
 |[Zusammenarbeit und Kommunikation mit Microsoft Teams in der Regierung](https://aka.ms/PR118) |Staats-, Orts-und Bundesbehörden Nutzen Microsoft Teams, um Ihre Fähigkeit zur Zusammenarbeit zu verbessern und Ihre Reaktionszeiten und Bürgerengagements zu verbessern.  Erfahren Sie, wie Sie die Nutzung vorhandener Features maximieren, was als nächstes kommt, und unsere zukünftige Vision für Microsoft Teams in der Regierung. |200|RIMA Reyes, Karuana Gatimu, Roxy Ndebumadu, Sarah Gilbert|
 |[Integration in Microsoft Teams für Education-App-Plattform](https://aka.ms/PR120)|Teams ist eine offene Plattform für Bildungseinrichtungen, um apps zu integrieren und benutzerdefinierte Workflows zu erstellen.  In dieser Sitzung wird erläutert, wie der App-Store von Teams im Unterricht zur Integration in IT-Helpdesks verwendet wird. Informieren Sie sich über die APP-Governance von Drittanbietern, öffnen Sie Quell-App-Vorlagen und ein praktisches Beispiel für App Studio, um eine schnelle benutzerdefinierte Website-App für Ihre Institution zu erstellen.|300|Dominic Williamson|

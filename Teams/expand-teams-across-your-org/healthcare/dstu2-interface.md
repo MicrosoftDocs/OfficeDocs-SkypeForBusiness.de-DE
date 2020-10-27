@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Erfahren Sie mehr über die DSTU2-Schnittstellenspezifikation in Teams, einschließlich der Einrichtung oder Neukonfiguration eines FHIR-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-app.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ab502f66785af7947185fb0fbee0d3a55dd70c67
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: d29dab88f6ee53eb4c758f6c95f71278e20ecdbe
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367605"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766978"
 ---
 # <a name="dstu2-interface-specification"></a>Benutzeroberflächenspezifikation DSTU2
 
@@ -32,7 +32,7 @@ ms.locfileid: "48367605"
 >
 >Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Wenn die patients-App eingestellt wird, werden alle damit verknüpften Daten in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Aktuelle Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
 >
->Die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung. Mit Listen können Betreuerteams mithilfe der integrierten Patienten Vorlage, von Grund auf neu oder durch Importieren von Daten nach Excel, patientenlisten erstellen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
+>Die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung. Mit Listen können Gesundheitsteams mithilfe der integrierten Vorlage "Patienten", von Grund auf neu oder durch Importieren von Daten nach Excel, patientenlisten erstellen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -58,12 +58,14 @@ Auf alle folgenden FHIR-Ressourcen sollte über direkten Ressourcenverweis zugeg
 
  Der FHIR-Server muss die Konformitätserklärung für uns implementieren, um eine sachliche Zusammenfassung seiner Funktionen zu haben. Wir erwarten die folgenden Parameter in einem DSTU2-FHIR-Server:
 
-1. Rest
-   1. Modus
-   2. Interaktion
-   3. Ressource: Typ
-   4. Sicherheit: [Erweiterung für OAuth-URIs](https://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion (für unseren Code ist dies erforderlich, um zu verstehen, auf welche Version wir pivotieren sollten, da wir mehrere Versionen unterstützen.)
+ - Rest
+
+    - Modus
+    - Interaktion
+    - Ressource: Typ
+    - Sicherheit: [Erweiterung für OAuth-URIs](https://hl7.org/fhir/extension-oauth-uris.html)
+   
+ - FhirVersion (für unseren Code ist dies erforderlich, um zu verstehen, auf welche Version wir pivotieren sollten, da wir mehrere Versionen unterstützen.)
 
 Weitere [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) Informationen zu diesem Feld Satz finden Sie unter.
 
@@ -71,38 +73,66 @@ Weitere [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fh
 
 Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge der [Argonaut-Patientenprofil](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) Felder sind:
 
-1. Name. Familie
-2. Name. given
-3. Geschlecht
-4. BirthDate
-5. MRN (Bezeichner)
+ - Name. Familie
+ - Name. given
+ - Geschlecht
+ - BirthDate
+ - MRN (Bezeichner)
 
 Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:
 
-1. Name. use
-2. Name. Prefix
-3. CareProvider (dieser Verweis auf die Patienten Ressource sollte die Anzeigefelder umfassen, die im folgenden Beispiel gezeigt werden.)
+ - Name. use
+ - Name. Prefix
+ - CareProvider (dieser Verweis auf die Patienten Ressource sollte die Anzeigefelder umfassen, die im folgenden Beispiel gezeigt werden.)
 
-* * *
-
-    Request: besorgen Sie sich <fhir-Server>/Patient/<Patienten-ID>
+    ```
+    Request:
+    GET <fhir-server>/Patient/<patient-id>
     
-    Response: {"Ressourcenname": "Patient", "ID": "<Patient-ID>";
+    Response:
+    {
+      "resourceType": "Patient",
+      "id": "<patient-id>",
       .
       .
-      "Name": [{"Use": "offiziell"; "prefix": ["Mr"], "Familie": ["Chau"], "given": ["Hugh"]}], "Identifier": [{"Use": "offiziell", "Typ": {"Codierung": [{"System": " https://hl7.org/fhir/v2/0203 "; "Code": "Herr"}]}, "Wert": "1234567"}], "Geschlecht": "männlich", "Geburtstag": "1957-06-05", "careProvider": [{"Display": "Jane Doe"}],}
-
-* * *
+      .
+      "name": [
+        {
+          "use": "official",
+          "prefix": [ "Mr" ],
+          "family": [ "Chau" ],
+          "given": [ "Hugh" ]
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "type": {
+            "coding": [
+              {
+                "system": "https://hl7.org/fhir/v2/0203",
+                "code": "MR"
+              }
+            ]
+          },
+          "value": "1234567"
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1957-06-05",
+      "careProvider": [{ "display": "Jane Doe" }],
+    }
+    ```
 
 Bei einer Ressourcensuche wird die Post-Methode unter/Patient/_search und die folgenden Parameter verwendet:
 
-1. ID
-2. Familie: Contains = (sucht nach allen Patienten, deren Familienname den Wert enthält.)
-3. given =\<substring>
-4. Name =\<substring>
-5. Geburtsdatum = (exakte Übereinstimmung)
-6. \_Anzahl (maximale Anzahl der Ergebnisse, die zurückgegeben werden sollen) <br> Die Antwort sollte die Gesamtanzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben wurden, und die Anzahl \_ wird vom PatientsApp verwendet, um die Anzahl der zurückgegebenen Datensätze zu begrenzen.
-7. Identifier =\<mrn>
+ - ID
+ - Familie: Contains = (sucht nach allen Patienten, deren Familienname den Wert enthält.)
+ - given =\<substring>
+ - Name =\<substring>
+ - Geburtsdatum = (exakte Übereinstimmung)
+ - \_Anzahl (maximale Anzahl der Ergebnisse, die zurückgegeben werden sollen) <br> Die Antwort sollte die Gesamtanzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben wurden, und die Anzahl \_ wird vom PatientsApp verwendet, um die Anzahl der zurückgegebenen Datensätze zu begrenzen.
+ - Identifier =\<mrn>
 
 Das Ziel besteht darin, nach einem Patienten durchsuchen und Filtern zu können:
 
@@ -113,16 +143,41 @@ Das Ziel besteht darin, nach einem Patienten durchsuchen und Filtern zu können:
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an.
 
-* * *
+```
+Request:
+POST <fhir-server>/Patient/_search
+Request Body:
+given=hugh&family=chau
 
-    Request: Post <fhir-Server>/Patient/_search Request Body: given = Hugh&Family = Chau
-    
-    Response: {"Ressourcenname": "Bundle", "ID": "<Bundle-ID>";
-      .
-      .
-      "Eintrag": [{"Ressource": {"Ressourcen": "Patient"; "ID": "<Patient-ID>"; "Name": [{"Text": "Hugh Chau", "Familie": ["Chau"], "given": ["Hugh"]}], "Gender": "männlich"; "Geburtsdatum": "1957-06-05"}, "suchen": {"der Modus": "Vergleich"}}]
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  .
+  .
+  .
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "<patient-id>",
+        "name": [
+          {
+            "text": "Hugh Chau",
+            "family": [ "Chau" ],
+            "given": [ "Hugh" ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1957-06-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
+```
 
 Weitere [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) Informationen zu diesem Feld Satz finden Sie unter.
 
@@ -130,34 +185,66 @@ Weitere [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/D
 
 Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut Vital Signs-Profils sind:
 
- 1. Effektiv (Datum oder Zeitraum)
- 2. Code. Coding. Code
- 3. ValueQuantity. Value
+ - Effektiv (Datum oder Zeitraum)
+ - Code. Coding. Code
+ - ValueQuantity. Value
 
 Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:
 
- 1. Code. Coding. Display
- 2. ValueQuantity. Unit
+ - Code. Coding. Display
+ - ValueQuantity. Unit
 
 Wenn Sie Komponenten Beobachtungen verwenden, gilt dieselbe Logik für jede Komponentenüberwachung.
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<patient id\>
-2. Sort: DESC =\<field ex. date\>
+ - Patient =\<patient id\>
+ - Sort: DESC =\<field ex. date\>
 
 Das Ziel besteht darin, die neuesten vitalen Zeichen für einen Patienten abzurufen [VitalSigns. ДСТУ. SAZ] (Observation?).
 
-* * *
+```
+Request:
+GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
 
-    Request: besorgen Sie sich <fhir-Server>/Observation? Patient =<Patient-ID>&_sort:d ESC = Datum&Kategorie = Vital-Zeichen
-    
-    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Type": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": {"Coding": [{Code ":" Vital-Signs "}],}," Code ": {" Coding ": [{" System ":" http://loinc.org ";" Code ":" 39156-5 ";" Display ":" BMI "}],}," effectiveDateTime ":" 2009-12-01 ";" valueQuantity ": {" Wert ": 34,4;" Einheit ":" kg/m2 ";" System ":" http://unitsofmeasure.org "," Code ":" kg/m2 "}},},.
-        .
-        .
-      ] }
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 20,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "<resource-id>",
+        "category": {
+          "coding": [ { code": "vital-signs" } ],
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "bmi"
+            }
+          ],
+        },
+        "effectiveDateTime": "2009-12-01",
+        "valueQuantity": {
+          "value": 34.4,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
 Weitere [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) Informationen zu diesem Feld Satz finden Sie unter.
 
@@ -169,23 +256,55 @@ Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge de
 
 Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:
 
-1. Aufnahmedatum
-2. Schweregrad
+ - Aufnahmedatum
+ - Schweregrad
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<patient id>
-2. _Count =\<max results>
+ - Patient =\<patient id>
+ - _Count =\<max results>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
-* * *
+```
+Request:
+GET <fhir-server>/Condition?patient=<patient-id>&_count=10
 
-    Request: besorgen Sie sich <fhir-Server>/Condition? Patient =<Patient-ID>&_count = 10
-    
-    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"System": " http://snomed.info/sct "; "Code": "386033004", "Display": "Neuropathie (Nerve Damage)"}]}, "dateRecorded": "2018-09-17"; "Severity": {"Coding": [{"System": " http://snomed.info/sct "; "Code": "24484000"; "Anzeige": "schwere"}]}},}]}
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "<resource-id>",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386033004",
+              "display": "Neuropathy (nerve damage)"
+            }
+          ]
+        },
+        "dateRecorded": "2018-09-17",
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        }
+      },
+    }
+  ]
+}
+```
 
 Weitere [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) Informationen zu diesem Feld Satz finden Sie unter.
 
@@ -193,28 +312,55 @@ Weitere [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir
 
 Hierbei handelt es sich um die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge der Felder für das US-Core-Encounter-Profil "muss" handelt:
 
-1. Status
-2. Geben Sie [0] ein. Codierung [0]. Anzeigen
+ - Status
+ - Geben Sie [0] ein. Codierung [0]. Anzeigen
 
 Darüber hinaus sind die folgenden Felder aus den Feldern "muss unterstützen" des US Core Encounter-Profils
 
-1. Periode. Start
-2. Ort [0]. Location. Display
+ - Periode. Start
+ - Ort [0]. Location. Display
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<patient id>
-2. _sort: DESC =\<field ex. date>
-3. _Count =\<max results>
+ - Patient =\<patient id>
+ - _sort: DESC =\<field ex. date>
+ - _Count =\<max results>
 
 Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu können. Jede Begegnung verweist auf eine Standortressource. Der Bezug umfasst auch das Anzeigefeld des Standorts. Sehen Sie sich das folgende Beispiel für diesen Aufruf an.
-* * *
 
-    Request: besorgen Sie sich <fhir-Server>/Encounter? Patient =<Patient-ID>&_sort:d ESC = Datum&_count = 1
-    
-    Antwort: {"Ressourcen": "Bundle", "Type": "searchset", "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Begegnung"; "ID": "<Resource-ID->"; "Bezeichner": [{"Use": "offiziell"; "" "" <id> "" ""; Status ":" angekommen ";" Typ ": [{" Coding ": [{" Display ":" Termin "}],}]," Patient ": {" Bezug ":" Patienten-<-ID> "}," Zeitraum ": {" Start ":" 09/17/2018 1:00:00 pm "}," Ort ": [{" Ort ": {" Anzeige ":" Clinic-HNO "},}]}}]}
+```
+Request:
+GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
 
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "<resource-id>",
+        "identifier": [{ "use": "official", "value": "<id>" }],
+        "status": "arrived",
+        "type": [
+          {
+            "coding": [{ "display": "Appointment" }],
+          }
+        ],
+        "patient": { "reference": "Patient/<patient-id>" },
+        "period": { "start": "09/17/2018 1:00:00 PM" },
+        "location": [
+          {
+            "location": { "display": "Clinic - ENT" },
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 Weitere [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) Informationen zu diesem Feld Satz finden Sie unter.
 
@@ -222,31 +368,61 @@ Weitere [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/
 
 Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut-AllergyIntolerance-Profils sind:
 
-1. Code. Text
-2. Code. Coding [0]. Anzeigen
-3. Status
+ - Code. Text
+ - Code. Coding [0]. Anzeigen
+ - Status
 
 Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:
 
-1. RecordedDate
-2. Hinweis. Text
-3. Reaktion [..]. Substanz. Text
-4. Reaktion [..]. Manifestation [..]. Text
-5. Text. div
+ - RecordedDate
+ - Hinweis. Text
+ - Reaktion [..]. Substanz. Text
+ - Reaktion [..]. Manifestation [..]. Text
+ - Text. div
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =  \<patient id>
+ - Patient =  \<patient id>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
-* * *
+```
+Request:
+GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
 
-    Request: besorgen Sie sich <fhir-Server>/AllergyIntolerance? Patient =<Patienten-ID>
-    
-    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>"; "recordedDate": "2018-09-17T07:00:00.000 z", "Substanz": {"Text": "Cashew-Nüsse"}, "Status": "bestätigt"; "Reaktion": [{"Substanz": {"Text": "Cashew-Nuss-Allergen Extrakt injizierbares Produkt"}, "Manifestation": [{"Text": "anaphylaktischer-Reaktion"}]}]}}]}
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "<resource-id>",
+        "recordedDate": "2018-09-17T07:00:00.000Z",
+        "substance": {
+          "text": "Cashew nuts"
+        },
+        "status": "confirmed",
+        "reaction": [
+          {
+            "substance": {
+              "text": "cashew nut allergenic extract Injectable Product"
+            },
+            "manifestation": [
+              {
+                "text": "Anaphylactic reaction"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 Weitere [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) Informationen zu diesem Feld Satz finden Sie unter.
 
@@ -254,31 +430,56 @@ Weitere [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7
 
 Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut-MedicationOrder-Profils sind:
 
-1. DateWritten
-2. Verschreiber. Display
-3. Medikation. Display (wenn Bezug)
-4. Medikation. Text (wenn Konzept)
+ - DateWritten
+ - Verschreiber. Display
+ - Medikation. Display (wenn Bezug)
+ - Medikation. Text (wenn Konzept)
 
 Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:
 
-1. DateEnded
-2. DosageInstruction. Text
-3. Text. div
+ - DateEnded
+ - DosageInstruction. Text
+ - Text. div
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<patient id>
-2. _Count =\<max results>
+ - Patient =\<patient id>
+ - _Count =\<max results>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
-* * *
+```
+Request:
+GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
 
-    Request: besorgen Sie sich <fhir-Server>/MedicationOrder? Patient =<Patient-ID>&_count = 10
-    
-    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "MedicationOrder"; "ID": "<Resource-ID>", "dateWritten": "2018-09-17", "medicationCodeableConcept": {"Text": "Lisinopril 20 mg Oral Tablet"}, "Verschreiber": {"Anzeige": "Jane Doe"}, "dosageInstruction": [{"Text": "1 Daily"}]}}]}
-
-* * *  
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "id": "<resource-id>",
+        "dateWritten": "2018-09-17",
+        "medicationCodeableConcept": {
+          "text": "Lisinopril 20 MG Oral Tablet"
+        },
+        "prescriber": {
+          "display": "Jane Doe"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1 daily"
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 Weitere [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) Informationen zu diesem Feld Satz finden Sie unter.
 
@@ -286,22 +487,36 @@ Weitere [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.or
 
 Hierbei handelt es sich um die mindestens erforderlichen Felder, die nicht in den USA-Core-oder Argonaut-Profilen enthalten sind:
 
-1. Zahlenden
+ - Zahlenden
 
 Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
 
-1. Patient =\<patient id>
+ - Patient =\<patient id>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
-* * *
+```
+Request:
+GET <fhir-server>/Coverage?patient=<patient-id>
 
-    Request: besorgen Sie sich <fhir-Server>/Coverage? Patient =<Patienten-ID>
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "<resource-id>",
+        "plan": "No Primary Insurance",
+        "subscriber": { "reference": "Patient/<patient-id>" }
+      }
+    }
+  ]
+}
+```
     
-    Response: {"Ressourcen": "Bundle"; "Typ": "searchset", "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "Coverage"; "ID": "<Resource-ID>"; "Plan": "keine Erstversicherung"; "Teilnehmer": {"Bezug": "Patient/<Patient-ID>"}}}]}
-
-* * *
-
 Weitere [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) Informationen zu diesem Feld Satz finden Sie unter.
 
 ## <a name="location"></a>Ort

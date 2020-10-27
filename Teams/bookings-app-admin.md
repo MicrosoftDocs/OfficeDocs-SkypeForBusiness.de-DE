@@ -1,5 +1,5 @@
 ---
-title: Buchungen-APP und virtuelle Besuche in Microsoft Teams
+title: Virtuelle Besuche mit Microsoft Teams und der App "Buchungen"
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: Microsoft Teams und virtuelle Besuche mit der App "Buchungen"
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427680"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766958"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Buchungen-APP und virtuelle Besuche in Microsoft Teams
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Besuche mit Microsoft Teams und der App "Buchungen"
 
 Die app "Buchungen" in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlichen und virtuellen Terminen wie Gesundheits Besuche, Finanzberatungen, Interviews, Kundendienst, Unterrichtsstunden und vieles mehr.
 
@@ -51,13 +51,13 @@ Es gibt mehrere Möglichkeiten, zu steuern, wer Zugriff auf die app "Buchungen" 
 
 ## <a name="recommended-meeting-policy-settings"></a>Empfohlene Einstellungen für Besprechungsrichtlinien
 
-Erstellen Sie eine Personal Besprechungsrichtlinie, damit **alle Personen in Ihrer Organisation**automatisch zugelassen werden, um die beste Benutzerfreundlichkeit für Buchungen zu ermöglichen. Auf diese Weise können die Mitarbeiter automatisch an dem Termin teilnehmen und die Lobby-Erfahrung für externe Teilnehmer aktivieren. Weitere Informationen finden Sie [unter Automatisches zulassen von Personen für Besprechungen](meeting-policies-in-teams.md#automatically-admit-people).
+Erstellen Sie eine Personal Besprechungsrichtlinie, damit **alle Personen in Ihrer Organisation** automatisch zugelassen werden, um die beste Benutzerfreundlichkeit für Buchungen zu ermöglichen. Auf diese Weise können die Mitarbeiter automatisch an dem Termin teilnehmen und die Lobby-Erfahrung für externe Teilnehmer aktivieren. Weitere Informationen finden Sie [unter Automatisches zulassen von Personen für Besprechungen](meeting-policies-in-teams.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Optionale Einstellung für Mitarbeiter Genehmigungen
 
 Als zusätzliche Privatsphäre-Einstellung können Sie festlegen, dass die Mitarbeiter sich anmelden müssen, bevor Ihre Terminplan Verfügbarkeitsinformationen durch Buchungen freigegeben werden und bevor Sie für einen Termin gebucht werden können.  
 
-Wenn Sie diese Einstellung aktivieren möchten, wechseln Sie zu den Einstellungen für **Microsoft 365 Admin Center** \> **Settings** \> **Settings**, und wählen Sie dann **Buchungen**aus.
+Wenn Sie diese Einstellung aktivieren möchten, wechseln Sie zu den Einstellungen für **Microsoft 365 Admin Center** \> **Settings** \> **Settings** , und wählen Sie dann **Buchungen** aus.
 
 Wenn diese Einstellung aktiviert ist, erhält das Personal eine e-Mail, in der Sie aufgefordert werden, die Mitgliedschaft in einem Buchungskalender zu genehmigen.  
 
