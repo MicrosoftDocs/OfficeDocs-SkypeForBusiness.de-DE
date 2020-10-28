@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3eb845321a13e7701f7a8d49b975fe077fa2e14
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504962"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778788"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -91,13 +91,16 @@ Wenn ein Benutzer Microsoft Teams in seinem Benutzerprofil deinstalliert, erkenn
 3. Löschen Sie den `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` Registrierungswert.
 4. Stellen Sie das MSI-Paket auf dem entsprechenden Computer erneut bereit.
 
+> [!TIP]
+> Sie können auch das [Cleanup-Skript "Teams-Bereitstellung](scripts/powershell-script-deployment-cleanup.md) " verwenden, um die Schritte 1 und 2 abzuschließen.  
+
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Verhindern, dass Microsoft Teams nach der Installation automatisch gestartet wird
 
 Standardmäßig installiert das MSI-Paket die Teams-App, sobald sich ein Benutzer anmeldet, und startet Teams dann automatisch. Wenn Sie nicht möchten, dass Teams nach der Installation für Benutzer automatisch gestartet wird, können Sie mithilfe von Gruppenrichtlinien eine Richtlinieneinstellung festlegen oder den automatischen Start für das MSI-Installationsprogramm deaktivieren.
 
 ### <a name="use-group-policy-recommended"></a>Verwenden von Gruppenrichtlinien (empfohlen)
 
-Aktivieren Sie die Gruppenrichtlinie zum **Verhindern, dass Microsoft Teams nach der Installation automatisch gestartet wird**. Sie finden diese Richtlinieneinstellung unter: Computerkonfiguration\Richtlinien\Administrative Vorlagen\Microsoft Teams. Dies ist die empfohlene Methode, da Sie die Richtlinieneinstellung entsprechend den Anforderungen Ihrer Organisation deaktivieren oder aktivieren können.
+Aktivieren Sie die Gruppenrichtlinie zum **Verhindern, dass Microsoft Teams nach der Installation automatisch gestartet wird** . Sie finden diese Richtlinieneinstellung unter: Computerkonfiguration\Richtlinien\Administrative Vorlagen\Microsoft Teams. Dies ist die empfohlene Methode, da Sie die Richtlinieneinstellung entsprechend den Anforderungen Ihrer Organisation deaktivieren oder aktivieren können.
 
 Aktivieren Sie diese Richtlinieneinstellung vor der Installation von Teams, wird es nicht automatisch gestartet, wenn sich Benutzer bei Windows anmelden. Nachdem sich ein Benutzer zum ersten Mal bei Teams angemeldet hat, wird es bei der nächsten Anmeldung des Benutzers automatisch gestartet.
 

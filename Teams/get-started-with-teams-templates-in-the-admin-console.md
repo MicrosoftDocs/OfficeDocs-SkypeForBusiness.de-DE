@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5b17ae74c03cd6e74f08cddede6757d1937464cc
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424655"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772226"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Admin Center
 
@@ -68,7 +68,7 @@ Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorl
 > Vordefinierte Basisvorlagen, die in Microsoft Teams bereitgestellt werden, können dupliziert, aber nicht bearbeitet werden.
 
 | Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | Übernehmen von Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
 | Verwalten eines Projekts |`com.microsoft.teams.template.ManageAProject`| Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
 | Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |

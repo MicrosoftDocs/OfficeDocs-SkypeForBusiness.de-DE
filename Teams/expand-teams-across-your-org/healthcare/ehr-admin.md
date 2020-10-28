@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Einrichten Ihres virtuellen Besuchs Systems mithilfe von Microsoft Teams
-ms.openlocfilehash: dcf852486d6a7fbace23bea5fb8610c62bdc7e4f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 3d5d68e7c4ba3cc203df33604a7210e67b402938
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766718"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778888"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in EPA
 
@@ -35,6 +35,10 @@ Die Kommunikations-und Zusammenarbeitsplattform von Teams macht es Klinikern ein
 - Schreiben Sie zurück in die EPA-Metadaten bei Connect-und Disconnect-Ereignissen, um automatische Überwachung und Datensatzspeicherung zu ermöglichen.
 
 - Integrieren Sie in vorhandene Klinik-und Patienten Workflows, während Sie Microsoft Teams verwenden können.
+
+  Schauen Sie sich das Video an, wie Sie virtuelle Besuche im EPA-Portal verwalten können.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## <a name="before-you-begin"></a>Vorbereitung
 

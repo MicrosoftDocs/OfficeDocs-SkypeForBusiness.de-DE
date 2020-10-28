@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Informieren Sie sich, welche Schreibtisch-und Konferenztelefone für Microsoft Teams zertifiziert sind, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: b598e55ec130876b0b3ae8d52f1283fa596b2ebc
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 35985ab9d930c5c689c196697957a672111263ab
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599540"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778878"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -63,7 +63,7 @@ Die folgenden Telefone sind für Microsoft Teams zertifiziert:
 | Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | Dezember 2018                |
 | Yealink T58 & T56-Serie               | 58.15.0.20                                                                                                                                                                                                                                 | Dezember 2018                |
 
-## <a name="certified-collaboration-bars"></a>Zertifizierte Kollaborations leisten
+## <a name="currently-certified-collaboration-bars"></a>Derzeit zertifizierte Kollaborations leisten
 
 Die folgenden Zusammenarbeits Balken sind für Microsoft Teams zertifiziert:
 
@@ -73,37 +73,42 @@ Die folgenden Zusammenarbeits Balken sind für Microsoft Teams zertifiziert:
 | Poly Studio X50         | 3.1.1.216109     | Juni 2020     | Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
 | Yealink VC210           | 118.15.0.14      | 2020. Februar | Fokus Raum (3M x 3M) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
 
+## <a name="currently-certified-teams-display"></a>Derzeit zertifizierte Teams werden angezeigt
+Die folgenden Teams anzeigen sind für Microsoft Teams zertifiziert:
+
+| Anzeige Modell für Teams | Firmware-Version | Veröffentlichungsdatum  |                                         
+|:------------------------|:-----------------|:--------------|
+|Lenovo ThinkSmart-Ansicht|CD-18781Y. 201006.099|Oktober 2020 |
+
 ### <a name="product-release-information-for-teams-phones"></a>Informationen zur Produktfreigabe für Teams-Telefone
 
 Im folgenden finden Sie die neuesten IP Phone-APP-und Firmware-Versionen von Teams.
-
-#### <a name="release-date-august-312020"></a>Veröffentlichungsdatum: 31. August 2020
 
 #### <a name="app-versions"></a>App-Versionen
 
 | Produktversion | Veröffentlichungsdatum  | Microsoft Teams-App-Version | Version des Unternehmensportals | Version des Administrator-Agents |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Aktualisieren #6       | 12. Oktober 2020|1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446. Product (216) |
-| Aktualisieren #5       | 31. August 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446. Product (216) |
-| Aktualisieren #4       | 30. Juni 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Aktualisieren #3       | 13. Mai 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1,210               |
+| Aktualisieren #6  | 12. Oktober 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446. Product (216) |
+| Aktualisieren #5  | 31. August 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446. Product (216) |
+| Aktualisieren #4  | 30. Juni 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| Aktualisieren #3  | 13. Mai 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1,210               |
 
 #### <a name="firmware-versions"></a>Firmware-Versionen
 
 Wenn Sie eine neue Firmware-Version auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-APP, das Unternehmens Portal und den Administrator-Agent, Versionen, die installiert werden, ermitteln, indem Sie die Produktversion in der Spalte " **enthaltene Produktversion** " finden. Schauen Sie sich dann die Produktversion in der obigen Tabelle **App-Versionen** an.
 
-| Gerätemodell        | Firmware-Version     | Enthaltene Produktversion |
+| Gerätemodell        | Firmware-Version     | Jahr/enthaltene Produktfreigabe  |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | Aktualisieren #6                |
-| AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | Aktualisieren #6                |
-|Lenovo ThinkSmart-Ansicht|CD-18781Y. 200922.098 | Aktualisieren #6                |
-| Poly-CCX400         | 6.2.22.0185          | Aktualisieren #6                |
-| Poly CCX500/CCX600  | 6.2.22.0185          | Aktualisieren #6                |
-| Poly Trio C60       | 5.9.5.2983           | Aktualisieren #6                |
-| Yealink T55/T56/T58 | 58.15.0.116          | Aktualisieren #6                |
-| Yealink MP56        | 122.15.0.23          | Aktualisieren #6                |
-| Yealink VP59        | 91.15.0.48           | Aktualisieren #6                |
-| Yealink CP960       | 73.15.0.109          | Aktualisieren #6                |
+| AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | 2020, Update #6           |
+| AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | 2020, Update #6           |
+|Lenovo ThinkSmart-Ansicht|CD-18781Y. 200922.098 | 2020, Update #6           |
+| Poly-CCX400         | 6.2.22.0185          | 2020, Update #6           |
+| Poly CCX500/CCX600  | 6.2.22.0185          | 2020, Update #6           |
+| Poly Trio C60       | 5.9.5.2983           | 2020, Update #6           |
+| Yealink T55/T56/T58 | 58.15.0.116          | 2020, Update #6           |
+| Yealink MP56        | 122.15.0.23          | 2020, Update #6           |
+| Yealink VP59        | 91.15.0.48           | 2020, Update #6           |
+| Yealink CP960       | 73.15.0.109          | 2020, Update #6           |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>Informationen zur Produktversion für Collaboration-leisten
 
@@ -111,20 +116,38 @@ Im folgenden finden Sie die neuesten Apps für die Teamarbeits Leiste und die Fi
 
 #### <a name="app-versions"></a>App-Versionen
 
-| Produktversion | Veröffentlichungsdatum | Microsoft Teams-App-Version | Version des Unternehmensportals | Version des Administrator-Agents |
+| Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Version des Unternehmensportals | Version des Administrator-Agents |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Aktualisieren #2       | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. Product versioncode: 212|
-| Aktualisieren #1       | 13. Mai 2020 | .040901                     | .4715                  | .210                |
+| Aktualisieren #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552. Product versioncode: 212|
+| Aktualisieren #1  | 13. Mai 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Firmware-Versionen
 
 Wenn Sie eine neue Firmware-Version auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-APP, das Unternehmens Portal und den Administrator-Agent, Versionen, die installiert werden, ermitteln, indem Sie die Produktversion in der Spalte " **enthaltene Produktversion** " finden. Schauen Sie sich dann die Produktversion in der obigen Tabelle **App-Versionen** an.
 
-| Gerätemodell  | Firmware-Version | Enthaltene Produktversion |
+| Gerätemodell  | Firmware-Version | Jahr/enthaltene Produktfreigabe |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.32      | Aktualisieren #2         |
-| Poly Studio X30 | 3.2.0.222012          | Aktualisieren #2         |
-| Poly Studio X50 | 3.2.0.222012          | Aktualisieren #2         |
+| Yealink VC210 + CP900 | 118.15.0.32     | 2020, Update #2    |
+| Poly Studio X30 | 3.2.0.222012          | 2020, Update #2    |
+| Poly Studio X50 | 3.2.0.222012          | 2020, Update #2    |
+
+### <a name="product-release-information-for-teams-display"></a>Informationen zur Produktfreigabe für die Anzeige von Teams
+
+Im folgenden finden Sie die neuesten Teams, die APP-und Firmware-Versionen anzeigen.
+
+#### <a name="app-versions"></a>App-Versionen
+
+|Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Version des Unternehmensportals | Version des Administrator-Agents |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Aktualisieren #1  |22. Oktober 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446. Product|
+
+#### <a name="firmware-versions"></a>Firmware-Versionen
+
+Wenn Sie eine neue Firmware-Version auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-APP, das Unternehmens Portal und den Administrator-Agent, Versionen, die installiert werden, ermitteln, indem Sie die Produktversion in der Spalte " **enthaltene Produktversion** " finden. Schauen Sie sich dann die Produktversion in der obigen Tabelle **App-Versionen** an.
+
+| Gerätemodell  | Firmware-Version | Jahr/enthaltene Produktfreigabe|
+|:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart-Ansicht| CD-18781Y. 201006.099 |2020, Update #1 |
 
 Informationen zu den von diesen Geräten unterstützten Features finden Sie unter [Microsoft Teams Phones-Funktionssatz](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) .
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
-ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
+ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48286111"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778898"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -46,10 +46,10 @@ Befolgen Sie die Anleitungen in diesem Artikel, um eine optimale Benutzererfahru
 
 Für die Verwendung von Teams in einer virtualisierten Umgebung sind die folgenden Komponenten erforderlich:
 
-- **Virtualization Broker**: die Ressource und der Verbindungs-Manager für den Virtualisierungssoftware-Anbieter, wie Azure
-- **Virtueller Desktop**: der VM-Stapel (Virtual Machine), der Microsoft Teams ausführt
-- **Thin Client**: der Endpunkt, mit dem der Benutzer physikalisch eine Schnittstelle verwendet
-- **Teams-Desktop-App**: die Desktop-Client-App für Teams
+- **Virtualization Broker** : die Ressource und der Verbindungs-Manager für den Virtualisierungssoftware-Anbieter, wie Azure
+- **Virtueller Desktop** : der VM-Stapel (Virtual Machine), der Microsoft Teams ausführt
+- **Thin Client** : der Endpunkt, mit dem der Benutzer physikalisch eine Schnittstelle verwendet
+- **Teams-Desktop-App** : die Desktop-Client-App für Teams
 
 ## <a name="teams-on-vdi-requirements"></a>Teams für VDI-Anforderungen
 
@@ -187,9 +187,12 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
 
         > [!NOTE]
         > In diesen Beispielen wird auch der **ALLUSERS = 1** -Parameter verwendet. Wenn Sie diesen Parameter festlegen, wird das Installationsprogramm für die computerweite Installation von Teams unter "Programme und Features" in der Systemsteuerung sowie unter "Apps und Features" in den Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen verfügen.
-        Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1**zu verstehen. Der **ALLUSERS = 1** -Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, während der **alluser = 1** -Parameter nur in VDI-Umgebungen verwendet wird, um eine pro-Computer-Installation festzulegen.
+        Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1** zu verstehen. Der **ALLUSERS = 1** -Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, während der **alluser = 1** -Parameter nur in VDI-Umgebungen verwendet wird, um eine pro-Computer-Installation festzulegen.
 
-3. Deinstallieren Sie die MSI-Karte aus der VDI-VM.
+3. Deinstallieren Sie die MSI-Karte aus der VDI-VM. Es gibt zwei Möglichkeiten, Teams zu deinstallieren.
+
+    - PowerShell-Skript: Sie können [dieses PowerShell-Skript](scripts/powershell-script-deployment-cleanup.md) verwenden, um Teams zu deinstallieren und den Ordner "Teams" für einen Benutzer zu entfernen. Führen Sie das Skript für jedes Benutzerprofil aus, auf dem Teams auf dem Computer installiert wurden.
+    - Befehlszeile: führen Sie den folgenden Befehl aus.
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -257,27 +260,27 @@ Sie können Richtlinien mit dem Microsoft Teams Admin Center oder mit PowerShell
 
 So weisen Sie einem Benutzer die DisallowCalling-Anrufrichtlinie und die AllOff-Besprechungsrichtlinie zu:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
-2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer** .
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten** .
 3. Gehen Sie folgendermaßen vor:
-    1.  Klicken Sie unter **Anrufrichtlinie**auf **DisallowCalling**.
-    2.  Klicken Sie unter **Besprechungsrichtlinie**auf **AllOff**.
-4. Klicken Sie auf **Anwenden**.
+    1.  Klicken Sie unter **Anrufrichtlinie** auf **DisallowCalling** .
+    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **AllOff** .
+4. Klicken Sie auf **Anwenden** .
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer** , und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
 2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
+3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen** .
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
-    - Wechseln Sie zu **VoIP**-  >  **Anruf Richtlinien**, und klicken Sie dann auf **DisallowCalling**.
-    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies**, und klicken Sie dann auf **AllOff**.
+    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **DisallowCalling** .
+    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **AllOff** .
 2. Wählen Sie **Nutzer verwalten** aus.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
-4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
+4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern** .
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell
 
@@ -313,27 +316,27 @@ Sie können das Microsoft Teams Admin Center oder PowerShell verwenden, um Ihren
 
 So weisen Sie einem Benutzer die AllowCalling-Anrufrichtlinie und die Allon-Besprechungsrichtlinie zu:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
-2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer** .
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten** .
 3. Gehen Sie folgendermaßen vor:
-    1.  Klicken Sie unter **Anrufrichtlinie**auf **AllowCalling**.
-    2.  Klicken Sie unter **Besprechungsrichtlinie**auf **Allon**.
-4. Klicken Sie auf **Anwenden**.
+    1.  Klicken Sie unter **Anrufrichtlinie** auf **AllowCalling** .
+    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **Allon** .
+4. Klicken Sie auf **Anwenden** .
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer** , und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
 2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Wenn Sie alle Benutzer auswählen möchten, klicken Sie oben in der Tabelle auf das **&#x2713;** (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
+3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen** .
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
-    - Wechseln Sie zu **VoIP**-  >  **Anruf Richtlinien**, und klicken Sie dann auf **AllowCalling**.
-    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies**, und klicken Sie dann auf **Allon**.
+    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **AllowCalling** .
+    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **Allon** .
 2. Wählen Sie **Nutzer verwalten** aus.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
-4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
+4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern** .
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell
 
@@ -357,10 +360,10 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechung
 
 Wenn Benutzer eine Verbindung mit einem nicht unterstützten Endpunkt herstellen, befinden sich die Benutzer im Fallbackmodus, in dem AV nicht optimiert ist. Sie können den Fall Back Modus deaktivieren oder aktivieren, indem Sie einen der folgenden DWORD-Registrierungswerte festlegen:
 
-- HKEY_LOCAL_MACHINE \software\microsoft\teams\disablefallback
-- HKEY_CURRENT_USER \software\microsoft\office\teams\disablefallback
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-Um den Fall Back Modus zu deaktivieren, setzen Sie den Wert auf **1**. Wenn Sie nur Audio aktivieren möchten, setzen Sie den Wert auf **2**. Wenn der Wert nicht vorhanden ist oder auf **0** (null) eingestellt ist, ist der Fall Back Modus aktiviert.
+Um den Fall Back Modus zu deaktivieren, setzen Sie den Wert auf **1** . Wenn Sie nur Audio aktivieren möchten, setzen Sie den Wert auf **2** . Wenn der Wert nicht vorhanden ist oder auf **0** (null) eingestellt ist, ist der Fall Back Modus aktiviert.
 
 Dieses Feature ist in den Teams Version 1.3.00.13565 und höher verfügbar.
 
@@ -382,7 +385,7 @@ Die folgenden Anruf-und besprechungsfeatures werden nicht unterstützt:
 - HID-Schaltflächen und LED-Steuerungen zwischen der Teams-APP und Geräten
 - Hintergrund Unschärfe und Effekte
 - Rollen für Broadcast-und Live-Event Producer und Referenten
-- Orts basiertes Routing (LBR)
+- Location-Based-Routing (LBR)
 - Anruf parken
 - Anrufwarteschlange
 - Audio/Computer-Sound für Shared System
@@ -403,7 +406,6 @@ Im folgenden sind bekannte Probleme und Einschränkungen für Anrufe und Besprec
     - Wird während einer Bildschirmfreigabe-oder Anwendungsfreigabesitzung nicht unterstützt.
     - Wird während einer PowerPoint-Freigabesitzung unterstützt.
 - Nur Citrix-Einschränkungen
-    - Die DTMF-Interaktion (Dual Tone Multi Frequency) mit Telefoniesysteme wird derzeit nicht unterstützt.
     - Wenn die Bildschirmübertragung in einer Multi-Monitor-Einrichtung erfolgt, wird nur der Hauptmonitor freigegeben.
     - Eine große DPI-Skalierung auf "GAV" wird nicht unterstützt.
 

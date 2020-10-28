@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, virtueller Besuch, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab34d5da83a189c3d135c330bbe2fe015d248349
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766842"
+ms.locfileid: "48772296"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -94,6 +94,9 @@ Darüber hinaus kann Ihr Team apps in Teams für folgende Zwecke verwenden:
 - Erstellen, verwalten und Freigeben von Terminplänen mit der App "Schichten"
 
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>Freigeben von Listen und nachvollziehen von Informationen mit der App "Listen"
+
+> [!NOTE]
+> Die Patienten-APP wird in den 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt. Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen.
 
 Mithilfe der Listen-app in Teams können Teams Informationen nachvollziehen und die Arbeit organisieren. Die APP ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung. Listen können von Grund auf neu erstellt werden, aus vordefinierten Vorlagen oder durch Importieren von Daten nach Excel.
 

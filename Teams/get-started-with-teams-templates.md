@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 484b3ac3fd3545ce306dcb6e3d833bb523df5a86
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361655"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772196"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Erste Schritte mit Teams-Vorlagen mit Microsoft Graph
 
@@ -64,7 +64,7 @@ Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branch
 
 Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten Eigenschaften, die nicht überschrieben werden können.
 
-Standardmäßig ist die Basisvorlage auf **Standard**festzulegen, die keine zusätzlichen proprietären Apps oder speziellen Eigenschaften enthält. Unten ist die aktuelle Liste der verfügbaren Basisvorlagen Typen aufgeführt.
+Standardmäßig ist die Basisvorlage auf **Standard** festzulegen, die keine zusätzlichen proprietären Apps oder speziellen Eigenschaften enthält. Unten ist die aktuelle Liste der verfügbaren Basisvorlagen Typen aufgeführt.
 
 | Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -77,6 +77,29 @@ Standardmäßig ist die Basisvorlage auf **Standard**festzulegen, die keine zus�
 | Im Gesundheitswesen<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle <ul><li>Ankündigungen\*</li><li>Kauert\*</li><li>Runden</li><li>Personal\*</li><li>Schulungen\*</li></ul>\*Automatisch bevorzugte Kanäle |
 |Im Gesundheitswesen<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Freiheits</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatisch bevorzugter Kanal|
 |||
+
+
+Verwenden Sie die folgenden Vorlagen zum Erstellen von Teams sowohl im Team Client als auch in Microsoft Graph.
+
+
+| Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------ | -------------- | ----------------------------------------------------- |
+| Übernehmen von Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
+| Verwalten eines Projekts |`com.microsoft.teams.template.`<br>`ManageAProject`| Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+| Verwalten eines Ereignisses|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Onboard-Mitarbeiter|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li></ul>|
+|Organisieren des Helpdesks| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+| Zusammenarbeit bei der Patientenversorgung| `healthcareWard `| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li>|
+| Zusammenarbeiten an globaler Krise oder Veranstaltung |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
+|Zusammenarbeiten in einer Bankfiliale| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Kauert</li><li>Kundenbesprechungen</li><li>Coaching</li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>|
+|Koordinieren der Vorfall Antwort| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Krankenhaus| `healthcareHospita`l |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Organisieren eines Shops| `retailStore` |Kanäle <ul><li>Allgemein<li>UMSCHALT Übergabe</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Qualität und Sicherheit |`com.microsoft.teams.`<br>`template.QualitySafety`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Zusammenarbeit im Einzelhandel – Manager| `retailManagerCollaboration` |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
+||||
+
+Weitere Informationen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen im Admin Center](get-started-with-teams-templates-in-the-admin-console.md) .
 
 ## <a name="related-topics"></a>Verwandte Themen
 
