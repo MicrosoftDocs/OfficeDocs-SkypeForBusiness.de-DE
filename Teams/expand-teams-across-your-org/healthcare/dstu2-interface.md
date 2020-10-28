@@ -18,72 +18,67 @@ appliesto:
 ms.reviewer: anach
 description: Erfahren Sie mehr über die DSTU2-Schnittstellenspezifikation in Teams, einschließlich der Einrichtung oder Neukonfiguration eines FHIR-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-app.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d29dab88f6ee53eb4c758f6c95f71278e20ecdbe
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 15bcc5fcaff50d6d41c45ef2d38e34719ebca999
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766978"
+ms.locfileid: "48772206"
 ---
-# <a name="dstu2-interface-specification"></a><span data-ttu-id="2f0c0-103">Benutzeroberflächenspezifikation DSTU2</span><span class="sxs-lookup"><span data-stu-id="2f0c0-103">DSTU2 interface specification</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="2f0c0-104">**Die Patienten-APP wird ab dem 30. Oktober 2020 veraltet sein, und die Benutzer können Sie nicht mehr aus dem App Store von Teams installieren. Wir empfehlen Ihnen, die Listen- [App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams noch heute zu verwenden.**</span><span class="sxs-lookup"><span data-stu-id="2f0c0-104">**Effective October 30, 2020, the Patients app will be deprecated and users will no longer be able to install it from the Teams app store. We encourage you to start using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams today.**</span></span>
->
-><span data-ttu-id="2f0c0-105">Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-105">Patients app data is stored in the group mailbox of the Office 365 group that backs the team.</span></span> <span data-ttu-id="2f0c0-106">Wenn die patients-App eingestellt wird, werden alle damit verknüpften Daten in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-106">When the Patients app is retired, all data associated with it will be retained in this group but can no longer be accessed through the user interface.</span></span> <span data-ttu-id="2f0c0-107">Aktuelle Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-107">Current users can re-create their lists using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).</span></span>
->
-><span data-ttu-id="2f0c0-108">Die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-108">The [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) is pre-installed for all Teams users and is available as a tab in every team and channel.</span></span> <span data-ttu-id="2f0c0-109">Mit Listen können Gesundheitsteams mithilfe der integrierten Vorlage "Patienten", von Grund auf neu oder durch Importieren von Daten nach Excel, patientenlisten erstellen.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-109">With Lists, health teams can create patient lists using the built-in Patients template, from scratch, or by importing data to Excel.</span></span> <span data-ttu-id="2f0c0-110">Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).</span><span class="sxs-lookup"><span data-stu-id="2f0c0-110">To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](../../manage-lists-app.md).</span></span>
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-<span data-ttu-id="2f0c0-111">Zum Einrichten oder Neukonfigurieren eines FHIR-Servers für die Arbeit mit der Microsoft Teams-Patienten-App müssen Sie verstehen, auf welche Daten die App zugreifen muss.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-111">Setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app requires understanding what data the app needs to access.</span></span> <span data-ttu-id="2f0c0-112">Der FHIR-Server muss Post Anforderungen mithilfe von bündeln für die folgenden Ressourcen unterstützen:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-112">The FHIR server must support POST requests using bundles for the following resources:</span></span>
-
-- [<span data-ttu-id="2f0c0-113">Patienten</span><span class="sxs-lookup"><span data-stu-id="2f0c0-113">Patient</span></span>](#patient)
-- [<span data-ttu-id="2f0c0-114">Beobachtung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-114">Observation</span></span>](#observation)
-- [<span data-ttu-id="2f0c0-115">Bedingung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-115">Condition</span></span>](#condition)
-- [<span data-ttu-id="2f0c0-116">Auftreten</span><span class="sxs-lookup"><span data-stu-id="2f0c0-116">Encounter</span></span>](#encounter)
-- [<span data-ttu-id="2f0c0-117">Allergie-Intoleranz</span><span class="sxs-lookup"><span data-stu-id="2f0c0-117">Allergy intolerance</span></span>](#allergyintolerance)
-- [<span data-ttu-id="2f0c0-118">Abdeckung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-118">Coverage</span></span>](#coverage)
-- [<span data-ttu-id="2f0c0-119">Medikations Bestellung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-119">Medication Order</span></span>](#medication-order)
-- [<span data-ttu-id="2f0c0-120">Standort</span><span class="sxs-lookup"><span data-stu-id="2f0c0-120">Location</span></span>](#location)
+# <a name="dstu2-interface-specification"></a><span data-ttu-id="c867c-103">Benutzeroberflächenspezifikation DSTU2</span><span class="sxs-lookup"><span data-stu-id="c867c-103">DSTU2 interface specification</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2f0c0-121">Die Patienten Ressource ist die einzige obligatorische Ressource (ohne die die APP überhaupt nicht geladen werden kann.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-121">The Patient resource is the only mandatory resource (without which the app will not load at all.</span></span> <span data-ttu-id="2f0c0-122">Es wird jedoch empfohlen, dass der Partner die Unterstützung für alle oben aufgeführten Ressourcen pro Spezifikationen implementiert, die nachfolgend aufgeführt sind, um die optimale Benutzererfahrung mit der Microsoft Teams-Patienten-APP zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-122">However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App.</span></span>
+> <span data-ttu-id="c867c-104">Die Patienten-App wurde im 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt.</span><span class="sxs-lookup"><span data-stu-id="c867c-104">Effective October 30, 2020, the Patients app has been retired and replaced by the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams.</span></span> <span data-ttu-id="c867c-105">Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen.</span><span class="sxs-lookup"><span data-stu-id="c867c-105">With Lists, care teams in your healthcare organization can create patient lists for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring.</span></span> <span data-ttu-id="c867c-106">Schauen Sie sich die Vorlage Patienten in Listen an, um zu beginnen.</span><span class="sxs-lookup"><span data-stu-id="c867c-106">Check out the Patients template in Lists to get started.</span></span> <span data-ttu-id="c867c-107">Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md) .</span><span class="sxs-lookup"><span data-stu-id="c867c-107">To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](../../manage-lists-app.md)</span></span>
 
-<span data-ttu-id="2f0c0-123">Abfragen der Microsoft Teams-Patienten-App für mehr als eine Ressource Posten ein Bündel (Batch) von Anforderungen an die URL des FHIR-Servers.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-123">Queries from the Microsoft Teams Patients app for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL.</span></span> <span data-ttu-id="2f0c0-124">Der Server verarbeitet jede Anforderung und gibt ein Bündel der Ressourcen zurück, die mit den einzelnen Anforderungen übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-124">The server processes each request and returns a bundle of the resources matched by each request.</span></span> <span data-ttu-id="2f0c0-125">Weitere Informationen und Beispiele finden Sie unter [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) .</span><span class="sxs-lookup"><span data-stu-id="2f0c0-125">For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).</span></span>
+<span data-ttu-id="c867c-108">Zum Einrichten oder Neukonfigurieren eines FHIR-Servers für die Arbeit mit der Microsoft Teams-Patienten-App müssen Sie verstehen, auf welche Daten die App zugreifen muss.</span><span class="sxs-lookup"><span data-stu-id="c867c-108">Setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app requires understanding what data the app needs to access.</span></span> <span data-ttu-id="c867c-109">Der FHIR-Server muss Post Anforderungen mithilfe von bündeln für die folgenden Ressourcen unterstützen:</span><span class="sxs-lookup"><span data-stu-id="c867c-109">The FHIR server must support POST requests using bundles for the following resources:</span></span>
 
-<span data-ttu-id="2f0c0-126">Auf alle folgenden FHIR-Ressourcen sollte über direkten Ressourcenverweis zugegriffen werden können.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-126">All the following FHIR resources should be accessible by direct resource reference.</span></span>
+- [<span data-ttu-id="c867c-110">Patienten</span><span class="sxs-lookup"><span data-stu-id="c867c-110">Patient</span></span>](#patient)
+- [<span data-ttu-id="c867c-111">Beobachtung</span><span class="sxs-lookup"><span data-stu-id="c867c-111">Observation</span></span>](#observation)
+- [<span data-ttu-id="c867c-112">Bedingung</span><span class="sxs-lookup"><span data-stu-id="c867c-112">Condition</span></span>](#condition)
+- [<span data-ttu-id="c867c-113">Auftreten</span><span class="sxs-lookup"><span data-stu-id="c867c-113">Encounter</span></span>](#encounter)
+- [<span data-ttu-id="c867c-114">Allergie-Intoleranz</span><span class="sxs-lookup"><span data-stu-id="c867c-114">Allergy intolerance</span></span>](#allergyintolerance)
+- [<span data-ttu-id="c867c-115">Abdeckung</span><span class="sxs-lookup"><span data-stu-id="c867c-115">Coverage</span></span>](#coverage)
+- [<span data-ttu-id="c867c-116">Medikations Bestellung</span><span class="sxs-lookup"><span data-stu-id="c867c-116">Medication Order</span></span>](#medication-order)
+- [<span data-ttu-id="c867c-117">Standort</span><span class="sxs-lookup"><span data-stu-id="c867c-117">Location</span></span>](#location)
 
-## <a name="conformance-minimum-required-field-set"></a><span data-ttu-id="2f0c0-127">Konformitäts mindestanforderungs Feld Satz</span><span class="sxs-lookup"><span data-stu-id="2f0c0-127">Conformance minimum required field set</span></span>
+> [!NOTE]
+> <span data-ttu-id="c867c-118">Die Patienten Ressource ist die einzige obligatorische Ressource (ohne die die APP überhaupt nicht geladen werden kann.</span><span class="sxs-lookup"><span data-stu-id="c867c-118">The Patient resource is the only mandatory resource (without which the app will not load at all.</span></span> <span data-ttu-id="c867c-119">Es wird jedoch empfohlen, dass der Partner die Unterstützung für alle oben aufgeführten Ressourcen pro Spezifikationen implementiert, die nachfolgend aufgeführt sind, um die optimale Benutzererfahrung mit der Microsoft Teams-Patienten-APP zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="c867c-119">However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App.</span></span>
 
- <span data-ttu-id="2f0c0-128">Der FHIR-Server muss die Konformitätserklärung für uns implementieren, um eine sachliche Zusammenfassung seiner Funktionen zu haben.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-128">The FHIR Server must implement the conformance statement for us to have a factual summary of its capabilities.</span></span> <span data-ttu-id="2f0c0-129">Wir erwarten die folgenden Parameter in einem DSTU2-FHIR-Server:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-129">We expect the below parameters in a DSTU2 FHIR Server:</span></span>
+<span data-ttu-id="c867c-120">Abfragen der Microsoft Teams-Patienten-App für mehr als eine Ressource Posten ein Bündel (Batch) von Anforderungen an die URL des FHIR-Servers.</span><span class="sxs-lookup"><span data-stu-id="c867c-120">Queries from the Microsoft Teams Patients app for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL.</span></span> <span data-ttu-id="c867c-121">Der Server verarbeitet jede Anforderung und gibt ein Bündel der Ressourcen zurück, die mit den einzelnen Anforderungen übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="c867c-121">The server processes each request and returns a bundle of the resources matched by each request.</span></span> <span data-ttu-id="c867c-122">Weitere Informationen und Beispiele finden Sie unter [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) .</span><span class="sxs-lookup"><span data-stu-id="c867c-122">For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).</span></span>
 
- - <span data-ttu-id="2f0c0-130">Rest</span><span class="sxs-lookup"><span data-stu-id="2f0c0-130">REST</span></span>
+<span data-ttu-id="c867c-123">Auf alle folgenden FHIR-Ressourcen sollte über direkten Ressourcenverweis zugegriffen werden können.</span><span class="sxs-lookup"><span data-stu-id="c867c-123">All the following FHIR resources should be accessible by direct resource reference.</span></span>
 
-    - <span data-ttu-id="2f0c0-131">Modus</span><span class="sxs-lookup"><span data-stu-id="2f0c0-131">Mode</span></span>
-    - <span data-ttu-id="2f0c0-132">Interaktion</span><span class="sxs-lookup"><span data-stu-id="2f0c0-132">Interaction</span></span>
-    - <span data-ttu-id="2f0c0-133">Ressource: Typ</span><span class="sxs-lookup"><span data-stu-id="2f0c0-133">Resource: Type</span></span>
-    - <span data-ttu-id="2f0c0-134">Sicherheit: [Erweiterung für OAuth-URIs](https://hl7.org/fhir/extension-oauth-uris.html)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-134">Security: [Extension for OAuth URIs](https://hl7.org/fhir/extension-oauth-uris.html)</span></span>
+## <a name="conformance-minimum-required-field-set"></a><span data-ttu-id="c867c-124">Konformitäts mindestanforderungs Feld Satz</span><span class="sxs-lookup"><span data-stu-id="c867c-124">Conformance minimum required field set</span></span>
+
+ <span data-ttu-id="c867c-125">Der FHIR-Server muss die Konformitätserklärung für uns implementieren, um eine sachliche Zusammenfassung seiner Funktionen zu haben.</span><span class="sxs-lookup"><span data-stu-id="c867c-125">The FHIR Server must implement the conformance statement for us to have a factual summary of its capabilities.</span></span> <span data-ttu-id="c867c-126">Wir erwarten die folgenden Parameter in einem DSTU2-FHIR-Server:</span><span class="sxs-lookup"><span data-stu-id="c867c-126">We expect the below parameters in a DSTU2 FHIR Server:</span></span>
+
+ - <span data-ttu-id="c867c-127">Rest</span><span class="sxs-lookup"><span data-stu-id="c867c-127">REST</span></span>
+
+    - <span data-ttu-id="c867c-128">Modus</span><span class="sxs-lookup"><span data-stu-id="c867c-128">Mode</span></span>
+    - <span data-ttu-id="c867c-129">Interaktion</span><span class="sxs-lookup"><span data-stu-id="c867c-129">Interaction</span></span>
+    - <span data-ttu-id="c867c-130">Ressource: Typ</span><span class="sxs-lookup"><span data-stu-id="c867c-130">Resource: Type</span></span>
+    - <span data-ttu-id="c867c-131">Sicherheit: [Erweiterung für OAuth-URIs](https://hl7.org/fhir/extension-oauth-uris.html)</span><span class="sxs-lookup"><span data-stu-id="c867c-131">Security: [Extension for OAuth URIs](https://hl7.org/fhir/extension-oauth-uris.html)</span></span>
    
- - <span data-ttu-id="2f0c0-135">FhirVersion (für unseren Code ist dies erforderlich, um zu verstehen, auf welche Version wir pivotieren sollten, da wir mehrere Versionen unterstützen.)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-135">FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)</span></span>
+ - <span data-ttu-id="c867c-132">FhirVersion (für unseren Code ist dies erforderlich, um zu verstehen, auf welche Version wir pivotieren sollten, da wir mehrere Versionen unterstützen.)</span><span class="sxs-lookup"><span data-stu-id="c867c-132">FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)</span></span>
 
-<span data-ttu-id="2f0c0-136">Weitere [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-136">See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-133">Weitere [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-133">See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) for other details on this field set.</span></span>
 
-## <a name="patient"></a><span data-ttu-id="2f0c0-137">Patienten</span><span class="sxs-lookup"><span data-stu-id="2f0c0-137">Patient</span></span>
+## <a name="patient"></a><span data-ttu-id="c867c-134">Patienten</span><span class="sxs-lookup"><span data-stu-id="c867c-134">Patient</span></span>
 
-<span data-ttu-id="2f0c0-138">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge der [Argonaut-Patientenprofil](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) Felder sind:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-138">These are the minimum required fields, which are a subset of the [Argonaut patient profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) fields:</span></span>
+<span data-ttu-id="c867c-135">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge der [Argonaut-Patientenprofil](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) Felder sind:</span><span class="sxs-lookup"><span data-stu-id="c867c-135">These are the minimum required fields, which are a subset of the [Argonaut patient profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) fields:</span></span>
 
- - <span data-ttu-id="2f0c0-139">Name. Familie</span><span class="sxs-lookup"><span data-stu-id="2f0c0-139">Name.Family</span></span>
- - <span data-ttu-id="2f0c0-140">Name. given</span><span class="sxs-lookup"><span data-stu-id="2f0c0-140">Name.Given</span></span>
- - <span data-ttu-id="2f0c0-141">Geschlecht</span><span class="sxs-lookup"><span data-stu-id="2f0c0-141">Gender</span></span>
- - <span data-ttu-id="2f0c0-142">BirthDate</span><span class="sxs-lookup"><span data-stu-id="2f0c0-142">BirthDate</span></span>
- - <span data-ttu-id="2f0c0-143">MRN (Bezeichner)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-143">MRN (Identifier)</span></span>
+ - <span data-ttu-id="c867c-136">Name. Familie</span><span class="sxs-lookup"><span data-stu-id="c867c-136">Name.Family</span></span>
+ - <span data-ttu-id="c867c-137">Name. given</span><span class="sxs-lookup"><span data-stu-id="c867c-137">Name.Given</span></span>
+ - <span data-ttu-id="c867c-138">Geschlecht</span><span class="sxs-lookup"><span data-stu-id="c867c-138">Gender</span></span>
+ - <span data-ttu-id="c867c-139">BirthDate</span><span class="sxs-lookup"><span data-stu-id="c867c-139">BirthDate</span></span>
+ - <span data-ttu-id="c867c-140">MRN (Bezeichner)</span><span class="sxs-lookup"><span data-stu-id="c867c-140">MRN (Identifier)</span></span>
 
-<span data-ttu-id="2f0c0-144">Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-144">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
+<span data-ttu-id="c867c-141">Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:</span><span class="sxs-lookup"><span data-stu-id="c867c-141">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
 
- - <span data-ttu-id="2f0c0-145">Name. use</span><span class="sxs-lookup"><span data-stu-id="2f0c0-145">Name.Use</span></span>
- - <span data-ttu-id="2f0c0-146">Name. Prefix</span><span class="sxs-lookup"><span data-stu-id="2f0c0-146">Name.Prefix</span></span>
- - <span data-ttu-id="2f0c0-147">CareProvider (dieser Verweis auf die Patienten Ressource sollte die Anzeigefelder umfassen, die im folgenden Beispiel gezeigt werden.)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-147">CareProvider (This reference on the Patient resource should include the display fields shown in the following example.)</span></span>
+ - <span data-ttu-id="c867c-142">Name. use</span><span class="sxs-lookup"><span data-stu-id="c867c-142">Name.Use</span></span>
+ - <span data-ttu-id="c867c-143">Name. Prefix</span><span class="sxs-lookup"><span data-stu-id="c867c-143">Name.Prefix</span></span>
+ - <span data-ttu-id="c867c-144">CareProvider (dieser Verweis auf die Patienten Ressource sollte die Anzeigefelder umfassen, die im folgenden Beispiel gezeigt werden.)</span><span class="sxs-lookup"><span data-stu-id="c867c-144">CareProvider (This reference on the Patient resource should include the display fields shown in the following example.)</span></span>
 
     ```
     Request:
@@ -124,24 +119,24 @@ ms.locfileid: "48766978"
     }
     ```
 
-<span data-ttu-id="2f0c0-148">Bei einer Ressourcensuche wird die Post-Methode unter/Patient/_search und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-148">A resource search uses the POST method at /Patient/_search and the following parameters:</span></span>
+<span data-ttu-id="c867c-145">Bei einer Ressourcensuche wird die Post-Methode unter/Patient/_search und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="c867c-145">A resource search uses the POST method at /Patient/_search and the following parameters:</span></span>
 
- - <span data-ttu-id="2f0c0-149">ID</span><span class="sxs-lookup"><span data-stu-id="2f0c0-149">id</span></span>
- - <span data-ttu-id="2f0c0-150">Familie: Contains = (sucht nach allen Patienten, deren Familienname den Wert enthält.)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-150">family:contains=(searches for all patients whose family name contains the value.)</span></span>
- - <span data-ttu-id="2f0c0-151">given =\<substring></span><span class="sxs-lookup"><span data-stu-id="2f0c0-151">given=\<substring></span></span>
- - <span data-ttu-id="2f0c0-152">Name =\<substring></span><span class="sxs-lookup"><span data-stu-id="2f0c0-152">name=\<substring></span></span>
- - <span data-ttu-id="2f0c0-153">Geburtsdatum = (exakte Übereinstimmung)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-153">birthdate=(exact match)</span></span>
- - <span data-ttu-id="2f0c0-154">\_Anzahl (maximale Anzahl der Ergebnisse, die zurückgegeben werden sollen)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-154">\_count (maximum number of results that should be returned)</span></span> <br> <span data-ttu-id="2f0c0-155">Die Antwort sollte die Gesamtanzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben wurden, und die Anzahl \_ wird vom PatientsApp verwendet, um die Anzahl der zurückgegebenen Datensätze zu begrenzen.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-155">The response should contain the total count of records returned as a result of the search, and \_count will be used by the PatientsApp to limit the number of records returned.</span></span>
- - <span data-ttu-id="2f0c0-156">Identifier =\<mrn></span><span class="sxs-lookup"><span data-stu-id="2f0c0-156">identifier=\<mrn></span></span>
+ - <span data-ttu-id="c867c-146">ID</span><span class="sxs-lookup"><span data-stu-id="c867c-146">id</span></span>
+ - <span data-ttu-id="c867c-147">Familie: Contains = (sucht nach allen Patienten, deren Familienname den Wert enthält.)</span><span class="sxs-lookup"><span data-stu-id="c867c-147">family:contains=(searches for all patients whose family name contains the value.)</span></span>
+ - <span data-ttu-id="c867c-148">given =\<substring></span><span class="sxs-lookup"><span data-stu-id="c867c-148">given=\<substring></span></span>
+ - <span data-ttu-id="c867c-149">Name =\<substring></span><span class="sxs-lookup"><span data-stu-id="c867c-149">name=\<substring></span></span>
+ - <span data-ttu-id="c867c-150">Geburtsdatum = (exakte Übereinstimmung)</span><span class="sxs-lookup"><span data-stu-id="c867c-150">birthdate=(exact match)</span></span>
+ - <span data-ttu-id="c867c-151">\_Anzahl (maximale Anzahl der Ergebnisse, die zurückgegeben werden sollen)</span><span class="sxs-lookup"><span data-stu-id="c867c-151">\_count (maximum number of results that should be returned)</span></span> <br> <span data-ttu-id="c867c-152">Die Antwort sollte die Gesamtanzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben wurden, und die Anzahl \_ wird vom PatientsApp verwendet, um die Anzahl der zurückgegebenen Datensätze zu begrenzen.</span><span class="sxs-lookup"><span data-stu-id="c867c-152">The response should contain the total count of records returned as a result of the search, and \_count will be used by the PatientsApp to limit the number of records returned.</span></span>
+ - <span data-ttu-id="c867c-153">Identifier =\<mrn></span><span class="sxs-lookup"><span data-stu-id="c867c-153">identifier=\<mrn></span></span>
 
-<span data-ttu-id="2f0c0-157">Das Ziel besteht darin, nach einem Patienten durchsuchen und Filtern zu können:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-157">The goal is to be able to search and filter for a patient by the following:</span></span>
+<span data-ttu-id="c867c-154">Das Ziel besteht darin, nach einem Patienten durchsuchen und Filtern zu können:</span><span class="sxs-lookup"><span data-stu-id="c867c-154">The goal is to be able to search and filter for a patient by the following:</span></span>
 
-- <span data-ttu-id="2f0c0-158">ID: Dies ist die Ressourcen-ID, die jede Ressource in FHIR hat.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-158">ID: This is the resource ID that every resource in FHIR has.</span></span>
-- <span data-ttu-id="2f0c0-159">MRN: Dies ist der tatsächliche Bezeichner für den Patienten, den das klinische Personal kennen würde.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-159">MRN: This is the actual identifier for the patient that clinical staff would know.</span></span> <span data-ttu-id="2f0c0-160">Wir verstehen, dass diese MRN auf dem Typ des Bezeichners in der Bezeichner Ressource in FHIR basiert.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-160">We understand this MRN is based on the type of identifier inside the identifier resource in FHIR</span></span>
-- <span data-ttu-id="2f0c0-161">Name</span><span class="sxs-lookup"><span data-stu-id="2f0c0-161">Name</span></span>
-- <span data-ttu-id="2f0c0-162">BirthDate</span><span class="sxs-lookup"><span data-stu-id="2f0c0-162">Birthdate</span></span>
+- <span data-ttu-id="c867c-155">ID: Dies ist die Ressourcen-ID, die jede Ressource in FHIR hat.</span><span class="sxs-lookup"><span data-stu-id="c867c-155">ID: This is the resource ID that every resource in FHIR has.</span></span>
+- <span data-ttu-id="c867c-156">MRN: Dies ist der tatsächliche Bezeichner für den Patienten, den das klinische Personal kennen würde.</span><span class="sxs-lookup"><span data-stu-id="c867c-156">MRN: This is the actual identifier for the patient that clinical staff would know.</span></span> <span data-ttu-id="c867c-157">Wir verstehen, dass diese MRN auf dem Typ des Bezeichners in der Bezeichner Ressource in FHIR basiert.</span><span class="sxs-lookup"><span data-stu-id="c867c-157">We understand this MRN is based on the type of identifier inside the identifier resource in FHIR</span></span>
+- <span data-ttu-id="c867c-158">Name</span><span class="sxs-lookup"><span data-stu-id="c867c-158">Name</span></span>
+- <span data-ttu-id="c867c-159">BirthDate</span><span class="sxs-lookup"><span data-stu-id="c867c-159">Birthdate</span></span>
 
-<span data-ttu-id="2f0c0-163">Sehen Sie sich das folgende Beispiel für diesen Aufruf an.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-163">See the following example  of this call.</span></span>
+<span data-ttu-id="c867c-160">Sehen Sie sich das folgende Beispiel für diesen Aufruf an.</span><span class="sxs-lookup"><span data-stu-id="c867c-160">See the following example  of this call.</span></span>
 
 ```
 Request:
@@ -179,29 +174,29 @@ Response:
 }
 ```
 
-<span data-ttu-id="2f0c0-164">Weitere [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-164">See [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-161">Weitere [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-161">See [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) for other details on this field set.</span></span>
 
-## <a name="observation"></a><span data-ttu-id="2f0c0-165">Beobachtung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-165">Observation</span></span>
+## <a name="observation"></a><span data-ttu-id="c867c-162">Beobachtung</span><span class="sxs-lookup"><span data-stu-id="c867c-162">Observation</span></span>
 
-<span data-ttu-id="2f0c0-166">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut Vital Signs-Profils sind:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-166">These are the minimum required fields, which are a subset of the Argonaut vital signs profile:</span></span>
+<span data-ttu-id="c867c-163">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut Vital Signs-Profils sind:</span><span class="sxs-lookup"><span data-stu-id="c867c-163">These are the minimum required fields, which are a subset of the Argonaut vital signs profile:</span></span>
 
- - <span data-ttu-id="2f0c0-167">Effektiv (Datum oder Zeitraum)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-167">Effective (date time or period)</span></span>
- - <span data-ttu-id="2f0c0-168">Code. Coding. Code</span><span class="sxs-lookup"><span data-stu-id="2f0c0-168">Code.Coding.Code</span></span>
- - <span data-ttu-id="2f0c0-169">ValueQuantity. Value</span><span class="sxs-lookup"><span data-stu-id="2f0c0-169">ValueQuantity.Value</span></span>
+ - <span data-ttu-id="c867c-164">Effektiv (Datum oder Zeitraum)</span><span class="sxs-lookup"><span data-stu-id="c867c-164">Effective (date time or period)</span></span>
+ - <span data-ttu-id="c867c-165">Code. Coding. Code</span><span class="sxs-lookup"><span data-stu-id="c867c-165">Code.Coding.Code</span></span>
+ - <span data-ttu-id="c867c-166">ValueQuantity. Value</span><span class="sxs-lookup"><span data-stu-id="c867c-166">ValueQuantity.Value</span></span>
 
-<span data-ttu-id="2f0c0-170">Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-170">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
+<span data-ttu-id="c867c-167">Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:</span><span class="sxs-lookup"><span data-stu-id="c867c-167">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
 
- - <span data-ttu-id="2f0c0-171">Code. Coding. Display</span><span class="sxs-lookup"><span data-stu-id="2f0c0-171">Code.Coding.Display</span></span>
- - <span data-ttu-id="2f0c0-172">ValueQuantity. Unit</span><span class="sxs-lookup"><span data-stu-id="2f0c0-172">ValueQuantity.Unit</span></span>
+ - <span data-ttu-id="c867c-168">Code. Coding. Display</span><span class="sxs-lookup"><span data-stu-id="c867c-168">Code.Coding.Display</span></span>
+ - <span data-ttu-id="c867c-169">ValueQuantity. Unit</span><span class="sxs-lookup"><span data-stu-id="c867c-169">ValueQuantity.Unit</span></span>
 
-<span data-ttu-id="2f0c0-173">Wenn Sie Komponenten Beobachtungen verwenden, gilt dieselbe Logik für jede Komponentenüberwachung.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-173">If using component observations, the same logic applies for each component observation.</span></span>
+<span data-ttu-id="c867c-170">Wenn Sie Komponenten Beobachtungen verwenden, gilt dieselbe Logik für jede Komponentenüberwachung.</span><span class="sxs-lookup"><span data-stu-id="c867c-170">If using component observations, the same logic applies for each component observation.</span></span>
 
-<span data-ttu-id="2f0c0-174">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-174">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c867c-171">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="c867c-171">A resource search uses the GET method and the following parameters:</span></span>
 
- - <span data-ttu-id="2f0c0-175">Patient =\<patient id\></span><span class="sxs-lookup"><span data-stu-id="2f0c0-175">patient=\<patient id\></span></span>
- - <span data-ttu-id="2f0c0-176">Sort: DESC =\<field ex. date\></span><span class="sxs-lookup"><span data-stu-id="2f0c0-176">sort:desc=\<field ex. date\></span></span>
+ - <span data-ttu-id="c867c-172">Patient =\<patient id\></span><span class="sxs-lookup"><span data-stu-id="c867c-172">patient=\<patient id\></span></span>
+ - <span data-ttu-id="c867c-173">Sort: DESC =\<field ex. date\></span><span class="sxs-lookup"><span data-stu-id="c867c-173">sort:desc=\<field ex. date\></span></span>
 
-<span data-ttu-id="2f0c0-177">Das Ziel besteht darin, die neuesten vitalen Zeichen für einen Patienten abzurufen [VitalSigns. ДСТУ. SAZ] (Observation?).</span><span class="sxs-lookup"><span data-stu-id="2f0c0-177">The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).</span></span>
+<span data-ttu-id="c867c-174">Das Ziel besteht darin, die neuesten vitalen Zeichen für einen Patienten abzurufen [VitalSigns. ДСТУ. SAZ] (Observation?).</span><span class="sxs-lookup"><span data-stu-id="c867c-174">The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).</span></span>
 
 ```
 Request:
@@ -246,25 +241,25 @@ Response:
 }
 ```
 
-<span data-ttu-id="2f0c0-178">Weitere [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-178">See [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-175">Weitere [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-175">See [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) for other details on this field set.</span></span>
 
-## <a name="condition"></a><span data-ttu-id="2f0c0-179">Bedingung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-179">Condition</span></span>
+## <a name="condition"></a><span data-ttu-id="c867c-176">Bedingung</span><span class="sxs-lookup"><span data-stu-id="c867c-176">Condition</span></span>
 
-<span data-ttu-id="2f0c0-180">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des [Argonaut-Bedingungs Profils](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)sind:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-180">These are the minimum required fields, which are a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):</span></span>
+<span data-ttu-id="c867c-177">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des [Argonaut-Bedingungs Profils](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)sind:</span><span class="sxs-lookup"><span data-stu-id="c867c-177">These are the minimum required fields, which are a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):</span></span>
 
-1. <span data-ttu-id="2f0c0-181">Code. Coding [0]. Anzeigen</span><span class="sxs-lookup"><span data-stu-id="2f0c0-181">Code.Coding[0].Display</span></span>
+1. <span data-ttu-id="c867c-178">Code. Coding [0]. Anzeigen</span><span class="sxs-lookup"><span data-stu-id="c867c-178">Code.Coding[0].Display</span></span>
 
-<span data-ttu-id="2f0c0-182">Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-182">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
+<span data-ttu-id="c867c-179">Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:</span><span class="sxs-lookup"><span data-stu-id="c867c-179">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
 
- - <span data-ttu-id="2f0c0-183">Aufnahmedatum</span><span class="sxs-lookup"><span data-stu-id="2f0c0-183">Date Recorded</span></span>
- - <span data-ttu-id="2f0c0-184">Schweregrad</span><span class="sxs-lookup"><span data-stu-id="2f0c0-184">Severity</span></span>
+ - <span data-ttu-id="c867c-180">Aufnahmedatum</span><span class="sxs-lookup"><span data-stu-id="c867c-180">Date Recorded</span></span>
+ - <span data-ttu-id="c867c-181">Schweregrad</span><span class="sxs-lookup"><span data-stu-id="c867c-181">Severity</span></span>
 
-<span data-ttu-id="2f0c0-185">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-185">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c867c-182">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="c867c-182">A resource search uses the GET method and the following parameters:</span></span>
 
- - <span data-ttu-id="2f0c0-186">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="2f0c0-186">patient=\<patient id></span></span>
- - <span data-ttu-id="2f0c0-187">_Count =\<max results></span><span class="sxs-lookup"><span data-stu-id="2f0c0-187">_count=\<max results></span></span>
+ - <span data-ttu-id="c867c-183">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="c867c-183">patient=\<patient id></span></span>
+ - <span data-ttu-id="c867c-184">_Count =\<max results></span><span class="sxs-lookup"><span data-stu-id="c867c-184">_count=\<max results></span></span>
 
-<span data-ttu-id="2f0c0-188">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-188">See the following example of this call:</span></span>
+<span data-ttu-id="c867c-185">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="c867c-185">See the following example of this call:</span></span>
 
 ```
 Request:
@@ -306,27 +301,27 @@ Response:
 }
 ```
 
-<span data-ttu-id="2f0c0-189">Weitere [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-189">See [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-186">Weitere [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-186">See [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) for other details on this field set.</span></span>
 
-## <a name="encounter"></a><span data-ttu-id="2f0c0-190">Auftreten</span><span class="sxs-lookup"><span data-stu-id="2f0c0-190">Encounter</span></span>
+## <a name="encounter"></a><span data-ttu-id="c867c-187">Auftreten</span><span class="sxs-lookup"><span data-stu-id="c867c-187">Encounter</span></span>
 
-<span data-ttu-id="2f0c0-191">Hierbei handelt es sich um die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge der Felder für das US-Core-Encounter-Profil "muss" handelt:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-191">These are the minimum required fields, which are a subset of the US Core Encounter profile "must have" fields:</span></span>
+<span data-ttu-id="c867c-188">Hierbei handelt es sich um die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge der Felder für das US-Core-Encounter-Profil "muss" handelt:</span><span class="sxs-lookup"><span data-stu-id="c867c-188">These are the minimum required fields, which are a subset of the US Core Encounter profile "must have" fields:</span></span>
 
- - <span data-ttu-id="2f0c0-192">Status</span><span class="sxs-lookup"><span data-stu-id="2f0c0-192">Status</span></span>
- - <span data-ttu-id="2f0c0-193">Geben Sie [0] ein. Codierung [0]. Anzeigen</span><span class="sxs-lookup"><span data-stu-id="2f0c0-193">Type[0].Coding[0].Display</span></span>
+ - <span data-ttu-id="c867c-189">Status</span><span class="sxs-lookup"><span data-stu-id="c867c-189">Status</span></span>
+ - <span data-ttu-id="c867c-190">Geben Sie [0] ein. Codierung [0]. Anzeigen</span><span class="sxs-lookup"><span data-stu-id="c867c-190">Type[0].Coding[0].Display</span></span>
 
-<span data-ttu-id="2f0c0-194">Darüber hinaus sind die folgenden Felder aus den Feldern "muss unterstützen" des US Core Encounter-Profils</span><span class="sxs-lookup"><span data-stu-id="2f0c0-194">In addition, the following fields from US Core Encounter profile's "must support" fields</span></span>
+<span data-ttu-id="c867c-191">Darüber hinaus sind die folgenden Felder aus den Feldern "muss unterstützen" des US Core Encounter-Profils</span><span class="sxs-lookup"><span data-stu-id="c867c-191">In addition, the following fields from US Core Encounter profile's "must support" fields</span></span>
 
- - <span data-ttu-id="2f0c0-195">Periode. Start</span><span class="sxs-lookup"><span data-stu-id="2f0c0-195">Period.Start</span></span>
- - <span data-ttu-id="2f0c0-196">Ort [0]. Location. Display</span><span class="sxs-lookup"><span data-stu-id="2f0c0-196">Location[0].Location.Display</span></span>
+ - <span data-ttu-id="c867c-192">Periode. Start</span><span class="sxs-lookup"><span data-stu-id="c867c-192">Period.Start</span></span>
+ - <span data-ttu-id="c867c-193">Ort [0]. Location. Display</span><span class="sxs-lookup"><span data-stu-id="c867c-193">Location[0].Location.Display</span></span>
 
-<span data-ttu-id="2f0c0-197">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-197">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c867c-194">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="c867c-194">A resource search uses the GET method and the following parameters:</span></span>
 
- - <span data-ttu-id="2f0c0-198">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="2f0c0-198">patient=\<patient id></span></span>
- - <span data-ttu-id="2f0c0-199">_sort: DESC =\<field ex. date></span><span class="sxs-lookup"><span data-stu-id="2f0c0-199">_sort:desc=\<field ex. date></span></span>
- - <span data-ttu-id="2f0c0-200">_Count =\<max results></span><span class="sxs-lookup"><span data-stu-id="2f0c0-200">_count=\<max results></span></span>
+ - <span data-ttu-id="c867c-195">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="c867c-195">patient=\<patient id></span></span>
+ - <span data-ttu-id="c867c-196">_sort: DESC =\<field ex. date></span><span class="sxs-lookup"><span data-stu-id="c867c-196">_sort:desc=\<field ex. date></span></span>
+ - <span data-ttu-id="c867c-197">_Count =\<max results></span><span class="sxs-lookup"><span data-stu-id="c867c-197">_count=\<max results></span></span>
 
-<span data-ttu-id="2f0c0-201">Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu können.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-201">The goal is to be able to retrieve the patient's last known location.</span></span> <span data-ttu-id="2f0c0-202">Jede Begegnung verweist auf eine Standortressource.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-202">Each encounter references a location resource.</span></span> <span data-ttu-id="2f0c0-203">Der Bezug umfasst auch das Anzeigefeld des Standorts.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-203">The reference shall also include the location's display field.</span></span> <span data-ttu-id="2f0c0-204">Sehen Sie sich das folgende Beispiel für diesen Aufruf an.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-204">See the following example of this call.</span></span>
+<span data-ttu-id="c867c-198">Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu können.</span><span class="sxs-lookup"><span data-stu-id="c867c-198">The goal is to be able to retrieve the patient's last known location.</span></span> <span data-ttu-id="c867c-199">Jede Begegnung verweist auf eine Standortressource.</span><span class="sxs-lookup"><span data-stu-id="c867c-199">Each encounter references a location resource.</span></span> <span data-ttu-id="c867c-200">Der Bezug umfasst auch das Anzeigefeld des Standorts.</span><span class="sxs-lookup"><span data-stu-id="c867c-200">The reference shall also include the location's display field.</span></span> <span data-ttu-id="c867c-201">Sehen Sie sich das folgende Beispiel für diesen Aufruf an.</span><span class="sxs-lookup"><span data-stu-id="c867c-201">See the following example of this call.</span></span>
 
 ```
 Request:
@@ -362,29 +357,29 @@ Response:
 }
 ```
 
-<span data-ttu-id="2f0c0-205">Weitere [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-205">See [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-202">Weitere [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-202">See [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) for other details on this field set.</span></span>
 
-## <a name="allergyintolerance"></a><span data-ttu-id="2f0c0-206">AllergyIntolerance</span><span class="sxs-lookup"><span data-stu-id="2f0c0-206">AllergyIntolerance</span></span>
+## <a name="allergyintolerance"></a><span data-ttu-id="c867c-203">AllergyIntolerance</span><span class="sxs-lookup"><span data-stu-id="c867c-203">AllergyIntolerance</span></span>
 
-<span data-ttu-id="2f0c0-207">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut-AllergyIntolerance-Profils sind:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-207">These are the minimum required fields, which are a subset of the Argonaut AllergyIntolerance profile:</span></span>
+<span data-ttu-id="c867c-204">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut-AllergyIntolerance-Profils sind:</span><span class="sxs-lookup"><span data-stu-id="c867c-204">These are the minimum required fields, which are a subset of the Argonaut AllergyIntolerance profile:</span></span>
 
- - <span data-ttu-id="2f0c0-208">Code. Text</span><span class="sxs-lookup"><span data-stu-id="2f0c0-208">Code.Text</span></span>
- - <span data-ttu-id="2f0c0-209">Code. Coding [0]. Anzeigen</span><span class="sxs-lookup"><span data-stu-id="2f0c0-209">Code.Coding[0].Display</span></span>
- - <span data-ttu-id="2f0c0-210">Status</span><span class="sxs-lookup"><span data-stu-id="2f0c0-210">Status</span></span>
+ - <span data-ttu-id="c867c-205">Code. Text</span><span class="sxs-lookup"><span data-stu-id="c867c-205">Code.Text</span></span>
+ - <span data-ttu-id="c867c-206">Code. Coding [0]. Anzeigen</span><span class="sxs-lookup"><span data-stu-id="c867c-206">Code.Coding[0].Display</span></span>
+ - <span data-ttu-id="c867c-207">Status</span><span class="sxs-lookup"><span data-stu-id="c867c-207">Status</span></span>
 
-<span data-ttu-id="2f0c0-211">Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-211">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
+<span data-ttu-id="c867c-208">Zusätzlich zu den Argonaut-Feldern liest die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder:</span><span class="sxs-lookup"><span data-stu-id="c867c-208">In addition to the Argonaut fields, for a great user experience the Patients app also reads the following fields:</span></span>
 
- - <span data-ttu-id="2f0c0-212">RecordedDate</span><span class="sxs-lookup"><span data-stu-id="2f0c0-212">RecordedDate</span></span>
- - <span data-ttu-id="2f0c0-213">Hinweis. Text</span><span class="sxs-lookup"><span data-stu-id="2f0c0-213">Note.Text</span></span>
- - <span data-ttu-id="2f0c0-214">Reaktion [..]. Substanz. Text</span><span class="sxs-lookup"><span data-stu-id="2f0c0-214">Reaction[..].Substance.Text</span></span>
- - <span data-ttu-id="2f0c0-215">Reaktion [..]. Manifestation [..]. Text</span><span class="sxs-lookup"><span data-stu-id="2f0c0-215">Reaction[..].Manifestation[..].Text</span></span>
- - <span data-ttu-id="2f0c0-216">Text. div</span><span class="sxs-lookup"><span data-stu-id="2f0c0-216">Text.Div</span></span>
+ - <span data-ttu-id="c867c-209">RecordedDate</span><span class="sxs-lookup"><span data-stu-id="c867c-209">RecordedDate</span></span>
+ - <span data-ttu-id="c867c-210">Hinweis. Text</span><span class="sxs-lookup"><span data-stu-id="c867c-210">Note.Text</span></span>
+ - <span data-ttu-id="c867c-211">Reaktion [..]. Substanz. Text</span><span class="sxs-lookup"><span data-stu-id="c867c-211">Reaction[..].Substance.Text</span></span>
+ - <span data-ttu-id="c867c-212">Reaktion [..]. Manifestation [..]. Text</span><span class="sxs-lookup"><span data-stu-id="c867c-212">Reaction[..].Manifestation[..].Text</span></span>
+ - <span data-ttu-id="c867c-213">Text. div</span><span class="sxs-lookup"><span data-stu-id="c867c-213">Text.Div</span></span>
 
-<span data-ttu-id="2f0c0-217">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-217">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c867c-214">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="c867c-214">A resource search uses the GET method and the following parameters:</span></span>
 
- - <span data-ttu-id="2f0c0-218">Patient =  \<patient id></span><span class="sxs-lookup"><span data-stu-id="2f0c0-218">Patient =  \<patient id></span></span>
+ - <span data-ttu-id="c867c-215">Patient =  \<patient id></span><span class="sxs-lookup"><span data-stu-id="c867c-215">Patient =  \<patient id></span></span>
 
-<span data-ttu-id="2f0c0-219">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-219">See the following example of this call:</span></span>
+<span data-ttu-id="c867c-216">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="c867c-216">See the following example of this call:</span></span>
 
 ```
 Request:
@@ -424,29 +419,29 @@ Response:
 }
 ```
 
-<span data-ttu-id="2f0c0-220">Weitere [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-220">See [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-217">Weitere [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-217">See [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) for other details on this field set.</span></span>
 
-## <a name="medication-order"></a><span data-ttu-id="2f0c0-221">Medikations Bestellung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-221">Medication Order</span></span>
+## <a name="medication-order"></a><span data-ttu-id="c867c-218">Medikations Bestellung</span><span class="sxs-lookup"><span data-stu-id="c867c-218">Medication Order</span></span>
 
-<span data-ttu-id="2f0c0-222">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut-MedicationOrder-Profils sind:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-222">These are the minimum required fields, which are a subset of the Argonaut MedicationOrder profile:</span></span>
+<span data-ttu-id="c867c-219">Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des Argonaut-MedicationOrder-Profils sind:</span><span class="sxs-lookup"><span data-stu-id="c867c-219">These are the minimum required fields, which are a subset of the Argonaut MedicationOrder profile:</span></span>
 
- - <span data-ttu-id="2f0c0-223">DateWritten</span><span class="sxs-lookup"><span data-stu-id="2f0c0-223">DateWritten</span></span>
- - <span data-ttu-id="2f0c0-224">Verschreiber. Display</span><span class="sxs-lookup"><span data-stu-id="2f0c0-224">Prescriber.Display</span></span>
- - <span data-ttu-id="2f0c0-225">Medikation. Display (wenn Bezug)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-225">Medication.Display (if reference)</span></span>
- - <span data-ttu-id="2f0c0-226">Medikation. Text (wenn Konzept)</span><span class="sxs-lookup"><span data-stu-id="2f0c0-226">Medication.Text (if concept)</span></span>
+ - <span data-ttu-id="c867c-220">DateWritten</span><span class="sxs-lookup"><span data-stu-id="c867c-220">DateWritten</span></span>
+ - <span data-ttu-id="c867c-221">Verschreiber. Display</span><span class="sxs-lookup"><span data-stu-id="c867c-221">Prescriber.Display</span></span>
+ - <span data-ttu-id="c867c-222">Medikation. Display (wenn Bezug)</span><span class="sxs-lookup"><span data-stu-id="c867c-222">Medication.Display (if reference)</span></span>
+ - <span data-ttu-id="c867c-223">Medikation. Text (wenn Konzept)</span><span class="sxs-lookup"><span data-stu-id="c867c-223">Medication.Text (if concept)</span></span>
 
-<span data-ttu-id="2f0c0-227">Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-227">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
+<span data-ttu-id="c867c-224">Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:</span><span class="sxs-lookup"><span data-stu-id="c867c-224">In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:</span></span>
 
- - <span data-ttu-id="2f0c0-228">DateEnded</span><span class="sxs-lookup"><span data-stu-id="2f0c0-228">DateEnded</span></span>
- - <span data-ttu-id="2f0c0-229">DosageInstruction. Text</span><span class="sxs-lookup"><span data-stu-id="2f0c0-229">DosageInstruction.Text</span></span>
- - <span data-ttu-id="2f0c0-230">Text. div</span><span class="sxs-lookup"><span data-stu-id="2f0c0-230">Text.Div</span></span>
+ - <span data-ttu-id="c867c-225">DateEnded</span><span class="sxs-lookup"><span data-stu-id="c867c-225">DateEnded</span></span>
+ - <span data-ttu-id="c867c-226">DosageInstruction. Text</span><span class="sxs-lookup"><span data-stu-id="c867c-226">DosageInstruction.Text</span></span>
+ - <span data-ttu-id="c867c-227">Text. div</span><span class="sxs-lookup"><span data-stu-id="c867c-227">Text.Div</span></span>
 
-<span data-ttu-id="2f0c0-231">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-231">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c867c-228">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="c867c-228">A resource search uses the GET method and the following parameters:</span></span>
 
- - <span data-ttu-id="2f0c0-232">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="2f0c0-232">patient=\<patient id></span></span>
- - <span data-ttu-id="2f0c0-233">_Count =\<max results></span><span class="sxs-lookup"><span data-stu-id="2f0c0-233">_count=\<max results></span></span>
+ - <span data-ttu-id="c867c-229">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="c867c-229">patient=\<patient id></span></span>
+ - <span data-ttu-id="c867c-230">_Count =\<max results></span><span class="sxs-lookup"><span data-stu-id="c867c-230">_count=\<max results></span></span>
 
-<span data-ttu-id="2f0c0-234">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-234">See the following example of this call:</span></span>
+<span data-ttu-id="c867c-231">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="c867c-231">See the following example of this call:</span></span>
 
 ```
 Request:
@@ -481,19 +476,19 @@ Response:
 }
 ```
 
-<span data-ttu-id="2f0c0-235">Weitere [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-235">See [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-232">Weitere [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-232">See [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) for other details on this field set.</span></span>
 
-## <a name="coverage"></a><span data-ttu-id="2f0c0-236">Abdeckung</span><span class="sxs-lookup"><span data-stu-id="2f0c0-236">Coverage</span></span>
+## <a name="coverage"></a><span data-ttu-id="c867c-233">Abdeckung</span><span class="sxs-lookup"><span data-stu-id="c867c-233">Coverage</span></span>
 
-<span data-ttu-id="2f0c0-237">Hierbei handelt es sich um die mindestens erforderlichen Felder, die nicht in den USA-Core-oder Argonaut-Profilen enthalten sind:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-237">These are the minimum required fields, not covered by either US Core or Argonaut profiles:</span></span>
+<span data-ttu-id="c867c-234">Hierbei handelt es sich um die mindestens erforderlichen Felder, die nicht in den USA-Core-oder Argonaut-Profilen enthalten sind:</span><span class="sxs-lookup"><span data-stu-id="c867c-234">These are the minimum required fields, not covered by either US Core or Argonaut profiles:</span></span>
 
- - <span data-ttu-id="2f0c0-238">Zahlenden</span><span class="sxs-lookup"><span data-stu-id="2f0c0-238">Payor</span></span>
+ - <span data-ttu-id="c867c-235">Zahlenden</span><span class="sxs-lookup"><span data-stu-id="c867c-235">Payor</span></span>
 
-<span data-ttu-id="2f0c0-239">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-239">A resource search uses the GET method and the following parameters:</span></span>
+<span data-ttu-id="c867c-236">Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:</span><span class="sxs-lookup"><span data-stu-id="c867c-236">A resource search uses the GET method and the following parameters:</span></span>
 
- - <span data-ttu-id="2f0c0-240">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="2f0c0-240">patient=\<patient id></span></span>
+ - <span data-ttu-id="c867c-237">Patient =\<patient id></span><span class="sxs-lookup"><span data-stu-id="c867c-237">patient=\<patient id></span></span>
 
-<span data-ttu-id="2f0c0-241">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="2f0c0-241">See the following example of this call:</span></span>
+<span data-ttu-id="c867c-238">Sehen Sie sich das folgende Beispiel für diesen Aufruf an:</span><span class="sxs-lookup"><span data-stu-id="c867c-238">See the following example of this call:</span></span>
 
 ```
 Request:
@@ -517,10 +512,10 @@ Response:
 }
 ```
     
-<span data-ttu-id="2f0c0-242">Weitere [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-242">See [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-239">Weitere [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-239">See [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) for other details on this field set.</span></span>
 
-## <a name="location"></a><span data-ttu-id="2f0c0-243">Ort</span><span class="sxs-lookup"><span data-stu-id="2f0c0-243">Location</span></span>
+## <a name="location"></a><span data-ttu-id="c867c-240">Ort</span><span class="sxs-lookup"><span data-stu-id="c867c-240">Location</span></span>
 
-<span data-ttu-id="2f0c0-244">Diese Ressource wird nur als Referenz für die [Encounter](#encounter) -Ressource verwendet.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-244">This resource is only being used as a reference on the [Encounter](#encounter) resource.</span></span>
+<span data-ttu-id="c867c-241">Diese Ressource wird nur als Referenz für die [Encounter](#encounter) -Ressource verwendet.</span><span class="sxs-lookup"><span data-stu-id="c867c-241">This resource is only being used as a reference on the [Encounter](#encounter) resource.</span></span>
 
-<span data-ttu-id="2f0c0-245">Weitere [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2f0c0-245">See [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) for other details on this field set.</span></span>
+<span data-ttu-id="c867c-242">Weitere [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) Informationen zu diesem Feld Satz finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c867c-242">See [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) for other details on this field set.</span></span>
