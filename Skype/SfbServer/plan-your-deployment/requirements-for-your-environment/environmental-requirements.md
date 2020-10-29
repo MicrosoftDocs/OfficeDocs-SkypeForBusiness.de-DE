@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Vielzahl von Dingen, die Sie vor der Bereitstellung konfigurieren möchten, einschließlich Active Directory, DNS, certs und Filesharings.'
-ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 00b7828cfc06dd9d0ea1d7097580c9c25317e95a
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220875"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790287"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Umgebungsanforderungen für Skype for Business Server 2015
  
 **Zusammenfassung:** Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Vielzahl von Dingen, die Sie vor der Bereitstellung konfigurieren möchten, einschließlich Active Directory, DNS, certs und Filesharings.
   
-Was ist eine Umgebungs Anforderung für Skype for Business Server 2015? Nun, wir haben alles, was nicht direkt Server ist, in dieses Thema aufgenommen, sodass Sie nicht so viel klicken müssen. Wenn Sie nach Server Voraussetzungen suchen, können Sie die [Server Anforderungen für Skype for Business Server 2015](server-requirements.md) doc. die[Netzwerkplanung](../../plan-your-deployment/network-requirements/network-requirements.md) ist ebenfalls separat dokumentiert. Andernfalls ist dies das, was wir in diesem Artikel erhalten haben:
+Was ist eine Umgebungs Anforderung für Skype for Business Server 2015? Nun, wir haben alles, was nicht direkt Server ist, in dieses Thema aufgenommen, sodass Sie nicht so viel klicken müssen. Wenn Sie nach Server Voraussetzungen suchen, können Sie die [Server Anforderungen für Skype for Business Server 2015](server-requirements.md) doc. die [Netzwerkplanung](../../plan-your-deployment/network-requirements/network-requirements.md) ist ebenfalls separat dokumentiert. Andernfalls ist dies das, was wir in diesem Artikel erhalten haben:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -225,7 +225,7 @@ Dies sind einige der Dinge, für die Skype for Business Server 2015 Zertifikate 
     
 - MTLS-Verbindungen zwischen Servern
     
-- Partnerverbund-usin automatische DNS-Ermittlung
+- Partnerverbund mit automatischer DNS-Ermittlung von Partnern
     
 - Zugriff von Remotebenutzern auf Sofortnachrichten
     
@@ -282,11 +282,11 @@ Zertifikate für Standard Edition-Server:
   
 |**Zertifikat**|**Antragstellername/Allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
-|Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).  <br/> |SN = SE01. contoso. com; San = SE01. contoso. com  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |Auf Standard Edition-Servern Standard Edition-Server ist der FQDN des Servers identisch mit dem FQDN des Pools.  <br/> Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
+|Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).  <br/> |SN = SE01. contoso. com; San = SE01. contoso. com  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |Auf einem Standard Edition-Server entspricht der Server-FQDN dem Pool-FQDN.  <br/> Der Assistent erkennt alle SIP-Domänen, die Sie während des Setups angegeben haben, und fügt Sie automatisch als Alternative Antragstellernamen hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
 |Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner FQDN des Webs (entspricht dem FQDN des Servers)  <br/> UND  <br/> • Einfache URLs erfüllen  <br/> • Einfache URL für Einwahl  <br/> • Einfache admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = SE01. contoso. com; San = SE01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = SE01. contoso. com; San = SE01. contoso. com; San = \* . contoso.com  <br/> |Sie können den internen webfqdn im Topologie-Generator nicht außer Kraft setzen.  <br/> Wenn Sie über mehrere einfache URLs verfügen, müssen Sie alle als Sans einschließen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
 |Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer FQDN des Webs  <br/> UND  <br/> • Einfache URL für Einwahl  <br/> • Erfüllen einfacher URLs pro SIP-Domäne  <br/> ODER  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN = SE01. contoso. com; San = webcon01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN = SE01. contoso. com; San = webcon01. contoso. com; San = \* . contoso.com  <br/> |Wenn Sie über mehrere einfache URLs verfügen, müssen Sie Sie alle als Alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
    
-Zertifikate für Front-End-Server in einer Front-End-Pool:
+Zertifikate für Front-End-Server in einer Enterprise Edition-Front-End-Pool:
   
 |**Zertifikat**|**Antragstellername/Allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -312,11 +312,11 @@ Zertifikate für Survivable Branch Appliance:
   
 |**Zertifikat**|**Antragstellername/Allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
-|Standard  <br/> |FQDN der Appliance  <br/> |SIP. \< sipdomain " \> (Sie benötigen nur einen Eintrag pro SIP-Domäne)  <br/> |SN = sba01. contoso. net; San = SIP. contoso. com; San = SIP. fabrikam. com  <br/> |
+|Standard  <br/> |FQDN der Appliance  <br/> |SIP.\<sipdomain\> (Sie benötigen nur einen Eintrag pro SIP-Domäne)  <br/> |SN = sba01. contoso. net; San = SIP. contoso. com; San = SIP. fabrikam. com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Zertifikate für den Server für beständigen Chat
 
-Wenn Sie den Server für beständigen Chat installieren, benötigen Sie ein Zertifikat, das von derselben Zertifizierungsstelle ausgestellt wird wie die, die von Ihren Skype for Business Server 2015 internen Servern verwendet wird. Dies muss für jeden Server erfolgen, auf dem der beständige Chat Webdienste für Datei Upload/-Download ausgeführt wird. Es wird dringend empfohlen, dass Sie über die erforderlichen Zertifikate verfügen, bevor Sie mit der Installation des beständigen Chats beginnen, und wenn Ihre Zertifizierungsstelle extern ist, umso mehr (diese Dinge können ein wenig Zeit in Anspruch nehmen, um ausgegeben zu werden).
+Wenn Sie den Server für beständigen Chat installieren, benötigen Sie ein Zertifikat, das von derselben Zertifizierungsstelle ausgestellt wird wie die, die von Ihren Skype for Business Server 2015 internen Servern verwendet wird. Dies muss für jeden Server ausgeführt werden, auf dem beständiger Chat Webdienste für das Hochladen/Herunterladen von Dateien erfolgt. Es wird dringend empfohlen, dass Sie über die erforderlichen Zertifikate verfügen, bevor Sie mit der Installation des beständigen Chats beginnen, und wenn Ihre Zertifizierungsstelle extern ist, umso mehr (diese Dinge können ein wenig Zeit in Anspruch nehmen, um ausgegeben zu werden).
   
 ### <a name="certificates-for-external-user-access-edge"></a>Zertifikate für den Zugriff durch externe Benutzer (Edge)
 
@@ -346,16 +346,16 @@ Zertifikatanforderungen für Directorpool und Front-End-Pool:
   
 |**Beschreibung**|**San-Eintrag**|
 |:-----|:-----|
-|URL des internen AutoErmittlungsdiensts  <br/> |San = "lyncdiscoverinternal". \< sipdomain "\>  <br/> |
-|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover. \< sipdomain "\>  <br/> |
+|URL des internen AutoErmittlungsdiensts  <br/> |San = "lyncdiscoverinternal".\<sipdomain\>  <br/> |
+|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover.\<sipdomain\>  <br/> |
    
-Alternativ können Sie auch "San =" verwenden \* . \< sipdomain "\>
+Alternativ können Sie auch "San =" verwenden \* .\<sipdomain\>
   
 Zertifikatanforderungen für Reverse Proxys (öffentliche Zertifizierungsstellen):
   
 |**Beschreibung**|**San-Eintrag**|
 |:-----|:-----|
-|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover. \< sipdomain "\>  <br/> |
+|URL des externen AutoErmittlungsdiensts  <br/> |San = lyncdiscover.\<sipdomain\>  <br/> |
    
 Dieses San muss dem Zertifikat zugewiesen werden, das dem SSL-Listener auf dem Reverseproxy zugewiesen ist.
   

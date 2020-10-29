@@ -7,20 +7,24 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 audience: admin
 description: Hier erfahren Sie, wie Sie die Aufgaben-app für Benutzer in Ihrer Organisation verwalten.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06c42691874b8defa86e993727bc1fe38ee67b3
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331660"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790447"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Aufgaben-app für Ihre Organisation in Microsoft Teams
 
@@ -29,7 +33,7 @@ ms.locfileid: "47331660"
 Die Aufgaben-app bietet Microsoft Teams eine zusammenhängende Aufgabenverwaltung, in der einzelne von [Microsoft](https://todo.microsoft.com/tasks/) bereitgestellten Aufgaben und Team Aufgaben integriert werden, die von Planner an einem zentralen Ort unterstützt werden. Benutzer können auf Aufgaben als APP auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. **Meine Aufgaben** und **freigegebene Pläne** in Aufgaben ermöglichen es Benutzern, alle Ihre individuellen und Team Aufgaben anzuzeigen und zu verwalten und deren Arbeit zu priorisieren. Aufgaben steht in den Desktop-, Web-und mobilen Clients von Teams zur Verfügung. 
 
 > [!NOTE]
-> Wenn wir die Aufgaben in den Microsoft Teams-Desktop Clients ausführen, wird der App-Name zunächst als **Planner** für die Benutzer angezeigt. Der Name wechselt dann temporär in **Aufgaben nach Planner und zu erledigen**, und später wird er in **Aufgaben**umbenannt. Auf mobilen Teams werden die Benutzer immer den Namen der App als **Aufgaben**sehen. Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzeroberfläche geben, nachdem die Desktopumgebung verfügbar ist.
+> Wenn wir die Aufgaben in den Microsoft Teams-Desktop Clients ausführen, wird der App-Name zunächst als **Planner** für die Benutzer angezeigt. Der Name wechselt dann temporär in **Aufgaben nach Planner und zu erledigen** , und später wird er in **Aufgaben** umbenannt. Auf mobilen Teams werden die Benutzer immer den Namen der App als **Aufgaben** sehen. Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzeroberfläche geben, nachdem die Desktopumgebung verfügbar ist.
 
    ![Screenshot der Listenansicht von Aufgaben in der Liste "Teams"](media/manage-tasks-app-tasks.png)
 
@@ -56,11 +60,11 @@ Mit Aufgaben erhalten Benutzer eine Desktop-, Web-und mobil Funkfunktionalität.
 
 Aufgaben ist standardmäßig für alle Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten** .
 2. Führen Sie in der Liste der Apps einen der folgenden Schritte aus:
 
-    - Wenn Sie Aufgaben für Ihre Organisation deaktivieren möchten, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **blockieren**.
-    - Um Aufgaben für Ihre Organisation zu aktivieren, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **zulassen**.
+    - Wenn Sie Aufgaben für Ihre Organisation deaktivieren möchten, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **blockieren** .
+    - Um Aufgaben für Ihre Organisation zu aktivieren, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **zulassen** .
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Aufgaben für bestimmte Benutzer in Ihrer Organisation
 
@@ -74,7 +78,7 @@ Wenn Sie die Aufgaben-app für Ihre Benutzer anheften möchten, können Sie die 
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Die Aufgaben eines Benutzers sind sichtbar, wenn der Benutzer für Exchange Online lizenziert ist
 
-Wenn Sie nicht möchten, dass ein Benutzer **Meine Aufgaben**sehen kann, können Sie ihn ausblenden. Entfernen Sie dazu [die Exchange Online-Lizenz des Benutzers](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz nicht mehr auf sein Postfach zugreifen kann.  Postfachdaten werden 30 Tage lang aufbewahrt, nach denen die Daten entfernt werden und nicht wiederhergestellt werden können, es sei denn, das Postfach wird [in einem in-situ-Speicher oder in einem Streit](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)beizulegenden Haltebereich platziert.
+Wenn Sie nicht möchten, dass ein Benutzer **Meine Aufgaben** sehen kann, können Sie ihn ausblenden. Entfernen Sie dazu [die Exchange Online-Lizenz des Benutzers](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz nicht mehr auf sein Postfach zugreifen kann.  Postfachdaten werden 30 Tage lang aufbewahrt, nach denen die Daten entfernt werden und nicht wiederhergestellt werden können, es sei denn, das Postfach wird [in einem in-situ-Speicher oder in einem Streit](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)beizulegenden Haltebereich platziert.
 
 Wir empfehlen dies nicht für Information Worker, aber es gibt möglicherweise einige Szenarien, in denen dies zutreffen könnte, beispielsweise für Mitarbeiter von First-work, die nicht von e-Mails abhängig sind.
 

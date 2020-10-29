@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Erfahren Sie, wie ein Benutzer mit dem Status "Abwesend" oder "nicht stören" einen anderen Benutzer explizit als Stellvertretung in seiner Statusmeldung festlegen kann.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904737"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790467"
 ---
 # <a name="message-delegation"></a>Nachrichtendelegierung
 
@@ -45,7 +49,7 @@ Hierbei handelt es sich um einen vom Benutzer initiierten Prozess im Client, und
 
 Administratoren sollten beachten, dass Statushinweise und das Verhalten der Delegierungs Erwähnung teilweise vom Koexistenzmodus des Benutzers abhängig sind. Diese Matrix zeigt die folgenden Möglichkeiten:
 
-|Koexistenzmodus | Erwartetes Verhalten|
+|Co-Existence Modus | Erwartetes Verhalten|
 |---|---|
 |TeamsOnly |Benutzer können eine Notiz nur von Teams aus einrichten. <br> Die Notizen des Benutzers für Teams sind in Teams & SFB sichtbar. |
 |Inselmodus | Die Notiz des Benutzers wird in Teams, die nur in Teams sichtbar sind, festgesetzt. <br> Die Notizen des Benutzers, die in SFB festgesetzt sind, werden nur in SFB angezeigt |

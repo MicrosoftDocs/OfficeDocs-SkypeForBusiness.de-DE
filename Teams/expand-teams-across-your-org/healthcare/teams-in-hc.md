@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, virtueller Besuch, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772296"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790637"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -35,7 +39,14 @@ Microsoft Teams bietet eine Reihe von Funktionen, die für Krankenhäuser und an
 - Teams-Vorlagen
 - Pflege Koordination und Zusammenarbeit
 
-Bei dem Inhalt in diesem Abschnitt wird davon ausgegangen, dass Sie bereits Teams in Ihrer Organisation bereitgestellt haben. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst, [wie Sie Microsoft Teams Ausrollen](../../How-to-roll-out-teams.md).
+Diese Funktionalität ist Teil der Microsoft Cloud für Healthcare. Erfahren Sie mehr über die Verwendung dieser Lösung, die Funktionen aus Azure, Dynamics 365 und Microsoft 365 bei [Microsoft Cloud für Healthcare](https://docs.microsoft.com/industry/healthcare)zusammenführt.
+
+Schauen Sie sich das folgende Video an, um mehr über die Verwendung der Healthcare-Sammlung zu erfahren, um die Zusammenarbeit im Gesundheitsteam in Microsoft Teams zu erhöhen.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> Bei dem Inhalt in diesem Abschnitt wird davon ausgegangen, dass Sie bereits Teams in Ihrer Organisation bereitgestellt haben. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst, [wie Sie Microsoft Teams Ausrollen](../../How-to-roll-out-teams.md).
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Integration virtueller Besuche und elektronischer Gesundheitsakte (EPA)
 
@@ -65,7 +76,7 @@ Secure Messaging unterstützt die Zusammenarbeit innerhalb von Health Teams, ein
 
 Zusammen ermöglichen diese Features eine schnellere Berücksichtung dringender Nachrichten und die Gewissheit, dass die Nachricht empfangen und gelesen wurde. Neue Gesundheitsteams, die diese Features verwenden, können für jeden Patienten erstellt werden. Diese Features sind Richtlinien basiert und können Einzelpersonen oder gesamten Teams zugewiesen werden.
 
-Weitere Informationen finden Sie unter [Erste Schritte mit Richtlinien für sichere Nachrichten für Organisationen im Gesundheitswesen](messaging-policies-hc.md) .
+Weitere Informationen finden Sie unter [Erste Schritte mit sicheren Messaging Richtlinien für Organisationen im Gesundheitswesen](messaging-policies-hc.md).
 
 Im Zusammenhang mit Secure Messaging können auch andere Mandanten von Organisationen des Gesundheitswesens verbunden werden, was eine umfassendere Kommunikation zwischen Mandanten ermöglicht. (Siehe [Verwalten des externen Zugriffs (Föderation) in Microsoft Teams](../../manage-external-access.md)).
 

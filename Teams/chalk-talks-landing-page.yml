@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams Chalk Talks
-summary: Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
+summary: Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren.
 brand: teams
 metadata:
   title: Microsoft Teams Chalk Talks
-  description: Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Diese interaktiven Online-Workshops werden von Fachleuten unterstützt, die Ihnen helfen, Ihre Team Implementierung zu verbessern und zusätzliche Vorteile für Endbenutzer bereitzustellen. Klicken Sie unten auf einen Workshop-Titel, um verfügbare Daten und Uhrzeiten anzuzeigen, und melden Sie sich noch heute an! Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
+  description: Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Diese interaktiven Online-Workshops werden von Fachleuten unterstützt, die Ihnen helfen, Ihre Team Implementierung zu verbessern und zusätzliche Vorteile für Endbenutzer bereitzustellen. Klicken Sie unten auf einen Workshop-Titel, um verfügbare Daten und Uhrzeiten anzuzeigen, und melden Sie sich noch heute an!
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,18 +25,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
+  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583464"
+  ms.lasthandoff: 10/28/2020
+  ms.locfileid: "48790597"
 productDirectory:
+  summary: Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
   items:
-  - title: Abrufen von Teams – NULL zur Produktion
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: Demnächst! Starten Sie Ihre Teams-Implementierung für Zusammenarbeit, Chat und Besprechungen. Wir geben wichtige Konfigurationen, Überlegungen, bewährte Methoden und Ressourcen frei, damit Ihre Benutzer schnell in Betrieb gehen können.
-    url: http://aka.ms/ChalkTalkGTT
   - title: Also... Sie möchten mit Teams Anrufe tätigen?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
     summary: Sehen Sie sich an, wie Sie Ihrer Teams-Bereitstellung PSTN-Anruffunktionen hinzufügen können. Gemeinsam werden wir die Terminologie für Anrufe, Schlüsselkonzepte und Konfigurationen durchgehen.
@@ -45,18 +42,14 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: Möchten Sie sicherstellen, dass die Benutzer optimale Erfahrungen mit Besprechungen und Sprachfunktionen haben? Wir besprechen Tools, Berichte und bewährte Methoden, die Ihnen bei der Verwaltung der Dienstqualität helfen – vom Einrichten einer proaktiven Strategie zur Lösung häufig auftretender Probleme.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Mehr Möglichkeiten mit apps in Microsoft Teams
+  - title: Apps in Teams-Grundlagen
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
     summary: Diese grundlegende Sitzung umfasst grundlegende Funktionen wie App-Verwaltung und-Sicherheit. Erfahren Sie, wie Sie Ihre Workflows, Produktivitäts-apps und die Dienste, die Sie tagtäglich nutzen, in einer einheitlichen, einheitlichen Umgebung integrieren.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Automatisieren von IT-Workflows mit Teams
+  - title: Über Laden von Schlüssel Workflows mit apps in Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Demnächst! Automatisieren Sie Ihre IT-Prozesse mithilfe von in Teams verfügbaren apps. Wir behandeln häufige Szenarien wie Helpdesk und Wissensaustausch, damit Ihr Team Zeit spart und sich auf das Wesentliche konzentrieren kann.
-    url: https://aka.ms/ChalkTalkAutoIT
-  - title: Aktivieren von Teams für das Engagement von Mitarbeitern in erster Arbeit
-    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
-    summary: Sind Sie bereit, digitale Arbeitsbereiche für Ihre First-Workforce-Mitarbeiter zu aktivieren? Gemeinsam diskutieren wir bewährte Methoden für das Starten eines Pilotprojekts zur Verbesserung der Kommunikation, des Mitarbeiterengagements und der betrieblichen Produktivität.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+    summary: Verbinden Sie Ihre Systeme, verbessern Sie die Automatisierung, und verbessern Sie die Benutzererfahrung, indem Sie die apps, auf die Ihre Organisation angewiesen ist, in Teams bringen
+    url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:

@@ -23,22 +23,22 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: 8365761f25ff981cd13770f23a27f4ef8a589b25
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
+ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220176"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48793534"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschlange
 
-Anrufwarteschlangen bieten eine Methode zum Weiterleiten von Anrufern an Personen in Ihrer Organisation, die mit einem bestimmten Problem oder einer bestimmten Frage helfen können. Anrufe werden einzeln an die Personen in der Warteschlange verteilt (die als *Agents*bezeichnet werden). 
+Anrufwarteschlangen bieten eine Methode zum Weiterleiten von Anrufern an Personen in Ihrer Organisation, die mit einem bestimmten Problem oder einer bestimmten Frage helfen können. Anrufe werden einzeln an die Personen in der Warteschlange verteilt (die als *Agents* bezeichnet werden). 
 
 Anrufwarteschlangen bieten Folgendes:
 
 - Eine Grußnachricht.
 
-- Musik, während die wartenden Anrufer gehalten werden
+- Musik, während die Leute in einer Warteschleife warten.
 
 - Anrufweiterleitung-in *First Out* (FIFO)-Auftrags-zu-Agents
 
@@ -46,7 +46,7 @@ Anrufwarteschlangen bieten Folgendes:
 
 Stellen Sie sicher, dass Sie den [Plan für automatische Team-Telefonzentralen und-Warteschlangen](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den [Schritten unter erste](plan-auto-attendant-call-queue.md#getting-started) Schritte, bevor Sie die in diesem Artikel beschriebenen Schritte ausführen.
 
-Zum Einrichten einer Anrufwarteschlange erweitern Sie im Team Admin Center die **Sprache**, klicken Sie auf **Anrufwarteschlangen**, und klicken Sie dann auf **Hinzufügen**.
+Zum Einrichten einer Anrufwarteschlange erweitern Sie im Team Admin Center die **Sprache** , klicken Sie auf **Anrufwarteschlangen** , und klicken Sie dann auf **Hinzufügen** .
 
 ## <a name="resource-account-and-language"></a>Ressourcenkonto und-Sprache
 
@@ -54,18 +54,19 @@ Zum Einrichten einer Anrufwarteschlange erweitern Sie im Team Admin Center die *
 
 1. Geben Sie einen Namen für die Anrufwarteschlange ein. Agents sehen diesen Namen, wenn ein eingehender Anruf von der Warteschlange empfangen wird.
 
-2. Klicken Sie auf **Konten hinzufügen**, suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschlange verwenden möchten, klicken Sie auf **hinzu**fügen, und klicken Sie dann auf **Hinzufügen**.
+2. Klicken Sie auf **Konten hinzufügen** , suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschlange verwenden möchten, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen** .
 
 3. Wählen Sie eine Sprache aus. Diese Sprache wird für System generierte Sprachansagen und Voicemail-Transkription verwendet (wenn Sie Sie aktivieren).
 
-## <a name="greetings-and--hold-music"></a>Grüßen und halten von Musik
+## <a name="greetings-and-hold-music"></a>Grüßen und halten von Musik
 
 Geben Sie an, ob Sie einen Gruß an Anrufer wiedergeben möchten, wenn Sie in der Warteschlange ankommen. Sie müssen eine MP3-, WAV-oder WMA-Datei hochladen, die die Ansage enthält, die Sie wiedergeben möchten.
 
-Teams stellt Anrufern Standardmusik zur Verfügung, während Sie angehalten werden. Wenn Sie eine bestimmte Audiodatei wiedergeben möchten, wählen Sie **Audiodatei wiedergeben** aus, und laden Sie eine MP3-, WAV-oder WMA-Datei hoch.
+Teams stellt Anrufern Standardmusik zur Verfügung, während Sie in einer Warteschlange gehalten werden. Wenn Sie eine bestimmte Audiodatei wiedergeben möchten, wählen Sie **Audiodatei wiedergeben** aus, und laden Sie eine MP3-, WAV-oder WMA-Datei hoch.
 
 > [!NOTE]
 > Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
+> Die Standardmusik, die in Teams-Anrufwarteschlangen bereitgestellt wird, ist von den von Ihrer Organisation zu zahlenden Gebühren befreit. 
 
 ## <a name="call-agents"></a>Anruf-Agents
 
@@ -80,9 +81,9 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
 
 Sie können bis zu 20 Agents einzeln und bis zu 200-Agents über Gruppen hinzufügen.
 
-Wenn Sie der Warteschlange einen Benutzer hinzufügen möchten, klicken Sie auf **Benutzer hinzufügen**, suchen Sie nach dem Benutzer, klicken Sie auf **hinzu**fügen, und klicken Sie dann auf **Hinzufügen**.
+Wenn Sie der Warteschlange einen Benutzer hinzufügen möchten, klicken Sie auf **Benutzer hinzufügen** , suchen Sie nach dem Benutzer, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen** .
 
-Wenn Sie der Warteschlange eine Gruppe hinzufügen möchten, klicken Sie auf **Gruppen hinzufügen**, suchen Sie nach der Gruppe, klicken Sie auf **hinzu**fügen, und klicken Sie dann auf **Hinzufügen**. Sie können Verteilerlisten, Sicherheitsgruppen und Microsoft 365-Gruppen oder Microsoft Teams-Teams verwenden.
+Wenn Sie der Warteschlange eine Gruppe hinzufügen möchten, klicken Sie auf **Gruppen hinzufügen** , suchen Sie nach der Gruppe, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen** . Sie können Verteilerlisten, Sicherheitsgruppen und Microsoft 365-Gruppen oder Microsoft Teams-Teams verwenden.
 
 > [!NOTE]
 > Neue Benutzer, die zu einer Gruppe hinzugefügt wurden, können bis zu acht Stunden dauern, bis Ihr erster Anruf eingeht.
@@ -114,7 +115,7 @@ Die **Routing Methode** bestimmt die Reihenfolge, in der die Agents Anrufe aus d
 ![](media/call-queue-presence-agents-time.png)
 
 
-Bei **Anwesenheits basiertem Routing** wird der Verfügbarkeitsstatus von Anruf-Agents verwendet, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar**ändert. 
+Bei **Anwesenheits basiertem Routing** wird der Verfügbarkeitsstatus von Anruf-Agents verwendet, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar** ändert. 
 
 Sie können das anwesenheitsbasierte Anrufrouting mit einer der Routingmethoden aktivieren.
 
@@ -151,7 +152,7 @@ Sie können wählen, ob Sie den Anruf trennen oder ihn an eines der Anruf Weiter
 
 Sie können wählen, ob Sie den Anruf trennen oder ihn an eines der Anruf Weiterleitungs Ziele weiterleiten möchten. So können Sie beispielsweise den Anrufer für die Agents in der Warteschlange eine Sprachnachricht hinterlassen.
 
-Wenn Sie die Optionen für das Anruf Timeout ausgewählt haben, klicken Sie auf **Speichern**.
+Wenn Sie die Optionen für das Anruf Timeout ausgewählt haben, klicken Sie auf **Speichern** .
 
 ## <a name="caller-id-for-outbound-calls"></a>Rufnummernanzeige für ausgehende Anrufe
 
@@ -194,7 +195,7 @@ Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen 
 
 [Abrufen von Diensttelefonnummern](getting-service-phone-numbers.md)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
