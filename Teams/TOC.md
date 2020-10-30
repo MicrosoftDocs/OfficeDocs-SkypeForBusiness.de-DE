@@ -867,6 +867,9 @@
 ### [Remoteaktualisierung Ihrer Geräte](devices/remote-update.md)
 ### [Verwalten von Teams-Gerätetags](devices/manage-device-tags.md)
 ### [Telefone für Teams](devices/phones-for-teams.md)
+### [Teams-Anzeigen](devices/teams-displays.md)
+### [Teams-Telefone auf Teams-Anzeigen upgraden](devices/upgrade-phones-to-displays.md)
+### [Bereitstellen von Teams-Telefone und Teams-Anzeigen mit Intune](devices/phones-displays-deploy.md)
 ### [USB-Audio- und -Videogeräte](devices/usb-devices.md)
 ### [Bereitstellen von Zusammenarbeitsleisten für Microsoft Teams](devices/collab-bar-deploy.md)
 ### [Besprechungsraumgeräte und Lösungen](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
