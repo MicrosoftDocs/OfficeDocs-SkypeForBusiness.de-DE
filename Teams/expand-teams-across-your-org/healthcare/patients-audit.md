@@ -16,17 +16,19 @@ ms.collection:
 ms.reviewer: anach
 description: Informationen zum Überwachen der Patienten-App für Teams-Administratoren
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 042d3308e70f2b6275360dfd0137bdc9ed94b7c8
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: ce1851b6d424203f6a4aed8a871209e3a65ce5f8
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772276"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803513"
 ---
 # <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die Patienten-App
 
 > [!NOTE]
-> Die Patienten-App wurde im 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt. Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen. Schauen Sie sich die Vorlage Patienten in Listen an, um zu beginnen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
+> Die Patienten-App wurde im 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt. Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Alle Daten, die mit der Patienten-App verknüpft sind, werden in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
+>
+>Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen. Schauen Sie sich die Vorlage Patienten in Listen an, um zu beginnen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
 Ein Überwachungsprotokoll für die APP-Aktivität der Patienten ermöglicht es after-Incident-Reaktions Teams, Änderungen an den elektronischen medizinischen Datensätzen (EMR) eines Patienten oder an Patienten Gesundheitsinformationen (Phi) zu überprüfen und festzustellen, ob Änderungen oder Verbesserungen der Richtlinien oder Verfahren für den Phi-Zugriff in Produktivitätstools erforderlich sind. Die Überwachungsprotokollereignisse decken Aktionen ab, die über die Benutzeroberfläche der Patienten-app ausgeführt werden.
 

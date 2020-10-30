@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424615"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800598"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Verwenden von Teams-Fertigungs Vorlagen im Admin Center
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 

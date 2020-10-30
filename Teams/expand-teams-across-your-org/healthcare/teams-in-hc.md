@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, virtueller Besuch, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790637"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803533"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -107,7 +107,7 @@ Darüber hinaus kann Ihr Team apps in Teams für folgende Zwecke verwenden:
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>Freigeben von Listen und nachvollziehen von Informationen mit der App "Listen"
 
 > [!NOTE]
-> Die Patienten-APP wird in den 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt. Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen.
+> Die Patienten-App wurde im 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt. Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen.
 
 Mithilfe der Listen-app in Teams können Teams Informationen nachvollziehen und die Arbeit organisieren. Die APP ist für alle Teams-Benutzer vorinstalliert und steht in allen Teams und Kanälen als Registerkarte zur Verfügung. Listen können von Grund auf neu erstellt werden, aus vordefinierten Vorlagen oder durch Importieren von Daten nach Excel.
 

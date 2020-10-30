@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 513b83fdab26d73b42bed692b5ea887629fc1851
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655512"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800628"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>Verwenden von Teams Government-Vorlagen im Admin Center
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 

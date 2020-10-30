@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48337594"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803799"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -34,7 +34,7 @@ Mit automatischen Telefonzentralen können Personen Ihre Organisation anrufen un
 
 Stellen Sie sicher, dass Sie den [Plan für automatische Team-Telefonzentralen und-Warteschlangen](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den [Schritten unter erste](plan-auto-attendant-call-queue.md#getting-started) Schritte, bevor Sie die in diesem Artikel beschriebenen Schritte ausführen.
 
-Automatische Telefonzentralen können Anrufe, basierend auf der Eingabe von Anrufern, an eines der folgenden Ziele weiterleiten:
+Automatische Telefonzentralen können Anrufe, basierend auf der Eingabe von Anrufern, an eines der folgenden Ziele weiterleiten: <a name="call-routing-options" ></a>
 
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Hierbei kann es sich um einen Online Benutzer oder einen lokal gehosteten Benutzer mit Skype for Business Server handeln.
 - **Sprach-App** – eine andere automatische Telefonzentrale oder eine Anrufwarteschlange. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefonzentrale oder der Anrufwarteschlange zugeordnet ist, wenn Sie dieses Ziel auswählen.)
@@ -44,7 +44,7 @@ Automatische Telefonzentralen können Anrufe, basierend auf der Eingabe von Anru
 
 Sie werden aufgefordert, eine dieser Optionen in verschiedenen Phasen zu wählen, während Sie eine automatische Telefonzentrale einrichten.
 
-Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin Center die **Sprache**, klicken Sie auf **automatische Telefonzentralen**, und klicken Sie dann auf **Hinzufügen**.
+Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin Center die **Sprache** , klicken Sie auf **automatische Telefonzentralen** , und klicken Sie dann auf **Hinzufügen** .
 
 ## <a name="general-info"></a>Allgemeine Informationen
 
@@ -60,7 +60,7 @@ Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin C
 
 5. Wählen Sie aus, ob die Spracheingabe aktiviert werden soll. Wenn diese Option aktiviert ist, wird der Name jeder Menüoption zu einem Schlüsselwort für die Spracherkennung. Anrufer können beispielsweise "eins" sagen, um die Menüoption auszuwählen, die Key 1 zugeordnet ist, oder Sie können "Sales" sagen, um die Menüoption "Sales" zu wählen.
 
-6. Klicken Sie auf **Weiter**.
+6. Klicken Sie auf **Weiter** .
 
 ## <a name="call-flow"></a>Anruffluss
 
@@ -76,11 +76,11 @@ Wenn Sie **eine Begrüßungsnachricht eingeben** auswählen, liest das System de
 
 Wählen Sie aus, wie Sie den Anruf weiterleiten möchten.
 
-Wenn Sie **trennen**auswählen, wird der Anruf von der automatischen Telefonzentrale aufgegeben.
+Wenn Sie **trennen** auswählen, wird der Anruf von der automatischen Telefonzentrale aufgegeben.
 
-Wenn Sie **Anruf umleiten**wählen, können Sie eines der Anruf Weiterleitungs Ziele auswählen.
+Wenn Sie **Anruf umleiten** wählen, können Sie eines der Anruf Weiterleitungs Ziele auswählen.
 
-Wenn Sie **Menü Optionen wiedergeben**auswählen, können Sie eine **Audiodatei abspielen** oder **eine Begrüßungsnachricht eingeben** und dann zwischen den Menü Optionen und der Verzeichnissuche wählen.
+Wenn Sie **Menü Optionen wiedergeben** auswählen, können Sie eine **Audiodatei abspielen** oder **eine Begrüßungsnachricht eingeben** und dann zwischen den Menü Optionen und der Verzeichnissuche wählen.
 
 ### <a name="menu-options"></a>Menü Optionen
 
@@ -102,13 +102,13 @@ Geben Sie für jede Menüoption Folgendes an:
 
 ### <a name="directory-search"></a>Verzeichnissuche
 
-Wenn Sie Wähltasten zu Zielen zuweisen, empfehlen wir, dass Sie **keine** für die **Verzeichnissuche**auswählen. Wenn ein Anrufer versucht, mithilfe von Schlüsseln, die bestimmten Zielen zugewiesen sind, einen Namen oder eine Durchwahlnummer zu wählen, werden Sie möglicherweise unerwartet an ein Ziel weitergeleitet, bevor Sie den Namen oder die Erweiterung eingeben. Wir empfehlen, dass Sie eine separate automatische Telefonzentrale für die Verzeichnissuche erstellen und Ihre primäre automatische Telefonzentrale über eine Wähl Taste darauf verweisen.
+Wenn Sie Wähltasten zu Zielen zuweisen, empfehlen wir, dass Sie **keine** für die **Verzeichnissuche** auswählen. Wenn ein Anrufer versucht, mithilfe von Schlüsseln, die bestimmten Zielen zugewiesen sind, einen Namen oder eine Durchwahlnummer zu wählen, werden Sie möglicherweise unerwartet an ein Ziel weitergeleitet, bevor Sie den Namen oder die Erweiterung eingeben. Wir empfehlen, dass Sie eine separate automatische Telefonzentrale für die Verzeichnissuche erstellen und Ihre primäre automatische Telefonzentrale über eine Wähl Taste darauf verweisen.
 
-Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche**aus.
+Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche** aus.
 
 **Nach Namen wählen** : Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Telefontastatur eingeben. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit dem Dial by-Namen gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
 
-**Durchwahl: Wenn** Sie diese Option aktivieren, können Anrufer mit den Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons wählen. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit **Dial by Extension**gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
+**Durchwahl: Wenn** Sie diese Option aktivieren, können Anrufer mit den Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons wählen. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit **Dial by Extension** gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
 
 Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen über eine Erweiterung verfügen, die als Teil eines der folgenden in Active Directory oder Azure Active Directory definierten Telefon Attribute angegeben ist (Weitere Informationen finden Sie unter [einzeln oder in Massen Hinzufügen von Benutzern](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .)
 
@@ -118,14 +118,14 @@ Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müsse
 - TelephoneNumber/Telefonnummer
 - OtherTelephone
 
-Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder * + <phone number> Ext <extension> =* oder * + <phone number> x <extension> *.
+Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder *+ <phone number> Ext <extension> =* oder *+ <phone number> x <extension>* .
 
 Sie können die Erweiterung im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Active Directory Admin Center](https://aad.portal.azure.com)einrichten. Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonzentralen und Anrufwarteschlangen verfügbar sind.
 
 > [!NOTE]
-> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch "Dial **by Extension** " verwenden möchten, können Sie eine Wähltaste für Ihre primäre automatische Telefonzentrale zuweisen, um eine automatische Telefonzentrale zu erreichen, die für **Dial by Name**aktiviert ist. Innerhalb dieser automatischen Telefonzentrale können Sie die 1-Taste (der keine Buchstaben zugeordnet sind) zuweisen, um **die automatische Telefon** Zentrale für die Durchwahl zu erreichen.
+> Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch "Dial **by Extension** " verwenden möchten, können Sie eine Wähltaste für Ihre primäre automatische Telefonzentrale zuweisen, um eine automatische Telefonzentrale zu erreichen, die für **Dial by Name** aktiviert ist. Innerhalb dieser automatischen Telefonzentrale können Sie die 1-Taste (der keine Buchstaben zugeordnet sind) zuweisen, um **die automatische Telefon** Zentrale für die Durchwahl zu erreichen.
 
-Nachdem Sie eine **Verzeichnis Such** Option ausgewählt haben, klicken Sie auf **weiter**.
+Nachdem Sie eine **Verzeichnis Such** Option ausgewählt haben, klicken Sie auf **weiter** .
 
 ## <a name="call-flow-for-after-hours"></a>Anruffluss für After Hours
 
@@ -147,7 +147,7 @@ Klicken Sie auf **weiter** , wenn Sie fertig sind.
 
 Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag haben, den [Sie eingerichtet](set-up-holidays-in-teams.md)haben. Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
-1. Klicken Sie auf der Seite Feiertags Anrufeinstellungen auf **Hinzufügen**.
+1. Klicken Sie auf der Seite Feiertags Anrufeinstellungen auf **Hinzufügen** .
 
 2. Geben Sie einen Namen für diese Feiertagseinstellung ein.
 
@@ -161,13 +161,13 @@ Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag habe
 
 6. Wenn Sie die Umleitung gewählt haben, wählen Sie das Anrufrouting Ziel für den Anruf aus.
 
-7. Klicken Sie auf **Speichern**.
+7. Klicken Sie auf **Speichern** .
 
 ![](media/auto-attendant-holiday-call-settings.png)
 
 Wiederholen Sie den Vorgang nach Bedarf für jeden weiteren Feiertag.
 
-Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter**.
+Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter** .
 
 ## <a name="dial-scope"></a>Wählbereich
 
@@ -180,7 +180,7 @@ Sie können bestimmte Benutzer einbeziehen oder ausschließen, indem Sie unter *
 > [!NOTE]
 > Es kann bis zu 36 Stunden dauern, bis der Name des neuen Benutzers im Verzeichnis aufgeführt ist.
 
-Wenn Sie mit dem Festlegen des Wähl Bereichs fertig sind, klicken Sie auf **weiter**.
+Wenn Sie mit dem Festlegen des Wähl Bereichs fertig sind, klicken Sie auf **weiter** .
 
 ## <a name="resource-accounts"></a>Ressourcenkonten
 
@@ -188,11 +188,11 @@ Alle automatischen Telefonzentralen müssen über ein zugeordnetes Ressourcenkon
 
 ![](media/auto-attendant-add-resource-account.png)
 
-Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen**, und klicken Sie dann auf **Hinzufügen**.
+Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen** , und klicken Sie dann auf **Hinzufügen** .
 
 ![](media/auto-attendant-resource-account-assigned.png)
 
-Wenn Sie alle Dienstkonten hinzugefügt haben, klicken Sie auf **Absenden**. Damit ist die Konfiguration der automatischen Telefonzentrale abgeschlossen.
+Wenn Sie alle Dienstkonten hinzugefügt haben, klicken Sie auf **Absenden** . Damit ist die Konfiguration der automatischen Telefonzentrale abgeschlossen.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Externe Rufnummern Übertragungen – technische Details
 
@@ -241,7 +241,7 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 
 [Abrufen von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [Beispiel für kleine Unternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) 
 
