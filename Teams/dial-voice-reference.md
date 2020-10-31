@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Informieren Sie sich über die Optionen für die automatische Telefonzentrale und die Wähl-und Spracherkennung in Teams.
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800568"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818805"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Automatische Telefonzentrale und Anruf Warteschlangen Wähl-und sprach Erkennungs Referenz
 
@@ -100,7 +100,7 @@ Anrufer können Namen in den folgenden Formaten sagen:
 
 Die folgenden Sprachen sind für Text-zu-Sprache mit ausgehenden Eingabeaufforderungen verfügbar:
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |Arabisch (EG)  |Englisch (NZ)  |Koreanisch (KO)  |
 |Chinesisch (HK)  |Englisch (Großbritannien) |Norwegisch (NO)  |
@@ -114,7 +114,7 @@ Die folgenden Sprachen sind für Text-zu-Sprache mit ausgehenden Eingabeaufforde
 
 Die sprach Erkennungs Eingabe für automatische Telefonzentralen steht in den folgenden Sprachen zur Verfügung:
   
-|||
+|-|-|
 |:-----|:-----|
 |Chinesisch (ZH)  |Französisch (FR)  |
 |Englisch (AU)  |Deutsch (DE)  |

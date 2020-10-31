@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650948"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818835"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -47,7 +47,7 @@ Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und in Micr
 | ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend| ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend|
 || ![Das Symbol "gelbe Uhr" zeigt an](media/Presence_Away.png): abwesend; zuletzt anwesend um *Zeit*|
 |![Das Symbol "gelbe Uhr" zeigt an: abwesend – bin gleich zurück](media/Presence_Away.png) Bin gleich zurück| |
-|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline angezeigt. Demnächst in Teams.|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline.  Wenn Benutzer für ein paar Minuten nicht auf einem Ihrer Geräte angemeldet sind, werden Sie offline angezeigt. | |
+|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Als offline anzeigen|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline.  Wenn Benutzer für ein paar Minuten nicht auf einem Ihrer Geräte angemeldet sind, werden Sie offline angezeigt. | |
 || ![Offener grauer Kreis zeig an: Status unbekannt](media/Presence_Unknown.png) Status unbekannt|
 || ![Lila Kreis mit Pfeil zeigt an: außer Haus](media/Presence_OOF.png) Nicht im Büro. Die Abwesenheit wird verwendet, wenn eine automatische Antwort festgesetzt wird. (Nur in Outlook verfügbar.) |
 |||

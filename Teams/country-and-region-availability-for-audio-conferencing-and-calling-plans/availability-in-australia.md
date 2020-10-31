@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
-ms.openlocfilehash: 5bfca9b286a264177437ca36569b943f945b6693
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230643"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818765"
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 
@@ -57,7 +57,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 
 ## <a name="calling-plans"></a>Anrufpläne
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, siehe [Telstra-Anrufe](https://aka.ms/TelstraVoicePlan).  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |Siehe [Telstra-Anrufe](https://aka.ms/TelstraVoicePlan). <br/> |
@@ -72,7 +72,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 
 Ab dem 1. September, 2019, wenn sich Ihr Mandant außerhalb Australiens befindet, können Sie Anrufpläne für Benutzer kaufen, die in Australien ansässig sind. Dies steht für die folgenden Länder und Regionen zur Verfügung.
 
-|||
+|**Feature**|**Details**|
 |---------|---------|
 |Nord- und Südamerika    |Vereinigte Staaten (USA), amerikanische abgelegene Inseln      |
 |APAC     |Bangladesch, Bhutan, Brunei, Kambodscha, Hongkong, Indonesien, Laos, Macao, Malaysia, Malediven, Myanmar, Nepal, Philippinen, Singapur, Sri Lanka, Thailand, Timor-Leste, Vietnam|

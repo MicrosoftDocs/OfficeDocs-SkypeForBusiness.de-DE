@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie Teams-Telefone auf Teams anzeigen im Microsoft Teams Admin Center aktualisieren.
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787612"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816115"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Aktualisieren von Teams-Smartphones auf Teams-Displays
 
@@ -70,7 +70,13 @@ Es kann bis zu einer Stunde dauern, bis das Upgrade abgeschlossen ist. Wenn der 
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-Die Unterstützung dunkler Designs auf Teams-Displays steht in einem zukünftigen Update zur Verfügung. Für Teams, die das dunkle Design verwenden, wird nach dem Upgrade das Standarddesign abgerufen.
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teams zeigt das Standarddesign anstelle des dunklen Designs an
+
+Die Unterstützung dunkler Designs auf Teams-Displays steht in einem zukünftigen Update zur Verfügung. Teams-Telefone, die das dunkle Design verwenden, erhalten das Standarddesign, nachdem das Upgrade auf Teams angezeigt wurde.
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>Einige apps fehlen auf dem Startbildschirm
+
+Wenn bestimmte apps nach dem Upgrade auf dem Startbildschirm fehlen, melden Sie sich ab, und melden Sie sich erneut an. Der Fix für dieses Problem wird in einem zukünftigen Update zur Verfügung stehen.
 
 ## <a name="see-also"></a>Weitere Informationen
 

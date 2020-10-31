@@ -16,22 +16,83 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336994"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816105"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
 Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrator Features für Microsoft Teams.
 
+## <a name="october-28-2020"></a>28. Oktober 2020
+
+### <a name="get-started-with-teams-in-healthcare"></a>Erste Schritte mit Teams im Gesundheitswesen
+
+Microsoft Teams bietet eine Reihe von Funktionen, die für Krankenhäuser und andere Organisationen des Gesundheitswesens nützlich sind, einschließlich:
+
+- Integration virtueller Besuche und elektronischer Gesundheitsakte (EPA)
+- Teams-Richtlinien Pakete
+- Sicheres Messaging
+- Teams-Vorlagen
+- Pflege Koordination und Zusammenarbeit
+
+Diese Funktionalität ist Teil der Microsoft Cloud für Healthcare. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
+
+## <a name="october-27-2020"></a>27. Oktober 2020
+
+### <a name="teams-displays"></a>Teams wird angezeigt
+
+Microsoft Teams Displays sind eine Kategorie von all-in-One-Geräten für dedizierte Teams, die mit einem Ambient-Touchscreen und einer Freisprechfunktion, die von Cortana betrieben wird, ausgestattet sind. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/devices/teams-displays).
+
+## <a name="october-22-2020"></a>22. Oktober 2020
+
+### <a name="manage-skype-for-business-settings-for-your-users"></a>Verwalten von Skype for Business-Einstellungen für Ihre Benutzer
+
+Sie können die Skype for Business-Einstellungen für Skype for Business-Benutzer in Ihrer Organisation im Microsoft Teams Admin Center verwalten.  Klicken Sie auf der Seite "Benutzer Details" auf den Reiter "Skype for Business". Hier können Sie den externen Zugriff und die Besprechungseinstellungen für einzelne Benutzer verwalten. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
+### <a name="manage-skype-for-business-settings-for-your-organization"></a>Verwalten von Skype for Business-Einstellungen für Ihre Organisation
+
+Sie können die Skype for Business-Funktionen für Skype for Business-Benutzer in Ihrer Organisation im Microsoft Teams Admin Center verwalten. Wechseln Sie zu den **organisationsweiten Einstellungen**  >  **für Skype for Business** . Hier können Sie Skype-Live Konferenz-, Anwesenheits-und mobil Funk Benachrichtigungen verwalten. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
+## <a name="october-16-2020"></a>16. Oktober 2020
+
+### <a name="manage-shift-based-access-for-firstline-workers"></a>Verwalten des Schicht basierten Zugriffs für First-work-worker
+
+Als Administrator können Sie Teams so konfigurieren, dass eine Reihe von Schicht basierten Anwesenheitsstatus für die Mitarbeiter der ersten Zeile in Ihrer Organisation angezeigt werden, um anzugeben, wann diese ein-und ausgeschaltet sind. Mit einem Schicht basierten Zugriff können Sie den Zugriff auf Teams verwalten, wenn die Arbeitszeiten von First-Worker deaktiviert sind. So können Sie beispielsweise Teams so einrichten, dass eine Meldung angezeigt wird, die Mitarbeiter von First-Worker bestätigen müssen, bevor Sie Teams verwenden können, wenn Sie sich nicht in einer geplanten Schicht befinden. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
+
+## <a name="october-15-2020"></a>15. Oktober 2020
+
+### <a name="custom-policy-packages"></a>Benutzerdefinierte Richtlinien Pakete
+
+*Dieses Feature befindet sich in der privaten Vorschau*
+
+Mit benutzerdefinierten Richtlinien Paketen können Sie Ihren eigenen Satz von Richtlinien für Benutzer mit ähnlichen Rollen in Ihrer Organisation bündeln. Erstellen Sie eigene Richtlinien Pakete, indem Sie die erforderlichen Richtlinientypen und Richtlinien hinzufügen. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
+
+### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>Hinzufügen einer APP zu einem Team im Microsoft Teams Admin Center
+
+Auf der Seite "Apps verwalten" im Microsoft Teams Admin Center können Sie die Schaltfläche " **zu Team hinzufügen** " verwenden, um eine app in einem Team zu installieren. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/manage-apps).
+
 ## <a name="october-1-2020"></a>1. Oktober 2020
+
+### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint für Besprechungsaufzeichnungen
+
+Microsoft Teams hat eine neue Methode zum Speichern von Besprechungsaufzeichnungen. Als erste Phase des Übergangs vom klassischen Microsoft-Stream auf den neuen Datenstrom speichert diese Methode Aufzeichnungen zu Microsoft OneDrive for Business und SharePoint in Microsoft 365 und bietet zahlreiche Vorteile. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change).
+
+### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>﻿Kostenlose Audio-Konferenzen für kleine und mittelständische Unternehmen
+
+Wenn Sie ein kleines oder mittelständisches Unternehmen mit bis zu 300-Benutzern sind und derzeit keine Audiokonferenz-Lizenzen vorhanden sind, können Sie Audio-Conferencing für ein Jahr kostenlos erhalten. Dieses ﻿kostenlose Angebot steht ab dem 1. Oktober 2020 zur Verfügung. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb).
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Anzeigen von App-Berechtigungen und erteilen der Zustimmung des Administrators im Microsoft Teams Admin Center
 
 Im Team Admin Center können globale Administratoren nun die in Azure Active Directory registrierten Diagramm-API-Berechtigungen überprüfen und genehmigen, und zwar im Namen des gesamten Mandanten für die Berechtigungen, die von einer APP angefordert werden, wie das Lesen von Informationen, die in einem Team gespeichert sind, oder das Senden einer e-Mail im Auftrag von Benutzern. Jetzt können IT-Administratoren die Berechtigungen für die ressourcenspezifische Zustimmung (RSC) für die apps im Team Admin Center überprüfen. Damit können Administratoren ihre Benutzer für die apps von Drittanbietern freigeben, die Sie bereits überprüft und genehmigt haben, damit Sie in Ihrer Organisation verwendet werden können. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
+
+### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>Unterstützung für Anrufpläne für Österreich, Dänemark, Italien, Portugal, Schweden und die Schweiz
+
+Wir haben vor kurzem eine Anruf Plan Unterstützung für Österreich, Dänemark, Italien, Portugal, Schweden und die Schweiz hinzugefügt.  [Weitere Informationen](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+
 ## <a name="september-29-2020"></a>29. September 2020
 
 ### <a name="meeting-policy-settings"></a>Einstellungen für Besprechungsrichtlinien
@@ -116,7 +177,7 @@ Mit diesem Feature werden Personen automatisch Kategorien zugewiesen, die Ihren 
 
 Cortana-Sprachkenntnisse in Teams Mobile-App unterstützen Benutzer bei der Durchführung von Besprechungs-, Kommunikations-und Zusammenarbeitsaufgaben einfach mit gesprochener natürlicher Sprache. Benutzer können mit Cortana sprechen, indem Sie in der Team-App auf die Schaltfläche "Mikrofon" klicken und Anfragen wie "Megan anrufen" oder "eine Nachricht an meine nächste Besprechung senden" durchführen, wenn Sie eine Verbindung mit einer anderen Person herstellen müssen, während Sie die Hausarbeit jonglieren oder den Hund oder in der Regel unterwegs sind. Benutzer können an Besprechungen teilnehmen, indem Sie einfach "an meiner nächsten Besprechung teilnehmen" sagen oder Ihren Kalender überprüfen, indem Sie "Was habe ich heute Morgen" zu Fragen. Sobald Sie sich in einer Besprechung oder einem Anruf befinden, können Sie Cortana aus dem Überlaufmenü in der Besprechungs Phase aufrufen und typische Besprechungs Aufgaben ausführen, wie das Hinzufügen von Personen nach Name oder Nummer ("Megan zum Anruf hinzufügen"), Deck Präsentation ("präsentieren des Quartals Überprüfungs Decks") oder Navigieren in Folien ("zur Anhang-Folie wechseln"). Andere Dinge, die das Feature unterstützt, sind das Suchen und Freigeben von Dateien, das Suchen und Navigieren innerhalb der Teams-app ("meinen Chat mit John öffnen, zu meiner ungelesenen Aktivität wechseln, zu meinen Erwähnungen wechseln usw.).
 
-Cortana in Microsoft Teams erfüllt die gleichen Datenschutz-, Sicherheits-und Compliance-Zusagen auf Unternehmensebene für Cortana Enterprise Services, wie Sie in den [Online Services-Bedingungen (Ost)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)widergespiegelt werden.
+Cortana in Microsoft Teams erfüllt die gleichen Datenschutz-, Sicherheits-und Compliance-Zusagen auf Unternehmensebene für Cortana Enterprise Services, wie Sie in den [Online Services-Bedingungen (Ost)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)widergespiegelt werden. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/cortana-in-teams).
 
 ### <a name="teams-devices-administrator"></a>Teams-Geräte Administrator
 
@@ -126,7 +187,7 @@ Benutzer mit dieser Rolle können Teams Certified Devices im Team Admin Center v
 
 ### <a name="lists-app-in-teams"></a>Listet die app in Microsoft Teams auf
 
-Benutzer von Teams können Ihre Listen jetzt direkt mithilfe der Registerkarte "App-Listen" verwalten, erstellen und verwalten. Die Listen-APP funktioniert auf allen Teams-Clients und ermöglicht die Zusammenarbeit und Kommunikation um Listenelemente. Weitere Informationen zum Verwalten der Listen-apps finden Sie unter [Verwalten der Listen-App für Ihre Organisation](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
+Benutzer von Teams können Ihre Listen jetzt direkt mithilfe der Registerkarte "App-Listen" verwalten, erstellen und verwalten. Die Listen-APP funktioniert auf allen Teams-Clients und ermöglicht die Zusammenarbeit und Kommunikation um Listenelemente. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
 
 ## <a name="august-6-2020"></a>6. August 2020
 
@@ -144,12 +205,6 @@ Teams-Apps können kostenlos installiert werden, und für einige ist es möglich
 
 Entwickler können mithilfe der APP-Übermittlungs-API von Teams benutzerdefinierte apps direkt an das Microsoft Teams Admin Center für Administratoren senden, um Sie zu überprüfen und zu genehmigen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
 
-## <a name="july-31-2020"></a>31. Juli 2020
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Administratoren können den Schicht basierten Anwesenheitsstatus (bei Schicht-, aus-Schicht) für Ihre Mitarbeiter in der ersten Arbeitsgruppe konfigurieren.
-
-Administratoren können Ihre First-work-Mitarbeiter so konfigurieren, dass Sie auf Schicht basierten Anwesenheitsstatus festgelegte Status: bei UMSCHALT, beschäftigt (kann bei gedrückter Umschalttaste umgeschaltet werden) und aus UMSCHALT.
-
 ## <a name="july-29-2020"></a>29. Juli 2020
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Verbesserte Verwaltbarkeit mithilfe von Geräte Kennzeichnungsfunktionen
@@ -158,7 +213,7 @@ Im Rahmen der verbesserten Verwaltbarkeit veröffentlichen wir die Funktionen zu
 
 ### <a name="view-only-in-meetings"></a>Nur in Besprechungen anzeigen
 
-Mit der Option "nur anzeigen" können bis zu 20.000 Teilnehmer an einer Besprechung teilnehmen, in der der Organisator über eine Lizenz für die SKU "Advanced Communications Add-on" verfügt. 1 Dies ist eine Vorschau-oder frühe Version. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
+Mit der Option "nur anzeigen" können bis zu 20.000 Teilnehmer an einer Besprechung teilnehmen, in der der Organisator über eine Lizenz für die SKU "Advanced Communications Add-on" verfügt. 1 Dies ist eine Vorschau-oder frühe Version. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
 
 ## <a name="july-28-2020"></a>28. Juli 2020
 
@@ -176,13 +231,13 @@ Administratoren können ausgehende webhooks auf Benutzerebene steuern, indem Sie
 
 ### <a name="ndi-out-for-teams-meetings"></a>NDI für Teams-Besprechungen
 
-Wir haben die Möglichkeit hinzugefügt, ndi zu einer Teams-Besprechung zu aktivieren. Mit ndi können Sie die Audio-und Videoübertragung einer Besprechung mithilfe von Video Produktionstools verwenden. [Weitere Informationen](../use-ndi-in-meetings.md).
+Wir haben die Möglichkeit hinzugefügt, NDI-Out einer Teams-Besprechung zu ermöglichen. NDI-Out ermöglicht es, die Audio-und Videoübertragung einer Besprechung von Video Produktionstools zu verwenden. [Weitere Informationen](../use-ndi-in-meetings.md).
 
 ## <a name="july-15-2020"></a>15. Juli 2020
 
 ### <a name="enable-suggested-replies"></a>Aktivieren von Vorschlägen für Antworten
 
-Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren. [Weitere Informationen](../messaging-policies-in-teams.md)
+Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren. [Weitere Informationen](../messaging-policies-in-teams.md).
 
 ## <a name="july-9-2020"></a>9. Juli 2020
 
@@ -194,7 +249,7 @@ Wir haben die Unterstützung für Anrufwarteschlangen zur Verwendung eines freig
 
 ### <a name="policy-packaging-batch-assignment"></a>Batch Zuordnung für Richtlinien Pakete
 
-Wir haben die Verwendung von PowerShell zum Stapeln der Zuweisung eines Richtlinienpakets für Benutzer und Gruppen ermöglicht.
+Wir haben die Verwendung von PowerShell zum Stapeln der Zuweisung eines Richtlinienpakets für Benutzer und Gruppen ermöglicht. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/manage-policy-packages).
 
 ## <a name="july-7-2020"></a>7. Juli 2020
 
@@ -210,7 +265,7 @@ Wir haben die Möglichkeit für Teams-Benutzer hinzugefügt, eine Antwort auf Ih
 
 ### <a name="transferring-incoming-calls"></a>Übertragen von eingehenden Anrufen
 
-Wir haben die Möglichkeit für automatische Telefonzentralen und eingehende Anrufe in der Anrufwarteschlange hinzugefügt, die an eine externe PSTN-Telefonnummer übertragen werden.  [Weitere Informationen](../business-voice/set-up-auto-attendants.md).
+Wir haben die Möglichkeit für automatische Telefonzentralen und eingehende Anrufe in der Anrufwarteschlange hinzugefügt, die an eine externe PSTN-Telefonnummer übertragen werden. [Weitere Informationen](../business-voice/set-up-auto-attendants.md).
 
 ## <a name="june-30-2020"></a>30. Juni 2020
 
@@ -226,7 +281,7 @@ Viele IT-Administratoren haben sich beklagt, dass Ihre Mitarbeiter im Chat keine
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie Talkie-app in Microsoft Teams
 
-Sofortige Sprachkommunikation über Push-to-Talk.
+Sofortige Sprachkommunikation über Push-to-Talk. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/walkie-talkie).
 
 ## <a name="june-25-2020"></a>25. Juni 2020
 
@@ -248,7 +303,7 @@ Wenn der Benutzer bei seinem Microsoft 365-Konto nirgendwo sonst angemeldet ist,
 
 ### <a name="monitor-shifts-with-audit-logs"></a>Überwachen von Schichten mit Überwachungsprotokollen
 
-Sie können das Überwachungsprotokoll durchsuchen, um schichtaktivitäten in Ihrer Organisation anzuzeigen. [Weitere Informationen] (<https://docs.microsoft.com/microsoftteams/audit-log-events>.
+Sie können das Überwachungsprotokoll durchsuchen, um schichtaktivitäten in Ihrer Organisation anzuzeigen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11. Juni 2020
 
@@ -318,7 +373,7 @@ Der Microsoft Teams-Client für RealWear ermöglicht es Mitarbeitern von RealWea
 
 ### <a name="tag-youre-it"></a>Tag, Sie sind es
 
-Erstellen Sie Kategorien, und weisen Sie Ihnen Personen zu, damit Sie eine Gruppe, Rolle, Abteilung usw. @mention können. Team Besitzer, probieren Sie es selbst aus. Wechseln Sie zu einem Team, und wählen Sie **Weitere Optionen**zum  >  **Verwalten von Tags**aus. [Weitere Informationen](../manage-tags.md).
+Erstellen Sie Kategorien, und weisen Sie Ihnen Personen zu, damit Sie eine Gruppe, Rolle, Abteilung usw. @mention können. Team Besitzer, probieren Sie es selbst aus. Wechseln Sie zu einem Team, und wählen Sie **Weitere Optionen** zum  >  **Verwalten von Tags** aus. [Weitere Informationen](../manage-tags.md).
 
 ## <a name="march-30-2020"></a>30. März 2020
 
