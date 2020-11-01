@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Anrufwarteschlange
+title: Erstellen einer Anrufwarteschlange in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793534"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820018"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschlange
 
@@ -50,7 +50,7 @@ Zum Einrichten einer Anrufwarteschlange erweitern Sie im Team Admin Center die *
 
 ## <a name="resource-account-and-language"></a>Ressourcenkonto und-Sprache
 
-![](media/call-queue-name-language.png)
+![Screenshot der Ressourcenkonto-und Spracheinstellungen](media/call-queue-name-language.png)
 
 1. Geben Sie einen Namen für die Anrufwarteschlange ein. Agents sehen diesen Namen, wenn ein eingehender Anruf von der Warteschlange empfangen wird.
 
@@ -77,7 +77,7 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
 - Lokale Skype for Business Server-Benutzer
 - Wenn Ihre Agents die Microsoft Teams-App für Anruf Warteschlangen Anrufe verwenden, müssen Sie sich im TeamsOnly-Modus befinden.
 
-![](media/call-queue-users-groups.png)
+![Screenshot der Einstellungen für Benutzer und Gruppen für Anrufwarteschlangen](media/call-queue-users-groups.png)
 
 Sie können bis zu 20 Agents einzeln und bis zu 200-Agents über Gruppen hinzufügen.
 
@@ -90,7 +90,7 @@ Wenn Sie der Warteschlange eine Gruppe hinzufügen möchten, klicken Sie auf **G
 
 ## <a name="call-routing"></a>Anrufweiterleitung
 
-![](media/call-queue-conference-mode-routing-method.png)
+![Screenshot der Einstellungen für den Konferenzmodus und die Routingmethode](media/call-queue-conference-mode-routing-method.png)
 
 Der **Konferenzmodus** verringert erheblich die Zeitdauer, die ein Anrufer mit einem Agenten verbunden sein muss, nachdem der Agent den Anruf angenommen hat. Damit der Konferenzmodus funktioniert, müssen die Agents in der Anrufwarteschlange einen der folgenden Clients verwenden:
 
@@ -112,7 +112,7 @@ Die **Routing Methode** bestimmt die Reihenfolge, in der die Agents Anrufe aus d
 
 - **Längster Leerlauf** leitet jeden Anruf an den Agenten weiter, der die längste Zeit inaktiv war. Ein Agent gilt als im Leerlauf, wenn sein Anwesenheitsstatus verfügbar ist oder wenn sein Anwesenheitsstatus für weniger als 10 Minuten abwesend war. Agents, deren Anwesenheitsstatus für mehr als 10 Minuten abwesend war, werden nicht als im Leerlauf betrachtet und sind nicht berechtigt, Anrufe entgegenzunehmen, bis Sie deren Anwesenheit in verfügbar ändern. 
 
-![](media/call-queue-presence-agents-time.png)
+![Screenshot der Einstellungen für Routing, abmelden und Benachrichtigungszeit](media/call-queue-presence-agents-time.png)
 
 
 Bei **Anwesenheits basiertem Routing** wird der Verfügbarkeitsstatus von Anruf-Agents verwendet, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar** ändert. 
@@ -135,18 +135,18 @@ Für Warteschlangen mit großem Datenaufkommen empfehlen wir die folgenden Einst
 
 ## <a name="call-overflow-handling"></a>Anruf Überlauf Behandlung
 
-![](media/call-queue-overflow-handling.png)
+![Screenshot der Einstellungen für den Anruf Überlauf](media/call-queue-overflow-handling.png)
 
 **Maximale Anrufe in der Warteschlange** geben die maximale Anzahl von Anrufen an, die zu einem beliebigen Zeitpunkt in der Warteschlange warten können. Der Standardwert ist 50, aber er kann zwischen 0 und 200 liegen. Wenn dieser Grenzwert erreicht ist, wird der Anruf so gehandhabt, wie er durch das festgelegt wird, **Wenn die maximale Anzahl von Anrufen erreicht ist** .
 
-Sie können wählen, ob Sie den Anruf trennen oder ihn an eines der Anruf Weiterleitungs Ziele weiterleiten möchten. So können Sie beispielsweise den Anrufer für die Agents in der Warteschlange eine Sprachnachricht hinterlassen.
+Sie können wählen, ob Sie den Anruf trennen oder ihn an alle [Anruf Weiterleitungs Ziele](create-a-phone-system-auto-attendant.md#call-routing-options) mit Ausnahme des Operators weiterleiten möchten. So können Sie beispielsweise den Anrufer für die Agents in der Warteschlange eine Sprachnachricht hinterlassen. (Notieren Sie sich [diese Informationen](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) , wenn Sie eine externe Nummer übertragen.)
 
 > [!NOTE]
 > Wenn die maximale Anzahl von Anrufen auf 0 festgesetzt wird, wird die Ansage nicht wiedergegeben.
 
 ## <a name="call-timeout-handling"></a>Anruf Timeout Behandlung
 
-![](media/call-queue-timeout-handling.png)
+![Screenshot der Anruf Timeouteinstellungen](media/call-queue-timeout-handling.png)
 
 **Anruf Timeout: maximale Wartezeit** gibt an, wie lange ein Anruf maximal in der Warteschlange gehalten werden kann, bevor er umgeleitet oder getrennt wird. Sie können einen Wert von 15 Sekunden bis 45 Minuten angeben.
 
@@ -181,13 +181,13 @@ Da sich die Agents in einer Anrufwarteschlange möglicherweise auswählen, um ei
 
 Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen zu erstellen und einzurichten. Hier sind die Cmdlets, mit denen Sie eine Anrufwarteschlange verwalten.
 
-- [Neu – CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [Neu – CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Satz-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Satz-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -197,6 +197,6 @@ Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen 
 
 [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803799"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820029"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -48,7 +48,7 @@ Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin C
 
 ## <a name="general-info"></a>Allgemeine Informationen
 
-![](media/auto-attendant-general-info-page-new.png)
+![Screenshot der Einstellungen für die automatische Telefonzentrale für Name, Operator, Zeitzone, Sprache und Spracheingaben](media/auto-attendant-general-info-page-new.png)
 
 1. Geben Sie einen Namen für die automatische Telefonzentrale in das Feld oben ein.
 
@@ -64,7 +64,7 @@ Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin C
 
 ## <a name="call-flow"></a>Anruffluss
 
-![](media/auto-attendant-call-flow-greeting-message.png)
+![Screenshot der Einstellungen für Grußnachrichten](media/auto-attendant-call-flow-greeting-message.png)
 
 Wählen Sie aus, ob Sie eine Ansage wiedergeben möchten, wenn die automatische Telefonzentrale einen Anruf annimmt.
 
@@ -72,7 +72,7 @@ Wenn Sie **eine Audiodatei wiedergeben** auswählen, können Sie die Schaltfläc
 
 Wenn Sie **eine Begrüßungsnachricht eingeben** auswählen, liest das System den Text, den Sie eingeben (bis zu 1000 Zeichen), wenn die automatische Telefonzentrale einen Anruf annimmt.
 
-![](media/auto-attendant-call-flow-route-call-message.png)
+![Screenshot der Anrufweiterleitungseinstellungen](media/auto-attendant-call-flow-route-call-message.png)
 
 Wählen Sie aus, wie Sie den Anruf weiterleiten möchten.
 
@@ -84,7 +84,7 @@ Wenn Sie **Menü Optionen wiedergeben** auswählen, können Sie eine **Audiodate
 
 ### <a name="menu-options"></a>Menü Optionen
 
-![](media/auto-attendant-call-flow-menu-options-complete.png)
+![Screenshot der Optionen für Wähltasten](media/auto-attendant-call-flow-menu-options-complete.png)
 
 Für Wähloptionen können Sie die 0-9-Schlüssel auf der Telefontastatur einem der Anruf Weiterleitungs Ziele zuweisen. (Die Tasten \* (Wiederholen) und \# (zurück) werden vom System reserviert und können nicht neu zugewiesen werden.)
 
@@ -129,7 +129,7 @@ Nachdem Sie eine **Verzeichnis Such** Option ausgewählt haben, klicken Sie auf 
 
 ## <a name="call-flow-for-after-hours"></a>Anruffluss für After Hours
 
-![](media/auto-attendant-business-hours.png)
+![Screenshot der Tages-und Uhrzeiteinstellungen für After Hours](media/auto-attendant-business-hours.png)
 
 Die Geschäftszeiten können für jede automatische Telefonzentrale eingestellt werden. Wenn die Geschäftszeiten nicht gesetzt sind, gelten alle Tage und alle Stunden des Tages als Geschäftszeiten, da ein 24/7-Terminplan standardmäßig eingestellt ist. Geschäftszeiten können mit Zeit Unterbrechungen während des Tages festgesetzt werden, und alle Stunden, die nicht als Geschäftszeiten festgesetzt sind, gelten als After-Hours-Zeiten. Sie können unterschiedliche Optionen für eingehende Anrufe und Grußformeln für After-Hours-Einstellungen einstellen.
 
@@ -143,7 +143,7 @@ Klicken Sie auf **weiter** , wenn Sie fertig sind.
 
 ## <a name="call-flows-during-holidays"></a>Anruf Ströme während der Feiertage
 
-![](media/auto-attendant-holiday-greeting.png)
+![Screenshot der Einstellungen für Feiertags-und Feiertags Begrüßung](media/auto-attendant-holiday-greeting.png)
 
 Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag haben, den [Sie eingerichtet](set-up-holidays-in-teams.md)haben. Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
@@ -155,7 +155,7 @@ Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag habe
 
 4. Wählen Sie die Art der Begrüßung aus, die Sie verwenden möchten.
 
-    ![](media/auto-attendant-holiday-actions.png)
+    ![Screenshot der Aktionseinstellungen für Feiertags Anrufe](media/auto-attendant-holiday-actions.png)
 
 5. Wählen Sie aus, ob Sie den Anruf **trennen** oder **umleiten** möchten.
 
@@ -163,7 +163,7 @@ Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag habe
 
 7. Klicken Sie auf **Speichern** .
 
-![](media/auto-attendant-holiday-call-settings.png)
+![Screenshot der Feiertags Einstellungen mit aufgelisteten Feiertagen](media/auto-attendant-holiday-call-settings.png)
 
 Wiederholen Sie den Vorgang nach Bedarf für jeden weiteren Feiertag.
 
@@ -171,7 +171,7 @@ Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter** .
 
 ## <a name="dial-scope"></a>Wählbereich
 
-![](media/auto-attendant-dial-scope.png)
+![Screenshot der Optionen "Wählbereich einbeziehen und ausschließen"](media/auto-attendant-dial-scope.png)
 
 Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer Dial-by-Name oder Dial-by-Extension verwendet. Der Standardwert **aller Online Benutzer** umfasst alle Benutzer in Ihrer Organisation, die Online Benutzer mit einer Telefon System Lizenz sind oder lokal mit Skype for Business Server gehostet werden.
 
@@ -186,11 +186,11 @@ Wenn Sie mit dem Festlegen des Wähl Bereichs fertig sind, klicken Sie auf **wei
 
 Alle automatischen Telefonzentralen müssen über ein zugeordnetes Ressourcenkonto verfügen.  Die automatische Telefonzentrale der ersten Ebene benötigt mindestens ein Ressourcenkonto, das über eine zugeordnete Dienstnummer verfügt. Wenn Sie möchten, können Sie einer automatischen Telefonzentrale mit jeweils einer separaten Servicenummer mehrere Ressourcenkonten zuweisen.
 
-![](media/auto-attendant-add-resource-account.png)
+![Screenshot des Panels "Konto hinzufügen" des Ressourcenkontos](media/auto-attendant-add-resource-account.png)
 
 Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen** , und klicken Sie dann auf **Hinzufügen** .
 
-![](media/auto-attendant-resource-account-assigned.png)
+![Screenshot der Ressourcenkonto Liste mit dem Ressourcenkonto mit zugewiesener Dienstnummer](media/auto-attendant-resource-account-assigned.png)
 
 Wenn Sie alle Dienstkonten hinzugefügt haben, klicken Sie auf **Absenden** . Damit ist die Konfiguration der automatischen Telefonzentrale abgeschlossen.
 
@@ -216,23 +216,23 @@ Wenn Sie in einer Hybridumgebung einen Anruf der automatischen Telefonzentrale �
 
 Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erstellen und einzurichten. Hier sind die Cmdlets, die Sie zum Verwalten einer automatischen Telefonzentrale benötigen:
 
-- [Neu – CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Satz-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [Neu – CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [Neu – CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [Neu – CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [Neu – CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Importieren-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [Neu – CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [Neu – CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [Satz-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [Neu – CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [Neu – CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [Neu – CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [Neu – CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Importieren-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [Neu – CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
 ## <a name="related-topics"></a>Verwandte Themen
