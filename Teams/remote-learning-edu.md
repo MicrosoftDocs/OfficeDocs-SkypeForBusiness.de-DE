@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171109"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800618"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -78,7 +78,7 @@ Sie müssen die folgenden beiden Schritte ausführen, um Teams einzurichten und 
 
 ### <a name="1-allow-users-to-create-teams"></a>1. Benutzern das Erstellen von Teams erlauben
 
-Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer die Teams-Umgebung anpassen können, besteht in der Erstellung von an die jeweiligen Anforderungen maßgeschneiderten Teams. **Standardmäßig kann jeder Microsoft 365-Gruppen und -Teams erstellen**. Es kann vorkommen, dass diese Funktion nicht angemessen ist. So möchten einige Kunden beispielsweise die Erstellung von Teams durch Schüler in Grundschulen und weiterführenden Schulen einschränken. Bei Bedarf kann die Erstellung von Microsoft 365-Gruppen und -Teams [auf bestimmte Sicherheitsgruppen innerhalb Ihrer Umgebung beschränkt werden](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer die Teams-Umgebung anpassen können, besteht in der Erstellung von an die jeweiligen Anforderungen maßgeschneiderten Teams. **Standardmäßig kann jeder Microsoft 365-Gruppen und -Teams erstellen** . Es kann vorkommen, dass diese Funktion nicht angemessen ist. So möchten einige Kunden beispielsweise die Erstellung von Teams durch Schüler in Grundschulen und weiterführenden Schulen einschränken. Bei Bedarf kann die Erstellung von Microsoft 365-Gruppen und -Teams [auf bestimmte Sicherheitsgruppen innerhalb Ihrer Umgebung beschränkt werden](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 Einrichtungen aus dem Hochschulbereich profitieren besonders, wenn sie allen Benutzern, einschließlich Schülern/Studenten, das Erstellen von Teams für Kurse, Recherchen, Gruppenprojekte und Lerngruppen ermöglichen. Grundschulen und weiterführende Schulen möchten das Erstellen von Teams durch Schüler möglicherweise einschränken, um sicherzustellen, dass die gesamte Schülerkommunikationen in einem Forum stattfinden, an dem mindestens ein Erwachsener teilnimmt. In diesem Fall kann die Erstellung von Microsoft 365-Gruppen und -Teams auf alle Lehrkräfte und Mitarbeiter beschränkt werden.
 
@@ -96,7 +96,7 @@ Eine exemplarische Vorgehensweise zum Erstellen von Teams finden Sie hier: [Erst
 
 **Mitarbeiter, Lehrkräfte und Studenten in Hochschulen** profitieren von den Funktionen der Standardrichtlinien (Global). Einige zusätzliche Richtlinieneinstellungen können aktiviert werden, um Teams weitere Funktionen hinzuzufügen, beispielsweise durch [Aktivieren der Übersetzungsfunktionen in der Messagingrichtlinie](messaging-policies-in-teams.md#messaging-policy-settings) und [Zulassen der automatischen Besprechungstranskription in der Besprechungsrichtlinie](meeting-policies-in-teams.md#allow-transcription).
 
-Für **Schüler an Grundschulen und weiterführende Schulen ** sind möglicherweise eingeschränkte Funktionen erforderlich. Mit Richtlinien können die Möglichkeiten der Schüler eingeschränkt werden. Da die Schüler/Studenten meist die größte Gruppe von Benutzern ausmachen und für sie häufig die restriktivsten Einstellungen gelten, wird empfohlen, dass Änderungen an den Richtlinien für Schüler/Studenten an den Richtlinien "Global (organisationsweite Standardeinstellung)" durchgeführt werden.
+Für **Schüler an Grundschulen und weiterführende Schulen** sind möglicherweise eingeschränkte Funktionen erforderlich. Mit Richtlinien können die Möglichkeiten der Schüler eingeschränkt werden. Da die Schüler/Studenten meist die größte Gruppe von Benutzern ausmachen und für sie häufig die restriktivsten Einstellungen gelten, wird empfohlen, dass Änderungen an den Richtlinien für Schüler/Studenten an den Richtlinien "Global (organisationsweite Standardeinstellung)" durchgeführt werden.
 
 > [!IMPORTANT]
 > Bei Besprechungsrichtlinien, die Benutzern zugewiesen werden, empfiehlt es sich, die Einstellung „Personen automatisch zulassen“ auf „Jede/r in Ihrer Organisation“ festzulegen. Mit dieser Einstellung wird sichergestellt, dass nicht-authentifizierte Benutzer aus dem Wartebereich zugelassen werden müssen, bevor sie an Teams-Besprechungen teilnehmen können. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
@@ -113,6 +113,7 @@ Microsoft Teams Education bietet  [spezifische Teamtypen](https://support.offi
 - Noten
 - OneNote-Kursnotizbuch  
 - [Ordner für Kursmaterialien](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  zum Sichern von schreibgeschützten Inhalten für Schüler/Studenten
+- [Insights](https://docs.microsoft.com/microsoftteams/class-insights), um Echtzeit-Daten bezüglich des Engagements von Schülern/Studenten, Aufgaben und des Wohlbefindens aller Klassenzimmer zu liefern. 
 - [Frühzeitiger Zugriff für Lehrkräfte](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) zum Einrichten des Kurses, bevor Schüler/Studenten hinzugefügt werden 
 - Die Fähigkeit, störende Schüler stummzuschalten und andere Sonderberechtigungen   
 
