@@ -40,7 +40,6 @@
 ## [Erstellen von Managerteams für Personen](create-manager-directs-teams.md)
 ## [Verwalten von Teams und Kanalrichtlinien](teams-policies.md)
 ## [Vertraulichkeitsbezeichnungen für Teams](sensitivity-labels.md)
-## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
 ## [Einrichten von Kanalmoderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Freigeben von Dateien in Teams](sharing-files-in-teams.md)
 ## [Teams und Outlook-E-Mail-Integration](teams-outlook-email-integration.md)
@@ -1015,3 +1014,4 @@
 ## [Fragebogen für die Upgradeermittlung](upgrade-plan-journey-discovery-questionnaire.md)
 ## [Exportieren von Inhalten mit Microsoft Teams Export-API](export-teams-content.md)
 ## [Versionshinweise für Teams-Administratorfunktionen](release-notes/release-notes.md)
+## [Öffentliche Vorschau in Microsoft Teams](public-preview-doc-updates.md)
