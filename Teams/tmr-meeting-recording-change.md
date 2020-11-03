@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778858"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827749"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -110,7 +110,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |1:1-Anruf mit internen Parteien             |Anrufer                 |OneDrive for Business-Konto des Anrufers                        |Der Anrufer ist Besitzer, hat vollständige Rechte <br /><br />Der aufgerufene (im gleichen Mandanten) hat schreibgeschützten Zugriff, keinen Freigabe Zugriff <br /><br /> Der aufgerufene (wenn in einem anderen Mandanten) hat keinen Zugriff. Der Anrufer muss ihn für den aufgerufenen freigeben.|
 |1:1-Anruf mit internen Parteien             |Callee                 |OneDrive for Business-Konto des berufenen                        |Der angerufene ist Besitzer, hat vollständige Rechte <br /><br />Anrufer (wenn in demselben Mandanten schreibgeschützter Zugriff, kein Freigabe Zugriff <br /><br />Der Anrufer (wenn in einem anderen Mandanten) hat keinen Zugriff. Der Anrufer muss ihn dem angerufenen freigeben.|
 |1:1-Anruf mit einem externen Anruf             |Anrufer                 |OneDrive for Business-Konto des Anrufers                        |Der Anrufer ist Besitzer, hat vollständige Rechte<br /> <br />Der aufgerufene hat keinen Zugriff. Der Anrufer muss ihn für den aufgerufenen freigeben.|
-|1:1-Anruf mit einem externen Anruf             |Callee                 |OneDrive for Business-Konto des Anrufers                        | Der angerufene ist Besitzer, hat vollständige Rechte<br /><br />Der Anrufer hat keinen Zugriff. Der Anrufer muss ihn an den Anrufer weiterleiten.|
+|1:1-Anruf mit einem externen Anruf             |Callee                 |OneDrive for Business-Konto des berufenen                        | Der angerufene ist Besitzer, hat vollständige Rechte<br /><br />Der Anrufer hat keinen Zugriff. Der Anrufer muss ihn an den Anrufer weiterleiten.|
 |Gruppenanruf                                 |Ein beliebiges Mitglied des Anrufs |Mitglied, das auf das OneDrive for Business-Konto des Eintrags geklickt hat  |Member, auf den Datensatz geklickt hat, hat vollständige Rechte <br /><br /> Andere Mitglieder desselben Mandanten haben Lese Rechte <br /><br /> Andere Mitglieder eines anderen Mandanten haben keine Rechte daran.|
 |Adhoc/geplante Besprechung                    |Organisator              |OneDrive for Business-Konto des Organisators                     | Organizer hat vollständige Rechte an der Aufzeichnung <br /><br /> Alle anderen Mitglieder der Besprechung haben Lesezugriff|
 |Adhoc/geplante Besprechung                    |Anderes Besprechungs Mitglied   |Mitglied, das auf Datensatz geklickt hat                                  | Das Mitglied, das auf Record geklickt hat, hat vollständige Rechte an der Aufzeichnung. <br />Organizer hat Bearbeitungsrechte und kann freigeben <br /><br /> Alle anderen Mitglieder haben Lesezugriff|

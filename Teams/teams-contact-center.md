@@ -13,12 +13,12 @@ f1.keywords:
 description: Eine Übersicht über die integrierte Contact Center as a Service (CCaaS)-Lösung für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424625"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827739"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
@@ -54,6 +54,7 @@ Die folgenden Partner sind dabei, Ihre Lösung für Microsoft Teams zu zertifizi
 | Landis Technologies | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | Netter Kontakt | https://www.niceincontact.com/microsoft-teams                                                            |
+| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 Diese Liste wird aktualisiert, wenn weitere Partner teilnehmen und die Zertifizierungskriterien erfüllen.
@@ -90,19 +91,19 @@ Organisationen können sicherstellen, dass Anrufe an den optimalen Agenten weite
 
 Das folgende ist zwar keine umfassende Liste der Funktions Funktionen für dieses Integrationsmodell, aber die Schwerpunkte umfassen:
 
-  - Office 365 authn für Agents, damit Agents über ihren integrierten CCaaS-Client eine Verbindung mit Ihrem Microsoft-Mandanten herstellen können 
+  - Office 365 authn für Agents, damit Agents über ihren integrierten CCaaS-Client eine Verbindung mit Ihrem Microsoft-Mandanten herstellen können 
 
-  - Anwesenheitsanzeige von Teams-Benutzern 
+  - Anwesenheitsanzeige von Teams-Benutzern 
 
-  - Anruf Flüsse über direktes Routing (wie in Testplänen angegeben) 
+  - Anruf Flüsse über direktes Routing (wie in Testplänen angegeben) 
 
-  - Support-Transfers und Gruppen-Anrufe mit Teams-Benutzern 
+  - Support-Transfers und Gruppen-Anrufe mit Teams-Benutzern 
 
-  - Teams-Diagramm-APIs und Cloud-Kommunikations-APIs für die Integration in Teams 
+  - Teams-Diagramm-APIs und Cloud-Kommunikations-APIs für die Integration in Teams 
 
-  - In der Lage, Multi-Tenant SIP Trunking zu unterstützen, um mehrere Kunden auf dem SBC des Partners zu unterstützen.  
+  - In der Lage, Multi-Tenant SIP Trunking zu unterstützen, um mehrere Kunden auf dem SBC des Partners zu unterstützen.  
 
-  - Partner zur Implementierung des [ <span class="underline">Microsoft Certified Session Border Controllers (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Partner zur Implementierung des [ <span class="underline">Microsoft Certified Session Border Controllers (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>Verbinden und verlängern
 
@@ -116,11 +117,11 @@ Organisationen können Workflows und erweiterte Routingkonfigurationen für einz
 
 Das folgende ist zwar keine umfassende Liste der Funktions Funktionen für dieses Integrationsmodell, doch werden die wichtigsten Schwerpunkte hervorgehoben:
 
-  - Teams-Diagramm-APIs und Cloud-Kommunikations-APIs für die Integration in Teams 
+  - Teams-Diagramm-APIs und Cloud-Kommunikations-APIs für die Integration in Teams 
 
-  - Teams-basierte App für Agenten Erfahrungen 
+  - Teams-basierte App für Agenten Erfahrungen 
 
-  - Teams als primärer Anruf Endpunkt für die Agents 
+  - Teams als primärer Anruf Endpunkt für die Agents 
 
   - Teams-Client ruft für alle Anrufsteuerungen an
 
@@ -128,9 +129,9 @@ Das folgende ist zwar keine umfassende Liste der Funktions Funktionen für diese
 
   - Analyse, Workflow Verwaltung, rollenbasierte Erfahrungen für Agents innerhalb der CCaaS-APP innerhalb von Teams
 
-  - In Teams-Clients integrierte Chat-und Zusammenarbeits Erlebnisse 
+  - In Teams-Clients integrierte Chat-und Zusammenarbeits Erlebnisse 
 
-  - Gewährleistung und Qualität der Client-Erfahrungen in allen Apps  
+  - Gewährleistung und Qualität der Client-Erfahrungen in allen Apps  
 
 ### <a name="extend-and-power"></a>Extend und Power
 
@@ -144,13 +145,13 @@ Mit dem Extend-und Power Integration-Modell können Partner Contact Center-Agent
 
 Das folgende ist zwar keine umfassende Liste der Funktions Funktionen für dieses Integrationsmodell, diese Hervorhebungen sind jedoch zusätzlich zu den vom Modell "verbinden und erweitern" bereitgestellten Punkten.
 
-  - Formale Agenten Erfahrungen, die für Omni-Channel-Kommunikation über das Teams SDK nativ aktiviert sind 
+  - Formale Agenten Erfahrungen, die für Omni-Channel-Kommunikation über das Teams SDK nativ aktiviert sind 
 
-  - Nutzung von Teams Collaboration Services für die Zusammenarbeit von Agenten und Kundeninteraktionen  
+  - Nutzung von Teams Collaboration Services für die Zusammenarbeit von Agenten und Kundeninteraktionen  
 
-  - Schnelle Bereitstellung von Cloud-Diensten, Bereitstellen von überall 
+  - Schnelle Bereitstellung von Cloud-Diensten, Bereitstellen von überall 
 
-  - Direkte Konversations Steuerung und Interaktion mit Benutzern während der Unterhaltungen von Teams 
+  - Direkte Konversations Steuerung und Interaktion mit Benutzern während der Unterhaltungen von Teams 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>Vergleich von verbundenen Contact Center-Integrationsmodellen
 
@@ -160,10 +161,10 @@ In der nachstehenden Tabelle finden Sie eine Übersicht über die Integrationsmo
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>Voice-Apps für Teams</strong></th>
-<th><strong>Verbinden</strong></th>
-<th><strong>Verbinden + erweitern</strong></th>
-<th><strong>Erweitern + Energie</strong></th>
+<th>Voice-Apps für Teams</th>
+<th>Verbinden</th>
+<th>Erweitern</th>
+<th>Macht</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +211,8 @@ In der nachstehenden Tabelle finden Sie eine Übersicht über die Integrationsmo
 <td>Plattform<br />
 (Anrufpläne + Dr)</td>
 <td>Direktes Routing</td>
-<td>Direktes Routing</td>
+<td>Plattform<br />
+(Anrufpläne + Dr)</td>
 <td>Plattform<br />
 (Anrufpläne + Dr)</td>
 </tr>

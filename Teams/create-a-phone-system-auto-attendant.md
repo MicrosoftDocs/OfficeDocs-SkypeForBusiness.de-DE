@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820029"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48840394"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -44,7 +44,7 @@ Automatische Telefonzentralen können Anrufe, basierend auf der Eingabe von Anru
 
 Sie werden aufgefordert, eine dieser Optionen in verschiedenen Phasen zu wählen, während Sie eine automatische Telefonzentrale einrichten.
 
-Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin Center die **Sprache** , klicken Sie auf **automatische Telefonzentralen** , und klicken Sie dann auf **Hinzufügen** .
+Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin Center die **Sprache** , klicken Sie auf **automatische Telefonzentralen** , und klicken Sie dann auf **Hinzufügen**.
 
 ## <a name="general-info"></a>Allgemeine Informationen
 
@@ -60,7 +60,7 @@ Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin C
 
 5. Wählen Sie aus, ob die Spracheingabe aktiviert werden soll. Wenn diese Option aktiviert ist, wird der Name jeder Menüoption zu einem Schlüsselwort für die Spracherkennung. Anrufer können beispielsweise "eins" sagen, um die Menüoption auszuwählen, die Key 1 zugeordnet ist, oder Sie können "Sales" sagen, um die Menüoption "Sales" zu wählen.
 
-6. Klicken Sie auf **Weiter** .
+6. Klicken Sie auf **Weiter**.
 
 ## <a name="call-flow"></a>Anruffluss
 
@@ -118,14 +118,14 @@ Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müsse
 - TelephoneNumber/Telefonnummer
 - OtherTelephone
 
-Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder *+ <phone number> Ext <extension> =* oder *+ <phone number> x <extension>* .
+Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder *+ <phone number> Ext <extension> =* oder *+ <phone number> x <extension>*.
 
 Sie können die Erweiterung im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Active Directory Admin Center](https://aad.portal.azure.com)einrichten. Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonzentralen und Anrufwarteschlangen verfügbar sind.
 
 > [!NOTE]
 > Wenn Sie sowohl die Funktionen " **Dial by Name** " als auch "Dial **by Extension** " verwenden möchten, können Sie eine Wähltaste für Ihre primäre automatische Telefonzentrale zuweisen, um eine automatische Telefonzentrale zu erreichen, die für **Dial by Name** aktiviert ist. Innerhalb dieser automatischen Telefonzentrale können Sie die 1-Taste (der keine Buchstaben zugeordnet sind) zuweisen, um **die automatische Telefon** Zentrale für die Durchwahl zu erreichen.
 
-Nachdem Sie eine **Verzeichnis Such** Option ausgewählt haben, klicken Sie auf **weiter** .
+Nachdem Sie eine **Verzeichnis Such** Option ausgewählt haben, klicken Sie auf **weiter**.
 
 ## <a name="call-flow-for-after-hours"></a>Anruffluss für After Hours
 
@@ -147,7 +147,7 @@ Klicken Sie auf **weiter** , wenn Sie fertig sind.
 
 Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag haben, den [Sie eingerichtet](set-up-holidays-in-teams.md)haben. Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
-1. Klicken Sie auf der Seite Feiertags Anrufeinstellungen auf **Hinzufügen** .
+1. Klicken Sie auf der Seite Feiertags Anrufeinstellungen auf **Hinzufügen**.
 
 2. Geben Sie einen Namen für diese Feiertagseinstellung ein.
 
@@ -161,13 +161,13 @@ Ihre automatische Telefonzentrale kann einen Anruffluss für jeden Feiertag habe
 
 6. Wenn Sie die Umleitung gewählt haben, wählen Sie das Anrufrouting Ziel für den Anruf aus.
 
-7. Klicken Sie auf **Speichern** .
+7. Klicken Sie auf **Speichern**.
 
 ![Screenshot der Feiertags Einstellungen mit aufgelisteten Feiertagen](media/auto-attendant-holiday-call-settings.png)
 
 Wiederholen Sie den Vorgang nach Bedarf für jeden weiteren Feiertag.
 
-Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter** .
+Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter**.
 
 ## <a name="dial-scope"></a>Wählbereich
 
@@ -180,7 +180,7 @@ Sie können bestimmte Benutzer einbeziehen oder ausschließen, indem Sie unter *
 > [!NOTE]
 > Es kann bis zu 36 Stunden dauern, bis der Name des neuen Benutzers im Verzeichnis aufgeführt ist.
 
-Wenn Sie mit dem Festlegen des Wähl Bereichs fertig sind, klicken Sie auf **weiter** .
+Wenn Sie mit dem Festlegen des Wähl Bereichs fertig sind, klicken Sie auf **weiter**.
 
 ## <a name="resource-accounts"></a>Ressourcenkonten
 
@@ -188,18 +188,21 @@ Alle automatischen Telefonzentralen müssen über ein zugeordnetes Ressourcenkon
 
 ![Screenshot des Panels "Konto hinzufügen" des Ressourcenkontos](media/auto-attendant-add-resource-account.png)
 
-Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen** , und klicken Sie dann auf **Hinzufügen** .
+Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen** , und klicken Sie dann auf **Hinzufügen**.
 
 ![Screenshot der Ressourcenkonto Liste mit dem Ressourcenkonto mit zugewiesener Dienstnummer](media/auto-attendant-resource-account-assigned.png)
 
-Wenn Sie alle Dienstkonten hinzugefügt haben, klicken Sie auf **Absenden** . Damit ist die Konfiguration der automatischen Telefonzentrale abgeschlossen.
+Wenn Sie alle Dienstkonten hinzugefügt haben, klicken Sie auf **Absenden**. Damit ist die Konfiguration der automatischen Telefonzentrale abgeschlossen.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Externe Rufnummern Übertragungen – technische Details
 
 Beim Übertragen von Anrufen an eine externe Telefonnummer muss das Ressourcenkonto, das der automatischen Telefonzentrale oder Anrufwarteschlange zugeordnet ist, über eine Telefonnummer und eine Microsoft 365-Telefon System-virtuelle Benutzerlizenz verfügen. Darüber hinaus
 
 - Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+  - Die Telefonnummer für die externe Übertragung muss im E. 164-Format (+ CC + phone_number) eingegeben werden.
+
 - Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
+  - Das Telefonnummernformat für externe Übertragungen hängt von den Einstellungen Ihres [Session Border Controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) ab.
 
 Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
 
