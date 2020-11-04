@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840394"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878180"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -213,7 +213,7 @@ Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
 
 Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
 
-Wenn Sie in einer Hybridumgebung einen Anruf der automatischen Telefonzentrale über die PSTN-Integration von Skype for Business an das PSTN übertragen möchten, erstellen Sie einen neuen lokalen Benutzer, wobei die Anrufweiterleitung auf die PSTN-Nummer festgesetzt ist. Der Benutzer muss für Enterprise-VoIP aktiviert sein und eine VoIP-Richtlinie zugewiesen haben. Weitere Informationen finden Sie unter [automatische Telefonzentrale-Anrufübertragung an PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+Wenn Sie in einer Skype for Business-Hybridumgebung einen Anruf der automatischen Telefonzentrale an das PSTN übertragen möchten, erstellen Sie einen neuen lokalen Benutzer, wobei die Anrufweiterleitung auf die PSTN-Nummer festgesetzt ist. Der Benutzer muss für Enterprise-VoIP aktiviert sein und eine VoIP-Richtlinie zugewiesen haben. Weitere Informationen finden Sie unter [automatische Telefonzentrale-Anrufübertragung an PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Erstellen einer automatischen Telefonzentrale mit PowerShell
 

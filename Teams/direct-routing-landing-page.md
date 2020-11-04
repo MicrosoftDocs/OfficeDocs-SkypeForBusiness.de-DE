@@ -14,16 +14,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Erfahren Sie mehr über das direkte Routing, und verstehen Sie die erforderlichen Bereitstellungsentscheidungen, denen Sie gegenüberstehen.
-ms.custom: seo-marvel-apr2020
+description: Erfahren Sie mehr über das direkte Routing, beispielsweise die Konfiguration, die erforderlichen zentralen Bereitstellungsentscheidungen und Überlegungen zu VoIP-Routing.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c988670a17a9ba2f803c11740d97404de52d4d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 172253f0c1fe99043a21bf70309d81f71e392d4c
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497302"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878519"
 ---
 # <a name="phone-system-direct-routing"></a>Direktes Routing für Telefonsysteme
 

@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426930"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878369"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Erste Schritte mit Administratorschulungen für Microsoft Teams
 
@@ -33,7 +33,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![Ein Symbol, das eine Hand und einen Aufwärtspfeil darstellt](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Schneller Einstieg mit einigen Teams und Kanälen](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Ein Symbol, das zwei Benutzer darstellt](https://docs.microsoft.com/office/media/icons/users-people.png) | [Schulung für Ihre Benutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Ein Symbol mit einem Häkchen](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbol "Aufgaben Zwischenablage"](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams in 30: eine Schulungsreihe für IT-Administratoren und Change Management-Leiter zur Implementierung von Teams in 30 Tagen](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![Ein Symbol mit einem Häkchen](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbol "Aufgaben Zwischenablage"](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: erfahren Sie bewährte Methoden und praktische Anleitungen in Szenarien für beliebte Teams](https://aka.ms/TeamsChalkTalks) |
 
 <h2>Technische Schulung</h2>
 

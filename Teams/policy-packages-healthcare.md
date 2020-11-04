@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Hier erfahren Sie, wie Sie Teams-Richtlinien Pakete für Ihre Gesundheitsorganisation verwenden und verwalten.
-ms.openlocfilehash: 6c14cc82a7e2e16780eb50c04064955aad4e4eb7
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 28db6a594fd8ea579623975c20e96a2ce0189885
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790647"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852206"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams-Richtlinien Pakete für Healthcare
 
@@ -60,11 +60,11 @@ Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die
 
 ## <a name="get-started-with-policy-packages"></a>Erste Schritte mit Richtlinien Paketen
 
-Um Ihnen den Einstieg in die Gesundheitsrichtlinien Pakete zu verschaffen, wählen Sie im Microsoft Admin Center-Onboarding-Hub **Healthcare Basics** aus, und wählen Sie dann **Richtlinieneinstellungen nach Rolle zuweisen** aus. Wenn Sie bereit für die ersten Schritte sind, entscheiden Sie, welchen Richtlinien Paketen Sie Personen in Ihrer Organisation zuweisen möchten.
+Um Ihnen den Einstieg in die Gesundheitsrichtlinien Pakete zu bereiten, wählen Sie im Microsoft Admin Center-Onboarding-Hub **Healthcare** aus, und wählen Sie dann **Richtlinieneinstellungen nach Rolle zuweisen** aus. Wenn Sie bereit für die ersten Schritte sind, entscheiden Sie, welchen Richtlinien Paketen Sie Personen in Ihrer Organisation zuweisen möchten.
 
 Wählen Sie **Richtliniendetails anzeigen** aus, um weitere Informationen zu den spezifischen Richtlinien in einem Paket und den jeweiligen Einstellungen zu erhalten. Diese können nach der Zuweisung im Team Admin Center [angepasst werden](manage-policy-packages.md#customize-policies-in-a-policy-package) .
 
-Wählen Sie ein oder mehrere Pakete aus, die Sie zuweisen möchten, und klicken Sie dann auf **weiter** . Sie können dem Richtlinienpaket, das sich am besten für ihre Rolle eignet, nach Personen suchen und Sie hinzufügen. Eine Person kann nicht mehr als einem Richtlinienpaket gleichzeitig zugewiesen werden.
+Wählen Sie ein oder mehrere Pakete aus, die Sie zuweisen möchten, und klicken Sie dann auf **weiter**. Sie können dem Richtlinienpaket, das sich am besten für ihre Rolle eignet, nach Personen suchen und Sie hinzufügen. Eine Person kann nicht mehr als einem Richtlinienpaket gleichzeitig zugewiesen werden.
 
 Nachdem Sie dem richtigen Richtlinienpaket Personen hinzugefügt haben, **fertigt Finish** Ihre Auswahl. Sie können weiterhin Richtlinien Pakete im Microsoft Teams Admin Center anpassen und verwalten.
 
@@ -84,7 +84,7 @@ Beachten Sie, dass Sie auch die Einstellungen von Richtlinien in einem Paket än
 
 ### <a name="assign"></a>Zuweisen
 
-Weisen Sie das Richtlinienpaket Benutzern zu. Wenn Sie einem oder mehreren Benutzern ein Richtlinienpaket zuweisen möchten, klicken Sie auf **Benutzer verwalten** . Sie können auch [PowerShell verwenden](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) , um einem Richtlinienpaket große Batches von Benutzern zuzuweisen. 
+Weisen Sie das Richtlinienpaket Benutzern zu. Wenn Sie einem oder mehreren Benutzern ein Richtlinienpaket zuweisen möchten, klicken Sie auf **Benutzer verwalten**. Sie können auch [PowerShell verwenden](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) , um einem Richtlinienpaket große Batches von Benutzern zuzuweisen. 
 
 Eine schrittweise Anleitung zum Zuweisen eines Richtlinienpakets mit dem Microsoft Teams Admin Center oder PowerShell finden Sie unter [Zuweisen eines Richtlinienpakets](manage-policy-packages.md#assign-a-policy-package).
 

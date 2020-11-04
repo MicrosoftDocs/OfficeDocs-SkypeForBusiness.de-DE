@@ -13,12 +13,12 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie Microsoft Teams mithilfe von Teams PowerShell verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c217cea4a9ad800c1f31f8dcfae9c88ee281188c
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 09d11b2c697ba57ea161d0ce961cf5ba73794617
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944128"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852176"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Verwalten von Teams mit Microsoft Teams PowerShell
 
@@ -30,10 +30,10 @@ Verwenden Sie diese Richtlinien in Verbindung mit dem [Microsoft Teams-Cmdlet Re
 
 Die Cmdlets zum Erstellen und Verwalten von Teams befinden sich im [PowerShell-Modul von Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/).
 
-Teams werden von Office 365-Gruppen gesichert, sodass Sie beim Erstellen eines Teams eine Gruppe erstellen. Es gibt eine Reihe von Cmdlets, die für das Funktionieren des Kernteams und dessen Einstellungen (, ``new-team`` ``get-team`` , ``set-team`` ), Verwalten von Team Benutzern ( ``add-teamuser`` , ``remove-teamuser`` ) sowie Cmdlets für die Verwaltung der Kanäle des Teams ( ``new-teamchannel`` , ``remove-teamchannel`` ) bereitgestellt werden. Alle diese Cmdlets können als Endbenutzer ausgeführt werden, funktionieren aber nur in den Teams, denen Sie angehören oder deren Mitglied Sie sind. Wenn Sie ein globaler Administrator oder Team Dienst Administrator sind, können Sie auf alle Teams in Ihrer Organisation zugreifen.
+Teams werden von Office 365-Gruppen gesichert, sodass Sie beim Erstellen eines Teams eine Gruppe erstellen. Es gibt eine Reihe von Cmdlets, die für das Funktionieren des Kernteams und dessen Einstellungen (, ``new-team`` ``get-team`` ,  ``set-team`` ), Verwalten von Team Benutzern ( ``add-teamuser`` , ``remove-teamuser`` ) sowie Cmdlets für die Verwaltung der Kanäle des Teams ( ``new-teamchannel`` , ``remove-teamchannel`` ) bereitgestellt werden. Alle diese Cmdlets können als Endbenutzer ausgeführt werden, funktionieren aber nur in den Teams, denen Sie angehören oder deren Mitglied Sie sind. Wenn Sie ein globaler Administrator oder Team Dienst Administrator sind, können Sie auf alle Teams in Ihrer Organisation zugreifen.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department
+New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Die in den Microsoft Teams PowerShell-Modul-Cmdlets verwendete **Gruppen** -ID ist mit der im Exchange PowerShell-Modul zurückgegebenen **Identity** -Eigenschaft identisch ``Get-UnifiedGroup`` .
@@ -68,7 +68,7 @@ Bei einer Richtlinie handelt es sich um eine Gruppe von Einstellungen, die auf e
 
 Allgemeine Parameter:
 
-- **Identity**: für ``Get-`` , ``Set-`` ,, ``New-`` und ``Remove-`` der Parameter **Identity** bezieht sich immer auf eine bestimmte Richtlinieninstanz. ``Grant``Der Parameter **Identity** bezieht sich auf ein bestimmtes Benutzerobjekt, auf das die Richtlinie angewendet wird.
+- **Identity** : für ``Get-`` , ``Set-`` ,, ``New-`` und ``Remove-`` der Parameter **Identity** bezieht sich immer auf eine bestimmte Richtlinieninstanz. ``Grant``Der Parameter **Identity** bezieht sich auf ein bestimmtes Benutzerobjekt, auf das die Richtlinie angewendet wird.
 
 ## <a name="manage-configurations-via-powershell"></a>Verwalten von Konfigurationen über PowerShell
 
@@ -76,10 +76,10 @@ Suchen Sie die Cmdlets für die Verwaltung Ihrer Konfiguration im [Skype for Bus
 
 Konfigurationen sind Buckets von Einstellungen, die im Dienst verwaltet werden und nicht auf Benutzerebene angegeben werden können. Einstellungen gelten immer für die gesamte Organisation. Ihre globale Konfiguration ist die einzige effektive Konfiguration in Ihrer Organisation. Jeder Konfigurationstyp enthält zwei primäre Cmdlets:
 
-- ``Get-Cs<ConfigurationName>``(Beispiel ``Get-CsTeamsClientConfiguration`` :):
+- ``Get-Cs<ConfigurationName>`` (Beispiel ``Get-CsTeamsClientConfiguration`` :):
 
 - Befehlssatz (beispielsweise ``Set-CsTeamsClientConfiguration`` ): legt Eigenschaften in der Konfiguration dieses Typs fest. Geben Sie die Parameter an, die Sie ändern möchten.
-   > Sie können auf die zu ändernde Konfiguration auf eine von zwei Arten verweisen: durch Angeben von-**Identity Global**oder durch Ausführen ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
+   > Sie können auf die zu ändernde Konfiguration auf eine von zwei Arten verweisen: durch Angeben von- **Identity Global** oder durch Ausführen ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="what-can-each-admin-role-do"></a>Was kann jede Administratorrolle tun?
 

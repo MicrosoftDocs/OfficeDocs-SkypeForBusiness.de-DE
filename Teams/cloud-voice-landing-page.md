@@ -16,16 +16,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 - seo-marvel-apr2020
+- seo-marvel-may2020
 search.appverid: MET150
-description: Weitere Informationen zu Microsoft Voice-Lösungen mit Microsoft Phone System-und PSTN-Verbindungsoptionen, einschließlich des Anruf Plans und des direkten Routings.
+description: Weitere Informationen zu den Microsoft Teams Cloud-Sprachfeatures und den Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513525448112fbb9b2b0bf4beacfec46bfb1d76a
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308359"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878559"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen der VoIP-Lösung für Teams 
 
@@ -57,7 +58,7 @@ Allerdings kann Ihre Situation komplexer sein. So können Sie beispielsweise Nie
 | [**Telefonsystem**](#phone-system) | Die Microsoft-Technologie für die Aktivierung der Anrufsteuerung und der Funktionen für Private Branch Exchange (PBX) in der Microsoft 365-Cloud mit Microsoft Teams. |
 | [**PSTN-Verbindungsoptionen (Public Switched Telephone Network)**](#public-switched-telephone-network-connectivity-options) | Eine Wahl zwischen der Verwendung von Microsoft als Telefonnetzbetreiber oder dem Verbinden Ihres eigenen Telefonnetz Betreibers mit Microsoft Teams mithilfe der direkten Weiterleitung. In Kombination mit dem Telefon System ermöglichen PSTN-Verbindungsoptionen Ihren Benutzern, überall auf der Welt Telefonanrufe zu tätigen.|
 
-**Je nach Ihren Anforderungen.** Einige Abschnitte in diesem Artikel sind je nach Ihrer vorhandenen Bereitstellung und Ihren Anforderungen relevant. So ist beispielsweise standortbasiertes Routing nur für direktes Routing von Kunden an geografischen Standorten erforderlich, die keine Maut Umgehung zulassen.
+**Je nach Ihren Anforderungen.** Einige Abschnitte in diesem Artikel sind je nach Ihrer vorhandenen Bereitstellung und Ihren Anforderungen relevant. Beispielsweise ist Location-Based Routing nur für direktes Routing von Kunden an geografischen Standorten erforderlich, die keine Maut Umgehung zulassen.
 
 
 | Je nach Ihren Anforderungen | Beschreibung |
@@ -65,8 +66,8 @@ Allerdings kann Ihre Situation komplexer sein. So können Sie beispielsweise Nie
 | [**Telefonnummern von Microsoft**](#phone-numbers-from-microsoft) | Informationen zum Abrufen und Verwalten von Telefonnummern von Microsoft sowie zum übertragen vorhandener Nummern an Microsoft. Lesen Sie diese Informationen, wenn Sie Telefonnummern für den Microsoft-Anrufplan anfordern, vorhandene Nummern übertragen, Dienstnummern abrufen usw. benötigen. |
 | [**Wählpläne und Anrufweiterleitung**](#dial-plans-and-call-routing) | Konfigurieren und Verwalten von Wählplänen, die gewählte Telefonnummern in ein alternatives Format (normalerweise E. 164-Format) für die Anruf Autorisierung und das Anrufrouting übersetzen. Lesen Sie diese Informationen, wenn Sie wissen möchten, was Wählpläne sind und ob Sie Wählpläne für Ihre Organisation angeben müssen.|
 | [**Notrufe**](#emergency-calling) | So verwalten und konfigurieren Sie Notrufe in &mdash; Abhängigkeit von ihrer PSTN-Verbindungsoption. Lesen Sie diesen Abschnitt, wenn Sie Microsoft Calling Plan oder Direct Routing verwenden und wissen müssen, wie Notrufe für Ihre Organisation verwaltet werden. |
-| [**Orts basiertes Routing für direktes Routing**](#location-based-routing-for-direct-routing) |Verwenden von Standort basiertem Routing (LBR) zum Einschränken der Gebühren Umgehung für Microsoft Teams-Benutzer auf der Grundlage ihres geografischen Standorts. Lesen Sie diesen Abschnitt, wenn Ihre Organisation Direktes Routing an einem Ort verwendet, der keine Maut Umgehung zulässt.
-| [**Netzwerktopologie für Cloud-Sprachfeatures**](#network-topology-for-voice-features) | Wenn in Ihrer Organisation standortbasiertes Routing (LBR) für direktes Routing oder dynamische Notrufe bereitgestellt wird, müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams konfigurieren. Lesen Sie diesen Abschnitt, wenn Sie LBR für die direkte Weiterleitung implementieren oder wenn Sie dynamische Notrufe mit Anrufplan oder direktem Routing implementieren. |
+| [**Orts basiertes Routing für direktes Routing**](#location-based-routing-for-direct-routing) |Verwenden von Location-Based Routing (LBR), um die Gebühren Umgehung für Microsoft Teams-Benutzer auf der Grundlage ihres geografischen Standorts zu beschränken. Lesen Sie diesen Abschnitt, wenn Ihre Organisation Direktes Routing an einem Ort verwendet, der keine Maut Umgehung zulässt.
+| [**Netzwerktopologie für Cloud-Sprachfeatures**](#network-topology-for-voice-features) | Wenn Ihre Organisation Location-Based Routing (LBR) für direktes Routing oder dynamische Notrufe bereitstellt, müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams konfigurieren. Lesen Sie diesen Abschnitt, wenn Sie LBR für die direkte Weiterleitung implementieren oder wenn Sie dynamische Notrufe mit Anrufplan oder direktem Routing implementieren. |
 | [**Migrieren Ihrer vorhandenen Sprachlösung**](#migrate-your-existing-voice-solution-to-teams) | Was Sie beim Migrieren Ihrer Sprachlösung zu Teams berücksichtigen müssen.  Lesen Sie diesen Abschnitt, wenn Sie von einer vorhandenen VoIP-Lösung zu Teams migrieren. 
 
 
@@ -253,19 +254,19 @@ Wie Sie Notrufe konfigurieren, hängt von ihrer PSTN-Verbindungsoption ab: Micro
 - [Contoso-Fallstudie: Notrufe](voice-case-study-emergency-calling.md)<br>
   Beschreibt, wie ein fiktiver multinationaler Konzern, Contoso, Notfallanrufe für Ihre Organisation implementiert hat.
 
-## <a name="location-based-routing-for-direct-routing"></a>Orts basiertes Routing für direktes Routing
+## <a name="location-based-routing-for-direct-routing"></a>Location-Based Routing für direktes Routing
 
-In einigen Ländern und Regionen ist es illegal, den PSTN-Anbieter (Public Switched Telephone Network) zu umgehen, um die Kosten für Ferngespräche zu verringern. Durch standortbasiertes Routing für das direkte Routing können Sie die Gebühren Umgehung für Microsoft Teams-Benutzer auf der Grundlage ihres geografischen Standorts einschränken. Weitere Informationen zum Planen und Konfigurieren von Standort basiertem Routing (LBR) finden Sie in den folgenden Artikeln:
+In einigen Ländern und Regionen ist es illegal, den PSTN-Anbieter (Public Switched Telephone Network) zu umgehen, um die Kosten für Ferngespräche zu verringern. Location-Based Routing für das direkte Routing können Sie die Gebühren Umgehung für Microsoft Teams-Benutzer auf der Grundlage ihres geografischen Standorts einschränken. Weitere Informationen zum Planen und Konfigurieren von Location-Based Routing (LBR) finden Sie in den folgenden Artikeln:
 
 - [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
 - [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
 - [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
-- [Contoso-Fallstudie: standortbasiertes Routing](voice-case-study-location-based-routing.md)<br>
-  Beschreibt, wie ein fiktives multinationales Unternehmen, Contoso, standortbasiertes Routing für Ihre Organisation implementiert hat.
+- [Contoso-Fallstudie: Location-Based-Routing](voice-case-study-location-based-routing.md)<br>
+  Beschreibt, wie ein fiktiver multinationaler Konzern, Contoso, Location-Based-Routing für seine Organisation implementiert hat.
 
 ## <a name="network-topology-for-voice-features"></a>Netzwerktopologie für Sprachfeatures
 
-Wenn Sie ein dynamisches Notruf-oder Orts basiertes Routing für das direkte Routing bereitstellen, müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams konfigurieren. Informationen zum Konfigurieren von Netzwerkeinstellungen für netzwerkregionen, Netzwerk Websites, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen finden Sie in den folgenden Artikeln:
+Wenn Sie ein dynamisches Notruf-oder Location-Based Routing für das direkte Routing bereitstellen, müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams konfigurieren. Informationen zum Konfigurieren von Netzwerkeinstellungen für netzwerkregionen, Netzwerk Websites, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen finden Sie in den folgenden Artikeln:
 
 - [Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams – Konzepte und Terminologie](cloud-voice-network-settings.md)
 - [Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams](manage-your-network-topology.md)
@@ -282,11 +283,11 @@ Wenn Sie Ihre Sprachlösung migrieren, gibt es vier mögliche Anrufszenarien bei
 
 - [**Ein Benutzer in Skype for Business Online mit einem Microsoft-Anrufplan**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans). Nach dem Upgrade wird dieser Benutzer weiterhin über einen Microsoft-Anrufplan verfügen.
 
-- ** [Ein Benutzer in Skype for Business Online mit lokalen Sprachfunktionen](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) über Skype for Business lokal oder Cloud Connector Edition**. Das Upgrade des Benutzers auf Teams muss mit der Migration des Benutzers an Direct Routing koordiniert werden, um sicherzustellen, dass der TeamsOnly-Benutzer über PSTN-Funktionalität verfügt.
+- **[Ein Benutzer in Skype for Business Online mit lokalen Sprachfunktionen](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) über Skype for Business lokal oder Cloud Connector Edition**. Das Upgrade des Benutzers auf Teams muss mit der Migration des Benutzers an Direct Routing koordiniert werden, um sicherzustellen, dass der TeamsOnly-Benutzer über PSTN-Funktionalität verfügt.
 
-- ** [Ein Benutzer in Skype for Business lokal mit Enterprise-VoIP](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), der zu Online wechseln und die lokale PSTN-Konnektivität**aufrecht erhalten soll. Wenn Sie diesen Benutzer zu Teams migrieren, muss das lokale Skype for Business-Konto des Benutzers in die Cloud verschoben und koordiniert werden, um die Migration des Benutzers zur direkten Weiterleitung zu koordinieren. 
+- **[Ein Benutzer in Skype for Business lokal mit Enterprise-VoIP](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), der zu Online wechseln und die lokale PSTN-Konnektivität** aufrecht erhalten soll. Wenn Sie diesen Benutzer zu Teams migrieren, muss das lokale Skype for Business-Konto des Benutzers in die Cloud verschoben und koordiniert werden, um die Migration des Benutzers zur direkten Weiterleitung zu koordinieren. 
 
-- ** [Ein Benutzer in Skype for Business lokal mit Enterprise-VoIP](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), der in den Online-und mit einem Microsoft-Anrufplan umziehen wird**.  Wenn Sie diesen Benutzer zu Teams migrieren, müssen Sie das lokale Skype for Business-Konto des Benutzers in die Cloud verschieben und diesen Schritt entweder mit a) dem Port der Telefonnummer dieses Benutzers zu einem Microsoft-Anrufplan oder B durch stellen, um eine neue Teilnehmernummer aus verfügbaren Regionen zuzuweisen.
+- **[Ein Benutzer in Skype for Business lokal mit Enterprise-VoIP](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), der in den Online-und mit einem Microsoft-Anrufplan umziehen wird**.  Wenn Sie diesen Benutzer zu Teams migrieren, müssen Sie das lokale Skype for Business-Konto des Benutzers in die Cloud verschieben und diesen Schritt entweder mit a) dem Port der Telefonnummer dieses Benutzers zu einem Microsoft-Anrufplan oder B durch stellen, um eine neue Teilnehmernummer aus verfügbaren Regionen zuzuweisen.
 
 Weitere Informationen dazu, wie Sie Ihre VoIP-Migration für jedes dieser Szenarien implementieren, &mdash; einschließlich Informationen dazu, wann Sie eine hybridverbindung einrichten müssen, und wie Sie Benutzer mit lokalen Sprachfunktionen zum direkten Routing migrieren können, &mdash; finden Sie in den folgenden Artikeln:
 

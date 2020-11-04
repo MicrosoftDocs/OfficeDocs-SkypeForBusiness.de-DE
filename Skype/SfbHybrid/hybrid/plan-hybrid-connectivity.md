@@ -16,17 +16,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Planungsüberlegungen für die Implementierung einer hybriden Konnektivität zwischen Skype for Business Server und Skype for Business Online oder Teams.
-ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Planen Sie die Implementierung einer hybriden Konnektivität zwischen Skype for Business Server und Teams oder Skype for Business Online, indem Sie Skype for Business Hybrid Modus konfigurieren.
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 856172d5fba3df96b2456f0ceca1c661120e84e4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359061"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878579"
 ---
-# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365
-
-## <a name="overview"></a>Übersicht
+# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planen der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365
 
 In diesem Thema erfahren Sie, wie Sie die hybride Konnektivität zwischen Skype for Business Server und Microsoft Teams oder Skype for Business Online planen. Das Einrichten von Hybridverbindungen ist der erste Schritt beim Migrieren Ihrer lokalen Umgebung zur Cloud.
 
@@ -49,7 +48,7 @@ Nachdem Sie dieses Thema gelesen und die Hybrid Konnektivität konfiguriert habe
 
 Dieser Konfigurationstyp basiert auf freigegebener SIP-Adressraum Funktionalität und wird manchmal als "geteilte Domäne" bezeichnet – was bedeutet, dass Benutzer einer Domäne wie contoso.com zwischen der Verwendung von Skype for Business Server lokal und Microsoft Teams oder Skype for Business Online aufgeteilt sind, wie im folgenden Diagramm dargestellt:
 
-![SFB-Hybrid Konnektivität – geteilte Domäne](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Skype for Business Hybrid Konnektivität – geteilte Domäne](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 Wenn der freigegebene SIP-Adressraum konfiguriert ist:
 
@@ -61,7 +60,7 @@ Wenn der freigegebene SIP-Adressraum konfiguriert ist:
 
 Bevor ein Benutzer online verschoben werden kann, muss dem Benutzer eine Skype for Business Online Lizenz (Plan 2) zugewiesen werden. Wenn der Benutzer Teams verwendet, muss dem Benutzer auch eine Microsoft Teams-Lizenz zugewiesen werden (und die Skype for Business Lizenz muss aktiviert bleiben). Wenn Ihre Benutzer zusätzliche Online Features wie Audiokonferenz oder Telefon System nutzen möchten, müssen Sie Ihnen die entsprechende Lizenz in Microsoft 365 oder Office 365 zuweisen.
 
-## <a name="infrastructure-requirements"></a>Infrastrukturanforderungen
+## <a name="hybrid-connectivity-infrastructure-requirements"></a>Anforderungen an die Infrastruktur für Hybrid Konnektivität
 
 <a name="BKMK_Infrastructure"> </a>
 
@@ -75,8 +74,8 @@ Um eine hybride Verbindung zwischen Ihrer lokalen Umgebung und Microsoft 365-ode
     
 - Azure Active Directory Connect, um Ihr lokales Verzeichnis mit Microsoft 365 oder Office 365 zu synchronisieren. Weitere Informationen finden Sie unter [Azure AD Connect: Accounts and Permissions](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-- Skype for Business Server Verwaltungstools.  Diese sind erforderlich, um Benutzer von der lokalen in die Cloud zu migrieren. Diese Tools müssen auf einem Server mit Zugriff auf die lokale Bereitstellung und das Internet installiert werden.
-- Online Verwaltungstools.  Sie können entweder das Teamadministrator Center oder Windows PowerShell verwenden, um Teams und Skype for Business Online zu verwalten. Wenn Sie PowerShell zum Verwalten von Teams oder Skype for Business Online verwenden möchten, laden Sie den Skype for Business Online Connector herunter, und installieren Sie ihn.
+- Skype for Business Server Verwaltungstools. Diese sind erforderlich, um Benutzer von der lokalen in die Cloud zu migrieren. Diese Tools müssen auf einem Server mit Zugriff auf die lokale Bereitstellung und das Internet installiert werden.
+- Online Verwaltungstools. Sie können entweder das Teamadministrator Center oder Windows PowerShell verwenden, um Teams und Skype for Business Online zu verwalten. Wenn Sie PowerShell zum Verwalten von Teams oder Skype for Business Online verwenden möchten, laden Sie den Skype for Business Online Connector herunter, und installieren Sie ihn.
 - Der freigegebene SIP-Adressraum muss aktiviert sein, und Ihre lokale Bereitstellung muss für die Verwendung von Microsoft 365 oder Office 365 als Hostinganbieter konfiguriert sein. Weitere Informationen zu den Schritten, die zum Konfigurieren von Hybrid Konnektivität erforderlich sind, finden Sie unter [configure Hybrid Connectivity](configure-hybrid-connectivity.md).
 
 Nachdem Sie die Hybrid Konnektivität konfiguriert haben, können Sie Benutzer in Teams oder Skype for Business Online migrieren. Weitere Informationen finden Sie unter [Migrieren von Benutzern von lokalen zu Teams](move-users-from-on-premises-to-teams.md) und [Migrieren von Benutzern von lokal in Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
@@ -85,7 +84,7 @@ Nachdem Sie die Hybrid Konnektivität konfiguriert haben, können Sie Benutzer i
 
 <a name="BKMK_Topology"> </a>
 
-Wenn Sie Ihre Bereitstellung für eine hybridbereitstellung mit **Teams oder Skype for Business Online**konfigurieren möchten, müssen Sie über eine der folgenden unterstützten Topologien verfügen:
+Wenn Sie Ihre Bereitstellung für eine hybridbereitstellung mit **Teams oder Skype for Business Online** konfigurieren möchten, müssen Sie über eine der folgenden unterstützten Topologien verfügen:
 
 - Eine Skype for Business Server 2019-Bereitstellung mit allen Servern, auf denen Skype for Business Server 2019 ausgeführt wird.
 - Eine Skype for Business Server 2015-Bereitstellung mit allen Servern, auf denen Skype for Business Server 2015 ausgeführt wird.
@@ -95,9 +94,9 @@ Wenn Sie Ihre Bereitstellung für eine hybridbereitstellung mit **Teams oder Sky
   - Lync Server 2013 und Skype for Business Server 2019
   - Lync Server 2013 und Skype for Business Server 2015
 
-*Wenn Hybrid-VoIP in einer beliebigen Topologie gewünscht wird*, muss sowohl der Edgeserver als Verbund Edge als auch der mit dem SIP-Partnerverbund verknüpfte Pool Skype for Business 2015 oder höher installiert sein. Benutzer können in einem lync 2013 Pool verbleiben, falls vorhanden. Weitere Informationen finden Sie unter [Plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+*Wenn Hybrid-VoIP in einer beliebigen Topologie gewünscht wird* , muss sowohl der Edgeserver als Verbund Edge als auch der mit dem SIP-Partnerverbund verknüpfte Pool Skype for Business 2015 oder höher installiert sein. Benutzer können in einem lync 2013 Pool verbleiben, falls vorhanden. Weitere Informationen finden Sie unter [Plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-Die folgenden Topologien, die **lync Server 2010 umfassen, werden mit Skype for Business Online** für Chatnachrichten und Besprechungen unterstützt.  Topologien, die **lync Server 2010 enthalten, werden für Hybrid-VoIP und-Teams nicht unterstützt**.
+Die folgenden Topologien, die **lync Server 2010 umfassen, werden mit Skype for Business Online** für Chatnachrichten und Besprechungen unterstützt. Topologien, die **lync Server 2010 enthalten, werden für Hybrid-VoIP und-Teams nicht unterstützt**.
 
 - Eine gemischte lync Server 2010-und Skype for Business Server 2015-Bereitstellung
 - Eine gemischte lync Server 2010-und lync Server 2013-Bereitstellung
@@ -126,7 +125,7 @@ Microsoft unterstützt die folgenden Typen von Hybrid Szenarien mit mehreren Ges
 
 <a name="BKMK_Federation"> </a>
 
-Wenn Sie Hybrid konfigurieren, müssen Sie sicherstellen, dass Ihre lokalen und Online-Umgebungen miteinander verbündet werden können.  Die Online Umgebung hat standardmäßig einen offenen Verbund; die lokale Umgebung verfügt häufig standardmäßig über einen geschlossenen Partnerverbund.  
+Wenn Sie Skype for Business Hybrid Modus konfigurieren, müssen Sie sicherstellen, dass Ihre lokalen und Online-Umgebungen miteinander verbündet werden können.  Die Online Umgebung hat standardmäßig einen offenen Verbund; die lokale Umgebung verfügt häufig standardmäßig über einen geschlossenen Partnerverbund.  
 
 Die folgenden Anforderungen müssen erfüllt sein, um eine hybridbereitstellung erfolgreich zu konfigurieren:
 
@@ -142,7 +141,7 @@ In den folgenden Abschnitten werden Überlegungen für Folgendes beschrieben:
 - DNS-Einstellungen
 - Überlegungen zur Firewall
 
-### <a name="dns-settings"></a>DNS-Einstellungen
+### <a name="dns-settings-for-hybrid-deployments"></a>DNS-Einstellungen für hybridbereitstellungen
 
 <a name="BKMK_DNS"> </a>
 
@@ -157,7 +156,7 @@ Darüber hinaus müssen Sie sicherstellen, dass die in der folgenden Tabelle bes
 
 Je nachdem, wie DNS in Ihrer Organisation konfiguriert ist, müssen Sie diese Einträge möglicherweise der internen gehosteten DNS-Zone für die entsprechenden SIP-Domänen hinzufügen, um die interne DNS-Auflösung für diese Einträge bereitzustellen.
 
-### <a name="firewall-considerations"></a>Überlegungen zur Firewall
+### <a name="firewall-considerations-for-hybrid-deployments"></a>Überlegungen zur Firewall für hybridbereitstellungen
 
 <a name="BKMK_Firewall"> </a>
 

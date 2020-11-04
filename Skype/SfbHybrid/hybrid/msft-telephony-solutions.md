@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Beschreibt Microsoft-Telefonie-Lösungen.
-ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 'Erfahren Sie mehr über Microsofts Telefonie-Lösungen: Telefon System (Private Branch Exchange-PBX) und PSTN-Verbindungsoptionen (Anrufpläne und direktes Routing).'
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 3f5e4f0cf0cb027ed0c18b98c85b123634687a77
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359101"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878539"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft-Telefonielösungen
 
-Microsoft unterstützt mehrere Optionen, wenn Sie Ihre Reise zu Microsoft Teams in der Microsoft-Cloud beginnen. In diesem Artikel können Sie entscheiden, welche Microsoft-Telefonielösung (Telefon System in der Cloud oder Enterprise-VoIP lokal) für Benutzer in Ihrer Organisation geeignet ist und wie Ihre Organisation eine Verbindung mit dem Telefon Festnetz (Public Switched Telephone Network, PSTN) herstellen kann. 
+Microsoft unterstützt mehrere Optionen, wenn Sie Ihre Reise zu Microsoft Teams in der Microsoft-Cloud beginnen. In diesem Artikel können Sie entscheiden, welche Microsoft-Telefonielösung (Telefon System in der Cloud oder Enterprise-VoIP lokal) für Benutzer in Ihrer Organisation geeignet ist und wie Ihre Organisation eine Verbindung mit dem Telefon Festnetz (Public Switched Telephone Network, PSTN) herstellen kann.
 
 Verwenden Sie diesen Artikel zusammen mit dem dazugehörigen technischen Diagramm, das eine visuelle Hilfe für die richtige Entscheidungsfindung für Ihre Organisation bietet:
 
@@ -42,7 +43,7 @@ Verwenden Sie diesen Artikel zusammen mit dem dazugehörigen technischen Diagram
 
 ### <a name="phone-system-microsoft-365-or-office-365"></a>Telefon System (Microsoft 365 oder Office 365)
   
-Telefon System ist die Technologie von Microsoft, mit der die Funktionen für die Anrufsteuerung und die PBX-Funktionen in der Microsoft 365-oder Office 365-Cloud mit Microsoft Teams und/oder Skype for Business Online aktiviert werden können. 
+Telefon System ist die Technologie von Microsoft, mit der die Funktionen für die Anrufsteuerung und die PBX-Funktionen in der Microsoft 365-oder Office 365-Cloud mit Microsoft Teams und/oder Skype for Business Online aktiviert werden können.
 
 Telefon System kann mit Teams oder Skype for Business Online-Clients und zertifizierten Geräten verwendet werden. Mit dem Telefon System können Sie Ihr vorhandenes PBX-System durch eine Reihe von Features ersetzen, die direkt von Microsoft 365 oder Office 365 geliefert werden und eng in die Cloud-Produktivitäts Erfahrung des Unternehmens integriert sind. Um Telefon System mit dem Telefon Festnetz (Public Switched Telephone Network, PSTN) zu verbinden, können Sie den Anrufplan von Microsoft oder ihren eigenen Telefon Träger auswählen.
 
@@ -50,7 +51,7 @@ Weitere Informationen finden Sie unter [Was ist Telefon System in Microsoft 365 
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise-VoIP (Skype for Business Server)
 
-Enterprise-VoIP ist die Technologie von Microsoft für die Aktivierung der Anrufsteuerung und von PBX-Funktionen (Private Branch Exchange) im lokalen Skype for Business Server. Diese Option kann nur über ihren eigenen Telefon Träger mit dem öffentlichen Telefonnetz verbunden werden. 
+Enterprise-VoIP ist die Technologie von Microsoft für die Aktivierung der Anrufsteuerung und von PBX-Funktionen (Private Branch Exchange) im lokalen Skype for Business Server. Diese Skype for Business Option kann nur über ihren eigenen Telefon Träger mit dem öffentlichen Telefonnetz verbunden werden.
 
 Weitere Informationen finden Sie unter [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 

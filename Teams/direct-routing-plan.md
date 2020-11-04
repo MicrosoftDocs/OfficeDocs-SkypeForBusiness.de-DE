@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262532"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852196"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -189,7 +189,7 @@ Das Zertifikat muss von einer der folgenden Stammzertifizierungsstellen generier
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
-Für die direkte Weiterleitung in der Office 365 gcc DoD-Umgebung muss das Zertifikat von einer der folgenden Stammzertifizierungsstellen generiert werden:
+Für das direkte Routing in Office 365 GCCH-und DoD-Umgebungen muss das Zertifikat von einer der folgenden Stammzertifizierungsstellen generiert werden:
 - Globale Digicert-Stammzertifizierungsstelle
 - Digicert-Stammzertifizierungsstelle für höchste Sicherheit
 
@@ -235,7 +235,7 @@ Die FQDNs – SIP.pstnhub.Microsoft.com, sip2.pstnhub.Microsoft.com und sip3.pst
 Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für das signalisieren zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN- **SIP-all.pstnhub.Microsoft.com** in alle diese IP-Adressen aufgelöst. 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
+### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH und DoD-Umgebung
 
 Der Verbindungspunkt für das direkte Routing ist der folgende FQDN:
 
@@ -299,7 +299,7 @@ Der Mediendatenverkehr fließt in die und aus einem separaten Dienst in der Micr
 - 52.112.0.0/14 (IP-Adressen von 52.112.0.1 nach 52.115.255.254).
 - 52.120.0.0/14 (IP-Adressen von 52.120.0.1 nach 52.123.255.254).
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
+### <a name="office-365-dod-environment"></a>Office 365 DoD-Umgebung
 
 - 52.127.64.0/21
 

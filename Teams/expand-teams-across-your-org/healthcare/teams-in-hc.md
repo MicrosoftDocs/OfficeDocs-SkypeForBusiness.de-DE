@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, virtueller Besuch, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: Informieren Sie sich über die Funktionen des Gesundheitswesens wie Microsoft Teams Telehealth, EPA-Integration, Integration von First-Worker-Systemen und die Patienten-app.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803533"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878709"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
-Microsoft Teams bietet eine Reihe von Funktionen, die für Krankenhäuser und andere Organisationen des Gesundheitswesens nützlich sind, einschließlich:
+Microsoft Teams bietet eine Reihe von telemedizinischen Funktionen, die für Krankenhäuser und andere Gesundheitsorganisationen nützlich sind. Die Features von Teams sind derzeit in der Entwicklung, um Krankenhäusern zu helfen:
 
 - Integration virtueller Besuche und elektronischer Gesundheitsakte (EPA)
 - Teams-Richtlinien Pakete

@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit dem Upgrade von Microsoft Teams
+title: Aktualisieren von Skype for Business auf Teams – Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.custom:
 - Teams-upgrade-guidance
 - seo-marvel-apr2020
+- seo-marvel-may2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -29,14 +30,14 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c955d0f104dc9aef476c9252a78cc2bfd2bc6f9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 384897b7496a1617b2b6617aece31b677535dc81
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497292"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878499"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Erste Schritte mit dem Upgrade von Microsoft Teams
+# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Erste Schritte bei der Aktualisierung von Skype for Business zu Microsoft Teams
 
 Herzlichen Glückwunsch zu Ihrem ausstehenden Upgrade von Skype for Business auf Microsoft Teams. Ganz gleich, ob Sie neu bei Microsoft Teams sind, Microsoft Teams bereits zusammen mit Skype for Business verwenden oder bereit für das Upgrade sind – wir möchten sicherstellen, dass Sie alles haben, was Sie für eine erfolgreiche Umstellung auf Microsoft Teams benötigen.
 
@@ -46,7 +47,7 @@ Ganz gleich, ob Sie ein Upgrade von Skype for Business Online auf Microsoft Team
 
 Microsoft Teams erweitert die Funktionen von Skype for Business und bietet Chat, Besprechungen, Anrufe, Zusammenarbeit, App-Integration und Dateispeicherung in einer einzigen Benutzeroberfläche an. Dieser neue zentrale Hub für Teamwork hilft Ihnen, die Art und Weise zu optimieren, wie Benutzer ihre Aufgaben erledigen, die Zufriedenheit der Benutzer zu steigern und Unternehmensergebnisse zu beschleunigen. Wir erweitern die Funktionen von Microsoft Teams kontinuierlich, damit Sie auf neue Weise kommunizieren und zusammenarbeiten, organisatorische und geographische Hindernisse überwinden und die Effizienz von Prozessen und Entscheidungsfindung zu steigern. Im Forrester-Bericht [Total Economic Impact of Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf) erfahren Sie mehr über die Vorteile des Upgrades auf Microsoft Teams.  
 
-## <a name="when-should-my-organization-upgrade-to-teams"></a>Wann sollte meine Organisation ein Upgrade auf Microsoft Teams durchführen?
+## <a name="when-should-my-organization-migrate-to-teams"></a>Wann sollte meine Organisation zu Teams migrieren?
 
 Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Der Skype for Business Online-Dienst ist zwar bis zum 31. Juli 2021 voll funktionsfähig, Microsoft ermutigt Kunden aber, ihre Upgradereise schon heute zu beginnen. So bleibt genügend Zeit, das Upgrade durchzuführen bevor der Dienst eingestellt wird.  In unserer [Ankündigung der Einstellung](https://aka.ms/sfboannounce) erfahren Sie mehr.
 
@@ -62,7 +63,7 @@ Ja. Das Telefon System steht allen Teams-Benutzern zur Verfügung, nachdem Sie i
 
 Ja. Mit dem Telefonsystem Direct Routing können Sie das Telefonsystem mit praktisch jedem Telefonnetzbetreiber verwenden. Mit Direct Routing können Sie Ihren eigenen Session Border Controller (SBC) direkt mit dem Telefon System verbinden. Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
  
-## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Wie hilft Microsoft seinen Kunden beim Upgrade auf Microsoft Teams? 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Wie hilft Microsoft Kunden bei der Migration in Teams? 
 
 Microsoft ist bestrebt, Ihnen bei einem erfolgreichen Umstieg von Skype for Business auf Microsoft Teams zu helfen. Microsoft stellt einen soliden Leitfaden bereit, der auf einem bewährten Framework für ein erfolgreiches End-to-End-Upgrade basiert und Ihnen bei der Planung und Durchführung des Upgrades auf Teams hilft. In unserem Leitfaden wird jede Phase des Upgrades behandelt – ganz gleich, ob Sie gerade erst mit der Planung beginnen, Microsoft Teams bereits zusammen mit Skype for Business verwenden oder bereit für die Umstellung auf Microsoft Teams sind.
 

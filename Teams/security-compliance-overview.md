@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: Eine Übersicht über die Sicherheits- und Compliance-Funktionen von Microsoft Teams, einschließlich Überwachung und Berichterstellung, Compliancesuche in Inhalten, eDiscovery und vielem mehr.
+description: Eine Übersicht über die Sicherheits-und Compliance-Features von Microsoft Teams, einschließlich Datenschutz und Verschlüsselung, Überwachung und Berichterstellung und vieles mehr.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,19 +18,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429351"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878489"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
 > [!IMPORTANT]
-> Wenn Sie wissen möchten, wie Sie die Sicherheit am besten gewährleisten können, **während alle während des COVID-19-Ausbruchs von zu Hause aus arbeiten**, lesen Sie diese Artikel:
+> Wenn Sie wissen möchten, wie Sie die Sicherheit am besten gewährleisten können, **während alle während des COVID-19-Ausbruchs von zu Hause aus arbeiten** , lesen Sie diese Artikel:
 >  - [Die wichtigsten 12 Aufgaben für Sicherheitsteams zur Unterstützung der Arbeit von zu Hause aus](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [Optimieren der Microsoft 365- oder Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - Aktualisiert am 2. April 2020: [Sicherheitsleitfaden für Teams](teams-security-guide.md)
@@ -135,7 +136,7 @@ Kunden können eDiscovery oder [Advanced eDiscovery](https://docs.microsoft.com/
 
 Während eines Rechtsstreits müssen Sie möglicherweise alle Daten, die einem Benutzer (Depotbank) oder einem Team zugeordnet sind, als unveränderlich beibehalten, damit er als Beweis für den Fall verwendet werden kann. Sie können dies tun, indem Sie entweder einen Benutzer (Benutzerpostfach) oder ein Team in rechtlicher Wartestellung setzen. Für eine rechtliche Aufbewahrungspflicht für ein Team kann das Postfach des Teams auf folgende haltebereiche gesetzt werden:
 
-- In-situ-Speicher (eine Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder gefilterte Inhalte wird in Wartestellung gesetzt) oder
+- In-Place halten (eine Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder gefilterte Inhalte wird in den Wartebereich gesetzt) oder
 - Rechtsstreit halten (das gesamte Postfach oder die gesamte Websitesammlung wird in Wartestellung gesetzt).
 
 In beiden Fällen wird nach der Festlegung des haltebereichs sichergestellt, dass selbst dann, wenn Endbenutzer Kanal Nachrichten löschen oder bearbeiten, die sich im Gruppenpostfach befinden, unveränderliche Kopien dieser Inhalte verwaltet und über die eDiscovery-Suche verfügbar sind. Rechtliche Aufbewahrungen werden im Allgemeinen im Kontext eines eDiscovery-Falls angewendet.
@@ -157,7 +158,11 @@ Die Überwachungsprotokoll Suche wird direkt in das Microsoft 365 Compliance Cen
 
 ## <a name="privacy"></a>Datenschutz
 
-Bei Microsoft steht der Schutz Ihrer Daten an oberster Stelle. Informationen zu unseren Datenschutzmethoden finden Sie unter [Privatsphäre bei Microsoft](https://www.microsoft.com/trust-center/privacy).
+Bei Microsoft steht der Schutz Ihrer Daten an oberster Stelle. Weitere Informationen zu unseren Datenschutzmethoden finden Sie unter:  
+
+- [Datenschutz bei Microsoft](https://www.microsoft.com/trust-center/privacy)
+- [Unser Bekenntnis zu Datenschutz und Sicherheit in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [Für IT-Experten: Datenschutz und Sicherheit in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## <a name="information-protection-architecture"></a>Architektur des Informationsschutzes
 

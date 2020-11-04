@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: Wie Microsoft Teams den Systemspeicher verwendet und warum die Speicherauslastung zwischen der Desktopanwendung und der Webanwendung identisch ist.
+description: Erfahren Sie mehr über die Verwendung von Microsoft Teams für den Systemspeicher, und warum die Speicherauslastung zwischen der Desktopanwendung und der Webanwendung identisch ist.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033399"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878719"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Verwendung des Arbeitsspeichers durch Microsoft Teams
 
@@ -35,7 +36,7 @@ Weitere Informationen finden Sie unter [Chrom Speichernutzung](https://www.chrom
 
 Die folgende Abbildung zeigt die parallele Speichernutzung der Team-Desktop-App für Windows und der Team-Web-App (in diesem Beispiel, die in Google Chrome ausgeführt wird).
 
-![Arbeitsspeichernutzung von Teams-Desktop-App und Web App](media/teams-memory-clientweb.png)
+![Arbeitsspeicherauslastung von Teams für die Desktop-App und Web-App](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>Speicherauslastung in Teams
 
