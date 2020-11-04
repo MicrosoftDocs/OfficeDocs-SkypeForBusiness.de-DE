@@ -17,12 +17,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a13e5499cb00d95d685b493db1365e9dc08ff43f
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816222"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852186"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -40,16 +40,16 @@ Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffen
 
    ![Auswählen der Option "Updaterichtlinien"](media/updatePolicies.png)
 
-3. Klicken Sie auf **Hinzufügen** .
-4. Benennen Sie die Updaterichtlinie, fügen Sie eine Beschreibung hinzu, und aktivieren Sie **Vorschaufeatures anzeigen** .
+3. Klicken Sie auf **Hinzufügen**.
+4. Benennen Sie die Updaterichtlinie, fügen Sie eine Beschreibung hinzu, und aktivieren Sie **Vorschaufeatures anzeigen**.
 
 ## <a name="enable-public-preview"></a>Aktivieren der öffentlichen Vorschau
 
 Wenn Sie die öffentliche Vorschau auf einem Desktop- oder Webclient aktivieren möchten, müssen Sie die folgenden Aufgaben ausführen:
 
 1. Wählen Sie Ihr Profil aus, um das Teams-Menü anzuzeigen.
-2. Wählen Sie **Info** → **Entwicklervorschau** aus.
-3. Wählen Sie **Zur Entwicklervorschau wechseln** aus.
+2. Wählen Sie **Info** → **Public Preview** aus.
+3. Wählen Sie **Zur Public Preview wechseln** aus.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

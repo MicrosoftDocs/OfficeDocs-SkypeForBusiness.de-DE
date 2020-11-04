@@ -1,7 +1,7 @@
 ---
 title: Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 ms.reviewer: ''
-description: Finden Sie einen schnellen Einstieg in Besprechungen und Liveereignisse in Microsoft Teams.
+description: Ein Schnellstarthandbuch für Administratoren über das erlangen von Lizenzen, das Bereitstellen und Konfigurieren von Onlinebesprechungen und Live-Events in Microsoft Teams.
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739393"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878659"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
@@ -45,7 +45,7 @@ Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten,
 
 > <sup>1</sup> Besprechungsorganisatoren benötigen eine [Lizenz für das Audiokonferenz-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), um eine Einladung zu versenden, die Einwahlkonferenzen umfasst.
 >
-> <sup>2</sup> Für ausgehende Anrufe aus Konferenzen an eine [**Rückruf unter**-Nummer](set-up-the-call-me-feature-for-your-users.md) müssen Organisatoren über eine E5- oder [Audiokonferenz-Add-In-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) verfügen. Es kann auch ein [Wählplan](what-are-dial-plans.md) erforderlich sein.
+> <sup>2</sup> Für ausgehende Anrufe aus Konferenzen an eine [**Rückruf unter** -Nummer](set-up-the-call-me-feature-for-your-users.md) müssen Organisatoren über eine E5- oder [Audiokonferenz-Add-In-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) verfügen. Es kann auch ein [Wählplan](what-are-dial-plans.md) erforderlich sein.
 
 Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 

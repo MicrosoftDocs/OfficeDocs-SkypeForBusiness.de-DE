@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,14 +19,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637914"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878689"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Bereitstellen von Microsoft Teams
 
@@ -50,7 +51,7 @@ Wir empfehlen eine phasenweise Bereitstellung von Teams, Workload nach Workload 
 
 ## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Wenn Sie von Skype for Business-, lokalen oder Hybridbereitstellungen ausgehen
 
-Wenn Sie von Skype for Business (online oder lokal) zu Teams kommen oder eine Hybridkonfiguration benötigen, sollten Sie trotzdem dem oben dargestellten [empfohlenen Weg](#recommended-path-to-teams) für die Bereitstellung von Teams folgen, aber zunächst müssen Sie etwas zusätzliche Planung hinter sich bringen. Überprüfen Sie als erstes die Anleitung in der Tabelle unten, die sich auf das Profil Ihrer Organisation bezieht.
+Wenn Sie von Skype for Business (online oder lokal) zu Teams kommen oder eine Hybridkonfiguration benötigen, sollten Sie trotzdem dem oben dargestellten [empfohlenen Weg](#recommended-path-to-teams) für die Bereitstellung von Teams folgen, aber zunächst müssen Sie etwas mehr zusätzliche Planung hinter sich bringen. Überprüfen Sie als erstes die Anleitung in der Tabelle unten, die sich auf das Profil Ihrer Organisation bezieht.
 
 
 

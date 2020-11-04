@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Schritt-für-Schritt-Anleitung zum Bereitstellen von Chat, Teams, Kanälen und Apps in Microsoft Teams, basierend auf Profil- und Geschäftsanforderungen Ihrer Organisation.
+description: Enthält Schritt-für-Schritt-Anleitungen zum Konfigurieren von Teams-Einstellungen für Chat, Teams, Apps und Kanäle in Microsoft Teams.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+- seo-marvel-may2020
+ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820509"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878529"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -80,7 +81,7 @@ In Microsoft Teams können Sie zusätzlich zu den Administratorrollen die Benutz
 
 ### <a name="messaging-policies"></a>Messagingrichtlinien
 
-Mithilfe von Messagingrichtlinien wird gesteuert, welche Chat- und Messagingfunktionen den Benutzern in Teams zur Verfügung stehen. Beispielsweise, wer gesendete Nachrichten bearbeiten und löschen, wer Chat verwenden, wer Memes in Unterhaltungen verwenden kann und mehr. Standardmäßig wird den Benutzern die globale Messagingrichtlinie zugewiesen, und alle Funktionen sind **Aktiviert**. Sie können die globale Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Messagingrichtlinien für die Benutzer in Ihrer Organisation erstellen. 
+Mithilfe von Messagingrichtlinien wird gesteuert, welche Chat- und Messagingfunktionen den Benutzern in Teams zur Verfügung stehen. Beispielsweise, wer gesendete Nachrichten bearbeiten und löschen, wer Chat verwenden, wer Memes in Unterhaltungen verwenden kann und mehr. Standardmäßig wird den Benutzern die globale Messagingrichtlinie zugewiesen, und alle Funktionen sind **Aktiviert**. Sie können die globale Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Messagingrichtlinien für die Benutzer in Ihrer Organisation erstellen. 
 
 |Frage|Aktion |
 |------------|-------|
@@ -91,7 +92,7 @@ Mithilfe von Messagingrichtlinien wird gesteuert, welche Chat- und Messagingfunk
 
 ### <a name="external-access"></a>Externer Zugriff
 
-Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation. Durch Aktivieren dieser Funktion und Hinzufügen von Domänen zur Liste der zulässigen Domänen können Ihre Benutzer mit Benutzern in anderen Domänen und Organisationen kommunizieren.Externer Zugriff unterscheidet sich darin von Gastzugriff, dass die Zugriffsberechtigung anstelle eines Einzelbenutzers einer gesamten Domäne erteilt wird. Der externe Zugriff ist standardmäßig deaktiviert.
+Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation. Durch Aktivieren dieser Funktion und Hinzufügen von Domänen zur Liste der zulässigen Domänen können Ihre Benutzer mit Benutzern in anderen Domänen und Organisationen kommunizieren. Externer Zugriff unterscheidet sich von Gastzugriff darin, dass die Zugriffsberechtigung anstelle eines Einzelbenutzers einer gesamten Domäne erteilt wird. Der externe Zugriff ist standardmäßig deaktiviert.
 
 |Frage|Aktion |
 |------------|-------|
@@ -114,18 +115,18 @@ Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organi
 
 ### <a name="teams-settings"></a>Teams-Einstellungen
 
-Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Mail-Integration, Cloud-Speicheroptionen, die Organisationsregisterkarte, das Einrichten von Geräten in Besprechungsräumen und den Suchbereich einrichten. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Teams in Ihrer Organisation.Weitere Informationen finden Sie unter [Teams-Einstellungen](enable-features-office-365.md#teams-settings).
+Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Mail-Integration, Cloud-Speicheroptionen, die Organisationsregisterkarte, das Einrichten von Geräten in Besprechungsräumen und den Suchbereich einrichten. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Teams in Ihrer Organisation. Weitere Informationen finden Sie unter [Teams-Einstellungen](enable-features-office-365.md#teams-settings).
 
-|Frage|Aktion |
+|Fragen Sie sich|Aktion |
 |------------|-------|
 |Soll ich die Teams-Einstellungen für meine Organisation anpassen? | Informationen über Teams-Einstellungen und ihre Anpassung finden Sie unter [Teams-Einstellungen](enable-features-office-365.md#teams-settings).|
 |||
 
 ### <a name="teams-clients"></a>Teams-Clients
 
-Teams unterstützt eine Reihe von Clients, von Web- über Desktop- bis zu mobilen Clients, und in der Standardkonfiguration können die Benutzer die Clients ihrer Wahl verwenden.Weitere Informationen hierzu finden Sie unter [Beziehen von Clients für Microsoft Teams](get-clients.md).
+Teams unterstützt eine Reihe von Clients, von Web- über Desktop- bis zu mobilen Clients, und in der Standardkonfiguration können die Benutzer die Clients ihrer Wahl verwenden. Weitere Informationen hierzu finden Sie unter [Beziehen von Clients für Microsoft Teams](get-clients.md).
 
-|Frage|Aktion |
+|Fragen Sie sich|Aktion |
 |------------|-------|
 |Soll ich die Teams-Clientverfügbarkeit für meine Organisation anpassen?|Lesen Sie [Hardwareanforderungen für die Microsoft Teams-App](hardware-requirements-for-the-teams-app.md). |
 |Soll ich die Teams-Clienteinstellungen für meine Organisation anpassen?|Erfahren Sie mehr über das [Installieren von Microsoft Teams mithilfe von MSI](msi-deployment.md).|
@@ -211,7 +212,7 @@ Eine angeheftete App wird im Seitenbereich in Teams angezeigt. Durch Erstellen v
 
 Ihre Organisation schreibt möglicherweise vor, dass Sie Verfahren zur Archivierung und zu den in bestimmten Arten von Teams aufzubewahrenden Arten von Daten implementieren. Lesen Sie [Übersicht über Sicherheit und Compliance in Teams](security-compliance-overview.md), um zu erfahren, welche Einstellungen standardmäßig aktiviert sind.
 
-| Frage | Aktion |
+| Fragen Sie sich | Aktion |
 |--------------|--------|
 |Muss ich für Teams Aufbewahrung konfigurieren?|Informationen zum Einrichten von Aufbewahrungsrichtlinien finden Sie unter [Set up Teams retention policies](retention-policies.md) (Einrichten von Aufbewahrungsrichtlinien in Teams).|
 |Muss ich die Archivierung von Teams konfigurieren?|Informationen zum Archivieren oder Wiederherstellen eines Teams finden Sie unter [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).|
