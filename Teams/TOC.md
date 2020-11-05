@@ -258,6 +258,7 @@
 ### Referenz
 #### [In Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md)
 #### [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [Land- und Regionzonen für Audiokonferenzen](audio-conferencing-zones.md)
 #### [Videos – Audiokonferenzen in Teams](audio-conferencing-videos.md)
 
 
@@ -683,7 +684,7 @@
 ### Virtuelle Besuche
 #### [Virtuelle Besuche mit Teams – Integration in die EGA](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [Virtuelle Besuche mit Bookings und Teams](bookings-app-admin.md)
-### [Teams-Richtlinienpakete erstellen](policy-packages-healthcare.md)
+### [Richtlinienpakete anzeigen und zuweisen](policy-packages-healthcare.md)
 ### Sicheres Messaging
 #### [Sicheres Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Nachrichtendelegierung](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -930,7 +931,6 @@
 ### [Finnland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [Frankreich](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [Georgien](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Deutschland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
 ### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Griechenland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
