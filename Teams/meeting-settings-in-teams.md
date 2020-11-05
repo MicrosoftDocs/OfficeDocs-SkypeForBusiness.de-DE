@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: b1c71c4b22b90c38e4b34eebd745b85f7d27e86c
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: b231fb1ae564466985195325fb748af5730623a6
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824946"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908484"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -77,7 +77,7 @@ Sie können Teams-Besprechungseinladungen an die Bedürfnisse Ihrer Organisation
     - **URL für rechtliche Hinweise** Wenn Ihre Organisation über eine Website mit rechtlichen Hinweisen verfügt, zu der Personen bei rechtliche Bedenken navigieren sollen, geben Sie die URL hier ein.
     - **Hilfe-URL** Wenn Ihre Organisation über eine Supportwebsite verfügt, zu der Personen bei Problemen navigieren sollen, geben Sie die URL hier ein.
     - **Fußzeile** Geben Sie Text ein, der als Fußzeile angezeigt werden soll.
-4. Klicken Sie auf **Vorschau für Einladung**, um eine Vorschau Ihrer Besprechungseinladung anzuzeigen.
+4. Klicken Sie auf **Vorschau für Einladung** , um eine Vorschau Ihrer Besprechungseinladung anzuzeigen.
 5. Klicken Sie abschließend auf **Speichern**.
 6. Warten Sie eine Stunde, bis die Änderungen weitergegeben wurden. Planen Sie dann eine Teams-Besprechung, um zu sehen, wie die Besprechungseinladung aussieht.  
 
@@ -120,6 +120,6 @@ Typ des Mediendatenverkehrs| Client-Quellportbereich \* |Protokoll|DSCP-Wert|DSC
 |Anwendung/Bildschirmfreigabe| 50.040–50.059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\* Die von Ihnen zugewiesenen Portbereiche dürfen sich nicht überlappen und müssen aufeinander folgen.
+\* Die zugewiesenen Portbereiche können sich nicht überlappen und sollten benachbart sein.
 
 Nachdem QoS eine Weile im Einsatz war, erhalten Sie Nutzungsinformationen über den Bedarf für jede dieser drei Arbeitsauslastungen, und Sie können auswählen, welche Änderungen Sie auf der Grundlage Ihrer spezifischen Anforderungen vornehmen möchten. Das [Anrufqualitäts-Dashboard](turning-on-and-using-call-quality-dashboard.md) wird dabei hilfreich sein.

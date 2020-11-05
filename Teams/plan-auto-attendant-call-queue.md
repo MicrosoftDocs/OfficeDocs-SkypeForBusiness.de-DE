@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschlangen und wie Sie Sie verwenden können, um Anrufern zu helfen, durch ein Menü System zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 7407b9a2bbcd8d8b3fb5d15202d1bba518953f07
-ms.sourcegitcommit: 6c24c77f0aad693d45dd5657c12bf876f62c495b
+ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "48765942"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908604"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams
 
@@ -70,11 +70,21 @@ Zum Konfigurieren von automatischen Telefonzentralen und Anrufwarteschlangen ben
 
 - Ein Ressourcenkonto für jede automatische Telefonzentrale und jede Anrufwarteschlange
 - Eine ﻿kostenlose Telefonanlage – virtuelle Benutzerlizenz für jedes Ressourcenkonto
-- Eine Dienstnummer für jede automatische Telefonzentrale oder Anrufwarteschlange, die direkt gewählt werden soll
-- Einen Anrufplan für jede Person, die Anruf Warteschlangen Anrufe empfangen wird
+- Mindestens eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), eine direkte Routingnummer oder eine Hybrid Nummer für jedes Ressourcenkonto, das direkt gewählt werden soll
+ - Die Service-Nummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
+
+Agents, die Anrufe aus den Anrufwarteschlangen empfangen, müssen Enterprise-VoIP-Online oder lokale Benutzer sein. 
+
+Wenn Ihre Agents die Microsoft Teams-App für Anruf Warteschlangen Anrufe verwenden, müssen Sie sich im TeamsOnly-Modus befinden.
+
+Bei der Übertragung von Anrufen an eine externe Telefonnummer muss das Ressourcenkonto, das die Übertragung durchführt (also das mit der automatischen Telefonzentrale oder der Anrufwarteschlange verknüpfte), eine Telefonnummer und eine virtuelle Benutzerlizenz des Microsoft 365 Phone-Systems aufweisen. Darüber hinaus
+
+- Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
+- Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
 
 > [!NOTE]
-> Direct Routing-Dienstnummern für die automatische Telefonzentrale und die Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und Anruf-Agents unterstützt.
+> Direct Routing-Dienstnummern für die automatische Telefonzentrale und die Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und Anruf-Agents unterstützt.<br>
+> Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
 
 ## <a name="business-decisions"></a>Geschäftliche Entscheidungen
 
@@ -180,18 +190,6 @@ Nachfolgend finden Sie einige bewährte Methoden für die Anrufweiterleitung:
 - Beschreiben Sie zuerst den Dienst, gefolgt von der Option zum Drücken (zum Beispiel: für Verkäufe drücken Sie 1) und nicht umgekehrt (zB. Drücken Sie 1 für Sales).
 - Benutzer Terminologie Ihre Anrufer verstehen nicht, was Sie intern verwenden können.
 - Vermeiden Sie häufige Updates für das Anrufrouting. Wenn Sie Ihre Menü Optionen für eine automatische Telefonzentrale in Zukunft ändern, können Sie diese in den ersten 30 Tagen in den Sprachansagen anrufen.
-
-## <a name="resource-accounts-and-phone-numbers"></a>Ressourcenkonten und Telefonnummern
-
-Teams verwendet *[Ressourcenkonten](manage-resource-accounts.md)* , um automatische Telefonzentralen zu verbinden und Warteschlangen anzurufen und Ihnen auf Wunsch Telefonnummern zuzuweisen.
-
-- Für jede Anrufwarteschlange und für die automatische Telefonzentrale ist mindestens ein Ressourcenkonto erforderlich.
-- Für jedes Ressourcenkonto ist eine ﻿kostenlose Telefonanlage (Virtual User License) erforderlich.
-- Einem Ressourcenkonto kann optional eine oder mehrere Servicenummern zugewiesen werden. (So werden Telefonnummern automatischen Telefonzentralen und Anrufwarteschlangen zugewiesen.)
-
-Sie können einem Ressourcenkonto eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), eine direkte Routingnummer oder eine Hybrid Nummer zuweisen.
-
-Sie können entweder gebührenpflichtige oder gebührenfreie Servicenummern nutzen. Sie können keine Benutzer Telefonnummern für automatische Telefonzentralen oder Anrufwarteschlangen verwenden.
 
 ## <a name="getting-started"></a>Erste Schritte
 

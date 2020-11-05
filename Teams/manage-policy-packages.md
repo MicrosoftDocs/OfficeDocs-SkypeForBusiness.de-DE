@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten, um die Konsistenz beim Verwalten von Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und zu gewährleisten.
-ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 986d64b11420877e146abc68f9f65c0503f49ff0
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48488428"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48918656"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
@@ -89,7 +89,7 @@ Mit benutzerdefinierten Richtlinien Paketen können Sie Ihren eigenen Satz von R
 
 So erstellen Sie ein neues benutzerdefiniertes Richtlinienpaket:
 
-1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams admin Centers **Richtlinien Pakete**aus, und klicken Sie dann auf **Hinzufügen**.
+1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams admin Centers **Richtlinien Pakete** aus, und klicken Sie dann auf **Hinzufügen**.
     :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche "hinzufügen" auf der Seite "Richtlinien Pakete" im Admin Center":::
 2. Geben Sie einen Namen und eine Beschreibung für Ihr Paket ein.
     :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Screenshot des Hinzufügens eines neuen benutzerdefinierten Richtlinienpakets":::
@@ -102,13 +102,13 @@ Im folgenden wird beschrieben, wie Sie Richtlinien Pakete in Ihrer Organisation 
 
 ![Übersicht über das Verwenden von Richtlinien Paketen](media/manage-policy-packages-overview.png)
 
-- **[Ansicht](#view-the-settings-of-a-policy-in-a-policy-package)**: zeigen Sie die Richtlinien in einem Richtlinienpaket an. Zeigen Sie dann die Einstellungen der einzelnen Richtlinien in einem Paket an, bevor Sie das Paket zuweisen. Stellen Sie sicher, dass Sie die einzelnen Einstellungen verstehen. Entscheiden Sie, ob die vordefinierten Werte für Ihre Organisation geeignet sind, oder ob Sie Sie entsprechend den Anforderungen Ihrer Organisation restriktiver oder nachsichtig ändern müssen.
+- **[Ansicht](#view-the-settings-of-a-policy-in-a-policy-package)** : zeigen Sie die Richtlinien in einem Richtlinienpaket an. Zeigen Sie dann die Einstellungen der einzelnen Richtlinien in einem Paket an, bevor Sie das Paket zuweisen. Stellen Sie sicher, dass Sie die einzelnen Einstellungen verstehen. Entscheiden Sie, ob die vordefinierten Werte für Ihre Organisation geeignet sind, oder ob Sie Sie entsprechend den Anforderungen Ihrer Organisation restriktiver oder nachsichtig ändern müssen.
 
     Wenn eine Richtlinie gelöscht wird, können Sie weiterhin die Einstellungen anzeigen, aber Sie können keine Einstellungen ändern. Eine gelöschte Richtlinie wird mit den vordefinierten Einstellungen neu erstellt, wenn Sie das Richtlinienpaket zuweisen.
 
-- **[Anpassen](#customize-policies-in-a-policy-package)**: passen Sie die Einstellungen der Richtlinien im Richtlinienpaket an die Anforderungen Ihrer Organisation an.
+- **[Anpassen](#customize-policies-in-a-policy-package)** : passen Sie die Einstellungen der Richtlinien im Richtlinienpaket an die Anforderungen Ihrer Organisation an.
 
-- **[Zuweisen](#assign-a-policy-package)**: weisen Sie das Richtlinienpaket Benutzern zu.  
+- **[Zuweisen](#assign-a-policy-package)** : weisen Sie das Richtlinienpaket Benutzern zu.  
 
 > [!NOTE]
 > Sie können auch die Einstellungen von Richtlinien in einem Richtlinienpaket ändern, nachdem Sie ein Paket zugewiesen haben. Alle Änderungen, die Sie an Richtlinieneinstellungen vornehmen, werden automatisch auf Benutzer angewendet, denen das Paket zugewiesen ist.
@@ -117,7 +117,7 @@ Im folgenden finden Sie die Schritte zum Anzeigen, zuweisen und Anpassen von Ric
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Anzeigen der Einstellungen einer Richtlinie in einem Richtlinienpaket
 
-1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams admin Centers **Richtlinien Pakete**aus, und wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
+1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams admin Centers **Richtlinien Pakete** aus, und wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
 2. Klicken Sie auf die Richtlinie, die Sie anzeigen möchten.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Anpassen von Richtlinien in einem Richtlinienpaket
@@ -125,25 +125,33 @@ Im folgenden finden Sie die Schritte zum Anzeigen, zuweisen und Anpassen von Ric
 Sie können die Einstellungen einer Richtlinie über die Seite " **Richtlinien Pakete** " Bearbeiten oder direkt zur Seite "Richtlinie" im Microsoft Teams Admin Center wechseln.
 
 1. Führen Sie in der linken Navigationsleiste des Microsoft Teams Admin Center eine der folgenden Aktionen aus:
-    - Klicken Sie auf **Richtlinien Pakete**, und wählen Sie dann das Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
+    - Klicken Sie auf **Richtlinien Pakete** , und wählen Sie dann das Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
     - Klicken Sie auf den Richtlinientyp.  Klicken Sie beispielsweise auf **Messaging Richtlinien**.
 2. Wählen Sie die Richtlinie aus, die Sie bearbeiten möchten. Richtlinien, die mit einem Richtlinienpaket verknüpft sind, haben denselben Namen wie das Richtlinienpaket.
 3. Nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Speichern**.
 
-### <a name="assign-a-policy-package"></a>Zuweisen eines Richtlinienpakets
+### <a name="assign-a-policy-package"></a>Zuweisen eines Richtlinienpakets 
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Zuweisen eines Richtlinienpakets zu einem Benutzer
 
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
-2. Klicken Sie auf der Seite des Benutzers auf **Richtlinien**, und klicken Sie dann neben **Richtlinienpaket**auf **Bearbeiten**.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer** , und klicken Sie dann den gewünschten Nutzer an.
+2. Klicken Sie auf der Seite des Benutzers auf **Richtlinien** , und klicken Sie dann neben **Richtlinienpaket** auf **Bearbeiten**.
 3. Wählen Sie im Bereich **Richtlinienpaket zuweisen** das Paket aus, das Sie zuweisen möchten, und klicken Sie dann auf **Speichern**.
 
 #### <a name="assign-a-policy-package-to-multiple-users"></a>Zuweisen eines Richtlinienpakets zu mehreren Benutzern
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Richtlinien Paketen**, und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen klicken.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Richtlinien Paketen** , und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen klicken.
 2. Klicken Sie auf **Benutzer verwalten**.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
+
+#### <a name="assign-a-policy-package-to-a-group"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe
+
+**Dieses Feature befindet sich in der privaten Vorschau**
+
+Mit der Richtlinienpaket Zuweisung zu Gruppen können Sie einer Gruppe von Benutzern mehrere Richtlinien zuweisen, beispielsweise eine Sicherheitsgruppe oder eine Verteilerliste. Die Richtlinienzuweisung wird nach Rangfolgeregeln an Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden Ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert. Diese Methode wird für Gruppen von bis zu 50.000 Benutzern empfohlen, funktioniert aber auch mit größeren Gruppen.
+
+Weitere Informationen finden Sie unter [Zuweisen eines Richtlinienpakets zu einer Gruppe](assign-policies.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Zuweisen eines Richtlinienpakets zu einem umfangreichen Satz (Batch) von Benutzern
 

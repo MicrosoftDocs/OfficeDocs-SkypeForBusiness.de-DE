@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Mandanten und Gebäudedaten im Dashboard für die Anrufqualität (CQD) hochladen.
-ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897835"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908694"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Hochladen von Mandanten und Erstellen von Daten im Dashboard für die Anrufqualität (CQD)
 
@@ -161,7 +161,7 @@ Der andere Typ der CQD-Mandantendaten Datei ist die **Endpunkt** Datendatei. Die
 
 - Der Inhalt der Datendatei umfasst keine Tabellenüberschriften. In der ersten Zeile der Datendatei wird erwartet, dass es sich um reelle Daten handelt, nicht um eine Headerbezeichnung wie "Endpunktname".
 
-- Alle sechs Spalten verwenden nur den Datentyp "Zeichenfolge". Die maximal zulässige Länge beträgt 64 Zeichen.
+- In allen sieben Spalten wird nur der Datentyp "Zeichenfolge" verwendet. Die maximal zulässige Länge beträgt 64 Zeichen.
 
 - Ein Datenfeld kann leer sein, muss aber durch Tabstopps oder Kommas getrennt werden. Ein leeres Datenfeld weist nur einen leeren Zeichenfolgenwert zu.
 
@@ -169,15 +169,15 @@ Der andere Typ der CQD-Mandantendaten Datei ist die **Endpunkt** Datendatei. Die
 
 - EndpointLabel1, EndpointLabel2 und EndpointLabel3 sind anpassbare Beschriftungen. Sie können leere Zeichenfolgen oder Werte sein, beispielsweise "IT-Abteilung, die als 2018-Laptop bezeichnet wird" oder "Asset Tag 5678".
 
-- Es müssen sechs Spalten für jede Zeile vorhanden sein, und die Spalten müssen in der folgenden Reihenfolge vorliegen:
+- Für jede Zeile müssen sieben Spalten vorhanden sein, und die Spalten müssen in der folgenden Reihenfolge vorliegen:
 
   **Feld Reihenfolge:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Beispiel Zeile:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 
 ## <a name="update-a-building-file"></a>Aktualisieren einer Gebäude Datei

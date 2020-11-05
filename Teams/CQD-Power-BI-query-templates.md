@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Sie Power BI zum Analysieren von CQD-Daten für Microsoft Teams.
-ms.openlocfilehash: 5ce4aa58033555551c2fa75f3c3eb93068c59601
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584044"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908644"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams
 
@@ -35,6 +35,7 @@ Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffs Rolle](https://doc
 
 |  |  |
 |---------|---------|
+|<strong>(Neu!)</strong> CQD Teams automatische Telefonzentrale & Anrufwarteschlange-Verlaufsbericht. PBit     |  Diese Vorlage enthält die folgenden drei Berichte:</p><li>Automatische Telefonzentrale – zeigt Analysen für Anrufe an, die in Ihre automatischen Telefonzentralen kommen.</li><li>Anrufwarteschlange – zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschlangen kommen.</li><li>Agent-Zeitachse – zeigt eine Zeitachsenansicht von Agents an, die in Anruf Warteschlangen anrufen aktiv sind.</li><br>Weitere Informationen finden Sie unter [Verwenden des CQD Power BI-Berichts zum Anzeigen der automatischen Telefonzentrale & Verlaufsbericht zur Anrufwarteschlange](CQD-teams-aa-cq-historical-report.md).        |
 |CQD Helpdesk-Bericht. PBit     |Durch die Integration von Gebäude-und EUII-Daten ist dieser Bericht dazu vorgesehen, Ihnen den Einstieg in einen einzelnen Benutzer zu ermöglichen, um die Upstream-Ursache für die schlechte Anrufqualität für diesen Benutzer zu finden (beispielsweise befindet sich der Benutzer in einem Gebäude, in dem Netzwerkprobleme auftreten).         |
 |CQD Location Enhanced Report. PBit     | Re-Imaginary CQD SPD-Standortberichte. Umfasst 9 Berichte, die Anrufqualität, WLAN-Nutzung, Zuverlässigkeit und die Bewertung meiner Anrufinformationen (RMA) mit zusätzlichen Drill-thrus durch Gebäude oder Nutzer.  Stellen Sie sicher, dass Sie die Gebäudedaten hochgeladen haben, um Ihre Berichterstellung zu maximieren.        |
 |CQD Mobile Device Report. PBit     | Bietet Einblicke, die speziell auf Nutzer von mobilen Geräten abgestimmt sind, einschließlich Anrufqualität, Zuverlässigkeit und Bewertung meines Anrufs. Sehen Sie sich das Mobilfunknetz, das WLAN-Netzwerk und die Berichte für mobile Betriebssysteme an (Android, IOS).        |
