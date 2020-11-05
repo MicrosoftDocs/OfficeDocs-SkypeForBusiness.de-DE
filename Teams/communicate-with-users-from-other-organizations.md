@@ -1,6 +1,6 @@
 ---
-title: Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams
-author: SerdarSoysal
+title: Benutzer aus anderen Organisationen anrufen und mit ihnen chatten
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.topic: article
@@ -13,21 +13,21 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie mit Benutzern aus anderen Organisationen in Microsoft Teams über externen Zugriff (Partnerverbund) und Gastzugriff kommunizieren können.
+description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten und sie finden und hinzufügen können.
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 0535798a506adf839391c9e9075ff1e68398e341
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761381"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878669"
 ---
-<a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams
+<a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Benutzern aus anderen Organisationen in Microsoft Teams anrufen und mit ihnen chatten
 ======================================================
 
-Wenn Sie mit Personen außerhalb Ihrer Organisation kommunizieren und zusammenarbeiten müssen, bietet Ihnen Microsoft Teams zwei verschiedene Möglichkeiten, dies zu bewerkstelligen. Die erste Möglichkeit ist der **externe Zugriff** (Partnerverbund), mit dem Sie Benutzer in anderen Domänen (z.B. contoso.com) finden, anrufen und mit ihnen chatten können. Die zweite Möglichkeit ist der **Gastzugriff**, mit dem Sie Personen über ihre E-Mail-Adresse zu Ihren Teams als Gäste hinzufügen können. Sie können mit Gästen wie mit allen anderen Benutzern in Ihrer Organisation zusammenarbeiten.
+Wenn Sie mit Personen außerhalb Ihrer Organisation kommunizieren und zusammenarbeiten möchten, bietet Ihnen Microsoft Teams dafür zwei verschiedene Möglichkeiten. Die erste Möglichkeit ist der **externe Zugriff** (Partnerverbund), mit dem Sie Benutzer in anderen Domänen (z.B. contoso.com) finden, anrufen und mit ihnen chatten können. Die zweite Möglichkeit ist der **Gastzugriff** , mit dem Sie Personen über ihre E-Mail-Adresse zu Ihren Teams als Gäste hinzufügen können. Sie können mit Gästen wie mit allen anderen Benutzern in Ihrer Organisation zusammenarbeiten.
 
 Sie können bei Bedarf sowohl externen als auch Gastzugriff verwenden. Beides schließt sich nicht gegenseitig aus.
 
@@ -35,7 +35,7 @@ Auf einer hohen Ebene ist hier die Auswahl (für einen detaillierten Vergleich s
 
 ## <a name="external-access"></a>Externer Zugriff
 
-Verwenden Sie den **externen Zugriff** (Partnerverbund), wenn Sie eine Lösung benötigen, die es externen Benutzern in anderen Domänen ermöglicht, Sie zu finden, anzurufen, mit Ihnen zu chatten und Meetings zu organisieren. Externe Benutzer haben keinen Zugriff auf die Teams oder Teamressourcen Ihrer Organisation. Wählen Sie einen externen Zugang, wenn Sie mit externen Benutzern kommunizieren möchten, die noch auf Skype for Business (online oder vor Ort) oder Skype (verfügbar Anfang 2020) arbeiten. 
+Verwenden Sie den **externen Zugriff** (Partnerverbund), wenn Sie eine Lösung benötigen, die es externen Benutzern in anderen Domänen ermöglicht, Sie zu finden, anzurufen, mit Ihnen zu chatten und Meetings zu organisieren. Externe Benutzer haben keinen Zugriff auf die Teams oder Teamressourcen Ihrer Organisation. Wählen Sie einen externen Zugang, wenn Sie mit Benutzern außerhalb Ihrer Organisation kommunizieren möchten, die noch mit Skype for Business (online oder lokal) oder mit Skype (verfügbar Anfang 2020) arbeiten. 
 
 Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Der Team-Administrator kann es deaktivieren oder angeben, welche Domänen ein- oder ausgeschlossen werden sollen. Weitere Informationen hierzu finden Sie unter [Verwalten des externen Zugriffs](manage-external-access.md). 
 
@@ -44,7 +44,7 @@ Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren
 
 ## <a name="guest-access"></a>Gastzugriff
 
-Verwenden Sie den **Gastzugriff**, um einen einzelnen Benutzer (unabhängig von der Domäne) zu einem Team hinzuzufügen, wo er chatten, anrufen, sich mit anderen treffen und an Unternehmensdateien (gespeichert in SharePoint oder OneDrive for Business) mit Microsoft 365- oder Office 365-Anwendungen wie Word, Excel oder PowerPoint zusammenarbeiten kann. Einem Gastbenutzer können fast alle Funktionen des Teams wie einem nativen Teammitglied zur Verfügung gestellt werden. Weitere Informationen finden Sie unter [Gastzugriff in Teams](guest-access.md).
+Verwenden Sie den **Gastzugriff** , um einen einzelnen Benutzer (unabhängig von der Domäne) zu einem Team hinzuzufügen, wo er chatten, anrufen, sich mit anderen treffen und an Unternehmensdateien (gespeichert in SharePoint oder OneDrive for Business) mit Microsoft 365- oder Office 365-Anwendungen wie Word, Excel oder PowerPoint zusammenarbeiten kann. Einem Gastbenutzer können fast alle Funktionen des Teams wie einem nativen Teammitglied zur Verfügung gestellt werden. Weitere Informationen finden Sie unter [Gastzugriff in Teams](guest-access.md).
 
 - Gäste werden der Active Directory Ihrer Organisation hinzugefügt.
 - Um mit einem Gast zu kommunizieren, muss der Gast mit seinem Gastkonto bei Teams angemeldet sein. Das bedeutet, dass sich ein Gast möglicherweise von seinem eigenen Team-Konto abmelden muss, um sich bei Ihrem Team-Konto anzumelden, oder zu einer anderen Organisation wechseln muss, wenn es sich um dasselbe Konto handelt.
