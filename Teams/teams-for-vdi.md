@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778898"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925467"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -229,7 +229,6 @@ Weitere Informationen dazu, wie Sie Ihr Netzwerk für Teams vorbereiten, finden 
 
 Wenn Sie von Skype for Business auf VDI zu Teams auf VDI migrieren, gibt es neben den Unterschieden zwischen den beiden Anwendungen einige Unterschiede, wenn VDI ebenfalls implementiert wird. Einige Funktionen, die derzeit in den VDI-Teams von Skype for Business nicht unterstützt werden, sind wie folgt:
 
-- Steuerung von VDI-Anruf Erfahrungen mit Richtlinien zum Begrenzen der Medien Bitrate
 - Plattformspezifische Richtlinie zum Deaktivieren einiger AV-Features in VDI
 - Geben und übernehmen der Steuerung bei der APP-Freigabe
 - Bildschirmfreigabe aus Chat ohne Audio
@@ -260,27 +259,27 @@ Sie können Richtlinien mit dem Microsoft Teams Admin Center oder mit PowerShell
 
 So weisen Sie einem Benutzer die DisallowCalling-Anrufrichtlinie und die AllOff-Besprechungsrichtlinie zu:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer** .
-2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Gehen Sie folgendermaßen vor:
-    1.  Klicken Sie unter **Anrufrichtlinie** auf **DisallowCalling** .
-    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **AllOff** .
-4. Klicken Sie auf **Anwenden** .
+    1.  Klicken Sie unter **Anrufrichtlinie** auf **DisallowCalling**.
+    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **AllOff**.
+4. Klicken Sie auf **Anwenden**.
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer** , und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
 2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen** .
+3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
-    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **DisallowCalling** .
-    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **AllOff** .
+    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **DisallowCalling**.
+    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **AllOff**.
 2. Wählen Sie **Nutzer verwalten** aus.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
-4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern** .
+4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell
 
@@ -316,27 +315,27 @@ Sie können das Microsoft Teams Admin Center oder PowerShell verwenden, um Ihren
 
 So weisen Sie einem Benutzer die AllowCalling-Anrufrichtlinie und die Allon-Besprechungsrichtlinie zu:
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer** .
-2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Gehen Sie folgendermaßen vor:
-    1.  Klicken Sie unter **Anrufrichtlinie** auf **AllowCalling** .
-    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **Allon** .
-4. Klicken Sie auf **Anwenden** .
+    1.  Klicken Sie unter **Anrufrichtlinie** auf **AllowCalling**.
+    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **Allon**.
+4. Klicken Sie auf **Anwenden**.
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer** , und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
 2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Wenn Sie alle Benutzer auswählen möchten, klicken Sie oben in der Tabelle auf das **&#x2713;** (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen** .
+3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
-    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **AllowCalling** .
-    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **Allon** .
+    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **AllowCalling**.
+    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **Allon**.
 2. Wählen Sie **Nutzer verwalten** aus.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
-4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern** .
+4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell
 
@@ -363,7 +362,7 @@ Wenn Benutzer eine Verbindung mit einem nicht unterstützten Endpunkt herstellen
 - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-Um den Fall Back Modus zu deaktivieren, setzen Sie den Wert auf **1** . Wenn Sie nur Audio aktivieren möchten, setzen Sie den Wert auf **2** . Wenn der Wert nicht vorhanden ist oder auf **0** (null) eingestellt ist, ist der Fall Back Modus aktiviert.
+Um den Fall Back Modus zu deaktivieren, setzen Sie den Wert auf **1**. Wenn Sie nur Audio aktivieren möchten, setzen Sie den Wert auf **2**. Wenn der Wert nicht vorhanden ist oder auf **0** (null) eingestellt ist, ist der Fall Back Modus aktiviert.
 
 Dieses Feature ist in den Teams Version 1.3.00.13565 und höher verfügbar.
 

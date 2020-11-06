@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Informieren Sie sich über die Interoperabilitätsfunktionen zwischen Teams-Benutzern in Ihrer Organisation und Skype (Consumer)-Benutzern.
 localization_priority: Normal
-ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919037"
+ms.locfileid: "48925427"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams und Skype-Interoperabilität
 
@@ -90,7 +90,10 @@ Wechseln Sie im Microsoft Teams Admin Center zu **organisationsweiten Einstellun
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Verwenden Sie das Cmdlet " [Satz-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) " zusammen mit dem ```EnablePublicCloudAccess``` Parameter, um zu steuern, ob die Benutzer von Teams mit Skype-Benutzern kommunizieren können. Durch Festlegen des Parameters ```true``` können die Benutzer von Teams mit Skype-Nutzern kommunizieren. Sie können den ```EnablePublicCloudAudioVideoAccess``` Parameter verwenden, um Audio-und Videoanrufe zu aktivieren/deaktivieren.
+Gehen Sie folgendermaßen vor: 
+1. Verwenden Sie das Cmdlet " [Satz-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) " zusammen mit dem ```EnablePublicCloudAccess``` Parameter, um zu steuern, ob die Benutzer von Teams mit Skype-Benutzern kommunizieren können. Durch Festlegen des Parameters ```true``` können die Benutzer von Teams mit Skype-Nutzern kommunizieren. Sie können den ```EnablePublicCloudAudioVideoAccess``` Parameter verwenden, um Audio-und Videoanrufe zu aktivieren/deaktivieren.
+
+2. Verwenden Sie das Cmdlet " [Satz-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) " zusammen mit dem ```Provider``` Parametersatz, ```"WindowsLive"``` damit die Benutzer von Teams mit Skype-Benutzern kommunizieren können.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

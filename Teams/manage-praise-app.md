@@ -8,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Informationen zu den Administratoreinstellungen in der Lob-App im Microsoft Teams Admin Center
-ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: 4e96355a3b05af2c9df484a2451014fbbaf0e926
+ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48580451"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48929526"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
 > [!NOTE]
 > Administratoren müssen über eine Teams-Lizenz verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Teams-Lizenz auf dieses Feature zuzugreifen, erhalten Sie eine Fehlermeldung.
 
-Die Lob-app in Microsoft Teams hilft Benutzern, die Mitglieder Ihrer Organisation oder Ihres Klassenzimmers zu schätzen. Mit einer Auswahl von Signal Sätzen, die Sie auswählen können, und der Möglichkeit, ihre eigenen Badges zu erstellen, soll das Lob dazu beitragen, die Anstrengung zu erkennen, die in die breite Palette der Arbeit, die die Benutzer von Teams tun, eingeht, von Pädagogen bis zu Mitarbeitern in erster Linie.
+Die Lob-app in Microsoft Teams hilft Benutzern, die Mitglieder Ihrer Organisation oder Ihres Klassenzimmers zu schätzen. Mit einer Auswahl von Signal Sätzen, die Sie auswählen können, und der Möglichkeit, ihre eigenen Badges zu erstellen, soll das Lob dazu beitragen, die Anstrengung zu erkennen, die in die breite Palette der Arbeit, die die Benutzer von Teams tun, eingeht, von Pädagogen bis zu Mitarbeitern in erster Linie. Weitere Informationen finden Sie unter [Lob an andere Personen senden](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Administratoren können über das Team Admin Center steuern, welche Abzeichen für Ihre Organisation zur Verfügung stehen. Wählen Sie im linken Navigationsbereich die Option **Teams-apps > apps verwalten**aus. Öffnen Sie Lob im [Mandanten-App-Katalog](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog), und wechseln Sie zu **Einstellungen**.
+Administratoren können über das Microsoft Teams Admin Center steuern, welche Abzeichen für Ihre Organisation zur Verfügung stehen. Wechseln Sie in der linken Navigationsleiste zu **Teams-apps > apps verwalten**. Klicken Sie in der Liste der apps auf **LOB** , und wählen Sie dann **Einstellungen** aus.  Hier können Sie festlegen, dass standardmäßige und integrierte Signal Sätze aktiviert und benutzerdefinierte Badges erstellt werden.
+
+![Screenshot der Registerkarte "Einstellungen" für die Lob-App](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > Das Lob-App-Feature steht für Clouds der US-Regierung nicht zur Verfügung.
@@ -51,7 +53,9 @@ Pädagogen können einzelne Schüler für soziale und emotionale Lernziele (SEL)
 
 ## <a name="create-your-own-badges"></a>Erstellen eigener Badges
 
-Wechseln Sie zum Schalter **benutzerdefinierte Badges** zu ein, und wählen Sie **benutzerdefiniertes Badge erstellen**aus. Von dort aus können Sie ein benutzerdefiniertes Badge im Seitenbereich entwerfen. Sie können bis zu 25 benutzerdefinierte Badges erstellen. 
+Wählen Sie **benutzerdefiniertes Badge erstellen** aus. Von hier aus können Sie ein benutzerdefiniertes Badge im Seitenbereich entwerfen. Sie können bis zu 25 benutzerdefinierte Badges erstellen. 
+
+![Screenshot des Bereichs "Erstellen eines benutzerdefinierten Signals"](media/manage-praise-app-create-custom-badge.png)
 
 1. Geben Sie einen Badge-Namen ein. Dies ist der Name, der auf dem Badge angezeigt wird, wenn Nutzer Lob senden.
 
@@ -63,16 +67,16 @@ Wechseln Sie zum Schalter **benutzerdefinierte Badges** zu ein, und wählen Sie 
 3. Hochladen eines Badge-Bilds Der akzeptierte Dateityp ist. PNG. Die Bilddatei muss kleiner als 40 KB mit Maximalabmessungen von 216 X 216 Pixeln sein.
 ![Abzeichen mit beschrifteten Feldern für Hintergrund, Text und Bild](media/praise-app-badge-fields.png)
 
-4. Lokalisieren Sie Ihren Badge-Namen: Wählen Sie unter **lokalisierte Signalnamen**die Option **Hinzufügen**aus. Wählen Sie in der Dropdownliste das gewünschte Gebietsschema aus. Geben Sie dann den Namen des Signals in der angegebenen Sprache ein.
+4. Lokalisieren Sie Ihren Badge-Namen: Wählen Sie unter **lokalisierte Signalnamen** die Option **Hinzufügen** aus. Wählen Sie in der Dropdownliste das gewünschte Gebietsschema aus. Geben Sie dann den Namen des Signals in der angegebenen Sprache ein.
 
-5. Schließen Sie Ihre Plakette von bestimmten Gebietsschemas ab: Wählen Sie unter **Badge aus diesen Gebietsschemas ausschließen**die Option **Hinzufügen**aus. Wählen Sie in der Dropdownliste die Gebietsschemas aus, die Sie ausschließen möchten.
+5. Schließen Sie Ihre Plakette von bestimmten Gebietsschemas ab: Wählen Sie unter **Badge aus diesen Gebietsschemas ausschließen** die Option **Hinzufügen** aus. Wählen Sie in der Dropdownliste die Gebietsschemas aus, die Sie ausschließen möchten.
 
-6. Wählen Sie über **nehmen**aus. Ihr neues Badge wird nun in der Tabelle benutzerdefinierte Badges angezeigt.
+6. Wählen Sie über **nehmen** aus. Ihr neues Badge wird nun in der Tabelle benutzerdefinierte Badges angezeigt.
 
 > [!NOTE]
 > Wenn die Schritte 4 und 5 übersprungen werden, befindet sich das Badge in der Standardsprache für alle Gebietsschemas.
 >
-> Wenn Sie mit dem vornehmen von Änderungen an der Badge-Auswahl fertig sind, stellen Sie sicher, dass Sie **Submit**auswählen. Es kann bis zu einigen Stunden dauern, bis diese Änderungen für Ihre Organisation verfügbar sind.
+> Wenn Sie mit dem vornehmen von Änderungen an der Badge-Auswahl fertig sind, stellen Sie sicher, dass Sie **Submit** auswählen. Es kann bis zu einigen Stunden dauern, bis diese Änderungen für Ihre Organisation verfügbar sind.
 
 <a name="hex-colors-intro"></br></a>
 
