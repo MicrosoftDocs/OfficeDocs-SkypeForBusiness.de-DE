@@ -13,12 +13,12 @@ ms.collection:
 description: Informieren Sie sich über die neuesten Änderungen in der PowerShell von Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852166"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937744"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell-Anmerkungen zu dieser Version
 
@@ -31,7 +31,7 @@ Auf dieser Seite finden Sie das aktuelle PowerShell-Änderungsprotokoll von Team
 
 | Datum | Version | Updates |
 |------- | -------------------- | ------------------------------ |
-| November 2020 | [1.1.7 – Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Verwendet MSAL für die Authentifizierung & Autorisierung</li><li>Cmdlets für Umgestaltungs Richtlinien Pakete und Hinzufügen einer Gruppen Paket Zuweisung</li><li>Upload-Befehle für Umgestaltungs-Targeting-Hierarchie zum Verwenden eines asynchronen Modells</li> |
+| November 2020 | [1.1.7 – Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Verwendet MSAL für die Authentifizierung & Autorisierung</li><li>Cmdlets für Umgestaltungs Richtlinien Pakete und Hinzufügen einer Gruppen Paket Zuweisung</li><li>Upload-Befehle für Umgestaltungs-Targeting-Hierarchie zum Verwenden eines asynchronen Modells</li> <li>Der Benutzer wird während der anfänglichen Authentifizierung zweimal aufgefordert, wenn er den Parameter-Credential nicht verwendet. Benutzer können Anmeldeinformationen mit dem Parameter-Credential übergeben, um eine doppelte Aufforderung zu vermeiden. Dieses Verhalten wird in der nächsten Version behoben.</li> |
 | September 2020 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Integration von Skype for Business Online Connector</li> |
 | September 2020 | [1.1.5 – Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Integration von Skype for Business Online Connector</li> |
 | Juli 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[Cmdlets für Gruppenrichtlinien Zuweisung](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) hinzugefügt</li> |

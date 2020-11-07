@@ -1209,7 +1209,7 @@
           href: teams-sentinel-guide.md
         - name: Identitäts Modelle und Authentifizierung
           href: identify-models-authentication.md
-        - name: Anmelden bei Teams mit moderner Authentifizierung
+        - name: Anmelden bei Microsoft Teams
           href: sign-in-teams.md
         - name: Sichere Links in Teams
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1612,6 +1612,8 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
         - name: Neuseeland
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
+        - name: Nicaragua
+          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
         - name: Nigeria
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
         - name: Nördliche Marianen
