@@ -1,0 +1,138 @@
+- name: Skype for Business- und Teams-Zertifizierungsprogramm
+  href: ../certification/overview.md
+  items:
+    - name: So können Sie teilnehmen
+      href: ../certification/how-to-join.md
+    - name: Testspezifikationen für Skype und Lync
+      href: ../certification/test-spec.md
+    - name: Telefone und Geräte
+      items:
+        - name: IP-Telefone für Skype for Business
+          href: ../certification/devices-ip-phones.md
+        - name: Teams für IP-Telefone
+          href: /microsoftteams/teams-ip-phones
+        - name: USB-Audio- und -Videogeräte
+          href: ../certification/devices-usb-devices.md
+        - name: PCs
+          href: ../certification/devices-pcs.md
+        - name: Besprechungsraumgeräte und Lösungen
+          href: ../certification/devices-meeting-rooms.md
+    - name: Infrastruktur
+      items:
+        - name: Gateways
+          href: ../certification/infra-gateways.md
+        - name: IP PBX-Anlagen
+          href: ../certification/infra-ip-pbxs.md
+        - name: Survivable Branch Appliances
+          href: ../certification/infra-sba.md
+        - name: Session Border Controllers
+          href: ../certification/infra-sbc.md
+        - name: Reverse-Proxy
+          href: ../certification/infra-rev-proxy.md
+        - name: Lastenausgleichsmodule
+          href: ../certification/infra-load-balancers.md
+    - name: Netzwerk
+      items:
+        - name: WLAN für Skype for Business
+          href: ../certification/networking-wifi.md
+          items:
+            - name: Planen für WLAN
+              href: ../certification/plan-wifi.md
+        - name: Verdrahtet für Skype for Business
+          href: ../certification/networking-wired.md
+        - name: SDN für Skype for Business
+          href: ../certification/networking-sdn.md
+    - name: Dienste
+      items:
+        - name: SIP-Trunking-Dienste
+          href: ../certification/services-sip-trunking.md
+        - name: E-911-Dienstanbieter
+          href: ../certification/services-e911.md
+        - name: Audiokonferenzanbieter
+          href: ../certification/services-acps.md
+        - name: Unified Communications-Zertifikatspartner
+          href: ../certification/services-ssl.md
+    - name: IT-Experten
+      href: ../certification/it-pro-tools.md
+      items:
+        - name: Netzwerkvorbewertung
+          href: ../certification/it-pro-tools-pre-assessment.md
+        - name: Migration
+          href: ../certification/it-pro-tools-migration.md
+        - name: Bereitstellung von Benutzern und Richtlinien
+          href: ../certification/it-pro-tools-user-policy.md
+        - name: Überwachung und Problembehandlung
+          href: ../certification/it-pro-tools-monitor-troubleshoot.md
+        - name: Berichterstellung
+          href: ../certification/it-pro-tools-reporting.md
+    - name: Video
+      href: ../certification/video.md
+    - name: ISV
+      href: ../certification/isv-overview.md
+    - name: Lync-Partnerqualifikation
+      href: ../lync-cert/partner-qualification.md
+      items:
+        - name: Anwendungen
+          href: ../lync-cert/qualified-lync-apps.md
+          items:
+            - name: Teilnahme am Lync-ISV-Qualifizierungsprogramm
+              href: ../lync-cert/participation.md
+            - name: Teilnehmer-Konsolenanwendungen
+              href: ../lync-cert/attendant-console-apps.md
+            - name: Anwendungen für Abrechnung und erweiterte Berichterstellung
+              href: ../lync-cert/billing-reporting-apps.md
+            - name: Kontaktcenter-Anwendungen
+              href: ../lync-cert/contact-center-apps.md
+            - name: Anwendungen für Lync-Erweiterbarkeit
+              href: ../lync-cert/lync-extensibility-apps.md
+            - name: Anwendungen für persistenten Chat
+              href: ../lync-cert/persistent-chat-apps.md
+            - name: Anwendungen für Aufzeichnung
+              href: ../lync-cert/recording-apps.md
+            - name: Anwendungen für softwaredefinierte Netzwerke
+              href: ../lync-cert/software-defined-network-apps.md
+            - name: Validierte Lync-Anwendungen
+              href: ../lync-cert/validated-lync-apps.md
+        - name: Geräte
+          items:
+            - name: Für Lync geeignete Telefone und Geräte
+              href: ../lync-cert/ip-phones.md
+            - name: USB-Audio- und -Videogeräte
+              href: ../lync-cert/usb-and-video.md
+            - name: Lync-Raumsysteme
+              href: ../lync-cert/room-systems.md
+            - name: Besprechungsraumgeräte und Lösungen
+              href: ../lync-cert/meeting-room-devices.md
+            - name: PCs
+              href: ../lync-cert/pcs-optimized-for-lync.md
+        - name: Infrastruktur
+          href: ../lync-cert/infrastructure-qualified-node.md
+          items:
+            - name: IP-PBX-Anlagen und Gateways
+              href: ../lync-cert/qualified-ip-pbx-gateway.md
+            - name: Unterstützte IP-PBX-Anlagen
+              href: ../lync-cert/supported-ip-pbxs.md
+            - name: Survivable Branch Appliances
+              href: ../lync-cert/survivable-branch-appliances.md
+            - name: Session Border Controllers
+              href: ../lync-cert/sbcs-lync-server.md
+            - name: Netzwerk
+              href: ../lync-cert/networking-lync-server-2010-2013.md
+            - name: Lastenausgleichsmodule
+              href: ../lync-cert/hardware-load-balancers.md
+            - name: Reverse-Proxys
+              href: ../lync-cert/reverse-proxies.md
+            - name: Virtueller Desktopinfrastruktur.
+              href: ../lync-cert/virtual-desktop-lync-server.md
+        - name: Dienste
+          href: ../lync-cert/sip-trunking-services.md
+          items:
+            - name: E-911-Dienste
+              href: ../lync-cert/e-911-service-providers.md
+            - name: Dediziertes Lync-Online
+              href: ../lync-cert/online-dedicated.md
+        - name: Video
+          href: ../lync-cert/video-solutions-qualified.md
+          items:
+            - name: Besprechungsraumgeräte und Lösungen
+              href: ../lync-cert/meeting-room-devices.md
