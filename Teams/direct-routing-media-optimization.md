@@ -16,12 +16,12 @@ f1.keywords:
 description: Lokale Medienoptimierung für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 060b6f0fdf92969894cad98178073a4288eb2325
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
+ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158007"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48950789"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Lokale Medienoptimierung für direktes Routing
 
@@ -49,25 +49,25 @@ In diesem Artikel werden die Funktions Funktionen sowie Kundenszenarien und-Lös
 
 In dieser Diskussion wird davon ausgegangen, dass Contoso mehrere Unternehmen auf der ganzen Welt wie folgt ausführt. (Beachten Sie, dass die Regionen Europa und APAC nur als Beispiele verwendet werden. In einem Unternehmen gibt es möglicherweise mehrere verschiedene Regionen mit ähnlichen Anforderungen.)
  
-- **In Europa**verfügt Contoso über Niederlassungen in ungefähr 30 Ländern. Jede Niederlassung hat eine eigene private Branch Exchange (PBX). 
+- **In Europa** verfügt Contoso über Niederlassungen in ungefähr 30 Ländern. Jede Niederlassung hat eine eigene private Branch Exchange (PBX). 
 
   Contoso wurde eine Option zum Zentralisieren der Trunks an einem einzigen Standort--Amsterdam--für alle 30 europäischen Niederlassungen angeboten. Contoso hat den SBC in Amsterdam bereitgestellt, genügend Bandbreite für die Ausführung von Anrufen über den zentralen Standort bereitgestellt, einen zentralen SIP-Stamm an den zentralisierten Standort angeschlossen und alle europäischen Standorte in Amsterdam bedient. 
 
-- **In der Region APAC**verfügt Contoso über mehrere Niederlassungen in verschiedenen Ländern. 
+- **In der Region APAC** verfügt Contoso über mehrere Niederlassungen in verschiedenen Ländern. 
 
   In vielen Ländern verfügt das Unternehmen weiterhin über Zeit Teilungs Multiplex (TDM)-Stämme in lokalen Niederlassungen. Die Zentralisierung der TDM-Stämme ist in der Region APAC keine Option, daher ist die Umstellung auf SIP nicht möglich. Angenommen, es gibt mehr als 50 Contoso-Zweigstellen in der Region APAC mit Hunderten von Gateways (SBCS). In diesem Szenario ist es nicht möglich, alle Gateways mit der direkten Routing Schnittstelle zu koppeln, da es keine öffentlichen IP-Adressen und/oder lokale Internet Ausbrüche gibt. Darüber hinaus verhängen einige Länder behördliche Anforderungen, die nicht erfüllt werden können, ohne dass eine lokale PSTN-Netzwerkverbindung besteht.
 
 Basierend auf den geschäftlichen Anforderungen implementierte Contoso zwei Lösungen mit lokaler Medienoptimierung für das direkte Routing:
 
-- **In Europa**sind alle Trunks zentralisiert, und die Medien fließen zwischen dem zentralen SBC und den Benutzern basierend auf dem Standort des Benutzers. 
+- **In Europa** sind alle Trunks zentralisiert, und die Medien fließen zwischen dem zentralen SBC und den Benutzern basierend auf dem Standort des Benutzers. 
 
   - Wenn ein Benutzer mit dem lokalen Subnetz eines Unternehmensnetzwerks verbunden ist (das heißt, der Benutzer ist intern), fließt zwischen der internen IP des zentralen SBC und dem Team-Client des Benutzers Medien. 
   
   - Wenn ein Benutzer außerhalb der Grenzen des Unternehmensnetzwerks liegt, beispielsweise wenn der Benutzer eine öffentliche drahtlose Internet Verbindung verwendet, wird der Benutzer als "extern" betrachtet. In diesem Fall fließt das Medium zwischen der externen IP des zentralen SBC und dem Teams-Client.
 
-- **In der Region APAC**wird ein zentralisierter Proxy-SBC mit dem Microsoft Direct-Routing gekoppelt, das Medien zwischen der direkten Routingschnittstelle und den Downstream-SBCS in lokalen Zweigstellen leitet. 
+- **In der Region APAC** wird ein zentralisierter Proxy-SBC mit dem Microsoft Direct-Routing gekoppelt, das Medien zwischen der direkten Routingschnittstelle und den Downstream-SBCS in lokalen Zweigstellen leitet. 
 
-  Die Downstream-SBCS in den lokalen Zweigstellen sind für die direkte Weiterleitung in APAC nicht direkt sichtbar, aber Sie werden mit dem Cmdlet "CSOnlinePSTNGateway" kombiniert, um eine virtuelle Netzwerktopologie innerhalb von Microsoft Phone System zu erstellen. Medien bleiben immer lokal, wenn dies möglich ist. Externe Benutzer haben Medien, die zwischen dem Teams-Client und der öffentlichen IP-Adresse des Proxy-SBC fließen.
+  Die Downstream-SBCS in den lokalen Zweigstellen sind für die direkte Weiterleitung in APAC nicht direkt sichtbar, aber Sie werden mit dem Set-CSOnlinePSTNGateway-Cmdlet zum Erstellen einer virtuellen Netzwerktopologie in Microsoft Phone System gekoppelt. Medien bleiben immer lokal, wenn dies möglich ist. Externe Benutzer haben Medien, die zwischen dem Teams-Client und der öffentlichen IP-Adresse des Proxy-SBC fließen.
 
 
 ## <a name="central-sbc-with-centralized-trunks"></a>Zentrales SBC mit zentralisierten Trunks
@@ -186,7 +186,7 @@ Die lokale Medienoptimierung unterstützt zwei Modi:
 
 - **Modus 2: nur für lokale Benutzer**. In diesem Modus fließen Medien nur dann direkt zur internen IP-Adresse des lokalen Downstream-SBC, wenn Sie von dem internen Benutzer in derselben Zweigstelle wie dem Downstream-SBC generiert wurden. 
 
-Um zwischen den Modi für die lokale Medienoptimierung zu unterscheiden, muss der mandantenadministrator den-BypassMode-Parameter für jeden SBC mithilfe des Cmdlets "Satz-CSonlinePSTNGateway" auf "Always" oder "OnlyForLocalUsers" einstellen. Weitere Informationen finden Sie unter [Konfigurieren der lokalen Medienoptimierung](direct-routing-media-optimization-configure.md).  
+Um zwischen den Modi für die lokale Medienoptimierung zu unterscheiden, muss der mandantenadministrator den-BypassMode-Parameter für jeden SBC mit dem Set-CSonlinePSTNGateway-Cmdlet auf "Always" oder "OnlyForLocalUsers" setzen. Weitere Informationen finden Sie unter [Konfigurieren der lokalen Medienoptimierung](direct-routing-media-optimization-configure.md).  
 
 ### <a name="mode-1-always-bypass"></a>Modus 1: immer umgehen
 
@@ -210,7 +210,7 @@ Tabelle 3. Beispielkonfiguration für Szenario 1
 
 | Physischer Standort des Benutzers | Der Benutzer führt einen Anruf an eine Nummer. | Online-VoIP-Routing Richtlinie | Für SBC konfigurierter Modus | Medienfluss | 
 |:------------|:-------|:-------|:-------|:-------|
-| Deutschland | + 49 1 437 2800 | Priorität 1: ^\+49 (\d{8}) $-DEsbc.contoso.com<br>Priorität 2:. *-proxysbc.contoso.com| DEsbc.contoso.com – immer umgehen <br>proxysbc.contoso.com – immer umgehen | Teams User < – > DEsbc.contoso.com |
+| Deutschland | + 49 1 437 2800 | Priorität 1: ^ \+ 49 (\d {8} ) $-DEsbc.contoso.com<br>Priorität 2:. *-proxysbc.contoso.com| DEsbc.contoso.com – immer umgehen <br>proxysbc.contoso.com – immer umgehen | Teams User < – > DEsbc.contoso.com |
 
 Das folgende Diagramm zeigt den hohen Datenverkehrs Fluss für den internen Nutzer in Deutschland, der einen direkten Telefonanruf über Teams an die Nummer in Deutschland durchführt. 
 
@@ -238,7 +238,7 @@ Tabelle 4. Beispielkonfiguration für Szenario 2
 
 | Physischer Standort des Benutzers | Der Benutzer führt einen Anruf an eine Nummer. | Online-VoIP-Routing Richtlinie | Für SBC konfigurierter Modus | Medienfluss | 
 |:------------|:-------|:-------|:-------|:-------|
-| Frankreich | + 49 1 437 2800 | Priorität 1: ^\+49 (\d{8}) $-DEsbc.contoso.com <br>Priorität 2:. *-proxysbc.contoso.com |  DEsbc.contoso.com – immer Bypass-proxysbc.contoso.com – immer umschalten | Teams User < – > DEsbc.contoso.com  |
+| Frankreich | + 49 1 437 2800 | Priorität 1: ^ \+ 49 (\d {8} ) $-DEsbc.contoso.com <br>Priorität 2:. *-proxysbc.contoso.com |  DEsbc.contoso.com – immer Bypass-proxysbc.contoso.com – immer umschalten | Teams User < – > DEsbc.contoso.com  |
 
 Das folgende Diagramm zeigt den Datenverkehrs Fluss auf hoher Ebene, wenn der interne deutsche Nutzer in Frankreich einen direkten Routing-Anruf über Teams an die Nummer in Deutschland durchführt. 
 
@@ -274,7 +274,7 @@ Tabelle 5. Beispielkonfiguration für den Modus "nur für lokale Benutzer" Szena
 
 | Physischer Standort des Benutzers | Der Benutzer führt einen Anruf an eine Nummer. | Online-VoIP-Routing Richtlinie | Für SBC konfigurierter Modus | Medienfluss | 
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | + 84 4 3926 3000 | Priorität 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br>Priorität 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – nur für lokale Benutzer <br> proxysbc.contoso.com – immer umgehen | Teams User < – > VNsbc.contoso.com |
+| Vietnam | + 84 4 3926 3000 | Priorität 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br>Priorität 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – nur für lokale Benutzer <br> proxysbc.contoso.com – immer umgehen | Teams User < – > VNsbc.contoso.com |
 
 In der folgenden Abbildung führt ein Benutzer, der der lokalen Niederlassung in Vietnam zugewiesen ist, während er sich lokal befindet, einen direkten Routing Anruf über Teams durch. 
 
@@ -295,13 +295,13 @@ Abbildung 7. Verkehrsfluss mit dem Modus "nur für lokale Benutzer" und der Benu
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Szenario 2. Benutzer und Gateways sind an verschiedenen Standorten
 
-Davon ausgehen, dass der SBC in Singapur als Proxy-SBC für die lokale Downstream-SBCS in Vietnam und Indonesien konfiguriert ist. Der interne Benutzer in Indonesien, der sich in der lokalen Zweigstelle befindet, führt einen direkten Anruf nach Vietnam. Online-VoIP-Routing Richtlinien geben an, dass Anrufe nach Vietnam (mit Ortsvorwahl + 84) an den lokalen SBC in Vietnam weitergeleitet werden sollen. Alle anderen Anrufe--und, falls der SBC in Vietnam scheitert, Anrufe nach Vietnam--sollten an den Proxy SBC in Singapur weitergeleitet werden. Der Proxy-SBC in Singapur ist auf den Modus "immer Byass" eingestellt, und der lokale SBC in Vietnam ist auf "nur für den lokalen Benutzermodus" eingestellt. Die folgende Tabelle enthält eine Zusammenfassung der Beispielkonfiguration. 
+Davon ausgehen, dass der SBC in Singapur als Proxy-SBC für die lokale Downstream-SBCS in Vietnam und Indonesien konfiguriert ist. Der interne Benutzer in Indonesien, der sich in der lokalen Zweigstelle befindet, führt einen direkten Anruf nach Vietnam. Online-VoIP-Routing Richtlinien geben an, dass Anrufe nach Vietnam (mit Ortsvorwahl + 84) an den lokalen SBC in Vietnam weitergeleitet werden sollen. Alle anderen Anrufe--und, falls der SBC in Vietnam scheitert, Anrufe nach Vietnam--sollten an den Proxy SBC in Singapur weitergeleitet werden. Der Proxy-SBC in Singapur ist auf "Always Bypass"-Modus eingestellt, und der lokale SBC in Vietnam ist auf "nur für den lokalen Benutzermodus" eingestellt. Die folgende Tabelle enthält eine Zusammenfassung der Beispielkonfiguration. 
 
 Tabelle 6. Benutzerkonfiguration
 
 | Physischer Standort des Benutzers | Der Benutzer führt einen Anruf an eine Nummer. | Online-VoIP-Routing Richtlinie | Für SBC konfigurierter Modus | Medienfluss | 
 |:------------|:-------|:-------|:-------|:-------|
-| Indonesien | + 84 4 3926 3000 | Priorität 1: ^\+84 (\d{9}) $-VNsbc.contoso.com <br> Priorität 2:. *-proxysbc.contoso.com |VNsbc.contoso.com – nur für lokale Benutzer <br> proxysbc.contoso.com – immer umgehen | Teams User < – > proxysbc.contoso.com < – > VNsbc.contoso.com |
+| Indonesien | + 84 4 3926 3000 | Priorität 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> Priorität 2:. *-proxysbc.contoso.com |VNsbc.contoso.com – nur für lokale Benutzer <br> proxysbc.contoso.com – immer umgehen | Teams User < – > proxysbc.contoso.com < – > VNsbc.contoso.com |
 
 
 Im folgenden Diagramm führt der interne Benutzer, während er sich lokal in der indonesischen Niederlassung befindet, einen direkten Routing-Anruf über Teams zu einer Nummer in Vietnam durch. 
@@ -321,5 +321,14 @@ Im folgenden Diagramm führt der interne Benutzer, während er sich lokal in der
 Abbildung 8.  Verkehrsfluss mit dem Modus "nur für lokale Benutzer", und der Benutzer befindet sich nicht auf der "Home"-Website, sondern im internen Netzwerk
 
 ![Diagramm mit Datenverkehrs Fluss-Optimierung für lokale Medien](media/direct-routing-media-op-8.png "Verkehrsfluss mit dem Modus "nur für lokale Benutzer" befindet sich der Benutzer nicht auf der "Home"-Website, sondern im internen Netzwerk")
+
+## <a name="known-issues"></a>Bekannte Probleme
+
+Im folgenden finden Sie eine Liste der bekannten Probleme, die derzeit in der lokalen Medienoptimierung vorhanden sind. Microsoft arbeitet an der Behebung dieser Probleme.
+
+| Problem | Workaround |
+| :--- | :--- |
+| Teams-Client wird nicht als " **intern** " erkannt, wenn die öffentliche IP-Adresse des Teams-Clients der vertrauenswürdigen IP-Liste des Kunden entspricht. | Für die lokale Medienoptimierung muss das Team-Client-Subnetz einem vom Mandanten konfigurierten [Netzwerk-Subnetz](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) entsprechen.|
+| Anruf Eskalationen führen zu verworfenen anrufen, wenn der Team-Client als "intern" erkannt wird.| Deaktivieren Sie die lokale Medienoptimierung für das Direct Routing-SBC.|
 
 
