@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508352"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988322"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -44,7 +44,7 @@ Da jedoch Informationsbarrieren eingeführt wurden, haben viele andere Bereiche 
 - Bildung: Schüler in einer Schule können keine Kontaktinformationen für Schüler anderer Schulen nachschlagen.
 - Legal: Wahrung der Vertraulichkeit der Daten, die der Rechtsanwalt eines Mandanten erhalten hat, um von einem Rechtsanwalt für das gleiche Unternehmen, das einen anderen Mandanten darstellt, zugegriffen zu werden.
 - Regierung: Informationszugriff und-Steuerung sind über Abteilungen und Gruppen hinweg limitiert.
-- Professionelle Dienstleistungen: eine Gruppe von Personen in einem Unternehmen kann während eines Kundenengagements nur über Föderations-oder Gastzugriff mit einem Kunden oder bestimmten Kunden chatten.
+- Professionelle Dienstleistungen: eine Gruppe von Personen in einem Unternehmen kann während eines Kundenengagements nur über Gastzugriff mit einem Kunden oder bestimmten Kunden chatten.
 
 Zum Beispiel gehört Enrico zum Segment Banking, und Pradeep gehört zum Segment Financial Advisor. Enrico und Pradeep können nicht miteinander kommunizieren, weil die IB-Richtlinie der Organisation die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten blockiert. Allerdings können Enrico und Pradeep mit Lee in HR kommunizieren.
 
@@ -169,7 +169,7 @@ Derzeit können Benutzer die folgenden Szenarien erleben, wenn eine Richtlinie f
 
 Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und Microsoft Teams für die Datei Oberfläche zugeordnet. Richtlinien für Informationsbarrieren werden auf dieser SharePoint-Website und den Dateien standardmäßig nicht berücksichtigt. Um Richtlinien für Informationsbarrieren zu aktivieren, hat der Administrator bereits ein Formular ausgefüllt, in dem Sie aufgefordert werden, die IB-Richtlinien auf SharePoint und OneDrive zu aktivieren (siehe *Voraussetzungen* für [Informationsbarrieren](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Wenn die Richtlinie für Informationsbarrieren in SharePoint und OneDrive aktiviert ist, funktionieren die IB-Richtlinien auf SharePoint-Websites, die bereitgestellt werden, wenn ein Team mit Microsoft Teams erstellt wird.
 
-**Beispiel für IB-Richtlinien auf der SharePoint-Website eines Teams**: in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
+**Beispiel für IB-Richtlinien auf der SharePoint-Website eines Teams** : in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
 Wenn der Benutzer Sesha ein Team für das Segment Investment Banking erstellt, sind das Team und die SharePoint-Website, die es zurückgibt, nur für Benutzer des Segments Investment Banking zugänglich. Benutzer Nikita kann nicht auf diese Website zugreifen, selbst wenn Sie über die Website Verknüpfung verfügt.
 
 Weitere Informationen finden Sie im Artikel [Informationen zu Barrieren](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
@@ -179,7 +179,9 @@ Weitere Informationen finden Sie im Artikel [Informationen zu Barrieren](https:/
 Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Lizenzierungs Leit Faden](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Bekannte Probleme
-- **Benutzer können nicht an Besprechungen teilnehmen**: Wenn IB-Richtlinien aktiviert sind, können Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Besprechungsliste mehr als die [Grenzwerte für Besprechungs Besuche](limits-specifications-teams.md)ist. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Wenn Sie an einer Besprechung teilnehmen, wird dieser Benutzer dem Dienstplan hinzugefügt, sodass der Dienstplan für wiederkehrende Besprechungen schnell aufgefüllt wird. Sobald die [Obergrenze](limits-specifications-teams.md)für die Teilnahme an der Besprechung erreicht ist, dürfen keine weiteren Benutzer zur Besprechung Chat Liste hinzugefügt werden. Wenn IB aktiviert ist, können Benutzer nicht an der Besprechung teilnehmen, aber wenn IB nicht aktiviert ist, können Benutzer an der Besprechung teilnehmen, obwohl Sie nicht in die Liste der Besprechungs Chats aufgenommen werden. Eine kurzfristige Lösung besteht darin, inaktive Mitglieder aus der Liste der Besprechungs Chats zu entfernen, um Platz für neue Benutzer zu schaffen. Wir werden jedoch zu einem späteren Zeitpunkt die Größe von Besprechungs-Chat-Dienstplänen erhöhen.
+- **Benutzer können nicht an Ad-hoc-Besprechungen teilnehmen** : Wenn IB-Richtlinien aktiviert sind, können Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Besprechungsliste mehr als die [Grenzwerte für Besprechungs Besuche](limits-specifications-teams.md)ist. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Wenn Sie an einer Besprechung teilnehmen, wird dieser Benutzer dem Dienstplan hinzugefügt, sodass der Dienstplan für wiederkehrende Besprechungen schnell aufgefüllt wird. Sobald die [Obergrenze](limits-specifications-teams.md)für die Teilnahme an der Besprechung erreicht ist, dürfen keine weiteren Benutzer zur Besprechung Chat Liste hinzugefügt werden. Wenn IB für den Mandanten aktiviert ist und die Liste der Chats für eine Besprechung voll ist, sind neue Benutzer (die nicht bereits in der Liste vorhanden sind) nicht berechtigt, an der Besprechung teilzunehmen. Wenn IB für den Mandanten nicht aktiviert ist und die Liste der Besprechungs Chats voll ist, können neue Benutzer (die nicht bereits in der Liste vorhanden sind) an der Besprechung teilnehmen, obwohl die Chat-Option in der Besprechung nicht angezeigt wird. Eine kurzfristige Lösung besteht darin, inaktive Mitglieder aus der Liste der Besprechungs Chats zu entfernen, um Platz für neue Benutzer zu schaffen. Wir werden jedoch zu einem späteren Zeitpunkt die Größe von Besprechungs-Chat-Dienstplänen erhöhen.
+
+- **Benutzer können nicht an Kanal Besprechungen teilnehmen** : Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Kanal Besprechungen teilnehmen, wenn Sie nicht Mitglied des Teams sind. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Der Chat-Thread in einer Kanal Besprechung steht nur Team-und Kanalmitgliedern zur Verfügung, und nicht Mitglieder können den Chat-Thread nicht sehen/zugreifen. Wenn IB für den Mandanten aktiviert ist und ein nicht-Teammitglied versucht, an einer Kanal Besprechung teilzunehmen, ist der Benutzer nicht berechtigt, an der Besprechung teilzunehmen. Wenn IB für den Mandanten nicht aktiviert ist und ein nicht-Teammitglied versucht, an einer Kanal Besprechung teilzunehmen, kann der Benutzer jedoch an der Besprechung teilnehmen, aber die Chat-Option wird in der Besprechung nicht angezeigt.
 
 ## <a name="more-information"></a>Weitere Informationen
 

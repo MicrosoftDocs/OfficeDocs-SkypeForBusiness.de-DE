@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Wählen Sie aus, und rufen Sie mich in Minutenschnelle an. Seit dem 1. Dezember 2019 jedes Audiokonferenz-Abonnement 60 Minuten pro Benutzer pro Monat für die Zone eines Landes bereit.
-ms.openlocfilehash: a7834b279b5e4246d3233405c1ab0a87df21ff8f
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908494"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993461"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audiokonferenz-Abonnement "Dial-Out"/"rufen Sie mich an"-Minuten Vorteil
 
@@ -67,10 +67,27 @@ Sehen Sie sich das folgende Beispiel an: Ein Kunde hat 115-Lizenzen für Audio-C
 - Alle Auswahl Anrufe, die über 6.900 Minuten pro Kalendermonat hinausgehen, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen in Rechnung gestellt. (Hinweis: der Kunde muss [Kommunikationsguthaben](what-are-communications-credits.md) einrichten und dem Besprechungsorganisator die Lizenz für Kommunikations Kredite zuweisen.)
 - Alle Auswähl baren Anrufe an Zielorte, die sich nicht in der Liste [Zone A Länder und Regionen](audio-conferencing-zones.md) befinden, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen an diesen Zielort abgerechnet (vorausgesetzt, der Kunde hat Kommunikationsguthaben eingerichtet und dem Besprechungsorganisator die Lizenz für Kommunikations Kredite zugewiesen).
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>Wie kann ich die Nutzung des Minuten Pools überwachen?
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Wie kann ich die Nutzung von Minute und Pool überwachen?
 
-- Sie können die Nutzung im Skype for Business Admin Center im "Legacy"-Minuten-Pool überwachen. Navigieren Sie im Microsoft Teams Admin Center zu **Legacy-Portal**  >  **Berichte**  >  **PSTN-Minuten Pools**. Die Zone a Dial-Out Minute Pool wird im Bericht als "ausgehende Anrufe in Zone a countries" bezeichnet.
-- E-Mail-Benachrichtigungen werden an alle mandantenadministratoren eines bestimmten Kunden gesendet, wenn die Nutzung des Auswähl-Minuten Pools des Mandanten 80% und 100% erreicht hat.
+- Sie können die Nutzung für Ihren Auswähl minütigen Pool im Microsoft Teams Admin Center überwachen. Wechseln Sie in der linken Navigationsleiste zu **Analytics & Berichte**  >  **Verwendungsberichte** , und wählen Sie dann **PSTN-Minuten Pools** aus. Die Zone a Dial-Out Minute Pool wird im Bericht als "ausgehende Anrufe in Zone a countries" bezeichnet.
+- E-Mail-Benachrichtigungen werden an die folgenden Administratoren gesendet, wenn die Nutzung des Auswähl-Minuten Pools Ihrer Organisation 80 Prozent und 100 Prozent erreicht hat:
+
+  - Abrechnungs Administrator
+  - Skype for Business-Administrator
+  - Unternehmens Administrator
+  - Benutzerkonto Administrator
+  - Helpdesk-Administrator
+  - Dienst Support Administrator
+  - Geräteadministratoren
+  - Anwendungs Administrator
+  - Lizenz Administrator
+  - Cloud-Geräte Administrator
+  - Authentifizierungs Administrator
+  - Privilegierter Authentifizierungs Administrator
+  - Teams-Kommunikationsadministrator
+  - Teams-Kommunikationssupporttechniker
+  - Supportfachmann für die Teams-Kommunikation
+  - Teams-Dienstadministrator
 
 Weitere Informationen zu Kommunikationsguthaben finden Sie unter [Kommunikationsguthaben](what-are-communications-credits.md).
 
