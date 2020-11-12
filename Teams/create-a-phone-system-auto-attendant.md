@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48922465"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48999218"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -196,13 +196,11 @@ Wenn Sie alle Dienstkonten hinzugefügt haben, klicken Sie auf **Absenden**. Dam
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Externe Rufnummern Übertragungen – technische Details
 
-Beim Übertragen von Anrufen an eine externe Telefonnummer muss das Ressourcenkonto, das der automatischen Telefonzentrale oder Anrufwarteschlange zugeordnet ist, über eine Telefonnummer und eine Microsoft 365-Telefon System-virtuelle Benutzerlizenz verfügen. Darüber hinaus
+Beziehen Sie sich bitte auf die [Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites) , damit automatische Telefonzentralen Anrufe extern übertragen können.  Außerdem:
 
-- Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
-  - Die Telefonnummer für die externe Übertragung muss im E. 164-Format (+ CC + phone_number) eingegeben werden.
+- Bei einem Ressourcenkonto mit einer [Anruf Plan](calling-plans-for-office-365.md) Nummer muss die externe Telefonnummer im E. 164-Format (+ [Landesvorwahl] [Ortsvorwahl] [Telefonnummer]) eingegeben werden.
 
-- Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
-  - Das Telefonnummernformat für externe Übertragungen hängt von den Einstellungen Ihres [Session Border Controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) ab.
+- Bei einem Ressourcenkonto mit einer direkten Routing Nummer ist das Format für die externe Übertragung von Telefonnummern abhängig von den Einstellungen für den [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) .
 
 Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
 
@@ -210,8 +208,6 @@ Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
   - Für direkte Routing Nummern basiert die gesendete Nummer auf der Einstellung P-Asserted-Identity (Pai) für den SBC wie folgt:
     - Wenn diese Option deaktiviert ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und die empfohlene Einstellung.
     - Bei aktivierter Option wird die Telefonnummer des Ressourcenkontos angezeigt.
-
-Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
 
 Wenn Sie in einer Skype for Business-Hybridumgebung einen Anruf der automatischen Telefonzentrale an das PSTN übertragen möchten, erstellen Sie einen neuen lokalen Benutzer, wobei die Anrufweiterleitung auf die PSTN-Nummer festgesetzt ist. Der Benutzer muss für Enterprise-VoIP aktiviert sein und eine VoIP-Richtlinie zugewiesen haben. Weitere Informationen finden Sie unter [automatische Telefonzentrale-Anrufübertragung an PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 

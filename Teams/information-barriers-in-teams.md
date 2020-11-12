@@ -16,12 +16,12 @@ description: In diesem Artikel wird erläutert, was Informationsbarrieren in Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c545b6289cd1a40fdf9ca967ebd44cd2d781605d
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988322"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996016"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -29,7 +29,7 @@ Informationsbarrieren (IB) sind Richtlinien, die ein Administrator konfigurieren
 
 > [!NOTE]
 > - Gruppen für Informationsbarrieren können nicht für Mandanten erstellt werden.
-> - Die Verwendung von Bots zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
+> - Die Verwendung von Bots, AAD-apps und einigen APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
 > - Private Kanäle sind mit Richtlinien für Informationsbarrieren kompatibel, die Sie konfigurieren.
 > - Neu: Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit Teams verbunden sind, finden Sie [hier](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
