@@ -5,7 +5,7 @@ ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: LolaJ
+ms.reviewer: dstrome
 audience: admin
 description: Unabhängig davon, ob Sie das Rollout für alle gleichzeitig starten oder in Phasen durchführen – Entwerfen Sie einen Kurs für die erfolgreiche Implementierung von Microsoft Teams in Ihrer Organisation.
 localization_priority: Priority
@@ -14,6 +14,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,22 +23,22 @@ ms.custom:
 - seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 4d55f9d0ce9d3a7668abb6c02435acaa83a06324
+ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878689"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071756"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Bereitstellen von Microsoft Teams
 
 ## <a name="start-here"></a>Hier geht’s los
-Gleich, ob Sie ein kleines Unternehmen oder ein multinationaler Konzern sind, der Ort für den Einstieg in die Bereitstellung von Teams ist [Erste Schritte](get-started-with-teams-quick-start.md). Es führt Sie durch eine beschränkten Bereitstellung von Teams, die möglicherweise für ein kleines Unternehmen oder wenn Sie Teams schnell als erste Microsoft 365- oder Office 365-Arbeitsauslastung zur Unterstützung von **Remotemitarbeitern** einrichten wollen ausreichend ist. Wenn Sie einer größeren Organisation angehören, verwenden Sie [Erste Schritte](get-started-with-teams-quick-start.md) für die Pilotbereitstellung von Teams mit einer kleinen Gruppe von Early Adoptern, damit Sie Teams kennenlernen und mit der Planung Ihrer organisationsweiten Bereitstellung beginnen können. 
+Gleich, ob Sie ein kleines Unternehmen oder ein multinationaler Konzern sind, der Ort für den Einstieg in die Bereitstellung von Teams ist [Erste Schritte](get-started-with-teams-quick-start.md). Es führt Sie durch eine beschränkten Bereitstellung von Teams, die möglicherweise für ein kleines Unternehmen oder wenn Sie Teams schnell als erste Microsoft 365- oder Office 365-Arbeitsauslastung zur Unterstützung von **Remotemitarbeitern** einrichten wollen ausreichend ist. Wenn Sie einer größeren Organisation angehören, verwenden Sie [Erste Schritte](get-started-with-teams-quick-start.md) für die Pilotbereitstellung von Teams mit einer kleinen Gruppe von Early Adopters, damit Sie Teams kennen lernen und mit der Planung Ihrer organisationsweiten Bereitstellung beginnen können. 
 
 ## <a name="recommended-path-to-teams"></a>Empfohlene Wege zu Microsoft Teams
 
 
-Wir empfehlen eine phasenweise Bereitstellung von Teams, Workload nach Workload in dem Maß, wie Ihre Organisation dazu bereit ist. **Sie brauchen nicht bis zum Abschluss eines Schritts zu warten, bevor Sie mit dem nächsten beginnen.** Manche Organisationen ziehen möglicherweise die Bereitstellung aller Funktionen von Teams vor, während andere einen phasenweisen Ansatz bevorzugen. Hier finden Sie die Teams-Workloads in der Reihenfolge, die wir zur Bereitstellung empfehlen:
+Wir empfehlen, das Rollout von Teams nach und nach durchzuführen, und zwar Workload für Workload, so wie Ihre Organisation bereit ist. **Dabei muss mit dem nächsten Schritt nicht gewartet werden, bis der vorherige abgeschlossen ist.** Einige Organisationen möchten vielleicht alle Teams-Features auf einmal einführen, während andere einen stufenweisen Ansatz bevorzugen. Hier finden Sie die Teams-Workloads in der von uns empfohlenen Reihenfolge:
 
 - [Erste Schritte](get-started-with-teams-quick-start.md)
 - [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
@@ -58,7 +59,7 @@ Wenn Sie von Skype for Business (online oder lokal) zu Teams kommen oder eine Hy
 |  |Profil Ihrer Organisation|Anleitung  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Ich verwende zurzeit Skype for Business Online und bin bereit für den Wechsel zu Teams. |Gehen Sie zu [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Meine Organisation setzt Skype for Business Server ein, und ich möchte Teams bereitstellen. |Für eine Teams-Bereitstellung im großen Maßstab müssen Sie zuerst die Hybridverbindung zwischen Ihrer lokalen Umgebung und Microsoft 365 herstellen. Lesen Sie dazu zuerst [Planen der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Ferner sollten Sie [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen) durcharbeiten.   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Meine Organisation setzt Skype for Business Server ein, und ich möchte Teams bereitstellen. |Für eine Teams-Bereitstellung im großen Maßstab müssen Sie zuerst die Hybridverbindung zwischen Ihrer lokalen Umgebung und Microsoft 365 herstellen. Lesen Sie dazu zuerst [Planen der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity).<br><br>Ferner sollten Sie [Upgrade auf Teams](upgrade-start-here.md) durcharbeiten.   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Ich verfüge nicht über Skype for Business Server, aber ich habe eine lokale PSTN-Lösung. Ich möchte Teams bereitstellen, möchte aber meine lokale PSTN-Lösung behalten. |Führen Sie die Bereitstellung von Teams nach dem oben beschriebenen [empfohlenen Weg](#recommended-path-to-teams) durch.<br><br>Lesen Sie dann [Planen von direktem Routing](direct-routing-plan.md), um mehr über die Verwendung von direktem Routing für Telefonanlagen zu erfahren, um Ihre lokale PSTN-Lösung mit Teams zu verbinden.|
 |
 

@@ -13,16 +13,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - remotework
+- m365initiative-meetings
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 3b793eb5124a9105a718accc5767493aa9c35fbc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878659"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031631"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
@@ -39,7 +40,7 @@ In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen u
 
 Jeder kann kostenlos an einer Teams-Besprechung oder einem öffentlichen Liveereignis teilnehmen – es ist keine Lizenz erforderlich. Um an einer Teams-Besprechung oder einem Liveereignis teilzunehmen, müssen Teilnehmer nur in Teams oder in der Besprechungseinladung auf die Schaltfläche **Teilnehmen** klicken. Die Audioübertragung ist Teil einer Teams-Besprechung, aber wenn Sie möchten, dass sich die Teilnehmer per Telefon in eine Besprechung einwählen können, müssen Sie eine Einwahlnummer angeben.
 
-Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten, benötigen eine der Microsoft 365- oder Office 365-Lizenzen, die in der nachstehenden Tabelle aufgeführt sind. Wenn Sie bereits Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen und Liveereignissen benötigen.
+Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten, benötigen eine der Microsoft 365- oder Office 365-Lizenzen, die in der nachstehenden Tabelle aufgeführt sind.Wenn Sie bereits Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen und Liveereignissen benötigen.
 
 :::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tabelle mit erforderlichen Lizenzen für Teams-Besprechungen oder Liveereignisse":::
 
@@ -57,7 +58,7 @@ Wenn Sie Ihr Netzwerk bereits beim Rollout von Microsoft 365 oder Office 365 vor
 
 - Als Administrator konfigurieren Sie [Besprechungseinstellungen](meeting-settings-in-teams.md) für alle Benutzer. Anschließend verwenden Sie [Besprechungsrichtlinien](meeting-policies-in-teams.md), um zu steuern, welche Besprechungsfeatures für Ihre Benutzer zur Verfügung stehen (und welche nicht).
 
-- Um mehr über die Verwaltung der Sitzungsaufzeichnung zu erfahren, lesen Sie [Teams-Cloudsitzungsaufzeichnung](cloud-recording.md).
+- Um mehr über die Verwaltung von Besprechungsaufzeichnungen zu erfahren, lesen Sie [Teams-Cloudbesprechungsaufzeichnung](cloud-recording.md).
 
 - Sollten Ihre Benutzer Teams-Besprechungen noch nicht kennen, teilen Sie die Schulung [Besprechungen verwalten](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) mit ihnen. Schauen Sie sich unsere kursleitergeführte Onlineschulung [Mit Teams effektive Besprechungen durchführen](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) an.
 
