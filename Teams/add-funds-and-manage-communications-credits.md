@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Hier erfahren Sie, wie Sie für Skype for Business-Dienste für Kommunikations Kredite (PSTN-Verbrauch) Zahlen und Pläne sehen, wie Sie Ihre Nutzer mit einem kontinuierlichen Zugriff auf das Telefonsystem schützen können. '
-ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788539"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031061"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen und Verwalten von Guthaben für Kommunikationen
 
@@ -46,7 +47,7 @@ Kommunikationsguthaben sind eine bequeme Möglichkeit, für Telefon System-und A
 
 - Wählen Sie aus einer Audiokonferenz-Besprechung auf Ihrem Mobiltelefon aus, auf dem die Skype for Business-oder Microsoft Teams-App installiert ist.
 
-- Wählen Sie eine beliebige internationale Telefonnummer, wenn Sie einen **Tarif für Inlandsanrufe**haben.
+- Wählen Sie eine beliebige internationale Telefonnummer, wenn Sie einen **Tarif für Inlandsanrufe** haben.
 
 - Wählen Sie aus und Zahlen Sie pro Minute, nachdem Sie Ihre monatliche Minuten Zuteilung aufgebraucht haben.
 
@@ -57,7 +58,7 @@ Als Administrator können Sie Guthaben manuell hinzufügen, oder Sie können die
   
 Beim automatischen Aufladen wird Ihr Guthaben automatisch aufgestockt, sobald es unter einen von Ihnen festgelegten Mindestbetrag fällt. Wir empfehlen Ihnen die Verwendung des automatischen Aufladens, damit Sie nicht daran denken müssen, manuell Guthaben hinzuzufügen. Wenn Ihr Saldo den Mindestbetrag erreicht, wird Ihr Guthaben automatisch aufgestockt. Wenn Sie sich gegen das automatische Aufladen entscheiden, kann Ihr Guthaben möglicherweise unter Null fallen. Falls Ihr Guthaben unter Null fällt, können Sie und Ihre Benutzer keine gebührenfreie Anrufe oder Auslandsanrufe mehr tätigen.
   
-Sie können Ihre Zahlungsoptionen jederzeit aktualisieren. Wählen Sie auf der Seite **Abonnements** die Option **Communications Credits**aus, und nehmen Sie Ihre Updates vor.
+Sie können Ihre Zahlungsoptionen jederzeit aktualisieren. Wählen Sie auf der Seite **Abonnements** die Option **Communications Credits** aus, und nehmen Sie Ihre Updates vor.
   
 Guthaben wird nur für Kommunikations Kredite zu den veröffentlichten Gebühren von Microsoft angewendet, wenn die Dienste verwendet werden. Guthaben, das nicht innerhalb von zwölf (12) Monaten nach dem Kaufdatum verwendet wird, läuft ab und verfällt.
   
@@ -76,7 +77,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
 
 - [Telefon System Pläne](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Sie können Informationen auch anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu **Abrechnungs**  >  **Abonnements**Abonnements  >  **Hinzufügen**wechseln.
+Sie können Informationen auch anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu **Abrechnungs**  >  **Abonnements** Abonnements  >  **Hinzufügen** wechseln.
   
 Eine Tabelle mit den Lizenzen, die für die einzelnen Features benötigt werden, finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   

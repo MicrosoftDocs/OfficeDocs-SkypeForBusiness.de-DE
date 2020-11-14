@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +20,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ddf36c27a8fbc3aadfddaddee886d1906bab82
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: d6996b0980ae7305a7517a71645ba823a588e2f8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793542"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033011"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Verwalten Ihrer Geräte in Microsoft Teams
 
@@ -54,7 +55,7 @@ Zum Verwalten von Geräten wechseln Sie in der linken Navigationsleiste des [Mic
 
 Sie können das Team Admin Center verwenden, um Ihre Teams rooms-Geräte in Ihrer Organisation anzuzeigen und Remote zu verwalten. Das Team Admin Center macht es einfach, auf einen Blick zu sehen, welche Geräte gesund sind und welche Aufmerksamkeit erfordern, und ermöglicht Ihnen, sich auf bestimmte Geräte zu konzentrieren, um detaillierte Informationen zu Gerätestatus, Besprechungs Leistung, Anrufqualität und Peripheriegeräten anzuzeigen. 
 
-Hier sind einige Möglichkeiten, wie Sie Ihre Teams rooms-Geräte verwalten können. Teams rooms-Geräte finden Sie im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) unter **Geräte**  >  **Teams-Chatrooms** .
+Hier sind einige Möglichkeiten, wie Sie Ihre Teams rooms-Geräte verwalten können. Teams rooms-Geräte finden Sie im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) unter **Geräte**  >  **Teams-Chatrooms**.
 
 Ausführliche Informationen zum Verwalten von Geräten für teamsräume finden Sie unter [Verwalten von Microsoft Teams-Räumen](../rooms/rooms-manage.md).
 
@@ -78,7 +79,7 @@ Nachfolgend finden Sie einige Beispiele, wie Sie Telefone, Zusammenarbeits leist
 | Ändern von Geräteinformationen               | Wählen Sie ein Gerät > **Bearbeiten** aus. Sie können Details wie Gerätename, Inventar Kategorie und Notizen bearbeiten.     |
 | Verwalten von Softwareupdates                 | Wählen Sie ein Gerät > **Update** aus. Sie können die Liste der für das Gerät verfügbaren Software-und Firmware-Updates anzeigen und die zu installierenden Updates auswählen. Weitere Informationen zum Aktualisieren von Geräten finden Sie unter [Aktualisieren von Teams-Geräten per Remotezugriff](remote-update.md) .   |
 | Aktualisieren von Teams-Smartphones auf Teams-Displays                | Wählen Sie auf der Seite **IP-Telefone** ein oder mehrere Teams-Telefone > **Upgrade** aus. Diese Option steht nur für Telefone zur Verfügung, die ein Upgrade auf Teams-Displays unterstützen. Weitere Informationen finden Sie unter [Upgrade von Teams-Smartphones auf Teams-Displays](upgrade-phones-to-displays.md).   |
-| Zuweisen oder Ändern von Konfigurationsrichtlinien | Wählen Sie ein oder mehrere Geräte aus, > die **Konfiguration zuzuweisen** .                                                                                                                                                                                                                   |
+| Zuweisen oder Ändern von Konfigurationsrichtlinien | Wählen Sie ein oder mehrere Geräte aus, > die **Konfiguration zuzuweisen**.                                                                                                                                                                                                                   |
 | Hinzufügen oder Entfernen von Gerätekategorien               | Wählen Sie ein oder mehrere Geräte > **Kategorien verwalten** aus. Weitere Informationen zu Geräte Tags finden Sie unter [Verwalten von Teams-Gerätekategorien](manage-device-tags.md).                                                                                                      |
 | Geräte neu starten                         | Wählen Sie ein oder mehrere Geräte > **Neustart** aus.                                                                                                                                                                                                                                |
 | Filtern von Geräten mithilfe von Gerätekategorien        | Wählen Sie das Filtersymbol aus, wählen Sie das **Tag** -Feld aus, geben Sie ein Device-Tag zum Filtern an, und wählen Sie über **nehmen** aus. Weitere Informationen zum Filtern von Geräten mithilfe von Geräte Tags finden Sie unter [Verwenden von Filtern zum Zurückgeben von Geräten mit einem bestimmten Tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag).|
@@ -90,15 +91,15 @@ Verwenden Sie Konfigurationsprofile zum Verwalten von Einstellungen und Features
 
 #### <a name="create-a-configuration-profile"></a>Erstellen eines Konfigurationsprofils
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Devices** -  >  **Konfigurationsprofilen** .
-2. Klicken Sie auf **Hinzufügen** .
+1. Navigieren Sie in der linken Navigationsleiste zu **Devices** -  >  **Konfigurationsprofilen**.
+2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie einen Namen für das Profil ein, und fügen Sie bei Bedarf eine Beschreibung hinzu.
-4. Geben Sie die gewünschten Einstellungen für das Profil ein, und klicken Sie auf **Speichern** .
+4. Geben Sie die gewünschten Einstellungen für das Profil ein, und klicken Sie auf **Speichern**.
 
 #### <a name="assign-a-configuration-profile"></a>Zuweisen eines Konfigurationsprofils
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Devices** -  >  **Konfigurationsprofilen** .
-2. Wählen Sie das **Konfigurationsprofil** aus, das Sie zuweisen möchten, und klicken Sie dann auf **auf Gerät zuweisen** .  
+1. Navigieren Sie in der linken Navigationsleiste zu **Devices** -  >  **Konfigurationsprofilen**.
+2. Wählen Sie das **Konfigurationsprofil** aus, das Sie zuweisen möchten, und klicken Sie dann auf **auf Gerät zuweisen**.  
 3. Suchen Sie im Bereich **Geräte zu einem Konfigurationsprofil zuweisen** nach den Geräten, die Sie zuweisen möchten, und wählen Sie Sie aus.
-4. Klicken Sie auf **Speichern** .
+4. Klicken Sie auf **Speichern**.
 

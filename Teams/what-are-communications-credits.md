@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Informieren Sie sich, welche Kommunikationsguthaben (PSTN-Verbrauch) Abrechnung, wie Sie Gebühren finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: 60c80f9eac7aac4f024f8517690227a507501efd
-ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
+ms.openlocfilehash: 0af2e17351277bac49ac713b1f5e9fc9676beb28
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993451"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030951"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 

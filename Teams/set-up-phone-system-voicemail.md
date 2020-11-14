@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Cloud Voicemail für Ihre Benutzer einrichten. '
-ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691051"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031071"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
@@ -67,10 +68,10 @@ Gehen Sie wie folgt vor, um geschützte Voicemail einzurichten:
 
 1. Wechseln Sie zu und registrieren Sie sich mit https://admin.microsoft.com einem Konto mit globalen Administratorberechtigungen.
 2. Wählen Sie **Alle anzeigen** aus, und wechseln Sie dann zu **Admin Center**  >  **Exchange**.
-3. Wählen Sie im Exchange Admin Center die Option **Nachrichtenfluss**  >  **Regeln**aus.
-4. Wählen Sie **+** **Hinzufügen**aus, und wählen Sie dann **Office 365-Nachrichtenverschlüsselung und-Rechte Schutz auf Nachrichten anwenden**aus.
-5. Geben Sie einen Namen für die neue Nachrichtenfluss Regel ein, und wählen Sie dann unter **diese Regel anwenden, wenn**die **Nachrichteneigenschaften**  >  **den Nachrichtentyp**  >  **Voicemail**enthalten aus. Wählen Sie **OK**aus.
-6. Wählen Sie unter **Folgendes ausführen die**Option **Office 365-Nachrichtenverschlüsselung und-Rechte Schutz auf die Nachricht anwenden** aus, und wählen Sie dann **auswählen**aus. Wählen Sie unter **RMS-Vorlage**die Option **nicht weiterleiten**aus. Klicken Sie auf **OK** und dann auf **Speichern**.
+3. Wählen Sie im Exchange Admin Center die Option **Nachrichtenfluss**  >  **Regeln** aus.
+4. Wählen Sie **+** **Hinzufügen** aus, und wählen Sie dann **Office 365-Nachrichtenverschlüsselung und-Rechte Schutz auf Nachrichten anwenden** aus.
+5. Geben Sie einen Namen für die neue Nachrichtenfluss Regel ein, und wählen Sie dann unter **diese Regel anwenden, wenn** die **Nachrichteneigenschaften**  >  **den Nachrichtentyp**  >  **Voicemail** enthalten aus. Wählen Sie **OK** aus.
+6. Wählen Sie unter **Folgendes ausführen die** Option **Office 365-Nachrichtenverschlüsselung und-Rechte Schutz auf die Nachricht anwenden** aus, und wählen Sie dann **auswählen** aus. Wählen Sie unter **RMS-Vorlage** die Option **nicht weiterleiten** aus. Klicken Sie auf **OK** und dann auf **Speichern**.
     > [!NOTE]
     > Wenn die Liste der **RMS-Vorlagen** leer ist, müssen Sie die Nachrichtenverschlüsselung einrichten. Weitere Informationen zum Einrichten der Nachrichtenverschlüsselung finden Sie in den folgenden Artikeln:
     > - [Einrichten neuer Nachrichten Verschlüsselungsfunktionen](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
@@ -84,7 +85,7 @@ Gehen Sie wie folgt vor, um geschützte Voicemail einzurichten:
 
 Voicemail-Transkription ist standardmäßig aktiviert und die Profanitäts-Maskierung während der Transkription ist standardmäßig für alle Organisationen und Benutzer deaktiviert. Sie können sie jedoch mithilfe der Cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) und [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) steuern.
 
-Voicemail-Nachrichten, die von Benutzern in Ihrer Organisation empfangen werden, werden in der Region transkribiert, in der Ihre Microsoft 365-oder Office 365-Organisation gehostet wird. Der Bereich, in dem der Mandant gehostet wird, ist möglicherweise nicht derselbe Bereich, in dem sich der Benutzer befindet, der die Sprachnachricht empfängt. Um die Region anzuzeigen, in der Ihr Mandant gehostet wird, wechseln Sie zur Seite [Organisationsprofil](https://go.microsoft.com/fwlink/p/?linkid=2067339) , und klicken Sie dann neben **Datenspeicherort**auf **Details anzeigen** .
+Voicemail-Nachrichten, die von Benutzern in Ihrer Organisation empfangen werden, werden in der Region transkribiert, in der Ihre Microsoft 365-oder Office 365-Organisation gehostet wird. Der Bereich, in dem der Mandant gehostet wird, ist möglicherweise nicht derselbe Bereich, in dem sich der Benutzer befindet, der die Sprachnachricht empfängt. Um die Region anzuzeigen, in der Ihr Mandant gehostet wird, wechseln Sie zur Seite [Organisationsprofil](https://go.microsoft.com/fwlink/p/?linkid=2067339) , und klicken Sie dann neben **Datenspeicherort** auf **Details anzeigen** .
 
 > [!IMPORTANT]
 > Mit dem Cmdlet **New-CsOnlineVoiceMailPolicy** können Sie keine neue Richtlinieninstanz für Transkriptions-und Transkriptions Obszönitäten erstellen, und Sie können eine vorhandene Richtlinieninstanz nicht mithilfe des Cmdlets **Remove-CsOnlineVoiceMailPolicy** entfernen.

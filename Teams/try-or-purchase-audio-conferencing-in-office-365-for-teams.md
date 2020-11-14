@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Hier erfahren Sie, wie Sie die Lizenzen für Audiokonferenzen (PSTN-Konferenzen) für Microsoft 365 oder Office 365 testen oder kaufen, um Konferenzgespräche einzurichten, in die sich Personen einwählen können. '
-ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788439"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031271"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Testen oder kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams
 
@@ -50,7 +51,7 @@ Sie müssen ein [globaler Administrator oder rechnungsadministrator](https://sup
 
    - **Probieren Sie es** aus, bevor Sie es kaufen: Sie können sich für ein kostenloses Office 365 Enterprise E5-Testabonnement anmelden, das Audiokonferenzen umfasst. Siehe [Testversion von Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Kaufen**: Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
+   - **Kaufen** : Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
 
 3. Weisen Sie den Benutzern in Ihrer Organisation [Lizenzen zu](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) , die Besprechungen planen oder leiten.
 
@@ -82,7 +83,7 @@ Wenn Sie Benutzer mit einem Drittanbieter für Audiokonferenzen aktiviert haben,
 
 ## <a name="step-3-other-admin-tasks"></a>Schritt 3: Andere Administratoraufgaben
 
-Die folgenden Schritte sind **optional**, aber viele Administratoren führen diese gerne aus:
+Die folgenden Schritte sind **optional** , aber viele Administratoren führen diese gerne aus:
 
 1. [Anpassen von Besprechungseinladungen](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations) Die für den Nutzer festgelegten Einwahlnummern werden automatisch den Besprechungseinladungen hinzugefügt, die Teilnehmern zugesendet werden. Sie können jedoch Ihre eigenen Hilfe- und rechtliche Links, eine SMS und eine kleine Firmengrafik hinzufügen, wenn Sie möchten.
 

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820018"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033014"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschlange
 
@@ -46,7 +47,7 @@ Anrufwarteschlangen bieten Folgendes:
 
 Stellen Sie sicher, dass Sie den [Plan für automatische Team-Telefonzentralen und-Warteschlangen](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den [Schritten unter erste](plan-auto-attendant-call-queue.md#getting-started) Schritte, bevor Sie die in diesem Artikel beschriebenen Schritte ausführen.
 
-Zum Einrichten einer Anrufwarteschlange erweitern Sie im Team Admin Center die **Sprache** , klicken Sie auf **Anrufwarteschlangen** , und klicken Sie dann auf **Hinzufügen** .
+Zum Einrichten einer Anrufwarteschlange erweitern Sie im Team Admin Center die **Sprache** , klicken Sie auf **Anrufwarteschlangen** , und klicken Sie dann auf **Hinzufügen**.
 
 ## <a name="resource-account-and-language"></a>Ressourcenkonto und-Sprache
 
@@ -54,7 +55,7 @@ Zum Einrichten einer Anrufwarteschlange erweitern Sie im Team Admin Center die *
 
 1. Geben Sie einen Namen für die Anrufwarteschlange ein. Agents sehen diesen Namen, wenn ein eingehender Anruf von der Warteschlange empfangen wird.
 
-2. Klicken Sie auf **Konten hinzufügen** , suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschlange verwenden möchten, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen** .
+2. Klicken Sie auf **Konten hinzufügen** , suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschlange verwenden möchten, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen**.
 
 3. Wählen Sie eine Sprache aus. Diese Sprache wird für System generierte Sprachansagen und Voicemail-Transkription verwendet (wenn Sie Sie aktivieren).
 
@@ -81,9 +82,9 @@ Ausgewählte Anruf-Agents müssen eine der folgenden sein:
 
 Sie können bis zu 20 Agents einzeln und bis zu 200-Agents über Gruppen hinzufügen.
 
-Wenn Sie der Warteschlange einen Benutzer hinzufügen möchten, klicken Sie auf **Benutzer hinzufügen** , suchen Sie nach dem Benutzer, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen** .
+Wenn Sie der Warteschlange einen Benutzer hinzufügen möchten, klicken Sie auf **Benutzer hinzufügen** , suchen Sie nach dem Benutzer, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen**.
 
-Wenn Sie der Warteschlange eine Gruppe hinzufügen möchten, klicken Sie auf **Gruppen hinzufügen** , suchen Sie nach der Gruppe, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen** . Sie können Verteilerlisten, Sicherheitsgruppen und Microsoft 365-Gruppen oder Microsoft Teams-Teams verwenden.
+Wenn Sie der Warteschlange eine Gruppe hinzufügen möchten, klicken Sie auf **Gruppen hinzufügen** , suchen Sie nach der Gruppe, klicken Sie auf **hinzu** fügen, und klicken Sie dann auf **Hinzufügen**. Sie können Verteilerlisten, Sicherheitsgruppen und Microsoft 365-Gruppen oder Microsoft Teams-Teams verwenden.
 
 > [!NOTE]
 > Neue Benutzer, die zu einer Gruppe hinzugefügt wurden, können bis zu acht Stunden dauern, bis Ihr erster Anruf eingeht.
@@ -152,7 +153,7 @@ Sie können wählen, ob Sie den Anruf trennen oder ihn an alle [Anruf Weiterleit
 
 Sie können wählen, ob Sie den Anruf trennen oder ihn an eines der Anruf Weiterleitungs Ziele weiterleiten möchten. So können Sie beispielsweise den Anrufer für die Agents in der Warteschlange eine Sprachnachricht hinterlassen.
 
-Wenn Sie die Optionen für das Anruf Timeout ausgewählt haben, klicken Sie auf **Speichern** .
+Wenn Sie die Optionen für das Anruf Timeout ausgewählt haben, klicken Sie auf **Speichern**.
 
 ## <a name="caller-id-for-outbound-calls"></a>Rufnummernanzeige für ausgehende Anrufe
 

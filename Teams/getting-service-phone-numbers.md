@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie neue Telefonnummern abrufen und vorhandene Nummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen (Service-Nummern) für Teams übertragen oder übertragen können.
-ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: adca7b31b59a88d16eefcd8f45a4c896a5c3de3f
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021987"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030441"
 ---
 # <a name="getting-service-phone-numbers"></a>Abrufen von Diensttelefonnummern
 
@@ -50,14 +51,14 @@ Es gibt drei Möglichkeiten zum Abrufen von Dienstnummern:
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern**, und klicken Sie dann auf **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** -  >  **Telefonnummern** , und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 3. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
-    1. Wählen Sie unter **Land oder Region**ein Land oder eine Region aus.
-    1. Wählen Sie unter **Nummerntyp**den Typ der gewünschten Servicenummer aus.
-    1. Wählen Sie unter **Standort**einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie auf **Ort hinzufügen**.
-    1. Wählen Sie unter **Vorwahl**eine Ortsvorwahl aus. 
-    2. Geben **Sie unter Anzahl**die Anzahl der gewünschten Zahlen für Ihre Organisation ein, und klicken Sie dann auf **weiter** , um Ihre Nummern auszuwählen.
+    1. Wählen Sie unter **Land oder Region** ein Land oder eine Region aus.
+    1. Wählen Sie unter **Nummerntyp** den Typ der gewünschten Servicenummer aus.
+    1. Wählen Sie unter **Standort** einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie auf **Ort hinzufügen**.
+    1. Wählen Sie unter **Vorwahl** eine Ortsvorwahl aus. 
+    2. Geben **Sie unter Anzahl** die Anzahl der gewünschten Zahlen für Ihre Organisation ein, und klicken Sie dann auf **weiter** , um Ihre Nummern auszuwählen.
 4. Wählen Sie die gewünschten Nummern aus. Sie haben 10 Minuten Zeit, um ihre Telefonnummern auszuwählen und Ihre Bestellung aufzugeben. Wenn Sie mehr als 10 Minuten benötigen, werden die Telefonnummern in den Nummern Pool zurückgegeben.
 5. Wenn Sie bereit sind, Ihre Bestellung aufzugeben, klicken Sie auf **Bestellung aufgeben**.
 
@@ -74,7 +75,7 @@ Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist,
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers** 
 
-Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern** , um die Nummern für Ihre Organisation anzuzeigen, einschließlich Standort, Nummerntyp und Statusinformationen.
+Wechseln Sie in der linken Navigationsleiste zu **VoIP** -  >  **Telefonnummern** , um die Nummern für Ihre Organisation anzuzeigen, einschließlich Standort, Nummerntyp und Statusinformationen.
 
 ## <a name="assign-service-phone-numbers"></a>Service-Telefonnummern zuweisen
 
@@ -90,4 +91,4 @@ Nachdem Sie Ihre Servicenummern erhalten haben, weisen Sie jede Nummer einer Aud
 
 [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

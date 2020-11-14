@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177560"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033021"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -59,9 +60,9 @@ Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert](htt
 Nachdem Sie überprüft haben, dass Sie diese Netzwerkanforderungen erfüllen, sind Sie möglicherweise bereit, [Teams zu Rollen](How-to-roll-out-teams.md). Wenn Sie ein großes multinationales Unternehmen sind oder wissen, dass Sie einige Netzwerkeinschränkungen haben, lesen Sie weiter, um zu erfahren, wie Sie Ihr Netzwerk für Teams bewerten und optimieren können.
 
 > [!IMPORTANT]
-> **Für Bildungseinrichtungen**: Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Student Information System (SIS) verwenden, [Stellen Sie School Data Sync bereit](https://docs.microsoft.com/schooldatasync/) , bevor Sie Teams Ausrollen.
+> **Für Bildungseinrichtungen** : Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Student Information System (SIS) verwenden, [Stellen Sie School Data Sync bereit](https://docs.microsoft.com/schooldatasync/) , bevor Sie Teams Ausrollen.
 >  
-> **Lokale Skype for Business-Server**: Wenn in Ihrer Organisation lokales Skype for Business Server (oder lync Server) ausgeführt wird, müssen Sie [Azure AD Connect so konfigurieren](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) , dass Ihr lokales Verzeichnis mit Microsoft 365 oder Office 365 synchronisiert wird.
+> **Lokale Skype for Business-Server** : Wenn in Ihrer Organisation lokales Skype for Business Server (oder lync Server) ausgeführt wird, müssen Sie [Azure AD Connect so konfigurieren](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) , dass Ihr lokales Verzeichnis mit Microsoft 365 oder Office 365 synchronisiert wird.
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Bewährte Methode: Überwachen Ihres Netzwerks mithilfe von CQD und anrufanalyse 
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827749"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021142"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827749"
 
 
 |Datum|Ereignis|
-|---|-----------------|
-|Frühes Q4 CY20|**Teams-Besprechungsaufzeichnung auf OneDrive for Business und SharePoint, die für Opt-in oder Opt-out verfügbar sind.**<br> Mandantenadministratoren können die OneDrive for Business-und SharePoint-Einstellungen für die Team Richtlinie in PowerShell aktivieren oder deaktivieren.|
-|Mid Q4 CY20|**Teams-Besprechungsaufzeichnung auf OneDrive for Business und SharePoint als Standardeinstellung für Mandanten, die sich nicht abmelden**<br> Dies ist der empfohlene Pfad für die meisten Kunden.|
-|Q1 CY21|**Speichern der Besprechungsaufzeichnung für Teams im klassischen Datenstrom nicht mehr zulässig**<br>Alle Mandanten speichern die Besprechungsaufzeichnung für Teams in OneDrive for Business und SharePoint.|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|5. Oktober 2020| Sie können die Team-Besprechungsrichtlinie aktivieren, damit Besprechungsaufzeichnungen in OneDrive for Business und SharePoint statt in Microsoft Stream (klassisch) gespeichert werden.|
+|Rollout ab 11. Januar 2021|Alle neuen Teams-Besprechungsaufzeichnungen werden in OneDrive for Business und SharePoint gespeichert, es sei denn, Sie verzögern diese Änderung, indem Sie die Team-Besprechungsrichtlinien Ihrer Organisation ändern und diese explizit auf **Stream** festlegen. Das Anzeigen der Richtlinien Berichterstattung als Stream reicht nicht aus. Sie müssen den Richtlinienwert explizit auf **Stream** festlegen.|
+|Rollout ab 1. März 2021|**Unternehmenskunden**<br>Es können keine neuen Besprechungsaufzeichnungen in Microsoft Stream (klassisch) gespeichert werden. alle Kunden erhalten automatisch Besprechungsaufzeichnungen, die auf OneDrive for Business und SharePoint gespeichert werden, selbst wenn Sie Ihre Teams-Besprechungsrichtlinien in **Stream** geändert haben. Wir empfehlen, dass Kunden diese Funktion vor diesem Datum ausrollen, damit Sie den Zeitpunkt der Freigabe kontrollieren können. |
+|Rollout ab 7. Juli 2021|**Education-Kunden**<br>Es können keine neuen Besprechungsaufzeichnungen in Microsoft Stream (klassisch) gespeichert werden. alle Kunden erhalten automatisch Besprechungsaufzeichnungen, die auf OneDrive for Business und SharePoint gespeichert werden, selbst wenn Sie Ihre Teams-Besprechungsrichtlinien in **Stream** geändert haben. Wir empfehlen, dass Kunden diese Funktion vor diesem Datum ausrollen, damit Sie den Zeitpunkt der Freigabe kontrollieren können. Wir haben diesen Zeitplan aktualisiert, damit Education-Kunden in der Lage sind, in-Progress-Semester abzuschließen. |
+
+> [!Note]
+> Wir empfehlen Unternehmens-und Bildungskunden, die Änderung in Ihrer Organisation besser zu kontrollieren, wenn Sie mit der Änderung vertraut sind, anstatt darauf zu warten, dass dies geschieht. 
 
 Microsoft Teams hat eine neue Methode zum Speichern von Besprechungsaufzeichnungen. Als erste Phase des Übergangs vom klassischen Microsoft-Stream auf den [neuen Datenstrom](https://docs.microsoft.com/stream/streamnew/new-stream)speichert diese Methode Aufzeichnungen zu Microsoft OneDrive for Business und SharePoint in Microsoft 365 und bietet zahlreiche Vorteile.
 

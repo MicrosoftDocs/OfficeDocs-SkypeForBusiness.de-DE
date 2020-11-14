@@ -8,27 +8,28 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Informieren Sie sich über die Netzwerkeinstellungen, die Sie für standortbasiertes Routing für direktes Routing und erweiterte Notfalldienste konfigurieren müssen.
+description: Informieren Sie sich über die Netzwerkeinstellungen, die Sie für Location-Based Routing für Direct Routing und erweiterte Notfalldienste konfigurieren müssen.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139064"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031831"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams
 
 Erfahren Sie mehr über netzwerkregionen, Netzwerk Websites, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen. Diese Begriffe und Konzepte werden in unserer Cloud-Sprachdokumentation für [standortbasiertes Routing für direktes Routing](location-based-routing-plan.md) und [dynamische Notrufe](configure-dynamic-emergency-calling.md)verwendet. Wenn Sie diese Cloud-Features in Ihrer Organisation bereitstellen, müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams konfigurieren.
 
-In diesem Artikel erhalten Sie einen Überblick über die Netzwerkeinstellungen, die für standortbasiertes Routing und dynamische Notrufe üblich sind. Je nach der von Ihnen bereitgestellten Cloud-Sprachfunktion und-Funktion konfigurieren Sie einige oder alle dieser Einstellungen. Eine schrittweise Anleitung zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten der Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
+In diesem Artikel erhalten Sie einen Überblick über die Netzwerkeinstellungen, die für Location-Based Routing und dynamische Notrufe üblich sind. Je nach der von Ihnen bereitgestellten Cloud-Sprachfunktion und-Funktion konfigurieren Sie einige oder alle dieser Einstellungen. Eine schrittweise Anleitung zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten der Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
 
 > [!NOTE]
 > Alle funktionsspezifischen Anforderungen für Netzwerkeinstellungen werden in den Konfigurationsthemen für dieses Feature dokumentiert.
@@ -37,7 +38,7 @@ In diesem Artikel erhalten Sie einen Überblick über die Netzwerkeinstellungen,
 
 Eine Netzwerkregion enthält verschiedene Netzwerkstandorte. Es verbindet verschiedene Teile eines Netzwerks über mehrere geographische Regionen hinweg. Wenn Ihre Organisation beispielsweise viele Websites in Indien hat, können Sie "Indien" als netzwerkregion angeben. Jede Netzwerk Website muss einem Netzwerkbereich zugeordnet sein.
 
-Die gleichen netzwerkregionen werden vom standortbasierten Routing für direktes Routing und erweiterte Notfalldienste freigegeben. Wenn Sie bereits netzwerkregionen für ein Feature erstellt haben, müssen Sie keine neuen netzwerkregionen für das andere Feature erstellen.
+Die gleichen netzwerkregionen werden von Location-Based Routing für direktes Routing und erweiterte Notfalldienste freigegeben. Wenn Sie bereits netzwerkregionen für ein Feature erstellt haben, müssen Sie keine neuen netzwerkregionen für das andere Feature erstellen.
 
 ## <a name="network-site"></a>Netzwerk Website
 

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Informieren Sie sich über Notrufe, einschließlich Informationen zu Notfalladressen, Routing von Notrufen und dynamischen Notrufen.
-ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665157"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031601"
 ---
 # <a name="manage-emergency-calling"></a>Verwalten von Notrufen
 
@@ -37,7 +38,7 @@ In diesem Artikel werden Konzepte beschrieben, die Sie für die Verwaltung von N
 
 - **Notfalladresse** – eine bürgerliche Adresse &mdash; die physische oder die Adresse eines Geschäfts Orts für Ihre Organisation.
 
-  So wird beispielsweise die Adresse *12345 North Main Street, Redmond, WA 98052* verwendet, um Notrufe an die entsprechenden Versand Behörden weiterzuleiten und den Notruf Anruf zu unterstützen.
+  So wird beispielsweise die Adresse  *12345 North Main Street, Redmond, WA 98052* verwendet, um Notrufe an die entsprechenden Versand Behörden weiterzuleiten und den Notruf Anruf zu unterstützen.
 
 - **Ort** – normalerweise ein Stockwerk, Gebäude, Flügel oder eine Büronummer. Ort ist mit einer Notfalladresse verknüpft, um eine genauere Position innerhalb eines Gebäudes zu erhalten. Sie können eine unbegrenzte Anzahl von Orten haben, die einer Notfalladresse zugeordnet sind. Wenn Ihre Organisation beispielsweise über mehrere Gebäude verfügt, möchten Sie möglicherweise Ortsinformationen für jedes Gebäude und für jede Etage in jedem Gebäude einbeziehen.  
 
@@ -117,15 +118,15 @@ Wenn ein Team-Anruf Plan-Nutzer eine Notrufnummer anwählt, hängt die Art und W
 
   - Wenn ein Notruf Anrufer seinen Notfall Standort nicht auf das Screening Center aktualisieren kann, wird der Anruf an den PSAP übertragen, der die registrierte Adresse des Anrufers bedient.
 
-  **In Kanada, Irland und Großbritannien**werden Notrufe zuerst angezeigt, um den aktuellen Standort des Benutzers zu ermitteln, bevor der Anruf an das entsprechende Dispatch Center angeschlossen wird. 
+  **In Kanada, Irland und Großbritannien** werden Notrufe zuerst angezeigt, um den aktuellen Standort des Benutzers zu ermitteln, bevor der Anruf an das entsprechende Dispatch Center angeschlossen wird. 
 
-  **In Frankreich, Deutschland und Spanien**werden Notrufe direkt an das PSAP weitergeleitet, das die mit der Nummer verknüpfte Notfalladresse unabhängig vom Standort des Anrufers bedient.
+  **In Frankreich, Deutschland und Spanien** werden Notrufe direkt an das PSAP weitergeleitet, das die mit der Nummer verknüpfte Notfalladresse unabhängig vom Standort des Anrufers bedient.
 
-  **In den Niederlanden**werden Notrufe direkt an den PSAP für die Ortsvorwahl der Nummer weitergeleitet, unabhängig von der Position des Anrufers.
+  **In den Niederlanden** werden Notrufe direkt an den PSAP für die Ortsvorwahl der Nummer weitergeleitet, unabhängig von der Position des Anrufers.
 
-  **In Australien**werden Notfalladressen vom Carrier-Partner konfiguriert und weitergeleitet.
+  **In Australien** werden Notfalladressen vom Carrier-Partner konfiguriert und weitergeleitet.
 
-  **In Japan**werden Notrufe nicht unterstützt.
+  **In Japan** werden Notrufe nicht unterstützt.
 
 
 Weitere Informationen finden Sie unter:
@@ -214,7 +215,7 @@ Während eines Notrufs wird ein Security Desk an den Anruf angeschlossen, und di
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Verwalten von Notruf-Richtlinien](manage-emergency-calling-policies.md)
-- [Verwalten von Notfall Anrufrouting Richtlinien](manage-emergency-call-routing-policies.md)
+- [Verwalten von Notfall Anrufrouting Richtlinien ](manage-emergency-call-routing-policies.md)
 - [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
 - [Zuweisen oder Ändern eines Notfall Standorts für Ihren Benutzer](assign-change-emergency-location-user.md)
 - [Planen und Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md)

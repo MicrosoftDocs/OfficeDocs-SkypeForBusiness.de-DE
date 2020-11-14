@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269649"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031011"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -148,7 +149,7 @@ Damit ein Client einen Standort erhält, müssen Sie den LIS mit Netzwerkkennung
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 1. Wechseln Sie in der linken Navigationsleiste zu **Standorte**  >  **Netzwerke & Standorte**.
-2. Klicken Sie auf die Registerkarte, die die Netzwerk-ID darstellt, die Sie hinzufügen möchten. Klicken Sie beispielsweise auf **Subnets**, **Wi-Fi-Zugriffspunkte**, **Switches**oder **Ports**. Klicken Sie dann auf **Hinzufügen**.
+2. Klicken Sie auf die Registerkarte, die die Netzwerk-ID darstellt, die Sie hinzufügen möchten. Klicken Sie beispielsweise auf **Subnets** , **Wi-Fi-Zugriffspunkte** , **Switches** oder **Ports**. Klicken Sie dann auf **Hinzufügen**.
 3. Füllen Sie die Felder aus, fügen Sie einen Notfall Standort hinzu, und klicken Sie dann auf über **nehmen**.
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell

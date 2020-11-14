@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
-ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
+ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48925467"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031261"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 

@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) für Teams verfügbar sind und wie Sie eine für Ihre Organisation auswählen können.  '
-ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
-ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
+ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153577"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031371"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -69,9 +70,9 @@ Führen Sie die folgenden Schritte aus, um benutzerdefinierte Wählpläne zu pla
 
 - **Schritt 2** Ermitteln Sie, ob Mandanten-Global-oder mandantenspezifische Wählpläne benötigt werden oder beides. Wählpläne mit Bereichszuweisung eines Benutzers sind erforderlich, wenn Benutzer über unterschiedliche Anforderungen an lokale Wählvorgänge verfügen.
 
-- **Schritt 3**: Identifizieren Sie gültige Nummernmuster für jeden erforderlichen Wählplan. Es sind nur die Nummernmuster erforderlich, die nicht in den Wählplänen auf der Ebene von landesspezifischen Diensten definiert sind.
+- **Schritt 3** : Identifizieren Sie gültige Nummernmuster für jeden erforderlichen Wählplan. Es sind nur die Nummernmuster erforderlich, die nicht in den Wählplänen auf der Ebene von landesspezifischen Diensten definiert sind.
 
-- **Schritt 4**: Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen. Die Übernahme eines Standardbenennungsschemas stellt die Konsistenz innerhalb einer Organisation sicher und vereinfacht Wartungsaufgaben und Updates.
+- **Schritt 4** : Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen. Die Übernahme eines Standardbenennungsschemas stellt die Konsistenz innerhalb einer Organisation sicher und vereinfacht Wartungsaufgaben und Updates.
 
 
 ## <a name="creating-your-new-tenant-dial-plan"></a>Erstellen Ihres neuen Mandantenwählplans

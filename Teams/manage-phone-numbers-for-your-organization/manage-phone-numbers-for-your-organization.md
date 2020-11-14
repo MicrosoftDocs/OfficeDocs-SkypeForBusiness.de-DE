@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Benutzer (gebührenpflichtige und gebührenfreie) Telefonnummern für Microsoft Teams für Ihre Organisation abrufen und verwalten.
-ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 7d72bdd8f688d079ce3627935d837d94d9b1d5f6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320820"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031751"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 
@@ -67,7 +68,7 @@ Wenn Sie wissen, welche Art von Formularen Sie suchen, verwenden Sie die Dropdow
 > - [Vereinigtes Königreich](phone-number-management-for-the-u-k.md)
 > - [Vereinigte Staaten & Puerto Rico](phone-number-management-for-the-u-s.md)
 
-***
+**_
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Hier finden Sie weitere Informationen zu diesen Formularen zur Anforderung von Telefonnummern
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Anfordern von Formularen für neue Telefonnummern
@@ -82,10 +83,10 @@ Wenn dies der Fall ist, müssen Sie das richtige PDF-Formular für Loa (pro Land
 
 Wenn Sie Ihre vorhandenen Telefonnummern übertragen/portieren müssen, müssen Sie uns einen Genehmigungsbescheid (Letter of Authorization, Loa) herunterladen, ausfüllen und senden, der uns die Genehmigung erteilt, in Ihrem Namen die vorhandenen Nummern von einem anderen Dienstanbieter in Microsoft Teams zu beantragen und zu übertragen.
 
-Bitte senden Sie uns eine **Loa** , wenn Sie derzeit mit einem anderen Netzbetreiber über Folgendes verfügen:
+Bitte senden Sie uns eine _ *Loa* *, wenn Sie derzeit mit einem anderen Netzbetreiber Folgendes haben:
 - Benutzernummern (Abonnenten).
 - Dienstnummern (gebührenpflichtig) für Audiokonferenz-Bridges, automatische Telefonzentralen oder Anrufwarteschlangen.
-- Gebührenfreie Telefonnummern.
+- Toll-Free Telefonnummern.
 - Mehr als 999 Benutzer Telefonnummern, die Sie übertragen/portieren müssen, aber nicht im Microsoft Teams Admin Center mit dem Assistenten für lokale Nummern Portierungen sind.
 
 Nachdem Sie Ihren **gefüllten und unter schriebenen** Loa erhalten haben, [wenden Sie sich bitte an unseren PSTN-Service-Desk](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) , damit wir Ihnen behilflich sein können.

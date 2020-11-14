@@ -12,18 +12,19 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mit dem Portierungs-Assistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter an Microsoft Teams übertragen können.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 2a70f6b1cec2658cb2348d21895bfc3b30717d75
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227529"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030761"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
@@ -41,32 +42,32 @@ Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen in [einem Port Auftra
 > [!NOTE]
 > **Derzeit können Sie mit diesem Assistententelefon Nummern für das Vereinigte Königreich, die Vereinigten Staaten und Kanada abrufen**. Wenn Sie Telefonnummern für andere Länder und Regionen erhalten möchten, können Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md). Wenn Sie das Formular abrufen möchten, das Sie manuell übermitteln müssen, wählen Sie in der Dropdownliste unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)Ihr Land oder Ihre Region aus.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > -**Telefonnummern**. Klicken Sie auf **Zahlen**, und klicken Sie dann auf **Port** , um den Porting-Assistenten zu starten.
-2. Überprüfen Sie die Informationen auf der Seite " **Erste Schritte** ", und klicken Sie dann auf **weiter**, wenn Sie fertig sind.
-3. Geben Sie auf der Seite **Speicherort und Zahlentyp auswählen** Folgendes an, und klicken Sie dann auf **weiter**:
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** -  >  **Telefonnummern**. Klicken Sie auf **Zahlen** , und klicken Sie dann auf **Port** , um den Porting-Assistenten zu starten.
+2. Überprüfen Sie die Informationen auf der Seite " **Erste Schritte** ", und klicken Sie dann auf **weiter** , wenn Sie fertig sind.
+3. Geben Sie auf der Seite **Speicherort und Zahlentyp auswählen** Folgendes an, und klicken Sie dann auf **weiter** :
 
-    - **Land oder Region**: Land oder Region, in dem Sie Zahlen erhalten.
-    - **Art der Telefonnummer**: Art der Nummer, beispielsweise geografische oder gebührenfreie Nummern.
-    - **Nummern zugewiesen an**: Was die Nummern zugewiesen sind. Beispielsweise Benutzer oder Konferenz-oder Sprachfunktionen.
+    - **Land oder Region** : Land oder Region, in dem Sie Zahlen erhalten.
+    - **Art der Telefonnummer** : Art der Nummer, beispielsweise geografische oder gebührenfreie Nummern.
+    - **Nummern zugewiesen an** : Was die Nummern zugewiesen sind. Beispielsweise Benutzer oder Konferenz-oder Sprachfunktionen.
 
 4. Führen Sie auf der Seite **Kontoinformationen hinzufügen** die folgenden Schritte aus, und klicken Sie dann auf **weiter**.
 
     > [!IMPORTANT]
     > Die auf dieser Seite angezeigten Informationen werden durch das Land oder die Region und den Nummerntyp bestimmt. Für jedes Land und jede Region gelten unterschiedliche Regelungen für die Informationen, die für die Portierung von Nummern erforderlich sind. Was auf dieser Seite angezeigt wird, kann sich von den hier beschriebenen unterscheiden.
 
-    - **Bestelldetails**: 
-        - **Bestell Name**: Name Ihrer Bestellung
-        - **Benachrichtigungs**-e-Mails: e-Mail-Adressen zum Empfangen von Bestellbenachrichtigungen. Wenn Sie mehrere e-Mail-Adressen eingeben, trennen Sie die einzelnen Adressen durch ein Semikolon.
-        - **Übertragenes Datum**: vom aktuellen Dienstanbieter ausgegebenes Übertragungsdatum.
+    - **Bestelldetails** : 
+        - **Bestell Name** : Name Ihrer Bestellung
+        - **Benachrichtigungs** -e-Mails: e-Mail-Adressen zum Empfangen von Bestellbenachrichtigungen. Wenn Sie mehrere e-Mail-Adressen eingeben, trennen Sie die einzelnen Adressen durch ein Semikolon.
+        - **Übertragenes Datum** : vom aktuellen Dienstanbieter ausgegebenes Übertragungsdatum.
     - **Telefonnummern Details**
-        - **Porttyp**: ganz gleich, ob Sie eine vollständige Portierung durchführen, um alle Ihre Nummern zu übertragen, oder einen Teil-Port, um einige ihrer Nummern zu übertragen.
+        - **Porttyp** : ganz gleich, ob Sie eine vollständige Portierung durchführen, um alle Ihre Nummern zu übertragen, oder einen Teil-Port, um einige ihrer Nummern zu übertragen.
     - **Person, die Details anfordert**  
         - Name Ihrer Organisation und Kontaktdaten der Person, die die Übertragung beantragt.
     - **Informationen des aktuellen Anbieters**
-        - **Abrechnungs Telefonnummer (BTN)**: Ihr BTN im E. 164-Format, für das ein +-Zeichen erforderlich ist, um die Nummer voranzustellen. Verwenden Sie beispielsweise für eine Nordamerika-Nummer das Format + 1XXXYYYZZZZ.
+        - **Abrechnungs Telefonnummer (BTN)** : Ihr BTN im E. 164-Format, für das ein +-Zeichen erforderlich ist, um die Nummer voranzustellen. Verwenden Sie beispielsweise für eine Nordamerika-Nummer das Format + 1XXXYYYZZZZ.
         - Weitere Informationen, einschließlich des Namens Ihres aktuellen Dienstanbieters, Ihrer Kontonummer und ihrer Dienstadresse.
             
-5. Klicken Sie auf der Seite **Zahlen hinzufügen** auf **Datei auswählen**, navigieren Sie zu der CSV-Datei, die die zu übertragenden Telefonnummern enthält, und wählen Sie Sie aus, und klicken Sie dann auf **weiter**.  
+5. Klicken Sie auf der Seite **Zahlen hinzufügen** auf **Datei auswählen** , navigieren Sie zu der CSV-Datei, die die zu übertragenden Telefonnummern enthält, und wählen Sie Sie aus, und klicken Sie dann auf **weiter**.  
 
     > [!NOTE]
     > Die CSV-Datei darf nur eine Spalte mit einem Header mit dem Namen "Faxnummer" aufweisen. Jede Telefonnummer muss sich in einer separaten Zeile befinden und kann nur Ziffern oder im E. 164-Format sein.
@@ -90,7 +91,7 @@ Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen in [einem Port Auftra
 
 Wenn wir Ihren Portierungs Auftrag erhalten, erhalten Sie eine e-Mail, die Ihre Anfrage überprüft. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden über Ihren Status und Status per e-Mail benachrichtigt. Wenden Sie sich an den [PSTN-Service-Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md), wenn Ihre Port Anfrage vom Verlierer-Netzbetreiber abgelehnt wurde.
 
-Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu > **VoIP** > -**Port Bestellungen**, und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet. Weitere Informationen finden Sie unter [Was ist der Status Ihrer Portierungs Aufträge?](port-order-status.md)
+Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu > **VoIP** -  >  **Port Bestellungen** , und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet. Weitere Informationen finden Sie unter [Was ist der Status Ihrer Portierungs Aufträge?](port-order-status.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

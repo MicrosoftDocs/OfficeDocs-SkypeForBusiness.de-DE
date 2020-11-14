@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Schritt-für-Schritt-Anleitung zum Einrichten von Telefon System (Cloud PBX) für Ihre Organisation in Microsoft 365 oder Office 365
-ms.openlocfilehash: c1ced5aa9a6fdbfeb5cb02948607c7be7df7fbd8
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 14a2fa971d32aeb7c0dca8200a72ad4895be4d44
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691031"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031381"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -61,7 +62,7 @@ Sie müssen die Seite " **Zahlen hinzufügen** " verwenden, um diese Nummern anz
 
 2. Wechseln Sie zum **Team Admin Center**.
     
-3. Navigieren Sie in der linken Navigationsleiste zu **VoIP**-  >  **Rufnummern**, klicken Sie auf **Hinzufügen**, und folgen Sie dann den Anweisungen.
+3. Navigieren Sie in der linken Navigationsleiste zu **VoIP** -  >  **Rufnummern** , klicken Sie auf **Hinzufügen** , und folgen Sie dann den Anweisungen.
     
 ### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Abrufen neuer Nummern, die nicht im Team Admin Center zur Verfügung stehen
   
@@ -86,10 +87,10 @@ Zusätzlich zum Abrufen von Telefonnummern für Ihre Benutzer von Microsoft 365 
 
 2. Wechseln Sie zum **Team Admin Center**.
 
-3. Wechseln Sie im linken Navigationsbereich zu **VoIP**-  >  **Rufnummern**  >  **neue Nummer hinzufügen**, und klicken Sie dann auf **neue Dienstnummern**.
+3. Wechseln Sie im linken Navigationsbereich zu **VoIP** -  >  **Rufnummern**  >  **neue Nummer hinzufügen** , und klicken Sie dann auf **neue Dienstnummern**.
 
     > [!IMPORTANT]
-    > Damit Sie die Option **Voice** im linken Navigationsbereich im Team Admin Center sehen können, müssen Sie zunächst mindestens eine **Enterprise E5-Lizenz**, eine Lizenz für ein **Telefon System** -Add-on oder eine Lizenz für das Add-on **Audio Conferencing** kaufen.
+    > Damit Sie die Option **Voice** im linken Navigationsbereich im Team Admin Center sehen können, müssen Sie zunächst mindestens eine **Enterprise E5-Lizenz** , eine Lizenz für ein **Telefon System** -Add-on oder eine Lizenz für das Add-on **Audio Conferencing** kaufen.
 
 ### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Abrufen neuer Nummern, die nicht im Team Admin Center zur Verfügung stehen
   
@@ -97,7 +98,7 @@ Manchmal können Sie (je nach Land/Region) ihre neuen Nummern nicht über das Te
 
 ### <a name="port-or-transfer-existing-service-numbers"></a>Portieren oder übertragen von bestehenden Servicenummern
 
-Wenn Sie Leistungsnummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber übertragen möchten, müssen Sie eine Anforderung für einen Portierungsauftrag manuell an Microsoft übermitteln. Sie müssen separate Portierungs Bestellungen für jede Art von Service-Nummer (gebührenpflichtige vs. gebührenfrei) übermitteln, die Sie mit einem Genehmigungsschreiben (LoA) übertragen werden. Im Autorisierungs schreiben (LoA) müssen Sie die richtige Art von Servicenummer auswählen. Wenn Sie sich an den Microsoft-Support wenden, geben Sie an, dass Sie eine Dienstnummer (*und keine Benutzer-oder Teilnehmernummer*) übertragen, oder die Kapazität für gleichzeitige Anrufe reicht möglicherweise nicht aus, um die Anruf Volumina zu verarbeiten. Informationen zum Übertragen von Telefonnummern oder zu anderen Aktionen mit Ihren Telefonnummern, finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Wenn Sie Leistungsnummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber übertragen möchten, müssen Sie eine Anforderung für einen Portierungsauftrag manuell an Microsoft übermitteln. Sie müssen separate Portierungs Bestellungen für jede Art von Service-Nummer (gebührenpflichtige vs. gebührenfrei) übermitteln, die Sie mit einem Genehmigungsschreiben (LoA) übertragen werden. Im Autorisierungs schreiben (LoA) müssen Sie die richtige Art von Servicenummer auswählen. Wenn Sie sich an den Microsoft-Support wenden, geben Sie an, dass Sie eine Dienstnummer ( *und keine Benutzer-oder Teilnehmernummer* ) übertragen, oder die Kapazität für gleichzeitige Anrufe reicht möglicherweise nicht aus, um die Anruf Volumina zu verarbeiten. Informationen zum Übertragen von Telefonnummern oder zu anderen Aktionen mit Ihren Telefonnummern, finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>Schritt 5: Wenn Sie Anrufpläne einrichten möchten
 
@@ -126,11 +127,11 @@ Informationen zum Einrichten einer automatischen Cloud-attendendant finden Sie u
 
 Sobald Sie Ihre Servicenummern aus **Schritt 4 oben** haben, müssen Sie sie jedem gewünschten Servicetyp zuordnen. Wenn Sie beispielsweise eine dedizierte Dienst Telefonnummer (gebührenpflichtig oder gebührenfrei) wünschen, müssen Sie die Nummer der Konferenzbrücke zuweisen.
 
-- Für Audiokonferenzen können Sie einer Konferenzbrücke eine dedizierte Nummer zuweisen, indem Sie zu den Besprechungen von **Team Admin Center**  >  -**Besprechungen**wechseln  >  **Conference bridges** und die Eingabeaufforderungen befolgen.  Weitere Informationen finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Nummern auf der Audiokonferenz-Brücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- Für Audiokonferenzen können Sie einer Konferenzbrücke eine dedizierte Nummer zuweisen, indem Sie zu den Besprechungen von **Team Admin Center**  >  - **Besprechungen** wechseln  >  **Conference bridges** und die Eingabeaufforderungen befolgen.  Weitere Informationen finden Sie unter  [Ändern der gebührenpflichtigen oder gebührenfreien Nummern auf der Audiokonferenz-Brücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- Für automatische Telefonzentralen können Sie einer automatischen Telefonzentrale eine dedizierte Nummer zuweisen, indem Sie zu den automatischen Telefonzentralen des **Teams Admin Center**wechseln  >  **Voice**  >  **Auto attendants** und die Eingabeaufforderungen befolgen.  Weitere Informationen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md).
+- Für automatische Telefonzentralen können Sie einer automatischen Telefonzentrale eine dedizierte Nummer zuweisen, indem Sie zu den automatischen Telefonzentralen des **Teams Admin Center** wechseln  >  **Voice**  >  **Auto attendants** und die Eingabeaufforderungen befolgen.  Weitere Informationen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md).
 
-- Bei Anrufwarteschlangen können Sie einer Anrufwarteschlange eine dedizierte Nummer zuweisen, indem Sie zu **Teams admin center**  >  den**Voicemail**  >  -**Warteschlangen** des Teams Admin Center wechseln und die Eingabeaufforderungen befolgen. Weitere Informationen finden Sie unter [Erstellen einer Cloud-Anrufwarteschlange](create-a-phone-system-call-queue.md).
+- Bei Anrufwarteschlangen können Sie einer Anrufwarteschlange eine dedizierte Nummer zuweisen, indem Sie zu **Teams admin center**  >  den **Voicemail**  >  - **Warteschlangen** des Teams Admin Center wechseln und die Eingabeaufforderungen befolgen. Weitere Informationen finden Sie unter [Erstellen einer Cloud-Anrufwarteschlange](create-a-phone-system-call-queue.md).
 
 Ausführliche Informationen zum Bezug neuer Servicerufnummern und zur Portierung bestehender Servicerufnummern finden Sie unter [Servicerufnummern beziehen](getting-service-phone-numbers.md).
 

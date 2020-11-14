@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +17,12 @@ description: In diesem Artikel erfahren Sie mehr über den Prozess hinter dem Ak
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f8681f3f4cc7c25e9499e25e3978848084086a2a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583272"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031881"
 ---
 # <a name="teams-update-process"></a>Updateprozess für Teams
 
@@ -61,4 +62,4 @@ Desktop Clientversionen, die bei der ersten Installation und/oder der ersten Aus
 
 Teams-Desktop Clients in Regierungs Clouds haben derzeit eine Ausnahme von dieser Wartungsvereinbarung bis auf weiteres.
 
-Informationen zu neuen Versions Versionen finden Sie im [Nachrichten Center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) oder unter **Hilfe**zu  >  den**Neuerungen** im Client.
+Informationen zu neuen Versions Versionen finden Sie im [Nachrichten Center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) oder unter **Hilfe** zu  >  den **Neuerungen** im Client.

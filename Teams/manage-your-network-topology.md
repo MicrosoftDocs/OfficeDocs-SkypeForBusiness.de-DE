@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -18,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams konfigurieren.
-ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
-ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
+ms.openlocfilehash: 2414010a6e7098a18954067dad659cb8c9912736
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304579"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031101"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Verwalten Ihrer Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams
 
@@ -39,24 +40,24 @@ Sie definieren netzwerkregionen, Netzwerk Websites und Subnetze auf der Register
 
 #### <a name="add-and-configure-a-network-site"></a>Hinzufügen und Konfigurieren einer Netzwerk Website
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
-2. Klicken Sie auf **Hinzufügen**, und geben Sie dann einen Namen und eine Beschreibung für die Website ein.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** -  >  **Netzwerktopologie** , und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
+2. Klicken Sie auf **Hinzufügen** , und geben Sie dann einen Namen und eine Beschreibung für die Website ein.
 
     ![Screenshot der Seite "Netzwerk Website hinzufügen"](media/manage-network-topology-add-site.png)
 
-3. Wenn Sie die Website einem Netzwerkbereich zuordnen möchten, klicken Sie auf **Netzwerkbereich hinzufügen**, wählen Sie einen vorhandenen Bereich aus, oder klicken Sie auf **hinzu** fügen, um einen Bereich hinzuzufügen, und klicken Sie dann auf **Verknüpfen**.  
-4. Um standortbasiertes Routing für die Website zu aktivieren, aktivieren Sie **standortbasiertes Routing**.
+3. Wenn Sie die Website einem Netzwerkbereich zuordnen möchten, klicken Sie auf **Netzwerkbereich hinzufügen** , wählen Sie einen vorhandenen Bereich aus, oder klicken Sie auf **hinzu** fügen, um einen Bereich hinzuzufügen, und klicken Sie dann auf **Verknüpfen**.  
+4. Wenn Sie Location-Based Routing für die Website aktivieren möchten, aktivieren Sie **standortbasiertes Routing**.
 5. Führen Sie eine oder beide der folgenden Aktionen aus, um der Website Notfalldienst Richtlinien zuzuweisen:
 
-    - Wenn in Ihrer Organisation Anrufpläne oder ein direktes Routing für das Telefon System verwendet wird, wählen Sie unter **Notruf Richtlinie**die gewünschte Richtlinie aus.
-    - Wenn Ihre Organisation ein direktes Routing für Telefonsysteme bereitgestellt hat, wählen Sie unter **Notfall Routing Richtlinie**die gewünschte Richtlinie aus.
+    - Wenn in Ihrer Organisation Anrufpläne oder ein direktes Routing für das Telefon System verwendet wird, wählen Sie unter **Notruf Richtlinie** die gewünschte Richtlinie aus.
+    - Wenn Ihre Organisation ein direktes Routing für Telefonsysteme bereitgestellt hat, wählen Sie unter **Notfall Routing Richtlinie** die gewünschte Richtlinie aus.
 
-6. Wenn Sie der Website ein Subnetz zuordnen möchten, klicken Sie unter **Subnetze**auf **Subnets hinzufügen**. Geben Sie die IP-Version, die IP-Adresse, den Netzwerkbereich an, fügen Sie eine Beschreibung hinzu, und klicken Sie dann auf über **nehmen**. Jedes Subnetz muss einer bestimmten Website zugeordnet sein.
+6. Wenn Sie der Website ein Subnetz zuordnen möchten, klicken Sie unter **Subnetze** auf **Subnets hinzufügen**. Geben Sie die IP-Version, die IP-Adresse, den Netzwerkbereich an, fügen Sie eine Beschreibung hinzu, und klicken Sie dann auf über **nehmen**. Jedes Subnetz muss einer bestimmten Website zugeordnet sein.
 7. Klicken Sie auf **Speichern**.
 
 #### <a name="modify-a-network-site"></a>Ändern einer Netzwerk Website
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** -  >  **Netzwerktopologie** , und klicken Sie dann auf die Registerkarte **Netzwerk Websites** .
 2. Wählen Sie die Website aus, indem Sie links neben dem Websitenamen klicken, und klicken Sie dann auf **Bearbeiten**.
 3. Nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **speichern.**
 
@@ -66,7 +67,7 @@ Sie verwalten externe vertrauenswürdige IP-Adressen auf der Registerkarte **Ver
 
 #### <a name="add-a-trusted-ip-address"></a>Hinzufügen einer vertrauenswürdigen IP-Adresse
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** -  >  **Netzwerktopologie** , und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
 2. Klicken Sie auf **Neu**.
 3. Geben Sie im Bereich **Vertrauenswürdige IP-Adresse hinzufügen** die IP-Version, die IP-Adresse, den Netzwerkbereich und eine Beschreibung ein, und klicken Sie dann auf über **nehmen**.
 
@@ -74,7 +75,7 @@ Sie verwalten externe vertrauenswürdige IP-Adressen auf der Registerkarte **Ver
 
 #### <a name="edit-a-trusted-ip-address"></a>Bearbeiten einer vertrauenswürdigen IP-Adresse
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte**-  >  **Netzwerktopologie**, und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Standorte** -  >  **Netzwerktopologie** , und klicken Sie dann auf die Registerkarte **Vertrauenswürdige IPS** .
 2. Wählen Sie die IP-Adresse aus, indem Sie links davon klicken, und klicken Sie dann auf **Bearbeiten**.
 3. Nehmen Sie im Bereich **Vertrauenswürdige IP-Adresse bearbeiten** die gewünschten Änderungen vor, und klicken Sie dann auf über **nehmen**.
 

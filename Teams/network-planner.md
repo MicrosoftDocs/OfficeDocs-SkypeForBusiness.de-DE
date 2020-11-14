@@ -13,6 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccd9b620bbe44c8fb8627504b7c25a03227b96
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581326"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030621"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden von Network Planner für Microsoft Teams
 
@@ -79,9 +80,9 @@ Führen Sie die folgenden Schritte aus, um mit dem Erstellen Ihres Netzwerkplans
 
     1. Fügen Sie einen Namen und eine Beschreibung für Ihre Website hinzu.
 
-    2. Fügen Sie unter **Netzwerkeinstellungen**die Anzahl der Netzwerkbenutzer auf dieser Website hinzu (erforderlich).
+    2. Fügen Sie unter **Netzwerkeinstellungen** die Anzahl der Netzwerkbenutzer auf dieser Website hinzu (erforderlich).
 
-    3. Hinzufügen von Netzwerkdetails: WAN-fähig, WAN-Kapazität, Internet-Ausstieg (**lokal** oder **Remote**) und PSTN-Ausgang (keine, lokal oder Remote).
+    3. Hinzufügen von Netzwerkdetails: WAN-fähig, WAN-Kapazität, Internet-Ausstieg ( **lokal** oder **Remote** ) und PSTN-Ausgang (keine, lokal oder Remote).
 
       > [!NOTE]
       > Sie müssen WAN-und Internet Kapazitäts Nummern hinzufügen, um bestimmte Bandbreiten Empfehlungen anzuzeigen, wenn Sie einen Bericht generieren.
@@ -106,4 +107,4 @@ Nachdem Sie alle Websites hinzugefügt haben, können Sie einen Bericht wie folg
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-Ein Beispiel für die Verwendung des Netzwerk Planner zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts mithilfe dieser Schritte finden Sie unter Herunterladen des Network Planner [-PowerPoint-Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) Blatts (nur Englisch).
+Ein Beispiel für die Verwendung des Netzwerk Planner zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts mithilfe dieser Schritte finden Sie unter Herunterladen des Netzwerk Planers [How-To PowerPoint-Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (nur Englisch).

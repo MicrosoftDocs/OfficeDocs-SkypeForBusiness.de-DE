@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorhandene Nummern für Teams neu abrufen, portieren oder übertragen und wie Sie die Änderungen für Ihre Benutzer anzeigen können. '
-ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: f2028a4d7b49560ff426d83241da8f1f7c3243d3
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372074"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030461"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -49,19 +50,19 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
 Sie müssen ein Team Dienstadministrator sein, um diese Änderungen vornehmen zu können. Informationen zum Abrufen von Administratorrollen und-Berechtigungen finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
 
 1. Wechseln Sie zum Microsoft Teams Admin Center.
-2. Wechseln Sie in der linken Navigationsleiste zu **VoIP**-  >  **Telefonnummern**, und klicken Sie dann auf **Hinzufügen**.
+2. Wechseln Sie in der linken Navigationsleiste zu **VoIP** -  >  **Telefonnummern** , und klicken Sie dann auf **Hinzufügen**.
 3. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 4. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
-    1. Wählen Sie unter **Land oder Region**ein Land oder eine Region aus.
-    2. Wählen Sie unter **Number Type**den Eintrag **User (Subscriber)** aus.
-    3. Wählen Sie unter **Standort**einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie auf **Ort hinzufügen**.
-    4. Wählen Sie unter **Vorwahl**eine Ortsvorwahl aus.
-    5. Geben **Sie unter Anzahl**die Anzahl der gewünschten Zahlen für Ihre Organisation ein, und klicken Sie dann auf **weiter** , um Ihre Nummern auszuwählen.
+    1. Wählen Sie unter **Land oder Region** ein Land oder eine Region aus.
+    2. Wählen Sie unter **Number Type** den Eintrag **User (Subscriber)** aus.
+    3. Wählen Sie unter **Standort** einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie auf **Ort hinzufügen**.
+    4. Wählen Sie unter **Vorwahl** eine Ortsvorwahl aus.
+    5. Geben **Sie unter Anzahl** die Anzahl der gewünschten Zahlen für Ihre Organisation ein, und klicken Sie dann auf **weiter** , um Ihre Nummern auszuwählen.
 5. Wählen Sie die gewünschten Nummern aus. Sie haben 10 Minuten Zeit, um ihre Telefonnummern auszuwählen und Ihre Bestellung aufzugeben. Wenn Sie mehr als 10 Minuten benötigen, werden die Telefonnummern in den Nummern Pool zurückgegeben.
 6. Wenn Sie bereit sind, Ihre Bestellung aufzugeben, klicken Sie auf **Bestellung aufgeben**.
 
     > [!IMPORTANT]
-    > Die Anzahl der Rufnummern für Benutzer (Abonnenten) ist gleich der Gesamtzahl der Lizenzen im **nationalen Anrufplan** und/oder dem **nationalen und internationalen Anrufplan**, die Sie zugeordnet haben, multipliziert mit 1,1, plus 10 weitere Telefonnummern. Wenn Sie z.B. 50 Benutzer insgesamt in einem nationalen Anrufplan und/oder nationalen und internationalen Anrufplan haben, können Sie beispielsweise **65** Telefonnummern **(50 x 1,1 + 10)** erwerben. Weitere Informationen finden [Sie unter wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get). Wenn Sie weitere Telefonnummern erhalten möchten, wenden Sie sich an den [Support-Kontakt für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+    > Die Anzahl der Rufnummern für Benutzer (Abonnenten) ist gleich der Gesamtzahl der Lizenzen im **nationalen Anrufplan** und/oder dem **nationalen und internationalen Anrufplan** , die Sie zugeordnet haben, multipliziert mit 1,1, plus 10 weitere Telefonnummern. Wenn Sie z.B. 50 Benutzer insgesamt in einem nationalen Anrufplan und/oder nationalen und internationalen Anrufplan haben, können Sie beispielsweise **65** Telefonnummern **(50 x 1,1 + 10)** erwerben. Weitere Informationen finden [Sie unter wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get). Wenn Sie weitere Telefonnummern erhalten möchten, wenden Sie sich an den [Support-Kontakt für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Portieren oder übertragen Sie vorhandene Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber
   
@@ -73,7 +74,7 @@ Sie müssen ein Team Dienstadministrator sein, um diese Änderungen vornehmen zu
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-Wechseln Sie in der linken Navigationsleiste des Admin Centers zu **VoIP**-  >  **Telefonnummern** , um die Nummern für Ihre Organisation anzuzeigen, einschließlich Standort, Nummerntyp und Statusinformationen.
+Wechseln Sie in der linken Navigationsleiste des Admin Centers zu **VoIP** -  >  **Telefonnummern** , um die Nummern für Ihre Organisation anzuzeigen, einschließlich Standort, Nummerntyp und Statusinformationen.
   
 ## <a name="assign-phone-numbers-to-users"></a>Zuweisen von Telefonnummern an Benutzer
 

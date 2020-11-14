@@ -13,16 +13,17 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412622"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030611"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden
 

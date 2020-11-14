@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Informieren Sie sich über den Microsoft Teams rooms Managed Service.
 f1keywords: ''
-ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788329"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031401"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams rooms, verwalteter Dienst
 

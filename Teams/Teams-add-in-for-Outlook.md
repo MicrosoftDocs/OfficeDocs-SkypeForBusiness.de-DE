@@ -16,14 +16,15 @@ ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 574e770eb1756a2c83758b830c26e6adbac24183
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814101"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031761"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -85,7 +86,7 @@ Weitere Informationen zum Konfigurieren der Authentifizierung finden Sie unter [
 
 ## <a name="enable-private-meetings"></a>Aktivieren von privaten Besprechungen
 
-Die Option **Zeitplanung für private Besprechungen zulassen** muss im Microsoft Teams Admin Center aktiviert sein, damit das Add-In bereitgestellt wird. Wechseln Sie im Admin Center zu **Besprechungen** > **Besprechungsrichtlinien**, und legen Sie im Abschnitt **Allgemein** **Zeitplanung für private Besprechungen zulassen** auf „Aktiviert“ fest.)
+Die Option **Zeitplanung für private Besprechungen zulassen** muss im Microsoft Teams Admin Center aktiviert sein, damit das Add-In bereitgestellt wird. Wechseln Sie im Admin Center zu **Besprechungen** > **Besprechungsrichtlinien** , und legen Sie im Abschnitt **Allgemein** **Zeitplanung für private Besprechungen zulassen** auf „Aktiviert“ fest.)
 
 ![Screenshot der Einstellungen im Microsoft Teams Admin Center.](media/teams-add-in-for-outlook-image1.png)
 
@@ -153,7 +154,7 @@ Alternativ können Sie die folgenden Schritte manuell ausführen:
 
 Wenn das Add-in immer noch nicht angezeigt wird, stellen Sie sicher, dass es in Outlook nicht deaktiviert ist.
 
-- Wählen Sie in Outlook **Datei** und dann **Optionen**aus.
+- Wählen Sie in Outlook **Datei** und dann **Optionen** aus.
 - Wählen Sie im Dialogfeld Outlook- **Optionen** die Registerkarte **Add-ins** aus.
 - Bestätigen Sie, dass das **Microsoft Teams-Besprechungs-Add-in für Microsoft Office** in der Liste der **aktiven Anwendungs-Add-ins** aufgeführt ist.
 - Wenn das Team Besprechungs-Add-in in der Liste **Deaktivierte Anwendungs-Add-ins** aufgeführt ist, wählen Sie **com-Add-ins** in **Verwalten** aus, und wählen Sie dann **go aus.**
@@ -167,14 +168,14 @@ Wenn das Add-in immer noch nicht angezeigt wird, führen Sie die folgenden Schri
 > [!NOTE]
 > Durch unsachgemäßes Bearbeiten der Registrierung kann Ihr System schwer beschädigt werden. Bevor Sie Änderungen an der Registrierung vornehmen, sollten Sie alle wichtigen Daten auf dem Computer sichern.
 - Starten RegEdit.exe
-- Navigieren Sie zu HKEY_CURRENT_USER \software\microsoft\office\outlook\addins
+- Navigieren zu HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
 - Überprüfen Sie, ob TeamsAddin. FastConnect vorhanden ist.
 - Überprüfen Sie in TeamsAddin. FastConnect, ob LoadBehavior vorhanden ist, und ist auf 3 festzulegen.
   - Wenn LoadBehavior einen anderen Wert als 3 aufweist, ändern Sie es in 3, und starten Sie Outlook neu.
 
 ### <a name="delegate-scheduling-does-not-work"></a>Das Delegieren der Terminplanung funktioniert nicht
 
-Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. Um dieses Problem zu umgehen, kann Ihr Administrator die folgende Zeichenfolge zur Zulassungsliste für EWS hinzufügen: "*SchedulingService*". 
+Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. Um dieses Problem zu umgehen, kann Ihr Administrator die folgende Zeichenfolge zur Zulassungsliste für EWS hinzufügen: " *SchedulingService* ". 
 
 
 ## <a name="related-topics"></a>Verwandte Themen

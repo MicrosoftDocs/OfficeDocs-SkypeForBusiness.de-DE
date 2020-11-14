@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 11f3a0f585a3fad2d2fbb653496a151bfd75160d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486820"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030711"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -53,7 +54,7 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine od
 
 ## <a name="create-a-custom-meeting-policy"></a>Erstellen einer benutzerdefinierten Besprechungsrichtlinie
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungsrichtlinien**für Besprechungen.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungsrichtlinien** für Besprechungen.
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und nicht mehr als 64 Zeichen lang sein.
 4. Wählen Sie die gewünschten Einstellungen aus.
@@ -61,12 +62,12 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine od
 
 Nehmen wir beispielsweise an, Sie haben eine Gruppe von Nutzern, und Sie möchten die Bandbreite begrenzen, die für Ihre Besprechung erforderlich ist. Sie erstellen dann eine neue benutzerdefinierte Richtlinie namens „begrenzte Bandbreite“ und deaktivieren die folgenden Einstellungen:
 
-Unter **Audio & Video**:
+Unter **Audio & Video** :
 
 - Deaktivieren Sie Cloud-Aufzeichnung zulassen.
 - Deaktivieren Sie IP-Video zulassen.
 
-Unter **Inhaltsfreigabe**:
+Unter **Inhaltsfreigabe** :
 
 - Deaktivieren Sie den Bildschirmfreigabemodus.
 - Deaktivieren Sie Whiteboard zulassen.
@@ -78,7 +79,7 @@ Weisen Sie dann die Richtlinie den Nutzern zu.
 
 Sie können die globale Richtlinie und alle von Ihnen erstellten benutzerdefinierten Richtlinien bearbeiten.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungsrichtlinien**für Besprechungen.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungsrichtlinien** für Besprechungen.
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
 3. Nehmen Sie hier die gewünschten Änderungen vor.
 4. Klicken Sie auf **Speichern**.
@@ -169,7 +170,7 @@ Die Kanal Kalender-APP wird im Abschnitt **Microsoft-apps** auf der Seite App-Be
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer private Besprechungen in Teams planen können. Eine Besprechung ist privat, wenn Sie nicht in einem Kanal in einem Team veröffentlicht wurde.
 
-Beachten Sie Folgendes: Wenn Sie die Option " **Planen privater Besprechungen zulassen** " deaktivieren und die **Kanal Besprechungsplanung zulassen**, sind die Optionen " **erforderliche Teilnehmer hinzufügen** " und " **Kanal hinzufügen** " für Benutzer in Teams deaktiviert. Diese Einstellung ist standardmäßig aktiviert.
+Beachten Sie Folgendes: Wenn Sie die Option " **Planen privater Besprechungen zulassen** " deaktivieren und die **Kanal Besprechungsplanung zulassen** , sind die Optionen " **erforderliche Teilnehmer hinzufügen** " und " **Kanal hinzufügen** " für Benutzer in Teams deaktiviert. Diese Einstellung ist standardmäßig aktiviert.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>"Besprechung jetzt in privaten Besprechungen zulassen"
 
@@ -303,7 +304,7 @@ Für einen Benutzer hat die restriktivste Richtlinieneinstellung für Video Vorr
 Die restriktivste Richtlinie zwischen der Richtlinie des Besprechungsorganisators und der Richtlinie des Benutzers gilt. Wenn beispielsweise ein Organisator über eine Richtlinie verfügt, die das Video einschränkt, und die Richtlinie des Benutzers das Video nicht beschränkt, erben Besprechungsteilnehmer die Richtlinie des Besprechungsorganisators und haben keinen Zugriff auf Video in Besprechungen. Das bedeutet, dass Sie nur mit Audio an der Besprechung teilnehmen können.
 
 > [!NOTE]
-> Wenn ein Benutzer einen Gruppenanruf annimmt, um sich per Telefon anzumelden, wird der Bildschirm " **Telefon für Audio verwenden** " nicht angezeigt. Hierbei handelt es sich um ein bekanntes Problem, das gelöst werden muss. Um dieses Problem zu umgehen, wählen Sie unter **andere Verknüpfungsoptionen**die Option **Telefon Audio** aus.  
+> Wenn ein Benutzer einen Gruppenanruf annimmt, um sich per Telefon anzumelden, wird der Bildschirm " **Telefon für Audio verwenden** " nicht angezeigt. Hierbei handelt es sich um ein bekanntes Problem, das gelöst werden muss. Um dieses Problem zu umgehen, wählen Sie unter **andere Verknüpfungsoptionen** die Option **Telefon Audio** aus.  
 
 #### <a name="teams-mobile-clients"></a>Mobile Clients für Teams
 
@@ -478,7 +479,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während ein
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
-|**Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden**     | Live Beschriftungen werden für den Benutzer während einer Besprechung nicht automatisch aktiviert. Der Benutzer sieht im Überlaufmenü (**.**..) die Option **Live Beschriftungen aktivieren** , um Sie zu aktivieren. Dies ist die Standardeinstellung. |
+|**Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden**     | Live Beschriftungen werden für den Benutzer während einer Besprechung nicht automatisch aktiviert. Der Benutzer sieht im Überlaufmenü ( **.**..) die Option **Live Beschriftungen aktivieren** , um Sie zu aktivieren. Dies ist die Standardeinstellung. |
 |**Deaktiviert**     | Live Beschriftungen sind für den Benutzer während einer Besprechung deaktiviert. Der Benutzer kann nicht aktiviert werden.          |
 
 <a name="bkcontentsharing"> </a>
@@ -499,9 +500,9 @@ Derzeit können Sie PowerShell nur zum Konfigurieren dieser Richtlinieneinstellu
 
 Legen Sie den **DesignatedPresenterRoleMode** -Parameter auf eine der folgenden Optionen fest, um den Standardwert für " **Wer kann präsentieren?** " anzugeben:
 
-- **EveryoneUserOverride**: alle Besprechungsteilnehmer können Referenten sein. Dies ist der Standardwert. Dieser Parameter entspricht der Einstellung **jeder** in Teams.
-- **EveryoneInCompanyUserOverride**: authentifizierte Benutzer in der Organisation, einschließlich Gastbenutzer, können Referenten sein. Dieser Parameter entspricht den Einstellungen für **Personen in meiner Organisation** in Teams.
-- **OrganizerOnlyUserOverride**: nur der Besprechungsorganisator kann ein Referent sein, und alle Besprechungsteilnehmer sind als Teilnehmer gekennzeichnet. Dieser Parameter entspricht der Einstellung **nur ich** in Teams.
+- **EveryoneUserOverride** : alle Besprechungsteilnehmer können Referenten sein. Dies ist der Standardwert. Dieser Parameter entspricht der Einstellung **jeder** in Teams.
+- **EveryoneInCompanyUserOverride** : authentifizierte Benutzer in der Organisation, einschließlich Gastbenutzer, können Referenten sein. Dieser Parameter entspricht den Einstellungen für **Personen in meiner Organisation** in Teams.
+- **OrganizerOnlyUserOverride** : nur der Besprechungsorganisator kann ein Referent sein, und alle Besprechungsteilnehmer sind als Teilnehmer gekennzeichnet. Dieser Parameter entspricht der Einstellung **nur ich** in Teams.
 
 Beachten Sie, dass nach dem Festlegen des Standardwerts die Besprechungsorganisatoren diese Einstellung in Teams weiterhin ändern können, und wählen Sie aus, wer in den von Ihnen geplanten Besprechungen anwesend sein kann.
 
@@ -511,7 +512,7 @@ Hierbei handelt es sich um eine Richtlinie pro Benutzer. Mit dieser Einstellung 
 
 Derzeit können Sie PowerShell nur zum Konfigurieren dieser Richtlinieneinstellung verwenden. Sie können eine vorhandene Team-Besprechungsrichtlinie mithilfe des Cmdlets " [festlegen-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) " bearbeiten. Sie können auch eine neue Team-Besprechungsrichtlinie erstellen, indem Sie das Cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) verwenden und es Benutzern zuweisen.
 
-Um einen Besprechungsorganisator zum Herunterladen des Besprechungs Anwesenheitsberichts zu aktivieren, legen Sie den **AllowEngagementReport** -Parameter auf **Enabled (aktiviert**). Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt.
+Um einen Besprechungsorganisator zum Herunterladen des Besprechungs Anwesenheitsberichts zu aktivieren, legen Sie den **AllowEngagementReport** -Parameter auf **Enabled (aktiviert** ). Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt.
 
 Um zu verhindern, dass ein Besprechungsorganisator den Bericht herunterlädt, setzen Sie den Parameter auf **disabled**. Diese Einstellung ist standardmäßig deaktiviert, und die Option zum Herunterladen des Berichts steht nicht zur Verfügung.
 
@@ -528,7 +529,7 @@ Um anzugeben, welches Besprechungs-Add-in für Benutzer verfügbar sein soll, le
 - Setzen Sie den Parameter auf **TeamsAndSfB** , um das Add-in Teams-Besprechung und das Skype for Business-Add-in in Outlook zu aktivieren. Dies ist der Standardwert.
 - Setzen Sie den Parameter auf **Teams** , um nur das Team Besprechungs-Add-in in Outlook zu aktivieren. Mit dieser Richtlinieneinstellung wird sichergestellt, dass alle zukünftigen Besprechungen über einen Link "Teams-Besprechungsteilnahme" verfügen. Es werden keine vorhandenen Skype for Business-Besprechungs Verknüpfungs Verknüpfungen zu Teams migriert. Diese Richtlinieneinstellung hat keinen Einfluss auf Anwesenheit, Chat, PSTN-Anrufe oder andere Funktionen in Skype for Business, was bedeutet, dass Benutzer Skype for Business weiterhin für diese Funktionen verwenden.
 
-  Wenn Sie den Parameter auf **Teams**setzen und dann zurück zu **TeamsAndSfB**wechseln, sind beide Besprechungs-Add-Ins aktiviert. Beachten Sie jedoch, dass vorhandene Team-Besprechungs-Join-Links nicht zu Skype for Business migriert werden. Nur Skype for Business-Besprechungen, die nach der Änderung geplant sind, haben einen Link zu Skype for Business-Besprechungen.
+  Wenn Sie den Parameter auf **Teams** setzen und dann zurück zu **TeamsAndSfB** wechseln, sind beide Besprechungs-Add-Ins aktiviert. Beachten Sie jedoch, dass vorhandene Team-Besprechungs-Join-Links nicht zu Skype for Business migriert werden. Nur Skype for Business-Besprechungen, die nach der Änderung geplant sind, haben einen Link zu Skype for Business-Besprechungen.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Einstellungen für Besprechungsrichtlinien – Video Filtermodus
 
