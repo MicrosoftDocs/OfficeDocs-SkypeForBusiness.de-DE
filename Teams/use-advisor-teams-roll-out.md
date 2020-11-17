@@ -10,6 +10,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - remotework
+- m365initiative-deployteams
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Verwenden Sie den Ratgeber für Teams, um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
-ms.openlocfilehash: 00ec8303c73df100b93808f5fdc1e775f80ec289
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afc3524466b9078b0050b23b59d45d049d11793b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503422"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030821"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -89,7 +90,7 @@ In den nachstehenden Abschnitten werden die einzelnen Bewertungen beschrieben, u
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
 |Benutzerdefinierte Domäne konfiguriert     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist (z. B. @contoso.onmicrosoft.com). Sie können natürlich die "@onmicrosoft.com"-Domäne verwenden oder eine benutzerdefinierte Domäne konfigurieren. Es ist Ihre Entscheidung. Weitere Informationen finden Sie unter [Hinzufügen einer Domäne zu Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
-|Teams-Lizenzen     |Dies ist eine Voraussetzung – Sie **müssen ** Teams-Lizenzen besitzen, um Teams bereitzustellen. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Teams-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
+|Teams-Lizenzen     |Dies ist eine Voraussetzung – Sie **müssen** Teams-Lizenzen besitzen, um Teams bereitzustellen. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Teams-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Exchange Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Exchange Online-Lizenzen verfügen. Exchange ist zwar nicht für die grundlegenden Funktionen von Teams erforderlich, doch die Integration mit Exchange bietet eine optimale Teams-Erfahrung. Fragt Microsoft Graph ab, um die mit Ihrem Mandanten verbundenen Abonnements zu analysieren und zu überprüfen, ob Sie über Abonnements mit einer berechtigten Exchange Online-Lizenz verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von Exchange und Teams](exchange-teams-interact.md).    |
 |SharePoint Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren SharePoint Online-Lizenzen verfügen. Wir empfehlen SharePoint Online-Lizenzen auf Benutzerbasis zur Bereitstellung von OneDrive for Business für die Dateispeicherung in Chats. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über SharePoint Online-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
 |Gastzugriff aktiviert     |Bestimmt, ob der [Gastzugriff](guest-access.md) aktiviert ist. Mit Gastzugriff können Sie externe Benutzer in Ihre Teams einladen. Sehen Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) zur Aktivierung des Gastzugriffs in Teams. Die Checkliste enthält die erforderlichen Azure AD-Konfigurationen. |

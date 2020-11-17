@@ -15,16 +15,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766968"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031481"
 ---
-<a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
+<a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der Microsoft Teams Exploratory-Lizenz
 =======================================================
 
 Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion](iw-trial-teams.md) wurde durch die explorative Microsoft Teams-Umgebung ersetzt.
@@ -88,11 +89,11 @@ Administratoren können die Option zur Ausführung der explorativen Microsoft Te
 
 Sie können die Möglichkeit eines Benutzers zum Installieren von Test-Apps und -Diensten deaktivieren. Auf diese Weise hindern Sie ihn daran, die explorative Microsoft Teams-Umgebung auszuführen.
 
-1. Navigieren Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Organisationseinstellungen** , wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
+1. Navigieren Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Organisationseinstellungen**, wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
 
     ![die Seite "Dienste" im Admin Center](media/iw-trial-services.png)
 
-2. Deaktivieren Sie das Kontrollkästchen **Benutzer Test-Apps und -dienste installieren lassen** . 
+2. Deaktivieren Sie das Kontrollkästchen **Benutzer Test-Apps und -dienste installieren lassen**. 
 
     ![die Seite "Apps und Dienste im Besitz des Benutzers" im Admin Center](media/iw-trial-user-owned-apps-services.png)
 
@@ -111,7 +112,7 @@ So deaktivieren Sie den Zugriff auf Teams:
 
 3. Wählen Sie in der Zeile **Produktlizenzen** die Option **Bearbeiten** aus.
 
-4. Setzen Sie im Bereich **Produktlizenzen** die Umschaltfläche auf **Aus** .
+4. Setzen Sie im Bereich **Produktlizenzen** die Umschaltfläche auf **Aus**.
 
     ![die Seite „Produktlizenzen“ im Admin Center](media/iw-trial-enable-3.png)
 
@@ -127,7 +128,7 @@ So deaktivieren Sie die Lizenz für die Microsoft Teams Exploratory-Umgebung:
 
 3. Wählen Sie in der Zeile **Produktlizenzen** die Option **Bearbeiten** aus.
 
-4. Wechseln Sie im Bereich **Produktlizenzen** die Umschaltfläche für die explorative Lizenz auf **Aus** .
+4. Wechseln Sie im Bereich **Produktlizenzen** die Umschaltfläche für die explorative Lizenz auf **Aus**.
 
     >[!Note]
     >Die Umschaltfläche für die explorative Microsoft Teams-Umgebung wird angezeigt, sobald der erste Benutzer in der Organisation die explorative Microsoft Teams-Umgebung startet.
@@ -153,7 +154,7 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](http
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>Was geschieht mit älteren Lizenzen für Microsoft Teams Commercial Cloud-Testversionen?
 
-Seit Februar 2020 können anspruchsberechtigte Benutzer mit der Nutzung der neuesten Microsoft Teams Exploratory-Umgebung beginnen. Alle älteren Lizenzen für Microsoft Teams Commercial Cloud-Testversionen werden automatisch in das neue Angebot konvertiert, bevor die entsprechenden Testversionen ablaufen.
+Seit Februar 2020 können anspruchsberechtigte Benutzer mit der Nutzung der neuesten Microsoft Teams Exploratory-Umgebung beginnen. Alle Legacylizenzen für den Test der kommerziellen Cloud von Microsoft Teams werden automatisch in das neue Angebot konvertiert, bevor die Testversion abläuft.
 
 Wenn sich ein Benutzer zum ersten Mal bei seiner abgelaufenen Microsoft Teams Commercial Cloud-Testversionen anmeldet, wird ihm automatisch eine Lizenz für die Microsoft Teams Exploratory-Umgebung zugewiesen. Benutzer werden erst konvertiert, wenn sie sich anmelden.
 
@@ -169,7 +170,7 @@ Informationen hierzu finden Sie unter [Informationen zum Microsoft 365-Abonnemen
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Wie lange die Teams Exploratory-Umgebung verfügbar ist
 
-Die Microsoft Teams Exploratory-Umgebung wird ohne zusätzliche Kosten bis zum nächsten **Fälligkeitstag Ihres Vertrags** oder nach **Verlängerung** am oder ab Januar 2021 verfügbar sein. Zu diesem Zeitpunkt müssen Endbenutzer mit einer Microsoft Exploratory-Lizenz zu einer kostenpflichtigen Lizenz wechseln, die Microsoft Teams umfasst. Alle Microsoft Exploratory-Lizenzen, die danach begonnen wurden, werden bis zu Ihrem nächsten **Fälligkeitstag** oder der nächsten **Verlängerung** ohne zusätzliche Kosten verfügbar sein.
+Die Microsoft Teams Exploratory-Umgebung wird ohne zusätzliche Kosten bis zum nächsten **Fälligkeitstag Ihres Vertrags** oder nach **Verlängerung** am oder ab Januar 2021 verfügbar sein. Zu diesem Zeitpunkt müssen Endbenutzer mit einer Microsoft Exploratory-Lizenz zu einer kostenpflichtigen Lizenz wechseln, die Microsoft Teams umfasst. Alle Lizenzen für die Microsoft Exploratory-Umgebung, die danach initiiert werden, bleiben bis zum nächsten **Jubiläum** oder **Verlängerungszyklus** ohne zusätzliche Kosten erhältlich.
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>Was geschieht, wenn ein Endbenutzer kurz vor dem Fälligkeits- oder Verlängerungsdatum mit der Nutzung der Microsoft Teams Exploratory-Umgebung beginnt?
 

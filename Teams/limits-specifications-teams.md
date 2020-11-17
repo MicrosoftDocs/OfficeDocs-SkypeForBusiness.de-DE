@@ -14,16 +14,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - SPO_Content
+- m365initiative-deployteams
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa78b6a86b3216cd74fb07ae83f2ca99886d4213
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: a552fd88d469c7daaae324614c398c24ac2f9d41
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655372"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031361"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 

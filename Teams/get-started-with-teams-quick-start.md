@@ -7,7 +7,7 @@ ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: Steigen Sie in Teams ein, indem Sie Ihre ersten Teams und Kanäle bereitstellen, damit Sie Erfahrung in Teams aufbauen, bevor Sie es in der Organisation einführen.
 localization_priority: Priority
 search.appverid: MET150
@@ -15,15 +15,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ee5abda84737a75b539fdc808f30abf78dd797d4
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583192"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030431"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 

@@ -13,41 +13,42 @@ f1.keywords:
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 search.appverid: MET150
 description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen sind, wenn Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ac74a75ff159a4ec00a660c4bb01759614c8d10
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 0c9a91db8009cc87c05eb2324507ec4ee69dae3a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655491"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031571"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
-Wenn Sie Live Events in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, gibt es mehrere Faktoren, die Sie vor Beginn der Einrichtung berücksichtigen müssen.
+Wenn Sie Liveereignisse in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, gibt es mehrere Faktoren, die Sie vor Beginn der Einrichtung berücksichtigen müssen.
 
  > [!Note]
-> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
+> Einzelheiten zu Liveereignisse in Teams auf verschiedenen Plattformen finden Sie unter [Features für Teams nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Weitere Informationen zu den Bandbreitenanforderungen für Teams finden Sie unter [Vorbereiten Ihrer Organisation](../prepare-network.md).
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Wer kann an Liveereignissen teilnehmen, diese erstellen und planen?
 
-Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
+Jeder kann an einem Liveereignis ohne Lizenz teilnehmen. Lesen Sie [Schnellstart für Administratoren: Besprechungen und Liveereignisse](../quick-start-meetings-live-events.md).
 
 Die folgenden Voraussetzungen müssen erfüllt sein, damit ein Benutzer ein Teams-Liveereignis planen kann.
 
 Folgende Lizenzen müssen für die Erstellung oder Vorführung eines Microsoft Teams-Liveereignisses zugewiesen werden:  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz oder eine Office 365 Education A3- oder A5-Lizenz. Die Ausnahme von dieser Anforderung ist, dass Gastnutzer ohne Lizenz präsentieren können, wenn die anderen Kriterien für [Gastnutzer](plan-for-teams-live-events.md#guest-to-present) erfüllt sind.
 - Eine Microsoft Teams Lizenz – diese ist in den im ersten Aufzählungspunkt aufgeführten Lizenzen enthalten.
 - Eine Microsoft Stream-Lizenz – ist erforderlich, wenn Sie planen, den Inhalt mit einer externen App oder einem externen Gerät zu teilen; siehe [Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
 
   Benutzer brauchen keine Microsoft Stream-Lizenz, wenn Sie möchten, dass Benutzer nur die Aufzeichnungen aufnehmen und herunterladen. Das bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern in Azure Media Services (AMS) mit einem 180-Tage-Limit, bevor sie gelöscht werden. Derzeit können Admins keine Befähigung zum Löschen verwalten oder steuern.
 
 >[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 verlangen wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für Besprechungsaufzeichnungen.
 
 > [!NOTE]
 > Zurzeit gibt es keine Microsoft 365 Small Business-Pläne, die zum Erstellen und Abhalten von Microsoft Teams-Liveereignissen verwendet werden können.
@@ -82,11 +83,11 @@ Damit ein Gast bei einem Liveereignis präsentieren kann, gehen Sie wie folgt vo
 2. Der Benutzer muss die Gasteinladung annehmen und dem Team beitreten.
 3. [Planen Sie das Liveereignis, und fügen Sie den Gast zu ihrer Ereignisgruppe hinzu](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
+Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Referenten des Liveereignisses zu erstellen, damit sie vor der Veranstaltung chatten und Informationen teilen können. Gäste, die keine Microsoft 365-Anmeldeinformationen haben, können den Kalender in Teams nicht sehen. Um ihnen die Teilnahme an dem Ereignis zu erleichtern, können die Produzenten den Ereignislink im Kanal posten. Referenten können dann Teams öffnen, zum Kanal wechseln und dann auf den Link klicken, um an dem Ereignis teilzunehmen.
 
 ## <a name="who-can-watch-live-events"></a>Wer kann Liveereignisse anschauen?
 
-|**Sichtbarkeit für Teilnehmer**       |**Teams-Produktion **  |**Produktion externer Anwendungen oder Geräte**  |
+|**Sichtbarkeit für Teilnehmer**       |**Teams-Produktion**  |**Produktion externer Anwendungen oder Geräte**  |
 |------------------------------|-----------------|----------------------|
 |Öffentlich (anonyme Benutzer)      |  Ja            |  Nein                  |
 |Gastbenutzer                   |  Ja            |  Nein                  |
@@ -109,7 +110,7 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 >- Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
 >- Bis zu 16 Stunden pro Sendung
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](../teams-add-on-licensing/advanced-communications.md).**
+> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm für Liveereignisse geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](../teams-add-on-licensing/advanced-communications.md)erwerben.**
 
 |**Funktion**   |**Skype Meeting Broadcast** |**In Teams produzierte Ereignisse** |**In einer externen App oder auf einem externen Gerät produzierte Ereignisse** |
 |---------|---------|---------|---------|
@@ -140,12 +141,12 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Nachträglich gesendeter Anwesenheitsbericht für Produzenten |&#x2714; |&#x2714; |&#x274C; |
 |Teilnehmerstimmungsanalyse – Liveabstimmungen & -umfragen |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
+<sup>1</sup> Die festgelegten Grenzen können geändert werden. Überprüfen Sie [Grenzwerte und Daten für Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> Sie können bis zu 250 Referenten und Produzenten in einem Liveereignis haben, aber nur die letzten 10, die gesprochen haben, werden in der Liste angezeigt.
 
 ## <a name="regional-availability"></a>Regionale Verfügbarkeit
 
-You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
+Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für die Ereignisteammitglieder und -teilnehmer.
 
 > [!IMPORTANT]
 > Die Region für das Ereignis wird automatisch in Abhängigkeit vom Organisator und vom Microsoft 365-Mandantenstandort ausgewählt.
@@ -181,7 +182,7 @@ You can use Teams live events in multiple regions across the world. The followin
 **Ausschlüsse und Überlegungen**.
 
 - **Datenspeicherort:** Teams-Datenspeicherorte außerhalb der oben aufgeführten werden derzeit nicht unterstützt.
-- **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
+- **China:** Mitglieder und Teilnehmer des Ereignisteams können die Liveereignisse des Teams nicht nutzen, da das Azure CDN in China nicht zugänglich ist. Eine Problemumgehung ist die Verwendung einer Firmen-VPN-Verbindung, die den Client über das Firmennetzwerk des Kunden mit dem CDN verbindet.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
