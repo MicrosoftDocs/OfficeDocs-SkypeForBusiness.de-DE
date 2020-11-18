@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031451"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085559"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Events in Microsoft Teams?
 
 ## <a name="overview"></a>Übersicht
 
-In Teams, die Ereignisse Leben, können Benutzer in Ihrer Organisation Video-und Besprechungsinhalte an große Online-Zielgruppen übertragen.
+Mit Teams-Liveereignissen können Benutzer in Ihrer Organisation Video- und Besprechungsinhalte für ein großes Onlinepublikum übertragen.
 
 Mit Microsoft 365-Live Ereignissen können Sie Live-Videoübertragungen auf eine neue Ebene führen. Live-Events fördern die Verbindung über den gesamten Lebenszyklus des Engagements mit Teilnehmern vor, während und nach Live-Ereignissen. Mit Microsoft Stream, Teams oder Yammer können Sie ein Liveereignis erstellen, wo auch immer Ihr Publikum, Ihr Team oder Ihre Gemeinschaft ansässig ist.  
 
@@ -48,7 +48,7 @@ Liveereignisse in Teams ermöglichen mehreren Rollen (Organisator, Produzent, Re
 
 ## <a name="key-components"></a>Schlüsselkomponenten
 
-Auf dem obigen Bild können Sie erkennen, dass es vier Schlüsselkomponenten gibt, die bei Liveereignissen in Teams verwendet werden.
+Sie können aus dem Bild oben sehen, dass es fünf wichtige Komponenten gibt, die in Teams für Live-Ereignisse verwendet werden.
 
 > [!NOTE]
 > Eine Übersicht darüber, wie Sie Liveereignisse und die Teilnehmerumgebung einrichten, erhalten Sie in diesen kurzen [Videos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
@@ -63,11 +63,11 @@ Teams bietet Organisatoren die Möglichkeit, ein Ereignis mit den entsprechenden
 
 Die Videoeingabe ist die Grundlage des Liveereignisses und kann von einer einzelnen Webcam bis zu einer professionellen Videoproduktion mit mehreren Kameras variieren. Die Liveereignisse in Microsoft 365 unterstützen ein Spektrum von Produktionsszenarien, einschließlich einer Veranstaltung, die in Teams mit einer Webcam produziert wird, oder einer Veranstaltung, die in einer externen Anwendung oder einem externen Gerät produziert wird. Sie können diese Optionen abhängig von den Projektanforderungen und dem Budget auswählen. Es gibt zwei Möglichkeiten zum Produzieren von Ereignissen:
 
-- **Teams** : Diese Produktionsmethode ermöglicht Benutzern, ihre Liveereignisse in Teams mit ihrer Webcam oder einem Audio-Video-Eingang von Teams-Raumsysteme zu produzieren. Diese Option ist die beste und schnellste Option, wenn Sie die an den PC angeschlossenen Audio- und Videogeräte verwenden möchten oder wenn Sie Remotereferenten zur Teilnahme am Ereignis einladen. Diese Option ermöglicht den Benutzern, ihre Webcam einfach zu benutzen und ihren Bildschirm als Eingabe beim Ereignis freizugeben.
+- **Teams**: Diese Produktionsmethode ermöglicht Benutzern, ihre Liveereignisse in Teams mit ihrer Webcam oder einem Audio-Video-Eingang von Teams-Raumsysteme zu produzieren. Diese Option ist die beste und schnellste Option, wenn Sie die an den PC angeschlossenen Audio- und Videogeräte verwenden möchten oder wenn Sie Remotereferenten zur Teilnahme am Ereignis einladen. Diese Option ermöglicht den Benutzern, ihre Webcam einfach zu benutzen und ihren Bildschirm als Eingabe beim Ereignis freizugeben.
 
     ![ein Live-Ereignis, das mit der Schnellstart Methode erstellt wurde](../media/teams-live-events-quick-start.png "Screenshot eines Liveereignisses, das mit der Schnellstartproduktionsmethode produziert wird")
 
-- **Externe Apps oder Geräte** : Externe Encoder ermöglichen Benutzern, ihre Liveereignisse direkt von einem externen hardware- oder softwarebasierten Encoder aus mit [Stream](https://stream.microsoft.com) zu produzieren. Diese Option ist am besten, wenn Sie bereits über Geräte mit Studioqualität verfügen (z. B. Medien-Mixer), die das Streaming an einen RTMP-Dienst (Real-time Messaging Protocol) unterstützen. Diese Art der Produktion wird in der Regel in großflächigen Ereignissen wie exekutiven Stadthallen verwendet, in denen ein einzelner Datenstrom von einem Medien Mixer an das Publikum übertragen wird.
+- **Externe Apps oder Geräte**: Externe Encoder ermöglichen Benutzern, ihre Liveereignisse direkt von einem externen hardware- oder softwarebasierten Encoder aus mit [Stream](https://stream.microsoft.com) zu produzieren. Diese Option ist am besten, wenn Sie bereits über Geräte mit Studioqualität verfügen (z. B. Medien-Mixer), die das Streaming an einen RTMP-Dienst (Real-time Messaging Protocol) unterstützen. Diese Art der Produktion wird in der Regel in großflächigen Ereignissen wie exekutiven Stadthallen verwendet, in denen ein einzelner Datenstrom von einem Medien Mixer an das Publikum übertragen wird.
 
     ![ein Live-Ereignis, das mit einer externen APP oder einem Gerät erstellt wurde](../media/teams-live-events-external-encoder.png "Screenshot eines Liveereignisses, das mithilfe der Produktionsmethode für externe Anwendungen oder Geräte produziert wird")
 
@@ -78,8 +78,8 @@ Die Videoeingabe ist die Grundlage des Liveereignisses und kann von einer einzel
 
 Die Liveereignis-Streamingplattform besteht aus den folgenden Bestandteilen:
 
-- **Azure Media Services** : [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) bietet Videostreamingdienste mit Sendequalität, um auf den beliebtesten Mobilgeräten von heute ein größeres Publikum zu erreichen. Mediendienste verbessern die Zugänglichkeit, Verbreitung und Skalierbarkeit und machen das Streamen von Inhalten für Ihr lokales oder weltweites Publikum einfach und kostengünstig – und das alles bei gleichzeitigem Schutz Ihrer Inhalte.
-- **Azure Content Delivery Network (CDN)** : Sobald der Stream angeschaltet wird, wird er über das [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/) bereitgestellt. Azure Media Services bietet ein integriertes CDN für Streaming-Endpunkte. Dadurch können die Streams weltweit ohne Pufferung angezeigt werden.
+- **Azure Media Services**: [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) bietet Videostreamingdienste mit Sendequalität, um auf den beliebtesten Mobilgeräten von heute ein größeres Publikum zu erreichen. Mediendienste verbessern die Zugänglichkeit, Verbreitung und Skalierbarkeit und machen das Streamen von Inhalten für Ihr lokales oder weltweites Publikum einfach und kostengünstig – und das alles bei gleichzeitigem Schutz Ihrer Inhalte.
+- **Azure Content Delivery Network (CDN)**: Sobald der Stream angeschaltet wird, wird er über das [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/) bereitgestellt. Azure Media Services bietet ein integriertes CDN für Streaming-Endpunkte. Dadurch können die Streams weltweit ohne Pufferung angezeigt werden.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Enterprise Content Delivery Network (eCDN)
 

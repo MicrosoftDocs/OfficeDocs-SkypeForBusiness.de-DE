@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzereinstellungen migrieren und Benutzer in Microsoft Teams verschieben.'
-ms.openlocfilehash: 7b6925917cff3265280b88979660ad1289a63d12
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 49763d7674946eb179188554326863f4860252c3
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221375"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130646"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams
 
@@ -50,16 +50,16 @@ Es gibt zwei Methoden, um einen Benutzer von lokal in Microsoft Teams zu migrier
 
 - Wenn Sie eine frühere Version als Skype for Business Server 2015 ku8 verwenden, erfordert die Verlagerung zwei Schritte (Dies kann bei Bedarf als einzelner Schritt als Skript erstellt werden):
   - Stellen [Sie den Benutzer aus Skype for Business Server (lokal) in Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
-  - Nachdem der Benutzer in Skype for Business Online verwaltet wurde, weisen Sie den Benutzer TeamsUpgradePolicy mit Mode = TeamsOnly zu. Um den TeamsOnly-Modus zu gewähren, führen Sie das folgende Cmdlet aus einem Skype for Business Online PowerShell-Fenster aus:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+  - Nachdem der Benutzer in Skype for Business Online verwaltet wurde, weisen Sie den Benutzer TeamsUpgradePolicy mit Mode = TeamsOnly zu. Um den TeamsOnly-Modus zu gewähren, führen Sie das folgende Cmdlet aus einem Skype for Business Online PowerShell-Fenster aus: `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - Wenn Sie über Administrator Tools von Skype for Business Server 2015 ku8 oder höher verfügen, können Sie die obige Methode verwenden, oder Sie können diese Schritte wie unten beschrieben in einem einzigen Schritt durchführen. Darüber hinaus können Sie optional eine Benachrichtigung im Skype for Business-Client bereitstellen, bevor Sie Sie in Microsoft Teams verschieben und optional den Microsoft Teams-Client automatisch vom Skype for Business-Client herunterladen lassen.
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Direkte Verlagerung eines Benutzers aus Skype for Business lokal in Microsoft Teams
 
-Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 sowie in Skype for Business Server 2019 können Sie Benutzer in einem einzigen Schritt von lokal in den Microsoft Teams-Modus versetzen, indem Sie entweder das Cmdlet "CsUser" in PowerShell oder die Skype for Business Server-Systemsteuerung verwenden, wie unten beschrieben.
+Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 sowie in Skype for Business Server 2019 können Sie Benutzer in einem einzigen Schritt von lokal in den Microsoft Teams-Modus versetzen, indem Sie entweder das Move-CsUser-Cmdlet in PowerShell oder die Skype for Business Server-Systemsteuerung verwenden, wie unten beschrieben.
 
-### <a name="move-to-teams-using-move-csuser"></a>Navigieren zu Microsoft Teams mithilfe von "CsUser"
+### <a name="move-to-teams-using-move-csuser"></a>Wechsel zu Microsoft Teams mit Move-CsUser
 
-CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Die folgenden Schritte und die erforderlichen Berechtigungen sind identisch mit dem Verschieben eines Benutzers in Skype for Business Online, es sei denn, Sie müssen auch den MoveToTeams-Switch angeben, und Sie müssen sicherstellen, dass dem Benutzer auch eine Lizenz für Teams erteilt wurde (zusätzlich zu Skype for Business Online).
+Move-CsUser steht in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster zur Verfügung. Die folgenden Schritte und die erforderlichen Berechtigungen sind identisch mit dem Verschieben eines Benutzers in Skype for Business Online, es sei denn, Sie müssen auch den MoveToTeams-Switch angeben, und Sie müssen sicherstellen, dass dem Benutzer auch eine Lizenz für Teams erteilt wurde (zusätzlich zu Skype for Business Online).
 
 Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch im clouddienst (Microsoft 365 oder Office 365) verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den Parameter verwenden, `-Credential` um Anmeldeinformationen für ein Microsoft 365-oder Office 365-Konto mit der erforderlichen Administratorrolle anzugeben.
 
@@ -71,7 +71,7 @@ So stellen Sie einen Benutzer mithilfe von "CsUser" in den Microsoft Teams-Modus
 - Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl lokal als auch über den clouddienst verfügen (Microsoft 365 oder Office 365), verwenden Sie den- `-credential` Parameter, um ein Konto mit ausreichenden Berechtigungen in Office 365 bereitzustellen.
 - Wenn das Konto mit den Berechtigungen in Microsoft 365 oder Office 365 nicht auf "onmicrosoft" endet. <span> com "müssen Sie den `-HostedMigrationOverrideUrl` Parameter mit dem korrekten Wert angeben, wie unter" [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)"beschrieben.
 
-Die folgende Cmdlet-Sequenz kann zum Migrieren eines Benutzers zu TeamsOnly verwendet werden, und es wird davon ausgegangen, dass die Anmeldeinformationen von Microsoft 365 oder Office 365 ein separates Konto sind und als Eingabe für die Eingabeaufforderung Get-Credential angegeben werden.
+Die folgende Cmdlet-Sequenz kann verwendet werden, um einen Benutzer zu TeamsOnly zu migrieren, und nimmt an, dass die Anmeldeinformationen von Microsoft 365 oder Office 365 ein separates Konto sind und als Eingabe für die Get-Credential-Eingabeaufforderung angegeben werden.
 
   ```powershell
   $cred=Get-Credential
@@ -82,12 +82,12 @@ Die folgende Cmdlet-Sequenz kann zum Migrieren eines Benutzers zu TeamsOnly verw
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Navigieren zu Microsoft Teams mithilfe Skype for Business Server Systemsteuerung
 
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung-app.
-2. Wählen Sie im linken Navigationsbereich **Benutzer**aus.
+2. Wählen Sie im linken Navigationsbereich **Benutzer** aus.
 3. Verwenden Sie **Suchen** , um die Benutzer zu finden, die Sie in Teams verschieben möchten.
-4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in Teams verlagern**aus.
+4. Wählen Sie die Benutzer aus, und wählen Sie dann im Dropdownmenü **Aktion** oberhalb der Liste die Option **ausgewählte Benutzer in Teams verlagern** aus.
 5. Klicken Sie im Assistenten auf **Weiter**.
 6. Wenn Sie dazu aufgefordert werden, melden Sie sich bei Microsoft 365 oder Office 365 mit einem Konto an, das in. onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
-7. Klicken Sie auf **weiter**und dann auf **weiter** , um den Benutzer zu verlagern.
+7. Klicken Sie auf **weiter** und dann auf **weiter** , um den Benutzer zu verlagern.
 8. Beachten Sie, dass Statusmeldungen bezüglich Erfolg oder Fehler oben in der Hauptsystem Steuerung-APP, nicht im Assistenten angegeben werden.
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Benachrichtigen Ihrer Skype for Business lokalen Benutzern über den bevorstehenden Wechsel zu Microsoft Teams
@@ -114,7 +114,7 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 
 Der Wert von DownloadTeams ist standardmäßig true; Es wird jedoch *nur* dann berücksichtigt, wenn NotifySfbUser = true für einen bestimmten Benutzer ist.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Artikel
 
 [CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 
