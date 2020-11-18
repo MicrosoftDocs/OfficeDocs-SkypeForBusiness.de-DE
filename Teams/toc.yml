@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Wahl- und Sprachreferenz
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: Eingehende Anrufe blockieren
           href: block-inbound-calls.md
         - name: Parken von Anrufen und Holen
