@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 18af74a2a62f8282ee9b39c998db803235cc4ff0
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790447"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130496"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Aufgaben-app für Ihre Organisation in Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "48790447"
 Die Aufgaben-app bietet Microsoft Teams eine zusammenhängende Aufgabenverwaltung, in der einzelne von [Microsoft](https://todo.microsoft.com/tasks/) bereitgestellten Aufgaben und Team Aufgaben integriert werden, die von Planner an einem zentralen Ort unterstützt werden. Benutzer können auf Aufgaben als APP auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. **Meine Aufgaben** und **freigegebene Pläne** in Aufgaben ermöglichen es Benutzern, alle Ihre individuellen und Team Aufgaben anzuzeigen und zu verwalten und deren Arbeit zu priorisieren. Aufgaben steht in den Desktop-, Web-und mobilen Clients von Teams zur Verfügung. 
 
 > [!NOTE]
-> Wenn wir die Aufgaben in den Microsoft Teams-Desktop Clients ausführen, wird der App-Name zunächst als **Planner** für die Benutzer angezeigt. Der Name wechselt dann temporär in **Aufgaben nach Planner und zu erledigen** , und später wird er in **Aufgaben** umbenannt. Auf mobilen Teams werden die Benutzer immer den Namen der App als **Aufgaben** sehen. Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzeroberfläche geben, nachdem die Desktopumgebung verfügbar ist.
+> Wenn wir die Aufgaben in den Microsoft Teams-Desktop Clients ausführen, wird der App-Name zunächst als **Planner** für die Benutzer angezeigt. Der Name wechselt dann temporär in **Aufgaben nach Planner und zu erledigen**, und später wird er in **Aufgaben** umbenannt. Auf mobilen Teams werden die Benutzer immer den Namen der App als **Aufgaben** sehen. Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzeroberfläche geben, nachdem die Desktopumgebung verfügbar ist.
 
    ![Screenshot der Listenansicht von Aufgaben in der Liste "Teams"](media/manage-tasks-app-tasks.png)
 
@@ -60,11 +60,14 @@ Mit Aufgaben erhalten Benutzer eine Desktop-, Web-und mobil Funkfunktionalität.
 
 Aufgaben ist standardmäßig für alle Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
 2. Führen Sie in der Liste der Apps einen der folgenden Schritte aus:
 
-    - Wenn Sie Aufgaben für Ihre Organisation deaktivieren möchten, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **blockieren** .
-    - Um Aufgaben für Ihre Organisation zu aktivieren, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **zulassen** .
+    - Wenn Sie Aufgaben für Ihre Organisation deaktivieren möchten, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **blockieren**.
+    - Um Aufgaben für Ihre Organisation zu aktivieren, suchen Sie nach der APP Aufgaben, wählen Sie Sie aus, und klicken Sie dann auf **zulassen**.
+
+> [!NOTE]
+> Wenn Sie die Aufgaben-app nicht finden können, suchen Sie in der ersten Notiz dieses Artikels nach den Namen. Die APP kann immer noch umbenannt werden.
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Aufgaben für bestimmte Benutzer in Ihrer Organisation
 

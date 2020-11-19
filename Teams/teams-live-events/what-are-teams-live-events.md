@@ -1,31 +1,16 @@
 ---
-title: Was sind Liveereignisse in Microsoft Teams?
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: Erfahren Sie, wie Benutzer mit Liveereignissen Videos und Inhalte für ein großes Onlinepublikum in Teams, Yammer und Stream übertragen können.
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085559"
+Titel: Was sind Microsoft Teams Live-Ereignisse? Autor: lanachin ms. Autor: v-lanac Manager: Serdars ms. Topic: Conceptual ms. Service: msteams ms. Collection: 
+  - M365 – Zusammenarbeit
+  - m365initiative-Besprechungen
+  - m365solution-Comms
+- m365solution-Szenario ms. Bearbeiter: sonua Audience: admin Search. appverid: MET150 Description: erfahren Sie, wie Live Ereignisse Benutzern das Übertragen von Video und Inhalten an große Online-Zielgruppen in Teams, jammern und Datenströmen ermöglichen.
+F1. Schlüsselwörter: 
+- CSH ms. Custom:
+  - ms. teamsadmincenter. Dashboard. helparticle. Liveevents
+  - ms. teamsadmincenter. Liveevents. Policies AppliesTo: 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Events in Microsoft Teams?
 
 ## <a name="overview"></a>Übersicht

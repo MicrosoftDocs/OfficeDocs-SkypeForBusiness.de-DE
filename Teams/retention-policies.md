@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b5ebfc4c626cac14439ef98420e219dd0d93df8
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: 3b7854af353b9619a1e668006c4e143ac8d37e77
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999259"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130656"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -43,8 +43,8 @@ Weitere Informationen zu Aufbewahrungsrichtlinien für Microsoft 365 oder Office
 
 Wenn Sie eine Aufbewahrungsrichtlinie für Teams oder eine andere Arbeitsauslastung einrichten, können Sie diese für das Folgende einstellen:
 
-- **Daten aufbewahren** : Verwenden Sie eine Aufbewahrungsrichtlinie, um sicherzustellen, dass Ihre Daten für einen bestimmten Zeitraum aufbewahrt werden, unabhängig davon, was in der Benutzer-App passiert. Daten werden aus Konformitätsgründen aufbewahrt und stehen bis zum Ablauf des Aufbewahrungszeitraums für eDiscovery zur Verfügung, danach gibt Ihre Richtlinie an, ob die Daten gelassen oder gelöscht werden sollen. Wenn Sie beispielsweise eine Aufbewahrungsrichtlinie für Teams zum Aufbewahren von Kanalnachrichten für 7 Jahre erstellen, werden die Nachrichten 7 Jahre lang für eDiscovery gespeichert, auch wenn die Benutzer ihre Nachrichten in Teams löschen.
-- **Daten löschen** : Verwenden Sie eine Aufbewahrungsrichtlinie zum Löschen von Daten, um sicherzustellen, dass sie Ihre Organisation nicht belasten. Bei einer Aufbewahrungsrichtlinie für Teams werden beim Löschen von Daten alle Speicherorte im Teams-Dienst endgültig gelöscht.
+- **Daten aufbewahren**: Verwenden Sie eine Aufbewahrungsrichtlinie, um sicherzustellen, dass Ihre Daten für einen bestimmten Zeitraum aufbewahrt werden, unabhängig davon, was in der Benutzer-App passiert. Daten werden aus Konformitätsgründen aufbewahrt und stehen bis zum Ablauf des Aufbewahrungszeitraums für eDiscovery zur Verfügung, danach gibt Ihre Richtlinie an, ob die Daten gelassen oder gelöscht werden sollen. Wenn Sie beispielsweise eine Aufbewahrungsrichtlinie für Teams zum Aufbewahren von Kanalnachrichten für 7 Jahre erstellen, werden die Nachrichten 7 Jahre lang für eDiscovery gespeichert, auch wenn die Benutzer ihre Nachrichten in Teams löschen.
+- **Daten löschen**: Verwenden Sie eine Aufbewahrungsrichtlinie zum Löschen von Daten, um sicherzustellen, dass sie Ihre Organisation nicht belasten. Bei einer Aufbewahrungsrichtlinie für Teams werden beim Löschen von Daten alle Speicherorte im Teams-Dienst endgültig gelöscht.
 
 Mit Aufbewahrungsrichtlinien für Teams können Sie:
 
@@ -125,7 +125,7 @@ Gehen Sie wie folgt vor, um eine Aufbewahrungsrichtlinie für Teams-Chats und -K
 2. Wählen Sie **Erstellen** aus.
 3. Geben Sie auf der Seite **Ihre Richtlinie benennen** einen Namen und eine Beschreibung für Ihre Richtlinie ein und klicken Sie dann auf **Weiter**.
 4. Geben Sie auf der Seite **Einstellungen** an, ob Sie die Daten beibehalten, loschen oder beides möchten, geben Sie die Aufbewahrungsdauer ein und klicken Sie dann auf **Weiter**.
-5. Führen Sie auf der Seite **Speicherorte wählen** Folgendes aus und klicken Sie dann auf **Weiter** :
+5. Führen Sie auf der Seite **Speicherorte wählen** Folgendes aus und klicken Sie dann auf **Weiter**:
 
     - Wenn Sie die Richtlinie auf Kanalnachrichten anwenden möchten, aktivieren Sie **Teams-Kanalnachrichten**.  Wenn Sie die Richtlinie auf bestimmte Teams in Ihrer Organisation anwenden möchten, wählen Sie **Teams auswählen** aus, und wählen Sie dann die gewünschten Teams aus.
     - Wenn Sie die Richtlinie auf Chats anwenden möchten, aktivieren Sie **Teams-Chats**. Wenn Sie die Richtlinie auf bestimmte Benutzer in Ihrer Organisation anwenden möchten, wählen Sie **Benutzer auswählen** aus, und wählen Sie dann die gewünschten Benutzer aus.

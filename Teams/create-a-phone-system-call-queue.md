@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefon System für Anrufwarteschlangen mit Microsoft Teams einrichten, die eine Grußnachricht, Musik, Anrufumleitung und andere Funktionen enthalten.
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089319"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135935"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschlange
 
@@ -156,7 +156,7 @@ Da sich die Agents in einer Anrufwarteschlange möglicherweise auswählen, um ei
 
 ## <a name="supported-clients"></a>Unterstützte Clients
 
-- Die folgenden Clients werden für Anruf-Agents in einer Anrufwarteschlange unterstützt:
+Die folgenden Clients werden für Anruf-Agents in einer Anrufwarteschlange unterstützt:
 
   - Skype for Business-Desktop Client 2016 (32-Bit-und 64-Bit-Versionen)
   - Lync-Desktop Client 2013 (32-Bit-und 64-Bit-Versionen)

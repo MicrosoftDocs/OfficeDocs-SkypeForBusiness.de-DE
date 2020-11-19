@@ -17,12 +17,12 @@ description: Besorgen Sie sich einen Bericht zur Besprechungs Anwesenheit in Tea
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 7a048b3a334f9a70273c7a1b39f888247dbb9596
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fe30df1a6ab6cb81d313400e584ac9b1e519e0a1
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583784"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130436"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams-Besprechungsanwesenheitsbericht
 
@@ -33,8 +33,6 @@ Besprechungsorganisatoren können einen Besprechungsteilnehmer Bericht anzeigen 
 Für Bildungs Mandanten ist dieser Bericht hilfreich, um die Anwesenheit von Kursteilnehmern in Onlinekursen zu überwachen. Beispielsweise kann der Lehrer den Anwesenheitsbericht zu Beginn des Kurses herunterladen, um eine einfache Möglichkeit für einen "Appell" zu finden. Weitere Informationen finden Sie [unter Herunterladen von Anwesenheits Berichten in Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 Als Administrator steuern Sie, ob Besprechungsorganisatoren Besprechungs anwesenheitsberichte herunterladen können, indem Sie eine Team-Besprechungsrichtlinie festlegen. Standardmäßig ist die Möglichkeit zum Herunterladen des Berichts deaktiviert. Eine schrittweise Anleitung zum Aktivieren dieses Features finden Sie unter [Besprechungsrichtlinien Einstellungen – Bericht zur Besprechungsteilnahme](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report).
-
-Teams-Administratoren können zusätzliche Besprechungs Anwesenheitsdaten im Team Admin Center anzeigen, und zwar unter **Analyse & Berichte**zu  >  **Nutzungsberichten**. Weitere Informationen finden Sie unten unter " [Verwandte Themen](#related-topics) ".
 
 Wenn Besprechungsorganisatoren Zugriff auf weitere Besprechungsdaten benötigen, als Sie aus dem in der Besprechung verfügbaren Bericht erhalten, können Sie die Rolle des *Berichts Lesers* zuweisen, damit Sie auf die Berichte des Teams-Administrator selbst zugreifen können. Wenn Sie mehr darüber erfahren möchten, lesen Sie [Wer kann auf die Team Aktivitätsberichte zugreifen](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 

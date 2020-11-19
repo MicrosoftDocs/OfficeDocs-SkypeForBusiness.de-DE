@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Hier erfahren Sie, wie Sie den Power BI-Bericht "Anrufqualität" verwenden, um automatische Telefonzentrale und Verlaufsdaten der Anrufwarteschlange anzuzeigen.
-ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085712"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130406"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht der automatischen Telefonzentrale & Anrufwarteschlange
 
@@ -54,23 +54,31 @@ Das Konto, das Sie zum Anzeigen des Verlaufsberichts AA & CQ Analytics verwenden
 Bei den folgenden Schritten wird davon ausgegangen, dass Sie Power BI Desktop bereits auf dem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
 
 Führen Sie die folgenden Schritte aus:
+
 - Laden Sie die [CQD Power BI-Abfragevorlagen](https://www.microsoft.com/download/details.aspx?id=102291) herunter, und speichern Sie die ZIP-Datei in einem Verzeichnis auf Ihrem Computer.
+
 - Doppelklicken Sie auf die ZIP-Datei, um Sie zu öffnen.
+
 - Doppelklicken Sie auf die Vorlagendatei "CQ-und AA-kombinierte Analyse 20201105. PBit", und starten Sie Power BI Desktop.
+
 - Sie werden aufgefordert, den CQD-Datenpipeline Bereich auszuwählen. Wählen Sie den Bereich aus, in dem sich der Mandant befindet.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot auswählen des CQD-Datenpipeline Bereichs":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot auswählen des CQD-Datenpipeline Bereichs":::
 
- - Sie können die Region mit dem Skype for Business Online PS-Cmdlet (Get-CsTenant) anzeigen. ServiceInstance-Ausgabe. 
- Der Bereich wird nach dem/like in diesem Beispiel angezeigt: microsoftcommunicationsonline/Noam-4a-S7, wobei die Region Noam ist.
+ - Sie können die Region mithilfe des PowerShell-Cmdlets von Skype for Business Online (Get-CsTenant) anzeigen. ServiceInstance-Ausgabe. 
+ Der Bereich wird nach dem/like in diesem Beispiel angezeigt:
+
+   microsoftcommunicationsonline/Noam-4a-S7, wobei die Region Noam ist.
+ 
  - Der Bericht wird mit Beispieldaten gestartet.
+ 
  - Wenn Sie Ihre eigenen Daten anzeigen möchten, klicken Sie auf der Registerkarte Start Unterabfragen in Power BI Desktop auf **Aktualisieren** .
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot auswählen der Option "Aktualisieren"":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot auswählen der Option "Aktualisieren"":::
 
 - Sie werden dann zur Anmeldung aufgefordert. Wählen Sie **organisationskonto** aus, und wählen Sie dann **Anmelden** aus.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot mit Anmeldung":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot mit Anmeldung":::
 
 - Wählen Sie **verbinden** aus, und überwachen Sie die Datenaktualisierung.
 
@@ -93,9 +101,11 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationssc
 Führen Sie die folgenden Schritte aus:
 - Wählen Sie im Menüband die **Registerkarte Ansicht** aus.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot auswählen der Registerkarte "Ansicht" zum Ändern des Farbschemas":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot auswählen der Registerkarte "Ansicht" zum Ändern des Farbschemas":::
 
 - Wählen Sie das Farbschema aus der Dropdownliste aus.
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot mit verschiedenen Farbschemata":::
 
 ## <a name="cqd-fields-description"></a>Beschreibung der CQD-Felder
 
@@ -121,7 +131,7 @@ Führen Sie die folgenden Schritte aus:
 |Ist die Anrufwarteschlange involviert                  |Boolean                  |Wenn die Anrufwarteschlange in diesen Aufruf gleich 1 involviert ist |
 
 
-### <a name="powerbi-data-model-dimensions"></a>PowerBI-Datenmodell Dimensionen
+### <a name="power-bi-data-model-dimensions"></a>Power BI-Datenmodell Dimensionen
 
 |Name                                    |Datentyp                |Beschreibung                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
@@ -189,5 +199,6 @@ Führen Sie die folgenden Schritte aus:
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-- Derzeit zeigen die Anrufwarteschlange und die automatische Telefonzentrale anstelle der Namen der Anrufwarteschlange/der automatischen Telefonzentrale eine Ressourcenkonten-ID an.  Wenn Sie den gesamten Datenverkehr für eine automatische Telefonzentrale oder eine Anrufwarteschlange anzeigen möchten, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefonzentrale oder der Anrufwarteschlange zugewiesen sind.
+- Derzeit zeigen die Anrufwarteschlange und die automatische Telefonzentrale die ID des Ressourcenkontos anstelle der Namen der Anrufwarteschlange/automatischen Telefonzentralen an.  Wenn Sie den gesamten Datenverkehr für eine automatische Telefonzentrale oder eine Anrufwarteschlange anzeigen möchten, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefonzentrale oder der Anrufwarteschlange zugewiesen sind.
+
 - Derzeit sind im Dashboard nur 28 Tage Protokoll verfügbar, da die Daten für die Anrufwarteschlange/automatische Telefonzentrale als Endbenutzer identifizierbare Informationen gelten und den Datenschutzrichtlinien unterliegen.

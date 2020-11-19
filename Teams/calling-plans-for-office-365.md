@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Informationen zum Anrufplan (PSTN-Anrufplan) für Skype for Business-Optionen und zum Abrufen von Lizenzen für Ihre Organisation. '
-ms.openlocfilehash: d71f97655d86a7d7a97d6f2097f05c86d4bc9b1d
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908684"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130416"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -39,9 +39,9 @@ Anrufe an andere Skype for Business-und Microsoft Teams-Nutzer sind kostenlos, a
   
 Hier sind die Optionen für Anrufpläne:
   
-- **Plan für Inlandsanrufe** : lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem Sie in Microsoft 365 oder Office 365 zugewiesen sind.
+- **Plan für Inlandsanrufe**: lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem Sie in Microsoft 365 oder Office 365 zugewiesen sind.
     
-- **Plan für Inlands-und Auslandsanrufe** : lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem die Microsoft 365-oder Office 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)zugewiesen ist.
+- **Plan für Inlands-und Auslandsanrufe**: lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem die Microsoft 365-oder Office 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)zugewiesen ist.
 
 Alle Benutzer im gleichen Land/der gleichen Region (Dies ist der Standort des Benutzer Landes, der im Lizenzierungs Bereich des Microsoft 365 admin Centers definiert ist), die denselben Anrufplan aufweisen, haben einen Pool von Minuten. Wenn Sie beispielsweise 100-Benutzer im gleichen Land/der gleichen Region mit einem zugewiesenen Inlandsanruf Plan von 120 Minuten haben, wird ein Pool mit 12.000 Minuten freigegeben. Alle Anrufe, die diese Minuten überschreiten, werden pro Minute berechnet.
     
@@ -76,11 +76,9 @@ Weisen Sie anschließend den Benutzern im Microsoft 365 Admin Center die Enterpr
   
 ## <a name="pricing-information"></a>Preisinformationen
 
-- [Preise für Anrufpläne](https://go.microsoft.com/fwlink/?LinkId=799761)
+- [Preise für Anrufpläne und Telefon System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
     
-- [Preise für das Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763)
-    
-- [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Preise für Audiokonferenzen](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings)
     
 ## <a name="for-more-information"></a>Weitere Informationen
 

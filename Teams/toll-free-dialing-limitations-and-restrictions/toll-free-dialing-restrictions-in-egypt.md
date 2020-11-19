@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Informieren Sie sich über das Wählen von gebührenfreien Nummern in Ägypten, einschließlich Verfügbarkeit, Verfügbarkeit von drahtgebundenen/fest Netzanschlüssen und Mobilfunknetz sowie Einschränkungen.
-ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938424"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130666"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Einschränkungen für gebührenfreie Telefonnummern in Ägypten
 
@@ -44,7 +44,7 @@ ms.locfileid: "44938424"
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Nur über Telecom Egypt  <br/> |
-|Verfügbarkeit über Mobilnetze  <br/> |Ja  <br/> |
+|Verfügbarkeit über Mobilnetze  <br/> |Nein  <br/> |
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Keine  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen

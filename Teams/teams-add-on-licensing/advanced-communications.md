@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6502f73d39c61eaa933d126cebb71f3123bdd541
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031211"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130386"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Erweitertes Kommunikations-Add-on für Microsoft Teams
 
@@ -34,9 +34,9 @@ Wenn Ihre Organisation Ihre Kommunikationserfahrung weiter verbessern möchte, e
 
 Erweiterte Kommunikation bietet erweiterte Anruf-und Besprechungsfunktionen, die ein breites Spektrum an Kommunikationsanforderungen berücksichtigen, einschließlich der folgenden:
 
-- **Größere Zielgruppen erreichen** : unterstützen Sie Ihre Benutzer bei der Zusammenarbeit mit Live Ereignissen für bis zu 20.000-Teilnehmer und interaktiven Besprechungen für 1.000-Teilnehmer mit der Möglichkeit, bis zu 20.000 Teilnehmer in einer Besprechungs Erfahrung mit nur einer Ansicht zu aktivieren.
-- Anpassen **und Anpassen von Besprechungen** : führen Sie die Standardisierung von Besprechungen für Ihre internen und benutzerdefinierten Szenarien mit Features wie benutzerdefinierter Besprechungslobby durch. Implementieren Sie mit Flexibilität in den Abteilungen Ihrer Organisation. 
-- **Verwalten der Kommunikation Ihrer Organisation** : überwachen, nachverfolgen und Analysieren von Daten auf Benutzern und Geräten, um eine reibungslose Nutzung zu gewährleisten.
+- **Größere Zielgruppen erreichen**: unterstützen Sie Ihre Benutzer bei der Zusammenarbeit mit Live Ereignissen für bis zu 20.000-Teilnehmer und interaktiven Besprechungen für 1.000-Teilnehmer mit der Möglichkeit, bis zu 20.000 Teilnehmer in einer Besprechungs Erfahrung mit nur einer Ansicht zu aktivieren.
+- Anpassen **und Anpassen von Besprechungen**: führen Sie die Standardisierung von Besprechungen für Ihre internen und benutzerdefinierten Szenarien mit Features wie benutzerdefinierter Besprechungslobby durch. Implementieren Sie mit Flexibilität in den Abteilungen Ihrer Organisation. 
+- **Verwalten der Kommunikation Ihrer Organisation**: überwachen, nachverfolgen und Analysieren von Daten auf Benutzern und Geräten, um eine reibungslose Nutzung zu gewährleisten.
 
 Erweiterte Kommunikation ist in allen Microsoft 365-Märkten als Add-on für jedes bezahlte Microsoft 365-oder Office 365-Abonnement verfügbar. In Advanced Communications enthaltene Features werden nicht zu anderen Microsoft 365-oder Office 365-Plänen hinzugefügt und können nicht separat gekauft werden. Um die Features zu erhalten, müssen Sie das Add-on erwerben.
 
@@ -75,7 +75,7 @@ Mit der erweiterten Kommunikation bietet jede Besprechung mit mehr als 300 Teiln
 > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen.
 
 > [!NOTE]
-> Enterprise-und Education-SKUs können vorübergehend Live Ereignisse für bis zu 20.000 Teilnehmer mit einer Ereignisdauer von 16 Stunden pro Broadcast und 50 gleichzeitigen Ereignissen innerhalb eines Mandanten bis zum 1. Oktober 2020 speichern.
+> Enterprise-und Education-SKUs können vorübergehend Live Ereignisse für bis zu 20.000 Teilnehmer mit einer Ereignisdauer von 16 Stunden pro Broadcast und 50 gleichzeitigen Ereignissen innerhalb eines Mandanten bis zum 1. Januar 2021 speichern.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

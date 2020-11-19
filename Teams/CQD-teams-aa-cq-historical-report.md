@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie den Power BI-Bericht "Anrufqualität" verwenden, um automatische Telefonzentrale und Verlaufsdaten der Anrufwarteschlange anzuzeigen.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085579"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130426"
 ---
 # <a name="what-are-the-requirements"></a>Was sind die Voraussetzungen? 
 Sie müssen Power BI Desktop installiert haben. Sie können es über den [Microsoft Windows Store](https://aka.ms/pbidesktopstore)installieren.
@@ -43,21 +43,27 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie Power BI Desktop be
 
 Führen Sie die folgenden Schritte aus:
 - Laden Sie die [CQD Teams-automatische Telefonzentrale & Anrufwarteschlange-Verlaufsberichts Vorlage](https://aka.ms/TAPAACQAnalytics) herunter, und speichern Sie Sie in einem Verzeichnis auf Ihrem Computer.
+
 - Doppelklicken Sie auf die Vorlage, und der Power BI-Desktop sollte gestartet werden.
+
 - Sie werden aufgefordert, den CQD-Datenpipeline Bereich auszuwählen. Wählen Sie den Bereich aus, in dem sich der Mandant befindet.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
 
  - Sie können die Region mit dem Skype for Business Online PS-Cmdlet (Get-CsTenant) anzeigen. ServiceInstance-Ausgabe. 
- Der Bereich wird nach dem/like in diesem Beispiel angezeigt: microsoftcommunicationsonline/Noam-4a-S7, wobei die Region Noam ist.
+ Der Bereich wird nach dem/like in diesem Beispiel angezeigt: 
+ 
+   microsoftcommunicationsonline/Noam-4a-S7, wobei die Region Noam ist.
+   
  - Der Bericht wird mit Beispieldaten gestartet.
+ 
  - Wenn Sie Ihre eigenen Daten anzeigen möchten, klicken Sie auf der Registerkarte Start Unterabfragen in Power BI Desktop auf **Aktualisieren** .
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
 
 - Sie werden dann zur Anmeldung aufgefordert. Wählen Sie **organisationskonto** aus, und wählen Sie dann **Anmelden** aus.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
 
 - Wählen Sie **verbinden** aus, und überwachen Sie die Datenaktualisierung.
 
@@ -77,11 +83,11 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationssc
 Führen Sie die folgenden Schritte aus:
 - Wählen Sie im Menüband die **Registerkarte Ansicht** aus.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
 
 - Wählen Sie das Farbschema aus der Dropdownliste aus.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot der Schaltfläche "Anrufqualität" im Team Admin Center":::
 
 
 ## <a name="cqd-fields-description"></a>Beschreibung der CQD-Felder
@@ -176,4 +182,5 @@ Führen Sie die folgenden Schritte aus:
 
 ## <a name="known-issues"></a>Bekannte Probleme
 - Derzeit zeigen die Anrufwarteschlange und die automatische Telefonzentrale anstelle der Namen der Anrufwarteschlange/der automatischen Telefonzentrale eine Ressourcenkonten-ID an.  Wenn Sie den gesamten Datenverkehr für eine automatische Telefonzentrale oder eine Anrufwarteschlange anzeigen möchten, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefonzentrale oder der Anrufwarteschlange zugewiesen sind.
+
 - Derzeit sind im Dashboard nur 28 Tage Protokoll verfügbar, da die Daten für die Anrufwarteschlange/automatische Telefonzentrale als Endbenutzer identifizierbare Informationen gelten und den Datenschutzrichtlinien unterliegen.
