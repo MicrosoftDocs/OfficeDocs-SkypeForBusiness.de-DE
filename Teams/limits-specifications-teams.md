@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a552fd88d469c7daaae324614c398c24ac2f9d41
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031361"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085469"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -48,15 +48,16 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10.000<sup>5</sup>     |
 |Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>4</sup> |
 
-<sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgeschlossen.
+<sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgenommen.
 
 <sup>2</sup> Diese Beschränkung umfasst archivierte Teams.
 
-<sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
+<sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal samt seiner Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
 
 <sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
 
 <sup>5</sup> Teams in der GCC können nur 5.000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2.500 Mitglieder.
+
 ## <a name="messaging"></a>Messaging
 
 ### <a name="chat"></a>Chat
@@ -67,7 +68,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 |Feature  | Obergrenze  |
 |---------|---------|
-|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250 |
+|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 350 |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Anzahl der Dateianlagen <sup>2</sup>  |10     |
 |Größe des Chats | Ca. 28 KB pro Beitrag<sup>3</sup> |
@@ -80,9 +81,9 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 ### <a name="emailing-a-channel"></a>Senden von E-Mails an einen Kanal
 
- Wenn Benutzer eine E-Mail an einen Kanal in Microsoft Teams senden möchten, verwenden sie dazu die E-Mail-Adresse des Kanals. Wenn eine E-Mail Teil eines Kanals ist, kann jeder darauf antworten, um eine Unterhaltung zu beginnen. Hier einige geltende Grenzwerte zum Senden von E-Mails an einen Kanal:
+ Wenn Benutzer eine E-Mail an einen Kanal in Teams senden möchten, verwenden sie die E-Mail-Adresse des Kanals. Wenn eine E-Mail-Adresse Teil eines Kanals ist, kann jeder darauf antworten, um eine Unterhaltung zu beginnen. Hier sind einige geltende Grenzwerte zum Senden von E-Mails an einen Kanal aufgeführt.
 
-|Funktion  | Obergrenze  |
+|Feature  | Obergrenze  |
 |---------|---------|
 |Nachrichtengröße<sup>1<sup> | 24 KB |
 |Anzahl der Dateianlagen <sup>2</sup>  |20     |
@@ -96,9 +97,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 Weitere Informationen finden Sie unter [Exchange Online-Begrenzungen](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Die Beschränkungen für Nachrichtengröße, Dateianlagen und Inline-Bilder sind für alle Microsoft 365- und Office 365-Lizenzen identisch. Das Senden eines E-Mail-Kanals ist in Microsoft Teams für Office GCC/GCCH/DOD-Organisationen nicht verfügbar.
-
-
+> Die Beschränkungen für Nachrichtengröße, Dateianlagen und Inline-Bilder sind für alle Microsoft 365- und Office 365-Lizenzen identisch. Das Senden von E-Mails an einen Kanal ist in Microsoft Teams für Office GCC/GCCH/DOD-Organisationen nicht verfügbar.
 
 ## <a name="channel-names"></a>Kanalnamen
 
@@ -121,20 +120,19 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 >
 >- Bis zu 20.000 Teilnehmer pro Ereignis
 >- Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
->- Bis zu 16 Stunden pro Sendung
+>- Bis zu 16 Stunden pro Übertragung
 >
-> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
-
+> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Erhöhung der Grenzwerte benötigen, das Add-On [Advanced Communications](teams-add-on-licensing/advanced-communications.md) erwerben.**
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300 |
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 350 |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
-|Maximale Größe von PowerPoint-Dateien | 2GB|
+|Maximale Größe von PowerPoint-Dateien | 2 GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
 
 >[!Note]
-> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen.
+> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) erfolgt schrittweise. Beim Start können Sie sich für diese Umgebung entscheiden. Sie müssen sich im November abmelden, wenn Sie Stream weiterhin verwenden möchten. Anfang 2021 müssen alle Kunden OneDrive for Business und SharePoint für neue Besprechungsaufzeichungen verwenden.
 
 ### <a name="meeting-expiration"></a>Ablauf der Besprechung
 
@@ -159,7 +157,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 <sup>1</sup> Sie können beliebig viele Live Events planen, aber nur 15 gleichzeitig ausführen. Sobald der Produzent einem Live-Ereignis beitritt, wird es als ausgeführt betrachtet. Der Produzent, der versucht, am 16. Live-Ereignis teilzunehmen, erhält eine Fehlermeldung.
 
-Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Liveereignissen und Skype-Livekonferenzen finden Sie unter [Teams-Liveereignisse und Skype-Livekonferenzen](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Siehe auch [Planen eines Live Events in Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Teams-Liveereignissen und Skype Meeting Broadcast finden Sie unter [Teams-Liveereignisse und Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Siehe auch [Planen eines Liveereignisses in Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live Events wird erhöht**
@@ -168,9 +166,9 @@ Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Li
 >
 > - Bis zu 20.000 Teilnehmer pro Ereignis
 > - Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
-> - Bis zu 16 Stunden pro Sendung
+> - Bis zu 16 Stunden pro Übertragung
 >
-> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](teams-add-on-licensing/advanced-communications.md)erwerben.**
+> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Erhöhung der Grenzwerte benötigen, das Add-On [Advanced Communications](teams-add-on-licensing/advanced-communications.md) erwerben.**
 
 ## <a name="presence-in-outlook"></a>Anwesenheit in Outlook
 
@@ -187,7 +185,7 @@ Wenn Sie SharePoint Online nicht in Ihrem Mandanten aktiviert haben, können Mic
 
 Beim Speichern der Dateien in der SharePoint Online-Dokumentbibliothek und OneDrive for Business werden alle auf der Mandantenebene konfigurierten Complianceregeln eingehalten. (Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt wird, gelten die SharePoint-Einschränkungen für den Bereich „Dateien“ innerhalb eines Teams. Hier die entsprechenden Speichergrenzwerte für SharePoint Online:
+Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt wird, gelten die SharePoint-Einschränkungen für den Bereich „Dateien“ innerhalb eines Teams. Hier sind die entsprechenden Speichergrenzwerte für SharePoint Online aufgeführt.
 
 |Feature                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
@@ -217,7 +215,6 @@ In der nachstehenden Tabelle sind die Grenzwerte für Kursteams aufgelistet:
 |Anzahl von Mitgliedern, die ein OneNote-Kursnotizbuch in einem Kursteam verwenden sollen     |200         |
 
 Ein Kursteam kann mehr als 200 Mitglieder unterstützen. Wenn Sie aber vorhaben, innerhalb Ihres Teams die App „Aufgaben“ oder die App „Kursnotizbuch“ zu verwenden, muss die Anzahl von Mitgliedern unter der vorstehenden Obergrenze bleiben.
-
 
 ## <a name="tags"></a>Tags
 
