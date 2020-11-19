@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: Einrichten der Anrufwarteschleife
               href: create-a-phone-system-call-queue.md
-            - name: Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale
-              href: tutorial-org-aa.yml
-            - name: Beispiel für Kleinunternehmen – Einrichten einer Anrufwarteschleife
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Verwalten von Ressourcenkonten in Teams
               href: manage-resource-accounts.md
             - name: Feiertage festlegen
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: Portnummern
           href: business-voice/port-phone-numbers.md
-        - name: Einrichten automatischer Telefonzentralen
-          href: business-voice/set-up-auto-attendants.md
         - name: Einrichten von Anrufplänen
           href: business-voice/set-up-policies.md
         - name: Verwalten von Richtlinienpaketen
           href: business-voice/policy-packages.md
         - name: Erstellen weiterer Benutzer
           href: business-voice/create-users.md
+        - name: 'Beispiel: Einrichten einer Anrufwarteschlange'
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Einrichten von Warteschlangen.
           href: business-voice/set-up-call-queues.md
+        - name: 'Beispiel: Einrichten einer automatischen Telefonzentrale'
+          href: tutorial-org-aa.yml
+        - name: Einrichten automatischer Telefonzentralen
+          href: business-voice/set-up-auto-attendants.md
     - name: Verwalten der Einrichtung
       items:
         - name: Erstellen eines oder mehrerer Benutzer
