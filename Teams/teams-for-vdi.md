@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 53a4fca44e63f76875205726b4d145b815b9ee9c
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031261"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350637"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -40,17 +40,17 @@ Die Verwendung von Teams in einer virtualisierten Umgebung unterscheidet sich m�
 
 Befolgen Sie die Anleitungen in diesem Artikel, um eine optimale Benutzererfahrung zu gewährleisten.
 
- > [!Note]
+> [!Note]
 > Details zu den VDI-Teams auf unterschiedlichen Plattformen finden Sie unter [Teams-Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="teams-on-vdi-components"></a>Teams für VDI-Komponenten
 
 Für die Verwendung von Teams in einer virtualisierten Umgebung sind die folgenden Komponenten erforderlich:
 
-- **Virtualization Broker** : die Ressource und der Verbindungs-Manager für den Virtualisierungssoftware-Anbieter, wie Azure
-- **Virtueller Desktop** : der VM-Stapel (Virtual Machine), der Microsoft Teams ausführt
-- **Thin Client** : der Endpunkt, mit dem der Benutzer physikalisch eine Schnittstelle verwendet
-- **Teams-Desktop-App** : die Desktop-Client-App für Teams
+- **Virtualization Broker**: die Ressource und der Verbindungs-Manager für den Virtualisierungssoftware-Anbieter, wie Azure
+- **Virtueller Desktop**: der VM-Stapel (Virtual Machine), der Microsoft Teams ausführt
+- **Thin Client**: der Endpunkt, mit dem der Benutzer physikalisch eine Schnittstelle verwendet
+- **Teams-Desktop-App**: die Desktop-Client-App für Teams
 
 ## <a name="teams-on-vdi-requirements"></a>Teams für VDI-Anforderungen
 
@@ -161,8 +161,11 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
 
 1. Laden Sie das MSI-Paket für Teams, das Ihrem VDI-VM-Betriebssystem entspricht, mit einem der folgenden Links herunter:
 
-    - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
-    - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
+    - [32-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
+    > [!NOTE]
+    > Informationen zu öffentlichen Clouds finden Sie unter [Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager](msi-deployment.md) für die Download Links zu den MSI-Dateien.
 
     Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.3.00.4461. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt.)
 
@@ -269,15 +272,15 @@ So weisen Sie einem Benutzer die DisallowCalling-Anrufrichtlinie und die AllOff-
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer** , und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
 2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, klicken Sie am oberen Rand der Tabelle auf &#x2713; (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
+3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
-    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **DisallowCalling**.
-    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **AllOff**.
+    - Wechseln Sie zu **VoIP**-  >  **Anruf Richtlinien**, und klicken Sie dann auf **DisallowCalling**.
+    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies**, und klicken Sie dann auf **AllOff**.
 2. Wählen Sie **Nutzer verwalten** aus.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
@@ -325,15 +328,15 @@ So weisen Sie einem Benutzer die AllowCalling-Anrufrichtlinie und die Allon-Besp
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
-1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer** , und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
 2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Wenn Sie alle Benutzer auswählen möchten, klicken Sie oben in der Tabelle auf das **&#x2713;** (Häkchen).
-3. Klicken Sie auf **Einstellungen bearbeiten** , nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
+3. Klicken Sie auf **Einstellungen bearbeiten**, nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Übernehmen**.
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
-    - Wechseln Sie zu **VoIP** -  >  **Anruf Richtlinien** , und klicken Sie dann auf **AllowCalling**.
-    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies** , und klicken Sie dann auf **Allon**.
+    - Wechseln Sie zu **VoIP**-  >  **Anruf Richtlinien**, und klicken Sie dann auf **AllowCalling**.
+    - Wechseln Sie zu den Besprechungsrichtlinien für **Besprechungen**  >  **Meeting policies**, und klicken Sie dann auf **Allon**.
 2. Wählen Sie **Nutzer verwalten** aus.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
@@ -400,6 +403,7 @@ Im folgenden sind bekannte Probleme und Einschränkungen für Anrufe und Besprec
 - Nur ein einzelner eingehender Videostream wird in Besprechungen oder Gruppen anrufen unterstützt. Wenn mehrere Personen Video senden, wird nur das Video des dominanten Sprechers zu einem bestimmten Zeitpunkt angezeigt.
 - Die Auflösung des eingehenden und ausgehenden Videostroms ist auf 720p-Auflösung limitiert. Hierbei handelt es sich um eine WebRTC-Einschränkung.
 - Es wird nur ein Videostream von einer eingehenden Kamera oder einem Bildschirmfreigabe Datenstrom unterstützt. Wenn eine eingehende Bildschirmfreigabe vorhanden ist, wird diese Bildschirmfreigabe anstelle des Videos des dominanten Sprechers angezeigt.
+- Teams wechseln nicht, um das letzte Audiogerät zu verwenden, das ein Benutzer ausgewählt hat, wenn das Gerät getrennt ist, und dann wieder verbunden.
 - Ausgehende Bildschirmübertragung:
     - Die Anwendungsfreigabe wird nicht unterstützt.
 - Kontrolle und Kontrolle übernehmen:
