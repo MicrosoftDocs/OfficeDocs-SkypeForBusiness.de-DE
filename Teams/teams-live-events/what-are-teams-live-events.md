@@ -1,16 +1,33 @@
 ---
-Titel: Was sind Microsoft Teams Live-Ereignisse? Autor: lanachin ms. Autor: v-lanac Manager: Serdars ms. Topic: Conceptual ms. Service: msteams ms. Collection: 
-  - M365 – Zusammenarbeit
-  - m365initiative-Besprechungen
-  - m365solution-Comms
-- m365solution-Szenario ms. Bearbeiter: sonua Audience: admin Search. appverid: MET150 Description: erfahren Sie, wie Live Ereignisse Benutzern das Übertragen von Video und Inhalten an große Online-Zielgruppen in Teams, jammern und Datenströmen ermöglichen.
-F1. Schlüsselwörter: 
-- CSH ms. Custom:
-  - ms. teamsadmincenter. Dashboard. helparticle. Liveevents
-  - ms. teamsadmincenter. Liveevents. Policies AppliesTo: 
-  - Microsoft Teams
+title: Was sind Liveereignisse in Microsoft Teams?
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: Erfahren Sie, wie Benutzer mit Liveereignissen Videos und Inhalte für ein großes Onlinepublikum in Teams, Yammer und Stream übertragen können.
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373471"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Events in Microsoft Teams?
 
 ## <a name="overview"></a>Übersicht
@@ -50,14 +67,12 @@ Die Videoeingabe ist die Grundlage des Liveereignisses und kann von einer einzel
 
 - **Teams**: Diese Produktionsmethode ermöglicht Benutzern, ihre Liveereignisse in Teams mit ihrer Webcam oder einem Audio-Video-Eingang von Teams-Raumsysteme zu produzieren. Diese Option ist die beste und schnellste Option, wenn Sie die an den PC angeschlossenen Audio- und Videogeräte verwenden möchten oder wenn Sie Remotereferenten zur Teilnahme am Ereignis einladen. Diese Option ermöglicht den Benutzern, ihre Webcam einfach zu benutzen und ihren Bildschirm als Eingabe beim Ereignis freizugeben.
 
-    ![ein Live-Ereignis, das mit der Schnellstart Methode erstellt wurde](../media/teams-live-events-quick-start.png "Screenshot eines Liveereignisses, das mit der Schnellstartproduktionsmethode produziert wird")
-
 - **Externe Apps oder Geräte**: Externe Encoder ermöglichen Benutzern, ihre Liveereignisse direkt von einem externen hardware- oder softwarebasierten Encoder aus mit [Stream](https://stream.microsoft.com) zu produzieren. Diese Option ist am besten, wenn Sie bereits über Geräte mit Studioqualität verfügen (z. B. Medien-Mixer), die das Streaming an einen RTMP-Dienst (Real-time Messaging Protocol) unterstützen. Diese Art der Produktion wird in der Regel in großflächigen Ereignissen wie exekutiven Stadthallen verwendet, in denen ein einzelner Datenstrom von einem Medien Mixer an das Publikum übertragen wird.
 
     ![ein Live-Ereignis, das mit einer externen APP oder einem Gerät erstellt wurde](../media/teams-live-events-external-encoder.png "Screenshot eines Liveereignisses, das mithilfe der Produktionsmethode für externe Anwendungen oder Geräte produziert wird")
 
 >[!Note]
-> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen.
+> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Beim Start können Sie sich für diese Umgebung entscheiden. Sie müssen sich im November abmelden, wenn Sie Stream weiterhin verwenden möchten. Anfang 2021 müssen alle Kunden OneDrive for Business und SharePoint für neue Besprechungsaufzeichungen verwenden.
 
 ### <a name="streaming-platform"></a>Streaming-Plattform
 
