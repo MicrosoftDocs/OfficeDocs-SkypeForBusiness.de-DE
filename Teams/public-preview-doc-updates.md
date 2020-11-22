@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 0b0e6bb9c4082125b2dfbc1ab0dfb6e21edab2d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 8e0efa04b67f2818581f710b14850ba9944e3b51
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031611"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373461"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -34,7 +34,7 @@ Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffen
 
 ## <a name="set-the-update-policy"></a>Festlegen der Updaterichtlinie
 
- Die öffentliche Vorschau ist für jeden Benutzer aktiviert, und die Option zum Aktivieren der öffentlichen Vorschau wird in einer Administratorrichtlinie gesteuert. Updaterichtlinien werden zur Verwaltung der Teams- und Office-Vorschaubenutzer verwendet, die Features von Vorabversionen oder Vorschauen in der Teams-App sehen. Sie können die globale Richtlinie (organisationsweite Standardrichtlinie) verwenden und anpassen bzw. eine oder mehrere benutzerdefinierte Richtlinien für Ihre Benutzer erstellen.
+ Die öffentliche Vorschau ist für jeden Benutzer aktiviert, und die Option zum Aktivieren der öffentlichen Vorschau wird in einer Administratorrichtlinie gesteuert. Updaterichtlinien werden zur Verwaltung der Teams- und Office-Vorschaubenutzer verwendet, die Features von Vorabversionen oder Vorschauen in der Teams-App sehen. Sie können die globale Richtlinie (organisationsweite Standardrichtlinie) verwenden und anpassen bzw. eine oder mehrere benutzerdefinierte Richtlinien für Ihre Benutzer erstellen. Die Richtlinie muss bestimmten Benutzern zugewiesen werden, da sie die globale Richtlinie nicht außer Kraft setzt.
 
 1. Melden Sie sich beim Admin Center an.
 2. Wählen Sie **Teams**>**Updaterichtlinien** aus.

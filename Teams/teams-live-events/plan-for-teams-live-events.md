@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
+ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130586"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49372249"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -142,8 +142,8 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Nachträglich gesendeter Anwesenheitsbericht für Produzenten |&#x2714; |&#x2714; |&#x274C; |
 |Teilnehmerstimmungsanalyse – Liveabstimmungen & -umfragen |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup>  Die festgelegten Grenzen können geändert werden. Überprüfen Sie [Grenzwerte und Daten für Teams](../limits-specifications-teams.md).<br/>
-<sup>2</sup> Sie können bis zu 250 Referenten und Produzenten in einem Liveereignis haben, aber nur die letzten 10, die gesprochen haben, werden in der Liste angezeigt.
+<sup>1</sup> Die festgelegten Grenzen können geändert werden. Überprüfen Sie [Grenzwerte und Daten für Teams](../limits-specifications-teams.md).<br/>
+<sup>2</sup> Sie können bis zu 100 Referenten und Produzenten in einem Liveereignis haben, aber nur die letzten 10, die gesprochen haben, werden in der Liste angezeigt.
 
 ## <a name="regional-availability"></a>Regionale Verfügbarkeit
 

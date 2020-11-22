@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085469"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349111"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -68,7 +68,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 |Feature  | Obergrenze  |
 |---------|---------|
-|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 350 |
+|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250 |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Anzahl der Dateianlagen <sup>2</sup>  |10     |
 |Größe des Chats | Ca. 28 KB pro Beitrag<sup>3</sup> |
@@ -101,7 +101,7 @@ Weitere Informationen finden Sie unter [Exchange Online-Begrenzungen](https://do
 
 ## <a name="channel-names"></a>Kanalnamen
 
-Kanalnamen dürfen keine der folgenden Zeichen oder Worte enthalten.
+Kanalnamen dürfen folgende Zeichen oder Worte nicht enthalten:
 
 |Typ|Beispiel|
 |---------|---------|
@@ -191,9 +191,9 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Speicher                 |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz   |1 TB pro Organisation plus 10 GB pro erworbener Lizenz |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation           |
 |Speicher für Teams-Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
-|Maximale Größe für Dateiuploads (pro Datei)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|Maximale Größe für Dateiuploads (pro Datei)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-Kanäle werden durch Ordner innerhalb der SharePoint Online-Websitesammlung, die für das Team erstellt wurde, gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
+Kanäle werden durch für das Team erstellte Ordner innerhalb der SharePoint Online-Websitesammlung gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
 
 Weitere Informationen finden Sie unter [SharePoint Online-Beschränkungen](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
