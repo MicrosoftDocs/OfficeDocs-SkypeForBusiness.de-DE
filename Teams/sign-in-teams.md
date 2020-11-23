@@ -1,5 +1,5 @@
 ---
-title: Anmelden bei Teams mit moderner Authentifizierung
+title: Anmelden bei Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,24 +17,25 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944189"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376018"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 ==========================
 
 ## <a name="windows-users"></a>Windows-Benutzer
+
 Microsoft empfiehlt Unternehmen, neuere Versionen von Windows 10 mit Hybrid Domain Join- oder Azure AD Join-Konfiguration zu verwenden. Durch die Nutzung aktueller Versionen wird sichergestellt, dass die Nutzerkonten im Windows-Webkonto-Manager vorbereitet werden, wodurch wiederum die einmalige Anmeldung bei Microsoft Teams und anderen Microsoft-Anwendungen ermöglicht wird. Single Sign-On bietet mehr Benutzerfreundlichkeit (automatische Anmeldung) und einen besseren Sicherheitsstatus.
 
 Microsoft Teams verwendet moderne Authentifizierung, um die Anmeldung einfach und sicher zu gestalten. Um zu erfahren, wie sich Benutzer bei Teams anmelden, lesen Sie bitte [Anmelden in Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ### <a name="how-modern-authentication-works"></a>So funktioniert moderne Authentifizierung
 
-Moderne Authentifizierung ist ein Prozess, mit dem Teams mitgeteilt wird, dass Benutzer ihre Anmeldeinformationen (z. B. die geschäftliche E-Mail-Adresse und das Kennwort) bereits anderswo eingegeben haben, und dass sie diese nicht erneut eingeben müssen, um die App zu starten. Der Ablauf hängt von einigen Faktoren ab, beispielsweise ob Benutzer in Windows oder auf einem Mac arbeiten. Er hängt zudem davon ab, ob Ihre Organisation die einstufige oder die mehrstufige Authentifizierung aktiviert hat. Die mehrstufige Authentifizierung umfasst in der Regel die Überprüfung von Anmeldeinformationen über ein Telefon, die Bereitstellung eines eindeutigen Codes, das Eingeben einer PIN oder die Verwendung eines Fingerabdrucks. Hier ist eine Übersicht über jedes Szenario moderner Authentifizierung.
+Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Microsoft Teams mitteilt, dass Benutzer ihre Anmeldeinformationen (wie Ihre geschäftliche E-Mail-Adresse und das Kennwort) bereits anderswo eingegeben haben, und dass sie diese nicht erneut eingeben müssen, um die App zu starten. Der Ablauf hängt von einigen Faktoren ab, beispielsweise ob Benutzer in Windows oder auf einem Mac arbeiten. Er hängt zudem davon ab, ob Ihre Organisation die einstufige oder die mehrstufige Authentifizierung aktiviert hat. Die mehrstufige Authentifizierung umfasst in der Regel die Überprüfung von Anmeldeinformationen über ein Telefon, die Bereitstellung eines eindeutigen Codes, das Eingeben einer PIN oder die Verwendung eines Fingerabdrucks. Hier ist eine Übersicht über jedes Szenario moderner Authentifizierung.
 
 Die moderne Authentifizierung ist für alle Organisationen verfügbar, die Microsoft Teams verwenden. Wenn Benutzer den Prozess nicht abschließen können, liegt möglicherweise ein Problem mit der Azure AD-Konfiguration Ihrer Organisation vor. Weitere Informationen finden Sie unter [Wieso habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -57,7 +58,7 @@ Die moderne Authentifizierung ist für alle Organisationen verfügbar, die Micro
 
 ### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Abmeldung von Microsoft Teams nach Abschluss der modernen Authentifizierung
 
-Um sich von Teams abzumelden, können Benutzer auf ihr Profilbild oben in der App klicken und dann **Abmelden** wählen. Sie können auch mit der rechten Maustaste auf das App-Symbol in der Taskleiste klicken und dann **Abmelden** wählen. Sobald sie sich von Teams abgemeldet haben, müssen sie ihre Anmeldeinformationen erneut eingeben, um die App zu starten.
+Benutzer können sich von Teams abmelden, indem sie über ihr Profilbild oben in der App **Abmelden** auswählen. Alternativ können sie mit der rechten Maustaste auf das App-Symbol in ihrer Taskleiste klicken und dann **Abmelden** wählen. Nach der Abmeldung von Teams müssen sie ihre Anmeldedaten erneut eingeben, um die App zu starten.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Anmelden mit einem anderen Konto auf einem PC, der einer Domäne beigetreten ist
 
@@ -92,9 +93,9 @@ Ein Unternehmen möchte möglicherweise einschränken, wie die vom Unternehmen g
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Einschränken der Anmeldung auf mobilen Geräten
 
-Microsoft Teams für iOS und Android bietet IT-Administratoren die Möglichkeit, Kontokonfigurationen auf Microsoft 365-Konten zu übertragen. Dies funktioniert mit jedem MDM-Anbieter (Verwaltung mobiler Geräte), der den Kanal [Konfiguration verwalteter Apps](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) für iOS oder den Kanal [Android für Unternehmen](https://developer.android.com/work/managed-configurations) für Android verwendet.
+Microsoft Teams für iOS und Android bietet IT-Administratoren die Möglichkeit, Kontokonfigurationen auf Microsoft 365-Konten zu übertragen. Das funktioniert mit jedem Mobile Device Management-Anbieter (MDM, Verwaltung mobiler Geräte), der den [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html)-Kanal für iOS oder den [Android Enterprise](https://developer.android.com/work/managed-configurations)-Kanal für Android verwendet.
 
-Für Benutzer, die in Microsoft Intune registriert sind, können Sie die Kontokonfigurationseinstellungen mithilfe von Intune im Azure-Portal bereitstellen.
+Sie können die Konfigurationseinstellungen über Intune im Azure-Portal bereitstellen, wenn Benutzer bei Microsoft Intune angemeldet sind.
 
 Sobald die Kontoeinrichtungskonfiguration beim MDM-Anbieter festgelegt sind und nachdem der Benutzer das Gerät registriert hat, wird Microsoft Teams für iOS und Android auf der Teams-Anmeldeseite nur noch die erlaubten Konten anzeigen. Der Benutzer kann auf jedes der zulässigen Konten auf dieser Seite tippen, um sich anzumelden.
 
@@ -102,7 +103,7 @@ Legen Sie die folgenden Konfigurationsparameter im Azure Intune-Portal für verw
 
 |Plattform |Key  |Wert  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Enabled** : Das einzige zulässige Konto ist das über den IntuneMAMUPN-Schlüssel definierte verwaltete Benutzerkonto.<br> **Disabled** (oder ein Wert, bei dem es sich nicht um eine groß-/ kleinschreibungsunabhängige Übereinstimmung mit **Enabled** handelt): Jedes Konto ist zulässig.        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Enabled**: Das einzige zulässige Konto ist das über den IntuneMAMUPN-Schlüssel definierte verwaltete Benutzerkonto.<br> **Disabled** (oder ein Wert, bei dem es sich nicht um eine groß-/ kleinschreibungsunabhängige Übereinstimmung mit **Enabled** handelt): Jedes Konto ist zulässig.        |
 |iOS     |   **IntuneMAMUPN**      |   Der UPN des Kontos, das für die Anmeldung bei Microsoft Teams zulässig ist.<br> Bei in Intune registrierten Geräten kann das {{userprincipalname}}-Token zur Darstellung des registrierten Benutzerkontos verwendet werden.       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Die einzigen zulässigen Konten sind die durch diesen Schlüssel definierten verwalteten Benutzerkonten.<br> Ein oder mehrere durch Semikolons [;] getrennte UPNs.<br> Bei in Intune registrierten Geräten kann das {{userprincipalname}}-Token zur Darstellung des registrierten Benutzerkontos verwendet werden.
 
@@ -121,7 +122,8 @@ Wenn diese Richtlinie auf einem Gerät konfiguriert ist, können sich die Benutz
 >1. Die Richtlinie schränkt nur Anmeldungen ein. Sie schränkt nicht die Möglichkeit ein, dass Benutzer als Gast in andere Azure AD-Mandanten eingeladen werden oder zu anderen Mandanten wechseln können.
 >2. Die Richtlinie erfordert Teams für Windows Version 1.3.00.30866 oder höher, und Teams für MacOS Version 1.3.00.30882 (Veröffentlichung Mitte November 2020).
 
-**Richtlinien für Windows** Sie können Schlüssel in der Windows-Registrierung manuell festlegen:
+**Richtlinien für Windows** Administrative Vorlagendateien (ADMX/ADML) finden Sie im [Download Center](https://www.microsoft.com/download/details.aspx?id=49030). Zusätzlich können Sie Schlüssel in der Windows-Registrierung manuell festlegen:
+
 - Wertname: RestrictTeamsSignInToAccountsFromTenantList
 - Werttyp: String
 - Wertdaten: Mandanten-ID oder eine durch Kommas getrennte Liste der Mandanten-IDs
@@ -130,8 +132,6 @@ Wenn diese Richtlinie auf einem Gerät konfiguriert ist, können sich die Benutz
  Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
 Beispiel: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Mandanten-ID oder SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Mandanten-ID1, Mandanten-ID2, Mandanten-ID3
-
-Dieses Dokument wird in den nächsten Tagen mit Details zur Verwendung von administrativen Vorlagendateien (ADMX/ADML) aktualisiert.
 
 **Richtlinien für MacOS** Verwenden Sie für von MacOS verwaltete Geräte .plist, um Anmeldebeschränkungen bereitzustellen. Das Konfigurationsprofil ist eine .plist-Datei, die aus mit einem Schlüssel identifizierten Einträgen besteht (der Schlüssel bezeichnet den Namen der Einstellung), gefolgt von einem Wert, der von der Art der Einstellung abhängt. Werte können entweder einfach sein (z. B. ein numerischer Wert) oder komplex, z. B. eine geschachtelte Liste von Einstellungen.
 
