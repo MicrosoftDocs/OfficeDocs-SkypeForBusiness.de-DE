@@ -240,7 +240,7 @@
       items:
         - name: Übersicht
           href: rooms/index.md
-        - name: Plan
+        - name: Planen
           items:
             - name: Übersicht über die Planung von Microsoft Teams-Räumen
               href: rooms/rooms-plan.md
@@ -348,6 +348,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Verwalten des Whiteboards in Teams
       href: manage-whiteboard.md
+    - name: Einrichten von Teams-Besprechungs-Add-on für Google Workspace
+      href: add-gsuite-thru-aad.md
     - name: Audiokonferenz
       items:
         - name: Ihre Bereitstellung planen
@@ -1098,7 +1100,7 @@
           items:
             - name: Verwalten der Schichten-App für Ihre Organisation in Teams
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams für das Gesundheitswesen
+    - name: Microsoft Teams für das Gesundheitswesen
       items:
         - name: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
