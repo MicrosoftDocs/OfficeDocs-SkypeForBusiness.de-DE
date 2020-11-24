@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
-ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
+ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49366914"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385622"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -116,7 +116,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Besprechungstyp                               | Wer hat auf Record geklickt?| Wo landet die Aufzeichnung?                               |Wer hat Zugriff? R/W, r oder Freigabe                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |1:1-Anruf mit internen Parteien             |Anrufer                 |OneDrive for Business-Konto des Anrufers                        |Der Anrufer ist Besitzer und hat vollständige Rechte. <br /><br />Der aufgerufene (im gleichen Mandanten) hat nur Lesezugriff. Kein Freigabe Zugriff. <br /><br /> Der aufgerufene (wenn in einem anderen Mandanten) hat keinen Zugriff. Der Anrufer muss ihn für den aufgerufenen freigeben.|
-|1:1-Anruf mit internen Parteien             |Callee                 |OneDrive for Business-Konto des berufenen                        |Der aufgerufene ist Besitzer und hat vollständige Rechte. <br /><br />Der Anrufer (wenn in demselben Mandanten schreibgeschützter Zugriff verfügbar ist. Kein Freigabe Zugriff. <br /><br />Der Anrufer (wenn in einem anderen Mandanten) hat keinen Zugriff. Der aufgerufene muss ihn an den aufgerufenen freigeben.|
+|1:1-Anruf mit internen Parteien             |Callee                 |OneDrive for Business-Konto des berufenen                        |Der aufgerufene ist Besitzer und hat vollständige Rechte. <br /><br />Der Anrufer (wenn in demselben Mandanten schreibgeschützter Zugriff verfügbar ist. Kein Freigabe Zugriff. <br /><br />Der Anrufer (wenn in einem anderen Mandanten) hat keinen Zugriff. Der Anrufer muss ihn an den Anrufer weitergeben.|
 |1:1-Anruf mit einem externen Anruf             |Anrufer                 |OneDrive for Business-Konto des Anrufers                        |Der Anrufer ist Besitzer und hat vollständige Rechte.<br /> <br />Der aufgerufene hat keinen Zugriff. Der Anrufer muss ihn für den aufgerufenen freigeben.|
 |1:1-Anruf mit einem externen Anruf             |Callee                 |OneDrive for Business-Konto des berufenen                        |Der aufgerufene ist Besitzer und hat vollständige Rechte.<br /><br />Der Anrufer hat keinen Zugriff. Der Anrufer muss ihn an den Anrufer weitergeben.|
 |Gruppenanruf                                 |Ein beliebiges Mitglied des Anrufs |Mitglied, das auf das OneDrive for Business-Konto des Eintrags geklickt hat  |Das Mitglied, das auf Record geklickt hat, hat vollständige Rechte. <br /><br /> Andere Mitglieder desselben Mandanten haben Lese Rechte. <br /><br /> Andere Mitglieder eines anderen Mandanten haben keine Rechte daran.|

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Mandanten und Gebäudedaten im Dashboard für die Anrufqualität (CQD) hochladen.
-ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908694"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385632"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Hochladen von Mandanten und Erstellen von Daten im Dashboard für die Anrufqualität (CQD)
 
@@ -71,7 +71,7 @@ Der erste Typ der Mandanten Datendatei in CQD ist die **Gebäude** Datendatei. D
 
 - Wenn in einer Spalte der Datentyp "Zeichenfolge" verwendet wird, kann ein Datenfeld leer sein, muss aber durch Tabstopps oder Komma getrennt werden. Ein leeres Datenfeld weist nur einen leeren Zeichenfolgenwert zu.
 
-- Es müssen 14 Spalten für jede Zeile vorhanden sein, jede Spalte muss den entsprechenden Datentyp aufweisen, und die Spalten müssen in der in der folgenden Tabelle aufgelisteten Reihenfolge liegen (Komma oder Tabstopp getrennt):
+- Es müssen 15 Spalten für jede Zeile vorhanden sein, jede Spalte muss den entsprechenden Datentyp aufweisen, und die Spalten müssen in der in der folgenden Tabelle aufgelisteten Reihenfolge liegen (Komma oder Tabstopp getrennt):
 
   **Erstellen eines Datendateiformats**
   
