@@ -3,6 +3,19 @@
 
 
 
+## <a name="week-of-november-23-2020"></a>Week of November 23, 2020
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 11/23/2020 | [Hochladen von Mandanten und Erstellen von Daten im Dashboard für die Anrufqualität (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | Geändert |
+| 11/23/2020 | [Anwesenheit in Microsoft Teams](/MicrosoftTeams/presence-admins) | Geändert |
+| 11/23/2020 | [Verwenden von OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
+| 11/25/2020 | [Einrichten des Begrüssungs-bot für direktes Routing](/MicrosoftTeams/direct-routing-ringback-bot) | Geändert |
+| 11/25/2020 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 11/25/2020 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+
+
 ## <a name="week-of-november-16-2020"></a>Week of November 16, 2020
 
 
@@ -316,52 +329,3 @@
 | 10/30/2020 | [Automatische Telefonzentrale und Anruf Warteschlangen Wähl-und sprach Erkennungs Referenz](/MicrosoftTeams/dial-voice-reference) | Geändert |
 | 10/30/2020 | Verwalten der Erkennung privater Teams in Microsoft Teams | Entfernt |
 | 10/30/2020 | [Anwesenheit in Microsoft Teams](/MicrosoftTeams/presence-admins) | Geändert |
-
-
-## <a name="week-of-october-19-2020"></a>Woche vom 19. Oktober 2020
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 10/19/2020 | [Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen](/MicrosoftTeams/audio-conferencing-smb) | Geändert |
-| 10/19/2020 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
-| 10/19/2020 | [Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams](/MicrosoftTeams/audit-log-events) | Geändert |
-| 10/19/2020 | [Telefone und Geräte für Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
-| 10/19/2020 | [Verwalten von Power Platform-apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-power-platform-apps) | Geändert |
-| 10/19/2020 | [Verwenden von OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
-| 10/20/2020 | [Telefone und Geräte für Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Geändert |
-| 10/20/2020 | [Anmerkungen zu dieser Version](/MicrosoftTeams/rooms/rooms-release-note) | Geändert |
-| 10/21/2020 | [Interaktion von Exchange und Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | Geändert |
-| 10/21/2020 | [Microsoft 365-und Office 365-URLs und IP-Adressbereiche](/MicrosoftTeams/office-365-urls-ip-address-ranges) | Geändert |
-| 10/21/2020 | [Exportieren von Inhalten mit den Microsoft Teams Export-APIs](/MicrosoftTeams/export-teams-content) | Geändert |
-| 10/21/2020 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
-| 10/21/2020 | [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](/MicrosoftTeams/log-files) | Geändert |
-| 10/21/2020 | [Verwalten von Power Platform-apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-power-platform-apps) | Geändert |
-| 10/21/2020 | [Anwesenheit in Microsoft Teams](/MicrosoftTeams/presence-admins) | Geändert |
-| 10/21/2020 | [Versionsunterstützung](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Geändert |
-| 10/21/2020 | [Einführung in die richtlinienbasierte Aufzeichnung von Teams für den Anruf & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
-| 10/21/2020 | [Aktivieren von Benutzern für das direkte Routing](/MicrosoftTeams/direct-routing-enable-users) | Geändert |
-| 10/21/2020 | [Konfigurieren des Sitzungs Grenz Controllers – mehrere Mandanten](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Geändert |
-| 10/21/2020 | [Verwenden von allgemeinen Teams-Vorlagen im Admin Center](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | Geändert |
-| 10/21/2020 | [Verwenden von Teams Government-Vorlagen im Admin Center](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | Geändert |
-| 10/21/2020 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
-| 10/21/2020 | [Plan für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Geändert |
-| 10/21/2020 | [Einrichten von Live-Ereignissen in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Geändert |
-| 10/22/2020 | [Schnellstart – Administratoren von Microsoft Teams Education](/MicrosoftTeams/teams-quick-start-edu) | Geändert |
-| 10/22/2020 | [Koexistenz mit Skype for Business](/MicrosoftTeams/coexistence-chat-calls-presence) | Geändert |
-| 10/22/2020 | [Auswerten Ihrer Umgebung für Cloud-sprach Auslastungen](/MicrosoftTeams/3-envision-evaluate-my-environment) | Geändert |
-| 10/22/2020 | [Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu](/MicrosoftTeams/app-permissions) | Geändert |
-| 10/22/2020 | [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | Geändert |
-| 10/22/2020 | [Erstellen einer Strategie für die Änderungsverwaltung](/MicrosoftTeams/change-management-strategy) | Geändert |
-| 10/22/2020 | [Zeitraum für kostenlose ausgehende Anrufe](/MicrosoftTeams/complimentary-dial-out-period) | Geändert |
-| 10/22/2020 | [Schnellstarthandbuch – Konfigurieren von Anrufplänen](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | Geändert |
-| 10/22/2020 | [Verwalten von Einstellungen in Ihrer Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
-| 10/22/2020 | [Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | Geändert |
-| 10/22/2020 | [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings) | Geändert |
-| 10/22/2020 | [Einführung in die richtlinienbasierte Aufzeichnung von Teams für den Anruf & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
-| 10/22/2020 | [Verwenden von OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
-| 10/23/2020 | [Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Geändert |
-| 10/23/2020 | [Verwalten von Microsoft Power Platform-apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-power-platform-apps) | Geändert |
-| 10/23/2020 | [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings) | Geändert |
-| 10/23/2020 | [Verwalten der explorativen Microsoft Teams-Umgebung](/MicrosoftTeams/teams-exploratory) | Geändert |
-| 10/23/2020 | [Verwenden von OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |

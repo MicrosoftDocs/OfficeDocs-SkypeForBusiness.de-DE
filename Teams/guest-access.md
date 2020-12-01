@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
-ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030281"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49476994"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
@@ -32,12 +32,14 @@ Mit Gastzugriff können Sie den Zugriff auf Teams, Dokumente in Kanälen, Ressou
 
 Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jede Person, die nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Das bedeutet, dass jeder Benutzer mit einem Unternehmenskonto (also einem Azure Active Directory-Konto) oder einem Consumer-e-Mail-Konto (mit Outlook.com, gmail.com oder anderen) als Gast in Teams teilnehmen kann, mit Zugriff auf Teams und Kanal Erlebnisse.
 
-Als Team-Administrator steuern Sie, [welche Funktionen Gäste in Teams verwenden können (und können)](manage-guests.md). Gäste in Teams unterliegen dem gleichen Compliance-und Überwachungs Schutz wie die restlichen Microsoft 365 und können in Azure AD verwaltet werden. Gastzugriff unterliegt Azure AD- und Microsoft 365- oder Office 365-Dienstbegrenzungen.
+Gäste in Teams unterliegen dem gleichen Compliance-und Überwachungs Schutz wie die restlichen Microsoft 365 und können in Azure AD verwaltet werden. Gastzugriff unterliegt Azure AD- und Microsoft 365- oder Office 365-Dienstbegrenzungen.
 
 Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Eine vollständige Liste dessen, was ein Gast in Teams tun kann und was nicht, finden Sie unter [Vergleich der Teammitglieder und Gast Funktionen](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
 > Gastbenutzer folgen den organisationsweiten Einstellungen in Teams für den Upgrade-Modus. Dies kann nicht geändert werden.
+
+Informationen zum Einrichten des Gastzugriffs finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
 
 Wenn Sie den externen Zugriff (Partnerverbund) mit Gastzugriff vergleichen möchten (und entscheiden, welchen Sie verwenden sollten), lesen Sie [Kommunizieren mit Benutzern aus anderen Organisationen in Teams](communicate-with-users-from-other-organizations.md).
 
@@ -58,7 +60,7 @@ Gastzugriff in Teams ist eine organisationsweite Einstellung, die standardmäßi
   Gastbenutzer, die über ein Firmen-oder Schulkonto in Azure Active Directory verfügen, können die Einladung annehmen und sich direkt authentifizieren. Anderen Benutzern wird ein einmaliger Passcode gesendet, um deren Identität zu überprüfen ([eine einmalige Kennungs Authentifizierung](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) erforderlich).
 4. Nach dem Akzeptieren der Einladung kann der Gast [an Teams und Kanälen teilnehmen](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), Kanalnachrichten empfangen und darauf reagieren, [auf Dateien in Kanälen zugreifen](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), an Besprechungen und Chats teilnehmen, an Dokumenten zusammenarbeiten und mehr. 
 
-In Teams sind Gäste eindeutig zu erkennen. Der Name eines Gastbenutzers enthält die Bezeichnung **(Gast)** , und in einem Kanal wird durch ein Symbol auf eine Gastteilnahme im Team hingewiesen. Weitere Details finden Sie unter [Gastfunktionalität](guest-experience.md).
+In Teams sind Gäste eindeutig zu erkennen. Der Name eines Gastbenutzers enthält die Bezeichnung **(Gast)**, und in einem Kanal wird durch ein Symbol auf eine Gastteilnahme im Team hingewiesen. Weitere Details finden Sie unter [Gastfunktionalität](guest-experience.md).
   
 Gäste können das Team jederzeit von Teams aus verlassen. Einzelheiten finden Sie unter [Wie verlasse ich ein Team?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 

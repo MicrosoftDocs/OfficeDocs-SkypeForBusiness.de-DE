@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385622"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477044"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -94,11 +94,14 @@ Die Option "Besprechungsaufzeichnung" ist eine Einstellung auf der Richtlinieneb
    Import-PSSession $sfbSession
    ```
 
-4. Verwenden Sie " [csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) ", um eine Team-Besprechungsrichtlinie für den Übergang vom Datenstrom Speicher zu OneDrive for Business und SharePoint einzurichten.
+4. Verwenden Sie " [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) ", um eine Team-Besprechungsrichtlinie für den Übergang vom Datenstrom Speicher zu OneDrive for Business und SharePoint einzurichten.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+   
+> [!Note]
+> Wenn einige Ihrer Benutzer eine Richtlinie pro Organisator oder pro Benutzer zugewiesen haben, müssen Sie diese Einstellung für diese Richtlinie festlegen, wenn Sie möchten, dass Sie auch die Besprechungsaufzeichnungen in OneDrive for Business und SharePoint speichern. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Deaktivieren von OneDrive for Business und SharePoint, um den Datenstrom weiterhin verwenden zu können
 

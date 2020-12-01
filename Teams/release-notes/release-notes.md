@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816105"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477034"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
 Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrator Features für Microsoft Teams.
+
+## <a name="november-25-2020"></a>25. November 2020
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Einrichten des Microsoft Teams-Besprechungs-Add-ons für Google Workspace
+
+Mithilfe des Microsoft Teams-Besprechungs-Add-ons können Google Calendar-Benutzer eine Microsoft Teams-Besprechung direkt aus Google Workspace planen und daran teilnehmen. Benutzer erhalten Zugriff auf die Besprechungsfunktionen von Teams, darunter Video-und Audiokonferenzen, Bildschirmübertragung, Besprechungs Chat, digitale Whiteboards und vieles mehr. Bleiben Sie in Kontakt und Organisation, um mehr über Arbeit, Schule und Leben hinweg zu erledigen.
+
+Das Microsoft Teams-Besprechungs-Add-on für Google Workspace muss von einem Teams-Administrator aktiviert werden, bevor Mandanten Benutzer auf die App zugreifen können. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
 ## <a name="october-28-2020"></a>28. Oktober 2020
 
@@ -55,7 +63,7 @@ Sie können die Skype for Business-Einstellungen für Skype for Business-Benutze
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Verwalten von Skype for Business-Einstellungen für Ihre Organisation
 
-Sie können die Skype for Business-Funktionen für Skype for Business-Benutzer in Ihrer Organisation im Microsoft Teams Admin Center verwalten. Wechseln Sie zu den **organisationsweiten Einstellungen**  >  **für Skype for Business** . Hier können Sie Skype-Live Konferenz-, Anwesenheits-und mobil Funk Benachrichtigungen verwalten. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Sie können die Skype for Business-Funktionen für Skype for Business-Benutzer in Ihrer Organisation im Microsoft Teams Admin Center verwalten. Wechseln Sie zu den **organisationsweiten Einstellungen**  >  **für Skype for Business**. Hier können Sie Skype-Live Konferenz-, Anwesenheits-und mobil Funk Benachrichtigungen verwalten. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## <a name="october-16-2020"></a>16. Oktober 2020
 
@@ -67,7 +75,7 @@ Als Administrator können Sie Teams so konfigurieren, dass eine Reihe von Schich
 
 ### <a name="custom-policy-packages"></a>Benutzerdefinierte Richtlinien Pakete
 
-*Dieses Feature befindet sich in der privaten Vorschau*
+*Dieses Feature ist derzeit lediglich als private Vorschau verfügbar*
 
 Mit benutzerdefinierten Richtlinien Paketen können Sie Ihren eigenen Satz von Richtlinien für Benutzer mit ähnlichen Rollen in Ihrer Organisation bündeln. Erstellen Sie eigene Richtlinien Pakete, indem Sie die erforderlichen Richtlinientypen und Richtlinien hinzufügen. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
