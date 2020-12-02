@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: Arbeiten mit Teams-Vorlagen
       items:
-        - name: Verwenden von Teams-Vorlagen im Admin Center
+        - name: Verwenden von Microsoft Teams-Vorlagen im Admin Center
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: Teams-Vorlagen integriert in Graph für kleine und mittlere Unternehmen
           href: smb-templates.md
@@ -240,7 +240,7 @@
       items:
         - name: Übersicht
           href: rooms/index.md
-        - name: Planen
+        - name: Plan
           items:
             - name: Übersicht über die Planung von Microsoft Teams-Räumen
               href: rooms/rooms-plan.md
@@ -364,6 +364,8 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: "Audiokonferenz-Add-Ons in Microsoft\_365 testen und kaufen"
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Erweiterte ausgehende Gesprächsminuten für USA und Kanada
+          href: dial-out-minutes-canada-us.md
         - name: Zeitraum für kostenlose ausgehende Anrufe für Audiokonferenzen
           href: complimentary-dial-out-period.md
         - name: Vorteil "Ausgehende Anrufe"/"Rückruf unter" von Audiokonferenzen-Abonnement
@@ -434,7 +436,7 @@
               href: audio-conferencing-supported-languages.md
             - name: Telefonnummern für Audiokonferenzen
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Land- und Regionzonen für Audiokonferenzen
+            - name: Länder-und Regions Zonen für Audiokonferenzen
               href: audio-conferencing-zones.md
             - name: Videos – Audiokonferenzen in Teams
               href: audio-conferencing-videos.md
@@ -522,8 +524,6 @@
           href: calling-plan-landing-page.md
         - name: So erwerben Sie einen Anrufplan
           href: calling-plans-for-office-365.md
-        - name: Erweiterte ausgehende Gesprächsminuten für USA und Kanada
-          href: dial-out-minutes-canada-us.md
         - name: Einrichten von Anrufplänen für Ihre Organisation
           href: set-up-calling-plans.md
         - name: 'Schnellstarthandbuch: Konfigurieren von Anrufplänen'
@@ -1100,17 +1100,17 @@
           items:
             - name: Verwalten der Schichten-App für Ihre Organisation in Teams
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Microsoft Teams für das Gesundheitswesen
+    - name: Teams für das Gesundheitswesen
       items:
-        - name: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
+        - name: Erste Schritte mit Microsoft Teams für Healthcare-Organisationen
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: Virtuelle Besuche
           items:
-            - name: Virtuelle Besuche mit Teams – Integration in die EGA
+            - name: Virtuelle Besuche mit Teams – Integration in EPA
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Virtuelle Besuche mit Bookings und Teams
+            - name: Virtuelle Besuche mit Buchungen und Teams
               href: bookings-app-admin.md
-        - name: Richtlinienpakete anzeigen und zuweisen
+        - name: Anzeigen und Zuweisen von Richtlinien Paketen
           href: policy-packages-healthcare.md
         - name: Sicheres Messaging
           items:
@@ -1118,15 +1118,15 @@
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Nachrichtendelegierung
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams-Vorlagen
+        - name: Microsoft Teams-Vorlagen
           items:
-            - name: Teams-Vorlagen für das Gesundheitswesen verwenden
+            - name: Verwenden von Microsoft Teams Healthcare-Vorlagen
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: Teams-Vorlagen für das Gesundheitswesen
+            - name: Microsoft Teams-Vorlagen für das Gesundheitswesen
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
         - name: Verwalten der Listen-App
           href: manage-lists-app.md
-        - name: Verwalten der Aufgaben-App
+        - name: Verwalten der Aufgaben-app
           href: manage-tasks-app.md
         - name: Schichten für Teams
           items:
@@ -1169,7 +1169,7 @@
           href: firstline-workers-quickstart.yml
         - name: Skriptgestützte Bereitstellung für Mitarbeiter "an vorderster Front"
           href: flw-scripted-deployment.md
-        - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter "an vorderster Front"
+        - name: Verwalten von Schicht basiertem Zugriff für erste Mitarbeiter
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear für Microsoft Teams
           href: flw-realwear.md
@@ -1180,7 +1180,7 @@
     - name: Teams für den Einzelhandel
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Erste Schritte mit Teams-Vorlagen für den Einzelhandel im Admin Center
+        - name: Erste Schritte mit Retail Teams-Vorlagen im Admin Center
           href: retail-teams-templates-in-the-admin-console.md
         - name: Erste Schritte mit Vorlagen für Teams im Einzelhandel
           href: get-started-with-retail-teams-templates.md
@@ -1418,7 +1418,7 @@
           items:
             - name: Konfigurieren einer hybriden Exchange-Organisation zur Verwendung in Teams
               href: exchange-hybrid-organization.md
-            - name: Verwenden von Nachrichtenflussregeln mit Exchange
+            - name: Verwenden von Nachrichtenfluss Regeln mit Exchange
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: Interaktion von SharePoint Online und OneDrive for Business mit Teams
           href: sharepoint-onedrive-interact.md
@@ -1434,17 +1434,17 @@
           href: devices/manage-device-tags.md
         - name: Telefone für Teams
           href: devices/phones-for-teams.md
-        - name: Teams-Anzeigen
+        - name: Teams wird angezeigt
           href: devices/teams-displays.md
-        - name: Teams-Telefone auf Teams-Anzeigen upgraden
+        - name: Aktualisieren von Teams-Telefonen auf Microsoft Teams-Displays
           href: devices/upgrade-phones-to-displays.md
-        - name: Bereitstellen von Teams-Telefone und Teams-Anzeigen mit Intune
+        - name: Bereitstellen von Microsoft Teams-Telefonen und Teams wird mit InTune angezeigt
           href: devices/phones-displays-deploy.md
         - name: USB-Audio- und -Videogeräte
           href: devices/usb-devices.md
         - name: Bereitstellen von Zusammenarbeitsleisten für Microsoft Teams
           href: devices/collab-bar-deploy.md
-        - name: Besprechungsraumgeräte und Lösungen
+        - name: Besprechungsraumgeräte und Lösungen.
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Für Microsoft Teams zertifizierte IP-Telefone
           href: devices/teams-ip-phones.md
@@ -1460,7 +1460,7 @@
           href: teams-powershell-managing-teams.md
         - name: Team PowerShell – Anmerkungen zu dieser Version
           href: teams-powershell-release-notes.md
-        - name: Wechseln vom Skype for Business Online-Connector zum PowerShell-Modul von Teams
+        - name: Wechsel von Skype for Business Online Connector zum PowerShell-Modul von Teams
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet-Referenz für Teams
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
