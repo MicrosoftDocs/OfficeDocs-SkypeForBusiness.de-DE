@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie das VoIP-Routing mit Microsoft Phone System Direct Routing konfigurieren.
-ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: e87d7d04f9b2477d65e08f461ac3ff113b4d0e7c
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359411"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530992"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Konfigurieren des VoIP-Routings für das direkte Routing
 
@@ -70,7 +70,7 @@ Das folgende Diagramm zeigt zwei Beispiele für VoIP-Routing Richtlinien in eine
 
 ![Zeigt Beispiele für VoIP-Routing Richtlinien](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-In beiden Beispielen wird die SBCS in den Routen in zufälliger Reihenfolge erprobt, während der VoIP-Route Prioritäten zugewiesen werden.
+In beiden Beispielen wird die SBCS in den Routen in zufälliger Reihenfolge erprobt, während der VoIP-Route Prioritäten zugewiesen werden. Wenn zwei SBC-Daten in einer Route konfiguriert sind, muss der Netzwerkdatenverkehr zwischen SBC-oder Medien Routings nicht bei Übertragungen festgelegt werden, da es möglich ist, dass die neue Einladung für die Übertragung an einen anderen SBC in der Route gesendet wird.
 
   > [!NOTE]
   > Wenn der Benutzer auch keine Microsoft-Anrufplan-Lizenz hat, werden Anrufe an eine beliebige Zahl mit Ausnahme der Zahlen, die mit den Mustern + 1 425 XXX XX XX oder + 1 206 XXX XX XX in der Beispielkonfiguration übereinstimmen, gelöscht. Wenn der Benutzer über eine Callingcard-Lizenz verfügt, wird der Anruf automatisch entsprechend den Richtlinien des Microsoft-Anruf Plans weitergeleitet. Der Microsoft-Anrufplan gilt automatisch als letzte Route für alle Benutzer mit der Lizenz für den Microsoft-Anrufplan und erfordert keine zusätzliche Konfiguration des Anruf Routings.
@@ -109,8 +109,8 @@ Sie können das [Microsoft Teams Admin Center](#admincenterexample1) oder [Power
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung in den USA und Kanada
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten**aus.
-2. Klicken Sie auf **Hinzufügen**, geben Sie **USA und Kanada**ein, und klicken Sie dann auf über **nehmen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten** aus.
+2. Klicken Sie auf **Hinzufügen**, geben Sie **USA und Kanada** ein, und klicken Sie dann auf über **nehmen**.
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Schritt 2: Erstellen von drei VoIP-Routen (Redmond 1, Redmond 2 und andere + 1)
 
@@ -127,7 +127,7 @@ In den folgenden Schritten wird beschrieben, wie Sie eine VoIP-Route erstellen. 
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Routing Richtlinien**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie **uns nur** als Namen ein, und fügen Sie eine Beschreibung hinzu.
-3. Klicken Sie unter **PSTN-Verwendungsdaten Sätze**auf **PSTN-Verwendung hinzufügen**, wählen Sie den PSTN-Verwendungs Eintrag "USA und Kanada" aus, und klicken Sie dann auf über **nehmen**.
+3. Klicken Sie unter **PSTN-Verwendungsdaten Sätze** auf **PSTN-Verwendung hinzufügen**, wählen Sie den PSTN-Verwendungs Eintrag "USA und Kanada" aus, und klicken Sie dann auf über **nehmen**.
 4. Klicken Sie auf **Speichern**.
 
 Weitere Informationen finden Sie unter [Verwalten von VoIP-Routing Richtlinien](manage-voice-routing-policies.md).
@@ -136,7 +136,7 @@ Weitere Informationen finden Sie unter [Verwalten von VoIP-Routing Richtlinien](
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
 2. Klicken Sie zunächst auf **Richtlinien** und dann neben **Zugewiesene Richtlinien** auf **Bearbeiten**.
-3. Wählen Sie unter **VoIP-Routing Richtlinie**die Richtlinie "nur US" aus, und klicken Sie auf **Speichern**.
+3. Wählen Sie unter **VoIP-Routing Richtlinie** die Richtlinie "nur US" aus, und klicken Sie auf **Speichern**.
 
 Weitere Informationen finden Sie unter [Verwalten von VoIP-Routing Richtlinien](manage-voice-routing-policies.md).
 
@@ -342,8 +342,8 @@ Sie können das [Microsoft Teams Admin Center](#admincenterexample2) oder [Power
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung "International"
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten**aus.
-2. Klicken Sie auf **Hinzufügen**, geben Sie **International**ein, und klicken Sie dann auf über **nehmen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann in der oberen rechten Ecke die Option **PSTN-Verwendungsdaten Sätze verwalten** aus.
+2. Klicken Sie auf **Hinzufügen**, geben Sie **International** ein, und klicken Sie dann auf über **nehmen**.
 
 #### <a name="step-2-create-the-international-voice-route"></a>Schritt 2: Erstellen der VoIP-Route "International"
 
@@ -360,7 +360,7 @@ Die PSTN-Nutzung "USA und Kanada" wird in dieser VoIP-Routing Richtlinie wieder 
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Routing Richtlinien**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie **keine Einschränkungen** als Namen ein, und fügen Sie eine Beschreibung hinzu.
-3. Klicken Sie unter **PSTN-Verwendungsdaten Sätze**auf **PSTN-Verwendung hinzufügen**, wählen Sie den PSTN-Verwendungs Eintrag "USA und Kanada" aus, und wählen Sie dann den PSTN-Verwendungs Eintrag "International" aus. Klicken Sie auf **Anwenden**.
+3. Klicken Sie unter **PSTN-Verwendungsdaten Sätze** auf **PSTN-Verwendung hinzufügen**, wählen Sie den PSTN-Verwendungs Eintrag "USA und Kanada" aus, und wählen Sie dann den PSTN-Verwendungs Eintrag "International" aus. Klicken Sie auf **Anwenden**.
 
     Notieren Sie sich die Reihenfolge der PSTN-Nutzungen:
 
@@ -376,7 +376,7 @@ Weitere Informationen finden Sie unter [Verwalten von VoIP-Routing Richtlinien](
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
 2. Klicken Sie zunächst auf **Richtlinien** und dann neben **Zugewiesene Richtlinien** auf **Bearbeiten**.
-3. Wählen Sie unter **VoIP-Routing Richtlinie**die Richtlinie "keine Einschränkungen" aus, und klicken Sie auf **Speichern**.
+3. Wählen Sie unter **VoIP-Routing Richtlinie** die Richtlinie "keine Einschränkungen" aus, und klicken Sie auf **Speichern**.
 
 Das Ergebnis ist, dass die VoIP-Richtlinie, die auf die Anrufe von John Woods angewendet wurde, nicht eingeschränkt ist und der Logik des Anruf Routings für USA, Kanada und Auslandsgespräche folgen wird.
 

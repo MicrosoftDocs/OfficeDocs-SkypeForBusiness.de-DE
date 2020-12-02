@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 1d19483fe458c38d01a9c46c982101eeab6546c2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
+ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49032994"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49530518"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
-Mit automatischen Telefonzentralen können Personen Ihre Organisation anrufen und in einem Menü System navigieren, um mit der richtigen Abteilung, Anrufwarteschlange, Person oder einem Operator zu sprechen. Sie können automatische Telefonzentralen für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen. 
+Mit automatischen Telefonzentralen können Personen Ihre Organisation anrufen und in einem Menü System navigieren, um mit der richtigen Abteilung, Anrufwarteschlange, Person oder einem Operator zu sprechen. Sie können automatische Telefonzentralen für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen.
 
 Stellen Sie sicher, dass Sie den [Plan für automatische Team-Telefonzentralen und-Warteschlangen](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den [Schritten unter erste](plan-auto-attendant-call-queue.md#getting-started) Schritte, bevor Sie die in diesem Artikel beschriebenen Schritte ausführen.
 
@@ -45,7 +45,7 @@ Automatische Telefonzentralen können Anrufe, basierend auf der Eingabe von Anru
 
 Sie werden aufgefordert, eine dieser Optionen in verschiedenen Phasen zu wählen, während Sie eine automatische Telefonzentrale einrichten.
 
-Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin Center die **Sprache** , klicken Sie auf **automatische Telefonzentralen** , und klicken Sie dann auf **Hinzufügen**.
+Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Team Admin Center die **Sprache**, klicken Sie auf **automatische Telefonzentralen**, und klicken Sie dann auf **Hinzufügen**.
 
 ## <a name="general-info"></a>Allgemeine Informationen
 
@@ -91,7 +91,7 @@ Für Wähloptionen können Sie die 0-9-Schlüssel auf der Telefontastatur einem 
 
 Tastenzuordnungen müssen nicht kontinuierlich sein. So können Sie beispielsweise ein Menü mit den Tasten 0, 1 und 3 erstellen, die den Optionen zugeordnet sind, während die Taste 2 nicht verwendet wird.
 
-Wir empfehlen, die 0-Taste dem Operator zuzuordnen, wenn Sie einen konfiguriert haben. Wenn der Operator nicht auf eine beliebige Taste eingestellt ist, ist der Sprachbefehl "Operator" ebenfalls deaktiviert. 
+Wir empfehlen, die 0-Taste dem Operator zuzuordnen, wenn Sie einen konfiguriert haben. Wenn der Operator nicht auf eine beliebige Taste eingestellt ist, ist der Sprachbefehl "Operator" ebenfalls deaktiviert.
 
 Geben Sie für jede Menüoption Folgendes an:
 
@@ -119,7 +119,8 @@ Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müsse
 - TelephoneNumber/Telefonnummer
 - OtherTelephone
 
-Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder *+ \<phone number> Ext \<extension> =* oder *+ \<phone number> x \<extension>*.
+Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder *+ \<phone number> ; Ext \<extension> =* oder *+ \<phone number> ; \<extension> x*.
+Beispiel: Set-MsolUser-userPrincipalName Usern@Domain.com-Telefonnummer "+ 15555555678; ext = 5678".
 
 Sie können die Erweiterung im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Active Directory Admin Center](https://aad.portal.azure.com)einrichten. Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonzentralen und Anrufwarteschlangen verfügbar sind.
 
@@ -189,7 +190,7 @@ Alle automatischen Telefonzentralen müssen über ein zugeordnetes Ressourcenkon
 
 ![Screenshot des Panels "Konto hinzufügen" des Ressourcenkontos](media/auto-attendant-add-resource-account.png)
 
-Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen** , und klicken Sie dann auf **Hinzufügen**.
+Wenn Sie ein Ressourcenkonto hinzufügen möchten, klicken Sie auf **Konto hinzufügen** , und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken Sie auf **Hinzufügen**, und klicken Sie dann auf **Hinzufügen**.
 
 ![Screenshot der Ressourcenkonto Liste mit dem Ressourcenkonto mit zugewiesener Dienstnummer](media/auto-attendant-resource-account-assigned.png)
 
@@ -234,7 +235,6 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 - [Importieren-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [Neu – CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Das Telefonsystem bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
@@ -243,6 +243,6 @@ Sie können auch PowerShell verwenden, um automatische Telefonzentralen zu erste
 
 [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Beispiel für kleine Unternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) 
+[Beispiel für kleine Unternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa)
 
 [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
