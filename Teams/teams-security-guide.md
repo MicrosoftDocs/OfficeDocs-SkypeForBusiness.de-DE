@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Sicherheitsratschläge und Schulungen für IT-Administratoren zu Installation, Konfiguration und Wartung von Microsoft Teams.
+description: Sicherheitsratschläge und Schulungen für IT-Administratoren zur Installation, Konfiguration und Wartung von Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486800"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530972"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams Online wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing S
 
 ## <a name="trustworthy-by-default"></a>Standardmäßig vertrauenswürdig
 
-Die Netzwerkkommunikation in Teams ist standardmäßig verschlüsselt. Da alle Server Zertifikate und OAUTH, TLS, SRTP (Secure Real-Time Transport Protocol) und andere Standardverschlüsselungstechniken einschließlich der 256-Bit-Advanced Encryption Standard-(AES-)Verschlüsselung verwenden müssen, sind alle Teams-Daten im Netzwerk geschützt.
+Die Netzwerkkommunikation in Teams ist standardmäßig verschlüsselt. Da alle Server Zertifikate verwenden müssen und durch die Verwendung von OAUTH-, TLS- oder SRTP (Secure Real-Time Transport Protocol)-Protokollen sind alle Teams-Daten im Netzwerk geschützt.
 
 ## <a name="how-teams-handles-common-security-threats"></a>So geht Teams mit allgemeinen Sicherheitsbedrohungen um
 
@@ -136,11 +136,11 @@ Teams verwendet TLS und MTLS zum Verschlüsseln von Chatnachrichten. Der gesamte
 
 In dieser Tabelle werden die von Teams verwendeten Protokolle zusammengefasst.
 
-***Verschlüsselung des Datenverkehrs***
+***Verschlüsselung des Datenverkehrs** _
 
 |||
 |:-----|:-----|
-|**Datenverkehrstyp**|**Verschlüsselt durch**|
+|_ *Datenverkehrstyp**|**Verschlüsselt durch**|
 |Server-zu-Server|MTLS|
 |Client-zu-Server (z. B. Chat und Anwesenheit)|TLS|
 |Medienflüsse (z. B. Audio- und Videofreigaben von Medien)|TLS|
@@ -305,6 +305,6 @@ Es ist möglich, die Besprechungsoptionen zu ändern, während eine Besprechung 
 
 [Optimieren der Microsoft 365- oder Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementierung: Geteilter VPN Tunnel](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementieren eines geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 [Besprechungsaufzeichnungen in Teams, wo Aufzeichnungen gespeichert werden und wer darauf zugreifen kann](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)

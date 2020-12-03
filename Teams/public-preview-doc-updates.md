@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8e0efa04b67f2818581f710b14850ba9944e3b51
-ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.openlocfilehash: ab48796f877f6af33b8a3c1b2bc5a3cc56e7bd1e
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49373461"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530982"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -34,7 +34,7 @@ Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffen
 
 ## <a name="set-the-update-policy"></a>Festlegen der Updaterichtlinie
 
- Die öffentliche Vorschau ist für jeden Benutzer aktiviert, und die Option zum Aktivieren der öffentlichen Vorschau wird in einer Administratorrichtlinie gesteuert. Updaterichtlinien werden zur Verwaltung der Teams- und Office-Vorschaubenutzer verwendet, die Features von Vorabversionen oder Vorschauen in der Teams-App sehen. Sie können die globale Richtlinie (organisationsweite Standardrichtlinie) verwenden und anpassen bzw. eine oder mehrere benutzerdefinierte Richtlinien für Ihre Benutzer erstellen. Die Richtlinie muss bestimmten Benutzern zugewiesen werden, da sie die globale Richtlinie nicht außer Kraft setzt.
+ Die öffentliche Vorschau ist für jeden Benutzer aktiviert, und die Option zum Aktivieren der öffentlichen Vorschau wird in einer Administratorrichtlinie gesteuert. Updaterichtlinien werden zur Verwaltung der Teams- und Office-Vorschaubenutzer verwendet, die Features von Vorabversionen oder Vorschauen in der Teams-App sehen. Sie können die globale Richtlinie (organisationsweite Standardrichtlinie) verwenden und anpassen, oder eine oder mehrere benutzerdefinierte Richtlinien für Ihre Benutzer erstellen. Die Richtlinie muss bestimmten Benutzern zugewiesen werden, da sie die globale Richtlinie nicht überschreibt.
 
 1. Melden Sie sich beim Admin Center an.
 2. Wählen Sie **Teams**>**Updaterichtlinien** aus.
@@ -43,6 +43,8 @@ Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffen
 
 3. Klicken Sie auf **Hinzufügen**.
 4. Benennen Sie die Updaterichtlinie, fügen Sie eine Beschreibung hinzu, und aktivieren Sie **Vorschaufeatures anzeigen**.
+
+Sie können die Richtlinie auch mit dem `CsTeamsUpdateManagementPolicy`-Cmdlet von PowerShell festlegen.
 
 ## <a name="enable-public-preview"></a>Aktivieren der öffentlichen Vorschau
 
