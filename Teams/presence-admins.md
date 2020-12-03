@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385642"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557949"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -78,6 +78,9 @@ Benutzer konfigurierte Status weisen standardmäßige Ablaufeinstellungen in Tea
 | Nicht stören|1 Tag|
 | Andere|7 Tage|
 |||
+
+> [!NOTE]
+> Ein Benutzer kann auch eine Dauer für seinen Anwesenheitsstatus manuell konfigurieren. So kann sich ein Benutzer beispielsweise so einstellen, dass er bis morgen früh offline angezeigt wird.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Administratoreinstellungen in Teams im Vergleich zu Skype for Business
 

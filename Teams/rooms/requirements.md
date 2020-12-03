@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Informieren Sie sich über die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen, einschließlich der Auswahl des geeigneten Geräts, von Mikrofonen, Lautsprechern, Kameras und Displays.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a77558feb7ffaeb330750c60e0f47e619823726a
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655472"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557959"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -103,6 +103,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 
 |Peripheriegeräte für Microsoft Teams-Räume|Zertifizierte Firmwareversion | Kamera unterstützt die Verwendung von Inhaltskameras|
 |:--- |:--- | :--- |
+|[VC520 pro Kamera + Freisprecheinrichtung](https://www.averusa.com/products/conference-camera/vc520pro) |1004,35|
 |[VB342 + Kamera-Soundleiste](https://www.averusa.com/products/conference-camera/vb342plus) | Soundleiste: 0.0.0000.97|
 |[540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Pro CAM 520 pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |

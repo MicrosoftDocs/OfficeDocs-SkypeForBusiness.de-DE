@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Der Administrator kann erfahren, welche Session Border Controllers (SBCS) für die direkte Weiterleitung zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130446"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561041"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -38,7 +38,7 @@ Microsoft arbeitet mit jedem Kreditor an:
 
 
   > [!NOTE]
-  > Microsoft unterstützt nur das Telefon System, wenn ein zertifiziertes Gerät oder Geräte über direktes Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über direkte Weiterleitung an das Telefon System angeschlossen ist. 
+  > Microsoft unterstützt nur das Telefon System, wenn ein zertifiziertes Gerät oder Geräte über direktes Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über direkte Weiterleitung an das Telefon System angeschlossen ist. Wenn Microsoft feststellt, dass das Problem des direkten Routings eines Kunden beim SBC-Gerät eines Anbieters liegt, muss der Kunde den SBC-Anbieter zur Unterstützung kontaktieren.
 
 Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierten Geräte. (Informationen dazu, welche SBC-Anbieter die lokale Medienoptimierung unterstützen, finden Sie unter [Konfigurieren der lokalen Medienoptimierung für das direkte Routing](direct-routing-media-optimization-configure.md).)
 
