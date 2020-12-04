@@ -1100,7 +1100,7 @@
           items:
             - name: Verwalten der Schichten-App für Ihre Organisation in Teams
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams für das Gesundheitswesen
+    - name: Microsoft Teams für das Gesundheitswesen
       items:
         - name: Erste Schritte mit Microsoft Teams für Healthcare-Organisationen
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
@@ -1132,7 +1132,7 @@
           items:
             - name: Schichten für Teams
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Verwalten der Schicht-App
+            - name: Verwalten der Shifts-App
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Microsoft Teams für Bildungseinrichtungen
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1236,17 +1236,13 @@
         - name: Verhinderung von Datenverlust
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
-          items:
-            - name: Durchführen einer eDiscovery-Untersuchung von Inhalt
-              href: ediscovery-investigation.md
-            - name: Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams
-              href: legal-hold.md
+          href: ediscovery-investigation.md
+        - name: Aufbewahrungspflicht
+          href: legal-hold.md
         - name: Inhaltssuche
-          items:
-            - name: Verwenden der Inhaltssuche
-              href: content-search.md
-            - name: Suchen nach Überwachungsprotokoll für Ereignisse
-              href: audit-log-events.md
+          href: content-search.md
+        - name: Überwachung
+          href: audit-log-events.md
     - name: Datenschutz
       items:
         - name: Datenschutz und Microsoft Teams
