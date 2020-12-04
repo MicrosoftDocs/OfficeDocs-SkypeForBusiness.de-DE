@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie vorgehen müssen, wenn Sie eDiscovery ausfüh
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814111"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570824"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -65,13 +65,15 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 
 Das Bild zeigt ein Beispiel für die Metadaten.
 
-![Das Bild ist der CVR Records-Besprechungs Metadaten.](media/conversationOption3.png)
+> [!div class="mx-imgBorder"]
+> ![Das Bild ist der CVR Records-Besprechungs Metadaten.](media/conversationOption3.png)
 
 Im folgenden finden Sie ein Beispiel für Chat Unterhaltungen zwischen Teilnehmern während der Besprechung.
 
-![Das Bild ist eine Konversation zwischen Teilnehmern.](media/MeetingIMConversations.png)
+![Konversation zwischen Teilnehmern in Teams.](media/MeetingIMConversations.png)
 
-![Das Bild ist eine Konversation zwischen Teilnehmern.](media/MeetingImConversation2.png)
+> [!div class="mx-imgBorder"]
+> ![Unterhaltung zwischen Teilnehmern in eDiscovery-Suchergebnissen](media/MeetingImConversation2.png)
 
 Wenn Sie eine eDiscovery-Untersuchung mit Microsoft Teams-Inhalten durchführen möchten, lesen Sie Schritt 1 unter [Erste Schritte mit der zentralen eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
@@ -95,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um Dateien und Nachrichten in einem priv
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>Einbeziehen privater Kanaldateien in eine eDiscovery-Suche
 
-Bevor Sie diese Schritte ausführen, installieren Sie die [SharePoint Online-Verwaltungsshell, und stellen Sie eine Verbindung mit SharePoint Online her](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Bevor Sie diese Schritte ausführen, installieren Sie die [SharePoint Online-Verwaltungsshell, und stellen Sie eine Verbindung mit SharePoint Online her](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 1. Führen Sie die folgenden Schritte aus, um eine Liste aller SharePoint-Websitesammlungen abzurufen, die privaten Kanälen im Team zugeordnet sind.
 
@@ -179,13 +181,14 @@ Ein normaler Überprüfungs Satz ähnelt einem Export; Sie stellt die einzelnen 
 
 Eine Konversations Überprüfungsgruppe bietet eine intuitivere Threadansicht der Unterhaltungen. Verwandte Nachrichten werden in der richtigen Reihenfolge zusammen angezeigt.
 
-![Screenshot der Konversations Überprüfungsgruppe](media/conversationOptions2.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot der Konversations Überprüfungsgruppe](media/conversationOptions2.png)
 
 Funktionen wie "Bearbeiten" stehen in beiden Arten von Überprüfungs Sätzen zur Verfügung. Weitere Informationen zu Überprüfungs Sätzen finden Sie unter [Überprüfen von Unterhaltungen in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Sammlungsoptionen
 
-Wenn Sie zu einem Überprüfungs Satz hinzugefügt werden, stehen verschiedene Optionen als Kontrollkästchen unter dem Abschnitt **Sammlungsoptionen** des Fensters zur Verfügung, einschließlich **Konversations Abrufoptionen** und **Teams-Konversationen**. Wenn Sie diese Optionen aktivieren, werden alle einzelnen Teams-Nachrichten, die Teil des Überprüfungs Satzes sind, auch mit zusätzlichen Nachrichten angezeigt, die Sie für den Kontext umgeben. Wenn Ihre Abfrage beispielsweise sehr spezifisch ist und nur eine Nachricht als Ergebnis zurückgegeben wird, gibt die Aktivierung dieser Optionen auch mehrere Nachrichten zurück, die zur und nach der Nachricht führen, die mit der Abfrage übereinstimmte.
+Wenn Sie zu einem Überprüfungs Satz hinzugefügt werden, stehen verschiedene Optionen als Kontrollkästchen unter dem Abschnitt **Sammlungsoptionen** des Fensters zur Verfügung, einschließlich **Konversations Abrufoptionen** und **Teams-Konversationen**. Wenn Sie diese Optionen aktivieren, werden alle einzelnen Teams-Nachrichten, die Teil des Überprüfungs Satzes sind, auch mit zusätzlichen Nachrichten angezeigt, die Sie für den Kontext umgeben. Wenn Ihre Abfrage beispielsweise spezifisch ist und nur eine Nachricht als Ergebnis zurückgegeben wird, gibt die Aktivierung dieser Optionen auch mehrere Nachrichten zurück, die zur und nach der Nachricht führen, die mit der Abfrage übereinstimmte.
 
 Viele logische Kriterien werden verwendet, um zu ermitteln, ob zusätzliche Nachrichten Kontext für Nachrichten bereitstellen, die Ihrer Abfrage entsprechen. Für Teams-Inhalte können Sie beispielsweisedurch Aktivieren dieser Optionen die übergeordnete Nachricht und alle untergeordneten Nachrichten abrufen, weil die Nachrichten mit einem Thread versendet werden.
 
@@ -205,7 +208,7 @@ Wenn Sie auf Visualisierungen und Diagramme Ihrer Daten zugreifen möchten **Ind
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Zusammenfassungsansicht, Textansicht und Beschriftungsansicht
 
-Wenn Sie im Überprüfungs Satz auf eine Teams-Unterhaltung klicken, wird die **Zusammenfassungsansicht**angezeigt, in der eine ganze Teams-Konversation als Liste von Nachrichten angezeigt wird, mit denen Sie einzeln interagieren können. Klicken Sie auf den Abwärtspfeil rechts neben einer Nachricht, um ein Kontextmenü anzuzeigen, das es Ihnen ermöglicht, Nachrichtendetails anzuzeigen oder die einzelne Datei herunterzuladen `.msg` . Wenn Sie auf Nachrichtendetails klicken, wird eine Zusammenfassung der Metadaten oder der vollständigen Metadaten der Nachricht angezeigt.
+Wenn Sie im Überprüfungs Satz auf eine Teams-Unterhaltung klicken, wird die **Zusammenfassungsansicht** angezeigt, in der eine ganze Teams-Konversation als Liste von Nachrichten angezeigt wird, mit denen Sie einzeln interagieren können. Klicken Sie auf den Abwärtspfeil rechts neben einer Nachricht, um ein Kontextmenü anzuzeigen, das es Ihnen ermöglicht, Nachrichtendetails anzuzeigen oder die einzelne Datei herunterzuladen `.msg` . Wenn Sie auf Nachrichtendetails klicken, wird eine Zusammenfassung der Metadaten oder der vollständigen Metadaten der Nachricht angezeigt.
 
 Wenn Sie eine PDF-Datei herunterladen möchten, klicken Sie oben rechts in der Zusammenfassungsansicht auf die Schaltfläche herunterladen.
 
@@ -215,7 +218,8 @@ Klicken Sie auf die Registerkarte **Ansicht kommentieren** , um auf die Anmerkun
 
 Im folgenden finden Sie ein Beispiel für eine Datei, die für eine Multithread-Konversation zwischen Benutzern fungiert.
 
-![Screenshot von "redigierte Datei"](media/RedactedFileExample.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot von "redigierte Datei"](media/RedactedFileExample.png)
 
 Am unteren Rand der Registerkarte " **Ansicht kommentieren** " befindet sich die Schaltfläche " **Dokumente markieren** ", auf der der Bereich "Tagging" angezeigt wird. In diesem Bereich können Sie eine Kategorie auf alle Nachrichten innerhalb der Teams-Unterhaltung anwenden. Sie können eine Unterhaltung als "reaktionsfähig" oder "nicht reagierend", "privilegiert" oder "nicht privilegiert" kennzeichnen, unabhängig davon, ob Sie "interessante Elemente" enthält, ob Sie im Export enthalten sein sollte und ob Sie weitere Überprüfung benötigen. Sie können auch andere anpassbare Tags verwalten und anwenden.
 
