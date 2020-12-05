@@ -1,13 +1,13 @@
 ---
-title: Voraussetzungen für Microsoft Teams | Upgrade der Abhängigkeiten
-author: lanachin
-ms.author: v-lanac
+title: Voraussetzungen und Umgebungs Abhängigkeiten für das Upgrade auf Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Verwenden Sie diese Anleitung, um mehr über die Voraussetzungen und die Umgebungs Abhängigkeiten für die Bereitstellung von Teams in Ihrer Organisation zu erfahren.
+description: Verwenden Sie diese Anleitung, um sich über die Voraussetzungen und die Umgebungs Abhängigkeiten für die Bereitstellung von Teams in Ihrer Organisation zu informieren.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: bcd3de45954ea500a6be0d325370ab0660604a65
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158733"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578278"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Voraussetzungen und Umgebungs Abhängigkeiten für Teams
 

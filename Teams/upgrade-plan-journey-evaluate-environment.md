@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams-Upgrade | Umgebungs Bewertung, Ermittlungs Fragen
-author: lanachin
-ms.author: v-lanac
+title: Auswerten Ihrer Umgebung vor dem Upgrade auf Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Verwenden Sie diese Anleitung, um sich über die Anforderungen für eine ordnungsgemäße Bewertung Ihrer aktuellen Umgebung für ein Upgrade auf Teams zu informieren.
+description: Informieren Sie sich über die Voraussetzungen für eine ordnungsgemäße Bewertung Ihrer aktuellen Umgebung für ein Upgrade auf Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 799d348f05c8fece6684d01768934faedcb7603f
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: c783934128e2c1d3f971948c41e3481839ff0aa1
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158743"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578238"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Auswerten Ihrer Umgebung vor dem Upgrade auf Teams
 

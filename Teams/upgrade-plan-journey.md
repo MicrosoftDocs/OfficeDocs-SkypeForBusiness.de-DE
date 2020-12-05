@@ -1,13 +1,13 @@
 ---
-title: Planen des Upgrades von Skype for Business für Microsoft Teams | Adoptions Framework
-author: lanachin
-ms.author: v-lanac
+title: Planen des Upgrades für Ihr Skype for Business für Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Hier erfahren Sie, wie Sie das Upgrade planen, indem Sie die Projekt beteiligten zuerst anordnen und dann das Projekt definieren.
+description: Informieren Sie sich, wie Sie das Upgrade planen, indem Sie die Teilnehmer in die Liste einbeziehen und dann das Projekt definieren.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868452"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578438"
 ---
 # <a name="plan-for-your-upgrade"></a>Planen des Upgrades
 

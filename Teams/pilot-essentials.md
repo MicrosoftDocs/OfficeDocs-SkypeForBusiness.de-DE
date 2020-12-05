@@ -1,7 +1,7 @@
 ---
-title: Pilot Microsoft Teams mit Skype for Business | Bereitstellen, Implementierung durchführen
-author: lanachin
-ms.author: v-lanac
+title: Führen Sie einen Benutzer Pilot aus, um zu evaluieren und zu testen, wie Microsoft Teams in Ihrer Organisation funktionieren wird.
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f74b3d59c226c3445fb317c22c29c67682d8107
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522688"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578318"
 ---
 # <a name="conduct-a-user-pilot"></a>Durchführen eines Benutzerpilotprojekts
 
@@ -106,7 +106,7 @@ Nachdem ihr Pilotprojekt abgeschlossen ist, ist es an der Zeit, alle Feedback Um
 
 Wenn Ihre Ergebnisse Folgendes angeben:
 
-- **Ihre Pilot Ziele (beispielsweise die Benutzerzufriedenheit und die Netzwerkqualität) erreicht**wurden, sollten Sie bereit sein, mit der nächsten Phase des Rollouts fortzufahren. Je nach den Zielen Ihres Projekts kann dies eine der folgenden Folgen haben:
+- **Ihre Pilot Ziele (beispielsweise die Benutzerzufriedenheit und die Netzwerkqualität) erreicht** wurden, sollten Sie bereit sein, mit der nächsten Phase des Rollouts fortzufahren. Je nach den Zielen Ihres Projekts kann dies eine der folgenden Folgen haben:
   - Erweitern des Pilotprojekts auf weitere Teilnehmer
   - [Aktivieren von Teams neben Skype for Business (**Inseln** -Modus) für einige oder alle Ihrer Organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
   - [Aktualisieren von Benutzern von Skype for Business auf Teams (nur im Modus "**nur für Teams** ") für einige oder alle Ihrer Organisation](https://aka.ms/SkypeToTeams-SetCoexistence)

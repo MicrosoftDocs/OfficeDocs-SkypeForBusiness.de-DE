@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten der Umgebung für ein Upgrade auf Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: cb736a0398d1ab77ed67919f02a80400bd2ae19e
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666047"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578248"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Vorbereiten der Umgebung für ein Upgrade auf Teams
 

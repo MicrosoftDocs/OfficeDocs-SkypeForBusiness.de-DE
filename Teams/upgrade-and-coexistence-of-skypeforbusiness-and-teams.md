@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams-Upgrade von Skype for Business | Modi, Koexistenz
-author: lanachin
-ms.author: v-lanac
+title: Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Microsoft Teams aus.
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
-description: Details zu den Optionen und Modi von Skype for Business und Microsoft Teams für Koexistenz sowie zum Upgrade von Reisen zu Teams von Skype for Business mit Beispielszenarien.
+description: Details zu den Koexistenz-Optionen für Skype for Business und Microsoft Teams sowie zu möglichen Upgrade-Reisen in Teams mit Beispielszenarien.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 23a71a075730f1447259d6e3a4a3dd21f650bfd7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940415"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578158"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Teams aus.
 

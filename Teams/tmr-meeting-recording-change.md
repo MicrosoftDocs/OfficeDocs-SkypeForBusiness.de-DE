@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477044"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578508"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -99,7 +99,7 @@ Die Option "Besprechungsaufzeichnung" ist eine Einstellung auf der Richtlinieneb
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > Wenn einige Ihrer Benutzer eine Richtlinie pro Organisator oder pro Benutzer zugewiesen haben, müssen Sie diese Einstellung für diese Richtlinie festlegen, wenn Sie möchten, dass Sie auch die Besprechungsaufzeichnungen in OneDrive for Business und SharePoint speichern. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md).
 
@@ -153,7 +153,7 @@ Da Videos genauso wie jede andere Datei in OneDrive for Business und SharePoint 
 
 **Wie kann ich Protokolle verwalten?**
 
-Kunden, die sich für diese Vorschau entscheiden, stehen in ihren Teams-Besprechungsaufzeichnungen, die zu OneDrive for Business und SharePoint migriert werden, keine Untertitel zur Verfügung.Wir arbeiten daran, Beschriftungen hinzuzufügen, beginnend mit Untertiteln in Englisch, bis zu Besprechungsaufzeichnungen im Oktober 2020.
+Kunden, die sich für diese Vorschau entscheiden, stehen in ihren Teams-Besprechungsaufzeichnungen, die zu OneDrive for Business und SharePoint migriert werden, keine Untertitel zur Verfügung.Wir arbeiten daran, Beschriftungen, beginnend mit Untertiteln in englischer Sprache, zu Besprechungsaufzeichnungen in Q4 CY2020 hinzuzufügen.
 
 In Teams-Besprechungsaufzeichnungen stehen Untertitel für Kunden zur Verfügung, die sich für das Zulassen von Abschriften entschieden haben, wie in [Teams Cloud-Aufzeichnungen](cloud-recording.md) beschrieben
 
@@ -180,3 +180,7 @@ Stream als Plattform wird in naher Zukunft nicht mehr als veraltet markiert. Die
 **Wie kann ich eine Aufbewahrungs Bezeichnung anwenden?**
 
 Hier erfahren Sie [, wie Sie eine Aufbewahrungs Beschriftung automatisch anwenden](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+**Wie weisen ich meinen Benutzern in Microsoft Teams Richtlinien zu und welche Richtlinien haben Vorrang?**
+
+Sehen Sie [, welche Richtlinie Vorrang hat?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).

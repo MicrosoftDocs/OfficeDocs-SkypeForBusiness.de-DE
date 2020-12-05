@@ -1,7 +1,7 @@
 ---
-title: Vorbereiten des Microsoft Teams-Upgrades |  Checkliste für Onboarding-Rollout
-author: lanachin
-ms.author: v-lanac
+title: Vorbereiten des Diensts für ein Upgrade auf Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: e02b210de118c9eb2a984ed0790fd5e127ba47e9
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158683"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578378"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Vorbereiten Ihres Diensts für das Upgrade auf Teams
 

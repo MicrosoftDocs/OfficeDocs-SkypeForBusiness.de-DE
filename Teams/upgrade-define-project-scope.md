@@ -1,7 +1,7 @@
 ---
-title: Projektumfang bei der Einführung von Skype for Business zu Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Definieren des Projektumfangs für Ihr Skype for Business für Microsoft Teams-Upgrade
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da75154f78739ab1a1044b101235ccc678ca1eed
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 50d6b3a1c88e50875b4b3c752205f6711d275d37
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522538"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578348"
 ---
 # <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 

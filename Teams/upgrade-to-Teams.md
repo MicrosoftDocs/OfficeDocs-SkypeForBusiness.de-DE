@@ -1,7 +1,7 @@
 ---
-title: Upgrade auf Microsoft Teams | Roadmap für Skype for Business Teams
-author: CarolynRowe
-ms.author: crowe
+title: Übersicht über die Implementierung des Upgrades für Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a0e8ca9356704d471320e4474f48270375aea2d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868492"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578358"
 ---
-# <a name="overview"></a>Übersicht
+# <a name="overview-of-implementing-your-upgrade"></a>Übersicht über die Implementierung des Upgrades
 
 ![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt](media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 
@@ -57,7 +57,7 @@ Wählen Sie basierend auf Ihrer aktuellen Umgebung ihren Ausgangspunkt aus:
 
 - **Wenn Sie von Skype for Business Online auf Teams aktualisieren**, führen Sie die Schritte unter [Upgrade von Skype for Business Online auf Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)aus.
 
--  **Wenn Sie ein Upgrade von einer lokalen Skype for Business-Umgebung**durchführen, müssen Sie einige zusätzliche Schritte ausführen, um die Konnektivität zwischen Ihren lokalen und Online Umgebungen einzurichten, bevor Sie Ihre Benutzer in Teams verschieben. Weitere Informationen finden Sie unter [Upgrade von Skype for Business lokal in Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
+-  **Wenn Sie ein Upgrade von einer lokalen Skype for Business-Umgebung** durchführen, müssen Sie einige zusätzliche Schritte ausführen, um die Konnektivität zwischen Ihren lokalen und Online Umgebungen einzurichten, bevor Sie Ihre Benutzer in Teams verschieben. Weitere Informationen finden Sie unter [Upgrade von Skype for Business lokal in Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
 
 
 

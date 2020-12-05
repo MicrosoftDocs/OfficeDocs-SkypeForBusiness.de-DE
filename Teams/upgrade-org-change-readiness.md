@@ -1,13 +1,13 @@
 ---
-title: Skype for Business für Microsoft Teams | Aktualisieren der Benutzer Änderungsbereitschaft
-author: lanachin
-ms.author: v-lanac
+title: Bewerten der organisatorischen Änderungsbereitschaft für Ihr Skype for Business für Teams-Upgrade
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Hier erfahren Sie, wie Sie die Bereitschaft Ihrer Organisation zur erfolgreichen Umstellung auf die Microsoft Teams-Umgebung beurteilen können.
+description: Hier erfahren Sie, wie Sie die Bereitschaft Ihrer Organisation für einen erfolgreichen Übergang zu Microsoft Teams bewerten können.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39690deaf7561aedf6192217c66e67c3cd6c5e99
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: b422fc9542f989cd335bfb3064fbdecb7f59bfe7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523128"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578288"
 ---
 # <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
 

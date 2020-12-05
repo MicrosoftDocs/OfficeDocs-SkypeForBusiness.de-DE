@@ -1,7 +1,7 @@
 ---
-title: Info zum Upgrade-Framework
-author: lanachin
-ms.author: v-lanac
+title: Informationen zum Upgrade-Framework – Skype for Business für Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: a4e94b5ef774f0fccaa6bb84d78d2018c1d31e34
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158653"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578518"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 

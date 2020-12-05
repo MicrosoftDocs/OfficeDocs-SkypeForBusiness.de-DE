@@ -1,13 +1,13 @@
 ---
 title: Interoperabilität zwischen Skype for Business und Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Details zu den Koexistenz-Optionen von Skype for Business und Microsoft Teams und zur Interoperabilität zwischen Skype for Business und Teams.
+description: Details zu den Koexistenz-Optionen für Skype for Business und Microsoft Teams sowie die resultierende Interoperabilität zwischen Skype for Business und Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff315ba578d74939e533912f696da6b6eb7abf34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515892"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578498"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 
@@ -117,7 +117,7 @@ Interoperabilität ist die Möglichkeit für Teams und Skype for Business-Benutz
 Die Interoperabilität unterliegt dem Koexistenzmodus (auch bekannt als Aktualisierungsmodus) des Empfängers. Es gibt keine Interoperabilität, wenn sich der Receiver im **Inseln** -Modus befindet.
 
 > [!Note]
-> Wenn Sie in einem Koexistenzmodus mit Ausnahme von **Inseln**bereitgestellt werden, können Teams und Skype for Business zusammen [arbeiten](#interoperability-of-teams-and-skype-for-business), sodass die Benutzer mit anderen Personen chatten und sich gegenseitig anrufen können, und sicherstellen, dass die Kommunikation während der Upgrade-Reise zu Teams in ihrer gesamten Organisation flüssig bleibt. Koexistenzmodus steuert die Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob die Interoperabilität verfügbar ist. Wenn sich der Empfänger beispielsweise in einem Modus befindet, in dem Chat nur in einem Client verfügbar ist (sagen wir, Teams), ist Chat-Interoperabilität in der Regel verfügbar, falls der Initiator den anderen Client (in diesem Fall Skype for Business) verwendet, um den Chat zu starten. Wenn sich der Receiver hingegen in dem Modus befindet, in dem Chat in beiden Clients verfügbar ist (Inseln-Modus), steht die Interoperabilität für den Chat nicht zur Verfügung. Die Nachricht wird vom Empfänger in dem gleichen Client empfangen, in dem der Initiator den Chat gestartet hat. Daher erfordert die ordnungsgemäße Kommunikation im Modus " **Inseln** " eine Sättigung der Teams. Das bedeutet, dass alle Benutzer beide Clients aktiv verwenden und überwachen.
+> Wenn Sie in einem Koexistenzmodus mit Ausnahme von **Inseln** bereitgestellt werden, können Teams und Skype for Business zusammen [arbeiten](#interoperability-of-teams-and-skype-for-business), sodass die Benutzer mit anderen Personen chatten und sich gegenseitig anrufen können, und sicherstellen, dass die Kommunikation während der Upgrade-Reise zu Teams in ihrer gesamten Organisation flüssig bleibt. Koexistenzmodus steuert die Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob die Interoperabilität verfügbar ist. Wenn sich der Empfänger beispielsweise in einem Modus befindet, in dem Chat nur in einem Client verfügbar ist (sagen wir, Teams), ist Chat-Interoperabilität in der Regel verfügbar, falls der Initiator den anderen Client (in diesem Fall Skype for Business) verwendet, um den Chat zu starten. Wenn sich der Receiver hingegen in dem Modus befindet, in dem Chat in beiden Clients verfügbar ist (Inseln-Modus), steht die Interoperabilität für den Chat nicht zur Verfügung. Die Nachricht wird vom Empfänger in dem gleichen Client empfangen, in dem der Initiator den Chat gestartet hat. Daher erfordert die ordnungsgemäße Kommunikation im Modus " **Inseln** " eine Sättigung der Teams. Das bedeutet, dass alle Benutzer beide Clients aktiv verwenden und überwachen.
 
 > [!Note]
 > **Damit die neueste Koexistenz-Funktionalität zur Verfügung steht, muss die Client Version der neueste verfügbare Client im Office-Bereitstellungs Kanal des Benutzers sein.**
@@ -144,7 +144,7 @@ Skype for Business-Benutzer können Einzel-sprach-und Videoanrufe an Teams-Nutze
 > [!Important]
 > Interoperabilitäts Erfahrungen mit einer lokalen Bereitstellung von Skype for Business setzen voraus, dass sich die lokale Umgebung im Hybrid Modus mit Microsoft 365 oder Office 365 Skype for Business befindet. Ausführliche Informationen finden Sie unter [Leitfaden zur Migration und Interoperabilität](https://aka.ms/SkypeToTeams-Interop).
 
-Diese Interoperabilitätsfunktionen stehen für und zwischen Benutzern zur Verfügung, denen einer der folgenden Koexistenzmodus zugewiesen ist: **Skype for Business mit Teamzusammenarbeit**, **Skype for Business mit Teamzusammenarbeit und Besprechungen**, **nur Skype for Business**oder nur **Teams**. Im Modus " **Inseln** " gibt es keine Interoperabilität für Benutzer.
+Diese Interoperabilitätsfunktionen stehen für und zwischen Benutzern zur Verfügung, denen einer der folgenden Koexistenzmodus zugewiesen ist: **Skype for Business mit Teamzusammenarbeit**, **Skype for Business mit Teamzusammenarbeit und Besprechungen**, **nur Skype for Business** oder nur **Teams**. Im Modus " **Inseln** " gibt es keine Interoperabilität für Benutzer.
 
 ### <a name="native-interop-experience-limitations"></a>Einschränkungen der systemeigenen Interop-Umgebung
 
