@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: Verwalten von VoIP-Routingrichtlinien
               href: manage-voice-routing-policies.md
+            - name: Direkte Weiterleitung Survivable Branch Appliance
+              href: direct-routing-survivable-branch-appliance.md
     - name: Telefonnummern
       items:
         - name: Verwalten von Telefonnummern für Ihre Organisation
