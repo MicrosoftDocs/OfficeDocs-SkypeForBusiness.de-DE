@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cab89e7d3e1c2956c79a4013edd254167c990f9b
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526392"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588308"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Zielgruppen Adressierungs Hierarchie
 
@@ -51,7 +51,7 @@ Sie können auch Buckets definieren, wobei es sich um Kategorien handelt, die vo
 
 ### <a name="add-required-columns"></a>Hinzufügen von erforderlichen Spalten
 
-Die CSV-Datei muss die folgenden drei Spalten in der folgenden Reihenfolge enthalten, beginnend bei der ersten Spalte. Ein Knoten muss mit einem Team verknüpft sein, damit er Aufgaben empfängt. Während der privaten Vorschau unterstützen wir 500-Knoten. Wir erwarten, dass beim Start standardmäßig mindestens 2.000-Knoten unterstützt werden. Wir planen, mit Kunden zusammenzuarbeiten, um diese Grenze für größere Organisationen zu erhöhen.
+Die CSV-Datei muss die folgenden drei Spalten in der folgenden Reihenfolge enthalten, beginnend bei der ersten Spalte. Ein Knoten muss mit einem Team verknüpft sein, damit er Aufgaben empfängt. Während der privaten Vorschau unterstützen wir 2.000-Knoten. Wir erwarten, dass beim Start standardmäßig mindestens 15.000-Knoten unterstützt werden. Wir planen, mit Kunden zusammenzuarbeiten, um diese Grenze für größere Organisationen zu erhöhen.
 
 | Spaltenname   | Erforderlich | Beschreibung   |
 ----------------|----------|---------------|

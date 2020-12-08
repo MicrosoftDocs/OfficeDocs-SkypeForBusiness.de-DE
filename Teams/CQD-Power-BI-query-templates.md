@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Sie Power BI zum Analysieren von CQD-Daten für Microsoft Teams.
-ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085569"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588328"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams
 
@@ -35,7 +35,7 @@ Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffs Rolle](turning-on-
 
 |  |  |
 |---------|---------|
-|<strong>(Neu!)</strong> CQD Teams automatische Telefonzentrale & Anrufwarteschlange-Verlaufsbericht. PBit     |  Diese Vorlage enthält die folgenden drei Berichte:</p><li>Automatische Telefonzentrale – zeigt Analysen für Anrufe an, die in Ihre automatischen Telefonzentralen kommen.</li><li>Anrufwarteschlange – zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschlangen kommen.</li><li>Agent-Zeitachse – zeigt eine Zeitachsenansicht von Agents an, die in Anruf Warteschlangen anrufen aktiv sind.</li><br>Weitere Informationen finden Sie unter [Verwenden des CQD Power BI-Berichts zum Anzeigen der automatischen Telefonzentrale & Verlaufsbericht zur Anrufwarteschlange](CQD-teams-aa-cq-historical-report.md).        |
+|<strong>(Neu!)</strong> CQD Teams automatische Telefonzentrale & Anrufwarteschlange-Verlaufsbericht. PBit     |  Diese Vorlage enthält die folgenden drei Berichte:</p><li>Automatische Telefonzentrale – zeigt Analysen für Anrufe an, die in Ihre automatischen Telefonzentralen kommen.</li><li>Anrufwarteschlange – zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschlangen kommen.</li><li>Agent-Zeitachse – zeigt eine Zeitachsenansicht von Agents an, die in Anruf Warteschlangen anrufen aktiv sind.</li><br>Weitere Informationen finden Sie unter [automatische Telefonzentrale & Anrufwarteschlangen-Verlaufsbericht](aa-cq-cqd-historical-reports.md).        |
 |CQD Helpdesk-Bericht. PBit     |Durch die Integration von Gebäude-und EUII-Daten ist dieser Bericht dazu vorgesehen, Ihnen den Einstieg in einen einzelnen Benutzer zu ermöglichen, um die Upstream-Ursache für die schlechte Anrufqualität für diesen Benutzer zu finden (beispielsweise befindet sich der Benutzer in einem Gebäude, in dem Netzwerkprobleme auftreten).         |
 |CQD Location Enhanced Report. PBit     | Re-Imaginary CQD SPD-Standortberichte. Umfasst 9 Berichte, die Anrufqualität, WLAN-Nutzung, Zuverlässigkeit und die Bewertung meiner Anrufinformationen (RMA) mit zusätzlichen Drill-thrus durch Gebäude oder Nutzer.  Stellen Sie sicher, dass Sie die Gebäudedaten hochgeladen haben, um Ihre Berichterstellung zu maximieren.        |
 |CQD Mobile Device Report. PBit     | Bietet Einblicke, die speziell auf Nutzer von mobilen Geräten abgestimmt sind, einschließlich Anrufqualität, Zuverlässigkeit und Bewertung meines Anrufs. Sehen Sie sich das Mobilfunknetz, das WLAN-Netzwerk und die Berichte für mobile Betriebssysteme an (Android, IOS).        |

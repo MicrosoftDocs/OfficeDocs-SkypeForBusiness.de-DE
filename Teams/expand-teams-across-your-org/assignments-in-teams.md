@@ -21,30 +21,31 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a0bf0dd0141679dc89ed1d5ecc0cfc542854c8
-ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
+ms.openlocfilehash: 64be355da30feb3c629569f583897353c21cfa37
+ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561051"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586618"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
-Aufgaben sind Aufgaben oder Arbeitseinheiten, die einem Kursteilnehmer oder Teammitglied in einer Klasse im Rahmen ihrer Studie zugewiesen sind. Sie können Aufgaben in Ihrer Team Klasse erstellen.
+Mit den Funktionen "Aufgaben" und "Noten" in "Teams für Bildung" können Pädagogen ihren Schülern Aufgaben, Arbeit oder Quizaufgaben zuweisen. Pädagogen können Zuordnungs Zeitpläne, Anweisungen, Hinzufügen von Ressourcen zum umwandeln, benoten mit Rubriken und vieles mehr verwalten. Sie können auch Kurs-und einzelne Kursteilnehmerstatus auf der Registerkarte "Noten" nachverfolgen.
 
-[Weitere Informationen zu Aufgaben](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
+[Weitere Informationen zu Aufgaben und Noten in Teams für Bildung](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
 > Details zu Teams-Aufgaben auf verschiedenen Plattformen finden Sie unter [Teams-Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Aufgaben im Microsoft Teams Admin Center
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Aufgaben Integrationen im Microsoft Teams Admin Center
 
-Mit den Administratoreinstellungen im Microsoft Teams Admin Center können Sie die folgenden Features aktivieren oder deaktivieren, damit Sie für Schüler und Lehrer in Ihrer Organisation zur Verfügung stehen. Die folgenden Einstellungen beziehen sich auf Aufgaben:
+Mithilfe der Administratoreinstellungen im Microsoft Teams Admin Center können Sie Features für Pädagogen in Ihrer Organisation und deren Schüler aktivieren oder deaktivieren. Die folgenden Einstellungen beziehen sich auf Aufgaben:
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Wöchentlicher Guardian-e-Mail-Digest
 
-Die e-Mail-Nachrichten enthalten Informationen zu den Aufgaben aus der vorherigen Woche und für die kommende Woche und werden über das Wochenende verschickt. Informationen zu den e-Mail-Inhalten finden Sie hier. Die e-Mail-Nachrichten müssen von den Administratoren mithilfe von [School Data Sync (SDS)](https://docs.microsoft.com/schooldatasync/)eingerichtet und aktualisiert werden. Dieses Feature füllt automatisch Kurse für Teams mit Studenten Verzeichnissen aus dem Student Information System (SIS) der Schule. Die Schritte zum Aktivieren dieser Funktion sind:
+
+Guardian-e-Mails werden an alle Wochenenden an Eltern oder Erziehungsberechtigte gesendet. Die e-Mail enthält Informationen zu Aufgaben aus der vorherigen Woche und für die kommende Woche. Die übergeordnete und Guardian-Synchronisierung kann mithilfe von [School Data Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync)eingerichtet werden.
 
 1. Importieren Sie über Eltern-und Guardian-Synchronisierung in SDS die übergeordneten Kontaktinformationen. Anweisungen zum Aktivieren der Synchronisierung von Eltern und Guardian finden Sie unter [Aktivieren der übergeordneten und Guardian-Synchronisierung](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
@@ -61,7 +62,7 @@ Um zu überprüfen, ob Eltern die e-Mail erhalten, müssen die folgenden drei El
 
  - Die e-Mails enthalten Informationen zu Aufgaben, die ein Fälligkeitsdatum in der vorherigen Woche oder in der nächsten Woche hatten.
 
-Diese Einstellung ist standardmäßig deaktiviert.
+Die Standardeinstellung für dieses Feature ist- **aus**.
 
 
 <a name="bkmakecode"> </a>
@@ -70,7 +71,9 @@ Microsoft MakeCode ist eine blockbasierte Codierungs Plattform, die die Computer
 
 MakeCode ist ein Microsoft-Produkt, das den Microsoft- [Nutzungsbedingungen](https://go.microsoft.com/fwlink/?LinkID=206977) und den [Datenschutz](https://go.microsoft.com/fwlink/?LinkId=521839) Richtlinien unterliegt.
 
-Diese Einstellung ist standardmäßig deaktiviert. Navigieren Sie zum Aktivieren von MakeCode-Aufgaben in Teams im **Team Admin Center** zum Abschnitt **Aufgaben** , und aktivieren Sie die Option MakeCode-Umschaltfläche **auf ein**. Klicken Sie auf **Speichern** , und warten Sie einige Stunden, bis diese Einstellungen wirksam werden.
+Die Standardeinstellung für dieses Feature ist- **aus**.
+
+Zum Aktivieren von MakeCode-Aufgaben in Teams wechseln Sie zum **Team Admin Center**, navigieren Sie zum Abschnitt **Aufgaben** , und aktivieren Sie die Option MakeCode-Umschaltfläche **auf ein**. Klicken Sie auf **Speichern**. Lassen Sie einige Stunden dauern, bis diese Einstellungen wirksam werden.
 
 Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [Video Demonstration](https://makecode.com/blog/teams/teams-assignments).
 
@@ -79,11 +82,11 @@ Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [V
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-Turnitin ist ein Plagiat-Erkennungsdienst. Hierbei handelt es sich um ein Produkt oder einen Dienst eines Drittanbieters, der seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
+[Turnitin](https://www.turnitin.com/) ist ein akademischer Integritätsdienst. Hierbei handelt es sich um ein Produkt oder einen Dienst eines Drittanbieters, der seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
 
-Diese Einstellung ist standardmäßig deaktiviert.
+Die Standardeinstellung für dieses Feature ist- **aus**.
 
-Damit Sie Turnitin für Ihre Organisation erfolgreich aktivieren können, müssen Sie bereits über ein Turnitin-Abonnement verfügen. Sie müssen die folgenden zusätzlichen Informationen eingeben, die in ihrer Turnitin-Verwaltungskonsole zu finden sind:
+Zum Aktivieren von Turnitin für Ihre Organisation benötigen Sie ein Turnitin-Abonnement. Anschließend können Sie die folgenden Informationen eingeben, die in ihrer Turnitin-Verwaltungskonsole zu finden sind:
 
   * **TurnitinApiKey**: Hierbei handelt es sich um eine 32-Zeichen-GUID, die in der Admin-Konsole unter Integrationen gefunden wird.
   * **TurnitinApiUrl**: Dies ist die HTTPS-URL Ihrer Turnitin-Verwaltungskonsole.
@@ -103,6 +106,5 @@ Nachdem Sie den Anweisungen folgen, wird Ihnen der **TurnitinApiKey** mitgeteilt
 
 ![Screenshot mit dem Kopieren des API-Schlüssels](./educationImages/Assignments_mopo_turnitin3.png)
 
-Wenn Sie im Admin Center für diese Einstellung auf die Schaltfläche " **Speichern** " klicken, können Sie diese Einstellungen einige Stunden in Kraft setzen.
+Wenn Sie im Admin Center für diese Einstellung auf die Schaltfläche " **Speichern** " klicken, können diese Einstellungen einige Stunden in Kraft treten.
 
-Sind Sie bereit, die Turnitin-Integration in Teams zu verwenden? Registrieren Sie sich für das [Early Access-Programm](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).
