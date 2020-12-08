@@ -20,7 +20,7 @@ ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
 ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
+ms.lasthandoff: 12/08/2020
 ms.locfileid: "48235823"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
@@ -31,7 +31,7 @@ Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie den Artikel [Rem
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 
-- Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) hat. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
+- Stellen Sie sicher, dass jeder auf Teams  Zugriff mit einem [kostenpflichtigen Abonnement, welches Teams beinhaltet,](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) hat. Alternativ können berechtigte Unternehmen das **[Kostenlose Abonnement von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
 
 -  Wenn Sie bereits über ein Abonnement verfügen, das Teams umfasst, **[aktivieren Sie es für jeden](user-access.md)**.
     
