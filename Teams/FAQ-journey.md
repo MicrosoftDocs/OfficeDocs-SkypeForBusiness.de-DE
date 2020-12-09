@@ -1,7 +1,7 @@
 ---
 title: Häufig gestellte Fragen zum Upgrade von Skype for Business auf Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766588"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578368"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
