@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e42e002e8ae0c2462bc0021ac1103c59e96f7cc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 2cb28295b0a9700a0eb7531111022a9498517d93
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030421"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611589"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 
@@ -126,7 +126,7 @@ Der Signaturschlüssel zum Aktivieren der automatischen Aktualisierung mithilfe 
 1. Laden Sie das Paket unter https://aka.ms/getteams herunter.
 2. Installieren Sie es mithilfe einer der folgenden Methoden:  
     - Öffnen Sie das entsprechende Paketverwaltungstool, und schließen Sie den selbstgeführten Installationsvorgang der Linux-App ab.
-    - Wenn Ihnen Terminal gefällt, geben Sie Folgendes ein: `sudo apt install **teams download file**`
+    - Wenn Ihnen Terminal gefällt, geben Sie Folgendes ein: `sudo dpkg -i **teams download file**`
 
 Sie können Teams über „Aktivitäten“ oder Terminal starten, indem Sie `teams` eingeben. 
 
@@ -197,9 +197,9 @@ Hier erfahren Sie, wie Sie in China [Teams für Android abrufen](get-teams-andro
 
 Unterstützte mobile Plattformen für mobile Microsoft Teams-Apps:
 
--   **Android** : Der Support ist auf die letzten vier Hauptversionen von Android begrenzt. Wenn eine neue Hauptversion von Android veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
+-   **Android**: Der Support ist auf die letzten vier Hauptversionen von Android begrenzt. Wenn eine neue Hauptversion von Android veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
 
--   **iOS** : Der Support ist auf die beiden neuesten Hauptversionen von iOS beschränkt. Wenn eine neue Hauptversion von iOS veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
+-   **iOS**: Der Support ist auf die beiden neuesten Hauptversionen von iOS beschränkt. Wenn eine neue Hauptversion von iOS veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
 
 > [!NOTE]
 > Die mobile Version muss der Öffentlichkeit zur Verfügung stehen, damit Teams wie erwartet funktioniert.

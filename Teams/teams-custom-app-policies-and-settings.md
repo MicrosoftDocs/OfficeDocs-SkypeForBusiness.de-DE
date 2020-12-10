@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: fef9568843d847e422269f7edfae3b1c761aaefa
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938454"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611759"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
@@ -72,7 +72,7 @@ Sie können die Einstellungen in der globalen App-Setup Richtlinie bearbeiten, u
 
 #### <a name="set-a-user-custom-app-policy"></a>Festlegen einer benutzerdefinierten App-Richtlinie
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den  >  **Setup Richtlinien** für Teams-apps.
 2. Klicken Sie auf **Hinzufügen**.
 3. Aktivieren oder deaktivieren Sie **benutzerdefinierte apps hochladen**.
 4. Wählen Sie alle anderen Einstellungen aus, die für die Richtlinie gelten sollen.
@@ -102,13 +102,13 @@ Wenn diese Einstellung aktiviert ist:
 
 ### <a name="org-wide-custom-app-setting"></a>Organisationsweite benutzerdefinierte app-Einstellung
 
-Die Einstellung " **Interaktion mit benutzerdefinierten apps** für benutzerdefinierte apps zulassen" auf der Seite " [apps verwalten](manage-apps.md) " gilt für alle Personen in Ihrer Organisation und steuert, ob Sie benutzerdefinierte apps hochladen oder mit ihnen interagieren können. Diese Einstellung überschreibt die Benutzer-und Team benutzerdefinierte App-Richtlinie und-Einstellung. Es dient als Master-on/off-Schalter während Sicherheitsereignissen.
+Die Einstellung " **Interaktion mit benutzerdefinierten apps** für benutzerdefinierte apps zulassen" auf der Seite " [apps verwalten](manage-apps.md) " gilt für alle Personen in Ihrer Organisation und steuert, ob Sie benutzerdefinierte apps hochladen oder mit ihnen interagieren können. Diese Einstellung fungiert als Master-on/off-Schalter für die Richtlinieneinstellungen für Benutzer-und Team benutzerdefinierte app. Es dient als Master-on/off-Schalter während Sicherheitsereignissen. Daher werden Benutzer-und Team benutzerdefinierte App-Richtlinieneinstellungen nicht wirksam, es sei denn, die benutzerdefinierte app-Einstellung für benutzerdefinierte Apps ist aktiviert, selbst wenn die Richtlinieneinstellungen für Benutzer und Team Benutzerdefiniert sind.
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Konfigurieren der organisationsweiten benutzerdefinierten app-Einstellung
 
 1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**  >  **Verwalten von apps**.
 2. Klicken Sie auf **organisationsweite App-Einstellungen**.
-3. Aktivieren oder deaktivieren Sie unter **benutzerdefinierte apps**die Option **Interaktion mit benutzerdefinierten apps zulassen**.
+3. Aktivieren oder deaktivieren Sie unter **benutzerdefinierte apps** die Option **Interaktion mit benutzerdefinierten apps zulassen**.
 
     ![Screenshot mit den organisationsweiten benutzerdefinierten App-Einstellungen](media/teams-custom-app-policy-and-settings-org-wide.png)
 

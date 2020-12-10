@@ -1,7 +1,7 @@
 ---
 title: Assistent für "Teams für Bildungsrichtlinien" zur einfachen Anwendung von Richtlinien für sicheres lernen
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie mithilfe des Assistenten für Bildungsrichtlinien auf einfache Weise Richtlinien für Schüler und Pädagogen anwenden, um Ihre Lernumgebung zu schützen.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d72ef20a8ae56fba67534944d229d01468531207
-ms.sourcegitcommit: 80c1ec1d5a43b9259a4da6db3e462f6d4257bfa7
+ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49564254"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616919"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Assistenten "Teams für Bildungsrichtlinien", um einfach Richtlinien für eine sichere Lernumgebung anzuwenden
 
@@ -68,17 +68,17 @@ Fangen wir jetzt an!
 
 <a name="polwiz_run"> </a>
 
-Führen Sie die folgenden Schritte aus, um den Assistenten auszuführen. 
+Führen Sie die folgenden Schritte aus, um den Assistenten auszuführen.
 
 1. Wenn Sie in Microsoft Teams neu sind, wird der Assistent automatisch gestartet. Andernfalls können Sie den Assistenten jederzeit vom Dashboard aus starten. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams admin Centers zu **Dashboard**, und wählen Sie dann in der Kachel **einfache Richtlinie für eine sichere Lernumgebung** die Option **schnell Setup** aus.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot des Assistenten im Dashboard":::
 
-2. Wählen Sie den Typ Ihrer Bildungseinrichtung (**Primar-oder Sekundarbereich** oder **Hochschulausbildung**) aus, und klicken Sie dann auf **weiter**.
+2. Wählen Sie den Typ Ihrer Bildungseinrichtung (**Primar-oder Sekundarbereich** oder **Hochschulausbildung**) aus, und wählen Sie dann **weiter** aus.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot der Seite im Assistenten zur Auswahl des institutions Typs":::
 
-3. Suchen Sie eine Gruppe, die ihre Pädagogen und Mitarbeiter enthält, und wählen Sie Sie aus, und klicken Sie dann auf **weiter**. Wenn Sie noch keine Gruppen für Ihre Erzieher und Mitarbeiter eingerichtet haben, [Erstellen Sie eine Gruppe](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), und führen Sie den Assistenten dann erneut aus. <br/><br/>Derzeit können Sie nur eine Gruppe auswählen. Für Lehrkräfte und Mitarbeiter in der ausgewählten Gruppe wird eine Gruppe [benutzerdefinierter Richtlinien](#policies-applied-by-the-wizard) zugewiesen, die auf Ihre Anforderungen zugeschnitten sind. Beachten Sie, dass dieser Satz von Richtlinien von den für die Kursteilnehmer angewendeten Richtlinien getrennt ist.
+3. Suchen Sie eine Gruppe, die ihre Pädagogen und Mitarbeiter enthält, und wählen Sie Sie aus, und wählen Sie dann **weiter** aus. Wenn Sie noch keine Gruppen für Ihre Erzieher und Mitarbeiter eingerichtet haben, [Erstellen Sie eine Gruppe](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), und führen Sie den Assistenten dann erneut aus. <br/><br/>Derzeit können Sie nur eine Gruppe auswählen. Für Lehrkräfte und Mitarbeiter in der ausgewählten Gruppe wird eine Gruppe [benutzerdefinierter Richtlinien](#policies-applied-by-the-wizard) zugewiesen, die auf Ihre Anforderungen zugeschnitten sind. Beachten Sie, dass dieser Satz von Richtlinien von den für die Kursteilnehmer angewendeten Richtlinien getrennt ist.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot der Seite im Assistenten zum Auswählen der Gruppe "Erzieher und Mitarbeiter"":::
 

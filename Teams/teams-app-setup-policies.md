@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d3928bd15ab5b023c025024f2dbf05c404adeee6
-ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
+ms.openlocfilehash: a23d9f5196f2d537e00c6e049377f9a7d7488654
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341103"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611599"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -58,38 +58,52 @@ Sie bearbeiten die Einstellungen in der globalen Richtlinie, um die gewünschten
 
 Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinierte Richtlinie zu erstellen.
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
-2. Wählen Sie **Hinzufügen**aus.
-    ![Seite "Richtlinien zum Hinzufügen von Apps"](media/app-setup-policies-add.png)
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den  >  **Setup Richtlinien** für Teams-apps.
+
+2. Klicken Sie auf **Hinzufügen**.
+
+   ![Seite "Richtlinien zum Hinzufügen von Apps"](media/app-setup-policies-add.png)
+    
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
+
 4. Aktivieren oder deaktivieren Sie Benutzer **definierte apps hochladen**, je nachdem, ob Sie Benutzer benutzerdefinierte apps in Teams hochladen lassen möchten. Sie können diese Einstellung nicht ändern, wenn das **Zulassen von Drittanbieter-apps** in den [organisationsweiten App-Einstellungen](manage-apps.md#manage-org-wide-app-settings)deaktiviert ist.
+
 5. Aktivieren oder deaktivieren Sie das **Zulassen von Benutzer anheften**, je nachdem, ob Benutzer Ihre APP-Leiste personalisieren lassen möchten, indem Sie apps an Sie anheften.
+
+   > [!NOTE]
+   > Die Einstellung **Benutzer anheften zulassen** steht im Team Admin Center in Microsoft 365 Government Community Cloud (gcc)-Umgebungen (gcc, gcc-höchst-und DoD) zur Verfügung, hat aber derzeit keine Auswirkungen.
+
 6. Führen Sie die folgenden Aufgaben aus, um Apps für Benutzer **(in der Vorschau)** zu installieren:
 
-    1. Wählen Sie unter **installierte apps**die Option **apps hinzufügen**aus.
-    2. Suchen Sie im Bereich **installierte apps hinzufügen** nach den apps, die Sie beim Starten von Teams automatisch für Benutzer installieren möchten. Sie können apps auch nach App-Berechtigungsrichtlinien filtern. Wenn Sie die Liste der apps ausgewählt haben, wählen Sie **Hinzufügen**aus.
+    1. Wählen Sie unter **installierte apps** die Option **apps hinzufügen** aus.
+    
+    2. Suchen Sie im Bereich **installierte apps hinzufügen** nach den apps, die Sie beim Starten von Teams automatisch für Benutzer installieren möchten. Sie können apps auch nach App-Berechtigungsrichtlinien filtern. Wenn Sie die Liste der apps ausgewählt haben, wählen Sie **Hinzufügen** aus.
 
-        ![der Bereich "installierte apps hinzufügen"](media/app-setup-policies-add-installed-apps.png)
+       ![der Bereich "installierte apps hinzufügen"](media/app-setup-policies-add-installed-apps.png)
 
 7. Gehen Sie wie folgt vor, um apps zu anheften:
 
-    1. Wählen Sie unter **angeheftete apps**die Option **apps hinzufügen**aus.
-    2. Suchen Sie im Bereich **angeheftete apps hinzu** fügen nach den apps, die Sie hinzufügen möchten, und wählen Sie dann **Hinzufügen**aus. Sie können apps auch nach App-Berechtigungsrichtlinien filtern. Wenn Sie die Liste der zu anheftenden apps ausgewählt haben, wählen Sie **Hinzufügen**aus.
+    1. Wählen Sie unter **angeheftete apps** die Option **apps hinzufügen** aus.
+    
+    2. Suchen Sie im Bereich **angeheftete apps hinzu** fügen nach den apps, die Sie hinzufügen möchten, und wählen Sie dann **Hinzufügen** aus. Sie können apps auch nach App-Berechtigungsrichtlinien filtern. Wenn Sie die Liste der zu anheftenden apps ausgewählt haben, wählen Sie **Hinzufügen** aus.
 
-         ![der Bereich "angeheftete apps hinzufügen"](media/app-setup-policies-add-apps.png)
+       ![der Bereich "angeheftete apps hinzufügen"](media/app-setup-policies-add-apps.png)
 
-    3. Ordnen Sie die apps in der Reihenfolge an, in der Sie in Teams angezeigt werden sollen, und wählen Sie dann **Speichern**aus.
+    3. Ordnen Sie die apps in der Reihenfolge an, in der Sie in Teams angezeigt werden sollen, und wählen Sie dann **Speichern** aus.
 
-        ![der Abschnitt angeheftete apps](media/app-setup-policies-new-policy-setup.png)
+       ![der Abschnitt angeheftete apps](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>Bearbeiten einer APP-Setup Richtlinie
 
 Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu bearbeiten, einschließlich der Global (org-Wide Standard)-Richtlinie und der von Ihnen erstellten benutzerdefinierten Richtlinien.
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps**den  >  **Setup Richtlinien**für Teams-apps.
-2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken, und wählen Sie dann **Bearbeiten**aus.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den  >  **Setup Richtlinien** für Teams-apps.
+
+2. Wählen Sie die Richtlinie aus, indem Sie links neben dem Richtliniennamen klicken, und wählen Sie dann **Bearbeiten** aus.
+
 3. Nehmen Sie hier die gewünschten Änderungen vor.
-4. Wählen Sie **Speichern**aus.
+
+4. Wählen Sie **Speichern** aus.
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>Zuweisen einer benutzerdefinierten App-Setup Richtlinie für Benutzer
 
@@ -102,6 +116,7 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu be
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Welche integrierten App-Setup Richtlinien sind im Microsoft Teams Admin Center enthalten
 
 - **Global (org-Wide Standard)**: Diese Standardrichtlinie gilt für alle Benutzer in Ihrer Organisation, es sei denn, Sie weisen eine andere Richtlinie zu. Bearbeiten Sie die globale Richtlinie, um apps zu anheften, die für Ihre Benutzer am wichtigsten sind.
+
 - **FirstLineWorker**: Diese Richtlinie gilt für First-work-Mitarbeiter. Sie können es den Mitarbeitern in Ihrer Organisation zuweisen. Es ist wichtig zu wissen, dass Sie wie von Ihnen erstellte benutzerdefinierte Richtlinien die Richtlinie Benutzern zuweisen müssen, damit die Einstellungen aktiv sind. Weitere Informationen finden Sie im Abschnitt [Zuweisen einer benutzerdefinierten App-Setup Richtlinie zu Benutzern](#assign-a-custom-app-setup-policy-to-users) dieses Artikels.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Warum kann ich keine app im Bereich "angeheftete apps hinzufügen" finden?

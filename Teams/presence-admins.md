@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557949"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616949"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -97,7 +97,7 @@ Die folgenden Administratoreinstellungen in Skype for Business unterscheiden sic
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>Administratoreinstellungen in Teams im Vergleich zu Microsoft Outlook
 
-Die Anwesenheit in Teams wird in Outlook ab der Outlook 2013-Desktop-App und höher unterstützt.
+Die Anwesenheit von Teams in Outlook wird in der Outlook 2013-Desktop-App und später für Kontakte in derselben Organisation unterstützt.
 
 Wenn die Richtlinie für den Upgrademodus des Benutzerkontos auf TeamsOnly eingestellt ist, kommuniziert Outlook mit Teams, um Anwesenheitsinformationen zu erhalten. Wenn das Benutzerkonto nicht auf TeamsOnly eingestellt ist, spricht Outlook mit Skype for Business.
 

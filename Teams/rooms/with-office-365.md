@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams-Räumen mit Microsoft 365 oder Office 365
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Microsoft 365 oder Office 365, in denen Teams oder Skype for Business und Exchange Online sind.
-ms.openlocfilehash: ee1f4da5cbcb65ab58c032ac651e0b563167a35b
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 4b5bd3967d3a1fcc8859cf4da8b039418819cb4e
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814794"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616889"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Bereitstellen von Microsoft Teams-Räumen mit Microsoft 365 oder Office 365
 
@@ -84,7 +84,6 @@ Einzelheiten zu den Skype for Business Online-Plänen finden Sie in der [Skype f
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) und [festgelegtes Postfach](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
 
-
 3. Konfigurieren Sie in Exchange Online PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungs Erfahrung zu verbessern:
 
    - AutomateProcessing: AutoAccept (Besprechungsorganisatoren erhalten die Raum Reservierungs Entscheidung direkt ohne menschliche Intervention: kostenlos = akzeptieren; busy = ablehnen.)
@@ -109,16 +108,17 @@ Einzelheiten zu den Skype for Business Online-Plänen finden Sie in der [Skype f
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Satz-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Stellen Sie eine Verbindung mit MS Online PowerShell her, um Active Directory-Einstellungen durch Ausführen des `Connect-MsolService -Credential $cred` PowerShell-Cmdlets zu erstellen.   Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Stellen Sie eine Verbindung mit MS Online PowerShell her, um Active Directory-Einstellungen durch Ausführen des `Connect-MsolService -Credential $cred` PowerShell-Cmdlets zu erstellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) wird nicht unterstützt. 
+   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) wird nicht unterstützt.
 
 5. Wenn Sie nicht möchten, dass das Kennwort abläuft, verwenden Sie die folgende Syntax:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
    ```
+
    <!--
    ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
@@ -127,12 +127,12 @@ Einzelheiten zu den Skype for Business Online-Plänen finden Sie in der [Skype f
    In diesem Beispiel wird das Kennwort für das Konto Rigel1@contoso.onmicrosoft.com so festgelegt, dass es nie abläuft.
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
    ```
+
    <!-- 
    ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
    ``` -->
 
    Sie können auch eine Telefonnummer für das Konto einrichten, indem Sie den folgenden Befehl ausführen:
@@ -140,6 +140,7 @@ Einzelheiten zu den Skype for Business Online-Plänen finden Sie in der [Skype f
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
+
    <!-- 
    ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
@@ -150,32 +151,37 @@ Einzelheiten zu den Skype for Business Online-Plänen finden Sie in der [Skype f
    ```Powershell
    Get-MsolAccountSku
    ```
+
    <!--
    ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Als nächstes können Sie eine Lizenz hinzufügen, indem Sie die `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“).
+   Als nächstes können Sie eine Lizenz hinzufügen, indem Sie die `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> Cmdlet. In diesem Beispiel wird die Besprechungsraum-Lizenz dem Konto hinzugefügt:
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ``` 
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
    <!-- 
    ```Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
    Ausführliche Anweisungen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
+   Sie können diesem Konto auch Telefon System Funktionen hinzufügen, die Sie aber zuerst konfigurieren müssen. Weitere Informationen finden Sie unter [Was ist Telefon System?](../what-is-phone-system-in-office-365.md) . In diesem Beispiel wird der PSTN-Plan für Inlands-und Auslandsanrufe hinzugefügt:
+
+   ```PowerShell
+   Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
+   ```
+
 7. Als nächstes müssen Sie das Geräte Konto in Skype for Business aktivieren. Stellen Sie sicher, dass Ihre Umgebung die Anforderungen erfüllt, die in den [Microsoft Teams-Chatrooms](requirements.md)festgelegt sind.
 
    Starten Sie eine [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) -Remotesitzung wie folgt (stellen Sie sicher, dass Sie die [Skype for Business Online PowerShell-Komponenten installieren](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
-   
+
 > [!NOTE]
 > Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
 >
@@ -183,78 +189,24 @@ Einzelheiten zu den Skype for Business Online-Plänen finden Sie in der [Skype f
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
+   $cssess = New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
+   ```
+
+   Beziehen Sie die RegistrarPool-Informationen aus dem neu eingerichteten Benutzerkonto, wie in diesem Beispiel gezeigt:
+
+   ``` Powershell
+    Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
    ```
 
    Aktivieren Sie als nächstes das Microsoft Teams rooms-Konto für Skype for Business Server, indem Sie das folgende Cmdlet ausführen:
 
    ``` Powershell
-   $rm="Rigel1@contoso.onmicrosoft.com"
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   Beziehen Sie die RegistrarPool-Informationen aus dem neu eingerichteten Benutzerkonto, wie in diesem Beispiel gezeigt:
-
-    ``` Powershell
-    $rm="Rigel1@contoso.onmicrosoft.com"
-    Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
-    ```
-
-    > [!NOTE]
-    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
-
-### <a name="assign-a-license-to-your-account"></a>Zuweisen einer Lizenz zu Ihrem Konto
-
-1. Melden Sie sich als mandantenadministrator an, öffnen Sie das Microsoft 365 Admin Center, und klicken Sie auf die Administrator-app.
-
-2. Klicken Sie auf **Benutzer und Gruppen** und dann auf **Benutzer hinzufügen, Kennwörter zurücksetzen und mehr**.
-
-3. Wählen Sie das Microsoft Teams rooms-Konto aus, und klicken oder tippen Sie dann auf das Stiftsymbol, was "Bearbeiten" bedeutet.
-
-4. Klicken Sie auf die Option **Lizenzen**.
-
-5. Im Abschnitt **Lizenzen zuweisen** müssen Sie Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) auswählen – je nach ihrer Lizenzierung und dem, was Sie im Hinblick auf die Notwendigkeit von Enterprise-VoIP entschieden haben. Sie müssen eine Plan 3-Lizenz verwenden, wenn Sie Cloud PBX in Microsoft Teams-Räumen verwenden möchten. Minimal benötigen Sie CloudPBX für die sprach Konnektivität. Konfigurieren Sie dann Hybrid-sprach-oder PSTN-Anrufe basierend auf der PSTN-Verbindungsmethode. Weitere Informationen finden Sie unter [Microsoft Teams rooms-Lizenzen](rooms-licensing.md) .
-
-6. Klicken Sie auf **Speichern**, um die Aufgabe abzuschließen.
-
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>Beispiel: Einrichten des Raum Kontos in Exchange Online und Skype for Business Online
-
-PowerShell-Befehle in Exchange Online:
-
-``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
--AdditionalResponse "This is a Rigel room!"
-```
-
-Azure Active Directory PowerShell-Befehle:
-
-``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```
-
-<!-- 
-``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```  -->
-
-Skype for Business PowerShell-Befehl:
-
-``` PowerShell
-Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
--SipAddressType EmailAddress
-```
-
-> [!NOTE]
-> Dadurch werden CloudPBX und PSTNCallingDomesticAndInternational hinzugefügt. Darüber hinaus müssen Sie die Administratorschnittstelle verwenden, um eine Telefonnummer zuzuweisen.
+   > [!NOTE]
+   > Neue Benutzerkonten werden möglicherweise nicht im gleichen Registrierungspool wie vorhandene Benutzerkonten im Mandanten erstellt. Der obige Befehl verhindert aufgrund dieser Situation Fehler beim Einrichten des Kontos.
 
 ## <a name="validate"></a>Überprüfen
 

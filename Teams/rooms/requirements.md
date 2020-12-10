@@ -1,7 +1,7 @@
 ---
 title: Voraussetzungen für Microsoft Teams-Räume
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Informieren Sie sich über die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen, einschließlich der Auswahl des geeigneten Geräts, von Mikrofonen, Lautsprechern, Kameras und Displays.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: 1a8835a2e644e491be2e271a5c60612c3c29b1e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557959"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616899"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -66,8 +66,8 @@ Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsyst
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart-Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Logitech Tap mit Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-  |[Logitech Tap und Lenovo Think Center M920 Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
-  |[Poly G10-T mit Lenovo Think Center M920 Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
+  |[Logitech Tap und Lenovo ThinkSmart Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
+  |[Poly G10-T mit Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 mit Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 mit Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 mit Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|

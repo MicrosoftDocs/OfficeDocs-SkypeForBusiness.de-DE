@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: b952d11c5ebe4b2da7620cc6ed8dd650be0d6bc5
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578498"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611769"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 
@@ -82,7 +82,7 @@ Weitere Überlegungen zum Wechseln in den Modus **nur für Teams** finden Sie un
 
 ### <a name="skype-for-business-only"></a>Nur Skype for Business
 
-In diesem Koexistenzmodus verbleiben die Benutzer in Skype for Business – nicht in Teams – für Chat-, Besprechungs-und Anruffunktionen, und Sie verwenden keine Teams für Teams und Kanäle. Dieser Modus steht heute zur Verfügung. in der aktuellen Implementierung werden jedoch Teams und Kanäle nicht automatisch für den Benutzer deaktiviert. Dies kann durch Verwenden der APP-Berechtigungsrichtlinie zum Ausblenden von Teams und Kanälen erreicht werden.
+In diesem Koexistenzmodus verbleiben die Benutzer in Skype for Business – nicht in Teams – für Chat-, Besprechungs-und Anruffunktionen, und Sie verwenden keine Teams für Teams und Kanäle. Dieser Modus steht heute zur Verfügung. in der aktuellen Implementierung werden jedoch Teams und Kanäle nicht automatisch für den Benutzer deaktiviert. Dies kann erreicht werden, indem die APP-Setup Richtlinie zum Ausblenden von Teams und Dateien verwendet wird.
 
 Dieser Modus kann vor dem Starten einer verwalteten Bereitstellung von Teams verwendet werden, um zu verhindern, dass Benutzer Teams vor dem Aufbau der Bereitschaft verwenden, oder als Möglichkeit, die authentifizierte Teilnahme an Teams-Besprechungen für Skype for Business-Benutzer zu aktivieren, vorausgesetzt, die Benutzer sind für Teams lizenziert.
 

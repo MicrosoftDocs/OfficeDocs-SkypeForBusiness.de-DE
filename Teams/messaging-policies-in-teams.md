@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie mehr über Messagingrichtlinien und wie Sie zum Steuern von Chatnachrichten in Teams verwendet werden können.
-ms.openlocfilehash: 0a548eee32fc196157b6a363dd0427b187e52112
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 050f072a2148be909dbaabd4ac8ab53c1e5bb298
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814181"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611659"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -85,7 +85,7 @@ Nachfolgend sind die Messagingrichtlinien Einstellungen aufgeführt, die Sie kon
 <a name="bkchat"> </a>
 
 - **Chat**: Aktivieren Sie diese Einstellung, wenn Sie möchten, dass die Benutzer in Ihrer Organisation mithilfe der Teams-App mit anderen Personen chatten können.
-- **Giphys in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Giphys in Chats mit anderen Personen verwenden. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen.
+- **Giphys in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Giphys in Chats mit anderen Personen verwenden. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen. Beachten Sie bitte, dass Sie zusätzlich zum Aktivieren dieser Einstellung auch [optionale verbundene Erfahrungen](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) aktivieren müssen, um Giphys in Konversationen zu ermöglichen.
 - **Giphy-Inhaltsklassifikation**
     - **Keine Einschränkung**: Das bedeutet, dass Ihre Benutzer beliebige Giphys in Chats einfügen können – unabhängig von ihrer Inhaltsbewertung.
     - **Moderat**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber moderat eingeschränkt wird.

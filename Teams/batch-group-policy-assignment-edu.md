@@ -1,7 +1,7 @@
 ---
 title: Zuweisen von Richtlinien zu umfangreichen Benutzergruppen in ihrer Schule
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,14 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie in Ihrer Bildungseinrichtung Richtlinien auf der Grundlage einer Gruppenmitgliedschaft oder direkt über eine Batch Zuordnung für Remote School (teleschool, Tele Schule) zuweisen.
 f1keywords: ''
-ms.openlocfilehash: 0b4fd804b51fef9537d30230aed400bb0cb7e0aa
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: afcaba9df0ff745977b84e34683c1bdfcaca0d01
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534101"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616939"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Zuweisen von Richtlinien zu umfangreichen Benutzergruppen in ihrer Schule
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Eine ausführlichere Geschichte zum Zuweisen von Richtlinien in Microsoft Teams finden Sie unter [Zuweisen von Richtlinien zu Ihren Benutzern in Teams](assign-policies.md).
@@ -83,17 +85,17 @@ Wenn Sie SDS in Ihrer Umgebung nicht bereitstellen können, verwenden Sie [diese
 > [!NOTE]
 > Derzeit steht die Richtlinienzuweisung für Gruppen, die das Microsoft Teams Admin Center verwenden, nur für Teams-Anruf Richtlinien, Teams-Anruf Park Richtlinien, Teams-Richtlinien, Teams-Live-Ereignisrichtlinien, Teams-Besprechungsrichtlinien und Teams-Messagingrichtlinien zur Verfügung. Verwenden Sie für andere Richtlinientypen PowerShell.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Meetings**  >  **Besprechungsrichtlinien**für Besprechungen.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu   >  **Besprechungsrichtlinien** für Besprechungen.
 2. Wählen Sie die Registerkarte **Gruppenrichtlinien Zuweisung** aus.
-3. Wählen Sie **Gruppe hinzufügen**aus, und führen Sie dann im Bereich **Richtlinie zu Gruppe zuweisen** die folgenden Aktionen aus:
+3. Wählen Sie **Gruppe hinzufügen** aus, und führen Sie dann im Bereich **Richtlinie zu Gruppe zuweisen** die folgenden Aktionen aus:
 
     ![Screenshot des Bereichs "Einstellungen bearbeiten" mit den Besprechungsrichtlinien](media/batch-group-policy-assignment-edu-group.png)
     1. Suchen Sie im Feld **Gruppe auswählen** nach der Sicherheitsgruppe, die Ihre Mitarbeiter und Pädagogen enthält, und fügen Sie Sie hinzu.
-    2. Geben Sie im Feld **Rang auswählen** den Wert **1**ein.
-    3. Wählen Sie im Feld **Richtlinie auswählen** die Option **EducatorMeetingPolicy**aus.
-    4. Wählen Sie über **nehmen**aus.
+    2. Geben Sie im Feld **Rang auswählen** den Wert **1** ein.
+    3. Wählen Sie im Feld **Richtlinie auswählen** die Option **EducatorMeetingPolicy** aus.
+    4. Wählen Sie über **nehmen** aus.
 
-Wenn Sie eine Gruppenrichtlinien Zuordnung entfernen möchten, wählen Sie auf der Registerkarte **Gruppenrichtlinien Zuweisung** auf der Seite Richtlinie die Gruppenzuordnung aus, und wählen Sie dann **Entfernen**aus.
+Wenn Sie eine Gruppenrichtlinien Zuordnung entfernen möchten, wählen Sie auf der Registerkarte **Gruppenrichtlinien Zuweisung** auf der Seite Richtlinie die Gruppenzuordnung aus, und wählen Sie dann **Entfernen** aus.
 
 Wenn Sie die Rangfolge einer Gruppenaufgabe ändern möchten, müssen Sie zuerst die Gruppenrichtlinien Zuweisung entfernen. Führen Sie dann die obigen Schritte aus, um die Richtlinie einer Gruppe zuzuweisen.
 
@@ -147,6 +149,7 @@ Führen Sie die folgenden Schritte aus, um eine Verbindung mit Teams herzustelle
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Wenn Sie dazu aufgefordert werden, melden Sie sich mit denselben Administratoranmeldeinformationen an, die Sie für die Verbindung mit Azure AD verwendet haben.
 
 #### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Aufheben der Zuweisung einer Richtlinie, die Benutzern direkt zugewiesen wurde
@@ -160,7 +163,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-In diesem Beispiel wird die Besprechungsrichtlinie aus der Liste der Benutzer in einer Textdatei mit dem Namen user_ids.txt entfernt. 
+In diesem Beispiel wird die Besprechungsrichtlinie aus der Liste der Benutzer in einer Textdatei mit dem Namen user_ids.txt entfernt.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -225,6 +228,7 @@ Führen Sie die folgenden Schritte aus, um eine Verbindung mit Teams herzustelle
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Wenn Sie dazu aufgefordert werden, melden Sie sich mit denselben Administratoranmeldeinformationen an, die Sie für die Verbindung mit Azure AD verwendet haben.
 
 #### <a name="identify-your-users"></a>Identifizieren der Benutzer

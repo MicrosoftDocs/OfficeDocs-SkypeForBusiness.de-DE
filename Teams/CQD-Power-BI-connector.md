@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen (Call Quality Dashboard)
-ms.openlocfilehash: 04bab862c13652e7a509a96c98bac0eaac699b85
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c3812032f385a3428feec7f1126663e815af1b52
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584054"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611579"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -30,15 +30,18 @@ Lesen [verwenden Sie Power BI zum Analysieren von CQD-Daten für Teams](CQD-Powe
 
 Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffs Rolle](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) verfügen, um auf die Power BI-Berichte zuzugreifen.
 
+> [!NOTE]
+> Der CQD Power BI-Connector unterstützt nur DirectQuery in Power BI; Der Import Modus wird nicht unterstützt. 
+
 ## <a name="installation"></a>Installation
 
 Der Vorgang zum Installieren eines benutzerdefinierten Connectors und zum Anpassen der Sicherheit, um die Verwendung des Connectors zu ermöglichen, wird in der [Power BI-Dokumentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)ausführlich beschrieben. Aus Gründen der Einfachheit ist hier eine kurze Erläuterung zu finden:
 
-1. Überprüfen Sie, ob Ihr Computer bereits über einen Ordner mit * \[ \] \\ Power BI- \\ benutzerdefinierten Dokumenten für Power BI-Desktops*verfügt   . Wenn dies nicht der Fall ist, erstellen Sie diesen Ordner. <sup>1</sup>
+1. Überprüfen Sie, ob Ihr Computer bereits über einen Ordner mit *\[ \] \\ Power BI- \\ benutzerdefinierten Dokumenten für Power BI-Desktops* verfügt. Wenn dies nicht der Fall ist, erstellen Sie diesen Ordner. <sup>1</sup>
 
-2. Laden Sie die connectordatei (eine * \* MEZ* -oder * \* PQx* -Datei) herunter, und legen Sie Sie im Verzeichnis *benutzerdefinierte Connectors* ab.
+2. Laden Sie die connectordatei (eine *\* MEZ* -oder *\* PQx* -Datei) herunter, und legen Sie Sie im Verzeichnis *benutzerdefinierte Connectors* ab.
 
-3. **Wenn es sich bei der connectordatei um eine * \* MEZ* -Datei handelt,** müssen Sie auch Ihre Sicherheitseinstellungen anpassen, wie in der [benutzerdefinierten Connector-Setup-Dokumentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)beschrieben.
+3. **Wenn es sich bei der connectordatei um eine *\* MEZ* -Datei handelt,** müssen Sie auch Ihre Sicherheitseinstellungen anpassen, wie in der [benutzerdefinierten Connector-Setup-Dokumentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)beschrieben.
 
 Wenn eine neue Version dieses Power BI Connectors für Microsoft Teams veröffentlicht wird, ersetzen Sie einfach die alte connectordatei im Verzeichnis *benutzerdefinierte* Connectors durch die neue Datei.
 
@@ -54,7 +57,7 @@ Um einen Bericht zu erstellen und Abfragen auszuführen, müssen Sie zuerst eine
 
     ![Screenshot: Power BI-Connector](media/CQD-power-bi-connector2-resize.png)
 
-3. Sie werden zur nächsten Anmeldung aufgefordert. Verwenden Sie die gleichen Anmeldeinformationen, die Sie für CQD verwenden. <sup>2</sup>
+3. Sie werden aufgefordert, sich als nächstes anzumeldet. Verwenden Sie die gleichen Anmeldeinformationen, die Sie für CQD verwenden. <sup>2</sup>
 
 4. Die nächste Aufforderung gibt Ihnen die Möglichkeit zwischen zwei *Daten Verbindungsmodi*. Wählen Sie *DirectQuery* und klicken Sie auf *OK*.
 
@@ -62,7 +65,7 @@ Um einen Bericht zu erstellen und Abfragen auszuführen, müssen Sie zuerst eine
 
 6. An diesem Punkt lädt Power BI das Datenmodell auf die Rechte Seite des Fensters. Die Seite bleibt ansonsten leer, und standardmäßig werden keine Abfragen geladen. Führen Sie die folgenden Schritte zum Erstellen von **Abfragen** aus, um eine Abfrage zu erstellen und Daten zurückzugeben.
 
-Wenn einer der Schritte während des Setupvorgangs nicht ganz klar war, finden Sie [hier](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)eine detailliertere Erläuterung des Prozesses.
+Wenn einer der Schritte während dieses Setupvorgangs nicht vollständig klar war, finden Sie eine ausführlichere Erläuterung des Prozesses unter [Schnellstart: Herstellen einer Verbindung mit Daten in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
 
 ## <a name="building-queries"></a>Erstellen von Abfragen
 
@@ -130,7 +133,7 @@ Bei den meisten dieser Probleme handelt es sich entweder um Einschränkungen des
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Ich versuche, die Datumsspalte als Datumsdaten Schnitt zu verwenden. Sobald ich den Datentyp dieser Spalte bis heute konvertiere, erhalte ich diesen Fehler
 
-> **Die Daten für dieses Visual konnten nicht geladen**werden: OLE DB-oder ODBC-Fehler: [Ausdruck. Fehler] der Ausdruck konnte nicht in die Datenquelle gefaltet werden. Versuchen Sie es mit einem einfacheren Ausdruck.
+> **Die Daten für dieses Visual konnten nicht geladen** werden: OLE DB-oder ODBC-Fehler: [Ausdruck. Fehler] der Ausdruck konnte nicht in die Datenquelle gefaltet werden. Versuchen Sie es mit einem einfacheren Ausdruck.
 
 Datumsdaten Schnitte werden vom Power BI-Connector nicht unterstützt. Wenn Sie einen Datumsbereich angeben möchten, wenden Sie zwei Filter auf den Bericht an, indem Sie einen Wert kleiner als und größer als Datum angeben.
 
@@ -175,7 +178,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 Der Grenzwert für die 10.000-Zeile ist tatsächlich auf dem API-Ende angegeben und soll die Leistung erheblich verbessern und das Risiko von Abfrage Ausführungsfehlern verringern, die sich aus unzureichendem Arbeitsspeicher ergeben.
 
-Anstatt zu versuchen, die Anzahl der Ergebniszeilen zu erhöhen, empfiehlt es sich, die Berichte entsprechend den bewährten Methoden des Connectors umzustrukturieren. Die Vorlagen, die wir enthalten, wurden entwickelt, um diese bewährten Methoden zu veranschaulichen. Beginnen Sie, wenn möglich, mit einem Blick auf Ihre KPIs, indem Sie umfassendere, geringere Kardinalitäts Dimensionen verwenden, wie etwa Monat, Jahr, Datum, Region, Land usw. Von dort aus können Sie einen Drilldown in zunehmend höhere Kardinalität-Dimensionen durchführen. Die Berichte Helpdesk und Standort optimiert bieten beide gute Beispiele für diesen Drilldown-Workflow.
+Anstatt zu versuchen, die Anzahl der Ergebniszeilen zu erhöhen, empfiehlt es sich, die Berichte entsprechend den bewährten Methoden des Connectors umzustrukturieren. Die Vorlagen, die wir enthalten, wurden entwickelt, um diese bewährten Methoden zu veranschaulichen. Beginnen Sie, wenn möglich, mit einem Blick auf Ihre KPIs, indem Sie umfassendere, geringere Kardinalitäts Dimensionen verwenden, wie etwa Monat, Jahr, Datum, Region, Land usw. Von dort aus können Sie einen Drilldown in zunehmend höhere Kardinalität-Dimensionen durchführen. Die Berichte zu Helpdesk und Location-Enhanced bieten beide gute Beispiele für diesen Drilldown-Workflow.
 
 
 

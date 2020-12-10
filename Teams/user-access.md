@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d370bec6eb8a3319427c934593016f2b85d6c26
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521382"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611459"
 ---
 # <a name="manage-user-access-to-teams"></a>Verwalten des Benutzerzugriffs auf Teams
 
-Sie können den Zugriff auf Teams auf Benutzerebene verwalten, indem Sie eine Microsoft Teams-Produktlizenz zuweisen oder entfernen. Jeder Benutzer in Ihrer Organisation muss über eine Teams-Lizenz verfügen, bevor er Teams verwenden kann. Sie können neuen Benutzern eine Teams-Lizenz zuweisen, wenn neue Benutzerkonten erstellt werden oder für Benutzer mit vorhandenen Konten.
+Sie können den Zugriff auf Teams auf Benutzerebene verwalten, indem Sie eine Microsoft Teams-Produktlizenz zuweisen oder entfernen. Mit Ausnahme der anonymen Teilnahme an Teams-Besprechungen muss jeder Benutzer in Ihrer Organisation über eine Teams-Lizenz verfügen, bevor er Teams verwenden kann. Sie können neuen Benutzern eine Teams-Lizenz zuweisen, wenn neue Benutzerkonten erstellt werden oder für Benutzer mit vorhandenen Konten.
 
 Wenn einem Benutzer ein Lizenzierungs Plan (beispielsweise Microsoft 365 Enterprise E3 oder Microsoft 365 Business Premium) zugewiesen ist, wird standardmäßig automatisch eine Teams-Lizenz zugewiesen, und der Benutzer ist für Teams aktiviert. Sie können Teams für einen Benutzer deaktivieren oder aktivieren, indem Sie eine Lizenz zu einem beliebigen Zeitpunkt entfernen oder zuweisen.
 
@@ -89,16 +89,23 @@ Im folgenden sehen Sie ein Beispiel für die Verwendung der Cmdlets [New-MsolLic
 
 Führen Sie den folgenden Befehl aus, um alle verfügbaren Lizenzierungs Pläne in Ihrer Organisation anzuzeigen. Weitere Informationen finden Sie unter [Anzeigen von Lizenzen und Diensten mit PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).
 
-      Get-MsolAccountSku
+
+```powershell
+Get-MsolAccountSku
+```
 
 Führen Sie die folgenden Befehle aus, wobei der \<CompanyName:License> Name Ihrer Organisation und der Bezeichner für den Lizenzierungs Plan, den Sie im vorherigen Schritt abgerufen haben. Beispiel: ContosoSchool: ENTERPRISEPACK_STUDENT.
 
-      $acctSKU="<CompanyName:License>
-      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```powershell
+$acctSKU="<CompanyName:License>
+$x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```
 
 Führen Sie den folgenden Befehl aus, um Teams für alle Benutzer zu deaktivieren, die über eine aktive Lizenz für den Lizenzierungs Plan verfügen.
 
-      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```powershell
+Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```
 
 ## <a name="manage-teams-at-the-organization-level"></a>Verwalten von Teams auf Organisationsebene
 

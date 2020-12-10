@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523422"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611849"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -59,7 +59,7 @@ Die folgenden Partner verfügen über Video-Interop-Lösungen für Microsoft Tea
 
 |Partner|Partner Lösung|
 |----|---|
-|![Das Logo, das Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom-RealConnect-Dienst</a> |
+|![Das Logo, das Poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly-RealConnect-Dienst</a> |
 |![Das Logo, das Pexip Unendlichkeit darstellt](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip unendlich für Microsoft Teams</a> | 
 |![Das Logo, das Bluejeans-Gateway darstellt](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Bluejeans-Gateway für Microsoft Teams</a> |
 |![Das Logo, das Cisco CVI darstellt](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco WebEx Video Integration für Microsoft Teams</a>|

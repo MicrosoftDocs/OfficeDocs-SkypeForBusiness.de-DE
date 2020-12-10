@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 896e60e8de6e01208a07c40e757a79a12192383a
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650978"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611819"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportieren von Inhalten mit den Microsoft Teams Export-APIs
 
@@ -93,13 +93,13 @@ Namespace: Microsoft. Graph
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "0de69e5e-2da8-4cf2-821f-5e6585b2c65b",
-                    "displayName": "User Name",
+                    "id": "string (identifier)",
+                    "displayName": "string",
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "19:0de69e5e-2da8-4cf2-821f-5e6585b2c65b_5c64e248-3269-4268-a36e-0f80314e9c39@unq.gbl.spaces"
+"chatId": "string (identifier)"
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",

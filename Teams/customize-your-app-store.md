@@ -18,24 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie mehr über den benutzerdefinierten App-Store in Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: 9a7652550e34dc40e6e6d315f1c5c3b590067610
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818818"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611830"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Benutzerdefinierter Apps-Store in Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
-
-Jetzt können Sie den App Store für Teams mit Ihrem Branding für Ihre Organisation anpassen, indem Sie Ihr Logo, benutzerdefinierte Hintergründe und benutzerdefinierte Textfarben hinzufügen, damit Sie für Endbenutzer einladender werden.
+Jetzt können Sie den App Store Ihrer Organisation in Teams mit dem Branding Ihres Unternehmens anpassen, indem Sie Ihr Logo, benutzerdefinierte Hintergründe und benutzerdefinierte Textfarben hinzufügen, damit Sie für Endbenutzer einladender werden.
 
 > [!Note]
 > Für Änderungen am Branding müssen 24 Stunden wirksam werden.
 
-Sie können im Admin Center auf den Bereich "anpassen" zugreifen, indem Sie " **Teams-apps**  >  **Anpassen** " auswählen.
+Sie können im Admin Center auf den Bereich "anpassen" zugreifen, indem Sie " **Teams-apps**  >  **Anpassen**" auswählen.
 
   ![Feature "Speicherfeature anpassen" hervorgehoben](media/customize-app-store.png)
 
@@ -47,7 +44,7 @@ In diesem Artikel werden die Features des benutzerdefinierten apps-Stores sowie 
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Hier können Sie Ihr Firmen Logo hochladen. Das ausgewählte Logo wird im Microsoft Teams-Client in **Apps**  >  **für Ihre Mandantenseite erstellten** apps angezeigt.
+Hier können Sie Ihr Firmen Logo hochladen. Das ausgewählte Logo wird im Microsoft Teams-Client in   >  **für Ihre Mandantenseite erstellten** apps angezeigt.
 
 Wenn Sie die Option **Bild auswählen** auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 240x60 sein, oder es wird auf diese Größe skaliert. Sie darf nicht größer als 5 MB sein. Folgende Formate werden unterstützt:
 
@@ -108,6 +105,8 @@ Wenn Sie **eine benutzerdefinierte Farbe** auswählen auswählen, wird eine Farb
 
 Wenn Sie mit dem Anpassen Ihres apps Stores fertig sind, wählen Sie **Speichern** aus, um die Änderungen zu speichern.
 Um eine Vorschau der Änderungen anzuzeigen, wählen Sie **Vorschau des App-Stores** aus, um eine Darstellung Ihres angepassten Apps Store anzuzeigen.
+
+ ![Vorschau des benutzerdefinierten apps-Speichers](media/app-store1.jpg)
 
 > [!Note]
 > Die Darstellung kann von der endgültigen Version Ihres angepassten APP-Speichers abweichen, da einige Standardfarben auf der Version des Teams-Clients Ihrer Benutzer basieren.

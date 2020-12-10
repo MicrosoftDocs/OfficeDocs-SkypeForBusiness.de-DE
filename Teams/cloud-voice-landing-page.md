@@ -23,12 +23,12 @@ search.appverid: MET150
 description: Weitere Informationen zu den Microsoft Teams Cloud-Sprachfeatures und den Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
-ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
+ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071766"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611719"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen der VoIP-Lösung für Teams 
 
@@ -36,7 +36,7 @@ Dieser Artikel hilft Ihnen bei der Entscheidung, welche Microsoft Voice-Lösung 
 
 Vielleicht möchten Sie das einfachste Lösung &mdash; Telefon System mit Anrufplan. Hierbei handelt es sich um die Komplettlösung von Microsoft, die eine PBX-Funktionalität (Private Branch Exchange) und Anrufe an das öffentlich geschaltete Telefonnetz (PSTN) bereitstellt, wie in der nachstehenden Abbildung zu sehen ist. Mit dieser Lösung ist Microsoft Ihr PSTN-Netzbetreiber.
 
-![Diagramm 1 zeigt das Telefon System mit Anrufplan](media/msft-voice-solutions-1.png)
+![Diagramm 1 zeigt das Telefon System mit Anrufplan](media/voice-solutions-simple.png)
 
 Wenn Sie mit "Ja" zur folgenden Frage Antworten, ist das Telefon System mit Anrufplan die richtige Lösung für Sie:
 
@@ -62,6 +62,9 @@ Allerdings kann Ihre Situation komplexer sein. So können Sie beispielsweise Nie
 
 **Je nach Ihren Anforderungen.** Einige Abschnitte in diesem Artikel sind je nach Ihrer vorhandenen Bereitstellung und Ihren Anforderungen relevant. Beispielsweise ist Location-Based Routing nur für direktes Routing von Kunden an geografischen Standorten erforderlich, die keine Maut Umgehung zulassen.
 
+Bedenken Sie, welche dieser zusätzlichen Konfigurationen Sie möglicherweise benötigen:
+
+![Diagramm 2 zeigt zusätzliche Sprachkomponenten wie Telefonnummern von Microsoft, Wählpläne und Anrufweiterleitung usw.](media/voice-consider-additional-components.png)
 
 | Je nach Ihren Anforderungen | Beschreibung |
 | :------------|:-------|
@@ -91,6 +94,8 @@ In diesem Artikel werden die folgenden wichtigen Features und Funktionen für da
 - [Automatische Telefonzentralen und Anrufwarteschleifen](#auto-attendants-and-call-queues)
 - [Cloudvoicemail](#cloud-voicemail)
 - [Identität des Anrufs](#calling-identity)
+
+![Diagramm 3 zeigt das Telefonsystem enthält automatische Telefonzentralen und Anruf Abfragen, Cloud-Voicemail und Anruf Identität.](media/phone-system-contains.png)
 
 Informationen zu allen Telefonsystem Funktionen und zur Einrichtung des Telefonsystems finden Sie in den folgenden Artikeln:
 
@@ -145,7 +150,7 @@ Sie können auch eine Kombination von Optionen auswählen, mit der Sie eine Lös
 
 Wie weiter oben in diesem Artikel beschrieben, ist das Telefon System mit Anrufplan die Microsoft-Lösung für die Cloud-VoIP-Lösung für Teams-Benutzer. Dies ist die einfachste Option, mit der das Microsoft Phone System mit dem öffentlichen Telefonnetz (PSTN) verbunden wird, um Anrufe an Festnetztelefone und Handys in der ganzen Welt zu ermöglichen. Mit dieser Option stellt Microsoft eine PBX-Funktion (Private Branch Exchange) für Ihre Organisation bereit und fungiert als Ihr PSTN-Netzbetreiber, wie in der folgenden Abbildung dargestellt:
 
-![Diagramm 1 zeigt das Telefon System mit Anrufplan](media/msft-voice-solutions-1a.png)
+![Diagramm 4 zeigt das Telefon System mit automatischen Telefonzentralen, Anrufwarteschlangen, Rufnummernanzeige und mehr sowie Microsoft als PSTN-Netzbetreiber.](media/voice-solution-microsoft-complete.png)
 
 Wenn Sie mit "Ja" zur folgenden Frage Antworten, ist das Telefon System mit Anrufplan die richtige Lösung für Sie:
 
@@ -175,7 +180,7 @@ Weitere Informationen zum Aufrufen von Plan finden Sie in den folgenden Artikeln
 
 Mit dieser Option wird Microsoft Phone System mithilfe des direkten Routings mit Ihrem Telefonie-Netzwerk verbunden, wie in der folgenden Abbildung dargestellt: 
 
-![Diagramm 2 zeigt das Telefon System mit direktem Routing](media/msft-voice-solutions-2.png)
+![Diagramm 5 zeigt das Telefon System mit direktem Routing](media/voice-solution-with-direct-routing.png)
 
 Wenn Sie die folgenden Fragen mit "Ja" beantworten, ist das Telefon System mit Direct Routing die richtige Lösung für Sie:
 
@@ -212,7 +217,6 @@ Weitere Informationen zum direkten Routing finden Sie in den folgenden Artikeln:
 - [Verwalten von VoIP-Routing Richtlinien für die Verwendung mit direktem Routing](manage-voice-routing-policies.md)
 - [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
 - [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
-
 
 ## <a name="phone-numbers-from-microsoft"></a>Telefonnummern von Microsoft
 

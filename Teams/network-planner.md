@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9351c37c96e4bc11f0e5f93041f7e024158d7564
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030621"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611799"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden von Network Planner für Microsoft Teams
 
-Network Planner ist ein neues Tool, das im Team Admin Center zur Verfügung steht. Sie finden ihn unter **Planner**  >  **Network Planner**. Mit nur wenigen Schritten kann der Netzwerk Planner Ihnen dabei helfen, die Netzwerkanforderungen für die Verbindung von Microsoft Teams-Benutzern in Ihrer Organisation zu ermitteln und zu organisieren. Wenn Sie Ihre Netzwerkdetails und die Verwendung von Teams angeben, berechnet der Netzwerk Planner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud-VoIP über die physischen Standorte Ihrer Organisation hinweg.
+Network Planner ist ein neues Tool, das im Team Admin Center zur Verfügung steht. Sie finden ihn unter **Planen** von  >  **Network Planner**. Mit nur wenigen Schritten kann der Netzwerk Planner Ihnen dabei helfen, die Netzwerkanforderungen für die Verbindung von Microsoft Teams-Benutzern in Ihrer Organisation zu ermitteln und zu organisieren. Wenn Sie Ihre Netzwerkdetails und die Verwendung von Teams angeben, berechnet der Netzwerk Planner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud-VoIP über die physischen Standorte Ihrer Organisation hinweg.
 
 ![Screenshot von Network Planner](media/network-planner.png)
 
@@ -82,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um mit dem Erstellen Ihres Netzwerkplans
 
     2. Fügen Sie unter **Netzwerkeinstellungen** die Anzahl der Netzwerkbenutzer auf dieser Website hinzu (erforderlich).
 
-    3. Hinzufügen von Netzwerkdetails: WAN-fähig, WAN-Kapazität, Internet-Ausstieg ( **lokal** oder **Remote** ) und PSTN-Ausgang (keine, lokal oder Remote).
+    3. Hinzufügen von Netzwerkdetails: WAN-fähig, WAN-Kapazität, Internet-Ausstieg (**lokal** oder **Remote**) und PSTN-Ausgang (keine, lokal oder Remote).
 
       > [!NOTE]
       > Sie müssen WAN-und Internet Kapazitäts Nummern hinzufügen, um bestimmte Bandbreiten Empfehlungen anzuzeigen, wenn Sie einen Bericht generieren.
