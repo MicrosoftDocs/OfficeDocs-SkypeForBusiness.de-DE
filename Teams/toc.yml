@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: 'Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen'
           href: upload-custom-apps.md
+        - name: Benutzerdefinierter Apps Store
+          href: customize-your-app-store.md
     - name: App-Zertifizierung
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Anzeigen von App-Berechtigungen und erteilen der Administrator-Zustimmung im Microsoft Teams Admin Center
@@ -240,7 +242,7 @@
       items:
         - name: Übersicht
           href: rooms/index.md
-        - name: Plan
+        - name: Planen
           items:
             - name: Übersicht über die Planung von Microsoft Teams-Räumen
               href: rooms/rooms-plan.md
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Verwalten des Whiteboards in Teams
       href: manage-whiteboard.md
-    - name: Einrichten von Teams-Besprechungs-Add-on für Google Workspace
-      href: add-gsuite-thru-aad.md
     - name: Audiokonferenz
       items:
         - name: Ihre Bereitstellung planen
