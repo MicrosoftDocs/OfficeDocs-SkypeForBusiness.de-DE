@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420925"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611469"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -45,6 +45,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup3;         |
 |Anzahl der privaten Kanäle pro Team    |30| (einschließlich gelöschter Kanäle)&sup3;
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
+|Maximale Größe einer Verteilerliste, einer Sicherheitsgruppe oder einer Office 365-Gruppe, die in ein Team importiert werden kann.    |3.500|
 |Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10.000<sup>5</sup>     |
 |Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>4</sup> |
 
@@ -127,7 +128,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Feature     | Obergrenze |
 |------------|---------------|
 |Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 350 |
-|Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
+|Anzahl von Personen in einem aus der Chatregisterkarte gestarteten Video- oder Audioanruf | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2 GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
 
@@ -179,7 +180,7 @@ Die Anwesenheit in Teams wird in Outlook ab der Outlook 2013-Desktop-App und hö
 Jedes Team in Microsoft Teams verfügt über eine Teamsite in SharePoint Online, und jeder Kanal in einem Team erhält einen Ordner innerhalb der Dokumentbibliothek der Standardteamsite. In einer Unterhaltung freigegebene Dateien werden automatisch zur Dokumentbibliothek hinzugefügt, und in SharePoint festgelegte Berechtigungen und Dateisicherheitsoptionen werden automatisch in Teams übernommen.
 
 > [!NOTE]
-> Jeder [private Kanal](https://docs.microsoft.com/microsoftteams/private-channels) hat seine eigene SharePoint-Websitesammlung.
+> Jeder [private Kanal](https://docs.microsoft.com/microsoftteams/private-channels) hat seine eigene SharePoint-Website (bisher als „Websitesammlung“ bezeichnet).
 
 Wenn Sie SharePoint Online nicht in Ihrem Mandanten aktiviert haben, können Microsoft Teams-Benutzer nicht immer Dateien in Teams freigeben. Benutzer im privaten Chat können Dateien auch nicht freigeben, weil OneDrive for Business (mit der SharePoint-Lizenz verknüpft) für diese Funktionalität erforderlich ist.
 
@@ -190,10 +191,10 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 |Feature                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Speicher                 |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz   |1 TB pro Organisation plus 10 GB pro erworbener Lizenz |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation           |
-|Speicher für Teams-Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
-|Maximale Größe für Dateiuploads (pro Datei)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
+|Speicher für Teams-Dateien |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |
+|Maximale Größe für Dateiuploads (pro Datei)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-Kanäle werden durch für das Team erstellte Ordner innerhalb der SharePoint Online-Websitesammlung gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
+Kanäle werden durch für das Team erstellte Ordner innerhalb der SharePoint Online-Website (bisher als „Websitesammlung“ bezeichnet) gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
 
 Weitere Informationen finden Sie unter [SharePoint Online-Beschränkungen](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
