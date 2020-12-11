@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Mit der Anruf Freigabe und der Gruppenanruf-Pickup können Benutzer eingehende Anrufe an Kollegen weiterleiten, damit Anrufe aufgenommen werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 6c97c2710e7dd5e9be896e0c79db786f3a4d81b2
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 825e174a6b6f68adcc7b5aade212689b01309c24
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582642"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620721"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -36,7 +36,7 @@ Mit den Funktionen für Anruf Freigabe und Gruppenanruf-Abholung von Microsoft T
 
 Die Gruppenanruf Abholung ist weniger störend für Empfänger als andere Formen der Anruf Freigabe (wie Anrufweiterleitung oder gleichzeitiges Klingeln), da Benutzer konfigurieren können, wie Sie über einen eingehenden freigegebenen Anruf benachrichtigt werden möchten (über Audio-und visuelle Benachrichtigung, nur visuell oder Banner in der Teams-APP), und Sie können entscheiden, ob Sie Sie beantworten möchten.
 
-Um Anrufe mit anderen zu teilen, erstellt ein Benutzer eine anrufgruppe und fügt die Benutzer hinzu, deren Anrufe Sie freigeben möchten. Dann wählen Sie eine gleichzeitige Ring-oder Forward-Einstellung aus. Weitere Informationen finden Sie unter [Anrufweiterleitung und gleichzeitiges anrufen in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
+Um Anrufe mit anderen zu teilen, erstellt ein Benutzer eine anrufgruppe und fügt die Benutzer hinzu, deren Anrufe Sie freigeben möchten. Dann wählen Sie eine gleichzeitige Ring-oder Forward-Einstellung aus. Weitere Informationen finden Sie unter [Anrufweiterleitung und gleichzeitiges anrufen in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) . Beachten Sie, dass Mobile Geräte nur benachrichtigt werden, wenn Sie für Banner und Klingelton festgesetzt sind.
 
 > [!IMPORTANT]
 > Benutzer, der Besitzer der anrufgruppe und Mitglieder der anrufgruppe müssen sich nur im Bereitstellungsmodus von Teams befinden. Weitere Informationen zu den Bereitstellungsmodi für Teams finden Sie Untergrund [Legendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md) .

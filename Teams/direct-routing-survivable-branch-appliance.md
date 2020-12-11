@@ -3,7 +3,7 @@ title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 3204bc58b083f62feca3f878d2189558b69af6bd
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611789"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620726"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>Überlebensfähige Branch Appliance (SBA) für direktes Routing – öffentliche Vorschau
 
@@ -42,7 +42,7 @@ In diesem Artikel wird beschrieben, wie Sie eine Survivable Branch Appliance (SB
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Die SBA ist ein Verteilungs Code, der von Microsoft an SBC-Anbieter bereitgestellt wird, die den Code dann in die Firmware Ihres SBCS einbetten. 
+Die SBA ist ein Verteilungs Code, der von Microsoft an SBC-Anbieter bereitgestellt wird, die dann Code in Ihre Firmware einbetten oder separat verteilen, damit SBA auf einem separaten VM oder auf einer anderen Hardware ausgeführt werden kann. 
 
 Wenden Sie sich an Ihren SBC-Anbieter, um die neueste Session Border Controller-Firmware mit der eingebetteten Survivable Branch-Appliance zu erhalten. Darüber hinaus ist Folgendes erforderlich:
 
