@@ -18,15 +18,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031481"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611809"
 ---
-<a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der Microsoft Teams Exploratory-Lizenz
-=======================================================
+# <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 
 Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion](iw-trial-teams.md) wurde durch die explorative Microsoft Teams-Umgebung ersetzt.
 
@@ -68,16 +67,16 @@ Benutzern muss (im Microsoft 365 Admin Center) die Möglichkeit bereitgestellt w
 
 Benutzer erfüllen nicht die Kriterien, wenn sie:
 
-- Teams gegenwärtig oder früher als bezahlte, unbezahlte oder Probelizenz verwendeten 
+- Teams zurzeit oder früher als kostenpflichtige oder unbezahlte Lizenz oder aber als Testlizenz verwenden bzw. verwendet haben
 - Zu einem Mandanten gehören, der mindestens ein spezielles COVID-Angebot nutzte/empfing.
 
 Ihre Organisation ist nicht für dieses Angebot berechtigt, wenn Sie ein Syndication-Partnerkunde oder ein GCC-, GCC High-, DoD- oder EDU-Kunde sind.
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>So können Benutzer sich für die explorative Microsoft Teams-Umgebung registrieren
 
-Berechtigte Benutzer können sich für die explorative Microsoft Teams-Umgebung registrieren, indem sie sich bei Microsoft Teams ([teams.microsoft.com](https://teams.microsoft.com)) anmelden. Daraufhin wird ihnen automatisch diese Lizenz zugewiesen. Der Mandantenadministrator erhält eine E-Mail-Benachrichtigung, wenn eine Person in Ihrer Organisation die Microsoft Teams Exploratory-Umgebung zum ersten Mal startet.
+Berechtigte Benutzer können sich für die explorative Microsoft Teams-Umgebung (Microsoft Teams Exploratory) registrieren, indem sie sich bei Microsoft Teams ([teams.microsoft.com](https://teams.microsoft.com)) anmelden. Zurzeit wird das Aktivieren von Exploratory über ein mobiles Gerät nicht unterstützt. Bei ihrer Anmeldung wird berechtigten Benutzern diese Lizenz automatisch zugewiesen. Der Mandantenadministrator erhält eine E-Mail-Benachrichtigung, wenn eine Person in seiner Organisation die Microsoft Teams Exploratory-Umgebung zum ersten Mal startet.
 
-## <a name="manage-the-teams-exploratory-experience"></a>Verwalten der Microsoft Teams Exploratory-Umgebung
+## <a name="manage-the-teams-exploratory-experience"></a>Verwalten der Microsoft Teams Exploratory-Umgebung
 
 Die Microsoft Teams Exploratory-Umgebung ist für die Initialisierung durch einzelne Endbenutzer bestimmt, und Sie sind nicht berechtigt, dieses Angebot im Namen von Endbenutzern oder Angestellten zu initiieren.
 
@@ -91,11 +90,11 @@ Sie können die Möglichkeit eines Benutzers zum Installieren von Test-Apps und 
 
 1. Navigieren Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Organisationseinstellungen**, wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
 
-    ![die Seite "Dienste" im Admin Center](media/iw-trial-services.png)
+    ![die Seite „Dienste“ im Admin Center](media/iw-trial-services.png)
 
-2. Deaktivieren Sie das Kontrollkästchen **Benutzer Test-Apps und -dienste installieren lassen**. 
+2. Deaktivieren Sie das Kontrollkästchen **Benutzer Test-Apps und -dienste installieren lassen**.
 
-    ![die Seite "Apps und Dienste im Besitz des Benutzers" im Admin Center](media/iw-trial-user-owned-apps-services.png)
+    ![die Seite „Apps und Dienste im Besitz des Benutzers" im Admin Center](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > Wenn Ihre Organisation nicht berechtigt ist, die explorative Microsoft Teams-Umgebung in Anspruch zu nehmen, wird die Option **Benutzer Test-Apps und -dienste installieren lassen** nicht angezeigt.
@@ -170,15 +169,15 @@ Informationen hierzu finden Sie unter [Informationen zum Microsoft 365-Abonnemen
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Wie lange die Teams Exploratory-Umgebung verfügbar ist
 
-Die Microsoft Teams Exploratory-Umgebung wird ohne zusätzliche Kosten bis zum nächsten **Fälligkeitstag Ihres Vertrags** oder nach **Verlängerung** am oder ab Januar 2021 verfügbar sein. Zu diesem Zeitpunkt müssen Endbenutzer mit einer Microsoft Exploratory-Lizenz zu einer kostenpflichtigen Lizenz wechseln, die Microsoft Teams umfasst. Alle Lizenzen für die Microsoft Exploratory-Umgebung, die danach initiiert werden, bleiben bis zum nächsten **Jubiläum** oder **Verlängerungszyklus** ohne zusätzliche Kosten erhältlich.
+Die Microsoft Teams Exploratory-Umgebung wird ohne Zusatzkosten für 12 Monate (ab der ersten Benutzerregistrierung) plus einer zusätzlichen Nachfrist von 30 Tagen bereitgestellt. Zu diesem Zeitpunkt müssen Endbenutzer mit einer Lizenz für die Microsoft Exploratory-Umgebung zu einer kostenpflichtigen Lizenz wechseln, die Microsoft Teams enthält. Dasselbe Enddatum gilt für alle Benutzer in demselben Mandanten, wobei die 12-Monats-Frist ab dem Anmeldedatum des ersten Benutzers beginnt.
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>Was geschieht, wenn ein Endbenutzer kurz vor dem Fälligkeits- oder Verlängerungsdatum mit der Nutzung der Microsoft Teams Exploratory-Umgebung beginnt?
+### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>Was geschieht, wenn ein Endbenutzer kurz vor dem Fälligkeits- oder Verlängerungsdatum mit der Nutzung der Microsoft Teams Exploratory-Umgebung beginnt?
 
 Lizenzen für die Microsoft Teams Exploratory-Umgebung, die innerhalb von 90 Tagen nach dem **Fälligkeitstag** oder der **Verlängerung des Vertrags** begonnen wurden, sind bis zum anschließenden Fälligkeitstag oder Verlängerungszyklus nicht zum Wechsel zu einer kostenpflichtigen Lizenz verpflichtet.
 
-### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>Was ist zu tun, wenn mein Vertrag keinen Fälligkeits- oder kein jährliches Verlängerungsdatum aufweist (z. B. Monatsverträge)?
+### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>Was ist zu tun, wenn mein Vertrag keinen Fälligkeits- oder jährliches Verlängerungsdatum aufweist (z. B. Monatsverträge)?
 
-Bei Verträgen ohne Fälligkeits- oder jährliches Verlängerungsdatum wird das Folgejahr, nachdem der erste Endbenutzer die Lizenz für die Microsoft Teams Exploratory-Umgebung aktiviert hat, als Fälligkeits- oder Verlängerungsdatum behandelt. Benutzer mit der Lizenz für die Microsoft Teams Exploratory-Umgebung müssen bis zu diesem Datum jedes Jahr gemäß den in diesem Artikel genannten Richtlinien zu einer kostenpflichtigen Lizenz wechseln.
+Bei Verträgen ohne Fälligkeits- oder jährliches Verlängerungsdatum wird das Folgejahr, nachdem der erste Endbenutzer die Microsoft Teams Exploratory-Lizenz aktiviert hat, als Fälligkeits- oder Verlängerungsdatum behandelt. Benutzer mit der Lizenz für die Microsoft Teams Exploratory-Umgebung müssen bis zu diesem Datum jedes Jahr entsprechend den in diesem Artikel genannten Richtlinien zu einer kostenpflichtigen Lizenz wechseln.
 
 Wenn der erste Endbenutzer Microsoft Teams Exploratory zum Beispiel am 19. Juni 2020 aktiviert, müssen er und alle anderen berechtigten Benutzer im Kundenmandanten bis zum 19. Juni 2021 auf eine kostenpflichtige Lizenz mit Teams umsteigen.
 
