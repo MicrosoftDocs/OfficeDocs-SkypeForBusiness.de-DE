@@ -25,14 +25,14 @@ ms.custom:
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
 ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
 ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/09/2020
 ms.locfileid: "44665887"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
-Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Organisation automatisch Dial-in-Telefonnummern zugewiesen. Um die Telefonnummern anzuzeigen, die ihrer Audiokonferenz-Brücke zugewiesen sind, gehen Sie im Microsoft Teams Admin Center zu **Besprechungen**  >  **Konferenz Brücken**. Weitere Informationen [finden Sie unter Anzeigen einer Liste von Audiokonferenz-Nummern](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Organisation automatisch Dial-in-Telefonnummern zugewiesen. Um die Telefonnummern im Microsoft Teams Admin Center anzuzeigen, die an Ihre Audiokonferenzbrücke zugewiesen sind, wechseln Sie zu **Besprechungen** > **Konferenzbrücken**. Weitere Informationen finden Sie unter [Anzeigen einer Liste mit Audiokonferenz-Telefonnummern](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Verfügbarkeit von Audiokonferenzen und Preise
@@ -41,7 +41,7 @@ Eine vollständige Liste aller Länder/Regionen und Städte, in denen Audiokonfe
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Dial-in-Telefonnummern in einer Besprechungseinladung
 
-Wenn Microsoft Teams-Benutzer in Outlook oder Outlook Web App eine Besprechung planen, wird die für sie festgelegte standardmäßige Audiokonferenz-Telefonnummer in der Besprechungseinladung angegeben. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie dies ändern, indem Sie zu **Benutzer**wechseln, den Benutzer auswählen und die Einstellungen für die Audiokonferenz des Benutzers bearbeiten. Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
+Wenn Microsoft Teams-Benutzer in Outlook oder Outlook Web App eine Besprechung planen, wird die für sie festgelegte standardmäßige Audiokonferenz-Telefonnummer in der Besprechungseinladung angegeben. Wenn Sie für einen oder mehrere Benutzer eine andere Standardnummer auswählen möchten, können Sie die Nummer ändern, indem Sie zu **Benutzer** wechseln, die Benutzer auswählen und ihre Audiokonferenzeinstellungen ändern. Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Für eine Audiokonferenzbrücke festgelegte Dial-in-Telefonnummern
@@ -50,7 +50,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
 - **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
-- **Freigegebene Telefonnummern** sind die Telefonnummern, die für andere Microsoft 365 oder Office 365 freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn sich jemand an eine dieser Nummern anmeldet, nicht ändern.
+- **Freigegebene Telefonnummern** sind Telefonnummern, die an andere Microsoft 365 oder Office 365 freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn jemand unter diesen Nummern anruft, nicht ändern.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
   
@@ -78,4 +78,4 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
    
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
