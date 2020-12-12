@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650878"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661900"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -81,7 +81,7 @@ Microsoft Teams arbeitet mit verschiedenen Microsoft 365-und Office 365-Diensten
 - Benutzer müssen für die Erstellung von Microsoft 365-Gruppen aktiviert sein, damit Sie Teams in Microsoft Teams erstellen können.
 
   > [!IMPORTANT]
-  > Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den Modus **nur für Teams** verschoben haben, funktioniert die Anwesenheit in Outlook und anderen Office-Apps möglicherweise nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Um dieses Problem zu beheben, wählen Sie Ihr Profilbild in der oberen rechten Ecke von Microsoft Teams aus, und wählen Sie dann **Einstellungen**aus. Wählen Sie auf der Registerkarte **Allgemein** unter **Anwendung** **die Option Teams als Chat-App für Office registrieren aus (erfordert einen Neustart von Office-Anwendungen)**. Nachdem Sie diese Option ausgewählt haben, schließen Sie alle Office-Apps, einschließlich Outlook, und öffnen Sie Sie erneut. Nachdem Sie Outlook geöffnet haben, stehen die Anwesenheitsinformationen zur Verfügung.
+  > Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den Modus **nur für Teams** verschoben haben, funktioniert die Anwesenheit in Outlook und anderen Office-Apps möglicherweise nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei. Um dieses Problem zu beheben, wählen Sie Ihr Profilbild in der oberen rechten Ecke von Microsoft Teams aus, und wählen Sie dann **Einstellungen** aus. Wählen Sie auf der Registerkarte **Allgemein** unter **Anwendung** **die Option Teams als Chat-App für Office registrieren aus (erfordert einen Neustart von Office-Anwendungen)**. Nachdem Sie diese Option ausgewählt haben, schließen Sie alle Office-Apps, einschließlich Outlook, und öffnen Sie Sie erneut. Nachdem Sie Outlook geöffnet haben, stehen die Anwesenheitsinformationen zur Verfügung.
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Voraussetzungen für das Erstellen und Anzeigen von Besprechungen für Lokal gehostete Postfächer
 
@@ -124,6 +124,8 @@ Im folgenden finden Sie einige zusätzliche Dinge, die Sie berücksichtigen soll
 - Wenn Ihre Organisation über Compliance-Anforderungen verfügt, um sicherzustellen, dass alle Besprechungs Diskussionen auffindbar sind, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt. Weitere Informationen finden Sie unter [Zulassen der Planung privater Besprechungen](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - In einer Exchange-hybridbereitstellung können Inhalte aus Chatnachrichten unabhängig davon durchsucht werden, ob Chat-Teilnehmer über ein Cloud-basiertes Postfach oder ein lokales Postfach verfügen. Weitere Informationen finden Sie unter [Suchen von Cloud-basierten Postfächern für lokale Benutzer](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Wenn Sie mehr über die Suche nach Inhalten in Teams erfahren möchten, lesen Sie [die Inhaltssuche im Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
+- Für den Anwesenheitsstatus müssen Microsoft Teams überprüfen, ob das Postfach auf Exchange Online oder lokal gehostet wird. Der Dienst entscheidet dann, wo auf das Postfach zugegriffen werden soll. Damit der Team Dienst den Post Fach Standort über den übrigen API-Aufruf an den Exchange Online-Dienst überprüfen kann, müssen Sie eine Exchange-Hybridumgebung bereitstellen, indem Sie den Exchange-Assistenten für die Hybrid Konfiguration ausführen, wie unter [Erstellen einer hybridbereitstellung mit dem Hybrid Konfigurations-Assistenten](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid)beschrieben.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 

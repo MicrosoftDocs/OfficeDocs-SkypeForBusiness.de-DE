@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
-ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
-ms.translationtype: HT
+ms.openlocfilehash: 09090cc2061c3d138af2b3092e987293255a1134
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49476994"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662040"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
@@ -37,7 +37,7 @@ Für alle Gäste in Microsoft Teams gelten dieselben Compliance- und Überwachun
 Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Eine vollständige Liste dessen, was ein Gast in Microsoft Teams tun kann und was nicht, finden Sie unter [Vergleich der Funktionen für Teammitglieder und Gäste](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
-> Gastbenutzer folgen den organisationsweiten Einstellungen in Teams für den Upgrade-Modus. Dies kann nicht geändert werden.
+> Die Gäste folgen den organisationsweiten Teams-Einstellungen für den Koexistenz-Aktualisierungsmodus. Dies kann nicht geändert werden.
 
 Informationen zum Einrichten des Gastzugriffs finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
 
@@ -57,10 +57,10 @@ Der Gastzugriff ist eine organisationsweite Einstellung in Microsoft Teams, die 
 1. Ein Teambesitzer oder ein Microsoft 365-Administrator [fügt einen Gast zu einem Team hinzu](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Der Gast empfängt eine Willkommens-E-Mail vom Teambesitzer mit Informationen über das Team und darüber, was ihn als Mitglied nun erwartet.
 3. Der Gast akzeptiert die Einladung.
-  Gastbenutzer, die ein Geschäfts-, Uni- oder Schulkonto in Azure Active Directory verwenden, können die Einladung annehmen und sich direkt authentifizieren. Andere Benutzer erhalten einen einmaligen Zugangscode, um ihre Identität zu überprüfen ([Authentifizierung durch Einmalkennung](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) erforderlich).
+  Gäste, die über ein Firmen-oder Schulkonto in Azure Active Directory verfügen, können die Einladung annehmen und sich direkt authentifizieren. Andere Benutzer erhalten einen einmaligen Zugangscode, um ihre Identität zu überprüfen ([Authentifizierung durch Einmalkennung](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) erforderlich).
 4. Nach dem Akzeptieren der Einladung kann der Gast [an Teams und Kanälen teilnehmen](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), Kanalnachrichten empfangen und darauf reagieren, [auf Dateien in Kanälen zugreifen](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), an Besprechungen und Chats teilnehmen, an Dokumenten zusammenarbeiten und mehr. 
 
-In Teams sind Gäste eindeutig zu erkennen. Der Name eines Gastbenutzers enthält die Bezeichnung **(Gast)**, und in einem Kanal wird durch ein Symbol auf eine Gastteilnahme im Team hingewiesen. Weitere Details finden Sie unter [Gastfunktionalität](guest-experience.md).
+In Teams sind Gäste eindeutig zu erkennen. Der Name eines Gasts enthält das Label **(Guest)**, und ein Kanal enthält ein Symbol, um anzugeben, dass Gäste im Team anwesend sind. Weitere Details finden Sie unter [Gastfunktionalität](guest-experience.md).
   
 Gäste können das Team jederzeit von Teams aus verlassen. Einzelheiten finden Sie unter [Wie verlasse ich ein Team?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
@@ -84,7 +84,7 @@ Sie können selbst eine Überprüfung des Gastzugriffs durchführen, Gäste bitt
 
 [Zusammenarbeit mit Personen außerhalb Ihrer Organisation](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[Gäste am Zugriff auf bestimmte Microsoft 365-Gruppen oder Microsoft Teams-Teams hindern](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Sperren von Gästen aus einer bestimmten Microsoft 365-Gruppe oder einem Microsoft Teams-Team](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [Erstellen einer sicheren Umgebung für die Gastfreigabe](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 

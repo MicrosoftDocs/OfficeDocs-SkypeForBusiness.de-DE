@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 51a28e997e5c7c0b36fb49cd0bb46768b7808a29
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800598"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662220"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Verwenden von Teams-Fertigungs Vorlagen im Admin Center
 
@@ -42,7 +42,7 @@ Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Sch
 
 Zentralisieren Sie die Kommunikation, den Zugriff auf Ressourcen und den Anlagenbetrieb mit einem Produktionsanlagen Team. Einbeziehen von Richtlinien-und Prozedur Dokumenten, Schulungsvideos, Sicherheitshinweise, schichtübergabe Prozesse.
 
-| Basis Vorlagentyp|baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| Basis Vorlagentyp|baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-|Qualität und Sicherheit|`com.microsoft.teams.template.QualitySafety` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Qualität und Sicherheit|`com.microsoft.teams.template.QualitySafety` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li><li>Planner</li></ul>|
 ||||

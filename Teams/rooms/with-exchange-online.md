@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams-Raum mit Exchange online
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online und Skype for Business Server lokal.
-ms.openlocfilehash: e39a7f2cde6aef7bdee59f2052c789783d62f905
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 82fa0b1b521c7dd2feadcca2030869b746a444aa
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814514"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662310"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 

@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a158850a70a0410c9be7cb434d6f0868d68218f5
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: caef10a4e9b659ce18e05df65bf2a441248ec493
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655502"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662070"
 ---
 # <a name="use-general-teams-templates-in-the-admin-center"></a>Verwenden von allgemeinen Teams-Vorlagen im Admin Center
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
 
@@ -46,7 +44,7 @@ Zentralisieren Sie die Zusammenarbeit für Ihr Krisenteam unternehmensübergreif
 
 | Basis Vorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |--|----------------------------------------------------------|
-| Zusammenarbeiten an globaler Krise oder Veranstaltung |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
+| Zusammenarbeiten an globaler Krise oder Veranstaltung |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Externe Comms</li><li>Genehmigungsanforderung</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="adopt-office-365"></a>Übernehmen von Office 365
@@ -64,7 +62,7 @@ Verwalten von Aufgaben, Freigeben von Dokumenten, durchführen von Projektbespre
 
 | Basis Vorlagentyp| baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|--|-----------------------------------------------------------|
-| Verwalten eines Projekts| com. Microsoft. Teams. Template. ManageAProject  | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+| Verwalten eines Projekts| `com.microsoft.teams.template.ManageAProject`  | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li><li>Planner</li><li>Listen</li> </ul> |
 ||||
 
 ## <a name="manage-an-event"></a>Verwalten eines Ereignisses
@@ -84,7 +82,7 @@ Verbessern Sie Ihre Kultur, und optimieren Sie Ihre Mitarbeiter an Bord mit dies
 
 | Basis Vorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|--|-----------------------------------------------------------|
-|Onboard-Mitarbeiter|`com.microsoft.teams.template.OnboardEmployees`  | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li></ul>|
+|Onboard-Mitarbeiter|`com.microsoft.teams.template.OnboardEmployees`  | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="organize-a-help-desk"></a>Organisieren eines Helpdesks
@@ -93,5 +91,5 @@ Zusammenarbeiten an Dokumentation, Richtlinien und Prozessen, die Ihren Helpdesk
 
 | Basis Vorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|--|------------------------------------------------------------|
-|Organisieren des Helpdesks|`com.microsoft.teams.template.OrganizeHelpDesk`| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
+|Organisieren des Helpdesks|`com.microsoft.teams.template.OrganizeHelpDesk`| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li><li>Planner </li><li>Lob </li></ul> |
 ||||

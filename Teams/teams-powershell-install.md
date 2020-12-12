@@ -13,12 +13,12 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f008d154099c57376fca914d576d7c9df4487780
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: cd5b38dd3a43a405794209a9dc7ac4a4468386ef
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814464"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662020"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installieren von Microsoft Teams PowerShell
 
@@ -43,7 +43,7 @@ Verwenden Sie die **PowerShellGet** -Cmdlets, um das PowerShell-Modul von Teams 
 Install-Module MicrosoftTeams
 ```
 
-Standardmäßig ist der PowerShell-Katalog (PSGallery) nicht als vertrauenswürdiges Repository für **PowerShellGet**konfiguriert. Wenn Sie das PSGallery zum ersten Mal verwenden, wird die folgende Meldung angezeigt:
+Standardmäßig ist der PowerShell-Katalog (PSGallery) nicht als vertrauenswürdiges Repository für **PowerShellGet** konfiguriert. Wenn Sie das PSGallery zum ersten Mal verwenden, wird die folgende Meldung angezeigt:
 
 ```console
 Untrusted repository
@@ -65,7 +65,7 @@ Beantworten Sie " **Ja** " oder " **Ja",** um mit der Installation fortzufahren.
 
 Das Installieren des Public Preview-Moduls für Teams PowerShell für alle Benutzer in einem System erfordert erhöhte Berechtigungen. Starten Sie die PowerShell-Sitzung mit " **als Administrator ausführen** " in Windows, oder verwenden Sie den `sudo` Befehl unter macOS oder Linux.
 
-Wenn Sie PowerShell 5,1 verwenden, müssen Sie das **PowerShellGet** -Modul vorher aktualisieren. Nachdem Sie **PowerShellGet**aktualisiert haben, schließen Sie eine erhöhte PowerShell-Sitzung, und öffnen Sie Sie erneut, um sicherzustellen, dass die neueste **PowerShellGet** geladen wurde.
+Wenn Sie PowerShell 5,1 verwenden, müssen Sie das **PowerShellGet** -Modul vorher aktualisieren. Nachdem Sie **PowerShellGet** aktualisiert haben, schließen Sie eine erhöhte PowerShell-Sitzung, und öffnen Sie Sie erneut, um sicherzustellen, dass die neueste **PowerShellGet** geladen wurde.
 
 ```powershell
 Install-Module PowerShellGet -Force -AllowClobber
@@ -77,7 +77,7 @@ Führen Sie den folgenden PowerShell-Befehl aus, um Teams PowerShell Public Prev
 > Sie können die aktuelle Preview-Version im [PowerShell-Katalog](https://www.powershellgallery.com/packages/MicrosoftTeams) oder in PowerShell finden, indem Sie "suchen-Modul Microsoft Teams-AllowPrerelease" ausführen.
 
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 ```
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Installieren des Skype for Business Online-Connectors

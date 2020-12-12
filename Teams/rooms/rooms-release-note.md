@@ -1,7 +1,7 @@
 ---
 title: Anmerkungen zu dieser Version
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625121"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662400"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -29,6 +29,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
@@ -69,27 +70,37 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
 
+### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020)
+
+In diesem Update eingeführt:
+
+- Freigeben von HDMI-Audio an Besprechungsteilnehmer in der Teambesprechung
+- Verhindern Sie die Stummschaltung auf der Grundlage von audioberechtigungen, wenn Team Room als Teilnehmer Beitritt. Weitere Informationen finden Sie unter [Verwalten von audioberechtigungen für Teilnehmer in Teams-Besprechungen](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Spotlight für das Video einer anderen Person aus der Team Room-Konsole und Verwenden von Spotlight-Video auf Raum anzeigen
+
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
 In diesem Update eingeführt:
+
 - Fehlerbehebung für den weißen halb Bildschirm beim Aufrufen der Bildschirmtastatur in der Teambesprechung
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 
 In diesem Update eingeführt:
+
 - Anzeigen weiterer Videos mit 3X3-Video Katalog auf der Vorderseite der Raum anzeigen  
-- Starten von lokalen Live-Untertiteln von MTR 
+- Starten von lokalen Live-Untertiteln von MTR
 - Teilnehmen an Zoom Besprechungen aus TeamRooms mit direkter Gast Teilnahme (Preview)
 
 > [!NOTE]
-> 3X3-Video Galerie und lokale Live-Untertitel werden über den Microsoft Teams-Dienst bereitgestellt. Diese Funktionen stehen für alle Teams in den Räumen mit Anwendungsversion 4.5.37.0 und höher zur Verfügung. 
-
+> 3X3-Video Galerie und lokale Live-Untertitel werden über den Microsoft Teams-Dienst bereitgestellt. Diese Features sind für alle TeamRoom-Geräte mit Anwendungsversion 4.5.37.0 und höher verfügbar.
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 
 In diesem Update eingeführt:
-- Koordinierte Besprechungen zwischen Microsoft Teams und Surface Hub 2S 
-- Fix für Skype for Business-Anmeldefehler beim Installieren von [Windows 10 Update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) oder [Windows 10 Update KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709)
+
+- Koordinierte Besprechungen zwischen Microsoft Teams und Surface Hub 2S
+- Fix für Skype for Business-Anmeldefehler beim Installieren von [Windows 10 Update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) oder [Windows 10 Update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -136,7 +147,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Richtlinienupdates für "Windows-Updates für Unternehmen" 
+- Richtlinienupdates für "Windows-Updates für Unternehmen"
 - Fix für Geräteereignis Berichte mit Fehler in Azure Monitor
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
@@ -194,15 +205,14 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Behebt ein Problem mit der Funktion "Feedback senden" 
+- Behebt ein Problem mit der Funktion "Feedback senden"
 - Optimierungen in Vorbereitung auf das bevorstehende Microsoft Teams rooms-Geräte Upgrade auf Windows 10, Version 1809
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 In diesem Update eingeführt:
 
-- Beheben Sie den Fehler "beim Start der APP hängen", der die Geräte auf Legacy-RS2-Builds von Windows 10 beeinträchtigt hat. 
-
+- Beheben Sie den Fehler "beim Start der APP hängen", der die Geräte auf Legacy-RS2-Builds von Windows 10 beeinträchtigt hat.
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
@@ -213,7 +223,6 @@ In diesem Update eingeführt:
 - Verbesserungen bei Benachrichtigungen über Lobbys mit Hinzufügen der Benachrichtigung über den Chatroom
 - Das Symbol für die Vorderseite des Zimmers wird entfernt, wenn Bluetooth Beacon auf dem Microsoft Teams rooms-Gerät nicht aktiviert ist.
 - Beheben von Problemen mit der Lautstärkeregelung in Teams-Besprechungen
-
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
 
@@ -227,7 +236,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Dual-Display (Front of room)-Unterstützung für Teams-Besprechungen 
+- Dual-Display (Front of room)-Unterstützung für Teams-Besprechungen
 
 ### <a name="40310-10162018"></a>4.0.31.0 (10/16/2018)
 
@@ -262,6 +271,7 @@ In diesem Update eingeführt:
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 
 In diesem Update eingeführt:
+
 - Dieses Update ermöglicht die Unterstützung von Skype for Business *-und* Microsoft Teams-Besprechungen auf Raumsystem Geräten. Teams ist standardmäßig deaktiviert, sobald das Update angewendet wurde. Administratoren können Teams lokal in Geräteeinstellungen oder über einen Remote-XML-Push aktivieren.
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
@@ -293,7 +303,7 @@ In diesem Update eingeführt:
 
 ### <a name="311000-03162018"></a>3.1.100.0 (03/16/2018)
 
-In diesem Update eingeführt: 
+In diesem Update eingeführt:
 
 - Anwendung zur Verbesserung der Telemetrie aktualisiert
 
@@ -311,11 +321,7 @@ In diesem Update eingeführt:
 - Fehler/Absturz Korrekturen zur Verbesserung der Stabilität
 - Unterstützung für Console mit variabler Größe
 - Auslagerungsfunktion für periphere Audioverarbeitung (zusätzliche Medien Whitelist)
-- Optimierungen, mit deren Hilfe IT-Experten Bilder mit Windows 10, Version 1709 Januar und höher erstellen können. 
-
-<!--### 3.1.97.0 (00/00/0000)
-Introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
+- Optimierungen, mit deren Hilfe IT-Experten Bilder mit Windows 10, Version 1709 Januar und höher erstellen können.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
@@ -335,7 +341,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Läuft auf einem Surface pro (2017)-Tablet 
+- Läuft auf einem Surface pro (2017)-Tablet
 - Unterstützt Windows 10 Enterprise Creators Update (englische Sprache, Build 1703)
 - Unterstützung für [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Dock-Hardware
 - OEM-Unterstützung für Umgebungs Steuerelemente (Crestron)
@@ -358,7 +364,6 @@ In diesem Update eingeführt:
 - Verbesserte Telemetrie um die Zuverlässigkeit der Besprechungsteilnahme
 - Verbesserte OMS-Berichterstellung
 - Möglichkeit für IT-Administratoren, Geräte remote zu konfigurieren
- <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
@@ -380,7 +385,7 @@ In diesem Update eingeführt:
 - Unterstützt Skype for Business-PSTN-Konferenzen und -PSTN-Anrufe als Ersatz für das eigenständige Konferenztelefon in Ihrem Raum.
 
  **Neue Möglichkeiten für Besprechungsräume**
- 
+
 - Eigene Skype-Besprechungs-App mit Optimierung für einen Touchcontroller in der Tischmitte und einen großen Bildschirm vorn im Raum
 - Wieder verwenden vorhandener Anlagen in Ihrem Front-Room-Display oder Projektoren
 - Für alle Arten von Besprechungsräumen geeignet – von kleinen Besprechungsräumen bis hin zu großen Konferenzräumen
@@ -388,7 +393,7 @@ In diesem Update eingeführt:
 - Integrierte verkabelte Erfassung zum Projizieren der Desktopfreigabe in den Raum und die Skype-Besprechung
 
  **Leicht bereitzustellen, einfach zu verwalten**
- 
+
 - Always-On-Appliance, die die Anzeige automatisch aktiviert, wenn Sie Personen im Chatroom erkennt
 - Einfache Bereitstellung und Aktualisierung der UWP-App (Universal Windows Platform) für Skype-Besprechungen
 - Feste Bindung des Geräts an die Skype-Besprechungs-App durch Windows AppLocker
@@ -397,7 +402,7 @@ In diesem Update eingeführt:
 - Geringer Aufwand für Endbenutzerschulungen dank der vertrauten Skype-Benutzeroberfläche
 - Läuft auf Surface pro 4-Tablet
 
-<a name="See"> </a> 
+<a name="See"> </a>
 ## <a name="see-also"></a>Siehe auch
 
 [Microsoft Teams Rooms-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

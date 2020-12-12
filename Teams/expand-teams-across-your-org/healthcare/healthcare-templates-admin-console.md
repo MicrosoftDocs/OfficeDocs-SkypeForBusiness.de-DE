@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams-Vorlagen im Admin Center, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800668"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662230"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Verwenden von Teams Healthcare-Vorlagen im Admin Center
 
@@ -43,7 +43,7 @@ Wir bieten derzeit zwei First-Party Healthcare-Vorlagen an, die Sie für untersc
 
 | Basis Vorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |---|----------------------------------------------------- |
-| Zusammenarbeit bei der Patientenversorgung |`healthcareWard` | Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li>|
+| Zusammenarbeit bei der Patientenversorgung |`healthcareWard` | Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li><li>Listen</li></ul>|
 ||||
 
 ## <a name="hospital"></a>Krankenhaus
@@ -52,7 +52,7 @@ Optimieren Sie die Kommunikation und Zusammenarbeit zwischen mehreren Stationen,
 
 | Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-|Krankenhaus|`healthcareHospital`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Krankenhaus|`healthcareHospital`|Kanäle <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li><li>Listen </li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Verwandte Themen

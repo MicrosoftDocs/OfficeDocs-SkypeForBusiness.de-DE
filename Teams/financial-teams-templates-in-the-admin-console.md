@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 34a462a38581eec8720bd2184749b842aaa6d06f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424605"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662510"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-center"></a>Verwenden von Financial Templates für Teams im Admin Center
 
@@ -44,7 +44,7 @@ Zentralisieren Sie die Zusammenarbeit für Ihr Krisenteam unternehmensübergreif
 
 | Basis Vorlagentyp|baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-| Zusammenarbeiten an globaler Krise oder Veranstaltung|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
+| Zusammenarbeiten an globaler Krise oder Veranstaltung|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Genehmigungsanforderung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>Zusammenarbeiten in einer Bankfiliale
@@ -53,6 +53,6 @@ Zentralisieren Sie die Zusammenarbeit für Ihre Mitarbeiter in der Bankfiliale i
 
 | Basis Vorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |--|----------------------------------------------------- |
-|Zusammenarbeiten in einer Bankfiliale|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Kauert</li><li>Kundenbesprechungen</li><li>Coaching</li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>|
+|Zusammenarbeiten in einer Bankfiliale|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Kauert</li><li>Kundenbesprechungen</li><li>Genehmigungsanforderung</li><li>Coaching</li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>Apps<ul><li>Lob</li></ul>|
 ||||
 

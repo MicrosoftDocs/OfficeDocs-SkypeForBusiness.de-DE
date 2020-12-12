@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten Ihrer Umgebung
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räumen vorbereiten, damit Sie alle Features nutzen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
-ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
+ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529178"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662430"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -41,12 +41,12 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte, die erforderlich s
   
 3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Damit Microsoft Daten sammeln kann, können Sie diese Websites zulassen:
 
-   - Telemetrie-Clientendpunkt:https://vortex.data.microsoft.com/
-   - Endpunkt der Telemetrie-Einstellungen:https://settings.data.microsoft.com/
+   - Telemetrie-Clientendpunkt: https://vortex.data.microsoft.com/
+   - Endpunkt der Telemetrie-Einstellungen: https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Erstellen und Testen eines Gerätekontos
 
-Bei einem *Geräte Konto* handelt es sich um ein Konto, das der Microsoft Teams rooms-Client verwendet, um auf Features aus Exchange zuzugreifen, wie Kalender, und um Skype for Business zu aktivieren. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md) .
+Bei einem  *Geräte Konto*  handelt es sich um ein Konto, das der Microsoft Teams rooms-Client verwendet, um auf Features aus Exchange zuzugreifen, wie Kalender, und um Skype for Business zu aktivieren. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md) .
   
 ### <a name="check-network-availability"></a>Überprüfen der Netzwerkverfügbarkeit
 
@@ -86,7 +86,7 @@ Microsoft Teams rooms wurde entwickelt, um Proxy Einstellungen vom Windows-Betri
 
 7. Sie werden aufgefordert, einen Schlüsselnamen für die neu geladene Struktur zu erhalten. Geben Sie Skype ein (die Registrierungseinstellungen für den Skype-Nutzer sollten nun angezeigt werden).
  
-8. Öffnen Sie den Skype-Schlüssel und navigieren Sie zu HKEY_USERS \skype\software\microsoft\windows\currentversion\internet-Einstellungen, und stellen Sie sicher, dass diese Einstellungen eingegeben werden: 
+8. Öffnen Sie den Skype-Schlüssel und navigieren Sie zu HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings stellen Sie dann sicher, dass diese Einstellungen eingegeben werden: 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -157,7 +157,7 @@ Das Kennwort des lokalen Administrators wird während des Setups nicht als Auswa
 
 Ähnlich wie bei einem beliebigen Windows-Gerät kann der Computer Name durch Klicken mit der rechten Maustaste in Einstellungen \> zum Umbenennen von PC umbenannt werden \> .
   
- Wenn Sie den Computer umbenennen möchten, nachdem Sie ihn einer Domäne hinzugefügt haben, verwenden Sie den Befehl Rename-Computer PowerShell gefolgt vom neuen Namen des Computers.
+ Wenn Sie den Computer umbenennen möchten, nachdem Sie ihn einer Domäne hinzugefügt haben, verwenden Sie den Rename-Computer PowerShell-Befehl gefolgt vom neuen Namen des Computers.
   
 ## <a name="related-topics"></a>Verwandte Themen
 

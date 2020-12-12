@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams-Räumen mit Exchange lokal
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen in einer Hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 71b1ab2ba641b25764f5c546343a3c7a597f121a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814534"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662320"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 

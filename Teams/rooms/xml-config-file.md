@@ -1,7 +1,7 @@
 ---
 title: Remoteverwaltung von Microsoft Teams rooms-Geräteeinstellungen
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Remote Verwaltung der Standardeinstellungen, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich Anwenden eines benutzerdefinierten Designs und Erstellen einer Master Einstellungsdatei
-ms.openlocfilehash: def2076398e54137c125489ef4da1fb84e4f57d2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b34d73f90d1a1bce02d6e2a63891d54a19d2a56
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521602"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662270"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -56,6 +56,9 @@ Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu
     <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
+    <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
+    <CortanaEnabled>false</CortanaEnabled>
+    <CortanaWakewordEnabled>false</CortanaWakewordEnabled>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -115,6 +118,9 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 | \<AutoAcceptProximateMeetingInvitations>    | Boolescher &#x2777;            | Erste &#x2776; | Wenn wahr, werden Näherungs basierte Besprechungen automatisch akzeptiert. Diese ist standardmäßig deaktiviert.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | \<DualScreenMode\>                          | Boolescher &#x2777;            | Erste &#x2776; | Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Single-Screen-Modus.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | Boolescher &#x2777;            | Erste &#x2776; | Wenn "true" festgelegt ist, wird der Inhalt auf beiden Bildschirmen im dualen Bildschirm angezeigt, wenn die Besprechung nicht stattfindet.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| \<DisableTeamsAudioSharing\>                  | Boolescher &#x2777;            | Erste &#x2776; | Auf "true" festlegen, um die HDMI-Audiofreigabe für Besprechungsteilnehmer in der Teambesprechung zu deaktivieren. Die Standardeinstellung lautet „false“.                  |
+| \<CortanaEnabled\>                  | Boolescher &#x2777;            | Erste &#x2776; | Auf "true" festlegen, um Cortana-Sprachkenntnisse zu aktivieren. Diese Einstellung hat keine Auswirkungen, es sei denn, der Cortana-Dienst wird in Ihrem Land oder Ihrer Region unterstützt, und Ihr angeschlossenes Audio-Peripheriegerät unterstützt Cortana. Die Standardeinstellung lautet „false“.                |
+| \<CortanaWakewordEnabled\>                  | Boolescher &#x2777;            | Erste &#x2776; | Auf "true" festlegen, um das Cortana-Aktivierungs Wort "Hey Cortana" zu aktivieren. Diese Einstellung hat keine Auswirkungen, es sei denn, der Cortana-Dienst wird in Ihrem Land oder Ihrer Region unterstützt, und Ihr angeschlossenes Audio-Peripheriegerät unterstützt Cortana. Die Standardeinstellung lautet „false“.                |
 | \<DisableTacCommunication\>                 | Boolescher &#x2777;            | Erste &#x2776; | Wenn "true" festgelegt ist, wird die gesamte Kommunikation mit dem Team Admin Center Device Management deaktiviert.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | \<SendLogs\>                                | Container                   | Erste &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | Zeichenfolge &#x2778;            |                | Legt eine optionale e-Mail-Adresse fest, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -174,7 +180,7 @@ So suchen Sie den Instanzen Pfad:
 1. Wechseln Sie in der Microsoft Teams rooms-Konsole zu Windows-Einstellungen.
 2. Geben Sie das Administratorkennwort ein.
 3. Geben Sie an der Eingabeaufforderung ein, `devmgmt.msc` um den Geräte-Manager aufzurufen.
-4. Suchen Sie im **Geräte-Manager**den Knoten **Imaging Devices** , und suchen Sie die Inhalts Kamera.
+4. Suchen Sie im **Geräte-Manager** den Knoten **Imaging Devices** , und suchen Sie die Inhalts Kamera.
 5. Klicken Sie mit der rechten Maustaste auf die Kamera, und öffnen Sie **Eigenschaften**.
 6. Wählen Sie die Registerkarte **Details** aus, und suchen Sie in der Dropdownliste die Eigenschaft **Geräteinstanzen Pfad** .
 7. Der angezeigte Wert ist der in der XML-Konfigurationsdatei zu definierende Device-Instanzen Pfad. Wenn Sie den Pfad in XML angeben, ersetzen Sie das kaufmännische und-Zeichen (&) durch `&amp;` .

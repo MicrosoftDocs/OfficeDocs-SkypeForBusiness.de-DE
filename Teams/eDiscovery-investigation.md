@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie vorgehen müssen, wenn Sie eDiscovery ausfüh
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: 25729dea68d2d8ea75fae894387316dfbcd1975a
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570824"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661910"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -54,10 +54,10 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 | Anführungszeichen | Ja | Zitierte Inhalte sind durchsuchbar. Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde. |
 | Audioaufzeichnungen | Nein | |
 
-<sup>1</sup> zu den Besprechungs Metadaten gehören die folgenden:
+<sup>1</sup> die Metadaten für Besprechungen (und Anrufe) umfassen Folgendes:
 
-- Start-und Endzeit der Besprechung oder des Anrufs und Dauer
-- Anruf-/Besprechungsteilnahme und Abwesenheits Ereignisse für jeden Teilnehmer
+- Anfangs-und Endzeit der Besprechung und Dauer
+- Besprechungsteilnahme-und Abwesenheits Ereignisse für jeden Teilnehmer
 - VoIP-Join/-Anrufe
 - Anonyme Verknüpfung
 - Föderationsbenutzer-Join
@@ -75,7 +75,7 @@ Im folgenden finden Sie ein Beispiel für Chat Unterhaltungen zwischen Teilnehme
 > [!div class="mx-imgBorder"]
 > ![Unterhaltung zwischen Teilnehmern in eDiscovery-Suchergebnissen](media/MeetingImConversation2.png)
 
-Wenn Sie eine eDiscovery-Untersuchung mit Microsoft Teams-Inhalten durchführen möchten, lesen Sie Schritt 1 unter [Erste Schritte mit der zentralen eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+Weitere Informationen zum Durchführen einer eDiscovery-Untersuchung finden Sie unter [Erste Schritte mit der zentralen eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
 Microsoft Teams-Daten werden als Chatnachrichten oder Unterhaltungen in der Excel-eDiscovery-Exportausgabe angezeigt. Sie können die `.pst` Datei in Outlook öffnen, um diese Nachrichten nach dem Export anzuzeigen.
 
@@ -89,7 +89,7 @@ Private Chats im Postfach eines Benutzers werden im Ordner "Team-Chat" unter "Ko
 
 Einträge für Nachrichten, die in einem privaten Kanal gesendet werden, werden an das Postfach aller Mitglieder des privaten Kanals und nicht an ein Gruppenpostfach übermittelt. Die Titel der Einträge sind so formatiert, dass sie angeben, von welchem privaten Kanal sie gesendet wurden.
 
-Da jeder private Kanal über eine eigene SharePoint-Websitesammlung verfügt, die von der übergeordneten Teamwebsite getrennt ist, werden Dateien in einem privaten Kanal unabhängig vom übergeordneten Team verwaltet.
+Da jeder private Kanal über eine eigene SharePoint-Website verfügt, die von der übergeordneten Teamwebsite getrennt ist, werden Dateien in einem privaten Kanal unabhängig vom übergeordneten Team verwaltet.
 
 Teams unterstützt keine eDiscovery-Suche in einem einzelnen Kanal innerhalb eines Teams, sodass das gesamte Team durchsucht werden muss. Wenn Sie eine eDiscovery-Suche nach Inhalten in einem privaten Kanal durchführen möchten, suchen Sie im Team, in der Websitesammlung, die dem privaten Kanal zugeordnet ist (um Dateien einzubeziehen), und Postfächern privater Kanalmitglieder (zum Einbeziehen von Nachrichten).
 
@@ -124,19 +124,70 @@ Bevor Sie diese Schritte ausführen, installieren Sie die [SharePoint Online-Ver
 
 Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass die [neueste Version des Teams PowerShell-Moduls](teams-powershell-overview.md) installiert ist.
 
-1. Führen Sie die folgenden Schritte aus, um eine Liste privater Kanäle im Team abzurufen.
+1. Führen Sie den folgenden Befehl aus, um eine Liste privater Kanäle im Team abzurufen.
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 
-2. Führen Sie die folgenden Schritte aus, um eine Liste privater Kanalmitglieder abzurufen.
+2. Führen Sie den folgenden Befehl aus, um eine Liste privater Kanalmitglieder abzurufen.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. Fügen Sie die Postfächer aller Mitglieder aus jedem privaten Kanal im Team als Teil ihrer eDiscovery-Suchabfrage ein.
+3. Fügen Sie die Postfächer aller Mitglieder aus jedem privaten Kanal im Team als Teil ihrer [eDiscovery-Suchabfrage](https://docs.microsoft.com/microsoft-365/compliance/search-for-content-in-core-ediscovery)ein.
+
+## <a name="search-for-content-for-guest-users"></a>Suchen nach Inhalten für Gastbenutzer
+
+Mithilfe von eDiscovery-Tools können Sie nach Team Inhalten suchen, die sich auf Gastbenutzer in Ihrer Organisation beziehen. Teamchat-Inhalte, die einem Gastbenutzer zugeordnet sind, werden in einem Cloud-basierten Speicherort aufbewahrt und können nach der Verwendung von eDiscovery durchsucht werden. Dazu gehören die Suche nach Inhalten in 1:1 und 1: N Chat Unterhaltungen, bei denen ein Gastbenutzer Teilnehmer mit anderen Benutzern in Ihrer Organisation ist. Sie können auch nach Nachrichten im privaten Kanal suchen, bei denen ein Gastbenutzer ein Teilnehmer ist, und nach Inhalten in *Gast suchen: Gast* -Chat Unterhaltungen, bei denen die einzigen Teilnehmer Gastbenutzer sind.
+
+So suchen Sie nach Inhalten für Gastbenutzer:
+
+1. Stellen Sie eine Verbindung mit Azure AD PowerShell her. Anweisungen hierzu finden Sie im Abschnitt "Herstellen einer Verbindung mit Azure Active Directory PowerShell" unter [Herstellen einer Verbindung mit Microsoft 365 mit PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Stellen Sie sicher, dass Sie Schritt 1 und Schritt 2 im vorherigen Thema ausgeführt haben.
+
+2. Nachdem Sie erfolgreich eine Verbindung mit Azure AD PowerShell hergestellt haben, führen Sie den folgenden Befehl aus, um den Benutzerprinzipalnamen (User Principal Name, UPN) für alle Gastbenutzer in Ihrer Organisation anzuzeigen. Sie müssen den UPN des Gastbenutzers verwenden, wenn Sie die Suche in Schritt 4 erstellen.
+
+   ```powershell
+   Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
+   ```
+
+   > [!TIP]
+   > Anstatt eine Liste der Benutzerprinzipalnamen auf dem Computerbildschirm anzuzeigen, können Sie die Ausgabe des Befehls in eine Textdatei umleiten. Sie können dies tun, indem Sie `> filename.txt` den vorhergehenden Befehl anfügen. Die Textdatei mit den Benutzerprinzipalnamen wird im aktuellen Ordner gespeichert.
+
+3. Stellen Sie in einem anderen Windows PowerShell-Fenster eine Verbindung mit Security & Compliance Center PowerShell her. Anweisungen hierzu finden Sie unter [Herstellen einer Verbindung mit Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell). Sie können mit oder ohne mehrstufige Authentifizierung eine Verbindung herstellen.
+
+4. Erstellen Sie eine Inhaltssuche, die nach allen Inhalten (wie Chatnachrichten und e-Mail-Nachrichten) sucht, in denen der angegebene Gastbenutzer Teilnehmer war, indem Sie den folgenden Befehl ausführen.
+
+   ```powershell
+   New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+   Wenn Sie beispielsweise nach Inhalten suchen möchten, die dem Gastbenutzer Sara Davis zugeordnet sind, führen Sie den folgenden Befehl aus.
+
+   ```powershell
+   New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+    Weitere Informationen zum Erstellen von Inhalts suchen mithilfe von PowerShell finden Sie unter [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch).
+
+5. Führen Sie den folgenden Befehl aus, um die Inhaltssuche zu starten, die Sie in Schritt 4 erstellt haben:
+
+   ```powershell
+   Start-ComplianceSearch <search name>
+   ```
+
+6. Wechseln Sie zu, [https://compliance.microsoft.com](https://compliance.microsoft.com) und klicken Sie dann auf **alle**  >  **Inhaltssuche** anzeigen.
+
+7. Wählen Sie in der Liste der Suchvorgänge die Suche aus, die Sie in Schritt 4 erstellt haben, um die Flyout-Seite anzuzeigen.
+
+8. Auf der Flyout-Seite können Sie die folgenden Aktionen ausführen:
+
+   - Klicken Sie auf **Ergebnisse anzeigen** , um die Suchergebnisse anzuzeigen und die Inhalte in der Vorschau anzuzeigen.
+
+   - Klicken Sie neben dem Feld **Abfrage** auf **Bearbeiten** , um die Suche zu bearbeiten, und führen Sie dann die Suche erneut aus. So können Sie beispielsweise eine Suchabfrage hinzufügen, um die Ergebnisse einzuschränken.
+
+   - Klicken Sie auf **Ergebnisse exportieren** , um die Suchergebnisse zu exportieren und herunterzuladen.
 
 ## <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
@@ -144,13 +195,13 @@ Einige Microsoft Teams-Inhalte können auch mithilfe des [erweiterten eDiscovery
 
 ### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Erweiterter eDiscovery-Depotbank-Workflow für Team Inhalte
 
-Depotbanks können Mitglied in verschiedenen Teams sein. Sie können die für diese Depotbank relevanten Team Inhalte erfassen. Hintergrundinformationen und Anweisungen zum Depotbank-Workflow finden Sie unter [Advanced eDiscovery-Workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20).
+Depotbanks können Mitglied in verschiedenen Teams sein. Sie können die für diese Depotbank relevanten Team Inhalte erfassen. Anweisungen zum Depotbank-Workflow finden Sie unter [Hinzufügen von depotbanks zu einem erweiterten eDiscovery-Fall](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
 
 Nachdem Sie eine Depotbank hinzugefügt haben, klicken Sie auf die Schaltfläche **weiter** und dann auf die Schaltfläche **Hinzufügen** . Daraufhin wird ein Fenster eingeblendet, in dem Sie aufgefordert werden, weitere Speicherorte auszuwählen, auf denen alle Mitgliedschaften des Depotbank-Mitglieds und die entsprechenden SharePoint-Websitespeicher Orte für Ihre Daten angezeigt werden. Aus all diesen Datenquellen und Teams können Sie den Inhalt auswählen, den Sie für eDiscovery verwenden möchten, und dann diesen Benutzer und alle Datenquellen, die Sie in der Warteschleife identifiziert haben, platzieren.
 
 Sie können auswählen, ob Sie den Exchange-Inhalt, dessen OneDrive-Inhalt oder beides einbeziehen möchten. Exchange-Inhalt enthält alle Anwendungsinhalte in den Postfächern des Benutzers, beispielsweise die e-Mail-Adresse, die Team Inhalte, die in Ihrem Postfach gespeichert sind usw. Der OneDrive-Inhalt enthält nicht nur die Inhalte des Benutzers, sondern auch alle in OneDrive gespeicherten Team Inhalte, wie etwa 1:1-Chats, 1: N-Chats und in Chats freigegebene Dateien.
 
-Sie haben auch die Möglichkeit, ein beliebiges Team zu assoziieren, dem die Depotbank angehört, sodass Kanal-Chat-Nachrichten und-Dateien, auf die die Depotbank zugreifen kann, enthalten sind. Darüber hinaus kann jedes andere Team einer Depotbank zugeordnet werden. Weitere Informationen finden Sie unter [Hinzufügen von depotbanks zu einem erweiterten eDiscovery-Fall](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
+Sie haben auch die Möglichkeit, ein beliebiges Team zu assoziieren, dem die Depotbank angehört, sodass Kanal-Chat-Nachrichten und-Dateien, auf die die Depotbank zugreifen kann, enthalten sind. Darüber hinaus kann jedes andere Team einer Depotbank zugeordnet werden.
 
 > [!NOTE]
 > eDiscovery von Nachrichten und Dateien in [privaten Kanälen](private-channels.md) funktioniert anders als in Standardkanälen. Weitere Informationen finden Sie unter [eDiscovery privater Kanäle](#ediscovery-of-private-channels).
@@ -204,7 +255,7 @@ Zusätzlich zu Dokumenten können Sie Ihrem Überprüfungs Satz e-Mails, Team Na
 
 Die Schaltfläche " **Überprüfungs Sätze verwalten** " bietet zusätzliche Optionen wie Analyse, Zusammenfassungsberichte, wie viele Auslastungs Sätze hinzugefügt wurden usw.
 
-Wenn Sie auf Visualisierungen und Diagramme Ihrer Daten zugreifen möchten **Individual results** , klicken Sie \> oben rechts auf **Suchprofil Ansicht** für einzelne Ergebnisse. Sie können auf Keile in diesen Diagrammen klicken, um interaktiv den Inhaltstyp auszuwählen, den Sie Abfragen möchten. So können Sie beispielsweise auswählen, dass nur Team Inhalte abgefragt werden sollen. Sie können diese Abfragen auch so speichern, wie Sie Abfragen speichern, die Sie manuell schreiben.
+Wenn Sie auf Visualisierungen und Diagramme Ihrer Daten zugreifen möchten  , klicken Sie \> oben rechts auf **Suchprofil Ansicht** für einzelne Ergebnisse. Sie können auf Keile in diesen Diagrammen klicken, um interaktiv den Inhaltstyp auszuwählen, den Sie Abfragen möchten. So können Sie beispielsweise auswählen, dass nur Team Inhalte abgefragt werden sollen. Sie können diese Abfragen auch so speichern, wie Sie Abfragen speichern, die Sie manuell schreiben.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Zusammenfassungsansicht, Textansicht und Beschriftungsansicht
 

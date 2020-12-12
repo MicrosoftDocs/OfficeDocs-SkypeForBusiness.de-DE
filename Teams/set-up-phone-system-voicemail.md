@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Cloud Voicemail für Ihre Benutzer einrichten. '
-ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031071"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662210"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
@@ -60,7 +60,7 @@ Informationen zum Konfigurieren von Skype for Business Server-Benutzern für Clo
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Aktivieren von geschützter Voicemail in Ihrer Organisation
 
-Wenn jemand eine Sprachnachricht für einen Benutzer in Ihrer Organisation verlässt, wird die Sprachnachricht als Anlage für e-Mail-Nachrichten an das Postfach des Benutzers übermittelt. Wenn Sie Nachrichtenfluss Regeln verwenden, um die Nachrichtenverschlüsselung anzuwenden, können Sie verhindern, dass diese Voicemail-Nachrichten an andere Empfänger weitergeleitet werden. Wenn Sie Geschützte Voicemail aktivieren, können Benutzer geschützte Voicemail-Nachrichten abhören, indem Sie in Ihr Voicemail-Postfach anrufen oder die Nachricht in Outlook, Outlook im Web oder in Outlook für Android oder IOS öffnen. Geschützte Voicemail-Nachrichten können in Skype for Business nicht geöffnet werden.
+Wenn jemand eine Sprachnachricht für einen Benutzer in Ihrer Organisation verlässt, wird die Sprachnachricht als Anlage für e-Mail-Nachrichten an das Postfach des Benutzers übermittelt. Wenn Sie Nachrichtenfluss Regeln verwenden, um die Nachrichtenverschlüsselung anzuwenden, können Sie verhindern, dass diese Voicemail-Nachrichten an andere Empfänger weitergeleitet werden. Wenn Sie Geschützte Voicemail aktivieren, können Benutzer geschützte Voicemail-Nachrichten abhören, indem Sie in Ihr Voicemail-Postfach anrufen oder die Nachricht in Outlook, Outlook im Web oder in Outlook für Android oder IOS öffnen. Geschützte Voicemail-Nachrichten können in Skype for Business oder Microsoft Teams nicht geöffnet werden.
 
 Weitere Informationen zur Nachrichtenverschlüsselung finden Sie unter [e-Mail-Verschlüsselung](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
 

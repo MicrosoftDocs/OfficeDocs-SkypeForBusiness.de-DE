@@ -1,7 +1,7 @@
 ---
 title: Wartung und Betrieb von Microsoft Teams-Räumen
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: a6ab68200002035632314ac976cd45a2ee4ff714
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552293"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662460"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -105,16 +105,16 @@ Sie können Remote-PowerShell beispielsweise wie folgt aktivieren:
   
 1. Anmelden als Administrator auf einem Microsoft Teams rooms-Gerät.
 2. Öffnen Sie eine erweiterte PowerShell-Eingabeaufforderung.
-3. Geben Sie den folgenden Befehl ein:`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Öffnen Sie die lokale Sicherheitsrichtlinie, und fügen Sie die Sicherheitsgruppe *Administratoren* zu **Sicherheitseinstellungen**hinzu  >  .**lokale Richtlinien**  >  **Benutzerrechte zuweisen**  >  **Zugriff auf diesen Computer über das Netzwerk**.
+3. Geben Sie den folgenden Befehl ein: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. Öffnen Sie die lokale Sicherheitsrichtlinie, und fügen Sie die Sicherheitsgruppe *Administratoren* zu **Sicherheitseinstellungen** hinzu  >  .**lokale Richtlinien**  >  **Benutzerrechte zuweisen**  >  **Zugriff auf diesen Computer über das Netzwerk**.
 
 So führen Sie einen Verwaltungsvorgang durch:
   
 1. Melden Sie sich bei einem PC mit Kontoanmeldeinformationen an, die über die Berechtigung zum Ausführen von PowerShell-Befehlen auf einem Microsoft Teams rooms-Gerät verfügen.
 2. Öffnen Sie eine reguläre PowerShell-Eingabeaufforderung auf dem PC.
 3. Kopieren Sie den Befehlstext aus der folgenden Tabelle, und fügen Sie ihn an der Eingabeaufforderung ein.
-4. Ersetzen `<Device fqdn>` Sie Felder durch FQDN-Werte, die für Ihre Umgebung geeignet sind.
-5. Ersetzen Sie dies *\<path\>* durch den Dateinamen und den lokalen Pfad der Master SkypeSettings.xml-Konfigurationsdatei (oder des Design Bilds).
+4. Ersetzen  `<Device fqdn>` Sie Felder durch FQDN-Werte, die für Ihre Umgebung geeignet sind.
+5. Ersetzen Sie dies  *\<path\>*  durch den Dateinamen und den lokalen Pfad der Master SkypeSettings.xml-Konfigurationsdatei (oder des Design Bilds).
     
 So erhalten Sie angefügte Geräte
   
@@ -188,7 +188,7 @@ Einige Verwaltungsfunktionen, wie das manuelle Installieren eines privaten Zerti
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Wechseln zum Administratormodus und zurück, wenn die Microsoft Teams rooms-app ausgeführt wird
 
 1. Beenden Sie alle laufenden Anrufe, und kehren Sie zum Startbildschirm zurück.
-2. Wählen Sie das Zahnradsymbol aus, und öffnen Sie das Menü (Optionen sind **Einstellungen**, **Barrierefreiheit**und **Gerät neu starten** ).
+2. Wählen Sie das Zahnradsymbol aus, und öffnen Sie das Menü (Optionen sind **Einstellungen**, **Barrierefreiheit** und **Gerät neu starten** ).
 3. Wählen Sie **Einstellungen** aus.
 4. Geben Sie das Administratorkennwort ein. Der Setupbildschirm wird angezeigt.  Wenn das Gerät nicht mit der Domäne verbunden ist, wird standardmäßig das lokale Administratorkonto (Benutzername "Administrator") verwendet. Das Standardkennwort für dieses Konto ist "SFB", so dass das Kennwort so schnell wie möglich geändert werden kann. Wenn der Computer mit einer Domäne verbunden ist, können Sie sich mit einem entsprechend privilegierten Domänenkonto anmelden. 
 5. Wählen Sie in der linken Spalte **Windows-Einstellungen** aus.
@@ -197,7 +197,7 @@ Einige Verwaltungsfunktionen, wie das manuelle Installieren eines privaten Zerti
 8. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an. Sie verfügen über die erforderlichen Berechtigungen zum Verwalten des Geräts.
 9. Führen Sie die notwendigen Administratoraufgaben aus.
 10. Melden Sie sich bei Ihrem Administratorkonto ab.
-11. Kehren Sie zu Microsoft Teams rooms zurück, indem Sie auf der linken Seite des Bildschirms das Symbol für das Benutzerkonto auswählen und dann **Skype**auswählen.
+11. Kehren Sie zu Microsoft Teams rooms zurück, indem Sie auf der linken Seite des Bildschirms das Symbol für das Benutzerkonto auswählen und dann **Skype** auswählen.
     
     Wenn der **Skype** -Nutzer nicht aufgeführt ist, müssen Sie möglicherweise einen **anderen Benutzer** auswählen und **.\skype** als Benutzernamen eingeben und sich anmelden.
     

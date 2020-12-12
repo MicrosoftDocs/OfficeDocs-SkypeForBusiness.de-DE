@@ -1,7 +1,7 @@
 ---
 title: Migrieren von lync Room-System Geräten zu Microsoft Teams-Chatrooms
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: In diesem Thema erfahren Sie, wie Sie lync Room-System Geräte zur Verwendung der Microsoft Teams Rooms-Software migrieren.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1b8b71637ec944c4d68fafbdde4263971590c453
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d8da14f2d5f3ec75c6a9fb9c03a33d7e83cd1aed
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137589"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662620"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrieren von lync-Geräten (lync Room System) zu Microsoft Teams-Räumen
 

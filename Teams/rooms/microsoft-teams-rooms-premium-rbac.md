@@ -1,7 +1,7 @@
 ---
 title: Rollenbasierte Zugriffssteuerung mit dem Microsoft Teams Room Premium-Dienst
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Informieren Sie sich über die rollenbasierte Zugriffssteuerung mit dem verwalteten Microsoft Teams rooms-Dienst.
 f1keywords: ''
-ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
-ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
+ms.openlocfilehash: d673a20b122af876d95bac9d11a1db0433a396e4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300289"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662600"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Rollenbasierte Zugriffssteuerung mit dem Microsoft Teams rooms Managed Service
 
@@ -34,7 +34,7 @@ Zum Erstellen, bearbeiten oder Zuweisen von Rollen muss Ihr Konto über eine der
 
 ## <a name="what-is-a-role"></a>Was ist eine Rolle?
 
-Eine Rolle definiert den Satz von Berechtigungen, die Benutzern zugewiesen wurden, die dieser Rolle zugewiesen sind. Im Moment verfügt der Managed Service für Microsoft Teams rooms über drei integrierte Rollen: **Managed Service Administrator**, **Website Lead**und Site- **Tech**. Sie decken einige häufige Szenarien für Benutzer in Ihrer Organisation ab, die möglicherweise an der Verwaltung ihrer Räume beteiligt sind.
+Eine Rolle definiert den Satz von Berechtigungen, die Benutzern zugewiesen wurden, die dieser Rolle zugewiesen sind. Im Moment verfügt der Managed Service für Microsoft Teams rooms über drei integrierte Rollen: **Managed Service Administrator**, **Website Lead** und Site- **Tech**. Sie decken einige häufige Szenarien für Benutzer in Ihrer Organisation ab, die möglicherweise an der Verwaltung ihrer Räume beteiligt sind.
 
 Wenn Sie Rollen anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Room Managed Service Portals zu **Rollen**, und wählen Sie dann eine der Rollen aus, um die Eigenschaften, Berechtigungen und Aufgaben der Rolle anzuzeigen.  
 
@@ -54,24 +54,24 @@ In der folgenden Tabelle wird zusammengefasst, was jede Rolle tun kann.
 
 |Features |Berechtigungs |Managed Service-Administrator  |Website Lead  |Website-Tech  |
 |---------|---------|---------|---------|---------|
-|Chatrooms     |Ansicht        |&#10004;           |&#10004;           |&#10004;  |
+|Chatrooms     |Anzeigen        |&#10004;           |&#10004;           |&#10004;  |
 |    |Ändern         |&#10004;           |&#10004;           |&#10004; |
 |    |Reset-Taste         |&#10004;           |         ||
 |    |Download-Taste         |&#10004;           |&#10004;          |&#10004; |
 |    |Registrierung         |&#10004;           |&#10004;           |&#10004; |
 |Gruppenverwaltung   |Erstellen         |&#10004;           |           ||
-|    |Ansicht       |&#10004;          |&#10004;           ||
+|    |Anzeigen       |&#10004;          |&#10004;           ||
 |    |Ändern         |&#10004;           |           ||
 |Aktualisieren der Ring Verwaltung    |Erstellen         |&#10004;           |           ||
-|    |Ansicht         |&#10004;           |           ||
+|    |Anzeigen         |&#10004;           |           ||
 |    |Ändern         |&#10004;           |           ||
-|Berichte   |Ansicht        |&#10004;           |&#10004;           ||
+|Berichte   |Anzeigen        |&#10004;           |&#10004;           ||
 |Ticket Verwaltung   |Kunden Vorfall erstellen         |&#10004;           |&#10004;           |&#10004;  |
-|    |Ansicht         |&#10004;           |&#10004;           |&#10004;  |
+|    |Anzeigen         |&#10004;           |&#10004;           |&#10004;  |
 |    |Aktualisieren         |&#10004;           |&#10004;           |&#10004;  |
-|Microsoft Teams rooms-Einstellungen für verwaltete Dienste    |Ansicht         |&#10004;           |         ||
+|Microsoft Teams rooms-Einstellungen für verwaltete Dienste    |Anzeigen         |&#10004;           |         ||
 |    |Ändern        |&#10004;           |         ||
-|Rollenverwaltung    |Ansicht         |&#10004;           |         ||
+|Rollenverwaltung    |Anzeigen         |&#10004;           |         ||
 |    |Ändern         |&#10004;           |         ||
 
 ## <a name="assign-a-role"></a>Zuweisen einer Rolle
@@ -83,14 +83,14 @@ Wenn Sie Rollen zuweisen möchten, müssen Sie ein globaler Administrator oder e
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot der Seite "Zugriffssteuerung" mit Rollen":::
 
 2. Wählen Sie die Rolle aus, die Sie zuweisen möchten.
-3. Wählen Sie im Rollenbereich **Aufgaben**  >  **Hinzufügen**aus.
+3. Wählen Sie im Rollenbereich **Aufgaben**  >  **Hinzufügen** aus.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Screenshot der Option "hinzufügen" zum Hinzufügen einer Rolle":::
 
-4. Geben Sie auf der Seite **Allgemeine Einstellungen** unter **Zuordnungseigenschaften**einen Namen für diese Aufgabe ein. Die Beschreibung ist optional. Wählen Sie **weiter aus.**
-5. Geben Sie auf der Seite **Mitglieder** im Feld **nach Benutzer oder Sicherheitsgruppe suchen** den Namen eines Benutzers oder einer Sicherheitsgruppe in Ihrem Mandanten ein, dem Sie Berechtigungen erteilen möchten, und füllen Sie dann die Auswahl aus. Wählen Sie **weiter**aus. 
-6. Geben Sie auf der Seite " **Bereich** " im Feld **nach Raum oder Raum suchen** den Namen einer Raum-oder Raumgruppe ein, die dem Benutzer verwaltet werden darf. Wählen Sie **weiter**aus.
-7. Überprüfen Sie auf der Seite **Fertig stellen** die Details der Aufgabe. Wenn Sie mit der Konfiguration zufrieden sind, wählen Sie **Aufgabe hinzufügen**aus. Wenn Sie einen Abschnitt bearbeiten möchten, verwenden Sie die Schaltfläche **zurück** , oder wählen Sie den Schritt in der linken Navigationsleiste aus.  
+4. Geben Sie auf der Seite **Allgemeine Einstellungen** unter **Zuordnungseigenschaften** einen Namen für diese Aufgabe ein. Die Beschreibung ist optional. Wählen Sie **weiter aus.**
+5. Geben Sie auf der Seite **Mitglieder** im Feld **nach Benutzer oder Sicherheitsgruppe suchen** den Namen eines Benutzers oder einer Sicherheitsgruppe in Ihrem Mandanten ein, dem Sie Berechtigungen erteilen möchten, und füllen Sie dann die Auswahl aus. Wählen Sie **weiter** aus. 
+6. Geben Sie auf der Seite " **Bereich** " im Feld **nach Raum oder Raum suchen** den Namen einer Raum-oder Raumgruppe ein, die dem Benutzer verwaltet werden darf. Wählen Sie **weiter** aus.
+7. Überprüfen Sie auf der Seite **Fertig stellen** die Details der Aufgabe. Wenn Sie mit der Konfiguration zufrieden sind, wählen Sie **Aufgabe hinzufügen** aus. Wenn Sie einen Abschnitt bearbeiten möchten, verwenden Sie die Schaltfläche **zurück** , oder wählen Sie den Schritt in der linken Navigationsleiste aus.  
 
 ## <a name="related-topics"></a>Verwandte Themen
 

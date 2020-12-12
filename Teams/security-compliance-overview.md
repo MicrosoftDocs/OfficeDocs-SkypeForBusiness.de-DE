@@ -21,17 +21,17 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878489"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662500"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
 > [!IMPORTANT]
-> Wenn Sie wissen möchten, wie Sie die Sicherheit am besten gewährleisten können, **während alle während des COVID-19-Ausbruchs von zu Hause aus arbeiten** , lesen Sie diese Artikel:
+> Wenn Sie wissen möchten, wie Sie die Sicherheit am besten gewährleisten können, **während alle während des COVID-19-Ausbruchs von zu Hause aus arbeiten**, lesen Sie diese Artikel:
 >  - [Die wichtigsten 12 Aufgaben für Sicherheitsteams zur Unterstützung der Arbeit von zu Hause aus](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [Optimieren der Microsoft 365- oder Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - Aktualisiert am 2. April 2020: [Sicherheitsleitfaden für Teams](teams-security-guide.md)
@@ -181,8 +181,7 @@ Die folgende Abbildung zeigt den Ablauf der Erfassung von Daten aus Microsoft Te
 
 In Bezug auf Informationsschutzfunktionen bestimmen Microsoft 365-Abonnements, Office 365-Abonnements und die zugehörigen eigenständigen Lizenzen den verfügbaren Funktionsumfang.
 
-Informationen zum Ermitteln des Lizenzierungs Bedarfs zur Implementierung von Features für Sicherheit und Compliance finden Sie unter [Lizenzierung für Office 365 oder Microsoft 365](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf).
-
+Informationen zum Ermitteln des Lizenzierungs Bedarfs zur Implementierung von Features für Sicherheit und Compliance finden Sie unter [Lizenzierungsanforderungen](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) für Sicherheits-und Compliance-Funktionen.
 > [!NOTE]
 > Die Inhaltssuche und eDiscovery müssen im Security & Compliance Center nicht aktiviert sein, damit Sie funktionieren.
 

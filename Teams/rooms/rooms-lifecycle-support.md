@@ -1,7 +1,7 @@
 ---
-title: Unterstützte Versionen
-ms.author: v-lanac
-author: lanachin
+title: Versionsunterstützung
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Erfahren Sie mehr über die Lifecycle-Unterstützung von Microsoft Teams-Räume, einschließlich der Struktur und der Phasen der dynamischen Unterstützung.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
-ms.translationtype: HT
+ms.openlocfilehash: 584f4661a39d21f916b2097c242f71b996c568e6
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650918"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662450"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams-Räume – Unterstütze App-Versionen
  
@@ -55,7 +55,7 @@ Die folgende Tabelle enthält die empfohlenen und unterstützten Versionen von W
 |:---  |:---       |:---                                  |:---     |:---     |
 | 20H2 |2020-10-20 |Wird überprüft, <br/>Noch nicht unterstützt|&#x2014; |19042.572 |
 | 2004 |2020-05-27 |Übersprungen, <br/> Nicht empfohlen|&#x2014; |19041.264 |
-| 1909 |2019-11-12 |Unterstützt, <br/>Empfohlen |4.5.33.0 |18363.418  |
+| 1909 |2019-11-12 |Stützt <br/>Empfohlen |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |Unterstützt  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |Nicht unterstützt, <br/>Bekannte Kompatibilitätsprobleme &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Nicht unterstützt                             |&#x2014;  |&#x2014; |
@@ -70,8 +70,8 @@ Wenn Sie eine unterstützte Version von Windows 10 verwenden, erhalten Sie immer
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Hilfe zu Microsoft Teams-Räume](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft Teams-Räume – Versionshinweise](rooms-release-note.md)
 
-[Planen für Microsoft Teams-Räume](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)

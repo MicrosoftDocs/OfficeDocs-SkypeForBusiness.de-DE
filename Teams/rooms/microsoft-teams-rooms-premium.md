@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams rooms, verwalteter Dienst
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Informieren Sie sich über den Microsoft Teams rooms Managed Service.
 f1keywords: ''
-ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031401"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662660"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams rooms, verwalteter Dienst
 
@@ -130,7 +130,7 @@ Der Microsoft Teams rooms Managed Service steht in den folgenden Ländern und Re
 |Erste Untersuchungen werden für zertifizierte Peripheriegeräte wie Kameras, Mikrofone und Lautsprecher durchgeführt. Die Übergabe an den OEM-Support erfolgt für den OEM, um den Ersatz-oder Gewährleistungsantrag zu erfüllen.    |Beschaffung, Versand oder Installation von Ersetzungen.         |OEM-Support         |
 |**Ursachenanalyse**     |         |         |
 |Alle Ursachen für Probleme, die in der Besprechungsraum-Erfahrung auftreten, werden zur Verfügung gestellt, werden aber auf der Grundlage der Verfügbarkeit durchgeführt.     |Die Ursachenanalyse für Softwareprobleme von Drittanbietern ist nicht enthalten.         |Standardmäßige Supportkanäle von Drittanbietern         |
-|**Besprechungs Erfahrung**   |         |         |
+|**Auswirkung**   |         |         |
 |Die Untersuchung von Problemen innerhalb der Besprechungseinstellungen in der Microsoft Teams rooms-APP und Anleitungen für die ordnungsgemäße Konfiguration der Dienstqualität auf dem Gerät werden auf Anforderung bereitgestellt.      |Ursachenanalyse oder Ermittlungen für Probleme mit der Anrufqualität oder netzwerkbezogene Probleme sind von diesem Bereich ausgeschlossen.         |Microsoft Mainstream-Support         |
 |**Behebung, Onboarding und laufendes**     |         |         |
 |Kunden erhalten Anleitungen, um Ihre Räume nach Standards zu versetzen, die von Microsoft Teams rooms Managed Service bei Onboarding empfohlen werden.    |Untersuchungen in Bezug auf interne benutzerdefinierte Software Bilder oder nicht-kompatibel mit empfohlenen Software Versions Anleitungen aus Microsoft Teams rooms Managed Service sind nicht im Umfang.          |         |

@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: In diesem Artikel werden die Microsoft Teams-Funktionen beschrieben, die für Gastbenutzer verfügbar sind.
-ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: In diesem Artikel werden die Microsoft Teams-Funktionen beschrieben, die den Gästen zur Verfügung stehen.
+ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030291"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661890"
 ---
 # <a name="guest-experience-in-teams"></a>Gast Erfahrung in Teams
 
@@ -44,7 +44,7 @@ Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
 
 In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die jeweils für die Mitglieder und die Gäste eines Teams einer Organisation verfügbar sind. Teams-Administratoren steuern die Features, die den Gästen zur Verfügung stehen.
 
-|**Funktionen in Teams**|**Teams-Benutzer in der Organisation**|**Gastbenutzer**|
+| Funktionen in Teams | Teams-Benutzer in der Organisation | Gast |
 |:-----|:-----|:-----|
 |Erstellen eines Kanals  <br/>  *Diese Einstellung wird von Team-Besitzern gesteuert.*  <br/> |&#x2713;|&#x2713;|
 |Teilnehmen an einem privaten Chat  <br/> |&#x2713;|&#x2713;|
@@ -52,7 +52,7 @@ In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die j
 |Posten, Löschen und Bearbeiten von Nachrichten  <br/> |&#x2713;|&#x2713;|
 |Freigeben einer Kanal-Datei  <br/> |&#x2713;|&#x2713;|
 |Zugreifen auf SharePoint-Dateien<br/> |&#x2713;|&#x2713;|
-|Anfügen von Dateien<br/> |&#x2713;|&#x2713;|
+|Anfügen von Dateien<br/> |&#x2713;|Nur Team-Chats|
 |Herunterladen privater Chat-Dateien<br/> |&#x2713;|&#x2713;|
 |Suchen in Dateien<br/> |&#x2713;||
 |Freigeben einer Chatdatei  <br/> |&#x2713;||
@@ -109,4 +109,4 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Beenden einer Organisation als Gastbenutzer](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Beenden einer Organisation als Gast](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

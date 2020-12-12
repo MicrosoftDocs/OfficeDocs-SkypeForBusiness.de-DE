@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Ihre Organisations-und teamsräume-Geräte für die Unterstützung von Besprechungen von Drittanbietern in Cisco WebEx und Zoom konfigurieren.
-ms.openlocfilehash: 708fb7f9d243559a571b2b9016fab1e38aa63114
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 8079b6fc231bf30a654e2513af55a806433eb83f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372214"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662360"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren von Team Room-Geräten für die Teilnahme an Besprechungen von Drittanbietern
 
@@ -55,14 +55,14 @@ Weitere Informationen zu [Exchange Online PowerShell](https://docs.microsoft.com
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Schritt 2: Konfigurieren von Office 365-Bedrohungsschutz und erneutem Erstellen von Links
 
-Zum Aktivieren der einmaligen Verknüpfungsfunktion müssen Besprechungs Verknüpfungsinformationen aus der Drittanbieter Besprechung in der Besprechungseinladung vorhanden und lesbar sein. Wenn in Ihrer Organisation das Feature " [Erweiterter Bedrohungsschutz" von Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)verwendet   wird oder wenn Sie eine Lösung eines Drittanbieters verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen scannt, kann Sie die URLs der Besprechungsteilnahme ändern und die Besprechung vom Gerät "Teams Rooms" unkenntlich machen. Um sicherzustellen, dass dies nicht der Fall ist, müssen Sie die URLs des Drittanbieters des Besprechungs Diensts der ATP-Liste der sicheren Links "nicht umschreiben" oder der Ausnahmeliste für URL-Umschreibungen von Drittanbietern hinzufügen.
+Zum Aktivieren der einmaligen Verknüpfungsfunktion müssen Besprechungs Verknüpfungsinformationen aus der Drittanbieter Besprechung in der Besprechungseinladung vorhanden und lesbar sein. Wenn in Ihrer Organisation das Feature " [Erweiterter Bedrohungsschutz" von Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) verwendet wird oder wenn Sie eine Lösung eines Drittanbieters verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen scannt, kann Sie die URLs der Besprechungsteilnahme ändern und die Besprechung vom Gerät "Teams Rooms" unkenntlich machen. Um sicherzustellen, dass dies nicht der Fall ist, müssen Sie die URLs des Drittanbieters des Besprechungs Diensts der ATP-Liste der sicheren Links "nicht umschreiben" oder der Ausnahmeliste für URL-Umschreibungen von Drittanbietern hinzufügen.
 
 Zum Hinzufügen von Drittanbieter-Besprechungs Dienst-URLs zu den ATP-Sicherheits Links "nicht umschreiben" führen Sie die Schritte unter [Einrichten einer benutzerdefinierten URL-Liste "nicht umschreiben" mithilfe von ATP-Sicherheits Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)aus. Wenn Sie eine Lösung eines Drittanbieters verwenden, lesen Sie die Anweisungen für diese Lösung, um URLs zur Ausnahmeliste für URL-Umschreibungen hinzuzufügen.
 
 Nachfolgend sind einige Beispieleinträge aufgeführt, die Sie möglicherweise zu ihren ATP-Sicherheits Links "nicht umschreiben" oder der Ausnahmeliste für URL-Umschreibungen von Drittanbietern hinzufügen müssen:
 
 - **Cisco WebEx**`*.webex.com*`
-- **Zoom** `*zoom.us*` , `*zoom.com*` ,`*zoomgov.com*`
+- **Zoom** `*.zoom.us*` , `*.zoom.com*` , `*.zoomgov.com*`
 
 Eine vollständige Liste der URLs, die Sie zu ihren ATP-sicheren Links "nicht umschreiben"-Liste oder zur Ausnahmeliste eines Drittanbieters für URL-Umschreibungen hinzufügen können, erhalten Sie vom Drittanbieter-Besprechungs Dienstanbieter, von dem Sie Besprechungseinladungen annehmen möchten. 
 
@@ -77,24 +77,24 @@ Der letzte Schritt besteht darin, das Gerät für die einzelnen Teams für die T
 
 Gehen Sie wie folgt vor, um das Gerät "Teams Rooms" über seinen Touchscreen zu konfigurieren:
 
-1. Wählen Sie auf dem Gerät Microsoft Teams rooms den Eintrag **mehr...**
-2. Wählen Sie **Einstellungen**aus, und geben Sie dann den Benutzernamen und das Kennwort für den Geräteadministrator ein.
-3. Wechseln Sie zur Registerkarte **Besprechungen**   , und wählen Sie **Cisco WebEx**, **Zoom**<sup>1</sup>oder beides aus.
+1. Wählen Sie auf dem Gerät Microsoft Teams rooms den Eintrag **mehr...**
+2. Wählen Sie **Einstellungen** aus, und geben Sie dann den Benutzernamen und das Kennwort für den Geräteadministrator ein.
+3. Wechseln Sie zur Registerkarte **Besprechungen** , und wählen Sie **Cisco WebEx**, **Zoom**<sup>1</sup>oder beides aus.
 4. Wenn Sie mit dem Benutzernamen und der e-Mail-Adresse, die dem Raumpostfach zugeordnet ist, an Besprechungen teilnehmen möchten, wählen Sie **mit Rauminformationen beitreten** aus.
 5. Wenn Sie mit einem alternativen Benutzernamen und einer e-Mail-Adresse an Besprechungen teilnehmen möchten, wählen Sie **mit benutzerdefinierten Informationen beitreten** aus, und geben Sie den Benutzernamen und die e-Mail-Adresse ein.
-6. Wählen Sie **Speichern und beenden**aus. Ihr Gerät wird neu gestartet.
+6. Wählen Sie **Speichern und beenden** aus. Ihr Gerät wird neu gestartet.
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>Verwenden der SkypeSettings.xml-Konfigurationsdatei
 
 Die folgenden Einstellungen können zu der Datei hinzugefügt werden, die `SkypeSettings.xml` sich in befindet `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Weitere Informationen zur `SkypeSettings.xml` Datei finden Sie unter [Verwalten von Microsoft Teams rooms-Konsoleneinstellungen Remote mit einer XML-Konfigurationsdatei](xml-config-file.md).
 
-Um Cisco WebEx-Besprechungen zu aktivieren, `WebExMeetingsEnabled` müssen Sie das XML-Element wie folgt auf " **true**" festlegen.
+Um Cisco WebEx-Besprechungen zu aktivieren, `WebExMeetingsEnabled` müssen Sie das XML-Element wie folgt auf " **true**" festlegen.
 
 ```xml
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-Um Zoom<sup>1</sup> -Besprechungen zu aktivieren, `ZoomMeetingsEnabled` müssen Sie das XML-Element wie folgt auf " **true**" festlegen.
+Um Zoom <sup>1</sup> -Besprechungen zu aktivieren, `ZoomMeetingsEnabled` müssen Sie das XML-Element wie folgt auf " **true**" festlegen.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>

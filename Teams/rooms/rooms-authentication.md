@@ -1,7 +1,7 @@
 ---
 title: Authentifizierung in Microsoft Teams-Räumen
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Informationen zum Konfigurieren der modernen Authentifizierung für Microsoft Teams-Chatrooms
-ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 41a65743e5da851dd8e0197e9382deaf696cd9ec
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308258"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662580"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räumen
 
@@ -46,12 +46,12 @@ Damit Microsoft Teams rooms die moderne Authentifizierung mit Skype for Business
 
 1. Wechseln Sie auf dem Gerät Microsoft Team Rooms zu **mehr** (**.**..).
     
-2. Wählen Sie **Einstellungen**aus, und geben Sie dann den Benutzernamen und das Kennwort für den Geräteadministrator ein.
-3. Wechseln Sie zur Registerkarte **Konto** , aktivieren Sie die **moderne Authentifizierung**, und wählen Sie dann **Speichern und beenden**aus.
+2. Wählen Sie **Einstellungen** aus, und geben Sie dann den Benutzernamen und das Kennwort für den Geräteadministrator ein.
+3. Wechseln Sie zur Registerkarte **Konto** , aktivieren Sie die **moderne Authentifizierung**, und wählen Sie dann **Speichern und beenden** aus.
 
 ### <a name="using-the-xml-config-file"></a>Verwenden der XML-Konfigurationsdatei
 
-Legen Sie in ihrer SkypeSettings.xml-Datei das moderne Authentifizierungs-XML-Element wie folgt auf **true**fest.
+Legen Sie in ihrer SkypeSettings.xml-Datei das moderne Authentifizierungs-XML-Element wie folgt auf **true** fest.
 
 ```
 <ModernAuthEnabled>True</ModernAuthEnabled>

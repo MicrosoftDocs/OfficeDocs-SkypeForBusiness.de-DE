@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513b83fdab26d73b42bed692b5ea887629fc1851
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: db0d8fa4a2744f0f3c3591918230e3f569727ae7
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800628"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662200"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>Verwenden von Teams Government-Vorlagen im Admin Center
 
@@ -44,5 +44,5 @@ Zentralisieren Sie die Kommunikation und wichtige Ressourcen für Ihr Krisenmana
 
 | Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Koordinieren der Vorfall Antwort|`com.microsoft.teams.template.CoordinateIncidentResponse` |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Koordinieren der Vorfall Antwort|`com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

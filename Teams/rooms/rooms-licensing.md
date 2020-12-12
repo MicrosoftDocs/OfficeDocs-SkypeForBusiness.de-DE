@@ -1,7 +1,7 @@
 ---
 title: Lizenzen für Microsoft Teams-Räume
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Informieren Sie sich über die verfügbaren Lizenzen für verschiedene Arten von Anruf-und besprechungsfeatures in Microsoft Teams-Räumen.
-ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 37f47e9b89abd87837b02f8a67c3c82eaa9c7a5c
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416845"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662480"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
@@ -46,7 +46,7 @@ Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen un
 |Kanalverfügbarkeit | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
-&sup1; Verfügbarkeit und eingeschlossene Minuten können je nach Region variieren. Informationen zum Überprüfen der Verfügbarkeit von Diensten finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Verbrauchs Gebühren können für zusätzliche Dienste wie gebührenfreie, internationale Minuten für inländische Pläne usw. gelten. Kunden können diese Funktionen deaktivieren, um zusätzliche Abrechnung zu vermeiden.  
+&sup1; Verfügbarkeit und eingeschlossene Minuten können je nach Region variieren. Informationen zum Überprüfen der Verfügbarkeit von Diensten finden Sie unter  [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Verbrauchs Gebühren können für zusätzliche Dienste wie gebührenfreie, internationale Minuten für inländische Pläne usw. gelten. Kunden können diese Funktionen deaktivieren, um zusätzliche Abrechnung zu vermeiden.  
 
 &sup2; In souveränen Clouds nicht verfügbar  
 

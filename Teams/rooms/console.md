@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren einer Konsole für Microsoft Teams-Räume
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten und konfigurieren.
-ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a36ed93f370c0aeb302da246b223732383719fb
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905447"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662060"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Konsole für Microsoft Teams-Räume
 
@@ -51,15 +51,15 @@ Zum Installieren der Microsoft Teams rooms Console-APP ist ein USB-Speichergerä
 > [!IMPORTANT]
 > Der Windows 10-Computer, der zum Erstellen der Microsoft Teams rooms-Installationsmedien verwendet wird, muss sich in derselben oder einer höheren Version von Windows befinden wie das Ziel Installationsmedium.
   
-1. Laden Sie das [CreateSrsMedia. ps1-Skript](https://go.microsoft.com/fwlink/?linkid=867842)herunter.
+1. Laden Sie das [CreateSrsMedia.ps1-Skript](https://go.microsoft.com/fwlink/?linkid=867842)herunter.
 2. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
 3. Befolgen Sie die Anweisungen des Skripts, um eine USB-Setupdiskette für Microsoft Teams Rooms zu erstellen.
 
 
 > [!TIP]
-> Jedes Mal, wenn das CreateSrsMedia. ps1-Skript gestartet wird, enthält die Bildschirmausgabe den Namen einer Protokolldatei oder eines Protokoll Protokolls für die Sitzung. Wenn Probleme beim Ausführen des Skripts auftreten, stellen Sie sicher, dass eine Kopie dieser Aufzeichnung zur Verfügung steht, wenn Sie den Support anfordern. 
+> Jedes Mal, wenn das CreateSrsMedia.ps1-Skript gestartet wird, enthält die Bildschirmausgabe den Namen einer Protokolldatei oder eines Protokolls für die Sitzung. Wenn Probleme beim Ausführen des Skripts auftreten, stellen Sie sicher, dass eine Kopie dieser Aufzeichnung zur Verfügung steht, wenn Sie den Support anfordern. 
 
-Das CreateSrsMedia. ps1-Skript automatisiert die folgenden Aufgaben:
+Das CreateSrsMedia.ps1-Skript automatisiert die folgenden Aufgaben:
 
 1. Laden Sie das neueste MSI-Installationsprogramm für Microsoft Teams-Räume herunter.
 2. Ermitteln des Windows-Builds, den der Benutzer bereitstellen muss Die zuletzt veröffentlichten Versionen können oder werden möglicherweise nicht getestet und für die Verwendung mit Microsoft Teams rooms-Geräten unterstützt.
@@ -101,7 +101,7 @@ Nachdem das System heruntergefahren wurde, ist es sicher, die USB-Setupdiskette 
 
 ### <a name="selecting-a-language"></a>Auswählen einer Sprache 
 
-Im Update des Erstellers müssen Sie das ApplyCurrentRegionAndLanguage. ps1-Skript in Szenarien verwenden, in denen der Benutzer mit der impliziten Sprachauswahl nicht die tatsächlich gewünschte Anwendungssprache bereitstellt (beispielsweise, dass die Konsolen-app in Französisch angezeigt werden soll, aber in englischer Sprache).
+In der Aktualisierung des Erstellers müssen Sie das ApplyCurrentRegionAndLanguage.ps1-Skript in Szenarien verwenden, in denen der Benutzer mit der impliziten Sprachauswahl nicht die tatsächlich gewünschte Anwendungssprache bereitstellt (beispielsweise, dass die Konsolen-app in Französisch angezeigt werden soll, es aber in englischer Sprache erscheint).
   
 > [!NOTE]
 > Die folgenden Anweisungen funktionieren nur für Konsolen, die mit dem Update von Windows Creator erstellt wurden. Legacy/in-Market-Systeme, die nicht mithilfe von Medien mit dem neuen Bereitstellungssystem eingerichtet wurden, können diese Anweisungen nicht verwenden, sollten aber auch nicht unter dem anfänglichen Problem leiden, das diesen manuellen Eingriff erfordert (Anniversary Edition ermöglicht es Ihnen, Ihre APP-Sprache explizit als Teil des Setups auszuwählen).
@@ -114,9 +114,9 @@ Im Update des Erstellers müssen Sie das ApplyCurrentRegionAndLanguage. ps1-Skri
     
 3. Wählen Sie das Zahnradsymbol aus, um die App **Einstellungen** zu starten.
     
-4. Wählen **Sie &amp; Uhrzeit Sprache**aus.
+4. Wählen Sie **Uhrzeit &amp; Sprache** aus.
     
-5. Wählen **Sie &amp; Regions Sprache**aus.
+5. Wählen Sie **Regions &amp; Sprache** aus.
     
 6. Wählen Sie **Sprache hinzufügen** aus.
     

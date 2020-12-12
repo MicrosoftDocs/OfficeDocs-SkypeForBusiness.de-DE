@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams-Räume
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Microsoft Teams-Räume, einschließlich der Bereitstellungsphasen, bereitstellen.
-ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 53c4c94717f10dadbad802cff3f233a3a771d166
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085961"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662250"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -90,7 +90,7 @@ _Beispiel für die Planning-Tabelle des Microsoft Teams rooms-servicekontos_
 
 Damit Sie Ihre Microsoft Teams rooms-Computer-und-Dienstkonten verwalten und melden können, bereiten Sie Ihr lokales Active Directory oder Azure Active Directory (Azure AD) vor. 
 
-Definieren Sie eine lokale Active Directory-oder Azure Ad-Gruppe, um alle Konten von Microsoft Teams rooms Service (Benutzer) zu hinzuzufügen, und erstellen Sie dann Nutzungsberichte mithilfe des Cmdlets Get-CSUserSession PowerShell in der Bereitstellung von Microsoft Teams rooms. Erstellen Sie beispielsweise eine Gruppe mit dem Namen SkypeRoomSystemsv2-Service-Accounts. 
+Definieren Sie eine lokale Active Directory-oder Azure Ad-Gruppe, um alle Konten von Microsoft Teams rooms Service (Benutzer) zu hinzuzufügen, und erstellen Sie dann Nutzungsberichte mithilfe des Get-CSUserSession-PowerShell-Cmdlets in der Microsoft Teams Room-Bereitstellung. Erstellen Sie beispielsweise eine Gruppe mit dem Namen SkypeRoomSystemsv2-Service-Accounts. 
 
 
 Definieren Sie eine Organisationseinheit in Ihrer lokalen Active Directory-oder Azure AD-Hierarchie, um alle Microsoft Teams rooms-Computerkonten (wenn Sie der Domäne beigetreten sind) und eine Organisationseinheit für alle Microsoft Teams rooms-Benutzerkonten zu speichern. Wenn Sie eine Organisationseinheit für die Microsoft Teams rooms-Computerkonten erstellen, sollten Sie die Vererbung deaktivieren, um sicherzustellen, dass Sie nur die Richtlinien anwenden, die Sie für die Domäne verwenden möchten, die zu den Microsoft Teams-Räumen beigetreten sind. 
@@ -99,7 +99,7 @@ Erstellen Sie ein Gruppenrichtlinienobjekt, das der Organisationseinheit zugeord
 
 -   [Festlegen der Einstellungen für Energie und lokales Konto](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)
 -   Aktivieren Sie Windows Update.
--   Aktivieren von PowerShell-Remoting Sie können ein Startskript so konfigurieren, dass ein einfaches Skript ausgeführt wird: enable-PSRemoting-Force
+-   Aktivieren von PowerShell-Remoting Sie können ein Startskript so konfigurieren, dass ein einfaches Skript ausgeführt wird: Enable-PSRemoting-Force
 
 Sie können PowerShell zum Ausführen einer Reihe von Remote Verwaltungsaktivitäten verwenden, einschließlich Abrufen und Festlegen von Konfigurationsinformationen. PowerShell-Remoting muss aktiviert sein, *bevor* eine PowerShell-Remoteverwaltung durchgeführt werden kann, und sollte als Teil ihrer Bereitstellungsprozesse betrachtet oder über Gruppenrichtlinien konfiguriert werden. Weitere Informationen zu diesen Funktionen und deren Aktivierung finden Sie unter [Wartung und Vorgänge](rooms-operations.md#remote-management-using-powershell). 
 
@@ -119,7 +119,7 @@ Die Planung für Konfiguration und Bereitstellung umfasst die folgenden Hauptber
 
 Für jedes Microsoft Teams rooms-Gerät ist ein dediziertes und eindeutiges Ressourcenkonto erforderlich, das für Microsoft Teams oder Skype for Business und Exchange aktiviert sein muss. Dieses Konto muss über ein Chatroom-Postfach verfügen, das in Exchange gehostet wird, und als Besprechungsraum in der Microsoft Teams-oder Skype for Business-Bereitstellung aktiviert sein. Auf der Exchange-Seite muss die Kalenderverarbeitung so konfiguriert werden, dass das Gerät eingehende Besprechungsanfragen automatisch annehmen kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams-Chatrooms](rooms-configure-accounts.md). 
 
-**Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den Namen der Konventions *Website* - *Room Name*(*Max. Raumkapazität*)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs. 
+**Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den Namen der Konventions *Website* - (*Max. Raumkapazität*)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs. 
 
 |    |     |
 |-----------|------------|
