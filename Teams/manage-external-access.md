@@ -1,5 +1,5 @@
 ---
-title: Verwalten des externen Zugriffs (Föderation)
+title: Verwaltung des externen Zugriffs (Partnerverbund)
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -23,7 +23,7 @@ appliesto:
 localization_priority: Normal
 ms.openlocfilehash: 9739c35fcd22229f3f1115edf029535f9b23e8f9
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031781"
@@ -34,7 +34,7 @@ ms.locfileid: "49031781"
 Externer Zugriff ist eine Möglichkeit für Teams-Benutzer aus einer ganzen externen Domäne Sie zu finden, anrufen, mit Ihnen zu chatten und Besprechungen mit Ihnen in Teams einzurichten. Über einen externen Zugang können Sie auch mit externen Benutzern kommunizieren, die noch Skype for Business (online oder lokal) bzw. Skype (in der Vorschau) verwenden.
 
 > [!NOTE]
-> Die zulässigen oder blockierten Domänen gelten nur für Besprechungen, wenn der anonyme Zugriff auf Besprechungen deaktiviert ist.
+> Die zugelassenen oder blockierten Domänen werden auf Besprechungen nur dann angewendet, wenn der anonyme Zugriff auf Besprechungen deaktiviert ist.
 
 Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren möchten, ist der Gastzugriff möglicherweise besser geeignet. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -47,26 +47,26 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 - Sie möchten, dass alle anderen Microsoft Teams-Benutzer aus aller Welt Sie anhand Ihrer E-Mail-Adresse finden und Kontakt zu Ihnen aufnehmen können. 
 
 > [!IMPORTANT]
-> Wenn Sie den Team-Client für die Kommunikation mit einem externen Benutzer verwenden möchten (unabhängig davon, ob dieser Benutzer Teams oder Skype for Business verwendet), muss der Team Benutzer in Skype for Business Online verwaltet werden.
+> Um den Teams-Client für die Kommunikation mit einem externen Benutzer zu verwenden (unabhängig davon, ob dieser Benutzer Teams oder Skype for Business verwendet), muss der Teams-Benutzer in Skype for Business Online verwaltet werden.
 
 ## <a name="plan-for-external-access"></a>Plan für externen Zugriff
 
-Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Wenn Sie blockierte Domänen hinzufügen, sind alle anderen Domänen zulässig, und wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Eine Ausnahme von dieser Regel ist, wenn anonyme Teilnehmer in Besprechungen zulässig sind. Es gibt drei Szenarien für das Einrichten des externen Zugriffs im Microsoft Teams Admin Center ( **Organisationsweite Einstellungen** > **Externer Zugriff** ):
+Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Wenn Sie blockierte Domänen hinzufügen, sind alle anderen Domänen zulässig, und wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Die Ausnahme von dieser Regel ist, wenn anonyme Teilnehmer in Besprechungen zugelassen werden. Es gibt drei Szenarien für das Einrichten des externen Zugriffs im Microsoft Teams Admin Center (**Organisationsweite Einstellungen** > **Externer Zugriff**):
 
-- **Offener Verbund** : Dies ist die Standardeinstellung in Teams, mit der Personen in Ihrer Organisation Sie finden, anrufen, mit Ihnen chatten und Besprechungen mit Personen in einer beliebigen Domäne außerhalb Ihrer Organisation einrichten können.
+- **Offener Verbund**: Dies ist die Standardeinstellung in Teams, mit der Personen in Ihrer Organisation Sie finden, anrufen, mit Ihnen chatten und Besprechungen mit Personen in einer beliebigen Domäne außerhalb Ihrer Organisation einrichten können.
 
     In diesem Szenario können Ihre Benutzer mit allen externen Domänen kommunizieren, die Microsoft Teams oder Skype for Business ausführen UND den öffentlichen Verbund verwenden ODER Ihre Domäne zur Zulassungsliste hinzugefügt haben.
 
-- **Bestimmte Domänen zulassen** : Indem Sie Domänen zu einer **Zulassungsliste** hinzufügen, beschränken Sie den externen Zugriff auf die erlaubten Domänen. Sobald Sie eine Liste der erlaubten Domänen eingerichtet haben, werden alle anderen Domänen gesperrt. Um bestimmte Domänen zuzulassen, klicken Sie auf **Domäne hinzufügen** , fügen Sie den Domänennamen hinzu, klicken Sie auf **Erforderliche Aktion für diese Domäne** , und wählen Sie dann **Zulässig** aus.
+- **Bestimmte Domänen zulassen**: Indem Sie Domänen zu einer **Zulassungsliste** hinzufügen, beschränken Sie den externen Zugriff auf die erlaubten Domänen. Sobald Sie eine Liste der erlaubten Domänen eingerichtet haben, werden alle anderen Domänen gesperrt. Um bestimmte Domänen zuzulassen, klicken Sie auf **Domäne hinzufügen**, fügen Sie den Domänennamen hinzu, klicken Sie auf **Erforderliche Aktion für diese Domäne**, und wählen Sie dann **Zulässig** aus.
 
-- **Bestimmte Domänen blockieren** : Indem Sie Domänen zu einer **Sperrliste** hinzufügen, können Sie mit allen externen Domänen *außer* den blockierten Domänen kommunizieren. Um bestimmte Domänen zu blockieren, klicken Sie auf **Domäne hinzufügen** , fügen Sie den Domänennamen hinzu, klicken Sie auf **Erforderliche Aktion für diese Domäne** , und wählen Sie dann **Blockiert** aus. Sobald Sie eine Liste blockierter Domänen erstellt haben, werden alle anderen Domänen zugelassen.
+- **Bestimmte Domänen blockieren**: Indem Sie Domänen zu einer **Sperrliste** hinzufügen, können Sie mit allen externen Domänen *außer* den blockierten Domänen kommunizieren. Um bestimmte Domänen zu blockieren, klicken Sie auf **Domäne hinzufügen**, fügen Sie den Domänennamen hinzu, klicken Sie auf **Erforderliche Aktion für diese Domäne**, und wählen Sie dann **Blockiert** aus. Sobald Sie eine Liste blockierter Domänen erstellt haben, werden alle anderen Domänen zugelassen.
 
 > [!NOTE]
-> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer weiterhin über anonyme Teilnahme an Besprechungen teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
 
 ## <a name="allow-or-block-domains"></a>Zulassen oder Blockieren von Domänen
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Schritt 1 – Aktivieren Ihrer Organisation für die Kommunikation mit anderen Teams oder Skype for Business-Organisationen
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Schritt 1: Aktivieren Ihrer Organisation für die Kommunikation mit einer anderen Microsoft Teams- oder Skype for Business-Organisation
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
@@ -119,37 +119,37 @@ Weitere Informationen über die Möglichkeiten der Kommunikation zwischen Teams-
 
 ## <a name="common-external-access-scenarios"></a>Häufige Szenarien für den externen Zugriff
 
-In den folgenden Abschnitten wird beschrieben, wie Sie den Verbund für allgemeine Szenarien für den externen Zugriff aktivieren und wie der TeamsUpgradePolicy die Zustellung von eingehenden Chats und anrufen bestimmt.
+In den folgenden Abschnitten wird beschrieben, wie Sie den Partnerverbund für gängige externe Zugriffsszenarien aktivieren und wie die TeamsUpgradePolicy die Zustellung eingehender Chats und Anrufe bestimmt.
 
-### <a name="enable-federation"></a>Föderation aktivieren
+### <a name="enable-federation"></a>Aktivieren des Partnerverbunds
 
-Damit Benutzer in Ihrer Organisation mit Benutzern in einer anderen Organisation kommunizieren können, müssen beide Organisationen die Föderation aktivieren. Die Schritte zum Aktivieren der Föderation für eine bestimmte Organisation hängen davon ab, ob es sich um eine reine Online-, Hybrid-oder rein lokale Organisation handelt.
+Damit Benutzer in Ihrer Organisation mit Benutzern in einer anderen Organisation kommunizieren können, müssen beide Organisationen den Partnerverbund aktivieren. Die Schritte zur Aktivierung des Partnerverbunds für eine bestimmte Organisation hängen davon ab, ob es sich um eine reine Online-, eine Hybrid- oder eine reine lokale Organisation handelt.
 
-|**Wenn Ihre Organisation** |**Aktivieren der Föderation wie folgt**  |
+|**Art Ihrer Organisation** |**Art der Aktivierung des Partnerverbunds**  |
 |:---------|:-----------------------|
-|Online ohne Skype for Business lokal. Dies umfasst Organisationen, die TeamsOnly-Benutzer und/oder Skype for Business Online-Benutzer sind.| Bei Verwendung von Teams Admin Center: <br>– Stellen Sie sicher, dass die **Benutzer mit anderen Skype for Business-und Teams-Einstellungen kommunizieren können,** wenn die Benutzer im externen Zugriff aktiviert sind.<br>-Wenn Sie nicht die offene Föderation verwenden (die Föderation mit einer anderen Domäne zulässt), fügen Sie die externe Domäne zur Liste der zulässigen Werte hinzu.<br><br>Bei Verwendung von PowerShell:<br>– Stellen Sie sicher, dass der Mandant für Federation aktiviert ist: `Get-CsTenantFederationConfiguration` muss angezeigt werden `AllowFederatedUsers=true` . <br>-Stellen Sie sicher, dass der effektive Wert von "hat" des Benutzers `CsExternalAccessPolicy` `EnableFederationAccess=true` .<br>-Wenn Sie nicht Open Federation verwenden, stellen Sie sicher, dass die Zieldomäne in aufgeführt ist `AllowedDomains` `CsTenantFederationConfiguration` . |
-|Reines lokales | In lokalen Tools: <br>– Stellen Sie sicher, dass die Föderation aktiviert ist `CsAccessEdgeConfiguration` .<br>– Stellen Sie sicher, dass die Föderation für den Benutzer durch `ExternalAccessPolicy` (entweder über die globale Richtlinie, die Website Richtlinie oder die Benutzer zugewiesene Richtlinie) aktiviert ist. <br> -Wenn Sie nicht Open Federation verwenden, stellen Sie sicher, dass die Zieldomäne in aufgeführt ist `AllowedDomains` . |
-|Hybrid mit einigen Benutzern Online (entweder in Skype for Business oder in Teams) und einigen lokalen Benutzern. | Führen Sie die obigen Schritte für Online-und lokale Organisationen aus. |
+|Online ohne lokales Skype for Business. Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern.| Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter „Externer Zugriff“ aktiviert ist.<br>– Wenn Sie keinen offenen Partnerverbund verwenden (der den Verbund mit einer beliebigen anderen Domäne zulässt), dann fügen Sie die externe Domäne zur Liste „Zulässig“ hinzu.<br><br>Wird PowerShell verwendet:<br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowFederatedUsers=true` anzeigen. <br>– Stellen Sie sicher, dass der effektive Wert `CsExternalAccessPolicy` des Benutzers `EnableFederationAccess=true` aufweist.<br>– Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` von `CsTenantFederationConfiguration` enthalten ist. |
+|Reine lokale Organisation | In lokalen Tools: <br>– Stellen Sie sicher, dass der Partnerverbund in `CsAccessEdgeConfiguration` aktiviert ist.<br>– Stellen Sie sicher, dass der Partnerverbund für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie). <br> – Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` enthalten ist. |
+|Hybridorganisation mit einigen Onlinebenutzern (entweder in Skype for Business oder Teams) und einigen lokalen Benutzern. | Führen Sie die oben stehenden Schritte sowohl für die Online- als auch die lokale Organisation aus. |
 
-### <a name="delivery-of-incoming-chats-and-calls"></a>Zustellung von eingehenden Chats und anrufen 
+### <a name="delivery-of-incoming-chats-and-calls"></a>Zustellung von eingehenden Chats und Anrufen 
 
-Eingehende Chats und Anrufe von einer Föderations Organisation landen in den Teams des Benutzers oder dem Skype for Business-Client, abhängig vom Modus des Empfängers in TeamsUpgradePolicy.
+Eingehende Chats und Anrufe von einer Verbundorganisation landen im Teams- oder Skype for Business-Client des Benutzers, je nach dem Modus des empfangenden Benutzers in TeamsUpgradePolicy.
 
-|**Wenn Sie möchten** |**Gehen Sie wie folgt vor:**  |
+|**Zweck** |**Aktion**  |
 |:---------|:-----------------------|
-| Stellen Sie sicher, dass eingehende Federated-Chats und-Anrufe im Team-Client des Benutzers ankommen: | Konfigurieren Sie Ihre Benutzer als TeamsOnly.
-| Sicherstellen, dass eingehende Federated-Chats und-Anrufe im Skype for Business-Client des Benutzers eintreffen | Konfigurieren Sie Ihre Benutzer so, dass Sie in einem anderen Modus als TeamsOnly sind. |
+| Sicherstellen, dass eingehende Verbundchats und -anrufe im Teams-Client des Benutzers ankommen: | Konfigurieren Sie für Ihre Benutzer den „TeamsOnly“-Modus.
+| Sicherstellen, dass eingehende Verbundchats und -anrufe im Skype for Business-Client des Benutzers ankommen: | Konfigurieren Sie für Ihre Benutzer einen beliebigen Modus außer „TeamsOnly“. |
 
 
-### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Aktivieren der Föderation zwischen Benutzern in Ihrer Organisation und Verbraucher Nutzern von Skype
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Aktivieren des Partnerverbunds zwischen Benutzern in Ihrer Organisation und Endbenutzern von Skype
 
-So aktivieren Sie die Föderation zwischen Benutzern in Ihrer Organisation und Verbraucher Nutzern von Skype:
+So aktivieren Sie den Partnerverbund zwischen Benutzern in Ihrer Organisation und Verbrauchern mit Skype:
 
-|**Wenn Ihre Organisation** |**Aktivieren der Verbraucher Föderation wie folgt**  |
+|**Art Ihrer Organisation** |**Art der Aktivierung des Partnerverbunds für Verbraucher**  |
 |:---------|:-----------------------|
-| Pure Online ohne Skype for Business lokal.  Dies umfasst Organisationen, die TeamsOnly-Benutzer und/oder Skype for Business Online-Benutzer sind. | Bei Verwendung von Teams Admin Center: <br>-Stellen Sie sicher, dass **Benutzer mit Skype-Nutzern kommunizieren können, wenn** Sie im externen Zugriff aktiviert sind.<br><br>Bei Verwendung von PowerShell: <br>– Stellen Sie sicher, dass der Mandant für Federation aktiviert ist: `Get-CsTenantFederationConfiguration` muss angezeigt werden `AllowPublicUsers=true` . <br> -Stellen Sie sicher, dass der effektive Wert von "hat" des Benutzers `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` . |
-| Reines lokales | In lokalen Tools: <br> – Stellen Sie sicher, dass Skype als Verbundpartner aktiviert ist. <br> – Stellen Sie sicher, `EnablePublicCloudAccess=true` dass der Benutzer über eine `ExternalAccessPolicy` globale Richtlinie, eine Website Richtlinie oder eine Benutzer zugewiesene Richtlinie verfügt.|
-| Hybrid mit einigen Benutzern Online (entweder in Skype for Business oder in Teams) und einigen lokalen Benutzern.| Führen Sie die obigen Schritte für Online-und lokale Organisationen aus.
+| Nur online ohne lokales Skype for Business.  Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern. | Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass die Einstellung **Benutzer können mit Skype-Benutzern kommunizieren** unter „Externer Zugriff“ aktiviert ist.<br><br>Wird PowerShell verwendet: <br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowPublicUsers=true` anzeigen. <br> – Stellen Sie sicher, dass der effektive Wert `CsExternalAccessPolicy` des Benutzers `EnablePublicCloudAccess=true` aufweist. |
+| Reine lokale Organisation | In lokalen Tools: <br> – Stellen Sie sicher, dass Skype als Verbundpartner aktiviert ist. <br> – Stellen Sie sicher, dass der `EnablePublicCloudAccess=true` für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie).|
+| Hybridorganisation mit einigen Onlinebenutzern (entweder in Skype for Business oder Teams) und einigen lokalen Benutzern.| Führen Sie die oben stehenden Schritte sowohl für die Online- als auch die lokale Organisation aus.
 
 
 > [!IMPORTANT]

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Configuring Cloud Voicemail.
-ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 8a75c670448cf69cf6d9d772c670c9451fd94f80
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359131"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662090"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen des Cloud-Voicemail-Diensts für lokale Benutzer
 
@@ -95,8 +95,8 @@ Versions Interoperabilität und unterstützte Topologien für Cloud-Voicemail si
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype for Business Server 2019 | Exchange Server um | Exchange Server um | Cloudvoicemail | Cloudvoicemail |
-| Skype for Business Server 2015 | Exchange Server um | Exchange Server um | Cloudvoicemail | Cloudvoicemail |
+| Skype for Business Server 2019 | Exchange Server um | Exchange Server um | Cloudvoicemail | Cloudvoicemail |
+| Skype for Business Server 2015 | Exchange Server um | Exchange Server um | Nicht unterstützt | Cloudvoicemail |
 | Lync Server 2013 <br>  | Exchange Server um | Exchange Server um | Nicht unterstützt | Cloudvoicemail |
 
 Microsoft empfiehlt die folgenden Migrationspfade:

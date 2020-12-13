@@ -20,7 +20,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031031"
@@ -35,27 +35,27 @@ Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://ak
 > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 verlangen wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für Besprechungsaufzeichnungen.
 
 > [!NOTE]
-> Informationen zum Verwenden von Rollen in Teams-Besprechungen und zum Ändern der Rollen von Benutzern finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Informationen zur Verwendung von Rollen in Teams-Besprechungen und zum Ändern von Benutzerrollen finden Sie unter [Rollen in einer Teams-Besprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Voraussetzungen für die Aufzeichnung von Teams-Cloudbesprechungen.
 
 Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss Microsoft Stream für den Mandanten aktiviert sein. Darüber hinaus gelten die folgenden Voraussetzungen, die sowohl für den Organisator der Besprechung als auch für die Person, welche die Aufzeichnung initiiert, erforderlich sind:
 
-- Benutzer hat Office 365 E1, E3, E5, a1, a3, A5, Microsoft 365 Business Premium, Business Standard oder Business Basic<sup>1</sup>
-- Der Benutzer muss für Microsoft Stream<sup>2</sup> lizenziert sein 
+- Benutzer verfügt über Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Business Standard oder Business Basic <sup>1</sup>
+- Der Benutzer muss für Microsoft Stream lizenziert sein<sup>2</sup> 
 - Der Benutzer hat die Berechtigung zum Hochladen von Videos in Microsoft Stream
 - Der Benutzer hat den Unternehmensrichtlinien zugestimmt, falls diese vom Administrator erstellt wurden
 - Der Benutzer verfügt über genügend Speicherplatz in Microsoft Stream, um Aufzeichnungen zu speichern
 - Der Benutzer hat die TeamsMeetingPolicy-AllowCloudRecording-Einstellung auf „True“ eingestellt
 - Der Benutzer ist kein anonymer, Gast- oder Verbundbenutzer in der Besprechung
-- Um die Transkription für eine Benutzer Besprechung zu aktivieren, muss die für die Team-Besprechungsrichtlinie, der Sie zugewiesen ist, die-AllowTranscription-Einstellung auf true festgelegt sein.
+- Um die Transkription für die Besprechung eines Benutzers zu aktivieren, muss die Einstellung „-AllowTranscription“ in der dem Benutzer zugewiesenen Teams-Besprechungsrichtlinie auf „true“ festgelegt sein.
 
-<sup>1</sup> ab August 20, 2020, wird der Zugriff auf die Besprechungs Aufnahmedatei nach 21 Tagen für Benutzer mit a1 ablaufen. Weitere Informationen finden Sie unter [Hochladen einer Microsoft Teams-Besprechungsaufzeichnung in den Datenstrom](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+<sup>1</sup> Ab dem 20. August 2020 läuft der Zugriff auf die Aufzeichnungsdatei der Besprechung für Benutzer mit A1 nach 21 Tagen ab. Weitere Informationen hierzu finden Sie unter [Hochladen einer Microsoft Teams-Besprechungsaufzeichnung in Stream](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
 
-<sup>2</sup> Benutzer müssen lizenziert werden, um Besprechungen von/zu Microsoft Stream hoch-oder herunterzuladen, Sie benötigen jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
+<sup>2</sup> Der Benutzer muss dazu lizenziert sein, Besprechungen in/aus Microsoft Stream hoch- oder herunterzuladen, benötigt jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
 
 > [!IMPORTANT] 
-> Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern stattdessen in Azure Media Services (AMS) mit einer Höchstgrenze von 21 Tagen gespeichert werden, bevor Sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
+> Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Das bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden. Sie werden stattdessen in Azure Media Services (AMS) mit einer 21-tägigen Frist gespeichert, bevor sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten der Aufzeichnungsfunktion für Teams-Cloudmeetings für Benutzer in Ihrer Organisation
 
@@ -65,7 +65,7 @@ In diesem Abschnitt wird erläutert, wie die Aufzeichnung von Besprechungen in T
 
 Microsoft Stream ist als Teil der berechtigten Microsoft 365- und Office 365-Abonnements oder als eigenständiger Dienst verfügbar.  Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).  Microsoft Stream ist jetzt in Microsoft 365 Business, Microsoft 365 Business Standard und Microsoft 365 Business Basic enthalten.
 
-Erfahren Sie mehr darüber, wie Sie [Benutzern in Microsoft 365 oder Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream nicht für die Benutzer blockiert ist, wie in [Block Sign-ups für Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization)definiert.
+Hier erfahren Sie, wie Sie [Benutzern in Microsoft 365- oder Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie unter [Blockieren von Registrierungen für Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization) definiert.
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Stellen Sie sicher, dass Benutzer die Berechtigung zum Hochladen von Videos in Microsoft Stream haben
 
@@ -83,10 +83,10 @@ Aktivieren bzw. deaktivieren Sie im Microsoft Teams Admin Center die Einstellung
 
 Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowCloudRecording“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Beachten Sie, dass sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung über die Berechtigung zum Aufzeichnen der Besprechung verfügen müssen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, für die standardmäßig AllowCloudRecording aktiviert ist.
+Beachten Sie, dass sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung über die Berechtigung zum Aufzeichnen der Besprechung verfügen müssen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowCloudRecording standardmäßig aktiviert ist.
 
 > [!NOTE]
-> Weitere Informationen zum Verwenden von Teamrollen zum Konfigurieren der Personen, die über die Berechtigung zum Aufzeichnen einer Besprechung verfügen, finden Sie unter [Rollen in einer Teambesprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Weitere Informationen zur Verwendung von Teams-Rollen zum Konfigurieren der Berechtigung, eine Besprechung aufzuzeichnen, finden Sie unter [Rollen in einer Teams-Besprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 Wenn ein Benutzer auf die globale Richtlinie zurückgesetzt werden soll, verwenden Sie das folgende Cmdlet, um eine bestimmte Richtlinienzuweisung für einen Benutzer zu entfernen:
 
@@ -112,11 +112,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Wo Ihre Besprechungsaufzeichnungen gespeichert werden
 
-Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert. Aufzeichnungen werden aufbewahrt und können 21 Tage lang angezeigt und heruntergeladen werden. Derzeit ist das Feature für die Besprechungsaufzeichnung von Teams für Kunden ausgeschaltet, deren Teams-Daten inländisch gespeichert werden, falls Microsoft Stream im inländischen Datenbereich, in dem die Daten gespeichert werden, nicht verfügbar ist. In Zukunft wird das Feature für die Besprechungsaufzeichnung von Teams für Kunden eingeschaltet, deren Daten inländisch gespeichert werden, auch wenn Microsoft Stream im inländischen Datenbereich nicht verfügbar ist.
+Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert. Die Aufzeichnungen werden aufbewahrt und stehen 21 Tage lang zur Ansicht und zum Download zur Verfügung. Derzeit ist das Feature für die Besprechungsaufzeichnung von Teams für Kunden ausgeschaltet, deren Teams-Daten inländisch gespeichert werden, falls Microsoft Stream im inländischen Datenbereich, in dem die Daten gespeichert werden, nicht verfügbar ist. In Zukunft wird das Feature für die Besprechungsaufzeichnung von Teams für Kunden eingeschaltet, deren Daten inländisch gespeichert werden, auch wenn Microsoft Stream im inländischen Datenbereich nicht verfügbar ist.
 
-Wenn diese Änderung wirksam wird, werden Besprechungsaufzeichnungen standardmäßig in der nächstgelegenen geografischen Region für Microsoft Stream gespeichert. Wenn Ihre Teams-Daten inländisch gespeichert werden und Sie Besprechungsaufzeichnungen lieber im Inland speichern möchten, empfehlen wir, dass Sie dieses Feature deaktivieren und es erst dann wieder aktivieren, nachdem Microsoft Stream für Ihren Datenaufbewahrungsbereich in Ihrem Land bereitgestellt wurde. Wenn Sie das Feature für alle Benutzer in Ihrer Organisation deaktivieren möchten, deaktivieren Sie in der globalen Teams-Besprechungsrichtlinie, die sich im Microsoft Teams Admin Center befindet, die Einstellung " **Cloud-Aufzeichnung zulassen** ". Wenn Sie jedoch weiterhin möchten, dass Aufzeichnungen in der nächstgelegenen geografischen Region für Microsoft Stream gespeichert werden, müssen Sie die Option **Cloud-Aufzeichnung zulassen** und **Aufzeichnungs Speicher außerhalb der Region zulassen** aktivieren, bevor diese Änderung durchgeführt wird.
+Wenn diese Änderung wirksam wird, werden Besprechungsaufzeichnungen standardmäßig in der nächstgelegenen geografischen Region für Microsoft Stream gespeichert. Wenn Ihre Teams-Daten inländisch gespeichert werden und Sie Besprechungsaufzeichnungen lieber im Inland speichern möchten, empfehlen wir, dass Sie dieses Feature deaktivieren und es erst dann wieder aktivieren, nachdem Microsoft Stream für Ihren Datenaufbewahrungsbereich in Ihrem Land bereitgestellt wurde. Wenn Sie das Feature für alle Benutzer in Ihrer Organisation deaktivieren möchten, deaktivieren Sie im Microsoft Teams Admin Center die Einstellung **Cloudaufnahme zulassen** in der globalen Teams-Besprechungsrichtlinie. Wenn Sie die Speicherung von Aufnahmen in der nächstgelegenen geografischen Region für Microsoft Stream jedoch weiterhin zulassen möchten, müssen Sie sowohl **Cloudaufnahme zulassen** als auch **Aufnahmespeicherung außerhalb der Region zulassen** aktivieren, bevor diese Änderung erfolgt.
 
-Verwenden Sie das folgende Cmdlet, um Aufzeichnungen in der globalen Richtlinie für den Bereich zu aktivieren:
+Verwenden Sie zum Aktivieren von Aufzeichnungen in der Region der globalen Richtlinie das folgende Cmdlet:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
@@ -125,23 +125,23 @@ Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRe
 
 Nachfolgend finden Sie eine Zusammenfassung dessen, was passiert, wenn Sie die Besprechungsaufzeichnung aktivieren, wenn diese Änderung wirksam wird:
 
-|Wenn Sie Besprechungsaufzeichnungen aktivieren|Besprechungsaufzeichnungen werden gespeichert... |
+|Wenn Sie Besprechungsaufzeichnungen aktivieren,|Werden Besprechungsaufzeichnungen folgendermaßen gespeichert: |
 |---|---|
-|Bevor Microsoft Stream in Ihrer Region für den nationalen Daten Wohnsitz verfügbar ist |Im nächsten Microsoft-Datenstrom Bereich|
-|Nach der Verfügbarkeit von Microsoft Stream in Ihrer Region für den nationalen Daten Wohnsitz |In der Region für den nationalen Daten Wohnsitz|
+|Bevor Microsoft Stream in Ihrem lokalen Datenaufbewahrungsbereich zur Verfügung steht |In der nächstgelegenen Microsoft Stream-Region|
+|Nachdem Microsoft Stream in Ihrem lokalen Datenaufbewahrungsbereich zur Verfügung steht |In Ihrem lokalen Datenaufbewahrungsbereich|
 
-Bei neuen und vorhandenen Mandanten, die die Besprechungsaufzeichnung noch nicht aktiviert haben, werden neue Aufzeichnungen lokal gespeichert, nachdem Microsoft Stream im lokalen Datenaufbewahrungsbereich zur Verfügung steht. Allerdings wird jeder Mandant, der die Aufzeichnung von Besprechungen ermöglicht, bevor Microsoft Stream in der Region "in-Country-Daten" zur Verfügung steht, weiterhin den Microsoft-Datenstrom Speicher für vorhandene und neue Aufzeichnungen verwenden, auch wenn Microsoft Stream in der Region für den nationalen Daten Wohnsitz verfügbar ist.
+Bei neuen und vorhandenen Mandanten, die die Besprechungsaufzeichnung noch nicht aktiviert haben, werden neue Aufzeichnungen lokal gespeichert, nachdem Microsoft Stream im lokalen Datenaufbewahrungsbereich zur Verfügung steht. Allerdings werden alle Mandanten, die die Aufzeichnung von Besprechungen aktivieren, bevor Microsoft Stream im inländischen Datenaufbewahrungsbereich zur Verfügung steht, weiterhin den Microsoft Stream-Speicher für vorhandene und neue Aufzeichnungen verwenden, auch wenn Microsoft Stream im inländischen Datenaufbewahrungsbereich verfügbar gemacht wird.
 
 Um herauszufinden, in welcher Region Ihre Microsoft Stream-Daten gespeichert werden, klicken Sie in Microsoft Stream auf **?** Klicken Sie in der oberen, rechten Ecke auf **Über Microsoft Stream** und dann auf **Ihre Daten werden gespeichert in**.  Um mehr über die Regionen zu erfahren, in denen Microsoft Stream Daten speichert, lesen Sie [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Weitere Informationen dazu, wo Daten in Microsoft 365 oder Office 365 in verschiedenen Diensten gespeichert werden, finden Sie unter [wo befinden sich Ihre Daten?](https://products.office.com/where-is-your-data-located?rtc=1)
+Um mehr darüber zu erfahren, wo die Daten der Dienste von Microsoft 365 oder Office 365 gespeichert werden, lesen Sie [Wo befinden sich Ihre Daten?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Aufzeichnungstranskription ein- oder ausschalten
 
-Mit dieser Einstellung wird gesteuert, ob Beschriftungen und Transkriptions Features bei der Wiedergabe von Besprechungsaufzeichnungen zur Verfügung stehen. Wenn Sie diese Option deaktivieren, stehen die Optionen " **Suchen** " und " **CC** " während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit die Aufzeichnung auch Transkription umfasst.
+Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Option deaktivieren, stehen die Optionen **Suche** und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
 
 > [!NOTE]
-> Diese Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, bei denen die Sprache in Teams auf Englisch festgesetzt ist und wenn Englisch in der Besprechung gesprochen wird. Sie werden zusammen mit den Besprechungsaufzeichnungen im Microsoft Stream-cloudspeicher gespeichert.
+> Diese Transkription aufgezeichneter Besprechungen wird derzeit nur für Benutzer unterstützt, die die Sprache in Microsoft Teams auf Englisch festgelegt haben, und funktioniert nur, wenn in der Besprechung Englisch gesprochen wird. Die Transkriptionen werden zusammen mit Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert.
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 
@@ -175,7 +175,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="planning-for-storage"></a>Planung der Speicheranforderungen
 
-Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft Stream verfügen.  Lesen Sie die [Übersicht über die Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview) , um den im Abonnement enthaltenen Basisspeicher zu verstehen und zu erfahren, wie Sie zusätzlichen Speicher erwerben.
+Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft Stream verfügen.  Lesen Sie [Übersicht über die Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview), um mehr über den im Abonnement enthaltenen Basisspeicher und den Erwerb zusätzlichen Speichers zu erfahren.
 
 ## <a name="manage-meeting-recordings"></a>Verwalten von Besprechungsaufzeichnungen
 
@@ -186,7 +186,7 @@ Die Besprechungsaufzeichnungen gelten als mandanteneigener Inhalt. Wenn der Besi
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Compliance und eDiscovery für Besprechungsaufzeichnungen
 
-Die Besprechungsaufzeichnungen werden in Microsoft Stream gespeichert, der Microsoft 365 und Office 365 Tier-C-kompatibel ist. Um e-Discovery-Anforderungen für Compliance-Administratoren zu unterstützen, die an Besprechungen oder Anrufaufnahmen für Microsoft-Streams interessiert sind, steht die Meldung „Aufzeichnung abgeschlossen“ in der Funktionalität zur Inhaltssuche für Microsoft Teams zur Verfügung. Compliance-Administratoren können nach dem Stichwort „Aufzeichnung“ in der Betreffzeile des Elements in der Vorschau der Compliance-Inhaltssuche suchen und Besprechungen und Anrufaufnahmen in der Organisation entdecken. Eine Voraussetzung für die Anzeige aller Aufzeichnungen ist, dass sie in Microsoft Stream mit Administratorzugriff ausgestattet werden müssen. Erfahren Sie mehr über das [Zuweisen von Administratorberechtigungen in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
+Die Besprechungsaufzeichnungen werden in Microsoft Stream (Microsoft 365 und Office 365 Tier-C-konform) gespeichert. Um e-Discovery-Anforderungen für Compliance-Administratoren zu unterstützen, die an Besprechungen oder Anrufaufnahmen für Microsoft-Streams interessiert sind, steht die Meldung „Aufzeichnung abgeschlossen“ in der Funktionalität zur Inhaltssuche für Microsoft Teams zur Verfügung. Compliance-Administratoren können nach dem Stichwort „Aufzeichnung“ in der Betreffzeile des Elements in der Vorschau der Compliance-Inhaltssuche suchen und Besprechungen und Anrufaufnahmen in der Organisation entdecken. Eine Voraussetzung für die Anzeige aller Aufzeichnungen ist, dass sie in Microsoft Stream mit Administratorzugriff ausgestattet werden müssen. Erfahren Sie mehr über das [Zuweisen von Administratorberechtigungen in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

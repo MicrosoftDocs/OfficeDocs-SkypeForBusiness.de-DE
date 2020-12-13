@@ -24,7 +24,7 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
 ms.openlocfilehash: 0c2d37adb185f873b0208ff422aa7ee8aac9a81c
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030661"
@@ -39,7 +39,7 @@ Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beit
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-Sie müssen ein Team Dienstadministrator sein, um diese Änderungen vornehmen zu können. Informationen zum Abrufen von Administratorrollen und-Berechtigungen finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
+Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](https://docs.microsoft.com/microsoftteams/using-admin-roles).
 
 1. Wechseln Sie zum Admin Center.
 
@@ -78,7 +78,7 @@ Sie können Teams-Besprechungseinladungen an die Bedürfnisse Ihrer Organisation
     - **URL für rechtliche Hinweise** Wenn Ihre Organisation über eine Website mit rechtlichen Hinweisen verfügt, zu der Personen bei rechtliche Bedenken navigieren sollen, geben Sie die URL hier ein.
     - **Hilfe-URL** Wenn Ihre Organisation über eine Supportwebsite verfügt, zu der Personen bei Problemen navigieren sollen, geben Sie die URL hier ein.
     - **Fußzeile** Geben Sie Text ein, der als Fußzeile angezeigt werden soll.
-4. Klicken Sie auf **Vorschau für Einladung** , um eine Vorschau Ihrer Besprechungseinladung anzuzeigen.
+4. Klicken Sie auf **Vorschau für Einladung**, um eine Vorschau Ihrer Besprechungseinladung anzuzeigen.
 5. Klicken Sie abschließend auf **Speichern**.
 6. Warten Sie eine Stunde, bis die Änderungen weitergegeben wurden. Planen Sie dann eine Teams-Besprechung, um zu sehen, wie die Besprechungseinladung aussieht.  
 
@@ -86,10 +86,10 @@ Sie können Teams-Besprechungseinladungen an die Bedürfnisse Ihrer Organisation
 
 <a name="bknetwork"> </a>
 
-Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwenden, können Sie QoS-Marker aktivieren und Portbereiche für jeden Mediendaten Verkehr festlegen. Das Festlegen von Portbereichen für verschiedene Datenverkehrstypen ist nur ein Schritt bei der Handhabung von Echtzeitmedien. Weitere Details finden Sie unter [Quality of Service (QoS) in Teams](qos-in-teams.md).
+Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwenden, können Sie QoS-Markierungen aktivieren und Portbereiche für jede Art von Mediendatenverkehr festlegen. Das Festlegen von Portbereichen für verschiedene Datenverkehrstypen ist nur ein Schritt bei der Handhabung von Echtzeitmedien. Weitere Details finden Sie unter [Quality of Service (QoS) in Teams](qos-in-teams.md).
 
 > [!IMPORTANT]
-> Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Teams-Dienst ändern, müssen Sie auch [übereinstimmende Einstellungen auf alle Benutzer Geräte](QoS-in-Teams-clients.md) und alle internen Netzwerkgeräte anwenden, um die Änderungen an QoS in Teams vollständig zu implementieren.
+> Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Teams-Dienst ändern, müssen Sie außerdem [übereinstimmende Einstellungen auf alle Benutzergeräte anwenden](QoS-in-Teams-clients.md) und auf alle internen Netzwerkgeräte, um die Änderungen an QoS in Teams vollständig zu implementieren.
 
  ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 1. Wechseln Sie zum Admin Center.
@@ -100,10 +100,10 @@ Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwend
 
     - Um die Verwendung von DSCP-Markierungen für QoS zu ermöglichen, aktivieren Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen**. Sie haben nur die Möglichkeit, Markierungen zu verwenden oder nicht; Sie können nicht für jeden Datenverkehrstyp eigene Markierungen festlegen. Weitere Informationen zu DSCP-Markierungen finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method).
         > [!NOTE]
-        > DSCP-Tagging erfolgt in der Regel über Quell-Ports, und UDP-Datenverkehr wird standardmäßig an das Transport-Relay mit dem Ziel-Port von 3478 weitergeleitet. Wenn Ihr Unternehmen Tagging für Zielports erfordert, wenden Sie sich bitte an den Support, um die Kommunikation mit dem Transport-Relay mit UDP-Ports 3479 (Audio), 3480 (Video) und 3481 (Freigabe) zu ermöglichen.
+        > Das DSCP-Markieren erfolgt normalerweise über Quellports, und der UDP-Verkehr wird standardmäßig an das Transportrelais mit dem Zielport 3478 weitergeleitet. Wenn Ihr Unternehmen das Markieren auf Zielports verlangt, kontaktieren Sie bitte den Support, um die Kommunikation zum Transportrelais mit den UDP-Ports 3479 (Audio), 3480 (Video), und 3481 (Teilen) zu aktivieren.
     - Um Portbereiche festzulegen, wählen Sie neben **Portbereich für jeden Typ von Mediendatenverkehr in Echtzeit auswählen** die Option **Portbereiche festlegen** aus, und geben Sie dann die Start- und Endports für Audio, Video und Bildschirmfreigabe ein. Die Auswahl dieser Option ist erforderlich, um QoS zu implementieren. 
         > [!Note]
-        > Wenn **Quality of Service (QoS)-Marker für echt Zeit Mediendaten Verkehr** aktiviert ist, müssen Sie Ihre Porteinstellungen verwalten. Sie werden nicht automatisch verwaltet.
+        > Wenn **QoS-Markierungen (Quality of Service) für den Echtzeit-Medienverkehr** aktiviert sind, müssen Sie Ihre Porteinstellungen verwalten. Diese werden nicht automatisch angepasst.
         
         > [!IMPORTANT]
         > Wenn Sie **Automatisch beliebige verfügbare Ports verwenden** auswählen, werden verfügbare Ports zwischen 1024 und 65535 verwendet. Verwenden Sie diese Option nur, wenn Sie QoS nicht implementieren.
@@ -121,6 +121,6 @@ Typ des Mediendatenverkehrs| Client-Quellportbereich \* |Protokoll|DSCP-Wert|DSC
 |Anwendung/Bildschirmfreigabe| 50.040–50.059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\* Die zugewiesenen Portbereiche können sich nicht überlappen und sollten benachbart sein.
+\* Die von Ihnen zugewiesenen Portbereiche dürfen sich nicht überlappen und sollten nebeneinander liegen.
 
 Nachdem QoS eine Weile im Einsatz war, erhalten Sie Nutzungsinformationen über den Bedarf für jede dieser drei Arbeitsauslastungen, und Sie können auswählen, welche Änderungen Sie auf der Grundlage Ihrer spezifischen Anforderungen vornehmen möchten. Das [Anrufqualitäts-Dashboard](turning-on-and-using-call-quality-dashboard.md) wird dabei hilfreich sein.
