@@ -45,7 +45,7 @@ Dieser Artikel befasst sich hauptsächlich mit dem Sammeln von Team-Aktivitätsp
 Dieser Abschnitt besteht aus drei Teilen:
 
 1. Aktivieren von Überwachungsprotokollen in **Microsoft 365** (M365).
-2. Registrieren einer App bei **Microsoft Azure** , um die Authentifizierung und Autorisierung für die Protokollsammlung zuzulassen.
+2. Registrieren einer App bei **Microsoft Azure**, um die Authentifizierung und Autorisierung für die Protokollsammlung zuzulassen.
 3. Registrieren des API-Abonnements, das die Protokollsammlung über die M365-API mittels **PowerShell** zulassen soll.
 
 ### <a name="enable-audit-logs-in-m365"></a>Aktivieren von Überwachungsprotokollen in M365
@@ -72,13 +72,13 @@ Authentifizieren und autorisieren Sie eine Azure Active Directory-App (Azure AD)
 9. Geben Sie im Fenster „Neuer geheimer Clientschlüssel“ eine Beschreibung für den neuen geheimen Clientschlüssel ein, stellen Sie sicher, dass Sie als „Ablauf“ den Wert „Nie“ auswählen, und klicken Sie auf *Hinzufügen*.
 
 > [!IMPORTANT]
-> Es ist von **kritischer** Bedeutung, den neuen geheimen Clientschlüssel in einen Kennwort-Manager-Eintrag zu kopieren, der den Namen der neu erstellten App trägt. Sie können nicht mehr dorthin zurückkehren, um sich dieses Geheimnis anzusehen, nachdem das Azure-Blatt geschlossen wurde ( *Blatt* (blade) ist in Azure die Bezeichnung für „Fenster“).
+> Es ist von **kritischer** Bedeutung, den neuen geheimen Clientschlüssel in einen Kennwort-Manager-Eintrag zu kopieren, der den Namen der neu erstellten App trägt. Sie können nicht mehr dorthin zurückkehren, um sich dieses Geheimnis anzusehen, nachdem das Azure-Blatt geschlossen wurde (*Blatt* (blade) ist in Azure die Bezeichnung für „Fenster“).
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Registrieren der API bei PowerShell zum Sammeln von Team-Protokollen
 
 Der letzte Schritt bei der Einrichtung besteht darin, das API-Abonnement zu sammeln und zu registrieren, damit Sie Ihre Protokolldaten sammeln können. Dies geschieht über PowerShell-REST-Aufrufe der M365-Verwaltungsaktivitäts-API.
 
-Halten Sie die Werte für die **Anwendungs (Client)-ID** , den neuen **geheimen Clientschlüssel** , Ihre **URL-Domäne für M365** und die **Verzeichnis (Mandanten)-ID** bereit, um sie unten in dem PowerShell-Cmdlet bereitzustellen.
+Halten Sie die Werte für die **Anwendungs (Client)-ID**, den neuen **geheimen Clientschlüssel**, Ihre **URL-Domäne für M365** und die **Verzeichnis (Mandanten)-ID** bereit, um sie unten in dem PowerShell-Cmdlet bereitzustellen.
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
