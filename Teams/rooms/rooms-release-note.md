@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
+ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662400"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49670749"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -75,8 +75,12 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 In diesem Update eingeführt:
 
 - Freigeben von HDMI-Audio an Besprechungsteilnehmer in der Teambesprechung
+- Cortana-Sprachkenntnisse (Preview)
 - Verhindern Sie die Stummschaltung auf der Grundlage von audioberechtigungen, wenn Team Room als Teilnehmer Beitritt. Weitere Informationen finden Sie unter [Verwalten von audioberechtigungen für Teilnehmer in Teams-Besprechungen](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Spotlight für das Video einer anderen Person aus der Team Room-Konsole und Verwenden von Spotlight-Video auf Raum anzeigen
+
+> [!NOTE]
+> Cortana-Sprachkenntnisse stehen für ausgewählte audioperipherien für Mandanten in den USA zur Verfügung. Weitere Länder oder Regionen werden in Zukunft hinzugefügt. Weitere Informationen finden Sie unter [Cortana-VoIP-Unterstützung in Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams) .
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
