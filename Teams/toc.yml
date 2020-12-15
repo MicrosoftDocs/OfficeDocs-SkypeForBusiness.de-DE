@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Microsoft Teams-Genehmigungen – App-Verfügbarkeit
+      href: approval-admin.md
 - name: Besprechungen und Konferenzen
   items:
     - name: 'Schnellstart: Besprechungen und Live-Ereignisse'
