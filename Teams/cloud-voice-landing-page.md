@@ -1,5 +1,5 @@
 ---
-title: Stimme in Microsoft Teams
+title: Planen Ihrer Sprachlösung in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,16 +23,19 @@ search.appverid: MET150
 description: Weitere Informationen zu den Microsoft Teams Cloud-Sprachfeatures und den Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611719"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686451"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen der VoIP-Lösung für Teams 
 
-Dieser Artikel hilft Ihnen bei der Entscheidung, welche Microsoft Voice-Lösung für Ihre Organisation richtig ist. Nachdem Sie sich entschieden haben, finden Sie in dem Artikel eine Übersicht über die Inhalte, mit denen Sie die von Ihnen gewählte Lösung implementieren können. 
+Dieser Artikel hilft Ihnen bei der Entscheidung, welche Microsoft Voice-Lösung für Ihre Organisation richtig ist. Nachdem Sie sich entschieden haben, finden Sie in dem Artikel eine Übersicht über die Inhalte, mit denen Sie die von Ihnen gewählte Lösung implementieren können.
+
+> [!NOTE]
+> Anleitungen zum Planen einer Teams-VoIP-Lösung als Teil Ihres Gesamtplans für ein Upgrade auf Teams von Skype for Business Server finden Sie unter [PSTN-Überlegungen für das Upgrade auf Teams von Skype for Business lokal](upgrade-to-Teams-on-prem-pstn-considerations.md).
 
 Vielleicht möchten Sie das einfachste Lösung &mdash; Telefon System mit Anrufplan. Hierbei handelt es sich um die Komplettlösung von Microsoft, die eine PBX-Funktionalität (Private Branch Exchange) und Anrufe an das öffentlich geschaltete Telefonnetz (PSTN) bereitstellt, wie in der nachstehenden Abbildung zu sehen ist. Mit dieser Lösung ist Microsoft Ihr PSTN-Netzbetreiber.
 

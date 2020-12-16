@@ -16,12 +16,12 @@ f1.keywords:
 description: Lokale Medienoptimierung für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf6ca7b8b3c1bd18ffb5c00f124d90f973c4b46
-ms.sourcegitcommit: aec9fcc178c227d9cfe3e2bf57d0f3bf4c318d49
+ms.openlocfilehash: 886dd4d14d8393764f3c939991a8959ed4726aa3
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48950789"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686461"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Lokale Medienoptimierung für direktes Routing
 
@@ -74,7 +74,7 @@ Basierend auf den geschäftlichen Anforderungen implementierte Contoso zwei Lös
 
 Zum Erstellen einer Lösung, bei der PSTN-Dienste für alle lokalen Zweigstellen über einen zentralen SBC mit einem verbundenen zentralisierten SIP-Trunk bereitgestellt werden, wird vom Contoso-mandantenadministrator ein SBC (centralsbc.contoso.com) mit dem Dienst verbunden. der SBC verfügt über einen zentralen SIP-Trunk, der mit ihm verbunden ist. 
 
-- Wenn sich ein Benutzer im internen Netzwerk des Unternehmens befindet, stellt der SBC die interne IP-Adresse des SBC für Medien zur Verfügung.
+- Wenn sich ein Benutzer im internen Netzwerk des Unternehmens befindet, stellt der SBC die interne IP-Adresse des SBC für Medien zur Verfügung. 
 
 - Wenn sich ein Benutzer außerhalb des Unternehmensnetzwerks befindet, stellt der SBC die externe (öffentliche) IP-Adresse des SBC zur Verfügung.
 
@@ -182,16 +182,19 @@ Diagramm 4 Datenfluss, wenn der Benutzer extern mit einem Proxy-SBC und mit verb
 
 Die lokale Medienoptimierung unterstützt zwei Modi:
 
-- **Modus 1: immer umgehen**. In diesem Fall werden die Medien, wenn der Benutzer intern ist, durch die interne IP-Adresse des lokalen Downstream-SBC durchlaufen, unabhängig von der tatsächlichen Position des internen Benutzers. beispielsweise in derselben Zweigstelle, in der sich der Downstream-SBC befindet, oder in einer anderen Zweigstelle.
+- **Modus 1: immer umgehen**. In diesem Fall werden die Medien, wenn der Benutzer intern ist, durch die interne IP-Adresse des lokalen Downstream-SBC durchlaufen, unabhängig von der tatsächlichen Position des internen Benutzers. beispielsweise in derselben Zweigstelle, in der sich der Downstream-SBC befindet, oder in einer anderen Zweigstelle.  
 
 - **Modus 2: nur für lokale Benutzer**. In diesem Modus fließen Medien nur dann direkt zur internen IP-Adresse des lokalen Downstream-SBC, wenn Sie von dem internen Benutzer in derselben Zweigstelle wie dem Downstream-SBC generiert wurden. 
 
 Um zwischen den Modi für die lokale Medienoptimierung zu unterscheiden, muss der mandantenadministrator den-BypassMode-Parameter für jeden SBC mit dem Set-CSonlinePSTNGateway-Cmdlet auf "Always" oder "OnlyForLocalUsers" setzen. Weitere Informationen finden Sie unter [Konfigurieren der lokalen Medienoptimierung](direct-routing-media-optimization-configure.md).  
 
+ > [!NOTE]
+  > Wenn Benutzer intern sind, ist die Medien Konnektivität zwischen dem Benutzer und dem SBC über die interne IP-Adresse **erforderlich**. In diesem Fall gibt es kein Fallback auf öffentliche Transport-Relays für Medien, da der SBC eine interne IP-Adresse für die Medien Konnektivität bereitstellt. 
+
 ### <a name="mode-1-always-bypass"></a>Modus 1: immer umgehen
 
 Wenn Sie eine gute Verbindung zwischen Zweigstellen haben, ist der empfohlene Modus immer Bypass.
-
+ 
 Angenommen, ein Unternehmen verfügt über einen zentralisierten SIP-Trunk in Amsterdam, der 30 Ländern dient und eine gute Konnektivität zwischen allen 30 Websites und lokalen Benutzern bietet. Es gibt auch eine Niederlassung in Deutschland, in der ein lokaler SBC bereitgestellt wird.
 
 Der SBC in Deutschland kann im Modus "immer umgehen" konfiguriert werden. Benutzer können unabhängig von Ihrem Standort direkt über die interne IP-Adresse des SBC eine Verbindung mit dem SBC herstellen (beispielsweise von Frankreich nach Deutschland; siehe Abbildung unten als Referenz).

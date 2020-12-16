@@ -1,14 +1,13 @@
 ---
-title: Upgrade auf Teams über eine lokale Skype for Business-Bereitstellung – Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: PSTN-Überlegungen beim Upgrade auf Teams über eine lokale Skype for Business-Bereitstellung
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Aktualisieren von Skype for Business auf Teams-VoIP-Überlegungen
+description: Sprach Überlegungen für ein Upgrade von Skype for Business auf Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,23 +17,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 8a9783f5d60e5a595d548bbfc83ee013500934ed
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772216"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686431"
 ---
-# <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>PSTN-Überlegungen beim Upgrade auf Teams &mdash; für IT-Administratoren
+# <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>PSTN-Überlegungen für das Upgrade auf Teams von Skype for Business lokal
 
-In diesem Artikel werden die Überlegungen zum öffentlichen Switched Telephone Network (PSTN) beim Upgrade auf Teams beschrieben. Dieser Artikel ist der sechste von mehreren, die Upgrade-Konzepte und Implementierung für IT-Administratoren beschreiben.  
+In diesem Artikel werden die Überlegungen zum öffentlichen Switched Telephone Network (PSTN) beim Upgrade auf Teams beschrieben.   
 
-- [Übersicht](upgrade-to-teams-on-prem-overview.md)
-- [Upgrade-Methoden](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Tools zum Verwalten des Upgrades](upgrade-to-teams-on-prem-tools.md)
-- [Weitere Überlegungen für Organisationen mit Skype for Business lokal](upgrade-to-teams-on-prem-considerations.md)
-- [Implementieren des Upgrades](upgrade-to-teams-on-prem-implement.md)
-- **Überlegungen zum öffentlichen Switched Telephone Network (** dieser Artikel)
 
 Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und Koexistenz-Verhaltensweisen beschrieben:
 
@@ -46,6 +39,7 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgrade-Konzepte und K
  > [!NOTE]
  > - Die Verwendung von Telefonsystemen mit Teams wird nur unterstützt, wenn sich der Benutzer im TeamsOnly-Modus befindet.  Wenn sich der Benutzer im Modus "Inseln" befindet, wird das Telefon System nur von Skype for Business unterstützt. 
  > - Alle Anrufweiterleitung, Teamanrufgruppen und Delegierungseinstellungen von Skype for Business werden nicht migriert und müssen für Teams erneut erstellt werden.
+ > - Eine allgemeine Übersicht über die Cloud-Sprachfeatures von Microsoft Teams und die Entscheidung, welche Microsoft Voice-Lösung für Ihre Organisation richtig ist, finden Sie unter [Planen der VoIP-Lösung für Teams](cloud-voice-landing-page.md).
 
 
 ## <a name="pstn-calling-scenarios"></a>Szenarien für PSTN-Anrufe
@@ -168,6 +162,8 @@ Unabhängig davon, ob Sie das direkte Routing oder einen Microsoft-Anrufplan ver
   ```
 
 ## <a name="related-links"></a>Verwandte Links
+
+[Planen der VoIP-Lösung für Teams](cloud-voice-landing-page.md)
 
 [Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md) 
 
