@@ -244,13 +244,13 @@
       items:
         - name: Übersicht
           href: rooms/index.md
-        - name: Planen
+        - name: Plan
           items:
             - name: Übersicht über die Planung von Microsoft Teams-Räumen
               href: rooms/rooms-plan.md
             - name: Versionsunterstützung
               href: rooms/rooms-lifecycle-support.md
-            - name: Anmerkungen zu dieser Version
+            - name: Freigabehinweise
               href: rooms/rooms-release-note.md
             - name: Vorbereiten der Umgebung
               href: rooms/rooms-prep.md
@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: Grundlegendes zu Koexistenz und Interoperabilität
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: Grundlegendes zu Optionen für Telefomsystem und PSTN-Konnektivität
-              href: cloud-voice-landing-page.md
+            - name: Überlegungen zu PSTN
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Auswählen der Upgrade-Strategie
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: Planen eines Benutzerpilotprojekts
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Teams und Skype for Business im Koexistenzmodus
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: Überlegungen zu PSTN
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Koexistenzmodi – Referenz
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
