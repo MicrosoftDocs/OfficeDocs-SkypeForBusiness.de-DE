@@ -50,7 +50,7 @@ Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams 
 
 Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu überprüfen, ob Ihre Umgebung für Teams bereit ist. Lesen Sie die Informationen unter [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md), und nehmen Sie die erforderlichen Änderungen an Ihrer Umgebung vor.
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Microsoft 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
 |||
@@ -63,7 +63,7 @@ Dies sind die Einstellungen für Chat, Teams und Kanäle, deren Änderung in den
 
 Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalten von Teams für Ihre Organisation verwendet werden können. Die Rollen stellen Administratoren verschiedene Funktionen zur Verfügung.
 
-| Fragen Sie sich | Aktion |
+| Frage | Aktion |
 |--------------|--------|
 |Wem wird die Rolle des Teams-Kommunikationsadministrators zugewiesen?|Weitere Informationen zu den Administratorrollen in Teams finden Sie unter [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md).|
 |Wem wird die Rolle des Teams-Kommunikationssupporttechnikers zugewiesen?|Informationen zum Zuweisen von Administratorrollen finden Sie unter [Zuweisen von Administrator- und anderen Rollen zu Benutzern mithilfe von Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
@@ -74,17 +74,17 @@ Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalt
 
 In Microsoft Teams können Sie zusätzlich zu den Administratorrollen die Benutzerrollen "Besitzer" und "Mitglieder" zuweisen und ihnen selektiv Moderatorenfunktionen zuordnen (wenn die Moderation eingerichtet wurde), um zu steuern, wer bestimmte Aktionen in einem Kanal ausführen kann. Mit der Moderation können Sie steuern, wer neue Beiträge in einem Kanal starten kann, Teammitglieder als Moderatoren hinzufügen und entfernen sowie steuern, ob Teammitglieder auf vorhandene Kanalmeldungen antworten können.
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |Wem sollten die einzelnen Rollen zugewiesen werden? | Einen Vergleich der Funktionen der einzelnen Rollen finden Sie unter [Zuweisen von Teambesitzern, Moderatoren und Mitgliedern in Microsoft Teams](assign-roles-permissions.md).
 |Wie kann ich eine Benutzerrolle zuweisen? | Informationen zum Zuweisen oder Ändern einer Rolle finden Sie unter [Zuweisen einer Benutzerrolle](assign-roles-permissions.md#assign-a-user-role).
 |Muss ich steuern, wer in einem Kanal Beiträge senden und beantworten kann? | Informationen zum Konfigurieren der Moderation finden Sie unter [Einrichten und Verwalten der Kanalmoderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
-### <a name="messaging-policies"></a>Messaging-Richtlinien
+### <a name="messaging-policies"></a>Messagingrichtlinien
 
 Mithilfe von Messaging-Richtlinien wird gesteuert, welche Chat- und Messaging-Funktionen den Benutzern in Teams zur Verfügung stehen. Beispielsweise, wer gesendete Nachrichten bearbeiten und löschen, wer Chat verwenden, wer Memes in Unterhaltungen verwenden kann und mehr. Standardmäßig wird den Benutzern die globale Messaging-Richtlinie zugewiesen, und alle Funktionen sind **Aktiviert**. Sie können die globale Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Messaging-Richtlinien für die Benutzer in Ihrer Organisation erstellen. 
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |Soll ich die globale Messagingrichtlinie anpassen?|Informationen zur Verwendung des Microsoft Teams Admin Centers zum Ändern der globalen Messagingrichtlinie oder zum Hinzufügen einer neuen Richtlinie finden Sie unter [Verwalten von Messagingrichtlinien in Teams](messaging-policies-in-teams.md).|
 |Benötige ich mehrere Messagingrichtlinien?|Informationen zum Erstellen und Zuweisen einer Messagingrichtline in PowerShell finden Sie unter [PowerShell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md) (PowerShell-Beispielskript – Erstellen und Zuweisen einer Messagingrichtlinie).|
@@ -95,7 +95,7 @@ Mithilfe von Messaging-Richtlinien wird gesteuert, welche Chat- und Messaging-Fu
 
 Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation. Durch Aktivieren dieser Funktion und Hinzufügen von Domänen zur Liste der zulässigen Domänen können Ihre Benutzer mit Benutzern in anderen Domänen und Organisationen kommunizieren. Externer Zugriff unterscheidet sich von Gastzugriff darin, dass die Zugriffsberechtigung anstelle eines Einzelbenutzers einer gesamten Domäne erteilt wird. Der externe Zugriff ist standardmäßig deaktiviert.
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |<ul><li>Soll ich externen Zugriff für meine Organisation aktivieren?</li><li>Falls er aktiviert ist, soll ich die Domänen einschränken, mit denen meine Organisation kommunizieren kann?</li></ul> |<br>Um den externen Zugriff zu aktivieren, siehe [Planung für den externen Zugriff](manage-external-access.md#plan-for-external-access).|
 |||
@@ -118,7 +118,7 @@ Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organi
 
 Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Mail-Integration, Cloud-Speicheroptionen, die Organisationsregisterkarte, das Einrichten von Geräten in Besprechungsräumen und den Suchbereich einrichten. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Teams in Ihrer Organisation. Weitere Informationen finden Sie unter [Teams-Einstellungen](enable-features-office-365.md#teams-settings).
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |Soll ich die Teams-Einstellungen für meine Organisation anpassen? | Informationen über Teams-Einstellungen und ihre Anpassung finden Sie unter [Teams-Einstellungen](enable-features-office-365.md#teams-settings).|
 |||
@@ -127,7 +127,7 @@ Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Ma
 
 Teams unterstützt eine Reihe von Clients, von Web- über Desktop- bis zu mobilen Clients, und in der Standardkonfiguration können die Benutzer die Clients ihrer Wahl verwenden. Weitere Informationen hierzu finden Sie unter [Beziehen von Clients für Microsoft Teams](get-clients.md).
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |Soll ich die Teams-Clientverfügbarkeit für meine Organisation anpassen?|Lesen Sie [Hardwareanforderungen für die Microsoft Teams-App](hardware-requirements-for-the-teams-app.md). |
 |Soll ich die Teams-Clienteinstellungen für meine Organisation anpassen?|Erfahren Sie mehr über das [Installieren von Microsoft Teams mithilfe von MSI](msi-deployment.md).|
@@ -137,7 +137,7 @@ Teams unterstützt eine Reihe von Clients, von Web- über Desktop- bis zu mobile
 
 Benutzer mit den Rollen globaler Administrator, Teams-Dienstadministrator und Leseberechtigung für Berichte können Teams-Nutzungsberichte lesen. Weitere Informationen finden Sie in den [Analysen zur Nutzung von Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics).
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |<br> Wer muss in der Lage sein, die Teams-Nutzungsberichte zu sehen, und verfügen die betreffenden Benutzer über die richtige Rolle, um sie anzuzeigen? |<ul><li>Wenn der Benutzer kein Administrator ist, [weisen Sie die Leseberechtigung für Berichte zu](teams-activity-reports.md#reports-reader-role).</li><li>Informationen zum Zuweisen von Administratorrollen in Azure Active Directory finden Sie unter [Rollen und Berechtigungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) und [Anzeigen und Zuweisen von Rollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal). |
 |||
@@ -156,7 +156,7 @@ Je nach den Bedürfnissen und der Konfiguration Ihrer Organisation kann es sinnv
 
 Teams wird als Teil vieler Microsoft 365- oder Office 365-Lizenzen angeboten. Weitere Informationen zur Lizenzierung von Teams finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 |Verfügen meine Benutzer über die erforderlichen Lizenzen, um alle Funktionen von Teams zu verwenden, die ich bereitstellen möchte? | Informationen zu den Lizenzierungsanforderungen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
 |||
@@ -165,7 +165,7 @@ Teams wird als Teil vieler Microsoft 365- oder Office 365-Lizenzen angeboten. We
 
 Um den vollen Funktionsumfang von Teams zu nutzen, sollten alle Benutzer für Exchange Online, SharePoint Online und das Erstellen einer Microsoft 365-Gruppe aktiviert sein. Die folgenden Artikel geben allgemeine Informationen zu Exchange-Postfächern wieder, die in verschiedenen Umgebungen gehostet sind, über die Interaktion von Exchange und Teams und ähnliche Überlegungen für SharePoint und OneDrive for Business.
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 | Kann ich die benötigten Teams-Funktionen mit den aktuellen Exchange- und SharePoint-Bereitstellungen bieten? |Weitere Informationen zu Exchange und SharePoint in Teams finden Sie unter:<ul><li> [Interaktion von Exchange und Teams](exchange-teams-interact.md)</li><li>[Interaktion von SharePoint Online und OneDrive for Business mit Teams](sharepoint-onedrive-interact.md)|
 |||
@@ -183,7 +183,7 @@ Bei der Planung einer Enterprise-Bereitstellung von Teams sollten Sie alle relev
 
 Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert die Microsoft 365- und Office 365-Dienste ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie mindestens sicher, dass Sie die oben unter [Voraussetzungen für die Bereitstellung von Chat](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
 
-|Fragen Sie sich|Aktion |
+|Frage|Aktion |
 |------------|-------|
 | Benötige ich Internetzugriffsregeln, um Benutzern die Verwendung von Teams zu ermöglichen, oder ist das Öffnen der mindestens erforderlichen Ports ausreichend? | Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md).|
 |||
@@ -193,7 +193,7 @@ Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs b
 Ihre Organisation schreibt möglicherweise die Implementierung von Kontrollen zur Benennung und Klassifizierung von Teams, zu den Personen, die Teams erstellen können und zum Ablauf, der Aufbewahrung und der Archivierung von Teams vor. Dies wird als Governance bezeichnet. Für die Konfiguration dieser Bereiche können Sie Azure Active Directory (Azure AD) verwenden.
 
 
-| Fragen Sie sich | Aktion |
+| Frage | Aktion |
 |--------------|--------|
 |Muss ich Kontrollen zum Personenkreis implementieren, der Teams erstellen kann?| Lesen Sie [Planen der Governance in Teams](plan-teams-governance.md).|
 |Muss ich Kontrollen zur Benennung von Teams implementieren?|Lesen Sie [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
@@ -203,7 +203,7 @@ Ihre Organisation schreibt möglicherweise die Implementierung von Kontrollen zu
 
 Eine angeheftete App wird im Seitenbereich in Teams angezeigt. Durch Erstellen von Teams-Anwendungsrichtlinien können Sie Sätze von angehefteten Teams-Apps vorkonfigurieren, um Teams für ausgewählte Benutzergruppen zu personalisieren. Standardmäßig ist die Einstellung **Externe Apps in Microsoft Teams zulassen** aktiviert.
 
-| Fragen Sie sich | Aktion |
+| Frage | Aktion |
 |--------------|--------|
 |Sollte ich vorkonfigurierte Sätze angehefteter Teams-Anwendungen erstellen? | Lesen Sie [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
 |Wie soll ich entscheiden, welche Gruppen diese App-Gruppen erhalten?|Lesen Sie [Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu](app-permissions.md).|
@@ -213,7 +213,7 @@ Eine angeheftete App wird im Seitenbereich in Teams angezeigt. Durch Erstellen v
 
 Ihre Organisation schreibt möglicherweise vor, dass Sie Verfahren zur Archivierung und zu den in bestimmten Arten von Teams aufzubewahrenden Arten von Daten implementieren. Lesen Sie [Übersicht über Sicherheit und Compliance in Teams](security-compliance-overview.md), um zu erfahren, welche Einstellungen standardmäßig aktiviert sind.
 
-| Fragen Sie sich | Aktion |
+| Frage | Aktion |
 |--------------|--------|
 |Muss ich für Teams Aufbewahrung konfigurieren?|Informationen zum Einrichten von Aufbewahrungsrichtlinien finden Sie unter [Set up Teams retention policies](retention-policies.md) (Einrichten von Aufbewahrungsrichtlinien in Teams).|
 |Muss ich die Archivierung von Teams konfigurieren?|Informationen zum Archivieren oder Wiederherstellen eines Teams finden Sie unter [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).|
@@ -224,7 +224,7 @@ Ihre Organisation schreibt möglicherweise vor, dass Sie Verfahren zur Archivier
 
 Teams nutzt in großem Umfang Exchange Online, SharePoint Online und Skype for Business Online für elementare Produktivitätsszenarien, einschließlich Besprechungen, Kalender, Interoperabilitäts-Chats und Dateifreigabe. Richtlinien für bedingten Zugriff, die für diese Cloud-Apps festgelegt wurden, gelten auch für Teams, wenn sich Benutzer direkt bei Teams anmelden – unabhängig vom Client. Richtlinien für den bedingten Zugriff, die für die Teams-Cloud-App festgelegt wurden, steuern Aspekte wie den Benutzerzugriff auf Teams-Dienste aus bestimmten Netzwerken.
 
-| Fragen Sie sich | Aktion |
+| Frage | Aktion |
 |--------------|--------|
 |<br>Muss ich bedingen Zugriff für Teams konfigurieren?|<ul><li>Die Grundlagen von Zugriffsrichtlinien sind unter [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) (Funktionsweise von Richtlinien für den bedingten Zugriff für Teams) erläutert.</li><li>Informationen zum Einrichten der mehrstufigen Authentifizierung (MFA) für Teams finden Sie unter:<ul><li>[Schnellstart: Vorschreiben von MFA für bestimmte Apps mithilfe von bedingtem Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Einstellungsreferenz für bedingten Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||

@@ -13,20 +13,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Ihre Organisations-und teamsräume-Geräte für die Unterstützung von Besprechungen von Drittanbietern in Cisco WebEx und Zoom konfigurieren.
-ms.openlocfilehash: 8079b6fc231bf30a654e2513af55a806433eb83f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 82369c534a616796382b1de69e37c64f15392f9b
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662360"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682384"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren von Team Room-Geräten für die Teilnahme an Besprechungen von Drittanbietern
 
-Microsoft Teams rooms-Geräte unterstützen ein einmaliges Erlebnis für die Teilnahme an Onlinebesprechungen von Drittanbietern. Wenn diese Option aktiviert ist, können Sie ein Gerät für teamsräume verwenden, um an Besprechungen teilzunehmen, die auf Cisco WebEx und Zoom<sup>1</sup> gehostet werden, genauso einfach wie Sie an Besprechungen teilnehmen, die in Microsoft Teams gehostet werden.
+Microsoft Teams rooms-Geräte unterstützen eine einmalige Benutzeroberfläche für die Teilnahme an Onlinebesprechungen von Drittanbietern, die auch als direkte Gast Teilnahme bezeichnet werden. Wenn diese Option aktiviert ist, können Sie ein Gerät für Teams-Chatrooms verwenden, um an Besprechungen teilzunehmen, die auf Cisco WebEx gehostet werden, und genauso einfach zu zoomen, wie Sie an in Microsoft Teams gehosteten Besprechungen
 
 Bevor Sie von einem Team Room-Gerät an Drittanbieter Besprechungen teilnehmen können, müssen Sie die folgenden Schritte ausführen:
 
-1. Konfigurieren des Exchange Online Room-Postfachs des Teams rooms für die Verarbeitung von Einladungen für Besprechungen von Drittanbietern
+1. Konfigurieren Sie das Exchange Online Room-Postfach des Teams rooms für die Verarbeitung von Einladungen für Besprechungen von Drittanbietern.
 2. Stellen Sie sicher, dass Ihre Organisation keine Richtlinien enthält, die verhindern, dass Sie eine Verbindung mit den Besprechungs Diensten von Drittanbietern herstellen.
 3. Konfigurieren Sie Ihre Teams rooms-Geräte, um Besprechungen von Drittanbietern zu ermöglichen.
 
@@ -43,6 +43,7 @@ Das erste, was Sie tun müssen, um ein One-Touch-Join-Erlebnis von einem Team Ro
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
+    
 3. Suchen Sie den Namen des Raumpostfachs, das mit dem Gerät Ihres Teams rooms verknüpft ist, und notieren Sie sich dessen UPN.
 
 4. Nachdem Sie den UPN des Room-Postfachs gefunden haben, führen Sie den folgenden Befehl aus. Ersetzen Sie dies `<UserPrincipalName>` durch den UPN des Room-Postfachs:
@@ -77,10 +78,10 @@ Der letzte Schritt besteht darin, das Gerät für die einzelnen Teams für die T
 
 Gehen Sie wie folgt vor, um das Gerät "Teams Rooms" über seinen Touchscreen zu konfigurieren:
 
-1. Wählen Sie auf dem Gerät Microsoft Teams rooms den Eintrag **mehr...**
+1. Wählen Sie auf dem Gerät Microsoft Teams rooms den Eintrag **mehr...** aus.
 2. Wählen Sie **Einstellungen** aus, und geben Sie dann den Benutzernamen und das Kennwort für den Geräteadministrator ein.
-3. Wechseln Sie zur Registerkarte **Besprechungen** , und wählen Sie **Cisco WebEx**, **Zoom**<sup>1</sup>oder beides aus.
-4. Wenn Sie mit dem Benutzernamen und der e-Mail-Adresse, die dem Raumpostfach zugeordnet ist, an Besprechungen teilnehmen möchten, wählen Sie **mit Rauminformationen beitreten** aus.
+3. Wechseln Sie zur Registerkarte **Besprechungen** , und wählen Sie **Cisco WebEx**, **Zoom** oder beides aus.
+4. Wenn Sie mit dem Benutzernamen und der e-Mail-Adresse, die dem Raumpostfach zugeordnet ist, an Besprechungen teilnehmen möchten, wählen Sie **mit Rauminformationen teilnehmen** aus.
 5. Wenn Sie mit einem alternativen Benutzernamen und einer e-Mail-Adresse an Besprechungen teilnehmen möchten, wählen Sie **mit benutzerdefinierten Informationen beitreten** aus, und geben Sie den Benutzernamen und die e-Mail-Adresse ein.
 6. Wählen Sie **Speichern und beenden** aus. Ihr Gerät wird neu gestartet.
 
@@ -94,7 +95,7 @@ Um Cisco WebEx-Besprechungen zu aktivieren, `WebExMeetingsEnabled` müssen Sie d
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-Um Zoom <sup>1</sup> -Besprechungen zu aktivieren, `ZoomMeetingsEnabled` müssen Sie das XML-Element wie folgt auf " **true**" festlegen.
+Um Zoom Besprechungen zu aktivieren, `ZoomMeetingsEnabled` müssen Sie das XML-Element wie folgt auf **true** festlegen.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
@@ -113,4 +114,3 @@ Optional können Sie einen benutzerdefinierten Benutzernamen und eine e-Mail-Adr
 > [!NOTE]
 > Wenn Sie von einem Team Room-Gerät aus an Cisco WebEx-Besprechung teilnehmen möchten, muss die Cisco-Besprechung mit der Cisco WebEx Web Application-Version PSP 40,7 oder höher gehostet werden.
 
-<sup>1</sup> Zoom-Besprechungsteilnahme ist derzeit nur verfügbar, um Microsoft Teams rooms-Kunden über das Technologie Zugriffs Programm auszuwählen (tippen).
