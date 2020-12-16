@@ -1,7 +1,7 @@
 ---
 title: Planen von Liveereignissen in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
-ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
+ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49372249"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682404"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -105,13 +105,13 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
 >
-> **Um unsere Kunden zu unterstützen, werden bis zum 1. Januar 2021 zeitlich begrenzte Erhöhungen für Liveereignisse in Teams, Stream und Yammer erweitern, einschließlich**:
+> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis zum 30. Juni 2021 temporäre Limiterhöhungen für Liveereignisse verlängern, beispielsweise**:
 >
->- Bis zu 20.000 Teilnehmer pro Ereignis
->- Bis zu 50 gleichzeitige Ereignisse pro Team-Mandant
->- Bis zu 16 Stunden pro Sendung
+>- Ereignisunterstützung für bis zu 20.000 Teilnehmer
+>- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
+>- Ereignisdauer von 16 Stunden pro Übertragung
 >
-> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm für Liveereignisse geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). **Nach dem 1. Januar 2021 müssen Kunden, die diese Beschränkungserweiterung benötigen, das Add-on [Advanced Communications](../teams-add-on-licensing/advanced-communications.md)erwerben.**
+> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm für Liveereignisse geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | Funktion | Skype Meeting Broadcast | In Teams produzierte Ereignisse | In einer externen App oder auf einem externen Gerät produzierte Ereignisse |
 |---------|---------|---------|---------|
