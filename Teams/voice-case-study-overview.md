@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365solution-voice
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +17,12 @@ f1.keywords:
 description: Teams Voice Case Study für Multi-National Corporation
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 100889bacffdb9de722bd2e1e7295905876dab2e
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 3a964075dfae514759309a81a7d7140cddd10220
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786016"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701223"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso-Fallstudie: Übersicht über die VoIP-Migration von Teams
 
@@ -66,7 +67,7 @@ Um Ihre lokalen Benutzer zu Teams für Unified Communication, Collaboration und 
 
 - Standortbasiertes Routing 
 
-  Mit Office-Standorten in Telefon regulierten Ländern musste Contoso das standortbasierte Routing, das in Skype for Business vorhanden war, in der Bereitstellung Ihres Telefonsystems neu erstellen. Weitere Informationen finden Sie unter [contoso-Fallstudie: standortbasiertes Routing](voice-case-study-location-based-routing.md).
+  Mit Office-Standorten in Telefon regulierten Ländern musste Contoso das Location-Based-Routing, das in Skype for Business vorhanden war, in der Bereitstellung Ihres Telefonsystems neu erstellen. Weitere Informationen finden Sie unter [contoso-Fallstudie: Location-Based-Routing](voice-case-study-location-based-routing.md).
 
 - Notrufe 
 

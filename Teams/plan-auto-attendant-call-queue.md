@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschlangen und wie Sie Sie verwenden können, um Anrufern zu helfen, durch ein Menü System zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
+ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031561"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49697904"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams
 
@@ -55,7 +55,7 @@ Anrufer können eine automatische Telefonzentrale erreichen, entweder durch dire
 
 ## <a name="call-queues"></a>Anrufwarteschleifen
 
-Eine Anrufwarteschlange entspricht einem Wartebereich in einem physikalischen Gebäude. Anrufer warten auf Wartezeiten, während Anrufe an die Agents in der Warteschlange weitergeleitet werden, sobald diese verfügbar sind. Anrufwarteschlangen werden häufig für Vertriebs-und Servicefunktionen verwendet. Anrufwarteschlangen können jedoch für jede Situation verwendet werden, in der die Anzahl der Anrufe Ihre interne Kapazität überschreitet, beispielsweise ein Rezeptionist in einer geschäftigen Einrichtung.
+Eine Anrufwarteschlange entspricht einem Wartebereich in einem physikalischen Gebäude. Anrufer warten in Wartestellung, während Anrufe an die Agents in der Warteschlange weitergeleitet werden. Anrufwarteschlangen werden häufig für Vertriebs-und Servicefunktionen verwendet. Anrufwarteschlangen können jedoch für jede Situation verwendet werden, in der die Anzahl der Anrufe Ihre interne Kapazität überschreitet, beispielsweise ein Rezeptionist in einer geschäftigen Einrichtung.
 
 Anrufwarteschlangen ermöglichen spezifisches Routing von Anrufen in Fällen, in denen die Gesamtzahl der Anrufer in der Warteschlange oder die Wartezeit die von Ihnen festgelegten Grenzwerte überschreitet. Anrufe können an bestimmte Personen, Voicemail, andere Anrufwarteschlangen oder automatische Telefonzentralen weitergeleitet werden.
 

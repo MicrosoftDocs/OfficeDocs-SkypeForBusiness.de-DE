@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477034"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701313"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
@@ -31,7 +31,7 @@ Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrat
 
 ### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Einrichten des Microsoft Teams-Besprechungs-Add-ons für Google Workspace
 
-Mithilfe des Microsoft Teams-Besprechungs-Add-ons können Google Calendar-Benutzer eine Microsoft Teams-Besprechung direkt aus Google Workspace planen und daran teilnehmen. Benutzer erhalten Zugriff auf die Besprechungsfunktionen von Teams, darunter Video-und Audiokonferenzen, Bildschirmübertragung, Besprechungs Chat, digitale Whiteboards und vieles mehr. Bleiben Sie in Kontakt und Organisation, um mehr über Arbeit, Schule und Leben hinweg zu erledigen.
+Mithilfe des Microsoft Teams-Besprechungs-Add-ons können Google Calendar-Benutzer eine Microsoft Teams-Besprechung direkt aus Google Workspace planen und daran teilnehmen. Benutzer erhalten Zugriff auf die Besprechungsfunktionen von Teams, darunter Video-und Audiokonferenzen, Bildschirmübertragung, Besprechungs Chat, digitale Zeichen Tafeln und vieles mehr. Bleiben Sie in Kontakt und Organisation, um mehr über Arbeit, Schule und Leben hinweg zu erledigen.
 
 Das Microsoft Teams-Besprechungs-Add-on für Google Workspace muss von einem Teams-Administrator aktiviert werden, bevor Mandanten Benutzer auf die App zugreifen können. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
@@ -363,7 +363,7 @@ Neben der Team Analyse können Sie jetzt auch Metriken und Einblicke auf Kanaleb
 
 ### <a name="enable-organizers-to-change-lobby-settings-for-dial-in-participants"></a>Aktivieren von Organisatoren zum Ändern der Lobby Einstellungen für Einwahl Teilnehmer
 
-Diese Einstellung steuert, ob Personen, die sich per Telefon einwählen, direkt an der Besprechung teilnehmen oder in der Lobby warten, unabhängig von der Einstellung " **Personen automatisch zulassen** ".
+Über diese Einstellung wird gesteuert, ob Personen, die sich per Telefon in die Besprechung einwählen, direkt an der Besprechung teilnehmen können oder im Wartebereich warten müssen – unabhängig von der Einstellung **Personen automatisch zulassen**.
 
 ## <a name="april-8-2020"></a>8. April 2020
 

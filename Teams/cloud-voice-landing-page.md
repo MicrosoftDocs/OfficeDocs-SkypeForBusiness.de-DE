@@ -12,6 +12,7 @@ ms.collection:
 - M365-voice
 - m365initiative-voice
 - m365solution-voice
+- m365solution-scenario
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -23,12 +24,12 @@ search.appverid: MET150
 description: Weitere Informationen zu den Microsoft Teams Cloud-Sprachfeatures und den Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
-ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
+ms.openlocfilehash: e16a2aea0d367c720cf36c8010670a34472ab43a
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49686451"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701333"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen der VoIP-Lösung für Teams 
 

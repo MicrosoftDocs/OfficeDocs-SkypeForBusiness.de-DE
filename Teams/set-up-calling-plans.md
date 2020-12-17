@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365solution-voice
+- m365solution-scenario
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren ansichtspläne, kaufen & Lizenzen zuweisen, Telefonnummern erhalten und Notfalladressen & Speicherorten hinzufügen.
-ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 9e4e48bc2d9efcc0ff4cb1891949de4add6f559d
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788449"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701323"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
