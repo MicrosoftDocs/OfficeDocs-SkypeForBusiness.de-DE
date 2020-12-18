@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ecaae0e179423fdbcdbebcb3da6f6f0a25594b6
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: e9d2540fdcd7db51ad982933f9732dab49f8716e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578488"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712313"
 ---
 # <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
@@ -48,7 +48,7 @@ Teams steht in den meisten Microsoft 365 Business-und Enterprise-Plänen zur Ver
 
 Der Skype-Verbraucher Dienst und der Skype for Business-Server sind von der Pensionierung von Skype for Business Online nicht betroffen.
 
-[Lesen Sie häufig gestellte Fragen](faq-journey.md) zum Upgradeprozess auf Teams und die Roadmap für Teams-Funktionen.
+[Lesen Sie häufig gestellte Fragen](FAQ-journey.yml) zum Upgradeprozess auf Teams und die Roadmap für Teams-Funktionen.
 
 ## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>Was macht Microsoft, um Kunden beim Übergang zu Teams zu unterstützen?
 

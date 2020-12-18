@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 0256078cd641c437d067bea9eb63861abcf5868e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130636"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712323"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -159,7 +159,7 @@ Microsoft empfiehlt, dass Sie das Zertifikat für den SBC anfordern, indem Sie e
   > [!NOTE]
   > Bei den meisten Zertifizierungsstellen muss die Größe des privaten Schlüssels mindestens 2048 sein. Beachten Sie dies beim Generieren der CSR.
 
-Das Zertifikat muss den SBC-FQDN als Common Name (CN) im Feld Subject aufweisen.
+Das Zertifikat muss den SBC-FQDN als Common Name (CN) im Feld Subject aufweisen. Das Zertifikat sollte direkt von einer Zertifizierungsstelle, nicht von einem zwischen Anbieter, ausgestellt werden.
 
 Alternativ unterstützt Direct Routing einen Platzhalter in San, und der Platzhalter muss dem Standard [RFC http über TLS](https://tools.ietf.org/html/rfc2818#section-3.1)entsprechen. Ein Beispiel wäre die Verwendung von \* contoso.com im San, das mit dem SBC-FQDN-SBC.contoso.com übereinstimmen würde, aber nicht mit SBC.Test.contoso.com übereinstimmen würde.
 
@@ -367,6 +367,6 @@ Geräte, die überprüft wurden, werden als Certified für Teams Direct Routing 
 Weitere Informationen zu unterstützten SBCS finden Sie unter [Liste der für die direkte Weiterleitung zertifizierten Session Border Controller](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren von direktem Routing](direct-routing-configure.md)
