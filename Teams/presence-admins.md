@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: Informieren Sie sich über die Anwesenheitsstatus in Teams und die administrativen Einstellungen für das Anwesenheits Feature.
+description: Informieren Sie sich über die Anwesenheitsstatus in Microsoft Teams und die administrativen Einstellungen für die Anwesenheitsfunktion.
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
@@ -19,74 +19,74 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
 ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "49616949"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
-Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und in Microsoft 365 oder Office 365). Anwesenheitsinformationen kennzeichnet die aktuelle Verfügbarkeit und den Status des Benutzers für andere Benutzer. Standardmäßig kann jeder Mitarbeiter in Ihrer Organisation, der Teams verwendet, (nahezu in Echtzeit) sehen, ob andere Benutzer online gerade verfügbar sind. Anwesenheitsinformationen werden in Echtzeit auf der Web-und Desktop Version aktualisiert, wenn Sie die Seite auf mobilen Geräten aktualisieren.
+Die Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und überall in Microsoft 365 oder Office 365). Die Anwesenheit zeigt anderen Benutzern die aktuelle Verfügbarkeit und den aktuellen Status des Benutzers an. Standardmäßig kann jeder Mitarbeiter in Ihrer Organisation, der Teams verwendet, (nahezu in Echtzeit) sehen, ob andere Benutzer gerade online verfügbar sind. Die Anwesenheit wird auf dem Web und den Desktop-Versionen in Echtzeit aktualisiert, wenn Sie die Seite auf dem Mobilgerät aktualisieren.
 
  > [!Note]
- > Ausführliche Informationen zu Teams-Benutzerprofilen auf unterschiedlichen Plattformen finden Sie unter [Teams-Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+ > Mehr über Teams-Benutzerprofile auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
 |Benutzerdefiniert|Durch die App konfiguriert|
 |:--- |:---|
 | ![Ein gefülltes grünes Häkchen zeigt an: verfügbar](media/Presence_Available.png) Verfügbar|![Ein gefülltes grünes Häkchen zeigt an: verfügbar](media/Presence_Available.png) Verfügbar|
-|| ![Ein nicht gefülltes grünes Häkchen zeigt an: verfügbar – außer Haus](media/Presence_Available_OOF.png) Verfügbar, außer Haus. Hinweis: Abwesenheit wird automatisch für die Zeiträume festgelegt, in denen der Benutzer "automatische Antworten" festlegt. Wenn der Benutzer die APP während dieser Zeiträume verwendet, wird möglicherweise ein doppelter Anwesenheitsstatus angezeigt, beispielsweise "außer Haus, verfügbar". |
+|| ![Ein nicht gefülltes grünes Häkchen zeigt an: verfügbar – außer Haus](media/Presence_Available_OOF.png) Verfügbar, Außer Haus. Hinweis: „Außer Haus“ wird automatisch für die Zeiträume eingestellt, in denen der Benutzer "automatische Antworten" festlegt. Wenn der Benutzer die App in diesen Zeiträumen verwendet, kann eine doppelte Anwesenheit angezeigt werden wie z. B. „Außer Haus, verfügbar“. |
 |  ![Ein gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy.png) Beschäftigt |  ![Ein gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy.png) Beschäftigt  |
 || ![Ein gefüllter roter Kreis zeigt an: beschäftigt – am Telefon](media/Presence_Busy.png) Am Telefon|
 || ![Ein gefüllter roter Kreis zeigt an: beschäftigt – in einer Besprechung](media/Presence_Busy.png) In einer Besprechung |
 || ![Ein nicht gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy_OOF.png) Am Telefon – abwesend|
 |  ![Ein roter Kreis mit weißer Linie zeigt an: nicht stören](media/Presence_DND.png) Nicht stören ||
 || ![Ein roter Kreis mit weißer Linie zeigt an: hält Präsentation](media/Presence_DND.png) Hält Präsentation|
-|| ![Ein roter Kreis mit weißer Linie zeigt an: fokussierend](media/Presence_DND.png) Fokussierung. Der Fokus tritt auf, wenn die Benutzer die Fokus Zeit in myAnalytics/Insights in ihren Kalendern planen.|
+|| ![Ein roter Kreis mit weißer Linie zeigt an: fokussierend](media/Presence_DND.png) Fokussierend. Die Fokussierung erfolgt, wenn die Benutzer die Fokuszeit in MyAnalytics/Insights in ihren Kalendern einplanen.|
 | ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend| ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend|
 || ![Das Symbol "gelbe Uhr" zeigt an](media/Presence_Away.png): abwesend; zuletzt anwesend um *Zeit*|
 |![Das Symbol "gelbe Uhr" zeigt an: abwesend – bin gleich zurück](media/Presence_Away.png) Bin gleich zurück| |
-|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Als offline anzeigen|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline.  Wenn Benutzer für ein paar Minuten nicht auf einem Ihrer Geräte angemeldet sind, werden Sie offline angezeigt. | |
+|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Als offline anzeigen|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline.  Wenn Benutzer während einigen Minuten nicht auf ihren Geräten angemeldet sind, erscheinen Sie als Offline. | |
 || ![Offener grauer Kreis zeig an: Status unbekannt](media/Presence_Unknown.png) Status unbekannt|
-|| ![Lila Kreis mit Pfeil zeigt an: außer Haus](media/Presence_OOF.png) Nicht im Büro. Die Abwesenheit wird verwendet, wenn eine automatische Antwort festgesetzt wird. (Nur in Outlook verfügbar.) |
+|| ![Lila Kreis mit Pfeil zeigt an: Außer Haus](media/Presence_OOF.png) Außer Haus. „Außer Haus“ wird verwendet, wenn „automatische Antwort“ gesetzt ist. (Nur In Outlook verfügbar.) |
 |||
 
-App-konfigurierte Anwesenheitsstatus basieren auf Benutzeraktivitäten (verfügbar, abwesend), Outlook-Kalenderstatus (in einer Besprechung) oder in Teams-App-Zuständen (in einem Anruf, Präsentation). Wenn Sie sich auf Grundlage Ihres Kalenders im Fokusmodus befinden, ist die **Fokussierung** der Status der Personen, die in Teams angezeigt werden. Der Fokusmodus wird in anderen Produkten als " **nicht stören** " angezeigt.
+App-konfigurierte Anwesenheitsstatus basieren auf Benutzeraktivitäten (Verfügbar, Abwesend), Outlook-Kalenderstatus (In einer Besprechung) oder Team-App-Status (In einem Anruf, Präsentieren). Wenn Sie gemäß Ihrem Kalender im Fokusmodus sind, dann werden Personen in Teams den Status **Fokussierend** sehen. In anderen Produkten wird der Fokusmodus als **Nicht stören** angezeigt.
 
-Ihr aktueller Anwesenheitsstatus wird in "Abwesend" geändert, wenn Sie Ihren Computer sperren oder wenn Ihr Computer in den Leerlauf-oder Ruhemodus wechselt. Auf einem mobilen Gerät ändert sich Ihr Anwesenheitsstatus in abwesend, wenn sich die Teams-App im Hintergrund befindet.
+Ihr aktueller Anwesenheitsstatus wechselt zu „Abwesend“, wenn Sie Ihren Computer sperren oder wenn Ihr Computer in den Leerlauf oder Ruhezustand übergeht. Auf einem Mobilgerät ändert sich Ihr Anwesenheitsstatus immer auf „Abwesend“, wenn die Teams-App im Hintergrund läuft.
 
-Die Benutzer erhalten alle an sie in Microsoft Teams gesendeten Chatnachrichten, unabhängig von ihrem Anwesenheitsstatus. Wenn ein Benutzer offline ist, wenn jemand ihm eine Nachricht sendet, wird die Chatnachricht in Microsoft Teams angezeigt, wenn der Benutzer das nächste Mal online ist. Wenn ein Benutzerstatus auf "nicht stören" festgelegt ist, wird der Benutzer weiterhin Chatnachrichten empfangen, aber Banner Benachrichtigungen werden nicht angezeigt.
+Die Benutzer erhalten alle an sie in Microsoft Teams gesendeten Chatnachrichten, unabhängig von ihrem Anwesenheitsstatus. Wenn ein Benutzer offline ist, wenn jemand ihm eine Nachricht sendet, wird die Chatnachricht in Microsoft Teams angezeigt, wenn der Benutzer das nächste Mal online ist. Wenn ein Benutzerstatus auf „Nicht stören“ gesetzt ist, wird der Benutzer weiterhin Chat-Nachrichten erhalten, aber Banner-Benachrichtigungen werden nicht angezeigt.
 
-Benutzer erhalten Anrufe in allen Anwesenheitsstatus mit Ausnahme von "nicht stören", in dem eingehende Anrufe an Voicemail weitergeleitet werden. Wenn der Empfänger den Anrufer blockiert hat, wird der Anruf nicht übermittelt, und dem Anrufer wird als Anwesenheitsstatus des Empfängers "Offline" angezeigt.
+Benutzer erhalten Anrufe in jedem Anwesenheitsstatus, außer für „Nicht stören“. In diesem Fall gehen eingehende Anrufe zu Voicemail. Wenn der Empfänger den Anrufer blockiert hat, wird der Anruf nicht übermittelt, und dem Anrufer wird als Anwesenheitsstatus des Empfängers "Offline" angezeigt.
 
-Benutzer können ihrer Vorrangliste Personen hinzufügen, indem sie in Microsoft Teams zu **Einstellungen** > **Privatsphäre** wechseln. Personen mit Prioritätszugriff können sich an den Benutzer wenden, auch wenn der Status des Benutzers auf "nicht stören" eingestellt ist.
+Benutzer können ihrer Vorrangliste Personen hinzufügen, indem sie in Microsoft Teams zu **Einstellungen** > **Privatsphäre** wechseln. Personen mit Vorrang können den Benutzer auch dann kontaktieren, wenn der Benutzerstatus auf „Nicht stören“ gesetzt ist.
 
-### <a name="dual-presence"></a>Doppelter Anwesenheitsstatus
+### <a name="dual-presence"></a>Doppelte Anwesenheit
 
-  Die Art und Weise, wie die Anwesenheit für die meisten Benutzer funktioniert, ist von den Ereignissen in den Kalender-oder Geräteereignissen wie einem Anruf motiviert. Der Benutzer kann diesen Status auf der Benutzeroberfläche überschreiben, indem er Zustände, die eine gewisse Ablaufzeit aufweisen, manuell festlegt.
+  Die Art, wie die Anwesenheit für die meisten Benutzer funktioniert, wird durch die Ereignisse im Kalender oder durch Geräteereignisse wie z. B. einen Anruf beeinflusst. Der Benutzer kann diesen Status in der Benutzeroberfläche überschreiben, indem er manuell Status festlegt, die eine gewisse Ablaufzeit haben.
 
-## <a name="user-configured-states-expiration"></a>Ablaufdatum des Benutzer konfigurierten Status
+## <a name="user-configured-states-expiration"></a>Ablaufzeit benutzerdefinierter Status
 
-Wenn ein Benutzer einen bestimmten Anwesenheitsstatus auswählt, hat er Vorrang vor dem Update einer APP-Aktivität. Wenn sich ein Benutzer beispielsweise als "nicht stören" einstellt, bleibt sein Anwesenheitsstatus unverändert, auch wenn Sie an einer Besprechung teilnehmen oder einen Anruf entgegennehmen.
+Wenn ein Benutzer einen bestimmten Anwesenheitsstatus auswählt, hat dieser Vorrang vor jeder Aktualisierung durch App-Aktivität. Wenn der Benutzer beispielsweise seinen Status selber auf „Nicht stören“ setzt, dann bleibt diese Anwesenheit auf „Nicht stören“, selbst wenn der Benutzer an einer Besprechung teilnimmt oder einen Anruf beantwortet.
 
-Benutzer konfigurierte Status weisen standardmäßige Ablaufeinstellungen in Teams auf, um zu verhindern, dass Benutzer einen Status anzeigen, der nach einer bestimmten Zeitspanne nicht relevant ist.
+Vom Benutzer konfigurierte Status haben Standardablaufeinstellungen in Teams, um zu verhindern, dass Benutzer einen Status anzeigen, der nach einer bestimmten Zeit möglicherweise nicht mehr relevant ist.
 
-|Benutzer konfigurierter Zustand|Standardablaufdatum|
+|Benutzerdefinierter Status|Standardablauf|
 |:--- |:---|
 | Beschäftigt|1 Tag|
 | Nicht stören|1 Tag|
-| Andere|7 Tage|
+| Sonstige|7 Tage|
 |||
 
 > [!NOTE]
-> Ein Benutzer kann auch eine Dauer für seinen Anwesenheitsstatus manuell konfigurieren. So kann sich ein Benutzer beispielsweise so einstellen, dass er bis morgen früh offline angezeigt wird.
+> Ein Benutzer kann die Dauer einer Anwesenheit auch manuell konfigurieren. Ein Benutzer kann sich beispielsweise selber den Status „Als offline anzeigen bis Morgen früh“ setzen.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Administratoreinstellungen in Teams im Vergleich zu Skype for Business
 
 Die folgenden Administratoreinstellungen in Skype for Business unterscheiden sich in Teams:
 
-- In Microsoft Teams ist die Freigabe des Anwesenheitsstatus für Benutzer in der Organisation immer aktiviert. Der Datenschutz (in dem Sie definieren, wer Anwesenheitsinformationen sehen kann) ist in Microsoft Teams nicht verfügbar.
+- In Microsoft Teams ist die Freigabe des Anwesenheitsstatus für Benutzer in der Organisation immer aktiviert. Die Konfiguration der Privatsphäre (d. h. das Definieren, wer den Anwesenheitsstatus sehen kann) ist in Teams nicht verfügbar.
 - Die Freigabe des Anwesenheitsstatus für jeden (einschließlich Verbunddienste) ist für Benutzer in Microsoft Teams immer aktiviert. Die Kontaktliste der Benutzer (sofern sie in Skype for Business eine hatten) wird unter **Chat > Kontakte** oder unter **Anrufe > Kontakte** angezeigt.
 - Die Features "Nicht stören" und "Unterbrechen" sind für Benutzer in Teams immer aktiviert.
 - Die Kalenderintegration (einschließlich Abwesenheits- und andere Kalenderinformationen) ist für Benutzer in Teams, die in Outlook integriert sind, immer aktiviert.
@@ -97,10 +97,10 @@ Die folgenden Administratoreinstellungen in Skype for Business unterscheiden sic
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>Administratoreinstellungen in Teams im Vergleich zu Microsoft Outlook
 
-Die Anwesenheit von Teams in Outlook wird in der Outlook 2013-Desktop-App und später für Kontakte in derselben Organisation unterstützt.
+Die Anwesenheit in Teams wird in Outlook ab der Outlook 2013-Desktop-App und höher für Kontakte in der gleichen Organisation unterstützt.
 
-Wenn die Richtlinie für den Upgrademodus des Benutzerkontos auf TeamsOnly eingestellt ist, kommuniziert Outlook mit Teams, um Anwesenheitsinformationen zu erhalten. Wenn das Benutzerkonto nicht auf TeamsOnly eingestellt ist, spricht Outlook mit Skype for Business.
+Wenn die Richtlinie für den Aktualisierungsmodus für das Benutzerkonto auf „Nur Teams“ gesetzt ist, dann wird Outlook mit Teams sprechen, um die Anwesenheit zu erhalten. Wenn das Benutzer nicht auf „Nur Teams“ gesetzt ist, dann wird Outlook mit Skype for Business sprechen.
 
 ## <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
-Weitere Informationen dazu, wie die Anwesenheit von Teams funktioniert, wenn Ihre Organisation ebenfalls Skype for Business verwendet, finden Sie unter [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md) .
+Erfahren Sie unter [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md) mehr über die Funktionalität der Teams-Anwesenheitsfunktionen, wenn Ihre Organisation auch Skype for Business verwendet.
