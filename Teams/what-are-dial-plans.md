@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wähl Anrufplänen (PSTN-Wählpläne) für Teams verfügbar sind und wie Sie eine für Ihre Organisation auswählen können.  '
-ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9e6b9930c5106ec143563e0f69dd61ccb30d550c
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031371"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718589"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -70,9 +70,9 @@ Führen Sie die folgenden Schritte aus, um benutzerdefinierte Wählpläne zu pla
 
 - **Schritt 2** Ermitteln Sie, ob Mandanten-Global-oder mandantenspezifische Wählpläne benötigt werden oder beides. Wählpläne mit Bereichszuweisung eines Benutzers sind erforderlich, wenn Benutzer über unterschiedliche Anforderungen an lokale Wählvorgänge verfügen.
 
-- **Schritt 3** : Identifizieren Sie gültige Nummernmuster für jeden erforderlichen Wählplan. Es sind nur die Nummernmuster erforderlich, die nicht in den Wählplänen auf der Ebene von landesspezifischen Diensten definiert sind.
+- **Schritt 3**: Identifizieren Sie gültige Nummernmuster für jeden erforderlichen Wählplan. Es sind nur die Nummernmuster erforderlich, die nicht in den Wählplänen auf der Ebene von landesspezifischen Diensten definiert sind.
 
-- **Schritt 4** : Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen. Die Übernahme eines Standardbenennungsschemas stellt die Konsistenz innerhalb einer Organisation sicher und vereinfacht Wartungsaufgaben und Updates.
+- **Schritt 4**: Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen. Die Übernahme eines Standardbenennungsschemas stellt die Konsistenz innerhalb einer Organisation sicher und vereinfacht Wartungsaufgaben und Updates.
 
 
 ## <a name="creating-your-new-tenant-dial-plan"></a>Erstellen Ihres neuen Mandantenwählplans
@@ -116,6 +116,10 @@ Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um numerisc
 Ausführliche Informationen zur Verwendung von .NET Framework-regulären Ausdrücken finden Sie unter [.NET Framework-reguläre Ausdrücke](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Normalisierungsregeln für Ihre Mandanten Wählpläne.
+
+> [!NOTE]
+> Normalisierungsregeln mit dem ersten Token als optional werden derzeit auf 3pip-Geräten nicht unterstützt (beispielsweise Polycom VVX 601-Modell). Wenn Sie Normalisierungsregeln mit Optionality auf 3pip-Geräten anwenden möchten, sollten Sie zwei Normalisierungsregeln anstelle eines erstellen. Beispielsweise die Regel ^ 0? (999) $ sollte durch die folgenden beiden Regeln ersetzt werden: (999) $ (Übersetzung: $1) und ^ 0 (999) $ (Übersetzung: $1).
+
 
 ### <a name="sample-normalization-rules"></a>Beispiele für Normalisierungsregeln
 

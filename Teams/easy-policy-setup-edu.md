@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie mithilfe des Assistenten für Bildungsrichtlinien auf einfache Weise Richtlinien für Schüler und Pädagogen anwenden, um Ihre Lernumgebung zu schützen.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 6480eb0ea698a783bbd231bacf2d6d1c23c7b2be
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616919"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718609"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Assistenten "Teams für Bildungsrichtlinien", um einfach Richtlinien für eine sichere Lernumgebung anzuwenden
 
@@ -86,7 +86,7 @@ Führen Sie die folgenden Schritte aus, um den Assistenten auszuführen.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Screenshot der Seite im Assistenten zum Überprüfen der Auswahl":::
 
-5. Wählen Sie über **nehmen** aus, um Ihre Änderungen zu übernehmen. Dieser Vorgang kann einige Minuten dauern.<br/><br/>Die globalen Standardrichtlinien Definitionen (org-Wide) werden sofort auf Schüler angewendet. Für Ihre Pädagogen und Mitarbeiter kann es bis zu 48 Stunden dauern, bis die benutzerdefinierten Richtlinien je nach Größe der Gruppe jedem Mitglied der ausgewählten Gruppe zugewiesen werden. Dies geschieht im Hintergrund, nachdem Sie diesen Schritt erfolgreich abgeschlossen haben.
+5. Wählen Sie über **nehmen** aus, um Ihre Änderungen zu übernehmen. Dieser Vorgang kann einige Minuten dauern.<br/><br/>Die globalen Standardrichtlinien Definitionen (org-Wide) werden sofort auf Schüler angewendet. Für Ihre Pädagogen und Mitarbeiter kann es einige Stunden dauern, bis die benutzerdefinierten Richtlinien je nach Größe der Gruppe jedem Mitglied der ausgewählten Gruppe zugewiesen werden. Dies geschieht im Hintergrund, nachdem Sie diesen Schritt erfolgreich abgeschlossen haben.
 6. Sie sind auf dem Weg, aber Sie sind noch nicht fertig! Es gibt ein paar weitere Dinge zu bedenken. Lesen Sie als nächstes die Schritte im Abschnitt [Was ist nach dem Ausführen des Assistenten](#what-to-do-after-running-the-wizard) in diesem Artikel.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Screenshot der Seite im Assistenten für die nächsten Schritte":::
@@ -202,32 +202,30 @@ Nachfolgend finden Sie eine Liste der globalen Standardrichtlinien Definitionen,
 |Richtlinienbereich |Unterbereich  |Richtlinieneinstellung  |Primär oder sekundär |Hochschulbildung |
 |---------|---------|---------|---------|---------|
 |Teams-Richtlinie   |         |Erstellen privater Kanäle         |Aus       |Ein|
-|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechung in Kanälen zulassen         |Aus      |Ein|
-|  |        |Zulassen des Outlook-Add-ins         |Aus       |Ein|
-|  |        |Planen der Kanal Besprechung zulassen        |Aus      |Ein|
-|  |        |Planen privater Besprechungen zulassen       |Aus      |Ein|
+|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechungen in Kanälen zulassen         |Aus      |Ein|
+|  |        |Outlook-Add-In zulassen         |Aus       |Ein|
+|  |        |Planung von Kanalbesprechungen zulassen        |Aus      |Ein|
+|  |        |Planung privater Besprechungen zulassen       |Aus      |Ein|
 |  |Audio & Video        |Transkription zulassen        |Ein       |Ein|
-|  |        |Cloud-Aufzeichnung zulassen         |Aus      |Ein|
-|  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audiosignal aktiviert        |Ausgehendes und eingehendes Audiosignal aktiviert|
+|  |        |Cloud-Aufnahme zulassen         |Aus      |Ein|
+|  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audio aktiviert        |Ausgehendes und eingehendes Audio aktiviert|
 |  |        |Modus für IP-Video         |Ausgehendes und eingehendes Video aktiviert     |Ausgehendes und eingehendes Video aktiviert|
 |  |       |IP-Video zulassen         |Ein         |Ein|
 |  |       |NDI-Streaming zulassen         |Aus         |Aus|
-|  |       |Medien-Bitrate (KBS)         |50.000         |50.000|
-|  |Inhaltsfreigabe       |Bildschirmübertragungsmodus         |Ganzer Bildschirm         |Ganzer Bildschirm|
+|  |       |Media-Bitrate (KBs)         |50.000         |50.000|
+|  |Inhaltsfreigabe       |Bildschirmübertragungsmodus         |Gesamter Bildschirm         |Gesamter Bildschirm|
 |  |       |Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert         |Ein         |Ein|
-|  |       |Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert         |Ein         |Ein|
-|  |       |PowerPoint-Freigabe zulassen        |Ein         |Ein|
+|  |       |Zulassen, dass ein externer Teilnehmer die Steuerung übergibt oder anfordert         |Ein         |Ein|
+|  |       |Teilen von PowerPoint zulassen        |Ein         |Ein|
 |  |       |Whiteboard zulassen         |Ein         |Ein|
-|  |       |Zulassen von freigegebenen Notizen         |Ein        |Ein|
-|  |Teilnehmer & Gäste       |Zulassen, dass anonyme Personen eine Besprechung starten       |Aus         |Ein|
+|  |       |Geteilte Notizen zulassen         |Ein        |Ein|
+|  |Teilnehmer & Gäste       |Anonymen Personen das Starten einer Besprechung gestatten       |Aus         |Ein|
 |  |       |Rollen mit Referenten rechten in Besprechungen        |EveryoneUserOverride         |EveryoneUserOverride|
-|  |       |Automatisches zulassen von Personen        |EveryoneInCompany|EveryoneInCompany|
-|  |       |Zulassen, dass Einwahlbenutzer die Lobby umgehen können        |Aus         |Aus|
-|  |       |"Besprechung jetzt in privaten Besprechungen zulassen"        |Aus         |Ein|
-|  |       |Aktivieren von Live Beschriftungen       |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden         |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden|
+|  |       |Personen automatisch zulassen        |EveryoneInCompany|EveryoneInCompany|
+|  |       |Einwahlbenutzern das Umgehen des Wartebereichs gestatten        |Aus         |Aus|
+|  |       |Sofortbesprechungen in privaten Besprechungen zulassen        |Aus         |Ein|
+|  |       |Liveuntertitel aktivieren       |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden         |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden|
 |  |       |Chat in Besprechungen zulassen         |Ein         |Ein|
-|  |Video Filtermodus       |VideoFiltersMode         |BlurandDefaultBackgrounds|Allfilters|
-|  |Besprechungsanwesenheitsbericht       |AllowEngagementReport         |Aus         |Ein|
 |Richtlinie für Liveereignisse  |       |Planung erlauben         |Aus         |Aus|
 |  |       |Transkription für Teilnehmer zulassen          |Ein       |Ein|
 |  |       |Wer an geplanten Liveereignissen teilnehmen kann        |Jeder in der Organisation        |Jeder in der Organisation|
@@ -248,7 +246,6 @@ Nachfolgend finden Sie eine Liste der globalen Standardrichtlinien Definitionen,
 |  |       |Erstellen von Sprachnachrichten         |Erlaubt in Chats und Kanälen         |Erlaubt in Chats und Kanälen|
 |  |       |Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen     |Aktiviert         |Aktiviert|
 |  |       |Entfernen von Benutzern aus Gruppen-Chats         |Aus         |Ein|
-|  |       |Vorgeschlagene Antworten         |Ein         |Ein|
 |App-Berechtigungsrichtlinie  |       |Microsoft-apps         |Blockieren bestimmter apps und zulassen, dass alle anderen > Walkie-Talkie blockiert werden         |Alle apps zulassen|
 |  |       |Drittanbieter-apps         |Alle apps zulassen         |Alle apps zulassen|
 |  |       |Benutzerdefinierte apps         |Alle apps zulassen         |Alle apps zulassen|
@@ -273,32 +270,30 @@ Nachfolgend finden Sie eine Liste der benutzerdefinierten Richtlinien Definition
 |Richtlinienbereich |Unterbereich  |Richtlinieneinstellung  |Primär oder sekundär |Hochschulbildung |
 |---------|---------|---------|---------|---------|
 |Teams-Richtlinie   |         |Erstellen privater Kanäle         |Ein       |Ein|
-|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechung in Kanälen zulassen         |Ein      |Ein|
-|  |        |Zulassen des Outlook-Add-ins         |Ein       |Ein|
-|  |        |Planen der Kanal Besprechung zulassen        |Ein      |Ein|
-|  |        |Planen privater Besprechungen zulassen       |Ein      |Ein|
+|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechungen in Kanälen zulassen         |Ein      |Ein|
+|  |        |Outlook-Add-In zulassen         |Ein       |Ein|
+|  |        |Planung von Kanalbesprechungen zulassen        |Ein      |Ein|
+|  |        |Planung privater Besprechungen zulassen       |Ein      |Ein|
 |  |Audio & Video        |Transkription zulassen        |Ein       |Ein|
-|  |        |Cloud-Aufzeichnung zulassen         |Ein      |Ein|
-|  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audiosignal aktiviert        |Ausgehendes und eingehendes Audiosignal aktiviert|
+|  |        |Cloud-Aufnahme zulassen         |Ein      |Ein|
+|  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audio aktiviert        |Ausgehendes und eingehendes Audio aktiviert|
 |  |        |Modus für IP-Video         |Ausgehendes und eingehendes Video aktiviert     |Ausgehendes und eingehendes Video aktiviert|
 |  |       |IP-Video zulassen         |Ein         |Ein|
 |  |       |NDI-Streaming zulassen         |Aus         |Aus|
-|  |       |Medien-Bitrate (KBS)         |50.000         |50.000|
-|  |Inhaltsfreigabe       |Bildschirmübertragungsmodus         |Ganzer Bildschirm         |Ganzer Bildschirm|
+|  |       |Media-Bitrate (KBs)         |50.000         |50.000|
+|  |Inhaltsfreigabe       |Bildschirmübertragungsmodus         |Gesamter Bildschirm         |Gesamter Bildschirm|
 |  |       |Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert         |Ein         |Ein|
-|  |       |Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert         |Ein         |Ein|
-|  |       |PowerPoint-Freigabe zulassen        |Ein         |Ein|
+|  |       |Zulassen, dass ein externer Teilnehmer die Steuerung übergibt oder anfordert         |Ein         |Ein|
+|  |       |Teilen von PowerPoint zulassen        |Ein         |Ein|
 |  |       |Whiteboard zulassen         |Ein         |Ein|
-|  |       |Zulassen von freigegebenen Notizen         |Ein        |Ein|
-|  |Teilnehmer & Gäste       |Zulassen, dass anonyme Personen eine Besprechung starten       |Ein        |Ein|
+|  |       |Geteilte Notizen zulassen         |Ein        |Ein|
+|  |Teilnehmer & Gäste       |Anonymen Personen das Starten einer Besprechung gestatten       |Ein        |Ein|
 |  |       |Rollen mit Referenten rechten in Besprechungen        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
-|  |       |Automatisches zulassen von Personen        |Organisatornur|Organisatornur|
-|  |       |Zulassen, dass Einwahlbenutzer die Lobby umgehen können        |Aus         |Aus|
-|  |       |"Besprechung jetzt in privaten Besprechungen zulassen"        |Ein         |Ein|
-|  |       |Aktivieren von Live Beschriftungen       |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden         |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden|
+|  |       |Personen automatisch zulassen        |Organisatornur|Organisatornur|
+|  |       |Einwahlbenutzern das Umgehen des Wartebereichs gestatten        |Aus         |Aus|
+|  |       |Sofortbesprechungen in privaten Besprechungen zulassen        |Ein         |Ein|
+|  |       |Liveuntertitel aktivieren       |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden         |Deaktiviert, aber der Benutzer kann außer Kraft gesetzt werden|
 |  |       |Chat in Besprechungen zulassen         |Ein         |Ein|
-|  |Video Filtermodus       |VideoFiltersMode         |Allfilters|Allfilters|
-|  |Besprechungsanwesenheitsbericht       |AllowEngagementReport         |Ein         |Ein|
 |Richtlinie für Liveereignisse  |       |Planung erlauben         |Ein         |Ein|
 |  |       |Transkription für Teilnehmer zulassen          |Ein       |Ein|
 |  |       |Wer an geplanten Liveereignissen teilnehmen kann        |Jeder in der Organisation        |Jeder in der Organisation|
@@ -319,7 +314,6 @@ Nachfolgend finden Sie eine Liste der benutzerdefinierten Richtlinien Definition
 |  |       |Erstellen von Sprachnachrichten         |Erlaubt in Chats und Kanälen         |Erlaubt in Chats und Kanälen|
 |  |       |Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen     |Aktiviert         |Aktiviert|
 |  |       |Entfernen von Benutzern aus Gruppen-Chats         |Ein        |Ein|
-|  |       |Vorgeschlagene Antworten         |Ein         |Ein|
 |Anrufrichtlinie  |       |Private Anrufe führen         |Ein       |Ein|
 |  |       |Anrufweiterleitung und gleichzeitiges Klingeln an Personen in Ihrer Organisation         |Ein        |Ein|
 |  |       |Anrufweiterleitung und gleichzeitiges Klingeln an externe Telefonnummern         |Ein        |Ein|

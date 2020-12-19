@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und Geräte wie Headsets, Freisprecheinrichtungen, Webcams und Monitore für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712303"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718579"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio-und Videogeräte
 
@@ -78,6 +78,13 @@ Wenn Sie ein Hersteller sind und dem Zertifizierungsprogramm beitreten möchten,
 
 | Hersteller        | Modell                                                     | Qualifizierten      | Certified-Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 75E-Headset                                         |12/16/2020      |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Jabra                |Evolve SC65E-Headset                                         |12/16/2020      |Skype for Business mit Upgrade auf Microsoft Teams      |
+|Dell                 |C3422WE-Monitor                                            |12/11/2020      |Certified für Microsoft Teams                           |
+|Dell                 |C2722DE-Monitor                                            |12/11/2020      |Certified für Microsoft Teams                           |
+|Dell                 |C2422HE-Monitor                                            |12/11/2020      |Certified für Microsoft Teams                           |
+|Poly                 |Sync 20 + Freisprechtelefon mit Poly BT600 USB-Dongle          |11/9/2020       |Certified für Microsoft Teams                           |
+|Poly                 |Synchronisieren von 20 Freisprech Telefonen                                       |11/9/2020       |Certified für Microsoft Teams                           |
 |Jabra                |Evolve 65t-Headset                                         |10/31/2020      |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Epos/Sennheiser      |MB pro 1                                                   |10/2/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Epos/Sennheiser      |MB pro 2                                                   |10/2/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |

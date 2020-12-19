@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Microsoft Teams verwalten und verwenden können, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 406a2e42a73b8bb92f3b6036de63177f4b81a434
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
-ms.translationtype: HT
+ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611779"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718629"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -117,9 +117,9 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie od
 
 ### <a name="allow-meet-now-in-channels"></a>Sofortbesprechungen in Kanälen zulassen
 
-Bei **Sofortbesprechungen zulassen** handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob ein Benutzer eine spontane Besprechung in einem Microsoft Teams-Kanal starten kann. Wenn Sie diese Einstellung aktivieren, können Benutzer die Schaltfläche **Besprechen** anklicken, um eine nicht geplante Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
+Bei **Sofortbesprechungen zulassen** handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob ein Benutzer eine spontane Besprechung in einem Microsoft Teams-Kanal starten kann. Wenn Sie diese Einstellung aktivieren, können Benutzer die **Schaltfläche "Besprechung"** auswählen, um eine ungeplante Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
 
-![Screenshot mit dem Symbol für Sofortbesprechungen unter einer Nachricht](media/meeting-policies-meet-now.png) 
+![Screenshot mit dem Symbol für Sofortbesprechungen unter einer Nachricht](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Outlook-Add-In zulassen
 
@@ -359,7 +359,7 @@ Wenn diese Einstellung für den Benutzer aktiviert ist, wird die Option **Steuer
 
 ![Screenshot mit der Option "Steuerung übergeben"](media/meeting-policies-give-control.png)
 
-Wenn die Einstellung für den Benutzer deaktiviert ist, ist die Option **Steuerung übergeben** nicht verfügbar.
+Wenn die Einstellung für den Benutzer deaktiviert ist, steht die Option **Steuerelement überlassen** nicht zur Verfügung.
 
 ![Screenshot, der zeigt, dass die Option "Steuerung übergeben" nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
 
@@ -455,7 +455,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 
 ![Screenshot einer Besprechung mit einem Benutzer im Wartebereich](media/meeting-policies-lobby.png)
 
- Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von ihnen geplante Besprechung zu ändern.
+ Besprechungsorganisatoren können in der Besprechungseinladung **Besprechungsoptionen** auswählen, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern.
 
 > [!NOTE]
 > In den Besprechungsoptionen lautet die Einstellung "Wer kann den Wartebereich umgehen?". Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
@@ -469,7 +469,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Einwahlbenutzern das Umgehen des Wartebereichs gestatten
 
-Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Personen, die sich per Telefon in die Besprechung einwählen, direkt an der Besprechung teilnehmen können oder im Wartebereich warten müssen – unabhängig von der Einstellung **Personen automatisch zulassen**. Diese Einstellung ist standardmäßig deaktiviert. Wenn diese Einstellung deaktiviert ist, müssen Einwahlbenutzer im Wartebereich bleiben, bis ein Benutzer der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und sie zulässt. Wenn diese Einstellung aktiviert ist, treten die Einwahlbenutzer automatisch der Besprechung bei, wenn ein Benutzer aus der Organisation beitritt.
+Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Personen, die sich per Telefon in die Besprechung einwählen, direkt an der Besprechung teilnehmen können oder im Wartebereich warten müssen – unabhängig von der Einstellung **Personen automatisch zulassen**. Diese Einstellung ist standardmäßig deaktiviert. Wenn diese Einstellung deaktiviert ist, warten Einwahlbenutzer in der Lobby, bis ein Organisationsbenutzer mit einem Team-Client an der Besprechung teilnimmt und diese zulässt. Wenn diese Einstellung aktiviert ist, treten die Einwahlbenutzer automatisch der Besprechung bei, wenn ein Benutzer aus der Organisation beitritt.
 
 > [!NOTE]
 > Wenn ein Einwahlbenutzer einer Besprechung beitritt, bevor ein Benutzer aus der Organisation beitritt, wird er in den Wartebereich gesetzt, bis ein Benutzer aus der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und ihn zulässt. Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
