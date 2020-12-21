@@ -18,10 +18,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: In diesem Artikel werden die Microsoft Teams-Funktionen beschrieben, die den Gästen zur Verfügung stehen.
+description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
 ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49661890"
@@ -30,19 +30,19 @@ ms.locfileid: "49661890"
 
 Wenn ein Gast zu einem Team eingeladen wird, erhält er eine Willkommens-E-Mail-Nachricht. Diese Nachricht enthält einige Informationen zum Team und was ihn jetzt als Mitglied erwartet. Der Gast muss die Einladung in der E-Mail-Nachricht durch das Klicken auf **Microsoft Teams öffnen** annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
     
-![Screenshot mit einem Beispiel einer Willkommens-e-Mail-Nachricht](media/guest-experience-image1.png)
+![Screenshot mit einem Beispiel einer Willkommens-E-Mail](media/guest-experience-image1.png)
     
-Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Ein Tag in der oberen rechten Ecke des Kanal Fadens zeigt die Anzahl der Gäste im Team an, und neben dem Namen jedes Gasts wird eine **(Gast-)** Beschriftung angezeigt.
+Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Ein Tag in der oberen rechten Ecke des Kanal-Threads zeigt die Anzahl der Gäste im Team an und neben dem Namen jedes Gasts wird eine **(Gast)** -Beschriftung angezeigt.
 
-![Screenshot mit einer Kategorie, die die Anzahl der Gäste im Team angibt](media/guest-experience-image2.png)
+![Screenshot vom Tag, das die Anzahl der Gäste im Team anzeigt](media/guest-experience-image2.png)
 
 Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
 - [Teilnehmen an einem Team als Gast](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Teilnehmen an einer Teambesprechung mit Gästen](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [Teilnehmen an einer Teambesprechung](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich der Funktionen für Team-Mitglieder und -Gäste
 
-In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die jeweils für die Mitglieder und die Gäste eines Teams einer Organisation verfügbar sind. Teams-Administratoren steuern die Features, die den Gästen zur Verfügung stehen.
+In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die jeweils für die Mitglieder und die Gäste eines Teams einer Organisation verfügbar sind. Teams-Administratoren steuern die Features, die den Gästen zu Verfügung stehen.
 
 | Funktionen in Teams | Teams-Benutzer in der Organisation | Gast |
 |:-----|:-----|:-----|
@@ -60,7 +60,7 @@ In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die j
 |Erstellen von Besprechungen oder Zugreifen auf Zeitpläne  <br/> |&#x2713;||
 |Zugreifen auf OneDrive for Business-Speicher  <br/> |&#x2713;||
 |Erstellen von mandantenweiten Richtlinien und solchen für den Gastzugriff in Teams/Kanälen  <br/> |&#x2713;||
-|Einladen eines Benutzers außerhalb der Domäne der Microsoft 365-oder Office 365-Organisation <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |&#x2713;||
+|Einladen eines Benutzers außerhalb der Domäne der Microsoft 365- oder Office 365-Organisation <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |&#x2713;||
 |Erstellen eines Teams  <br/> |&#x2713;||
 |Ein öffentliches Team suchen und daran teilnehmen  <br/> |&#x2713;||
 |Einsicht nehmen in das Organigramm  <br/> |&#x2713;||
