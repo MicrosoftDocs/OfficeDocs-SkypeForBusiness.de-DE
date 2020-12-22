@@ -20,7 +20,7 @@ ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
 ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2020
+ms.lasthandoff: 09/23/2020
 ms.locfileid: "48235823"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
@@ -31,13 +31,13 @@ Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie den Artikel [Rem
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 
-- Stellen Sie sicher, dass alle Benutzer auf Teams zugreifen können, nutzen Sie dazu ein [kostenpflichtiges Abonnement, das Teams beinhaltet](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Alternativ können berechtigte Unternehmen die **[kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
+- Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) hat. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
 
 -  Wenn Sie bereits über ein Abonnement verfügen, das Teams umfasst, **[aktivieren Sie es für jeden](user-access.md)**.
     
 - Erfahren Sie, wie Ihre Organisation die ersten **[Besprechungen und Live-Ereignisse in Teams](quick-start-meetings-live-events.md)** abhalten kann. 
 
-Weitere Informationen hierzu finden Sie unter [Zusätzlicher Ressourcen zur Unterstützung von Remotemitarbeitern](#additional-resources-for-supporting-remote-workers) weiter unten.
+Weitere Informationen hierzu finden Sie unter [Zusätzliche Ressourcen zur Unterstützung von Remotemitarbeitern](#additional-resources-for-supporting-remote-workers) weiter unten.
 
 
 ## <a name="end-user-communications"></a>Kommunikation der Endbenutzer
@@ -86,11 +86,11 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
    - Begrenzte Bandbreite kann die Audioqualität in Teams-Besprechungen beeinträchtigen. Um ein optimales Besprechungserlebnis unter Bedingungen mit geringer Bandbreite zu gewährleisten, ermutigen Sie die Benutzer, Videos einzuschränken und das Telefonfestnetz (PSTN) für Anrufe und Besprechungsaudio zu verwenden. 
 
-   - Lesen Sie den zur richtigen Zeit veröffentlichten Blogbeitrag (6. März 2020) [Den Microsoft 365- oder Office 365-Datenverkehr für Remotemitarbeiter schnell optimieren & die Auslastung Ihrer Infrastruktur verringern](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
+   - Lesen Sie den kürzlich veröffentlichten Blogbeitrag (6. März 2020) [Den Microsoft 365- oder Office 365-Datenverkehr für Remotemitarbeiter schnell optimieren & die Auslastung Ihrer Infrastruktur verringern](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
 
    - Blog vom 26. März 2020: [Running on VPN: How Microsoft is keeping its remote workforce connected](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/) (Arbeit im VPN: Wie Microsoft die Verbindung zu seinen Remotemitarbeitern aufrechterhält)
    
-   - Sofern Ihr Standort China ist, testen Sie doch die[Microsoft 365- oder Office 365-Leistungsoptimierung des globalen Mandanten für Benutzer in China ](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
+   - Sofern Sie sich in China befinden, testen Sie doch die[Microsoft 365- oder Office 365-Leistungsoptimierung des globalen Mandanten für Benutzer in China ](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - Wenn Sie Hilfe bei der Fehlersuche oder Problembehandlung im Zusammenhang mit der Anruf- oder Besprechungsqualität benötigen, befolgen Sie die Hinweise unter [Bekanntes Problem (China): Einwahl in Skype for Business/Teams-Konferenz-IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) am Ende dieses Artikels.
 
@@ -100,7 +100,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
    - Microsoft-Sicherheitsblog (26. März 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (Alternative Möglichkeiten für Sicherheitsexperten und IT, moderne Sicherheitskontrollen in den heutigen einzigartigen Remotearbeitsszenarien zu erreichen)
 
-   - [Remotearbeit und Sicherheit – Anleitung für CISOs](https://www.microsoft.com/security/blog/?p=90736)
+   - [Work remotely, stay secure—guidance for CISOs](https://www.microsoft.com/security/blog/?p=90736) (Remotearbeit und Sicherheit – Anleitung für CISOs)
 
    - [Die wichtigsten 12 Aufgaben für Sicherheitsteams zur Unterstützung der Arbeit von zu Hause aus](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
    
@@ -128,7 +128,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
       
       - [Remotearbeit mit Teams](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Teams-Blog (28. Februar 2020): [Vier Tipps für die Arbeit mit Microsoft Teams von zu Hause aus](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Teams-Blog (28. Februar 2020): [Four tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083) (Vier Tipps für die Arbeit mit Microsoft Teams von zu Hause aus)
 
       - [Zusammenarbeit mit Microsoft 365 oder Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
@@ -148,7 +148,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
    - [Organisationsweite Teams](create-an-org-wide-team.md) und [Unternehmens-Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator)-App-Vorlage.
     
-   - Senden Sie Informationen zu den Fernarbeits- sowie Integritäts- und Sicherheitsrichtlinien Ihrer Organisation.
+   - Senden Sie Informationen zu den Fernarbeits- sowie Gesundheits- und Sicherheitsrichtlinien Ihrer Organisation.
     
    - Verwenden Sie [Liveereignisse](teams-live-events/what-are-teams-live-events.md) für unternehmensweite Besprechungen. Wenn Ihre Besprechung die [Beschränkungen und Spezifikationen](limits-specifications-teams.md) einer regulären Teams-Besprechung erreicht, legen Sie sie als Liveereignis an. Aktivieren Sie die Liveuntertitel für [Besprechungen](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) und [Liveveranstaltungen](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Aktivieren Sie Untertitel in Liveereignissen. Diese Features verbessern Inklusion, Produktivität und Verständnis. 
 
@@ -157,7 +157,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 7. Wenn Sie mit der Rolle des Teams-Administrators noch nicht vertraut sind, finden Sie Informationen in den [Administratorschulungen für Teams](itadmin-readiness.md).
 
 
-1. Stellen Sie sicher, dass Ihre Benutzer über geeignete Geräte verfügen, um deutlich gesehen und gehört zu werden. Schauen Sie sich [Teams-zertifizierte Geräte](https://aka.ms/TeamsDevices) für private und freigegebene Bereiche an.
+1. Stellen Sie sicher, dass Ihre Benutzer über geeignete Geräte verfügen, um deutlich gesehen und gehört zu werden. Schauen Sie sich [Teams-zertifizierte Geräte](https://aka.ms/TeamsDevices) für private und geteilte Bereiche an.
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>Bekanntes Problem (China): Einwahl in Skype for Business/Teams-Konferenz-IDs
