@@ -16,24 +16,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen.
-ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
+ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701313"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728165"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version von Microsoft Teams-Administratorfunktionen
 
 Diese Anmerkungen zu dieser Version enthalten Informationen zu neuen Administrator Features für Microsoft Teams.
 
-## <a name="november-25-2020"></a>25. November 2020
+## <a name="december-21-2020"></a>21. Dezember 2020
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Einrichten des Microsoft Teams-Besprechungs-Add-ons für Google Workspace
+### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Unterstützte Gebühren Center und Abdeckung für Anrufpläne
 
-Mithilfe des Microsoft Teams-Besprechungs-Add-ons können Google Calendar-Benutzer eine Microsoft Teams-Besprechung direkt aus Google Workspace planen und daran teilnehmen. Benutzer erhalten Zugriff auf die Besprechungsfunktionen von Teams, darunter Video-und Audiokonferenzen, Bildschirmübertragung, Besprechungs Chat, digitale Zeichen Tafeln und vieles mehr. Bleiben Sie in Kontakt und Organisation, um mehr über Arbeit, Schule und Leben hinweg zu erledigen.
+Ein Gebühren Center ist der Branchenbegriff für ein geografisches Gebiet, in dem traditionell Grenzwerte für Ortsgespräche, Abrechnungsgebühren und die Zuweisung von Telefonnummern für das öffentlich geschaltete Telefonnetz (PSTN) definiert sind. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix).
 
-Das Microsoft Teams-Besprechungs-Add-on für Google Workspace muss von einem Teams-Administrator aktiviert werden, bevor Mandanten Benutzer auf die App zugreifen können. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
+## <a name="december-18-2020"></a>18. Dezember 2020
+
+### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>Aktualisierte Richtlinien für Besprechungseinstellungen für Breakout Rooms
+
+ Gruppenräume in Microsoft Teams werden dazu verwendet, Besprechungen in separate, kleinere Besprechungsräume aufzuteilen. Über diese Einstellung wird gesteuert, ob Besprechungsorganisatoren in Besprechungen, die sie planen oder beginnen, Gruppenräume erstellen und verwalten können. Diese Richtlinieneinstellung wirkt sich auf alle Besprechungen aus, einschließlich Sofortbesprechungen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms).
+
+## <a name="december-9-2020"></a>9. Dezember 2020
+
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Berater für Teams mit Microsoft 365 Learning-Pfaden
+
+Microsoft 365-Lernpfade ist eine On-Demand-Lernlösung, die Sie anpassen können, um Ihre Benutzer zu schulen und die Nutzung und Annahme von Microsoft Teams in Ihrer Organisation zu verbessern. Verwenden Sie Lernpfade zusammen mit Advisor für Teams, um Ihre Benutzer schnell mit Microsoft Teams vertraut zu machen und die Nutzung zu steigern.
+
+Die Lernpfade-Lösung bietet Ihnen eine SharePoint Online-Websitevorlage und die Möglichkeit, eine Lernwebsite für Ihre Benutzer zu erstellen. Sie können das Schulungsportal für Lernpfade anpassen, um speziell auf die Anforderungen Ihrer Benutzer zugeschnittene Schulungs- und Supportinhalte bereitzustellen. Verwenden Sie die Microsoft Teams-Wiedergabelisten aus dem Microsoft Online-Katalog, und fügen Sie Ihre eigene hinzu. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways).
 
 ## <a name="october-28-2020"></a>28. Oktober 2020
 
@@ -127,9 +139,9 @@ Als Administrator können Sie steuern, ob Benutzer Microsoft Power Platform-apps
 
 ## <a name="september-19-2020"></a>19. September 2020
 
-### <a name="sharing-files-in-microsoft-teams"></a>Freigabe von Dateien in Microsoft Teams
+### <a name="sharing-files-in-microsoft-teams"></a>Freigeben von Dateien in Microsoft Teams
 
-In Microsoft Teams können Benutzer Inhalte für andere Team Benutzer innerhalb und außerhalb Ihrer Organisation freigeben. Die Freigabe in Teams basiert auf den in SharePoint und OneDrive konfigurierten Einstellungen, sodass die für SharePoint und OneDrive eingerichteten Einstellungen auch die Freigabe in Teams steuern. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
+In Microsoft Teams können Benutzer Inhalte für andere Teams-Benutzer innerhalb und außerhalb ihrer Organisation freigeben. Die Freigabe in Teams basiert auf den Einstellungen, die in SharePoint und OneDrive konfiguriert sind. Die Einstellungen, die Sie für SharePoint und OneDrive festlegen, steuern also auch die Freigabe in Teams. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
 
 ## <a name="september-16-2020"></a>16. September 2020
 
