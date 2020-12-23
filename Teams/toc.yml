@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: Wie ist der Status meiner Portierungsaufträge?
               href: phone-number-calling-plans/port-order-status.md
+        - name: Unterstützte Bewertungszentren und Abdeckung
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: Anrufweiterleitung
       items:
         - name: Was sind Wählpläne?
