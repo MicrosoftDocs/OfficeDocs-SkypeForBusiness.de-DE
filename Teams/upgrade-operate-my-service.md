@@ -1,7 +1,7 @@
 ---
 title: Vorgänge für Microsoft Teams | Dienstverwaltung | Qualität
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: fc6c39d03912f8a708eea91ce34b2a7f61a47828
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085911"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731163"
 ---
 # <a name="operate-your-service"></a>Betreiben des Diensts
 
@@ -145,7 +145,7 @@ Diese Gruppen können Dienstbesitzer, Helpdesks, Supportgruppen der zweiten Eben
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Überwachen für erweiterte Szenarien
 
-Sie können den Dienststatus und bevorstehende Änderungen überwachen, indem Sie die Dienst Kommunikations-API für den Zugriff auf Dienststatus und Änderungen programmgesteuert nutzen. Verwenden Sie diese API, um ein eigenes Überwachungstool zu erstellen oder Ihre vorhandenen Überwachungstools mit Microsoft 365-oder Office 365-Dienst Kommunikation zu verbinden, wodurch potenziell die Überwachung Ihrer Umgebung vereinfacht wird. Weitere Informationen finden Sie unter [Microsoft 365 oder Office 365 für Enterprise-Entwickler](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Sie können den Dienststatus und bevorstehende Änderungen überwachen, indem Sie die Dienst Kommunikations-API für den Zugriff auf Dienststatus und Änderungen programmgesteuert nutzen. Verwenden Sie diese API, um ein eigenes Überwachungstool zu erstellen oder Ihre vorhandenen Überwachungstools mit Microsoft 365-oder Office 365-Dienst Kommunikation zu verbinden, wodurch potenziell die Überwachung Ihrer Umgebung vereinfacht wird. Weitere Informationen finden Sie unter [Microsoft 365 oder Office 365 für Enterprise-Entwickler](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
@@ -360,10 +360,10 @@ Um die Integrität Ihres Netzwerks zu gewährleisten, müssen in regelmäßigen 
 | Überwachen von Microsoft 365 oder Office 365 IPS und URLs | Überwachen Sie alle Änderungen an den [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips) mit dem bereitgestellten [RSS-Feed](https://go.microsoft.com/fwlink/p/?linkid=236301) , und initiieren Sie eine Änderungsanforderung für entsprechende Netzwerkgruppen. | Täglich | |
 | Aktualisieren des Netzwerks auf der Grundlage von Änderungen an Microsoft 365 oder Office 365 IPS und URLs | Aktualisieren Sie die anwendbaren Netzwerkkomponenten (Firewalls, Proxy Server, VPNs, clientseitige Firewalls usw.), um Änderungen an den [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips)wiederzugeben. | Nach Bedarf | |
 | Bereitstellen von Gebäudedaten | Bereitstellen von aktualisierten Subnetz-Informationen für den Quality Champion (oder relevante Stakeholder), um sicherzustellen, dass die [Gebäude Definitionen in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) auf dem neuesten Stand gehalten werden. | Nach Bedarf | |
-| Implementieren von Änderungen | Implementieren Sie Änderungen im Netzwerk, um die geschäftlichen und technischen Anforderungen des Teams zu ändern. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
+| Implementieren von Änderungen | Implementieren Sie Änderungen im Netzwerk, um die geschäftlichen und technischen Anforderungen des Teams zu ändern. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und Wi-Fi Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
 | Netzwerküberwachung und-Berichterstellung | Überwachen Sie das Ende des Netzwerks auf Verfügbarkeit, Auslastung und Kapazitäts Trends, indem Sie die vorhandenen Netzwerkverwaltungstools und Berichtsfunktionen von Drittanbietern verwenden, die von ihren Netzwerkanbietern zur Verfügung stehen. Verwenden Sie Trenddaten für die Netzwerkkapazitätsplanung. | Täglich, wöchentlich, monatlich | |
 | Kapazitätsplanung | Arbeiten Sie mit den Team Dienstanbietern zusammen, um sich verändernde geschäftliche und technische Anforderungen zu verstehen, die zusätzliche Kapazitätsänderungen antreiben könnten.  | Nach Bedarf | |
-| Netzwerkproblembehandlung und-Behebung | Unterstützen Sie die Teams-Helpdesks, Dienstbesitzer und wichtigen Teilnehmer bei der Problembehandlung und Beheben von Problemen im Zusammenhang mit der Konnektivität, Zuverlässigkeit oder Qualität von Teams. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
+| Netzwerkproblembehandlung und-Behebung | Unterstützen Sie die Teams-Helpdesks, Dienstbesitzer und wichtigen Teilnehmer bei der Problembehandlung und Beheben von Problemen im Zusammenhang mit der Konnektivität, Zuverlässigkeit oder Qualität von Teams. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und Wi-Fi Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
 | Testen von Disaster Recovery und Höchstverfügbarkeit | Führen Sie regelmäßige hoch Verfügbarkeits-und Disaster Recovery-Tests für die Netzwerkinfrastruktur durch, um sicherzustellen, dass Sie die angegebenen Service Level Objectives (SLOs) oder Service Level Agreements (SLAs) für den Teams-Service erfüllt. | Monatlich | |
 
 ### <a name="references"></a>Referenzen
@@ -421,7 +421,7 @@ Client seitige Firewalls können die Anrufqualität beeinträchtigen und sogar v
 
 ### <a name="wi-fi-drivers"></a>WLAN-Treiber
 
-WLAN-Treiber sind möglicherweise problematisch. Ein Beispiel: ein Treiber kann sehr aggressive Roaming-Verhaltensweisen zwischen Zugriffspunkten aufweisen, die unnötige Zugriffspunktwechsel auslösen können, was zu schlechter Anrufqualität führt. Ein schlechter leistungsfähiger WLAN-Treiber wird möglicherweise durch eine Überprüfung der Qualität der Erfahrung ermittelt (Weitere Einzelheiten finden Sie unter [verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md) ). Es ist wichtig, einen qualitätsorientierten Prozess zu implementieren, der neue Wi-Fi-Treiber überwacht und sicherstellt, dass Sie getestet werden, bevor Sie für die allgemeine Benutzer Bevölkerung bereitgestellt werden.
+Wi-Fi Treiber sind möglicherweise problematisch. Ein Beispiel: ein Treiber kann sehr aggressive Roaming-Verhaltensweisen zwischen Zugriffspunkten aufweisen, die unnötige Zugriffspunktwechsel auslösen können, was zu schlechter Anrufqualität führt. Ein leistungsschwacher Wi-Fi Treiber wird möglicherweise durch eine Überprüfung der Qualität der Benutzerfreundlichkeit ermittelt (Weitere Informationen finden Sie unter [verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md) ). Es ist wichtig, einen qualitätsorientierten Prozess zu implementieren, der neue Wi-Fi Treiber überwacht und sicherstellt, dass Sie getestet werden, bevor Sie für die allgemeine Benutzerpopulation bereitgestellt werden.
 
 ### <a name="endpoint-management"></a>Endpunkt Verwaltung
 
@@ -447,7 +447,7 @@ Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in 
 |---|---|---|---|
 | Endpunkt Anforderungen | Stellen Sie sicher, dass der Endpunkt des Teams weiterhin alle Softwareanforderungen für Teams erfüllt, die unter [Abrufen von Clients für Microsoft Teams](get-clients.md)aufgeführt sind. | Monatlich | |
 | Endpunktfirewalls | Verwalten Sie die entsprechenden Ausnahmen für die Endpunkt Firewall basierend auf den Informationen in [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips). Ihr Drittanbieter erhält spezifische Anleitungen für die Beibehaltung der Ausschlüsse. Abonnieren Sie den [RSS-Feed](https://support.office.com/o365ip/rss) , um automatisch über Änderungen benachrichtigt zu werden. | Nach Bedarf | |
-| WLAN-Treiber | Testen und aktualisieren Sie die WLAN-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)). | Nach Bedarf | |
+| WLAN-Treiber | Testen und aktualisieren Sie Wi-Fi Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)). | Nach Bedarf | |
 | Endpunkt Verwaltung | Verwalten Sie den Katalog unterstützter Endpunkte und Schnittstellengeräte (wie Headsets). Verwalten von Lieferantenverträgen, Gewährleistungs-, Verteilungs-, Ersatz-und Reparatur Richtlinien. | Monatlich | |
 | Problembehandlung für Endpunkt | Die Problembehandlung kann die Überprüfung der Konnektivität, das Konsultieren der Liste der bekannten Probleme, die Erfassung von Protokollen, die Analyse und die Eskalation des Microsoft-Supports oder von Drittanbietern umfassen. | Nach Bedarf | |
 
