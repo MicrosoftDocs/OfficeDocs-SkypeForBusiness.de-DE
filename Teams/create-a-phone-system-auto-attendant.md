@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
-ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
+ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
+ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49530518"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49751791"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -107,9 +107,9 @@ Wenn Sie Wähltasten zu Zielen zuweisen, empfehlen wir, dass Sie **keine** für 
 
 Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche** aus.
 
-**Nach Namen wählen** : Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Telefontastatur eingeben. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit dem Dial by-Namen gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
+**Nach Namen wählen** : Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Telefontastatur eingeben. Jeder Online-Nutzer oder jeder Nutzer, der lokal mit Skype for Business Server gehostet wird, ist ein berechtigter Nutzer und kann mit dem Dial by-Namen gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
 
-**Durchwahl: Wenn** Sie diese Option aktivieren, können Anrufer mit den Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons wählen. Jeder Online-Nutzer mit einer Telefon System-Lizenz oder einem lokal gehosteten Benutzer mit Skype for Business Server ist ein berechtigter Nutzer und kann mit **Dial by Extension** gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
+**Durchwahl: Wenn** Sie diese Option aktivieren, können Anrufer mit den Benutzern in Ihrer Organisation eine Verbindung herstellen, indem Sie die Durchwahl Ihres Telefons wählen. Jeder Online-Nutzer oder jeder Nutzer, der lokal unter Verwendung von Skype for Business Server gehostet wird, ist ein berechtigter Nutzer und kann mit **Dial by Extension** gefunden werden. (Sie können auf der Seite [Wählbereich](#dial-scope) einstellen, wer im Verzeichnis enthalten ist und was nicht.)
 
 Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen über eine Erweiterung verfügen, die als Teil eines der folgenden in Active Directory oder Azure Active Directory definierten Telefon Attribute angegeben ist (Weitere Informationen finden Sie unter [einzeln oder in Massen Hinzufügen von Benutzern](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .)
 
@@ -119,8 +119,15 @@ Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müsse
 - TelephoneNumber/Telefonnummer
 - OtherTelephone
 
-Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder *+ \<phone number> ; Ext \<extension> =* oder *+ \<phone number> ; \<extension> x*.
-Beispiel: Set-MsolUser-userPrincipalName Usern@Domain.com-Telefonnummer "+ 15555555678; ext = 5678".
+Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder:
+
+- *+\<phone number>; Extern =\<extension>*
+- *+\<phone number>x\<extension>*
+- *x\<extension>*
+
+- Beispiel 1: Set-MsolUser-userPrincipalName Usern@Domain.com-Telefonnummer "+ 15555555678; ext = 5678"
+- Beispiel 2: Set-MsolUser-userPrincipalName Usern@Domain.com-Telefonnummer "+ 15555555678x5678"
+- Beispiel 3: Set-MsolUser-userPrincipalName Usern@Domain.com-Telefonnummer "x5678"
 
 Sie können die Erweiterung im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im [Azure Active Directory Admin Center](https://aad.portal.azure.com)einrichten. Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonzentralen und Anrufwarteschlangen verfügbar sind.
 
@@ -175,7 +182,7 @@ Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **weiter**.
 
 ![Screenshot der Optionen "Wählbereich einbeziehen und ausschließen"](media/auto-attendant-dial-scope.png)
 
-Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer Dial-by-Name oder Dial-by-Extension verwendet. Der Standardwert **aller Online Benutzer** umfasst alle Benutzer in Ihrer Organisation, die Online Benutzer mit einer Telefon System Lizenz sind oder lokal mit Skype for Business Server gehostet werden.
+Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer Dial-by-Name oder Dial-by-Extension verwendet. Der Standardwert **aller Online Benutzer** umfasst alle Benutzer in Ihrer Organisation, die Online Benutzer sind oder lokal mit Skype for Business Server gehostet werden.
 
 Sie können bestimmte Benutzer einbeziehen oder ausschließen, indem Sie unter **einbeziehen** oder **ausschließen** eine **benutzerdefinierte Benutzergruppe** auswählen und eine oder mehrere Microsoft 365-Gruppen,-Verteilerlisten oder-Sicherheitsgruppen auswählen. So können Sie beispielsweise Führungskräfte in Ihrer Organisation aus dem Wähl Verzeichnis ausschließen. (Wenn sich ein Benutzer in beiden Listen befindet, wird er aus dem Verzeichnis ausgeschlossen.)
 
