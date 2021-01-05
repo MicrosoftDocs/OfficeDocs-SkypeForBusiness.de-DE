@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Informieren Sie sich über die Optionen für die automatische Telefonzentrale und die Wähl-und Spracherkennung in Teams.
-ms.openlocfilehash: b63235409418f7ff05b8d34973d2390e6b18df36
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4ff2e60a1d785a035ee20c6547108f1b8916bcfb
+ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908704"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749444"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Automatische Telefonzentrale und Anruf Warteschlangen Wähl-und sprach Erkennungs Referenz
 
@@ -35,9 +35,9 @@ Dial by Name ist eine Funktion einer automatischen Telefonzentrale, die auch als
 
 ## <a name="searching-for-users"></a>Suchen nach Benutzern
 
-Benutzer, die Sie über den Namen "Dial by" gefunden und erreicht haben möchten, müssen **nicht über eine Telefonnummer verfügen oder Ihnen Anrufpläne zugeordnet haben, Sie müssen aber über eine Telefon System Lizenz verfügen, wenn Sie Online-Benutzer sind oder Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sind**. Durch die Wahl nach Namen können sogar Anrufe an Microsoft Teams-Benutzer, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden, gefunden und übertragen werden. Wenn Sie die erforderlichen Voraussetzungen erfüllt haben, aktivieren Sie in einer automatischen Telefonzentrale explizit Dial by Name.
+Benutzer, die Sie über den Namen der Wähltasten gefunden und erreicht haben möchten, müssen **nicht über eine Telefonnummer verfügen oder Ihnen Anrufpläne zugeordnet haben, Sie müssen jedoch für Skype for Business Server-Benutzer Enterprise-VoIP aktiviert sein**. Durch die Wahl nach Namen können sogar Anrufe an Microsoft Teams-Benutzer, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden, gefunden und übertragen werden. Wenn Sie die erforderlichen Voraussetzungen erfüllt haben, aktivieren Sie in einer automatischen Telefonzentrale explizit Dial by Name.
 
-Dial by Extension ist eine Funktion einer automatischen Telefonzentrale, die ebenfalls Teil der Verzeichnissuche ist. Sie ermöglicht es den Personen, die Ihre automatische Telefonzentrale anrufen, die Spracherkennung (Spracherkennung) oder Ihre DTMF-Antworten (Telefontastatur) zu verwenden, um die Durchwahl des Benutzers einzugeben, den Sie erreichen möchten, und dann den Anruf an Sie übertragen zu lassen. Benutzer, die Sie mit Dial by Extension erreichen möchten, müssen  **nicht über eine Telefonnummer verfügen oder Ihnen Anrufpläne zugeordnet haben, Sie müssen aber über eine Telefon System Lizenz verfügen, wenn Sie Online-Benutzer sind oder Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sind**. Außerdem benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Dial by Extension kann sogar Anrufe an Microsoft Teams-Nutzer finden und übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Wenn Sie die erforderlichen Voraussetzungen erfüllen, aktivieren Sie in einer automatischen Telefonzentrale explizit die Durchwahlnummer.
+Dial by Extension ist eine Funktion einer automatischen Telefonzentrale, die ebenfalls Teil der Verzeichnissuche ist. Sie ermöglicht es den Personen, die Ihre automatische Telefonzentrale anrufen, die Spracherkennung (Spracherkennung) oder Ihre DTMF-Antworten (Telefontastatur) zu verwenden, um die Durchwahl des Benutzers einzugeben, den Sie erreichen möchten, und dann den Anruf an Sie übertragen zu lassen. Benutzer, die Sie mit Dial by Extension erreichen möchten, müssen  **nicht über eine Telefonnummer verfügen oder Ihnen Anrufpläne zugeordnet haben, Sie müssen aber Enterprise-VoIP für Skype for Business Server-Benutzer sein**. Außerdem benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Dial by Extension kann sogar Anrufe an Microsoft Teams-Nutzer finden und übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Wenn Sie die erforderlichen Voraussetzungen erfüllen, aktivieren Sie in einer automatischen Telefonzentrale explizit die Durchwahlnummer.
 
 ### <a name="maximum-directory-size"></a>Maximale Verzeichnisgröße
 

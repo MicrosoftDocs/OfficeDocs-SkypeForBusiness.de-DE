@@ -1,6 +1,6 @@
 ---
 title: Erstellen einer Intranet-Portal-App für Teams von einer SharePoint Online-Website oder -Seite aus
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Verwenden Sie eine vorhandene SharePoint Online-Website oder -Seite und erstellen Sie eine eigenständige statische Registerkarte, die als Intranet-Portal für Ihre Organisation verwendet werden kann.
 localization_priority: Priority
-ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083165"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731113"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Erstellen einer Intranet-Portal-App für Teams von einer SharePoint Online-Website oder -Seite aus
 
@@ -42,7 +42,8 @@ Bevor Sie beginnen:
 2. Sie müssen die Unterdomäne Ihres Mandanten kennen, die im Platzhalter **{{subdomain}}** verwendet wird.
 
 3. In diesem Artikel wird **{{siteUrl}}** als Platzhalter für die *URL* der ausgewählten Website oder Seite verwendet.
-    - Beispiel-*URLs*:   https://contoso.sharepoint.com/teams/Contoso   *oder* https://contoso.sharepoint.com/sites/Contoso
+    - Beispiel-*URLs*: `https://contoso.sharepoint.com/teams/Contoso`
+        *oder* `https://contoso.sharepoint.com/sites/Contoso`
 4. Außerdem wird **{{sitePath}}** dazu verwendet, den *Pfad* der URL (beispielsweise: /teams/contoso) zu kennzeichnen.
     - *Beispielpfade*:   /teams/Contoso   *oder* /sites/Contoso
 
@@ -71,11 +72,11 @@ Beginnen Sie mit den folgenden Schritten:
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**: {{siteUrl}}
 
-    Beispiel-**contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    Beispiel-**contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Navigieren Sie zu **Domänen und Berechtigungen**. Stellen Sie sicher, dass der Abschnitt gültige Domänen Ihren SharePoint Online-Domänennamen enthält.
 
-    Beispiel: contoso.sharepoint.com
+    Beispiel: `contoso.sharepoint.com`
 
 12. Fügen Sie die folgenden Web App-Eigenschaften für **Einmaliges Anmelden (Single Sign-on, SSO)** hinzu:
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Verwenden Sie den Ratgeber für Teams, um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616929"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731133"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -200,7 +200,7 @@ Verwenden Sie die Ressourcen auf Ihrer Lernpfade-Website, um Ihren Helpdesk und 
 
 Anleitungen und Ressourcen zur Vorbereitung Ihres Helpdesks und Ihrer Experten auf Microsoft Teams finden Sie unter [Schulung Ihrer Organisation](https://adoption.microsoft.com/microsoft-teams/#train-your-org) und [Experten ausbilden](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-Als Ansprechpartner für Ihre Benutzer bei Fragen zur Nutzung können Ihr Helpdesk und Ihre Experten die Lernpfade verwenden, um Benutzer zu schulen sowie als Alternative zur Erstellung von Support-Tickets. Ermutigen Sie Ihren Helpdesk und Ihre Experten, [Ihre Lernpfade-Website anzupassen](https://docs.microsoft.comoffice365/customlearning/custom_overview) durch die Erstellung einer Schulungs- und Supportseite, und sie dann in einem Team [als Registerkarte zu einem Kanal hinzuzufügen](#add-your-site-to-teams), damit die Benutzer selbst nach den erforderlichen Informationen suchen können.
+Als Ansprechpartner für Ihre Benutzer bei Fragen zur Nutzung können Ihr Helpdesk und Ihre Experten die Lernpfade verwenden, um Benutzer zu schulen sowie als Alternative zur Erstellung von Support-Tickets. Ermutigen Sie Ihren Helpdesk und Ihre Experten, [Ihre Lernpfade-Website anzupassen](https://docs.microsoft.com/office365/customlearning/) durch die Erstellung einer Schulungs- und Supportseite, und sie dann in einem Team [als Registerkarte zu einem Kanal hinzuzufügen](#add-your-site-to-teams), damit die Benutzer selbst nach den erforderlichen Informationen suchen können.
 
 ### <a name="drive-adoption"></a>Fördern der Einführung
 

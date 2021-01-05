@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen Session Border Controller (SBC) für die Bereitstellung mehrerer Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber konfigurieren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
+ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655522"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750585"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -87,7 +87,7 @@ Das folgende Diagramm fasst die Anforderungen für Basisdomänen, Unterdomänen 
 
 ![Diagramm mit Voraussetzungen für Domänen und Kontakt Kopfzeile](media/direct-routing-1-sbc-requirements.png)
 
-Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San * \* .base_domain anfordern (beispielsweise \* Customers.adatum.biz)*. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
+Für den SBC ist ein Zertifikat erforderlich, um die Verbindungen zu authentifizieren. Für das SBC-Hosting-Szenario muss der Netzbetreiber ein Zertifikat mit San *\* .base_domain anfordern (beispielsweise \* Customers.adatum.biz)*. Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die über einen einzelnen SBC bedient werden.
 
 
 Die folgende Tabelle zeigt ein Beispiel für eine Konfiguration.
@@ -114,7 +114,7 @@ Führen Sie die nachstehenden Schritte aus, um die Basis-und Subdomänen zu konf
 
 Wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben, können Sie nur neue Domänen hinzufügen. 
 
-Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsoft 365 Admin Center an ( https://portal.office.com) wechseln Sie zu aktive Benutzer von **Benutzern**  >  **Active Users**, und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
+Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsoft 365 Admin Center an ( https://portal.office.com) wechseln Sie zu aktive Benutzer von **Benutzern**  >  , und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Microsoft 365 oder Office 365 finden Sie unter [Informationen zu Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -155,7 +155,7 @@ Sie müssen für jeden Kunden einen eindeutigen Subdomain-Namen erstellen. In di
 
 Wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben, können Sie nur neue Domänen hinzufügen. 
 
-Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsoft 365 Admin Center an ( https://portal.office.com) wechseln Sie zu aktive Benutzer von **Benutzern**  >  **Active Users**, und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
+Um die Rolle zu überprüfen, die Sie haben, melden Sie sich bitte beim Microsoft 365 Admin Center an ( https://portal.office.com) wechseln Sie zu aktive Benutzer von **Benutzern**  >  , und überprüfen Sie, ob Sie über eine globale Administrator Rolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Microsoft 365 oder Office 365 finden Sie unter [Informationen zu Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -166,7 +166,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
     ![Screenshot der Seite "Domäne hinzufügen"](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Klicken Sie auf **Weiter**.
-4. Der FQDN wurde nie im Mandanten registriert. Im nächsten Schritt müssen Sie die Domäne überprüfen. Wählen Sie **stattdessen TXT-Eintrag hinzufügen**aus. 
+4. Der FQDN wurde nie im Mandanten registriert. Im nächsten Schritt müssen Sie die Domäne überprüfen. Wählen Sie **stattdessen TXT-Eintrag hinzufügen** aus. 
 
     ![Screenshot der Seite "Domäne überprüfen"](media/direct-routing-6-sbc-verify-customer-domain.png)
 
@@ -193,9 +193,12 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
     ![Screenshot der Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-11-sbc-update-dns-finish.png)
 
-11. Stellen Sie sicher, dass der Status **Setup abgeschlossen**ist. 
+11. Stellen Sie sicher, dass der Status **Setup abgeschlossen** ist. 
     
     ![Screenshot der Seite mit dem Status "Setup abgeschlossen"](media/direct-routing-12-sbc-setup-complete.png)
+    
+> [!NOTE]
+> Die Basis-URL und die Unterdomäne für den einzelnen Client müssen sich auf demselben Mandanten befinden, damit Sie einen _direkten Routen_ Stamm hinzufügen können.
 
 ### <a name="activate-the-subdomain-name"></a>Aktivieren des Unterdomänen namens
 
@@ -259,9 +262,8 @@ Zum Einrichten eines Failovers für eine Multi-Tenant-Umgebung müssen Sie die f
 - Geben Sie in den Online-VoIP-Routing Richtlinien der Benutzer beide SBCS.  Wenn ein SBC fehlschlägt, leitet die Routing Richtlinie Anrufe an den zweiten SBC weiter.
 
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Planen von direktem Routing](direct-routing-plan.md)
 
 [Konfigurieren von direktem Routing](direct-routing-configure.md)
-
