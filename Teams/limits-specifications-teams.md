@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: siunies
 description: In diesem Artikel werden die Grenzwerte, Spezifikationen und anderen Anforderungen für Microsoft Teams beschrieben.
 localization_priority: Priority
 f1.keywords:
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682354"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776846"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -69,16 +69,18 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 |Feature  | Obergrenze  |
 |---------|---------|
-|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250 |
+|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250<sup>2</sup> |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
-|Anzahl der Dateianlagen <sup>2</sup>  |10     |
-|Größe des Chats | Ca. 28 KB pro Beitrag<sup>3</sup> |
+|Anzahl der Dateianlagen<sup>3</sup>  |10     |
+|Größe des Chats | Ca. 28 KB pro Beitrag<sup>4</sup> |
 
 <sup>1</sup> Wenn mehr als 20 Personen an einem Chat teilnehmen, werden die folgenden Chat-Funktionen deaktiviert: automatische Outlook-Antworten und Teams-Statusmeldungen; Eingabeindikator; Video- und Telefonanrufe; Freigabe; Lesebestätigungen. Die Schaltfläche „Übermittlungsoptionen festlegen“ (!) wird ebenfalls entfernt, wenn private Gruppenchats mehr als 20 Mitglieder umfassen.
 
-<sup>2</sup> Falls die Anzahl der Anlagen dieses Limit überschreitet, wird eine Fehlermeldung angezeigt.
+<sup>2</sup> Einem Gruppenchat können jeweils nur 200 Mitglieder hinzugefügt werden. [Weitere Informationen finden Sie in diesem Artikel](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen und Reaktionen umfasst.
+<sup>3</sup> Falls die Anzahl der Anlagen dieses Limit überschreitet, wird eine Fehlermeldung angezeigt.
+
+<sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen und Reaktionen umfasst.
 
 ### <a name="emailing-a-channel"></a>Senden von E-Mails an einen Kanal
 
@@ -127,7 +129,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 350 |
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300 |
 |Anzahl von Personen in einem aus der Chatregisterkarte gestarteten Video- oder Audioanruf | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2 GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
