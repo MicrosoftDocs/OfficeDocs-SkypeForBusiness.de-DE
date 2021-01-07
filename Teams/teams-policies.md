@@ -14,7 +14,6 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Informationen zur Verwendung und Verwaltung von Teamrichtlinien in Ihrer Organisation, damit Sie steuern können, wozu Benutzer in Teams und Kanälen berechtigt sind.
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
-ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
+description: Informationen zur Verwendung und Verwaltung von Teamrichtlinien in Ihrer Organisation, damit Sie steuern können, wozu Benutzer in Teams und Kanälen berechtigt sind.
+ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
+ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48297373"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772023"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
@@ -46,7 +46,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 
     ![Screenshot der Richtlinieneinstellungen für Teams](media/teams-policies.png)
-4. Aktivieren oder deaktivieren Sie **private Kanäle erstellen**, <a name="createchannels"> </a> je nachdem, ob Sie Benutzern das Erstellen privater Kanäle gestatten möchten.
+4. Aktivieren oder deaktivieren Sie **private Kanäle erstellen**, <a name="createchannels"></a> je nachdem, ob Sie Benutzern das Erstellen privater Kanäle gestatten möchten.
 
 5. Klicken Sie auf **Speichern**.
 
@@ -66,4 +66,6 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstel
 
 [Private Kanäle in Teams](private-channels.md)
 
-[Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)
+[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+
+[Neu – CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

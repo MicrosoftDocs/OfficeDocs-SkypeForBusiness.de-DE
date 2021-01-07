@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie benutzerdefinierte apps genehmigen, die mit der APP-Übermittlungs-API von Teams in Microsoft Teams gesendet werden.
-ms.openlocfilehash: 5b6c8512943527a82b3477579e535bcc151331c0
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731093"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776886"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten APP, die über die APP-Übermittlungs-API der Teams gesendet wird
 
@@ -47,7 +47,7 @@ Die Microsoft Teams-Entwicklerplattform macht es Entwicklern einfach, ihre eigen
 
 ### <a name="submit-the-app"></a>Übermitteln der APP
 
-Wenn die APP für die Verwendung in der Produktion bereit ist, kann der Entwickler die App mithilfe der APP-Übermittlungs-API für Teams einreichen, die von der <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Diagramm-API</a>, einer integrierten Entwicklungsumgebung (IDE) wie Visual Studio-Code oder einer Plattform wie Power apps und Power Virtual-Agents aufgerufen werden kann. Dadurch wird die APP auf der Seite " <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">apps verwalten</a> " im Microsoft Teams Admin Center zur Verfügung gestellt, wo Sie, der Administrator, Sie überprüfen und genehmigen kann.
+Wenn die APP für die Verwendung in der Produktion bereit ist, kann der Entwickler die App mithilfe der APP-Übermittlungs-API für Teams einreichen, die von der <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">Diagramm-API</a>, einer integrierten Entwicklungsumgebung (IDE) wie Visual Studio-Code oder einer Plattform wie Power apps und Power Virtual-Agents aufgerufen werden kann. Dadurch wird die APP auf der Seite " <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">apps verwalten</a> " im Microsoft Teams Admin Center zur Verfügung gestellt, wo Sie, der Administrator, Sie überprüfen und genehmigen kann.
 
 Die <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">auf Microsoft Graph integrierte</a>API für die APP-Übermittlung von Teams ermöglicht es Ihrer Organisation, sich auf der Plattform Ihrer Wahl zu entwickeln und den Prozess der Übermittlung von Genehmigungen für benutzerdefinierte apps in Teams zu automatisieren.
 
