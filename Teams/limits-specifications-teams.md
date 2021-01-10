@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
+ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776846"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49786787"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -51,7 +51,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 <sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgenommen.
 
-<sup>2</sup> Diese Beschränkung umfasst archivierte Teams. Um mehr als die maximal zulässige Anzahl von Teams in einer Microsoft 365- oder Office 365-Organisation verwenden zu können, müssen Sie sich an den Microsoft-Support wenden.
+<sup>2</sup> Diese Beschränkung umfasst archivierte Teams. Wenn Sie mehr als die maximale Anzahl von Teams verwenden möchten, über die eine Microsoft 365- oder Office 365-Organisation verfügen kann, müssen Sie den Microsoft-Support kontaktieren und eine weitere Erhöhung der Anzahl von Azure Active Directory-Objekten in Ihrem Mandanten beantragen.
 
 <sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal samt seiner Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
 
