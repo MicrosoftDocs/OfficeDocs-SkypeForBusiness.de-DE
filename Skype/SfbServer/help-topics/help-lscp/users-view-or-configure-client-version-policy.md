@@ -1,8 +1,8 @@
 ---
-title: Benutzer anzeigen oder Konfigurieren der Client Versionsrichtlinie
+title: Benutzer können Clientversionsrichtlinien anzeigen oder konfigurieren
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: c5c7f761f1cdd2fb44e81a9b751b23c91deb9691
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: cc48eb4f76741ac67aa48c96b485cd23579ace80
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821777"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800325"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Clientversionsrichtlinien
+# <a name="users-view-or-configure-client-version-policy"></a>Benutzer: Anzeigen oder Konfigurieren einer Clientversionsrichtlinie
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Angeben von Client Versionen, die für die Anmeldung von einem Benutzer unterstützt werden](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [Angeben von Clientversionen, die für die Anmeldung durch einen Benutzer unterstützt werden](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
 

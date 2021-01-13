@@ -1,8 +1,8 @@
 ---
-title: Hinzufügen der IP-Adresse des Edgeservers – Optionen
+title: Hinzufügen der IP-Adresse des Edgeservers – Optionen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Mit Skype for Business Server können Sie IPv4-und IPv6-Adressen für jede Schnittstelle für den Edge-Server und den Edge-Pool konfigurieren. Gehen Sie dazu wie folgt vor:'
-ms.openlocfilehash: 5b63847f3044411dcb8e04e29eea21492597993d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Mit Skype for Business Server können Sie IPv4- und -IPv6-Adressen für jede Schnittstelle für den Edgeserver und edgepool konfigurieren. Gehen Sie hierzu folgendermaßen vor:'
+ms.openlocfilehash: f940e0480c51b1a2541386401a71f0d7d9818566
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798202"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801075"
 ---
-# <a name="add-edge-server-ip-options"></a>Hinzufügen der IP-Adresse des Edgeservers – Optionen
+# <a name="add-edge-server-ip-options"></a>Hinzufügen der IP-Adresse des Edgeservers – Optionen
  
-Mit Skype for Business Server können Sie IPv4-und IPv6-Adressen für jede Schnittstelle für den Edge-Server und den Edge-Pool konfigurieren. Gehen Sie dazu wie folgt vor:
+Mit Skype for Business Server können Sie IPv4- und -IPv6-Adressen für jede Schnittstelle für den Edgeserver und edgepool konfigurieren. Gehen Sie hierzu folgendermaßen vor:
   
-- **Aktivieren von IPv4 auf interner Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf die interne Schnittstelle des Edge-Servers oder des Edge-Pools anwenden möchten.
+- **IPv4 für interne Schnittstelle** aktivieren: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf die interne Schnittstelle des Edgeservers oder Edgepools anwenden möchten.
     
-- **Aktivieren von IPv6 auf interner Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf die interne Schnittstelle des Edge-Servers oder des Edge-Pools anwenden möchten.
+- **IPv6** für interne Schnittstelle aktivieren: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf die interne Schnittstelle des Edgeservers oder Edgepools anwenden möchten.
     
-- **Aktivieren von IPv4 auf externer Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf die externe Schnittstelle des Edge-Servers oder des Edge-Pools anwenden möchten.
+- **IPv4 für externe** Schnittstelle aktivieren: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf die externe Schnittstelle des Edgeservers oder Edgepools anwenden möchten.
     
-- **Aktivieren von IPv6 auf einer externen Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf die externe Schnittstelle des Edge-Servers oder des Edge-Pools anwenden möchten.
+- **IPv6 für externe** Schnittstelle aktivieren: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf die externe Schnittstelle des Edgeservers oder Edgepools anwenden möchten.
     
-Sie können auch den Edgeserver oder den Edge-Pool so konfigurieren, dass für die externen IP-Adressen eine Adresse für die Netzwerkadressübersetzung verwendet wird. Aktivieren Sie dazu das Kontrollkästchen, um **die externe IP-Adresse dieses Edge-Pools von NAT zu übersetzen**.
+Sie können den Edgeserver oder Edgepool auch so konfigurieren, dass eine Netzwerkadressenübersetzungsadresse für die externen IP-Adressen verwendet wird. Dazu aktivieren Sie einfach das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der Netzwerkadressenübersetzung übersetzt**.
   
-NAT-Unterstützung. Netzwerkadressübersetzung (Network Address Translation, NAT) wird nicht unterstützt, wenn Sie den Hardwarelastenausgleich verwenden, wählen Sie daher die Option NAT nicht aus, wenn Sie einen Edgeserver-Pool mit Hardwarelastenausgleich bereitstellen.
+NAT-Unterstützung. Die Netzwerkadressenübersetzung (Network Address Translation, NAT) wird bei Verwendung des Hardwarelastenausgleichs nicht unterstützt. Wählen Sie daher nicht die NAT-Option aus, wenn Sie einen Edgeserverpool mit Hardwaregerät zum Lastenausgleich bereitstellen.
   
 

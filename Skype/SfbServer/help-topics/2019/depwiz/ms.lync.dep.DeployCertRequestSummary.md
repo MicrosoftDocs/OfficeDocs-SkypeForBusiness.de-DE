@@ -1,8 +1,8 @@
 ---
-title: Zertifikatsanforderung (Zusammenfassung)
+title: Zertifikatanforderung (Zusammenfassung)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Seite Zusammenfassung über Zertifikatsanforderungen enthält eine detaillierte Übersicht aller Optionen und Konfigurationen für das Zertifikat. Die Zusammenfassung enthält den Inhalt der Zertifikatsanforderung und Informationen zur Ausstellung des Zertifikats. Überprüfen Sie die Zusammenfassung sorgfältig, um sicherzustellen, dass alle ausgewählten Einträge und Optionen ordnungsgemäß sind. Wenn die gewählten Optionen ordnungsgemäß sind, klicken Sie auf Weiter, um die Erstellung der Anforderung fortzusetzen und diese für das Senden an die Zertifizierungsstelle vorzubereiten.
-ms.openlocfilehash: e8084072971de256414711057ab7c4e29646f70a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Die Seite Zertifikatsanforderungszusammenfassung zeigt eine detaillierte Übersicht aller Optionen und Konfigurationen für das Zertifikat. Die Zusammenfassung enthält den Inhalt der Zertifikatsanforderung und Informationen zu seiner Ausstellung. Überprüfen Sie die Zusammenfassung sorgfältig, um sicherzustellen, dass alle ausgewählten Einträge und Optionen korrekt sind. Wenn Ihre Auswahl richtig ist, klicken Sie auf "Weiter", um mit der Generierung der Anforderung fortzufahren und sie für das Senden an die Zertifizierungsstelle vorzubereiten.
+ms.openlocfilehash: 216465d78caed2ab2a181faf9bc5a67202f479bf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794253"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801765"
 ---
-# <a name="certificate-request-summary"></a>Zertifikatsanforderung (Zusammenfassung)
+# <a name="certificate-request-summary"></a>Zertifikatanforderung (Zusammenfassung)
  
-Die Seite **Zusammenfassung über Zertifikatsanforderungen** enthält eine detaillierte Übersicht aller Optionen und Konfigurationen für das Zertifikat. Die Zusammenfassung enthält den Inhalt der Zertifikatsanforderung und Informationen zur Ausstellung des Zertifikats. Überprüfen Sie die Zusammenfassung sorgfältig, um sicherzustellen, dass alle ausgewählten Einträge und Optionen ordnungsgemäß sind. Wenn die gewählten Optionen ordnungsgemäß sind, klicken Sie auf **Weiter**, um die Erstellung der Anforderung fortzusetzen und diese für das Senden an die Zertifizierungsstelle vorzubereiten.
+Die Seite **Zertifikatsanforderungszusammenfassung** zeigt eine detaillierte Übersicht aller Optionen und Konfigurationen für das Zertifikat. Die Zusammenfassung enthält den Inhalt der Zertifikatsanforderung und Informationen zu seiner Ausstellung. Überprüfen Sie die Zusammenfassung sorgfältig, um sicherzustellen, dass alle ausgewählten Einträge und Optionen korrekt sind. Wenn Ihre Auswahl richtig ist, klicken Sie auf **"Weiter",** um mit der Generierung der Anforderung fortzufahren und sie für das Senden an die Zertifizierungsstelle vorzubereiten.
   
 
