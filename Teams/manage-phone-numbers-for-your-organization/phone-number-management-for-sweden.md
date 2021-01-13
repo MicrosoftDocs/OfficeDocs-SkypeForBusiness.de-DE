@@ -1,7 +1,7 @@
 ---
-title: Telefonnummern Verwaltung für Schweden
-author: LanaChin
-ms.author: v-lanac
+title: Telefonnummernverwaltung für Schweden
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,27 +18,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Schweden für Microsoft Teams zu finden.
-ms.openlocfilehash: bcd94680a7f03818c2b127aeb898390f12b77323
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
+ms.openlocfilehash: 6dc156b475e1cd2d38d314552cdaf19873d0a40a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361685"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822785"
 ---
-# <a name="phone-number-management-for-sweden"></a>Telefonnummern Verwaltung für Schweden
+# <a name="phone-number-management-for-sweden"></a>Telefonnummernverwaltung für Schweden
 
-Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Schweden für Microsoft Teams zu finden. 
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams. 
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Neue Telefonnummern Anfrage für Schweden (v. 5.0) (SV-SE)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [Neue Telefonnummern Anfrage für Schweden (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).|
-Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> |Dieses Formular herunterladen. <br/>[Letter of Authorization (LoA) für Schweden (alle Nummern) (v. 5.0) (SV-SE)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf?raw=true)<br/><br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/> |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Erstellen von Verzeichnisdienst Updates für Anrufe in Warteschlangen-oder automatische Telefonzentralen Nummern|Wenden Sie sich zum Hinzufügen oder Ändern von Rufnummern für die Anrufwarteschlange oder automatische Telefonzentrale an [den PSTN-Service-Desk](contact-pstn-service-desk.md). |
+|Holen Sie sich neue Telefonnummern für Benutzer oder Dienste, die im Microsoft Teams Admin Center nicht aufgelistet sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Neue Telefonnummernanforderung für Schweden (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [Neue Telefonnummernanforderung für Schweden (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).|
+Übertragen Sie uns Telefonnummern.  <br/> |Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Schweden (alle Nummern) (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf?raw=true)<br/><br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/> |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
+|Ändern Sie die Nummer eines Benutzers in eine Servicenummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatischen Telefonwarteschleifennummern|Wenden Sie sich an den PSTN-Servicedesk, um Rufnummern in der Anrufwarteschleife oder der [automatischen Telefonwarteschlange hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
 
 
 ## <a name="related-topics"></a>Verwandte Themen
@@ -49,5 +49,5 @@ Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> |Dieses For
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
   
-[Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
+[Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
  

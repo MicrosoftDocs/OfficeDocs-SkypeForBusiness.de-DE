@@ -1,13 +1,13 @@
 ---
-title: Erste Besprechung – Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Besprechung zuerst – Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: francoid
-description: Informieren Sie sich zuerst über Besprechungen, in denen Benutzer Ihre Besprechung in Teams erstellen können, während Sie weiterhin Skype for Business für Chats, Anrufe und Anwesenheitsinformationen verwenden.
+description: Erfahren Sie zuerst mehr über Besprechungen, in denen Benutzer ihre Besprechung in Teams erstellen und Skype for Business weiterhin für Chat, Anrufe und Anwesenheit verwenden können.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,106 +19,106 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868472"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809505"
 ---
 # <a name="meetings-first"></a>Besprechungen zuerst
 
-"Meetings First" richtet sich an und optimiert für Skype for Business Server-Organisationen mit Enterprise-VoIP auf Räumlichkeiten, die so schnell wie möglich mit der Verwendung von Teams-Besprechungen beginnen möchten. Für diese Organisationen ist "Besprechungen" zunächst eine Alternative zur Verwendung des **Inseln** -Modus, der die Teambesprechungen priorisiert.
+"Meetings First" ist für Skype for Business Server-Organisationen mit Enterprise-VoIP lokal ausgerichtet und optimiert, die mit der Nutzung von Teambesprechungen so schnell wie möglich beginnen möchten. Für diese Organisationen ist "Meetings First" eine Alternative zum **Islands-Modus,** der die Besprechungserfahrung in Teams priorisiert.
 
-## <a name="what-is-meetings-first"></a>Was sind Besprechungen zuerst?
+## <a name="what-is-meetings-first"></a>Was ist Besprechungen zuerst?
 
-Besprechungen basieren zunächst auf dem **SfBWithTeamsCollabAndMeetings** -Koexistenzmodus. Besprechungen sind zunächst kein Produkt oder Feature – Es handelt sich um eine Konfiguration, die Funktionen und Funktionen von Teams und Skype for Business nutzt, um eine einzigartig maßgeschneiderte Koexistenz-Erfahrung bereitzustellen.
+"Meetings First" basiert auf dem **Koexistenzmodus "SfBWithTeamsCollabAndMeetings".** Besprechungen sind weder ein Produkt noch ein Feature – es handelt sich um eine Konfiguration, bei der die Funktionen und Funktionen von Teams und Skype for Business genutzt werden, um eine einzigartige Koexistenzerfahrung zu bieten.
 
-In Besprechungen erstellen Benutzer zunächst Ihre Besprechung in Teams, während Sie weiterhin Skype for Business für Chats, Anrufe und Anwesenheitsinformationen verwenden. Es gibt keine Überlappung der Modalitäten zwischen Teams und Skype for Business. Chats, Anrufe und Anwesenheitsinformationen sind in Skype for Business und offline in Teams aktiviert. Dies ermöglicht einzigartige "bessere Zusammenarbeit"-Szenarien zwischen Skype for Business und Teams, die die Benutzererfahrung während der Koexistenz verbessern, sowie Interoperabilitätsszenarien mit **nur Teams** -Benutzern.
+In "Besprechungen zuerst" erstellen Benutzer ihre Besprechung in Teams, während sie Skype for Business weiterhin für Chat, Anrufe und Anwesenheit verwenden. Es gibt keine Überlappung der Modalitäten zwischen Teams und Skype for Business. Chat, Anrufe und Anwesenheit sind in Skype for Business und in Teams deaktiviert. Dies ermöglicht eindeutige Szenarien für eine "bessere Zusammenarbeit" zwischen Skype for Business und Teams, die die Benutzerfreundlichkeit während der Koexistenz verbessern, sowie Interoperabilitätsszenarien mit **Teams Only-Benutzern.**
 
-![Screenshot des Szenarios "besser zusammen" mit Teams und Skype for Business](media/meetings-first-meeting-in-meeting.png)
+![Screenshot des Szenarios "Zusammen besser zusammen" mit Teams und Skype for Business](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
-> Besprechungen sind eine bessere Abstimmung für Organisationen, die keine oder nur wenige aktive Team-Chat-Benutzer haben. Aktive Teams Chat-Nutzer sollten nicht auf den ersten Modus von Besprechungen umgestellt werden, da Sie die Möglichkeit verlieren, in Teams zu chatten und auf Ihr Chat-Protokoll zuzugreifen. Diese Benutzer sollten stattdessen im Modus " **Inseln** " untergebracht sein, und Besprechungen werden zunächst nur den Benutzern gewährt, die noch nicht im Chat in Teams aktiv sind.
+> "Besprechungen zuerst" ist eine bessere Übereinstimmung für Organisationen, die nur über wenige aktive Teams-Chatbenutzer verfügen. Aktive Chatbenutzer von Teams sollten nicht in den Besprechungsmodus "First" umgestellt werden, da sie die Möglichkeit zum Chatten in Teams und zum Zugriff auf ihren Chatverlauf verlieren würden. Diese Benutzer sollten stattdessen  im Islands-Modus angezeigt werden, und Besprechungen werden zuerst nur den Benutzern gewährt, die noch nicht in Einem Chat in Teams aktiv sind.
 
-## <a name="who-should-consider-meetings-first"></a>Wer sollte Besprechungen zuerst berücksichtigen?
+## <a name="who-should-consider-meetings-first"></a>Wer sollte Besprechungen zuerst in Erwägung ziehen?
 
-Besprechungen wurden zunächst für Organisationen entwickelt, die Skype for Business Server mit Enterprise-VoIP verwenden, die ihren Wechsel zu Teams-Besprechungen beschleunigen möchten, insbesondere für Personen mit starker IT-Disziplin, die einen verwalteten, deterministischen Upgrade-Pfad für Teams wünschen.
+Meetings First wurde für Organisationen entwickelt, die Skype for Business Server mit Enterprise-VoIP verwenden, die ihren Wechsel zu Teambesprechungen beschleunigen möchten, insbesondere für Organisationen mit starkem IT-Disziplin, die einen verwalteten, deterministischen Upgradepfad zu Teams wünschen.
 
-Für komplexe oder große Organisationen werden sprach Migrationen in der Regel auf der Grundlage von Websites durchgeführt, die möglicherweise lange dauern, potenziell mehrere Jahre, was zu erweiterten Koexistenz-Szenarien führt. Wenn sich die Koexistenz im Modus " **Inseln** " befindet, haben Benutzer immer die Wahl zwischen zwei Besprechungs Lösungen (Skype for Business und Teams), die zu verwirrenden oder suboptimalen Situationen führen können. Im Gegensatz zu sprach Migrationen können Besprechungs Migrationen im Allgemeinen innerhalb kürzester Zeit im gesamten Unternehmen durchgeführt werden. Organisationen, die so schnell wie möglich zu Teams-Besprechungen wechseln möchten (und ohne darauf zu warten, dass die Sprach Migration abgeschlossen ist), sollten zuerst Besprechungen in Frage stellen.
+Bei komplexen oder großen Organisationen erfolgen Sprachmigrationen in der Regel websiteintern und können sehr lange, potenziell mehrere Jahre dauern, was zu erweiterten Koexistenzszenarien führt. Wenn diese Koexistenz im Modus "Inseln" ausgeführt wird, haben Benutzer immer die Wahl zwischen zwei Besprechungslösungen (Skype for Business und Teams), was zu einer verwirrenden oder suboptimalen Situation führen kann.  Im Gegensatz zu Sprachmigrationen können Besprechungsmigrationen im Allgemeinen innerhalb kurzer Zeit im gesamten Unternehmen abgeschlossen werden. Organisationen, die so schnell wie möglich vollständig zu Teambesprechungen wechseln möchten (und ohne auf den Abschluss ihrer Sprachmigration warten zu müssen), sollten Besprechungen zuerst in Betracht ziehen.
 
-Besprechungen sind für Organisationen, die keine Enterprise-VoIP-Benutzer haben, zunächst möglicherweise nicht hilfreich. Diese Organisationen sollten in der Lage sein, **nur auf Teams** zu aktualisieren, sobald Sie in der Lage sind, Teambesprechungen zu übernehmen. Sie sollten zuerst Besprechungen überspringen.
+Besprechungen zuerst sind für Organisationen, die keine Benutzer haben, möglicherweise Enterprise-VoIP nützlich. Diese Organisationen sollten nur in der Lage sein, ein Upgrade auf **Teams** zu durchführen, sobald sie in der Lage sind, Teambesprechungen zu übernehmen. Sie sollten überlegen, Besprechungen zuerst zu überspringen.
 
-Darüber hinaus sind Besprechungen zunächst hilfreich für Organisationen, deren Umfang eine reine Besprechungs Lösung ist, beispielsweise, wenn eine Ausschreibung "nur für Besprechungen" ausgestellt wird.
+Darüber hinaus ist "Besprechungen zuerst" nützlich für Organisationen, deren Bereich eine rein spielbare Besprechungslösung ist, z. B. wenn eine "nur für Besprechungen" bestimmte Angebotsanforderung ausgegeben wird.
 
 ## <a name="capabilities-in-meetings-first"></a>Funktionen in Besprechungen zuerst
 
-In der Besprechung werden zunächst die folgenden Funktionen zusammengeführt:
+Meeting First bringt die folgenden Funktionen zusammen:
 
-- [Bereitstellen eines Skype for Business Server-Benutzers (lokal)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) mit [Teams-Audiokonferenzen](tutorial-audio-conferencing.yml).
-- [Migrationsdienst für Besprechungen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): die vom Benutzer organisierten Besprechungen werden in die Cloud migriert und in Teams-Besprechungen konvertiert, während der Benutzer zuerst zu Besprechungen heraufgestuft wird (erfordert Exchange Online).
-- Optimierte Benutzererfahrung in Teams, zentriert auf Teams-Besprechungen und Teams und Kanäle (die optional mithilfe der [App-Berechtigungsrichtlinie](teams-app-permission-policies.md)ausgeblendet werden können) [Private Chats, Anrufe und selbst Anwesenheit von Teams](teams-client-experience-and-conformance-to-coexistence-modes.md) werden in Besprechungen nicht zuerst verfügbar gemacht, wodurch sich die Bereitstellung und Einführung in vollem Umfang auf Besprechungen konzentrieren kann.
-- Überlegene [Teams-Besprechungs Erfahrung](tutorial-meetings-in-teams.yml).
-- "Besser zusammen" zwischen Teams und Skype for Business: 
-  - Automatischer Halt: Wenn Sie in einer Besprechung in Teams in einem Anruf in Skype for Business sind, wird die Teams-Besprechung in Wartestellung gesetzt, und umgekehrt. Dadurch wird verhindert, dass Benutzer private Anrufe von den Besprechungsteilnehmern über hören.
-    ![Screenshot des Szenarios "besser zusammen" mit Teams und Skype for Business](media/meetings-first-better-together-hold.png)
-  - Anwesenheits Abstimmung: die Aktivität in Teams spiegelt sich in der Anwesenheit des Benutzers wider, also bei der Anwesenheit von Skype for Business, da sich Chats und Anrufe in Skype for Business befinden. Insbesondere werden die Anwesenheitsinformationen für Besprechungen, in denen sich die ersten Benutzer in einer Teams-Besprechung befinden, entsprechend aktualisiert. Wenn der Bildschirm angezeigt wird, wird sein Anwesenheitsstatus auf "nicht stören" (basierend auf den Einstellungen in Skype for Business) aktualisiert.
-  - Überprüfung des HID-Steuerelements für USB-Geräte (auch auf dem Mac verfügbar): die HID-Steuerelemente werden von Teams in Teams-Besprechungen und von Skype for Business unter allen anderen Umständen berücksichtigt.
-  - Sofern nicht anders angegeben, erfordern die Funktionen für eine bessere Zusammenarbeit aktuelle Windows-Desktop Clients zu diesem Zeitpunkt.
+- [Bereitstellen eines (lokalen) Skype for Business Server-Benutzers](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) mit [Teams-Audiokonferenzen.](tutorial-audio-conferencing.yml)
+- [Migrationsdienst](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)für Besprechungen: Vom Benutzer organisierte Besprechungen werden in die Cloud migriert und in Teambesprechungen konvertiert, wenn der Benutzer zuerst zu "Besprechungen" heraufgestuft wird (erfordert Exchange Online).
+- Optimierte Benutzeroberfläche in Teams, zentriert auf Teambesprechungen sowie Teams und Kanälen (die optional mithilfe der Richtlinie für [App-Berechtigungen ausgeblendet werden können);](teams-app-permission-policies.md) [Private Chats, Anrufe und Selbstanrufe](teams-client-experience-and-conformance-to-coexistence-modes.md) in Teams werden in Besprechungen zuerst nicht verfügbar gemacht, was es den Bereitstellungs- und Einführungsaufwand ermöglicht, sich vollständig auf Besprechungen zu konzentrieren.
+- [Besprechungserfahrung in Superior Teams.](tutorial-meetings-in-teams.yml)
+- "Better Together" zwischen Teams und Skype for Business: 
+  - Automatisches Halten: Wenn Sie in einer Besprechung in Teams einen Anruf in Skype for Business führen, wird die Besprechung in der Warteschleife halten und umgekehrt. Dadurch wird verhindert, dass Benutzer ihre privaten Anrufe von den Besprechungsteilnehmern überhören.
+    ![Screenshot des Szenarios "Zusammen besser zusammen" mit Teams und Skype for Business](media/meetings-first-better-together-hold.png)
+  - Abstimmung über die Anwesenheit: Aktivitäten in Teams werden in den Anwesenheitsinformationen des Benutzers widersspiegelt, bei denen es sich um die Anwesenheitsinformationen von Skype for Business handelt, da sich Chats und Anrufe in Skype for Business befinden. Insbesondere, wenn sich "Meetings First"-Benutzer in einer Teambesprechung befinden, werden deren Anwesenheit aktualisiert, um dies widerspiegeln zu können. Wenn sie ihren Bildschirm präsentieren, wird ihr Anwesenheitsmodus aktualisiert, um "Nicht stören" anzuzeigen (basierend auf ihren Einstellungen in Skype for Business).
+  - Abstimmung über das USB-Gerät-HID-Steuerelement (auch auf dem Mac verfügbar): Die Steuerelemente werden von Teams in Teambesprechungen und unter allen anderen Umständen von Skype for Business berücksichtigt.
+  - Sofern nicht anders angegeben, sind für Better Together-Funktionen aktuelle Windows-Desktopclients zu diesem Zeitpunkt erforderlich.
 
 ## <a name="prerequisites-for-meetings-first"></a>Voraussetzungen für Besprechungen zuerst
 
-Die einzigen harten Anforderungen für Besprechungen sind die gleichen wie die Anforderungen für Teams mit lokalem Active Directory und einer lokalen Bereitstellung von Skype for Business:
+Die einzigen schwierigen Anforderungen für "Besprechungen zuerst" sind dieselben wie die Anforderungen für Teams mit lokalem Active Directory und einer lokalen Skype for Business-Bereitstellung:
 
-- [Allgemeine Voraussetzungen für Teams](upgrade-plan-journey-prerequisites.md), einschließlich
-- [Identität und Authentifizierung in Teams](identify-models-authentication.md) und
-- [Konfigurieren Sie Azure Active Directory für Teams und Skype for Business](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect).
+- [Allgemeine Voraussetzungen für Teams,](upgrade-plan-journey-prerequisites.md)einschließlich
+- [Identität und Authentifizierung in Teams und](identify-models-authentication.md)
+- [Konfigurieren Sie Azure Active Directory für Teams und Skype for Business.](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)
 
-Eine [Skype for Business-Hybrid Topologie](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) ist nicht erforderlich, wird jedoch empfohlen. Einige Funktionen wie der Migrationsdienst für Besprechungen und die Interoperabilität beruhen auf dieser Topologie.
+Eine [Skype for Business-Hybridtopologie](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) ist nicht erforderlich, wird jedoch empfohlen. Einige Funktionen wie Meetings Migration Service und Interoperabilität sind von dieser Topologie angewiesen.
 
-Besprechungen werden zunächst mit einer beliebigen Version des Skype for Business-Servers unterstützt (und bekanntermaßen mit dem nicht mehr unterstützten lync-Server zusammenarbeiten). Es wird mit jedem unterstützten Skype for Business-Client unterstützt, doch für eine bessere Zusammenarbeit ist ein neuer Client erforderlich.
+"Besprechungen zuerst" wird von jeder Version von Skype for Business Server unterstützt (und bekannt dafür, mit dem nicht mehr unterstützten Lync Server zu arbeiten). Es wird von jedem unterstützten Skype for Business-Client unterstützt, für die Better Together-Funktionen ist jedoch ein neuer Client erforderlich.
 
-Sobald diese Anforderungen erfüllt sind (und nicht vor), können die Benutzer [für Microsoft 365 oder Office 365 und Teams lizenziert](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)werden.
+Sobald diese Anforderungen erfüllt sind (und nicht früher), können die Benutzer für [Microsoft 365 oder Office 365 und Teams lizenziert werden.](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)
 
-Für die ersten Erfahrungen mit den besten Besprechungen sollten Benutzer für [Exchange Online](exchange-teams-interact.md), [SharePoint Online und OneDrive for Business](sharepoint-onedrive-interact.md)sowie für die Erstellung von Microsoft 365-Gruppen aktiviert sein. Besprechungen werden zunächst für Benutzer unterstützt, deren Postfach sich lokal in Exchange befindet oder für die keine SharePoint Online-oder OneDrive for Business-oder Microsoft 365-Gruppenerstellung vorhanden ist. Ihre Erfahrung wird jedoch nicht so vollständig sein. Insbesondere für Organisationen, die Exchange Server lokal verwenden, gibt es möglicherweise (abhängig von der Version von Exchange Server) einige Einschränkungen beim Erstellen und Anzeigen von Besprechungen vom Team-Client sowie hinsichtlich der Compliance-Funktionen.
+Für eine optimale Benutzererfahrung bei Besprechungen sollten die Benutzer für [Exchange Online,](exchange-teams-interact.md) [SharePoint Online und OneDrive for Business](sharepoint-onedrive-interact.md)sowie für die Erstellung von Microsoft 365-Gruppen aktiviert sein. "Besprechungen zuerst" wird für Benutzer unterstützt, deren Postfach sich auf einem lokalen #A0 befindet oder die nicht über SharePoint Online, OneDrive for Business oder die Erstellung von Microsoft 365-Gruppen verfügen. Allerdings ist deren Erfahrung weniger vollständig. Insbesondere bei Organisationen, die Exchange Server lokal verwenden, können (je nach Version von Exchange Server) einige Einschränkungen beim Erstellen und Anzeigen von Besprechungen im Teamclient sowie im Hinblick auf Compliancefunktionen gelten.
 
-Benutzer müssen mindestens [für Teams lizenziert](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)sein. Darüber hinaus können Sie bei Bedarf für [Audiokonferenzen](set-up-audio-conferencing-in-teams.md)lizenziert werden.
+Benutzer müssen mindestens für [Teams lizenziert sein.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) Darüber hinaus können sie bei Bedarf für [Audiokonferenzen](set-up-audio-conferencing-in-teams.md)lizenziert werden.
 
-Wir empfehlen, [den **SfBOnly** -oder **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) -Modus als Mandanten Standard zu dem Zeitpunkt zu gewähren, zu dem Sie die Benutzer lizenzieren. Auf diese Weise wird sichergestellt, dass Benutzer keine eigenen Teams im Standardmodus für **Inseln** verwenden, bevor Sie mit der ersten Besprechung beginnen.
+Es wird empfohlen, [ **den Modus SfBOnly** oder **SfBWithTeamsCollab**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) zum Zeitpunkt der Lizenz für die Benutzer als Mandanten standard zu gewähren. Dadurch wird sichergestellt, dass Benutzer Teams nicht  allein im Standardmodus "Islands" verwenden, bevor Sie bereit sind, zuerst Besprechungen zu starten.
 
-Besprechungen werden zuerst auf vollständigen Desktop Clients (Windows und Mac), auf Browserclients und auf mobilen Clients unterstützt. Sie ist auch mit [Microsoft Teams-Räumen](https://docs.microsoft.com/microsoftteams/room-systems/)kompatibel. Für eine bessere Zusammenarbeit ist der vollständige Desktop Client erforderlich.
+"Besprechungen zuerst" wird auf vollständigen Desktopclients (Windows und Mac), auf Browserclients und auf mobilen Clients unterstützt. Sie ist auch mit [Microsoft Teams Rooms kompatibel.](https://docs.microsoft.com/microsoftteams/room-systems/) Better Together erfordert den vollständigen Desktopclient.
 
 ## <a name="prepare-for-teams-meetings-in-meetings-first"></a>Vorbereiten von Teambesprechungen in Besprechungen zuerst
 
-Damit Ihre Benutzer die bestmögliche Erfahrung in Teambesprechungen haben, sollten Sie Folgendes tun:
+Damit Ihre Benutzer in Teambesprechungen die bestmögliche Erfahrung haben, sollten Sie:
 
-- Führen Sie die Schritte in [Besprechungen und Konferenzen für Microsoft Teams](deploy-meetings-microsoft-teams-landing-page.md)aus, insbesondere.
-- [Bewerten Sie Ihre Umgebung](3-envision-evaluate-my-environment.md).
-- [Bereiten Sie das Netzwerk Ihrer Organisation für Microsoft Teams](prepare-network.md)vor.
-- Aktualisieren Sie Ihre Besprechungsräume mit teamfähigen [Besprechungsraum Geräten und-Lösungen](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), oder verwenden Sie [Cloud-Video-Interop für Microsoft Teams](cloud-video-interop.md) , damit Ihre vorhandenen Drittanbieter Räume und-Geräte an Teams-Besprechungen teilnehmen können.
-- Rüsten Sie Ihre Benutzer mit [zertifizierten USB-Audio-und-Videogeräten](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)aus.
-- Vorbereiten der [Sensibilisierung und Akzeptanz für Teams-Besprechungen](adopt-microsoft-teams-landing-page.md)
-- [Planen Sie Ihr Dienstmanagement](4-envision-plan-my-service-management.md).
-- Machen Sie sich mit den reichen anrufanalyse Berichten vertraut, um eine [schlechte Anrufqualität zu beheben](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+- Führen Sie insbesondere die Schritte in [Besprechungen und](deploy-meetings-microsoft-teams-landing-page.md)Konferenzen für Microsoft Teams aus.
+- [Bewerten Sie Ihre Umgebung.](3-envision-evaluate-my-environment.md)
+- [Bereiten Sie das Netzwerk Ihrer Organisation für Microsoft Teams vor.](prepare-network.md)
+- Aktualisieren Sie Ihre Besprechungsräume mit Teams-fähigen Besprechungsraumgeräten und [-lösungen,](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)oder verwenden Sie Cloud Video Interop für Microsoft [Teams,](cloud-video-interop.md) um Ihren vorhandenen Räumen und Geräten von Drittanbietern die Teilnahme an Teambesprechungen zu ermöglichen.
+- Bestatten Sie Ihre Benutzer [mit zertifizierten USB-Audio- und -Videogeräten.](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- Bereiten Sie sich darauf [vor, das Bewusstsein für Teambesprechungen zu fördern und die Einführung zu fördern.](adopt-microsoft-teams-landing-page.md)
+- [Planen Sie die Dienstverwaltung.](4-envision-plan-my-service-management.md)
+- Machen Sie sich mit den reichhaltigen Anrufanalyseberichten vertraut, um [Probleme mit einer schlechten Anrufqualität zu beheben.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-In diesem Schritt sollten Sie in der Lage sein, ein Pilotprojekt mit mittlerer Serienreife zu führen.
+Sie können in dieser Phase ein Pilotprojekt mit mittlerem Produktionsmaßstab in Betracht ziehen.
 
-## <a name="configure-users-for-meetings-first"></a>Benutzer für Besprechungen zuerst konfigurieren
+## <a name="configure-users-for-meetings-first"></a>Konfigurieren von Benutzern für Besprechungen zuerst
 
-Nachdem Sie Ihre Benutzer lizenziert und Ihre Organisation für Teams-Besprechungen vorbereitet haben, ist es an der Zeit, Ihre Benutzer zuerst für Besprechungen zu aktivieren. Wir haben es ganz einfach gemacht: eine einzige Einstellung bietet alles!
+Nachdem Sie Ihre Benutzer lizenziert und Ihre Organisation für Teambesprechungen vorbereitet haben, ist es an der Zeit, Ihre Benutzer zuerst für Besprechungen zu aktivieren. Wir haben es ihnen leicht gemacht: Mit einer einzigen Einstellung ist alles möglich!
 
-Alle Funktionen und Benutzeroberflächen in Besprechungen, einschließlich der Clientkonfiguration für Teams und der [automatischen Konformität](teams-client-experience-and-conformance-to-coexistence-modes.md) der Benutzeroberfläche, des Migrations Diensts für Besprechungen und besserer Zusammenarbeit, werden konfiguriert, indem der Benutzer (oder die Gruppe von Benutzern oder Mandanten Standard) der [SfBWithTeamsCollabAndMeetings-Koexistenzmodus](setting-your-coexistence-and-upgrade-settings.md) entweder im [Microsoft Teams Admin Center](manage-teams-in-modern-portal.md) oder mithilfe von [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)gewährt wird.
+Alle Funktionen und Benutzeroberflächen in "Meetings First", einschließlich der [Teams-Clientkonfiguration](teams-client-experience-and-conformance-to-coexistence-modes.md) und der automatischen Konformität der Funktionen "Benutzererfahrung", "Meetings Migration Service" und "Better Together", werden konfiguriert, indem dem Benutzer (oder der Benutzergruppe oder dem Mandanten standard) der Koexistenzmodus ["SfBWithTeamsCollabAndMeetings"](setting-your-coexistence-and-upgrade-settings.md) entweder im [Microsoft Teams Admin](manage-teams-in-modern-portal.md) Center oder mithilfe von [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)gewährt wird.
 
-![Screenshot der Administratoreinstellungen, um zuerst Besprechungen zu aktivieren](media/teams-meeting-admin-settings.png)
+![Screenshot der Administratoreinstellungen zum aktivieren von "Besprechungen zuerst"](media/teams-meeting-admin-settings.png)
 
-Wenn Sie die Anwendung Teams und Kanäle aus der linken Navigationsleiste des Benutzer Teams-Clients ausblenden möchten, um Ihre Erfahrungen auf Besprechungen weiter zu konzentrieren, kann dies optional mit der APP- [Berechtigungsrichtlinie](teams-app-permission-policies.md)erreicht werden.
+Optional sollten Sie die Anwendung "Teams und Kanäle" in der linken Navigationsleiste des Teams-Clients Ihrer Benutzer ausblenden, um ihre Erfahrung auf Besprechungen zu konzentrieren, die mithilfe der Richtlinie für Die Berechtigung der App [erreicht werden können.](teams-app-permission-policies.md)
 
-## <a name="reporting-and-call-analytics"></a>Berichterstellung und anrufanalyse
+## <a name="reporting-and-call-analytics"></a>Berichterstellung und Anrufanalyse
 
-Berichterstellung und anrufanalyse für Teams-Besprechungen in Besprechungen werden in den anderen Modi nicht geändert.
+Reporting and Call Analytics for Teams meetings in Meetings First are unchanged from what they are in other modes.
 
-## <a name="related-links"></a>Verwandte Links
+## <a name="related-links"></a>Links zu verwandten Themen
 
-Nachdem Sie diesen Artikel überprüft haben, möchten Sie möglicherweise weitere Informationen über [Ihre Upgrade-Reise](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migrations-und Interoperabilitäts Anleitungen](migration-interop-guidance-for-teams-with-skype.md)sowie die [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md) auswählen.
+Nachdem Sie sich diesen Artikel durchschaut haben, sollten Sie weitere Einzelheiten unter "Upgradeweg [auswählen",](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)Anleitungen zu Migration und [Interoperabilität](migration-interop-guidance-for-teams-with-skype.md)sowie zur Koexistenz mit Skype for [Business](coexistence-chat-calls-presence.md) lesen.
 
 

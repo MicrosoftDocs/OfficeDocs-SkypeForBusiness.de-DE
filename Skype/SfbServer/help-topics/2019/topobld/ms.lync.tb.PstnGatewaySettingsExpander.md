@@ -1,8 +1,8 @@
 ---
-title: PSTN-Gatewayeinstellungen – Erweiterung
+title: PSTN-Gatewayeinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ändern Sie die folgenden Felder, um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:'
-ms.openlocfilehash: 7b0d823a21f2e0e9eb1e75a37365095877885cac
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Ändern Sie die folgenden Felder, um die Einstellungen für ein PstN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:'
+ms.openlocfilehash: c54acc930400f66bb04009a6c40dbcf0a1233100
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794173"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822305"
 ---
-# <a name="pstn-gateway-settings-expander"></a>PSTN-Gatewayeinstellungen – Erweiterung
+# <a name="pstn-gateway-settings-expander"></a>PSTN-Gatewayeinstellungen – Erweiterung
  
-Ändern Sie die folgenden Felder, um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:
+Ändern Sie die folgenden Felder, um die Einstellungen für ein PstN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:
   
-Der FQDN oder die IP-Adresse des Gateways ist ein erforderlicher Eintrag, der festlegt, ob der vollqualifizierte Domänenname (FQDN)**** des PSTN-Gateways über einen DNS-A-Eintrag (Host), einen statischen HOSTS-Dateieintrag oder die IP-Adresse des PSTN-Gateways definiert ist.
+Der FQDN oder die IP-Adresse des Gateways ist ein erforderlicher Eintrag und definiert den vollqualifizierten Domänennamen **(Fully Qualified Domain Name, FQDN)** des PSTN-Gateways gemäß definition durch einen DNS-A-Eintrag (Domain Name System), einen statischen HOST-Dateieintrag oder die IP-Adresse des PSTN-Gateways.
   
-Beim SIP-Transportprotokoll kann es sich um das Transmission Control Protocol (TCP) oder Transport Layer Security (TLS) handeln. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Als Standardeinstellung ist TLS festgelegt, und wenn das Gateway TLS unterstützt, ist dies die Option mit höherer Sicherheit.
+Das SIP-Transport-Protokoll kann entweder TCP (Transmission Control Protocol) oder TLS (Transport Layer Security) sein. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Wenn das Gateway TLS unterstützt, ist die Standardeinstellung "TLS" die Option mit höherer Sicherheit.
   
-Wählen Sie aus, ob für das Gateway IPv4 und IPv6 aktiviert werden soll.
+Wählen Sie aus, ob IPv4 und IPv6 für das Gateway aktiviert werden sollen.
   
-Die **IP-Adresse des alternativen Mediums** ist eine Definition für den Vermittlungs Server, für den das bereitgestellte PSTN-Gateway eine andere IP-Adresse für den Medien Verkehr hat als die standardmäßig konfigurierte IP-Adresse, die normalerweise für den SIP-Datenverkehr reserviert ist. Wenn Sie diesen Parameter definieren, unterstützt das PSTN-Gateway eine andere unterstützt eine andere Netzwerkschnittstelle oder einen anderen Pfad für Medien. Wenn diese Adresse leer bleibt, unterstützt das PSTN-Gateway nicht den alternativen Pfad für Medien.
+Die **alternative Medien-IP-Adresse** ist eine Definition für den Vermittlungsserver, für den das bereitgestellte PSTN-Gateway eine andere IP-Adresse für den Mediendatenverkehr hat als die standardmäßig konfigurierte IP-Adresse, die in der Regel für den SIP-Datenverkehr festgelegt ist. Wenn Sie diesen Parameter definieren, unterstützt das PSTN-Gateway eine andere Netzwerkschnittstelle oder einen anderen Pfad für Medien. Wenn diese Adresse leer bleibt, unterstützt das PSTN-Gateway den alternativen Pfad für Medien nicht.
   
 
