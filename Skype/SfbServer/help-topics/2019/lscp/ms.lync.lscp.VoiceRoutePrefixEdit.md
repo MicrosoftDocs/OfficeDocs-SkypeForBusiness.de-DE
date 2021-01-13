@@ -1,8 +1,8 @@
 ---
 title: Bearbeiten von Präfixen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um Präfixe oder Anfangsziffern zu definieren, fügen Sie die Nummernpräfixe hinzu, die diese Route behandeln soll, einschließlich des + Falls erforderlich. So können Sie beispielsweise alle Zahlen abgleichen, die mit + 123 beginnen.
-ms.openlocfilehash: 7b404fed1dd7b5c13e6685a73eb0c4fb8b8bd380
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Um Präfixe oder Anfangsziffern zu definieren, fügen Sie Nummernpräfixe hinzu, die diese Route verarbeiten soll, einschließlich des +, falls erforderlich. Sie können z. B. alle Zahlen ab +123 nnen.
+ms.openlocfilehash: a78596a9185ebddccdf20ec91b566bedee3df06f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793543"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807875"
 ---
 # <a name="prefix-edit"></a>Bearbeiten von Präfixen
  
-Um Präfixe oder Anfangsziffern zu definieren, fügen Sie die Nummernpräfixe hinzu, die diese Route behandeln soll, einschließlich des + Falls erforderlich. So können Sie beispielsweise alle Zahlen abgleichen, die mit + 123 beginnen.
+Um Präfixe oder Anfangsziffern zu definieren, fügen Sie Nummernpräfixe hinzu, die diese Route verarbeiten soll, einschließlich des +, falls erforderlich. Sie können z. B. alle Zahlen ab +123 nnen.
   
  
   

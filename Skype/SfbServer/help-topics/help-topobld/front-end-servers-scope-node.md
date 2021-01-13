@@ -1,8 +1,8 @@
 ---
 title: Front-End-Server – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: 'Der Knoten Enterprise Edition-Front-End-Pools listet die Front-End-Pools an diesem Standort auf, und auf den Knoten Standard Edition-Front-End-Server werden die Standard Edition-Server an diesem Standort aufgelistet. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 5db7cf65849ad4e1747b0f6eb87fc5750275ea76
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Der Knoten "Front-End-Pools der Enterprise Edition" listet die Front-End-Pools an diesem Standort auf, und auf den Standard Edition-Front-End-Servern sind die Standard Edition-Server an diesem Standort aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 68f4adbe9c407823a530d5a4e2ca6a22d210d08e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215366"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806955"
 ---
-# <a name="front-end-servers-scope-node"></a>Front-End-Server – Bereichsknoten
+# <a name="front-end-servers-scope-node"></a>Front-End-Server – Bereichsknoten
  
-Im Knoten **Front-End-Pools der Enterprise Edition** werden die Front-End-Pools an diesem Standort aufgelistet. Die Knoten vom Typ **Front-End-Server der Standard Edition ** enthalten die Standard Edition-Server an diesem Standort. Folgende Möglichkeiten stehen zur Verfügung:
+Im Knoten **Front-End-Pools der Enterprise Edition** werden die Front-End-Pools an diesem Standort aufgelistet. Die Knoten vom Typ **Front-End-Server der Standard Edition** enthalten die Standard Edition-Server an diesem Standort. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer Front-End-Pool**. Startet den Assistenten zum Definieren eines neuen Front-End-Pools****, mit dem Sie entweder einen neuen Front-End-Pool oder einen Standard Edition-Server zur Topologie hinzufügen.
+- **Neuer Front-End-Pool**. Startet den Assistenten zum Definieren eines neuen Front-End-Pools, mit dem Sie entweder einen neuen Front-End-Pool oder einen Standard Edition-Server zur Topologie hinzufügen.
     
 Zusätzlich sind die folgenden allgemeinen Optionen verfügbar:
   

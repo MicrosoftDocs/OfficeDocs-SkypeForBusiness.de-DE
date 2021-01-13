@@ -1,8 +1,8 @@
 ---
 title: Konfiguration für Zugriffsedge
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: cdf97b935245991ec79184c7d9c7981783f562ba
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: ca97aad16c141623df305ceffd6e13781c1779af
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797706"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808555"
 ---
-# <a name="access-edge-configuration"></a>Konfiguration für Zugriffsedge
+# <a name="access-edge-configuration"></a>Konfiguration für Zugriffs-Edge
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Enable or Disable Remote User Access for Your Organization](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+- [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs für Ihre Organisation](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
 
-- [Enable or Disable Federation for Your Organization](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [Aktivieren oder Deaktivieren des Verbunds für Ihre Organisation](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [Enable or Disable Discovery of Federation Partners](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+- [Aktivieren oder Deaktivieren der Suche von Verbundpartnern](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
 
-- [Enable or Disable Sending an Archiving Disclaimer to Federated Partners](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [Aktivieren oder Deaktivieren des Sendens eines Archivierungsausschlusses an Verbundpartner](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
 
-- [Enable or Disable Anonymous User Access for Your Organization](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [Aktivieren oder Deaktivieren des anonymen Benutzerzugriffs für Ihre Organisation](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [Create or Modify a Conferencing Policy](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
+- [Erstellen oder Ändern einer Konferenzrichtlinie](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
 
 

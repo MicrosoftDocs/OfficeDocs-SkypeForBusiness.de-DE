@@ -1,8 +1,8 @@
 ---
-title: Wählplan "neue erstellen" oder "vorhandene bearbeiten"
+title: Wählplan Erstellen eines neuen oder Bearbeiten eines vorhandenen Wählplans
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 750861c6d709ba9c7dae11fc7fc1ea7f8c403d5d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 8a781336a735ed9fd84f342477cda91e6744af04
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797862"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807925"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a>Wähleinstellungen: Erstellen eines neuen oder Bearbeiten eines vorhandenen Satzes mit Wähleinstellungen
+# <a name="dial-plan-create-new-or-edit-existing"></a>Wählplan: Erstellen eines neuen oder Bearbeiten eines vorhandenen Satzes Wählplans
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen oder Ändern eines Wählplans in Skype for Business Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [Ändern von Wählplänen](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [Ändern von Wähleinstellungen](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
 - [Erstellen oder Ändern einer Normalisierungsregel in Skype for Business](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
