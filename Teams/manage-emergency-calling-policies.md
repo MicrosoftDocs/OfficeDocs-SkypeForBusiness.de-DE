@@ -1,7 +1,7 @@
 ---
-title: Verwalten von Notruf Richtlinien in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Verwalten von Richtlinien für Notrufe in Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,71 +16,71 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie in Microsoft Teams Notruf Richtlinien verwenden und verwalten, um zu definieren, was passiert, wenn ein Team Benutzer in Ihrer Organisation einen Notfall Anruf tätigt.
+description: Erfahren Sie, wie Sie Richtlinien für Notrufe in Microsoft Teams verwenden und verwalten, um zu definieren, was geschieht, wenn ein Teambenutzer in Ihrer Organisation einen Notruf ab anruft.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: ac2c06e9ba93e650909ee776383f1cebd9da1a9d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 1e516252317a0e5f14e705b674255048fb3defb5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217666"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804685"
 ---
-# <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Verwalten von Notruf Richtlinien in Microsoft Teams
+# <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für Notrufe in Microsoft Teams
 
-Wenn Ihre Organisation [Anrufpläne](set-up-calling-plans.md) verwendet oder ein [Direktes Routing für das Telefon System](direct-routing-landing-page.md)bereitgestellt hat, können Sie in Microsoft Teams Notruf Richtlinien verwenden, um zu definieren, was passiert, wenn ein Team Benutzer in Ihrer Organisation einen Notfall Anruf tätigt. Sie können festlegen, welche Personen benachrichtigt werden sollen und wie Sie benachrichtigt werden, wenn ein Benutzer, dem die Richtlinie zugewiesen ist, Notfalldienste aufruft. So können Sie beispielsweise Richtlinieneinstellungen so konfigurieren, dass Sie den Security Desk Ihrer Organisation automatisch benachrichtigen und in Notrufen abhören.  
+Wenn Ihre [](set-up-calling-plans.md) Organisation Anrufpläne oder das bereitgestellte [Telefonsystem-Direct-Routing](direct-routing-landing-page.md)verwendet, können Sie mithilfe von Richtlinien für Notrufe in Microsoft Teams definieren, was geschieht, wenn ein Teambenutzer in Ihrer Organisation einen Notruf ableitet. Sie können festlegen, wer benachrichtigt werden soll und wie er benachrichtigt wird, wenn ein Benutzer, dem die Richtlinie zugewiesen ist, Notdienste anruft. So können Sie beispielsweise Richtlinieneinstellungen so konfigurieren, dass sie das Sicherheitsdesk Ihrer Organisation automatisch benachrichtigen und sie in Notrufen abhören lassen.  
 
-Sie verwalten Notruf Richtlinien, indem Sie **Voice**  >  im Microsoft Teams Admin Center oder mithilfe von Windows PowerShell zu VoIP-**Notfall Richtlinien** wechseln. Die Richtlinien können Benutzern und [Netzwerk Websites](cloud-voice-network-settings.md)zugewiesen werden.
+Sie verwalten Richtlinien für Notrufe, indem Sie zu den **Richtlinien** für Notrufe im Microsoft Teams Admin Center oder mithilfe von  >   Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
 
-Für Benutzer können Sie die globale (organisationsweite Standardrichtlinie) verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Benutzer erhalten automatisch die globale Richtlinie, es sei denn, Sie erstellen eine benutzerdefinierte Richtlinie und weisen diese zu. Beachten Sie, dass Sie die Einstellungen in der globalen Richtlinie bearbeiten, aber nicht umbenennen oder löschen können. Für Netzwerk Websites erstellen und zuweisen Sie benutzerdefinierte Richtlinien.
+Für Benutzer können Sie die globale (organisationsweite Standardrichtlinie) verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Die Benutzer erhalten die globale Richtlinie automatisch, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Denken Sie daran, dass Sie die Einstellungen in der globalen Richtlinie bearbeiten, sie aber nicht umbenennen oder löschen können. Für Netzwerkwebsites erstellen und weisen Sie benutzerdefinierte Richtlinien zu.
 
-Wenn Sie einer Netzwerk Website und einem Benutzer eine Notruf Richtlinie zugewiesen haben und sich dieser Benutzer an dieser Netzwerk Website befindet, überschreibt die der Netzwerk Website zugewiesene Richtlinie die Richtlinie, die dem Benutzer zugewiesen ist.
+Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für Notrufe zugewiesen haben und sich der Benutzer an diesem Netzwerkstandort befindet, setzt die Richtlinie, die der Netzwerkwebsite zugewiesen ist, die dem Benutzer zugewiesene Richtlinie außer Kraft.
 
-## <a name="create-a-custom-emergency-calling-policy"></a>Erstellen einer benutzerdefinierten Notfall Anrufrichtlinie
+## <a name="create-a-custom-emergency-calling-policy"></a>Erstellen einer benutzerdefinierten Richtlinie für Notrufe
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Notfall Richtlinien**, und klicken Sie dann auf die Registerkarte **Anruf Richtlinien** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu "Notfallrichtlinien für Sprachanrufe", und klicken Sie dann auf die Registerkarte  >   **"Anrufrichtlinien".**
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
-4. Legen Sie fest, wie Personen in Ihrer Organisation, in der Regel der Security Desk, benachrichtigt werden sollen, wenn ein Notruf durchgeführt wird. Wählen Sie dazu unter **Benachrichtigungsmodus**eine der folgenden Optionen aus:
-    - **Nur Benachrichtigung senden**: eine Team-Chat-Nachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet.
-    - **Konferenz, aber stumm geschaltet**: eine Team-Chat-Nachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet, und Sie können in der Konversation zwischen dem Anrufer und dem PSAP-Operator lauschen (aber nicht teilnehmen).
-    - **Konferenz-und Stummschaltung (in** **Kürze verfügbar)**: eine Team-Chat-Nachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet, und Sie können die Stummschaltung aufheben, um die Unterhaltung zwischen dem Anrufer und dem PSAP-Operator zu hören und an der Unterhaltung teilzunehmen.
-5.  Wenn Sie den Benachrichtigungsmodus für Konferenzgespräche, **aber stumm geschaltet** ausgewählt haben, können Sie im Feld **Rufnummern für Notrufe** anrufen eine PSTN-Telefonnummer eines Benutzers oder einer Gruppe eingeben, um einen Anruf zu tätigen und am Notruf teilzunehmen. Geben Sie beispielsweise die Nummer des Security Desk Ihrer Organisation ein, der einen Anruf erhält, wenn ein Notruf durchgeführt wird, und dann den Anruf anhören kann.
-6. Suchen Sie nach einem oder mehreren Benutzern oder Gruppen, wie dem Security Desk Ihrer Organisation, um zu benachrichtigen, wenn ein Notruf durchgeführt wird.  Die Benachrichtigung kann an e-Mail-Adressen von Benutzern, Verteilergruppen und Sicherheitsgruppen gesendet werden. Es können maximal 50-Benutzer benachrichtigt werden.
+4. Legen Sie die Art und Weise für die Benachrichtigung von Personen in Ihrer Organisation (in der Regel dem Sicherheitsdesk) für einen Notruf festgelegt. Wählen Sie dazu im **Benachrichtigungsmodus** eine der folgenden Optionen aus:
+    - **Nur Benachrichtigung senden:** Eine Teams-Chatnachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet.
+    - **Konferenz,** aber stummgeschaltet: Eine Chatnachricht in Teams wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet und kann an der Unterhaltung zwischen dem Anrufer und dem Anbieter von PSAP lauschen (aber nicht teilnehmen).
+    -  Konferenzkonferenz und Stummschaltung nicht mehr möglich (in Kürze **verfügbar):** Eine Chatnachricht in Teams wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet und kann die Stummschaltung für die Teilnahme an der Unterhaltung zwischen dem Anrufer und dem Anbieter von PSAP wieder aufklingen.
+5.  Wenn Sie  "Konferenz" ausgewählt haben, aber im  Benachrichtigungsmodus "Stummgeschaltet" sind, können Sie im Feld "Nummern zum Wählen von Notrufbenachrichtigungen" eine Festnetztelefonnummer eines Benutzers oder einer Gruppe eingeben, um den Notruf an- und an dem Notruf teilnehmen zu können. Geben Sie z. B. die Nummer des Sicherheitsdiensts Ihrer Organisation ein, der bei einem Notruf einen Anruf erhält und dann den Anruf anhören kann.
+6. Suchen Sie nach einem oder mehreren Benutzern oder Gruppen, z. B. dem Sicherheitsdesk Ihrer Organisation, und wählen Sie diese aus, um eine Benachrichtigung zu erhalten, wenn ein Notruf erfolgt.  Die Benachrichtigung kann an E-Mail-Adressen von Benutzern, Verteilergruppen und Sicherheitsgruppen gesendet werden. Es können maximal 50 Benutzer benachrichtigt werden.
 7. Klicken Sie auf **Anwenden**.
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Weitere Informationen finden Sie unter [New-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy).
+Siehe ["New-CsTeamsEmergencyCallingPolicy".](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy)
 
-## <a name="edit-an-emergency-calling-policy"></a>Bearbeiten einer Notruf Richtlinie
+## <a name="edit-an-emergency-calling-policy"></a>Bearbeiten einer Richtlinie für Notrufe
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstellte, benutzerdefinierte Richtlinie zuweisen.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP**-  >  **Notfall Richtlinien**, und klicken Sie dann auf die Registerkarte **Anruf Richtlinien** .
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu "Notfallrichtlinien für Sprachanrufe", und klicken Sie dann auf die Registerkarte  >   **"Anrufrichtlinien".**
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
-3. Nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf über **nehmen**.
+3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **"Übernehmen".**
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Weitere Informationen finden Sie unter [Satz-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy).
+Siehe [Set-CsTeamsEmergencyCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy)
 
-## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Zuweisen einer benutzerdefinierten Notfall Anrufrichtlinie für Benutzer
+## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Zuweisen einer benutzerdefinierten Richtlinie für Notrufe zu Benutzern
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Siehe auch [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy).
+Siehe auch [Grant-CsTeamsEmergencyCallingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy)
 
-## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>Zuweisen einer benutzerdefinierten Notfall Anrufrichtlinie zu einer Netzwerk Website
+## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>Zuweisen einer benutzerdefinierten Richtlinie für Notrufe zu einem Netzwerkstandort
 
-Verwenden Sie das Cmdlet " [Satz-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) ", um einer Netzwerk Website eine Notruf Richtlinie zuzuweisen.
+Verwenden Sie [das Cmdlet "Set-CsTenantNetworkSite",](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) um einer Netzwerkwebsite eine Richtlinie für Notrufe zuzuordnen.
 
-Im folgenden Beispiel wird gezeigt, wie der site1-Website eine Richtlinie namens "Contoso Emergency Calling Policy 1" zugewiesen wird.
+Das folgende Beispiel zeigt, wie Sie der Website "Site1" eine Richtlinie namens "Contoso-Notrufrichtlinie 1" zuweisen.
 
 ```powershell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
@@ -88,8 +88,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verwalten von Notfall Anruf Weiterleitungsrichtlinien in Teams](manage-emergency-call-routing-policies.md)
+[Verwalten von Richtlinien für das Routing von Notrufen in Teams](manage-emergency-call-routing-policies.md)
 
 [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 
-[Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md)
+[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)

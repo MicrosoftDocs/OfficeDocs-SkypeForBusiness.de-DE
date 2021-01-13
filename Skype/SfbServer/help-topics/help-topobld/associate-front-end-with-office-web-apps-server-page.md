@@ -1,8 +1,8 @@
 ---
 title: Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-description: Der Office-webappsserver stellt ähnliche Dienste bereit wie ein Referent, der ein Dokument für die Verwendung in einer Besprechung hochgeladen hat, aber zusätzliche Funktionen aktiviert, die in früheren Versionen nicht verfügbar waren.
-ms.openlocfilehash: 68897287041afd23a75d8564d2fed24004313b34
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Der Office Web Apps Server stellt Dienste ähnlich wie ein Presenter zum Hochladen eines Dokuments für die Verwendung in einer Besprechung zur Verfügung, ermöglicht jedoch zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
+ms.openlocfilehash: bb2a6904e6388a06912b12d2786dba751288881c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219526"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818465"
 ---
-# <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
+# <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 
-Der Office-webappsserver stellt ähnliche Dienste bereit wie ein Referent, der ein Dokument für die Verwendung in einer Besprechung hochgeladen hat, aber zusätzliche Funktionen aktiviert, die in früheren Versionen nicht verfügbar waren.
+Der Office Web Apps Server stellt Dienste ähnlich wie ein Presenter zum Hochladen eines Dokuments für die Verwendung in einer Besprechung zur Verfügung, ermöglicht jedoch zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
 
-Sie wählen einen Office-webapps-Server für Ihre Bereitstellung aus, wenn Sie Konferenzen als eine der Feature-Optionen für Ihre Skype for Business Server 2015 Konfiguration ausgewählt haben.
+Sie wählen einen Office Web Apps Server für Ihre Bereitstellung aus, wenn Sie "Konferenzen" als eine Ihrer Featureoptionen für Ihre Skype for Business Server 2015-Konfiguration ausgewählt haben.
 
 Bei den Optionen in diesem Dialogfeld haben Sie die folgenden Auswahlmöglichkeiten:
 
-1. **Verknüpfen eines Pools mit einem Office-webappsserver** : Sie können dieses Kontrollkästchen aktivieren, wenn Sie einen Office-webappsserver für die Konferenzbenutzer bereitstellen und bereitstellen.
+1. **Pool einem Office Web Apps Server** zuordnen – Aktivieren Sie dieses Kontrollkästchen, wenn Sie einen Office Web Apps Server für Ihre Konferenzbenutzer bereitstellen und bereitstellen möchten.
 
 2. Nach dem Aktivieren des Kontrollkästchens verwenden Sie die Liste, um einen bereits definierten Office Web Apps-Server auszuwählen.
 

@@ -1,7 +1,7 @@
 ---
-title: Blockieren von eingehenden Anrufen in Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+title: Blockieren eingehender Anrufe in Microsoft Teams
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -14,92 +14,92 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 3bb1222f0662228e5c0de7b2253cbac162571b1e
-ms.sourcegitcommit: a36514c7c8ea47bde4edb09c11ff99061b1f74c0
+ms.openlocfilehash: ca2f8de5962572a08ab2a0ae7127446d14334c83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094681"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799905"
 ---
-# <a name="block-inbound-calls"></a>Eingehende Anrufe blockieren
+# <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
-Direkte Routing-und Anrufpläne für Telefonsysteme unterstützen das Blockieren von eingehenden Anrufen über das öffentlich geschaltete Telefonnetz (PSTN). Dieses Feature ermöglicht es, eine globale Mandantenliste mit Zahlen Mustern zu definieren, damit die Rufnummernanzeige jedes eingehenden PSTN-Anrufs für den Mandanten anhand der Liste für eine Übereinstimmung überprüft werden kann. Wenn eine Übereinstimmung erfolgt, wird ein eingehender Anruf abgelehnt.
+Telefonsystem-Direct-Routing- und -Anrufpläne unterstützen das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Dieses Feature ermöglicht es, eine globale Mandantenliste mit Zahlenmustern zu definieren, damit die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten mit der Liste auf eine Übereinstimmung überprüft werden kann. Wenn eine Übereinstimmung vorgenommen wird, wird ein eingehender Anruf abgelehnt.
 
-Dieses Feature für eingehende Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf Mandantenebene. Sie steht nicht für einzelne Benutzer zur Verfügung.  
+Dieses Feature zum Blockieren eingehender Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf Mandanten-globaler Basis. Sie steht pro Benutzer nicht zur Verfügung.  
 
 >[!NOTE]
-> Blockierte Anrufer können ein etwas anderes Verhalten erfahren, wenn Sie blockiert wurden. Das Verhalten hängt davon ab, wie der Netzbetreiber des blockierten Anrufers die Benachrichtigung verarbeitet, dass der Anruf nicht erfolgreich abgeschlossen werden darf. Zu den Beispielen kann eine Netzbetreiber Nachricht gehören, die besagt, dass der Anruf nicht wie gewählt durchgeführt werden kann, oder Sie können den Anruf einfach ablegen.
+> Blockierte Anrufer können ein geringfügig anderes Verhalten erleben, wenn sie blockiert wurden. Das Verhalten basiert darauf, wie der Netzbetreiber des blockierten Anrufers die Benachrichtigung verarbeitet, dass der Anruf nicht erfolgreich abgeschlossen werden kann. Beispiele hierfür sind eine Nachricht des Netzbetreibers, die besagt, dass der Anruf nicht als gewählt abgeschlossen werden kann, oder einfach den Anruf ablassen.
 
-## <a name="call-blocking-admin-controls-and-information"></a>Anruf Blockierung von Administrator Steuerelementen und-Informationen
+## <a name="call-blocking-admin-controls-and-information"></a>Anrufblockierung von Administratorsteuerelementen und -informationen
 
-Administrator Steuerelemente für blockierende Nummern werden nur mithilfe von PowerShell bereitgestellt. Zahlenblock Muster werden als reguläre Ausdrucksmuster definiert. Die Reihenfolge der Ausdrücke ist unwichtig – das erste Muster, das in der Liste übereinstimmt, bewirkt, dass der Anruf blockiert wird. Eine neue Nummer oder ein Muster, das in der Liste der blockierten Anrufer hinzugefügt oder entfernt wird, kann bis zu 24 Stunden dauern, bis das Muster aktiv wird.
+Administratorsteuerelemente zum Blockieren von Nummern werden nur mithilfe von PowerShell bereitgestellt. Nummernblockmuster sind als Reguläre Ausdrucksmuster definiert. Die Reihenfolge der Ausdrücke ist unwichtig – das erste Muster, das in der Liste übereinstimmen, führt dazu, dass der Aufruf blockiert wird. Es kann bis zu 24 Stunden dauern, bis eine neue Nummer oder ein neues Muster zur Liste blockierter Anrufer hinzugefügt oder entfernt wird, bis das Muster aktiv wird.
 
-## <a name="call-blocking-powershell-commands"></a>PowerShell-Befehle zum Blockieren von Anrufen
+## <a name="call-blocking-powershell-commands"></a>Befehle zum Blockieren von Aufrufen von PowerShell
 
-Sie verwalten Zahlenmuster mithilfe der Cmdlets " **neu**", " **Abrufen** **", "CsInboundBlockedNumberPattern", "** **Entfernen**"  - **CsInboundBlockedNumberPattern** . Sie können ein bestimmtes Muster mithilfe dieser Cmdlets verwalten, einschließlich der Möglichkeit, die Aktivierung eines bestimmten Musters umzuschalten.
+Sie verwalten Zahlenmuster mithilfe der Cmdlets **"Neu",** **"Get",** **"Set"** und **"Remove**  - **CsInboundBlockedNumberPattern".** Sie können ein bestimmtes Muster mithilfe dieser Cmdlets verwalten, einschließlich der Möglichkeit, die Aktivierung eines bestimmten Musters umschalten.
 
-- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) gibt eine Liste aller blockierten Zahlenmuster zurück, die der Mandantenliste hinzugefügt wurden, einschließlich Name, Beschreibung, aktiviert (wahr/falsch) und Muster für jeden.
-- [New-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) fügt der Mandantenliste ein blockiertes Zahlenmuster hinzu.
+- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) gibt eine Liste aller zur Mandantenliste hinzugefügten blockierten Zahlenmuster zurück, einschließlich Name, Beschreibung, Aktiviert (Wahr/Falsch) und Muster für jedes.
+- ["New-CsInboundBlockedNumberPattern" fügt](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) der Mandantenliste ein blockiertes Zahlenmuster hinzu.
 - [Remove-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern) entfernt ein blockiertes Zahlenmuster aus der Mandantenliste.
-- Mit " [CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern) " werden in der Mandantenliste mindestens ein Parameter eines blockierten Zahlen Musters geändert.
+- ["Set-CsInboundBlockedNumberPattern"](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern) ändert einen oder mehrere Parameter eines blockierten Zahlenmusters in der Mandantenliste.
 
-Das anzeigen und Aktivieren des gesamten Anruf Blockierungs Features wird über die Cmdlets **Get**, **Sets**  - **CsTenantBlockingCallingNumbers** verwaltet.
+Das Anzeigen und Aktivieren des gesamten Anrufblockerfeatures wird über die **Cmdlets "Get",** **"Set**  - **CsTenantBlockingCallingNumbers"** verwaltet.
 
-- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) gibt die Parameter für die Liste der globalen blockierten Nummern einschließlich Enabled (wahr/falsch) zurück. Es gibt eine einzelne globale Mandanten Richtlinie, die nicht manuell anders geändert werden kann, als das Feature ein-oder auszuschalten.
-- Mit " [CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) " können Sie ändern, dass die globalen Mandanten blockierten Anrufe auf Mandantenebene ein-und ausgeschaltet werden.
+- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) gibt die Parameter für die globale Liste blockierter Zahlen zurück, einschließlich "Enabled" (True/False). Es gibt eine einzige globale Mandantenrichtlinie, die nur zum Aktivieren oder Deaktivieren des Features manuell geändert werden kann.
+- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) ermöglicht das Ändern der blockierten Anrufe des globalen Mandanten auf Mandantenebene.
 
 ### <a name="examples"></a>Beispiele
 
 #### <a name="block-a-number"></a>Blockieren einer Zahl
 
-In diesem Beispiel sind die Parameter **Enabled** und **Description** optional.
+In diesem Beispiel sind die Parameter **"Enabled"** **und "Description"** optional.
 
 ```powershell
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
 ```
 
-Beim Erstellen eines neuen Musters wird das Muster standardmäßig als aktiviert hinzugefügt. Die Beschreibung ist ein optionales Feld, in dem weitere Informationen bereitgestellt werden.
+Durch das Erstellen eines neuen Musters wird das Muster standardmäßig aktiviert. Die Beschreibung ist ein optionales Feld, das weitere Informationen enthält.
 
-Wir empfehlen, dass Sie einen aussagekräftigen Namen angeben, um einfach zu verstehen, warum das Muster hinzugefügt wurde. Wenn Sie Spam-Nummern einfach blockieren, sollten Sie die Regel genauso benennen wie das Zahlenmuster, das verglichen wird, und bei Bedarf zusätzliche Informationen in der Beschreibung hinzufügen.
+Es wird empfohlen, einen aussagekräftigen Namen ein geben, um zu verstehen, warum das Muster hinzugefügt wurde. Wenn Sie Spamnummern einfach blockieren möchten, sollten Sie erwägen, die Regel auf dieselbe Weise wie das übereinstimmende Zahlenmuster zu benennen, und fügen Sie bei Bedarf zusätzliche Informationen zur Beschreibung hinzu.
 
-Muster werden mit regulären Ausdrücken (Regex) verglichen. Erlauben Sie Zeit für die Replikation, bevor Sie testen und überprüfen.
+Muster werden mithilfe von Reguläre Ausdrücke (Regex) abgestimmt. Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation ein.
 
 #### <a name="allow-a-number"></a>Zulassen einer Zahl
 
-In diesem Beispiel ist der Parameter **Identity** erforderlich.
+In diesem Beispiel ist der **Parameter "Identity"** erforderlich.
 
 ```powershell
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-Wenn die Identität unbekannt ist, verwenden Sie das Cmdlet **Get-CsInboundBlockedNumberPattern** , um zuerst das richtige Muster zu finden und die Identität zu notieren. Führen Sie dann das Cmdlet **Remove-CsTenantBlockedNumberPattern** aus, und übergeben Sie den entsprechenden Identitätswert.
+Wenn die Identität nicht bekannt ist, verwenden Sie das **Cmdlet "Get-CsInboundBlockedNumberPattern",** um zuerst das richtige Muster zu finden und die Identität zu notieren. Führen Sie dann das **Cmdlet "Remove-CsTenantBlockedNumberPattern"** aus, und übergeben Sie den entsprechenden Identitätswert.
 
-Erlauben Sie Zeit für die Replikation, bevor Sie testen und überprüfen.
+Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation ein.
 
 #### <a name="view-all-number-patterns"></a>Anzeigen aller Zahlenmuster
 
-Wenn Sie dieses Cmdlet ausführen, wird eine Liste aller blockierten Nummern zurückgegeben, die für einen Mandanten eingegeben werden:
+Durch Ausführen dieses Cmdlets wird eine Liste aller blockierten Nummern zurückgegeben, die für einen Mandanten eingegeben werden:
 
 ```powershell
 Get-CsInboundBlockedNumberPattern
 ```
 
-Verwenden Sie integrierte PowerShell-Filterfähigkeiten, um die zurückgegebenen Werte nach Bedarf zu analysieren.
+Verwenden Sie die integrierten PowerShell-Filterfähigkeiten, um die zurückgegebenen Werte nach Bedarf zu analysieren.
 
-## <a name="add-number-exceptions"></a>Hinzufügen von Zahlen Ausnahmen
+## <a name="add-number-exceptions"></a>Hinzufügen von Zahlenausnahmen
 
-Sie können Ausnahmen zu blockierten Zahlen Mustern hinzufügen, indem Sie die Cmdlets **New**, **Get**, **Sets**, **Remove**  - **CsTenantBlockNumberExceptionPattern** verwenden.
+Sie können Ausnahmen zu blockierten Zahlenmustern hinzufügen, indem Sie die Cmdlets **"Neu",** **"Get",** **"Set"** und **"Remove**  - **CsTenantBlockNumberExceptionPattern"** verwenden.
 
-- [New-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) fügt der Mandantenliste ein Zahlen Ausnahme Muster hinzu. 
-- [Get-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) gibt eine Liste aller Zahlen Ausnahme Muster zurück, die der Mandantenliste hinzugefügt wurden.
-- Mit " [CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern) " werden mindestens ein Parameter in der Mandantenliste in ein Zahlen Ausnahme Muster geändert.
-- [Remove-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) entfernt ein Zahlen Ausnahme Muster aus der Mandantenliste.
+- ["New-CsTenantBlockedNumberExceptionPattern" fügt](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) der Mandantenliste ein Nummernausnahmemuster hinzu. 
+- ["Get-CsTenantBlockedNumberExceptionPattern" gibt](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) eine Liste aller Zur Mandantenliste hinzugefügten Nummernausnahmemuster zurück.
+- ["Set-CsTenantBlockedNumberExceptionPattern"](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern) ändert einen oder mehrere Parameter in ein Nummernausnahmemuster in der Mandantenliste.
+- ["Remove-CsTenantBlockedNumberExceptionPattern" entfernt](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) ein Nummernausnahmemuster aus der Mandantenliste.
 
 ### <a name="examples"></a>Beispiele
 
-#### <a name="add-a-number-exception"></a>Hinzufügen einer Zahlen Ausnahme
+#### <a name="add-a-number-exception"></a>Hinzufügen einer Zahlenausnahme
 
-In diesem Beispiel wird ein neues Zahlen Ausnahme Muster erstellt, das standardmäßig als aktiviert hinzugefügt wird. Die Parameter **Enabled** und **Description** sind optional.
+In diesem Beispiel wird ein neues Nummernausnahmemuster erstellt und das Muster standardmäßig als aktiviert hinzugefügt. Die **Parameter "Enabled"** **und "Description"** sind optional.
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -109,9 +109,9 @@ New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> 
 New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant daacb588-18ef-4f77-8c83-955af9615930 -Pattern "^011(\d*)$" -Description "Allow international prefix in US"  
 ```
 
-#### <a name="view-all-number-exceptions"></a>Alle Zahlen Ausnahmen anzeigen
+#### <a name="view-all-number-exceptions"></a>Alle Zahlenausnahmen anzeigen
 
-In diesem Beispiel ist der Parameter **Identity** optional. Wenn der Parameter **Identity** nicht angegeben ist, gibt dieses Cmdlet eine Liste aller für einen Mandanten eingegebenen Zahlen Ausnahme Muster zurück.
+In diesem Beispiel ist der **Parameter "Identity"** optional. Wenn der **Parameter "Identity"** nicht angegeben ist, gibt dieses Cmdlet eine Liste aller Nummernausnahmemuster zurück, die für einen Mandanten eingegeben wurden.
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -121,9 +121,9 @@ Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> 
 Get-CsTenantBlockedNumberExceptionPattern -Tenant daacb588-18ef-4f77-8c83-955af9615930
 ```
 
-#### <a name="modify-a-number-exception"></a>Ändern einer Zahlen Ausnahme
+#### <a name="modify-a-number-exception"></a>Ändern einer Zahlenausnahme
 
-In diesem Beispiel ist der Parameter **Identity** obligatorisch. Mit dem Cmdlet " **Satz-CsTenantBlockedNumberExceptionPattern** " können Sie einen oder mehrere Parameter für eine bestimmte Zahlenmuster Identität ändern.
+In diesem Beispiel ist der **Parameter "Identity"** obligatorisch. Mit **dem Cmdlet "Set-CsTenantBlockedNumberExceptionPattern"** können Sie einen oder mehrere Parameter für eine bestimmte Zahlenmusteridentität ändern.
  
 ```powershell
 Set-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -133,9 +133,9 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> 
 Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant daacb588-18ef-4f77-8c83-955af9615930  -Pattern "^022(\d*)$" 
 ```
 
-#### <a name="remove-a-number-exception"></a>Entfernen einer Zahlen Ausnahme
+#### <a name="remove-a-number-exception"></a>Entfernen einer Zahlenausnahme
 
-In diesem Beispiel ist der Parameter **Identity** erforderlich. Mit diesem Cmdlet wird das angegebene Zahlenmuster aus der Mandantenliste entfernt.  Wenn die Identität unbekannt ist, verwenden Sie das Cmdlet **Get-CsInboundBlockedNumberPattern** , um zuerst das richtige Muster zu finden und die Identität zu notieren. Führen Sie dann das Cmdlet **Remove-CsTenantBlockedNumberExceptionPattern** aus, und übergeben Sie den entsprechenden Identitätswert.Erlauben Sie Zeit für die Replikation, bevor Sie testen und überprüfen.  
+In diesem Beispiel ist der **Parameter "Identity"** erforderlich. Mit diesem Cmdlet wird das angegebene Zahlenmuster aus der Mandantenliste entfernt.  Wenn die Identität nicht bekannt ist, verwenden Sie das **Cmdlet "Get-CsInboundBlockedNumberPattern",** um zuerst das richtige Muster zu finden und die Identität zu notieren. Führen Sie dann das **Cmdlet "Remove-CsTenantBlockedNumberExceptionPattern"** aus, und übergeben Sie den entsprechenden Identitätswert.Lassen Sie vor dem Testen und Überprüfen Zeit für die Replikation ein.  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -145,11 +145,11 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentit
 Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant daacb588-18ef-4f77-8c83-955af9615930
 ```
 
-### <a name="test-whether-a-number-is-blocked"></a>Testen, ob eine Zahl blockiert ist
+### <a name="test-whether-a-number-is-blocked"></a>Testen, ob eine Nummer blockiert ist
 
-Verwenden Sie das Cmdlet **Test-CsInboundBlockedNumberPattern** , um zu überprüfen, ob eine Zahl im Mandanten blockiert ist.
+Verwenden Sie **das Cmdlet "Test-CsInboundBlockedNumberPattern",** um zu überprüfen, ob eine Zahl im Mandanten blockiert ist.
  
-In diesem Beispiel **sind die Parameter** für die Telefonnummer und den **Mandanten** erforderlich. Der **Parameter** "Telefonnummer" sollte eine numerische Zeichenfolge ohne zusätzliche Zeichen wie + oder-sein. In TRPS ist der **Mandanten Parameter** optional. Der resultierende **isNumberBlocked** -Parameter gibt den Wert "true" zurück, wenn die Zahl im Mandanten blockiert ist, und false, wenn er nicht blockiert ist.
+In diesem Beispiel sind die **Parameter "PhoneNumber"** und **"Tenant"** erforderlich. Der **Parameter "PhoneNumber"** sollte eine numerische Zeichenfolge ohne zusätzliche Zeichen wie +oder -sein. In TRPS ist der **Parameter "Tenant"** optional. Der resultierende **"NumberBlocked"-Parameter** gibt den Wert "True" zurück, wenn die Zahl im Mandanten blockiert ist, und "False", wenn sie nicht blockiert wird.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
@@ -159,7 +159,7 @@ Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
 Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 -PhoneNumber 4255550101
 ```
 
-|httpResponseCode  |isNumberBlocked   |ErrorMessage |
+|httpResponseCode  |isNumberBlocked   |errorMessage |
 |---------|---------|---------|
 |200    | Wahr        |         |
 
@@ -167,10 +167,10 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 -PhoneNumber 6045550188
 ```
 
-|httpResponseCode  |isNumberBlocked   |ErrorMessage |
+|httpResponseCode  |isNumberBlocked   |errorMessage |
 |---------|---------|---------|
 |200    | Falsch        |         |
 
-## <a name="a-note-about-regex"></a>Eine Notiz zu Regex
+## <a name="a-note-about-regex"></a>Hinweis zu Regex
 
-Wie bereits erwähnt, wird der Musterabgleich für das Blockieren von Aufrufen mithilfe von Regex ausgeführt. Es stehen mehrere Tools online zur Verfügung, mit denen Sie eine Regex-Musterübereinstimmung überprüfen können. Wenn Sie mit Regex-Mustern nicht vertraut sind, sollten Sie sich etwas Zeit nehmen, um sich mit den Grundlagen vertraut zu machen. Wenn Sie sicherstellen möchten, dass Sie die erwarteten Ergebnisse erzielen, verwenden Sie ein Tool zum Überprüfen von Musterübereinstimmungen, bevor Sie dem Mandanten neue blockierte Nummern Übereinstimmungen hinzufügen.
+Wie bereits erwähnt, erfolgt der Musterabgleich zum Blockieren von Anrufern mithilfe von Regex. Online stehen mehrere Tools zur Überprüfung einer Regex-Muster-Übereinstimmung zur Verfügung. Wenn Sie mit Regex-Mustern nicht vertraut sind, sollten Sie sich etwas Zeit nehmen, um sich mit den Grundlagen vertraut zu machen. Um sicherzustellen, dass Sie die erwarteten Ergebnisse erhalten, verwenden Sie ein Tool zum Überprüfen von Muster übereinstimmungen, bevor Sie Ihrem Mandanten neue Übereinstimmungen mit blockierten Nummern hinzufügen.
