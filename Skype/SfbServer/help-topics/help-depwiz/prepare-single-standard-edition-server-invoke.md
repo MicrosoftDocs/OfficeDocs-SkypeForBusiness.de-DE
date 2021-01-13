@@ -1,8 +1,8 @@
 ---
 title: Vorbereiten eines einzelnen Standard Edition-Servers (Aufruf)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
-description: Auf der Seite "Befehle ausführen" können die Aufgaben der Installation von SQL Server Express und der Konfiguration als zentraler Verwaltungsspeicher im Aufgabenbereich angezeigt werden. Standardmäßig wird eine Instanz einer SQL Server-basierten Datenbank mit dem Namen RTC erstellt. Außerdem werden Firewallregeln erstellt, um den ein-und ausgehenden Zugriff für Server und Clients für die Kommunikation mit der Datenbank und Instanz zu ermöglichen. Nach Abschluss der Aufgabe können Sie die Protokolldatei aus der Dropdownliste auswählen. Die Protokolldatei hat den Namen Bootstrap Local Machine. Nachdem Sie die Protokolldatei ausgewählt haben, klicken Sie auf Protokoll anzeigen. Überprüfen Sie die Protokolldatei auf Fehler und Warnungen. Wenn Sie den Vorgang fortsetzen möchten, klicken Sie auf Fertig stellen. Wenn Sie dies noch nicht getan haben, sollten Sie jetzt Ihre Topologie mit dem Topology Builder definieren.
-ms.openlocfilehash: 16cc6ada75ae90da4da2cb269aed26adbf472a33
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Auf der Seite "Befehle ausführen" können die Aufgaben der Installation von SQL Server Express und der Konfiguration als zentraler Verwaltungsspeicher im Aufgabenbereich angezeigt werden. Standardmäßig wird eine Instanz einer SQL Server Datenbank namens RTC erstellt. Außerdem werden auch Firewallregeln erstellt, um Servern und Clients für die Kommunikation mit der Datenbank und Instanz einen ein- und ausgehenden Zugriff zu erlauben. Nachdem die Aufgabe abgeschlossen wurde, können Sie die Protokolldatei in der Dropdownliste auswählen. Die Protokolldatei hat den Namen Bootstrap local machine. Klicken Sie nach Auswählen der Protokolldatei auf Protokoll anzeigen. Überprüfen Sie die Protokolldatei auf Fehler und Warnungen. Klicken Sie im Anschluss an die Überprüfung auf Fertig stellen. Wenn Sie dies noch nicht getan haben, sollten Sie ihre Topologie mit dem Topologie-Generator definieren.
+ms.openlocfilehash: adf980ec2576eb4e23983fcd99befb1fc6bfb6ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823439"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829745"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Vorbereiten eines einzelnen Standard Edition-Servers (Aufruf)
  
-Auf der Seite " **Befehle ausführen** " können die Aufgaben der Installation von SQL Server Express und der Konfiguration als zentraler Verwaltungsspeicher im Aufgabenbereich angezeigt werden. Standardmäßig wird eine Instanz einer SQL Server-basierten Datenbank mit dem Namen RTC erstellt. Außerdem werden Firewallregeln erstellt, um den ein-und ausgehenden Zugriff für Server und Clients für die Kommunikation mit der Datenbank und Instanz zu ermöglichen. Nach Abschluss der Aufgabe können Sie die Protokolldatei aus der Dropdownliste auswählen. Die Protokolldatei hat den Namen **Bootstrap Local Machine**. Nachdem Sie die Protokolldatei ausgewählt haben, klicken Sie auf **Protokoll anzeigen**. Überprüfen Sie die Protokolldatei auf Fehler und Warnungen. Wenn Sie den Vorgang fortsetzen möchten, klicken Sie auf **Fertig stellen.** Wenn Sie dies noch nicht getan haben, sollten Sie jetzt Ihre Topologie mit dem Topology Builder definieren.
+Auf der **Seite "Befehle** ausführen" können die Aufgaben der Installation von SQL Server Express und der Konfiguration als zentraler Verwaltungsspeicher im Aufgabenbereich angezeigt werden. Standardmäßig wird eine Instanz einer SQL Server Datenbank namens RTC erstellt. Außerdem werden auch Firewallregeln erstellt, um Servern und Clients für die Kommunikation mit der Datenbank und Instanz einen ein- und ausgehenden Zugriff zu erlauben. Nachdem die Aufgabe abgeschlossen wurde, können Sie die Protokolldatei in der Dropdownliste auswählen. Die Protokolldatei hat den Namen **Bootstrap local machine**. Klicken Sie nach Auswählen der Protokolldatei auf **Protokoll anzeigen**. Überprüfen Sie die Protokolldatei auf Fehler und Warnungen. Klicken Sie im Anschluss an die Überprüfung auf **Fertig stellen**. Wenn Sie dies noch nicht getan haben, sollten Sie ihre Topologie mit dem Topologie-Generator definieren.
   
 > [!IMPORTANT]
-> Die Installation von SQL Server Express kann einige Zeit in Anspruch nehmen. Während der Installation wird kein Status auf dem Bildschirm oder im Aufgabenbereich angezeigt. Um die Installation zu überwachen, sollten Sie den Windows Task-Manager verwenden und nach den msiexec-Prozessen und den Setup Dateien für SQL Server suchen. Auf diese Weise können Sie den Status der Installation anzeigen und sicherstellen, dass die Installation fortgesetzt wird. In Abhängigkeit von Faktoren, die den Rahmen dieses Hilfethemas sprengen, kann es bis zu 15 Minuten dauern, bis die SQL Server-Instanz installiert wird. 
+> Die Installation von SQL Server Express kann einige Zeit dauern. Während der Installation ist kein Fortschritt auf dem Bildschirm oder im Aufgabenbereich sichtbar. Verwenden Sie zum Überwachen der Installation den Windows-Task-Manager, und suchen Sie nach den MSIExec-Prozessen und den Setupdateien für SQL Server. Auf diese Weise können Sie den Status der Installation anzeigen und sicherstellen, dass die Installation fortschreitet. Je nach faktoren, die den Rahmen dieses Hilfethemas über hinausgehen, kann es bis zu 15 Minuten oder mehr dauern, bis die Installation der SQL Server abgeschlossen ist. 
   
 

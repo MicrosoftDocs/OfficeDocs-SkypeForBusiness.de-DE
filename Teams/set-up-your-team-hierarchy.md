@@ -1,13 +1,13 @@
 ---
-title: Einrichten Ihrer Zielgruppen Adressierungs Hierarchie
-author: lanachin
-ms.author: v-lanac
+title: Einrichten der Teamzielhierarchie
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie eine Team Hierarchie in Ihrer Organisation einrichten, um Inhalte in einer Vielzahl von Teams zu veröffentlichen.
+description: Erfahren Sie, wie Sie in Ihrer Organisation eine Teamhierarchie einrichten, um Inhalte in einer großen Gruppe von Teams zu veröffentlichen.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,123 +15,123 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cab89e7d3e1c2956c79a4013edd254167c990f9b
-ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
+ms.openlocfilehash: 099ee82e5890e81b6fc89a5ffc1842d936e6ad1e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588308"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806155"
 ---
-# <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Zielgruppen Adressierungs Hierarchie
+# <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten der Teamzielhierarchie
 
-> **Diese Funktion befindet sich derzeit in der privaten Vorschau.**
+> **Dieses Feature befindet sich derzeit in einer privaten Vorschau.**
 
-Wenn Sie eine Hierarchie von Teams erstellen möchten, die von Ihrer Organisation zum Veröffentlichen von Inhalten in einer Vielzahl von Teams verwendet werden kann, müssen Sie das Zielgruppen Adressierungsschema einrichten. Das Schema definiert, wie alle Teams in der Hierarchie miteinander verbunden sind, und die Attribute, die zum Filtern Ihrer Teams verwendet werden können. Nachdem Sie das Schema erstellt haben, laden Sie es in Teams hoch, und die Hierarchie wird in Ihrer Organisation angewendet. Nachdem das Schema hochgeladen wurde, kann es von apps innerhalb des Teams-Clients verwendet werden. 
+Um eine Hierarchie von Teams zu erstellen, die von Ihrer Organisation zum Veröffentlichen von Inhalten in einer großen Gruppe von Teams verwendet werden kann, müssen Sie Ihr Schema für Teamzielierung einrichten. Das Schema definiert, wie alle Teams in Ihrer Hierarchie miteinander in Beziehung stehen und welche Attribute zum Filtern Ihrer Teams verwendet werden können. Nachdem Sie das Schema erstellt haben, laden Sie es in Teams hoch, und die Hierarchie wird in der gesamten Organisation angewendet. Nachdem das Schema hochgeladen wurde, können die Apps im Teamclient es verwenden. 
 
 > [!IMPORTANT]
-> Eine Hierarchie von Teams wird nicht angezeigt, wenn Sie innerhalb von Teams oder Kanälen suchen. Wenn Sie die Hierarchie von Teams anzeigen möchten, müssen Sie eine APP verwenden, die Sie unterstützt. Für die erste Version unterstützt nur die Aufgaben-app hierarchische Teams. Im weiteren Verlauf dieses Artikels wird erläutert, wie Sie eine Team Hierarchie im Kontext von Veröffentlichungsaufgaben für Empfänger Teams einrichten. Bevor Sie Ihre Zielgruppen Adressierungs Hierarchie einrichten, lesen Sie [Verwalten der Aufgaben-app für Ihre Organisation in Teams](manage-tasks-app.md) , um einen Überblick über die Aufgaben Veröffentlichung zu erhalten.
+> Beim Durchsuchen von Teams oder Kanälen innerhalb dieser Teams wird keine Hierarchie angezeigt. Um die Hierarchie von Teams zu sehen, müssen Sie eine App verwenden, die sie unterstützt. Für die erste Version unterstützt nur die App "Aufgaben" hierarchische Teams. Im weiteren Verlauf dieses Artikels wird das Einrichten einer Teamhierarchie im Kontext der Veröffentlichung von Aufgaben an Empfängerteams erläutert. Bevor Sie ihre Teamzielhierarchie einrichten, finden Sie unter "Verwalten der App ["Aufgaben" für](manage-tasks-app.md) Ihre Organisation in Teams eine Übersicht über die Veröffentlichung von Aufgaben.
 
-Im folgenden finden Sie ein Beispiel dafür, wie die Hierarchie in der Aufgaben-app in Teams dargestellt wird. Nachdem eine Aufgabenliste erstellt wurde, können Mitglieder des Veröffentlichungsteams die Empfänger Teams auswählen, an die Sie die Aufgabenliste senden (veröffentlichen) möchten. Beim Auswählen von Teams kann das Veröffentlichungsteam nach Hierarchie, nach Attributen oder nach einer Kombination aus beidem filtern.<br>
+Hier ist ein Beispiel dafür, wie die Hierarchie in der App "Aufgaben" in Teams dargestellt wird. Nachdem eine Aufgabenliste erstellt wurde, können die Mitglieder des Veröffentlichungsteams die Empfängerteams auswählen, an die die Aufgabenliste gesendet (veröffentlicht) werden soll. Bei der Auswahl von Teams kann das Veröffentlichungsteam nach Hierarchie, Nach Attributen oder einer Kombination aus beiden filtern.<br>
 
-![Screenshot der Aufgaben Veröffentlichung](media/manage-tasks-app-publish.png)
+![Screenshot der Vorgangsveröffentlichung](media/manage-tasks-app-publish.png)
 
-## <a name="plan-your-hierarchy"></a>Planen Ihrer Hierarchie
+## <a name="plan-your-hierarchy"></a>Planen der Hierarchie
 
-Bevor Sie das Schema erstellen, in dem Ihre Hierarchie definiert ist, müssen Sie etwas planen und entscheiden, wie Sie Ihre Organisation gestalten möchten. Dies umfasst die Entscheidung, welche Organisationsgruppen Aufgaben in anderen Gruppen veröffentlichen müssen. Jeder Knoten in der Hierarchie stellt eine Arbeitsgruppe oder Gruppe von Gruppen dar. Knoten am unteren Rand der Hierarchie (ohne untergeordnete Elemente) sind Teams, die Aufgaben empfangen können, während andere Knoten (übergeordnete Elemente) Organisationsgruppen mit der Berechtigung zum nach unten Veröffentlichen von Aufgaben sind. Ein Team kann nur einmal in der Hierarchie dargestellt werden.
+Bevor Sie das Schema erstellen, mit dem Ihre Hierarchie definiert wird, müssen Sie eine Planung treffen und entscheiden, wie Sie Ihre Organisation gestalten möchten. Dazu gehört auch die Entscheidung, welche Organisationsgruppen Aufgaben für andere Gruppen veröffentlichen müssen. Jeder Knoten in der Hierarchie stellt eine Arbeitsgruppe oder Gruppe von Gruppen dar. Knoten am Unteren Rand der Hierarchie (diejenigen ohne untergeordnete Knoten) sind Teams, die Aufgaben empfangen können, während andere Knoten (Eltern) Organisationsgruppen mit der Berechtigung zum Veröffentlichen von Vorgängen nach unten sind. Ein Team kann nur einmal in der Hierarchie dargestellt werden.
 
-In der folgenden Hierarchiekönnen Rückruf, Einzelhandels Kommunikation und HR beispielsweise Aufgaben in jedem untersten Knoten (Team) in der Hierarchie veröffentlichen, während die Nordost Zone nur Aufgaben im New Yorker Store und in Boston Store Teams veröffentlichen kann. Diese Hierarchie ermöglicht es dem Rückruf, der Einzelhandels Kommunikation und den personalgruppen, Aufgaben zu veröffentlichen, die für das gesamte Unternehmen gelten, wie etwa Leistungen oder Nachrichten des CEO. In der Nordost Zone können Aufgaben wie Personalplanung, Wetterinformationen usw. nur im New Yorker Store-und Boston Store-Team veröffentlicht werden.
+In der folgenden Hierarchie können z. B. "Rückruf", "Einzelhandelskommunikation" und "Personalwesen" Aufgaben für jeden untersten Knoten (Team) in der Hierarchie veröffentlichen, während aufgaben in der Zone "Nord-Ost" nur in den Teams des New York Store und des Boston Store veröffentlicht werden können. Diese Hierarchie ermöglicht es den Gruppen "Rückruf", "Einzelhandelskommunikation" und "Personalwesen", Aufgaben zu veröffentlichen, die für das gesamte Unternehmen gelten, z. B. Informationen zu Leistungen oder Nachrichten vom CEO. Die Zone "Nord-Ost" kann Vorgänge wie die Personalplanung, Wetterinformationen und vieles mehr nur für die Teams aus dem New York Store und dem Boston Store veröffentlichen.
 
-![Beispiel für eine Team Hierarchie](media/team-targeting-schema-example.png)
+![Hierarchisches Teambeispiel](media/team-targeting-schema-example.png)
 
-## <a name="create-your-hierarchy"></a>Erstellen Ihrer Hierarchie
+## <a name="create-your-hierarchy"></a>Erstellen der Hierarchie
 
-Das Schema, das Ihre Hierarchie definiert, basiert auf einer CSV-Datei (Comma-Separated Values). Jede Zeile in der CSV-Datei entspricht einem Knoten innerhalb der Hierarchie von Teams. Jede Zeile enthält Informationen, mit denen der Knoten in der Hierarchie benannt, optional mit einem Team verknüpft wird, und enthält Attribute, die verwendet werden können, um Teams in apps zu filtern, die Sie unterstützen.
+Das Schema, das die Hierarchie definiert, basiert auf einer Datei mit durch Kommas getrennten Werten (CSV). Jede Zeile in der CSV-Datei entspricht einem Knoten in der Hierarchie von Teams. Jede Zeile enthält Informationen, die den Knoten innerhalb der Hierarchie nennen, ihn optional mit einem Team verknüpft, und enthält Attribute, mit deren Hilfe Teams in Apps gefiltert werden können, die dies unterstützen.
 
-Sie können auch Buckets definieren, wobei es sich um Kategorien handelt, die vom Veröffentlichungsteam zum Organisieren von Inhalten verwendet werden können, die an Empfänger Teams gesendet werden, um Ihnen das anzeigen, Sortieren und fokussieren auf relevante Inhalte zu erleichtern.
+Sie können auch Buckets definieren, bei denen es sich um Kategorien handelt, die das Veröffentlichungsteam zum Organisieren von An Empfängerteams gesendeten Inhalten verwenden kann, um ihnen das Anzeigen, Sortieren und Konzentrieren auf relevante Inhalte zu erleichtern.
 
-### <a name="add-required-columns"></a>Hinzufügen von erforderlichen Spalten
+### <a name="add-required-columns"></a>Hinzufügen erforderlicher Spalten
 
-Die CSV-Datei muss die folgenden drei Spalten in der folgenden Reihenfolge enthalten, beginnend bei der ersten Spalte. Ein Knoten muss mit einem Team verknüpft sein, damit er Aufgaben empfängt. Während der privaten Vorschau unterstützen wir 2.000-Knoten. Wir erwarten, dass beim Start standardmäßig mindestens 15.000-Knoten unterstützt werden. Wir planen, mit Kunden zusammenzuarbeiten, um diese Grenze für größere Organisationen zu erhöhen.
+Die Datei "CSV" muss die folgenden drei Spalten (beginnend bei der ersten Spalte) in der folgenden Reihenfolge enthalten. Ein Knoten muss mit einem Team verknüpft sein, damit er Aufgaben empfangen kann. Während der privaten Vorschau werden 2.000 Knoten unterstützt. Beim Start wird standardmäßig mindestens 15.000 Knoten unterstützt. Wir planen die Zusammenarbeit mit Kunden, um diesen Grenzwert für größere Organisationen zu erhöhen.
 
 | Spaltenname   | Erforderlich | Beschreibung   |
 ----------------|----------|---------------|
-| TargetName    | Ja      | Dies ist der Name des Knotens. Der Name kann bis zu 100 Zeichen lang sein und nur die Zeichen a-z, a-z und 0-9 enthalten. Knotennamen müssen eindeutig sein. |
-| ParentName    | Ja       | Dies ist der Name des übergeordneten Knotens. Der hier angegebene Wert muss dem Wert im Feld TargetName des übergeordneten Knotens genau entsprechen. Wenn Sie mehr als einen übergeordneten Knoten hinzufügen möchten, trennen Sie die einzelnen übergeordneten Knotennamen durch ein Semikolon (;). Sie können bis zu 25 übergeordnete Knoten hinzufügen, und jeder übergeordnete Knotenname kann bis zu 2500 Zeichen lang sein. Ein Knoten kann nur dann über mehrere übergeordnete Knoten verfügen, wenn die übergeordneten Knoten Stammknoten sind.   <br><br>**Wichtig** Achten Sie darauf, keine Schleife zu erstellen, bei der ein übergeordnetes übergeordnetes Element in der Hierarchie auf einen untergeordneten Knoten in der Hierarchie verweist. Dies wird nicht unterstützt. |
-| Team-Nr        | Ja, wenn das Team Aufgaben veröffentlicht oder Aufgaben von einem übergeordneten Knoten empfängt       | Diese enthält die ID des Teams, mit dem ein Knoten verknüpft werden soll. Ein Knoten muss mit einem Team verknüpft sein, wenn er sich unten in der Hierarchie befindet, wenn Sie möchten, dass die Benutzer von diesem Knoten aus veröffentlichen können, oder wenn Sie möchten, dass die Benutzer Berichte für diesen Knoten und seine Nachfolger anzeigen können. Wenn Ihr Vorgesetzter für die West Region Office beispielsweise die Berichterstellung zum Abschluss der Aufgabe für die Knoten anzeigen möchte, die zu dieser Region gehören.<br><br>Wenn Sie einen Knoten nur zum Gruppieren anderer Knoten in der Hierarchie hinzufügen möchten, müssen Sie diesen Knoten nicht mit einem Team verknüpfen und können dieses Feld leer lassen. Sie können jeden Knoten mit nur einem Team verknüpfen.<br>Führen Sie den folgenden PowerShell-Befehl aus, um die ID eines Teams abzurufen, mit dem Sie einen Knoten verknüpfen `Get-Team | Export-Csv TeamList.csv` möchten: Damit werden die Teams in Ihrer Organisation aufgelistet und der Name und die ID für die einzelnen Teams eingeschlossen. Suchen Sie den Namen des Teams, mit dem Sie eine Verknüpfung herstellen möchten, und kopieren Sie dann die ID in dieses Feld.|
+| TargetName    | Ja      | Dies ist der Name des Knotens. Der Name kann bis zu 100 Zeichen lang sein und nur die Zeichen A-Z, a-z und 0-9 enthalten. Knotennamen müssen eindeutig sein. |
+| ParentName    | Ja       | Dies ist der Name des übergeordneten Knotens. Der wert, den Sie hier angeben, muss exakt mit dem Wert im Feld "TargetName" des übergeordneten Knotens übereinstimmen. Wenn Sie mehrere übergeordnete Knoten hinzufügen möchten, trennen Sie jeden übergeordneten Knotennamen durch ein Semikolon (;). Sie können bis zu 25 übergeordnete Knoten hinzufügen, und jeder Name des übergeordneten Knotens kann bis zu 2.500 Zeichen lang sein. Ein Knoten kann nur dann über mehrere übergeordnete Knoten verfügen, wenn es sich bei den übergeordneten Knoten um Stammknoten handelt.   <br><br>**WICHTIG** Achten Sie darauf, keine Schleife zu erstellen, bei der ein übergeordnetes Element oben in der Hierarchie auf einen untergeordneten Knoten in der Hierarchie verweist. Dies wird nicht unterstützt. |
+| TeamId        | Ja, wenn das Team Aufgaben veröffentlicht oder Aufgaben von einem übergeordneten Knoten empfängt       | Sie enthält die ID des Teams, mit dem Sie einen Knoten verknüpfen möchten. Ein Knoten muss mit einem Team verknüpft sein, wenn er sich am unteren Rand der Hierarchie befindet, Sie möchten, dass Benutzer über diesen Knoten veröffentlichen können oder wenn Sie möchten, dass Benutzer Berichte für diesen Knoten und seine Nachfolger von diesem Knoten anzeigen können. Wenn Ihr Vorgesetzter für das Office für die Region "Westen" z. B. berichte zum Abschluss der Aufgabe für die Knoten sehen möchte, die zu dieser Region gehören.<br><br>Wenn Sie einen Knoten nur zum Zweck der Gruppierung anderer Knoten in der Hierarchie hinzufügen möchten, müssen Sie diesen Knoten nicht mit einem Team verknüpfen und können dieses Feld leer lassen. Sie können jeden Knoten nur mit einem Team verknüpfen.<br>Führen Sie den folgenden PowerShell-Befehl aus, um die ID eines Teams zu erhalten, mit dem Sie einen Knoten verknüpfen `Get-Team | Export-Csv TeamList.csv` möchten: Hier werden die Teams in Ihrer Organisation aufgeführt und der Name und die ID für jedes Team aufgeführt. Suchen Sie den Namen des Teams, zu dem Sie eine Verknüpfung erstellen möchten, und kopieren Sie dann die ID in dieses Feld.|
 
 ### <a name="add-attribute-columns"></a>Hinzufügen von Attributspalten
 
-Nachdem Sie die drei erforderlichen Spalten hinzugefügt haben, können Sie optionale Attributspalten hinzufügen. Diese Attribute können verwendet werden, um Knoten zu filtern, sodass Sie die Aufgaben, die Sie veröffentlichen möchten, einfacher auswählen können. Es gibt zwei Möglichkeiten, ihre Attribute zu definieren, je nachdem, ob sich die Werte für dieses Attribut gegenseitig ausschließen.
+Nachdem Sie die drei erforderlichen Spalten hinzugefügt haben, können Sie optionale Attributspalten hinzufügen. Diese Attribute können zum Filtern von Knoten verwendet werden, sodass Sie einfacher diejenigen auswählen können, für die Sie Aufgaben veröffentlichen möchten. Es gibt zwei Möglichkeiten zum Definieren der Attribute, je nachdem, ob sich die Werte für dieses Attribut gegenseitig ausschließen.
 
-|Möglichkeiten zum Hinzufügen von Attributen|Beschreibung |Beispiel  |
+|Methoden zum Hinzufügen von Attributen|Beschreibung |Beispiel  |
 |---|---------|---------|
-|Wenn sich die Werte für ein Attribut gegenseitig ausschließen, wird der von Ihnen angegebene Spaltenname zum Namen des Attributs.|Jede Zeile kann einen Wert für dieses Attribut enthalten, und jeder Wert kann bis zu 100 Zeichen lang sein. Der Satz von Attributwerten, die Sie in der Attributspalte angeben, wird als verfügbare Filterwerte für dieses Attribut in Teams-apps angezeigt, die die Hierarchie verwenden. Jede Attributspalte kann bis zu 50 eindeutige Werte aufweisen. |Sie möchten, dass Benutzerspeicher nach Layout filtern können. Die Werte für dieses Attribut schließen sich gegenseitig aus, da ein Speicher nur ein Layout aufweisen kann. <br><br>Wenn Sie ein Attribut zum Filtern von speichern nach Layout hinzufügen möchten, fügen Sie eine Spalte mit dem Namen Store Layout hinzu. In diesem Beispiel sind Werte für das Store-Layout-Attribut kompakt, Standard und groß.
-|Wenn Sie mehrere Werte für ein Attribut angeben müssen und sich die Werte nicht gegenseitig ausschließen, verwenden Sie das Format **attributeName: UniqueValue** für die Spaltennamen. |Die Textzeichenfolge vor dem Doppelpunkt (:) wird zum Namen des Attributs. Alle Spalten, die die gleiche Textzeichenfolge vor dem Doppelpunkt enthalten (:) sind in einem Abschnitt im Menü "filtern" zusammengefasst. Jede der Zeichenfolgen nach dem Doppelpunkt wird zu den Werten für diesen Abschnitt.<br><br>Jede Zeile kann den Wert 0 (null) oder 1 für dieses Attribut aufweisen. Der Wert 0 bedeutet, dass das Attribut nicht auf den Knoten angewendet wird, und der Wert 1 bedeutet, dass das Attribut auf diesen Knoten angewendet wird.|Sie möchten, dass Benutzer Geschäfte nach Abteilungen filtern können. Ein Store kann mehrere Abteilungen aufweisen, sodass sich die Werte für dieses Attribut nicht gegenseitig ausschließen.<br><br>In diesem Beispiel fügen wir Abteilungen hinzu: Kleidung, Abteilungen: Elektronik, Abteilungen: Lebensmittel, Abteilungen: Haus und Garten, Abteilungen: Sportartikel als Attributspalten. Abteilungen werden zum Attributnamen, und Benutzer können nach den Abteilungen Kleidung, Elektronik, Lebensmittel, Haus und Garten sowie Sportartikel filtern.|
+|Wenn sich die Werte für ein Attribut gegenseitig ausschließen, wird der von Ihnen festgelegte Spaltenname zum Namen des Attributs.|Jede Zeile kann einen Wert für dieses Attribut enthalten, und jeder Wert kann bis zu 100 Zeichen lang sein. Die Gruppe von Attributwerten, die Sie in der Attributspalte angeben, wird als verfügbare Filterwerte für dieses Attribut in Teams-Apps angezeigt, die die Hierarchie verwenden. Jede Attributspalte kann bis zu 50 eindeutige Werte haben. |Sie möchten, dass Benutzer Speicher nach Layout filtern können. Die Werte für dieses Attribut schließen sich gegenseitig aus, da ein Speicher nur ein Layout haben kann. <br><br>Um ein Attribut zum Filtern von Stores nach Layout hinzuzufügen, fügen Sie eine Spalte mit dem Namen "Store-Layout" hinzu. In diesem Beispiel sind die Werte für das Layoutattribut "Store" "Compact", "Standard" und "Large".
+|Wenn Sie mehrere Werte für ein Attribut angeben müssen und sich die Werte nicht gegenseitig ausschließen, verwenden Sie das **Format "AttributeName:UniqueValue"** für die Spaltennamen. |Die Textzeichenfolge vor dem Doppelpunkt (:) wird der Name des Attributs. Alle Spalten, die dieselbe Textzeichenfolge vor dem Doppelpunkt (:) werden zu einem Abschnitt im Filtermenü gruppieren. Jede Zeichenfolge nach dem Doppelpunkt wird zu den Werten für diesen Abschnitt.<br><br>Jede Zeile kann für dieses Attribut den Wert 0 (Null) oder 1 haben. Der Wert 0 bedeutet, dass das Attribut nicht auf den Knoten angewendet wird, und der Wert 1 bedeutet, dass das Attribut auf diesen Knoten angewendet wird.|Sie möchten, dass Benutzer Stores nach Abteilung filtern können. Ein Speicher kann mehrere Abteilungen haben, sodass sich die Werte für dieses Attribut nicht gegenseitig ausschließen.<br><br>In diesem Beispiel fügen wir "Departments:Clothing", "Departments:Electronic", "Departments:Food", "Departments:Home and Garden", "Departments:Sports Goods" als Attributspalten hinzu. Abteilungen werden zum Attributnamen, und Benutzer können nach den Abteilungen "Bekleidung", "Elektronik", "Lebensmittel", "Home and Garden" und "Sports Goods" filtern.|
 
-Wenn Sie eine Attributspalte hinzufügen, beachten Sie Folgendes:
+Beachten Sie beim Hinzufügen einer Attributspalte Folgendes:
 
-- Der von Ihnen angegebene Spaltenname oder der Spaltenname, den Sie vor dem Doppelpunkt angeben (:) wird zum Namen des Attributs. Dieser Wert wird in den Teams-apps angezeigt, die die Hierarchie verwenden.
-- Der Spaltenname kann bis zu 100 Zeichen lang sein und nur die Zeichen a-z, a-z und 0-9 sowie Leerzeichen enthalten. Spaltennamen müssen eindeutig sein.
-- Beim Start planen wir das Zulassen von 50-Attributspalten.
+- Der Spaltenname, den Sie angeben, oder der Spaltenname, den Sie vor dem Doppelpunkt (:) wird der Name des Attributs. Dieser Wert wird in den Teams-Apps angezeigt, die die Hierarchie verwenden.
+- Der Spaltenname darf bis zu 100 Zeichen umfassen und enthält nur die Zeichen A-Z, a-z und 0-9 sowie Leerzeichen. Spaltennamen müssen eindeutig sein.
+- Beim Start sind 50 Attributspalten geplant.
 
-### <a name="add-bucket-columns"></a>Hinzufügen von Bucket-Spalten
+### <a name="add-bucket-columns"></a>Hinzufügen von Bucketspalten
 
-Sie können Bucket-Spalten hinzufügen, um Buckets zu erstellen, bei denen es sich um Gruppierungen handelt, in denen Aufgaben organisiert werden können. Jeder Bucket erhält eine eigene Spalte in der CSV-Datei. Die von Ihnen erstellten Buckets werden dem Veröffentlichungsteam zur Verfügung gestellt. Das Veröffentlichungsteam kann dann mithilfe dieser Buckets Aufgaben für die Empfänger Teams kategorisieren. Wenn ein Bucket nicht bereits in einem Team vorhanden ist, werden Buckets bei Bedarf erstellt, wenn Aufgaben veröffentlicht werden.
+Sie können Bucketspalten hinzufügen, um Buckets zu erstellen, bei denen es sich um Gruppierungen handelt, in denen Aufgaben organisiert werden können. Jeder Bucket erhält eine eigene Spalte in der CSV-Datei. Die buckets, die Sie erstellen, werden dem Veröffentlichungsteam zur Verfügung stehen. Das Veröffentlichungsteam kann dann diese Buckets verwenden, um Aufgaben für die Empfängerteams zu kategorisieren. Wenn ein Bucket in einem Team noch nicht vorhanden ist, werden Buckets bei der Veröffentlichung von Aufgaben bei Bedarf erstellt.
 
-Durch eine zentrale Kategorisierung der Arbeit kann das Veröffentlichungsteam die Aufgabenliste für alle Zehner, Hunderte oder Tausende von Empfänger Teams vororganisieren, die die Aufgabenliste erhalten. Die Empfänger Teams können Ihre Aufgaben dann nach Bucket sortieren und Filtern, um sich auf den Bereich zu konzentrieren, der für Ihre Arbeit am relevantesten ist.
+Durch die zentrale Kategorisierung der Arbeit kann das Veröffentlichungsteam die Aufgabenliste für alle Zehner-, Hunderter- oder Tausende von Empfängerteams, die die Aufgabenliste erhalten, vorab organisieren. Die Empfängerteams können dann ihre Aufgaben nach Bucket sortieren und filtern, um sich auf den bereich zu konzentrieren, der für ihre Arbeit am relevantesten ist.
 
-Wenn Sie eine Bucket-Spalte hinzufügen, beachten Sie Folgendes:
+Wenn Sie eine Bucketspalte hinzufügen, beachten Sie Folgendes:
 
-- Der Spaltenname wird zum Namen des Buckets. Jeder Bucket, den Sie angeben, wird in der Buckets-Liste in den Teams-apps angezeigt, die die Hierarchie verwenden. Wir empfehlen, keine vertraulichen Informationen in Bucket-Namen einzubeziehen. Zu diesem Zeitpunkt können Veröffentlichungsteams nach der Erstellung keinen Bucket durch Veröffentlichung entfernen.
-- Dem Spaltennamen muss ein hashtag (#) vorangestellt werden. Es kann bis zu 100 Zeichen lang sein und nur die Zeichen a-z, a-z und 0-9 enthalten. Beispielsweise #Operations und #Frozen waren.
-- Beim Start erwarten wir, dass 25 Bucket-Spalten unterstützt werden. Wir planen, mit Kunden zusammenzuarbeiten, um diesen Grenzwert für größere Organisationen zu erhöhen.
+- Der Spaltenname wird zum Namen des Buckets. Jeder von Ihnen festgelegte Bucket wird in der Bucketliste in den Teams-Apps angezeigt, die die Hierarchie verwenden. Es wird empfohlen, keine vertraulichen Informationen in Bucketnamen zu verwenden. Derzeit können Veröffentlichungsteams einen Bucket nach seiner Veröffentlichung nicht durch Veröffentlichen entfernen.
+- Dem Spaltennamen muss ein Hashtag (#) vorangehen. Er darf bis zu 100 Zeichen umfassen und nur die Zeichen A-Z, a-z und 0-9 enthalten. Beispiel: #Operations und #Frozen Waren"
+- Beim Start erwarten wir, dass 25 Bucketspalten unterstützt werden. Wir planen die Zusammenarbeit mit Kunden, um diesen Grenzwert für größere Organisationen zu erhöhen.
 
 ### <a name="example"></a>Beispiel
 
-Nachfolgend finden Sie ein Beispiel für eine CSV-Schemadatei, die zur Unterstützung der Hierarchie in der obigen Abbildung erstellt wird. Dieses Schema enthält Folgendes:
+Hier sehen Sie ein Beispiel für eine CSV-Schemadatei, die erstellt würde, um die in der Abbildung oben gezeigte Hierarchie zu unterstützen. Dieses Schema enthält Folgendes:
 
-- Drei erforderliche Spalten mit dem Namen " `TargetName` `ParentName` und" `TeamId`
-- Drei Attributspalten mit dem Namen " `Store layout` `Departments:Clothing` und" `Departments:Foods`
-- Drei Bucket-Spalten mit dem Namen " `Fresh Foods` `Frozen Foods` und" `Womenswear`
+- Drei erforderliche Spalten mit dem `TargetName` Namen `ParentName` , und `TeamId`
+- Drei Attributspalten mit dem `Store layout` `Departments:Clothing` Namen , und `Departments:Foods`
+- Drei Bucketspalten mit `Fresh Foods` dem `Frozen Foods` Namen ", und" `Womenswear`
 
-Das `Store layout` Attribut enthält Werte, die "und" enthalten `Compact` `Standard` `Large` . Die `Departments` Attributspalten können auf den Wert `0` (null) oder gesetzt werden `1` . Das `Store` Layout und die `Departments` Attribute werden in der obigen Abbildung nicht angezeigt. Sie werden hier hinzugefügt, um zu zeigen, wie Attribute zu Knoten Einträgen hinzugefügt werden können. Das gleiche gilt für die drei Bucket-Spalten.
+Das `Store layout` Attribut enthält Werte wie "," und `Compact` `Standard` "." `Large` Die `Departments` Attributspalten können auf einen Wert von `0` (Null) oder festgelegt `1` werden. Das `Store` Layout und die Attribute werden in der Abbildung oben nicht `Departments` angezeigt. Sie werden hier hinzugefügt, um zu zeigen, wie Knoteneinträgen Attribute hinzugefügt werden können. Dasselbe gilt für die drei Bucketspalten.
 
 
-| TargetName             | ParentName                      | Team-Nr                       | Store-Layout|Abteilungen: Kleidung|Abteilungen: Lebensmittel|#Fresh Foods|#Frozen Foods|#Womenswear|
+| TargetName             | ParentName                      | TeamId                       | Layout "Store"|Abteilungen:Bekleidung|Abteilungen:Lebensmittel|#Fresh Lebensmittel|#Frozen Lebensmittel|#Womenswear|
 |------------------------|-------------------------|--------------------------------------|-------------|---|---|---|---|---|
-| Zurückrufen                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
+| Rückruf                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
 | Kommunikation         |                         | 145399ce-a761-4843-a110-3077249037fc |||||||
 | HR                     |                         | b8f7db91-201c-4cf9-9f7e-90a4894ed8e4 |||||||
-| East Regional Office   |                         |                                      |||||||
-| West Regional Office   |                         |                                      |||||||
-| Nordöstliche Zone        | East Regional Office    |                                      |||||||
-| South East Zone        | East Regional Office    |                                      |||||||
-| New York Store         | Nordöstliche Zone         | e2ba65f6-25e7-488b-b8f0-b8562d5de60a |Groß|1|1||||
-| Boston Store           | Nordöstliche Zone         | 0454f08a-0507-437c-969a-682eb2fae7fc |Standard|1|1||||
-| Miami Store            | South East Zone         | 619d6e4e-5f68-4b36-8e1f-16c98d7396c1 |Compact|0|1||||
-| New Orleans-Store      | South East Zone         | 6be960b8-72af-4561-a343-9ac4711874eb |Compact|0|1||||
-| Seattle-Store          | West Regional Office    | 487c0d20-4e55-4dc2-8187-a24c826e0fee |Standard|1|1||||
-| Los Angeles-Store      | West Regional Office    | 204a1287-2efb-4a8a-88e0-56fbaf5a2389 |Groß|1|1||||
+| Regionales Büro Ost   |                         |                                      |||||||
+| Regionales Büro West   |                         |                                      |||||||
+| Zone im Osten des Ostens        | Regionales Büro Ost    |                                      |||||||
+| Südostzone        | Regionales Büro Ost    |                                      |||||||
+| New York Store         | Zone im Osten des Ostens         | e2ba65f6-25e7-488b-b8f0-b8562d5de60a |Groß|1|1||||
+| Speicher in Boston           | Zone im Osten des Ostens         | 0454f08a-0507-437c-969a-682eb2fae7fc |Standard|1|1||||
+| Der Store für 2010            | Südostzone         | 619d6e4e-5f68-4b36-8e1f-16c98d7396c1 |Kompakt|0|1||||
+| New Int.-Store      | Südostzone         | 6be960b8-72af-4561-a343-9ac4711874eb |Kompakt|0|1||||
+| Seattle Store          | Regionales Büro West    | 487c0d20-4e55-4dc2-8187-a24c826e0fee |Standard|1|1||||
+| Los Angeles Store      | Regionales Büro West    | 204a1287-2efb-4a8a-88e0-56fbaf5a2389 |Groß|1|1||||
 
-## <a name="apply-your-hierarchy"></a>Anwenden Ihrer Hierarchie
+## <a name="apply-your-hierarchy"></a>Anwenden der Hierarchie
 
 > [!IMPORTANT]
-> Um diesen Schritt ausführen zu können, müssen Sie das Public Preview-Modul von Teams PowerShell im [PowerShell-Katalog](https://www.powershellgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren von Teams PowerShell](teams-powershell-install.md).
+> Um diesen Schritt ausführen zu können, müssen Sie das Teams PowerShell Public Preview-Modul aus dem [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Gallery installieren und verwenden. Schritte zum Installieren des Moduls finden Sie unter ["Installieren von Teams PowerShell".](teams-powershell-install.md)
 
-Nachdem Sie Ihre Hierarchie in der CSV-Schemadatei definiert haben, können Sie Sie in Teams hochladen. Führen Sie dazu den folgenden Befehl aus. Sie müssen ein globaler Administrator oder Team Dienstadministrator sein, um diesen Schritt ausführen zu können.
+Nachdem Sie Ihre Hierarchie in der Schema-CSV-Datei definiert haben, können Sie sie in Teams hochladen. Führen Sie dazu den folgenden Befehl aus. Sie müssen ein globaler Administrator oder ein Teams-Dienstadministrator sein, um diesen Schritt ausführen zu können.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ```
 
-## <a name="remove-your-hierarchy"></a>Entfernen Ihrer Hierarchie
+## <a name="remove-your-hierarchy"></a>Entfernen der Hierarchie
 
 > [!IMPORTANT]
-> Um diesen Schritt ausführen zu können, müssen Sie das Public Preview-Modul von Teams PowerShell im [PowerShell-Katalog](https://www.powershellgallery.com/packages/MicrosoftTeams/)installieren und verwenden. Eine schrittweise Anleitung zum Installieren des Moduls finden Sie unter [Installieren von Teams PowerShell](teams-powershell-install.md).
+> Um diesen Schritt ausführen zu können, müssen Sie das Teams PowerShell Public Preview-Modul aus dem [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Gallery installieren und verwenden. Schritte zum Installieren des Moduls finden Sie unter ["Installieren von Teams PowerShell".](teams-powershell-install.md)
 
-Wenn Sie die Registerkarte " **veröffentlichte Listen** " für alle Benutzer in Ihrer Organisation sofort deaktivieren möchten, können Sie Ihre Hierarchie entfernen. Benutzer haben keinen Zugriff auf die Registerkarte **veröffentlichte Listen** oder auf eine der Funktionen auf der Registerkarte.  Dies umfasst die Möglichkeit zum Erstellen neuer Aufgabenlisten zum Veröffentlichen, zugreifen auf Entwurfs Listen, veröffentlichen, Aufheben der Veröffentlichung und Duplizieren von Listen sowie zum Anzeigen der Berichterstellung. Beim Entfernen der Hierarchie werden Aufgaben, die zuvor veröffentlicht wurden, nicht unveröffentlicht. Diese Aufgaben stehen weiterhin für Empfänger Teams zur Verfügung. 
+Wenn Sie die Registerkarte  "Veröffentlichte Listen" für alle Benutzer in Ihrer Organisation sofort deaktivieren möchten, können Sie die Hierarchie entfernen. Die Benutzer haben keinen Zugriff auf die **Registerkarte** "Veröffentlichte Listen" oder eine der Funktionen auf der Registerkarte.  Dies umfasst die Möglichkeit zum Erstellen neuer Aufgabenlisten zum Veröffentlichen, Zugreifen auf Entwurfslisten, Veröffentlichen, Aufheben der Veröffentlichung und Duplizieren von Listen sowie zum Anzeigen von Berichten. Durch das Entfernen der Hierarchie wird die Veröffentlichung von Vorgängen, die zuvor veröffentlicht wurden, nicht wieder aufheben. Diese Aufgaben bleiben für die Empfängerteams verfügbar. 
 
-Führen Sie den folgenden Befehl aus, um Ihre Hierarchie zu entfernen. Sie müssen ein Administrator sein, um diesen Schritt ausführen zu können. 
+Führen Sie zum Entfernen der Hierarchie den folgenden Befehl aus. Sie müssen ein Administrator sein, um diesen Schritt ausführen zu können. 
 
 ```powershell
 Remove-TeamTargetingHierarchy
@@ -139,28 +139,28 @@ Remove-TeamTargetingHierarchy
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-### <a name="you-receive-an-error-message-when-you-upload-your-schema-csv-file"></a>Beim Hochladen der CSV-Schemadatei wird eine Fehlermeldung angezeigt
+### <a name="you-receive-an-error-message-when-you-upload-your-schema-csv-file"></a>Beim Hochladen der Schema-CSV-Datei wird eine Fehlermeldung angezeigt
 
-Notieren Sie sich die Fehlermeldung, da Sie Informationen zur Problembehandlung enthalten sollte, um anzugeben, warum das Schema nicht hochgeladen werden konnte. Überprüfen und bearbeiten Sie Ihre Schema-CSV-Datei auf der Grundlage der Informationen in der Fehlermeldung, und versuchen Sie es dann erneut.
+Notieren Sie sich die Fehlermeldung, da sie Informationen zur Problembehandlung enthalten sollte, um anzugeben, warum das Schema nicht hochgeladen werden konnte. Überprüfen und bearbeiten Sie Ihre Schema-CSV-Datei basierend auf den Informationen in der Fehlermeldung, und versuchen Sie es dann erneut.
 
-### <a name="you-receive-an-error-invalidteamid-error-message-when-you-upload-your-schema-csv-file"></a>Beim Hochladen der CSV-Schemadatei wird die Fehlermeldung "Fehler: InvalidTeamId" angezeigt
+### <a name="you-receive-an-error-invalidteamid-error-message-when-you-upload-your-schema-csv-file"></a>Beim Hochladen der Schema-CSV-Datei wird die Fehlermeldung "Fehler: InvalidTeamId" angezeigt.
 
-Wenn Sie versuchen, Ihre CSV-Schemadatei hochzuladen, erhalten Sie die folgende Fehlermeldung:
+Wenn Sie versuchen, Ihre Schema-CSV-Datei hochzuladen, wird die folgende Fehlermeldung angezeigt:
 
 ```console
 Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Stellen Sie sicher, dass Sie die richtige Team-Nr für das Team in der CSV-Schemadatei verwenden. Die Team-ID sollte mit der Gruppen-ID der Microsoft 365-Gruppe identisch sein, die das Team zurückgibt. Im Microsoft Teams Admin Center können Sie die Gruppen-ID des Teams nachschlagen. 
+Stellen Sie sicher, dass Sie die richtige Team-ID für das Team in Ihrer Schema-CSV-Datei verwenden. Die TeamId sollte mit der Gruppen-ID der Microsoft 365-Gruppe identisch sein, die das Team unterstützt. Sie können die Gruppen-ID des Teams im Microsoft Teams Admin Center nachschauen. 
 
-1. Navigieren Sie in der linken Navigationsleiste des [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)zu **Teams**  >  **Verwalten von Teams**.
-2. Wenn die Spalte **"Gruppen-ID** " in der Tabelle nicht angezeigt wird, wählen Sie in der oberen rechten Ecke der Tabelle **Spalten bearbeiten** aus, und aktivieren Sie dann die **Gruppen-ID**.
+1. Wechseln Sie in der linken Navigationsleiste des [Microsoft Teams Admin Centers](https://admin.teams.microsoft.com/)zu **"Teams**  >  **verwalten".**
+2. Wenn die **Spalte "Gruppen-ID"** in der Tabelle nicht angezeigt wird, wählen Sie **"Spalten** bearbeiten" in der oberen rechten Ecke der Tabelle aus, und aktivieren Sie dann **"Gruppen-ID".**
 3. Suchen Sie das Team in der Liste, und suchen Sie dann die Gruppen-ID.
 
-Stellen Sie sicher, dass die Team-ID in ihrer Schema-CSV-Datei mit der Gruppen-ID übereinstimmt, die im Microsoft Teams Admin Center angezeigt wird. 
+Stellen Sie sicher, dass die TeamId in Ihrer Schema-CSV-Datei der Gruppen-ID entspricht, die im Microsoft Teams Admin Center angezeigt wird. 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Verwalten der Aufgaben-app für Ihre Organisation in Microsoft Teams](manage-tasks-app.md)
+- [Verwalten der App "Aufgaben" für Ihre Organisation in Teams](manage-tasks-app.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)

@@ -1,8 +1,8 @@
 ---
-title: Verwenden des Überwachungs Dashboards in Skype for Business Server
+title: Verwenden des Überwachungsdashboards in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Zusammenfassung: erfahren Sie mehr über das Überwachungs Dashboard in Skype for Business Server.'
-ms.openlocfilehash: c2c86d5d5ede9581a2b41f32594118ab2605d63a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über das Überwachungsdashboard in Skype for Business Server.'
+ms.openlocfilehash: 98a96b8a513bad485a25aff76a69d787fb3079b0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817824"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827785"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden des Überwachungs Dashboards in Skype for Business Server
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden des Überwachungsdashboards in Skype for Business Server
  
-**Zusammenfassung:** Informieren Sie sich über das Dashboard für die Überwachung in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über das Überwachungsdashboard in Skype for Business Server.
   
-Das Überwachungs Dashboard bietet Administratoren einen schnellen Überblick über den Systemstatus und die Systemnutzung von Skype for Business Server. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
+Das Überwachungsdashboard bietet Administratoren einen schnellen Überblick über den Systemzustand und die Systemauslastung von Skype for Business Server. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
   
-- Gesamtwerte für den aktuellen Tag. Beachten Sie, dass die für den aktuellen Tag angezeigten Werte Daten repräsentieren, die von Mitternacht bis zum aktuellen Zeitpunkt aufgezeichnet wurden (basierend auf der Ortszeit des Berichtsservers). Dies bedeutet, dass Sie in der Regel Daten für einen Teil des Tages und nicht für einen Zeitraum von 24 Stunden sehen. Wenn beispielsweise die lokale Zeit des Servers 8:00 Uhr beträgt, werden die Daten im Wert von acht Stunden angezeigt, da zwischen Mitternacht und der aktuellen Uhrzeit von 8:00 Uhr acht Stunden vorhanden sind.
+- Gesamtwerte für den aktuellen Tag. Beachten Sie, dass die für den aktuellen Tag angezeigten Werte Daten repräsentieren, die von Mitternacht bis zum aktuellen Zeitpunkt aufgezeichnet wurden (basierend auf der Ortszeit des Berichtsservers). Dies bedeutet, dass Sie in der Regel Daten für einen Teil des Tags, und nicht für einen Zeitraum von 24 Stunden sehen. Wenn die Ortszeit des Servers z. B. 8:00 Uhr ist, werden Acht Stunden datenwert, da zwischen Mitternacht und der aktuellen Uhrzeit 08:00 Uhr acht Stunden liegen.
     
 - Gesamtwerte für die Woche sowie Trendgesamtwerte für die letzten sechs Wochen.
     
 - Gesamtwerte für den Monat sowie Trendgesamtwerte für die letzten sechs Monate (nur für die Systemauslastung).
     
-Beachten Sie, dass Sie das Cmdlet " [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) " verwenden können, um die URL zurückzugeben, die für den Zugriff auf Skype for Business Server-Überwachungsberichte verwendet wird:
+Beachten Sie, dass Sie mit dem [Cmdlet "Get-CsReportingConfiguration"](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) die URL für den Zugriff auf Skype for Business Server-Überwachungsberichte zurückgeben können:
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -57,9 +57,9 @@ Standardmäßig werden im Monitoring-Dashboard Daten für die folgenden Metriken
     
 - Anwendungsfreigabe
     
-- Gesamtdauer der Audiositzungen in Minuten
+- Gesamtdauer der Audiositzung in Minuten
     
-- Durchschn. Dauer der Audiositzungen in Minuten
+- Durchschn. Dauer der Audiositzung in Minuten
     
   **Konferenz**
   
@@ -125,7 +125,7 @@ Konferenz
     
 - Anwendungsfreigabe-Fehlerrate
     
-Fünf Server mit den meisten fehlerhaften Sitzungen
+5 Server mit den meisten fehlerhaften Sitzungen
   
 ## <a name="media-quality-diagnostics"></a>Medienqualitätsdiagnose
 
@@ -145,11 +145,11 @@ Konferenz
     
 - PSTN-Anrufe schlechter Qualität
     
-Server mit dem höchsten Prozentsatz von Anrufen schlechter Qualität
+Server mit dem höchsten Prozentsatz der Anrufe schlechter Qualität
   
 ## <a name="working-with-the-monitoring-dashboard"></a>Arbeiten mit dem Monitoring-Dashboard
 
-Wie bereits erwähnt, werden standardmäßig Gesamtwerte für die aktuelle Woche sowie Trendwerte für die letzten sechs Wochen angezeigt. Wenn Sie Gesamtwerte für den aktuellen Monat (sowie Trendwerte für die letzten sechs Monate) vorziehen, klicken Sie in der oberen rechten Ecke des Dashboards auf den Link **Monatliche Ansicht**. Wenn Sie monatliche Gesamtwerte anzeigen, wird der Text des Links in **Wöchentliche Ansicht** geändert. Durch Klicken auf diesen Link wechseln Sie wieder zur wöchentlichen Ansicht.
+Wie bereits erwähnt, werden standardmäßig Gesamtwerte für die aktuelle Woche sowie Trendwerte für die letzten sechs Wochen angezeigt. Wenn Sie Gesamtwerte für den aktuellen Monat (sowie Trendwerte für die letzten sechs Monate) vorziehen, klicken Sie in der oberen rechten Ecke des Dashboards auf den Link **Monatliche Ansicht**. Falls Sie monatliche Gesamtwerte anzeigen, wird der Text des Links in **Wöchentliche Ansicht** geändert. Durch Klicken auf diesen Link wechseln Sie wieder zur wöchentlichen Ansicht.
   
 > [!TIP]
 > Im Monitoring-Dashboard werden Gesamtwerte für die aktuelle Woche (oder den aktuellen Monat) sowie Trendwerte für die letzten sechs Wochen (oder Monate) angezeigt. Diese Zeiträume können nicht geändert werden. Beispielsweise können Sie mit dem Dashboard keine Berichtgesamtwerte für die letzten neun Monate anzeigen. 
@@ -157,9 +157,9 @@ Wie bereits erwähnt, werden standardmäßig Gesamtwerte für die aktuelle Woche
 Mit den Werten in den Spalten **Diese Woche**, **Dieser Monat** oder **Heute** sind jeweils ausführlichere Informationen verknüpft. Bedenken Sie, dass der Spaltenname und die darin angezeigten Werte oft voneinander abweichen, je nachdem, welche Metrik Sie auswählen und ob Sie die wöchentliche Ansicht oder die monatliche Ansicht ausgewählt haben. Wenn Sie z. B. auf die angezeigten Gesamtwerte für die Metrik **Eindeutige Benutzeranmeldungen** klicken, wird der **Bericht über Benutzerregistrierung** für den angegebenen Zeitraum angezeigt. Durch Klicken auf **Dashboard** können Sie jederzeit wieder zum Monitoring-Dashboard wechseln.
   
 > [!TIP]
-> Sie können auch auf die Startseite der Monitoring Server-Berichte zugreifen, indem Sie in der oberen rechten Ecke des Dashboards auf den Link **Berichte** klicken.
+> Sie können auch auf die Startseite für  Monitoring Server-Berichte zugreifen, indem Sie in der oberen rechten Ecke des Dashboards auf den Link "Berichte" klicken.
   
-In der Spalte **Trend** wird ein einfaches Liniendiagramm mit den Gesamtwerten für die letzten sechs Wochen (oder in Abhängigkeit von der Metrik und dem Zeitintervall für die letzten sechs Tage oder die letzten sechs Monate) angezeigt. Diese einfachen Liniendiagramme enthalten einen unbeschrifteten Datenpunkt für jeden Zeitraum (z. B. einen unbeschrifteten Datenpunkt für jede der letzten sechs Wochen). Sie können jedoch tatsächliche Werte für diese Diagramme abrufen, indem Sie mit dem Mauszeiger über das Diagramm fahren. Es wird daraufhin eine QuickInfo mit den maximalen und minimalen Werten im Diagramm angezeigt.
+In der Spalte **Trend** wird ein einfaches Liniendiagramm mit den Gesamtwerten für die letzten sechs Wochen (oder in Abhängigkeit von der Metrik und dem Zeitintervall für die letzten sechs Tage oder die letzten sechs Monate) angezeigt. Diese einfachen Liniendiagramme enthalten einen unbeschrifteten Datenpunkt für jeden Zeitraum (z. B. einen unbeschrifteten Datenpunkt für jede der letzten sechs Wochen). Sie können jedoch tatsächliche Werte für diese Diagramme abrufen, indem Sie mit dem Mauszeiger auf das Diagramm zeigen. In diesem Fall enthält ein QuickInfo die Maximal- und Mindestwerte im Diagramm.
   
 ## <a name="exporting-data-from-the-monitoring-dashboard"></a>Exportieren von Daten aus dem Monitoring-Dashboard
 
@@ -179,21 +179,21 @@ Im Monitoring-Dashboard gibt es eine Reihe von Möglichkeiten zum Exportieren de
     
 - Word
     
-Zum Exportieren der aktuellen Dashboardansicht (und der zugehörigen Werte), klicken Sie auf die gewünschte Exportoption. Skype for Business Server generiert einen Bericht im angegebenen Format und gibt Ihnen dann die Möglichkeit, diesen Bericht zu öffnen oder zu speichern. Beachten Sie, dass Skype for Business Server standardmäßig das Dashboard für die Berichts **Überwachung** ausgibt und es in Ihrem Ordner "Downloads" speichert. Wenn Sie den Bericht anders benennen oder in einem anderen Ordner speichern möchten, klicken Sie auf den Pfeil neben der Schaltfläche **Speichern** und klicken Sie dann auf **Speichern unter**. Wenn Sie den Namen **Monitoring-Dashboard** übernehmen und den Bericht im Ordner „Downloads“ speichern möchten, können Sie einfach auf die Schaltfläche **Speichern** klicken.
+Klicken Sie auf die gewünschte Exportoption, um die aktuelle Dashboardansicht (und deren Werte) zu exportieren. Skype for Business Server generiert einen Bericht im angegebenen Format und gibt Ihnen dann die Möglichkeit, diesen Bericht zu öffnen oder zu speichern. Beachten Sie, dass Skype for Business  Server standardmäßig das Überwachungsdashboard des Berichts betitelt und im Ordner "Downloads" speichert. Um dem Bericht einen anderen Namen zu geben oder ihn in  einem anderen Ordner zu speichern, klicken Sie auf den Pfeil neben der Schaltfläche "Speichern" und dann auf "Speichern **unter".** Wenn Sie mit  dem Namen des Überwachungsdashboards in Ordnung sind und den Bericht im Ordner "Downloads" gespeichert haben, können Sie einfach auf die Schaltfläche **"Speichern"** klicken.
   
-Beim Exportieren von Dashboarddaten wird möglicherweise ein **Sicherheitshinweis** angezeigt, dass Ihre aktuellen Einstellungen das Herunterladen dieser Datei nicht zulassen. Führen Sie in diesem Fall die folgenden Aktionen aus:
+Beim Exportieren von Dashboarddaten wird möglicherweise ein Sicherheitshinweisangezeigt, dass Ihre aktuellen Einstellungen das Herunterladen dieser Datei nicht zulassen. Führen Sie in diesem Fall die folgenden Aktionen aus:
   
 - Wählen Sie in Internet Explorer die Option **Internetoptionen** aus.
     
 - Klicken Sie im Dialogfeld **Internetoptionen** auf der Registerkarte **Sicherheit** auf **Vertrauenswürdige Sites** und dann auf **Sites**.
     
-- Klicken Sie im Dialogfeld **vertrauenswürdige Websites** auf **Hinzufügen** , um den Skype for Business-Server, auf dem Skype for Business Server-Berichte ausgeführt werden, den Sammlungen vertrauenswürdiger Websites hinzuzufügen.
+- Klicken Sie im Dialogfeld  **"Vertrauenswürdige** Sites" auf "Hinzufügen", um den Skype for Business Server, auf dem Skype for Business Server-Berichte ausgeführt werden, den Sammlungen vertrauenswürdiger Websites hinzuzufügen.
     
 - Klicken Sie auf **Schließen** und dann auf **OK**.
     
-Anschließend müssen Sie das Monitoring-Dashboard aktualisieren, damit die Änderungen wirksam werden. Drücken Sie dazu entweder F5 oder klicken in der Symbolleiste des Dashboards auf das Symbol **Aktualisieren**. (Das Symbol **Aktualisieren** ist ein Kreis, in dem sich ein grünes Pfeilpaar befindet.)
+Anschließend müssen Sie das Monitoring-Dashboard aktualisieren, damit die Änderungen wirksam werden. Dazu drücken Sie entweder F5 oder klicken in der Symbolleiste des Dashboards auf das Symbol **Aktualisieren**. (Das Symbol **Aktualisieren** ist ein Kreis, in dem sich ein grünes Pfeilpaar befindet.)
   
-Sie können auch ein Excel-Arbeitsblatt mit Livedatenfeeds erstellen, das Links zu den neuesten Monitoring-Dashboard-Daten enthält. Zum Erstellen einer Livedatenfeed-Datei klicken Sie in der Symbolleiste auf das orangefarbene Symbol **In Datenfeed exportieren**.
+Sie können auch eine Excel-Kalkulationstabelle mit Livedatenfeeds erstellen, die Links zu den neuesten Monitoring-Dashboard-Daten enthält. Zum Erstellen einer Livedatenfeed-Datei klicken Sie in der Symbolleiste auf das orangefarbene Symbol **In Datenfeed exportieren**.
   
 Wenn Sie das aktuelle Dashboard drucken möchten, klicken Sie in der Symbolleiste auf das Druckersymbol.
   

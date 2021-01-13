@@ -1,8 +1,8 @@
 ---
-title: Diagnoseberichte für Medienqualität in Skype for Business Server
+title: Diagnoseberichte über Medienqualität in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,40 +11,40 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
-description: 'Zusammenfassung: erfahren Sie mehr über die diagnostischen Berichte zur Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: e02ea51681b31b524bf87005e7c4b4fcf48bef62
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über die Diagnoseberichte über Medienqualität in Skype for Business Server.'
+ms.openlocfilehash: a00084605941af80435dd5da73efbfea89a6272f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817864"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827835"
 ---
-# <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Diagnoseberichte für Medienqualität in Skype for Business Server
+# <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Diagnoseberichte über Medienqualität in Skype for Business Server
  
-**Zusammenfassung:** Informieren Sie sich über die diagnostischen Berichte zur Medienqualität in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über die Diagnoseberichte über Medienqualität in Skype for Business Server.
   
 Die Medienqualitäts-Diagnoseberichte bieten Informationen über die Anrufqualität sowie Diagnosedaten und Hinweise zur Problembehandlung für Anrufe, bei denen Fehler aufgetreten sind.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Zusammenfassungsbericht für Medienqualität in Skype for Business Server](summary.md) Bietet allgemeine Qualitätsdaten für unterschiedliche Endpunkttypen, darunter Enterprise-VoIP-Peer-to-Peer-Anrufe, Enterprise-VoIP-Konferenzanrufe und Anrufe, die zumindest teilweise auf dem öffentlichen Telefonnetz (PSTN) beruhen.
+- [Zusammenfassender Bericht über Medienqualität in Skype for Business Server](summary.md) Stellt Allgemeine Qualitätsdaten für unterschiedliche Endpunkttypen, einschließlich Enterprise-VoIP Peer-to-Peer-Anrufe, Enterprise-VoIP-Konferenzanrufe und Anrufe, die zumindest teilweise auf das Telefonnetz (Public Switched Telephone Network, PSTN) angewiesen sind.
     
-- [Bericht zum Vergleich der Medienqualität in Skype for Business Server](comparison.md) Bietet einen Vergleich der Werte für die Anrufqualität für verschiedene Arten von Audioanrufen (beispielsweise Anrufe, die über ein Drahtlosnetzwerk getätigt wurden, und Anrufe, die über eine Kabelverbindung erfolgen).
+- [Bericht über Medienqualität in Skype for Business Server](comparison.md) Bietet einen Vergleich der Anrufqualitätswerte für verschiedene Arten von Audioanrufen (z. B. Anrufe über ein Drahtlosnetzwerk im Vergleich zu Anrufen über eine kabelgebundene Verbindung).
     
-- [Bericht zur Server Leistung in Skype for Business Server](server-performance.md) Listet die Server auf, bei denen die meisten Probleme aufgetreten sind, basierend auf der Messung solcher wichtigen Qualitäts Metriken wie Degradation, Paketverlust und Jitter.
+- [Bericht über Serverleistung in Skype for Business Server](server-performance.md) Listet die Server auf, auf denen die meisten Probleme auf der Grundlage von Messungen wichtiger Qualitätsmetriken wie Beeinträchtigung, Paketverlust und Jitter auftingen.
     
-- [Standortbericht in Skype for Business Server](location-report.md) Enthält eine Liste der Netzwerkspeicherorte und eine Zusammenfassung der Medienqualität der Anrufe, die an jedem Standort erfolgen. Für die Zwecke dieses Berichts basieren Speicherorte auf IP-Subnetzen.
+- [Standortbericht in Skype for Business Server](location-report.md) Enthält eine Liste der Netzwerkstandorte und eine Zusammenfassung der Medienqualität der Anrufe, die an jedem Standort stattfinden. Für diesen Bericht basieren Standorte auf IP-Subnetzen.
     
-- [Gerätebericht in Skype for Business Server](device-report.md) Enthält eine Zusammenfassung der Geräte, die für Enterprise-VoIP-Anrufe verwendet werden, und umfasst die durchschnittliche Medienqualität der Anrufe nach Gerät.
+- [Gerätebericht in Skype for Business Server](device-report.md) Enthält eine Zusammenfassung der Geräte, die für Enterprise-VoIP verwendet werden, und enthält die durchschnittliche Medienqualität der Anrufe nach Gerät.
     
-- [Bericht zur Anrufliste in Skype for Business Server](call-list-report-0.md) Enthält detaillierte Informationen zu Telefon anrufen, die in Ihrer Organisation getätigt oder empfangen wurden.
+- [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) Enthält ausführliche Informationen zu Anrufen, die in Ihrer Organisation vorgenommen oder empfangen wurden.
     
-- [Anruf Detail Bericht in Skype for Business Server](call-detail-report.md) Enthält detaillierte Informationen zu Telefon anrufen, die in Ihrer Organisation getätigt oder empfangen wurden.
+- [Anrufdetailbericht in Skype for Business Server](call-detail-report.md) Enthält ausführliche Informationen zu Anrufen, die in Ihrer Organisation vorgenommen oder empfangen wurden.
     
-- [Trend Bericht zur Server Medienqualität in Skype for Business Server](server-media-quality-trend-report.md) Bietet eine Möglichkeit, bis zu fünf Server auf der Grundlage der Qualität von Erfahrungswerten wie Anruflautstärke, schlechter Anruf Prozentsatz, Paketverlust und Jitter grafisch zu vergleichen.
+- [Trendbericht über Medienqualität des Servers in Skype for Business Server](server-media-quality-trend-report.md) Bietet ihnen die Möglichkeit, bis zu fünf Server mit Quality of Experience-Metriken wie Anrufvolumen, Prozentsatz schlechter Anrufe, Paketverlust und Jitter grafisch zu vergleichen.
     
-- [Der Verteilungs Bericht zur Medien Qualitätsmetrik in Skype for Business Server](media-quality-metrics-distribution-report.md) Stellt ein Diagramm bereit, in dem die Verteilungswerte für eine Qualität der Erfahrungs Metrik wie Jitter oder Paketverlust angezeigt werden.
+- [Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server](media-quality-metrics-distribution-report.md) Stellt ein Diagramm zur Darstellung der Verteilungswerte für eine Quality of Experience-Metrik wie Jitter oder Paketverlust dar.
     
-- [Standort Trend Bericht in Skype for Business Server](location-trend-report.md) Bietet Trendinformationen zur Anrufqualität für Netzwerkspeicherorte.
+- [Standorttrendbericht in Skype for Business Server](location-trend-report.md) Stellt Trendinformationen zur Anrufqualität für Netzwerkstandorte zur Verfügung.
     
 

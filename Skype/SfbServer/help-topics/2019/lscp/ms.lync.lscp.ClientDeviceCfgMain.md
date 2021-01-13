@@ -1,8 +1,8 @@
 ---
 title: Geräteprotokollkonfiguration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,52 +14,52 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
-description: Der Geräteaktualisierungs-Webdienst erstellt automatisch Protokolldateien, mit denen die Aktivität bei der Geräteaktualisierung aufgezeichnet wird. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation empfiehlt es sich, Schwellenwerte für die Größe des Protokolldaten Caches, die Größe der Protokolldatei oder den Zeitraum festzulegen, in dem eine Protokolldatei aufbewahrt wird, bevor Sie bereinigt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Falls Sie nicht möchten, dass der Geräteaktualisierungs-Webdienst die Protokolldateien automatisch löscht, können Sie diese je nach Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
-ms.openlocfilehash: 43fc784113a81038469099807770945ee2fbcc3b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Der Geräteaktualisierungswebdienst erstellt automatisch Protokolldateien, die Geräteaktualisierungsaktivitäten aufzeichnen. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation können Sie Schwellenwerte für die Größe des Protokolldatencaches, die Protokolldateigröße oder die Dauer festlegen, die eine Protokolldatei vor dem Löschen aufbewahrt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Wenn sie vom Geräteaktualisierungswebdienst nicht automatisch gelöscht werden sollen, können Sie sie bei Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
+ms.openlocfilehash: 118f2e6d90e9c3f7559a5e129c844ccdf1ea9bf1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794554"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830335"
 ---
 # <a name="device-log-configuration"></a>Geräteprotokollkonfiguration
 
-Der Geräteaktualisierungs-Webdienst erstellt automatisch Protokolldateien, mit denen die Aktivität bei der Geräteaktualisierung aufgezeichnet wird. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation empfiehlt es sich, Schwellenwerte für die Größe des Protokolldaten Caches, die Größe der Protokolldatei oder den Zeitraum festzulegen, in dem eine Protokolldatei aufbewahrt wird, bevor Sie bereinigt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Falls Sie nicht möchten, dass der Geräteaktualisierungs-Webdienst die Protokolldateien automatisch löscht, können Sie diese je nach Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
+Der Geräteaktualisierungswebdienst erstellt automatisch Protokolldateien, die Geräteaktualisierungsaktivitäten aufzeichnen. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation können Sie Schwellenwerte für die Größe des Protokolldatencaches, die Protokolldateigröße oder die Dauer festlegen, die eine Protokolldatei vor dem Löschen aufbewahrt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Wenn sie vom Geräteaktualisierungswebdienst nicht automatisch gelöscht werden sollen, können Sie sie bei Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
 
 > [!NOTE]
-> Sie können auch eine Uhrzeit konfigurieren, zu der der Geräteaktualisierungs-Webdienst automatisch Protokolldateien löscht, die älter sind als die angegebene Anzahl von Tagen für die Speicherung der Protokolldateien durch den Dienst (in der Standardeinstellung sind dies Protokolldateien, die älter als 10 Tage sind). Diese Einstellung kann mit der Skype for Business Server-Systemsteuerung nicht geändert werden. Stattdessen müssen Sie die Skype for Business Server-Verwaltungsshell verwenden. Wenn Sie die Uhrzeit zum Löschen abgelaufener Protokolldateien angeben möchten, verwenden Sie das Cmdlet **New-CsDeviceUpdateConfiguration** mit dem Parameter-LogCleanUpTimeOfDay. Ausführliche Informationen finden Sie unter [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps).
+> Sie können auch eine Uhrzeit konfigurieren, zu der der Geräteaktualisierungswebdienst automatisch Protokolldateien löscht, die älter sind als die Anzahl der Tage, die Sie für den Dienst zum Speichern von Protokolldateien konfiguriert haben (standardmäßig protokolldateien, die älter als 10 Tage sind). Diese Einstellung kann nicht mithilfe der Skype for Business Server-Systemsteuerung geändert werden. Stattdessen müssen Sie die Skype for Business Server-Verwaltungsshell verwenden. Um die Uhrzeit anzugeben, zu der abgelaufene Protokolldateien gelöscht werden, verwenden Sie das **Cmdlet "New-CsDeviceUpdateConfiguration"** mit dem Parameter "-LogCleanUpTimeOfDay". Weitere Informationen finden Sie unter [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps).
 
 > [!CAUTION]
 > Durch das dauerhafte Löschen von Dateien werden diese aus dem Dateisystem entfernt. Nach dem Löschen einer Datei kann diese nicht mehr wiederhergestellt werden.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite **Geräteprotokollkonfiguration** können Sie die folgenden Aufgaben ausführen:
+Auf der Seite "Geräteprotokollkonfiguration" können Sie **die folgenden Aufgaben** ausführen:
 
-- Hinzufügen einer Geräteprotokollkonfiguration auf globaler Ebene oder für einen bestimmten Standort oder Pool
+- Fügen Sie eine Geräteprotokollkonfiguration global oder für einen bestimmten Standort oder Pool hinzu.
 
-- Ändern der Optionen für eine vorhandene Geräteprotokollkonfiguration
+- Ändern Sie die Optionen für eine vorhandene Geräteprotokollkonfiguration.
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Neu** Sie können eine neue geräteprotokoll Konfiguration mit dem folgenden Bereich hinzufügen:
+- **Neu** Sie können eine neue Geräteprotokollkonfiguration mit dem folgenden Bereich hinzufügen:
 
   - Global
 
-  - Standort
+  - Website
 
-- **Bearbeiten** von Sie können die Optionen für eine geräteprotokoll Konfiguration in der Liste ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
+- **Bearbeiten** Sie können die Optionen einer Geräteprotokollkonfiguration in der Liste ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
 
-  - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine geräteprotokoll Konfiguration ändern können.
+  - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine Geräteprotokollkonfiguration ändern können.
 
-  - **Alle auswählen** Mit dieser Option wird die gesamte geräteprotokoll Konfiguration in der Liste ausgewählt.
+  - **Alles auswählen** Mit dieser Option werden alle Geräteprotokollkonfigurationen in der Liste ausgewählt.
 
-  - **Löschen** Mit dieser Option wird alle ausgewählte geräteprotokoll Konfiguration gelöscht.
+  - **Löschen** Mit dieser Option werden alle ausgewählten Geräteprotokollkonfigurationen gelöscht.
 
-- **Aktualisieren** Sie können die geräteprotokoll-Konfigurationsliste aktualisieren, um den Status der Optionen für die gesamte geräteprotokoll Konfiguration zu überprüfen.
+- **Aktualisieren** Sie können die Geräteprotokollkonfigurationsliste aktualisieren, um den Status der Optionen aller Geräteprotokollkonfigurationen zu überprüfen.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Modify Settings for Log Files of Device Update Activity](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
+[Ändern von Protokolldateieinstellungen für die Geräteaktualisierung](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)

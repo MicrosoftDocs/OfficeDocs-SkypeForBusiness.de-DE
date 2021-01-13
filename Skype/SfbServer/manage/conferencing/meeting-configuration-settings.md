@@ -1,8 +1,8 @@
 ---
-title: Verwalten von Besprechungs Konfigurationseinstellungen in Skype for Business Server
+title: Verwalten von Besprechungskonfigurationseinstellungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Konfigurationseinstellungen für Besprechungen in Skype for Business Server verwalten.'
-ms.openlocfilehash: cefdf304d8cf5ed6ff4560dd5416283d733c3db2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server verwalten.'
+ms.openlocfilehash: c34723219839061e36b2684dff81efd5cd914843
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818526"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828085"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Verwalten von Besprechungs Konfigurationseinstellungen in Skype for Business Server
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Verwalten von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie die Konfigurationseinstellungen für Besprechungen in Skype for Business Server verwalten.
+**Zusammenfassung:** Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server verwalten.
   
-In diesem Themenbereich wird die Verwaltung der Einstellungen der Besprechungskonfiguration beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) und [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+In diesem Thema wird die Verwaltung von Besprechungskonfigurationseinstellungen beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter "Planen von Konferenzen [in Skype for Business Server"](../../plan-your-deployment/conferencing/conferencing.md) und "Bereitstellen von Konferenzen in Skype for Business [Server".](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
-Die Konfigurationseinstellungen für Besprechungen diktieren die Art der Besprechungen, die Benutzer erstellen können, und Steuern, wie (oder sogar ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Besprechungen teilnehmen können. Beachten Sie, dass sich diese Einstellungen nur auf geplante Besprechungen auswirken. Sie wirken sich nicht auf Ad-hoc-Besprechungen aus, die durch Klicken auf die Option "jetzt besprechen" in Skype for Business erstellt wurden.
+Besprechungskonfigurationseinstellungen bestimmen die Art von Besprechungen, die Benutzer erstellen können, und steuern zusätzlich, wie (oder auch ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Besprechungen teilnehmen können. Beachten Sie, dass sich diese Einstellungen nur auf geplante Besprechungen auswirken. sie wirken sich nicht auf Ad-hoc-Besprechungen aus, die durch Klicken auf die Option "Sofortbesprechungen" in Skype for Business erstellt werden.
   
-Die Konfigurationseinstellungen für Besprechungen definieren Folgendes:
+Die Besprechungskonfigurationseinstellungen definieren Folgendes:
   
-- Werden Benutzer, die sich über das Telefonfestnetz (PSTN, Public Switched Telephone Network) einwählen, in den Wartebereich umgeleitet?
+- Ob Benutzer, die sich aus dem Telefonfestnetz einwählen, zum Wartebereich weitergeleitet werden
     
-- Welche Benutzer können als Referenten fungieren?
+- Wer als Referent agieren darf
     
-- Wird der Konferenztyp standardmäßig zugeordnet?
+- Ob der Konferenztyp standardmäßig zugewiesen wird
     
-- Werden anonyme Benutzer (ohne Authentifizierung) standardmäßig zugelassen?
+- Ob anonyme (nicht authentifizierte) Benutzer standardmäßig zugelassen werden
     
-Sie können die Merkmale von Besprechungen mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell definieren. 
+Sie können Die Merkmale von Besprechungen mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell definieren. 
   
-Sie können Besprechungseinstellungen auf globaler Ebene (standardmäßig erstellt), Websiteebene oder Poolebene angeben. Standardmäßig werden die Besprechungen über die globalen Einstellungen definiert. Wenn Sie Einstellungen auf der Poolebene erstellen, gelten diese für alle Besprechungen, die von dem jeweiligen Pool gehostet werden. Wenn Sie keine Einstellungen auf der Poolebene erstellen, gelten die auf der Standortebene definierten Einstellungen (sofern vorhanden). Sind keine Einstellungen auf der Standortebene definiert, werden die globalen Einstellungen auf sämtliche Besprechungen angewendet.
+Sie können Besprechungseinstellungen auf globaler (standardmäßiger), Standort- oder Poolebene angeben. Standardmäßig definieren die globalen Einstellungen die Besprechungserfahrung. Wenn Sie Einstellungen auf Poolebene erstellen, gelten diese Einstellungen für alle Besprechungen, die von diesem Pool gehostet werden. Wenn Sie keine Einstellungen auf Poolebene erstellen, gelten die Einstellungen auf Standortebene, sofern vorhanden. Wenn Sie keine Einstellungen auf Standortebene definieren, gelten die globalen Einstellungen für alle Besprechungen.
   
 ## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a>Verwalten von Besprechungseinstellungen mithilfe der Skype for Business Server-Systemsteuerung
 
 So verwalten Sie Besprechungseinstellungen mithilfe der Skype for Business Server-Systemsteuerung:
   
-1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
 2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und anschließend auf **Besprechungskonfiguration**.
+3. Klicken Sie in der linken Navigationsleiste **auf "Konferenzen"** und dann auf **"Besprechungskonfiguration".**
     
 ## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Verwalten von Besprechungseinstellungen mithilfe der Skype for Business Server-Verwaltungsshell
 
-Verwenden Sie zum Verwalten von Besprechungen mithilfe der Skype for Business Server-Verwaltungsshell die folgenden Cmdlets:
+Verwenden Sie die folgenden Cmdlets, um Besprechungen mithilfe der Skype for Business Server-Verwaltungsshell zu verwalten:
   
 **Konfigurationseinstellungen für Besprechungen**
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |Gibt Informationen zu den derzeit in Ihrer Organisation verwendeten Besprechungskonfigurationseinstellungen zurück.  <br/> |
-|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von Konfigurationseinstellungen für Besprechungen auf Standort- oder Dienstebene.  <br/> |
-|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Löscht eine vorhandene Auflistung von Konfigurationseinstellungen für Besprechungen.  <br/> |
-|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Passt die derzeit in Ihrer Organisation verwendeten Besprechungskonfigurationseinstellungen an.  <br/> |
+|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von Besprechungskonfigurationseinstellungen auf Standort- oder Dienstseite.  <br/> |
+|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Löscht eine vorhandene Auflistung von Besprechungskonfigurationseinstellungen.  <br/> |
+|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Ändert die derzeit in Ihrer Organisation verwendeten Besprechungskonfigurationseinstellungen.  <br/> |
    
 
