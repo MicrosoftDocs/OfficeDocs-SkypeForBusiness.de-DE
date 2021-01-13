@@ -1,8 +1,8 @@
 ---
-title: Client-Versions Konfiguration neues erstellen oder vorhandenes bearbeiten
+title: Clientversionskonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen Clientversionskonfiguration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Client Version-Konfigurationseinstellungen werden verwendet, um die Client Versionskontrolle zu aktivieren oder zu deaktivieren. Die Konfiguration der globalen Client Version wird mit Skype for Business Server installiert und wird verwendet, um die Client Versionskontrolle für die gesamte Server Bereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle von Ihnen eingerichteten clientversionsrichtlinien wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die Konfiguration der globalen Client Version deaktivieren, wenn keine Client Versionskontrolle erfolgen soll.
-ms.openlocfilehash: c0225947f3346e129768fc6e61dc9484e916be75
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Konfigurationseinstellungen für Clientversion werden verwendet, um die Clientversionssteuerung zu aktivieren oder zu deaktivieren. Die globale Clientversionskonfiguration wird mit Skype for Business Server installiert und verwendet, um die Clientversionskontrolle für die gesamte Serverbereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle von Ihnen verwendeten Clientversionsrichtlinien wirksam, wenn Benutzer versuchen, sich zu anmelden. Sie können die globale Clientversionskonfiguration deaktivieren, wenn keine Clientversionskontrolle erfolgen soll.
+ms.openlocfilehash: e42d2c9e6d06bc72cd64de148454d28aab41483d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794574"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812365"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Clientversionskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Clientversionskonfiguration
 
-Client Version-Konfigurationseinstellungen werden verwendet, um die Client Versionskontrolle zu aktivieren oder zu deaktivieren. Die Konfiguration der globalen Client Version wird mit Skype for Business Server installiert und wird verwendet, um die Client Versionskontrolle für die gesamte Server Bereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle von Ihnen eingerichteten clientversionsrichtlinien wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die Konfiguration der globalen Client Version deaktivieren, wenn keine Client Versionskontrolle erfolgen soll.
+Konfigurationseinstellungen für Clientversion werden verwendet, um die Clientversionssteuerung zu aktivieren oder zu deaktivieren. Die globale Clientversionskonfiguration wird mit Skype for Business Server installiert und verwendet, um die Clientversionskontrolle für die gesamte Serverbereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle von Ihnen verwendeten Clientversionsrichtlinien wirksam, wenn Benutzer versuchen, sich zu anmelden. Sie können die globale Clientversionskonfiguration deaktivieren, wenn keine Clientversionskontrolle erfolgen soll.
 
 Sie können auch standortspezifische Clientversionskonfigurationen erstellen, um die Clientversionskontrolle pro Standort aktivieren und deaktivieren zu können. Standortspezifische Konfigurationen haben Vorrang vor der globalen Konfiguration.
 
@@ -42,23 +42,23 @@ Auf der Seite **Neue Clientversionskonfiguration erstellen** oder **Clientversio
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Bereich** Identifiziert den Bereich (Global oder Website) der Client Versions Konfiguration.
+- **Bereich** Gibt den Bereich (Global oder Standort) der Clientversionskonfiguration an.
 
-- **Name** Sie können den Namen der Client Versions Konfiguration hinzufügen oder ändern.
+- **Name** Sie können den Namen der Clientversionskonfiguration hinzufügen oder ändern.
 
-- **Aktivieren der Versionskontrolle** Je nach dem Umfang der Konfiguration können Sie die Client Versionskontrolle Global oder für die Website aktivieren oder deaktivieren.
+- **Aktivieren der Versionssteuerung** Je nach Umfang der Konfiguration können Sie die Clientversionskontrolle global oder für den Standort aktivieren oder deaktivieren.
 
-- **Standardaktion** Sie können die Standardaktion auswählen, die angewendet werden soll, wenn ein Benutzer versucht, sich mit einer Clientanwendung anzumelden, für die es keine spezifische clientversionsrichtlinie gibt. Sie haben folgende Optionen:
+- **Standardaktion** Sie können die Standardaktion auswählen, die angewendet wird, wenn ein Benutzer versucht, sich mit einer Clientanwendung zu anmelden, für die keine bestimmte Clientversionsrichtlinie besteht. Sie haben folgende Optionen:
 
-  - **Zulassen** Ermöglicht es dem Client, sich anzumelden, wenn die Client Version keinem Filter in der Liste der clientversionsrichtlinien entspricht.
+  - **Zulassen** Ermöglicht dem Client die Anmeldung, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entsprechen.
 
-  - **Blockieren** Verhindert, dass der Client sich anmeldet, wenn die Client Version keinem Filter in der Liste der clientversionsrichtlinien entspricht.
+  - **Block** Verhindert, dass sich der Client anmelden kann, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entsprechen.
 
-  - **Block mit URL** Verhindert, dass der Client sich anmeldet, wenn die Client Version keinem Filter in der Liste der clientversionsrichtlinien entspricht und eine Fehlermeldung mit einer URL enthält, in der ein neuerer Client heruntergeladen werden kann.
+  - **Block mit URL** Verhindert die Anmeldung des Clients, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entsprechen, und enthält eine Fehlermeldung mit einer URL, unter der ein neuerer Client heruntergeladen werden kann.
 
-  - **Mit URL zulassen** Ermöglicht es dem Client, sich anzumelden, wenn die Client Version keinem Filter in der Liste der clientversionsrichtlinien entspricht und eine Fehlermeldung mit einer URL enthält, in der ein neuerer Client heruntergeladen werden kann.
+  - **Zulassen mit URL** Ermöglicht dem Client die Anmeldung, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entsprechen, und enthält eine Fehlermeldung mit einer URL, unter der ein neuerer Client heruntergeladen werden kann.
 
-  - **URL** Wenn Sie **Block mit URL** oder **Allow with URL**ausgewählt haben, können Sie die Client Download-URL angeben, die in die Fehlermeldung aufgenommen werden soll.
+  - **URL** Wenn Sie **"Mit URL blockieren"** oder **"Mit URL** zulassen" ausgewählt haben, können Sie die Clientdownload-URL angeben, die in die Fehlermeldung enthalten sein soll.
 
-Details zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperabilität](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie in der Betriebsdokumentation unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx).
+Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in der Betriebsdokumentation.
 

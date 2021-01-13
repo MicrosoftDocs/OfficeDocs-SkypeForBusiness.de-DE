@@ -1,8 +1,8 @@
 ---
-title: Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business
+title: Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,37 +15,37 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 'Sie können netzwerkregionen, Netzwerk Websites und Netzwerk-Subnetze in Skype for Business Server erstellen oder ändern. Alle diese Funktionen werden für die erweiterten Enterprise-VoIP-Features verwendet: medienumgehung, Anrufsteuerung und standortbasiertes Routing.'
-ms.openlocfilehash: e181e8fffc431db67e0e597f3e8dccba710efdd5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Erstellen oder Ändern von Netzwerkregionen, Netzwerkstandorten und Zuordnen von Netzwerksubnetzen in Skype for Business Server. Alle diese Funktionen werden für die erweiterten Enterprise-VoIP verwendet: Medienumgehung, Anrufsteuerung und standortbasiertes Routing.'
+ms.openlocfilehash: 408715cb1baa31e1fe864827a2b2a14d8e4788c6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767518"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812435"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business
 
-Sie können netzwerkregionen, Netzwerk Websites und Netzwerk-Subnetze in Skype for Business Server erstellen oder ändern. Alle diese Funktionen werden für die erweiterten Enterprise-VoIP-Features verwendet: medienumgehung, Anrufsteuerung und standortbasiertes Routing.
+Erstellen oder Ändern von Netzwerkregionen, Netzwerkstandorten und Zuordnen von Netzwerksubnetzen in Skype for Business Server. Alle diese Funktionen werden für die erweiterten Enterprise-VoIP verwendet: Medienumgehung, Anrufsteuerung und standortbasiertes Routing.
 
-Zu den erweiterten Enterprise-VoIP-Features gehören [Anrufsteuerung](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [medienumgehung](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [Orts basiertes Routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)und [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Für alle diese Funktionen müssen Sie Netzwerkregionen, Netzwerkstandorte und Subnetze erstellen. Beispiel: Für alle diese Funktionen ist es erforderlich, dass jedes Subnetz in Ihrer Topologie einem bestimmten Netzwerkstandort und jeder Netzwerkstandort einer Netzwerkregion zugeordnet ist. Weitere Informationen zu diesen Begriffen finden Sie unter [Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
+Die erweiterten Enterprise-VoIP sind [Anrufsteuerung,](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) [Medienumgehung,](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) [standortbasiertes Routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)und [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Für diese Features müssen Sie Netzwerkregionen, Netzwerkstandorte und Subnetze erstellen. Für alle diese Features muss beispielsweise jedes Subnetz in Ihrer Topologie einem bestimmten Netzwerkstandort zugeordnet sein, und jeder Netzwerkstandort muss einer Netzwerkregion zugeordnet sein. Weitere Informationen zu diesen Begriffen finden Sie unter ["Netzwerkeinstellungen" für](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)die erweiterten Enterprise-VoIP in Skype for Business Server .
 
 Für die Anrufsteuerung und E9-1-1 gelten bei den Netzwerkstandorten zusätzliche Konfigurationsanforderungen:
 
-- Die Anrufsteuerung erfordert, dass ein Bandbreitenrichtlinienprofil für jeden Standort angegeben wird, für den WAN-Bandbreiteneinschränkungen gelten. Wenn Sie beabsichtigen, die Anrufsteuerung bereitzustellen, müssen Sie [in Skype for Business Server bandbreitenrichtlinienprofile erstellen](create-bandwidth-policy-profiles.md) , bevor Sie Ihre Netzwerk Websites konfigurieren.
+- Die Anrufsteuerung erfordert, dass ein Bandbreitenrichtlinienprofil für jeden Standort angegeben wird, für den WAN-Bandbreiteneinschränkungen gelten. Wenn Sie die Anrufsteuerung bereitstellen möchten, müssen Sie bandbreitenrichtlinienprofile [in Skype for Business Server](create-bandwidth-policy-profiles.md) erstellen, bevor Sie Ihre Netzwerkstandorte konfigurieren.
 
-- Für E9-1-1 ist es erforderlich, dass für jeden Standort eine Standortrichtlinie angegeben ist. Wenn Sie die Bereitstellung von E9-1-1 planen, müssen Sie [in Skype for Business Server Standortrichtlinien erstellen](create-location-policies.md) , bevor Sie Ihre Netzwerk Websites konfigurieren.
+- Für E9-1-1 ist es erforderlich, dass für jeden Standort eine Standortrichtlinie angegeben ist. Wenn Sie E9-1-1 bereitstellen möchten, müssen Sie [Standortrichtlinien in Skype for Business Server](create-location-policies.md) erstellen, bevor Sie Ihre Netzwerkstandorte konfigurieren.
 
 ## <a name="create-or-modify-a-network-region"></a>Erstellen oder Ändern einer Netzwerkregion
 
-Wenn Sie bereits netzwerkregionen für eines dieser Funktionen erstellt haben, müssen Sie keine neuen netzwerkregionen erstellen. für andere erweiterte Enterprise-VoIP-Features werden dieselben netzwerkregionen verwendet.
+Wenn Sie bereits Netzwerkregionen für eine dieser Features erstellt haben, müssen Sie keine neuen Netzwerkregionen erstellen. Andere erweiterte Enterprise-VoIP verwenden dieselben Netzwerkregionen.
 
 Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>So erstellen Sie einen Netzwerkbereich mit der Skype for Business Server-Verwaltungsshell
+### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>So erstellen Sie eine Netzwerkregion mithilfe der Skype for Business Server-Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
 
-2. Führen Sie das Cmdlet New-CsNetworkRegion aus, um Netzwerkregionen zu erstellen:
+2. Führen Sie das Cmdlet "New-CsNetworkRegion" aus, um Netzwerkregionen zu erstellen:
 
    ```powershell
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
@@ -57,11 +57,11 @@ Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregi
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
-    In diesem Beispiel haben Sie einen Netzwerkbereich mit dem Namen "Northamerica" erstellt, der einem zentralen Standort mit der Website-ID Chicago zugeordnet ist.
+    In diesem Beispiel haben Sie eine Netzwerkregion namens "NorthAmerica" erstellt, die einem zentralen Standort mit der Standort-ID CHICAGO zugeordnet ist.
 
 3. Zum Abschließen der Erstellung von Netzwerkregionen für Ihre Topologie wiederholen Sie Schritt 2 mit Einstellungen für weitere Netzwerkregionen.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>So erstellen Sie einen Netzwerkbereich mit der Skype for Business Server-Systemsteuerung
+### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>So erstellen Sie eine Netzwerkregion mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
@@ -71,21 +71,21 @@ Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregi
 
 4. Klicken Sie auf **Neu**.
 
-5. Klicken Sie auf der Seite **Neue Region** auf **Name** und geben Sie einen Namen für die Netzwerkregion ein.
+5. Klicken Sie auf der Seite **Neue Region** auf **Name**, und geben Sie einen Namen für die Netzwerkregion ein.
 
 6. Klicken Sie auf **Zentraler Standort** und anschließend auf einen zentralen Standort in der Liste.
 
-7. Klicken Sie optional auf **Beschreibung** und geben Sie zusätzliche Informationen zur Beschreibung dieses Netzwerkstandorts ein.
+7. Klicken Sie optional auf **Beschreibung**, und geben Sie zusätzliche Informationen zur Beschreibung dieses Netzwerkstandorts ein.
 
 8. Klicken Sie auf **Commit ausführen**.
 
 9. Zum Abschließen der Erstellung von Netzwerkregionen für Ihre Topologie wiederholen Sie die Schritte 4 bis 8 mit Einstellungen für weitere Regionen.
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>So ändern Sie einen Netzwerkbereich mit der Skype for Business Server-Verwaltungsshell
+### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>So ändern Sie eine Netzwerkregion mithilfe der Skype for Business Server-Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
 
-2. Führen Sie das Cmdlet Set-CsNetworkRegion aus, um eine vorhandene Netzwerkregion zu ändern:
+2. Führen Sie das Cmdlet "Set-CsNetworkRegion" aus, um eine vorhandene Netzwerkregion zu ändern:
 
    ```powershell
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
@@ -97,11 +97,11 @@ Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregi
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    In diesem Beispiel haben Sie eine vorhandene netzwerkregion mit dem Namen "Northamerica" (erstellt mit den Verfahren weiter oben in diesem Thema) geändert, indem Sie die Beschreibung geändert haben. Wenn für den Bereich "Northamerica" eine Beschreibung vorhanden ist, wird dieser durch diesen Befehl mit diesem Wert überschrieben. Wenn keine Beschreibung festgelegt wurde, wird Sie durch diesen Befehl festgelegt.
+    In diesem Beispiel haben Sie eine vorhandene Netzwerkregion namens "NorthAmerica" (erstellt mit den Verfahren weiter oben in diesem Thema) geändert, indem Sie die Beschreibung ändern. Wenn eine Beschreibung für die Region "NorthAmerica" vorhanden ist, überschreibt dieser Befehl sie mit diesem Wert. Wenn keine Beschreibung festgelegt wurde, wird sie mit diesem Befehl festgelegt.
 
 3. Zum Ändern weiterer Netzwerkregionen wiederholen Sie Schritt 2 mit Einstellungen für andere Regionen.
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>So ändern Sie einen Netzwerkbereich mit der Skype for Business Server-Systemsteuerung
+### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>So ändern Sie eine Netzwerkregion mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
@@ -113,21 +113,21 @@ Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregi
 
 5. Klicken Sie auf **Bearbeiten** und anschließend auf **Details einblenden**.
 
-6. Ändern Sie auf der Seite " **Bereich bearbeiten** " die Werte für die Einstellungen dieses Netzwerkbereichs entsprechend.
+6. Ändern Sie **auf der** Seite "Region bearbeiten" die Werte für die Einstellungen dieser Netzwerkregion entsprechend.
 
 7. Klicken Sie auf **Commit ausführen**.
 
-8. Zum Abschließen der Änderung von Netzwerkregionen wiederholen Sie die Schritte 4 bis 7 mit Einstellungen für weitere Regionen.
+8. Zum Abschließen der Änderung von Netzwerkregionen wiederholen Sie die Schritte 4 bis 7 mit Einstellungen für weitere Regionen.
 
 ## <a name="create-or-modify-a-network-site"></a>Erstellen oder Ändern eines Netzwerkstandorts
 
-Wenn Sie bereits Netzwerk Websites für eines dieser Funktionen erstellt haben, müssen Sie keine neuen Netzwerk Websites erstellen. für andere erweiterte Enterprise-VoIP-Features werden dieselben Netzwerk Websites verwendet. Sie müssen jedoch möglicherweise eine vorhandene Definition eines Netzwerkstandorts ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. einen Netzwerkstandort für E9-1-1 erstellt haben, müssen Sie den Netzwerkstandort während der Bereitstellung der Anrufsteuerung ändern, um ein Bandbreitenrichtlinienprofil anzuwenden.
+Wenn Sie bereits Netzwerkstandorte für eine dieser Features erstellt haben, müssen Sie keine neuen Netzwerkstandorte erstellen. Andere erweiterte Enterprise-VoIP verwenden dieselben Netzwerkstandorte. Sie müssen jedoch möglicherweise eine vorhandene Netzwerkstandortdefinition ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie beispielsweise einen Netzwerkstandort für E9-1-1 erstellt haben, müssen Sie den Netzwerkstandort während der Bereitstellung der Anrufsteuerung ändern, um ein Bandbreitenrichtlinienprofil anzuwenden.
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie eine Netzwerk Website mithilfe der Skype for Business Server-Verwaltungsshell
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie einen Netzwerkstandort mithilfe der Skype for Business Server-Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
 
-2. Führen Sie das Cmdlet New-CsNetworkSite aus, um Netzwerkstandorte zu erstellen:
+2. Führen Sie das Cmdlet "New-CsNetworkSite" aus, um Netzwerkstandorte zu erstellen:
 
    ```powershell
    New-CsNetworkSite -NetworkSiteID <string>
@@ -139,14 +139,14 @@ Wenn Sie bereits Netzwerk Websites für eines dieser Funktionen erstellt haben, 
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
-    In diesem Beispiel haben Sie eine Netzwerk Website mit dem Namen "Chicago" erstellt, die sich in der netzwerkregion "Northamerica" befindet.
+    In diesem Beispiel haben Sie einen Netzwerkstandort namens "Chicago" erstellt, der sich in der Netzwerkregion "NorthAmerica" befindet.
 
     > [!NOTE]
-    > Die Netzwerkregion „NorthAmerica“ muss bereits vorhanden sein, damit dieser Befehl erfolgreich ausgeführt werden kann.
+    > Die Netzwerkregion "NorthAmerica" muss bereits vorhanden sein, damit dieser Befehl erfolgreich ausgeführt werden kann.
 
 3. Zum Abschließen der Erstellung von Netzwerkstandorten für Ihre Topologie wiederholen Sie Schritt 2 mit Einstellungen für weitere Standorte.
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie eine Netzwerk Website mithilfe der Skype for Business Server-Systemsteuerung
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie einen Netzwerkstandort mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
@@ -156,31 +156,31 @@ Wenn Sie bereits Netzwerk Websites für eines dieser Funktionen erstellt haben, 
 
 4. Klicken Sie auf **Neu**.
 
-5. Klicken Sie auf der Seite **Neuer Standort** auf **Name** und geben Sie einen Namen für den Netzwerkstandort ein.
+5. Klicken Sie auf der Seite **Neuer Standort** auf **Name**, und geben Sie einen Namen für den Netzwerkstandort ein.
 
-6. Klicken Sie auf **Region** und klicken Sie dann auf eine Region in der Liste.
+6. Klicken Sie auf **Region**, und klicken Sie dann auf eine Region in der Liste.
 
-7. Klicken Sie optional auf **Bandbreitenrichtlinie** und klicken Sie dann auf eine Bandbreitenrichtlinie in der Liste.
+7. Klicken Sie optional auf **Bandbreitenrichtlinie**, und klicken Sie dann auf eine Bandbreitenrichtlinie in der Liste.
 
     > [!NOTE]
     > Eine Bandbreitenrichtlinie ist nur dann erforderlich, wenn Sie die Anrufsteuerung am Standort bereitstellen möchten.
 
-8. Klicken Sie optional auf **Ortungsrichtlinie** und klicken Sie dann auf eine Ortungsrichtlinie in der Liste.
+8. Klicken Sie optional auf **Ortungsrichtlinie**, und klicken Sie dann auf eine Ortungsrichtlinie in der Liste.
 
     > [!NOTE]
     > Eine Ortungsrichtlinie ist nur erforderlich, wenn Sie E9-1-1 am Standort bereitstellen.
 
-9. Klicken Sie optional auf **Beschreibung** und geben Sie zusätzliche Informationen zur Beschreibung dieses Netzwerkstandorts ein.
+9. Klicken Sie optional auf **Beschreibung**, und geben Sie zusätzliche Informationen zur Beschreibung dieses Netzwerkstandorts ein.
 
-10. Klicken Sie auf **Commit ausführen**.
+10. Klicken Sie auf **Commit**.
 
 11. Zum Abschließen der Erstellung von Netzwerkstandorten für Ihre Topologie wiederholen Sie die Schritte 4 bis 10 mit Einstellungen für weitere Standorte.
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>So ändern Sie eine Netzwerk Website mithilfe der Skype for Business Server-Verwaltungsshell
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>So ändern Sie einen Netzwerkstandort mithilfe der Skype for Business Server-Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
 
-2. Führen Sie das Cmdlet Set-CsNetworkSite aus, um Netzwerkstandorte zu ändern:
+2. Führen Sie das Cmdlet "Set-CsNetworkSite" aus, um Netzwerkstandorte zu ändern:
 
    ```powershell
    Set-CsNetworkSite -Identity <string>
@@ -192,14 +192,14 @@ Wenn Sie bereits Netzwerk Websites für eines dieser Funktionen erstellt haben, 
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
-    In diesem Beispiel wird die Website mit dem Namen "Albuquerque" in die netzwerkregion "Northamerica" verschoben. Bearbeiten Sie zum Ändern der Netzwerkstandortkonfiguration für die Bereitstellung von Anrufsteuerung, E9-1-1 oder Medienumgehung die Netzwerkstandorteinstellungen, indem Sie das Cmdlet Set-CsNetworkSite mit dem Parameter BWPolicyProfileID oder LocationPolicy ausführen.
+    In diesem Beispiel wird der Standort "Albuquerque" in die Netzwerkregion "NorthAmerica" verschoben. Bearbeiten Sie zum Ändern der Netzwerkstandortkonfiguration für die Bereitstellung von Anrufsteuerung, E9-1-1 oder Medienumgehung die Netzwerkstandorteinstellungen, indem Sie das Cmdlet "Set-CsNetworkSite" mit dem Parameter "BWPolicyProfileID" oder "LocationPolicy" ausführen.
 
     > [!NOTE]
-    > Wenngleich der Parameter BypassID für die Medienumgehung vorhanden ist, wird dringend empfohlen, automatisch generierte IDs für die Umgehung nicht außer Kraft zu setzen. Sie müssen keine zusätzlichen Parameter angeben, um einen Netzwerkstandort für die Medienumgehung zu konfigurieren.
+    > Wenngleich der Parameter "BypassID" für die Medienumgehung vorhanden ist, wird dringend empfohlen, automatisch generierte IDs für die Umgehung nicht außer Kraft zu setzen. Sie müssen keine zusätzlichen Parameter angeben, um einen Netzwerkstandort für die Medienumgehung zu konfigurieren.
 
 3. Zum Abschließen der Änderung von Netzwerkstandorten für Ihre Topologie wiederholen Sie Schritt 2 mit Einstellungen für weitere Standorte.
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>So ändern Sie eine Netzwerk Website mithilfe der Skype for Business Server-Systemsteuerung
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>So ändern Sie einen Netzwerkstandort mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
@@ -209,24 +209,24 @@ Wenn Sie bereits Netzwerk Websites für eines dieser Funktionen erstellt haben, 
 
 4. Klicken Sie in der Tabelle auf den Netzwerkstandort, den Sie ändern möchten.
 
-5. Klicken Sie auf **Bearbeiten** und anschließend auf **Details einblenden**.
+5. Klicken Sie auf **Bearbeiten** und anschließend auf **Details anzeigen**.
 
-6. Ändern Sie auf der Seite " **Website bearbeiten** " die Werte für die Einstellungen dieser Netzwerk Website entsprechend.
+6. Ändern Sie **auf der** Seite "Standort bearbeiten" die Werte für die Einstellungen dieses Netzwerkstandorts entsprechend.
 
-7. Klicken Sie auf **Commit ausführen**.
+7. Klicken Sie auf **Commit**.
 
-8. Zum Abschließen der Änderung von Netzwerkstandorten wiederholen Sie die Schritte 4 bis 7 mit Einstellungen für weitere Standorte.
+8. Zum Abschließen der Änderung von Netzwerkstandorten wiederholen Sie die Schritte 4 bis 7 mit Einstellungen für weitere Standorte.
 
 ## <a name="associate-a-subnet-with-a-network-site"></a>Zuordnen eines Subnetzes zu einem Netzwerkstandort
 <a name="BKMK_AssociateSubnets"> </a>
 
-Jedes Subnetz in Ihrem Netzwerk muss einem bestimmten Netzwerkstandort zugeordnet sein, da mithilfe von Subnetzinformationen der Netzwerkstandort ermittelt wird, an dem sich ein Endpunkt befindet, während eine neuen Sitzung initiiert wird. Wenn die Position jeder Partei in einer Sitzung bekannt ist, können erweiterte Enterprise-VoIP-Features diese Informationen anwenden, um festzulegen, wie die Anrufeinrichtung oder das Routing gehandhabt werden soll.
+Jedes Subnetz in Ihrem Netzwerk muss einem bestimmten Netzwerkstandort zugeordnet sein, da mithilfe von Subnetzinformationen der Netzwerkstandort ermittelt wird, an dem sich ein Endpunkt befindet, während eine neuen Sitzung initiiert wird. Wenn der Standort der einzelnen Parteien in einer Sitzung bekannt ist, können erweiterte Enterprise-VoIP diese Informationen anwenden, um zu bestimmen, wie das Einrichten oder Routing von Anrufen zu behandeln ist.
 
-Alle konfigurierten öffentlichen IP-Adressen der Audio-Video-Edgeserver in Ihrer Bereitstellung müssen den Netzwerkkonfigurationseinstellungen hinzugefügt werden. Diese IP-Adressen werden als Subnetze mit der Maske 32 hinzugefügt. Der zugeordnete Netzwerkstandort muss dem jeweiligen konfigurierten Netzwerkstandort entsprechen. Beispielsweise wäre die öffentliche IP-Adresse, die dem A/V-Edgedienst auf dem zentralen Standort Chicago entspricht, NetworkSiteID Chicago.
+Alle konfigurierten öffentlichen IP-Adressen der Audio-Video-Edgeserver in Ihrer Bereitstellung müssen den Netzwerkkonfigurationseinstellungen hinzugefügt werden. Diese IP-Adressen werden als Subnetze mit der Maske 32 hinzugefügt. Der zugeordnete Netzwerkstandort muss dem jeweiligen konfigurierten Netzwerkstandort entsprechen. Die öffentliche IP-Adresse, die dem A/V-Edgedienst am zentralen Standort "Chicago" entspricht, ist beispielsweise "NetworkSiteID Chicago".
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>So ordnen Sie ein Subnetz mithilfe der Skype for Business Server-Verwaltungsshell einer Netzwerk Website zu
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>So ordnen Sie ein Subnetz mithilfe der Skype for Business Server-Verwaltungsshell einem Netzwerkstandort zu
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
 
 2. Führen Sie das Cmdlet **New-CsNetworkSubnet** aus, um ein Subnetz einem Netzwerkstandort zuzuordnen:
 
@@ -240,7 +240,7 @@ Alle konfigurierten öffentlichen IP-Adressen der Audio-Video-Edgeserver in Ihre
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
-    In diesem Beispiel haben Sie eine Zuordnung zwischen dem Subnetz 172.11.12.13 und der Netzwerk Website "Chicago" erstellt.
+    In diesem Beispiel haben Sie eine Zuordnung zwischen dem Subnetz 172.11.12.13 und dem Netzwerkstandort "Chicago" erstellt.
 
 3. Wiederholen Sie Schritt 2 für alle Subnetze in der Topologie.
 
@@ -258,15 +258,15 @@ Alle konfigurierten öffentlichen IP-Adressen der Audio-Video-Edgeserver in Ihre
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
 
-3. Führen Sie das folgende Cmdlet aus, um **Subnet. CSV**zu importieren, und speichern Sie dann den Inhalt im lync Server-Verwaltungsspeicher:
+3. Führen Sie das folgende Cmdlet aus, umsubnet.csv **zu** importieren, und speichern Sie dann den Inhalt im Lync Server-Verwaltungsspeicher:
 
    ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>So ordnen Sie ein Subnetz mithilfe der Skype for Business Server-Systemsteuerung einer Netzwerk Website zu
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>So ordnen Sie ein Subnetz mithilfe der Skype for Business Server-Systemsteuerung einem Netzwerkstandort zu
 
 1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
@@ -276,24 +276,24 @@ Alle konfigurierten öffentlichen IP-Adressen der Audio-Video-Edgeserver in Ihre
 
 4. Klicken Sie auf **Neu**.
 
-5. Klicken Sie auf der Seite **Neues Subnetz** auf **Subnetz-ID** und geben Sie dann die erste Adresse in den IP-Adressbereich ein, der von dem Subnetz definiert wird, das Sie einem Netzwerkstandort zuordnen möchten.
+5. Klicken Sie auf der Seite **Neues Subnetz** auf **Subnetz-ID**, und geben Sie dann die erste Adresse in den IP-Adressbereich ein, der von dem Subnetz definiert wird, das Sie einem Netzwerkstandort zuordnen möchten.
 
-6. Klicken Sie auf **Maske** und geben Sie die Bitmaske für das Subnetz ein.
+6. Klicken Sie auf **Maske**, und geben Sie die Bitmaske für das Subnetz ein.
 
-7. Klicken Sie auf **Netzwerkstandort-ID** und wählen Sie die Standort-ID des Standorts aus, dem Sie dieses Subnetz hinzufügen.
+7. Klicken Sie auf **Netzwerkstandort-ID**, und wählen Sie die Standort-ID des Standorts aus, dem Sie dieses Subnetz hinzufügen.
 
     > [!NOTE]
     > Wenn Sie noch keine Netzwerkstandorte erstellt haben, ist diese Liste leer. Ausführliche Informationen zu dem Verfahren finden Sie unter [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Sie können auch Standort-IDs für Ihre Bereitstellung abrufen, indem Sie das Cmdlet **Get-CsNetworkSite** ausführen. Ausführliche Informationen finden Sie in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
 
-8. Klicken Sie optional auf **Beschreibung** und geben Sie zusätzliche Informationen zur Beschreibung dieses Subnetzes ein.
+8. Klicken Sie optional auf **Beschreibung**, und geben Sie zusätzliche Informationen zur Beschreibung dieses Subnetzes ein.
 
-9. Klicken Sie auf **Commit ausführen**.
+9. Klicken Sie auf **Commit**.
 
 Wiederholen Sie diese Schritte, um einem Netzwerkstandort weitere Subnetze hinzuzufügen.
 > [!NOTE]
-> Es wird eine Warnung zur Schlüssel Integritäts Anzeige (Khi) ausgelöst, die eine Liste der IP-Adressen angibt, die in Ihrem Netzwerk vorhanden sind, aber keinem Subnetz zugeordnet sind, oder das Subnetz, das die IP-Adressen enthält, nicht mit einer Netzwerk Website verknüpft ist. Diese Benachrichtigung wird innerhalb eines Zeitraums von 8 Stunden nicht mehrmals ausgelöst.
+> Es wird eine Key Health Indicator (KHI)-Warnung ausgelöst, die eine Liste von IP-Adressen anlistet, die in Ihrem Netzwerk vorhanden sind, aber entweder keinem Subnetz zugeordnet sind, oder das Subnetz, das die IP-Adressen enthält, ist keinem Netzwerkstandort zugeordnet. Diese Warnung wird innerhalb von 8 Stunden nicht mehr als einmal ausgelöst.
 
-Die relevanten Warnungsinformationen und ein Beispiel lauten wie folgt:
+Die relevanten Warnungsinformationen und ein Beispiel sind wie folgt:
 
  **Quelle**: CS-Bandbreitenrichtliniendienst (Core)
 
@@ -301,13 +301,13 @@ Die relevanten Warnungsinformationen und ein Beispiel lauten wie folgt:
 
  **Ebene**: 2
 
- **Beschreibung**: die Subnetze für die folgenden IP- \<Adressen: die Liste\> der IP-Adressen ist entweder nicht konfiguriert, oder die Subnetze sind nicht mit einer Netzwerk Website verbunden.
+ **Beschreibung:** Die Subnetze für die folgenden IP-Adressen: sind entweder nicht konfiguriert, oder die Subnetze sind \<List of IP Addresses\> keinem Netzwerkstandort zugeordnet.
 
- **Ursache**: Die Subnetze für die zugehörigen IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen oder die Subnetze sind keinem Netzwerkstandort zugeordnet.
+ **Ursache**: Die Subnetze für die zugehörigen IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.
 
- **Lösung**: Fügen Sie gemäß der IP-Adressenliste den Netzwerkkonfigurationseinstellungen Subnetze hinzu und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.
+ **Lösung**: Fügen Sie gemäß der IP-Adressenliste den Netzwerkkonfigurationseinstellungen Subnetze hinzu, und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.
 
-Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen:
+Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet, oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen:
 
 1. Stellen Sie sicher, dass die IP-Adresse 10.121.248.226 dem Subnetz 10.121.248.0/24 und die IP-Adresse 10.121.249.20 dem Subnetz 10.121.249.0/24 zugeordnet ist.
 

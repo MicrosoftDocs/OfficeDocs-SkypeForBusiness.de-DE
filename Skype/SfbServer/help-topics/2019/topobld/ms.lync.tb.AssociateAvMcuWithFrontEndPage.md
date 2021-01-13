@@ -1,8 +1,8 @@
 ---
 title: Zuordnen der A/V MCU zum Front-End
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
 ROBOTS: NOINDEX, NOFOLLOW
-description: Für alle Enterprise Edition-Front-End-Pools mit aktivierter Konferenz muss ein a/v-Konferenzdienst vorhanden sein, oder Sie müssen einen eigenständigen a/v-Konferenz Pool verwenden. Alle vorhandenen Enterprise Edition-Front-End-Pools, die derzeit über einen a/v-Konferenzdienst verfügen, können ausgewählt werden, um stattdessen diesen neuen eigenständigen a/v-Konferenz Pool zu verwenden.
-ms.openlocfilehash: 9929144727fa014866c20f34021cfb06d7766b6a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Sämtliche Front-End-Pools der Enterprise Edition, für welche die Konferenzfunktion aktiviert ist, müssen über einen A/V-Konferenzdienst verfügen oder einen eigenständigen A/V-Konferenzpool verwenden. Für vorhandene Front-End-Pools der Enterprise Edition, die gegenwärtig über einen A/V-Konferenzdienst verfügen, kann festgelegt werden, dass stattdessen dieser neue eigenständige A/V-Konferenzpool verwendet wird.
+ms.openlocfilehash: 3fe02d171b65472c0dee3fc8e6368638d9e77e35
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794043"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811485"
 ---
-# <a name="associate-av-mcu-with-front-end"></a>Zuordnen der A/V MCU zum Front-End
+# <a name="associate-av-mcu-with-front-end"></a>Zuordnen der AV MCU zum Front-End
  
-Für alle Enterprise Edition-Front-End-Pools mit aktivierter Konferenz muss ein a/v-Konferenzdienst vorhanden sein, oder Sie müssen einen eigenständigen a/v-Konferenz Pool verwenden. Alle vorhandenen Enterprise Edition-Front-End-Pools, die derzeit über einen a/v-Konferenzdienst verfügen, können ausgewählt werden, um stattdessen diesen neuen eigenständigen a/v-Konferenz Pool zu verwenden.
+Sämtliche Front-End-Pools der Enterprise Edition, für welche die Konferenzfunktion aktiviert ist, müssen über einen A/V-Konferenzdienst verfügen oder einen eigenständigen A/V-Konferenzpool verwenden. Für vorhandene Front-End-Pools der Enterprise Edition, die gegenwärtig über einen A/V-Konferenzdienst verfügen, kann festgelegt werden, dass stattdessen dieser neue eigenständige A/V-Konferenzpool verwendet wird.
   
 

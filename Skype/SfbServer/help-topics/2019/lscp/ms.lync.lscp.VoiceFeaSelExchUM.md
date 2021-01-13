@@ -1,8 +1,8 @@
 ---
 title: Auswählen einer automatischen Exchange UM-Telefonzentrale
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
-description: Im Dialogfeld Exchange um automatische Telefonzentrale auswählen können Sie eine automatische Exchange UM-Telefonzentrale auswählen, die eingehende Anrufe an einen Bereich nicht zugewiesener Nummern abwickeln soll.
-ms.openlocfilehash: a4233a3e173713e9e06650e69a0f82239dea9647
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Verwenden Sie das Dialogfeld Wählen Sie eine Automatische Telefonzentrale von Exchange UM aus, um eine Automatische Telefonzentrale von Exchange UM auszuwählen, mit der eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
+ms.openlocfilehash: 75f3f45f6e6e69f12bc83b62ca5a07ea7f871dd9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41792183"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812085"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Auswählen einer automatischen Exchange UM-Telefonzentrale
 
 > [!NOTE]
-> Exchange um bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird die Exchange um-Integration zu Gunsten der Features Cloud Voicemail und Cloud-automatische Telefonzentrale de-hervorgehoben.  Weitere Informationen finden Sie unter [Planen des Cloud Voicemail-Diensts](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) und [Planen der Skype for Business Server-und Exchange Server-Migration](../../../../SfBhybrid/hybrid/plan-um-migration.md) .
+> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 in Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen bei der Unterstützung in Exchange 2019 wird die Exchange -UM-Integration zugunsten von Cloud Voicemail- und Cloud-automatische Telefonzentrale hervorgehoben.  Weitere Informationen finden Sie unter "Plan [Cloud Voicemail service](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration".](../../../../SfBhybrid/hybrid/plan-um-migration.md)
  
-Im Dialogfeld **Exchange um automatische Telefonzentrale auswählen** können Sie eine automatische Exchange UM-Telefonzentrale auswählen, die eingehende Anrufe an einen Bereich nicht zugewiesener Nummern abwickeln soll.
+Verwenden Sie das Dialogfeld **Wählen Sie eine Automatische Telefonzentrale von Exchange UM aus**, um eine Automatische Telefonzentrale von Exchange UM auszuwählen, mit der eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
   
-Geben Sie im Suchfeld den gesamten Namen der automatischen Exchange UM-Telefonzentrale ein, die Sie verwenden möchten. Wenn Sie alle verfügbaren automatischen Exchange um-Telefonzentralen zurückgeben möchten, lassen Sie das Suchfeld leer, und klicken Sie auf das Symbol suchen.
+Geben Sie im Suchfeld Teile oder den vollständigen Namen der Automatischen Telefonzentrale von Exchange UM ein, die Sie verwenden möchten. Um alle verfügbaren Automatischen Telefonzentralen von Exchange UM zurückzugeben, lassen Sie das Suchfeld leer und klicken auf das Suchsymbol.
   
-Wählen Sie in der Liste der automatischen Exchange um-Telefonzentralen, die von der Suche zurückgegeben werden, die automatische Telefonzentrale aus, die Sie für die Behandlung eingehender Anrufe in den Bereich nicht zugewiesener Nummern verwenden möchten.
+Wählen Sie in der Liste mit den bei der Suche zurückgegebenen Automatischen Telefonzentralen von Exchange UM die Telefonzentrale aus, mit der die eingehenden Anrufe für den Bereich nicht zugewiesener Nummern behandelt werden sollen.
   
 
