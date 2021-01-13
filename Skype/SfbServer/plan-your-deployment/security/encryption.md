@@ -1,8 +1,8 @@
 ---
 title: Verschlüsselung für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,46 +12,46 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype for Business Server verwendet TLS und MTLS zum Verschlüsseln von Sofortnachrichten. Für den gesamten Server-zu-Server-Datenverkehr ist MTLS erforderlich, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk begrenzt ist oder die Netzwerkgrenze überschreitet. Bei der Verbindung von Skype for Business Server mit IPPBX-Systemen oder SIP-Stämmen von Drittanbietern ist TLS optional, aber sehr empfehlenswert zwischen dem Vermittlungsserver und dem Mediengateway. Wenn TLS auf dieser Verbindung konfiguriert ist, ist MTLS erforderlich. Daher muss das Gateway mit einem Zertifikat von einer Zertifizierungsstelle konfiguriert werden, die vom Vermittlungs Server als vertrauenswürdig eingestuft wird.
-ms.openlocfilehash: 64e7199cf761ad7d7ec18b00e8f3b7f27fed6f04
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server verwendet TLS und MTLS zum Verschlüsseln von Chatnachrichten. Der gesamte Datenverkehr zwischen den Servern erfordert MTLS, und zwar unabhängig davon, ob die Daten innerhalb des internen Netzwerks verbleiben oder den internen Netzwerkumkreis verlassen. Beim Verbinden von Skype for Business Server mit Drittanbieter-IPPBX-Systemen oder -SIP-Trunks ist TLS optional, wird jedoch zwischen dem Vermittlungsserver und dem Mediengateway dringend empfohlen. Wenn TLS für diesen Link konfiguriert ist, ist MTLS erforderlich. Aus diesem Grund muss das Gateway mit einem Zertifikat von einer für den Vermittlungsserver vertrauenswürdigen Zertifizierungsstelle konfiguriert werden.
+ms.openlocfilehash: 48af03d7f6aed5b744ad4e0c460622194a87d96e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815663"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832205"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Verschlüsselung für Skype for Business Server
  
-Skype for Business Server verwendet TLS und MTLS zum Verschlüsseln von Sofortnachrichten. Für den gesamten Server-zu-Server-Datenverkehr ist MTLS erforderlich, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk begrenzt ist oder die Netzwerkgrenze überschreitet. Bei der Verbindung von Skype for Business Server mit IPPBX-Systemen oder SIP-Stämmen von Drittanbietern ist TLS optional, aber sehr empfehlenswert zwischen dem Vermittlungsserver und dem Mediengateway. Wenn TLS auf dieser Verbindung konfiguriert ist, ist MTLS erforderlich. Daher muss das Gateway mit einem Zertifikat von einer Zertifizierungsstelle konfiguriert werden, die vom Vermittlungs Server als vertrauenswürdig eingestuft wird.
+Skype for Business Server verwendet TLS und MTLS zum Verschlüsseln von Chatnachrichten. Der gesamte Datenverkehr zwischen den Servern erfordert MTLS, und zwar unabhängig davon, ob die Daten innerhalb des internen Netzwerks verbleiben oder den internen Netzwerkumkreis verlassen. Beim Verbinden von Skype for Business Server mit Drittanbieter-IPPBX-Systemen oder -SIP-Trunks ist TLS optional, wird jedoch zwischen dem Vermittlungsserver und dem Mediengateway dringend empfohlen. Wenn TLS für diesen Link konfiguriert ist, ist MTLS erforderlich. Aus diesem Grund muss das Gateway mit einem Zertifikat von einer für den Vermittlungsserver vertrauenswürdigen Zertifizierungsstelle konfiguriert werden.
   
 > [!NOTE]
-> Im Jahr 2014 wurde eine Sicherheitsempfehlung zu SSL 3.0 veröffentlicht. Das Deaktivieren von SSL 3,0 in Skype for Business Server 2015 ist eine unterstützte Option. Weitere Informationen zur Sicherheitsempfehlung finden Sie unter [Deaktivieren von SSL 3,0 in lync Server 2013 und Skype for Business Server 2015](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/).<br/>
-**Sicherheitshinweis:** Um sicherzustellen, dass das stärkste kryptografische Protokoll verwendet wird, bietet Skype for Business Server 2015 TLS-Verschlüsselungsprotokolle in der folgenden Reihenfolge für Clients an: **TLS 1,2, TLS 1,1, TLS 1,0**. TLS ist ein wichtiger Aspekt von Skype for Business Server 2015 und ist daher erforderlich, um eine unterstützte Umgebung zu erhalten.<br/>
-**Sicherheitshinweis:** Um sicherzustellen, dass das stärkste kryptografische Protokoll verwendet wird, bietet Skype for Business Server 2019 TLS-Verschlüsselungsprotokolle in der folgenden Reihenfolge für Clients an: **TLS 1,3, TLS 1,2**. TLS ist ein wichtiger Aspekt von Skype for Business Server 2019 und ist daher erforderlich, um eine unterstützte Umgebung zu erhalten. 
+> Eine Sicherheitsempfehlung zu SSL 3.0 wurde 2014 veröffentlicht. Das Deaktivieren von SSL 3.0 in Skype for Business Server 2015 ist eine unterstützte Option. Weitere Informationen zur Sicherheitsempfehlung finden Sie unter Deaktivieren von [SSL 3.0 in Lync Server 2013 und Skype for Business Server 2015.](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/)<br/>
+**Sicherheitshinweis:** Um sicherzustellen, dass das stärkste kryptografische Protokoll verwendet wird, bietet Skype for Business Server 2015 Clients die TLS-Verschlüsselungsprotokolle in der folgenden Reihenfolge an: **TLS 1.2, TLS 1.1, TLS 1.0**. TLS ist ein wichtiger Aspekt von Skype for Business Server 2015 und daher erforderlich, um eine unterstützte Umgebung zu erhalten.<br/>
+**Sicherheitshinweis:** Um sicherzustellen, dass das stärkste kryptografische Protokoll verwendet wird, bietet Skype for Business Server 2019 Clients die TLS-Verschlüsselungsprotokolle in der folgenden Reihenfolge an: **TLS 1.3, TLS 1.2**. TLS ist ein wichtiger Aspekt von Skype for Business Server 2019 und daher erforderlich, um eine unterstützte Umgebung zu erhalten. 
   
-In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehrstyp zusammengefasst. 
+In der folgenden Tabelle werden die Protokollanforderungen für die einzelnen Datenverkehrstypen dargestellt. 
   
-**Datenverkehrsschutz**
+**Schutz des Datenverkehrs**
 
 |**Datenverkehrstyp**|**Geschützt durch**|
 |:-----|:-----|
 |Server-zu-Server  <br/> |MTLS  <br/> |
 |Client-zu-Server  <br/> |TLS  <br/> |
-|Chat und Anwesenheit  <br/> |TLS  <br/> |
-|Audio und Video und Desktopfreigaben von Medien  <br/> |SRTP  <br/> |
-|Desktopfreigabe (Signal)  <br/> |TLS  <br/> |
+|Sofortnachrichten und Anwesenheit  <br/> |TLS  <br/> |
+|Audio-, Video- und Desktopfreigabe von Medien  <br/> |SRTP  <br/> |
+|Desktopfreigabe (Signaldaten)  <br/> |TLS  <br/> |
 |Webkonferenzen  <br/> |TLS  <br/> |
-|Herunterladen von Besprechungsinhalten, Herunterladen des Adressbuchs, Erweiterung der Verteilergruppe  <br/> |HTTPS  <br/> |
+|Herunterladen von Besprechungsinhalten und Adressbüchern, Erweiterung der Verteilergruppe  <br/> |HTTPS  <br/> |
    
 ## <a name="media-encryption"></a>Medienverschlüsselung
 
-Mediendatenverkehr wird über Secure RTP (SRTP) verschlüsselt, ein Profil von RTP (Real-Time Transport-Protokoll), das Vertraulichkeit, Authentifizierung und Schutz vor Replay-Angriffen für RTP-Datenverkehr bereitstellt. Darüber hinaus werden Medien, die in beide Richtungen zwischen dem Vermittlungsserver und seinem internen nächsten Hop übertragen werden, ebenfalls über SRTP verschlüsselt. Medien, die in beide Richtungen zwischen dem Vermittlungsserver und einem Mediengateway übertragen werden, werden optional verschlüsselt (empfohlen). Der Vermittlungsserver kann die Verschlüsselung an das Mediengateway unterstützen, aber das Gateway muss MTLS und das Speichern eines Zertifikats unterstützen.
+Der Mediendatenverkehr wird mit SRTP (Secure RTP) verschlüsselt, einem Profil von Real-Time Transport Protocol (RTP), das vertraulichkeits-, Authentifizierungs- und Replay-Angriffsschutz für den RtP-Datenverkehr bietet. Darüber hinaus werden Medien, die in beide Richtungen zwischen dem Mediationsserver und seinem internen Next Hop fließen, ebenfalls mit SRTP verschlüsselt. Medien, die in beide Richtungen zwischen dem Vermittlungsserver und einem Mediengateway fließen, werden optional verschlüsselt und empfohlen. Der Vermittlungsserver kann die Verschlüsselung mit dem Mediengateway unterstützen, aber das Gateway muss MTLS und die Speicherung eines Zertifikats unterstützen.
   
 > [!NOTE]
-> Weitere Informationen zum Einrichten von Hybriden finden Sie unter [Planen einer Hybrid Konnektivität](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
+> Weitere Informationen zum Einrichten einer Hybridverbindung finden Sie unter ["Planen der Hybridkonnektivität".](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
   
 ## <a name="fips"></a>FIPS
 
-Skype for Business Server und Microsoft Exchange Server 2016 arbeiten mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server-Betriebssysteme so konfiguriert sind, dass Sie die FIPS 140-2-Algorithmen für die Systemkryptografie verwenden . Zur Implementierung der FIPS-Unterstützung müssen Sie jeden Server, auf dem Skype for Business Server ausgeführt wird, zur Unterstützung konfigurieren.
+Skype for Business Server und Microsoft Exchange Server 2016 arbeiten mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server-Betriebssysteme für die Verwendung der FIPS 140-2-Algorithmen für die Systemkryptografie konfiguriert sind. Um die Unterstützung von FIPS zu implementieren, müssen Sie jeden Server mit Skype for Business Server so konfigurieren, dass er unterstützt wird.
   
 

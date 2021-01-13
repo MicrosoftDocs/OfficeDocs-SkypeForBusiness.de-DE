@@ -1,8 +1,8 @@
 ---
 title: XMPP-Verbundpartner
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 958f2e6e93e24393da2a235e190dd60ae0dfc151
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: ac5d53f8a40c422e297a1e7cae9c6b5e03ea7e8d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797646"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833700"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP-Verbundpartner
 
 > [!NOTE]
-> XMPP-Gateways und-Proxies sind in Skype for Business Server 2015 verfügbar, werden aber in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren der XMPP-Föderation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> XMPP-Gateways und -Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter ["Migrieren des XMPP-Verbunds".](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)
 
-Siehe [Verwalten von XMPP-Verbundpartnern für Ihre Organisation](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+Siehe ["Verwalten von XMPP-Verbundpartnern für Ihre Organisation"](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
 
 
 

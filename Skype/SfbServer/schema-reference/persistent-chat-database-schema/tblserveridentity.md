@@ -1,8 +1,8 @@
 ---
 title: tblServerIdentity
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: tblServerIdentity enthält die aktiven Chat Server im persistent Chat Serverpool.
-ms.openlocfilehash: 4f6389f21c35da914b4943a279d8d485b6ec1eae
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: "\"tblServerIdentity\" enthält die aktiven Chatserver im Pool für den Server für beständigen Chat."
+ms.openlocfilehash: 7fa8c1b804432b3a9368785682f45e9ce8d7898e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812273"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831495"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-tblServerIdentity enthält die aktiven Chat Server im persistent Chat Serverpool.
+"tblServerIdentity" enthält die aktiven Chatserver im Pool für den Server für beständigen Chat.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|ServerID  <br/> |int, nicht NULL  <br/> |Server-ID. Entspricht der Instanz-ID des zentralen Verwaltungsspeichers.  <br/> |
-|ServerAddress  <br/> |nvarchar (256); nicht NULL  <br/> |Server Adresse unter Verwendung der Windows Communication Foundation-Adresse.  <br/> |
-|serverLastPingTime  <br/> |datetime  <br/> |Der letzte Zeitpunkt, zu dem der Kanal Server diese Zeile aktualisiert hat, um zu beweisen, dass er ausgeführt wird.  <br/> |
+|serverID  <br/> |int, nicht NULL  <br/> |Server-ID. Entspricht der Instanz-ID aus dem zentralen Verwaltungsspeicher.  <br/> |
+|serverAddress  <br/> |nvarchar (256), nicht NULL  <br/> |Serveradresse mit der Windows Communication Foundation-Adresse.  <br/> |
+|serverLastPingTime  <br/> |Datum/Uhrzeit  <br/> |Der letzte Zeitpunkt, zu dem der Kanalserver diese Zeile aktualisiert hat, um die Ausführung zu beweisen.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|ServerID  <br/> |Primärschlüssel  <br/> |
+|serverID  <br/> |Primärschlüssel  <br/> |
    
 

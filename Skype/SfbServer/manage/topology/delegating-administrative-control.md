@@ -1,8 +1,8 @@
 ---
-title: Delegieren der administrativen Kontrolle von Skype for Business Server
+title: Delegieren der administrativen Steuerung von Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,41 +11,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 5c295ed1233cb8a0900828cb1d1c074de1d0f16f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: eb78fc7e0f831bae1c5dd6e207791e27aa4c68d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817271"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832795"
 ---
-# <a name="delegate-administrative-control-of-skype-for-business-server"></a>Delegieren der administrativen Kontrolle von Skype for Business Server 
+# <a name="delegate-administrative-control-of-skype-for-business-server"></a>Delegieren der administrativen Steuerung von Skype for Business Server 
 
-In Skype for Business Server werden administrative Aufgaben mithilfe der rollenbasierten Zugriffssteuerungsfunktion (Role-Based Access Control, RBAC) an Benutzer delegiert. Wenn Sie Skype for Business Server installieren, werden eine Reihe von RBAC-Rollen für Sie erstellt. Diese Rollen entsprechen den allgemeinen Sicherheitsgruppen in den Active Directory-Domänendiensten. Beispielsweise entspricht die RBAC-Rolle CsHelpDesk der CsHelpDesk-Gruppe, die im Container Benutzer in den Active Directory-Domänendiensten gefunden wurde. Darüber hinaus ist jede RBAC-Rolle einem Satz von Windows PowerShell-Cmdlets für Skype for Business Server zugeordnet. Diese Cmdlets stellen die Aufgaben dar, die von Benutzern ausgeführt werden können, denen die angegebene RBAC-Rolle zugewiesen wurde. Beispielsweise wurden der CsHelpDesk-Rolle die Cmdlets Lock-CsClientPin und UnlockCsClientPin zugewiesen. Das bedeutet, dass Benutzer, denen die CsHelpDesk-Rolle zugewiesen wurde, Benutzer-PIN-Nummern Sperren und entsperren können. Der CsHelpDesk-Rolle wurde jedoch nicht das Cmdlet New-CsVoicePolicy zugewiesen. Das bedeutet, dass Benutzer, denen die CsHelpDesk-Rolle zugewiesen wurde, keine neuen VoIP-Richtlinien erstellen können.
+In Skype for Business Server werden Verwaltungsaufgaben mithilfe der rollenbasierten Zugriffssteuerungsfunktion an Benutzer delegiert. Bei der Installation von Skype for Business Server werden eine Reihe von rollen rbAC-Rollen für Sie erstellt. Diese Rollen entsprechen universellen Sicherheitsgruppen in Active Directory-Domänendiensten. Beispielsweise entspricht die Rollen-RBAC-Rolle "CsHelpDesk" der Gruppe "CsHelpDesk", die sich im Container "Users" in den Active Directory Domain Services befindet. Darüber hinaus ist jede rbAC-Rolle einem Satz von Skype for Business Server-Windows PowerShell zugeordnet. Diese Cmdlets stellen die Aufgaben dar, die von Benutzern ausgeführt werden können, denen die angegebene rollen rbAC-Rolle zugewiesen wurde. Beispielsweise wurde der Rolle "CsHelpDesk" die Cmdlets "Lock-CsClientPin" und "UnlockCsClientPin" zugewiesen. Das bedeutet, dass Benutzer, denen die Rolle "CsHelpDesk" zugewiesen wurde, benutzer-PIN-Nummern sperren und entsperren können. Die Rolle "CsHelpDesk" wurde jedoch nicht dem cmdlet New-CsVoicePolicy zugewiesen. Das bedeutet, dass Benutzer, denen die Rolle "CsHelpDesk" zugewiesen wurde, keine neuen Sprachrichtlinien erstellen können.
 
-## <a name="viewing-information-about-rbac-roles"></a>Anzeigen von Informationen zu RBAC-Rollen
+## <a name="viewing-information-about-rbac-roles"></a>Anzeigen von Informationen zu rollen rbAC-Rollen
 
-Sie können grundlegende Informationen zu ihren RBAC-Rollen abrufen, indem Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl ausführen:
+Sie können grundlegende Informationen zu Ihren rollensteuerungsrollen abrufen, indem Sie den folgenden Befehl in der Skype for Business Server-Verwaltungsshell ausführen:
 
 `Get-CsAdminRole`
 
-Beachten Sie, dass die Identität der RBAC-Rolle (beispielsweise CsVoiceAdministrator) eine direkte Zuordnung zu einer Sicherheitsgruppe hat, die sich im Container Benutzer in den Active Directory-Domänendiensten befindet.
+Beachten Sie, dass die Identität der Rollengruppenadministratorrolle (z. B. "CsVoiceAdministrator") über eine direkte Zuordnung zu einer Sicherheitsgruppe verfügt, die sich im Container "Users" in den Active Directory Domain Services befindet.
 
-Wenn Sie eine Liste der Cmdlets anzeigen möchten, die einer Rolle zugewiesen wurden, verwenden Sie einen Befehl wie den folgenden:
+Verwenden Sie zum Anzeigen einer Liste der Cmdlets, die einer Rolle zugewiesen wurden, einen Befehl wie den folgenden:
 
 `Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets`
 
-## <a name="assigning-an-rbac-role-to-a-user"></a>Zuweisen einer RBAC-Rolle zu einem Benutzer
+## <a name="assigning-an-rbac-role-to-a-user"></a>Zuweisen einer rollen rollenaktiven Rolle zu einem Benutzer
 
-Wenn Sie einem Benutzer eine RBAC-Rolle zuweisen möchten, müssen Sie diesen Benutzer der entsprechenden Active Directory-Sicherheitsgruppe hinzufügen. Um beispielsweise die CsLocationAdministrator-Rolle einem Benutzer zuzuweisen, müssen Sie diesen Benutzer der Gruppe CsLocationAdministrator hinzufügen. Dies kann durchführen des folgenden Verfahrens erfolgen:
+Um einem Benutzer eine rollen rbAC-Rolle zuzuordnen, müssen Sie diesen Benutzer der entsprechenden Active Directory-Sicherheitsgruppe hinzufügen. Um beispielsweise einem Benutzer die Rolle "CsLocationAdministrator" zuzuordnen, müssen Sie diesen Benutzer der Gruppe "CsLocationAdministrator" hinzufügen. Dazu können Sie das folgende Verfahren durchführen:
 
-1. Melden Sie sich bei einem Computer, auf dem Active Directory-Benutzer und-Computer installiert wurden, mit einem Konto an, das über die Berechtigung zum Ändern der Mitgliedschaft einer Active Directory-Gruppe verfügt.
-2. Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **Active Directory-Benutzer und-Computer**.
-3. Erweitern Sie in Active Directory-Benutzer und-Computer den Namen Ihrer Domäne, und klicken Sie auf den Container **Benutzer** .
-4. Klicken Sie mit der rechten Maustaste auf die Sicherheitsgruppe **CsLocationAdministrator**, und klicken Sie dann auf **Eigenschaften**.
-5. Klicken Sie im Dialogfeld **Eigenschaften** auf der Registerkarte **Mitglieder** auf **Hinzufügen**.
-6. Geben Sie im Dialogfeld **Benutzer, Computer, Kontakte oder Gruppen auswählen** den Benutzernamen oder den Anzeigenamen des Benutzers ein, der der Gruppe hinzugefügt werden soll (beispielsweise Ken Myers), und klicken Sie dann im Feld **Geben Sie die zu verwendenden Objektnamen ein** , und klicken Sie dann auf **OK**.
+1. Melden Sie sich mit einem Konto mit der Berechtigung zum Ändern der Mitgliedschaft einer Active Directory-Gruppe an einem Computer an, auf dem Active Directory-Benutzer und -Computer installiert wurden.
+2. Klicken **Sie auf "Start",** **"Alle Programme",** **"Verwaltung"** und dann auf **"Active Directory-Benutzer und -Computer".**
+3. Erweitern Sie in Active Directory Users and Computers den Namen Ihrer Domäne, und klicken Sie auf den **Container "Users".**
+4. Klicken Sie mit der rechten Maustaste auf die Sicherheitsgruppe **"CsLocationAdministrator",** und klicken Sie dann auf **"Eigenschaften".**
+5. Klicken Sie **im Dialogfeld Eigenschaften** auf der Registerkarte **"Mitglieder"** auf **"Hinzufügen".**
+6. Geben Sie im Dialogfeld **Benutzer, Computer,** Kontakte oder Gruppen auswählen den Benutzernamen oder Anzeigenamen des Benutzers ein, der  der Gruppe hinzugefügt werden soll (z. B. Ken Myer) in das Feld "Geben Sie die Zu verwendende Objektnamen ein, und klicken Sie dann auf **OK".**
 7. Klicken Sie im Dialogfeld **Eigenschaften** auf **OK**.
 
-Um zu überprüfen, ob die RBAC-Rolle zugewiesen wurde, verwenden Sie das Cmdlet Get-CsAdminRoleAssignment, und übergeben Sie dem Cmdlet den sAMAccountName (Active Directory-Anmeldename) des Benutzers. Führen Sie diesen Befehl beispielsweise in der Skype for Business Server-Verwaltungsshell aus:
+Verwenden Sie das Cmdlet Get-CsAdminRoleAssignment, und übergeben Sie das Cmdlet "SamAccountName" (Active Directory-Anmeldename) des Benutzers, um zu überprüfen, ob die Rollengruppenrolle zugewiesen wurde. Führen Sie beispielsweise diesen Befehl in der Skype for Business Server-Verwaltungsshell aus:
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`
