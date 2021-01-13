@@ -1,7 +1,7 @@
 ---
-title: Verwalten von Skype Room System-Konten
-ms.author: v-lanac
-author: lanachin
+title: Verwalten von Skype Room Systems-Konten
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,39 +12,39 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
-description: Lesen Sie dieses Thema und erfahren Sie, wie Sie Skype Room System-Konten verwalten.
-ms.openlocfilehash: b6d61f4ddc9fe5e296ffd98b685e1000151d5db2
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: In diesem Thema erfahren Sie, wie Sie Skype Room System-Konten verwalten.
+ms.openlocfilehash: fe6438934fa8fffabbc73c96ac00fd7844b51e14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768658"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805555"
 ---
-# <a name="manage-skype-room-system-accounts"></a>Verwalten von Skype Room System-Konten
+# <a name="manage-skype-room-system-accounts"></a>Verwalten von Skype Room Systems-Konten
  
-Lesen Sie dieses Thema und erfahren Sie, wie Sie Skype Room System-Konten verwalten. 
+In diesem Thema erfahren Sie, wie Sie Skype Room System-Konten verwalten. 
 
 > [!NOTE]
-> Microsoft Teams Rooms ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams-Räumen finden Sie in der Übersicht zur Microsoft Teams rooms- [Verwaltung](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage).
+> Microsoft Teams Rooms ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams Rooms finden Sie in der Übersicht über die Verwaltung von Microsoft [Teams-Räumen.](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage)
   
-## <a name="move-the-skype-room-system-account-between-pools"></a>Verschieben des Skype Room-System Kontos zwischen Pools
+## <a name="move-the-skype-room-system-account-between-pools"></a>Verschieben des Skype Room System-Kontos zwischen Pools
 
-Wenn Sie das Skype Room-Systemkonto von einem Skype for Business Server-Pool in einen anderen verschieben möchten (beispielsweise bei Upgrades), verwenden Sie den folgenden Befehl, um den Pool des Skype Room-Systemkontos zu verschieben: 
+Wenn Sie das Skype Room System-Konto aus einem Skype for Business Server-Pool in einen anderen verschieben müssen (z. B. bei Upgrades), verwenden Sie den folgenden Befehl, um den Skype Room System-Kontopool zu verschieben: 
   
 ```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
-## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Deaktivieren des Skype Room-System Kontos für Skype for Business-Dienste
+## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Deaktivieren des Skype Room System-Kontos für Skype for Business-Dienste
 
-Wenn Sie ein vorhandenes Skype Room-System Konto über Skype for Business-Dienste in einem Skype for Business Server-Pool deaktivieren möchten, verwenden Sie den folgenden Befehl, um das Konto zu deaktivieren: 
+Wenn Sie ein vorhandenes Skype Room System-Konto von Skype for Business-Diensten in einem Skype for Business Server-Pool deaktivieren müssen, verwenden Sie den folgenden Befehl, um das Konto zu deaktivieren: 
   
 ```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 
-## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Optional: Erstellen einer Skype Room-System Administratorgruppe in Active Directory
+## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Optional: Erstellen einer Skype Room System-Administratorgruppe in Active Directory
 
-Jeder Skype Room-System Client, der der Domäne Beitritt, kann von einem Domänenbenutzer mit lokalen Administratorrechten auf dem Skype Room System Appliance-PC vollständig verwaltet werden. Aus diesem Grund können Sie eine dedizierte Administratorengruppe in Active Directory erstellen und dieser Gruppe während der Einrichtung des neuen Skype Room-System Computers Administratorrechte erteilen.
+Jeder Skype Room System-Client, der der Domäne beitritt, kann vollständig von einem Domänenbenutzer mit lokalen Administratorrechten auf dem Skype Room System-Appliance-PC verwaltet werden. Daher können Sie eine dedizierte Administratorgruppe in Active Directory erstellen und dieser Gruppe während der Einrichtung des neuen Skype Room System-Computers Administratorrechte geben.
   
 
