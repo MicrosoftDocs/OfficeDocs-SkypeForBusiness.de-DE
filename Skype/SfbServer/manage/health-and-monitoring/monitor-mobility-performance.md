@@ -1,8 +1,8 @@
 ---
 title: Überwachen der Mobilität für die Leistung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 'Zusammenfassung: erfahren Sie mehr über den Mobilitätsdienst (MCX) und die Unified Communications Web-API (UCWA) in Skype for Business Server.'
-ms.openlocfilehash: 4d604c46704881a055385336f8b1ff32862d929a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Mobilitätsdienst (Mcx) und die Unified Communications Web API (UCWA) in Skype for Business Server.'
+ms.openlocfilehash: d7473d22f2de0576bf6214ae43719c8bfc70d49a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817834"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816835"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Überwachen der Mobilität für die Leistung in Skype for Business Server
  
-**Zusammenfassung:** Informieren Sie sich über den Mobilitätsdienst (MCX) und die Unified Communications Web-API (UCWA) in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Mobilitätsdienst (Mcx) und die Unified Communications Web API (UCWA) in Skype for Business Server.
   
-Der Skype for Business Server-Mobilitätsdienst (MCX) und die Unified Communications Web-API (UCWA) erhöhen die Auslastung von Front-End-Servern und Front-End-Pools. Mobile Geräte, die eine Verbindung mit dem Server beibehalten, auch wenn die Mobile Anwendung minimiert ist, wie etwa Android-und Nokia-Geräte mit lync 2010 Mobile sowie Android-und Apple-Geräte, auf denen lync 2013 Mobile ausgeführt wird, stellen eine größere Belastung als Geräte dar, die die Verbindung zum Server wird beendet, wenn die Mobile Anwendung minimiert wird. Nimmt die Nutzung der Mobilitätsdienste zu, müssen Sie die Mobilitätsleistung überwachen, um festzustellen, ob die Kapazität erhöht werden muss.
+Der Skype for Business Server Mobility Service (Mcx) und die Unified Communications Web API (UCWA) erhöhen die Last auf Front-End-Servern und Front-End-Pools. Mobile Geräte, die eine Verbindung mit dem Server auch dann aufrecht erhalten, wenn die mobile Anwendung minimiert ist, z. B. Android- und Nokia-Geräte, auf denen Lync 2010 Mobile ausgeführt wird, sowie Android- und Apple-Geräte, auf denen Lync 2013 Mobile ausgeführt wird, haben eine höhere Last als Geräte, die die Verbindung mit dem Server beenden, wenn die mobile Anwendung minimiert wird. Wenn die Mobilitätsnutzung zunimmt, müssen Sie die Mobilitätsleistung überwachen, um festzustellen, wann Sie Ihre Kapazität erhöhen müssen.
 
 > [!NOTE]
-> MCX (Mobility Service)-Unterstützung für ältere Mobile Clients steht in Skype for Business Server 2019 nicht mehr zur Verfügung. Alle derzeitigen mobilen Skype for Business-Clients verwenden bereits Unified Communications Web API (UCWA) zur Unterstützung von Instant Messaging (im), Anwesenheitsinformationen und Kontakten. Benutzer mit Legacy-Clients, die MCX verwenden, müssen ein Upgrade auf einen aktuellen Client durchführen.
+> Die McX (Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen mobilen Skype for Business-Clients verwenden bereits unified Communications Web API (UCWA), um Chat, Anwesenheit und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen ein Upgrade auf einen aktuellen Client durchführen.
   
 Die Mobilitätsleistung wird durch mehrere Limits beeinflusst: 
   
@@ -38,18 +38,18 @@ Die Mobilitätsleistung wird durch mehrere Limits beeinflusst:
     
 - IIS-Warteschlangenlänge
     
-Darüber hinaus wirken sich andere Serverlimits auf die Mobilitätsleistung aus. Hierzu gehören maximal 12 gleichzeitige Anmeldungen, Authentifizierungen und Sitzungserneuerungen und -beendigungen. Für die meisten Bereitstellungen müssen die Maximalwerte nicht geändert werden.
+Weitere Grenzwerte für Server, die sich auf die Mobilitätsleistung auswirken können, sind maximal 12 gleichzeitige Anmeldungen, Authentifizierungen, Sitzungserneuerungen und Beendigungen. Diese Höchstwerte müssen für die meisten Bereitstellungen nicht geändert werden.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Überwachen der Kapazitätsgrenzen von Server Speicher in Skype for Business Server](server-memory-capacity-limits.md)
+- [Überwachen auf Kapazitätsgrenzen für den Serverspeicher in Skype for Business Server](server-memory-capacity-limits.md)
     
-- [Überwachen des mobilitätsdiensts und der UCWA-Nutzung in Skype for Business Server](service-and-ucwa-usage.md)
+- [Überwachen der Mobilitätsdienst- und UCWA-Nutzung in Skype for Business Server](service-and-ucwa-usage.md)
     
-- [Konfigurieren des mobilitätsdiensts für eine leistungsstarke Funktion in Skype for Business Server](configure-service.md)
+- [Konfigurieren des Mobilitätsdiensts für hohe Leistung in Skype for Business Server](configure-service.md)
     
-- [Überwachen von IIS-Anforderungs Protokollierungs Protokolldateien in Skype for Business Server](iis-request-tracing-log-files.md)
+- [Überwachen der Protokolldateien für die Ablaufverfolgung von IIS-Anfragen in Skype for Business Server](iis-request-tracing-log-files.md)
     
-- [Mobilitäts Leistungsindikatoren in Skype for Business Server](performance-counters.md)
+- [Leistungsindikatoren für mobilität in Skype for Business Server](performance-counters.md)
     
 

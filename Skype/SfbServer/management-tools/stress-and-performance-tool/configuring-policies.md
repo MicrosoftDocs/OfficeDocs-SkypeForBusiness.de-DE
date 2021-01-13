@@ -1,8 +1,8 @@
 ---
-title: Konfigurieren von Richtlinien für das Stress-und Leistungs Tool von Skype for Business Server 2015
+title: Konfigurieren von Richtlinien für das Skype for Business Server 2015 Stress and Performance Tool
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -13,113 +13,113 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
-description: Richtlinienkonfiguration für das Stress-und Leistungs Tool von Skype for Business Server 2015
-ms.openlocfilehash: bfdf0d9875a37f7f4a1f98aa24cd6fd5c3176a00
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Richtlinienkonfiguration für Skype for Business Server 2015 Stress and Performance Tool.
+ms.openlocfilehash: bb049d5740d74e5ebeacd8a21d00e2644da61a7c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816194"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815035"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Konfigurieren von Richtlinien für das Stress-und Leistungs Tool von Skype for Business Server 2015
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Konfigurieren von Richtlinien für das Skype for Business Server 2015 Stress and Performance Tool
  
-Richtlinienkonfiguration für das Stress-und Leistungs Tool von Skype for Business Server 2015
+Richtlinienkonfiguration für Skype for Business Server 2015 Stress and Performance Tool.
   
-Es gibt mehrere Richtlinien und andere Bereiche, die Sie in Skype for Business Server 2015 konfigurieren können, bevor Sie das Belastungs-und Leistungs Tool ausführen:
+Es gibt mehrere Richtlinien und andere Bereiche, die Sie in Skype for Business Server 2015 konfigurieren können, bevor Sie das Stress and Performance Tool ausführen:
   
 - [Archivierungsrichtlinie](configuring-policies.md#ArchivingPolicy)
     
 - [Konferenzrichtlinie](configuring-policies.md#ConferencingPolicy)
     
-- [Kontakt Richtlinie](configuring-policies.md#ContactsPolicy)
+- [Kontaktrichtlinie](configuring-policies.md#ContactsPolicy)
     
-- [Föderations Richtlinie](configuring-policies.md#FederationPolicy)
+- [Verbundrichtlinie](configuring-policies.md#FederationPolicy)
     
-- [Richtlinien für die Anrufsteuerung](configuring-policies.md#CACPolicy)
+- [Anrufsteuerungsrichtlinie](configuring-policies.md#CACPolicy)
     
-- [VoIP-Weiterleitungsregeln](configuring-policies.md#VoiceRoutingRules)
+- [Regeln für das Voicerouting](configuring-policies.md#VoiceRoutingRules)
     
-- [Anwendung für Konferenzteilnehmer](configuring-policies.md#ConfAttendantApp)
+- [Anwendung "Konferenz attendant"](configuring-policies.md#ConfAttendantApp)
     
-- [Server-Anruf Park Service](configuring-policies.md#ServerCallParkServ)
+- [Dienst zum Parken von Serveranrufen](configuring-policies.md#ServerCallParkServ)
     
 - [Notrufe](configuring-policies.md#EmergencyCalls)
     
-- [Konfigurieren der Antwortgruppen Anwendung](configuring-policies.md#ConfigResponseGroupApp)
+- [Konfigurieren der Reaktiongruppenanwendung](configuring-policies.md#ConfigResponseGroupApp)
     
 ## <a name="archiving-policy"></a>Archivierungsrichtlinie
 <a name="ArchivingPolicy"> </a>
 
-Wenn Sie einen Archivierungsserver in Ihrer Skype for Business Server-Topologie bereitgestellt haben, können Sie das ArchivingPolicy. ps1-Skript sehen. Wenn Sie weitere Hilfe benötigen, lesen Sie die Cmdlets Archivierungs-und Webkonferenz.
+Wenn Sie einen Archivierungsserver in Ihrer Skype for Business Server-Topologie bereitgestellt haben, können Sie das Skript ArchivingPolicy.ps1 sehen. Wenn Sie weitere Unterstützung benötigen, sehen Sie sich die Cmdlets für Archivierung und Webkonferenzen an.
   
 ## <a name="conferencing-policy"></a>Konferenzrichtlinie
 <a name="ConferencingPolicy"> </a>
 
-Für Konferenzen haben wir das MeetingPolicy. ps1-Skript. Wenn Sie weitere Hilfe benötigen, lesen Sie die Webkonferenz-Cmdlets.
+Für Konferenzen verfügen wir über das MeetingPolicy.ps1 Skript. Wenn Sie weitere Unterstützung benötigen, sehen Sie sich die Webkonferenz-Cmdlets an.
   
-## <a name="contacts-policy"></a>Kontakt Richtlinie
+## <a name="contacts-policy"></a>Kontaktrichtlinie
 <a name="ContactsPolicy"> </a>
 
-Das ContactsPolicy. ps1-Skript ist das Beispiel, das Sie überprüfen müssen. Die Cmdlets für Sofortnachrichten und Anwesenheitsinformationen sind hilfreich, wenn Sie Weitere Verweise benötigen.
+ContactsPolicy.ps1 Skript ist das Beispiel, das Sie überprüfen müssen. Die Cmdlets für Im- und Anwesenheitsangaben sind hilfreich, wenn Sie weitere Verweise benötigen.
   
-## <a name="federation-policy"></a>Föderations Richtlinie
+## <a name="federation-policy"></a>Verbundrichtlinie
 <a name="FederationPolicy"> </a>
 
-Das Beispielskript für Federation lautet FederationPolicy. ps1. Die zu überprüfenden Cmdlets, wenn Sie weitere Einblicke benötigen, sind Edgeserver, Federation und externer Zugriff.
+Das Beispielskript für den Verbund ist FederationPolicy.ps1. Wenn Sie weitere Einblicke benötigen, sind Edgeserver, Verbund und externer Zugriff die zu überprüfende Cmdlets.
   
-## <a name="call-admission-control-policy"></a>Richtlinien für die Anrufsteuerung
+## <a name="call-admission-control-policy"></a>Anrufsteuerungsrichtlinie
 <a name="CACPolicy"> </a>
 
-Sie können auf BandwidthPolicy. ps1 für diese Richtlinie verweisen. Weitere Informationen finden Sie auch in den Cmdlets für die Anrufsteuerung.
+Sie können auf BandwidthPolicy.ps1 für diese Richtlinie verweisen. Die Cmdlets für die Anrufsteuerung enthalten weitere Informationen.
   
-## <a name="voice-routing-rules"></a>VoIP-Weiterleitungsregeln
+## <a name="voice-routing-rules"></a>Regeln für das Voicerouting
 <a name="VoiceRoutingRules"> </a>
 
-Sie benötigen das RoutingRules. ps1-Beispielskript für das VoIP-Routing. Wenn Sie diese Regeln konfigurieren, notieren Sie sich den Telefonkontext (also/Location-Profil oder/SimpleName) sowie interne/externe Ortsvorwahl, damit Sie diese beim Erstellen von Benutzern angeben können. Sie benötigen Sie auch während der LyncPerfTool-Konfiguration (insbesondere für PSTN-UC und UC-PSTN).
+Sie benötigen das RoutingRules.ps1 Beispielskript für das Voicerouting. Beachten Sie beim Konfigurieren dieser Regeln den Telefonkontext (d. h. /Location Profile oder /SimpleName) und interne/externe Ortscodes, damit Sie diese beim Erstellen von Benutzern angeben können. Sie benötigen sie auch während der LyncPerfTool-Konfiguration (speziell für PSTN-UC und UC-PSTN).
   
-Beispielsweise sollte der Parameter SimpleName im Aufruf des Cmdlets **New-CsDialPlan** im RoutingRules. ps1-Beispiel für den LocationProfile-Wert in der folgenden Abbildung von UserProfileGenerator. exe verwendet werden:
+Beispielsweise sollte der Parameter "SimpleName" im Aufruf des Cmdlets **"New-CsDialPlan"** im Beispiel RoutingRules.ps1 für den Wert "LocationProfile" in der folgenden Abbildung der UserProfileGenerator.exe:
   
-![Skype for Business-Lastkonfigurationstool, Registerkarte für VoIP-Szenarien, Erweiterte Einstellungen für Unterhaltungen](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
+![Skype for Business-Ladekonfigurationstool, Registerkarte "Sprachszenarien", erweiterte Einstellungen für Unterhaltungen.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
-Ausführliche Informationen finden Sie unter Enterprise-VoIP-Cmdlets.
+Weitere Informationen finden Sie in den Enterprise-VoIP Cmdlets.
   
-## <a name="conference-attendant-application"></a>Anwendung für Konferenzteilnehmer
+## <a name="conference-attendant-application"></a>Anwendung "Konferenz attendant"
 <a name="ConfAttendantApp"> </a>
 
-Überprüfen Sie zuerst das ConferenceAutoAttendantConfiguration. ps1-Skript. Sie sollten die ConferencingAutoAttendant-Telefonnummer (standardmäßig 1121111111) notieren, damit Sie diese in das LyncPerfTool-Konfigurationstool für die Konfigurations Generierung eingeben können, wie unten beschrieben:
+Überprüfen Sie zuerst das ConferenceAutoAttendantConfiguration.ps1 Skript. Sie sollten die Telefonnummer "ConferencingAutoAttendant" (standardmäßig 1121111111) notieren, damit Sie sie wie folgt in das LyncPerfTool-Konfigurationstool für die Konfigurationsgenerierung eingeben können:
   
-![Die Registerkarte für VoIP-Szenarien zeigt die Stufe der Konferenzauslastung und die Telefonnummer.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
+![Registerkarte "Sprachszenarien" mit Konferenzladeebene und Telefonnummer.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
-Weitere Details finden Sie unter Konferenz-und Einwahlkonferenz-Cmdlets.
+Weitere Informationen finden Sie in den Cmdlets für Konferenzen und Einwahlkonferenzen.
   
-## <a name="server-call-park-service"></a>Server-Anruf Park Service
+## <a name="server-call-park-service"></a>Dienst zum Parken von Serveranrufen
 <a name="ServerCallParkServ"> </a>
 
-Dies ist standardmäßig deaktiviert. Sie können das CallParkConfiguration. ps1-Beispielskript überprüfen, wenn Sie dies testen möchten. Darüber hinaus können Sie die Cmdlets für die Parken-Anwendung nach Bedarf abrufen.
+Dies ist tatsächlich standardmäßig deaktiviert. Sie können das beispielskript CallParkConfiguration.ps1 überprüfen, wenn Sie dies testen müssen. Schauen Sie sich außerdem die Cmdlets für die Anwendung zum Parken von Anrufen nach Bedarf an.
   
 ## <a name="emergency-calls"></a>Notrufe
 <a name="EmergencyCalls"> </a>
 
-Sie müssen die folgenden Schritte ausführen, um die Belastungs-und Leistungstests für Notrufe zu konfigurieren:
+Sie müssen die folgenden Schritte ausführen, um Belastungs- und Leistungstests für Notrufe zu konfigurieren:
   
-1. Einrichten einer VoIP-Route für Notrufe. Sie können das RoutingRules. ps1-Skript verwenden und unter dem Kommentar " **Route E911 to PSTN** " ein Beispiel für die Einrichtung dieser VoIP-Route finden.
+1. Richten Sie eine Sprachroute für Notrufe ein. Sie können das Skript RoutingRules.ps1 verwenden und unter dem Kommentar **"Route E911 to PSTN"** ein Beispiel für das Einrichten dieser Sprachroute suchen.
     
     > [!CAUTION]
-    > Der Beispielbefehl in RoutingRules. ps1 weist ein Zahlenmuster auf, das die Zahl 119 anstatt 911 enthält. Sie sollten die Verwendung von 911 (oder ihrer tatsächlichen lokalen Notfallnummer) vermeiden, um versehentliche Anrufe an Ihre lokalen Notfall Operatoren während der Auslastungstests zu verhindern. Beachten Sie, dass diese Konfiguration nur zu Simulationszwecken dient! 
+    > Der Beispielbefehl in RoutingRules.ps1 hat ein Nummernmuster, das die Zahl 119 anstelle von 911 enthält. Vermeiden Sie die Verwendung von 911 (oder Ihrer tatsächlichen lokalen Notrufnummer), um versehentliche Anrufe an die lokalen Notrufoperatoren während der Auslastungstests zu verhindern. Denken Sie daran, dass diese Konfiguration nur zu Simulationszwecken dient! 
   
-2. Konfigurieren Sie Adressen, indem Sie die Werte auf der Registerkarte **Location Info Service config** im UserProvisioningTool ausfüllen, wie in der folgenden Abbildung dargestellt:
+2. Konfigurieren Sie Adressen, indem Sie die Werte auf der Registerkarte "Konfiguration des **Standortinformationsdiensts"** im UserProvisioningTool angeben, wie in der folgenden Abbildung dargestellt:
     
-     ![Das Benutzerbereitstellungstool zeigt die Anzahl der Adressen, Subnetze, Switche und Ports.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
+     ![Benutzerbereitstellungstool mit der Anzahl der Adressen, Subnetze, Switches und Ports.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
-3. Wenn Sie alles im UserProvisioningTool eingegeben haben, klicken Sie auf die Schaltfläche " **LIS-Konfigurationsdateien generieren** ".
+3. Wenn Sie alles in das UserProvisioningTool eingegeben haben, klicken Sie auf die Schaltfläche **"LIS-Konfigurationsdateien** generieren".
     
-4. Nun werden CSV-Dateien für Ports, Subnets, Switches und drahtlose Zugriffspunkte (WAPs) sowie eine XML-Datei für das Stress-und Leistungstool generiert. Sie können die CSV-Dateien für Eingaben verwenden, wenn Sie den Location Information Service (LIS) mit dem LisConfiguration. ps1-Skript konfigurieren. Zu diesem Zweck müssen Sie die Datei "Locations0. xml" in denselben Ordner wie die ausführbare Druck-und Leistungs Tool-Datei (LyncPerfTool. exe) verschieben. Auf diese Weise können Sie Standortprofil Szenarien (Wähl Plan) ausführen.
+4. Nun werden CSV-Dateien für Ports, Subnetze, Switches und Funkzugriffspunkte (WaPs) sowie eine XML-Datei für das Stress and Performance-Tool generiert. Sie können die CSV-Dateien für Eingaben verwenden, wenn Sie den Standortinformationsdienst (Location Information Service, LIS) mit dem Skript LisConfiguration.ps1 konfigurieren. Dazu müssen Sie die Locations0.xml in denselben Ordner wie die ausführbare Datei des Stress and Performance Tools (LyncPerfTool.exe) verschieben. Dadurch können Sie Standortprofilszenarien (Wählplan) ausführen.
     
-## <a name="configuring-response-group-application"></a>Konfigurieren der Antwortgruppen Anwendung
+## <a name="configuring-response-group-application"></a>Konfigurieren der Reaktiongruppenanwendung
 <a name="ConfigResponseGroupApp"> </a>
 
-Das Beispielskript lautet ResponseGroupConfiguration. ps1. Es gibt auch Cmdlets für die Antwortgruppen Anwendung, die für weitere Konfigurationsdetails zu überprüfen sind. Im folgenden Diagramm werden einige Konfigurationsdetails angezeigt:
+Das Beispielskript ist ResponseGroupConfiguration.ps1. Es gibt auch Cmdlets für Reaktionsgruppe-Anwendungen, die Sie auf weitere Konfigurationsdetails überprüfen können. Das folgende Diagramm zeigt einige der Konfigurationsdetails:
   
-![Das Konfigurationstool für Reaktionsgruppen zeigt vorhandene Workflows für Testzwecke.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
+![Das Konfigurationstool für Reaktionsgruppe, das vorhandene Workflows zu Testzwecken zeigt.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   
 
