@@ -1,8 +1,8 @@
 ---
 title: Bereitstellungseinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: c7a360146f91c2e411ff48f52d92a3c69b0a2e11
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219066"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835365"
 ---
-# <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
+# <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
 
 Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:
 
@@ -36,7 +36,7 @@ Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgen
 
 Geben Sie zum Ändern der **Standard-SIP-Domäne** den neuen Domänennamen ein.
 
-Geben Sie zum Hinzufügen**** weiterer unterstützter SIP-Domänen den Namen der Domäne ein, die hinzugefügt werden soll. Klicken Sie auf **Hinzufügen**, um den neuen SIP-Domänennamen (Session Initiation Protocol) zu übernehmen.
+Geben Sie zum Hinzufügen weiterer unterstützter SIP-Domänen den Namen der Domäne ein, die hinzugefügt werden soll. Klicken Sie auf **Hinzufügen**, um den neuen SIP-Domänennamen (Session Initiation Protocol) zu übernehmen.
 
 Wählen Sie zum Ändern eines vorhandenen zusätzlichen SIP-Domänennamens den Domänennamen aus, und nehmen Sie im Textfeld Änderungen vor. Klicken Sie auf **Aktualisieren**, um die Änderung zu übernehmen.
 
@@ -73,7 +73,7 @@ Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in eine
 > [!IMPORTANT]
 > Nachdem Sie den zentralen Verwaltungsspeicher für die Infrastruktur definiert, veröffentlicht und bereitgestellt haben, kann der Speicherort des zentralen Verwaltungsspeichers nur über einen externen Vorgang in einen anderen Front-End-Pool verschoben werden.
 
-Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [verschieben-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Windows PowerShell-Cmdlet-Referenz.
+Weitere Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in Windows PowerShell Cmdlet-Referenz.
 
 ## <a name="see-also"></a>Siehe auch
 

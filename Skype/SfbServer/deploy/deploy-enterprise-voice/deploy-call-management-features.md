@@ -1,8 +1,8 @@
 ---
-title: Bereitstellen von anrufverwaltungsfunktionen in Skype for Business
+title: Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,38 +15,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-description: Bereitstellen von anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: c3cc645f26d8e99f67cb9ddf00d4f9119e06dc81
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: 02c6669b9cadb952f7ccc71d785416db7414d8a8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767598"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836855"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a>Bereitstellen von anrufverwaltungsfunktionen in Skype for Business
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business
  
-Bereitstellen von anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP
+Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
   
-Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Skype for Business Server bietet die folgenden anrufverwaltungsfunktionen: 
+Enterprise-VoIP A0 steuern, wie eingehende Anrufe geroutet und beantwortet werden. Skype for Business Server bietet die folgenden Anrufverwaltungsfunktionen: 
   
-- **Park anrufen**: ermöglicht es sprach Benutzern, einen Anruf vorübergehend zu parken und ihn dann vom gleichen Telefon oder einem anderen Telefon abzunehmen.
+- **Anruf parken:** Ermöglicht Sprachbenutzern das vorübergehende Parken eines Anrufs und das anschließende Abrufen von demselben Oder einem anderen Telefon aus.
     
-- **Gruppenanruf Abholung**: ermöglicht Benutzern, Anrufe an einen anderen Benutzer zu beantworten, der einer Pickup-Gruppe zugewiesen ist, indem Sie die Gruppennummer für die Anruf Abholung wählen.
+- **Gruppenanrufannahme:** Ermöglicht Es Benutzern, Anrufe an einen anderen Benutzer zu beantworten, der einer Pickupgruppe zugewiesen ist, indem sie die Nummer der Anrufannahmegruppe wählen.
     
-- **Reaktionsgruppe**: leitet eingehende Anrufe an Gruppen von Agents weiter, indem Sie Sammelanschlüsse oder Fragen und Antworten zu Interaktionen (Interactive Voice Response) verwenden.
+- **Reaktionsgruppe:** Leitet eingehende Anrufe mithilfe von Sammel sammelgruppen oder interaktiven Sprachantworten (Interactive Voice Response, IVR) an Gruppen von Agents weiter.
     
-- **Ansage**: Gibt eine Nachricht für Anrufe wieder, die über eine nicht zugewiesene Nummer eingehen, leitet den Anruf weiter oder beides.
+- **Ansage**: Zur Wiedergabe einer Nachricht für Anrufe, die über eine nicht zugewiesene Nummer eingehen, zur Weiterleitung des Anrufs oder beides.
     
-In diesem Abschnitt wird beschrieben, wie Sie diese anrufverwaltungsfunktionen während einer Enterprise-VoIP-Bereitstellung konfigurieren.
+In diesem Abschnitt wird beschrieben, wie Sie diese Anrufverwaltungsfeatures während einer Enterprise-VoIP konfigurieren.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Bereitstellungsprozess für den Parken von Anrufen in Skype for Business](deployment-process-for-call-park.md)
+- [Bereitstellungsprozess für das Parken von Anrufen in Skype for Business](deployment-process-for-call-park.md)
     
-- [Bereitstellungsprozess für die Gruppenanruf Abholung in Skype for Business](deployment-process-for-group-call-pickup.md)
+- [Bereitstellungsprozess für die Gruppenanrufannahme in Skype for Business](deployment-process-for-group-call-pickup.md)
     
-- [Bereitstellungsprozess für die Reaktionsgruppe in Skype for Business](deployment-process-for-response-group.md)
+- [Bereitstellungsprozess für Reaktionsgruppe in Skype for Business](deployment-process-for-response-group.md)
     
-- [Bereitstellungsprozess für die Ankündigungs Anwendung in Skype for Business Server](deployment-process-for-the-announcement-application.md)
+- [Bereitstellungsprozess für die Ankündigungsanwendung in Skype for Business Server](deployment-process-for-the-announcement-application.md)
     
 

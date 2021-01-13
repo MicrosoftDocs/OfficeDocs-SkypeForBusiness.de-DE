@@ -1,8 +1,8 @@
 ---
 title: Front-End-Server – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält die Konfigurationsinformationen für diesen Front-End-Pool oder Standard Edition-Server. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: ddd0cfbb80284f8f8a19162b1ae32e0f45d0857a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 707bdbdf963d632b2ca646e2a8f48f6b4f80e5e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793643"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835755"
 ---
-# <a name="front-end-server-scope-node"></a>Front-End-Server – Bereichsknoten
+# <a name="front-end-server-scope-node"></a>Front-End-Server – Bereichsknoten
  
 Dieser Knoten enthält die Konfigurationsinformationen für diesen Front-End-Pool oder Standard Edition-Server. Folgende Möglichkeiten stehen zur Verfügung:
   
@@ -34,7 +34,7 @@ Dieser Knoten enthält die Konfigurationsinformationen für diesen Front-End-Poo
     
 Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:
   
-- **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     
