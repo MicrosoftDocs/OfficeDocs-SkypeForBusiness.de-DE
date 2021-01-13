@@ -1,8 +1,8 @@
 ---
-title: Anruf Detail Bericht in Skype for Business Server
+title: Anrufdetailbericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Zusammenfassung: erfahren Sie mehr über den Anruf Detail Bericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: a700bf9969c921db2d36a816579ee36ff59cb3b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Anrufdetailbericht, der in Skype for Business Server verwendet wird.'
+ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818146"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826515"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Anruf Detail Bericht in Skype for Business Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Anrufdetailbericht in Skype for Business Server
  
-**Zusammenfassung:** Informieren Sie sich über den in Skype for Business Server verwendeten Anruf Detail Bericht.
+**Zusammenfassung:** Erfahren Sie mehr über den Anrufdetailbericht, der in Skype for Business Server verwendet wird.
   
-Der Anruf Detailbericht bietet einen detaillierten Überblick über einen einzelnen Anruf. der Bericht enthält nahezu alle von Skype for Business Server gesammelten Metriken für die Qualität der Erfahrung und Statistiken, die in Berichtsabschnitte unterteilt sind, wie etwa:
+Der Anrufdetailbericht bietet einen detaillierten Blick auf einen einzelnen Anruf. Der Bericht enthält fast alle Metriken und Statistiken zur Qualität der Benutzererfahrung, die von Skype for Business Server erfasst wurden, aufgeteilt in Berichtsabschnitte wie:
   
 - Anrufinformationen 
     
@@ -51,31 +51,31 @@ Der Anrufdetailbericht ist sehr nützlich, wenn Sie genau feststellen möchten, 
 
 Auf den Anrufdetailbericht kann von einem der folgenden Berichte aus zugegriffen werden:
   
-- Der [Standortbericht in Skype for Business Server (Location-Report.MD) (durch Klicken auf die Anruflautstärke oder die schlechte Anruf Prozentsatz)
+- [Location Report in Skype for Business Server (location-report.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
-- Der [Medien Qualitäts Zusammenfassungsbericht in Skype for Business Server (Summary.MD) (durch Klicken auf die Anruflautstärke oder den Prozentsatz für einen schlechten Anruf)
+- [Media Quality Summary Report in Skype for Business Server (summary.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
-- Der [Bericht zum Vergleich der Medienqualität in Skype for Business Server](comparison.md) (durch Klicken auf den [Bericht Anrufliste in Skype for Business Server](call-list-report-0.md) und dann auf die Detail Metrik).
+- Der [Vergleichsbericht über Medienqualität in Skype for Business Server](comparison.md) (durch Klicken auf den Anruflistenbericht in Skype for Business [Server](call-list-report-0.md) und anschließend auf die Metrik "Details").
     
-- Der [Bericht "Server Leistung" in Skype for Business Server](server-performance.md) (durch Klicken auf das Anrufvolumen oder den Prozentsatz für den schlechten Anruf)
+- Der [Bericht über Serverleistung in Skype for Business Server](server-performance.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
-- Der [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) (durch Klicken auf die Detail Metrik)
+- Der [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) (durch Klicken auf die Metrik "Details")
     
-Innerhalb des Anruf Detail Berichts können Sie [in Skype for Business Server auf den gerätebericht](device-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
+Über den Anrufdetailbericht können Sie auf den [Gerätebericht in Skype for Business Server](device-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Aufnahmegerät
     
 - Darstellungsgerät
     
-Sie können auch auf den Trendbericht über Medienqualität des Servers zugreifen, indem Sie auf die Metrik „A/V-Edgeserver“ klicken.
+Sie können auch auf den Trendbericht über Medienqualität des Servers zugreifen, indem Sie auf die Metrik A/V-Edgeserver klicken.
   
 ## <a name="making-the-best-use-of-the-call-detail-report"></a>Optimale Verwendung des Anrufdetailberichts
 
-Der Anrufdetailbericht umfasst normalerweise 250 verschiedene Metriken. Hierzu gehören „Zeitstempelabweichung des Mikrofons“, „Geringer Rauschabstand, Zeit“ und „Nahes Ende zu Echo, Zeit“. Wenn Sie nicht genau wissen, was mit diesen Metriken gemessen wird, können Sie mit der Maus auf die Bezeichnung der Metrik zeigen. In den meisten Fällen erscheint dann eine QuickInfo mit einer Metrikbeschreibung.
+Der Anrufdetailbericht umfasst normalerweise 250 verschiedene Metriken. Hierzu gehören Zeitstempelabweichung des Mikrofons, Geringer Rauschabstand, Zeit und Nahes Ende zu Echo, Zeit. Wenn Sie nicht genau wissen, was mit diesen Metriken gemessen wird, können Sie mit der Maus auf die Bezeichnung der Metrik zeigen. In den meisten Fällen erscheint dann eine QuickInfo mit einer Metrikbeschreibung.
   
-Wenn Sie eine Metrik nicht finden können, geben Sie einen Teil der Metrikbezeichnung in das Suchfeld ein und klicken Sie anschließend auf **Suchen**. Wenn Sie beispielsweise die Metrik „Geringer Rauschabstand, Zeit“ nicht finden können, geben Sie „SNR“ in das Suchfeld ein und klicken Sie anschließend auf **Suchen**.
+Wenn Sie Probleme beim Suchen nach einer Metrik haben, geben Sie einen Teil der Metrikbeschriftung in das Suchfeld ein, und klicken Sie dann auf **"Suchen".** Wenn Sie beispielsweise die Metrik "Low SNR time" nicht finden können, geben Sie SNR in das Suchfeld ein, und klicken Sie dann auf **"Suchen".**
   
-Beachten Sie, dass im Bericht nur Informationen zu einem Anruf verfolgt werden. Der Anruf selbst wird nicht aufgezeichnet.
+Beachten Sie, dass im Bericht nur Informationen zu einem Anruf nach verfolgt werden. Der Aufruf selbst wird nicht aufgezeichnet.
   
 ## <a name="filters"></a>Filter
 
@@ -97,19 +97,19 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Anrufdetailberi
 |**Vermittlungsserver-Umgehungsanruf** <br/> |Nein  <br/> |Gibt an, ob der Anruf mit einem PSTN-VoIP-Gateway oder einer qualifizierten IP-Nebenstellenanlage verbunden wurde, ohne dass er über den Vermittlungsserver geleitet wurde.  <br/> |
 |**Betriebssystem des Anrufers** <br/> |Nein  <br/> |Das Betriebssystem auf dem Computer des Anrufers.  <br/> |
 |**CPU des Anrufers** <br/> |Nein  <br/> |Die CPU, die im Computer des Benutzers installiert ist, der den Anruf initiiert hat.  <br/> |
-|**CPU-Kernnummer des Anrufers** <br/> |Nein  <br/> |Die Nummer des Prozessors in dem Computer des Benutzers, der den Anruf initiiert hat.  <br/> |
+|**Nummer des CPU-Kerns des Anrufers** <br/> |Nein  <br/> |Die Nummer des Prozessors in dem Computer des Benutzers, der den Anruf initiiert hat.  <br/> |
 |**CPU-Geschwindigkeit des Anrufers** <br/> |Nein  <br/> |Die Taktfrequenz der CPU des Computers des Benutzers, der den Anruf initiiert hat.  <br/> |
-|**CPU-Virtualisierung des Anrufers** <br/> |Nein  <br/> |Ggf. die Virtualisierung, die auf dem Computer des Benutzers implementiert ist, der den Anruf initiiert hat.  <br/> |
+|**Virtualisierung der CPU des Anrufers** <br/> |Nein  <br/> |Ggf. die Virtualisierung, die auf dem Computer des Benutzers implementiert ist, der den Anruf initiiert hat.  <br/> |
 |**PAI des Angerufenen** <br/> |Nein  <br/> |Die P-Asserted-Identity (P-Asserted-ID) des Benutzers, der zur Teilnahme an dem Anruf eingeladen wurde. Diese dient zur Übermittlung der nachgewiesenen Identität eines Benutzers innerhalb eines vertrauenswürdigen Netzwerks.  <br/> |
 |**URI des Angerufenen** <br/> |Nein  <br/> |Die SIP-Adresse des Benutzers, der angerufen wurde.  <br/> |
 |**Endpunkt des Angerufenen** <br/> |Nein  <br/> |Das Gerät, mit dem der Anruf angenommen wurde.  <br/> |
 |**Benutzer-Agent des Angerufenen** <br/> |Nein  <br/> |Die Software, die auf dem Gerät verwendet wird, mit dem der Anruf angenommen wurde.  <br/> |
-|**Dauer** <br/> |Nein  <br/> |Die Dauer des Anrufs.  <br/> |
-|**Vermittlungsserver-Umgehungswarnung** <br/> |Nein  <br/> |Eine Warnung, die ausgegeben wird, wenn der Vermittlungsserver umgangen wurde.  <br/> |
+|**Duration** <br/> |Nein  <br/> |Die Dauer des Anrufs.  <br/> |
+|**Vermittlungsserver-Warnungskennzeichen** <br/> |Nein  <br/> |Eine Warnung, die ausgegeben wird, wenn der Vermittlungsserver umgangen wurde.  <br/> |
 |**Betriebssystem des Angerufenen** <br/> |Nein  <br/> |Das Betriebssystem auf dem Computer des Benutzers, der angerufen wurde.  <br/> |
 |**CPU des Angerufenen** <br/> |Nein  <br/> |Die CPU, die im Computer des Benutzers installiert ist, der angerufen wurde.  <br/> |
-|**CPU-Kernnummer des Angerufenen** <br/> |Nein  <br/> |Die Nummer des Prozessors in dem Computer des Benutzers, der angerufen wurde.  <br/> |
+|**Nummer des CPU-Kerns des Angerufenen** <br/> |Nein  <br/> |Die Nummer des Prozessors in dem Computer des Benutzers, der angerufen wurde.  <br/> |
 |**CPU-Geschwindigkeit des Angerufenen** <br/> |Nein  <br/> |Die Taktfrequenz der CPU des Computers des Benutzers, der angerufen wurde.  <br/> |
-|**CPU-Virtualisierung des Angerufenen** <br/> |Nein  <br/> |Ggf. die Virtualisierung, die auf dem Computer des Benutzers implementiert ist, der angerufen wurde.  <br/> |
+|**Virtualisierung der CPU des Angerufenen** <br/> |Nein  <br/> |Ggf. die Virtualisierung, die auf dem Computer des Benutzers implementiert ist, der angerufen wurde.  <br/> |
    
 

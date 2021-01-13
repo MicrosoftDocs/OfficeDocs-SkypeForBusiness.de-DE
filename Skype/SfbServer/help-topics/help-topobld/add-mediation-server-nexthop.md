@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Vermittlungsservern – NextHop
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
-description: Um den nächsten Hop für eine Vermittlungsserver zu definieren, die Sie definieren, wählen Sie in der Dropdownliste Nächster Hop-Pool die Enterprise Edition-Server oder Standard Edition-Server aus, die als nächster Hop für das Vermittlungsserver fungieren sollen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: d4517030d0f9f6adfc7fc048a4356bbb04be3e17
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Um den nächsten Hop für einen Vermittlungsserver zu definieren, den Sie definieren, wählen Sie in der Dropdownliste "Nächster Hoppool" den Enterprise Edition- oder Standard Edition-Server aus, der als nächster Hop für den Vermittlungsserver fungieren soll. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
+ms.openlocfilehash: 4893f2a4b00274d9f1297c483eff8df6092f08ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218756"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823965"
 ---
-# <a name="add-mediation-server-nexthop"></a>Hinzufügen von Vermittlungsservern – NextHop
+# <a name="add-mediation-server-nexthop"></a>Hinzufügen eines Vermittlungsservers – NextHop
  
-Um den nächsten Hop für eine Vermittlungsserver zu definieren, die Sie definieren, wählen Sie in der Dropdownliste **Nächster Hop-Pool** die Enterprise Edition-Server oder Standard Edition-Server aus, die als nächster Hop für das Vermittlungsserver fungieren sollen. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+Um den nächsten Hop für einen Vermittlungsserver zu  definieren, den Sie definieren, wählen Sie in der Dropdownliste "Nächster Hoppool" den Enterprise Edition- oder Standard Edition-Server aus, der als nächster Hop für den Vermittlungsserver fungieren soll. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
   
 

@@ -1,8 +1,8 @@
 ---
 title: Externe Anwendungen – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'Der Knoten Vertrauenswürdige Anwendungsserver enthält die vertrauenswürdigen Anwendungspools dieses Standorts. Vertrauenswürdige Anwendungspools enthalten Server, die vertrauenswürdige Microsoft Unified Communications Anwendungen ausführen, aber keine Skype for Business Server Rollen ausführen. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: b426578e6478bc68919c0c81f916cd243a5f119a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Der Knoten Vertrauenswürdige Anwendungsserver enthält die vertrauenswürdigen Anwendungspools dieses Standorts. Vertrauenswürdige Anwendungspools enthalten Server, auf denen vertrauenswürdige Microsoft Unified Communications-Anwendungen ausgeführt werden, aber keine Skype for Business Server-Rollen. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: b200593ea206f2c23f8c521dddbf3498d6ced838
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215566"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826655"
 ---
-# <a name="external-applications-scope-node"></a>Externe Anwendungen – Bereichsknoten
+# <a name="external-applications-scope-node"></a>Externe Anwendungen – Bereichsknoten
  
-Der Knoten **Vertrauenswürdige Anwendungsserver** enthält die vertrauenswürdigen Anwendungspools dieses Standorts. Vertrauenswürdige Anwendungspools enthalten Server, die vertrauenswürdige Microsoft Unified Communications Anwendungen ausführen, aber keine Skype for Business Server Rollen ausführen. Folgende Möglichkeiten stehen zur Verfügung:
+Der Knoten **Vertrauenswürdige Anwendungsserver** enthält die vertrauenswürdigen Anwendungspools dieses Standorts. Vertrauenswürdige Anwendungspools enthalten Server, auf denen vertrauenswürdige Microsoft Unified Communications-Anwendungen ausgeführt werden, aber keine Skype for Business Server-Rollen. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer vertrauenswürdiger Anwendungspool** Startet den Assistenten zum Definieren eines neuen vertrauenswürdigen Anwendungspools****, mit dem Sie der Topologie einen neuen vertrauenswürdigen Anwendungspool hinzufügen.
+- **Neuer vertrauenswürdiger Anwendungspool** Startet den Assistenten zum Definieren eines neuen vertrauenswürdigen Anwendungspools, mit dem Sie der Topologie einen neuen vertrauenswürdigen Anwendungspool hinzufügen.
     
 Zusätzlich zu den Optionen für vertrauenswürdige Anwendungspools sind die folgenden allgemeinen Optionen verfügbar:
   

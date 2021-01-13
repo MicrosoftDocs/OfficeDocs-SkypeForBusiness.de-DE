@@ -1,8 +1,8 @@
 ---
-title: Benutzer anzeigen oder Konfigurieren der Standortrichtlinie
+title: Benutzer anzeigen oder Standortrichtlinie konfigurieren
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: ec129f83d6a321a9a6688a7e213680ce579325cb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 93a297afaa35a8c5918ea98b3d67015106fc8342
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821737"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824315"
 ---
-# <a name="users-view-or-configure-location-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Ortungsrichtlinien
+# <a name="users-view-or-configure-location-policy"></a>Benutzer: Anzeigen oder Konfigurieren einer Ortungsrichtlinie
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
 - [Zuweisen einer Standortrichtlinie zu einem Benutzer](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
 

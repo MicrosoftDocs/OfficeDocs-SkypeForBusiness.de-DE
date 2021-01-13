@@ -1,8 +1,8 @@
 ---
-title: Video-Interoperabilität-Server – Festlegen des Bereichs des Knotens
+title: Video-Interoperabilitätsserver – Festlegen des Knotenbereichs
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Schritte, die erforderlich sind, um ein neues VIS-oder Video-Gateway im Topologie-Builder zu definieren, werden online unter Erstellen eines VIS-Pools in Skype for Business Server beschrieben.
-ms.openlocfilehash: 7bf3e752bf501292f321bee3ed79f3477ea523ea
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Die erforderlichen Schritte zum Definieren eines neuen VIS- oder Videogateways im Topologie-Generator werden online unter "Erstellen eines VIS-Pools in Skype for Business Server" beschrieben.
+ms.openlocfilehash: 4c1ff1d61be0b13153537eb3c2e10d4590527f5d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795246"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824445"
 ---
-# <a name="video-interop-server---scope-the-node"></a>Video-Interoperabilität-Server – Festlegen des Bereichs des Knotens
+# <a name="video-interop-server---scope-the-node"></a>Video-Interoperabilitätsserver – Festlegen des Knotenbereichs
  
-Die Schritte, die erforderlich sind, um ein neues VIS-oder Video-Gateway im Topologie-Builder zu definieren, werden online unter [Erstellen eines VIS-Pools in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)beschrieben.
+Die erforderlichen Schritte zum Definieren eines neuen VIS- oder Videogateways im Topologie-Generator werden online unter ["Erstellen eines VIS-Pools in Skype for Business Server" beschrieben.](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-Die Schritte, die zum Zuweisen einer Video Interop-Serverrolle auf einem Server mithilfe von Windows PowerShell erforderlich sind, werden online unter [Bereitstellen der VIS-Serverrolle in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) beschrieben.
+Die erforderlichen Schritte zum Zuweisen einer Video-In-Interop-Serverrolle auf einem Server mit Windows PowerShell werden online unter "Bereitstellen der VIS-Serverrolle [in Skype for Business Server" beschrieben.](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-Die Konfigurationsschritte für einen neuen Video-Interop-Server mit Windows PowerShell werden unter [Konfigurieren des Video-Interop-Servers in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md)Online beschrieben.
+Die Konfigurationsschritte für einen neuen Video-Interop-Server mit Windows PowerShell werden online unter [Configure the Video Interop Server in Skype for Business Server beschrieben.](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
- Die Einstellungen für ein Video Gateway, die in der Cisco-GUI für Interoperation mit einem VIS festzulegen sind, werden online unter [Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)beschrieben.
+ Die Einstellungen für ein Videogateway, die in der Cisco-GUI für die Interoperabilität mit einem VIS festgelegt werden müssen, werden online unter [Configure CUCM for Interoperation with Skype for Business Server beschrieben.](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
   
- Die Einstellungen für eine VTC, die in der Cisco-GUI für die Interoperation mit einem Video-Gateway und einem VIS festzulegen sind, werden online unter [Konfigurieren eines VTC für die Interoperabilität mit Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)beschrieben.
+ Die Einstellungen für ein VTC, die in der Cisco-GUI für die Interoperabilität mit einem Videogateway und einem VIS festgelegt werden müssen, werden online unter "Konfigurieren eines VTC für die Interoperabilität mit [Skype for Business Server" beschrieben.](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Planen des Video-Interop-Servers in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+[Planen des Videointeopservers in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
