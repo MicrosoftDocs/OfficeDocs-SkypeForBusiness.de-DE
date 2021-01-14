@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
-ms.openlocfilehash: 62250644d29f65a9c650db0e80477eec6baf4f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49839450"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49862590"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinienpaketen in Microsoft Teams
 
@@ -64,8 +64,8 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 |Bildung (Lehrer)    |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Lehrkräfte gelten.      |
 |Bildung (Lehrkraft an einer Grundschule mithilfe von Fernunterricht)    |Erstellt eine Reihe von Richtlinien, um die Sicherheit und Zusammenarbeit der Lehrkräfte beim Lernen per Fernzugriff zu maximieren.      |
 |Bildung (Grundschüler mit Fernunterricht)    |Erstellt eine Reihe von Richtlinien, um die Sicherheit und Zusammenarbeit der Schüler beim Lernen per Fernzugriff zu maximieren.      |
-|Firstline Manager |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Firstline Manager in Ihrer Organisation an. |
-|Mitarbeiter in Firstline |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Firstline Workers in Ihrer Organisation an. |
+|Frontline Manager |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Fronttline-Manager in Ihrer Organisation an. |
+|Fronttline worker |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Fronttline-Mitarbeiter in Ihrer Organisation an. |
 |Klinischer Mitarbeiter im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die klinischen Mitarbeitern, z. B. registrierten Krankenschwestern, Krankenschwestern, Ärzten und Sozialarbeitern, vollständigen Zugriff auf Chats, Anrufe, Schichtverwaltung und Besprechungen geben. |
 |Information Worker im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die Information Workers wie IT-Personal, Mitarbeiter, Mitarbeiter der Finanzabteilung und Compliance Officers, vollständigen Zugriff auf Chats, Anrufe und Besprechungen bieten.|
 |Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenräume in Ihrer Gesundheitsorganisation gelten.|
