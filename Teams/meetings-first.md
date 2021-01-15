@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: francoid
+ms.reviewer: lsomi
 description: Erfahren Sie zuerst mehr über Besprechungen, in denen Benutzer ihre Besprechung in Teams erstellen und Skype for Business weiterhin für Chat, Anrufe und Anwesenheit verwenden können.
 localization_priority: Normal
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c4e4eba45e7f6719b1fb3427ebd169b69a1e86c9
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809505"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871076"
 ---
 # <a name="meetings-first"></a>Besprechungen zuerst
 
@@ -32,7 +32,7 @@ ms.locfileid: "49809505"
 
 ## <a name="what-is-meetings-first"></a>Was ist Besprechungen zuerst?
 
-"Meetings First" basiert auf dem **Koexistenzmodus "SfBWithTeamsCollabAndMeetings".** Besprechungen sind weder ein Produkt noch ein Feature – es handelt sich um eine Konfiguration, bei der die Funktionen und Funktionen von Teams und Skype for Business genutzt werden, um eine einzigartige Koexistenzerfahrung zu bieten.
+"Meetings First" basiert auf dem **Koexistenzmodus "SfBWithTeamsCollabAndMeetings".** Besprechungen sind kein Produkt oder Feature– es ist eine Konfiguration, die Funktionen und Funktionen von Teams und Skype for Business verwendet, um eine einzigartige Koexistenzerfahrung zu bieten.
 
 In "Besprechungen zuerst" erstellen Benutzer ihre Besprechung in Teams, während sie Skype for Business weiterhin für Chat, Anrufe und Anwesenheit verwenden. Es gibt keine Überlappung der Modalitäten zwischen Teams und Skype for Business. Chat, Anrufe und Anwesenheit sind in Skype for Business und in Teams deaktiviert. Dies ermöglicht eindeutige Szenarien für eine "bessere Zusammenarbeit" zwischen Skype for Business und Teams, die die Benutzerfreundlichkeit während der Koexistenz verbessern, sowie Interoperabilitätsszenarien mit **Teams Only-Benutzern.**
 
@@ -57,14 +57,14 @@ Meeting First bringt die folgenden Funktionen zusammen:
 
 - [Bereitstellen eines (lokalen) Skype for Business Server-Benutzers](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) mit [Teams-Audiokonferenzen.](tutorial-audio-conferencing.yml)
 - [Migrationsdienst](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)für Besprechungen: Vom Benutzer organisierte Besprechungen werden in die Cloud migriert und in Teambesprechungen konvertiert, wenn der Benutzer zuerst zu "Besprechungen" heraufgestuft wird (erfordert Exchange Online).
-- Optimierte Benutzeroberfläche in Teams, zentriert auf Teambesprechungen sowie Teams und Kanälen (die optional mithilfe der Richtlinie für [App-Berechtigungen ausgeblendet werden können);](teams-app-permission-policies.md) [Private Chats, Anrufe und Selbstanrufe](teams-client-experience-and-conformance-to-coexistence-modes.md) in Teams werden in Besprechungen zuerst nicht verfügbar gemacht, was es den Bereitstellungs- und Einführungsaufwand ermöglicht, sich vollständig auf Besprechungen zu konzentrieren.
+- Optimierte Benutzeroberfläche in Teams, zentriert auf Teambesprechungen sowie Teams und Kanälen (die optional mithilfe der Richtlinie für [App-Berechtigungen ausgeblendet werden können).](teams-app-permission-policies.md) [Private Chats, Anrufe und Selbstanrufe](teams-client-experience-and-conformance-to-coexistence-modes.md) in Teams werden in Besprechungen zuerst nicht verfügbar gemacht, was es den Bereitstellungs- und Übernahmeaufwand ermöglicht, sich vollständig auf Besprechungen zu konzentrieren.
 - [Besprechungserfahrung in Superior Teams.](tutorial-meetings-in-teams.yml)
 - "Better Together" zwischen Teams und Skype for Business: 
   - Automatisches Halten: Wenn Sie in einer Besprechung in Teams einen Anruf in Skype for Business führen, wird die Besprechung in der Warteschleife halten und umgekehrt. Dadurch wird verhindert, dass Benutzer ihre privaten Anrufe von den Besprechungsteilnehmern überhören.
     ![Screenshot des Szenarios "Zusammen besser zusammen" mit Teams und Skype for Business](media/meetings-first-better-together-hold.png)
   - Abstimmung über die Anwesenheit: Aktivitäten in Teams werden in den Anwesenheitsinformationen des Benutzers widersspiegelt, bei denen es sich um die Anwesenheitsinformationen von Skype for Business handelt, da sich Chats und Anrufe in Skype for Business befinden. Insbesondere, wenn sich "Meetings First"-Benutzer in einer Teambesprechung befinden, werden deren Anwesenheit aktualisiert, um dies widerspiegeln zu können. Wenn sie ihren Bildschirm präsentieren, wird ihr Anwesenheitsmodus aktualisiert, um "Nicht stören" anzuzeigen (basierend auf ihren Einstellungen in Skype for Business).
-  - Abstimmung über das USB-Gerät-HID-Steuerelement (auch auf dem Mac verfügbar): Die Steuerelemente werden von Teams in Teambesprechungen und unter allen anderen Umständen von Skype for Business berücksichtigt.
-  - Sofern nicht anders angegeben, sind für Better Together-Funktionen aktuelle Windows-Desktopclients zu diesem Zeitpunkt erforderlich.
+  - Abstimmung über das USB-Gerät(auch auf dem Mac verfügbar): Die Steuerelemente für das HID werden in Teambesprechungen und unter allen anderen Umständen von Skype for Business berücksichtigt.
+  - Sofern nicht anders angegeben, sind für Better Together-Funktionen derzeit die aktuellen Windows-Desktopclients erforderlich.
 
 ## <a name="prerequisites-for-meetings-first"></a>Voraussetzungen für Besprechungen zuerst
 
@@ -78,9 +78,9 @@ Eine [Skype for Business-Hybridtopologie](https://docs.microsoft.com/skypeforbus
 
 "Besprechungen zuerst" wird von jeder Version von Skype for Business Server unterstützt (und bekannt dafür, mit dem nicht mehr unterstützten Lync Server zu arbeiten). Es wird von jedem unterstützten Skype for Business-Client unterstützt, für die Better Together-Funktionen ist jedoch ein neuer Client erforderlich.
 
-Sobald diese Anforderungen erfüllt sind (und nicht früher), können die Benutzer für [Microsoft 365 oder Office 365 und Teams lizenziert werden.](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)
+Sobald diese Anforderungen erfüllt sind (und nicht vorher), können die Benutzer für [Microsoft 365 oder Office 365 und Teams lizenziert werden.](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)
 
-Für eine optimale Benutzererfahrung bei Besprechungen sollten die Benutzer für [Exchange Online,](exchange-teams-interact.md) [SharePoint Online und OneDrive for Business](sharepoint-onedrive-interact.md)sowie für die Erstellung von Microsoft 365-Gruppen aktiviert sein. "Besprechungen zuerst" wird für Benutzer unterstützt, deren Postfach sich auf einem lokalen #A0 befindet oder die nicht über SharePoint Online, OneDrive for Business oder die Erstellung von Microsoft 365-Gruppen verfügen. Allerdings ist deren Erfahrung weniger vollständig. Insbesondere bei Organisationen, die Exchange Server lokal verwenden, können (je nach Version von Exchange Server) einige Einschränkungen beim Erstellen und Anzeigen von Besprechungen im Teamclient sowie im Hinblick auf Compliancefunktionen gelten.
+Für eine optimale Benutzererfahrung bei Besprechungen sollten die Benutzer für [Exchange Online,](exchange-teams-interact.md) [SharePoint Online und OneDrive for Business](sharepoint-onedrive-interact.md)sowie für die Erstellung von Microsoft 365-Gruppen aktiviert sein. "Besprechungen zuerst" wird für Benutzer unterstützt, deren Postfach sich lokal in Exchange befindet oder die nicht über SharePoint Online oder OneDrive for Business oder die Erstellung von Microsoft 365-Gruppen verfügen. Allerdings ist deren Erfahrung weniger vollständig. Insbesondere bei Organisationen, die Exchange Server lokal verwenden, können (je nach Version von Exchange Server) einige Einschränkungen beim Erstellen und Anzeigen von Besprechungen im Teamclient sowie im Hinblick auf Compliancefunktionen gelten.
 
 Benutzer müssen mindestens für [Teams lizenziert sein.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) Darüber hinaus können sie bei Bedarf für [Audiokonferenzen](set-up-audio-conferencing-in-teams.md)lizenziert werden.
 
@@ -96,10 +96,10 @@ Damit Ihre Benutzer in Teambesprechungen die bestmögliche Erfahrung haben, soll
 - [Bewerten Sie Ihre Umgebung.](3-envision-evaluate-my-environment.md)
 - [Bereiten Sie das Netzwerk Ihrer Organisation für Microsoft Teams vor.](prepare-network.md)
 - Aktualisieren Sie Ihre Besprechungsräume mit Teams-fähigen Besprechungsraumgeräten und [-lösungen,](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)oder verwenden Sie Cloud Video Interop für Microsoft [Teams,](cloud-video-interop.md) um Ihren vorhandenen Räumen und Geräten von Drittanbietern die Teilnahme an Teambesprechungen zu ermöglichen.
-- Bestatten Sie Ihre Benutzer [mit zertifizierten USB-Audio- und -Videogeräten.](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- Statten Sie Ihre Benutzer mit [zertifizierten USB-Audio- und -Videogeräten aus.](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - Bereiten Sie sich darauf [vor, das Bewusstsein für Teambesprechungen zu fördern und die Einführung zu fördern.](adopt-microsoft-teams-landing-page.md)
 - [Planen Sie die Dienstverwaltung.](4-envision-plan-my-service-management.md)
-- Machen Sie sich mit den reichhaltigen Anrufanalyseberichten vertraut, um [Probleme mit einer schlechten Anrufqualität zu beheben.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+- Machen Sie sich mit den reichhaltigen Anrufanalyseberichten vertraut, um [Probleme mit schlechter Anrufqualität zu beheben.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 Sie können in dieser Phase ein Pilotprojekt mit mittlerem Produktionsmaßstab in Betracht ziehen.
 

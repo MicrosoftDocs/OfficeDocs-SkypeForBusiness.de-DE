@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdfddfe43fd977099a02df61bb74146afcb05d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804405"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871014"
 ---
 # <a name="manage-user-access-to-teams"></a>Verwalten des Benutzerzugriffs auf Teams
 
-Sie verwalten den Zugriff auf Teams auf Benutzerebene, indem Sie eine Microsoft Teams-Produktlizenz zuweisen oder entfernen. Mit Ausnahme der anonymen Teilnahme an Teambesprechungen muss jeder Benutzer in Ihrer Organisation über eine Lizenz für Teams verfügen, bevor er Teams verwenden kann. Sie können eine Teamlizenz für neue Benutzer zuweisen, wenn neue Benutzerkonten erstellt werden, oder Benutzern mit vorhandenen Konten.
+Sie verwalten den Zugriff auf Teams auf Benutzerebene, indem Sie eine Microsoft Teams-Produktlizenz zuweisen oder entfernen. Mit Ausnahme der anonymen Teilnahme an Teambesprechungen muss jeder Benutzer in Ihrer Organisation über eine Lizenz für Teams verfügen, damit er Teams verwenden kann. Sie können eine Teamlizenz für neue Benutzer zuweisen, wenn neue Benutzerkonten erstellt werden, oder Benutzern mit vorhandenen Konten.
 
-Wenn einem Benutzer ein Lizenzierungsplan (z. B. Microsoft 365 Enterprise E3 oder Microsoft 365 Business Premium) zugewiesen wird, wird standardmäßig automatisch eine Lizenz zugewiesen und der Benutzer für Teams aktiviert. Sie können Teams für einen Benutzer deaktivieren oder aktivieren, indem Sie jederzeit eine Lizenz entfernen oder zuweisen.
+Wenn einem Benutzer ein Lizenzierungsplan (z. B. Microsoft 365 Enterprise E3 oder Microsoft 365 Business Premium) zugewiesen wird, wird einem Benutzer standardmäßig automatisch eine Lizenz zugewiesen und der Benutzer für Teams aktiviert. Sie können Teams für einen Benutzer deaktivieren oder aktivieren, indem Sie jederzeit eine Lizenz entfernen oder zuweisen.
 
 Verwenden Sie messaging-Richtlinien, die über <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">das Teams Admin Center</a>verwaltet werden, um zu steuern, welche Chat- und Kanalnachrichtenfeatures benutzern in Teams zur Verfügung stehen. Sie können die Standardrichtlinie verwenden oder mindestens eine benutzerdefinierte Messagingrichtlinie für Personen in Ihrer Organisation erstellen. Weitere Informationen finden Sie unter ["Verwalten von Messagingrichtlinien in Teams".](messaging-policies-in-teams.md)
 Sie verwalten Teamlizenzen im Microsoft 365 Admin Center oder mithilfe von PowerShell. Sie müssen ein globaler Administrator oder ein Benutzerverwaltungsadministrator sein, um Lizenzen verwalten zu können.
@@ -40,11 +40,11 @@ Sie verwalten Teamlizenzen im Microsoft 365 Admin Center oder mithilfe von Power
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Verwenden des Microsoft 365 Admin Centers
 
-Lizenzen auf Benutzerebene werden direkt über die Benutzeroberflächen des Microsoft 365 Admin Centers verwaltet. Ein Administrator kann neuen Benutzern Lizenzen zuweisen, wenn neue Benutzerkonten erstellt werden, oder Benutzern mit vorhandenen Konten. 
+Lizenzen auf Benutzerebene von Teams werden direkt über die Benutzeroberflächen des Microsoft 365 Admin Centers verwaltet. Ein Administrator kann neuen Benutzern Lizenzen zuweisen, wenn neue Benutzerkonten erstellt werden, oder Benutzern mit vorhandenen Konten. 
 
 > [!IMPORTANT]
 > Der Administrator muss über die Berechtigungen "Globaler Administrator" oder "Benutzerverwaltungsadministrator" verfügen, um Microsoft Teams-Lizenzen verwalten zu können.
-Verwenden Sie das Microsoft 365 Admin Center, um Teams-Lizenzen für einzelne Benutzer oder kleine Gruppen von Benutzern gleichzeitig zu verwalten. Sie können Teams-Lizenzen auf **der** Seite "Lizenzen" (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite **"Aktive Benutzer"** verwalten. Die von Ihnen auswählende Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
+Verwenden Sie das Microsoft 365 Admin Center, um Teams-Lizenzen für einzelne Benutzer oder kleine Gruppen von Benutzern gleichzeitig zu verwalten. Sie können Teams-Lizenzen auf **der** Seite "Lizenzen" (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite **"Aktive Benutzer"** verwalten. Die von Ihnen wählende Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
 
 Wenn Sie die Lizenzen von Teams für eine große Anzahl von Benutzern verwalten müssen, z. B. Hunderte oder Tausende von Benutzern, verwenden Sie [PowerShell](#using-powershell) oder eine gruppenbasierte Lizenzierung [in Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 
 
@@ -66,7 +66,7 @@ Wenn Sie eine Lizenz für Teams von einem Benutzer entfernen, wird Teams für di
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
 
-Verwenden Sie PowerShell, um die Lizenzen von Teams für Benutzer in Massen zu verwalten. Sie aktivieren und deaktivieren Teams über PowerShell auf die gleiche Weise wie jede andere Serviceplanlizenz. Sie benötigen die Bezeichner für die Servicepläne für Teams, die wie folgt aussehen:
+Verwenden Sie PowerShell, um Die Lizenzen von Teams für Benutzer in Massen zu verwalten. Sie aktivieren und deaktivieren Teams über PowerShell auf die gleiche Weise wie für jede andere Serviceplanlizenz. Sie benötigen die Bezeichner für die Dienstpläne für Teams, die wie folgt aussehen:
 
 - Microsoft Teams: TEAMS1
 - Microsoft Teams für GCC: TEAMS_GOV
@@ -85,7 +85,7 @@ Ausführliche Schritte finden Sie unter "Deaktivieren des Zugriffs auf Dienste [
 Es folgt ein Beispiel für die Verwendung der [Cmdlets "New-MsolLicenseOptions"](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) und ["Set-MsolUserLicense"](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) zum Deaktivieren von Teams für Benutzer mit einem bestimmten Lizenzierungsplan. Führen Sie z. B. die folgenden Schritte aus, um Teams zuerst für alle Benutzer zu deaktivieren, die über einen bestimmten Lizenzierungsplan verfügen. Aktivieren Sie dann Teams für jeden einzelnen Benutzer, der Zugriff auf Teams haben soll.
 
 > [!IMPORTANT]
-> Das [Cmdlet "New-MsolLicenseOptions"](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) aktiviert alle Dienste, die zuvor deaktiviert wurden, sofern in Ihrem benutzerdefinierten Skript nicht explizit angegeben. Wenn Sie beispielsweise Sowohl Exchange als auch Sway deaktiviert lassen möchten, während Sie Teams gleichzeitig deaktivieren, müssen Sie dies in das Skript verwenden. Dann sind Exchange und Sway für die von Ihnen identifizierten Benutzer aktiviert.
+> Das [Cmdlet "New-MsolLicenseOptions"](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) aktiviert alle Zuvor deaktivierten Dienste, sofern dies nicht explizit in Ihrem benutzerdefinierten Skript angegeben ist. Wenn Sie beispielsweise Sowohl Exchange als auch Sway deaktiviert lassen möchten, während Sie Teams gleichzeitig deaktivieren, müssen Sie dies in das Skript verwenden. Dann sind Exchange und Sway für die von Ihnen identifizierten Benutzer aktiviert.
 
 Führen Sie den folgenden Befehl aus, um alle verfügbaren Lizenzierungspläne in Ihrer Organisation anzeigen. Weitere Informationen finden Sie unter [Anzeigen von Lizenzen und Diensten mit PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 
@@ -107,13 +107,9 @@ Führen Sie den folgenden Befehl aus, um Teams für alle Benutzer zu deaktiviere
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
 
-## <a name="manage-teams-at-the-organization-level"></a>Verwalten von Teams auf Organisationsebene
-
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
-
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Teams-Add-On-Lizenzen](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Lizenzen für Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Zuweisen von Teams-Add-On-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 - [Anzeigen von Lizenzen und Diensten mit PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

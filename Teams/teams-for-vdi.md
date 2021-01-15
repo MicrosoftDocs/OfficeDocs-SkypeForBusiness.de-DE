@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams für Virtualized Desktop Infrastructure
-author: cichur
-ms.author: v-cichur
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687726febc81a727c4f6da4824487672c602809e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820985"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868350"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -30,7 +30,7 @@ In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwend
 
 ## <a name="what-is-vdi"></a>Was ist VDI?
 
-Virtual Desktop Infrastructure (VDI) ist eine Virtualisierungstechnologie, die ein Desktopbetriebssystem und Anwendungen auf einem zentralen Server in einem Rechenzentrum hostet. Dies ermöglicht Benutzern eine vollständig personalisierte Desktoperfahrung mit einer vollständig sicheren und kompatiblen zentralen Quelle.
+VDI (Virtual Desktop Infrastructure) ist eine Virtualisierungstechnologie, die ein Desktopbetriebssystem und Anwendungen auf einem zentralen Server in einem Rechenzentrum hostet. Dies ermöglicht Benutzern eine vollständig personalisierte Desktoperfahrung mit einer vollständig sicheren und kompatiblen zentralen Quelle.
 
 Microsoft Teams in einer virtualisierten Umgebung unterstützt Chat und Zusammenarbeit. Mit den Plattformen Windows Virtual Desktop,Mware und VMware werden auch Anruf- und Besprechungsfunktionen unterstützt.
 
@@ -74,9 +74,9 @@ Die folgenden Plattformen bieten virtuelle Desktopinfrastrukturlösungen für Te
 
 Der virtuelle Desktop von Windows bietet eine AV-Optimierung für Teams auf VDI-Computern. Weitere Informationen sowie zu den Anforderungen und zur Installation finden Sie unter "Verwenden von [Teams auf virtuellem Windows-Desktop".](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
 
-### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen an virtuelle Virtual Apps und Desktops von Virtual Virtual
+### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen an virtuelle Virtual Apps und Desktops von Virtual Cubes
 
-Virtual Apps und Desktops (vor allem bekannt als XenApp und XenDesktop) bieten eine AV-Optimierung für Teams auf VDI-Computern. Mit virtuellen Virtual Apps und Desktops von Virtual Virtual Desktops unterstützt Teams auf VDI neben Chat und Zusammenarbeit auch Anruf- und Besprechungsfunktionen.
+Virtual Apps und Desktops (vor allem bekannt als XenApp und XenDesktop) bieten eine AV-Optimierung für Teams auf VDI-Computern. Mit virtuellen Apps und Desktops von Virtual Virtual (VDI) unterstützt Teams für VDI neben Chat und Zusammenarbeit auch Anruf- und Besprechungsfunktionen.
 
 Sie können die neueste Version virtueller Virtual Apps und Desktops von Virtual Virtual Desktops auf [der Downloadwebsite für Citrix herunterladen.](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/) (Sie müssen sich zuerst anmelden.) Die erforderlichen Komponenten werden standardmäßig in der [#A0 (Workspace App, CWA)](https://www.citrix.com/downloads/workspace-app/) und dem Virtual Delivery Agent (VDA) gebündelt. Sie müssen keine zusätzlichen Komponenten oder #A0 auf CWA oder VDA installieren.
 
@@ -92,7 +92,7 @@ Die neuesten Anforderungen und Anweisungen zum Konfigurieren der Medienoptimieru
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installieren oder Aktualisieren der Teams-Desktop-App auf VDI
 
-Sie können die Teams-Desktop-App für VDI mithilfe einer Installation pro Computer oder mithilfe des MSI-Pakets pro Benutzer bereitstellen. Die Entscheidung über den zu verwendenden Ansatz hängt davon ab, ob Sie ein dauerhaftes oder nicht persistentes Setup und die zugehörigen Funktionalitätsanforderungen Ihrer Organisation verwenden.
+Sie können die Teams-Desktop-App für VDI mithilfe einer Installation pro Computer oder mithilfe des MSI-Pakets pro Benutzer bereitstellen. Die Entscheidung darüber, welcher Ansatz verwendet werden soll, hängt davon ab, ob Sie ein dauerhaftes oder nicht persistentes Setup und die zugehörigen Funktionalitätsanforderungen Ihrer Organisation verwenden.
 
 Bei einem dedizierten beständigen Setup würde beides funktionieren. Für ein nicht persistentes Setup ist für Teams jedoch eine Installation pro Computer erforderlich, um effizient arbeiten zu können. Weitere Informationen finden [Sie im Abschnitt "Nicht persistentes Setup".](#non-persistent-setup)
 
@@ -120,10 +120,12 @@ In einem nicht persistenten Setup werden die Änderungen des lokalen Betriebssys
 
 Für ein nicht persistentes Setup muss die Teams-Desktop-App pro Computer auf dem goldenen Bild installiert sein. (Weitere Informationen finden Sie im Abschnitt "Installieren oder Aktualisieren der [Teams-Desktop-App auf VDI".)](#install-or-update-the-teams-desktop-app-on-vdi) Dadurch wird ein effizientes Starten der Teams-App während einer Benutzersitzung sichergestellt.
 
-Die Verwendung von Teams mit einem nicht persistenten Setup erfordert auch einen Profil-Zwischenspeicherungs-Manager für eine effiziente Teams-Runtime-Datensynchronisierung. Dadurch wird sichergestellt, dass die entsprechenden benutzerspezifischen Informationen (z. B. Benutzerdaten, Profil und Einstellungen) während der Benutzersitzung zwischengespeichert werden. Stellen Sie sicher, dass die Daten in diesen beiden Ordnern synchronisiert werden.  
-
+Für die Verwendung von Teams in einem nicht persistenten Setup ist außerdem ein Profil-Zwischenspeicherungs-Manager erforderlich, um eine effiziente Synchronisierung der Teams-Runtime-Daten zu nutzen. Eine effiziente Datensynchronisierung stellt sicher, dass die entsprechenden benutzerspezifischen Informationen (z. B. die Daten, Profil oder Einstellungen eines Benutzers) während der Sitzung des Benutzers zwischengespeichert werden. Stellen Sie sicher, dass die Daten in diesen beiden Ordnern synchronisiert werden:<br>
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Benutzer\Benutzername\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
+
+> [!NOTE]
+> Ein Roamingordner (oder, wenn Sie die Ordnerumleitung verwenden, ein Zwischenspeicherungs-Manager) ist erforderlich, um sicherzustellen, dass die Teams-App über die Laufzeitdaten und -dateien verfügt, die zum Ausführen der Anwendung erforderlich sind. Dies ist erforderlich, um Probleme mit der Netzwerklatenz oder Netzwerkfehler zu vermeiden, die andernfalls zu Anwendungsfehlern und einer langsamen Benutzererfahrung aufgrund nicht verfügbarer Daten und Dateien führen würden.
 
 Es stehen eine Vielzahl von Lösungen für den Zwischenspeicherungs-Manager zur Verfügung. Beispiel: [FSLogix.](https://docs.microsoft.com/fslogix/overview) Spezifische Konfigurationsanweisungen erhalten Sie von Ihrem Caching-Manager-Anbieter.
 
@@ -141,7 +143,7 @@ Beachten Sie Folgendes, wenn Sie Teams mit Microsoft 365-Apps für Unternehmen a
 
 #### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>Neue Bereitstellungen von Teams über Microsoft 365-Apps für Unternehmen
 
-Bevor Sie Teams über Microsoft 365-Apps für Unternehmen bereitstellen, müssen Sie zunächst alle bereits vorhandenen Teams-Apps deinstallieren, wenn sie über die Installation pro Computer bereitgestellt wurden.
+Bevor Sie Teams über Microsoft 365-Apps für Unternehmen bereitstellen können, müssen Sie zuerst alle bereits vorhandenen Teams-Apps deinstallieren, wenn sie über die Installation pro Computer bereitgestellt wurden.
 
 Teams über Microsoft 365-Apps für Unternehmen wird pro Benutzer installiert. Weitere Informationen finden Sie im Abschnitt "Installieren oder Aktualisieren der [Teams-Desktop-App auf VDI".](#install-or-update-the-teams-desktop-app-on-vdi)
 
@@ -169,7 +171,7 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
 
     Die mindestens erforderliche Version der Teams-Desktop-App ist Version 1.3.00.4461. (Der PSTN-Speicher wird in früheren Versionen nicht unterstützt.)
 
-2. Installieren Sie MSI auf der VDI VM, indem Sie einen der folgenden Befehle ausführen:
+2. Installieren Sie die MSI auf der VDI VM, indem Sie einen der folgenden Befehle ausführen:
 
     - Installation pro Benutzer (Standard)
   
@@ -210,7 +212,7 @@ Es gibt eine Vielzahl virtualisierter Setupkonfigurationen, die jeweils einen an
 
 - Mindestanforderung: Einige Arbeitslasten erfordern möglicherweise ein Setup mit Ressourcen, die über den Mindestanforderungen liegen. Beispielsweise Workloads für Entwickler, die Anwendungen verwenden, die mehr Computerressourcen erfordern.
 - Abhängigkeiten: Dazu gehören Abhängigkeiten von Infrastruktur, Arbeitsauslastung und andere Umgebungsaspekte außerhalb der Teams-Desktop-App.
-- Deaktivierte Features für VDI: Teams deaktiviert GPU-intensive Features für VDI, wodurch eine vorübergehende Auslastung der CPU verbessert werden kann. Die folgenden Features sind deaktiviert:
+- Deaktivierte Features für VDI: Teams deaktiviert GPU-intensive Features für VDI, wodurch vorübergehende Auslastungen der CPU verbessert werden können. Die folgenden Features sind deaktiviert:
     - Teams-CSS-Animation
     - Giphy auto-start
 
@@ -225,13 +227,13 @@ Zusätzlich zu Chat und Zusammenarbeit steht Teams für VDI mit Anrufen und Besp
 
 ### <a name="network-requirements"></a>Netzwerkanforderungen
 
-Wir empfehlen, Ihre Umgebung auszuwerten, um mögliche Risiken und Anforderungen zu erkennen, die sich auf Ihre gesamte Cloud-Sprach- und Videobereitstellung beeinflussen können. Verwenden Sie [das Bewertungstool für das Skype for](https://www.microsoft.com/download/details.aspx?id=53885) Business-Netzwerk, um zu testen, ob Ihr Netzwerk für Teams bereit ist.
+Es wird empfohlen, Ihre Umgebung auszuwerten, um mögliche Risiken und Anforderungen zu erkennen, die sich auf Ihre gesamte Cloud-Sprach- und Videobereitstellung beeinflussen können. Verwenden Sie [das Bewertungstool für das](https://www.microsoft.com/download/details.aspx?id=53885) Skype for Business-Netzwerk, um zu testen, ob Ihr Netzwerk für Teams bereit ist.
 
 Weitere Informationen zum Vorbereiten Ihres Netzwerks für Teams finden Sie unter "Vorbereiten des Netzwerks Ihrer Organisation [für Teams".](prepare-network.md)
 
 ### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>Migrieren von Skype for Business auf VDI zu Teams auf VDI
 
-Wenn Sie neben den Unterschieden zwischen den beiden Anwendungen auch VDI von Skype for Business über VDI zu Teams auf VDI migrieren, gibt es einige Unterschiede, wenn VDI ebenfalls implementiert wird. Einige Funktionen, die derzeit in Teams VDI nicht unterstützt werden, die sich in Skype for Business VDI befinden, sind die folgenden:
+Wenn Sie von Skype for Business über VDI zu Teams auf VDI migrieren, gibt es neben den Unterschieden zwischen den beiden Anwendungen auch einige Unterschiede, wenn VDI ebenfalls implementiert wird. Einige Funktionen, die derzeit in Teams VDI nicht unterstützt werden, die sich in Skype for Business VDI befinden, sind die folgenden:
 
 - Plattformübergreifende Richtlinie zum Deaktivieren einiger AV-Features in VDI
 - Übernehmen und Übernehmen der Steuerung bei der Freigabe von Apps
@@ -255,7 +257,7 @@ Wenn Ihre Organisation nur Chat- und Zusammenarbeitsfeatures in Teams verwenden 
 
 Sie können Richtlinien über das Microsoft Teams Admin Center oder PowerShell festlegen. Es kann einige Zeit (einige Stunden) dauern, bis die Richtlinienänderungen weitervererbt wurden. Wenn die Änderungen für ein bestimmtes Konto nicht sofort zu sehen sind, versuchen Sie es in ein paar Stunden erneut.
 
-[**Anrufrichtlinien:**](teams-calling-policy.md)Teams enthält die integrierte Anrufrichtlinie "Anruf unter Ungernerufe", in der alle Anruffunktionen deaktiviert sind. Weisen Sie die Richtlinie "DisallowCalling" allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
+[**Anrufrichtlinien:**](teams-calling-policy.md)Teams enthält die integrierte Anrufrichtlinie "DisallowCalling", in der alle Anruffunktionen deaktiviert sind. Weisen Sie die Richtlinie "DisallowCalling" allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
 
 [**Besprechungsrichtlinien:**](meeting-policies-in-teams.md)Teams enthält die integrierte AllOff-Besprechungsrichtlinie, in der alle Besprechungsfeatures deaktiviert sind. Weisen Sie die "AllOff"-Richtlinie allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
 
@@ -280,7 +282,7 @@ Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
     - Wechseln Sie zu **den** Sprachanrufrichtlinien, und klicken Sie dann auf  >   **"DisallowCalling".**
-    - Wechseln Sie zu **Den**  >  **Besprechungsrichtlinien** für Besprechungen, und klicken Sie dann **auf "AllOff".**
+    - Wechseln Sie zu **den**  >  **Besprechungsrichtlinien** für Besprechungen, und klicken Sie dann **auf "AllOff".**
 2. Wählen Sie **Nutzer verwalten** aus.
 3. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 4. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
@@ -309,15 +311,15 @@ Wenn Sie über eine Implementierung von Teams auf VDI mit Chat und Zusammenarbei
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Festlegen von Richtlinien zum Aktivieren von Anruf- und Besprechungsfunktionen
 
-Über das Microsoft Teams Admin Center oder PowerShell können Sie Anruf- und Besprechungsrichtlinien für Ihre Benutzer festlegen und zuweisen. Es kann einige Zeit (einige Stunden) dauern, bis Richtlinienänderungen weitervererbt wurden. Wenn die Änderungen für ein bestimmtes Konto nicht sofort zu sehen sind, versuchen Sie es nach ein paar Stunden erneut.
+Sie können das Microsoft Teams Admin Center oder PowerShell verwenden, um Anruf- und Besprechungsrichtlinien für Ihre Benutzer zu festlegen und diesen zuzuordnen. Es kann einige Zeit (einige Stunden) dauern, bis Richtlinienänderungen weitervererbt wurden. Wenn die Änderungen für ein bestimmtes Konto nicht sofort zu sehen sind, versuchen Sie es nach ein paar Stunden erneut.
 
-[**Anrufrichtlinien:**](teams-calling-policy.md)Anrufrichtlinien in Teams steuern, welche Anruffunktionen für Benutzer verfügbar sind. Teams enthält die integrierte Anrufrichtlinie "AllowCalling", in der alle Anruffunktionen aktiviert sind. Weisen Sie die Richtlinie "AllowCalling" zu, um alle Anruffeatures zu aktivieren. Oder erstellen Sie eine benutzerdefinierte Anrufrichtlinie, um die von Ihnen geforderten Anruffeatures zu aktivieren und sie Benutzern zuzuordnen. 
+[**Anrufrichtlinien:**](teams-calling-policy.md)Anrufrichtlinien in Teams steuern, welche Anruffunktionen für Benutzer verfügbar sind. Teams enthält die integrierte AllowCalling-Anrufrichtlinie, in der alle Anruffunktionen aktiviert sind. Um alle Anruffunktionen zu aktivieren, weisen Sie die Richtlinie "AllowCalling" zu. Oder erstellen Sie eine benutzerdefinierte Anrufrichtlinie, um die von Ihnen geforderten Anruffeatures zu aktivieren und sie Benutzern zuzuordnen. 
 
 [**Besprechungsrichtlinien:**](meeting-policies-in-teams.md)Besprechungsrichtlinien in Teams steuern die Arten von Besprechungen, die Benutzer erstellen können, und die Features, die für Besprechungsteilnehmer verfügbar sind, die von Benutzern in Ihrer Organisation geplant werden. Teams enthält die integrierte AllOn-Besprechungsrichtlinie, in der alle Besprechungsfeatures aktiviert sind. Um alle Besprechungsfeatures zu aktivieren, weisen Sie die "AllOn"-Richtlinie zu. Oder erstellen Sie eine benutzerdefinierte Besprechungsrichtlinie, um die von Ihnen wollenen Besprechungsfeatures zu aktivieren und sie Benutzern zuzuordnen.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Zuweisen von Richtlinien über das Microsoft Teams Admin Center
 
-So weisen Sie einem Benutzer die Anrufrichtlinie für AllowCalling und die Besprechungsrichtlinie "AllOn" zu:
+So weisen Sie einem Benutzer die Richtlinie für Anrufanrufe (AllowCalling Calling) und die Besprechungsrichtlinie "AllOn" zu:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **"Benutzer".**
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
@@ -368,21 +370,21 @@ Wenn Benutzer eine Verbindung von einem nicht unterstützten Endpunkt aus herste
 
 Um den Fallbackmodus zu deaktivieren, legen Sie den Wert auf **1 .** Um nur Audio zu aktivieren, legen Sie den Wert auf **2 .** Wenn der Wert nicht vorhanden oder auf **0 (Null)** festgelegt ist, ist der Fallbackmodus aktiviert.
 
-Dieses Feature ist in Teams Version 1.3.00.13565 und höher verfügbar.
+Dieses Feature ist in Teams, Version 1.3.00.13565 und höher, verfügbar.
 
 ## <a name="known-issues-and-limitations"></a>Bekannte Probleme und Einschränkungen
 
 ### <a name="client-deployment-installation-and-setup"></a>Clientbereitstellung, -installation und -einrichtung
 
-- Bei der Installation pro Computer wird Teams für VDI nicht automatisch so aktualisiert, wie es nicht mit VDI -Teams-Clients erfolgt. Sie müssen das Vm-Bild aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt "Installieren oder Aktualisieren der Teams-Desktop-App [auf VDI"](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen die aktuelle Version deinstallieren, um auf eine neuere Version zu aktualisieren.
-- Teams sollten entweder pro Benutzer oder pro Computer bereitgestellt werden. Die Bereitstellung von Teams für gleichzeitige Bereitstellungen pro Benutzer und Computer wird nicht unterstützt. Wenn Sie entweder von einem Computer oder einem Benutzer zu einem dieser Modi migrieren möchten, führen Sie die Deinstallation aus, und stellen Sie sie in beiden Modus erneut zur Verfügung.
+- Bei der Installation pro Computer wird Teams für VDI nicht automatisch so aktualisiert, wie es nicht mit VDI -Teams-Clients erfolgt. Sie müssen das Image "VM" aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt "Installieren oder Aktualisieren der [Teams-Desktop-App auf VDI"](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen die aktuelle Version deinstallieren, um auf eine neuere Version zu aktualisieren.
+- Teams sollten entweder pro Benutzer oder pro Computer bereitgestellt werden. Die Bereitstellung von Teams für gleichzeitige Bereitstellungen pro Benutzer und Computer wird nicht unterstützt. Wenn Sie von einem Computer oder einem Benutzer zu einem dieser Modi migrieren möchten, führen Sie die Deinstallation aus, und stellen Sie sie in beiden Modus erneut zur Verfügung.
 - Windows Virtual Desktop und VMware unterstützen derzeit keine MacOS- und Linux-basierten Clients.
 - Zu diesem Zeitpunkt unterstützt Citrix keine MacOs-Clients.
-- "Citrix" unterstützt nicht die Verwendung expliziter HTTP-Proxys, die für einen Endpunkt definiert sind.
+- In Diesem Modus wird die Verwendung expliziter HTTP-Proxys, die für einen Endpunkt definiert sind, nicht unterstützt.
 
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
-Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
+Die folgenden Anruf- und Besprechungsfunktionen werden nicht unterstützt:
 
 - Erweiterte Notfalldienste
 - HID-Schaltflächen und -LED-Steuerelemente zwischen der App und den Geräten von Teams
@@ -399,10 +401,10 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 
 Im Folgenden sind bekannte Probleme und Einschränkungen für Anrufe und Besprechungen bekannt:
 
-- Interoperabilität mit Skype for Business ist auf Audioanrufe beschränkt. es gibt keine Videomodalität.
+- Interoperabilität mit Skype for Business ist auf Audioanrufe beschränkt. es keine Videomodalität gibt.
 - In Besprechungen oder Gruppenanrufen wird nur ein einzelner eingehender Videostream unterstützt. Wenn mehrere Personen Video senden, wird zu einem bestimmten Zeitpunkt nur das Video des dominanten Sprechers angezeigt.
 - Die Auflösung des eingehenden und ausgehenden Videostreams ist auf eine Auflösung von 720p beschränkt. Dies ist eine WebRTC-Einschränkung.
-- Es wird nur ein Videodatenstrom von einer eingehenden Kamera oder einem Stream für Bildschirmfreigaben unterstützt. Bei einer eingehenden Bildschirmfreigabe wird diese Bildschirmfreigabe anstelle des Videos des dominanten Sprechers angezeigt.
+- Es wird nur ein Videodatenstrom von einer eingehenden Kamera oder einem Stream für bildschirmfreigaben unterstützt. Bei einer eingehenden Bildschirmfreigabe wird diese Bildschirmfreigabe anstelle des Videos des dominanten Sprechers angezeigt.
 - Teams wechselt nicht zur Verwendung des letzten Audiogeräts, das ein Benutzer ausgewählt hat, wenn das Gerät getrennt und dann erneut verbunden wurde.
 - Ausgehende Bildschirmfreigabe:
     - Die Anwendungsfreigabe wird nicht unterstützt.
@@ -411,7 +413,7 @@ Im Folgenden sind bekannte Probleme und Einschränkungen für Anrufe und Besprec
     - Wird während einer PowerPoint-Freigabesitzung unterstützt.
 - Einschränkungen für Ausschließliches Arbeiten mit Workspace
     - Bei der Bildschirmfreigabe in einem Setup mit mehreren Monitoren wird nur der Hauptmonitor freigegeben.
-    - Die Skalierung mit hohem #A0 unter CWA wird nicht unterstützt.
+    - Die Skalierung mit hohen #A0 unter CWA wird nicht unterstützt.
 
 Bekannte Probleme in Teams, die nicht mit VDI in Zusammenhang stehen, finden Sie unter ["Support Teams in Ihrer Organisation".](Known-issues.md)
 
@@ -425,7 +427,7 @@ Dies ist ein bekanntes Problem mit den Versionen 1906 und 1909 von Citrix VDA. U
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
-Starten Sie VDA dann neu. Weitere Informationen finden Sie in diesem Supportartikel zu Diesem Artikel zu Richtlinien für Den Support von Citrix: [Problembehandlung bei der HDX-Optimierung für Teams.](https://support.citrix.com/article/CTX253754)
+Starten Sie VDA dann neu. Weitere Informationen finden Sie in diesem Supportartikel zu Citrix, [Problembehandlung der HDX-Optimierung für Teams.](https://support.citrix.com/article/CTX253754)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
