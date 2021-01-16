@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Irland für Microsoft Teams.
-ms.openlocfilehash: 8795dd57e165f354318d780da1ccee4d87cff9a4
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
+ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868290"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876709"
 ---
 # <a name="phone-number-management-for-ireland"></a>Telefonnummernverwaltung für Irland
 
-In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Irland für Microsoft Teams. 
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Irland für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |Übertragen Sie uns Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[LoA (Letter of Authorization) für Irland (alle Nummern) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/> |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Servicenummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonwarteschleifennummern|Wenden Sie sich an den PSTN-Servicedesk, um Rufnummern in der Anrufwarteschleife oder der [automatischen Telefonwarteschlange hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
+|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatischen Telefonwarteschleifennummern|Wenden Sie sich an den PSTN-Servicedesk, um Rufnummern in der Anrufwarteschleife oder der [automatischen Telefonwarteschlange hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>Verwandte Themen
 
