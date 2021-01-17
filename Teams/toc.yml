@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: Anforderungen
               href: rooms/requirements.md
+            - name: Sicherheit
+              href: rooms/security.md
             - name: Onlinelizenzierung
               href: rooms/rooms-licensing.md
             - name: Planen der Verwaltung mit Azure Monitor
@@ -354,6 +356,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Verwalten des Whiteboards in Teams
       href: manage-whiteboard.md
+    - name: Teams-Meeting-Add-ons für Google Workspace einrichten
+      href: google-workspace-addon-teams.md
     - name: Audiokonferenz
       items:
         - name: Ihre Bereitstellung planen
