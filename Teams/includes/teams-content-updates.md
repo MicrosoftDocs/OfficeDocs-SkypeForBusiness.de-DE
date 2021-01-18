@@ -3,6 +3,38 @@
 
 
 
+## <a name="week-of-january-11-2021"></a>Woche vom 11. Januar 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 1/11/2021 | [Vertraulichkeitsbezeichnungen für Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Geändert |
+| 1/11/2021 | [Freigeben von Dateien und Ordnern in Microsoft Teams](/MicrosoftTeams/sharing-files-in-teams) | Geändert |
+| 1/12/2021 | [Telefone und Geräte für Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Geändert |
+| 1/12/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | Geändert |
+| 1/12/2021 | [Häufig gestellte Fragen zum Upgrade von Skype for Business auf Microsoft Teams](/MicrosoftTeams/faq-journey) | Geändert |
+| 1/12/2021 | [Direct Routing – Verbinden analoger Geräte](/MicrosoftTeams/direct-routing-analog-devices) | Geändert |
+| 1/12/2021 | [Operationen für Microsoft Teams\| Dienstverwaltung \| Qualität](/MicrosoftTeams/upgrade-operate-my-service) | Geändert |
+| 1/13/2021 | [Verwalten von Teams mit Richtlinien](/MicrosoftTeams/manage-teams-with-policies) | Hinzugefügt |
+| 1/13/2021 | [Microsoft Teams-Räume verwalten](/MicrosoftTeams/rooms/rooms-manage) | Geändert |
+| 1/13/2021 | [Einrichten der Teamzielhierarchie](/MicrosoftTeams/set-up-your-team-hierarchy) | Geändert |
+| 1/13/2021 | [Was sind Guthaben für Kommunikationen?](/MicrosoftTeams/what-are-communications-credits) | Geändert |
+| 1/13/2021 | [Bekannte Probleme](/MicrosoftTeams/rooms/known-issues) | Geändert |
+| 1/13/2021 | [Übersicht über Teams und Kanäle in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Geändert |
+| 1/14/2021 | [Telefonnummernverwaltung für Irland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | Geändert |
+| 1/14/2021 | [Verwaltung von Telefonnummern für Italien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | Geändert |
+| 1/14/2021 | [Telefonnummernverwaltung für Großbritannien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | Geändert |
+| 1/14/2021 | [Einrichten der Teamzielhierarchie](/MicrosoftTeams/set-up-your-team-hierarchy) | Geändert |
+| 1/14/2021 | [Teams für Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | Geändert |
+| 1/14/2021 | [Verwalten von Einstellungen in Ihrer Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
+| 1/14/2021 | [Besprechung zuerst – Microsoft Teams](/MicrosoftTeams/meetings-first) | Geändert |
+| 1/14/2021 | [Verwalten des Benutzerzugriffs auf Microsoft Teams](/MicrosoftTeams/user-access) | Geändert |
+| 1/15/2021 | [Telefonnummernverwaltung für Irland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | Geändert |
+| 1/15/2021 | [Telefonnummernverwaltung für die Niederlande](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | Geändert |
+| 1/15/2021 | [Einrichten des Microsoft Teams-Besprechungs-Add-Ons für Google Workspace](/MicrosoftTeams/google-workspace-addon-teams) | Hinzugefügt |
+| 1/15/2021 | [Microsoft Teams Rooms Security](/MicrosoftTeams/rooms/security) | Hinzugefügt |
+
+
 ## <a name="week-of-january-04-2021"></a>Woche vom 04. Januar 2021
 
 
@@ -32,14 +64,23 @@
 | 1/8/2021 | [Teams für Bildungsrichtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen](/MicrosoftTeams/easy-policy-setup-edu) | Geändert |
 
 
+## <a name="week-of-december-28-2020"></a>Woche vom 28. Dezember 2020
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 12/28/2020 | [Bearbeiten von Gastbenutzerinformationen](/MicrosoftTeams/edit-guests-information) | Geändert |
+
+
 ## <a name="week-of-december-21-2020"></a>Woche vom 21. Dezember 2020
 
 
 | Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
 |------|------------|--------|
+| 12/21/2020 | [Unterstützte Tarifcenter und Abdeckung für Anrufpläne](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | Hinzugefügt |
 | 12/22/2020 | [Anmerkungen zu dieser Version von Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
 | 12/22/2020 | [Verwenden von Pausenräumen in Teams](/MicrosoftTeams/using-breakout-rooms) | Geändert |
-| 12/23/2020 | [Verbinden der Patienten-App mit Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | Geändert |
+| 12/23/2020 | [Manuelles Aktualisieren eines Microsoft Teams -Räume-Geräts](/MicrosoftTeams/rooms/manual-update) | Hinzugefügt |
 | 12/23/2020 | [Verwalten der App "Listen" für Ihre Organisation](/MicrosoftTeams/manage-lists-app) | Geändert |
 | 12/23/2020 | [Prüfliste für die Integration – Konfigurieren von Cloud-Voice-Workloads – Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | Geändert |
 | 12/23/2020 | [Verwenden der Übermittlungs-API für Teams-Apps zum Übermitteln und Genehmigen Ihrer benutzerdefinierten Apps](/MicrosoftTeams/submit-approve-custom-apps) | Geändert |
@@ -47,39 +88,3 @@
 | 12/23/2020 | [Erstellen einer Intranet-Portal-App für Teams von einer SharePoint Online-Website oder -Seite aus](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | Geändert |
 | 12/23/2020 | [Operationen für Microsoft Teams\| Dienstverwaltung \| Qualität](/MicrosoftTeams/upgrade-operate-my-service) | Geändert |
 | 12/23/2020 | [Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Geändert |
-
-
-## <a name="week-of-december-14-2020"></a>Woche vom 14. Dezember 2020
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 12/15/2020 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
-| 12/15/2020 | [Aktivieren von Teams Rooms-Geräten für die Teilnahme an Besprechungen von Drittanbietern](/MicrosoftTeams/rooms/third-party-join) | Geändert |
-| 12/15/2020 | [Plan für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Geändert |
-| 12/15/2020 | [Planen Ihrer Sprachlösung in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Geändert |
-| 12/15/2020 | [Sprachunterstützung für Cortana in Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | Geändert |
-| 12/15/2020 | [Optimierung des direkten Routings für lokale Medien](/MicrosoftTeams/direct-routing-media-optimization) | Geändert |
-| 12/15/2020 | [Überlegungen zum PSTN beim Upgrade von einer lokalen Skype for Business-Bereitstellung auf Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | Geändert |
-| 12/16/2020 | [Planen automatischer Telefonkonferenzen und Anrufwarteschleifen in Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Geändert |
-| 12/16/2020 | [Planen Ihrer Sprachlösung in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Geändert |
-| 12/16/2020 | [Dimensionen und Maße – Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Geändert |
-| 12/16/2020 | [Konfigurieren von direktem Routing](/MicrosoftTeams/direct-routing-configure) | Geändert |
-| 12/16/2020 | [Anmerkungen zu dieser Version von Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
-| 12/16/2020 | [Einrichten von Anrufplänen](/MicrosoftTeams/set-up-calling-plans) | Geändert |
-| 12/16/2020 | [Einrichten des Telefonsystems in Ihrer Organisation](/MicrosoftTeams/setting-up-your-phone-system) | Geändert |
-| 12/16/2020 | [Azure Sentinel und Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | Geändert |
-| 12/16/2020 | [Testen oder Kaufen von Audiokonferenzen in Microsoft 365 für Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | Geändert |
-| 12/16/2020 | [Teams Voice Contoso Fallstudie](/MicrosoftTeams/voice-case-study-overview) | Geändert |
-| 12/17/2020 | Häufig gestellte Fragen zum Upgrade von Skype for Business auf Microsoft Teams | Entfernt |
-| 12/17/2020 | [Telefone und Geräte für Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Geändert |
-| 12/17/2020 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
-| 12/17/2020 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
-| 12/17/2020 | [Einstellung von Skype for Business Online](/MicrosoftTeams/skype-for-business-online-retirement) | Geändert |
-| 12/18/2020 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | Geändert |
-| 12/18/2020 | [Telefone und Geräte für Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
-| 12/18/2020 | [Telefone und Geräte für Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Geändert |
-| 12/18/2020 | [Teams für Bildungsrichtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen](/MicrosoftTeams/easy-policy-setup-edu) | Geändert |
-| 12/18/2020 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
-| 12/18/2020 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
-| 12/18/2020 | [Was sind Wählpläne?](/MicrosoftTeams/what-are-dial-plans) | Geändert |
