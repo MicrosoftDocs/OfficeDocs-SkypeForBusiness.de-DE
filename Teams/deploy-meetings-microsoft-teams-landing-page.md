@@ -43,7 +43,7 @@ Wenn Sie mehr über die Besprechungsumgebung für Ihre Benutzer erfahren möchte
 
 *Neu im April 2020*: Besprechungsorganisatoren können eine Besprechung für alle Besprechungsteilnehmer in Teams beenden, indem Sie in der Besprechung in den Besprechungssteuerelementen auf **Besprechung beenden** klicken.  
 
-*Neu im November 2019*: Sie können nun [den Advisor for Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Der Advisor für Teams (Vorschau) führt Sie durch Ihre Einführung von Teams, einschließlich der Besprechungen und Konferenzen. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Besprechungen und Konferenzen in Teams erfolgreich durchführen können.
+*Neu im November 2019*: Sie können nun [den Advisor für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Der Advisor für Teams (Vorschau) führt Sie durch Ihre Einführung von Teams, einschließlich der Besprechungen und Konferenzen. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Besprechungen und Konferenzen in Teams erfolgreich durchführen können.
 
  > [!Note]
 > Mehr über Teams-Besprechungen und Konferenzen auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
