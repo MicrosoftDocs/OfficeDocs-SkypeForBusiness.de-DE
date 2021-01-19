@@ -41,7 +41,7 @@ Einen geführten Überblick über die Advisor für Teams-Oberfläche erhalten Si
 
 ## <a name="using-advisor-for-teams"></a>Den Ratgeber für Teams verwenden
 
-**Für die Nutzung von Advisor für Teams sind Teams-, Forms- und Planner-Lizenzen erforderlich.** Sie müssen jedoch kein Teams-Administrator sein, um den Ratgeber für Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf den Ratgeber für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
+**Für die Nutzung von Advisor für Teams sind Teams-, Forms- und Planner-Lizenzen erforderlich.** Sie müssen jedoch kein Teams-Administrator sein, um den Ratgeber for Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf Advisor für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
 
 > [!IMPORTANT]
 > Wenn **Advisor für Teams** unter **Planung** im Team Admin Center nicht angezeigt wird, bedeutet dies, dass der Benutzer nicht für Teams lizenziert ist.
@@ -53,7 +53,7 @@ Wenn Sie Advisor für Microsoft Teams zum ersten Mal verwenden, wird ein Bereits
 
 ## <a name="available-advisor-for-teams-plans"></a>Verfügbare Pläne für Advisor für Teams
 
-Der Ratgeber für Teams bietet zurzeit die folgenden Pläne:
+Advisor für Teams bietet zurzeit die folgenden Pläne:
 
 1. Chat, Teams, Kanäle und Apps
     - Mandantenbewertung
