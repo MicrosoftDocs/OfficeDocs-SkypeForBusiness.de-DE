@@ -53,7 +53,7 @@ Wenn Sie Advisor für Microsoft Teams zum ersten Mal verwenden, wird ein Bereits
 
 ## <a name="available-advisor-for-teams-plans"></a>Verfügbare Pläne für Advisor für Teams
 
-Der A für Teams bietet zurzeit die folgenden Pläne:
+Advisor für Teams bietet zurzeit die folgenden Pläne:
 
 1. Chat, Teams, Kanäle und Apps
     - Mandantenbewertung
