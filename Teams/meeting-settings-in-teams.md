@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806215"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903566"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -51,6 +51,26 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 > [!CAUTION]
 > Wenn Sie nicht möchten, dass anonyme Benutzer an von Benutzern in Ihrer Organisation geplanten Besprechungen teilnehmen, deaktivieren Sie diese Einstellung.
+
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Zulassen, dass anonyme Benutzer in Besprechungen mit Apps interagieren
+
+Anonyme Benutzer erben jetzt die globale Standardberechtigungsrichtlinie auf Benutzerebene. Dieses Steuerelement ermöglicht dann anonymen Benutzern die Interaktion mit Apps in Teams-Besprechungen, solange die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wurde. Beachten Sie, dass anonyme Benutzer nur mit Apps interagieren können, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können. 
+
+> [!IMPORTANT]
+> Standardmäßig ist die Einstellung aktiviert, mit der anonyme Benutzer in Besprechungen mit Apps interagieren können.
+
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+
+Sie müssen ein Administrator des Teams-Diensts sein, um auf diese Einstellung zugreifen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](https://docs.microsoft.com/microsoftteams/using-admin-roles).
+
+1. Wechseln Sie zum Admin Center.
+
+2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
+
+3. Unter **"Teilnehmer"** kann die Einstellung für **"Anonyme Benutzer" mit Apps in** Besprechungen interagieren.
+
+> [!CAUTION]
+> Wenn Sie nicht möchten, dass anonyme Benutzer mit Apps in Besprechungen interagieren, die von Benutzern in Ihrer Organisation geplant werden, deaktivieren Sie diese Einstellung.
 
 ## <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 

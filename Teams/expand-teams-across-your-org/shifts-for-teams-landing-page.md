@@ -21,28 +21,28 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 71238c4ec0ae2e413732bd289bbb868bedd573b7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f699b60bddba6bcf5ffa884760540e5c20378f81
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815735"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909219"
 ---
 # <a name="shifts-for-teams"></a>Schichten für Teams
 
-Teams bietet Mitarbeitern in Service und Service in Ihrer Organisation die Tools, die sie benötigen, um effektiv zu kommunizieren und zusammenzuarbeiten und ihre Arbeit optimal zu gestalten. Hier finden Sie den Administratorleitfaden, den Sie zum Einrichten und Verwalten von Schichten, dem Tool für die Zeitplanverwaltung, in Teams benötigen.
+Teams bietet Frontline-Mitarbeitern in Ihrer Organisation die Tools, die sie benötigen, um effektiv kommunizieren und zusammenarbeiten zu können. In diesem Artikel wird erläutert, wie Sie ein Konto einrichten und verwalten. Verschiebt und verwendet das Zeitplanverwaltungstool in Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Einrichten und Verwalten von Schichten für Ihre Organisation
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Verwalten von Schichten in Ihrer Organisation](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![Entwurf](../media/Help-small.svg)  | **[Hilfe zur Schichten-App für Mitarbeiter in Service und Produktion](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Verwalten von Schichten in Ihrer Organisation](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![Entwurf](../media/Help-small.svg)  | **[Hilfe zu Schichten für Mitarbeiter an vorderer Front](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Umschalterweiterungen
 
 |               |               |
 | ------------- | ------------- |
-| ![API](../media/api-small.svg) | **[Shift Graph-APIs](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph-APIs ermöglichen ihnen die Integration von Schichtdaten in externe Personalverwaltungssysteme, was Ihnen die Flexibilität bietet, benutzerdefinierte Schichten im Back-End zu erstellen, während Benutzern eine umfangreiche Front-End-Erfahrung in Teams bietet.             |
+| ![API](../media/api-small.svg) | **[Shift Graph-APIs](/graph/api/resources/shift?view=graph-rest-1.0)** Mit den Shifts Graph-APIs können Sie Schichtdaten in externe Personalverwaltungssysteme integrieren. Sie haben die Flexibilität, benutzerdefinierte Schichten im Back-End zu erstellen und benutzern gleichzeitig eine umfangreiche Front-End-Erfahrung in Teams zu bieten.             |
 | ![API](../media/api-small.svg) | **[Integrationen der Mitarbeiterverwaltung](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Wenn Sie Personalverwaltungssysteme von Drittanbietern wie z. B. Kroneos und JDA für Planung, Zeit und Anwesenheit verwenden, können Sie Schichten über Shifts Graph-APIs und SDK mit Open-Source-Integrationen direkt in Schichten integrieren. |
 | ![API](../media/process-flow-teams-small.svg) | **[Schichten + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Mit Schichten + Power Automate können Sie Informationen aus Schichten übernehmen, benutzerdefinierte Workflows mit anderen Apps erstellen und Vorgänge im Maßstab ausführen. Automatisieren Sie wichtige Prozesse mit wenig bis keinem Code. Die Trigger und Vorlagen unterstützen eine Vielzahl von Szenarien, z. B. das Aktivieren der automatischen Genehmigung für Schichtanforderungen, wenn keine Genehmigung eines Vorgesetzten erforderlich ist. |
 

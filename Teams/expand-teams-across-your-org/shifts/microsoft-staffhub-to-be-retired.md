@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42bb303a42ce2f532e5790e642f86b78ce12a7e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1d91792eeda482ff396791325ee902ee54a59847
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825295"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909509"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub wurde eingestellt
 
 Microsoft StaffHub wurde am 30. Juni 2020 eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen.
 
-Diese Änderungen sind Teil unserer fortgesetzten Bemühungen, jeden Mitarbeiter mit Microsoft 365 zu befähigen. Mit Den Funktionen für Mitarbeiter in Service und Service sind jetzt alle Mitarbeiter in Ihrer Organisation in der Lage, Teams zu verwenden, um ihren Arbeitstag zu optimieren, mit Kollegen zusammenzuarbeiten und auf Informationen und Kompetenzen zu zugreifen, um ihnen bei der Errungenschaft ihrer Arbeit zu helfen.
+Diese Änderungen sind Teil unserer fortgesetzten Bemühungen, jeden Mitarbeiter mit Microsoft 365 zu befähigen. Mit Funktionen für Frontline-Mitarbeiter, die jetzt in Teams arbeiten, kann jeder Mitarbeiter in Ihrer Organisation Teams verwenden, um ihren Arbeitstag zu optimieren, mit Kollegen zusammenzuarbeiten und auf Informationen und Kompetenzen zu zugreifen, damit sie ihre Arbeit optimal machen können.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -63,7 +63,7 @@ Wenn Sie einer Office 365-Gruppe ein Team mit StaffHub zugeordnet hatten, das Si
 
 #### <a name="what-is-shifts"></a>Was ist Schichten?
 
-Die App Schichten in Teams ist ein Zeitplanverwaltungstool, mit dem Mitarbeiter in Firstline verbunden und synchronisiert bleiben. Vorgesetzte erstellen, aktualisieren und verwalten Schichtzeitpläne für Teams, und Teammitglieder können ihre Zeitpläne anzeigen, sehen, wer sonst für den Tag geplant ist, von ihren mobilen Geräten aus anfragen, eine Schicht tauschen oder anbieten sowie Zeit anfragen.  
+Die App "Schichten" in Teams ist ein Tool für die Zeitplanverwaltung, mit dem Die Mitarbeiter in Frontline verbunden und synchronisiert bleiben. Vorgesetzte erstellen, aktualisieren und verwalten Schichtzeitpläne für Teams, und Teammitglieder können ihre Zeitpläne anzeigen, sehen, wer sonst für den Tag geplant ist, von ihren mobilen Geräten aus anfragen, eine Schicht tauschen oder anbieten sowie Zeit anfragen.  
 
 #### <a name="which-plans-is-shifts-available-in"></a>In welchen Plänen sind Schichten verfügbar?
 
@@ -110,7 +110,7 @@ Produktinformationen finden Sie unter [https://products.office.com/microsoft-tea
 
 Anleitungen für Administratoren finden Sie unter ["Verwalten der App Schichten"](manage-the-shifts-app-for-your-organization-in-teams.md) für Ihre Organisation in Teams.
 
-Hilfe für Endbenutzer wird in der Hilfe zu Schichten [für Mitarbeiter in Firstline angezeigt.](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+Hilfe für Endbenutzer können Sie in der Hilfe zu Schichten [für Mitarbeiter an der Frontlinie aufwenden.](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>Welche Lizenzen brauche ich für Teams?
 
@@ -144,11 +144,11 @@ Weitere Informationen finden Sie unter ["Interaktion von SharePoint Online und O
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Gibt es Integrationen zwischen Schichten und dem Outlook-Kalender? Kann ich einen Zeitplan in einen Kalender exportieren?
  
-Mitarbeiter in Firstline können ihren gesamten Arbeitsplan in Schichten auf einen Blick sehen. Wir unterstützen die systemeigene Integration in den Outlook-Kalender als Teil unserer Roadmap. Verwenden Sie in der Zwischenzeit Microsoft Flow, um die Integration in Schichten in Teams sowie Outlook- und Google-Kalendern zu einrichten.
+Mitarbeiter an vorderer Front können ihren gesamten Arbeitsplan in Schichten auf einen Blick sehen. Wir unterstützen die systemeigene Integration in den Outlook-Kalender als Teil unserer Roadmap. Verwenden Sie in der Zwischenzeit Microsoft Flow, um die Integration in Schichten in Teams sowie Outlook- und Google-Kalendern zu einrichten.
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Welche Administratorsteuerelemente stehen zur Verfügung, um zu verwalten, ob Benutzer in meiner Organisation Schichten verwenden können?  
   
-Sie können Schichten organisationsweit für alle Benutzer in Ihrer Organisation aktivieren oder deaktivieren. Im Microsoft Teams Admin Center können Sie auch die Einrichtungsrichtlinie für die Firstline Worker-App verwenden, um Teams für Ihre Mitarbeiter in Der ersten Gruppe anzupassen. Die Richtlinie ist mit den Apps "Aktivität", "Schichten", "Chat" und "Anrufen" konfiguriert. Weisen Sie diese Apps der App-Leiste in Teams zu, damit Benutzer schnell und einfach darauf zugreifen können. 
+Sie können Schichten organisationsweit für alle Benutzer in Ihrer Organisation aktivieren oder deaktivieren. Im Microsoft Teams Admin Center können Sie auch die Setuprichtlinie für die Frontline-Worker-App verwenden, um Teams an Ihre Mitarbeiter an vordere Mitarbeiter anzupassen. Die Richtlinie ist mit den Apps "Aktivität", "Schichten", "Chat" und "Anrufen" konfiguriert. Weisen Sie diese Apps der App-Leiste in Teams zu, damit Benutzer schnell und einfach darauf zugreifen können. 
 
 Weitere Informationen finden Sie unter "Verwalten der [App Schichten" für Ihre Organisation in Teams.](manage-the-shifts-app-for-your-organization-in-teams.md)
 

@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete für Teams für Ihre Regierungsorganisation verwenden und verwalten.
-ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812885"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909079"
 ---
 # <a name="teams-policy-packages-for-government"></a>Richtlinienpakete für Teams für Behörden
 
@@ -33,21 +33,21 @@ ms.locfileid: "49812885"
 
 Ein [Richtlinienpaket](manage-policy-packages.md) in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Richtlinienpakete vereinfachen und rationalisieren Richtlinien und lassen Sie diese konsistent verwalten. Sie können die Einstellungen der Richtlinien im Paket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen von Richtlinien in einem Richtlinienpaket ändern, erhalten alle Benutzer, denen dieses Paket zugewiesen ist, die aktualisierten Einstellungen. Sie können Richtlinienpakete über das Microsoft Teams Admin Center oder PowerShell verwalten.
 
-In Richtlinienpaketen werden je nach Paket Richtlinien für Folgendes vor definiert:
+In Richtlinienpaketen werden je nach Paket Vordefinieren von Richtlinien für folgendes definiert:
 
 - Messaging
 - Besprechungen
 - Anrufe
-- Einrichten von Apps
+- Einrichten der App
 - Liveereignisse
 
 Teams enthält derzeit die folgenden Richtlinienpakete für Behörden.
 
 |Paketname im Microsoft Teams Admin Center|Am besten geeignet für|Beschreibung |
 |---------|---------|---------|
-|Public Safety Officer  |Public Safety Officers in Ihrer Regierungorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten. |
-|Firstline Manager  |Firstline Manager in Ihrer Regierungsorganisation |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Firstline Manager in Ihrer Organisation an.|
-|Mitarbeiter in Firstline  |Firstline Workers in Your Government Organization |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Firstline Workers in Ihrer Organisation an.|
+|Public Safety Officer  |Public Safety Officers in Ihrer Regierungsorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten. |
+|Frontline Manager  |Frontline manager in your government organization |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline Manager in Ihrer Organisation an.|
+|Mitarbeiter an vorderer Front  |Mitarbeiter an vorder front in Ihrer Regierungsorganisation |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline Workers in Ihrer Organisation an.|
 
 ![Screenshot der Richtlinienpakete für das Gesundheitswesen](media/policy-packages-gov.png)
 

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 7d5a2c70eae9227b550e1e435634a6a8773be39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32b2accc906b0f4f0dc85b5edf1d9501b64dda14
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821115"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909529"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -117,7 +117,7 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu be
 
 - **Global (organisationsweite Standardeinstellung):** Diese Standardrichtlinie gilt für alle Benutzer in Ihrer Organisation, es sei denn, Sie weisen eine andere Richtlinie zu. Bearbeiten Sie die globale Richtlinie, um Apps anheften, die für Ihre Benutzer am wichtigsten sind.
 
-- **FirstLineWorker:** Diese Richtlinie gilt für Mitarbeiter in Firstline. Sie können sie Mitarbeitern in Firstline in Ihrer Organisation zuweisen. Es ist wichtig zu wissen, dass Sie wie bei von Ihnen erstellten benutzerdefinierten Richtlinien den Benutzern die Richtlinie zuweisen müssen, damit die Einstellungen aktiv sind. Weitere Informationen finden Sie im Abschnitt "Zuweisen [einer benutzerdefinierten App-Setuprichtlinie für Benutzer"](#assign-a-custom-app-setup-policy-to-users) in diesem Artikel.
+- **Frontlineworker:** Diese Richtlinie gilt für Frontline-Mitarbeiter. Sie können sie Den Frontline Workers in Ihrer Organisation zuweisen. Es ist wichtig zu wissen, dass Sie wie von Ihnen erstellte benutzerdefinierte Richtlinien den Benutzern die Richtlinie zuweisen müssen, damit die Einstellungen aktiv sind. Weitere Informationen finden Sie im Abschnitt "Zuweisen [einer benutzerdefinierten App-Setuprichtlinie zu Benutzern"](#assign-a-custom-app-setup-policy-to-users) in diesem Artikel.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Warum kann ich eine App im Bereich "Angeheftet Apps hinzufügen" nicht finden?
 
@@ -131,7 +131,7 @@ Die Anruf-App ist in Teams für Bildungseinrichtungen nicht verfügbar. Wenn Sie
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>Wie viele angeheftet Apps können einer Richtlinie hinzugefügt werden?
 
-Mindestens zwei Apps müssen an die mobilen Clients von Teams (iOS und Android) angeheftet sein. Wenn eine Richtlinie weniger als zwei Apps hat, werden die Richtlinieneinstellungen von den mobilen Clients nicht angezeigt, sondern es wird weiterhin die vorhandene Konfiguration verwendet.
+Mindestens zwei Apps müssen an die mobilen Clients von Teams (iOS und Android) angeheftet sein. Wenn eine Richtlinie weniger als zwei Apps hat, geben die mobilen Clients die Richtlinieneinstellungen nicht wieder und verwenden stattdessen weiterhin die vorhandene Konfiguration.
 
 Die Anzahl der angeheftet Apps, die Sie einer Richtlinie hinzufügen können, ist nicht begrenzt.
 
@@ -168,7 +168,7 @@ Wenn die dem Benutzer zugewiesene App-Setup-Richtlinie so geändert wird, dass d
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Meine Organisation hat eine benutzerdefinierte Teams-App erstellt und veröffentlicht, entweder in AppSource oder im Mandanten-App-Katalog, aber das App-Symbol wird nicht wie erwartet angezeigt, wenn die App in Teams an die App-Leiste angeheftet ist. Wie behebt ich das Problem?
 
-Stellen Sie sicher, dass Sie die Logorichtlinien einhalten, bevor Sie die App übermitteln. Weitere Informationen finden Sie unter [Prüfliste für die Übermittlung des Verkäuferdashboards.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
+Stellen Sie sicher, dass Sie die Logorichtlinien einhalten, bevor Sie die App übermitteln. Weitere Informationen finden Sie unter [Prüfliste für die Übermittlung von Verkäuferdashboards.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

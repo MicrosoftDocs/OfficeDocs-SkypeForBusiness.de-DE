@@ -1,5 +1,5 @@
 ---
-title: Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Teams in Teams
+title: Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Frontline in Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -8,21 +8,21 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie den schichtbasierten Zugriff in Teams für Mitarbeiter in Firstline in Ihrer Organisation verwalten.
+description: Erfahren Sie, wie Sie den schichtbasierten Zugriff in Teams für Frontline Workers in Ihrer Organisation verwalten.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b73fe9b3c4b39e7d3fa7b31427f563c47e5a737
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 437902136bf72685dabf5bd6359dd6221c7467de
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823015"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909469"
 ---
-# <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Teams in Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Frontline in Teams
 
 > [!IMPORTANT]
 > Microsoft StaffHub wurde am 30. Juni 2020 eingestellt. Einige StaffHub-Funktionen werden in Microsoft Teams integriert. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub funktioniert nicht mehr für alle Benutzer am 30. Juni 2020. Jeder, der staffHub zu öffnen versucht, wird in einer Meldung zum Herunterladen von Teams angezeigt. Weitere Informationen finden Sie unter [Microsoft StaffHub wurde eingestellt.](microsoft-staffhub-to-be-retired.md)  
@@ -31,19 +31,19 @@ ms.locfileid: "49823015"
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Die Anwesenheit in Microsoft Teams zeigt anderen Benutzern die aktuelle Verfügbarkeit und den aktuellen Status eines Benutzers an. Das Vorhandensein von Mitarbeitern in Firstline ist häufig weniger vorhersehbar als andere Mitarbeiter, da ihre Arbeitszeiten in der Regel nicht jeden Tag gleich sind. Als Administrator können Sie Teams so konfigurieren, dass eine Reihe schichtbasierter Anwesenheitszustände für Die Mitarbeiter in Firstline in Ihrer Organisation angezeigt werden, um anzugeben, wann sie in der Schicht ein- und ausgeschaltet sind.
+Die Anwesenheit in Microsoft Teams zeigt anderen Benutzern die aktuelle Verfügbarkeit und den aktuellen Status eines Benutzers an. Das Vorhandensein von Mitarbeitern in der Front ist häufig weniger vorhersagbar als andere Mitarbeiter, da ihre Arbeitszeiten in der Regel nicht jeden Tag gleich sind. Als Administrator können Sie Teams so konfigurieren, dass eine Reihe schichtbasierter Anwesenheitszustände für die Frontline workers in Ihrer Organisation angezeigt werden, um anzugeben, wann sie in der Schicht ein- und ausgeschaltet sind.
 
 Diese schichtbasierten Anwesenheitszustände sind einfarbig grün, kennzeichnen "Schicht bei Schicht", "Grauer Kreis" mit "x", "Aus Schicht aus", einfarbiger roter Kreis, der angibt, dass "Beschäftigt" von den Standardeinstellungen der &mdash; ![ ](../../media/flw-presence-on-shift.png) Anwesenheitszustände in Teams getrennt ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; ist. [](../../presence-admins.md) Mit diesen beiden Gruppen von Anwesenheitszuständen können Sie basierend auf ihrer Rolle verschiedene Benutzererfahrungen für Personen in Ihrer Organisation konfigurieren.
 
-Mit schichtbasiertem Zugriff können Sie den Zugriff auf Teams verwalten, wenn Mitarbeiter in Firstline nicht in der Schicht sind. So können Sie beispielsweise in Teams eine Meldung anzeigen, die Mitarbeiter in Firstline bestätigen müssen, bevor sie Teams verwenden können, wenn sie nicht in einer geplanten Schicht arbeiten.  
+Mit schichtbasiertem Zugriff können Sie den Zugriff auf Teams verwalten, wenn Mitarbeiter an vorder frontline nicht in der Schicht sind. So können Sie beispielsweise in Teams festlegen, dass eine Meldung angezeigt wird, die die Mitarbeiter an der Frontline bestätigen müssen, bevor sie Teams verwenden können, wenn sie nicht an einer geplanten Schicht arbeiten.  
 
 ## <a name="scenario"></a>Szenario
 
 Hier ist ein Beispiel dafür, wie Ihre Organisation den schichtbasierten Zugriff verwalten kann.
 
-Sie haben Mitarbeiter in Firstline in Ihrer Organisation, die nur für Stunden bezahlt werden sollten, die sie an einer Schicht arbeiten, die ihr Vorgesetzter geplant und genehmigt hat. Sie sollten nicht für Zeiten bezahlt werden, die außerhalb einer geplanten Schicht, einschließlich der Verwendung der Teams-App, verbracht wurden. Sie richten eine benutzerdefinierte Meldung ein, die lautet: "Ihre Zeit in Teams, wenn Sie sich nicht in Schichtbetrieb befindet, wird nicht auf die zu zahlenden Stunden angezählt", die angezeigt wird, wenn Mitarbeiter in Firstline versuchen, auf Teams zu zugreifen, wenn Sie nicht in der Schicht sind. Wenn sie sich für die  Verwendung von Teams entscheiden, klicken sie auf "Ich akzeptiere" mit dem Verständnis, dass sie für dieses Mal nicht bezahlt werden.
+In Ihrer Organisation gibt es Frontline-Mitarbeiter, die nur für Stunden bezahlt werden sollten, die sie an einer von ihrem Vorgesetzten geplanten und genehmigten Schicht arbeiten. Sie sollten nicht für Zeiten bezahlt werden, die außerhalb einer geplanten Schicht, einschließlich der Verwendung der Teams-App, verbracht wurden. Sie richten eine benutzerdefinierte Meldung ein, die lautet: "Ihre Zeit in Teams, wenn Sie sich nicht in Schichtbetrieb befindet, wird nicht auf die zu zahlenden Stunden angezählt", die angezeigt wird, wenn Mitarbeiter an vorderen Fronten versuchen, auf Teams zu zugreifen, wenn Sie nicht in der Schicht sind. Wenn sie sich für die  Verwendung von Teams entscheiden, klicken sie auf "Ich akzeptiere" mit dem Verständnis, dass sie für dieses Mal nicht bezahlt werden.
 
-Außerdem gibt es in Ihrer Organisation Information Workers, die gelohnt werden und nicht in Schichten arbeiten. Sie konfigurieren Ihre Information Workers so, dass sie die standardmäßigen Anwesenheitszustände in Teams verwenden, während Ihre Mitarbeiter in Firstline schichtbasierte Anwesenheitsinformationen erhalten.
+Außerdem gibt es in Ihrer Organisation Information Workers, die gelohnt werden und nicht in Schichten arbeiten. Sie konfigurieren Ihre Information Workers so, dass sie die standardmäßigen Anwesenheitszustände in Teams verwenden, während Sie Ihren Frontlinemitarbeitern schichtbasierte Anwesenheitsinformationen geben.
 
 ## <a name="shift-based-presence-states"></a>Schichtbasierte Anwesenheitszustände
 
@@ -53,11 +53,11 @@ Dies sind die schichtbasierten Anwesenheitszustände.
 |---------|---------|---------|
 |![Einfarbiges grünes Häkchen, zeigt "Bei Schicht" an](../../media/flw-presence-on-shift.png) Bei Schicht     |         |Automatisches Festlegen am Anfang einer Schicht         |
 |![Grauer Kreis mit "x", "Umschalt deaktiviert"](../../media/flw-presence-off-shift.png) Aus Schicht     |         |Automatisches Festlegen am Ende einer Schicht         |
-|![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt      | ![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt         |Wird automatisch festgelegt. Kann auch manuell festgelegt werden, wenn sich der Mitarbeiter in Der 1. Reihe befindet.|
+|![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt      | ![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt         |Wird automatisch festgelegt. Kann auch manuell festgelegt werden, wenn sich der Frontline Worker in der Schicht befindet.|
 
 ## <a name="off-shift-access-to-teams"></a>Off shift access to Teams
 
-Mit diesem Feature können Sie den Zugriff auf Teams verwalten, wenn Mitarbeiter in Firstline nicht schichtschichtig sind. Sie können in Teams festlegen, dass Firstline Workers eine Meldung angezeigt wird, wenn sie in der Schicht auf Teams zugreifen. Mitarbeiter in Firstline müssen auf **"Ich** akzeptiere" klicken, um die Nachricht zu bestätigen, bevor sie Teams verwenden können.
+Mit diesem Feature können Sie den Zugriff auf Teams verwalten, wenn Mitarbeiter an der Frontline nicht in der Schicht sind. Sie können in Teams festlegen, dass Frontlinemitarbeitern eine Meldung angezeigt wird, wenn sie in der Schicht auf Teams zugreifen. Mitarbeiter an vorderer Front müssen auf **"Ich** akzeptiere" klicken, um die Nachricht zu bestätigen, bevor sie Teams verwenden können.
 
 Sie können die Standardnachricht verwenden, aus einer Reihe vordefinierter Nachrichten auswählen oder die Nachricht so anpassen, dass beliebiger Text angezeigt wird. Dies ist die Standardmeldung:
 
@@ -67,7 +67,7 @@ Sie können auch die Häufigkeit festlegen, mit der die Nachricht angezeigt wird
 
 ## <a name="manage-shift-based-access"></a>Verwalten des schichtbasierten Zugriffs
 
-Als Administrator steuern Sie mithilfe von Richtlinien die schichtbasierte Anwesenheit für Mitarbeiter in Firstline in Ihrer Organisation. Sie verwalten diese Richtlinien mithilfe der folgenden PowerShell-Cmdlets:
+Als Administrator steuern Sie mithilfe von Richtlinien die schichtbasierte Anwesenheit für Frontline workers in Ihrer Organisation. Sie verwalten diese Richtlinien mithilfe der folgenden PowerShell-Cmdlets:
 
 - [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)

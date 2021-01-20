@@ -13,12 +13,12 @@ f1.keywords:
 description: 'Übersicht über die integrierte #A0 (Contact Center as a Service) für Microsoft Teams'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820995"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909489"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Kontaktcenterintegrationen für Microsoft Teams
 
@@ -60,7 +60,6 @@ Die folgenden Partner sind dabei, ihre Lösung für Microsoft Teams zu zertifizi
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-
 Diese Liste wird aktualisiert, sobald weitere Partner beitreten und die Zertifizierungskriterien erfüllen.
 
 ## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>Wie funktionieren Kontaktcenterlösungen in Microsoft Teams?
@@ -85,7 +84,7 @@ Zusammen ermöglichen diese Funktionen drei Integrationsmodelle:
 
 ### <a name="connect"></a>Verbinden
 
-Dieses Modell verbindet #A0 mit der Telefonsysteminfrastruktur von Microsoft Teams und ermöglicht so erweiterte Einblicke in Routing, Konfiguration und System. Bei diesem Modell kann die Contact Center-Partnerlösung auch Telefoniedienste für ausgewählte Nummern und Benutzer bereitstellen.
+Dieses Modell verbindet #A0 mit der Telefonsysteminfrastruktur von Microsoft Teams und ermöglicht so erweiterte Einblicke in Routing, Konfiguration und System. Bei diesem Modell kann die Partnerlösung für das Kontaktcenter auch Telefoniedienste für ausgewählte Nummern und Benutzer bereitstellen.
 
 Agents, die auf dem Modell "Connect" integrierte Lösungen verwenden, können Informationen & Erkenntnisse sammeln und gegebenenfalls Anrufe direkt an Fachleute durchstellen, indem sie die ANWESENHEITSINFORMATIONEN in Teams verwenden, um deren Verfügbarkeit sicherzustellen.
 
@@ -113,7 +112,7 @@ Im Folgenden finden Sie zwar keine umfassende Liste der Featurefunktionen für d
 
 Dieses Modell erweitert die Kontaktcenter-Mitarbeiter- und Agenterfahrungen durch die Integration in den Teams-Client mithilfe der [Teams-Clientplattform,](https://docs.microsoft.com/microsoftteams/platform/overview) [der Teams -Graph-APIs](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) und der [Cloudkommunikations-API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) und verwendet das Telefonsystem von Teams für alle Kontaktcenteranrufe und Anrufsteuerungserfahrungen. In diesem Modell fungiert der Kontaktcenterpartner neben Microsoft 365 als Telefonieanbieter.
 
-Mithilfe von Connect- und erweiterungsbasierten Lösungen können Agents von dynamischen kontextbezogenen Notizen profitieren, die Daten aus mehreren Systemen korrelieren, bevor sie ein Engagement starten, und dann aufwendige Kontextwechsel vermeiden, indem sie systemeigene in Teams für interne Zusammenarbeit und externe Kommunikation arbeiten.
+Mithilfe von Connect- und Extend-basierten Lösungen können Agents von dynamischen kontextbezogenen Notizen profitieren, die Daten aus mehreren Systemen korrelieren, bevor sie ein Engagement starten, und dann aufwendige Kontextwechsel vermeiden, indem sie systemeigene in Teams für interne Zusammenarbeit und externe Kommunikation arbeiten.
 
 Organisationen können Workflows und erweiterte Routingkonfigurationen bis hin zu einzelnen Personen entwerfen und die Qualität ihres Systems und ihrer Interaktionen messen.
 
@@ -149,7 +148,7 @@ Mit dem Erweiterungs- und Power-Integrationsmodell können Partner Kontaktcenter
 
 Im Folgenden finden Sie zwar keine vollständige Liste der Featurefunktionen für dieses Integrationsmodell, aber diese Hervorhebungsbereiche werden zusätzlich zu den Bereichen hervorgehoben, die vom Connect- und Extend-Modell bereitgestellt werden.
 
-  - Formale Mitarbeitererfahrungen, die nativ für die Kommunikation zwischen Kanälen über das Teams SDK aktiviert sind 
+  - Formale Mitarbeitererfahrungen, die nativ für die Kommunikation über den Kanal über das Teams SDK aktiviert wurden 
 
   - Verwenden von Teams Collaboration Services für die Zusammenarbeit von Agenten und Kundeninteraktionen  
 
@@ -225,4 +224,4 @@ In der nachstehenden Tabelle finden Sie eine Übersicht über die Integrationsmo
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Wenn Sie ein Lieferant sind, der am Zertifizierungsprogramm teilnehmen möchten, senden Sie eine <Teamscategorypartner@microsoft.com> E-Mail.
+Wenn Sie ein Anbieter sind, der am Zertifizierungsprogramm teilnehmen möchten, senden Sie eine <Teamscategorypartner@microsoft.com> E-Mail.
