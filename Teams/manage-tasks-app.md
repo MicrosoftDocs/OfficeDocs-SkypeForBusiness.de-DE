@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba8c1129edbff492d09ea5c103c25c399fc4a58a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822735"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909399"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der App "Aufgaben" für Ihre Organisation in Microsoft Teams
 
@@ -37,7 +37,7 @@ Die App "Aufgaben" bietet Microsoft Teams eine 1:1-Erfahrung beim Aufgabenmanage
 
    ![Screenshot der Listenansicht von Aufgaben in der Liste "Teams"](media/manage-tasks-app-tasks.png)
 
-Organisationen, die die Aufgabenverwaltung für Mitarbeiter in Firstline rationalisieren möchten, umfasst Aufgaben auch Funktionen, die es Ihnen ermöglichen, Aufgaben in der gesamten Belegschaft in der ersten Belegschaft im Maßstab zu verfolgen, zu veröffentlichen und zu verfolgen. So können Führungskräfte aus Unternehmen und Regionen beispielsweise Aufgabenlisten erstellen und veröffentlichen, die an relevante Orte ausgerichtet sind, z. B. bestimmte Einzelhandelsgeschäfte, und den Fortschritt mithilfe von Echtzeitberichten nachverfolgen. Vorgesetzte können ihren Mitarbeitern Aufgaben zuweisen und direkt Aktivitäten an ihren Standorten ausführen, und Mitarbeiter in Firstline verfügen über eine priorisierte Liste der ihnen zugewiesenen Aufgaben auf mobilen Geräten oder auf dem Desktop. Um die [Veröffentlichung von](#task-publishing)Aufgaben zu aktivieren, müssen Sie zuerst eine Teamzielhierarchie für Ihre Organisation einrichten, die definiert, wie alle Teams in der Hierarchie miteinander verknüpft sind.
+Organisationen, die die Aufgabenverwaltung für Frontlinemitarbeiter optimieren möchten, umfasst Aufgaben auch Funktionen, die es Ihnen ermöglichen, Aufgaben in der gesamten Belegschaft an vorder frontline zu übernehmen, zu veröffentlichen und nachverfolgt zu können. So können Führungskräfte aus Unternehmen und Regionen beispielsweise Aufgabenlisten erstellen und veröffentlichen, die an relevante Orte ausgerichtet sind, z. B. bestimmte Einzelhandelsgeschäfte, und den Fortschritt mithilfe von Echtzeitberichten nachverfolgen. Vorgesetzte können ihren Mitarbeitern Aufgaben zuweisen und direkt Aktivitäten an ihren Standorten ausführen, und Frontlinemitarbeiter verfügen über eine priorisierte Liste der ihnen zugewiesenen Aufgaben auf mobilen Geräten oder auf dem Desktop. Um die [Veröffentlichung von](#task-publishing)Aufgaben zu aktivieren, müssen Sie zuerst eine Teamzielhierarchie für Ihre Organisation einrichten, die definiert, wie alle Teams in der Hierarchie miteinander verknüpft sind.
 
 ## <a name="what-you-need-to-know-about-tasks"></a>Was Sie über Aufgaben wissen müssen
 
@@ -83,7 +83,7 @@ Zum Anheften der Aufgaben-App für Ihre Benutzer können Sie die globale Richtli
 
 Wenn einem Benutzer "Meine Aufgaben" nicht angezeigt werden **soll,** können Sie ihn ausblenden. Entfernen Sie dazu [die Exchange Online-Lizenz des Benutzers.](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz keinen Zugriff mehr auf sein Postfach hat.  Postfachdaten werden 30 Tage lang gespeichert, danach werden die Daten entfernt und können nicht wiederhergestellt werden, es sei denn, das Postfach wird in einem In-Place-Hold- oder Litigation Hold [platziert.](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)
 
-Wir empfehlen dies nicht für Information Workers, aber es gibt möglicherweise einige Szenarien, in denen dies gelten könnte, z. B. für Mitarbeiter in Firstline, die nicht auf E-Mails angewiesen sind.
+Wir empfehlen dies nicht für Information Workers, aber es gibt möglicherweise einige Szenarien, in denen dies gelten könnte, z. B. für Frontline-Mitarbeiter, die nicht auf E-Mails angewiesen sind.
 
 ## <a name="task-publishing"></a>Veröffentlichung von Aufgaben
 
@@ -93,11 +93,11 @@ Mit der Veröffentlichung von Aufgaben kann Ihre Organisation Aufgabenlisten ver
     ![Screenshot der Vorgangsveröffentlichung](media/manage-tasks-app-publish.png)
 - Die Manager der Empfängerteams können die veröffentlichten Aufgabenlisten überprüfen und einzelnen Teammitgliedern Aufgaben zuweisen.<br>
     ![Screenshot zum Zuweisen einer Aufgabe](media/manage-tasks-app-assign.png)
-- Mitarbeiter in Firstline verfügen über eine einfache mobile Erfahrung, um ihnen zugewiesene Aufgaben zu sehen. Sie können Fotos anfügen, um ihre Arbeit gegebenenfalls zu zeigen und ihre Aufgaben als erledigt zu kennzeichnen.
+- Mitarbeiter an vorderen Fronten verfügen über eine einfache mobile Erfahrung, um ihnen zugewiesene Aufgaben zu sehen. Sie können Fotos anfügen, um ihre Arbeit gegebenenfalls zu zeigen und ihre Aufgaben als erledigt zu kennzeichnen.
 - Herausgeber und Manager können Berichte anzeigen, um den Zuordnungs- und Abschlussstatus von Aufgaben auf jeder Ebene, einschließlich nach Ort (Team), Aufgabenliste und einzelner Aufgabe, zu sehen.<br>
     ![Screenshot der zugewiesenen Aufgaben auf einem mobilen Gerät](media/manage-tasks-app-reporting.png)
 
-Benutzer erstellen, verwalten und veröffentlichen Aufgabenlisten auf der Registerkarte "Veröffentlichte **Listen"** in der Aufgaben-App. Diese Registerkarte zeigt nur für [](#set-up-your-team-targeting-hierarchy) einen Benutzer an, wenn Ihre Organisation eine Teamzielhierarchie eingerichtet hat und der Benutzer zu einem Team gehört, das in der Hierarchie enthalten ist. Die Hierarchie bestimmt, ob der Benutzer Aufgabenlisten veröffentlichen oder empfangen und Berichte für empfangene Listen anzeigen kann.
+Benutzer erstellen, verwalten und veröffentlichen Aufgabenlisten auf der Registerkarte "Veröffentlichte **Listen"** in der Aufgaben-App. Diese Registerkarte wird nur für [](#set-up-your-team-targeting-hierarchy) einen Benutzer angezeigt, wenn Ihre Organisation eine Teamzielhierarchie eingerichtet hat und der Benutzer zu einem Team gehört, das in der Hierarchie enthalten ist. Die Hierarchie bestimmt, ob der Benutzer Aufgabenlisten veröffentlichen oder empfangen und Berichte für empfangene Listen anzeigen kann.
 
 ### <a name="example-scenario"></a>Beispielszenario
 
@@ -107,9 +107,9 @@ Contoso bietet eine neue Werbeaktion für Lebensmittelzustellung und Lieferung a
 
 Das Marketingteam teilt die Promotiondetails und die entsprechende Aufgabenliste mit dem Retail Communications Manager. Der Retail Communications Manager, der als Gatekeeper für Filialen dient, überprüft die Informationen, erstellt eine Aufgabenliste für die Werbeaktion und erstellt dann eine Aufgabe für jede Arbeitseinheit, die von jedem der betroffenen Stores ausgeführt werden muss. Nach Abschluss der Aufgabenliste muss sie die Filialen auswählen, die die Arbeit abschließen müssen. In diesem Fall gilt die Werbeaktion nur für Filialen in den USA, die über ein In-Store-Restaurant verfügen. In "Aufgaben" filtert sie die Liste der Filialen basierend auf dem Attribut "Restaurant im Laden", wählt die übereinstimmenden Standorte in der Hierarchie aus und veröffentlicht die Aufgabenliste dann in diesen Stores.
 
-Die Manager von Filialen erhalten an jedem Standort eine Kopie der veröffentlichten Aufgaben und weisen diese Aufgaben ihren Teammitgliedern zu. Manager können die Aufgabenerfahrung nutzen, um die gesamte in ihrem Geschäft erforderliche Arbeit zu verstehen. Sie können auch die verfügbaren Filter verwenden, um sich auf eine bestimmte Gruppe von Arbeiten zu konzentrieren, z. B. auf heute fällige Arbeit oder Arbeit in einem bestimmten Bereich.
+Die Manager von Filialen erhalten an jedem Standort eine Kopie der veröffentlichten Aufgaben und weisen diese Aufgaben ihren Teammitgliedern zu. Vorgesetzte können die Aufgabenerfahrung nutzen, um die gesamte in ihrem Geschäft erforderliche Arbeit zu verstehen. Sie können auch die verfügbaren Filter verwenden, um sich auf eine bestimmte Gruppe von Arbeiten zu konzentrieren, z. B. auf heute fällige Arbeit oder Arbeit in einem bestimmten Bereich.
 
-Mitarbeiter in Firstline an jedem Standort eines Ladengeschäfts verfügen jetzt über eine priorisierte Liste ihrer Arbeit unter "Aufgaben" auf ihrem mobilen Gerät. Wenn sie eine Aufgabe abgeschlossen haben, markieren sie sie als "Abgeschlossen". Einige entscheiden sich möglicherweise sogar dafür, ein Foto hochzuladen und an die Aufgabe anfügen, um ihre Arbeit zu zeigen.
+Mitarbeiter an vorderen Frontlinien an jedem Standort eines Ladengeschäfts verfügen jetzt über eine priorisierte Liste ihrer Arbeit unter "Aufgaben" auf ihrem mobilen Gerät. Wenn sie eine Aufgabe abgeschlossen haben, markieren sie sie als "Abgeschlossen". Einige entscheiden sich möglicherweise sogar dafür, ein Foto hochzuladen und an die Aufgabe anfügen, um ihre Arbeit zu zeigen.
 
 Die Zentrale von Contoso und Vorgesetzte für Fortgeschrittene können Berichte anzeigen, um den Zuordnungs- und Abschlussstatus von Vorgängen in jedem Ladengeschäft und in allen Filialen zu sehen. Sie können auch einen Drilldown zu einer bestimmten Aufgabe erstellen, um den Status in verschiedenen Stores zu sehen. Wenn das Startdatum näher rückt, können sie ungewöhnliche Veröffentlichungen erkennen und sich bei Bedarf bei ihren Teams einchecken. Diese Sichtbarkeit ermöglicht Es Contoso, die Effizienz des Rollouts zu verbessern und eine einheitlichere Benutzererfahrung für alle Stores zu bieten.
 
@@ -117,7 +117,7 @@ Die Zentrale von Contoso und Vorgesetzte für Fortgeschrittene können Berichte 
 
 Um die Veröffentlichung von Aufgaben in Ihrer Organisation zu aktivieren, müssen Sie zuerst Ihr Teamzielschema in einem einrichten. "CSV-Datei" aus. Das Schema definiert, wie alle Teams in Ihrer Hierarchie miteinander in Beziehung stehen und welche Attribute zum Filtern und Auswählen von Teams verwendet werden. Nachdem Sie das Schema erstellt haben, laden Sie es in Teams hoch, um es auf Ihre Organisation anzuwenden. Mitglieder des Veröffentlichungsteams, z. B. Retail Communications Manager im Beispielszenario, können teams dann nach Hierarchie, Attributen oder einer Kombination aus beiden filtern, um die relevanten Teams auszuwählen, die die Aufgabenlisten erhalten sollen, und die Aufgabenlisten dann für diese Teams zu veröffentlichen.
 
-Schritte zum Einrichten der Hierarchie für die Teamzielierung finden Sie unter ["Einrichten der Hierarchie für Teamzielierung".](set-up-your-team-hierarchy.md)
+Schritte zum Einrichten der Hierarchie für Teamzielierung finden Sie unter ["Einrichten der Teamzielhierarchie".](set-up-your-team-hierarchy.md)
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate- und Graph-API
 
