@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: Erstellen weiterer Benutzer
           href: business-voice/create-users.md
-        - name: Beispiel – Einrichten einer Anrufwarteschleife
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Einrichten von Anrufwarteschleifen
-          href: business-voice/set-up-call-queues.md
-        - name: Beispiel – Einrichten einer automatischen Telefonzentrale
-          href: tutorial-org-aa.yml
-        - name: Einrichten automatischer Telefonzentralen
-          href: business-voice/set-up-auto-attendants.md
+        - name: Einrichten einer Anrufwarteschleife
+          href: business-voice/create-a-phone-system-call-queue-smb.md
+        - name: Einrichten einer automatischen Telefonzentrale
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: Verwalten der Einrichtung
       items:
         - name: Erstellen eines oder mehrerer Benutzer
@@ -1175,13 +1171,13 @@
           href: teams-edu-licensing.md
         - name: Education-SKU-Referenz
           href: sku-reference-edu.md
-    - name: Teams für Mitarbeiter in Service und Produktion
+    - name: Teams für Mitarbeiter mit direktem Kundenkontakt
       items:
-        - name: Schnellstart für Mitarbeiter in Service und Produktion
-          href: firstline-workers-quickstart.yml
-        - name: Skriptgestützte Bereitstellung für Mitarbeiter in Service und Produktion
+        - name: Schnellstart für Mitarbeiter mit direktem Kundenkontakt
+          href: flw-quickstart.yml
+        - name: Skriptgestützte Bereitstellung für Mitarbeiter mit direktem Kundenkontakt
           href: flw-scripted-deployment.md
-        - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter in Service und Produktion
+        - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter mit direktem Kundenkontakt
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear für Microsoft Teams
           href: flw-realwear.md
