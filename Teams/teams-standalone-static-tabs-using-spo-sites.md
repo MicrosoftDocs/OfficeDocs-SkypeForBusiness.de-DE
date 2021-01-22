@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Verwenden Sie eine vorhandene SharePoint Online-Website oder -Seite und erstellen Sie eine eigenständige statische Registerkarte, die als Intranet-Portal für Ihre Organisation verwendet werden kann.
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731113"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923807"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Erstellen einer Intranet-Portal-App für Teams von einer SharePoint Online-Website oder -Seite aus
 
@@ -100,9 +100,6 @@ Um die neue Registerkarte im Team-Desktop anzuzeigen, navigieren Sie auf der lin
 Wenn Sie die neue App im linken Menü an einer höheren Position verfügbar machen möchten, müssen Sie dafür eine App-Richtlinieneinstellung verwenden. Diese Einstellung finden Sie im Abschnitt Team Administrator > App-Richtlinie > Hinzufügen einer angehefteten Anwendung. Wenn Sie einem Benutzer die Richtlinie zum Test zuweisen, wird die Änderung wenige Stunden später angezeigt. In diesem Sinne sollten Sie frühzeitig entscheiden, wo die App angezeigt werden soll, um Verzögerungen zu vermeiden.
 
 Wenn Sie die neue App auf einem mobilen Gerät anzeigen und testen möchten, öffnen Sie die App-Schublade, indem Sie auf das Chevron (**^**) oberhalb der Registerkartenleiste am unteren Rand des Bildschirms tippen. Suchen Sie Ihre App, und navigieren Sie auf Ihrem mobilen Gerät zu ihr.
-
-> [!CAUTION]
-> Die Unterstützung für Mobilgeräte befindet sich derzeit im Developer Preview. Um Developer Preview zu aktivieren, navigieren Sie zu Einstellungen > Info, und aktivieren Sie dann den Developer Preview-Modus.
 
 ## <a name="a-sample-manifestjson-file"></a>Eine Manifest.JSON-Beispieldatei
 
