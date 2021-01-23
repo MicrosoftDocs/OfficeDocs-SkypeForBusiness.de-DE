@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: Verwalten von Teams und Kanalrichtlinien
       href: teams-policies.md
-    - name: Vertraulichkeitsbezeichnungen für Teams
-      href: sensitivity-labels.md
     - name: Einrichten von Kanalmoderation in Teams
       href: manage-channel-moderation-in-teams.md
     - name: Freigeben von Dateien in Teams
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen
           href: teams-recording-policy.md
+        - name: Vertraulichkeitsbezeichnungen
+          href: sensitivity-labels.md
         - name: Verhinderung von Datenverlust
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
