@@ -12,14 +12,14 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Verwenden Sie eine vorhandene SharePoint Online-Website oder -Seite und erstellen Sie eine eigenständige statische Registerkarte, die als Intranet-Portal für Ihre Organisation verwendet werden kann.
+description: Verwenden Sie eine vorhandene SharePoint Online-Website oder -Seite und erstellen Sie eine eigenständige persönliche Registerkarte, die als Intranet-Portal für Ihre Organisation verwendet werden kann.
 localization_priority: Priority
-ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923807"
+ms.locfileid: "49937507"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Erstellen einer Intranet-Portal-App für Teams von einer SharePoint Online-Website oder -Seite aus
 
@@ -37,15 +37,26 @@ Beachten Sie, dass für den gezeigten Vorgang eine *moderne* SharePoint-Website 
 Bevor Sie beginnen:
 
 1. Sie müssen die URL einer modernen SharePoint Online-Kommunikations- oder-Team-Website oder-Seite kennen.
-    - Diese Websites verfügen immer über */teams/* oder */sites/* in ihren Pfaden.
+
+   Diese Websites verfügen immer über */teams/* oder */sites/* in ihren Pfaden.
 
 2. Sie müssen die Unterdomäne Ihres Mandanten kennen, die im Platzhalter **{{subdomain}}** verwendet wird.
 
 3. In diesem Artikel wird **{{siteUrl}}** als Platzhalter für die *URL* der ausgewählten Website oder Seite verwendet.
-    - Beispiel-*URLs*: `https://contoso.sharepoint.com/teams/Contoso`
-        *oder* `https://contoso.sharepoint.com/sites/Contoso`
+
+   Beispiel-*URLs*: 
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*oder*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+        
 4. Außerdem wird **{{sitePath}}** dazu verwendet, den *Pfad* der URL (beispielsweise: /teams/contoso) zu kennzeichnen.
-    - *Beispielpfade*:   /teams/Contoso   *oder* /sites/Contoso
+
+   Beispiel *pfade*:
+   
+   - /teams/Contoso
+     <br/>*oder*
+   - /sites/Contoso
 
 Beginnen Sie mit den folgenden Schritten:
 
@@ -69,10 +80,13 @@ Beginnen Sie mit den folgenden Schritten:
 
 10. Füllen Sie die **contentURL und Website-URL** aus.
 
-- **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**: {{siteUrl}}
+    - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+    
+    - **websiteUrl**: {{siteUrl}}
 
-    Beispiel-**contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+      Beispiel-**contentURL**: 
+      
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Navigieren Sie zu **Domänen und Berechtigungen**. Stellen Sie sicher, dass der Abschnitt gültige Domänen Ihren SharePoint Online-Domänennamen enthält.
 
@@ -80,20 +94,24 @@ Beginnen Sie mit den folgenden Schritten:
 
 12. Fügen Sie die folgenden Web App-Eigenschaften für **Einmaliges Anmelden (Single Sign-on, SSO)** hinzu:
 
-     Beispiel:  **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000  **Resource Url**: {{subdomain}}.sharepoint.com
+    Beispiel:
+    
+    - **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
+    
+    - **Ressourcen-URL**: {{subdomain}}.sharepoint.com
 
-    ![Web App-Single Sign-On, mit ID und URL.](media/personal-app.png)
+      ![Web App-Single Sign-On, mit ID und URL.](media/personal-app.png)
 
 13. **Speichern Sie** diese Eigenschaften und navigieren Sie dann zu **Testen und Verteilen**.
 
 14. Installieren Sie die App, um die Anwendung persönlich zu testen.
 
-> [!IMPORTANT]
-> Wenn Sie nicht mit Teams App Studio arbeiten, müssen Sie die soeben erstellte manifest.JSON-Datei als .zip komprimieren, zum App Store in Teams navigieren und auf den Link **benutzerdefinierte App hochladen** (unten rechts im App Store) klicken. Dadurch wird die App für Sie verfügbar.
+    > [!IMPORTANT]
+    > Wenn Sie nicht mit Teams App Studio arbeiten, müssen Sie die soeben erstellte manifest.JSON-Datei als .zip komprimieren, zum App Store in Teams navigieren und auf den Link **benutzerdefinierte App hochladen** (unten rechts im App Store) klicken. Dadurch wird die App für Sie verfügbar.
 
-15. Die App ist nun als statische Registerkarte verfügbar, die Sie laden und in Teams anzeigen können.
+15. Die App ist nun als persönliche Registerkarte verfügbar, die Sie laden und in Teams anzeigen können.
 
-## <a name="test-and-view-your-new-static-tab"></a>Testen und Betrachten Sie Ihre statische Registerkarte
+## <a name="test-and-view-your-new-personal-tab"></a>Testen und Betrachten Sie Ihre persönliche Registerkarte
 
 Um die neue Registerkarte im Team-Desktop anzuzeigen, navigieren Sie auf der linken Seite der App-Leiste zu den Auslassungszeichen (**...**). Suchen Sie Ihre neue App, laden Sie sie herunter und testen Sie Ihre eigenständige Anwendung in Teams.
 
@@ -105,7 +123,7 @@ Wenn Sie die neue App auf einem mobilen Gerät anzeigen und testen möchten, öf
 
 Die von Ihnen generierte JSON-Datei sieht in etwa so wie die nachfolgende aus.
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
