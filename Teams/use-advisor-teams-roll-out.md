@@ -39,7 +39,7 @@ Advisor für Teams ist Teil des [Teams Admin Center](https://admin.teams.microso
 
 Einen geführten Überblick über die Advisor für Teams-Oberfläche erhalten Sie im Microsoft Mechanics-Video [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) (Bereitstellen und Konfigurieren von Microsoft Teams).
 
-## <a name="using-advisor-for-teams"></a>Advisor für Teams
+## <a name="using-advisor-for-teams"></a>Advisor für Teams im Einsatz
 
 **Für die Nutzung von Advisor für Teams sind Teams-, Forms- und Planner-Lizenzen erforderlich.** Sie müssen jedoch kein Teams-Administrator sein, um Advisor für Teams zu verwenden – dazu ist jeder Mitarbeiter in Ihrer Organisation berechtigt. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf Advisor für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
 
@@ -256,7 +256,7 @@ Ja, FastTrack nutzt Advisor für Teams für alle Kunden, die sich für die Berei
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Kann ich Advisor für Teams mit einem Partner verwenden?
 
-Ja, Sie können Advisor für Teams verwenden und gleichzeitig einen Bereitstellungspartner für Ihre Teams-Bereitstellung verwenden. Wenn Ihr Partner ein CSP ist und Ihre Mandanten auf Ihren Auftrag verwaltet, kann er Advisor für Teams verwenden, um Ihr Bereitstellungsteam zu erstellen und Sie bei der Durchführung des Gesamtprojekts zu unterstützen. Darüber hinaus können Sie mit einem beliebigen Partner zusammenarbeiten, indem Sie diese Personen als Gäste Ihrem Bereitstellungsteam hinzufügen, damit sie als Mitglieder des Gesamtprojektteams teilnehmen können.
+Ja, Sie können Advisor für Teams verwenden und gleichzeitig einen Bereitstellungspartner für Ihre Teams-Bereitstellung verwenden. Wenn Ihr Partner ein CSP ist und Ihren Mandanten in Ihrem Auftrag verwaltet, kann er Advisor für Teams verwenden, um Ihr Bereitstellungsteam zu erstellen und Sie bei der Durchführung des Gesamtprojekts zu unterstützen. Darüber hinaus können Sie mit einem beliebigen Partner zusammenarbeiten, indem Sie diese Personen als Gäste Ihrem Bereitstellungsteam hinzufügen, damit sie als Mitglieder des Gesamtprojektteams teilnehmen können.
 
 ### <a name="how-do-i-use-planner"></a>Wie verwende ich Planner?
 
