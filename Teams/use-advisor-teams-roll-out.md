@@ -32,7 +32,7 @@ ms.locfileid: "49731133"
 
 Der Advisor für Teams führt Sie durch Ihren Rollout von Microsoft Teams. Er bewertet Ihre Microsoft 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt der Advisor für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams-Dienstadministratoren und Office 365-Administratoren, Supportmitarbeitern und Ihrem Umstiegs- und Benutzerbereitschafts-Team. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
 
-Der Advisor für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Microsoft 365 Business Basic-Lizenz, damit Sie die Vorteile der Integration des Ratgebers für Teams mit Forms und Planner nutzen können. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
+Der Advisor für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Microsoft 365 Business Basic-Lizenz, damit Sie die Vorteile der Integration Advisor für Teams mit Forms und Planner nutzen können. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
 
 > [!IMPORTANT]
 > Der Advisor für Teams ist für Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
@@ -132,7 +132,7 @@ Sobald Advisor für Teams Ihr Bereitstellungsteam erstellt hat, schickt der Advi
 >- Wenn Sie noch nicht mit Teams oder Planner vertraut sind, schauen Sie sich unsere [Teams-Vorgehensweise](https://teamsdemo.office.com/) an und sehen Sie die [Planner-Schnellstartvideos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7).
 >- Gehen Sie zu Ihrem Bereitstellungsteam in Teams. Wählen Sie den Workload-Kanal (z. B. Chat, Teams, Kanäle und Apps), und wählen Sie die Registerkarte **Planner** aus, um zu beginnen.
 >
->Wenn Sie mehr über den Advisor für Teams wissen möchten, lesen Sie [Verwenden des Ratgebers für Teams, um Microsoft Teams bereitzustellen](use-advisor-teams-roll-out.md).
+>Wenn Sie mehr über den Advisor für Teams wissen möchten, lesen Sie [Verwenden Advisor für Teams, um Microsoft Teams bereitzustellen](use-advisor-teams-roll-out.md).
 >
 
 > [!IMPORTANT]
