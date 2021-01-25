@@ -62,7 +62,7 @@ additionalContent:
         url: /MicrosoftTeams/prepare-network
       - text: Schutz der Kursteilnehmer durch die Verwendung von Teams für den Fernunterricht
         url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams.
+      - text: Verwenden Sie den Advisor für Teams als Hilfe beim Rollout von Microsoft Teams.
         url: /MicrosoftTeams/use-advisor-teams-roll-out
       - text: Wie Teams Arbeitsspeicher verwendet
         url: /MicrosoftTeams/teams-memory-usage-perf

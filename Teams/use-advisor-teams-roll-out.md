@@ -1,5 +1,5 @@
 ---
-title: Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
+title: Verwenden Sie den Advisor für Teams als Hilfe beim Rollout von Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 ms.reviewer: pkrebs
@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
-description: Verwenden Sie den Ratgeber für Teams, um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
+description: Verwenden Sie den Advisor für Teams, um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
 ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
 ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
@@ -28,20 +28,20 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 12/24/2020
 ms.locfileid: "49731133"
 ---
-# <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
+# <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Advisor für Teams als Hilfe beim Rollout von Microsoft Teams
 
-Der Advisor for Teams führt Sie durch Ihren Rollout von Microsoft Teams. Er bewertet Ihre Microsoft 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt der Ratgeber für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams-Dienstadministratoren und Office 365-Administratoren, Supportmitarbeitern und Ihrem Umstiegs- und Benutzerbereitschafts-Team. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
+Der Advisor für Teams führt Sie durch Ihren Rollout von Microsoft Teams. Er bewertet Ihre Microsoft 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt der Advisor für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams-Dienstadministratoren und Office 365-Administratoren, Supportmitarbeitern und Ihrem Umstiegs- und Benutzerbereitschafts-Team. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
 
 Der Advisor für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Microsoft 365 Business Basic-Lizenz, damit Sie die Vorteile der Integration des Ratgebers für Teams mit Forms und Planner nutzen können. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
 
 > [!IMPORTANT]
-> Der Ratgeber für Teams ist für Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
+> Der Advisor für Teams ist für Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
 
 Einen geführten Überblick über die Advisor für Teams-Oberfläche erhalten Sie im Microsoft Mechanics-Video [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) (Bereitstellen und Konfigurieren von Microsoft Teams).
 
-## <a name="using-advisor-for-teams"></a>Den Ratgeber für Teams verwenden
+## <a name="using-advisor-for-teams"></a>Den Advisor für Teams verwenden
 
-**Für die Nutzung von Advisor für Teams sind Teams-, Forms- und Planner-Lizenzen erforderlich.** Sie müssen jedoch kein Teams-Administrator sein, um den Ratgeber for Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf Advisor für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
+**Für die Nutzung von Advisor für Teams sind Teams-, Forms- und Planner-Lizenzen erforderlich.** Sie müssen jedoch kein Teams-Administrator sein, um den Advisor für Teams zu verwenden – jeder Mitarbeiter in Ihrer Organisation kann ihn verwenden. Wir haben spezielle Berechtigungen eingerichtet, damit Benutzer, die keine Administratoren sind, auf den Advisor für Teams zugreifen können, obwohl er sich im Admin Center von Teams befindet. Sie müssen Teams-Administrator, Teams-Dienstadministrator oder globaler Administrator sein, um die Mandantenbereitschaftsbewertung öffnen zu können. (Dies liegt daran, dass die speziellen Nicht-Administratorrollen keinen Zugriff auf die Microsoft Graph-APIs haben, die den Bewertungen zugrunde liegen.)
 
 > [!IMPORTANT]
 > Wenn **Advisor für Teams** unter **Planung** im Team Admin Center nicht angezeigt wird, bedeutet dies, dass der Benutzer nicht für Teams lizenziert ist.
@@ -53,23 +53,23 @@ Wenn Sie Advisor für Microsoft Teams zum ersten Mal verwenden, wird ein Bereits
 
 ## <a name="available-advisor-for-teams-plans"></a>Verfügbare Pläne für Advisor für Teams
 
-Advisor für Teams bietet zurzeit die folgenden Pläne:
+Der Advisor für Teams bietet zurzeit die folgenden Pläne:
 
 1. Chat, Teams, Kanäle und Apps
     - Mandantenbewertung
     - Planer-Plan, einschließlich Umstiegsaufgaben
     - Formulare-Benutzerumfrage
-    - Advisor für Teams – Bot
+    - Advisor für Teams-Bot
 1. Besprechungen und Konferenzen
     - Mandantenbewertung
     - Planer-Plan, einschließlich Umstiegsaufgaben
     - Formulare-Benutzerumfrage
-    - Advisor für Teams – Bot
+    - Advisor für Teams-Bot
 1. Skype for Business-Upgrade
     - Mandantenbewertung
     - Planer-Plan, einschließlich Umstiegsaufgaben
     - Formulare-Benutzerumfrage
-    - Advisor für Teams – Bot
+    - Advisor für Teams-Bot
     - Der Skype for Business-Upgradeplan ist für Kunden gedacht, die zurzeit Skype for Business Online oder Skype for Business in lokalen Umgebungen verwenden, und hilft Ihnen, Unsicherheiten bei einem Upgrade zu beseitigen.  Der Plan basiert auf einem bewährten Gerüst für die erfolgreiche Implementierung von Änderungen und führt Sie schrittweise durch den Prozess, ganz gleich, ob Sie gerade erst mit Microsoft Teams beginnen, es bereits zusammen mit Skype for Business nutzen oder ein Upgrade vornehmen möchten. Der Plan bietet außerdem den Zugriff auf [Online-Leitfäden und bewährte Methoden](https://aka.ms/SkypeToTeams), [herunterladbare Ressourcen](https://aka.ms/UpgradeSuccessKit), [Live 1: viele Planungs-Workshops](https://aka.ms/UpgradeWorkshops) und weitere Ressourcen zur Unterstützung Ihres Erfolgs.
 
 Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
@@ -119,24 +119,24 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 
 Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-all-workloads) umfasst das Skype for Business Upgrade auch Bewertungen, die im Besprechungs- und Konferenzplan verwendet werden.
 
-### <a name="advisor-for-teams-bot"></a>Advisor für Teams – Bot
+### <a name="advisor-for-teams-bot"></a>Advisor für Teams-Bot
 
 Sobald Advisor für Teams Ihr Bereitstellungsteam erstellt hat, schickt der Advisor für Teams-Bot die folgende Nachricht im Kanal "Allgemein".
 
 >**Willkommen bei Ihrem Bereitstellungsteam für Microsoft Teams!**
 >  
->Der Zweck dieses Teams besteht darin, Sie durch das Rollout Ihrer Organisation zu führen, indem es Ihnen alle benötigten Ressourcen zur Verfügung stellt und dem Projektteam einen Platz zur Zusammenarbeit bietet. Jeder Kanal, der mit dem Ratgeber für Teams erstellt wird, umfasst einen schrittweisen Plan für Planner und andere Ressourcen, z. B. eine Formular-Benutzerumfrage, die während des Rollouts verwendet werden kann. Sie können zu einem beliebigen Zeitpunkt zurückkehren und die Bewertung der Mandantenbereitschaft überprüfen oder zusätzliche Workload-Pläne über das Microsoft Teams Admin Center hinzufügen.
+>Der Zweck dieses Teams besteht darin, Sie durch das Rollout Ihrer Organisation zu führen, indem es Ihnen alle benötigten Ressourcen zur Verfügung stellt und dem Projektteam einen Platz zur Zusammenarbeit bietet. Jeder Kanal, der mit dem Advisor für Teams erstellt wird, umfasst einen schrittweisen Plan für Planner und andere Ressourcen, z. B. eine Formular-Benutzerumfrage, die während des Rollouts verwendet werden kann. Sie können zu einem beliebigen Zeitpunkt zurückkehren und die Bewertung der Mandantenbereitschaft überprüfen oder zusätzliche Workload-Pläne über das Microsoft Teams Admin Center hinzufügen.
 >
 >**Handlungsaufforderung**
 >
 >- Wenn Sie noch nicht mit Teams oder Planner vertraut sind, schauen Sie sich unsere [Teams-Vorgehensweise](https://teamsdemo.office.com/) an und sehen Sie die [Planner-Schnellstartvideos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7).
 >- Gehen Sie zu Ihrem Bereitstellungsteam in Teams. Wählen Sie den Workload-Kanal (z. B. Chat, Teams, Kanäle und Apps), und wählen Sie die Registerkarte **Planner** aus, um zu beginnen.
 >
->Wenn Sie mehr über den Ratgeber für Teams wissen möchten, lesen Sie [Verwenden des Ratgebers für Teams, um Microsoft Teams bereitzustellen](use-advisor-teams-roll-out.md).
+>Wenn Sie mehr über den Advisor für Teams wissen möchten, lesen Sie [Verwenden des Ratgebers für Teams, um Microsoft Teams bereitzustellen](use-advisor-teams-roll-out.md).
 >
 
 > [!IMPORTANT]
-> Der Ratgeber für Teams-Bot wird nur verwendet, um eine Willkommensnachricht an Ihr Bereitstellungsteam zu schicken. Es werden keine weiteren Daten gesammelt.
+> Der Advisor für Teams-Bot wird nur verwendet, um eine Willkommensnachricht an Ihr Bereitstellungsteam zu schicken. Es werden keine weiteren Daten gesammelt.
 
 > [!IMPORTANT]
 > Der Advisor für Teams-Bot ist standardmäßig aktiviert. Deaktivieren Sie ihn nicht, wenn Sie Advisor für Teams verwenden oder vorhaben, Advisor für Teams zu verwenden.
@@ -220,11 +220,11 @@ Schauen Sie sich diese Ressourcen an, die Leitfäden, Einführungspakete, bewäh
 
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Welche Lizenzanforderungen gelten für Advisor für Microsoft Teams?
 
-Sie benötigen mindestens Microsoft 365 Business Basic, damit Sie die Vorteile der Integration von Advisor for Teams mit Forms und Planner nutzen können.
+Sie benötigen mindestens Microsoft 365 Business Basic, damit Sie die Vorteile der Integration von Advisor für Teams mit Forms und Planner nutzen können.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Kann ich das Bereitstellungsteam löschen?
 
-Nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie das Team wie jedes andere Team verwalten – einschließlich der Möglichkeit es zu löschen. Achten Sie darauf, dass das Team im Microsoft Teams Admin Center weiterhin angezeigt wird, wenn es nicht unter Verwendung des Microsoft Teams Admin Center gelöscht wurde.
+Nachdem der Advisor für Teams Ihr Bereitstellungsteam erstellt hat, können Sie das Team wie jedes andere Team verwalten – einschließlich der Möglichkeit es zu löschen. Achten Sie darauf, dass das Team im Microsoft Teams Admin Center weiterhin angezeigt wird, wenn es nicht unter Verwendung des Microsoft Teams Admin Center gelöscht wurde.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>Kann ich im Bereitstellungsteam Kanäle hinzufügen oder entfernen?
 
@@ -236,7 +236,7 @@ Ja, nachdem das Bereitstellungsteam erstellt wurde, können Sie Projektteammitgl
 
 ### <a name="can-i-modify-the-planner-plans"></a>Kann ich die Planner-Pläne ändern?
 
-Ja, nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, sollten Sie den Planner-Plan so aktualisieren, dass er den Rollout ihrer Teams am besten unterstützt. Sie können alles ändern – Buckets, Aufgaben, Aufgabendetails, – ebenso wie bei jedem anderen Planner-Plan.
+Ja, nachdem der Advisor für Teams Ihr Bereitstellungsteam erstellt hat, sollten Sie den Planner-Plan so aktualisieren, dass er den Rollout ihrer Teams am besten unterstützt. Sie können alles ändern – Buckets, Aufgaben, Aufgabendetails, – ebenso wie bei jedem anderen Planner-Plan.
 
 ### <a name="can-i-modify-the-forms-survey"></a>Kann ich die Formulare-Umfrage ändern?
 
@@ -248,15 +248,15 @@ Ja, Formulare für Benutzerumfragen werden erstellt, aber nicht in Plankanälen 
 
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Welche Daten werden von Advisor für Teams über meine Organisation erfasst?
 
-Der Ratgeber für Teams fragt, ob Sie einverstanden sind, das nicht-EUII (endbenutzeridentifizierende Daten) gesammelt werden. Bei den gesammelten Daten handelt es sich um eine Telemetrie, die Microsoft ein Feedback darüber gibt, wie erfolgreich der Berater für Teams Ergebnisse erzielt und inwieweit er ggf. verbessert werden muss. Diese Daten werden verwendet, um Chancen für Microsoft zu erkennen, sich proaktiv mit Ihrer Organisation zu befassen, um sie bei Ihrer Bereitstellung zu unterstützen.
+Der Advisor für Teams fragt, ob Sie einverstanden sind, das nicht-EUII (endbenutzeridentifizierende Daten) gesammelt werden. Bei den gesammelten Daten handelt es sich um eine Telemetrie, die Microsoft ein Feedback darüber gibt, wie erfolgreich der Berater für Teams Ergebnisse erzielt und inwieweit er ggf. verbessert werden muss. Diese Daten werden verwendet, um Chancen für Microsoft zu erkennen, sich proaktiv mit Ihrer Organisation zu befassen, um sie bei Ihrer Bereitstellung zu unterstützen.
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Kann ich Advisor für Teams mit FastTrack verwenden?
 
-Ja, FastTrack nutzt den Ratgeber für Teams für alle Kunden, die sich für die Bereitstellung von Teams interessieren. Sie können Ihnen bei der ersten Einrichtung Ihres Bereitstellungsteams über den Ratgeber für Teams (sofern erforderlich) Hilfe anbieten und Sie während des Rollouts von Teams nach Bedarf bei spezifischen Themen unterstützen.
+Ja, FastTrack nutzt den Advisor für Teams für alle Kunden, die sich für die Bereitstellung von Teams interessieren. Sie können Ihnen bei der ersten Einrichtung Ihres Bereitstellungsteams über den Advisor für Teams (sofern erforderlich) Hilfe anbieten und Sie während des Rollouts von Teams nach Bedarf bei spezifischen Themen unterstützen.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Kann ich Advisor für Teams mit einem Partner verwenden?
 
-Ja, Sie können den Ratgeber für Teams verwenden und gleichzeitig einen Bereitstellungspartner für Ihre Teams-Bereitstellung verwenden. Wenn Ihr Partner ein CSP ist und Ihre Mandanten auf Ihren Auftrag verwaltet, kann er den Ratgeber für Teams verwenden, um Ihr Bereitstellungsteam zu erstellen und Sie bei der Durchführung des Gesamtprojekts zu unterstützen. Darüber hinaus können Sie mit einem beliebigen Partner zusammenarbeiten, indem Sie diese Personen als Gäste Ihrem Bereitstellungsteam hinzufügen, damit sie als Mitglieder des Gesamtprojektteams teilnehmen können.
+Ja, Sie können den Advisor für Teams verwenden und gleichzeitig einen Bereitstellungspartner für Ihre Teams-Bereitstellung verwenden. Wenn Ihr Partner ein CSP ist und Ihre Mandanten auf Ihren Auftrag verwaltet, kann er den Advisor für Teams verwenden, um Ihr Bereitstellungsteam zu erstellen und Sie bei der Durchführung des Gesamtprojekts zu unterstützen. Darüber hinaus können Sie mit einem beliebigen Partner zusammenarbeiten, indem Sie diese Personen als Gäste Ihrem Bereitstellungsteam hinzufügen, damit sie als Mitglieder des Gesamtprojektteams teilnehmen können.
 
 ### <a name="how-do-i-use-planner"></a>Wie verwende ich Planner?
 
