@@ -1,8 +1,8 @@
 ---
 title: Anzeigen von Zertifikaten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
-description: Auf der Seite "Zertifikat anzeigen" gibt es einen Bereich, in dem Sie ein beliebiges gültiges Zertifikat im lokalen Zertifikatspeicher auswählen können. Sie können ein Zertifikat auswählen und dann auf Zertifikat Details anzeigen klicken. Das Zertifikat wird in einem neuen Bereich angezeigt. Im Zertifikat Bereich können Sie die allgemeinen Zertifikatinformationen anzeigen. Klicken Sie auf die Registerkarte Details, um detaillierte Informationen zum Zertifikat anzuzeigen, beispielsweise den Namen des Antragstellers und den alternativen Betreff. Auf dem Zertifizierungspfad wird der Pfad der thechain von trustfor des Zertifikats angezeigt. Wenn Sie die Zertifikatsinformationen überprüft haben, klicken Sie auf OK.
-ms.openlocfilehash: 2a7339fdc84aef39bfe1ed67c73bbeeafa9fd08f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Auf der Seite Zertifikat anzeigen können Sie in einem Fensterbereich ein beliebiges gültiges Zertifikat im lokalen Zertifikatspeicher auswählen. Sie können ein Zertifikat auswählen und anschließend auf Zertifikatdetails anzeigen klicken. Das Zertifikat wird in einem neuen Fensterbereich angezeigt. Im Bereich Zertifikat können Sie die allgemeinen Zertifikatinformationen anzeigen. Klicken Sie auf die Registerkarte Details, um die detaillierten Informationen des Zertifikats (z. B. Antragstellername und alternativer Antragstellername) anzuzeigen. Im Zertifizierungspfad wird der Pfad der Vertrauenskette für das Zertifikat angezeigt. Nachdem Sie die Zertifikatinformationen durchgesehen haben, klicken Sie auf OK.
+ms.openlocfilehash: 249fa56d2653a9c3b7a0e39019f7c2fcc6feff93
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823259"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800525"
 ---
-# <a name="view-certificate"></a>Anzeigen von Zertifikaten
+# <a name="view-certificate"></a>Anzeigen eines Zertifikats
  
-Auf der Seite " **Zertifikat anzeigen** " gibt es einen Bereich, in dem Sie ein beliebiges gültiges Zertifikat im lokalen Zertifikatspeicher auswählen können. Sie können ein Zertifikat auswählen und dann auf **Zertifikat Details anzeigen**klicken. Das Zertifikat wird in einem neuen Bereich angezeigt. Im **Zertifikat** Bereich können Sie die allgemeinen Zertifikatinformationen anzeigen. Klicken Sie auf die Registerkarte **Details** , um detaillierte Informationen zum Zertifikat anzuzeigen, beispielsweise den Namen des Antragstellers und den alternativen Betreff. Im Zertifizierungspfad wird der Pfad der "Vertrauenskette" für das Zertifikat angezeigt. Wenn Sie die Zertifikatsinformationen überprüft haben, klicken Sie auf **OK**.
+Auf der Seite **Zertifikat anzeigen** können Sie in einem Fensterbereich ein beliebiges gültiges Zertifikat im lokalen Zertifikatspeicher auswählen. Sie können ein Zertifikat auswählen und anschließend auf **Zertifikatdetails anzeigen** klicken. Das Zertifikat wird in einem neuen Fensterbereich angezeigt. Im Bereich **Zertifikat** können Sie die allgemeinen Zertifikatinformationen anzeigen. Klicken Sie auf die Registerkarte **Details**, um die detaillierten Informationen des Zertifikats (z. B. Antragstellername und alternativer Antragstellername) anzuzeigen. Als Zertifizierungspfad wird der Pfad der "Vertrauenskette" für das Zertifikat angezeigt. Nachdem Sie die Zertifikatinformationen durchgesehen haben, klicken Sie auf **OK**.
   
 

@@ -1,8 +1,8 @@
 ---
-title: Push-Benachrichtigungskonfiguration für mobile Clients
+title: Konfiguration von Pushbenachrichtigungen für mobile Clients
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,44 +14,44 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
-description: Wenn Sie die Microsoft Push-Benachrichtigungen und Apple Push-Benachrichtigungen konfigurieren möchten, müssen Sie eine Richtlinie erstellen, um festzulegen, welche Arten von Push-Benachrichtigungen Sie benötigen.
-ms.openlocfilehash: 57c86185601616bb691a176e86b3a2696c8c8463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Um die Microsoft-Pushbenachrichtigungen und Apple-Pushbenachrichtigungen zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.
+ms.openlocfilehash: 693b954fffbbce56a2d95ce29128482937b6fa05
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798022"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836675"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Mobiler Client: Konfiguration für Pushbenachrichtigung
  
-Wenn Sie die **Microsoft Push-Benachrichtigungen** und **Apple Push-Benachrichtigungen**konfigurieren möchten, müssen Sie eine Richtlinie erstellen, um festzulegen, welche Arten von Push-Benachrichtigungen Sie benötigen.
+Um die **Microsoft-Pushbenachrichtigungen** und **Apple-Pushbenachrichtigungen** zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.
   
-Auf dem Hauptbildschirm der Konfiguration können Sie auf **Aktualisieren** klicken, um die Liste der Richtlinien zu aktualisieren und neu zu füllen. Ein Suchfeld wird zum Einschränken der Liste der angezeigten Richtlinien bereitgestellt. Wenn Sie den gesuchten Namen eingeben, wird die Liste der Richtlinien automatisch eingeschränkt.
+Im Hauptfenster der Konfiguration können Sie auf **Aktualisieren** klicken, um die Liste mit den Richtlinien zu aktualisieren und neu aufzufüllen. Mithilfe eines Suchfelds können Sie den Umfang der Liste mit den angezeigten Richtlinien eingrenzen. Wenn Sie den gesuchten Namen eingeben, wird die Liste mit den Richtlinien automatisch eingegrenzt.
   
 > [!IMPORTANT]
-> Richtlinieneinstellungen, die auf einer bestimmten Richtlinienebene angewendet werden, können durch Einstellungen überschrieben werden, die auf einer anderen Richtlinienebene angewendet werden. Dabei gilt folgende Rangfolge: Benutzerrichtlinien (größter Einfluss) überschreiben Standortrichtlinien und diese überschreiben wiederum globale Richtlinien (geringster Einfluss). Mit anderen Worten: Je geringer der Abstand zwischen Richtlinieneinstellung und betroffenem Objekt, desto stärker der Einfluss auf das Objekt. 
+> Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen überschreiben, die auf eine andere Richtlinienebene angewendet wurden. Die Richtlinienrangfolge ist: Eine Benutzerrichtlinie (der größte Einfluss) setzt eine Standortrichtlinie außer Kraft, und dann setzt eine Standortrichtlinie eine globale Richtlinie außer Kraft (geringster Einfluss). Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie. 
   
-Für die Richtlinienerstellung und-Bearbeitung stehen zwei Optionen zur Verfügung:
+Für die Erstellung und Bearbeitung von Richtlinien sind zwei Auswahlmöglichkeiten vorhanden:
   
-1. **Neu**: Klicken Sie hier, um eine neue Richtlinie zu erstellen. Sie müssen eine Website angeben, auf die die Richtlinie angewendet werden soll. Anschließend konfigurieren Sie die Einstellungen für die Push-Benachrichtigung. Für die **Konfiguration der Push-Benachrichtigung**können Sie nur Richtlinien für Websites erstellen, die Sie bereits erstellt haben.
+1. **Neu**: Klicken Sie auf diese Option, um eine neue Richtlinie zu erstellen. Sie müssen einen Standort angeben, für den die Richtlinie gelten soll. Anschließend konfigurieren Sie die Einstellungen für die Pushbenachrichtigung. Unter **Pushbenachrichtigungskonfiguration** können Sie nur Richtlinien für Standorte erstellen, die Sie bereits erstellt haben.
     
-2. **Bearbeiten**: Wählen Sie eine Richtlinie aus, und klicken Sie auf Bearbeiten, um eine Aktion aus einer Dropdownliste auszuwählen. Sie können nur Websites bearbeiten, die Sie bereits erstellt haben, oder die globale Richtlinie bearbeiten:
+2. **Bearbeiten**: Markieren Sie eine Richtlinie, und klicken Sie auf "Bearbeiten", um in der Dropdownliste eine Aktion auszuwählen. Sie können nur Standorte bearbeiten, die Sie bereits erstellt haben, oder die globale Richtlinie bearbeiten:
     
-   - **Details anzeigen**: zeigt Informationen zur aktuell ausgewählten Richtlinie an. Sie werden in der Lage sein, Änderungen an der vorhandenen Richtlinie vorzunehmen.
+   - **Details einblenden…**: Zeigt Informationen zur derzeit ausgewählten Richtlinie an. Sie können Änderungen an der vorhandenen Richtlinie vornehmen.
     
-   - **Alle auswählen**: Wenn Sie über eine Reihe von Richtlinien verfügen und alle Richtlinien auswählen müssen, klicken Sie auf alle auswählen.
+   - **Alles auswählen**: Klicken Sie auf diese Option, wenn Sie alle Richtlinien auswählen möchten.
     
-   - **Löschen**: entfernt die ausgewählte Richtlinie. Durch Verwenden von **"Alles auswählen" und "** **Löschen** " werden alle Richtlinien entfernt
+   - **Löschen**: Entfernt die ausgewählte Richtlinie. Wenn Sie **Alles auswählen** und **Löschen** nacheinander verwenden, werden alle Richtlinien entfernt.
     
      > [!NOTE]
-     > Sie können die standardmäßige **globale** Richtlinie nicht löschen. Wenn Sie versuchen, Sie zu löschen, werden Sie darauf hingewiesen, dass die globale Richtlinie an die Standardwerte zurückgegeben wurde (das heißt, alle Einstellungen werden gelöscht), aber die Richtlinie kann nicht entfernt werden.
+     > Die Standardrichtlinie **Global** kann nicht gelöscht werden. Wenn Sie dies versuchen, wird eine Meldung angezeigt, dass die Richtlinie "Global" auf die Standardwerte zurückgesetzt wurde (alle Einstellungen werden gelöscht), die Richtlinie jedoch nicht entfernt werden kann.
   
-Das Erstellen einer neuen Richtlinie oder das Bearbeiten einer vorhandenen Richtlinie ist mit zwei Aktionen verknüpft:
+Die Erstellung einer neuen Richtlinie bzw. die Bearbeitung einer vorhandenen Richtlinie ist mit zwei Aktionen verbunden:
   
-- **Commit** Die Commit-Aktion erstellt oder aktualisiert die Richtlinie und speichert die Änderungen
+- **Commit** Die Commitaktion erstellt oder aktualisiert die Richtlinie und speichert die Änderungen.
     
-- **Abbrechen** Mit der Aktion Cancel werden alle Änderungen verworfen, die seit der letzten Commit-Aktion vorgenommen wurden. Wenn Sie kündigen, gehen die vorgenommenen Änderungen verloren.
+- **Abbrechen** Die Abbruchaktion verwirft alle Änderungen, die seit der letzten Commitaktion vorgenommen wurden. Alle vorgenommenen Änderungen gehen verloren.
     
-Für die **Konfiguration der Push-Benachrichtigung**sind zwei Einstellungen möglich. Die Einstellungen sind den Push Notification Services für Microsoft und für Apple zugeordnet. Sie aktivieren die Push-Benachrichtigung für beide Dienste, indem Sie das Kontrollkästchen neben dem Namen des Diensts aktivieren. Sie können das Kontrollkästchen deaktivieren, indem Sie es auswählen, um es zu löschen. Nachdem Sie Ihre Auswahl getroffen haben, müssen Sie entweder committen oder stornieren. Durch Klicken auf Commit werden die Änderungen an der Richtlinie gespeichert.
+Für **Pushbenachrichtigungskonfiguration** sind zwei Einstellungen möglich. Die Einstellungen sind den Pushbenachrichtigungsdiensten für Microsoft und Apple zugeordnet. Sie können Pushbenachrichtigungen für die Dienste aktivieren, indem Sie jeweils das Kontrollkästchen neben dem Namen des Diensts aktivieren. Ebenso können Sie das Kontrollkästchen auch deaktivieren. Nachdem Sie Ihre Auswahl getroffen haben, können Sie entweder einen Commit ausführen oder den Vorgang abbrechen. Wenn Sie einen Commit ausführen, werden die Änderungen an der Richtlinie gespeichert.
   
 

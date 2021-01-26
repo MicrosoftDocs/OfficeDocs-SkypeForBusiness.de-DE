@@ -1,8 +1,8 @@
 ---
 title: tblEnumAttribute
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,38 +12,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-description: tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltensattribute enthält, die in der Knoten Tabelle verwendet werden.
-ms.openlocfilehash: 8244e2fb6ace6c4ed73f017f52df0c85d1f02315
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: "\"EnumAttribute\" ist eine hardkodierte Tabelle, mit den Attributen \"Visibility\" und \"Behavior\", die in der \"Node\"-Tabelle verwendet werden."
+ms.openlocfilehash: 698eda1e6e815ad4de4042312be1738a3a41d1f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814613"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809715"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
-tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltensattribute enthält, die in der Knoten Tabelle verwendet werden.
+"EnumAttribute" ist eine hardkodierte Tabelle, mit den Attributen "Visibility" und "Behavior", die in der "Node"-Tabelle verwendet werden.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|AttributeID  <br/> |smallint, nicht NULL  <br/> |Die ID des Attributs.  <br/> |
-|AttributeName  <br/> |nvarchar (256); nicht NULL  <br/> |Name des Attributs.  <br/> |
+|attributeID  <br/> |smallint, nicht NULL  <br/> |ID des Attributs.  <br/> |
+|attributeName  <br/> |nvarchar (256), nicht NULL  <br/> |Name des Attributs.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|AttributeID  <br/> |Primärschlüssel  <br/> |
+|attributeID  <br/> |Primärschlüssel  <br/> |
    
 **Tabellenwerte**
 
-|**AttributeID**|**AttributeName**|
+|**attributeID**|**attributeName**|
 |:-----|:-----|
-|1  <br/> |Sichtbarkeit.  <br/> |
-|2  <br/> |Verhalten.  <br/> |
+|1   <br/> |Sichtbarkeit.  <br/> |
+|2   <br/> |Verhalten.  <br/> |
    
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [tblNode](tblnode.md)

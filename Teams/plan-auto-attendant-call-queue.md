@@ -1,5 +1,5 @@
 ---
-title: Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams
+title: Planen automatischer Telefonkonferenzen und Anrufwarteschleifen in Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,198 +23,201 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Erfahren Sie mehr über automatische Telefonzentralen und Anrufwarteschlangen und wie Sie Sie verwenden können, um Anrufern zu helfen, durch ein Menü System zu navigieren, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+description: Hier erhalten Sie Informationen zu automatischen Telefonisten und Anrufwarteschleifen und erfahren, wie Sie Anrufer beim Wechseln durch ein Menüsystem unterstützen, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
+ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49697904"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918891"
 ---
-# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams
+# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen automatischer Telefonkonferenzen und Anrufwarteschleifen in Teams
 
-Mit automatischen Telefonzentralen können Sie Menü Optionen einrichten, um Anrufe basierend auf der Eingabe durch Anrufer weiterzuleiten. Menü Optionen, beispielsweise "für Verkäufe, drücken Sie 1.  Für Services drücken Sie die Taste 2 ", damit eine Organisation eine Reihe von Optionen zur Verfügung stellt, die Anrufer schnell ans Ziel führen, ohne sich auf einen menschlichen Netzbetreiber zur Behandlung eingehender Anrufe zu verlassen.
+Automatische Telefon attendants allow you to set menu options to route calls based on caller input. Menüoptionen, z. B. "Für den Vertrieb drücken Sie 1.  Bei "Dienste drücken 2" kann eine Organisation für eine automatische Telefongesellschaft eine Reihe von Auswahlmöglichkeiten bereitstellen, die Anrufer schnell an ihr Ziel leiten, ohne sich auf einen menschlichen Operator verlassen zu müssen, um eingehende Anrufe zu verarbeiten.
 
-Anrufwarteschlangen sind Wartebereiche für Anrufer. In Situationen, in denen Anrufer jemanden mit einer bestimmten Spezialität – wie Vertrieb oder Service – und nicht mit einer bestimmten Person erreichen müssen, können Sie Anrufwarteschlangen verwenden, um Anrufer mit der Gruppe von Agents zu verbinden, die Sie unterstützen können. Anrufer werden in Wartestellung gesetzt, bis ein der Warteschlange zugeordneter Agent verfügbar ist, um den Anruf anzunehmen.
+Anrufwarteschleifen sind Wartebereiche für Anrufer. In Situationen, in denen Anrufer eine bestimmte Person mit einer bestimmten Spezialität ( z. B. Vertrieb oder Service) statt einer bestimmten Person erreichen müssen, können Sie Anrufer mithilfe von Anrufwarteschleifen mit der Gruppe der Telefonisten verbinden, die ihnen helfen können. Anrufer werden so lange halten, bis ein Agent, der der Warteschlange zugewiesen ist, für den Anruf verfügbar ist.
 
-In Verbindung mit automatischen Telefonzentralen und Anrufwarteschlangen können Anrufer problemlos an die entsprechende Person oder Abteilung in Ihrer Organisation weitergeleitet werden.
+Bei der gemeinsamen Verwendung können automatische Telefonisten und Anrufwarteschleifen Anrufer ganz einfach an die entsprechende Person oder Abteilung in Ihrer Organisation weiterzuentsprechen.
 
 ## <a name="auto-attendants"></a>Automatische Telefonzentralen
 
-Der primäre Zweck einer automatischen Telefonzentrale besteht darin, einen Anrufer an eine geeignete Person oder Abteilung zu leiten, die auf der Eingabe des Anrufers zu den bereitgestellten Menü Optionen basiert. Anrufer können an bestimmte Personen innerhalb Ihres Unternehmens weitergeleitet werden, um Warteschlangen anzurufen, in denen Sie warten, um mit dem nächsten verfügbaren Agenten oder Voicemail zu sprechen. Unterschiedliche Anrufweiterleitungsoptionen können für Geschäftszeiten, außerhalb von Stunden und Feiertage angegeben werden.
+Der Hauptzweck einer automatischen Telefon attendant besteht in der Direkten Anwahl eines Anrufers an eine entsprechende Person oder Abteilung basierend auf der Eingabe des Anrufers zu den bereitgestellten Menüoptionen. Anrufer können an bestimmte Personen innerhalb Ihrer Organisation, an Anrufwarteschleifen, in denen sie mit dem nächsten verfügbaren Mitarbeiter sprechen, oder an Voicemail geleitet werden. Für Geschäftszeiten, Arbeitsstunden und Feiertage können verschiedene Anrufroutingoptionen festgelegt werden.
 
-Menüansagen können mithilfe von Text-zu-Sprache (vom System generierte Eingabeaufforderungen) oder durch Hochladen einer aufgezeichneten Audiodatei erstellt werden. Spracherkennung akzeptiert Sprachbefehle für die Freisprech Navigation, aber auch Anrufer können über die Tastatur des Telefons in Menüs navigieren.
+Menüanforderungen können mithilfe von Text-zu-Sprache (vom System generierte Eingabeaufforderungen) oder durch Hochladen einer aufgezeichneten Audiodatei erstellt werden. Die Spracherkennung akzeptiert Sprachbefehle für die Freisprechnavigation, aber auch Anrufer können über die Telefontaste in den Menüs navigieren.
 
-Jede automatische Telefonzentrale hat eine bestimmte Sprache und Zeitzone. Wenn Sie in mehreren Sprachen oder in mehreren Teilen der Welt Geschäfte tätigen, können Sie so viele verschiedene automatische Telefonzentralen erstellen, wie Sie benötigen, um Ihre Anrufer aufnehmen zu können.
+Jede automatische Attendant verfügt über eine bestimmte Sprache und Zeitzone. Wenn Sie Geschäfte in mehreren Sprachen oder in mehreren Teilen der Welt machen, können Sie so viele unterschiedliche automatische Telefonkonferenzen erstellen, wie Sie für Ihre Anrufer benötigen.
 
-Für jede automatische Telefonzentrale können Sie einen Operator konfigurieren. Zwar können Sie die Operator Aufrufe so konfigurieren, dass Sie zu einer Vielzahl von Zielen wechseln, doch das Feature "Operator" dient dazu, Anrufern zu ermöglichen, mit einer bestimmten Person in Ihrer Organisation zu sprechen, die Ihnen helfen kann.
+Für jede automatische Attendant können Sie einen Operator konfigurieren. Sie können Die Anrufe von Netzbetreibern zwar so konfigurieren, dass sie an eine Vielzahl von Zielen gehen, aber die Funktion der Netzbetreiber soll es Anrufern ermöglichen, mit einer bestimmten Person in Ihrer Organisation zu sprechen, die ihnen helfen kann.
 
-Automatische Telefonzentralen können so konfiguriert werden, dass Anrufer das Verzeichnis Ihrer Organisation durchsuchen können, entweder nach Namen oder nach Durchwahlnummer. In einer automatischen Telefonzentrale können Sie festlegen, wer für die Verzeichnissuche verfügbar ist, indem Sie Gruppen von Benutzern zum einschließen oder ausschließen auswählen. (Dies wird als *Wählbereich* bezeichnet.)
+Automatische Telefonisten können so konfiguriert werden, dass Anrufer das Verzeichnis Ihrer Organisation durchsuchen können, entweder nach Name oder nach Durchwahlnummer. In einer automatischen Telefon attendant können Sie angeben, wer für die Verzeichnissuche verfügbar ist, indem Sie Benutzergruppen zum Ein- oder Ausschließen auswählen. (Dies wird als *Wählbereich bezeichnet.)*
 
-Anrufer können eine automatische Telefonzentrale erreichen, entweder durch direkte Rufnummer, wenn Sie konfiguriert ist, oder indem Sie von einer anderen automatischen Telefonzentrale oder einer Anrufwarteschlange umgeleitet werden.
+Anrufer können eine automatische Telefon attendant entweder über eine direkte Telefonnummer, falls konfiguriert oder von einer anderen automatischen Telefonisten oder einer Anrufwarteschleife aus umgeleitet werden.
 
 ## <a name="call-queues"></a>Anrufwarteschleifen
 
-Eine Anrufwarteschlange entspricht einem Wartebereich in einem physikalischen Gebäude. Anrufer warten in Wartestellung, während Anrufe an die Agents in der Warteschlange weitergeleitet werden. Anrufwarteschlangen werden häufig für Vertriebs-und Servicefunktionen verwendet. Anrufwarteschlangen können jedoch für jede Situation verwendet werden, in der die Anzahl der Anrufe Ihre interne Kapazität überschreitet, beispielsweise ein Rezeptionist in einer geschäftigen Einrichtung.
+Eine Anrufwarteschleife ist mit einem Warteraum in einem physischen Gebäude vergleichbar. Anrufer warten im Warteschleifen, während Anrufe an die Agents in der Warteschlange geroutet werden. Anrufwarteschleifen werden häufig für Vertriebs- und Dienstfunktionen verwendet. Anrufwarteschleifen können jedoch für alle Situationen verwendet werden, in denen die Anzahl der Anrufe Ihre interne Kapazität überschreitet, z. B. einen Empfangsisten in einer gebuchten Einrichtung.
 
-Anrufwarteschlangen ermöglichen spezifisches Routing von Anrufen in Fällen, in denen die Gesamtzahl der Anrufer in der Warteschlange oder die Wartezeit die von Ihnen festgelegten Grenzwerte überschreitet. Anrufe können an bestimmte Personen, Voicemail, andere Anrufwarteschlangen oder automatische Telefonzentralen weitergeleitet werden.
+Anrufwarteschleifen ermöglichen ein bestimmtes Routing von Anrufen in Fällen, in denen die Gesamtzahl der Anrufer in der Warteschlange oder die Wartezeit die von Ihnen festgelegten Grenzwerte überschreitet. Anrufe können an bestimmte Personen, Voicemail, andere Anrufwarteschleifen oder automatische Telefon telefonieren.
 
-Wie bei automatischen Telefonzentralen verfügen Anrufwarteschlangen jeweils über eine Spracheinstellung. Sie können unterschiedliche Anrufwarteschlangen verwenden, wenn Sie in mehreren Sprachen tätig sind. Agents können Mitglieder von mehr als einer Warteschlange sein, wenn Sie mehrsprachig sind.
+Wie bei automatischen Telefonkonferenzen verfügen Anrufwarteschleifen jeweils über eine Spracheinstellung. Sie können verschiedene Anrufwarteschleifen verwenden, wenn Sie in mehreren Sprachen geschäfte machen. Agents können Mitglieder von mehreren Warteschlangen sein, wenn sie mehrsprachiger Art sind.
 
-Sie können für jede Anrufwarteschlange angeben, ob sich die Agents in der Warteschlange für das annehmen von Anrufen entscheiden können und ob Anrufe auf Grundlage ihrer Anwesenheitsanzeige in Teams weitergeleitet werden sollen.
+Für jede Anrufwarteschleife können Sie angeben, ob Telefonisten in der Warteschlange die Anrufanrufe abmelden können und ob Anrufe basierend auf ihren Anwesenheitsanzeigen in Teams an sie weitervermittelt werden sollen.
 
-Sie können einer Anrufwarteschlange eine Telefonnummer zuweisen, jedoch bieten Anrufwarteschlangen keine separaten Anrufweiterleitung außerhalb von Stunden und Feiertagen. Sofern ihre Anrufwarteschlange nicht mit 24/7 besetzt ist, empfehlen wir, die Telefonnummer einer automatischen Telefonzentrale zuzuweisen, die während der Geschäftszeiten zur Anrufwarteschlange umgeleitet wird.
+Sie können einer Anrufwarteschleife eine Telefonnummer zuweisen, jedoch bieten Anrufwarteschleifen kein separates Anrufrouting für Arbeits- und Feiertage. Sofern Ihre Anrufwarteschleife nicht rund um die Uhr besetzt ist, empfehlen wir, die Telefonnummer einer automatischen Telefonwarteschlange zuzuordnen, die während der Geschäftszeiten an die Anrufwarteschleife umleitet.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Zum Konfigurieren von automatischen Telefonzentralen und Anrufwarteschlangen benötigen Sie die folgenden Ressourcen:
+Zum Konfigurieren von automatischen Telefonkonferenzen und Anrufwarteschleifen benötigen Sie die folgenden Ressourcen:
 
-- Ein Ressourcenkonto für jede automatische Telefonzentrale und jede Anrufwarteschlange
-- Eine ﻿kostenlose Telefonanlage – virtuelle Benutzerlizenz für jedes Ressourcenkonto
-- Mindestens eine [Microsoft-Dienstnummer](getting-service-phone-numbers.md), eine direkte Routingnummer oder eine Hybrid Nummer für jedes Ressourcenkonto, das direkt gewählt werden soll
- - Die Service-Nummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
+- Ein Ressourcenkonto für jede automatische Telefon attendant und jede Anrufwarteschleife
+- Ein kostenloses Telefonsystem – Virtuelle Benutzerlizenz für jedes Ressourcenkonto
+- Mindestens eine [Microsoft-Dienstnummer,](getting-service-phone-numbers.md)eine direkte Routingnummer oder eine Hybridnummer für jedes Ressourcenkonto, das direkt anwählbar sein soll
+ - Die Servicenummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
 
-Agents, die Anrufe aus den Anrufwarteschlangen empfangen, müssen Enterprise-VoIP-Online oder lokale Benutzer sein. 
+Agents, die Anrufe aus den Anrufwarteschleifen erhalten, müssen Enterprise-VoIP oder lokale Benutzer aktiviert sein. Wenn in den Anrufwarteschleifen Direct Routing-Nummern verwendet werden, benötigen Telefonmitarbeiter außerdem:
 
-Wenn Ihre Agents die Microsoft Teams-App für Anruf Warteschlangen Anrufe verwenden, müssen Sie sich im TeamsOnly-Modus befinden.
+- Eine Online-Voicerouting-Richtlinie, die zugewiesen wurde, wenn die Anrufwarteschlange den Übertragungsmodus verwendet
+- Wenn die Anrufwarteschleife den Konferenzmodus verwendet, wird eine Lizenz für Audiokonferenzen oder eine Richtlinie für das Online-Voicerouting zugewiesen
 
-Bei der Übertragung von Anrufen an eine externe Telefonnummer muss das Ressourcenkonto, das die Übertragung durchführt (also das mit der automatischen Telefonzentrale oder der Anrufwarteschlange verknüpfte), eine Telefonnummer und eine virtuelle Benutzerlizenz des Microsoft 365 Phone-Systems aufweisen. Darüber hinaus
+Wenn Ihre Mitarbeiter die Microsoft Teams-App für Anrufe in der Anrufwarteschleife verwenden, müssen sie sich im TeamsOnly-Modus befinden.
 
-- Weisen Sie für ein Ressourcenkonto mit einer Anruf Plannummer eine [Anruf Plan](calling-plans-for-office-365.md) Lizenz zu.
-- Weisen Sie für ein Ressourcenkonto mit einer direkten Routingnummer eine [Online-VoIP-Routing Richtlinie](manage-voice-routing-policies.md)zu.
+Wenn Anrufe an eine externe Telefonnummer übertragen werden, muss das Ressourcenkonto, das die Übertragung (d. h. das der automatischen Telefonanlage oder Anrufwarteschleife zugeordnete Konto) über eine Telefonnummer und eine Lizenz für einen virtuellen Benutzer des Microsoft 365-Telefonsystems verfügen. Darüber hinaus:
+
+- Weisen Sie für ein Ressourcenkonto mit einer Anrufplannummer eine [Anrufplanlizenz](calling-plans-for-office-365.md) zu.
+- Weisen Sie für ein Ressourcenkonto mit einer Direct Routing-Nummer eine [Online-Voiceroutingrichtlinie zu.](manage-voice-routing-policies.md)
 
 > [!NOTE]
-> Direct Routing-Dienstnummern für die automatische Telefonzentrale und die Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und Anruf-Agents unterstützt.<br>
-> Transfers zwischen Anruf Plan Stämmen und direkten Routing Stämmen werden nicht unterstützt.
+> Direkte Routing-Servicenummern für automatische Telefonisten und Anrufwarteschleifen werden nur für Microsoft Teams-Benutzer und Nur-Telefonisten unterstützt.<br>
+> Übertragungen zwischen Anrufplan- und Direct -Routing-Trunks werden nicht unterstützt.
 
-## <a name="business-decisions"></a>Geschäftliche Entscheidungen
+## <a name="business-decisions"></a>Geschäftsentscheidungen
 
-Bevor Sie Ihre automatischen Telefonzentralen und Anrufwarteschlangen einrichten, sollten Sie sich mit einigen Entscheidungen über die Verwendung dieser Funktionen in Ihrem Unternehmen befassen. Diese Entscheidungen bestimmen die Einstellungen, die Sie auswählen, wenn Sie Ihre automatischen Telefonzentralen und Anrufwarteschlangen konfigurieren.
+Bevor Sie Ihre automatischen Telefonkonferenzen und Anrufwarteschleifen einrichten, müssen Sie einige Entscheidungen zur Verwendung dieser Features in Ihrem Unternehmen treffen. Diese Entscheidungen bestimmen die Einstellungen, die Sie beim Konfigurieren Ihrer automatischen Telefonkonferenzen und Anrufwarteschleifen auswählen.
 
-Dokumentieren Sie Ihre Antworten auf diese Fragen, und geben Sie die Informationen an den Administrator, der die Konfiguration vornimmt.
+Dokumentieren Sie Ihre Antworten auf diese Fragen, und stellen Sie die Informationen für den Administrator zur Konfiguration zur Verfügung.
 
 - Welche Sprachen benötigen Sie? Wo sind diese Sprachen erforderlich – welche Abteilung oder Gruppe?
-- Möchten Sie Spracheingaben von Anrufern oder nur Wähl Eingaben zulassen?
-- Benötigen Sie ein separates Anrufrouting außerhalb von Stunden oder an Feiertagen? Was sind die Stunden und Feiertage?
-- Möchten Sie den Agents in einer Anrufwarteschlange erlauben, Anrufe abzulehnen?
-- Möchten Sie, dass die Agents in ihren Anrufwarteschlangen oder Ihr Netzbetreiber eine bestimmte Rufnummernanzeige haben, wenn Sie sich auswählen?
-- Möchten Sie das [Parken und Abrufen von Anrufen](call-park-and-retrieve.md) in Ihrer Organisation aktivieren, um die Anrufübergabe zwischen Personen oder Abteilungen zu unterstützen?
-- Möchten Sie für die Spracheingabe Aufforderungen ihre eigene aufzeichnen oder die vom System generierte Stimme verwenden? (Die vom System generierte Sprache ist einfach zu aktualisieren.)
+- Möchten Sie Spracheingaben von Anrufern oder nur Wähleingaben zulassen?
+- Benötigen Sie separate Anrufrouting für Arbeits- oder Feiertage? Wie sieht es mit Stunden und Feiertagen aus?
+- Möchten Sie zulassen, dass Agenten in einer Anrufwarteschleife die Anrufanrufe nicht mehr verwenden?
+- Möchten Sie, dass Telefonieren in Ihren Anrufwarteschleifen oder ihrem Netzbetreiber eine bestimmte Anrufer-ID hat, wenn sie anrufen?
+- Möchten Sie das [Parken](call-park-and-retrieve.md) und Abrufen von Anrufen in Ihrer Organisation aktivieren, um die Übergabe von Anrufen zwischen Personen oder Abteilungen zu unterstützen?
+- Möchten Sie für die Sprachanrufe ihre eigene Stimme aufzeichnen oder die vom System generierte Stimme verwenden? (Die vom System generierte Stimme ist einfach zu aktualisieren.)
 
 ## <a name="technical-decisions"></a>Technische Entscheidungen
 
-Wenn Sie automatische Telefonzentralen und Anrufwarteschlangen verwenden, um Anrufer mit Personen in Ihrer Organisation zu verbinden, gibt es einige technische Entscheidungen, die Sie treffen müssen, bevor Sie mit der Konfiguration beginnen.
+Wenn Sie automatische Telefonisten und Anrufwarteschleifen verwenden, um Anrufer mit Personen in Ihrer Organisation zu verbinden, müssen Sie einige technische Entscheidungen treffen, bevor Sie mit der Konfiguration beginnen.
 
-Agents können den Anrufwarteschlangen folgendermaßen hinzugefügt werden:
+Agents können Anrufwarteschleifen auf folgende Weise hinzugefügt werden:
 
 - Einzelne Benutzer
 - Verteilerlisten
-- Sicherheitsgruppen, einschließlich e-Mail-aktivierter Sicherheitsgruppen
-- Microsoft 365-Gruppen oder-Teams
+- Sicherheitsgruppen, einschließlich E-Mail-aktivierter Sicherheitsgruppen
+- Microsoft 365-Gruppen oder Teams
 
-Sie können bei Bedarf eine Kombination dieser Optionen für jede Warteschlange verwenden. Gruppen mit einer e-Mail-Adresse können für Voicemail verwendet werden. Die Verwendung von Teams bietet eine Reihe von Vorteilen, wie freigegebene Dateispeicherung und Chats zwischen Agents, ein gemeinsames Postfach, in dem Sprachnachrichten empfangen werden können, und eine erweiterbare Plattform, die die Integration in Ihre Geschäftsanwendungen oder Power apps einbeziehen kann.
+Sie können bei Bedarf eine Kombination dieser Optionen für jede Warteschlange verwenden. Gruppen mit einer E-Mail-Adresse können für Voicemail verwendet werden. Die Verwendung von Teams bietet eine Reihe von Vorteilen, einschließlich freigegebener Dateispeicherung und Chats zwischen Agents, einem gemeinsamen Postfach, in dem Voicemails empfangen werden können, und eine erweiterbare Plattform, die Integration in Ihre Geschäftsanwendungen oder Power Apps umfassen kann.
 
-Es wird empfohlen, eine Strategie für das Hinzufügen von Anruf-Agents zu Warteschlangen zu wählen, bevor Sie mit der Konfiguration beginnen.
+Es wird empfohlen, eine Strategie zum Hinzufügen von Telefonanrufmitarbeitern zu Warteschlangen zu wählen, bevor Sie mit der Konfiguration beginnen.
 
-Wenn Sie über eine vorhandene automatische Telefonzentrale und eine Anruf Warteschlangeninfrastruktur verfügen und zu Teams migrieren, benötigen Sie einen Plan, mit dem Sie Ihre vorhandenen Telefonnummern an die neuen automatischen Telefonzentralen und Anrufwarteschlangen übertragen können. Möglicherweise müssen Sie eine [Portierungs Reihenfolge](phone-number-calling-plans/port-order-overview.md) erstellen, um Ihre Nummern von einem anderen Anbieter zu verschieben. Wir empfehlen, dass Sie vorübergehend eine oder mehrere neue Telefonnummern erwerben und Ihre automatische Telefonzentrale und die Anruf Warteschlangen Ströme testen, bevor Sie Sie über die derzeit in Dienst befindlichen Nummern umschalten.
+Wenn Sie über eine vorhandene automatische Telefonant- und Anrufwarteschleifeninfrastruktur verfügen und zu Teams migrieren, benötigen Sie einen Plan, um Ihre vorhandenen Telefonnummern an die neuen automatischen Telefonisten und Anrufwarteschleifen zu übertragen. Möglicherweise müssen Sie einen [Portierungsauftrag erstellen,](phone-number-calling-plans/port-order-overview.md) um Ihre Nummern von einem anderen Anbieter zu verschieben. Es wird empfohlen, vorübergehend eine oder mehrere neue Telefonnummern zu erwerben und die automatische Telefonwarteschlange und die Anrufwarteschleifenflüsse zu testen, bevor Sie diese Nummern über die Nummern umschalten, die Aktuell in Service sind.
 
-Der *Konferenzmodus* ist eine Option in Anrufwarteschlangen, die die Zeitdauer für die Verbindung von VoIP-Anrufen und PSTN-anrufen mit einem Agenten erheblich verkürzt. Damit der Konferenzmodus funktioniert, müssen die Agents in der Anrufwarteschlange einen der folgenden Clients verwenden:
+*Der Konferenzmodus* ist eine Option in Anrufwarteschleifen, die die Zeit, die zum Verbinden von Teams-VOIP- und -PSTN-Anrufen mit einem Agent benötigt wird, erheblich reduziert. Damit der Konferenzmodus funktioniert, müssen die Telefonmitarbeiter in der Anrufwarteschleife einen der folgenden Clients verwenden:
 
-- Die neueste Version des Microsoft Teams-Desktop Clients, der Android-App oder der IOS-App
-  - Microsoft Teams Phone Version 1449/1.0.94.2020051601 oder höher
+- Die neueste Version des Microsoft Teams-Desktopclients, der Android-App oder der iOS-App
+  - Microsoft Teams Phone, Version 1449/1.0.94.2020051601 oder höher
   
-Setzen Sie die Team Konten von Agents auf den Modus nur für Teams. Agents, die die Anforderungen nicht erfüllen, werden nicht in die Anruf Weiterleitungsliste aufgenommen.
+Legen Sie die Teams-Konten von Agents auf den Modus "Nur Für Teams" festgelegt. Agents, die die Anforderungen nicht erfüllen, sind nicht in der Anrufroutingliste enthalten.
 
-Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschlangen zu aktivieren, wenn Ihre Agents alle kompatible Clients verwenden.
-
-> [!NOTE]
-> Busy on Busy wird vom Konferenzmodus nicht unterstützt. Agents in Warteschlangen anrufen, die keine Anrufwarteschlange sind, werden möglicherweise weiterhin mit einem Anruf Warteschlangen Anruf angezeigt, wenn Anwesenheits basiertes Routing nicht aktiviert ist.
-
-## <a name="plan-your-call-routing-flow"></a>Planen des Anruf Weiterleitungs Flusses
-
-Im Rahmen des Planungsprozesses empfehlen wir, das Anrufrouting für Ihre Organisation in einem Diagramm zu erarbeiten. Das Diagramm hilft bei der Ermittlung des effizientesten Routings für Personen, die sich in Ihre Organisation einwählen. Sie können das Diagramm auch verwenden, um die automatischen Telefonzentralen und Anrufwarteschlangen zu ermitteln, die Sie erstellen müssen, sowie verwandte Anforderungen wie Dienstnummern, Lizenzen und Ressourcenkonten.
-
-Sehen wir uns an, wie automatische Telefonzentralen und Anrufwarteschlangen Anrufe weiterleiten.
-
-Automatische Telefonzentralen leiten alle Anrufe auf eine der folgenden Arten:
-
-- **Sofort Umleitung** – Anrufe können an eines der Anruf Weiterleitungs Ziele (nachstehend aufgeführt) unmittelbar nach der Beantwortung oder nach einer anfänglichen Begrüßung umgeleitet werden.
-- **Umleitung auf der Grundlage von Wähloptionen** – Anrufer können an die Wahl zwischen Optionen weitergeleitet werden, die den Nummern auf der Telefontastatur des Telefons zugeordnet sind, 0-9. Jeder Wähltaste kann ein Anrufrouting-Ziel zugewiesen werden.
-- **Wenn Sie Personen nach Namen oder Durchwahl** Nummern anrufen, können Sie die Durchwahlnummer der Person wählen, die Sie im Verzeichnis Ihrer Organisation erreichen möchten, oder indem Sie den Namen der Person buchstabieren.
-- **Trennen** – eine automatische Telefonzentrale kann den Anruf auflegen.
+Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn ihre Agents alle kompatible Clients verwenden.
 
 > [!NOTE]
-> Eine einzelne automatische Telefonzentrale kann nur eine einzelne "Dial by"-Methode unterstützen.  Damit Anrufer über den Namen und die Nummer wählen können, müssen Sie eine automatische Telefonzentrale erstellen, die eine Option für "Dial by Name" und die andere für "Durchwahl" hat.  Jede dieser Optionen wird zu separaten automatischen Telefonzentralen weitergeleitet, die für diese Szenarien mit Wähleinstellungen konfiguriert sind.
+> "Beschäftigt" wird vom Konferenzmodus nicht unterstützt. Agents bei Anrufen, die keine Anrufwarteschleifenanrufe sind, wird möglicherweise weiterhin ein Anrufwarteschleifenanruf präsentiert, wenn das anwesenheitsbasierte Routing nicht aktiviert ist.
 
-Wenn Anrufe von einer automatischen Telefonzentrale oder Anrufwarteschlange umgeleitet werden, können Sie aus den folgenden Anruf Weiterleitungs Zielen auswählen:
+## <a name="plan-your-call-routing-flow"></a>Planen des Anrufroutingflusses
 
-- **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Hierbei kann es sich um einen Online Benutzer oder einen lokal gehosteten Benutzer mit Skype for Business Server handeln.
-- **Sprach-App** – eine andere automatische Telefonzentrale oder eine Anrufwarteschlange. Wählen Sie das dem Ziel zugeordnete Ressourcenkonto aus.
-- **Externe Telefonnummer** – eine beliebige Telefonnummer. (Siehe [technische Informationen zur externen Übertragung](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Voicemail** – das Voicemail-Postfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist.
-- **Operator** (nur automatische Telefonzentrale) – der für die automatische Telefonzentrale definierte Operator. Das Definieren eines Operators ist optional. Ein Operator kann eines der anderen Ziele in dieser Liste sein.
+Im Rahmen des Planungsprozesses empfiehlt es sich, das Anrufrouting für Ihre Organisation in einem Diagramm zu erstellen. Das Diagramm hilft Ihnen dabei, das effizienteste Routing für Anrufer in Ihrer Organisation zu ermitteln. Sie können das Diagramm auch verwenden, um die automatischen Telefonkonferenzen und Anrufwarteschleifen, die Sie erstellen müssen, sowie zugehörige Anforderungen wie Servicenummern, Lizenzen und Ressourcenkonten zu ermitteln.
 
-Automatische Telefonzentralen bieten getrennte Anrufweiterleitungsoptionen für eingehende Anrufe außerhalb der Geschäftszeiten und an Feiertagen. Nach Stunden-Anrufweiterleitung können alle oben aufgeführten Optionen ausgeführt werden, während das Urlaubs Anrufrouting nur das Umleiten oder Trennen eines Anrufs, aber keine Wähltasten Optionen ermöglicht.
+Sehen wir uns an, wie automatische Telefonkonferenzen und Anrufwarteschleifen Anrufe routen.
 
-Anrufwarteschlangen setzen den Anrufer in Wartestellung, bis ein der Warteschlange zugeordneter Agent verfügbar ist, um seinen Anruf zu führen. Es gibt zwei Situationen, in denen ein Aufrufer aus der Warteschlange heraus verwiesen werden kann:
+Automatische Telefon attendants route all calls in one of the following ways:
 
-- **Anruf Überlauf** : Wenn die Anzahl der Anrufe in der Warteschlange den von Ihnen festgelegten Grenzwert überschreitet, werden neue Anrufer aus der Warteschlange umgeleitet.
-- **Anruf Timeout** – wenn ein Anrufer länger als die konfigurierte Timeouteinstellung in der Warteschlange war, werden Sie aus der Warteschlange umgeleitet.
+- **Sofort umleiten** : Anrufe können unmittelbar nach dem Beantworten oder nach einer ersten Begrüßung an eines der (unten aufgeführten) Anrufroutingziele umgeleitet werden.
+- **Umleiten basierend auf Wähloptionen** – Anrufer können umgeleitet werden, um zwischen den Optionen zu wählen, die den Nummern auf der Wähltastatur des Telefons (0-9) zugewiesen sind. Jeder Wähltasten kann ein Anrufroutingziel zugewiesen werden.
+- **Personen** nach Name oder Durchwahl anrufen – Anrufer können zur Durchwahlnummer der Person, die sie im Verzeichnis Ihrer Organisation erreichen möchten, oder durch Eingeben des Namens der Person geleitet werden.
+- **Trennen** – Eine automatische Telefonkonferenz kann den Anruf auflegen.
 
-Anrufe, die aus einer Warteschlange umgeleitet werden, können an alle oben aufgeführten Anruf Weiterleitungs Ziele mit Ausnahme eines Operators gesendet werden. (Anrufwarteschlangen verfügen nicht über Operatoren, aber Sie können Anrufer an denselben Zielort wie einen Operator umleiten, den Sie für eine automatische Telefonzentrale konfiguriert haben.)
+> [!NOTE]
+> Eine einzelne automatische Telefon attendant kann nur eine einzelne "Dial by"-Methode unterstützen.  Damit Anrufer nach Name und Nummer wählen können, müssen Sie eine automatische Telefon attendant erstellen, die eine Option für die Namensanwahl und die andere für die Durchwahl bietet.  Jede dieser Optionen führt die Route zu separaten automatischen Telefonanten, die für diese Szenarien für "Einwählen" konfiguriert sind.
 
-Das folgende Beispiel zeigt ein Beispiel für das Anrufrouting mit automatischen Telefonzentralen und Anrufwarteschlangen.
+Wenn Anrufe von einer automatischen Telefonkonferenz oder Anrufwarteschleife umgeleitet werden, können Sie unter den folgenden Anrufroutingzielen wählen:
 
-![Diagramm des Anruf Routings mit automatischen Telefonzentralen und Anrufwarteschlangen](media/attendant-and-queue-call-routing.png)
+- **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Dies kann ein Onlinebenutzer oder ein Lokal mit Skype for Business Server gehosteter Benutzer sein.
+- **Sprach-App** – eine andere automatische Telefonkonferenz oder eine Anrufwarteschleife. Wählen Sie das Ressourcenkonto aus, das dem Ziel zugeordnet ist.
+- **Externe Telefonnummer –** beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
+- **Voicemail –** das Sprachpostfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist.
+- **Operator** (nur automatische Attendant) – der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Ein Operator kann eines der anderen Ziele in dieser Liste sein.
 
-Im obigen Beispiel:
+Automatische Telefon attendants offer separate call routing options for calls received outside of business hours and on holidays. Das Routing nach Stunden ermöglicht alle oben aufgeführten Optionen, während das Routing von Feiertagen nur das Umleiten oder Trennen eines Anrufs, aber keine Optionen für die Wählta nicht zulässt.
 
-- Mit der NULL-Taste (0) werden die Aufrufer an einen Operator umgeleitet. Der Operator für diese automatische Telefonzentrale wurde als **Person in der Organisation** konfiguriert.
-- Mit einem (1)-Schlüssel werden Anrufer an die Warteschlange für Verkaufsanrufe umgeleitet. Diese Anrufwarteschlange ist mit einem Team verbunden, das das der Warteschlange zugewiesene Vertriebsteam enthält.
-- Die zwei (2)-Taste leitet Anrufer an die Support-Anrufwarteschlange weiter. Diese Anrufwarteschlange ist mit einem Team verbunden, das das dem Team zugewiesene Support Team enthält.
-- Die Support-Anrufwarteschlange hat eine direkte Telefonnummer über eine dazwischenliegende automatische Telefonzentrale. Wenn Sie eine automatische Telefonzentrale annehmen, können Sie mit der Support Zeile getrennte Stunden und Urlaubs Anrufrouting abgleichen.
-- Mit dem drei (3)-Schlüssel werden Benutzer an eine andere automatische Telefonzentrale für das Unternehmensverzeichnis umgeleitet. Mit der automatischen Telefonzentrale des Unternehmens können Anrufer Personen in der Organisation anrufen, indem Sie den Namen oder die Durchwahl wählen.
+Anrufwarteschleifen halten den Anrufer so lange, bis ein Der Warteschleife zugewiesener Agent für den Anruf zur Verfügung steht. Es gibt zwei Situationen, in denen ein Anrufer aus der Warteschlange geleitet werden kann:
 
-Wir empfehlen, ein oder mehrere Diagramme ähnlich wie oben zu erstellen, um das Anrufrouting zu kartieren. Stellen Sie sicher, dass Sie Folgendes in Ihr Diagramm oder die zugehörige Dokumentation einbeziehen:
+- **Anrufüberlauf** – Wenn die Anzahl der Anrufe in der Warteschlange das von Ihnen festgelegte Limit überschreitet, werden neue Anrufer aus der Warteschlange umgeleitet.
+- **Anruftimeout** : Wenn ein Anrufer länger als die konfigurierte Timeouteinstellung in der Warteschlange war, wird er aus der Warteschlange umgeleitet.
 
-- Welche automatischen Telefonzentralen können über Telefonnummern direkt darauf zugreifen?
-- Was sind die Arbeitszeiten und Urlaubs Routing Anforderungen für jede automatische Telefonzentrale?
-- Die Mitgliedschaft für jede Anrufwarteschlange. (Sie können Benutzer einzeln hinzufügen oder die Warteschlange verschiedenen Arten von Gruppen zuordnen. Das Zuordnen einer Warteschlange zu einem Team bietet die vielseitigste Erfahrung.)
+Anrufe, die aus einer Warteschlange umgeleitet werden, können an alle oben aufgeführten Anrufroutingziele mit Ausnahme eines Anbieters gesendet werden. (Anrufwarteschleifen haben keine Operatoren, aber Sie können Anrufer an das gleiche Ziel umleiten wie einen Operator, den Sie für eine automatische Telefonkonferenz konfiguriert haben.)
 
-Nachfolgend finden Sie einige bewährte Methoden für die Anrufweiterleitung:
+Das folgende Beispiel zeigt ein Beispiel für die Anrufrouting mithilfe von automatischen Telefonkonferenzen und Anrufwarteschleifen.
 
-- Sehen Sie sich das vorhandene Anruf System an, und analysieren Sie die Art und Häufigkeit der eingehenden Anrufe. Verwenden Sie diese Informationen, um Ihre automatische Telefonzentrale und die Anruf Warteschlangen Struktur zu informieren.
-- Stellen Sie die am häufigsten verwendeten Optionen frühestens im Menü so ein, dass Anrufe so schnell wie möglich weitergeleitet werden.
-- Vermeiden Sie das direkte Verbinden von Dienstnummern mit Anrufwarteschlangen, es sei denn, die Warteschlangen sind 24/7 verfügbar. Anrufwarteschlangen erlauben keine getrennte Anrufbehandlung außerhalb von Stunden oder an Feiertagen. Wenn Sie eine Warteschlange mit einer direkten Nummer haben möchten, weisen Sie die Nummer einer automatischen Telefonzentrale zu, die während der Geschäftszeiten automatisch zur Warteschlange weitergeleitet wird.
-- Wenn Sie zahlreiche Anrufe erhalten, die grundlegende Informationen zu Ihrem Unternehmen anfordern, beispielsweise Geschäftszeiten, Standort oder Websiteadresse, sollten Sie eine automatische Telefonzentrale erstellen, um diese Fragen mit aufgezeichneten Nachrichten zu beantworten.
-- Halten Sie die Liste der Menüelemente auf fünf oder weniger. Anrufer können Probleme haben, sich an mehr als fünf Optionen zu erinnern. Verwenden Sie geschachtelte automatische Telefonzentralen, wenn mehr Optionen für eine ordnungsgemäße Weiterleitung eines Anrufs erforderlich sind.
-- Beschreiben Sie zuerst den Dienst, gefolgt von der Option zum Drücken (zum Beispiel: für Verkäufe drücken Sie 1) und nicht umgekehrt (zB. Drücken Sie 1 für Sales).
-- Benutzer Terminologie Ihre Anrufer verstehen nicht, was Sie intern verwenden können.
-- Vermeiden Sie häufige Updates für das Anrufrouting. Wenn Sie Ihre Menü Optionen für eine automatische Telefonzentrale in Zukunft ändern, können Sie diese in den ersten 30 Tagen in den Sprachansagen anrufen.
+![Diagramm der Anrufrouting mithilfe von automatischen Telefonkonferenzen und Anrufwarteschleifen](media/attendant-and-queue-call-routing.png)
+
+Im vorstehenden Beispiel:
+
+- Die Nulltaste (0) leitet Anrufer an einen Operator weiter. Der Operator für diese automatische Attendant wurde als Person **in der Organisation konfiguriert.**
+- Der eine (1) Schlüssel leitet Anrufer an die Anrufwarteschleife weiter. Diese Anrufwarteschleife ist mit einem Team verbunden, das das der Warteschlange zugewiesene Vertriebsteam enthält.
+- Die beiden Schlüssel leiten Anrufer an die Supportanrufwarteschleife weiter. Diese Anrufwarteschleife ist mit einem Team verbunden, das das dem Team zugewiesene Supportteam enthält.
+- Die Supportanrufwarteschlange verfügt über eine direkte Telefonnummer über eine zusätzliche automatische Telefonkonferenz. Wenn eine automatische Telefonleitung die Supportleitung beantwortet, sind getrennte Arbeitsstunden und Weiterleitung von Festanrufen möglich.
+- Der drei (3) Schlüssel leitet Benutzer zu einer anderen automatischen Telefongesellschaft für das Unternehmensverzeichnis weiter. Die automatische Telefonkonferenz des Unternehmensverzeichnisses ermöglicht Anrufern, einzelne Personen in der Organisation durch Wählen ihres Namens oder ihrer Durchwahl anwählen.
+
+Es wird empfohlen, ein oder mehrere Diagramme zu erstellen, die dem oben genannten Diagramm ähneln, um die Anrufrouting zu planen. Achten Sie darauf, dass Sie Folgendes in Ihr Diagramm oder die zugehörige Dokumentation mit auf den Weg geben:
+
+- Auf welche automatischen Telefon attendants kann direkt über Telefonnummern zugegriffen werden?
+- Welche Anforderungen gelten für die Weiterleitung von Arbeitsstunden und Feiertagen für die einzelnen automatischen Attendants?
+- Die Mitgliedschaft für jede Anrufwarteschleife. (Sie können Benutzer einzeln hinzufügen oder die Warteschlange verschiedenen Gruppenarten zuordnungen. Das Zuordnen einer Warteschlange zu einem Team bietet die vielseitigste Erfahrung.)
+
+Hier sind einige bewährte Methoden für die Anrufrouting:
+
+- Sehen Sie sich Ihr vorhandenes Anrufsystem an, und analysieren Sie die Typen und die Häufigkeit eingehender Anrufe. Verwenden Sie diese Informationen, um Ihre automatische Telefon attendant und die Struktur der Anrufwarteschleife zu informieren.
+- Legen Sie die am häufigsten angezeigten Optionen frühestens im Menü ab, um Anrufe so schnell wie möglich weiter zu routen.
+- Vermeiden Sie es, Leistungsnummern direkt mit Anrufwarteschleifen zu verbinden, es sei denn, die Warteschlangen sind rund um die Uhr verfügbar. Anrufwarteschleifen ermöglichen keine separate Anrufbehandlung für Arbeitsstunden oder Feiertage. Wenn Sie eine Warteschlange mit einer direkten Nummer haben möchten, weisen Sie die Nummer einer automatischen Attendant zu, die während der Geschäftszeiten automatisch zur Warteschlange umgeleitet wird.
+- Wenn Sie zahlreiche Anrufe erhalten, die grundlegende Informationen zu Ihrem Unternehmen anfordern, z. B. Geschäftszeiten, Ort oder Websiteadresse, sollten Sie erwägen, eine automatische Telefongesellschaft zu erstellen, die diese Fragen mit aufgezeichneten Nachrichten beantwortet.
+- Halten Sie die Liste der Menüelemente auf fünf oder weniger. Anrufer können Probleme haben, sich mehr als fünf Optionen zu merken. Verwenden Sie geschachtelte automatische Telefonisten, wenn weitere Optionen zum ordnungsgemäßen Routen eines Anrufs erforderlich sind.
+- Beschreiben Sie zuerst den Dienst, gefolgt von der Option zum Drücken (z. B. bei "Sales press 1") und nicht umgekehrt (z. B. Drücken Sie "1" für "Vertrieb".
+- Die Benutzerterminologie, die Ihre Anrufer verstehen, anstatt was Sie intern verwenden können.
+- Vermeiden Sie häufige Aktualisierungen beim Anrufrouting. Wenn Sie ihre Menüoptionen für eine automatische Telefon attendant in Zukunft ändern, rufen Sie diese in den Sprachanrufaufforderungen für die ersten 30 Tage auf.
 
 ## <a name="getting-started"></a>Erste Schritte
 
-Nachdem Sie die Planungsaufgaben in diesem Artikel abgeschlossen haben, führen Sie die folgenden Schritte aus, um Ihre automatischen Telefonzentralen und Anrufwarteschlangen einzurichten:
+Nachdem Sie die Planungsaufgaben in diesem Artikel abgeschlossen haben, führen Sie die folgenden Schritte aus, um Ihre automatischen Telefonkonferenzen und Anrufwarteschleifen eingerichtet zu lassen:
 
-1. Rufen Sie die Dienstnummern ab, die Sie für die automatischen Telefonzentralen benötigen, und rufen Sie Warteschlangen auf, auf die Sie über direkte Wählverbindungen von außerhalb Ihrer Organisation aus zugreifen möchten. Dies kann die [Übertragung von Nummern von einem anderen Anbieter](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder das [anfordern neuer Dienstnummern](getting-service-phone-numbers.md)sein.
+1. Rufen Sie die Servicenummern ab, die Sie für die automatischen Telefonkonferenzen und Anrufwarteschleifen benötigen, auf die Sie durch direkte Anrufe von außerhalb Ihrer Organisation zugriffen möchten. Dazu kann das [Übertragen von Nummern von einem anderen Anbieter](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder das Anfordern neuer [Servicenummern gehören.](getting-service-phone-numbers.md)
 
-2. Besorgen Sie sich eine [Telefonanlage – eine virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md) für jedes Ressourcenkonto, das Sie erstellen möchten. Da diese Lizenzen kostenlos sind, empfehlen wir Ihnen, ein paar Extras zu erhalten, falls Sie sich entscheiden, in Zukunft Änderungen an Ihren Ressourcenkonten vorzunehmen.
+2. Holen Sie [sich eine Telefonsystem- virtuelle Benutzerlizenz](teams-add-on-licensing/virtual-user.md) für jedes Ressourcenkonto, das Sie erstellen möchten. Da diese Lizenzen kostenlos sind, empfehlen wir Ihnen, für den Fall, dass Sie in Zukunft Änderungen an Ihren Ressourcenkonten vornehmen möchten, ein paar zusätzliche Lizenzen zu erhalten.
 
-3. [Erstellen Sie ein Ressourcenkonto](manage-resource-accounts.md) für jede automatische Telefonzentrale und Anrufwarteschlange, die Sie erstellen möchten. Weisen Sie jedem Konto eine Telefonanlage zu – virtuelle Benutzerlizenz und optional eine Dienstnummer.
+3. [Erstellen Sie ein Ressourcenkonto](manage-resource-accounts.md) für jede automatische Telefonwarteschlange und Anrufwarteschleife, die Sie erstellen möchten. Weisen Sie jedem Konto eine Telefonsystem- virtuelle Benutzerlizenz und optional eine Servicenummer zu.
 
-4. [Erstellen Sie die Feiertage](set-up-holidays-in-teams.md) , für die Sie in ihren automatischen Telefonzentralen ein separates Anrufrouting durchführen möchten.
+4. [Erstellen Sie die Feiertage,](set-up-holidays-in-teams.md) für die Sie separates Anrufrouting in Ihren automatischen Telefonkonferenzen wünschen.
 
-5. Optional können Sie das [Parken und Abrufen von Anrufen einrichten](call-park-and-retrieve.md) , wenn Sie dieses Feature für die Anrufübertragung verwenden möchten.
+5. Richten Sie optional [das Parken](call-park-and-retrieve.md) und Abrufen von Anrufen ein, wenn Sie dieses Feature zur Unterstützung bei Anrufübertragungen verwenden möchten.
 
-6. Erstellen Sie die Gruppen, die Sie verwenden möchten, um die Anruf-Agents für die Anrufwarteschlangen zu enthalten.
+6. Erstellen Sie die Gruppen, die Sie für die Telefonanrufmitarbeiter für die Anrufwarteschleifen verwenden möchten.
 
-7. Wenn Sie beabsichtigen, Dial-by-Erweiterung zuzulassen, stellen Sie sicher, dass Sie die Durchwahlnummer Ihrer Benutzer Ihrem Azure Active Directory-Profil hinzugefügt haben.
+7. Wenn Sie die Durchwahl per Durchwahl zulassen möchten, stellen Sie sicher, dass Sie die Durchwahlnummer Ihrer Benutzer zu ihrem Azure Active Directory-Profil hinzugefügt haben.
 
-Nachdem Sie die obigen Schritte ausgeführt haben, können Sie Ihre automatischen Telefonzentralen erstellen und Warteschlangen anrufen. Da automatische Telefonzentralen und Anrufwarteschlangen Anrufe umleiten können, verweisen Sie auf das von Ihnen erstellte Workflowdiagramm, um zu ermitteln, welche automatische Telefonzentrale oder Anrufwarteschlange zuerst erstellt werden soll. In dem Beispiel oben in der obigen Abbildung würden Sie die Warteschlangen für Sales-und Support-Anrufe erstellen, bevor Sie die Haupt automatische Contoso-Telefonzentrale erstellen, weil die Haupt automatische Telefonzentrale Anrufer an die Warteschlangen für Sales-und Support-Anrufe weiterleiten muss.
+Nachdem Sie die vorstehenden Schritte abgeschlossen haben, können Sie Ihre automatischen Telefonkonferenzen und Anrufwarteschleifen erstellen. Da automatische Telefonkonferenzen und Anrufwarteschleifen Anrufe aufeinander umleiten können, können Sie in dem von Ihnen erstellten Workflowdiagramm ermitteln, welche automatische Telefon attendant oder Anrufwarteschleife zuerst erstellt werden soll. Im Beispiel im vorstehenden Diagramm würden Sie die Vertriebs- und Supportanrufwarteschleifen erstellen, bevor Sie die automatische Hauptkonferenz von Contoso erstellen, da die automatische Haupt telefonisten die Anrufer an die Vertriebs- und Supportanrufwarteschleifen umschalten muss.
 
-Informationen zum Erstellen von automatischen Telefonzentralen und Anrufwarteschlangen finden Sie in den folgenden Artikeln:
+In den folgenden Artikeln finden Sie Informationen zum Erstellen von automatischen Telefonkonferenzen und Anrufwarteschleifen:
 
-- [Einrichten einer automatischen Telefonzentrale](create-a-phone-system-auto-attendant.md)
+- [Einrichten einer automatischen Attendant](create-a-phone-system-auto-attendant.md)
 - [Erstellen einer Anrufwarteschlange](create-a-phone-system-call-queue.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
@@ -223,4 +226,6 @@ Informationen zum Erstellen von automatischen Telefonzentralen und Anrufwartesch
 
 [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa)
+[Erstellen einer Anrufwarteschleife – Lernprogramm für kleine Unternehmen](business-voice/create-a-phone-system-call-queue-smb.md)
+
+[Einrichten einer automatischen Attendant – Lernprogramm für kleine Unternehmen](business-voice/create-a-phone-system-auto-attendant-smb.md)

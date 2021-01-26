@@ -1,8 +1,8 @@
 ---
-title: Aktualisieren von Elementen
+title: Aktualisieren eines Elements
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,36 +11,36 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "Element aktualisieren", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 460e6b26375bba28887d170c9827864bfc600138
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Element aktualisieren", der Teil des Elementdiensts ist. Der Elementdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 78da2fa414b4ba266f9e6aba4feac5ff73150062
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816674"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803085"
 ---
-# <a name="update-item"></a>Aktualisieren von Elementen
+# <a name="update-item"></a>Aktualisieren eines Elements
  
-**Zusammenfassung:** Informieren Sie sich über den Vorgang "Element aktualisieren", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Element aktualisieren", der Teil des Elementdiensts ist. Der Elementdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
   
-Der Vorgang "Element aktualisieren" ist Teil des Element Diensts in der Repository-API für das Dashboard für die Anrufqualität.
+Der Vorgang "Element aktualisieren" ist Teil des Elementdiensts in der Repository-API für das Anrufqualitätsdashboard.
   
-## <a name="update-item"></a>Aktualisieren von Elementen
+## <a name="update-item"></a>Aktualisieren eines Elements
 
-Element aktualisieren aktualisiert ein bestimmtes Element im Repository.
+"Element aktualisieren" aktualisiert ein bestimmtes Element im Repository.
   
 
-|**Methode**|**Anforderungs-URI**|**HTTP-Version**|
+|**Methode**|**Anforderungs-URI**|**HTTP Version**|
 |:-----|:-----|:-----|
-|Setzen  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/Item/{Itemid}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** -None.
+ **URI-Parameter** : Keine.
   
- **Anforderungs Kopfzeilen** – Content-Type: Application/JSON.
+ **Anforderungsheader** -Content-Type: application/json.
   
  **Anforderungstext** – JSON.
   
-Beispiel für eine Anforderungsnutzlast:
+Beispielanforderungsnutzlast:
   
 ```json
 {
@@ -49,17 +49,17 @@ Beispiel für eine Anforderungsnutzlast:
 }
 ```
 
- *Inhalt*  JSON-formatierte Daten, die als neuer Inhalt eines vorhandenen Unterelements gespeichert werden sollen. Technisch gesehen kann ein Repository beliebigen Inhalt eines beliebigen Schemas speichern, wenn es aber für das Dashboard für die Anrufqualität verwendet wird, sollte es sich entweder um einen Bericht oder eine Abfrage handeln. *geben* Sie  Geben Sie im Dashboard für die Anrufqualität immer "application/json" an.
+ *content*  JSON formatierte Daten, die als neuer Inhalt eines vorhandenen Unterelements gespeichert werden sollen. Technisch kann ein Repository jeden Beliebigen Inhalt eines Schemas speichern, aber bei Verwendung für das Anrufqualitätsdashboard sollte es sich entweder um einen Bericht oder eine Abfrage befinden. *type*  Geben Sie immer "application/json" für das Anrufqualitätsdashboard an.
   
- **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
+ **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
- **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 204 (kein Inhalt) zurück. Wenn keine angegebene Element-ID gefunden wird, wird der Statuscode 404 (nicht gefunden) zurückgegeben.
+ **Statuscode** : Bei einem erfolgreichen Vorgang wird der Statuscode 204 (Kein Inhalt) zurückgegeben. Wenn eine angegebene Element-ID nicht gefunden wird, wird der Statuscode 404 (Nicht gefunden) zurückgegeben.
   
 > [!IMPORTANT]
-> "Kein Inhalt" ist kein Fehlerstatus. Das bedeutet, dass eine Antwort nichts im Text zurückgegeben hat (im Gegensatz dazu gibt 200 OK den Inhalt im Textkörper zurück). Es gibt an, dass das Element erfolgreich aktualisiert wurde. 
+> "Kein Inhalt" ist kein Fehlerstatus. Das bedeutet, dass eine Antwort nichts im Textkörper zurückgegeben hat (im Gegensatz dazu gibt 200 OK Inhalt im Textkörper zurück). Es gibt an, dass das Element erfolgreich aktualisiert wurde. 
   
- **Antwortheader** – keine.
+ **Antwortheader –** Keine.
   
- **Antworttext** – keine.
+ **Antworttext** – Keine.
   
 

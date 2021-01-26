@@ -1,8 +1,8 @@
 ---
 title: Allgemeine Einstellungen der A/V MCU – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Wenn Sie die Eigenschaften für einen A/V-Konferenz Server Pool bearbeiten möchten, den Sie bereits definiert haben, können Sie die folgenden Aktionen ausführen:'
-ms.openlocfilehash: 557f762b78d589e975d88c808a6911e46c5b9187
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:'
+ms.openlocfilehash: 8016993620d73a498b4549685e3c985a78e7f3d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793943"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811295"
 ---
-# <a name="av-mcu-general-settings-expander"></a>Allgemeine Einstellungen der A/V MCU – Erweiterung
+# <a name="av-mcu-general-settings-expander"></a>Allgemeine Einstellungen der AV MCU – Erweiterung
  
-Wenn Sie die Eigenschaften für einen A/V-Konferenz Server Pool bearbeiten möchten, den Sie bereits definiert haben, können Sie die folgenden Aktionen ausführen:
+Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:
   
 ## <a name="general-settings"></a>Allgemeine Einstellungen
 
-Aktualisieren Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des A/V-Konferenz Server Pools, indem Sie den Namen des Pools eingeben, wie er im DNS (Domain Name System) definiert ist.
+Ändern Sie den vollqualifizierten Domänennamen des A/V-Konferenzserverpools, indem Sie den Namen des Pools entsprechend der Festlegung im DNS (Domain Name System) eingeben.
   
 ## <a name="av-conferencing-service"></a>A/V-Konferenzdienst
 
-Um einen a/v-Konferenzserver Pool zuzuordnen, wählen Sie den Front-End-Pool oder die Pools aus, die Sie dem a/v-Konferenzserver Pool zuordnen müssen.
+Wählen Sie die Front-End-Pools aus, die dem A/V-Konferenzserverpool zugeordnet werden sollen.
   
 > [!NOTE]
-> Wenn im Bereich **Auswählen der Front-End-Pools, die diesem a/v-Konferenz Pool zugeordnet** werden, keine Front-End-Pools angezeigt werden, haben Sie entweder den a/v-Konferenz Server mit dem Front-End-Pool zusammengefasst oder im Abschnitt **Features und Funktionen** der Eigenschaften des Front-End-Pools keine Konferenz hinzugefügt.
+> Wenn im Bereich **Wählen Sie die Front-End-Pools aus, die dem A/V-Konferenzpool zugeordnet werden sollen** keine Front-End-Pools angezeigt werden, wird entweder der A/V-Konferenzserver mit dem Front-End-Pool gemeinsam verwendet oder Sie haben in den Front-End-Pooleigenschaften im Abschnitt **Funktionen und Funktionalität** nicht die Funktion "Konferenz" hinzugefügt.
   
 
-Wenn Sie fertig sind, klicken Sie auf **OK** , um die Bearbeitung der A/V-Konferenz Server Pooleinstellungen abzuschließen. Klicken Sie auf **Abbrechen**, um sämtliche Änderungen zu verwerfen.
+Klicken Sie auf **OK**, um die Bearbeitung der Einstellungen des A/V-Konferenzserverpools abzuschließen. Klicken Sie auf **Abbrechen**, um sämtliche Änderungen zu verwerfen.
   
 

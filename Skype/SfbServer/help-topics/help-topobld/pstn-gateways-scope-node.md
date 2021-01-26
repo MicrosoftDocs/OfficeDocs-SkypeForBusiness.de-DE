@@ -1,8 +1,8 @@
 ---
 title: PSTN-Gateways – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: 'Im Knoten PSTN-Gateways werden die PSTN-Gateways (Public Switched Telephone Network) der Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: b3ab796accbf4a51f958c41096c485db8c7c0f58
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 815bf2b30c678a0e0c5c39b3bc5df31cd9172102
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216556"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823715"
 ---
-# <a name="pstn-gateways-scope-node"></a>PSTN-Gateways – Bereichsknoten
+# <a name="pstn-gateways-scope-node"></a>PSTN-Gateways – Bereichsknoten
  
 Im Knoten **PSTN-Gateways** werden die PSTN-Gateways (Public Switched Telephone Network) der Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neues IP-/PSTN-Gateway** Startet den Assistenten zum Definieren eines neuen IP-/PSTN-Gateways****, mit dem Sie ein neues IP-/PSTN-Gateway zur Topologie hinzufügen.
+- **Neues IP-/PSTN-Gateway** Startet den Assistenten zum Definieren eines neuen IP-/PSTN-Gateways, mit dem Sie ein neues IP-/PSTN-Gateway zur Topologie hinzufügen.
     
 Zusätzlich zu den Optionen für IP-/PSTN-Gateways sind die folgenden allgemeinen Optionen verfügbar:
   

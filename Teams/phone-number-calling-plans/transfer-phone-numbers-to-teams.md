@@ -1,7 +1,7 @@
 ---
-title: Übertragen von Telefonnummern an Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Übertragen von Telefonnummern zu Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -17,81 +17,81 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mit dem Portierungs-Assistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter an Microsoft Teams übertragen können.
+description: Erfahren Sie, wie Sie mithilfe des Portierungsassistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter zu Microsoft Teams übertragen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2a70f6b1cec2658cb2348d21895bfc3b30717d75
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 52dd8a2a1dcbc14930695efd52141ce3b1842458
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030761"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812965"
 ---
-# <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
+# <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern zu Microsoft Teams
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Verwenden Sie den Porting-Assistenten im Microsoft Teams Admin Center, um ihre Telefonnummern von Ihrem aktuellen Dienstanbieter in Teams zu übertragen. Nachdem Sie Ihre Telefonnummern in Teams portiert haben, wird Microsoft Ihr Dienstanbieter und berechnet Ihnen diese Telefonnummern.
+Verwenden Sie den Portierungsassistenten im Microsoft Teams Admin Center, um Ihre Telefonnummern von Ihrem aktuellen Dienstanbieter zu Teams zu übertragen. Nachdem Sie Ihre Telefonnummern zu Teams portiert haben, wird Microsoft Ihr Dienstanbieter und stellt Ihnen diese Telefonnummern in Rechnung.
 
-Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen in [einem Port Auftrag](port-order-overview.md) zu überprüfen. Wenn Sie über Servicenummern für Einwahlkonferenz Brücken, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder über mehr als 999-Benutzer (Teilnehmer)-Telefonnummern verfügen, die Sie an Teams übertragen müssen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um die richtigen Formulare herunterzuladen und an uns zu senden.
+Bevor Sie beginnen, empfiehlt es sich, die Informationen unter ["Was ist ein Portierungsauftrag?" zu lesen.](port-order-overview.md) Wenn Sie über Servicenummern für Einwahlkonferenzbrücken, automatische Telefonisten oder andere Servicenummern, gebührenfreie Telefonnummern oder mehr als 999 Telefonnummern von [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Benutzern (Abonnenten) verfügen, die Sie an Teams übertragen müssen, lesen Sie "Verwalten von Telefonnummern für Ihre Organisation", um die richtigen Formulare herunterzuladen und an uns zu senden.
 
   > [!NOTE]
-  > Wir verarbeiten Port Bestellungen für die Übertragung von Telefonnummern nur an Werktagen in den USA und nicht an Feiertagen oder an Wochenenden.
+  > Wir verarbeiten Portierungsaufträge zur Übertragung von Telefonnummern nur an Werktagen in den USA und nicht an Feiertagen oder Wochenenden.
 
-## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen eines Portierungs Auftrags und übertragen von Telefonnummern in Teams
+## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen eines Portierungsauftrags und Übertragen Ihrer Telefonnummern zu Teams
 
 > [!NOTE]
-> **Derzeit können Sie mit diesem Assistententelefon Nummern für das Vereinigte Königreich, die Vereinigten Staaten und Kanada abrufen**. Wenn Sie Telefonnummern für andere Länder und Regionen erhalten möchten, können Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md). Wenn Sie das Formular abrufen möchten, das Sie manuell übermitteln müssen, wählen Sie in der Dropdownliste unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)Ihr Land oder Ihre Region aus.
+> **Derzeit können Sie diesen Assistenten** verwenden, um Telefonnummern für Großbritannien, vereinigte Staaten und Kanada zu erhalten. Um Telefonnummern für andere Länder und Regionen zu erhalten, können Sie [einen Portierungsauftrag manuell übermitteln.](manually-submit-port-order.md) Um das Formular zu erhalten, das Sie manuell einen Portierungsauftrag übermitteln müssen, wählen Sie Ihr Land oder Ihre Region in der Dropdownliste unter "Telefonnummern für Ihre [Organisation verwalten" aus.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** -  >  **Telefonnummern**. Klicken Sie auf **Zahlen** , und klicken Sie dann auf **Port** , um den Porting-Assistenten zu starten.
-2. Überprüfen Sie die Informationen auf der Seite " **Erste Schritte** ", und klicken Sie dann auf **weiter** , wenn Sie fertig sind.
-3. Geben Sie auf der Seite **Speicherort und Zahlentyp auswählen** Folgendes an, und klicken Sie dann auf **weiter** :
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **"Voice**  >  **phone numbers".** Klicken **Sie auf "Nummern"** und dann auf **"Portieren",** um den Assistenten zum Portieren zu starten.
+2. Überprüfen Sie die Informationen **auf** der Seite "Erste Schritte", und klicken Sie dann auf "Weiter", wenn Sie fertig **sind.**
+3. Geben Sie **auf der Seite "Speicherort und** Zahlentyp auswählen" Folgendes an, und klicken Sie dann auf **"Weiter":**
 
-    - **Land oder Region** : Land oder Region, in dem Sie Zahlen erhalten.
-    - **Art der Telefonnummer** : Art der Nummer, beispielsweise geografische oder gebührenfreie Nummern.
-    - **Nummern zugewiesen an** : Was die Nummern zugewiesen sind. Beispielsweise Benutzer oder Konferenz-oder Sprachfunktionen.
+    - **Land oder Region:** Das Land oder die Region, in dem bzw. in der Sie Nummern erhalten.
+    - **Telefonnummerntyp:** Typ der Nummer, z. B. geografische oder gebührenfreie Telefonnummern.
+    - **Nummern, denen zugewiesen** ist: Was die Nummern sind Beispielsweise Benutzer, Konferenz- oder Sprachfeatures.
 
-4. Führen Sie auf der Seite **Kontoinformationen hinzufügen** die folgenden Schritte aus, und klicken Sie dann auf **weiter**.
+4. Führen Sie **auf der Seite "Kontoinformationen hinzufügen"** die folgenden Schritte aus, und klicken Sie dann auf **"Weiter".**
 
     > [!IMPORTANT]
-    > Die auf dieser Seite angezeigten Informationen werden durch das Land oder die Region und den Nummerntyp bestimmt. Für jedes Land und jede Region gelten unterschiedliche Regelungen für die Informationen, die für die Portierung von Nummern erforderlich sind. Was auf dieser Seite angezeigt wird, kann sich von den hier beschriebenen unterscheiden.
+    > Die auf dieser Seite angezeigten Informationen sind vom Land oder der Region und dem Zahlentyp bestimmt. Für jedes Land und jede Region gelten unterschiedliche Vorschriften zu den Informationen, die für Portierungsnummern erforderlich sind. Das, was Sie auf dieser Seite sehen, kann sich von dem hier beschriebenen unterscheiden.
 
-    - **Bestelldetails** : 
-        - **Bestell Name** : Name Ihrer Bestellung
-        - **Benachrichtigungs** -e-Mails: e-Mail-Adressen zum Empfangen von Bestellbenachrichtigungen. Wenn Sie mehrere e-Mail-Adressen eingeben, trennen Sie die einzelnen Adressen durch ein Semikolon.
-        - **Übertragenes Datum** : vom aktuellen Dienstanbieter ausgegebenes Übertragungsdatum.
-    - **Telefonnummern Details**
-        - **Porttyp** : ganz gleich, ob Sie eine vollständige Portierung durchführen, um alle Ihre Nummern zu übertragen, oder einen Teil-Port, um einige ihrer Nummern zu übertragen.
+    - **Bestelldetails:** 
+        - **Bestellname:** Name Ihrer Bestellung
+        - **Benachrichtigungs-E-Mails:** E-Mail-Adressen zum Empfangen von Bestellbenachrichtigungen. Wenn Sie mehrere E-Mail-Adressen eingeben, trennen Sie diese durch ein Semikolon.
+        - **Transferdatum:** Übertragungsdatum, das von Ihrem aktuellen Dienstanbieter ausgestellt wurde.
+    - **Telefonnummerndetails**
+        - **Porttyp:** Ganz gleich, ob Sie eine vollständige Portierung zum Übertragen aller Nummern oder eine teilweise Portierung zum Übertragen einiger Ihrer Nummern unternehmen.
     - **Person, die Details anfordert**  
-        - Name Ihrer Organisation und Kontaktdaten der Person, die die Übertragung beantragt.
-    - **Informationen des aktuellen Anbieters**
-        - **Abrechnungs Telefonnummer (BTN)** : Ihr BTN im E. 164-Format, für das ein +-Zeichen erforderlich ist, um die Nummer voranzustellen. Verwenden Sie beispielsweise für eine Nordamerika-Nummer das Format + 1XXXYYYZZZZ.
-        - Weitere Informationen, einschließlich des Namens Ihres aktuellen Dienstanbieters, Ihrer Kontonummer und ihrer Dienstadresse.
+        - Der Name Ihrer Organisation und die Kontaktdetails der Person, die die Übertragung anfordert.
+    - **Details zum aktuellen Anbieter**
+        - **Abrechnungstelefonnummer (Billing Telephone Number, BTN):** Ihr BTN im E.164-Format, für das ein +-Zeichen vor der Nummer erforderlich ist. Verwenden Sie beispielsweise für eine Telefonnummer aus Nordamerika das Format +1XXXYYYZZZZ.
+        - Weitere Details, einschließlich des Namens Ihres aktuellen Dienstanbieters, Ihrer Kontonummer und Ihrer Dienstadresse.
             
-5. Klicken Sie auf der Seite **Zahlen hinzufügen** auf **Datei auswählen** , navigieren Sie zu der CSV-Datei, die die zu übertragenden Telefonnummern enthält, und wählen Sie Sie aus, und klicken Sie dann auf **weiter**.  
+5. Klicken Sie **auf** der Seite "Zahlen hinzufügen" auf "Datei auswählen", navigieren Sie zu der CSV-Datei, die die zu übertragende Telefonnummer enthält, und wählen Sie sie aus, und klicken Sie dann auf "Weiter".   
 
     > [!NOTE]
-    > Die CSV-Datei darf nur eine Spalte mit einem Header mit dem Namen "Faxnummer" aufweisen. Jede Telefonnummer muss sich in einer separaten Zeile befinden und kann nur Ziffern oder im E. 164-Format sein.
+    > Die DATEI "CSV" darf nur eine Spalte mit der Überschrift "PhoneNumber" enthalten. Jede Telefonnummer muss in einer separaten Zeile stehen und kann nur Ziffern oder im E.164-Format sein.
 
-6. Klicken Sie auf der Seite " **Bestellung abschließen** " auf " **signierten Brief der Autorisierung hochladen** ", um eine gescannte Kopie des signierten Autorisierungs Schreibens (Letter of Authorization, Loa) hochzuladen.
+6. Klicken Sie auf der  Seite **"Bestellung** abschließen" auf "Eine signierte Genehmigungsschreiben hochladen", um eine gescannte Kopie der signierten Genehmigungsschreiben hochzuladen.
 
-    Wenn Sie den Loa noch nicht heruntergeladen und signiert haben, gehen Sie folgendermaßen vor:
+    Wenn Sie den LOA noch nicht heruntergeladen und signiert haben, gehen Sie wie folgt vor:
     
-    1. Klicken Sie auf **Vorlage herunterladen** , um die Loa für Ihr Land oder Ihre Region herunterzuladen. 
-    2. Drucken Sie den Loa.
-    3. Lassen Sie den Loa von der Person signieren, die berechtigt ist, Änderungen am Konto vorzunehmen.
-    4. Überprüfen Sie den signierten Loa, und klicken Sie dann auf **einen signierten Brief der Autorisierung hochladen** , um ihn hochzuladen.
+    1. Klicken **Sie auf "Vorlage herunterladen",** um den LOA für Ihr Land oder Ihre Region herunterzuladen. 
+    2. Drucken Sie den LOA.
+    3. Lassen Sie den LOA von der Person unterzeichnen, die berechtigt ist, Änderungen am Konto vorzunehmen.
+    4. Überprüfen Sie den signierten LOA, und klicken Sie dann auf **"Eine signierte Genehmigungsschreiben hochladen",** um ihn hochzuladen.
 
     > [!NOTE]
-    > Nachdem Sie Ihre Loa hochgeladen haben, senden Sie Ihre Bestellung. Nur das Hochladen des Loa reicht nicht aus. Darüber hinaus müssen Sie den Auftrag für die Verarbeitung einreichen.
+    > Nachdem Sie Ihren LOA hochgeladen haben, übermitteln Sie Ihre Bestellung. Nur das Hochladen des LOA reicht nicht aus. Sie müssen die Bestellung auch übermitteln, damit sie verarbeitet wird.
 
-7. Überprüfen Sie Ihre Bestelldetails, und klicken Sie dann auf **Absenden**.
+7. Überprüfen Sie die Bestelldetails, und klicken Sie dann auf **"Absenden".**
 
 
 ## <a name="what-happens-next"></a>Wie geht es weiter?
 
-Wenn wir Ihren Portierungs Auftrag erhalten, erhalten Sie eine e-Mail, die Ihre Anfrage überprüft. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden über Ihren Status und Status per e-Mail benachrichtigt. Wenden Sie sich an den [PSTN-Service-Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md), wenn Ihre Port Anfrage vom Verlierer-Netzbetreiber abgelehnt wurde.
+Wenn wir Ihren Portierungsantrag erhalten, erhalten Sie eine E-Mail, in der Ihre Anforderung überprüft wird. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden per E-Mail über ihren Status und Status benachrichtigt. Wenn Ihre Portierungsanforderung vom verlorenen Netzbetreiber abgelehnt wird, wenden Sie sich an den [PSTN Service Desk.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
-Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu > **VoIP** -  >  **Port Bestellungen** , und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet. Weitere Informationen finden Sie unter [Was ist der Status Ihrer Portierungs Aufträge?](port-order-status.md)
+Um den Status Ihres Portierungsauftrags zu sehen, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu > **Voice**  >  **Portierungsaufträge,** und klicken Sie dann auf "Bestellverlauf".  Der Status jedes Portierungsauftrags wird in der Spalte **"Status"** aufgeführt. Weitere Informationen finden Sie unter ["Wie ist der Status Ihrer Portierungsaufträge?".](port-order-status.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -99,4 +99,4 @@ Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Si
 - [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
-- [Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

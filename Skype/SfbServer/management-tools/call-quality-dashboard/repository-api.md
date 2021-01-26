@@ -1,8 +1,8 @@
 ---
-title: Repository-API für das Anruf Qualitäts Dashboard (CQD) in Skype for Business Server
+title: Repository-API für das Anrufqualitätsdashboard (CQD) in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,51 +12,51 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: 'Zusammenfassung: erfahren Sie mehr über die Repository-API für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 283ef7544435c3954898b2d5ae9e5f5b38762f3c
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Zusammenfassung: Erfahren Sie mehr über die Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 982ec0932f0a57958e1929a6ae2413ada0b5c9fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888784"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803125"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Repository-API für das Anruf Qualitäts Dashboard (CQD) in Skype for Business Server
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Repository-API für das Anrufqualitätsdashboard (CQD) in Skype for Business Server
  
-**Zusammenfassung:** Informieren Sie sich über die Repository-API für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über die Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
   
-Die Repository-API bietet programmgesteuerten Zugriff für das Anruf Qualitäts Dashboard für Skype for Business Server.
+Die Repository-API bietet programmgesteuerten Zugriff für das Anrufqualitätsdashboard für Skype for Business Server.
   
-## <a name="repository-api-for-call-quality-dashboard"></a>Repository-API für Anruf Qualitäts Dashboard
+## <a name="repository-api-for-call-quality-dashboard"></a>Repository-API für anrufqualitätsdashboard
 
-Die Repository-API bietet eine Datenzugriffsschnittstelle zur Repository-Datenbank. Das Repository ermöglicht es, die Inhalte in einer Struktur-oder Diagrammstruktur zu organisieren, sodass Benutzer Sie in der Weise gruppieren können, die für die Benutzer sinnvoll ist. Das Repository unterstützt zwei allgemeine Benutzertypen: Systembenutzer, ein integrierter Benutzer, der das Repository darstellt, und reguläre Benutzer, die die autorisierten Benutzer des Repositorys darstellen.
+Die Repository-API bietet eine Datenzugriffsschnittstelle für die Repositorydatenbank. Das Repository ermöglicht es, die Inhalte in einer Struktur oder Diagrammstruktur so zu organisieren, dass Benutzer sie auf die für die Benutzer sinnvollen Weise gruppieren können. Das Repository unterstützt zwei allgemeine Benutzertypen: Systembenutzer, bei denen es sich um einen integrierten Benutzer handelt, der das Repository darstellt, und reguläre Benutzer, die die autorisierten Benutzer des Repositorys darstellen.
   
 Die Repository-API besteht aus drei allgemeinen Diensten: 
   
-- [Benutzer Dienst für CQD](user-service.md) -für den Zugriff auf Benutzer.
+- [Benutzerdienst für CQD](user-service.md) – für den Zugriff auf Benutzer.
     
-- [Element Dienst für das Anruf Qualitäts Dashboard (CQD)](item-service.md) – für den Zugriff auf Elemente und die Inhalte, die in Elementen gespeichert sind.
+- [Item Service for Call Quality Dashboard (CQD)](item-service.md) – für den Zugriff auf Elemente und die in Elementen gespeicherten Inhalte.
     
-- [Benutzer Einstellungsdienst für das Anruf Qualitäts Dashboard (CQD)](user-settings-service.md) – für den Zugriff auf Benutzereinstellungen.
+- [Dienst für Benutzereinstellungen für das Anrufqualitätsdashboard (CQD)](user-settings-service.md) für den Zugriff auf Benutzereinstellungen.
     
-Das Dashboard für die Anrufqualität verwendet die Repository-API, um die folgenden Informationen zu verwalten: 
+Das Anrufqualitätsdashboard verwendet die Repository-API, um die folgenden Informationen zu verwalten: 
   
-- **Benutzer** Darstellung von Benutzern, die auf das Repository zugreifen können
+- **Benutzer** – Darstellung der Benutzer, die Zugriff auf das Repository haben.
     
-- **Bericht** – enthält eine Liste von Abfragen, die als Inhalt in Repository-Elementen gespeichert sind.
+- **Bericht** – enthält eine Liste von Abfragen, die als Inhalt in Repositoryelementen gespeichert sind.
     
-- **Query** – wird verwendet, um Daten aus der Daten-API abzurufen, die als Inhalt in Repository-Elementen gespeichert sind.
+- **Abfrage** – wird verwendet, um Daten aus der Daten-API abzurufen, die als Inhalt in Repositoryelementen gespeichert sind.
     
 - **Benutzereinstellung** – beschreibt ein optionales Anwendungsverhalten für den Benutzer.
     
-  **CORS-Unterstützung für die Repository-API**
+  **Cross-Origin Resource Sharing (CORS)-Unterstützung für Repository-API**
   
-Repository-API unterstützt die übergreifende Ressourcenfreigabe (CORS). CORS ist ein HTTP-Feature, mit dem eine Webanwendung, die unter einer Domäne ausgeführt wird, auf Ressourcen in einer anderen Domäne zugreifen kann. Webbrowser implementieren eine Sicherheitseinschränkung, die als identische [Ursprungs](https://www.w3.org/Security/wiki/Same_Origin_Policy) Richtlinie bekannt ist, die verhindert, dass eine Webseite APIs in einer anderen Domäne aufruft. CORS bietet eine sichere Möglichkeit, um eine Domäne (die Ursprungsdomäne) zu ermöglichen, APIs in einer anderen Domäne aufzurufen. Details zu CORS finden Sie in der [CORS-Spezifikation](https://www.w3.org/TR/cors/) .
+Die Repository-API unterstützt cross-Origin Resource Sharing (CORS). CORS ist ein HTTP-Feature, mit dem eine Webanwendung, die unter einer Domäne ausgeführt wird, auf Ressourcen in einer anderen Domäne zugreifen kann. Webbrowser implementieren eine Sicherheitseinschränkung, die als "Richtlinie des gleichen Ursprungs" bezeichnet wird und verhindert, dass eine Webseite APIs in einer anderen Domäne aufruft. [](https://www.w3.org/Security/wiki/Same_Origin_Policy) CORS bietet eine sichere Möglichkeit, einer Domäne (der Ursprungsdomäne) das Aufrufen von APIs in einer anderen Domäne zu ermöglichen. Details zu [CORS finden](https://www.w3.org/TR/cors/) Sie in der CORS-Spezifikation.
   
  **Aktivieren von CORS für die Repository-API**
   
- Im folgenden finden Sie einen Auszug aus der Repository-API Web. config mit zwei in corsTrustedOrigin-Anwendungseinstellungen aufgelisteten Domänen. Alle Anforderungen der Skripts, die von diesen Servern geladen wurden, werden von der Repository-API als vertrauenswürdig eingestuft.
+ Es folgt ein Auszug aus repository-API-web.config mit zwei Domänen, die in den CorsTrustedOrigin-Anwendungseinstellungen aufgelistet sind. Alle Anforderungen der von diesen Servern geladenen Skripts werden von der Repository-API als vertrauenswürdig eingestuft.
   
-Denken Sie daran, das exakte Protokoll, den Hostnamen und den Port (sofern vorhanden) einzubeziehen. Setzen Sie am Ende keine Schrägstriche (/) ein. Mehrere Einträge können durch Kommas getrennt angegeben werden.
+Denken Sie daran, das genaue Protokoll, den Hostnamen und den Port (falls dies der Fall ist) zu verwenden. Setzen Sie keinen Schrägstrich (/) am Ende. Mehrere Einträge können durch Kommas getrennt angegeben werden.
   
 ```xml
 <repositoryConfiguration>

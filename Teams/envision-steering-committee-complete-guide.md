@@ -1,14 +1,14 @@
 ---
-title: Lenkungsausschuss für Cloud-sprach Bereitstellung
-author: lanachin
-ms.author: v-lanac
+title: Lenkungsgremium für Cloud-Sprachbereitstellung
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Ermitteln einer Gruppe von Hauptbeteiligten und Projektleitern zur Ermittlung von Bereitstellungszielen, Nachverfolgen des Fortschritts und Entfernen von Blockierungen
+description: Identifizieren Sie eine Führungsgruppe aus wichtigen Projektbeteiligten und Projektleitern, um Bereitstellungsziele zu identifizieren, den Fortschritt nachverfolgt und Blockierer zu entfernen.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,210 +16,210 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7e4e24b871ab537e336ddbd2b25c0d44408c299
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 08073551b77956a4b7ff77739e6fc0fa7b1101d5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042787"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822755"
 ---
-# <a name="steering-committee"></a>Lenkungsausschuss
+# <a name="steering-committee"></a>Steuerungsgremium
 
-## <a name="steering-committee-overview"></a>Übersicht des Lenkungsausschusses
+## <a name="steering-committee-overview"></a>Übersicht über das Lenkungsgremium
 
-Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern und Projektleitern, die zusammengebracht wurden, um ein Projekt oder Programm zu den definierten geschäftlichen Ergebnissen zu führen. Das Lenkungskomitee ist nicht direkt für die Bereitstellung des Projekts verantwortlich, sondern vielmehr, *was* das *Projekt dem unter* nehmen liefert.
+Ein Lenkungsgremium ist eine Steuerungsgruppe wichtiger Projektbeteiligten und Projektleiter, die zusammengebracht wurden, um ein Projekt oder Programm auf dem Weg zu den definierten Geschäftsergebnissen zu leiten. Der Lenkungsrat ist nicht  direkt dafür verantwortlich, wie  das Projekt geliefert wird, sondern für das, was das Projekt für das Unternehmen liefert.
 
-Für jedes Projekt ist eine vereinbarte Vision und Charta erforderlich. Um die gewünschten Ergebnisse der Projekte zu liefern, muss die Vision klar definiert sein, Sie muss überwacht und gewartet werden. Dieser wird in die Zuständigkeit des Lenkungsausschusses gestellt: um Entscheidungen zu treffen, Ratschläge zu erteilen, strategisches beaufsichtigen zu führen, als Fürsprecher für die Organisation für die Initiativen des Projekts zu fungieren und – falls erforderlich – Blocker zu entfernen.
+Jedes Projekt erfordert eine auf sie abgestimmte Vision und Projektcharta. Um die gewünschten Ergebnisse der Projekte zu erzielen, muss die Vision klar definiert, überwacht und gepflegt werden. Dies wird die Aufgabe des Lenkungsgremiums: Entscheidungen zu steuern, zu beraten, strategische Aufsicht zu geben, die Unterstützung der Organisation für die Initiativen des Projekts zu übernehmen und – falls erforderlich – Blockierer zu entfernen.
 
-Ihre Organisation sollte die Bildung des Lenkungsausschusses erheblich überdenken. Der Ausschuss muss sicherstellen, dass das Projekt die Unternehmensziele erreicht, die Sie für das Vorantreiben von Änderungen in der gesamten Organisation definiert haben, sich regelmäßig treffen, um den aktuellen Puls des Projekts zu besprechen, und dabei helfen, alle Hindernisse zu beseitigen, die während der Reise aufgetreten sind.
+Ihre Organisation sollte sich wichtige Gedanken über die Bildung des Lenkungsgremiums machen. Der Ausschuss muss sicherstellen, dass das Projekt die Geschäftsziele erreicht, die Sie für die Veränderung in der gesamten Organisation definiert haben, sich regelmäßig treffen, um das aktuelle Pulse des Projekts zu diskutieren, und dabei helfen, alle Hindernisse zu beseitigen, die während der Reise auftreten.
 
-Der Ausschuss sollte seine Charta definieren, um einige der wichtigsten Ziele einzubeziehen:
+Der Komitee sollte seinen Charter definieren, um einige wichtige Ziele zu enthalten:
 
--   Halten Sie eine starke Abstimmung zwischen dem Projektteam und dem Executive-Sponsor oder der Führungskraft.
+-   Halten Sie eine starke Ausrichtung zwischen dem Projektteam und dem Executive Sponsor oder der Geschäftsleitung.
 
--   Geben Sie dem Executive-Sponsor oder der Führungskraft einen Einblick in den Projektstatus.
+-   Geben Sie dem Executive Sponsor oder der Geschäftsleitung Einblicke in den Status des Projekts.
 
--   Ermöglichen Sie es dem Executive-Sponsor oder dem Executive Leadership-Team, Richtung und Eingabe für das Projekt bereitzustellen, und stellen Sie sicher, dass es den übergeordneten Geschäftszielen entspricht, indem Sie Projektpläne, objektive Schlüsselergebnisse (OKRs) und andere Projektaktivitäten anpassen.
+-   Lassen Sie zu, dass der Executive Sponsor oder das Geschäftsleitungsteam Anweisungen und Beiträge für das Projekt bereitstellen und sicherstellen, dass es sich an übergeordneten Geschäftszielen richtet, indem Sie Projektpläne, Ziel-Key-Ergebnisse (OKRs) und andere Projektaktivitäten anpassen.
 
-Das Lenkungskomitee tagt zu einem wiederkehrenden Intervall während der gesamten Laufzeit eines Projekts, um die Ausrichtung zwischen organisatorischer Führung und Projektteam zu gewährleisten. Diese kritische Besprechung stellt sicher, dass die Richtung des Projekts die vollständige Unterstützung durch Leadership hat, und es werden alle von der Führungskraft bereitgestellten Feedbacks in das Projekt integriert, um den Erfolg zu steigern. Der Ausschuss verwendet diese Besprechungen, um Einblicke in den Projektstatus zu erhalten und auch an:
+Das Lenkungsgremium trifft sich während der gesamten Lebensdauer eines Projekts in regelmäßigen Zeitintervallen, um die Ausrichtung zwischen der Organisationsleitung und dem Projektteam sicherzustellen. Bei dieser kritischen Besprechung wird sichergestellt, dass die Leitung des Projekts von den Führungskräften vollständig unterstützt wird und jegliches Feedback von Führungskräften in das Projekt integriert wird, um den Erfolg zu fördern. Das Komitee nutzt diese Besprechungen, um Einblicke in den Projektstatus zu erhalten und um außerdem:
 
--   Vereinbaren Sie Geschäftsergebnisse, die sich an den Fall des Unternehmens orientieren, und stellen Sie sicher, dass das Projekt auf die bereitstellungdieser Ergebnisse ausgerichtet ist.
+-   Stimmen Sie den Unternehmensergebnissen zu, die auf den Geschäftsfall ausgerichtet sind, und um sicherzustellen, dass das Projekt auf das Erreichen dieser Ergebnisse ausgerichtet ist.
 
--   Überprüfen und genehmigen Sie das Projekt für die Genauigkeit und Einhaltung des Geschäftsfalls.
+-   Überprüfen und genehmigen Sie das Projekt auf Genauigkeit und Einhaltung des Geschäftsfalles.
 
 -   Überprüfen und überprüfen Sie die am Geschäftsfall vorgenommenen Änderungen, die sich auf definierte Ergebnisse auswirken können.
 
--   Treffen Sie strategische Entscheidungen bezüglich der Priorisierung von Projektergebnissen, und genehmigen Sie Zwischenergebnisse.
+-   Treffen Sie strategische Entscheidungen hinsichtlich der Priorisierung von Projektlieferergebnissen, und genehmigen Sie zwischen den Projektlieferergebnissen.
 
--   Ermitteln, managen und verringern Sie Lücken, Risiken und Probleme, bei denen zusätzlicher Einfluss des Ausschusses erforderlich ist.
+-   Identifizieren, verwalten und entschärfen Sie Lücken, Risiken und Probleme, bei denen zusätzliche Einfluss durch das Komitee erforderlich ist.
 
--   Sammeln Sie Unterstützung des Executive-Sponsors oder des Executive Leadership Teams für Probleme, die Eskalation erfordern, priorisieren und Konflikte zwischen Stakeholder-Geschäftseinheiten beheben. 
+-   Sammeln Sie die Unterstützung des Executive Sponsors oder Des Executive Leadership Teams für Probleme, die eine Zusammenführung, Priorisierung und Lösung von Konflikten zwischen den Unternehmenseinheiten der Beteiligten erfordern. 
 
--   Bereitstellen von formellem Feedback und Empfehlungen für Führungskräfte, das Change Advisory Board oder andere Geschäfts-und IT-Stakeholder, sofern zutreffend.
+-   Bereitstellen von formellem Feedback und Empfehlungen an Führungskräfte, das Change Advisory Board oder andere Unternehmens- und IT-Beteiligte (falls zutreffend).
 
-## <a name="identify-members-of-the-steering-committee"></a>Mitglieder des Lenkungsausschusses ermitteln
+## <a name="identify-members-of-the-steering-committee"></a>Identifizieren der Mitglieder des Lenkungsgremiums
 
-Ein Ausschuss ist nur so effektiv, wie seine Teilnehmer einflussreich sind. Das Lenkungskomitee muss die Vertretung sowohl von geschäftlichen als auch technischen Entscheidungsträgern sowie einer der wichtigsten Projektteamleiter und Partnerteams aufrecht erhalten, die zur Lösung beitragen.
+Ein Komitee ist nur so effektiv wie seine Teilnehmer einflussreich sind. Das Lenkungsgremium muss die Darstellung von geschäftlichen und technischen Entscheidungsträgern sowie der wichtigsten Projektteamführungen und Partnerteams, die zur Lösung beitragen, pflegen.
 
-Jeder Lenkungsausschuss benötigt eine starke Führungsposition und klar definierte Rollen und Zuständigkeiten. Um realistische Erwartungen an die Leistung des Ausschusses und die Beteiligung seiner Mitglieder zu stellen, müssen Sie zugewiesene Rollen und Zuständigkeiten dokumentieren und Ihnen zustimmen. Sie müssen unbedingt über einen ansprechenden Executive-Sponsor und eine Unternehmensführung in diesem Komitee verfügen, um einen effektiven Einfluss in der gesamten Organisation zu bieten und eine unterschiedliche Perspektive zu gewährleisten.
+Jedes Lenkungsgremium benötigt starke Führungskräfte und klar definierte Rollen und Zuständigkeiten. Um realistische Erwartungen an die Leistung des Komitees und die Teilnahme seiner Mitglieder zu erstellen, müssen Sie die zugewiesenen Rollen und Zuständigkeiten dokumentieren und zustimmen. Sie müssen unbedingt einen reaktionsschnellen Executive Sponsor und Führungskräfte in diesem Komitee haben, um effektive Einfluss in der gesamten Organisation zu bieten und eine vielfältige Perspektive sicherzustellen.
 
 > [!NOTE]
-> Passen Sie Rollen und Verantwortlichkeit auf Grundlage Ihrer Organisation und ihres Projektteam Designs an. In kleineren Organisationen können sich diese Rollen überlappen.
+> Passen Sie Rollen und Verantwortlichkeit basierend auf dem Entwurf Ihrer Organisation und Ihres Projektteams an. In kleineren Organisationen können sich diese Rollen überlappen.
 
 | Titel | Rolle | Kontakt | E-Mail |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
-| Befürworter aus der Führungsebene | Treten Sie für das Projekt ein, stellen Sie sicher, dass die Richtung in Einklang mit der Vision der Organisation bleibt. Als endgültige Autorität dienen, um Entscheidungen zu treffen, auf die sich der Ausschuss nicht einigen kann. | | |
-| Entscheidungsträger für Unternehmen | Fürsprecher für das Projekt, sicherstellen, dass seine Richtung in Einklang mit der Vision der Organisation bleibt | | |
-| Featuresatz | Sicherstellen, dass Technologieentscheidungen erreichbar sind und sich an vereinbarte geschäftliche Ergebnisse anpassen. | | |
-| Zentrales Projekt Team | Bereitstellen von Details zu einer bestimmten Komponente, entweder technischer oder nicht technischer Art (wie Annahme und Änderungsverwaltung) | | |
-| Quality Champion | Für die Zusammenstellung von Qualitätskennzahlen verantwortlich sein. | | |
-| Programm/Projekt Manager | Übernehmen Sie die Verantwortung für die Präsentation und Sammlung von Feedback, um Sie in das Projekt einzubeziehen. | | |
-| Team des Partner Kontos | Geben Sie Feedback aus der Sicht des Partners aus einer breiteren Perspektive, anderen Partner Aktivitäten. | | |
-| Partner Projekt Team | Bereitstellen von Feedback aus Sicht des Partners bezüglich der Bereitstellung des Projekts | | |
+| Befürworter aus der Führungsebene | Unterstützen Sie das Projekt, und stellen Sie sicher, dass seine Richtung mit der Vision der Organisation in Übereinstimmung bleibt. Dient als ultimative Autorität, Entscheidungen zu treffen, auf die sich das Komitee nicht einigen kann. | | |
+| Business Decision Maker(s) | Verfechter des Projekts, sicherstellen, dass seine Richtung mit der Vision der Organisation in Übereinstimmung bleibt | | |
+| Architect | Stellen Sie sicher, dass Technologieentscheidungen erreichbar sind und an den vereinbarten Geschäftsergebnissen ausgerichtet sind. | | |
+| Kernprojektteam | Bereitstellen von Details zu einer bestimmten Komponente, entweder technischer oder nicht technischer Art (z. B. Übernahme- und Änderungsverwaltung) | | |
+| Quality Champion | Gehen Sie für die Berücksichtigung von Qualitätsmetriken ein. | | |
+| Programm-/Projektmanager | Übernehmen Sie die Verantwortung für die Präsentation und sammlung von Feedback, die in das Projekt integriert werden sollen. | | |
+| Partnerkontoteam | Bereitstellen von Feedback aus der Sicht des Partners aus einer breiteren Perspektive und anderen Partneraktivitäten. | | |
+| Partnerprojektteam | Bereitstellen von Feedback aus der Sicht des Partners zur Lieferung des Projekts | | |
 
-## <a name="schedule-steering-committee-meetings"></a>Planen von Sitzungen des Lenkungsausschusses 
+## <a name="schedule-steering-committee-meetings"></a>Planen von Besprechungen im Lenkungsgremium 
 
-Obwohl jede Organisation und jedes Projektteam auf etwas andere Weise strukturiert ist, sollte die Sitzung des Lenkungsausschusses nie zu einer weiteren Projektbesprechung werden. Berücksichtigen Sie die Ziele der Sitzung des Lenkungsausschusses: Sie haben die Möglichkeit, das Projekt auf dem Laufenden zu halten, indem Sie die Unterstützung und Richtung des Executive-Sponsors oder der Führungskraft der Führungskräfte sammeln. Stellen Sie sicher, dass jeder Teilnehmer an dieser Besprechung teilnimmt, damit direkt Nachrichten zwischen dem gesamten Projektteam und dem Executive-Sponsor oder der Führungskraft des Unternehmens stattfinden, und es gibt keine Fehlkommunikation, wenn die Nachricht weitergeleitet wird.
+Obwohl jede Organisation und jedes Projektteam auf etwas unterschiedliche Weise strukturiert ist, sollte die Besprechung des Lenkungsgremiums niemals zu einer weiteren Aufstandsbetreffung für Projekte werden. Bedenken Sie die Ziele der Lenkungssitzung: Es ist Ihre Gelegenheit, das Projekt auf Kurs zu halten, indem Sie die Unterstützung und Leitung von der Geschäftsleitung oder der Geschäftsleitung einsammeln. Stellen Sie sicher, dass alle an dieser Besprechung teilnehmen, damit es direkte Kommunikation zwischen dem gesamten Projektteam und dem Leitenden Sponsor oder der Geschäftsleitung gibt und es keine Fehlkommunikation gibt, wenn die Nachricht weitergesenistt wird.
 
-Berücksichtigen Sie beim Planen einer Ausschuss Besprechung die Projekt-und Organisations Kadenz. Versuchen Sie, die Woche oder jede zweite Woche zu planen, basierend auf den Präferenzen Ihrer Executive-Sponsoren und dem Tempo Ihrer Organisation.
+Berücksichtigen Sie beim Planen einer Komiteesitzung den Projekt- und Organisationsfrequenz. Versuchen Sie, die Planung entweder wöchentlich oder jede zweite Woche basierend auf den Voreinstellungen Ihrer Leitenden Sponsoren und dem Tempo Ihrer Organisation zu planen.
 
 > [!TIP]
-> Wenn es sich um eine sich schnell verändernde Umgebung handelt, sollten Sie nicht zu viel Zeit zwischen Besprechungen verstreichen lassen – das kann zu Problemen führen, die durch häufigere Besprechungen vermieden werden könnten. In einer langsameren Umgebung kann es jedoch vorkommen, dass eine Besprechung jede Woche zu einer Ermüdung der Besprechung führt, wodurch sich die Effektivität des Lenkungsausschusses verringern kann. Ermitteln Sie anhand ihrer Erfahrung und ihres Urteils die passende Kadenz, und denken Sie immer daran, dass Sie den Terminplan ändern können. Treffen Sie sich nicht nur um der Besprechung Willen.
+> Wenn Ihre Umgebung sich schnell bewegt, lassen Sie nicht zu viel Zeit zwischen besprechungen verpassen– dies kann zu Problemen führen, die durch häufigere Besprechungen vermieden werden könnten. In einer langsameren Umgebung kann ein wöchentliches Treffen jedoch zu Ermüdung bei Besprechungen führen, was die Effektivität des Lenkungsgremiums verringern kann. Verwenden Sie Ihre Erfahrung und Ihr Wissen, um den geeigneten Zeitwechsel zu bestimmen, und denken Sie immer daran, dass Sie den Zeitplan ändern können. Treffen Sie sich nicht nur zu Besprechungsgründen.
 
-### <a name="prepare-for-the-meeting"></a>Vorbereiten für die Besprechung
+### <a name="prepare-for-the-meeting"></a>Vorbereiten auf die Besprechung
 
-Sie müssen sich auf die Besprechung vorbereiten, damit Sie die Zeit der anderen optimal nutzen können. Das Core-Team kann mit der Vorbereitung des Materials für die Sitzung des Lenkungsausschusses beginnen. Sie können eine PowerPoint-Präsentation erstellen, um die Vorbereitung auf die Besprechung zu unterstützen.
+Um die Zeit aller zu nutzen, müssen Sie sich auf die Besprechung vorbereiten. Das Kernteam kann mit der Vorbereitung des Materials für die Besprechung des Lenkungsgremiums beginnen. Sie können eine PowerPoint-Präsentation erstellen, um sich auf die Besprechung vorzubereiten.
 
-Die folgenden Ressourcen sollten ausgefüllt und im Präsentations Stapel für die Besprechung enthalten sein:
+Die folgenden Ressourcen sollten ausgefüllt und in den Präsentationsstapel für die Besprechung aufgenommen werden:
 
--   Nachverfolgung der Aktionspunkte des vorherigen Lenkungsausschusses
+-   Nach anschluss an die Aktionselemente des vorherigen Lenkungsgremiums
 
--   Lenkungsausschuss PowerPoint, Projektstatusbericht auf höherer Ebene
+-   Lenkungsgremium PowerPoint, Projektbericht zum Status auf hoher Ebene
 
-    -   Schauen Sie sich das Projekt ganz aus einer monatlichen/Quartals-/Jahres-Überprüfung an.
+    -   Sehen Sie sich das Projekt ganz nach einer Überprüfung im Monats-,Quartals-/Jahrestyp an.
 
-    -   Ermitteln der wichtigsten Projektmeilensteine:
+    -   Identifizieren Sie wichtige Projektmeilensteine:
 
-        -   Erläutern Sie die Wichtigkeit und Auswirkung von Meilensteinen (diese sollten im risikoregister erfasst werden).
+        -   Erläutern Sie die Wichtigkeit und Die Auswirkungen von Meilensteinen (diese sollten im Risikoregister erfasst werden).
 
-        -   Entscheiden Sie sich für die bevorstehenden Migrationen, die auf der Vorbereitung basieren, insbesondere bei Entscheidungsträgern in Unternehmen.
+        -   Entscheiden Sie basierend auf der Vorbereitung, insbesondere mit Entscheidungsträgern, ob eine Migration von unterwegs oder ohne Los geht.
 
-    -   Rufen Sie Projekt Ausführungsdaten und Aktivitäten mit hoher Auswirkung auf.
+    -   Herausrufen von Projektausführungsterminen und Aktivitäten mit großen Auswirkungen.
 
-    -   Bericht über die OKRs, die für das Komitee als wichtig eingestuft wurden; Achten Sie darauf, die Metriken Verwendung, Benutzer Sentiment, Qualität und Zuverlässigkeit einzubeziehen.
+    -   Bericht über die OKRs, die für das Komitee als wichtig identifiziert wurden; achten Sie darauf, Nutzungs-, Benutzer-, Qualitäts- und Zuverlässigkeitsmetriken mitzuverlässigen.
 
--   Lenkungsausschuss PowerPoint, Bericht "wöchentlicher Projektstatus"
+-   PowerPoint des Lenkungsgremiums, wöchentlicher Projektstatusbericht
 
-    -   Enthält Hervorhebungs-und Lowlights, Schlüsselprobleme und Aktionselemente sowie die nächsten Schritte.
+    -   Enthält Hervorhebungen und Lowlights, wichtige Probleme und Aktionselemente sowie die nächsten Schritte.
 
-    -   Enthält weitere technische Details, die sich auf alltägliche Probleme und weniger auf den Gesamtprojekt Status konzentrieren.
+    -   Enthält mehr technische Details, die sich auf die täglichen Probleme und weniger auf den Gesamtstatus des Projekts konzentrieren.
 
--   Problemprotokoll und [Risiken registrieren](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
+-   Problemprotokoll und [Risikoregister](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
-    -   Geben Sie den Status von Problemen frei, die vom Ausschuss nachverfolgt werden.
+    -   Teilen Sie den Status aller Probleme mit, die vom Komitee verfolgt werden.
 
-        -   Bereiten Sie sich auf die Bereitstellungeines Updates für alle Fehler vor.
+        -   Bereiten Sie sich darauf vor, ein Update zu allen Fehlern zu liefern.
 
-    -   Ermitteln Sie alle neuen Elemente, die sich auf den Erfolg von Geschäftsergebnissen auswirken könnten.
+    -   Identifizieren Sie alle neuen Elemente, die sich auf den Erfolg der Erzielung von Geschäftsergebnissen auswirken können.
 
-        -   Ermitteln Sie Ihre Auswirkungen auf das Projekt.
+        -   Identifizieren sie die Auswirkungen auf das Projekt.
 
-        -   Identifizieren der betroffenen Personen oder Unternehmenseinheiten
+        -   Identifizieren Sie die betroffenen Personen oder Geschäftseinheiten.
 
-        -   Ermitteln Sie die nächsten Schritte, und welche Hilfe von den Mitgliedern des Ausschusses benötigt werden kann.
+        -   Identifizieren Sie die nächsten Schritte, und geben Sie an, welche Unterstützung von den Mitgliedern des Komitees erforderlich sein könnte.
 
--   Qualitäts Übersicht: Verwenden Sie Anleitungen von [Vorbereiten Ihres Netzwerks für Teams](prepare-network.md).
+-   Quality overview: Use guidance from [Prepare your network for Teams.](prepare-network.md)
 
-    -   Seien Sie bereit, die Ergebnisse dieser Qualitätsberichte ausführlich zu erläutern, und geben Sie Empfehlungen zur Behebung etwaiger aufgetretener Probleme.
+    -   Bereiten Sie sich darauf vor, die Ergebnisse dieser Qualitätsberichte detaillierter zu erläutern, und geben Sie Empfehlungen zur Behebung der notierten Probleme.
 
     -   Passen Sie die Qualitätsberichte jede Woche an, um sich auf die folgenden Bereiche zu konzentrieren:
 
-        -   Allgemeine qualitätstrends für die Organisation
+        -   Allgemeine Qualitätstrends für die Organisation
 
-        -   Den Status bekannter Problem Websites oder Websites, die Probleme aufweisen, um die Richtung der Website zu zeigen und – idealerweise – positive Ergebnisse aus der Behebung von Arbeit zu melden
+        -   Der Status von bekannten Problemwebsites oder Websites, die Probleme haben, um die Richtung der Website zu zeigen und – idealerweise – positive Ergebnisse der Problembehebung zu melden.
 
-        -   Der Qualitätsstatus der zuletzt aktivierten Websites auf der Grundlage des Projektfortschritts
+        -   Der Qualitätsstatus von zuletzt aktivierten Websites basierend auf dem Projektfortschritt
 
-Als nächstes planen Sie einen Anruf zur Vorbereitung der Sitzung des Lenkungsausschusses. Bei diesem Anruf sollten nur die Teammitglieder enthalten sein, die vom Kernprojektteam kritisch sind, dazu gehören Ressourcen aus dem Netzwerk, Desktop, Operationen oder anderen Teams, die Elemente enthalten, die während der Ausschusssitzung behandelt werden. Die Mitglieder des Kernteam-Projekts sollten niemals von Material, das Sie während des Lenkungsausschusses abdecken möchten, abgefangen werden.
+Planen Sie als Nächstes einen Anruf, um sich auf die Besprechung des Lenkungsgremiums vorzubereiten. Dieser Aufruf sollte nur die Teammitglieder umfassen, die vom Hauptprojektteam kritisch sind. Dies kann Ressourcen aus dem Netzwerk, desktop, vorgängen oder anderen Teams umfassen, die Elemente enthalten, die während der Komiteesitzung behandelt werden. Die Mitglieder des Hauptprojektteams sollten niemals von Material, das Sie während des Anrufs des Lenkungsgremiums abdecken möchten, abgefangen werden.
 
-Dieser vorbereitende Anruf ist eine großartige Möglichkeit, um sich zu synchronisieren, bevor das Lenkungskomitee tagt. Es ist auch an der Zeit, sicherzustellen, dass offene Elemente, Unstimmigkeiten oder Missstände im Projektteam ans Licht gebracht werden. Dies soll dazu beitragen, eine offene Kommunikation zu fördern und zu verhindern, dass andere Personen während der Besprechung unangenehm überrascht werden.
+Dieser vorbereitende Anruf ist eine hervorragende Möglichkeit, eine Synchronisierung zu treffen, bevor sich das Lenkungsgremium trifft. Es ist auch an der Zeit, dafür zu sorgen, dass alle offenen Punkte, Nichteinigkeiten oder Missstände im Projektteam ans Licht gebracht werden. Dies soll dazu beitragen, die offene Kommunikation zu fördern und zu verhindern, dass jemand während der Besprechung plötzlich überrascht wird.
 
-Überprüfen Sie die Berichte dieser Woche mit dem Kernteam und den Partner Stakeholdern und befassen Sie sich mit allen Problemen oder Fragen. Arbeiten Sie innerhalb des Teams, um Inhalte basierend auf Ihren Diskussionen anzupassen, hinzuzufügen oder zu entfernen, oder vereinbaren Sie, weitere Erläuterungen vom Lenkungsausschuss zu verlangen. Weisen Sie die Teammitglieder zu, die die einzelnen Abschnitte präsentieren, um den Fluss und die Kontinuität zu gewährleisten.
+Überprüfen Sie die Berichte dieser Woche mit dem Hauptteam und den Projektbeteiligten der Partner, und beantworten Sie alle Probleme oder Fragen. Arbeiten Sie im Team, um Inhalte basierend auf Ihren Diskussionen anzupassen, hinzuzufügen oder zu entfernen, oder stimmen Sie zu, vom Lenkungsgremium um weitere Klärung zu bitten. Weisen Sie die Teammitglieder zu, die die einzelnen Abschnittsabschnitte präsentieren sollen, um Fluss und Kontinuität sicherzustellen.
 
-### <a name="hold-the-meeting"></a>Halten Sie die Besprechung 
+### <a name="hold-the-meeting"></a>Halten der Besprechung 
 
-Die Besprechung selbst sollte eine natürliche Fortsetzung der Prep-Arbeit sein, die das Kernteam durchgeführt hat. Denken Sie daran, dass das Ziel dieser Besprechungen die Förderung einer Atmosphäre von Kommunikation und Zusammenarbeit ist, um die Vision des Projekts zu erreichen. Mit den folgenden Vorschlägen können Sie den Erfolg der Besprechungen sicherstellen:
+Die Besprechung selbst sollte eine natürliche Fortsetzung der Vorbereitungsarbeit sein, die das Kernteam bereits erledigt hat. Denken Sie daran, dass das Ziel dieser Besprechungen ist, eine Atmosphäre der Kommunikation und Zusammenarbeit zu fördern, um die Vision des Projekts zu erreichen. Verwenden Sie die folgenden Vorschläge, um den Erfolg von Besprechungen zu gewährleisten:
 
-1.  Planen Sie die Besprechung von Angesicht zu Angesicht. Identifizieren Sie einen Konferenzraum mit einer Tabelle, die groß genug ist, um sich von jedem zu verweilen. Stellen Sie sicher, dass der Besprechungsraum über Videofunktionen verfügt. Obwohl es ideal wäre, wenn alle Personen im Raum sind, ist es nicht immer möglich, sicherzustellen, dass die Besprechungseinladung den Konferenzraum und die Online Besprechungsinformationen mit mindestens Audio umfasst – aber idealerweise Audio, Video und Freigabe. Ermutigen Sie alle Remote Teilnehmer, Video zu verwenden, wenn Sie an der Besprechung teilnehmen.
+1.  Planen Sie die Besprechung so, dass sie sich von einem anderen gegenüber sehen kann. Identifizieren Sie einen Konferenzraum mit einem Tisch, der groß genug für alle ist, um sich zu versetzen. Stellen Sie sicher, dass der Besprechungsraum über Videofunktionen verfügt. Obwohl es ideal wäre, alle im Raum zu haben, ist dies nicht immer möglich. Stellen Sie daher sicher, dass die Besprechungseinladung den Konferenzraum und die Onlinebetreffinformationen mit mindestens Audio enthält – aber im Idealfall audio, video und freigabe. Fordern Sie alle Remoteteilnehmer auf, Video zu verwenden, wenn sie an der Besprechung teilnehmen.
 
-2.  Versuchen Sie, sich an der Tagesordnung zu halten, aber es gibt keine Zweifel, die Ablenkungen entstehen, die angegangen werden müssen. Wenn möglich (je nach Wichtigkeit), fügen Sie diese Elemente zu einem "Parkplatz"-Abschnitt hinzu, und adressieren Sie Sie später. Wenn das Thema zu verzögern zu wichtig ist, erhalten Sie eine Vereinbarung, um weiterhin darüber zu diskutieren, aber stellen Sie fest, dass Sie einige andere Tagesordnungspunkte in zukünftige Besprechungen verschieben müssen. Vereinbaren Sie, einige Zeit (fünf bis zehn Minuten) beiseite zu legen, um alle drängenden Elemente anzusprechen, die die unmittelbare Beachtung des Ausschusses erfordern.
+2.  Versuchen Sie, sich an die Tagesordnung zu halten, aber es können keine Zweifel daran entstehen, dass Ablenkungen entstehen, die behoben werden müssen. Fügen Sie diese Elemente nach Möglichkeit (je nach Wichtigkeit) einem Abschnitt "Parken" hinzu, und adressieren Sie sie später. Wenn das Thema zu wichtig ist, um es zu verschieben, sollten Sie sich darauf einigen, es weiter zu diskutieren, aber zu wissen, dass Sie einige andere Tagesordnungspunkte in zukünftige Besprechungen verschieben müssen. Stimmen Sie zu, eine gewisse Zeit (fünf bis zehn Minuten) zu bedenkzeit für alle Presselemente zu verwenden, die die sofortige Aufmerksamkeit des Komitees erfordern.
 
-3.  Seien Sie bereit, offene Supportfälle zu besprechen. Versuchen Sie, die Diskussion für diese Besprechung so hoch wie möglich zu halten – Anzahl von Tickets, Arten von Tickets, größere offene Posten. Sie sollten bereit sein, alle Probleme zu behandeln, auch wenn Sie geringfügig sind, um die Auswirkungen auf das Unternehmen und die Auswirkungen auf das Projekt zu verstehen.
+3.  Seien Sie darauf vorbereitet, alle offenen Supportfälle zu besprechen. Versuchen Sie, die Diskussion für diese Besprechung so hoch wie möglich zu halten – Anzahl der Tickets, Eintrittskartentypen, wichtige offene Artikel. Sie sollten darauf vorbereitet sein, alle Probleme zu beheben, auch wenn sie kleiner sind, die Auswirkungen auf das Unternehmen und die Auswirkungen auf das Projekt zu verstehen.
 
-4.  Delegieren Sie einen Notiz nehmer. Es ist zu schwierig, während einer Präsentation oder inmitten einer hitzigen Debatte Notizen zu machen. Stellen Sie sicher, dass die Einzelheiten für Entscheidungen dokumentiert sind, die im Komitee getroffen werden. Seien Sie bereit, diese Entscheidungen und Notizen im Rahmen einer nach Verfolgungs-e-Mail zu senden.
+4.  Delegieren eines Notizenvermerks Es ist zu schwierig, während der Präsentation oder mitten in einer gesprächsverstandenen Diskussion Notizen zu machen. Stellen Sie sicher, dass alle Entscheidungen, die im Komitee getroffen werden, im Detail dokumentiert sind. Seien Sie darauf vorbereitet, diese Entscheidungen und Notizen als Teil einer Nach-E-Mail zu senden.
 
-5.  Versuchen Sie immer, die positiven Nachrichten über den Arbeitsaufwand von Personen und das Feedback der Benutzer (sofern verfügbar) zu fördern. Erzählen und verkaufen Sie die Geschichte. Wenn das Feedback völlig negativ ist, sollten Sie es besprechen und erläutern, was getan wird, um die negativen Probleme mit der Benutzeroberfläche zu beheben.
+5.  Versuchen Sie immer, die positiven Neuigkeiten über die Arbeitsleistung und das Benutzerfeedback von Personen (sofern verfügbar) zu fördern. Erzählen und verkaufen Sie die Geschichte. Wenn das Feedback negativ ist, sollten Sie darauf vorbereitet sein, es zu diskutieren und zu erläutern, wie die Probleme mit der benutzerfreundlichen Benutzererfahrung zu beheben sind.
 
-    a.  Nutzen Sie die Gelegenheit, den einzelnen Teammitgliedern ein Lob für die gute Arbeit zu geben, die Sie gerade tun. Es ist wichtig, zu erkennen, dass eine hervorragende, harte Arbeit von Teammitgliedern geleistet wird, besonders vor Ihrem Führungsteam.
+    a.  Nutzen Sie die Gelegenheit, einzelnen Teammitgliedern etwas für die gute Arbeit zu geben, die sie gerade geleistet haben. Es ist wichtig zu erkennen, wann hervorragende, harte Arbeit von Teammitgliedern erreicht wird, insbesondere vor dem Führungskräfteteam.
 
-6.  Speichern Sie immer das Ende der Besprechung, um sich auf die nächsten Schritte zu einigen, und ermitteln Sie den Besitzer dieser Aktionselemente, die während der Besprechung vereinbart wurden.
+6.  Speichern Sie immer das Ende der Besprechung, um alle nächsten Schritte zu vereinbaren und den Besitzer der Aktionselemente zu identifizieren, die während der Besprechung vereinbart wurden.
 
-7.  Senden Sie die nach Verfolgungs-e-Mails der Teilnehmer, die die von Ihnen erstellte Präsentation enthalten, und fügen Sie alle Notizen an, die aufgenommen wurden. Achten Sie darauf, alle Personen einzubeziehen, die nicht teilgenommen haben.
+7.  Senden Sie Teilnehmern eine Nachtrags-E-Mail, die die von Ihnen erstellte Präsentation enthält, und fügen Sie alle Notizen an, die erstellt wurden. Achten Sie darauf, alle Personen, die nicht teilnehmen, mit in die Teilnahme zu nehmen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Nachdem Sie die Übersicht des Lenkungsausschusses überprüft haben, ist es jetzt an der Zeit, zu handeln. Das Projektteam sollte seine Arbeit zur Implementierung des Lenkungsausschusses in die Zeitachse des Projekts aufnehmen und eine regelmäßige Sitzung des Lenkungsausschusses vorbereiten. Im Idealfall wird das Komitee vor Beginn des Projekts gegründet, und es wird in allen Phasen eine Anleitung bereitgestellt, wenn dies aber nicht der Fall sein kann, bilden Sie das Komitee, um das Projektteam zu einem erfolgreichen Ergebnis zu führen.
+Nach der Überprüfung der Übersicht des Lenkungsgremiums ist es nun an der Zeit, aktiv zu werden. Das Projektteam sollte mit seiner Arbeit beginnen, um das Lenkungsgremium in die Zeitachse des Projekts zu implementieren und eine normale Besprechungssitzung des Lenkungsgremiums vorzubereiten. Im Idealfall wird das Komitee gebildet, bevor das Projekt beginnt, und in allen Phasen Anleitungen bereitstellen. Wenn dies aber nicht der Fall sein kann, bilden Sie das Komitee, um das Projektteam zu einem erfolgreichen Ergebnis zu führen.
 
-1.  Ermitteln der Mitglieder des Lenkungsausschusses Fragen Sie sich:
+1.  Identifizieren Sie mitglieder des Lenkungsgremiums. Fragen Sie sich selbst:
 
-    -   Haben wir die richtige Vertretung aus dem Unternehmen und der Führung?
+    -   Haben wir die richtige Darstellung von Unternehmen und Führungskräften?
 
-    -   Sind die Mitglieder, die wir identifiziert haben, in der Lage, ihre Geschäftseinheiten oder Kollegen in anderen Einheiten zu beeinflussen?
+    -   Sind die identifizierten Mitglieder in der Lage, ihre Geschäftseinheiten oder Kollegen in anderen Einheiten zu beeinflussen?
 
-2.  Erstellen Sie eine Kommunikation, die an jedes Mitglied des Lenkungsausschusses gesendet werden soll:
+2.  Erstellen Sie eine Kommunikation, die an jedes Mitglied des Lenkungsgremiums gesendet werden soll:
 
-    -   Fügen Sie die Tabelle Rollen hinzu.
+    -   Schließen Sie die Tabelle "Rollen" ein.
 
-    -   Die Wichtigkeit des Ausschusses zu verkaufen.
+    -   Verkaufen Sie die Wichtigkeit des Komitees.
 
-3.  Richten Sie die erste Besprechung ein, um Rollen und Zuständigkeiten zu diskutieren, die Charta des Ausschusses zu definieren und die OKRs zu überprüfen oder zu definieren. Tagesordnungspunkte können auch Folgendes umfassen:
+3.  Richten Sie die erste Besprechung ein, um Rollen und Zuständigkeiten zu besprechen, die Komiteesatzung zu definieren und die OKRs zu überprüfen oder zu definieren. Tagesordnungspunkte können auch Folgendes umfassen:
 
-    -   Besprechen Sie die Besprechungs Kadenz.
+    -   Besprechen Sie den Besprechungsfrequenz.
 
-    -   Überprüfen Sie, ob die Charta und die OKRs zu einem sinnvollen Geschäftsergebnis führen.
+    -   Überprüfen Sie, ob der Charter und die OKRs ein aussagekräftiges Geschäftsergebnis erreichen.
 
-    -   Überprüfen Sie, ob die Strategie mit OKRs ausgerichtet ist.
+    -   Vergewissern Sie sich, dass die Strategie mit den OKRs in Übereinstimmung steht.
 
-4.  Beginnen Sie mit der Qualität in jeder Unterhaltung:
+4.  Beginnen Sie mit der Fahrqualität in jeder Unterhaltung:
 
-    -   Artikulieren Sie die Wichtigkeit, einen Qualitätschampion zu haben.
+    -   Formuliert die Wichtigkeit eines Qualitätschampions.
 
-    -   Identifizieren Sie die Personen oder Teams, die die Rolle des Qualitäts Champions übernehmen werden.
+    -   Identifizieren Sie die Personen oder das Team, die die Rolle "Quality Champion" übernehmen sollen.
 
-Der Erfolg des Lenkungsausschusses geht nicht von Glück aus. Wenn Sie die richtigen Mitglieder mit den besten Absichten auswählen, können Sie dennoch schlechte Ergebnisse erzielen. Um den Erfolg des Lenkungsausschusses zu fördern, müssen Sie sicherstellen, dass Sie über Folgendes verfügen:
+Der Erfolg des Lenkungsgremiums geschieht nicht durch Glück. Die Auswahl der richtigen Mitglieder kann nach bestem Willen trotzdem zu schlechten Ergebnissen führen. Um den Erfolg des Lenkungsgremiums zu unterstützen, müssen Sie sicherstellen, dass Sie über Folgendes verfügen:
 
--   Eine vereinbarte Vision und Umfang für das Projekt mit klar definierten, messbaren Geschäftsergebnissen, die vom Ausschuss befürwortet werden.
+-   Eine vereinbarte Vision und einen Umfang für das Projekt mit klar definierten, messbaren Geschäftsergebnissen, die der Komitee unterstützen wird.
 
--   Eine gut organisierte Tagesordnung, die gezielte Besprechungen steuert.
+-   Eine gut organisierte Tagesordnung, die zwecks Zweckbesprechungen führt.
 
--   Eine Atmosphäre offener Kommunikation.
+-   Eine Atmosphäre der offenen Kommunikation.
 
-    -   Durch offene Kommunikation und Zusammenarbeit wird der Ausschuss ermächtigt. Erstellen Sie eine Umgebung, in der alle Stimmen zu hören sind und Meinungen respektiert werden. Eindeutige Perspektiven können die größte Auswirkung haben.
+    -   Durch offene Kommunikation und Zusammenarbeit wird das Komitee unterstützt. Schaffen Sie eine Umgebung, in der alle Stimmen gehört werden und Meinungen respektiert werden. Eindeutige Perspektiven können die größte Wirkung haben.
 
-    -   Eine offene Umgebung kann aktiviert werden, wenn Leadership zur Förderung der Zusammenarbeit und Kommunikation zwischen Mitgliedern dient. Hier sind einige Richtlinien:
+    -   Eine offene Umgebung kann aktiviert werden, wenn Führungskräfte handeln, um die Zusammenarbeit und Kommunikation von Mitglieds zu fördern. Hier sind einige Richtlinien:
 
-        -   Alle Mitglieder des Ausschusses sollten starke Fürsprecher für die Änderung sein, die für die Organisation eingeführt wurde.
+        -   Alle Komiteemitglieder sollten starke Fürsprecher für die Änderung sein, die in der Organisation eingeführt wird.
 
-        -   Beschränken Sie die Größe des Ausschusses auf diejenigen, die unbedingt benötigt werden, um ein genaues Bild zu liefern, und Personen, die Entscheidungen über Unternehmenseinheiten hinweg treffen oder beeinflussen können. Wenn Blocker angezeigt werden, ist es wichtig, dass die Hierarchie der Organisation und die direkte Beeinflussungs Richtung der einzelnen Mitglieder verstanden werden.
+        -   Halten Sie die Größe des Komitees auf diejenigen beschränkt, die unbedingt benötigt werden, um ein genaues Bild zu liefern, und auf diejenigen, die Entscheidungen über Geschäftseinheiten hinweg treffen oder beeinflussen können. Das Verständnis der Hierarchie der Organisation und der direkten Einflusslinie jedes Mitglieds ist entscheidend, wenn Blocker angezeigt werden.
 
-        -   Engagieren Sie die Projektmanager und Teamleiter in den Diskussionen und Beratungen des Ausschusses. Seien Sie bereit, weitere Mitglieder des Kernteams einzuladen, um Klarheit in eingehende Diskussionen zu bringen, die möglicherweise in bestimmten Bereichen erforderlich sind.
+        -   Beteiligen Sie die Projektmanager und Teamleiter an Diskussionen und Diskussionen im Komitee. Bereiten Sie sich darauf vor, weitere Hauptteammitglieder einzu dazu einzu einladen, um detaillierte Diskussionen, die in bestimmten Bereichen erforderlich sein könnten, verständlich zu machen.
 
-Über den Lebenszyklus der Lösung wird sich die Rolle des Ausschusses ändern. Da die Bereitstellung und Onboarding-Bewegung in die Drive-Value-Phase integriert ist, kann das Komitee verschiedene Anpassungen vornehmen:
+Im Laufe des Lebenszyklus der Lösung ändert sich die Rolle des Komitees. Da die Einführung und das Onboarding in die Phase des Laufwerkwerts einziehen, müssen dem Komitee möglicherweise mehrere Anpassungen vorgenommen werden:
 
--   Passen Sie die Kadenz der Besprechung an. Sehen Sie sich die Dynamik der Organisation an, und ermitteln Sie, ob die Besprechung seltener stattfinden muss. Da die organisatorischen Änderungen allmählich schwinden, wird die Häufigkeit für die Kommunikation auf dem neuesten Stand wahrscheinlich abnehmen. Untersuchen der Änderung der Besprechung in eine monatliche oder vierteljährliche Besprechungs Kadenz, falls zutreffend
+-   Passen Sie den Besprechungsfrequenz an. Sehen Sie sich die Dynamik der Organisation an, und bestimmen Sie, ob die Besprechung weniger häufig sein muss. Wenn die Veränderung in der Organisation zu schwinden beginnt, wird die Häufigkeit für Kommunikation auf ebene wahrscheinlich abnehmen. Überprüfen, ob die Besprechung in einen monatlichen oder vierteljährlichen Besprechungswechsel geändert werden soll
 
--   Passen Sie die Mitarbeiter in der Besprechung an. Wenn die Lösung in die Antriebs Wert Phase wechselt, ist es wahrscheinlich, dass das Kernprojektteam neuen Projekten zugewiesen wird. Es wird notwendig sein, das Team zu aktualisieren, das als Unterstützung gemeldet wird, und Vorgänge werden zu den Leads des Status der Lösung.
+-   Passen Sie die Vertreter in der Besprechung an. Wenn die Lösung in die Phase des Laufwerkwerts wechselt, ist es wahrscheinlich, dass das Kernprojektteam neuen Projekten zugewiesen wird. Das Team, das Support meldet, muss aktualisiert werden, und vorgänge werden zu den Leads für den Status der Lösung.
 
--   Definition und Berichterstellung für operative OKRs. Die wichtigsten Ergebnisse und Erfolgsindikatoren werden sich über den Lebenszyklus der Lösung ändern. Die gewünschten geschäftlichen Ergebnisse sollten weiterhin nachverfolgt und gemeldet werden. Berichten Sie weiterhin über die Qualität und Zuverlässigkeit der Voice-Lösung im Hinblick auf das unternehmerische Ergebnis. Zusätzliche Metriken und wichtige Ergebnisse, wie Benutzer Sentiment, Benutzerakzeptanz und Support Metriken, werden zu den wichtigsten Indikatoren für den Erfolg.
+-   Definition und Berichterstellung für betriebsbereite OKRs. Wichtige Ergebnisse und Erfolgsindikatoren ändern sich während des gesamten Lebenszyklus der Lösung. Die gewünschten Unternehmensergebnisse sollten weiterhin nachverfolgt und gemeldet werden. Berichten Sie weiterhin über die Qualität und Zuverlässigkeit der Sprachlösung im Zusammenhang mit der Entwicklung des Geschäftsergebnis. Zusätzliche Metriken und wichtige Ergebnisse, z. B. das Benutzererlebnis, die Benutzeradzeptanz und Supportmetriken, werden zu den wichtigsten Erfolgsindikatoren.
 
--   Verwenden Sie einen größeren Schirm des Lenkungsausschusses, um die Antriebs Wert Phasen mehrerer Lösungen abzudecken. Suchen Sie nach Möglichkeiten für eine effizientere Nutzung des Lenkungsausschusses. Verwenden Sie das Komitee, um in einem größeren Lösungsbereich Hilfestellung zu leisten.
+-   Verwenden Sie einen größeren Lenkungsrat, um die Phasen des Laufwerkwerts mehrerer Lösungen zu verdecken. Suchen Sie nach Möglichkeiten für eine effizientere Nutzung des Lenkungsgremiums. Verwenden Sie das Komitee, um Hilfestellung für einen größeren Lösungsbereich zu bieten.

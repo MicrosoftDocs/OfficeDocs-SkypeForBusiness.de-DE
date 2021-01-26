@@ -1,8 +1,8 @@
 ---
 title: Rollenbasierte Zugriffssteuerung (RBAC) für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
-description: Skype for Business Server umfasst Rollenbasierte Zugriffssteuerungsgruppen, mit deren Hilfe Sie Verwaltungsaufgaben delegieren und gleichzeitig hohe Sicherheitsstandards gewährleisten können. Diese Gruppen werden während der Gesamtstrukturvorbereitung erstellt. Details zur Vorbereitung der Gesamtstruktur finden Sie unter Active Directory-Domänendienste für Skype for Business Server. Details zu den von der Gesamtstrukturvorbereitung erstellten Gruppen finden Sie unter Änderungen, die von der Gesamtstrukturvorbereitung in Skype for Business Server in der Bereitstellungsdokumentation vorgenommen wurden.
-ms.openlocfilehash: 41efad45b442d9c7fca82d090afa0d1aa23e7d63
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server enthält Role-Based Access Control (RBAC)-Gruppen, mit denen Sie Verwaltungsaufgaben delegieren und gleichzeitig hohe Sicherheitsstandards beibehalten können. Diese Gruppen werden während der Gesamtstrukturvorbereitung erstellt. Weitere Informationen zur Gesamtstrukturvorbereitung finden Sie unter Active Directory Domain Services for Skype for Business Server. Ausführliche Informationen zu den von der Gesamtstrukturvorbereitung erstellten Gruppen finden Sie unter "Änderungen, die bei der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden" in der Bereitstellungsdokumentation.
+ms.openlocfilehash: 9d3c453d4e7c3057c03f99cf2ff31b5fe17ae0bb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815623"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832105"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>Rollenbasierte Zugriffssteuerung (RBAC) für Skype for Business Server
  
-Skype for Business Server umfasst Rollenbasierte Zugriffssteuerungsgruppen, mit deren Hilfe Sie Verwaltungsaufgaben delegieren und gleichzeitig hohe Sicherheitsstandards gewährleisten können. Diese Gruppen werden während der Gesamtstrukturvorbereitung erstellt. Details zur Vorbereitung der Gesamtstruktur finden Sie unter [Active Directory-Domänendienste für Skype for Business Server](active-directory-domain-services.md). Details zu den von der Gesamtstrukturvorbereitung erstellten Gruppen finden Sie unter Änderungen, die [von der Gesamtstrukturvorbereitung in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
+Skype for Business Server enthält Role-Based Access Control (RBAC)-Gruppen, mit denen Sie Verwaltungsaufgaben delegieren und gleichzeitig hohe Sicherheitsstandards beibehalten können. Diese Gruppen werden während der Gesamtstrukturvorbereitung erstellt. Weitere Informationen zur Gesamtstrukturvorbereitung finden Sie unter [Active Directory Domain Services for Skype for Business Server](active-directory-domain-services.md). Ausführliche Informationen zu den von der Gesamtstrukturvorbereitung erstellten Gruppen finden Sie unter "Änderungen, die bei der Gesamtstrukturvorbereitung [in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) vorgenommen wurden" in der Bereitstellungsdokumentation.
   
-Mit RBAC wird das administrative Recht gewährt, indem Nutzer vordefinierten administrativen Rollen zugewiesen werden, einschließlich der elf vordefinierten Rollen, die viele häufig verwendete administrative Aufgaben abdecken. Jede Rolle ist mit einer bestimmten Liste von Cmdlets für die Skype for Business Server-Verwaltungsshell verknüpft, die Benutzer in dieser Rolle ausführen dürfen. Mit der rollenbasierten Zugriffssteuerung können Sie dem Prinzip der geringsten Rechte folgen, bei dem Nutzer nur die administrativen Funktionen erhalten, die sie für ihre Arbeit benötigen. 
+Mit rbAC werden Administratorrechte gewährt, indem Benutzer vordefinierten Administratorrollen zugewiesen werden, einschließlich der 11 vordefinierten Rollen, die viele allgemeine Verwaltungsaufgaben abdecken. Jede Rolle ist einer bestimmten Liste von Skype for Business Server Management Shell-Cmdlets zugeordnet, die Benutzer in dieser Rolle ausführen dürfen. Sie können rbAC verwenden, um dem Prinzip der geringsten Rechte zu folgen, bei dem Benutzern nur die administrativen Fähigkeiten zur Verfügung stehen, die für ihre Aufträge erforderlich sind. 
   
-Weitere Informationen zu RBAC-Rollen finden Sie unter [Planen einer rollenbasierten Zugriffssteuerung](https://docs.microsoft.com/lyncserver/lync-server-2013-planning-for-role-based-access-control).
+Weitere Informationen zu rollenbasierten Zugriffssteuerungsrollen finden Sie unter ["Planen der rollenbasierten Zugriffssteuerung".](https://docs.microsoft.com/lyncserver/lync-server-2013-planning-for-role-based-access-control)

@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Workshops zur Planung des Upgrades auf Microsoft Teams
-summary: Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
+summary: Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Titel für den Workshop, um sich zu registrieren.
 brand: teams
 metadata:
   title: Workshops zur Planung des Upgrades auf Microsoft Teams
-  description: Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Werkstatt Titel, um sich anzumelden.
+  description: Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung Planen des Upgrades. Klicken Sie auf einen beliebigen Titel für den Workshop, um sich zu registrieren.
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -24,39 +24,31 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
+  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583282"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "49973159"
 productDirectory:
   items:
   - title: Planen des Upgrades (hier starten)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Hier finden Sie alles, was Sie für ein erfolgreiches Upgrade auf Microsoft Teams benötigen. Zielgruppe – alle (Unternehmenssponsoren, IT-Administratoren, Benutzer Bereitschaft/Change Manager, Projektleiter)
+    summary: Ganz gleich, ob Sie vor dem Ende von Skype for Business Online (31. Juli 2021) ein Upgrade auf Teams durchführen oder Szenarien aus Ihrer lokalen Skype for Business-Umgebung auf Teams verschieben, ein erfolgreicher Übergang richtet sich sowohl an die technische Bereitschaft als auch an die Benutzerbereitschaft. Entdecken Sie unser bewährtes Framework, bewährte Methoden und Ressourcen, die Ihnen helfen sollen, den erfolgreichen Wechsel von Skype for Business Online, Skype for Business Server oder einer Hybridumgebung zu Teams zu erleichtern. Zielgruppe – Alle (Unternehmenssponsor, IT-Administratoren, Benutzerbereitschafts-/Änderungsmanager, Projektleiter)
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: Bereitschaft Ihrer Endbenutzer
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Entwerfen Sie eine Benutzerbereitschaftsstrategie, um Ihren Benutzern zu helfen, Teams zu lieben und zu übernehmen. Zielgruppe – Benutzer Bereitschaft/Change Manager
-    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
-  - title: Ermitteln des Upgradeansatzes
+  - title: Implementieren Ihres Teams-Upgrades
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Ermitteln Sie den am besten geeigneten Ansatz anhand ihrer aktuellen Skype for Business-Implementierungs- und Upgradeziele. Zielgruppe – IT-Administratoren
-    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
-  - title: Implementieren des Upgradeansatzes
-    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-    summary: Führen Sie den definierten Upgradeansatz als Teil des formalen Upgradeplans aus. Zielgruppe – IT-Administratoren
-    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+    summary: Treten Sie uns bei, um den besten technischen Ansatz für das Verschieben aller Arbeitslasten in Teams basierend auf Ihren Zielen und Ihrer aktuellen Skype for Business-Umgebung zu identifizieren und vorzubereiten. Die meisten Kunden, die erfolgreiche Übergänge abgeschlossen haben, haben Teams neben ihrer aktuellen Skype for Business Online-, Skype for Business Server- oder Hybridimplementierung aktiviert. Diese Sitzung teilt wichtige Überlegungen und wertvolle Ressourcen mit, die Ihnen beim Definieren der besten Migrationsstrategie für Ihre Organisation helfen sollen. Benutzergruppe – IT-Administratoren
+    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
-    - title: Sehen Sie sich diese Workshops in ihrer eigenen Zeit an.
-      summary: Besuchen Sie Upgrade auf Microsoft Teams auf YouTube.
+    - title: Sehen Sie sich diese Workshops in Ihrer eigenen Zeit an
+      summary: Besuchen Sie "Upgrade auf Microsoft Teams" auf YouTube.
       url: https://aka.ms/UpgradeOnDemand
-    - title: Erweitern Sie Ihre Teams-Szenarien?
-      summary: Schauen Sie sich unsere Teams Chalk Talk-Workshops für IT-Experten an.
+    - title: Erweitern Ihrer Teams-Szenarien?
+      summary: Sehen Sie sich unsere Teams-Kreide-Talk-Workshops für IT-Profis an.
       url: https://aka.ms/TeamsChalkTalks
     - title: Neu bei Microsoft Teams?
-      summary: Weitere Informationen zu den ersten Schritten mit Microsoft Teams.
+      summary: Erfahren Sie mehr über die ersten Schritte mit Teams.
       url: https://docs.microsoft.com/microsoftteams/teams-overview

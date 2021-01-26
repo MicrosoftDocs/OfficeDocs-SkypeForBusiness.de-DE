@@ -1,8 +1,8 @@
 ---
 title: Edgeserver – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 57f0be0c525dbecf12f786d5863dfc99622bb4d2
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ca5354ce12c8e56e3fe725edb0d67f348d77e9b9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218196"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807075"
 ---
-# <a name="edge-server-scope-node"></a>Edgeserver – Bereichsknoten
+# <a name="edge-server-scope-node"></a>Edgeserver – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers****, mit dem Sie diesem Pool einen weiteren Edgeserver hinzufügen können.
+- **Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers, mit dem Sie diesem Pool einen weiteren Edgeserver hinzufügen können.
     
 - **Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen und Port des internen und externen Pools festlegen, den Partnerverbund und die Netzwerkadressenübersetzung (NAT) aktivieren und deaktivieren und den nächsten Hoppool angeben können.
     

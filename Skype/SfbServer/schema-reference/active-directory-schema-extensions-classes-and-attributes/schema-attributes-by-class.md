@@ -1,8 +1,8 @@
 ---
-title: Schema Attribute nach Klasse in Skype for Business Server
+title: Schemaattribute nach Klasse in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,68 +12,68 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: In diesem Abschnitt werden die Schema Attribute aufgeführt, die in den einzelnen Skype for Business Server-Kursen enthalten sein können, sowie die Klassen, die in anderen Klassen enthalten sein können. Eine Liste aller Klassen und deren Beschreibungen finden Sie unter Schema Klassen und Beschreibungen in Skype for Business Server. Eine Liste aller Attribute und deren Beschreibungen finden Sie unter Schema Attribute und Beschreibungen in Skype for Business Server.
-ms.openlocfilehash: 93598f1cc54ec76ccc59649ec97fd7ac57cd39f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: In diesem Abschnitt werden die Schemaattribute aufgeführt, die in den einzelnen Skype for Business Server-Klassen enthalten sein können, sowie die Klassen, die in anderen Klassen enthalten sein können. Eine Liste aller Klassen und deren Beschreibungen finden Sie unter Schemaklassen und Beschreibungen in Skype for Business Server. Eine Liste aller Attribute und deren Beschreibungen finden Sie unter Schemaattribute und Beschreibungen in Skype for Business Server.
+ms.openlocfilehash: 00f524fce7e786c9d30c9442eb964c5356db5e16
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815493"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813585"
 ---
-# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Schema Attribute nach Klasse in Skype for Business Server
+# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Schemaattribute nach Klasse in Skype for Business Server
  
-In diesem Abschnitt werden die Schema Attribute aufgeführt, die in den einzelnen Skype for Business Server-Kursen enthalten sein können, sowie die Klassen, die in anderen Klassen enthalten sein können. Eine Liste aller Klassen und deren Beschreibungen finden Sie unter [Schema Klassen und Beschreibungen in Skype for Business Server](schema-classes-and-descriptions.md). Eine Liste aller Attribute und deren Beschreibungen finden Sie unter [Schema Attribute und Beschreibungen in Skype for Business Server](schema-attributes-and-descriptions.md).
+In diesem Abschnitt werden die Schemaattribute aufgeführt, die in den einzelnen Skype for Business Server-Klassen enthalten sein können, sowie die Klassen, die in anderen Klassen enthalten sein können. Eine Liste aller Klassen und deren Beschreibungen finden Sie unter [Schemaklassen und Beschreibungen in Skype for Business Server](schema-classes-and-descriptions.md). Eine Liste aller Attribute und deren Beschreibungen finden Sie unter [Schemaattribute und Beschreibungen in Skype for Business Server](schema-attributes-and-descriptions.md).
   
 ## <a name="attributes-by-class"></a>Attribute nach Klasse
 
-|**Klasse**|**Kann diese Attribute enthalten**|
+|**Class**|**Kann diese Attribute enthalten**|
 |:-----|:-----|
-|Kontakt  <br/> |MSDS-SourceObjectDN  <br/> Attribut msRTCSIP-AcpInfo  <br/> Attribut msRTCSIP-ApplicationDestination  <br/> Attribut msRTCSIP-ApplicationOptions  <br/> Attribut msRTCSIP-ApplicationPrimaryLanguage  <br/> Attribut msRTCSIP-ApplicationSecondaryLanguages  <br/> Attribut msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> Attribut msRTCSIP-FederationEnabled  <br/> Attribut msRTCSIP-Gruppierungs-Nr  <br/> Attribut msRTCSIP-InternetAccessEnabled  <br/> Attribut msRTCSIP-Zeile  <br/> Attribut msRTCSIP-LineServer  <br/> Attribut msRTCSIP-OptionFlags  <br/> Attribut msRTCSIP-OriginatorSid  <br/> Attribut msRTCSIP-OwnerUrn  <br/> Attribut msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> Attribut msRTCSIP-Privatsphäre  <br/> Attribut msRTCSIP-proxyAddresses  <br/> Attribut msRTCSIP-Quellobjekttyp  <br/> Attribut msRTCSIP-TargetHomeServer  <br/> Attribut msRTCSIP-TargetUserPolicies  <br/> Attribut msRTCSIP-Mandanten-Nr  <br/> Attribut msRTCSIP-UserEnabled  <br/> Attribut msRTCSIP-UserExtension  <br/> Attribut msRTCSIP-UserLocationProfile  <br/> Attribut msRTCSIP-UserPolicies  <br/> Attribut msRTCSIP-UserPolicy  <br/> Attribut msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
-|E-Mail-Empfänger  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
-|Attribut msRTCSIP-ApplicationServerService  <br/> |Attribut msRTCSIP-ApplicationServerBL  <br/> |
-|Attribut msRTCSIP-ApplicationServerSettings  <br/> |Attribut msRTCSIP-applicationlist  <br/> Attribut msRTCSIP-ApplicationServerPoolLink  <br/> Attribut msRTCSIP-ExtensionData  <br/> Attribut msRTCSIP-Server Version vom  <br/> |
-|Attribut msRTCSIP-ConferenceDirectory  <br/> |Attribut msRTCSIP-ConferenceDirectoryHomePool  <br/> Attribut msRTCSIP-ConferenceDirectoryId  <br/> Attribut msRTCSIP-ConferenceDirectoryTargetPool  <br/> Attribut msRTCSIP-ExtensionData  <br/> |
-|Attribut msRTCSIP-DefaultCWABank  <br/> |Attribut msRTCSIP-DefaultCWAExternalURL  <br/> Attribut msRTCSIP-DefaultCWAInternalURL  <br/> |
-|Attribut msRTCSIP-Domäne  <br/> |Attribut msRTCSIP-Standard  <br/> Attribut msRTCSIP-DomainData  <br/> Attribut msRTCSIP-Domänenname  <br/> |
-|Attribut msRTCSIP-EdgeProxy  <br/> |Attribut msRTCSIP-EdgeProxyData  <br/> Attribut msRTCSIP-EdgeProxyFQDN  <br/> |
-|Attribut msRTCSIP-EnterpriseMCUSettings  <br/> |Attribut msRTCSIP-MCUData  <br/> Attribut msRTCSIP-MCUFactoryAddress  <br/> Attribut msRTCSIP-Server Version vom  <br/> |
-|Attribut msRTCSIP-EnterpriseMediationServerSettings  <br/> |Attribut msRTCSIP-ExtensionData  <br/> Attribut msRTCSIP-Server Version vom  <br/> Attribut msRTCSIP-TrustedServiceLinks  <br/> |
-|Attribut msRTCSIP-EnterpriseServerSettings  <br/> |Attribut msRTCSIP-EnterpriseServices  <br/> Attribut msRTCSIP-PoolAddress  <br/> Attribut msRTCSIP-Server  <br/> Attribut msRTCSIP-Server Version vom  <br/> |
-|Attribut msRTCSIP-GlobalTopologySetting  <br/> |Attribut msRTCSIP-BackEndServer  <br/> Attribut msRTCSIP-ExtensionData  <br/> Attribut msRTCSIP-MirrorBackEndServer  <br/> Attribut msRTCSIP-Server Version vom  <br/> |
-|Attribut msRTCSIP-LocalNormalization  <br/> |Attribut msRTCSIP-LocalNormalizationOptions  <br/> |
-|Attribut msRTCSIP-LocationContactMapping  <br/> |Attribut msRTCSIP-ExtensionData  <br/> Attribut msRTCSIP-MappingContact  <br/> Attribut msRTCSIP-MappingLocation  <br/> |
-|Attribut msRTCSIP-LocationProfile  <br/> |Attribut msRTCSIP-ExternalAccessCode  <br/> Attribut msRTCSIP-LocationProfileOptions  <br/> |
-|Attribut msRTCSIP-MCUFactory  <br/> |Attribut msRTCSIP-MCUFactoryData  <br/> Attribut msRTCSIP-MCUFactoryProviderID  <br/> Attribut msRTCSIP-MCUServers  <br/> Attribut msRTCSIP-MCUType  <br/> Attribut msRTCSIP-MCUVendor  <br/> Attribut msRTCSIP-PoolAddresses  <br/> Attribut msRTCSIP-Server Version vom  <br/> |
-|Attribut msRTCSIP-MCUFactoryService  <br/> |Attribut msRTCSIP-MCUFactoryPath  <br/> |
-|Attribut msRTCSIP – Mobilität  <br/> |Attribut msRTCSIP-MobilityFlags  <br/> Attribut msRTCSIP-MobilityPolicy  <br/> |
-|Attribut msRTCSIP-MonitoringServer  <br/> |DNSHostName  <br/> Attribut msRTCSIP-ExtensionData  <br/> Attribut msRTCSIP-Server Version vom  <br/> |
-|Attribut msRTCSIP-Pool  <br/> |Attribut msRTCSIP-applicationlist  <br/> Attribut msRTCSIP-BackEndServer  <br/> Attribut msRTCSIP-DNSHostName  <br/> Attribut msRTCSIP-PoolData  <br/> Attribut msRTCSIP-PoolDisplayName  <br/> Attribut msRTCSIP-PoolDomainFQDN  <br/> Attribut msRTCSIP-PoolFunctionality  <br/> Attribut msRTCSIP-pooltype  <br/> Attribut msRTCSIP-PoolVersion  <br/> Attribut msRTCSIP-TrustedServiceLinks  <br/> |
-|Attribut msRTCSIP-PoolService  <br/> |Attribut msRTCSIP-FrontEndServers  <br/> |
-|Attribut msRTCSIP-Anwesenheitsinformationen  <br/> |Attribut msRTCSIP-PresenceFlags  <br/> Attribut msRTCSIP-PresencePolicy  <br/> |
-|Attribut msRTCSIP-TrustedMCU  <br/> |Attribut msRTCSIP-MCUType  <br/> Attribut msRTCSIP-MCUVendor  <br/> Attribut msRTCSIP-RoutingPoolDN  <br/> Attribut msRTCSIP-TrustedMCUData  <br/> Attribut msRTCSIP-TrustedMCUFQDN  <br/> Attribut msRTCSIP-TrustedServerVersion  <br/> |
-|Attribut msRTCSIP-TrustedProxy  <br/> |Attribut msRTCSIP-TrustedProxyData  <br/> Attribut msRTCSIP-TrustedProxyFQDN  <br/> Attribut msRTCSIP-TrustedServerVersion  <br/> |
-|Attribut msRTCSIP-TrustedServer  <br/> |Attribut msRTCSIP-TrustedServerData  <br/> Attribut msRTCSIP-TrustedServerFQDN  <br/> Attribut msRTCSIP-TrustedServerVersion  <br/> |
-|Attribut msRTCSIP-TrustedService  <br/> |Attribut msRTCSIP-ExtensionData  <br/> Attribut msRTCSIP-routingfähig  <br/> Attribut msRTCSIP-RoutingPoolDN  <br/> Attribut msRTCSIP-ServerBL  <br/> Attribut msRTCSIP-TrustedServerFQDN  <br/> Attribut msRTCSIP-TrustedServerVersion  <br/> Attribut msRTCSIP-TrustedServiceFlags  <br/> Attribut msRTCSIP-TrustedServicePort  <br/> Attribut msRTCSIP-TrustedServiceType  <br/> |
-|Attribut msRTCSIP-TrustedWebComponentsServer  <br/> |Attribut msRTCSIP-TrustedWebComponentsServerData  <br/> Attribut msRTCSIP-TrustedWebComponentsServerFQDN  <br/> Attribut msRTCSIP-TrustedServerVersion  <br/> |
-|Attribut msRTCSIP-WebComponentsService  <br/> |Attribut msRTCSIP-WebComponentsServers  <br/> |
-|Attribut msRTCSIP-WebComponentSettings  <br/> |Attribut msRTCSIP-WebComponentsData  <br/> Attribut msRTCSIP-WebComponentsPoolAddress  <br/> Attribut msRTCSIP-Server Version vom  <br/> |
-|Benutzer  <br/> |Attribut msRTCSIP-AcpInfo  <br/> Attribut msRTCSIP-ApplicationOptions  <br/> Attribut msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> Attribut msRTCSIP-FederationEnabled  <br/> Attribut msRTCSIP-Gruppierungs-Nr  <br/> Attribut msRTCSIP-InternetAccessEnabled  <br/> Attribut msRTCSIP-Zeile  <br/> Attribut msRTCSIP-LineServer  <br/> Attribut msRTCSIP-OptionFlags  <br/> Attribut msRTCSIP-OriginatorSid  <br/> Attribut msRTCSIP-OwnerUrn  <br/> Attribut msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> Attribut msRTCSIP-Privatsphäre  <br/> Attribut msRTCSIP-TargetHomeServer  <br/> Attribut msRTCSIP-TargetUserPolicies  <br/> Attribut msRTCSIP-Mandanten-Nr  <br/> Attribut msRTCSIP-UserEnabled  <br/> Attribut msRTCSIP-UserExtension  <br/> Attribut msRTCSIP-UserLocationProfile  <br/> Attribut msRTCSIP-UserPolicies  <br/> Attribut msRTCSIP-UserPolicy  <br/> Attribut msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|Kontakt  <br/> |msDS-SourceObjectDN  <br/> msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationDestination  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ApplicationPrimaryLanguage  <br/> msRTCSIP-ApplicationSecondaryLanguages  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-ProxyAddresses  <br/> msRTCSIP-SourceObjectType  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|Mail-Recipient  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
+|msRTCSIP-ApplicationServerService  <br/> |msRTCSIP-ApplicationServerBL  <br/> |
+|msRTCSIP-ApplicationServerSettings  <br/> |msRTCSIP-ApplicationList  <br/> msRTCSIP-ApplicationServerPoolLink  <br/> msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> |
+|msRTCSIP-ConferenceDirectory  <br/> |msRTCSIP-ConferenceDirectoryHomePool  <br/> msRTCSIP-ConferenceDirectoryId  <br/> msRTCSIP-ConferenceDirectoryTargetPool  <br/> msRTCSIP-ExtensionData  <br/> |
+|msRTCSIP-DefaultCWABank  <br/> |msRTCSIP-DefaultCWAExternalURL  <br/> msRTCSIP-DefaultCWAInternalURL  <br/> |
+|msRTCSIP-Domain  <br/> |msRTCSIP-Default  <br/> msRTCSIP-DomainData  <br/> msRTCSIP-DomainName  <br/> |
+|msRTCSIP-EdgeProxy  <br/> |msRTCSIP-EdgeProxyData  <br/> msRTCSIP-EdgeProxyFQDN  <br/> |
+|msRTCSIP-EnterpriseMCUSettings  <br/> |msRTCSIP-MCUData  <br/> msRTCSIP-MCUFactoryAddress  <br/> msRTCSIP-ServerVersion  <br/> |
+|msRTCSIP-EnterpriseMediationServerSettings  <br/> |msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> msRTCSIP-TrustedServiceLinks  <br/> |
+|msRTCSIP-EnterpriseServerSettings  <br/> |msRTCSIP-EnterpriseServices  <br/> msRTCSIP-PoolAddress  <br/> msRTCSIP-ServerData  <br/> msRTCSIP-ServerVersion  <br/> |
+|msRTCSIP-GlobalTopologySetting  <br/> |msRTCSIP-BackEndServer  <br/> msRTCSIP-ExtensionData  <br/> msRTCSIP-MirrorBackEndServer  <br/> msRTCSIP-ServerVersion  <br/> |
+|msRTCSIP-LocalNormalization  <br/> |msRTCSIP-LocalNormalizationOptions  <br/> |
+|msRTCSIP-LocationContactMapping  <br/> |msRTCSIP-ExtensionData  <br/> msRTCSIP-MappingContact  <br/> msRTCSIP-MappingLocation  <br/> |
+|msRTCSIP-LocationProfile  <br/> |msRTCSIP-ExternalAccessCode  <br/> msRTCSIP-LocationProfileOptions  <br/> |
+|msRTCSIP-MCUFactory  <br/> |msRTCSIP-MCUFactoryData  <br/> msRTCSIP-MCUFactoryProviderID  <br/> msRTCSIP-MCUServers  <br/> msRTCSIP-MCUType  <br/> msRTCSIP-MCUVendor  <br/> msRTCSIP-PoolAddresses  <br/> msRTCSIP-ServerVersion  <br/> |
+|msRTCSIP-MCUFactoryService  <br/> |msRTCSIP-MCUFactoryPath  <br/> |
+|msRTCSIP-Mobility  <br/> |msRTCSIP-MobilityFlags  <br/> msRTCSIP-MobilityPolicy  <br/> |
+|msRTCSIP-MonitoringServer  <br/> |dnsHostName  <br/> msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> |
+|msRTCSIP-Pool  <br/> |msRTCSIP-ApplicationList  <br/> msRTCSIP-BackEndServer  <br/> msRTCSIP-dnsHostName  <br/> msRTCSIP-PoolData  <br/> msRTCSIP-PoolDisplayName  <br/> msRTCSIP-PoolDomainFQDN  <br/> msRTCSIP-PoolFunctionality  <br/> msRTCSIP-PoolType  <br/> msRTCSIP-PoolVersion  <br/> msRTCSIP-TrustedServiceLinks  <br/> |
+|msRTCSIP-PoolService  <br/> |msRTCSIP-FrontEndServers  <br/> |
+|msRTCSIP-Presence  <br/> |msRTCSIP-PresenceFlags  <br/> msRTCSIP-PresencePolicy  <br/> |
+|msRTCSIP-TrustedMCU  <br/> |msRTCSIP-MCUType  <br/> msRTCSIP-MCUVendor  <br/> msRTCSIP-RoutingPoolDN  <br/> msRTCSIP-TrustedMCUData  <br/> msRTCSIP-TrustedMCUFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
+|msRTCSIP-TrustedProxy  <br/> |msRTCSIP-TrustedProxyData  <br/> msRTCSIP-TrustedProxyFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
+|msRTCSIP-TrustedServer  <br/> |msRTCSIP-TrustedServerData  <br/> msRTCSIP-TrustedServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
+|msRTCSIP-TrustedService  <br/> |msRTCSIP-ExtensionData  <br/> msRTCSIP-Routable  <br/> msRTCSIP-RoutingPoolDN  <br/> msRTCSIP-ServerBL  <br/> msRTCSIP-TrustedServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> msRTCSIP-TrustedServiceFlags  <br/> msRTCSIP-TrustedServicePort  <br/> msRTCSIP-TrustedServiceType  <br/> |
+|msRTCSIP-TrustedWebComponentsServer  <br/> |msRTCSIP-TrustedWebComponentsServerData  <br/> msRTCSIP-TrustedWebComponentsServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
+|msRTCSIP-WebComponentsService  <br/> |msRTCSIP-WebComponentsServers  <br/> |
+|msRTCSIP-WebComponentSettings  <br/> |msRTCSIP-WebComponentsData  <br/> msRTCSIP-WebComponentsPoolAddress  <br/> msRTCSIP-ServerVersion  <br/> |
+|Benutzer  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>In anderen Klassen enthaltene Klassen
 
-|**Klasse**|**Kann diese Klasse enthalten**|
+|**Class**|**Kann diese Klasse enthalten**|
 |:-----|:-----|
-|serviceConnectionPoint  <br/> |Attribut msRTCSIP-Server  <br/> Attribut msRTCSIP-PoolService  <br/> Attribut msRTCSIP-MCU  <br/> Attribut msRTCSIP-MCUFactoryService  <br/> Attribut msRTCSIP-Webkomponenten  <br/> Attribut msRTCSIP-WebComponentsService  <br/> Attribut msRTCSIP-ApplicationServerService  <br/> Attribut msRTCSIP-Service  <br/> Attribut msRTCSIP-ConnectionPoint  <br/> Attribut msRTCSIP-MediationServer  <br/> Attribut msRTCSIP-ApplicationServer  <br/> |
-|Attribut msRTCSIP-Service  <br/> |Attribut msRTCSIP-Global Container  <br/> Attribut msRTCSIP-Pools  <br/> Attribut msRTCSIP-MCUFactories  <br/> Attribut msRTCSIP-TrustedMCUs  <br/> Attribut msRTCSIP-TrustedWebComponentsServers  <br/> Attribut msRTCSIP-TrustedProxies  <br/> Attribut msRTCSIP-TrustedServices  <br/> Attribut msRTCSIP-ApplicationContacts  <br/> Attribut msRTCSIP-LocationContactMappings  <br/> Attribut msRTCSIP-ConferenceDirectories  <br/> Attribut msRTCSIP-GlobalTopologySettings  <br/> |
-|Attribut msRTCSIP-Global Container  <br/> |Attribut msRTCSIP-Domäne  <br/> Attribut msRTCSIP-TrustedServer  <br/> Attribut msRTCSIP-EdgeProxy  <br/> Attribut msRTCSIP-MonitoringServer  <br/> |
-|Attribut msRTCSIP-Pools  <br/> |Attribut msRTCSIP-Pool  <br/> |
-|Attribut msRTCSIP-MCUFactories  <br/> |Attribut msRTCSIP-MCUFactory  <br/> |
-|Attribut msRTCSIP-TrustedMCUs  <br/> |Attribut msRTCSIP-TrustedMCU  <br/> |
-|Attribut msRTCSIP-TrustedWebComponentsServers  <br/> |Attribut msRTCSIP-TrustedWebComponentsServer  <br/> |
-|Attribut msRTCSIP-TrustedProxies  <br/> |Attribut msRTCSIP-TrustedProxy  <br/> |
-|Attribut msRTCSIP-TrustedServices  <br/> |Attribut msRTCSIP-TrustedService  <br/> |
-|Attribut msRTCSIP-LocationContactMappings  <br/> |Attribut msRTCSIP-LocationContactMapping  <br/> |
-|Attribut msRTCSIP-ConferenceDirectories  <br/> |Attribut msRTCSIP-ConferenceDirectory  <br/> |
-|Attribut msRTCSIP-GlobalTopologySettings  <br/> |Attribut msRTCSIP-GlobalTopologySetting  <br/> |
+|serviceConnectionPoint  <br/> |msRTCSIP-Server  <br/> msRTCSIP-PoolService  <br/> msRTCSIP-MCU  <br/> msRTCSIP-MCUFactoryService  <br/> msRTCSIP-WebComponents  <br/> msRTCSIP-WebComponentsService  <br/> msRTCSIP-ApplicationServerService  <br/> msRTCSIP-Service  <br/> msRTCSIP-ConnectionPoint  <br/> msRTCSIP-MediationServer  <br/> msRTCSIP-ApplicationServer  <br/> |
+|msRTCSIP-Service  <br/> |msRTCSIP-GlobalContainer  <br/> msRTCSIP-Pools  <br/> msRTCSIP-MCUFactories  <br/> msRTCSIP-TrustedMCUs  <br/> msRTCSIP-TrustedWebComponentsServers  <br/> msRTCSIP-TrustedProxies  <br/> msRTCSIP-TrustedServices  <br/> msRTCSIP-ApplicationContacts  <br/> msRTCSIP-LocationContactMappings  <br/> msRTCSIP-ConferenceDirectories  <br/> msRTCSIP-GlobalTopologySettings  <br/> |
+|msRTCSIP-GlobalContainer  <br/> |msRTCSIP-Domain  <br/> msRTCSIP-TrustedServer  <br/> msRTCSIP-EdgeProxy  <br/> msRTCSIP-MonitoringServer  <br/> |
+|msRTCSIP-Pools  <br/> |msRTCSIP-Pool  <br/> |
+|msRTCSIP-MCUFactories  <br/> |msRTCSIP-MCUFactory  <br/> |
+|msRTCSIP-TrustedMCUs  <br/> |msRTCSIP-TrustedMCU  <br/> |
+|msRTCSIP-TrustedWebComponentsServers  <br/> |msRTCSIP-TrustedWebComponentsServer  <br/> |
+|msRTCSIP-TrustedProxies  <br/> |msRTCSIP-TrustedProxy  <br/> |
+|msRTCSIP-TrustedServices  <br/> |msRTCSIP-TrustedService  <br/> |
+|msRTCSIP-LocationContactMappings  <br/> |msRTCSIP-LocationContactMapping  <br/> |
+|msRTCSIP-ConferenceDirectories  <br/> |msRTCSIP-ConferenceDirectory  <br/> |
+|msRTCSIP-GlobalTopologySettings  <br/> |msRTCSIP-GlobalTopologySetting  <br/> |
    
 

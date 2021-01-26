@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Front-End-Zuordnungen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Zum Aktivieren der Unterstützung für bestimmte Funktionen, für die andere Server bereitgestellt werden müssen, können Sie die Serverrollen nun dem Front-End-Pool zuordnen. Sie können Serverrollen auch zu einem späteren Zeitpunkt dem Front-End-Pool zuordnen. Die folgenden Serverrollen können einem Front-End-Pool zugeordnet werden:'
-ms.openlocfilehash: d305cc6b251646e52c2351188572b05f6f6d28c8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Sie können die Unterstützung für bestimmte Features aktivieren, die die Bereitstellung anderer Server erfordern, indem Sie die Serverrollen jetzt dem Front-End-Pool zuordnen. Sie können dem Front-End-Pool zu einem späteren Zeitpunkt auch Serverrollen zuordnen. Zu den Serverrollen, die einem Front-End-Pool zugeordnet werden können, gehören die folgenden:'
+ms.openlocfilehash: ef3cec601355f433ad760be4edcc0ea573b53010
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794894"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811735"
 ---
 # <a name="add-front-end-associations"></a>Hinzufügen von Front-End-Zuordnungen
 
-Zum Aktivieren der Unterstützung für bestimmte Funktionen, für die andere Server bereitgestellt werden müssen, können Sie die Serverrollen nun dem Front-End-Pool zuordnen. Sie können Serverrollen auch zu einem späteren Zeitpunkt dem Front-End-Pool zuordnen. Die folgenden Serverrollen können einem Front-End-Pool zugeordnet werden:
+Sie können die Unterstützung für bestimmte Features aktivieren, die die Bereitstellung anderer Server erfordern, indem Sie die Serverrollen jetzt dem Front-End-Pool zuordnen. Sie können dem Front-End-Pool auch zu einem späteren Zeitpunkt Serverrollen zuordnen. Zu den Serverrollen, die einem Front-End-Pool zugeordnet werden können, gehören die folgenden:
 
-- A/V-Edgeserver: Ausführliche Informationen zur Implementierung eines A/V-Edgeservers finden Sie in der Planungsdokumentation unter [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx).
+- A/V-Edgeserver. Ausführliche Informationen zur Implementierung eines A/V-Edgeservers finden Sie unter [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in der Planungsdokumentation.
 
 > [!IMPORTANT]
-> Wenn Sie die Unterstützung dieser Funktionen nun aktivieren, umfasst der veröffentlichte Topologieentwurf die erforderlichen Serverkomponenten für die Implementierung der ausgewählten Funktionen. Um die Topologie ohne Fehler zu veröffentlichen, müssen die physischen Computer zur Domäne hinzugefügt werden. Wenn Sie zu diesem Zeitpunkt z. B. die Unterstützung der Archivierung aktivieren, müssen Sie einen Archivierungsserver bereitstellen und die entsprechenden Archivierungsoptionen konfigurieren, bevor Sie mit der Archivierung der Kommunikation für Ihre Organisation beginnen.
+> Wenn Sie die Unterstützung für diese Features jetzt aktivieren, enthält der von Ihnen veröffentlichte Topologieentwurf die Serverkomponenten, die zum Implementieren der einzelnen ausgewählten Features erforderlich sind. Damit die Veröffentlichung einer Topologie ohne Fehler erfolgreich ist, müssen die physischen Computer der Domäne beigetreten sein. Wenn Sie beispielsweise die Unterstützung für die Archivierung jetzt aktivieren, müssen Sie einen Archivierungsserver bereitstellen und die entsprechenden Archivierungsoptionen konfigurieren, bevor Sie mit der Archivierungskommunikation für Ihre Organisation beginnen.
 
 

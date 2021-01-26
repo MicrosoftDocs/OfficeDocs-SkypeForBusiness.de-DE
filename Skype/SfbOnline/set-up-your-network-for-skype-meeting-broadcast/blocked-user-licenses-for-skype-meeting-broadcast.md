@@ -19,40 +19,43 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
-ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706140"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865149"
 ---
-# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für das Hosten von Skype-Live Konferenz
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für das Hosting von Skype Meeting Broadcast
 
-Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer eine https://broadcast.skype.com Skype-Live Konferenz hosten möchten. Wenn ein Benutzer diese Nachricht sieht, wird ihm eine der blockierten Lizenzen zugewiesen. Wenn Sie diese weiterhin verwenden möchten, weisen Sie Ihnen eine andere Office 365-Lizenz zu.
+> [!IMPORTANT]
+> Skype for Business Online wird am 31. Juli 2021 beendet. Zu diesem Zeitpunkt endet der Zugriff auf den Dienst. Wir empfehlen kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Hauptclient für Kommunikation und Teamarbeit in Microsoft 365.
+
+Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer zu einer Skype Meeting Broadcast wechseln und diese https://broadcast.skype.com hosten möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
   
  *„Ihre Unternehmenslizenz ist nicht für die Verwendung von Skype-Livekonferenzen zugelassen. Bitte wenden Sie sich an Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie über die richtige Lizenz verfügen.“* 
   
 ## <a name="blocked-user-licenses"></a>Blockierte Benutzerlizenzen 
 
-Das Hosten von Skype-Live Konferenz Ereignissen wird blockiert, wenn einem Benutzer eine der folgenden Benutzerlizenzen zugewiesen ist. Für Teilnehmer, die Broadcast Ereignisse übertragen, sind keine Benutzerlizenzen erforderlich.
+Das Hosten von Skype Meeting Broadcast-Ereignissen wird blockiert, wenn einem Benutzer eine der folgenden Benutzerlizenzen zugewiesen ist. Teilnehmer, die Übertragungsereignisse streamen, benötigen keine Benutzerlizenzen.
   
-- Office 365 Education FAC/Mitarbeiter
+- Office 365 Education Fac/Staff
     
 - Office 365 Education Student
     
-- Office 365 Education Plus FAC/Mitarbeiter
+- Office 365 Education Plus Fac/Staff
     
-- Office 365 Education Plus-Kursteilnehmer
+- Office 365 Education Plus Student
     
 - Office 365 Education E1 Fac/Staff
     
 - Office 365 Education E1 Student
     
-- Office 365 Education E3 FAC/Mitarbeiter
+- Office 365 Education E3 Fac/Staff
     
 - Office 365 Education E3 Fac/Staff Large
     
-- Office 365 Education E3-Schüler
+- Office 365 Education E3 Student
     
 - Office 365 A1 student use benefit
     

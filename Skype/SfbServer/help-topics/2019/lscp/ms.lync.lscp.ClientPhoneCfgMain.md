@@ -1,8 +1,8 @@
 ---
 title: Gerätekonfiguration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: Bei einer Gerätekonfiguration handelt es sich um eine Sammlung von Einstellungen, die für die Verwaltung von Skype for Business Phone Edition-Geräten verwendet werden, entweder global oder auf einer Website. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und die Festlegung, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: dd6caaa1695e3250e48bf839f56edf47ff2dbcfb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Eine Gerätekonfiguration ist eine Auflistung von Einstellungen, die zum Verwalten von Skype for Business Phone Edition-Geräten verwendet werden, entweder global oder innerhalb eines Standorts. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
+ms.openlocfilehash: dc44a176a5dbef7c1df5e957867f30b27b47e95b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796494"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830165"
 ---
 # <a name="device-configuration"></a>Gerätekonfiguration
  
-Bei einer Gerätekonfiguration handelt es sich um eine Sammlung von Einstellungen, die für die Verwaltung von Skype for Business Phone Edition-Geräten verwendet werden, entweder global oder auf einer Website. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und die Festlegung, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen. 
+Eine Gerätekonfiguration ist eine Auflistung von Einstellungen, die zum Verwalten von Skype for Business Phone Edition-Geräten verwendet werden, entweder global oder innerhalb eines Standorts. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen. 
   
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -42,20 +42,20 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
   - Global
     
-  - Standort
+  - Website
     
-- **Bearbeiten** von Sie können die Optionen für eine Gerätekonfiguration in der Liste ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
+- **Bearbeiten** Sie können die Optionen einer Gerätekonfiguration in der Liste ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
     
   - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine Gerätekonfiguration ändern können.
     
-  - **Alle auswählen** Mit dieser Option werden alle Gerätekonfigurationen in der Liste ausgewählt.
+  - **Alles auswählen** Mit dieser Option werden alle Gerätekonfigurationen in der Liste ausgewählt.
     
   - **Löschen** Mit dieser Option werden alle ausgewählten Gerätekonfigurationen gelöscht.
     
-- **Aktualisieren** Sie können die Geräte Konfigurationsliste aktualisieren, um den Status der Optionen aller Gerätekonfigurationen zu überprüfen.
+- **Aktualisieren** Sie können die Gerätekonfigurationsliste aktualisieren, um den Status der Optionen aller Gerätekonfigurationen zu überprüfen.
     
 ## <a name="see-also"></a>Siehe auch
 
 [Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[Satz-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

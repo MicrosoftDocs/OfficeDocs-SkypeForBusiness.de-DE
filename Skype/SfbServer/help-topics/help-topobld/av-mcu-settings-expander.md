@@ -1,8 +1,8 @@
 ---
 title: Einstellungen der A/V MCU – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:'
-ms.openlocfilehash: afb85c1248de7a145ba412c66763193d80a12eb4
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: c3dfe5f635de828982c2fd5bd19e10df1a53891d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216186"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833275"
 ---
-# <a name="av-mcu-settings-expander"></a>Einstellungen der A/V MCU – Erweiterung
+# <a name="av-mcu-settings-expander"></a>Einstellungen der AV MCU – Erweiterung
  
 Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:
   

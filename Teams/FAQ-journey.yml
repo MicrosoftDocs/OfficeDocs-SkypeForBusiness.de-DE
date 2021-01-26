@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712623"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841476"
 title: 'Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams'
 summary: ''
 sections:
@@ -35,6 +35,8 @@ sections:
   - question: Gibt es eine verbindliche Frist, innerhalb derer die Kunden den Wechsel von Skype for Business Online zu Microsoft Teams durchführen müssen?
     answer: >
       Ja. [Skype for Business Online wird](skype-for-business-online-retirement.md) am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Wir empfehlen Skype for Business Online-Kunden, bereits jetzt mit der Verwendung von Microsoft Teams und der Planung ihrer Upgrades zu beginnen, um vor dem Einstellungstermin genügend Zeit zum Durchführen des Upgrades zu haben.
+  - question: Wird Skype Meeting Broadcast gleichzeitig mit Skype for Business Online abgeschaltet?
+    answer: "Ja. Teams Live Events ist die Nachfolgerlösung für Skype Meeting Broadcast.    \n"
   - question: Wie viel Zeit beansprucht das Upgrade meiner Organisation auf Microsoft Teams?
     answer: >
       Sie können die Umstellung Ihrer Organisation von Skype for Business auf Microsoft Teams selbst gestalten. Um Ihnen bei der Planung und Durchführung zu helfen, haben wir einen umfassenden Upgradeleitfaden entwickelt, der auf einem bewährten Framework basiert, das Ihnen dabei helfen soll, die technischen und organisatorischen Elemente der Änderung zu meistern. Beginnen Sie die Umstellung, indem Sie sich mit dem [Upgrade Success-Framework](upgrade-framework.md) und den zugehörigen Ressourcen vertraut machen, die als Grundpfeiler für die Umstellung von Skype for Business zu Microsoft Teams dienen.
@@ -44,7 +46,7 @@ sections:
   - question: Wo erfahre ich im Microsoft Teams Admin Center mehr über die Koexistenzmodi?
     answer: >
       Im Microsoft Teams Admin Center werden Sie Optionen für Koexistenzmodi feststellen, mit deren Hilfe Ihre Organisation die für sie geeignete Strategie für die Umstellung von Skype for Business auf Microsoft Teams verwalten kann. Weitere Informationen zu [Koexistenz- und Upgrademodi](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
-  - question: Was muss ich tun, um mein Upgrade vorzubereiten?
+  - question: Was muss ich tun, um mich auf mein Upgrade vorzubereiten?
     answer: >
       Zu einem erfolgreichen Upgrade gehören neben dem Validieren der technischen Bereitschaft die Benutzerakzeptanz und -bereitschaft. Selbst wenn Sie feststellen, dass Ihre Organisation noch nicht bereit ist, auf Teams umzusteigen, können Sie noch heute mit dem Planungsprozess beginnen. Außerdem können Sie schon von Microsoft Teams profitieren, indem Sie Microsoft Teams parallel zu Skype for Business aktivieren. Beginnen Sie noch heute mit der https://aka.ms/skypetoteams-home)Umstellung von Skype auf Microsoft Teams.
 

@@ -1,8 +1,8 @@
 ---
-title: MediaLine-Tabelle
+title: Tabelle "MediaLine"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,72 +12,72 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
-description: Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der Regel eine Audio-medienzeile. Eine Audio-und Video (A/V)-Sitzung enthält in der Regel eine Audio-Medien Linie und eine Video Medien Linie, obwohl die Sitzung zwei Video Medien Linien enthalten kann, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird.
-ms.openlocfilehash: 0c189a79a9d87e76ec48be1acb7b4062876b5b16
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Jeder Datensatz stellt eine Medienzeile dar. (Eine Audiositzung enthält in der Regel eine Audiomedienzeile. Eine Audio- und Videositzung (A/V) enthält in der Regel eine Audiomedienzeile und eine Videomedienzeile, obwohl die Sitzung möglicherweise zwei Videomedienzeilen enthält, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird.
+ms.openlocfilehash: 99a54fe7a4ee4e91506069873c98d423b9069f06
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41808813"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802765"
 ---
-# <a name="medialine-table"></a>MediaLine-Tabelle
+# <a name="medialine-table"></a>Tabelle "MediaLine"
  
-Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der Regel eine Audio-medienzeile. Eine Audio-und Video (A/V)-Sitzung enthält in der Regel eine Audio-Medien Linie und eine Video Medien Linie, obwohl die Sitzung zwei Video Medien Linien enthalten kann, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird.
+Jeder Datensatz stellt eine Medienzeile dar. (Eine Audiositzung enthält in der Regel eine Audiomedienzeile. Eine Audio- und Videositzung (A/V) enthält in der Regel eine Audiomedienzeile und eine Videomedienzeile, obwohl die Sitzung möglicherweise zwei Videomedienzeilen enthält, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Wird aus der [Sitzungstabelle](session.md)referenziert.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Wird aus der [Sitzungstabelle](session.md)referenziert.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0 ist Haupt-Audio, 1 ist das Hauptvideo, und 2 ist ein Panorama Video, 3 ist die Anwendung/Desktop-Freigabe, 16 ist videobasierter Bildschirmübertragung (schlechte VBSS). Diese Bezeichnung muss innerhalb einer einzelnen Sitzung eindeutig sein.  <br/> |
-|**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |Diese Spalte ist vorhanden, wird aber in Microsoft lync Server 2013 nicht verwendet. Informationen zur für eine medienzeile verwendeten Konnektivität werden in den Spalten CallerConnectivityICE und CalleeConnectivityICE erfasst.  <br/> |
-|**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informationen über das in Bits-Flags beschriebene Verfahren zum interaktiven Verbindungsaufbau (ICE). Ausführliche Informationen finden Sie in der *Spezifikation für Quality of Experience Monitoring Server Protocol* , die zum Download zur Verfügung steht. <br/> |
-|**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Identisch mit CallerIceWarningFlags, aber auf der aufgerufenen Seite. Ausführliche Informationen finden Sie in der *Spezifikation für Quality of Experience Monitoring Server Protocol* , die zum Download zur Verfügung steht. <br/> |
-|**Sicherheit** <br/> |tinyint  <br/> | <br/> |Das verwendete Sicherheitsprofil. 0 ist None, 1 ist SRTP, 2 ist v1.  <br/> |
+|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [Sitzungstabelle.](session.md)  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [Sitzungstabelle.](session.md)  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0 ist Hauptaudio, 1 ist hauptvideo und 2 ist Panoramavideo, 3 ist Anwendungs-/Desktopfreigabe, 16 ist videobasierte Bildschirmfreigabe (VbSS). Diese Bezeichnung muss innerhalb einer einzelnen Sitzung eindeutig sein.  <br/> |
+|**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |Diese Spalte ist vorhanden, wird jedoch in Microsoft Lync Server 2013 nicht verwendet. Informationen über die für eine Medienleitung verwendete Konnektivität werden in den Spalten "CallerConnectivityICE" und "CalleeConnectivityICE" erfasst.  <br/> |
+|**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informationen zum Interactive Connectivity Establishment (ICE)-Prozess, der in Bitflags beschrieben wird. Weitere Informationen finden Sie in der  *Quality of Experience Monitoring Server Protocol Specification*  , die zum Download verfügbar ist. <br/> |
+|**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Identisch mit CallerIceWarningFlags, jedoch auf der Anrufeseite. Weitere Informationen finden Sie in der  *Quality of Experience Monitoring Server Protocol Specification*  , die zum Download verfügbar ist. <br/> |
+|**Sicherheit** <br/> |tinyint  <br/> | <br/> |Das verwendeten Sicherheitsprofil. 0 ist KEINES, 1 ist SRTP, 2 ist V1.  <br/> |
 |**Transport** <br/> |tinyint  <br/> | <br/> |0 ist UDP, 1 ist TCP.  <br/> |
-|**CallerIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die IP-Adresse des Anrufers. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
-|**CallerPort** <br/> |int  <br/> | <br/> | Der vom Aufrufer verwendete Port. <br/> |
-|**CallerSubnet** <br/> |int  <br/> | Fremd <br/> |Das Subnetz des Anrufers. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
-|**CallerInside** <br/> |bit  <br/> | <br/> |1 bedeutet, dass der Anrufer sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Anrufer außerhalb des Netzwerks befindet.  <br/> |
-|**CallerMacAddress** <br/> |int  <br/> |Fremd  <br/> |Die Mac-Adresse des Anrufers, auf die von der [macaddress-Tabelle](macaddress.md)verwiesen wird.  <br/> |
-|**CallerRelayIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die IP-Adresse des A/V-Edgedienst, der vom Aufrufer verwendet wird. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
+|**CallerIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die IP-Adresse des Anrufers. Weitere Informationen [finden Sie in der Tabelle "IPAddress".](ipaddress.md) <br/> |
+|**CallerPort** <br/> |int  <br/> | <br/> | Vom Anrufer verwendeter Port. <br/> |
+|**CallerSubnet** <br/> |int  <br/> | Fremd <br/> |Das Subnetz des Anrufers. Weitere Informationen [finden Sie in der Tabelle "IPAddress".](ipaddress.md) <br/> |
+|**CallerInside** <br/> |bit  <br/> | <br/> |1 bedeutet, der Anrufer befindet sich im Unternehmensnetzwerk, 0 bedeutet, der Anrufer befindet sich außerhalb davon.  <br/> |
+|**CallerMacAddress** <br/> |int  <br/> |Fremd  <br/> |Die Mac-Adresse des Anrufers, auf die in der [Tabelle "MacAddress" verwiesen wird.](macaddress.md)  <br/> |
+|**CallerRelayIPAddr** <br/> |int  <br/> |Fremd  <br/> |IP-Adresse des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen [finden Sie in der Tabelle "IPAddress".](ipaddress.md) <br/> |
 |**CallerRelayPort** <br/> |int  <br/> | <br/> |Port, der vom Anrufer für den A/V-Edgedienst verwendet wird.  <br/> |
-|**CallerCaptureDev** <br/> |int  <br/> |Fremd  <br/> |Das vom Anrufer verwendete Aufnahmegerät. Wird in der [Gerätetabelle](device.md)referenziert.  <br/> |
-|**CallerRenderDev** <br/> |int  <br/> |Fremd  <br/> |Vom Aufrufer verwendetes Render-Gerät. Wird in der [Gerätetabelle](device.md)referenziert.  <br/> |
-|**CallerCaptureDevDriver** <br/> |int  <br/> |Fremd  <br/> |Treiber für das Aufnahmegerät des Anrufers, auf das aus der [ACPITreiber-Tabelle](devicedriver.md)verwiesen wird.  <br/> |
-|**CallerRenderDevDriver** <br/> |int  <br/> |Fremd  <br/> |Treiber für das Render-Gerät des Anrufers, auf das aus der [ACPITreiber-Tabelle](devicedriver.md)verwiesen wird.  <br/> |
-|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Fremd  <br/> |Gibt an, wie der Anrufer mit dem Netzwerk verbunden ist. Werte werden aus der [NetworkConnectionDetail-Tabelle](networkconnectiondetail.md)abgerufen. Typische Werte sind 0 für eine kabelgebundene Verbindung "1 für eine WLAN-Verbindung; und 3 für eine Ethernet-Verbindung.  <br/> |
-|**CallerBssid** <br/> |int  <br/> |Fremd  <br/> |BSSID des Anrufers, wenn Wireless verwendet wird. Referenziert aus der [macaddress-Tabelle](macaddress.md).  <br/> |
-|**CallerVPN** <br/> |bit  <br/> ||Der Link des Anrufers. 1 ist ein VPN (virtuelles privates Netzwerk), 0 ist kein VPN.  <br/> |
-|**CallerLinkSpeed** <br/> |Decimal (18; 0)  <br/> ||Die Netzwerkverbindungsgeschwindigkeit in BPS für den Endpunkt des Anrufers.  <br/> |
-|**CalleeIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die IP-Adresse des anrufempfängers. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
-|**CalleePort** <br/> |bit  <br/> ||Der vom Anrufempfänger verwendete Port.  <br/> |
-|**CalleeSubnet** <br/> |int  <br/> |Fremd  <br/> |Subnetz der aufgerufenen. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
-|**CalleeInside** <br/> |bit  <br/> | <br/> |1 bedeutet, dass der Anrufempfänger sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass der Anrufempfänger sich außerhalb des Netzwerks befindet.  <br/> |
-|**CalleeMacAddress** <br/> |int  <br/> |Fremd  <br/> |Mac-Adresse des angerufenen Wird in der [macaddress-Tabelle](macaddress.md)referenziert.  <br/> |
-|**CalleeRelayIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die IP-Adresse des A/V-Edgedienst, der vom Empfänger des Anrufs verwendet wird. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
+|**CallerCaptureDev** <br/> |int  <br/> |Fremd  <br/> |Vom Anrufer verwendetes Gerät erfassen. Referenziert aus der [Tabelle "Gerät".](device.md)  <br/> |
+|**CallerRenderDev** <br/> |int  <br/> |Fremd  <br/> |Rendergerät, das vom Anrufer verwendet wird. Referenziert aus der [Tabelle "Gerät".](device.md)  <br/> |
+|**CallerCaptureDevDriver** <br/> |int  <br/> |Fremd  <br/> |Treiber für das Aufnahmegerät des Anrufers, auf den in der [#A0 verwiesen wird.](devicedriver.md)  <br/> |
+|**CallerRenderDevDriver** <br/> |int  <br/> |Fremd  <br/> |Treiber für das Rendergerät des Anrufers, auf den in der [#A0 verwiesen wird.](devicedriver.md)  <br/> |
+|**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Fremd  <br/> |Gibt an, wie der Anrufer mit dem Netzwerk verbunden ist. Werte werden aus der [Tabelle "NetworkConnectionDetail" ermittelt.](networkconnectiondetail.md) Typische Werte sind 0 für eine kabelgebundene Verbindung' 1 für eine WLAN-Verbindung; und 3 für eine Ethernet-Verbindung.  <br/> |
+|**CallerBssid** <br/> |int  <br/> |Fremd  <br/> |BSSID des Anrufers, wenn drahtlos verwendet wird. Referenziert aus [der MacAddress-Tabelle.](macaddress.md)  <br/> |
+|**CallerVPN** <br/> |bit  <br/> ||Der Link des Anrufers. 1 ist VPN, 0 ist Nicht-VPN.  <br/> |
+|**CallerLinkSpeed** <br/> |decimal(18,0)  <br/> ||Die Geschwindigkeit der Netzwerkverbindung in Bps für den Endpunkt des Anrufers.  <br/> |
+|**CalleeIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die IP-Adresse des Anrufempfängers. Weitere Informationen [finden Sie in der Tabelle "IPAddress".](ipaddress.md) <br/> |
+|**CalleePort** <br/> |bit  <br/> ||Vom Anrufempfänger verwendeter Port.  <br/> |
+|**CalleeSubnet** <br/> |int  <br/> |Fremd  <br/> |Subnetz des Anrufeten. Weitere Informationen [finden Sie in der Tabelle "IPAddress".](ipaddress.md) <br/> |
+|**CalleeInside** <br/> |bit  <br/> | <br/> |1 bedeutet, dass sich der Anrufempfänger innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Anrufempfänger außerhalb des Netzwerks befindet.  <br/> |
+|**CalleeMacAddress** <br/> |int  <br/> |Fremd  <br/> |Mac-Adresse des Anrufeten. Referenziert aus der [MacAddress-Tabelle.](macaddress.md)  <br/> |
+|**CalleeRelayIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die IP-Adresse des vom Anrufempfänger verwendeten A/V-Edgediensts. Weitere Informationen [finden Sie in der Tabelle "IPAddress".](ipaddress.md) <br/> |
 |**CalleeRelayPort** <br/> |int  <br/> | <br/> |Port, der vom Anrufempfänger für den A/V-Edgedienst verwendet wird.  <br/> |
-|**CalleeCaptureDev** <br/> |int  <br/> |fremd  <br/> |Das vom Anrufempfänger verwendete Aufnahmegerät. Wird in der [Gerätetabelle](device.md)referenziert.  <br/> |
-|**CalleeRenderDev** <br/> |int  <br/> |Fremd  <br/> |Render-Gerät, das vom Empfänger des Anrufs verwendet wird. Wird in der [Gerätetabelle](device.md)referenziert.  <br/> |
-|**CalleeCaptureDevDriver** <br/> |int  <br/> |Fremd  <br/> |Treiber für das Aufnahmegerät des anrufempfängers. Referenziert aus der [ACPITreiber-Tabelle](devicedriver.md).  <br/> |
-|**CalleeRenderDevDriver** <br/> |varchar (256)  <br/> |Fremd  <br/> |Treiber für das Render-Gerät des anrufempfängers. Referenziert aus der [ACPITreiber-Tabelle](devicedriver.md).  <br/> |
-|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |Fremd  <br/> |Gibt an, wie der aufgerufene mit dem Netzwerk verbunden ist. Werte werden aus der [NetworkConnectionDetail-Tabelle](networkconnectiondetail.md)abgerufen. Typische Werte sind 0 für eine kabelgebundene Verbindung "1 für eine WLAN-Verbindung; und 3 für eine Ethernet-Verbindung.  <br/> |
-|**CalleeBssid** <br/> |int  <br/> |Fremd  <br/> |BSSID des anrufempfängers, wenn Wireless verwendet wird. Referenziert aus der [macaddress-Tabelle](macaddress.md).  <br/> |
-|**CalleeVPN** <br/> |bit  <br/> | <br/> |Link des anrufempfängers; 1 ist ein VPN (virtuelles privates Netzwerk), 0 ist kein VPN.  <br/> |
-|**CalleeLinkSpeed** <br/> |Decimal (18; 0)  <br/> | <br/> |Die Netzwerkverbindungsgeschwindigkeit in BPS für den Endpunkt des anrufempfängers.  <br/> |
-|**ConversationalMOS** <br/> |Dezimal (3; 2)  <br/> | <br/> |Schmalband-Konversations-Mos der audiositzungen (basierend auf beiden Audiostreams).  <br/> |
-|**AppliedBandwidthLimit** <br/> |int  <br/> ||Hierbei handelt es sich um die tatsächliche Bandbreite, die auf den angegebenen Send-Seitenstrom angewendet wird, wobei verschiedene Richtlinieneinstellungen angegeben werden (Turn, API, SDP, Richtlinien Server usw.). Dies sollte nicht mit der effektiven Bandbreite verwechselt werden, da auf der Grundlage der Bandbreitenschätzung eine geringere effektive Bandbreite vorhanden sein kann. Dies ist im Grunde die maximale Bandbreite, die der sendedatenstrom sperren kann, wenn die Bandbreite geschätzt wird.  <br/> |
-|**AppliedBandwidthSourceKey** <br/> |smallint  <br/> ||Hierbei handelt es sich um die Quelle des verhängten Bandbreitenlimits. Es wird beschrieben, woher die Bandbreitengrenze stammt ("Richtlinienserver", "Server umwandeln", "Modalität" usw.). Wird in der [AppliedBandwidthSource-Tabelle](appliedbandwidthsource.md)referenziert.  <br/> |
-|**Anrufer** <br/> |bit  <br/> | <br/> |Gibt an, ob Metriken des Anrufers empfangen wurden; 1 ist ja, ein NULL-Wert ist "Nein".  <br/> |
-|**Callee** <br/> |bit  <br/> | <br/> |Gibt an, ob Metriken vom Anrufempfänger empfangen wurden; 1 ist ja, ein NULL-Wert ist "Nein".  <br/> |
-|**MidCallReport** <br/> |bit  <br/> ||Gibt an, ob der Bericht für einen Teil der Sitzung oder für die vollständige Sitzung gilt.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||Gibt an, ob ein Anruf als schlechter Anruf (Wert 1) oder als guter Anruf (0) klassifiziert wurde.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CallerConnectivityICE** <br/> |tinyInt  <br/> ||Gibt an, ob der Anrufer über das Ice-Protokoll (Internet Connectivity Establishment) mit dem Netzwerk verbunden ist.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CalleeConnectivityICE** <br/> |tinyint  <br/> ||Gibt an, ob der Anrufer über das Ice-Protokoll (Internet Connectivity Establishment) mit dem Netzwerk verbunden ist.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CallerReflexiveLocalIPAddr** <br/> |int  <br/> |Fremd  <br/> |Reflexive IP-Adresse des Benutzers, der den Anruf getätigt hat. In Organisationen, die NAT verwenden (Netzwerkadressübersetzung), ist die reflexive IP-Adresse die IP-Adresse des Proxyservers.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CallerWiFiDriverDevicesDesc** <br/> |int  <br/> |Fremd  <br/> |Gerätebeschreibung für den WiFi-Treiber des Benutzers, der den Anruf getätigt hat.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CallerWiFiDriverVersion** <br/> |int  <br/> |Fremd  <br/> |Die Versionsnummer des WLAN-Treibers, der vom Nutzer, der den Anruf getätigt hat, verwendet wurde.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CalleReflexiveLocalIPAddr** <br/> |int  <br/> |Fremd  <br/> |Reflexive IP-Adresse des Benutzers, der den Anruf erhalten hat. In Organisationen, die NAT verwenden (Netzwerkadressübersetzung), ist die reflexive IP-Adresse die IP-Adresse des Proxyservers.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CalleeWiFiDriverDevicesDesc** <br/> |int  <br/> |Fremd  <br/> |Gerätebeschreibung für den WiFi-Treiber des Benutzers, der den Anruf erhalten hat.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**CalleeWiFiDriverVersion** <br/> |int  <br/> |Fremd  <br/> |Die Versionsnummer des WLAN-Treibers, der vom Nutzer, der den Anruf erhalten hat, verwendet wurde.  <br/> Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
+|**CalleeCaptureDev** <br/> |int  <br/> |fremd  <br/> |Vom Anrufempfänger verwendetes Aufnahmegerät. Referenziert aus der [Tabelle "Gerät".](device.md)  <br/> |
+|**CalleeRenderDev** <br/> |int  <br/> |Fremd  <br/> |Rendergerät, das vom Anrufempfänger verwendet wird. Referenziert aus der [Tabelle "Gerät".](device.md)  <br/> |
+|**CalleeCaptureDevDriver** <br/> |int  <br/> |Fremd  <br/> |Treiber für das Aufnahmegerät des Anrufempfängers. Referenziert aus [der DeviceDriver-Tabelle.](devicedriver.md)  <br/> |
+|**CalleeRenderDevDriver** <br/> |varchar(256)  <br/> |Fremd  <br/> |Treiber für das Rendergerät des Anrufempfängers. Referenziert aus [der DeviceDriver-Tabelle.](devicedriver.md)  <br/> |
+|**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |Fremd  <br/> |Gibt an, wie der Anrufee mit dem Netzwerk verbunden ist. Werte werden aus der [Tabelle "NetworkConnectionDetail" ermittelt.](networkconnectiondetail.md) Typische Werte sind 0 für eine kabelgebundene Verbindung' 1 für eine WLAN-Verbindung; und 3 für eine Ethernet-Verbindung.  <br/> |
+|**CalleeBssid** <br/> |int  <br/> |Fremd  <br/> |BSSID des Anrufers, wenn drahtlos verwendet wird. Referenziert aus [der MacAddress-Tabelle.](macaddress.md)  <br/> |
+|**CalleeVPN** <br/> |bit  <br/> | <br/> |Der Link des Anrufempfängers; 1 ist ein virtuelles privates Netzwerk (VPN), 0 ist kein VPN.  <br/> |
+|**CalleeLinkSpeed** <br/> |decimal(18,0)  <br/> | <br/> |Die Geschwindigkeit der Netzwerkverbindung in Bps für den Endpunkt des Anrufempfängers.  <br/> |
+|**ConversationalMOS** <br/> |decimal(3,2)  <br/> | <br/> |Schmalband-Gesprächs-MOS der Audiositzungen (basierend auf beiden Audiostreams).  <br/> |
+|**AppliedBandwidthLimit** <br/> |int  <br/> ||Dies ist die tatsächliche Bandbreite, die auf den angegebenen sendeseitigen Datenstrom bei verschiedenen Richtlinieneinstellungen (TURN, API, SDP, Policy Server und so weiter) angewendet wird. Dies ist nicht mit der effektiven Bandbreite zu verwechseln, da es basierend auf der Bandbreitenschätzung eine niedrigere effektive Bandbreite gibt. Dabei handelt es sich im Wesentlichen um die maximale Bandbreite, die der Sendedatenstrom für die Beschränkungen verwenden kann, die von der Bandbreitenschätzung auferlegt werden.  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |smallint  <br/> ||Dies ist die Quelle der Bandbreitengrenze, die auferlegt wird. Es wird beschrieben, woher die Bandbreitenbeschränkung kommt ("Policy Server", "TURN Server", "Modality" und so weiter). Referenziert aus der [Tabelle "AppliedBandwidthSource".](appliedbandwidthsource.md)  <br/> |
+|**Caller** <br/> |bit  <br/> | <br/> |Gibt an, ob Metriken vom Anrufer empfangen wurden; 1 ist ja, ein Nullwert ist nein.  <br/> |
+|**Ankrufer** <br/> |bit  <br/> | <br/> |Gibt an, ob Metriken vom Anrufempfänger empfangen wurden; 1 ist ja, ein Nullwert ist nein.  <br/> |
+|**MidCallReport** <br/> |bit  <br/> ||Gibt an, ob der Bericht für einen Teil der Sitzung oder für die gesamte Sitzung gilt.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||Gibt an, ob ein Anruf als Anruf schlechter Qualität (Wert 1) oder als guter Anruf (0) klassifiziert wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CallerConnectivityICE** <br/> |tinyInt  <br/> ||Gibt an, ob sich der Anrufer mithilfe des ICE (Internet Connectivity Establishment)-Protokolls mit dem Netzwerk verbunden hat.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CalleeConnectivityICE** <br/> |tinyint  <br/> ||Gibt an, ob sich der Anrufer mithilfe des ICE (Internet Connectivity Establishment)-Protokolls mit dem Netzwerk verbunden hat.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CallerSteigerLocalIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die ip-Adresse des Benutzers, der den Anruf anruft. In Organisationen, die NAT (Netzwerkadressenübersetzung) verwenden, ist dies die ip-Adresse des Proxyservers.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CallerWiFiDriverDevicesDesc** <br/> |int  <br/> |Fremd  <br/> |Gerätebeschreibung für den WLAN-Treiber, der vom Benutzer verwendet wird, der den Anruf tätigt.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CallerWiFiDriverVersion** <br/> |int  <br/> |Fremd  <br/> |Versionsnummer für den WLAN-Treiber, der vom Benutzer verwendet wird, der den Anruf tätigt hat.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CalleIziiveLocalIPAddr** <br/> |int  <br/> |Fremd  <br/> |Die ip-Adresse des Benutzers, der den Anruf empfangen hat. In Organisationen, die NAT (Netzwerkadressenübersetzung) verwenden, ist dies die ip-Adresse des Proxyservers.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CalleeWiFiDriverDevicesDesc** <br/> |int  <br/> |Fremd  <br/> |Gerätebeschreibung für den WLAN-Treiber, der vom Benutzer verwendet wird, der den Anruf empfangen hat.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**CalleeWiFiDriverVersion** <br/> |int  <br/> |Fremd  <br/> |Versionsnummer für den WLAN-Treiber, der vom Benutzer verwendet wird, der den Anruf angenommen hat.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
    
 

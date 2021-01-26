@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Besprechungen in nicht unterstützten Browsern
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,38 +16,38 @@ search.appverid: MET150
 description: Erfahren Sie, wie Teams Audio und Video in nicht unterstützten Browsern unterstützt.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d19affd962b396af42f4efaec707388b186094
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 4aca1592a89e36e7a26a9a22b111968e4b44a302
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778047"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804525"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams-Besprechungen in nicht unterstützten Browsern
 
-Einige Browser, wie Internet Explorer 11, Safari und Firefox, unterstützen die Microsoft Teams Web-App, unterstützen jedoch nicht einige der Funktionen für Anrufe und Besprechungen von Teams. Um diese Einschränkung zu umgehen, können Benutzer mit der Team-Web-App Audio über eine PSTN-Verbindung empfangen, sodass Sie die vorgestellten Inhalte (Bildschirmfreigabe) zu einer reduzierten Anzeigerate anzeigen können.
+Einige Browser, z. B. Internet Explorer 11, Safari und Firefox, unterstützen die Microsoft Teams-Web-App, aber einige der Anruf- und Besprechungsfeatures von Teams werden nicht unterstützt. Um diese Einschränkung zu umgehen, können Benutzer mit der Teams-Web-App Audio über eine Festnetzverbindung empfangen und präsentierte Inhalte (Bildschirmfreigabe) mit einer reduzierten Anzeigerate anzeigen.
 
 > [!Note]
-> Microsoft 365-apps und-Dienste unterstützen Internet Explorer 11 ab August 17, 2021 (Microsoft Teams unterstützen Internet Explorer 11 zuvor nicht, beginnend mit dem 30. November, 2020). [Weitere Informationen](https://aka.ms/AA97tsw). Bitte beachten Sie, dass Internet Explorer 11 ein unterstützter Browser bleibt. Internet Explorer 11 ist eine Komponente des Windows-Betriebssystems und [folgt der Lebenszyklusrichtlinie](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) für das Produkt, auf dem Sie installiert ist.
+> Microsoft 365-Apps und -Dienste unterstützen Internet Explorer 11 ab dem 17. August 2021 nicht mehr (Microsoft Teams unterstützt Internet Explorer 11 ab dem 30. November 2020 nicht). [Weitere Informationen](https://aka.ms/AA97tsw). Bitte beachten Sie, dass Internet Explorer 11 als Browser weiterhin unterstützt wird. Internet Explorer 11 ist eine Komponente des Windows-Betriebssystems und folgt der [Lebenszyklusrichtlinie](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) für das Produkt, auf dem es installiert ist.
 
-Wenn Teams einen nicht unterstützten Browser erkennt, wird automatisch eine Meldung angezeigt, in der das Problem und die Sitzungs Einschränkungen erläutert werden. Die Nachricht enthält weitere Anweisungen für den Zugriff auf die Audiofunktionen der Besprechung, wie etwa die Benachrichtigung des Benutzers, eine Rückrufnummer zu hinterlassen, damit Teams den Benutzer anrufen oder den Benutzer anweisen können, die in der Besprechungseinladung enthaltene Konferenznummer anzurufen. Die Nachricht ermutigt den Benutzer auch zum herunterladen und Verwenden des [Teams-Desktop Clients](https://teams.microsoft.com/downloads) für die gesamte Team Erfahrung.
+Wenn Teams einen nicht unterstützten Browser erkennt, wird automatisch eine Meldung angezeigt, in der das Problem und die Sitzungseinschränkungen erläutert werden. Die Nachricht enthält weitere Anweisungen für den Zugriff auf das Besprechungsaudio, z. B. den Benutzer aufweisen, eine Rückrufnummer zu hinterlassen, damit Teams den Benutzer anrufen kann, oder den Benutzer anweisen, die in der Besprechungseinladung enthaltene Konferenznummer anschreiben zu lassen. Die Meldung regt den Benutzer [](https://teams.microsoft.com/downloads) außerdem an, den Teams-Desktopclient herunterzuladen und zu verwenden, um die gesamte Benutzererfahrung in Teams zu nutzen.
 
-Wenn PSTN nicht verfügbar ist, werden die Anweisungen für den Zugriff auf die Besprechung nicht angezeigt und können nicht an der Besprechung teilnehmen.
+Wenn PSTN nicht verfügbar ist, wird dem Benutzer die Anweisungen für den Zugriff auf die Besprechung nicht angezeigt, und er kann nicht an der Besprechung teilnehmen.
 
-## <a name="browser-limitations"></a>Browser Einschränkungen
+## <a name="browser-limitations"></a>Browsereinschränkungen
 
-Personen, die die Teams Web App in nicht unterstützten Browsern verwenden, werden die folgenden Einschränkungen auftreten:
+Bei Personen, die die Teams-Web-App in nicht unterstützten Browsern verwenden, gelten die folgenden Einschränkungen:
 
-- Audiofunktionen stehen nur über eine PSTN-Verbindung zur Verfügung. Die Benutzer können Ihr Mikrofon nicht verwenden.
-- Benutzer können Ihre Kamera nicht freigeben oder die Videos anderer Teilnehmer sehen, aber Sie können präsentierte Inhalte über eine bildbasierte Bildschirmfreigabe anzeigen.
-- Benutzer können Ihren Bildschirm nicht freigeben, obwohl Sie einen Bildschirm sehen, den ein anderer Besprechungsteilnehmer teilt.
-- Benutzer können die Steuerung während einer bildschirmfreigabesitzung nicht übernehmen.
+- Audio ist nur über eine Festnetzverbindung verfügbar. Benutzer können ihr Mikrofon nicht verwenden.
+- Benutzer können ihre Kamera nicht freigeben oder die Videos anderer Teilnehmer sehen, sie können präsentierte Inhalte aber über bildbasierte Bildschirmfreigabe anzeigen.
+- Benutzer können ihren Bildschirm nicht freigeben, obwohl sie einen Bildschirm sehen können, den ein anderer Besprechungsteilnehmer teilt.
+- Benutzer können die Steuerung während einer Bildschirmfreigabesitzung nicht übernehmen.
 - Benutzer erhalten keine Benachrichtigungen über eingehende Anrufe.
-- Wenn der Anruf unterbrochen wird, wird die Besprechung nicht automatisch wiederhergestellt.
-- Benutzer können keine Besprechungen beginnen.
+- Wenn der Anruf unterbrochen wird, wird die Besprechung nicht automatisch erneut verbunden.
+- Benutzer können keine Besprechungen starten.
 
-Weitere Informationen zur Browserunterstützung in Teams finden Sie unter [Grenzwerte und Spezifikationen für Teams](/microsoftteams/limits-specifications-teams#browsers).
+Weitere Informationen zur Browserunterstützung in Teams finden Sie unter ["Grenzwerte und Spezifikationen für Teams".](/microsoftteams/limits-specifications-teams#browsers)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Teilnehmen an einer Teambesprechung in einem nicht unterstützten Browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [Teilnehmen an einer Team-Besprechung in einem nicht unterstützten Browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Zweigstellennamen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Geben Sie zum Definieren einer neuen Zweigstelle Folgendes an:'
-ms.openlocfilehash: 0faf1c939773dd7caba7bbcddbf12c78fafa2716
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Um einen neuen Zweigstellenstandort zu definieren, geben Sie Folgendes an:'
+ms.openlocfilehash: 3ab0f19c66d1238454dac08a9094d7a95ffbc04d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796636"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811925"
 ---
 # <a name="add-branch-site-name"></a>Hinzufügen von Zweigstellennamen
 
-Geben Sie zum Definieren einer neuen Zweigstelle Folgendes an:
+Um einen neuen Zweigstellenstandort zu definieren, geben Sie Folgendes an:
 
-Den Namen der neuen Zweigstelle. Dieser Name muss innerhalb der Bereitstellung eindeutig sein. Sie können eine beliebige Benennungskonvention wählen. Im Allgemeinen werden der Ort, der Standortname und der Name der Zweigstelle angegeben. Der Namenswert ist verbindlich.
+Den Namen des neuen Zweigstellenstandorts. Dieser Name muss innerhalb der Bereitstellung eindeutig sein. Sie können eine beliebige Benennungskonvention wählen. Im Allgemeinen werden der Ort, der Standortname und der Zweigstellenname angegeben. Der Namenswert ist verbindlich.
 
 In das optionale Beschreibungsfeld können Sie zusätzliche beschreibende Informationen eingeben, die nicht zum Infrastrukturnamen gehören.
 
-Ausführliche Informationen finden Sie unter [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).
+Ausführliche Informationen finden Sie unter [Standorte](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).
 
 

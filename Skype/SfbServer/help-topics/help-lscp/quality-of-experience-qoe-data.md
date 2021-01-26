@@ -1,8 +1,8 @@
 ---
 title: QoE-Daten (Quality of Experience)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: e9891fdc47db8770973c68958912f3d4a32f72da
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: c10035729ebb69d101b9a901b7dc427fea9d5f95
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822428"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819225"
 ---
 # <a name="quality-of-experience-qoe-data"></a>QoE-Daten (Quality of Experience)
  
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
   
-- [Aktivieren von QoE (Quality of Experience) in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
+- [Aktivieren der Erlebnisqualität in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Ändern von QoE-Einstellungen (Quality of Experience) in Skype for Business Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Ändern der Einstellungen für die Erlebnisqualität in Skype for Business Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Erstellen von QoE-Konfigurationseinstellungen in Skype for Business Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Erstellen von Konfigurationseinstellungen für die Erlebnisqualität in Skype for Business Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
 

@@ -1,8 +1,8 @@
 ---
-title: Benutzer können den PIN-Status anzeigen
+title: Benutzer zeigen den PIN-Status an
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 0f4d30860560150d3988a85dffafcd0c85e5f9c3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 06a9fbf6411747c43213a5490fde3358ed6e798c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797912"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808075"
 ---
 # <a name="users-view-pin-status"></a>Benutzer: Anzeigen des PIN-Status
  
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
   
-- [Einrichten der PIN für Einwahlkonferenzen von Benutzern in Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

@@ -1,14 +1,14 @@
 ---
-title: Benutzer Benachrichtigungs-e-Mail-Vorlagen für den Rollout des Online Telefonsystems
-author: lanachin
-ms.author: v-lanac
+title: E-Mail-Vorlagen für Benutzerbenachrichtigungen für das Rollout des Onlinetelefonsystems
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Verwenden Sie Vorlagen zum Senden von e-Mails an Benutzer, während Sie Cloud-Sprachfunktionen in Teams oder Skype for Business implementieren.
+description: Verwenden Sie Vorlagen, um E-Mails an Benutzer zu senden, während Sie Cloud-Sprachfunktionen in Teams oder Skype for Business implementieren.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137515"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812645"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Erleichterung der Benutzerakzeptanz Ihres neuen Online-Telefonsystems
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Vereinfachen der Benutzeradzeptanz Ihres neuen Onlinetelefonsystems
 
-Ein Telefon kann die Lebenslinie eines Benutzers sein. Der Wechsel von einem herkömmlichen Telefonsystem zu einem Online-Telefonsystem stellt eine wesentliche Änderung der Arbeitsweise von Benutzern dar und kann sich negativ auf die Produktivität auswirken. Wenn Sie sich Zeit nehmen, um die Benutzer durch diese Änderung zu informieren, zu führen und zu unterstützen, können Sie eine positive Benutzererfahrung gewährleisten und ihre Rentabilität maximieren.
+Ein Telefon kann die Lebenslinie eines Benutzers sein. Der Wechsel von einem herkömmlichen Telefonsystem zu einem Onlinetelefonsystem stellt eine erhebliche Änderung der Benutzerarbeit dar und kann sich negativ auf die Produktivität auswirken. Wenn Sie sich Zeit nehmen, Benutzer über diese Änderung zu informieren, zu leiten und zu unterstützen, können Sie eine positive Benutzererfahrung sicherstellen und Ihre Kapitalrendite maximieren.
 
-Dieser Artikel enthält anpassbare e-Mail-Vorlagen, mit denen Sie die Benutzer über Ihr neues Telefonsystem informieren können. Passen Sie die entsprechenden e-Mail-Nachrichten an, und senden Sie Sie an Ihre spezifische sprach Bereitstellung. Wir haben eckige Klammern verwendet, um Abschnitte zur einfachen Personalisierung anzugeben, aber wir empfehlen, dass Sie organisationsspezifisches Messaging hinzufügen, um die Ankündigung für Ihre Benutzer am relevantesten zu gestalten. Wenn für Ihre Bereitstellung zutreffend, ersetzen Sie alle Verweise auf "Teams" durch "Skype for Business".
+Dieser Artikel enthält anpassbare E-Mail-Vorlagen, mit deren Hilfe Benutzer über ihr neues Telefonsystem informiert werden können. Passen Sie die geeigneten E-Mails an Ihre spezifische Sprachbereitstellung an, und senden Sie sie. Zur einfachen Personalisierung wurden Klammern verwendet, um Abschnitte anzugeben. Es wird jedoch empfohlen, organisationsspezifische Nachrichten hinzuzufügen, um die Ankündigung für Ihre Benutzer am relevantesten zu machen. Ersetzen Sie ggf. für Ihre Bereitstellung alle Verweise auf "Teams" durch "Skype for Business".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>E-Mail-Nummer 1: drei Wochen vor dem Start senden
+## <a name="email-number-1-send-three-weeks-before-launch"></a>E-Mail-Nummer 1: Senden drei Wochen vor dem Start
 
 Betreffzeile:
 
@@ -37,7 +37,7 @@ Betreffzeile:
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Textkörper der e-Mail:
+Textkörper der E-Mail:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>E-Mail-Nummer 2: eine Woche vor dem Start senden
+## <a name="email-number-2-send-one-week-before-launch"></a>E-Mail-Nummer 2: Eine Woche vor dem Start senden
 
 Betreffzeile:
 
@@ -102,7 +102,7 @@ Betreffzeile:
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Textkörper der e-Mail:
+Textkörper der E-Mail:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>E-Mail-Nummer 3: beim Starttag senden
+## <a name="email-number-3-send-on-launch-day"></a>E-Mail-Nummer 3: Am Starttag senden
 
 Betreffzeile:
 
@@ -146,7 +146,7 @@ Betreffzeile:
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Textkörper der e-Mail:
+Textkörper der E-Mail:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>E-Mail-Nummer 4: zwei Wochen nach dem Start senden
+## <a name="email-number-4-send-two-weeks-after-launch"></a>E-Mail-Nummer 4: Senden zwei Wochen nach dem Start
 
 Betreffzeile:
 
@@ -183,7 +183,7 @@ Betreffzeile:
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Textkörper der e-Mail:
+Textkörper der E-Mail:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

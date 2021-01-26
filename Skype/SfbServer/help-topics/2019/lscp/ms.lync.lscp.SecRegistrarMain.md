@@ -1,8 +1,8 @@
 ---
 title: Sicherheitseinstellungen für die Registrierung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 8154f9b10247a011b8434b9491e612be54a301c2
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 7c9e1449d51a56caf5371ffd340da0e507544631
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797496"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836425"
 ---
 # <a name="registrar-security-settings"></a>Sicherheitseinstellungen für die Registrierung
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Verwalten von Registrierungs Konfigurationseinstellungen in Skype for Business Server](../../../manage/authentication/registrar-configuration-settings.md)
+- [Verwalten von Registrierungskonfigurationseinstellungen in Skype for Business Server](../../../manage/authentication/registrar-configuration-settings.md)
 
 - [Ändern einer vorhandenen Registrierungsstelle](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 

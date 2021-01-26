@@ -1,8 +1,8 @@
 ---
 title: Abrufen von Benutzern
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Benutzern, der Teil des Benutzer Diensts ist. Der Benutzer Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 81d261a49798ef49d4a1d693681b4497652cf395
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Benutzer erhalten", der Teil des Benutzerdiensts ist. Der Benutzerdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: a830663fc97d8fda727d1ebb008d97407796cc7c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816724"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832425"
 ---
 # <a name="get-users"></a>Abrufen von Benutzern
  
-**Zusammenfassung:** Informieren Sie sich über den Vorgang zum Abrufen von Benutzern, der Teil des Benutzer Diensts ist. Der Benutzer Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Benutzer erhalten", der Teil des Benutzerdiensts ist. Der Benutzerdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
   
-Der Vorgang zum Abrufen von Benutzern ist Teil des Benutzer Diensts in der Repository-API für die Anruf Qualitätssteuerung.
+Der Vorgang "Benutzer abrufen" ist Teil des Benutzerdiensts in der Repository-API für das Anrufqualitätsdashboard.
   
 ## <a name="get-users"></a>Abrufen von Benutzern
 
-Benutzer abrufen gibt eine Liste der Benutzer im Repository zurück.
+"Get Users" gibt eine Liste der Benutzer im Repository zurück.
   
-|**Methode**|**Anforderungs-URI**|**HTTP-Version**|
+|**Methode**|**Anforderungs-URI**|**HTTP Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/User  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** -None.
+ **URI-Parameter** : Keine.
   
- **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
+ **Anforderungsheader** – Keine zusätzlichen Header.
   
- **Anforderungstext** – keine.
+ **Anforderungstext** – Keine.
   
- **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
+ **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
- **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
+ **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
- **Antwortheader** – keine zusätzlichen Überschriften.
+ **Antwortheader** – Keine zusätzlichen Header.
   
- **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
+ **Antworttext** : Unten sehen Sie eine Beispielantwortnutzlast in JSON.
   
 > [!NOTE]
-> Ein Array von Benutzerobjekten wird zurückgegeben. Details zum Benutzerobjekt finden Sie unter Abrufen von Benutzern. 
+> Es wird ein Array von Benutzerobjekten zurückgegeben. Details zum Benutzerobjekt finden Sie unter "Benutzer erhalten". 
   
 ```json
 [{

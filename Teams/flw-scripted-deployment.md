@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Microsoft Teams im erforderlichen Umfang für Mitarbeiter in Service und Produktion
+title: Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028171"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909369"
 ---
-# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion
+# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
 Müssen Sie eine große Anzahl von Benutzern schnell in Microsoft Teams einrichten und eine optimierte Umgebung für die Benutzer konfigurieren? Sie können im Handumdrehen die nachstehenden Anweisungen ausführen, um Identitäten und Teams schnell bereitzustellen sowie alle relevanten Richtlinien zuzuweisen, um die Endbenutzerumgebung zu definieren.
 
@@ -179,13 +179,13 @@ Kanäle sind spezielle Bereiche innerhalb eines Teams, mit denen Unterhaltungen 
 
 Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, was Benutzer in Ihrer Organisation sehen können und wozu sie berechtigt sind. Sie können z. B. steuern, welche Anwendungen auf der linken Seite des Desktops bzw. des Webbrowsers oder auf der unteren Leiste auf mobilen Geräten angeheftet sind, um die Endbenutzererfahrung im Falle des Onboardings einer großen Anzahl von Benutzern zu vereinfachen. Einige dieser Richtlinien können mit PowerShell erstellt werden, andere hingegen müssen manuell in der Admin-Konsole von Microsoft Teams erstellt werden.
 
-*Bewährte Methoden*: Bei jeder der folgenden Richtlinien werden in Wirklichkeit zwei Richtlinien erstellt: eine für Mitarbeiter in Service und Produktion, und eine für die entsprechenden Vorgesetzten. Sie können so viele oder so wenige Richtlinien erstellen, wie Sie möchten. Bei den meisten Kunden eignen sich zwei gut zum Starten, selbst wenn anfangs für alle Gruppen die gleichen Einstellungen festgelegt werden. Wenn einige Erfahrung mit Microsoft Teams gesammelt wurde, können Sie sich entscheiden, die Benutzererfahrung weiter zu differenzieren, und die beiden bereits erstellen getrennten Richtlinien können dies vereinfachen.
+*Bewährte Methoden*: Bei jeder der folgenden Richtlinien werden in Wirklichkeit zwei Richtlinien erstellt: eine für Mitarbeiter in Service und Produktion, und eine für deren Vorgesetzte. Sie können so viele oder so wenige Richtlinien erstellen, wie Sie möchten. Bei den meisten Kunden eignen sich zwei gut zum Starten, selbst wenn anfangs für alle Gruppen die gleichen Einstellungen festgelegt werden. Wenn einige Erfahrung mit Microsoft Teams gesammelt wurde, können Sie sich entscheiden, die Benutzererfahrung weiter zu differenzieren, und die beiden bereits erstellen getrennten Richtlinien können dies vereinfachen.
 
 ### <a name="create-teams-message-policies"></a>Erstellen von Nachrichtenrichtlinien für Teams
 
 Nachrichtenrichtlinien werden verwendet, um zu steuern, welche Chat- und Messagingfunktionen den Benutzern in Microsoft Teams zur Verfügung stehen.
 
-*Bewährte Methoden*: Sie können zwar die automatisch erstellte globale Standardrichtlinie verwenden, wir haben uns jedoch für eine benutzerdefinierte Richtlinie entschieden, die Sie über die nachstehenden Schritte erstellen können. Dadurch wird eine noch spezifischere, einfachere und differenziertere Benutzererfahrung für Vorgesetzte und Mitarbeiter in Service und Produktion bereitgestellt.
+*Bewährte Methoden*: Sie können zwar die automatisch erstellte globale Standardrichtlinie verwenden, wir haben uns jedoch für eine benutzerdefinierte Richtlinie entschieden, die Sie über die nachstehenden Schritte erstellen können. Dadurch wird eine noch spezifischere, einfachere und differenziertere Benutzererfahrung für Mitarbeiter in Service und Produktion sowie deren Vorgesetzte bereitgestellt.
 
 #### <a name="steps-to-create-teams-message-policies"></a>Schritte zum Erstellen von Nachrichtenrichtlinien für Teams
 
@@ -209,13 +209,13 @@ Apps werden an die App-Leiste angeheftet. Hierbei handelt es sich um die Leiste 
 
 *Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale organisationsweite Standardrichtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter und Vorgesetzte in Service und Produktion, um ihnen eine einfachere und effizientere Benutzeroberfläche zur Verfügung zu stellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche eventuell den Anforderungen Ihres Unternehmens entsprechend anpassen.
 
-#### <a name="create-the-firstline-manager-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion
+#### <a name="create-the-frontline-manager-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Wir haben einige empfohlene Optionen auf der Grundlage bewährter Methoden ausgewählt sowie zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer. Klicken Sie [hier](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy), um weitere Informationen zu erhalten.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.  
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: **App-Einrichtungsrichtlinie für Vorgesetzte in S&P**.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: **App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion**.
 ![Abbildung App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion.](media/FLW-FLM-App-Setup-Policy.png)
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
@@ -233,13 +233,13 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
     1. Kalender
     1. Schichten ![Screenshot der App-Liste für Vorgesetzte in der angegebenen Reihenfolge.](media/FLW-Manager-Pinned-Apps.png)
 
-#### <a name="create-the-firstline-worker-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion
+#### <a name="create-the-frontline-worker-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Wir haben einige empfohlene Optionen auf der Grundlage bewährter Methoden ausgewählt sowie zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer. Klicken Sie [hier](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy), um weitere Informationen zu erhalten.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: **App-Einrichtungsrichtlinie für Mitarbeiter in S&P**.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: **App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion**.
 ![Abbildung App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion.](media/FLW-FLW-App-Setup-Policy.png)
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
@@ -262,7 +262,7 @@ Als Administrator können Sie App-Berechtigungsrichtlinien verwenden, um zu steu
 
 *Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter und Vorgesetzte in Service und Produktion, um eine sichere und effizientere Benutzeroberfläche bereitzustellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche natürlich den Anforderungen Ihres Unternehmens entsprechend anpassen.
 
-#### <a name="create-the-firstline-manager-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion
+#### <a name="create-the-frontline-manager-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Hierbei handelt es sich um einige empfohlene Optionen auf der Grundlage bewährter Methoden, die zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer beitragen können. Klicken Sie [hier](teams-app-permission-policies.md), um weitere Informationen zu erhalten.
 
@@ -270,13 +270,13 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 2. Klicken Sie auf  **Hinzufügen**.
 ![Darstellung der Seite "App-Berechtigungsrichtlinie hinzufügen" mit Abschnitten für Microsoft-, Drittanbieter-und Mandanten-Apps.](media/FLW-add-app-permission-policy.png)
 
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in S&P.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion.
 4. Wählen Sie unter Microsoft-Apps **Alle Apps zulassen** aus.
 5. Wählen Sie unter Drittanbieter-Apps **Alle Apps zulassen** aus.
 6. Wählen Sie unter Mandanten-Apps **Alle Apps zulassen** aus.
 7. Klicken Sie auf  **Speichern**.
 
-#### <a name="create-the-firstline-worker-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion
+#### <a name="create-the-frontline-worker-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion
 
 Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderungen Ihres Unternehmens entsprechen. Hierbei handelt es sich um einige empfohlene Optionen auf der Grundlage bewährter Methoden, die zur Erleichterung des Onboardings einer großen Anzahl neuer Benutzer beitragen können. Klicken Sie [hier](teams-app-permission-policies.md), um weitere Informationen zu erhalten.
 
@@ -284,7 +284,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 2. Klicken Sie auf  **Hinzufügen**.
 ![Darstellung der Seite "App-Berechtigungsrichtlinie hinzufügen" mit Abschnitten für Microsoft-, Drittanbieter-und Mandanten-Apps.](media/FLW-add-app-permission-policy.png)
 
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in S&P.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion.
 4. Wählen Sie unter Microsoft-Apps **Alle Apps zulassen** aus.
 5. Wählen Sie unter Drittanbieter-Apps **Alle Apps blockieren** aus.
 6. Wählen Sie unter Mandanten-Apps **Alle Apps zulassen** aus.
@@ -350,7 +350,7 @@ Mithilfe der dynamischen Mitgliedschaft werden Regeln festgelegt, anhand derer f
 1. Suchen Sie die Datei **migrateGroups.csv** im Ordner „Daten“ im Repository.
 1. Aktualisieren Sie die CSV-Datei **migrateGroups.csv** mit den zu migrierenden Gruppen zusammen mit der Regel für die dynamische Mitgliedschaft.
 1. Suchen Sie die Datei **ConvertGroupMembershipType.ps1** im Ordner „Skripts“ im Repository.
-1. Führen Sie in PowerShell das Skript ** ConvertGroupMembershipType.ps1** aus
+1. Führen Sie in PowerShell das Skript **ConvertGroupMembershipType.ps1** aus
 
 ## <a name="test-and-validate"></a>Testen und überprüfen
 
@@ -363,7 +363,7 @@ Nachdem Sie alle Schritte ausgeführt haben, ist es an der Zeit, Ihre Arbeit zu 
 1. Vergewissern Sie sich, dass sich der Benutzer im richtigen Team befindet. Wenn dies nicht der Fall ist, überprüfen Sie die Abschnitte **Erstellen und Einrichten von Benutzern** und **Benutzer Teams zuweisen**.
 
 > [!NOTE]
-> Wenn die Bereitstellung von Mitarbeitern in Service und Produktion durch Ihr Identitäts- und Zugriffs Management-Team verwaltet wird, müssen Sie deren Verfahren zur Bereitstellung der Anmeldeinformationen für den jeweiligen Mitarbeiter befolgen.
+> Wenn die Bereitstellung von Mitarbeitern in Service und Produktion durch Ihr Identitäts- und Zugriffsverwaltungsteam verwaltet wird, müssen Sie deren Verfahren zur Bereitstellung der Anmeldeinformationen für den jeweiligen Mitarbeiter befolgen.
 
 ### <a name="check-for-errors"></a>Auf Fehler überprüfen
 

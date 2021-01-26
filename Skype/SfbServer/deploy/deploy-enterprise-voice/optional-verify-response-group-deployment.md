@@ -1,8 +1,8 @@
 ---
-title: Optional Überprüfen der Bereitstellung von Reaktionsgruppen in Skype for Business
+title: (Optional) Überprüfen der Reaktiongruppenbereitstellung in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,37 +12,37 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: Überprüfen Sie den Erfolg ihrer Reaktionsgruppen Bereitstellung in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 55faa68531d9e82cafc4ecbb25354343355dfe3f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Überprüfen Sie den Erfolg der Reaktionsgruppe-Bereitstellung in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028906"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830885"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>Optional Überprüfen der Bereitstellung von Reaktionsgruppen in Skype for Business
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Reaktiongruppenbereitstellung in Skype for Business
  
-Überprüfen Sie den Erfolg ihrer Reaktionsgruppen Bereitstellung in Skype for Business Server Enterprise-VoIP.
+Überprüfen Sie den Erfolg der Reaktionsgruppe-Bereitstellung in Skype for Business Server Enterprise-VoIP.
   
 Nachdem Sie die Reaktionsgruppe konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass Ihre Reaktionsgruppen wie erwartet funktionieren. Führen Sie mindestens eine Überprüfung der folgenden Szenarien mit den folgenden Benutzertypen durch:
   
  **Benutzer**
   
-- Ein Benutzer, der in Skype for Business verwaltet wird
+- Ein Benutzer, der in Skype for Business zu Hause ist
     
 - Ein externer Benutzer, der das Telefonfestnetz (Public Switched Telephone Network, PSTN) verwendet
     
-- Ein Agent, der in Skype for Business verwaltet wird
+- Ein Agent, der in Skype for Business zu Hause ist
     
   **Scenarios**
   
-- Der Skype for Business Benutzer ruft die Reaktionsgruppe an.
+- Der Skype for Business-Benutzer ruft die Reaktionsgruppe an.
     
 - Der externe Benutzer ruft die Reaktionsgruppe an.
     
 - Ein Benutzer ruft die Reaktionsgruppe an, während der Agent sich in einem Gespräch befindet; der Benutzer wird in der Warteschleife platziert.
 
     > [!NOTE]
-    > Wenn die Reaktionsgruppe nicht wie erwartet funktioniert, überprüfen Sie den nächsten Link:https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
+    > Wenn die Reaktionsgruppe nicht wie erwartet funktioniert, überprüfen Sie den nächsten Link: https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

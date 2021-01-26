@@ -1,8 +1,8 @@
 ---
 title: tblConfig
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig enthält eine nicht unterstützte Konfiguration für beständigen Chat Server in einer Zeile.
-ms.openlocfilehash: f79af00d6a9f97f0ce0836684a284779be662c1d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: "\"tblConfig\" enthält eine nicht unterstützte Konfiguration des Servers für beständigen Chat in einer Zeile."
+ms.openlocfilehash: 614e4e6514d695777c39a9d76482f775bd1a0981
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814623"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809735"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig enthält eine nicht unterstützte Konfiguration für beständigen Chat Server in einer Zeile.
+"tblConfig" enthält eine nicht unterstützte Konfiguration des Servers für beständigen Chat in einer Zeile.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|configLabel  <br/> |nvarchar (255); nicht NULL  <br/> |Enthält "Pool".  <br/> |
-|configContent  <br/> |nvarchar (max)  <br/> |Konfigurationsinhalt.  <br/> |
+|configLabel  <br/> |nvarchar (255), nicht NULL  <br/> |Enthält „Pool“.  <br/> |
+|configContent  <br/> |nvarchar (max)  <br/> |Inhalt der Konfiguration.  <br/> |
 |configPoolID  <br/> |GUID, nicht NULL  <br/> |Eindeutige ID der Datenbankinstanz.  <br/> |
    
 **Schlüssel**

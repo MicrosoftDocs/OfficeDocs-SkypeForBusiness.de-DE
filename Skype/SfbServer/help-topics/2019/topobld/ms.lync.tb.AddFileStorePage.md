@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen des Dateispeichers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Um einen neuen Dateispeicher zu definieren, geben Sie Folgendes an:'
-ms.openlocfilehash: 5dbd01dd767e9815811c13487c233f5bae38d839
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Geben Sie zum Definieren eines neuen Dateispeichers Folgendes an:'
+ms.openlocfilehash: 413885ffb60e1308fef2984252edc8690917019d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798572"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833545"
 ---
-# <a name="add-file-store"></a>Hinzufügen des Dateispeichers
+# <a name="add-file-store"></a>Hinzufügen eines Dateispeichers
  
-Um einen neuen Dateispeicher zu definieren, geben Sie Folgendes an:
+Geben Sie zum Definieren eines neuen Dateispeichers Folgendes an:
   
-- Den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers, der den neuen Dateispeicher hosten soll. Der FQDN des Servers muss im DNS (Domain Name System) vorhanden sein, bevor Sie die Topologie veröffentlichen.
+- Den vollqualifizierten Domänennamen des Servers, der den neuen Dateispeicher hostet. Der FQDN des Servers muss im DNS (Domain Name System) vorhanden sein, bevor Sie die Topologie veröffentlichen.
     
-- Der Name der Dateifreigabe auf dem Hostserver. Die Dateifreigabe muss vorhanden sein, bevor Sie die Topologie veröffentlichen. 
+- Den Namen der Dateifreigabe auf dem Hostserver. Die Dateifreigabe muss vor der Veröffentlichung der Topologie vorhanden sein. 
     
 

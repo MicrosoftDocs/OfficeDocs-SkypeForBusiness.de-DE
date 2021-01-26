@@ -1,8 +1,8 @@
 ---
-title: Benutzer können die Richtlinie für den externen Zugriff anzeigen oder konfigurieren
+title: Benutzer können Richtlinien für den externen Zugriff anzeigen oder konfigurieren
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 271b2cd39747489f55b710b71d8b373d23b1a6a2
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: deaf58a7ec767b4b27c368beb2e86255c69fe0dc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797952"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808135"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Richtlinien für den externen Zugriff
+# <a name="users-view-or-configure-external-access-policy"></a>Benutzer: Anzeigen oder Konfigurieren einer Richtlinie für den externen Zugriff
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Konfigurieren des Verbunds, des Remotebenutzerzugriffs und der Verbindung mit öffentlichen Verbindungen für Benutzer](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 
 

@@ -1,8 +1,8 @@
 ---
-title: MediationServers-Tabelle
+title: Tabelle "MediationServers"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
-description: Die Tabelle MediationServers ist eine unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Vermittlungs Server, der an anrufen beteiligt ist, die Datensätze in der Datenbank aufweisen.
-ms.openlocfilehash: 74c1095044bd9bb7183202d115236eba863c62da
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die Tabelle "MediationServers" ist eine Tabelle mit Unterstützung. Jeder Datensatz speichert Informationen zu einem Vermittlungsserver, der an Anrufen beteiligt ist, die Datensätze in der Datenbank enthalten.
+ms.openlocfilehash: e498409087ee5cf41b32b29ec5f66a147290e1ad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815023"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814765"
 ---
-# <a name="mediationservers-table"></a>MediationServers-Tabelle
+# <a name="mediationservers-table"></a>Tabelle "MediationServers"
  
-Die Tabelle MediationServers ist eine unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Vermittlungs Server, der an anrufen beteiligt ist, die Datensätze in der Datenbank aufweisen.
+Die Tabelle "MediationServers" ist eine Tabelle mit Unterstützung. Jeder Datensatz speichert Informationen zu einem Vermittlungsserver, der an Anrufen beteiligt ist, die Datensätze in der Datenbank enthalten.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**MediationServerId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Vermittlungs Server identifiziert.  <br/> |
+|**MediationServerId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Vermittlungsserver identifiziert.  <br/> |
 |**MediationServer** <br/> |nvarchar(256)  <br/> | <br/> |Name des Vermittlungsservers.  <br/> |
    
 

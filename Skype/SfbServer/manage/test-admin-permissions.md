@@ -1,8 +1,8 @@
 ---
 title: Testen von Administratorberechtigungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,66 +10,66 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Testen von Administratorberechtigungen in Skype for Business Server
-ms.openlocfilehash: 1e06c87dcf0e436d72c510a2bc8d9f2aa2051620
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: So testen Sie Administratorberechtigungen in Skype for Business Server
+ms.openlocfilehash: 27ae50cca0018985ad59dbc4487dd3630cb5cf87
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030158"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800090"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Testen von Administratorberechtigungen in Skype for Business Server
 
 | | |
 |--|--|
-|Überprüfungszeitplan|Nach der anfänglichen Skype for Business Server-Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.|
-|Test Tool|Windows PowerShell|
-|Erforderliche Berechtigungen|Bei der lokalen Ausführung mithilfe der Skype for Business Server Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.<br><br/>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsOUPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:<br/><br/>Get-CsAdminRole \| Where-Object {$ _. Cmdlets – Match "Test-CsOUPermission"}|
+|Überprüfungszeitplan|Nach der anfänglichen Skype for Business Server-Bereitstellung. Bei Bedarf, wenn probleme im Zusammenhang mit Berechtigungen auftreten.|
+|Testtool|Windows PowerShell|
+|Erforderliche Berechtigungen|Bei der lokalen Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglied der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br><br/>Wenn sie mit einer Remoteinstanz von Windows PowerShell ausgeführt werden, muss Benutzern eine rollengesteuerte Zugriffssteuerungsrolle zugewiesen sein, die über die Berechtigung zum Ausführen des Test-CsOUPermission verfügt. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus, um eine Liste aller rollen rbAC-Rollen, die dieses Cmdlet verwenden können, Windows PowerShell sehen:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>Beschreibung
 
-Bei der Installation von Skype for Business Server gibt eine der Aufgaben, die vom Setup Programm ausgeführt wurden, der RTCUniversalUserAdmins-Gruppe die Active Directory Berechtigungen, die zum Verwalten von Benutzern, Computern, Kontakten, Anwendungs Kontakten und inetOrgPerson erforderlich sind. Personen. Wenn Sie die Vererbung von Berechtigungen in Active Directory deaktiviert haben, kann Setup diese Berechtigungen nicht zuweisen. Daher können Mitglieder der RTCUniversalUserAdmins-Gruppe Skype for Business Server Entitäten nicht verwalten. Diese Verwaltungsprivilegien sind nur für Domänenadministratoren verfügbar. 
+Bei der Installation von Skype for Business Server erhält die Gruppe "RTCUniversalUserAdmins" durch eine der vom Setupprogramm ausgeführten Aufgaben die Active Directory-Berechtigungen, die zum Verwalten von Benutzern, Computern, Kontakten, Anwendungskontakten und InetOrg-Personen erforderlich sind. Wenn Sie die Vererbung von Berechtigungen in Active Directory deaktiviert haben, kann Setup diese Berechtigungen nicht zuweisen. Aus diesem Grund können Mitglieder der Gruppe "RTCUniversalUserAdmins" keine Skype for Business Server-Entitäten verwalten. Diese Verwaltungsrechte stehen nur Domänenadministratoren zur Verfügung. 
 
-Das Cmdlet Test-CsOUPermission überprüft, ob die erforderlichen Berechtigungen zum Verwalten von Benutzern, Computern und anderen Objekten für einen Active Directory Container festgelegt sind. Wenn diese Berechtigungen nicht festgelegt sind, können Sie dieses Problem beheben, indem Sie das [Grant-CsOUPermission-Cmdlet](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)ausführen. 
+Das Test-CsOUPermission überprüft, ob die erforderlichen Berechtigungen zum Verwalten von Benutzern, Computern und anderen Objekten für einen Active Directory-Container festgelegt sind. Wenn diese Berechtigungen nicht festgelegt sind, können Sie dieses Problem beheben, indem Sie das [Cmdlet "Grant-CsOUPermission" ausführen.](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission) 
 
-Beachten Sie, dass Grant-CsOUPermission nur Mitgliedern der RTCUniversalUserAdmins-Gruppe Berechtigungen zuweisen kann. Dieses Cmdlet kann nicht verwendet werden, um einem beliebigen Benutzer oder einer Gruppe Berechtigungen zu erteilen. Wenn Sie möchten, dass ein anderer Benutzer oder eine andere Gruppe über Benutzer Verwaltungsberechtigungen verfügt, sollten Sie diesen Benutzer (oder diese Gruppe) der Gruppe RTCUniversalUserAdmins hinzufügen. 
+Beachten SieGrant-CsOUPermission nur Mitgliedern der Gruppe "RTCUniversalUserAdmins" Berechtigungen zuweisen können. Sie können dieses Cmdlet nicht verwenden, um einem beliebigen Benutzer oder einer beliebigen Gruppe Berechtigungen zu erteilen. Wenn ein anderer Benutzer oder eine andere Gruppe über Benutzerverwaltungsberechtigungen verfügen soll, sollten Sie diesen Benutzer (oder diese Gruppe) der Gruppe "RTCUniversalUserAdmins" hinzufügen. 
 
 
-## <a name="running-the-test"></a>Durchführen des Tests
+## <a name="running-the-test"></a>Ausführen des Tests
 
-Um zu überprüfen, ob Verwaltungsberechtigungen für einen Container festgelegt sind, führen Sie das Cmdlet Test-CsOUPermission, gefolgt von dem Distinguished Name des Containers und dem Typ der Berechtigungen aus, die Sie überprüfen möchten. Mit diesem Befehl wird beispielsweise überprüft, ob die Benutzerberechtigungen für die OU ou = Redmond, DC = litwareinc, DC = com festgelegt sind:
+Um zu überprüfen, ob Verwaltungsberechtigungen für einen Container festgelegt sind, führen Sie das Cmdlet Test-CsOUPermission aus, gefolgt vom Distinguished Name des Containers und dem Zu überprüfenden Berechtigungstyp. Mit diesem Befehl wird beispielsweise überprüft, ob Benutzerberechtigungen für die OU ou=Redmond,dc=litwareinc,dc=com festgelegt sind:
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user"`
 
-Wenn Sie mehrere Berechtigungen mithilfe eines einzelnen Befehls überprüfen möchten, schließen Sie die in Anführungszeichen eingeschlossenen Berechtigungstypen ein, und trennen Sie diese Typen dann durch Kommas. Mit diesem Befehl werden beispielsweise Benutzer-, Computer-und Kontakt Berechtigungen überprüft:
+Um mehrere Berechtigungen mithilfe eines einzelnen Befehls zu überprüfen, schließen Sie jeden Berechtigungstyp in Anführungszeichen ein, und trennen Sie diese Typen dann durch Kommas. Mit dem folgenden Befehl werden beispielsweise Benutzer-, Computer- und Kontaktberechtigungen überprüft:
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"`
 
-Weitere Informationen finden Sie im [Hilfethema zum Cmdlet Test-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/test-csoupermission).
+Weitere Informationen finden Sie im [Hilfethema zum Test-CsOUPermission Cmdlet](https://docs.microsoft.com/powershell/module/skype/test-csoupermission).
 
-## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
+## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
 
-Wenn die erforderlichen Berechtigungen bereits festgelegt wurden, gibt Test-CsOUPermission eine Antwort mit einem Wort zurück:
+Wenn die erforderlichen Berechtigungen bereits festgelegt wurden, gibt Test-CsOUPermission eine Ein-Wort-Antwort zurück:
 
-Wahr
+Richtig
 
-Wenn die erforderlichen Berechtigungen nicht festgelegt sind, gibt Test-CsOUPermission den Wert false zurück. Möglicherweise müssen Sie einen Moment suchen, um diesen Wert zu finden. Sie wird in der Regel in mehrere begleitende Warnungen eingebettet. Beispiel:
+Wenn die erforderlichen Berechtigungen nicht festgelegt sind, gibt Test-CsOUPermission den Wert "False" zurück. Möglicherweise müssen Sie einen Moment suchen, um diesen Wert zu finden. Sie wird in der Regel in mehrere begleitende Warnungen eingebettet. Beispiel:
 
-Warnung: Zugriffssteuerungseintrag (Access Control Entry, ACE) ATL-CS-001\RTCUniversalUserReadOnlyGroup; ermöglichen ReadProperty ContainerInherit Nachfolger bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
+WARNUNG: Zugriffssteuerungseintrag (Access Control Entry, ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup; allow; ReadProperty; ContainerInherit; Absteigend; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
-Warnung: die Zugriffssteuerungseinträge (ACEs) für das Objekt "ou = Northamerica, DC = ATL-CS-001\DC = litwareinc, DC = com" sind nicht verfügbar. 
+WARNUNG: Die Zugriffssteuerungseinträge (Access Control Entries, ACEs) für das Objekt "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" sind nicht bereit. 
 
 False 
 
-Warnung: "Test-CsOUPermission"-Verarbeitung wurde mit Warnungen abgeschlossen. "2"-Warnungen wurden während dieser Ausführung aufgezeichnet. 
+WARNUNG: Die Verarbeitung "Test-CsOUPermission" wurde mit Warnungen abgeschlossen. "2"-Warnungen wurden während dieser Ausführung aufgezeichnet. 
 
-Warnung: detaillierte Ergebnisse finden Sie unter "C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html". 
+WARNUNG: Detaillierte Ergebnisse finden Sie unter "C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html". 
 
-## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
+## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test möglicherweise fehlgeschlagen ist
 
-Wenn "Test-CsOUPermission" fehlschlägt, bedeutet dies normalerweise, dass die angegebene Berechtigung nicht der RTCUniversalUserAdmins-Gruppe zugewiesen wurde. Sie können dieses Problem beheben und die erforderlichen Berechtigungen mithilfe des Cmdlets Grant-CsOUPermission zuweisen. Mit diesem Befehl erhalten Sie beispielsweise die OU-Berechtigungen für Benutzer, Kontakte und InetOrgPersons für die RTCUniversalUserAdmins-Gruppe:
+Wenn Test-CsOUPermission fehlert, bedeutet dies in der Regel, dass die angegebene Berechtigung der Gruppe "RTCUniversalUserAdmins" nicht zugewiesen wurde. Sie können dieses Problem beheben und die erforderlichen Berechtigungen mithilfe des cmdlets Grant-CsOUPermission zuweisen. Mit diesem Befehl werden der Gruppe "RTCUniversalUserAdmins" beispielsweise Organisationseinheitenberechtigungen für Benutzer, Kontakte und InetOrgPersons erteilt:
 
 `Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"`
 
-Weitere Informationen finden Sie im [Hilfethema zum Cmdlet Test-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/test-csoupermission).
+Weitere Informationen finden Sie im [Hilfethema zum Test-CsOUPermission Cmdlet](https://docs.microsoft.com/powershell/module/skype/test-csoupermission).

@@ -1,8 +1,8 @@
 ---
 title: Auswählen der Überlaufwarteschleife
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
-description: Verwenden Sie das Dialogfeld Überlauf Warteschlange auswählen, um eine Warteschlange auszuwählen, in der Anrufe weitergeleitet werden, wenn eine Reaktionsgruppen Warteschlange voll ist.
-ms.openlocfilehash: dddd982a2a08aae0e3b2f22f2365f7fa9cc46e3f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Verwenden Sie das Dialogfeld "Warteschleife auswählen", um eine Warteschleife auszuwählen, in der Anrufe weitergeleitet werden, wenn eine Reaktionsgruppe voll ist.
+ms.openlocfilehash: 99ffee7d61423fde07d3261b2bcf429e71cc351f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793453"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824595"
 ---
 # <a name="select-overflow-queue"></a>Auswählen der Überlaufwarteschleife
  
-Verwenden Sie das Dialogfeld **Überlauf Warteschlange auswählen** , um eine Warteschlange auszuwählen, in der Anrufe weitergeleitet werden, wenn eine Reaktionsgruppen Warteschlange voll ist.
+Verwenden Sie **das Dialogfeld "Warteschleife** auswählen", um eine Warteschleife auszuwählen, in der Anrufe weitergeleitet werden, wenn eine Reaktionsgruppe voll ist.
   
-Geben Sie im Suchfeld den Namen der zu verwendenden Warteschlange ganz oder teilweise ein. Wenn Sie alle verfügbaren Warteschlangen zurückgeben möchten, lassen Sie das Suchfeld leer, und klicken Sie auf das Symbol suchen.
+Geben Sie im Suchfeld Teile oder den vollständigen Namen der Warteschleife ein, die Sie verwenden möchten. Um alle verfügbaren Warteschleifen zurückzugeben, lassen Sie das Suchfeld leer und klicken auf das Suchsymbol.
   
-Wählen Sie in der Liste der von der Suche zurückgegebenen Warteschlangen die Warteschlange aus, die Sie zum Weiterleiten von Anrufen verwenden möchten, wenn eine Reaktionsgruppen Warteschlange voll ist.
+Wählen Sie in der Liste der Warteschlangen, die von der Suche zurückgegeben werden, die Warteschleife aus, die Sie zum Weiterleiten von Anrufen verwenden möchten, wenn eine Reaktionsgruppe voll ist.
   
 
