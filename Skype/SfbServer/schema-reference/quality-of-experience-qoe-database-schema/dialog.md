@@ -1,8 +1,8 @@
 ---
-title: Dialog-Tabelle
+title: Dialogtabelle
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-description: Die Dialog Tabelle ist eine unterstützende Tabelle; Jeder Datensatz steht für ein SIP-Dialogfeld (Session Initiation Protocol).
-ms.openlocfilehash: 85d4a9f16a88db386565c065161eedeb61fba913
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bei der Dialog-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird; jeder Datensatz steht für einen SIP-Dialog (Session Initiation Protocol).
+ms.openlocfilehash: 05d9519c9aef20b8c82d904a9d5718a4de8c092c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809533"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815845"
 ---
-# <a name="dialog-table"></a>Dialog-Tabelle
+# <a name="dialog-table"></a>Dialogtabelle
  
-Die Dialog Tabelle ist eine unterstützende Tabelle; Jeder Datensatz steht für ein SIP-Dialogfeld (Session Initiation Protocol).
+Bei der Dialog-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird; jeder Datensatz steht für einen SIP-Dialog (Session Initiation Protocol).
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Zeitpunkt, zu dem der Quality of Excellence (QoE)-Agent den ersten Bericht von einem Anrufer oder angerufenen erhält. Wird in Verbindung mit SessionSeq verwendet, um eine Sitzung eindeutig zu identifizieren.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Sequenznummer, um Sitzungen zu unterscheiden, wenn Sie dieselbe ConferenceDateTime haben.  <br/> |
-|**Dialogfeld-Nr** <br/> |varchar (256)  <br/> ||Dialog Feld-ID, die global eindeutig ist.  <br/> |
-|**DialogIDChecksum** <br/> |int  <br/> |Index  <br/> |Die Prüfsumme der Dialog Feld-ID.  <br/> |
+|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Zeitpunkt, zu dem der QoE-Agent (Quality of Excellence) den ersten Bericht von einem Anrufer oder Angerufenen empfängt. Wird zusammen mit SessionSeq verwendet, um eine Sitzung eindeutig zu identifizieren.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Sequenznummer zur Unterscheidung von Sitzungen, die dieselbe ConferenceDateTime aufweisen.  <br/> |
+|**DialogID** <br/> |varchar(256)  <br/> ||Dialog-ID, die global eindeutig ist.  <br/> |
+|**DialogIDChecksum** <br/> |int  <br/> |Index  <br/> |Prüfsumme der Dialog-ID.  <br/> |
    
 

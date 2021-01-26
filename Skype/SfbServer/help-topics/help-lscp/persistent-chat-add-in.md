@@ -1,8 +1,8 @@
 ---
 title: Add-In für beständigen Chat
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,54 +14,54 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
-description: Sie können den Bereich "Add-in" auf der Seite "beständiger Chat" verwenden, um URLs mit beständigen Chatrooms zu verknüpfen. Diese URLs werden im Client im Chatroom des Erweiterungsbereichs für Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins weitere Add-Ins hinzufügen und Verwalter und Ersteller von Chatrooms müssen die Räume mit einem der registrierten Add-Ins verknüpfen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
-ms.openlocfilehash: 2122f07bb51167dbaea6eb7d0881443e1ff44575
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Sie können den Add-In-Abschnitt der Seite für beständigen Chat verwenden, um URLs Chatrooms zuzuordnen. Diese URLs werden im Client im Chatroom im Bereich zur Erweiterbarkeit von Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade auf ihrem Client sehen können.
+ms.openlocfilehash: 306cd54864400362a869db34d79f1fe6241d81ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822568"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803775"
 ---
 # <a name="persistent-chat-add-in"></a>Add-In für beständigen Chat
 
-Sie können den Bereich " **Add-in** " auf der Seite " **beständiger Chat** " verwenden, um URLs mit beständigen Chatrooms zu verknüpfen. Diese URLs werden im Client im Chatroom des Erweiterungsbereichs für Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins weitere Add-Ins hinzufügen und Verwalter und Ersteller von Chatrooms müssen die Räume mit einem der registrierten Add-Ins verknüpfen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
+Sie können den **Add-In-Abschnitt** der Seite für beständigen **Chat** verwenden, um URLs Chatrooms zuzuordnen. Diese URLs werden im Client im Chatroom im Bereich zur Erweiterbarkeit von Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade auf ihrem Client sehen können.
 
-Add-Ins werden verwendet, um die in-Room-Erfahrung zu erweitern. Ein typisches Add-in kann eine URL enthalten, die auf eine Silverlight-Anwendung zeigt, die abfängt, wenn ein Börsenticker in einem Chatroom bereitgestellt wird, und den Aktienverlauf im Bereich "Erweiterbarkeit" anzeigt. Weitere Beispiele sind das Einbetten einer OneNote 2013-URL in den Chatroom als Add-in, um einen freigegebenen Kontext einzubeziehen, beispielsweise "Top of mindi" oder "Tagesthema".
+Add-Ins werden verwendet, um die Raumerfahrung zu erweitern. Ein typisches Add-in kann eine URL enthalten, die auf eine Silverlight-Anwendung verweist, die abfängt, wenn ein Aktienticker in einem Chatroom veröffentlicht wird, und zeigt den Aktienverlauf im Erweiterbarkeitsbereich an. Weitere Beispiele sind das Einbetten einer OneNote 2013-URL in den Chatroom als Add-In, um einen freigegebenen Kontext wie "Kopf-an-Kopf" oder "Thema des Tages" einzubetten.
 
-Informationen zum Erstellen von Add-Ins für beständige Chatrooms finden Sie unter [Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md). Wenn Sie ein beständiger Chat-Administrator sind, können Sie Add-Ins mithilfe der Systemsteuerung oder Windows PowerShell-Cmdlets erstellen.
+Informationen zum Erstellen von Add-Ins für Chatrooms für beständigen Chat finden Sie unter "Konfigurieren von Add-Ins für Chatrooms für beständigen [Chat in Skype for Business Server 2015".](../../manage/persistent-chat/configure-add-ins.md) Wenn Sie ein Administrator für beständigen Chat sind, können Sie Add-Ins mithilfe der Systemsteuerung oder Windows PowerShell erstellen.
 
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
 Auf der Seite **Add-In** können Sie die folgenden Aufgaben ausführen:
 
-- [Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
+- [Konfigurieren von Add-Ins für Chatrooms für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
 
-## <a name="to-configure-add-ins-for-chat-rooms"></a>So konfigurieren Sie Add-ins für Chatrooms
+## <a name="to-configure-add-ins-for-chat-rooms"></a>So konfigurieren Sie Add-Ins für Chatrooms
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-1. Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsPersistentChatAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Systemsteuerung anwenden können, finden Sie unter [Open Lync Server Administrative Tools](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).
+2. Wählen Sie **im Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein. Weitere Informationen zu den verschiedenen Methoden, die Sie zum Starten der Systemsteuerung verwenden können, finden Sie unter [Open Lync Server Administrative Tools](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).
 
 3. Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Add-In**.
 
-    Wählen Sie für die Bereitstellung mehrerer beständiger Chat Server Pools den entsprechenden Pool in der Dropdownliste aus.
+    Wählen Sie für mehrere Bereitstellungen des Pools für beständigen Chat den entsprechenden Pool aus der Dropdownliste aus.
 
 4. Klicken Sie auf der Seite **Add-In** auf **Neu**.
 
-5. Wählen Sie in **Dienst auswählen**den Dienst aus, der dem Server Pool für beständigen Chat entspricht, in dem Sie das Add-in erstellen müssen. Add-Ins können nicht von einem Pool in einen anderen verschoben oder in mehreren Pools gemeinsam verwendet werden.
+5. Wählen **Sie in "Dienst** auswählen" den Dienst aus, der dem Serverpool für beständigen Chat entspricht, in dem Sie das Add-in erstellen müssen. Add-Ins können nicht von einem Pool in einen anderen Pool verschoben oder von unterschiedlichen Pools gemeinsam genutzt werden.
 
-6. Gehen Sie unter **Neues Add-In** wie folgt vor:
+6. Führen Sie unter **Neues Add-In** Folgendes aus:
 
-   - Geben Sie im Feld **Name** einen Namen für das neue Add-In ein.
+   - Geben Sie unter **Name** einen Namen für das neue Add-In an.
 
-   - Geben Sie unter **URL** die URL ein, die mit dem Add-In verknüpft werden soll. URLs müssen das HTTP- oder HTTPS-Protokoll verwenden.
+   - Geben Sie unter **URL** die URL an, die dem Add-In zugeordnet werden soll. Die URLs sind auf die Protokolle "http" und "https" beschränkt.
 
 7. Klicken Sie auf **Commit ausführen**.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-Ausführliche Informationen zu den Features und Funktionen des beständigen Chat Servers finden Sie unter [Planen des beständigen Chat Servers in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Bereitstellen eines beständigen Chat Servers in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)und [Verwalten des beständigen Chat Servers in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Weitere Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie unter ["Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) ["Deploy Persistent Chat Server in Skype for Business Server 2015"](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)und ["Manage Persistent Chat Server in Skype for Business Server 2015".](../../manage/persistent-chat/persistent-chat.md)
 
 

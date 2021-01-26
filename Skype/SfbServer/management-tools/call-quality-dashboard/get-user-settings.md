@@ -1,8 +1,8 @@
 ---
 title: Abrufen der Benutzereinstellungen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Benutzereinstellungen, der Teil des Benutzer Einstellungs Diensts ist. Der Benutzer Einstellungsdienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 5b5ad679387866ba6562e031b6d3a42cc68851a0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Benutzereinstellungen erhalten", der Teil des Benutzereinstellungsdiensts ist. Der Benutzereinstellungsdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: e2ebf39ba5a7de5d36a8b1ea0441808b6e71f97b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816744"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832475"
 ---
 # <a name="get-user-settings"></a>Abrufen der Benutzereinstellungen
  
-**Zusammenfassung:** Erfahren Sie mehr über den Vorgang zum Abrufen von Benutzereinstellungen, der Teil des Benutzer Einstellungs Diensts ist. Der Benutzer Einstellungsdienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Benutzereinstellungen erhalten", der Teil des Benutzereinstellungsdiensts ist. Der Benutzereinstellungsdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
   
-Der Vorgang zum Abrufen von Benutzereinstellungen ist Teil des Benutzer Einstellungs Diensts in der Repository-API für die Anruf Qualitätssteuerung.
+Der Vorgang "Benutzereinstellungen abrufen" ist Teil des Benutzereinstellungsdiensts in der Repository-API für das Anrufqualitätsdashboard.
   
 ## <a name="get-user-settings"></a>Abrufen der Benutzereinstellungen
 
-Abrufen von Benutzereinstellungen gibt eine Liste der Einstellungen für einen bestimmten Benutzer zurück.
+Get User Settings returns a list of settings for a specified user.
   
 
-|**Methode**|**Anforderungs-URI**|**HTTP-Version**|
+|**Methode**|**Anforderungs-URI**|**HTTP Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/User/{UserID}/Setting  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting  <br/> |HTTP/1.1  <br/> |
    
  **URI-Parameter**
   
-- *effektiv* – optional. Dieser Parameter gilt nur, wenn die spezielle Benutzer-ID Standard verwendet wird. In anderen Fällen wird Sie ignoriert. `True`gibt effektive Benutzereinstellungen zurück `false` und gibt nur Benutzereinstellungen zurück (Standard).
+- *effective*  – Optional. Dieser Parameter gilt nur, wenn die spezielle Standardeinstellung für die Benutzer-ID verwendet wird. In anderen Fällen wird sie ignoriert. `True` gibt effektive Benutzereinstellungen zurück `false` und gibt nur Benutzereinstellungen zurück (Standard).
     
-  **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
+  **Anforderungsheader** – Keine zusätzlichen Header.
   
-  **Anforderungstext** – keine.
+  **Anforderungstext** – Keine.
   
-  **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
+  **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
-  **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
+  **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
-  **Antwortheader** – keine zusätzlichen Überschriften.
+  **Antwortheader** – Keine zusätzlichen Header.
   
-  **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
+  **Antworttext** : Unten sehen Sie eine Beispielantwortnutzlast in JSON.
   
 ```json
 [{

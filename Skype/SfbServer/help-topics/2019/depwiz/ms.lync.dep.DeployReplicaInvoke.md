@@ -1,8 +1,8 @@
 ---
 title: Installieren des lokalen Konfigurationsspeichers (Aufruf)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Der Bereich Befehle ausführen zeigt den Status der Aufgaben für die Installation des lokalen schreibgeschützten Replikats des zentralen Verwaltungsspeichers an. Während die Aufgaben ausgeführt werden, wird der Aufgabenbereich aktualisiert, wenn die Befehle ausgeführt werden. Überprüfen Sie den Vorgangsstatus, und notieren Sie alle angezeigten Fehler oder Warnungen. Wenn die Aufgaben abgeschlossen sind, wird der Nachrichten Aufgabenstatus: abgeschlossen angezeigt, und in der Dropdownliste für die Protokolldateien werden die Namen der Protokolldateien angezeigt. Um die erstellten Protokolldateien anzuzeigen, wählen Sie eine Protokolldatei aus, die Sie anzeigen möchten, und klicken Sie auf Protokoll anzeigen. Überprüfen Sie alle Protokolldateien auf Erfolgs-, Fehler-und Warnmeldungen.'
-ms.openlocfilehash: 4a0c8e909795711ff4611c0957a64706985e6347
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Im Bereich Befehle ausführen wird der Status von Aufgaben zur Installation des lokalen schreibgeschützten Replikats des zentralen Verwaltungsspeichers angezeigt. Der Aufgabenbereich wird während der Ausführung der Befehle laufend aktualisiert. Sie können den Aufgabenstatus überprüfen und etwaige Fehler oder Warnungen notieren. Nach Abschluss der Aufgaben wird Aufgabenstatus: Abgeschlossen angezeigt, und in der Dropdownliste mit den Protokolldateien werden deren Namen angezeigt. Wählen Sie zum Anzeigen einer Protokolldatei die gewünschte Protokolldatei aus, und klicken Sie auf Protokoll anzeigen. Überprüfen Sie die Protokolldatei auf Erfolgs-, Fehler- und Warnmeldungen.'
+ms.openlocfilehash: 5d5ca227e4631751bb9bb7774093749f83e82a6b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794714"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801525"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Installieren des lokalen Konfigurationsspeichers (Aufruf)
  
-Der Bereich **Befehle ausführen** zeigt den Status der Aufgaben für die Installation des lokalen schreibgeschützten Replikats des zentralen Verwaltungsspeichers an. Während die Aufgaben ausgeführt werden, wird der Aufgabenbereich aktualisiert, wenn die Befehle ausgeführt werden. Überprüfen Sie den Vorgangsstatus, und notieren Sie alle angezeigten Fehler oder Warnungen. Wenn die Aufgaben abgeschlossen sind, wird der Nachrichten **Aufgabenstatus: abgeschlossen** angezeigt, und in der Dropdownliste für die Protokolldateien werden die Namen der Protokolldateien angezeigt. Um die erstellten Protokolldateien anzuzeigen, wählen Sie eine Protokolldatei aus, die Sie anzeigen möchten, und klicken Sie auf **Protokoll anzeigen**. Überprüfen Sie alle Protokolldateien auf Erfolgs-, Fehler-und Warnmeldungen.
+Im Bereich **Befehle ausführen** wird der Status von Aufgaben zur Installation des lokalen schreibgeschützten Replikats des zentralen Verwaltungsspeichers angezeigt. Der Aufgabenbereich wird während der Ausführung der Befehle laufend aktualisiert. Sie können den Aufgabenstatus überprüfen und etwaige Fehler oder Warnungen notieren. Nach Abschluss der Aufgaben wird **Aufgabenstatus: Abgeschlossen** angezeigt, und in der Dropdownliste mit den Protokolldateien werden deren Namen angezeigt. Wählen Sie zum Anzeigen einer Protokolldatei die gewünschte Protokolldatei aus, und klicken Sie auf **Protokoll anzeigen**. Überprüfen Sie die Protokolldatei auf Erfolgs-, Fehler- und Warnmeldungen.
   
-Nachdem Sie die Protokolldateien überprüft haben, klicken Sie auf **Fertig stellen** , um die Installation des lokalen Konfigurationsspeichers abzuschließen.
+Klicken Sie nach der Überprüfung der Protokolldatei auf **Fertig stellen**, um die Installation des lokalen Konfigurationsspeichers abzuschließen.
   
 

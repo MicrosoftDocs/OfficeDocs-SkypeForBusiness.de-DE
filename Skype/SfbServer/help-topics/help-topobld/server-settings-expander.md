@@ -1,8 +1,8 @@
 ---
 title: Servereinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 09d2372927cc77a668cfaaf41171d2c2c281899b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a5f1a8268803e7059593795d207dff10b8de0c4e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215706"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806595"
 ---
-# <a name="server-settings-expander"></a>Servereinstellungen – Erweiterung
+# <a name="server-settings-expander"></a>Servereinstellungen – Erweiterung
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:
   

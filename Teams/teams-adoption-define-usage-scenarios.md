@@ -1,7 +1,7 @@
 ---
 title: Definieren von Verwendungsszenarios für Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die besten anwendbaren Nutzungsszenarien für die Experimentierphase ihrer Teams-Einführung auswählen.
+description: Erfahren Sie, wie Sie die besten Verwendungsszenarien für die Experimentphase Ihrer Einführung in Teams auswählen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: fb5f1370369da20c14a658f7a2525704f71195a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997266"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804595"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren von Verwendungsszenarios für Microsoft Teams
 
-Stellen Sie sicher, dass Sie sich mit den Geschäftsprojekten (Szenarien) vertraut machen, die für diese Phase der Implementierung in diesem Bereich zur Verfügung stehen. Sehen Sie sich diese Liste mit Beispielszenarien an, die hervorragende Kandidaten für ein Early Adopter-Programm sind. Sie können mit Easy WINS beginnen, beispielsweise:
+Stellen Sie sicher, dass Sie die Geschäftsprojekte (Szenarien) verstehen, die in dieser Phase Ihrer Implementierung im Bereich sind. Sehen Sie sich diese Liste der Beispielszenarien an, die für ein Early Adopter-Programm geeignet sind. Sie können mit einfachen Gewinnen beginnen, z. B.:
 
 - Persönliche Produktivität
 - Modernes Projektmanagement
@@ -38,38 +38,38 @@ Stellen Sie sicher, dass Sie sich mit den Geschäftsprojekten (Szenarien) vertra
 
 ![Abbildung der drei Hauptszenarien](media/teams-adoption-modernizing-core-scenarios.png)
 
-Darüber hinaus sind folgende Szenarien zu untersuchen:
+Weitere Szenarien, die Sie berücksichtigen sollten, sind:
 
-- Mitarbeiterengagement und Kommunikation
-- Schnellere Markteinführung von Kampagnen
-- Höhere Umsatz Produktivität und steigende Umsätze
-- Optimieren von Geschäftsbewertungen
+- Mitarbeiterbindung und Kommunikation
+- Schnelleres Bringen Sie Kampagnen auf den Markt
+- Steigern der Verkaufsproduktivität und Steigern des Umsatzes
+- Optimieren von Geschäftsrezensionen
 
-![Eine Illustration von Teams Use Cases für jedes Szenario](media/teams-adoption-use-cases.png)
+![Abbildung von Teams-Szenarien für jedes Szenario](media/teams-adoption-use-cases.png)
 
-Denken Sie an dieses Szenario der Modernisierungs Bewegung als kumulativer Prozess – machen Sie sich mit grundlegenden Szenarien vertraut, um mit dieser neuen Arbeitsweise Begeisterung, Vertrautheit und Glaubwürdigkeit zu schaffen. Setzen Sie dann auf ehrgeizigere Wirkungsbereiche. Da weitere Auswirkungen auf Microsoft Teams für Ihre Geschäftskollegen aufgezeigt werden, werden sich mehr von Ihnen engagieren, und das Momentum wird aufgebaut. Für viele unserer Kunden, sobald Sie diesen Prozess in Gang bringen, finden Sie heraus, dass sich die Geschäftsbeteiligten an Sie wenden, nachdem Sie erfahren haben, wie Ihre Kollegen von Microsoft Teams profitieren.
+Stellen Sie sich diese Szenariobewegung als kumulierten Prozess vor – bringen Sie Dinge mit grundlegenderen Szenarien in Gang, um Begeisterung, Vertrautheit und Glaubwürdigkeit mit dieser neuen Arbeitsweise zu erzeugen. Wechseln Sie dann zu anspruchsvolleren Einflussbereichen. Wenn sich mehr Wirkung mit Microsoft Teams für Ihre Geschäftskollegen zeigt, werden sich mehr von ihnen engagieren und Dynamik entwickeln. Für viele unserer Kunden finden sie, sobald sie diesen Prozess starten, die Projektbeteiligten, die sie erreichen, nachdem sie erfahren haben, wie ihre Kollegen von Microsoft Teams Wert erhalten haben.
 
-## <a name="interview-business-stakeholders"></a>Befragung von Stakeholdern im Unternehmen
+## <a name="interview-business-stakeholders"></a>Vorstellungsgespräch mit Projektbeteiligten
 
-Um die Auswahl dieser frühen Projekte zu bestätigen, empfehlen wir, sich direkt mit den Stakeholdern zu treffen, die Sie zuvor in diesem Prozess identifiziert haben. Ihr Ziel ist es, an dieser Stelle Weitere Informationen über Ihr Unternehmen zu hören und zu erfahren. Bedenken Sie die folgenden Fragen, um die Unterhaltung zu lenken:
+Um die Auswahl dieser frühen Projekte zu bestätigen, empfehlen wir ein direktes Treffen mit den Projektbeteiligten, die Sie zuvor in diesem Prozess identifiziert haben. Ihr Ziel an diesem Punkt ist es, weitere Informationen über das Unternehmen zu hören und zu erfahren. Berücksichtigen Sie die folgenden Fragen, um die Unterhaltung zu führen:
 
-- Was sind einige der Herausforderungen oder Probleme des Unternehmens in Bezug auf Kommunikation und Zusammenarbeit?
-- Welche Bereiche möchte Ihre Organisation verbessern?
-- Welche strategischen Initiativen oder aktuellen Transformationsprojekte der Organisation können von Teams unterstützt werden?
-- Welche Methoden der Kommunikation und Zusammenarbeit werden in der Regel besser von Ihrer Organisation empfangen als andere?
-- Was ist der Prozess zum Entwerfen, verteilen und Freigeben von Informationen?
+- Welche Herausforderungen oder Probleme der Organisation gibt es in Bezug auf Kommunikation und Zusammenarbeit?
+- In welchen Bereichen möchte Ihre Organisation verbesserungen?
+- Welche strategischen Initiativen oder aktuellen Transformationsprojekte der Organisation kann Teams unterstützen?
+- Welche Kommunikationsmethoden und Zusammenarbeitsmethoden werden in Ihrer Organisation in der Regel besser angenommen als andere?
+- Was ist der Prozess zum Entwerfen, Verteilen und Freigeben von Informationen?
 
-## <a name="map-and-prioritize-business-scenarios"></a>Zuordnen und Priorisieren von Geschäftsszenarien
+## <a name="map-and-prioritize-business-scenarios"></a>Planen und Priorisieren von Geschäftsszenarien
 
-Um sicherzustellen, dass Sie über die richtigen Informationen zum Geschäftsszenario verfügen, sollten Sie das folgende Format verwenden, um das Szenario aus der Perspektive des Mitarbeiters und des Geschäfts Besitzers des Prozesses zu dokumentieren. Beide Perspektiven sind erforderlich, um einen erfolgreichen Weg weiter zu gestalten.
+Um sicherzustellen, dass Sie über die richtigen Informationen zum Unternehmensszenario verfügen, können Sie das Szenario unter Dem Gesichtspunkt des Mitarbeiters, der die Arbeit abgeschlossen hat, und des geschäftlichen Besitzers des Prozesses mithilfe des folgenden Formats dokumentieren. Beide Perspektiven sind erforderlich, um einen erfolgreichen Weg nach vorne zu schaffen.
 
 ![Abbildung des Frameworks zum Identifizieren von Szenarien](media/teams-adoption-identify-scenarios.png)
 
-Nachdem Sie sich mit einem oder mehreren geschäftlichen Stakeholdern unterrichtet haben, können Sie Ihre Szenarien auf der Grundlage von Impact vs. Schwierigkeitsgrad priorisieren. (Ihre Szenarien sind möglicherweise zusätzlich zu den oben genannten Szenarien.) Geeignete Kandidaten für Ihre Experimentierphase sollten höhere Auswirkungen und niedrige bis mittlere Schwierigkeiten haben. Auf diese Weise wird sichergestellt, dass Ihr Projekt nicht durch den Kriech Bereich oder technische Schwierigkeiten beeinträchtigt wird, bevor Sie den Wert ihrer Arbeit anzeigen können. Nachfolgend wird ein Beispieldiagramm angezeigt.
+Nachdem Sie mit einem oder mehreren Projektbeteiligten gesprochen haben, können Sie Ihre Szenarien basierend auf Auswirkungen und Schwierigkeiten priorisieren. (Ihre Szenarien können zusätzlich zu den oben beschriebenen Szenarien sein.) Geeignete Kandidaten für Ihre Experimentierphase sollten höhere Auswirkungen und geringe bis mittlere Schwierigkeiten haben. Dadurch wird sichergestellt, dass Ihr Projekt nicht von schleichenden oder technischen Schwierigkeiten betroffen ist, bevor Sie den Wert Ihrer Arbeit anzeigen können. Unten ist ein Beispieldiagramm dargestellt.
 
-![Abbildung einer Szenario-Auswirkung vs. Schwierigkeitsgrad](media/teams-adoption-impact-difficulty.png)
+![Abbildung mit Auswirkungen auf Szenarios im Vergleich zu Schwierigkeiten](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Wir sind stets bemüht, zu erfahren, wie unsere Kunden Teams auf neue innovative Art und Weise nutzen. Teilen Sie Ihre #TeamsStories mit uns in unserem [Diskussionsforum zur Einführung von fahrgenehmigungen](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Fügen Sie die hashtag- **#TeamsStories** in ihren Beitrag ein. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
+> Wir freuen uns immer darauf zu erfahren, wie unsere Kunden Teams auf neue und innovative Weise nutzen. Teilen Sie #TeamsStories Ihre Erfahrungen mit uns in unserem [Diskussionsforum](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)zur Einführung der Fahrt mit uns. Fügen Sie Den Hashtag **#TeamsStories** in Ihren Beitrag ein. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Onboard Early Adopters und Feedback sammeln](teams-adoption-onboard-early-adopters.md).
+![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) darstellt: [Integrieren Sie early adopters, und sammeln Sie Feedback.](teams-adoption-onboard-early-adopters.md)

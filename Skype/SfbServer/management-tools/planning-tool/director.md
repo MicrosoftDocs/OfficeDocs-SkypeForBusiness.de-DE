@@ -1,33 +1,34 @@
 ---
 title: Director (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.Director
+- ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Ein Director ist ein Server, auf dem die Skype for Business Server 2015-Kommunikationssoftware ausgeführt wird, die Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten aufweist.
-ms.openlocfilehash: 7ce22dadf636d4e7b5e609fc5b3fea9a1891fadd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Ein Director ist ein Server mit Skype for Business Server 2015-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten erstellt.
+ms.openlocfilehash: 76315e9f63e1121119f3823187c379985c4914f0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816474"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834935"
 ---
-# <a name="director-planning-tool"></a>Director (Planning Tool)
+# <a name="director-planning-tool"></a>Director (Planungstool)
  
-Ein Director ist ein Server, auf dem die Skype for Business Server 2015-Kommunikationssoftware ausgeführt wird, die Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten aufweist. 
+Ein Director ist ein Server mit Skype for Business Server 2015-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten erstellt. 
   
-Diese Rolle ist optional, wenn Sie einen Director in den beiden folgenden Szenarien bereitstellen möchten:
+Diese Rolle ist optional. In den folgenden beiden Szenarien würden Sie einen Director bereitstellen:
   
-- Wenn Sie den Zugriff von externen Benutzern durch die Bereitstellung von Edge-Servern aktivieren, sollten Sie auch einen Director bereitstellen. In diesem Szenario authentifiziert der Director die externen Benutzer und übergibt dann den Datenverkehr an interne Server. Wenn ein Director zur Authentifizierung externer Benutzer verwendet wird, entlastet es Front-End-Pool Server vor dem mehr Aufwand bei der Authentifizierung dieser Benutzer. Darüber hinaus können Sie interne Front-End-Pools vor böswilligem Datenverkehr wie Denial-of-Service-Angriffen isolieren. Wenn das Netzwerk bei einem solchen Angriff mit einem ungültigen externen Datenverkehr überflutet wird, endet dieser Datenverkehr beim Director.
+- Wenn Sie den Zugriff durch externe Benutzer durch die Bereitstellung von Edgeservern aktivieren, sollten Sie auch einen Director bereitstellen. In diesem Szenario authentifiziert der Director die externen Benutzer und übergibt dann ihren Datenverkehr an interne Server. Wenn ein Director zur Authentifizierung externer Benutzer verwendet wird, entlasten sie front-End-Poolserver von dem Mehraufwand für die Authentifizierung dieser Benutzer. Es trägt außerdem dazu bei, interne Front-End-Pools vor bösartigem Datenverkehr wie Denial-of-Service-Angriffen zu schützen. Wenn das Netzwerk während eines solchen Angriffs mit ungültigem externen Datenverkehr überflutet wird, endet dieser Datenverkehr beim Director.
     
-- Wenn Sie mehrere Front-End-Pools an einem zentralen Standort bereitstellen, indem Sie dieser Website einen Director hinzufügen, können Sie Authentifizierungsanforderungen rationalisieren und die Leistung verbessern. In diesem Szenario gehen alle Anforderungen zuerst an den Director, der Sie dann an den richtigen Front-End-Pool weiterleitet.
+- Wenn Sie mehrere Front-End-Pools an einem zentralen Standort bereitstellen, können Sie durch Hinzufügen eines Director zu diesem Standort Authentifizierungsanforderungen optimieren und die Leistung verbessern. In diesem Szenario gehen alle Anforderungen zuerst an den Director, der sie dann an den richtigen Front-End-Pool weiter leitet.
     
 

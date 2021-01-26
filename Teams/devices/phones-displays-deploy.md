@@ -1,7 +1,7 @@
 ---
-title: Bereitstellen von Teams-Smartphones und-Teams mit InTune
-ms.author: v-lanac
-author: lanachin
+title: Bereitstellen von Telefonen und Anzeigen in Teams mithilfe von Intune
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -15,46 +15,46 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: Dieser Artikel enthält eine Übersicht über die von Microsoft Teams unterstützten Funktionen und Features.
-ms.openlocfilehash: acebf619d76cd6df2f0da305deedec9dd3b79aa0
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams unterstützten Features.
+ms.openlocfilehash: 4d955db2f260af0eff3d0c1f059461703cf23d79
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787617"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825415"
 ---
-# <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>Bereitstellen von Teams-Smartphones und-Teams mit InTune
+# <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>Bereitstellen von Telefonen und Anzeigen in Teams mithilfe von Intune
 
-In diesem Artikel erhalten Sie einen Überblick über die Bereitstellung von Teams-Smartphones und-Teams mithilfe von InTune.
+Dieser Artikel enthält eine Übersicht über die Bereitstellung von Telefonen und Anzeigen in Teams mit Intune.
 
 ## <a name="conditional-access"></a>Bedingter Zugriff
 
-Bedingter Zugriff ist eine Azure Active Directory (Azure AD)-Funktion, mit der Sie sicherstellen können, dass Geräte, die auf Ihre Office 365-Ressourcen zugreifen, ordnungsgemäß verwaltet und sicher sind.  Wenn Sie Richtlinien für den bedingten Zugriff auf den Team Dienst anwenden, werden Android-Geräte (einschließlich Teams-Smartphones und-Teams angezeigt), die Access-Teams für InTune registrieren müssen, und Ihre Einstellungen müssen ihren Richtlinien entsprechen.  Wenn das Gerät nicht für InTune registriert ist oder wenn es registriert ist, seine Einstellungen aber nicht Ihren Richtlinien entsprechen, verhindert der bedingte Zugriff, dass sich ein Benutzer bei oder mithilfe der Teams-App auf dem Gerät anmeldet.
+Der bedingte Zugriff ist ein Azure Active Directory (Azure AD)-Feature, mit dem Sie sicherstellen können, dass Geräte, die auf Ihre Office 365-Ressourcen zugreifen, ordnungsgemäß verwaltet werden und sicher sind.  Wenn Sie Richtlinien für bedingten Zugriff auf den Teams-Dienst anwenden, müssen Android-Geräte (einschließlich Teams-Telefonen und Teams-Anzeigen), die auf Teams zugreifen, bei Intune registriert sein, und deren Einstellungen müssen Ihren Richtlinien entsprechen.  Wenn das Gerät nicht bei Intune registriert ist oder wenn es registriert ist, seine Einstellungen aber nicht Ihren Richtlinien entsprechen, verhindert bedingter Zugriff, dass sich ein Benutzer bei der App "Teams" auf dem Gerät anmelden oder diese verwenden kann.
 
-In der Regel werden Konformitätsrichtlinien, die in InTune definiert sind, Gruppen von Benutzern zugewiesen.  Das bedeutet: Wenn Sie user@contoso.com eine Android-Konformitätsrichtlinie zuweisen, gilt diese Richtlinie gleichermaßen für Ihr Android-Smartphone sowie für alle Android-basierten Teams, die sich in user@contoso.com anmelden.
+In der Regel werden in Intune definierte Compliancerichtlinien Benutzergruppen zugewiesen.  Dies bedeutet: Wenn Sie user@contoso.com eine Android-Compliancerichtlinie zuweisen, gilt diese Richtlinie gleichermaßen für ihr Android-Smartphone und jedes Android-basierte Teams-Gerät, bei dem user@contoso.com ist.
 
-Wenn Sie den bedingten Zugriff verwenden, für den die Intune-Registrierung erzwungen werden muss, müssen Sie in Ihrer Organisation ein paar Dinge einrichten, um eine erfolgreiche InTune-Registrierung zu ermöglichen:
+Wenn Sie den bedingten Zugriff verwenden, für den die Registrierung von Intune erzwungen werden muss, müssen Sie in Ihrer Organisation ein paar Dinge einrichten, um eine erfolgreiche Registrierung von Intune zu ermöglichen:
 
-- **InTune-Lizenz** Der Benutzer, der sich beim Team-Gerät anmeldet, muss für InTune lizenziert sein.  Solange das Team-Gerät bei einem Benutzerkonto angemeldet ist, das über eine gültige InTune-Lizenz verfügt, wird das Gerät im Rahmen des Anmeldeprozesses automatisch für Microsoft InTune registriert.
-- **Konfigurieren von InTune** Für die Registrierung des Android-Geräte Administrators muss ein ordnungsgemäß konfigurierter InTune-Mandant eingerichtet sein.
+- **Intune-Lizenz** Der Benutzer, der sich beim Gerät in Teams angemeldet hat, muss für Intune lizenziert sein.  Solange das Gerät bei einem Benutzerkonto angemeldet ist, das über eine gültige Intune-Lizenz verfügt, wird das Gerät im Rahmen des Anmeldevorgangs automatisch bei Microsoft Intune registriert.
+- **Konfigurieren von Intune** Sie müssen einen ordnungsgemäß konfigurierten Intune-Mandanten für die Registrierung durch den Android-Geräteadministrator eingerichtet haben.
 
-## <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Konfigurieren von InTune zum Registrieren von Android-basierten Geräten für Teams
+## <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Konfigurieren von Intune für die Registrierung von Android-basierten Teams-Geräten
 
-Auf Android-Geräten basierende Teams werden über die Verwaltung von Android Device Administrator (da) in InTune verwaltet. Bevor Sie Geräte für InTune registrieren können, müssen Sie einige grundlegende Schritte ausführen.  Wenn Sie bereits heute Geräte mit InTune verwalten, haben Sie wahrscheinlich bereits alle diese Vorgänge ausgeführt.  Wenn dies nicht der Fall ist, gehen Sie wie folgt vor:
+Android-basierte Geräte in Teams werden in Intune über die Verwaltung durch den Android-Geräteadministrator (DA) verwaltet. Bevor Geräte bei Intune registriert werden können, müssen Sie ein paar grundlegende Schritte ausführen.  Wenn Sie bereits heute Geräte mit Intune verwalten, haben Sie wahrscheinlich bereits alle diese Dinge erledigt.  Wenn nicht, gehen Sie wie hier vor:
 
-1. Stellen Sie die Intune-MDM-Autorität (Mobile Device Management) ein.  Wenn Sie InTune noch nie zuvor verwendet haben, müssen Sie die MDM-Autorität einrichten, bevor Sie Geräte registrieren können. Weitere Informationen finden Sie unter [Einrichten der Verwaltung mobiler Geräte](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set).  Hierbei handelt es sich um einen einmaligen Schritt, der beim Erstellen eines neuen InTune-Mandanten durchgeführt werden muss.
-2. Aktivieren Sie die Registrierung des Android-Geräte Administrators. Android-basierte Teams-Geräte werden als Geräteadministrator Geräte mit InTune verwaltet.  Die Registrierung für den Geräteadministrator ist standardmäßig für neu erstellte Mandanten deaktiviert.  Weitere Informationen finden Sie unter [Administrator Registrierung für Android-Geräte](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator).
-3. Zuweisen von Lizenzen zu Benutzern Benutzern von Teams-Geräten, die sich für InTune registrieren, muss eine gültige InTune-Lizenz zugewiesen werden. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen zu Benutzern, damit diese Geräte in InTune registrieren können](https://docs.microsoft.com/intune/fundamentals/licenses-assign).
-4. Zuweisen von Konformitätsrichtlinien für geräteadministratoren  Erstellen Sie eine Konformitätsrichtlinie für Android-geräteadministratoren, und weisen Sie Sie der Azure Active Directory-Gruppe zu, die die Benutzer enthält, die sich bei den Teams-Geräten anmelden werden. Weitere Informationen finden Sie unter [Verwenden von Konformitätsrichtlinien zum Einrichten von Regeln für Geräte, die Sie mit InTune verwalten](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started).
+1. Legen Sie Intune MDM (Verwaltung mobiler Geräte) als Autorität ein.  Wenn Sie Intune noch nie zuvor verwendet haben, müssen Sie die MDM-Autorität festlegen, bevor Sie Geräte registrieren können. Weitere Informationen finden Sie unter ["Festlegen der Verwaltungsbehörde für mobile Geräte".](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set)  Dies ist ein einmal durchgeführter Schritt, der beim Erstellen eines neuen Intune-Mandanten durchgeführt werden muss.
+2. Aktivieren Sie die Registrierung des Android-Geräteadministrators. Android-basierte Teams-Geräte werden mit Intune als Geräteadministratorgeräte verwaltet.  Die Registrierung von Geräteadministratoren ist für neu erstellte Mandanten standardmäßig deaktiviert.  Weitere Informationen finden Sie unter Registrierung von [Android-Geräteadministratoren.](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator)
+3. Weisen Sie Benutzern Lizenzen zu. Benutzern von Bei Intune registrierten Teams-Geräten muss eine gültige Lizenz für Intune zugewiesen sein. Weitere Informationen finden Sie unter ["Zuweisen von Lizenzen zu Benutzern, damit sie Geräte in Intune registrieren können".](https://docs.microsoft.com/intune/fundamentals/licenses-assign)
+4. Zuweisen von Compliancerichtlinien für Geräteadministratoren.  Erstellen Sie eine Android-Geräteadministrator-Compliancerichtlinie, und weisen Sie sie der Azure Active Directory-Gruppe zu, die die Benutzer enthält, die sich bei den Teams-Geräten anmelden. Weitere Informationen finden Sie unter "Verwenden von Compliancerichtlinien zum Festlegen von Regeln für [Geräte, die Sie mit Intune verwalten".](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Telefone für Teams](phones-for-teams.md)
 
-[Für Microsoft Teams zertifizierte IP-Telefone](teams-ip-phones.md)
+[Für Microsoft Teams zertifizierte IP Phones](teams-ip-phones.md)
 
 [Teams wird angezeigt](teams-displays.md)
 
 [Verwalten Ihrer Geräte in Teams](device-management.md).
 
-[Marketplace für Teams](https://office.com/teamsdevices)
+[Teams Marketplace](https://office.com/teamsdevices)

@@ -1,13 +1,13 @@
 ---
-title: PowerShell-Skriptbeispiel – erstellen & zuweisen von Nachrichtenrichtlinien
-author: LanaChin
-ms.author: v-lanac
+title: 'Beispiel für ein PowerShell-Skript: Erstellen & Zuweisen einer Messagingrichtlinie'
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: Verwenden Sie dieses PowerShell-Skript zum Erstellen einer Messagingrichtlinie in Teams, und weisen Sie Sie Benutzern in Ihrer Organisation zu.
+description: Verwenden Sie dieses PowerShell-Skript, um eine Messagingrichtlinie in Teams zu erstellen und sie Benutzern in Ihrer Organisation zuzuordnen.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,27 +17,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: e3d1fa3ebe45785c088852c518ac5490263fa6aa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533740"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804655"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell-Skriptbeispiel – Erstellen und Zuweisen einer Messagingrichtlinie
 
-Verwenden Sie dieses PowerShell-Skript, um eine Messagingrichtlinie in Microsoft Teams zu erstellen und diesen Benutzern zuzuweisen. 
+Verwenden Sie dieses PowerShell-Skript, um eine Messagingrichtlinie in Microsoft Teams zu erstellen und sie Benutzern zuzuordnen. 
 
-Weitere Informationen zur Verwendung dieses PowerShell-Skripts finden Sie unter [Schnellstart – Teams für Bildung](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
+Weitere Informationen zur Verwendung dieses PowerShell-Skripts finden Sie unter ["Schnellstart – Teams für Bildungseinrichtungen".](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)
 
-Dieses Skript verwendet das [Grant-CsTeamsMessagingPolicy-](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) Cmdlet, das sich im Skype for Business Online PowerShell-Modul befindet. Weitere Informationen zum Verwalten von Teams mithilfe von PowerShell finden Sie unter [Übersicht über Teams PowerShell](../teams-powershell-overview.md) .
+Dieses Skript verwendet das [Cmdlet Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) das sich im Skype for Business Online -PowerShell-Modul befindet. Weitere Informationen zum Verwalten von Teams mithilfe von [PowerShell](../teams-powershell-overview.md) finden Sie in der Übersicht über Teams PowerShell.
 
 
 ## <a name="before-you-start"></a>Bevor Sie beginnen
 
-Laden Sie das [Skype for Business Online PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366)herunter, installieren Sie es, und starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
+Laden Sie das [Skype for Business Online -PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366)herunter, installieren Sie es, und starten Sie den Computer neu, wenn Sie dazu aufgefordert werden.
 
-Weitere Informationen finden Sie unter [Verwalten von Skype for Business Online mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Weitere Informationen finden Sie unter ["Verwalten von Skype for Business Online mit Office 365 PowerShell".](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Beispielskript
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Sie können Benutzern auch eine Messagingrichtlinie direkt über eine Batch Richtlinienzuweisung oder eine Gruppe zuweisen, der die Benutzer angehören. Weitere Informationen finden Sie unter [Zuweisen von Richtlinien zu einer Vielzahl von Benutzern in ihrer Schule](../batch-group-policy-assignment-edu.md) und [Zuweisen von Richtlinien zu Ihren Benutzern in Teams](../assign-policies.md).
+> Sie können benutzern eine Messagingrichtlinie auch über eine Batchrichtlinienzuweisung oder eine Gruppe, deren Mitglieder sie sind, direkt im Maßstab zuweisen. Weitere Informationen finden Sie unter ["Zuweisen von Richtlinien](../batch-group-policy-assignment-edu.md) zu großen Gruppen von Benutzern in Ihrer Schule und Zuweisen von Richtlinien [zu Ihren Benutzern in Teams".](../assign-policies.md)

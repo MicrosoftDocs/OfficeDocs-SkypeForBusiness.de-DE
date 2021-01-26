@@ -1,8 +1,8 @@
 ---
 title: tblFileToken
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,37 +12,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
-description: tblFileToken enthält temporäre Token für Datei Übertragungs Zwecke.
-ms.openlocfilehash: 573c921278521eb5b9ed7cc754dec9fa3471e9f4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: TblFileToken enthält temporäre Token für die Dateiübertragung.
+ms.openlocfilehash: 75d3d4df3affe3d12f94499efdb4337ade11af27
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814593"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816015"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
-tblFileToken enthält temporäre Token für Datei Übertragungs Zwecke.
+TblFileToken enthält temporäre Token für die Dateiübertragung.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|FileToken  <br/> |nvarchar (50); nicht NULL  <br/> |Eindeutiges Token (eine GUID).  <br/> |
-|fileTokenUserID  <br/> |int, nicht NULL  <br/> |Die ID des Prinzipals, der die Datei übertragen wird.  <br/> |
-|fileTokenChannelID  <br/> |GUID, nicht NULL  <br/> |GUID des Chatroom-Knotens.  <br/> |
-|fileTokenExpireDate  <br/> |DateTime, nicht NULL  <br/> |Ablaufzeit. (Token werden nach 30 Minuten ablaufen, es sei denn, angeheftet (siehe die folgenden Beschreibungen in dieser Spalte).  <br/> |
-|fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |Die URL der übertragenen Datei (für die Verwendung des Kompatibilitätsdiensts).  <br/> |
-|fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |Die URL der Miniaturansicht für die übertragene Datei (für die Verwendung des Kompatibilitätsdiensts).  <br/> |
-|fileTokenComplianceTime  <br/> |datetime2  <br/> |Timestamp für den eigentlichen Dateiübertragungsvorgang (für die Verwendung des Kompatibilitätsdiensts).  <br/> |
-|fileTokenComplianceIsUpload  <br/> |bit  <br/> |True, wenn Upload; False, wenn Download (für Compliance-Dienstnutzung).  <br/> |
-|fileTokenCompliancePinned  <br/> |Bit, nicht NULL  <br/> |True, wenn Token angeheftet ist. Sie wird verwendet, um das Token in der Tabelle beizubehalten, bis der Kompatibilitätsdienst die entsprechenden Felder aus ihm abrufen kann.  <br/> |
+|fileToken  <br/> |nvarchar (50), nicht NULL  <br/> |Eindeutiges Token (eine GUID).  <br/> |
+|fileTokenUserID  <br/> |int, nicht NULL  <br/> |ID des Prinzipals, der die Datei überträgt.  <br/> |
+|fileTokenChannelID  <br/> |GUID, nicht NULL  <br/> |GUID des Chatroomknotens.  <br/> |
+|fileTokenExpireDate  <br/> |datetime, nicht NULL  <br/> |Ablaufzeit. (Token laufen nach 30 Minuten ab, wenn sie nicht gebunden werden (siehe Beschreibungen in dieser Tabelle.)  <br/> |
+|fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |URL der übertragenen Datei (für den Kompatibilitätsdienst).  <br/> |
+|fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |URL des Miniaturbilds der übertragenen Datei (für den Kompatibilitätsdienst).  <br/> |
+|fileTokenComplianceTime  <br/> |datetime2  <br/> |Zeitstempel für die tatsächliche Dateiübertragung (für den Kompatibilitätsdienst).  <br/> |
+|fileTokenComplianceIsUpload  <br/> |bit  <br/> |True bei Upload; False bei Download (für den Kompatibilitätsdienst).  <br/> |
+|fileTokenCompliancePinned  <br/> |Bit, nicht NULL  <br/> |True, wenn das Token gebunden ist. Es wird verwendet, um das Token in der Tabelle zu behalten, bis der Kompatibilitätsdienst die Möglichkeit hat, die relevanten Felder aus ihr abzurufen.  <br/> |
    
-**Schlüssel**
+**Keys**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|FileToken  <br/> |Primärschlüssel  <br/> |
-|fileTokenChannelID  <br/> |Fremdschlüssel mit Lookup in der tblNode. nodeGuid-Tabelle.  <br/> |
+|fileToken  <br/> |Primärschlüssel  <br/> |
+|fileTokenChannelID  <br/> |Fremdschlüssel mit Abfrage der tblNode.nodeGuid-Tabelle.  <br/> |
    
 

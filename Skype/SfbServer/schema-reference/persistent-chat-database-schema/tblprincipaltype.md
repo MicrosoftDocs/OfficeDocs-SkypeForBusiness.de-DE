@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
-description: tblPrincipalType enthält Prinzipaltypen, um zu kategorisieren, was in der tblPrincipal-Tabelle enthalten ist.
-ms.openlocfilehash: 1aacfdf34689bebc2c7e012c926731ae1f4a8349
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tblPrincipal-Tabelle.
+ms.openlocfilehash: 110818db0fb3c742491adfeed23362a2bcbebab2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812933"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831535"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
-tblPrincipalType enthält Prinzipaltypen, um zu kategorisieren, was in der tblPrincipal-Tabelle enthalten ist.
+tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tblPrincipal-Tabelle.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|ptypeID  <br/> |smallint, nicht NULL  <br/> |Prinzipaltyp-ID.  <br/> |
-|ptypeDesc  <br/> |nvarchar (256); nicht NULL  <br/> |Beschreibung des Typs.  <br/> |
-|ptypeIsSystemUser  <br/> |Bit, nicht NULL  <br/> |"True", wenn der Typ den Prinzipalen entspricht, die für interne Zwecke verwendet werden.  <br/> |
-|ptypeIsUser  <br/> |Bit, nicht NULL  <br/> |"True", wenn es sich bei dem Typ um einen Benutzertyp handelt.  <br/> |
+|ptypeID  <br/> |smallint, nicht NULL  <br/> |Prinzipaltyp-ID  <br/> |
+|ptypeDesc  <br/> |nvarchar (256), nicht NULL  <br/> |Beschreibung des Typs.  <br/> |
+|ptypeIsSystemUser  <br/> |bit, nicht NULL  <br/> |TRUE, wenn der Typ den Prinzipalen entspricht, die zu internen Zwecken verwendet werden.  <br/> |
+|ptypeIsUser  <br/> |bit, nicht NULL  <br/> |TRUE, wenn es sich beim Typ um einen Benutzertyp handelt.  <br/> |
    
 **Schlüssel**
 
@@ -39,18 +39,18 @@ tblPrincipalType enthält Prinzipaltypen, um zu kategorisieren, was in der tblPr
 |:-----|:-----|
 |ptypeID  <br/> |Primärschlüssel  <br/> |
    
-**Prinzipal Werte**
+**Prinzipalwerte**
 
 |**ID**|**Rolle**|**Beschreibung**|**Benutzer**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |Beliebig  <br/> |Generischer Prinzipal ohne bekannten Typ. Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> ||
-|2  <br/> |AnyUser  <br/> |Generisches Prinzipal des Benutzertyps. Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> |Ja  <br/> |
-|3  <br/> |AnyGroup  <br/> |Generischer Prinzipal mit Gruppen Semantik Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> ||
-|4  <br/> |Multiswitch  <br/> |Prinzipal, der intern vom beständigen Chat Server verwendet wird.  <br/> ||
-|5  <br/> |Benutzer  <br/> |Normaler Benutzer.  <br/> |Ja  <br/> |
-|8  <br/> |DC  <br/> |Active Directory-Domänendienste-Domänencontroller.  <br/> ||
-|9  <br/> |Gruppe  <br/> |Active Directory-Sicherheitsgruppe.  <br/> ||
-|10  <br/> |Ordner  <br/> |Active Directory-Container oder-Organisationseinheit.  <br/> ||
+|1   <br/> |Beliebig  <br/> |Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|2   <br/> |AnyUser  <br/> |Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.  <br/> |Ja  <br/> |
+|3   <br/> |AnyGroup  <br/> |Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|4   <br/> |SystemUser  <br/> |Intern vom Server für beständigen Chat verwendeter Prinzipal.  <br/> ||
+|5   <br/> |Benutzer  <br/> |Regelmäßiger Benutzer.  <br/> |Ja  <br/> |
+|8   <br/> |Gleichstrom  <br/> |Domänencontroller der Active Directory-Domänendienste.  <br/> ||
+|9   <br/> |Gruppe  <br/> |Active Directory-Sicherheitsgruppe  <br/> ||
+|10   <br/> |Ordner  <br/> |Active Directory-Container oder Organisationseinheit  <br/> ||
    
 ## <a name="see-also"></a>Siehe auch
 

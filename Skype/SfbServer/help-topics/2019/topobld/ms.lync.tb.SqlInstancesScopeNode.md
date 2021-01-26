@@ -1,8 +1,8 @@
 ---
 title: SQL-Instanzen – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Der SQL Stores-Knoten listet die SQL Server-Datenbanken in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4c138cb24f7b6c213da41f67563dce4863347b69
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Im SQL werden die SQL Server in Ihrer Topologie gespeichert. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: d443e08339c416f6b00208b4ecbd6e64eecf697d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794304"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805525"
 ---
-# <a name="sql-instances-scope-node"></a>SQL-Instanzen – Bereichsknoten
+# <a name="sql-instances-scope-node"></a>SQL-Instanzen – Bereichsknoten
  
-Der **SQL Stores** -Knoten listet die SQL Server-Datenbanken in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:
+Im **SQL werden die** SQL Server in Ihrer Topologie gespeichert. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer SQL-Speicher**. Startet den Assistenten zum **Definieren eines neuen SQL Stores** , mit dem Sie der Topologie eine neue SQL Server-Datenbank hinzufügen.
+- **Neuer SQL-Speicher**. Startet den Assistenten zum **Definieren SQL Speichers,** mit dem Sie der Topologie SQL Server neue Datenbank hinzufügen.
     
-Zusätzlich zu den SQL Server-Datenbankoptionen können Sie die folgenden allgemeinen Aufgaben ausführen:
+Zusätzlich zu den SQL Server datenbankoptionen können Sie die folgenden allgemeinen Aufgaben ausführen:
   
-- **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Versionen zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten aus früheren Versionen zusammenführen oder die Bereitstellung entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

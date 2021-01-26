@@ -1,7 +1,7 @@
 ---
 title: Fördern des Bewusstseins und Implementieren der Schulung
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Informieren Sie sich, wie Sie das Bewusstsein erhöhen und ein Schulungsprogramm für Microsoft Teams-Einführung implementieren können.
+description: Erfahren Sie, wie Sie das Bewusstsein steigern und ein Schulungsprogramm für die Einführung von Microsoft Teams implementieren.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,45 +21,45 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e091e63b47dd33e848be9fc77f6f630174564c95
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 04c9dbeaecd5c1ed15dff5e5a0e2ae3823216a1a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533852"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834155"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
-Sensibilisierung und Schulung sind das Marketing-und Kommunikationssegment ihrer allgemeinen Adoptions Strategie. Dadurch wird sichergestellt, dass Ihre Mitarbeiter über die neuen Funktionen von Microsoft Teams und die zugrunde liegenden Microsoft 365-oder Office 365-Dienste und-apps informiert sind.
+Bewusstsein und Schulung sind das Marketing- und Kommunikationssegment Ihrer allgemeinen Einführungsstrategie. Dadurch wird sichergestellt, dass Ihre Mitarbeiter die neuen Funktionen von Microsoft Teams sowie die zugrunde liegenden Microsoft 365- oder Office 365-Dienste und -Apps kennen.
    
-Sowohl für Ihre anfänglichen Piloten als auch für ihre eventuelle unternehmensweite Einführung sollte Ihre interne Kommunikation eine Priorität sein. Sie sollten Folgendes umfassen:
+Sowohl bei Ihren ersten Pilotprojekten als auch bei der eventuellen unternehmensweiten Einführung sollte Ihre interne Kommunikation Priorität haben. Sie sollten Folgendes enthalten:
 
 - Interne Informationsmaterialien wie beispielsweise Poster, digitale Beschilderung und Veranstaltungen
-- Selbsthilfe-und Schulungsinformationen an einem zentralen Ort.
+- Selbsthilfe- und Schulungsinformationen an einem zentralen Ort.
 
 Zu erfolgreichen Pilotphasen gehören mindestens diese Schritte:
 
 - Halten Sie die Projektbeteiligten mit regelmäßigen geplanten Besprechungen auf dem Laufenden.
 - Stellen Sie eine Dokumentation zur Selbsthilfe zur Verfügung, die auch Produktvideos umfasst.
-- Halten Sie eine Kick-off-Besprechung mit den Pilotbenutzern ab, um sie positiv auf ihre Teilnahme einzustimmen. Die Wichtigkeit, ein Gefühl der Gemeinschaft mit Begeisterung zu schaffen, kann nicht zu hoch angehoben werden.
+- Halten Sie eine Kick-off-Besprechung mit den Pilotbenutzern ab, um sie positiv auf ihre Teilnahme einzustimmen. Die Wichtigkeit, ein Gefühl von Community mit Begeisterung zu schaffen, kann nicht überdezentiert werden.
 
-Nachdem Sie das erste Pilotprojekt durchgearbeitet haben, können Sie die oben genannten Bemühungen erweitern, um Ihre gesamte Organisation zu erreichen. Je nach Größe kann dies Zeit in Anspruch nehmen und in Phasen nach Region, Benutzerprofil oder Organisation angesprochen werden. Unterstützen Sie in diesem umfangreichen Rollout die Einbindung der Kommunikatoren in Ihre Organisation. Wir empfehlen, dass diese Personen frühzeitig und häufig bei der Verwendung der verfügbaren Adoptions Materialien involviert sind oder Ihr eigenes Design entwerfen.
+Nachdem Sie das erste Pilotprojekt durchgearbeitet haben, können Sie die oben genannten Bemühungen erweitern, um Ihre gesamte Organisation zu erreichen. Je nach Größe kann dies einige Zeit dauern und phasenweise nach Region, Benutzerprofil oder Organisation näher rückt. Bei diesem größeren Rollout sollten Sie die Einbeziehung der Communicatoren in Ihrer Organisation fördern. Wir empfehlen, diese Personen frühzeitig und häufig zu beteiligen, wenn Sie die verfügbaren Einführungsmaterialien verwenden oder ein eigenes Design entwerfen.
 
-Wenn Ihr Unternehmen über ein zentrales Intranet-Portal für Neuigkeiten, Informationen oder Support verfügt, können Sie es als Hub für Informationen zu diesem Rollout verwenden. Durch die Bereitstellung umfassend verfügbarer Self-Help-Informationen, Schulungen und schriftlicher Anleitungen können Benutzer schnell an Bord kommen. Viele Benutzer springen einfach ein, sobald Teams verfügbar sind, und wir ermutigen dies. Wir wissen auch, dass jeder einzelne auf unterschiedliche Weise lernt; ein zentrales Informationsportal kann alle Lernstile in Ihrer Organisation unterstützen.
+Wenn Ihr Unternehmen über ein zentrales Intranetportal für Nachrichten, Informationen oder Support verfügt, können Sie es als Hub für Informationen zu diesem Rollout verwenden. Durch die Bereitstellung von allgemein verfügbaren Informationen zur Selbsthilfe, Schulungen und schriftlichen Anleitungen können Benutzer schnell ins Boot holen. Viele Benutzer werden einfach springen, sobald Teams verfügbar ist, und wir empfehlen dies. Wir wissen auch, dass jede Person auf unterschiedliche Weise lernt. Ein zentrales Informationsportal kann alle Lernstile innerhalb Ihrer Organisation unterstützen.
 
-## <a name="implement-end-user-training"></a>Implementieren von Endbenutzerschulungen
+## <a name="implement-end-user-training"></a>Implementieren von Schulungen für Endbenutzer
 
-Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer bereitzustellen, während Personen mit der Verwendung von Microsoft Teams und anderen Microsoft 365-oder Office 365-Diensten beginnen. Besuchen Sie unsere Ressourcen Seiten, um weitere Informationen zu erhalten:
+Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer zu bieten, wenn Die Benutzer microsoft Teams und andere Microsoft 365- oder Office 365-Dienste nutzen. Weitere Informationen finden Sie auf unseren Ressourcenseiten:
 
-- [Schulung von Kursleitern für Benutzerschulungen für Teams](instructor-led-training-teams-landing-page.yml)
-- [Administrator Schulungen für Teams](itadmin-readiness.md)
-- [Online-Videoschulung für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [Kaffee in der Cloud Online-Schulung für Champions & IT-Experten](https://aka.ms/CoffeeintheCloud) 
-- [Adoptions Tools](https://aka.ms/O365AdoptionTools)
+- [Kursleiterleiter-Schulung für Endbenutzer in Teams](instructor-led-training-teams-landing-page.yml)
+- [Administratorschulung für Teams](itadmin-readiness.md)
+- [Videoschulung für Onlineendbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Schulung "Kaffee in der Cloud Online" für & IT-Profis](https://aka.ms/CoffeeintheCloud) 
+- [Einführungstools](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Messen und Teilen des Erfolgs
 
-Wie bei allen Kommunikations-und Adoptions Kampagnen sollten Sie Ihre Erfolgsmessungen im Vordergrund erkennen. Sehen Sie sich Folgendes an:
+Wie bei jeder Kommunikations- und Verbreitungskampagne sollten Sie Ihre Erfolgsmaße im Vorhin ermitteln. Beachten Sie diese:
 
 - Aktive Benutzer im Produkt
 - Zugriffe auf Ihre Informationswebseiten
@@ -67,8 +67,8 @@ Wie bei allen Kommunikations-und Adoptions Kampagnen sollten Sie Ihre Erfolgsmes
 - Zugriffe auf Ihre Schulungsvideos
 - Teilnahme an Schulungsveranstaltungen
 
-Teilen Sie die Einblicke, die Sie von Ihren Feedback Kanälen erhalten, mit dem hashtag-#TeamsStories für einen einfachen Abruf. Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern. Teilen Sie diese auch in unserem Forum zur Einführung von Fahrgemeinschaften in der technischen Microsoft-Community. Die gemeinsame Nutzung dieser wirklichen Welt Beispiele aus dem eigenen Unternehmen ist äußerst wertvoll, um nachhaltige Änderungen im Laufe der Zeit mit ihrer Nutzergemeinschaft zu realisieren.
+Teilen Sie die Einblicke, die Sie aus Ihren Feedbackkanälen erhalten, mit dem Hashtag #TeamsStories für einen einfachen Abruf. Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern. Teilen Sie sie uns auch in unserem Forum zur Einführung von "Driving Adoption" in der technischen Microsoft Community mit. Die Weitergabe dieser realen Beispiele aus Ihrem eigenen Unternehmen ist äußerst hilfreich, um im Laufe der Zeit einen dauerhaften Wandel mit der Benutzergemeinschaft zu erreichen.
 
-[Weitere Informationen zu den Microsoft Teams-Nutzungsberichten finden Sie im Microsoft 365 Admin Center.](teams-activity-reports.md)
+[Erfahren Sie mehr über die Microsoft Teams-Nutzungsberichte im Microsoft 365 Admin Center.](teams-activity-reports.md)
 
-![Ein Symbol, das die nächsten Schritte zeigt ](media/teams-adoption-next-icon.png) : [Planen von Dienst Integritätsprüfungen](teams-adoption-schedule-service-health-reviews.md)
+![Symbol mit den nächsten Schritten: Planen ](media/teams-adoption-next-icon.png) [von Dienstinte](teams-adoption-schedule-service-health-reviews.md) health reviews

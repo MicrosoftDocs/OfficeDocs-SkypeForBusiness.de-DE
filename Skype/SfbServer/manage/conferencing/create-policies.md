@@ -1,8 +1,8 @@
 ---
 title: Erstellen von Konferenzrichtlinien in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,42 +11,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server Konferenzrichtlinien erstellen.'
-ms.openlocfilehash: 6fc8145e5f7c4dc0ee4b824a92248e365df56213
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server erstellen.'
+ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818616"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828235"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von Konferenzrichtlinien in Skype for Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie in Skype for Business Server Konferenzrichtlinien erstellen.
+**Zusammenfassung:** Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server erstellen.
   
 Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell erstellen.
   
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Erstellen von Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung
 
-1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
 2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
-3. Klicken Sie auf der linken Navigationsleiste auf **Konferenzen** und anschließend auf **Konferenzrichtlinie**.
+3. Klicken Sie in der linken Navigationsleiste auf "Konferenz" und dann auf **"Konferenzrichtlinie".**
     
-4. Klicken Sie auf **Neu** und führen Sie eine der folgenden Aktionen aus:
+4. Klicken Sie auf **Neu**, und führen Sie eine der folgenden Aktionen aus:
     
-   - Klicken Sie auf **Hinzufügen**, um eine Richtlinie auf Benutzerebene zu erstellen. Geben Sie im Abschnitt **Neue Konferenzrichtlinie** bei **Name** einen beschreibenden Namen für die Richtlinie ein.
+   - Klicken Sie auf **Hinzufügen**, um eine Richtlinie auf Benutzerebene zu erstellen. Geben Sie im Abschnitt **Neue Konferenzrichtlinie** in **Name** einen beschreibenden Namen für die Richtlinie ein.
     
-   - Klicken Sie auf **Standortrichtlinie**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie eine Richtlinie erstellen möchten. Klicken Sie in der Liste der Standorte auf den gewünschten Standort und klicken Sie auf **OK**.
+   - Klicken Sie auf **Standortrichtlinie**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie eine Richtlinie erstellen möchten. Klicken Sie in der Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
     
      > [!NOTE]
-     > Der Standortname wird als Name der Konferenzrichtlinie übernommen und kann nicht geändert werden. 
+     > Der Standortname wird zum Namen der Konferenzrichtlinie. sie kann nicht geändert werden. 
   
-5. Geben Sie bei **Beschreibung** eine Beschreibung für die Richtlinie ein.
+5. Geben Sie in **Beschreibung** eine Beschreibung für die Richtlinie ein.
     
-6. Geben Sie bei **Richtlinie für Organisatoren** unter **Maximale Besprechungsgröße** die Höchstzahl an Benutzern ein, die für eine Besprechung zugelassen werden sollen. Der maximale Besprechungsumfang ist standardmäßig auf 250 festgelegt.
+6. Geben Sie unter **Organisatorrichtlinie** in **Maximaler Besprechungsumfang** die Höchstzahl an Benutzern ein, die für eine Besprechung zugelassen werden sollen. Der maximale Besprechungsumfang ist standardmäßig auf 250 festgelegt.
     
-7. Um Benutzer daran zu hindern, anonyme Benutzer zu Besprechungen einzuladen, deaktivieren Sie das Kontrollkästchen **Teilnehmer dürfen anonyme Benutzer einladen**. Anonyme Benutzer sind Benutzer, die keine Anmeldeinformationen in den Active Directory-Domänendiensten Ihrer Organisation haben und daher nicht authentifiziert sind. In der Standardeinstellung können Benutzer anonyme Benutzer zu Besprechungen einladen.
+7. Um Benutzer daran zu hindern, anonyme Benutzer zu Besprechungen einzuladen, deaktivieren Sie das Kontrollkästchen **Teilnehmern das Einladen anonymer Benutzer gestatten**. Anonyme Benutzer sind Benutzer, die keine Anmeldeinformationen in den Active Directory-Domänendiensten Ihrer Organisation haben und daher nicht authentifiziert werden. In der Standardeinstellung können Benutzer anonyme Benutzer zu Besprechungen einladen.
     
 8. Führen Sie im Abschnitt **Aufzeichnung** eine der folgenden Aktionen aus:
     
@@ -54,13 +54,13 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
    - Klicken Sie auf **Aufzeichnung aktivieren**, um Teilnehmern die Aufzeichnung von Besprechungen zu gestatten.
     
-9. Um externen Teilnehmern das Aufzeichnen von Besprechungen zu erlauben, aktivieren Sie das Kontrollkästchen **Partnerteilnehmern und anonymen Teilnehmern das Aufzeichnen gestatten**. In der Standardeinstellung werden externe Teilnehmer an der Aufzeichnung von Besprechungen gehindert.
+9. Um externen Teilnehmern das Aufzeichnen von Besprechungen zu erlauben, aktivieren Sie das Kontrollkästchen **Aufzeichnung durch Partnerteilnehmer und anonyme Teilnehmer zulassen**. In der Standardeinstellung werden externe Teilnehmer an der Aufzeichnung von Besprechungen gehindert.
     
 10. Führen Sie im Abschnitt **Audio/Video** eine der folgenden Aktionen aus:
     
     - Klicken Sie auf **Keine**, um die Verwendung von Audio und Video zu verhindern.
     
-    - Klicken Sie auf **IP-Audio aktivieren**, um die Verwendung von Audio, nicht jedoch von Video, zuzulassen.
+    - Klicken Sie auf **IP-Audio aktivieren**, um die Verwendung von Audio, nicht jedoch von Video zuzulassen.
     
     - Klicken Sie auf **IP-Audio/Video aktivieren**, um die Verwendung von Audio und Video zuzulassen. Dies ist die Standardeinstellung.
     
@@ -68,9 +68,9 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
     - Wenn Sie Benutzer daran hindern möchten, per Einwahl an einer Besprechung teilzunehmen, deaktivieren Sie das Kontrollkästchen **PSTN-Einwahlkonferenzen aktivieren**. In der Standardeinstellung können Benutzer sich über das Festnetz (Public Switched Telephone Network, PSTN) in Besprechungen einwählen.
     
-    - Wenn Sie Benutzern die Einwahl in Besprechungen gestatten und nicht authentifizierten (anonymen) Benutzern die Teilnahme an Besprechungen über eine ausgehende Telefonverbindung erlauben möchten, aktivieren Sie das Kontrollkästchen **Anonyme Teilnehmer dürfen ausgehende Verbindungen herstelle**. Bei ausgehenden Telefonverbindungen ruft der Konferenzserver den Benutzer an und der Benutzer nimmt das Gespräch an, um an der Besprechung teilzunehmen. In der Standardeinstellung können anonyme Benutzer nicht über ausgehende Telefonverbindungen an Besprechungen teilnehmen.
+    - Wenn Sie Benutzern die Einwahl in Besprechungen gestatten und nicht authentifizierten (anonymen) Benutzern die Teilnahme an Besprechungen über eine ausgehende Telefonverbindung erlauben möchten, aktivieren Sie das Kontrollkästchen **Ausgehende Verbindung durch anonyme Teilnehmer zulassen**. Bei ausgehenden Telefonverbindungen ruft der Konferenzserver den Benutzer an, und der Benutzer nimmt das Gespräch an, um an der Besprechung teilzunehmen. In der Standardeinstellung können anonyme Benutzer nicht über ausgehende Telefonverbindungen an Besprechungen teilnehmen.
     
-12. Wenn Sie die Verwendung von Video im Abschnitt **Audio/Video** zulassen möchten, aktivieren Sie das Kontrollkästchen **Mehrere Videostreams zulassen**.
+12. Wenn Sie die Verwendung von Video in **Audio/Video** zulassen möchten, aktivieren Sie die Option **"Mehrere Videostreams zulassen".**
     
 13. Führen Sie im Abschnitt **Datenzusammenarbeit** eine der folgenden Aktionen aus:
     
@@ -80,11 +80,11 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
 14. Wenn Sie die Datenzusammenarbeit im Abschnitt **Datenzusammenarbeit** zulassen, führen Sie eine der folgenden Aufgaben aus:
     
-    - Deaktivieren Sie das Kontrollkästchen **Partnerteilnehmer und anonyme Teilnehmer dürfen Inhalte herunterladen**. In der Standardeinstellung können externe Benutzer Inhalte herunterladen.
+    - Deaktivieren Sie das Kontrollkästchen **Download von Inhalten durch Partnerteilnehmer und anonyme Teilnehmer zulassen**. In der Standardeinstellung können externe Benutzer Inhalte herunterladen.
     
-    - Deaktivieren Sie das Kontrollkästchen **Teilnehmer dürfen Dateien übertragen**, um Dateiübertragungen zu verhindern. In der Standardeinstellung können Dateien übertragen werden.
+    - Deaktivieren Sie das Kontrollkästchen **Übertragen von Dateien durch Teilnehmer zulassen**, um Dateiübertragungen zu verhindern. In der Standardeinstellung können Dateien übertragen werden.
     
-    - Deaktivieren Sie das Kontrollkästchen **Anmerkungen aktivieren**, um die Verwendung von Anmerkungen zu verhindern. Deaktivieren Sie das Kontrollkästchen **PowerPoint-Anmerkungen aktivieren**, um die Verwendung von Anmerkungen in freigegebenen PowerPoint-Präsentationen zu verhindern. In der Standardeinstellung sind Anmerkungen zulässig.
+    - Deaktivieren Sie das Kontrollkästchen **Anmerkungen aktivieren**, um die Verwendung von Anmerkungen zu verhindern. Wenn Sie Anmerkungen in freigegebenen PowerPoint-Präsentationen verwenden möchten, löschen Sie die Option **"PowerPoint-Anmerkungen aktivieren".** In der Standardeinstellung sind Anmerkungen zulässig.
     
     - Deaktivieren Sie das Kontrollkästchen **Abstimmungen aktivieren**, um die Verwendung von Abstimmungen zu verhindern. In der Standardeinstellung sind Abstimmungen zulässig.
     
@@ -96,11 +96,11 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
 16. Wenn Sie die Anwendungsfreigabe im Abschnitt **Anwendungsfreigabe** zulassen, führen Sie eine der folgenden Aufgaben aus:
     
-    - Deaktivieren Sie das Kontrollkästchen **Teilnehmer dürfen die Steuerung übernehmen**, um Teilnehmer an der Übernahme der Steuerung für die Anwendungsfreigabe zu hindern. In der Standardeinstellung können Teilnehmer die Steuerung für die Anwendungsfreigabe übernehmen.
+    - Deaktivieren Sie das Kontrollkästchen **Übernahme der Steuerung durch Teilnehmer zulassen**, um Teilnehmer an der Übernahme der Steuerung für die Anwendungsfreigabe zu hindern. In der Standardeinstellung können Teilnehmer die Steuerung für die Anwendungsfreigabe übernehmen.
     
-    - Wenn Sie Besprechungsteilnehmern die Übernahme der Steuerung für die Anwendungsfreigabe ermöglichen möchten, aktivieren Sie das Kontrollkästchen **Partnerteilnehmer und anonyme Teilnehmer dürfen die Steuerung übernehmen**, um externen Benutzern die Übernahme der Steuerung für die Anwendungsfreigabe zu erlauben. In der Standardeinstellung können externe Benutzer die Steuerung für die Anwendungsfreigabe nicht übernehmen.
+    - Wenn Sie Besprechungsteilnehmern die Übernahme der Steuerung für die Anwendungsfreigabe ermöglichen möchten, aktivieren Sie das Kontrollkästchen **Steuerungsübernahme durch Partnerteilnehmer und anonyme Teilnehmer zulassen**, um externen Benutzern die Übernahme der Steuerung für die Anwendungsfreigabe zu erlauben. In der Standardeinstellung können externe Benutzer die Steuerung für die Anwendungsfreigabe nicht übernehmen.
     
-17. Führen Sie unter **Richtlinie für Teilnehmer** eine der folgenden Aktionen aus:
+17. Führen Sie unter **Teilnehmerrichtlinie** eine der folgenden Aktionen aus:
     
     - Klicken Sie auf **Anwendungs- und Desktopfreigabe deaktivieren**, um sowohl eine Anwendungsfreigabe als auch die Freigabe des Desktops zu verhindern.
     
@@ -118,14 +118,14 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Erstellen von Konferenzrichtlinien mithilfe der Skype for Business Server-Verwaltungsshell
 
-Verwenden Sie das Cmdlet **New-CsConferencingPolicy**, um Konferenzrichtlinien zu erstellen.
+Verwenden Sie zum Erstellen von Konferenzrichtlinien das **Cmdlet "New-CsConferencingPolicy".**
   
-Im folgenden Beispiel wird eine neue konferenzrichtlinie mit dem Identitäts SalesConferencingPolicy erstellt. Diese Richtlinie verwendet alle Standardwerte für eine Konferenzrichtlinie mit einer Ausnahme: MaxMeetingSize. In diesem Beispiel wird die maximale Besprechungsgröße statt auf den Standardwert 250 auf 50 festgelegt:
+Im folgenden Beispiel wird eine neue Konferenzrichtlinie mit der Identität "SalesConferencingPolicy" erstellt. Diese Richtlinie verwendet alle Standardwerte für eine Konferenzrichtlinie mit Ausnahme einer: MaxMeetingSize. In diesem Beispiel wird anstelle des Standardwerts 250 die maximale Größe für eine Besprechung auf 50 festgelegt:
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntax Beschreibung und einer Liste von Parametern, finden Sie unter [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Parameterliste, finden Sie unter [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
   
 

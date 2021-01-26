@@ -1,8 +1,8 @@
 ---
-title: Endpoint-Tabelle
+title: Endpunkttabelle
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
-description: Die Endpunkt Tabelle ist eine unterstützende Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle steht für einen Endpunkt.
-ms.openlocfilehash: b64b19a3149fa3d490ea8dc957699c0a114f763c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bei der Tabelle "Endpunkt" handelt es sich um eine Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Endpunkt dar.
+ms.openlocfilehash: 9caa0571e562a84c1678208f0e70c27317deda3c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809553"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823065"
 ---
-# <a name="endpoint-table"></a>Endpoint-Tabelle
+# <a name="endpoint-table"></a>Endpunkttabelle
  
-Die Endpunkt Tabelle ist eine unterstützende Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle steht für einen Endpunkt.
+Bei der Tabelle "Endpunkt" handelt es sich um eine Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Endpunkt dar.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**EndpointKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Endpunkt kennzeichnet.  <br/> |
-|**Name** <br/> |nvarchar(256)  <br/> |Eindeutigen  <br/> |Endpunktname  <br/> |
-|**OS** <br/> |nvarchar (128)  <br/> | <br/> |Betriebssystem (OS) des Endpunkts.  <br/> |
-|**CPUName** <br/> |nvarchar (128)  <br/> ||Der CPU-Name des Endpunkts.  <br/> |
-|**CPUNumberOfCores** <br/> |smallint  <br/> ||Die Anzahl von CPU-Kernen des Endpunkts.  <br/> |
-|**CPUProcessorSpeed** <br/> |int  <br/> ||CPU-Prozessorgeschwindigkeit des Endpunkts.  <br/> |
-|**VirtualizationFlag** <br/> |tinyint  <br/> || Bit-Flag, das angibt, ob das System in einer virtualisierten Umgebung ausgeführt wird: <br/>  0x0000-None <br/>  0x0001-HyperV <br/>  0x0002-VMware <br/>  0x0004 – virtueller PC <br/>  0x0008-xen-PC <br/> |
+|**EndpointKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Endpunkt identifiziert.  <br/> |
+|**Name** <br/> |nvarchar(256)  <br/> |Eigen  <br/> |Endpunktname.  <br/> |
+|**Betriebssystem** <br/> |nvarchar(128)  <br/> | <br/> |Betriebssystem des Endpunkts.  <br/> |
+|**CPUName** <br/> |nvarchar(128)  <br/> ||Der CPU-Name des Endpunkts.  <br/> |
+|**CPUNumberOfCores** <br/> |smallint  <br/> ||Die Anzahl der CPU-Kerne des Endpunkts.  <br/> |
+|**CPUProcessorSpeed** <br/> |int  <br/> ||Cpuprozessorgeschwindigkeit des Endpunkts.  <br/> |
+|**VirtualizationFlag** <br/> |tinyint  <br/> || Bit-Flag, das angibt, ob das System in einer virtualisierten Umgebung ausgeführt wird: <br/>  0x0000 – Keine <br/>  0x0001 – HyperV <br/>  0x0002 – VMWare <br/>  0x0004 – Virtueller PC <br/>  0x0008 – Xen PC <br/> |
    
 

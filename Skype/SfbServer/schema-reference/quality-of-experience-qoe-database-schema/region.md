@@ -1,8 +1,8 @@
 ---
-title: Region-Tabelle
+title: Tabelle "Region"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
-description: Die Regions Tabelle ist eine unterstützende Tabelle. Jeder Datensatz steht für ein Land/eine Region, das in der Netzwerk Konfigurationseinstellung definiert ist.
-ms.openlocfilehash: 8e3a0bbe37b1197bae1f35b8fc2ac05f54c5846d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bei der Region-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für ein Land/eine Region in der Netzwerkkonfigurationseinstellung.
+ms.openlocfilehash: fe38d71c433e540a381e87d7952a8eb6d57ecb5b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806223"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834405"
 ---
-# <a name="region-table"></a>Region-Tabelle
+# <a name="region-table"></a>Tabelle "Region"
  
-Die Regions Tabelle ist eine unterstützende Tabelle. Jeder Datensatz steht für ein Land/eine Region, das in der Netzwerk Konfigurationseinstellung definiert ist.
+Bei der Region-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für ein Land/eine Region in der Netzwerkkonfigurationseinstellung.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**RegionKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die das Land/die Region kennzeichnet.  <br/> |
-|**RegionName** <br/> |nvarchar (128)  <br/> |Eindeutigen  <br/> |Der Name des Landes/der Region.  <br/> |
+|**RegionKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die das Land/die Region identifiziert.  <br/> |
+|**RegionName** <br/> |nvarchar(128)  <br/> |Eigen  <br/> |Der Name des Lands/der Region.  <br/> |
    
 

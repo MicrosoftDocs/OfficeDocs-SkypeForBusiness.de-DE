@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMeta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,35 +12,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta enthält die Prinzipale, die aus den Active Directory-Domänendiensten aktualisiert werden müssen.
-ms.openlocfilehash: c76f4a74b3f627d360a2d745e46b6f2dac26bff0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalMeta enthält die Prinzipale, die aus Active Directory Domain Services aktualisiert werden müssen.
+ms.openlocfilehash: e10b56a8a3a1c25f73cd1a07f4fdcde18c6f1215
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813573"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831545"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
-tblPrincipalMeta enthält die Prinzipale, die aus den Active Directory-Domänendiensten aktualisiert werden müssen.
+tblPrincipalMeta enthält die Prinzipale, die aus Active Directory Domain Services aktualisiert werden müssen.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID.  <br/> |
-|prinAffiliationsDirty  <br/> |Bit, nicht NULL  <br/> |"True", wenn Haupt Zuordnungen aktualisiert werden müssen.  <br/> |
-|prinAttributesDirty  <br/> |Bit, nicht NULL  <br/> |"True", wenn Prinzipal Attribute aktualisiert werden müssen.  <br/> |
-|prinDeleted  <br/> |Bit, nicht NULL  <br/> |"True", wenn der Prinzipal gelöscht wurde.  <br/> |
-|tryCount  <br/> |int  <br/> |Die Anzahl der Versuche, den Prinzipal von AD DS zu aktualisieren, die bisher geschehen sind.  <br/> |
-|lastTry  <br/> |datetime  <br/> |Zeitstempel des letzten Versuchs, den Prinzipal zu aktualisieren. Kann NULL sein, wenn noch keine Aktualisierung versucht wurde.  <br/> |
-|nextTry  <br/> |datetime  <br/> |Zeitstempel für die nächste geplante Aktualisierung. Kann NULL sein, wenn keine weitere Aktualisierung geplant wurde.  <br/> |
+|prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID  <br/> |
+|prinAffiliationsDirty  <br/> |bit, nicht NULL  <br/> |TRUE, wenn Prinzipalzuordnungen aktualisiert werden müssen.  <br/> |
+|prinAttributesDirty  <br/> |bit, nicht NULL  <br/> |TRUE, wenn Prinzipalattribute aktualisiert werden müssen.  <br/> |
+|prinDeleted  <br/> |bit, nicht NULL  <br/> |TRUE, wenn der Prinzipal gelöscht wurde.  <br/> |
+|tryCount  <br/> |int  <br/> |Anzahl der Versuche, den Prinzipal über AD DS zu aktualisieren, die bisher ausgeführt wurden.  <br/> |
+|lastTry  <br/> |Datum/Uhrzeit  <br/> |Zeitstempel des letzten Versuchs, den Prinzipal zu aktualisieren. Kann NULL sein, wenn bisher kein Aktualisierungsversuch unternommen wurde.  <br/> |
+|nextTry  <br/> |Datum/Uhrzeit  <br/> |Zeitstempel für die nächste geplante Aktualisierung. Kann NULL sein, wenn keine weitere Aktualisierung geplant ist.  <br/> |
    
-**Schlüssel**
+**Keys**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
 |prinID  <br/> |Primärschlüssel  <br/> |
-|prinID  <br/> |Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.  <br/> |
+|prinID  <br/> |Fremdschlüssel mit Abfrage der "tblPrincipal.prinID"-Tabelle.  <br/> |
    
 

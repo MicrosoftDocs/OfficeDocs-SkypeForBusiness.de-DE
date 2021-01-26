@@ -1,8 +1,8 @@
 ---
-title: Verknüpfen von netzwerkregionen
+title: Verknüpfen von Netzwerkregionen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,50 +10,50 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Sie können Verknüpfungen zwischen zwei netzwerkregionen als Teil der Anrufsteuerung (Call Admission Control, CAC) konfigurieren. '
-ms.openlocfilehash: 4a643f34b9525b53168b9015b77a7f8292abd417
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren. '
+ms.openlocfilehash: 0a4f5c63b4470fbfe6d2677f0e9e6f52841f7ebb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817524"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816465"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Verknüpfen von Netzwerkregionen in Skype for Business Server
 
-Sie können Verknüpfungen zwischen zwei netzwerkregionen als Teil der Anrufsteuerung (Call Admission Control, CAC) konfigurieren. Verwenden Sie die Abschnitte in diesem Artikel, um die Verknüpfungsinformationen für den Molch Bereich anzuzeigen oder Brücker Regions Verknüpfungen zu konfigurieren oder zu löschen. 
+Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren. Verwenden Sie die Abschnitte in diesem Artikel, um Informationen zu neuen Netzwerkregionsverknüpfungen anzeigen oder netwrok-Regionenverbindungen zu konfigurieren oder zu löschen. 
 
-## <a name="view-network-region-link-information"></a>Link Informationen zum Anzeigen von netzwerkregionen 
+## <a name="view-network-region-link-information"></a>Anzeigen von Informationen zu Netzwerkregionsverbindungen 
 
-Sie können die Verknüpfungen zwischen zwei netzwerkregionen im Rahmen der Anrufsteuerung (Call Admission Control, CAC) anzeigen. Regionen in einem Netzwerk sind über die physische WAN-Konnektivität (Wide Area Network) verbunden. Sie können die Skype for Business Server-Systemsteuerung verwenden, um eine vorhandene Verknüpfung zwischen zwei netzwerkregionen anzuzeigen. 
+Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen anzeigen. Regionen in einem Netzwerk sind über eine physische WAN-Verbindung (Wide Area Network, Fernnetz) verbunden. Sie können die Skype for Business Server-Systemsteuerung verwenden, um eine vorhandene Verbindung zwischen zwei Netzwerkregionen anzeigen. 
 
 
-### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>So zeigen Sie einen Link zur netzwerkregion in der Skype for Business Server-Systemsteuerung an
+### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>So zeigen Sie eine Netzwerkregionsverbindung in der Skype for Business Server-Systemsteuerung an
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Link**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenverbindung".**
 
-4.  Klicken Sie auf der Seite **Regions Link** auf den Link Region, den Sie anzeigen möchten.
+4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie anzeigen möchten.
     
     > [!NOTE]  
-    > Sie können nur Informationen zu einem Regions Link gleichzeitig anzeigen.
+    > Es können in einem Arbeitsschritt nur Informationen zu einer Regionenverbindung angezeigt werden.
 
-5.  Wählen Sie im Menü **Bearbeiten** die Option **Details anzeigen**aus.
+5.  Wählen Sie im Menü **Bearbeiten** die Option **Details anzeigen** aus.
 
-### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Link Informationen zu netzwerkregionen mithilfe von Windows PowerShell-Cmdlets
+### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Informationen zu Netzwerkregionsverbindungen mithilfe Windows PowerShell Cmdlets
 
-Sie können Netzwerk Regions Verknüpfungen mithilfe von Windows PowerShell und dem Cmdlet **Get-CsNetworkRegionLink** anzeigen. Sie können dieses Cmdlet über die Skype for Business Server-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. 
+Sie können Netzwerkregionenverbindungen mithilfe Windows PowerShell **Cmdlets "Get-CsNetworkRegionLink"** anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. 
 
 
-### <a name="to-view-network-region-link-information"></a>So zeigen Sie netzwerkregion-Verknüpfungsinformationen an
+### <a name="to-view-network-region-link-information"></a>So zeigen Sie die Informationen zu einer Netzwerkregionenverbindung an
 
-  - Wenn Sie Informationen zu allen ihren netzwerkregion-Links anzeigen möchten, geben Sie den folgenden Befehl in der Skype for Business Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+  - Geben Sie zum Anzeigen von Informationen zu allen Netzwerkregionsverbindungen den folgenden Befehl in der Skype for Business Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkRegionLink
     
-    Mit diesem Befehl werden Informationen ähnlich der folgenden zurückgegeben:
+    Es werden etwa folgende Informationen zurückgegeben:
     
         Identity            : NorthwestToCalifornia
         BWPolicyProfileID   :
@@ -62,71 +62,71 @@ Sie können Netzwerk Regions Verknüpfungen mithilfe von Windows PowerShell und 
         NetworkRegionID2    : California
 
 
-Ausführliche Informationen finden Sie unter [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+Für weitere Informationen, siehe [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
 
 
-## <a name="configure-network-region-links"></a>Konfigurieren von Netzwerk Regions Verknüpfungen 
+## <a name="configure-network-region-links"></a>Konfigurieren von Netzwerkregionsverbindungen 
 
-Sie können Verknüpfungen zwischen zwei netzwerkregionen als Teil der Anrufsteuerung (Call Admission Control, CAC) konfigurieren. Regionen in einem Netzwerk sind über die physische WAN-Konnektivität (Wide Area Network) verbunden. Sie können die Skype for Business Server-Systemsteuerung verwenden, um eine Verknüpfung zwischen zwei netzwerkregionen zu definieren und die Bandbreiteneinschränkungen für Audio-und Videoverbindungen zwischen diesen Regionen festzulegen.
+Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren. Regionen in einem Netzwerk sind über eine physische WAN-Verbindung (Wide Area Network, Fernnetz) verbunden. Mithilfe der Skype for Business Server-Systemsteuerung können Sie eine Verbindung zwischen zwei Netzwerkregionen definieren und die Bandbreiteneinschränkungen für Audio- und Videoverbindungen zwischen diesen Regionen festlegen.
 
-### <a name="to-create-a-network-region-link"></a>So erstellen Sie eine Netzwerk Regions Verknüpfung
+### <a name="to-create-a-network-region-link"></a>So erstellen Sie eine Netzwerkregionenverbindung
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Link**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenverbindung".**
 
-4.  Klicken Sie auf der Seite **Regions Link** auf **neu**.
+4.  Klicken Sie auf der Seite **Regionenverbindung** auf **Neu**.
 
-5.  Geben Sie im Feld **neuer Bereich**einen Wert in das Feld **Name** ein.
+5.  Geben Sie im Abschnitt **Neue Regionenverbindung** im Feld **Name** einen Wert ein.
  
     > [!NOTE]  
     > Dieser Wert muss innerhalb Ihrer Skype for Business Server-Bereitstellung eindeutig sein.
 
-6.  Wählen Sie in der Dropdownliste **netzwerkregion \#1** einen der beiden zu verknüpfende Regionen aus.
+6.  Wählen Sie in der Dropdownliste "Netzwerkregion **\# 1"** eine der beiden Regionen aus, die verknüpft werden sollen.
 
-7.  Wählen Sie in der Dropdownliste **netzwerkregion \#2** die andere Region aus, die verknüpft werden soll. Diese Region muss sich von der für netzwerkregion \#1 ausgewählten Region unterscheiden.
+7.  Wählen Sie in der Dropdownliste Netzwerkregion **\# 2** die andere Region aus, die verknüpft werden soll. Diese Region muss sich von der für Netzwerkregion 1 ausgewählten Region \# unterscheiden.
 
-8.  Optional Wenn Sie Bandbreiteneinschränkungen für Audio-oder Videoanrufe zwischen diesen Regionen festlegen möchten, wählen Sie in der Dropdownliste **bandbreitenrichtlinie** ein Profil für Bandbreitenrichtlinien aus.
+8.  (Optional) Wenn Sie Bandbreitenbeschränkungen für Audio- oder Videoanrufe zwischen diesen Regionen festlegen möchten, wählen Sie ein Bandbreitenrichtlinienprofil in der Dropdownliste **Bandbreitenrichtlinie** aus.
 
-9.  Klicken Sie auf **Commit ausführen**.
+9.  Klicken Sie auf **Commit**.
 
-### <a name="to-modify-a-network-region-link"></a>So ändern Sie eine Netzwerk Regions Verknüpfung
+### <a name="to-modify-a-network-region-link"></a>So ändern Sie eine Netzwerkregionenverbindung
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Link**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenverbindung".**
 
-4.  Klicken Sie auf der Seite **Regions Link** auf den zu ändernden Bereichs Link.
+4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie ändern möchten.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  Im **Link "Region bearbeiten**" können Sie die verknüpften Regionen oder das bandbreitenrichtlinienprofil für diesen Link ändern.
+6.  Im Abschnitt **Regionenverbindung bearbeiten** können Sie die verknüpften Regionen oder das Bandbreitenrichtlinienprofil für diese Region ändern.
 
-7.  Klicken Sie auf **Commit ausführen**.
+7.  Klicken Sie auf **Commit**.
 
 
-## <a name="delete-network-region-links"></a>Löschen von Netzwerk Regions Verknüpfungen
+## <a name="delete-network-region-links"></a>Löschen von Netzwerkregionsverbindungen
 
-Sie können Verknüpfungen zwischen zwei netzwerkregionen als Teil der Anrufsteuerung (Call Admission Control, CAC) konfigurieren. Regionen in einem Netzwerk sind über die physische WAN-Konnektivität (Wide Area Network) verbunden. Sie können die Skype for Business Server-Systemsteuerung verwenden, um eine vorhandene Verknüpfung zwischen zwei netzwerkregionen zu löschen. 
+Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren. Regionen in einem Netzwerk sind über eine physische WAN-Verbindung (Wide Area Network, Fernnetz) verbunden. Sie können die Skype for Business Server-Systemsteuerung verwenden, um eine vorhandene Verbindung zwischen zwei Netzwerkregionen zu löschen. 
 
-### <a name="to-delete-a-network-region-link"></a>So löschen Sie eine Netzwerk Regions Verknüpfung
+### <a name="to-delete-a-network-region-link"></a>So löschen Sie eine Netzwerkregionenverbindung
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Link**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenverbindung".**
 
-4.  Klicken Sie auf der Seite **Regions Link** auf den zu löschenden Regions Link.
+4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie löschen möchten.
  
     > [!NOTE]  
-    > Sie können mehrere Regions Verknüpfungen gleichzeitig löschen. Drücken Sie dazu STRG, und wählen Sie bei gedrückter STRG-Taste mehrere Regions Links aus. Wenn Sie alle Regions Verknüpfungen auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG> .
+    > Sie können mehrere Regionenverbindungen in einem Arbeitsschritt löschen. Drücken Sie hierzu die STRG-TASTE, und wählen Sie bei gedrückter STRG-TASTE mehrere Netzwerkregionen aus. Wenn Sie alle Netzwerkregionen auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
 
-5.  Wählen Sie im Menü **Bearbeiten** die Option **Löschen**aus.
+5.  Wählen Sie im Menü **Bearbeiten** die Option **Löschen** aus.
 
 6.  Klicken Sie auf **OK**.
 

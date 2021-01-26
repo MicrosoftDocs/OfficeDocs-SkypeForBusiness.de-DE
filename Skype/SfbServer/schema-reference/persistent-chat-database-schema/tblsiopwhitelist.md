@@ -1,8 +1,8 @@
 ---
 title: tblSiopWhiteList
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-description: tblSiopWhiteList ist die Liste der registrierten Add-Ins, die Knoten zugeordnet werden können.
-ms.openlocfilehash: ae287a1a32b09ce309c688dac2a042913383a263
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bei "tblSiopWhiteList" handelt es sich um die Liste der registrierten Add-Ins, die mit Knoten verknüpft werden können.
+ms.openlocfilehash: cf7a727bd34e5c6f29f5bf0b203411983c90ae53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812113"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831485"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  
-tblSiopWhiteList ist die Liste der registrierten Add-Ins, die Knoten zugeordnet werden können.
+Bei "tblSiopWhiteList" handelt es sich um die Liste der registrierten Add-Ins, die mit Knoten verknüpft werden können.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |siopID  <br/> |GUID, nicht NULL  <br/> |GUID des Add-Ins.  <br/> |
-|siopName  <br/> |nvarchar (50); nicht NULL  <br/> |Anzeigename des Add-Ins.  <br/> |
-|siopUrl  <br/> |nvarchar (255); nicht NULL  <br/> |Die URL des Add-Ins.  <br/> |
+|siopName  <br/> |nvarchar (50), nicht NULL  <br/> |Anzeigename des Add-Ins.  <br/> |
+|siopUrl  <br/> |nvarchar (255), nicht NULL  <br/> |URL des Add-Ins.  <br/> |
    
 **Schlüssel**
 

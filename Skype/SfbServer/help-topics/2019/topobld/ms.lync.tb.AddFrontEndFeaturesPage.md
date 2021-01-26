@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Front-End-Funktionen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
-description: Wählen Sie die einzelnen Features aus, die Sie für den Front-End-Pool aktivieren möchten. Sie müssen mindestens Instant Messaging (im) bereitstellen, das immer aktiviert ist und nicht deaktiviert werden kann. Darüber hinaus haben Sie die Möglichkeit, andere Features wie Conferencing, Enterprise-VoIP und Anrufannahme Steuerung (Call Admission Control, CAC) bereitzustellen. Einige Features sind von Ihrer Topologie abhängig.
-ms.openlocfilehash: 6debbfe324abf626918768e1a3cae6f0b4b112ff
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Wählen Sie die Funktionen aus, die für den Front-End-Pool aktiviert werden sollen. Sie müssen mindestens die Chatfunktion (Instant Messaging) bereitstellen, die immer aktiviert ist und nicht deaktiviert werden kann. Sie haben auch die Möglichkeit, andere Funktionen wie Konferenzen, Enterprise-VoIP und Anrufsteuerung (Call Admission Control, CAC) bereitstellen. Einige Funktionen sind von Ihrer Topologie abhängig.
+ms.openlocfilehash: 140837ad8a8f9272341da597677a8f8dfb8e8a02
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798562"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811705"
 ---
 # <a name="add-front-end-features"></a>Hinzufügen von Front-End-Funktionen
 
-Wählen Sie die einzelnen Features aus, die Sie für den Front-End-Pool aktivieren möchten. Sie müssen mindestens Instant Messaging (im) bereitstellen, das immer aktiviert ist und nicht deaktiviert werden kann. Darüber hinaus haben Sie die Möglichkeit, andere Features wie Conferencing, Enterprise-VoIP und Anrufannahme Steuerung (Call Admission Control, CAC) bereitzustellen. Einige Features sind von Ihrer Topologie abhängig.
+Wählen Sie die Funktionen aus, die für den Front-End-Pool aktiviert werden sollen. Sie müssen mindestens die Chatfunktion (Instant Messaging) bereitstellen, die immer aktiviert ist und nicht deaktiviert werden kann. Sie haben auch die Möglichkeit, andere Funktionen wie Konferenzen, Enterprise-VoIP und Anrufsteuerung (Call Admission Control, CAC) bereitstellen. Einige Funktionen sind von Ihrer Topologie abhängig.
 
 - Konferenzen
 
@@ -32,13 +32,13 @@ Wählen Sie die einzelnen Features aus, die Sie für den Front-End-Pool aktivier
 
 - Anrufsteuerung (CAC)
 
-- Archiving
+- Archivierung
 
 - Überwachung
 
 > [!NOTE]
-> Wenn Sie CAC in Ihrer Bereitstellung aktivieren möchten, müssen Sie CAC in genau einem Pool pro zentralen Standort aktivieren. Wir empfehlen CAC, wenn Sie Sprachfeatures oder A/V-Konferenzen bereitstellen.
+> Zum Aktivieren der Anrufsteuerung in Ihrer Bereitstellung müssen Sie diese Funktion in genau einem Pool pro zentralem Standort aktivieren. Die Anrufsteuerung wird empfohlen, wenn Sie VoIP-Funktionen oder die A/V-Konferenzfunktion bereitstellen.
 
-Details zum Angeben von Features für einen Enterprise Edition-Pool finden Sie unter [definieren und Konfigurieren eines Front-End-Pools](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation.
+Ausführliche Informationen zum Festlegen von Funktionen für einen Enterprise Edition-Pool finden Sie unter [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation.
 
 

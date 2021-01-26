@@ -1,8 +1,8 @@
 ---
 title: tblPreference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-description: tblPreference enthält die Clienteinstellungen des Benutzers. Diese wird in der Regel von Clients vor lync 2013 verwendet.
-ms.openlocfilehash: 426a9f6aebe6cc6e510e2a75093b9210d3a0ba46
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: "\"tblPreference\" enthält die Clienteinstellungen der Benutzer. Dies wird in der Regel von Clients vor Lync 2013 verwendet."
+ms.openlocfilehash: 96cd017dd67a05f3240269f5bdcbd23f30fffd28
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814553"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815905"
 ---
 # <a name="tblpreference"></a>tblPreference
 
-tblPreference enthält die Clienteinstellungen des Benutzers. Diese wird in der Regel von Clients vor lync 2013 verwendet.
+"tblPreference" enthält die Clienteinstellungen der Benutzer. Dies wird in der Regel von Clients vor Lync 2013 verwendet.
 
-**Spalten**
+**Columns**
 
 
 | **Spalte**            | **Typ**                        | **Beschreibung**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| prefLabel  <br/>      | nvarchar (255); nicht NULL  <br/> | Beschriftung mit einem Format wie: \<SIP-URI des Benutzers\>                   |
-| prefSeqID  <br/>      | int, nicht NULL  <br/>            | Eine sequenzielle Zahl (pro Etikett) für die Versionsverwaltung  <br/> |
+| prefLabel  <br/>      | nvarchar (255), nicht NULL  <br/> | Bezeichnung mit einem Format wie: \<user sip uri\>                   |
+| prefSeqID  <br/>      | int, nicht NULL  <br/>            | Eine sequenzielle Zahl (pro Bezeichnung) für Versionszwecke.  <br/> |
 | prefContent  <br/>    | nvarchar (max)  <br/>           | Codierter Inhalt.  <br/>                                         |
-| lastModifiedBy  <br/> | int, nicht NULL  <br/>            | Die ID des Prinzipals, der die Einstellung aktualisiert hat.  <br/>         |
+| lastModifiedBy  <br/> | int, nicht NULL  <br/>            | ID des Prinzipal, der die Einstellung aktualisiert hat.  <br/>         |
 
 **Schlüssel**
 

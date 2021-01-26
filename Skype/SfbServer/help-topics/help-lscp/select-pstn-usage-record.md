@@ -1,8 +1,8 @@
 ---
 title: Auswählen eines PSTN-Verwendungsdatensatzes
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
-description: Verwenden Sie das Dialogfeld PSTN-Verwendungs Eintrag auswählen, um einen vorhandenen PSTN-Verwendungs Eintrag (Public Switched Telephone Network) zu finden, den Sie verwenden können.
-ms.openlocfilehash: db547457439851c11ada699b888876042d705383
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Suchen Sie im Dialogfeld PSTN-Verwendungseintrag auswählen nach einem vorhandenen PSTN-Verwendungseintrag (Public Switched Telephone Network), den Sie verwenden können.
+ms.openlocfilehash: bd7adcd30f8cce5ceec2a9644f75bb94074d8569
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822148"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829085"
 ---
 # <a name="select-pstn-usage-record"></a>Auswählen eines PSTN-Verwendungsdatensatzes
  
-Verwenden Sie das Dialogfeld **PSTN-Verwendungs Eintrag auswählen** , um einen vorhandenen PSTN-Verwendungs Eintrag (Public Switched Telephone Network) zu finden, den Sie verwenden können.
+Suchen Sie im Dialogfeld **PSTN-Verwendungseintrag auswählen** nach einem vorhandenen PSTN-Verwendungseintrag (Public Switched Telephone Network), den Sie verwenden können.
   
 > [!NOTE]
-> Wenn Sie alle verfügbaren PSTN-Nutzungsdatensätze abrufen möchten, geben Sie im Suchfeld nichts ein, und klicken Sie dann auf das Symbol suchen. 
+> Zum Abrufen aller verfügbaren PSTN-Verwendungseinträge geben Sie im Suchfeld keine Suchzeichenfolge ein, und klicken Sie dann auf das Suchsymbol. 
   
-Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
   
 

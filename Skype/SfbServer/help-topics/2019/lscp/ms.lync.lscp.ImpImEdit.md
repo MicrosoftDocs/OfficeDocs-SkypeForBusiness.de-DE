@@ -1,8 +1,8 @@
 ---
-title: URL-Filter "neue erstellen" oder "vorhandene bearbeiten"
+title: ERSTELLEN eines neuen oder Bearbeiten eines vorhandenen URL-Filters
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 062a985184781bd21e6b17972c1f1046c339f23f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: ef8610ac51bd493a2c01b558fa4d2073083cc229
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796414"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801365"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL-Filter: Erstellen eines neuen oder Bearbeiten eines vorhandenen URL-Filters
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Ändern des Standard-URL-Filters](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [Ändern des URL-Standardfilters](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 
-- [Erstellen eines neuen URL-Filters zur Behandlung von Links in Chat Unterhaltungen](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [Erstellen eines neuen URL-Filters für die Verarbeitung von Links in Sofortnachrichtenunterhaltungen](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
 
 

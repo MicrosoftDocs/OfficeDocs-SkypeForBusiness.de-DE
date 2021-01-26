@@ -1,8 +1,8 @@
 ---
-title: Office Web Apps-Server – Bereichsknoten
+title: Office Web Apps-Server – Bereichsknoten – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server in Topology Builder, um folgende Aktionen auszuführen:'
-ms.openlocfilehash: f863773c1cbf80f48886285e972e42f2642ec955
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Klicken Sie im Topologie-Generator mit der rechten Maustaste auf Office Web Apps-Server, um Folgendes durchzuführen:'
+ms.openlocfilehash: 0828535293e2293971208f86dc293c6757ff0a0d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793423"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829945"
 ---
-# <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps-Server – Bereichsknoten
+# <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps-Server – Bereichsknoten – Erweiterung
  
-Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server** in Topology Builder, um folgende Aktionen auszuführen:
+Klicken Sie im Topologie-Generator mit der rechten Maustaste auf **Office Web Apps-Server,** um Folgendes durchzuführen:
   
-- **Neuer Office Web Apps-Server**: startet den Assistenten zum **Definieren eines neuen Office Web Apps-Servers** , der zum Definieren eines neuen Office Web Apps-Servers verwendet wird.
+- **Neuer Office Web Apps Server:** Startet den Assistenten zum Definieren eines neuen **Office Web Apps Server,** mit dem ein neuer Office Web Apps Server definiert wird.
     
-Zusätzlich zur neuen Office Web Apps-Server Option können Sie die folgenden allgemeinen Aufgaben ausführen:
+Zusätzlich zur Option "Neuer Office Web Apps Server" können Sie die folgenden allgemeinen Aufgaben ausführen:
   
-![Office webapps-Server Bereichsknoten](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps Server - Bereichsknoten](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Versionen zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten aus früheren Versionen zusammenführen oder die Bereitstellung entfernen.
     
 - **Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.
     

@@ -1,8 +1,8 @@
 ---
 title: A/V MCU – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools und diesem A/V-Konferenzpool zugeordnete Front-End-Pools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: d9ee37e34ec11319ea93223969471fd75fb47a9f
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6c74485692a7eaafde3c2b2079c4db2a3ee15c5f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216196"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833295"
 ---
-# <a name="av-mcu-scope-node"></a>A/V MCU – Bereichsknoten
+# <a name="av-mcu-scope-node"></a>AV MCU – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools und diesem A/V-Konferenzpool zugeordnete Front-End-Pools. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers****, mit dem Sie diesem Pool einen weiteren Edgeserver hinzufügen können.
+- **Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers, mit dem Sie diesem Pool einen weiteren Edgeserver hinzufügen können.
     
 - **Eigenschaften bearbeiten**. Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen des Pools und zugeordnete Front-End-Pools ändern können.
     

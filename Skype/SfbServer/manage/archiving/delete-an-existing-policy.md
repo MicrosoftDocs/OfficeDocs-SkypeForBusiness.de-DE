@@ -1,8 +1,8 @@
 ---
 title: Löschen einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,43 +11,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype for Business Server löschen.'
-ms.openlocfilehash: 8e2a2c21f6d137fcdb87e69c041cf08143092be1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype for Business Server löschen.'
+ms.openlocfilehash: 7d71fd9ca03f743cd51e0161cd1a3b437be43cb2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818927"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817615"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Löschen einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
 
-**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype for Business Server löschen.
+**Zusammenfassung:** Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype for Business Server löschen.
   
-Benutzer- und Standortrichtlinien können gelöscht werden, die globale Richtlinie jedoch nicht. Wenn Sie die globale Richtlinie löschen, setzt Skype for Business Server die Richtlinie automatisch auf die Standardwerte zurück.
+Sie können eine Benutzer- oder Standortrichtlinie löschen, jedoch nicht die globale Richtlinie. Wenn Sie die globale Richtlinie löschen, setzt Skype for Business Server die Richtlinie automatisch auf die Standardwerte zurück.
   
-## <a name="delete-a-policy-by-using-the-control-panel"></a>Löschen einer Richtlinie über die Systemsteuerung
+## <a name="delete-a-policy-by-using-the-control-panel"></a>Löschen einer Richtlinie mithilfe der Systemsteuerung
 
-1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsArchivingAdministrator“ oder „CsAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. 
+1. Melden Sie sich von einem Benutzerkonto, das der CsArchivingAdministrator- oder der CsAdministrator-Rolle zugeordnet ist, auf einem beliebigen Computer Ihrer internen Bereitstellung an. 
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
     
-3. Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**.
+3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungsrichtlinie**.
     
 4. Klicken Sie in der Liste der Archivierungsrichtlinien auf die zu löschende Benutzer- oder Standortrichtlinie, auf **Bearbeiten** und dann auf **Löschen**.
     
-5. Klicken Sie auf **Commit ausführen**.
+5. Klicken Sie auf **Commit**.
     
-## <a name="delete-a-policy-by-using-windows-powershell"></a>Verwalten von Archivierungsrichtlinien über Windows PowerShell
+## <a name="delete-a-policy-by-using-windows-powershell"></a>Löschen einer Richtlinie mithilfe von Windows PowerShell
 
-Archivierungsrichtlinien können auch mit dem Cmdlet **Remove-CsArchivingPolicy** gelöscht werden.
+Sie können Archivierungsrichtlinien auch mit dem **Cmdlet "Remove-CsArchivingPolicy"** löschen.
   
-Beispielsweise dient der folgende Befehl zum Löschen der Richtlinie mit der Identität „site:Redmond“. Für Benutzer, für die zuvor die Standortrichtlinie galt, wird nach dem Löschen einer auf Standortebene konfigurierten Richtlinie stattdessen automatisch die globale Archivierungsrichtlinie angewendet:
+Der folgende Befehl löscht beispielsweise die Richtlinie mit dem Identitätsidentitätsidentitäts-Element "site:Redmond". Wenn eine auf Standortebene konfigurierte Richtlinie gelöscht wird, unterliegen Benutzer, die zuvor durch die Standortrichtlinie verwaltet wurden, stattdessen automatisch der globalen Archivierungsrichtlinie:
   
 ```PowerShell
 Remove-CsArchivingPolicy -Identity site:Redmond
 ```
 
-Mit diesem Befehl werden alle Archivierungsrichtlinien entfernt, die auf der Benutzerebene festgelegt wurden:
+Mit diesem Befehl werden alle Archivierungsrichtlinien entfernt, die auf Benutzerebene angewendet werden:
   
 ```PowerShell
 Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
@@ -59,4 +59,4 @@ Mit diesem Befehl werden alle Archivierungsrichtlinien entfernt, bei denen die i
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) .
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Remove-CsArchivingPolicy".](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps)

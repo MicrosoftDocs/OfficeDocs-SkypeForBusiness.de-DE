@@ -1,8 +1,8 @@
 ---
 title: Vorbereiten eines einzelnen Standard Edition-Servers (Einführung)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Wenn Sie mit der Installation eines Skype for Business Server Standard Edition-Servers beginnen möchten, auf dem der zentrale Verwaltungsspeicher und andere von Ihnen ausgewählte ausgewählte Dienste gespeichert sind, müssen Sie als Mitglied der lokalen Gruppe Administratoren auf dem Server angemeldet sein, der dann der Standard Edition-Server. Auf der Server Seite "Single Standard Edition vorbereiten" werden die Anforderungen für die Erstinstallation detailliert beschrieben. Der Computer muss ein Mitglied der Domäne sein, in der Sie das Deployment durchführen werden, und Sie müssen das Schema, die Gesamtstruktur und die Domänenvorbereitung für Ihre Gesamtstruktur erfolgreich abgeschlossen haben.
-ms.openlocfilehash: 437f90fa99efa920479e7c0dc966c3c63fd5eed1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Um mit der Installation eines Skype for Business Server Standard Edition-Servers zu beginnen, auf dem sich der zentrale Verwaltungsspeicher und andere von Ihnen ausgewählte, miteinander ausgeführte Dienste befinden, müssen Sie als Mitglied der lokalen Administratorgruppe auf dem Server angemeldet sein, der zum Standard Edition-Server wird. Auf der Seite "Einzelnen Standard Edition Server vorbereiten" werden die Anforderungen für die Erstinstallation angezeigt. Der Computer muss Mitglied der Domäne sein, in der Sie ihn bereitstellen möchten, und Sie müssen die Schema-, Gesamtstruktur- und Domänenvorschr nkung für Ihre Gesamtstruktur erfolgreich abgeschlossen haben.
+ms.openlocfilehash: 08ea84c0d136339e782c32785c1c4fb536f877cd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796976"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820625"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Vorbereiten eines einzelnen Standard Edition-Servers (Einführung)
  
-Wenn Sie mit der Installation eines Skype for Business Server Standard Edition-Servers beginnen möchten, auf dem der zentrale Verwaltungsspeicher und andere von Ihnen ausgewählte ausgewählte Dienste gespeichert sind, müssen Sie als Mitglied der lokalen Gruppe Administratoren auf dem Server angemeldet sein, der dann der Standard Edition-Server. Auf der Server Seite " **Single Standard Edition vorbereiten** " werden die Anforderungen für die Erstinstallation detailliert beschrieben. Der Computer muss ein Mitglied der Domäne sein, in der Sie das Deployment durchführen werden, und Sie müssen das Schema, die Gesamtstruktur und die Domänenvorbereitung für Ihre Gesamtstruktur erfolgreich abgeschlossen haben.
+Um mit der Installation eines Skype for Business Server Standard Edition-Servers zu beginnen, auf dem sich der zentrale Verwaltungsspeicher und andere von Ihnen ausgewählte, miteinander ausgeführte Dienste befinden, müssen Sie als Mitglied der lokalen Administratorgruppe auf dem Server angemeldet sein, der zum Standard Edition-Server wird. Auf **der Seite "Einzelnen Standard Edition Server** vorbereiten" werden die Anforderungen für die Erstinstallation angezeigt. Der Computer muss Mitglied der Domäne sein, in der Sie ihn bereitstellen möchten, und Sie müssen die Schema-, Gesamtstruktur- und Domänenvorschr nkung für Ihre Gesamtstruktur erfolgreich abgeschlossen haben.
   
-Diese spezielle Aufgabe wurde entwickelt, um einen Standard Edition-Server als ersten Server in Ihrer Infrastruktur einzurichten. Dieser Task installiert den zentralen Verwaltungsspeicher, also SQL Server Express, auf dem Standard Edition-Server. Wenn Sie bereits einen anderen Standard Edition-Server oder Front-End-Pool bereitgestellt haben, klicken Sie auf **Abbrechen**.
+Über diese Aufgabe wird ein Standard Edition-Server als erster Server in Ihrer Infrastruktur eingerichtet. Mit dieser Aufgabe wird der zentrale Verwaltungsspeicher, der SQL Server Express ist, auf dem Standard Edition-Server installiert. Wenn Sie bereits einen anderen Standard Edition-Server oder Front-End-Pool bereitgestellt haben, klicken Sie auf **Abbrechen**.
   
 > [!NOTE]
-> Nachdem Sie diese Aufgabe abgeschlossen haben, installieren Sie den Topology Builder (sofern Sie ihn noch nicht installiert haben) und konfigurieren Ihr Topologie-Dokument. Sie können Ihr Topologie-Dokument erst veröffentlichen, wenn ein zentraler Verwaltungsspeicher verfügbar ist, der durch Ausführen der in diesem Thema beschriebenen Aufgabe bereitgestellt wird. 
+> Nachdem Sie diese Aufgabe abgeschlossen haben, installieren Sie den Topologie-Generator (sofern Sie ihn noch nicht installiert haben), und konfigurieren Ihr Topologiedokument. Das Topologiedokument kann erst veröffentlicht werden, wenn ein zentraler Verwaltungsspeicher verfügbar ist. Dieser wird bereitgestellt, indem die in diesem Thema beschriebene Aufgabe abgeschlossen wird. 
   
 

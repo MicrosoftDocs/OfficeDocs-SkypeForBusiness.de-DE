@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (alternative Antragstellernamen)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Seite Betreffname/Subject Alternative Names zeigt eine Zusammenfassung des Antragstellernamens und aller alternativen Subjektnamen an, mit denen das Zertifikat gefüllt wird. Die Namen für den Namen des Antragstellers und den alternativen Betreff werden aus dem Definitions Dokument zusammengestellt, wie Sie beim Definieren der Bereitstellung im Topologie-Generator erstellt wurden.
-ms.openlocfilehash: 656439cca7676714ae141ec3184f3101963a4bc1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Die Seite Antragstellername/Alternative Antragstellernamen enthält eine Übersicht des Antragstellernamens und aller alternativen Antragstellernamen auf dem Zertifikat. Die Namen für den Betreffnamen und alternative Betreffnamen werden aus dem Definitionsdokument erfasst, wie es bei der Definition der Bereitstellung im Topologie-Generator erstellt wurde.
+ms.openlocfilehash: b0c9acd2c0da3dfbc542c0ad17ee4325c60050c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794283"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801795"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Zertifikatanforderung (alternative Antragstellernamen)
  
-Die Seite **Betreffname/Subject Alternative** Names zeigt eine Zusammenfassung des Antragstellernamens und aller alternativen Subjektnamen an, mit denen das Zertifikat gefüllt wird. Die Namen für den Namen des Antragstellers und den alternativen Betreff werden aus dem Definitions Dokument zusammengestellt, wie Sie beim Definieren der Bereitstellung im Topologie-Generator erstellt wurden.
+Die Seite **Antragstellername/Alternative Antragstellernamen** enthält eine Übersicht des Antragstellernamens und aller alternativen Antragstellernamen auf dem Zertifikat. Die Namen für den Betreffnamen und alternative Betreffnamen werden aus dem Definitionsdokument erfasst, wie es bei der Definition der Bereitstellung im Topologie-Generator erstellt wurde.
   
-Wenn Sie Änderungen am Namen des Antragstellers oder eines der alternativen Subjektnamen vornehmen müssen, klicken Sie auf **Abbrechen** , um den Assistenten für Zertifikatsanforderungen zu beenden und den Topologie-Generator erneut auszuführen. Veröffentlichen Sie die neue Konfiguration dann erneut mit dem korrekt definierten Betreff und den alternativen Namen.
+Wenn Sie Änderungen am Betreffnamen oder einem der alternativen  Namen des Betreffs vornehmen müssen, klicken Sie auf "Abbrechen", um den Zertifikatanforderungs-Assistenten zu beenden und den Topologie-Generator erneut zu starten. Führen Sie anschließend den fea-cs-topo-tool erneut aus, und veröffentlichen Sie die neue Konfiguration mit den ordnungsgemäß definierten Antragsteller- und alternativen Antragstellernamen erneut.
   
 

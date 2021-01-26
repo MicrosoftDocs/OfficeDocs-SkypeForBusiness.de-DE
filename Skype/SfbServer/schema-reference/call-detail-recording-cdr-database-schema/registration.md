@@ -1,8 +1,8 @@
 ---
-title: Registration-Tabelle
+title: Registrierungstabelle
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -12,40 +12,40 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
-description: Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
-ms.openlocfilehash: bca31b85a0b88854760c2a79528792ee82bd272e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Jeder Datensatz stellt ein Benutzerregistrierungsereignis dar.
+ms.openlocfilehash: 1ab9c4b80d7bdbbc379c202978d7639e286128fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814943"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823115"
 ---
-# <a name="registration-table"></a>Registration-Tabelle
+# <a name="registration-table"></a>Registrierungstabelle
  
-Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
+Jeder Datensatz stellt ein Benutzerregistrierungsereignis dar.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionID** <br/> |datetime  <br/> |Primär, fremd  <br/> |Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit **SessionIdSeq** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primär, fremd  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit **SessionID** -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
-|**UserID** <br/> |int  <br/> |Fremd  <br/> |Die Benutzer-ID. Weitere Informationen finden Sie in der [Tabelle "Benutzer](users.md) ". <br/> |
-|**EndpointId** <br/> |uniqueidentifier  <br/> ||Eine GUID, um einen Registrierungs Endpunkt zu identifizieren. In der Regel verfügt das Register-Ereignis vom gleichen Computer desselben Benutzers über die gleiche Endpunkt-ID. Unterschiedliche Computer verfügen über eine andere Endpunkt-ID.  <br/> |
-|**EndpointEra** <br/> |uniqueIdentifier  <br/> ||Die ID, mit der Registrierungen unterschieden werden, die denselben Benutzer und denselben Endpunkt einbeziehen.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**ClientVersionId** <br/> |int  <br/> |Fremd  <br/> |Client Version des aktuellen Benutzers. Weitere Informationen finden Sie [in der Tabelle ClientVersions in Skype for Business Server 2015](clientversions.md) . <br/> |
-|**Registrator** <br/> |int  <br/> |Fremd  <br/> |Die ID des Registrierungsservers, der für die Registrierung verwendet wird. Weitere Informationen finden Sie in der [Tabelle Server](servers.md) . <br/> |
-|**Pool-Nr** <br/> |int  <br/> |Fremd  <br/> |Die ID des Pools, in dem die Sitzung erfasst wurde. Weitere Informationen finden Sie in der [Tabelle Pools](pools.md) . <br/> |
-|**EdgeServerId** <br/> |int  <br/> |Fremd  <br/> |Edge-Server die Registrierung wird durchlaufen. Weitere Informationen finden Sie [in der Tabelle EdgeServers in Skype for Business Server 2015](edgeservers.md) . <br/> |
-|**"IsInternal** <br/> |Bit  <br/> ||Gibt an, ob der Benutzer intern angemeldet ist oder nicht.  <br/> |
-|**IsUserServiceAvailable** <br/> |bit  <br/> ||Gibt an, ob die UserService verfügbar ist.  <br/> |
-|**IsPrimaryRegistrar** <br/> |bit  <br/> ||Ob Sie sich bei der primären Registrierungsstelle registrieren oder nicht.  <br/> |
-|**IsPrimaryRegistrarCentral** <br/> |bit  <br/> ||Gibt an, ob der Benutzer bei einer Survivable Branch-Appliance registriert ist.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**Registrierung** <br/> |datetime  <br/> ||Registrierungszeit.  <br/> |
-|**Registrierung** <br/> |datetime  <br/> ||Zeit für die Registrierung.  <br/> |
-|**Response Code** <br/> |int  <br/> ||Antwortcode der Registrierungsanforderung.  <br/> |
-|**Diagnose-Nr** <br/> |int  <br/> ||Diagnose-ID der Registrierungsanforderung. Dies gibt an, dass der Typ der diagnostischen Informationen.  <br/> |
-|**DeviceID** <br/> |int  <br/> |Fremd  <br/> |Das Gerät, von dem die Registrierungsanforderung stammt. Weitere Informationen finden Sie [in der Tabelle "Geräte" in Skype for Business Server 2015](devices.md) . <br/> |
-|**DeRegisterTypeId** <br/> |tinyint  <br/> |Fremd  <br/> |Der Grund für die Deregistrierung, wie "Benutzer initiiert", "Registrierung abgelaufen", "Client Fehler" und vieles mehr. Weitere Informationen finden Sie [in der Tabelle "deregistertype" in Skype for Business Server 2015](deregistertype.md) . <br/> |
-|**IPAddress** <br/> |nvarchar(256)  <br/> ||Die IP-Adresse des Endpunkts, bei dem der Benutzer registriert ist. Dies kann eine IPv4-Adresse oder eine IPv6-Adresse sein.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
-|**LastModifiedTime** <br/> |DateTime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype for Business Server 2015 eingeführt.  <br/> |
+|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Primär, Fremd  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit **SessionIdSeq** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen [finden Sie in der Tabelle "Dialogfelder" in Skype for Business Server 2015.](dialogs.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primär, Fremd  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit **SessionIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen [finden Sie in der Tabelle "Dialogfelder" in Skype for Business Server 2015.](dialogs.md) <br/> |
+|**UserId** <br/> |int  <br/> |Fremd  <br/> |Die Benutzer-ID. Weitere Informationen [finden Sie in der Tabelle](users.md) "Benutzer". <br/> |
+|**EndpointId** <br/> |uniqueidentifier  <br/> ||Eine GUID (Globally Unique Identifier) zur Kennzeichnung eines Registrierungsendpunkts. In der Regel hat jedes Registrierungsereignis vom gleichen Computer des gleichen Benutzers die gleiche Endpunkt-ID. Verschiedene Computer haben unterschiedliche Endpunkt-IDs.  <br/> |
+|**EndpointEra** <br/> |uniqueIdentifier  <br/> ||ID zum Unterscheiden von Registrierungen, die denselben Benutzer und denselben Endpunkt betreffen.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**ClientVersionId** <br/> |int  <br/> |Fremd  <br/> |Die Clientversion des aktuellen Benutzers. Weitere Informationen finden Sie in der [Tabelle "ClientVersions" in Skype for Business Server 2015.](clientversions.md) <br/> |
+|**RegistrarId** <br/> |int  <br/> |Fremd  <br/> |Die ID des Registrierungsservers, der für die Registrierung verwendet wird. Weitere Informationen [finden Sie in der Tabelle "Server".](servers.md) <br/> |
+|**PoolId** <br/> |int  <br/> |Fremd  <br/> |ID des Pools, in dem die Sitzung erfasst wurde. Weitere Informationen [finden Sie in der Tabelle "Pools".](pools.md) <br/> |
+|**EdgeServerId** <br/> |int  <br/> |Fremd  <br/> |Der Edgeserver, über den die Registrierung läuft. Weitere Informationen finden Sie in der [Tabelle "EdgeServers" in Skype for Business Server 2015.](edgeservers.md) <br/> |
+|**IsInternal** <br/> |Bit  <br/> ||Ob der Benutzer von innerhalb angemeldet ist oder nicht.  <br/> |
+|**IsUserServiceAvailable** <br/> |bit  <br/> ||Ob der Benutzerdienst verfügbar ist oder nicht.  <br/> |
+|**IsPrimaryRegistrar** <br/> |bit  <br/> ||Ob die Registrierung bei der primären Registrierung erfolgt oder nicht.  <br/> |
+|**IsPrimaryRegistrarCentral** <br/> |bit  <br/> ||Gibt an, ob der Benutzer mit einer Survivable Branch Appliance registriert ist.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RegisterTime** <br/> |Datum/Uhrzeit  <br/> ||Der Zeitpunkt der Registrierung.  <br/> |
+|**DeRegisterTime** <br/> |Datum/Uhrzeit  <br/> ||Der Zeitpunkt der Aufhebung der Registrierung.  <br/> |
+|**ResponseCode** <br/> |int  <br/> ||Der Antwortcode der Registrierungsanforderung.  <br/> |
+|**DiagnosticId** <br/> |int  <br/> ||Die Diagnose-ID der Registrierungsanforderung. Diese gibt den Diagnoseinformationstyp an.  <br/> |
+|**DeviceId** <br/> |int  <br/> |Fremd  <br/> |Das Gerät, von dem die Registrierungsanforderung stammt. Weitere Informationen [finden Sie in der Tabelle "Geräte" in Skype for Business Server 2015.](devices.md) <br/> |
+|**DeRegisterTypeId** <br/> |tinyint  <br/> |Fremd  <br/> |Der Grund für die Deregistrierung, z. B. "Benutzer initiiert", "Registrierung abgelaufen", "Client-Fehler" und vieles mehr. Weitere Informationen finden Sie in der [Tabelle "DeRegisterType" in Skype for Business Server 2015.](deregistertype.md) <br/> |
+|**IPAddress** <br/> |nvarchar(256)  <br/> ||IP-Adresse des Endpunkts, mit dem sich der Benutzer registriert hat. Dies kann eine IPv4- oder eine IPv6-Adresse sein.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype for Business Server 2015 eingeführt.  <br/> |
    
 

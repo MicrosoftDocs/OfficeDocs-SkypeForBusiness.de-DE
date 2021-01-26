@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Add-on-Lizenzen
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-on-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328264"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731143"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams-Add-on-Lizenzen
 
@@ -115,7 +115,7 @@ Nachfolgend finden Sie eine Zusammenfassung, die auf dem Lizenzierungs Plan basi
 
   <sup>1</sup> nur für Organisationen mit weniger als 300 Benutzern verfügbar.
 
-Weitere Informationen finden Sie unter [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) -und [Office 365 Education-Pläne](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
+Weitere Informationen finden Sie unter [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) -und [Office 365 Education-Pläne](https://www.microsoft.com/education/products/office).
 
 > [!NOTE]
 > Wenn Sie einen Telefondienst eines Drittanbieters verwenden müssen, die [direkte Weiterleitung](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt wird oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie die direkte Weiterleitung für Sprachfeatures verwenden.
@@ -177,7 +177,7 @@ Hier finden Sie eine Zusammenfassung der Testangebote für Sprachfeatures.
 
   ![Testbasierte Optionen](../media/licensing-trial-offers.png)
 
- Ihr Basisplan muss kein Testangebot sein, um diese Testversionen für Sprachfeatures verwenden zu können. Sie können einen Microsoft 365 Business-Plan oder einen Enterprise-, Government-, Education-oder Non-Profit-Plan mit einem der Testangebote für Sprachfunktionen verwenden. Wenn Sie die verfügbaren Testangebote und Add-ons anzeigen möchten, wechseln Sie im Microsoft 365 Admin Center zu **Abrechnungs**  >  **Kauf Dienste**, wählen Sie **Andere Kategorien aus, die Sie interessieren könnten**, und wählen Sie dann **Add-ons**aus.
+ Ihr Basisplan muss kein Testangebot sein, um diese Testversionen für Sprachfeatures verwenden zu können. Sie können einen Microsoft 365 Business-Plan oder einen Enterprise-, Government-, Education-oder Non-Profit-Plan mit einem der Testangebote für Sprachfunktionen verwenden. Wenn Sie die verfügbaren Testangebote und Add-ons anzeigen möchten, wechseln Sie im Microsoft 365 Admin Center zu **Abrechnungs**  >  **Kauf Dienste**, wählen Sie **Andere Kategorien aus, die Sie interessieren könnten**, und wählen Sie dann **Add-ons** aus.
 
   Für jede dieser sprach-und Konferenzoptionen sind [Kommunikationsguthaben](../set-up-communications-credits-for-your-organization.md) erforderlich, wenn Sie über gebührenfreie Nummern verfügen oder wenn Sie zusätzliche Minuten für Benutzer hinzufügen müssen, um aus Besprechungen zu wählen oder um in-und ausländische Festnetz-Anrufe zu tätigen.
 

@@ -1,8 +1,8 @@
 ---
 title: Medienansicht
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: In der Medienansicht werden Informationen zu einem Medientyp gespeichert, der in einer Peer-to-Peer-Sitzung verwendet wird. Eine Sitzung wird von mehreren Datensätzen in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: 26ef344b5fade02168fb8737fe00049e44e24892
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: In der Medienansicht werden Informationen zu einem in einer Peer-zu-Peer-Sitzung verwendeten Medientyp gespeichert. Eine Sitzung wird durch mehrere Datensätze in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+ms.openlocfilehash: 77c22246056a28cdb41a007ac0d7e2617fa00ad9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815053"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831787"
 ---
 # <a name="media-view"></a>Medienansicht
  
-In der Medienansicht werden Informationen zu einem Medientyp gespeichert, der in einer Peer-to-Peer-Sitzung verwendet wird. Eine Sitzung wird von mehreren Datensätzen in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+In der Medienansicht werden Informationen zu einem in einer Peer-zu-Peer-Sitzung verwendeten Medientyp gespeichert. Eine Sitzung wird durch mehrere Datensätze in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
   
 > [!NOTE]
-> Die Medienansicht sollte nicht verwendet werden, um die Mediendauer einer Sitzung zu berechnen. Diese Ansicht enthält die Signalisierungs Details von Medienaustausch in einer Sitzung. Der Medienaustausch erfolgt über die Einladungs Anfrage, und Startzeit gibt an, wie lange die Einladung gesendet wurde. Die Einladungs Zeit bedeutet nicht unbedingt die Startzeit des Mediums, da Medien erst nach Annahme der Sitzung gestartet werden. 
+> Die Medienansicht sollte nicht zur Berechnung der Mediendauer für eine Sitzung verwendet werden. Diese Ansicht enthält die Signaldetails für den Austausch von Mediendaten in einem Anruf. Der Austausch von Mediendaten erfolgt durch die INVITE-Anforderung; StartTime gibt den Zeitpunkt an, zu dem die INVITE-Anforderung gesendet wurde. Der INVITE-Zeitpunkt gibt nicht notwendigerweise die Medienstartzeit an, da die Medien erst gestartet werden, nachdem die Sitzung angenommen wurde. 
   
-Die Medienansicht enthält alle Spalten in der SessionDetails- [Ansicht](sessiondetails-0.md) sowie die nachstehend aufgeführten.
+Die Medienansicht enthält zusätzlich zu den unten aufgeführten Spalten alle Spalten in der Ansicht ["SessionDetails".](sessiondetails-0.md)
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**Media** <br/> |nvarchar(256)  <br/> |Medientyp. Weitere Informationen finden Sie in der [Tabelle medialist](medialist.md) . <br/> |
-|**MediaStartTime** <br/> |datetime  <br/> |Zeit, zu der eine Medienanfrage gesendet wurde.  <br/> |
-|**MediaEndTime** <br/> |datetime  <br/> |Endzeit der Sitzung.  <br/> |
+|**Medien** <br/> |nvarchar(256)  <br/> |Medientyp. Weitere Informationen [finden Sie in der Tabelle "MediaList".](medialist.md) <br/> |
+|**MediaStartTime** <br/> |Datum/Uhrzeit  <br/> |Uhrzeit, zu der eine Medienanforderung gesendet wurde.  <br/> |
+|**MediaEndTime** <br/> |Datum/Uhrzeit  <br/> |Sitzungsende.  <br/> |
    
 

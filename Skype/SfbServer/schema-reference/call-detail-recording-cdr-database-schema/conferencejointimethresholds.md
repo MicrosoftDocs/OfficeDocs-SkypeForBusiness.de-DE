@@ -1,8 +1,8 @@
 ---
-title: ConferenceJoinTimeThresholds-Tabelle in Skype for Business Server 2015
+title: Tabelle "ConferenceJoinTimeThresholds" in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
-description: 'Die Tabelle "ConferenceJoinTimeThresholds" enthält die Klassifizierungs Grenzen, die vom Zusammenfassungsbericht "Konferenzteilnahme Zeit" verwendet werden. Der Bericht "Konferenz Teilzeit-Zusammenfassung" fasst die Zeitspanne zusammen, die der Benutzer für eine erfolgreiche Teilnahme an einer Konferenz benötigt. Diese Zeitwerte werden sowohl als Mittelwert als auch in einer der folgenden Kategorien angezeigt:'
-ms.openlocfilehash: 1874a94448be5957079b1c53944bc127df761e5e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungsgrenzwerte, die vom zusammenfassenden Bericht über den Zeitpunkt des Konferenzbeitritts verwendet werden. Der Bericht über den Zeitpunkt des Konferenzbeitritts enthält eine Zusammenfassung der Zeit, die Benutzer benötigen, um einer Konferenz erfolgreich beizutreten. Diese Zeitwerte werden sowohl als Durchschnitt als auch in einer der folgenden Kategorien gemeldet:'
+ms.openlocfilehash: dfa7293307376b5fb5c86cec6f7504d363b005f5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815393"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813305"
 ---
-# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>ConferenceJoinTimeThresholds-Tabelle in Skype for Business Server 2015
+# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>Tabelle "ConferenceJoinTimeThresholds" in Skype for Business Server 2015
  
-Die Tabelle "ConferenceJoinTimeThresholds" enthält die Klassifizierungs Grenzen, die vom Zusammenfassungsbericht "Konferenzteilnahme Zeit" verwendet werden. Der Bericht "Konferenz Teilzeit-Zusammenfassung" fasst die Zeitspanne zusammen, die der Benutzer für eine erfolgreiche Teilnahme an einer Konferenz benötigt. Diese Zeitwerte werden sowohl als Mittelwert als auch in einer der folgenden Kategorien angezeigt:
+Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungsgrenzwerte, die vom zusammenfassenden Bericht über den Zeitpunkt des Konferenzbeitritts verwendet werden. Der Bericht über den Zeitpunkt des Konferenzbeitritts enthält eine Zusammenfassung der Zeit, die Benutzer benötigen, um einer Konferenz erfolgreich beizutreten. Diese Zeitwerte werden sowohl als Durchschnitt als auch in einer der folgenden Kategorien gemeldet:
   
-- Weniger als 2 Sekunden.
+- Weniger als 2 Sekunden.
     
-- Zwischen 2 Sekunden und 5 Sekunden.
+- Zwischen 2 Sekunden und 5 Sekunden.
     
-- Zwischen 5 Sekunden und 10 Sekunden.
+- Zwischen 5 Sekunden und 10 Sekunden.
     
 - Mehr als 10 Sekunden.
     
-Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungs Werte 2 Sekunden, 5 Sekunden und 10 Sekunden.
+Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungswerte 2 Sekunden, 5 Sekunden und 10 Sekunden.
   
-Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
+Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Schwellenwert** <br/> |int  <br/> |Primary  <br/> |Eindeutiger Bezeichner für die Klassifizierung.  <br/> |
-|**ThresholdValue** <br/> |int  <br/> || Obergrenze für die Klassifizierung. Gültige Werte sind: <br/>  2 <br/>  5 <br/>  10 <br/> |
+|**ThresholdId** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID für die Klassifizierung.  <br/> |
+|**ThresholdValue** <br/> |int  <br/> || Oberer Grenzwert für die Klassifizierung. Gültige Werte sind: <br/>  2  <br/>  5  <br/>  10  <br/> |
    
 

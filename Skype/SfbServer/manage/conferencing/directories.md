@@ -1,8 +1,8 @@
 ---
-title: Erstellen von Konferenz Verzeichnissen in Skype for Business Server
+title: Erstellen von Konferenzverzeichnissen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server Konferenzverzeichnisse erstellen.'
-ms.openlocfilehash: be8983b25937b2a1c068c9629a0f44fd06d494d6
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Zusammenfassung: Informationen zum Erstellen von Konferenzverzeichnissen in Skype for Business Server.'
+ms.openlocfilehash: 6a7b8d110f06b089f166fc6ff2eb35ae35632370
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888674"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828135"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>Erstellen von Konferenz Verzeichnissen in Skype for Business Server
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Erstellen von Konferenzverzeichnissen in Skype for Business Server
  
-**Zusammenfassung:** Informationen zum Erstellen von Konferenz Verzeichnissen in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie, wie Sie Konferenzverzeichnissen in Skype for Business Server erstellen.
   
-Konferenzverzeichnisse verwalten eine Zuordnung zwischen der alphanumerischen Besprechungs-ID, die ein Teilnehmer für die Teilnahme an einer Konferenz bei Verwendung von Skype for Business verwendet, und der numerischen Konferenz-ID, die ein Teilnehmer für Einwahlkonferenzen verwendet, um an der Konferenz teilzunehmen. 
+Konferenzverzeichnissen verwalten eine Zuordnung zwischen der alphanumerischen Besprechungs-ID, die ein Teilnehmer verwendet, um bei Verwendung von Skype for Business an einer Konferenz teil zu nehmen, und der numerischen Konferenz-ID, die ein Einwahlkonferenzteilnehmer zum Beitreten zur Konferenz verwendet. 
   
-## <a name="create-a-conference-directory"></a>Ein Konferenzverzeichnis erstellen
+## <a name="create-a-conference-directory"></a>Erstellen eines Konferenzverzeichnisses
 
 Indem mehrere Konferenzverzeichnisse erstellt werden, wird sichergestellt, dass Konferenz-IDs kurz bleiben, solange keine sehr große Anzahl Konferenzen erstellt wurde. 
   
-In einer Organisation mit einer typischen Konferenzanzahl pro Nutzer wird empfohlen, pro 999 Nutzer im Pool je ein Konferenzverzeichnis zu erstellen. Wenn diese Richtlinie eingehalten wird, bleiben die Konferenz-IDs in der Regel kurz. Sobald die Anzahl der Konferenzverzeichnisse (in den Pools) 9 übersteigt, wird die Konferenz-ID-Nummer jedoch größer, um zusätzliche Konferenzen zu unterstützen.
+Um etwa sechsstellige Konferenz-IDs zu erhalten, wird in einer Organisation mit einer typischen Konferenzanzahl pro Benutzer empfohlen, pro 999 Benutzer im Pool je ein Konferenzverzeichnis zu erstellen. Anhand dieser Richtlinie können die Konferenz-IDs im Allgemeinen klein gehalten werden. Wenn die Anzahl der Konferenzverzeichnissen (in den Pools) jedoch 9 überschreitet, wird die Konferenz-ID-Länge größer, um zusätzliche Konferenzen zu unterstützen.
   
-Das Format einer Konferenz-ID lautet folgendermaßen: 
+Das Format einer Konferenz-ID lautet wie folgt: 
   
 ```console
   <housekeeping digit (1 digit)><conference directory (usually 1-2 digits> 
   <conference number (variable number of digits><check digit (1 digit)>
 ```
 
-Verwenden Sie das Cmdlet **New-CsConferenceDirectory**, um ein Konferenzverzeichnis zu erstellen. So wird zum Beispiel über den folgenden Befehl ein neues Konferenzverzeichnis mit dem Identitätswert 42 erstellt, das im Pool „atl-cs-001.litwareinc.com“ gehostet wird:
+Verwenden Sie zum Erstellen eines Konferenzverzeichnisses **das Cmdlet "New-CsConferenceDirectory".** Mit dem folgenden Befehl wird beispielsweise ein Konferenzverzeichnis mit der Identität 42 erstellt, das im Pool gehostet atl-cs-001.litwareinc.com:
   
 ```PowerShell
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"

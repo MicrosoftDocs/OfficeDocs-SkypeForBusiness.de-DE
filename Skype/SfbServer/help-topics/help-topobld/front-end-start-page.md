@@ -1,8 +1,8 @@
 ---
 title: Front-End-Startseite
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 description: In diesem Assistenten können Sie für einen Standort einen neuen Front-End-Pool definieren. Jeder Standort muss mindestens über einen Enterprise Edition-Pool oder Standard Edition-Server verfügen. Ausführliche Informationen zu den Anforderungen für die Verwendung des Assistenten zum Erstellen eines neuen Front-End-Pools finden Sie unter Define and Configure a Front End Pool in der Bereitstellungsdokumentation.
-ms.openlocfilehash: 534c4aef20ec75a5f532ad7d63d878cf9a58248a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: c726be4487fdec4ef1ca137d7c498d65e281ea1a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215336"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806945"
 ---
 # <a name="front-end-start-page"></a>Front-End-Startseite
 

@@ -1,13 +1,13 @@
 ---
 title: Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Erfahren Sie mehr über die Clientumgebung von Teams und die Übereinstimmung mit den Koexistenzmodus (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+description: Erfahren Sie mehr über die Clienterfahrung von Teams und die Konformität mit koexistenten Modi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,66 +20,66 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c67046128c79608f19a4a1f4474164a949f37ef
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20d1ff52fa59f31b796d2580a0e2819c80caaf42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903360"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821025"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
 
 <a name="about-upgrade-basic"></a>
 
-Der Zweck der Koexistenz-Modi von Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) besteht darin, den Endbenutzern eine einfache, vorhersagbare Erfahrung zu bieten, wenn Organisationen von Skype for Business zu Teams wechseln.  Für eine Organisation, die in Teams wechselt, ist der Modus **nur für Teams** das endgültige Ziel für jeden Benutzer, wobei nicht allen Benutzern gleichzeitig **nur Teams** (oder ein beliebiger anderer Modus) zugewiesen werden müssen.  Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen alle Skype for Business-Koexistenzmodus verwenden, um eine vorhersagbare Kommunikation zwischen Benutzern zu gewährleisten, die **nur Teams** sind und die noch nicht sind. 
+Der Zweck der Koexistenzmodi von Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) besteht in der Bereitstellung einer einfachen, vorhersagbaren Erfahrung für Endbenutzer, wenn Organisationen von Skype for Business zu Teams wechseln.  Für eine Organisation, die zu Teams wechselt, ist der **Nur-Teams-Modus** das endgültige Ziel für jeden Benutzer, obwohl nicht allen Benutzern gleichzeitig nur **Teams** (oder ein anderer Modus) zugewiesen werden muss.  Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen jeden der Skype for Business-Koexistenzmodi verwenden, um eine vorhersehbare Kommunikation zwischen Benutzern sicherzustellen, die nur **Teams** sind, und solchen, die es noch nicht sind. 
 
-Wenn sich ein Nutzer in einem der Skype for Business-Modi befindet, werden alle eingehenden Chats und Anrufe an den Skype for Business-Client des Benutzers weitergeleitet. Um die Verwirrung des Endbenutzers zu vermeiden und die ordnungsgemäße Weiterleitung zu gewährleisten, ist die Funktion für Anrufe und Chats im Teams-Client deaktiviert, wenn sich ein Benutzer in einem der Skype for Business-Modi befindet. Ebenso wird die Terminplanung in Teams explizit deaktiviert, wenn sich Benutzer im SfBOnly-oder SfBWithTeamsCollab-Modus befinden und explizit aktiviert werden, wenn sich ein Benutzer im SfBWithTeamsCollabAndMeetings-Modus befindet.
+Wenn sich ein Benutzer in einem der Skype for Business-Modi befindet, werden alle eingehenden Chats und Anrufe an den Skype for Business-Client des Benutzers geroutet. Um Verwirrung bei Endbenutzern zu vermeiden und für ordnungsgemäßes Routing zu sorgen, werden die Anruf- und Chatfunktionen im Teams-Client deaktiviert, wenn sich ein Benutzer in einem der Skype for Business-Modi befindet. Ebenso wird die Besprechungsplanung in Teams explizit deaktiviert, wenn sich Benutzer in den Modi SfBOnly oder SfBWithTeamsCollab befinden, und explizit aktiviert, wenn sich ein Benutzer im SfBWithTeamsCollabAndMeetings-Modus befindet.
 
-Da Anwesenheitsinformationen durch Chats und Anrufe eine Erreichbarkeit darstellen, wenn Chats und Anrufe deaktiviert sind, ist die selbst Anwesenheit in Teams (also die Anzeige der eigenen Anwesenheit im Team-Client im Bild des Benutzers) ebenfalls verborgen. 
+Da die Anwesenheit einen Hinweis auf die Erreichbarkeit durch Chat und Anrufe gibt, wenn Chats und Anrufe deaktiviert sind, wird auch die Selbstpräsenz in Teams (d. h. die Anzeige der eigenen Anwesenheit im Teams-Client im Bild des Benutzers) ausgeblendet. 
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Wie sich die verfügbaren Funktionen in Teams Client basierend auf dem Modus ändern
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Wie sich die verfügbare Funktionalität im Teamclient je nach Modus ändert
 
-Die verfügbare Funktionalität in Microsoft Teams hängt vom Koexistenzmodus des Benutzers ab, wie von TeamsUpgradePolicy. In der folgenden Tabelle wird das Verhalten zusammengefasst:
+Die in Teams verfügbaren Funktionen hängen vom Koexistenzmodus des Benutzers ab, der von TeamsUpgradePolicy festgelegt wird. In der folgenden Tabelle ist das Verhalten zusammengefasst:
 
-|Effektiver Modus des Benutzers|Erfahrung im Team-Client|
+|Effektiver Modus des Benutzers|Erfahrung im Teams-Client|
 |---|---|
-|Skype for Business-Modus|Anrufe, Chats und selbst Anwesenheit sind deaktiviert.|
-|SfBWithTeamsCollabAndMeetings|Besprechungsplanung steht zur Verfügung|
-|SfBWithTeamsCollab oder SfBOnly<sup>1</sup>|Besprechungsplanung steht nicht zur Verfügung|
+|Beliebiger Skype for Business-Modus|Anrufe, Chats und Die Selbstpräsenz sind deaktiviert.|
+|SfBWithTeamsCollabAndMeetings|Besprechungsplanung ist verfügbar|
+|SfBWithTeamsCollab oder SfBOnly<sup>1</sup>|Besprechungsplanung ist nicht verfügbar|
 |||
 
-Die folgenden Screenshots veranschaulichen den Unterschied zwischen dem **nur für Teams** oder dem **Inseln** -Modus und allen anderen Modi. Beachten Sie, dass die Symbole für Chats und Anrufe standardmäßig im Modus " **nur für Teams** " oder " **Inseln** " verfügbar sind (Screenshot Links), aber nicht mit den anderen Modi (rechter Screenshot):
+Die folgenden Screenshots veranschaulichen den Unterschied zwischen dem **Modus "Teams Nur** oder **Islands"** und allen anderen Modi. Beachten Sie, dass die Chat- und Anrufsymbole standardmäßig im **Teams Only** or **Islands-Modus** (linker Screenshot) verfügbar sind, jedoch nicht in den anderen Modi (rechtes Screenshot):
 
-![Ein nebeneinander angeordneter Vergleich der Modi "Teams"](media/teams-mode-comparison.png)
+![Vergleich der Modi in Teams nebeneinander](media/teams-mode-comparison.png)
 
-Darüber hinaus steht die selbst Anwesenheit in den anderen Modi nicht zur Verfügung, wie hier gezeigt.
+Darüber hinaus ist die Selbstpräsenz in den anderen Modi nicht verfügbar, wie hier gezeigt.
 
-![Screenshot der selbst Anwesenheit in Besprechungen zuerst](media/meetings-first-no-self-presence-general.png)
+![Screenshot der Selbstpräsenz in "Besprechungen zuerst"](media/meetings-first-no-self-presence-general.png)
  
-**Hinweis:**
-<sup>1</sup> zu diesem Zeitpunkt Verhalten sich SfBwithTeamsCollab und SfBOnly identisch, aber die Absicht ist, dass der SfBOnly-Modus auch Kanäle und Dateien in Teams deaktiviert. In der Zwischenzeit können Kanäle mithilfe der APP-Berechtigungsrichtlinie ausgeblendet werden.
+**Hinweis:** 
+ <sup>1</sup> Zu diesem Zeitpunkt verhalten sich SfBwithTeamsCollab und SfBOnly gleich, der SfBOnly-Modus soll jedoch auch die Funktionen "Kanäle und Dateien" in Teams deaktivieren. In der Zwischenzeit können Kanäle mithilfe der Richtlinie für App-Berechtigungen ausgeblendet werden.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Auswirkungen des Modus auf andere Richtlinieneinstellungen
-Wie oben beschrieben, hat der Koexistenzmodus des Benutzers Auswirkungen auf die Funktionalität, die im Team Client des Benutzers zur Verfügung steht. Dies bedeutet, dass der Wert von Mode je nach Modus Vorrang vor dem Wert anderer Richtlinieneinstellungen haben kann. Insbesondere beeinflusst der Koexistenzmodus, ob die folgenden Richtlinieneinstellungen beachtet werden:
+Wie oben beschrieben, wirkt sich die Koexistenzmodus eines Benutzers auf die Funktionen aus, die im Teamclient des Benutzers verfügbar sind. Dies bedeutet, dass der Wert des Modus je nach Modus Vorrang vor dem Wert anderer Richtlinieneinstellungen haben kann. Insbesondere wirkt sich der Koexistenzmodus darauf aus, ob die folgenden Richtlinieneinstellungen berücksichtigt werden:
 
-|**Modalität (app)**|**Richtlinie. Setting**|
+|**Modalität (App)**|**Policy.Setting**|
 |---|---|
 |Chat|TeamsMessagingPolicy.AllowUserChat|
 |Anrufe|TeamsCallingPolicy.AllowPrivateCalling|
 |Besprechungsplanung|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-Administratoren müssen diese Richtlinieneinstellungen *nicht* explizit festlegen, wenn Sie den Koexistenzmodus verwenden, doch es ist wichtig zu wissen, dass sich diese Einstellungen für einen bestimmten Modus wie folgt Verhalten. 
+Administratoren müssen *diese* Richtlinieneinstellungen nicht explizit festlegen, wenn sie den Modus "Koexistenz" verwenden. Es ist jedoch wichtig zu wissen, dass sich diese Einstellungen in einem bestimmten Modus effektiv wie folgt verhalten. 
 
 |Modus|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
-|TeamsOnly oder-Inseln|Aktiviert|Aktiviert|Aktiviert|Aktiviert|
+|TeamsOnly oder Islands|Aktiviert|Aktiviert|Aktiviert|Aktiviert|
 |SfBWithTeamsCollabAndMeetings|Deaktiviert|Deaktiviert|Aktiviert|Aktiviert|
 |SfBWithTeamsCollab oder SfBOnly|Deaktiviert|Deaktiviert|Deaktiviert|Deaktiviert|
 ||||||
 
-Bei Verwendung von PowerShell überprüft `Grant-CsTeamsUpgradePolicy` das Cmdlet die Konfiguration der entsprechenden Einstellungen in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy, um festzustellen, ob diese Einstellungen durch TeamsUpgradePolicy ersetzt würden, und wenn dies der Fall ist, wird in PowerShell eine Informationsmeldung bereitgestellt.  Wie bereits erwähnt, ist es nicht mehr notwendig, diese anderen Richtlinieneinstellungen festzulegen. Im folgenden sehen Sie ein Beispiel dafür, wie die PowerShell-Warnung aussieht:
+Bei Verwendung von PowerShell überprüft das Cmdlet die Konfiguration der entsprechenden Einstellungen `Grant-CsTeamsUpgradePolicy` in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy, um festzustellen, ob diese Einstellungen durch TeamsUpgradePolicy ersetzt werden, und wenn ja, wird in PowerShell eine Informationsmeldung bereitgestellt.  Wie oben erwähnt, ist es nicht mehr erforderlich, diese anderen Richtlinieneinstellungen zu festlegen. Das folgende Beispiel zeigt, wie die PowerShell-Warnung aussieht:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

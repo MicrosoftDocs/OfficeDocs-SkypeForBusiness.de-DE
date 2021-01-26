@@ -1,8 +1,8 @@
 ---
 title: Auswählen einer Timeoutwarteschleife
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
-description: Verwenden Sie das Dialogfeld Timeout-Warteschlange auswählen, um eine Warteschlange auszuwählen, in der Anrufe weitergeleitet werden, wenn ein Timeout vorliegt.
-ms.openlocfilehash: f359fe324630a22db4c40b43b03c389e165ad475
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Wählen Sie im Dialogfeld Timeoutwarteschleife auswählen eine Warteschleife aus, in die Anrufe bei Erreichen des Timeouts weitergeleitet werden.
+ms.openlocfilehash: 5e266bab0ac8d00a28c4be42e51b1aba7a288c15
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822118"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803705"
 ---
 # <a name="select-time-out-queue"></a>Auswählen einer Timeoutwarteschleife
  
-Verwenden Sie das Dialogfeld **Timeout-Warteschlange auswählen** , um eine Warteschlange auszuwählen, in der Anrufe weitergeleitet werden, wenn ein Timeout vorliegt.
+Wählen Sie im Dialogfeld **Timeoutwarteschleife auswählen** eine Warteschleife aus, in die Anrufe bei Erreichen des Timeouts weitergeleitet werden.
   
-Geben Sie im Suchfeld den Namen der zu verwendenden Warteschlange ganz oder teilweise ein. Wenn Sie alle verfügbaren Warteschlangen zurückgeben möchten, lassen Sie das Suchfeld leer, und klicken Sie auf das Symbol suchen.
+Geben Sie im Suchfeld Teile oder den vollständigen Namen der Warteschleife ein, die Sie verwenden möchten. Um alle verfügbaren Warteschleifen zurückzugeben, lassen Sie das Suchfeld leer und klicken auf das Suchsymbol.
   
-Wählen Sie in der Liste der von der Suche zurückgegebenen Warteschlangen die Warteschlange aus, die Sie für zeitgesteuerte Anrufe verwenden möchten.
+Wählen Sie in der Liste mit den bei der Suche zurückgegebenen Warteschleifen die Warteschleife aus, die bei Erreichen des Timeouts für Anrufe verwendet werden soll.
   
 

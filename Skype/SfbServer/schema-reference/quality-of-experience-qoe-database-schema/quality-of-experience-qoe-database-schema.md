@@ -1,8 +1,8 @@
 ---
 title: QoE-Datenbankschema (Quality of Experience)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
-description: Dadurch wird das Schema der QoE-Datenbank (Quality of Experience) in Skype for Business Server 2015 dokumentiert.
-ms.openlocfilehash: ed56d4a71bf005c2001849d6e17f67ee95f2b74b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Dies dokumentiert das Schema der QoE (Quality of Experience)-Datenbank in Skype for Business Server 2015.
+ms.openlocfilehash: 5e12fc8ace32db966334a7008de67157bcb31f3a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806533"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834415"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>QoE-Datenbankschema (Quality of Experience)
  
-Dadurch wird das Schema der QoE-Datenbank (Quality of Experience) in Skype for Business Server 2015 dokumentiert.
+In diesem Dokument wird das Schema der QoE (Quality of Experience)-Datenbank in Skype for Business Server 2015 dokumentiert.
   
 ## <a name="in-this-section"></a>In diesem Abschnitt
 

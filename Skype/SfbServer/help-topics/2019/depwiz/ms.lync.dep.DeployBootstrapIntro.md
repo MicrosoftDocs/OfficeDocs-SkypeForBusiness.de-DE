@@ -1,8 +1,8 @@
 ---
-title: Einrichten und Entfernen von Komponenten von Skype for Business Server (Einführung)
+title: Einrichten oder Entfernen von Komponenten von Skype for Business Server (Einführung)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e87b2255-3a00-4c74-b3d0-e0c3da702e3a
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie bereiten die Installation und Aktivierung oder Deaktivierung und Deinstallation von Skype for Business Server-Komponenten vor. Die Prozesse, die ausgeführt werden, werden durch die aktuelle Konfiguration der im zentralen Verwaltungsspeicher veröffentlichten Definition definiert. Damit Sie die Aufgaben erfolgreich ausführen können, müssen Sie als Mitglied der lokalen Gruppe Administratoren angemeldet sein, und Sie müssen mindestens in der Lage sein, Active Directory-Domänendienste zu lesen.
-ms.openlocfilehash: 32b99164a4a3506bf5e91a260ca90eb5a597a44f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Sie bereiten die Installation und Aktivierung bzw. Deaktivierung und Deinstallation von Skype for Business Server-Komponenten vor. Die prozesse, die ausgeführt werden, werden durch die aktuelle Konfiguration der Definition definiert, die im zentralen Verwaltungsspeicher veröffentlicht wird. Zum erfolgreichen Ausführen der Aufgaben müssen Sie als Mitglied der lokalen Administratorengruppe angemeldet sein und mindestens in der Lage sein, active Directory Domain Services zu lesen.
+ms.openlocfilehash: ef6d31fd244ff46c8482b938e94c1d9cffb753da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796926"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820535"
 ---
-# <a name="setup-or-remove-skype-for-business-server-components-intro"></a>Einrichten und Entfernen von Komponenten von Skype for Business Server (Einführung)
+# <a name="setup-or-remove-skype-for-business-server-components-intro"></a>Einrichten oder Entfernen von Komponenten von Skype for Business Server (Einführung)
  
-Sie bereiten die Installation und Aktivierung oder Deaktivierung und Deinstallation von Skype for Business Server-Komponenten vor. Die Prozesse, die ausgeführt werden, werden durch die aktuelle Konfiguration der im zentralen Verwaltungsspeicher veröffentlichten Definition definiert. Damit Sie die Aufgaben erfolgreich ausführen können, müssen Sie als Mitglied der lokalen Gruppe Administratoren angemeldet sein, und Sie müssen mindestens in der Lage sein, Active Directory-Domänendienste zu lesen.
+Sie bereiten die Installation und Aktivierung bzw. Deaktivierung und Deinstallation von Skype for Business Server-Komponenten vor. Die prozesse, die ausgeführt werden, werden durch die aktuelle Konfiguration der Definition definiert, die im zentralen Verwaltungsspeicher veröffentlicht wird. Zum erfolgreichen Ausführen der Aufgaben müssen Sie als Mitglied der lokalen Administratorengruppe angemeldet sein und mindestens in der Lage sein, active Directory Domain Services zu lesen.
   
-Klicken Sie auf **Weiter**, um mit dem Fenster **Befehle werden ausgeführt** fortzufahren.
+Klicken **Sie auf "Weiter",** um mit dem Bildschirm "Befehle **ausführen" fortzufahren.**
   
 

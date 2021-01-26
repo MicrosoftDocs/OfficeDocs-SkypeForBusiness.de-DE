@@ -1,5 +1,5 @@
 ---
-title: Genehmigungen Verfügbarkeit von Anwendungen in Teams
+title: Verfügbarkeit von Genehmigungen für Anwendungen in Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Erfahren Sie mehr über die Verfügbarkeit von Genehmigungs Anwendungen in Microsoft Teams.
+description: Erfahren Sie mehr über die Verfügbarkeit der Genehmigungsanwendung in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -18,108 +18,106 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4326408b7e27aa19af8e6c404d7275d26ba90969
-ms.sourcegitcommit: d73d732591944b899a9366f79b4ea97f4a7f2260
+ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675179"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909519"
 ---
-# <a name="teams-approvals-app-availability"></a>Verfügbarkeit der APP für Teams-Genehmigungen
+# <a name="teams-approvals-app-availability"></a>Verfügbarkeit der App "Teams-Genehmigungen"
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+Die App "Genehmigungen" steht als persönliche App für alle Microsoft Teams-Benutzer zur Verfügung.
+Die App "Genehmigungen" bietet eine einfache Möglichkeit, Überwachung, Compliance, Verantwortlichkeit und Workflows sowohl für strukturierte als auch unstrukturierte Genehmigungen in Teams zu übernehmen.
 
-Die Genehmigungs-APP ist als persönliche App für alle Microsoft Teams-Benutzer verfügbar.
-Die app "Genehmigungen" bietet eine einfache Möglichkeit, um Überwachungs-, Konformitäts-, Rechenschafts-und Workflows sowohl strukturierten als auch unstrukturierten Genehmigungen in Teams zu ermöglichen.
+ ![zeigt die Genehmigungs-App an](media/approvals-selection.png)
 
- ![zeigt die app "Genehmigungen"](media/approvals-selection.png)
+Benutzer können die Genehmigungs-App anheften, um sie auf der Menüleiste zu speichern.
 
-Benutzer können die Genehmigungs-App anheften, um Sie in der Menüleiste zu speichern.
+ ![Zeigt die Genehmigungs-App mit der Option "Anheften" an.](media/approvalApp-pin.png)
 
- ![zeigt die app "Genehmigungen" mit der Option "Pin" an](media/approvalApp-pin.png)
-
-Mit der ersten Genehmigung, die Sie über die Genehmigungs-App erstellt haben, wird die Bereitstellung der Genehmigungslösung in der Standardumgebung für gemeinsame Datendienste (Common Data Service, CDs) ausgelöst. Genehmigungen, die aus der Genehmigungs-App erstellt wurden, werden in der Standard-CD-Umgebung gespeichert.
+Die erste Genehmigung, die aus der App für Genehmigungen erstellt wurde, löst die Bereitstellung der Genehmigungslösung in der standardumgebung des gemeinsamen Datendiensts (Common Data Service, CDS) aus. Genehmigungen, die mit der Genehmigungs-App erstellt wurden, werden in der Standard-CDS-Umgebung gespeichert.
 
 In diesem Artikel werden die Anforderungen und Rollen der Genehmigungs-App beschrieben.
 
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 
-Wenn Sie die Genehmigungs-App verwenden möchten, benötigen Sie die Berechtigung für die folgenden Elemente:
+Um die Genehmigungs-App zu verwenden, benötigen Sie Berechtigungen für die folgenden Elemente:
 
-- Berechtigungen zum Erstellen einer Microsoft CDs-Datenbank
+- Berechtigungen zum Erstellen einer Microsoft CDS-Datenbank.
 
-- Ein Konto auf [Flow.Microsoft.com](https://flow.microsoft.com/)
+- Ein Konto auf [flow.microsoft.com](https://flow.microsoft.com/)
 
-- Administrator Rolle in der Zielumgebung.
+- Administratorrolle in der Zielumgebung.
 
-- Lizenz für [Power Automation](https://docs.microsoft.com/power-automate/get-started-approvals), Office 365 oder Dynamics 365.
+- Lizenz für [Power Automate,](https://docs.microsoft.com/power-automate/get-started-approvals)Office 365 oder Dynamics 365.
 
-## <a name="storage-with-cds"></a>Speicher mit CDs
+## <a name="storage-with-cds"></a>Speicher mit CDS
 
-Das gemeinsame Datenmodell (CDM) ist die Sprache für freigegebene Daten, die von Geschäfts-und Analyseanwendungen in den CDs verwendet wird. Es besteht aus einer Reihe von standardisierten, erweiterbaren Datenschemas, die von Microsoft und unseren Partnern veröffentlicht wurden und die Konsistenz von Daten und deren Bedeutung für Anwendungen und Geschäftsprozesse ermöglichen. Weitere Informationen zum [allgemeinen Datenmodell der Microsoft Power Platform](https://docs.microsoft.com/power-automate/get-started-approvals).
+Das Common Data Model (CDM) ist die Sprache freigegebener Daten, die von Geschäfts- und Analyseanwendungen im CDS verwendet wird. Sie besteht aus einem Satz standardisierter, erweiterbarer Datenschemas, die von Microsoft und unseren Partnern veröffentlicht wurden und die Konsistenz der Daten und deren Bedeutung in allen Anwendungen und Geschäftsprozessen ermöglichen. Erfahren Sie mehr über [das allgemeine Datenmodell der Microsoft Power Platform.](https://docs.microsoft.com/power-automate/get-started-approvals)
 
-Weitere Informationen zum [Genehmigungsworkflow](https://docs.microsoft.com/power-automate/modern-approvals).
+Weitere Informationen zum [Genehmigungsworkflow.](https://docs.microsoft.com/power-automate/modern-approvals)
 
-## <a name="approvals-teams-app-permissions"></a>Genehmigungen Teams-App-Berechtigungen
+## <a name="approvals-teams-app-permissions"></a>Genehmigungen für die Teams-App-Berechtigungen
 
-Mit der Genehmigungs Teams-App können Sie auf die folgenden Features zugreifen:
+Mit der App "Approvals Teams" können Sie auf die folgenden Features zugreifen:
 
-- Empfangen von Nachrichten und Daten, die Sie bereitstellen.
+- Empfangen Sie Nachrichten und Daten, die Sie ihr zur Verfügung stellen.
 
-- Senden Sie Nachrichten und Benachrichtigungen.
+- Senden Sie Ihnen Nachrichten und Benachrichtigungen.
 
-- Rendern Sie persönliche apps und Dialogfelder ohne einen vom Team bereitgestellten Header.
+- Rendern sie persönliche Apps und Dialogfelder ohne den von Teams bereitgestellten Header.
 
-- Greifen Sie auf Ihre Profilinformationen wie Name, e-Mail-Adresse, Firmenname und bevorzugte Sprache zu.
+- Greifen Sie auf Ihre Profilinformationen wie Ihren Namen, Ihre E-Mail-Adresse, den Firmennamen und die bevorzugte Sprache zu.
 
-- Empfangen von Nachrichten und Daten, die Teammitglieder in einem Kanal bereitstellen.
+- Empfangen Sie Nachrichten und Daten, die Teammitglieder in einem Kanal bereitstellen.
 
-- Senden Sie Nachrichten und Benachrichtigungen in einem Kanal.
+- Senden sie Nachrichten und Benachrichtigungen in einem Kanal.
 
-- Zugriff auf die Informationen Ihres Teams:
+- Greifen Sie auf die Informationen Ihres Teams zu:
   - Teamname
   - Kanalliste
-  - Dienstplan (Namen und e-Mail-Adressen des Teammitglieds).
+  - Liste (Namen und E-Mail-Adressen des Teammitglieds).
 
-- Verwenden Sie die Informationen des Teams, um sich mit Ihnen in Verbindung zu setzen.
+- Verwenden Sie die Informationen des Teams, um kontaktiert zu werden.
 
 ## <a name="disable-the-approvals-app"></a>Deaktivieren der Genehmigungs-App
 
-Standardmäßig ist die APP Genehmigungen verfügbar. Sie können die APP im Team Admin Center deaktivieren.
+Die App "Genehmigungen" ist standardmäßig verfügbar. Sie können die App im Teams Admin Center deaktivieren.
 
-  1. Anmelden beim Team Admin Center.
+  1. Melden Sie sich beim Teams Admin Center an.
 
-  2. Erweitern Sie **Teams-apps** , und wählen Sie **apps verwalten** aus.
+  2. Erweitern Sie **die Teams-Apps,** und wählen **Sie "Apps verwalten" aus.**
 
-  3. Suchen Sie nach der APP Genehmigungen.
+  3. Suchen Sie nach der Genehmigungs-App.
 
-![zeigt die Admin Center-Navigation mit Teams-apps > hervorgehobene apps verwalten](media/manage-approval-apps.png)
+![admin center navigation with Teams Apps > Manage Apps highlighted](media/manage-approval-apps.png)
 
-  4. Wählen Sie Genehmigungen aus.
+  4. Wählen Sie "Genehmigungen" aus.
 
-  5. Wählen Sie die Umschaltfläche aus, um die APP für Ihre Organisation zu deaktivieren.
+  5. Wählen Sie den Umschalter aus, um die App für Ihre Organisation zu deaktivieren.
 
-![zeigt die Details für die Genehmigungs-APP an.](media/approvals-details.png)
+![zeigt die Details für die Genehmigungs-App an.](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Aufbewahrungsrichtlinie
 
-Genehmigungen, die aus der Genehmigungs-App erstellt wurden, werden in der Standard-CD-Umgebung gespeichert, die derzeit keine Sicherungen unterstützt. Weitere Informationen zum [Sichern und Wiederherstellen von Umgebungen – Power Platform \| Microsoft docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Mit der Genehmigungs-App erstellte Genehmigungen werden in der Standard-CDS-Umgebung gespeichert, die derzeit keine Sicherungen unterstützt. Erfahren Sie mehr über das Sichern und Wiederherstellen von [Umgebungen – Microsoft \| Docs für die Power Platform.](https://docs.microsoft.com/power-platform/admin/backup-restore-environments)
 
 ## <a name="auditing"></a>Überwachung
 
 Die Genehmigungs-App protokolliert Überwachungsereignisse im Microsoft 365 Security and Compliance Center. Sie können das Überwachungsprotokoll anzeigen.
 
-1. Wechseln Sie zur M365-Kompatibilitätswebsite.
+1. Wechseln Sie zur Microsoft 365-Compliancewebsite.
 
-2. Wählen Sie den Abschnitt **Audit** aus.
+2. Wählen Sie den **Abschnitt "Überwachung"** aus.
 
-3. Suchen Sie nach Aktivitäten unter **Microsoft Teams-Genehmigungsaktivitäten**.
+3. Suchen Sie nach Aktivitäten unter **"Microsoft Teams-Genehmigungsaktivitäten".**
 
 Sie können nach den folgenden Aktivitäten suchen:
 
-- Neue Genehmigungsanfrage erstellen
+- Erstellen einer neuen Genehmigungsanforderung
 
-- Details zur Genehmigungsanforderung anzeigen
+- Anzeigen von Details zur Genehmigungsanforderung
 
 - Genehmigte Genehmigungsanforderung
 
@@ -127,29 +125,29 @@ Sie können nach den folgenden Aktivitäten suchen:
 
 - Genehmigungsanforderung abgebrochen
 
-- Freigegebene Genehmigungsanforderung
+- Anforderung zur gemeinsamen Genehmigung
 
-- Datei, die an die Genehmigungsanforderung angefügt ist
+- An Genehmigungsanforderung angefügte Datei
 
-- Erneut zugewiesene Genehmigungsanforderung
+- Neu zugewiesene Genehmigungsanforderung
 
-- E-Signatur zur Genehmigungsanfrage hinzugefügt
+- E-Signatur zur Genehmigungsanforderung hinzugefügt
 
-Für den Zugriff auf weitere Überwachungs Genehmigungen in Flow aktivieren und konfigurieren Sie die Überwachung in der Standardumgebung für die Genehmigung, Genehmigungsanforderung und Genehmigungs Antwort für primäre Genehmigungs Entitäten. Erstellen, aktualisieren und Löschen von Vorgängen sind Überwachungs Bare Ereignisse für Genehmigungs Einträge. Weitere Informationen zu [Überwachungsdaten und Benutzeraktivitäten für Sicherheit und Compliance – Power Platform \| Microsoft docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
+Für den Zugriff auf weitere Überwachungsgenehmigungen in Flow aktivieren und konfigurieren Sie die Überwachung in der Standardumgebung für die primären Genehmigungsentitäten "Genehmigung", "Genehmigungsanforderung" und "Genehmigungsantwort". Erstellungs-, Aktualisierungs- und Löschvorgänge sind überwachungsfähige Ereignisse für Genehmigungsdatensätze. Weitere Informationen zu [Überwachungsdaten und Benutzeraktivitäten für Sicherheit und Compliance – Microsoft \| Docs für die Power Platform.](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)
 
 Die Überwachung kann im [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)weiter angepasst werden.
 
-1. Wenn Sie die vorkonfigurierten Berichte verwenden möchten, müssen Sie sich bei Office 365-Sicherheit und-Compliance anmelden.
+1. Wenn Sie die vorkonfigurierten Berichte verwenden möchten, melden Sie sich bei Microsoft 365 Security and Compliance an.
 
-2. Wählen Sie **& Untersuchung suchen** aus.
+2. Wählen Sie **"Suche & Untersuchung" aus.**
 
-3. Durchsuchen Sie das Überwachungsprotokoll, und wählen Sie die Registerkarte **Dynamik 365 Aktivitäten** aus.
+3. Durchsuchen Sie das Überwachungsprotokoll, und wählen Sie die **Registerkarte "Dynamics 365-Aktivitäten"** aus.
 
-Weitere Informationen zu [Microsoft Dataverse und modellgesteuerte apps-Aktivitätsprotokollierung – Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
+Weitere Informationen zur [Microsoft Dataverse- und modellgesteuerten App-Aktivitätsprotokollierung – Power Platform.](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)
 
 ## <a name="security"></a>Sicherheit
 
-In der App "Teams-Genehmigung" können Benutzer neue Genehmigungen erstellen und Genehmigungen anzeigen, die Sie gesendet und empfangen haben. Benutzer haben keinen Zugriff auf Genehmigungen, die von anderen Personen erstellt wurden, es sei denn, Sie sind entweder ein Responder oder ein Betrachter der Anforderung.
+Über die App "Teams-Genehmigungen" haben Benutzer Zugriff auf das Erstellen neuer Genehmigungen und das Anzeigen von Genehmigungen, die sie gesendet und erhalten haben. Benutzer haben keinen Zugriff auf Genehmigungen, die von anderen Personen erstellt wurden, es sei denn, sie sind entweder ein Befragter oder ein Anzeigenr der Anfrage.
 
 > [!Note]
-> Ein Benutzer erhält eine Anzeige Rolle einer Anforderung, wenn er Teil des Chats oder Kanals ist, in dem die Genehmigung erstellt wurde. Sie verfügen nicht über die Möglichkeit, die Anforderung zu ergreifen, wenn diese Rolle bei der Erstellung der Genehmigung nicht angegeben wurde.
+> Einem Benutzer wird eine Anzeigerolle einer Anforderung übertragen, wenn er Teil des Chats oder Kanals ist, in dem die Genehmigung erstellt wurde. Sie können für die Anforderung keine Maßnahmen ergreifen, wenn ihnen diese Rolle bei der Genehmigungserstellung nicht erteilt wurde.

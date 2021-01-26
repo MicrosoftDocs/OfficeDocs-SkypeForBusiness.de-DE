@@ -1,8 +1,8 @@
 ---
-title: Ändern der Einstellungen für die Qualität der Benutzerfreundlichkeit in Skype for Business Server
+title: Ändern der Einstellungen für die Erlebnisqualität in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Beibehaltung von QoE-Daten in Skype for Business Server angeben.'
-ms.openlocfilehash: a7f8173518d12daffb23658f5b81fa35b39d13da
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie, wie Sie die Aufbewahrung von QoE-Daten in Skype for Business Server angeben.'
+ms.openlocfilehash: 18776e9b8eec9dcff6ced9f654d8153d7fa01777
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817844"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827795"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Ändern der Einstellungen für die Qualität der Benutzerfreundlichkeit in Skype for Business Server
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Ändern der Einstellungen für die Erlebnisqualität in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie die Aufbewahrung von QoE-Daten in Skype for Business Server angeben.
 
@@ -30,11 +30,11 @@ In der Standardeinstellung werden QoE-Daten (Quality of Experience, Erlebnisqual
 
 Das nachfolgende Verfahren beschreibt, wie Sie die Löscheinstellungen für QoE-Daten konfigurieren.
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>So legen Sie die Beibehaltung von QoE-Daten mithilfe der Skype for Business Server-Systemsteuerung fest
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>So geben Sie die Aufbewahrung von QoE-Daten mithilfe der Skype for Business Server-Systemsteuerung an
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
+1.  Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
 
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen.
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.
 
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **QoE-Daten**.
 
@@ -44,11 +44,11 @@ Das nachfolgende Verfahren beschreibt, wie Sie die Löscheinstellungen für QoE-
 
 6. Wählen Sie unter **Maximale Speicherdauer für die QuE-Aufzeichnung (Tage)** die maximale Anzahl von Tagen aus, für die QoE-Daten gespeichert werden sollen.
 
-7. Klicken Sie auf **Commit ausführen**.
+7. Klicken Sie auf **Commit**.
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Angeben der QoE-Aufbewahrung mithilfe von Windows PowerShell-Cmdlets
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Angeben der QoE-Aufbewahrung mithilfe Windows PowerShell Cmdlets
 
-Sie können QoE-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und dem Cmdlet " **Satz-CsQoEConfiguration** " erstellen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Details zur Verwendung der Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blog-Artikel ["schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype for Business Server identisch.
+Sie können die Einstellungen für die Aufbewahrung von QoE mithilfe Windows PowerShell und des Cmdlets **"Set-CsQoEConfiguration"** erstellen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Prozess ist in Skype for Business Server identisch.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>So geben Sie die QoE-Aufbewahrung für einen speziellen Standort an
 
@@ -60,14 +60,14 @@ Sie können QoE-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und d
 
 ### <a name="to-specify-qoe-retention-for-multiple-locations"></a>So geben Sie die QoE-Aufbewahrung für mehrere Standorte an
 
-- Mit diesem Befehl wird die Beibehaltung von QoE-Daten für alle in einer Organisation verwendeten QoE-Konfigurationseinstellungen konfiguriert.
+- Mithilfe dieses Befehls wird die QoE-Aufbewahrung für alle QoE-Konfigurationseinstellungen konfiguriert, die in einer Organisation verwendet werden.
 
   ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) ".
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsQoEConfiguration".](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
 ## <a name="see-also"></a>Siehe auch
 
-[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Bereitstellen des Monitoring Servers](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

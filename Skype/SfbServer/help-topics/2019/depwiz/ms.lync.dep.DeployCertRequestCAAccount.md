@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Zertifizierungsstellenkonto)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um eine Anfrage einreichen zu können, benötigen Ihre Zertifizierungsstelle (Certification Authority, ca) möglicherweise andere Anmeldeinformationen als diejenigen für den Benutzer, mit dem Sie zurzeit angemeldet sind.
-ms.openlocfilehash: 2871e8265bb7d1a4228d162e435dedf307165ec8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Um eine Anforderung zu übermitteln, benötigt ihre Zertifizierungsstelle möglicherweise andere Anmeldeinformationen als die für den Benutzer, unter dem Sie derzeit angemeldet sind.
+ms.openlocfilehash: ab3e5f1d15b32e866a0a8a99f54ce8a1b3d81a42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796746"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830345"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Zertifikatanforderung (Zertifizierungsstellenkonto)
  
-Um eine Anfrage einreichen zu können, benötigen Ihre Zertifizierungsstelle (Certification Authority, ca) möglicherweise andere Anmeldeinformationen als diejenigen für den Benutzer, mit dem Sie zurzeit angemeldet sind. Wenn Sie eine Zertifikatanforderung als einen anderen Benutzer zulassen möchten, aktivieren Sie das Kontrollkästchen **Alternative Anmeldeinformationen für die Zertifizierungsstelle angeben**, und geben Sie dann den Benutzernamen oder den _Domänen_\ _Namen_ für einen Benutzer ein, der das Zertifikat anfordern kann. Geben Sie im Textfeld **Kennwort** das Kennwort für den von Ihnen angegebenen Benutzer ein. Der Benutzername und das Kennwort werden dann als Teil des Zertifikats Anforderungsprozesses, aber nicht in der eigentlichen Zertifikatanforderung an eine Onlinezertifizierungsstelle gesendet.
+Um eine Anforderung zu übermitteln, benötigt Ihre Zertifizierungsstelle möglicherweise andere Anmeldeinformationen als die für den Benutzer, unter dem Sie derzeit angemeldet sind. Wenn Sie eine **Zertifikatanforderung** als anderer Benutzer zulassen möchten, aktivieren Sie das Kontrollkästchen "Alternative Anmeldeinformationen für die Zertifizierungsstelle angeben", und geben Sie dann den Benutzernamen oder Domänennamen für einen Benutzer ein, der das Zertifikat anfordern \   kann. Geben Sie **in das** Textfeld "Kennwort" das Kennwort für den angegebenen Benutzer ein. Der Benutzername und das Kennwort werden dann im Rahmen des Zertifikatanforderungsprozesses, jedoch nicht in der tatsächlichen Zertifikatanforderung, an eine Online-Zertifizierungsstelle gesendet.
   
 

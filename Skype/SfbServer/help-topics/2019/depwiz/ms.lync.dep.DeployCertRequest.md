@@ -1,8 +1,8 @@
 ---
-title: Bereitstellungs-Assistent Anfordern eines Zertifikats
+title: 'Bereitstellungs-Assistent: Zertifikat anfordern'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
-description: Details zur Verwendung des Bereitstellungs-Assistenten für die Installation von Skype for Business Server finden Sie unter Installieren von Skype for Business Server.
-ms.openlocfilehash: 89bbdb336b83cb01e52851f71796b8322bb7841d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Weitere Informationen zur Verwendung des Bereitstellungsassistenten zum Installieren von Skype for Business Server finden Sie unter "Installieren von Skype for Business Server".
+ms.openlocfilehash: fc4ed9685f2048c84f87082c090bd38852174d81
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796776"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836875"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Bereitstellungs-Assistent: Anfordern eines Zertifikats
  
-Details zur Verwendung des Bereitstellungs-Assistenten für die Installation von Skype for Business Server finden Sie unter [Installieren von Skype for Business Server](../../../deploy/install/install.md).
+Details zur Verwendung des Bereitstellungsassistenten zum Installieren von Skype for Business Server finden Sie unter ["Installieren von Skype for Business Server".](../../../deploy/install/install.md)
   
 

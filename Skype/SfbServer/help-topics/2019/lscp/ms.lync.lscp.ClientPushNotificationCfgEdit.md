@@ -1,8 +1,8 @@
 ---
-title: Mobiler Client erstellen oder Bearbeiten der Push-Benachrichtigungskonfiguration
+title: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration für mobile Clients
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Pushbenachrichtigung und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile der Mobilitätsfunktion. Bei der Pushbenachrichtigung wird eine Nachricht an das PNCH gesendet. Die Nachricht wird dort gehalten, bis sie an den mobilen Client übermittelt werden kann oder das Zeitlimit abläuft.
-ms.openlocfilehash: 803bc61d12263e98efe5e74764f9f60f392af95f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Pushbenachrichtigungen und das Push Notification Clearing House (PNCH) sind zwei wichtige Bestandteile des Mobilitätsfeatures. Pushbenachrichtigung ist der Prozess, bei dem eine Nachricht an das PNCH gesendet wird. Die Nachricht wird hier gehalten, bis sie an den mobilen Client zugestellt werden kann oder der Timeoutzeitraum abläuft.
+ms.openlocfilehash: 3c72c5b123a906d74cfeb0a1fef5c1e765fe030c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796484"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808745"
 ---
-# <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Mobiler Client: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration
+# <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Mobiler Client: Erstellen oder Bearbeiten der Konfiguration für Pushbenachrichtigung
  
-Die Pushbenachrichtigung und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile der Mobilitätsfunktion. Bei der Pushbenachrichtigung wird eine Nachricht an das PNCH gesendet. Die Nachricht wird dort gehalten, bis sie an den mobilen Client übermittelt werden kann oder das Zeitlimit abläuft. 
+Pushbenachrichtigungen und das Push Notification Clearing House (PNCH) sind zwei wichtige Bestandteile des Mobilitätsfeatures. Pushbenachrichtigung ist der Prozess, bei dem eine Nachricht an das PNCH gesendet wird. Die Nachricht wird hier gehalten, bis sie an den mobilen Client zugestellt werden kann oder der Timeoutzeitraum abläuft. 
   
 > [!NOTE]
-> Der Zeitraum wird beim Push Notification Clearing House festgelegt und kann vom Benutzer oder Administrator der Bereitstellung nicht konfiguriert werden. 
+> Der Zeitraum wird im Push Notification Clearing House festgelegt und kann vom Benutzer oder Administrator Ihrer Bereitstellung nicht konfiguriert werden. 
   
-Führen Sie die folgenden Schritte aus, um die Pushbenachrichtigung zu aktivieren:
+Gehen Sie wie folgt vor, um Pushbenachrichtigungen zu aktivieren:
   
-1. **Bereich:** Beachten Sie den Bereich dieser Richtlinie. Er kann entweder **Global** lauten, was für alle Benutzer in dieser Bereitstellung gilt, oder **Standort**, was nur für Benutzer gilt, die Homeservern des angegebenen Standorts zugewiesen sind.
+1. **Bereich:** Beachten Sie den Bereich für diese Richtlinie. Es kann entweder **"Global"** sein, was für alle Benutzer in dieser Bereitstellung gilt, oder **"Site",** bei dem es sich nur um Benutzer handelt, die den Homeservern am angegebenen Standort zugewiesen sind.
     
     > [!IMPORTANT]
-    > Richtlinieneinstellungen, die auf einer bestimmten Richtlinienebene angewendet werden, können durch Einstellungen überschrieben werden, die auf einer anderen Richtlinienebene angewendet werden. Dabei gilt folgende Rangfolge: Benutzerrichtlinien (größter Einfluss) überschreiben Standortrichtlinien und diese überschreiben wiederum globale Richtlinien (geringster Einfluss). Mit anderen Worten: Je geringer der Abstand zwischen Richtlinieneinstellung und betroffenem Objekt, desto stärker der Einfluss auf das Objekt. 
+    > Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen überschreiben, die auf eine andere Richtlinienebene angewendet wurden. Richtlinienrangfolge ist: Benutzerrichtlinie (größter Einfluss) setzt eine Standortrichtlinie außer Kraft, und dann setzt eine Standortrichtlinie eine globale Richtlinie außer Kraft (geringster Einfluss). Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie. 
   
-2. Wählen Sie aus, welche Pushbenachrichtigungsdienste Sie aktivieren möchten, indem Sie das jeweilige Kontrollkästchen aktivieren:
+2. Wählen Sie die Pushbenachrichtigungsdienste aus, die Sie aktivieren möchten, indem Sie auf das Kontrollkästchen für:
     
-   - **Aktivieren von Microsoft Push-Benachrichtigungen** aktiviert die Push-Benachrichtigung für die Cloud-basierte PNCH für Windows Phone mit der Skype for Business-App
+   - **Wenn Sie die Pushbenachrichtigung von Microsoft** aktivieren, wird die Pushbenachrichtigung an den cloudbasierten PNCH für Windows Phone mit der Skype for Business-App aktiviert.
     
-   - **Apple Push-Benachrichtigung aktivieren** aktiviert die Push-Benachrichtigung an den Apple-PNCH für Geräte, auf denen Apples IOS ausgeführt wird (beispielsweise iPhone, iPad) und mit der Skype for Business-App
+   - **Wenn Sie die Apple-Pushbenachrichtigung** aktivieren, wird die Pushbenachrichtigung an den Apple PNCH für Geräte aktiviert, auf denen Apples iOS ausgeführt wird (z. B. iPhone, iPad) und die Skype for Business-App verwendet wird.
     
-3. Klicken Sie nach Abschluss der Änderungen an der Richtlinie auf **Commit ausführen**, um Ihre Änderungen zu speichern. Falls Sie die vorgenommenen Änderungen löschen möchten, wählen Sie **Abbrechen**. Die Änderungen der Richtlinie werden dann nicht gespeichert.
+3. Wenn Sie die Änderungen an der Richtlinie abgeschlossen haben, klicken Sie auf **"Commit",** um ihre Änderungen zu speichern. Wenn Sie die vorgenommenen Änderungen löschen müssen, wählen Sie **"Abbrechen" aus.** Es werden keine Änderungen an der Richtlinie gespeichert.
     
 

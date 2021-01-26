@@ -1,8 +1,8 @@
 ---
 title: Aktivieren von Benutzern für Enterprise-VoIP in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,59 +15,59 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie mit Enterprise-VoIP in Skype for Business Server Anrufe tätigen und empfangen können.'
-ms.openlocfilehash: 571f708e43b271252840d03ec08e1602f62854d1
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Benutzern das Senden und Empfangen von Anrufen mithilfe Enterprise-VoIP Skype for Business Server ermöglichen.'
+ms.openlocfilehash: 3c18836f1c2b03d2c6d50712f33d9e3a900b43b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767258"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830875"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Aktivieren von Benutzern für Enterprise-VoIP in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server mithilfe von Enterprise-VoIP Anrufe tätigen und empfangen können.
+**Zusammenfassung:** Erfahren Sie, wie Sie Benutzern das Senden und Empfangen von Anrufen mithilfe Enterprise-VoIP Skype for Business Server ermöglichen.
   
-Nachdem Sie Enterprise-VoIP oder-Anruf über Arbeit bereitgestellt haben, können Sie die folgenden Verfahren verwenden, um einem Benutzer das tätigen von Anrufen mithilfe von Enterprise-VoIP zu ermöglichen:
+Nachdem Sie "Enterprise-VoIP" oder "Anruf über Arbeit" bereitgestellt haben, können Sie einem Benutzer mithilfe der folgenden Verfahren ermöglichen, Anrufe mithilfe von Enterprise-VoIP:
   
 > [!NOTE]
-> Von den folgenden Verfahren kann nur die erste mithilfe der Skype for Business Server-Systemsteuerung ausgeführt werden. Für die restlichen Verfahren können Sie nur die Skype for Business Server-Verwaltungsshell verwenden. 
+> Von den folgenden Verfahren kann nur das erste mit der Skype for Business Server-Systemsteuerung ausgeführt werden. Für die verbleibenden Verfahren können Sie nur die Skype for Business Server-Verwaltungsshell verwenden. 
   
 - Aktivieren Sie das Benutzerkonto für Enterprise-VoIP.
     
-- (Optional) Zuweisen einer benutzerspezifischen VoIP-Richtlinie für das Benutzerkonto.
+- (Optional) Weisen Sie dem Benutzerkonto eine benutzerspezifische Sprachrichtlinie zu.
     
-- (Optional) Zuweisen eines benutzerspezifischen Satzes mit Wähleinstellungen für das Benutzerkonto.
+- (Optional) Weisen Sie dem Benutzerkonto einen benutzerspezifischen Wählplan zu.
     
 ### <a name="to-enable-a-user-account-for-enterprise-voice"></a>So aktivieren Sie ein Benutzerkonto für Enterprise-VoIP
 
-1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.
+1. Melden Sie sich am Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Rolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** an.
     
 2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
-4. Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, das aktiviert werden soll und klicken Sie dann auf **Suchen**.
+4. Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, das aktiviert werden soll, und klicken Sie dann auf **Suchen**.
     
-5. Klicken Sie in der Tabelle auf das Benutzerkonto, das Sie für Enterprise-VoIP aktivieren möchten.
+5. Klicken Sie in der Tabelle auf das Benutzerkonto, das Sie für die Enterprise-VoIP.
     
-6. Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
+6. Klicken Sie im Menü **Bearbeiten** auf **Details einblenden**.
     
-7. Klicken Sie auf der Seite **Skype for Business Server-Benutzer bearbeiten** unter **Telefonie**auf **Enterprise-VoIP**.
+7. Klicken Sie **auf der Seite "Skype for Business Server-Benutzer** bearbeiten" unter "Telefonie" auf **Enterprise-VoIP**. 
     
-8. Klicken Sie auf **Anschluss-URI** und geben Sie eine eindeutige, normalisierte Telefonnummer ein (beispielsweise tel:+14255550200).
+8. Klicken **Sie auf den Leitungs-URI,** und geben Sie dann eine eindeutige, normalisierte Telefonnummer ein (z. B. tel:+14255550200).
     
 9. Klicken Sie auf **Commit ausführen**.
     
-Um die Aktivierung eines Benutzers für Enterprise-VoIP abzuschließen, stellen Sie sicher, dass dem Benutzer eine VoIP-Richtlinie und ein Wählplan zugewiesen ist, egal ob Global (standardmäßig zugewiesen) oder benutzerspezifisch. Standardmäßig werden allen Benutzern eine globale VoIP-Richtlinie und ein Wählplan zugewiesen. Wenn auf Standortebene eine VoIP-Richtlinie für den Standort vorhanden ist, der das Benutzerkonto verwaltet, gelten diese Standortrichtlinien automatisch für alle Benutzer. Führen Sie die Cmdlets **Grant-CsVoicePolicy** und **Grant-CsDialPlan** aus, um eine benutzerspezifische VoIP-Richtlinie oder einen Wählplan für einen Benutzer anzuwenden. Ausführliche Informationen finden Sie in den folgenden Verfahren in diesem Thema.
-## <a name="voice-policy-assignment"></a>Zuweisen einer VoIP-Richtlinie
+Um die Aktivierung eines Benutzers für Enterprise-VoIP zu beenden, stellen Sie sicher, dass dem Benutzer eine Sprachrichtlinie und ein Wählplan zugewiesen sind, unabhängig davon, ob es sich um eine globale (standardmäßig zugewiesene) oder benutzerspezifische Richtlinie handelt. Standardmäßig wird allen Benutzern eine globale Sprachrichtlinie und ein Wählplan zugewiesen. Wenn eine Sprachrichtlinie oder ein Wählplan auf Standortebene für den Standort vorhanden ist, auf dem das Benutzerkonto gespeichert ist, gelten diese Standortrichtlinien automatisch für den Benutzer. Zum Anwenden einer benutzerspezifischen Sprachrichtlinie oder eines Wählplans auf einen Benutzer müssen Sie die **Cmdlets "Grant-CsVoicePolicy"** und **"Grant-CsDialPlan"** ausführen. Weitere Informationen finden Sie in den folgenden Verfahren in diesem Thema.
+## <a name="voice-policy-assignment"></a>Zuweisung von Sprachrichtlinien
 
-VoIP-Richtlinien auf globaler und Websiteebene werden automatisch allen Benutzerkonten zugewiesen, die für Enterprise-VoIP aktiviert sind. Sie können auch VoIP-Richtlinien erstellen, die für spezielle Benutzer oder Gruppen gelten. Diese benutzerbezogenen Richtlinien müssen den Benutzern oder Gruppen explizit zugewiesen werden. Wenn Sie die Global-oder Website-VoIP-Richtlinie für alle Benutzer verwenden möchten, die für Enterprise-VoIP aktiviert sind, können Sie diesen Abschnitt überspringen und weiter unten in diesem Thema den Abschnitt " [Wähl Plan Zuweisung](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) " auswählen.
+Globale und Standortrichtlinien werden automatisch allen Benutzerkonten zugewiesen, die für die Enterprise-VoIP. Sie können auch Sprachrichtlinien erstellen, die für bestimmte Benutzer oder Gruppen gelten. Diese Benutzerrichtlinien müssen den Benutzern oder Gruppen explizit zugewiesen werden. Wenn Sie die globale Oder Standort-Voice-Richtlinie für alle Benutzer verwenden möchten, die für [](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) Enterprise-VoIP aktiviert sind, können Sie diesen Abschnitt überspringen und mit dem Abschnitt "Zuweisung von Wählplanen" weiter später in diesem Thema fortfahren.
   
-### <a name="to-assign-a-user-specific-voice-policy"></a>So weisen Sie eine benutzerspezifische VoIP-Richtlinie zu
+### <a name="to-assign-a-user-specific-voice-policy"></a>So weisen Sie eine benutzerspezifische Sprachrichtlinie zu
 
-1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus, um einem Benutzer eine vorhandene VoIP-Benutzerrichtlinie zuzuweisen:
     
@@ -81,20 +81,20 @@ VoIP-Richtlinien auf globaler und Websiteebene werden automatisch allen Benutzer
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
-    In diesem Beispiel erhält der Benutzer mit dem Anzeigenamen Bob Kelly die VoIP-Richtlinie mit dem Namen **VoicePolicyJapan**.
+    In diesem Beispiel wird dem Benutzer mit dem Anzeigenamen Bob Kelly die Sprachrichtlinie mit dem Namen **"VoicePolicyJapan" zugewiesen.**
     
-## <a name="dial-plan-assignment"></a>Zuweisen eines Wählplans
+## <a name="dial-plan-assignment"></a>Zuweisung von Wählplanen
 <a name="BKMK_DialPlanAssignment"> </a>
 
-Um die Konfiguration des Benutzerkontos für Benutzer von Enterprise-VoIP oder Benutzer von Einwahlkonferenzen abzuschließen, muss dem Benutzer ein Wählplan zugewiesen sein. Benutzerkonten verwenden automatisch den globalen Wählplan oder, falls vorhanden, den Wählplan auf Standortebene, wenn Sie nicht jedem Benutzer explizit einen vorhandenen Wählplan zuweisen. Wenn Sie den Global-oder Website Wähl Plan für alle Benutzer verwenden möchten, die für Enterprise-VoIP aktiviert sind, können Sie diesen Abschnitt überspringen.
+Für den Abschluss der Benutzerkontokonfiguration für Benutzer von Enterprise-VoIP oder Benutzer von Einwahlkonferenzen müssen dem Benutzer Wähleinstellungen zugewiesen werden. Benutzerkonten verwenden automatisch den globalen Wählplan oder, falls vorhanden, den Wählplan auf Standortebene, wenn Sie keinen vorhandenen Wählplan auf Benutzerebene explizit zuweisen. Wenn Sie den globalen Wählplan oder den Standortwählplan für alle Benutzer verwenden möchten, die für Enterprise-VoIP aktiviert sind, können Sie diesen Abschnitt überspringen.
   
-### <a name="to-assign-a-user-specific-dial-plan"></a>Zuweisen eines benutzerspezifischen Wählplans
+### <a name="to-assign-a-user-specific-dial-plan"></a>So weisen Sie einen benutzerspezifischen Wählplan zu
 
-1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
     
-3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus, um einen benutzerspezifischen Wählplan zuzuweisen:
+3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus, um benutzerspezifische Wähleinstellungen zuzuweisen:
     
    ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
@@ -106,6 +106,6 @@ Um die Konfiguration des Benutzerkontos für Benutzer von Enterprise-VoIP oder B
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 
-    In diesem Beispiel erhält der Benutzer mit dem Anzeigenamen Bob Kelly den Benutzer Wählplan mit dem Namen **DialPlanJapan**.
+    In diesem Beispiel wird dem Benutzer mit dem Anzeigenamen Bob Kelly der Benutzerwählplan mit dem Namen **DialPlanJapan zugewiesen.**
     
 

@@ -1,8 +1,8 @@
 ---
-title: Optional Überprüfen der Bereitstellung des Anruf Parks in Skype for Business
+title: (Optional) Überprüfen der Bereitstellung des Parkens von Anrufen in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-description: Überprüfen Ihrer Bereitstellung des Anruf Parks in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: 7dfaf916e94db18c3b53fc7e9c9e3b136fa445b8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Überprüfen Ihrer Bereitstellung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: a7edb9f47610bf7cdae068ca789670ab4048bb9c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767338"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830895"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>Optional Überprüfen der Bereitstellung des Anruf Parks in Skype for Business
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Bereitstellung des Parkens von Anrufen in Skype for Business
  
-Überprüfen Ihrer Bereitstellung des Anruf Parks in Skype for Business Server Enterprise-VoIP 
+Überprüfen Ihrer Bereitstellung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP. 
   
-Nachdem Sie den Parken von Anrufen installiert und konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass das Parken und Abrufen von anrufen wie erwartet funktioniert. Überprüfen Sie mindestens Folgendes:
+Nachdem Sie das Parken von Anrufen installiert und konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass das Parken und Abrufen von Anrufen wie erwartet funktioniert. Überprüfen Sie mindestens Folgendes:
   
-- Rufen Sie einen Benutzer an, der den Anruf Park aktiviert hat, und lassen Sie den Anruf vom Nutzer Parken.
+- Rufen Sie einen Benutzer an, für den das Parken von Anrufen aktiviert ist, und fordern Sie den Benutzer auf, den Anruf zu parken.
     
     > [!NOTE]
-    > Wenn Sie den Anruf Park in der VoIP-Richtlinie unmittelbar vor der Durchführung dieses Tests aktiviert haben, muss sich der Benutzer, der den Anruf parkt, von Skype for Business abmelden und dann wieder anmelden, um die Option Parken in der Anrufliste zu sehen. 
+    > Wenn Sie das Parken von Anrufen in der Sprachrichtlinie direkt vor diesem Test aktiviert haben, muss sich der Benutzer, der den Anruf parkt, von Skype for Business abmelden und dann wieder anmelden, um die Option zum Parken von Anrufen in der Anrufliste sehen zu können. 
   
-- Wählen Sie die Orbitnummer aus, um den Anruf entgegenzunehmen.
+- Wählen Sie die Orbitnummer, um den Anruf abzurufen.
     
-- Parken Sie einen weiteren Anruf, lassen Sie die Zeitspanne für die Zeitüberschreitung verstreichen und nehmen Sie den Rückruf nicht entgegen. Überprüfen Sie, ob der Anruf, bei dem eine Zeitüberschreitung aufgetreten ist, ordnungsgemäß an das für **OnTimeoutURI** angegebene Fallbackziel weitergeleitet wurde.
+- Parken Sie einen weiteren Anruf, lassen Sie für den geparkten Anruf ein Zeit out, und nehmen Sie den Rückruf nicht wieder auf. Stellen Sie sicher, dass der Zeittimeoutanruf ordnungsgemäß an das Fallbackziel geroutet wurde, das für **OnTimeoutURI angegeben ist.**
     
 

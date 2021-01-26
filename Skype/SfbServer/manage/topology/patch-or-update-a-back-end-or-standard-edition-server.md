@@ -1,8 +1,8 @@
 ---
 title: Patchen oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,75 +11,75 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie ein Update oder Patch auf einem Back-End-Server in Skype for Business Server installieren.'
-ms.openlocfilehash: 62c7a0c2e0c958e9f3e6c566d9e73a35d1dd945a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Informationen zum Installieren eines Updates oder Patches auf einem Back-End-Server in Skype for Business Server.'
+ms.openlocfilehash: 3e5e0cda1604f3144e853cfa3bf7bcc45e7d0c2f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817096"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826305"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Patchen oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers in Skype for Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie ein Update oder Patch auf einem Back-End-Server in Skype for Business Server installieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie ein Update oder einen Patch auf einem Back-End-Server in Skype for Business Server installieren.
   
-In diesem Thema wird erläutert, wie Sie ein Update auf einem Enterprise Edition-Back-End-Server oder einem Standard Edition-Server installieren.
+In diesem Thema wird erläutert, wie Sie ein Update auf einem Back-End-Server der Enterprise Edition oder auf einem Standard Edition-Server installieren.
   
-Wenn ein Back-End-Server während eines Upgrades für mindestens 30 Minuten nicht mehr zur Verfügung steht, können Benutzer dann in den Widerstands Modus wechseln. Wenn die Aktualisierung abgeschlossen ist und die Back-End-Server wieder mit den Front-End-Servern im Pool verbunden sind, werden die Benutzer an die vollständige Funktionalität zurückgegeben. Wenn das Upgrade weniger als 30 Minuten dauert, sind die Benutzer davon nicht betroffen.
+Wenn ein Back-End-Server während des Upgrades mindestens 30 Minuten aus ist, können Benutzer in den Ausfallsicherheitsmodus wechseln. Wenn das Upgrade abgeschlossen ist und die Back-End-Server wieder mit den Front-End-Servern im Pool verbunden sind, werden die Benutzer wieder voll funktionsgebunden. Wenn das Upgrade weniger als 30 Minuten dauert, sind die Benutzer nicht betroffen.
   
-### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Back-End-Server oder Standard Edition-Server aktualisieren
+### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>So aktualisieren Sie einen Back-End-Server oder Standard Edition-Server
 
-1. Melden Sie sich am Server, für den Sie das Upgrade vornehmen, als Mitglied der Rolle CsAdministrator an.
+1. Melden Sie sich am Server, für den Sie das Upgrade vornehmen, als Mitglied der Rolle "CsAdministrator" an.
     
-2. Laden Sie das Update herunter und extrahieren Sie es auf die lokale Festplatte.
+2. Laden Sie das Update herunter, und extrahieren Sie es auf die lokale Festplatte.
     
-3. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for**Business, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.
+3. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie **auf "Start",**"Alle **Programme",** **"Skype for Business"** und dann auf **"Skype for Business Server Management Shell".**
     
-4. Beenden Sie die Skype for Business Server-Dienste. Geben Sie in der Befehlszeile Folgendes ein:
+4. Beenden Sie die Skype for Business Server-Dienste. Geben Sie in die Befehlszeile Folgendes ein:
     
     ```PowerShell
     Stop-CsWindowsService
     ```
 
-5. Beenden Sie den WWW-Dienst (World Wide Web). Geben Sie in der Befehlszeile Folgendes ein:
+5. Beenden Sie den WWW-Dienst (World Wide Web). Geben Sie an der Befehlszeile Folgendes ein:
     
     ```PowerShell
     net stop w3svc
    ```
 
-6. Schließen Sie alle Skype for Business Server-Verwaltungsshell-Fenster.
+6. Schließen Sie alle Fenster der Skype for Business Server-Verwaltungsshell.
     
 7. Installieren Sie das Update.
     
-8. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for**Business, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.
+8. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie **auf "Start",**"Alle **Programme",** **"Skype for Business"** und dann auf **"Skype for Business Server Management Shell".**
     
-9. Beenden Sie die Skype for Business Server-Dienste erneut, um globale Assemblycache-d-Assemblys zu erfassen. Geben Sie in der Befehlszeile Folgendes ein:
+9. Beenden Sie die Skype for Business Server-Dienste erneut, um Assemblys des globalen Assemblycaches (GAC) -d abfangen. Geben Sie an der Eingabeaufforderung Folgendes ein:
     
     ```PowerShell
     Stop-CsWindowsService
     ```
 
-10. Starten Sie den WWW-Dienst neu. Geben Sie in der Befehlszeile Folgendes ein:
+10. Starten Sie den WWW-Dienst neu. Geben Sie an der Befehlszeile Folgendes ein:
     
     ```PowerShell
     net start w3svc
     ```
 
-11. Übernehmen Sie die vorgenommenen Änderungen für die SQL Server-Datenbanken, indem Sie einen der folgenden Schritte ausführen:
+11. Wenden Sie die an den SQL Server vorgenommenen Änderungen an, indem Sie eine der folgenden Schritte vornehmen:
     
-    - Wenn dies ein Enterprise Edition-Back-End-Server ist und auf diesem Server keine zusammengefassten Datenbanken wie Archivierungs-oder Überwachungsdatenbanken vorhanden sind, geben Sie Folgendes an einer Befehlszeile ein:
+    - Wenn es sich um einen Enterprise Edition-Back-End-Server handelt und auf diesem Server keine datenbanken, z. B. Archivierungs- oder Überwachungsdatenbanken, vorhanden sind, geben Sie an einer Befehlszeile Folgendes ein:
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
-    - Wenn es sich um einen Enterprise Edition-Back-End-Server handelt und auf diesem Server zusammengefasste Datenbanken vorhanden sind, geben Sie Folgendes an einer Befehlszeile ein:
+    - Wenn es sich um einen Enterprise Edition-Back-End-Server handelt und auf diesem Server eine datenbankverknappte Datenbank vorhanden ist, geben Sie an einer Befehlszeile Folgendes ein:
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
-    - Wenn es sich um einen Standard Edition-Server handelt, geben Sie Folgendes an einer Befehlszeile ein:
+    - Wenn es sich um einen Standard Edition-Server handelt, geben Sie an einer Befehlszeile Folgendes ein:
     
     ```PowerShell
     Install-CsDatabase -Update -LocalDatabases

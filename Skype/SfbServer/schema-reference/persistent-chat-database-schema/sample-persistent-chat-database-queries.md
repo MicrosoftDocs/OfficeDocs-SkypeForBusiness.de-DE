@@ -1,8 +1,8 @@
 ---
 title: Beispieldatenbankabfragen für beständigen Chat
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-description: Dieser Abschnitt enthält Beispielabfragen für die Datenbank des beständigen Chats.
-ms.openlocfilehash: f161deb55cb9ecb0e42eb23e71cd842aa8f3d99a
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Dieser Abschnitt enthält Beispielabfragen für die Datenbank für beständigen Chat.
+ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887714"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823105"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Beispieldatenbankabfragen für beständigen Chat
  
-Dieser Abschnitt enthält Beispielabfragen für die Datenbank des beständigen Chats.
+Dieser Abschnitt enthält Beispielabfragen für die Datenbank für beständigen Chat.
   
-Verwenden Sie das folgende Beispiel, um nach einem bestimmten Datum eine Liste Ihrer aktivsten beständigen Chatrooms abzurufen.
+Verwenden Sie das folgende Beispiel, um eine Liste der aktivsten Chatrooms für beständigen Chat nach einem bestimmten Datum zu erhalten.
   
 ```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
@@ -34,7 +34,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-Verwenden Sie das folgende Beispiel, um nach einem bestimmten Datum eine Liste Ihrer aktivsten Benutzer abzurufen.
+Mithilfe des folgenden Beispiels können Sie eine Liste der aktivsten Benutzer nach einem bestimmten Datum abrufen.
   
 ```SQL
 SELECT prinName as Name, count(*) as ChatMessages
@@ -44,7 +44,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-Verwenden Sie das folgende Beispiel, um eine Liste aller Personen abzurufen, die jemals eine Nachricht mit "Hello World" gesendet haben.
+Mithilfe des folgenden Beispiels können Sie eine Liste aller Benutzer abrufen, die jemals eine Nachricht mit "Hello World" gesendet haben.
   
 ```SQL
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
@@ -52,7 +52,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 ```
 
-Verwenden Sie das folgende Beispiel, um eine Liste der Gruppenmitgliedschaften für einen bestimmten Prinzipal abzurufen.
+Mithilfe des folgenden Beispiels können Sie eine Liste der Gruppenmitgliedschaften für einen bestimmten Prinzipal abrufen.
   
 ```SQL
 SELECT prinName as Name    
@@ -60,7 +60,7 @@ SELECT prinName as Name
   where principalID = 7 and affiliationID = prinID
 ```
 
-Verwenden Sie das folgende Beispiel, um eine Liste aller Chatrooms abzurufen, bei denen ein Benutzer, Jane Dow, ein direktes Mitglied ist.
+Mithilfe des folgenden Beispiels können Sie eine Liste aller Chatrooms abrufen, in denen der Benutzer "Jane Dow" direktes Mitglied ist.
   
 ```SQL
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
@@ -68,7 +68,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 ```
 
-Verwenden Sie das folgende Beispiel, um eine Liste der Einladungen abzurufen, die ein Benutzer erhalten hat.
+Mithilfe des folgenden Beispiels können Sie eine Liste der empfangenen Einladungen eines Benutzers abrufen.
   
 ```SQL
 SELECT prinName
