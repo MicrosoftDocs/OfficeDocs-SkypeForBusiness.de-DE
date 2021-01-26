@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786787"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973069"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -39,7 +39,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Anzahl von Mitgliedern in einem Team | 10.000<sup>5</sup>     |
 |Anzahl von Besitzern pro Team | 100   |
 |Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5     |
-|Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 5.000       |
+|Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 10.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
 |Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500.000&sup2;     |
 |Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup3;         |
@@ -57,7 +57,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 <sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
 
-<sup>5</sup> Teams in der GCC können nur 5.000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2.500 Mitglieder.
+<sup>5</sup> Teams in der GCC können nur Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2.500 Mitglieder.
 
 ## <a name="messaging"></a>Messaging
 
