@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5f96d120d30f723f55299325dca9bb1b3126ac0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4fad33d1107a9c7aaecf9dc2eca9dd3b405637fb
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809555"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973149"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
 Organisationsweite Teams bieten in kleinen und mittelständischen Organisationen eine automatische Möglichkeit für alle Personen, Teil eines gemeinsamen Teams für die Zusammenarbeit zu werden.
 
-Mit organisationsweiten Teams können globale Administratoren ganz einfach ein öffentliches Team erstellen, das alle Benutzer in der Organisation aufnimmt. Mithilfe von Active Directory Domain Services kann die Mitgliedschaft auf dem aktuellen Stand gehalten werden, zum Beispiel wenn Benutzer der Organisation beitreten oder diese verlassen. Nur globale Administratoren können organisationsweite Teams erstellen, und derzeit ist ein organisationsweites Team auf Organisationen mit nicht mehr als 5.000 Benutzern beschränkt. Außerdem gibt es eine Beschränkung auf fünf organisationsweite Teams pro Mandant. Wenn diese Voraussetzungen erfüllt sind, wird globalen Administratoren **Organisationsweit** als Option angezeigt, wenn sie beim Aufbau eines neuen Teams **Neuerstellen eines Teams** auswählen. 
+Mit organisationsweiten Teams können globale Administratoren ganz einfach ein öffentliches Team erstellen, das alle Benutzer in der Organisation aufnimmt. Mithilfe von Active Directory Domain Services kann die Mitgliedschaft auf dem aktuellen Stand gehalten werden, zum Beispiel wenn Benutzer der Organisation beitreten oder diese verlassen. Nur globale Administratoren können organisationsweite Teams erstellen, und derzeit ist ein organisationsweites Team auf Organisationen mit nicht mehr als 10.000 Benutzern beschränkt. Außerdem gibt es eine Beschränkung auf fünf organisationsweite Teams pro Mandant. Wenn diese Voraussetzungen erfüllt sind, wird globalen Administratoren **Organisationsweit** als Option angezeigt, wenn sie beim Aufbau eines neuen Teams **Neuerstellen eines Teams** auswählen. 
 
 ![Screenshot der Option „Organisationsweit", um ein organisationsweites Team zu erstellen](media/create-org-wide-team.png "Screenshot der Option „Organisationsweit" zum Erstellen eines organisationsweites Teams")
 
@@ -45,10 +45,10 @@ Diese Arten von Konten werden Ihrem organisationsweiten Team nicht hinzugefügt:
 Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer hinzuzufügen und Konten von Benutzern zu deaktivieren, die in Ihrem Unternehmen nicht mehr arbeiten, werden die Änderungen automatisch synchronisiert, d. h. die Benutzer werden zum Team hinzugefügt bzw. entfernt. Teammitglieder können ein organisationsweites Team nicht verlassen. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
 
 > [!NOTE]
-> - Wenn die organisationsweite  Option beim Erstellen eines Teams nicht angezeigt wird und Sie ein globaler Administrator sind, haben Sie möglicherweise das Limit von fünf organisationsweiten Teams erreicht, oder Ihre Organisation hat möglicherweise mehr als die aktuelle Größenbeschränkung von 5.000 Mitgliedern. Wir arbeiten daran, dieses Limit künftig zu erhöhen. Organisationsweite Teams sind für Microsoft Teams for Education derzeit noch nicht verfügbar.
+> - Wenn die organisationsweite  Option beim Erstellen eines Teams nicht angezeigt wird und Sie ein globaler Administrator sind, haben Sie möglicherweise das Limit von fünf organisationsweiten Teams erreicht, oder Ihre Organisation hat möglicherweise mehr als die aktuelle Größenbeschränkung von 10.000 Mitgliedern. Wir arbeiten daran, dieses Limit künftig zu erhöhen. Organisationsweite Teams sind für Microsoft Teams for Education derzeit noch nicht verfügbar.
 > - Räume, die nicht Teil einer Raumliste sind, Geräte und Ressourcenkonten werden möglicherweise dem organisationsweiten Team hinzugefügt bzw. mit diesem synchronisiert. Teambesitzer können diese Konten ganz einfach wieder aus dem Team entfernen.
 > - Alle Aktionen des Systems zum Hinzufügen oder Entfernen von Mitgliedern werden im Kanal "Allgemein" gepostet. Der Kanal wird außerdem im Teams-Client mit „Neue Aktivität“ gekennzeichnet.
-> - Wenn Ihre Organisation in Teams neu ist und nicht mehr als 5.000 Benutzer hat wird automatisch ein organisationsweites Team für Ihre Organisation erstellt. Der Teamname spiegelt den Mandantennamen wider verfügt über einen allgemeinen Kanal. Globale Administratoren können dieses Team wie jedes andere Team bearbeiten. 
+> - Wir erstellen automatisch ein organisationsweites Team für Ihre Organisation, wenn Ihre Organisation neu in Teams ist und nicht mehr als 10.000 Benutzer hat. Der Teamname spiegelt den Mandantennamen wider verfügt über einen allgemeinen Kanal. Globale Administratoren können dieses Team wie jedes andere Team bearbeiten. 
 
 ## <a name="best-practices"></a>Bewährte Methoden
 

@@ -15,71 +15,74 @@ f1.keywords:
 description: Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams unter Verwendung des Security & Compliance Center festlegen können und welche Datenanforderungen für eine gesetzliche Aufbewahrung notwendig sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63d862cbdf8d31fc00a48849c85994bd878f0bbc
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: c04f3584aa7207d9d9ee1126df992657f84aa213
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570834"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980449"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 ==================================================
 
-Wenn eine angemessene Erwartung eines Rechtsstreits vorliegt, müssen Organisationen elektronisch gespeicherte Informationen (ESI) beibehalten, einschließlich der für den Fall relevanten Team-Chatnachrichten. Organisationen müssen möglicherweise alle Nachrichten, die sich auf ein bestimmtes Thema beziehen, oder für bestimmte Personen beibehalten. In diesem Artikel wird die rechtliche Aufbewahrungszeit in Microsoft Teams behandelt (um die Implementierung über den M365-Speicherplatz zu adressieren, lesen Sie [Verwalten von eDiscovery-Fällen: Platzieren von Inhaltsspeicherorten in Wartestellung](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).).
+Wenn eine angemessene Erwartung eines Rechtsstreitigkeitens besteht, müssen Organisationen elektronisch gespeicherte Informationen (ESI) beibehalten, einschließlich Teams-Chatnachrichten, die für den Fall relevant sind. Organisationen müssen möglicherweise alle Nachrichten im Zusammenhang mit einem bestimmten Thema oder für bestimmte Personen beibehalten. Dieser Artikel behandelt die gesetzliche In-Haltebereich-Setzung in Microsoft Teams (Informationen zur Implementierung von Haltebereichs für den gesamten M365-Bereich finden Sie unter "Verwalten von [eDiscovery-Fällen:](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)In-Halten von Inhaltsspeicherorten".)
 
 > [!NOTE]
-> In Feb 2020 haben wir rechtliche Aufbewahrungs-oder Aufbewahrungs Fälle auf privaten Kanälen aktiviert (private Kanal-Chats werden in Benutzerpostfächern gespeichert, normale Kanal-Chats werden in den Gruppen Postfächern dieser Teams gespeichert). Wenn für ein Benutzerpostfach bereits eine rechtliche Aufbewahrungszeit vorhanden ist, gilt die Richtlinie für den Haltebereich jetzt automatisch für private Kanal Nachrichten, die in diesem Postfach gespeichert sind. Es ist keine weitere Aktion erforderlich, damit ein Administrator diese Option aktivieren kann. Der rechtliche Halt von Dateien, die in privaten Kanälen freigegeben werden, wird ebenfalls unterstützt.
+> Im Februar 2020 haben wir die gesetzliche Bzw. Fallspeicherung für private Kanäle aktiviert (Chats privater Kanäle werden in Benutzerpostfächern gespeichert, normale Kanalchats werden im Gruppenpostfach eines Teams gespeichert). Wenn für ein Benutzerpostfach bereits ein gesetzliches Haltefach aktiviert ist, gilt die Halterichtlinie jetzt automatisch für Nachrichten privater Kanäle, die in diesem Postfach gespeichert sind. Es ist keine weitere Maßnahme erforderlich, damit ein Administrator diese Aktion aktivieren kann. Das gesetzliche Speichern von Dateien, die in privaten Kanälen freigegeben wurden, wird ebenfalls unterstützt.
 
-In Microsoft Teams kann ein gesamtes Team oder ausgewählte Benutzer in die Wartestellung oder in den Wartebereich gesetzt werden. Dadurch wird sichergestellt, dass alle Nachrichten, die in diesen Teams (einschließlich privater Kanäle) ausgetauscht wurden, oder Nachrichten, die von diesen Personen ausgetauscht wurden, von den Compliance-Managern oder Team Administratoren der Organisation erkannt werden.
+Innerhalb von Microsoft Teams kann ein gesamtes Team oder ausgewählte Benutzer in einen Halteraum oder eine gesetzliche Schleife setzen. Dadurch wird sichergestellt, dass alle Nachrichten, die in diesen Teams ausgetauscht wurden (einschließlich privater Kanäle), oder von diesen Personen ausgetauschte Nachrichten von den Compliancemanagern oder Teamadministratoren der Organisation ermittelt werden können.
 
 > [!NOTE]
 > Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).
 
-So stellen Sie einen Benutzer oder ein Team in rechtlicher Wartestellung:
+So setzen Sie einen Benutzer oder ein Team in einen gesetzlichen Halteraum
 
-1. Navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). Wenn Sie einen neuen Fall erstellen, haben Sie die Möglichkeit, Postfächer oder Websites in Wartestellung zu platzieren.
+1. Navigieren Sie zum [Security & Compliance Center.](https://go.microsoft.com/fwlink/?linkid=854628) Wenn Sie einen neuen Fall erstellen, wird die Option angezeigt, Postfächer oder Websites in den Halteraum zu setzen.
 
-2. Wechseln Sie zu eDiscovery oder Advanced eDiscovery, und erstellen Sie einen Fall, indem Sie auf "Fall erstellen" klicken. Nachdem der Fall erstellt wurde, öffnen Sie ihn.
-
-   > [!div class="mx-imgBorder"]
-   > ![Microsoft Teams-eDiscovery-Registerkarte mit der Schaltfläche "Groß-/Kleinschreibung erstellen" ausgewählt.](media/LegalHold1.png)
-
-3. Wechseln Sie im oberen Menü zum Abschnitt "hält", und klicken Sie auf "+ erstellen", um einen Haltebereich zu erstellen. Wenn ein Benutzer oder ein Team angehalten wird, werden alle Nachrichten, die von diesen Benutzern oder Nachrichten ausgetauscht wurden, gespeichert. Wenn Sie einen neuen Fall erstellen, haben Sie die Möglichkeit, Postfächer oder Websites in Wartestellung zu platzieren.
+2. Wechseln Sie zu eDiscovery oder Advanced eDiscovery, und erstellen Sie einen Fall, indem Sie auf "Fall erstellen" klicken. Sobald der Fall erstellt wurde, öffnen Sie ihn.
 
    > [!div class="mx-imgBorder"]
-   > ![Ein Bild, in dem die Registerkarte "haltebereiche" ausgewählt ist, und die Schaltfläche "erstellen" darunter](media/LegalHold2.png)
+   > ![Die Registerkarte "Microsoft Teams eDiscovery" ist ausgewählt und zeigt die Schaltfläche "Fall erstellen" an.](media/LegalHold1.png)
 
-   1. **Nennen Sie Ihren halte** Bereich. Wählen Sie einen beschreibenden und eindeutigen Namen für den Haltebereich aus, den Sie erstellen möchten.
+3. Wechseln Sie im oberen Menü zum Abschnitt "Haltebereich", und klicken Sie auf "+ Erstellen", um einen Haltebereich zu erstellen. Wenn Sie einen Benutzer oder ein Team in den Halteraum setzen, werden alle von diesen Benutzern ausgetauschten Nachrichten oder Nachrichten erspart. Wenn Sie einen neuen Fall erstellen, wird die Option angezeigt, Postfächer oder Websites in den Halteraum zu setzen.
+
+   > [!div class="mx-imgBorder"]
+   > ![Abbildung der ausgewählten Registerkarte "Halte halte", darunter die Schaltfläche "Erstellen".](media/LegalHold2.png)
+
+   1. **Geben Sie Dem in-Halten einen Namen.** Wählen Sie einen aussagekräftigen und eindeutigen Namen für den Halteraum aus, den Sie erstellen möchten.
 
       > [!div class="mx-imgBorder"]
-      > ![Dieser Screenshot zeigt die Registerkarte Name Ihres haltebereichs, in der Sie einen Namen und eine Beschreibung für den zu erstellden Haltebereich eingeben können.](media/LegalHold3.png)
+      > ![Dieser Screenshot zeigt die Registerkarte "Halten benennen", auf der Sie einen Namen und eine Beschreibung für den halteraum eingeben können, den Sie erstellen.](media/LegalHold3.png)
 
-    2. **Wählen Sie Standort aus**. Wählen Sie aus, ob der Haltebereich auf einen Benutzer oder ein gesamtes Team angewendet werden soll (der Haltebereich kann jetzt nicht auf einzelne Kanäle angewendet werden). Hinweis: Wenn ein Benutzer angehalten wird, werden alle Nachrichten in Wartestellung gehalten, einschließlich der von Ihnen in einem 1:1-Chat gesendeten, 1: viele oder Gruppen-Chats oder einer Kanal Unterhaltung (einschließlich privater Kanäle).
+    2. **Wählen Sie den Speicherort aus.** Wählen Sie aus, ob der Halteraum auf einen Benutzer oder ein gesamtes Team angewendet werden soll (der Halteraum kann vorerst nicht für einzelne Kanäle angewendet werden). Hinweis: Wenn ein Benutzer im Halteschleifenfenster ist, werden alle nachrichten im Halteraum angezeigt, einschließlich der Nachrichten, die er in einem 1:1-Chat, einem 1:n- oder Gruppenchat oder einer Kanalunterhaltung (einschließlich privater Kanäle) gesendet hat.
   
        > [!div class="mx-imgBorder"]
-       > ![Hier befindet sich der Abschnitt "Speicherorte auswählen", in dem Sie einen neuen Haltebereich erstellen können, in dem Sie entscheiden können, welche M365-Optionen, einschließlich Microsoft Teams, auf die Sie den Haltebereich anwenden möchten.](media/LegalHold4.png)
+       > ![Hier haben wir den Abschnitt "Speicherorte auswählen" von "Neuen Haltebereich erstellen", in dem Sie entscheiden können, für welche M365-Optionen, einschließlich Microsoft Teams, der Haltebereich gelten soll.](media/LegalHold4.png)
 
-    3. **Erstellen einer Abfrage** Sie können den Haltebereich anpassen, wenn Sie mehr Granularität in der Richtlinie halten möchten. So können Sie beispielsweise Stichwörter angeben, nach denen Sie suchen, oder Sie können weitere Bedingungen hinzufügen, die erfüllt sein müssen, damit der Haltebereich wirksam wird.
+    3. **"Abfrage erstellen" aus.** Sie können den Halteraum anpassen, wenn Sie mehr Granularität in der Halterichtlinie wünschen. Sie können z. B. Schlüsselwörter angeben, nach der sie suchen sollen, oder sie können weitere Bedingungen hinzufügen, die erfüllt sein müssen, damit der Halte hold wirksam wird.
     
-    4. **Überprüfen Sie Ihre Einstellungen** , bevor Sie Sie in Ihrer Organisation veröffentlichen.
+    4. **Überprüfen Sie Ihre Einstellungen,** bevor Sie sie in Ihrer Organisation veröffentlichen.
 
-Nachdem der rechtliche Halt festgesetzt wurde, können Sie nach dem eDiscovery-Artikel von [Teams](eDiscovery-investigation.md) alle Inhalte ermitteln, die von einer Aufbewahrungsrichtlinie aufbewahrt werden.
+Nachdem die gesetzliche Stellrichtlinie festgelegt wurde, können Sie alle Inhalte, die von einer Halterichtlinie aufbewahrt werden, im Anschluss an [den Teams eDiscovery-Artikel](eDiscovery-investigation.md) ermitteln.
 
 > [!IMPORTANT]
-> Wenn ein Benutzer oder eine Gruppe in Wartestellung gesetzt wird, bleiben alle Nachrichten-Kopien erhalten. Wenn ein Benutzer beispielsweise eine Nachricht in einem Kanal gepostet und dann die Nachricht geändert hat, werden beide Kopien der Nachricht in einem Warteschleife-Szenario beibehalten. Ohne den rechtlichen Aufbewahrungs Status wird nur die neueste Nachricht beibehalten.
+> Wenn ein Benutzer oder eine Gruppe in den Halteraum gesetzt wird, werden alle Nachrichtenkopien beibehalten. Wenn ein Benutzer beispielsweise eine Nachricht in einem Kanal gepostet und dann geändert hat, bleiben in einem Halteszenario beide Kopien der Nachricht erhalten. Ohne gesetzliche In-Place-Benachrichtigung wird nur die neueste Nachricht aufbewahrt.
 
-Als hilfreiche Anleitung können Sie anhand der nachstehenden Tabelle verstehen, was auf der Grundlage der Datenanforderungen in den rechtlichen Aufbewahrungsbereich gesetzt werden muss:
+## <a name="content-locations-to-place-on-legal-hold-to-preserve-teams-content"></a>Inhaltsorte, die für die Erhaltung von Inhalten in Teams gesetzlich in einen Halteraum zu setzen sind
 
-|Szenario  |Was muss aufbewahrt werden  |
+Als hilfreiches Handbuch können Sie die folgende Tabelle verwenden, um zu verstehen, welcher Inhaltsspeicherort (z. B. ein Postfach oder eine Website) in einen gesetzlichen Halteraum verschoben werden soll, um verschiedene Arten von Teaminhalten zu erhalten.
+
+|Szenario  |Inhaltsspeicherort  |
 |---------|---------|
-|**Microsoft Teams Chat-Inhalte von einem Benutzer (in 1:1-Chats, 1: viele oder Gruppen-Chats, private Kanal Unterhaltungen usw.)**     |Benutzerpostfächer         |
-|**Microsoft Teams-Kanal-Chats (ohne private Kanäle)**    |Für das Team verwendete Gruppenpostfach         |
-|**Microsoft Teams-Inhalte (beispielsweise wiki, Dateien)**     |Vom Team verwendete SharePoint-Site         |
-|**Microsoft Teams-private Kanaldateien**     |Dedizierte SharePoint-Website für private     |
-|**Privater Inhalt des Benutzers**     |OneDrive for Business-Site des Benutzers         |
+|Teamchats für einen Benutzer (z. B. 1:1-Chats, 1:N-Gruppenchats und private Kanalunterhaltungen)     |Benutzerpostfach.         |
+|Chats in Teams-Kanälen (mit Ausnahme privater Kanäle)    |Gruppenpostfach, das für das Team verwendet wird.         |
+|Inhalt von Dateien in Teams (z. B. Wiki-Inhalt und -Dateien)     |Die vom Team verwendete SharePoint-Website.         |
+|Dateien privater Kanäle in Teams     |Dedizierte SharePoint-Website für private Kanäle.     |
+|Private Inhalte des Benutzers     |Das OneDrive for #A0 des Benutzers.         |
+|Karteninhalte in Chats|Benutzerpostfach für 1:1-Chats, 1:N-Gruppenchats und Unterhaltungen in privaten Kanälen oder Gruppenpostfach für Karteninhalte in Kanalnachrichten. Weitere Informationen finden Sie im Abschnitt "Beibehalten des Karteninhalts" in ["Erstellen eines eDiscovery-Haltebereichs".](https://docs.microsoft.com/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)
 ||||
 
 > [!NOTE]
-> Wenn Sie die Kommunikation in privaten Kanälen beibehalten möchten, müssen Sie die Benutzerpostfächer (Private Channel-Benutzer) in Wartestellung setzen, und wenn Sie das eDiscovery-Tool zum Suchen verwenden, sollten Sie im Postfach dieses Benutzers suchen. Wie bereits erwähnt, werden private Kanal-Chats in Benutzerpostfächern gespeichert, nicht im Gruppenpostfach eines Teams.
+> Um die Kommunikation in privaten Kanälen zu erhalten, müssen Sie die Benutzerpostfächer (Benutzer privater Kanäle) in den Halteraum setzen, und wenn Sie das eDiscovery-Tool für die Suche verwenden, sollten Sie im Postfach dieses Benutzers suchen. Wie bereits erwähnt, werden Chats privater Kanäle in Benutzerpostfächern und nicht in Gruppenpostfächern eines Teams gespeichert.
 
-Wenn Sie weitere Informationen zu diesem Thema für nicht-Teams-Bereiche in M365 lesen möchten, sollten Sie [eDiscovery-Fälle verwalten überprüfen: Platzieren von Inhaltsspeicherorten in Wartestellung](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).
+Weitere Informationen zu diesem Thema für Nicht-Teams-Bereiche in Microsoft 365 finden Sie unter "Verwalten von [eDiscovery-Fällen:](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)In-Haltebereich für Inhaltspositionen".
